@@ -14,7 +14,7 @@ const DIFF = {
 };
 /* Topic: [title, one-line description, options]. sub: subheading. an: adds a sentence-analysis exercise. exOnly: an exercise with no study. */
 const ACTS = [
- {roman:'0', latin:'Quid sit grammatica', name:'What Grammar Is', src:'Quintilian I.4; Diomedes; Vossius I',
+ {roman:'Preliminary', latin:'Quid sit grammatica', name:'What Grammar Is', src:'Quintilian I.4; Diomedes; Vossius I',
   gloss:'Grammar as <i>scientia recte loquendi et scribendi</i>: its matter, its offices, and its parts.',
   topics:[['The Definition of Grammar','What grammar is, what it treats, and why it is the first art of the trivium.'],
    ['The Offices of the Grammarian','<i>Lectio</i>, <i>enarratio</i>, <i>emendatio</i>, and <i>iudicium</i>: reading, explaining, correcting, and judging.'],
