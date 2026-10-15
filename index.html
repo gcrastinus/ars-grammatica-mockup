@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ars Grammatica — mockup of the rebuild</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<div id="top-right-controls" class="top-right-controls">
+<button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾</button>
+</div>
+<div class="wrap">
+  <div class="screen active" id="scr-home">
+    <header>
+      <div class="ornament">❦</div>
+      <h1>Ars Grammatica</h1>
+      <div class="subtitle">The first art of the trivium</div>
+    </header>
+    <div class="intro-note">
+      <strong>Grammar is the art of speaking and writing correctly.</strong> This is a mockup of the planned order of the course. The cards are placeholders: their studies and exercises are in preparation.
+    </div>
+    <div class="rule"></div>
+    <div class="section-label">Difficulty</div>
+    <div class="diff-row" id="diff-row"></div>
+    <div class="diff-desc" id="diff-desc"></div>
+    <div class="art-row" id="art-row" role="group" aria-label="Choose the course"></div>
+    <div class="rule"></div>
+    <div id="home-acts"></div>
+    <div class="btn-row" style="margin-top:40px">
+      <button class="btn mock-soon">Progress</button>
+      <button class="btn mock-soon">Sources</button>
+      <button class="btn mock-soon">Ars Syllogistica ⟶</button>
+    </div>
+    <p class="designer-credit">These sets of exercises were designed by Timothy Kearns, PhD, created and maintained with the assistance of AI, and are extensively revised for clarity and precision.</p>
+    <div class="si-home"><a href="https://studiuminstitute.org">Studium Institute</a></div>
+  </div>
+</div>
+<div class="mock-toast" id="toast">Coming soon</div>
+<script src="app.js"></script>
+</body>
+</html>
