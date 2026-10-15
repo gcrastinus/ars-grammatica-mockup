@@ -82,12 +82,11 @@ const ACTS = [
   topics:[['Literal and Figurative Sense','What a word says properly, and what it says by a turn.'],
    ['Figures of Words (<i>schemata lexeos</i>)','Repetition, omission, and arrangement used for effect.'],
    ['Tropes','Metaphor, metonymy, synecdoche, and the other turns of meaning.']]},
- {roman:'VIII', latin:'De significatione et suppositione', name:'Signification and Supposition', src:'Thomas of Erfurt; Peter of Spain, <i>Summulae</i>; <i>Grammaire générale et raisonnée</i> (1660)',
+ {roman:'VIII', latin:'De significatione et suppositione', name:'Signification and Supposition', src:'Thomas of Erfurt; Peter of Spain, <i>Summulae</i>',
   gloss:'Where grammar hands over to logic.',
   topics:[['The Reasons for the Parts','The modistae: modes of being, understanding, and signifying as the ground of the parts.'],
    ['Supposition','What a term stands for in a sentence, as distinct from what it signifies.'],
-   ['Grammatical Equivalents of Logical Forms','How subject, copula, and predicate, quantity, and negation appear in grammar.'],
-   ['Port-Royal and Universal Grammar','The general grammar of 1660 and its heirs.']]},
+   ['Grammatical Equivalents of Logical Forms','How subject, copula, and predicate, quantity, and negation appear in grammar.']]},
  {roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages', src:'Quintilian I.8; Servius',
   gloss:'The whole art put to work: sentences and passages mostly in English, with some Latin, Greek, German, and French, each translated and with its distinctive points noted.',
   topics:[['Analysis of Sentences','A large exercise in parsing and construing whole sentences.',{exOnly:1}],
@@ -99,8 +98,10 @@ const ACTS = [
    ['Imitation','Writing after a model author.'],
    ['Translation','Double translation: into another language and back again, compared with the original.'],
    ['Chreia and Maxim','The first exercises of composition: the saying and the deed, expanded.']]},
- {name:'Appendix: Other Traditions of Grammar', gloss:'A brief comparison with grammars outside the Greek and Latin line.',
-  topics:[['Other Traditions of Grammar','The Sanskrit grammarians (<i>vyākaraṇa</i>), Arabic grammar (<i>naḥw</i>), and Chinese philology (<i>xiaoxue</i>), in brief.']]}
+ {roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar', src:'Pāṇini, <i>Aṣṭādhyāyī</i>; Sībawayh, <i>al-Kitāb</i>; <i>Grammaire générale et raisonnée</i> (1660); Chomsky',
+  gloss:'The art seen from outside: the other classical grammars, and the modern heirs of universal grammar.',
+  topics:[['The Other Classical Traditions','The major differences from the Greco-Latin art: Sanskrit grammar and Pāṇini (<i>vyākaraṇa</i>), Arabic grammar (<i>naḥw</i>), Hebrew grammar, and Chinese philology (<i>xiaoxue</i>).'],
+   ['Universal Grammar and Modern Linguistics','From Port-Royal to Chomsky: universal grammar, structural and generative grammar, dependency grammar as heir of Thomas’s <i>dependens</i> and <i>terminans</i>, and speech acts.']]}
 ];
 
 let toastT = null;
