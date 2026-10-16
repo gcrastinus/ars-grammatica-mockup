@@ -131,3 +131,9 @@ The main English terms for errors of speech are "error," "barbarism," "solecism,
 Use "fault" (or "vice") only when reporting what the ancient and medieval grammarians say or when translating *vitium*. For example: "Donatus treats the faults of speech (*vitia*): the barbarism and the solecism." The idea of *vitium* may stay at the center of the section, but "fault" should not be the word the app itself uses for an error.
 - Not: "A barbarism is a fault in a single word." Instead: "A barbarism is an error in a single word."
 - Not: "The construction is faulty." Instead: "The construction is incorrect."
+
+## Direct questions in titles and openings
+
+In titles, headings and opening lines, prefer a direct question to an indirect one.
+- Not: "What grammar is." Instead: "What is grammar?"
+- Not: "Why the parts are eight." Instead: "Why are there eight parts of speech?"
