@@ -59,7 +59,7 @@ ARS.decks['prelim.definition'] = {
 { id: 'voice-to-sentence',
   title: 'How is speech built up from the voice to the sentence?',
   body: `<p>Speech is built in steps, each larger than the one before it:</p>
-<p>the <strong>voice</strong>, that is, struck air perceptible to hearing;<br>the <strong>letter</strong>, the least part of the voice that can be written;<br>the <strong>syllable</strong>, a sound pronounced in one utterance;<br>the <strong>word</strong>, the least part of speech that signifies;<br>the <strong>sentence</strong>, words arranged so that they express a complete thought.</p>
+<p>the <strong>voice</strong>, that is, the motion of air perceptible to hearing;<br>the <strong>letter</strong>, the least part of the voice that can be written;<br>the <strong>syllable</strong>, a sound pronounced in one utterance;<br>the <strong>word</strong>, the least part of speech that signifies;<br>the <strong>sentence</strong>, words arranged so that they express a complete thought.</p>
 <p>Meaning does not begin at the voice, the letter, or the syllable; it begins at the word. Truth and falsity begin only at the sentence, because only a sentence says something about something. The syllable “pa” in “paper” signifies nothing by itself; the word “paper” signifies; and the sentence “The paper is white” is true or false.</p>`,
   src: `Donatus, <i>Ars maior</i> I (I.1 on the voice); Priscian, <i>Institutiones</i> I–II, in paraphrase.`,
   qp: { id: 'q-meaning', variants: [
