@@ -18,7 +18,7 @@ const ACTS = [
   gloss:'Grammar as <i>scientia recte loquendi et scribendi</i>: its matter, its offices, and its parts.',
   topics:[['The Definition of Grammar','What grammar is, what it treats, and why it is the first art of the trivium.'],
    ['The Offices of the Grammarian','<i>Lectio</i>, <i>enarratio</i>, <i>emendatio</i>, and <i>iudicium</i>: reading, explaining, correcting, and judging.'],
-   ['<i>Methodice</i> and <i>Historice</i>','The two parts of grammar: the precepts of the art and the reading of the authors.'],
+   ['Principles and Interpretation','The two parts of grammar: the precepts of the art and the reading of the authors.'],
    ['The Criteria of Correctness','Reason, antiquity, authority, and custom, the four tests of correct speech.']]},
  {roman:'I', latin:'De signo et voce significativa', name:'Sign and Word', src:'Aristotle, <i>De interpretatione</i> 1–4; Augustine, <i>De doctrina christiana</i> II; Priscian II',
   gloss:'What a word is as a sign: imposed, signifying, and joined to other words.',

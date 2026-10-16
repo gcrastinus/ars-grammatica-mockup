@@ -11,7 +11,7 @@ ARS.structure = [
    items:[
    { id:'prelim.definition', kind:'study', built:true, title:'The Definition of Grammar', desc:'What is grammar, what does it treat, and why is it the first art of the trivium?' },
    { id:'prelim.offices', kind:'study', built:true, title:'The Tasks of the Grammarian', desc:'Reading, explaining, correcting, and judging (<i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, <i>iudicium</i>).' },
-   { id:'prelim.methodice', kind:'study', built:true, title:'<i>Methodice</i> and <i>Historice</i>', desc:'The two parts of grammar: the precepts of the art and the interpretation of the authors.' },
+   { id:'prelim.methodice', kind:'study', built:true, title:'Principles and Interpretation', desc:'The two parts of grammar: the precepts of the art and the interpretation of the authors.' },
    { id:'prelim.criteria', kind:'study', built:true, title:'The Criteria of Correctness', desc:'Reason, antiquity, authority, and usage as the standards of correct speech.' }
  ]},
  { id:'i', roman:'I', latin:'De signo et voce significativa', name:'Sign and Significant Voice',

@@ -122,3 +122,12 @@ Self-review pass, awaiting Timothy's review. No quotations, citations, question 
 - Methodice card 6: "such as Donatus’s *Ars minor*" and "such as Servius’s commentary on Vergil" added.
 - Criteria card 5: Butler's "educated men" kept (Timothy's decision).
 - Criteria card 8: "“Goed” for “went” … “The boys runs” for “The boys run”" → "“Irregardless” for “regardless” is a barbarism, and “The list of books are on the table” for “The list of books is on the table” is a solecism." (Checked against the four prelim decks and the live app; neither example occurs elsewhere. The "goed" questions on cards 2 and 6 test analogy and usage, not this card, and are unchanged.)
+
+## G. Log: "Methodice and Historice" → "Principles and Interpretation" (16 Oct 2026)
+
+Timothy's decision: the working English names are "principles" (or "the part concerned with principles") for *methodice* and "interpretation" for *historice*. The Greek names stay only where the text reports what the ancients called them, in italic parentheses after the English (card 1), and where cards 2 and 3 explain the Greek names.
+
+- Deck title: *Methodice* and *Historice* → Principles and Interpretation (also in structure.js, app.js, ITEM-LIST.md). File name and id prelim.methodice unchanged.
+- Card titles: "What is *methodice*?" → "Principles"; "What is *historice*?" → "Interpretation".
+- Cards 1–6: working names replaced by the English; question options *Methodice*/*Historice* → Principles/Interpretation (answer keys unchanged, positions unchanged); explanations to match. The variant asking about the Greek name *historice* kept.
+- Card 5: also fixed "Consider Ecclesiastes 12:1 in the King James Version reads:" → "Consider Ecclesiastes 12:1, which in the King James Version reads:" (a slip from the earlier pass).
