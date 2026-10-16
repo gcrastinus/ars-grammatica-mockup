@@ -7,7 +7,9 @@ The changes from the mockup are these:
 - "The Reasons for the Parts" moves from VIII to III.2, right after the eight parts in general (III.1).
 - "Chreia and Maxim" becomes "Classical Composition Exercises" (all fourteen progymnasmata).
 - "Workshop and Marking" is kept as the marking drill on stored sentences, whose answers can be checked automatically; the Free Workshop is dropped.
-- Six section reviews and three shared exercise buttons are added (see below).
+- Seven section reviews and three shared exercise buttons are added (see below).
+- Section III is retitled "The Parts of Speech" (*De partibus orationis*), because no deck treats analogy and anomaly; the criteria of correctness, including analogy, are treated in P.4.
+- Section I is named "Sign and Significant Voice," the same name as its exercise set.
 - Greek, French, and German have no decks of their own. They appear only as examples where they show something English and Latin do not.
 
 ---
@@ -17,15 +19,17 @@ The changes from the mockup are these:
 **1. Stable ids and optional language layers.** Every division has a stable id (given in brackets after each title, e.g. `[iii.noun-2]`). The id never changes when a title or a position changes, and progress is stored under it. Each general deck may later receive optional child layers attached under it (for example, "The Noun in English" and "The Noun in Latin" under `[iii.noun-2]`), each with its own id of the form `parent-id/layer` (`iii.noun-2/la`). The data should allow this without restructuring. Nothing is built for layers now.
 
 **2. Question points.** Programmed-course questions appear at some cards, not on every card, and make the student connect and use what was learned. Every question point has exactly three variants (A, B, C).
-- A wrong answer shows "Incorrect," the right answer, and the explanation, then the next variant. After the third variant it cycles back through the same three until one is answered correctly.
+- A correct answer shows "Correct" and the explanation. A wrong answer shows "Incorrect," the right answer, and the explanation, then the next variant. After the third variant it cycles back through the same three until one is answered correctly.
 - Each opening of the deck starts on the next variant (A, then B, then C, then A again), so review shows the same cards with different questions.
 - Where the live app has exercises that do not survive as exercises (see rule 6), their best items are rewritten as variants at the question points of the matching deck.
 
-**3. Examples.** Three examples per point is the norm, mixing English and Latin, with Greek, French, or German only where they show something distinctive. When in doubt, another example is added. Every Latin, Greek, French, or German example is translated. The panel counts below were re-estimated for this rule.
+**3. Examples.** Each point has three examples, mixing English and Latin, with Greek, French, or German only where they show something distinctive. As a supplement to this norm, a fourth example is added wherever it is doubtful that three make the point clear. Every Latin, Greek, French, or German example is translated. The panel counts below were re-estimated for this rule.
 
 **4. Exercises test only what has been taught.** Every exercise set and every section review uses only what the decks before it have taught. The limits for each set are given under the set. Question points obey the same rule.
 
-**5. Rotation of exercise sets.** Every exercise set holds three sittings' worth of items, divided into fixed sets A, B, and C, which are given in that order on successive visits (A, B, C, A, …) and never shuffled. Corpora (Literal and Figurative, Tropes, the analysis of sentences and of passages, the marking drill) rotate in the same way. Imitation stays at ten fixed passages.
+**5. Rotation of exercise sets.** Every exercise set holds three sittings' worth of items, divided into fixed sets A, B, and C, which are given in that order on successive visits (A, B, C, A, …) and never shuffled. Corpora (Literal and Figurative, Tropes, the analysis of sentences and of passages, the marking drill) rotate in the same way.
+
+**The one exception is Imitation (X.2):** it has ten fixed passages, taken in order from 1 to 10, and it is not divided into sets A, B, and C.
 
 **6. Exercise sets.** Separate exercise sets exist only for:
 - Sign and Significant Voice;
@@ -44,12 +48,12 @@ The changes from the mockup are these:
 - the Analysis of Sentences and Passages;
 - the marking drill (IX.3);
 - Imitation;
-- the six section reviews.
+- the seven section reviews.
 
 No other live exercise survives as an exercise.
 
 **7. Shared exercise buttons.** An exercise set that covers several decks has its own button, placed right after the last deck it covers:
-- Sign and Significant Voice comes after I.6.
+- Sign and Significant Voice comes after I.6 and covers I.1–I.6.
 - Nouns and Adjectives comes after III.6 (Noun II).
 - Verbs comes after III.9 (Verb II).
 
@@ -60,17 +64,20 @@ The decks these sets cover have no Exercise button of their own. A set that cove
 - the Word and the Declinable Parts;
 - the Indeclinable Parts;
 - Construction;
+- Word Formation and Etymology;
 - Faults;
 - Figures.
 
-Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. Successive visits give set A, then B, then C, then A again, never shuffled.
+Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. The exception is the review of Word Formation and Etymology, which is scaled to the size of IV (three decks, against four to ten in the other groups): it has 30 new questions in three fixed sets of 10. Successive visits give set A, then B, then C, then A again, never shuffled.
 
 **9. Translations.**
 - Every translation shown to the student is a real published one, with the translator named.
-- Some sources have no complete published English translation. For these, we either quote the Latin (or other original) with our own literal translation, clearly labeled as ours, or we paraphrase. We never present our own translation as a published one. The list is under "Sources without a complete published English translation" below.
+- Some sources have no complete published English translation. For these, we either quote the Latin (or other original) with an own literal translation labeled "trans. T. Kearns," as the course's `CLAUDE.md` requires, or we paraphrase. We never present an own translation as a published one. The list is under "Sources without a complete published English translation" below.
 - In IX, Latin is shown only with translations close enough to align phrase by phrase, such as the Loeb translations.
 
-**10. Wording.** All student-facing text follows the wording rules in the live app's `CLAUDE.md`. The file `/home/box/shared/timothy-style/STYLE_GUIDE.md` does not exist in this environment.
+**10. Wording.** All student-facing text follows the writing-style rules in this repository's `CLAUDE.md` (standard textbook terms, no calques, plain declarative sentences, "Correct" and "Incorrect" as feedback, American spelling, real translations only).
+
+**11. Feedback in exercise sets and section reviews.** A correct answer shows "Correct" and the explanation. A wrong answer shows "Incorrect," the right answer, and the explanation, and then the set moves on to the next item. The item is not repeated in that sitting. (This differs from the question points in the decks, rule 2, which cycle through their variants until one is answered correctly.)
 
 ## How to read the entries
 
@@ -83,6 +90,8 @@ Each entry gives:
 - **Sources**;
 - **Reuse**: material in the live app (keys of its `DECKS` and `EX` objects) that can be cut down or rewritten.
 
+Notes marked *Planning note* are written for Timothy (some in the first person) and are not student-facing text.
+
 ---
 
 ## Preliminary · *Quid sit grammatica* · What Grammar Is
@@ -94,7 +103,7 @@ Each entry gives:
 
 **P.2 The Offices of the Grammarian** `[prelim.offices]`. *Lectio*, *enarratio*, *emendatio*, and *iudicium*, that is, reading, explaining, correcting, and judging.
 - Panels 8 · QP 2 · Exercise: no
-- Sources: Diomedes, citing Varro (rule 9); Dionysius Thrax, *Technē* 1; Quintilian I.4
+- Sources: Diomedes, citing Varro (rule 9); Dionysius Thrax, *Technē* 1 (trans. Alan Kemp, 1986); Quintilian I.4 (Butler)
 - Reuse: `prelim`, the panels on the grammarian's work
 
 **P.3 *Methodice* and *Historice*** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
@@ -109,50 +118,50 @@ Each entry gives:
 
 ---
 
-## I · *De signo et voce significativa* · Sign and Word
+## I · *De signo et voce significativa* · Sign and Significant Voice
 
 **I.1 Sign and Symbol** `[i.sign]`. Natural and given signs, and the spoken word as a symbol of what is in the mind.
 - Panels 10 · QP 3 · Exercise: in the shared Sign and Significant Voice set
-- Sources: Aristotle, *De interpretatione* 1, 16a3–8 (trans. E. M. Edghill); Augustine, *De doctrina christiana* II.1–3 (trans. J. F. Shaw); Boethius, *In Peri hermeneias*; John of St. Thomas, *Tractatus de signis* (trans. John Deely)
+- Sources: Aristotle, *De interpretatione* 1, 16a3–8 (trans. E. M. Edghill); Augustine, *De doctrina christiana* II.1–3 (trans. J. F. Shaw); Boethius, *In Peri hermeneias* (rule 9 unless a published translation of the passage is confirmed; see the list below); John of St. Thomas, *Tractatus de signis* (trans. John Deely)
 - Reuse: `traditions`, the panel on John of St. Thomas; `prelim`, the panel on voice and concept
 
 **I.2 Imposition** `[i.imposition]`. How a sound comes to signify by the will of those who first used it, and first and second imposition.
-- Panels 8 · QP 2 · Exercise: shared set
-- Sources: Aristotle, *De interpretatione* 2 (Edghill); Boethius, *In Categorias*; St. Thomas, *In Peri hermeneias* I
+- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
+- Sources: Aristotle, *De interpretatione* 2 (Edghill); Boethius, *In Categorias* (rule 9); St. Thomas, *In Peri hermeneias* I (Oesterle)
 - Reuse: the passages on imposition in `modes` and `prelim`
 
 **I.3 Signification and Consignification** `[i.consignification]`. What a word means, and what it signifies along with that meaning, such as the time the verb signifies.
-- Panels 9 · QP 3 · Exercise: shared set
-- Sources: Aristotle, *De interpretatione* 3, 16b6 (Edghill); St. Thomas, *In Peri hermeneias* I; Priscian II (rule 9)
+- Panels 9 · QP 3 · Exercise: in the shared Sign and Significant Voice set
+- Sources: Aristotle, *De interpretatione* 3, 16b6 (Edghill); St. Thomas, *In Peri hermeneias* I (Oesterle); Priscian II (rule 9)
 - Reuse: `modes`, the panel on why the verb has time
 
 **I.4 Categorematic and Syncategorematic Words** `[i.syncategorematic]`. Words that signify of themselves, and words such as "every" and "not" that signify only with other words.
-- Panels 8 · QP 2 · Exercise: shared set
+- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
 - Sources: Priscian II.15 (rule 9); William of Sherwood, *Syncategoremata* (trans. Norman Kretzmann)
 - Reuse: little; `suppos` mentions the syncategoremata
 
 **I.5 The Functions of Language** `[i.functions]`. To state, to ask, to command, to wish, and to express feeling, and why only the statement is true or false.
-- Panels 8 · QP 2 · Exercise: shared set
-- Sources: Aristotle, *De interpretatione* 4, 17a1–7 (Edghill); St. Thomas, *In Peri hermeneias* I; for comparison, Bühler, *Sprachtheorie* (1934), and Jakobson, "Linguistics and Poetics" (1960)
+- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
+- Sources: Aristotle, *De interpretatione* 4, 17a1–7 (Edghill); St. Thomas, *In Peri hermeneias* I (Oesterle); for comparison, Bühler, *Sprachtheorie* (1934), and Jakobson, "Linguistics and Poetics" (1960)
 - Reuse: none
 
 **I.6 Ambiguity** `[i.ambiguity]`. How one word or one construction can have two senses, and how the grammarian distinguishes them.
 - The deck stays on the grammatical side: it asks where the double sense lies, in a word (equivocation) or in the construction (amphiboly). It does not treat the fallacies as errors of reasoning, which belong to Ars Syllogistica; one panel names the boundary and points there.
-- Panels 9 · QP 3 · Exercise: yes (master drill)
+- Panels 9 · QP 3 · Exercise: in the shared Sign and Significant Voice set
 - Sources: Aristotle, *Sophistical Refutations* 4 (trans. W. A. Pickard-Cambridge), only for the distinction between word and construction; Quintilian VII.9 (Butler); Augustine, *De doctrina christiana* III.2–4 (Shaw)
 - Reuse: `figura` (3), rewritten so that it does not teach the fallacy
 
-**Exercise button: Sign and Significant Voice** `[i.ex.sign]` (after I.6). This is the master drill for I.1–I.6.
+**Exercise button: Sign and Significant Voice** `[i.ex.sign]` (after I.6). This is the exercise set for the whole section, I.1–I.6.
 - Pool 72 items, 12 per deck: three fixed sets of 24, each with 4 items per deck.
-- The ambiguity items use ambiguous words and ambiguous constructions in English and Latin (with translations). The student identifies the two senses and says whether the ambiguity lies in a word or in the construction.
-- Taught-only limit: the ambiguity items use only constructions a beginner can see without the construction section (V), such as a modifier that can attach to either of two words, or a Latin accusative that can be subject or object of an infinitive, with the translation given.
+- The ambiguity items (12) use ambiguous words, in English and in Latin with translations, and modifier attachment in English. The student identifies the two senses and says whether the ambiguity lies in a word or in the construction.
+- Taught-only limit: nothing in the set tests material after I.6. The ambiguity items are of two kinds only: lexical ambiguity (one word with two senses, such as English "bank" or Latin *acies*, "battle line" or "sharp edge") and modifier attachment (a modifier that can belong to either of two words, as in "the man saw the boy with the telescope"). Latin items are lexical only, with both senses given in translation, so that no item depends on case or on anything else taught in III or later.
 - Reuse: the best items of `EX.vox` and `EX.modes` that concern signification
 
 ---
 
 ## II · *De materia orationis* · The Matter of Speech
 
-**II.1 Voice (*vox*)** `[ii.voice]`. Voice as air struck and heard, and articulate and confused voice.
+**II.1 Voice (*vox*)** `[ii.voice]`. Voice as air struck and heard, and articulate and inarticulate voice.
 - Panels 8 · QP 2 · Exercise: no
 - Sources: Donatus, *Ars maior* I.1 (rule 9); Priscian I.1–2 (rule 9); Aristotle, *De anima* II.8 (trans. J. A. Smith)
 - Reuse: `vox` (5), nearly whole; `EX.vox` becomes question-point variants
@@ -160,21 +169,21 @@ Each entry gives:
 **II.2 The Letter and Orthography** `[ii.letter]`. The letter and its accidents (name, figure, and power), and the relation of spelling to sound.
 - Two panels set out how Latin is spelled and pronounced in the restored pronunciation: the vowels long and short, the diphthongs, c and g always hard, v as English w, i and u as consonants, and the marking of long vowels (macrons) in this course. With these panels, the Latin items in II.3 and II.4 are fair to a beginner.
 - Panels 12 · QP 4 (one of them on Latin pronunciation) · Exercise: no
-- Sources: Donatus, *Ars maior* I.2 (rule 9); Priscian I.3– (rule 9); Quintilian I.4 and I.7 (Butler); W. Sidney Allen, *Vox Latina* (2nd ed., 1978)
+- Sources: Donatus, *Ars maior* I.2 (rule 9); Priscian, *Institutiones* I, the chapters on the letter that follow the opening chapter on voice (rule 9); Quintilian I.4 and I.7 (Butler); W. Sidney Allen, *Vox Latina* (2nd ed., 1978)
 - Reuse: `letter` (6); the pronunciation notes in `syllable`
 
 **II.3 The Syllable** `[ii.syllable]`. What a syllable is, and how words are divided into syllables in English and in Latin.
 - Panels 10 · QP 3
 - Exercise: **Syllable**, pool 48 (24 English, 24 Latin), three fixed sets of 16 (8 English, 8 Latin). The tasks are to count the syllables and to divide the word.
 - Taught-only limit: the Latin items use only the spelling and pronunciation in II.2 and the rules of division in II.3.
-- Sources: Donatus, *Ars maior* I.3 (rule 9); Priscian II.1– (rule 9); Allen, *Vox Latina*; J. C. Wells, *Longman Pronunciation Dictionary*, for English division
+- Sources: Donatus, *Ars maior* I.3 (rule 9); Priscian, *Institutiones* II, the opening chapters on the syllable (rule 9); Allen, *Vox Latina*; J. C. Wells, *Longman Pronunciation Dictionary*, for English division
 - Reuse: `ensyl` (6), `syllable` (6); items from `EX.ensyl` and `EX.syllable`
 
 **II.4 Quantity and Accent** `[ii.quantity]`. Long and short syllables, by nature and by position; the acute, grave, and circumflex; English stress, which is not quantity.
 - Panels 13 · QP 4
 - Exercise: **Quantity, Stress, and Accent**, pool 48, three fixed sets of 16. The items cover Latin quantity by position, the Latin penultimate rule, and English primary stress with the suffixes that move it.
 - Taught-only limit: long vowels are marked with macrons in every Latin item, since natural quantity cannot be seen from the spelling and the student is not expected to know it.
-- Sources: Donatus, *Ars maior* I.5 (rule 9); Quintilian I.5.22–31 (Butler); Allen, *Vox Latina*; Smyth, *Greek Grammar* §149–, only for one example of Greek pitch accent
+- Sources: Donatus, *Ars maior* I.5 (rule 9); Quintilian I.5.22–31 (Butler); Allen, *Vox Latina*; Smyth, *Greek Grammar*, the chapter on accent, only for one example of Greek pitch accent
 - Reuse: `syllable`, `ensyl`, and examples from `grcsyl`, `desyl`, and `frsyl` (not as decks); `EX.syllable`, `EX.ensyl`
 
 **II.5 Punctuation (*posituræ*)** `[ii.punctuation]`. The old marks of pause (*distinctio*, *subdistinctio*, and *media distinctio*) beside the modern ones.
@@ -184,14 +193,16 @@ Each entry gives:
 
 **II.6 Feet and Meter** `[ii.meter]`. Feet and verse, with lines of English and Latin, and of Greek, German, or French where they show stress, quantity, or syllable count distinctively.
 - Panels 13 · QP 3 · Exercise: no
-- Sources: Diomedes, *Ars* III (rule 9); Bede, *De arte metrica*; translations named per line
+- Sources: Diomedes, *Ars* III (rule 9); Bede, *De arte metrica* (trans. Calvin B. Kendall, 1991); translations named per line
 - Reuse: `meter` (12), `enmeter` (6), and single lines from `grcmeter`, `demeter`, and `frmeter` (not as decks)
 
 **Section review: The Matter of Speech** `[ii.review]` (after II.6). 45 new questions on II.1–II.6, in three fixed sets of 15.
 
 ---
 
-## III · *De analogia et anomalia* · Analogy and Anomaly: The Parts of Speech
+## III · *De partibus orationis* · The Parts of Speech
+
+*Planning note:* the mockup titles this section "Analogy and Anomaly" (*De analogia et anomalia*), but no deck treats that quarrel, so the section is retitled. Analogy appears in P.4 as one of the criteria of correctness (reason).
 
 *The word in general*
 
@@ -207,14 +218,14 @@ Each entry gives:
 - It does not depend on the accidents (case, tense, and the rest). The modistic accounts of particular accidents move to short closing panels of the noun, verb, and participle decks.
 - The objection from the chimaera, which concerns the mode of the noun, stays here. The objection from grammatical gender moves to III.6.
 - Panels 11 · QP 4 · Exercise: no
-- Sources: Thomas of Erfurt, *Grammatica speculativa* (trans. G. L. Bursill-Hall, 1972); Boethius of Dacia, *Modi significandi* (rule 9); Priscian II.18– (rule 9); St. Thomas, *In Peri hermeneias* I
+- Sources: Thomas of Erfurt, *Grammatica speculativa* (trans. G. L. Bursill-Hall, 1972); Boethius of Dacia, *Modi significandi* (rule 9); Priscian, *Institutiones* II, the chapters on the properties (*proprietates*) of each part (rule 9); St. Thomas, *In Peri hermeneias* I (trans. Jean T. Oesterle, 1962)
 - Reuse: `modes` (9) except the panels on accidents; `objections`, the chimaera panel; items of `EX.modes` on the parts become question-point variants
 
-**III.3 Figure and Species** `[iii.figure]`. Simple and compound (*potens*, *impotens*), and primitive and derived. IV.2 takes up composition again and refers back here.
+**III.3 Figure and Species** `[iii.figure]`. Simple and compound (Donatus's examples are *potens*, "powerful," which is simple, and *impotens*, "powerless," which is compound), and primitive and derived. IV.2 takes up composition again and refers back here.
 - Panels 8 · QP 2
 - Exercise: **Figure and Species**, pool 30, three fixed sets of 10.
 - Taught-only limit: the student only judges whether a word is simple or compound and primitive or derived. The part of speech is given or is one decided by III.1, and every Latin word comes with its parts and their meanings (*in-imīcus*, "not" + "friend"). No item asks about case, tense, or any other accident.
-- Sources: Donatus, *Ars maior* II (rule 9); Priscian IV–V (rule 9)
+- Sources: Donatus, *Ars minor*, on the figure of the noun (Chase), and *Ars maior* II (rule 9); Priscian IV–V (rule 9)
 - Reuse: none
 
 **III.4 Homonymy and Synonymy** `[iii.homonymy]`. One word with many meanings (*acies*), and many words with one meaning (*ensis*, *gladius*). One panel points back to I.6 Ambiguity.
@@ -230,7 +241,7 @@ Each entry gives:
 - Reuse: `pos`, the noun and adjective panels; `enacc`, comparison
 
 **III.6 The Noun II: Gender, Number, and Case** `[iii.noun-2]`. The accidents that make declension, with the cases set beside English word order and prepositions. Two closing panels give the modistic account of the noun's accidents and the objection from grammatical gender.
-- Panels 14 · QP 4 · Exercise: shared set
+- Panels 14 · QP 4 · Exercise: in the shared Nouns and Adjectives set
 - Sources: Priscian V–VII (rule 9); Allen and Greenough, *New Latin Grammar*; Thomas of Erfurt (Bursill-Hall) for the closing panels
 - Reuse: `latnoun` (6), `casework` (8), `enacc`; `objections`, the gender panel; `EX.cases` becomes question-point variants
 
@@ -253,7 +264,7 @@ Each entry gives:
 
 **III.9 The Verb II: Tense, Person, Number, and Conjugation** `[iii.verb-2]`. How the verb marks time, aspect, and person, and how verbs are conjugated.
 - It has two panels on aspect: complete and incomplete action, the Latin perfect against the imperfect, and the English progressive and perfect, with Greek where it shows aspect most clearly. Two closing panels give the modistic account of the verb's accidents.
-- Panels 15 · QP 4 · Exercise: shared set
+- Panels 15 · QP 4 · Exercise: in the shared Verbs set
 - Sources: Priscian VIII–X (rule 9); Varro, *De lingua Latina* IX–X on *infectum* and *perfectum* (Kent, Loeb); Smyth, *Greek Grammar*, on aspect; Thomas of Erfurt (Bursill-Hall)
 - Reuse: `latverb`, `enacc` (tense and aspect), `casework`; `modes`, the panel on why the verb has time
 
@@ -306,6 +317,8 @@ Each entry gives:
 - Sources: Plato, *Cratylus* (trans. Benjamin Jowett); Varro, *De lingua Latina* V–VII (Kent, Loeb); Isidore, *Etymologiae* I.29 (Barney); Vossius, *Etymologicon linguae Latinae* (1662) (rule 9); the *Oxford English Dictionary*
 - Reuse: none
 
+**Section review: Word Formation and Etymology** `[iv.review]` (after IV.3). 30 new questions on IV.1–IV.3, in three fixed sets of 10 (scaled to the three decks of IV; see rule 8).
+
 ---
 
 ## V · *De constructione* · Construction
@@ -314,21 +327,21 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 
 **V.1 Congruity** `[v.congruity]`. A sentence well formed and complete, as distinct from a sentence that is true.
 - Panels 9 · QP 5 (2 of them analysis) · Exercise: no
-- Sources: Priscian XVII.1– (rule 9); Thomas of Erfurt on congruity and completeness (Bursill-Hall)
+- Sources: Priscian XVII, the opening chapters on construction (rule 9); Thomas of Erfurt on congruity and completeness (Bursill-Hall)
 - Reuse: `cong` (4), `congtruth` (3), `oratio` (5); `EX.cong` and `EX.congtruth` become question-point variants
 
 **V.2 Agreement (*concordantia*)** `[v.agreement]`. How words agree in gender, number, case, and person.
-- Panels 8 · QP 5 · Exercise: no
+- Panels 8 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Priscian XVII (rule 9); Allen and Greenough
 - Reuse: `agree` (3), `enform` (8); `EX.agree` becomes variants
 
 **V.3 Government (*regimen*)** `[v.government]`. How a verb, a preposition, or a noun requires a case.
-- Panels 8 · QP 5 · Exercise: no
+- Panels 8 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Priscian XVIII (rule 9); Peter Helias, *Summa super Priscianum* (rule 9)
 - Reuse: `govern` (4); `EX.govern` becomes variants
 
 **V.4 Dependence** `[v.dependence]`. The dependent and the term on which it depends (*dependens* and *terminans*).
-- Panels 9 · QP 5 · Exercise: no
+- Panels 9 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Thomas of Erfurt (Bursill-Hall); Lucien Tesnière, *Éléments de syntaxe structurale* (1959; trans. Timothy Osborne and Sylvain Kahane, 2015), for the modern counterpart
 - Reuse: `workshop` (4), `markup` (3); `EX.workshop` becomes variants
 
@@ -338,26 +351,26 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 - Reuse: one or two panels from `typo`; single examples from `grcorder`, `deorder`, and `frorder` (not as decks)
 
 **V.6 The Phrase** `[v.phrase]`. Groups of words that act as one part of speech.
-- Panels 8 · QP 4 · Exercise: no · Sources: Reed and Kellogg, *Higher Lessons in English* (1877) · Reuse: `enphr` (6)
+- Panels 8 · QP 4 (2 of them analysis) · Exercise: no · Sources: Reed and Kellogg, *Higher Lessons in English* (1877) · Reuse: `enphr` (6)
 
 **V.7 The Clause** `[v.clause]`. Subject and predicate, and independent and dependent clauses.
-- Panels 10 · QP 5 · Exercise: no
+- Panels 10 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Priscian XVII–XVIII (rule 9); Reed and Kellogg; Allen and Greenough
 - Reuse: `ensent` (7), `encl` (5), `clauses` (6), `endiag` (5); `EX.clauses`, `EX.latclause` become variants
 
 **V.8 The Period** `[v.period]`. The rounded sentence of many members.
-- Panels 9 · QP 5 · Exercise: no
+- Panels 9 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Aristotle, *Rhetoric* III.9 (trans. W. Rhys Roberts); Demetrius, *On Style* 1–35 (trans. W. Rhys Roberts); Quintilian IX.4 (Butler)
 - Reuse: `period` (4); `EX.period` and `EX.livyperiod` become variants
 - Overlap with Ars Rhetorica: its Style act treats the period. This deck keeps to how the members are built and leaves their effect on the hearer to rhetoric.
 
 **V.9 Mood and Voice in Construction** `[v.mood]`. The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.
-- Panels 10 · QP 5 · Exercise: no
+- Panels 10 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Priscian XVIII (rule 9); Allen and Greenough
 - Reuse: `latvoice` (6), `latsubj` (5); `EX.latvoice`, `EX.latsubj` become variants
 
 **V.10 Figures of Construction** `[v.figures]`. Ellipsis, zeugma, syllepsis, and the other departures from regular construction. One panel notes that Donatus counts zeugma and syllepsis among the figures of words and refers ahead to VII.2.
-- Panels 9 · QP 5 · Exercise: no
+- Panels 9 · QP 5 (2 of them analysis) · Exercise: no
 - Sources: Donatus, *Ars maior* III.5 (rule 9); Priscian XVII (rule 9); Thomas Linacre, *De emendata structura Latini sermonis* (1524), to be checked for its treatment of the figures (rule 9)
 - Reuse: `figures` (8), `latfigs`
 
@@ -370,7 +383,7 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 **VI.1 Usage and Authority** `[vi.usage]`. This deck applies the four criteria introduced in P.4 to questions of usage and authority: custom, the authors, and reason as judges of what is correct. Its first panel refers back to P.4 and does not teach the criteria again.
 - Panels 7 · QP 2 · Exercise: no
 - Sources: Quintilian I.6 (Butler); Horace, *Ars poetica* 70–72 (trans. H. Rushton Fairclough, Loeb)
-- Reuse: none beyond P.4
+- Reuse: no live-app material. The criteria themselves are taught in P.4, and this deck cites that deck instead of repeating it.
 
 **VI.2 Barbarism** `[vi.barbarism]`. A fault in a single word.
 - Panels 7 · QP 2 · Exercise: no · Sources: Donatus, *Ars maior* III.1 (rule 9); Quintilian I.5 (Butler) · Reuse: `vices` (3), `latfaults`; `EX.vices`, `EX.latfaults` become variants
@@ -391,7 +404,7 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 - Panels 10 · QP 3
 - Exercise: **Literal and Figurative**, a curated corpus of 48 examples from English and translated Latin, in three fixed sets of 16. The question is whether the marked word is used literally or figuratively, and why.
 - Taught-only limit: no item asks for the name of a trope, since the tropes come in VII.3.
-- Sources: Augustine, *De doctrina christiana* III.10–29 (Shaw); St. Thomas, *Summa theologiae* I, q. 1, a. 10; Quintilian VIII.6.1– (Butler)
+- Sources: Augustine, *De doctrina christiana* III.10–29 (Shaw); St. Thomas, *Summa theologiae* I, q. 1, a. 10 (trans. Fathers of the English Dominican Province); Quintilian VIII.6, the opening sections (Butler)
 - Reuse: `service` (7), the panel on literal and figurative sense
 
 **VII.2 Figures of Words (*schemata lexeos*)** `[vii.schemata]`. Repetition, omission, and arrangement used for effect. One panel refers back to V.10 for zeugma and syllepsis.
@@ -408,7 +421,7 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
   - metaphor, catachresis, metalepsis, and metonymy;
   - antonomasia, epithet, synecdoche, and onomatopoeia;
   - periphrasis, hyperbole, allegory, and irony (taken as a species of allegory, as Donatus does).
-- Sources: Donatus, *Ars maior* III.6 (rule 9); Quintilian VIII.6 (Butler); Bede, *De schematibus et tropis*
+- Sources: Donatus, *Ars maior* III.6 (rule 9); Quintilian VIII.6 (Butler); Bede, *De schematibus et tropis* (trans. Calvin B. Kendall, 1991)
 - Reuse: `figures`, `latfigs`
 - Overlap with Ars Rhetorica: metaphor, irony, hyperbole, and personification appear in its figure glossary and drills.
 
@@ -422,7 +435,7 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 - Panels 17 · QP 5
 - Exercise: **Supposition**, pool 45, three fixed sets of 15.
 - Taught-only limit: only the kinds named in VIII.1.
-- Sources: Peter of Spain, *Tractatus* VI (trans. Brian Copenhaver, with Calvin Normore and Terence Parsons, 2014); William of Sherwood, *Introductiones in logicam* V (trans. Norman Kretzmann); Ockham, *Summa logicae* I.63– (trans. Michael Loux)
+- Sources: Peter of Spain, *Tractatus* VI (trans. Brian Copenhaver, with Calvin Normore and Terence Parsons, 2014); William of Sherwood, *Introductiones in logicam* V (trans. Norman Kretzmann); Ockham, *Summa logicae* I.63–77 (trans. Michael Loux)
 - Reuse: `suppos` (3); `EX.suppos` (47 items, about 45 of which can be kept)
 - Overlap with Ars Syllogistica, which teaches supposition from the side of logic.
 
@@ -465,48 +478,87 @@ Both analysis buttons draw on one corpus, mostly English with some Latin. Latin 
 - Reuse: `making` (Making Sentences), `latbuild` (6); `EX.latbuild` becomes variants
 - Overlap with Ars Rhetorica: its Style act and its "Choosing among Correct Sentences" set. This deck stays with how sentences are combined and built.
 
-**X.2 Imitation** `[x.imitation]`. Two introductory panels: imitation in the tradition (Quintilian X.2, Ascham), and Petrarch's transcription of Cicero's *Pro Archia* from the manuscript he found at Liège in 1333. No second Petrarch example is used. Then ten fixed English passages, each typed out word for word, with the model and the typing box side by side on a desktop and stacked on a phone.
+**X.2 Imitation** `[x.imitation]`. Two introductory panels: imitation in the tradition (Quintilian X.2, Ascham), and Petrarch's transcription of Cicero's *Pro Archia* from the manuscript he found at Liège in 1333. No second Petrarch example is used. Then ten fixed passages in English (three of them in published translations, with the translator named), each typed out word for word, with the model and the typing box side by side on a desktop and stacked on a phone. The passages are taken in order from 1 to 10; this set is the one exception to the A/B/C rotation (rule 5).
 - Panels 2 · QP 0 · Exercise: 10 fixed passages (the check is word for word, so it is automatic)
-- Sources: Quintilian X.2 (Butler); Roger Ascham, *The Scholemaster* (1570); Jeroen De Keyser, "The Descendants of Petrarch's *Pro Archia*," *Classical Quarterly* (2013)
-- The ten passages are proposed in the table below, for approval.
+- Sources: Quintilian X.2 (Butler); Roger Ascham, *The Scholemaster* (1570; written in English); Jeroen De Keyser, "The Descendants of Petrarch's *Pro Archia*," *Classical Quarterly* (2013)
 
-*Proposed imitation passages*
+*The ten approved passages*
 
-Every live excerpt in `passages.js` is shorter than 120 words, so each passage below is a longer selection, mostly from the same authors. I counted the words in the Standard Ebooks texts (which modernize some spellings but not the wording); the Project Gutenberg number is the source those texts name. The copy text for the course should be the unmodernized Project Gutenberg text, quoted exactly as written, and its count may differ by a word or two where words are hyphenated differently. The order is by date of writing.
-
-| # | Author and work | Selection | Edition (copy text) | Words |
+| # | Author, work, and translator | Selection | Text used for the count | Words |
 |---|---|---|---|---|
-| 1 | Francis Bacon, *Essays*, "Of Studies" (1625) | the whole essay, "Studies serve for delight" to "a special receipt" | Project Gutenberg 575 | 503 |
-| 2 | Samuel Johnson, *Rasselas* (1759), ch. X | "I was desirous to add my name" to "superior to time and place" (it includes "no man was ever great by imitation") | Project Gutenberg 652 | 639 |
-| 3 | Edward Gibbon, *Decline and Fall* (1776), ch. I | the first two paragraphs, "In the second century" to "the defeat of Crassus" | Project Gutenberg 25717 (the live app uses 731) | 412 |
-| 4 | Edmund Burke, *Reflections on the Revolution in France* (1790) | "It is now sixteen or seventeen years" to "to be subdued by manners" (two paragraphs) | Project Gutenberg 15679 | 491 |
-| 5 | Benjamin Franklin, *Autobiography* (written 1771) | "About this time I met with an odd volume of the Spectator" to "of which I was extremely ambitious" (Franklin's own account of imitating the *Spectator*) | Project Gutenberg 20203 | 356 |
-| 6 | Jane Austen, *Pride and Prejudice* (1813), ch. 1 | the whole chapter | Project Gutenberg 42671 (the live app uses 1342) | 853 |
-| 7 | Frederick Douglass, *Narrative* (1845), ch. VII | "I lived in Master Hugh's family about seven years" to "taking the ell" | Project Gutenberg 23 | 516 |
-| 8 | Herman Melville, *Moby-Dick* (1851), ch. 1 | "Call me Ishmael" to "What do they here?" | Project Gutenberg 2701 | 385 |
-| 9 | Henry David Thoreau, *Walden* (1854), "Where I Lived, and What I Lived For" | "I went to the woods because" to "Simplify, simplify." | Project Gutenberg 205 | 392 |
-| 10 | Charles Dickens, *A Tale of Two Cities* (1859), I.1 | the first three paragraphs, "It was the best of times" to "the Cock-lane brood" | Project Gutenberg 98 | 333 |
+| 1 | Ecclesiastes 12:1–14, King James Version | the whole chapter, "Remember now thy Creator in the days of thy youth" to "whether it be good, or whether it be evil" | KJV text in the `aruljohn/Bible-kjv` data on GitHub; copy text to be checked against Project Gutenberg 10, the live app's KJV | 372 |
+| 2 | Kenneth Grahame, *The Wind in the Willows* (1908), ch. IX, "Wayfarers All" | the first two paragraphs, "The Water Rat was restless, and he did not exactly know why" to "feeling some of its influence in his bones" | Standard Ebooks, from Project Gutenberg 27805 | 427 |
+| 3 | Edward Gibbon, *The Decline and Fall of the Roman Empire* (1776), ch. I | the first two paragraphs, on the Antonine age and the policy of Augustus, "In the second century" to "the defeat of Crassus" | Standard Ebooks, from Project Gutenberg 25717 (the live app uses 731) | 412 |
+| 4 | G. K. Chesterton, *Orthodoxy* (1908), ch. IV, "The Ethics of Elfland" | the first two paragraphs, "When the business man rebukes the idealism of his office-boy" to "having a Norman nose" | Standard Ebooks, from Project Gutenberg 16769 | 467 |
+| 5 | Abraham Lincoln, Second Inaugural Address (March 4, 1865) | the whole address, "Fellow-Countrymen" to "with all nations" | the NLTK inaugural corpus (`nltk/nltk_data`); copy text to be checked against the Library of Congress manuscript or the Wikisource text the live app uses | 698 |
+| 6 | George Washington, First Inaugural Address (April 30, 1789) | the salutation and the first paragraph, "Fellow-Citizens of the Senate and of the House of Representatives" to "the partiality in which they originated" | the NLTK inaugural corpus; copy text to be checked against the National Archives transcription | 325 |
+| 7 | Winston Churchill, "Their Finest Hour" (House of Commons, June 18, 1940) | the closing part | **not reached** (see the planning notes) | not counted |
+| 8 | Plato, *Phaedo*, the death of Socrates, trans. Benjamin Jowett | "Crito made a sign to the servant" to "the wisest and justest and best" | Project Gutenberg 1658 (Jowett) | 597 |
+| 9 | Tacitus, *Agricola* 45–46, trans. Alfred John Church and William Jackson Brodribb | both chapters, "Agricola did not see the senate-house besieged" to "will live for ever" | the Perseus Digital Library text of Church and Brodribb (Macmillan, 1877), `PerseusDL/canonical-latinLit` | 621 |
+| 10 | Cicero, *On Old Age* (*Cato Maior de senectute*), trans. Evelyn S. Shuckburgh | the closing chapter, "Such are the words of the dying Cyrus" to "put my words to a practical test" | Project Gutenberg 2808 (Shuckburgh, *Treatises on Friendship and Old Age*) | 852 |
 
-Notes on the list:
-- Two passages (Austen, 853 words; Johnson, 639) are long. If a limit near 500 is wanted, Austen can end at "the business of her life was to get her daughters married" in a shorter cut, and Johnson can begin at "The business of a poet" with the paragraph before it.
-- I chose the Douglass selection from ch. VII rather than ch. VI because the ch. VI passage on learning to read quotes Mr. Auld's racial slur several times, which the student would have to type.
-- Some live-app authors could not be counted here: Newman, Swift, Milton's *Areopagitica*, Lincoln, the King James Version, and Johnson's letter to Chesterfield in Boswell. This environment cannot reach Project Gutenberg, and I found no copy of those texts that I could read. Any of them can replace an entry above once its text is counted.
+*Planning notes (not student-facing):*
+- The word counts were made on the texts named in the fourth column. Before any passage is entered, the copy text has to be checked letter by letter against the named edition, and every quotation kept exactly as written. Where the Standard Ebooks texts modernize spelling, the original spelling of the named edition is used; the count does not change.
+- **No. 7 (Churchill) was not reached.** This environment cannot reach any site that prints the speech (the Churchill estate's site, Hansard, Project Gutenberg, or the Internet Archive), so I have no text and no word count, and I have not substituted another passage. The speech is still under copyright (the Churchill estate), so only a short excerpt for educational use is possible; its length and the source of the text are for Timothy to decide.
+- Nos. 8 and 10 can be cut or extended. The Phaedo selection can begin earlier, at "When he had spoken these words, he arose and went into a chamber to bathe" (1,100 words). The Cicero selection can include the preceding chapter, "Once more in Xenophon we have the elder Cyrus on his deathbed" (1,181 words). Each could also be shortened at a paragraph end if a limit near 500 words is wanted.
+- The Tacitus count was made on the Perseus text with its notes removed.
 
 **X.3 Translation** `[x.translation]`. Why translation is necessary; its history (Cicero, Jerome, Bruni, Ascham's double translation); whether translations are radically unreliable; and the classical answer that the concepts of the mind are common to all, while words and letters differ.
 - Panels 12 · QP 4 · Exercise: no
-- Sources: Aristotle, *De interpretatione* 1, 16a5–8 (Edghill); Cicero, *De optimo genere oratorum* 14 (trans. H. M. Hubbell, Loeb); Jerome, *Epistula* 57 to Pammachius (trans. W. H. Fremantle); Leonardo Bruni, *De interpretatione recta* (c. 1424); Ascham, *The Scholemaster*; for the objection, W. V. O. Quine, *Word and Object* (1960), and the Sapir–Whorf hypothesis
+- Sources: Aristotle, *De interpretatione* 1, 16a5–8 (Edghill); Cicero, *De optimo genere oratorum* 14 (trans. H. M. Hubbell, Loeb); Jerome, *Epistula* 57 to Pammachius (trans. W. H. Fremantle); Leonardo Bruni, *De interpretatione recta* (c. 1424; trans. as "On the Correct Way to Translate" in Griffiths, Hankins, and Thompson, *The Humanism of Leonardo Bruni*, 1987); Ascham, *The Scholemaster* (written in English); for the objection, W. V. O. Quine, *Word and Object* (1960), and the Sapir–Whorf hypothesis
 - Reuse: `traditions`, the panel on why a concept cannot be the end of signification
 
-**X.4 Classical Composition Exercises** `[x.progymnasmata]`. All fourteen progymnasmata as Aphthonius orders them: fable, narrative, chreia, maxim, refutation, confirmation, commonplace, encomium, invective, comparison, characterization, description, thesis, and the introduction of a law. The deck says what each exercise is, why the fable comes first, and why the exercises follow that order.
-- Panels 22 (2 introductory, 14 one per exercise with three short examples each, 2 on the fable, 4 on the order) · QP 6 · Exercise: no
-- Sources: Aphthonius, Theon, Hermogenes, and Nicolaus in George A. Kennedy, *Progymnasmata: Greek Textbooks of Prose Composition and Rhetoric* (2003) (Hermogenes pp. 73–88, Nicolaus pp. 129–72); Malcolm Heath, "Theon and the History of the Progymnasmata," *GRBS* (2002); Quintilian I.9 (Butler); Priscian, *Praeexercitamina* (rule 9)
-- **The reasons for putting the fable first are not stated in this plan.** Kennedy has to be read for them first, and this environment cannot open his book (the publisher's PDF is blocked here). What I could confirm is limited to the following:
-  - Quintilian I.9 has the grammarian begin with Aesop's fables.
-  - Hermogenes, Aphthonius, and Nicolaus put the fable first.
-  - Heath argues that Theon's original order put the chreia first, and that the extant Greek text was rearranged into the standard order.
-  - A review quotes Kennedy's Hermogenes (p. 74) on the fable, but I have not read the passage itself.
+**X.4 Classical Composition Exercises** `[x.progymnasmata]`. The fourteen progymnasmata (preliminary exercises) in the order of Aphthonius, with Kennedy's English chapter titles:
+1. fable;
+2. narrative;
+3. chreia;
+4. maxim;
+5. refutation;
+6. confirmation;
+7. common-place;
+8. encomion;
+9. invective;
+10. syncrisis (comparison);
+11. ethopoeia (characterization);
+12. ecphrasis (description);
+13. thesis;
+14. introduction of a law.
 
-  The panels on why the fable comes first will be written only after reading Kennedy's Hermogenes, Aphthonius, Nicolaus, and Theon on the point.
+The deck says what each exercise is, why the fable comes first, and why the exercises follow that order.
+- Panels 22: 2 introductory, 14 one per exercise (each with Aphthonius's definition and three short examples), 2 on why the fable comes first, 4 on the order · QP 6 · Exercise: no
+- Sources: George A. Kennedy, *Progymnasmata: Greek Textbooks of Prose Composition and Rhetoric* (Atlanta: Society of Biblical Literature, 2003). Kennedy is the translator of Theon, [Hermogenes], Aphthonius, the anonymous Prolegomenon to Aphthonius, Nicolaus, and John of Sardis. Also Quintilian I.9 (Butler) and Priscian, *Praeexercitamina* (rule 9).
+- Every quotation below is taken from `sources/KENNEDY-FABLE-AND-ORDER.md`, with the printed page numbers given there. Nothing is quoted from any other report of Kennedy.
+
+*Plan for the two panels on why the fable comes first*
+
+- **Panel 1, the handbooks' reasons.**
+  - Nicolaus: the teachers "put the fable first among them as being naturally plain and simpler than the others and as having some relationship to poems," so that students "in their transition from poems to rhetoric" "should not all at once encounter things that are strange and unusual to them" (trans. Kennedy, p. 133).
+  - [Hermogenes]: "Fable (mythos) is regarded as the first exercise to be assigned to the young because it can bring their minds into harmony for the better. In this way they (i.e., teachers of grammar) think to form students while still tender" (trans. Kennedy, p. 74).
+  - The panel states that both reasons, the ease of the fable and its moral use for the young, belong to the grammar school, as Kennedy's gloss "teachers of grammar" in [Hermogenes] shows.
+- **Panel 2, the fable and what follows it.**
+  - Aphthonius gives no reason outright, but he connects the fable with poetry and with the moral: "Fable (mythos) originated with poets but has come to be used also by orators for the sake of the moral" (trans. Kennedy, p. 96).
+  - Nicolaus classes the fable as deliberative: "that it clearly belongs to the deliberative part, no one should doubt" (trans. Kennedy, p. 135).
+  - John of Sardis states the general rule, "in the progymnasmata one should begin first from the easier ones, and this is the fable" (trans. Kennedy, pp. 176–77).
+
+*Plan for the four panels on the order*
+
+- **Panel 3, the rule of the sequence.**
+  - Kennedy: the handbooks "present a sequence of assignments in reading, writing, and speaking which gradually increase in difficulty and in maturity of thought from simple story-telling to argumentation" (p. x).
+  - Theon: "Easier things should be learned before more difficult ones, and it is easier to amplify what is clear than to demonstrate what is unclear" (trans. Kennedy, pp. 8–9).
+- **Panel 4, from lesser to greater.**
+  - Nicolaus: "as we move ahead to greater things from lesser things we need to take proportionally more care about each of the exercises discussed" (trans. Kennedy, p. 147), which Kennedy glosses as moving "from the simpler, relatively non-argumentative exercises, to more difficult ones involving argument" (p. 147 n.).
+  - Nicolaus on the place of the common-place: "if we are imitating the succession and order in speeches it is necessary to put common-place right after refutation and confirmation" (trans. Kennedy, pp. 147–48).
+- **Panel 5, Theon's different order (chreia first).**
+  - Theon begins with the chreia: "We begin, first, with the chreia; for this is short and easily remembered. Then comes fable and narration" (trans. Kennedy, p. 8).
+  - Kennedy explains that this is Theon's original order: "Sometime in later antiquity Theon's work was edited, and the order of the chapters was rearranged to make it conform more closely to the system of exercises described in the handbook of Aphthonius" (p. 2). He adds that the Armenian manuscripts "preserve the original order of the text" (p. 2).
+  - The panel sets Theon's order against Aphthonius's, from Kennedy's Table 1 (p. xiii). Theon places the chreia 1st, the fable 2nd, and the narrative 3rd. Aphthonius, [Hermogenes], and Nicolaus place the fable 1st, the narrative 2nd, and the chreia 3rd.
+  - It also gives Nicolaus's report of the dispute: "There are some who assign it before both fable and narrative … It is not unreasonable to assign it a place after the fable and the narrative, because it requires the use of more logical divisions" (trans. Kennedy, p. 139).
+- **Panel 6, why these exercises belong to grammar.**
+  - Kennedy: the progymnasmata "were assigned by Greek grammarians to students after they had learned to read and write as preparation for declamation" (p. x), and "there is some variation in the number, names, and sequence of the exercises among the extant works" (p. xiii).
+  - Quintilian I.9 (Butler) gives the grammarian the first of these exercises in Rome.
+
+*Planning note (not student-facing):* the Kennedy file shows gaps where its PDF dropped numbers (for example, "p. ." in one note). Panels quote only passages without such gaps, as above.
+
 - Reuse: none; the live app has no progymnasmata
 - Overlap with Ars Rhetorica: encomium and invective belong to its epideictic species; refutation and confirmation correspond to its parts of the oration; the maxim is its figure *sententia*. Ars Rhetorica has no progymnasmata deck, so nothing is duplicated, but this deck should refer to the rhetoric course for those four exercises rather than teach them as speeches.
 
@@ -520,9 +572,9 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 - Panels 56: Scribal lists 6; Sanskrit 13; Arabic 13; Hebrew 12; Chinese 12 · QP 18 · Exercise: no
 - Sources:
   - Scribal lists: *Materials for the Sumerian Lexicon* IV (Old Babylonian and Neo-Babylonian grammatical texts); J. A. Black, *Sumerian Grammar in Babylonian Theory*
-  - Sanskrit: Yāska, *Nirukta* (trans. Lakshman Sarup); Pāṇini, *Aṣṭādhyāyī* (trans. S. C. Vasu); Patañjali, *Mahābhāṣya*; Bhartṛhari, *Vākyapadīya* (trans. K. A. Subramania Iyer)
-  - Arabic: Sībawayh, *al-Kitāb*, paraphrased unless a published English translation of the particular passage exists, in which case that translation is quoted and cited (none is assumed here, and each passage is to be checked); al-Zajjājī, *al-Īḍāḥ* (trans. Kees Versteegh, 1995)
-  - Hebrew, from Saadia Gaon to David Kimḥi: Saadia; Judah Ḥayyūj; Jonah ibn Janāḥ; Kimḥi, *Mikhlol* (partial trans. William Chomsky, 1952). One panel mentions the Masoretes briefly, as the scholars who fixed the vowel points and accents that the grammarians took as their text.
+  - Sanskrit: Yāska, *Nirukta* (trans. Lakshman Sarup); Pāṇini, *Aṣṭādhyāyī* (trans. S. C. Vasu); Patañjali, *Mahābhāṣya* (rule 9); Bhartṛhari, *Vākyapadīya* (trans. K. A. Subramania Iyer)
+  - Arabic: Sībawayh, *al-Kitāb*, paraphrased unless a published English translation of the particular passage exists, in which case that translation is quoted and cited (*Planning note:* none is assumed here, and each passage is to be checked); al-Zajjājī, *al-Īḍāḥ* (trans. Kees Versteegh, 1995)
+  - Hebrew, from Saadia Gaon to David Kimḥi: Saadia; Judah Ḥayyūj (rule 9); Jonah ibn Janāḥ (rule 9); Kimḥi, *Mikhlol* (partial trans. William Chomsky, 1952). One panel mentions the Masoretes briefly, as the scholars who fixed the vowel points and accents that the grammarians took as their text.
   - Chinese: the *Erya*; Xu Shen, *Shuowen jiezi*; Lu Fayan, *Qieyun*; full and empty words; Ma Jianzhong, *Mashi wentong* (1898)
 - Reuse: `scribal` (33), `vyakarana` (34), `nahw` (30), and `xiaoxue` (31), each cut to the target; `quaestiones` (10) for the question points. Hebrew is new.
 
@@ -533,22 +585,68 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 
 ---
 
-## Sources without a complete published English translation (rule 9)
+## Translators, and sources without a published English translation (rule 9)
 
-For these sources we quote the original with our own literal translation, labeled as ours, or we paraphrase:
+**Translated sources, with the translator named:**
+
+| Source | Translator |
+|---|---|
+| Aristotle, *Categories* and *De interpretatione* | E. M. Edghill |
+| Aristotle, *De anima* | J. A. Smith |
+| Aristotle, *Sophistical Refutations* | W. A. Pickard-Cambridge |
+| Aristotle, *Rhetoric*; Demetrius, *On Style* | W. Rhys Roberts |
+| Augustine, *De doctrina christiana* | J. F. Shaw |
+| Bede, *De arte metrica* and *De schematibus et tropis* | Calvin B. Kendall (1991) |
+| Bruni, *De interpretatione recta* | in Griffiths, Hankins, and Thompson, *The Humanism of Leonardo Bruni* (1987) |
+| Cicero, *De optimo genere oratorum* | H. M. Hubbell (Loeb) |
+| Cicero, *On Old Age* | Evelyn S. Shuckburgh |
+| Dionysius Thrax, *Technē* (P.2 and III.1) | Alan Kemp (1986) |
+| Donatus, *Ars minor* | Wayland Johnson Chase (1926) |
+| Erasmus, *De copia* | Betty I. Knott |
+| Horace, *Ars poetica* | H. Rushton Fairclough (Loeb) |
+| Isidore, *Etymologiae* | Stephen A. Barney and others (2006) |
+| Jerome, *Epistula* 57 | W. H. Fremantle |
+| John of St. Thomas, *Tractatus de signis* | John Deely |
+| Ockham, *Summa logicae* I | Michael Loux |
+| Peter of Spain, *Tractatus* | Brian Copenhaver, with Calvin Normore and Terence Parsons (2014) |
+| Plato, *Cratylus* and *Phaedo* | Benjamin Jowett |
+| Port-Royal, *Grammaire générale et raisonnée* | Jacques Rieux and Bernard Rollin (1975) |
+| Progymnasmata (Theon, [Hermogenes], Aphthonius, Nicolaus, John of Sardis) | George A. Kennedy (2003) |
+| Quintilian, *Institutio oratoria* | H. E. Butler (Loeb) |
+| St. Thomas, *In Peri hermeneias* | Jean T. Oesterle (1962) |
+| St. Thomas, *Summa theologiae* | Fathers of the English Dominican Province |
+| Tacitus, *Agricola* | Alfred John Church and William Jackson Brodribb |
+| Thomas of Erfurt, *Grammatica speculativa* | G. L. Bursill-Hall (1972) |
+| Varro, *De lingua Latina* V–X | R. G. Kent (Loeb, 1938) |
+| William of Sherwood, *Introductiones* and *Syncategoremata* | Norman Kretzmann |
+| al-Zajjājī, *al-Īḍāḥ* | Kees Versteegh (1995) |
+| Yāska, *Nirukta* | Lakshman Sarup |
+| Pāṇini, *Aṣṭādhyāyī* | S. C. Vasu |
+| Bhartṛhari, *Vākyapadīya* | K. A. Subramania Iyer |
+| Kimḥi, *Mikhlol* (partial) | William Chomsky (1952) |
+
+Ascham's *Scholemaster* was written in English and needs no translator.
+
+**No published English translation: own translation, labeled "trans. T. Kearns," or a paraphrase:**
 
 - Diomedes, *Ars grammatica*
 - Priscian, *Institutiones grammaticae* (only excerpts are translated, for example in Copeland and Sluiter, *Medieval Grammar and Rhetoric*, 2009), and his *Partitiones* and *Praeexercitamina*
-- Donatus, *Ars maior* (excerpts only in Copeland and Sluiter); the *Ars minor* does have a complete translation (Chase, 1926)
+- Donatus, *Ars maior* (excerpts only in Copeland and Sluiter)
 - Vossius, *Aristarchus* and *Etymologicon*
+- Boethius, *In Categorias*
+- Boethius, *In Peri hermeneias* (*Planning note:* a translation of part of the commentaries may exist in the Ancient Commentators on Aristotle series; if Timothy confirms one that contains the passage used, it is cited instead)
 - Boethius of Dacia, *Modi significandi*
 - Peter Helias, *Summa super Priscianum*
 - Servius, *In Vergilii Aeneidem*
 - Thomas Linacre, *De emendata structura*
-- Sībawayh, *al-Kitāb*
-- Others to check before use: Saadia's and Ibn Janāḥ's grammatical works, Patañjali's *Mahābhāṣya*, the *Qieyun*, the *Shuowen jiezi*, and the *Mashi wentong*
+- Patañjali, *Mahābhāṣya* (*Planning note:* partial translations of some sections may exist; to be checked passage by passage)
+- Judah Ḥayyūj, the grammatical treatises
+- Jonah ibn Janāḥ, the grammatical works
+- Saadia Gaon, the grammatical works
+- Sībawayh, *al-Kitāb* (paraphrased, as in XI.1, unless a published English translation of the particular passage exists)
+- To be checked before use: the *Qieyun*, the *Shuowen jiezi*, and the *Mashi wentong*
 
-**Correction on Varro:** *De lingua Latina* IX–X is not under this rule. R. G. Kent's Loeb translation (1938) covers all the surviving books, V–X, so Varro is quoted from Kent.
+*Planning note:* Varro, *De lingua Latina* IX–X, is not on this list, because R. G. Kent's Loeb translation covers all the surviving books (V–X).
 
 ---
 
@@ -560,7 +658,7 @@ For these sources we quote the original with our own literal translation, labele
 | I | 6 + 1 shared set | 52 | 15 | 45 | 72 |
 | II | 6 + 1 review | 63 | 18 | 54 | 141 |
 | III | 14 + 2 shared sets + 2 reviews | 135 | 38 | 114 | 360 |
-| IV | 3 | 25 | 7 | 21 | 0 |
+| IV | 3 + 1 review | 25 | 7 | 21 | 30 |
 | V | 10 + 1 review | 91 | 50 | 150 | 45 |
 | VI | 4 + 1 review | 30 | 8 | 24 | 45 |
 | VII | 3 + 1 review | 38 | 10 | 30 | 186 |
@@ -568,10 +666,10 @@ For these sources we quote the original with our own literal translation, labele
 | IX | 3 | 8 | 0 | 0 | 171 |
 | X | 4 | 46 | 13 | 39 | 10 |
 | XI | 2 | 101 | 33 | 99 | 0 |
-| **Total** | **70** | **652** | **210** | **630** | **1,075** |
+| **Total** | **71** | **652** | **210** | **630** | **1,105** |
 
 How these were counted:
-- **Buttons:** the 61 mockup divisions, plus 3 shared exercise buttons, plus 6 section reviews. The Free Workshop was never a separate division, so dropping it does not change the count.
+- **Buttons:** the 61 mockup divisions, plus 3 shared exercise buttons, plus 7 section reviews. The Free Workshop was never a separate division, so dropping it does not change the count.
 - **Exercise items:**
 
 | Set | Items |
@@ -593,10 +691,11 @@ How these were counted:
 | Analysis of Passages | 75 questions on 15 passages |
 | Marking | 36 |
 | Imitation | 10 passages |
-| Section reviews (6 × 45) | 270 |
-| **Total** | **1,075** |
+| Section reviews (6 × 45, plus 30 for IV) | 300 |
+| **Total** | **1,105** |
 
-- **Change from the first plan:** panels rose from 530 to 652. Most of the increase comes from the rule of three examples per point; the rest comes from the Latin pronunciation panels, the modistic closing panels, and the typology panels in V.5. XI is unchanged. Question variants rose from 380–570 to 630 at exactly three per point. Exercise items rose from 794 to 1,075, because of the section reviews (270). The rotation rule cut the analysis corpus from 150 items to 60 sentences and 15 passages.
+- **Change in this revision:** the review of IV adds 1 button and 30 exercise items; panels and question points are unchanged.
+- **Change from the first plan:** panels rose from 530 to 652. Most of the increase comes from the rule of three examples per point; the rest comes from the Latin pronunciation panels, the modistic closing panels, and the typology panels in V.5. XI is unchanged. Question variants rose from 380–570 to 630 at exactly three per point. Exercise items rose from 794 to 1,105, because of the seven section reviews (300). The rotation rule cut the analysis corpus from 150 items to 60 sentences and 15 passages.
 
 ## Overlap with Ars Rhetorica
 
@@ -612,7 +711,7 @@ I.6 Ambiguity and VIII.1 Supposition overlap Ars Syllogistica, not Ars Rhetorica
 
 ## Open questions
 
-1. **Imitation passages.** Do you approve the ten passages proposed under X.2, or would you replace any (for example, with Newman, Lincoln, or the King James Version once their texts are counted)? Should Austen and Johnson be cut to about 500 words?
-2. **Size of the analysis corpus.** Under the rotation rule, IX holds 60 sentences and 15 passages (three sittings of 20 sentences and of 5 passages). Do you want larger sittings, which would enlarge the pool by the same factor?
-3. **Sections with no review.** The Preliminary, I, IV, VIII, IX, X, and XI have no section review. I and VIII are already covered by their own exercise sets, but nothing tests IV (Word Formation and Etymology). Should IV get a review of its own, or should its decks be included in the Construction review?
-4. **The fable panels.** These wait until Kennedy can be read. Can you supply the relevant pages, or a copy I can reach, so the reasons are taken from the texts and not from reviews?
+1. **Churchill (imitation passage 7).** The text could not be reached from this environment, and the speech is under copyright. Which text and edition should be used, and how long may the excerpt be?
+2. **Length of imitation passages 8 and 10.** The Phaedo selection is 597 words and the Cicero chapter 852. Should either be shortened, or extended to the longer cuts given in the planning note?
+3. **Size of the analysis corpus.** Under the rotation rule, IX holds 60 sentences and 15 passages (three sittings of 20 sentences and of 5 passages). Do you want larger sittings, which would enlarge the pool by the same factor?
+4. **Boethius and Patañjali.** Can you confirm whether published English translations exist for the passages of Boethius's *In Peri hermeneias* and Patañjali's *Mahābhāṣya* that the course will use? Until then they are treated as untranslated.
