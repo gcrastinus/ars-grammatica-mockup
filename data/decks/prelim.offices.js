@@ -57,7 +57,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'judging',
   title: 'Judging (<i>iudicium</i>), the highest task',
-  body: `<p>Judging is the fourth task of the grammarian, and the highest. Quintilian reports how far the earlier grammarians carried it: “The old school of teachers indeed carried their criticism so far that they were not content with obelising lines or rejecting books whose titles they regarded as spurious, as though they were expelling a supposititious child from the family circle, but also drew up a canon of authors, from which some were omitted altogether” (<i>Institutio oratoria</i> I.4.3).</p>
+  body: `<p>Judging is the fourth task of the grammarian as teacher and critic of literature and it is the highest. Quintilian reports how far the earlier grammarians carried it: “The old school of teachers indeed carried their criticism so far that they were not content with obelising lines or rejecting books whose titles they regarded as spurious, as though they were expelling a supposititious child from the family circle, but also drew up a canon of authors, from which some were omitted altogether” (<i>Institutio oratoria</i> I.4.3).</p>
 <p>So judging includes three things: to decide whether a line is genuine, whether a work belongs to the author whose name it bears, and which authors are to be taken as models.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.4.3.` },
 
