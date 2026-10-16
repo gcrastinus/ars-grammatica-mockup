@@ -79,7 +79,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'sentence-and-period',
   title: 'Why does grammar end at the sentence?',
-  body: `<p>Grammar studies speech as far as the sentence. A sentence is complete when something is named and something is said of it, as in “The sailor waits.” Several clauses may still express one complete thought; such a sentence is called a <strong>period</strong> (a sentence of several clauses that together express one complete thought), and grammar treats it, because it is still one sentence. An example is “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version).</p>
+  body: `<p>Grammar studies speech as far as the sentence. A sentence is complete when something is named and something is said of it, as in “The sailor waits.” Several clauses may still express one complete thought; such a sentence is called a <strong>period</strong> (a sentence of several clauses that together express one complete thought), and grammar considers it because it is still one sentence. An example is “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version).</p>
 <p>A speech or a book is many sentences in a row, ordered to prove a point or to persuade. The order of those sentences belongs to logic and to rhetoric. So the proper end of grammar is the sentence, including the period.</p>`,
   src: `Ecclesiastes 12:13 (King James Version); Lincoln, Second Inaugural Address (1865).` },
 
