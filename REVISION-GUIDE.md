@@ -97,3 +97,19 @@ These come from Timothy's line-by-line revision of prelim.offices.js after a sel
 - **Always cite reports and paraphrases,** even if not exactly, e.g. "Varro, as Diomedes reports (*Ars grammatica*, in Keil, *Grammatici Latini* I, p. 426)."
 - **Contrast authorities where they differ,** e.g. "Quintilian does not limit the grammarian to the poets, as Dionysius Thrax does."
 - **Phrasing preferences:** "literary authors" rather than "the authors"; "the whole of grammar"; "and, finally," for the last item of a list; "is, in both, last and highest"; "its own work."
+
+## E. Log: revision pass on P.3 and P.4 applying section D (16 Oct 2026)
+
+Self-review pass, awaiting Timothy's review. No quotations, citations, question keys, or cards changed.
+
+- Methodice card 1: opens by recalling the two parts from the previous deck (I.4.2); closing sentence states which part is called *methodice* and which *historice*, and points ahead to the next two cards.
+- Methodice card 2: opens "The first part of grammar, the precepts of the art, is called *methodice*"; defines "precept, in this sense"; "general because they hold…; and, for that reason, …".
+- Methodice card 3: opens "The second part of grammar, the interpretation of the authors…"; "that is, of particular texts"; contrast "whereas the precepts of *methodice* are general, the work of *historice* is particular".
+- Methodice card 4: tied to the two previous cards ("We have now seen the two parts… one at a time; but they are not separate studies"); the two student sentences joined with a semicolon.
+- Methodice card 5: linked ("Since the two parts depend on each other…"); English first with Latin in parentheses; the two examples tested by the questions ("Remember" as imperative; "the evil days") now appear in the text, with the reason the second needs the particular text.
+- Methodice card 6: frame kept visible (English with *methodice*/*historice* in parentheses); "did not end with Quintilian; it continued…".
+- Criteria card 1: linked to P.3 (precepts drawn from usage of the authors); "criterion, in the sense used here"; the four criteria as a `<br>` list, English first with Latin in italic parentheses, each glossed from the later cards.
+- Criteria cards 2–5: each opens by naming its place in the frame ("The first (second, third, fourth) criterion, X (*latin*)"); card 2 glosses "certain"; card 3 adds the "thou art" example (already in the q-weighing explanation).
+- Criteria card 6: linked ("We have now seen each criterion in turn. But…").
+- Criteria card 7: linked to analogy under reason; Varro's conclusion marked as paraphrase with locus (IX.3).
+- Criteria card 8: "Finally,".
