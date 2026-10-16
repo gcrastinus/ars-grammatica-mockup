@@ -28,7 +28,7 @@ ARS.structure = [
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',
    items:[
-   { id:'ii.voice', kind:'study', title:'Voice (<i>vox</i>)', desc:'Voice as air struck and heard, and articulate and inarticulate voice.' },
+   { id:'ii.voice', kind:'study', title:'Voice (<i>vox</i>)', desc:'Voice as the motion of air perceptible to hearing, and articulate and inarticulate voice.' },
    { id:'ii.letter', kind:'study', title:'The Letter and Orthography', desc:'The letter and its accidents (name, figure, and power), and how Latin is spelled and pronounced.' },
    { id:'ii.syllable', kind:'study-ex', title:'The Syllable', desc:'What is a syllable, and how are words divided into syllables in English and in Latin?' },
    { id:'ii.quantity', kind:'study-ex', title:'Quantity and Accent', desc:'Long and short syllables, the Latin accent, and English stress.' },

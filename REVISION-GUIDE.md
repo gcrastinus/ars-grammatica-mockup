@@ -45,3 +45,5 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - …not by the will of those who use it, is not yet the material of grammar. → …is not part of the material of grammar. (Say it plainly; no "not yet.")
 - A sound enters grammar only so far as it belongs to speech. → A sound enters grammar only in so far as it belongs to speech.
 - the voice, that is, struck air perceptible to hearing; → the voice, that is, the motion of air perceptible to hearing;
+- the word, the least part of speech that signifies → the word, the least part of an expression that signifies
+- Voice as air struck and heard → Voice as the motion of air perceptible to hearing
