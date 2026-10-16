@@ -83,7 +83,7 @@ ARS.decks['prelim.criteria'] = {
 
 { id: 'faults',
   title: 'How do the criteria judge errors of speech?',
-  body: `<p>Finally, the criteria of correctness are also the standard by which errors are judged. An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. “Goed” for “went” is a barbarism, and “The boys runs” for “The boys run” is a solecism. A barbarism or a solecism is a departure from the forms that reason, antiquity, authority, and usage approve.</p>
+  body: `<p>Finally, the criteria of correctness are also the standard by which errors are judged. An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. “Irregardless” for “regardless” is a barbarism, and “The list of books are on the table” for “The list of books is on the table” is a solecism. A barbarism or a solecism is a departure from the forms that reason, antiquity, authority, and usage approve.</p>
 <p>Errors of speech are treated fully in Section VI, Correctness and Errors, where these criteria are applied to particular questions of usage and authority.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5; Donatus, <i>Ars maior</i> III.1–2.` }
 

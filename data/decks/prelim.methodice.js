@@ -24,9 +24,9 @@ ARS.decks['prelim.methodice'] = {
 
 { id: 'historice',
   title: 'What is <i>historice</i>?',
-  body: `<p>The second part of grammar, the interpretation of the authors, is called <i>historice</i>. The name comes from the Greek <i>historia</i>, inquiry or account. <i>Historice</i> is the reading and interpretation of the authors, that is, of particular texts. It explains the words, the constructions, and the matter of a particular text, such as a poem, a history, or a speech. For example, it explains that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty.</p>
+  body: `<p>The second part of grammar, the interpretation of the authors, is called <i>historice</i>. The name comes from the Greek <i>historia</i>, inquiry or account. (The name does not mean the study of history in our sense.) <i>Historice</i> is the reading and interpretation of the authors, that is, of particular texts. It explains the words, the constructions, and the matter of a particular text, such as a poem, a history, or a speech. For example, it explains that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty.</p>
 <p>So, whereas the precepts of <i>methodice</i> are general, the work of <i>historice</i> is particular, because it explains this line or this sentence and not every line of its kind. For that reason <i>historice</i> is learned by reading many authors with a teacher.</p>`,
-  src: `Lincoln, Gettysburg Address (1863); Austen, <i>Pride and Prejudice</i> (1813), ch. 1; Gibbon, <i>The Decline and Fall of the Roman Empire</i>, ch. I.`,
+  src: `Lincoln, Gettysburg Address (1863).`,
   qp: { id: 'q-which-part', variants: [
     { prompt: `The rule that a verb agrees with its subject in number and person belongs to which part of grammar?`,
       options: [`<i>Methodice</i>`, `<i>Historice</i>`, `Neither; it belongs to logic`, `Neither; it belongs to rhetoric`],
@@ -46,7 +46,7 @@ ARS.decks['prelim.methodice'] = {
   title: 'How do the two parts depend on each other?',
   body: `<p>We have now seen the two parts of grammar one at a time; but they are not separate studies, since each depends on the other. The precepts of <i>methodice</i> are drawn from the usage of the authors, and they are tested against the authors. In turn, the authors are read and explained by means of the precepts.</p>
 <p>So a student who knows the precepts without reading the authors knows rules that he has never seen used; and a student who reads the authors without the precepts cannot say why a sentence is correctly formed.</p>`,
-  src: `Ecclesiastes 12:1 (King James Version); Austen, <i>Pride and Prejudice</i> (1813), ch. 1.` },
+  src: `Ecclesiastes 12:1 (King James Version).` },
 
 { id: 'one-sentence',
   title: 'How do both parts work on one sentence?',
@@ -70,7 +70,7 @@ ARS.decks['prelim.methodice'] = {
 
 { id: 'schools',
   title: 'How were the two parts taught in the schools?',
-  body: `<p>The division of grammar into the precepts of the art (<i>methodice</i>) and the interpretation of the authors (<i>historice</i>) did not end with Quintilian; it continued in the schools after him. The precepts were learned from short grammars written for that purpose, and the authors were read with commentaries that explained them line by line.</p>`,
+  body: `<p>The division of grammar into the precepts of the art (<i>methodice</i>) and the interpretation of the authors (<i>historice</i>) did not end with Quintilian; it continued in the schools after him. The precepts were learned from short grammars written for that purpose, such as Donatus’s <i>Ars minor</i>, and the authors were read with commentaries that explained them line by line, such as Servius’s commentary on Vergil.</p>`,
   src: `Donatus, <i>Ars minor</i>; Priscian, <i>Institutiones grammaticae</i>; Servius, <i>In Vergilii Aeneidem</i>.` }
 
   ]

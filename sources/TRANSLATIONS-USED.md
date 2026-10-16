@@ -13,7 +13,7 @@ Translator credits removed from the app's text (see `CLAUDE.md`, "Translators").
 | Boethius of Dacia, *Modi significandi* q. 3 (Godfrey of Fontaines's abridgement) | q. 3 | A. C. Senape McDermott (1980) | prelim.definition / first (src) |
 | Quintilian, *Institutio oratoria* | I.4.2–3, I.4.3, I.4.4, I.8.1–2, I.8.13, I.8.13–18 | H. E. Butler (Loeb) | prelim.offices / two-heads, reading, explaining, correcting, judging, reading-all-authors (bodies, src, qp explains) |
 | Dionysius Thrax, *Technē* | 1 | Thomas Davidson (1874) | prelim.offices (src) |
-| Quintilian, *Institutio oratoria* | I.9.1 | H. E. Butler (Loeb); the literal translation of the Latin was credited "trans. T. Kearns" (confirm with Timothy that it is his) | prelim.methodice / two-parts (body, src) |
+| Quintilian, *Institutio oratoria* | I.9.1 | H. E. Butler (Loeb) for the English quotation; the literal rendering of the Latin has no translator credit (not Timothy's; the earlier "trans. T. Kearns" credit was removed, 16 Oct 2026) | prelim.methodice / two-parts (body, src) |
 | Quintilian, *Institutio oratoria* | I.4–7 | H. E. Butler (Loeb) | prelim.methodice (src) |
 | Donatus, *Ars minor* | — | Wayland Johnson Chase (1926) | prelim.methodice (src) |
 | Quintilian, *Institutio oratoria* | I.5, I.6.1–5, I.6.27, I.6.39–45 | H. E. Butler (Loeb) | prelim.criteria / four criteria, reason, antiquity, authority, usage, conflict, barbarism (bodies, src, qp explains) |
