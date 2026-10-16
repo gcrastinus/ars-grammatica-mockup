@@ -74,3 +74,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Offices card 3: added "This is the care that a reader should have…"; Quintilian "boy" → "student"; "he must understand what he reads" → "one must understand what one reads"
 - Offices card 3: "This is the care…" → "Reading in this sense is the care…" plus parenthetical on reading aloud
 - Offices card 4: "Explaining is the second task of the grammarian." → "Explaining or exposition of the text is the second task of the grammarian as teacher and critic of literature."
+- Offices card 5: "as teacher and critic of literature"; "copyists and printers and editors… seeks to restore… originally wrote"; Quintilian "what words are improperly used", "what words are contrary to the laws of language"

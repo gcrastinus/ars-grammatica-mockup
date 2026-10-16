@@ -37,7 +37,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'correcting',
   title: 'Correcting (<i>emendatio</i>)',
-  body: `<p>Correcting is the third task of the grammarian. It has two objects. The first is the text itself: copyists make errors, and the grammarian restores what the author wrote. The second is speech: Quintilian says that the teacher “will point out what words are barbarous, what improperly used, and what are contrary to the laws of language” (<i>Institutio oratoria</i> I.8.13).</p>
+  body: `<p>Correcting is the third task of the grammarian as teacher and critic of literature. It has two objects. The first is the text itself: copyists and printers and editors make errors, and the grammarian seeks to restore what the author originally wrote. The second is speech: Quintilian says that the teacher “will point out what words are barbarous, what words are improperly used, and what words are contrary to the laws of language” (<i>Institutio oratoria</i> I.8.13).</p>
 <p>An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. For example, “brung” for “brought” and “drownded” for “drowned” are barbarisms. “Him and me went home” for “He and I went home,” and Latin <i>rosa rubrum</i> for <i>rosa rubra</i> (“the red rose”), in which the adjective does not agree with the noun, are solecisms. Both are treated fully in Section VI, Correctness and Errors.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.13.`,
   qp: { id: 'q-office', variants: [
