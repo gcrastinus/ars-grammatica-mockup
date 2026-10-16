@@ -137,3 +137,7 @@ Use "fault" (or "vice") only when reporting what the ancient and medieval gramma
 In titles, headings and opening lines, prefer a direct question to an indirect one.
 - Not: "What grammar is." Instead: "What is grammar?"
 - Not: "Why the parts are eight." Instead: "Why are there eight parts of speech?"
+
+## The word "office"
+
+In the app's own voice, call reading, explaining, correcting and judging "the tasks of the grammarian" (the deck title is "What Are the Tasks of the Grammarian?"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."
