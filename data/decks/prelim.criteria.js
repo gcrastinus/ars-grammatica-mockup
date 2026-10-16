@@ -1,11 +1,11 @@
-/* P.4 What Are the Criteria of Correctness? [prelim.criteria]
+/* P.4 The Criteria of Correctness [prelim.criteria]
    Plan (ITEM-LIST.md): 8 panels, 2 question points, each with exactly 3 variants.
    This deck introduces the four criteria; VI.1 applies them and refers back here. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.criteria'] = {
   id: 'prelim.criteria',
-  title: 'What Are the Criteria of Correctness?',
+  title: 'The Criteria of Correctness',
   sub: 'Reason, antiquity, authority, and usage',
   panels: [
 

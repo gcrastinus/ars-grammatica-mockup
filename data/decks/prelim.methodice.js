@@ -4,7 +4,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.methodice'] = {
   id: 'prelim.methodice',
-  title: 'What Are <i>Methodice</i> and <i>Historice</i>?',
+  title: '<i>Methodice</i> and <i>Historice</i>',
   latinTitle: true,
   sub: 'The two parts of grammar: the precepts of the art and the reading of the authors',
   panels: [

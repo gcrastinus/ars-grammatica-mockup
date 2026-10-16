@@ -1,10 +1,10 @@
-/* P.2 What Are the Tasks of the Grammarian? [prelim.offices] (the id is kept; ids never change)
+/* P.2 The Tasks of the Grammarian [prelim.offices] (the id is kept; ids never change)
    Plan (ITEM-LIST.md): 8 panels, 2 question points, each with exactly 3 variants. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.offices'] = {
   id: 'prelim.offices',
-  title: 'What Are the Tasks of the Grammarian?',
+  title: 'The Tasks of the Grammarian',
   sub: 'Reading, explaining, correcting, and judging',
   panels: [
 

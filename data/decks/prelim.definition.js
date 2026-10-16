@@ -1,4 +1,4 @@
-/* P.1 What Is the Definition of Grammar? [prelim.definition]
+/* P.1 The Definition of Grammar [prelim.definition]
    Plan (ITEM-LIST.md): 10 panels, 3 question points, each with exactly 3 variants (A, B, C).
    Each panel: id, title, body (HTML), examples (three per point), src (sources line).
    A panel may carry a question point (qp) with three variants; "answer" is the index of the correct option. */
@@ -6,7 +6,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.definition'] = {
   id: 'prelim.definition',
-  title: 'What Is the Definition of Grammar?',
+  title: 'The Definition of Grammar',
   sub: 'The definition of grammar, its material and its ends, and its place as the first art of the trivium',
   panels: [
 

@@ -132,12 +132,12 @@ Use "fault" (or "vice") only when reporting what the ancient and medieval gramma
 - Not: "A barbarism is a fault in a single word." Instead: "A barbarism is an error in a single word."
 - Not: "The construction is faulty." Instead: "The construction is incorrect."
 
-## Direct questions in titles and openings
+## No indirect questions
 
-In titles, headings and opening lines, prefer a direct question to an indirect one.
-- Not: "What grammar is." Instead: "What is grammar?"
-- Not: "Why the parts are eight." Instead: "Why are there eight parts of speech?"
+Do not write indirect questions as titles, headings, descriptions or openings. Either ask a direct question or use a plain noun phrase. Titles need not be questions; a noun phrase such as "The Definition of Grammar" is fine.
+- Not: "What grammar is." Instead: "What is grammar?" or "The Definition of Grammar."
+- Not: "Why the parts are eight." Instead: "Why are there eight parts of speech?" or "The Reasons for the Parts."
 
 ## The word "office"
 
-In the app's own voice, call reading, explaining, correcting and judging "the tasks of grammar" when speaking of the art (e.g., the Preliminary section description: "the definition, the tasks, and the parts of the art, and the criteria of correct speech") and "the tasks of the grammarian" when speaking of the person (deck title: "What Are the Tasks of the Grammarian?"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."
+In the app's own voice, call reading, explaining, correcting and judging "the tasks of grammar" when speaking of the art (e.g., the Preliminary section description: "the definition, the tasks, and the parts of the art, and the criteria of correct speech") and "the tasks of the grammarian" when speaking of the person (deck title: "The Tasks of the Grammarian"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."

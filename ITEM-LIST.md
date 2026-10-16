@@ -96,22 +96,22 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 
 ## Preliminary · *Quid sit grammatica* · What Is Grammar?
 
-**P.1 What Is the Definition of Grammar?** `[prelim.definition]`. What is grammar, what does it treat, and why is it the first art of the trivium? The mention of typology has moved to V.5.
+**P.1 The Definition of Grammar** `[prelim.definition]`. What is grammar, what does it treat, and why is it the first art of the trivium? The mention of typology has moved to V.5.
 - Panels 10 · QP 3 · Exercise: no
 - Sources: Quintilian I.4 (trans. H. E. Butler, Loeb); Isidore, *Etymologiae* I.5 (trans. Stephen A. Barney and others, 2006); Diomedes, *Ars* II (rule 9); Vossius, *Aristarchus, sive de arte grammatica* (1635) I (rule 9)
 - Reuse: `prelim` (15 panels): the name of the art, its definition, matter, and end
 
-**P.2 What Are the Tasks of the Grammarian?** `[prelim.offices]`. *Lectio*, *enarratio*, *emendatio*, and *iudicium*, that is, reading, explaining, correcting, and judging.
+**P.2 The Tasks of the Grammarian** `[prelim.offices]`. *Lectio*, *enarratio*, *emendatio*, and *iudicium*, that is, reading, explaining, correcting, and judging.
 - Panels 8 · QP 2 · Exercise: no
 - Sources: Diomedes, citing Varro (rule 9); Dionysius Thrax, *Technē* 1 (trans. Alan Kemp, 1986); Quintilian I.4 (Butler)
 - Reuse: `prelim`, the panels on the grammarian's work
 
-**P.3 What Are *Methodice* and *Historice*?** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
+**P.3 *Methodice* and *Historice*** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
 - Panels 6 · QP 2 · Exercise: no
 - Sources: Quintilian I.9.1 (Butler); Vossius, *Aristarchus* I (rule 9)
 - Reuse: none
 
-**P.4 What Are the Criteria of Correctness?** `[prelim.criteria]`. This deck introduces the four tests of correct speech (reason, antiquity, authority, and custom), which VI.1 later applies.
+**P.4 The Criteria of Correctness** `[prelim.criteria]`. This deck introduces the four tests of correct speech (reason, antiquity, authority, and custom), which VI.1 later applies.
 - Panels 8 · QP 2 · Exercise: no
 - Sources: Quintilian I.6.1–3 (Butler); Varro, *De lingua Latina* IX (trans. R. G. Kent, Loeb)
 - Reuse: `prelim`, the panel on usage
