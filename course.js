@@ -155,9 +155,9 @@ function nextPanel(){
   if ($('deck-next').disabled) return;
   if (cur.i < cur.deck.panels.length - 1){ cur.i += 1; renderPanel(); window.scrollTo(0, 0); return; }
   const st = deckState(cur.deck.id); st.done = true; save();
-  $('done-title').innerHTML = cur.deck.title;
-  $('done-sub').innerHTML = cur.deck.sub || '';
-  show('scr-done');
+  const id = cur.deck.id; goHome();
+  const card = document.querySelector(`.set-card[data-id="${id}"]`);
+  if (card){ card.scrollIntoView({block:'center'}); card.focus({preventScroll:true}); }
 }
 function prevPanel(){ if (cur.i > 0){ cur.i -= 1; renderPanel(); window.scrollTo(0, 0); } }
 
