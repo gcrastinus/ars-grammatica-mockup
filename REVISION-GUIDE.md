@@ -2,6 +2,8 @@
 
 Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER (Timothy's revision). Learn the pattern behind each change, not only the phrase. Newest entries are at the bottom; add to this file whenever he revises a card.
 
+**How to use the pairs:** they show Timothy's taste in particular sentences. They are illustrations, not rules. Do not turn a single change (e.g., "treats" → "considers") into a blanket substitution. Only the numbered decisions in section A apply everywhere.
+
 ## A. Decisions (apply everywhere)
 
 1. **"Fault"** only when reporting the ancients or translating *vitium*. Our own words: error, barbarism, solecism, impropriety. Section VI is "Correctness and Errors."
