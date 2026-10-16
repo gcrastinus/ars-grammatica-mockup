@@ -79,3 +79,21 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Offices card 6: Quintilian I.4.3 wording modernized per author; "which authors are to be taken as models" → "…as models and why"
 - Offices card 7: "divides the whole of grammar into"; "and, finally, the criticism of poems"; "judging, is, in both, last and highest."
 - Offices card 8: retitled "Why do literary authors in general belong to grammar?"; text revised by author (contrast with Thrax; usages and styles become the standard)
+
+## D. Patterns from the Tasks of the Grammarian deck (16 Oct 2026)
+
+These come from Timothy's line-by-line revision of prelim.offices.js after a self-review pass. They are tendencies to follow when drafting, not mechanical rules.
+
+- **Connect each card to the one before it.** He opened card 2 with "We just saw that the tradition recognizes two broad parts of the grammarian's profession…" Start a new card by tying it to what came before, then narrow down: "Concerning grammar in this second way as the study of literature, Varro…"
+- **Keep the frame visible.** Once a division is set up, name it again where it governs the text. Each of the four tasks became "the first (second, third, fourth) task of the grammarian as teacher and critic of literature."
+- **Say why, not only what.** He added the reason one part is higher ("language reaches its most elaborate and powerful forms in writing; and, therefore, written speech requires the most detailed… study and criticism"), and he added "and why" to "which authors are to be taken as models."
+- **Answer the modern student's doubt.** Where an ancient task seems strange today, say so briefly and answer it. For example: "(In our time, it is not customary to think of reading aloud as part of the study of literature but it clearly is, since if the text cannot be fluently read out loud then it will not be as easily understood.)"
+- **Define the key word in the sense used here.** "Reading in this sense is…"; "literature, taken in a general sense to include everything thought to be especially well written"; "Explaining or exposition of the text."
+- **English first, Latin in parentheses, in italics:** "reading (*lectio*), explaining (*enarratio*), correcting (*emendatio*), and judging (*iudicium*)." Don't give a Latin list followed by "In English we call them…"
+- **Lists:** end the lead-in sentence with a colon and set the items one per line as a plain paragraph (`<br>` between items, **bold** English term). Don't use `<ul>` bullets, because they indent oddly in this layout.
+- **Translations of quoted texts.** He prefers plain, modern renderings over Butler's Victorian ones: "student" for "boy"; "one must understand what one reads" for "he must understand what he reads"; "removing lines from texts" for "obelising lines." He allows ellipses to cut digressions (". . ."). Inside quotation marks, keep close to the sense of the Latin. If his preferred wording goes beyond the original, flag it for him.
+- **Fill out Quintilian's elliptical wording** so it reads clearly: "what words are improperly used… what words are contrary to the laws of language."
+- **Be precise about who errs and what the critic does:** "copyists and printers and editors make errors, and the grammarian seeks to restore what the author originally wrote." ("Seeks to" because restoring isn't always possible, and "originally" because later editors don't count.)
+- **Always cite reports and paraphrases,** even if not exactly, e.g. "Varro, as Diomedes reports (*Ars grammatica*, in Keil, *Grammatici Latini* I, p. 426)."
+- **Contrast authorities where they differ,** e.g. "Quintilian does not limit the grammarian to the poets, as Dionysius Thrax does."
+- **Phrasing preferences:** "literary authors" rather than "the authors"; "the whole of grammar"; "and, finally," for the last item of a list; "is, in both, last and highest"; "its own work."
