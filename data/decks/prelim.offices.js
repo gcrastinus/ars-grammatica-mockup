@@ -31,7 +31,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'explaining',
   title: 'What does explaining (<i>enarratio</i>) cover?',
-  body: `<p>Explaining is the second task of the grammarian. In Quintilian’s description, the teacher “will ask his class after analysing a verse to give him the parts of speech and the peculiar features of the feet which it contains” (<i>Institutio oratoria</i> I.8.13). The teacher also explains words that are not in common use (I.8.15) and the stories to which the poets refer (I.8.18).</p>
+  body: `<p>Explaining or exposition of the text is the second task of the grammarian as teacher and critic of literature. In Quintilian’s description, the teacher “will ask his class after analysing a verse to give him the parts of speech and the peculiar features of the feet which it contains” (<i>Institutio oratoria</i> I.8.13). The teacher also explains words that are not in common use (I.8.15) and the stories to which the poets refer (I.8.18).</p>
 <p>Explaining, therefore, covers the parts of speech, the meter, the meaning of rare words, and the matter of the text. In “Remember now thy Creator” (Ecclesiastes 12:1, King James Version), for example, “Remember” is a verb, “now” an adverb, “thy” a pronoun, and “Creator” a noun; and in “nor the years draw nigh,” the rare word “nigh” means “near.”</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.13–18; Ecclesiastes 12:1 (King James Version).` },
 
