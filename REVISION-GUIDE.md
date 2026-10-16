@@ -66,3 +66,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - "criticism has its work to perform" → "criticism has its own work to perform" (offices card 1)
 - Offices card 2: added inline citation for Diomedes reporting Varro (Keil, GL I, p. 426)
 - Offices card 2: "lectio, enarratio, emendatio, and iudicium. In English we call them reading, explaining, correcting, and judging" → "reading (lectio), explaining (enarratio), correcting (emendatio), and judging (iudicium)."; citation moved after "as Diomedes reports"
+- Offices card 2: sentence ends at "duties (officia) of grammar:"; the four tasks follow as a bulleted list
