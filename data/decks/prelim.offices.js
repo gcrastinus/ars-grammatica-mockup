@@ -63,8 +63,8 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'thrax',
   title: 'The Six Parts of Grammar in Dionysius Thrax',
-  body: `<p>Dionysius Thrax, a Greek grammarian of the second century BC, divides grammar into six parts, which cover the same tasks: reading aloud with attention to the accents and quantities; explaining the figures of speech (tropes) in the poets; explaining rare words and the stories to which the poets refer; finding the origin of words (etymology); working out the regular patterns of forms (analogy); and the criticism of poems, which he calls the finest part of the art.</p>
-<p>The six parts and the four tasks describe the same work. Reading comes first in both, and criticism, that is, judging, is last and highest in both.</p>`,
+  body: `<p>Dionysius Thrax, a Greek grammarian of the second century BC, divides the whole of grammar into six parts, which cover the same tasks: reading aloud with attention to the accents and quantities; explaining the figures of speech (tropes) in the poets; explaining rare words and the stories to which the poets refer; finding the origin of words (etymology); working out the regular patterns of forms (analogy); and, finally, the criticism of poems, which he calls the finest part of the art.</p>
+<p>The six parts and the four tasks describe the same work. Reading comes first in both, and criticism, that is, judging, is, in both, last and highest.</p>`,
   src: `Dionysius Thrax, <i>Technē</i> 1, in paraphrase.` },
 
 { id: 'authors',
