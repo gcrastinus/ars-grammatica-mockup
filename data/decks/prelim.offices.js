@@ -25,7 +25,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'reading',
   title: 'Reading (<i>lectio</i>)',
-  body: `<p>Reading is the first task of the grammarian. Quintilian sets out what it requires: the reader must know “when the boy should take breath, at what point he should introduce a pause into a line, where the sense ends or begins, when the voice should be raised or lowered.” He gives one rule for all of it: “to do all these things, he must understand what he reads” (<i>Institutio oratoria</i> I.8.1–2).</p>
+  body: `<p>Reading is the first task of the grammarian as teacher and critic of literature. Quintilian sets out what it requires: the reader must know “when the boy should take breath, at what point he should introduce a pause into a line, where the sense ends or begins, when the voice should be raised or lowered.” He gives one rule for all of it: “to do all these things, he must understand what he reads” (<i>Institutio oratoria</i> I.8.1–2).</p>
 <p>So correct reading already requires grammatical knowledge. The reader must know the quantity and the accent of each word and see where each clause begins and ends. For example, Latin <i>malum</i> with a short <i>a</i> means “evil,” but <i>mālum</i> with a long <i>ā</i> means “apple,” and a reader who does not know the difference may say the wrong word. Again, in “The Lord is my shepherd; I shall not want” (Psalm 23:1, King James Version), the reader pauses at the semicolon, because two clauses meet there.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.1–2; Psalm 23:1 (King James Version).` },
 
