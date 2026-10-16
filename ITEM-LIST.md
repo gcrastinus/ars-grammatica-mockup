@@ -23,7 +23,7 @@ The changes from the mockup are these:
 - Each opening of the deck starts on the next variant (A, then B, then C, then A again), so review shows the same cards with different questions.
 - Where the live app has exercises that do not survive as exercises (see rule 6), their best items are rewritten as variants at the question points of the matching deck.
 
-**3. Examples.** Examples are not mandatory. A panel carries examples only where they genuinely help the point (mixing English and Latin, with Greek, French, or German only where they show something distinctive), and a panel may have none. Every Latin, Greek, French, or German example is translated. **Sources.** Panels carry no per-panel source line. Each study deck has one Sources note (the deck-level field `sources`), shown on its first panel only, listing only the backbone sources of the deck's doctrine. Texts quoted inline carry their short title and citation in the text itself.
+**3. Examples.** No example lists at the bottom of panels. Examples belong in the text itself, and when the text illustrates a kind (a noun, a case, a figure), give more than one example. Examples mix English and Latin, with Greek, French, or German only where they show something distinctive. Every Latin, Greek, French, or German example is translated. **Sources.** Panels carry no per-panel source line. Each study deck has one Sources note (the deck-level field `sources`), shown on its first panel only, listing only the backbone sources of the deck's doctrine. Texts quoted inline carry their short title and citation in the text itself.
 
 **4. Exercises test only what has been taught.** Every exercise set and every section review uses only what the decks before it have taught. The limits for each set are given under the set. Question points obey the same rule.
 
@@ -525,7 +525,7 @@ Both analysis buttons draw on one corpus, mostly English with some Latin. Latin 
 14. introduction of a law.
 
 The deck says what each exercise is, why the fable comes first, and why the exercises follow that order.
-- Panels 22: 2 introductory, 14 one per exercise (each with Aphthonius's definition and three short examples), 2 on why the fable comes first, 4 on the order · QP 6 · Exercise: no
+- Panels 22: 2 introductory, 14 one per exercise (each with Aphthonius's definition, illustrated in the text), 2 on why the fable comes first, 4 on the order · QP 6 · Exercise: no
 - Sources: George A. Kennedy, *Progymnasmata: Greek Textbooks of Prose Composition and Rhetoric* (Atlanta: Society of Biblical Literature, 2003). Kennedy is the translator of Theon, [Hermogenes], Aphthonius, the anonymous Prolegomenon to Aphthonius, Nicolaus, and John of Sardis. Also Quintilian I.9 (Butler) and Priscian, *Praeexercitamina* (rule 9).
 - Every quotation below is taken from `sources/KENNEDY-FABLE-AND-ORDER.md`, with the printed page numbers given there. Nothing is quoted from any other report of Kennedy.
 

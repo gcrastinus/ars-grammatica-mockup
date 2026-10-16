@@ -148,7 +148,7 @@ Do not name translators in the app's text (bodies, examples, source lines). Reco
 
 ## Examples and sources
 
-Examples are not mandatory. Do not give three examples on every panel by rule; give examples only where they genuinely help, and leave a panel without examples when they would only restate the body.
+No example lists at the bottom of panels. Examples belong in the text itself, and when the text illustrates a kind (a noun, a case, a figure), give more than one example.
 
 Do not put a source line on each panel. Each study deck has one Sources note, stored as the deck-level field `sources` and shown on the deck's first panel only. It lists only the main sources of the doctrine (the backbone texts the deck's teaching is drawn from), not every text cited. A text quoted inline carries its short title and citation in the text itself (for example, Isidore, *Etymologiae* I.5.1) and is not listed among the sources unless it is a backbone source.
 

@@ -95,7 +95,6 @@ function renderPanel(){
   const body = $('deck-body'); body.innerHTML = '';
   const panel = document.createElement('div'); panel.className = 'panel';
   panel.innerHTML = `<h2>${p.title}</h2>${p.body}` +
-    (p.examples && p.examples.length ? `<div class="eg"><div class="eg-label">Examples</div><ol>${p.examples.map(e => `<li>${e}</li>`).join('')}</ol></div>` : '') +
     (i === 0 && deck.sources ? `<div class="psrc"><b>Sources</b>${deck.sources}</div>` : '');
   body.appendChild(panel);
   if (p.qp) body.appendChild(renderQP(p.qp));

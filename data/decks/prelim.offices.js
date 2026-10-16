@@ -13,11 +13,6 @@ ARS.decks['prelim.offices'] = {
   title: 'What are the two parts of the grammarian’s profession?',
   body: `<p>Quintilian describes the work of the grammarian (Latin <i>grammaticus</i>, whom Butler calls “the teacher of literature”) in this way: “This profession may be most briefly considered under two heads, the art of speaking correctly and the interpretation of the poets; but there is more beneath the surface than meets the eye” (<i>Institutio oratoria</i> I.4.2).</p>
 <p>He then explains what lies beneath the surface: “For the art of writing is combined with that of speaking, and correct reading precedes interpretation, while in each of these cases criticism has its work to perform” (I.4.3). So the two parts of the profession contain several distinct tasks of the grammarian.</p>`,
-  examples: [
-    `Speaking correctly: “He and I were there,” not “Him and me were there.”`,
-    `Writing correctly: “its” for the possessive (“The dog wagged its tail”) and “it’s” for “it is.”`,
-    `Interpreting the poets: explaining what a line means and how its words are arranged, as a teacher does with a verse of Virgil or of the King James Version.`
-  ],
   src: `Quintilian, <i>Institutio oratoria</i> I.4.2–3.` },
 
 { id: 'four-offices',
@@ -25,44 +20,24 @@ ARS.decks['prelim.offices'] = {
   body: `<p>Varro, as Diomedes reports, names four duties (<i>officia</i>) of grammar: <i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, and <i>iudicium</i>. In English we call them the four tasks of the grammarian:</p>
 <p><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly;<br><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text;<br><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or incorrect in speech;<br><strong>judging</strong> (<i>iudicium</i>): weighing the merit of a poem or other writing (and, Quintilian adds, whether it is genuine).</p>
 <p>The list begins with reading and ends with judging, because a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
-  examples: [
-    `Reading: pronouncing Latin <i>mālum</i> (“apple”) with a long first vowel and <i>malum</i> (“evil”) with a short one.`,
-    `Explaining: saying that “nigh” in “nor the years draw nigh” (Ecclesiastes 12:1, King James Version) means “near.”`,
-    `Correcting: restoring “from” where a copyist has written “form.”`
-  ],
   src: `Diomedes, <i>Ars grammatica</i> (Keil, <i>GL</i> I 426), citing Varro, in paraphrase (no published English translation).` },
 
 { id: 'reading',
   title: 'What is reading (<i>lectio</i>)?',
   body: `<p>Reading is the first task of the grammarian. Quintilian lists what it requires: the reader must know “when the boy should take breath, at what point he should introduce a pause into a line, where the sense ends or begins, when the voice should be raised or lowered.” He gives one rule for all of it: “to do all these things, he must understand what he reads” (<i>Institutio oratoria</i> I.8.1–2).</p>
-<p>So correct reading is already a grammatical act. The reader must know the quantity and the accent of each word and see where each clause begins and ends.</p>`,
-  examples: [
-    `Pauses: “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version) is read with a pause at each colon.`,
-    `Quantity in Latin: <i>malum</i> with a short <i>a</i> means “evil,” and <i>mālum</i> with a long <i>ā</i> means “apple.”`,
-    `Stress in English: “record” is stressed on the first syllable as a noun (“a record”) and on the second as a verb (“to record”).`
-  ],
+<p>So correct reading is already a grammatical act. The reader must know the quantity and the accent of each word and see where each clause begins and ends. Latin <i>malum</i> with a short <i>a</i> means “evil,” but <i>mālum</i> with a long <i>ā</i> means “apple”; and in “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version), the reader pauses at each colon.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.1–2; Ecclesiastes 12:13 (King James Version).` },
 
 { id: 'explaining',
   title: 'What is explaining (<i>enarratio</i>)?',
   body: `<p>Explaining is the second task of the grammarian. Quintilian describes it: the teacher “will ask his class after analysing a verse to give him the parts of speech and the peculiar features of the feet which it contains” (<i>Institutio oratoria</i> I.8.13). The teacher also explains words that are not in common use (I.8.15) and the stories to which the poets refer (I.8.18).</p>
-<p>Explaining therefore covers the parts of speech, the meter, the meaning of rare words, and the matter of the text.</p>`,
-  examples: [
-    `The parts of speech: in “Remember now thy Creator” (Ecclesiastes 12:1), “Remember” is a verb, “now” an adverb, “thy” a pronoun, and “Creator” a noun.`,
-    `A word not in common use: “nigh” in “nor the years draw nigh” (Ecclesiastes 12:1) means “near.”`,
-    `The matter of a text: in Gibbon’s sentence on “Nerva, Trajan, Hadrian, and the two Antonines” (<i>Decline and Fall</i>, ch. I), the teacher explains who these emperors were.`
-  ],
+<p>Explaining therefore covers the parts of speech, the meter, the meaning of rare words, and the matter of the text. In “Remember now thy Creator” (Ecclesiastes 12:1, King James Version), for example, “Remember” is a verb, “now” an adverb, “thy” a pronoun, and “Creator” a noun; and in “nor the years draw nigh,” the rare word “nigh” means “near.”</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.13–18; Ecclesiastes 12:1 (King James Version); Gibbon, <i>The Decline and Fall of the Roman Empire</i>, ch. I.` },
 
 { id: 'correcting',
   title: 'What is correcting (<i>emendatio</i>)?',
   body: `<p>Correcting is the third task of the grammarian. It has two objects. The first is the text itself: copyists make errors, and the grammarian restores what the author wrote. The second is speech: Quintilian says that the teacher “will point out what words are barbarous, what improperly used, and what are contrary to the laws of language” (<i>Institutio oratoria</i> I.8.13).</p>
-<p>An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. Both are treated fully in Section VI, Correctness and Errors.</p>`,
-  examples: [
-    `An error of a copyist: “form” written where the author wrote “from.”`,
-    `A barbarism, an error in a single word: “goed” for “went.”`,
-    `A solecism, an error in the arrangement of words: “The boys runs” for “The boys run,” or Latin <i>puella cantant</i> for <i>puella cantat</i> (“the girl sings”).`
-  ],
+<p>An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. “Goed” for “went” is a barbarism; “The boys runs” for “The boys run,” or Latin <i>puella cantant</i> for <i>puella cantat</i> (“the girl sings”), is a solecism. Both are treated fully in Section VI, Correctness and Errors.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.13.`,
   qp: { id: 'q-office', variants: [
     { prompt: `A teacher explains that “nigh” in “nor the years draw nigh” means “near.” Which task of the grammarian is this?`,
@@ -83,32 +58,18 @@ ARS.decks['prelim.offices'] = {
   title: 'What is judging (<i>iudicium</i>)?',
   body: `<p>Judging is the fourth task of the grammarian, and the highest. Quintilian describes how far the earlier grammarians carried it: “The old school of teachers indeed carried their criticism so far that they were not content with obelising lines or rejecting books whose titles they regarded as spurious, as though they were expelling a supposititious child from the family circle, but also drew up a canon of authors, from which some were omitted altogether” (<i>Institutio oratoria</i> I.4.3).</p>
 <p>So judging has three tasks: to decide whether a line is genuine, whether a work belongs to the author whose name it bears, and which authors are to be taken as models.</p>`,
-  examples: [
-    `Whether a line is genuine: the grammarian marks a line that a copyist has added (to “obelize” a line is to mark it with a dash, the obelus, as spurious).`,
-    `Whether a work is genuine: the grammarian rejects a book that bears an author’s name but was not written by him.`,
-    `Which authors are models: the grammarian draws up a list of the authors to be read, as the Greek grammarians did.`
-  ],
   src: `Quintilian, <i>Institutio oratoria</i> I.4.3.` },
 
 { id: 'thrax',
   title: 'How does Dionysius Thrax divide grammar?',
   body: `<p>The Greek grammarian Dionysius Thrax divides grammar into six parts, which cover the same tasks: reading aloud with attention to the accents and quantities; explaining the figures of the poets; explaining rare words and the stories to which the poets refer; finding the origin of words (etymology); working out the regular patterns of forms (analogy); and the criticism of poems, which he calls the finest part of the art.</p>
 <p>The six parts and the four tasks describe the same work. Reading is first in both, and criticism, that is, judging, is last and highest in both.</p>`,
-  examples: [
-    `Etymology: English “grammar” from Greek <i>gramma</i>, “letter.”`,
-    `Analogy: if the plural of “cat” is “cats,” the plural of “zebra” is “zebras.”`
-  ],
   src: `Dionysius Thrax, <i>Technē</i> 1, in paraphrase.` },
 
 { id: 'authors',
   title: 'Why do the authors belong to grammar?',
   body: `<p>Quintilian says that the grammarian does not read the poets only: “Nor is it sufficient to have read the poets only; every kind of writer must be carefully studied, not merely for the subject matter, but for the vocabulary; for words often acquire authority from their use by a particular author” (<i>Institutio oratoria</i> I.4.4).</p>
 <p>The authors therefore belong to grammar for two reasons. Interpreting them is one of the two parts of the grammarian’s profession, and the authors show how words are used correctly, so they give authority to the forms and constructions that grammar teaches.</p>`,
-  examples: [
-    `A poet: the verse of Virgil, explained line by line in the Roman schools.`,
-    `A historian: Gibbon’s <i>Decline and Fall of the Roman Empire</i>, read for its long and carefully built sentences.`,
-    `An orator: Lincoln’s Second Inaugural Address, read for its constructions as well as for its argument.`
-  ],
   src: `Quintilian, <i>Institutio oratoria</i> I.4.4.`,
   qp: { id: 'q-authors', variants: [
     { prompt: `Why does the grammarian read the poets and the other authors?`,
