@@ -12,7 +12,7 @@ ARS.decks['prelim.methodice'] = {
 { id: 'two-parts',
   title: 'What are the two parts of grammar?',
   body: `<p>We saw in the previous deck that Quintilian divides the profession of the grammarian into two parts, the art of speaking correctly and the interpretation of the poets (<i>Institutio oratoria</i> I.4.2). When he finishes treating these two parts, he names them again: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen, hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>”.</p>
-<p>So the part of grammar that teaches the precepts of the art is the part concerned with principles (<i>methodice</i>), and the part that interprets the authors is interpretation (<i>historice</i>). The next two cards take each part in turn.</p>`,
+<p>So the part of grammar that teaches the precepts of the art is the part concerned with principles (<i>methodice</i>, from the Greek for the methodical part), and the part that interprets the authors is interpretation (<i>historice</i>, from the Greek for the part that gives an account of the authors). The next two cards take each part in turn.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (the Latin from the Perseus text).` },
 
 { id: 'methodice',
@@ -35,10 +35,10 @@ ARS.decks['prelim.methodice'] = {
       options: [`Principles`, `Neither; it belongs to logic`, `Interpretation`, `Neither; it belongs to rhetoric`],
       answer: 2,
       explain: `Explaining a word in a particular text is the work of interpretation, that is, the interpretation of the authors. The part concerned with principles gives the general precepts of the art.` },
-    { prompt: `What does the Greek name <i>historice</i> refer to?`,
+    { prompt: `Quintilian reports the Greek name <i>historice</i> (from <i>historia</i>, inquiry or account) for one part of grammar. Which part does it name?`,
       options: [`The history of the Greek language`, `The interpretation of the authors`, `The precepts of correct speech`, `The order in which the arts are studied`],
       answer: 1,
-      explain: `Quintilian gives <i>historice</i> as the name of the interpretation of the authors and <i>methodice</i> as the name of the precepts of the art (I.9.1).` }
+      explain: `Quintilian gives the Greek name <i>historice</i> to interpretation, that is, the interpretation of the authors, and <i>methodice</i> (from <i>methodos</i>, an orderly way of proceeding) to the principles, that is, the precepts of the art (I.9.1).` }
   ]}},
 
 { id: 'together',

@@ -131,3 +131,11 @@ Timothy's decision: the working English names are "principles" (or "the part con
 - Card titles: "What is *methodice*?" → "Principles"; "What is *historice*?" → "Interpretation".
 - Cards 1–6: working names replaced by the English; question options *Methodice*/*Historice* → Principles/Interpretation (answer keys unchanged, positions unchanged); explanations to match. The variant asking about the Greek name *historice* kept.
 - Card 5: also fixed "Consider Ecclesiastes 12:1 in the King James Version reads:" → "Consider Ecclesiastes 12:1, which in the King James Version reads:" (a slip from the earlier pass).
+
+## H. Log: completing the Principles and Interpretation rename (16 Oct 2026)
+
+Timothy: the Latin terms may stay, but it must always be clear on the spot what they are and mean.
+- Card 1 summary: "(*methodice*)" → "(*methodice*, from the Greek for the methodical part)"; "(*historice*)" → "(*historice*, from the Greek for the part that gives an account of the authors)".
+- Question q-which-part, variant 3: "What does the Greek name *historice* refer to?" → "Quintilian reports the Greek name *historice* (from *historia*, inquiry or account) for one part of grammar. Which part does it name?" Explanation glosses both names. Options and key unchanged.
+- v1.js (prototype outline, served by v1.html): "The Two Parts: *methodice* and *historice*" → "The Two Parts: Principles and Interpretation".
+- Kept: the Latin of I.9.1 and its literal rendering (a quotation; glossed in the next sentence); cards 2–3, where the Greek names are explained on the spot. Card titles were already English.
