@@ -4,6 +4,8 @@ Purpose: every panel, question, option, and explanation in this course should re
 
 Read this file before you write or revise any student-facing text. Change wording only. Do not change doctrine, citations, Latin or Greek, or which answer is correct.
 
+**Before drafting any section, read REVISION-GUIDE.md** (Timothy's decisions and before-and-after revisions). After he revises cards, add the new pairs to it.
+
 ## The main problem to avoid
 
 AI-written text tends to coin its own phrasing in place of the standard term, for example "a word wrongly sounded" for "a mispronounced word" (in the classical sense, a barbarism), or "the complete saying" for "the sentence." This happens even when a style guide is in place. A coined phrase is wrong even when it is understandable. The student must learn the term that every grammar uses.
