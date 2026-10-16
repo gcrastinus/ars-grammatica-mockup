@@ -58,3 +58,8 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - It is not an ornament of style for its own sake. → Grammar does not produce an ornament of style for its own sake. (Name the subject when "it" is unclear.)
 - It serves the understanding of connected speech, the interpretation of the authors, and clarity… → It gives us clarity about what words and sentences signify and serves the understanding of connected speech, and when we understand connected speech we can understand its highest form, in the writings of great thinkers; so, grammar culminates in the interpretation of the authors. (Order the ends from first to highest and show how each leads to the next, not a flat list.)
 - Butler uses "literature" and "the teacher of literature" to translate… → Here we use "literature" and "the teacher of literature" to translate…
+
+
+## C. Log
+
+- 2026-10-16: prelim.offices (The Tasks of the Grammarian) got a self-review pass against sections A and B: varied titles, removed the inline Butler credit, replaced examples that repeated the previous deck's drafts (Ecclesiastes 12:13, "goed", "boys runs", *puella cantat*), dropped an unused Gibbon citation, and tightened wording. Awaiting Timothy's review.

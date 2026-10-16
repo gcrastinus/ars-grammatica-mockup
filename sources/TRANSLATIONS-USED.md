@@ -19,4 +19,6 @@ Translator credits removed from the app's text (see `CLAUDE.md`, "Translators").
 | Quintilian, *Institutio oratoria* | I.5, I.6.1–5, I.6.27, I.6.39–45 | H. E. Butler (Loeb) | prelim.criteria / four criteria, reason, antiquity, authority, usage, conflict, barbarism (bodies, src, qp explains) |
 | Varro, *De lingua Latina* | VIII–X, esp. IX.3 | R. G. Kent (Loeb) | prelim.criteria (src) |
 
-Kept inline (translation itself at issue): Butler's rendering of *grammaticus*/*grammatica* as "teacher of literature"/"literature" (prelim.offices / two-heads; prelim.definition / first).
+Kept inline (translation itself at issue): Butler's rendering of *grammatica* as "literature" (prelim.definition / first, now worded "Here we use").
+
+prelim.offices / two-heads: the inline credit "whom Butler calls 'the teacher of literature'" (for *grammaticus*) was removed on 16 Oct 2026 and reworded "here rendered"; the rendering is H. E. Butler's (Loeb, I.4.2).

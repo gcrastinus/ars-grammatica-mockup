@@ -19,14 +19,14 @@ ARS.decks['prelim.offices'] = {
   title: 'The Four Tasks of the Grammarian',
   body: `<p>Varro, as Diomedes reports, names four duties (<i>officia</i>) of grammar: <i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, and <i>iudicium</i>. In English we call them reading, explaining, correcting, and judging:</p>
 <p><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly;<br><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text;<br><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or incorrect in speech;<br><strong>judging</strong> (<i>iudicium</i>): weighing the merit of a poem or other writing (and, Quintilian adds, whether it is genuine).</p>
-<p>The list begins with reading and ends with judging for a reason:  a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
+<p>The list begins with reading and ends with judging for a reason: a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
   src: `Diomedes, <i>Ars grammatica</i> (Keil, <i>GL</i> I 426), citing Varro, in paraphrase (no published English translation).` },
 
 { id: 'reading',
   title: 'Reading (<i>lectio</i>)',
   body: `<p>Reading is the first task of the grammarian. Quintilian sets out what it requires: the reader must know “when the boy should take breath, at what point he should introduce a pause into a line, where the sense ends or begins, when the voice should be raised or lowered.” He gives one rule for all of it: “to do all these things, he must understand what he reads” (<i>Institutio oratoria</i> I.8.1–2).</p>
 <p>So correct reading already requires grammatical knowledge. The reader must know the quantity and the accent of each word and see where each clause begins and ends. For example, Latin <i>malum</i> with a short <i>a</i> means “evil,” but <i>mālum</i> with a long <i>ā</i> means “apple,” and a reader who does not know the difference may say the wrong word. Again, in “The Lord is my shepherd; I shall not want” (Psalm 23:1, King James Version), the reader pauses at the semicolon, because two clauses meet there.</p>`,
-  src: `Quintilian, <i>Institutio oratoria</i> I.8.1–2; Ecclesiastes 12:13 (King James Version).` },
+  src: `Quintilian, <i>Institutio oratoria</i> I.8.1–2; Psalm 23:1 (King James Version).` },
 
 { id: 'explaining',
   title: 'What does explaining (<i>enarratio</i>) cover?',
