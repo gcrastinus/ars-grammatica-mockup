@@ -124,3 +124,10 @@ Add new pairs here in the same form: OLD → NEW (source, date).
 ## Keeping this file current
 
 Whenever Timothy flags a wording problem, append it as a new pair under "Pairs to add" (OLD → NEW, with source and date) before continuing. Do not remove or rewrite existing pairs.
+
+## The word "fault"
+
+The main English terms for errors of speech are "error," "barbarism," "solecism," and "impropriety." Section VI is titled "Correctness and Errors."
+Use "fault" (or "vice") only when reporting what the ancient and medieval grammarians say or when translating *vitium*. For example: "Donatus treats the faults of speech (*vitia*): the barbarism and the solecism." The idea of *vitium* may stay at the center of the section, but "fault" should not be the word the app itself uses for an error.
+- Not: "A barbarism is a fault in a single word." Instead: "A barbarism is an error in a single word."
+- Not: "The construction is faulty." Instead: "The construction is incorrect."
