@@ -18,7 +18,7 @@ AI-written text tends to coin its own phrasing in place of the standard term, fo
 6. **American spelling:** center, meter, color, license, honor, plow, traveler. Inside a quotation, keep the spelling of the source exactly.
 7. **Answer feedback uses "Correct" and "Incorrect"** (not "Right," "Not quite," "Wrong," "Good," and so on), followed by the explanation in full sentences.
 8. **Mentioned words.** An English word mentioned as a word takes double quotation marks: the word "thing." A foreign word mentioned as a word takes italics: Latin *res*, Greek *logos*. Example sentences in a foreign language are also italic; English example sentences take double quotation marks.
-9. **Translations must be real.** A translation of a Latin, Greek, or other source must be a real published translation with the translator named (for example, "trans. Crawley"), or else labeled as Timothy's own ("trans. T. Kearns"). Never write a translation and present it as published. Never alter a quotation, even by one letter. If you cannot verify a translation, mark it for Timothy.
+9. **Translations must be real.** A translation of a Latin, Greek, or other source must be a real published translation, or else Timothy's own. Record the translator in `sources/TRANSLATIONS-USED.md`, not in the app's text (see "Translators" below). Never write a translation and present it as published. Never alter a quotation, even by one letter. If you cannot verify a translation, mark it for Timothy.
 10. **Prefer accuracy to a neat claim.** Add the qualification that makes the sentence true ("usually begins with a capital letter").
 11. **The test.** Before keeping a sentence, ask: would this sentence, or its terms, appear in Allen and Greenough's *Latin Grammar* or in a standard English grammar? If not, rewrite it in the terms those books use.
 
@@ -141,3 +141,7 @@ Do not write indirect questions as titles, headings, descriptions or openings. E
 ## The word "office"
 
 In the app's own voice, call reading, explaining, correcting and judging "the tasks of grammar" when speaking of the art (e.g., the Preliminary section description: "the definition, the tasks, and the parts of the art, and the criteria of correct speech") and "the tasks of the grammarian" when speaking of the person (deck title: "The Tasks of the Grammarian"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."
+
+## Translators
+
+Do not name translators in the app's text (bodies, examples, source lines). Record them in sources/TRANSLATIONS-USED.md. Exceptions: a long quoted passage, or a place where the translation itself is important or disputed (e.g., the translation section). Never attribute a translation to T. Kearns unless he actually made it.

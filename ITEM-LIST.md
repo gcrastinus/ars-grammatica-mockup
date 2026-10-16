@@ -71,8 +71,8 @@ The decks these sets cover have no Exercise button of their own. A set that cove
 Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. The exception is the review of Word Formation and Etymology, which is scaled to the size of IV (three decks, against four to ten in the other groups): it has 30 new questions in three fixed sets of 10. Successive visits give set A, then B, then C, then A again, never shuffled.
 
 **9. Translations.**
-- Every translation shown to the student is a real published one, with the translator named.
-- Some sources have no complete published English translation. For these, we either quote the Latin (or other original) with an own literal translation labeled "trans. T. Kearns," as the course's `CLAUDE.md` requires, or we paraphrase. We never present an own translation as a published one. The list is under "Sources without a complete published English translation" below.
+- Every translation shown to the student is a real published one. The translator is recorded in `sources/TRANSLATIONS-USED.md`, not named in the app's text (except for long quoted passages and the translation section; see `CLAUDE.md`, "Translators").
+- Some sources have no complete published English translation. For these, we either quote the Latin (or other original) with an own literal translation by Timothy (recorded in `sources/TRANSLATIONS-USED.md`, not labeled inline), or we paraphrase. We never present an own translation as a published one. The list is under "Sources without a complete published English translation" below.
 - In IX, Latin is shown only with translations close enough to align phrase by phrase, such as the Loeb translations.
 
 **10. Wording.** All student-facing text follows the writing-style rules in this repository's `CLAUDE.md` (standard textbook terms, no calques, plain declarative sentences, "Correct" and "Incorrect" as feedback, American spelling, real translations only).
@@ -630,7 +630,7 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 
 Ascham's *Scholemaster* was written in English and needs no translator.
 
-**No published English translation: own translation, labeled "trans. T. Kearns," or a paraphrase:**
+**No published English translation: own translation by Timothy (recorded in `sources/TRANSLATIONS-USED.md`), or a paraphrase:**
 
 - Diomedes, *Ars grammatica*
 - Priscian, *Institutiones grammaticae* (only excerpts are translated, for example in Copeland and Sluiter, *Medieval Grammar and Rhetoric*, 2009), and his *Partitiones* and *Praeexercitamina*

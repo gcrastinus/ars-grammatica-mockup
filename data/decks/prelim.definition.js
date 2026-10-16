@@ -11,37 +11,38 @@ ARS.decks['prelim.definition'] = {
   panels: [
 
 { id: 'arts-of-speech',
-  title: 'What are the arts of speech?',
-  body: `<p>Grammar, logic, and rhetoric are commonly called today the arts of language; the older and more proper name is the arts of speech (Latin <i>artes sermocinales</i>). Together they make up the trivium, that is, the three arts of speech. <strong>Grammar</strong> is the art of speaking and writing correctly; <strong>logic</strong> is the art of reasoning correctly; and <strong>rhetoric</strong> is the art of persuading well.</p>
-<p>The three arts are studied in that order because logic works on statements, and a statement is made of words; so, if we do not know what a word is doing in a sentence, we cannot say what the sentence asserts. Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said. Each art therefore judges speech in its own way, and the judgment of grammar comes first.</p>`,
+  title: 'Why did the ancients put grammar first?',
+  body: `<p>Quintilian, who taught rhetoric at Rome in the first century, sends the boy to the <i>grammaticus</i>, the grammarian, before he comes to the teacher of rhetoric. He warns that grammar is far more than its humble look suggests. It is the foundation of the whole building, and anyone who passes over it will find the higher studies falling in on themselves (<i>Institutio oratoria</i> I.4.5).</p>
+<p>The later Roman handbooks keep the same order. In Martianus Capella’s <i>Marriage of Philology and Mercury</i> (fifth century), the seven arts are presented as bridesmaids to Lady Philology, who is the personification of the study of literature and the disciplines of learning. Grammar comes first, carrying a knife and a file for cutting away errors in the use of language. Cassiodorus and Isidore, medieval scholars writing after the fall of Rome, likewise begin their accounts of the liberal arts with grammar. This is how the medieval schools came to call grammar the gate of the arts, the first of the trivium.</p>
+<p>These are the historical reasons. The classical tradition of philosophy also gives more general ones. Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly, and rhetoric the art of persuading well. Logic considers statements, and a statement is made of words. So the words must be correctly joined before anything can be asserted or denied and before anything can follow from them or be communicated. Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said. Students can find these reasons set out in detail in the <a href="https://studiuminstitute.org/trivium/" target="_blank" rel="noopener">Introduction to the Trivium</a>.</p>`,
   examples: [
-    `Grammar judges whether a sentence is correctly formed: “Him go store yesterday” is incorrectly formed, whatever it was meant to say.`,
-    `Logic judges whether what is said is true and what follows from it: from “All men are mortal” and “Socrates is a man” it follows that “Socrates is mortal.”`,
-    `Rhetoric judges how a speech is fitted to move its hearers, as in Lincoln’s Second Inaugural Address (1865): “With malice toward none, with charity for all.”`
+    `Quintilian, I.4.5: grammar is a foundation, so whatever is built without it gives way.`,
+    `Martianus Capella, Book III: Grammar’s knife and file stand for correcting errors in speech.`,
+    `Isidore, <i>Etymologiae</i> I.5.1: grammar is “the origin and foundation of liberal letters.”`
   ],
-  src: `Quintilian, <i>Institutio oratoria</i> I.4–9; Lincoln, Second Inaugural Address (1865).` },
+  src: `Quintilian, <i>Institutio oratoria</i> I.4.5; Martianus Capella, <i>De nuptiis</i> III; Isidore, <i>Etymologiae</i> I.5.1.` },
 
 { id: 'name',
   title: 'Why is the art called grammar?',
-  body: `<p>The name comes from the Greek word for a letter, <i>gramma</i> (plural <i>grammata</i>): Isidore of Seville says that grammar “takes its name from letters, for the Greeks call letters <i>grammata</i>” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). The art nevertheless begins with the voice, because a letter is a sound written down; if there were no voice, there would be nothing for the letter to mark.</p>
+  body: `<p>The name comes from the Greek word for a letter, <i>gramma</i> (plural <i>grammata</i>): Isidore of Seville says that grammar “takes its name from letters, for the Greeks call letters <i>grammata</i>” (<i>Etymologiae</i> I.5.1). The art nevertheless begins with the voice, because a letter is a sound written down; if there were no voice, there would be nothing for the letter to mark.</p>
 <p>The art is named from writing because correct speech reaches its fullest and most lasting form in written works, especially in the poets, the historians, and the philosophers. Without writing, the authors of the past would not be there for us to read and to imitate, so the advanced study of connected speech depends on written texts.</p>`,
   examples: [
     `Greek <i>gramma</i>, “letter,” gives <i>grammatikē</i>, the art of letters.`,
     `Latin takes the Greek name as <i>grammatica</i>, and the teacher of the art is the <i>grammaticus</i>.`,
     `English “grammar” comes from the Latin <i>grammatica</i>, through Old French.`
   ],
-  src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. T. Kearns).` },
+  src: `Isidore, <i>Etymologiae</i> I.5.1.` },
 
 { id: 'definition',
   title: 'What is the definition of grammar?',
-  body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). Quintilian divides the profession of the grammarian into two parts, which Butler translates as “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
-<p>The word “correctly” is the center of the definition. Grammar does not ask whether a sentence is true, which is the question of logic, or whether it persuades, which is the question of rhetoric. It asks whether the words are correctly formed and correctly arranged with one another.</p>`,
+  body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1). Quintilian divides the profession of the grammarian into two parts: “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
+<p>The word “correctly” is the center of the definition. Grammar does not ask whether a sentence is true, which is what logic asks, or whether it persuades, which is what rhetoric asks. It asks whether the words are correctly formed and correctly arranged with one another.</p>`,
   examples: [
     `Spelling: “They left their coats there” is correctly written, but “They left there coats their” is not.`,
     `The form of a word: “He goes” is correct, but “He go” is not, because the verb must agree with its subject.`,
     `The arrangement of words in Latin: <i>Puella cantat</i> (“The girl sings”) is correct, but <i>Puella cantant</i> is not, because the singular subject <i>puella</i> requires the singular verb <i>cantat</i>.`
   ],
-  src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. T. Kearns); Quintilian, <i>Institutio oratoria</i> I.4.2 (trans. H. E. Butler, Loeb).`,
+  src: `Isidore, <i>Etymologiae</i> I.5.1; Quintilian, <i>Institutio oratoria</i> I.4.2.`,
   qp: { id: 'q-definition', variants: [
     { prompt: `Which of these is the traditional definition of grammar?`,
       options: [`The natural science of how the throat and the tongue produce sounds`, `The art of speaking and writing correctly`, `The part of logic that judges whether statements are true`, `A list of rules for spelling`],
@@ -54,19 +55,19 @@ ARS.decks['prelim.definition'] = {
     { prompt: `Into what two parts does Quintilian divide the profession of the grammarian?`,
       options: [`Reasoning and persuading`, `Spelling and pronunciation`, `History and philosophy`, `The art of speaking correctly and the interpretation of the poets`],
       answer: 3,
-      explain: `Quintilian divides the profession into the art of speaking correctly and the interpretation of the poets (I.4.2, trans. Butler). Reasoning belongs to logic and persuading to rhetoric.` }
+      explain: `Quintilian divides the profession into the art of speaking correctly and the interpretation of the poets (I.4.2). Reasoning belongs to logic and persuading to rhetoric.` }
   ]}},
 
 { id: 'art',
   title: 'Why is grammar an art, and a liberal art?',
-  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are in a fashion servile, “inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [liber]” (trans. English Dominican Province).</p>
+  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are in a fashion servile, “inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [liber]”.</p>
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
   examples: [
     `Grammar makes a correctly formed sentence, such as “The sailor waits for the tide.”`,
     `Logic makes a syllogism, such as “Every man is mortal; Socrates is a man; therefore Socrates is mortal.”`,
     `Rhetoric makes a speech fitted to its hearers, such as a funeral oration or an address to a court.`
   ],
-  src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3 (trans. Fathers of the English Dominican Province), in paraphrase.` },
+  src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3, in paraphrase.` },
 
 { id: 'material',
   title: 'What is the material of grammar?',
@@ -77,7 +78,7 @@ ARS.decks['prelim.definition'] = {
     `The letter “b” by itself is a mark of a sound, but it signifies nothing.`,
     `The word “Water!” or Latin <i>Aqua!</i> is speech, because it signifies something by the agreement of those who use it.`
   ],
-  src: `Isidore, <i>Etymologiae</i> I.5.3 (trans. Barney), in paraphrase.` },
+  src: `Isidore, <i>Etymologiae</i> I.5.3, in paraphrase.` },
 
 { id: 'voice-to-sentence',
   title: 'How is speech built up from the voice to the sentence?',
@@ -150,18 +151,18 @@ ARS.decks['prelim.definition'] = {
     `A proof in geometry is stated in sentences, and each sentence must be correctly formed before the proof can be judged.`,
     `A speech to a jury is judged by rhetoric, but each of its sentences must first satisfy grammar.`
   ],
-  src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (trans. G. L. Bursill-Hall, 1972), in paraphrase.` },
+  src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.` },
 
 { id: 'first',
   title: 'Why does grammar come first?',
-  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5, trans. Butler). Butler uses “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
+  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). Butler uses “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
 <p>The study of grammar therefore begins with its smallest parts, the voice and the letter, and proceeds to the word and the sentence.</p>`,
   examples: [
     `Logic needs grammar, because it judges sentences, and a sentence must first be correctly formed.`,
     `Rhetoric needs grammar, because a speech is made of sentences.`,
     `The reading of the authors needs grammar, because a line of Virgil or a verse of the King James Version cannot be explained until its construction is understood.`
   ],
-  src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement, trans. A. C. Senape McDermott, 1980), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5 (trans. Butler).` }
+  src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5.` }
 
   ]
 };

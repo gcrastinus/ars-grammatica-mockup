@@ -11,14 +11,14 @@ ARS.decks['prelim.methodice'] = {
 
 { id: 'two-parts',
   title: 'What are the two parts of grammar?',
-  body: `<p>Quintilian names the two parts of grammar when he finishes treating them: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1, trans. Butler). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen, hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>” (trans. T. Kearns).</p>
+  body: `<p>Quintilian names the two parts of grammar when he finishes treating them: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen, hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>”.</p>
 <p><i>Methodice</i> is the part of grammar that teaches the precepts of the art. <i>Historice</i> is the part that interprets the authors.</p>`,
   examples: [
     `A precept (<i>methodice</i>): “A verb agrees with its subject in number and person.”`,
     `A precept in Latin (<i>methodice</i>): the preposition <i>cum</i> (“with”) takes the ablative case, as in <i>cum amīcō</i> (“with a friend”).`,
     `The interpretation of an author (<i>historice</i>): explaining that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty, so that “four score and seven” means eighty-seven.`
   ],
-  src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (trans. H. E. Butler, Loeb; the Latin from the Perseus text, with a literal translation by T. Kearns).` },
+  src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (the Latin from the Perseus text).` },
 
 { id: 'methodice',
   title: 'What is <i>methodice</i>?',
@@ -29,7 +29,7 @@ ARS.decks['prelim.methodice'] = {
     `A division: “Nouns are either proper, such as ‘London,’ or common, such as ‘city.’”`,
     `A rule: “A Latin adjective agrees with its noun in gender, number, and case,” as in <i>puella bona</i> (“a good girl”) and <i>puellae bonae</i> (“good girls”).`
   ],
-  src: `Quintilian, <i>Institutio oratoria</i> I.4–7 (trans. Butler).` },
+  src: `Quintilian, <i>Institutio oratoria</i> I.4–7.` },
 
 { id: 'historice',
   title: 'What is <i>historice</i>?',
@@ -100,7 +100,7 @@ ARS.decks['prelim.methodice'] = {
     `The precepts: Priscian’s <i>Institutiones grammaticae</i> (sixth century), a full treatment of the parts of speech and of construction.`,
     `The reading of the authors: Servius’s commentary on Virgil (fourth to fifth century), which explains the words and constructions of the poem line by line.`
   ],
-  src: `Donatus, <i>Ars minor</i> (trans. Wayland Johnson Chase, 1926); Priscian, <i>Institutiones grammaticae</i>; Servius, <i>In Vergilii Aeneidem</i>.` }
+  src: `Donatus, <i>Ars minor</i>; Priscian, <i>Institutiones grammaticae</i>; Servius, <i>In Vergilii Aeneidem</i>.` }
 
   ]
 };
