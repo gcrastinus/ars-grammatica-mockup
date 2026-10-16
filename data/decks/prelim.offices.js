@@ -18,7 +18,7 @@ ARS.decks['prelim.offices'] = {
 { id: 'four-offices',
   title: 'The Four Tasks of the Grammarian',
   body: `<p>We just saw that the tradition recognizes two broad parts of the grammarian’s profession, that to do with speaking and that to do with writing. Since writing and reading presume and depend on the spoken language and correctness in speaking, the first task of the grammarian is to direct our speaking and writing toward clarity and correctness.</p>
-<p>On the second part of the grammarian’s profession, Varro, Diomedes reports (<i>Ars grammatica</i>, in Keil, <i>Grammatici Latini</i> I, p. 426), names four duties (<i>officia</i>) of grammar:</p>
+<p>On the second part of the grammarian’s profession, Varro, as Diomedes reports (<i>Ars grammatica</i>, in Keil, <i>Grammatici Latini</i> I, p. 426), names four duties (<i>officia</i>) of grammar:</p>
 <ul><li><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly</li><li><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text</li><li><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or incorrect in speech</li><li><strong>judging</strong> (<i>iudicium</i>): weighing the merit of a poem or other writing (and, Quintilian adds, whether it is genuine)</li></ul>
 <p>The list begins with reading and ends with judging for a reason: a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
   src: `Diomedes, <i>Ars grammatica</i> (Keil, <i>GL</i> I 426), citing Varro, in paraphrase (no published English translation).` },
