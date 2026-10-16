@@ -66,7 +66,7 @@ ARS.decks['prelim.definition'] = {
     { prompt: `At which step does meaning first appear?`,
       options: [`The voice`, `The letter`, `The syllable`, `The word`],
       answer: 3,
-      explain: `The word is the least part of speech that signifies. The voice, the letter, and the syllable are the material of speech, but they do not signify by themselves.` },
+      explain: `The word is the least part of an expression that signifies. The voice, the letter, and the syllable are the material of speech, but they do not signify by themselves.` },
     { prompt: `Does the syllable <i>mu</i> in Latin <i>murus</i> (“wall”) signify anything by itself?`,
       options: [`No; it is only a part of a word that signifies`, `Yes; it signifies a wall`, `Yes; it signifies a part of a wall`, `Yes; every sound signifies something`],
       answer: 0,
