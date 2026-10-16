@@ -78,3 +78,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Offices card 6: "Judging is the fourth task of the grammarian, and the highest." → "…as teacher and critic of literature and it is the highest."
 - Offices card 6: Quintilian I.4.3 wording modernized per author; "which authors are to be taken as models" → "…as models and why"
 - Offices card 7: "divides the whole of grammar into"; "and, finally, the criticism of poems"; "judging, is, in both, last and highest."
+- Offices card 8: retitled "Why do literary authors in general belong to grammar?"; text revised by author (contrast with Thrax; usages and styles become the standard)

@@ -68,9 +68,9 @@ ARS.decks['prelim.offices'] = {
   src: `Dionysius Thrax, <i>Technē</i> 1, in paraphrase.` },
 
 { id: 'authors',
-  title: 'Why do the authors belong to grammar?',
-  body: `<p>Quintilian does not limit the grammarian to the poets: “Nor is it sufficient to have read the poets only; every kind of writer must be carefully studied, not merely for the subject matter, but for the vocabulary; for words often acquire authority from their use by a particular author” (<i>Institutio oratoria</i> I.4.4).</p>
-<p>So the authors belong to grammar for two reasons. First, interpreting them is one of the two parts of the grammarian’s profession. Second, the authors show how words are used correctly, so they give authority to the forms and constructions that grammar teaches.</p>`,
+  title: 'Why do literary authors in general belong to grammar?',
+  body: `<p>Quintilian does not limit the grammarian to the poets, as Dionysius Thrax: “Nor is it sufficient to have read the poets only; every kind of writer must be carefully studied, not merely for the subject matter, but for the vocabulary; for words often acquire authority from their use by a particular author” (<i>Institutio oratoria</i> I.4.4).</p>
+<p>So, literary authors belong to grammar for two reasons. First, interpreting them is one of the two parts of the grammarian’s profession. Second, in a more basic way, literary authors show how words are used correctly and their usages and styles and words often become the standard for writing and even speaking sometimes; so, these authors give authority to the forms and constructions that grammar teaches.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.4.4.`,
   qp: { id: 'q-authors', variants: [
     { prompt: `Why does the grammarian read the poets and the other authors?`,
