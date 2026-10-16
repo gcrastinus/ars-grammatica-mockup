@@ -68,3 +68,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Offices card 2: "lectio, enarratio, emendatio, and iudicium. In English we call them reading, explaining, correcting, and judging" → "reading (lectio), explaining (enarratio), correcting (emendatio), and judging (iudicium)."; citation moved after "as Diomedes reports"
 - Offices card 2: sentence ends at "duties (officia) of grammar:"; the four tasks follow as a bulleted list
 - Offices card 2: new opening paragraph on the two parts (speaking and writing); "Varro, as Diomedes reports" → "On the second part of the grammarian’s profession, Varro, Diomedes reports"
+- Offices card 2: "that to do with speaking and that to do with writing" → "the evaluation and correction of speaking and the evaluation and correction of writing"
