@@ -105,7 +105,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'end',
   title: 'What is grammar for?',
-  body: `<p>The ends of grammar can be set out in order. The first is a correctly formed sentence. The second, in the student, is the habit of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the remote end (<i>finis remotus</i>) of a construction (<i>Grammatica speculativa</i> §223) (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
+  body: `<p>The ends of grammar, that is the purposes and results of the art of grammar, can be set out in an order. The first is a correctly formed sentence. The second is the habit that the student acquires of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the remote end (<i>finis remotus</i>) of a construction (<i>Grammatica speculativa</i> §223) (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
 <p>Grammar is therefore a ministerial art, that is, an art that serves other arts and sciences. It is not an ornament of style for its own sake. It serves the understanding of connected speech, the interpretation of the authors, and clarity about what words and sentences signify.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.` },
 

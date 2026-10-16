@@ -52,3 +52,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - grammar treats it, because it is still one sentence. → grammar considers it because it is still one sentence.
 - …is correctly formed; logic asks whether what it says is true. → …is correctly formed; logic asks whether what it says is true or whether the sentence follows from other things we know.
 - Walshe gives a pair of examples… → Walshe, in his *Commentary on Aristotle's Categories*, gives a pair of examples… (Identify an author the reader may not know at first mention.)
+- The ends of grammar can be set out in order. … The second, in the student, is the habit of forming such sentences… → The ends of grammar, that is the purposes and results of the art of grammar, can be set out in an order. … The second is the habit that the student acquires of forming such sentences… (Gloss a technical term like "ends"; avoid compressed phrases like "in the student.")
