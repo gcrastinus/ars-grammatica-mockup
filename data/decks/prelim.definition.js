@@ -55,7 +55,7 @@ ARS.decks['prelim.definition'] = {
   ]}},
 
 { id: 'art',
-  title: 'Why is grammar an art, and a liberal art?',
+  title: 'Why is grammar an art? And what makes it a liberal art?',
   body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are in a fashion servile, “inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [liber]”.</p>
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
   examples: [
