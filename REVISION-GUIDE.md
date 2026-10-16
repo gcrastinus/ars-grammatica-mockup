@@ -63,3 +63,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 ## C. Log
 
 - 2026-10-16: prelim.offices (The Tasks of the Grammarian) got a self-review pass against sections A and B: varied titles, removed the inline Butler credit, replaced examples that repeated the previous deck's drafts (Ecclesiastes 12:13, "goed", "boys runs", *puella cantat*), dropped an unused Gibbon citation, and tightened wording. Awaiting Timothy's review.
+- "criticism has its work to perform" → "criticism has its own work to perform" (offices card 1)

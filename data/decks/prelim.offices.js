@@ -12,7 +12,7 @@ ARS.decks['prelim.offices'] = {
 { id: 'two-heads',
   title: 'The Two Parts of the Grammarian’s Profession',
   body: `<p>Quintilian describes the work of the grammarian (Latin <i>grammaticus</i>, here rendered “the teacher of literature”) in this way: “This profession may be most briefly considered under two heads, the art of speaking correctly and the interpretation of the poets; but there is more beneath the surface than meets the eye” (<i>Institutio oratoria</i> I.4.2).</p>
-<p>He then explains what lies beneath the surface: “For the art of writing is combined with that of speaking, and correct reading precedes interpretation, while in each of these cases criticism has its work to perform” (I.4.3). So the two parts of the profession contain several distinct tasks: writing as well as speaking, reading before interpretation, and in each case the work of criticism, that is, of judging.</p>`,
+<p>He then explains what lies beneath the surface: “For the art of writing is combined with that of speaking, and correct reading precedes interpretation, while in each of these cases criticism has its own work to perform” (I.4.3). So the two parts of the profession contain several distinct tasks: writing as well as speaking, reading before interpretation, and in each case the work of criticism, that is, of judging.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.4.2–3.` },
 
 { id: 'four-offices',
