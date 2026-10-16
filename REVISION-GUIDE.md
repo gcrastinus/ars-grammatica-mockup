@@ -43,3 +43,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Isidore… (trans. T. Kearns) → Isidore… (*Etymologiae* I.5.1) (No false translator credit.)
 - The material of grammar is speech, that is, the voice as it signifies and as it is arranged into words and sentences. → The material of grammar is speech, that is, the voice as words signifying thoughts in the mind and as it is arranged into phrases and sentences. (Say what words signify: thoughts in the mind. Include phrases between words and sentences.)
 - …not by the will of those who use it, is not yet the material of grammar. → …is not part of the material of grammar. (Say it plainly; no "not yet.")
+- A sound enters grammar only so far as it belongs to speech. → A sound enters grammar only in so far as it belongs to speech.
