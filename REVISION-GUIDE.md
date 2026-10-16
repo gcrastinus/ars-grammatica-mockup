@@ -6,7 +6,7 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 
 1. **"Fault"** only when reporting the ancients or translating *vitium*. Our own words: error, barbarism, solecism, impropriety. Section VI is "Correctness and Errors."
 2. **"Office(s)"** only when translating *officium/officia* or reporting Varro, Diomedes, Quintilian. Our own words: "the tasks of grammar" (the art), "the tasks of the grammarian" (the person).
-3. **No indirect questions** in titles, headings, descriptions, or openings. Use a direct question or a plain noun phrase. Not everything has to be a question.
+3. **Indirect questions are not banned,** just not to be used by habit. Mix direct questions, noun phrases, and indirect questions where they read naturally. Not everything has to be a question.
 4. **No example lists at the bottom of panels.** Examples go in the text. When the text illustrates a kind (a noun, a case, a figure), give more than one example.
 5. **Sources:** one Sources note on a deck's first panel, listing only the backbone sources of the doctrine. A text quoted in passing is cited by its usual short title and locus in the text and is not thereby a "source."
 6. **No translator names in the text,** except for a long quoted passage or where the translation itself matters or is disputed (e.g., the translation section). Record them in sources/TRANSLATIONS-USED.md. Never credit "T. Kearns" unless he actually made the translation.
@@ -44,3 +44,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - The material of grammar is speech, that is, the voice as it signifies and as it is arranged into words and sentences. → The material of grammar is speech, that is, the voice as words signifying thoughts in the mind and as it is arranged into phrases and sentences. (Say what words signify: thoughts in the mind. Include phrases between words and sentences.)
 - …not by the will of those who use it, is not yet the material of grammar. → …is not part of the material of grammar. (Say it plainly; no "not yet.")
 - A sound enters grammar only so far as it belongs to speech. → A sound enters grammar only in so far as it belongs to speech.
+- the voice, that is, struck air perceptible to hearing; → the voice, that is, the motion of air perceptible to hearing;

@@ -134,9 +134,9 @@ Use "fault" (or "vice") only when reporting what the ancient and medieval gramma
 - Not: "A barbarism is a fault in a single word." Instead: "A barbarism is an error in a single word."
 - Not: "The construction is faulty." Instead: "The construction is incorrect."
 
-## No indirect questions
+## Indirect questions
 
-Do not write indirect questions as titles, headings, descriptions or openings. Either ask a direct question or use a plain noun phrase. Titles need not be questions; a noun phrase such as "The Definition of Grammar" is fine.
+Do not fall into using indirect questions by habit in titles, headings, descriptions, or openings. Vary them: a direct question, a plain noun phrase, or an indirect question where it reads more naturally are all fine. Titles need not be questions.
 - Not: "What grammar is." Instead: "What is grammar?" or "The Definition of Grammar."
 - Not: "Why the parts are eight." Instead: "Why are there eight parts of speech?" or "The Reasons for the Parts."
 
