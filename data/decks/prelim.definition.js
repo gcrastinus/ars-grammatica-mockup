@@ -111,7 +111,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'first',
   title: 'Why does grammar come first?',
-  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). Butler uses “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
+  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). Here we use “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
 <p>The study of grammar therefore begins with its smallest parts, the voice and the letter, and proceeds to the word and the sentence.</p>`,
   src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5.` }
 
