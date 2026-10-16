@@ -122,7 +122,7 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 
 **I.1 Sign and Symbol** `[i.sign]`. Natural and given signs, and the spoken word as a symbol of what is in the mind.
 - Panels 10 · QP 3 · Exercise: in the shared Sign and Significant Voice set
-- Sources: Aristotle, *De interpretatione* 1, 16a3–8 (trans. E. M. Edghill); Augustine, *De doctrina christiana* II.1–3 (trans. J. F. Shaw); Boethius, *In Peri hermeneias* (rule 9 unless a published translation of the passage is confirmed; see the list below); John of St. Thomas, *Tractatus de signis* (trans. John Deely)
+- Sources: Aristotle, *De interpretatione* 1, 16a3–8 (trans. E. M. Edghill); Augustine, *De doctrina christiana* II.1–3 (trans. J. F. Shaw); Boethius, *In Peri hermeneias* (trans. Norman Kretzmann, 1998, for ch. 9 in both editions; trans. Andrew Smith, 2010–11, for books 1–6 of the second edition; rule 9 only for passages outside these); John of St. Thomas, *Tractatus de signis* (trans. John Deely)
 - Reuse: `traditions`, the panel on John of St. Thomas; `prelim`, the panel on voice and concept
 
 **I.2 Imposition** `[i.imposition]`. How a sound comes to signify by the will of those who first used it, and first and second imposition.
@@ -492,15 +492,15 @@ Both analysis buttons draw on one corpus, mostly English with some Latin. Latin 
 | 4 | G. K. Chesterton, *Orthodoxy* (1908), ch. IV, "The Ethics of Elfland" | the first two paragraphs, "When the business man rebukes the idealism of his office-boy" to "having a Norman nose" | Standard Ebooks, from Project Gutenberg 16769 | 467 |
 | 5 | Abraham Lincoln, Second Inaugural Address (March 4, 1865) | the whole address, "Fellow-Countrymen" to "with all nations" | the NLTK inaugural corpus (`nltk/nltk_data`); copy text to be checked against the Library of Congress manuscript or the Wikisource text the live app uses | 698 |
 | 6 | George Washington, First Inaugural Address (April 30, 1789) | the salutation and the first paragraph, "Fellow-Citizens of the Senate and of the House of Representatives" to "the partiality in which they originated" | the NLTK inaugural corpus; copy text to be checked against the National Archives transcription | 325 |
-| 7 | Winston Churchill, "Their Finest Hour" (House of Commons, June 18, 1940) | the closing part | **not reached** (see the planning notes) | not counted |
+| 7 | Winston Churchill, "Their Finest Hour" (House of Commons, June 18, 1940) | the closing part, "We do not yet know what will happen in France" to "This was their finest hour." | Hansard, HC Deb 18 June 1940 vol. 362 cc. 51–61, in `sources/imitation/07-churchill-finest-hour.md` (collated there with the International Churchill Society text; Hansard is used) | 382 |
 | 8 | Plato, *Phaedo*, the death of Socrates, trans. Benjamin Jowett | "Crito made a sign to the servant" to "the wisest and justest and best" | Project Gutenberg 1658 (Jowett) | 597 |
 | 9 | Tacitus, *Agricola* 45–46, trans. Alfred John Church and William Jackson Brodribb | both chapters, "Agricola did not see the senate-house besieged" to "will live for ever" | the Perseus Digital Library text of Church and Brodribb (Macmillan, 1877), `PerseusDL/canonical-latinLit` | 621 |
 | 10 | Cicero, *On Old Age* (*Cato Maior de senectute*), trans. Evelyn S. Shuckburgh | the closing chapter, "Such are the words of the dying Cyrus" to "put my words to a practical test" | Project Gutenberg 2808 (Shuckburgh, *Treatises on Friendship and Old Age*) | 852 |
 
 *Planning notes (not student-facing):*
 - The word counts were made on the texts named in the fourth column. Before any passage is entered, the copy text has to be checked letter by letter against the named edition, and every quotation kept exactly as written. Where the Standard Ebooks texts modernize spelling, the original spelling of the named edition is used; the count does not change.
-- **No. 7 (Churchill) was not reached.** This environment cannot reach any site that prints the speech (the Churchill estate's site, Hansard, Project Gutenberg, or the Internet Archive), so I have no text and no word count, and I have not substituted another passage. The speech is still under copyright (the Churchill estate), so only a short excerpt for educational use is possible; its length and the source of the text are for Timothy to decide.
-- Nos. 8 and 10 can be cut or extended. The Phaedo selection can begin earlier, at "When he had spoken these words, he arose and went into a chamber to bathe" (1,100 words). The Cicero selection can include the preceding chapter, "Once more in Xenophon we have the elder Cyrus on his deathbed" (1,181 words). Each could also be shortened at a paragraph end if a limit near 500 words is wanted.
+- No. 7 (Churchill) uses the Hansard text in `sources/imitation/07-churchill-finest-hour.md`, which records the words spoken in the House; the later published version differs in wording, and the variants are listed in that file. The speech is still in copyright (the Churchill estate; Hansard is also under Parliamentary copyright), so it is used only as a short excerpt for the imitation exercise.
+- Nos. 8 and 10 keep the shorter cuts given in the table (597 and 852 words).
 - The Tacitus count was made on the Perseus text with its notes removed.
 
 **X.3 Translation** `[x.translation]`. Why translation is necessary; its history (Cicero, Jerome, Bruni, Ascham's double translation); whether translations are radically unreliable; and the classical answer that the concepts of the mind are common to all, while words and letters differ.
@@ -572,7 +572,7 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 - Panels 56: Scribal lists 6; Sanskrit 13; Arabic 13; Hebrew 12; Chinese 12 · QP 18 · Exercise: no
 - Sources:
   - Scribal lists: *Materials for the Sumerian Lexicon* IV (Old Babylonian and Neo-Babylonian grammatical texts); J. A. Black, *Sumerian Grammar in Babylonian Theory*
-  - Sanskrit: Yāska, *Nirukta* (trans. Lakshman Sarup); Pāṇini, *Aṣṭādhyāyī* (trans. S. C. Vasu); Patañjali, *Mahābhāṣya* (rule 9); Bhartṛhari, *Vākyapadīya* (trans. K. A. Subramania Iyer)
+  - Sanskrit: Yāska, *Nirukta* (trans. Lakshman Sarup); Pāṇini, *Aṣṭādhyāyī* (trans. S. C. Vasu); Patañjali, *Mahābhāṣya*, the Paspaśāhnika (trans. S. D. Joshi and J. A. F. Roodbergen, 1986); Bhartṛhari, *Vākyapadīya* (trans. K. A. Subramania Iyer)
   - Arabic: Sībawayh, *al-Kitāb*, paraphrased unless a published English translation of the particular passage exists, in which case that translation is quoted and cited (*Planning note:* none is assumed here, and each passage is to be checked); al-Zajjājī, *al-Īḍāḥ* (trans. Kees Versteegh, 1995)
   - Hebrew, from Saadia Gaon to David Kimḥi: Saadia; Judah Ḥayyūj (rule 9); Jonah ibn Janāḥ (rule 9); Kimḥi, *Mikhlol* (partial trans. William Chomsky, 1952). One panel mentions the Masoretes briefly, as the scholars who fixed the vowel points and accents that the grammarians took as their text.
   - Chinese: the *Erya*; Xu Shen, *Shuowen jiezi*; Lu Fayan, *Qieyun*; full and empty words; Ma Jianzhong, *Mashi wentong* (1898)
@@ -619,6 +619,9 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 | Thomas of Erfurt, *Grammatica speculativa* | G. L. Bursill-Hall (1972) |
 | Varro, *De lingua Latina* V–X | R. G. Kent (Loeb, 1938) |
 | William of Sherwood, *Introductiones* and *Syncategoremata* | Norman Kretzmann |
+| Boethius, *In Peri hermeneias*, ch. 9 (first and second editions) | Norman Kretzmann, in Ammonius, *On Aristotle's On Interpretation 9*, with Boethius, *On Aristotle's On Interpretation 9* (1998) |
+| Boethius, *In Peri hermeneias*, second edition, books 1–6 | Andrew Smith, *On Aristotle On Interpretation 1–3* (2010) and *4–6* (2011) |
+| Patañjali, *Mahābhāṣya*, Paspaśāhnika | S. D. Joshi and J. A. F. Roodbergen (Pune, 1986) |
 | al-Zajjājī, *al-Īḍāḥ* | Kees Versteegh (1995) |
 | Yāska, *Nirukta* | Lakshman Sarup |
 | Pāṇini, *Aṣṭādhyāyī* | S. C. Vasu |
@@ -634,12 +637,12 @@ Ascham's *Scholemaster* was written in English and needs no translator.
 - Donatus, *Ars maior* (excerpts only in Copeland and Sluiter)
 - Vossius, *Aristarchus* and *Etymologicon*
 - Boethius, *In Categorias*
-- Boethius, *In Peri hermeneias* (*Planning note:* a translation of part of the commentaries may exist in the Ancient Commentators on Aristotle series; if Timothy confirms one that contains the passage used, it is cited instead)
+- Boethius, *In Peri hermeneias*, only for passages outside the translations of Kretzmann and Smith (the first edition outside ch. 9, and anything not in books 1–6 of the second edition)
 - Boethius of Dacia, *Modi significandi*
 - Peter Helias, *Summa super Priscianum*
 - Servius, *In Vergilii Aeneidem*
 - Thomas Linacre, *De emendata structura*
-- Patañjali, *Mahābhāṣya* (*Planning note:* partial translations of some sections may exist; to be checked passage by passage)
+- Patañjali, *Mahābhāṣya*, only for passages outside the Paspaśāhnika and the other āhnikas translated by Joshi and Roodbergen (listed in `sources/TRANSLATIONS-CHECK.md`)
 - Judah Ḥayyūj, the grammatical treatises
 - Jonah ibn Janāḥ, the grammatical works
 - Saadia Gaon, the grammatical works
@@ -711,7 +714,8 @@ I.6 Ambiguity and VIII.1 Supposition overlap Ars Syllogistica, not Ars Rhetorica
 
 ## Open questions
 
-1. **Churchill (imitation passage 7).** The text could not be reached from this environment, and the speech is under copyright. Which text and edition should be used, and how long may the excerpt be?
-2. **Length of imitation passages 8 and 10.** The Phaedo selection is 597 words and the Cicero chapter 852. Should either be shortened, or extended to the longer cuts given in the planning note?
-3. **Size of the analysis corpus.** Under the rotation rule, IX holds 60 sentences and 15 passages (three sittings of 20 sentences and of 5 passages). Do you want larger sittings, which would enlarge the pool by the same factor?
-4. **Boethius and Patañjali.** Can you confirm whether published English translations exist for the passages of Boethius's *In Peri hermeneias* and Patañjali's *Mahābhāṣya* that the course will use? Until then they are treated as untranslated.
+1. **Size of the analysis corpus.** Settled: IX stays at 60 sentences and 15 passages.
+2. **Imitation passages.** Settled: Churchill uses the Hansard text (382 words), and the Phaedo and Cicero passages keep the shorter cuts (597 and 852 words).
+3. **Translations.** Settled for Boethius (*In Peri hermeneias*: Kretzmann and Smith; *In Categorias*: own translation, labeled) and for Patañjali (the Paspaśāhnika: Joshi and Roodbergen).
+
+No questions remain open in this plan.

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ars Grammatica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="course.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<div id="top-right-controls" class="top-right-controls">
+<button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾</button>
+</div>
+<div class="wrap">
+
+  <div class="screen active" id="scr-home">
+    <header>
+      <div class="ornament">❦</div>
+      <h1>Ars Grammatica</h1>
+      <div class="subtitle">The first art of the trivium</div>
+    </header>
+    <div class="intro-note">
+      <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the faults and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, German, and French where they show something distinctive.
+    </div>
+    <div class="rule"></div>
+    <div id="home-acts"></div>
+    <p class="designer-credit">These sets of exercises were designed by Timothy Kearns, PhD, created and maintained with the assistance of AI, and are extensively revised for clarity and precision.</p>
+    <div class="si-home"><a href="https://studiuminstitute.org">Studium Institute</a></div>
+  </div>
+
+  <div class="screen" id="scr-deck">
+    <div class="q-head">
+      <button class="btn" id="deck-home">← All sections</button>
+      <span class="deck-count" id="deck-count"></span>
+    </div>
+    <div class="q-progress"><div class="q-progress-fill" id="deck-progress"></div></div>
+    <div class="deck-title" id="deck-title"></div>
+    <div class="deck-sub" id="deck-sub"></div>
+    <div id="deck-body"></div>
+    <div class="deck-nav">
+      <button class="btn" id="deck-prev">← Back</button>
+      <button class="btn primary" id="deck-next">Next →</button>
+    </div>
+    <div class="deck-hint" id="deck-hint"></div>
+  </div>
+
+  <div class="screen" id="scr-done">
+    <div class="complete-card">
+      <div class="complete-orn">❦</div>
+      <h2 id="done-title"></h2>
+      <div class="complete-sub" id="done-sub"></div>
+      <div class="complete-btns" style="margin-top:28px">
+        <button class="btn" id="done-again">Read it again</button>
+        <button class="btn primary" id="done-home">All sections</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="data/structure.js"></script>
+<script src="course.js"></script>
+</body>
+</html>
