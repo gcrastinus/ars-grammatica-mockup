@@ -69,3 +69,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - Offices card 2: sentence ends at "duties (officia) of grammar:"; the four tasks follow as a bulleted list
 - Offices card 2: new opening paragraph on the two parts (speaking and writing); "Varro, as Diomedes reports" → "On the second part of the grammarian’s profession, Varro, Diomedes reports"
 - Offices card 2: "that to do with speaking and that to do with writing" → "the evaluation and correction of speaking and the evaluation and correction of writing"
+- Offices card 2: added sentences on the second part (writing, literature); "On the second part of the grammarian’s profession, Varro" → "Concerning grammar in this second way as the study of literature, Varro"
