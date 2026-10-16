@@ -1,4 +1,4 @@
-/* P.1 The Definition of Grammar [prelim.definition]
+/* P.1 What Is the Definition of Grammar? [prelim.definition]
    Plan (ITEM-LIST.md): 10 panels, 3 question points, each with exactly 3 variants (A, B, C).
    Each panel: id, title, body (HTML), examples (three per point), src (sources line).
    A panel may carry a question point (qp) with three variants; "answer" is the index of the correct option. */
@@ -6,12 +6,12 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.definition'] = {
   id: 'prelim.definition',
-  title: 'The Definition of Grammar',
-  sub: 'What grammar is, what it treats, and why it is the first art of the trivium',
+  title: 'What Is the Definition of Grammar?',
+  sub: 'The definition of grammar, its material and its ends, and its place as the first art of the trivium',
   panels: [
 
 { id: 'arts-of-speech',
-  title: 'The arts of speech',
+  title: 'What are the arts of speech?',
   body: `<p>Grammar, logic, and rhetoric are commonly called today the arts of language; the older and more proper name is the arts of speech (Latin <i>artes sermocinales</i>). Together they make up the trivium, that is, the three arts of speech. <strong>Grammar</strong> is the art of speaking and writing correctly; <strong>logic</strong> is the art of reasoning correctly; and <strong>rhetoric</strong> is the art of persuading well.</p>
 <p>The three arts are studied in that order because logic works on statements, and a statement is made of words; so, if we do not know what a word is doing in a sentence, we cannot say what the sentence asserts. Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said. Each art therefore judges speech in its own way, and the judgment of grammar comes first.</p>`,
   examples: [
@@ -22,7 +22,7 @@ ARS.decks['prelim.definition'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.4–9; Lincoln, Second Inaugural Address (1865).` },
 
 { id: 'name',
-  title: 'Why the art is named grammar',
+  title: 'Why is the art called grammar?',
   body: `<p>The name comes from the Greek word for a letter, <i>gramma</i> (plural <i>grammata</i>): Isidore of Seville says that grammar “takes its name from letters, for the Greeks call letters <i>grammata</i>” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). The art nevertheless begins with the voice, because a letter is a sound written down; if there were no voice, there would be nothing for the letter to mark.</p>
 <p>The art is named from writing because correct speech reaches its fullest and most lasting form in written works, especially in the poets, the historians, and the philosophers. Without writing, the authors of the past would not be there for us to read and to imitate, so the advanced study of connected speech depends on written texts.</p>`,
   examples: [
@@ -33,7 +33,7 @@ ARS.decks['prelim.definition'] = {
   src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. T. Kearns).` },
 
 { id: 'definition',
-  title: 'The definition',
+  title: 'What is the definition of grammar?',
   body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). Quintilian divides the profession of the grammarian into two parts, which Butler translates as “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
 <p>The word “correctly” is the center of the definition. Grammar does not ask whether a sentence is true, which is the question of logic, or whether it persuades, which is the question of rhetoric. It asks whether the words are correctly formed and correctly arranged with one another.</p>`,
   examples: [
@@ -58,7 +58,7 @@ ARS.decks['prelim.definition'] = {
   ]}},
 
 { id: 'art',
-  title: 'An art, and a liberal art',
+  title: 'Why is grammar an art, and a liberal art?',
   body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are in a fashion servile, “inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [liber]” (trans. English Dominican Province).</p>
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
   examples: [
@@ -69,7 +69,7 @@ ARS.decks['prelim.definition'] = {
   src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3 (trans. Fathers of the English Dominican Province), in paraphrase.` },
 
 { id: 'material',
-  title: 'The material of grammar',
+  title: 'What is the material of grammar?',
   body: `<p>The material of grammar is speech, that is, the voice as it signifies and as it is arranged into words and sentences. Grammar does not study things in themselves, which are the subject of the other sciences, or thoughts in themselves, which belong to the study of the mind. Isidore says that speech (<i>oratio</i>) is made up of three things: sense, voice, and letters.</p>
 <p>A sound enters grammar only so far as it belongs to speech. So a sound that signifies nothing, or that signifies only by nature and not by the will of those who use it, is not yet the material of grammar.</p>`,
   examples: [
@@ -80,7 +80,7 @@ ARS.decks['prelim.definition'] = {
   src: `Isidore, <i>Etymologiae</i> I.5.3 (trans. Barney), in paraphrase.` },
 
 { id: 'voice-to-sentence',
-  title: 'From the voice to the sentence',
+  title: 'How is speech built up from the voice to the sentence?',
   body: `<p>Speech is built in steps, each larger than the one before it:</p>
 <p>the <strong>voice</strong>, that is, struck air perceptible to hearing;<br>the <strong>letter</strong>, the least part of the voice that can be written;<br>the <strong>syllable</strong>, a sound pronounced in one utterance;<br>the <strong>word</strong>, the least part of speech that signifies;<br>the <strong>sentence</strong>, words arranged so that they express a complete thought.</p>
 <p>Meaning does not begin at the voice, the letter, or the syllable; it begins at the word. Truth and falsity begin only at the sentence, because only a sentence says something about something.</p>`,
@@ -106,7 +106,7 @@ ARS.decks['prelim.definition'] = {
   ]}},
 
 { id: 'sentence-and-period',
-  title: 'The sentence and the period',
+  title: 'Why does grammar end at the sentence?',
   body: `<p>Grammar studies speech as far as the sentence. A sentence is complete when something is named and something is said of it, as in “The sailor waits.” Several clauses may still express one complete thought; such a sentence is called a <strong>period</strong> (a sentence of several clauses that together express one complete thought), and grammar treats it, because it is still one sentence.</p>
 <p>A speech or a book is many sentences in a row, ordered to prove a point or to persuade. The order of those sentences belongs to logic and to rhetoric. So the proper end of grammar is the sentence, including the period.</p>`,
   examples: [
@@ -117,7 +117,7 @@ ARS.decks['prelim.definition'] = {
   src: `Ecclesiastes 12:13 (King James Version); Lincoln, Second Inaugural Address (1865).` },
 
 { id: 'correct-and-true',
-  title: 'Correctly formed, and true',
+  title: 'Is a correctly formed sentence also true?',
   body: `<p>Grammar asks whether a sentence is correctly formed; logic asks whether what it says is true. Either may hold without the other. Walshe gives a pair of examples: the grammarian judges “man is stone” correct and “man are animal” incorrect, while the logician judges the first false and the second true, though badly expressed.</p>
 <p>So grammar cannot tell us what is true. But logic cannot begin without grammar, because until a sentence is correctly formed there is nothing definite for logic to judge.</p>`,
   examples: [
@@ -130,7 +130,7 @@ ARS.decks['prelim.definition'] = {
     { prompt: `“Him go store yesterday.” How does grammar judge this sentence?`,
       options: [`It is incorrectly formed, and therefore false`, `It is correctly formed, because its meaning is understood`, `It is incorrectly formed, though what it means may be true`, `It is neither correctly formed nor able to signify anything`],
       answer: 2,
-      explain: `The construction is faulty, and that is the whole judgment of grammar. Whether the man went to the store is a different question, which belongs to logic. A sentence that is understood is not therefore correctly formed.` },
+      explain: `The construction is incorrect, and that is the whole judgment of grammar. Whether the man went to the store is a different question, which belongs to logic. A sentence that is understood is not therefore correctly formed.` },
     { prompt: `“The moon is made of green cheese.” How does grammar judge this sentence?`,
       options: [`It is correctly formed, though what it says is false`, `It is incorrectly formed, because it is false`, `It is incorrectly formed, because the moon is not cheese`, `It cannot be judged until we know whether it is true`],
       answer: 0,
@@ -142,7 +142,7 @@ ARS.decks['prelim.definition'] = {
   ]}},
 
 { id: 'end',
-  title: 'What grammar is for',
+  title: 'What is grammar for?',
   body: `<p>The ends of grammar can be set out in order. The first is a correctly formed sentence. The second, in the student, is the habit of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the remote end (<i>finis remotus</i>) of a construction (<i>Grammatica speculativa</i> §223) (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
 <p>Grammar is therefore a ministerial art, that is, an art that serves other arts and sciences. It is not an ornament of style for its own sake. It serves the understanding of connected speech, the interpretation of the authors, and clarity about what words and sentences signify.</p>`,
   examples: [
@@ -153,7 +153,7 @@ ARS.decks['prelim.definition'] = {
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (trans. G. L. Bursill-Hall, 1972), in paraphrase.` },
 
 { id: 'first',
-  title: 'Why grammar comes first',
+  title: 'Why does grammar come first?',
   body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5, trans. Butler). Butler uses “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
 <p>The study of grammar therefore begins with its smallest parts, the voice and the letter, and proceeds to the word and the sentence.</p>`,
   examples: [

@@ -65,7 +65,7 @@ The decks these sets cover have no Exercise button of their own. A set that cove
 - the Indeclinable Parts;
 - Construction;
 - Word Formation and Etymology;
-- Faults;
+- Errors;
 - Figures.
 
 Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. The exception is the review of Word Formation and Etymology, which is scaled to the size of IV (three decks, against four to ten in the other groups): it has 30 new questions in three fixed sets of 10. Successive visits give set A, then B, then C, then A again, never shuffled.
@@ -94,24 +94,24 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 
 ---
 
-## Preliminary · *Quid sit grammatica* · What Grammar Is
+## Preliminary · *Quid sit grammatica* · What Is Grammar?
 
-**P.1 The Definition of Grammar** `[prelim.definition]`. What grammar is, what it treats, and why it is the first art of the trivium. The mention of typology has moved to V.5.
+**P.1 What Is the Definition of Grammar?** `[prelim.definition]`. What is grammar, what does it treat, and why is it the first art of the trivium? The mention of typology has moved to V.5.
 - Panels 10 · QP 3 · Exercise: no
 - Sources: Quintilian I.4 (trans. H. E. Butler, Loeb); Isidore, *Etymologiae* I.5 (trans. Stephen A. Barney and others, 2006); Diomedes, *Ars* II (rule 9); Vossius, *Aristarchus, sive de arte grammatica* (1635) I (rule 9)
 - Reuse: `prelim` (15 panels): the name of the art, its definition, matter, and end
 
-**P.2 The Offices of the Grammarian** `[prelim.offices]`. *Lectio*, *enarratio*, *emendatio*, and *iudicium*, that is, reading, explaining, correcting, and judging.
+**P.2 What Are the Tasks of the Grammarian?** `[prelim.offices]`. *Lectio*, *enarratio*, *emendatio*, and *iudicium*, that is, reading, explaining, correcting, and judging.
 - Panels 8 · QP 2 · Exercise: no
 - Sources: Diomedes, citing Varro (rule 9); Dionysius Thrax, *Technē* 1 (trans. Alan Kemp, 1986); Quintilian I.4 (Butler)
 - Reuse: `prelim`, the panels on the grammarian's work
 
-**P.3 *Methodice* and *Historice*** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
+**P.3 What Are *Methodice* and *Historice*?** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
 - Panels 6 · QP 2 · Exercise: no
 - Sources: Quintilian I.9.1 (Butler); Vossius, *Aristarchus* I (rule 9)
 - Reuse: none
 
-**P.4 The Criteria of Correctness** `[prelim.criteria]`. This deck introduces the four tests of correct speech (reason, antiquity, authority, and custom), which VI.1 later applies.
+**P.4 What Are the Criteria of Correctness?** `[prelim.criteria]`. This deck introduces the four tests of correct speech (reason, antiquity, authority, and custom), which VI.1 later applies.
 - Panels 8 · QP 2 · Exercise: no
 - Sources: Quintilian I.6.1–3 (Butler); Varro, *De lingua Latina* IX (trans. R. G. Kent, Loeb)
 - Reuse: `prelim`, the panel on usage
@@ -378,23 +378,23 @@ The mockup's "Analysis" buttons in this section are gone. In their place, each d
 
 ---
 
-## VI · *De vitiis* · Correctness and Faults
+## VI · *De vitiis* · Correctness and Errors
 
 **VI.1 Usage and Authority** `[vi.usage]`. This deck applies the four criteria introduced in P.4 to questions of usage and authority: custom, the authors, and reason as judges of what is correct. Its first panel refers back to P.4 and does not teach the criteria again.
 - Panels 7 · QP 2 · Exercise: no
 - Sources: Quintilian I.6 (Butler); Horace, *Ars poetica* 70–72 (trans. H. Rushton Fairclough, Loeb)
 - Reuse: no live-app material. The criteria themselves are taught in P.4, and this deck cites that deck instead of repeating it.
 
-**VI.2 Barbarism** `[vi.barbarism]`. A fault in a single word.
+**VI.2 Barbarism** `[vi.barbarism]`. An error in a single word.
 - Panels 7 · QP 2 · Exercise: no · Sources: Donatus, *Ars maior* III.1 (rule 9); Quintilian I.5 (Butler) · Reuse: `vices` (3), `latfaults`; `EX.vices`, `EX.latfaults` become variants
 
-**VI.3 Solecism** `[vi.solecism]`. A fault in the arrangement of words.
+**VI.3 Solecism** `[vi.solecism]`. An error in the arrangement of words.
 - Panels 8 · QP 2 · Exercise: no · Sources: Donatus, *Ars maior* III.2 (rule 9); Quintilian I.5 · Reuse: `vices`, `latfaults`, `enfault` (5); `EX.enfault` becomes variants
 
 **VI.4 Metaplasm** `[vi.metaplasm]`. A change in a word allowed for meter or ornament ("o'er," *e'en*).
 - Panels 8 · QP 2 · Exercise: no · Sources: Donatus, *Ars maior* III.4 (rule 9) · Reuse: `figures`, `latfaults`
 
-**Section review: Faults** `[vi.review]` (after VI.4). 45 new questions on VI.1–VI.4, in three fixed sets of 15.
+**Section review: Errors** `[vi.review]` (after VI.4). 45 new questions on VI.1–VI.4, in three fixed sets of 15.
 
 ---
 

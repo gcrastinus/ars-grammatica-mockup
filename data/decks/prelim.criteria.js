@@ -1,16 +1,16 @@
-/* P.4 The Criteria of Correctness [prelim.criteria]
+/* P.4 What Are the Criteria of Correctness? [prelim.criteria]
    Plan (ITEM-LIST.md): 8 panels, 2 question points, each with exactly 3 variants.
    This deck introduces the four criteria; VI.1 applies them and refers back here. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.criteria'] = {
   id: 'prelim.criteria',
-  title: 'The Criteria of Correctness',
+  title: 'What Are the Criteria of Correctness?',
   sub: 'Reason, antiquity, authority, and usage',
   panels: [
 
 { id: 'four',
-  title: 'The four criteria',
+  title: 'What are the four criteria?',
   body: `<p>When a form or a construction is doubtful, the grammarian needs a standard by which to judge it. Quintilian names four: “Language is based on reason, antiquity, authority and usage” (<i>Institutio oratoria</i> I.6.1, trans. Butler). The Latin names are <i>ratio</i> (reason), <i>vetustas</i> (antiquity), <i>auctoritas</i> (authority), and <i>consuetudo</i> (usage, also translated “custom”).</p>
 <p>Each criterion answers the question “Is this correct?” in a different way, and the grammarian must know how to weigh them against one another.</p>`,
   examples: [
@@ -21,7 +21,7 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1, I.6.5 (trans. H. E. Butler, Loeb).` },
 
 { id: 'reason',
-  title: 'Reason: analogy and etymology',
+  title: 'What is reason, and how do analogy and etymology support it?',
   body: `<p>Quintilian says: “Reason finds its chief support in analogy and sometimes in etymology” (I.6.1, trans. Butler). <strong>Analogy</strong> is the comparison of a doubtful form with a certain one of the same kind. Quintilian defines it as “the testing of all subjects of doubt by the application of some standard of comparison about which there is no question, the proof that is to say of the uncertain by reference to the certain” (I.6.4).</p>
 <p><strong>Etymology</strong>, the study of the origin of words, supports reason less often, because the origin of a word does not always settle how it is used now.</p>`,
   examples: [
@@ -46,7 +46,7 @@ ARS.decks['prelim.criteria'] = {
   ]}},
 
 { id: 'antiquity',
-  title: 'Antiquity',
+  title: 'What is antiquity?',
   body: `<p>Antiquity is the standard of older speech. Quintilian says: “Archaic words not only enjoy the patronage of distinguished authors, but also give style a certain majesty and charm” (I.6.39, trans. Butler). But he adds that “such words must be used sparingly and must not thrust themselves upon our notice” (I.6.40).</p>
 <p>Antiquity therefore makes a word acceptable in some kinds of speech, but it does not by itself make an old word the ordinary form.</p>`,
   examples: [
@@ -57,7 +57,7 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.39–41 (trans. Butler); Ecclesiastes 12:1 (King James Version).` },
 
 { id: 'authority',
-  title: 'Authority',
+  title: 'What is authority?',
   body: `<p>Authority is the standard of the best authors. Quintilian says: “Authority as a rule we derive from orators and historians” (I.6.2, trans. Butler). He gives poets less weight, because they are allowed some license for the sake of the meter.</p>
 <p>But authority has limits. Quintilian warns that “it is important to notice not merely what they said, but what words they succeeded in sanctioning” (I.6.42). A form used once by a good author does not become correct unless other speakers and writers have accepted it.</p>`,
   examples: [
@@ -68,7 +68,7 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.2, I.6.42 (trans. Butler).` },
 
 { id: 'usage',
-  title: 'Usage',
+  title: 'What is usage?',
   body: `<p>Usage is the standard of present speech. Quintilian calls it the most reliable of the four: “Usage however is the surest pilot in speaking” (I.6.3, trans. Butler). But usage does not mean whatever most people say. Quintilian defines it carefully: “I will therefore define usage in speech as the agreed practice of educated men, just as where our way of life is concerned I should define it as the agreed practice of all good men” (I.6.45).</p>
 <p>So a form is not correct merely because it is common. It is correct when it is the agreed practice of educated speakers and writers.</p>`,
   examples: [
@@ -79,7 +79,7 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.3, I.6.43–45 (trans. Butler).` },
 
 { id: 'weighing',
-  title: 'Weighing the criteria',
+  title: 'How are the criteria weighed against one another?',
   body: `<p>The four criteria can disagree, and then the grammarian must judge between them. Quintilian says that “in all these cases we have need of a critical judgment” (I.6.3, trans. Butler). When analogy and usage disagree, usage generally prevails: Quintilian quotes with approval the remark “that it is one thing to speak Latin and another to speak grammar” (I.6.27), that is, a form may follow the rules and still not be the form that speakers use.</p>
 <p>Antiquity and authority also yield to usage in ordinary speech, though they keep their place in some kinds of writing.</p>`,
   examples: [
@@ -104,7 +104,7 @@ ARS.decks['prelim.criteria'] = {
   ]}},
 
 { id: 'analogy-anomaly',
-  title: 'Analogy and anomaly',
+  title: 'Does language follow analogy or anomaly?',
   body: `<p>The ancient grammarians disputed whether language follows regular patterns (<strong>analogy</strong>) or whether usage admits many irregular forms that no pattern explains (<strong>anomaly</strong>). Varro sets out the arguments on both sides in <i>De lingua Latina</i> VIII–X and concludes that both must be admitted: there are regular patterns, and there are irregular forms that usage has fixed.</p>
 <p>The grammarian therefore learns the regular patterns as precepts, and learns the irregular forms one by one as exceptions to them.</p>`,
   examples: [
@@ -115,9 +115,9 @@ ARS.decks['prelim.criteria'] = {
   src: `Varro, <i>De lingua Latina</i> VIII–X, esp. IX.3 (trans. R. G. Kent, Loeb), in paraphrase.` },
 
 { id: 'faults',
-  title: 'The criteria and the faults of speech',
-  body: `<p>The criteria of correctness are also the standard by which faults are judged. A fault in a single word is called a <strong>barbarism</strong>, and a fault in the arrangement of words is called a <strong>solecism</strong>. A barbarism or a solecism is a departure from the forms that reason, antiquity, authority, and usage approve.</p>
-<p>The faults of speech are treated fully in Section VI, Correctness and Faults, where these criteria are applied to particular questions of usage and authority.</p>`,
+  title: 'How do the criteria judge errors of speech?',
+  body: `<p>The criteria of correctness are also the standard by which errors are judged. An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. A barbarism or a solecism is a departure from the forms that reason, antiquity, authority, and usage approve.</p>
+<p>Errors of speech are treated fully in Section VI, Correctness and Errors, where these criteria are applied to particular questions of usage and authority.</p>`,
   examples: [
     `A barbarism in English: “goed” for “went.”`,
     `A solecism in English: “The boys runs” for “The boys run.”`,

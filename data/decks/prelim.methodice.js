@@ -1,16 +1,16 @@
-/* P.3 Methodice and Historice [prelim.methodice]
+/* P.3 What Are Methodice and Historice? [prelim.methodice]
    Plan (ITEM-LIST.md): 6 panels, 2 question points, each with exactly 3 variants. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.methodice'] = {
   id: 'prelim.methodice',
-  title: 'Methodice and Historice',
+  title: 'What Are <i>Methodice</i> and <i>Historice</i>?',
   latinTitle: true,
   sub: 'The two parts of grammar: the precepts of the art and the reading of the authors',
   panels: [
 
 { id: 'two-parts',
-  title: 'The two parts of grammar',
+  title: 'What are the two parts of grammar?',
   body: `<p>Quintilian names the two parts of grammar when he finishes treating them: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1, trans. Butler). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen, hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>” (trans. T. Kearns).</p>
 <p><i>Methodice</i> is the part of grammar that teaches the precepts of the art. <i>Historice</i> is the part that interprets the authors.</p>`,
   examples: [
@@ -21,7 +21,7 @@ ARS.decks['prelim.methodice'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (trans. H. E. Butler, Loeb; the Latin from the Perseus text, with a literal translation by T. Kearns).` },
 
 { id: 'methodice',
-  title: 'Methodice: the precepts of the art',
+  title: 'What is <i>methodice</i>?',
   body: `<p>The name <i>methodice</i> comes from the Greek <i>methodos</i>, an orderly way of proceeding. <i>Methodice</i> teaches grammar as an ordered body of precepts. It defines each thing that grammar treats, divides it into its kinds, and gives the rules that govern it.</p>
 <p>The precepts are general: they hold for every sentence of their kind, and not only for the sentence in which they were first observed. For that reason they can be learned once and applied to any text.</p>`,
   examples: [
@@ -32,7 +32,7 @@ ARS.decks['prelim.methodice'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.4–7 (trans. Butler).` },
 
 { id: 'historice',
-  title: 'Historice: the interpretation of the authors',
+  title: 'What is <i>historice</i>?',
   body: `<p>The name <i>historice</i> comes from the Greek <i>historia</i>, inquiry or account. <i>Historice</i> is the reading and interpretation of the authors. It explains the words, the constructions, and the matter of a particular text, such as a poem, a history, or a speech.</p>
 <p>Its work is particular, because it explains this line or this sentence and not every line of its kind. For that reason it is learned by reading many authors with a teacher.</p>`,
   examples: [
@@ -57,7 +57,7 @@ ARS.decks['prelim.methodice'] = {
   ]}},
 
 { id: 'together',
-  title: 'How the two parts depend on each other',
+  title: 'How do the two parts depend on each other?',
   body: `<p>The two parts of grammar depend on each other. The precepts of <i>methodice</i> are drawn from the usage of the authors, and they are tested against the authors. In turn, the authors are read and explained by means of the precepts.</p>
 <p>So a student who knows the precepts without reading the authors knows rules that he has never seen used. A student who reads the authors without the precepts cannot say why a sentence is correctly formed.</p>`,
   examples: [
@@ -68,7 +68,7 @@ ARS.decks['prelim.methodice'] = {
   src: `Ecclesiastes 12:1 (King James Version); Austen, <i>Pride and Prejudice</i> (1813), ch. 1.` },
 
 { id: 'one-sentence',
-  title: 'Both parts at work on one sentence',
+  title: 'How do both parts work on one sentence?',
   body: `<p>Both parts of grammar are at work when one sentence is read with a teacher. Ecclesiastes 12:1 in the King James Version reads: “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”</p>
 <p><i>Methodice</i> names the forms and constructions. <i>Historice</i> explains what the sentence means in its place in the book.</p>`,
   examples: [
@@ -93,7 +93,7 @@ ARS.decks['prelim.methodice'] = {
   ]}},
 
 { id: 'schools',
-  title: 'The two parts in the schools',
+  title: 'How were the two parts taught in the schools?',
   body: `<p>The division of grammar into the precepts of the art and the reading of the authors continued in the schools after Quintilian. The precepts were learned from short grammars written for that purpose, and the authors were read with commentaries that explained them line by line.</p>`,
   examples: [
     `The precepts: Donatus’s <i>Ars minor</i> (fourth century), a short grammar of the eight parts of speech in questions and answers.`,
