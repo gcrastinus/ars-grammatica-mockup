@@ -50,3 +50,4 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 - the word, the least part of speech that signifies → the word, the least part of an expression that signifies
 - Voice as air struck and heard → Voice as the motion of air perceptible to hearing
 - grammar treats it, because it is still one sentence. → grammar considers it because it is still one sentence.
+- …is correctly formed; logic asks whether what it says is true. → …is correctly formed; logic asks whether what it says is true or whether the sentences follows from other things we know.

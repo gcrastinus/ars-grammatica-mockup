@@ -85,7 +85,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'correct-and-true',
   title: 'Is a correctly formed sentence also true?',
-  body: `<p>Grammar asks whether a sentence is correctly formed; logic asks whether what it says is true. Either may hold without the other. Walshe gives a pair of examples: the grammarian judges “man is stone” correct and “man are animal” incorrect, while the logician judges the first false and the second true, though badly expressed.</p>
+  body: `<p>Grammar asks whether a sentence is correctly formed; logic asks whether what it says is true or whether the sentences follows from other things we know. Either may hold without the other. Walshe gives a pair of examples: the grammarian judges “man is stone” correct and “man are animal” incorrect, while the logician judges the first false and the second true, though badly expressed.</p>
 <p>So grammar cannot tell us what is true. But logic cannot begin without grammar, because until a sentence is correctly formed there is nothing definite for logic to judge.</p>`,
   src: `Walshe, <i>Commentary on the Categories</i>, “What is Logic About?”`,
   qp: { id: 'q-correct-true', variants: [
