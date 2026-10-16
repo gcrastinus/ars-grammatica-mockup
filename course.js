@@ -96,7 +96,7 @@ function renderPanel(){
   const panel = document.createElement('div'); panel.className = 'panel';
   panel.innerHTML = `<h2>${p.title}</h2>${p.body}` +
     (p.examples && p.examples.length ? `<div class="eg"><div class="eg-label">Examples</div><ol>${p.examples.map(e => `<li>${e}</li>`).join('')}</ol></div>` : '') +
-    (p.src ? `<div class="psrc"><b>Sources</b>${p.src}</div>` : '');
+    (i === 0 && deck.sources ? `<div class="psrc"><b>Sources</b>${deck.sources}</div>` : '');
   body.appendChild(panel);
   if (p.qp) body.appendChild(renderQP(p.qp));
   $('deck-prev').disabled = i === 0;

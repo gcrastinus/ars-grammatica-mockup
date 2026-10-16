@@ -7,6 +7,7 @@ ARS.decks['prelim.criteria'] = {
   id: 'prelim.criteria',
   title: 'The Criteria of Correctness',
   sub: 'Reason, antiquity, authority, and usage',
+  sources: `Quintilian, <i>Institutio oratoria</i> I.5–6; Varro, <i>De lingua Latina</i> VIII–X; Donatus, <i>Ars maior</i> III.`,
   panels: [
 
 { id: 'four',
@@ -51,7 +52,6 @@ ARS.decks['prelim.criteria'] = {
 <p>Antiquity therefore makes a word acceptable in some kinds of speech, but it does not by itself make an old word the ordinary form.</p>`,
   examples: [
     `English “thou” and “thee,” the older singular pronouns of the second person, as in “when thou shalt say” (Ecclesiastes 12:1, King James Version).`,
-    `English “nigh” for “near,” as in “nor the years draw nigh” (Ecclesiastes 12:1).`,
     `Latin <i>topper</i> and <i>antegerio</i>, which Quintilian gives as examples of words that must not be “drawn from remote and forgotten ages” (I.6.40).`
   ],
   src: `Quintilian, <i>Institutio oratoria</i> I.6.39–41; Ecclesiastes 12:1 (King James Version).` },
@@ -84,8 +84,7 @@ ARS.decks['prelim.criteria'] = {
 <p>Antiquity and authority also yield to usage in ordinary speech, though they keep their place in some kinds of writing.</p>`,
   examples: [
     `Analogy gives “goed,” but usage gives “went,” and usage prevails.`,
-    `Analogy cannot decide whether the genitive of Latin <i>senatus</i> (“senate”) is <i>senati</i> or <i>senatus</i>; Quintilian says that this is “doubtful” (I.6.27).`,
-    `Antiquity and authority support “thou art,” but usage supports “you are” in ordinary speech.`
+    `Analogy cannot decide whether the genitive of Latin <i>senatus</i> (“senate”) is <i>senati</i> or <i>senatus</i>; Quintilian says that this is “doubtful” (I.6.27).`
   ],
   src: `Quintilian, <i>Institutio oratoria</i> I.6.3, I.6.27.`,
   qp: { id: 'q-weighing', variants: [

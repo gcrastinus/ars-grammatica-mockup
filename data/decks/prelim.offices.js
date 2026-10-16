@@ -6,6 +6,7 @@ ARS.decks['prelim.offices'] = {
   id: 'prelim.offices',
   title: 'The Tasks of the Grammarian',
   sub: 'Reading, explaining, correcting, and judging',
+  sources: `Quintilian, <i>Institutio oratoria</i> I.4 and I.8; Diomedes, <i>Ars grammatica</i>, citing Varro; Dionysius Thrax, <i>Technē</i> 1.`,
   panels: [
 
 { id: 'two-heads',
@@ -95,8 +96,7 @@ ARS.decks['prelim.offices'] = {
 <p>The six parts and the four tasks describe the same work. Reading is first in both, and criticism, that is, judging, is last and highest in both.</p>`,
   examples: [
     `Etymology: English “grammar” from Greek <i>gramma</i>, “letter.”`,
-    `Analogy: if the plural of “cat” is “cats,” the plural of “zebra” is “zebras.”`,
-    `Criticism: judging that a line is well made, or that a book is not genuine.`
+    `Analogy: if the plural of “cat” is “cats,” the plural of “zebra” is “zebras.”`
   ],
   src: `Dionysius Thrax, <i>Technē</i> 1, in paraphrase.` },
 

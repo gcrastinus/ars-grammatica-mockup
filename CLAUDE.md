@@ -145,3 +145,9 @@ In the app's own voice, call reading, explaining, correcting and judging "the ta
 ## Translators
 
 Do not name translators in the app's text (bodies, examples, source lines). Record them in sources/TRANSLATIONS-USED.md. Exceptions: a long quoted passage, or a place where the translation itself is important or disputed (e.g., the translation section). Never attribute a translation to T. Kearns unless he actually made it.
+
+## Examples and sources
+
+Examples are not mandatory. Do not give three examples on every panel by rule; give examples only where they genuinely help, and leave a panel without examples when they would only restate the body.
+
+Do not put a source line on each panel. Each study deck has one Sources note, stored as the deck-level field `sources` and shown on the deck's first panel only. It lists only the main sources of the doctrine (the backbone texts the deck's teaching is drawn from), not every text cited. A text quoted inline carries its short title and citation in the text itself (for example, Isidore, *Etymologiae* I.5.1) and is not listed among the sources unless it is a backbone source.

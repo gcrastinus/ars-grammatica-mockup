@@ -7,6 +7,7 @@ ARS.decks['prelim.methodice'] = {
   title: '<i>Methodice</i> and <i>Historice</i>',
   latinTitle: true,
   sub: 'The two parts of grammar: the precepts of the art and the reading of the authors',
+  sources: `Quintilian, <i>Institutio oratoria</i> I.4–9.`,
   panels: [
 
 { id: 'two-parts',
@@ -15,7 +16,6 @@ ARS.decks['prelim.methodice'] = {
 <p><i>Methodice</i> is the part of grammar that teaches the precepts of the art. <i>Historice</i> is the part that interprets the authors.</p>`,
   examples: [
     `A precept (<i>methodice</i>): “A verb agrees with its subject in number and person.”`,
-    `A precept in Latin (<i>methodice</i>): the preposition <i>cum</i> (“with”) takes the ablative case, as in <i>cum amīcō</i> (“with a friend”).`,
     `The interpretation of an author (<i>historice</i>): explaining that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty, so that “four score and seven” means eighty-seven.`
   ],
   src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (the Latin from the Perseus text).` },
@@ -62,7 +62,6 @@ ARS.decks['prelim.methodice'] = {
 <p>So a student who knows the precepts without reading the authors knows rules that he has never seen used. A student who reads the authors without the precepts cannot say why a sentence is correctly formed.</p>`,
   examples: [
     `The rule of agreement is observed in “nor the years draw nigh” (Ecclesiastes 12:1, King James Version), where the plural subject “years” takes the plural verb “draw.”`,
-    `The same rule is observed in “It is a truth universally acknowledged” (Austen, <i>Pride and Prejudice</i>, ch. 1), where the singular subject “It” takes the singular verb “is.”`,
     `In Latin the rule is observed in <i>Murus stat</i> (“The wall stands”) and <i>Murī stant</i> (“The walls stand”), where the verb changes with the number of the subject.`
   ],
   src: `Ecclesiastes 12:1 (King James Version); Austen, <i>Pride and Prejudice</i> (1813), ch. 1.` },

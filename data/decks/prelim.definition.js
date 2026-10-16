@@ -1,6 +1,6 @@
 /* P.1 The Definition of Grammar [prelim.definition]
    Plan (ITEM-LIST.md): 10 panels, 3 question points, each with exactly 3 variants (A, B, C).
-   Each panel: id, title, body (HTML), examples (three per point), src (sources line).
+   Each panel: id, title, body (HTML), examples (optional), src (provenance only; not displayed). Deck-level "sources" is shown on the first panel.
    A panel may carry a question point (qp) with three variants; "answer" is the index of the correct option. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -8,6 +8,7 @@ ARS.decks['prelim.definition'] = {
   id: 'prelim.definition',
   title: 'The Definition of Grammar',
   sub: 'The definition of grammar, its material and its ends, and its place as the first art of the trivium',
+  sources: `Quintilian, <i>Institutio oratoria</i> I.4; Isidore, <i>Etymologiae</i> I.5; Donatus, <i>Ars maior</i> I; Priscian, <i>Institutiones grammaticae</i> I–II.`,
   panels: [
 
 { id: 'arts-of-speech',
@@ -37,11 +38,6 @@ ARS.decks['prelim.definition'] = {
   title: 'What is the definition of grammar?',
   body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1). Quintilian divides the profession of the grammarian into two parts: “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
 <p>The word “correctly” is the center of the definition. Grammar does not ask whether a sentence is true, which is what logic asks, or whether it persuades, which is what rhetoric asks. It asks whether the words are correctly formed and correctly arranged with one another.</p>`,
-  examples: [
-    `Spelling: “They left their coats there” is correctly written, but “They left there coats their” is not.`,
-    `The form of a word: “He goes” is correct, but “He go” is not, because the verb must agree with its subject.`,
-    `The arrangement of words in Latin: <i>Puella cantat</i> (“The girl sings”) is correct, but <i>Puella cantant</i> is not, because the singular subject <i>puella</i> requires the singular verb <i>cantat</i>.`
-  ],
   src: `Isidore, <i>Etymologiae</i> I.5.1; Quintilian, <i>Institutio oratoria</i> I.4.2.`,
   qp: { id: 'q-definition', variants: [
     { prompt: `Which of these is the traditional definition of grammar?`,
@@ -64,8 +60,7 @@ ARS.decks['prelim.definition'] = {
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
   examples: [
     `Grammar makes a correctly formed sentence, such as “The sailor waits for the tide.”`,
-    `Logic makes a syllogism, such as “Every man is mortal; Socrates is a man; therefore Socrates is mortal.”`,
-    `Rhetoric makes a speech fitted to its hearers, such as a funeral oration or an address to a court.`
+    `Logic makes a syllogism, such as “Every man is mortal; Socrates is a man; therefore Socrates is mortal.”`
   ],
   src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3, in paraphrase.` },
 
@@ -146,11 +141,6 @@ ARS.decks['prelim.definition'] = {
   title: 'What is grammar for?',
   body: `<p>The ends of grammar can be set out in order. The first is a correctly formed sentence. The second, in the student, is the habit of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the remote end (<i>finis remotus</i>) of a construction (<i>Grammatica speculativa</i> §223) (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
 <p>Grammar is therefore a ministerial art, that is, an art that serves other arts and sciences. It is not an ornament of style for its own sake. It serves the understanding of connected speech, the interpretation of the authors, and clarity about what words and sentences signify.</p>`,
-  examples: [
-    `A letter to a friend must first be correctly formed before it can say what the writer means.`,
-    `A proof in geometry is stated in sentences, and each sentence must be correctly formed before the proof can be judged.`,
-    `A speech to a jury is judged by rhetoric, but each of its sentences must first satisfy grammar.`
-  ],
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.` },
 
 { id: 'first',
@@ -158,8 +148,6 @@ ARS.decks['prelim.definition'] = {
   body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). Butler uses “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
 <p>The study of grammar therefore begins with its smallest parts, the voice and the letter, and proceeds to the word and the sentence.</p>`,
   examples: [
-    `Logic needs grammar, because it judges sentences, and a sentence must first be correctly formed.`,
-    `Rhetoric needs grammar, because a speech is made of sentences.`,
     `The reading of the authors needs grammar, because a line of Virgil or a verse of the King James Version cannot be explained until its construction is understood.`
   ],
   src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5.` }

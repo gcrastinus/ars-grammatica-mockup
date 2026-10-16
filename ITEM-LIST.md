@@ -23,7 +23,7 @@ The changes from the mockup are these:
 - Each opening of the deck starts on the next variant (A, then B, then C, then A again), so review shows the same cards with different questions.
 - Where the live app has exercises that do not survive as exercises (see rule 6), their best items are rewritten as variants at the question points of the matching deck.
 
-**3. Examples.** Each point has three examples, mixing English and Latin, with Greek, French, or German only where they show something distinctive. As a supplement to this norm, a fourth example is added wherever it is doubtful that three make the point clear. Every Latin, Greek, French, or German example is translated. The panel counts below were re-estimated for this rule.
+**3. Examples.** Examples are not mandatory. A panel carries examples only where they genuinely help the point (mixing English and Latin, with Greek, French, or German only where they show something distinctive), and a panel may have none. Every Latin, Greek, French, or German example is translated. **Sources.** Panels carry no per-panel source line. Each study deck has one Sources note (the deck-level field `sources`), shown on its first panel only, listing only the backbone sources of the deck's doctrine. Texts quoted inline carry their short title and citation in the text itself.
 
 **4. Exercises test only what has been taught.** Every exercise set and every section review uses only what the decks before it have taught. The limits for each set are given under the set. Question points obey the same rule.
 
