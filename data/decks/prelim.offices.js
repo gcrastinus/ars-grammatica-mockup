@@ -22,14 +22,14 @@ ARS.decks['prelim.offices'] = {
 { id: 'four-offices',
   title: 'The four offices',
   body: `<p>The Latin grammarians name four offices of the grammarian. Diomedes, citing Varro, lists them as <i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, and <i>iudicium</i>:</p>
-<p><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly;<br><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text;<br><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or faulty in speech;<br><strong>judging</strong> (<i>iudicium</i>): judging whether a text is genuine and how well it is written.</p>
+<p><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly;<br><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text;<br><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or faulty in speech;<br><strong>judging</strong> (<i>iudicium</i>): weighing the merit of a poem or other writing (and, Quintilian adds, whether it is genuine).</p>
 <p>The list begins with reading and ends with judging, because a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
   examples: [
     `Reading: pronouncing Latin <i>mālum</i> (“apple”) with a long first vowel and <i>malum</i> (“evil”) with a short one.`,
     `Explaining: saying that “nigh” in “nor the years draw nigh” (Ecclesiastes 12:1, King James Version) means “near.”`,
     `Correcting: restoring “from” where a copyist has written “form.”`
   ],
-  src: `Diomedes, <i>Ars grammatica</i>, citing Varro, in paraphrase (no published English translation).` },
+  src: `Diomedes, <i>Ars grammatica</i> (Keil, <i>GL</i> I 426), citing Varro, in paraphrase (no published English translation).` },
 
 { id: 'reading',
   title: 'Reading (lectio)',
@@ -83,7 +83,7 @@ ARS.decks['prelim.offices'] = {
   body: `<p>Judging is the fourth office, and the highest. Quintilian describes how far the earlier grammarians carried it: “The old school of teachers indeed carried their criticism so far that they were not content with obelising lines or rejecting books whose titles they regarded as spurious, as though they were expelling a supposititious child from the family circle, but also drew up a canon of authors, from which some were omitted altogether” (<i>Institutio oratoria</i> I.4.3, trans. Butler).</p>
 <p>So judging has three tasks: to decide whether a line is genuine, whether a work belongs to the author whose name it bears, and which authors are to be taken as models.</p>`,
   examples: [
-    `Whether a line is genuine: the grammarian marks a line that a copyist has added (to “obelise” a line is to mark it with a dash, the obelus, as spurious).`,
+    `Whether a line is genuine: the grammarian marks a line that a copyist has added (to “obelize” a line is to mark it with a dash, the obelus, as spurious).`,
     `Whether a work is genuine: the grammarian rejects a book that bears an author’s name but was not written by him.`,
     `Which authors are models: the grammarian draws up a list of the authors to be read, as the Greek grammarians did.`
   ],
@@ -98,7 +98,7 @@ ARS.decks['prelim.offices'] = {
     `Analogy: if the plural of “cat” is “cats,” the plural of “zebra” is “zebras.”`,
     `Criticism: judging that a line is well made, or that a book is not genuine.`
   ],
-  src: `Dionysius Thrax, <i>Technē</i> 1 (trans. Alan Kemp, 1986), in paraphrase.` },
+  src: `Dionysius Thrax, <i>Technē</i> 1 (trans. Thomas Davidson, 1874), in paraphrase.` },
 
 { id: 'authors',
   title: 'Why the authors belong to grammar',

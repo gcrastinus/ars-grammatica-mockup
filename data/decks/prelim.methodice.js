@@ -11,7 +11,7 @@ ARS.decks['prelim.methodice'] = {
 
 { id: 'two-parts',
   title: 'The two parts of grammar',
-  body: `<p>Quintilian names the two parts of grammar when he finishes treating them: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1, trans. Butler). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>” (trans. T. Kearns).</p>
+  body: `<p>Quintilian names the two parts of grammar when he finishes treating them: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors” (<i>Institutio oratoria</i> I.9.1, trans. Butler). He adds the Greek names that the grammarians gave them. The Latin reads <i>ratio loquendi et enarratio auctorum, quarum illam methodicen, hanc historicen vocant</i>, that is, “the rules of speaking and the interpretation of authors, of which they call the first <i>methodice</i> and the second <i>historice</i>” (trans. T. Kearns).</p>
 <p><i>Methodice</i> is the part of grammar that teaches the precepts of the art. <i>Historice</i> is the part that interprets the authors.</p>`,
   examples: [
     `A precept (<i>methodice</i>): “A verb agrees with its subject in number and person.”`,

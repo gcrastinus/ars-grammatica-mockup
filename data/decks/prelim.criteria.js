@@ -112,7 +112,7 @@ ARS.decks['prelim.criteria'] = {
     `Analogy in English: “cat, cats.” Anomaly: “child, children” and “mouse, mice.”`,
     `Analogy in Latin: <i>altus, altior, altissimus</i> (“high, higher, highest”). Anomaly: <i>bonus, melior, optimus</i> (“good, better, best”).`
   ],
-  src: `Varro, <i>De lingua Latina</i> VIII–X (trans. R. G. Kent, Loeb), in paraphrase.` },
+  src: `Varro, <i>De lingua Latina</i> VIII–X, esp. IX.3 (trans. R. G. Kent, Loeb), in paraphrase.` },
 
 { id: 'faults',
   title: 'The criteria and the faults of speech',

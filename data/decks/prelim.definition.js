@@ -23,25 +23,25 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'name',
   title: 'Why the art is named grammar',
-  body: `<p>The name comes from the Greek word for a letter, <i>gramma</i> (plural <i>grammata</i>), that is, a written mark of a sound. Isidore of Seville explains the name of the art in this way. The art nevertheless begins with the voice, because a letter is a sound written down; if there were no voice, there would be nothing for the letter to mark.</p>
+  body: `<p>The name comes from the Greek word for a letter, <i>gramma</i> (plural <i>grammata</i>): Isidore of Seville says that grammar “takes its name from letters, for the Greeks call letters <i>grammata</i>” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). The art nevertheless begins with the voice, because a letter is a sound written down; if there were no voice, there would be nothing for the letter to mark.</p>
 <p>The art is named from writing because correct speech reaches its fullest and most lasting form in written works, especially in the poets, the historians, and the philosophers. Without writing, the authors of the past would not be there for us to read and to imitate, so the advanced study of connected speech depends on written texts.</p>`,
   examples: [
     `Greek <i>gramma</i>, “letter,” gives <i>grammatikē</i>, the art of letters.`,
     `Latin takes the Greek name as <i>grammatica</i>, and the teacher of the art is the <i>grammaticus</i>.`,
     `English “grammar” comes from the Latin <i>grammatica</i>, through Old French.`
   ],
-  src: `Isidore, <i>Etymologiae</i> I.5 (trans. Stephen A. Barney and others, 2006).` },
+  src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. T. Kearns).` },
 
 { id: 'definition',
   title: 'The definition',
-  body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1, trans. Barney). Quintilian divides the profession of the grammarian into two parts, which Butler translates as “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
+  body: `<p>Grammar is the art of speaking and writing correctly. Isidore gives the definition in this form: “Grammar is the knowledge of speaking correctly, and is the origin and foundation of liberal letters” (<i>Etymologiae</i> I.5.1, trans. T. Kearns). Quintilian divides the profession of the grammarian into two parts, which Butler translates as “the art of speaking correctly and the interpretation of the poets” (<i>Institutio oratoria</i> I.4.2).</p>
 <p>The word “correctly” is the center of the definition. Grammar does not ask whether a sentence is true, which is the question of logic, or whether it persuades, which is the question of rhetoric. It asks whether the words are correctly formed and correctly arranged with one another.</p>`,
   examples: [
     `Spelling: “They left their coats there” is correctly written, but “They left there coats their” is not.`,
     `The form of a word: “He goes” is correct, but “He go” is not, because the verb must agree with its subject.`,
     `The arrangement of words in Latin: <i>Puella cantat</i> (“The girl sings”) is correct, but <i>Puella cantant</i> is not, because the singular subject <i>puella</i> requires the singular verb <i>cantat</i>.`
   ],
-  src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. Barney); Quintilian, <i>Institutio oratoria</i> I.4.2 (trans. H. E. Butler, Loeb).`,
+  src: `Isidore, <i>Etymologiae</i> I.5.1 (trans. T. Kearns); Quintilian, <i>Institutio oratoria</i> I.4.2 (trans. H. E. Butler, Loeb).`,
   qp: { id: 'q-definition', variants: [
     { prompt: `Which of these is the traditional definition of grammar?`,
       options: [`The natural science of how the throat and the tongue produce sounds`, `The art of speaking and writing correctly`, `The part of logic that judges whether statements are true`, `A list of rules for spelling`],
@@ -59,7 +59,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'art',
   title: 'An art, and a liberal art',
-  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts because they belong to the soul, which is free.</p>
+  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as a syllogism or a fitting speech, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are in a fashion servile, “inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [liber]” (trans. English Dominican Province).</p>
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
   examples: [
     `Grammar makes a correctly formed sentence, such as “The sailor waits for the tide.”`,
@@ -82,14 +82,14 @@ ARS.decks['prelim.definition'] = {
 { id: 'voice-to-sentence',
   title: 'From the voice to the sentence',
   body: `<p>Speech is built in steps, each larger than the one before it:</p>
-<p>the <strong>voice</strong>, that is, sound produced by a living being;<br>the <strong>letter</strong>, the least part of the voice that can be written;<br>the <strong>syllable</strong>, a sound pronounced in one utterance;<br>the <strong>word</strong>, the least part of speech that signifies;<br>the <strong>sentence</strong>, words arranged so that they express a complete thought.</p>
+<p>the <strong>voice</strong>, that is, struck air perceptible to hearing;<br>the <strong>letter</strong>, the least part of the voice that can be written;<br>the <strong>syllable</strong>, a sound pronounced in one utterance;<br>the <strong>word</strong>, the least part of speech that signifies;<br>the <strong>sentence</strong>, words arranged so that they express a complete thought.</p>
 <p>Meaning does not begin at the voice, the letter, or the syllable; it begins at the word. Truth and falsity begin only at the sentence, because only a sentence says something about something.</p>`,
   examples: [
     `The syllable “pa” in “paper” signifies nothing by itself; the word “paper” signifies; the sentence “The paper is white” is true or false.`,
     `The syllable <i>mu</i> in Latin <i>murus</i> (“wall”) signifies nothing; the word <i>murus</i> signifies; the sentence <i>Murus stat</i> (“The wall stands”) is true or false.`,
     `The word “sun” signifies, but it asserts nothing; “The sun is shining” asserts something, and so it is true or false.`
   ],
-  src: `Donatus, <i>Ars maior</i> I; Priscian, <i>Institutiones</i> I–II, in paraphrase.`,
+  src: `Donatus, <i>Ars maior</i> I (I.1 on the voice); Priscian, <i>Institutiones</i> I–II, in paraphrase.`,
   qp: { id: 'q-meaning', variants: [
     { prompt: `At which step does meaning first appear?`,
       options: [`The voice`, `The letter`, `The syllable`, `The word`],
@@ -143,7 +143,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'end',
   title: 'What grammar is for',
-  body: `<p>The ends of grammar can be set out in order. The first is a correctly formed sentence. The second, in the student, is the habit of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the end of a construction (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
+  body: `<p>The ends of grammar can be set out in order. The first is a correctly formed sentence. The second, in the student, is the habit of forming such sentences and of judging them. The third is that the sentence express a complete thought in the mind of the hearer; Thomas of Erfurt names this as the remote end (<i>finis remotus</i>) of a construction (<i>Grammatica speculativa</i> §223) (the arrangement of words into a sentence). The fourth is readiness for logic and rhetoric, which begin only when words have been arranged into a definite sentence.</p>
 <p>Grammar is therefore a ministerial art, that is, an art that serves other arts and sciences. It is not an ornament of style for its own sake. It serves the understanding of connected speech, the interpretation of the authors, and clarity about what words and sentences signify.</p>`,
   examples: [
     `A letter to a friend must first be correctly formed before it can say what the writer means.`,
@@ -161,7 +161,7 @@ ARS.decks['prelim.definition'] = {
     `Rhetoric needs grammar, because a speech is made of sentences.`,
     `The reading of the authors needs grammar, because a line of Virgil or a verse of the King James Version cannot be explained until its construction is understood.`
   ],
-  src: `Boethius of Dacia, <i>Modi significandi</i>, in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5 (trans. Butler).` }
+  src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement, trans. A. C. Senape McDermott, 1980), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5 (trans. Butler).` }
 
   ]
 };
