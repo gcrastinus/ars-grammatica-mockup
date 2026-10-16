@@ -140,4 +140,4 @@ In titles, headings and opening lines, prefer a direct question to an indirect o
 
 ## The word "office"
 
-In the app's own voice, call reading, explaining, correcting and judging "the tasks of the grammarian" (the deck title is "What Are the Tasks of the Grammarian?"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."
+In the app's own voice, call reading, explaining, correcting and judging "the tasks of grammar" when speaking of the art (e.g., the Preliminary section description: "the definition, the tasks, and the parts of the art, and the criteria of correct speech") and "the tasks of the grammarian" when speaking of the person (deck title: "What Are the Tasks of the Grammarian?"). Use "office(s)" or "duties" only when translating *officium* or *officia* or reporting an ancient source directly. For example: "Varro, as Diomedes reports, names four duties (*officia*) of grammar."
