@@ -49,7 +49,7 @@ ARS.decks['vii.literal'] = {
   title: 'St. Thomas: the literal sense includes the figure',
   body: `<p>St. Thomas, asking whether Scripture has several senses, defines the literal sense as the sense that the author intends. He then explains that a figurative expression does not depart from the literal sense: “the parabolical sense is contained in the literal, for by words things are signified properly and figuratively. Nor is the figure itself, but that which is figured, the literal sense. When Scripture speaks of God’s arm, the literal sense is not that God has such a member, but only what is signified by this member, namely operative power” (<i>Summa theologiae</i> I, q. 1, a. 10, ad 3).</p>
 <p>So in St. Thomas’s terms, the literal sense of “the arm of God” is God’s power, because that is what the words, used figuratively, are meant to signify. This is a precise use of the term “literal sense,” different from the everyday use of “literally” to mean “in the proper signification of each word.” The grammarian must keep both in view: the proper signification of each word, and the sense that the author intends by the whole expression.</p>`,
-  src: `St. Thomas, <i>Summa theologiae</i> I, q. 1, a. 10, ad 3 (trans. Fathers of the English Dominican Province; quoted from memory, verify).` },
+  src: `St. Thomas, <i>Summa theologiae</i> I, q. 1, a. 10, ad 3 (trans. Fathers of the English Dominican Province; checked against the text of that translation).` },
 
 { id: 'idioms',
   title: 'Idioms',
