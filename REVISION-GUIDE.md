@@ -245,3 +245,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 card 1: "The meaning that a word was imposed to signify" changed to "The meaning that was imposed on a word, that is, what the word signifies," (Timothy, Oct 17).
 - I.3 card 1: closing paragraph added (Timothy, Oct 17): "A word, however, often carries more meaning than its signification alone."
 - I.3 card 5 retitled "Why does the verb consignify time and the noun not consignify time?" (Timothy, Oct 17; "consignify" kept in the second clause because nouns such as "day" do signify time).
+- I.3 accidents card (Timothy, Oct 17): why they are called accidents expanded (the word only happens to have a given accident in a given context and would have a different one in other contexts); new paragraph begins at "Besides tense, the chief accidents are these."
