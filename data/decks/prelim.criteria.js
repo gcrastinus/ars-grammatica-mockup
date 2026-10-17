@@ -11,10 +11,10 @@ ARS.decks['prelim.criteria'] = {
   panels: [
 
 { id: 'four',
-  title: 'What are the four criteria?',
-  body: `<p>In the previous deck we saw that the precepts of grammar are drawn from the usage of the authors and tested against them. But when a form or a construction is doubtful, the grammarian needs a standard by which to judge it. A criterion, in the sense used here, is such a standard. Quintilian names four: “Language is based on reason, antiquity, authority and usage” (<i>Institutio oratoria</i> I.6.1). The four criteria are:</p>
-<p><strong>reason</strong> (<i>ratio</i>): the comparison of a doubtful form with a certain one (analogy), and sometimes the origin of a word (etymology);<br><strong>antiquity</strong> (<i>vetustas</i>): the standard of older speech;<br><strong>authority</strong> (<i>auctoritas</i>): the standard of the best authors;<br><strong>usage</strong> (<i>consuetudo</i>, also translated “custom”): the standard of present speech, that is, the agreed practice of educated speakers.</p>
-<p>Each criterion answers the question “Is this correct?” in a different way, and so the grammarian must know how to weigh them against one another.</p>`,
+  title: 'What are the four criteria of correctness?',
+  body: `<p>We have seen that the precepts of grammar are drawn from the usage of the authors and tested against them. But when a form or a construction is doubtful, the grammarian needs a standard by which to judge it. A criterion, in the sense used here, is such a standard. Quintilian names four: “Language is based on reason, antiquity, authority and usage” (<i>Institutio oratoria</i> I.6.1). The four criteria are:</p>
+<p><strong>reason</strong> (<i>ratio</i>): the comparison of a doubtful form with a certain one (analogy), and sometimes the study of the origin of a word (etymology);<br><strong>antiquity</strong> (<i>vetustas</i>): the standard of older speech;<br><strong>authority</strong> (<i>auctoritas</i>): the standard of the best authors in general and those relevant to this kind of text;<br><strong>usage</strong> (<i>consuetudo</i>, also translated “custom”): the standard of present speech, that is, the agreed practice of educated speakers.</p>
+<p>Each criterion answers the question “Is this correct?” in a different way, and so the grammarian must know how to weigh them against one another. This shows that the evaluation of correctness is not a mechanical task but one that requires wide knowledge and sound judgment.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1, I.6.5.` },
 
 { id: 'reason',
