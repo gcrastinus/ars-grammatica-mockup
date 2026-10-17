@@ -58,7 +58,7 @@ ARS.decks['prelim.criteria'] = {
 { id: 'weighing',
   title: 'How are the criteria weighed against one another?',
   body: `<p>We have now seen each criterion in turn. But the four criteria can disagree, and then the grammarian must judge between them. Quintilian says that “in all these cases we have need of a critical judgment” (I.6.3). When analogy and usage disagree, usage generally prevails: Quintilian quotes with approval the remark “that it is one thing to speak Latin and another to speak grammar” (I.6.27), that is, a form may follow the rules and still not be the form that speakers use.</p>
-<p>Antiquity and authority also yield to usage in ordinary speech, though they keep their place in some kinds of writing.</p>`,
+<p>Antiquity and authority also yield to usage in ordinary speech, though they keep their place in some kinds of writing. Still, in prose and poetry of the highest kind, judgment must be made in ways that follow or take account of the best writing but are not subservient to the styles of the past. This requires a student truly to learn what good style and word choice is and what the purpose of grammar and rhetoric are before he can make a sound decision about a specific case.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.3, I.6.27.`,
   qp: { id: 'q-weighing', variants: [
     { prompt: `“Went” is correct and “goed” is not, although “goed” follows the pattern of “walked.” Which criterion decides?`,
