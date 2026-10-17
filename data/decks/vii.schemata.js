@@ -61,7 +61,7 @@ ARS.decks['vii.schemata'] = {
   title: 'Paromoeon and schesis onomaton',
   body: `<p><strong>Paromoeon</strong> (Greek, “made alike”) begins several words with the same letter or sound; in English it is usually called <strong>alliteration</strong>. Donatus’s example (he calls the figure <i>parhomoeon</i>) is a line of Ennius, addressed to the Sabine king Titus Tatius, in which every word begins with <i>t</i>: <i>o Tite tute Tati tibi tanta tyranne tulisti</i>. Shakespeare’s Ariel sings, “Full fathom five thy father lies” (<i>The Tempest</i> I.2).</p>
 <p><strong>Schesis onomaton</strong> (Greek, “a holding of nouns”) is a series of nouns, often each with its adjective, set side by side without verbs or conjunctions: “sun and moon, wind and wave, rock and tree.” Both figures arrange words for their sound or their accumulation rather than for any new construction, and both are common in poetry.</p>`,
-  src: `Ennius, <i>Annales</i>, as quoted by Donatus, <i>Ars maior</i> III.5; Shakespeare, <i>The Tempest</i> I.2.` },
+  src: `Ennius, <i>Annales</i> 104 Skutsch (checked against the Tesserae text), as quoted by Donatus, <i>Ars maior</i> III.5; Shakespeare, <i>The Tempest</i> I.2.` },
 
 { id: 'endings',
   title: 'Homoeoptoton and homoeoteleuton',

@@ -40,7 +40,7 @@ ARS.decks['vi.metaplasm'] = {
   title: 'Metaplasms that divide or join syllables',
   body: `<p>Two metaplasms change the number of syllables without adding or removing letters:<br><strong>diaeresis</strong> (Greek, “division”) divides one syllable into two: Ennius’s <i>rex Albai Longai</i> (as Donatus quotes it) for <i>Albae Longae</i> (“king of Alba Longa”), Donatus’s example, where the diphthong <i>ae</i> is pronounced as two vowels;<br><strong>episynaloephe</strong> (“joining together”) makes two syllables into one, as when <i>Phaethōn</i> is pronounced in two syllables instead of three.</p>
 <p>English poetry uses both. A poet may pronounce “heaven” as one syllable or two, or “-ed” as a separate syllable, as in “belovèd,” where the grave accent marks that the ending is pronounced. The mark used to show that two vowels are pronounced separately, as in “naïve” or “Zoë,” takes its name from the metaplasm: it is called a diaeresis.</p>`,
-  src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
+  src: `Donatus, <i>Ars maior</i> III.4, in paraphrase; Ennius, <i>Annales</i> 31 Skutsch (checked against the Tesserae text).` },
 
 { id: 'between-words',
   title: 'Metaplasms between words',

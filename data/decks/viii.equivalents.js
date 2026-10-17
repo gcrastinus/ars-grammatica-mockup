@@ -73,7 +73,7 @@ ARS.decks['viii.equivalents'] = {
   title: 'Port-Royal on the relative clause',
   body: `<p>The Port-Royal grammarians and logicians distinguished two kinds of relative clause. An <strong>explicative</strong> clause adds something true of the whole of what the noun signifies, without limiting it: “Man, who is mortal, …” speaks of every man. A <strong>restrictive</strong> (or determinative) clause limits the noun to some of what it signifies: “Men who are pious are charitable” speaks only of pious men.</p>
 <p>English grammars keep this distinction as the difference between nonrestrictive and restrictive relative clauses, and mark it in writing with commas: “My brother, who lives in Boston, is a doctor” (I have one brother) and “My brother who lives in Boston is a doctor” (I have more than one). We saw in Section II that punctuation can decide the sense; here it decides the logical extent of the subject.</p>`,
-  src: `Arnauld and Nicole, <i>La logique ou l’art de penser</i> (1662), I.8; Arnauld and Lancelot, <i>Grammaire générale</i> II.9; both in paraphrase.` },
+  src: `Arnauld and Nicole, <i>La logique ou l’art de penser</i> (1662), Part I, chapter on complex terms, and Part II, chapter on incident propositions (I.7 and II.4 in the English translation of 1685, checked; the chapter numbers of the French editions not checked); Arnauld and Lancelot, <i>Grammaire générale</i> II.9; both in paraphrase.` },
 
 { id: 'ug-1',
   title: 'Chomsky and the Cartesian tradition',

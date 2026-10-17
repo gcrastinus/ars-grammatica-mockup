@@ -44,7 +44,7 @@ ARS.decks['iii.figure'] = {
 
 { id: 'species',
   title: 'Primitive and derived words',
-  body: `<p>The second accident concerns whether a word is formed from another word. Priscian calls it species and divides it into two: the <strong>primitive</strong> species (<i>prīmitīva</i>), which belongs to a word that is not formed from another, and the <strong>derived</strong> species (<i>dērīvātīva</i>), which belongs to a word that is formed from another (<i>Institutiones grammaticae</i> IV, in paraphrase). So <i>mōns</i> (“mountain”) is primitive and <i>montānus</i> (“of the mountains”) derived from it; <i>rēx</i> (“king”) is primitive and <i>rēgius</i> (“royal”) derived.</p>
+  body: `<p>The second accident concerns whether a word is formed from another word. Priscian calls it species and divides it into two: the <strong>primitive</strong> species (<i>principālis</i>), which belongs to a word that is not formed from another, and the <strong>derived</strong> species (<i>dērīvātīva</i>), which belongs to a word that is formed from another (<i>Institutiones grammaticae</i> II, in paraphrase). So <i>mōns</i> (“mountain”) is primitive and <i>montānus</i> (“of the mountains”) derived from it; <i>rēx</i> (“king”) is primitive and <i>rēgius</i> (“royal”) derived.</p>
 <p>English derived words are formed in the same way, usually by adding an ending: “king” and “kingdom,” “kind” and “kindness,” “nation” and “national.” A derived word may belong to a different part of speech from its primitive, as “national” is an adjective formed from the noun “nation,” and “nationalize” a verb formed from the adjective.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> IV, in paraphrase.` },
 
