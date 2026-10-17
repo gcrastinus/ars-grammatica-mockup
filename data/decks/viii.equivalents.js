@@ -15,7 +15,7 @@ ARS.decks['viii.equivalents'] = {
 { id: 'statement',
   title: 'The statement in grammar and in logic',
   body: `<p>We saw in Section I that only the statement is true or false, and in Section V that every sentence has a grammatical subject and predicate. Logic studies the statement (Latin <i>enūntiātiō</i>, also called the proposition) as the bearer of truth, and analyzes it into a subject term, a predicate term, and the copula that joins them. Grammar studies the same sentence as a construction of words.</p>
-<p>The logical analysis and the grammatical analysis often coincide, but not always. In “Every man is mortal” both find the same subject and predicate, but grammar takes “every man” as the subject and logic takes “man” as the subject term, with “every” as a sign of quantity. In this deck we study how the elements of the logical form (the copula, quantity, quality, and the compound statement) appear in the grammar of English and Latin.</p>`,
+<p>The logical analysis and the grammatical analysis often coincide, but not always. In “Every man is mortal” both find the same subject and predicate, but grammar takes “every man” as the subject and logic takes “man” as the subject term, with “every” as a sign of quantity. Here we study how the elements of the logical form (the copula, quantity, quality, and the compound statement) appear in the grammar of English and Latin.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 4–5; Peter of Spain, <i>Tractatus</i> I; both in paraphrase.` },
 
 { id: 'copula',

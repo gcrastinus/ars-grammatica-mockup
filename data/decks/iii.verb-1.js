@@ -14,8 +14,8 @@ ARS.decks['iii.verb-1'] = {
 
 { id: 'accidents',
   title: 'The accidents of the verb',
-  body: `<p>We have seen that the verb signifies with time and person and without case, and that it signifies by the mode of becoming. Donatus gives the verb seven accidents: <i>quālitās, coniugātiō, genus, numerus, figūra, tempus, persōna</i>, that is, quality, conjugation, voice (Latin <i>genus</i>), number, figure, tense, and person (<i>Ars minor</i>).</p>
-<p>We have already studied figure, which distinguishes simple verbs such as <i>faciō</i> from compound verbs such as <i>cōnficiō</i>. Here we study quality, which for the verb includes its moods and its forms, and voice, which concerns whether the subject acts or is acted upon. Tense, person, number, and conjugation are studied together after this, because they are the accidents by which the forms of the verb are arranged in its conjugation.</p>`,
+  body: `<p>We have seen that the verb signifies with time and person and without case, and that it signifies by the mode of becoming. Donatus gives the verb seven accidents: quality, conjugation, voice, number, figure, tense, and person (<i>quālitās, coniugātiō, genus, numerus, figūra, tempus, persōna</i>; <i>Ars minor</i>). His word for voice is <i>genus</i>, the same word that names the gender of the noun.</p>
+<p>We have already studied figure, which distinguishes simple verbs such as <i>faciō</i> from compound verbs such as <i>cōnficiō</i>. Here we study quality, which for the verb includes its moods and its forms, and voice, which concerns whether the subject acts or is acted upon. Tense, person, number, and conjugation are studied together in the second part of the study of the verb, because they are the accidents by which the forms of the verb are arranged in its conjugation.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the verb.` },
 
 { id: 'mood',

@@ -57,7 +57,7 @@ ARS.decks['ii.voice'] = {
 { id: 'order',
   title: 'From voice to letter and syllable',
   body: `<p>We have now seen what voice is, how articulate voice differs from inarticulate voice, and why the voice is the material of speech but not yet speech. The study of the matter of speech proceeds in the order of its parts. Articulate voice can be divided into its least parts, which writing records as letters; letters are joined into syllables; and syllables are measured as long or short, and accented, and arranged into feet and lines of verse.</p>
-<p>Each step depends on the one before it, because a letter is a mark of an articulate sound, and a syllable is made of such sounds. So the letter is considered next in this section, then the syllable, then quantity and accent, and finally the pauses of speech and the measures of verse.</p>`,
+<p>Each step depends on the one before it, because a letter is a mark of an articulate sound, and a syllable is made of such sounds. So this section considers the letter, the syllable, quantity and accent, the pauses of speech, and the measures of verse, in that order.</p>`,
   src: `Donatus, <i>Ars maior</i> I.1–6.`,
   qpTodo: `Voice as the material of speech: which of these (a cough, thunder, a groan, the spoken word “horse,” the letter B sounded alone) is voice, which is articulate, and which is a word.` }
 

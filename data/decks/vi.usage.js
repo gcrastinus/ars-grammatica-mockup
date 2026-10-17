@@ -15,7 +15,7 @@ ARS.decks['vi.usage'] = {
 { id: 'criteria-again',
   title: 'The criteria applied',
   body: `<p>We saw in the Preliminary section that the grammarians judge what is correct by four criteria: reason (with its supports, analogy and etymology), antiquity, authority, and usage, and that when they disagree, usage generally prevails. We have since studied the forms of words and the rules of construction. In this section we apply the criteria to particular questions: what makes a word or a construction correct, and what kinds of error the grammarians distinguished.</p>
-<p>The Latin name for correct speech was <i>Latīnitās</i> (“Latinity”), as the Greek was <i>Hellēnismos</i> (“Greekness”): to speak correctly was to speak the language as it should be spoken. English has no single word for this, and we use the plain term <strong>correctness</strong>. Its opposite is error, and the grammarians named its chief kinds the barbarism and the solecism, which we will study after this.</p>`,
+<p>The Latin name for correct speech was <i>Latīnitās</i> (“Latinity”), as the Greek was <i>Hellēnismos</i> (“Greekness”): to speak correctly was to speak the language as it should be spoken. English has no single word for this, and we use the plain term <strong>correctness</strong>. Its opposite is error, and the grammarians named its chief kinds the barbarism and the solecism, which are studied in this section.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1–3, in paraphrase.` },
 
 { id: 'horace',

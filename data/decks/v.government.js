@@ -59,7 +59,7 @@ ARS.decks['v.government'] = {
 { id: 'agreement-government',
   title: 'Agreement and government compared',
   body: `<p>Agreement and government are the two principal relations of form between words, and they differ in a clear way. In agreement the two words share the same accident: <i>bonus nauta</i>, both masculine, singular, and nominative. In government one word requires in another an accident that it does not have itself: <i>amat</i> has no case, but it requires <i>puellam</i> in the accusative.</p>
-<p>So in <i>bonus puer librum legit</i>, “the good boy reads the book,” <i>bonus</i> agrees with <i>puer</i>, <i>legit</i> agrees with <i>puer</i> in person and number, and <i>legit</i> governs <i>librum</i> in the accusative. Both relations rest on a deeper one, which we study next: in each pair, one word depends on the other.</p>`,
+<p>So in <i>bonus puer librum legit</i>, “the good boy reads the book,” <i>bonus</i> agrees with <i>puer</i>, <i>legit</i> agrees with <i>puer</i> in person and number, and <i>legit</i> governs <i>librum</i> in the accusative. Both relations rest on a deeper one, the relation of dependence: in each pair, one word depends on the other.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>; Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.`,
   qpTodo: `Analysis: in a given Latin sentence, name each relation of agreement and each of government, with the words involved.` }
 

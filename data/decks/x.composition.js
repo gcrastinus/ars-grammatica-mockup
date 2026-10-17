@@ -72,7 +72,7 @@ ARS.decks['x.composition'] = {
 { id: 'reading-writing',
   title: 'Reading and writing together',
   body: `<p>Quintilian joins writing to reading. He says that it is from the best authors “that we must draw our stock of words, the variety of our figures and our methods of composition” (<i>Institutio oratoria</i> X.2.1). So the student learns to compose by reading good sentences closely, analyzing them as we have studied, and then making sentences of the same kinds.</p>
-<p>This is the reason that grammar, which begins with the voice and the letter, ends with composition. The analysis of the authors shows what good sentences are, and composition makes the knowledge one’s own. The tradition gave two further exercises for this purpose, which we study next: imitation, in which the student copies and models his writing on a passage of a good author, and translation, in which he carries the sense of one language into another.</p>`,
+<p>This is the reason that grammar, which begins with the voice and the letter, ends with composition. The analysis of the authors shows what good sentences are, and composition makes the knowledge one’s own. The tradition gave two further exercises for this purpose, both studied in this section: imitation, in which the student copies and models his writing on a passage of a good author, and translation, in which he carries the sense of one language into another.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> X.2.1 (trans. Butler; checked against the Perseus text).` }
 
   ]

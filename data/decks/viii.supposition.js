@@ -117,7 +117,7 @@ ARS.decks['viii.supposition'] = {
 { id: 'why-grammarian',
   title: 'Why the grammarian studies supposition',
   body: `<p>Supposition belongs to logic, and it is studied at length in logic, where it serves the analysis of arguments. But the grammarian studies it for two reasons. First, it explains how the same word, with the same signification, can be used of different things in different sentences, which is a question about the use of words that the reader of any text must answer. Second, it shows how much the logical sense of a sentence depends on its grammar: on the syncategorematic words, the order of words, the articles, and the tenses.</p>
-<p>So supposition is a place where grammar and logic meet. Grammar supplies the forms; logic asks what the terms stand for and whether the statement is true. We turn next to the general relation between grammatical forms and logical forms: the subject and predicate, the copula, quantity, and negation.</p>`,
+<p>So supposition is a place where grammar and logic meet. Grammar supplies the forms; logic asks what the terms stand for and whether the statement is true. The general relation between grammatical forms and logical forms (the subject and predicate, the copula, quantity, and negation) is the other subject of this section.</p>`,
   src: `Peter of Spain, <i>Tractatus</i> VI, in paraphrase.` }
 
   ]

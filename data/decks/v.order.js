@@ -80,7 +80,7 @@ ARS.decks['v.order'] = {
 { id: 'summary',
   title: 'What order does',
   body: `<p>We have seen that order does different work in different languages. In English it shows the construction, so a change of order is a change of meaning, and a word in the wrong place can cause ambiguity. In Latin the endings show the construction, so the order can give emphasis, separate words for effect, and follow the rhythm of the sentence, as Quintilian describes. In both languages the first and last positions are emphatic, and in both there is a natural order that follows the dependences of the words.</p>
-<p>So the order of words is a part of construction, but not the whole of it. The relations of dependence, agreement, and government are the same whatever the order, and the natural order is the order in which those relations are easiest to see. We turn next to groups of words that act together as one part of the sentence: the phrase, the clause, and the period.</p>`,
+<p>So the order of words is a part of construction, but not the whole of it. The relations of dependence, agreement, and government are the same whatever the order, and the natural order is the order in which those relations are easiest to see. The phrase, the clause, and the period, which are groups of words that act together as one part of the sentence, are studied in this section as well.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.4; Priscian, <i>Institutiones grammaticae</i> XVII.`,
   qpTodo: `Analysis: in a given English sentence and its Latin equivalent, compare how the construction is shown (by order in English, by endings in Latin), and which word each language emphasizes.` }
 

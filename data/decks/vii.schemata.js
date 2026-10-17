@@ -92,7 +92,7 @@ ARS.decks['vii.schemata'] = {
 { id: 'what-they-do',
   title: 'What the figures of words do to construction',
   body: `<p>Quintilian sums up the figures of words as those “which consist in change, addition, omission, and the order of words” (<i>Institutio oratoria</i> IX.3.26–27). The grammarian can classify Donatus’s figures in the same way. Zeugma and asyndeton omit words that the construction would supply; polysyndeton and the figures of repetition add words that the construction does not need; prolepsis and syllepsis change the regular agreement; and hyperbaton and hirmos change the order.</p>
-<p>So each figure of words is a departure from the plain construction, and each can be understood only by one who knows the plain construction. That is why the figures are studied after the rules of construction, and why the grammarian explains a figure by restoring the plain form and showing how the author has departed from it. We turn now to the tropes, which change not the arrangement of words but their signification.</p>`,
+<p>So each figure of words is a departure from the plain construction, and each can be understood only by one who knows the plain construction. That is why the figures are studied after the rules of construction, and why the grammarian explains a figure by restoring the plain form and showing how the author has departed from it. The tropes, which change not the arrangement of words but their signification, are the other subject of this section.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.3.26–27 (trans. Butler; checked against the Perseus text).` }
 
   ]

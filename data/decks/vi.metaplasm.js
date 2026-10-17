@@ -58,7 +58,7 @@ ARS.decks['vi.metaplasm'] = {
 { id: 'license-limits',
   title: 'License and its limits',
   body: `<p>A metaplasm is permitted because it is made for the meter or for ornament and because the reader can recognize the regular form behind it. But the license has limits. Quintilian says that teachers should show boys that “in poets such peculiarities are pardonable or even praiseworthy” (<i>Institutio oratoria</i> I.5.11), but the same forms used in prose, or used without need in verse, are barbarisms.</p>
-<p>We have now studied the errors of speech: the barbarism in a single word, the solecism in the arrangement of words, and the other faults; and their corresponding licenses: the metaplasm in a single word and the figure in construction. In Section VII we turn to the figures and tropes, by which words are arranged and used beyond their plain sense for the sake of force and ornament.</p>`,
+<p>We have now studied the errors of speech: the barbarism in a single word, the solecism in the arrangement of words, and the other errors of speech; and their corresponding licenses: the metaplasm in a single word and the figure in construction. In Section VII we turn to the figures and tropes, by which words are arranged and used beyond their plain sense for the sake of force and ornament.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.11 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.4.` }
 
   ]

@@ -26,13 +26,13 @@ ARS.decks['ii.syllable'] = {
 { id: 'accidents',
   title: 'The accidents of the syllable',
   body: `<p>Donatus says that four things belong to every syllable: its accent (<i>tenor</i>), its breathing (<i>spiritus</i>), its length (<i>tempus</i>, literally “time”), and the number of its letters (<i>numerus litterarum</i>) (<i>Ars maior</i> I.3). We have seen that such properties are called accidents.</p>
-<p>The <strong>accent</strong> is the raising or lowering of the voice on the syllable, which we will study in the next part of this section. The <strong>breathing</strong> is whether the syllable is pronounced with an <i>h</i> or without one, as Latin <i>hōra</i> (“hour”) begins with a breathing and <i>ōra</i> (“shores”) does not. The <strong>length</strong> is whether the syllable is long or short, which is the foundation of Latin verse. The <strong>number of letters</strong> is the count of letters in the syllable, which in Latin runs from one, as in <i>ā</i>, to six, as in <i>stirps</i>.</p>`,
+<p>The <strong>accent</strong> is the raising or lowering of the voice on the syllable, which we will study with quantity in this section. The <strong>breathing</strong> is whether the syllable is pronounced with an <i>h</i> or without one, as Latin <i>hōra</i> (“hour”) begins with a breathing and <i>ōra</i> (“shores”) does not. The <strong>length</strong> is whether the syllable is long or short, which is the foundation of Latin verse. The <strong>number of letters</strong> is the count of letters in the syllable, which in Latin runs from one, as in <i>ā</i>, to six, as in <i>stirps</i>.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3, in paraphrase.` },
 
 { id: 'open-closed',
   title: 'Open and closed syllables',
   body: `<p>A syllable that ends in a vowel is called <strong>open</strong>, and a syllable that ends in a consonant is called <strong>closed</strong>. In Latin <i>pa-ter</i> (“father”) the first syllable is open and the second is closed; in <i>por-ta</i> (“gate”) the first syllable is closed and the second is open. In English “ba-by” both syllables are open, and in “bas-ket” both are closed.</p>
-<p>The distinction matters because the length of a Latin syllable depends on it. A syllable with a short vowel is short if it is open, but long if it is closed, because the consonant at its end adds to the time needed to pronounce it. So the rules for dividing words into syllables, which follow, are also the ground of the rules for measuring them.</p>`,
+<p>The distinction matters because the length of a Latin syllable depends on it. A syllable with a short vowel is short if it is open, but long if it is closed, because the consonant at its end adds to the time needed to pronounce it. So the rules for dividing words into syllables are also the ground of the rules for measuring them.</p>`,
   src: `Allen, <i>Vox Latina</i>, appendix on syllabic division, in paraphrase.` },
 
 { id: 'latin-division-1',

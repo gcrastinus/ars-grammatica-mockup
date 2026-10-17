@@ -13,8 +13,8 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'accidents',
   title: 'The accidents of the noun',
-  body: `<p>We have seen that the noun signifies a body or a thing, with case, and that it signifies by the mode of a stable thing. Donatus asks how many accidents the noun has and answers six: <i>qualitas, comparatio, genus, numerus, figura, casus</i>, that is, quality, comparison, gender, number, figure, and case (<i>Ars minor</i>).</p>
-<p>We have already studied figure, the distinction between simple and compound nouns. Here we study quality, which divides nouns into proper and common, and comparison, which belongs to adjectives of quality and quantity. Gender, number, and case are the accidents by which a Latin noun is declined, and we study them together after this.</p>`,
+  body: `<p>We have seen that the noun signifies a body or a thing, with case, and that it signifies by the mode of a stable thing. Donatus asks how many accidents the noun has and answers six: quality, comparison, gender, number, figure, and case (<i>quālitās, comparātiō, genus, numerus, figūra, cāsus</i>; <i>Ars minor</i>).</p>
+<p>We have already studied figure, the distinction between simple and compound nouns. Here we study quality, which divides nouns into proper and common, and comparison, which belongs to adjectives of quality and quantity. Gender, number, and case are the accidents by which a Latin noun is declined, and they are studied together in the second part of the study of the noun.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the noun.` },
 
 { id: 'quality',

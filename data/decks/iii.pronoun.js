@@ -12,7 +12,7 @@ ARS.decks['iii.pronoun'] = {
 
 { id: 'accidents',
   title: 'The accidents of the pronoun',
-  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents: <i>quālitās, genus, numerus, figūra, persōna, cāsus</i>, that is, quality, gender, number, figure, person, and case (<i>Ars minor</i>).</p>
+  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents: quality, gender, number, figure, person, and case (<i>quālitās, genus, numerus, figūra, persōna, cāsus</i>; <i>Ars minor</i>).</p>
 <p>Four of these are accidents of the noun as well, and they have the same meaning here: gender, number, figure, and case. So Latin <i>ille</i>, <i>illa</i>, <i>illud</i> (“that”) has three genders, singular and plural numbers, and six cases, as an adjective does, and <i>quisquis</i> (“whoever”) is compound in figure. The two accidents that are new are quality, which for the pronoun means something different from the quality of the noun, and person.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the pronoun.` },
 
@@ -76,7 +76,7 @@ ARS.decks['iii.pronoun'] = {
 { id: 'clear-reference',
   title: 'Clear reference',
   body: `<p>Because a pronoun refers to a thing without describing it, its meaning depends entirely on its antecedent. If the antecedent is unclear, the sentence is ambiguous. In “When the cup fell on the plate, it broke,” we cannot tell whether “it” refers to the cup or to the plate. Latin, which marks gender, can sometimes resolve such cases, but if both nouns have the same gender, Latin is ambiguous in the same way.</p>
-<p>So a pronoun is correctly used only when the hearer can tell what it refers to. We will see in Section VI that an unclear pronoun is one of the common errors in the arrangement of words. We have now studied the noun and the pronoun, which signify by the mode of a stable thing; we turn next to the verb, which signifies by the mode of becoming and which, like the pronoun, has person.</p>`,
+<p>So a pronoun is correctly used only when the hearer can tell what it refers to. We will see in Section VI that an unclear pronoun is one of the common errors in the arrangement of words. We have now studied the noun and the pronoun, which signify by the mode of a stable thing. The verb, which signifies by the mode of becoming, also has person, as the pronoun does.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>; standard English grammars, in paraphrase.` }
 
   ]

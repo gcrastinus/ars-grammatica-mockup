@@ -66,7 +66,7 @@ ARS.decks['v.dependence'] = {
 { id: 'together',
   title: 'Dependence, agreement, and government',
   body: `<p>We can now see how the relations studied in this section fit together. Dependence is the relation that every construction has: one word requires another. Agreement and government are the forms in which dependence is shown. When the dependent word shares accidents with the terminant, as the adjective with its noun, there is agreement; when one word requires a case in another, as the verb in its object, there is government.</p>
-<p>In <i>puer bonus librum legit</i>, “the good boy reads the book,” <i>bonus</i> depends on <i>puer</i> and agrees with it; <i>legit</i> depends on <i>puer</i> and agrees with it in person and number; and <i>legit</i> depends on <i>librum</i> and governs it in the accusative. These relations do not depend on the order of the words, which in Latin can vary widely, and we turn next to what the order of words does.</p>`,
+<p>In <i>puer bonus librum legit</i>, “the good boy reads the book,” <i>bonus</i> depends on <i>puer</i> and agrees with it; <i>legit</i> depends on <i>puer</i> and agrees with it in person and number; and <i>legit</i> depends on <i>librum</i> and governs it in the accusative. These relations do not depend on the order of the words, which in Latin can vary widely; what the order of words does is a further question of construction.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
   qpTodo: `Analysis: in a given Latin sentence, give each dependence and say whether it is shown by agreement, by government, or by neither.` }
 

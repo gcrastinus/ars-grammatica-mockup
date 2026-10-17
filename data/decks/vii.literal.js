@@ -29,7 +29,7 @@ ARS.decks['vii.literal'] = {
 { id: 'necessary',
   title: 'Figurative words that have become ordinary',
   body: `<p>Quintilian observes that some figurative uses are necessary, because the language has no proper word: farmers “call a vinebud <i>gemma</i>, a gem (what other term is there which they could use?), or speak of the crops being thirsty or the fruit suffering. For the same reason we speak of a hard or rough man, there being no literal term for these temperaments” (<i>Institutio oratoria</i> VIII.6.6).</p>
-<p>English is full of such uses: the “leg” of a table, the “mouth” of a river, the “foot” of a mountain, a “hard” question. Many of them are so common that speakers no longer notice that they were once figurative, and dictionaries list them as ordinary senses of the word. So the boundary between literal and figurative use can change with usage: a figurative use that becomes established may become a second proper signification of the word.</p>`,
+<p>English is full of such uses: the “leg” of a table, the “mouth” of a river, the “foot” of a mountain, a “hard” question. Many of them are so common that speakers no longer recognize that they were once figurative, and dictionaries list them as ordinary senses of the word. So the boundary between literal and figurative use can change with usage: a figurative use that becomes established may become a second proper signification of the word.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.6 (trans. Butler; checked against the Perseus text).`,
   qpTodo: `Established figurative uses: is a given expression (“the leg of a table,” “the mouth of a river,” “a hard man”) still felt as figurative, and why did the language need it.` },
 

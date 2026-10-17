@@ -59,7 +59,7 @@ ARS.decks['vi.solecism'] = {
 { id: 'other-faults',
   title: 'The other faults of speech',
   body: `<p>Between the solecism and the metaplasm, Donatus lists further faults of speech, which together with the barbarism and the solecism make twelve (<i>Ars maior</i> III.3, in paraphrase). Among them are these:<br><strong>pleonasm</strong>, a word added to a meaning already complete: “she spoke with her mouth,” Latin <i>sīc ōre locūta est</i>;<br><strong>tautology</strong>, the needless repetition of the same idea: “he himself personally came”;<br><strong>amphibolia</strong>, a construction that can be taken in two ways: “The king sees the sailor with a glass.”</p>
-<p>We studied amphibolia in Section I as ambiguity in the arrangement of words, and it will appear again in logic as the fallacy of amphiboly. These faults are not errors of agreement or government, but they are faults in the use of words in construction, and Donatus treats them with the solecism for that reason.</p>`,
+<p>We studied amphibolia in Section I as ambiguity in the arrangement of words, and it will appear again in logic as the fallacy of amphiboly. Donatus’s other faults are not errors of agreement or government, but they are faults in the use of words in construction, and Donatus treats them with the solecism for that reason.</p>`,
   src: `Donatus, <i>Ars maior</i> III.3, in paraphrase.` }
 
   ]

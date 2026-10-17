@@ -14,7 +14,7 @@ ARS.decks['iii.participle'] = {
 
 { id: 'accidents',
   title: 'The participle and its accidents',
-  body: `<p>We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: <i>genera, cāsūs, tempora, significātiōnēs, numerus, figūra</i>, that is, gender, case, tense, signification, number, and figure (<i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
+  body: `<p>We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, cāsūs, tempora, significātiōnēs, numerus, figūra</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
 <p>By <strong>signification</strong> Donatus here means what the verb calls voice: whether the participle signifies doing or undergoing. So <i>laudāns</i> (“praising”) is active in signification and present in tense, and it is declined for gender, number, and case; <i>laudātus</i> (“praised”) is passive in signification and perfect in tense. In every case the participle agrees with a noun, as an adjective does, but it signifies an action, as a verb does.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the participle (the Latin).` },
 
