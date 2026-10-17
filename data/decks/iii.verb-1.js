@@ -14,13 +14,13 @@ ARS.decks['iii.verb-1'] = {
 
 { id: 'accidents',
   title: 'The accidents of the verb',
-  body: `<p>We have seen that the verb signifies with time and person and without case, and that it signifies by the mode of becoming. Donatus gives the verb seven accidents: quality, conjugation, voice, number, figure, tense, and person (<i>quālitās, coniugātiō, genus, numerus, figūra, tempus, persōna</i>; <i>Ars minor</i>). His word for voice is <i>genus</i>, the same word that names the gender of the noun.</p>
+  body: `<p>We have seen that the verb signifies with time and person and without case, and that it signifies by the mode of becoming. Donatus gives the verb seven accidents: quality, conjugation, voice, number, figure, tense, and person (<i>qualitas, coniugatio, genus, numerus, figura, tempus, persona</i>; <i>Ars minor</i>). His word for voice is <i>genus</i>, the same word that names the gender of the noun.</p>
 <p>We have already studied figure, which distinguishes simple verbs such as <i>faciō</i> from compound verbs such as <i>cōnficiō</i>. Here we study quality, which for the verb includes its moods and its forms, and voice, which concerns whether the subject acts or is acted upon. Tense, person, number, and conjugation are studied together in the second part of the study of the verb, because they are the accidents by which the forms of the verb are arranged in its conjugation.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the verb.` },
 
 { id: 'mood',
   title: 'What is mood?',
-  body: `<p>Donatus says that the quality of verbs lies <i>in modīs et in formīs</i>, “in moods and in forms” (<i>Ars minor</i>). A <strong>mood</strong> (Latin <i>modus</i>, “manner”) is a form of the verb that shows the manner in which the speaker presents the action: as a fact, as a command, as a wish, or as something supposed. We saw in Section I that sentences state, command, ask, and wish; the moods are the forms of the verb that mark several of these differences.</p>
+  body: `<p>Donatus says that the quality of verbs lies <i>in modis et in formis</i>, “in moods and in forms” (<i>Ars minor</i>). A <strong>mood</strong> (Latin <i>modus</i>, “manner”) is a form of the verb that shows the manner in which the speaker presents the action: as a fact, as a command, as a wish, or as something supposed. We saw in Section I that sentences state, command, ask, and wish; the moods are the forms of the verb that mark several of these differences.</p>
 <p>Donatus lists six moods, with the verb <i>legō</i> (“I read”):<br>the <strong>indicative</strong>, as <i>legō</i>, “I read”;<br>the <strong>imperative</strong>, as <i>lege</i>, “read!”;<br>the <strong>optative</strong>, as <i>utinam legerem</i>, “would that I were reading”;<br>the <strong>subjunctive</strong>, as <i>cum legam</i>, “when I read”;<br>the <strong>infinitive</strong>, as <i>legere</i>, “to read”;<br>the <strong>impersonal</strong>, as <i>legitur</i>, “it is read,” “reading is done.”</p>`,
   src: `Donatus, <i>Ars minor</i>, on the quality of the verb (the Latin).` },
 
@@ -77,7 +77,7 @@ ARS.decks['iii.verb-1'] = {
 
 { id: 'common',
   title: 'Common verbs',
-  body: `<p>The fifth kind under voice is the <strong>common</strong> verb (<i>commūne</i>). Donatus says that common verbs end in <i>-r</i> like deponents but have both an active and a passive meaning, as <i>ōsculor</i> and <i>crīminor</i>: we say <i>ōsculor tē</i> (“I kiss you”) and <i>ōsculor ā tē</i> (“I am kissed by you”) (<i>Ars minor</i>, in paraphrase). In classical Latin very few verbs are used in this way, and modern grammars treat them as deponents with an occasional passive use.</p>
+  body: `<p>The fifth kind under voice is the <strong>common</strong> verb (<i>commūne</i>). Donatus says that common verbs end in <i>-r</i> like deponents but have both an active and a passive meaning, as <i>ōsculor</i> and <i>crīminor</i>: we say <i>osculor te</i> (“I kiss you”) and <i>osculor a te</i> (“I am kissed by you”) (<i>Ars minor</i>, in paraphrase). In classical Latin very few verbs are used in this way, and modern grammars treat them as deponents with an occasional passive use.</p>
 <p>So Donatus’s five voices are the active, the passive, the neuter, the deponent, and the common. Modern grammars speak of two voices, active and passive, and treat the neuter verb as intransitive and the deponent and common verbs as kinds of verb that are irregular in form. The difference is one of classification, not of the facts: both describe the same forms and meanings.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the voice of the verb, in paraphrase.` },
 

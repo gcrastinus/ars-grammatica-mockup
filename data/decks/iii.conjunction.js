@@ -13,7 +13,7 @@ ARS.decks['iii.conjunction'] = {
 { id: 'conjunction',
   title: 'The conjunction and its accidents',
   body: `<p>We have seen that the conjunction joins and orders the thought, and that the modists explain it as signifying by the mode of joining two terms. Priscian defines it as an indeclinable part of speech that joins other parts of speech and shows their force or their order (<i>Institutiones grammaticae</i> XVI, in paraphrase). It may join single words, as in “bread and wine,” or phrases, as in “in the house or in the garden,” or whole clauses, as in “She came, but he stayed.”</p>
-<p>Donatus gives the conjunction three accidents: power, figure, and order (<i>potestās, figūra, ōrdō</i>; <i>Ars minor</i>). <strong>Power</strong> is the kind of relation the conjunction signifies; <strong>figure</strong> is whether it is simple or compound; and <strong>order</strong> is its position in relation to the words it joins.</p>`,
+<p>Donatus gives the conjunction three accidents: power, figure, and order (<i>potestas, figura, ordo</i>; <i>Ars minor</i>). <strong>Power</strong> is the kind of relation the conjunction signifies; <strong>figure</strong> is whether it is simple or compound; and <strong>order</strong> is its position in relation to the words it joins.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the conjunction (the Latin); Priscian, <i>Institutiones grammaticae</i> XVI, in paraphrase.` },
 
 { id: 'power',

@@ -12,8 +12,8 @@ ARS.decks['iii.adverb'] = {
 
 { id: 'adverb',
   title: 'The adverb and its accidents',
-  body: `<p>We have completed the declinable parts of speech and turn now to the four indeclinable parts, which keep one form. The first is the adverb. We have seen Donatus’s definition: a part of speech that, added to a verb, makes its meaning clear, or changes it, or lessens it. Its name, <i>adverbium</i>, means “what is added to the verb,” and the modists explain it as signifying by the mode of determining a word that signifies as becoming.</p>
-<p>Donatus gives the adverb three accidents: signification, comparison, and figure (<i>significātiō, comparātiō, figūra</i>; <i>Ars minor</i>). The adverb has no case, number, gender, tense, or person, because it does not signify a thing as stable or as becoming but determines another word. Its accidents concern what kind of determination it gives (signification), how much (comparison), and how it is made (figure).</p>`,
+  body: `<p>We have completed the declinable parts of speech and turn now to the four indeclinable parts, which keep one form. The first is the adverb. We have seen Donatus’s definition: a part of speech that, added to a verb, makes its meaning clear and completes it. Its name, <i>adverbium</i>, means “what is added to the verb,” and the modists explain it as signifying by the mode of determining a word that signifies as becoming.</p>
+<p>Donatus gives the adverb three accidents: signification, comparison, and figure (<i>significatio, comparatio, figura</i>; <i>Ars minor</i>). The adverb has no case, number, gender, tense, or person, because it does not signify a thing as stable or as becoming but determines another word. Its accidents concern what kind of determination it gives (signification), how much (comparison), and how it is made (figure).</p>`,
   src: `Donatus, <i>Ars minor</i>, on the adverb (the Latin).` },
 
 { id: 'signification',

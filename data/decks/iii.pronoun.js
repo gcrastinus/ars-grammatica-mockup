@@ -12,13 +12,13 @@ ARS.decks['iii.pronoun'] = {
 
 { id: 'accidents',
   title: 'The accidents of the pronoun',
-  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents: quality, gender, number, figure, person, and case (<i>quālitās, genus, numerus, figūra, persōna, cāsus</i>; <i>Ars minor</i>).</p>
+  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents: quality, gender, number, figure, person, and case (<i>qualitas, genus, numerus, figura, persona, casus</i>; <i>Ars minor</i>).</p>
 <p>Four of these are accidents of the noun as well, and they have the same meaning here: gender, number, figure, and case. So Latin <i>ille</i>, <i>illa</i>, <i>illud</i> (“that”) has three genders, singular and plural numbers, and six cases, as an adjective does, and <i>quisquis</i> (“whoever”) is compound in figure. The two accidents that are new are quality, which for the pronoun means something different from the quality of the noun, and person.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the pronoun.` },
 
 { id: 'quality',
   title: 'Definite and indefinite pronouns',
-  body: `<p>For the pronoun, <strong>quality</strong> is the distinction between definite and indefinite pronouns. Donatus says: <i>aut enim fīnīta sunt prōnōmina aut īnfīnīta</i>, “pronouns are either definite or indefinite” (<i>Ars minor</i>). <strong>Definite</strong> pronouns are those that refer to a definite person: <i>ego</i> (“I”), <i>tū</i> (“you”), <i>ille</i> (“he,” “that one”). <strong>Indefinite</strong> pronouns do not refer to a definite person: <i>quis</i> (“who?” “anyone”), <i>quae</i>, <i>quod</i>.</p>
+  body: `<p>For the pronoun, <strong>quality</strong> is the distinction between definite and indefinite pronouns. Donatus says: <i>aut enim finita sunt pronomina aut infinita</i>, “pronouns are either definite or indefinite” (<i>Ars minor</i>). <strong>Definite</strong> pronouns are those that refer to a definite person: <i>ego</i> (“I”), <i>tū</i> (“you”), <i>ille</i> (“he,” “that one”). <strong>Indefinite</strong> pronouns do not refer to a definite person: <i>quis</i> (“who?” “anyone”), <i>quae</i>, <i>quod</i>.</p>
 <p>English shows the same distinction. “I,” “you,” and “she” refer to definite persons in the situation of speaking. “Who,” “someone,” “anyone,” and “whatever” do not; they leave the person to be found or leave it unknown. So the quality of the pronoun concerns how definitely it refers, while the quality of the noun concerns whether it names one thing or a kind.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the quality of the pronoun (the Latin).`,
   qpTodo: `Definite or indefinite: is a given pronoun (<i>ego</i>, <i>quis</i>, “she,” “someone”) definite or indefinite, and why.` },

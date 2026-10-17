@@ -13,7 +13,7 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'accidents',
   title: 'The accidents of the noun',
-  body: `<p>We have seen that the noun signifies a body or a thing, with case, and that it signifies by the mode of a stable thing. Donatus asks how many accidents the noun has and answers six: quality, comparison, gender, number, figure, and case (<i>quālitās, comparātiō, genus, numerus, figūra, cāsus</i>; <i>Ars minor</i>).</p>
+  body: `<p>We have seen that the noun signifies a body or a thing, with case, and that it signifies by the mode of a stable thing. Donatus asks how many accidents the noun has and answers six: quality, comparison, gender, number, figure, and case (<i>qualitas, comparatio, genus, numerus, figura, casus</i>; <i>Ars minor</i>).</p>
 <p>We have already studied figure, the distinction between simple and compound nouns. Here we study quality, which divides nouns into proper and common, and comparison, which belongs to adjectives of quality and quantity. Gender, number, and case are the accidents by which a Latin noun is declined, and they are studied together in the second part of the study of the noun.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the noun.` },
 
@@ -26,14 +26,14 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'roman-names',
   title: 'The kinds of proper name',
-  body: `<p>Donatus divides the proper names of Romans into four kinds, with the example <i>Pūblius Cornēlius Scīpiō Āfricānus</i> (<i>Ars minor</i>, in paraphrase). The <strong>praenomen</strong> (“forename”), <i>Pūblius</i>, was the personal name, used in the family. The <strong>nomen</strong> (“name”), <i>Cornēlius</i>, was the name of the clan (<i>gēns</i>). The <strong>cognomen</strong> (“added name”), <i>Scīpiō</i>, distinguished a branch of the clan. The <strong>agnomen</strong> (“further name”), <i>Āfricānus</i>, was given for some deed or quality, here for Scipio’s victory in Africa.</p>
+  body: `<p>Donatus divides the proper names of Romans into four kinds, with the example <i>Publius Cornelius Scipio Africanus</i> (<i>Ars maior</i> II, in paraphrase). The <strong>praenomen</strong> (“forename”), <i>Pūblius</i>, was the personal name, used in the family. The <strong>nomen</strong> (“name”), <i>Cornēlius</i>, was the name of the clan (<i>gēns</i>). The <strong>cognomen</strong> (“added name”), <i>Scīpiō</i>, distinguished a branch of the clan. The <strong>agnomen</strong> (“further name”), <i>Āfricānus</i>, was given for some deed or quality, here for Scipio’s victory in Africa.</p>
 <p>English names follow a simpler pattern. A person usually has a given name, such as “John,” and a family name or surname, such as “Smith,” and sometimes a middle name. Titles such as “the Great” in “Alfred the Great” resemble the Roman agnomen. All these are proper nouns, because each names one person.</p>`,
-  src: `Donatus, <i>Ars minor</i>, on the quality of the noun, in paraphrase.` },
+  src: `Donatus, <i>Ars maior</i> II, on the quality of the noun, in paraphrase.` },
 
 { id: 'common-kinds',
   title: 'The kinds of common noun',
-  body: `<p>We saw that Donatus defines the noun as signifying a body or a thing. So common nouns can be divided into those that name bodies, which can be seen and touched, and those that name things that cannot. Modern grammars call the first <strong>concrete nouns</strong>, such as “horse,” “stone,” and Latin <i>equus</i> and <i>saxum</i>, and the second <strong>abstract nouns</strong>, such as “courage,” “justice,” and Latin <i>virtūs</i> and <i>iūstitia</i>.</p>
-<p>A <strong>collective noun</strong> is a noun that is singular in form but names a group of many: “crowd,” “army,” “family,” Latin <i>populus</i> (“people”) and <i>exercitus</i> (“army”). Because a collective noun refers to many while being singular in form, it raises questions of agreement that we will consider in Section V, as in the English choice between “The family is” and “The family are.”</p>`,
+  body: `<p>We saw that Donatus defines the noun as signifying a body or a thing. So common nouns can be divided into those that name bodies, which can be seen and touched, and those that name things that cannot. Donatus makes this division himself, into nouns that are <i>corporalia</i> (“bodily”), as <i>homo, terra, mare</i> (“man, earth, sea”), and <i>incorporalia</i> (“bodiless”), as <i>pietas, iustitia, dignitas</i> (“dutifulness, justice, dignity”) (<i>Ars maior</i> II). Modern grammars call the first <strong>concrete nouns</strong>, such as “horse” and “stone,” and the second <strong>abstract nouns</strong>, such as “courage” and “justice.”</p>
+<p>A <strong>collective noun</strong> is a noun that is singular in form but names a group of many: “crowd,” “army,” “family,” Latin <i>populus</i> (“people”) and <i>exercitus</i> (“army”). Donatus describes such nouns as singular in form but plural in meaning (<i>positione singularia, intellectu pluralia</i>), with the examples <i>populus</i>, <i>contio</i> (“assembly”), and <i>plebs</i> (“the common people”) (<i>Ars maior</i> II). Because a collective noun refers to many while being singular in form, it raises questions of agreement that we will consider in Section V, as in the English choice between “The family is” and “The family are.”</p>`,
   src: `Donatus, <i>Ars minor</i> and <i>Ars maior</i> II; Allen and Greenough, <i>New Latin Grammar</i>, on nouns, in paraphrase.` },
 
 { id: 'adjective',
@@ -50,7 +50,7 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'comparison',
   title: 'The degrees of comparison',
-  body: `<p>The second accident studied here is <strong>comparison</strong> (<i>comparātiō</i>). Donatus gives three degrees: <i>positīvus, ut doctus; comparātīvus, ut doctior; superlātīvus, ut doctissimus</i>, that is, the positive, as “learned”; the comparative, as “more learned”; and the superlative, as “most learned” (<i>Ars minor</i>).</p>
+  body: `<p>The second accident studied here is <strong>comparison</strong> (<i>comparātiō</i>). Donatus gives three degrees: <i>positivus, ut doctus; comparativus, ut doctior; superlativus, ut doctissimus</i>, that is, the positive, as “learned”; the comparative, as “more learned”; and the superlative, as “most learned” (<i>Ars minor</i>).</p>
 <p>The <strong>positive</strong> degree signifies the quality simply: “tall,” <i>altus</i>. The <strong>comparative</strong> signifies more of the quality in one thing than in another: “taller,” <i>altior</i>, as in “Peter is taller than Paul.” The <strong>superlative</strong> signifies the most of the quality among several things, or a very high degree of it: “tallest,” <i>altissimus</i>, as in “Peter is the tallest of the brothers.” Latin <i>altissimus</i> can also mean simply “very tall,” without comparison to others.</p>`,
   src: `Donatus, <i>Ars minor</i>, on comparison (the Latin).`,
   qpTodo: `The degrees of comparison: which degree is a given form (<i>doctior</i>, “tallest,” <i>altus</i>), and what it signifies.` },

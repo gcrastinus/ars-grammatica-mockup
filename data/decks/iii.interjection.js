@@ -13,8 +13,8 @@ ARS.decks['iii.interjection'] = {
 { id: 'interjection',
   title: 'What is an interjection?',
   body: `<p>The last of the eight parts of speech is the <strong>interjection</strong> (<i>interiectiō</i>, “what is thrown in”). We have seen Donatus’s definition: a part of speech that signifies a feeling of the mind by an unformed utterance (<i>Ars minor</i>). It is called an interjection because it is thrown into the sentence without being constructed with the other words, as in “Alas, the door is locked” or Latin <i>Heu, quid agam?</i> (“Alas, what shall I do?”).</p>
-<p>Priscian explains why the Latin grammarians counted it as a part of its own, while the Greeks placed it under the adverb. The Greeks reasoned that an interjection is usually joined to a verb, as an adverb is; but the Latins observed that it shows a feeling of the mind even without a verb, so that “alas!” alone is a complete expression of grief (<i>Institutiones grammaticae</i> XV, in paraphrase).</p>`,
-  src: `Donatus, <i>Ars minor</i>; Priscian, <i>Institutiones grammaticae</i> XV, in paraphrase.` },
+<p>The Greek grammarians placed the interjection under the adverb, but the Latin grammarians counted it as a part of its own. Donatus gives the reason: the Greeks join these words to the adverbs, “which the Latins do not do, because a verb does not immediately follow words of this kind” (<i>quia huiusce modi voces non statim subsequitur verbum</i>; <i>Ars maior</i> II). Priscian adds that the interjection shows a complete feeling of the mind even without a verb, so that “alas!” alone is a complete expression of grief (<i>Institutiones grammaticae</i> XV, in paraphrase).</p>`,
+  src: `Donatus, <i>Ars minor</i> and <i>Ars maior</i> II; Priscian, <i>Institutiones grammaticae</i> XV, in paraphrase.` },
 
 { id: 'signification',
   title: 'The signification of the interjection',
@@ -31,9 +31,9 @@ ARS.decks['iii.interjection'] = {
 
 { id: 'vocative',
   title: 'The interjection and the vocative',
-  body: `<p>The interjection <i>ō</i> (“O”) is often used with the vocative case to address someone with feeling: <i>O fortunate, inquit, adulescens</i> (“‘O fortunate young man,’ he said”), as Cicero reports Alexander’s words at the tomb of Achilles (<i>Pro Archia</i> 24). English uses “O” in the same way, in poetry and prayer: “O Lord, open thou our lips.”</p>
+  body: `<p>The interjection <i>ō</i> (“O”) is often used with the vocative case to address someone with feeling: <i>o fortunate, inquit, adulescens, qui tuae virtutis Homerum praeconem inveneris!</i> (“O happy youth, to find Homer as the panegyrist of your glory!”), as Cicero reports Alexander’s words at the tomb of Achilles (<i>Pro Archia</i> 24). English uses “O” in the same way, in poetry and prayer: “O Lord, open thou our lips.”</p>
 <p>Some interjections are followed by other cases as well. <i>Heu</i> may take the accusative, as in <i>heu mē miserum!</i> (“alas, wretched me!”), and <i>vae</i> (“woe”) takes the dative, as in <i>vae victīs!</i> (“woe to the conquered!”). In these uses the interjection comes closer to being constructed with the other words, but it is still not a member of the sentence in the way the noun and the verb are.</p>`,
-  src: `Cicero, <i>Pro Archia</i> 24; Allen and Greenough, <i>New Latin Grammar</i> §§ 340, 397.` },
+  src: `Cicero, <i>Pro Archia</i> 24 (Latin ed. A. C. Clark; trans. C. D. Yonge; both checked against the Perseus text); Allen and Greenough, <i>New Latin Grammar</i> §§ 340, 397.` },
 
 { id: 'eight-complete',
   title: 'The eight parts complete',

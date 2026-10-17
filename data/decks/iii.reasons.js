@@ -43,13 +43,13 @@ ARS.decks['iii.reasons'] = {
 
 { id: 'noun',
   title: 'The noun: the mode of a stable thing',
-  body: `<p>Priscian says that it is proper to the noun to signify substance with quality (<i>Institutiones grammaticae</i> II.18, in paraphrase), that is, to signify a thing as a definite kind of thing. Thomas of Erfurt says that the noun signifies by the mode of a being, that is, by the mode of something stable and lasting (<i>per modum habitus et permanentis</i>). So “horse,” “city,” “courage,” and even “running” in “Running is good exercise” are nouns, because each signifies its thing as something stable that can be talked about.</p>
+  body: `<p>A noun such as “horse” names a thing and at the same time says what kind of thing it is. So a noun signifies a thing (in the grammarians’ term, a substance) together with its kind (a quality). Priscian says that this is what is proper to the noun: <i>proprium est nominis substantiam et qualitatem significare</i>, “it is proper to the noun to signify substance and quality” (<i>Institutiones grammaticae</i> II.18). Thomas of Erfurt says that the noun signifies by the mode of a being, that is, by the mode of something stable and lasting (<i>per modum habitus et permanentis</i>). So “horse,” “city,” “courage,” and even “running” in “Running is good exercise” are nouns, because each signifies its thing as something stable that can be talked about.</p>
 <p>The modists divide the noun further. A <strong>noun substantive</strong> signifies its thing as standing by itself, as “horse” does; a <strong>noun adjective</strong> signifies its thing as belonging to another, as “white” does in “white horse.” This is the reason that the tradition counts the adjective under the noun: it signifies in the mode of a stable thing, a quality, but as adhering to something else.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II.18; Thomas of Erfurt, <i>Grammatica speculativa</i>, on the noun (Bursill-Hall), in paraphrase.` },
 
 { id: 'pronoun',
   title: 'The pronoun: a thing without a description',
-  body: `<p>Priscian says that the pronoun is put in place of a proper noun and signifies substance without quality (<i>Institutiones grammaticae</i> II.18, in paraphrase). The modists explain this: the pronoun signifies its thing as a being, as the noun does, but without determining what kind of thing it is. “He” refers to a man without saying which man or what he is like; “this” can refer to a book, a house, or an idea.</p>
+  body: `<p>A pronoun such as “he” refers to a thing without saying what kind of thing it is. Priscian says that it is proper to the pronoun to be put in place of a proper noun and to signify definite persons (<i>proprium est pronominis pro aliquo nomine proprio poni et certas significare personas</i>; <i>Institutiones grammaticae</i> II.18), and the medieval grammarians, following him, say that the pronoun signifies substance without quality. The modists explain this: the pronoun signifies its thing as a being, as the noun does, but without determining what kind of thing it is. “He” refers to a man without saying which man or what he is like; “this” can refer to a book, a house, or an idea.</p>
 <p>So the noun and the pronoun share the mode of a stable thing, but they differ as a description differs from a pointing. “Sailor” says what the thing is; “he” only points to it, and the hearer must learn from the context what is meant. That is why a pronoun can stand for any noun, and why it usually needs a noun earlier in the sentence or in the conversation to make its reference clear.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II.18; Thomas of Erfurt, <i>Grammatica speculativa</i>, on the pronoun (Bursill-Hall), in paraphrase.` },
 
@@ -70,7 +70,7 @@ ARS.decks['iii.reasons'] = {
   title: 'Why are there eight parts?',
   body: `<p>The modists’ account answers the question why there are eight parts. Every word either signifies a thing or relates other words to one another. A word that signifies a thing signifies it either as stable or as becoming. As stable, it either says what the thing is (the noun) or only points to it (the pronoun); as becoming, it either stands apart to be said of a thing (the verb) or adheres to it (the participle). A word that relates other words either determines a word of becoming (the adverb), relates a word with case to an action (the preposition), joins two terms (the conjunction), or expresses a feeling of the mind (the interjection).</p>
 <p>This gives four declinable and four indeclinable parts. The division does not depend on Latin alone. Roger Bacon, a contemporary of the modists, writes that <i>grammatica una et eadem est secundum substantiam in omnibus linguis, licet accidentaliter varietur</i>, that is, grammar is one and the same in substance in all languages, although it varies in its accidents. We will consider in Section XI whether the variety of languages bears this claim out.</p>`,
-  src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase; Roger Bacon, <i>Greek Grammar</i> (ed. Nolan and Hirsch, 1902), the Latin; the English in substance.` },
+  src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase; Roger Bacon, <i>Greek Grammar</i> (ed. Nolan and Hirsch, 1902), p. 27, the Latin; the English in substance.` },
 
 { id: 'chimaera',
   title: 'The objection from the chimaera',
@@ -81,9 +81,9 @@ ARS.decks['iii.reasons'] = {
 
 { id: 'logic-grammar',
   title: 'The grammarian’s eight and the logician’s two',
-  body: `<p>We saw in Section I that the dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement. St. Thomas explains the logician’s reason: logic considers speech insofar as it is true or false, and a statement can be made from a noun and a verb alone; the pronoun is included under the noun, the participle under the verb, and the other parts are like the nails and other fastenings that join the parts of a ship (<i>In Peri hermeneias</i> I, lect. 4, in paraphrase).</p>
+  body: `<p>We saw in Section I that the dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement. St. Thomas explains the logician’s reason: logic considers speech insofar as it is true or false, and a statement can be made from a noun and a verb alone; the pronoun is included under the noun, the participle under the verb, and the other parts are not parts of the statement but what joins its parts, as the nails of a ship are not parts of the ship but what joins its parts (<i>In Peri hermeneias</i> I, lect. 1, n. 3, in paraphrase).</p>
 <p>The grammarian counts all eight, because grammar considers speech insofar as it is correct and complete, and all eight are needed to speak correctly. So the two counts do not contradict each other. They answer different questions, as we saw with the logician’s and the grammarian’s judgments of a sentence in the Preliminary section, and the modists’ eight include the logician’s two as the principal parts.</p>`,
-  src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 4 (Oesterle), in paraphrase.` }
+  src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 1, n. 3 (Oesterle), in paraphrase.` }
 
   ]
 };

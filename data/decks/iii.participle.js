@@ -14,7 +14,7 @@ ARS.decks['iii.participle'] = {
 
 { id: 'accidents',
   title: 'The participle and its accidents',
-  body: `<p>We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, cāsūs, tempora, significātiōnēs, numerus, figūra</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
+  body: `<p>We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, casus, tempora, significationes, numerus, figura</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
 <p>By <strong>signification</strong> Donatus here means what the verb calls voice: whether the participle signifies doing or undergoing. So <i>laudāns</i> (“praising”) is active in signification and present in tense, and it is declined for gender, number, and case; <i>laudātus</i> (“praised”) is passive in signification and perfect in tense. In every case the participle agrees with a noun, as an adjective does, but it signifies an action, as a verb does.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the participle (the Latin).` },
 
@@ -50,9 +50,9 @@ ARS.decks['iii.participle'] = {
 
 { id: 'gerundive',
   title: 'The future participles',
-  body: `<p>The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Havē, imperātor, moritūrī tē salūtant</i>, “Hail, Emperor, those who are about to die salute you” (<i>Claudius</i> 21).</p>
+  body: `<p>The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Have imperator, morituri te salutant</i>, “Health attend you, noble emperor! We, who are about to peril our lives, salute you” (<i>Claudius</i> 21). The word <i>morituri</i> is the future active participle of <i>morior</i> (“die”), used as a noun: “those who are about to die.”</p>
 <p>The future passive participle, called the <strong>gerundive</strong>, signifies something that is to be done or ought to be done: <i>liber legendus</i>, “a book to be read.” With a form of <i>sum</i> it expresses necessity or obligation, as in Cato’s saying <i>Carthāgō dēlenda est</i>, “Carthage must be destroyed.” Many English words come from gerundives: “agenda” (“things to be done”), “memorandum” (“a thing to be remembered”), and the name “Amanda” (“worthy to be loved”).</p>`,
-  src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 499–500; Suetonius, <i>Claudius</i> 21 (the Latin greeting; verify the wording); the saying of Cato as traditionally quoted.` },
+  src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 499–500; Suetonius, <i>Claudius</i> 21 (the Latin as in the Latin Library text; trans. Alexander Thomson, checked against the Perseus text); the saying of Cato as traditionally quoted.` },
 
 { id: 'english',
   title: 'The English participles',
