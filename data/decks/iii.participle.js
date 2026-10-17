@@ -50,9 +50,9 @@ ARS.decks['iii.participle'] = {
 
 { id: 'gerundive',
   title: 'The future participles',
-  body: `<p>The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Have imperator, morituri te salutant</i>, “Health attend you, noble emperor! We, who are about to peril our lives, salute you” (<i>Claudius</i> 21). The word <i>morituri</i> is the future active participle of <i>morior</i> (“die”), used as a noun: “those who are about to die.”</p>
+  body: `<p>The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Have imperator, morituri te salutant</i>, “Hail, emperor, they who are about to die salute thee” (<i>Claudius</i> 21). The word <i>morituri</i> is the future active participle of <i>morior</i> (“die”), used as a noun: “those who are about to die.”</p>
 <p>The future passive participle, called the <strong>gerundive</strong>, signifies something that is to be done or ought to be done: <i>liber legendus</i>, “a book to be read.” With a form of <i>sum</i> it expresses necessity or obligation, as in Cato’s saying <i>Carthāgō dēlenda est</i>, “Carthage must be destroyed.” Many English words come from gerundives: “agenda” (“things to be done”), “memorandum” (“a thing to be remembered”), and the name “Amanda” (“worthy to be loved”).</p>`,
-  src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 499–500; Suetonius, <i>Claudius</i> 21 (the Latin as in the Latin Library text; trans. Alexander Thomson, checked against the Perseus text); the saying of Cato as traditionally quoted.` },
+  src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 499–500; Suetonius, <i>Claudius</i> 21 (the Latin as in the Latin Library text; trans. J. C. Rolfe (Loeb), checked against the LacusCurtius text); the saying of Cato as traditionally quoted.` },
 
 { id: 'english',
   title: 'The English participles',

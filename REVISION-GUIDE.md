@@ -193,6 +193,16 @@ Apply these in the revision pass over Sections II–XI.
 6. Every quotation or locus marked "must be checked" in sources/TRANSLATIONS-USED.md must be verified against the source, or flagged again, before anything goes to the live app. This covers the Donatus and Priscian loci, the Latin and English quoted from memory, and Claude's own renderings, which need a published translation or Timothy's.
 7. Still for Timothy to judge as he reads: the coined terms (posituræ names, "literate voice," "figures of order," the names of the six writings, the grouping of the tropes), the usage verdicts ("If I were king…," "literally"), "rewritable" and "unfriend," the tone of the closing card (XI.2), and whether the Pro Archia card (X.2) and IX.3 say too much about the course itself. Leave these as drafted until he decides.
 
+L addendum (Oct 17, after Claude's revision pass):
+
+- Teaching examples may keep macrons: *Ītaliam* restored in the vi.metaplasm question-point placeholder (changing), where the long initial *I* is what is tested. Macrons in quoted proverbs such as *Carthāgō dēlenda est*, *vae victīs*, and *lūcus ā nōn lūcendō* stay, as examples.
+- iii.figure / simple-compound: a prefix is not a word, so the card now says that some words are made "of other words, or of a word and a prefix," and that *impotēns* is made of "the prefix *in-*" and "the word *potēns*."
+- iii.participle / gerundive: *morituri te salutant* now in Rolfe's translation (Loeb), "Hail, emperor, they who are about to die salute thee," replacing Thomson's.
+- xi.traditions / hebraists: Daiches "argued," not "showed," that the King James translators often followed Kimḥi (verified only at second hand).
+- xi.traditions / kimhi: the William Chomsky–Noam Chomsky family link kept (Timothy: keep it), stated briefly, with Noam Chomsky's early work on the morphophonemics of Modern Hebrew.
+- Donatus: consonantal *v* printed as *v* (Timothy: print v); the quotations were checked and already did so.
+- Claude's glosses checked against the Latin (*ibis redibis*; *Aeneid* I.4 word for word; *sic ore locuta est*; Erasmus's *Tuae litterae me magnopere delectarunt*): all accurate, none changed.
+
 ## M. Log: Section I, Timothy's edits (17 Oct 2026)
 
 - I.1 card 1, "What is a sign?": replaced with Timothy's text. He glosses "signifies" as "has meaning" on first use, states that what signifies is a sign, adds John of St. Thomas's definition after Augustine's, splits off a third paragraph, adds the kinds of perceptible sign (sound, gesture, writing), and closes with "This is a general account of what a sign is. But we need to say more." Pattern: gloss a technical term in plain words the first time, and close a card by pointing to what remains to be said without naming another deck.
