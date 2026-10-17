@@ -1,0 +1,60 @@
+/* VI.1 Usage and Authority [vi.usage]
+   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written). Applies the four criteria of P.4;
+   the first panel refers back to P.4 and does not teach the criteria again.
+   Live material drawn on: none. Horace, Ars poetica 70–72, quoted in Smart's prose translation (Perseus); ITEM-LIST names
+   Fairclough's Loeb, which could not be checked here. */
+window.ARS = window.ARS || {};
+ARS.decks = ARS.decks || {};
+ARS.decks['vi.usage'] = {
+  id: 'vi.usage',
+  title: 'Usage and Authority',
+  sub: 'Custom, the authors, and reason as judges of what is correct',
+  sources: `Quintilian, <i>Institutio oratoria</i> I.5–6; Horace, <i>Ars poetica</i> 70–72.`,
+  panels: [
+
+{ id: 'criteria-again',
+  title: 'The criteria applied',
+  body: `<p>We saw in the Preliminary section that the grammarians judge what is correct by four criteria: reason (with its supports, analogy and etymology), antiquity, authority, and usage, and that when they disagree, usage generally prevails. We have since studied the forms of words and the rules of construction. In this section we apply the criteria to particular questions: what makes a word or a construction correct, and what kinds of error the grammarians distinguished.</p>
+<p>The Latin name for correct speech was <i>Latīnitās</i> (“Latinity”), as the Greek was <i>Hellēnismos</i> (“Greekness”): to speak correctly was to speak the language as it should be spoken. English has no single word for this, and we use the plain term <strong>correctness</strong>. Its opposite is error, and the grammarians named its chief kinds the barbarism and the solecism, which we will study after this.</p>`,
+  src: `Quintilian, <i>Institutio oratoria</i> I.6.1–3, in paraphrase.` },
+
+{ id: 'horace',
+  title: 'Horace on usage',
+  body: `<p>Horace, in his poem on the art of poetry, states the power of usage over words: “Many words shall revive, which now have fallen off; and many which are now in esteem shall fall off, if it be the will of custom, in whose power is the decision and right and standard of language” (<i>Ars poetica</i> 70–72). The Latin of the last line, <i>quem penes arbitrium est et iūs et nōrma loquendī</i>, was quoted for centuries as the classic statement that usage (<i>ūsus</i>) is the judge of speech.</p>
+<p>Horace’s point is that words, like all human works, change: some die out and some return. A word that was correct in one age may be obsolete in the next, and an old word may be revived. So the grammarian cannot judge correctness by the rules alone, or by the oldest form alone; he must know the usage of his own time and of the authors he reads.</p>`,
+  src: `Horace, <i>Ars poetica</i> 70–72 (Latin checked against the Perseus text; trans. Christopher Smart, checked against the Perseus text).`,
+  qpTodo: `Horace on usage: according to Horace, what decides whether a word is in use, and what happens to words over time; apply this to a given English word that has fallen out of use or returned.` },
+
+{ id: 'educated-usage',
+  title: 'Whose usage?',
+  body: `<p>We saw that Quintilian defines usage as the agreed practice of educated speakers, not as whatever most people say. This definition raises a question for every language: how do we know what educated speakers agree on? The grammarians answer from the authors, from the speech of those who are trained in the language, and from the agreement of good dictionaries and grammars, which record that usage.</p>
+<p>Usage also differs according to the kind of speech. In formal writing, “It is I” is the form that agrees with the rule of the predicate nominative; in conversation, “It’s me” is the established usage of educated speakers. Neither is simply wrong; each is correct in its place. So a question of usage is often a question of fitness to the occasion, and the grammarian must judge not only whether a form is used but where and by whom.</p>`,
+  src: `Quintilian, <i>Institutio oratoria</i> I.6.45, in paraphrase.` },
+
+{ id: 'authors',
+  title: 'The authority of the authors',
+  body: `<p>The authors are the second witness of correct usage, and Quintilian warns the teacher not to treat their departures from the rule as errors. Some teachers, he says, “are in the habit of picking out examples of barbarism from the poets and attacking the authors whom they are expounding for using such words. A boy should however realize that in poets such peculiarities are pardonable or even praiseworthy” (<i>Institutio oratoria</i> I.5.11).</p>
+<p>So when a good author departs from the rule, the grammarian first asks whether the departure is a figure or a license, made for a reason, or a form that was correct in the author’s time. We saw this with “the wages of sin is death” in Section V. Only when no such reason can be found does the grammarian call the form an error, and even then he explains the author rather than rewriting him.</p>`,
+  src: `Quintilian, <i>Institutio oratoria</i> I.5.11 (trans. Butler; checked against the Perseus text).` },
+
+{ id: 'prescribe-describe',
+  title: 'Prescribing and describing',
+  body: `<p>Modern discussions of usage often distinguish two attitudes. A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used. The English grammarians of the eighteenth century, such as Robert Lowth (1762), were largely prescriptive, and some of their rules, such as the rule against ending a sentence with a preposition, were taken from Latin rather than from English usage. Many modern linguists are strictly descriptive and decline to call any established usage incorrect.</p>
+<p>The classical grammarian stands between these attitudes. He describes, because the criteria of usage and authority are facts about how the language is used by its best speakers and writers. He also prescribes, because those facts give a standard by which a particular form can be judged. Samuel Johnson, in the preface to his <i>Dictionary</i> (1755), held that the lexicographer must record the language as it is used by good writers, while recognizing that he cannot stop it from changing.</p>`,
+  src: `Lowth, <i>A Short Introduction to English Grammar</i> (1762); Johnson, Preface to the <i>Dictionary</i> (1755); both in paraphrase.` },
+
+{ id: 'change',
+  title: 'When does a new usage become correct?',
+  body: `<p>Usage changes, as Horace says, and a form that begins as an error may become correct when educated speakers and writers adopt it. The word “nice,” which we saw in Section IV, once meant “foolish” and now means “pleasant”; no one would call the modern sense an error. The word “decimate” originally meant to kill one in every ten, as a Roman punishment of mutinous soldiers; it is now used of any great destruction, and that use is established in good writers, though some still object to it.</p>
+<p>So the grammarian judges a new usage by asking whether it has been accepted by the speakers and authors whose usage sets the standard, not by whether it agrees with the origin of the word. We saw in Section IV that the original meaning of a word does not decide its present meaning. A disputed usage remains disputed while good authors disagree, and then the grammarian must say that it is disputed, and in which kinds of writing each form is accepted.</p>`,
+  src: `The <i>Oxford English Dictionary</i>, s.vv. “nice,” “decimate,” in paraphrase.`,
+  qpTodo: `Changes of usage: is a given usage now correct (“nice” meaning pleasant; “decimate” of great destruction), and by which criterion is it judged.` },
+
+{ id: 'kinds-of-error',
+  title: 'The kinds of error',
+  body: `<p>The grammarians named the principal kinds of error by where the error lies. An error in a single word, in its letters, syllables, accent, or form, is a <strong>barbarism</strong>: “brung” for “brought,” “irregardless” for “regardless.” An error in the arrangement of words is a <strong>solecism</strong>: “The list of books are on the table.” The use of a word in a sense it does not have, as “infer” for “imply,” is called an <strong>impropriety</strong>; Donatus calls it <i>acyrologia</i> (Greek, “improper speech”) and counts it among the other faults of speech.</p>
+<p>Each kind of error has a corresponding license. A change in a single word, allowed in verse, is a metaplasm; a departure from the rules of construction, made for a reason, is a figure; and a word used in a sense not its own, for a reason, is a trope. We will study the barbarism, the solecism, and the metaplasm in this section, and the figures and tropes in Section VII.</p>`,
+  src: `Donatus, <i>Ars maior</i> III.1–4, in paraphrase.` }
+
+  ]
+};

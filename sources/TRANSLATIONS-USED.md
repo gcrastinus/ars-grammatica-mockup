@@ -124,3 +124,12 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Virgil, *Aeneid* | I.16–17, I.573, II.353; *Georgics* II.192 | our renderings | v.figures | Latin from memory; **verify** |
 | Cicero, *Laelius* | 79 (*omnia praeclara rara*) | our rendering | v.figures / ellipsis | **verify** locus |
 | Shakespeare, Bacon, Milton, Macaulay, Johnson, Pope, KJV | as cited | — | v.phrase, v.clause, v.figures, v.agreement, v.order | English texts; spelling as in the editions quoted (Milton "waite," Shakespeare "strain'd") — verify against chosen editions |
+
+### Section VI
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Horace, *Ars poetica* | 70–72 | Christopher Smart (prose) — used instead of Fairclough (ITEM-LIST), because Smart is on Perseus and could be checked | vi.usage / horace | checked (Perseus), Latin and English |
+| Quintilian, *Institutio oratoria* | I.5.6, 8, 10–12, 35–38, 41, 52–53 | H. E. Butler (Loeb) | vi.usage, vi.barbarism, vi.solecism, vi.metaplasm | checked (Perseus); Butler's "connexion," "offence," "licence" kept as printed |
+| Donatus, *Ars maior* | III.1–4 | no published English translation | vi.* | Latin definitions of barbarism and solecism quoted from memory (**verify**); otherwise paraphrase |
+| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase |
