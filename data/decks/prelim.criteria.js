@@ -50,9 +50,9 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.2, I.6.42.` },
 
 { id: 'usage',
-  title: 'What is usage?',
+  title: 'What is the criterion of usage?',
   body: `<p>The fourth criterion, usage (<i>consuetudo</i>), is the standard of present speech. Quintilian calls it the most reliable of the four: “Usage however is the surest pilot in speaking” (I.6.3). But usage does not mean whatever most people say. Quintilian defines it carefully: “I will therefore define usage in speech as the agreed practice of educated men, just as where our way of life is concerned I should define it as the agreed practice of all good men” (I.6.45).</p>
-<p>So a form is not correct merely because it is common. It is correct when it is the agreed practice of educated speakers and writers.</p>`,
+<p>So a form or word or phrase is not correct merely because it is commonly used. It is correct when it is the agreed practice of educated speakers and writers. The twenty-first century faces a special difficulty here because most writers and poets and historians and philosophers use either technical writing styles or common speech; the pursuit of a higher and nobler style that is not pretentious but succeeds in clarity, precision, and power is not common among the educated. But there is no reason that it cannot be. An example of a modern grammarian and teacher of oratory who seeks to do this is Ward Farnsworth, in his book series <i>Classical English</i>. That is also part of the purpose of this course.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.3, I.6.43–45.` },
 
 { id: 'weighing',
