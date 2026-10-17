@@ -158,3 +158,19 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Aristotle, *De interpretatione*; *Sophistical Refutations* | 4–7, 10 (19b19–22); SE 4 | Edghill; Pickard-Cambridge for reference | viii.equivalents | paraphrase |
 | Arnauld and Lancelot, *Grammaire générale et raisonnée* (1660); Arnauld and Nicole, *Logique* (1662) | Grammar II, II.9; Logic I.8 | Rieux and Rollin (1975) for reference | viii.equivalents / port-royal, relative | paraphrase; loci to verify |
 | Chomsky, *Cartesian Linguistics* (1966) | — | — | viii.equivalents / ug-1 to ug-4 | paraphrase |
+
+### Section X
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Quintilian, *Institutio oratoria* | I.9.2–3; X.2.1–2, 4; X.3.1, 5, 9–10 | H. E. Butler (Loeb) | x.composition, x.imitation, x.progymnasmata | checked (Perseus) |
+| Erasmus, *De copia* | I.33 (*Tuae litterae me magnopere delectarunt*) | Betty I. Knott (CWE 24) for reference | x.composition / copia | Latin sentence from memory; **verify**; English ours |
+| Ascham, *The Scholemaster* (1570) | Books I–II | written in English | x.imitation, x.translation | paraphrase; Ascham's own wording not quoted |
+| Petrarch, *Seniles* | XVI.1 (the ink at Liège) | — | x.imitation / petrarch | paraphrase; locus to verify |
+| De Keyser, "The Descendants of Petrarch's *Pro Archia*" (2013) | — | — | x.imitation | cited |
+| Aristotle, *De interpretatione* | 1, 16a5–8 | E. M. Edghill | x.translation / aristotle | as in i.sign (**verify**) |
+| Cicero, *De optimo genere oratorum* | 14 | H. M. Hubbell (Loeb), named in the text | x.translation / cicero | quoted from memory; **verify** |
+| Jerome, *Epistula* 57 | 57.5 | W. H. Fremantle (NPNF), named in the text | x.translation / jerome | quoted from memory; **verify** |
+| Bruni, *De interpretatione recta* | — | Griffiths, Hankins, and Thompson (1987) for reference | x.translation / bruni | paraphrase |
+| Quine, *Word and Object* (1960); Whorf (1956); Malotki, *Hopi Time* (1983) | — | — | x.translation | paraphrase |
+| Kennedy, *Progymnasmata* (2003) | pp. x, xiii, 2, 8–9, 74, 96–124, 133, 135, 139, 147–48, 176–77 | Kennedy (Theon, [Hermogenes], Aphthonius, Nicolaus, John of Sardis) | x.progymnasmata | quoted only from sources/KENNEDY-FABLE-AND-ORDER.md, with its page numbers |

@@ -114,10 +114,10 @@ ARS.structure = [
  { id:'x', roman:'X', latin:'De compositione', name:'Making',
    gloss:'From reading to writing.',
    items:[
-   { id:'x.composition', kind:'study', title:'Composition', desc:'Building sentences and periods.' },
-   { id:'x.imitation', kind:'exercise', title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
-   { id:'x.translation', kind:'study', title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
-   { id:'x.progymnasmata', kind:'study', title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' }
+   { id:'x.composition', kind:'study', built:true, title:'Composition', desc:'Building sentences and periods.' },
+   { id:'x.imitation', kind:'exercise', built:true, title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
+   { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
+   { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' }
  ]},
  { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
    gloss:'The other classical grammars, and the modern study of universal grammar.',
