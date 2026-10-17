@@ -15,7 +15,7 @@ ARS.decks['i.consignification'] = {
 
 { id: 'signification',
   title: 'What does a word signify?',
-  body: `<p>We have seen that a word signifies by imposition: a sound is given a meaning by those who use it, and through that meaning it brings to mind a concept and, by means of the concept, a thing. The meaning that a word was imposed to signify is called its <strong>signification</strong> (Latin <i>significatio</i>). So the signification of “horse” is a certain kind of animal, the signification of “white” is a certain color, and the signification of “run” is a certain kind of motion.</p>
+  body: `<p>We have seen that a word signifies by imposition: a sound is given a meaning by those who use it, and through that meaning it brings to mind a concept and, by means of the concept, a thing. The meaning that was imposed on a word, that is, what the word signifies, is called its <strong>signification</strong> (Latin <i>significatio</i>). So the signification of “horse” is a certain kind of animal, the signification of “white” is a certain color, and the signification of “run” is a certain kind of motion.</p>
 <p>A word keeps its signification from one sentence to the next. “Horse” signifies the same kind of animal in “The horse is in the field,” in “I sold my horse,” and in “A horse is a mammal.” What the word stands for in a particular sentence can vary (this horse, my horse, any horse), and logic studies that variation under the name of <strong>supposition</strong> (from the Latin <i>suppositio</i>, the way a word stands for something in a sentence), as we will see in Section VIII. But the signification of the word, what it was imposed to mean, remains the same.</p>`,
   src: `Recap of imposition; supposition left to Section VIII.` },
 

@@ -242,3 +242,4 @@ L addendum (Oct 17, after Claude's revision pass):
 ## O. Log: I.3 Signification and Consignification (17 Oct 2026)
 
 - I.3 Signification and Consignification: deck rebuilt Oct 17 as a full theory (accidents, modes of signifying, composition in the verb); awaiting Timothy's review. Eleven cards, argument first with authorities last; new question point q-modes; goat-stag quotation corrected to Edghill's exact wording; structure.js description updated.
+- I.3 card 1: "The meaning that a word was imposed to signify" changed to "The meaning that was imposed on a word, that is, what the word signifies," (Timothy, Oct 17).
