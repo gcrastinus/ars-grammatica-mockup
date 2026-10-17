@@ -74,3 +74,21 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Bede, *De arte metrica* | 24 | Calvin B. Kendall (1991) for reference | ii.meter / bede-rhythm | paraphrase |
 | Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase |
 | Racine, *Phèdre* | I.1.1 | “My mind is made up; I am leaving, dear Theramenes” | ii.meter / three-principles | **plain rendering** |
+
+### Section III
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Donatus, *Ars minor* | definitions and accidents of the eight parts; figure of the noun; quality, comparison, gender, number, case; moods, forms, voices; tenses; signification of adverb and interjection; power, figure, order of the conjunction | W. J. Chase (1926) for reference | iii.* | Latin quoted from memory, English given "in substance" (not Chase's wording); **verify** each Latin sentence |
+| Donatus, *Ars maior* | II (homonyms, synonyms) | no published English translation | iii.homonymy | Latin from memory; **verify** |
+| Priscian, *Institutiones grammaticae* | II.14–18; IV–V; V; VIII–XVI | no published English translation | iii.* | paraphrase (II.14 definition of *dictio* quoted in Latin) |
+| Dionysius Thrax, *Technē* | 11 | Alan Kemp (1986) for reference | iii.parts | paraphrase |
+| Thomas of Erfurt, *Grammatica speculativa* | modes; noun, pronoun, verb, participle, indeclinables; accidents | G. L. Bursill-Hall (1972) for reference | iii.reasons, iii.noun-2, iii.verb-2, iii.participle | paraphrase |
+| Roger Bacon, *Greek Grammar* | (grammar one in substance) | ed. Nolan and Hirsch (1902) | iii.reasons / why-eight | Latin from memory; **verify**; English in substance |
+| St. Thomas, *In Peri hermeneias* | I, lect. 4–5 | Jean T. Oesterle (1962) for reference | iii.reasons, iii.verb-2 | paraphrase; lect. 4 locus for the "nails of a ship" image to verify |
+| Aristotle, *Categories* | 1, 1a1–15 | E. M. Edghill for reference | iii.homonymy | paraphrase |
+| Varro, *De lingua Latina* | IX.96–97, X.47–48 | R. G. Kent (Loeb) for reference | iii.verb-2 / aspect-latin | paraphrase; loci to verify |
+| Smyth, *Greek Grammar* | §§ 1850–1853 | — | iii.verb-2 / aspect-english-greek | paraphrase; loci to verify |
+| Suetonius, *Claudius* | 21 | our rendering of the greeting | iii.participle / gerundive | Latin from memory (*Have imperator …*); **verify** spelling against the edition |
+| Cicero, *Pro Archia* | 24 (*O fortunate, inquit, adulescens*) | our rendering | iii.interjection / vocative | Latin from memory; **verify** |
+| Book of Common Prayer | “O Lord, open thou our lips” | — | iii.interjection / vocative | BCP text |
