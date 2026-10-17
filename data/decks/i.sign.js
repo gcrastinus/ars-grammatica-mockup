@@ -21,7 +21,7 @@ ARS.decks['i.sign'] = {
 { id: 'three-aspects',
   title: 'The sign, what it signifies, and the one who knows',
   body: `<p>Every sign involves three things: the sign itself, what it signifies, and someone who knows by means of it. The sign is what is perceived, such as the smoke or the spoken word; what it signifies is what the sign brings to mind, such as the fire; and the one who knows is the person whose mind is led from the sign to what it signifies.</p>
-<p>The third of these is easy to overlook, but a sign signifies only to a knowing power. Smoke signifies fire to a traveler who knows that smoke comes from fire, but it signifies nothing to the trees around it. In the same way, the Latin word <i>ignis</i> (“fire”) signifies fire to someone who knows Latin, but to someone who does not know Latin it is only a sound. So the study of signs is always also a study of how something is known by someone.</p>`,
+<p>The third of these is easy to overlook, but a sign signifies only to a knowing power. Smoke signifies fire to a traveler who knows that smoke comes from fire, but it signifies nothing to the trees around it. In the same way, the Latin word <i>ignis</i> (“fire”) signifies fire to someone who knows Latin, but to someone who does not know Latin it is only a sound. So the study of signs is always also a study of how something is known by someone. Our concern in this course is on a particular kind of sign, words.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II.1.1–2, in paraphrase.` },
 
 { id: 'natural',
