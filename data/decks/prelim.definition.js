@@ -55,7 +55,7 @@ ARS.decks['prelim.definition'] = {
 { id: 'material',
   title: 'What is the material of grammar?',
   body: `<p>The material of grammar is speech, that is, the voice as words signifying thoughts in the mind and as it is arranged into phrases and sentences. Grammar does not study things in themselves, which are the subject of the other sciences, or thoughts in themselves, which belong to the study of the mind. Isidore says that speech (<i>oratio</i>) is made up of three things: sense, voice, and letters.</p>
-<p>A sound enters grammar only in so far as it belongs to speech. So a sound that signifies nothing, or that signifies only by nature and not by the will of those who use it, is not part of the material of grammar. A groan, for example, shows pain by nature, as a cry does in an animal, and so it is not a word; but “Water!” or Latin <i>Aqua!</i> is speech, because it signifies something by the agreement of those who use it.</p>`,
+<p>A sound is considered in grammar only in so far as it belongs to speech. So a sound that has no meaning, or a sound that has a meaning but only by nature (like the sound of a falling rock) and not by a speaker’s intention, is not part of the material of grammar; more precisely, instead of saying “have meaning” we will say “signify” in this course, and it will be clear why later. A groan, for example, shows pain by nature, as a cry does in an animal, and so it is not a word; but “Water!” or Latin <i>Aqua!</i> is speech, because it signifies something by the agreement of those who use it.</p>`,
   src: `Isidore, <i>Etymologiae</i> I.5.3, in paraphrase.` },
 
 { id: 'voice-to-sentence',
