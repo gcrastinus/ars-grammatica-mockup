@@ -100,14 +100,14 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Quintilian, *Institutio oratoria* | I.6.28, I.6.32, I.6.34 | H. E. Butler (Loeb) | iv.etymology / what-etymology, quintilian-caution | checked (Perseus) |
-| Plato, *Cratylus* | 399c, 439b | Benjamin Jowett for reference | iv.etymology / cratylus | paraphrase |
-| Varro, *De lingua Latina* | V.7–9 | R. G. Kent (Loeb) for reference | iv.etymology / varro | paraphrase; locus to verify |
-| Isidore, *Etymologiae* | I.29.1–3; IX.3.4 | Barney et al. (2006) for reference | iv.etymology / isidore | paraphrase |
+| Quintilian, *Institutio oratoria* | I.6.28, I.6.32, I.6.34 | H. E. Butler (Loeb) | iv.etymology / what-etymology, quintilian-caution | checked (Perseus); the rejection of *homo* from *humus* also **verified** in the Latin (I.6.34) |
+| Plato, *Cratylus* | 399c (*anthrōpos*); 439b | H. N. Fowler (Loeb), on Perseus | iv.etymology / cratylus | 399c paraphrase **verified**; 439b now **quoted** in Fowler's translation (replacing a paraphrase; Jowett no longer cited) |
+| Varro, *De lingua Latina* | V.7–9 (the four *gradus* of explanation) | R. G. Kent (Loeb) for reference | iv.etymology / varro | **verified** against the Latin (V.7–9 correspond to the Latin Library paragraphs); the paraphrase was **corrected** to follow Varro's four levels exactly (the second is the old grammar of the poets' coinages, the fourth the "sanctuary," where he hopes for opinion rather than knowledge) |
+| Isidore, *Etymologiae* | I.29.1–3; IX.3.4 | Barney et al. (2006) for reference | iv.etymology / isidore | **verified** against the Latin (paraphrase) |
 | Priscian, *Institutiones grammaticae* | IV–V | no published English translation | iv.derivation, iv.composition | paraphrase |
-| Vossius, *Aristarchus*; *Etymologicon linguae Latinae* | IV; — | no published English translation | iv.derivation / analogy; iv.etymology / oed | paraphrase |
-| Marchand, *Categories and Types* (1960) | ch. 1–7 | — | iv.derivation, iv.composition | paraphrase; chapter numbers to verify |
-| *Oxford English Dictionary* | s.vv. crayfish, bridegroom, nice, silly | — | iv.etymology | paraphrase; dates for "nice" to verify |
+| Vossius, *Aristarchus*; *Etymologicon linguae Latinae* | IV; — | no published English translation | iv.derivation / analogy; iv.etymology / oed | paraphrase; **still unverified** (no reachable text) |
+| Marchand, *Categories and Types* (2nd ed., 1969) | chapters on composition, suffixation, zero-derivation, back-derivation | — | iv.derivation, iv.composition | **corrected**: chapter numbers removed and replaced by chapter names, because the numbering could not be confirmed; the order of chapters confirmed from a review (*Brno Studies in English*, 1971). "Derivation by a zero suffix" changed to Marchand's term "zero-derivation" |
+| *Oxford English Dictionary* | s.vv. crayfish, bridegroom, nice, silly | — | iv.etymology | paraphrase; the dates for "nice" (late thirteenth century "foolish"; 1769 "agreeable") **verified at second hand** (Online Etymology Dictionary, citing the OED) |
 
 ### Section V
 

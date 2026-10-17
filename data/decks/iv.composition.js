@@ -34,7 +34,7 @@ ARS.decks['iv.composition'] = {
   title: 'English compounds',
   body: `<p>English forms compounds of many kinds:<br>noun and noun: “bookcase,” “toothbrush,” “railroad”;<br>adjective and noun: “blackbird,” “greenhouse,” “highway”;<br>verb and noun: “pickpocket,” “breakwater”;<br>noun and agent noun: “shoemaker,” “housekeeper”;<br>adjective and participle: “good-looking,” “kind-hearted.”</p>
 <p>In most English compounds the last part is the principal one, and the first part determines it. A “houseboat” is a kind of boat, and a “boathouse” is a kind of house; a “toothbrush” is a brush, and a “bookcase” is a case. The principal part is often called the <strong>head</strong> of the compound. So the order of the parts matters, as it does in an English phrase, and the meaning of the compound depends on it.</p>`,
-  src: `Marchand, <i>Categories and Types</i>, ch. 2; Duden, on compounds; both in paraphrase.`,
+  src: `Marchand, <i>Categories and Types</i>, the chapter on composition; Duden, on compounds; both in paraphrase.`,
   qpTodo: `English compounds: in a given compound (“houseboat,” “boathouse,” “toothbrush”), which part is the head, and what kind of thing does the compound signify.` },
 
 { id: 'german',
@@ -47,7 +47,7 @@ ARS.decks['iv.composition'] = {
   title: 'The meaning of a compound',
   body: `<p>We saw in Section I that the parts of a word do not signify by themselves within it, and compounds show this clearly. The meaning of a compound is not always the sum of the meanings of its parts. A “greenhouse” need not be green, a “blackboard” is often green, and a “butterfly” is neither butter nor a fly. Over time a compound may come to signify something that its parts no longer suggest, and then it must be learned as a single word.</p>
 <p>We also saw that English distinguishes a compound from a phrase by its stress: a “BLACKbird” is a kind of bird, and a “black BIRD” is any bird that is black. Latin and German, which write their compounds as one word and give them one accent, make the distinction in writing as well as in speech. So a compound is recognized by its unity as a word, in meaning, in accent, and often in spelling, not by the separate meanings of its parts.</p>`,
-  src: `Marchand, <i>Categories and Types</i>, ch. 2, in paraphrase.` },
+  src: `Marchand, <i>Categories and Types</i>, the chapter on composition, in paraphrase.` },
 
 { id: 'together',
   title: 'Composition and derivation together',

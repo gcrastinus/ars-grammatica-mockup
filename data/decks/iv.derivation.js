@@ -14,7 +14,7 @@ ARS.decks['iv.derivation'] = {
   title: 'What is derivation?',
   body: `<p>We saw in Section III that every word has a species: it is either primitive, not formed from another word, or derived, formed from another. <strong>Derivation</strong> is the process by which a derived word is formed from a primitive, usually by adding an ending called a <strong>suffix</strong>: Latin <i>rēx</i> (“king”) gives <i>rēgius</i> (“royal”), and English “king” gives “kingdom.” Priscian treats the kinds of derived nouns at length in the fourth book of his grammar.</p>
 <p>A derived word keeps the meaning of its primitive and adds to it a further meaning that the suffix signifies. So <i>-ius</i> in <i>rēgius</i> signifies “belonging to,” and “-dom” in “kingdom” signifies the domain or condition of a king. Modern grammars also count prefixes, such as “un-” in “unkind,” as means of derivation; the Latin grammarians, as we saw, treated a word with a prefix as compound, because most Latin prefixes are prepositions.</p>`,
-  src: `Priscian, <i>Institutiones grammaticae</i> IV, in paraphrase; Marchand, <i>Categories and Types</i>, ch. 1, in paraphrase.` },
+  src: `Priscian, <i>Institutiones grammaticae</i> IV, in paraphrase; Marchand, <i>Categories and Types</i>, the introductory chapter, in paraphrase.` },
 
 { id: 'latin-nouns',
   title: 'Latin suffixes that form nouns',
@@ -39,19 +39,19 @@ ARS.decks['iv.derivation'] = {
   title: 'Native English suffixes',
   body: `<p>English has its own suffixes, inherited from Old English, as well as those it has borrowed. The native suffixes are among the most productive, that is, most freely used to make new words:<br><i>-ness</i> forms nouns of quality from adjectives: “kindness,” “darkness”;<br><i>-dom</i>, <i>-hood</i>, and <i>-ship</i> form nouns of state or office: “freedom,” “childhood,” “friendship”;<br><i>-ful</i> and <i>-less</i> form adjectives meaning “full of” and “without”: “hopeful,” “hopeless”;<br><i>-ly</i> forms adverbs from adjectives, and some adjectives from nouns: “quickly,” “friendly”;<br><i>-en</i> forms verbs from adjectives: “darken,” “widen”;<br><i>-er</i> forms the agent: “teacher,” “baker.”</p>
 <p>These suffixes correspond in meaning to the Latin ones: “-ness” to <i>-tās</i>, “-ful” to <i>-ōsus</i>, and “-er” to <i>-tor</i>. So English often has two words for the same idea, one formed with a native suffix and one borrowed from Latin: “brotherhood” and “fraternity,” “kindness” and “benignity.”</p>`,
-  src: `Marchand, <i>Categories and Types</i>, ch. 4, in paraphrase.` },
+  src: `Marchand, <i>Categories and Types</i>, the chapter on suffixation, in paraphrase.` },
 
 { id: 'english-borrowed',
   title: 'Borrowed suffixes in English',
   body: `<p>English has also borrowed many suffixes from Latin, Greek, and French, usually in words borrowed whole and then extended to new words: “-tion” (“nation,” “information”), “-ity” (“unity,” “electricity”), “-able” (“readable,” “washable”), “-ous” (“famous,” “glorious”), “-al” (“natural,” “national”), and the Greek “-ize” and “-ist” (“baptize,” “artist”).</p>
 <p>Some of these suffixes now form English words from native roots, so that a word may be part English and part Latin. “Readable” joins the English verb “read” to the Latin suffix “-able,” and “starvation” joins the English verb “starve” to the Latin suffix “-ation.” Such words are called <strong>hybrids</strong>. Some writers have objected to them on the ground that a word should be formed from one language, but many are well established, and the criterion of usage that we saw in the Preliminary section decides their correctness.</p>`,
-  src: `Marchand, <i>Categories and Types</i>, ch. 4, in paraphrase.` },
+  src: `Marchand, <i>Categories and Types</i>, the chapter on suffixation, in paraphrase.` },
 
 { id: 'conversion',
   title: 'Conversion and back-formation',
-  body: `<p>English also forms new words without adding any suffix. A word of one part of speech can be used as another without change of form: the noun “paint” gives the verb “to paint,” the verb “to run” gives the noun “a run,” and the noun “water” gives the verb “to water the garden.” Marchand calls this <strong>derivation by a zero suffix</strong>; it is also called <strong>conversion</strong>. We saw in Section III that English words of one form can be different parts of speech, and conversion is how many such pairs arose.</p>
+  body: `<p>English also forms new words without adding any suffix. A word of one part of speech can be used as another without change of form: the noun “paint” gives the verb “to paint,” the verb “to run” gives the noun “a run,” and the noun “water” gives the verb “to water the garden.” Marchand calls this <strong>zero-derivation</strong>, that is, derivation with no visible suffix; it is also called <strong>conversion</strong>. We saw in Section III that English words of one form can be different parts of speech, and conversion is how many such pairs arose.</p>
 <p>A word can also be formed by removing what looks like a suffix. “Editor” is older than the verb “to edit,” which was formed from it by taking away “-or”; “burglar” gave “to burgle,” and “television” gave “to televise.” This is called <strong>back-formation</strong>. It shows that speakers recognize the patterns of derivation and apply them in reverse, even when the history of the word is different.</p>`,
-  src: `Marchand, <i>Categories and Types</i>, ch. 5 and 7, in paraphrase.`,
+  src: `Marchand, <i>Categories and Types</i>, the chapters on zero-derivation and back-derivation, in paraphrase.`,
   qpTodo: `Kinds of derivation: is a given word formed by a suffix, by conversion, or by back-formation (“kindness,” “to paint,” “to edit,” “readable”), and from what word.` },
 
 { id: 'analogy',

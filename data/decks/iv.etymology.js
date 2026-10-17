@@ -20,14 +20,14 @@ ARS.decks['iv.etymology'] = {
 { id: 'cratylus',
   title: 'Etymology in Plato’s Cratylus',
   body: `<p>The oldest extended discussion of etymology is Plato’s dialogue <i>Cratylus</i>, which we met in Section I on the question whether names are by nature or by convention. In the dialogue Socrates offers many etymologies, some of them plainly playful. He derives <i>anthrōpos</i> (“human being”) from a phrase meaning “one who looks up at what he has seen,” because, he says, man alone among the animals considers what he sees (<i>Cratylus</i> 399c, in paraphrase).</p>
-<p>The etymology of <i>anthrōpos</i> is not accepted by modern scholars, and Socrates himself treats many of his derivations with irony. But the dialogue raises the question that every etymologist must answer: does the origin of a word show the true nature of the thing it names? Plato’s answer, at the end of the dialogue, is that we must learn about things from the things themselves, not from their names (<i>Cratylus</i> 439b, in paraphrase).</p>`,
-  src: `Plato, <i>Cratylus</i> 399c, 439b (Jowett for reference), in paraphrase.` },
+<p>The etymology of <i>anthrōpos</i> is not accepted by modern scholars, and Socrates himself treats many of his derivations with irony. But the dialogue raises the question that every etymologist must answer: does the origin of a word show the true nature of the thing it names? Plato’s answer, near the end of the dialogue, is that realities “are to be learned and sought for, not from names but much better through themselves than through names” (<i>Cratylus</i> 439b).</p>`,
+  src: `Plato, <i>Cratylus</i> 399c, in paraphrase; 439b (trans. H. N. Fowler; both checked against the Perseus text).` },
 
 { id: 'varro',
   title: 'Varro on the origin of Latin words',
-  body: `<p>Varro, the most learned Roman of the first century BC, devoted three books of his <i>De lingua Latina</i> (V–VII) to the origin of Latin words: the names of places and things, the words for time, and the words of the poets. He distinguishes several levels at which a word’s origin can be explained, from the level that ordinary people can reach, through the level of the grammarian, to the level of the philosopher, and beyond these to a level he regards as hidden (<i>De lingua Latina</i> V.7–9, in paraphrase).</p>
+  body: `<p>Varro, the most learned Roman of the first century BC, devoted three books of his <i>De lingua Latina</i> (V–VII) to the origin of Latin words: the names of places and things, the words for time, and the words of the poets. He distinguishes four levels (<i>gradus</i>) at which the origin of a word can be explained: the lowest, which even ordinary people reach; the second, reached by the old grammar, which shows how the poets made their words; the third, reached by philosophy, which explains the words of common usage; and the fourth, which he compares to the inner sanctuary of a temple, where he says he may reach not knowledge but only opinion (<i>De lingua Latina</i> V.7–9, in paraphrase).</p>
 <p>Varro also recognized that words change their form over time, so that the origin of a word is often hidden by later changes of letters and syllables. Many of his etymologies are wrong by modern standards, but his method, which collected the evidence of old forms, old writers, and related words, is the beginning of the historical study of Latin.</p>`,
-  src: `Varro, <i>De lingua Latina</i> V.7–9 (Kent for reference), in paraphrase.` },
+  src: `Varro, <i>De lingua Latina</i> V.7–9, in paraphrase (checked against the Latin text).` },
 
 { id: 'isidore',
   title: 'Isidore’s Etymologies',
