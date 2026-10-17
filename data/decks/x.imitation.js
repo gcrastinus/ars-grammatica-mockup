@@ -2,7 +2,7 @@
    Plan (ITEM-LIST.md): 2 introductory panels, no question points. Exercise: ten fixed passages, typed word for word, taken
    in order (not yet built). No second Petrarch example is used.
    Live material drawn on: none. Quintilian X.2.1–4 checked against the Perseus text of Butler's translation. Ascham and
-   Petrarch are paraphrased (Ascham's own wording and the Petrarch letter to be checked). */
+   Petrarch are paraphrased (Ascham's own wording and the Petrarch letter could not be reached; see sources/TRANSLATIONS-USED.md). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['x.imitation'] = {

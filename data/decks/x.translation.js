@@ -1,9 +1,9 @@
 /* X.3 Translation [x.translation]
-   Plan (ITEM-LIST.md): 12 panels, 4 question points (placeholders: qpTodo; to be written). Translators may be named in
-   this deck where the translation itself is the subject (CLAUDE.md, "Translators").
+   Plan (ITEM-LIST.md): 12 panels, 4 question points (placeholders: qpTodo; to be written). Translators are named only in
+   the source lines (REVISION-GUIDE M).
    Live material drawn on: DECKS.traditions (why a concept cannot be the end of signification), in part. Aristotle,
-   De interpretatione 1, is quoted as in i.sign. Cicero and Jerome are quoted from memory of the named translations and
-   marked to verify. */
+   De interpretatione 1, is quoted as in i.sign. Cicero is quoted in Latin (checked) with a
+   paraphrase; Jerome is paraphrased (see sources/TRANSLATIONS-USED.md). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['x.translation'] = {

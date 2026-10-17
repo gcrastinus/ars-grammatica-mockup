@@ -4,7 +4,7 @@
    Overlap with Ars Rhetorica: examples are taken from Virgil, Ennius, Scripture, and English poets, not from Cicero, Gorgias,
    or Augustine, and the deck asks what each figure does to the arrangement of words, not to the hearer.
    Live material drawn on: DECKS.figures (figures; anaphora, polysyndeton, zeugma), DECKS.latfigs. Donatus's own examples
-   are given where they are well attested; each is marked to verify in the report. */
+   are checked against his Latin (Holtz); Virgil in the Latin of Perseus and the translations of Williams and Rhoades. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['vii.schemata'] = {

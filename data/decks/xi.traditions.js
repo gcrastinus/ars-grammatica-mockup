@@ -51,7 +51,7 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'scribal-compare',
   title: 'What the scribes asked',
-  body: `<p>The scribal tablets never say how many parts of speech there are. Their questions were these: how is this sign written and read; what is the Akkadian for this Sumerian word; what form does this verb take for “he,” “I,” and “you,” or with “to him” and “from it”; and what does this piece of the form signify? These are real grammatical questions, though they are not Donatus’s <i>Partes orationis quot sunt?</i></p>
+  body: `<p>The scribal tablets never say how many parts of speech there are. Their questions were these: how is this sign written and read; what is the Akkadian for this Sumerian word; what form does this verb take for “he,” “I,” and “you,” or with “to him” and “from it”; and what does this piece of the form signify? These are real grammatical questions, though they are not Donatus’s <i>partes orationis quot sunt?</i></p>
 <p>So the scribal art differs from ours in three ways. It is bilingual, explaining one language by another; it begins with the written sign, not with the voice; and it arranges forms in lists and paradigms instead of defining classes and rules. Yet it shows the same need that produced our art: a classical language had to be kept and understood in a school, and that required a systematic study of its words.</p>`,
   src: `Black, <i>Sumerian Grammar in Babylonian Theory</i>, in paraphrase.` },
 
@@ -183,7 +183,7 @@ ARS.decks['xi.traditions'] = {
 { id: 'nominal-sentence',
   title: 'The nominal sentence',
   body: `<p>A <strong>nominal sentence</strong> (<i>jumla ismiyya</i>) begins with a noun and may contain no verb at all: <i>zaydun ʿālimun</i>, “Zayd is learned.” The first noun is the <strong>topic</strong> (<i>mubtadaʾ</i>, “that with which one begins”), and the second is the <strong>comment</strong> (<i>khabar</i>, “information”); both are in <i>rafʿ</i>. The grammarians said that the topic is governed by the act of beginning itself, an abstract governor that is not a spoken word.</p>
-<p>So in Arabic a sentence can be complete without a verb. We saw in Section V that the modists held a construction to be complete only with a subject and a verb, and that Latin often omits the copula, as in <i>omnia praeclāra rāra</i>. The Arabic grammarians did not treat the nominal sentence as an omission; they treated it as a kind of sentence in its own right. This is a real difference in the account of completeness.</p>`,
+<p>So in Arabic a sentence can be complete without a verb. We saw in Section V that the modists held a construction to be complete only with a subject and a verb, and that Latin often omits the copula, as in <i>omnia praeclara, rara</i>. The Arabic grammarians did not treat the nominal sentence as an omission; they treated it as a kind of sentence in its own right. This is a real difference in the account of completeness.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
   qpTodo: `The nominal sentence: in <i>zaydun ʿālimun</i>, which word is the topic and which the comment, what case are they in, and how does the Arabic account of completeness differ from the modists’.` },
 
@@ -286,14 +286,14 @@ ARS.decks['xi.traditions'] = {
 { id: 'kimhi',
   title: 'David Kimḥi',
   body: `<p>David Kimḥi (about 1160 to about 1235), of Narbonne in Provence, known by the acronym Radak, wrote in Hebrew rather than Arabic, for Jewish readers in Christian Europe who did not know Arabic. His <i>Mikhlol</i> (“Compendium”) has two parts, a grammar and a dictionary of roots, the <i>Sefer ha-Shorashim</i>, following the plan of Ibn Janāḥ. He also wrote commentaries on the Bible that apply his grammar to the explanation of the text.</p>
-<p>Kimḥi’s grammar was clear, complete, and written in Hebrew, and it became the standard grammar of Hebrew for three centuries. The grammar part of the <i>Mikhlol</i> was translated into English in 1952 by William Chomsky, a scholar of Hebrew and the father of the linguist Noam Chomsky, whose universal grammar we saw in Section VIII and will study further in modern grammar.</p>`,
-  src: `David Kimḥi, <i>Mikhlol</i> (trans. William Chomsky, <i>David Kimhi’s Hebrew Grammar</i>, 1952), in paraphrase.` },
+<p>Kimḥi’s grammar was clear, complete, and written in Hebrew, and it became the standard grammar of Hebrew for three centuries. The grammar part of the <i>Mikhlol</i> was translated into English in 1952, and it is still the usual way into Kimḥi’s grammar for English readers.</p>`,
+  src: `David Kimḥi, <i>Mikhlol</i> (trans. William Chomsky, <i>David Kimhi’s Hebrew Grammar</i>, 1952; the translator was the father of Noam Chomsky), in paraphrase.` },
 
 { id: 'hebraists',
   title: 'Hebrew grammar in Christian Europe',
   body: `<p>In the Renaissance, Christian scholars began to study Hebrew in order to read the Old Testament in its original language. The German humanist Johannes Reuchlin published <i>De rudimentis Hebraicis</i> (1506), a grammar and dictionary of Hebrew for Christian readers, drawing on Kimḥi. Through such works the Hebrew grammar of the medieval Jewish scholars, itself shaped by Arabic grammar, entered the European tradition.</p>
-<p>So the European study of Hebrew brought into the Latin schools a grammar organized by roots and patterns and by three parts of speech, quite different from Donatus’s. The Protestant and Catholic translators of the Bible in the sixteenth and seventeenth centuries learned their Hebrew from grammars in this tradition, and the translations that we read, such as the King James Version, rest in part on Kimḥi’s analysis.</p>`,
-  src: `Reuchlin, <i>De rudimentis Hebraicis</i> (1506); general history; both in paraphrase.` },
+<p>So the European study of Hebrew brought into the Latin schools a grammar organized by roots and patterns and by three parts of speech, quite different from Donatus’s. The Protestant and Catholic translators of the Bible in the sixteenth and seventeenth centuries learned their Hebrew from grammars in this tradition. David Daiches, in his study of the sources of the King James Version, showed that its translators often followed Kimḥi’s interpretations of the Hebrew, which reached them both directly and through the Latin versions of the Christian Hebraists.</p>`,
+  src: `Reuchlin, <i>De rudimentis Hebraicis</i> (1506), in paraphrase; David Daiches, <i>The King James Version of the English Bible</i> (1941), in paraphrase.` },
 
 { id: 'hebrew-compare',
   title: 'The Hebrew art compared with ours',
@@ -356,9 +356,9 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'analects',
   title: 'Empty words in a line of the Analects',
-  body: `<p>The first line of the <i>Analects</i> of Confucius shows the empty words at work: 學而時習之，不亦說乎 (<i>xué ér shí xí zhī, bù yì yuè hū</i>), which James Legge translated, “Is it not pleasant to learn with a constant perseverance and application?” (<i>Analects</i> I.1). In it 學 (“learn”) and 習 (“practice”) are full words; 而 (“and,” “then”) joins them; 之 (“it”) refers to what is learned; and 乎 at the end makes the sentence a question.</p>
+  body: `<p>The first line of the <i>Analects</i> of Confucius shows the empty words at work: 學而時習之，不亦說乎 (<i>xué ér shí xí zhī, bù yì yuè hū</i>), which is translated “Is it not pleasant to learn with a constant perseverance and application?” (<i>Analects</i> I.1). In it 學 (“learn”) and 習 (“practice”) are full words; 而 (“and,” “then”) joins them; 之 (“it”) refers to what is learned; and 乎 at the end makes the sentence a question.</p>
 <p>So the construction of the line is shown by the order of the characters and by the empty words, not by endings. Our art would call 之 a pronoun and 而 a conjunction, but the Chinese tradition called both empty words, and explained each by its use in the line. The commentators glossed such words in their place, as Servius glossed Virgil.</p>`,
-  src: `Confucius, <i>Analects</i> I.1 (trans. James Legge, 1861).` },
+  src: `Confucius, <i>Analects</i> I.1 (trans. James Legge; the wording checked against Legge’s text as reprinted by Standard Ebooks and Project Gutenberg).` },
 
 { id: 'order-chinese',
   title: 'Order without inflection',

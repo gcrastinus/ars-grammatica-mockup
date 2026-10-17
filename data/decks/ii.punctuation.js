@@ -29,7 +29,7 @@ ARS.decks['ii.punctuation'] = {
   title: 'Comma, colon, and period',
   body: `<p>Isidore of Seville repeats Donatus’s three marks and connects each of them with a part of the sentence that the Greek rhetoricians had named (<i>Etymologiae</i> I.20, in paraphrase). The shortest part of a sentence was called a <strong>comma</strong> (Greek <i>komma</i>, “a piece cut off”), a longer part a <strong>colon</strong> (Greek <i>kōlon</i>, “limb”), and the whole sentence, which comes round to completion, a <strong>period</strong> (Greek <i>periodos</i>, “a going round”).</p>
 <p>So the lower mark ended a comma, the middle mark ended a colon, and the full stop ended a period. Our words “comma,” “colon,” and “period” therefore first named parts of a sentence and only later came to name the marks that end them. We will study the period as a part of construction in Section V, where we will see how a long sentence is built from its clauses.</p>`,
-  src: `Isidore, <i>Etymologiae</i> I.20, in paraphrase (trans. Barney et al. to be checked for any quotation).` },
+  src: `Isidore, <i>Etymologiae</i> I.20, in paraphrase (checked against the Latin; Barney et al. for reference).` },
 
 { id: 'medieval-marks',
   title: 'From the ancient points to the modern marks',

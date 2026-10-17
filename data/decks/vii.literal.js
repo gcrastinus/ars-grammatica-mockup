@@ -2,8 +2,8 @@
    Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: Literal and Figurative
    (not yet written). No trope is named for the student to identify before VII.3.
    Live material drawn on: DECKS.figures (why tropes belong to grammar: St. Thomas on God's arm), DECKS.service.
-   Quintilian VIII.6.1, 5–9 and IX.1.4 checked against the Perseus text of Butler's translation. Augustine and St. Thomas
-   are quoted from memory of the named translations and marked to verify. */
+   Quintilian VIII.6.1, 5–9 and IX.1.4 checked against the Perseus text of Butler's translation. St. Thomas (ST I q.1 a.10
+   ad 3) checked against the Dominican translation; Augustine is paraphrased (see sources/TRANSLATIONS-USED.md). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['vii.literal'] = {
