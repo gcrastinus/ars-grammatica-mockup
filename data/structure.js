@@ -93,9 +93,9 @@ ARS.structure = [
  { id:'vii', roman:'VII', latin:'De schematibus et tropis', name:'Figures and Tropes',
    gloss:'The literal and the figurative sense, the figures of words, and the tropes.',
    items:[
-   { id:'vii.literal', kind:'study-ex', title:'Literal and Figurative Sense', desc:'What does a word signify properly, and what does it signify by a figure?' },
-   { id:'vii.schemata', kind:'study-ex', title:'Figures of Words (<i>schemata lexeos</i>)', desc:'Repetition, omission, and arrangement used for effect.' },
-   { id:'vii.tropes', kind:'study-ex', title:'Tropes', desc:'Metaphor, metonymy, synecdoche, and the other changes of meaning.' },
+   { id:'vii.literal', kind:'study-ex', built:true, title:'Literal and Figurative Sense', desc:'What does a word signify properly, and what does it signify by a figure?' },
+   { id:'vii.schemata', kind:'study-ex', built:true, title:'Figures of Words (<i>schemata lexeos</i>)', desc:'Repetition, omission, and arrangement used for effect.' },
+   { id:'vii.tropes', kind:'study-ex', built:true, title:'Tropes', desc:'Metaphor, metonymy, synecdoche, and the other changes of meaning.' },
    { id:'vii.review', kind:'review', title:'Section Review: Figures', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
  ]},
  { id:'viii', roman:'VIII', latin:'De significatione et suppositione', name:'Signification and Supposition',

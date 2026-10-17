@@ -133,3 +133,17 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Quintilian, *Institutio oratoria* | I.5.6, 8, 10–12, 35–38, 41, 52–53 | H. E. Butler (Loeb) | vi.usage, vi.barbarism, vi.solecism, vi.metaplasm | checked (Perseus); Butler's "connexion," "offence," "licence" kept as printed |
 | Donatus, *Ars maior* | III.1–4 | no published English translation | vi.* | Latin definitions of barbarism and solecism quoted from memory (**verify**); otherwise paraphrase |
 | Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase |
+
+### Section VII
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Quintilian, *Institutio oratoria* | VIII.6.1–2, 4–9, 19–20, 23–27, 29–31, 34–35, 37–38, 40–44, 54, 59–61, 67–68, 74–75; IX.1.4; IX.3.26–27 | H. E. Butler (Loeb) | vii.* | checked (Perseus); at VIII.6.68 the Perseus text reads "win rocks," a scanning error for "twin rocks," which we print |
+| Augustine, *De doctrina christiana* | II.10.15; III.5.9; III.10.14 | J. F. Shaw for reference | vii.literal | paraphrase |
+| St. Thomas, *Summa theologiae* | I, q. 1, a. 10, ad 3 | Fathers of the English Dominican Province | vii.literal / aquinas | quoted from memory; **verify** |
+| Donatus, *Ars maior* | III.5–6 (figures and tropes; examples) | no published English translation | vii.schemata, vii.tropes | paraphrase; Donatus's examples (Ennius *O Tite tute*; *Me, me, adsum*; *Gallo, Gallo*; *Arcades ambo*; *litora litoribus*; *Principio caelum*; *pelagus tenuere rates*) from memory and the live app; **verify** each |
+| Ennius, *Annales* (in Donatus) | *O Tite tute Tati* | plain rendering | vii.schemata / paromoeon | **plain rendering** |
+| Virgil | *Aeneid* I.16–17, IV.628–29, VI.724–27, IX.427; *Eclogues* VII.4, X.72–73 | our renderings | vii.schemata | Latin from memory; **verify** |
+| Suetonius, *Divus Julius* | 37 (*veni, vidi, vici*) | — | vii.schemata | standard |
+| KJV; Shakespeare; Coleridge | Matthew 5:3–5, 7:25, 16:18; John 1:1; 1 Corinthians 9:9; *Hamlet* I.2; *The Tempest* I.2; Sonnet 116; *Ancient Mariner* IV | — | vii.* | English texts; verify spellings against chosen editions |
+| Bede, *De schematibus et tropis* | — | Calvin B. Kendall for reference | vii.tropes | named only |
