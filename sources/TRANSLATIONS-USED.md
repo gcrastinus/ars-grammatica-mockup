@@ -49,3 +49,28 @@ No translator is named in the text (CLAUDE.md, "Translators"). Quotations marked
 | King James Version | Matthew 4:4; John 1:1; Matthew 6:11 (“Give us this day our daily bread”) | — | i.syncategorematic, i.ambiguity, i.functions | KJV text |
 | Shakespeare, *Romeo and Juliet* | III.1 (“a grave man”) | — | i.ambiguity / used-well | two words quoted |
 | Cicero, *In Catilinam* | I.2 (*O tempora, o mores!*) | our rendering of three words | i.functions / feeling | — |
+
+## Sections II–XI (study cards), drafted 17 Oct 2026 — awaiting Timothy's review
+
+Same conventions as Section I. **checked (Perseus)** means the quotation was compared word for word with the Perseus Digital Library text of the named translation (cloned from GitHub); **verify** means it was written from memory and must be checked before release; **plain rendering** means a short English rendering that is not from a published translation and must be checked or replaced (it is not credited to anyone).
+
+### Section II
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Donatus, *Ars maior* | I.1–I.6 | no published English translation | ii.* | Latin of I.1 quoted (definition of *vox*, *omnis vox aut articulata est aut confusa*); otherwise paraphrase |
+| Priscian, *Institutiones grammaticae* | I.1–2; I; II | no published English translation | ii.voice, ii.letter, ii.syllable | paraphrase |
+| Aristotle, *De anima* | II.8, 420b27–33 | J. A. Smith for reference | ii.voice / natural-philosophy | paraphrase |
+| Quintilian, *Institutio oratoria* | I.4.9; I.5.22; I.7.30–31 | H. E. Butler (Loeb) | ii.letter / quintilian-letters, orthography; ii.quantity / what-accent | checked (Perseus) |
+| Ovid, *Metamorphoses* | XIII.607 | Brookes More (1922) | ii.quantity / common | checked (Perseus; the line is Ovid's, not Virgil's) |
+| Isidore, *Etymologiae* | I.20 | Barney et al. (2006) for reference | ii.punctuation / comma-colon-period | paraphrase |
+| Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase |
+| *ibis redibis nunquam per bella peribis* | — | our rendering of both readings | ii.punctuation / sense | source of the oracle to be verified; renderings to check |
+| Virgil, *Aeneid* | I.1 (and I.3, Latin only) | Theodore C. Williams (1910) | ii.meter / hexameter | checked (Perseus) |
+| Catullus | 5.1; 51.1 | Leonard C. Smithers (1894) | ii.meter / elision, lyric | checked (Perseus) |
+| Homer, *Iliad* | I.1 | A. T. Murray (Loeb) | ii.meter / homer | checked (Perseus) |
+| Ovid, *Amores* | I.1.3–4 | John Dryden | ii.meter / elegiac | checked (Perseus) |
+| Ambrose, *Aeterne rerum conditor* | 1 | “Eternal maker of all things” | ii.meter / hymn | **plain rendering** |
+| Bede, *De arte metrica* | 24 | Calvin B. Kendall (1991) for reference | ii.meter / bede-rhythm | paraphrase |
+| Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase |
+| Racine, *Phèdre* | I.1.1 | “My mind is made up; I am leaving, dear Theramenes” | ii.meter / three-principles | **plain rendering** |
