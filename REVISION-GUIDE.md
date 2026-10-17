@@ -226,3 +226,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - Per-card `src` notes (Timothy, Oct 17): keep them; they may be useful later. They must stay hidden from students (only the deck's general sources line displays). Never render panel `src` in the app.
 - I.2 first-second card: Timothy's argument-first text (Oct 17): things vs. words about words, the "horse"/"noun" example, the names of first and second imposition, then Boethius last as a reference.
 - I.2 first-second card: added a note on logic's parallel distinction of first and second intentions; "genus" and "species" are names of the first imposition in grammar (they signify concepts, not words).
+- I.2 many-languages card: Timothy's argument-first text (Oct 17): the realities of what is common across languages, with a parenthesis on real differences as different ways of speaking about the same thing; the Boethius of Dacia citation removed from the body.
