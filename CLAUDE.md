@@ -1,3 +1,5 @@
+**Building Sections I–XI? Start with NEXT-STEP.md** (the build brief), then this file, REVISION-GUIDE.md, and STYLE-GUIDE-TIMOTHY.md (Timothy's general voice guide; this file and REVISION-GUIDE.md take precedence where they differ).
+
 # Writing style for Ars Grammatica (Timothy Kearns)
 
 Purpose: every panel, question, option, and explanation in this course should read like a good standard grammar textbook, in plain expository prose that uses the standard terms.
