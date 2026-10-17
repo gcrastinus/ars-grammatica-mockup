@@ -23,8 +23,8 @@ ARS.decks['prelim.methodice'] = {
 
 { id: 'historice',
   title: 'Interpretation',
-  body: `<p>The second part of grammar is interpretation, that is, the interpretation of the authors. Its Greek name, <i>historice</i>, comes from <i>historia</i>, inquiry or account. (The name does not mean the study of history in our sense.) Interpretation is the reading and interpretation of the authors, that is, of particular texts. It explains the words, the constructions, and the matter of a particular text, such as a poem, a history, or a speech. For example, it explains that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty.</p>
-<p>So, whereas the principles are general, the work of interpretation is particular, because it explains this line or this sentence and not every line of its kind. For that reason interpretation is learned by reading many authors with a teacher.</p>`,
+  body: `<p>The second part of grammar is interpretation, that is, the interpretation of the authors. Its Greek name, <i>historice</i>, comes from <i>historia</i>, inquiry or account. (The name does not mean the study of history in our sense but rather it means something like a survey of a whole topic.) As the highest part of grammar, interpretation is the reading and explanation of especially the literary authors and their particular works. It explains the words, the constructions, and the matter of a particular text, such as a poem, a history, or a speech. To take a simple example, it explains that “score” in “Four score and seven years ago” (Lincoln, Gettysburg Address) means twenty.</p>
+<p>So, whereas the principles are general, the work of interpretation is particular, because it explains this line or this sentence in this particular text and does not consider every line of its kind. For that reason interpretation is learned by reading many authors with a teacher.</p>`,
   src: `Lincoln, Gettysburg Address (1863).`,
   qp: { id: 'q-which-part', variants: [
     { prompt: `The rule that a verb agrees with its subject in number and person belongs to which part of grammar?`,
