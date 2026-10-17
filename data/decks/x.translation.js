@@ -23,20 +23,20 @@ ARS.decks['x.translation'] = {
   title: 'Why translation is possible',
   body: `<p>We also saw in Section I the passage of Aristotle on which the possibility of translation rests: “Just as all men have not the same writing, so all men have not the same speech sounds, but the mental experiences, which these directly symbolize, are the same for all, as also are those things of which our experiences are the images” (<i>De interpretatione</i> 1, 16a5–8).</p>
 <p>If the words of different languages signify the same concepts, and the concepts are likenesses of the same things, then what is said in one language can be said in another, because the translator carries over the concept, not the sound. This is the classical answer to the question whether translation is possible. It does not claim that translation is easy or perfect, since languages differ in their words, their constructions, and their sounds; it claims that the thing understood is common, and that a translation can therefore be faithful to it.</p>`,
-  src: `Aristotle, <i>De interpretatione</i> 1, 16a5–8 (trans. Edghill, as quoted in Section I).` },
+  src: `Aristotle, <i>De interpretatione</i> 1, 16a5–8 (trans. E. M. Edghill, as quoted in Section I; checked against Edghill's text).` },
 
 { id: 'cicero',
   title: 'Cicero: as an orator, not as an interpreter',
-  body: `<p>Cicero translated two Greek speeches, Demosthenes’ and Aeschines’ speeches on the crown, and he explained his method. In the Loeb translation of H. M. Hubbell he says: “And I did not translate them as an interpreter, but as an orator, keeping the same ideas and the forms, or as one might say, the ‘figures’ of thought, but in language which conforms to our usage. And in so doing, I did not hold it necessary to render word for word, but I preserved the general style and force of the language” (<i>De optimo genere oratorum</i> 14).</p>
+  body: `<p>Cicero translated two Greek speeches, Demosthenes’ and Aeschines’ speeches on the crown, and he explained his method: <i>nec converti ut interpres, sed ut orator, sententiis isdem et earum formis tamquam figuris, verbis ad nostram consuetudinem aptis. In quibus non verbum pro verbo necesse habui reddere, sed genus omne verborum vimque servavi</i> (<i>De optimo genere oratorum</i> 14). That is, he did not translate as an interpreter but as an orator, keeping the same thoughts and their forms, which he calls their figures, in words suited to Latin usage; and he did not think it necessary to render word for word, but kept the whole character and force of the words.</p>
 <p>Cicero distinguishes two ways of translating. The interpreter (<i>interpres</i>) renders word for word; the orator renders the thought and the style in the words that his own language uses. Cicero chose the second way because his purpose was to give Romans a model of Greek eloquence in Latin, and a word-for-word version would not have been eloquent Latin.</p>`,
-  src: `Cicero, <i>De optimo genere oratorum</i> 14 (trans. H. M. Hubbell, Loeb; quoted from memory, verify).`,
+  src: `Cicero, <i>De optimo genere oratorum</i> 14 (the Latin checked against the Latin Library and Perseus texts; the English in paraphrase; H. M. Hubbell, Loeb, for reference).`,
   qpTodo: `Cicero’s method: what does Cicero mean by translating “as an orator” rather than “as an interpreter,” and what does each kind of translator preserve.` },
 
 { id: 'jerome',
   title: 'Jerome: sense for sense',
-  body: `<p>St. Jerome, who translated the Bible into Latin, defended his method in a letter to his friend Pammachius. In the translation of W. H. Fremantle he writes: “For I myself not only admit but freely proclaim that in translating from the Greek—except of course in the case of the Holy Scriptures, where even the order of the words is a mystery—I render sense for sense and not word for word” (<i>Epistula</i> 57.5). He cites Cicero as his authority.</p>
+  body: `<p>St. Jerome, who translated the Bible into Latin, defended his method in a letter to his friend Pammachius. He says that in translating from the Greek, except in the case of the Holy Scriptures, where even the order of the words is a mystery, he renders not word for word but sense for sense (<i>Epistula</i> 57.5, in paraphrase), and he cites Cicero as his authority.</p>
 <p>Jerome’s exception is important. For most texts he follows Cicero and renders the sense; for Scripture he holds that the words and even their order may carry meaning, so he keeps closer to the original. So the method of translation depends on the kind of text and the purpose of the translation: the more the exact words matter, the closer the translation must keep to them.</p>`,
-  src: `Jerome, <i>Epistula</i> 57.5 (trans. W. H. Fremantle, NPNF; quoted from memory, verify).` },
+  src: `Jerome, <i>Epistula</i> 57.5, in paraphrase (W. H. Fremantle, NPNF, for reference).` },
 
 { id: 'word-sense',
   title: 'Word for word and sense for sense',
@@ -66,7 +66,7 @@ ARS.decks['x.translation'] = {
 { id: 'whorf',
   title: 'An objection: does language shape thought?',
   body: `<p>In the twentieth century some linguists argued that translation is less possible than the classical account supposes. The American linguists Edward Sapir and Benjamin Lee Whorf held that the grammar of a language shapes the way its speakers perceive and think about the world, so that speakers of very different languages think in different ways. This view is often called the <strong>Sapir–Whorf hypothesis</strong>. Whorf argued, for example, that the Hopi language, which does not mark tense as English does, gives its speakers a different conception of time.</p>
-<p>If the strong form of this view were true, translation between very different languages would be impossible, because the concepts themselves would differ. Later study has found that Whorf’s account of Hopi was mistaken in important respects, and most linguists now accept only a weak form of the hypothesis: that a language makes some distinctions easier or more habitual to express than others, without preventing its speakers from understanding distinctions that their language does not mark.</p>`,
+<p>If the strong form of this view were true, translation between very different languages would be impossible, because the concepts themselves would differ. Whorf’s account of Hopi has since been widely disputed, notably by Ekkehart Malotki, who found that Hopi has many expressions for time, and most linguists now accept only a weak form of the hypothesis: that a language makes some distinctions easier or more habitual to express than others, without preventing its speakers from understanding distinctions that their language does not mark.</p>`,
   src: `Whorf, <i>Language, Thought, and Reality</i> (1956); Ekkehart Malotki, <i>Hopi Time</i> (1983); both in paraphrase.` },
 
 { id: 'quine',

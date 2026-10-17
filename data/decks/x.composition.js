@@ -58,9 +58,9 @@ ARS.decks['x.composition'] = {
 
 { id: 'copia',
   title: 'Erasmus and the variety of expression',
-  body: `<p>In 1512 Erasmus published <i>De copia</i> (“On Abundance”), a textbook that taught students to express the same thought in many different ways. Its most famous chapter takes a single Latin sentence, <i>Tuae litterae mē magnopere dēlectārunt</i>, “Your letter pleased me greatly,” and rewrites it in about one hundred and fifty forms, by changing the words, the voice, the construction, and the figures (<i>De copia</i> I.33, in paraphrase).</p>
+  body: `<p>In 1512 Erasmus published <i>De copia</i> (“On Abundance”), a textbook that taught students to express the same thought in many different ways. Its most famous chapter takes a single Latin sentence, <i>Tuae litterae me magnopere delectarunt</i> (“Your letter pleased me greatly”), and rewrites it in nearly two hundred forms, by changing the words, the voice, the construction, and the figures (<i>De copia</i> I.33, in paraphrase).</p>
 <p>The exercise trains the student to see that one thought can be expressed by different constructions, each correct, and that the choice among them is a matter of judgment. “Your letter pleased me greatly,” “I was greatly pleased by your letter,” and “Nothing has given me more pleasure than your letter” say nearly the same thing with different subjects, voices, and figures. So composition draws on the whole of grammar, and the student who can vary a sentence correctly has understood its construction.</p>`,
-  src: `Erasmus, <i>De copia</i> I.33 (Knott, <i>Collected Works of Erasmus</i> 24, for reference), in paraphrase.`,
+  src: `Erasmus, <i>De copia</i> I.33 (Knott, <i>Collected Works of Erasmus</i> 24, for reference), in paraphrase; the Latin sentence and the count (usually given as 195) checked at second hand.`,
   qpTodo: `Varying a sentence: which of several rewritings of a given sentence keeps its meaning and is correctly constructed, and what has been changed (the voice, the subject, the construction).` },
 
 { id: 'quintilian',

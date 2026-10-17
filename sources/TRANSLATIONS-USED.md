@@ -188,16 +188,16 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
 | Quintilian, *Institutio oratoria* | I.9.2–3; X.2.1–2, 4; X.3.1, 5, 9–10 | H. E. Butler (Loeb) | x.composition, x.imitation, x.progymnasmata | checked (Perseus) |
-| Erasmus, *De copia* | I.33 (*Tuae litterae me magnopere delectarunt*) | Betty I. Knott (CWE 24) for reference | x.composition / copia | Latin sentence from memory; **verify**; English ours |
-| Ascham, *The Scholemaster* (1570) | Books I–II | written in English | x.imitation, x.translation | paraphrase; Ascham's own wording not quoted |
-| Petrarch, *Seniles* | XVI.1 (the ink at Liège) | — | x.imitation / petrarch | paraphrase; locus to verify |
-| De Keyser, "The Descendants of Petrarch's *Pro Archia*" (2013) | — | — | x.imitation | cited |
-| Aristotle, *De interpretatione* | 1, 16a5–8 | E. M. Edghill | x.translation / aristotle | as in i.sign (**verify**) |
-| Cicero, *De optimo genere oratorum* | 14 | H. M. Hubbell (Loeb), named in the text | x.translation / cicero | quoted from memory; **verify** |
-| Jerome, *Epistula* 57 | 57.5 | W. H. Fremantle (NPNF), named in the text | x.translation / jerome | quoted from memory; **verify** |
+| Erasmus, *De copia* | I.33 (*Tuae litterae me magnopere delectarunt*) | Betty I. Knott (CWE 24) for reference | x.composition / copia | the Latin sentence **verified at second hand** (several published accounts); macrons removed. **Corrected**: "about one hundred and fifty forms" changed to "nearly two hundred" (the usual count is 195). The English gloss of the sentence is ours (a question for Timothy) |
+| Ascham, *The Scholemaster* (1570) | Books I–II | written in English | x.imitation, x.translation | paraphrase; **still unverified** (no reachable text) |
+| Petrarch, *Seniles* | XVI.1 (the ink at Liège) | — | x.imitation / petrarch | paraphrase; **still unverified** (no reachable text; De Keyser 2013 confirms the Liège discovery of 1333 and the role of Petrarch's copy) |
+| De Keyser, "The Descendants of Petrarch's *Pro Archia*," *Classical Quarterly* 63.1 (2013), 292–328 | — | — | x.imitation | cited |
+| Aristotle, *De interpretatione* | 1, 16a5–8 | E. M. Edghill | x.translation / aristotle | **verified** (Edghill's text, *The Complete Aristotle*, found by an exact-phrase search); same wording as i.sign |
+| Cicero, *De optimo genere oratorum* | 14 | H. M. Hubbell (Loeb) for reference | x.translation / cicero | **corrected**: the English quoted from memory and the translator's name in the card were removed. The Latin (*nec converti ut interpres, sed ut orator … sed genus omne verborum vimque servavi*) is now quoted, **verified** against the Latin Library and Perseus texts, and followed by a paraphrase. Hubbell's wording could be confirmed only in part at second hand |
+| Jerome, *Epistula* 57 | 57.5 | W. H. Fremantle (NPNF) for reference | x.translation / jerome | **corrected**: the English quoted from memory and the translator's name in the card were removed; the card now paraphrases. **Still unverified**: neither the Latin of Letter 57 nor Fremantle's text was reachable |
 | Bruni, *De interpretatione recta* | — | Griffiths, Hankins, and Thompson (1987) for reference | x.translation / bruni | paraphrase |
-| Quine, *Word and Object* (1960); Whorf (1956); Malotki, *Hopi Time* (1983) | — | — | x.translation | paraphrase |
-| Kennedy, *Progymnasmata* (2003) | pp. x, xiii, 2, 8–9, 74, 96–124, 133, 135, 139, 147–48, 176–77 | Kennedy (Theon, [Hermogenes], Aphthonius, Nicolaus, John of Sardis) | x.progymnasmata | quoted only from sources/KENNEDY-FABLE-AND-ORDER.md, with its page numbers |
+| Quine, *Word and Object* (1960); Whorf (1956); Malotki, *Hopi Time* (1983) | — | — | x.translation | paraphrase. **Changed** under L.4: Whorf's account of Hopi is now "widely disputed" (with Malotki named as the principal critic), not "mistaken" |
+| Kennedy, *Progymnasmata* (2003) | pp. x, xiii, 2, 8–9, 74, 96–124, 133, 135, 139, 147–48, 176–77 | Kennedy (Theon, [Hermogenes], Aphthonius, Nicolaus, John of Sardis) | x.progymnasmata | quoted only from sources/KENNEDY-FABLE-AND-ORDER.md, with its page numbers. **Changed** under the new rule (REVISION-GUIDE M): "trans. Kennedy" and the page numbers removed from the card text (they remain in each card's source line), and Kennedy is no longer introduced in the text as the translator |
 
 ### Section XI
 
