@@ -113,20 +113,27 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Priscian, *Institutiones grammaticae* | II.15 (definition of *oratio*); XVII–XVIII | no published English translation | v.congruity, v.order, v.mood | Latin definition quoted; otherwise paraphrase |
-| Thomas of Erfurt, *Grammatica speculativa* | on construction, congruity, completeness | G. L. Bursill-Hall for reference | v.congruity, v.agreement, v.dependence | paraphrase |
-| Peter Helias, *Summa super Priscianum* | suppositum/appositum; regimen | no published English translation | v.congruity, v.government | paraphrase |
-| Tesnière, *Éléments de syntaxe structurale* | stemma; valency | Osborne and Kahane (2015) for reference | v.dependence | paraphrase; "Book A," "Book D" loci to verify |
+| Priscian, *Institutiones grammaticae* | II.15 (*oratio est ordinatio dictionum congrua, sententiam perfectam demonstrans*; the dialecticians' two parts) | no published English translation | v.congruity / priscian | **verified**; macrons removed. **Corrected**: the draft said Priscian holds that the sentence is deficient if the noun or verb is taken away; II.15 instead reports that the dialecticians counted only these two parts because they alone make a complete sentence. The card now says this, in paraphrase |
+| Priscian, *Institutiones grammaticae* | XVII–XVIII | no published English translation | v.congruity, v.dependence, v.order, v.mood | paraphrase; **still unverified** (the reachable transcription ends in Book XI) |
+| Thomas of Erfurt, *Grammatica speculativa* | on construction, congruity, completeness | G. L. Bursill-Hall for reference | v.congruity, v.agreement, v.dependence | paraphrase; **still unverified** (no reachable text) |
+| Peter Helias, *Summa super Priscianum* | suppositum/appositum; regimen | no published English translation | v.congruity, v.government | paraphrase; **still unverified** |
+| Tesnière, *Éléments de syntaxe structurale* | Book A (connection, stemma); Book D (valency) | Osborne and Kahane (2015) for reference | v.dependence | paraphrase; Book A **verified at second hand** (the translation's table of contents); Book D **still unverified** |
 | Quintilian, *Institutio oratoria* | IX.4.22, 23, 24, 26, 29, 32 | H. E. Butler (Loeb) | v.order, v.period | checked (Perseus) |
 | Greenberg, "Some Universals of Grammar" (1963) | Universals 3–4 | — | v.order | paraphrase |
-| Aristotle, *Rhetoric* | III.9.2–6 | J. H. Freese (Loeb) — used instead of W. Rhys Roberts, because Freese is on Perseus and could be checked | v.period | checked (Perseus) |
-| Demetrius, *On Style* | 16 | W. Rhys Roberts for reference | v.period / members | paraphrase; "no more than four members" locus to verify |
-| Cicero, *Pro Archia* | 1 | Latin ed. A. C. Clark; trans. C. D. Yonge | v.period / cicero | checked (Perseus); macrons added to the Latin (decide whether macrons may be added to quotations) |
+| Aristotle, *Rhetoric* | III.9.2–6 | J. H. Freese (Loeb), accepted by Timothy (L.1) | v.period | checked (Perseus) |
+| Demetrius, *On Style* | 16 | W. Rhys Roberts for reference | v.period / members | **verified** against the Greek (the largest periods have four members; more than four exceed the proportion of a period); the paraphrase was made more exact |
+| Cicero, *Pro Archia* | 1 | Latin ed. A. C. Clark; trans. C. D. Yonge | v.period / cicero, cicero-analysis | checked (Perseus); **corrected** under L.2: the added macrons were removed and the Latin now follows Clark exactly, including the lower-case *si* |
 | Declaration of Independence | first sentence | — | v.period / english | public text |
-| Virgil, *Aeneid* | I.4 | T. C. Williams (“stern Juno’s sleepless wrath”); word-for-word gloss ours | v.order / latin-freedom | checked (Perseus) |
-| Virgil, *Aeneid* | I.16–17, I.573, II.353; *Georgics* II.192 | our renderings | v.figures | Latin from memory; **verify** |
-| Cicero, *Laelius* | 79 (*omnia praeclara rara*) | our rendering | v.figures / ellipsis | **verify** locus |
-| Shakespeare, Bacon, Milton, Macaulay, Johnson, Pope, KJV | as cited | — | v.phrase, v.clause, v.figures, v.agreement, v.order | English texts; spelling as in the editions quoted (Milton "waite," Shakespeare "strain'd") — verify against chosen editions |
+| Virgil, *Aeneid* | I.4 | T. C. Williams (“stern Juno’s sleepless wrath”); word-for-word gloss ours | v.order / latin-freedom, construing | checked (Perseus); macrons removed from the quoted line and from its construed order. The word-for-word gloss is a question for Timothy |
+| Virgil, *Aeneid* | I.16–17 (*hic illius arma, / hic currus fuit*) | T. C. Williams, "Here were her arms, her chariot" | v.figures / syllepsis | **corrected**: our rendering replaced by Williams's (checked against Perseus); Donatus's use of the line as his example of syllepsis **verified** (*Ars maior* III.5) |
+| Virgil, *Aeneid* | I.573 (*urbem quam statuo, vestra est*) | T. C. Williams, "I build this city for your own" | v.figures / sense-case | **corrected**: our rendering replaced by Williams's; the grammar is now explained word by word. Donatus's use of the line as a case put for a case **verified** (*Ars maior* III.2) |
+| Virgil, *Aeneid* | I.32 (*maria omnia circum*); II.353 (*moriamur et in media arma ruamus*) | — | v.figures / order-figures | Latin **verified** (Perseus); **corrected**: our renderings removed (Williams's version of II.353, "Let us fight unto the death!", does not show the figure), and the words are glossed singly instead. Donatus's examples *Italiam contra* and the classification of anastrophe and hysteron proteron under hyperbaton (*Ars maior* III.6) **added** |
+| Virgil, *Georgics* | II.192 (*pateris libamus et auro*) | James Rhoades, "We pour to heaven from bowls of gold" | v.figures / hendiadys | **corrected**: our rendering replaced by Rhoades's (checked against Perseus) |
+| Cicero, *Laelius* | 79 (*omnia praeclara, rara*) | W. A. Falconer (Loeb), "everything splendid is rare" | v.figures / ellipsis | **verified**: locus 79 confirmed; the Latin now printed as the Perseus edition prints it (with the comma); our rendering replaced by Falconer's |
+| Donatus, *Ars maior* | III.2 (*soloecismus in prosa oratione, in poemate schema nominatur*); III.3 (*eclipsis*, *haec secum*); III.5 (zeugma, syllepsis); III.6 (hyperbaton and its kinds) | no published English translation | v.figures | **verified**; quoted or added as confirmation |
+| Linacre, *De emendata structura Latini sermonis* (1524) | VI | — | v.figures / donatus-words | **still unverified** (book number; no reachable text) |
+| Shakespeare, Bacon, Milton, Johnson, Pope, KJV | as cited | — | v.phrase, v.clause, v.figures, v.agreement, v.order | **verified** against: Shakespeare, Project Gutenberg Complete Works (#100); Bacon, *Essays* (Gutenberg #575); Milton, *Paradise Lost* (Gutenberg #20, 1674 text) and Sonnet XIX (Beeching's edition, Gutenberg #1745, 1673 text, where it is numbered XVI: “They also serve who only stand and waite”); Pope, *The Rape of the Lock* (Gutenberg #9800); KJV (Romans 6:23; Acts 3:6). **Corrected**: *Paradise Lost* I.1–6 now in the 1674 spelling (“Of Mans First Disobedience … Sing Heav’nly Muse”); Johnson, *Rasselas* ch. 11, now without the comma before “and,” as in the only edition reached (Standard Ebooks, which modernizes spelling; the 1759 text **still unverified**) |
+| Macaulay, “Lord Clive” | “Every schoolboy knows who imprisoned Montezuma, and who strangled Atahualpa” | — | v.clause / noun-clause | **still unverified** (no reachable text) |
 
 ### Section VI
 

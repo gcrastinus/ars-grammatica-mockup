@@ -39,7 +39,7 @@ ARS.decks['v.clause'] = {
 
 { id: 'adjective-clauses',
   title: 'Adjective clauses',
-  body: `<p>An <strong>adjective clause</strong>, also called a <strong>relative clause</strong>, depends on a noun and tells which one or what kind. It usually begins with a relative pronoun, “who,” “which,” or “that,” which refers to the noun. Milton writes, “They also serve who only stand and waite” (Sonnet XIX), where the clause “who only stand and waite” depends on “they” and tells which people serve. Johnson writes of “a state in which much is to be endured, and little to be enjoyed” (<i>Rasselas</i>, ch. 11), where the clause depends on “state.”</p>
+  body: `<p>An <strong>adjective clause</strong>, also called a <strong>relative clause</strong>, depends on a noun and tells which one or what kind. It usually begins with a relative pronoun, “who,” “which,” or “that,” which refers to the noun. Milton writes, “They also serve who only stand and waite” (Sonnet XIX), where the clause “who only stand and waite” depends on “they” and tells which people serve. Johnson writes of “a state in which much is to be endured and little to be enjoyed” (<i>Rasselas</i>, ch. 11), where the clause depends on “state.”</p>
 <p>We saw that the Latin relative pronoun agrees with its antecedent in gender and number and takes its case from its own clause: <i>nauta quem laudāvimus</i>, “the sailor whom we praised.” The relative clause therefore joins two constructions: the relative belongs by its gender and number to the main clause and by its case to the dependent clause.</p>`,
   src: `Milton, Sonnet XIX (1673 spelling); Johnson, <i>Rasselas</i>, ch. 11; Allen and Greenough, <i>New Latin Grammar</i> §§ 303–308.`,
   qpTodo: `Adjective clauses: in a given sentence, mark the relative clause, give the noun it depends on, and say what case the relative would have in Latin and why.` },
@@ -72,7 +72,7 @@ ARS.decks['v.clause'] = {
 
 { id: 'johnson',
   title: 'Analyzing a sentence of Johnson',
-  body: `<p>Johnson has Imlac say: “Human life is everywhere a state in which much is to be endured, and little to be enjoyed” (<i>Rasselas</i>, ch. 11). The independent clause is “Human life is everywhere a state,” with the pattern of subject, linking verb, and predicate noun. The clause “in which much is to be endured, and little to be enjoyed” depends on “state,” so it is an adjective clause. Within it, “and” joins “much is to be endured” to “little to be enjoyed,” where “is” is understood.</p>
+  body: `<p>Johnson has Imlac say: “Human life is everywhere a state in which much is to be endured and little to be enjoyed” (<i>Rasselas</i>, ch. 11). The independent clause is “Human life is everywhere a state,” with the pattern of subject, linking verb, and predicate noun. The clause “in which much is to be endured and little to be enjoyed” depends on “state,” so it is an adjective clause. Within it, “and” joins “much is to be endured” to “little to be enjoyed,” where “is” is understood.</p>
 <p>The whole sentence is complex, not compound, because it has only one independent clause. This is the kind of analysis that every sentence admits: we find the independent clause and its pattern, then each dependent clause and the word on which it depends, then the phrases and single words that depend within each clause.</p>`,
   src: `Johnson, <i>Rasselas</i>, ch. 11.`,
   qpTodo: `Analysis: in a given sentence, find the independent clause and its pattern, and each dependent clause with the word on which it depends.` }
