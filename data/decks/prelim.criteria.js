@@ -19,8 +19,8 @@ ARS.decks['prelim.criteria'] = {
 
 { id: 'reason',
   title: 'What is reason, and how do analogy and etymology support it?',
-  body: `<p>The first criterion is reason (<i>ratio</i>). Quintilian says: “Reason finds its chief support in analogy and sometimes in etymology” (I.6.1). Analogy here is the comparison of a doubtful form with a certain one of the same kind as a standard, one about which there is no doubt. Quintilian defines it as “the testing of all subjects of doubt by the application of some standard of comparison about which there is no question, the proof that is to say of the uncertain by reference to the certain” (I.6.4). So, to take some simple examples, because the plural of “cat” is “cats” and of “dog” is “dogs,” the plural of “zebra” is “zebras”; and Quintilian decides between <i>domuum</i> and <i>domorum</i> (“of houses”) by comparison with words of the same declension, such as <i>anus</i> (“old woman”) and <i>manus</i> (“hand”) (I.6.5).</p>
-<p>Etymology, the study of the origin of words or phrases, does not always support reason, because the origin of a word does not always settle how it is used now. The origin of words or phrases here has two meanings: first, the causes that brought about the formation of the word and its use in past ages; and, second, the words or forms that are used to make up the given word or phrase, since what the parts are can partly determine what the whole is.</p>`,
+  body: `<p>The first criterion is reason (<i>ratio</i>). Quintilian says: “Reason finds its chief support in analogy and sometimes in etymology” (I.6.1). <strong>Analogy</strong> here is the comparison of a doubtful form with a certain one of the same kind as a standard, one about which there is no doubt. Quintilian defines it as “the testing of all subjects of doubt by the application of some standard of comparison about which there is no question, the proof that is to say of the uncertain by reference to the certain” (I.6.4). So, to take some simple examples, because the plural of “cat” is “cats” and of “dog” is “dogs,” the plural of “zebra” is “zebras”; and Quintilian decides between <i>domuum</i> and <i>domorum</i> (“of houses”) by comparison with words of the same declension, such as <i>anus</i> (“old woman”) and <i>manus</i> (“hand”) (I.6.5).</p>
+<p><strong>Etymology</strong>, the study of the origin of words or phrases, does not always support reason, because the origin of a word does not always settle how it is used now. The origin of words or phrases here has two meanings: first, the causes that brought about the formation of the word and its use in past ages; and, second, the words or forms that are used to make up the given word or phrase, since what the parts are can partly determine what the whole is.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1, I.6.4–5.`,
   qp: { id: 'q-reason', variants: [
     { prompt: `A child says “goed” because the past tense of “walk” is “walked.” Which criterion is the child following?`,
@@ -38,9 +38,9 @@ ARS.decks['prelim.criteria'] = {
   ]}},
 
 { id: 'antiquity',
-  title: 'What is antiquity?',
+  title: 'What is the criterion of antiquity?',
   body: `<p>The second criterion, antiquity (<i>vetustas</i>), is the standard of older speech. Quintilian says: “Archaic words not only enjoy the patronage of distinguished authors, but also give style a certain majesty and charm” (I.6.39). But he adds that “such words must be used sparingly and must not thrust themselves upon our notice” (I.6.40).</p>
-<p>Antiquity therefore makes a word acceptable in some kinds of speech, as “thou art” is still acceptable in the reading of Scripture and in prayer; but it does not by itself make an old word the ordinary form.</p>`,
+<p>Antiquity therefore makes a word acceptable in some kinds of speech, as “thou art” is still acceptable in the reading of Scripture and in prayer, as in the “Our Father”; but it does not by itself make an old word the ordinary form. For example, some poets even up to the twentieth century used forms like “thine” and “thou” although that was no longer common speech; in our time it is less common to use these older forms but it is certainly possible if done well.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.39–41; Ecclesiastes 12:1 (King James Version).` },
 
 { id: 'authority',
