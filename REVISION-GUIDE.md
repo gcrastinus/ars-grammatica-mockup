@@ -238,3 +238,7 @@ L addendum (Oct 17, after Claude's revision pass):
 5. Item types: "whatever makes sense." Multiple choice where the answer is a judgment; typed answers where a form, a count, or a division is exact; clicking a syllable or word where the task is to find it in the text.
 6. Balance of the reviews: left to Claude (proportional to the size of the decks).
 7. Questions: "make them good questions and make as many as seems like a good practice." Timothy wants fairly extensive questions and answers in the course, drawing on as much of the older app's developed material as possible.
+
+## O. Log: I.3 Signification and Consignification (17 Oct 2026)
+
+- I.3 Signification and Consignification: deck rebuilt Oct 17 as a full theory (accidents, modes of signifying, composition in the verb); awaiting Timothy's review. Eleven cards, argument first with authorities last; new question point q-modes; goat-stag quotation corrected to Edghill's exact wording; structure.js description updated.

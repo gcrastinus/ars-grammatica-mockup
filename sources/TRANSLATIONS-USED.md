@@ -34,6 +34,8 @@ No translator is named in the text (CLAUDE.md, "Translators"). Quotations marked
 | Aristotle, *De interpretatione* | 1, 16a3–8; 1, 16a16–18 | E. M. Edghill (Oxford) | i.sign / aristotle, same-for-all; i.consignification / not-true | **verify** |
 | Aristotle, *De interpretatione* | 2, 16a19–22; 2, 16a26–29 | E. M. Edghill | i.imposition / what-imposition, not-by-nature; i.consignification / time-in-verb, parts-no-meaning | **verify** (the live app quotes 16a26–29 in Ackrill’s wording instead) |
 | Aristotle, *De interpretatione* | 3, 16b6–7 | E. M. Edghill | i.consignification / consignification, why-time | **verify** |
+| Aristotle, *De interpretatione* | 1, 16a13–18 (“man” and “white”; goat-stag); 3, 16b19–25 (“imply a copulation…”) | E. M. Edghill, checked word for word against classics.mit.edu (Oct 17) | i.consignification / not-true, composition; qp q-not-true | checked (goat-stag now in Edghill’s exact wording; the earlier deck’s wording was not Edghill’s) |
+| St. Thomas, *In Peri hermeneias* | I, lect. 5, nn. 5, 7, 15–22 (Latin lemma *consignificat autem quamdam compositionem*) | Latin checked at corpusthomisticum.org | i.consignification / cursus-curro, why-time, composition | Latin checked; English is reference, not quotation |
 | Aristotle, *De interpretatione* | 4, 17a1–7 | E. M. Edghill | i.functions / aristotle, rhetoric-poetry | **verify** |
 | Aristotle, *Sophistical Refutations* | 4 | — (paraphrase; W. A. Pickard-Cambridge for reference) | i.ambiguity | paraphrase |
 | Quintilian, *Institutio oratoria* | VII.9.1, 2, 6, 8, 9 | H. E. Butler (Loeb), checked against the Perseus text; only passages free of scanning errors are quoted | i.ambiguity | checked (Perseus) |
