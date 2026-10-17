@@ -147,3 +147,14 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Suetonius, *Divus Julius* | 37 (*veni, vidi, vici*) | — | vii.schemata | standard |
 | KJV; Shakespeare; Coleridge | Matthew 5:3–5, 7:25, 16:18; John 1:1; 1 Corinthians 9:9; *Hamlet* I.2; *The Tempest* I.2; Sonnet 116; *Ancient Mariner* IV | — | vii.* | English texts; verify spellings against chosen editions |
 | Bede, *De schematibus et tropis* | — | Calvin B. Kendall for reference | vii.tropes | named only |
+
+### Section VIII
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Peter of Spain, *Tractatus* | I, VI, XI, XII | Brian Copenhaver et al. (2014) for reference | viii.* | paraphrase (definitions of signification and supposition given in substance) |
+| William of Sherwood, *Introductiones in logicam* V; *Syncategoremata* | — | Norman Kretzmann for reference | viii.supposition | paraphrase |
+| Ockham, *Summa logicae* | I.63–64, 70, 72–74 | Michael Loux for reference | viii.supposition | paraphrase; chapter numbers to verify |
+| Aristotle, *De interpretatione*; *Sophistical Refutations* | 4–7, 10 (19b19–22); SE 4 | Edghill; Pickard-Cambridge for reference | viii.equivalents | paraphrase |
+| Arnauld and Lancelot, *Grammaire générale et raisonnée* (1660); Arnauld and Nicole, *Logique* (1662) | Grammar II, II.9; Logic I.8 | Rieux and Rollin (1975) for reference | viii.equivalents / port-royal, relative | paraphrase; loci to verify |
+| Chomsky, *Cartesian Linguistics* (1966) | — | — | viii.equivalents / ug-1 to ug-4 | paraphrase |

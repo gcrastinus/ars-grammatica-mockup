@@ -101,8 +101,8 @@ ARS.structure = [
  { id:'viii', roman:'VIII', latin:'De significatione et suppositione', name:'Signification and Supposition',
    gloss:'What a term stands for in a proposition, and how the forms of logic appear in grammar.',
    items:[
-   { id:'viii.supposition', kind:'study-ex', title:'Supposition', desc:'Signification reviewed, and material, simple, and personal supposition.' },
-   { id:'viii.equivalents', kind:'study', title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' }
+   { id:'viii.supposition', kind:'study-ex', built:true, title:'Supposition', desc:'Signification reviewed, and material, simple, and personal supposition.' },
+   { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' }
  ]},
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',
