@@ -19,7 +19,7 @@ ARS.decks['i.imposition'] = {
   src: ``, },
 
 { id: 'not-by-nature',
-  title: 'Why do words signify by imposition and not by nature?',
+  title: 'Imposition and convention',
   body: `<p>Aristotle explains why he added “by convention” to the definition: “nothing is by nature a noun or name—it is only so when it becomes a symbol; inarticulate sounds, such as those which brutes produce, are significant, yet none of these constitutes a noun” (<i>De interpretatione</i> 2, 16a26–29). A groan or the bark of a dog signifies something by nature, as we saw with natural signs; but it is not a word, because no one has given it a meaning.</p>
 <p>The clearest evidence that words signify by imposition is that languages differ. If the sound of a word signified by nature, every people would use the same sound for the same thing, as every people groans in the same way. Even words that imitate a sound are imposed: the cry of a rooster is “cock-a-doodle-doo” in English and <i>cocorico</i> in French, and the sound of a bee is “buzz” in English. These words are chosen because they resemble a natural sound, but each language has chosen its own, and so they too signify by imposition.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 2, 16a26–29.`,
