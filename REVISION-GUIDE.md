@@ -180,3 +180,15 @@ These come from comparing the drafts with the text Timothy wrote himself for "Pr
 - **Plain modern wording inside quoted translations where he chose it.** "sanctioning" → "giving their approval to" (Quintilian I.6.42). As in section D, flag any such change to a published translation for him rather than making it on your own.
 - **Simple examples are announced as such.** "to take some simple examples," "To take a simple example." He signals the level of an example before giving it.
 - **Only as much history as the point needs.** On "went" he asked for the simpler historical account rather than the fuller one with Old English forms. Give only as much history as the point needs.
+
+## L. Timothy's answers to the Sections II–XI draft report (17 Oct 2026)
+
+Apply these in the revision pass over Sections II–XI.
+
+1. Translator substitutions are accepted: Freese for Aristotle's *Rhetoric* and Smart for Horace's *Ars poetica*, because both could be checked word for word on Perseus.
+2. No macrons in quotations. Quote Latin exactly as the cited edition prints it, and remove any macrons added to quoted passages (e.g., Pro Archia 1). Macrons may stay in teaching examples, where they show quantity.
+3. Sanskrit, Arabic, and Hebrew stay in transliteration for now in XI.1. Chinese stays in characters.
+4. Whorf (X.3): keep the point, but change "mistaken" to "widely disputed."
+5. Kimḥi and the KJV (XI.1): either give a reliable source for the claim or cut it.
+6. Every quotation or locus marked "must be checked" in sources/TRANSLATIONS-USED.md must be verified against the source, or flagged again, before anything goes to the live app. This covers the Donatus and Priscian loci, the Latin and English quoted from memory, and Claude's own renderings, which need a published translation or Timothy's.
+7. Still for Timothy to judge as he reads: the coined terms (posituræ names, "literate voice," "figures of order," the names of the six writings, the grouping of the tropes), the usage verdicts ("If I were king…," "literally"), "rewritable" and "unfriend," the tone of the closing card (XI.2), and whether the Pro Archia card (X.2) and IX.3 say too much about the course itself. Leave these as drafted until he decides.
