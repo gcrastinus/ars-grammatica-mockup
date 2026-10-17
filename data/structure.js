@@ -17,12 +17,12 @@ ARS.structure = [
  { id:'i', roman:'I', latin:'De signo et voce significativa', name:'Sign and Significant Voice',
    gloss:'What a word is as a sign: imposed, signifying, and joined to other words.',
    items:[
-   { id:'i.sign', kind:'study', title:'Sign and Symbol', desc:'Natural and given signs, and the spoken word as a symbol of what is in the mind.' },
-   { id:'i.imposition', kind:'study', title:'Imposition', desc:'How does a sound come to signify by the will of those who first used it? What are first and second imposition?' },
-   { id:'i.consignification', kind:'study', title:'Signification and Consignification', desc:'What does a word mean, and what does it signify along with that meaning, such as time?' },
-   { id:'i.syncategorematic', kind:'study', title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
-   { id:'i.functions', kind:'study', title:'The Functions of Language', desc:'Stating, asking, commanding, wishing, and expressing feeling, and why only the statement is true or false.' },
-   { id:'i.ambiguity', kind:'study', title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
+   { id:'i.sign', kind:'study', built:true, title:'Sign and Symbol', desc:'Natural and given signs, and the spoken word as a symbol of what is in the mind.' },
+   { id:'i.imposition', kind:'study', built:true, title:'Imposition', desc:'How does a sound come to signify by the will of those who first used it? What are first and second imposition?' },
+   { id:'i.consignification', kind:'study', built:true, title:'Signification and Consignification', desc:'What does a word mean, and what does it signify along with that meaning, such as time?' },
+   { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
+   { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, wishing, and expressing feeling, and why only the statement is true or false.' },
+   { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
    { id:'i.ex.sign', kind:'exercise', title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
