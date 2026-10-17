@@ -119,7 +119,7 @@ ARS.decks['i.sign'] = {
 { id: 'why-grammar',
   title: 'Why does grammar begin with the sign?',
   body: `<p>We have now seen what a sign is, how natural signs differ from conventional signs, and how the spoken word signifies things by means of concepts. Grammar begins here because its material is speech, and speech is made of conventional signs. A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he can study the sounds themselves, their letters and syllables, and the ways in which words are formed and arranged.</p>
-<p>This order also explains why grammar is not the same as the study of sounds in natural philosophy or in modern phonetics. A groan, a cough, and the word “horse” are all sounds, but only the word belongs to grammar, because only the word signifies by the agreement of those who use it. How a sound comes to signify in this way is the question of imposition, which belongs to this section as well; and the sounds themselves are the subject of Section II, The Matter of Speech.</p>`,
+<p>This order also explains why grammar is not the same as the study of sounds in natural philosophy or in modern phonetics. A groan, a cough, and the word “horse” are all sounds, but only the word belongs to grammar, because only the word signifies by the agreement of those who use it. How a sound comes to signify in this way is the question of imposition, which we consider next in this section of the course, and the sounds themselves are the subject of Section II, The Matter of Speech.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II; Aristotle, <i>De interpretatione</i> 1–2.` }
 
   ]
