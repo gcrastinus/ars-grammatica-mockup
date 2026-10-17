@@ -32,3 +32,6 @@
   .deck-nav .btn{flex:1}
   .q-head{flex-wrap:wrap}
 }
+
+.qp-todo{border-style:dashed; opacity:.75}
+.qp-todo .q-prompt{font-size:16px; font-style:italic; color:var(--ink-soft)}

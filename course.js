@@ -98,6 +98,9 @@ function renderPanel(){
     (i === 0 && deck.sources ? `<div class="psrc"><b>Sources</b>${deck.sources}</div>` : '');
   body.appendChild(panel);
   if (p.qp) body.appendChild(renderQP(p.qp));
+  // A question point not yet written: shown as a marked placeholder for review (qpTodo: what it will test).
+  if (!p.qp && p.qpTodo){ const t = document.createElement('div'); t.className = 'q-box qp qp-todo';
+    t.innerHTML = `<div class="qp-label"><span>Question point (to be written)</span></div><div class="q-prompt">${p.qpTodo}</div>`; body.appendChild(t); }
   $('deck-prev').disabled = i === 0;
   $('deck-next').textContent = i === n - 1 ? 'Finish' : 'Next →';
   updateNext();
