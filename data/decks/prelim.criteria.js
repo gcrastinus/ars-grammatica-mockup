@@ -44,9 +44,9 @@ ARS.decks['prelim.criteria'] = {
   src: `Quintilian, <i>Institutio oratoria</i> I.6.39–41; Ecclesiastes 12:1 (King James Version).` },
 
 { id: 'authority',
-  title: 'What is authority?',
+  title: 'What is the criterion of authority?',
   body: `<p>The third criterion, authority (<i>auctoritas</i>), is the standard of the best authors. Quintilian says: “Authority as a rule we derive from orators and historians” (I.6.2). He gives poets less weight, because they are allowed some license for the sake of the meter.</p>
-<p>But authority has limits. Quintilian warns that “it is important to notice not merely what they said, but what words they succeeded in sanctioning” (I.6.42). A form used once by a good author does not become correct unless other speakers and writers have accepted it.</p>`,
+<p>But authority has limits. Quintilian warns that “it is important to notice not merely what they said, but what words they succeeded in giving their approval to” (I.6.42). A form used once by a good author does not become correct unless other speakers and writers have accepted it.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.2, I.6.42.` },
 
 { id: 'usage',
