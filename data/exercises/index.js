@@ -1,0 +1,5 @@
+/* Exercise sets and section reviews whose data files exist (plan and stubs), Sections II–XI.
+   deckEx maps a deck to the exercise set opened from that deck's Exercise button. */
+window.ARS = window.ARS || {};
+ARS.exerciseFiles = ["ii.ex.syllable", "ii.ex.quantity", "ii.review", "iii.ex.parts", "iii.ex.figure", "iii.ex.nouns", "iii.ex.pronouns", "iii.ex.verbs", "iii.ex.participles", "iii.review-declinable", "iii.review-indeclinable", "iv.review", "v.review", "vi.review", "vii.ex.literal", "vii.ex.schemata", "vii.ex.tropes", "vii.review", "viii.ex.supposition", "ix.ex.sentences", "ix.ex.passages", "ix.ex.marking", "x.ex.imitation"];
+ARS.deckEx = {"ii.syllable": "ii.ex.syllable", "ii.quantity": "ii.ex.quantity", "iii.parts": "iii.ex.parts", "iii.figure": "iii.ex.figure", "iii.pronoun": "iii.ex.pronouns", "iii.participle": "iii.ex.participles", "vii.literal": "vii.ex.literal", "vii.schemata": "vii.ex.schemata", "vii.tropes": "vii.ex.tropes", "viii.supposition": "viii.ex.supposition", "ix.sentences": "ix.ex.sentences", "ix.passages": "ix.ex.passages", "ix.marking": "ix.ex.marking", "x.imitation": "x.ex.imitation"};
