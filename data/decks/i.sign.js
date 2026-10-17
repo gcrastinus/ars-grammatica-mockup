@@ -54,9 +54,10 @@ ARS.decks['i.sign'] = {
 
 { id: 'aristotle',
   title: 'The spoken word as a sign of what is in the mind',
-  body: `<p>Aristotle begins his short work on the statement, <i>De interpretatione</i> (in Greek <i>Peri hermeneias</i>, “On Interpretation”), with the account of words that the whole later tradition followed: “Spoken words are the symbols of mental experience and written words are the symbols of spoken words” (<i>De interpretatione</i> 1, 16a3–4). The “mental experience” here is what the tradition calls a concept, that is, what the mind forms within itself when it understands something.</p>
-<p>So there are three steps. The written word “horse” is a sign of the spoken word; the spoken word is a sign of the concept of a horse in the mind; and the concept, in turn, is of the horse itself. In the same way, the Latin <i>equus</i> written on the page signifies the Latin word as it is spoken, and the spoken word signifies the concept of a horse in the mind of someone who knows Latin.</p>`,
-  src: `Aristotle, <i>De interpretatione</i> 1, 16a3–8.` },
+  body: `<p>When we hear the word “horse,” our mind is led to a horse, but not directly. The sound “horse” has no natural likeness to a horse, as we have seen, and so it cannot by itself bring the animal to mind. What it brings to mind is what we already understand when we understand what a horse is. That understanding is the concept, that is, what the mind forms within itself when it understands something. The concept is itself a sign of a special kind: we do not first notice it and then think of the horse; in conceiving, we simply know the horse. So the spoken word signifies the concept directly, and through the concept it signifies the thing.</p>
+<p>Writing adds one more step. The written word “horse” is a sign of the spoken word; the spoken word is a sign of the concept; and the concept, in turn, is of the horse itself. In the same way, the Latin <i>equus</i> written on the page signifies the Latin word as it is spoken, and the spoken word signifies the concept of a horse in the mind of someone who knows Latin.</p>
+<p>The whole later tradition took this account from the opening of Aristotle’s short work on the statement, <i>De interpretatione</i> (in Greek <i>Peri hermeneias</i>, “On Interpretation”): “Spoken words are the symbols of mental experience and written words are the symbols of spoken words” (<i>De interpretatione</i> 1, 16a3–4). The “mental experience” Aristotle speaks of is the concept.</p>`,
+  src: `John of St. Thomas, <i>Tractatus de signis</i>, in paraphrase; Aristotle, <i>De interpretatione</i> 1, 16a3–4.` },
 
 { id: 'same-for-all',
   title: 'Why do words differ while concepts are the same?',
