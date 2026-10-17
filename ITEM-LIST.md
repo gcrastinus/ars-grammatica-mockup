@@ -106,7 +106,7 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 - Sources: Diomedes, citing Varro (rule 9); Dionysius Thrax, *Technē* 1 (trans. Alan Kemp, 1986); Quintilian I.4 (Butler)
 - Reuse: `prelim`, the panels on the grammarian's work
 
-**P.3 Principles and Interpretation** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
+**P.3 Precepts and Interpretation** `[prelim.methodice]`. The two parts of grammar: the precepts of the art and the reading of the authors.
 - Panels 6 · QP 2 · Exercise: no
 - Sources: Quintilian I.9.1 (Butler); Vossius, *Aristarchus* I (rule 9)
 - Reuse: none

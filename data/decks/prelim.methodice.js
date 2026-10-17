@@ -1,10 +1,10 @@
-/* P.3 Principles and Interpretation [prelim.methodice] (the id is kept; ids never change)
+/* P.3 Precepts and Interpretation [prelim.methodice] (the id is kept; ids never change)
    Plan (ITEM-LIST.md): 6 panels, 2 question points, each with exactly 3 variants. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['prelim.methodice'] = {
   id: 'prelim.methodice',
-  title: 'Principles and Interpretation',
+  title: 'Precepts and Interpretation',
   sub: 'The two parts of grammar: the precepts of the art and the reading of the authors',
   sources: `Quintilian, <i>Institutio oratoria</i> I.4–9.`,
   panels: [

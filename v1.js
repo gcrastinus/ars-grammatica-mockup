@@ -20,7 +20,7 @@ const ACTS = [
  {key:'s0', roman:'0', latin:'Quid sit grammatica', name:'What Grammar Is', src:'Quintilian I.4; Diomedes; Vossius I',
   gloss:'Grammar as <i>scientia recte loquendi et scribendi</i>: its matter, its offices, and its two parts.', noLang:true,
   topics:[{t:'The Definition of Grammar'},{t:'The Offices of the Grammarian: <i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, <i>iudicium</i>'},
-    {t:'The Two Parts: Principles and Interpretation'},{t:'The Criteria of Correctness: Reason, Antiquity, Authority, Custom'}]},
+    {t:'The Two Parts: Precepts and Interpretation'},{t:'The Criteria of Correctness: Reason, Antiquity, Authority, Custom'}]},
  {key:'s1', roman:'I', latin:'De signo et voce significativa', name:'Sign and Word', src:'Aristotle, <i>De interpretatione</i> 1–4; Priscian II',
   gloss:'What a word is as a sign: imposed, signifying, and joined to other words.',
   topics:[{t:'Sign and Symbol'},{t:'Imposition'},{t:'Signification and Consignification'},{t:'Categorematic and Syncategorematic Words'},
