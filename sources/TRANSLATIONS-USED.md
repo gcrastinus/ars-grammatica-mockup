@@ -56,24 +56,26 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 
 ### Section II
 
+Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars maior*, ed. Holtz 1981; *Ars minor*), Priscian (*Institutiones*, ed. Hertz in Keil, *GL* 2–3), Bede (*De arte metrica*), and Diomedes as transcribed in the *Corpus Grammaticorum Latinorum* (github.com/cltk/latin_text_corpus_grammaticorum_latinorum); Isidore, Varro, Suetonius, and others from The Latin Library (github.com/cltk/lat_text_latin_library); Virgil, Ovid, Catullus, Cicero, Horace, and their English translations from the Perseus Digital Library (github.com/PerseusDL). Holtz prints *u* for consonantal *v*; the cards print *v*, as Keil and the school editions do (a question for Timothy). Following REVISION-GUIDE L.2, quotations are printed without macrons, as the editions print them; macrons remain only in scansions and in the cards' own examples.
+
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Donatus, *Ars maior* | I.1–I.6 | no published English translation | ii.* | Latin of I.1 quoted (definition of *vox*, *omnis vox aut articulata est aut confusa*); otherwise paraphrase |
-| Priscian, *Institutiones grammaticae* | I.1–2; I; II | no published English translation | ii.voice, ii.letter, ii.syllable | paraphrase |
-| Aristotle, *De anima* | II.8, 420b27–33 | J. A. Smith for reference | ii.voice / natural-philosophy | paraphrase |
+| Donatus, *Ars maior* | I.1 (*vox est aer ictus …*; *omnis vox aut articulata est aut confusa*); I.2 (*pars minima vocis articulatae*; *nomen, figura, potestas*; *quaeritur enim, quid vocetur littera, qua figura sit, quid possit*; *h* as a mark of breathing); I.3 (definition of the syllable); I.5 (*toni*, *accentus*, *tenores*; three accents); I.6 (three *positurae*) | no published English translation | ii.* | **verified** against Holtz's text. **Corrected** at ii.quantity / what-accent: Donatus calls the accents *toni* and says that others call them *accentus* or *tenores* (the draft said he himself uses all three names) |
+| Priscian, *Institutiones grammaticae* | I.1–2 (four differences of voice: *articulata, inarticulata, literata, illiterata*, with the examples *arma virumque cano*, whistles and groans, *coax, cra*, *crepitus, mugitus*); II (syllable *sub uno accentu et uno spiritu prolata*; *accidit unicuique syllabae tenor, spiritus, tempus, numerus literarum*) | no published English translation | ii.voice / priscian-four; ii.syllable / what-syllable, accidents | **verified** (paraphrase matches). **Corrected** at ii.syllable / accidents: the list of four accidents of the syllable is Priscian's (*Inst.* II), not Donatus's as drafted |
+| Aristotle, *De anima* | II.8, 420b27–33 | J. A. Smith for reference | ii.voice / natural-philosophy | paraphrase; **still unverified** (no reachable text of the translation) |
 | Quintilian, *Institutio oratoria* | I.4.9; I.5.22; I.7.30–31 | H. E. Butler (Loeb) | ii.letter / quintilian-letters, orthography; ii.quantity / what-accent | checked (Perseus) |
-| Ovid, *Metamorphoses* | XIII.607 | Brookes More (1922) | ii.quantity / common | checked (Perseus; the line is Ovid's, not Virgil's) |
-| Isidore, *Etymologiae* | I.20 | Barney et al. (2006) for reference | ii.punctuation / comma-colon-period | paraphrase |
-| Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase |
-| *ibis redibis nunquam per bella peribis* | — | our rendering of both readings | ii.punctuation / sense | source of the oracle to be verified; renderings to check |
-| Virgil, *Aeneid* | I.1 (and I.3, Latin only) | Theodore C. Williams (1910) | ii.meter / hexameter | checked (Perseus) |
+| Ovid, *Metamorphoses* | XIII.607 | Brookes More (1922) | ii.quantity / common | checked (Perseus) |
+| Isidore, *Etymologiae* | I.4 (names of semivowels and mutes); I.20 (*positurae*: *subdistinctio* = comma, *media distinctio* = colon, *distinctio* = period) | Barney et al. (2006) for reference | ii.letter / consonants; ii.punctuation / comma-colon-period | **verified** against the Latin (paraphrase) |
+| Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase; **still unverified** (no reachable copy) |
+| *ibis redibis nunquam per bella peribis* | — | the two English readings are ours | ii.punctuation / sense | **still unverified**: no ancient source found; the attribution to the Sibyl was removed. The two renderings are glosses that show the two punctuations; a question for Timothy whether such glosses are acceptable |
+| Virgil, *Aeneid* | I.1, I.3 | Theodore C. Williams (1910) | ii.meter / elision, hexameter, caesura | checked (Perseus); macrons removed from the quoted lines (L.2) |
 | Catullus | 5.1; 51.1 | Leonard C. Smithers (1894) | ii.meter / elision, lyric | checked (Perseus) |
 | Homer, *Iliad* | I.1 | A. T. Murray (Loeb) | ii.meter / homer | checked (Perseus) |
-| Ovid, *Amores* | I.1.3–4 | John Dryden | ii.meter / elegiac | checked (Perseus) |
-| Ambrose, *Aeterne rerum conditor* | 1 | “Eternal maker of all things” | ii.meter / hymn | **plain rendering** |
-| Bede, *De arte metrica* | 24 | Calvin B. Kendall (1991) for reference | ii.meter / bede-rhythm | paraphrase |
-| Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase |
-| Racine, *Phèdre* | I.1.1 | “My mind is made up; I am leaving, dear Theramenes” | ii.meter / three-principles | **plain rendering** |
+| Ovid, *Amores* | I.1.2 (*Edere, materia conveniente modis*), I.1.3–4 | John Dryden | ii.meter / elegiac | checked (Perseus); the Latin now printed as the Perseus edition prints it (capital *E*, no macrons) |
+| Ambrose, *Aeterne rerum conditor* | 1 | — | ii.meter / hymn | **corrected**: the plain rendering was removed; the card now describes the hymn instead of translating the line. The Latin is **verified** in Bede, *De arte metrica* 21, who names the hymn as an example of the meter (added to the card) |
+| Bede, *De arte metrica* | 21; 24 | Calvin B. Kendall (1991) for reference | ii.meter / hymn, bede-rhythm | **verified** against the Latin (24: *rithmus … verborum modulata conpositio, non metrica ratione, sed numero syllabarum ad iudicium aurium examinata …; rithmus per se sine metro esse potest, metrum vero sine rithmo esse non potest*) |
+| Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase; **still unverified** (no reachable text) |
+| Racine, *Phèdre* | I.1.1 | — | ii.meter / three-principles | **corrected**: the plain rendering was removed; the card describes the line instead. The French is **still unverified** against an edition (the colon after *pris* follows modern editions from memory) |
 
 ### Section III
 

@@ -47,7 +47,7 @@ ARS.decks['ii.punctuation'] = {
   title: 'Punctuation and sense',
   body: `<p>Because punctuation shows how the words of a sentence go together, a change in the punctuation can change the sense. We saw in Section I that ambiguity can lie in the arrangement of words. In writing, punctuation often settles such an ambiguity. “Let’s eat, Grandpa” invites Grandpa to dinner, while “Let’s eat Grandpa” makes him the dinner. “The teacher said the student was late” and “The teacher, said the student, was late” say opposite things about who was late.</p>
 <p>A well-known Latin example is the oracle reported to a soldier going to war: <i>ibis redibis nunquam per bella peribis</i>. With a pause after <i>redibis</i>, it means “You will go, you will return, never in war will you perish”; with a pause after <i>nunquam</i>, it means “You will go, you will never return, in war you will perish.” The words are the same, and only the division of the sentence decides which prophecy was given.</p>`,
-  src: `The oracle is a traditional school example of uncertain origin (often attributed to the Sibyl); to be verified before any source is named.`,
+  src: `A traditional school example of uncertain origin; no ancient source has been found for it.`,
   qpTodo: `Punctuation and sense: given two punctuations of the same words (“Let’s eat, Grandpa”; <i>ibis redibis nunquam</i>), say what each means and which words the mark separates.` },
 
 { id: 'to-meter',

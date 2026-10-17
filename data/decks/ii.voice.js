@@ -25,7 +25,7 @@ ARS.decks['ii.voice'] = {
 
 { id: 'articulate',
   title: 'Articulate and inarticulate voice',
-  body: `<p>Donatus divides all voice into two kinds: <i>omnis vox aut articulata est aut confusa</i>, “every voice is either articulate or confused.” Articulate voice, he says, is voice that can be written down in letters; confused voice is voice that cannot be written (<i>Ars maior</i> I.1). The usual English term for Donatus’s “confused” voice is <strong>inarticulate</strong> voice.</p>
+  body: `<p>Some voice is made of distinct sounds that letters can record, and some is not. The spoken word “horse” can be written down so that another reader can pronounce it again; a groan cannot. So the first division of voice is between voice that can be written and voice that cannot. Donatus makes this his first division: <i>omnis vox aut articulata est aut confusa</i>, “every voice is either articulate or confused”; articulate voice, he says, is voice that can be grasped in letters, and confused voice is voice that cannot be written (<i>Ars maior</i> I.1). The usual English term for Donatus’s “confused” voice is <strong>inarticulate</strong> voice.</p>
 <p>So the spoken words “horse,” <i>equus</i>, and “run” are articulate voice, because they are made of distinct sounds that letters can record. A groan, the bark of a dog, and the neigh of a horse are inarticulate voice, because no arrangement of letters records them exactly. We may write “ouch” or “woof,” but these are English words that imitate the sounds; they are not the sounds themselves.</p>`,
   src: `Donatus, <i>Ars maior</i> I.1.` },
 
@@ -39,7 +39,7 @@ ARS.decks['ii.voice'] = {
 { id: 'significant',
   title: 'Voice that signifies and voice that does not',
   body: `<p>We saw in Section I that a sign signifies either by nature or by imposition, and the same division applies to voice. A groan signifies pain by nature; the word “pain” signifies it by imposition. Some voice signifies nothing at all, such as a letter sounded by itself, or a nonsense word such as <i>blityri</i>, which the medieval logicians used as their example of an articulate sound with no meaning.</p>
-<p>So articulate voice is not yet a word. The letter B sounded alone is articulate, because it can be written, but it signifies nothing. Only articulate voice that signifies by imposition is a word, and that is why the word is the least part of an expression that signifies, while the voice, the letter, and the syllable are its material.</p>`,
+<p>So articulate voice is not yet a word. The letter B pronounced alone is articulate, because it can be written, but it signifies nothing. Only articulate voice that signifies by imposition is a word, and that is why the word is the least part of an expression that signifies, while the voice, the letter, and the syllable are its material.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 2; Boethius, <i>In Peri hermeneias</i>, in paraphrase.` },
 
 { id: 'groan',
@@ -59,7 +59,7 @@ ARS.decks['ii.voice'] = {
   body: `<p>We have now seen what voice is, how articulate voice differs from inarticulate voice, and why the voice is the material of speech but not yet speech. The study of the matter of speech proceeds in the order of its parts. Articulate voice can be divided into its least parts, which writing records as letters; letters are joined into syllables; and syllables are measured as long or short, and accented, and arranged into feet and lines of verse.</p>
 <p>Each step depends on the one before it, because a letter is a mark of an articulate sound, and a syllable is made of such sounds. So this section considers the letter, the syllable, quantity and accent, the pauses of speech, and the measures of verse, in that order.</p>`,
   src: `Donatus, <i>Ars maior</i> I.1–6.`,
-  qpTodo: `Voice as the material of speech: which of these (a cough, thunder, a groan, the spoken word “horse,” the letter B sounded alone) is voice, which is articulate, and which is a word.` }
+  qpTodo: `Voice as the material of speech: which of these (a cough, thunder, a groan, the spoken word “horse,” the letter B pronounced alone) is voice, which is articulate, and which is a word.` }
 
   ]
 };
