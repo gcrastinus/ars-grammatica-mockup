@@ -67,7 +67,7 @@ ARS.decks['i.consignification'] = {
   ]}},
 
 { id: 'why-time',
-  title: 'Why does the verb consignify time?',
+  title: 'Why does the verb consignify time and the noun not consignify time?',
   body: `<p>The reason the verb consignifies time lies in the way it signifies. When we say “The horse runs,” the verb “runs” signifies the running as going on in the horse and as said of the horse; it signifies an action as happening. But whatever happens, happens at some time, since motion and action are measured by time, and we know actions only as taking place in time. So the word that signifies something as happening also signifies, along with it, when it happens.</p>
 <p>The noun, by contrast, names something that we can speak about, as “horse” does in “The horse runs,” or as “running” does in “Running is good exercise.” It signifies its meaning as a thing under our consideration, not as something going on, and so it does not signify when. St. Thomas gives this reason: it is proper to motion to be measured by time, and actions are known to us in time (<i>In Peri hermeneias</i> I, lect. 5). Aristotle’s definition points the same way, since the verb is always “a sign of something said of something else” (<i>De interpretatione</i> 3, 16b7).</p>`,
   src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 5, nn. 5, 7; Aristotle, <i>De interpretatione</i> 3, 16b7.` },
