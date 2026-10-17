@@ -42,7 +42,7 @@ ARS.decks['prelim.methodice'] = {
   ]}},
 
 { id: 'together',
-  title: 'How do the two parts depend on each other?',
+  title: 'How do precepts and interpretation depend on each other?',
   body: `<p>We have now seen the two parts of grammar one at a time; but they are not separate studies, since each depends on the other. The principles are drawn from the usage of the authors, and they are tested against the authors. In turn, the authors are read and explained by means of the precepts.</p>
 <p>So a student who knows the precepts without reading the authors knows rules that he has never seen used; and a student who reads the authors without the precepts cannot say why a sentence is correctly formed.</p>`,
   src: `Ecclesiastes 12:1 (King James Version).` },
