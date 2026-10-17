@@ -16,6 +16,7 @@ Read this before drafting any new section. Each pair is BEFORE (draft) → AFTER
 8. **Do not reuse the Trivium introduction's wording or arguments.** The model passages in CLAUDE.md show style only. Where general reasons are needed, summarize briefly and link to the [Introduction to the Trivium](https://studiuminstitute.org/trivium/).
 9. **Prefer the ancient sources' own account first,** then the general philosophical reasons.
 10. **Avoid old-fashioned renderings in our own voice** ("fitting speech," "in a fashion servile"). Use plain modern English, and keep the Latin word visible where it matters.
+11. **The two parts of grammar are "precepts" and "interpretation"** (Timothy, 17 Oct 2026; replaces "principles," which was used briefly on 16 Oct). The first part (Quintilian's *ratio loquendi*, Greek *methodice*) is "precepts" or "the part concerned with precepts"; the second (*enarratio auctorum*, *historice*) is "interpretation." Never call the first part "principles," and never use *methodice*/*historice* as bare working names; when the Greek name appears, gloss it in the same sentence. Do not replace "principle" mechanically: in ordinary prose, "precepts," "rules," and "principles" may vary and illuminate one another (e.g., "a general rule or guiding principle of the art"; "the precepts and principles name the forms"). The deck is "Precepts and Interpretation" (id prelim.methodice unchanged).
 
 ## B. Revision pairs
 
@@ -123,7 +124,7 @@ Self-review pass, awaiting Timothy's review. No quotations, citations, question 
 - Criteria card 5: Butler's "educated men" kept (Timothy's decision).
 - Criteria card 8: "“Goed” for “went” … “The boys runs” for “The boys run”" → "“Irregardless” for “regardless” is a barbarism, and “The list of books are on the table” for “The list of books is on the table” is a solecism." (Checked against the four prelim decks and the live app; neither example occurs elsewhere. The "goed" questions on cards 2 and 6 test analogy and usage, not this card, and are unchanged.)
 
-## G. Log: "Methodice and Historice" → "Principles and Interpretation" (16 Oct 2026)
+## G. Log: "Methodice and Historice" → "Principles and Interpretation" (16 Oct 2026; superseded by A.11, "Precepts and Interpretation")
 
 Timothy's decision: the working English names are "principles" (or "the part concerned with principles") for *methodice* and "interpretation" for *historice*. The Greek names stay only where the text reports what the ancients called them, in italic parentheses after the English (card 1), and where cards 2 and 3 explain the Greek names.
 
@@ -139,3 +140,9 @@ Timothy: the Latin terms may stay, but it must always be clear on the spot what 
 - Question q-which-part, variant 3: "What does the Greek name *historice* refer to?" → "Quintilian reports the Greek name *historice* (from *historia*, inquiry or account) for one part of grammar. Which part does it name?" Explanation glosses both names. Options and key unchanged.
 - v1.js (prototype outline, served by v1.html): "The Two Parts: *methodice* and *historice*" → "The Two Parts: Principles and Interpretation".
 - Kept: the Latin of I.9.1 and its literal rendering (a quotation; glossed in the next sentence); cards 2–3, where the Greek names are explained on the spot. Card titles were already English.
+
+## I. Log: "principles" → "precepts" as the name of the first part (17 Oct 2026)
+
+- Timothy rewrote P.3 cards 1–6 himself (deck now "Precepts and Interpretation"; card titles "Precepts," "Interpretation," "How do precepts and interpretation depend on each other?," "How do both parts work together on one sentence?," "How were the two parts taught in schools?"). Card 6 gained a paragraph on twentieth-century grammar teaching ending "That is what this course teaches."
+- Every place where "principles" named the first part was changed to "precepts" (card text, the answer option, explanations, one distractor). Ordinary uses of "principle" were kept. Rule recorded as A.11.
+- Same changes made in the live app (gcrastinus/ars-grammatica, deck prelim_methodice).

@@ -4,6 +4,8 @@ Purpose: every panel, question, option, and explanation in this course should re
 
 Read this file before you write or revise any student-facing text. Change wording only. Do not change doctrine, citations, Latin or Greek, or which answer is correct.
 
+**Terminology:** the two parts of grammar are "precepts" and "interpretation," never "principles" for the first part (see REVISION-GUIDE.md A.11).
+
 **Before drafting any section, read REVISION-GUIDE.md** (Timothy's decisions and before-and-after revisions). After he revises cards, add the new pairs to it.
 
 ## The main problem to avoid
