@@ -4,6 +4,16 @@
 
 > Read NEXT-STEP.md in this repository and follow it exactly. Build Section I (Sign and Significant Voice) only, in the mockup repository, following the reading order and process it gives. When Section I is drafted, reviewed against the guides, checked, and committed, stop and give me your report, including every doubtful wording and source question; do not start Section II or touch the live app until I have reviewed Section I.
 
+### Later prompts (same file, nothing else to read)
+
+After Timothy reviews Section I and his edits are logged in REVISION-GUIDE.md:
+
+> Read NEXT-STEP.md again, including section 10 and the newest entries in REVISION-GUIDE.md, which record my revisions of Section I. Build Section II the same way, then stop and report.
+
+If Section II needs only light editing, Timothy may then say:
+
+> Read NEXT-STEP.md and the newest entries in REVISION-GUIDE.md. Build Sections III and IV, one after the other, committing each, then stop and report on both.
+
 ---
 
 ## 1. Goal
@@ -146,3 +156,15 @@ ITEM-LIST.md lists no open questions. These points may need Timothy's answer whi
 - I.2 cites Boethius, *In Categorias*, and I.3–I.4 cite Priscian, both "rule 9" (no published English translation). Quote the Latin with a placeholder for his own translation, or paraphrase?
 - I.5 lists Bühler, *Sprachtheorie* (1934), and Jakobson (1960) "for comparison." Bühler was published in English (trans. Donald Fraser Goodwin, 1990); confirm that translation, or paraphrase only.
 - Format for exercise sets (section 4): Timothy has not yet seen one in v2. Propose before building all 72 items.
+
+## 10. How review works from section to section
+
+Timothy's aim is to review closely at the start and less as the guides improve, so that later sections need improvement rather than repair.
+
+1. **Section I: close review.** Timothy reads every card, question, and a sample of exercise items. Every change he makes is logged in REVISION-GUIDE.md as before-and-after pairs, and any pattern that recurs is added to section K or as a new decision in section A.
+2. **Section II: check.** Timothy reviews again, mainly to see whether the lessons from Section I carried over. Repeated word problems mean the guides need a new rule; record it before going on.
+3. **Sections III–XI: batches with spot checks.** If Section II needs only light editing, build two or more sections per run. Timothy reads for substance and samples the rest.
+4. **Before starting any section**, reread the newest entries in REVISION-GUIDE.md. They are the most recent and most important corrections.
+5. **The report at the end of every section** lists, first, every doubtful wording, coined term, or source question (location and the question), so Timothy can review those spots first; then the decks and exercise sets built, with counts.
+6. **Exercises:** after Timothy approves the item pattern for one exercise set, follow the same pattern for every later set. If he corrects one item, apply the same correction to every item that shares the problem and say so in the report.
+
