@@ -61,9 +61,9 @@ ARS.structure = [
  { id:'iv', roman:'IV', latin:'De etymologia', name:'Word Formation and Etymology',
    gloss:'How words are derived and compounded, and what can be known of their origins.',
    items:[
-   { id:'iv.derivation', kind:'study', title:'Derivation', desc:'How are new words made from old ones by endings and changes of form?' },
-   { id:'iv.composition', kind:'study', title:'Composition', desc:'How are words joined to make compounds in English and Latin?' },
-   { id:'iv.etymology', kind:'study', title:'Etymology', desc:'The origin of words, ancient and comparative, and the cautions it requires.' },
+   { id:'iv.derivation', kind:'study', built:true, title:'Derivation', desc:'How are new words made from old ones by endings and changes of form?' },
+   { id:'iv.composition', kind:'study', built:true, title:'Composition', desc:'How are words joined to make compounds in English and Latin?' },
+   { id:'iv.etymology', kind:'study', built:true, title:'Etymology', desc:'The origin of words, ancient and comparative, and the cautions it requires.' },
    { id:'iv.review', kind:'review', title:'Section Review: Word Formation and Etymology', desc:'Thirty questions on IV.1 to IV.3, in three fixed sets of ten.' }
  ]},
  { id:'v', roman:'V', latin:'De constructione', name:'Construction',

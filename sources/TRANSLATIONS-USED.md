@@ -92,3 +92,16 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Suetonius, *Claudius* | 21 | our rendering of the greeting | iii.participle / gerundive | Latin from memory (*Have imperator …*); **verify** spelling against the edition |
 | Cicero, *Pro Archia* | 24 (*O fortunate, inquit, adulescens*) | our rendering | iii.interjection / vocative | Latin from memory; **verify** |
 | Book of Common Prayer | “O Lord, open thou our lips” | — | iii.interjection / vocative | BCP text |
+
+### Section IV
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Quintilian, *Institutio oratoria* | I.6.28, I.6.32, I.6.34 | H. E. Butler (Loeb) | iv.etymology / what-etymology, quintilian-caution | checked (Perseus) |
+| Plato, *Cratylus* | 399c, 439b | Benjamin Jowett for reference | iv.etymology / cratylus | paraphrase |
+| Varro, *De lingua Latina* | V.7–9 | R. G. Kent (Loeb) for reference | iv.etymology / varro | paraphrase; locus to verify |
+| Isidore, *Etymologiae* | I.29.1–3; IX.3.4 | Barney et al. (2006) for reference | iv.etymology / isidore | paraphrase |
+| Priscian, *Institutiones grammaticae* | IV–V | no published English translation | iv.derivation, iv.composition | paraphrase |
+| Vossius, *Aristarchus*; *Etymologicon linguae Latinae* | IV; — | no published English translation | iv.derivation / analogy; iv.etymology / oed | paraphrase |
+| Marchand, *Categories and Types* (1960) | ch. 1–7 | — | iv.derivation, iv.composition | paraphrase; chapter numbers to verify |
+| *Oxford English Dictionary* | s.vv. crayfish, bridegroom, nice, silly | — | iv.etymology | paraphrase; dates for "nice" to verify |
