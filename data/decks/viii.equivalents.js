@@ -21,9 +21,9 @@ ARS.decks['viii.equivalents'] = {
 { id: 'copula',
   title: 'The copula',
   body: `<p>Aristotle observes that in a statement such as “Man is just,” the word “is” is added as a third element joining the subject and the predicate (<i>De interpretatione</i> 10, 19b19–22, in paraphrase). The logicians call this word the <strong>copula</strong> (Latin, “link”). In grammar, “is” is a verb, and in “Man is just” it is a linking verb with a predicate adjective, as we saw in Section V.</p>
-<p>The logicians analyzed every statement into subject, copula, and predicate, even when the grammar has no separate copula. So “Socrates runs” was analyzed as “Socrates is running,” with “is” as the copula and “running” as the predicate. Latin often omits the copula entirely, as in <i>omnia praeclāra rāra</i> (“all excellent things are rare”), which we saw as an example of ellipsis. So the copula is a constant element of the logical form, while in the grammar it may be a separate word, part of the verb, or omitted.</p>`,
-  src: `Aristotle, <i>De interpretatione</i> 10, 19b19–22 (Edghill for reference), in paraphrase; Peter of Spain, <i>Tractatus</i> I.`,
-  qpTodo: `The copula: what are the subject, copula, and predicate of a given statement in its logical form (“Socrates runs,” “Man is just,” <i>omnia praeclāra rāra</i>), and where is the copula in the grammar.` },
+<p>The logicians analyzed every statement into subject, copula, and predicate, even when the grammar has no separate copula. So “Socrates runs” was analyzed as “Socrates is running,” with “is” as the copula and “running” as the predicate. Latin often omits the copula entirely, as in Cicero’s <i>omnia praeclara, rara</i> (“everything splendid is rare”), which we saw as an example of ellipsis. So the copula is a constant element of the logical form, while in the grammar it may be a separate word, part of the verb, or omitted.</p>`,
+  src: `Aristotle, <i>De interpretatione</i> 10, 19b19–22 (Edghill for reference), in paraphrase; Peter of Spain, <i>Tractatus</i> I; Cicero, <i>Laelius</i> 79 (trans. W. A. Falconer).`,
+  qpTodo: `The copula: what are the subject, copula, and predicate of a given statement in its logical form (“Socrates runs,” “Man is just,” <i>omnia praeclara, rara</i>), and where is the copula in the grammar.` },
 
 { id: 'quantity',
   title: 'Quantity',
@@ -59,15 +59,15 @@ ARS.decks['viii.equivalents'] = {
 { id: 'figure-of-speech',
   title: 'The figure of speech',
   body: `<p>The grammatical form of a sentence does not always show its logical form, and an argument that takes the one for the other is a fallacy. Aristotle names this fallacy the <strong>figure of speech</strong> (<i>schēma tēs lexeōs</i>): what is not the same is expressed in the same form, as when a word that signifies a state has the form of a word that signifies an action (<i>Sophistical Refutations</i> 4, in paraphrase).</p>
-<p>So “Nothing is a noun; therefore nothing is a kind of thing” argues from the grammatical form to the thing. “Blindness” has the form of “sight,” but sight is a power and blindness the lack of a power. We saw this warning with the chimaera in Section III: a noun signifies by the mode of a stable thing, but it does not follow that every noun names a thing that exists. The grammar is a way of signifying, not a copy of the thing, and the logician must look through the form to what is signified.</p>`,
+<p>So the argument “‘Nothing’ is a noun; every noun names a thing; therefore nothing is a thing” argues from the grammatical form to the thing. “Blindness” has the form of “sight,” but sight is a power and blindness the lack of a power. We saw this warning with the chimaera in Section III: a noun signifies by the mode of a stable thing, but it does not follow that every noun names a thing that exists. The grammar is a way of signifying, not a copy of the thing, and the logician must look through the form to what is signified.</p>`,
   src: `Aristotle, <i>Sophistical Refutations</i> 4 (Pickard-Cambridge for reference), in paraphrase.`,
   qpTodo: `The figure of speech: what is wrong with a given argument that takes the grammatical form for the thing (“Nothing is a noun, so nothing is a thing”; “Blindness is like sight, so it is a power”).` },
 
 { id: 'port-royal',
   title: 'The grammar of Port-Royal',
   body: `<p>In 1660 Antoine Arnauld and Claude Lancelot, of the abbey of Port-Royal near Paris, published the <i>Grammaire générale et raisonnée</i> (“general and rational grammar”). They held that grammar is founded on the operations of the mind: conceiving, judging, and reasoning, and that the principal sentence expresses a judgment, in which the mind joins a subject and a predicate. So they analyzed every sentence, as the logicians had, into subject, copula, and predicate, and held that “Peter lives” means “Peter is living.”</p>
-<p>Their best-known example is the sentence “Invisible God created the visible world,” which they analyzed as containing three judgments: that God is invisible, that God created the world, and that the world is visible (<i>Grammaire générale</i> II, in paraphrase). The adjectives and the relative clauses of a sentence, on this view, contain judgments implicitly, and the sentence as spoken is a shortened form of a combination of simpler judgments.</p>`,
-  src: `Arnauld and Lancelot, <i>Grammaire générale et raisonnée</i> (1660), Part II (Rieux and Rollin for reference), in paraphrase.` },
+<p>Their best-known example is the sentence “Invisible God created the visible world,” which they analyzed as containing three judgments: that God is invisible, that God created the world, and that the world is visible (<i>Grammaire générale</i> II.9, in paraphrase). The adjectives and the relative clauses of a sentence, on this view, contain judgments implicitly, and the sentence as spoken is a shortened form of a combination of simpler judgments.</p>`,
+  src: `Arnauld and Lancelot, <i>Grammaire générale et raisonnée</i> (1660), II.9 and II.13 (Rieux and Rollin for reference), in paraphrase.` },
 
 { id: 'relative',
   title: 'Port-Royal on the relative clause',

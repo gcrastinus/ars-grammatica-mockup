@@ -166,12 +166,22 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Peter of Spain, *Tractatus* | I, VI, XI, XII | Brian Copenhaver et al. (2014) for reference | viii.* | paraphrase (definitions of signification and supposition given in substance) |
-| William of Sherwood, *Introductiones in logicam* V; *Syncategoremata* | — | Norman Kretzmann for reference | viii.supposition | paraphrase |
-| Ockham, *Summa logicae* | I.63–64, 70, 72–74 | Michael Loux for reference | viii.supposition | paraphrase; chapter numbers to verify |
+| Peter of Spain, *Tractatus* | I, VI, XI, XII | Brian Copenhaver et al. (2014) for reference | viii.* | paraphrase. **Corrected**: the definitions of signification and supposition (VI) now follow Peter's wording more closely (signification as the conventional representation of a thing by a word; supposition as the taking of a substantive term for something), **verified at second hand** (Stanford Encyclopedia of Philosophy, "Peter of Spain"); the card now opens with the argument and brings Peter in afterward |
+| William of Sherwood, *Introductiones in logicam* V; *Syncategoremata* | — | Norman Kretzmann for reference | viii.supposition | paraphrase; **still unverified** (no reachable text) |
+| Ockham, *Summa logicae* | I.63 (supposition), 64 (its division into personal, simple, and material), 70 (the divisions of personal supposition), 72–74 (rules) | Michael Loux for reference | viii.supposition | chapter numbers **verified at second hand** (the Logic Museum's Latin and English text of Book I, as indexed by a search) |
 | Aristotle, *De interpretatione*; *Sophistical Refutations* | 4–7, 10 (19b19–22); SE 4 | Edghill; Pickard-Cambridge for reference | viii.equivalents | paraphrase |
-| Arnauld and Lancelot, *Grammaire générale et raisonnée* (1660); Arnauld and Nicole, *Logique* (1662) | Grammar II, II.9; Logic I.8 | Rieux and Rollin (1975) for reference | viii.equivalents / port-royal, relative | paraphrase; loci to verify |
+| Arnauld and Lancelot, *Grammaire générale et raisonnée* (1660) | II.9 (*Du pronom appelé relatif*; "Invisible God created the visible world"); II.13 | Rieux and Rollin (1975) for reference | viii.equivalents / port-royal, relative | II.9 **verified at second hand** (chapter title and subject confirmed from published studies); the card now gives the chapter. II.13 **still unverified** |
+| Arnauld and Nicole, *Logique* (1662) | I.8 (explicative and determinative additions) | — | viii.equivalents / relative | **still unverified** (no reachable text) |
+| Cicero, *Laelius* | 79 | W. A. Falconer | viii.equivalents / copula | **corrected**: macrons removed, the Latin printed as Perseus prints it, and the English made Falconer's, as in v.figures |
 | Chomsky, *Cartesian Linguistics* (1966) | — | — | viii.equivalents / ug-1 to ug-4 | paraphrase |
+
+### Section IX
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Priscian, *Partitiones duodecim versuum Aeneidos principalium* | 1 | no published English translation | ix.sentences / parsing | **verified** against the Latin (*Corpus Grammaticorum Latinorum*); the card was made more exact (Priscian begins with the meter, counts nine parts of speech, and asks of *arma* why it lacks a singular, what compounds it forms, and how its case is known "from the construction") |
+| Servius, commentary on Virgil | — | — | ix.passages | paraphrase |
+| Quintilian, *Institutio oratoria* | I.8.13 | H. E. Butler (Loeb) | ix.sentences | checked (Perseus) |
 
 ### Section X
 
