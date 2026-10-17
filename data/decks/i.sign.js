@@ -26,8 +26,8 @@ ARS.decks['i.sign'] = {
 
 { id: 'natural',
   title: 'Natural signs',
-  body: `<p>St. Augustine divides signs into two kinds, natural signs and given signs. “Natural signs are those which, apart from any intention or desire of using them as signs, do yet lead to the knowledge of something else, as, for example, smoke when it indicates fire” (<i>De doctrina christiana</i> II.1.2). A natural sign, therefore, signifies because of what it is and how it is connected with what it signifies, and not because anyone means it to signify.</p>
-<p>So the track of an animal signifies the animal that made it, a dark cloud signifies coming rain, and the face of an angry man signifies his anger even when he would rather hide it. A groan is also a natural sign: it shows pain by nature, and it shows the same pain in every country, whatever language the one who groans speaks.</p>`,
+  body: `<p>St. Augustine divides signs into two kinds, natural signs and given signs. “Natural signs are those which, apart from any intention or desire of using them as signs, do yet lead to the knowledge of something else” (<i>De doctrina christiana</i> II.1.2). So the track of an animal signifies the animal that made it, a dark cloud signifies coming rain, and the face of an angry man signifies his anger even when he would rather hide it. A groan is also a natural sign: it shows pain by nature, and it shows the same pain in every country, whatever language the one who groans speaks. A natural sign, therefore, signifies because of what it is and how it is connected with what it signifies, and not because anyone means it to signify.</p>
+<p>A word, however, is not a natural sign, since the meaning of a given word, like “water,” has no natural connection with what it signifies, i.e., “water” as a sound has no natural connection with water itself.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II.1.2.` },
 
 { id: 'given',

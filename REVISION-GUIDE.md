@@ -199,3 +199,4 @@ Apply these in the revision pass over Sections II–XI.
 - Preliminary, "What is the material of grammar?" (both repos): second paragraph now opens "A sound is considered in grammar only in so far as it belongs to speech," gives the falling rock as a sound that has meaning by nature, and announces that the course will say "signify" instead of "have meaning."
 - I.1 card 1: John of St. Thomas quoted in Deely's translation (Timothy's choice). Translators are never named inline in card text; they go only in the sources line.
 - I.1 card 2: Timothy added a closing sentence narrowing the concern to words; rest unchanged.
+- I.1 card 3, "Natural signs": Timothy's text; Augustine's definition now opens the card with the examples after it, and a new second paragraph says a word is not a natural sign. The published translation's "do yet" was kept in the quotation.
