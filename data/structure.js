@@ -107,9 +107,9 @@ ARS.structure = [
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',
    items:[
-   { id:'ix.sentences', kind:'exercise', title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
-   { id:'ix.passages', kind:'exercise', title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
-   { id:'ix.marking', kind:'exercise', title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' }
+   { id:'ix.sentences', kind:'exercise', built:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
+   { id:'ix.passages', kind:'exercise', built:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
+   { id:'ix.marking', kind:'exercise', built:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' }
  ]},
  { id:'x', roman:'X', latin:'De compositione', name:'Making',
    gloss:'From reading to writing.',
