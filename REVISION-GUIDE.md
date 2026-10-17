@@ -228,3 +228,13 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.2 first-second card: added a note on logic's parallel distinction of first and second intentions; "genus" and "species" are names of the first imposition in grammar (they signify concepts, not words).
 - I.2 many-languages card: Timothy's argument-first text (Oct 17): the realities of what is common across languages, with a parenthesis on real differences as different ways of speaking about the same thing; the Boethius of Dacia citation removed from the body.
 - I.2 many-languages card: closing paragraph added (Oct 17) leading into Signification and Consignification (runs/ran/will run).
+
+## N. Timothy's answers on the library check and the exercise plan (17 Oct 2026)
+
+1. vi.usage / prescribe-describe: qualify the Lowth sentence. Now: Lowth's preferences were judged by Latin models; he preferred the preposition before its relative but allowed the final preposition in conversation and familiar writing, and the later rule against ending a sentence with a preposition is stricter than his. (Lowth's text could not be reached; this follows his well-known note on the relative and should be checked when archive.org is reachable.)
+2. Editions: cite the one that can be reached. So the Port-Royal *Logique* is cited in the English translation of 1685 (I.7, II.4), and *Rasselas* in Morley's edition (1889).
+3. Varro: cite only the book (*De lingua Latina* IX–X), not the section numbers.
+4. Every section has a review. Reviews added for I, VIII, IX, X, and XI (structure.js and data/exercises).
+5. Item types: "whatever makes sense." Multiple choice where the answer is a judgment; typed answers where a form, a count, or a division is exact; clicking a syllable or word where the task is to find it in the text.
+6. Balance of the reviews: left to Claude (proportional to the size of the decks).
+7. Questions: "make them good questions and make as many as seems like a good practice." Timothy wants fairly extensive questions and answers in the course, drawing on as much of the older app's developed material as possible.

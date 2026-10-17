@@ -261,3 +261,5 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Cicero, *De optimo genere* 14, Hubbell's translation | x.translation / cicero | **unreachable** (the card quotes the Latin, which is verified) | Loeb in copyright; no copy reachable |
 | OED, "nice" | iv.etymology, vi.usage | **unreachable** (second-hand verification stands) | subscription resource |
 | Daiches, *The King James Version of the English Bible* (1941) | xi.traditions / hebraists | **unreachable**; "argued" kept | archive.org refused |
+
+**After Timothy's answers (17 Oct 2026, REVISION-GUIDE N):** vi.usage now says that Lowth allowed the final preposition in familiar style and preferred the other order only in the solemn style (from his well-known note on the relative; Lowth's text still **unreachable**, to be checked). Varro is cited by book only (*De lingua Latina* IX–X), so the section numbers no longer need checking. The reachable editions are the copy texts: *Logique* in the English translation of 1685, *Rasselas* in Morley's edition (1889).

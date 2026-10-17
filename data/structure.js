@@ -1,4 +1,4 @@
-/* The order of the whole course: 71 buttons, as in ITEM-LIST.md.
+/* The order of the whole course: 76 buttons (ITEM-LIST.md's 71, with section reviews added for I, VIII, IX, X, and XI on Timothy's instruction, 17 Oct 2026).
    Each item has a stable id (never changed when a title or a position changes; progress is stored under it).
    kind: 'study' (a deck), 'study-ex' (a deck with its own exercise set), 'exercise' (a shared exercise set),
          'review' (a section review).
@@ -23,7 +23,8 @@ ARS.structure = [
    { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
    { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, wishing, and expressing feeling, and why only the statement is true or false.' },
    { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
-   { id:'i.ex.sign', kind:'exercise', title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' }
+   { id:'i.ex.sign', kind:'exercise', title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' },
+   { id:'i.review', kind:'review', title:'Section Review: Sign and Significant Voice', desc:'Forty-five questions on I.1 to I.6, in three fixed sets of fifteen.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',
@@ -102,14 +103,16 @@ ARS.structure = [
    gloss:'What a term stands for in a proposition, and how the forms of logic appear in grammar.',
    items:[
    { id:'viii.supposition', kind:'study-ex', built:true, title:'Supposition', desc:'Signification reviewed, and material, simple, and personal supposition.' },
-   { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' }
+   { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' },
+   { id:'viii.review', kind:'review', title:'Section Review: Signification and Supposition', desc:'Thirty questions on VIII.1 and VIII.2, in three fixed sets of ten.' }
  ]},
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',
    items:[
    { id:'ix.sentences', kind:'exercise', built:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
    { id:'ix.passages', kind:'exercise', built:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
-   { id:'ix.marking', kind:'exercise', built:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' }
+   { id:'ix.marking', kind:'exercise', built:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
+   { id:'ix.review', kind:'review', title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
  ]},
  { id:'x', roman:'X', latin:'De compositione', name:'Making',
    gloss:'From reading to writing.',
@@ -117,12 +120,14 @@ ARS.structure = [
    { id:'x.composition', kind:'study', built:true, title:'Composition', desc:'Building sentences and periods.' },
    { id:'x.imitation', kind:'exercise', built:true, title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
-   { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' }
+   { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
+   { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
  ]},
  { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
    gloss:'The other classical grammars, and the modern study of universal grammar.',
    items:[
    { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
-   { id:'xi.modern', kind:'study', built:true, title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' }
+   { id:'xi.modern', kind:'study', built:true, title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' },
+   { id:'xi.review', kind:'review', title:'Section Review: Other Traditions and Modern Grammar', desc:'Forty-five questions on XI.1 and XI.2, in three fixed sets of fifteen.' }
  ]}
 ];
