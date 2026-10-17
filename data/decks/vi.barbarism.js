@@ -13,7 +13,7 @@ ARS.decks['vi.barbarism'] = {
 
 { id: 'definition',
   title: 'What is a barbarism?',
-  body: `<p>Donatus defines the barbarism as <i>ūna pars ōrātiōnis vitiōsa in commūnī sermōne</i>, that is, one part of speech faulty in ordinary speech; and he adds that in a poem the same thing is called a metaplasm (<i>Ars maior</i> III.1). Quintilian gives the same definition: “I will define barbarism as an offence occurring in connexion with single words” (<i>Institutio oratoria</i> I.5.6). So a barbarism is an error in a single word, considered by itself, apart from its construction with other words.</p>
+  body: `<p>Donatus defines the barbarism as <i>una pars orationis vitiosa in communi sermone</i>, that is, one part of speech faulty in ordinary speech; and he adds that in a poem the same thing is called a metaplasm (<i>in poemate metaplasmus</i>; <i>Ars maior</i> III.1). Quintilian gives the same definition: “I will define barbarism as an offence occurring in connexion with single words” (<i>Institutio oratoria</i> I.5.6). So a barbarism is an error in a single word, considered by itself, apart from its construction with other words.</p>
 <p>The name comes from the Greek <i>barbaros</i>, “foreigner,” a word that the Greeks used of anyone whose speech they could not understand. A barbarism is therefore, in origin, a word spoken as a foreigner would speak it: with the wrong sound, the wrong form, or the wrong accent. English examples are “brung” for “brought,” “irregardless” for “regardless,” and “libary” for “library.”</p>`,
   src: `Donatus, <i>Ars maior</i> III.1 (the Latin; the English in substance); Quintilian, <i>Institutio oratoria</i> I.5.6 (trans. Butler; checked against the Perseus text).` },
 

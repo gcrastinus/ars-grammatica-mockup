@@ -14,9 +14,9 @@ ARS.decks['vi.solecism'] = {
 
 { id: 'definition',
   title: 'What is a solecism?',
-  body: `<p>Donatus defines the solecism as <i>vitium in contextū partium ōrātiōnis contrā rēgulam artis grammaticae factum</i>, that is, a fault in the joining of the parts of speech, made against the rule of the art of grammar (<i>Ars maior</i> III.2). So a solecism is an error not in a word by itself but in the construction of words with one another: “The list of books are on the table,” where the verb does not agree with its subject, or “between you and I,” where the preposition does not govern the case it requires.</p>
-<p>The name was explained in antiquity from Soloi, a city in Cilicia, whose Athenian colonists were said to have spoken a corrupt Greek. Whether or not the story is true, the name came to mean an error in the arrangement of words, as the barbarism is an error in a single word. We saw in Section V that an incongruous construction is one whose parts do not fit; a solecism is such a construction.</p>`,
-  src: `Donatus, <i>Ars maior</i> III.2 (the Latin; the English in substance); the story of Soloi is traditional (loci in Diogenes Laertius and Strabo to be verified).` },
+  body: `<p>Donatus defines the solecism as <i>vitium in contextu partium orationis contra regulam artis grammaticae factum</i>, that is, a fault in the joining of the parts of speech, made against the rule of the art of grammar (<i>Ars maior</i> III.2). So a solecism is an error not in a word by itself but in the construction of words with one another: “The list of books are on the table,” where the verb does not agree with its subject, or “between you and I,” where the preposition does not govern the case it requires.</p>
+<p>The name was explained in antiquity from Soli (Soloi), a city in Cilicia. Diogenes Laertius says that Solon founded it and settled some Athenians there, “who in process of time corrupted the purity of Attic and were said to solecize” (<i>Lives</i> I.51); Strabo says only that the word was derived “either from Soli or some other source” (<i>Geography</i> XIV.2.28). Whether or not the story is true, the name came to mean an error in the arrangement of words, as the barbarism is an error in a single word. We saw in Section V that an incongruous construction is one whose parts do not fit; a solecism is such a construction.</p>`,
+  src: `Donatus, <i>Ars maior</i> III.2 (the Latin; the English in substance); Diogenes Laertius, <i>Lives of the Eminent Philosophers</i> I.51 (trans. R. D. Hicks); Strabo, <i>Geography</i> XIV.2.28 (trans. H. C. Hamilton and W. Falconer); both checked against the Perseus texts.` },
 
 { id: 'in-the-phrase',
   title: 'The error lies in the phrase',
@@ -53,14 +53,14 @@ ARS.decks['vi.solecism'] = {
 { id: 'figure',
   title: 'Solecism and figure',
   body: `<p>We saw in Section V that the same departure from the rules may be a solecism or a figure. Quintilian observes that “some phrases have all the appearance of a solecism and yet cannot be called faulty,” because they are found in the ancient writers, and “we will therefore style them figures” (<i>Institutio oratoria</i> I.5.52). But he adds a warning: “a figure, if used unwittingly, will be a solecism” (I.5.53).</p>
-<p>So the difference between a figure and a solecism does not lie in the words alone but in the reason for them and the knowledge of the speaker. A poet who writes <i>hīc illius arma, hīc currus fuit</i> knows the rule of agreement and departs from it for brevity; a student who writes <i>nautae exspectat</i> has not learned it. The grammarian judges the passage, but he must also judge whether the departure was made with art.</p>`,
+<p>So the difference between a figure and a solecism does not lie in the words alone but in the reason for them and the knowledge of the speaker. A poet who writes <i>hic illius arma, / hic currus fuit</i> knows the rule of agreement and departs from it for brevity; a student who writes <i>nautae exspectat</i> has not learned it. The grammarian judges the passage, but he must also judge whether the departure was made with art.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.52–53 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'other-faults',
   title: 'The other faults of speech',
-  body: `<p>Between the solecism and the metaplasm, Donatus lists further faults of speech, which together with the barbarism and the solecism make twelve (<i>Ars maior</i> III.3, in paraphrase). Among them are these:<br><strong>pleonasm</strong>, a word added to a meaning already complete: “she spoke with her mouth,” Latin <i>sīc ōre locūta est</i>;<br><strong>tautology</strong>, the needless repetition of the same idea: “he himself personally came”;<br><strong>amphibolia</strong>, a construction that can be taken in two ways: “The king sees the sailor with a glass.”</p>
+  body: `<p>Between the solecism and the metaplasm, Donatus lists further faults of speech, which together with the barbarism and the solecism make twelve (<i>Ars maior</i> III.3, in paraphrase). Among them are these:<br><strong>pleonasm</strong>, a word added to a meaning already complete: Donatus’s example is Virgil’s <i>sic ore locuta est</i> (<i>Aeneid</i> I.614; “thus she spoke with her mouth”) for <i>sic locuta est</i> (“thus she spoke”);<br><strong>tautology</strong>, the needless repetition of the same idea: “he himself personally came”;<br><strong>amphibolia</strong>, a construction that can be taken in two ways: “The king sees the sailor with a glass.”</p>
 <p>We studied amphibolia in Section I as ambiguity in the arrangement of words, and it will appear again in logic as the fallacy of amphiboly. Donatus’s other faults are not errors of agreement or government, but they are faults in the use of words in construction, and Donatus treats them with the solecism for that reason.</p>`,
-  src: `Donatus, <i>Ars maior</i> III.3, in paraphrase.` }
+  src: `Donatus, <i>Ars maior</i> III.3 (checked against the Latin); Virgil, <i>Aeneid</i> I.614.` }
 
   ]
 };

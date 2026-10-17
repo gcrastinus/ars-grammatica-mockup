@@ -20,8 +20,8 @@ ARS.decks['vi.usage'] = {
 
 { id: 'horace',
   title: 'Horace on usage',
-  body: `<p>Horace, in his poem on the art of poetry, states the power of usage over words: “Many words shall revive, which now have fallen off; and many which are now in esteem shall fall off, if it be the will of custom, in whose power is the decision and right and standard of language” (<i>Ars poetica</i> 70–72). The Latin of the last line, <i>quem penes arbitrium est et iūs et nōrma loquendī</i>, was quoted for centuries as the classic statement that usage (<i>ūsus</i>) is the judge of speech.</p>
-<p>Horace’s point is that words, like all human works, change: some die out and some return. A word that was correct in one age may be obsolete in the next, and an old word may be revived. So the grammarian cannot judge correctness by the rules alone, or by the oldest form alone; he must know the usage of his own time and of the authors he reads.</p>`,
+  body: `<p>Words, like all human works, change: some go out of use and some return. A word that was correct in one age may be obsolete in the next, and an old word may be revived. So the grammarian cannot judge correctness by the rules alone, or by the oldest form alone; he must know the usage of his own time and of the authors he reads.</p>
+<p>Horace, in his poem on the art of poetry, states the power of usage over words: “Many words shall revive, which now have fallen off; and many which are now in esteem shall fall off, if it be the will of custom, in whose power is the decision and right and standard of language” (<i>Ars poetica</i> 70–72). The Latin of the last line, <i>quem penes arbitrium est et ius et norma loquendi</i>, was quoted for centuries as the classic statement that usage (<i>ūsus</i>) is the judge of speech.</p>`,
   src: `Horace, <i>Ars poetica</i> 70–72 (Latin checked against the Perseus text; trans. Christopher Smart, checked against the Perseus text).`,
   qpTodo: `Horace on usage: according to Horace, what decides whether a word is in use, and what happens to words over time; apply this to a given English word that has fallen out of use or returned.` },
 

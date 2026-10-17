@@ -139,10 +139,12 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Horace, *Ars poetica* | 70–72 | Christopher Smart (prose) — used instead of Fairclough (ITEM-LIST), because Smart is on Perseus and could be checked | vi.usage / horace | checked (Perseus), Latin and English |
+| Horace, *Ars poetica* | 70–72 | Christopher Smart (prose), accepted by Timothy (L.1) | vi.usage / horace | checked (Perseus), Latin and English; macrons removed from the quoted Latin line (L.2). The card now opens with the argument and brings in Horace as confirmation |
 | Quintilian, *Institutio oratoria* | I.5.6, 8, 10–12, 35–38, 41, 52–53 | H. E. Butler (Loeb) | vi.usage, vi.barbarism, vi.solecism, vi.metaplasm | checked (Perseus); Butler's "connexion," "offence," "licence" kept as printed |
-| Donatus, *Ars maior* | III.1–4 | no published English translation | vi.* | Latin definitions of barbarism and solecism quoted from memory (**verify**); otherwise paraphrase |
-| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase |
+| Donatus, *Ars maior* | III.1 (*barbarismus est una pars orationis vitiosa in communi sermone*; *in poemate metaplasmus*); III.2 (*soloecismus est vitium in contextu partium orationis contra regulam artis grammaticae factum*); III.3 (the twelve faults; *acyrologia*; *pleonasmos*, *sic ore locuta est*); III.4 (the fourteen metaplasms and their examples) | no published English translation | vi.* | **verified** against Holtz's text; macrons removed from the quoted definitions. **Corrected**: the example of systole was not Donatus's (*steterunt*); it is now his own, *aquosus Orion* (*Aeneid* IV.52). Donatus's note on *Italiam* (*cum Italia correpte dici debeat*) and his pleonasm example (*Aeneid* I.614) **added**. The English gloss of *sic ore locuta est* is ours (a question for Timothy). Ennius's *rex Albai Longai* is quoted as Donatus gives it; the Ennius locus is **still unverified** |
+| Diogenes Laertius, *Lives* | I.51 (Soli and the word "solecize") | R. D. Hicks (Loeb), on Perseus | vi.solecism / definition | **verified**; now quoted ("who in process of time corrupted the purity of Attic and were said to solecize") |
+| Strabo, *Geography* | XIV.2.28 | H. C. Hamilton and W. Falconer (1903), on Perseus | vi.solecism / definition | **verified**; now quoted ("either from Soli or some other source") |
+| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase; **still unverified** (no reachable text) |
 
 ### Section VII
 

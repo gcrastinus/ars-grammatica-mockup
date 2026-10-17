@@ -32,13 +32,13 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'quantity',
   title: 'Metaplasms of quantity',
-  body: `<p>Two metaplasms change the quantity of a syllable:<br><strong>ectasis</strong> (Greek, “stretching out”) makes a short syllable long, as Virgil lengthens the first syllable of <i>Ītaliam</i> in the second line of the <i>Aeneid</i>, <i>Ītaliam fātō profugus</i>, because the word with its natural short first syllable could not stand in a hexameter;<br><strong>systole</strong> (“drawing together”) makes a long syllable short, as in <i>steterunt</i> with a short <i>e</i> for <i>stetērunt</i> (“they stood”).</p>
+  body: `<p>Two metaplasms change the quantity of a syllable:<br><strong>ectasis</strong> (Greek, “stretching out”) makes a short syllable long, as Virgil lengthens the first syllable of <i>Italiam</i> in the second line of the <i>Aeneid</i>, <i>Italiam fato profugus</i>; the first syllable of <i>Italia</i> is naturally short (<i>Ĭtalia</i>), but the word could not stand in a hexameter unless it were made long (<i>Ītaliam</i>). Donatus gives this example and notes that <i>Italia</i> should be pronounced with its first syllable short (<i>cum Italia correpte dici debeat</i>);<br><strong>systole</strong> (“drawing together”) makes a long syllable short, as in Virgil’s <i>aquosus Orion</i> (<i>Aeneid</i> IV.52), where the first syllable of <i>Orion</i>, which ought to be long (<i>Ōrīōn</i>), is made short. This also is Donatus’s example.</p>
 <p>These metaplasms belong to the quantitative verse of Latin and Greek, which we studied in Section II. They show that even the quantity of a syllable, which is fixed in ordinary speech, may be changed by the poet when the meter requires it, and that the grammarian who scans a line must know both the regular quantity and the licenses.</p>`,
-  src: `Donatus, <i>Ars maior</i> III.4, in paraphrase; Virgil, <i>Aeneid</i> I.2.` },
+  src: `Donatus, <i>Ars maior</i> III.4 (the examples checked against the Latin); Virgil, <i>Aeneid</i> I.2, IV.52.` },
 
 { id: 'syllables',
   title: 'Metaplasms that divide or join syllables',
-  body: `<p>Two metaplasms change the number of syllables without adding or removing letters:<br><strong>diaeresis</strong> (Greek, “division”) divides one syllable into two: Latin <i>Albāī longāī</i> for <i>Albae longae</i> (“of Alba Longa”), where the diphthong <i>ae</i> is pronounced as two vowels;<br><strong>episynaloephe</strong> (“joining together”) makes two syllables into one, as when <i>Phaethōn</i> is pronounced in two syllables instead of three.</p>
+  body: `<p>Two metaplasms change the number of syllables without adding or removing letters:<br><strong>diaeresis</strong> (Greek, “division”) divides one syllable into two: Ennius’s <i>rex Albai Longai</i> (as Donatus quotes it) for <i>Albae Longae</i> (“king of Alba Longa”), Donatus’s example, where the diphthong <i>ae</i> is pronounced as two vowels;<br><strong>episynaloephe</strong> (“joining together”) makes two syllables into one, as when <i>Phaethōn</i> is pronounced in two syllables instead of three.</p>
 <p>English poetry uses both. A poet may pronounce “heaven” as one syllable or two, or “-ed” as a separate syllable, as in “belovèd,” where the grave accent marks that the ending is pronounced. The mark used to show that two vowels are pronounced separately, as in “naïve” or “Zoë,” takes its name from the metaplasm: it is called a diaeresis.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
@@ -53,7 +53,7 @@ ARS.decks['vi.metaplasm'] = {
   body: `<p>The last two metaplasms change or move a letter:<br><strong>antithesis</strong> (Greek, “setting against”) puts one letter in place of another: Latin <i>ollī</i> for <i>illī</i> (“to him”), an old form used by Virgil for its archaic dignity;<br><strong>metathesis</strong> (“transposition”) moves letters to another place: Latin <i>Euandre</i> for <i>Euander</i> (the name Evander).</p>
 <p>So Donatus’s fourteen metaplasms are prosthesis, epenthesis, paragoge, aphaeresis, syncope, apocope, ectasis, systole, diaeresis, episynaloephe, synaloepha, ecthlipsis, antithesis, and metathesis. Each corresponds to one of the four ways of the barbarism (adding, removing, changing, and moving) or to a change of quantity or of syllables, and each is permitted only in verse and for a reason.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
-  qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>ollī</i>, <i>Albāī</i>, <i>multum ille</i>, <i>Ītaliam</i>), and what is the regular form.` },
+  qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>olli</i>, <i>Albai</i>, <i>multum ille</i>, <i>Italiam</i>), and what is the regular form.` },
 
 { id: 'license-limits',
   title: 'License and its limits',
