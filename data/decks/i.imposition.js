@@ -18,11 +18,12 @@ ARS.decks['i.imposition'] = {
 <p>Imposition is not only something that happened in the past. It still happens whenever we name something new. Parents impose a name on a child, a discoverer names a new element or a new species, and an inventor names a new machine. For most words the first imposition is in the past and unknown; indeed, many words have undergone significant changes in sound over the centuries as languages themselves change, and the sounds the words have now are due in significant ways to gradual shifts; for example, the English word “neither” used to be pronounced like n-ee-ther, as it still is in North America, but is now pronounced n-eye-ther in England. Still, every word was imposed by someone at some time. Those who learn a language do not impose its words again; they receive meanings that others have already imposed. That is why learning a word means learning what it has been used to signify and why a learner cannot simply decide for himself what a word will mean.</p>`,
   src: ``, },
 
-{ id: 'not-by-nature',
-  title: 'Imposition and convention',
-  body: `<p>Aristotle explains why he added “by convention” to the definition: “nothing is by nature a noun or name—it is only so when it becomes a symbol; inarticulate sounds, such as those which brutes produce, are significant, yet none of these constitutes a noun” (<i>De interpretatione</i> 2, 16a26–29). A groan or the bark of a dog signifies something by nature, as we saw with natural signs; but it is not a word, because no one has given it a meaning.</p>
+{ id: 'cratylus',
+  title: 'The ancient question: are names by nature or by convention?',
+  body: `<p>The question whether names signify by nature or by convention is one of the oldest questions in the study of language. In Plato’s dialogue <i>Cratylus</i>, Cratylus holds that each thing has a name that belongs to it by nature, while Hermogenes holds that names are fixed only by the agreement and custom of those who use them. Socrates examines both views and grants something to each: he shows that many names seem to have been chosen for a reason, but he also shows that custom and agreement play a part in every name.</p>
+<p>The tradition that follows Aristotle gives the answer that we have seen: the sound of a word is imposed, and so it is not by nature. But that answer does not deny everything that Cratylus held. As we will see, the one who imposes a name usually has a reason for the name he chooses, even though the sound itself does not signify by nature.</p>
 <p>The clearest evidence that words signify by imposition is that languages differ. If the sound of a word signified by nature, every people would use the same sound for the same thing, as every people groans in the same way. Even words that imitate a sound are imposed: the cry of a rooster is “cock-a-doodle-doo” in English and <i>cocorico</i> in French, and the sound of a bee is “buzz” in English. These words are chosen because they resemble a natural sound, but each language has chosen its own, and so they too signify by imposition.</p>`,
-  src: `Aristotle, <i>De interpretatione</i> 2, 16a26–29.`,
+  src: `Plato, <i>Cratylus</i>, in paraphrase.`,
   qp: { id: 'q-imposition', variants: [
     { prompt: `A groan signifies pain. Why is it not a word?`,
       options: [`Because it signifies nothing at all`, `Because it signifies by nature, and no one has given it its meaning`, `Because it is too short to be a word`, `Because it cannot be written down`],
@@ -37,12 +38,6 @@ ARS.decks['i.imposition'] = {
       answer: 2,
       explain: `If words signified by nature, every people would use the same sound for the same thing, as every people groans in the same way. Because English says “horse” and Latin says <i>equus</i>, the sound must signify because of the speakers’ use, that is, by imposition.` }
   ]}},
-
-{ id: 'cratylus',
-  title: 'The ancient question: are names by nature or by convention?',
-  body: `<p>The question whether names signify by nature or by convention is one of the oldest questions in the study of language. In Plato’s dialogue <i>Cratylus</i>, Cratylus holds that each thing has a name that belongs to it by nature, while Hermogenes holds that names are fixed only by the agreement and custom of those who use them. Socrates examines both views and grants something to each: he shows that many names seem to have been chosen for a reason, but he also shows that custom and agreement play a part in every name.</p>
-<p>The tradition that follows Aristotle gives the answer that we have seen: the sound of a word is imposed, and so it is not by nature. But that answer does not deny everything that Cratylus held. As we will see, the one who imposes a name usually has a reason for the name he chooses, even though the sound itself does not signify by nature.</p>`,
-  src: `Plato, <i>Cratylus</i>, in paraphrase.` },
 
 { id: 'reason-for-name',
   title: 'The reason for a name, and what the name signifies',
