@@ -248,3 +248,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 accidents card (Timothy, Oct 17): why they are called accidents expanded (the word only happens to have a given accident in a given context and would have a different one in other contexts); new paragraph begins at "Besides tense, the chief accidents are these."
 - I.3 accidents card (card 6): at least two simple examples, English and Latin, added for each accident besides tense: number, person, case, mood, gender (Timothy, Oct 17).
 - I.3 card 6, person: examples changed to "I love," "you love," "he loves"; amo, amas, amat; with the older English endings ("thou lovest," "he loveth") in parentheses (Timothy, Oct 17).
+- I.3 card 7: noted lightly that Aristotle's definitions come from his logical treatise On Interpretation, where words are considered as parts of a statement (Timothy, Oct 17).

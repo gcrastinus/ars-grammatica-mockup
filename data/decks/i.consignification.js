@@ -84,7 +84,7 @@ ARS.decks['i.consignification'] = {
   title: 'The parts of a word do not signify by themselves',
   body: `<p>A word signifies as a whole, and its parts do not signify by themselves. In “horseradish,” the part “horse” does not signify a horse; in “butterfly,” the part “butter” does not signify butter; and in “Newcastle,” the part “new” does not say that the city is new. These parts may once have signified something as separate words, but within the word they signify nothing by themselves.</p>
 <p>The same is true of the endings that mark the accidents. The “-s” of “horses” or the <i>-unt</i> of <i>currunt</i> signifies nothing when it is said by itself; it marks, within the word, an accident that the whole word consignifies. So it is the word “horses,” and not its ending alone, that signifies more than one horse. The word, therefore, is the least part of an expression that signifies.</p>
-<p>Aristotle includes this in his definitions of both the noun and the verb. His example is a proper name made of two words: “In the noun ‘Fairsteed,’ the part ‘steed’ has no significance in and by itself, as in the phrase ‘fair steed’” (<i>De interpretatione</i> 2, 16a21–22).</p>`,
+<p>Aristotle includes this in his definitions of both the noun and the verb, which he gives at the start of his logical treatise <i>On Interpretation</i>, where he considers words as the parts of a statement. His example is a proper name made of two words: “In the noun ‘Fairsteed,’ the part ‘steed’ has no significance in and by itself, as in the phrase ‘fair steed’” (<i>De interpretatione</i> 2, 16a21–22).</p>`,
   src: `Aristotle, <i>De interpretatione</i> 2, 16a21–22; 3, 16b6–7.` },
 
 { id: 'modes',
