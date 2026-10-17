@@ -105,3 +105,22 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Vossius, *Aristarchus*; *Etymologicon linguae Latinae* | IV; — | no published English translation | iv.derivation / analogy; iv.etymology / oed | paraphrase |
 | Marchand, *Categories and Types* (1960) | ch. 1–7 | — | iv.derivation, iv.composition | paraphrase; chapter numbers to verify |
 | *Oxford English Dictionary* | s.vv. crayfish, bridegroom, nice, silly | — | iv.etymology | paraphrase; dates for "nice" to verify |
+
+### Section V
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| Priscian, *Institutiones grammaticae* | II.15 (definition of *oratio*); XVII–XVIII | no published English translation | v.congruity, v.order, v.mood | Latin definition quoted; otherwise paraphrase |
+| Thomas of Erfurt, *Grammatica speculativa* | on construction, congruity, completeness | G. L. Bursill-Hall for reference | v.congruity, v.agreement, v.dependence | paraphrase |
+| Peter Helias, *Summa super Priscianum* | suppositum/appositum; regimen | no published English translation | v.congruity, v.government | paraphrase |
+| Tesnière, *Éléments de syntaxe structurale* | stemma; valency | Osborne and Kahane (2015) for reference | v.dependence | paraphrase; "Book A," "Book D" loci to verify |
+| Quintilian, *Institutio oratoria* | IX.4.22, 23, 24, 26, 29, 32 | H. E. Butler (Loeb) | v.order, v.period | checked (Perseus) |
+| Greenberg, "Some Universals of Grammar" (1963) | Universals 3–4 | — | v.order | paraphrase |
+| Aristotle, *Rhetoric* | III.9.2–6 | J. H. Freese (Loeb) — used instead of W. Rhys Roberts, because Freese is on Perseus and could be checked | v.period | checked (Perseus) |
+| Demetrius, *On Style* | 16 | W. Rhys Roberts for reference | v.period / members | paraphrase; "no more than four members" locus to verify |
+| Cicero, *Pro Archia* | 1 | Latin ed. A. C. Clark; trans. C. D. Yonge | v.period / cicero | checked (Perseus); macrons added to the Latin (decide whether macrons may be added to quotations) |
+| Declaration of Independence | first sentence | — | v.period / english | public text |
+| Virgil, *Aeneid* | I.4 | T. C. Williams (“stern Juno’s sleepless wrath”); word-for-word gloss ours | v.order / latin-freedom | checked (Perseus) |
+| Virgil, *Aeneid* | I.16–17, I.573, II.353; *Georgics* II.192 | our renderings | v.figures | Latin from memory; **verify** |
+| Cicero, *Laelius* | 79 (*omnia praeclara rara*) | our rendering | v.figures / ellipsis | **verify** locus |
+| Shakespeare, Bacon, Milton, Macaulay, Johnson, Pope, KJV | as cited | — | v.phrase, v.clause, v.figures, v.agreement, v.order | English texts; spelling as in the editions quoted (Milton "waite," Shakespeare "strain'd") — verify against chosen editions |
