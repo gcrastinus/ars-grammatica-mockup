@@ -122,7 +122,7 @@ ARS.structure = [
  { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
    gloss:'The other classical grammars, and the modern study of universal grammar.',
    items:[
-   { id:'xi.traditions', kind:'study', title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
-   { id:'xi.modern', kind:'study', title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' }
+   { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
+   { id:'xi.modern', kind:'study', built:true, title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' }
  ]}
 ];

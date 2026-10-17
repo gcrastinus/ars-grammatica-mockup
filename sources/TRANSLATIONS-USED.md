@@ -174,3 +174,25 @@ Same conventions as Section I. **checked (Perseus)** means the quotation was com
 | Bruni, *De interpretatione recta* | — | Griffiths, Hankins, and Thompson (1987) for reference | x.translation / bruni | paraphrase |
 | Quine, *Word and Object* (1960); Whorf (1956); Malotki, *Hopi Time* (1983) | — | — | x.translation | paraphrase |
 | Kennedy, *Progymnasmata* (2003) | pp. x, xiii, 2, 8–9, 74, 96–124, 133, 135, 139, 147–48, 176–77 | Kennedy (Theon, [Hermogenes], Aphthonius, Nicolaus, John of Sardis) | x.progymnasmata | quoted only from sources/KENNEDY-FABLE-AND-ORDER.md, with its page numbers |
+
+### Section XI
+
+| Work | Passage | Translator / edition | Deck / panel | Status |
+|---|---|---|---|---|
+| *Materials for the Sumerian Lexicon* IV; Black, *Sumerian Grammar in Babylonian Theory* | OBGT, NBGT; *Ea*, *Diri*, *ḪAR-ra = ḫubullu* | — | xi.traditions / scribal panels | paraphrase; forms from the live app (lugal = šarru; KA readings; ba-ši-ŋen = ittalakšum) |
+| Yāska, *Nirukta* | I.1 (*bhāvapradhānam ākhyātam*, *sattvapradhānāni nāmāni*) | Lakshman Sarup for reference | xi.traditions / yaska | Sanskrit in transliteration; English in substance |
+| Pāṇini, *Aṣṭādhyāyī* | 1.4.14 (*suptiṅantaṃ padam*); 1.4.23–55 (kārakas) | S. C. Vasu for reference | xi.traditions | transliteration; English in substance |
+| Patañjali, *Mahābhāṣya*, Paspaśāhnika | *rakṣohāgamalaghvasaṃdehāḥ prayojanam* | S. D. Joshi and J. A. F. Roodbergen (1986) for reference | xi.traditions / patanjali | transliteration; English in substance |
+| Bhartṛhari, *Vākyapadīya* | I | K. A. Subramania Iyer for reference | xi.traditions / bhartrhari | paraphrase |
+| Sībawayh, *al-Kitāb* | ch. 1 (*fa-l-kalimu smun wa-fiʿlun wa-ḥarfun …*) | no published English translation of the passage | xi.traditions / three-parts | transliteration; English in substance |
+| al-Zajjājī, *al-Īḍāḥ fī ʿilal al-naḥw* | three kinds of reason | Kees Versteegh (1995) for reference | xi.traditions / zajjaji | paraphrase |
+| Saadia; Menahem; Dunash; Ḥayyūj; Ibn Janāḥ | — | no complete published English translations | xi.traditions / Hebrew panels | paraphrase |
+| David Kimḥi, *Mikhlol* | grammar part | William Chomsky (1952), named in the text because of its relation to Noam Chomsky | xi.traditions / kimhi | paraphrase |
+| Reuchlin, *De rudimentis Hebraicis* (1506) | — | — | xi.traditions / hebraists | named only |
+| *Erya*; Xu Shen, *Shuowen jiezi* (postface, six writings); Lu Fayan, *Qieyun* | — | — | xi.traditions / Chinese panels | paraphrase |
+| Confucius, *Analects* | I.1 | James Legge (1861), named in the text | xi.traditions / analects | quoted from memory; **verify** |
+| Ma Jianzhong, *Mashi wentong* (1898) | — | — | xi.traditions / mashi | paraphrase |
+| Boethius of Dacia, *Modi significandi* | qq. 2, 4 | no complete published English translation (McDermott abridgement for reference) | xi.modern / three-ways, boethius-change | paraphrase; question numbers to verify |
+| Sir William Jones, "Third Anniversary Discourse" (1786) | the "common source" passage | — | xi.modern / jones | paraphrase (the famous wording not quoted) |
+| Saussure, *Cours* | Introduction; I.1, I.3; II.4–5 | Wade Baskin (1959) for reference | xi.modern | paraphrase |
+| Bloomfield; Chomsky (1957, 1965, 1966, 1981, 1995); Tesnière; Greenberg; Comrie; Aikhenvald; Dik; Halliday; Fillmore; Austin; Searle; Deely; John of St. Thomas | — | — | xi.modern | paraphrase; the only exact quotation is "Colorless green ideas sleep furiously" (*Syntactic Structures*, ch. 2) |
