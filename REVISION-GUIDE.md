@@ -250,3 +250,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 card 6, person: examples changed to "I love," "you love," "he loves"; amo, amas, amat; with the older English endings ("thou lovest," "he loveth") in parentheses (Timothy, Oct 17).
 - I.3 card 7: noted lightly that Aristotle's definitions come from his logical treatise On Interpretation, where words are considered as parts of a statement (Timothy, Oct 17).
 - I.3 card 8: "first as a thing and then as happening" changed to "first as a thing and then as something happening" (Timothy, Oct 17).
+- I.3 card 8: the consignified-mode sentence clarified, with a gloss of modus as "way" or "manner" (Timothy, Oct 17).
