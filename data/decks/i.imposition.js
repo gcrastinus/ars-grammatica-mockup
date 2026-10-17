@@ -9,7 +9,7 @@ ARS.decks['i.imposition'] = {
   id: 'i.imposition',
   title: 'Imposition',
   sub: 'How a sound comes to signify, and the names of the first and the second imposition',
-  sources: `Aristotle, <i>De interpretatione</i> 2; Boethius, <i>In Categorias Aristotelis</i> I; St. Thomas, <i>In Peri hermeneias</i> I, and <i>Summa theologiae</i> I, q. 13.`,
+  sources: `Aristotle, <i>De interpretatione</i> 2; Boethius, <i>In Categorias Aristotelis</i> I; St. Thomas, <i>In Peri hermeneias</i> I, and <i>Summa theologiae</i> I, q. 13; Quintilian, <i>Institutio oratoria</i> I.6; Plato, <i>Cratylus</i>.`,
   panels: [
 
 { id: 'what-imposition',
@@ -51,7 +51,7 @@ ARS.decks['i.imposition'] = {
 { id: 'usage-change',
   title: 'Imposition and usage',
   body: `<p>A word receives its meaning by imposition, but it keeps or changes that meaning by usage. We saw in the Preliminary section that usage, the agreed practice of educated speakers, is one of the criteria of correctness. Usage also governs meaning: when the speakers of a language come to use a word for something new, the word comes to signify the new thing.</p>
-<p>So the English word “nice” comes from the Latin <i>nescius</i>, “ignorant,” and for centuries it meant “foolish” before it came to mean “pleasant.” The word “silly” once meant “blessed” or “happy,” and the word “girl” in Middle English could mean a young person of either sex. In each case the sound remained, but the agreement of those who used it changed, and so the meaning changed. This is one more sign that words signify by imposition and not by nature, since a natural sign does not change its meaning when people change their minds.</p>`,
+<p>So the English word “nice” comes from the Latin <i>nescius</i>, “ignorant,” and for centuries it meant “foolish” before it came to mean “pleasant.” The word “silly” once meant “blessed” or “happy,” and the word “girl” in Middle English could mean a young person of either sex. In each case the word remained, but the agreement of those who used it changed, and so the meaning changed. This is one more sign that words signify by imposition and not by nature, since a natural sign does not change its meaning when people change their usage. Quintilian calls usage “the surest teacher of speaking” (<i>Institutio oratoria</i> I.6.3).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.3, I.6.45.` },
 
 { id: 'first-second',
