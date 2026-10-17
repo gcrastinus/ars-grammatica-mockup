@@ -14,7 +14,7 @@ ARS.decks['i.imposition'] = {
 
 { id: 'what-imposition',
   title: 'What is imposition?',
-  body: `<p>We have seen that words are given signs: they signify because those who use them mean them to signify, and not by nature. The tradition calls the act by which a sound is first given a meaning <strong>imposition</strong> (Latin <i>impositio</i>, from <i>imponere</i>, “to place upon”), because a meaning is, as it were, placed upon a sound. A word that signifies in this way is said to signify by imposition, or, in the Latin of the schools, <i>ad placitum</i>, that is, “by agreement” or “as it has pleased” those who use it.</p>
+  body: `<p>We have seen that words are conventional signs: they signify because those who use them mean them to signify, and not by nature. The tradition calls the act by which a sound is first given a meaning <strong>imposition</strong> (Latin <i>impositio</i>, from <i>imponere</i>, “to place upon”), because a meaning is, as it were, placed upon a sound. A word that signifies in this way is said to signify by imposition, or, in the Latin of the schools, <i>ad placitum</i>, that is, “by agreement” or “as it has pleased” those who use it.</p>
 <p>Aristotle states the doctrine in his definition of the noun: “By a noun we mean a sound significant by convention, which has no reference to time, and of which no part is significant apart from the rest” (<i>De interpretatione</i> 2, 16a19–20). So the English sound “horse” and the Latin sound <i>equus</i> both signify a horse, but neither signifies it because of anything in the sound itself; each signifies because the speakers of a language have used it to signify a horse.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 2, 16a19–20.` },
 

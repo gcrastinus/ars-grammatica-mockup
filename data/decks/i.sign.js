@@ -7,7 +7,7 @@ ARS.decks = ARS.decks || {};
 ARS.decks['i.sign'] = {
   id: 'i.sign',
   title: 'Sign and Symbol',
-  sub: 'Natural and given signs, and the spoken word as a sign of what is in the mind',
+  sub: 'Natural and conventional signs, and the spoken word as a sign of what is in the mind',
   sources: `Augustine, <i>De doctrina christiana</i> II.1–4; Aristotle, <i>De interpretatione</i> 1; St. Thomas, <i>In Peri hermeneias</i> I; John of St. Thomas, <i>Tractatus de signis</i>.`,
   panels: [
 
@@ -26,28 +26,30 @@ ARS.decks['i.sign'] = {
 
 { id: 'natural',
   title: 'Natural signs',
-  body: `<p>St. Augustine divides signs into two kinds, natural signs and given signs. “Natural signs are those which, apart from any intention or desire of using them as signs, do yet lead to the knowledge of something else” (<i>De doctrina christiana</i> II.1.2). So the track of an animal signifies the animal that made it, a dark cloud signifies coming rain, and the face of an angry man signifies his anger even when he would rather hide it. A groan is also a natural sign: it shows pain by nature, and it shows the same pain in every country, whatever language the one who groans speaks. A natural sign, therefore, signifies because of what it is and how it is connected with what it signifies, and not because anyone means it to signify.</p>
+  body: `<p>St. Augustine divides signs into two kinds, natural signs and conventional signs. “Natural signs are those which, apart from any intention or desire of using them as signs, do still lead to the knowledge of something else” (<i>De doctrina christiana</i> II.1.2). So the track of an animal signifies the animal that made it, a dark cloud signifies coming rain, and the face of an angry man signifies his anger even when he would rather hide it. A groan is also a natural sign: it shows pain by nature, and it shows the same pain in every country, whatever language the one who groans speaks. A natural sign, therefore, signifies because of what it is and how it is connected with what it signifies, and not because anyone means it to signify.</p>
 <p>A word, however, is not a natural sign, since the meaning of a given word, like “water,” has no natural connection with what it signifies, i.e., “water” as a sound has no natural connection with water itself.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II.1.2.` },
 
 { id: 'given',
-  title: 'Given signs',
-  body: `<p>The second kind is given signs (<i>signa data</i>, which the English translation of St. Augustine renders “conventional signs”). These are signs “which living beings mutually exchange for the purpose of showing, as well as they can, the emotions of their minds, or their perceptions, or their thoughts” (<i>De doctrina christiana</i> II.2.3). A given sign, therefore, signifies because someone means it to signify; it is given by one mind to another.</p>
-<p>A nod of the head, a raised hand in a classroom, the sound of a trumpet that signals an attack, and a flag raised over a ship are all given signs. But St. Augustine adds that among the signs by which human beings express their thoughts, words hold by far the first place; he observes that he can put into words what gestures and other signs signify, but that he cannot express words by gestures (II.3.4, in paraphrase).</p>`,
+  title: 'Conventional (i.e., given) signs',
+  body: `<p>The second kind is conventional signs (<i>signa data</i>, literally “given signs,” which the English translation of St. Augustine renders “conventional signs” and which other authors often call given signs). These are signs “which living beings mutually exchange for the purpose of showing, as well as they can, the emotions of their minds, or their perceptions, or their thoughts” (<i>De doctrina christiana</i> II.2.3). A given sign, therefore, signifies because someone means it to signify; it is given by one mind to another.</p>
+<p>A nod of the head, a raised hand in a classroom, the sound of a trumpet that signals an attack, and a flag raised over a ship are all conventional signs. They are conventional because they have their meaning from agreement and the convention of a social group.</p>
+<p>But St. Augustine adds that among the signs by which human beings express their thoughts, words hold by far the first place; he observes that he can put into words what gestures and other signs signify, but that he cannot express words by gestures (II.3.4, in paraphrase). It should be added here that he is not referring to sign language, but to an attempt to communicate only by gestures that are not connected with words; such gestures can be put into words, he is saying, but words themselves cannot be put into gestures (unless we make the gestures into words, as in sign language).</p>
+<p>Words, then, are conventional signs, since the sound of a word only signifies its meaning by agreement in a social group.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II.2.3, II.3.4.`,
   qp: { id: 'q-natural-given', variants: [
     { prompt: `A column of smoke rises over a hill. What kind of sign is it, in St. Augustine’s division?`,
-      options: [`A given sign, because someone lit the fire`, `A natural sign, because it signifies fire whether or not anyone means it to`, `Not a sign at all, because it is only smoke`, `A word, because it signifies something`],
+      options: [`A conventional sign, because someone lit the fire`, `A natural sign, because it signifies fire whether or not anyone means it to`, `Not a sign at all, because it is only smoke`, `A word, because it signifies something`],
       answer: 1,
       explain: `Smoke signifies fire because of the connection between them, and not because anyone means it to signify. That is what St. Augustine calls a natural sign; his own example is smoke indicating fire (<i>De doctrina christiana</i> II.1.2).` },
     { prompt: `A sailor raises a flag to tell another ship to stop. What kind of sign is the flag?`,
-      options: [`A given sign, because the sailor means it to signify his thought`, `A natural sign, because flags are made of natural materials`, `Not a sign, because it makes no sound`, `A natural sign, because it is seen by the eyes`],
+      options: [`A conventional sign, because the sailor means it to signify his thought`, `A natural sign, because flags are made of natural materials`, `Not a sign, because it makes no sound`, `A natural sign, because it is seen by the eyes`],
       answer: 0,
-      explain: `The flag signifies because the sailor means it to signify, and the other ship understands it by an agreement between them. A given sign is one that living beings exchange to show their thoughts; it need not be spoken.` },
+      explain: `The flag signifies because the sailor means it to signify, and the other ship understands it by an agreement between them. A conventional sign is one that living beings exchange to show their thoughts; it need not be spoken.` },
     { prompt: `Which of these is a natural sign?`,
       options: [`The word “rain”`, `A bell rung to call students to class`, `A raised hand in a classroom`, `A dark cloud before a storm`],
       answer: 3,
-      explain: `A dark cloud signifies coming rain by its natural connection with rain, whether or not anyone means it to signify. The word, the bell, and the raised hand signify because someone means them to; they are given signs.` }
+      explain: `A dark cloud signifies coming rain by its natural connection with rain, whether or not anyone means it to signify. The word, the bell, and the raised hand signify because someone means them to; they are conventional signs.` }
   ]}},
 
 { id: 'aristotle',
@@ -95,7 +97,7 @@ ARS.decks['i.sign'] = {
   src: `John of St. Thomas, <i>Tractatus de signis</i> (Ars logica II, q. 22), as expounded by John Deely, in paraphrase.`,
   qp: { id: 'q-formal', variants: [
     { prompt: `According to John of St. Thomas, what is the difference between an instrumental sign and a formal sign?`,
-      options: [`An instrumental sign must first be known as an object; a formal sign need not be`, `An instrumental sign is written, and a formal sign is spoken`, `An instrumental sign is natural, and a formal sign is given`, `They are two names for the same kind of sign`],
+      options: [`An instrumental sign must first be known as an object; a formal sign need not be`, `An instrumental sign is written, and a formal sign is spoken`, `An instrumental sign is natural, and a formal sign is conventional`, `They are two names for the same kind of sign`],
       answer: 0,
       explain: `Smoke must first be seen and a word must first be heard before either leads the mind to something else; these are instrumental signs. A concept leads the mind to its object without first being known as an object itself; it is a formal sign.` },
     { prompt: `Which of these is a formal sign?`,
@@ -110,7 +112,7 @@ ARS.decks['i.sign'] = {
 
 { id: 'why-grammar',
   title: 'Why does grammar begin with the sign?',
-  body: `<p>We have now seen what a sign is, how natural signs differ from given signs, and how the spoken word signifies things by means of concepts. Grammar begins here because its material is speech, and speech is made of given signs. A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he can study the sounds themselves, their letters and syllables, and the ways in which words are formed and arranged.</p>
+  body: `<p>We have now seen what a sign is, how natural signs differ from conventional signs, and how the spoken word signifies things by means of concepts. Grammar begins here because its material is speech, and speech is made of conventional signs. A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he can study the sounds themselves, their letters and syllables, and the ways in which words are formed and arranged.</p>
 <p>This order also explains why grammar is not the same as the study of sounds in natural philosophy or in modern phonetics. A groan, a cough, and the word “horse” are all sounds, but only the word belongs to grammar, because only the word signifies by the agreement of those who use it. How a sound comes to signify in this way is the question of imposition, which belongs to this section as well; and the sounds themselves are the subject of Section II, The Matter of Speech.</p>`,
   src: `Augustine, <i>De doctrina christiana</i> II; Aristotle, <i>De interpretatione</i> 1–2.` }
 
