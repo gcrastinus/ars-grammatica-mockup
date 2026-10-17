@@ -36,13 +36,26 @@ function buildHome(){
       }
       const c = document.createElement('div');
       const st = store.decks[it.id];
-      c.className = 'set-card ' + (it.built ? 'built' : 'soon');
+      const plan = hasPlan(it.id);
+      c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '');
       c.dataset.id = it.id;
       c.innerHTML = `<div class="kind">${KIND[it.kind]}</div>
         ${it.built && st && st.done ? '<span class="done-flag">✓ Studied</span>' : ''}
         <h3>${it.title}</h3><p>${it.desc}</p>
         <span class="begin">${it.built ? 'Study →' : ''}</span>
         <span class="soon-flag">Coming</span>`;
+      // A deck with its own exercise set (II–XI) gets an Exercise button that opens the set's plan.
+      const exId = ARS.deckEx && ARS.deckEx[it.id];
+      if (it.built && exId && hasPlan(exId)){
+        const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
+        b.onclick = e => { e.stopPropagation(); openEx(exId); };
+        c.appendChild(b);
+      }
+      if (!it.built && plan){
+        c.tabIndex = 0; c.setAttribute('role', 'button');
+        c.onclick = () => openEx(it.id);
+        c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
+      }
       if (it.built){
         c.tabIndex = 0; c.setAttribute('role', 'button');
         c.onclick = () => openDeck(it.id);
@@ -64,6 +77,54 @@ function loadDeck(id){
     s.onerror = () => rej(new Error('Could not load ' + s.src));
     document.head.appendChild(s);
   });
+}
+
+/* ---------- exercise sets and section reviews (Sections II–XI): plan and stubs only ---------- */
+function hasPlan(id){ return !!(ARS.exerciseFiles && ARS.exerciseFiles.indexOf(id) >= 0); }
+function loadEx(id){
+  ARS.exercises = ARS.exercises || {};
+  if (ARS.exercises[id]) return Promise.resolve(ARS.exercises[id]);
+  return new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = `data/exercises/${id}.js`;
+    s.onload = () => ARS.exercises[id] ? res(ARS.exercises[id]) : rej(new Error('No data in ' + s.src));
+    s.onerror = () => rej(new Error('Could not load ' + s.src));
+    document.head.appendChild(s);
+  });
+}
+const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a marked word', 'identify':'identify in the text',
+  'count':'count (a number)', 'divide':'divide into syllables', 'form':'give the form', 'transform':'rewrite (correct or transform)',
+  'analysis':'parse and construe', 'passage-mc':'questions on a passage', 'mark':'mark the dependences', 'copy':'copy word for word' };
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+function openEx(id){
+  loadEx(id).then(ex => {
+    location.hash = 'ex/' + id;
+    $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
+    $('ex-title').innerHTML = ex.title;
+    $('ex-sub').textContent = 'Coming soon: the questions are not yet written.';
+    const body = $('ex-body'); body.innerHTML = '';
+    const box = document.createElement('div'); box.className = 'q-box ex-plan';
+    const covers = ex.covers.map(c => `${c.deck}${c.cards && c.cards.length ? ' (' + c.cards.join(', ') + ')' : ''}`).join('; ');
+    const sets = ex.sets ? `A ${ex.sets.A} · B ${ex.sets.B} · C ${ex.sets.C}` : 'fixed order';
+    const bal = ex.balancePerSet ? Object.entries(ex.balancePerSet).map(([d, n]) => `${d} ${n}`).join(' · ') : '';
+    box.innerHTML = `<div class="qp-label"><span>Plan (to be approved before the questions are written)</span></div>
+      <dl><dt>Covers</dt><dd>${esc(covers)}</dd><dt>Skill</dt><dd>${esc(ex.skill)}</dd>
+      <dt>Item types</dt><dd>${ex.types.map(x => TYPE_NAME[x] || x).join('; ')}</dd>
+      <dt>Slots</dt><dd>${ex.pool} in all; ${sets}; ${esc(ex.rotation)}</dd>
+      ${bal ? `<dt>Per set</dt><dd>${esc(bal)}</dd>` : ''}${ex.split ? `<dt>Balance</dt><dd>${esc(ex.split)}</dd>` : ''}
+      <dt>Limit</dt><dd>${esc(ex.limit)}</dd><dt>Opened from</dt><dd>${esc(ex.openedFrom)}</dd></dl>`;
+    const groups = {};
+    ex.items.forEach(x => { const k = x.set || 'Fixed passages'; (groups[k] = groups[k] || []).push(x); });
+    Object.keys(groups).forEach(k => {
+      const d = document.createElement('details'); d.className = 'ex-set';
+      d.innerHTML = `<summary>${k.length === 1 ? 'Set ' + k : k} · ${groups[k].length} empty slots</summary><ol>` +
+        groups[k].map(x => `<li><code>${x.id}</code> ${x.work ? esc(x.work) + ', ' + esc(x.selection) + ` (${x.words} words)` :
+          esc([x.deck, x.card, x.trope, x.group, x.lang, TYPE_NAME[x.type] || x.type].filter(Boolean).join(' · '))}${x.questions ? ` · ${x.questions.length} questions (${x.questions.map(q => q.task).join(', ')})` : ''} · <i>TODO</i></li>`).join('') + '</ol>';
+      box.appendChild(d);
+    });
+    body.appendChild(box);
+    show('scr-ex');
+  }).catch(err => { alert(err.message); });
 }
 
 /* ---------- the deck ---------- */
@@ -172,6 +233,7 @@ $('dark-toggle').onclick = () => setDark(!store.dark);
 $('deck-next').onclick = nextPanel;
 $('deck-prev').onclick = prevPanel;
 $('deck-home').onclick = goHome;
+$('ex-home').onclick = goHome;
 $('done-home').onclick = goHome;
 $('done-again').onclick = () => openDeck(cur.deck.id);
 document.addEventListener('keydown', e => {
@@ -183,6 +245,8 @@ document.addEventListener('keydown', e => {
 
 setDark(!!store.dark);
 buildHome();
+const mx = location.hash.match(/^#ex\/(.+)$/);
+if (mx && hasPlan(mx[1])) openEx(mx[1]);
 const m = location.hash.match(/^#deck\/(.+)$/);
 if (m){
   const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built);

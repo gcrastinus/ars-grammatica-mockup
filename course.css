@@ -35,3 +35,18 @@
 
 .qp-todo{border-style:dashed; opacity:.75}
 .qp-todo .q-prompt{font-size:16px; font-style:italic; color:var(--ink-soft)}
+
+/* Exercise sets and section reviews not yet written: the plan and the empty stubs (reviewer view). */
+.set-card .ex-link{display:inline-block; align-self:flex-start; margin-top:10px; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:var(--gold); background:none; border:1px solid var(--gold-soft); border-radius:6px; padding:4px 10px; cursor:pointer}
+.set-card.soon.has-plan{opacity:.8; cursor:pointer}
+.set-card.soon.has-plan .soon-flag::after{content:' · plan'}
+.ex-plan{border-style:dashed}
+.ex-plan dl{display:grid; grid-template-columns:max-content 1fr; gap:6px 14px; margin:10px 0 0; font-size:16px}
+.ex-plan dt{font-family:'Cinzel',serif; font-size:12px; letter-spacing:.12em; color:var(--gold); text-transform:uppercase; padding-top:3px}
+.ex-plan dd{margin:0; color:var(--ink-soft)}
+.ex-set{margin-top:14px}
+.ex-set summary{cursor:pointer; font-family:'Cinzel',serif; font-size:14px; letter-spacing:.08em}
+.ex-set ol{margin:8px 0 0 22px; font-size:15px; color:var(--ink-soft)}
+.ex-set li{margin:2px 0}
+.ex-set code{font-size:13px}
+@media (max-width:560px){ .ex-plan dl{grid-template-columns:1fr} .ex-plan dt{padding-top:8px} }
