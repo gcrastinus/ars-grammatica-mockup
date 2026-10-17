@@ -42,10 +42,11 @@ ARS.decks['i.imposition'] = {
   ]}},
 
 { id: 'reason-for-name',
-  title: 'The reason for a name, and what the name signifies',
-  body: `<p>St. Thomas distinguishes two things in the imposition of a name: that from which the name is taken, and that which the name is imposed to signify. His example comes from the old etymology of the Latin word for stone, <i>lapis</i>, which was said to come from <i>laedit pedem</i>, “it hurts the foot.” The name, on that account, was taken from the fact that a stone hurts the foot; but it was not imposed to signify hurting the foot. It was imposed to signify a stone, a certain kind of body (<i>Summa theologiae</i> I, q. 13, a. 2, ad 2, in paraphrase).</p>
-<p>So the reason for a name and the meaning of the name are not the same. The English word “daisy” comes from “day’s eye,” because the flower opens in the morning and closes at night; but “daisy” signifies the flower, and not an eye or a day. The word “breakfast” was taken from breaking the fast of the night, but it signifies the morning meal, even when no one has fasted. The reason for the name explains why a sound was chosen, but the meaning is fixed by the imposition and by usage.</p>`,
-  src: `St. Thomas, <i>Summa theologiae</i> I, q. 13, a. 2, ad 2, in paraphrase.` },
+  title: 'The reason for a name and what the name signifies',
+  body: `<p>Whoever imposes a name usually has some reason for choosing the sound he chooses. The English word “daisy” comes from “day’s eye,” because the flower opens in the morning and closes at night, and the word “breakfast” was taken from breaking the fast of the night. But “daisy” does not signify an eye or a day; it signifies the flower. And “breakfast” signifies the morning meal, even when no one has fasted. So two things must be distinguished in the imposition of a name: that from which the name is taken, which explains why a sound was chosen, and that which the name is imposed to signify, which is fixed by the imposition and by usage. The reason for a name and the meaning of the name are not the same.</p>
+<p>This also explains what was true in the view that names are by nature. Many names do have a reason in the things they name, but that reason does not make the sound signify by nature; it only explains why those who imposed the name chose that sound rather than another.</p>
+<p>St. Thomas draws the same distinction. His example comes from the old etymology of the Latin word for stone, <i>lapis</i>, which was said to come from <i>laedit pedem</i>, “it hurts the foot.” The name, on that account, was taken from the fact that a stone hurts the foot; but it was not imposed to signify hurting the foot. It was imposed to signify a stone, a certain kind of body (<i>Summa theologiae</i> I, q. 13, a. 2, ad 2).</p>`,
+  src: `St. Thomas, <i>Summa theologiae</i> I, q. 13, a. 2, ad 2.` },
 
 { id: 'usage-change',
   title: 'Imposition and usage',
