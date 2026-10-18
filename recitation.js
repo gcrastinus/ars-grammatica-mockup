@@ -231,6 +231,8 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   const menuList = document.getElementById('recite-menu-list');
   const picker = document.getElementById('recite-picker');
   const seeBtn = document.getElementById('recite-see');
+  const printBtn = document.getElementById('recite-print');
+  const printSheet = document.getElementById('recite-sheet');
   const newBtn = document.getElementById('recite-new');
   const note = document.getElementById('recite-note');
   const text = document.getElementById('recite-text');
@@ -263,6 +265,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     const enough = !!(live && reciteDistinctCount(text.value) >= reciteMinimum(live));
     seeBtn.hidden = !!(item && item.locked);
     seeBtn.disabled = !enough;
+    if (printBtn) printBtn.hidden = !(item && item.locked && item.groups && item.groups.length);
     newBtn.hidden = !(item && item.locked);
     note.hidden = !(item && !item.locked && live && !enough);
   }
@@ -449,6 +452,93 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     item.text = text.value;
     updateGate();
     queueSave();
+  });
+
+  const RECITE_MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  function formatReciteDate(ms){
+    const d = new Date(ms);
+    return RECITE_MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  }
+
+  function preparePrint(){
+    if (!printSheet) return false;
+    printSheet.replaceChildren();
+    const item = currentItem();
+    if (overlay.hidden || !item || !item.locked || !item.groups || !item.groups.length){
+      document.body.classList.remove('recite-printing');
+      printSheet.setAttribute('aria-hidden', 'true');
+      return false;
+    }
+    const head = document.createElement('header');
+    head.className = 'recite-print-head';
+    const h = document.createElement('h1');
+    h.innerHTML = labelHTML(selectedKey);
+    const date = document.createElement('p');
+    date.className = 'recite-print-date';
+    date.textContent = formatReciteDate(item.revealedAt || Date.now());
+    head.appendChild(h);
+    head.appendChild(date);
+
+    const cols = document.createElement('div');
+    cols.className = 'recite-print-cols';
+    const left = document.createElement('section');
+    left.className = 'recite-print-col';
+    const lh = document.createElement('h2');
+    lh.textContent = 'Recitation';
+    const written = document.createElement('div');
+    written.className = 'recite-print-text';
+    written.textContent = item.text || '';
+    left.appendChild(lh);
+    left.appendChild(written);
+
+    const right = document.createElement('section');
+    right.className = 'recite-print-col';
+    const rh = document.createElement('h2');
+    rh.textContent = 'Full recitation';
+    right.appendChild(rh);
+    item.groups.forEach(g => {
+      if (item.groups.length > 1){
+        const dh = document.createElement('h3');
+        dh.className = 'recite-print-deck';
+        dh.innerHTML = g.title;
+        right.appendChild(dh);
+      }
+      (g.points || []).forEach(pt => {
+        const row = document.createElement('div');
+        row.className = 'recite-print-point';
+        const box = document.createElement('span');
+        box.className = 'recite-print-box';
+        box.setAttribute('role', 'checkbox');
+        box.setAttribute('aria-checked', pt.checked ? 'true' : 'false');
+        if (pt.checked){
+          box.innerHTML = '<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.2 6.3 L4.7 8.8 L9.8 3.2" fill="none" stroke="#2b2118" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+        }
+        const span = document.createElement('div');
+        span.innerHTML = typeof pt === 'string' ? pt : pt.text;
+        row.appendChild(box);
+        row.appendChild(span);
+        right.appendChild(row);
+      });
+    });
+    cols.appendChild(left);
+    cols.appendChild(right);
+    printSheet.appendChild(head);
+    printSheet.appendChild(cols);
+    printSheet.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('recite-printing');
+    return true;
+  }
+
+  if (printBtn) printBtn.addEventListener('click', () => {
+    if (!preparePrint()) return;
+    window.print();
+  });
+  window.addEventListener('beforeprint', () => {
+    if (!overlay.hidden) preparePrint();
+  });
+  window.addEventListener('afterprint', () => {
+    document.body.classList.remove('recite-printing');
+    if (printSheet) printSheet.setAttribute('aria-hidden', 'true');
   });
 
   seeBtn.addEventListener('click', () => {
