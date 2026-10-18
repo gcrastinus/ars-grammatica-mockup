@@ -358,3 +358,25 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - First card: "bread and wine" etc. before Priscian; power: four example sentences before Donatus's five kinds (kept on separate lines); order: *senātus populusque*, *Caesar autem* before Donatus; figure: "but"/"nevertheless"; "in paraphrase" removed throughout.
 **iii.interjection**
 - First card from "Oh dear," "Goodness!"; signification paragraphs swapped (English first); vocative: "O Lord, open thou our lips" before Latin *ō* and *Pro Archia*; "in paraphrase" removed.
+
+### Sections IV, VI, and VIII
+**iv.composition**
+- First card opens from "sunrise," "doorbell," "rainfall" against "booklet," then the definition, then Donatus's figure recalled from Section III.
+- Kinds of English compound as a prose list with ordinals; "agent noun" glossed; "while" → "whereas" (2).
+- "We also saw that English distinguishes a compound from a phrase by its stress" → "English also distinguishes…" (no earlier deck teaches it); "here we study" cut; "which we study next" → "which we consider next in this section of the course."
+**iv.derivation**
+- First card from "kingdom," "kindness," "teacher" before the definition and Priscian; Latin suffix cards from their English descendants ("actor," "action," "nation"; "glorious," "natural," "credible," "Roman"); "in paraphrase" removed (Vossius).
+**iv.etymology**
+- First card from "goodbye" and "salary" before the definition and Quintilian; cognate card from "father"/*pater* against "paternal"/*paternus*; "in paraphrase" removed (Varro, Isidore). The cratylus card untouched (pending Timothy's text).
+**vi.barbarism**
+- English examples before Donatus and Quintilian on the definition, writing-and-speech, four-ways, and foreign-words cards; "Febuary" replaces a second use of "nucular"; "faults" → "errors" in our own voice; section-order pointer removed.
+**vi.metaplasm**
+- First card from "o'er," "e'en," "'tis" before Donatus; "in paraphrase" removed; closing summary no longer assumes the decks were read in order.
+**vi.solecism**
+- English examples before Donatus and Quintilian on five cards ("Come, all of you" said to one person; "he himself personally came"); Donatus's further faults marked as reported *vitia*; "in paraphrase" removed.
+**vi.usage**
+- First card from "who"/"whom," "fewer"/"less," "different from"/"different than"; authors card from "the most unkindest cut of all" (*Julius Caesar* III.2) before Quintilian; the three kinds of error (barbarism, solecism, impropriety) on separate lines after a plain contrast.
+**viii.equivalents**
+- Six cards open from English sentences before the authority (copula, quantity, quality, compound statements, figure of speech, relative clause); the four quantities on separate lines; "while" → "whereas" (2); "in paraphrase" removed (Aristotle, Peter of Spain, Port-Royal); pointers rewritten.
+**viii.supposition**
+- Everyday statements before the definitions of material, simple, personal, discrete, determinate, confused and distributive, and merely confused supposition; "while" → "whereas" (2); "in paraphrase" removed (Peter of Spain, Ockham); the three review cards kept as planned.
