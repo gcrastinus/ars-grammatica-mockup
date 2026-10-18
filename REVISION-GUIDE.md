@@ -264,3 +264,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: Recitation Tablet: added whole-section recitations, open once every deck in the section is completed, showing the decks' recitations combined in order.
 - 17 Oct 2026: i.syncategorematic, by-themselves: Timothy's revision ("Now, we can divide words…"; categorematic defined as what the tradition calls it; subject and predicate glossed in place; new closing paragraph "But not all words are like this…").
 - 17 Oct 2026: i.syncategorematic, by-themselves: closing sentence now "But not all words are like this: some words signify only together with something else."
+- 17 Oct 2026: i.syncategorematic, with-others: opening sentence now Timothy's ("A word that does not signify something definite by itself… is what the tradition calls a syncategorematic word."); rest unchanged.

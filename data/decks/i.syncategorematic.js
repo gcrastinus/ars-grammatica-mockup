@@ -20,7 +20,7 @@ ARS.decks['i.syncategorematic'] = {
 
 { id: 'with-others',
   title: 'Words that signify only with others',
-  body: `<p>A <strong>syncategorematic</strong> word is a word that does not signify something definite by itself, but signifies only together with other words, by determining how they are to be taken. The name adds the Greek <i>syn</i>, “with,” to the same root: a syncategorematic word signifies only with what is said. Examples are “every,” “no,” “some,” “not,” “only,” “except,” “if,” “and,” and “or,” and in Latin <i>omnis</i> (“every”), <i>nullus</i> (“no”), <i>non</i> (“not”), <i>tantum</i> (“only”), and <i>si</i> (“if”).</p>
+  body: `<p>A word that does not signify something definite by itself but signifies only together with other words by determining in what way those words are to be taken is what the tradition calls a <strong>syncategorematic</strong> word. The name adds the Greek <i>syn</i>, “with,” to the same root: a syncategorematic word signifies only with what is said. Examples are “every,” “no,” “some,” “not,” “only,” “except,” “if,” “and,” and “or,” and in Latin <i>omnis</i> (“every”), <i>nullus</i> (“no”), <i>non</i> (“not”), <i>tantum</i> (“only”), and <i>si</i> (“if”).</p>
 <p>If we hear the word “every” by itself, we ask, “Every what?” The word does not bring a thing to mind as “horse” does. But in “Every horse runs,” it tells us how “horse” is to be taken: not this horse or some horse, but each and all. The meaning of a syncategorematic word lies in what it does to the other words of the sentence.</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i>, in paraphrase.` },
 
