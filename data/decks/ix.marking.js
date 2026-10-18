@@ -18,8 +18,8 @@ ARS.decks['ix.marking'] = {
 
 { id: 'stored-analysis',
   title: 'Comparing the marks with an analysis',
-  body: `<p>Each sentence used for marking has an analysis prepared in advance, in which every dependence is recorded by these conventions. When a sentence is marked, each arrow is compared with the stored analysis: an arrow that matches is confirmed, an arrow that is missing or drawn the wrong way is shown with the correct one. So the marking is a test of whether every construction in the sentence has been found and understood in the same way.</p>
-<p>The conventions matter, because different grammars draw some dependences differently. We saw in Section V that Tesnière makes the subject depend on the verb, whereas Thomas makes the verb depend on the subject. The stored analyses follow Thomas throughout, so that the marks are judged by one consistent account, and the student who knows the account can mark any sentence by it.</p>`,
+  body: `<p>A marking can be checked against a complete analysis of the same sentence, in which every dependence is recorded by these conventions. An arrow that matches the analysis is correct; an arrow that is missing or drawn the wrong way shows a construction that has not been found or has been misunderstood. So marking a sentence tests whether every construction in it has been found and understood.</p>
+<p>The conventions matter, because different grammars draw some dependences differently. We saw in Section V that Tesnière makes the subject depend on the verb, whereas Thomas makes the verb depend on the subject. The conventions given here follow Thomas throughout, so that every sentence is marked by one consistent account.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Tesnière, <i>Éléments de syntaxe structurale</i>; both in paraphrase.` }
 
   ]
