@@ -52,7 +52,7 @@ ARS.decks['iii.verb-1'] = {
 { id: 'english-moods',
   title: 'Mood in English',
   body: `<p>“He is here,” “Be here,” and “If only he were here” show the three moods that English grammars usually count: the <strong>indicative</strong>, the <strong>imperative</strong>, and the <strong>subjunctive</strong>. The English subjunctive has few distinct forms, and many of the meanings that Latin expresses by the subjunctive are expressed in English by the <strong>modal auxiliaries</strong>: “may,” “might,” “can,” “could,” “shall,” “should,” “will,” “would,” and “must.”</p>
-<p>So Latin <i>utinam audiat</i> is “May he hear,” and <i>audiat</i> in some uses is “Let him hear.” Latin <i>sī venīret, gaudērem</i> is “If he were coming, I would be glad.” In these translations English uses auxiliary verbs where Latin uses one inflected form, just as English uses prepositions where Latin uses case endings. The meaning is the same, but the means of expressing it differ.</p>`,
+<p>So Latin <i>utinam valeat</i> is “May he be well,” and <i>valeat</i> in some uses is “Let him be well.” Latin <i>sī venīret, gaudērem</i> is “If he were coming, I would be glad.” In these translations English uses auxiliary verbs where Latin uses one inflected form, just as English uses prepositions where Latin uses case endings. The meaning is the same, but the means of expressing it differ.</p>`,
   src: `Standard English grammars; Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.` },
 
 { id: 'voice',
