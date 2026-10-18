@@ -12,8 +12,8 @@ ARS.decks['i.functions'] = {
 
 { id: 'what-speech-does',
   title: 'What can a sentence do?',
-  body: `<p>We have seen how words signify, and that only a sentence can be true or false. But not every sentence is used to say that something is or is not so. We use sentences to state, to ask, to command, to wish or pray, to call someone, and to express what we feel. These different uses of speech are traditionally called the functions of language, and each of them is a use of a complete sentence.</p>
-<p>To take some simple examples: “The door is open” states something; “Is the door open?” asks something; “Open the door” commands something; “May the door be opened” wishes or prays for something; “John!” calls someone; and “Alas, the door is locked!” expresses a feeling as well as stating a fact. Every one of these sentences signifies, but they do not all signify in the same way.</p>`,
+  body: `<p>We have seen how words signify, and that only a sentence can be true or false. But not every sentence is used to say that something is or is not so. We use sentences to state, to ask, to command, to pray, and to call someone, and any of these sentences can also express what the speaker feels. These are the functions of language, that is, the different uses of speech, and each of them is a use of a complete sentence.</p>
+<p>To take some simple examples: “The door is open” states something; “Is the door open?” asks something; “Open the door” commands something; “May the door be opened” prays for something; “John!” calls someone; and “Alas, the door is locked!” expresses a feeling as well as stating a fact. Every one of these sentences signifies, but they do not all signify in the same way.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 4; St. Thomas, <i>In Peri hermeneias</i> I, lect. 7, in paraphrase.` },
 
 { id: 'aristotle',
