@@ -1,5 +1,20 @@
 # Next step: building Sections I–XI of Ars Grammatica v2
 
+## Current stage (17 Oct 2026): read this first
+
+The Preliminaries and all of Section I are finished in Timothy's hand. Sections II–XI exist as Claude's drafts. The work now goes in this order:
+
+1. **Revision pass over Sections II–XI**, card by card, to match the finished Preliminaries and Section I. **Read STYLE-GUIDE-CARDS.md first**: it consolidates every rule and gives before/after pairs from Timothy's edits; its first rule is realities first, then the principle, then the tradition. Then read the finished decks (`data/decks/prelim.*.js`, `data/decks/i.*.js`) in full.
+2. **Question points and exercises.** Write the `qpTodo` placeholders as question points (three variants each) and the exercise sets and section reviews (EXERCISES-PLAN.md, `data/exercises/`), after each deck's cards are revised, following STYLE-GUIDE-CARDS.md rule 28.
+3. **Recitation Tablet**, after the decks are settled (ITEM-LIST.md, "Recitation Tablet"; section 11 below). Each deck gets a `recitation` outline once its cards are final.
+
+Where sections 1–10 below (written when Section I was first built) differ from STYLE-GUIDE-CARDS.md, the guide wins; in particular, lists are now written in prose, not as `<br>` lines.
+
+### Prompt for the revision pass
+
+> Read STYLE-GUIDE-CARDS.md, then NEXT-STEP.md ("Current stage"), CLAUDE.md, and the newest entries in REVISION-GUIDE.md. Revise Section II card by card to match the finished Preliminaries and Section I, without changing doctrine, citations, ids, or answer keys. Commit one deck at a time. End with a report whose last part is a short numbered list of the decisions that need me, each explained in context.
+
+
 ## Prompt for Timothy to paste into Claude Code
 
 > Read NEXT-STEP.md in this repository and follow it exactly. Build Section I (Sign and Significant Voice) only, in the mockup repository, following the reading order and process it gives. When Section I is drafted, reviewed against the guides, checked, and committed, stop and give me your report, including every doubtful wording and source question; do not start Section II or touch the live app until I have reviewed Section I.
@@ -24,7 +39,7 @@ Work one section at a time. Timothy reviews each section before the next one is 
 
 ## 2. Reading order (before writing anything)
 
-1. CLAUDE.md (the wording rules; the main problem to avoid; the model passages).
+1. STYLE-GUIDE-CARDS.md (the consolidated card style guide; read it first), then CLAUDE.md (the wording rules; the main problem to avoid; the model passages).
 2. REVISION-GUIDE.md, section A (decisions that apply everywhere), then section K (patterns from Timothy's own rewrite of P.3 and P.4), then section D (patterns from the Tasks of the Grammarian deck). Skim B and the logs C–J for examples.
 3. STYLE-GUIDE-TIMOTHY.md (his general expository voice; CLAUDE.md and REVISION-GUIDE.md win where they differ).
 4. The four finished decks, read in full as the model of finished text: data/decks/prelim.definition.js, prelim.offices.js, prelim.methodice.js ("Precepts and Interpretation"), prelim.criteria.js. Note how cards open, how terms are glossed, how examples are explained, how the questions and explanations are written.
@@ -109,7 +124,7 @@ Points to keep:
 - `sources` is deck-level, backbone sources only, shown on the first panel. Each panel's `src` is a short citation record for the card (the renderer does not show it as a per-panel source line); quotations are cited in the text itself.
 - Panel `id`s are short, stable, lowercase. Question point ids start with `q-`. `answer` is the 0-based index; vary the position of the correct option across variants.
 - Explanations begin with the content, not with "Correct" (the renderer adds "Correct"/"Incorrect").
-- Body HTML: `<p>` paragraphs; `<strong>` for a term at the point where it is defined; `<i>` for Latin and other foreign words and for titles; lists as one paragraph with `<br>` between items; no `<ul>`; no example list at the bottom.
+- Body HTML: `<p>` paragraphs; `<strong>` for a term at the point where it is defined; `<i>` for Latin and other foreign words and for titles; lists written in prose ("first, … second, …"; STYLE-GUIDE-CARDS.md rule 14); no `<ul>`; no example list at the bottom.
 - Register the deck in data/structure.js by adding `built:true` to its item (the item and id already exist). Do not change ids, titles, or order in structure.js without Timothy's approval; if a title should change, propose it.
 - Exercise sets and section reviews: there is no finished model yet. Propose a data format in your report for the first one (items with `id`, `prompt`, `options`, `answer`, `explain`, and the set letter A/B/C), draft it in `data/exercises/<id>.js`, and keep it separate from the decks. If time is short, finish the decks of the section first and leave the set for the next round, saying so.
 
@@ -128,7 +143,7 @@ Points to keep:
 - American spelling (center, meter, color, license), except inside quotations.
 - Feedback words are "Correct" and "Incorrect."
 - An English word mentioned as a word takes double quotation marks ("thing"); a foreign word, or a foreign example sentence, is italic (*res*); English example sentences take double quotation marks.
-- Lists: lead-in ending with a colon, items as `<br>` lines, bold English term, Latin in italic parentheses. No `<ul>`.
+- Lists: written in prose with ordinals ("first, … second, …; and, finally, …"), complete, English term first with Latin in italic parentheses. No `<ul>`, and no new `<br>` lists (STYLE-GUIDE-CARDS.md rule 14).
 - No technical terms before they are taught (A.7). In Section I no term from III or later is assumed (case, declension, mood) without a plain gloss, and exercise items test only I.1–I.6.
 - Examples go in the text, more than one when illustrating a kind (A.4); every foreign example is translated.
 - "Fault" and "office" only when reporting the ancients (A.1, A.2).
@@ -168,3 +183,10 @@ Timothy's aim is to review closely at the start and less as the guides improve, 
 5. **The report at the end of every section** lists, first, every doubtful wording, coined term, or source question (location and the question), so Timothy can review those spots first; then the decks and exercise sets built, with counts.
 6. **Exercises:** after Timothy approves the item pattern for one exercise set, follow the same pattern for every later set. If he corrects one item, apply the same correction to every item that shares the problem and say so in the report.
 
+## 11. The Recitation Tablet (after the decks are settled)
+
+The Recitation Tablet is part of the app plan (full specification in ITEM-LIST.md, "Recitation Tablet"): a homepage button opens a panel where the student chooses a completed deck (or a whole completed section), writes out the deck's material from memory, and then opens the full recitation beside his own text and checks off the points he covered. There is no automatic grader, no server, and no API key.
+
+1. Build it only after the decks are settled, starting with Section I.
+2. Each deck gets a deck-level `recitation` outline once its cards are final: the deck's order, every point of substance (definitions, distinctions, divisions, arguments, conclusions), no passing examples, quotations, or source notes, in the same textbook prose (STYLE-GUIDE-CARDS.md rule 29). Whole-section recitations combine the decks' outlines in course order.
+3. If a card changes after its recitation is written, update the recitation in the same commit.

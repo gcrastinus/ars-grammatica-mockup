@@ -1,4 +1,14 @@
-**Building Sections I–XI? Start with NEXT-STEP.md** (the build brief), then this file, REVISION-GUIDE.md, and STYLE-GUIDE-TIMOTHY.md (Timothy's general voice guide; this file and REVISION-GUIDE.md take precedence where they differ).
+**Read STYLE-GUIDE-CARDS.md first, before anything else.** It is the consolidated style guide for the cards, distilled from Timothy's finished edits to the Preliminaries and Section I; its first rule (realities first, then the principle, then the tradition) governs every card. Then read NEXT-STEP.md (the build brief and the current stage), this file, REVISION-GUIDE.md (newest entries first), and STYLE-GUIDE-TIMOTHY.md (Timothy's general voice guide). Order of authority: Timothy's newest dated decisions in REVISION-GUIDE.md, then STYLE-GUIDE-CARDS.md, then this file and the rest of REVISION-GUIDE.md, then STYLE-GUIDE-TIMOTHY.md.
+
+## Current stage and app plan (17 Oct 2026)
+
+The Preliminaries and all of Section I are finished in Timothy's hand and are the model. The remaining work, in this order:
+
+1. **Revise Sections II–XI** card by card to match, following STYLE-GUIDE-CARDS.md.
+2. **Write the question points** (the `qpTodo` placeholders, three variants each) **and the exercise sets and section reviews** (EXERCISES-PLAN.md, `data/exercises/`), once each deck's cards are revised, so the questions match the final text.
+3. **Build the Recitation Tablet** (ITEM-LIST.md, "Recitation Tablet"), after the decks are settled. **Each deck gets a `recitation` outline (deck-level field) once its cards are final**, starting with Section I; whole-section recitations combine the decks' outlines in course order.
+
+Timothy does not read Claude's notes or logs. End every report with a short numbered list of the decisions that need him, each explained in context (deck, card, wording, options, recommendation).
 
 # Writing style for Ars Grammatica (Timothy Kearns)
 
