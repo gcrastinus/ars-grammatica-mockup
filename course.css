@@ -354,3 +354,6 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
   .subtitle{font-size:22px}
   .qp .q-prompt{font-size:21px}
 }
+
+/* The Recitation Tablet button shows only on the homepage; other screens need room only for the audio controls. */
+@media (max-width:1100px){ body.off-home .wrap{padding-top:70px} }

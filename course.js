@@ -18,6 +18,9 @@ function show(scr){
   if (window.__arsStopSpeak) window.__arsStopSpeak();
   document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.id === scr));
   window.scrollTo(0, 0);
+  const reciteOpen = document.getElementById('recite-open');
+  if (reciteOpen) reciteOpen.style.display = (scr === 'scr-home') ? '' : 'none';
+  document.body.classList.toggle('off-home', scr !== 'scr-home');
   if (scr === 'scr-home') refreshReciteNudge();
   else concealReciteNudge();
 }
