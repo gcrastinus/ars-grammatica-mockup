@@ -38,9 +38,9 @@ ARS.decks['i.functions'] = {
 
 { id: 'five-kinds',
   title: 'The kinds of complete sentence',
-  body: `<p>A complete sentence does not only state. We can also call someone (“John!” or “O Lord”), ask (“Has the rain stopped?”), command (“Shut the door”), and beg or pray (“Send us rain, O Lord”). Each of these is complete and meaningful, but only the statement (“The rain has stopped”) says that something is or is not so.</p>
+  body: `<p>As we have seen already, a complete sentence does not only make a statement. We can also call someone (“Mary!” or “O Lord”), ask (“Has the rain stopped?”), command (“Bring the umbrella”), and beg or pray (“Send us rain, O Lord”). Each of these is complete and meaningful, but only the statement (“The rain has stopped”) says that something is or is not so.</p>
 <p>These kinds differ according to what the speaker does with what he understands. In a statement the speaker simply expresses what he understands to be so. In the other kinds he directs what he understands toward another person, whether to call him, to ask him, to command him, or to pray to him. So “The rain has stopped” expresses a judgment, whereas “Has the rain stopped?” asks another person for one, and “Send us rain, O Lord” asks God for something to be done.</p>
-<p>St. Thomas, commenting on Aristotle’s passage, sets out these kinds of complete sentence as the tradition recognized them: the enunciative sentence, that is, the statement; the vocative, which calls; the interrogative, which asks; the imperative, which commands; and the deprecative, which begs or prays. He explains their difference in the same way, by what the speaker does with what he understands (<i>In Peri hermeneias</i> I, lect. 7).</p>`,
+<p>St. Thomas, commenting on Aristotle, sets out these kinds of complete sentence as the tradition recognized them: the enunciative sentence, that is, the statement; the vocative, which calls; the interrogative, which asks; the imperative, which commands; and the deprecative, which begs or prays. He explains their difference in the same way, by what the speaker does with what he understands (<i>In Peri hermeneias</i> I, lect. 7).</p>`,
   src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 7, in paraphrase.` },
 
 { id: 'marks',
