@@ -1,5 +1,5 @@
 /* Section Review: Sign and Significant Voice [i.review]
-   WRITTEN (18 Oct 2026); hand-edited; do not regenerate with gen.py.
+   WRITTEN (18 Oct 2026; revised the same day after review); hand-edited; do not regenerate with gen.py.
    45 new questions on I.1 to I.6, in three fixed sets of 15 (A, B, C in rotation, never reordered). Per set: sign 3,
    imposition 3, consignification 2, syncategorematic 2, functions 2, ambiguity 3. Within each set the items run from
    easier to harder; options are shown shuffled and the key follows the option. Items with "why" add a short prompt and
@@ -90,7 +90,7 @@ ARS.exercises['i.review'] = {
     "A statement"
    ],
    "answer": 2,
-   "explain": "The sentence asks something; it does not say that anything is or is not so. English shows the question by the order of the words (“did you put” instead of “you put”) and by the question mark."
+   "explain": "The sentence asks something; it does not say that anything is or is not so. English shows the question by adding “did” before the subject (“did you put” instead of “you put”) and by the question mark."
   },
   {
    "id": "ri-A01",
@@ -102,7 +102,7 @@ ARS.exercises['i.review'] = {
     "A formal sign, because it is known at once",
     "Not a sign, because nothing is spoken",
     "A natural sign, because red is a natural color",
-    "A conventional sign, by agreement"
+    "A conventional sign, because of an agreement"
    ],
    "answer": 3,
    "explain": "Nothing in the color red means “stop”; the light signifies stopping only because drivers have agreed on what it means. So it is a conventional sign, like a flag raised over a ship or a hand raised in a classroom."
@@ -111,16 +111,20 @@ ARS.exercises['i.review'] = {
    "id": "ri-A07",
    "set": "A",
    "deck": "i.consignification",
-   "type": "mc",
-   "prompt": "“Child” and “children” signify the same kind of human being. What does “children” consignify along with that meaning?",
+   "type": "mc-marked",
+   "prompt": "“<b>Every</b> lamp went out.” Does “every” consignify the past time of this sentence?",
    "options": [
-    "A younger age",
-    "More than one",
-    "The person spoken to",
-    "Past time"
+    "Yes, because the sentence is about the past",
+    "No, because the verb “went” consignifies it",
+    "Yes, because every word consignifies time",
+    "No, because “every” signifies nothing at all"
    ],
    "answer": 1,
-   "explain": "“Children” signifies the same kind of human being as “child” and also signifies more than one. The grammarians call such an additional meaning an accident of the word; this one is number."
+   "explain": "“Every” signifies only by determining how “lamp” is taken: all the lamps. It does not signify an action, and so it does not consignify time. The past time of the sentence is consignified by the verb “went,” which signifies the action as happening.",
+   "why": {
+    "prompt": "Why does the verb, and not “every,” consignify the time?",
+    "model": "The verb signifies something as happening, and whatever happens, happens at some time; “every” signifies no action at all, only how many lamps are meant."
+   }
   },
   {
    "id": "ri-A13",
@@ -141,16 +145,16 @@ ARS.exercises['i.review'] = {
    "id": "ri-A02",
    "set": "A",
    "deck": "i.sign",
-   "type": "mc-marked",
-   "prompt": "Smoke rises from a chimney, and a traveler who sees it thinks that a fire is burning inside. Of the three things that every sign involves, which is <b>the one who knows</b>?",
+   "type": "mc",
+   "prompt": "A child who cannot yet read sees the written word “cat” beneath a picture of a cat. Why does the written word not bring a cat to his mind, as the spoken word would?",
    "options": [
-    "The traveler",
-    "The smoke",
-    "The fire",
-    "The chimney"
+    "Because written words signify by nature",
+    "Because the picture is a formal sign",
+    "Because writing signifies the spoken word",
+    "Because “cat” is a name of the second imposition"
    ],
-   "answer": 0,
-   "explain": "Every sign involves the sign itself (here the smoke), what it signifies (the fire), and someone who knows by means of it. The traveler is the one whose mind is led from the smoke to the fire; to the chimney the smoke signifies nothing."
+   "answer": 2,
+   "explain": "The written word is a sign of the spoken word, and the spoken word is a sign of the concept. A child who cannot read does not know which sound the letters signify, so the marks do not lead him on to the concept of a cat. “Cat” is a name of the first imposition, and written words, like spoken ones, signify by imposition."
   },
   {
    "id": "ri-A09",
@@ -172,15 +176,15 @@ ARS.exercises['i.review'] = {
    "set": "A",
    "deck": "i.imposition",
    "type": "mc-marked",
-   "prompt": "“<b>Plural</b> nouns in English usually end in <i>-s</i>.” The word “plural” is a name of which imposition?",
+   "prompt": "“Every English syllable has a <b>vowel</b>.” The word “vowel” is a name of which imposition?",
    "options": [
     "The first, because it signifies a thing",
-    "The second, because it signifies words",
-    "The first, because it is an adjective",
+    "The second, because it signifies letters",
+    "The first, because it is a noun",
     "Neither, because it signifies nothing alone"
    ],
    "answer": 1,
-   "explain": "“Plural” signifies a kind of word, not a thing in the world, so it is a name of the second imposition, like “noun,” “syllable,” and “verb.” Almost every technical term of grammar is of this kind."
+   "explain": "“Vowel” signifies a kind of letter, a part of words, not a thing in the world, so it is a name of the second imposition, like “noun,” “syllable,” and “letter.” Almost every technical term of grammar is of this kind."
   },
   {
    "id": "ri-A12",
@@ -195,14 +199,14 @@ ARS.exercises['i.review'] = {
     "It names what is commanded"
    ],
    "answer": 0,
-   "explain": "“Lord” calls the one to whom the prayer is addressed; it is the vocative, the kind of sentence or word that calls. The rest of the sentence, “have mercy,” is the prayer itself."
+   "explain": "“Lord” calls the one to whom the prayer is addressed, as a vocative sentence such as “Mary!” does; the rest, “have mercy,” is the prayer itself."
   },
   {
    "id": "ri-A10",
    "set": "A",
    "deck": "i.syncategorematic",
    "type": "mc-marked",
-   "prompt": "“<b>Not</b> every guest stayed.” What does “not” do in this sentence?",
+   "prompt": "“The guests did <b>not</b> stay.” What does “not” do in this sentence?",
    "options": [
     "It signifies something definite by itself",
     "It names an absence",
@@ -210,25 +214,25 @@ ARS.exercises['i.review'] = {
     "It denies the rest of the sentence"
    ],
    "answer": 3,
-   "explain": "“Not” is a syncategorematic word that denies: it removes what “every guest stayed” would affirm, so the sentence says that at least one guest left. It adds no new thing to what is said."
+   "explain": "“Not” is a syncategorematic word that denies: it removes what “The guests stayed” affirms. It adds no new thing to what is said."
   },
   {
    "id": "ri-A14",
    "set": "A",
    "deck": "i.ambiguity",
    "type": "mc",
-   "prompt": "“Visiting relatives can be tiring.” Where does the ambiguity lie?",
+   "prompt": "“We need more experienced teachers.” Where does the ambiguity lie?",
    "options": [
     "In the way the words are pronounced",
-    "In the single word “relatives”",
+    "In the single word “teachers”",
     "In the arrangement of the words",
-    "In the word “tiring”"
+    "In the word “need”"
    ],
    "answer": 2,
-   "explain": "No single word has two meanings here. The double sense lies in how “visiting” and “relatives” go together: the relatives may be the ones who visit, or “relatives” may be what someone visits.",
+   "explain": "No single word has two meanings here. The double sense lies in which words “more” belongs to: to “experienced” (teachers with more experience) or to “experienced teachers” (a greater number of them).",
    "why": {
     "prompt": "Why?",
-    "model": "“Visiting” can describe the relatives (relatives who visit us) or name the act of visiting them (going to visit relatives), so the two words can be related in two ways."
+    "model": "“More” can belong to “experienced” (teachers with more experience) or to “experienced teachers” (a greater number of them), so one word can belong to two other words."
    }
   },
   {
@@ -272,7 +276,7 @@ ARS.exercises['i.review'] = {
    "type": "mc",
    "prompt": "The German word <i>Feuer</i> (“fire”) is spoken to someone who knows no German. Does it signify fire to him?",
    "options": [
-    "No; to him it is only a sound",
+    "No, because to him it is only a sound",
     "No, because <i>Feuer</i> is not a word",
     "Yes, because words signify by nature",
     "Yes, because the concept of fire is the same for all"
@@ -289,7 +293,7 @@ ARS.exercises['i.review'] = {
    "set": "A",
    "deck": "i.ambiguity",
    "type": "mc",
-   "prompt": "“Any one of them may come” and “Anyone may come” use nearly the same letters but mean different things. Which cause of ambiguity do such pairs show?",
+   "prompt": "“Anyone may come” and “Any one may come” differ only by a space: the first means any person at all, the second any single one of a group. Which cause of ambiguity do such pairs show?",
    "options": [
     "A word that can belong to two other words",
     "Letters read as one word or as two",
@@ -306,25 +310,25 @@ ARS.exercises['i.review'] = {
    "type": "mc",
    "prompt": "Which of these words is a name of the first imposition?",
    "options": [
-    "“syllable”",
-    "“noun”",
-    "“river”",
-    "“plural”"
+    "“suffix”",
+    "“consonant”",
+    "“meadow”",
+    "“prefix”"
    ],
    "answer": 2,
-   "explain": "“River” signifies a thing in the world, a stream of water, so it is a name of the first imposition. “Syllable,” “noun,” and “plural” signify words or kinds of words, so they are names of the second imposition."
+   "explain": "“Meadow” signifies a thing in the world, a field of grass, so it is a name of the first imposition. “Suffix,” “consonant,” and “prefix” signify parts of words, so they are names of the second imposition."
   },
   {
    "id": "ri-B01",
    "set": "B",
    "deck": "i.sign",
    "type": "mc-marked",
-   "prompt": "A doctor sees <b>a rash</b> on a patient’s arm and knows that the patient has measles. What kind of sign is the rash?",
+   "prompt": "A doctor sees <b>a rash</b> on a patient’s arm and recognizes measles. What kind of sign is the rash?",
    "options": [
     "A word, because it can be named",
     "A formal sign, because it is not seen",
     "A conventional sign, because the doctor understands it",
-    "A natural sign, connected with the illness"
+    "A natural sign, because the illness produces it"
    ],
    "answer": 3,
    "explain": "The rash signifies the illness because the illness produces it, not because anyone means it to signify. It is a natural sign, like the track of an animal or a dark cloud before rain. The doctor’s knowledge is needed for it to signify to him, but that does not make it conventional."
@@ -366,7 +370,7 @@ ARS.exercises['i.review'] = {
    "type": "mc-marked",
    "prompt": "“<b>Some</b> birds cannot fly.” What does “some” do in this sentence?",
    "options": [
-    "It says how many birds are meant",
+    "It says how many are meant",
     "It denies that birds fly",
     "It joins two statements",
     "It names a kind of bird"
@@ -379,7 +383,7 @@ ARS.exercises['i.review'] = {
    "set": "B",
    "deck": "i.imposition",
    "type": "mc",
-   "prompt": "The word “awful” once meant “full of awe” and now usually means “very bad.” What changed its meaning?",
+   "prompt": "The word “awful” once meant “inspiring awe” and now usually means “very bad.” What changed its meaning?",
    "options": [
     "Its sound",
     "A new imposition by grammarians",
@@ -396,43 +400,43 @@ ARS.exercises['i.review'] = {
    "type": "mc",
    "prompt": "Latin <i>amāmus</i> means “we love.” Which of these does it consignify along with its proper meaning, loving?",
    "options": [
-    "A command",
+    "The first person and the singular",
     "The first person and the plural",
-    "The past time",
-    "Nothing besides loving"
+    "The third person and the plural",
+    "The past time and the plural"
    ],
    "answer": 1,
-   "explain": "The ending of <i>amāmus</i> shows that the ones who love are the speaker and others with him, that is, the first person, and more than one, the plural. Latin often shows several accidents in a single ending."
+   "explain": "The ending of <i>amāmus</i> shows that the ones who love are the speaker and others with him, that is, the first person, and more than one, the plural; and it shows present time, not past. Latin often shows several accidents in a single ending."
   },
   {
    "id": "ri-B12",
    "set": "B",
    "deck": "i.functions",
    "type": "mc",
-   "prompt": "How is a command properly answered?",
+   "prompt": "A mother says, “Put on your coat,” and her son answers, “That is false.” Why is the reply out of place?",
    "options": [
-    "By obedience or refusal",
-    "By a statement",
-    "By “That is true” or “That is false”",
-    "By another command"
+    "Because only a question is answered so",
+    "Because a command is obeyed or refused",
+    "Because the command is true",
+    "Because he should have asked a question"
    ],
-   "answer": 0,
-   "explain": "A command does not say that anything is so; it asks that something be made so. So it is answered by obedience or refusal, not by agreement or disagreement. Only a statement is answered with “That is true” or “That is false.”"
+   "answer": 1,
+   "explain": "A command does not say that anything is so; it asks that something be made so. So it is answered by obedience or refusal, not by “That is true” or “That is false,” which answer a statement."
   },
   {
    "id": "ri-B02",
    "set": "B",
    "deck": "i.sign",
    "type": "mc",
-   "prompt": "We translate from one language into another all the time. What does this show, according to the tradition?",
+   "prompt": "A translator judges that French <i>maison</i> fits English “house” better than “hut.” What must the two words share for that judgment to be possible?",
    "options": [
-    "That words signify by nature",
-    "That every language sounds alike",
-    "That all languages have the same words",
-    "That the concepts are the same for all"
+    "The sound",
+    "The spelling",
+    "Nothing; the choice is arbitrary",
+    "The concept they signify"
    ],
    "answer": 3,
-   "explain": "Translation compares what a sentence in one language says with what a sentence in another says. That is possible only if there is something behind the words to which both can be compared, namely what they signify. The words differ, but the concepts are the same."
+   "explain": "Translation compares what a word in one language signifies with what a word in another signifies. <i>Maison</i> and “house” differ in sound and spelling, but they signify the same concept, and through it the same kind of building; “hut” signifies a different concept."
   },
   {
    "id": "ri-B14",
@@ -458,15 +462,15 @@ ARS.exercises['i.review'] = {
    "set": "B",
    "deck": "i.syncategorematic",
    "type": "mc",
-   "prompt": "“The student only read the first chapter” and “Only the student read the first chapter” use the same words. Why do they mean different things?",
+   "prompt": "“Only Paul paid for lunch” and “Paul paid only for lunch” use the same words. Why do they mean different things?",
    "options": [
-    "Because “read” is in a different tense",
+    "Because “paid” is in a different tense",
     "Because “only” limits a different word",
-    "Because “student” has two meanings",
+    "Because “lunch” has two meanings",
     "Because the second is a question"
    ],
    "answer": 1,
-   "explain": "In the first sentence “only” limits what the student did (he read the first chapter and nothing more); in the second it limits who read it (no one but the student). A syncategorematic word changes the meaning according to its place."
+   "explain": "In the first sentence “only” limits who paid (no one but Paul); in the second it limits what he paid for (lunch and nothing else). A syncategorematic word changes the meaning according to its place."
   },
   {
    "id": "ri-B03",
@@ -478,7 +482,7 @@ ARS.exercises['i.review'] = {
     "Formal, because it is a concept",
     "Neither, because it signifies by agreement",
     "Formal, because it makes us think at once",
-    "Instrumental; it is first heard as a sound"
+    "Instrumental, because it is heard first"
    ],
    "answer": 3,
    "explain": "The spoken word must first be heard as a sound, an object in its own right, before it leads the mind to rain; so it is an instrumental sign. The concept of rain is a formal sign: it is not first known as an object but is that by which we know rain.",
@@ -492,18 +496,18 @@ ARS.exercises['i.review'] = {
    "set": "B",
    "deck": "i.imposition",
    "type": "mc-marked",
-   "prompt": "“<b>Skyscraper</b>” was first said of very tall buildings because they seem to scrape the sky. Does the word signify by nature?",
+   "prompt": "“<b>Skyscraper</b>” was applied to very tall buildings because they seem to scrape the sky. Does the word signify by nature?",
    "options": [
-    "No; it was imposed, for a reason",
+    "No, because it was imposed for a reason",
     "Yes, because it imitates a sound",
     "No, because it has no reason at all",
-    "Yes, because the name fits the thing"
+    "Yes, because the name fits the building"
    ],
    "answer": 0,
    "explain": "The name has a reason in the thing, but the reason only explains why that sound was chosen; the word signifies a tall building because it was imposed to do so. That is what was true in the view that names are by nature: many names have a reason, but none signifies by nature.",
    "why": {
-    "prompt": "Why does having a reason not make a name signify by nature?",
-    "model": "A reason explains why those who imposed the name chose that sound rather than another; the signification still comes from the imposition and from usage."
+    "prompt": "Why is the tall building, not the sky, what “skyscraper” signifies?",
+    "model": "The sky explains why the sound was chosen; the word was imposed, and is used, to signify a kind of building."
    }
   },
   {
@@ -511,18 +515,18 @@ ARS.exercises['i.review'] = {
    "set": "B",
    "deck": "i.consignification",
    "type": "mc",
-   "prompt": "“Sun, sky, morning” states nothing, whereas “The sun is in the sky” states something. Why?",
+   "prompt": "“Bird, branch, song” states nothing, whereas “The bird sings on the branch” states something. Why?",
    "options": [
     "Because nouns do not signify",
+    "Because the list is too short",
     "Because the verb signifies a joining",
-    "Because the list is in no tense",
-    "Because the list has no syncategorematic words"
+    "Because the list names too many things"
    ],
-   "answer": 1,
-   "explain": "A list of nouns signifies three things but joins none of them. The verb “is” signifies a joining, a composition, of what is said with what it is said of, and so the sentence says something of something.",
+   "answer": 2,
+   "explain": "A list of nouns signifies three things but joins none of them. The verb “sings” signifies, along with its meaning, a joining, a composition, of what is said with what it is said of, and so the sentence says something of something.",
    "why": {
-    "prompt": "Why does “is” by itself state nothing?",
-    "model": "“Is” signifies a joining, but a joining cannot be understood until the things joined are given; only with a subject and something said of it does it state anything."
+    "prompt": "Does “the bird on the branch” state anything? Why?",
+    "model": "No. It names a bird on a branch, but it has no verb, so nothing is joined to the bird as said of it; it is neither true nor false."
    }
   },
   {
@@ -530,15 +534,15 @@ ARS.exercises['i.review'] = {
    "set": "B",
    "deck": "i.ambiguity",
    "type": "mc",
-   "prompt": "Quintilian says that one remedy for an ambiguity of construction is a change of case. Why does this remedy work in Latin?",
+   "prompt": "“Crane” can mean a tall wading bird or a machine for lifting. How does the tradition account for one sound with both meanings?",
    "options": [
-    "Because endings show what goes with what",
-    "Because each Latin word has one meaning",
-    "Because Latin was written with spaces",
-    "Because Latin has no fixed word order"
+    "It was imposed with more than one meaning",
+    "The sound signifies both by nature",
+    "One meaning is consignified with the other",
+    "The construction gives the word two senses"
    ],
    "answer": 0,
-   "explain": "A change of case is a change in the ending of a Latin word, and the ending shows which other word it belongs to. In English, which has few such endings, we usually change the order of the words or add a word instead."
+   "explain": "A word signifies by imposition, and one sound can be imposed with more than one meaning; so the ambiguity lies in a single word. Neither meaning is consignified with the other: each is a proper meaning, and only the rest of the sentence, or the occasion, shows which is meant."
   },
   {
    "id": "ri-C01",
@@ -560,7 +564,7 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.functions",
    "type": "mc",
-   "prompt": "“Marcus!” is said to get someone’s attention. What kind of sentence is it?",
+   "prompt": "“Waiter!” is said to get someone’s attention. What kind of sentence is it?",
    "options": [
     "A statement",
     "A call",
@@ -605,30 +609,30 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.imposition",
    "type": "mc",
-   "prompt": "Why can a learner of English not decide for himself what “table” means?",
+   "prompt": "A student decides that in his own essays “table” will mean “chair.” Why will his readers misunderstand him?",
    "options": [
-    "Because its meaning changes every year",
-    "Because it is a name of the second imposition",
-    "Because the word signifies by nature",
+    "Because meanings change every year",
+    "Because “table” is a name of the second imposition",
+    "Because “table” signifies by nature",
     "Because its meaning was already imposed"
    ],
    "answer": 3,
-   "explain": "Those who learn a language do not impose its words again; they receive meanings that others have already imposed. That is why learning a word means learning what it has been used to signify."
+   "explain": "Those who learn and use a language do not impose its words again; they receive meanings already imposed and kept by usage. His readers know what “table” has been used to signify, not what he privately decided."
   },
   {
    "id": "ri-C07",
    "set": "C",
    "deck": "i.consignification",
-   "type": "mc",
-   "prompt": "English “will sing” shows future time by an auxiliary verb. How does Latin <i>cantābit</i> (“he will sing”) show it?",
+   "type": "mc-marked",
+   "prompt": "In “<b>Sit</b> down!” the verb signifies sitting. What does its form consignify along with that meaning?",
    "options": [
-    "By a separate word for time",
-    "By the form of the verb itself",
-    "It does not show time",
-    "By an auxiliary verb"
+    "That it happened before",
+    "That it is commanded",
+    "That the speaker sits",
+    "That it is asked about"
    ],
    "answer": 1,
-   "explain": "Latin usually shows the time by a change in the form of the verb: <i>cantat</i> (“he sings”), <i>cantābit</i> (“he will sing”). English shows it partly by the form of the verb and partly by auxiliary verbs such as “will.” Both languages consignify time in the verb."
+   "explain": "“Sit” in “Sit down!” is in the form that the grammarians call the imperative mood: along with sitting, it consignifies that the action is commanded. Mood is one of the accidents a verb consignifies, and here it makes the sentence a command, which is neither true nor false."
   },
   {
    "id": "ri-C05",
@@ -650,22 +654,22 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.sign",
    "type": "mc-marked",
-   "prompt": "In chemistry, “<b>H₂O</b>” stands for water. In which sense is it called a symbol?",
+   "prompt": "The sign “<b>%</b>” is read as “percent.” In which sense is it called a symbol?",
    "options": [
     "As a natural sign of water",
     "As a formal sign, known at once",
     "In the many-layered literary sense",
-    "As a mark that does the work of a word"
+    "As a mark doing the work of a word"
    ],
    "answer": 3,
-   "explain": "We use “symbol” in a narrow modern sense for a mark that does the work of a word but is not made of letters, like the “+” of arithmetic or the formulas of chemistry. The many-layered literary sense is a different use, as in the white whale of <i>Moby-Dick</i>."
+   "explain": "We use “symbol” in a narrow modern sense for a mark that does the work of a word but is not made of letters, like the “+” of arithmetic or the “%” that is read as “percent.” The many-layered literary sense is a different use, as in the white whale of <i>Moby-Dick</i>."
   },
   {
    "id": "ri-C12",
    "set": "C",
    "deck": "i.functions",
    "type": "mc",
-   "prompt": "Latin <i>venit</i> means “he comes,” and <i>venitne?</i> means “does he come?” What does the added <i>-ne</i> show?",
+   "prompt": "Latin <i>audīs</i> means “you hear,” and <i>audīsne?</i> means “do you hear?” What does the added <i>-ne</i> show?",
    "options": [
     "That the verb is in the past",
     "That the sentence is a command",
@@ -695,18 +699,18 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.consignification",
    "type": "mc-marked",
-   "prompt": "In “The <b>hour</b> was late,” does the noun “hour” consignify time?",
+   "prompt": "In “The <b>century</b> was violent,” does the noun “century” consignify time?",
    "options": [
     "Yes, because every noun consignifies time",
     "No, because nouns signify nothing",
     "Yes, because it signifies a time",
-    "No; time is its proper meaning"
+    "No, because time is its proper meaning"
    ],
    "answer": 3,
-   "explain": "“Hour” signifies time, but as its proper meaning, as a thing we can speak about; it does not signify something else along with time. The verb “was” is what consignifies the time of the sentence. To signify time and to consignify it are different.",
+   "explain": "“Century” signifies time, but as its proper meaning, as a thing we can speak about; it does not signify something else along with time. The verb “was” is what consignifies the time of the sentence. To signify time and to consignify it are different.",
    "why": {
     "prompt": "What is the difference between signifying time and consignifying it?",
-    "model": "A word signifies time when time is its proper meaning, as with “hour” or “day”; it consignifies time when it signifies something else, such as an action, and signifies time along with it, as a verb does."
+    "model": "A word signifies time when time is its proper meaning, as with “century” or “week”; it consignifies time when it signifies something else, such as an action, and signifies time along with it, as a verb does."
    }
   },
   {
@@ -722,10 +726,10 @@ ARS.exercises['i.review'] = {
     "That words signify things directly"
    ],
    "answer": 0,
-   "explain": "The woman is the same, but each name signifies her according to a different understanding of her. Words reach things by way of concepts; if they signified things without concepts between them, one thing could not have so many names that mean such different things.",
+   "explain": "The woman is the same, but each name presents her as she is understood in a different respect: by her work, by her family, by where she stands. The words reach her only through these different understandings, that is, through concepts.",
    "why": {
-    "prompt": "Why could one thing not have such different names if words signified things without concepts?",
-    "model": "Each name signifies the thing according to the way it is understood; without concepts between word and thing, every name of the same thing would have to mean the same."
+    "prompt": "Why do the three names not mean the same, though they name the same woman?",
+    "model": "Each name signifies her through a different concept of her, as a doctor, as a mother, as someone at a window; the names differ because the concepts differ, not because the woman does."
    }
   },
   {
@@ -733,33 +737,33 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.imposition",
    "type": "mc",
-   "prompt": "The tradition holds that names signify by imposition. What does it nevertheless grant to Cratylus, who held that names are by nature?",
+   "prompt": "“Bluebell” was taken from the flower’s blue, bell-shaped blossoms. What does such a name grant to Cratylus, who held that names are by nature?",
    "options": [
     "That the sound signifies by nature",
-    "That a name usually has a reason",
+    "That a name often has a reason",
     "That all languages share the same names",
     "That names never change their meaning"
    ],
    "answer": 1,
-   "explain": "Whoever imposes a name usually has a reason for choosing that sound, as “daisy” was taken from “day’s eye.” That much in Cratylus’s view is true; but the reason does not make the sound signify by nature."
+   "explain": "Whoever imposes a name usually has a reason for choosing that sound, and “bluebell” shows one. That much in Cratylus’s view is true; but “bluebell” signifies the flower, not a bell, and the reason does not make the sound signify by nature."
   },
   {
    "id": "ri-C10",
    "set": "C",
    "deck": "i.syncategorematic",
    "type": "mc-marked",
-   "prompt": "“All the guests did <b>not</b> leave.” Why can this sentence be read in two ways?",
+   "prompt": "“All that glisters is <b>not</b> gold” (Shakespeare, <i>The Merchant of Venice</i> II.7; “glisters” means “glitters”). Why can this sentence be read in two ways?",
    "options": [
     "Because of where “not” stands",
     "Because the sentence has no verb",
     "Because “all” is categorematic",
-    "Because “guests” has two meanings"
+    "Because “gold” has two meanings"
    ],
    "answer": 0,
-   "explain": "The sentence can mean that no guest left, or that not all of them left. The place of the syncategorematic word “not” leaves it open whether “not” denies the leaving of each guest or denies “all.”",
+   "explain": "The sentence can mean that nothing that glisters is gold, or, as Shakespeare means, that not everything that glisters is gold. The place of the syncategorematic word “not” leaves it open whether “not” denies “gold” of each glittering thing or denies “all.”",
    "why": {
     "prompt": "How could the sentence be written so that it has only one meaning?",
-    "model": "“Not all the guests left” says that some stayed; “None of the guests left” says that all stayed. Moving or changing the word that denies removes the ambiguity."
+    "model": "“Not all that glisters is gold” says that some glittering things are not gold; “Nothing that glisters is gold” says that none is. Moving or changing the word that denies removes the ambiguity."
    }
   },
   {
@@ -767,15 +771,15 @@ ARS.exercises['i.review'] = {
    "set": "C",
    "deck": "i.ambiguity",
    "type": "mc",
-   "prompt": "A bakery’s sign reads “We knead you,” meaning both “we knead bread for you” and “we need you.” Is this ambiguity a defect?",
+   "prompt": "A bakery’s sign reads “We make dough the old-fashioned way,” where “dough” means both bread dough and money. Is this ambiguity a defect?",
    "options": [
     "No, because the sign has only one meaning",
     "Yes, because every ambiguity is a defect of clarity",
-    "No; it is intended, and so it is a figure",
-    "Yes, because “knead” is misspelled"
+    "No, because it is intended, and so it is a figure",
+    "Yes, because “dough” has two meanings"
    ],
    "answer": 2,
-   "explain": "An ambiguity the writer did not intend is a defect of clarity, which the grammarian corrects. An ambiguity the writer intended, a pun or play on words, is a figure, which the grammarian explains by locating the double sense and saying what each sense is.",
+   "explain": "“Dough” is one word imposed with two meanings, and the writer means both. An ambiguity the writer did not intend is a defect of clarity, which the grammarian corrects. An ambiguity the writer intended, a pun or play on words, is a figure, which the grammarian explains by locating the double sense and saying what each sense is.",
    "why": {
     "prompt": "What does the grammarian do with an intended ambiguity?",
     "model": "He locates the double sense, in a word or in the construction, and says what each sense is; he explains it rather than correcting it."
