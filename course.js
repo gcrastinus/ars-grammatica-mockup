@@ -1,7 +1,34 @@
 'use strict';
 /* Ars Grammatica: the working course page.
    The order of the course is in data/structure.js; each built deck is a separate file, data/decks/<id>.js.
-   Progress is stored locally under each stable id, so later language layers (id/layer) can be added beside it. */
+   Progress is stored locally under each stable id, so later language layers (id/layer) can be added beside it.
+
+   Typed-answer fields drawn by runEx (EXERCISES-PLAN.md, "Data fields of the renderers").
+   Common fields: id, set, type, prompt, explain. Optional why: { prompt, model }.
+   macrons: false  — on count, form, divide, and analysis, macrons are not tested. Otherwise they count.
+   count     answer (number or string). accept or answers may add further answers.
+             Trimmed. Case, curly quotes, and (when macrons is false) macrons are normalized.
+             A whole number ignores leading zeros: "04" and 4 match.
+   form      answer, or accept (string or list). answers is read when accept is absent.
+             Same normalization as count. Final punctuation is kept. Not treated as a number.
+   divide    answer, the stored division, with hyphens. Same normalization, then hyphens and
+             dashes are read as "-", and spaces around a hyphen are removed.
+   transform accept, a short list (or one string). answer or answers is used when accept is absent.
+             Spacing, capitals, and final punctuation (.?!;:, and the ellipsis) are ignored.
+   identify  tokens, answer (one index, or a list of indexes). Unchanged: one index is a single
+             click; a list means every word asked for, then Check. Checked against that position.
+   mark      tokens, analysis: a list of [from, to], indexes into tokens. from depends on to.
+             The set of arrows must match, in any order.
+   analysis  tokens, analysis.parse (one string per token), analysis.arrows (pairs, as on mark).
+             Each parse is matched as a form is matched, and the arrows as a mark is matched.
+   copy      text, the passage. Word for word: capitals, spelling, and punctuation must match.
+             Whitespace is collapsed, and curly quotes are read as straight quotes.
+   When accept is present it is the whole list; answer is not added to it.
+   Feedback for count, form, divide, transform, copy, mark, and analysis shows the student's
+   answer beside the correct one. identify keeps its present feedback.
+   Hyphens and dashes are treated alike on count, form, divide, and transform, and accents
+   other than macrons are ignored, as on the written count and divide items.
+   Samples: test/typed-samples.js, not loaded by the course. */
 const KEY = 'ars-grammatica-course-v2';
 const store = (() => {
   try { return Object.assign({ dark:false, decks:{} }, JSON.parse(localStorage.getItem(KEY) || '{}')); }
@@ -166,9 +193,279 @@ function showExercisePlan(id, ex){
    Successive visits give set A, then B, then C, then A again (ITEM-LIST rule 5). The items of a set are given in their
    fixed order (easy to hard); the options of a multiple-choice item are shuffled on each showing, and the key follows
    the option. A wrongly answered item is asked once more at the end of the sitting (build list, item 3). For a written
-   set the miss is recorded in store.ex, and the first answer is stored in the Leitner boxes (practice.js). A typed
-   answer (count, form, divide, transform) is drawn and graded by practice.js. An item may carry a "Why?" prompt with
-   a model answer (no grading). */
+   set the miss is recorded in store.ex, and the first answer is stored in the Leitner boxes (practice.js). Typed
+   answers (count, form, divide, transform, copy, mark, analysis) are drawn and graded here. An item may carry a
+   "Why?" prompt with a model answer (no grading). */
+
+/* Normalization shared by count, form, divide, and transform. practice.js calls acceptedOf and gradeTypedAnswer. */
+function foldBase(s, item){
+  let t = String(s == null ? '' : s);
+  t = t.replace(/[\u2018\u2019\u201A\u201B]/g, "'").replace(/[\u201C\u201D\u201E\u201F]/g, '"');
+  t = t.replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/g, '-');
+  t = t.replace(/\s+/g, ' ').trim().toLowerCase();
+  if (item && item.macrons === false){
+    t = t.replace(/[āēīōūȳ]/g, ch => ({ 'ā':'a', 'ē':'e', 'ī':'i', 'ō':'o', 'ū':'u', 'ȳ':'y' }[ch]));
+    t = t.normalize('NFD').replace(/\u0304/g, '');
+  }
+  t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' ? m : '')).normalize('NFC');
+  return t;
+}
+function foldDivide(s, item){
+  return foldBase(s, item).replace(/\s*-\s*/g, '-').replace(/-+/g, '-');
+}
+function foldTransform(s, item){
+  return foldBase(s, item).replace(/[\s.?!;:,…]+$/g, '').replace(/\s+/g, ' ').trim();
+}
+function foldCount(s, item){
+  const t = foldBase(s, item).replace(/ /g, '');
+  if (/^[0-9]+$/.test(t)) return String(parseInt(t, 10));
+  return t;
+}
+function foldCopy(s){
+  return String(s == null ? '' : s)
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/\s+/g, ' ').trim();
+}
+function acceptedOf(item){
+  if (!item) return [];
+  if (Array.isArray(item.accept)) return item.accept.map(String);
+  if (typeof item.accept === 'string' && item.accept) return [item.accept];
+  if (Array.isArray(item.answers)) return item.answers.map(String);
+  if (item.type === 'transform' && Array.isArray(item.answer)) return item.answer.map(String);
+  if (typeof item.answer === 'string' && item.answer) return [item.answer];
+  if (item.type === 'count' && typeof item.answer === 'number' && isFinite(item.answer)) return [String(item.answer)];
+  return [];
+}
+function gradeTypedAnswer(item, given){
+  const accepted = acceptedOf(item);
+  if (!accepted.length) return false;
+  const type = item && item.type;
+  const fold = type === 'count' ? (s => foldCount(s, item))
+    : type === 'divide' ? (s => foldDivide(s, item))
+    : type === 'transform' ? (s => foldTransform(s, item))
+    : (s => foldBase(s, item));
+  const g = fold(given);
+  if (!g) return false;
+  return accepted.some(a => fold(a) === g);
+}
+function gradeCopyAnswer(item, given){
+  const text = item && item.text || '';
+  const want = foldCopy(text);
+  return !!want && foldCopy(given) === want;
+}
+function normArrows(list){
+  const set = new Set();
+  (Array.isArray(list) ? list : []).forEach(p => {
+    if (!p) return;
+    const from = Array.isArray(p) ? p[0] : p.from;
+    const to = Array.isArray(p) ? p[1] : p.to;
+    if (typeof from !== 'number' || typeof to !== 'number') return;
+    set.add(from + '>' + to);
+  });
+  return set;
+}
+function sameArrows(a, b){
+  const A = normArrows(a), B = normArrows(b);
+  if (A.size !== B.size) return false;
+  for (const k of A) if (!B.has(k)) return false;
+  return true;
+}
+function gradeMarkAnswer(item, pairs){
+  return sameArrows(item && item.analysis, pairs);
+}
+function gradeAnalysisAnswer(item, parses, pairs){
+  const stored = (item && item.analysis) || {};
+  const want = stored.parse || [];
+  const tokens = (item && item.tokens) || [];
+  if (want.length !== tokens.length || !parses || parses.length !== tokens.length) return false;
+  for (let i = 0; i < want.length; i++){
+    if (foldBase(parses[i], item) !== foldBase(want[i], item)) return false;
+  }
+  return sameArrows(stored.arrows, pairs);
+}
+function plainToken(t){
+  const d = document.createElement('div');
+  d.innerHTML = String(t == null ? '' : t);
+  return d.textContent || '';
+}
+function arrowLines(tokens, pairs){
+  return (Array.isArray(pairs) ? pairs : []).map(p => Array.isArray(p) ? p : [p && p.from, p && p.to])
+    .filter(p => typeof p[0] === 'number' && typeof p[1] === 'number' && tokens[p[0]] != null && tokens[p[1]] != null)
+    .slice().sort((a, b) => a[0] - b[0] || a[1] - b[1])
+    .map(p => plainToken(tokens[p[0]]) + ' → ' + plainToken(tokens[p[1]]))
+    .join('\n');
+}
+function analysisText(tokens, parses, pairs){
+  const lines = tokens.map((t, i) => plainToken(t) + ': ' + (parses && parses[i] != null ? parses[i] : ''));
+  const arrows = arrowLines(tokens, pairs);
+  return lines.join('\n') + (arrows ? '\n' + arrows : '');
+}
+const BESIDE = { count:1, form:1, divide:1, transform:1, copy:1, mark:1, analysis:1 };
+function makeCheck(){
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'btn primary'; b.textContent = 'Check';
+  return b;
+}
+function renderTypedItem(host, it, done){
+  const row = document.createElement('div');
+  row.className = 'ex-typed' + (it.type === 'transform' ? ' ex-block' : '');
+  const input = document.createElement(it.type === 'transform' ? 'textarea' : 'input');
+  if (input.tagName === 'TEXTAREA') input.rows = 3;
+  else input.type = 'text';
+  input.className = 'answer-in';
+  input.setAttribute('aria-label', 'Answer');
+  input.autocomplete = 'off';
+  input.spellcheck = false;
+  const btn = makeCheck();
+  row.appendChild(input);
+  row.appendChild(btn);
+  host.appendChild(row);
+  const submit = () => {
+    const given = input.value;
+    if (!String(given).trim()) return;
+    const ok = gradeTypedAnswer(it, given);
+    input.disabled = true;
+    input.classList.add(ok ? 'right' : 'wrong');
+    btn.disabled = true;
+    done(ok, given, acceptedOf(it).join('\n'));
+  };
+  btn.addEventListener('click', submit);
+  if (input.tagName !== 'TEXTAREA'){
+    input.addEventListener('keydown', ev => { if (ev.key === 'Enter'){ ev.preventDefault(); submit(); } });
+  }
+  setTimeout(() => input.focus(), 0);
+}
+function renderCopyItem(host, it, done){
+  const wrap = document.createElement('div'); wrap.className = 'ex-copy';
+  const model = document.createElement('div'); model.className = 'ex-copy-col';
+  const mh = document.createElement('span'); mh.className = 'ex-compare-h'; mh.textContent = 'The passage';
+  const body = document.createElement('div'); body.className = 'ex-copy-text'; body.textContent = it.text || '';
+  model.appendChild(mh); model.appendChild(body);
+  const write = document.createElement('div'); write.className = 'ex-copy-col';
+  const wh = document.createElement('span'); wh.className = 'ex-compare-h'; wh.textContent = 'The copy';
+  const input = document.createElement('textarea');
+  input.className = 'answer-in'; input.rows = 6;
+  input.setAttribute('aria-label', 'Copy');
+  input.autocomplete = 'off'; input.spellcheck = false;
+  write.appendChild(wh); write.appendChild(input);
+  wrap.appendChild(model); wrap.appendChild(write);
+  host.appendChild(wrap);
+  const btn = makeCheck();
+  host.appendChild(btn);
+  const submit = () => {
+    const given = input.value;
+    if (!String(given).trim()) return;
+    const ok = gradeCopyAnswer(it, given);
+    input.disabled = true;
+    input.classList.add(ok ? 'right' : 'wrong');
+    btn.disabled = true;
+    done(ok, given, it.text || '');
+  };
+  btn.addEventListener('click', submit);
+  setTimeout(() => input.focus(), 0);
+}
+function renderArrowMarker(host, tokens){
+  const hint = document.createElement('p'); hint.className = 'ex-hint';
+  hint.textContent = 'The first word clicked is the word that depends, and the second is the word it depends on.';
+  const row = document.createElement('div'); row.className = 'ex-tokens';
+  const list = document.createElement('div'); list.className = 'ex-arrows';
+  const pairs = [];
+  let pending = null;
+  function paint(){
+    list.replaceChildren();
+    pairs.forEach((p, n) => {
+      const line = document.createElement('div'); line.className = 'ex-arrow';
+      const s = document.createElement('span');
+      s.textContent = plainToken(tokens[p[0]]) + ' → ' + plainToken(tokens[p[1]]);
+      const rm = document.createElement('button');
+      rm.type = 'button'; rm.className = 'ex-bin'; rm.textContent = 'Remove';
+      rm.addEventListener('click', () => { pairs.splice(n, 1); paint(); });
+      line.appendChild(s); line.appendChild(rm);
+      list.appendChild(line);
+    });
+  }
+  tokens.forEach((t, k) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'opt ex-token'; b.innerHTML = t;
+    b.addEventListener('click', () => {
+      if (b.disabled) return;
+      if (pending === null){
+        pending = k;
+        row.querySelectorAll('button').forEach(x => x.classList.remove('sel'));
+        b.classList.add('sel');
+        return;
+      }
+      row.querySelectorAll('button').forEach(x => x.classList.remove('sel'));
+      if (pending !== k && !pairs.some(p => p[0] === pending && p[1] === k)){
+        pairs.push([pending, k]);
+        paint();
+      }
+      pending = null;
+    });
+    row.appendChild(b);
+  });
+  host.appendChild(hint); host.appendChild(row); host.appendChild(list);
+  return {
+    pairs: pairs,
+    lock(want){
+      const set = normArrows(want);
+      row.querySelectorAll('button').forEach(x => { x.disabled = true; x.classList.remove('sel'); });
+      list.querySelectorAll('.ex-arrow').forEach((line, n) => {
+        const p = pairs[n];
+        line.classList.add(set.has(p[0] + '>' + p[1]) ? 'right' : 'wrong');
+        const rm = line.querySelector('button');
+        if (rm) rm.disabled = true;
+      });
+    }
+  };
+}
+function renderMarkItem(host, it, done){
+  const tokens = it.tokens || [];
+  const marks = renderArrowMarker(host, tokens);
+  const btn = makeCheck();
+  host.appendChild(btn);
+  btn.addEventListener('click', () => {
+    if (!marks.pairs.length) return;
+    const ok = gradeMarkAnswer(it, marks.pairs);
+    marks.lock(it.analysis);
+    btn.disabled = true;
+    done(ok, arrowLines(tokens, marks.pairs), arrowLines(tokens, it.analysis));
+  });
+}
+function renderAnalysisItem(host, it, done){
+  const tokens = it.tokens || [];
+  const rows = document.createElement('div'); rows.className = 'ex-analysis';
+  const inputs = [];
+  tokens.forEach(t => {
+    const line = document.createElement('div'); line.className = 'ex-analysis-row';
+    const word = document.createElement('div'); word.className = 'ex-analysis-word'; word.innerHTML = t;
+    const input = document.createElement('input');
+    input.type = 'text'; input.className = 'answer-in';
+    input.setAttribute('aria-label', 'Parse of ' + plainToken(t));
+    input.autocomplete = 'off'; input.spellcheck = false;
+    line.appendChild(word); line.appendChild(input);
+    rows.appendChild(line);
+    inputs.push(input);
+  });
+  host.appendChild(rows);
+  const marks = renderArrowMarker(host, tokens);
+  const btn = makeCheck();
+  host.appendChild(btn);
+  btn.addEventListener('click', () => {
+    const parses = inputs.map(el => el.value);
+    if (parses.every(s => !String(s).trim()) && !marks.pairs.length) return;
+    const ok = gradeAnalysisAnswer(it, parses, marks.pairs);
+    const want = (it.analysis && it.analysis.parse) || [];
+    inputs.forEach((el, i) => {
+      el.disabled = true;
+      el.classList.add(foldBase(el.value, it) === foldBase(want[i], it) ? 'right' : 'wrong');
+    });
+    marks.lock(it.analysis && it.analysis.arrows);
+    btn.disabled = true;
+    done(ok, analysisText(tokens, parses, marks.pairs), analysisText(tokens, want, it.analysis && it.analysis.arrows));
+  });
+}
 let run = null;   // { ex, set, queue, n, k, first: {id: right?}, retried: {id:true} }
 function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
 function runQueue(spec){
@@ -278,6 +575,14 @@ function renderItem(){
       row.appendChild(b);
     });
     opts.appendChild(row);
+  } else if (it.type === 'count' || it.type === 'form' || it.type === 'divide' || it.type === 'transform'){
+    renderTypedItem(opts, it, done);
+  } else if (it.type === 'copy'){
+    renderCopyItem(opts, it, done);
+  } else if (it.type === 'mark'){
+    renderMarkItem(opts, it, done);
+  } else if (it.type === 'analysis'){
+    renderAnalysisItem(opts, it, done);
   } else if (ARS.renderTyped){
     ARS.renderTyped(opts, it, done);
   }
@@ -296,10 +601,14 @@ function finishItem(box, it, ok, given, right){
     }
     if (!run.retried[it.id]){ run.retried[it.id] = true; run.queue.push(it); }
   }
-  const mine = given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
+  const beside = !!BESIDE[it.type];
+  const compare = beside
+    ? `<div class="ex-compare"><div class="ex-compare-col"><span class="ex-compare-h">Your answer</span><div class="ex-compare-body">${esc(given == null ? '' : given)}</div></div><div class="ex-compare-col"><span class="ex-compare-h">The correct answer</span><div class="ex-compare-body">${esc(right == null ? '' : right)}</div></div></div>`
+    : '';
+  const mine = !beside && given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
   const fb = box.querySelector('.fb');
   fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
-    (ok ? (given != null ? mine : '') : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`) + `${it.explain}` +
+    compare + (ok ? mine : (beside ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
     (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
       <div><button class="btn" type="button" data-act="model">Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
     `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;

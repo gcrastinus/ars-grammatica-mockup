@@ -13,14 +13,9 @@
    is treated as box 1 at the moment it is answered, so a miss is due in 1 day and a
    success in 3. The second try at the end of a sitting does not change the box.
 
-   A typed item is drawn by renderTyped and graded by gradeTyped, which the course runner calls. Shape:
-     type: 'count' | 'form' | 'divide' | 'transform'
-     accept: ['the form', 'another accepted form']   (or a single string)
-     A count item may instead give answer as a number (the written syllable sets do).
-     macrons: false   — strip macrons before comparing; otherwise macrons count
-   Case is ignored. Accents other than macrons are ignored. Curly quotes are treated as
-   straight quotes. divide treats hyphens and dashes alike. transform ignores final
-   punctuation. count treats '4' and '04' as the same number.
+   Typed answers are drawn and graded in course.js (runEx). gradeTyped and acceptList
+   below delegate to gradeTypedAnswer and acceptedOf, so a cumulative-review item uses
+   the same check. The local copies remain only if those functions are missing.
 */
 (function () {
   const root = typeof window !== 'undefined' ? window : globalThis;
@@ -32,6 +27,7 @@
   const TYPED = { count: 1, form: 1, divide: 1, transform: 1 };
 
   function acceptList(item){
+    if (typeof acceptedOf === 'function') return acceptedOf(item);
     if (!item) return [];
     if (Array.isArray(item.accept)) return item.accept.map(String);
     if (typeof item.accept === 'string' && item.accept) return [item.accept];
@@ -69,6 +65,7 @@
   }
 
   function gradeTyped(item, given){
+    if (typeof gradeTypedAnswer === 'function') return gradeTypedAnswer(item, given);
     const accepted = acceptList(item);
     if (!accepted.length) return false;
     const type = item && item.type;

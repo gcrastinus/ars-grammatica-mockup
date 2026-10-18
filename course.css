@@ -360,3 +360,58 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 
 /* The Recitation Tablet button shows only on the homepage; other screens need room only for the audio controls. */
 @media (max-width:1100px){ body.off-home .wrap{padding-top:70px} }
+
+/* Typed answers inside the exercise runner. Borders are --line or --gold-soft only. */
+.ex-hint{font-style:italic; color:var(--ink-soft); font-size:16px; margin:0 0 8px}
+.ex-typed input:hover:not(:disabled),
+.ex-typed textarea:hover:not(:disabled),
+.ex-copy textarea:hover:not(:disabled),
+.ex-analysis-row .answer-in:hover:not(:disabled){border-color:var(--gold)}
+.ex-typed.ex-block{flex-direction:column; align-items:stretch}
+.ex-typed.ex-block textarea,
+.ex-analysis-row .answer-in,
+.ex-copy textarea.answer-in{
+  font:inherit; font-size:18px; padding:8px 10px; box-sizing:border-box;
+  border:1px solid var(--gold-soft); border-radius:6px;
+  background:transparent; color:inherit;
+}
+.ex-typed.ex-block textarea{width:100%; min-height:88px; resize:vertical}
+.ex-typed textarea:focus,
+.ex-copy textarea:focus,
+.ex-analysis-row .answer-in:focus{outline:none; border-color:var(--gold)}
+.ex-arrows{display:flex; flex-direction:column; gap:6px; margin:10px 0}
+.ex-arrow{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  border-bottom:1px solid var(--line); padding:4px 0 6px;
+}
+.ex-arrow span{flex:1; min-width:0}
+.ex-arrow .ex-bin{flex:none}
+.ex-arrow.right span{color:var(--good-text)}
+.ex-arrow.wrong span{color:var(--bad-text)}
+.ex-analysis{display:flex; flex-direction:column; gap:8px; margin-bottom:4px}
+.ex-analysis-row{
+  display:flex; flex-wrap:wrap; gap:8px; align-items:center;
+  border-bottom:1px solid var(--line); padding-bottom:8px;
+}
+.ex-analysis-word{flex:1 1 140px; font-size:18px}
+.ex-analysis-row .answer-in{flex:2 1 180px; min-width:0; width:auto}
+.ex-copy{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:12px}
+.ex-copy textarea{width:100%; min-height:140px; resize:vertical}
+.ex-copy-text, .ex-compare-body{
+  border:1px solid var(--line); border-radius:6px; padding:8px 10px;
+  white-space:pre-wrap; min-height:2.6em; box-sizing:border-box;
+}
+.ex-compare{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:4px 0 12px}
+.ex-compare-h{
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--gold); display:block; margin-bottom:4px;
+}
+.ex-typed .answer-in.right,
+.ex-copy .answer-in.right,
+.ex-analysis .answer-in.right{border-color:var(--sage)}
+.ex-typed .answer-in.wrong,
+.ex-copy .answer-in.wrong,
+.ex-analysis .answer-in.wrong{border-color:var(--wine)}
+@media (max-width:600px){
+  .ex-copy, .ex-compare{grid-template-columns:1fr}
+}

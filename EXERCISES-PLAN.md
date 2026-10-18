@@ -44,7 +44,26 @@ Each stub has `id`, `set`, `deck`, usually `card` (the card it draws on), `type`
 | mark the dependences (`mark`) | marks every dependence in the sentence | against the stored analysis |
 | copy word for word (`copy`) | types the passage out | exact, word for word |
 
-Only multiple choice is rendered by the present course page (in the question points). The other types need a renderer before their items can be used; the plan screen shows them already.
+Question points are multiple choice. A written exercise or review is drawn by `runEx` in course.js: multiple choice, identify, sort, and the typed answers in the next section. A file still marked as a plan shows the plan screen.
+
+## Data fields of the renderers (18 Oct 2026)
+
+`runEx` draws every type below. One sample of each type is in `test/typed-samples.js`. That file is not listed in `data/exercises/index.js`, and the course does not load it.
+
+Every item has `id`, `set`, `type`, `prompt`, and `explain`. It may have `why`, with `prompt` and `model`. The renderer supplies “Correct” or “Incorrect.” For count, form, divide, transform, copy, mark, and analysis it also shows the student’s answer beside the correct one. An identify item keeps its present feedback.
+
+`macrons: false` on a count, form, divide, or analysis item means macrons are not tested. Otherwise a macron must be typed. Other accents are ignored. Curly quotes are read as straight quotes. Surrounding and repeated spaces are collapsed. Case is ignored, except in a copy. Hyphens and dashes are treated alike on count, form, divide, and transform. When `accept` is present it is the whole list, and `answer` is not added to it.
+
+| Type | Fields the checker reads | How it is compared |
+|---|---|---|
+| count (`count`) | `answer` (a number or a string). `accept` or `answers` may give further answers | exact, after the normalization above. A whole number ignores leading zeros, so `04` and `4` match |
+| give the form (`form`) | `answer`, or `accept` (a string or a list). `answers` is read when `accept` is absent | exact, after the same normalization. Final punctuation is kept. A form is not read as a number |
+| divide into syllables (`divide`) | `answer`, the division, with hyphens | the same normalization, and spaces around a hyphen are removed |
+| rewrite (`transform`) | `accept`, a short list, or one string. A single `answer`, or `answers`, is used when `accept` is absent | spacing, capitals, and final punctuation (`.?!;:,` and the ellipsis) are ignored |
+| identify in the text (`identify`) | `tokens`; `answer` is one index, or a list of indexes | the stored position. One index is a single click. A list means every word asked for, then Check. This behavior is unchanged |
+| mark the dependences (`mark`) | `tokens`; `analysis`, a list of `[from, to]`, indexes into `tokens`. `from` is the word that depends, and `to` is the word it depends on | the set of arrows, in any order |
+| parse and construe (`analysis`) | `tokens`; `analysis.parse`, one string for each token; `analysis.arrows`, the same pairs as on a mark item | each parse is matched as a form is matched, and the arrows as a mark is matched |
+| copy word for word (`copy`) | `text`, the passage | word for word. Capitals, spelling, and punctuation must match. Whitespace is collapsed, and curly quotes are read as straight quotes |
 
 ## The sets and reviews
 
@@ -98,7 +117,7 @@ Answers (REVISION-GUIDE N and Timothy's answers of 17 Oct 2026): 1, every sectio
 
 Timothy approved all the recommendations of the exercise evaluation. Build them in this order. Everything runs in the browser, with no server and no API key; progress is kept in localStorage.
 
-1. **Typed-answer renderers, first.** Before more items are written, build the renderers for the types already planned, so that the sets do not collapse into multiple choice: `count` and `form` (exact match after trimming and normalizing case, curly quotes, and macrons where the item says macrons are not tested), `divide` (exact match against the division taught in II.3, hyphens normalized), `transform` (match against a short list of accepted answers, normalized for spacing, capitals, and final punctuation), `identify` (click a word or syllable; checked against the stored position), `mark` and `analysis` (checked against the stored analysis), and `copy` (word for word). Feedback for typed answers shows the student's answer beside the correct one.
+1. **Typed-answer renderers, first.** Before more items are written, build the renderers for the types already planned, so that the sets do not collapse into multiple choice: `count` and `form` (exact match after trimming and normalizing case, curly quotes, and macrons where the item says macrons are not tested), `divide` (exact match against the division taught in II.3, hyphens normalized), `transform` (match against a short list of accepted answers, normalized for spacing, capitals, and final punctuation), `identify` (click a word or syllable; checked against the stored position), `mark` and `analysis` (checked against the stored analysis), and `copy` (word for word). Feedback for typed answers shows the student's answer beside the correct one. Built in `runEx` (course.js) on 18 Oct 2026. The fields are under “Data fields of the renderers.” One sample of each type is in `test/typed-samples.js`, which the course does not load.
 2. **Cumulative review, with spaced reminders.**
    - **Placement and look.** At the end of every Roman-numeral section (after Section I, after II, … after XI), after that section's last item (its review), the homepage shows a full-width bar about half the height of a normal deck or section tile, labeled **"Cumulative Review"**, with a second line giving its range from the beginning of the course through that section, e.g., "The Preliminary Section through Section III." (The course calls its opening part "the Preliminary section" in card text and "Preliminary" in ITEM-LIST.md; this label follows that usage. If Timothy prefers "Preliminaries through Section III," change only the label.) There is no bar after the Preliminary section itself.
    - **Content.** Each bar draws on everything from the beginning of the course through that section: question-point variants and exercise and review items from every deck in that range, mixed together (interleaved), never only one section at a time. A sitting holds about 20 items: first the student's missed items that are due (item 3), then a sample from the whole range, weighted toward the decks studied longest ago, with each section in the range represented. Items from decks the student has not completed are not used. Feedback follows rule 11 of ITEM-LIST.md.
