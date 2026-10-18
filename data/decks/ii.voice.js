@@ -53,7 +53,7 @@ ARS.decks['ii.voice'] = {
 
 { id: 'significant',
   title: 'Voice that signifies and voice that does not',
-  body: `<p>We saw in Section I that a sign signifies either by nature or by imposition, and the same division applies to voice. A groan signifies pain by nature; the word “pain” signifies it by imposition. Some voice signifies nothing at all, such as a letter sounded by itself, or a nonsense word such as <i>blityri</i>, which the medieval logicians used as their example of an articulate sound with no meaning.</p>
+  body: `<p>As we have seen already, voice either signifies or does not, and voice that signifies does so either by nature or by imposition. Set beside the division into articulate and inarticulate voice, this tells us exactly what a word is.</p>
 <p>So articulate voice is not yet a word. The letter B pronounced alone is articulate, because it can be written, but it signifies nothing. Only articulate voice that signifies by imposition is a word, and that is why the word is the least part of an expression that signifies, whereas the voice, the letter, and the syllable are its material.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 2; Boethius, <i>In Peri hermeneias</i>, in paraphrase.` },
 

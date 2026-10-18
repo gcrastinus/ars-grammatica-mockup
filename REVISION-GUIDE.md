@@ -523,3 +523,4 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 ## X. Log: Recitation Tablet icon (18 Oct 2026)
 
 - 18 Oct 2026: The Recitation Tablet icon is redrawn as a Roman wax tablet (a tabula). It has a wooden frame, a fine gold inner rule, a dark wax face with three faint incised lines, a wine-colored hinge cord, a small gold corner, and a stylus laid across it. The colors are the course palette (`--ink`, `--ink-soft`, `--gold`, `--gold-soft`, `--wine`, and in dark mode `--paper2` for the wax). The button stays 88px (80px below 420px), fixed at the top left, and still opens the tablet. The name remains the tooltip and the accessible label. On hover it still enlarges slightly, and the border turns gold, as on the other buttons.
+- 2026-10-18: ii.voice significant: first paragraph now refers back to Section I's significant voice instead of repeating the groan/"pain"/blityri examples (exact edit).
