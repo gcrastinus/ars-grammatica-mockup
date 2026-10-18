@@ -36,7 +36,20 @@ ARS.decks['ii.voice'] = {
 <p>Priscian divides voice by these two questions instead of one. If a voice is joined to some meaning in the mind of the speaker, he calls it <strong>articulate</strong>; if it can be written, he calls it <strong>literate</strong> (Latin <i>litterata</i>, from <i>littera</i>, “letter”) (<i>Institutiones grammaticae</i> I.1–2). Priscian’s “articulate,” then, does not mean what Donatus’s means, so it matters which grammarian is speaking.</p>
 <p>The two questions give four kinds of voice: first, voice that signifies and can be written, such as a line of verse, <i>arma virumque cano</i> (“arms and the man I sing”); second, voice that signifies but cannot be written, such as a whistle or a groan uttered to show something; third, voice that can be written but signifies nothing, such as the imitation of an animal’s cry, as when the croak of a frog is written <i>coax</i>; and fourth, voice that neither signifies nor can be written, such as a crash or the lowing of cattle.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> I.1–2, in paraphrase (no published English translation).`,
-  qpTodo: `Priscian’s four kinds of voice: given a sound (a line of verse, a groan, <i>coax</i>, the lowing of cattle), say whether it signifies and whether it can be written.` },
+  qp: { id: 'q-priscian', variants: [
+    { prompt: `In Priscian’s division, what kind of voice is a line of verse such as <i>arma virumque cano</i> (“arms and the man I sing”)?`,
+      options: [`It signifies but cannot be written`, `It can be written but signifies nothing`, `It signifies and can be written`, `It neither signifies nor can be written`],
+      answer: 2,
+      explain: `A line of verse is joined to a meaning in the mind of the poet, so Priscian calls it articulate, and it can be written in letters, so he calls it literate. It is the first of his four kinds, voice that both signifies and can be written.` },
+    { prompt: `In Priscian’s division, what kind of voice is the croak of a frog, written <i>coax</i>?`,
+      options: [`It signifies and can be written`, `It can be written but signifies nothing`, `It signifies but cannot be written`, `It neither signifies nor can be written`],
+      answer: 1,
+      explain: `The croak can be imitated in letters, so it is literate in Priscian’s sense; but the frog does not join it to any meaning in a mind, so it signifies nothing. Writing it down does not give it a meaning.` },
+    { prompt: `A whistle given to call a dog shows something but cannot be written. What does Priscian call it?`,
+      options: [`Articulate but not literate`, `Literate but not articulate`, `Both articulate and literate`, `Neither articulate nor literate`],
+      answer: 0,
+      explain: `For Priscian a voice is articulate when it is joined to some meaning in the mind of the speaker, and literate when it can be written. The whistle shows something, so it is articulate in his sense, but it cannot be written, so it is not literate. Donatus, who calls voice articulate only when it can be written, would call the same whistle inarticulate, so it matters which grammarian is speaking.` }
+  ]} },
 
 { id: 'significant',
   title: 'Voice that signifies and voice that does not',
@@ -61,7 +74,20 @@ ARS.decks['ii.voice'] = {
   body: `<p>We have now seen what voice is, how articulate voice differs from inarticulate voice, and why the voice is the material of speech but not yet speech. The study of the matter of speech proceeds in the order of its parts. Articulate voice can be divided into its least parts, which writing records as letters; letters are joined into syllables; and syllables are measured as long or short, and accented, and arranged into feet and lines of verse.</p>
 <p>Each step depends on the one before it, because a letter is a mark of an articulate sound, and a syllable is made of such sounds. So the study of the matter of speech considers, after the voice, the letter, the syllable, quantity and accent, punctuation (the marks of the pauses of speech), and meter (the measures of verse).</p>`,
   src: `Donatus, <i>Ars maior</i> I.1–6.`,
-  qpTodo: `Voice as the material of speech: which of these (a cough, thunder, a groan, the spoken word “horse,” the letter B pronounced alone) is voice, which is articulate, and which is a word.` }
+  qp: { id: 'q-articulate-word', variants: [
+    { prompt: `Which of these is a word?`,
+      options: [`A groan of pain`, `The letter B pronounced alone`, `“Horse” said aloud`, `A cough`],
+      answer: 2,
+      explain: `Only articulate voice that signifies by imposition is a word. “Horse” said aloud is made of distinct sounds that letters can record, and it signifies by imposition. A groan signifies pain, but by nature and not by imposition; the letter B is articulate but signifies nothing; and a cough is not uttered to show anything.` },
+    { prompt: `The letter B pronounced alone is articulate voice, because it can be written. Why is it not a word?`,
+      options: [`Because it cannot be written`, `Because it signifies nothing`, `Because it signifies by nature`, `Because no living being makes it`],
+      answer: 1,
+      explain: `Articulate voice is not yet a word. A word is articulate voice that signifies by imposition, and the letter B pronounced alone signifies nothing at all. It can be written, so it is articulate, but it remains part of the material of speech.` },
+    { prompt: `In the strict sense in which Aristotle defines voice, which of these is voice?`,
+      options: [`Thunder`, `A cough`, `The splash of water`, `A shout across a field`],
+      answer: 3,
+      explain: `In the strict sense, voice is a sound made by a living being with some act of imagination, as a sound that signifies something. A shout across a field is such a sound. Thunder and the splash of water are not made by any living thing, and a cough, although a living being makes it, is not uttered to show anything; Aristotle gives the cough as his example of a sound that is not voice.` }
+  ]} }
 
   ]
 };
