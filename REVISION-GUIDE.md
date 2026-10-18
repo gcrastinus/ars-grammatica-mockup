@@ -284,3 +284,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.functions, what-speech-does: functions given as a complete list (state, ask, command, pray, call; feeling can accompany any); "wishes or prays" to "prays" to match the kinds card.
 - 17 Oct 2026: i.functions subtitle: "Stating, asking, commanding, praying, calling, and expressing feeling".
 - 17 Oct 2026: same list updated in structure.js (i.functions desc) and xi.modern (functional grammar card).
+- 17 Oct 2026: i.functions, modern accounts: Jakobson's contact function placed under the vocative, metalanguage under second imposition; new paragraph (Timothy's wording) on why the poetic function is not separate in the classical tradition.
