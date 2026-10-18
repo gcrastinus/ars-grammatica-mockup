@@ -44,7 +44,7 @@ ARS.decks['ii.syllable'] = {
 { id: 'latin-division-2',
   title: 'Dividing a Latin word: mute and liquid, and other cases',
   body: `<p>We have seen that the liquids <i>l</i> and <i>r</i> flow easily after another consonant. So when a mute (<i>p, b, t, d, c, g</i>) is followed by <i>l</i> or <i>r</i>, the two consonants usually go together with the following vowel: <i>pa-tris</i> (“of the father”), <i>a-grī</i> (“of the field”), <i>pū-bli-cus</i> (“public”). In verse, however, a poet may divide them (<i>pat-ris</i>), and this choice affects the length of the syllable, as we will see.</p>
-<p>A few letters need special notice. The double letter <i>x</i> counts as two consonants, so in <i>saxum</i> (“rock”) the first syllable is closed (<i>sac-sum</i> in sound). The pair <i>qu</i> counts as one consonant, so <i>aqua</i> (“water”) is <i>a-qua</i>. The breathing <i>h</i> does not count as a consonant at all. A compound word is divided between its parts: <i>ab-eō</i> (“I go away”), not <i>a-beō</i>.</p>`,
+<p>A few letters need separate treatment. The double letter <i>x</i> counts as two consonants, so in <i>saxum</i> (“rock”) the first syllable is closed (<i>sac-sum</i> in sound). The pair <i>qu</i> counts as one consonant, so <i>aqua</i> (“water”) is <i>a-qua</i>. The breathing <i>h</i> does not count as a consonant at all. A compound word is divided between its parts: <i>ab-eō</i> (“I go away”), not <i>a-beō</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.`,
   qpTodo: `Dividing a Latin word: how is a given word divided (<i>patris</i>, <i>aqua</i>, <i>saxum</i>, <i>abeō</i>), and which rule applies.` },
 

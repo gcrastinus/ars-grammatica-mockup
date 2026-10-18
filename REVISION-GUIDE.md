@@ -303,3 +303,14 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: Option shuffling and the length rule ("never at the cost of clarity; prefer shortening the correct option or developing a distractor; never pad") recorded in STYLE-GUIDE-CARDS.md rule 28, EXERCISES-PLAN.md, NEXT-STEP.md.
 - 17 Oct 2026: EXERCISES-PLAN.md: prioritized build list approved by Timothy (typed-answer renderers; cumulative review with a "Cumulative Review" bar at the end of every Roman-numeral section and spaced reminders; re-asking missed items; option shuffling; sets for V and VI; anchor texts: Donne's Holy Sonnet X, the Gettysburg Address, *Aeneid* I.1–7; "why" prompts; easy-to-hard ordering; recitation reminders). NEXT-STEP.md points to it.
 - 17 Oct 2026: Counts updated for the reviews added for I, VIII, IX, X, XI: EXERCISES-PLAN.md (17 sets, 12 reviews, 1,300 slots; rows added), ITEM-LIST.md rules 5, 6, 8 (and new 8a, cumulative review) and the totals (76 buttons, 1,300 items).
+
+## P. Log: Section II revision pass (18 Oct 2026, Claude; awaiting Timothy's review)
+
+- All six decks of Section II revised to STYLE-GUIDE-CARDS.md, one commit per deck; doctrine, citations, quotations, ids, and qpTodo placeholders unchanged.
+- Realities first: cards that opened with Donatus, Aristotle, Priscian, Quintilian, Isidore, or Parkes now open with ordinary examples (air in motion; thunder and the cough; a gasp and "zib"; saying "cat" and "teacher" slowly; "a," "I"; "play," "tree"; c/k/q in "cat," "kit," "quit"; "accommodate"; "banana," "yesterday"; pauses in reading aloud; "Mary had a little lamb"). The authority follows as confirmation.
+- Lists: Priscian's four kinds of voice and the six Latin consonant differences recast in prose with ordinals; Donatus's three accents put on separate lines (important, recurring); lead-ins with a colon added to the law of the penult and Donatus's three marks.
+- Accidents of the letter now recalled from Section I ("We have seen in Section I…") instead of announced for Section III; "/k/" slashes glossed; phonetics glossed on first use.
+- "While" → "whereas" for contrast (eight places); "in paraphrase" dropped on mere references (Aristotle, Priscian, Parkes, Isidore, Smyth, Diomedes, Bede), kept on the close restatements of Donatus.
+- ii.punctuation / sense: the "teacher said the student" example (already on i.ambiguity / pause) replaced by a restrictive-clause pair ("The students, who had finished, went home").
+- No pointers: "this section considers … in that order" and "which we study next" rewritten.
+- Titles: ii.letter "Quintilian on letters that are lacking or superfluous" → "Letters that are superfluous or lacking."
