@@ -1,10 +1,9 @@
 'use strict';
-/* Exercise sets, section reviews, and the cumulative review (ITEM-LIST.md rules 5, 8, 8a, and 11;
-   EXERCISES-PLAN.md, build list 1–4).
+/* Cumulative review, Leitner boxes, and typed answers (ITEM-LIST.md rules 8, 8a, and 11;
+   EXERCISES-PLAN.md, build list 2–4). Written sets and section reviews run in course.js (runEx).
 
    Progress stays in the course record (localStorage key ars-grammatica-course-v2):
 
-   store.practice = { 'i.ex.sign': { opens: 1 } }   // visits; sets A, B, C rotate from this
    store.boxes = {
      'sv-sign-1': { box: 1, dueAt: <ms>, deck: 'i.sign', section: 'i' }
    }
@@ -14,7 +13,7 @@
    is treated as box 1 at the moment it is answered, so a miss is due in 1 day and a
    success in 3. The second try at the end of a sitting does not change the box.
 
-   A typed item is ready for content to use. None are written yet. Shape:
+   A typed item is drawn by renderTyped and graded by gradeTyped, which the course runner calls. Shape:
      type: 'count' | 'form' | 'divide' | 'transform'
      accept: ['the form', 'another accepted form']   (or a single string)
      A count item may instead give answer as a number (the written syllable sets do).
@@ -90,24 +89,6 @@
     }
     if (TYPED[type]) return acceptList(it).length > 0;
     return false;
-  }
-
-  function exerciseIsPlayable(ex){
-    if (!ex || ex.status === 'plan' || !Array.isArray(ex.items)) return false;
-    return ex.items.some(itemPlayable);
-  }
-
-  function playableSets(ex){
-    const have = new Set();
-    (ex.items || []).forEach(it => { if (itemPlayable(it)) have.add(it.set || ''); });
-    const abc = ['A', 'B', 'C'].filter(s => have.has(s));
-    if (abc.length) return abc;
-    if (have.has('')) return [''];
-    return [];
-  }
-
-  function itemsInSet(ex, set){
-    return (ex.items || []).filter(it => itemPlayable(it) && (it.set || '') === set);
   }
 
   /* A right answer moves up one box from the box the item is in (an unseen item counts as box 1).
@@ -195,10 +176,7 @@
   ARS.gradeTyped = gradeTyped;
   ARS.scheduleReview = scheduleReview;
   ARS.buildReviewSitting = buildReviewSitting;
-  ARS.exerciseIsPlayable = exerciseIsPlayable;
-  ARS.playableSets = playableSets;
   ARS.cumulativeRangeLabel = cumulativeRangeLabel;
-  root.exerciseIsPlayable = exerciseIsPlayable;
 
   if (typeof document === 'undefined' || typeof courseStore !== 'function') return;
 
@@ -284,13 +262,7 @@
   };
 
   const $ = id => document.getElementById(id);
-  let sit = null;
-  let sitGen = 0;
-
-  function esc(s){
-    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  }
-
+  let cumulGen = 0;
   function copyItem(it, meta){
     return {
       id: it.id,
@@ -322,169 +294,10 @@
     if (typeof root.renderReviewNotice === 'function') root.renderReviewNotice();
   };
 
-  function recordFirst(item, correct){
-    if (sit.phase !== 'ask' || Object.prototype.hasOwnProperty.call(sit.results, item.id)) return;
-    sit.results[item.id] = correct;
-    if (!correct) sit.missed.push(item);
-    const store = courseStore();
-    store.boxes = store.boxes || {};
-    const next = scheduleReview(store.boxes[item.id], correct, Date.now());
-    next.deck = item.deck || '';
-    next.section = item.section || '';
-    store.boxes[item.id] = next;
-    save();
-  }
-
-  function orderFor(item){
-    const key = sit.phase + ':' + item.id;
-    if (!sit.orders[key]) sit.orders[key] = shuffleInPlace(item.options.map((_, i) => i));
-    if (sit.phase === 'retry' && sit.orders['ask:' + item.id] && item.options.length > 1){
-      const prev = sit.orders['ask:' + item.id].join(',');
-      let guard = 0;
-      while (sit.orders[key].join(',') === prev && guard < 8){
-        sit.orders[key] = shuffleInPlace(item.options.map((_, i) => i));
-        guard += 1;
-      }
-    }
-    return sit.orders[key];
-  }
-
-  function currentItem(){
-    if (!sit) return null;
-    if (sit.phase === 'retry') return sit.missed[sit.retryIndex] || null;
-    return sit.items[sit.index] || null;
-  }
-
-  function advance(){
-    if (sit.phase === 'ask'){
-      sit.index += 1;
-      if (sit.index < sit.items.length){ renderSitting(); return; }
-      if (sit.missed.length){ sit.phase = 'retry'; sit.retryIndex = 0; renderSitting(); return; }
-    } else if (sit.phase === 'retry'){
-      sit.retryIndex += 1;
-      if (sit.retryIndex < sit.missed.length){ renderSitting(); return; }
-    }
-    sit.phase = 'score';
-    renderScore();
-  }
-
-  function headCounts(){
-    if (sit.phase === 'retry') return { i: sit.retryIndex, n: sit.missed.length, label: 'Asked again' };
-    return { i: sit.index, n: sit.items.length, label: sit.setLabel || 'Question' };
-  }
-
-  function showHead(){
-    $('ex-kind').textContent = sit.kind || '';
-    $('ex-title').textContent = sit.title || '';
-    $('ex-sub').textContent = sit.sub || '';
-  }
-
-  function feedbackBlock(correct, answerHtml, givenText, showAnswer){
-    const fb = document.createElement('div');
-    fb.className = 'feedback ' + (correct ? 'good' : 'bad');
-    const verdict = document.createElement('span');
-    verdict.className = 'verdict';
-    verdict.textContent = correct ? 'Correct' : 'Incorrect';
-    fb.appendChild(verdict);
-    if (givenText != null){
-      const line = document.createElement('div');
-      line.innerHTML = 'Answer given: ' + esc(givenText) + '.';
-      fb.appendChild(line);
-    }
-    if (!correct || showAnswer){
-      const line = document.createElement('div');
-      line.innerHTML = 'The correct answer is: ' + answerHtml + '.';
-      fb.appendChild(line);
-    }
-    if (sit.item.explain){
-      const exp = document.createElement('div');
-      exp.innerHTML = sit.item.explain;
-      fb.appendChild(exp);
-    }
+  /* The course runner calls this for a count, form, divide, or transform item. */
+  function renderTyped(host, item, done){
     const row = document.createElement('div');
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'btn primary';
-    const lastAsk = sit.phase === 'ask' && sit.index === sit.items.length - 1 && sit.missed.length === 0;
-    const lastRetry = sit.phase === 'retry' && sit.retryIndex === sit.missed.length - 1;
-    const willRetry = sit.phase === 'ask' && sit.index === sit.items.length - 1 && sit.missed.length > 0;
-    btn.textContent = (lastAsk || lastRetry) && !willRetry ? 'See the score' : 'Next';
-    btn.addEventListener('click', advance);
-    row.appendChild(btn);
-    fb.appendChild(row);
-    return fb;
-  }
-
-  function renderSitting(){
-    if (window.__arsStopSpeak) window.__arsStopSpeak();
-    showHead();
-    const item = currentItem();
-    sit.item = item;
-    sit.locked = false;
-    const body = $('ex-body');
-    body.innerHTML = '';
-    const counts = headCounts();
-    const prog = document.createElement('div');
-    prog.className = 'q-progress';
-    prog.innerHTML = '<div class="q-progress-fill"></div>';
-    prog.firstChild.style.width = (((counts.i + 1) / counts.n) * 100) + '%';
-    body.appendChild(prog);
-    const count = document.createElement('div');
-    count.className = 'ex-count';
-    count.textContent = counts.label + ' · ' + (counts.i + 1) + ' of ' + counts.n;
-    body.appendChild(count);
-    const box = document.createElement('div');
-    box.className = 'q-box';
-    const lab = document.createElement('div');
-    lab.className = 'qp-label';
-    lab.innerHTML = '<span>' + (sit.phase === 'retry' ? 'Asked again' : 'Question') + '</span>';
-    box.appendChild(lab);
-    const prompt = document.createElement('div');
-    prompt.className = 'q-prompt';
-    prompt.innerHTML = item.prompt;
-    box.appendChild(prompt);
-    if (TYPED[item.type]) renderTyped(box, item);
-    else renderChoice(box, item);
-    body.appendChild(box);
-    window.scrollTo(0, 0);
-  }
-
-  function renderChoice(box, item){
-    const opts = document.createElement('div');
-    opts.className = 'opts';
-    const order = orderFor(item);
-    order.forEach(k => {
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'opt';
-      b.dataset.k = String(k);
-      b.innerHTML = item.options[k];
-      b.addEventListener('click', () => chooseOption(item, k, opts));
-      opts.appendChild(b);
-    });
-    box.appendChild(opts);
-    const hold = document.createElement('div');
-    hold.className = 'fb';
-    box.appendChild(hold);
-  }
-
-  function chooseOption(item, k, opts){
-    if (sit.locked) return;
-    sit.locked = true;
-    const correct = k === item.answer;
-    recordFirst(item, correct);
-    opts.querySelectorAll('.opt').forEach(b => {
-      b.disabled = true;
-      const bk = Number(b.dataset.k);
-      if (bk === item.answer) b.classList.add(correct ? 'right' : 'reveal');
-      if (!correct && bk === k) b.classList.add('wrong');
-    });
-    opts.parentNode.querySelector('.fb').appendChild(feedbackBlock(correct, item.options[item.answer], null, false));
-  }
-
-  function renderTyped(box, item){
-    const row = document.createElement('div');
-    row.className = 'typed-row';
+    row.className = 'ex-typed';
     const input = document.createElement('input');
     input.type = 'text';
     input.className = 'answer-in';
@@ -494,115 +307,26 @@
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'btn primary';
-    btn.textContent = 'Answer';
+    btn.textContent = 'Check';
     row.appendChild(input);
     row.appendChild(btn);
-    box.appendChild(row);
-    const hold = document.createElement('div');
-    hold.className = 'fb';
-    box.appendChild(hold);
+    host.appendChild(row);
     const submit = () => {
-      if (sit.locked) return;
-      sit.locked = true;
       const given = input.value;
+      if (!String(given).trim()) return;
       const correct = gradeTyped(item, given);
-      recordFirst(item, correct);
       input.disabled = true;
       input.classList.add(correct ? 'right' : 'wrong');
-      btn.hidden = true;
-      const shown = acceptList(item)[0] || '';
-      hold.appendChild(feedbackBlock(correct, esc(shown), given, true));
+      btn.disabled = true;
+      done(correct, given, acceptList(item)[0] || '');
     };
     btn.addEventListener('click', submit);
-    input.addEventListener('keydown', e => {
-      if (e.key === 'Enter'){ e.preventDefault(); submit(); }
+    input.addEventListener('keydown', ev => {
+      if (ev.key === 'Enter'){ ev.preventDefault(); submit(); }
     });
+    setTimeout(() => input.focus(), 0);
   }
-
-  function scoreLine(){
-    const n = sit.items.length;
-    const right = sit.items.filter(it => sit.results[it.id]).length;
-    const missed = n - right;
-    let sub;
-    if (!missed) sub = 'Every answer was correct the first time.';
-    else if (!right) sub = 'None were correct the first time, and the missed items were asked once more.';
-    else if (right === 1) sub = '1 was correct the first time, and the missed items were asked once more.';
-    else sub = right + ' were correct the first time, and the missed items were asked once more.';
-    return { right: right, n: n, sub: sub };
-  }
-
-  function renderScore(){
-    if (window.__arsStopSpeak) window.__arsStopSpeak();
-    showHead();
-    $('ex-kind').textContent = sit.setLabel || sit.kind || '';
-    const line = scoreLine();
-    const body = $('ex-body');
-    body.innerHTML = '';
-    const card = document.createElement('div');
-    card.className = 'complete-card';
-    card.innerHTML = '<div class="complete-orn">❦</div><h2></h2><div class="complete-sub"></div>';
-    card.querySelector('h2').textContent = line.right + ' of ' + line.n;
-    card.querySelector('.complete-sub').textContent = line.sub;
-    const row = document.createElement('div');
-    row.className = 'complete-btns';
-    row.style.marginTop = '28px';
-    const home = document.createElement('button');
-    home.type = 'button';
-    home.className = 'btn primary';
-    home.textContent = 'All sections';
-    home.addEventListener('click', goHome);
-    row.appendChild(home);
-    card.appendChild(row);
-    body.appendChild(card);
-    window.scrollTo(0, 0);
-  }
-
-  function beginSitting(spec){
-    sit = {
-      gen: sitGen,
-      phase: 'ask',
-      items: spec.items,
-      index: 0,
-      missed: [],
-      retryIndex: 0,
-      results: {},
-      orders: {},
-      locked: false,
-      title: spec.title,
-      sub: spec.sub || '',
-      kind: spec.kind || '',
-      setLabel: spec.setLabel || ''
-    };
-    location.hash = spec.hash || location.hash;
-    show('scr-ex');
-    if (!spec.items.length){
-      showHead();
-      $('ex-body').innerHTML = '<p class="ex-empty">No questions from the completed decks are ready yet.</p>';
-      return;
-    }
-    renderSitting();
-  }
-
-  root.startExercise = function (ex) {
-    const gen = ++sitGen;
-    const store = courseStore();
-    store.practice = store.practice || {};
-    const rec = store.practice[ex.id] || (store.practice[ex.id] = { opens: 0 });
-    rec.opens += 1;
-    save();
-    const sets = playableSets(ex);
-    const set = sets[(rec.opens - 1) % sets.length];
-    const items = itemsInSet(ex, set).map(it => copyItem(it));
-    if (gen !== sitGen) return;
-    beginSitting({
-      hash: 'ex/' + ex.id,
-      title: ex.title,
-      kind: ex.kind === 'review' ? 'Section review' : 'Exercise',
-      sub: ex.instr && ex.instr !== 'TODO' ? ex.instr : '',
-      setLabel: set ? 'Set ' + set : '',
-      items: items
-    });
-  };
+  root.ARS.renderTyped = renderTyped;
 
   function rangeSections(sectionId){
     const out = [];
@@ -668,7 +392,7 @@
   }
 
   root.startCumulative = function (sectionId) {
-    const gen = ++sitGen;
+    const gen = ++cumulGen;
     const sec = (ARS.structure || []).find(s => s.id === sectionId);
     if (!sec) return;
     const label = cumulativeRangeLabel(sec.roman);
@@ -684,18 +408,21 @@
       return;
     }
     collectPool(sectionId).then(pool => {
-      if (gen !== sitGen) return;
+      if (gen !== cumulGen) return;
       const items = buildReviewSitting(pool, courseStore().boxes || {}, Date.now(), REVIEW_SITTING);
-      beginSitting({
+      if (!items.length){
+        $('ex-body').innerHTML = '<p class="ex-empty">No questions from the completed decks are ready yet.</p>';
+        return;
+      }
+      runQueue({
+        items: items,
         hash: 'cumul/' + sectionId,
-        title: 'Cumulative Review',
         kind: 'Cumulative Review',
-        sub: label,
-        setLabel: '',
-        items: items
+        title: 'Cumulative Review',
+        sub: label
       });
     }).catch(() => {
-      if (gen !== sitGen) return;
+      if (gen !== cumulGen) return;
       $('ex-body').innerHTML = '<p class="ex-empty">The questions could not be gathered.</p>';
     });
   };

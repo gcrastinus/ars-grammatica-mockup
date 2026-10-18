@@ -90,8 +90,8 @@ function loadDeck(id){
 }
 
 /* ---------- exercise sets and section reviews ----------
-   A file whose questions are written opens in the player (practice.js).
-   A file still marked as a plan, or whose items are still todo, shows the plan. */
+   A written file runs here (runEx). A file still marked as a plan shows the plan.
+   Cumulative review, in practice.js, uses the same runner. */
 function hasPlan(id){ return !!(ARS.exerciseFiles && ARS.exerciseFiles.indexOf(id) >= 0); }
 /* A section exercise or review opens in the player. A built exercise that is itself a deck
    (ix.sentences, ix.passages, ix.marking, x.imitation) opens as a deck. */
@@ -118,10 +118,7 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 function openEx(id){
   loadEx(id).then(ex => {
-    // A set marked written keeps the runner in this file (sets A–C, the "Why?" box, clicked words).
-    // Any other file whose questions can be asked uses the player in practice.js. A plan stays a plan.
     if (ex.status === 'written') return runEx(ex);
-    if (typeof exerciseIsPlayable === 'function' && exerciseIsPlayable(ex)){ startExercise(ex); return; }
     showExercisePlan(id, ex);
   }).catch(err => { alert(err.message); });
 }
@@ -160,28 +157,34 @@ function showExercisePlan(id, ex){
     show('scr-ex');
 }
 
-/* ---------- running a written exercise set or review ----------
+/* ---------- running a written exercise set, a review, or a cumulative sitting ----------
    Successive visits give set A, then B, then C, then A again (ITEM-LIST rule 5). The items of a set are given in their
    fixed order (easy to hard); the options of a multiple-choice item are shuffled on each showing, and the key follows
-   the option. A wrongly answered item is asked once more at the end of the sitting (build list, item 3) and is recorded
-   in store.ex for this set, and the first answer is also stored in the Leitner boxes (practice.js). Typed answers (count, divide) are compared after normalizing; feedback shows
-   the student's answer beside the correct one. An item may carry a "Why?" prompt with a model answer (no grading). */
-let run = null;   // { ex, set, queue, k, first: {id: right?}, retried: {id:true} }
+   the option. A wrongly answered item is asked once more at the end of the sitting (build list, item 3). For a written
+   set the miss is recorded in store.ex, and the first answer is stored in the Leitner boxes (practice.js). A typed
+   answer (count, form, divide, transform) is drawn and graded by practice.js. An item may carry a "Why?" prompt with
+   a model answer (no grading). */
+let run = null;   // { ex, set, queue, n, k, first: {id: right?}, retried: {id:true} }
 function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
-function stripMacrons(t){ return t.normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC'); }
-function normDivide(t, macrons){
-  let x = String(t).trim().toLowerCase().replace(/[‐-―·‧|\/]/g, '-').replace(/\s*-\s*/g, '-');
-  return macrons === false ? stripMacrons(x) : x.normalize('NFC');
+function runQueue(spec){
+  const items = (spec.items || []).slice();
+  run = { ex: spec.ex || null, set: spec.set || '', queue: items, n: items.length, k:0, first:{}, retried:{} };
+  if (spec.hash) location.hash = spec.hash;
+  $('ex-kind').textContent = spec.kind || '';
+  $('ex-title').innerHTML = spec.title || '';
+  $('ex-sub').innerHTML = spec.sub || '';
+  show('scr-ex');
+  renderItem();
 }
 function runEx(ex){
   const st = exState(ex.id); const set = FORMS[st.visits % 3]; st.visits += 1; save();
   const items = ex.items.filter(x => x.set === set);
-  run = { ex, set, queue: items.slice(), n: items.length, k:0, first:{}, retried:{} };
-  location.hash = 'ex/' + ex.id;
-  $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
-  $('ex-title').innerHTML = ex.title;
-  $('ex-sub').innerHTML = `Set ${set} · ${items.length} questions. ${ex.instr || ''}`;
-  show('scr-ex'); renderItem();
+  runQueue({
+    ex: ex, set: set, items: items, hash: 'ex/' + ex.id,
+    kind: ex.kind === 'review' ? 'Section review' : 'Exercise',
+    title: ex.title,
+    sub: `Set ${set} · ${items.length} questions. ${ex.instr || ''}`
+  });
 }
 function renderItem(){
   if (window.__arsStopSpeak) window.__arsStopSpeak();
@@ -268,20 +271,8 @@ function renderItem(){
       row.appendChild(b);
     });
     opts.appendChild(row);
-  } else {   // count, divide, and other typed answers
-    const f = document.createElement('form'); f.className = 'ex-typed';
-    f.innerHTML = `<input type="text" autocomplete="off" spellcheck="false" aria-label="Answer"> <button class="btn primary" type="submit">Check</button>`;
-    f.onsubmit = e => {
-      e.preventDefault(); const inp = f.querySelector('input'); const given = inp.value; if (!given.trim()) return;
-      let ok;
-      if (it.type === 'count') ok = parseInt(given.trim(), 10) === Number(it.answer) && /^\s*\d+\s*$/.test(given);
-      else if (it.type === 'divide') ok = [it.answer].concat(it.accept || []).some(a => normDivide(a, it.macrons) === normDivide(given, it.macrons));
-      else ok = [it.answer].concat(it.accept || []).some(a => String(a).trim().toLowerCase() === given.trim().toLowerCase());
-      inp.disabled = true; f.querySelector('button').disabled = true;
-      done(ok, given, String(it.answer));
-    };
-    opts.appendChild(f);
-    setTimeout(() => { const i = f.querySelector('input'); if (i) i.focus(); }, 0);
+  } else if (ARS.renderTyped){
+    ARS.renderTyped(opts, it, done);
   }
   body.appendChild(box);
 }
@@ -292,8 +283,10 @@ function finishItem(box, it, ok, given, right){
     if (ARS.noteAnswer) ARS.noteAnswer(it, ok);
   }
   if (!ok){
-    const st = exState(run.ex.id); st.due = st.due || [];
-    if (st.due.indexOf(it.id) < 0) st.due.push(it.id); save();
+    if (run.ex){
+      const st = exState(run.ex.id); st.due = st.due || [];
+      if (st.due.indexOf(it.id) < 0) st.due.push(it.id); save();
+    }
     if (!run.retried[it.id]){ run.retried[it.id] = true; run.queue.push(it); }
   }
   const mine = given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
@@ -311,10 +304,12 @@ function finishItem(box, it, ok, given, right){
 }
 function renderSummary(){
   const ids = Object.keys(run.first), right = ids.filter(i => run.first[i]).length;
-  const missed = run.ex.items.filter(x => run.first[x.id] === false);
+  const byId = {};
+  (run.ex ? run.ex.items : run.queue).forEach(x => { if (x && x.id) byId[x.id] = x; });
+  const missed = ids.filter(i => run.first[i] === false).map(i => byId[i]).filter(Boolean);
   const body = $('ex-body'); body.innerHTML = '';
   const box = document.createElement('div'); box.className = 'q-box qp';
-  box.innerHTML = `<div class="qp-label"><span>Set ${run.set} finished</span></div>
+  box.innerHTML = `<div class="qp-label"><span>${run.set ? 'Set ' + run.set + ' finished' : 'Review finished'}</span></div>
     <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;
