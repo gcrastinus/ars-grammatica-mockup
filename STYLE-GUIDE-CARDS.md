@@ -156,6 +156,8 @@ Two notes. First, **quoting John of St. Thomas's definitions is fine** (Timothy,
 
 27a. **Do not write "the schools" or "the old schools" for the tradition** (Timothy, 18 Oct 2026). Say "grammarians," "the classical grammarians," "the scholastics," or "the classical tradition," and speak of the tradition well (for example, "for more than a thousand years grammarians took it as the starting point of their art"). Never "old grammarians." A proper name or a quotation ("the schools of rhetoric," "the Carolingian schools") may stay.
 
+27b. **Quotations: the English first, in quotation marks, then the Latin (or Greek) in parentheses after it** (Timothy, 18 Oct 2026), e.g., voice is “the motion of air perceptible to hearing, as far as lies in itself” (<i>vox est aer ictus sensibilis auditu, quantum in ipso est</i>; <i>Ars maior</i> I.1). This holds everywhere unless the Latin itself is being studied (a Latin form, scansion, a Latin example sentence), where the Latin may come first with its translation.
+
 ### Question points (and, by the same rules, exercise items)
 
 28. **Question points must be fair.** Each variant has exactly one clearly correct option; the wrong options are plausible (they state a real confusion a student might have, or a true statement that does not answer the question) but are clearly wrong to a student who has understood the card.
