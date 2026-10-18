@@ -166,3 +166,10 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
   .recite-columns.is-split{grid-template-columns:1fr; grid-template-rows:minmax(180px, 1fr) minmax(180px, 1fr)}
   .recite-text{min-height:160px}
 }
+.ex-tokens{display:flex; flex-wrap:wrap; gap:8px}
+.ex-tokens .ex-token{width:auto; flex:0 0 auto; min-width:48px; text-align:center}
+.ex-typed{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+.ex-typed input{font:inherit; font-size:18px; padding:8px 10px; border:1px solid var(--rule, #bbb); border-radius:6px; background:transparent; color:inherit; min-width:200px}
+.ex-why{margin-top:12px}
+.ex-why textarea{width:100%; font:inherit; margin:6px 0; padding:6px; background:transparent; color:inherit; border:1px solid var(--rule, #bbb); border-radius:6px}
+.ex-model{margin-top:8px; font-style:italic}

@@ -100,6 +100,7 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 function openEx(id){
   loadEx(id).then(ex => {
+    if (ex.status === 'written') return runEx(ex);
     location.hash = 'ex/' + id;
     $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
     $('ex-title').innerHTML = ex.title;
@@ -127,6 +128,110 @@ function openEx(id){
     body.appendChild(box);
     show('scr-ex');
   }).catch(err => { alert(err.message); });
+}
+
+/* ---------- running a written exercise set or review ----------
+   Successive visits give set A, then B, then C, then A again (ITEM-LIST rule 5). The items of a set are given in their
+   fixed order (easy to hard); the options of a multiple-choice item are shuffled on each showing, and the key follows
+   the option. A wrongly answered item is asked once more at the end of the sitting (build list, item 3) and is recorded
+   in store.due for the cumulative review. Typed answers (count, divide) are compared after normalizing; feedback shows
+   the student's answer beside the correct one. An item may carry a "Why?" prompt with a model answer (no grading). */
+let run = null;   // { ex, set, queue, k, first: {id: right?}, retried: {id:true} }
+function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
+function stripMacrons(t){ return t.normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC'); }
+function normDivide(t, macrons){
+  let x = String(t).trim().toLowerCase().replace(/[‐-―·‧|\/]/g, '-').replace(/\s*-\s*/g, '-');
+  return macrons === false ? stripMacrons(x) : x.normalize('NFC');
+}
+function runEx(ex){
+  const st = exState(ex.id); const set = FORMS[st.visits % 3]; st.visits += 1; save();
+  const items = ex.items.filter(x => x.set === set);
+  run = { ex, set, queue: items.slice(), n: items.length, k:0, first:{}, retried:{} };
+  location.hash = 'ex/' + ex.id;
+  $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
+  $('ex-title').innerHTML = ex.title;
+  $('ex-sub').innerHTML = `Set ${set} · ${items.length} questions. ${ex.instr || ''}`;
+  show('scr-ex'); renderItem();
+}
+function renderItem(){
+  const body = $('ex-body'); body.innerHTML = '';
+  if (run.k >= run.queue.length) return renderSummary();
+  const it = run.queue[run.k], again = run.k >= run.n;
+  const box = document.createElement('div'); box.className = 'q-box qp ex-item';
+  box.innerHTML = `<div class="qp-label"><span>${again ? 'Asked again' : 'Question'}</span><span class="qp-form">${again ? '' : `${run.k + 1} of ${run.n}`}</span></div>
+    <div class="q-prompt">${it.prompt}</div><div class="opts"></div><div class="fb"></div>`;
+  const opts = box.querySelector('.opts');
+  const done = (ok, given, right) => finishItem(box, it, ok, given, right);
+  if (it.type === 'mc' || it.type === 'mc-marked'){
+    shuffled(it.options.map((_, k) => k)).forEach(k => {
+      const b = document.createElement('button'); b.className = 'opt'; b.innerHTML = it.options[k]; b.dataset.k = k;
+      b.onclick = () => {
+        opts.querySelectorAll('button').forEach(x => { x.disabled = true; if (+x.dataset.k === it.answer) x.classList.add(k === it.answer ? 'right' : 'reveal'); });
+        if (k !== it.answer) b.classList.add('wrong');
+        done(k === it.answer, null, it.options[it.answer]);
+      };
+      opts.appendChild(b);
+    });
+  } else if (it.type === 'identify'){
+    const row = document.createElement('div'); row.className = 'ex-tokens';
+    it.tokens.forEach((t, k) => {
+      const b = document.createElement('button'); b.className = 'opt ex-token'; b.innerHTML = t;
+      b.onclick = () => {
+        row.querySelectorAll('button').forEach((x, j) => { x.disabled = true; if (j === it.answer) x.classList.add(k === it.answer ? 'right' : 'reveal'); });
+        if (k !== it.answer) b.classList.add('wrong');
+        done(k === it.answer, null, it.tokens[it.answer]);
+      };
+      row.appendChild(b);
+    });
+    opts.appendChild(row);
+  } else {   // count, divide, and other typed answers
+    const f = document.createElement('form'); f.className = 'ex-typed';
+    f.innerHTML = `<input type="text" autocomplete="off" spellcheck="false" aria-label="Answer"> <button class="btn primary" type="submit">Check</button>`;
+    f.onsubmit = e => {
+      e.preventDefault(); const inp = f.querySelector('input'); const given = inp.value; if (!given.trim()) return;
+      let ok;
+      if (it.type === 'count') ok = parseInt(given.trim(), 10) === Number(it.answer) && /^\s*\d+\s*$/.test(given);
+      else if (it.type === 'divide') ok = [it.answer].concat(it.accept || []).some(a => normDivide(a, it.macrons) === normDivide(given, it.macrons));
+      else ok = [it.answer].concat(it.accept || []).some(a => String(a).trim().toLowerCase() === given.trim().toLowerCase());
+      inp.disabled = true; f.querySelector('button').disabled = true;
+      done(ok, given, String(it.answer));
+    };
+    opts.appendChild(f);
+    setTimeout(() => { const i = f.querySelector('input'); if (i) i.focus(); }, 0);
+  }
+  body.appendChild(box);
+}
+function finishItem(box, it, ok, given, right){
+  if (!(it.id in run.first)) run.first[it.id] = ok;
+  if (!ok){
+    const st = exState(run.ex.id); st.due = st.due || [];
+    if (st.due.indexOf(it.id) < 0) st.due.push(it.id); save();
+    if (!run.retried[it.id]){ run.retried[it.id] = true; run.queue.push(it); }
+  }
+  const mine = given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
+  const fb = box.querySelector('.fb');
+  fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
+    (ok ? (given != null ? mine : '') : `${mine}The correct answer is: ${right}.<br>`) + `${it.explain}` +
+    (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
+      <div><button class="btn" type="button" data-act="model">Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
+    `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;
+  const mb = fb.querySelector('[data-act="model"]');
+  if (mb) mb.onclick = () => { fb.querySelector('.ex-model').hidden = false; mb.disabled = true; };
+  const nb = fb.querySelector('[data-act="next"]');
+  nb.onclick = () => { run.k += 1; renderItem(); window.scrollTo(0, 0); };
+  nb.focus({ preventScroll:true });
+}
+function renderSummary(){
+  const ids = Object.keys(run.first), right = ids.filter(i => run.first[i]).length;
+  const missed = run.ex.items.filter(x => run.first[x.id] === false);
+  const body = $('ex-body'); body.innerHTML = '';
+  const box = document.createElement('div'); box.className = 'q-box qp';
+  box.innerHTML = `<div class="qp-label"><span>Set ${run.set} finished</span></div>
+    <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` +
+    (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
+    `<div><button class="btn primary" type="button">Back to the course</button></div>`;
+  box.querySelector('button').onclick = goHome;
+  body.appendChild(box);
 }
 
 /* ---------- the deck ---------- */
