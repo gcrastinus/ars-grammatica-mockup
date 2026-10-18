@@ -2,6 +2,7 @@
    Plan (ITEM-LIST.md): 15 panels, 4 question points (placeholders: qpTodo; to be written). Exercise: Tropes (not yet
    written), on twelve tropes: metaphor, catachresis, metalepsis, metonymy, antonomasia, epithet, synecdoche, onomatopoeia,
    periphrasis, hyperbole, allegory, and irony (taken as a species of allegory, as Donatus does).
+   Panels follow Donatus's order (synecdoche after epithet, Timothy, 18 Oct 2026).
    Overlap with Ars Rhetorica: metaphor, irony, and hyperbole appear in its glossary and drills; this deck asks what the
    trope does to the signification of the word.
    Live material drawn on: DECKS.figures (tropes: metaphor, synecdoche, metonymy, antonomasia, hyperbole, allegory),
@@ -30,7 +31,7 @@ ARS.decks['vii.tropes'] = {
 { id: 'metaphor-kinds',
   title: 'The four kinds of metaphor',
   body: `<p>Metaphors differ according to whether the things compared are living or lifeless. “A cat burglar” carries a word from one living thing to another; “a sea of troubles” from one lifeless thing to another; “the head of the river” from the living to the lifeless; and “a heart of stone” from the lifeless to the living.</p>
-<p>Donatus and Quintilian divide metaphors into the same four kinds (<i>Ars maior</i> III.6; <i>Institutio oratoria</i> VIII.6.9–11):<br><strong>from one living thing to another</strong>: Livy says that Scipio was continually “barked at” by Cato (Quintilian, VIII.6.9), carrying the dog’s bark to a man;<br><strong>from one lifeless thing to another</strong>: in <i>pelagus tenuere rates</i> (<i>Aeneid</i> V.8) Virgil calls the ships <i>rates</i> (“rafts”), and Donatus explains that neither rafts nor ships have life;<br><strong>from the living to the lifeless</strong>: Virgil gives the mountain Atlas a pine-crowned “head” (Donatus);<br><strong>from the lifeless to the living</strong>: Turnus is told to take “oak” into his breast, meaning hardness (Donatus).</p>`,
+<p>Donatus and Quintilian divide metaphors into the same four kinds (<i>Ars maior</i> III.6; <i>Institutio oratoria</i> VIII.6.9–11):<br><strong>from one living thing to another</strong>: Livy says that Scipio was continually “barked at” by Cato (Quintilian, VIII.6.9), carrying the dog’s bark to a man;<br><strong>from one lifeless thing to another</strong>: in the words <i>pelagus tenuere rates</i> (<i>Aeneid</i> V.8) Virgil calls the ships <i>rates</i> (“rafts”), and Donatus explains that neither rafts nor ships have life;<br><strong>from the living to the lifeless</strong>: Virgil gives the mountain Atlas a pine-crowned “head” (Donatus);<br><strong>from the lifeless to the living</strong>: Turnus is told to take “oak” into his breast, meaning hardness (Donatus).</p>`,
   src: `Donatus, <i>Ars maior</i> III.6, in paraphrase; Quintilian, <i>Institutio oratoria</i> VIII.6.9 (trans. Butler; checked against the Perseus text).`,
   qpTodo: `Metaphor: in a given sentence, which word is used as a metaphor, what does it properly signify, and what likeness carries it over (and, if asked, which of the four kinds it is).` },
 
@@ -42,7 +43,7 @@ ARS.decks['vii.tropes'] = {
 
 { id: 'metalepsis',
   title: 'Metalepsis',
-  body: `<p>A poet may write “after some few ears of corn” to mean “after a few years.” The ears of corn signify the harvest, and the harvest signifies the year, so the phrase reaches its meaning by two steps; this is a common example in the grammarians. A trope that passes through an intermediate step in this way, so that one word is substituted for another by way of a third, is called <strong>metalepsis</strong> (Greek, “substitution”; Latin <i>trānsūmptiō</i>).</p>
+  body: `<p>In Virgil’s first <i>Eclogue</i>, a shepherd driven from his land wonders whether he will see his home again <i>post aliquot … aristas</i>, “after some few ears of corn,” that is, after a few years (<i>Eclogues</i> I.69). The ears of corn signify the harvest, and the harvest signifies the year, so the phrase reaches its meaning by two steps; this is a common example in the grammarians. A trope that passes through an intermediate step in this way, so that one word is substituted for another by way of a third, is called <strong>metalepsis</strong> (Greek, “substitution”; Latin <i>trānsūmptiō</i>).</p>
 <p>Quintilian calls it a trope “with which to claim acquaintance, rather than one which we are ever likely to require to use,” and explains it with a Latin example: “<i>cano</i> is a synonym for <i>canto</i> and <i>canto</i> for <i>dico</i>, therefore <i>cano</i> is a synonym for <i>dico</i>, the intermediate step being provided by <i>canto</i>” (<i>Institutio oratoria</i> VIII.6.38). Metalepsis is rare, and the student needs to recognize it chiefly in the poets.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.37–38 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.6, in paraphrase.` },
 
@@ -52,12 +53,6 @@ ARS.decks['vii.tropes'] = {
 <p>Quintilian says it consists “in the substitution of one name for another,” and lists its kinds: the inventor for the invention, as Ceres for grain and Vulcan for fire; the possessor for the possession; the container for the contained; the author for his work, as when “we … speak of Virgil when we mean Virgil’s poems”; and the cause for the effect, as Horace’s “Pale death” (<i>Institutio oratoria</i> VIII.6.23–27).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.23–27 (trans. Butler; checked against the Perseus text).`,
   qpTodo: `Metonymy: in a given sentence (“the crown,” “reading Shakespeare,” “the kettle is boiling”), what does the word properly signify, what is it used for, and what relation joins them.` },
-
-{ id: 'synecdoche',
-  title: 'Synecdoche',
-  body: `<p>In “All hands on deck,” “hands” stands for the sailors; in “our daily bread,” “bread” stands for all food; and in “a fleet of fifty sail,” “sail” stands for ships. <strong>Synecdoche</strong> (Greek, “understanding together”) puts the part for the whole or the whole for the part, the species for the genus or the genus for the species. Quintilian says it gives variety by “making us realise many things from one, the whole from a part, the genus from a species,” and gives Latin examples: <i>mucrō</i>, “the point,” for the whole sword, and <i>tēctum</i>, “roof,” for a whole house; and the use of the singular for the plural, as when “Livy frequently says, <i>The Roman won the day</i>” (<i>Institutio oratoria</i> VIII.6.19–20).</p>
-<p>Synecdoche differs from metonymy in that the relation is one of part and whole, or of species and genus, rather than of cause, container, or author.</p>`,
-  src: `Quintilian, <i>Institutio oratoria</i> VIII.6.19–20 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'antonomasia',
   title: 'Antonomasia',
@@ -70,6 +65,12 @@ ARS.decks['vii.tropes'] = {
   body: `<p>Homer’s “rosy-fingered Dawn” and “swift-footed Achilles” join to each name a description that adorns it. An adjective or descriptive phrase joined to a noun to adorn it is called an <strong>epithet</strong> (Greek, “something added”). Quintilian notes that poets use it freely, “since for them it is sufficient that the epithet should suit the word to which it is applied: consequently we shall not blame them when they speak of <i>white teeth</i> or <i>liquid wine</i>” (<i>Institutio oratoria</i> VIII.6.40).</p>
 <p>Quintilian explains when an epithet is a trope. If it is used alone, in place of the name, it becomes an antonomasia: “if you say, <i>The man who destroyed Numantia and Carthage</i>, it will be an antonomasia, whereas, if you add the word <i>Scipio</i>, the phrase will be an epithet” (VIII.6.43). So the epithet adds a description to a name, whereas the antonomasia replaces the name with the description.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.40–43 (trans. Butler; checked against the Perseus text).` },
+
+{ id: 'synecdoche',
+  title: 'Synecdoche',
+  body: `<p>In “All hands on deck,” “hands” stands for the sailors; in “our daily bread,” “bread” stands for all food; and in “a fleet of fifty sail,” “sail” stands for ships. <strong>Synecdoche</strong> (Greek, “understanding together”) puts the part for the whole or the whole for the part, the species for the genus or the genus for the species. Quintilian says it gives variety by “making us realise many things from one, the whole from a part, the genus from a species,” and gives Latin examples: <i>mucrō</i>, “the point,” for the whole sword, and <i>tēctum</i>, “roof,” for a whole house; and the use of the singular for the plural, as when “Livy frequently says, <i>The Roman won the day</i>” (<i>Institutio oratoria</i> VIII.6.19–20).</p>
+<p>Synecdoche differs from metonymy in that the relation is one of part and whole, or of species and genus, rather than of cause, container, or author.</p>`,
+  src: `Quintilian, <i>Institutio oratoria</i> VIII.6.19–20 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'onomatopoeia',
   title: 'Onomatopoeia',
@@ -100,13 +101,13 @@ ARS.decks['vii.tropes'] = {
   title: 'Irony as a species of allegory',
   body: `<p>“What lovely weather!” said in a storm is understood as its opposite, because the subject does not fit the words. Each word keeps its meaning, but the statement means the contrary. This is <strong>irony</strong> (Greek <i>eirōneia</i>, “dissembling”).</p>
 <p>Quintilian’s second kind of allegory says something “absolutely opposed to the meaning of the words,” and he names it irony: “that class of allegory in which the meaning is contrary to that suggested by the words, involve an element of irony” (<i>Institutio oratoria</i> VIII.6.54). Donatus likewise counts irony as a species of allegory, together with other species such as the riddle (<i>aenigma</i>), the proverb (<i>paroemia</i>), and sarcasm (<i>sarcasmos</i>) (<i>Ars maior</i> III.6).</p>
-<p>Quintilian says that irony “is made evident to the understanding either by the delivery, the character of the speaker or the nature of the subject. For if any one of these three is out of keeping with the words, it at once becomes clear that the intention of the speaker is other than what he actually says” (VIII.6.54). Irony is therefore a trope of the whole statement: each word keeps its meaning, but the statement means the contrary.</p>`,
+<p>Quintilian says that irony “is made evident to the understanding either by the delivery, the character of the speaker or the nature of the subject. For if any one of these three is out of keeping with the words, it at once becomes clear that the intention of the speaker is other than what he actually says” (VIII.6.54).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.54 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.6, in paraphrase.`,
   qpTodo: `Allegory and irony: in a given passage, is the trope an allegory (a continued metaphor) or irony (the contrary of the words), and by what does the hearer recognize it.` },
 
 { id: 'summary',
   title: 'The tropes and signification',
-  body: `<p>We have studied twelve tropes, which can be grouped by the relation between the proper signification and the figurative one:<br>by <strong>likeness</strong>: metaphor, catachresis, allegory, and (in its imitation of sound) onomatopoeia;<br>by <strong>association</strong>: metonymy and metalepsis;<br>by <strong>part and whole</strong>: synecdoche;<br>by <strong>description in place of a name</strong>: antonomasia, epithet, and periphrasis;<br>by <strong>excess or contrariety</strong>: hyperbole and irony.</p>
+  body: `<p>We have studied the tropes in the order in which Donatus gives them:<br><strong>metaphor</strong> (<i>metaphora</i>), the use of a word for something that it resembles;<br><strong>catachresis</strong> (<i>catachresis</i>), the use of the nearest available word for something that has no proper name of its own;<br><strong>metalepsis</strong> (<i>metalepsis</i>), the substitution of one word for another by way of an intermediate step;<br><strong>metonymy</strong> (<i>metonymia</i>), the use of one name for another that is associated with it;<br><strong>antonomasia</strong> (<i>antonomasia</i>), a description or an epithet put in place of a proper name;<br><strong>epithet</strong> (<i>epitheton</i>), an adjective or descriptive phrase joined to a noun to adorn it;<br><strong>synecdoche</strong> (<i>synecdoche</i>), the part put for the whole, the whole for the part, or the species for the genus and the genus for the species;<br><strong>onomatopoeia</strong> (<i>onomatopoeia</i>), the formation of a word from the sound of the thing it names;<br><strong>periphrasis</strong> (<i>periphrasis</i>), several words used in place of one;<br><strong>hyperbole</strong> (<i>hyperbole</i>), words that go beyond the truth;<br><strong>allegory</strong> (<i>allegoria</i>), speech that says one thing and means another, of which <strong>irony</strong> (<i>ironia</i>) is a species.</p>
 <p>In every trope the word keeps its imposition, and the figurative signification is understood through the proper one. So the tropes do not abolish the order of signification that we studied in Section I; they presuppose it. In Section VIII we turn from the signification of words to what they stand for in a proposition, which the logicians called supposition.</p>`,
   src: `Donatus, <i>Ars maior</i> III.6; Quintilian, <i>Institutio oratoria</i> VIII.6.` }
 
