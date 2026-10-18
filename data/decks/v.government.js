@@ -12,14 +12,14 @@ ARS.decks['v.government'] = {
 
 { id: 'what-government',
   title: 'What is government?',
-  body: `<p>We have seen that in agreement two words share an accident. In <strong>government</strong> (Latin <i>regimen</i>, “ruling”) one word requires another word to be in a particular case, which the first word does not itself have. The verb <i>amat</i> (“he loves”) has no case, but it requires its object to be in the accusative: <i>puellam amat</i>, “he loves the girl.” So the verb is said to <strong>govern</strong> the accusative.</p>
+  body: `<p>We have seen that in agreement two words share an accident. In <strong>government</strong> (Latin <i>regimen</i>, “ruling”) one word requires another word to be in a particular case, which the first word does not itself have. The verb <i>dūcit</i> (“he leads”) has no case, but it requires its object to be in the accusative: <i>legiōnem dūcit</i>, “he leads the legion.” So the verb is said to <strong>govern</strong> the accusative.</p>
 <p>The grammarians of the twelfth century, especially Peter Helias in his commentary on Priscian, made government one of the principal ideas of syntax. A word governs another, in their account, when it requires that word in a certain form in order to complete the construction (<i>Summa super Priscianum</i>). We have already seen the clearest case of government with the preposition, which governs a particular case in its noun.</p>`,
   src: `Peter Helias, <i>Summa super Priscianum</i>, in paraphrase; Priscian, <i>Institutiones grammaticae</i> XVIII.` },
 
 { id: 'accusative',
   title: 'Verbs that govern the accusative',
-  body: `<p>When we say “He reads the book,” the action of reading falls on the book, and the sentence would be incomplete without it. Most Latin transitive verbs govern the accusative of the <strong>direct object</strong>, the person or thing on which the action falls: <i>puellam amat</i>, “he loves the girl”; <i>librum legit</i>, “he reads the book”; <i>urbem cēpērunt</i>, “they captured the city.” We saw in Section III that a verb that takes a direct object is called transitive, because its action passes over to the object.</p>
-<p>English shows the same government by the position of the object after the verb, and in pronouns by the objective case: “He loves her,” not “He loves she.” Some Latin verbs govern two accusatives, one of the person and one of the thing: <i>puerōs grammaticam docet</i>, “he teaches the boys grammar.” English “teach” takes two objects in the same way.</p>`,
+  body: `<p>When we say “She paints the fence,” the action of painting falls on the fence, and the sentence would be incomplete without it. Most Latin transitive verbs govern the accusative of the <strong>direct object</strong>, the person or thing on which the action falls: <i>mūrum aedificat</i>, “he builds the wall”; <i>carmen canit</i>, “he sings a song”; <i>urbem cēpērunt</i>, “they captured the city.” We saw in Section III that a verb that takes a direct object is called transitive, because its action passes over to the object.</p>
+<p>English shows the same government by the position of the object after the verb, and in pronouns by the objective case: “He met her,” not “He met she.” Some Latin verbs govern two accusatives, one of the person and one of the thing: <i>puerōs grammaticam docet</i>, “he teaches the boys grammar.” English “teach” takes two objects in the same way.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 386–396.` },
 
 { id: 'other-cases',
@@ -52,14 +52,14 @@ ARS.decks['v.government'] = {
 
 { id: 'governed-governing',
   title: 'The governing word and the governed',
-  body: `<p>In every case of government there is a <strong>governing</strong> word and a <strong>governed</strong> word. In <i>puellam amat</i>, <i>amat</i> governs and <i>puellam</i> is governed; in <i>ad urbem</i>, <i>ad</i> governs and <i>urbem</i> is governed; in <i>plēnus aquae</i>, <i>plēnus</i> governs and <i>aquae</i> is governed. The governing word is the one whose meaning requires completion, and the governed word supplies it in the required form.</p>
-<p>A sentence usually contains several relations of government at once. In <i>puer librum ad magistrum portat</i>, “the boy carries the book to the teacher,” <i>portat</i> governs <i>librum</i> in the accusative, and <i>ad</i> governs <i>magistrum</i> in the accusative. To analyze a sentence is in part to find each governing word and what it governs.</p>`,
+  body: `<p>In every case of government there is a <strong>governing</strong> word and a <strong>governed</strong> word. In <i>legiōnem dūcit</i>, <i>dūcit</i> governs and <i>legiōnem</i> is governed; in <i>ad urbem</i>, <i>ad</i> governs and <i>urbem</i> is governed; in <i>perītus bellī</i> (“skilled in war”), <i>perītus</i> governs and <i>bellī</i> is governed. The governing word is the one whose meaning requires completion, and the governed word supplies it in the required form.</p>
+<p>A sentence usually contains several relations of government at once. In <i>nūntius epistulam ad rēgem fert</i>, “the messenger carries the letter to the king,” <i>fert</i> governs <i>epistulam</i> in the accusative, and <i>ad</i> governs <i>rēgem</i> in the accusative. To analyze a sentence is in part to find each governing word and what it governs.</p>`,
   src: `Peter Helias, <i>Summa super Priscianum</i>; Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.` },
 
 { id: 'agreement-government',
   title: 'Agreement and government compared',
-  body: `<p>Agreement and government are the two principal relations of form between words, and they differ in a clear way. In agreement the two words share the same accident: <i>bonus nauta</i>, both masculine, singular, and nominative. In government one word requires in another an accident that it does not have itself: <i>amat</i> has no case, but it requires <i>puellam</i> in the accusative.</p>
-<p>So in <i>bonus puer librum legit</i>, “the good boy reads the book,” <i>bonus</i> agrees with <i>puer</i>, <i>legit</i> agrees with <i>puer</i> in person and number, and <i>legit</i> governs <i>librum</i> in the accusative. Both relations rest on a deeper one, the relation of dependence: in each pair, one word depends on the other.</p>`,
+  body: `<p>Agreement and government are the two principal relations of form between words, and they differ in a clear way. In agreement the two words share the same accident: <i>aurīga strēnuus</i>, both masculine, singular, and nominative. In government one word requires in another an accident that it does not have itself: <i>dūcit</i> has no case, but it requires <i>legiōnem</i> in the accusative.</p>
+<p>So in <i>fīdus servus portam claudit</i>, “the faithful slave closes the gate,” <i>fīdus</i> agrees with <i>servus</i>, <i>claudit</i> agrees with <i>servus</i> in person and number, and <i>claudit</i> governs <i>portam</i> in the accusative. Both relations rest on a deeper one, the relation of dependence: in each pair, one word depends on the other.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>; Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.`,
   qpTodo: `Analysis: in a given Latin sentence, name each relation of agreement and each of government, with the words involved.` }
 
