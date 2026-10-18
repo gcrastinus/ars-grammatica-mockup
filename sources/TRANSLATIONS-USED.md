@@ -265,3 +265,11 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Daiches, *The King James Version of the English Bible* (1941) | xi.traditions / hebraists | **unreachable**; "argued" kept | archive.org refused |
 
 **After Timothy's answers (17 Oct 2026, REVISION-GUIDE N):** vi.usage now says that Lowth allowed the final preposition in familiar style and preferred the other order only in the solemn style (from his well-known note on the relative; Lowth's text still **unreachable**, to be checked). Varro is cited by book only (*De lingua Latina* IX–X), so the section numbers no longer need checking. The reachable editions are the copy texts: *Logique* in the English translation of 1685, *Rasselas* in Morley's edition (1889).
+
+## Section II revision of 18 Oct 2026: translations added
+
+| Text | Where | Translation | Status |
+|---|---|---|---|
+| Caesar, *De bello Gallico* I.1 (*Gallia est omnis divisa in partes tres*) | ii.punctuation / why-punctuation | "All Gaul is divided into three parts" (W. A. McDevitte and W. S. Bohn, 1869) | standard rendering; **to be checked** word for word |
+| Ovid, *Metamorphoses* I.1 (*In nova fert animus mutatas dicere formas*) | ii.meter / caesura | "My mind is bent to tell of bodies changed into new forms" (F. J. Miller, Loeb, 1916) | from memory; **to be checked** word for word |
+| Shakespeare, Sonnet 129.1 | ii.meter / elision | English original ("Th' expense of spirit in a waste of shame") | modern spelling; the 1609 Quarto reads "Th'expence of Spirit in a waste of shame"; **to be checked** |
