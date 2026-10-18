@@ -644,3 +644,45 @@ No new translations. The English renderings of Donatus and Priscian that rule 27
 
 **iii.interjection**
 - "Bother, the bus has gone" (Section I has "Alas, the door is locked"); signification: "hooray," "bravo," "wow," "gosh"; vocative: *ei mihi!* ("ah me!") with the dative for *vae victīs*; the *Pro Archia* quotation keeps the Latin first because the card studies *ō* with the vocative (27b exception).
+
+## AF. Log: Sections IV and V card pass (18 Oct 2026, Claude; awaiting Timothy's reading)
+
+Same rules as AE: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries and Sections I–III, and earlier decks of IV–V); closing clauses toward the following card where they fit; expand only as clarity needs; rules 27a and 27b. Doctrine, citations, ids, and question points unchanged; the iv.etymology cratylus card untouched. One commit per deck; every changed file passed `node --check` and the load test. Four groups worked in parallel; afterward the lead removed the repeats they could not see in each other or in Section III: v.government *in urbem*/*in urbe* (iii.preposition) → *in castra*/*in castrīs*, "between you and I" (iii.preposition) → "for you and I" with *prō tē et mē*, *ad urbem* (iii.parts) → *ad portum*; v.dependence "She sat on the bench" (iii.preposition) → "She waited by the door," *in hortō* (iii.parts) → *in templō*; v.order "Strange it was" cut. No new translations; the new Latin sentences are composed teaching sentences, not quotations.
+
+**iv.derivation**
+- what-derivation opens from "neighborhood," "sweetness," "singer"; *rūs* → *rūsticus*; "unwise"; ends toward the Latin noun suffixes. latin-nouns "orator," "motion," "charity," "magnitude," *ōrātor*, *mōtiō*, *cāritās*, ends toward the adjectives; latin-adjectives *mīrābilis*, *argenteus*, *ligneus*, *urbānus*.
+- latin-verbs: Donatus's forms recalled; *ēsuriō* from *edō*, *dictitō* from *dīcō*, *senēscō* from *seneō*; denominatives from "butter," "shelve," *nūntiāre*, *sānāre*.
+- english-native and english-borrowed: "boldness," "fairness," "wisdom," "boyhood," "fellowship," "joyful/joyless," "sharpen," "baker," "farmer"; "boldness"/"audacity"; "creation," "purity," "joyous," "dangerous," "seasonal," "personal." conversion "hammer," "a throw," "to butter the bread"; analogy "sadness"/"sadity."
+
+**iv.composition**
+- figure-again and latin recall Section III without repeating its examples; weakened vowels *accipiō*, *retineō*, *incidō*; *armiger*; greek "microscope"; english "teapot," "doorknob," "sailboat," "bluebell," "hardware"; meaning "blackboard," "dragonfly," "pineapple," stress recalled ("WHITEboard"/"white BOARD"); together "unthinkable," *īnfēlīcitās*.
+
+**iv.etymology**
+- varro "nostril" ("nose-hole"); comparative *pēs*/"foot," *tenuis*/"thin"; cognate-borrowed "mother," *māter*, "maternal," *māternus*, "new"/*novus*, "mouth"/"oral," "eye"/"ocular," "heart"/"cardiac"; layers "bread," "wife," "sleep," "small," "formula," "spectrum," doublets "chance"/"cadence," "sure"/"secure"; cautions and oed "villain" (*villānus*), "sad" (once "satisfied," "weary") for "nice" and "silly" (Section I). Isidore's *rēx*/*regere* kept. The cratylus card untouched.
+**v.congruity**
+- construction "guard the sleeps" / "The guard sleeps" (the Preliminary "The sailor waits" replaced), "The green field"; priscian "the tired guard," "The guards sleeps," "syntax for the grammarians of the Middle Ages" (27a); congruity "brave soldier," *mīles audāx*, "Brave fights" / "The brave fight"; completeness "the old bridge," *sī custōs dormit*; three-judgments "The children plays," *līberī lūdit*, *līberī lūdunt*; suppositum "The shepherd guards the flock at night," *pāstor senex*; four-causes "The rain falls."
+
+**v.agreement**
+- what-agreement *vir prūdēns*, "Grammarians traditionally name" (27a); adjective-noun *parvus*, *parva*, *parvum*, *parva casa*, *parvae casae* (errors *parvus casa*, *parvī casa*); reason argued on *aurīga strēnuus*, *aurīgae strēnuī*, *aurīgam strēnuum* against feminine *fābula*, *aurīga vincit* / *aurīgae vincunt* (Section III now has *nauta*); verb-subject "the clock ticks" / "the clocks tick," *mercātor emit*, *mercātōrēs emunt*, *nox obscūra est*; relative *lēgātus quem laudāvimus*, *soror cui ānulum dedī*; "Each of the players is ready." KJV on the authors card kept.
+
+**v.government**
+- what-government *legiōnem dūcit*; accusative "She paints the fence," *mūrum aedificat*, *carmen canit*, "He met her"; governed-governing *perītus bellī*, *tabellārius epistulam ad rēgem fert*; agreement-government recalls *aurīga strēnuus*, *fīdus servus portam claudit*.
+
+**v.dependence**
+- dependence recalls Section III in general terms; tesniere "The farmer sold his neighbor a cow"; valency *pater fīliō librum dat*; marking "The clever hunter sees the wolf," *vēnātor callidus lupum videt*; prepositional "the lamp on the table"; together *gladiātor validus clipeum gerit*. Thomas of Erfurt's own examples kept.
+**v.order**
+- emphasis opens from English ("This book I will keep") before *Galliam Caesar vīcit*; english-fixed recalls Section I's teaching on arrangement and on "only" without citing an exercise sentence; construing opens from a beginner rearranging a Latin line, "In the medieval and later schools" → "For many centuries grammarians taught…" (27a); typology-1 opens from "The fox sees the hen," *vulpēs gallīnam videt*, and Welsh verb-first order before Greenberg.
+
+**v.phrase**
+- what-phrase "The cottage by the river is old" / "The cottage that stands by the river is old"; form-function "The bench near the gate is broken," "We waited near the gate"; prepositional *saxō*; infinitive *labōrāre necesse est*, *nāre discit*; appositive *Rōmulus, rēx, urbem condidit*, *Rōmulō rēgī dōnum dedit*; diagram "The light of the moon fell on the water."
+
+**v.clause**
+- subject-predicate "The bright stars of winter shine clearly," *ingēns turba forum complēvit*; patterns "The night grew cold"; adjective-clauses *liber quem lēgī* (the Johnson sentence left to its own card); adverb-clauses "We left when the rain stopped," *postquam hospitēs discessērunt*; kinds-of-sentence "When the sun rose, the birds began to sing"; diagram "The tree that fell in the storm blocked the road."
+**v.period**
+- what-period: the Greek name of the period recalled from Section II; members: colon and comma recalled from Section II (Latin *membrum*, *incīsum* kept), ends toward the rule that the members end with the sense; continuous-periodic: "the earliest Greek historians" (for "the old historians"), ends toward the members; cicero opens with why a real period is read.
+
+**v.mood**
+- intro: "the medieval schools" → "medieval grammarians" (27a); agent opens from "The wall was built by the soldiers," "The city was destroyed by fire," with *mūrus ā mīlitibus aedificātus est*; impersonal-passive *saltātum est*, "there was dancing"; infinitive *nāvigāre necesse est*, *natāre possum*, "She came to visit her mother"; independent-subjunctive *maneat*, *utinam redeat*.
+
+**v.figures**
+- ellipsis: "Some people prefer tea; others, coffee" (Bacon's sentence is in v.clause), ends toward zeugma; zeugma ends toward syllepsis.
