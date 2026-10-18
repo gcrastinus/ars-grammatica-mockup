@@ -378,7 +378,15 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .ex-typed.ex-block textarea{width:100%; min-height:88px; resize:vertical}
 .ex-typed textarea:focus,
 .ex-copy textarea:focus,
-.ex-analysis-row .answer-in:focus{outline:none; border-color:var(--gold)}
+.ex-analysis-row .answer-in:focus{border-color:var(--gold)}
+.ex-typed input.answer-in:focus-visible,
+.ex-typed textarea.answer-in:focus-visible,
+.ex-copy textarea.answer-in:focus-visible,
+.ex-analysis-row input.answer-in:focus-visible{
+  outline:2px solid var(--gold); outline-offset:2px;
+}
+.opts > .btn{align-self:flex-start}
+.ex-diff{background:var(--gold-soft); color:var(--ink); padding:0 .15em; border-radius:2px}
 .ex-arrows{display:flex; flex-direction:column; gap:6px; margin:10px 0}
 .ex-arrow{
   display:flex; align-items:center; justify-content:space-between; gap:10px;

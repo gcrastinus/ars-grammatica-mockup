@@ -9,23 +9,33 @@
    count     answer (number or string). accept or answers may add further answers.
              Trimmed. Case, curly quotes, and (when macrons is false) macrons are normalized.
              A whole number ignores leading zeros: "04" and 4 match.
+             Spaces inside the answer are kept, so "1 2" does not match 12.
    form      answer, or accept (string or list). answers is read when accept is absent.
-             Same normalization as count. Final punctuation is kept. Not treated as a number.
+             Same normalization as count. One trailing period is ignored. Any other final
+             punctuation is kept. Not treated as a number.
    divide    answer, the stored division, with hyphens. Same normalization, then hyphens and
              dashes are read as "-", and spaces around a hyphen are removed.
    transform accept, a short list (or one string). answer or answers is used when accept is absent.
-             Spacing, capitals, and final punctuation (.?!;:, and the ellipsis) are ignored.
+             Spacing, capitals, and final punctuation (.?!;:, and the ellipsis) are ignored,
+             including a final period inside a closing quotation mark.
    identify  tokens, answer (one index, or a list of indexes). Unchanged: one index is a single
              click; a list means every word asked for, then Check. Checked against that position.
    mark      tokens, analysis: a list of [from, to], indexes into tokens. from depends on to.
              The set of arrows must match, in any order.
-   analysis  tokens, analysis.parse (one string per token), analysis.arrows (pairs, as on mark).
-             Each parse is matched as a form is matched, and the arrows as a mark is matched.
+   analysis  tokens, analysis.parse (a string, or a list of accepted strings, for each token),
+             analysis.arrows (pairs, as on mark). The first word is the part of speech. The
+             accidents after it may stand in any order. Commas, extra spaces, and case are
+             ignored. The arrows are matched as a mark is matched.
    copy      text, the passage. Word for word: capitals, spelling, and punctuation must match.
-             Whitespace is collapsed, and curly quotes are read as straight quotes.
+             Whitespace is collapsed, curly quotes are read as straight quotes, and the text
+             is compared in Unicode NFC. Paste into the copy box is blocked.
    When accept is present it is the whole list; answer is not added to it.
-   Feedback for count, form, divide, transform, copy, mark, and analysis shows the student's
-   answer beside the correct one. identify keeps its present feedback.
+   Feedback for count, form, divide, transform, mark, and analysis shows the student's
+   answer beside the correct one. The correct column shows only the first accepted answer.
+   When another accepted answer still differs after normalization, "Also accepted:" lists it.
+   A wrong copy names the first word that differs, instead of both texts.
+   identify keeps its present feedback.
+   An item type with no renderer shows "This item type is not yet available."
    Hyphens and dashes are treated alike on count, form, divide, and transform, and accents
    other than macrons are ignored, as on the written count and divide items.
    Samples: test/typed-samples.js, not loaded by the course. */
@@ -197,7 +207,7 @@ function showExercisePlan(id, ex){
    answers (count, form, divide, transform, copy, mark, analysis) are drawn and graded here. An item may carry a
    "Why?" prompt with a model answer (no grading). */
 
-/* Normalization shared by count, form, divide, and transform. practice.js calls acceptedOf and gradeTypedAnswer. */
+/* Normalization shared by count, form, divide, and transform. The cumulative review calls acceptedOf. */
 function foldBase(s, item){
   let t = String(s == null ? '' : s);
   t = t.replace(/[\u2018\u2019\u201A\u201B]/g, "'").replace(/[\u201C\u201D\u201E\u201F]/g, '"');
@@ -214,18 +224,38 @@ function foldDivide(s, item){
   return foldBase(s, item).replace(/\s*-\s*/g, '-').replace(/-+/g, '-');
 }
 function foldTransform(s, item){
-  return foldBase(s, item).replace(/[\s.?!;:,…]+$/g, '').replace(/\s+/g, ' ').trim();
+  let t = foldBase(s, item);
+  let prev;
+  do {
+    prev = t;
+    t = t.replace(/[\s.?!;:,…]+(["']+)$/g, '$1');
+    t = t.replace(/[\s.?!;:,…]+$/g, '');
+  } while (t !== prev);
+  return t.replace(/\s+/g, ' ').trim();
 }
 function foldCount(s, item){
-  const t = foldBase(s, item).replace(/ /g, '');
+  const t = foldBase(s, item);
   if (/^[0-9]+$/.test(t)) return String(parseInt(t, 10));
   return t;
+}
+function foldForm(s, item){
+  return foldBase(s, item).replace(/\.$/, '');
 }
 function foldCopy(s){
   return String(s == null ? '' : s)
     .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
     .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
-    .replace(/\s+/g, ' ').trim();
+    .replace(/\s+/g, ' ')
+    .trim()
+    .normalize('NFC');
+}
+function foldOf(item){
+  const type = item && item.type;
+  if (type === 'count') return s => foldCount(s, item);
+  if (type === 'divide') return s => foldDivide(s, item);
+  if (type === 'transform') return s => foldTransform(s, item);
+  if (type === 'form') return s => foldForm(s, item);
+  return s => foldBase(s, item);
 }
 function acceptedOf(item){
   if (!item) return [];
@@ -240,14 +270,24 @@ function acceptedOf(item){
 function gradeTypedAnswer(item, given){
   const accepted = acceptedOf(item);
   if (!accepted.length) return false;
-  const type = item && item.type;
-  const fold = type === 'count' ? (s => foldCount(s, item))
-    : type === 'divide' ? (s => foldDivide(s, item))
-    : type === 'transform' ? (s => foldTransform(s, item))
-    : (s => foldBase(s, item));
+  const fold = foldOf(item);
   const g = fold(given);
   if (!g) return false;
   return accepted.some(a => fold(a) === g);
+}
+function alsoAccepted(item){
+  const accepted = acceptedOf(item);
+  if (accepted.length < 2) return [];
+  const fold = foldOf(item);
+  const seen = new Set([fold(accepted[0])]);
+  const out = [];
+  for (let i = 1; i < accepted.length; i++){
+    const f = fold(accepted[i]);
+    if (!f || seen.has(f)) continue;
+    seen.add(f);
+    out.push(accepted[i]);
+  }
+  return out;
 }
 function gradeCopyAnswer(item, given){
   const text = item && item.text || '';
@@ -274,20 +314,59 @@ function sameArrows(a, b){
 function gradeMarkAnswer(item, pairs){
   return sameArrows(item && item.analysis, pairs);
 }
+function parsesOf(slot){
+  if (Array.isArray(slot)) return slot.map(String);
+  if (slot == null || slot === '') return [];
+  return [String(slot)];
+}
+function foldParse(s, item){
+  const t = foldBase(s, item).replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
+  const parts = t.split(' ').filter(Boolean);
+  if (!parts.length) return '';
+  const rest = parts.slice(1).sort();
+  return parts[0] + (rest.length ? ' ' + rest.join(' ') : '');
+}
+function parseMatches(given, slot, item){
+  const g = foldParse(given, item);
+  if (!g) return false;
+  return parsesOf(slot).some(a => foldParse(a, item) === g);
+}
+function canonicalParse(slot){
+  const list = parsesOf(slot);
+  return list.length ? list[0] : '';
+}
 function gradeAnalysisAnswer(item, parses, pairs){
   const stored = (item && item.analysis) || {};
   const want = stored.parse || [];
   const tokens = (item && item.tokens) || [];
   if (want.length !== tokens.length || !parses || parses.length !== tokens.length) return false;
   for (let i = 0; i < want.length; i++){
-    if (foldBase(parses[i], item) !== foldBase(want[i], item)) return false;
+    if (!parseMatches(parses[i], want[i], item)) return false;
   }
   return sameArrows(stored.arrows, pairs);
+}
+function alsoAnalysis(item){
+  if (!item || item.type !== 'analysis' || !item.analysis) return [];
+  const tokens = item.tokens || [];
+  const parses = item.analysis.parse || [];
+  const out = [];
+  tokens.forEach((t, i) => {
+    const alts = parsesOf(parses[i]);
+    if (alts.length < 2) return;
+    const seen = new Set([foldParse(alts[0], item)]);
+    alts.slice(1).forEach(a => {
+      const f = foldParse(a, item);
+      if (!f || seen.has(f)) return;
+      seen.add(f);
+      out.push(plainToken(t) + ': ' + a);
+    });
+  });
+  return out;
 }
 function plainToken(t){
   const d = document.createElement('div');
   d.innerHTML = String(t == null ? '' : t);
-  return d.textContent || '';
+  return (d.textContent || '').replace(/[.?!;:,…]+$/g, '');
 }
 function arrowLines(tokens, pairs){
   return (Array.isArray(pairs) ? pairs : []).map(p => Array.isArray(p) ? p : [p && p.from, p && p.to])
@@ -297,7 +376,7 @@ function arrowLines(tokens, pairs){
     .join('\n');
 }
 function analysisText(tokens, parses, pairs){
-  const lines = tokens.map((t, i) => plainToken(t) + ': ' + (parses && parses[i] != null ? parses[i] : ''));
+  const lines = tokens.map((t, i) => plainToken(t) + ': ' + canonicalParse(parses && parses[i]));
   const arrows = arrowLines(tokens, pairs);
   return lines.join('\n') + (arrows ? '\n' + arrows : '');
 }
@@ -328,12 +407,14 @@ function renderTypedItem(host, it, done){
     input.disabled = true;
     input.classList.add(ok ? 'right' : 'wrong');
     btn.disabled = true;
-    done(ok, given, acceptedOf(it).join('\n'));
+    done(ok, given, acceptedOf(it)[0] || '');
   };
   btn.addEventListener('click', submit);
-  if (input.tagName !== 'TEXTAREA'){
-    input.addEventListener('keydown', ev => { if (ev.key === 'Enter'){ ev.preventDefault(); submit(); } });
-  }
+  input.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' || ev.shiftKey) return;
+    ev.preventDefault();
+    submit();
+  });
   setTimeout(() => input.focus(), 0);
 }
 function renderCopyItem(host, it, done){
@@ -363,11 +444,27 @@ function renderCopyItem(host, it, done){
     done(ok, given, it.text || '');
   };
   btn.addEventListener('click', submit);
+  input.addEventListener('paste', ev => ev.preventDefault());
+  input.addEventListener('keydown', ev => {
+    if (ev.key === 'Enter' && (ev.ctrlKey || ev.metaKey)){ ev.preventDefault(); submit(); }
+  });
   setTimeout(() => input.focus(), 0);
+}
+function copyDiffHtml(given, passage){
+  const gw = foldCopy(given).split(' ').filter(Boolean);
+  const ww = foldCopy(passage).split(' ').filter(Boolean);
+  let i = 0;
+  while (i < gw.length && i < ww.length && gw[i] === ww[i]) i++;
+  const mine = i < gw.length ? gw[i] : '';
+  const want = i < ww.length ? ww[i] : '';
+  if (mine && want) return `The first word that differs is <mark class="ex-diff">“${esc(mine)}”</mark>. The passage has “${esc(want)}”.`;
+  if (want) return `The copy ends before <mark class="ex-diff">“${esc(want)}”</mark>.`;
+  if (mine) return `The first word that differs is <mark class="ex-diff">“${esc(mine)}”</mark>. The passage ends before that word.`;
+  return '';
 }
 function renderArrowMarker(host, tokens){
   const hint = document.createElement('p'); hint.className = 'ex-hint';
-  hint.textContent = 'The first word clicked is the word that depends, and the second is the word it depends on.';
+  hint.textContent = 'Click the word that depends, then the word it depends on; each pair of clicks draws one arrow. Press Check when every dependence is marked.';
   const row = document.createElement('div'); row.className = 'ex-tokens';
   const list = document.createElement('div'); list.className = 'ex-arrows';
   const pairs = [];
@@ -432,9 +529,16 @@ function renderMarkItem(host, it, done){
     btn.disabled = true;
     done(ok, arrowLines(tokens, marks.pairs), arrowLines(tokens, it.analysis));
   });
+  setTimeout(() => {
+    const first = host.querySelector('.ex-token');
+    if (first) first.focus();
+  }, 0);
 }
 function renderAnalysisItem(host, it, done){
   const tokens = it.tokens || [];
+  const hint = document.createElement('p'); hint.className = 'ex-hint';
+  hint.textContent = 'Type the part of speech, then its accidents, separated by commas (e.g., noun, plural).';
+  host.appendChild(hint);
   const rows = document.createElement('div'); rows.className = 'ex-analysis';
   const inputs = [];
   tokens.forEach(t => {
@@ -459,12 +563,13 @@ function renderAnalysisItem(host, it, done){
     const want = (it.analysis && it.analysis.parse) || [];
     inputs.forEach((el, i) => {
       el.disabled = true;
-      el.classList.add(foldBase(el.value, it) === foldBase(want[i], it) ? 'right' : 'wrong');
+      el.classList.add(parseMatches(el.value, want[i], it) ? 'right' : 'wrong');
     });
     marks.lock(it.analysis && it.analysis.arrows);
     btn.disabled = true;
     done(ok, analysisText(tokens, parses, marks.pairs), analysisText(tokens, want, it.analysis && it.analysis.arrows));
   });
+  setTimeout(() => { if (inputs[0]) inputs[0].focus(); }, 0);
 }
 let run = null;   // { ex, set, queue, n, k, first: {id: right?}, retried: {id:true} }
 function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
@@ -583,8 +688,11 @@ function renderItem(){
     renderMarkItem(opts, it, done);
   } else if (it.type === 'analysis'){
     renderAnalysisItem(opts, it, done);
-  } else if (ARS.renderTyped){
-    ARS.renderTyped(opts, it, done);
+  } else {
+    const note = document.createElement('p');
+    note.className = 'ex-hint';
+    note.textContent = 'This item type is not yet available.';
+    opts.appendChild(note);
   }
   body.appendChild(box);
 }
@@ -601,14 +709,20 @@ function finishItem(box, it, ok, given, right){
     }
     if (!run.retried[it.id]){ run.retried[it.id] = true; run.queue.push(it); }
   }
-  const beside = !!BESIDE[it.type];
+  const copyWrong = it.type === 'copy' && !ok;
+  const beside = !!BESIDE[it.type] && !copyWrong;
   const compare = beside
     ? `<div class="ex-compare"><div class="ex-compare-col"><span class="ex-compare-h">Your answer</span><div class="ex-compare-body">${esc(given == null ? '' : given)}</div></div><div class="ex-compare-col"><span class="ex-compare-h">The correct answer</span><div class="ex-compare-body">${esc(right == null ? '' : right)}</div></div></div>`
     : '';
-  const mine = !beside && given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
+  const diff = copyWrong ? copyDiffHtml(given, it.text || '') : '';
+  const extras = it.type === 'analysis' ? alsoAnalysis(it) : alsoAccepted(it);
+  let alsoBody = extras.map(a => esc(a)).join('; ');
+  if (alsoBody && !/[.?!]$/.test(alsoBody)) alsoBody += '.';
+  const alsoHtml = alsoBody ? `<span class="also">Also accepted: ${alsoBody}</span>` : '';
+  const mine = !beside && !copyWrong && given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
   const fb = box.querySelector('.fb');
   fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
-    compare + (ok ? mine : (beside ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
+    compare + (diff ? diff + '<br>' : '') + alsoHtml + (ok ? mine : (beside || copyWrong ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
     (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
       <div><button class="btn" type="button" data-act="model">Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
     `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;

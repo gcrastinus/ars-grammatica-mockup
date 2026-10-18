@@ -1,5 +1,5 @@
 'use strict';
-/* Cumulative review, Leitner boxes, and typed answers (ITEM-LIST.md rules 8, 8a, and 11;
+/* Cumulative review and Leitner boxes (ITEM-LIST.md rules 8, 8a, and 11;
    EXERCISES-PLAN.md, build list 2–4). Written sets and section reviews run in course.js (runEx).
 
    Progress stays in the course record (localStorage key ars-grammatica-course-v2):
@@ -13,9 +13,9 @@
    is treated as box 1 at the moment it is answered, so a miss is due in 1 day and a
    success in 3. The second try at the end of a sitting does not change the box.
 
-   Typed answers are drawn and graded in course.js (runEx). gradeTyped and acceptList
-   below delegate to gradeTypedAnswer and acceptedOf, so a cumulative-review item uses
-   the same check. The local copies remain only if those functions are missing.
+   Drawing and grading live only in course.js. This file chooses which items can enter a
+   sitting and copies the fields the runner reads. acceptList asks acceptedOf whether a
+   count, form, divide, or transform item has an answer.
 */
 (function () {
   const root = typeof window !== 'undefined' ? window : globalThis;
@@ -24,58 +24,10 @@
   const REVIEW_BOX_DAYS = [1, 3, 7, 14, 30];
   const REVIEW_SITTING = 20;
   const DAY_MS = 24 * 60 * 60 * 1000;
-  const TYPED = { count: 1, form: 1, divide: 1, transform: 1 };
 
   function acceptList(item){
     if (typeof acceptedOf === 'function') return acceptedOf(item);
-    if (!item) return [];
-    if (Array.isArray(item.accept)) return item.accept.map(String);
-    if (typeof item.accept === 'string' && item.accept) return [item.accept];
-    if (Array.isArray(item.answers)) return item.answers.map(String);
-    if (typeof item.answer === 'string' && item.answer) return [item.answer];
-    if (item.type === 'count' && typeof item.answer === 'number' && isFinite(item.answer)) return [String(item.answer)];
     return [];
-  }
-
-  function baseFold(s, item){
-    let t = String(s == null ? '' : s);
-    t = t.replace(/[\u2018\u2019\u201A\u201B]/g, "'").replace(/[\u201C\u201D\u201E\u201F]/g, '"');
-    t = t.replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/g, '-');
-    t = t.replace(/\s+/g, ' ').trim().toLowerCase();
-    if (item && item.macrons === false){
-      t = t.replace(/[āēīōūȳ]/g, ch => ({ 'ā':'a', 'ē':'e', 'ī':'i', 'ō':'o', 'ū':'u', 'ȳ':'y' }[ch]));
-      t = t.normalize('NFD').replace(/\u0304/g, '');
-    }
-    t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' ? m : '')).normalize('NFC');
-    return t;
-  }
-
-  function foldDivide(s, item){
-    return baseFold(s, item).replace(/\s*-\s*/g, '-').replace(/-+/g, '-');
-  }
-
-  function foldTransform(s, item){
-    return baseFold(s, item).replace(/[\s.?!;:,]+$/g, '').replace(/\s+/g, ' ').trim();
-  }
-
-  function foldCount(s){
-    const t = String(s == null ? '' : s).trim().replace(/\s+/g, '');
-    if (/^[0-9]+$/.test(t)) return String(parseInt(t, 10));
-    return t.toLowerCase();
-  }
-
-  function gradeTyped(item, given){
-    if (typeof gradeTypedAnswer === 'function') return gradeTypedAnswer(item, given);
-    const accepted = acceptList(item);
-    if (!accepted.length) return false;
-    const type = item && item.type;
-    const fold = type === 'count' ? foldCount
-      : type === 'divide' ? (s => foldDivide(s, item))
-      : type === 'transform' ? (s => foldTransform(s, item))
-      : (s => baseFold(s, item));
-    const g = fold(given);
-    if (!g) return false;
-    return accepted.some(a => fold(a) === g);
   }
 
   function itemPlayable(it){
@@ -84,7 +36,25 @@
     if (type === 'mc' || type === 'mc-marked' || type === 'passage-mc'){
       return Array.isArray(it.options) && it.options.length > 1 && typeof it.answer === 'number';
     }
-    if (TYPED[type]) return acceptList(it).length > 0;
+    if (type === 'count' || type === 'form' || type === 'divide' || type === 'transform') return acceptList(it).length > 0;
+    if (type === 'identify'){
+      return Array.isArray(it.tokens) && it.tokens.length > 0 &&
+        (typeof it.answer === 'number' || (Array.isArray(it.answer) && it.answer.length > 0));
+    }
+    if (type === 'sort'){
+      return Array.isArray(it.entries) && it.entries.length > 0 &&
+        Array.isArray(it.bins) && it.bins.length > 1 &&
+        Array.isArray(it.answer) && it.answer.length === it.entries.length;
+    }
+    if (type === 'mark'){
+      return Array.isArray(it.tokens) && it.tokens.length > 0 && Array.isArray(it.analysis) && it.analysis.length > 0;
+    }
+    if (type === 'analysis'){
+      const a = it.analysis;
+      return Array.isArray(it.tokens) && it.tokens.length > 0 && !!a &&
+        Array.isArray(a.parse) && a.parse.length === it.tokens.length && Array.isArray(a.arrows);
+    }
+    if (type === 'copy') return typeof it.text === 'string' && !!it.text.trim();
     return false;
   }
 
@@ -170,7 +140,6 @@
 
   ARS.REVIEW_BOX_DAYS = REVIEW_BOX_DAYS;
   ARS.REVIEW_SITTING = REVIEW_SITTING;
-  ARS.gradeTyped = gradeTyped;
   ARS.scheduleReview = scheduleReview;
   ARS.buildReviewSitting = buildReviewSitting;
   ARS.cumulativeRangeLabel = cumulativeRangeLabel;
@@ -274,7 +243,13 @@
       accept: it.accept,
       answers: it.answers,
       macrons: it.macrons,
-      explain: it.explain || ''
+      explain: it.explain || '',
+      tokens: it.tokens,
+      text: it.text,
+      analysis: it.analysis,
+      why: it.why,
+      entries: it.entries,
+      bins: it.bins
     };
   }
 
@@ -290,40 +265,6 @@
     save();
     if (typeof root.renderReviewNotice === 'function') root.renderReviewNotice();
   };
-
-  /* The course runner calls this for a count, form, divide, or transform item. */
-  function renderTyped(host, item, done){
-    const row = document.createElement('div');
-    row.className = 'ex-typed';
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.className = 'answer-in';
-    input.setAttribute('aria-label', 'Answer');
-    input.autocomplete = 'off';
-    input.spellcheck = false;
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'btn primary';
-    btn.textContent = 'Check';
-    row.appendChild(input);
-    row.appendChild(btn);
-    host.appendChild(row);
-    const submit = () => {
-      const given = input.value;
-      if (!String(given).trim()) return;
-      const correct = gradeTyped(item, given);
-      input.disabled = true;
-      input.classList.add(correct ? 'right' : 'wrong');
-      btn.disabled = true;
-      done(correct, given, acceptList(item)[0] || '');
-    };
-    btn.addEventListener('click', submit);
-    input.addEventListener('keydown', ev => {
-      if (ev.key === 'Enter'){ ev.preventDefault(); submit(); }
-    });
-    setTimeout(() => input.focus(), 0);
-  }
-  root.ARS.renderTyped = renderTyped;
 
   function rangeSections(sectionId){
     const out = [];

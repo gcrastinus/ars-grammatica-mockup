@@ -26,7 +26,7 @@ Each file holds the plan and the stubs:
 | `instr` | the instruction line shown to the student (TODO) |
 | `items` | the stubs |
 
-Each stub has `id`, `set`, `deck`, usually `card` (the card it draws on), `type`, sometimes `group`, `lang` (`en` or `la`), or `trope`, and `todo: true`. When an item is written, `todo` is removed and the fields of the Section I draft are added: `prompt`, `options` (four, written in a fixed order but shown shuffled on each visit, with the answer key following the option, not the position), `answer` (0-based), and `explain` (full sentences, shown after "Correct" or "Incorrect," rule 11). Passage stubs (IX.2) hold five question stubs each, tagged reading, explaining, or judging; Imitation stubs hold the passage, its selection, its copy text, and its word count from ITEM-LIST.md.
+Each stub has `id`, `set`, `deck`, usually `card` (the card it draws on), `type`, sometimes `group`, `lang` (`en` or `la`), or `trope`, and `todo: true`. When an item is written, `todo` is removed and the fields of the Section I draft are added: `prompt`, `options` (four, written in a fixed order but shown shuffled on each visit, with the answer key following the option, not the position), `answer` (0-based), and `explain` (full sentences, shown after "Correct" or "Incorrect," rule 11). Passage stubs (IX.2) hold five question stubs each, tagged reading, explaining, or judging; Imitation stubs hold the work, the selection, the source note (`src`), and the word count from ITEM-LIST.md. The passage itself is the field `text`.
 
 ## Item types
 
@@ -50,20 +50,20 @@ Question points are multiple choice. A written exercise or review is drawn by `r
 
 `runEx` draws every type below. One sample of each type is in `test/typed-samples.js`. That file is not listed in `data/exercises/index.js`, and the course does not load it.
 
-Every item has `id`, `set`, `type`, `prompt`, and `explain`. It may have `why`, with `prompt` and `model`. The renderer supplies “Correct” or “Incorrect.” For count, form, divide, transform, copy, mark, and analysis it also shows the student’s answer beside the correct one. An identify item keeps its present feedback.
+Every item has `id`, `set`, `type`, `prompt`, and `explain`. It may have `why`, with `prompt` and `model`. The renderer supplies “Correct” or “Incorrect.” For count, form, divide, transform, mark, and analysis it also shows the student’s answer beside the correct one. The correct column shows only the first accepted answer (`accept[0]`, or the first parse in a list). When another accepted answer still differs after normalization, a line below reads “Also accepted:”. A wrong copy does not show the two texts: it marks the first word that differs. An identify item keeps its present feedback. An item type with no renderer shows “This item type is not yet available.”
 
-`macrons: false` on a count, form, divide, or analysis item means macrons are not tested. Otherwise a macron must be typed. Other accents are ignored. Curly quotes are read as straight quotes. Surrounding and repeated spaces are collapsed. Case is ignored, except in a copy. Hyphens and dashes are treated alike on count, form, divide, and transform. When `accept` is present it is the whole list, and `answer` is not added to it.
+`macrons: false` on a count, form, divide, or analysis item means macrons are not tested. Otherwise a macron must be typed. Other accents are ignored. Curly quotes are read as straight quotes. Surrounding and repeated spaces are collapsed. Case is ignored, except in a copy. Hyphens and dashes are treated alike on count, form, divide, and transform. When `accept` is present it is the whole list, and `answer` is not added to it. A copy is compared in Unicode NFC, and paste into the copy box is blocked.
 
 | Type | Fields the checker reads | How it is compared |
 |---|---|---|
-| count (`count`) | `answer` (a number or a string). `accept` or `answers` may give further answers | exact, after the normalization above. A whole number ignores leading zeros, so `04` and `4` match |
-| give the form (`form`) | `answer`, or `accept` (a string or a list). `answers` is read when `accept` is absent | exact, after the same normalization. Final punctuation is kept. A form is not read as a number |
+| count (`count`) | `answer` (a number or a string). `accept` or `answers` may give further answers | exact, after the normalization above. A whole number ignores leading zeros, so `04` and `4` match. Spaces inside the answer are kept, so `1 2` does not match `12` |
+| give the form (`form`) | `answer`, or `accept` (a string or a list). `answers` is read when `accept` is absent | exact, after the same normalization. One trailing period is ignored. Any other final punctuation is kept. A form is not read as a number |
 | divide into syllables (`divide`) | `answer`, the division, with hyphens | the same normalization, and spaces around a hyphen are removed |
-| rewrite (`transform`) | `accept`, a short list, or one string. A single `answer`, or `answers`, is used when `accept` is absent | spacing, capitals, and final punctuation (`.?!;:,` and the ellipsis) are ignored |
+| rewrite (`transform`) | `accept`, a short list, or one string. A single `answer`, or `answers`, is used when `accept` is absent | spacing, capitals, and final punctuation (`.?!;:,` and the ellipsis) are ignored, including a final period inside a closing quotation mark |
 | identify in the text (`identify`) | `tokens`; `answer` is one index, or a list of indexes | the stored position. One index is a single click. A list means every word asked for, then Check. This behavior is unchanged |
 | mark the dependences (`mark`) | `tokens`; `analysis`, a list of `[from, to]`, indexes into `tokens`. `from` is the word that depends, and `to` is the word it depends on | the set of arrows, in any order |
-| parse and construe (`analysis`) | `tokens`; `analysis.parse`, one string for each token; `analysis.arrows`, the same pairs as on a mark item | each parse is matched as a form is matched, and the arrows as a mark is matched |
-| copy word for word (`copy`) | `text`, the passage | word for word. Capitals, spelling, and punctuation must match. Whitespace is collapsed, and curly quotes are read as straight quotes |
+| parse and construe (`analysis`) | `tokens`; `analysis.parse`, a string or a list of accepted strings for each token; `analysis.arrows`, the same pairs as on a mark item | the first word is the part of speech. Commas, extra spaces, and case are ignored, and the accidents after the part of speech may stand in any order. The arrows are matched as a mark is matched |
+| copy word for word (`copy`) | `text`, the passage. A source note, when the passage is not yet entered, is `src` | word for word. Capitals, spelling, and punctuation must match. Whitespace is collapsed, curly quotes are read as straight quotes, and the text is compared in Unicode NFC. A wrong copy marks the first word that differs |
 
 ## The sets and reviews
 

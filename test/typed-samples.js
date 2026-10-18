@@ -13,7 +13,7 @@ ARS.exercises['typed-samples'] = {
   items: [
     {
       id: 'smp-count', set: 'A', type: 'count',
-      prompt: 'How many syllables does “basket” have?',
+      prompt: 'Type the number of syllables in “basket.”',
       answer: 2,
       explain: '“Basket” has two vowel sounds, one in “bas” and one in “ket,” so it has two syllables.'
     },
@@ -32,7 +32,7 @@ ARS.exercises['typed-samples'] = {
     {
       id: 'smp-transform', set: 'A', type: 'transform',
       prompt: 'Rewrite the sentence so that the verb agrees with its subject: “The flock of birds are loud.”',
-      accept: ['The flock of birds is loud.', 'The flock of birds is loud'],
+      accept: ['The flock of birds is loud.'],
       explain: 'The subject is “flock,” which is singular, so the verb is “is.” “Birds” is the object of the preposition “of” and does not govern the verb.'
     },
     {
@@ -51,9 +51,9 @@ ARS.exercises['typed-samples'] = {
     },
     {
       id: 'smp-analysis', set: 'A', type: 'analysis',
-      prompt: 'Parse each word, and mark every dependence, in “Birds fly.”',
+      prompt: '“Birds fly.” Type the part of speech of each word, then its accidents, separated by commas, and mark every dependence.',
       tokens: ['Birds', 'fly.'],
-      analysis: { parse: ['noun, plural', 'verb, present'], arrows: [[1, 0]] },
+      analysis: { parse: ['noun, plural', ['verb, present', 'verb, present tense']], arrows: [[1, 0]] },
       explain: '“Birds” is a plural noun and the subject. “Fly” is a verb in the present tense, and it depends on its subject.'
     },
     {
