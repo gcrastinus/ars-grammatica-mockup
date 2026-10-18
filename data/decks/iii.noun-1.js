@@ -38,7 +38,7 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'adjective',
   title: 'The adjective under the noun',
-  body: `<p>We have seen that Donatus counts the adjective as a kind of noun. The Latin grammarians call it the <strong>noun adjective</strong> (<i>nōmen adiectīvum</i>, “the noun that is added”), because it is added to another noun to signify a quality or quantity of the thing that noun names. In <i>longa via</i> (“a long road”) the adjective <i>longa</i> is added to <i>via</i>, and in <i>novus ager</i> (“a new field”) the adjective <i>novus</i> is added to <i>ager</i>.</p>
+  body: `<p>We have seen that Donatus counts the adjective as a kind of noun. The Latin grammarians call it the <strong>noun adjective</strong> (<i>nōmen adiectīvum</i>, “the noun that is added”), because it is added to another noun to signify a quality or quantity of the thing that noun names. In <i>alta turris</i> (“a tall tower”) the adjective <i>alta</i> is added to <i>turris</i>, and in <i>novus ager</i> (“a new field”) the adjective <i>novus</i> is added to <i>ager</i>.</p>
 <p>The reason for counting it under the noun is that a Latin adjective has the accidents of the noun: it is declined for gender, number, and case, and it agrees with its noun in all three, as in <i>novus ager</i>, <i>nova via</i> (“a new road”), and <i>novum tēctum</i> (“a new roof”). English adjectives are not declined, and English grammars therefore count the adjective as a separate part of speech. In both languages, however, the adjective depends on a noun and tells what sort of thing the noun refers to. Because the adjective and the substantive are so close, each can sometimes take the other’s place.</p>`,
   src: `Donatus, <i>Ars maior</i> II; Priscian, <i>Institutiones grammaticae</i> II, in paraphrase.` },
 
@@ -70,7 +70,7 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'which-compared',
   title: 'Which nouns admit comparison?',
-  body: `<p>One man can be more learned than another, but one tree is not more a tree than another. So not every noun can be compared. A substantive such as <i>arbor</i> (“tree”) cannot be compared, whereas adjectives such as <i>doctus</i> (“learned”), <i>longus</i> (“long”), and <i>magnus</i> (“great”) can, because they signify something that can be more or less. Donatus says that only appellative nouns that signify quality or quantity are compared (<i>Ars minor</i>).</p>
+  body: `<p>One man can be more learned than another, but one oak is not more an oak than another. So not every noun can be compared. A substantive such as <i>quercus</i> (“oak”) cannot be compared, whereas adjectives such as <i>doctus</i> (“learned”), <i>longus</i> (“long”), and <i>magnus</i> (“great”) can, because they signify something that can be more or less. Donatus says that only appellative nouns that signify quality or quantity are compared (<i>Ars minor</i>).</p>
 <p>Some adjectives also do not admit comparison, because what they signify does not admit more or less: “dead,” “square,” “unique,” Latin <i>mortuus</i> (“dead”). We can say “more nearly square,” but in careful usage “more unique” is avoided. So comparison is an accident that belongs to the noun because of what the noun signifies, and we will see that the other accidents of the noun, gender, number, and case, belong to it for reasons of the same kind.</p>`,
   src: `Donatus, <i>Ars minor</i>, on comparison, in paraphrase.` }
 
