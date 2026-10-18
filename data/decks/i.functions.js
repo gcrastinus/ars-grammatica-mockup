@@ -27,7 +27,7 @@ ARS.decks['i.functions'] = {
       answer: 2,
       explain: `Only “The door is open” says that something is so, and so only it is true or false. The command, the question, and the wish are complete and meaningful sentences, but none of them says that something is or is not so.` },
     { prompt: `Aristotle says that a prayer is a sentence. Is it true or false?`,
-      options: [`True, if it is a good prayer`, `False, because it is not a statement`, `True or false, according to whether it is answered`, `Neither; it signifies, but it does not say that anything is or is not so`],
+      options: [`True, if it is a good prayer`, `False, because it is not a statement`, `True or false, according to whether it is answered`, `Neither; it asserts nothing`],
       answer: 3,
       explain: `“A prayer is a sentence, but is neither true nor false” (<i>De interpretatione</i> 4). It has meaning, but it does not assert anything, and only a statement has truth or falsity in it.` },
     { prompt: `What makes a sentence a statement?`,
