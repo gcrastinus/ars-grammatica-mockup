@@ -5,10 +5,10 @@
 The Preliminaries and all of Section I are finished in Timothy's hand. Sections II–XI exist as Claude's drafts. The work now goes in this order:
 
 1. **Revision pass over Sections II–XI**, card by card, to match the finished Preliminaries and Section I. **Read STYLE-GUIDE-CARDS.md first**: it consolidates every rule and gives before/after pairs from Timothy's edits; its first rule is realities first, then the principle, then the tradition. Then read the finished decks (`data/decks/prelim.*.js`, `data/decks/i.*.js`) in full.
-2. **Question points and exercises.** Write the `qpTodo` placeholders as question points (three variants each) and the exercise sets and section reviews (EXERCISES-PLAN.md, `data/exercises/`), after each deck's cards are revised, following STYLE-GUIDE-CARDS.md rule 28.
+2. **Question points and exercises.** Write the `qpTodo` placeholders as question points (three variants each) and the exercise sets and section reviews (EXERCISES-PLAN.md, `data/exercises/`), after each deck's cards are revised, following STYLE-GUIDE-CARDS.md rule 28. **Build the exercise machinery in the order of the prioritized build list in EXERCISES-PLAN.md** ("Build list (approved by Timothy, 17 Oct 2026)"): typed-answer renderers first; then the cumulative review (a "Cumulative Review" bar at the end of every Roman-numeral section, with spaced, due-item reminders on the homepage); re-asking missed items; option shuffling in exercise sets (already built for question points); exercise sets for Sections V and VI; the anchor texts; "why" prompts; easy-to-hard ordering; and recitation reminders.
 3. **Recitation Tablet**, after the decks are settled (ITEM-LIST.md, "Recitation Tablet"; section 11 below). Each deck gets a `recitation` outline once its cards are final.
 
-Where sections 1–10 below (written when Section I was first built) differ from STYLE-GUIDE-CARDS.md, the guide wins; in particular, lists are now written in prose, not as `<br>` lines.
+Where sections 1–10 below (written when Section I was first built) differ from STYLE-GUIDE-CARDS.md, the guide wins. In particular (Timothy, 17 Oct 2026): important lists that will come up again go on separate lines (`<br>` layout), passing lists are written in prose; no pointers within a deck ("the following cards," "the next two cards"); answer options are shuffled on each visit (built for question points in course.js; the key follows the option, not the position); and the Cratylus card in `iv.etymology` is **pending Timothy's own text**: do not change it in the pass.
 
 ### Prompt for the revision pass
 
@@ -124,7 +124,7 @@ Points to keep:
 - `sources` is deck-level, backbone sources only, shown on the first panel. Each panel's `src` is a short citation record for the card (the renderer does not show it as a per-panel source line); quotations are cited in the text itself.
 - Panel `id`s are short, stable, lowercase. Question point ids start with `q-`. `answer` is the 0-based index; vary the position of the correct option across variants.
 - Explanations begin with the content, not with "Correct" (the renderer adds "Correct"/"Incorrect").
-- Body HTML: `<p>` paragraphs; `<strong>` for a term at the point where it is defined; `<i>` for Latin and other foreign words and for titles; lists written in prose ("first, … second, …"; STYLE-GUIDE-CARDS.md rule 14); no `<ul>`; no example list at the bottom.
+- Body HTML: `<p>` paragraphs; `<strong>` for a term at the point where it is defined; `<i>` for Latin and other foreign words and for titles; important, recurring lists as a lead-in with a colon and `<br>` between items, passing lists in prose (STYLE-GUIDE-CARDS.md rule 14); no `<ul>`; no example list at the bottom.
 - Register the deck in data/structure.js by adding `built:true` to its item (the item and id already exist). Do not change ids, titles, or order in structure.js without Timothy's approval; if a title should change, propose it.
 - Exercise sets and section reviews: there is no finished model yet. Propose a data format in your report for the first one (items with `id`, `prompt`, `options`, `answer`, `explain`, and the set letter A/B/C), draft it in `data/exercises/<id>.js`, and keep it separate from the decks. If time is short, finish the decks of the section first and leave the set for the next round, saying so.
 
@@ -143,7 +143,8 @@ Points to keep:
 - American spelling (center, meter, color, license), except inside quotations.
 - Feedback words are "Correct" and "Incorrect."
 - An English word mentioned as a word takes double quotation marks ("thing"); a foreign word, or a foreign example sentence, is italic (*res*); English example sentences take double quotation marks.
-- Lists: written in prose with ordinals ("first, … second, …; and, finally, …"), complete, English term first with Latin in italic parentheses. No `<ul>`, and no new `<br>` lists (STYLE-GUIDE-CARDS.md rule 14).
+- Lists: an important list that will come up again goes on separate lines (lead-in ending with a colon, items as `<br>` lines, bold English term, Latin in italic parentheses); a passing list is written in prose with ordinals ("first, … second, …; and, finally, …"). No `<ul>` (STYLE-GUIDE-CARDS.md rule 14).
+- No pointers within a deck: no "the following cards," "the next two cards," "the last card" (STYLE-GUIDE-CARDS.md rule 7).
 - No technical terms before they are taught (A.7). In Section I no term from III or later is assumed (case, declension, mood) without a plain gloss, and exercise items test only I.1–I.6.
 - Examples go in the text, more than one when illustrating a kind (A.4); every foreign example is translated.
 - "Fault" and "office" only when reporting the ancients (A.1, A.2).
@@ -190,3 +191,4 @@ The Recitation Tablet is part of the app plan (full specification in ITEM-LIST.m
 1. Build it only after the decks are settled, starting with Section I.
 2. Each deck gets a deck-level `recitation` outline once its cards are final: the deck's order, every point of substance (definitions, distinctions, divisions, arguments, conclusions), no passing examples, quotations, or source notes, in the same textbook prose (STYLE-GUIDE-CARDS.md rule 29). Whole-section recitations combine the decks' outlines in course order.
 3. If a card changes after its recitation is written, update the recitation in the same commit.
+4. A few days after a student has recited a deck or a section, the homepage reminds him to recite it again (EXERCISES-PLAN.md, build list item 9).

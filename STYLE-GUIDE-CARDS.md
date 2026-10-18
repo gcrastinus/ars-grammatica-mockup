@@ -34,7 +34,7 @@ Timothy put two paragraphs in front of it. The first begins from the experience 
 >
 > "The question whether names signify by nature or by convention is one of the oldest questions in the study of language. In Plato's dialogue *Cratylus* …"
 
-The lesson: a traditional question opens from the realities that make the question pressing. The question is the same, but the student now sees why anyone would ask it. (The card's last paragraph, on languages differing and on imitative words such as "buzz," also gives the ordinary evidence for the answer.) Apply the same pattern to `iv.etymology` / `cratylus`, which at present opens "The oldest extended discussion of etymology is Plato's dialogue *Cratylus*…".
+The lesson: a traditional question opens from the realities that make the question pressing. The question is the same, but the student now sees why anyone would ask it. (The card's last paragraph, on languages differing and on imitative words such as "buzz," also gives the ordinary evidence for the answer.) **Pending:** `iv.etymology` / `cratylus` (which at present opens "The oldest extended discussion of etymology is Plato's dialogue *Cratylus*…") is not to be changed in the pass; Timothy will send his own text for it (17 Oct 2026).
 
 ### More pairs from Section I and the Preliminaries
 
@@ -74,7 +74,7 @@ Many cards still open with an authority, for example `ii.letter` (card on the La
 
 John of St. Thomas (John Poinsot) is a core source of the course's doctrine. Where a card rests on his doctrine (the sign, the concept as a formal sign, instrumental and formal signs, words signifying things through concepts), present and argue the thesis directly in plain textbook statements, drawing on his doctrine **without quoting him**, and bring in the authorities after. Timothy: "the first thing students read on this card [should be] a direct presentation of and argument for the thesis, not an authority" (REVISION-GUIDE M, I.1 card 5). Cards 5, 6, 7, and 9 of `i.sign` show the pattern: argument first (the photographs of the same thing; "man" signifies human nature as abstracted, which exists only in the mind; smoke first seen, the concept not first known), Aristotle, St. Thomas, or John of St. Thomas last.
 
-Two notes. First, a definition may still be quoted where Timothy chose to quote it (I.1 card 1 quotes John of St. Thomas's definition of the sign, in Deely's translation, after Augustine's). Second, the same order may suit other cards that open with an authority on a core doctrine, but do not apply it mechanically.
+Two notes. First, **quoting John of St. Thomas's definitions is fine** (Timothy, 17 Oct 2026), as on I.1 card 1, which quotes his definition of the sign, in Deely's translation, after Augustine's. The rule against quoting him concerns the argument for a thesis, not a definition. Second, the same order may suit other cards that open with an authority on a core doctrine, but do not apply it mechanically.
 
 ---
 
@@ -89,11 +89,12 @@ Two notes. First, a definition may still be quoted where Timothy chose to quote 
 
 ### Cross-references
 
-7. **Never write "the previous deck" or "the next deck"** (nor "the last card," "the last page," "this page and the two that follow"). Decks may be read in any order. Refer back generally or by part of the course:
+7. **Never write "the previous deck" or "the next deck," and never point to other cards within a deck** ("the following cards," "the next two cards," "the next card," "the last card," "the card before," "this page and the two that follow"). Pointers within a deck are not allowed (Timothy, 17 Oct 2026). Decks may be read in any order. Refer back generally or by part of the course; to announce what a deck will cover, state it without a pointer ("We take each part in turn"; "ambiguity has several causes: first, …"):
    - BEFORE: "In the previous deck we saw that the precepts of grammar are drawn from the usage of the authors…" AFTER: "We have seen that the precepts of grammar are drawn from the usage of the authors…" (P.4 card 1).
    - BEFORE: "How a sound comes to signify in this way is the question of imposition, which belongs to this section as well" AFTER: "…which we consider next in this section of the course" (I.1 card 10).
    - Good: "as we saw in the Preliminary section," "we will see in Section VIII," "as we have seen already," "earlier in this section."
-   (Two finished cards point within their own deck, "The next two cards take each part in turn" (P.3 card 1) and "which the following cards take up in turn" (I.6 card 1). Do not add more such pointers until Timothy rules on them; see the list at the end of the report.)
+   - BEFORE: "The next two cards take each part in turn." AFTER: "We take each part in turn." (P.3 card 1). BEFORE: "ambiguity has several causes, which the following cards take up in turn: first, …" AFTER: "ambiguity has several causes: first, …" (I.6 card 1).
+   - General forward and backward references that name no card are fine: "as we saw earlier," "is the next question," "must be considered next," "which we consider next in this section of the course."
 
 ### Sources, quotations, translators
 
@@ -124,7 +125,10 @@ Two notes. First, a definition may still be quoted where Timothy chose to quote 
 
 ### Lists
 
-14. **Lists are written in prose.** The app has no bullet lists, and `<ul>` is never used. Write the items in a sentence or paragraph with ordinals: "first, … second, … third, … and fourth, …" or "and, finally, …". This supersedes the older instruction (REVISION-GUIDE D, NEXT-STEP 4 and 6) to set list items on separate lines with `<br>`. Many drafts in II–XI still use `<br>` lists (e.g., `v.agreement` / `english-hard-cases`, `ii.punctuation`, `vi.metaplasm`); recast them in prose. (The stacked lists in three Preliminary cards were approved by Timothy earlier and stay until he says otherwise. Example sentences set out for comparison on separate lines, as in "Every horse runs." / "Some horse runs." on `i.syncategorematic` / `what-they-do`, are not lists in this sense.)
+14. **Two kinds of list (Timothy, 17 Oct 2026).** The app has no bullet lists, and `<ul>` is never used.
+   - **An important list that will come up again goes on separate lines**, in the existing `<br>` layout: a lead-in sentence ending with a colon, then one item per line, the English term in **bold** with the Latin in italic parentheses. Examples: the four tasks of the grammarian (P.2 card 2), the four criteria of correctness (P.4 card 1), the parts of the material of grammar (P.1). These three Preliminary cards stay as they are. Use this layout for divisions the course returns to, such as the parts of speech, the accidents, the kinds of error, the kinds of supposition, or the tropes.
+   - **A passing list that will not come up much again is written in prose**, with ordinals: "first, … second, … third, … and fourth, …" or "and, finally, …". Example: the four causes of ambiguity (I.6 card 1).
+   - In the drafts of II–XI, keep the `<br>` layout where the list is an important one that returns, and recast passing lists in prose. Example sentences set out for comparison on separate lines (as in "Every horse runs." / "Some horse runs." on `i.syncategorematic` / `what-they-do`) are not lists in this sense.
 15. **Timothy likes lists: give complete ones.** Where a card speaks of several kinds, causes, or functions, enumerate them all. Ambiguity card 1 gained: "Within these two sources, ambiguity has several causes …: first, one word imposed with more than one meaning; second, a construction in which a word can belong to more than one other word; third, letters that can be read as one word or as two; and fourth, writing that does not show how a word is pronounced." The functions card was made a complete list ("to state, to ask, to command, to pray, and to call someone, and any of these sentences can also express what the speaker feels"), and the same list was then made to match in the deck subtitle, `structure.js`, and `xi.modern`. When a list changes, update every place it appears.
 
 ### Contrast, qualification, and examples
@@ -151,8 +155,9 @@ Two notes. First, a definition may still be quoted where Timothy chose to quote 
 ### Question points (and, by the same rules, exercise items)
 
 28. **Question points must be fair.** Each variant has exactly one clearly correct option; the wrong options are plausible (they state a real confusion a student might have, or a true statement that does not answer the question) but are clearly wrong to a student who has understood the card.
-   - **The correct option must not stand out by length or hedging.** Timothy twice shortened a correct option that was longer and more qualified than the distractors: "Because it asks a different question: whether a word signifies something definite by itself" → "Because it asks whether a word signifies something definite by itself" (q-not-parts B); "Neither; it signifies, but it does not say that anything is or is not so" → "Neither; it asserts nothing" (q-statement B). In the present Preliminary and Section I items the correct option is the longest in about 56 percent of cases (49 of 87), against 25 percent by chance; even this out when writing.
-   - No trick wording, no "all of the above," no option that is right under a reading the card did not teach. Vary the position of the correct answer across the three variants and across the deck.
+   - **Options are shuffled on each visit** (Timothy, 17 Oct 2026; built in the question-point renderer of course.js, still to be built for exercise sets). The answer key is the index of the option in the data, so it follows the option, not its position on the screen. Therefore never write an option that depends on its position ("Both of the above," "A and C," "None of the others").
+   - **The correct option must not give itself away by length or hedging, but never at the cost of clarity.** Prefer shortening the correct option, or developing a distractor naturally into a real alternative; never pad wrong options, which makes questions confusing. Timothy twice shortened a correct option that was longer and more qualified than the distractors: "Because it asks a different question: whether a word signifies something definite by itself" → "Because it asks whether a word signifies something definite by itself" (q-not-parts B); "Neither; it signifies, but it does not say that anything is or is not so" → "Neither; it asserts nothing" (q-statement B). In the present Preliminary and Section I items the correct option is the longest in about 56 percent of cases (49 of 87), against 25 percent by chance; even this out with care when writing.
+   - No trick wording, no "all of the above," no option that is right under a reading the card did not teach. Vary the position of the correct answer in the data as well, so that the order still reads naturally if shuffling is ever turned off.
    - Test only what has been taught by that point (ITEM-LIST rule 4). Use the course's settled terms in options and explanations (e.g., "conventional sign," not "given sign"; "prays," not "wishes").
    - Explanations begin with the content, in full sentences; the renderer supplies "Correct" or "Incorrect." An explanation says why the right answer is right and, where useful, why the most tempting wrong option is wrong.
    - When a card's text changes, reread its question point and fix any option or explanation that no longer matches.
@@ -173,8 +178,8 @@ Two notes. First, a definition may still be quoted where Timothy chose to quote 
 1. Does the card (and, for the first card, the deck) open from an ordinary reality or English example, then state the principle, then bring in the authority? If not, is there a specific reason?
 2. Is every technical term glossed in place on first use, and every Latin or Greek term explained on the spot?
 3. American spelling; mentioned English words in double quotes; foreign words italic; bold at definitions kept.
-4. No "previous deck," "next deck," "last card." No translator named in the text (KJV included). No "in paraphrase" on a mere reference. No per-card sources line.
-5. Lists in prose, complete, and consistent with every other place the same list appears.
+4. No "previous deck," "next deck," and no pointer to other cards within a deck ("the following cards," "the next two cards," "the last card"). No translator named in the text (KJV included). No "in paraphrase" on a mere reference. No per-card sources line.
+5. Important, recurring lists on separate lines (`<br>`); passing lists in prose; every list complete and consistent with every other place it appears.
 6. "Whereas" for contrast; no absolute claim where a qualified one is true.
 7. More than one example for a kind, in English and Latin, explained far enough to show the point; not repeated from another card of the deck.
 8. A connecting first sentence and, where it fits, a closing sentence pointing to what remains.

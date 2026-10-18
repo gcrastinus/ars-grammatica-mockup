@@ -7,7 +7,7 @@ The changes from the mockup are these:
 - "The Reasons for the Parts" moves from VIII to III.2, right after the eight parts in general (III.1).
 - "Chreia and Maxim" becomes "Classical Composition Exercises" (all fourteen progymnasmata).
 - "Workshop and Marking" is kept as the marking drill on stored sentences, whose answers can be checked automatically; the Free Workshop is dropped.
-- Seven section reviews and three shared exercise buttons are added (see below).
+- Seven section reviews (twelve since 17 Oct 2026) and three shared exercise buttons are added (see below).
 - Section III is retitled "The Parts of Speech" (*De partibus orationis*), because no deck treats analogy and anomaly; the criteria of correctness, including analogy, are treated in P.4.
 - Section I is named "Sign and Significant Voice," the same name as its exercise set.
 - Greek, French, and German have no decks of their own. They appear only as examples where they show something English and Latin do not.
@@ -27,7 +27,7 @@ The changes from the mockup are these:
 
 **4. Exercises test only what has been taught.** Every exercise set and every section review uses only what the decks before it have taught. The limits for each set are given under the set. Question points obey the same rule.
 
-**5. Rotation of exercise sets.** Every exercise set holds three sittings' worth of items, divided into fixed sets A, B, and C, which are given in that order on successive visits (A, B, C, A, …) and never shuffled. Corpora (Literal and Figurative, Tropes, the analysis of sentences and of passages, the marking drill) rotate in the same way.
+**5. Rotation of exercise sets.** Every exercise set holds three sittings' worth of items, divided into fixed sets A, B, and C, which are given in that order on successive visits (A, B, C, A, …) and never reordered. Within an item, the answer options are shown in a shuffled order on each visit (Timothy, 17 Oct 2026); the answer key follows the option, not its position. Corpora (Literal and Figurative, Tropes, the analysis of sentences and of passages, the marking drill) rotate in the same way.
 
 **The one exception is Imitation (X.2):** it has ten fixed passages, taken in order from 1 to 10, and it is not divided into sets A, B, and C.
 
@@ -48,7 +48,7 @@ The changes from the mockup are these:
 - the Analysis of Sentences and Passages;
 - the marking drill (IX.3);
 - Imitation;
-- the seven section reviews.
+- the twelve section reviews (rule 8).
 
 No other live exercise survives as an exercise.
 
@@ -66,9 +66,12 @@ The decks these sets cover have no Exercise button of their own. A set that cove
 - Construction;
 - Word Formation and Etymology;
 - Errors;
-- Figures.
+- Figures;
+- and, added on Timothy's instruction (17 Oct 2026), Sign and Significant Voice (I), Signification and Supposition (VIII), Analysis (IX), Making (X), and Other Traditions and Modern Grammar (XI), so that every section has a review.
 
-Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. The exception is the review of Word Formation and Etymology, which is scaled to the size of IV (three decks, against four to ten in the other groups): it has 30 new questions in three fixed sets of 10. Successive visits give set A, then B, then C, then A again, never shuffled.
+Each review has 45 new questions, not reused from the question points, in three fixed sets of 15. The exception is the review of Word Formation and Etymology, which is scaled to the size of IV (three decks, against four to ten in the other groups): it has 30 new questions in three fixed sets of 10. The reviews of VIII and IX are scaled the same way (30 questions in three sets of 10). Successive visits give set A, then B, then C, then A again, never shuffled.
+
+**8a. Cumulative review (added 17 Oct 2026; spec only, not yet built).** At the end of every Roman-numeral section (after Section I, after II, … after XI), the homepage shows a full-width bar about half the height of a normal deck or section tile, labeled "Cumulative Review," with a second line giving its range from the beginning of the course through that section, e.g., "The Preliminary Section through Section III." It draws on everything from the beginning through that section (question-point variants and exercise and review items, interleaved), puts the student's due missed items first, and keeps a spaced schedule in localStorage, with a reminder on the homepage when items are due. Full specification: EXERCISES-PLAN.md, "Build list," item 2.
 
 **9. Translations.**
 - Every translation shown to the student is a real published one. The translator is recorded in `sources/TRANSLATIONS-USED.md`, not named in the app's text (except for long quoted passages and the translation section; see `CLAUDE.md`, "Translators").
@@ -688,21 +691,21 @@ Ascham's *Scholemaster* was written in English and needs no translator.
 | Section | Buttons | Panels | Question points | Question variants (×3) | Exercise items |
 |---|---|---|---|---|---|
 | Preliminary | 4 | 32 | 9 | 27 | 0 |
-| I | 6 + 1 shared set | 52 | 15 | 45 | 72 |
+| I | 6 + 1 shared set + 1 review | 52 | 15 | 45 | 117 |
 | II | 6 + 1 review | 63 | 18 | 54 | 141 |
 | III | 14 + 2 shared sets + 2 reviews | 135 | 38 | 114 | 360 |
 | IV | 3 + 1 review | 25 | 7 | 21 | 30 |
 | V | 10 + 1 review | 91 | 50 | 150 | 45 |
 | VI | 4 + 1 review | 30 | 8 | 24 | 45 |
 | VII | 3 + 1 review | 38 | 10 | 30 | 186 |
-| VIII | 2 | 31 | 9 | 27 | 45 |
-| IX | 3 | 8 | 0 | 0 | 171 |
-| X | 4 | 46 | 13 | 39 | 10 |
-| XI | 2 | 101 | 33 | 99 | 0 |
-| **Total** | **71** | **652** | **210** | **630** | **1,105** |
+| VIII | 2 + 1 review | 31 | 9 | 27 | 75 |
+| IX | 3 + 1 review | 8 | 0 | 0 | 201 |
+| X | 4 + 1 review | 46 | 13 | 39 | 55 |
+| XI | 2 + 1 review | 101 | 33 | 99 | 45 |
+| **Total** | **76** | **652** | **210** | **630** | **1,300** |
 
 How these were counted:
-- **Buttons:** the 61 mockup divisions, plus 3 shared exercise buttons, plus 7 section reviews. The Free Workshop was never a separate division, so dropping it does not change the count.
+- **Buttons:** the 61 mockup divisions, plus 3 shared exercise buttons, plus 12 section reviews (7 in the first plan, 5 added on 17 Oct 2026). The Free Workshop was never a separate division, so dropping it does not change the count.
 - **Exercise items:**
 
 | Set | Items |
@@ -724,10 +727,11 @@ How these were counted:
 | Analysis of Passages | 75 questions on 15 passages |
 | Marking | 36 |
 | Imitation | 10 passages |
-| Section reviews (6 × 45, plus 30 for IV) | 300 |
-| **Total** | **1,105** |
+| Section reviews (9 × 45, plus 30 each for IV, VIII, and IX) | 495 |
+| **Total** | **1,300** |
 
-- **Change in this revision:** the review of IV adds 1 button and 30 exercise items; panels and question points are unchanged.
+- **Change of 17 Oct 2026:** reviews added for I (45), VIII (30), IX (30), X (45), and XI (45): 5 buttons and 195 exercise items (1,105 → 1,300). The cumulative review bars (rule 8a) are not counted as buttons. Panel and question-point counts are the original estimates, not the drafted counts.
+- **Change in an earlier revision:** the review of IV adds 1 button and 30 exercise items; panels and question points are unchanged.
 - **Change from the first plan:** panels rose from 530 to 652. Most of the increase comes from the rule of three examples per point; the rest comes from the Latin pronunciation panels, the modistic closing panels, and the typology panels in V.5. XI is unchanged. Question variants rose from 380–570 to 630 at exactly three per point. Exercise items rose from 794 to 1,105, because of the seven section reviews (300). The rotation rule cut the analysis corpus from 150 items to 60 sentences and 15 passages.
 
 ## Overlap with Ars Rhetorica

@@ -8,6 +8,8 @@ The Preliminaries and all of Section I are finished in Timothy's hand and are th
 2. **Write the question points** (the `qpTodo` placeholders, three variants each) **and the exercise sets and section reviews** (EXERCISES-PLAN.md, `data/exercises/`), once each deck's cards are revised, so the questions match the final text.
 3. **Build the Recitation Tablet** (ITEM-LIST.md, "Recitation Tablet"), after the decks are settled. **Each deck gets a `recitation` outline (deck-level field) once its cards are final**, starting with Section I; whole-section recitations combine the decks' outlines in course order.
 
+Decisions of 17 Oct 2026 that are easy to miss (details in STYLE-GUIDE-CARDS.md): an important list that will come up again goes on separate lines (lead-in with a colon, `<br>` between items, bold English term); a passing list is written in prose ("first, … second, …"); never `<ul>`. No pointers within a deck ("the following cards," "the next two cards," "the last card"). Quoting John of St. Thomas's definitions is fine. The Cratylus card in iv.etymology is pending Timothy's own text; do not change it. Answer options are shuffled on each visit, so no option may depend on its position. The prioritized exercise build list is in EXERCISES-PLAN.md.
+
 Timothy does not read Claude's notes or logs. End every report with a short numbered list of the decisions that need him, each explained in context (deck, card, wording, options, recommendation).
 
 # Writing style for Ars Grammatica (Timothy Kearns)
