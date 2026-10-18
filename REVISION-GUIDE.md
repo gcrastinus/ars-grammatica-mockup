@@ -268,3 +268,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.syncategorematic, priscian: Timothy's revision (opens "The ancient grammarian Priscian reports"; "in paraphrase" dropped from the reference; second sense of "consignify" moved into a parenthesis in paragraph 1, marked "less common"; new closing sentence on the grammarians integrating the logicians' point).
 - 17 Oct 2026: i.syncategorematic, priscian: added closing paragraph "Let us consider syncategorematic words in some detail."
 - 17 Oct 2026: i.syncategorematic, what-they-do: added "(The examples given above are especially important for logic.)" after "…comes from the syncategorematic words."
+- 17 Oct 2026: i.syncategorematic, kinds: reordered to begin from realities (the four groups, each with an example of what the word does), a new paragraph on what they have in common, and William of Sherwood last.
