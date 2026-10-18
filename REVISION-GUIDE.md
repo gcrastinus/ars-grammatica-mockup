@@ -530,3 +530,4 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 ## Y. Log: What is recitation? (18 Oct 2026)
 
 - 18 Oct 2026: The sentence under the Recitation Tablet heading is now a panel headed "What is recitation?". It is open each time the tablet opens, and it can be closed while writing. The text is the account given on 18 Oct: read or study, then write from memory; choose the part just finished; then "See Full Recitation" and mark the outline. The wording is kept as given, including the quotation marks around "recitation".
+- 2026-10-18: Recitation icon restyled as fine line art: no filled frame or wax, thin soft-gold outlines, faint inner rule, corner mark hidden, slimmer stylus.
