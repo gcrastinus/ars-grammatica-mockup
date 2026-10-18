@@ -56,7 +56,7 @@ ARS.decks['iv.derivation'] = {
 
 { id: 'analogy',
   title: 'Derivation and analogy',
-  body: `<p>Derivation is one of the clearest examples of what the grammarians called analogy, the regular patterns by which words are formed. We saw in the Preliminary section that analogy supports reason, one of the four criteria of correct speech. Because suffixes have regular meanings, a speaker can form a new word and be understood: a person who first said “rewritable” or “unfriend” formed the word by existing patterns, and hearers understood it at once.</p>
+  body: `<p>Derivation is one of the clearest examples of what the grammarians called analogy, the regular patterns by which words are formed. We saw in the Preliminary section that analogy supports reason, one of the four criteria of correct speech. Because suffixes have regular meanings, a speaker can form a new word and be understood: the first speakers to say “drinkable” or “breakable” formed the word by an existing pattern, the suffix “-able,” and hearers understood it at once.</p>
 <p>The seventeenth-century Dutch scholar Gerard Vossius, in his <i>Aristarchus</i>, gathered the Latin patterns of derivation into a systematic order, so that the student could recognize the formation of words that he had not met before (<i>Aristarchus</i> IV). But analogy is limited by usage: “kindness” exists and “kindity” does not, although both would follow a pattern. So derivation is governed by both of the criteria we have seen, analogy and usage, and in Section VI we will see that a word formed against usage can be a barbarism.</p>`,
   src: `Vossius, <i>Aristarchus sive de arte grammatica</i> IV, in paraphrase.` }
 
