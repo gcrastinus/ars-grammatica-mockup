@@ -273,7 +273,7 @@ ARS.exercises['i.ex.sign'] = {
    "id": "sv-fun-2",
    "set": "A",
    "deck": "i.functions",
-   "prompt": "Which of these sentences is true or false?",
+   "prompt": "Which of these sentences can be true or false?",
    "options": [
     "“Is the gate closed?”",
     "“May the gate stay closed!”",
@@ -318,7 +318,7 @@ ARS.exercises['i.ex.sign'] = {
    "id": "sv-imp-2",
    "set": "A",
    "deck": "i.imposition",
-   "prompt": "In “‘Verb’ has four letters,” the word “verb” is used of what?",
+   "prompt": "In “‘Verb’ has four letters,” what does the word “verb” stand for?",
    "options": [
     "An action in the world",
     "A thing named by the first imposition",
@@ -326,7 +326,7 @@ ARS.exercises['i.ex.sign'] = {
     "The word “verb” itself, as a word"
    ],
    "answer": 3,
-   "explain": "The quotation marks show that “verb” is mentioned, not used: the sentence speaks about the word itself. Talking about words as words is the work of the second imposition, and it is marked in writing so that the reader can tell mention from use.",
+   "explain": "The quotation marks show that “verb” is mentioned, not used: the sentence speaks about the word itself, not about what it signifies. Any word can be mentioned in this way, as in “‘Rome’ has four letters”; the marks in writing let the reader tell mention from use.",
    "type": "mc"
   },
   {
@@ -334,7 +334,7 @@ ARS.exercises['i.ex.sign'] = {
    "set": "A",
    "deck": "i.consignification",
    "type": "sort",
-   "prompt": "Sort each word by the way it signifies.",
+   "prompt": "Sort each word by its mode of signifying: does it present the reality as a thing, as something happening, or as a quality of something else?",
    "entries": [
     "“joy” in “Joy filled the room”",
     "“rejoices” in “She rejoices”",
@@ -460,7 +460,7 @@ ARS.exercises['i.ex.sign'] = {
    "entries": [
     "“The bill was too large.”",
     "“I met the friend of my sister who lives in Rome.”",
-    "“The squash was bitter.”",
+    "“The bat was broken.”",
     "“They discussed the letter from the mayor at the meeting.”"
    ],
    "bins": [
@@ -473,7 +473,7 @@ ARS.exercises['i.ex.sign'] = {
     0,
     1
    ],
-   "explain": "“Bill” (an account or a bird’s beak) and “squash” (a vegetable or a drink) are single words with two meanings. In the other two every word is clear, but “who lives in Rome” can belong to the friend or the sister, and “at the meeting” to the letter or to the discussing."
+   "explain": "“Bill” (an account or a bird’s beak) and “bat” (a club or a flying animal) are single words with two meanings. In the other two every word is clear, but “who lives in Rome” can belong to the friend or the sister, and “at the meeting” to the letter or to the discussing."
   },
   {
    "id": "sv-con-2",
@@ -964,7 +964,7 @@ ARS.exercises['i.ex.sign'] = {
    "set": "B",
    "deck": "i.consignification",
    "type": "sort",
-   "prompt": "Sort each marked part: does it signify by itself here, or nothing by itself?",
+   "prompt": "Sort each part in quotation marks: does it signify by itself here, or nothing by itself?",
    "entries": [
     "“pine” in “pineapple”",
     "“pine” in “a tall pine”",
@@ -1214,7 +1214,7 @@ ARS.exercises['i.ex.sign'] = {
    "set": "C",
    "deck": "i.consignification",
    "type": "sort",
-   "prompt": "Sort each expression as true or false, or neither.",
+   "prompt": "Sort each expression: can it be true or false, or is it neither true nor false?",
    "entries": [
     "“tiger”",
     "“The tiger is asleep.”",
@@ -1405,7 +1405,7 @@ ARS.exercises['i.ex.sign'] = {
    "bins": [
     "A sign of the spoken word",
     "A sign of the concept",
-    "The concept, which is of the oak itself"
+    "A sign of the oak itself"
    ],
    "answer": [
     0,
@@ -1448,7 +1448,7 @@ ARS.exercises['i.ex.sign'] = {
    "set": "C",
    "deck": "i.imposition",
    "type": "mc",
-   "prompt": "In grammar, is “genus” a name of the first or the second imposition?",
+   "prompt": "The logician’s word “genus,” as in “Animal is a genus”: for the grammarian, is it a name of the first or the second imposition?",
    "options": [
     "Second, because it is a technical term",
     "First, because it signifies concepts",

@@ -535,3 +535,5 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 ## Z. Log: Recitation print (18 Oct 2026)
 
 - 18 Oct 2026: After "See full recitation," a Print button prints the deck or section name and the date the full recitation was opened. Below that, the student's writing and the full outline sit side by side, and the boxes are printed as the student marked them. The page uses the serif type. The controls, the icon, and the audio buttons are left off the page.
+
+- 18 Oct 2026: Section I fairness fixes (Kearns-approved): sv-imp-12 prompt names the logician’s “genus” (not grammatical gender), and the i.imposition card says the same; sv-imp-2 prompt and explanation separate mention from the second imposition; clearer prompts in sv-fun-2, sv-con-10, sv-con-8, sv-con-4, and the ri-A14 why prompt; sv-sign-9 third bin now “A sign of the oak itself”; sv-amb-4 “squash” replaced by “bat”; ri-B14 distractor “saw” replaced by “man”; ri-B06 key reworded, and a distractor lengthened so that the key is not the longest option.

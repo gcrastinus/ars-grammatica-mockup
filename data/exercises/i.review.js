@@ -231,7 +231,7 @@ ARS.exercises['i.review'] = {
    "answer": 2,
    "explain": "No single word has two meanings here. The double sense lies in which words “more” belongs to: to “experienced” (teachers with more experience) or to “experienced teachers” (a greater number of them).",
    "why": {
-    "prompt": "Why?",
+    "prompt": "Why does the ambiguity lie in the arrangement and not in a single word?",
     "model": "“More” can belong to “experienced” (teachers with more experience) or to “experienced teachers” (a greater number of them), so one word can belong to two other words."
    }
   },
@@ -448,7 +448,7 @@ ARS.exercises['i.review'] = {
     "In the single word “hill”",
     "In the way the words are pronounced",
     "In the arrangement of the words",
-    "In the single word “saw”"
+    "In the single word “man”"
    ],
    "answer": 2,
    "explain": "Every word has one clear meaning here. The double sense lies in which word “with a dog” belongs to: the man may have the dog, the hill may have it, or the speaker may have been with the dog when he saw the man.",
@@ -498,9 +498,9 @@ ARS.exercises['i.review'] = {
    "type": "mc-marked",
    "prompt": "“<b>Skyscraper</b>” was applied to very tall buildings because they seem to scrape the sky. Does the word signify by nature?",
    "options": [
-    "No, because it was imposed for a reason",
+    "No; it was imposed, though for a reason",
     "Yes, because it imitates a sound",
-    "No, because it has no reason at all",
+    "No, because there is no reason for the name at all",
     "Yes, because the name fits the building"
    ],
    "answer": 0,
