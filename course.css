@@ -62,10 +62,21 @@
   color:var(--gold); background:var(--card);
   border:1px solid var(--line); border-radius:16px;
   box-shadow:var(--shadow); cursor:pointer;
-  transition:transform .15s;
+  transition:transform .15s, border-color .15s;
 }
-.recite-open:hover{transform:scale(1.06)}
+.recite-open:hover{transform:scale(1.06); border-color:var(--gold-soft)}
 .recite-icon{width:58px; height:58px; display:block}
+.recite-icon .tab-wood{fill:var(--ink-soft); stroke:var(--ink); stroke-width:1.5}
+.recite-icon .tab-rule{fill:none; stroke:var(--gold); stroke-width:1.05}
+.recite-icon .tab-wax, .recite-icon .tab-hole{fill:var(--ink)}
+.recite-icon .tab-cord{fill:none; stroke:var(--wine); stroke-width:1.2; stroke-linecap:round}
+.recite-icon .tab-script{fill:none; stroke:var(--gold-soft); stroke-width:1.2; stroke-linecap:round; opacity:.82}
+.recite-icon .tab-corner{fill:none; stroke:var(--gold); stroke-width:1.55; stroke-linejoin:miter}
+.recite-icon .tab-stylus{fill:none; stroke:var(--gold); stroke-width:1.9; stroke-linecap:round}
+.recite-icon .tab-stylus-end{fill:var(--gold)}
+body.dark .recite-icon .tab-wood{stroke:var(--gold)}
+body.dark .recite-icon .tab-wax, body.dark .recite-icon .tab-hole{fill:var(--paper2)}
+body.dark .recite-icon .tab-script{stroke:var(--gold)}
 body.recite-lock .recite-open{visibility:hidden}
 @media (max-width:420px){
   .recite-open{top:12px; left:12px; width:80px; height:80px; border-radius:14px}
