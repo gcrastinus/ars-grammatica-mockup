@@ -686,3 +686,4 @@ Same rules as AE: realities first, then the principle, then the tradition; no ex
 
 **v.figures**
 - ellipsis: "Some people prefer tea; others, coffee" (Bacon's sentence is in v.clause), ends toward zeugma; zeugma ends toward syllepsis.
+- 18 Oct 2026 (Timothy): section review bars drop the kind label and "Begin" so they match the Cumulative Review bar.
