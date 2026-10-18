@@ -14,7 +14,7 @@ ARS.decks['v.mood'] = {
 { id: 'intro',
   title: 'Mood and voice as relations of construction',
   body: `<p>We studied mood and voice in Section III as accidents of the verb. They are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another. The voice of a verb decides which word is its subject and how the doer of the action is expressed. The mood of a verb often shows whether its clause is independent or dependent, and what kind of dependent clause it is.</p>
-<p>Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and the medieval schools learned from it that the verb is the center around which the construction of the sentence is arranged (<i>Institutiones grammaticae</i> XVIII, in paraphrase). We will study the passive and its agent, the infinitive and the participle in construction, and the subjunctive in independent and dependent clauses.</p>`,
+<p>Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and the medieval schools learned from it that the verb is the center around which the construction of the sentence is arranged (<i>Institutiones grammaticae</i> XVIII). We will study the passive and its agent, the infinitive and the participle in construction, and the subjunctive in independent and dependent clauses.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> XVIII, in paraphrase.` },
 
 { id: 'agent',
@@ -26,8 +26,8 @@ ARS.decks['v.mood'] = {
 
 { id: 'impersonal-passive',
   title: 'The impersonal passive',
-  body: `<p>Latin can use an intransitive verb in the passive, in the third person singular, without a personal subject, to say that an action took place without naming who did it. <i>Pugnātum est</i>, literally “it was fought,” means “there was fighting” or “a battle was fought”; <i>ītur</i>, literally “it is gone,” means “people go.” This is the <strong>impersonal passive</strong>.</p>
-<p>English cannot form such a passive from an intransitive verb, because English “fight” and “go” have no passive. It uses instead a general subject or a noun: “There was fighting,” “People go.” Verbs that govern the dative, such as <i>persuādeō</i> (“I persuade”), also form the passive impersonally: <i>mihi persuāsum est</i>, “I have been persuaded,” literally “it has been persuaded to me.” So the voice of the verb decides what kind of subject, if any, the sentence can have.</p>`,
+  body: `<p>English says “There was fighting” or “People go” when it reports an action without naming who did it. Latin can use an intransitive verb in the passive, in the third person singular, without a personal subject, to say that an action took place without naming who did it. <i>Pugnātum est</i>, literally “it was fought,” means “there was fighting” or “a battle was fought”; <i>ītur</i>, literally “it is gone,” means “people go.” This is the <strong>impersonal passive</strong>.</p>
+<p>English uses such expressions because it cannot form a passive from an intransitive verb: English “fight” and “go” have no passive. Verbs that govern the dative, such as <i>persuādeō</i> (“I persuade”), also form the passive impersonally: <i>mihi persuāsum est</i>, “I have been persuaded,” literally “it has been persuaded to me.” So the voice of the verb decides what kind of subject, if any, the sentence can have.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 208, 372.` },
 
 { id: 'infinitive',
@@ -38,7 +38,7 @@ ARS.decks['v.mood'] = {
 
 { id: 'indirect-statement',
   title: 'The accusative and infinitive',
-  body: `<p>After a verb of saying, thinking, knowing, or perceiving, Latin usually reports what was said or thought by putting the subject in the accusative and the verb in the infinitive. This construction is called the <strong>accusative and infinitive</strong>, and it is the regular form of indirect statement: <i>dīcit puerum venīre</i>, “he says that the boy is coming,” literally “he says the boy to come.” English uses a clause with “that” instead, though it has a similar construction after some verbs: “I believe him to be honest.”</p>
+  body: `<p>When we report what someone said, we usually change the form of the words: “The boy is coming” becomes “He says that the boy is coming.” After a verb of saying, thinking, knowing, or perceiving, Latin usually reports what was said or thought by putting the subject in the accusative and the verb in the infinitive. This construction is called the <strong>accusative and infinitive</strong>, and it is the regular form of indirect statement: <i>dīcit puerum venīre</i>, “he says that the boy is coming,” literally “he says the boy to come.” English uses a clause with “that” instead, though it has a similar construction after some verbs: “I believe him to be honest.”</p>
 <p>The tense of the infinitive shows time relative to the main verb, as the tense of a participle does: the present infinitive shows the same time (<i>dīxit puerum venīre</i>, “he said that the boy was coming”), the perfect infinitive an earlier time (<i>dīxit puerum vēnisse</i>, “he said that the boy had come”), and the future infinitive a later time (<i>dīxit puerum ventūrum esse</i>, “he said that the boy would come”).</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 577–584.`,
   qpTodo: `The accusative and infinitive: what does a given sentence of indirect statement report (<i>dīcit puerum venīre</i>, <i>dīxit puerum vēnisse</i>), and what time does the infinitive show relative to the main verb.` },
@@ -58,8 +58,8 @@ ARS.decks['v.mood'] = {
 
 { id: 'independent-subjunctive',
   title: 'The subjunctive in independent sentences',
-  body: `<p>The subjunctive is used in some independent sentences, each with its own sense:<br>to urge, in the first person plural (the <strong>hortatory</strong> subjunctive): <i>eāmus</i>, “let us go”;<br>to command, in the third person (the <strong>jussive</strong> subjunctive): <i>veniat</i>, “let him come”;<br>to wish, often with <i>utinam</i> (the <strong>optative</strong> subjunctive): <i>utinam veniat</i>, “may he come”;<br>to ask what one should do (the <strong>deliberative</strong> subjunctive): <i>quid faciam?</i>, “what am I to do?”;<br>to say what may or would happen (the <strong>potential</strong> subjunctive): <i>dīcat aliquis</i>, “someone may say.”</p>
-<p>English expresses all of these with auxiliary verbs: “let,” “may,” “should,” “would.” We saw in Section I that sentences command, wish, and ask as well as state; the independent subjunctive is one of the chief means by which Latin marks these kinds of sentence.</p>`,
+  body: `<p>“Let us go,” “Let him come,” “May he come,” and “What am I to do?” are complete sentences, but none of them states a fact. Latin often uses the subjunctive for sentences of this kind. The subjunctive is used in some independent sentences, each with its own sense:<br>to urge, in the first person plural (the <strong>hortatory</strong> subjunctive): <i>eāmus</i>, “let us go”;<br>to command, in the third person (the <strong>jussive</strong> subjunctive): <i>veniat</i>, “let him come”;<br>to wish, often with <i>utinam</i> (the <strong>optative</strong> subjunctive): <i>utinam veniat</i>, “may he come”;<br>to ask what one should do (the <strong>deliberative</strong> subjunctive): <i>quid faciam?</i>, “what am I to do?”;<br>to say what may or would happen (the <strong>potential</strong> subjunctive): <i>dīcat aliquis</i>, “someone may say.”</p>
+<p>English expresses all of these with auxiliary verbs: “let,” “may,” “should,” “would.” We saw in Section I that sentences command, ask, and pray as well as state; the independent subjunctive is one of the chief means by which Latin marks these kinds of sentence.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 439–447.` },
 
 { id: 'dependent-subjunctive',
@@ -72,7 +72,7 @@ ARS.decks['v.mood'] = {
 { id: 'english',
   title: 'Mood and voice in English construction',
   body: `<p>English expresses most of these constructions without special forms of the verb. Where Latin uses the subjunctive, English uses auxiliary verbs (“may,” “might,” “should,” “would”) or the infinitive (“so as to see”). Where Latin uses the accusative and infinitive, English uses a clause with “that.” Where Latin uses a participle or an ablative absolute, English often uses a clause with a conjunction (“when,” “because,” “although”).</p>
-<p>So a translation between the two languages often changes the construction while keeping the meaning: a Latin participle becomes an English clause, and an English clause becomes a Latin infinitive. We will return to this in Section X, where we study translation. What remains the same in both languages is the relation of dependence that the construction expresses.</p>`,
+<p>So a translation between the two languages often changes the construction but keeps the meaning: a Latin participle becomes an English clause, and an English clause becomes a Latin infinitive. We will return to this in Section X, where we study translation. What remains the same in both languages is the relation of dependence that the construction expresses.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>; standard English grammars, in paraphrase.`,
   qpTodo: `Analysis: given a short Latin sentence with a participle, an infinitive, or a subjunctive, choose the English construction that expresses the same relation, and say what changed.` }
 
