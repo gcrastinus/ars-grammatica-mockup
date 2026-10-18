@@ -82,7 +82,7 @@ function buildHome(){
       const st = store.decks[it.id];
       const plan = hasPlan(it.id);
       const practiceTile = playerItem(it);
-      c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '');
+      c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '') + (it.kind === 'review' ? ' review-bar' : '');
       c.dataset.id = it.id;
       c.innerHTML = `<div class="kind">${KIND[it.kind]}</div>
         ${it.built && !practiceTile && st && st.done ? '<span class="done-flag">✓ Studied</span>' : ''}

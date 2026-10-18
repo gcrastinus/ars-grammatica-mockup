@@ -344,6 +344,27 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .cumul-bar:hover{border-color:var(--gold-soft)}
 .cumul-h{font-family:'Cinzel',serif; font-size:18px; font-weight:600; letter-spacing:.04em}
 .cumul-range{font-style:italic; color:var(--ink-soft); font-size:16.5px; line-height:1.35}
+/* A section review uses the same full-width bar as Cumulative Review, and stays in its place in the grid. */
+.set-card.review-bar{
+  grid-column:1 / -1; width:100%; min-height:102px; box-sizing:border-box;
+  display:flex; flex-direction:column; justify-content:center; align-items:flex-start; gap:2px;
+  text-align:left; color:var(--ink); background:var(--card);
+  border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
+  padding:12px 22px; transition:none;
+}
+.set-card.review-bar:hover{transform:none; border-color:var(--gold-soft)}
+.set-card.review-bar .kind{
+  font-size:11px; letter-spacing:.14em; margin:0; line-height:1.2;
+}
+.set-card.review-bar h3{
+  font-size:18px; font-weight:600; letter-spacing:.04em; margin:0; line-height:1.25;
+}
+.set-card.review-bar p{
+  font-style:italic; color:var(--ink-soft); font-size:16.5px; line-height:1.35; margin:0; flex:none;
+}
+.set-card.review-bar .begin,
+.set-card.review-bar .soon-flag{margin-top:2px; font-size:12px; letter-spacing:.12em}
+.set-card.review-bar .done-flag{top:10px; right:18px; font-size:11px; letter-spacing:.08em}
 .ex-count{text-align:center; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:var(--gold); margin:8px 0 12px}
 .ex-empty{text-align:center; font-style:italic; color:var(--ink-soft); font-size:18px; line-height:1.5; margin:28px auto; max-width:520px}
 .typed-row{display:flex; gap:10px; align-items:center; margin-top:14px}
