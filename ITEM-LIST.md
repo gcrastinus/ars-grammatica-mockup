@@ -585,6 +585,27 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 
 ---
 
+## Recitation Tablet (added on Timothy's instruction, 17 Oct 2026)
+
+**Purpose.** The tablet is for mastery, not for testing. It gives the student a place to practice the ancient and medieval art of recitation: study a deck, put away the materials and notes, and then write out, from memory, as full and well-ordered an account of the material as one can. The aim is not word-for-word memory, but to set down everything of substance one can recall, in good order.
+
+**Placement.** A button labeled "Recitation Tablet" (always the full label) sits at the top left of the homepage. It is fairly large but not oversized, and it scales with the screen.
+
+**The tablet.**
+1. Clicking the button opens a large panel over the page, covering most of the screen, with everything around it dimmed.
+2. At the top, a short description says what the tablet is for and what recitation is: study, put the notes away, and write down everything you can remember.
+3. A dropdown lists every study deck by its title, styled like the app and not like the operating system's default menu. The student picks a deck.
+4. Below that is a large blank writing space. The student writes out a full account of that deck's material from memory.
+5. A button labeled "See full recitation" opens the full recitation for that deck. The student's own text stays visible beside it, or above it on narrow screens, so the two can be compared.
+
+**The full recitation.** Each study deck has one stored outline in its data file (deck-level field `recitation`). The outline follows the order of the deck and keeps every point of substance, minor points included: definitions, distinctions, divisions, arguments, and conclusions. It leaves out what only illustrates or supports a point, such as passing examples, quotations, historical figures named only in passing, and asides that belong to other material. It is written in the same textbook prose as the cards, with technical terms glossed as on the cards, and no source notes are shown.
+
+**Self-check.** Each point in the full recitation has a small box. The student checks off the points the recitation covered, the way a student once compared a recitation against the text. Nothing is graded or scored automatically, and nothing is saved beyond the browser, where the last text written for each deck may be kept so the student can return to it.
+
+**No automatic grader (decided 17 Oct 2026).** A keyword-and-synonym checker was considered and rejected. Students often state a point correctly in their own words without the expected keywords, so the checker would fail to register points that are plainly in the text, and it cannot tell a point stated correctly from one stated wrongly ("the noun consignifies time" and "the verb consignifies time" share every keyword). A wrong mark is worse than no mark. A light hint that highlights points whose key terms appear in the student's text may be considered later, as a hint only and never as a judgment. Everything runs in the browser, with no API key and no server.
+
+**Build order.** Build the tablet's interface once the Section I decks are settled, starting with recitations for Section I. Write each deck's recitation after its cards are final, so the two match.
+
 ## Translators, and sources without a published English translation (rule 9)
 
 **Translated sources, with the translator named:**

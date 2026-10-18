@@ -256,3 +256,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 card 10: "a joining that cannot be understood" changed to "a joining or composition that cannot be understood" (Timothy, Oct 17).
 - I.3 card 10: English of the medieval Latin text first, the Latin second in parentheses (Timothy, Oct 17).
 - I.3 card 11 closing (Timothy, Oct 17): "Not every word does signify by itself; some have no definite signification alone." New final paragraph: "Since these terms without definite signification are crucial to much expression, how words like these signify must be considered next."
+- 17 Oct 2026: Added the Recitation Tablet to ITEM-LIST.md on Timothy's instruction: a homepage button opens a panel with a deck dropdown, a blank writing space, and "See full recitation," which shows a stored outline (deck field `recitation`) with boxes for the student to check off. There is no automatic grader.
