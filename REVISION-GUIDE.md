@@ -526,3 +526,7 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 - 2026-10-18: ii.voice significant: first paragraph now refers back to Section I's significant voice instead of repeating the groan/"pain"/blityri examples (exact edit).
 - 2026-10-18: Exercise styling: sort-row separators use the faint card line (--line); sort buttons, typed-answer box, and why-box outlined in --gold-soft with a gold hover, replacing the undefined --rule fallback (harsh white/gray).
 - 2026-10-18: course.js runner: sort items show their entries in a fresh random order on every showing (including re-asks); answers and the explanation follow the displayed order. Question order unchanged; identify tokens stay in sentence order.
+
+## Y. Log: What is recitation? (18 Oct 2026)
+
+- 18 Oct 2026: The sentence under the Recitation Tablet heading is now a panel headed "What is recitation?". It is open each time the tablet opens, and it can be closed while writing. The text is the account given on 18 Oct: read or study, then write from memory; choose the part just finished; then "See Full Recitation" and mark the outline. The wording is kept as given, including the quotation marks around "recitation".

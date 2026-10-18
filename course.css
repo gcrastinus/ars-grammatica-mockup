@@ -114,7 +114,25 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
   font-family:'Cinzel',serif; font-size:clamp(20px, 2.2vw, 28px);
   font-weight:600; letter-spacing:.04em;
 }
-.recite-desc{font-size:18px; line-height:1.45; margin:0 0 14px}
+.recite-desc{
+  margin:0 0 14px; background:var(--card); color:var(--ink);
+  border:1px solid var(--line); border-left:3px solid var(--gold-soft);
+  border-radius:10px; box-shadow:var(--shadow);
+}
+.recite-desc summary{
+  cursor:pointer; list-style:none;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  font-family:'Cinzel',serif; font-size:16px; letter-spacing:.03em; color:var(--gold);
+  padding:10px 14px;
+}
+.recite-desc summary::-webkit-details-marker{display:none}
+.recite-desc summary::after{
+  content:"▾"; color:var(--gold); font-size:14px; line-height:1; transition:transform .15s;
+}
+.recite-desc:not([open]) summary::after{transform:rotate(-90deg)}
+.recite-desc-body{max-height:min(42vh, 22em); overflow:auto; padding:0 16px 12px}
+.recite-desc p{font-size:18px; line-height:1.5; margin:0 0 10px}
+.recite-desc p:last-child{margin-bottom:0}
 .recite-tools{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
 .recite-picker{position:relative; flex:1; min-width:min(100%, 260px)}
 .recite-menu-btn{
@@ -181,7 +199,7 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .recite-point{display:flex; gap:10px; align-items:flex-start; margin:0 0 10px; cursor:pointer}
 .recite-point input{margin-top:6px; width:16px; height:16px; flex:none; accent-color:var(--gold)}
 .recite-point span{font-size:17.5px; line-height:1.45}
-.recite-open:focus-visible, .recite-menu-btn:focus-visible, .recite-opt:focus-visible{
+.recite-open:focus-visible, .recite-menu-btn:focus-visible, .recite-opt:focus-visible, .recite-desc summary:focus-visible{
   outline:2px solid var(--gold); outline-offset:2px;
 }
 @media (max-width:800px){

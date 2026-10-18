@@ -193,6 +193,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   }
 
   const overlay = document.getElementById('recite-overlay');
+  const desc = document.getElementById('recite-desc');
   const dueHost = document.getElementById('recite-due');
 
   renderReciteReminderImpl = function () {
@@ -381,6 +382,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   function openOverlay(prefer){
     const gen = ++openGen;
     overlay.hidden = false;
+    if (desc) desc.open = true;
     document.body.classList.add('recite-lock');
     latchUnlocked();
     selectedKey = '';
