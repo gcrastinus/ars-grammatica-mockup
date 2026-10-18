@@ -16,7 +16,7 @@ ARS.decks['iii.noun-2'] = {
 { id: 'gender',
   title: 'Gender',
   body: `<p>We call a father “he,” a mother “she,” and a table “it.” So nouns fall into kinds according to the words that refer to them or agree with them. The first of the accidents studied here is <strong>gender</strong> (Latin <i>genus</i>, “kind”). Donatus says that there are four genders of nouns: <i>masculinum, ut hic magister; femininum, ut haec Musa; neutrum, ut hoc scamnum; commune, ut hic et haec sacerdos</i> (<i>Ars minor</i>). That is, the <strong>masculine</strong>, as <i>magister</i> (“teacher”); the <strong>feminine</strong>, as <i>Mūsa</i> (“Muse”); the <strong>neuter</strong> (“neither”), as <i>scamnum</i> (“bench”); and the <strong>common</strong>, as <i>sacerdōs</i> (“priest” or “priestess”), which is masculine or feminine according to the person meant.</p>
-<p>The small words <i>hic</i>, <i>haec</i>, and <i>hoc</i> (“this,” in the three genders) were used in the schools to show the gender of a noun. Donatus also names the <strong>epicene</strong> noun (Greek <i>epikoinos</i>, “shared”), which names an animal of either sex under one gender, as <i>passer</i> (“sparrow”) is always masculine and <i>aquila</i> (“eagle”) always feminine.</p>`,
+<p>The small words <i>hic</i>, <i>haec</i>, and <i>hoc</i> (“this,” in the three genders) were used by grammarians to show the gender of a noun. Donatus also names the <strong>epicene</strong> noun (Greek <i>epikoinos</i>, “shared”), which names an animal of either sex under one gender, as <i>passer</i> (“sparrow”) is always masculine and <i>aquila</i> (“eagle”) always feminine.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the gender of the noun (the Latin).` },
 
 { id: 'natural-grammatical',
