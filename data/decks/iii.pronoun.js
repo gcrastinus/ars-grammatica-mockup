@@ -26,7 +26,7 @@ ARS.decks['iii.pronoun'] = {
 { id: 'person',
   title: 'Person',
   body: `<p>In every conversation there is someone who speaks, someone who is spoken to, and someone or something that is spoken about, and the pronouns “I,” “you,” and “he” refer to them. <strong>Person</strong> (<i>persōna</i>) is the relation of the thing referred to the act of speaking. The <strong>first person</strong> is the speaker: “I,” “we,” Latin <i>ego</i>, <i>nōs</i>. The <strong>second person</strong> is the one spoken to: “you,” Latin <i>tū</i>, <i>vōs</i>. The <strong>third person</strong> is anyone or anything spoken about: “he,” “she,” “it,” “they,” Latin <i>is</i>, <i>ea</i>, <i>id</i>, <i>ille</i>.</p>
-<p>We saw in Section I that the verb also consignifies person, as “I write,” “you write,” and “he writes” do, and Latin <i>scrībō</i>, <i>scrībis</i>, and <i>scrībit</i>. Because the Latin verb shows the person by its ending, Latin often omits the pronoun subject: <i>scrībō</i> alone means “I write.” When the pronoun is expressed, as in <i>ego scrībō</i>, it usually gives emphasis: “<em>I</em> write” (that is, I and not another). English almost always expresses the pronoun, because its verb endings no longer show the person clearly.</p>`,
+<p>We saw in Section I that the verb also consignifies person, as “I sing,” “you sing,” and “he sings” do, and Latin <i>cantō</i>, <i>cantās</i>, and <i>cantat</i>. Because the Latin verb shows the person by its ending, Latin often omits the pronoun subject: <i>cantō</i> alone means “I sing.” When the pronoun is expressed, as in <i>ego cantō</i>, it usually gives emphasis: “<em>I</em> sing” (that is, I and not another). English almost always expresses the pronoun, because its verb endings no longer show the person clearly.</p>`,
   src: `Donatus, <i>Ars minor</i>; Allen and Greenough, <i>New Latin Grammar</i> § 295, in paraphrase.` },
 
 { id: 'personal',
@@ -62,7 +62,7 @@ ARS.decks['iii.pronoun'] = {
 
 { id: 'interrogative-indefinite',
   title: 'Interrogative and indefinite pronouns',
-  body: `<p>“Who came?” is answered by “Clara came,” and the word “who” marks the place in the sentence that the answer fills. We saw in Section I that a question asks for a statement in reply. A pronoun that asks a question about the person or thing in this way is an <strong>interrogative</strong> pronoun: Latin <i>quis?</i> (“who?”) and <i>quid?</i> (“what?”), English “who?”, “what?”, and “which?”</p>
+  body: `<p>“Who came?” is answered by “Lucy came,” and the word “who” marks the place in the sentence that the answer fills. We saw in Section I that a question asks for a statement in reply. A pronoun that asks a question about the person or thing in this way is an <strong>interrogative</strong> pronoun: Latin <i>quis?</i> (“who?”) and <i>quid?</i> (“what?”), English “who?”, “what?”, and “which?”</p>
 <p>“Someone knocked” refers to a person without identifying the person. An <strong>indefinite</strong> pronoun refers to a person or thing without identifying it: Latin <i>aliquis</i> (“someone”), <i>quīdam</i> (“a certain one”), <i>quisque</i> (“each one”), and English “someone,” “anyone,” “each,” and “nobody.” These pronouns are the clearest examples of Donatus’s indefinite quality, and several of them, such as “each” and “nobody,” are also among the syncategorematic words we studied in Section I.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 148–151, in paraphrase.` },
 
