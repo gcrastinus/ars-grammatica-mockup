@@ -70,7 +70,7 @@ ARS.decks['i.syncategorematic'] = {
       answer: 2,
       explain: `The two divisions answer different questions. As a part of speech, “every” is an adjective; as a sign, it is syncategorematic, because it does not signify a thing by itself but determines how the word it goes with is taken.` },
     { prompt: `Why does the division into categorematic and syncategorematic words not coincide with the parts of speech?`,
-      options: [`Because it asks a different question: whether a word signifies something definite by itself`, `Because it applies only to Latin`, `Because syncategorematic words are not words at all`, `Because the parts of speech were invented later`],
+      options: [`Because it asks whether a word signifies something definite by itself`, `Because it applies only to Latin`, `Because syncategorematic words are not words at all`, `Because the parts of speech were invented later`],
       answer: 0,
       explain: `The parts of speech are distinguished by the way each word signifies and is arranged with others. The other division asks only whether a word signifies something definite by itself, and so syncategorematic words are found among adjectives, adverbs, conjunctions, and prepositions.` },
     { prompt: `Which pair lists two syncategorematic words that belong to different parts of speech?`,

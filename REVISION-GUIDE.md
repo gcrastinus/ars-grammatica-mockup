@@ -270,3 +270,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.syncategorematic, what-they-do: added "(The examples given above are especially important for logic.)" after "…comes from the syncategorematic words."
 - 17 Oct 2026: i.syncategorematic, kinds: reordered to begin from realities (the four groups, each with an example of what the word does), a new paragraph on what they have in common, and William of Sherwood last.
 - 17 Oct 2026: i.syncategorematic, kinds: dropped "do" after "only" and "except"; last paragraph now opens "One of the best known treatises on this from the tradition is…"
+- 17 Oct 2026: i.syncategorematic, q-not-parts variant B: correct option shortened to "Because it asks whether a word signifies something definite by itself."
