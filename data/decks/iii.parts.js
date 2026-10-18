@@ -15,7 +15,7 @@ ARS.decks['iii.parts'] = {
 { id: 'what-word',
   title: 'What is a word?',
   body: `<p>In Section II we studied the material of speech: the voice, the letter, the syllable, and the measures of the syllable. None of these signifies by imposition. We saw in Section I that signification by imposition begins with the word, so the grammar of the word begins here.</p>
-<p>A sentence such as “The sailor waits for the tide” can be divided into words, and each word still signifies something. If we divide further, into syllables, the parts no longer signify by themselves: the syllable “sail” in “sailor” is smaller than the word, but it does not signify by itself in that word, as we saw in Section I, whereas “sailor” does. So the word is defined by its place in the sentence: it is the least part into which a sentence can be divided that still signifies.</p>
+<p>A sentence such as “The doctor drank the water” can be divided into words, and each word still signifies something. If we divide further, into syllables, the parts no longer signify: the syllable “tor” in “doctor” and the syllable “wa” in “water” signify nothing by themselves, whereas “doctor” and “water” do. So the word is defined by its place in the sentence: it is the least part into which a sentence can be divided that still signifies.</p>
 <p>Priscian defines the word (Latin <i>dictio</i>) in this way, as <i>pars minima orationis constructae</i>, that is, the least part of a constructed sentence, or of a sentence put together in order (<i>Institutiones grammaticae</i> II.14). Dionysius Thrax had given the same definition in Greek (<i>Technē</i> 11).</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II.14 (the Latin); Dionysius Thrax, <i>Technē</i> 11, in paraphrase.` },
 
@@ -81,8 +81,9 @@ ARS.decks['iii.parts'] = {
 
 { id: 'greek-article',
   title: 'The Greek eight and the article',
-  body: `<p>The list of eight parts was first made for Greek. Dionysius Thrax counts noun, verb, participle, <strong>article</strong>, pronoun, preposition, adverb, and conjunction (<i>Technē</i> 11). The Greek article, ὁ, ἡ, τό (<i>ho, hē, to</i>, “the”), is declined for gender, number, and case, as in ὁ ἄνθρωπος (<i>ho anthrōpos</i>, “the man”).</p>
-<p>Latin has no article, so the Latin grammarians removed it from the list. They kept the number at eight by counting the interjection, which the Greek grammarians had placed under the adverb, as a part of its own. So Latin <i>puella</i> can mean “the girl” or “a girl,” as the sense requires. English, like Greek, has articles: the definite article “the” and the indefinite article “a” or “an.” We will see the article again among the modern accounts of the parts of speech in Section XI.</p>`,
+  body: `<p>In English we say “the girl” or “a girl,” and the small words “the” and “a” show whether a particular girl is meant or any girl. English therefore has articles: the definite article “the” and the indefinite article “a” or “an.” Latin has no article, so Latin <i>puella</i> can mean “the girl” or “a girl,” as the sense requires.</p>
+<p>Greek, like English, has an article, and the list of eight parts was first made for Greek. Dionysius Thrax counts noun, verb, participle, <strong>article</strong>, pronoun, preposition, adverb, and conjunction (<i>Technē</i> 11). The Greek article, ὁ, ἡ, τό (<i>ho, hē, to</i>, “the”), is declined for gender, number, and case, as in ὁ ἄνθρωπος (<i>ho anthrōpos</i>, “the man”).</p>
+<p>Because Latin has no article, the Latin grammarians removed it from the list. They kept the number at eight by counting the interjection, which the Greek grammarians had placed under the adverb, as a part of its own. We will see the article again among the modern accounts of the parts of speech in Section XI.</p>`,
   src: `Dionysius Thrax, <i>Technē</i> 11, in paraphrase; Priscian, <i>Institutiones grammaticae</i> II.16, in paraphrase.` },
 
 { id: 'english-eight',
