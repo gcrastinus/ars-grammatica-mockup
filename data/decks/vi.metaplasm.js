@@ -13,8 +13,8 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'definition',
   title: 'What is a metaplasm?',
-  body: `<p>We have seen that Donatus calls a change in a single word a barbarism in ordinary speech and a metaplasm in a poem. He defines the <strong>metaplasm</strong> (Greek <i>metaplasmos</i>, “reshaping”) as a change of correct, plain speech into another form, made for the sake of the meter or of ornament (<i>Ars maior</i> III.4, in paraphrase). So a metaplasm is a barbarism permitted to the poets for a reason.</p>
-<p>English poetry uses many metaplasms: “o’er” for “over,” “e’en” for “even,” “’tis” for “it is,” “ope” for “open,” and “th’ ” for “the” before a vowel. Each changes the form of a word, usually to reduce the number of its syllables so that the line fits the meter. Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change.</p>`,
+  body: `<p>English poetry uses many changed forms of words: “o’er” for “over,” “e’en” for “even,” “’tis” for “it is,” “ope” for “open,” and “th’ ” for “the” before a vowel. Each changes the form of a word, usually to reduce the number of its syllables so that the line fits the meter. In ordinary speech these changes would be barbarisms, but in a poem they are allowed.</p>
+<p>We have seen that Donatus calls a change in a single word a barbarism in ordinary speech and a metaplasm in a poem. He defines the <strong>metaplasm</strong> (Greek <i>metaplasmos</i>, “reshaping”) as a change of correct, plain speech into another form, made for the sake of the meter or of ornament (<i>Ars maior</i> III.4). So a metaplasm is a barbarism permitted to the poets for a reason. Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
 { id: 'adding',
@@ -58,7 +58,7 @@ ARS.decks['vi.metaplasm'] = {
 { id: 'license-limits',
   title: 'License and its limits',
   body: `<p>A metaplasm is permitted because it is made for the meter or for ornament and because the reader can recognize the regular form behind it. But the license has limits. Quintilian says that teachers should show boys that “in poets such peculiarities are pardonable or even praiseworthy” (<i>Institutio oratoria</i> I.5.11), but the same forms used in prose, or used without need in verse, are barbarisms.</p>
-<p>We have now studied the errors of speech: the barbarism in a single word, the solecism in the arrangement of words, and the other errors of speech; and their corresponding licenses: the metaplasm in a single word and the figure in construction. In Section VII we turn to the figures and tropes, by which words are arranged and used beyond their plain sense for the sake of force and ornament.</p>`,
+<p>In this section of the course we study the errors of speech (the barbarism in a single word, the solecism in the arrangement of words, and the other errors of speech) and their corresponding licenses (the metaplasm in a single word and the figure in construction). In Section VII we turn to the figures and tropes, by which words are arranged and used beyond their plain sense for the sake of force and ornament.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.11 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.4.` }
 
   ]
