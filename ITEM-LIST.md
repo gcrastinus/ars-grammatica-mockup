@@ -602,6 +602,11 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 
 **Self-check.** Each point in the full recitation has a small box. The student checks off the points the recitation covered, the way a student once compared a recitation against the text. Nothing is graded or scored automatically, and nothing is saved beyond the browser, where the last text written for each deck may be kept so the student can return to it.
 
+**Safeguards (added 17 Oct 2026).** These are not meant to be airtight, only to keep the tablet from being gamed at once.
+- The dropdown offers only decks the student has completed (every card seen and every question point answered). Decks not yet completed appear grayed out, with a short note: "Complete this deck first."
+- "See full recitation" stays inactive until the student has written a reasonable minimum. The minimum scales with the deck: about a quarter of the length of that deck's full recitation, and never fewer than 80 words. A line under the writing space shows progress ("Write at least 120 words to see the full recitation; 45 so far"). Repeated words and pasted filler should not count: count only distinct words of three or more letters, and disable pasting into the writing space.
+- Once the full recitation has been shown, the student's text is locked for that attempt, so it cannot be revised to match. "Start a new recitation" clears it for a fresh attempt.
+
 **Later: printout.** At a later stage, add a print view that sets the student's recitation beside the full recitation, with the student's checked and unchecked boxes shown, so the student can keep a record of the exercise.
 
 **No automatic grader (decided 17 Oct 2026).** A keyword-and-synonym checker was considered and rejected. Students often state a point correctly in their own words without the expected keywords, so the checker would fail to register points that are plainly in the text, and it cannot tell a point stated correctly from one stated wrongly ("the noun consignifies time" and "the verb consignifies time" share every keyword). A wrong mark is worse than no mark. A light hint that highlights points whose key terms appear in the student's text may be considered later, as a hint only and never as a judgment. Everything runs in the browser, with no API key and no server.
