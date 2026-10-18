@@ -238,7 +238,7 @@ ARS.decks['xi.modern'] = {
 { id: 'functional',
   title: 'Functional grammar',
   body: `<p>Some modern linguists hold that the forms of a language are best explained by the uses to which language is put: to represent things, to address others, and to build a connected text. Such accounts are called <strong>functional</strong>, in contrast with <strong>formal</strong> accounts, such as Chomsky’s, which describe the forms of a language apart from their uses.</p>
-<p>We saw in Section I that the tradition distinguished the functions of language, stating, asking, commanding, wishing, and expressing feeling, and that Bühler and Jakobson classified them in the twentieth century. Functional grammar goes further: it seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.</p>`,
+<p>We saw in Section I that the tradition distinguished the functions of language, stating, asking, commanding, praying, calling, and expressing feeling, and that Bühler and Jakobson classified them in the twentieth century. Functional grammar goes further: it seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.</p>`,
   src: `Dik, <i>The Theory of Functional Grammar</i>; Halliday, <i>An Introduction to Functional Grammar</i>; both in paraphrase.` },
 
 { id: 'theme-rheme',
