@@ -455,3 +455,35 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - "While" → "whereas" (eight places); "in paraphrase" removed from body text (Boethius, Jones, Saussure, Poinsot, Greenberg).
 - No pointers ("to which we return below," "as we will see" removed); closing card unchanged (L.7).
 - 18 Oct 2026: Added recitations/ with the finished Section I recitation outlines (one snippet per deck plus the joined section file), approved by Timothy, for the Recitation Tablet build to move into the deck files.
+
+## R. Log: Timothy's fixes and decisions on the II–XI pass (18 Oct 2026)
+
+Timothy's decisions applied: keep all three supposition review cards, reworked to refer back; the optative "to wish or pray, often with *utinam*"; KJV named in v.agreement; "in substance" kept in xi.traditions; periods inside quotation marks throughout; the closing pointer on x.translation cut; course talk trimmed in x.imitation (Pro Archia) and ix.marking; Donatus's order for the tropes; xi.modern's closing card plainer; "figures of order" kept, standard terms elsewhere (Donatus's marks by their Latin names; the six writings by their standard English names); "If I were king" and "literally" softened to careful usage; "rewritable" and "unfriend" cut. Example reuse: "the white horse" argued only in v.congruity. The iv.etymology cratylus card untouched.
+
+- ii.meter / elegiac: "Coleridge, translating a couplet of Schiller's, described this meter in it:". caesura: Pope (used in iii.verb-1 and v.mood) → Macbeth's "Tomorrow, and tomorrow, and tomorrow" (*Macbeth* V.5.19), with the note that the stress on "and" is light and the pause falls between "row" and "and," within one foot.
+- ii.letter / restored-consonants: the doubled "aisle"/"cow" statement removed; the opening now gives "aisle," "house," "boy" for *ae*, *au*, *oe*.
+- ii.punctuation: Donatus's three marks named *distinctio*, *media distinctio*, *subdistinctio*, glossed by the height of the point; "full stop" kept only as the British word for the modern period.
+- iii.parts / what-word: "The doctor drank the water" ("tor," "wa" signify nothing; "doctor," "water" do). greek-article: opens from "the girl," "a girl," and Latin *puella*, then the Greek article and Dionysius Thrax.
+- iii.verb-1 / subjunctive: "If I were king," which careful usage prefers to "If I was king."
+- iii.verb-2 / tense: "I read," "I was reading," "I had read," "I shall read" before the modists.
+- iv.etymology / what-etymology: doubled question removed. varro opens from "bedroom," "cupboard," "window" ("wind-eye"); isidore from "science" and "astronomy." cratylus untouched.
+- iv.derivation: "rewritable" and "unfriend" cut; the analogy card now uses "drinkable" and "breakable."
+- v.dependence: "the white horse" recalled from v.congruity in one sentence, then argued from "reads well"; fresh examples "the tall tree," "she sings softly," "The tired child sleeps soundly" (Thomas's *homō albus currit bene* kept); tesniere opens from "The farmer sold his neighbor a horse," Tesnière after. The kinds placeholder names "tall tree."
+- v.agreement / reason: argued from *bonus nauta*, *bonī nautae*, *bonum nautam* (agreement "in gender, number, and case, not in the sound of the ending"); verb example *nauta nāvigat* / *nautae nāvigant*; KJV on the authors card kept (Timothy).
+- v.order / typology-2: opens from "I read the book," "in the house" against Japanese *hon o yomu*, *ie ni*; Greenberg after.
+- v.period / what-period opens "Some long sentences keep the hearer waiting…"; end-with-sense: "that we saw at the beginning of this section" dropped.
+- v.mood: the optative "to wish or pray, often with *utinam*."
+- vi.barbarism / four-ways: "drownded" for "drowned" under addition; "excape" for "escape" under substitution.
+- vi.usage: fresh examples so each Section VI example appears once ("growed," "heighth"; "Each of the students have a book"); "brung" stays in vi.barbarism, "The list of books are" in vi.solecism.
+- vi.metaplasm: "o'er"/"e'en" (also in vi.barbarism) → "ne'er" for "never," "'gainst" for "against"; subtitle and placeholder updated to match.
+- vii.literal: "He is a lion" kept only in Quintilian's quotation; card 1 now "He is a fox," figures-tropes "Her words were daggers"; "literally" verdict: "In careful usage this use is avoided, because it confuses the very distinction that the word names."
+- vii.schemata / anadiplosis: the pattern stated for the Greek of John 1:1 (given with transliteration), not the English, where the third clause begins with "the Word," not "God"; "I came, I saw, I conquered" kept on both cards.
+- vii.tropes: panels and the summary list follow Donatus's order (synecdoche after epithet; ids unchanged); the coined grouping replaced by Donatus's list on separate lines, irony as a species of allegory; metalepsis attributed to Virgil (*Eclogues* I.69); "in the words *pelagus tenuere rates* (*Aeneid* V.8)" (Virgil's line reads *ut pelagus*; Donatus quotes *pelagus tenuere rates*); irony's closing restatement cut; what-trope now says eleven of the remaining twelve are treated and names homoeosis as not treated separately.
+- viii.supposition: the three review cards kept, each now recalling Section I or III briefly and saying what supposition needs from it.
+- ix.sentences: "The dog bit the man" (v.order) → "The child kicked the ball." ix.marking / stored-analysis: course talk trimmed.
+- x.imitation / tradition: the doubled statement removed (the opening's qualifying clause and Quintilian's X.2.2 comparison, which repeated the opening examples; X.2.4 kept). Pro Archia card: course talk cut (Section V recall; "The ten passages … are to be copied…"); closes "So to copy a passage of a good author exactly as it stands is a way of learning its sentences in every detail."
+- x.progymnasmata / fable-first: opens from the fox and the grapes; the tortoise and the hare stays only on the fable card.
+- x.translation / grammar-exercise: closing pointer to the progymnasmata cut.
+- xi.traditions / karaka: Timothy's sentence ("The cook takes the bread from the shelf, cuts it with a knife in the kitchen, and gives it to the guests"), with agent, object, instrument, recipient, source, and locus named. bhartrhari: "The door is open" (i.functions) → "The bread is fresh." six-writings: standard terms with the Chinese names (pictographs, simple indicatives, compound ideographs, phono-semantic compounds, derivative cognates, phonetic loans); "form-and-sound characters" on the following card changed to match.
+- xi.modern / jones: opens from "mother," *māter*, *mētēr*, *mātṛ* ("father"/*pater* is used in several decks). end: rewritten in plain sentences (the definition of grammar, what the course studied, the open question of universal grammar, the reasons for studying grammar first).
+- Periods and commas inside quotation marks: x.progymnasmata (the Kennedy quotations), ii.letter (a placeholder).
