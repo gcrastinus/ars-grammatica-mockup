@@ -262,3 +262,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: Recitation Tablet: no word count or minimum shown to the student; decks also require the section's exercise set to be completed.
 - 17 Oct 2026: Recitation Tablet: reversed the exercise-set requirement; a deck's recitation opens as soon as the deck is first completed.
 - 17 Oct 2026: Recitation Tablet: added whole-section recitations, open once every deck in the section is completed, showing the decks' recitations combined in order.
+- 17 Oct 2026: i.syncategorematic, by-themselves: Timothy's revision ("Now, we can divide words…"; categorematic defined as what the tradition calls it; subject and predicate glossed in place; new closing paragraph "But not all words are like this…").
