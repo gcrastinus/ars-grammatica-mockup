@@ -380,3 +380,36 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - Six cards open from English sentences before the authority (copula, quantity, quality, compound statements, figure of speech, relative clause); the four quantities on separate lines; "while" → "whereas" (2); "in paraphrase" removed (Aristotle, Peter of Spain, Port-Royal); pointers rewritten.
 **viii.supposition**
 - Everyday statements before the definitions of material, simple, personal, discrete, determinate, confused and distributive, and merely confused supposition; "while" → "whereas" (2); "in paraphrase" removed (Peter of Spain, Ockham); the three review cards kept as planned.
+
+### Section V
+**v.congruity**
+- congruity opens from "white horse" / *equus albus* and "White runs" before the terms; the modists and Thomas of Erfurt after; "modes of signifying" recalled from Section I and glossed.
+- completeness opens from what the hearer expects after "the white horse"; suppositum: example before "Every complete sentence has two principal parts."
+- four-causes: new opening paragraph on the four causes of a table (wood, shape, carpenter, meals) before Thomas applies them; list given a colon lead-in; three-judgments lead-in ends with a colon.
+- grammar-logic: no list of the section's decks in order; "while" → "whereas" (2); "in paraphrase" removed from body text.
+**v.phrase**
+- form-function: "on the hill" in two sentences before the two ways of naming a phrase; examples before the definitions of the prepositional, participial/gerund, infinitive, and appositive phrases.
+- absolute: English nominative absolute first, Latin ablative absolute second; diagram: what a diagram shows before Reed and Kellogg.
+**v.clause**
+- what-clause from "The bell rang when the gate shut"; noun clauses from Macaulay beside "Every schoolboy knows the story"; adjective and adverb clauses from "the brave sailor," "then"; Reed and Kellogg after the lead-ins.
+**v.agreement**
+- reason: argued from "the white horse" (*equus albus, equī albī*; *equus currit, equī currunt*), then "The modists give this reason for agreement," Thomas after; "in paraphrase" removed.
+- adjective-noun opens from the forms of *bonus*; verb-subject from "the sailor waits / the sailors wait," "I am / they are."
+**v.government**
+- Examples before the rules: "He reads the book"; "trust," "obey," "use"; "love of country," "like his father," "full of water"; "in paraphrase" removed (Peter Helias).
+**v.dependence**
+- dependence: thesis argued first from "white horse," dependent and terminant defined plainly; Thomas after as the source of *dependēns* and *termināns*.
+- many-constructions: "The white horse runs well" before *homō albus currit bene*; transitive-intransitive: "Socrates runs" / "I strike Socrates" / "the son of Socrates" before Priscian and Thomas; valency: *pluit*, "sleeps," "strikes," "gives" before Tesnière.
+- "while" → "whereas"; "in paraphrase" removed.
+**v.mood**
+- English lead-ins before the impersonal passive ("There was fighting"), indirect statement, and the independent subjunctive; Section I recall now "command, ask, and pray as well as state."
+- "while keeping the meaning" → "but keeps the meaning"; "in paraphrase" removed (Priscian).
+**v.order**
+- natural from "men and women," "day and night," "The boy runs" before Quintilian and Priscian; emphasis: *Galliam Caesar vīcit* before Quintilian's quotation.
+- Acts 3:6 introduced as "In the familiar English of the Bible"; "the Bible, King James Version" added to the deck's sources line.
+- "while" → "whereas"; "in paraphrase" removed (Priscian, Greenberg).
+**v.period**
+- Realities openings on what-period, continuous-periodic (a child's "and … and" story before Aristotle), members, end-with-sense; loose-periodic: sentences before the terms.
+- "Two topics remain" → "Two further topics of construction are"; "in paraphrase" removed (Demetrius).
+**v.figures**
+- Everyday examples before the definitions of ellipsis ("Where are you going?" "Home."), zeugma, syllepsis ("Neither he nor they are coming"), hendiadys ("nice and warm"); repeats trimmed; "in paraphrase" removed (Donatus).
