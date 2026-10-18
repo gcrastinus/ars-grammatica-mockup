@@ -81,7 +81,7 @@ ARS.decks['i.syncategorematic'] = {
 
 { id: 'why-grammar',
   title: 'Why does grammar need this distinction?',
-  body: `<p>Because syncategorematic words determine how the other words are taken, a careful reader must notice them, and a careful writer must place them exactly. A small change in such a word, or in its position, can change the whole meaning of a sentence. For example, “Man shall not live by bread alone” (Matthew 4:4, King James Version) does not say that man does not live by bread; the word “alone” (that is, “only”) makes the sentence deny only that bread is enough.</p>
+  body: `<p>Grammar needs this distinction because syncategorematic words determine how the other words are taken, so a careful reader must notice them, and a careful writer must place them exactly. A small change in such a word, or in its position, can change the whole meaning of a sentence. For example, “Man shall not live by bread alone” (Matthew 4:4, King James Version) does not say that man does not live by bread; the word “alone” (that is, “only”) makes the sentence deny only that bread is enough.</p>
 <p>The position of these words matters as well. “Not every student passed” says that at least one student failed. “Every student did not pass” can mean that no student passed, or it can mean, as many speakers intend it, that not every student passed; so the place of “not” leaves the second sentence open to two readings. Likewise, “She only lent him the book” and “She lent only him the book” use the same words, but “only” limits a different word in each. We will see, when we come to ambiguity later in this section, that such words are one source of sentences with two meanings.</p>`,
   src: `Matthew 4:4 (King James Version).` },
 

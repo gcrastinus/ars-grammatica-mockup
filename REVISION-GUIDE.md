@@ -271,3 +271,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.syncategorematic, kinds: reordered to begin from realities (the four groups, each with an example of what the word does), a new paragraph on what they have in common, and William of Sherwood last.
 - 17 Oct 2026: i.syncategorematic, kinds: dropped "do" after "only" and "except"; last paragraph now opens "One of the best known treatises on this from the tradition is…"
 - 17 Oct 2026: i.syncategorematic, q-not-parts variant B: correct option shortened to "Because it asks whether a word signifies something definite by itself."
+- 17 Oct 2026: i.syncategorematic, why-grammar: opens "Grammar needs this distinction because syncategorematic words determine how the other words are taken, so…"
