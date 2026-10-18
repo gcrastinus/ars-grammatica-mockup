@@ -36,7 +36,20 @@ ARS.decks['ii.meter'] = {
   body: `<p>When we read aloud the first line of Longfellow’s <i>Evangeline</i>, “This is the forest primeval. The murmuring pines and the hemlocks,” we hear six beats, and most of them are followed by two weaker syllables: THIS is the | FOR-est pri | ME-val. The | MUR-mur-ing | PINES and the | HEM-locks. Longfellow made the line in imitation of the ancient epic line. The <strong>dactylic hexameter</strong> is the meter of Greek and Latin epic, the meter of Homer, Virgil, and Ovid’s <i>Metamorphoses</i>. It is a line of six feet. Each of the first four feet may be a dactyl or a spondee; the fifth foot is nearly always a dactyl; and the sixth foot has two syllables, the last of which may be long or short. So the close of the line, – ∪ ∪ | – –, is the most fixed part of it, and in measuring a line we begin from there.</p>
 <p>The first line of the <i>Aeneid</i> is <i>Arma virumque cano, Troiae qui primus ab oris</i>, “Arms and the man I sing, who first made way, / predestined exile, from the Trojan shore.” With its long vowels marked, it is measured <i>Ar-ma vi | rum-que ca | nō Trō | iae quī | prī-mus ab | ō-rīs</i>: dactyl, dactyl, spondee, spondee, dactyl, and a final foot of two syllables. The first syllable of <i>Arma</i> is long by position, and the <i>a</i> of <i>ab</i> is short because it is followed by only one consonant before the next vowel.</p>`,
   src: `Virgil, <i>Aeneid</i> I.1 (trans. T. C. Williams); Allen and Greenough, <i>New Latin Grammar</i> § 615.`,
-  qpTodo: `Measuring a hexameter: given a line with its long vowels marked, which feet are dactyls and which spondees, and why the fifth foot is a dactyl.` },
+  qp: { id: 'q-hexameter', variants: [
+    { prompt: `With its long vowels marked, <i>Tantae mōlis erat Rōmānam condere gentem</i> (word for word, “of so great labor was it to found the Roman race,” <i>Aeneid</i> I.33) is measured <i>Tan-tae | mō-lis e | rat Rō | mā-nam | con-de-re | gen-tem</i>. Which of the first four feet are spondees?`,
+      options: [`The second and fourth`, `The first, third, and fourth`, `All four`, `The first, second, and third`],
+      answer: 1,
+      explain: `<i>Tan-tae</i>, <i>rat Rō</i>, and <i>mā-nam</i> are each two long syllables, so the first, third, and fourth feet are spondees; <i>mō-lis e</i> is a long and two shorts, a dactyl. The <i>a</i> of <i>rat</i> is short, but the syllable is long by position, because <i>t</i> and <i>R</i> follow it.` },
+    { prompt: `Why do we begin measuring a hexameter from the end of the line?`,
+      options: [`Because the first foot is always a spondee`, `Because the accent of the line falls on its last word`, `Because the fifth and sixth feet rarely vary`, `Because the last word of the line is always the longest`],
+      answer: 2,
+      explain: `Each of the first four feet may be a dactyl or a spondee, but the fifth foot is nearly always a dactyl and the sixth has two syllables. So the close of the line, – ∪ ∪ | – –, is the most fixed part, and the measuring of the rest can start from it.` },
+    { prompt: `With its long vowels marked, <i>Tītyre, tū patulae recubāns sub tegmine fāgī</i> (word for word, “Tityrus, you, lying back under the cover of a spreading beech,” <i>Eclogues</i> I.1) is measured <i>Tī-ty-re | tū pa-tu | lae re-cu | bāns sub | teg-mi-ne | fā-gī</i>. Which of the first four feet is a spondee?`,
+      options: [`The fourth, <i>bāns sub</i>`, `The first, <i>Tī-ty-re</i>`, `The third, because <i>lae</i> is a diphthong`, `None; all four are dactyls`],
+      answer: 0,
+      explain: `<i>Bāns</i> is long by nature, and <i>sub</i>, though its <i>u</i> is short, is long by position, because <i>b</i> and the <i>t</i> of <i>tegmine</i> follow it. So the fourth foot is a spondee. The first three feet are dactyls: <i>lae</i> is long, but the two syllables after it, <i>re-cu</i>, are short.` }
+  ]}},
 
 { id: 'caesura',
   title: 'The caesura',
@@ -79,7 +92,20 @@ ARS.decks['ii.meter'] = {
   body: `<p>English verse is measured by stress, not by quantity. An English foot is a group of one stressed syllable with one or two unstressed ones, and English uses the Greek names of the feet for these groups:<br><strong>iamb</strong>, unstressed and stressed, as in “be-HOLD”;<br><strong>trochee</strong>, stressed and unstressed, as in “TI-ger”;<br><strong>anapest</strong>, two unstressed and a stressed, as in “in the NIGHT”;<br><strong>dactyl</strong>, a stressed and two unstressed, as in “MUR-mur-ing.”</p>
 <p>A line is named by its foot and by the number of its feet: a line of four feet is a tetrameter, of five a pentameter, of six a hexameter. So the English iamb and the Latin iamb have the same name and the same order, but the English iamb is unstressed and stressed, whereas the Latin iamb is short and long. A stressed English syllable may be short in duration, and a Latin long syllable need not bear the accent.</p>`,
   src: `Standard handbooks of English versification, in paraphrase.`,
-  qpTodo: `English feet: given an English word or phrase (“behold,” “tiger,” “in the night,” “murmuring”), name its foot, and say how the English iamb differs from the Latin iamb.` },
+  qp: { id: 'q-feet', variants: [
+    { prompt: `The word “away” is pronounced a-WAY. What foot is it?`,
+      options: [`A trochee`, `An iamb`, `A dactyl`, `An anapest`],
+      answer: 1,
+      explain: `“Away” has an unstressed syllable followed by a stressed one, so it is an iamb, like “be-HOLD.” A trochee is the reverse, stressed and unstressed, as in “TI-ger.”` },
+    { prompt: `The word “merrily” is pronounced MER-ri-ly. What foot is it?`,
+      options: [`An anapest`, `An iamb`, `A trochee`, `A dactyl`],
+      answer: 3,
+      explain: `“Merrily” has a stressed syllable followed by two unstressed ones, so it is a dactyl, like “MUR-mur-ing.” An anapest is the reverse order, two unstressed syllables and a stressed one, as in “in the NIGHT.”` },
+    { prompt: `The English iamb and the Latin iamb have the same name. How do they differ?`,
+      options: [`English: stressed, unstressed; Latin: short, long`, `They do not differ: both are short, long`, `English: unstressed, stressed; Latin: short, long`, `They do not differ: both are unstressed, stressed`],
+      answer: 2,
+      explain: `English verse is measured by stress, so the English iamb is an unstressed and a stressed syllable, as in “be-HOLD.” Latin verse is measured by quantity, so the Latin iamb is a short and a long syllable, as in <i>amō</i>. The order is the same, but the measure is different: a stressed English syllable may be short, and a long Latin syllable need not bear the accent.` }
+  ]}},
 
 { id: 'pentameter',
   title: 'The iambic pentameter and its variations',
@@ -92,7 +118,20 @@ ARS.decks['ii.meter'] = {
   body: `<p>We have now seen that verse can be measured in different ways according to the language. Greek and Latin verse is measured by <strong>quantity</strong>, the pattern of long and short syllables. English verse is measured by <strong>stress</strong> as well as by the number of syllables. German verse is measured in the same way as English; Martin Opitz, in his <i>Buch von der deutschen Poeterey</i> (1624), laid down that the beat of a German line must fall on the syllable that the word itself stresses. French verse is measured chiefly by the <strong>number of syllables</strong>: the classical French line, the alexandrine, has twelve syllables, with a pause after the sixth, as in the first line of Racine’s <i>Phèdre</i>, in which Hippolytus tells Theramenes that he has decided to leave: <i>Le dessein en est pris, je pars, cher Théramène</i> (<i>Phèdre</i> I.1.1).</p>
 <p>So the measure of verse depends on the sound of the language. A language that distinguishes long and short syllables can measure by quantity; a language with a strong stress, such as English or German, measures by stress; and a language with a weak stress, such as French, counts syllables. This is the reason that a Latin meter cannot simply be copied into English by putting stresses where the Latin has long syllables.</p>`,
   src: `Opitz, <i>Buch von der deutschen Poeterey</i> (1624), ch. 7, in paraphrase; Racine, <i>Phèdre</i> I.1.1 (checked against the text of the first edition, 1677, as encoded by FreDraCor).`,
-  qpTodo: `How verse is measured: given a line (Latin, English, German, or French), say whether its meter counts quantity, stress, or number of syllables, and why the language determines this.` }
+  qp: { id: 'q-measure', variants: [
+    { prompt: `A line of Virgil’s <i>Aeneid</i> is measured by what?`,
+      options: [`Stress`, `Rhyme`, `Quantity`, `The number of words`],
+      answer: 2,
+      explain: `Greek and Latin verse is measured by quantity, the pattern of long and short syllables, not by stress or rhyme. A hexameter is six feet of dactyls and spondees, whatever the stresses of its words.` },
+    { prompt: `Opitz laid down that the beat of a German line must fall on the syllable that the word itself stresses. So German verse is measured by what?`,
+      options: [`By stress, as English verse is`, `By quantity, as Latin verse is`, `By the number of syllables alone, as French verse is`, `By rhyme alone`],
+      answer: 0,
+      explain: `German, like English, has a strong stress, so German verse is measured by stress as well as by the number of syllables. Opitz’s rule requires that the beat of the meter coincide with the stress of the word.` },
+    { prompt: `The classical French line, the alexandrine, counts twelve syllables. Why does French verse count syllables rather than stresses?`,
+      options: [`Because French poets imitated Latin quantity`, `Because French lines must rhyme`, `Because French words have no syllables of different length`, `Because French has a weak stress`],
+      answer: 3,
+      explain: `The measure of verse depends on the sound of the language. A language with a strong stress, such as English or German, measures by stress; a language with a weak stress, such as French, counts syllables instead. Rhyme is a separate ornament and does not measure the line.` }
+  ]}}
 
   ]
 };
