@@ -17,7 +17,7 @@ ARS.structure = [
  { id:'i', roman:'I', latin:'De signo et voce significativa', name:'Sign and Significant Voice',
    gloss:'What a word is as a sign: imposed, signifying, and joined to other words.',
    items:[
-   { id:'i.sign', kind:'study', built:true, title:'Sign and Symbol', desc:'Natural and given signs, and the spoken word as a symbol of what is in the mind.' },
+   { id:'i.sign', kind:'study', built:true, title:'Sign and Symbol', desc:'Natural and conventional signs, and the spoken word as a sign of what is in the mind.' },
    { id:'i.imposition', kind:'study', built:true, title:'Imposition', desc:'How does a sound come to signify by the will of those who first used it? What are first and second imposition?' },
    { id:'i.consignification', kind:'study', built:true, title:'Signification and Consignification', desc:'What does a word mean, and what does it signify along with that meaning: time and the other accidents, the mode of signifying, and the composition signified by the verb?' },
    { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },

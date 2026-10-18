@@ -12,7 +12,7 @@ ARS.decks['prelim.methodice'] = {
 { id: 'two-parts',
   title: 'What are the two parts of grammar?',
   body: `<p>Quintilian, as we saw earlier, divides the profession of the grammarian into two parts, the art of speaking correctly and the interpretation of the poets (<i>Institutio oratoria</i> I.4.2). When he finishes treating these two parts, he names them again: “I have now finished with two of the departments, with which teachers of literature profess to deal, namely the art of speaking correctly and the interpretation of authors”; he adds “of which the Greeks call the first <i>methodice</i> and the second <i>historice</i>” (<i>Institutio oratoria</i> I.9.1).</p>
-<p>So the part of grammar that teaches the precepts of the art is the part concerned with precepts (<i>methodice</i>, from the Greek for the methodical part), and the part that interprets the authors is interpretation (<i>historice</i>, from the Greek for the part that gives an account of the authors). The next two cards take each part in turn.</p>`,
+<p>So the part of grammar that teaches the precepts of the art is the part concerned with precepts (<i>methodice</i>, from the Greek for the methodical part), and the part that interprets the authors is interpretation (<i>historice</i>, from the Greek for the part that gives an account of the authors). We take each part in turn.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.9.1 (the Latin from the Perseus text).` },
 
 { id: 'methodice',
