@@ -275,3 +275,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.syncategorematic, why-grammar: "(Matthew 4:4)" in the text; King James Version moved to the deck sources line.
 - 17 Oct 2026: i.syncategorematic, why-grammar: added closing paragraph "The above are simple examples… with correctness and exactitude."
 - 17 Oct 2026: i.syncategorematic: "while" to "whereas" in "single horse is black, whereas 'Some horse is white'".
+- 17 Oct 2026: i.syncategorematic: "Grammar names these words and shows" to "Grammar names the syncategorematic words and indicates which words in a language they are and shows".
