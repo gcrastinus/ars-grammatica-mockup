@@ -314,3 +314,47 @@ L addendum (Oct 17, after Claude's revision pass):
 - ii.punctuation / sense: the "teacher said the student" example (already on i.ambiguity / pause) replaced by a restrictive-clause pair ("The students, who had finished, went home").
 - No pointers: "this section considers … in that order" and "which we study next" rewritten.
 - Titles: ii.letter "Quintilian on letters that are lacking or superfluous" → "Letters that are superfluous or lacking."
+- 18 Oct 2026 (Timothy's instructions): ii.meter: the foot, hexameter (Longfellow, *Evangeline*), caesura (Pope, "To err is human, to forgive divine"), elegiac couplet (Coleridge's couplet on the meter), and iambic dimeter (the doxology "Praise God, from whom all blessings flow") now open with a familiar line read aloud before the definition; consonant, diphthong, and short syllable also open with an example; the Greek accent card still opens from the tradition. "In paraphrase" removed from the body text of ii.syllable card 1 (twice), ii.quantity card 6, and ii.punctuation card 2; src notes unchanged.
+
+## Q. Log: Sections III–XI revision pass (18 Oct 2026, Claude; awaiting Timothy's review)
+
+Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doctrine, citations, quotations, Latin and Greek, ids, and the 186 qpTodo placeholders unchanged. Common to all decks: realities or English examples before definitions and authorities; "in paraphrase" removed from body text (Timothy, 18 Oct 2026; src notes kept); contrastive "while" → "whereas"; no pointers to other decks or cards; important recurring lists on separate lines, passing lists in prose. The iv.etymology cratylus card was not touched.
+
+### Section III
+**iii.parts**
+- what-word opens from dividing "The sailor waits for the tide" into words and syllables; Priscian and Dionysius Thrax after. parts-of-speech opens from "The girl sings in the garden."
+- Each part's card (noun, pronoun, verb, participle, adverb and preposition, conjunction and interjection) now gives examples first, then the part in bold, then Donatus's definition; the eight parts stay on separate lines.
+- by-use: Priscian (II.17) moved to the end; "in paraphrase" removed (*Technē* 11); "Every English grammar uses it" → "English grammars use it"; declinable: no deck pointer.
+**iii.reasons**
+- why-ask opens from the student's question; three-modes from "Consider a running horse" (thing, mind, word before the names; the three modes on separate lines); essential-accidental from "horse," "horses," "horse's."
+- Examples before the modists on the noun ("white horse"), pronoun ("he," "this"), verb-participle ("The horse runs"), and indeclinable cards; "in paraphrase" removed (St. Thomas).
+**iii.figure**
+- two-accidents from able/unable and king/kingdom; four-ways from "sunflower" and "holiday" (Donatus's four ways in prose with ordinals); species: English and Latin pairs before Priscian; "in paraphrase" removed.
+**iii.homonymy**
+- homonyms from "bear," "pitcher," "seal" ("bank" is already in i.ambiguity); *aciēs* kept as Donatus's example and recalled from Section I; synonyms, paronyms ("grammarian"/"grammar," "courageous"/"courage"), and homophones ("right"/"write"/"rite") from English first; "while" → "whereas"; "in paraphrase" removed.
+**iii.noun-1**
+- accidents opens from the ways nouns differ; Donatus's six accidents on separate lines; quality, common-kinds (concrete/abstract; collective from "crowd," "army"), comparison ("Peter is tall / taller / the tallest"), and which-compared open from examples, Donatus after; "in paraphrase" removed.
+**iii.noun-2**
+- gender from "he," "she," "it" said of a father, a mother, a table; number from horse/horses; case from he/him, *puella*/*puellam* (Donatus's six cases on separate lines); declension from reciting *puella*; "in paraphrase" removed (Thomas of Erfurt, Priscian).
+**iii.pronoun**
+- Donatus's six accidents on separate lines; quality, person, demonstratives ("this book," "that book"), relative, interrogative-indefinite ("Who came?" "Someone knocked"), reflexive-possessive ("Marcus praises himself") open from examples; "while" → "whereas."
+**iii.verb-1**
+- Realities first: accidents ("She sings," "Sing!," "She is praised," "They sang"); mood ("He reads the letter," "Read the letter!," "If only he were reading the letter!"; Donatus's *in modis et in formis* last); indicative-imperative; infinitive-impersonal ("I want to read," "She can swim"); subjunctive (*utinam veniat* / *cum veniat* before Donatus); voice ("The girl praises the poet" / "The poet is praised by the girl"); neuter ("I stand / I run / I sleep"); deponent (*loquor* beside *laudor*); common.
+- Donatus's seven accidents of the verb on separate lines; the four forms as a prose list with ordinals.
+- Kinds of sentence now "state, ask, command, pray, and call" (matching Section I; was "wish").
+- "In paraphrase" removed from body text; "we study them next" rewritten.
+**iii.verb-2**
+- Examples before definitions on tense, conjugation (*amat*, *laudat* / *regit*, *dūcit*), principal parts ("swim, swam, swum"), parsing (*laudābantur*); Varro placed as "the Roman scholar Varro."
+- "While" → "whereas" (six-tenses, person-number); "in paraphrase" removed from body text (Varro, Smyth, Thomas of Erfurt, St. Thomas); within-deck pointer on perfect-system rewritten.
+**iii.participle**
+- accidents opens with "the boy, reading a book, laughed"; latin-participles from "praising," "praised," "about to praise," "to be praised"; gerundive from "about to die" and "a book to be read."
+- modist: "whereas"; "in paraphrase" removed.
+**iii.adverb**
+- First card: "We walked slowly," "He arrived late" before Donatus; signification from "here," "now," "well," "twice," "not" (list kept on separate lines); figure from "soon"/"meanwhile"; what-modifies examples before Donatus and Priscian.
+- "In paraphrase" removed; "We will study … in turn" → "…which we consider in turn in this section of the course."
+**iii.preposition**
+- First card from "to the city," "with a friend," "under the bridge"; composition from "inscribe," "describe," "prescribe" before Donatus; "in paraphrase" removed.
+**iii.conjunction**
+- First card: "bread and wine" etc. before Priscian; power: four example sentences before Donatus's five kinds (kept on separate lines); order: *senātus populusque*, *Caesar autem* before Donatus; figure: "but"/"nevertheless"; "in paraphrase" removed throughout.
+**iii.interjection**
+- First card from "Oh dear," "Goodness!"; signification paragraphs swapped (English first); vocative: "O Lord, open thou our lips" before Latin *ō* and *Pro Archia*; "in paraphrase" removed.
