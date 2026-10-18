@@ -46,7 +46,7 @@ ARS.decks['ii.quantity'] = {
 
 { id: 'short-and-vowel-vowel',
   title: 'Short syllables and a vowel before a vowel',
-  body: `<p>When <i>dominus</i> (“master”) is pronounced correctly, the voice passes quickly over its first two syllables, because nothing in them holds it back. A syllable is <strong>short</strong> when its vowel is short and it is open, that is, when no more than one consonant follows the vowel before the next vowel. So the first two syllables of <i>do-mi-nus</i> (“master”) are short, and so is the first syllable of <i>ca-put</i> (“head”).</p>
+  body: `<p>When <i>tabula</i> (“tablet”) is pronounced correctly, the voice passes quickly over its first two syllables, because nothing in them holds it back. A syllable is <strong>short</strong> when its vowel is short and it is open, that is, when no more than one consonant follows the vowel before the next vowel. So the first two syllables of <i>ta-bu-la</i> (“tablet”) are short, and so is the first syllable of <i>ca-put</i> (“head”).</p>
 <p>A vowel that stands directly before another vowel is usually short, even if it would otherwise be long. So the <i>u</i> of <i>pu-el-la</i> (“girl”) is short, and so is the <i>e</i> of <i>de-us</i> (“god”). The breathing <i>h</i> does not count as a consonant here, so the first <i>i</i> of <i>ni-hil</i> (“nothing”) also stands before a vowel. (The second syllable of <i>pu-el-la</i> is long by position, because two consonants, <i>l</i> and <i>l</i>, follow its short <i>e</i>.)</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 10; Allen, <i>Vox Latina</i>, in paraphrase.` },
 
