@@ -24,7 +24,7 @@ ARS.decks['ii.letter'] = {
 <p><strong>Name</strong> (<i>nomen</i>): what we call the letter when we speak of it. The English letter C is called “see,” and the Latin letter was called <i>ce</i>.<br><strong>Figure</strong> (<i>figura</i>): the shape of the letter as it is written, such as C, c, or the cursive <i>c</i>.<br><strong>Power</strong> (<i>potestas</i>): the sound that the letter stands for. The C of English “cat” has the power of the sound /k/ (a sound, as distinct from a letter, is written between slashes), and so did every Latin C.</p>
 <p>One figure may have more than one power, as English C has one power in “cat” and another in “city.” And one power may have more than one figure, as the English sound /k/ is written with c in “cat,” k in “kit,” and ck in “back.”</p>`,
   src: `Donatus, <i>Ars maior</i> I.2.`,
-  qpTodo: `Name, figure, and power: given a description (“the sound /s/ that C has in ‘city’,” “the shape C,” “the name ‘see’”), say which accident it is.` },
+  qpTodo: `Name, figure, and power: given a description (“the sound /s/ that C has in ‘city,’” “the shape C,” “the name ‘see’”), say which accident it is.` },
 
 { id: 'vowels',
   title: 'Vowels',
