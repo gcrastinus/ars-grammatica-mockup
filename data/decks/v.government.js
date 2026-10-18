@@ -31,7 +31,7 @@ ARS.decks['v.government'] = {
 
 { id: 'prepositions',
   title: 'Prepositions and government',
-  body: `<p>We saw in Section III that each Latin preposition governs a particular case: <i>ad</i>, <i>per</i>, and <i>post</i> the accusative; <i>ab</i>, <i>cum</i>, and <i>ex</i> the ablative. We also saw that <i>in</i> and <i>sub</i> govern either case with a difference of meaning: <i>in urbem</i>, “into the city” (motion toward), and <i>in urbe</i>, “in the city” (rest in a place).</p>
+  body: `<p>We saw in Section III that each Latin preposition governs a particular case: <i>ad</i>, <i>per</i>, and <i>post</i> the accusative; <i>ab</i>, <i>cum</i>, and <i>ex</i> the ablative. We also saw that <i>in</i> and <i>sub</i> govern either case with a difference of meaning: <i>in castra</i>, “into the camp” (motion toward), and <i>in castrīs</i>, “in the camp” (rest in a place).</p>
 <p>The government of a preposition is the clearest example of what government means, because the preposition has no case of its own and exists only to relate its noun to another word. The case it governs is part of what it signifies: <i>in</i> with the accusative signifies motion into, and <i>in</i> with the ablative signifies position in. English shows the same distinction with two different prepositions, “into” and “in.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 220–221.`,
   qpTodo: `Prepositions and their cases: which case does a given preposition govern in a given phrase, and what does the case add to its meaning (<i>in urbem</i>, <i>in urbe</i>, <i>cum amīcō</i>).` },
@@ -45,14 +45,14 @@ ARS.decks['v.government'] = {
 
 { id: 'english',
   title: 'Government in English',
-  body: `<p>English shows government less plainly than Latin, because its nouns no longer show case. But government remains in two places. First, many English verbs, nouns, and adjectives require a particular preposition: we “listen to,” “wait for,” “depend on,” and are “afraid of,” and to change the preposition (“depend of”) is an error. Second, a preposition or verb governs the objective case of a pronoun: “between you and me,” “Give it to him and me,” “whom did you see?”</p>
-<p>The common error “between you and I” is a failure of government, because “between” is a preposition and requires the objective case of both pronouns. Latin makes the same requirement visible in the ending: <i>inter tē et mē</i>, not <i>inter tē et ego</i>. So where English has lost its endings, government still exists, but its marks are fewer, and a speaker must know the rule even where the form does not show it.</p>`,
+  body: `<p>English shows government less plainly than Latin, because its nouns no longer show case. But government remains in two places. First, many English verbs, nouns, and adjectives require a particular preposition: we “listen to,” “wait for,” “depend on,” and are “afraid of,” and to change the preposition (“depend of”) is an error. Second, a preposition or verb governs the objective case of a pronoun: “for you and me,” “Give it to him and me,” “whom did you see?”</p>
+<p>The common error “for you and I” is a failure of government, because “for” is a preposition and requires the objective case of both pronouns. Latin makes the same requirement visible in the ending: <i>prō tē et mē</i>, not <i>prō tē et ego</i>. So where English has lost its endings, government still exists, but its marks are fewer, and a speaker must know the rule even where the form does not show it.</p>`,
   src: `Standard English grammars, in paraphrase.`,
   qpTodo: `Analysis: in a given English sentence, which word governs the marked pronoun or preposition, and which form does it require (“between you and me,” “listen to,” “whom”).` },
 
 { id: 'governed-governing',
   title: 'The governing word and the governed',
-  body: `<p>In every case of government there is a <strong>governing</strong> word and a <strong>governed</strong> word. In <i>legiōnem dūcit</i>, <i>dūcit</i> governs and <i>legiōnem</i> is governed; in <i>ad urbem</i>, <i>ad</i> governs and <i>urbem</i> is governed; in <i>perītus bellī</i> (“skilled in war”), <i>perītus</i> governs and <i>bellī</i> is governed. The governing word is the one whose meaning requires completion, and the governed word supplies it in the required form.</p>
+  body: `<p>In every case of government there is a <strong>governing</strong> word and a <strong>governed</strong> word. In <i>legiōnem dūcit</i>, <i>dūcit</i> governs and <i>legiōnem</i> is governed; in <i>ad portum</i>, <i>ad</i> governs and <i>portum</i> is governed; in <i>perītus bellī</i> (“skilled in war”), <i>perītus</i> governs and <i>bellī</i> is governed. The governing word is the one whose meaning requires completion, and the governed word supplies it in the required form.</p>
 <p>A sentence usually contains several relations of government at once. In <i>tabellārius epistulam ad rēgem fert</i>, “the courier carries the letter to the king,” <i>fert</i> governs <i>epistulam</i> in the accusative, and <i>ad</i> governs <i>rēgem</i> in the accusative. To analyze a sentence is in part to find each governing word and what it governs.</p>`,
   src: `Peter Helias, <i>Summa super Priscianum</i>; Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.` },
 
