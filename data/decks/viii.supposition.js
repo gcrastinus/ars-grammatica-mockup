@@ -15,20 +15,17 @@ ARS.decks['viii.supposition'] = {
 
 { id: 'review-signification',
   title: 'Signification: a review',
-  body: `<p>We saw in Section I that a word signifies by imposition: speakers have set a sound to signify something, and the word signifies things by means of the concepts of the mind. So “man” signifies the nature of man, a rational animal, and it signifies this in every sentence in which it is used. What a word signifies by its imposition does not change from one sentence to another.</p>
-<p>We also saw that the word is the least part of a sentence that signifies, and that only a statement is true or false. A word by itself, such as “man,” signifies but says nothing true or false. In this section we ask a further question, which arises only when a word is used in a statement: in this statement, what does the word stand for?</p>`,
+  body: `<p>We have seen in Section I that a word signifies by imposition, and that what it signifies does not change from one sentence to another: “man” signifies the nature of man in every sentence in which it is used. We have also seen that only a statement is true or false. In this section we ask a further question, which arises only when a word is used in a statement: in this statement, what does the word stand for?</p>`,
   src: `Aristotle, <i>De interpretatione</i> 1–4, in paraphrase.` },
 
 { id: 'review-modes',
   title: 'The modes of signifying: a review',
-  body: `<p>We saw in Section III that the modists distinguished the mode of being, the mode of understanding, and the mode of signifying, and that the parts of speech differ by their modes of signifying: the noun signifies by the mode of a stable thing, the verb by the mode of becoming. We also saw that “running” and “runs” signify the same activity in different modes.</p>
-<p>The modists considered how words signify in order to explain their construction. The logicians of the same century, beginning from the same doctrine of signification, asked how words function in statements that are true or false. Their answer was the doctrine of supposition, which the grammarian must know because it explains how the same noun can refer to different things in different sentences.</p>`,
+  body: `<p>We have seen in Section III that the parts of speech differ by their modes of signifying, so that “running” and “runs” signify the same activity in different modes. The modists considered how words signify in order to explain their construction. The logicians of the same century, beginning from the same doctrine of signification, asked how words function in statements that are true or false. Their answer was the doctrine of supposition, which the grammarian must know because it explains how the same noun can refer to different things in different sentences.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.` },
 
 { id: 'review-syncategorematic',
   title: 'Syncategorematic words: a review',
-  body: `<p>We saw in Section I that some words signify by themselves, such as “man” and “runs,” and are called categorematic, and that others, such as “every,” “no,” “some,” and “not,” signify only with other words and are called syncategorematic. We saw that the syncategorematic words do not bring a thing to mind but determine how the other words are taken: “every man” and “some man” signify the same nature, but they say different things about how many men are meant.</p>
-<p>The doctrine of supposition is largely an account of what these words do. A noun stands for different things according to the syncategorematic words that go with it, and according to its place in the statement. So supposition depends on the distinction between categorematic and syncategorematic words, and on the order of words, which we studied in Section V.</p>`,
+  body: `<p>We have seen in Section I that categorematic words such as “man” and “runs” signify by themselves, whereas syncategorematic words such as “every,” “no,” “some,” and “not” determine how the other words are taken. The doctrine of supposition is largely an account of what these words do. A noun stands for different things according to the syncategorematic words that go with it, and according to its place in the statement. So supposition depends on the distinction between categorematic and syncategorematic words, and on the order of words, which we studied in Section V.</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i> (Kretzmann for reference), in paraphrase.` },
 
 { id: 'what-supposition',
