@@ -99,6 +99,9 @@ body.recite-lock .recite-open{visibility:hidden}
   border-radius:12px; box-shadow:var(--shadow);
 }
 .recite-callout[hidden]{display:none !important}
+.recite-callout{padding-right:34px}
+.recite-callout-x{position:absolute; top:6px; right:10px; font-size:20px; line-height:1; color:var(--ink-soft); opacity:.75}
+.recite-callout:hover .recite-callout-x{opacity:1; color:var(--ink)}
 .recite-callout:hover{border-color:var(--gold-soft)}
 .recite-callout:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
 @media (max-width:1240px){

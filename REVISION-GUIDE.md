@@ -569,3 +569,4 @@ Timothy's instruction: realities first, then the principle, then the tradition; 
 - 18 Oct 2026 (Timothy): ii.voice "priscian-four" ends with a sentence saying the course keeps Donatus’s sense of “articulate,” while Priscian’s question whether a voice signifies is what tells us what a word is.
 - 18 Oct 2026 (Timothy): the Recitation Tablet button shows only on the homepage; on deck and exercise screens it is hidden and the extra top space it needed below 1100px is removed (body.off-home, padding 70px to clear the audio controls). The tablet is not connected with the language screens.
 - 18 Oct 2026 (Timothy): ii.voice "languages": the phonetics/phonology sentence expanded to say what each studies.
+- 18 Oct 2026 (Timothy): recitation reminder callout gets a small × in its top right corner (the whole box still closes on click).
