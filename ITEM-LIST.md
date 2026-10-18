@@ -602,6 +602,8 @@ XI is kept as planned: two large decks with no exercises. Its question points no
 
 **Self-check.** Each point in the full recitation has a small box. The student checks off the points the recitation covered, the way a student once compared a recitation against the text. Nothing is graded or scored automatically, and nothing is saved beyond the browser, where the last text written for each deck may be kept so the student can return to it.
 
+**Later: printout.** At a later stage, add a print view that sets the student's recitation beside the full recitation, with the student's checked and unchecked boxes shown, so the student can keep a record of the exercise.
+
 **No automatic grader (decided 17 Oct 2026).** A keyword-and-synonym checker was considered and rejected. Students often state a point correctly in their own words without the expected keywords, so the checker would fail to register points that are plainly in the text, and it cannot tell a point stated correctly from one stated wrongly ("the noun consignifies time" and "the verb consignifies time" share every keyword). A wrong mark is worse than no mark. A light hint that highlights points whose key terms appear in the student's text may be considered later, as a hint only and never as a judgment. Everything runs in the browser, with no API key and no server.
 
 **Build order.** Build the tablet's interface once the Section I decks are settled, starting with recitations for Section I. Write each deck's recitation after its cards are final, so the two match.
