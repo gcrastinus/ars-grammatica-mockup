@@ -13,8 +13,8 @@ ARS.decks['iv.composition'] = {
 
 { id: 'figure-again',
   title: 'Composition and figure',
-  body: `<p>We saw in Section III that figure is the accident by which a word is simple or compound, and that Donatus gives <i>potēns</i> (“powerful”) as a simple word and <i>impotēns</i> (“powerless”) as a compound. We also saw his four ways of compounding: from two whole words, from two changed words, from a whole word and a changed one, and from a changed word and a whole one. Here we study how compounds are formed and what they signify.</p>
-<p><strong>Composition</strong> is the joining of two or more words, or parts of words, to make one word. It differs from derivation, as we have seen, because in composition each part can usually stand as a word by itself, while in derivation the suffix cannot. So “bookcase” is a compound, made of “book” and “case,” while “booklet” is derived, made of “book” and the suffix “-let.”</p>`,
+  body: `<p>English speakers make and understand words such as “sunrise,” “doorbell,” and “rainfall” without effort, because each is made of two words that can stand by themselves. “Booklet” is different: it is made of “book” and the ending “-let,” which cannot stand as a word by itself. The first kind of word is formed by <strong>composition</strong>, that is, the joining of two or more words, or parts of words, to make one word. It differs from derivation, as we have seen, because in composition each part can usually stand as a word by itself, whereas in derivation the suffix cannot. So “sunrise” is a compound, whereas “booklet” is derived.</p>
+<p>We saw in Section III that figure is the accident by which a word is simple or compound, and that Donatus gives <i>potēns</i> (“powerful”) as a simple word and <i>impotēns</i> (“powerless”) as a compound. We also saw his four ways of compounding: from two whole words, from two changed words, from a whole word and a changed one, and from a changed word and a whole one. The question now is how compounds are formed and what they signify.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the figure of the noun; Priscian, <i>Institutiones grammaticae</i> V, in paraphrase.` },
 
 { id: 'latin',
@@ -32,7 +32,7 @@ ARS.decks['iv.composition'] = {
 
 { id: 'english',
   title: 'English compounds',
-  body: `<p>English forms compounds of many kinds:<br>noun and noun: “bookcase,” “toothbrush,” “railroad”;<br>adjective and noun: “blackbird,” “greenhouse,” “highway”;<br>verb and noun: “pickpocket,” “breakwater”;<br>noun and agent noun: “shoemaker,” “housekeeper”;<br>adjective and participle: “good-looking,” “kind-hearted.”</p>
+  body: `<p>English forms compounds of many kinds: first, of noun and noun, as “bookcase,” “toothbrush,” and “railroad”; second, of adjective and noun, as “blackbird,” “greenhouse,” and “highway”; third, of verb and noun, as “pickpocket” and “breakwater”; fourth, of a noun and an agent noun (a noun that names the doer of an action), as “shoemaker” and “housekeeper”; and fifth, of an adjective and a participle, as “good-looking” and “kind-hearted.”</p>
 <p>In most English compounds the last part is the principal one, and the first part determines it. A “houseboat” is a kind of boat, and a “boathouse” is a kind of house; a “toothbrush” is a brush, and a “bookcase” is a case. The principal part is often called the <strong>head</strong> of the compound. So the order of the parts matters, as it does in an English phrase, and the meaning of the compound depends on it.</p>`,
   src: `Marchand, <i>Categories and Types</i>, the chapter on composition; Duden, on compounds; both in paraphrase.`,
   qpTodo: `English compounds: in a given compound (“houseboat,” “boathouse,” “toothbrush”), which part is the head, and what kind of thing does the compound signify.` },
@@ -46,13 +46,13 @@ ARS.decks['iv.composition'] = {
 { id: 'meaning',
   title: 'The meaning of a compound',
   body: `<p>We saw in Section I that the parts of a word do not signify by themselves within it, and compounds show this clearly. The meaning of a compound is not always the sum of the meanings of its parts. A “greenhouse” need not be green, a “blackboard” is often green, and a “butterfly” is neither butter nor a fly. Over time a compound may come to signify something that its parts no longer suggest, and then it must be learned as a single word.</p>
-<p>We also saw that English distinguishes a compound from a phrase by its stress: a “BLACKbird” is a kind of bird, and a “black BIRD” is any bird that is black. Latin and German, which write their compounds as one word and give them one accent, make the distinction in writing as well as in speech. So a compound is recognized by its unity as a word, in meaning, in accent, and often in spelling, not by the separate meanings of its parts.</p>`,
+<p>English also distinguishes a compound from a phrase by its stress: a “BLACKbird” is a kind of bird, and a “black BIRD” is any bird that is black. Latin and German, which write their compounds as one word and give them one accent, make the distinction in writing as well as in speech. So a compound is recognized by its unity as a word, in meaning, in accent, and often in spelling, not by the separate meanings of its parts.</p>`,
   src: `Marchand, <i>Categories and Types</i>, the chapter on composition, in paraphrase.` },
 
 { id: 'together',
   title: 'Composition and derivation together',
   body: `<p>Many words are formed by both composition and derivation, in an order that can be traced. “Unbreakable” is formed from “break” by the suffix “-able,” giving “breakable,” and then by the prefix “un-,” giving “unbreakable.” Latin <i>inimīcitia</i> (“enmity”), as we saw in Section III, is formed from <i>amīcus</i> by composition with <i>in-</i>, giving <i>inimīcus</i> (“enemy”), and then by derivation with <i>-itia</i>.</p>
-<p>So the formation of a word can be analyzed step by step, as a sentence can, and the analysis shows how the meaning of the whole is built from its parts. This analysis concerns how a word is made in the language as it is; the history of where a word came from, and how its form and meaning changed over time, is the subject of etymology, which we study next.</p>`,
+<p>So the formation of a word can be analyzed step by step, as a sentence can, and the analysis shows how the meaning of the whole is built from its parts. This analysis concerns how a word is made in the language as it is; the history of where a word came from, and how its form and meaning changed over time, is the subject of etymology, which we consider next in this section of the course.</p>`,
   src: `Marchand, <i>Categories and Types</i>, in paraphrase.` }
 
   ]
