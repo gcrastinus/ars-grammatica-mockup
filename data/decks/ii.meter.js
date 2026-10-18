@@ -15,8 +15,8 @@ ARS.decks['ii.meter'] = {
 
 { id: 'what-meter',
   title: 'Verse and meter',
-  body: `<p>We have seen that Latin syllables are long or short and that English syllables are stressed or unstressed. <strong>Verse</strong> is speech arranged in lines, each of which follows a fixed pattern of such syllables, and the pattern is called the <strong>meter</strong> (Greek <i>metron</i>, “measure”). Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length (<i>Ars grammatica</i> III, in paraphrase).</p>
-<p>Prose has rhythm too, but its rhythm is not fixed in a repeated pattern. So the same words may be prose or verse according to whether their syllables are arranged by a rule of measure. The grammarian studies meter because the poets were the first texts that the student read, and they could not be read aloud correctly, or understood fully, without knowing how their lines were measured.</p>`,
+  body: `<p>When we recite “Mary had a little lamb” or sing a hymn, we hear a beat that returns in the same pattern in every line, and each line ends when the pattern is complete. We have seen that Latin syllables are long or short and that English syllables are stressed or unstressed. <strong>Verse</strong> is speech arranged in lines, each of which follows a fixed pattern of such syllables, and the pattern is called the <strong>meter</strong> (Greek <i>metron</i>, “measure”). Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length (<i>Ars grammatica</i> III).</p>
+<p>Prose has rhythm too, but its rhythm is not fixed in a repeated pattern. So the same words may be prose or verse according to whether their syllables are arranged by a rule of measure. The grammarian studies meter because the poets were the first authors that the student read, and they could not be read aloud correctly, or understood fully, without knowing how their lines were measured.</p>`,
   src: `Diomedes, <i>Ars grammatica</i> III, in paraphrase.` },
 
 { id: 'feet',
@@ -70,14 +70,14 @@ ARS.decks['ii.meter'] = {
 
 { id: 'bede-rhythm',
   title: 'Meter and rhythm in Bede',
-  body: `<p>By the early Middle Ages the distinction of long and short vowels had disappeared from spoken Latin, and new kinds of verse appeared that counted syllables and accents instead of quantity. Bede, in his <i>De arte metrica</i> (written about 700), distinguishes the two. <strong>Meter</strong>, he says in substance, is an arrangement of words by the rules of quantity; <strong>rhythm</strong> (<i>rhythmus</i>) is an arrangement of words that is not measured by quantity but by the number of syllables, judged by the ear, as in the songs of the popular poets (<i>De arte metrica</i> 24, in paraphrase).</p>
+  body: `<p>By the early Middle Ages the distinction of long and short vowels had disappeared from spoken Latin, and new kinds of verse appeared that counted syllables and accents instead of quantity. Bede, in his <i>De arte metrica</i> (written about 700), distinguishes the two. <strong>Meter</strong>, he says in substance, is an arrangement of words by the rules of quantity; <strong>rhythm</strong> (<i>rhythmus</i>) is an arrangement of words that is not measured by quantity but by the number of syllables, judged by the ear, as in the songs of the popular poets (<i>De arte metrica</i> 24).</p>
 <p>Bede adds that rhythm can exist without meter, but meter not without rhythm. So the later accentual verse of the Latin hymns, and the verse of the modern European languages, does not abandon the measure of verse; it measures by accent and by number of syllables instead of by quantity.</p>`,
   src: `Bede, <i>De arte metrica</i> 24, in paraphrase (checked against the Latin text).` },
 
 { id: 'english-feet',
   title: 'English feet',
   body: `<p>English verse is measured by stress, not by quantity. An English foot is a group of one stressed syllable with one or two unstressed ones, and English uses the Greek names of the feet for these groups:<br><strong>iamb</strong>, unstressed and stressed, as in “be-HOLD”;<br><strong>trochee</strong>, stressed and unstressed, as in “TI-ger”;<br><strong>anapest</strong>, two unstressed and a stressed, as in “in the NIGHT”;<br><strong>dactyl</strong>, a stressed and two unstressed, as in “MUR-mur-ing.”</p>
-<p>A line is named by its foot and by the number of its feet: a line of four feet is a tetrameter, of five a pentameter, of six a hexameter. So the English iamb and the Latin iamb have the same name and the same order, but the English iamb is unstressed and stressed, while the Latin iamb is short and long. A stressed English syllable may be short in duration, and a Latin long syllable need not bear the accent.</p>`,
+<p>A line is named by its foot and by the number of its feet: a line of four feet is a tetrameter, of five a pentameter, of six a hexameter. So the English iamb and the Latin iamb have the same name and the same order, but the English iamb is unstressed and stressed, whereas the Latin iamb is short and long. A stressed English syllable may be short in duration, and a Latin long syllable need not bear the accent.</p>`,
   src: `Standard handbooks of English versification, in paraphrase.`,
   qpTodo: `English feet: given an English word or phrase (“behold,” “tiger,” “in the night,” “murmuring”), name its foot, and say how the English iamb differs from the Latin iamb.` },
 
