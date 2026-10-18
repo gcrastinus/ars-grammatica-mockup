@@ -145,6 +145,10 @@ function openDeck(id){
   }).catch(err => { alert(err.message); });
 }
 
+function shuffled(a){
+  for (let j = a.length - 1; j > 0; j--){ const r = Math.floor(Math.random() * (j + 1)); [a[j], a[r]] = [a[r], a[j]]; }
+  return a;
+}
 function qpState(qp){
   return cur.qp[qp.id] || (cur.qp[qp.id] = { v:cur.start, status:'open', chosen:null });
 }
@@ -180,7 +184,13 @@ function renderQP(qp){
   box.innerHTML = `<div class="qp-label"><span>Question</span><span class="qp-form">Form ${FORMS[s.v]}</span></div>
     <div class="q-prompt">${v.prompt}</div><div class="opts"></div><div class="fb"></div>`;
   const opts = box.querySelector('.opts');
-  v.options.forEach((o, k) => {
+  // Options are shown in a shuffled order, fixed for this variant during this opening of the deck and reshuffled on
+  // the next opening (Timothy, 17 Oct 2026). k is always the option's index in the data, so the answer key follows
+  // the option, not its position on the screen.
+  s.orders = s.orders || {};
+  const order = s.orders[s.v] || (s.orders[s.v] = shuffled(v.options.map((_, k) => k)));
+  order.forEach(k => {
+    const o = v.options[k];
     const b = document.createElement('button'); b.className = 'opt'; b.innerHTML = o;
     if (s.status !== 'open'){
       b.disabled = true;

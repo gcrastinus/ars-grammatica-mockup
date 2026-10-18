@@ -10,7 +10,8 @@
      set     'A', 'B', or 'C'
      deck    the id of the deck the item tests (for the 4-per-deck balance and for reports)
      prompt  the question (HTML allowed)
-     options four options (HTML allowed); the display order is the order written here, not shuffled
+     options four options (HTML allowed), written in a fixed order here; the course shuffles their display order on each
+             visit (Timothy, 17 Oct 2026), and the answer key follows the option, not the position
      answer  0-based index of the correct option (positions varied by hand)
      explain the explanation shown after "Correct" or "Incorrect" (full sentences)
 
@@ -28,19 +29,19 @@ ARS.exercises['i.ex.sign'] = {
   /* I.1 Sign and Symbol */
   { id: 'sv-sign-1', set: 'A', deck: 'i.sign',
     prompt: `A footprint in the mud leads a hunter to think of a deer. What kind of sign is the footprint?`,
-    options: [`A given sign, because the hunter understands it`, `A natural sign, because it signifies the deer by its connection with it, not because anyone means it to`, `A symbol, because it signifies by agreement`, `Not a sign, because no word is spoken`],
+    options: [`A conventional sign, because the hunter understands it`, `A natural sign, because it is connected with the deer by nature`, `A symbol, because it signifies by agreement`, `Not a sign, because no word is spoken`],
     answer: 1,
     explain: `The footprint signifies the deer because the deer made it, not because anyone means it to signify. St. Augustine calls such signs natural signs (<i>De doctrina christiana</i> II.1.2).` },
   { id: 'sv-sign-2', set: 'A', deck: 'i.sign',
-    prompt: `Why is the sign “+” in arithmetic a symbol, while smoke is not a symbol of fire?`,
-    options: [`Because “+” is written and smoke is not`, `Because smoke signifies nothing`, `Because “+” signifies by agreement, and smoke signifies by nature`, `Because “+” is a formal sign`],
+    prompt: `Aristotle calls spoken words “symbols” (<i>symbola</i>). In what sense does he use the word?`,
+    options: [`For a sign with a many-layered meaning, like the white whale in <i>Moby-Dick</i>`, `For a sign that resembles the thing it signifies, as a portrait does`, `As another name for a conventional sign, one that signifies by agreement`, `For a mark that does the work of a word, like the “+” of arithmetic`],
     answer: 2,
-    explain: `A symbol is a sign that signifies by agreement or custom, as the Greek <i>symbolon</i>, a token matched between two parties, suggests. Smoke is a sign of fire, but it signifies by nature, so it is not a symbol.` },
+    explain: `The Greek <i>symbolon</i> was a token, half of a broken coin or tablet, that meant something only because of an agreement between two parties. So for Aristotle and the early tradition “symbol” is simply another name for a conventional sign. The many-layered sense of the literary symbol came later, and the “+” of arithmetic is a narrower modern use of the word.` },
 
   /* I.2 Imposition */
   { id: 'sv-imp-1', set: 'A', deck: 'i.imposition',
     prompt: `A dog barks at a stranger. Is the bark a word?`,
-    options: [`No; it signifies something by nature, but no one has given it a meaning`, `Yes, because it signifies something to the dog’s owner`, `Yes, because it is a sound made by an animal`, `No, because it signifies nothing at all`],
+    options: [`No; it signifies by nature, not by imposition`, `Yes, because it signifies something to the dog’s owner`, `Yes, because it is a sound made by an animal`, `No, because it signifies nothing at all`],
     answer: 0,
     explain: `The bark signifies something by nature, as a groan signifies pain, but it is not a word, because a word signifies by imposition. Aristotle says that the inarticulate sounds of animals are significant, yet none of them is a noun (<i>De interpretatione</i> 2).` },
   { id: 'sv-imp-2', set: 'A', deck: 'i.imposition',
@@ -76,14 +77,14 @@ ARS.exercises['i.ex.sign'] = {
   /* I.5 The Functions of Language */
   { id: 'sv-fun-1', set: 'A', deck: 'i.functions',
     prompt: `“Close the gate.” Which kind of sentence is this?`,
-    options: [`A statement`, `A command`, `A question`, `A wish`],
+    options: [`A statement`, `A command`, `A question`, `A prayer`],
     answer: 1,
     explain: `The sentence asks that something be made so; it does not say that anything is so. It is a command, and so it is neither true nor false.` },
   { id: 'sv-fun-2', set: 'A', deck: 'i.functions',
     prompt: `Which of these sentences is true or false?`,
-    options: [`“Is the gate closed?”`, `“If only the gate were closed!”`, `“The gate is closed.”`, `“Close the gate, please.”`],
+    options: [`“Is the gate closed?”`, `“May the gate stay closed!”`, `“The gate is closed.”`, `“Close the gate, please.”`],
     answer: 2,
-    explain: `Only a statement says that something is or is not so, and only a statement is true or false. The question, the wish, and the request are complete sentences, but none of them asserts anything.` },
+    explain: `Only a statement says that something is or is not so, and only a statement is true or false. The question, the prayer, and the request are complete sentences, but none of them asserts anything.` },
 
   /* I.6 Ambiguity (lexical, or modifier attachment in English) */
   { id: 'sv-amb-1', set: 'A', deck: 'i.ambiguity',
@@ -93,7 +94,7 @@ ARS.exercises['i.ex.sign'] = {
     explain: `“Pitcher” has been imposed with two meanings, a jug and a player who throws the ball, so the double sense lies in a single word. The arrangement of the words is clear.` },
   { id: 'sv-amb-2', set: 'A', deck: 'i.ambiguity',
     prompt: `“She photographed the dog in her pajamas.” Where does the ambiguity lie?`,
-    options: [`In the single word “pajamas”`, `In the single word “photographed”`, `There is no ambiguity`, `In the arrangement: “in her pajamas” can belong to “she” (who took the picture) or to “the dog”`],
+    options: [`In the single word “pajamas”`, `In the single word “photographed”`, `There is no ambiguity`, `In the arrangement of the words`],
     answer: 3,
     explain: `No single word has two meanings. The phrase “in her pajamas” can belong to the woman who took the photograph or to the dog, so the double sense lies in the arrangement of the words.` }
 
