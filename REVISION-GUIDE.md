@@ -261,3 +261,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: Recitation Tablet safeguards: only completed decks selectable; minimum length before "See full recitation" (about a quarter of the recitation's length, at least 80 distinct words, no pasting); text locked once the recitation is shown.
 - 17 Oct 2026: Recitation Tablet: no word count or minimum shown to the student; decks also require the section's exercise set to be completed.
 - 17 Oct 2026: Recitation Tablet: reversed the exercise-set requirement; a deck's recitation opens as soon as the deck is first completed.
+- 17 Oct 2026: Recitation Tablet: added whole-section recitations, open once every deck in the section is completed, showing the decks' recitations combined in order.
