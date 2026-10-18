@@ -1,5 +1,5 @@
 /* Recitation outline for i.functions (The Functions of Language): 26 points. DRAFT for Timothy's review.
-   Paste into data/decks/i.functions.js as a deck-level field, after `sources` (ITEM-LIST.md, "Recitation Tablet").
+   Moved into data/decks/i.functions.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
     `Not every sentence is used to say that something is or is not so.`,

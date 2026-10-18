@@ -18,6 +18,9 @@
 <div class="wrap">
 
   <div class="screen active" id="scr-home">
+    <div class="recite-home-bar">
+      <button type="button" id="recite-open" class="btn recite-open">Recitation Tablet</button>
+    </div>
     <header>
       <div class="ornament">❦</div>
       <h1>Ars Grammatica</h1>
@@ -26,6 +29,7 @@
     <div class="intro-note">
       <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the errors and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, German, and French where they show something distinctive.
     </div>
+    <div id="recite-due" class="recite-due" hidden></div>
     <div class="rule"></div>
     <div id="home-acts"></div>
     <p class="designer-credit">These sets of exercises were designed by Timothy Kearns, PhD, created and maintained with the assistance of AI, and are extensively revised for clarity and precision.</p>
@@ -71,8 +75,35 @@
   </div>
 
 </div>
+
+<div id="recite-overlay" class="recite-overlay" hidden>
+  <div class="recite-panel" role="dialog" aria-modal="true" aria-labelledby="recite-heading">
+    <div class="recite-top">
+      <h2 id="recite-heading">Recitation Tablet</h2>
+      <button type="button" class="btn" id="recite-close">Close</button>
+    </div>
+    <p class="recite-desc">A recitation sets down a deck from memory. Study the deck, put the notes away, and write out everything you remember.</p>
+    <div class="recite-tools">
+      <div class="recite-picker" id="recite-picker">
+        <button type="button" class="recite-menu-btn" id="recite-menu-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="recite-menu-list">
+          <span id="recite-menu-label">Choose a deck</span>
+          <span class="recite-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="recite-menu-list" id="recite-menu-list" role="listbox" hidden></div>
+      </div>
+      <button type="button" class="btn" id="recite-see" disabled>See full recitation</button>
+      <button type="button" class="btn" id="recite-new" hidden>Start a new recitation</button>
+    </div>
+    <p class="recite-note" id="recite-note" hidden>Write a fuller recitation to see the full one.</p>
+    <div class="recite-columns" id="recite-columns">
+      <textarea id="recite-text" class="recite-text" aria-label="Recitation" spellcheck="true" disabled></textarea>
+      <div id="recite-full" class="recite-full" hidden></div>
+    </div>
+  </div>
+</div>
 <script src="data/structure.js"></script>
 <script src="data/exercises/index.js"></script>
 <script src="course.js"></script>
+<script src="recitation.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 /* Recitation outline for i.ambiguity (Ambiguity): 21 points. DRAFT for Timothy's review.
-   Paste into data/decks/i.ambiguity.js as a deck-level field, after `sources` (ITEM-LIST.md, "Recitation Tablet").
+   Moved into data/decks/i.ambiguity.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
     `A word or a group of words that can be understood in more than one sense is <strong>ambiguous</strong> (Latin <i>ambiguus</i>, “going two ways”).`,

@@ -1,5 +1,5 @@
 /* Recitation outline for i.sign (Sign and Symbol): 41 points. DRAFT for Timothy's review.
-   Paste into data/decks/i.sign.js as a deck-level field, after `sources` (ITEM-LIST.md, "Recitation Tablet").
+   Moved into data/decks/i.sign.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
     `The material of grammar is speech, that is, the voice as it signifies thoughts in the mind and as it is arranged into phrases and sentences.`,

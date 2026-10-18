@@ -1,5 +1,5 @@
 /* Recitation outline for i.syncategorematic (Categorematic and Syncategorematic Words): 26 points. DRAFT for Timothy's review.
-   Paste into data/decks/i.syncategorematic.js as a deck-level field, after `sources` (ITEM-LIST.md, "Recitation Tablet").
+   Moved into data/decks/i.syncategorematic.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
     `Words can be divided according to whether they signify by themselves or only together with other words.`,

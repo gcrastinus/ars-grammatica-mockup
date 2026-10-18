@@ -1,5 +1,6 @@
-/* Whole-section recitation for Section I: built at run time from the decks' own `recitation` fields,
+/* Whole-section recitation: built at run time from the decks' own `recitation` fields,
    joined in course order (data/structure.js) under their deck titles, so there is no second copy to keep in step.
+   The page uses the same helper, sectionRecitation, in recitation.js. This file is not loaded.
    Returns [{ deck, title, points:[...] }, ...]; the Tablet renders each group under its title with check boxes. */
 function sectionRecitation(sectionId){
   const sec = ARS.structure.find(s => s.id === sectionId);

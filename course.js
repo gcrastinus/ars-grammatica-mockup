@@ -8,6 +8,7 @@ const store = (() => {
   catch (e) { return { dark:false, decks:{} }; }
 })();
 function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+function courseStore(){ return store; }
 const $ = id => document.getElementById(id);
 const FORMS = ['A', 'B', 'C'];
 const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review' };
@@ -64,6 +65,7 @@ function buildHome(){
       grid.appendChild(c);
     });
   });
+  if (typeof renderReciteReminder === 'function') renderReciteReminder();
 }
 
 /* ---------- loading a deck's data file ---------- */
