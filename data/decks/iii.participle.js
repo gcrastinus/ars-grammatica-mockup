@@ -14,13 +14,13 @@ ARS.decks['iii.participle'] = {
 
 { id: 'accidents',
   title: 'The participle and its accidents',
-  body: `<p>We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, casus, tempora, significationes, numerus, figura</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
+  body: `<p>In “the boy, reading a book, laughed,” the word “reading” describes the boy, as an adjective does, but it also signifies an action and takes its own object, “a book,” as a verb does. We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, casus, tempora, significationes, numerus, figura</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
 <p>By <strong>signification</strong> Donatus here means what the verb calls voice: whether the participle signifies doing or undergoing. So <i>laudāns</i> (“praising”) is active in signification and present in tense, and it is declined for gender, number, and case; <i>laudātus</i> (“praised”) is passive in signification and perfect in tense. In every case the participle agrees with a noun, as an adjective does, but it signifies an action, as a verb does.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the participle (the Latin).` },
 
 { id: 'latin-participles',
   title: 'The Latin participles',
-  body: `<p>A Latin verb has four participles, formed from its stems:</p>
+  body: `<p>English has two participles, “praising” and “praised,” and expresses other meanings of the same kind with several words, as “about to praise” and “to be praised.” Latin has a single word for each. A Latin verb has four participles, formed from its stems:</p>
 <div class="para-wrap"><table class="para"><tr><th>Participle</th><th>Formation</th><th>Example</th></tr>
 <tr><td>Present active</td><td>present stem + <i>-ns</i></td><td class="f"><i>laudāns</i>, “praising”</td></tr>
 <tr><td>Perfect passive</td><td>participial stem + <i>-us</i></td><td class="f"><i>laudātus</i>, “(having been) praised”</td></tr>
@@ -50,7 +50,7 @@ ARS.decks['iii.participle'] = {
 
 { id: 'gerundive',
   title: 'The future participles',
-  body: `<p>The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Have imperator, morituri te salutant</i>, “Hail, emperor, they who are about to die salute thee” (<i>Claudius</i> 21). The word <i>morituri</i> is the future active participle of <i>morior</i> (“die”), used as a noun: “those who are about to die.”</p>
+  body: `<p>English says “about to die” and “a book to be read,” using several words, whereas Latin uses a single participle for each. The future active participle signifies an action that is about to take place or is intended: <i>moritūrus</i>, “about to die.” It is familiar from the greeting that Suetonius reports was made to the emperor Claudius by men about to fight in a staged sea battle: <i>Have imperator, morituri te salutant</i>, “Hail, emperor, they who are about to die salute thee” (<i>Claudius</i> 21). The word <i>morituri</i> is the future active participle of <i>morior</i> (“die”), used as a noun: “those who are about to die.”</p>
 <p>The future passive participle, called the <strong>gerundive</strong>, signifies something that is to be done or ought to be done: <i>liber legendus</i>, “a book to be read.” With a form of <i>sum</i> it expresses necessity or obligation, as in Cato’s saying <i>Carthāgō dēlenda est</i>, “Carthage must be destroyed.” Many English words come from gerundives: “agenda” (“things to be done”), “memorandum” (“a thing to be remembered”), and the name “Amanda” (“worthy to be loved”).</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 499–500; Suetonius, <i>Claudius</i> 21 (the Latin as in the Latin Library text; trans. J. C. Rolfe (Loeb), checked against the LacusCurtius text); the saying of Cato as traditionally quoted.` },
 
@@ -69,7 +69,7 @@ ARS.decks['iii.participle'] = {
 
 { id: 'modist',
   title: 'The modists on the participle',
-  body: `<p>We saw that the modists explain the participle as signifying by the mode of becoming united with the substance, while the verb signifies by the mode of becoming as distinct from the substance. From this they explain why the participle has the accidents of both parts. Because it signifies becoming, it has the accidents that follow from becoming: tense and signification (voice), as the verb has. Because it signifies its action as united with a substance, it has the accidents by which a word is united with a noun: gender, number, and case, as the adjective has (<i>Grammatica speculativa</i>, on the participle, in paraphrase).</p>
+  body: `<p>We saw that the modists explain the participle as signifying by the mode of becoming united with the substance, whereas the verb signifies by the mode of becoming as distinct from the substance. From this they explain why the participle has the accidents of both parts. Because it signifies becoming, it has the accidents that follow from becoming: tense and signification (voice), as the verb has. Because it signifies its action as united with a substance, it has the accidents by which a word is united with a noun: gender, number, and case, as the adjective has (<i>Grammatica speculativa</i>, on the participle).</p>
 <p>The participle lacks mood and person, which the verb has, because these accidents belong to the verb insofar as it is said of a subject and signifies the inclination of the speaker’s mind. The participle is not said of a subject; it adheres to it. So the modists account for the participle’s accidents, both those it has and those it lacks, by its mode of signifying. With the participle we have completed the declinable parts of speech.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on the participle (Bursill-Hall), in paraphrase.` }
 
