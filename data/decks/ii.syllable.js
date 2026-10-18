@@ -21,7 +21,20 @@ ARS.decks['ii.syllable'] = {
   body: `<p>Latin <i>ā</i> (“from”) is a syllable of one vowel and no consonant; <i>ab</i> (“from”) has a consonant after the vowel; and <i>stirps</i> (“stock,” “root”) has two consonants before the vowel and two after it. English “I,” “it,” and “strict” show the same range. In each case there is one vowel at the center. So every syllable has one vowel or one diphthong at its center, and consonants may stand before it, after it, or on both sides; therefore in Latin the number of syllables in a word is the number of its vowels and diphthongs.</p>
 <p>A diphthong counts as one vowel, because its two vowels are pronounced in one syllable. So Latin <i>causa</i> (“cause”) has two syllables (cau-sa), not three, and <i>poena</i> (“penalty”) has two (poe-na). But two vowels that are not a diphthong make two syllables, as in Latin <i>de-us</i> (“god”) and <i>pu-el-la</i> (“girl”). In English the same is true of “cre-ate” and “po-em,” where the two vowel letters stand for two vowel sounds.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3; Allen and Greenough, <i>New Latin Grammar</i> §§ 6–7.`,
-  qpTodo: `Counting syllables: how many syllables in a Latin or English word (<i>causa</i>, <i>deus</i>, <i>puella</i>, “create”), and why a diphthong counts as one vowel.` },
+  qp: { id: 'q-count', variants: [
+    { prompt: `How many syllables does Latin <i>causa</i> (“cause”) have?`,
+      options: [`One`, `Two`, `Three`, `Four`],
+      answer: 1,
+      explain: `<i>Causa</i> is divided <i>cau-sa</i>. Its first syllable contains the diphthong <i>au</i>, which counts as one vowel because its two vowels are pronounced in one syllable. With the final <i>a</i>, the word has two syllables.` },
+    { prompt: `How many syllables does Latin <i>puella</i> (“girl”) have?`,
+      options: [`Two`, `Four`, `Three`, `One`],
+      answer: 2,
+      explain: `<i>Puella</i> is divided <i>pu-el-la</i>. The <i>u</i> and the <i>e</i> stand side by side, but they are not a diphthong, so each makes its own syllable. With the final <i>a</i>, the word has three vowels and three syllables.` },
+    { prompt: `Why does Latin <i>poena</i> (“penalty”) have two syllables and not three?`,
+      options: [`Because the n closes the first syllable`, `Because oe is a diphthong`, `Because a final a is not counted`, `Because o and e are never pronounced apart`],
+      answer: 1,
+      explain: `A diphthong is two vowels pronounced in one syllable, and it counts as one vowel. <i>Oe</i> is a diphthong, so <i>poena</i> is divided <i>poe-na</i>. Two vowels that are not a diphthong, as in <i>de-us</i>, make two syllables.` }
+  ]} },
 
 { id: 'accidents',
   title: 'The accidents of the syllable',
@@ -46,7 +59,20 @@ ARS.decks['ii.syllable'] = {
   body: `<p>We have seen that the liquids <i>l</i> and <i>r</i> flow easily after another consonant. So when a mute (<i>p, b, t, d, c, g</i>) is followed by <i>l</i> or <i>r</i>, the two consonants usually go together with the following vowel: <i>pa-tris</i> (“of the father”), <i>a-grī</i> (“of the field”), <i>pū-bli-cus</i> (“public”). In verse, however, a poet may divide them (<i>pat-ris</i>), and this choice affects the length of the syllable, as we will see.</p>
 <p>A few letters need separate treatment. The double letter <i>x</i> counts as two consonants, so in <i>saxum</i> (“rock”) the first syllable is closed (<i>sac-sum</i> in sound). The pair <i>qu</i> counts as one consonant, so <i>aqua</i> (“water”) is <i>a-qua</i>. The breathing <i>h</i> does not count as a consonant at all. A compound word is divided between its parts: <i>ab-eō</i> (“I go away”), not <i>a-beō</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.`,
-  qpTodo: `Dividing a Latin word: how is a given word divided (<i>patris</i>, <i>aqua</i>, <i>saxum</i>, <i>abeō</i>), and which rule applies.` },
+  qp: { id: 'q-latin-division', variants: [
+    { prompt: `How is <i>aqua</i> (“water”) divided into syllables?`,
+      options: [`aq-ua`, `a-qua`, `aqu-a`, `a-qu-a`],
+      answer: 1,
+      explain: `The pair <i>qu</i> counts as one consonant, and a single consonant between two vowels goes with the following vowel. So <i>aqua</i> is divided <i>a-qua</i>, and its first syllable is open.` },
+    { prompt: `How is <i>patris</i> (“of the father”) divided in ordinary speech?`,
+      options: [`pat-ris`, `pa-tris`, `patr-is`, `pa-tr-is`],
+      answer: 1,
+      explain: `When a mute (here <i>t</i>) is followed by a liquid (<i>r</i>), the two consonants usually go together with the following vowel, so the word is divided <i>pa-tris</i>. A poet may divide them, <i>pat-ris</i>, and that choice changes the length of the first syllable; but <i>pa-tris</i> is the ordinary division.` },
+    { prompt: `A single consonant between two vowels usually goes with the following vowel, yet <i>abeō</i> (“I go away”) is divided <i>ab-eō</i>. Why?`,
+      options: [`Because b is a mute`, `Because two vowels cannot stand side by side`, `Because it is a compound of <i>ab</i> and <i>eō</i>`, `Because its e is long`],
+      answer: 2,
+      explain: `A compound word is divided between its parts. <i>Abeō</i> is made of <i>ab</i> (“from”) and <i>eō</i> (“I go”), so it is divided <i>ab-eō</i> and not <i>a-beō</i>. The general rule for a single consonant gives way to the parts of the word.` }
+  ]} },
 
 { id: 'english-syllable',
   title: 'The English syllable',
@@ -65,7 +91,20 @@ ARS.decks['ii.syllable'] = {
   body: `<p>English words are divided in two ways, which do not always agree. In writing, a word broken at the end of a line is divided according to the conventions of the dictionaries, which consider both the sound and the parts of the word: “fa-ther,” “walk-ing,” “hab-it.” In pronunciation, the division follows the sounds, and here one rule differs from Latin: a short vowel that is stressed, as in “cat” or “bed,” does not end an English syllable. So “habit” is divided “hab-it,” not “ha-bit,” whereas Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>.</p>
 <p>Pronunciation dictionaries such as Wells’s <i>Longman Pronunciation Dictionary</i> give the division of each word, and they sometimes differ from one another in the hard cases. The division into syllables is still a matter of the sound, but English, unlike Latin, has no single rule that settles every word.</p>`,
   src: `Wells, <i>Longman Pronunciation Dictionary</i>; Merriam-Webster’s word divisions, in paraphrase.`,
-  qpTodo: `Dividing an English word: where is a given word divided (“habit,” “father,” “walking”), and how the English division of a stressed short vowel differs from the Latin one (<i>habet</i>).` },
+  qp: { id: 'q-english-division', variants: [
+    { prompt: `How is “habit” divided into syllables in pronunciation?`,
+      options: [`ha-bit`, `hab-it`, `habi-t`, `It is one syllable`],
+      answer: 1,
+      explain: `The first vowel of “habit” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>b</i> goes with the first syllable, “hab-it.”` },
+    { prompt: `Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>, but English “habit” is divided “hab-it.” Why do they differ?`,
+      options: [`English divides every word after its consonants`, `English stressed short vowels do not end syllables`, `Latin has no short vowels`, `The English word comes from French`],
+      answer: 1,
+      explain: `In Latin a single consonant between two vowels goes with the following vowel, so <i>ha-bet</i>. In English a short vowel that is stressed, as in “cat” or “bed,” does not end a syllable, so the consonant stays with it: “hab-it.” English does not divide every word after its consonants; “father” is divided “fa-ther.”` },
+    { prompt: `How is “walking” divided when it is broken at the end of a line?`,
+      options: [`wal-king`, `walk-ing`, `wa-lking`, `walki-ng`],
+      answer: 1,
+      explain: `In writing, the conventions of the dictionaries consider the parts of the word as well as the sound. “Walking” is made of “walk” and the ending “-ing,” so it is divided “walk-ing.”` }
+  ]} },
 
 { id: 'to-quantity',
   title: 'From the syllable to its length',
