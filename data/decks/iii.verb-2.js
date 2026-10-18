@@ -15,7 +15,7 @@ ARS.decks['iii.verb-2'] = {
 
 { id: 'tense',
   title: 'Tense',
-  body: `<p>We saw in Section I that the verb consignifies time, and that the modists explain this by the verb’s mode of becoming. The form of the verb that shows the time of the action is called its <strong>tense</strong> (from Old French <i>tens</i>, Latin <i>tempus</i>, “time”). Donatus gives three times, the present, as <i>legō</i> (“I read”), the past, as <i>lēgī</i> (“I have read”), and the future, as <i>legam</i> (“I shall read”), and divides the past into three: the imperfect, as <i>legēbam</i> (“I was reading”), the perfect, as <i>lēgī</i>, and the pluperfect, as <i>lēgeram</i> (“I had read”) (<i>Ars minor</i>).</p>
+  body: `<p>We saw in Section I that the verb consignifies time, and that the modists explain this by the verb’s mode of becoming. “I read,” “I was reading,” “I had read,” and “I shall read” signify the same action, but each places it at a different time. The form of the verb that shows the time of the action is called its <strong>tense</strong> (from Old French <i>tens</i>, Latin <i>tempus</i>, “time”). Donatus gives three times, the present, as <i>legō</i> (“I read”), the past, as <i>lēgī</i> (“I have read”), and the future, as <i>legam</i> (“I shall read”), and divides the past into three: the imperfect, as <i>legēbam</i> (“I was reading”), the perfect, as <i>lēgī</i>, and the pluperfect, as <i>lēgeram</i> (“I had read”) (<i>Ars minor</i>).</p>
 <p>Later grammarians add a sixth tense, the <strong>future perfect</strong>, as <i>lēgerō</i> (“I shall have read”), which signifies an action that will be complete at some future time. So the Latin verb has six tenses in the indicative: present, imperfect, future, perfect, pluperfect, and future perfect.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the tense of the verb (the Latin).` },
 
@@ -29,18 +29,18 @@ ARS.decks['iii.verb-2'] = {
 <tr><td>Perfect</td><td class="f"><i>laudāvit</i></td><td>he praised, he has praised</td></tr>
 <tr><td>Pluperfect</td><td class="f"><i>laudāverat</i></td><td>he had praised</td></tr>
 <tr><td>Future perfect</td><td class="f"><i>laudāverit</i></td><td>he will have praised</td></tr></table></div>
-<p>Each Latin tense is a single word, while most English tenses are formed with auxiliary verbs (“will,” “has,” “had”). The Latin perfect has two English equivalents, “he praised” and “he has praised,” because Latin uses one tense for an action completed in the past and for an action whose completion is present.</p>`,
+<p>Each Latin tense is a single word, whereas most English tenses are formed with auxiliary verbs (“will,” “has,” “had”). The Latin perfect has two English equivalents, “he praised” and “he has praised,” because Latin uses one tense for an action completed in the past and for an action whose completion is present.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 160–161, 465–479.` },
 
 { id: 'person-number',
   title: 'Person and number in the verb',
   body: `<p>The verb has the same three persons and two numbers as the pronoun, and the Latin verb shows them by its <strong>personal endings</strong>. The active endings are <i>-ō</i> (or <i>-m</i>), <i>-s</i>, <i>-t</i> in the singular and <i>-mus</i>, <i>-tis</i>, <i>-nt</i> in the plural: <i>laudō</i> (“I praise”), <i>laudās</i> (“you praise”), <i>laudat</i> (“he praises”), <i>laudāmus</i> (“we praise”), <i>laudātis</i> (“you praise,” plural), <i>laudant</i> (“they praise”). The passive endings, as we have seen, are <i>-r</i>, <i>-ris</i>, <i>-tur</i>, <i>-mur</i>, <i>-minī</i>, <i>-ntur</i>.</p>
-<p>The English verb has lost almost all its personal endings. In the present tense only the third person singular has an ending, the <i>-s</i> of “she walks” against “I walk” and “they walk.” The verb “to be” keeps more: “I am,” “you are,” “he is.” So English must express the subject, while Latin can leave a pronoun subject unexpressed, because the ending of the verb already shows its person and number.</p>`,
+<p>The English verb has lost almost all its personal endings. In the present tense only the third person singular has an ending, the <i>-s</i> of “she walks” against “I walk” and “they walk.” The verb “to be” keeps more: “I am,” “you are,” “he is.” So English must express the subject, whereas Latin can leave a pronoun subject unexpressed, because the ending of the verb already shows its person and number.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 163–166, in paraphrase.` },
 
 { id: 'conjugation',
   title: 'The four conjugations',
-  body: `<p>A <strong>conjugation</strong> (<i>coniugātiō</i>, “a yoking together”) is a class of verbs that share one set of endings. Latin has four conjugations, which are known from the present infinitive:</p>
+  body: `<p>Most English verbs form their tenses in the same way, but Latin verbs fall into classes: <i>amat</i> (“he loves”) and <i>laudat</i> (“he praises”) are formed alike, and so are <i>regit</i> (“he rules”) and <i>dūcit</i> (“he leads”), but the two pairs are formed differently. A <strong>conjugation</strong> (<i>coniugātiō</i>, “a yoking together”) is a class of verbs that share one set of endings. Latin has four conjugations, which are known from the present infinitive:</p>
 <div class="para-wrap"><table class="para"><tr><th>Conjugation</th><th>Infinitive</th><th>Example</th></tr>
 <tr><td>First</td><td class="f"><i>-āre</i></td><td><i>amō, amāre</i> (“to love”)</td></tr>
 <tr><td>Second</td><td class="f"><i>-ēre</i></td><td><i>moneō, monēre</i> (“to warn”)</td></tr>
@@ -52,7 +52,7 @@ ARS.decks['iii.verb-2'] = {
 
 { id: 'principal-parts',
   title: 'Principal parts and stems',
-  body: `<p>A Latin verb is learned by its <strong>principal parts</strong>, the four forms from which all its other forms are made: the first person singular of the present indicative, the present infinitive, the first person singular of the perfect indicative, and the supine (a verbal noun) or the perfect passive participle. For <i>amō</i> they are <i>amō</i>, <i>amāre</i>, <i>amāvī</i>, <i>amātum</i>.</p>
+  body: `<p>The forms “swam” and “swum” cannot be worked out from “swim,” so a speaker of English must learn them with the verb. In the same way, a Latin verb is learned by its <strong>principal parts</strong>, the four forms from which all its other forms are made: the first person singular of the present indicative, the present infinitive, the first person singular of the perfect indicative, and the supine (a verbal noun) or the perfect passive participle. For <i>amō</i> they are <i>amō</i>, <i>amāre</i>, <i>amāvī</i>, <i>amātum</i>.</p>
 <p>From the principal parts come three stems. The <strong>present stem</strong> (the infinitive without <i>-re</i>, <i>amā-</i>) gives the present, imperfect, and future. The <strong>perfect stem</strong> (the third part without <i>-ī</i>, <i>amāv-</i>) gives the perfect, pluperfect, and future perfect active. The <strong>participial stem</strong> (the fourth part without <i>-um</i>, <i>amāt-</i>) gives the perfect passive participle. The perfect stem is often irregular and must be learned: <i>regō</i>, <i>regere</i>, <i>rēxī</i>, <i>rēctum</i>; <i>capiō</i>, <i>capere</i>, <i>cēpī</i>, <i>captum</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 164, 173–178.` },
 
@@ -86,7 +86,7 @@ ARS.decks['iii.verb-2'] = {
 <tr><td>1 pl.</td><td class="f"><i>amāvimus</i></td><td class="f"><i>amāverāmus</i></td><td class="f"><i>amāverimus</i></td></tr>
 <tr><td>2 pl.</td><td class="f"><i>amāvistis</i></td><td class="f"><i>amāverātis</i></td><td class="f"><i>amāveritis</i></td></tr>
 <tr><td>3 pl.</td><td class="f"><i>amāvērunt</i></td><td class="f"><i>amāverant</i></td><td class="f"><i>amāverint</i></td></tr></table></div>
-<p>The same endings on other perfect stems give <i>rēxit</i>, <i>rēxerat</i>, <i>rēxerit</i> and <i>audīvit</i>, <i>audīverat</i>, <i>audīverit</i>. The perfect passive is formed with the participle and a form of <i>sum</i> (“to be”), as <i>amātus est</i> (“he was loved,” “he has been loved”); we will study the participle that it uses shortly.</p>`,
+<p>The same endings on other perfect stems give <i>rēxit</i>, <i>rēxerat</i>, <i>rēxerit</i> and <i>audīvit</i>, <i>audīverat</i>, <i>audīverit</i>. The perfect passive is formed with the participle and a form of <i>sum</i> (“to be”), as <i>amātus est</i> (“he was loved,” “he has been loved”); the participle that it uses is studied with the participle itself.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 179–181.` },
 
 { id: 'english-tense',
@@ -98,14 +98,14 @@ ARS.decks['iii.verb-2'] = {
 
 { id: 'aspect-latin',
   title: 'Aspect: complete and incomplete action',
-  body: `<p>A verb can show not only when an action takes place but whether it is presented as going on or as complete. This difference is called <strong>aspect</strong> (Latin <i>aspectus</i>, “view”), because it concerns how the action is viewed. Varro, in his work on the Latin language, observed that the Latin tenses fall into two groups: those of the incomplete action (<i>īnfectum</i>), the present, imperfect, and future, and those of the complete action (<i>perfectum</i>), the perfect, pluperfect, and future perfect. His examples are <i>discebam, disco, discam</i> (“I was learning, I learn, I shall learn”) for the first group and <i>didiceram, didici, didicero</i> (“I had learned, I learned, I shall have learned”) for the second (<i>De lingua Latina</i> IX–X, in paraphrase).</p>
+  body: `<p>A verb can show not only when an action takes place but whether it is presented as going on or as complete. This difference is called <strong>aspect</strong> (Latin <i>aspectus</i>, “view”), because it concerns how the action is viewed. The Roman scholar Varro, in his work on the Latin language, observed that the Latin tenses fall into two groups: those of the incomplete action (<i>īnfectum</i>), the present, imperfect, and future, and those of the complete action (<i>perfectum</i>), the perfect, pluperfect, and future perfect. His examples are <i>discebam, disco, discam</i> (“I was learning, I learn, I shall learn”) for the first group and <i>didiceram, didici, didicero</i> (“I had learned, I learned, I shall have learned”) for the second (<i>De lingua Latina</i> IX–X).</p>
 <p>So Varro saw that the present stem and the perfect stem differ not in time but in aspect. In the past, <i>laudābat</i> (imperfect) means “he was praising” or “he used to praise,” and presents the praising as going on or repeated; <i>laudāvit</i> (perfect) means “he praised,” and presents it as complete. In the same way <i>legam</i> (“I shall read”) and <i>lēgerō</i> (“I shall have read”) are both future, but the second presents the reading as complete.</p>`,
   src: `Varro, <i>De lingua Latina</i> IX–X, in paraphrase (the Latin examples checked against the text).` },
 
 { id: 'aspect-english-greek',
   title: 'Aspect in English and in Greek',
   body: `<p>English marks aspect with auxiliary verbs. The <strong>progressive</strong> (“be” with the form in <i>-ing</i>) presents an action as going on: “She was writing a letter.” The <strong>perfect</strong> (“have” with the past participle) presents an action as complete, with its result still present: “She has written the letter.” So “She wrote a letter,” “She was writing a letter,” and “She has written a letter” all concern the past, but they present the writing in three different ways.</p>
-<p>Greek shows aspect most clearly. The Greek verb has three stems for three aspects: the present stem for an action going on, the aorist stem for an action viewed simply as an event, and the perfect stem for a completed action whose result remains (Smyth, <i>Greek Grammar</i> §§ 1850–1853, in paraphrase). So γράφει (<i>graphei</i>) is “he is writing,” ἔγραψε (<i>egrapse</i>) is “he wrote,” and γέγραφε (<i>gegraphe</i>) is “he has written (and it stands written).” The Latin perfect serves for both the Greek aorist and the Greek perfect.</p>`,
+<p>Greek shows aspect most clearly. The Greek verb has three stems for three aspects: the present stem for an action going on, the aorist stem for an action viewed simply as an event, and the perfect stem for a completed action whose result remains (Smyth, <i>Greek Grammar</i> §§ 1850–1853). So γράφει (<i>graphei</i>) is “he is writing,” ἔγραψε (<i>egrapse</i>) is “he wrote,” and γέγραφε (<i>gegraphe</i>) is “he has written (and it stands written).” The Latin perfect serves for both the Greek aorist and the Greek perfect.</p>`,
   src: `Smyth, <i>Greek Grammar</i> §§ 1850–1853, in paraphrase.`,
   qpTodo: `Aspect: does a given form present the action as going on or as complete (<i>laudābat</i>, <i>laudāvit</i>; “was writing,” “has written”), and what is the difference between the Latin imperfect and perfect.` },
 
@@ -117,13 +117,13 @@ ARS.decks['iii.verb-2'] = {
 
 { id: 'parsing',
   title: 'Parsing a verb',
-  body: `<p>To <strong>parse</strong> a verb (from Latin <i>pars</i>, “part,” as in the question <i>quae pars ōrātiōnis?</i>, “what part of speech?”) is to name its part of speech and give its accidents: its person, number, tense, mood, and voice, and its conjugation and principal parts. So <i>laudābantur</i> is parsed as a verb of the first conjugation, from <i>laudō</i>, <i>laudāre</i>, <i>laudāvī</i>, <i>laudātum</i>, in the third person plural, imperfect indicative passive.</p>
+  body: `<p>When we are asked what <i>laudābantur</i> is, a full answer names its part of speech and every one of its accidents. To <strong>parse</strong> a verb (from Latin <i>pars</i>, “part,” as in the question <i>quae pars ōrātiōnis?</i>, “what part of speech?”) is to name its part of speech and give its accidents: its person, number, tense, mood, and voice, and its conjugation and principal parts. So <i>laudābantur</i> is parsed as a verb of the first conjugation, from <i>laudō</i>, <i>laudāre</i>, <i>laudāvī</i>, <i>laudātum</i>, in the third person plural, imperfect indicative passive.</p>
 <p>Some forms admit more than one analysis. <i>Regam</i> is the first person singular active of both the future indicative and the present subjunctive, and <i>amāverit</i> is the third person singular of both the future perfect indicative and the perfect subjunctive. Here, as with the cases of the noun, only the sentence can decide which form is meant.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.` },
 
 { id: 'modist-time-person',
   title: 'The modists on tense, person, and number',
-  body: `<p>We saw that the modists explain the verb by the mode of becoming, and they derive its accidents from the same mode. <strong>Tense</strong>, according to Thomas of Erfurt, is the mode of signifying the action under the property of time, present, past, or future; and it belongs to the verb because what is signified as becoming is measured by time, as St. Thomas says, following Aristotle (<i>Grammatica speculativa</i>, on the verb; <i>In Peri hermeneias</i> I, lect. 5; both in paraphrase).</p>
+  body: `<p>We saw that the modists explain the verb by the mode of becoming, and they derive its accidents from the same mode. <strong>Tense</strong>, according to Thomas of Erfurt, is the mode of signifying the action under the property of time, present, past, or future; and it belongs to the verb because what is signified as becoming is measured by time, as St. Thomas says, following Aristotle (<i>Grammatica speculativa</i>, on the verb; <i>In Peri hermeneias</i> I, lect. 5).</p>
 <p>The verb signifies its action as distinct from the substance of which it is said, and so it must be joined to a subject. <strong>Person</strong> and <strong>number</strong> are the modes by which the verb signifies its action as belonging to a subject of the first, second, or third person, and of one or many. So the modists explain why the verb agrees with its subject in person and number: these accidents are the verb’s way of signifying its relation to the subject, which we will study as agreement in Section V.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on the accidents of the verb (Bursill-Hall), in paraphrase.` },
 
