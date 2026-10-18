@@ -92,10 +92,10 @@ ARS.decks['ii.syllable'] = {
 <p>Pronunciation dictionaries such as Wells’s <i>Longman Pronunciation Dictionary</i> give the division of each word, and they sometimes differ from one another in the hard cases. The division into syllables is still a matter of the sound, but English, unlike Latin, has no single rule that settles every word.</p>`,
   src: `Wells, <i>Longman Pronunciation Dictionary</i>; Merriam-Webster’s word divisions, in paraphrase.`,
   qp: { id: 'q-english-division', variants: [
-    { prompt: `How is “habit” divided into syllables in pronunciation?`,
-      options: [`ha-bit`, `hab-it`, `habi-t`, `It is one syllable`],
+    { prompt: `How is “lemon” divided into syllables in pronunciation?`,
+      options: [`le-mon`, `lem-on`, `lemo-n`, `It is one syllable`],
       answer: 1,
-      explain: `The first vowel of “habit” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>b</i> goes with the first syllable, “hab-it.”` },
+      explain: `The first vowel of “lemon” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>m</i> goes with the first syllable, “lem-on.”` },
     { prompt: `Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>, but English “habit” is divided “hab-it.” Why do they differ?`,
       options: [`English divides every word after its consonants`, `English stressed short vowels do not end syllables`, `Latin has no short vowels`, `The English word comes from French`],
       answer: 1,
