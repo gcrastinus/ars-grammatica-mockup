@@ -18,8 +18,8 @@ ARS.decks['i.functions'] = {
 
 { id: 'aristotle',
   title: 'Every sentence signifies, but not every sentence is a statement',
-  body: `<p>Aristotle makes the distinction that governs the whole subject: “Every sentence has meaning, not as being the natural means by which a physical faculty is realized, but, as we have said, by convention. Yet every sentence is not a proposition; only such are propositions as have in them either truth or falsity. Thus a prayer is a sentence, but is neither true nor false” (<i>De interpretatione</i> 4, 17a1–5).</p>
-<p>A <strong>proposition</strong> or <strong>statement</strong> (Greek <i>apophansis</i>, Latin <i>enuntiatio</i>) is a sentence that says that something is or is not so, and therefore is true or false. So “The door is open” is a statement, and it is true or false according to whether the door is open. But “Open the door” is a complete and meaningful sentence that is neither true nor false, and so is the prayer “Give us this day our daily bread.”</p>`,
+  body: `<p>A <strong>proposition</strong> or <strong>statement</strong> (Greek <i>apophansis</i>, Latin <i>enuntiatio</i>) is a sentence that says that something is or is not so, and therefore is true or false. So “The door is open” is a statement, and it is true or false according to whether the door is open. But “Open the door” is a complete and meaningful sentence that is neither true nor false, and so is the prayer “Give us this day our daily bread.”</p>
+<p>Aristotle makes the distinction that governs the whole subject: “Every sentence has meaning, not as being the natural means by which a physical faculty is realized, but, as we have said, by convention. Yet every sentence is not a proposition; only such are propositions as have in them either truth or falsity. Thus a prayer is a sentence, but is neither true nor false” (<i>De interpretatione</i> 4, 17a1–5).</p>`,
   src: `Aristotle, <i>De interpretatione</i> 4, 17a1–5.`,
   qp: { id: 'q-statement', variants: [
     { prompt: `Which of these sentences is a statement, that is, true or false?`,
