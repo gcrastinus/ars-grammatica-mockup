@@ -1,0 +1,31 @@
+/* Recitation outline for i.syncategorematic (Categorematic and Syncategorematic Words): 26 points. DRAFT for Timothy's review.
+   Paste into data/decks/i.syncategorematic.js as a deck-level field, after `sources` (ITEM-LIST.md, "Recitation Tablet").
+   Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
+  recitation: [
+    `Words can be divided according to whether they signify by themselves or only together with other words.`,
+    `A word that signifies something definite by itself is a <strong>categorematic</strong> word.`,
+    `Categorematic words can stand as the subject of a sentence (what the sentence is about) or as the predicate (what is said of what the sentence is about).`,
+    `The name comes from the Greek <i>katēgorēma</i>, “what is said of something,” because such words can be said of things.`,
+    `A word that does not signify something definite by itself, but signifies only together with other words by determining in what way those words are to be taken, is a <strong>syncategorematic</strong> word (“every,” “not,” “if”).`,
+    `The name adds the Greek <i>syn</i>, “with”: a syncategorematic word signifies only with what is said.`,
+    `The meaning of a syncategorematic word lies in what it does to the other words of the sentence.`,
+    `Priscian reports that the dialecticians (the teachers of logic) counted only two parts of speech, the noun and the verb, because these alone, joined together, make a complete sentence.`,
+    `The dialecticians called the other words <i>syncategoremata</i>, “consignifying” words, because they signify only together with the noun and the verb.`,
+    `Here “consignify” has a second, less common sense: not to signify something along with a principal meaning, but to signify only along with other words.`,
+    `Priscian, as a grammarian, counts eight parts of speech, but he grants the dialecticians’ point that a noun and a verb can make a sentence, whereas words such as “and,” “if,” or “every” cannot; the grammarians integrate this point into their account of grammar.`,
+    `Syncategorematic words add no new thing to what is said; they determine how the things already named are to be taken, and so they can change the whole meaning of a sentence.`,
+    `Where sentences share the same categorematic words, the whole difference in meaning comes from the syncategorematic words (“Every horse runs,” “No horse runs”).`,
+    `The first kind of syncategorematic word signifies how much of something is meant (“every,” “some,” “no”).`,
+    `The second kind excludes or excepts (“only,” “except”).`,
+    `The third kind denies (“not”).`,
+    `The fourth kind joins statements together (“if,” “and,” “or”).`,
+    `In each case the word determines how the other words are to be taken: how many, which ones are left out, whether the thing is affirmed or denied, and how one statement stands to another.`,
+    `The division into categorematic and syncategorematic words does not coincide with the division into parts of speech, because the two divisions answer different questions.`,
+    `The parts of speech are distinguished by the way each word signifies and by how it is arranged with other words; the other division asks only whether a word signifies something definite by itself.`,
+    `So syncategorematic words belong to several parts of speech (adjectives, adverbs, conjunctions, prepositions), and one word can be described under both divisions (“every” is an adjective and a syncategorematic word).`,
+    `Grammar needs this distinction because syncategorematic words determine how the other words are taken, so a careful reader must notice them and a careful writer must place them exactly.`,
+    `A small change in such a word, or in its position, can change the whole meaning of a sentence, and its position can leave a sentence open to two readings.`,
+    `Although we learn these words with our mother tongue, the aim here is to understand language with precision and clarity, so that we can use it and interpret what others say with correctness and exactitude.`,
+    `The words that signify how much is meant, and the word that denies, are the words on which the truth of a statement most often depends; so logic studies them closely and is built in large part on them.`,
+    `Grammar names the syncategorematic words, indicates which words in a language they are, and shows how they are placed and arranged; logic asks how they determine the truth of a statement and what follows from it.`
+  ],

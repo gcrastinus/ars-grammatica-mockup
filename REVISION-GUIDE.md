@@ -454,3 +454,4 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - three-acts: kinds of sentence now "a statement, a question, a command, a prayer, or a call," matching i.functions.
 - "While" → "whereas" (eight places); "in paraphrase" removed from body text (Boethius, Jones, Saussure, Poinsot, Greenberg).
 - No pointers ("to which we return below," "as we will see" removed); closing card unchanged (L.7).
+- 18 Oct 2026: Added recitations/ with the finished Section I recitation outlines (one snippet per deck plus the joined section file), approved by Timothy, for the Recitation Tablet build to move into the deck files.
