@@ -231,8 +231,10 @@ function renderItem(){
     opts.appendChild(row); opts.appendChild(go);
   } else if (it.type === 'sort'){   // put each entry in one of the bins, then check
     const tbl = document.createElement('div'); tbl.className = 'ex-sort';
-    const chosen = it.entries.map(() => null);
-    it.entries.forEach((e, r) => {
+    const ord = shuffled(it.entries.map((_, k) => k));   // entries in a fresh random order on every showing
+    const ans = ord.map(k => it.answer[k]);
+    const chosen = ord.map(() => null);
+    ord.map(k => it.entries[k]).forEach((e, r) => {
       const line = document.createElement('div'); line.className = 'ex-sort-row';
       line.innerHTML = `<div class="ex-sort-entry">${e}</div><div class="ex-sort-bins"></div>`;
       const bins = line.querySelector('.ex-sort-bins');
@@ -250,13 +252,13 @@ function renderItem(){
       tbl.querySelectorAll('.ex-sort-row').forEach((line, r) => {
         line.querySelectorAll('button').forEach((x, j) => {
           x.disabled = true; x.classList.remove('sel');
-          if (j === it.answer[r]) x.classList.add(chosen[r] === j ? 'right' : 'reveal');
+          if (j === ans[r]) x.classList.add(chosen[r] === j ? 'right' : 'reveal');
           else if (chosen[r] === j) x.classList.add('wrong');
         });
       });
       go.querySelector('button').disabled = true;
-      const ok = chosen.every((c, r) => c === it.answer[r]);
-      done(ok, null, it.entries.map((e, r) => e + ': ' + it.bins[it.answer[r]]).join('<br>'));
+      const ok = chosen.every((c, r) => c === ans[r]);
+      done(ok, null, ord.map((k, r) => it.entries[k] + ': ' + it.bins[ans[r]]).join('<br>'));
     };
     opts.appendChild(tbl); opts.appendChild(go);
   } else if (it.type === 'identify'){
