@@ -85,7 +85,7 @@ ARS.decks['x.translation'] = {
 { id: 'grammar-exercise',
   title: 'Translation as an exercise of grammar',
   body: `<p>Translation draws on every part of the grammar we have studied. The translator must parse and construe the original, as in the analysis of sentences; recognize its figures and tropes; know the signification of its words and the differences among synonyms; and then compose in the other language, choosing the constructions that express the same relations. So translation is both a test of understanding and an exercise in composition.</p>
-<p>This is why the tradition, from Cicero’s translations of Demosthenes to Ascham’s double translation, used translation to teach both the foreign language and one’s own. A student who translates a sentence of Latin into good English has understood the Latin and has written English, and in comparing the two he learns what each language can do. The ancient schools also gave their students a series of composition exercises, the progymnasmata, which are considered in this section of the course as well.</p>`,
+<p>This is why the tradition, from Cicero’s translations of Demosthenes to Ascham’s double translation, used translation to teach both the foreign language and one’s own. A student who translates a sentence of Latin into good English has understood the Latin and has written English, and in comparing the two he learns what each language can do.</p>`,
   src: `Ascham, <i>The Scholemaster</i>; Quintilian, <i>Institutio oratoria</i> X.5, in paraphrase.`,
   qpTodo: `Translation and grammar: which parts of grammar does a translator use at each step (parsing and construing the original, recognizing its figures, choosing the constructions of the other language).` }
 
