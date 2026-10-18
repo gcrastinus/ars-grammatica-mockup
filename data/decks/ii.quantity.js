@@ -29,7 +29,20 @@ ARS.decks['ii.quantity'] = {
   body: `<p>In <i>por-ta</i> (“gate”) the <i>o</i> is short, but the first syllable is long because <i>r</i> and <i>t</i> follow it. In <i>ma-gis-ter</i> (“teacher”) the <i>i</i> is short, but the second syllable is long because <i>s</i> and <i>t</i> follow it. In <i>sa-xum</i> (“rock”) the first syllable is long because <i>x</i> counts as two consonants. A syllable of this kind is called <strong>long by position</strong>, that is, a syllable whose vowel is short is still long by position when its vowel is followed by two consonants, or by one of the double letters <i>x</i> or <i>z</i>.</p>
 <p>The reason is the one we saw with closed syllables: when two consonants follow a short vowel, the first of them closes the syllable, and the closed syllable takes longer to pronounce. The term “position” does not refer to the place of the vowel in the word; the Latin <i>positio</i> translates the Greek <i>thesei</i>, “by convention,” as opposed to <i>physei</i>, “by nature.” It is still the established term, and the Latin grammars use it.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 11; Allen, <i>Vox Latina</i>, in paraphrase.`,
-  qpTodo: `Quantity by position: why is a given syllable long (the second syllable of <i>magister</i>, the first of <i>porta</i> or <i>saxum</i>), by nature or by position.` },
+  qp: { id: 'q-position', variants: [
+    { prompt: `The <i>e</i> of <i>ventus</i> (“wind”) is short. Why is the first syllable <i>ven-</i> long?`,
+      options: [`Its vowel is long by nature`, `Two consonants follow its short vowel`, `It is the first syllable of the word`, `It is not long, because its vowel is short`],
+      answer: 1,
+      explain: `The short <i>e</i> is followed by two consonants, <i>n</i> and <i>t</i>, so the syllable <i>ven-</i> is closed and long by position. The term “position” does not refer to the place of the syllable in the word; a first syllable can be short, as in <i>pa-ter</i>.` },
+    { prompt: `The <i>u</i> of <i>dux</i> (“leader”) is short, yet the syllable is long. Why?`,
+      options: [`A word of one syllable is always long`, `Its vowel is long by nature`, `The letter <i>x</i> counts as two consonants`, `It bears the accent of the word`],
+      answer: 2,
+      explain: `The double letter <i>x</i> stands for two sounds, <i>c</i> and <i>s</i>, so the short <i>u</i> of <i>dux</i> is followed by two consonants and the syllable is long by position. Words of one syllable are not always long, and the accent does not make a syllable long.` },
+    { prompt: `In <i>fe-nes-tra</i> (“window”) the <i>e</i> of the second syllable is short. Is that syllable long or short?`,
+      options: [`Short, because <i>tr</i> goes with the following vowel`, `Short, because its vowel is short`, `Long by nature, because it bears the accent`, `Long by position, because <i>s</i> closes it`],
+      answer: 3,
+      explain: `The short <i>e</i> is followed by <i>s</i>, <i>t</i>, and <i>r</i>. The mute and liquid <i>tr</i> go together with the following vowel, but <i>s</i> stays with the second syllable and closes it, so <i>nes</i> is long by position. A short vowel does not make a closed syllable short.` }
+  ]}},
 
 { id: 'short-and-vowel-vowel',
   title: 'Short syllables and a vowel before a vowel',
@@ -61,7 +74,20 @@ ARS.decks['ii.quantity'] = {
 <p>The law has three parts:<br>A word of one syllable is accented on that syllable.<br>A word of two syllables is accented on the first: <i>RO-sa</i> (“rose”), <i>PA-ter</i>.<br>In a word of three or more syllables, the penult is accented if it is long, and the antepenult if the penult is short: <i>a-MĪ-cus</i> (penult long by nature), <i>ma-GIS-ter</i> (penult long by position), but <i>DO-mi-nus</i> and <i>a-GRI-co-la</i> (“farmer”), whose penults are short.</p>
 <p>So the accent of a Latin word never falls further back than the antepenult, and the quantity of the penult decides between the penult and the antepenult.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 14; Allen, <i>Vox Latina</i>, ch. 5.`,
-  qpTodo: `The law of the penult: where is a given word accented (<i>dominus</i>, <i>amīcus</i>, <i>agricola</i>, <i>magister</i>), and why.` },
+  qp: { id: 'q-penult', variants: [
+    { prompt: `Where is <i>bonus</i> (“good”) accented, and why?`,
+      options: [`On the last syllable, because it is closed`, `On the first, because the word has two syllables`, `On the first, because its vowel is long`, `On the last, because Latin accents the final syllable`],
+      answer: 1,
+      explain: `A Latin word of two syllables is accented on the first: <i>BO-nus</i>. The <i>o</i> of <i>bonus</i> is short, so its length is not the reason; the law of the penult places the accent on the first of two syllables whatever their quantity.` },
+    { prompt: `Where is <i>Rōmānus</i> (“Roman”) accented, and why?`,
+      options: [`On the penult <i>mā</i>, because it is long`, `On the antepenult <i>Rō</i>, because Latin never accents the penult`, `On the last syllable <i>nus</i>, because it is closed`, `On the antepenult <i>Rō</i>, because it begins the word`],
+      answer: 0,
+      explain: `In a word of three or more syllables the quantity of the penult decides. The penult <i>mā</i> is long by nature, so it takes the accent: <i>rō-MĀ-nus</i>. The long first syllable does not draw the accent back, because the antepenult is accented only when the penult is short.` },
+    { prompt: `The first vowel of <i>fēmina</i> (“woman”) is long. Where is the word accented, and why?`,
+      options: [`On the penult <i>mi</i>, because the penult is always accented`, `On the last syllable <i>na</i>`, `On the antepenult <i>fē</i>, because its vowel is long`, `On the antepenult <i>fē</i>, because the penult <i>mi</i> is short`],
+      answer: 3,
+      explain: `The penult <i>mi</i> is short (its vowel is short and the syllable is open), so the accent falls back on the antepenult: <i>FĒ-mi-na</i>. The long <i>ē</i> is not the reason; <i>DO-mi-nus</i>, with a short first vowel, is accented on the antepenult in the same way.` }
+  ]}},
 
 { id: 'enclitics',
   title: 'Enclitics and the accent',
@@ -80,14 +106,40 @@ ARS.decks['ii.quantity'] = {
   body: `<p>Because English stress belongs to each word, it can distinguish two words that are otherwise spelled alike. Many English nouns and verbs of two syllables form such pairs: the noun is stressed on the first syllable and the verb on the second. “A RE-cord” is a noun, and “to re-CORD” is a verb; so also “PER-mit” and “per-MIT,” “PRE-sent” and “pre-SENT,” “OB-ject” and “ob-JECT,” “CON-trast” and “con-TRAST.”</p>
 <p>So in “They will record the speech,” the stress of “record” falls on the second syllable, because the word is a verb, whereas in “The record was broken,” it falls on the first. Latin never distinguishes words in this way, because the place of the Latin accent is fixed by the quantity of the syllables.</p>`,
   src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.`,
-  qpTodo: `Noun and verb pairs: in a given sentence, which syllable of “record,” “permit,” or “object” is stressed, and why.` },
+  qp: { id: 'q-noun-verb', variants: [
+    { prompt: `“The school will <strong>present</strong> a prize.” Which syllable of “present” is stressed, and why?`,
+      options: [`PRE-sent, because the word is a noun`, `pre-SENT, because the word is a verb`, `PRE-sent, because the word is a verb`, `pre-SENT, because the word is a noun`],
+      answer: 1,
+      explain: `Here “present” is a verb (the school will present something), and in these English pairs the verb is stressed on the second syllable: pre-SENT. As a noun, “a present,” it is stressed on the first: PRE-sent.` },
+    { prompt: `“She applied for a <strong>permit</strong>.” Which syllable of “permit” is stressed, and why?`,
+      options: [`per-MIT, because the word is a verb`, `per-MIT, because the word is a noun`, `PER-mit, because the word is a noun`, `PER-mit, because the word is a verb`],
+      answer: 2,
+      explain: `“A permit” is a noun, the thing applied for, so it is stressed on the first syllable: PER-mit. The verb “to permit” is stressed on the second: per-MIT.` },
+    { prompt: `English can tell “a REC-ord” from “to re-CORD” by stress alone. Why does Latin never distinguish words in this way?`,
+      options: [`Because the Latin accent is fixed by quantity`, `Because Latin has no nouns formed from verbs`, `Because Latin words have no accent at all`, `Because Latin nouns are always longer than its verbs`],
+      answer: 0,
+      explain: `The place of the Latin accent is found from the quantity of the syllables by the law of the penult, so two words of the same syllables are accented in the same place. English stress belongs to each word and must be learned with it, so it can distinguish words that are otherwise spelled alike.` }
+  ]}},
 
 { id: 'suffixes',
   title: 'Suffixes that move the stress',
   body: `<p>Words of one family may be stressed on different syllables, because certain endings fix the place of the stress. The endings <i>-tion</i>, <i>-ic</i>, and <i>-ity</i> put the stress on the syllable just before them, wherever it stood in the shorter word: “ED-u-cate,” but “ed-u-CA-tion”; “ATH-lete,” but “ath-LET-ic”; “e-LEC-tric,” but “e-lec-TRIC-i-ty.”</p>
 <p>Other endings leave the stress where it was. The endings <i>-ness</i>, <i>-ment</i>, and <i>-ful</i> are of this kind: “HAP-py” and “HAP-pi-ness,” “GOV-ern” and “GOV-ern-ment,” “CARE” and “CARE-ful.” These regularities do not make English stress predictable in every word, but they account for the stress of a great many words of Latin and Greek origin.</p>`,
   src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.`,
-  qpTodo: `Suffixes and stress: where is a given derived word stressed (“education,” “athletic,” “electricity,” “happiness”), and does the ending move the stress.` },
+  qp: { id: 'q-suffix', variants: [
+    { prompt: `“Organ” is stressed OR-gan. Where is “organic” stressed?`,
+      options: [`On the first syllable, as in “organ”`, `On the ending <i>-ic</i>`, `On “gan,” just before the ending <i>-ic</i>`, `Equally on all three syllables`],
+      answer: 2,
+      explain: `The ending <i>-ic</i> puts the stress on the syllable just before it, wherever it stood in the shorter word: OR-gan, but or-GAN-ic, as “ATH-lete” becomes “ath-LET-ic.”` },
+    { prompt: `“Employ” is stressed em-PLOY. Where is “employment” stressed?`,
+      options: [`EM-ploy-ment, because <i>-ment</i> moves the stress forward`, `em-PLOY-ment, as in “employ”`, `em-ploy-MENT, because the ending takes the stress`, `It has no primary stress`],
+      answer: 1,
+      explain: `The ending <i>-ment</i> is one of those that leave the stress where it was, like <i>-ness</i> and <i>-ful</i>: em-PLOY, em-PLOY-ment, as “GOV-ern” gives “GOV-ern-ment.” Every English word of more than one syllable has a primary stress.` },
+    { prompt: `“Public” is stressed PUB-lic. Where is “publicity” stressed, and why?`,
+      options: [`PUB-lic-i-ty, because the root keeps its stress`, `pub-lic-I-ty, because <i>-ity</i> takes the stress itself`, `pub-lic-i-TY, because the last syllable is stressed`, `pub-LIC-i-ty, before <i>-ity</i>`],
+      answer: 3,
+      explain: `The ending <i>-ity</i> puts the stress on the syllable just before it, so the stress moves from “pub” to “lic”: pub-LIC-i-ty, as “e-LEC-tric” becomes “e-lec-TRIC-i-ty.” The ending itself is not stressed.` }
+  ]}},
 
 { id: 'schwa-rhythm',
   title: 'Weak syllables and the rhythm of English',
