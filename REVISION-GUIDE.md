@@ -282,3 +282,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.functions, five-kinds: opens "As we have seen already, a complete sentence does not only make a statement"; examples changed from the first card's ("Mary!", "Bring the umbrella"); "commenting on Aristotle".
 - 17 Oct 2026: i.functions, logic-rhetoric card: reordered to begin with grammar's concern with every kind of sentence, then the other arts, with Aristotle's division of labor last; "solecism" glossed.
 - 17 Oct 2026: i.functions, what-speech-does: functions given as a complete list (state, ask, command, pray, call; feeling can accompany any); "wishes or prays" to "prays" to match the kinds card.
+- 17 Oct 2026: i.functions subtitle: "Stating, asking, commanding, praying, calling, and expressing feeling".

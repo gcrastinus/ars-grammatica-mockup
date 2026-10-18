@@ -6,7 +6,7 @@ ARS.decks = ARS.decks || {};
 ARS.decks['i.functions'] = {
   id: 'i.functions',
   title: 'The Functions of Language',
-  sub: 'Stating, asking, commanding, wishing, and expressing feeling',
+  sub: 'Stating, asking, commanding, praying, calling, and expressing feeling',
   sources: `Aristotle, <i>De interpretatione</i> 4; St. Thomas, <i>In Peri hermeneias</i> I, lect. 7.`,
   panels: [
 
