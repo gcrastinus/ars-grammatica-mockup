@@ -12,7 +12,7 @@ ARS.decks['iii.conjunction'] = {
 
 { id: 'conjunction',
   title: 'The conjunction and its accidents',
-  body: `<p>A conjunction may join single words, as in “bread and wine,” or phrases, as in “in the house or in the garden,” or whole clauses, as in “She came, but he stayed.” We have seen that the conjunction joins and orders the thought, and that the modists explain it as signifying by the mode of joining two terms. Priscian defines it as an indeclinable part of speech that joins other parts of speech and shows their force or their order (<i>Institutiones grammaticae</i> XVI).</p>
+  body: `<p>A conjunction may join single words, as in “salt and pepper,” or phrases, as in “in the house or in the garden,” or whole clauses, as in “She came, but he stayed.” We have seen that the conjunction joins and orders the thought, and that the modists explain it as signifying by the mode of joining two terms. Priscian defines it as an indeclinable part of speech that joins other parts of speech and shows their force or their order (<i>Institutiones grammaticae</i> XVI).</p>
 <p>Donatus gives the conjunction three accidents: power, figure, and order (<i>potestas, figura, ordo</i>; <i>Ars minor</i>). <strong>Power</strong> is the kind of relation the conjunction signifies; <strong>figure</strong> is whether it is simple or compound; and <strong>order</strong> is its position in relation to the words it joins.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the conjunction (the Latin); Priscian, <i>Institutiones grammaticae</i> XVI, in paraphrase.` },
 
@@ -31,14 +31,14 @@ ARS.decks['iii.conjunction'] = {
 
 { id: 'order',
   title: 'The order of conjunctions',
-  body: `<p>In Latin <i>senātus populusque</i> (“the senate and the people”), the word for “and,” <i>-que</i>, is attached to the second word, and in <i>Caesar autem</i> (“but Caesar”) the word for “but” is placed second in its clause. Conjunctions differ, then, in their position, and Donatus calls this accident <strong>order</strong>. Some conjunctions are placed before the word they join, as <i>ac</i> and <i>atque</i> (“and”); some are placed after it, as <i>-que</i> (“and”) and <i>autem</i> (“but,” “moreover”); and some can be placed either way, as <i>et</i> and <i>igitur</i> (<i>Ars minor</i>).</p>
+  body: `<p>In Latin <i>terrā marīque</i> (“by land and sea”), the word for “and,” <i>-que</i>, is attached to the second word, and in <i>Caesar autem</i> (“but Caesar”) the word for “but” is placed second in its clause. Conjunctions differ, then, in their position, and Donatus calls this accident <strong>order</strong>. Some conjunctions are placed before the word they join, as <i>ac</i> and <i>atque</i> (“and”); some are placed after it, as <i>-que</i> (“and”) and <i>autem</i> (“but,” “moreover”); and some can be placed either way, as <i>et</i> and <i>igitur</i> (<i>Ars minor</i>).</p>
 <p>Latin conjunctions placed after the first word are called <strong>postpositive</strong>. English has a few words that behave in a similar way, such as “however” and “therefore” in “Caesar, however, refused.” A reader of Latin who expects every conjunction at the beginning of its clause will misread sentences with <i>autem</i>, <i>enim</i> (“for”), and <i>vērō</i> (“but,” “indeed”).</p>`,
   src: `Donatus, <i>Ars minor</i>, on the order of the conjunction, in paraphrase.` },
 
 { id: 'figure',
   title: 'Simple and compound conjunctions',
-  body: `<p>“But” is a single word, whereas “nevertheless” is made of “never,” “the,” and “less.” So the conjunction, like the other parts, has <strong>figure</strong>. Donatus’s examples are <i>nam</i> (“for”), which is simple, and <i>namque</i> (“for indeed”), which is compound (<i>Ars minor</i>). Other compound conjunctions are <i>etenim</i> (“for indeed”), <i>quamvīs</i> (“although”), and <i>postquam</i> (“after”). In English, “however,” “whereas,” “nevertheless,” and “although” are compounds, and groups such as “as if,” “so that,” and “in order that” serve as conjunctions.</p>
-<p>The compound conjunctions show how the parts of speech can combine: <i>postquam</i> is made of the preposition or adverb <i>post</i> and the relative <i>quam</i>, and English “although” of the adverb “all” and the conjunction “though.” The compound is still one word of one part of speech, as we saw with compound nouns and verbs.</p>`,
+  body: `<p>“But” is a single word, whereas “whereas” is made of “where” and “as.” So the conjunction, like the other parts, has <strong>figure</strong>. Donatus’s examples are <i>nam</i> (“for”), which is simple, and <i>namque</i> (“for indeed”), which is compound (<i>Ars minor</i>). Other compound conjunctions are <i>etenim</i> (“for indeed”), <i>quamvīs</i> (“although”), and <i>quamquam</i> (“although”). In English, “however,” “although,” and “inasmuch” are compounds, and groups such as “as if,” “so that,” and “in order that” serve as conjunctions.</p>
+<p>The compound conjunctions show how the parts of speech can combine: <i>quamvīs</i> is made of the adverb <i>quam</i> (“as”) and the verb <i>vīs</i> (“you wish”), and English “although” of the adverb “all” and the conjunction “though.” The compound is still one word of one part of speech, as we saw with compound nouns and verbs.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the figure of the conjunction, in paraphrase.` },
 
 { id: 'correlative',
@@ -49,7 +49,7 @@ ARS.decks['iii.conjunction'] = {
 
 { id: 'that',
   title: 'Conjunction, relative, and adverb',
-  body: `<p>Some words are conjunctions in one use and other parts of speech in another. English “that” is a conjunction in “I know that he came,” where it introduces a clause and refers to nothing; it is a relative pronoun in “the book that I read,” where it refers to “the book”; and it is a demonstrative in “that book.” We saw that Latin <i>cum</i> is a preposition in <i>cum amīcō</i> and a conjunction in <i>cum venit</i>, and English “before” and “after” are prepositions, adverbs, or conjunctions according to their use.</p>
+  body: `<p>Some words are conjunctions in one use and other parts of speech in another. English “that” is a conjunction in “I know that he came,” where it introduces a clause and refers to nothing; it is a relative pronoun in “the letter that I wrote,” where it refers to “the letter”; and it is a demonstrative in “that letter.” We saw that Latin <i>cum</i> is a preposition in <i>cum amīcō</i> and a conjunction in <i>cum venit</i>, and English “before” and “after” are prepositions, adverbs, or conjunctions according to their use.</p>
 <p>The test is the same as for every part of speech: what is the word doing in this sentence? A conjunction joins and refers to nothing; a relative pronoun joins and also refers to an antecedent; a preposition takes a noun as its object; an adverb determines another word without joining anything.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
   qpTodo: `Conjunction or another part: in a given sentence, is “that” (or <i>cum</i>, “before”) a conjunction, a relative pronoun, a preposition, or an adverb, and why.` }
