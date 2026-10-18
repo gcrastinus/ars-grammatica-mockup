@@ -3,6 +3,7 @@
    kind: 'study' (a deck), 'study-ex' (a deck with its own exercise set), 'exercise' (a shared exercise set),
          'review' (a section review).
    built: true when the deck's data file exists in data/decks/<id>.js.
+   An exercise or a review is built when its questions open in the player.
    layers: reserved for optional child layers (for example 'iii.noun-2/la', “The Noun in Latin”); none are built yet. */
 window.ARS = window.ARS || {};
 ARS.structure = [
@@ -23,7 +24,7 @@ ARS.structure = [
    { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
    { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, praying, calling, and expressing feeling, and why only the statement is true or false.' },
    { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
-   { id:'i.ex.sign', kind:'exercise', title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' },
+   { id:'i.ex.sign', kind:'exercise', built:true, title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' },
    { id:'i.review', kind:'review', title:'Section Review: Sign and Significant Voice', desc:'Forty-five questions on I.1 to I.6, in three fixed sets of fifteen.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',

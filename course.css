@@ -182,3 +182,31 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .ex-bin.right{background:var(--sage); color:#fff; border-color:var(--sage)}
 .ex-bin.reveal{border-color:var(--sage); border-style:dashed; border-width:2px}
 .ex-bin.wrong{background:var(--wine); color:#fff; border-color:var(--wine)}
+
+/* Cumulative review, the exercise player, and the spaced-review notice. */
+.review-due{
+  text-align:center; font-style:italic; color:var(--ink-soft); font-size:16.5px;
+  margin:10px auto 0; max-width:680px; line-height:1.55;
+}
+.review-due[hidden]{display:none}
+.review-due-btn{
+  font-family:inherit; font-size:inherit; font-style:inherit; color:var(--gold);
+  background:none; border:none; border-bottom:1px solid var(--gold-soft);
+  padding:0 1px; cursor:pointer;
+}
+.review-due-btn:hover{color:var(--ink)}
+.cumul-bar{
+  grid-column:1 / -1; width:100%; min-height:102px; box-sizing:border-box;
+  display:flex; flex-direction:column; justify-content:center; align-items:flex-start; gap:2px;
+  text-align:left; font:inherit; color:var(--ink); background:var(--card);
+  border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
+  padding:12px 22px; cursor:pointer;
+}
+.cumul-bar:hover{border-color:var(--gold-soft)}
+.cumul-h{font-family:'Cinzel',serif; font-size:18px; font-weight:600; letter-spacing:.04em}
+.cumul-range{font-style:italic; color:var(--ink-soft); font-size:16.5px; line-height:1.35}
+.ex-count{text-align:center; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:var(--gold); margin:8px 0 12px}
+.ex-empty{text-align:center; font-style:italic; color:var(--ink-soft); font-size:18px; line-height:1.5; margin:28px auto; max-width:520px}
+.typed-row{display:flex; gap:10px; align-items:center; margin-top:14px}
+.typed-row .answer-in{flex:1; width:auto; min-width:0}
+.typed-row .btn{flex:none}

@@ -38,12 +38,13 @@ function buildHome(){
       const c = document.createElement('div');
       const st = store.decks[it.id];
       const plan = hasPlan(it.id);
+      const practiceTile = playerItem(it);
       c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '');
       c.dataset.id = it.id;
       c.innerHTML = `<div class="kind">${KIND[it.kind]}</div>
-        ${it.built && st && st.done ? '<span class="done-flag">✓ Studied</span>' : ''}
+        ${it.built && !practiceTile && st && st.done ? '<span class="done-flag">✓ Studied</span>' : ''}
         <h3>${it.title}</h3><p>${it.desc}</p>
-        <span class="begin">${it.built ? 'Study →' : ''}</span>
+        <span class="begin">${it.built ? (practiceTile ? 'Begin →' : 'Study →') : ''}</span>
         <span class="soon-flag">Coming</span>`;
       // A deck with its own exercise set (II–XI) gets an Exercise button that opens the set's plan.
       const exId = ARS.deckEx && ARS.deckEx[it.id];
@@ -57,15 +58,21 @@ function buildHome(){
         c.onclick = () => openEx(it.id);
         c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
       }
-      if (it.built){
+      if (it.built && practiceTile){
+        c.tabIndex = 0; c.setAttribute('role', 'button');
+        c.onclick = () => openEx(it.id);
+        c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
+      } else if (it.built){
         c.tabIndex = 0; c.setAttribute('role', 'button');
         c.onclick = () => openDeck(it.id);
         c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openDeck(it.id); } };
       }
       grid.appendChild(c);
     });
+    if (sec.roman && typeof cumulativeBar === 'function') grid.appendChild(cumulativeBar(sec));
   });
   if (typeof renderReciteReminder === 'function') renderReciteReminder();
+  if (typeof renderReviewNotice === 'function') renderReviewNotice();
 }
 
 /* ---------- loading a deck's data file ---------- */
@@ -81,8 +88,18 @@ function loadDeck(id){
   });
 }
 
-/* ---------- exercise sets and section reviews (Sections II–XI): plan and stubs only ---------- */
+/* ---------- exercise sets and section reviews ----------
+   A file whose questions are written opens in the player (practice.js).
+   A file still marked as a plan, or whose items are still todo, shows the plan. */
 function hasPlan(id){ return !!(ARS.exerciseFiles && ARS.exerciseFiles.indexOf(id) >= 0); }
+/* A section exercise or review opens in the player. A built exercise that is itself a deck
+   (ix.sentences, ix.passages, ix.marking, x.imitation) opens as a deck. */
+function playerItem(it){
+  if (!it) return false;
+  if (it.kind === 'review') return true;
+  if (it.kind !== 'exercise') return false;
+  return hasPlan(it.id) || it.id.indexOf('.ex.') >= 0;
+}
 function loadEx(id){
   ARS.exercises = ARS.exercises || {};
   if (ARS.exercises[id]) return Promise.resolve(ARS.exercises[id]);
@@ -100,11 +117,24 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 function openEx(id){
   loadEx(id).then(ex => {
+    // A set marked written keeps the runner in this file (sets A–C, the "Why?" box, clicked words).
+    // Any other file whose questions can be asked uses the player in practice.js. A plan stays a plan.
     if (ex.status === 'written') return runEx(ex);
-    location.hash = 'ex/' + id;
-    $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
-    $('ex-title').innerHTML = ex.title;
-    $('ex-sub').textContent = 'Coming soon: the questions are not yet written.';
+    if (typeof exerciseIsPlayable === 'function' && exerciseIsPlayable(ex)){ startExercise(ex); return; }
+    showExercisePlan(id, ex);
+  }).catch(err => { alert(err.message); });
+}
+function showExercisePlan(id, ex){
+  location.hash = 'ex/' + id;
+  $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
+  $('ex-title').innerHTML = ex.title;
+  if (!ex.covers || !ex.items){
+    $('ex-sub').textContent = 'The questions are not yet written.';
+    $('ex-body').innerHTML = '';
+    show('scr-ex');
+    return;
+  }
+  $('ex-sub').textContent = 'Coming soon: the questions are not yet written.';
     const body = $('ex-body'); body.innerHTML = '';
     const box = document.createElement('div'); box.className = 'q-box ex-plan';
     const covers = ex.covers.map(c => `${c.deck}${c.cards && c.cards.length ? ' (' + c.cards.join(', ') + ')' : ''}`).join('; ');
@@ -127,14 +157,13 @@ function openEx(id){
     });
     body.appendChild(box);
     show('scr-ex');
-  }).catch(err => { alert(err.message); });
 }
 
 /* ---------- running a written exercise set or review ----------
    Successive visits give set A, then B, then C, then A again (ITEM-LIST rule 5). The items of a set are given in their
    fixed order (easy to hard); the options of a multiple-choice item are shuffled on each showing, and the key follows
    the option. A wrongly answered item is asked once more at the end of the sitting (build list, item 3) and is recorded
-   in store.due for the cumulative review. Typed answers (count, divide) are compared after normalizing; feedback shows
+   in store.ex for this set, and the first answer is also stored in the Leitner boxes (practice.js). Typed answers (count, divide) are compared after normalizing; feedback shows
    the student's answer beside the correct one. An item may carry a "Why?" prompt with a model answer (no grading). */
 let run = null;   // { ex, set, queue, k, first: {id: right?}, retried: {id:true} }
 function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
@@ -222,7 +251,7 @@ function renderItem(){
       });
       go.querySelector('button').disabled = true;
       const ok = chosen.every((c, r) => c === it.answer[r]);
-      done(ok, null, null);
+      done(ok, null, it.entries.map((e, r) => e + ': ' + it.bins[it.answer[r]]).join('<br>'));
     };
     opts.appendChild(tbl); opts.appendChild(go);
   } else if (it.type === 'identify'){
@@ -255,7 +284,11 @@ function renderItem(){
   body.appendChild(box);
 }
 function finishItem(box, it, ok, given, right){
-  if (!(it.id in run.first)) run.first[it.id] = ok;
+  const firstPass = !(it.id in run.first);
+  if (firstPass){
+    run.first[it.id] = ok;
+    if (ARS.noteAnswer) ARS.noteAnswer(it, ok);
+  }
   if (!ok){
     const st = exState(run.ex.id); st.due = st.due || [];
     if (st.due.indexOf(it.id) < 0) st.due.push(it.id); save();
@@ -388,7 +421,9 @@ function answer(qp, k){
 function nextPanel(){
   if ($('deck-next').disabled) return;
   if (cur.i < cur.deck.panels.length - 1){ cur.i += 1; renderPanel(); window.scrollTo(0, 0); return; }
-  const st = deckState(cur.deck.id); st.done = true; save();
+  const st = deckState(cur.deck.id);
+  if (!st.done) st.doneAt = Date.now();
+  st.done = true; save();
   const id = cur.deck.id; goHome();
   const card = document.querySelector(`.set-card[data-id="${id}"]`);
   if (card){ card.scrollIntoView({block:'center'}); card.focus({preventScroll:true}); }
@@ -419,6 +454,6 @@ const mx = location.hash.match(/^#ex\/(.+)$/);
 if (mx && hasPlan(mx[1])) openEx(mx[1]);
 const m = location.hash.match(/^#deck\/(.+)$/);
 if (m){
-  const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built);
+  const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built && !playerItem(x));
   if (it) openDeck(it.id);
 }
