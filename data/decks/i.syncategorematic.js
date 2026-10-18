@@ -15,7 +15,7 @@ ARS.decks['i.syncategorematic'] = {
   title: 'Words that signify by themselves',
   body: `<p>We have seen that a word signifies by imposition and that some words consignify, that is, signify something along with their principal meaning. Now, we can divide words according to whether they signify by themselves or only together with other words. A word that signifies something by itself is what the tradition calls a <strong>categorematic</strong> word. Words of this kind can stand as the subject or the predicate of a sentence, that is, as what the sentence is about, the subject, or as something said of what the sentence is about, the predicate. The name comes from the Greek <i>katēgorēma</i>, “what is said of something,” because such words can be said of things.</p>
 <p>So “man,” “horse,” “white,” and “runs” are categorematic words. Each of them, heard by itself, brings something definite to mind: a kind of animal, a color, an action. In “The horse is white,” “horse” is what the sentence is about and “white” is what is said of it; both are categorematic.</p>
-<p>But not all words are like this, that is, some words only signify together with something else.</p>`,
+<p>But not all words are like this: some words signify only together with something else.</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i>, introduction, in paraphrase.` },
 
 { id: 'with-others',
