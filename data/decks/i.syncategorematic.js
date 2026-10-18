@@ -88,7 +88,7 @@ ARS.decks['i.syncategorematic'] = {
 
 { id: 'logic',
   title: 'Where grammar hands over to logic',
-  body: `<p>The syncategorematic words that signify how much is meant (“every,” “some,” “no”) and the word that denies (“not”) are the words on which the truth of a statement most often depends. “Every horse is white” is false if a single horse is black, while “Some horse is white” is true if a single horse is white. For that reason logic studies these words closely, and the art of logic is built in large part on them.</p>
+  body: `<p>The syncategorematic words that signify how much is meant (“every,” “some,” “no”) and the word that denies (“not”) are the words on which the truth of a statement most often depends. “Every horse is white” is false if a single horse is black, whereas “Some horse is white” is true if a single horse is white. For that reason logic studies these words closely, and the art of logic is built in large part on them.</p>
 <p>Grammar names these words and shows how they are placed and arranged; logic asks how they determine the truth of a statement and what follows from it. We will return to them in Section VIII, where grammar and logic meet, and the full logical treatment belongs to Ars Syllogistica, the companion course on logic.</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i>, in paraphrase.` }
 
