@@ -543,3 +543,7 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 
 - 18 Oct 2026: After a study deck is finished for the first time, or an exercise set or a section review is finished, the main page shows one callout beside the Recitation Tablet: "You have finished [name]. The best way to make it your own is to recite it here, from memory." The icon has a slow gold glow while the callout is up. It closes on a click, or when the tablet opens, and that item is then stored as shown. If several are waiting, the callout names the most recent, and closing it marks the rest as shown. Nothing is added on the cards or the exercise pages. Cumulative Review is not included. On a narrow screen the callout sits under the icon. Below 1240px the page is lowered while the callout is open, so the note does not cover the title.
 - 18 Oct 2026: From 1400px wide, the course column is 960px and the base text is 21px. The home-card text, the introduction, the section gloss, the subtitle, and the question prompt are raised with it. Below 1400px, including 1280px, phones, and tablets, the column stays 880px and the base text stays 19px.
+
+## AB. Log: Recitation callout wording (18 Oct 2026)
+
+- 18 Oct 2026: The callout beside the Recitation Tablet now reads: "You have finished [name]. The best way to continue toward mastery is to set out the whole subject yourself, then check your account against the full recitation." The wording is kept as given. Nothing else is changed.
