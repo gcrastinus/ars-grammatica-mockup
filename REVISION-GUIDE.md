@@ -286,3 +286,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: same list updated in structure.js (i.functions desc) and xi.modern (functional grammar card).
 - 17 Oct 2026: i.functions, modern accounts: Jakobson's contact function placed under the vocative, metalanguage under second imposition; new paragraph (Timothy's wording) on why the poetic function is not separate in the classical tradition.
 - 17 Oct 2026: i.functions card 7: added ", although they also use statements since logic plays a role in each."
+- 17 Oct 2026: i.ambiguity, what-ambiguity: Quintilian moved to the end; the division into word and arrangement now stated directly as the grammarian's first question, with the examples, before the authority.

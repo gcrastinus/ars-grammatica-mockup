@@ -15,8 +15,9 @@ ARS.decks['i.ambiguity'] = {
 
 { id: 'what-ambiguity',
   title: 'What is ambiguity?',
-  body: `<p>We have seen that a word signifies by imposition and that one sound can be given more than one meaning. A word or a group of words that can be understood in more than one sense is called <strong>ambiguous</strong> (Latin <i>ambiguus</i>, “going two ways”). Quintilian, discussing ambiguity in his <i>Institutio oratoria</i>, says that it has countless kinds but only two sources: “There are, however, very few genera, since ambiguity must occur either in a single word or in a group of words” (VII.9.1).</p>
-<p>That division is the grammarian’s first question about any ambiguous expression: does the double sense lie in a single word, or in the way the words are arranged with one another? In “He went to the bank,” the double sense lies in the word “bank,” which can mean the side of a river or a place where money is kept. In “The man saw the boy with the telescope,” no single word is ambiguous; the double sense lies in the arrangement, because “with the telescope” can belong either to “saw” or to “the boy.”</p>`,
+  body: `<p>We have seen that a word signifies by imposition and that one sound can be given more than one meaning. A word or a group of words that can be understood in more than one sense is called <strong>ambiguous</strong> (Latin <i>ambiguus</i>, “going two ways”).</p>
+<p>The grammarian’s first question about any ambiguous expression is therefore a division: does the double sense lie in a single word, or in the way the words are arranged with one another? In “He went to the bank,” the double sense lies in the word “bank,” which can mean the side of a river or a place where money is kept. In “The man saw the boy with the telescope,” no single word is ambiguous; the double sense lies in the arrangement, because “with the telescope” can belong either to “saw” or to “the boy.”</p>
+<p>Quintilian, discussing ambiguity in his <i>Institutio oratoria</i>, makes the same division. He says that ambiguity has countless kinds but only two sources: “There are, however, very few genera, since ambiguity must occur either in a single word or in a group of words” (VII.9.1).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VII.9.1.` },
 
 { id: 'word',
