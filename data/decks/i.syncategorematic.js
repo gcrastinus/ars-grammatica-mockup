@@ -35,7 +35,7 @@ ARS.decks['i.syncategorematic'] = {
   title: 'What syncategorematic words do',
   body: `<p>Syncategorematic words do not add a new thing to what is said; they determine how the things already named are to be taken, and so they can change the whole meaning of a sentence. Compare these sentences, which share the same categorematic words, “horse” and “runs”:</p>
 <p>“Every horse runs.”<br>“Some horse runs.”<br>“No horse runs.”<br>“Only a horse runs.”</p>
-<p>The first says something of all horses, the second of at least one, the third of none, and the fourth says that nothing other than a horse runs. The same is true in Latin: <i>omnis equus currit</i> (“every horse runs”), <i>aliquis equus currit</i> (“some horse runs”), and <i>nullus equus currit</i> (“no horse runs”). Because the categorematic words are the same in each sentence, the whole difference in meaning comes from the syncategorematic words.</p>`,
+<p>The first says something of all horses, the second of at least one, the third of none, and the fourth says that nothing other than a horse runs. The same is true in Latin: <i>omnis equus currit</i> (“every horse runs”), <i>aliquis equus currit</i> (“some horse runs”), and <i>nullus equus currit</i> (“no horse runs”). Because the categorematic words are the same in each sentence, the whole difference in meaning comes from the syncategorematic words. (The examples given above are especially important for logic.)</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i>, in paraphrase.`,
   qp: { id: 'q-syncat', variants: [
     { prompt: `In “Every horse runs,” which word is syncategorematic?`,
