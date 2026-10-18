@@ -413,3 +413,29 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - "Two topics remain" → "Two further topics of construction are"; "in paraphrase" removed (Demetrius).
 **v.figures**
 - Everyday examples before the definitions of ellipsis ("Where are you going?" "Home."), zeugma, syllepsis ("Neither he nor they are coming"), hendiadys ("nice and warm"); repeats trimmed; "in paraphrase" removed (Donatus).
+
+### Sections VII, IX, and X
+**vii.literal**
+- Cards open from examples ("The lion roared" / "Achilles was a lion"; the "leg" of a table; "The ship plowed the sea"; the "arm" of God; "kick the bucket"; "He is a lion" beside Churchill's "we shall fight on the beaches"); Quintilian, Augustine, St. Thomas after.
+- "The Bible, King James Version" added to the sources line (1 Corinthians 9:9); "in paraphrase" removed (Augustine); "while" → "whereas"; deck-order sentence rewritten.
+**vii.schemata**
+- Each figure opens from its example, English first, then the name (e.g., "Never, never give up"; the Beatitudes for anaphora; Coleridge's "Alone, alone" for epizeuxis; "Full fathom five" for alliteration; Matthew 7:25 against "I came, I saw, I conquered"); hirmos opens with a description of the first sentence of *Paradise Lost*.
+- Donatus and Quintilian after the examples; KJV added to the sources line; "in paraphrase" removed; "whereas" for contrast.
+**vii.tropes**
+- All twelve trope cards open from English examples ("the ship plowed the sea," the computer "mouse," "the crown," "All hands on deck," "rosy-fingered Dawn," "buzz," "a thousand times," "What lovely weather!"), then the name, then Donatus and Quintilian.
+- The four kinds of metaphor on separate lines after an English example of each; "while" → "whereas" (epithet); "in paraphrase" removed; grouping of the tropes left as drafted (L.7).
+**ix.sentences**
+- Parsing and construing opens from "The dog bit the man"; "in paraphrase" removed (Priscian, *Partitiones*).
+**ix.passages**
+- Three-tasks card opens with a teacher taking a class through a poem, then recalls the four tasks from the Preliminary section; commentators card states the order of explanation before Servius.
+**ix.marking**
+- "While" → "whereas" (Tesnière and Thomas); otherwise as drafted (L.7).
+**x.composition**
+- Parallel construction opens from two "She likes swimming…" sentences; *De copia* from three English versions of "Your letter pleased me greatly" before Erasmus; Quintilian after the experience he confirms.
+- "The joining must keep…" → "The combined sentence must keep…" (calque); "in paraphrase" removed (Erasmus).
+**x.imitation**
+- Tradition card opens with learning by models (copying letters, singing after the teacher) before Quintilian; "in paraphrase" removed (Ascham, Petrarch); Pro Archia card unchanged (L.7).
+**x.progymnasmata**
+- First card opens with the ordinary graded series of writing assignments; every exercise card gives the exercise and its example first, Aphthonius's definition after; fable card from a child retelling the tortoise and the hare; "while" → "whereas" (2).
+**x.translation**
+- Cicero card opens from the strangeness of word-for-word versions; Sapir–Whorf from the fact that languages mark different distinctions (tense); Quine from the "gavagai" case, Quine and "indeterminate" after; "in paraphrase" removed (Jerome, Bruni, Ascham, Quine); closing pointer rewritten.
