@@ -23,7 +23,20 @@ ARS.decks['ii.punctuation'] = {
 <p>Donatus calls the marks of pause <i>positurae</i> (“placings”), or <i>distinctiones</i> (“divisions”), and says that there are three, each a single point whose meaning depends on its height beside the letter (<i>Ars maior</i> I.6):<br><strong><i>Distinctio</i></strong> (“division,” the point set high) is placed where the sentence is complete, and its point is set at the top of the letter.<br><strong><i>Media distinctio</i></strong> (“middle division,” the point set in the middle) is placed where about as much of the sentence remains as has been said, but the reader must take breath; its point is set at the middle of the letter.<br><strong><i>Subdistinctio</i></strong> (“lower division,” the point set low) is placed where only a little of the sentence remains, which must be kept apart for a moment and then added; its point is set at the foot of the letter.</p>
 <p>So the three marks measure how far the sense is from completion. The higher the point, the more complete the sense, and the <i>distinctio</i> alone marks a complete sentence.</p>`,
   src: `Donatus, <i>Ars maior</i> I.6, in paraphrase.`,
-  qpTodo: `Donatus’s three marks: given a place in a sentence (the sense complete, half the sentence still to come, a little still to come), say which mark belongs there and where its point is set.` },
+  qp: { id: 'q-marks', variants: [
+    { prompt: `Where the sense of a sentence is complete, which of Donatus’s marks is placed, and where is its point set?`,
+      options: [`The <i>distinctio</i>, at the top of the letter`, `The <i>subdistinctio</i>, at the foot of the letter`, `The <i>media distinctio</i>, at the middle of the letter`, `The <i>distinctio</i>, at the foot of the letter`],
+      answer: 0,
+      explain: `The <i>distinctio</i> marks a complete sentence, and its point is set at the top of the letter. The higher the point, the more complete the sense, so the mark of complete sense has the highest point.` },
+    { prompt: `Only a little of the sentence remains, to be kept apart for a moment and then added. Which mark does Donatus place here?`,
+      options: [`The <i>distinctio</i>, set high`, `The <i>media distinctio</i>, set in the middle`, `The <i>subdistinctio</i>, set low`, `No mark, because the sentence is not complete`],
+      answer: 2,
+      explain: `The <i>subdistinctio</i> is placed where only a little of the sentence remains, and its point is set at the foot of the letter. The sense is furthest from completion here, so the point is lowest.` },
+    { prompt: `A point set at the middle of the letter tells the reader what?`,
+      options: [`That the sentence is complete`, `That about as much remains as has been said`, `That only a little of the sentence remains`, `That a question has been asked`],
+      answer: 1,
+      explain: `The <i>media distinctio</i> is placed where about as much of the sentence remains as has been said, but the reader must take breath. Its point stands between the high point of the <i>distinctio</i> and the low point of the <i>subdistinctio</i>, as its sense stands between complete and nearly complete.` }
+  ]}},
 
 { id: 'comma-colon-period',
   title: 'Comma, colon, and period',
@@ -48,7 +61,20 @@ ARS.decks['ii.punctuation'] = {
   body: `<p>Because punctuation shows how the words of a sentence go together, a change in the punctuation can change the sense. We saw in Section I that ambiguity can lie in the arrangement of words, and that a pause or a mark of punctuation can decide it. “Let’s eat, Grandpa” invites Grandpa to dinner, whereas “Let’s eat Grandpa” makes him the dinner. “The students, who had finished, went home” says that all the students had finished and gone home, whereas “The students who had finished went home” says that only those who had finished went home.</p>
 <p>A well-known Latin example is the oracle reported to a soldier going to war: <i>ibis redibis nunquam per bella peribis</i>. With a pause after <i>redibis</i>, it means “You will go, you will return, never in war will you perish”; with a pause after <i>nunquam</i>, it means “You will go, you will never return, in war you will perish.” The words are the same, and only the division of the sentence decides which prophecy was given.</p>`,
   src: `A traditional school example of uncertain origin; no ancient source has been found for it.`,
-  qpTodo: `Punctuation and sense: given two punctuations of the same words (“Let’s eat, Grandpa”; <i>ibis redibis nunquam</i>), say what each means and which words the mark separates.` },
+  qp: { id: 'q-punct-sense', variants: [
+    { prompt: `“Stop, children!” and “Stop children!” What does the comma do in the first?`,
+      options: [`It makes “children” the object of “stop”`, `It shows that the sentence is a question`, `It changes nothing; both say the same thing`, `It marks “children” as those addressed`],
+      answer: 3,
+      explain: `With the comma, the children are called and told to stop. Without it, “children” is the object of “stop,” and someone is told to stop the children. The mark separates the word that calls from the command.` },
+    { prompt: `“My brother, who lives in Boston, is a doctor.” What do the commas show?`,
+      options: [`The clause picks out one of several brothers`, `The speaker has only one brother`, `The clause is a question`, `They mark a pause but change nothing`],
+      answer: 1,
+      explain: `Set off by commas, “who lives in Boston” adds a fact about the brother already known, so the speaker has one brother. Without the commas, “My brother who lives in Boston is a doctor” picks out one brother from others, as “The students who had finished went home” picks out some of the students.` },
+    { prompt: `In <i>ibis redibis nunquam per bella peribis</i>, what does a pause after <i>nunquam</i> make the oracle say?`,
+      options: [`“You will go, you will return, never in war will you perish”`, `“You will go, you will never return, in war you will perish”`, `“You will never go, you will return, in war you will perish”`, `“You will go and return, and you will never go to war”`],
+      answer: 1,
+      explain: `A pause after <i>nunquam</i> joins “never” to <i>redibis</i>, “you will return,” so the soldier will never return and will perish in war. A pause after <i>redibis</i> joins <i>nunquam</i> to <i>peribis</i> and gives the opposite prophecy. The words are the same; only the division differs.` }
+  ]}},
 
 { id: 'to-meter',
   title: 'Pauses in prose and in verse',
