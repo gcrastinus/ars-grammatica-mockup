@@ -14,7 +14,7 @@ ARS.decks['vi.usage'] = {
 
 { id: 'criteria-again',
   title: 'The criteria applied',
-  body: `<p>We saw in the Preliminary section that the grammarians judge what is correct by four criteria: reason (with its supports, analogy and etymology), antiquity, authority, and usage, and that when they disagree, usage generally prevails. We have since studied the forms of words and the rules of construction. In this section we apply the criteria to particular questions: what makes a word or a construction correct, and what kinds of error the grammarians distinguished.</p>
+  body: `<p>Every speaker sometimes hesitates over which of two forms is correct: “who” or “whom,” “fewer” or “less,” “different from” or “different than.” We saw in the Preliminary section that the grammarians judge what is correct by four criteria: reason (with its supports, analogy and etymology), antiquity, authority, and usage, and that when they disagree, usage generally prevails. We have since studied the forms of words and the rules of construction. In this section we apply the criteria to particular questions: what makes a word or a construction correct, and what kinds of error the grammarians distinguished.</p>
 <p>The Latin name for correct speech was <i>Latīnitās</i> (“Latinity”), as the Greek was <i>Hellēnismos</i> (“Greekness”): to speak correctly was to speak the language as it should be spoken. English has no single word for this, and we use the plain term <strong>correctness</strong>. Its opposite is error, and the grammarians named its chief kinds the barbarism and the solecism, which are studied in this section.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1–3, in paraphrase.` },
 
@@ -33,7 +33,7 @@ ARS.decks['vi.usage'] = {
 
 { id: 'authors',
   title: 'The authority of the authors',
-  body: `<p>The authors are the second witness of correct usage, and Quintilian warns the teacher not to treat their departures from the rule as errors. Some teachers, he says, “are in the habit of picking out examples of barbarism from the poets and attacking the authors whom they are expounding for using such words. A boy should however realize that in poets such peculiarities are pardonable or even praiseworthy” (<i>Institutio oratoria</i> I.5.11).</p>
+  body: `<p>Good authors sometimes use forms that a grammar would mark as incorrect. Shakespeare’s Antony calls the wound that Brutus gave Caesar “the most unkindest cut of all” (<i>Julius Caesar</i> III.2), with a double superlative, and no reader takes it for an ignorant error. The authors are the second witness of correct usage, and Quintilian warns the teacher not to treat their departures from the rule as errors. Some teachers, he says, “are in the habit of picking out examples of barbarism from the poets and attacking the authors whom they are expounding for using such words. A boy should however realize that in poets such peculiarities are pardonable or even praiseworthy” (<i>Institutio oratoria</i> I.5.11).</p>
 <p>So when a good author departs from the rule, the grammarian first asks whether the departure is a figure or a license, made for a reason, or a form that was correct in the author’s time. We saw this with “the wages of sin is death” in Section V. Only when no such reason can be found does the grammarian call the form an error, and even then he explains the author rather than rewriting him.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.11 (trans. Butler; checked against the Perseus text).` },
 
@@ -52,7 +52,8 @@ ARS.decks['vi.usage'] = {
 
 { id: 'kinds-of-error',
   title: 'The kinds of error',
-  body: `<p>The grammarians named the principal kinds of error by where the error lies. An error in a single word, in its letters, syllables, accent, or form, is a <strong>barbarism</strong>: “brung” for “brought,” “irregardless” for “regardless.” An error in the arrangement of words is a <strong>solecism</strong>: “The list of books are on the table.” The use of a word in a sense it does not have, as “infer” for “imply,” is called an <strong>impropriety</strong>; Donatus calls it <i>acyrologia</i> (Greek, “improper speech”) and counts it among the other faults of speech.</p>
+  body: `<p>“Brung” for “brought” is wrong in itself; “The list of books are on the table” is wrong only in the way its words are joined; and “infer” used for “imply” is a correct word in the wrong sense. The grammarians named the principal kinds of error by where the error lies:<br><strong>barbarism</strong> (<i>barbarismus</i>), an error in a single word, in its letters, syllables, accent, or form, as “brung” for “brought” or “irregardless” for “regardless”;<br><strong>solecism</strong> (<i>soloecismus</i>), an error in the arrangement of words, as “The list of books are on the table”;<br><strong>impropriety</strong> (<i>acyrologia</i>, Greek, “improper speech”), the use of a word in a sense it does not have, as “infer” for “imply.”</p>
+<p>Donatus counts the impropriety among the other faults of speech (<i>vitia</i>).</p>
 <p>Each kind of error has a corresponding license. A change in a single word, allowed in verse, is a metaplasm; a departure from the rules of construction, made for a reason, is a figure; and a word used in a sense not its own, for a reason, is a trope. We will study the barbarism, the solecism, and the metaplasm in this section, and the figures and tropes in Section VII.</p>`,
   src: `Donatus, <i>Ars maior</i> III.1–4, in paraphrase.` }
 
