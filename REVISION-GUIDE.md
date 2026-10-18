@@ -252,3 +252,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 card 8: "first as a thing and then as happening" changed to "first as a thing and then as something happening" (Timothy, Oct 17).
 - I.3 card 8: the consignified-mode sentence clarified, with a gloss of modus as "way" or "manner" (Timothy, Oct 17).
 - I.3 card 9: "nor because of what it signifies, since 'pain' and 'hurts' signify the same thing" changed to "nor because of the reality it signifies, since 'pain' and 'hurts' signify the same reality" (Timothy, Oct 17; St. Thomas: same res significata, different modus significandi, and the mode is itself signified).
+- I.3 card 10: "it signifies a joining," changed to "it signifies a joining, a composition," (Timothy, Oct 17).
