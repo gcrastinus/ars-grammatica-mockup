@@ -574,3 +574,73 @@ Timothy's instruction: realities first, then the principle, then the tradition; 
 ## AE. Log: Typed-answer renderers (18 Oct 2026)
 
 - 18 Oct 2026: course.js (`runEx`) draws count, form, divide, transform, copy, mark, and analysis. count and form match after trimming and normalizing case, curly quotes, and macrons when the item sets `macrons: false`; a count also treats 04 and 4 as the same number. divide matches the stored division, with hyphens and dashes read alike. transform matches the list in `accept`, ignoring spacing, capitals, and final punctuation. mark and analysis are checked against `analysis`. copy is word for word (whitespace collapsed; curly quotes read as straight quotes; capitals and other punctuation kept). Feedback for those answers shows the student's answer beside the correct one. identify is unchanged. One sample of each type is in `test/typed-samples.js`, which the course does not load. No deck and no existing exercise item was changed. The fields are at the top of course.js and in EXERCISES-PLAN.md.
+
+## AE. Log: Section III card pass, and rules 27a and 27b in every deck (18 Oct 2026, Claude; awaiting Timothy's reading)
+
+Timothy's instruction: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries, Section I, Section II, earlier Section III); where it fits, a closing clause toward the following card's topic; expand only as clarity needs; "grammarians" or "the classical tradition," never "old grammarians" or "the schools" (27a); quotations English first, Latin or Greek after in parentheses with the reference (27b). Doctrine, citations, ids, and question points unchanged. One commit per deck; each file passed `node --check` and the load test. The decks were done in four parallel groups; afterward the lead removed the cross-deck repeats the groups could not see in each other ("I write"/*scrībō* in iii.pronoun → "I sing"/*cantō*; "she writes" in iii.verb-2 → "she knits"; *longa via* in iii.noun-1 → *alta turris*; *stella*/*stellam* in iii.noun-2 → *aquila*/*aquilam*; "Clara came" in iii.pronoun → "Lucy came"; "tree" in iii.reasons → "wind"/"blows" and "deep lake," and in iii.noun-1 → "oak," *quercus*).
+
+No new translations. The English renderings of Donatus and Priscian that rule 27b now puts first in quotation marks were already on the cards; they are not published translations (no published English of Donatus or Priscian), so they remain for Timothy to confirm.
+
+### Rules 27a and 27b outside Section III
+- Rule 27b (English first, Latin after in parentheses with the reference) applied to author quotations still Latin-first: ii.voice / articulate (Donatus, "every voice is either articulate or confused"); ii.letter / what-letter (Donatus, "the least part of articulate voice," *Ars maior* I.2); v.congruity (Priscian's definition of the sentence, II.15); v.figures (Donatus, "in prose it is called a solecism, in a poem a figure," III.2); vi.barbarism (Donatus's definition, III.1); vi.solecism (Donatus's definition, III.2). The English renderings of Donatus and Priscian are the existing unpublished ones (no published translation), now quoted; to be confirmed by Timothy. Latin left first where the card studies the Latin (scansion in ii.meter and ii.quantity; constructions analyzed in i.ambiguity, v.order, v.figures, and the Latin example sentences of Section V; *ueriloquium* in iv.etymology). Prelim and Section I needed no change.
+- Rule 27b in VII–XI: x.translation / cicero (the English account of Cicero's method first, the Latin after with *De optimo genere oratorum* 14); xi.traditions / three-parts (Sībawayh's three parts in English first, the Arabic after, *al-Kitāb* ch. 1, "in substance"). Original left first where the card studies it (the figures and tropes of VII, the lines parsed in IX, Cicero's *omnia praeclara, rara* and the copula examples in viii.equivalents, Erasmus's sentence in x.composition, the Analects line and the non-Latin forms in xi.traditions).
+- Rule 27a: viii.supposition / what-supposition "the medieval schools" → "the medieval universities"; x.composition "The ancient schools joined the two" → "The classical tradition joined the two"; xi.traditions "the medieval and later schools" → "medieval and later grammarians," "brought into the Latin schools" → "brought to the Latin grammarians of Europe." Earlier (lead): prelim.methodice, ix.sentences, iii.noun-2, v.dependence, xi.modern (two places). Kept: "the schools of rhetoric" inside Kennedy's quotation (x.progymnasmata) and "the schools of the Carolingian period" (ii.punctuation, a historical institution).
+- Rule 27a, lead's edits: prelim.methodice ("it continued in the schools after him" → "grammarians continued it after him"), ix.sentences ("the method of the schools for a thousand years" → "For more than a thousand years grammarians taught the analysis of sentences by this method"), iii.noun-2, v.dependence ("later grammarians"), xi.modern (two places).
+
+### Section III
+**iii.parts**
+- what-word: "The doctor carried the lantern" ("tor," "lan"); ends "But the words of a sentence are not all of one kind."
+- the-eight: *Rēgīna in rēgiā sedet* ("The queen sits in the palace"); Donatus's *Ars minor* "that students read throughout the Middle Ages."
+- by-use: "a short swim" / "they swim"; *dōnum* / *dōnat*; Priscian II.17 introduced "As we have seen in Section I."
+- noun "mountain," "village," "courage," "justice," "Athens," *stella*/*stellam*, *longa via*, ends toward the pronoun; pronoun "Clare came, and she sat down"; verb "I write," "he writes," "The sun shines" / *Sōl lūcet*; participle "the falling leaf"; adverb "He spoke quickly"; interjection "ah," "hurrah," *vae*, *euge*; declinable *lūna, lūnae, lūnam*.
+- Rule 27b: Priscian's definition of the word, Donatus's definitions of the parts, and the *Ars minor* question English first.
+
+**iii.reasons**
+- why-ask "wind" / "blows"; three-modes: a burning candle; not-the-meaning opens from "hope," "hopes," "hopeful," recalls Section I, keeps the modists' *dolor* group (the *cursus*/*currō* paragraph, taught in Section I, cut).
+- essential-accidental "tree," "trees," "tree's," *arboris*/*arborem*, *audiō*, *audiēbam*, *audīvī*; noun "harbor," "patience," "Hunting was his delight," "deep lake"; pronoun "Gardener"; verb-participle "The bell rings" / "the ringing bell"; indeclinable "softly," "ouch."
+- Rule 27b: Priscian II.18 and Roger Bacon's sentence English first.
+
+**iii.figure**
+- two-accidents "untie"/"tie," "darkness"/"dark"; all-parts *pōnō*, *compōnō*, *dēpōnō*, "deposit," "component," "postpone," "opponent"; species "golden"/"gold," *ferreus*/*ferrum*, "widen"/"wide"; Donatus's question and answer on the two figures English first.
+
+**iii.homonymy**
+- paronyms "musician"/"music," "painter"/"paint," *sapiēns*/*sapientia*; homophones "tear" (rip) and "tear" (from the eye) for "lead" (Section I); Donatus on homonyms English first, "in substance" dropped.
+**iii.noun-1**
+- accidents: "Paris"/"village," "warm, warmer, warmest," *rēgīna*, *rēgīnae*, *rēgīnam*, "lighthouse"; ends "We begin with quality."
+- quality: "Athens," "Homer," "the Danube," *Athēnae*, *Hannibal*; "town," "poet," "stream," *oppidum*, *poēta*, *rīvus*; Donatus English first (27b); ends toward the kinds of common noun. roman-names: "Anne Turner."
+- common-kinds: "apple," "table," "patience," "wisdom"; collectives *exercitus*, *classis* (Donatus's *populus* kept).
+- adjective: *longa via*, *novus ager*, *nova via*, *novum tēctum*; substantive-use: *sapientēs*, "a brick wall," "a Chicago street."
+- comparison: *clārus*, *clārior*, *clārissimus*; Donatus's three degrees English first; *gravis*; "short," "quick," "careful"; irregular opens "We saw in the Preliminary section that *bonus* is compared *melior*, *optimus*"; which-compared: "tree," *arbor*, *longus*; "more unique" avoided "in careful usage."
+
+**iii.noun-2**
+- gender: "a king 'he,' a queen 'she,' a chair 'it'"; Donatus's four genders English first; natural-grammatical: *avus*/*avia*, *nauta*, *pīrāta*, "bench," "aunt"; number: "bird/birds," "tooth/teeth," "honesty"; case: *stella lūcet*, *stellam videt* (paradigm tables unchanged); adjectives: *laetus*, *laeta*, *laetum*, *laetum convīvium*, *laetus nauta*; gender-objection: *domus*, *mūrus*. "Used in the schools" → "used by grammarians" (27a). Cards end toward number and case.
+
+**iii.pronoun**
+- accidents *quīcumque*; quality "anybody," "whatever," Donatus English first, ends toward person; person "I write," *scrībō*, *scrībis*, *scrībit*, *ego scrībō*; personal "Her and me arrived late"; third-person "Helen found the key, and she kept it," *Gāium vīdī et eī epistulam dedī*; demonstratives "this coat," *hic*/*iste*/*ille pīleus*; relative "The boy who found the coin was honest," *puer quī nummum invēnit probus erat*, *puer quem vīdī*; interrogative "Clara came."
+**iii.verb-1**
+- indicative-imperative: "We walk home" / "Walk home!"; *nauta nāvigat*, *nāvigatne nauta?*; *ambulā*/*ambulāte*; closes toward the forms for wishes and dependent clauses.
+- subjunctive: *utinam audiat* / *cum audiat* (Section I has *utinam veniat*); "If I were rich" (Section I has "If I were king"), careful-usage wording kept.
+- english-moods opens from "He is here," "Be here," "If only he were here," with *utinam valeat*; infinitive-impersonal: "I hope to travel," "It is snowing"; neuter: "I sit"/*sedeō*; voice-and-sentence: "The storm destroyed the bridge."
+- Rule 27b: Donatus's "in moods and in forms" English first.
+
+**iii.verb-2**
+- conjugation *portat*/*vocat*; person-number "she writes," "to be" recalled from Section I; english-tense "jump," "drive/drove/driven," "ride/rode/ridden," "take/took/taken," "throwed" for "threw" (Preliminary examples replaced).
+- aspect-latin *pugnābat*/*pugnāvit*, *vincam*/*vīcerō* (Varro's own examples kept); parsing *audiēbātur*, *audiam*, *audīverit*. Paradigm verbs of the tables kept.
+
+**iii.participle**
+- accidents *vocāns*/*vocātus*; agreement *nauta epistulam scrībēns*; relative-time opens from "Opening the door, he smiled" / "Having opened the door, he smiled," with *agricola arāns cantābat*; perfect-deponent *cōnātus*, *profectus*, *flūmen trānsgressus, dux castra posuit*.
+- english "talking," "laughing," "talked," "fallen," "was seen"; gerund "the singing bird," "Swimming is good exercise," *legere iūcundum est*; the Suetonius greeting English first (27b). *Carthāgō dēlenda est* kept Latin-first (the gerundive is studied).
+**iii.adverb**
+- signification: manner *male*, *libenter* ("badly," "gladly"); negation *nēquāquam*, "never" (*bene*, *nōn*, "quickly" are earlier examples).
+- formation: *rēctus*/*rēctē*, *ācer*/*ācriter*, *celer*/*celeriter*, "bright"/"brightly"; comparison *rēctē*/*rēctius*/*rēctissimē*, *ācriter*/*ācrius*/*ācerrimē*, irregular recalled from the adjectives with *paulum*, *minus*, *minimē*; English "happily," "badly, worse, worst."
+- figure: "otherwise," "furthermore" (Donatus's *doctē*/*indoctē* kept); what-modifies: "She nearly lost all her money" / "She lost nearly all her money" (the place of "only" is taught in Section I); other-parts ends leading to the preposition.
+
+**iii.preposition**
+- preposition: opens with "across the river," "beside the road," "behind the door"; Latin *ad forum*, *cum frātre*; lists *ad portam*, *post cēnam*, *trāns mare*, *cum sorōre*.
+- composition: *scrībō* → *īnscrībō* (ties to "inscribe") for *faciō* → *perficiō* (iii.figure).
+
+**iii.conjunction**
+- "salt and pepper"; order: *terrā marīque* (*senātus populusque* is in ii.quantity); figure: "but" against "whereas" (where + as), *quamquam*, *quamvīs* (*quam* + *vīs*); that: "the letter that I wrote" / "that letter."
+
+**iii.interjection**
+- "Bother, the bus has gone" (Section I has "Alas, the door is locked"); signification: "hooray," "bravo," "wow," "gosh"; vocative: *ei mihi!* ("ah me!") with the dative for *vae victīs*; the *Pro Archia* quotation keeps the Latin first because the card studies *ō* with the vocative (27b exception).
