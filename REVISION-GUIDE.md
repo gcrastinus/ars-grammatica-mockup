@@ -287,3 +287,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.functions, modern accounts: Jakobson's contact function placed under the vocative, metalanguage under second imposition; new paragraph (Timothy's wording) on why the poetic function is not separate in the classical tradition.
 - 17 Oct 2026: i.functions card 7: added ", although they also use statements since logic plays a role in each."
 - 17 Oct 2026: i.ambiguity, what-ambiguity: Quintilian moved to the end; the division into word and arrangement now stated directly as the grammarian's first question, with the examples, before the authority.
+- 17 Oct 2026: i.ambiguity: cards 2–7 and 9 reordered to begin from examples and realities, authorities after; card 1 gains a list of four causes of ambiguity; card 3 ends pointing to pause and punctuation, card 2 to construction; "in paraphrase" dropped from references; KJV named only in the deck sources line; card 8 unchanged.
