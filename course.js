@@ -18,6 +18,8 @@ function show(scr){
   if (window.__arsStopSpeak) window.__arsStopSpeak();
   document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.id === scr));
   window.scrollTo(0, 0);
+  if (scr === 'scr-home') refreshReciteNudge();
+  else concealReciteNudge();
 }
 
 /* ---------- home: all 71 buttons in order ---------- */
@@ -315,7 +317,10 @@ function renderSummary(){
     <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;
-  box.querySelector('button').onclick = goHome;
+  box.querySelector('button').onclick = () => {
+    if (run.ex && run.set) noteReciteNudge(run.ex.id + ':' + run.set, run.ex.title + ', Set ' + run.set);
+    goHome();
+  };
   body.appendChild(box);
 }
 
@@ -422,8 +427,11 @@ function nextPanel(){
   if ($('deck-next').disabled) return;
   if (cur.i < cur.deck.panels.length - 1){ cur.i += 1; renderPanel(); window.scrollTo(0, 0); return; }
   const st = deckState(cur.deck.id);
-  if (!st.done) st.doneAt = Date.now();
-  st.done = true; save();
+  const first = !st.done;
+  if (first) st.doneAt = Date.now();
+  st.done = true;
+  if (first) noteReciteNudge(cur.deck.id, cur.deck.title);
+  save();
   const id = cur.deck.id; goHome();
   const card = document.querySelector(`.set-card[data-id="${id}"]`);
   if (card){ card.scrollIntoView({block:'center'}); card.focus({preventScroll:true}); }
@@ -431,6 +439,51 @@ function nextPanel(){
 function prevPanel(){ if (cur.i > 0){ cur.i -= 1; renderPanel(); window.scrollTo(0, 0); } }
 
 function goHome(){ location.hash = ''; buildHome(); show('scr-home'); }
+
+/* A finished study deck, exercise set, or section review is named once, on the main page.
+   Shown is recorded when that callout is closed, or when the tablet opens while it is up. */
+function nudgeBag(){
+  if (!store.reciteNudges || typeof store.reciteNudges !== 'object') store.reciteNudges = { shown: {}, pending: [] };
+  if (!store.reciteNudges.shown || typeof store.reciteNudges.shown !== 'object') store.reciteNudges.shown = {};
+  if (!Array.isArray(store.reciteNudges.pending)) store.reciteNudges.pending = [];
+  return store.reciteNudges;
+}
+function noteReciteNudge(id, name){
+  if (!id || !name) return;
+  const bag = nudgeBag();
+  if (bag.shown[id] || bag.pending.some(p => p && p.id === id)) return;
+  bag.pending.push({ id: id, name: name, at: Date.now() });
+  save();
+}
+function concealReciteNudge(){
+  const el = $('recite-callout'), icon = $('recite-open');
+  if (el) el.hidden = true;
+  if (icon) icon.classList.remove('is-glow');
+  document.body.classList.remove('recite-nudge');
+}
+function dismissReciteNudge(){
+  const el = $('recite-callout');
+  if (!el || el.hidden) return;
+  const bag = nudgeBag();
+  bag.pending.forEach(p => { if (p && p.id) bag.shown[p.id] = true; });
+  bag.pending = [];
+  save();
+  concealReciteNudge();
+}
+function refreshReciteNudge(){
+  const home = $('scr-home');
+  if (!home || !home.classList.contains('active')) { concealReciteNudge(); return; }
+  const bag = nudgeBag();
+  const pending = bag.pending.filter(p => p && p.id && !bag.shown[p.id]);
+  if (!pending.length) { concealReciteNudge(); return; }
+  const item = pending.slice().sort((a, b) => (b.at || 0) - (a.at || 0))[0];
+  const el = $('recite-callout'), name = $('recite-callout-name'), icon = $('recite-open');
+  if (!el || !name) return;
+  name.innerHTML = item.name;
+  el.hidden = false;
+  if (icon) icon.classList.add('is-glow');
+  document.body.classList.add('recite-nudge');
+}
 
 /* ---------- controls ---------- */
 function setDark(on){ store.dark = on; document.body.classList.toggle('dark', on); $('dark-toggle').textContent = on ? '☀' : '☾'; save(); }
@@ -441,6 +494,7 @@ $('deck-home').onclick = goHome;
 $('ex-home').onclick = goHome;
 $('done-home').onclick = goHome;
 $('done-again').onclick = () => openDeck(cur.deck.id);
+$('recite-callout').onclick = dismissReciteNudge;
 document.addEventListener('keydown', e => {
   if (!$('scr-deck').classList.contains('active')) return;
   if (e.target.closest && e.target.closest('button') && e.key === 'Enter') return;
@@ -457,3 +511,4 @@ if (m){
   const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built && !playerItem(x));
   if (it) openDeck(it.id);
 }
+if (!location.hash.match(/^#(ex|deck|cumul)\//)) refreshReciteNudge();

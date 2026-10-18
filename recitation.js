@@ -383,6 +383,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   }
 
   function openOverlay(prefer){
+    if (typeof dismissReciteNudge === 'function') dismissReciteNudge();
     const gen = ++openGen;
     overlay.hidden = false;
     if (desc) desc.open = true;
