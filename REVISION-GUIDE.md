@@ -280,3 +280,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.functions, q-statement variant B: correct option shortened to "Neither; it asserts nothing."
 - 17 Oct 2026: i.functions, five-kinds: rewritten realities first (the kinds with examples, then the principle of their difference), St. Thomas and the traditional names last; "in paraphrase" dropped from the reference.
 - 17 Oct 2026: i.functions, five-kinds: opens "As we have seen already, a complete sentence does not only make a statement"; examples changed from the first card's ("Mary!", "Bring the umbrella"); "commenting on Aristotle".
+- 17 Oct 2026: i.functions, logic-rhetoric card: reordered to begin with grammar's concern with every kind of sentence, then the other arts, with Aristotle's division of labor last; "solecism" glossed.

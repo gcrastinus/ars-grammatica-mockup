@@ -77,8 +77,9 @@ ARS.decks['i.functions'] = {
 
 { id: 'rhetoric-poetry',
   title: 'Logic, rhetoric, poetry, and grammar',
-  body: `<p>Aristotle ends his discussion with a division of labor: “Let us therefore dismiss all other types of sentence but the proposition, for this last concerns our present inquiry, whereas the investigation of the others belongs rather to the study of rhetoric or of poetry” (<i>De interpretatione</i> 4, 17a5–7). Logic considers the statement because it is concerned with truth and with what follows from what is true; rhetoric and poetry consider commands, questions, prayers, and expressions of feeling because they are concerned with moving and delighting the hearer.</p>
-<p>Grammar, however, considers every kind of sentence, because every kind must be correctly formed. “Is the door open?” and “Open the door!” can be correctly or incorrectly formed as surely as “The door is open,” and a prayer can contain a solecism as easily as a statement can. So grammar is broader than logic in this respect: logic studies one kind of sentence, the statement, while grammar studies all of them.</p>`,
+  body: `<p>Grammar considers every kind of sentence, because every kind must be correctly formed. “Is the door open?” and “Open the door!” can be correctly or incorrectly formed as surely as “The door is open,” and a prayer can contain a solecism, that is, an error in construction, as easily as a statement can.</p>
+<p>The other arts of speech take up only some kinds of sentence. Logic considers the statement, because it is concerned with truth and with what follows from what is true. Rhetoric and poetry consider commands, questions, prayers, and expressions of feeling as well, because they are concerned with moving and delighting the hearer. So grammar is broader than logic in this respect: logic studies one kind of sentence, the statement, whereas grammar studies all of them.</p>
+<p>Aristotle draws this division of labor at the end of his discussion: “Let us therefore dismiss all other types of sentence but the proposition, for this last concerns our present inquiry, whereas the investigation of the others belongs rather to the study of rhetoric or of poetry” (<i>De interpretatione</i> 4, 17a5–7).</p>`,
   src: `Aristotle, <i>De interpretatione</i> 4, 17a5–7.` },
 
 { id: 'modern',
