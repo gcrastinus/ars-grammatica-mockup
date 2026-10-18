@@ -12,8 +12,8 @@ ARS.decks['ii.syllable'] = {
 
 { id: 'what-syllable',
   title: 'What is a syllable?',
-  body: `<p>We have seen that letters are not pronounced one by one but in groups. When we say the word “window” slowly, the voice divides it into two parts, “win” and “dow,” and each part is pronounced as a single unit; “sun” is pronounced as one such unit, and Latin <i>columba</i> (“dove”) as three. A <strong>syllable</strong> (Greek <i>syllabē</i>, “what is taken together”) is a group of letters pronounced together in one utterance of the voice. Donatus defines it as a combination of letters, or the utterance of a single vowel, capable of length (<i>Ars maior</i> I.3). Priscian adds that the letters of a syllable are uttered under one accent and in one breath (<i>Institutiones grammaticae</i> II).</p>
-<p>So English “sun” and Latin <i>lūx</i> (“light”) are each one syllable, “window” is two (win-dow), and <i>columba</i> is three (co-lum-ba). Like the letter, the syllable signifies nothing by itself; the syllable “win” in “window” does not signify winning. The syllable is still part of the material of speech, but it is the unit in which speech is actually pronounced and measured.</p>`,
+  body: `<p>We have seen that letters are not pronounced one by one but in groups. When we say the word “window” slowly, the voice divides it into two parts, “win” and “dow,” and each part is pronounced as a single unit; “pen” is pronounced as one such unit, and Latin <i>columba</i> (“dove”) as three. A <strong>syllable</strong> (Greek <i>syllabē</i>, “what is taken together”) is a group of letters pronounced together in one utterance of the voice. Donatus defines it as a combination of letters, or the utterance of a single vowel, capable of length (<i>Ars maior</i> I.3). Priscian adds that the letters of a syllable are uttered under one accent and in one breath (<i>Institutiones grammaticae</i> II).</p>
+<p>So English “pen” and Latin <i>lūx</i> (“light”) are each one syllable, “window” is two (win-dow), and <i>columba</i> is three (co-lum-ba). Like the letter, the syllable signifies nothing by itself; the syllable “win” in “window” does not signify winning. The syllable is still part of the material of speech, but it is the unit in which speech is actually pronounced and measured.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3; Priscian, <i>Institutiones grammaticae</i> II, in paraphrase.` },
 
 { id: 'vowel-center',
@@ -39,7 +39,7 @@ ARS.decks['ii.syllable'] = {
 { id: 'accidents',
   title: 'The accidents of the syllable',
   body: `<p>Every syllable is pronounced with some pitch of the voice, with or without a breathing, in a longer or shorter time, and with some number of letters. So four things belong to every syllable: its accent (<i>tenor</i>), its breathing (<i>spiritus</i>), its length (<i>tempus</i>, literally “time”), and the number of its letters (<i>numerus litterarum</i>). Priscian lists these four as the accidents of the syllable (<i>Institutiones grammaticae</i> II), and we have seen that such properties are called accidents.</p>
-<p>The <strong>accent</strong> is the raising or lowering of the voice on the syllable, which we will study with quantity in this section. The <strong>breathing</strong> is whether the syllable is pronounced with an <i>h</i> or without one, as Latin <i>hōra</i> (“hour”) begins with a breathing and <i>ōra</i> (“shores”) does not. The <strong>length</strong> is whether the syllable is long or short, which is the foundation of Latin verse. The <strong>number of letters</strong> is the count of letters in the syllable, which in Latin runs from one, as in <i>ā</i>, to six, as in <i>stirps</i>.</p>`,
+<p>The <strong>accent</strong> is the raising or lowering of the voice on the syllable, which we will study with quantity in this section. The <strong>breathing</strong> is whether the syllable is pronounced with an <i>h</i> or without one, as Latin <i>hōra</i> (“hour”) begins with a breathing and <i>ōra</i> (“shores”) does not. The <strong>length</strong> is whether the syllable is long or short, which is the foundation of Latin verse. The <strong>number of letters</strong> is the count of letters in the syllable, which in Latin runs from one letter to as many as six.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II (checked against the Latin text).` },
 
 { id: 'open-closed',
@@ -50,7 +50,7 @@ ARS.decks['ii.syllable'] = {
 
 { id: 'latin-division-1',
   title: 'Dividing a Latin word: one consonant and two',
-  body: `<p>When a single consonant stands between two vowels, it goes with the following vowel. So <i>rota</i> (“wheel”) is divided <i>ro-ta</i>, <i>lupus</i> (“wolf”) is <i>lu-pus</i>, and <i>animus</i> (“mind”) is <i>a-ni-mus</i>. In each case the syllable before the consonant is open.</p>
+  body: `<p>When a single consonant stands between two vowels, it goes with the following vowel. So <i>rota</i> (“wheel”) is divided <i>ro-ta</i>, <i>lupus</i> (“wolf”) is <i>lu-pus</i>, and <i>amor</i> (“love”) is <i>a-mor</i>. In each case the syllable before the consonant is open.</p>
 <p>When two consonants stand between two vowels, they are usually divided, the first going with the preceding vowel and the second with the following one. So <i>fortis</i> (“brave”) is <i>for-tis</i>, <i>magnus</i> (“great”) is <i>mag-nus</i>, and <i>mittō</i> (“I send”) is <i>mit-tō</i>. When three consonants stand together, usually the last goes with the following vowel, as in <i>sanc-tus</i> (“holy”). In each case the syllable before the consonants is closed.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.` },
 
