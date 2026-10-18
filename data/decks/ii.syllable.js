@@ -12,13 +12,13 @@ ARS.decks['ii.syllable'] = {
 
 { id: 'what-syllable',
   title: 'What is a syllable?',
-  body: `<p>We have seen that letters are not pronounced one by one but in groups. A <strong>syllable</strong> (Greek <i>syllabē</i>, “what is taken together”) is a group of letters pronounced together in one utterance of the voice. Donatus defines it as a combination of letters, or the utterance of a single vowel, capable of length (<i>Ars maior</i> I.3, in paraphrase). Priscian adds that the letters of a syllable are uttered under one accent and in one breath (<i>Institutiones grammaticae</i> II, in paraphrase).</p>
-<p>So English “cat” and Latin <i>rex</i> (“king”) are each one syllable, “teacher” is two (tea-cher), and Latin <i>amīcus</i> (“friend”) is three (a-mī-cus). Like the letter, the syllable signifies nothing by itself; the syllable “tea” in “teacher” does not signify tea. The syllable is still part of the material of speech, but it is the unit in which speech is actually pronounced and measured.</p>`,
+  body: `<p>We have seen that letters are not pronounced one by one but in groups. When we say the word “teacher” slowly, the voice divides it into two parts, “tea” and “cher,” and each part is pronounced as a single unit; “cat” is pronounced as one such unit, and Latin <i>amīcus</i> (“friend”) as three. A <strong>syllable</strong> (Greek <i>syllabē</i>, “what is taken together”) is a group of letters pronounced together in one utterance of the voice. Donatus defines it as a combination of letters, or the utterance of a single vowel, capable of length (<i>Ars maior</i> I.3, in paraphrase). Priscian adds that the letters of a syllable are uttered under one accent and in one breath (<i>Institutiones grammaticae</i> II, in paraphrase).</p>
+<p>So English “cat” and Latin <i>rex</i> (“king”) are each one syllable, “teacher” is two (tea-cher), and <i>amīcus</i> is three (a-mī-cus). Like the letter, the syllable signifies nothing by itself; the syllable “tea” in “teacher” does not signify tea. The syllable is still part of the material of speech, but it is the unit in which speech is actually pronounced and measured.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3; Priscian, <i>Institutiones grammaticae</i> II, in paraphrase.` },
 
 { id: 'vowel-center',
   title: 'Every syllable has a vowel at its center',
-  body: `<p>Every syllable has one vowel or one diphthong at its center, and consonants may stand before it, after it, or on both sides. So the number of syllables in a word is the number of its vowels and diphthongs. Latin <i>ā</i> (“from”) is one syllable with no consonant; <i>ab</i> (“from”) has a consonant after the vowel; <i>stirps</i> (“stock,” “root”) has two consonants before it and two after it.</p>
+  body: `<p>Latin <i>ā</i> (“from”) is a syllable of one vowel and no consonant; <i>ab</i> (“from”) has a consonant after the vowel; and <i>stirps</i> (“stock,” “root”) has two consonants before the vowel and two after it. English “I,” “it,” and “strict” show the same range. In each case there is one vowel at the center. So every syllable has one vowel or one diphthong at its center, and consonants may stand before it, after it, or on both sides; therefore in Latin the number of syllables in a word is the number of its vowels and diphthongs.</p>
 <p>A diphthong counts as one vowel, because its two vowels are pronounced in one syllable. So Latin <i>causa</i> (“cause”) has two syllables (cau-sa), not three, and <i>poena</i> (“penalty”) has two (poe-na). But two vowels that are not a diphthong make two syllables, as in Latin <i>de-us</i> (“god”) and <i>pu-el-la</i> (“girl”). In English the same is true of “cre-ate” and “po-em,” where the two vowel letters stand for two vowel sounds.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3; Allen and Greenough, <i>New Latin Grammar</i> §§ 6–7.`,
   qpTodo: `Counting syllables: how many syllables in a Latin or English word (<i>causa</i>, <i>deus</i>, <i>puella</i>, “create”), and why a diphthong counts as one vowel.` },
@@ -31,7 +31,7 @@ ARS.decks['ii.syllable'] = {
 
 { id: 'open-closed',
   title: 'Open and closed syllables',
-  body: `<p>A syllable that ends in a vowel is called <strong>open</strong>, and a syllable that ends in a consonant is called <strong>closed</strong>. In Latin <i>pa-ter</i> (“father”) the first syllable is open and the second is closed; in <i>por-ta</i> (“gate”) the first syllable is closed and the second is open. In English “ba-by” both syllables are open, and in “bas-ket” both are closed.</p>
+  body: `<p>In Latin <i>pa-ter</i> (“father”) the first syllable ends in a vowel and the second in a consonant; in <i>por-ta</i> (“gate”) the first syllable ends in a consonant and the second in a vowel. In English both syllables of “ba-by” end in a vowel, and both syllables of “bas-ket” end in a consonant. A syllable that ends in a vowel is called <strong>open</strong>, and a syllable that ends in a consonant is called <strong>closed</strong>.</p>
 <p>The distinction matters because the length of a Latin syllable depends on it. A syllable with a short vowel is short if it is open, but long if it is closed, because the consonant at its end adds to the time needed to pronounce it. So the rules for dividing words into syllables are also the ground of the rules for measuring them.</p>`,
   src: `Allen, <i>Vox Latina</i>, appendix on syllabic division, in paraphrase.` },
 
@@ -62,7 +62,7 @@ ARS.decks['ii.syllable'] = {
 
 { id: 'english-division',
   title: 'Dividing an English word',
-  body: `<p>English words are divided in two ways, which do not always agree. In writing, a word broken at the end of a line is divided according to the conventions of the dictionaries, which consider both the sound and the parts of the word: “fa-ther,” “walk-ing,” “hab-it.” In pronunciation, the division follows the sounds, and here one rule differs from Latin: a short vowel that is stressed, as in “cat” or “bed,” does not end an English syllable. So “habit” is divided “hab-it,” not “ha-bit,” while Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>.</p>
+  body: `<p>English words are divided in two ways, which do not always agree. In writing, a word broken at the end of a line is divided according to the conventions of the dictionaries, which consider both the sound and the parts of the word: “fa-ther,” “walk-ing,” “hab-it.” In pronunciation, the division follows the sounds, and here one rule differs from Latin: a short vowel that is stressed, as in “cat” or “bed,” does not end an English syllable. So “habit” is divided “hab-it,” not “ha-bit,” whereas Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>.</p>
 <p>Pronunciation dictionaries such as Wells’s <i>Longman Pronunciation Dictionary</i> give the division of each word, and they sometimes differ from one another in the hard cases. The division into syllables is still a matter of the sound, but English, unlike Latin, has no single rule that settles every word.</p>`,
   src: `Wells, <i>Longman Pronunciation Dictionary</i>; Merriam-Webster’s word divisions, in paraphrase.`,
   qpTodo: `Dividing an English word: where is a given word divided (“habit,” “father,” “walking”), and how the English division of a stressed short vowel differs from the Latin one (<i>habet</i>).` },
@@ -70,7 +70,7 @@ ARS.decks['ii.syllable'] = {
 { id: 'to-quantity',
   title: 'From the syllable to its length',
   body: `<p>We have seen that the syllable is the least unit in which speech is pronounced, that it has a vowel or diphthong at its center, and that words are divided into syllables by rules that differ somewhat between English and Latin. We have also seen that a syllable may be open or closed, and that length is one of its accidents.</p>
-<p>In Latin, length is the most important accident of the syllable. The length of a syllable determines where the accent of a Latin word falls, and it is the measure on which Latin verse is built. So the division of a word into syllables is not only a matter of pronunciation; it is the first step in reading Latin correctly and in reading Latin poetry at all.</p>`,
+<p>In Latin, length is the most important accident of the syllable. The length of a syllable determines where the accent of a Latin word falls, and it is the measure on which Latin verse is built. So the division of a word into syllables is the first step both in pronouncing Latin correctly and in reading Latin poetry.</p>`,
   src: `Donatus, <i>Ars maior</i> I.3–5.` }
 
   ]
