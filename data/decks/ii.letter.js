@@ -14,7 +14,7 @@ ARS.decks['ii.letter'] = {
 
 { id: 'what-letter',
   title: 'What is a letter?',
-  body: `<p>We have seen that articulate voice is voice that can be written. When we say the word “sun” slowly, we can hear that it is made of three distinct sounds, and we write each of them with its own mark; the Latin <i>nāvis</i> (“ship”) is made of five. Such a least part of articulate voice is what the grammarians call the <strong>letter</strong> (Latin <i>littera</i>). Donatus defines it as <i>pars minima vocis articulatae</i>, that is, the least part of articulate voice (<i>Ars maior</i> I.2).</p>
+  body: `<p>We have seen that articulate voice is voice that can be written. When we say the word “sun” slowly, we can hear that it is made of three distinct sounds, and we write each of them with its own mark; the Latin <i>nāvis</i> (“ship”) is made of five. Such a least part of articulate voice is what the grammarians call the <strong>letter</strong> (Latin <i>littera</i>). Donatus defines it as “the least part of articulate voice” (<i>pars minima vocis articulatae</i>; <i>Ars maior</i> I.2).</p>
 <p>The ancient grammarians used the word “letter” both for the sound and for the written mark, because in Latin the two correspond closely. A letter signifies nothing by itself, as we saw with the letter B pronounced alone, so the letter is part of the material of speech and not yet a word. In our time the sound is often called a phoneme and the written mark a grapheme, but the grammarian’s word “letter” covers both, and we will distinguish them where it matters.</p>`,
   src: `Donatus, <i>Ars maior</i> I.2; Priscian, <i>Institutiones grammaticae</i> I, in paraphrase.` },
 
