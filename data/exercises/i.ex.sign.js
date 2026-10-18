@@ -755,8 +755,8 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "explain": "A hiccup, a yawn, and the sound of snoring signify by nature, and the same sounds are produced in every country. The words “hiccup” and “yawn” were imposed by English speakers. A word may resemble the natural sound, but the speakers still chose it.",
    "why": {
-    "prompt": "Why do imitative words such as “cuckoo” still signify by imposition?",
-    "model": "Because each language chooses its own imitation; the word resembles a natural sound, but it is the agreement of the speakers that makes it signify, as French <i>coucou</i> and English “cuckoo” differ."
+    "prompt": "The English word “hiccup” sounds like a hiccup. Why does it still signify by imposition?",
+    "model": "Because each language chooses its own imitation; the word resembles a natural sound, but it is the agreement of the speakers that makes it signify, as French <i>hoquet</i> and English “hiccup” differ."
    }
   },
   {
@@ -1017,8 +1017,8 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "explain": "“Match” (a contest or a small stick) and “crane” (a bird or a machine) are single words with two meanings. In “careful drivers and cyclists,” “careful” can belong to the drivers alone or to both; in “the report of the fire in the newspaper,” “in the newspaper” can belong to the report or to the fire. “Tear” (a drop, or a rip) and “invalid” (a sick person, or not valid) are written alike and pronounced differently.",
    "why": {
-    "prompt": "Why is “lead” not ambiguous in speech?",
-    "model": "Because the metal and the verb are pronounced differently; only the writing, which does not show the pronunciation, leaves the reader to decide."
+    "prompt": "Why is “tear” not ambiguous in speech?",
+    "model": "Because the drop and the rip are pronounced differently; only the writing, which does not show the pronunciation, leaves the reader to decide."
    }
   },
   {
@@ -1358,7 +1358,7 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "explain": "<i>Caballo</i> and <i>cavallo</i> are two different sounds that signify one concept, that of a horse. “Dog,” <i>perro</i>, <i>cane</i>, and <i>cão</i> signify the concept of a dog. The words differ from language to language, but the concepts are the same for all.",
    "why": {
-    "prompt": "Why can a translator put <i>cheval</i> for <i>Pferd</i>?",
+    "prompt": "Why can a translator put <i>cavallo</i> for <i>caballo</i>?",
     "model": "Because the two words signify the same concept, and through it the same kind of animal; translation compares what the words signify, which is the same where the words differ."
    }
   },
