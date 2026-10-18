@@ -15,7 +15,7 @@ ARS.decks['x.composition'] = {
 { id: 'making',
   title: 'From analysis to composition',
   body: `<p>We have studied how sentences are analyzed: how their words are parsed and construed, and how their clauses and phrases depend on one another. <strong>Composition</strong> (Latin <i>compositiō</i>, “putting together”) is the same knowledge used in the other direction: the making of sentences of one’s own. Analysis goes from the finished sentence to its parts; composition goes from the thought to the words, choosing the forms and constructions that will express it.</p>
-<p>The ancient schools joined the two. Quintilian says that among the aids that a student must supply for himself, “it is the pen which brings at once the most labour and the most profit” (<i>Institutio oratoria</i> X.3.1). So grammar, which begins with reading and explaining the authors, ends with writing, and the student who has learned to see how good sentences are made learns to make them.</p>`,
+<p>The classical tradition joined the two. Quintilian says that among the aids that a student must supply for himself, “it is the pen which brings at once the most labour and the most profit” (<i>Institutio oratoria</i> X.3.1). So grammar, which begins with reading and explaining the authors, ends with writing, and the student who has learned to see how good sentences are made learns to make them.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> X.3.1 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'combining',
