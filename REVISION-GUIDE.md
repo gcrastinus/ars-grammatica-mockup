@@ -254,3 +254,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - I.3 card 9: "nor because of what it signifies, since 'pain' and 'hurts' signify the same thing" changed to "nor because of the reality it signifies, since 'pain' and 'hurts' signify the same reality" (Timothy, Oct 17; St. Thomas: same res significata, different modus significandi, and the mode is itself signified).
 - I.3 card 10: "it signifies a joining," changed to "it signifies a joining, a composition," (Timothy, Oct 17).
 - I.3 card 10: "a joining that cannot be understood" changed to "a joining or composition that cannot be understood" (Timothy, Oct 17).
+- I.3 card 10: English of the medieval Latin text first, the Latin second in parentheses (Timothy, Oct 17).
