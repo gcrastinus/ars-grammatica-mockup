@@ -201,11 +201,12 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sign as natural or conventional.",
    "entries": [
-    "A blush of embarrassment",
-    "A wedding ring",
-    "Frost on the window",
-    "A stop sign at a corner",
-    "A church bell rung for Mass"
+    "A bruise where a blow landed",
+    "Goose bumps raised by the cold",
+    "A wilted leaf in dry soil",
+    "Thunder after a flash of lightning",
+    "Three knocks a household uses to mean “come in”",
+    "The word “danger” on a door"
    ],
    "bins": [
     "Natural sign",
@@ -213,12 +214,13 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
+    0,
+    0,
     0,
     1,
     1
    ],
-   "explain": "A blush and frost signify by what they are and how they are connected with what they signify: embarrassment produces the blush, and cold produces the frost. A wedding ring, a stop sign, and a bell rung for Mass signify only because people have agreed on what they mean, so they are conventional signs."
+   "explain": "A bruise, goose bumps, a wilted leaf, and thunder are produced by what they signify (a blow, cold, a lack of water, and lightning), so they signify by nature. Three knocks and the word “danger” signify only because people have agreed on what they mean, so they are conventional signs."
   },
   {
    "id": "sv-imp-3",
@@ -227,12 +229,11 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each word as a name of the first or the second imposition.",
    "entries": [
-    "“oak”",
-    "“adjective”",
-    "“run”",
-    "“syllable”",
-    "“blue”",
-    "“plural”"
+    "“valley”",
+    "“yellow”",
+    "“swim”",
+    "“wool”",
+    "“pronoun”"
    ],
    "bins": [
     "First imposition",
@@ -240,13 +241,12 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
     0,
-    1,
+    0,
     0,
     1
    ],
-   "explain": "“Oak,” “run,” and “blue” were imposed to signify things: a tree, an action, a color. “Adjective,” “syllable,” and “plural” signify words or kinds of words, so they are names of the second imposition."
+   "explain": "“Valley,” “yellow,” “swim,” and “wool” were imposed to signify things: a stretch of land, a color, an action, and a kind of fiber. “Pronoun” signifies a kind of word, so it is a name of the second imposition."
   },
   {
    "id": "sv-syn-3",
@@ -336,12 +336,13 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each word by its mode of signifying: does it present the reality as a thing, as something happening, or as a quality of something else?",
    "entries": [
-    "“joy” in “Joy filled the room”",
-    "“rejoices” in “She rejoices”",
-    "“joyful” in “a joyful song”",
-    "“sleep” in “Sleep is good”",
-    "“sleeps” in “The baby sleeps”",
-    "“sleepy” in “a sleepy child”"
+    "“thirst” in “Thirst woke him”",
+    "“thirsts” in “The traveler thirsts”",
+    "“thirsty” in “a thirsty traveler”",
+    "“grief” in “Grief silenced the room”",
+    "“grieves” in “She grieves”",
+    "“sorrow” in “Sorrow followed the news”",
+    "“mourns” in “He mourns”"
    ],
    "bins": [
     "As a thing",
@@ -354,9 +355,10 @@ ARS.exercises['i.ex.sign'] = {
     2,
     0,
     1,
-    2
+    0,
+    1
    ],
-   "explain": "Each group signifies one reality in three modes of signifying. “Joy” and “sleep” present it as a thing we can speak about; “rejoices” and “sleeps” as something happening; “joyful” and “sleepy” as a quality belonging to something else."
+   "explain": "“Thirst,” “grief,” and “sorrow” signify by way of a thing. “Thirsts,” “grieves,” and “mourns” signify by way of something happening. “Thirsty” signifies by way of a quality belonging to something else. These are different modes of signifying."
   },
   {
    "id": "sv-fun-3",
@@ -365,11 +367,13 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sentence by its kind.",
    "entries": [
-    "“Is supper ready?”",
-    "“Supper is ready.”",
-    "“Bring the bread.”",
-    "“Grant us peace, O Lord.”",
-    "“Children!”"
+    "“The cistern is empty.”",
+    "“Snow fell in the night.”",
+    "“The candle is lit.”",
+    "“Is the cistern empty?”",
+    "“Bolt the shutter.”",
+    "“Light the candle.”",
+    "“Lord, heal the child.”"
    ],
    "bins": [
     "Statement",
@@ -379,13 +383,15 @@ ARS.exercises['i.ex.sign'] = {
     "Call"
    ],
    "answer": [
-    1,
     0,
+    0,
+    0,
+    1,
     2,
-    3,
-    4
+    2,
+    3
    ],
-   "explain": "The statement says that something is so; the question asks whether it is; the command asks that something be done; the prayer asks God for something; and the call addresses someone. Only the statement is true or false."
+   "explain": "“The cistern is empty,” “Snow fell in the night,” and “The candle is lit” say that something is so, so they are statements. “Is the cistern empty?” asks. “Bolt the shutter” and “Light the candle” ask that something be done. “Lord, heal the child” asks God for something. Only the statements are true or false."
   },
   {
    "id": "sv-syn-4",
@@ -394,12 +400,13 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each word as categorematic or syncategorematic.",
    "entries": [
-    "“lamp”",
-    "“or”",
-    "“sings”",
-    "“except”",
-    "“bright”",
-    "“not”"
+    "“window”",
+    "“melts”",
+    "“round”",
+    "“baker”",
+    "“carries”",
+    "“unless”",
+    "“lest”"
    ],
    "bins": [
     "Categorematic",
@@ -407,13 +414,14 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
+    0,
+    0,
+    0,
     0,
     1,
-    0,
     1
    ],
-   "explain": "“Lamp,” “sings,” and “bright” each bring something definite to mind and can be what a sentence is about or what is said of it. “Or,” “except,” and “not” signify only together with other words."
+   "explain": "“Window” and “baker” signify things, “round” signifies a quality, and “melts” and “carries” signify actions. Each can be what a sentence is about or what is said of it. “Unless” and “lest” signify only together with other words."
   },
   {
    "id": "sv-amb-2",
@@ -458,10 +466,11 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sentence by where its ambiguity lies.",
    "entries": [
-    "“The bill was too large.”",
-    "“I met the friend of my sister who lives in Rome.”",
-    "“The bat was broken.”",
-    "“They discussed the letter from the mayor at the meeting.”"
+    "“The check was large.”",
+    "“The trunk was heavy.”",
+    "“The suit was old.”",
+    "“The captain greeted the sailor from the ship.”",
+    "“She saw the man with the lantern.”"
    ],
    "bins": [
     "In a single word",
@@ -469,11 +478,12 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
     0,
+    0,
+    1,
     1
    ],
-   "explain": "“Bill” (an account or a bird’s beak) and “bat” (a club or a flying animal) are single words with two meanings. In the other two every word is clear, but “who lives in Rome” can belong to the friend or the sister, and “at the meeting” to the letter or to the discussing."
+   "explain": "“Check” (a bank draft or a restaurant bill), “trunk” (a chest or the stem of a tree), and “suit” (a set of clothes or a lawsuit) are single words with two meanings. In the other two sentences every word is clear, but “from the ship” can belong to “greeted” or to “the sailor,” and “with the lantern” can belong to “saw” or to “the man.”"
   },
   {
    "id": "sv-con-2",
@@ -702,26 +712,22 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sign as natural or conventional.",
    "entries": [
-    "Tears of grief",
-    "A white flag of surrender",
-    "Ice on a pond",
-    "A bow before a king",
-    "A limp after a fall",
-    "A laurel wreath given to a victor"
+    "A green lamp used by agreement to mean “go”",
+    "The letters “SOS” used as a call for help",
+    "A handshake that a people uses for greeting",
+    "A black armband worn to show mourning"
    ],
    "bins": [
     "Natural sign",
     "Conventional sign"
    ],
    "answer": [
-    0,
     1,
-    0,
     1,
-    0,
+    1,
     1
    ],
-   "explain": "Tears, ice, and a limp are produced by what they signify (grief, cold, an injury), so they signify by nature. A white flag, a bow, and a laurel wreath have their meaning from the custom of a people, so they are conventional signs."
+   "explain": "A green lamp, the letters “SOS,” a handshake, and a black armband have their meaning from the custom of a people. Each signifies because someone means it to signify, so each is a conventional sign."
   },
   {
    "id": "sv-imp-8",
@@ -730,12 +736,11 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sound as signifying by nature or by imposition.",
    "entries": [
-    "A groan of pain",
-    "The word “groan”",
-    "A baby’s cry",
-    "The word “cuckoo”",
-    "A sneeze",
-    "The word “achoo”"
+    "A hiccup",
+    "A yawn",
+    "The sound of snoring",
+    "The English word “hiccup”",
+    "The English word “yawn”"
    ],
    "bins": [
     "By nature",
@@ -743,13 +748,12 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
+    0,
     0,
     1,
-    0,
     1
    ],
-   "explain": "A groan, a cry, and a sneeze signify by nature, and they sound the same in every country. The words “groan,” “cuckoo,” and “achoo” were imposed by English speakers; even the two that imitate a sound were chosen by them, and other languages chose other sounds.",
+   "explain": "A hiccup, a yawn, and the sound of snoring signify by nature, and the same sounds are produced in every country. The words “hiccup” and “yawn” were imposed by English speakers. A word may resemble the natural sound, but the speakers still chose it.",
    "why": {
     "prompt": "Why do imitative words such as “cuckoo” still signify by imposition?",
     "model": "Because each language chooses its own imitation; the word resembles a natural sound, but it is the agreement of the speakers that makes it signify, as French <i>coucou</i> and English “cuckoo” differ."
@@ -762,26 +766,22 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each Latin word as categorematic or syncategorematic.",
    "entries": [
-    "<i>nūllus</i> (“no”)",
-    "<i>rosa</i> (“rose”)",
-    "<i>et</i> (“and”)",
-    "<i>currit</i> (“runs”)",
-    "<i>nōn</i> (“not”)",
-    "<i>albus</i> (“white”)"
+    "<i>mēnsa</i> (“table”)",
+    "<i>aut</i> (“or”)",
+    "<i>sine</i> (“without”)",
+    "<i>nisī</i> (“unless”)"
    ],
    "bins": [
     "Categorematic",
     "Syncategorematic"
    ],
    "answer": [
-    1,
     0,
     1,
-    0,
     1,
-    0
+    1
    ],
-   "explain": "<i>Rosa</i>, <i>currit</i>, and <i>albus</i> signify something by themselves: a flower, an action, a color. <i>Nūllus</i>, <i>et</i>, and <i>nōn</i> signify only by determining how other words are taken."
+   "explain": "<i>Mēnsa</i> signifies something by itself, a piece of furniture. <i>Aut</i>, <i>sine</i>, and <i>nisī</i> signify only together with other words. <i>Aut</i> joins alternatives, <i>sine</i> means “without,” and <i>nisī</i> sets a condition."
   },
   {
    "id": "sv-fun-8",
@@ -827,12 +827,12 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each word: does it signify time as its proper meaning, or consignify time along with an action?",
    "entries": [
-    "“week”",
-    "“arrived”",
-    "“season”",
-    "“will build”",
-    "“evening”",
-    "“slept”"
+    "“month”",
+    "“midnight”",
+    "“broke”",
+    "“will open”",
+    "“wrote”",
+    "“has fallen”"
    ],
    "bins": [
     "Signifies time as its proper meaning",
@@ -840,13 +840,13 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
     0,
     1,
-    0,
+    1,
+    1,
     1
    ],
-   "explain": "“Week,” “season,” and “evening” are nouns whose proper meaning is a time, a thing we can speak about. “Arrived,” “will build,” and “slept” signify actions and, along with them, the time of the action; that is to consignify time."
+   "explain": "“Month” and “midnight” are nouns whose proper meaning is a time, a thing we can speak about. “Broke,” “will open,” “wrote,” and “has fallen” signify actions and, along with them, the time of the action; that is to consignify time."
   },
   {
    "id": "sv-amb-7",
@@ -870,10 +870,11 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sign as instrumental or formal.",
    "entries": [
-    "The spoken word “tree”",
-    "The concept of a tree in the mind",
-    "A knock at the door",
-    "The concept of a friend in the mind"
+    "A portrait of a king",
+    "The written word “anchor”",
+    "A pointing finger",
+    "The concept of an anchor in the mind",
+    "The concept of a king in the mind"
    ],
    "bins": [
     "Instrumental sign",
@@ -881,11 +882,12 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
     0,
+    0,
+    1,
     1
    ],
-   "explain": "The spoken word and the knock must first be perceived as objects in their own right before they lead the mind to something else, so they are instrumental signs. A concept is not first known as an object; it is that by which we know the thing, so it is a formal sign."
+   "explain": "A portrait, the written word “anchor,” and a pointing finger must first be perceived as objects in their own right before they lead the mind to something else, so they are instrumental signs. A concept is not first known as an object; it is that by which we know the thing, so the concept of an anchor and the concept of a king are formal signs."
   },
   {
    "id": "sv-fun-7",
@@ -895,9 +897,9 @@ ARS.exercises['i.ex.sign'] = {
    "prompt": "Sort each kind of sentence by the way it is properly answered.",
    "entries": [
     "A statement",
-    "A question",
-    "A command",
-    "A prayer"
+    "A yes-or-no question",
+    "A question that asks what something is",
+    "A command"
    ],
    "bins": [
     "“That is true” or “That is false”",
@@ -908,10 +910,10 @@ ARS.exercises['i.ex.sign'] = {
    "answer": [
     0,
     1,
-    2,
-    3
+    1,
+    2
    ],
-   "explain": "A statement is answered by agreement or disagreement, a question by a statement, a command by obedience or refusal, and a prayer by its being granted or not. The answers show that only the statement says that something is so.",
+   "explain": "A statement is answered by “That is true” or “That is false.” A yes-or-no question and a question that asks what something is are both answered by a statement. A command is answered by obedience or refusal. Only the statement says that something is so.",
    "why": {
     "prompt": "What do these answers show about truth and falsity?",
     "model": "Only the statement is answered with “That is true” or “That is false,” because only the statement claims something about the way things are."
@@ -924,10 +926,11 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "For each line, say whether it gives the reason for the name or what the name signifies.",
    "entries": [
-    "“Sunflower”: the flower seems to turn toward the sun",
-    "“Sunflower”: a tall plant with large yellow flowers",
-    "“Firefly”: its light looks like a spark of fire",
-    "“Firefly”: a certain beetle that glows at night"
+    "“Starfish”: its shape is like a star",
+    "“Starfish”: a sea animal with five arms",
+    "“Catfish”: it has whiskers like a cat",
+    "“Grasshopper”: it hops in the grass",
+    "“Grasshopper”: a certain leaping insect"
    ],
    "bins": [
     "The reason for the name",
@@ -937,9 +940,10 @@ ARS.exercises['i.ex.sign'] = {
     0,
     1,
     0,
+    0,
     1
    ],
-   "explain": "That from which a name is taken explains why the sound was chosen; that which the name is imposed to signify is fixed by imposition and usage. “Firefly” signifies a beetle, not a fly or a fire, and “sunflower” signifies the plant whether or not it turns toward the sun."
+   "explain": "That from which a name is taken explains why the sound was chosen; that which the name is imposed to signify is fixed by imposition and usage. “Starfish” signifies a sea animal, not a star. “Catfish” signifies a fish, not a cat. “Grasshopper” signifies an insect, not the grass and not the hopping."
   },
   {
    "id": "sv-syn-8",
@@ -966,10 +970,10 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each part in quotation marks: does it signify by itself here, or nothing by itself?",
    "entries": [
-    "“pine” in “pineapple”",
-    "“pine” in “a tall pine”",
-    "“dog” in “dogwood”",
-    "“dog” in “a barking dog”"
+    "“ham” in “hamburger”",
+    "“car” in “carpet”",
+    "“pen” in “penguin”",
+    "“room” in “mushroom”"
    ],
    "bins": [
     "Signifies by itself",
@@ -977,11 +981,11 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     1,
-    0,
     1,
-    0
+    1,
+    1
    ],
-   "explain": "Within a word, the parts signify nothing by themselves: “pineapple” is not a kind of pine, and “dogwood” is not a dog. The same letters standing as a word, “a tall pine” or “a barking dog,” do signify. The word is the least part of an expression that signifies."
+   "explain": "Within a word, the parts signify nothing by themselves. “Ham” in “hamburger” does not signify ham, “car” in “carpet” does not signify a car, “pen” in “penguin” does not signify a pen, and “room” in “mushroom” does not signify a room. The word is the least part of an expression that signifies."
   },
   {
    "id": "sv-amb-6",
@@ -990,10 +994,12 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each ambiguity by its cause.",
    "entries": [
-    "“Lead,” the metal or the verb, in writing",
-    "“a way” and “away”",
-    "“seal,” an animal or a stamp",
-    "“fresh fish and vegetables”"
+    "“The match was short.”",
+    "“The crane was still.”",
+    "“careful drivers and cyclists”",
+    "“the report of the fire in the newspaper”",
+    "“The tear was small.”",
+    "“The invalid was moved.”"
    ],
    "bins": [
     "One word with two meanings",
@@ -1002,12 +1008,14 @@ ARS.exercises['i.ex.sign'] = {
     "Writing that does not show pronunciation"
    ],
    "answer": [
-    3,
-    2,
     0,
-    1
+    0,
+    1,
+    1,
+    3,
+    3
    ],
-   "explain": "“Seal” is one word imposed with two meanings. In “fresh fish and vegetables,” “fresh” can belong to the fish alone or to both. “A way” and “away” are the same letters read as two words or as one. “Lead” is two words that are pronounced differently but written alike.",
+   "explain": "“Match” (a contest or a small stick) and “crane” (a bird or a machine) are single words with two meanings. In “careful drivers and cyclists,” “careful” can belong to the drivers alone or to both; in “the report of the fire in the newspaper,” “in the newspaper” can belong to the report or to the fire. “Tear” (a drop, or a rip) and “invalid” (a sick person, or not valid) are written alike and pronounced differently.",
    "why": {
     "prompt": "Why is “lead” not ambiguous in speech?",
     "model": "Because the metal and the verb are pronounced differently; only the writing, which does not show the pronunciation, leaves the reader to decide."
@@ -1216,22 +1224,24 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each expression: can it be true or false, or is it neither true nor false?",
    "entries": [
-    "“tiger”",
-    "“The tiger is asleep.”",
-    "“striped tiger”",
-    "“No tiger is green.”"
+    "“The well is dry.”",
+    "“No well is dry.”",
+    "“The road was blocked.”",
+    "“dry well”",
+    "“road”"
    ],
    "bins": [
     "Can be true or false",
     "Neither true nor false"
    ],
    "answer": [
-    1,
+    0,
+    0,
     0,
     1,
-    0
+    1
    ],
-   "explain": "A word or a phrase such as “striped tiger” signifies but says nothing of anything, so it is neither true nor false. “The tiger is asleep” and “No tiger is green” say something of something, and so each is true or false."
+   "explain": "“The well is dry,” “No well is dry,” and “The road was blocked” say something of something, and so each can be true or false. “Dry well” and “road” signify, but they say nothing of anything, so they are neither true nor false."
   },
   {
    "id": "sv-imp-11",
@@ -1240,26 +1250,28 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each Latin word as a name of the first or the second imposition.",
    "entries": [
-    "<i>nōmen</i> (“noun”)",
-    "<i>aqua</i> (“water”)",
-    "<i>verbum</i> (“verb”)",
-    "<i>rosa</i> (“rose”)",
-    "<i>syllaba</i> (“syllable”)",
-    "<i>equus</i> (“horse”)"
+    "<i>nāvis</i> (“ship”)",
+    "<i>lupus</i> (“wolf”)",
+    "<i>cāsus</i> (“case, a form of a noun”)",
+    "<i>participium</i> (“participle”)",
+    "<i>praepositiō</i> (“preposition”)",
+    "<i>coniunctiō</i> (“conjunction”)",
+    "<i>adverbium</i> (“adverb”)"
    ],
    "bins": [
     "First imposition",
     "Second imposition"
    ],
    "answer": [
-    1,
+    0,
     0,
     1,
-    0,
     1,
-    0
+    1,
+    1,
+    1
    ],
-   "explain": "<i>Aqua</i>, <i>rosa</i>, and <i>equus</i> signify things. <i>Nōmen</i>, <i>verbum</i>, and <i>syllaba</i>, as the grammarians use them, signify words and parts of words, so they are names of the second imposition."
+   "explain": "<i>Nāvis</i> and <i>lupus</i> signify things, a ship and a wolf. <i>Cāsus</i>, <i>participium</i>, <i>praepositiō</i>, <i>coniunctiō</i>, and <i>adverbium</i>, as the grammarians use them, signify forms and kinds of words, so they are names of the second imposition."
   },
   {
    "id": "sv-fun-10",
@@ -1268,11 +1280,13 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each Latin sentence by its kind.",
    "entries": [
-    "<i>Venitne?</i> (“Does he come?”)",
-    "<i>Venit.</i> (“He comes.”)",
-    "<i>Venī!</i> (“Come!”)",
-    "<i>Utinam veniat!</i> (“If only he would come!”)",
-    "<i>Marce!</i> (“Marcus!”)"
+    "<i>Pluit.</i> (“It is raining.”)",
+    "<i>Nix cadit.</i> (“Snow is falling.”)",
+    "<i>Tacet.</i> (“He is silent.”)",
+    "<i>Pluitne?</i> (“Is it raining?”)",
+    "<i>Tacē!</i> (“Be silent!”)",
+    "<i>Scrībite!</i> (“Write!”)",
+    "<i>Utinam nix cadat!</i> (“If only snow would fall!”)"
    ],
    "bins": [
     "Statement",
@@ -1282,13 +1296,15 @@ ARS.exercises['i.ex.sign'] = {
     "Call"
    ],
    "answer": [
-    1,
     0,
+    0,
+    0,
+    1,
     2,
-    3,
-    4
+    2,
+    3
    ],
-   "explain": "Latin marks the question with <i>-ne</i>, the command with the imperative <i>venī</i>, the wish or prayer with <i>utinam</i>, and the call with the vocative <i>Marce</i>. The kinds of sentence are marked in the forms of the words, and so they belong to grammar."
+   "explain": "The indicatives <i>pluit</i>, <i>cadit</i>, and <i>tacet</i> state something. <i>Pluitne</i> asks, because of <i>-ne</i>. The imperatives <i>tacē</i> and <i>scrībite</i> command. <i>Utinam nix cadat</i> wishes. The kinds of sentence are marked in the forms of the words, and so they belong to grammar."
   },
   {
    "id": "sv-amb-10",
@@ -1297,10 +1313,10 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each sentence by where its ambiguity lies.",
    "entries": [
-    "“The plant was closed for repairs.”",
-    "“Mary called her mother from Rome.”",
-    "“The fair was crowded.”",
-    "“The duck was ready to eat.”"
+    "“The file was missing.”",
+    "“She brought the letter to the clerk in the office.”",
+    "“Martha left the book for her brother in the kitchen.”",
+    "“He ordered a coat for the child with a hood.”"
    ],
    "bins": [
     "In a single word",
@@ -1309,10 +1325,10 @@ ARS.exercises['i.ex.sign'] = {
    "answer": [
     0,
     1,
-    0,
+    1,
     1
    ],
-   "explain": "“Plant” (a factory or a growing thing) and “fair” (a festival, or just) are single words with two meanings. In “Mary called her mother from Rome,” “from Rome” can belong to “called” or to “her mother”; in “The duck was ready to eat,” the duck may be about to eat or about to be eaten, and the double sense lies in the construction."
+   "explain": "“File” (a tool, or a set of papers) is a single word with two meanings. In the other three sentences every word is clear, but “in the office” can belong to “brought” or to “the clerk,” “in the kitchen” can belong to “left” or to “her brother,” and “with a hood” can belong to the coat or to the child."
   },
   {
    "id": "sv-sign-11",
@@ -1321,12 +1337,12 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort these words by the concept they signify.",
    "entries": [
-    "German <i>Pferd</i>",
-    "Latin <i>canis</i>",
-    "French <i>cheval</i>",
-    "French <i>chien</i>",
-    "Latin <i>equus</i>",
-    "German <i>Hund</i>"
+    "Spanish <i>caballo</i> (“horse”)",
+    "Italian <i>cavallo</i> (“horse”)",
+    "English “dog”",
+    "Spanish <i>perro</i> (“dog”)",
+    "Italian <i>cane</i> (“dog”)",
+    "Portuguese <i>cão</i> (“dog”)"
    ],
    "bins": [
     "The concept of a horse",
@@ -1334,13 +1350,13 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
     0,
     1,
-    0,
+    1,
+    1,
     1
    ],
-   "explain": "<i>Pferd</i>, <i>cheval</i>, and <i>equus</i> are three different sounds that signify one concept, that of a horse; <i>canis</i>, <i>chien</i>, and <i>Hund</i> signify the concept of a dog. The words differ from language to language, but the concepts are the same for all.",
+   "explain": "<i>Caballo</i> and <i>cavallo</i> are two different sounds that signify one concept, that of a horse. “Dog,” <i>perro</i>, <i>cane</i>, and <i>cão</i> signify the concept of a dog. The words differ from language to language, but the concepts are the same for all.",
    "why": {
     "prompt": "Why can a translator put <i>cheval</i> for <i>Pferd</i>?",
     "model": "Because the two words signify the same concept, and through it the same kind of animal; translation compares what the words signify, which is the same where the words differ."
@@ -1353,12 +1369,13 @@ ARS.exercises['i.ex.sign'] = {
    "type": "sort",
    "prompt": "Sort each syncategorematic word by what it does.",
    "entries": [
-    "“every”",
-    "“only”",
-    "“not”",
-    "“or”",
-    "“some”",
-    "“except”"
+    "“each”",
+    "“all”",
+    "“few”",
+    "“most”",
+    "“solely”",
+    "“excluding”",
+    "“never”"
    ],
    "bins": [
     "Says how much is meant",
@@ -1368,13 +1385,14 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
-    1,
-    2,
-    3,
     0,
-    1
+    0,
+    0,
+    1,
+    1,
+    2
    ],
-   "explain": "“Every” and “some” signify how much of something is meant; “only” and “except” exclude or except; “not” denies; and “or” joins statements. In each case the word adds no new thing but determines how the other words are taken."
+   "explain": "“Each,” “all,” “few,” and “most” signify how much of something is meant. “Solely” and “excluding” exclude or except. “Never” denies. In each case the word adds no new thing but determines how the other words are taken."
   },
   {
    "id": "sv-con-12",
@@ -1399,8 +1417,9 @@ ARS.exercises['i.ex.sign'] = {
    "prompt": "Writing, speech, and the concept stand in an order. Sort each item by what it is a sign of.",
    "entries": [
     "The written word “oak”",
+    "The written word <i>quercus</i>",
     "The spoken word “oak”",
-    "The concept of an oak"
+    "The spoken word <i>quercus</i>"
    ],
    "bins": [
     "A sign of the spoken word",
@@ -1409,10 +1428,11 @@ ARS.exercises['i.ex.sign'] = {
    ],
    "answer": [
     0,
+    0,
     1,
-    2
+    1
    ],
-   "explain": "The written word signifies the spoken word; the spoken word signifies the concept; and the concept is of the thing itself, the oak. Aristotle states this order at the beginning of <i>De interpretatione</i>."
+   "explain": "The written word “oak” signifies the spoken word “oak,” and the written word <i>quercus</i> signifies the spoken word <i>quercus</i>. Those spoken words signify the concept. Aristotle states this order at the beginning of <i>De interpretatione</i>: writing is a sign of speech, and speech is a sign of the concept."
   },
   {
    "id": "sv-syn-10",

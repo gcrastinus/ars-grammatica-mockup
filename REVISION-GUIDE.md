@@ -547,3 +547,8 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 ## AB. Log: Recitation callout wording (18 Oct 2026)
 
 - 18 Oct 2026: The callout beside the Recitation Tablet now reads: "You have finished [name]. The best way to continue toward mastery is to set out the whole subject yourself, then check your account against the full recitation." The wording is kept as given. Nothing else is changed.
+
+## AC. Log: Uneven sort bins (18 Oct 2026)
+
+- 18 Oct 2026: The 22 sort items in i.ex.sign no longer give one example of each bin. Each item has four, five, six, or seven entries. Some put two or more entries in one bin, and eight items leave a bin empty (sv-sign-7, sv-fun-3, sv-fun-7, sv-fun-10, sv-con-8, sv-amb-6, sv-syn-9, sv-sign-9). The prompts, the bins, and the why prompts are unchanged. Examples already used on the cards are not reused. Words mentioned as words keep double quotation marks. node --check and a load of every file in data/exercises passed. The other exercise files, including i.review, ii.ex.syllable, and ii.ex.quantity, have no sort items, so they were left as they are.
+- The why prompts were left as they stood. sv-imp-8 still asks about “cuckoo,” sv-amb-6 about “lead,” and sv-sign-11 about putting *cheval* for *Pferd*, though those examples are no longer among the entries.
