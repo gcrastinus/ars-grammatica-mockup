@@ -325,7 +325,7 @@ ARS.decks['xi.traditions'] = {
 { id: 'imposition-graphs',
   title: 'The character and imposition',
   body: `<p>A pictograph such as 日 may seem to signify by nature, because it looks like the sun. But the character signifies the word “sun,” not only the shape, and the word itself was imposed by the speakers of the language. The loan characters show this most clearly: a character made for one word is borrowed for another word that sounds alike, so that it signifies by convention alone.</p>
-<p>We saw in Section I that words signify by imposition, and that writing is a sign of speech. The Chinese tradition, by recognizing the loan and the form-and-sound characters, recognized that the character signifies the spoken word and not only the thing pictured. So the Chinese account of writing agrees with Aristotle’s, that written marks are signs of spoken words, though it gives the written sign a much larger place in the study of language.</p>`,
+<p>We saw in Section I that words signify by imposition, and that writing is a sign of speech. The Chinese tradition, by recognizing the phonetic loans and the phono-semantic compounds, recognized that the character signifies the spoken word and not only the thing pictured. So the Chinese account of writing agrees with Aristotle’s, that written marks are signs of spoken words, though it gives the written sign a much larger place in the study of language.</p>`,
   src: `Xu Shen, <i>Shuowen jiezi</i>, postface; Aristotle, <i>De interpretatione</i> 1; both in paraphrase.` },
 
 { id: 'erya',
