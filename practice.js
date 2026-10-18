@@ -416,6 +416,7 @@
   }
 
   function renderSitting(){
+    if (window.__arsStopSpeak) window.__arsStopSpeak();
     showHead();
     const item = currentItem();
     sit.item = item;
@@ -531,6 +532,7 @@
   }
 
   function renderScore(){
+    if (window.__arsStopSpeak) window.__arsStopSpeak();
     showHead();
     $('ex-kind').textContent = sit.setLabel || sit.kind || '';
     const line = scoreLine();

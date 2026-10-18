@@ -499,7 +499,7 @@ table.para tr:nth-child(even) td{background:var(--panel2)}
 .pick-word.reveal{border-color:var(--sage); border-width:2px}
 
 @media print{
-  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls{display:none}
+  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls, #recite-open{display:none}
   .set-card{break-inside:avoid}
 }
 
@@ -637,7 +637,7 @@ ol.keys{margin:0; padding:0; list-style:none; counter-reset:qn}
 
 @media print{
   body, html{background:#fff !important}
-  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls, .si-home{display:none !important}
+  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls, #recite-open, .si-home{display:none !important}
   .wrap{max-width:none; padding:0; margin:0}
   .screen{display:none !important}
   #scr-maker{display:block !important; position:static}

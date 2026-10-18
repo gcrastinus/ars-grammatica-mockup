@@ -15,6 +15,7 @@ const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exe
 
 function deckState(id){ return store.decks[id] || (store.decks[id] = { opens:0, done:false }); }
 function show(scr){
+  if (window.__arsStopSpeak) window.__arsStopSpeak();
   document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.id === scr));
   window.scrollTo(0, 0);
 }
@@ -183,6 +184,7 @@ function runEx(ex){
   show('scr-ex'); renderItem();
 }
 function renderItem(){
+  if (window.__arsStopSpeak) window.__arsStopSpeak();
   const body = $('ex-body'); body.innerHTML = '';
   if (run.k >= run.queue.length) return renderSummary();
   const it = run.queue[run.k], again = run.k >= run.n;
@@ -347,6 +349,7 @@ function qpState(qp){
 }
 
 function renderPanel(){
+  if (window.__arsStopSpeak) window.__arsStopSpeak();
   const { deck, i } = cur, p = deck.panels[i], n = deck.panels.length;
   $('deck-count').textContent = `Panel ${i + 1} of ${n}`;
   $('deck-progress').style.width = `${((i + 1) / n) * 100}%`;

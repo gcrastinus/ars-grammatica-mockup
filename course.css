@@ -23,8 +23,11 @@
 .qp .feedback .btn{margin-top:12px}
 .deck-hint{text-align:center; font-style:italic; color:var(--ink-soft); font-size:15px; margin-top:10px; min-height:20px}
 
+@media (max-width:1100px){
+  .wrap{padding-top:118px}
+}
 @media (max-width:600px){
-  .wrap{padding:70px 14px 70px}
+  .wrap{padding:118px 14px 70px}
   h1{font-size:34px}
   .panel, .q-box{padding:20px 18px}
   .deck-title{font-size:22px}
@@ -51,12 +54,22 @@
 .ex-set code{font-size:13px}
 @media (max-width:560px){ .ex-plan dl{grid-template-columns:1fr} .ex-plan dt{padding-top:8px} }
 
-/* Recitation Tablet */
-.recite-home-bar{display:flex; justify-content:flex-start; margin:0 0 8px}
+/* Recitation Tablet: a fixed writing-tablet button, twice the height of the speak controls. */
 .recite-open{
-  font-size:clamp(15px, 1.8vw, 18px);
-  padding:clamp(10px, 1.1vw, 13px) clamp(16px, 2vw, 24px);
-  text-transform:none; letter-spacing:.04em;
+  position:fixed; top:14px; left:16px; z-index:50;
+  width:88px; height:88px; padding:0;
+  display:flex; align-items:center; justify-content:center;
+  color:var(--gold); background:var(--card);
+  border:1px solid var(--line); border-radius:16px;
+  box-shadow:var(--shadow); cursor:pointer;
+  transition:transform .15s;
+}
+.recite-open:hover{transform:scale(1.06)}
+.recite-icon{width:58px; height:58px; display:block}
+body.recite-lock .recite-open{visibility:hidden}
+@media (max-width:420px){
+  .recite-open{top:12px; left:12px; width:80px; height:80px; border-radius:14px}
+  .recite-icon{width:52px; height:52px}
 }
 .recite-due{
   text-align:center; font-style:italic; color:var(--ink-soft); font-size:16.5px;
