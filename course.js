@@ -172,6 +172,59 @@ function renderItem(){
       };
       opts.appendChild(b);
     });
+  } else if (it.type === 'identify' && Array.isArray(it.answer)){   // click every word asked for, then check
+    const row = document.createElement('div'); row.className = 'ex-tokens';
+    const picked = new Set();
+    it.tokens.forEach((t, k) => {
+      const b = document.createElement('button'); b.className = 'opt ex-token'; b.innerHTML = t;
+      b.onclick = () => { picked.has(k) ? picked.delete(k) : picked.add(k); b.classList.toggle('sel', picked.has(k)); };
+      row.appendChild(b);
+    });
+    const go = document.createElement('div');
+    go.innerHTML = `<button class="btn primary" type="button">Check</button>`;
+    go.querySelector('button').onclick = () => {
+      if (!picked.size) return;
+      const want = new Set(it.answer);
+      row.querySelectorAll('button').forEach((x, j) => {
+        x.disabled = true; x.classList.remove('sel');
+        if (want.has(j)) x.classList.add(picked.has(j) ? 'right' : 'reveal');
+        else if (picked.has(j)) x.classList.add('wrong');
+      });
+      go.querySelector('button').disabled = true;
+      const ok = picked.size === want.size && [...want].every(j => picked.has(j));
+      done(ok, null, it.answer.map(j => it.tokens[j]).join(', '));
+    };
+    opts.appendChild(row); opts.appendChild(go);
+  } else if (it.type === 'sort'){   // put each entry in one of the bins, then check
+    const tbl = document.createElement('div'); tbl.className = 'ex-sort';
+    const chosen = it.entries.map(() => null);
+    it.entries.forEach((e, r) => {
+      const line = document.createElement('div'); line.className = 'ex-sort-row';
+      line.innerHTML = `<div class="ex-sort-entry">${e}</div><div class="ex-sort-bins"></div>`;
+      const bins = line.querySelector('.ex-sort-bins');
+      it.bins.forEach((bn, c) => {
+        const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-bin'; b.innerHTML = bn;
+        b.onclick = () => { chosen[r] = c; bins.querySelectorAll('button').forEach((x, j) => x.classList.toggle('sel', j === c)); };
+        bins.appendChild(b);
+      });
+      tbl.appendChild(line);
+    });
+    const go = document.createElement('div');
+    go.innerHTML = `<button class="btn primary" type="button">Check</button>`;
+    go.querySelector('button').onclick = () => {
+      if (chosen.some(c => c === null)) return;
+      tbl.querySelectorAll('.ex-sort-row').forEach((line, r) => {
+        line.querySelectorAll('button').forEach((x, j) => {
+          x.disabled = true; x.classList.remove('sel');
+          if (j === it.answer[r]) x.classList.add(chosen[r] === j ? 'right' : 'reveal');
+          else if (chosen[r] === j) x.classList.add('wrong');
+        });
+      });
+      go.querySelector('button').disabled = true;
+      const ok = chosen.every((c, r) => c === it.answer[r]);
+      done(ok, null, null);
+    };
+    opts.appendChild(tbl); opts.appendChild(go);
   } else if (it.type === 'identify'){
     const row = document.createElement('div'); row.className = 'ex-tokens';
     it.tokens.forEach((t, k) => {
@@ -211,7 +264,7 @@ function finishItem(box, it, ok, given, right){
   const mine = given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
   const fb = box.querySelector('.fb');
   fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
-    (ok ? (given != null ? mine : '') : `${mine}The correct answer is: ${right}.<br>`) + `${it.explain}` +
+    (ok ? (given != null ? mine : '') : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`) + `${it.explain}` +
     (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
       <div><button class="btn" type="button" data-act="model">Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
     `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;
