@@ -53,7 +53,7 @@ ARS.decks['v.government'] = {
 { id: 'governed-governing',
   title: 'The governing word and the governed',
   body: `<p>In every case of government there is a <strong>governing</strong> word and a <strong>governed</strong> word. In <i>legiōnem dūcit</i>, <i>dūcit</i> governs and <i>legiōnem</i> is governed; in <i>ad urbem</i>, <i>ad</i> governs and <i>urbem</i> is governed; in <i>perītus bellī</i> (“skilled in war”), <i>perītus</i> governs and <i>bellī</i> is governed. The governing word is the one whose meaning requires completion, and the governed word supplies it in the required form.</p>
-<p>A sentence usually contains several relations of government at once. In <i>nūntius epistulam ad rēgem fert</i>, “the messenger carries the letter to the king,” <i>fert</i> governs <i>epistulam</i> in the accusative, and <i>ad</i> governs <i>rēgem</i> in the accusative. To analyze a sentence is in part to find each governing word and what it governs.</p>`,
+<p>A sentence usually contains several relations of government at once. In <i>tabellārius epistulam ad rēgem fert</i>, “the courier carries the letter to the king,” <i>fert</i> governs <i>epistulam</i> in the accusative, and <i>ad</i> governs <i>rēgem</i> in the accusative. To analyze a sentence is in part to find each governing word and what it governs.</p>`,
   src: `Peter Helias, <i>Summa super Priscianum</i>; Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.` },
 
 { id: 'agreement-government',
