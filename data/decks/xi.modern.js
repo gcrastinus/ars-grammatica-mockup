@@ -31,8 +31,8 @@ ARS.decks['xi.modern'] = {
 
 { id: 'humanists',
   title: 'The humanists and the modists',
-  body: `<p>Speculative grammar was not so much refuted as abandoned. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and they returned to the grammar of usage and of the classical authors. G. L. Bursill-Hall observes that the division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar of the schools of southern Europe, which taught Latin for law and letters.</p>
-<p>So the question that the modists had asked, why the parts of speech and the accidents are what they are, ceased to be asked in the schools for several centuries. The grammars of the Renaissance, such as Linacre’s, which we saw in Section V, returned to Priscian and the authors, and the question of reasons returned only with the general grammars of the seventeenth century.</p>`,
+  body: `<p>Speculative grammar was not so much refuted as abandoned. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and they returned to the grammar of usage and of the classical authors. G. L. Bursill-Hall observes that the division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.</p>
+<p>So the question that the modists had asked, why the parts of speech and the accidents are what they are, ceased to be asked by grammarians for several centuries. The grammars of the Renaissance, such as Linacre’s, which we saw in Section V, returned to Priscian and the authors, and the question of reasons returned only with the general grammars of the seventeenth century.</p>`,
   src: `Bursill-Hall, introduction to Thomas of Erfurt, <i>Grammatica speculativa</i> (1972), in paraphrase.` },
 
 { id: 'general-grammars',
