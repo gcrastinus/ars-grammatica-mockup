@@ -25,7 +25,7 @@ ARS.structure = [
    { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, praying, calling, and expressing feeling, and why only the statement is true or false.' },
    { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
    { id:'i.ex.sign', kind:'exercise', built:true, title:'Sign and Significant Voice', desc:'The exercise set for the whole section, I.1 to I.6.' },
-   { id:'i.review', kind:'review', title:'Section Review: Sign and Significant Voice', desc:'Forty-five questions on I.1 to I.6, in three fixed sets of fifteen.' }
+   { id:'i.review', kind:'review', built:true, title:'Section Review: Sign and Significant Voice', desc:'Forty-five questions on I.1 to I.6, in three fixed sets of fifteen.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',

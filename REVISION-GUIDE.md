@@ -510,3 +510,4 @@ Timothy's decisions applied: keep all three supposition review cards, reworked t
 ## V. Log: Recitation button and audio controls (18 Oct 2026)
 
 - 18 Oct 2026: The words "Recitation Tablet" on the course page are now a drawn tablet (`#recite-open`), fixed at the top left, 88px square (80px below 420px), twice the height of the audio controls. The name is the tooltip and the accessible label. The button is hidden while the tablet is open. The same play and speed controls as the live course sit fixed at the top right on every course screen (`speech.js`): read this screen, stop, and 1× to 3×. The speed is kept as `speakRate` in the course store. Reading stops when the screen, the card, or the question changes. Sources, navigation, and answer feedback are not read.
+- 18 Oct 2026: data/structure.js: i.review marked built, so its homepage tile opens the written review instead of showing "Coming · plan."
