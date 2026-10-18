@@ -273,3 +273,4 @@ L addendum (Oct 17, after Claude's revision pass):
 - 17 Oct 2026: i.syncategorematic, q-not-parts variant B: correct option shortened to "Because it asks whether a word signifies something definite by itself."
 - 17 Oct 2026: i.syncategorematic, why-grammar: opens "Grammar needs this distinction because syncategorematic words determine how the other words are taken, so…"
 - 17 Oct 2026: i.syncategorematic, why-grammar: "(Matthew 4:4)" in the text; King James Version moved to the deck sources line.
+- 17 Oct 2026: i.syncategorematic, why-grammar: added closing paragraph "The above are simple examples… with correctness and exactitude."
