@@ -60,7 +60,7 @@ ARS.decks['v.dependence'] = {
 
 { id: 'prepositional',
   title: 'The dependence of phrases',
-  body: `<p>A preposition and its noun make a phrase, and the whole phrase depends on another word. In “the lamp on the table,” “on the table” depends on “lamp” and describes it, as an adjective would; in “She sat on the bench,” “on the bench” depends on “sat” and tells where, as an adverb would. Within the phrase, the noun depends on the preposition, which governs its case: <i>in hortō</i>, where <i>hortō</i> is in the ablative because <i>in</i> requires it.</p>
+  body: `<p>A preposition and its noun make a phrase, and the whole phrase depends on another word. In “the lamp on the table,” “on the table” depends on “lamp” and describes it, as an adjective would; in “She waited by the door,” “by the door” depends on “waited” and tells where, as an adverb would. Within the phrase, the noun depends on the preposition, which governs its case: <i>in templō</i>, where <i>templō</i> is in the ablative because <i>in</i> requires it.</p>
 <p>So dependence works at more than one level. Single words depend on single words, and groups of words depend on words as wholes. This is why we will study the phrase and the clause as units of construction: each of them depends on another word as a single part of speech would.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Tesnière, <i>Éléments</i>; both in paraphrase.` },
 
