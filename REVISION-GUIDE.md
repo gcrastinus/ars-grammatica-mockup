@@ -439,3 +439,18 @@ Every deck of III–XI revised to STYLE-GUIDE-CARDS.md, one commit per deck. Doc
 - First card opens with the ordinary graded series of writing assignments; every exercise card gives the exercise and its example first, Aphthonius's definition after; fable card from a child retelling the tortoise and the hare; "while" → "whereas" (2).
 **x.translation**
 - Cicero card opens from the strangeness of word-for-word versions; Sapir–Whorf from the fact that languages mark different distinctions (tense); Quine from the "gavagai" case, Quine and "indeterminate" after; "in paraphrase" removed (Jerome, Bruni, Ascham, Quine); closing pointer rewritten.
+
+### Section XI
+**xi.traditions**
+- Cards that opened with a figure now first connect the tradition to something the student knows (sutra: Donatus's questions and definitions; yaska: the eight parts and the modists; pada: "king" vs. Latin stem *rēg-*; kāraka: "The cook cuts the bread with a knife for the guests in the kitchen"; patanjali: the purposes of grammar from the Preliminary section; bhartrhari: understanding "The door is open" as a whole; three-parts; zajjaji; masoretes: "bt" read as "bat," "bet," "bit," "but"; saadia, hayyuj, kimhi; ibn-janah; roots-dispute; six-writings; mashi), then the figures.
+- Kāraka list kept on separate lines; "and" added before the last item.
+- "While" → "whereas" (pada, number-arabic); temporal "while" kept.
+- "In paraphrase" removed from body text (bhartrhari, zajjaji); "in substance" kept where it marks a rendering that is not a published translation.
+- No pointers: mashi and traditions-compare now speak of "the study of modern grammar."
+- Unchanged: Daiches "argued," the Chomsky family link, "six writings," all transliterations and characters.
+**xi.modern**
+- Every modern-author card opens from an ordinary example (three-ways: one line of Virgil read three ways; jones: "father," *pater*, *patēr*; signifier: "tree" and *arbor*; value: "sheep"/"mutton" and *mouton*; relations: "the old sailor waits"; syntactic-structures: "Waits sailor the"; austin: "I do"; and so on), the author after.
+- poinsot: thesis argued first (rule 2); instrumental and formal signs recalled from Section I; John of St. Thomas last.
+- three-acts: kinds of sentence now "a statement, a question, a command, a prayer, or a call," matching i.functions.
+- "While" → "whereas" (eight places); "in paraphrase" removed from body text (Boethius, Jones, Saussure, Poinsot, Greenberg).
+- No pointers ("to which we return below," "as we will see" removed); closing card unchanged (L.7).
