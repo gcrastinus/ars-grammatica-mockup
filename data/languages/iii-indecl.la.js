@@ -26,7 +26,7 @@ ARS.languages["lang.iii-indecl.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "Prepositions and Case",
-   "desc": "9 questions."
+   "desc": "21 questions."
   }
 
  ]

@@ -75,7 +75,7 @@ ARS.languages["lang.v.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "Government",
-   "desc": "8 questions."
+   "desc": "21 questions."
   },
 {
    "id": "lang.v.la/congruity-ex",

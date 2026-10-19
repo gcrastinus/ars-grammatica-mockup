@@ -26,7 +26,7 @@ ARS.languages["lang.ii.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "Latin Meter",
-   "desc": "10 questions."
+   "desc": "21 questions."
   }
 
  ]
