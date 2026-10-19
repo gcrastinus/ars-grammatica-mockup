@@ -8,6 +8,13 @@ ARS.languages["lang.ii.en"] = {
  "more": false,
  "items": [
 {
+   "id": "lang.ii.en/spelling",
+   "kind": "study",
+   "built": false,
+   "title": "English Spelling",
+   "desc": "The patterns of English spelling and the history behind them."
+  },
+{
    "id": "lang.ii.en/syllable",
    "kind": "study",
    "built": true,
