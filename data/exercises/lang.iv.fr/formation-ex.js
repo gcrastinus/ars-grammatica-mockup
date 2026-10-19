@@ -93,8 +93,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which word is an adverb in -ment?",
-   "explain": "<em>Heureusement</em> is the adverb “happily.” <em>Heureuse</em> is the adjective, <em>vendeur</em> names a person, and <em>refaire</em> is a verb.",
-   "options": ["<em>Heureuse</em>", "<em>Vendeur</em>", "<em>Refaire</em>", "<em>Heureusement</em>"],
+   "explain": "<em>Clairement</em> is the adverb “clearly.” <em>Claire</em> is the adjective, <em>nageur</em> names a person, and <em>relire</em> is a verb.",
+   "options": ["<em>Claire</em>", "<em>Nageur</em>", "<em>Relire</em>", "<em>Clairement</em>"],
    "answer": 3
   },
   {
@@ -104,9 +104,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun in -eur made from <em>vendre</em>, “to sell.”",
-   "explain": "<em>-eur</em> names the one who acts. From <em>vendre</em> the noun is <em>vendeur</em>, “seller.”",
-   "answer": "vendeur"
+   "prompt": "Write the noun in -eur made from <em>nager</em> (“to swim”).",
+   "explain": "<em>-eur</em> names the one who acts. From <em>nager</em> the noun is <em>nageur</em> (“swimmer”).",
+   "answer": "nageur"
   },
   {
    "id": "lang.iv.fr/formation-ex:b2",
@@ -114,9 +114,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>chanteur</em> name?",
-   "explain": "<em>Chanter</em> is “to sing,” and <em>chanteur</em> is the one who sings. <em>-tion</em> would name the act, not the person.",
-   "options": ["The act of singing, or its result", "The one who sings", "The adverb “singly”", "Singing done a second time"],
+   "prompt": "What does <em>acheteur</em> name?",
+   "explain": "<em>Acheter</em> is “to buy,” and <em>acheteur</em> is the one who buys. <em>-tion</em> would name the act, not the person.",
+   "options": ["The act of buying, or its result", "The one who buys", "The adverb of <em>acheter</em>", "Buying done a second time"],
    "answer": 1
   },
   {
@@ -126,9 +126,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the feminine of <em>chanteur</em>.",
-   "explain": "The feminine beside <em>-eur</em> is <em>-euse</em>. <em>Chanteur</em> gives <em>chanteuse</em>.",
-   "answer": "chanteuse"
+   "prompt": "Write the feminine of <em>nageur</em> (“swimmer”).",
+   "explain": "The feminine beside <em>-eur</em> is <em>-euse</em>. <em>Nageur</em> gives <em>nageuse</em>.",
+   "answer": "nageuse"
   },
   {
    "id": "lang.iv.fr/formation-ex:b4",
@@ -136,9 +136,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What do <em>nation</em> and <em>éducation</em> share?",
+   "prompt": "What do <em>traduction</em> (“translation”) and <em>invitation</em> (“invitation”) share?",
    "explain": "Both are nouns in <em>-tion</em>. That ending names an action or its result. Neither noun is the person who acts.",
-   "options": ["Both name the one who acts", "Both are adverbs in <em>-ment</em>", "The ending <em>-tion</em>", "Both are popular words from Latin <em>integer</em>"],
+   "options": ["Both name the one who acts", "Both are adverbs in <em>-ment</em>", "The ending <em>-tion</em>", "Both are the popular half of a doublet"],
    "answer": 2
   },
   {
@@ -148,9 +148,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the feminine of <em>vendeur</em>.",
-   "explain": "<em>Vendeur</em>, “seller,” has the feminine <em>vendeuse</em>, with <em>-euse</em>.",
-   "answer": "vendeuse"
+   "prompt": "Write the feminine of <em>acheteur</em> (“buyer”).",
+   "explain": "<em>Acheteur</em> (“buyer”) has the feminine <em>acheteuse</em>, with <em>-euse</em>.",
+   "answer": "acheteuse"
   },
   {
    "id": "lang.iv.fr/formation-ex:b6",
@@ -159,7 +159,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does -eur name that -tion does not?",
-   "explain": "<em>-eur</em> names the person who does the act. <em>-tion</em> names the act or its result. <em>Vendeur</em> is a person, and <em>nation</em> is not.",
+   "explain": "<em>-eur</em> names the person who does the act. <em>-tion</em> names the act or its result. <em>Nageur</em> is a person, and <em>traduction</em> is not.",
    "options": ["An action or its result", "The person who acts", "An adverb", "A doublet"],
    "answer": 1
   },
@@ -170,9 +170,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the verb made from <em>faire</em> with the prefix re-.",
-   "explain": "<em>Faire</em> is “to do.” <em>Re-</em> marks that the act is done again, so the verb is <em>refaire</em>, “to do again.”",
-   "answer": "refaire"
+   "prompt": "Write the verb made from <em>lire</em> (“to read”) with the prefix re-.",
+   "explain": "<em>Lire</em> is “to read.” <em>Re-</em> marks that the act is done again, so the verb is <em>relire</em> (“to read again”).",
+   "answer": "relire"
   },
   {
    "id": "lang.iv.fr/formation-ex:b8",
@@ -180,9 +180,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does re- contribute in <em>redire</em>?",
-   "explain": "<em>Dire</em> is “to say,” and <em>redire</em> is “to say again.” <em>Re-</em> marks that the act is done again. It does not make a feminine noun.",
-   "options": ["It names the person who says", "It makes the adverb of <em>dire</em>", "That the act is done again", "It is the learned spelling of <em>dire</em>"],
+   "prompt": "What does re- contribute in <em>revoir</em> (“to see again”)?",
+   "explain": "<em>Voir</em> is “to see,” and <em>revoir</em> is “to see again.” <em>Re-</em> marks that the act is done again. It does not make a feminine noun.",
+   "options": ["It names the person who sees", "It makes the adverb of <em>voir</em>", "That the act is done again", "It is the learned spelling of <em>voir</em>"],
    "answer": 2
   },
   {
@@ -191,9 +191,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In the pair from Latin <em>hospitāle</em>, which word is the popular one?",
-   "explain": "<em>Hôtel</em>, a lodging, is the popular word, worn down by sound change. <em>Hôpital</em>, a hospital, is the learned word and stays nearer the Latin spelling.",
-   "options": ["<em>Hôpital</em>", "<em>Fragile</em>", "<em>Hôtel</em>", "<em>Légal</em>"],
+   "prompt": "In the pair from Latin <em>parabola</em>, which word is the popular one?",
+   "explain": "<em>Parole</em> (“speech”) is the popular word, worn down by sound change. <em>Parabole</em> (“parable”) is the learned word and stays nearer the Latin spelling.",
+   "options": ["<em>Parabole</em>", "<em>Rigide</em>", "<em>Parole</em>", "<em>Numéro</em>"],
    "answer": 2
   },
   {
@@ -202,9 +202,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word from Latin <em>fragilis</em> stays nearer the Latin spelling?",
-   "explain": "<em>Fragile</em> is the learned word, borrowed again from Latin. <em>Frêle</em>, “frail,” is the popular word, worn down by sound change.",
-   "options": ["<em>Frêle</em>", "<em>Entier</em>", "<em>Loyal</em>", "<em>Fragile</em>"],
+   "prompt": "Which word from Latin <em>rigidus</em> stays nearer the Latin spelling?",
+   "explain": "<em>Rigide</em> (“rigid”) is the learned word, borrowed again from Latin. <em>Roide</em> (“stiff”) is the popular word, worn down by sound change.",
+   "options": ["<em>Roide</em>", "<em>Métier</em>", "<em>Nombre</em>", "<em>Rigide</em>"],
    "answer": 3
   },
   {
@@ -213,9 +213,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In <em>loyal</em> and <em>légal</em>, both from Latin <em>lēgālis</em>, which was worn down by sound change?",
-   "explain": "<em>Loyal</em>, “loyal,” is the popular word. <em>Légal</em>, “legal,” is the learned word and stays nearer Latin <em>lēgālis</em>.",
-   "options": ["<em>Légal</em>", "<em>Loyal</em>", "<em>Intègre</em>", "Both equally"],
+   "prompt": "In <em>métier</em> and <em>ministère</em>, both from Latin <em>ministerium</em>, which was worn down by sound change?",
+   "explain": "<em>Métier</em> (“a trade”) is the popular word. <em>Ministère</em> (“a ministry”) is the learned word and stays nearer Latin <em>ministerium</em>.",
+   "options": ["<em>Ministère</em>", "<em>Métier</em>", "<em>Parabole</em>", "Both equally"],
    "answer": 1
   },
   {
@@ -224,9 +224,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word from Latin <em>integer</em> is the learned one?",
-   "explain": "<em>Entier</em>, “whole,” is the popular word. <em>Intègre</em>, “upright,” is the learned word, borrowed again and nearer the Latin spelling.",
-   "options": ["<em>Entier</em>", "<em>Hôtel</em>", "<em>Frêle</em>", "<em>Intègre</em>"],
+   "prompt": "Which word from Latin <em>numerus</em> is the learned one?",
+   "explain": "<em>Nombre</em> (“a number”) is the popular word. <em>Numéro</em> (“a number,” the learned form) is borrowed again and stays nearer the Latin spelling.",
+   "options": ["<em>Nombre</em>", "<em>Parole</em>", "<em>Roide</em>", "<em>Numéro</em>"],
    "answer": 3
   },
   {
@@ -235,9 +235,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why is <em>hôtel</em> / <em>hôpital</em> not a stem and a suffix, as <em>heureusement</em> is?",
-   "explain": "A doublet is two arrivals of one Latin word, kept in the vocabulary. <em>Heureusement</em> is still built by adding <em>-ment</em>. <em>Hôpital</em> was not made by adding an ending to <em>hôtel</em>.",
-   "options": ["<em>Hôpital</em> is the adverb of <em>hôtel</em>", "A history kept in the vocabulary", "<em>Hôtel</em> is <em>hôpital</em> with the prefix <em>re-</em>", "Both words name the one who acts"],
+   "prompt": "Why is <em>parole</em> / <em>parabole</em> not a stem and a suffix, as <em>clairement</em> is?",
+   "explain": "A doublet is two arrivals of one Latin word, kept in the vocabulary. <em>Clairement</em> is still built by adding <em>-ment</em>. <em>Parabole</em> was not made by adding an ending to <em>parole</em>.",
+   "options": ["<em>Parabole</em> is the adverb of <em>parole</em>", "A history kept in the vocabulary", "<em>Parole</em> is <em>parabole</em> with the prefix <em>re-</em>", "Both words name the one who acts"],
    "answer": 1
   },
   {
@@ -247,9 +247,9 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the verb made from <em>dire</em> with the prefix re-.",
-   "explain": "<em>Dire</em> is “to say.” With <em>re-</em> the verb is <em>redire</em>, “to say again.”",
-   "answer": "redire"
+   "prompt": "Write the verb made from <em>voir</em> (“to see”) with the prefix re-.",
+   "explain": "<em>Voir</em> is “to see.” With <em>re-</em> the verb is <em>revoir</em> (“to see again”).",
+   "answer": "revoir"
   },
   {
    "id": "lang.iv.fr/formation-ex:c7",
@@ -258,8 +258,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which of these is a piece still used to build a word, not a doublet?",
-   "explain": "<em>Re-</em> is still added to mark that an act is done again. <em>Frêle</em> and <em>fragile</em> are a doublet, a history kept in the vocabulary, and so are <em>entier</em> and <em>intègre</em>.",
-   "options": ["The pair <em>frêle</em> and <em>fragile</em>", "The pair <em>entier</em> and <em>intègre</em>", "The prefix <em>re-</em>", "The Latin word <em>hospitāle</em>"],
+   "explain": "<em>Re-</em> is still added to mark that an act is done again. <em>Roide</em> and <em>rigide</em> are a doublet, a history kept in the vocabulary, and so are <em>nombre</em> and <em>numéro</em>.",
+   "options": ["The pair <em>roide</em> and <em>rigide</em>", "The pair <em>nombre</em> and <em>numéro</em>", "The prefix <em>re-</em>", "The Latin word <em>rigidus</em>"],
    "answer": 2
   },
   {

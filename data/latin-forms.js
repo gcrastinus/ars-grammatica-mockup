@@ -829,16 +829,16 @@
     { w: 'pater', syll: ['pa', 'ter'], div: 'pa-ter', longPen: null, acc: 0, why: 'One consonant between vowels goes with the second vowel. There are two syllables, and the first is accented.' },
     { w: 'agricola', syll: ['a', 'gri', 'co', 'la'], div: 'a-gri-co-la', longPen: false, acc: 1, why: 'There are four syllables. The penult ' + em('co') + ' is short, so the accent falls on the antepenult. The mute and liquid ' + em('gr') + ' stay with the following vowel.' },
     { w: 'cōnsul', syll: ['cōn', 'sul'], div: 'cōn-sul', longPen: null, acc: 0, why: 'The word has two syllables, so the first is accented. The ' + em('ns') + ' also makes that syllable long by position.' },
-    { w: 'imperātor', syll: ['im', 'pe', 'rā', 'tor'], div: 'im-pe-rā-tor', longPen: true, acc: 2, why: 'There are four syllables, and the penult ' + em('rā') + ' is long, so the accent falls on it.' },
+    { w: 'fortitūdō', syll: ['for', 'ti', 'tū', 'dō'], div: 'for-ti-tū-dō', longPen: true, acc: 2, why: 'There are four syllables, and the penult ' + em('tū') + ' is long by nature, so the accent falls on it.' },
     { w: 'hominēs', syll: ['ho', 'mi', 'nēs'], div: 'ho-mi-nēs', longPen: false, acc: 0, why: 'The penult ' + em('mi') + ' is short, so the accent falls on the antepenult. This is the nominative plural of ' + em('homō') + '.' },
     { w: 'ōrātor', syll: ['ō', 'rā', 'tor'], div: 'ō-rā-tor', longPen: true, acc: 1, why: 'The penult ' + em('rā') + ' is long by nature, so the accent falls on it.' },
-    { w: 'cīvitās', syll: ['cī', 'vi', 'tās'], div: 'cī-vi-tās', longPen: false, acc: 0, why: 'The penult ' + em('vi') + ' is short, so the accent falls on the antepenult.' },
-    { w: 'cōnsilium', syll: ['cōn', 'si', 'li', 'um'], div: 'cōn-si-li-um', longPen: false, acc: 1, why: 'The penult ' + em('li') + ' is short, because a vowel before a vowel is short, and the accent falls on the antepenult.' },
+    { w: 'aequitās', syll: ['ae', 'qui', 'tās'], div: 'ae-qui-tās', longPen: false, acc: 0, why: 'The penult ' + em('qui') + ' is short, so the accent falls on the antepenult. The long ultima does not take the accent.' },
+    { w: 'officium', syll: ['of', 'fi', 'ci', 'um'], div: 'of-fi-ci-um', longPen: false, acc: 1, why: 'The penult ' + em('ci') + ' is short, because a vowel before a vowel is short, and the accent falls on the antepenult.' },
     { w: 'tenebrae', syll: ['te', 'ne', 'brae'], div: 'te-ne-brae', longPen: false, acc: 0, why: 'The mute and liquid ' + em('br') + ' stay with the following vowel. The penult ' + em('ne') + ' is short, so the accent falls on the antepenult.' },
-    { w: 'virumque', syll: ['vi', 'rum', 'que'], div: 'vi-rum-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last, even though that syllable is short.' },
+    { w: 'rosaque', syll: ['ro', 'sa', 'que'], div: 'ro-sa-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last, even though that syllable is short. ' + em('Rosa') + ' is accented on ' + em('ro') + '; ' + em('rosaque') + ' is accented on ' + em('sa') + '.' },
     { w: 'fīlia', syll: ['fī', 'li', 'a'], div: 'fī-li-a', longPen: false, acc: 0, why: 'A vowel before a vowel is short, so the ' + em('i') + ' of the penult is short and the accent falls on the antepenult.' },
     { w: 'videō', syll: ['vi', 'de', 'ō'], div: 'vi-de-ō', longPen: false, acc: 0, why: 'The penult ' + em('de') + ' is short, because a vowel before a vowel is short, and the accent falls on the antepenult.' },
-    { w: 'armaque', syll: ['ar', 'ma', 'que'], div: 'ar-ma-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last: ' + em('ar-ma-que') + '.' },
+    { w: 'portaque', syll: ['por', 'ta', 'que'], div: 'por-ta-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last: ' + em('por-ta-que') + '.' },
     { w: 'patris', syll: ['pa', 'tris'], div: 'pa-tris', longPen: null, acc: 0, why: 'The mute and liquid ' + em('tr') + ' may go with the following vowel, giving two syllables, and the first is accented. The ' + em('a') + ' need not be long by position.' }
   ];
 
@@ -896,7 +896,7 @@
         'It moves the accent to the first syllable',
         'It takes the accent on itself, as the last syllable'
       ],
-      explain: em('Virum') + ' is accented on ' + em('vi') + '. ' + em('Virumque') + ' is accented on ' + em('rum') + '.'
+      explain: em('Rosa') + ' is accented on ' + em('ro') + '. ' + em('Rosaque') + ' is accented on ' + em('sa') + '.'
     },
     {
       id: 'sy13',
