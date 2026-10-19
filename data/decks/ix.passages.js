@@ -20,7 +20,7 @@ ARS.decks['ix.passages'] = {
 { id: 'servius',
   title: 'The method of the commentators',
   body: `<p>The explanation of a passage has an order. First the passage is read and its sense made clear; then its parts are explained, from the smallest (a word or a form) to the largest (an allusion or the design of the whole); and only then is it judged. A judgment made before the passage is understood is not yet a grammarian’s judgment, because it does not rest on the reading and the explanation.</p>
-<p>The ancient commentators on the poets show how such explanation was done. Servius, a grammarian of the fourth century, wrote a commentary on Virgil that goes through the poems line by line. On each line he explains rare words, notes the construction where it is difficult, names the figures and tropes, records variant readings, explains the stories and customs to which the poet alludes, and sometimes praises or criticizes the expression. Where the passage is in Latin, a close translation can help the reader follow its construction.</p>`,
+<p>The classical commentators on the poets show how such explanation was done. Servius, a grammarian who taught at Rome in the late fourth century, wrote a commentary on Virgil that goes through the poems line by line. On each line he explains rare words, notes the construction where it is difficult, names the figures and tropes, records variant readings, explains the stories and customs to which the poet alludes, and sometimes praises or criticizes the expression. Where the passage is in Latin, a close translation can help the reader follow its construction.</p>`,
   src: `Servius, <i>In Vergilii carmina commentarii</i>, in paraphrase; Quintilian, <i>Institutio oratoria</i> I.8.13–18.` },
 
 { id: 'latin-translation',
