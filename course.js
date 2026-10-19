@@ -936,10 +936,28 @@ function finishItem(box, it, ok, given, right){
   fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
     compare + (diff ? diff + '<br>' : '') + alsoHtml + (ok ? mine : (beside || copyWrong ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
     (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
-      <div><button class="btn" type="button" data-act="model">Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
+      <p class="ex-hint" data-act="why-hint">Write at least a few words first.</p>
+      <div><button class="btn" type="button" data-act="model" disabled>Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
     `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;
   const mb = fb.querySelector('[data-act="model"]');
-  if (mb) mb.onclick = () => { fb.querySelector('.ex-model').hidden = false; mb.disabled = true; };
+  if (mb){
+    const ta = fb.querySelector('.ex-why textarea');
+    const hint = fb.querySelector('[data-act="why-hint"]');
+    let shown = false;
+    const sync = () => {
+      if (shown) return;
+      const ready = ta.value.trim().length >= 10;
+      mb.disabled = !ready;
+      if (hint) hint.hidden = ready;
+    };
+    ta.addEventListener('input', sync);
+    mb.onclick = () => {
+      shown = true;
+      fb.querySelector('.ex-model').hidden = false;
+      mb.disabled = true;
+      if (hint) hint.hidden = true;
+    };
+  }
   const nb = fb.querySelector('[data-act="next"]');
   nb.onclick = () => { run.k += 1; renderItem(); window.scrollTo(0, 0); };
   nb.focus({ preventScroll:true });
