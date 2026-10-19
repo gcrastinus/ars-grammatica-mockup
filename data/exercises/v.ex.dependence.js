@@ -109,11 +109,11 @@ ARS.exercises['v.ex.dependence'] = {
    "prompt": "What is the valency of “yawns”?",
    "options": [
     "None",
-    "One",
     "Two",
+    "One",
     "Three"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "“Yawns” requires one participant, someone who yawns, and nothing else, so its valency is one."
   },
   {
@@ -123,12 +123,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In Latin <i>rēgīna lēgātō epistulam mittit</i> (“the queen sends the envoy a letter”), in which cases does <i>mittit</i> require its participants?",
    "options": [
-    "Nominative, accusative, dative",
     "Nominative and accusative only",
     "Accusative and genitive",
-    "Nominative only, for the subject"
+    "Nominative only, for the subject",
+    "Nominative, accusative, dative"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "<i>Mittit</i> is a verb of three places: the one who sends in the nominative (<i>rēgīna</i>), the thing sent in the accusative (<i>epistulam</i>), and the one to whom it is sent in the dative (<i>lēgātō</i>)."
   },
   {
@@ -153,12 +153,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In “The vase on the shelf fell,” on which word does the phrase “on the shelf” depend?",
    "options": [
-    "“vase”",
     "“fell”",
+    "“vase”",
     "“shelf”",
     "On no word"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "The phrase tells which vase is meant, as an adjective would, so it depends on “vase.” Within the phrase, “shelf” depends on “on.”"
   },
   {
@@ -168,12 +168,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In Latin <i>puella rosam carpit</i> (“the girl picks a rose”), how is the dependence of <i>carpit</i> on <i>puella</i> shown?",
    "options": [
-    "By agreement",
     "By government",
     "By neither",
+    "By agreement",
     "By its case"
    ],
-   "answer": 0,
+   "answer": 2,
    "explain": "The verb takes the person and number of its subject, third person singular, so the dependence is shown by agreement. Its dependence on <i>rosam</i> is shown by government."
   },
   {
@@ -234,11 +234,11 @@ ARS.exercises['v.ex.dependence'] = {
    "prompt": "How many constructions does “Dark clouds gather” contain?",
    "options": [
     "One",
-    "Two",
     "Three",
+    "Two",
     "Four"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "“Dark” depends on “clouds,” and “gather” depends on “clouds”: two constructions."
   },
   {
@@ -250,10 +250,10 @@ ARS.exercises['v.ex.dependence'] = {
    "options": [
     "One",
     "Two",
-    "Three",
-    "None"
+    "None",
+    "Three"
    ],
-   "answer": 2,
+   "answer": 3,
    "explain": "“Lends” requires someone who lends, something lent, and someone to whom it is lent, so its valency is three."
   },
   {
@@ -278,12 +278,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s sense, is <i>Rōmulus rēgnat</i> (“Romulus reigns”) a transitive or an intransitive construction?",
    "options": [
-    "Intransitive",
     "Transitive",
+    "Intransitive",
     "Neither, because it has no object",
     "Both at once"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "The reigning belongs to Romulus himself, so the two words refer to the same thing, and the construction is intransitive."
   },
   {
@@ -294,11 +294,11 @@ ARS.exercises['v.ex.dependence'] = {
    "prompt": "In “The girl waited by the gate,” on which word does “by the gate” depend?",
    "options": [
     "“girl”",
-    "“waited”",
     "“gate”",
+    "“waited”",
     "“The”"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "The phrase tells where she waited, as an adverb would, so it depends on the verb “waited.”"
   },
   {
@@ -308,12 +308,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "Within the phrase <i>ad urbem</i> (“to the city”), which word depends on which?",
    "options": [
-    "<i>urbem</i> depends on <i>ad</i>",
     "<i>ad</i> depends on <i>urbem</i>",
     "Neither depends on the other",
-    "Both depend only on the verb"
+    "Both depend only on the verb",
+    "<i>urbem</i> depends on <i>ad</i>"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "Within a phrase the noun depends on the preposition, which governs its case: <i>urbem</i> is accusative because <i>ad</i> requires it."
   },
   {
@@ -369,11 +369,11 @@ ARS.exercises['v.ex.dependence'] = {
    "prompt": "How many constructions does Latin <i>servus fīdus dominō pāret</i> (“the faithful slave obeys his master”) contain?",
    "options": [
     "Two",
-    "Three",
     "Four",
-    "One"
+    "One",
+    "Three"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "<i>Fīdus</i> depends on <i>servus</i>, <i>pāret</i> depends on <i>servus</i>, and <i>pāret</i> depends on <i>dominō</i>, which it governs in the dative: three constructions."
   },
   {
@@ -398,12 +398,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "What did Tesnière call the tree in which he drew the dependences of a sentence?",
    "options": [
-    "A <i>stemma</i>",
     "A valency",
+    "A <i>stemma</i>",
     "A terminant",
     "A period"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "Tesnière drew each sentence as a tree, a <i>stemma</i>, with the governing word above and its dependents below. Valency is the number of words a verb requires."
   },
   {
@@ -413,12 +413,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s sense, what kind of construction is “the roof of the barn”?",
    "options": [
-    "Transitive",
     "Intransitive",
     "Neither, because it has no verb",
+    "Transitive",
     "Both at once"
    ],
-   "answer": 0,
+   "answer": 2,
    "explain": "The construction reaches from one thing, the roof, to another, the barn, as a noun with a genitive does, so it is transitive in Thomas’s sense."
   },
   {
@@ -428,12 +428,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In Latin <i>tēctum aedificat</i> (“he builds a roof”), how is the dependence of <i>aedificat</i> on <i>tēctum</i> shown?",
    "options": [
-    "By government",
     "By agreement",
     "By neither",
-    "By the order of the words"
+    "By the order of the words",
+    "By government"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "<i>Aedificat</i> has no case but requires <i>tēctum</i> in the accusative, so the dependence is shown by government."
   },
   {
@@ -443,12 +443,12 @@ ARS.exercises['v.ex.dependence'] = {
    "type": "mc",
    "prompt": "In “The children sang loudly,” which word terminates the dependence of “loudly”?",
    "options": [
-    "“children”",
     "“sang”",
+    "“children”",
     "“The”",
     "No word"
    ],
-   "answer": 1,
+   "answer": 0,
    "explain": "The terminant is the word that supplies what the dependent word requires. “Loudly” signifies a manner of acting and requires an action, which “sang” supplies."
   }
  ]

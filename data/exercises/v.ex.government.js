@@ -110,12 +110,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "In “afraid of the dark,” what governs the preposition “of”?",
    "options": [
-    "The adjective “afraid”",
     "The noun “dark”",
     "The article “the”",
-    "Nothing governs it"
+    "Nothing governs it",
+    "The adjective “afraid”"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "English adjectives govern particular prepositions, fixed by usage: we are “afraid of,” not “afraid from.” So the adjective “afraid” governs “of.”"
   },
   {
@@ -136,12 +136,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "Which form completes <i>in ___ intrāvit</i> (“he went into the shop”)?",
    "options": [
-    "<i>tabernam</i>",
     "<i>tabernā</i>",
+    "<i>tabernam</i>",
     "<i>tabernae</i>",
     "<i>taberna</i>"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "<i>In</i> with the accusative signifies motion into a place, so the form is <i>tabernam</i>. <i>In tabernā</i> would mean that he was already in the shop."
   },
   {
@@ -152,11 +152,11 @@ ARS.exercises['v.ex.government'] = {
    "prompt": "In Latin <i>cōnsulem sententiam rogat</i> (“he asks the consul his opinion”), how many accusatives does <i>rogat</i> govern?",
    "options": [
     "One",
-    "Two",
     "None",
+    "Two",
     "Three"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "Like <i>doceō</i>, verbs of asking can govern two accusatives, one of the person (<i>cōnsulem</i>) and one of the thing (<i>sententiam</i>)."
   },
   {
@@ -166,12 +166,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "In Latin <i>pōculum aquae</i> (“a cup of water”), which word governs <i>aquae</i>?",
    "options": [
-    "<i>pōculum</i>",
     "No word governs it",
     "A verb that is understood",
-    "The ending <i>-ae</i> itself"
+    "The ending <i>-ae</i> itself",
+    "<i>pōculum</i>"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "A noun governs the genitive of another noun that completes or limits its meaning, so <i>pōculum</i> governs <i>aquae</i>."
   },
   {
@@ -210,11 +210,11 @@ ARS.exercises['v.ex.government'] = {
    "prompt": "Which form completes <i>___ invideō</i> (“I envy my neighbor”)?",
    "options": [
     "<i>vīcīnum</i>",
-    "<i>vīcīnō</i>",
     "<i>vīcīnī</i>",
+    "<i>vīcīnō</i>",
     "<i>vīcīnus</i>"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "<i>Invideō</i> (“I envy”) is one of the verbs that govern the dative, so the form is <i>vīcīnō</i>."
   },
   {
@@ -267,11 +267,11 @@ ARS.exercises['v.ex.government'] = {
    "prompt": "Which form completes <i>cum ___ vēnit</i> (“he came with his father”)?",
    "options": [
     "<i>patrem</i>",
-    "<i>patre</i>",
     "<i>patrī</i>",
+    "<i>patre</i>",
     "<i>patris</i>"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "<i>Cum</i> governs the ablative, and the ablative of <i>pater</i> is <i>patre</i>."
   },
   {
@@ -281,12 +281,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "English says “similar to” and “different from.” What decides which preposition each adjective takes?",
    "options": [
-    "Usage",
     "The case of the noun that follows",
     "The rules of logic",
-    "The verb of the sentence"
+    "The verb of the sentence",
+    "Usage"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "In English the choice of preposition after a verb, noun, or adjective is fixed by usage, and it must be learned with the word, as Latin cases are learned with each verb."
   },
   {
@@ -340,11 +340,11 @@ ARS.exercises['v.ex.government'] = {
    "prompt": "Which form completes <i>grātus ___</i> (“pleasing to the people”)?",
    "options": [
     "<i>populum</i>",
-    "<i>populō</i>",
     "<i>populī</i>",
-    "<i>populus</i>"
+    "<i>populus</i>",
+    "<i>populō</i>"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "Adjectives of fitness and of pleasing govern the dative, so the form is <i>populō</i>."
   },
   {
@@ -373,12 +373,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "Which preposition does “apologize” require in “He apologized ___ the delay”?",
    "options": [
-    "“for”",
     "“of”",
+    "“for”",
     "“at”",
     "“on”"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "Usage fixes the preposition: we “apologize for” something and “apologize to” someone. Here the delay is the thing, so the preposition is “for.”"
   },
   {
@@ -399,12 +399,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "Why is “for you and I” a failure of government?",
    "options": [
-    "“For” requires “me,” not “I”",
     "“You” should be “yourself”",
     "“And” cannot join two pronouns",
-    "The sentence has no verb"
+    "The sentence has no verb",
+    "“For” requires “me,” not “I”"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "“For” is a preposition and requires the objective case of both pronouns. “You” has the same form in both cases, but “I” must become “me.”"
   },
   {
@@ -429,12 +429,12 @@ ARS.exercises['v.ex.government'] = {
    "type": "mc",
    "prompt": "In a relation of government, which is the governing word?",
    "options": [
-    "The word whose meaning needs completing",
     "The word that supplies the required form",
+    "The word whose meaning needs completing",
     "The subject of the sentence",
     "The last word of the phrase"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "The governing word is the one whose meaning requires completion, as a verb requires its object; the governed word supplies the completion in the required form."
   }
  ]

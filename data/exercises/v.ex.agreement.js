@@ -76,12 +76,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "Which form of the adjective agrees with Latin <i>puellam</i> (“girl,” accusative singular)?",
    "options": [
+    "<i>altam</i>",
     "<i>altus</i>",
     "<i>alta</i>",
-    "<i>altam</i>",
     "<i>altum</i>"
    ],
-   "answer": 2,
+   "answer": 0,
    "explain": "<i>Puellam</i> is feminine, singular, and accusative, so the adjective takes the same three accidents: <i>altam puellam</i>, “the tall girl.”"
   },
   {
@@ -118,11 +118,11 @@ ARS.exercises['v.ex.agreement'] = {
    "prompt": "Which of these phrases is correct?",
    "options": [
     "“these kind of tools”",
-    "“this kind of tool”",
     "“this kinds of tools”",
-    "“these kind of tool”"
+    "“these kind of tool”",
+    "“this kind of tool”"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "The demonstrative agrees in number with its noun, so the singular “this” goes with the singular “kind,” and “of tool” follows: “this kind of tool.” The plural form is “these kinds of tools.”"
   },
   {
@@ -147,12 +147,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "In Latin <i>rēx cui librum mīsī</i> (“the king to whom I sent the book”), what case is <i>cui</i>, and why?",
    "options": [
-    "Dative, as the indirect object",
     "Nominative, because its antecedent <i>rēx</i> is nominative",
+    "Dative, as the indirect object",
     "Accusative, because it follows <i>rēx</i>",
     "Genitive, because it shows possession"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "A relative takes its case from its own clause. There <i>cui</i> is the indirect object of <i>mīsī</i>, so it is dative, although its antecedent <i>rēx</i> is nominative."
   },
   {
@@ -258,12 +258,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "“The audience were on their feet” has a plural verb with a singular noun. What is this agreement called?",
    "options": [
-    "Agreement according to the sense",
     "A solecism",
+    "Agreement according to the sense",
     "Agreement with the nearer subject",
     "Agreement in case"
    ],
-   "answer": 0,
+   "answer": 1,
    "explain": "A collective noun names many, and when its members are thought of separately it may take a plural verb. This is agreement according to the sense (<i>synesis</i>), and it is not a solecism when good usage establishes it."
   },
   {
@@ -273,12 +273,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "In formal usage, which word completes “It was ___ who rang the bell”?",
    "options": [
-    "“she”",
     "“her”",
     "“hers”",
+    "“she”",
     "“herself”"
    ],
-   "answer": 0,
+   "answer": 2,
    "explain": "After the verb “to be,” a predicate pronoun takes the subjective case in formal usage, as in “It is I,” so the form is “she.” Ordinary speech often says “It was her.”"
   },
   {
@@ -288,12 +288,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "Why do the adjective and its noun agree, according to Thomas of Erfurt?",
    "options": [
-    "Because it signifies as belonging to its noun",
     "Because the endings of the two words must sound alike",
     "Because custom requires it, and no reason can be given",
-    "Because the adjective comes after the noun"
+    "Because the adjective comes after the noun",
+    "Because it signifies as belonging to its noun"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "The adjective signifies by the mode of adhering to another, so it signifies its quality as belonging to that thing and no other, and the accidents they share must conform. The endings need not sound alike, as <i>nauta bonus</i> shows."
   },
   {
@@ -332,12 +332,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "Which form of the adjective agrees with Latin <i>poēta</i> (“poet”) as the subject of a sentence?",
    "options": [
-    "<i>nōtus</i>",
     "<i>nōta</i>",
     "<i>nōtum</i>",
+    "<i>nōtus</i>",
     "<i>nōtī</i>"
    ],
-   "answer": 0,
+   "answer": 2,
    "explain": "<i>Poēta</i> ends in <i>-a</i> but names a man, so it is masculine, and the adjective takes the masculine nominative singular: <i>poēta nōtus</i>, “a well-known poet.”"
   },
   {
@@ -388,12 +388,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "In Latin <i>servī quōs dominus vocāvit</i> (“the slaves whom the master called”), why is <i>quōs</i> masculine plural?",
    "options": [
-    "Because its antecedent <i>servī</i> is",
     "Because <i>dominus</i> is masculine",
     "Because it is the object of <i>vocāvit</i>",
+    "Because its antecedent <i>servī</i> is",
     "Because relatives are always plural"
    ],
-   "answer": 0,
+   "answer": 2,
    "explain": "A relative takes the gender and number of its antecedent, <i>servī</i>, which is masculine plural. Its case, accusative, comes from its own clause, where it is the object of <i>vocāvit</i>."
   },
   {
@@ -403,12 +403,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "In which accident does an English adjective agree with its noun?",
    "options": [
-    "Only in the demonstratives",
     "In number, as Latin adjectives do",
     "In gender, in nouns that name persons",
-    "In case, as the pronouns do"
+    "In case, as the pronouns do",
+    "Only in the demonstratives"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "English adjectives do not change their form: “a small cottage,” “small cottages.” Only the demonstratives agree, in number: “this book,” “these books.”"
   },
   {
@@ -418,12 +418,12 @@ ARS.exercises['v.ex.agreement'] = {
    "type": "mc",
    "prompt": "“The team are changing into their boots.” Why is the plural verb not a solecism in British usage?",
    "options": [
-    "Because “team” is plural in form",
     "Because the verb follows the sense",
+    "Because “team” is plural in form",
     "Because the nearer subject is plural",
     "Because British usage has no agreement"
    ],
-   "answer": 1,
+   "answer": 0,
    "explain": "“Team” is a collective noun, singular in form but naming many. When the members are thought of separately, good usage allows the verb to agree with the sense; American usage prefers “The team is.”"
   }
  ]

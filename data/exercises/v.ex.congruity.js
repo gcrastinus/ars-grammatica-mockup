@@ -78,11 +78,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "Which of Priscian’s two conditions does “the silver lamp” fail?",
    "options": [
     "A fitting arrangement of words",
-    "A complete sense",
     "Both conditions",
+    "A complete sense",
     "Neither condition"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "The words fit together, an adjective with its noun, so the arrangement is fitting. But nothing is said about the lamp, so the sense is not complete."
   },
   {
@@ -94,10 +94,10 @@ ARS.exercises['v.ex.congruity'] = {
    "options": [
     "A complete sense",
     "Both conditions",
-    "A fitting arrangement",
-    "Neither, because it says something"
+    "Neither, because it says something",
+    "A fitting arrangement"
    ],
-   "answer": 2,
+   "answer": 3,
    "explain": "Something is said about the lamps, so the sense is complete, but the plural subject “lamps” does not fit the singular verb “shines.” So the arrangement is not fitting: the construction is incongruous."
   },
   {
@@ -142,11 +142,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "Which art judges whether “Lead floats on water” is true?",
    "options": [
     "Grammar",
-    "Logic",
     "Neither, because the sentence is incongruous",
+    "Logic",
     "Rhetoric"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "The sentence is congruous and complete, and grammar judges only that. Whether what it says is true is a question for logic; in fact it is false."
   },
   {
@@ -157,11 +157,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "“If the fog lifts” has a subject and a verb. Why is it incomplete?",
    "options": [
     "Because the verb does not agree with its subject",
-    "Because “if” leaves the hearer expecting more",
     "Because it has no object",
-    "Because what it says is false"
+    "Because what it says is false",
+    "Because “if” leaves the hearer expecting more"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "The words fit, so the construction is congruous; but “if” makes the hearer expect something to follow, so the sense is not complete by itself."
   },
   {
@@ -171,12 +171,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account of the four causes of a construction, what is the material cause?",
    "options": [
-    "The union of the words into one construction",
     "The words that are arranged",
+    "The union of the words into one construction",
     "The mind of the speaker who arranges them",
     "The expression of the speaker’s thought"
    ],
-   "answer": 1,
+   "answer": 0,
    "explain": "The material cause is what the construction is made of: the words that are arranged. Their union is the formal cause, the speaker’s mind and the modes of signifying the efficient cause, and the expression of the thought the final cause."
   },
   {
@@ -215,12 +215,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "“The silver bell rang” is a sentence. Which two conditions does it meet?",
    "options": [
-    "Fitting arrangement and complete sense",
     "A true statement and a fitting arrangement",
     "A noun and an adjective",
-    "A complete sense and a pleasing sound"
+    "A complete sense and a pleasing sound",
+    "Fitting arrangement and complete sense"
    ],
-   "answer": 0,
+   "answer": 3,
    "explain": "Priscian defines the sentence as a fitting arrangement of words showing a complete sense. “The silver bell rang” meets both. Truth is a further question, which belongs to logic."
   },
   {
@@ -230,12 +230,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "Is Latin <i>equī currit</i> (“the horses runs”) congruous?",
    "options": [
+    "No; subject and verb do not fit",
     "Yes, because both words are Latin",
     "Yes, because the sense can be guessed",
-    "No; subject and verb do not fit",
     "No, because it has no object"
    ],
-   "answer": 2,
+   "answer": 0,
    "explain": "<i>Equī</i> is plural and <i>currit</i> singular, so the subject and the verb do not fit, and the construction is incongruous. Congruity is not decided by whether the words are Latin or whether the sense can be guessed."
   },
   {
@@ -264,11 +264,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "In Latin <i>Cantat</i> (“she sings”), where is the subject?",
    "options": [
     "There is none, so the sentence is incomplete",
-    "It is shown by the ending of the verb",
     "It is the object of the verb",
+    "It is shown by the ending of the verb",
     "It must come from the next sentence"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "In Latin the subject may be contained in the verb, and the ending <i>-t</i> shows the third person singular. So the predicate is expressed, and the subject is shown only by the ending; the sentence is complete."
   },
   {
@@ -279,11 +279,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "“Fish climb trees” is congruous and complete. What does that settle about it?",
    "options": [
     "That it is true",
-    "That it can be true or false",
     "That it is false, since fish do not climb",
-    "Nothing at all"
+    "Nothing at all",
+    "That it can be true or false"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "Congruity is the condition of truth or falsity, but it does not decide which. Grammar has done its work; logic must judge whether it is true, and here it is false."
   },
   {
@@ -293,12 +293,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "In logic, what is the subject term of “Every oak is tall”?",
    "options": [
+    "“oak”",
     "“every oak”",
     "“is tall”",
-    "“oak”",
     "“tall”"
    ],
-   "answer": 2,
+   "answer": 0,
    "explain": "Logic takes the terms of the statement, joined by “is”: the subject term is “oak” and the predicate term “tall.” Grammar takes the subject as “every oak” and the predicate as “is tall.”"
   },
   {
@@ -309,11 +309,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "In “The ice melts,” what is the final cause of the construction, according to Thomas of Erfurt?",
    "options": [
     "The words “the ice melts”",
-    "Their union into one sentence",
     "That the hearer understands that the ice melts",
+    "Their union into one sentence",
     "The modes of signifying of the noun and the verb"
    ],
-   "answer": 2,
+   "answer": 1,
    "explain": "The final cause is the end for which the construction is made: to express the speaker’s thought, so that the hearer understands that the ice melts. The words are the matter, and their union is the form."
   },
   {
@@ -352,12 +352,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "Latin <i>sī nauta venit</i> (“if the sailor comes”) is congruous. Is it complete?",
    "options": [
-    "Yes, because it is congruous",
     "No; <i>sī</i> leaves it unfinished",
+    "Yes, because it is congruous",
     "No, because it has no verb",
     "Yes, because subject and verb agree"
    ],
-   "answer": 1,
+   "answer": 0,
    "explain": "The words fit, but <i>sī</i> (“if”) leaves the sense unfinished, so the hearer expects a main clause. A dependent clause can be well formed and still not complete by itself."
   },
   {
@@ -368,11 +368,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "What is wrong with “The <b>pilots</b> steers the ship”?",
    "options": [
     "The sense is not complete",
-    "Nothing; it is correct",
     "Subject and verb do not fit",
+    "Nothing; it is correct",
     "The object should come before the verb"
    ],
-   "answer": 2,
+   "answer": 1,
    "explain": "The plural subject “pilots” does not fit the singular verb “steers,” so the construction is incongruous. The sense would be complete if the parts fitted: “The pilots steer the ship.”"
   },
   {
@@ -400,11 +400,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "Which of these questions belongs to grammar and not to logic?",
    "options": [
     "Is “Snow is black” true?",
-    "Is “Snow are white” correctly formed?",
     "Does “Snow is white” follow from another statement?",
-    "Is snow a substance?"
+    "Is snow a substance?",
+    "Is “Snow are white” correctly formed?"
    ],
-   "answer": 1,
+   "answer": 3,
    "explain": "Grammar asks whether a sentence is correctly formed and complete: “Snow are white” is not, because the singular subject does not fit the plural verb. Whether a statement is true, or follows from another, is a question for logic."
   },
   {
@@ -414,12 +414,12 @@ ARS.exercises['v.ex.congruity'] = {
    "type": "mc",
    "prompt": "Which of these is incongruous?",
    "options": [
+    "“The tall poplars sways”",
     "“The tall poplars sway in the wind”",
     "“The tall poplar sways”",
-    "“when the poplars sway”",
-    "“The tall poplars sways”"
+    "“when the poplars sway”"
    ],
-   "answer": 3,
+   "answer": 0,
    "explain": "In “The tall poplars sways” the plural subject does not fit the singular verb. “when the poplars sway” fits, but it is incomplete; the other two fit and are complete."
   },
   {
@@ -445,11 +445,11 @@ ARS.exercises['v.ex.congruity'] = {
    "prompt": "No basilisk exists. Is “The basilisk stares” congruous and complete?",
    "options": [
     "No, because it names nothing that exists",
-    "Yes; existence is another question",
     "No, because it is false",
+    "Yes; existence is another question",
     "Yes, because it is true"
    ],
-   "answer": 1,
+   "answer": 2,
    "explain": "The words fit and the sense is finished, so the sentence is congruous and complete, whether or not anything answers to “basilisk.” Whether it exists is a question for logic and metaphysics, not for grammar."
   }
  ]
