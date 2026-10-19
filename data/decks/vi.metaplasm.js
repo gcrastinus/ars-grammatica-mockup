@@ -19,38 +19,44 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'adding',
   title: 'Metaplasms that add',
-  body: `<p>Three metaplasms add a letter or syllable to a word:<br><strong>prosthesis</strong> (Greek, “putting before”) adds at the beginning: Latin <i>gnātō</i> for <i>nātō</i> (“to the son”); English poetry has “adown” for “down”;<br><strong>epenthesis</strong> (“putting in”) adds in the middle: Latin <i>relliquiās</i> for <i>reliquiās</i> (“remains”), with a doubled <i>l</i> that lengthens the first syllable;<br><strong>paragoge</strong> (“leading past”) adds at the end: Latin <i>potestur</i> for <i>potest</i> (“is able”).</p>
+  body: `<p>Three metaplasms add a letter or syllable to a word:</p>
+<p><strong>prosthesis</strong> (Greek, “putting before”) adds at the beginning: Latin <i>gnātō</i> for <i>nātō</i> (“to the son”); English poetry has “adown” for “down”;<br><strong>epenthesis</strong> (“putting in”) adds in the middle: Latin <i>relliquiās</i> for <i>reliquiās</i> (“remains”), with a doubled <i>l</i> that lengthens the first syllable;<br><strong>paragoge</strong> (“leading past”) adds at the end: Latin <i>potestur</i> for <i>potest</i> (“is able”).</p>
 <p>The added letter or syllable usually serves the meter, by lengthening a syllable or adding one. So in <i>relliquiās</i> Virgil makes the first syllable long by position, which the meter requires.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
 { id: 'removing',
   title: 'Metaplasms that remove',
-  body: `<p>Three metaplasms remove a letter or syllable:<br><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gainst” for “against”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
+  body: `<p>Three metaplasms remove a letter or syllable:</p>
+<p><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gainst” for “against”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
 <p>These are the metaplasms most often met in English poetry, because English verse, as we saw in Section II, counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word. In prose the same shortened forms would be barbarisms, or at least informal, as “’tis” now is.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
   qpTodo: `Metaplasms of adding and removing: which change has been made in a given poetic form (“ne’er,” “’tis,” “ope,” “adown”; <i>temnō</i>, <i>relliquiās</i>), and what is the regular form.` },
 
 { id: 'quantity',
   title: 'Metaplasms of quantity',
-  body: `<p>Two metaplasms change the quantity of a syllable:<br><strong>ectasis</strong> (Greek, “stretching out”) makes a short syllable long, as Virgil lengthens the first syllable of <i>Italiam</i> in the second line of the <i>Aeneid</i>, <i>Italiam fato profugus</i>; the first syllable of <i>Italia</i> is naturally short (<i>Ĭtalia</i>), but the word could not stand in a hexameter unless it were made long (<i>Ītaliam</i>). Donatus gives this example and notes that <i>Italia</i> should be pronounced with its first syllable short (<i>cum Italia correpte dici debeat</i>);<br><strong>systole</strong> (“drawing together”) makes a long syllable short, as in Virgil’s <i>aquosus Orion</i> (<i>Aeneid</i> IV.52), where the first syllable of <i>Orion</i>, which ought to be long (<i>Ōrīōn</i>), is made short. This also is Donatus’s example.</p>
+  body: `<p>Two metaplasms change the quantity of a syllable:</p>
+<p><strong>ectasis</strong> (Greek, “stretching out”) makes a short syllable long, as Virgil lengthens the first syllable of <i>Italiam</i> in the second line of the <i>Aeneid</i>, <i>Italiam fato profugus</i>; the first syllable of <i>Italia</i> is naturally short (<i>Ĭtalia</i>), but the word could not stand in a hexameter unless it were made long (<i>Ītaliam</i>). Donatus gives this example and notes that <i>Italia</i> should be pronounced with its first syllable short (<i>cum Italia correpte dici debeat</i>);<br><strong>systole</strong> (“drawing together”) makes a long syllable short, as in Virgil’s <i>aquosus Orion</i> (<i>Aeneid</i> IV.52), where the first syllable of <i>Orion</i>, which ought to be long (<i>Ōrīōn</i>), is made short. This also is Donatus’s example.</p>
 <p>These metaplasms belong to the quantitative verse of Latin and Greek, which we studied in Section II. They show that even the quantity of a syllable, which is fixed in ordinary speech, may be changed by the poet when the meter requires it, and that the grammarian who scans a line must know both the regular quantity and the licenses.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4 (the examples checked against the Latin); Virgil, <i>Aeneid</i> I.2, IV.52.` },
 
 { id: 'syllables',
   title: 'Metaplasms that divide or join syllables',
-  body: `<p>Two metaplasms change the number of syllables without adding or removing letters:<br><strong>diaeresis</strong> (Greek, “division”) divides one syllable into two: Ennius’s <i>rex Albai Longai</i> (as Donatus quotes it) for <i>Albae Longae</i> (“king of Alba Longa”), Donatus’s example, where the diphthong <i>ae</i> is pronounced as two vowels;<br><strong>episynaloephe</strong> (“joining together”) makes two syllables into one, as when <i>Phaethōn</i> is pronounced in two syllables instead of three.</p>
+  body: `<p>Two metaplasms change the number of syllables without adding or removing letters:</p>
+<p><strong>diaeresis</strong> (Greek, “division”) divides one syllable into two: Ennius’s <i>rex Albai Longai</i> (as Donatus quotes it) for <i>Albae Longae</i> (“king of Alba Longa”), Donatus’s example, where the diphthong <i>ae</i> is pronounced as two vowels;<br><strong>episynaloephe</strong> (“joining together”) makes two syllables into one, as when <i>Phaethōn</i> is pronounced in two syllables instead of three.</p>
 <p>English poetry uses both. A poet may pronounce “heaven” as one syllable or two, or “-ed” as a separate syllable, as in “belovèd,” where the grave accent marks that the ending is pronounced. The mark used to show that two vowels are pronounced separately, as in “naïve” or “Zoë,” takes its name from the metaplasm: it is called a diaeresis.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase; Ennius, <i>Annales</i> 31 Skutsch (checked against the Tesserae text).` },
 
 { id: 'between-words',
   title: 'Metaplasms between words',
-  body: `<p>Two metaplasms occur where one word meets another:<br><strong>synaloepha</strong> (Greek, “melting together”) is the elision of a final vowel before a word that begins with a vowel;<br><strong>ecthlipsis</strong> (“squeezing out”) is the elision of a final syllable ending in <i>m</i> before a vowel; Donatus’s example is the line of Virgil that we measured in Section II, <i>multum ille</i>, measured <i>mult’ ille</i>.</p>
+  body: `<p>Two metaplasms occur where one word meets another:</p>
+<p><strong>synaloepha</strong> (Greek, “melting together”) is the elision of a final vowel before a word that begins with a vowel;<br><strong>ecthlipsis</strong> (“squeezing out”) is the elision of a final syllable ending in <i>m</i> before a vowel; Donatus’s example is the line of Virgil that we measured in Section II, <i>multum ille</i>, measured <i>mult’ ille</i>.</p>
 <p>We studied these in Section II as elision, the rule by which certain final syllables are not counted in Latin verse. Donatus counts them among the metaplasms because they change how a word is pronounced in the line. English poetry has a similar elision, as we saw in Section II, where the vowel of “the” is dropped before another vowel.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
 { id: 'changing',
   title: 'Metaplasms that change or move letters',
-  body: `<p>The last two metaplasms change or move a letter:<br><strong>antithesis</strong> (Greek, “setting against”) puts one letter in place of another: Latin <i>ollī</i> for <i>illī</i> (“to him”), an old form used by Virgil for its archaic dignity;<br><strong>metathesis</strong> (“transposition”) moves letters to another place: Latin <i>Euandre</i> for <i>Euander</i> (the name Evander).</p>
+  body: `<p>The last two metaplasms change or move a letter:</p>
+<p><strong>antithesis</strong> (Greek, “setting against”) puts one letter in place of another: Latin <i>ollī</i> for <i>illī</i> (“to him”), an old form used by Virgil for its archaic dignity;<br><strong>metathesis</strong> (“transposition”) moves letters to another place: Latin <i>Euandre</i> for <i>Euander</i> (the name Evander).</p>
 <p>So Donatus’s fourteen metaplasms are prosthesis, epenthesis, paragoge, aphaeresis, syncope, apocope, ectasis, systole, diaeresis, episynaloephe, synaloepha, ecthlipsis, antithesis, and metathesis. Each corresponds to one of the four ways of the barbarism (adding, removing, changing, and moving) or to a change of quantity or of syllables, and each is permitted only in verse and for a reason.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
   qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>olli</i>, <i>Albai</i>, <i>multum ille</i>, <i>Ītaliam</i>), and what is the regular form.` },

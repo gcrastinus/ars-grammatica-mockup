@@ -40,7 +40,8 @@ ARS.decks['v.congruity'] = {
 
 { id: 'three-judgments',
   title: 'Three judgments of a construction',
-  body: `<p>Of any group of words, then, we may make one of three judgments:<br><strong>Incongruous</strong>: the parts do not fit with one another, so the construction fails: “The children plays,” <i>līberī lūdit</i>.<br><strong>Congruous but incomplete</strong>: the parts fit, but the sense is not yet complete: “the narrow gate,” “if the children play.”<br><strong>Congruous and complete</strong>: the parts fit, and the sense is complete: “The children play,” <i>līberī lūdunt</i>.</p>
+  body: `<p>Of any group of words, then, we may make one of three judgments:</p>
+<p><strong>Incongruous</strong>: the parts do not fit with one another, so the construction fails: “The children plays,” <i>līberī lūdit</i>.<br><strong>Congruous but incomplete</strong>: the parts fit, but the sense is not yet complete: “the narrow gate,” “if the children play.”<br><strong>Congruous and complete</strong>: the parts fit, and the sense is complete: “The children play,” <i>līberī lūdunt</i>.</p>
 <p>Incongruity is a failure of fit, and incompleteness is a failure to finish; they are two different ways in which a group of words can fall short of a sentence. In Section VI we will see that an incongruous construction is a solecism, an error in the arrangement of words, whereas an incomplete construction is not an error at all if it is used as a part of a larger sentence.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase.`,
   qpTodo: `Analysis: given a short sentence or group of words, judge it incongruous, congruous but incomplete, or congruous and complete, and say why.` },
@@ -61,7 +62,8 @@ ARS.decks['v.congruity'] = {
 { id: 'four-causes',
   title: 'The four causes of a construction',
   body: `<p>Anything that is made can be explained by answering four questions: what it is made of, what makes it the thing it is, what brings it about, and what it is for. A table is made of wood, has the shape of a table, is made by a carpenter, and serves for meals. Aristotle calls the answers to these questions the four causes, the material, the formal, the efficient, and the final cause.</p>
-<p>Thomas of Erfurt explains construction by the same four causes (<i>Grammatica speculativa</i>, on construction):<br>The <strong>material cause</strong> is the words that are arranged.<br>The <strong>formal cause</strong> is their union into one construction.<br>The <strong>efficient cause</strong> is, within the words, their modes of signifying, which fit one word to another, and, outside the words, the mind of the speaker who arranges them.<br>The <strong>final cause</strong> is to express the speaker’s thought, and so to produce a complete sense in the mind of the hearer.</p>
+<p>Thomas of Erfurt explains construction by the same four causes (<i>Grammatica speculativa</i>, on construction):</p>
+<p>The <strong>material cause</strong> is the words that are arranged.<br>The <strong>formal cause</strong> is their union into one construction.<br>The <strong>efficient cause</strong> is, within the words, their modes of signifying, which fit one word to another, and, outside the words, the mind of the speaker who arranges them.<br>The <strong>final cause</strong> is to express the speaker’s thought, and so to produce a complete sense in the mind of the hearer.</p>
 <p>In “The rain falls,” the words are the matter, their union into one sentence is the form, the modes of signifying of noun and verb together with the speaker’s intention bring about that union, and the end is that the hearer understands that the rain falls. Priscian gave the definition of the sentence, and Thomas gives its causes; this is one point at which the modists added something that the Roman grammarians had not worked out.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on construction (Bursill-Hall), in paraphrase.` },
 

@@ -14,7 +14,8 @@ ARS.decks['v.agreement'] = {
 { id: 'what-agreement',
   title: 'What is agreement?',
   body: `<p>We have seen that a construction is congruous when the modes of signifying of its words fit one another. One of the chief ways in which they fit is <strong>agreement</strong> (Latin <i>concordantia</i>), that is, the correspondence of two words in the accidents that they share. When two words agree, the accident is shown in both: in <i>vir prūdēns</i> (“a prudent man”), the adjective is masculine, singular, and nominative because <i>vir</i> is.</p>
-<p>Grammarians traditionally name three agreements, sometimes called the three concords:<br>an <strong>adjective</strong> (or participle) agrees with its noun in gender, number, and case;<br>a <strong>verb</strong> agrees with its subject in person and number;<br>a <strong>relative pronoun</strong> agrees with its antecedent in gender and number.<br>We saw each of these in Section III, with the adjective, the verb, and the pronoun. Here we study them as relations of construction.</p>`,
+<p>Grammarians traditionally name three agreements, sometimes called the three concords:</p>
+<p>an <strong>adjective</strong> (or participle) agrees with its noun in gender, number, and case;<br>a <strong>verb</strong> agrees with its subject in person and number;<br>a <strong>relative pronoun</strong> agrees with its antecedent in gender and number.<br>We saw each of these in Section III, with the adjective, the verb, and the pronoun. Here we study them as relations of construction.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 280–281, in paraphrase.` },
 
 { id: 'adjective-noun',
@@ -47,7 +48,8 @@ ARS.decks['v.agreement'] = {
 
 { id: 'english-hard-cases',
   title: 'Agreement in English: some difficult cases',
-  body: `<p>English agreement is simple in form but has some difficult cases:<br>A phrase that stands between the subject and the verb does not change the subject: “The flock of starlings <em>is</em> loud,” because the subject is “flock,” not “starlings.”<br>Two subjects joined by “and” are plural: “The king and the queen <em>are</em> here.”<br>With “or,” “nor,” “either … or,” and “neither … nor,” the verb agrees with the nearer subject: “Neither the king nor the queens <em>are</em> here”; “Neither the queens nor the king <em>is</em> here.”<br>In sentences beginning “there is” and “there are,” the verb agrees with the real subject, which follows it: “There <em>are</em> two gates.”<br>“Each,” “every,” “either,” and “neither” used as subjects are singular: “Each of the players <em>is</em> ready.”</p>
+  body: `<p>English agreement is simple in form but has some difficult cases:</p>
+<p>A phrase that stands between the subject and the verb does not change the subject: “The flock of starlings <em>is</em> loud,” because the subject is “flock,” not “starlings.”<br>Two subjects joined by “and” are plural: “The king and the queen <em>are</em> here.”<br>With “or,” “nor,” “either … or,” and “neither … nor,” the verb agrees with the nearer subject: “Neither the king nor the queens <em>are</em> here”; “Neither the queens nor the king <em>is</em> here.”<br>In sentences beginning “there is” and “there are,” the verb agrees with the real subject, which follows it: “There <em>are</em> two gates.”<br>“Each,” “every,” “either,” and “neither” used as subjects are singular: “Each of the players <em>is</em> ready.”</p>
 <p>In each case the rule follows from finding the word that is really the subject, and then making the verb agree with it, as Latin always does.</p>`,
   src: `Standard English grammars, in paraphrase.`,
   qpTodo: `Analysis: in a given English sentence with an intervening phrase or a compound subject, find the subject and say which form of the verb agrees with it.` },

@@ -46,7 +46,8 @@ ARS.decks['iv.etymology'] = {
 
 { id: 'comparative',
   title: 'Comparative etymology',
-  body: `<p>In the nineteenth century scholars found a more reliable method. By comparing the oldest forms of related languages, they found that sounds change according to regular patterns, which they called <strong>sound laws</strong>. The best known is the law named after Jacob Grimm (1822), which describes how certain consonants of the parent language changed in the Germanic languages. So where Latin has <i>p</i>, English has <i>f</i>; where Latin has <i>t</i>, English has <i>th</i>; where Latin has <i>c</i> (that is, <i>k</i>), English has <i>h</i>:<br><i>pēs</i> and “foot”; <i>piscis</i> and “fish”;<br><i>trēs</i> and “three”; <i>tenuis</i> and “thin”;<br><i>cornū</i> and “horn”; <i>centum</i> and “hundred.”</p>
+  body: `<p>In the nineteenth century scholars found a more reliable method. By comparing the oldest forms of related languages, they found that sounds change according to regular patterns, which they called <strong>sound laws</strong>. The best known is the law named after Jacob Grimm (1822), which describes how certain consonants of the parent language changed in the Germanic languages. So where Latin has <i>p</i>, English has <i>f</i>; where Latin has <i>t</i>, English has <i>th</i>; where Latin has <i>c</i> (that is, <i>k</i>), English has <i>h</i>:</p>
+<p><i>pēs</i> and “foot”; <i>piscis</i> and “fish”;<br><i>trēs</i> and “three”; <i>tenuis</i> and “thin”;<br><i>cornū</i> and “horn”; <i>centum</i> and “hundred.”</p>
 <p>Because these changes are regular, an etymology must now account for every sound of the word by such laws, not by a mere likeness. This is why the modern etymologist can show that “foot” and <i>pēs</i> are the same word, although they differ in sound, and that English “have” is not related to Latin <i>habēre</i>, although they look alike.</p>`,
   src: `Standard histories of the Indo-European languages, in paraphrase.` },
 

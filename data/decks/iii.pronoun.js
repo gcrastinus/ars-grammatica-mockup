@@ -12,7 +12,8 @@ ARS.decks['iii.pronoun'] = {
 
 { id: 'accidents',
   title: 'The accidents of the pronoun',
-  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents (<i>Ars minor</i>):<br><strong>quality</strong> (<i>qualitas</i>);<br><strong>gender</strong> (<i>genus</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>);<br><strong>person</strong> (<i>persona</i>);<br><strong>case</strong> (<i>casus</i>).</p>
+  body: `<p>We have seen that the pronoun is put in place of a noun and signifies almost as much as the noun, because it refers to a thing without saying what kind of thing it is. Donatus gives the pronoun six accidents (<i>Ars minor</i>):</p>
+<p><strong>quality</strong> (<i>qualitas</i>);<br><strong>gender</strong> (<i>genus</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>);<br><strong>person</strong> (<i>persona</i>);<br><strong>case</strong> (<i>casus</i>).</p>
 <p>Four of these are accidents of the noun as well, and they have the same meaning here: gender, number, figure, and case. So Latin <i>ille</i>, <i>illa</i>, <i>illud</i> (“that”) has three genders, singular and plural numbers, and six cases, as an adjective does, and <i>quīcumque</i> (“whoever”) is compound in figure. The two accidents that are new are quality, which for the pronoun means something different from the quality of the noun, and person.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the pronoun.` },
 

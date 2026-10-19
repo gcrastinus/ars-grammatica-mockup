@@ -18,13 +18,15 @@ ARS.decks['iii.preposition'] = {
 
 { id: 'accusative',
   title: 'Prepositions with the accusative',
-  body: `<p>Most Latin prepositions take the accusative. Among the most common are these:<br><i>ad</i> (“to,” “toward”): <i>ad portam</i>, “to the gate”;<br><i>ante</i> (“before”): <i>ante bellum</i>, “before the war”;<br><i>apud</i> (“at the house of,” “among”): <i>apud Ciceronem</i>, “at Cicero’s house”;<br><i>contrā</i> (“against”): <i>contrā hostēs</i>, “against the enemy”;<br><i>inter</i> (“between,” “among”): <i>inter amīcōs</i>, “among friends”;<br><i>per</i> (“through”): <i>per agrōs</i>, “through the fields”;<br><i>post</i> (“after,” “behind”): <i>post cēnam</i>, “after dinner”;<br><i>trāns</i> (“across”): <i>trāns mare</i>, “across the sea.”</p>
+  body: `<p>Most Latin prepositions take the accusative. Among the most common are these:</p>
+<p><i>ad</i> (“to,” “toward”): <i>ad portam</i>, “to the gate”;<br><i>ante</i> (“before”): <i>ante bellum</i>, “before the war”;<br><i>apud</i> (“at the house of,” “among”): <i>apud Ciceronem</i>, “at Cicero’s house”;<br><i>contrā</i> (“against”): <i>contrā hostēs</i>, “against the enemy”;<br><i>inter</i> (“between,” “among”): <i>inter amīcōs</i>, “among friends”;<br><i>per</i> (“through”): <i>per agrōs</i>, “through the fields”;<br><i>post</i> (“after,” “behind”): <i>post cēnam</i>, “after dinner”;<br><i>trāns</i> (“across”): <i>trāns mare</i>, “across the sea.”</p>
 <p>Many of these have given English words through their use in compounds: “antebellum,” “contradict,” “international,” “perennial,” “postwar,” and “transport.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 220.` },
 
 { id: 'ablative',
   title: 'Prepositions with the ablative',
-  body: `<p>A smaller group of Latin prepositions takes the ablative:<br><i>ā</i> or <i>ab</i> (“from,” “away from,” “by”): <i>ab urbe</i>, “from the city”;<br><i>cum</i> (“with”): <i>cum sorōre</i>, “with a sister”;<br><i>dē</i> (“down from,” “concerning”): <i>dē bellō</i>, “about the war”;<br><i>ē</i> or <i>ex</i> (“out of”): <i>ex urbe</i>, “out of the city”;<br><i>prō</i> (“in front of,” “on behalf of”): <i>prō patriā</i>, “for one’s country”;<br><i>sine</i> (“without”): <i>sine metū</i>, “without fear.”</p>
+  body: `<p>A smaller group of Latin prepositions takes the ablative:</p>
+<p><i>ā</i> or <i>ab</i> (“from,” “away from,” “by”): <i>ab urbe</i>, “from the city”;<br><i>cum</i> (“with”): <i>cum sorōre</i>, “with a sister”;<br><i>dē</i> (“down from,” “concerning”): <i>dē bellō</i>, “about the war”;<br><i>ē</i> or <i>ex</i> (“out of”): <i>ex urbe</i>, “out of the city”;<br><i>prō</i> (“in front of,” “on behalf of”): <i>prō patriā</i>, “for one’s country”;<br><i>sine</i> (“without”): <i>sine metū</i>, “without fear.”</p>
 <p>The forms <i>ā</i> and <i>ē</i> are used before consonants, and <i>ab</i> and <i>ex</i> before vowels and often before consonants as well. We have seen that the doer in a passive sentence is expressed by <i>ā</i> or <i>ab</i> with the ablative: <i>laudātur ā puellā</i>, “he is praised by the girl.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 220.` },
 
