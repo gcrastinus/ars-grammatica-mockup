@@ -99,14 +99,14 @@ ARS.decks['i.imposition'] = {
       options: [`The first imposition, because it signifies a thing in the world`, `The second imposition, because it signifies a word as a word`, `Neither, because it signifies by nature`, `Both, because it signifies how often something happens`],
       answer: 1,
       explain: `“Adverb” was imposed to signify words considered as words, and here it signifies the word “seldom.” Such names belong to the second imposition. Names like “horse” and “stone,” which signify things, belong to the first.` },
-    { prompt: `In “The pine is tall,” the word “pine” is a name of which imposition?`,
+    { prompt: `In “The birch is tall,” the word “birch” is a name of which imposition?`,
       options: [`The second imposition, because it is a noun`, `Neither, because it is part of a sentence`, `The first imposition, because it signifies a tree`, `The second imposition, because it can be written`],
       answer: 2,
-      explain: `“Pine” was imposed to signify a kind of tree, and here it signifies that tree; so it is a name of the first imposition. The name “noun,” which would signify the word “pine” as a word, belongs to the second.` },
+      explain: `“Birch” was imposed to signify a kind of tree, and here it signifies that tree; so it is a name of the first imposition. The name “noun,” which would signify the word “birch” as a word, belongs to the second.` },
     { prompt: `Which of these words is a name of the second imposition?`,
-      options: [`“Vowel”`, `“Copper”`, `“Sour”`, `“Gallop”`],
+      options: [`“Adjective”`, `“Copper”`, `“Sour”`, `“Gallop”`],
       answer: 0,
-      explain: `“Vowel” signifies a kind of letter, and so it signifies parts of words as such; it is a name of the second imposition. “Copper,” “sour,” and “gallop” signify a metal, a taste, and a motion, and so they are names of the first imposition.` }
+      explain: `“Adjective” signifies a kind of word, and so it signifies words as words; it is a name of the second imposition. “Copper,” “sour,” and “gallop” signify a metal, a taste, and a motion, and so they are names of the first imposition.` }
   ]}},
 
 { id: 'grammar-second',
