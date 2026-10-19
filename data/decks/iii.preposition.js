@@ -1,5 +1,5 @@
 /* III.12 The Preposition [iii.preposition]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 7 panels, 2 question points.
    Live material drawn on: DECKS.govern (4 panels: prepositions and their cases), DECKS.latpos. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -35,7 +35,20 @@ ARS.decks['iii.preposition'] = {
   body: `<p>A few prepositions take either the accusative or the ablative, with a difference of meaning. The most important are <i>in</i> and <i>sub</i>. With the accusative they signify motion toward a place: <i>in urbem</i>, “into the city”; <i>sub montem</i>, “to the foot of the mountain.” With the ablative they signify rest in a place: <i>in urbe</i>, “in the city”; <i>sub monte</i>, “at the foot of the mountain.”</p>
 <p>So the case after <i>in</i> decides whether someone is going into the city or is already in it, a difference that English shows by the two prepositions “into” and “in.” This is a clear example of how case and preposition together signify a relation that neither signifies alone, and it shows why the preposition’s one accident is case.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 220–221, in paraphrase.`,
-  qpTodo: `Prepositions and case: which case does a given preposition take (<i>ad</i>, <i>cum</i>, <i>ex</i>, <i>in</i>), and what is the difference between <i>sub aquam</i> and <i>sub aquā</i>.` },
+  qp: { id: 'q-both-cases', variants: [
+    { prompt: `Which case does the Latin preposition <i>ex</i> (“out of”) take?`,
+      options: [`The accusative`, `The ablative`, `The genitive`, `The dative`],
+      answer: 1,
+      explain: `<i>Ex</i> (or <i>ē</i> before consonants) is one of the prepositions that take the ablative: <i>ex urbe</i>, “out of the city.”` },
+    { prompt: `What is the difference between Latin <i>sub aquam</i> and <i>sub aquā</i>?`,
+      options: [`<i>Sub aquam</i> is motion under the water, and <i>sub aquā</i> rest there`, `They mean the same thing`, `<i>Sub aquam</i> is rest under the water, and <i>sub aquā</i> motion`, `<i>Sub aquā</i> is plural`],
+      answer: 0,
+      explain: `<i>Sub</i>, like <i>in</i>, takes the accusative for motion toward and the ablative for rest. So <i>sub aquam</i> means going under the water, and <i>sub aquā</i> being under it.` },
+    { prompt: `Which of these means “into the wood,” Latin <i>in silvam</i> or <i>in silvā</i>?`,
+      options: [`<i>in silvā</i>`, `Both`, `<i>in silvam</i>`, `Neither`],
+      answer: 2,
+      explain: `<i>In</i> with the accusative signifies motion toward, so <i>in silvam</i> is “into the wood.” <i>In silvā</i>, with the ablative, is “in the wood,” of someone already there. English shows the same difference by “into” and “in.”` }
+  ]} },
 
 { id: 'english',
   title: 'English prepositions',
@@ -48,7 +61,20 @@ ARS.decks['iii.preposition'] = {
   body: `<p>English “inscribe,” “describe,” and “prescribe” are made from the same Latin verb with three different prepositions joined to its beginning, and each preposition changes the meaning. Prepositions are used, then, not only as separate words but in <strong>composition</strong>, that is, joined to the beginning of other words. So <i>scrībō</i> (“I write”) with <i>in</i> becomes <i>īnscrībō</i> (“I write upon”), from which English “inscribe” comes; <i>pōnō</i> (“I place”) with <i>dē</i> becomes <i>dēpōnō</i> (“I lay aside”); and <i>dūcō</i> (“I lead”) with <i>ab</i> becomes <i>abdūcō</i> (“I lead away”). This is why Donatus, as we have seen, says that the preposition, placed before other parts of speech, completes, changes, or lessens their meaning (<i>Ars minor</i>).</p>
 <p>In composition the last consonant of the preposition often changes to match the first consonant of the word, a change called <strong>assimilation</strong>: <i>ad</i> + <i>ferō</i> gives <i>afferō</i> (“I bring”), <i>in</i> + <i>mortālis</i> gives <i>immortālis</i> (“immortal”), <i>con</i> + <i>loquor</i> gives <i>colloquor</i> (“I converse”). English keeps the assimilated forms in words such as “affect,” “immortal,” “collect,” and “suppose,” which is why their double consonants are spelled as they are.</p>`,
   src: `Donatus, <i>Ars minor</i>, in paraphrase; Allen and Greenough, <i>New Latin Grammar</i> § 16.`,
-  qpTodo: `Prepositions in composition: of what preposition and word is a given compound made (<i>attingō</i>, <i>illūdō</i>, <i>summittō</i>; “suggest”), and what change has the preposition undergone.` },
+  qp: { id: 'q-composition', variants: [
+    { prompt: `Of what preposition and verb is Latin <i>attingō</i> (“I touch”) made?`,
+      options: [`<i>ad</i> and <i>tangō</i>`, `<i>ā</i> and <i>tangō</i>`, `<i>at</i> and <i>tingō</i>`, `<i>in</i> and <i>tangō</i>`],
+      answer: 0,
+      explain: `<i>Attingō</i> is <i>ad</i> and <i>tangō</i> (“I touch”). The <i>d</i> of <i>ad</i> has become <i>t</i> before the <i>t</i> of the verb, which is assimilation, and the <i>a</i> of <i>tangō</i> becomes <i>i</i> in the compound.` },
+    { prompt: `Latin <i>illūdō</i> (“I mock”) is made from <i>in</i> and <i>lūdō</i> (“I play”). What has happened to the preposition?`,
+      options: [`It has been dropped`, `Its <i>n</i> has become <i>l</i>`, `Its vowel has been lengthened`, `Nothing; it is unchanged`],
+      answer: 1,
+      explain: `The <i>n</i> of <i>in</i> has become <i>l</i> before the <i>l</i> of <i>lūdō</i>. This change of a preposition’s last consonant to match the first consonant of the word is called assimilation, as in <i>immortālis</i>.` },
+    { prompt: `English “suggest” comes from Latin <i>sub</i> and <i>gerō</i> (“I carry”). What has happened to <i>sub</i>?`,
+      options: [`It has lost its vowel`, `It has been replaced by another preposition`, `Nothing; it is unchanged`, `Its <i>b</i> has become <i>g</i>`],
+      answer: 3,
+      explain: `The <i>b</i> of <i>sub</i> has become <i>g</i> before the <i>g</i> of <i>gerō</i>, which is assimilation. That is why “suggest” is spelled with a double <i>g</i>, as “affect” is spelled with a double <i>f</i>.` }
+  ]} },
 
 { id: 'government',
   title: 'The preposition and government',
