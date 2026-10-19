@@ -13,6 +13,13 @@ ARS.languages["lang.vi.la"] = {
    "built": true,
    "title": "Latin Barbarism, Solecism, and Metaplasm",
    "desc": "Donatus’s faults, and the same departures allowed to the poets, in his Latin examples."
+  },
+{
+   "id": "lang.vi.la/vices-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Barbarism and Solecism",
+   "desc": "21 questions."
   }
 
  ]

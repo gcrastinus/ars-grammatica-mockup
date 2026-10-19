@@ -54,7 +54,7 @@ ARS.languages["lang.v.en"] = {
    "kind": "exercise",
    "built": true,
    "title": "Congruity and Completeness",
-   "desc": "7 questions."
+   "desc": "21 questions."
   },
 {
    "id": "lang.v.en/workshop-ex",

@@ -168,6 +168,182 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
     "The argument confuses the past tense with the present"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg11",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““Arrival” is a noun, as “house” is; therefore an arrival stays in one place, as a house does.” What has gone wrong?",
+   "explain": "A noun signifies its thing as something settled that one may talk about. An arrival is a happening. The argument reads that mode of signifying as a mode of being.",
+   "options": [
+    "A happening is taken for a settled thing",
+    "“Arrival” is a verb, so the premise is ungrammatical",
+    "The two words differ in number, so they cannot be compared",
+    "A house is an action, and the conclusion reverses that"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg12",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "“We say “the sunrise woke the birds”; therefore a sunrise is a body that can push.” Choose the error in the inference.",
+   "explain": "“Sunrise” can be the subject of “woke” because a noun can stand as subject. Waking here is said of an event. It does not follow that the event is a body.",
+   "options": [
+    "The sentence has no verb, so nothing is inferred",
+    "An event is treated as a body",
+    "“Birds” is singular, and the verb is plural",
+    "“Sunrise” is an adverb of time"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg13",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "“In “Nobody is wiser than she,” “nobody” is the subject, as “Anna” is. Therefore Nobody is a person.” This treats…",
+   "explain": "“Nobody” quantifies: it says there is no person wiser than she. It fills the subject’s place, as a name does. The argument then treats that place as proof that Nobody is someone.",
+   "options": [
+    "The verb as a noun, and the subject as an adverb",
+    "A plural subject as if it were singular",
+    "A quantifier as if it were a proper name",
+    "An imperative as if it were a statement of fact"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg14",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "“Latin <em>nauta</em> is masculine; therefore a sailor cannot be a woman.” What is taken for what?",
+   "explain": "<em>Nauta</em> is grammatically masculine. That is a fact about the word. The argument reads the gender as the sailor’s sex, and concludes that a sailor cannot be a woman.",
+   "options": [
+    "Grammatical gender, read as the person’s sex",
+    "The verb’s tense, read as the noun’s case",
+    "A solecism of number, read as a true plural",
+    "The Latin word, read as an English adverb"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg15",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““To own” is a verb like “to hit”; therefore owning happens at one moment, as a blow does.” The shared feature is…",
+   "explain": "Both are verbs, so both can be the predicate of a sentence. Owning is a state one is in, and hitting is an act. The same part of speech does not make them the same kind of fact.",
+   "options": [
+    "The noun’s gender, shared by the two verbs",
+    "The verb’s form, shared by a state and an act",
+    "A missing object after each infinitive",
+    "The plural ending on both English verbs"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg16",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““Five” is a noun in “the number five”; therefore five is a substance one could point to.” Choose the mistake.",
+   "explain": "A noun signifies in the manner of something one may talk about as settled. A number is not a body. The argument moves from the part of speech to the kind of being.",
+   "options": [
+    "Five is an adjective, so the premise misnames the part of speech",
+    "The sentence confuses the past tense with the future",
+    "A noun’s manner of signifying is read as a substance",
+    "A number cannot be a noun, so the premise is ungrammatical"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg17",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““Scissors” takes a plural verb; therefore a pair of scissors is several tools.” What has been read as a fact about the thing?",
+   "explain": "The plural form is a fact about the noun. One implement can be named by a plural noun. The argument treats the grammatical number as the number of tools.",
+   "options": [
+    "The plural form of the noun",
+    "The tense of a verb that the sentence does not contain",
+    "The gender of an adjective that is not in the sentence",
+    "A preposition’s government of the object form"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg18",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““To know” takes an object, as “to paint” does; therefore knowing changes the thing known, as painting changes a wall.” What is shared, and then misread?",
+   "explain": "Both verbs can take an object. Painting acts on the wall. Knowing does not change the thing known by having it as an object. The shared construction is not a shared effect.",
+   "options": [
+    "Both verbs are in the past tense, and the past is read as a cause",
+    "The object is read as a thing acted on",
+    "Both words are adjectives, and an adjective is read as a substance",
+    "Neither verb can take an object, so both premises are ungrammatical"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg19",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "“We say “He is tall” and “He is running”; therefore height and running are the same kind of fact, since both use “is.”” Choose the error.",
+   "explain": "“Is” in “is tall” joins a quality to the subject. “Is” in “is running” helps to mark the progressive. The same word does not make a quality and an activity the same kind of fact.",
+   "options": [
+    "“Tall” is a verb, and “running” is a noun",
+    "The first sentence is incongruous in number",
+    "The two uses of “is” are treated as one kind of fact",
+    "Both sentences lack a subject, so neither can be true or false"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg20",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““Unicorn” is a singular noun; therefore there is one unicorn.” What does the argument treat the singular as?",
+   "explain": "Singular number says how the word signifies, one of the kind named, if there is one. It does not say that anything of that kind exists. The argument reads the grammatical number as an existence claim.",
+   "options": [
+    "A claim that one exists",
+    "A plural of the verb “to be”",
+    "A letter added to the stem",
+    "The object form of a pronoun"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:fg21",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "““Death” is a noun; therefore death is something one can meet on the road, as one meets a stone.” The inference moves from…",
+   "explain": "Nouns can name what is not a body. “Death” names the end of a life, signified in the manner of a thing one may talk about. The argument takes that manner for a body in the road.",
+   "options": [
+    "A verb’s tense to the time of day",
+    "From a noun’s manner to a body",
+    "A plural ending to a singular subject",
+    "An imperative to a statement that something exists"
+   ],
+   "answer": 1
   }
  ]
 };
