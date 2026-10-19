@@ -1,5 +1,5 @@
 /* III.5 The Noun I: Kinds, Quality, and Comparison [iii.noun-1]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: in the shared Nouns and
+   Plan (ITEM-LIST.md): 10 panels, 3 question points. Exercise: in the shared Nouns and
    Adjectives set (after III.6).
    Live material drawn on: DECKS.pos (the noun and the adjective under it), DECKS.latpos, DECKS.enacc (comparison). */
 window.ARS = window.ARS || {};
@@ -23,7 +23,20 @@ ARS.decks['iii.noun-1'] = {
   body: `<p>“Athens,” “Homer,” and “the Danube” each name one particular place or person, whereas “town,” “poet,” and “stream” name any member of a kind. So a <strong>proper noun</strong> names one particular person, place, or thing, as also Latin <i>Athēnae</i> (“Athens”) and <i>Hannibal</i>, and a <strong>common noun</strong> names any member of a kind, as also Latin <i>oppidum</i> (“town”), <i>poēta</i> (“poet”), and <i>rīvus</i> (“stream”).</p>
 <p>Donatus calls this distinction the <strong>quality</strong> of the noun: a noun is “either the name of one thing, and is called proper, or the name of many, and is called appellative” (<i>aut enim unius nomen est et proprium dicitur, aut multorum et appellativum</i>; <i>Ars minor</i>). The usual English term for the appellative noun is the <strong>common noun</strong>. In English a proper noun usually begins with a capital letter, but the distinction is one of meaning, not of spelling: “Athens” would be a proper noun even if it were written with a small letter. Common nouns themselves are of several kinds.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the quality of the noun (the Latin; the English in substance).`,
-  qpTodo: `Proper or common: is a given noun (“Rome,” “city,” <i>Tiberis</i>, <i>flūmen</i>) proper or common, and why the capital letter does not decide it.` },
+  qp: { id: 'q-quality', variants: [
+    { prompt: `Is Latin <i>Tiberis</i> (“the Tiber”) a proper or a common noun?`,
+      options: [`Proper, because it names one particular river`, `Common, because there are many rivers`, `Proper, because it begins with a capital letter`, `Common, because it has case`],
+      answer: 0,
+      explain: `<i>Tiberis</i> names one particular river, so it is a proper noun. The capital letter does not decide it: the distinction is one of meaning, not of spelling. Proper and common nouns alike have case.` },
+    { prompt: `Is Latin <i>flūmen</i> (“river”) a proper or a common noun?`,
+      options: [`Proper`, `Common`, `Neither`, `Both`],
+      answer: 1,
+      explain: `<i>Flūmen</i> names any member of a kind, any river, so it is a common (in Donatus’s term, appellative) noun. A proper noun, such as <i>Tiberis</i>, names one particular river.` },
+    { prompt: `If “Rome” were written “rome,” with a small letter, would it still be a proper noun?`,
+      options: [`No, because a proper noun takes a capital letter`, `No, because it would become a common noun`, `Yes, because it still names one particular city`, `Yes, but only in Latin`],
+      answer: 2,
+      explain: `A proper noun names one particular person, place, or thing. In English it usually begins with a capital letter, but the capital is a convention of spelling; the distinction lies in what the noun names.` }
+  ]} },
 
 { id: 'roman-names',
   title: 'The kinds of proper name',
@@ -54,7 +67,20 @@ ARS.decks['iii.noun-1'] = {
   body: `<p>“Peter is tall,” “Peter is taller than Paul,” and “Peter is the tallest of the brothers” say the same quality of Peter in three degrees. This accident of the noun is called <strong>comparison</strong> (<i>comparātiō</i>). The <strong>positive</strong> degree signifies the quality simply: “tall,” <i>clārus</i> (“famous”). The <strong>comparative</strong> signifies more of the quality in one thing than in another: “taller,” <i>clārior</i>. The <strong>superlative</strong> signifies the most of the quality among several things, or a very high degree of it: “tallest,” <i>clārissimus</i>. Latin <i>clārissimus</i> can also mean simply “very famous,” without comparison to others.</p>
 <p>Donatus gives the same three degrees: “the positive, as ‘learned’; the comparative, as ‘more learned’; and the superlative, as ‘most learned’” (<i>positivus, ut doctus; comparativus, ut doctior; superlativus, ut doctissimus</i>; <i>Ars minor</i>). The degrees are formed in regular ways.</p>`,
   src: `Donatus, <i>Ars minor</i>, on comparison (the Latin).`,
-  qpTodo: `The degrees of comparison: which degree is a given form (<i>fortior</i>, “widest,” <i>lātus</i>), and what it signifies.` },
+  qp: { id: 'q-comparison', variants: [
+    { prompt: `Which degree of comparison is Latin <i>fortior</i> (“braver”)?`,
+      options: [`The positive`, `The comparative`, `The superlative`, `None, because it is a substantive`],
+      answer: 1,
+      explain: `<i>Fortior</i> signifies more of the quality, bravery, in one thing than in another, so it is the comparative. The positive is <i>fortis</i> (“brave”) and the superlative <i>fortissimus</i> (“bravest”).` },
+    { prompt: `Which degree of comparison is “widest”?`,
+      options: [`The comparative`, `The positive`, `The superlative`, `None of the three`],
+      answer: 2,
+      explain: `“Widest” signifies the most of the quality among several things, so it is the superlative. “Wide” is the positive and “wider” the comparative.` },
+    { prompt: `Latin <i>lātus</i> means “wide.” What does this positive degree signify?`,
+      options: [`The quality simply`, `More of the quality than in another`, `The most of the quality among several`, `A quality that cannot be compared`],
+      answer: 0,
+      explain: `The positive signifies the quality simply, without comparing one thing with another. The comparative <i>lātior</i> signifies more of it than in another, and the superlative <i>lātissimus</i> the most of it among several.` }
+  ]} },
 
 { id: 'forming',
   title: 'How the degrees are formed',
@@ -68,7 +94,20 @@ ARS.decks['iii.noun-1'] = {
 <p><i>bonus</i>, <i>melior</i>, <i>optimus</i> (“good,” “better,” “best”);<br><i>malus</i>, <i>peior</i>, <i>pessimus</i> (“bad,” “worse,” “worst”);<br><i>magnus</i>, <i>maior</i>, <i>maximus</i> (“great,” “greater,” “greatest”);<br><i>parvus</i>, <i>minor</i>, <i>minimus</i> (“small,” “smaller,” “smallest”).</p>
 <p>English has the same irregularities in its most common adjectives: “good,” “better,” “best”; “bad,” “worse,” “worst”; “much,” “more,” “most”; “little,” “less,” “least.” It is commonly observed that the words used most often are the most likely to keep irregular forms, because they are learned by hearing rather than formed by rule. Many English words come from these Latin forms: “ameliorate,” “optimist,” “pessimist,” “major,” “maximum,” “minor,” and “minimum.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 129, in paraphrase.`,
-  qpTodo: `Irregular comparison: which form completes a series (<i>multus</i>, <i>plūs</i>, …; “many,” “more,” …), and which English word is derived from a given Latin form.` },
+  qp: { id: 'q-irregular', variants: [
+    { prompt: `Which form completes the Latin series <i>multus</i>, <i>plūs</i>, …?`,
+      options: [`<i>multissimus</i>`, `<i>plūrimus</i>`, `<i>plūrior</i>`, `<i>maximus</i>`],
+      answer: 1,
+      explain: `<i>Multus</i> (“much”) is compared irregularly: <i>multus</i>, <i>plūs</i>, <i>plūrimus</i> (“much,” “more,” “most”). <i>Multissimus</i> is what the regular rule would give, but Latin does not use it; <i>maximus</i> belongs to <i>magnus</i>.` },
+    { prompt: `Which form completes the English series “many,” “more,” …?`,
+      options: [`“manier”`, `“much”`, `“most”`, `“more many”`],
+      answer: 2,
+      explain: `“Many” is compared irregularly, “many,” “more,” “most,” like “much.” “Manier” is what the regular rule would give, but English does not use it.` },
+    { prompt: `English “pejorative,” said of a word that makes something sound worse, comes from which Latin form?`,
+      options: [`<i>malus</i>`, `<i>peior</i>`, `<i>pessimus</i>`, `<i>parvus</i>`],
+      answer: 1,
+      explain: `“Pejorative” comes from <i>peior</i> (“worse”), the comparative in the irregular series <i>malus</i>, <i>peior</i>, <i>pessimus</i>. A pejorative word makes what it names sound worse.` }
+  ]} },
 
 { id: 'which-compared',
   title: 'Which nouns admit comparison?',
