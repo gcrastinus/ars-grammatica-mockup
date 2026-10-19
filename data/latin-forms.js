@@ -241,8 +241,8 @@
     { nom: 'genū', stem: 'gen', d: 'd4n', g: 'n', gloss: 'knee' },
     { nom: 'rēs', stem: 'r', d: 'd5', g: 'f', gloss: 'thing, matter' },
     { nom: 'diēs', stem: 'di', d: 'd5', g: 'm', gloss: 'day' },
-    { nom: 'fidēs', stem: 'fid', d: 'd5', g: 'f', gloss: 'faith, trust' },
-    { nom: 'speciēs', stem: 'speci', d: 'd5', g: 'f', gloss: 'appearance, species' }
+    { nom: 'fidēs', stem: 'fid', d: 'd5', g: 'f', gloss: 'faith, trust', sgOnly: true },
+    { nom: 'speciēs', stem: 'speci', d: 'd5', g: 'f', gloss: 'appearance, species', plCases: ['nom', 'acc'] }
   ];
 
   const LAT_VERBS = [
@@ -318,9 +318,15 @@
   function caseNum(cs, num) {
     return CASE_NAME[cs] + ' ' + (num === 'sg' ? 'singular' : 'plural');
   }
+  function nounHasForm(entry, cs, num) {
+    if (entry.sgOnly && num !== 'sg') return false;
+    if (num === 'pl' && entry.plCases && entry.plCases.indexOf(cs) < 0) return false;
+    return true;
+  }
   function nounSlots(entry) {
     const out = [];
     NUMS.forEach(num => CASES.forEach(cs => {
+      if (!nounHasForm(entry, cs, num)) return;
       out.push({ form: nounEnding(entry, cs, num), cs: cs, num: num });
     }));
     return out;
@@ -821,7 +827,7 @@
     { w: 'dominus', syll: ['do', 'mi', 'nus'], div: 'do-mi-nus', longPen: false, acc: 0, why: 'There are three syllables, and the penult ' + em('mi') + ' is short, so the accent falls on the antepenult.' },
     { w: 'nātūra', syll: ['nā', 'tū', 'ra'], div: 'nā-tū-ra', longPen: true, acc: 1, why: 'The penult ' + em('tū') + ' is long by nature, so the accent falls on it.' },
     { w: 'populus', syll: ['po', 'pu', 'lus'], div: 'po-pu-lus', longPen: false, acc: 0, why: 'The penult ' + em('pu') + ' is short, so the accent falls on the antepenult.' },
-    { w: 'insula', syll: ['in', 'su', 'la'], div: 'in-su-la', longPen: false, acc: 0, why: 'The penult ' + em('su') + ' is short, so the accent falls on the antepenult.' },
+    { w: 'īnsula', syll: ['īn', 'su', 'la'], div: 'īn-su-la', longPen: false, acc: 0, why: 'The penult ' + em('su') + ' is short, so the accent falls on the antepenult.' },
     { w: 'fortūna', syll: ['for', 'tū', 'na'], div: 'for-tū-na', longPen: true, acc: 1, why: 'The penult ' + em('tū') + ' is long, so the accent falls on it.' },
     { w: 'puella', syll: ['pu', 'el', 'la'], div: 'pu-el-la', longPen: true, acc: 1, why: 'The penult ' + em('el') + ' is long by position, because a double ' + em('l') + ' follows the vowel.' },
     { w: 'magister', syll: ['ma', 'gis', 'ter'], div: 'ma-gis-ter', longPen: true, acc: 1, why: 'The penult ' + em('gis') + ' is long by position, since its vowel stands before two consonants.' },

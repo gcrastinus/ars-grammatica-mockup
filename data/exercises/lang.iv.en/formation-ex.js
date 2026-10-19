@@ -16,7 +16,7 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Choose the Germanic word in the pair “freedom” and “liberty.”",
-   "explain": "“Freedom” belongs to the older Germanic stock. “Liberty” is the Latinate partner.",
+   "explain": "“Freedom” belongs to the older Germanic stock. “Liberty” is the Latinate partner. The two are a Germanic–Latinate pair, from two sources, not a doublet.",
    "options": ["“Liberty”", "“Freedom”", "Both are Latinate", "Neither is an English word"],
    "answer": 1
   },
@@ -26,8 +26,8 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "deck": "lang.iv.en/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "“Buy” and “purchase” are a doublet. What is “purchase”?",
-   "explain": "“Buy” is the Germanic word of ordinary speech. “Purchase” came in through French and is the Latinate partner.",
+   "prompt": "“Buy” and “purchase” are a Germanic–Latinate pair. What is “purchase”?",
+   "explain": "“Buy” is the Germanic word of ordinary speech. “Purchase” came in through French and is the Latinate partner. A doublet would be two words from one source, such as “royal” and “regal.”",
    "options": ["The past tense of “buy”", "A Germanic suffix", "The Latinate partner of “buy”", "The head of a compound"],
    "answer": 2
   },
@@ -147,9 +147,9 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "deck": "lang.iv.en/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does “washable” mean?",
-   "explain": "“-able” means able to be. “Washable” means able to be washed, as “readable” means able to be read.",
-   "options": ["Unable to be washed", "Able to be washed", "The person who washes", "The act of washing"],
+   "prompt": "What does “portable” mean?",
+   "explain": "“-able” means able to be. “Portable” means able to be carried, and the stem is Latinate, as the stem of “visible” is.",
+   "options": ["Unable to be carried", "Able to be carried", "The person who carries", "The act of carrying"],
    "answer": 1
   },
   {
@@ -158,9 +158,9 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "deck": "lang.iv.en/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the Latinate noun that names the act of deciding.",
-   "explain": "“Decision” is built with “-tion” on a Latinate stem. “Choice” is the plainer Germanic partner, not the “-tion” noun.",
-   "options": ["“Choice”", "“Decide”", "“Undecided”", "“Decision”"],
+   "prompt": "Choose the Latinate noun that names a thing done.",
+   "explain": "“Action” is the Latinate noun. “Deed” is the Germanic noun for a thing done. “Do” is the verb, and “undone” is a participle.",
+   "options": ["“Deed”", "“Do”", "“Undone”", "“Action”"],
    "answer": 3
   },
   {
@@ -258,8 +258,8 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is a doublet?",
-   "explain": "A doublet is a Germanic word and a Latinate word for nearly the same idea, such as “freedom” and “liberty.” It is not a change of tense.",
-   "options": ["A verb and its past tense", "A Germanic word and a Latinate word for nearly one idea", "Any word of more than two syllables", "A suffix added twice"],
+   "explain": "A doublet is two words from one source that entered by different routes, such as “royal” and “regal,” both from Latin <em>rēgālis</em>. “Freedom” and “liberty” are a Germanic–Latinate pair, from two sources.",
+   "options": ["A verb and its past tense", "Two words from one source", "A Germanic word beside a Latinate one", "A suffix added twice"],
    "answer": 1
   },
   {

@@ -32,7 +32,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "In Greek, <em>τὸ φιλοσοφεῖν</em> is…",
-   "explain": "The neuter article makes the infinitive a noun, which Latin cannot do with an article it does not have. “philosophizing”",
+   "explain": "The neuter article makes the infinitive a noun. Latin has no article, so it cannot do this. The phrase means “philosophizing.”",
    "options": [
     "An infinitive made a noun by the article",
     "A finite verb: “he philosophizes”",
@@ -48,12 +48,12 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Why do these languages bear out Donatus’s filing of the adjective under the noun?",
-   "explain": "It is declined with the noun it depends on, as a name that cannot stand alone. number, and case of its noun",
+   "explain": "The adjective is declined with the noun it depends on. It takes that noun’s gender, number, and case. It has no tenses of its own, and it does not stand as a name by itself.",
    "options": [
-    "The adjective takes the gender",
-    "The adjective has tenses",
-    "The adjective never changes its form",
-    "The adjective always stands alone"
+    "It takes the noun’s gender, number, and case",
+    "It has tenses of its own and never the noun’s case",
+    "It keeps one form beside every noun",
+    "It stands alone and names a thing by itself"
    ],
    "answer": 0
   },

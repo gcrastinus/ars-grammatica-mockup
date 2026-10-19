@@ -14,7 +14,7 @@ ARS.decks["lang.ii.fr/meter"] = {
   {
    "id": "meter-2",
    "title": "Diérèse and Synérèse",
-   "body": "<p><strong>DIÉRÈSE AND SYNÉRÈSE.</strong> Two vowels side by side in a word may be counted as one syllable or as two, as custom fixes for each word and as the poet chooses: <em>pas-si-on</em>, three syllables in classical verse, but <em>nuit</em> one.</p>"
+   "body": "<p><strong>DIÉRÈSE AND SYNÉRÈSE.</strong> Two vowels side by side in a word may be counted as one syllable or as two, as custom fixes for each word and as the poet chooses. One syllable is <strong>synérèse</strong>, as in <em>lion</em> and <em>hier</em>. Two is <strong>diérèse</strong>, as when <em>passion</em> is three syllables, <em>pas-si-on</em>, in classical verse. <em>Nuit</em> is one syllable, but its vowels are an ordinary diphthong, not this choice.</p>"
   },
   {
    "id": "meter-3",

@@ -194,9 +194,9 @@ ARS.exercises["lang.ii.grc/meter-ex"] = {
    "deck": "lang.ii.grc/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "A form that fits Homer’s meter is, for that reason, which of these?",
-   "explain": "Homer’s Greek is older than Attic. A form that the hexameter admits is not, for that reason, the Attic form taught in the paradigms.",
-   "options": ["The Attic paradigm form", "Unfit for any Greek verse", "Not the Attic form", "A sapphic adonean"],
+   "prompt": "A form fits Homer’s meter. What follows from that fact alone?",
+   "explain": "Homer’s Greek is older than Attic. A form the hexameter admits may be the Attic form, or it may not. Fitting the meter does not decide.",
+   "options": ["It is the Attic paradigm form", "It is unfit for any Greek verse", "Nothing about the Attic form", "It is a sapphic adonean"],
    "answer": 2
   },
   {

@@ -14,7 +14,7 @@ ARS.decks["lang.ii.grc/meter"] = {
   {
    "id": "meter-2",
    "title": "The Dactylic Hexameter",
-   "body": "<p><strong>THE DACTYLIC HEXAMETER.</strong> Six feet, each a dactyl (— ᴗ ᴗ) or a spondee (— —), the fifth almost always a dactyl and the sixth two syllables. It is the meter of Homer and Hesiod: <em>μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</em>. A <strong>caesura</strong>, a word end, falls inside the third foot.</p>\n<p>A long vowel or diphthong at the end of a word before another vowel is often shortened (<strong>epic correption</strong>).</p>\n<p>Virgil and Ovid write the same line in Latin. Homer’s Greek is older than Attic, and a form that fits the meter in Homer is not, for that reason, the Attic form taught in the paradigms.</p>"
+   "body": "<p><strong>THE DACTYLIC HEXAMETER.</strong> Six feet, each a dactyl (— ᴗ ᴗ) or a spondee (— —), the fifth almost always a dactyl and the sixth two syllables. It is the meter of Homer and Hesiod: <em>μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</em>. A <strong>caesura</strong>, a word end, falls inside the third foot.</p>\n<p>A long vowel or diphthong at the end of a word before another vowel is often shortened (<strong>epic correption</strong>).</p>\n<p>Virgil and Ovid write the same line in Latin. Homer’s Greek is older than Attic. That a form fits the meter in Homer does not show that the form is the one taught in the Attic paradigms.</p>"
   },
   {
    "id": "meter-3",

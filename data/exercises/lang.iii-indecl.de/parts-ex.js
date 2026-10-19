@@ -176,8 +176,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <b>Ja</b>, der König kommt. Yes, the king is coming.",
-   "explain": "<em>Ja</em> is a word of assent, and it stands outside the clause. That word is an interjection.",
+   "prompt": "What part of speech is the marked word? <b>Ach</b>, der König kommt. Ah, the king is coming.",
+   "explain": "<em>Ach</em> stands outside the clause as a cry. The word is an interjection.",
    "options": ["adverb", "interjection", "preposition", "conjunction"],
    "answer": 1
   },
@@ -220,8 +220,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <b>Ja</b>, das Buch ist gut. Yes, the book is good.",
-   "explain": "<em>Ja</em> stands outside the clause as a word of assent. The word is an interjection.",
+   "prompt": "What part of speech is the marked word? <b>O weh</b>, der Freund kommt nicht. Alas, the friend is not coming.",
+   "explain": "<em>O weh</em> stands outside the clause as a cry of distress. The cry is an interjection.",
    "options": ["preposition", "adverb", "interjection", "conjunction"],
    "answer": 2
   },
@@ -264,8 +264,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <b>Ja</b>, die Frau kommt. Yes, the woman is coming.",
-   "explain": "<em>Ja</em> is a word of assent, and it stands outside the clause. The word is an interjection.",
+   "prompt": "What part of speech is the marked word? <b>Ach</b>, die Frau kommt. Ah, the woman is coming.",
+   "explain": "<em>Ach</em> is a cry, and it stands outside the clause. The word is an interjection.",
    "options": ["interjection", "adverb", "preposition", "conjunction"],
    "answer": 0
   }

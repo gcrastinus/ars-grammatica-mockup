@@ -14,10 +14,10 @@ ARS.decks["lang.iv.la/formation"] = {
     "id": "q-doer",
     "variants": [
      {
-      "prompt": "What does <em>scriptor</em>, from <em>scrībō</em> (to write), name?",
+      "prompt": "What does <em>scrīptor</em>, from <em>scrībō</em> (to write), name?",
       "options": ["The act of writing", "The one who writes", "Truth, as a quality", "A people, from a birth"],
       "answer": 1,
-      "explain": "<em>scriptor</em> is made from <em>scrībō</em> with <em>-tor</em>. That suffix names the doer, so the noun is the one who writes, a writer. The action would take <em>-tiō</em>, and a quality takes <em>-tās</em> or <em>-tūdō</em>."
+      "explain": "<em>scrīptor</em> is made from <em>scrībō</em> with <em>-tor</em>. That suffix names the doer, so the noun is the one who writes, a writer. The action would take <em>-tiō</em>, and a quality takes <em>-tās</em> or <em>-tūdō</em>."
      },
      {
       "prompt": "<em>nātiō</em> is made from <em>nāscor</em> (to be born) with <em>-tiō</em>. What does the suffix name?",
@@ -26,10 +26,10 @@ ARS.decks["lang.iv.la/formation"] = {
       "explain": "The suffix <em>-tiō</em> names the action. <em>nātiō</em> is the noun of that action from <em>nāscor</em>, and the word means a people. It does not name the doer, which would end in <em>-tor</em>."
      },
      {
-      "prompt": "To which declension does <em>scriptor</em> belong?",
+      "prompt": "To which declension does <em>scrīptor</em> belong?",
       "options": ["The first", "The second", "The third", "The fourth"],
       "answer": 2,
-      "explain": "A noun in <em>-tor</em> belongs to the third declension, the class whose genitive singular ends in <em>-is</em>. <em>scriptor</em>, from <em>scrībō</em>, is such a noun. A noun in <em>-tiō</em> belongs to the same declension."
+      "explain": "A noun in <em>-tor</em> belongs to the third declension, the class whose genitive singular ends in <em>-is</em>. <em>scrīptor</em>, from <em>scrībō</em>, is such a noun. A noun in <em>-tiō</em> belongs to the same declension."
      }
     ]
    }
@@ -93,7 +93,7 @@ ARS.decks["lang.iv.la/formation"] = {
   {
    "id": "prefix",
    "title": "The consonants of the prefix",
-   "body": "<p>The compound has to be a word that can be pronounced. Allen and Greenough (§16) record that the last consonant of a preposition is often assimilated to the following consonant. <em>ad</em> (to) and <em>ferō</em> (to carry) give <em>afferō</em> (to bring), with <em>d</em> assimilated to <em>f</em>. The paradigm of <em>ferō</em> (§200) also prints <em>adferō</em>, the same compound with the preposition left unchanged. <em>ex</em> before <em>f</em> is written <em>ef-</em>, so <em>efferō</em> is to carry forth. <em>ob</em> (toward) gives <em>offerō</em> (to offer). <em>sub</em> (under) assimilates in the same way, and <em>sufferō</em> is to endure.</p><p>The compounds that show the change are these:<br><strong>to</strong> (<em>ad</em> and <em>ferō</em> give <em>afferō</em>, to bring; the paradigm also prints <em>adferō</em>)<br><strong>under</strong> (<em>sub</em> and <em>ferō</em> give <em>sufferō</em>, to endure)<br><strong>toward</strong> (<em>ob</em> and <em>ferō</em> give <em>offerō</em>, to offer)<br><strong>out</strong> (<em>ex</em> and <em>ferō</em> give <em>efferō</em>, to carry forth)<br><strong>together</strong> (<em>con</em> and <em>locō</em>, to place, give <em>collocō</em>, to set firm; <em>conl-</em> or <em>coll-</em>)<br><strong>away</strong> (<em>ab</em> and <em>au-</em> give <em>auferō</em>, to carry away)</p><p>Allen and Greenough note that <em>au-</em> and <em>ab-</em> are two prefixes with the same meaning, not one prefix with <em>b</em> rewritten as <em>u</em> (§200). Before <em>l</em>, <em>con-</em> may be written <em>coll-</em>, as in <em>collocō</em>. Before a labial, <em>con-</em> is written <em>com-</em>. The inseparable prefix <em>dis-</em> means apart. Allen and Greenough’s example is <em>discēdere</em> (to depart). Before <em>f</em>, the <em>s</em> of <em>dis-</em> is assimilated to <em>f</em> (§16).</p>",
+   "body": "<p>The compound has to be a word that can be pronounced. Allen and Greenough (§16) record that the last consonant of a preposition is often assimilated to the following consonant. <em>ad</em> (to) and <em>ferō</em> (to carry) give <em>afferō</em> (to bring), with <em>d</em> assimilated to <em>f</em>. The paradigm of <em>ferō</em> (§200) also prints <em>adferō</em>, the same compound with the preposition left unchanged. <em>ex</em> before <em>f</em> is written <em>ef-</em>, so <em>efferō</em> is to carry forth. <em>ob</em> (toward) gives <em>offerō</em> (to offer). <em>sub</em> (under) assimilates in the same way, and <em>sufferō</em> is to endure.</p><p>The compounds that show the change are these:<br><strong>to</strong> (<em>ad</em> and <em>ferō</em> give <em>afferō</em>, to bring; the paradigm also prints <em>adferō</em>)<br><strong>under</strong> (<em>sub</em> and <em>ferō</em> give <em>sufferō</em>, to endure)<br><strong>toward</strong> (<em>ob</em> and <em>ferō</em> give <em>offerō</em>, to offer)<br><strong>out</strong> (<em>ex</em> and <em>ferō</em> give <em>efferō</em>, to carry forth)<br><strong>together</strong> (<em>con</em> and <em>locō</em>, to place, give <em>collocō</em>, to set firm; <em>conl-</em> or <em>coll-</em>)<br><strong>away</strong> (<em>au-</em> and <em>ferō</em> give <em>auferō</em>, to carry away; <em>au-</em> is a prefix of its own, with the same meaning as <em>ab-</em>)</p><p>Allen and Greenough note that <em>au-</em> and <em>ab-</em> are two prefixes with the same meaning, not one prefix with <em>b</em> rewritten as <em>u</em> (§200). Before <em>l</em>, <em>con-</em> may be written <em>coll-</em>, as in <em>collocō</em>. Before a labial, <em>con-</em> is written <em>com-</em>. The inseparable prefix <em>dis-</em> means apart. Allen and Greenough’s example is <em>discēdere</em> (to depart). Before <em>f</em>, the <em>s</em> of <em>dis-</em> is assimilated to <em>f</em> (§16).</p>",
    "qp": {
     "id": "q-prefix",
     "variants": [

@@ -39,7 +39,7 @@ ARS.exercises["lang.iv.de/formation-ex"] = {
    "type": "form",
    "macrons": false,
    "prompt": "Write the compound of <em>Jahr</em> and <em>Zeit</em> that means a season. Keep the linking letter.",
-   "explain": "<em>Jahr</em> and <em>Zeit</em> take a linking <em>-s-</em>. The compound is <em>Jahreszeit</em>, and it is feminine because <em>Zeit</em> is feminine.",
+   "explain": "<em>Jahr</em> and <em>Zeit</em> take the linking <em>-es-</em>, the form of the genitive <em>Jahres</em>. The compound is <em>Jahreszeit</em>, and it is feminine because <em>Zeit</em> is feminine.",
    "answer": "Jahreszeit"
   },
   {
@@ -126,8 +126,8 @@ ARS.exercises["lang.iv.de/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which two compounds are written with a linking <em>-s-</em>?",
-   "explain": "<em>Jahreszeit</em> and <em>Geschichtsbuch</em> insert <em>-s-</em> between the nouns. <em>Wasserflasche</em> and <em>Gartentür</em> do not.",
-   "options": ["<em>Wasserflasche</em> and <em>Gartentür</em>", "<em>Bewegung</em> and <em>Schönheit</em>, which are made by suffixes", "<em>Jahreszeit</em> and <em>Geschichtsbuch</em>", "<em>Erklären</em> and <em>entdecken</em>, which are verbs"],
+   "explain": "<em>Geschichtsbuch</em> and <em>Wohnungstür</em> insert a linking <em>-s-</em>. <em>Jahreszeit</em> takes <em>-es-</em>, not a bare <em>-s-</em>. <em>Wasserflasche</em> and <em>Gartentür</em> have no linking letter.",
+   "options": ["<em>Wasserflasche</em> and <em>Gartentür</em>", "<em>Bewegung</em> and <em>Schönheit</em>, which are made by suffixes", "<em>Geschichtsbuch</em> and <em>Wohnungstür</em>", "<em>Erklären</em> and <em>entdecken</em>, which are verbs"],
    "answer": 2
   },
   {
