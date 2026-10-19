@@ -584,7 +584,7 @@ function runQueue(spec){
   renderItem();
 }
 function runEx(ex){
-  const st = exState(ex.id); const set = FORMS[st.visits % 3]; st.visits += 1; save();
+  const st = exState(ex.id); const forms = ex.sets ? Object.keys(ex.sets) : FORMS; const set = forms[st.visits % forms.length]; st.visits += 1; save();
   const items = ex.items.filter(x => x.set === set);
   runQueue({
     ex: ex, set: set, items: items, hash: 'ex/' + ex.id,

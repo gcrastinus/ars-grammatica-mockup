@@ -53,7 +53,7 @@ The changes from the mockup are these:
 No other live exercise survives as an exercise.
 
 **7. Shared exercise buttons.** An exercise set that covers several decks has its own button, placed right after the last deck it covers:
-- Sign and Significant Voice comes after I.6 and covers I.1–I.6.
+- Sign and Significant Voice came after I.6 and covered I.1–I.6; on 18 Oct 2026 it was merged into the Section I review (`i.review`), so Section I has no separate exercise button.
 - Nouns and Adjectives comes after III.6 (Noun II).
 - Verbs comes after III.9 (Verb II).
 
@@ -124,37 +124,37 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 ## I · *De signo et voce significativa* · Sign and Significant Voice
 
 **I.1 Sign and Symbol** `[i.sign]`. Natural and given signs, and the spoken word as a symbol of what is in the mind.
-- Panels 10 · QP 3 · Exercise: in the shared Sign and Significant Voice set
+- Panels 10 · QP 3 · Exercise: in the Section Review (`i.review`)
 - Sources: Aristotle, *De interpretatione* 1, 16a3–8 (trans. E. M. Edghill); Augustine, *De doctrina christiana* II.1–3 (trans. J. F. Shaw); Boethius, *In Peri hermeneias* (trans. Norman Kretzmann, 1998, for ch. 9 in both editions; trans. Andrew Smith, 2010–11, for books 1–6 of the second edition; rule 9 only for passages outside these); John of St. Thomas, *Tractatus de signis* (trans. John Deely)
 - Reuse: `traditions`, the panel on John of St. Thomas; `prelim`, the panel on voice and concept
 
 **I.2 Imposition** `[i.imposition]`. How a sound comes to signify by the will of those who first used it, and first and second imposition.
-- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
+- Panels 8 · QP 2 · Exercise: in the Section Review (`i.review`)
 - Sources: Aristotle, *De interpretatione* 2 (Edghill); Boethius, *In Categorias* (rule 9); St. Thomas, *In Peri hermeneias* I (Oesterle)
 - Reuse: the passages on imposition in `modes` and `prelim`
 
 **I.3 Signification and Consignification** `[i.consignification]`. What a word means, and what it signifies along with that meaning, such as the time the verb signifies.
-- Panels 9 · QP 3 · Exercise: in the shared Sign and Significant Voice set
+- Panels 9 · QP 3 · Exercise: in the Section Review (`i.review`)
 - Sources: Aristotle, *De interpretatione* 3, 16b6 (Edghill); St. Thomas, *In Peri hermeneias* I (Oesterle); Priscian II (rule 9)
 - Reuse: `modes`, the panel on why the verb has time
 
 **I.4 Categorematic and Syncategorematic Words** `[i.syncategorematic]`. Words that signify of themselves, and words such as "every" and "not" that signify only with other words.
-- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
+- Panels 8 · QP 2 · Exercise: in the Section Review (`i.review`)
 - Sources: Priscian II.15 (rule 9); William of Sherwood, *Syncategoremata* (trans. Norman Kretzmann)
 - Reuse: little; `suppos` mentions the syncategoremata
 
 **I.5 The Functions of Language** `[i.functions]`. To state, to ask, to command, to wish, and to express feeling, and why only the statement is true or false.
-- Panels 8 · QP 2 · Exercise: in the shared Sign and Significant Voice set
+- Panels 8 · QP 2 · Exercise: in the Section Review (`i.review`)
 - Sources: Aristotle, *De interpretatione* 4, 17a1–7 (Edghill); St. Thomas, *In Peri hermeneias* I (Oesterle); for comparison, Bühler, *Sprachtheorie* (1934), and Jakobson, "Linguistics and Poetics" (1960)
 - Reuse: none
 
 **I.6 Ambiguity** `[i.ambiguity]`. How one word or one construction can have two senses, and how the grammarian distinguishes them.
 - The deck stays on the grammatical side: it asks where the double sense lies, in a word (equivocation) or in the construction (amphiboly). It does not treat the fallacies as errors of reasoning, which belong to Ars Syllogistica; one panel names the boundary and points there.
-- Panels 9 · QP 3 · Exercise: in the shared Sign and Significant Voice set
+- Panels 9 · QP 3 · Exercise: in the Section Review (`i.review`)
 - Sources: Aristotle, *Sophistical Refutations* 4 (trans. W. A. Pickard-Cambridge), only for the distinction between word and construction; Quintilian VII.9 (Butler); Augustine, *De doctrina christiana* III.2–4 (Shaw)
 - Reuse: `figura` (3), rewritten so that it does not teach the fallacy
 
-**Exercise button: Sign and Significant Voice** `[i.ex.sign]` (after I.6). This is the exercise set for the whole section, I.1–I.6.
+**Exercise button: Sign and Significant Voice** `[i.ex.sign]` (after I.6). MERGED (18 Oct 2026, Timothy): this set and the Section I review are now one exercise, **Section Review: Sign and Significant Voice** `[i.review]`, 114 items in six rotating sets of 19 (A–F) with every kind of question; see REVISION-GUIDE.md AG. The notes below describe the set as first planned.
 - Pool 72 items, 12 per deck: three fixed sets of 24, each with 4 items per deck.
 - The ambiguity items (12) use ambiguous words, in English and in Latin with translations, and modifier attachment in English. The student identifies the two senses and says whether the ambiguity lies in a word or in the construction.
 - Taught-only limit: nothing in the set tests material after I.6. The ambiguity items are of two kinds only: lexical ambiguity (one word with two senses, such as English "bank" or Latin *acies*, "battle line" or "sharp edge") and modifier attachment (a modifier that can belong to either of two words, as in "the man saw the boy with the telescope"). Latin items are lexical only, with both senses given in translation, so that no item depends on case or on anything else taught in III or later.
@@ -710,7 +710,7 @@ How these were counted:
 
 | Set | Items |
 |---|---|
-| Sign and Significant Voice | 72 |
+| Sign and Significant Voice (merged into `i.review`, 18 Oct 2026) | 72 |
 | Syllable | 48 |
 | Quantity, Stress, and Accent | 48 |
 | The Eight Parts | 60 |

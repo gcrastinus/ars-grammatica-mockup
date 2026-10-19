@@ -687,3 +687,25 @@ Same rules as AE: realities first, then the principle, then the tradition; no ex
 **v.figures**
 - ellipsis: "Some people prefer tea; others, coffee" (Bacon's sentence is in v.clause), ends toward zeugma; zeugma ends toward syllepsis.
 - 18 Oct 2026 (Timothy): section review bars drop the kind label and "Begin" so they match the Cumulative Review bar.
+
+## AG. Log: Section I exercise set merged into the Section Review (18 Oct 2026, Timothy's decision)
+
+Section I now has one exercise, **Section Review: Sign and Significant Voice** `[i.review]`. The former exercise set `i.ex.sign` (72 items: mc 25, identify 25, sort 22; sets A–C of 24) and the former review (45 items: mc 29, mc-marked 16; sets A–C of 15) were merged into six fixed sets, A–F, of 19 items each (114 items), which rotate A, B, C, D, E, F, A, … like the other sets. Item ids are unchanged (`sv-*` from the set, `ri-*` from the review), so spaced review and progress carry over. `data/exercises/i.ex.sign.js` was removed (git rm), with its line in `data/structure.js` and its entry in `ARS.exerciseFiles`; the runner (`runEx` in course.js) now rotates through the keys of an exercise's `sets` rather than always A–C. Saved progress under `i.ex.sign` is simply ignored.
+
+Every set mixes all four types and covers all six decks; within a set the items follow deck order with the types interleaved. Similar items (e.g., the "where does the ambiguity lie" questions, the natural/conventional sorts, the kinds-of-sentence sorts, the two "umbrella" items, which had shared set B) were spread across sets. The correct option is the longest in at most 3 of a set's 11–12 multiple-choice items.
+
+| Set | Items | mc | mc-marked | identify | sort | sign · imposition · consignification · syncategorematic · functions · ambiguity |
+|---|---|---|---|---|---|---|
+| A | 19 | 9 | 2 | 4 | 4 | 3 · 3 · 3 · 3 · 3 · 4 |
+| B | 19 | 9 | 2 | 4 | 4 | 4 · 3 · 3 · 3 · 3 · 3 |
+| C | 19 | 8 | 3 | 4 | 4 | 4 · 4 · 3 · 3 · 2 · 3 |
+| D | 19 | 8 | 3 | 4 | 4 | 3 · 4 · 3 · 3 · 3 · 3 |
+| E | 19 | 8 | 3 | 5 | 3 | 3 · 3 · 3 · 3 · 3 · 4 |
+| F | 19 | 9 | 3 | 4 | 3 | 4 · 4 · 3 · 2 · 3 · 3 |
+
+**Cut (3):**
+- `ri-A11` ("Where did you put the keys?" What kind of sentence?): the weakest item; the question is also asked by the kinds-of-sentence sorts `sv-fun-3` and `sv-fun-10`.
+- `ri-A13` ("The ruler was broken."): a near-duplicate of `sv-amb-1` ("pitcher"), `ri-B13` ("match"), and `ri-C13` ("pupil"), all "the ambiguity lies in a single word."
+- `ri-C09` (Which word signifies something definite by itself? "mountain"): a near-duplicate of `ri-A09` ("unless") and `sv-syn-2` (*equus*).
+
+No new items were written, and no wording was changed: a check of the house rules (shuffled options, correct option not mostly the longest, prompts, American spelling, mentioned English words in double quotation marks, no "previous deck," no "the schools") found no clear violations.
