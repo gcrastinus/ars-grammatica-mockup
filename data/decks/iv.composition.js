@@ -22,7 +22,7 @@ ARS.decks['iv.composition'] = {
   body: `<p>The most common Latin compounds are verbs made with a preposition, as we have seen with the preposition. In these compounds the vowel of the verb is often weakened: <i>capiō</i> (“I take”) becomes <i>-cipiō</i> in <i>accipiō</i> (“I receive”), <i>teneō</i> (“I hold”) becomes <i>-tineō</i> in <i>retineō</i> (“I hold back”), and <i>cadō</i> (“I fall”) becomes <i>-cidō</i> in <i>incidō</i> (“I fall into”). English keeps these weakened forms in “accept,” “retain,” and “incident.”</p>
 <p>Latin also forms compound nouns and adjectives from a noun and a verbal root: <i>armiger</i> (“armor-bearer,” from <i>arma</i>, “arms,” and <i>gerere</i>, “to carry”), <i>artifex</i> (“craftsman,” from <i>ars</i>, “art,” and <i>facere</i>, “to make”), <i>signifer</i> (“standard-bearer,” from <i>signum</i> and <i>ferre</i>). And it forms adjectives from an adjective and a noun: <i>magnanimus</i> (“great-souled,” from <i>magnus</i> and <i>animus</i>). Latin compounds of this kind are fewer than Greek or German ones, and the Latin poets used them as a mark of high style.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 264–268, in paraphrase.`,
-  qpTodo: `Latin compounds: of what parts is a given compound made (<i>agricola</i>, <i>artifex</i>, <i>accipiō</i>, <i>magnanimus</i>), and what change has a part undergone.` },
+  qpTodo: `Latin compounds: of what parts is a given compound made (<i>tubicen</i>, <i>opifex</i>, <i>dēcipiō</i>, <i>longaevus</i>), and what change has a part undergone.` },
 
 { id: 'greek',
   title: 'Greek compounds in English',
@@ -35,7 +35,7 @@ ARS.decks['iv.composition'] = {
   body: `<p>English forms compounds of many kinds: first, of noun and noun, as “teapot,” “doorknob,” and “sailboat”; second, of adjective and noun, as “bluebell,” “hardware,” and “highway”; third, of verb and noun, as “pickpocket” and “breakwater”; fourth, of a noun and an agent noun (a noun that names the doer of an action), as “shoemaker” and “housekeeper”; and fifth, of an adjective and a participle, as “good-looking” and “kind-hearted.”</p>
 <p>In most English compounds the last part is the principal one, and the first part determines it. A “houseboat” is a kind of boat, and a “boathouse” is a kind of house; a “teapot” is a pot, and a “doorknob” is a knob. The principal part is often called the <strong>head</strong> of the compound. So the order of the parts matters, as it does in an English phrase, and the meaning of the compound depends on it.</p>`,
   src: `Marchand, <i>Categories and Types</i>, the chapter on composition; Duden, on compounds; both in paraphrase.`,
-  qpTodo: `English compounds: in a given compound (“houseboat,” “boathouse,” “toothbrush”), which part is the head, and what kind of thing does the compound signify.` },
+  qpTodo: `English compounds: in a given compound (“birdhouse,” “housefly,” “sunburn”), which part is the head, and what kind of thing does the compound signify.` },
 
 { id: 'german',
   title: 'German compounds',
@@ -51,7 +51,7 @@ ARS.decks['iv.composition'] = {
 
 { id: 'together',
   title: 'Composition and derivation together',
-  body: `<p>Many words are formed by both composition and derivation, in an order that can be traced. “Unthinkable” is formed from “think” by the suffix “-able,” giving “thinkable,” and then by the prefix “un-,” giving “unthinkable.” Latin <i>īnfēlīcitās</i> (“unhappiness”) is formed from <i>fēlīx</i> (“happy”) by composition with <i>in-</i>, giving <i>īnfēlīx</i> (“unhappy”), and then by derivation with <i>-itās</i>, as we saw in Section III that one word can be both compound and derived.</p>
+  body: `<p>Many words are formed by both composition and derivation, in an order that can be traced. “Unthinkable” is formed from “think” by the suffix “-able,” giving “thinkable,” and then by the prefix “un-,” giving “unthinkable.” Latin <i>īnfēlīcitās</i> (“unhappiness”) is formed from <i>fēlīx</i> (“happy”) by composition with <i>in-</i>, giving <i>īnfēlīx</i> (“unhappy”), and then by derivation with <i>-itās</i>; as we saw in Section III, one word can be both compound and derived.</p>
 <p>So the formation of a word can be analyzed step by step, as a sentence can, and the analysis shows how the meaning of the whole is built from its parts. This analysis concerns how a word is made in the language as it is; the history of where a word came from, and how its form and meaning changed over time, is the subject of etymology, which we consider next in this section of the course.</p>`,
   src: `Marchand, <i>Categories and Types</i>, in paraphrase.` }
 
