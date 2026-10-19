@@ -84,13 +84,13 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "type": "mc",
    "prompt": "In verse the first syllable of <em>cuius</em> (“whose”) is long, although its <em>u</em> is short. Why?",
    "options": [
-    "Its <i>u</i> and <i>i</i> form a diphthong",
+    "A mute and a liquid follow its <i>u</i>",
     "A vowel standing before another vowel is long",
     "Its <i>u</i> is followed by a consonant <i>i</i>",
     "The accent of the word falls on it"
    ],
    "answer": 2,
-   "explain": "The <i>i</i> of <i>cuius</i> is a consonant standing between two vowels, so the word is pronounced as if it were written <i>cui-ius</i>, and its first syllable is long, although its <i>u</i> is short. A vowel before another vowel is short, not long, and the accent has no effect on quantity.",
+   "explain": "The <i>i</i> of <i>cuius</i> is a consonant standing between two vowels, so the word is pronounced as if it were written <i>cui-ius</i>, and its first syllable is long, although its <i>u</i> is short. A vowel before another vowel is short, not long, and no mute or liquid follows the <i>u</i>.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -345,7 +345,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "An anapest"
    ],
    "answer": 1,
-   "explain": "The first syllable, <i>mai</i>, is long by position, because the consonant <i>i</i> between the vowels is pronounced double, and <i>iō</i> is long by nature; two long syllables make a spondee.",
+   "explain": "The first syllable, <i>mai</i>, is long, because a consonant <i>i</i> follows its vowel and the word is pronounced as if it were written <i>mai-iōrēsque</i>; <i>iō</i> is long by nature; two long syllables make a spondee.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
