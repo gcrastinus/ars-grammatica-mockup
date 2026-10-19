@@ -21,7 +21,20 @@ ARS.decks['iii.interjection'] = {
   body: `<p>English interjections signify different kinds of feeling: joy (“hooray,” “bravo”), grief (“alas”), wonder (“wow”), pain (“ouch”), disgust (“ugh”), and surprise (“gosh”). Some interjections serve to call someone, as English “hey” and “hello” and Latin <i>heus</i> (“hey there”).</p>
 <p>Donatus gives the interjection one accident, <strong>signification</strong>: it signifies joy, as <i>euax</i> (“hurrah”); grief, as <i>heu</i> (“alas”); wonder, as <i>papae</i> (“wow”); or fear, as <i>attat</i> (“oh no!”); and any similar feeling (<i>Ars minor</i>). So the interjection, like the other indeclinable parts, has only the accident that concerns what kind of thing it signifies.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the interjection, in paraphrase.`,
-  qpTodo: `The signification of the interjection: what feeling does a given interjection signify (<i>ēheu</i>, <i>ēia</i>; “oops,” “yuck”), and why is an interjection a word and a groan not.` },
+  qp: { id: 'q-signification', variants: [
+    { prompt: `What feeling does the Latin interjection <i>ēheu</i> signify?`,
+      options: [`Joy`, `Grief`, `Wonder`, `Fear`],
+      answer: 1,
+      explain: `<i>Ēheu</i>, a stronger form of Donatus’s <i>heu</i>, signifies grief: “alas!”` },
+    { prompt: `What feeling does the English interjection “yuck” signify?`,
+      options: [`Joy`, `Grief`, `Disgust`, `Fear`],
+      answer: 2,
+      explain: `“Yuck” signifies disgust, as “ugh” does. The signification is the interjection’s one accident: the kind of feeling it expresses.` },
+    { prompt: `Why is “oops” a word and a part of speech, whereas a groan is not?`,
+      options: [`Because its form is fixed by custom`, `Because it expresses a feeling of the mind`, `Because it is louder`, `Because it can be the subject of a verb`],
+      answer: 0,
+      explain: `A groan signifies pain by nature and is much the same among all peoples. “Oops” has a form fixed by the custom of English, so it signifies by imposition, is articulate and written, and is a word. Both express a feeling, so that is not the difference.` }
+  ]} },
 
 { id: 'languages',
   title: 'Interjections in different languages',
