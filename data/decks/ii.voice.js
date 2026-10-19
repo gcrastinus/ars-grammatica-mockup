@@ -42,14 +42,14 @@ ARS.decks['ii.voice'] = {
       options: [`It signifies but cannot be written`, `It can be written but signifies nothing`, `It signifies and can be written`, `It neither signifies nor can be written`],
       answer: 2,
       explain: `A line of verse is joined to a meaning in the mind of the poet, so Priscian calls it articulate, and it can be written in letters, so he calls it literate. It is the first of his four kinds, voice that both signifies and can be written.` },
-    { prompt: `In Priscian’s division, what kind of voice is the croak of a frog, written <i>coax</i>?`,
+    { prompt: `In Priscian’s division, what kind of voice is the caw of a crow, written <i>cra</i>?`,
       options: [`It signifies and can be written`, `It can be written but signifies nothing`, `It signifies but cannot be written`, `It neither signifies nor can be written`],
       answer: 1,
-      explain: `The croak can be imitated in letters, so it is literate in Priscian’s sense; but the frog does not join it to any meaning in a mind, so it signifies nothing. Writing it down does not give it a meaning.` },
-    { prompt: `A whistle given to call a dog shows something but cannot be written. What does Priscian call it?`,
+      explain: `The caw can be imitated in letters, so it is literate in Priscian’s sense; but the crow does not join it to any meaning in a mind, so it signifies nothing. Writing it down does not give it a meaning.` },
+    { prompt: `A click of the tongue made to urge on a horse shows something but cannot be written. What does Priscian call it?`,
       options: [`Articulate but not literate`, `Literate but not articulate`, `Both articulate and literate`, `Neither articulate nor literate`],
       answer: 0,
-      explain: `For Priscian a voice is articulate when it is joined to some meaning in the mind of the speaker, and literate when it can be written. The whistle shows something, so it is articulate in his sense, but it cannot be written, so it is not literate. Donatus, who calls voice articulate only when it can be written, would call the same whistle inarticulate, so it matters which grammarian is speaking.` }
+      explain: `For Priscian a voice is articulate when it is joined to some meaning in the mind of the speaker, and literate when it can be written. The click shows something, so it is articulate in his sense, but it cannot be written, so it is not literate. Donatus, who calls voice articulate only when it can be written, would call the same click inarticulate, so it matters which grammarian is speaking.` }
   ]} },
 
 { id: 'significant',
@@ -77,17 +77,17 @@ ARS.decks['ii.voice'] = {
   src: `Donatus, <i>Ars maior</i> I.1–6.`,
   qp: { id: 'q-articulate-word', variants: [
     { prompt: `Which of these is a word?`,
-      options: [`A groan of pain`, `The letter B pronounced alone`, `“Horse” said aloud`, `A cough`],
+      options: [`A whimper of pain`, `The letter D pronounced alone`, `“Barrel” said aloud`, `A snore`],
       answer: 2,
-      explain: `Only articulate voice that signifies by imposition is a word. “Horse” said aloud is made of distinct sounds that letters can record, and it signifies by imposition. A groan signifies pain, but by nature and not by imposition; the letter B is articulate but signifies nothing; and a cough is not uttered to show anything.` },
-    { prompt: `The letter B pronounced alone is articulate voice, because it can be written. Why is it not a word?`,
+      explain: `Only articulate voice that signifies by imposition is a word. “Barrel” said aloud is made of distinct sounds that letters can record, and it signifies by imposition. A whimper signifies pain, but by nature and not by imposition; the letter D is articulate but signifies nothing; and a snore is not uttered to show anything.` },
+    { prompt: `The letter M pronounced alone is articulate voice, because it can be written. Why is it not a word?`,
       options: [`Because it cannot be written`, `Because it signifies nothing`, `Because it signifies by nature`, `Because no living being makes it`],
       answer: 1,
-      explain: `Articulate voice is not yet a word. A word is articulate voice that signifies by imposition, and the letter B pronounced alone signifies nothing at all. It can be written, so it is articulate, but it remains part of the material of speech.` },
+      explain: `Articulate voice is not yet a word. A word is articulate voice that signifies by imposition, and the letter M pronounced alone signifies nothing at all. It can be written, so it is articulate, but it remains part of the material of speech.` },
     { prompt: `In the strict sense in which Aristotle defines voice, which of these is voice?`,
-      options: [`Thunder`, `A cough`, `The splash of water`, `A shout across a field`],
+      options: [`The crack of a breaking branch`, `A sniffle`, `The roar of a waterfall`, `A call to a friend`],
       answer: 3,
-      explain: `In the strict sense, voice is a sound made by a living being with some act of imagination, as a sound that signifies something. A shout across a field is such a sound. Thunder and the splash of water are not made by any living thing, and a cough, although a living being makes it, is not uttered to show anything; Aristotle gives the cough as his example of a sound that is not voice.` }
+      explain: `In the strict sense, voice is a sound made by a living being with some act of imagination, as a sound that signifies something. A call to a friend is such a sound. The crack of a branch and the roar of a waterfall are not made by any living thing, and a sniffle, although a living being makes it, is not uttered to show anything; Aristotle gives the cough as his example of a sound that is not voice.` }
   ]} }
 
   ]
