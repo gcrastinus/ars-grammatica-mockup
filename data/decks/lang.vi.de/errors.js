@@ -9,27 +9,27 @@ ARS.decks["lang.vi.de/errors"] = {
   {
    "id": "one-word",
    "title": "An error in one word",
-   "body": "<p>A student writes <em>er gehte</em> for “he went,” and <em>die Äpfels</em> for “the apples.” Neither word is a German form. The past of <em>gehen</em> (“to go”) is <em>ging</em>. The plural of <em>Apfel</em> (“apple”) is <em>Äpfel</em>. The other words in <em>er gehte</em> and <em>die Äpfels</em> may be ordinary German. The error is in the one word.</p><p>Donatus calls a fault in one word a <strong>barbarism</strong> (<em>barbarismus est una pars orationis vitiosa in communi sermone</em>; <em>Ars maior</em> III). <em>Gehte</em> and <em>Äpfels</em> are barbarisms.</p>",
+   "body": "<p>A student writes <em>er gehte</em> for “he went,” and <em>die Äpfels</em> for “the apples.” Neither <em>gehte</em> nor <em>Äpfels</em> is a German form, because the past of <em>gehen</em> (“to go”) is <em>ging</em>, and the plural of <em>Apfel</em> (“apple”) is <em>Äpfel</em>. The other word in each phrase is ordinary German, so the error lies in the one word.</p><p>Donatus calls a fault in one word a <strong>barbarism</strong>, “one part of speech faulty in ordinary speech” (<em>una pars orationis vitiosa in communi sermone</em>; <em>Ars maior</em> III). So <em>gehte</em> and <em>Äpfels</em> are barbarisms.</p>",
    "qp": {
     "id": "q-one-word",
     "variants": [
      {
       "prompt": "The past of <em>finden</em> (“to find”) is <em>fand</em>. A student writes <em>er findete</em>. What kind of error is <em>findete</em>?",
-      "options": ["No error: every German past adds <em>-te</em>", "A solecism: <em>er</em> and <em>findete</em> disagree in case", "A barbarism: <em>findete</em> is not the past", "A metaplasm required in ordinary prose"],
+      "options": ["No error: every German past adds <em>-te</em>", "A solecism: <em>er</em> and <em>findete</em> disagree in case", "A barbarism: <em>findete</em> is not the past", "A metaplasm, since the form is unusual"],
       "answer": 2,
       "explain": "The past is <em>fand</em>, as the past of <em>gehen</em> is <em>ging</em> and not <em>gehte</em>. <em>Findete</em> is not a form of <em>finden</em>, so the error is in the one word."
      },
      {
-      "prompt": "Choose the plural of <em>Garten</em> (“garden”).",
-      "options": ["<em>Gartens</em>", "<em>Gärten</em>", "<em>Gartner</em>", "<em>Gärtenen</em>"],
+      "prompt": "What is the plural of <em>Vogel</em> (“bird”)?",
+      "options": ["<em>Vogels</em>", "<em>Vögel</em>", "<em>Vögeln</em>", "<em>Vogeln</em>"],
       "answer": 1,
-      "explain": "The plural is <em>Gärten</em>. <em>Gartens</em> adds <em>-s</em>, the same kind of error as <em>Äpfels</em> for <em>Äpfel</em>."
+      "explain": "The nominative plural is <em>Vögel</em>. <em>Vogels</em> adds <em>-s</em>, the same kind of error as <em>Äpfels</em> for <em>Äpfel</em>; <em>Vögeln</em> is a real form, but it is the dative plural."
      },
      {
-      "prompt": "Why is <em>ging</em> not a barbarism?",
-      "options": ["Because it is the past of <em>gehen</em>", "Because every one-syllable verb is a solecism", "Because <em>ging</em> is the plural of <em>Apfel</em>", "Because a barbarism cannot be a verb"],
+      "prompt": "Why is <em>er sang</em> (“he sang”) not a barbarism, although it does not end in <em>-te</em>?",
+      "options": ["Because <em>sang</em> is the real past of <em>singen</em>", "Because a barbarism is an error in the joining of words", "Because only a noun can be a barbarism", "Because <em>sang</em> is a metaplasm allowed in prose"],
       "answer": 0,
-      "explain": "<em>Ging</em> is the real past of <em>gehen</em>. A barbarism is a form the language does not have. <em>Gehte</em> is that error."
+      "explain": "<em>Singen</em> is a strong verb, and its past is <em>sang</em>, so the form is correct. A barbarism is a form the language does not have, such as <em>singte</em>; an error in the joining of words is a solecism."
      }
     ]
    }
@@ -37,7 +37,7 @@ ARS.decks["lang.vi.de/errors"] = {
   {
    "id": "joining",
    "title": "Good words badly joined",
-   "body": "<p><em>Das guter Kind</em> joins real forms, and they do not fit. After <em>das</em>, the adjective in the nominative singular takes <em>-e</em>: <em>das gute Kind</em> (“the good child”). <em>Die Kinder spielt</em> fails in number. <em>Kinder</em> (“children”) is plural, and <em>spielt</em> is third person singular. The plural is <em>spielen</em>. <em>Ich helfe den Kind</em> fails in case. <em>Helfen</em> (“to help”) takes the dative: <em>ich helfe dem Kind</em> (“I help the child”). <em>Den</em> is accusative.</p><p>Donatus calls a fault in the joining a <strong>solecism</strong> (<em>soloecismus est vitium in contextu partium orationis contra regulam artis grammaticae factum</em>). Each word exists. The construction is incorrect.</p>",
+   "body": "<p><em>Das guter Kind</em> joins real German forms, but they do not fit one another, because after <em>das</em> the adjective in the nominative singular takes <em>-e</em>: <em>das gute Kind</em> (“the good child”). <em>Die Kinder spielt</em> fails in number, because <em>Kinder</em> (“children”) is plural, whereas <em>spielt</em> is third person singular; the plural verb is <em>spielen</em>. <em>Ich helfe den Kind</em> fails in case, because <em>helfen</em> (“to help”) takes the dative, whereas <em>den</em> is accusative: the correct form is <em>ich helfe dem Kind</em> (“I help the child”).</p><p>Donatus calls an error of this kind a <strong>solecism</strong>, “a fault in the joining of the parts of speech, made against the rule of the art of grammar” (<em>vitium in contextu partium orationis contra regulam artis grammaticae factum</em>; <em>Ars maior</em> III.2). Each word exists, but the construction is incorrect.</p>",
    "qp": {
     "id": "q-joining",
     "variants": [
@@ -65,7 +65,7 @@ ARS.decks["lang.vi.de/errors"] = {
   {
    "id": "case-verb",
    "title": "Case, the adjective, and the verb’s place",
-   "body": "<p>Several prepositions keep one case. Using the other case is a solecism: both the preposition and the article are real German, and they do not fit.</p><p>The groups are these:</p>\n<p><strong>mit, zu, aus, von</strong>, the dative (“mit der Schwester,” “with the sister”; “aus der Schule,” “out of the school”)<br><strong>für, durch, ohne</strong>, the accusative (“für das Kind,” “for the child”; “durch den Garten,” “through the garden”)<br><strong>an</strong> and <strong>in</strong>, the dative for place and the accusative for motion (“an der Schule,” “at the school”; “an die Schule,” “to the school”)</p><p>After <em>der</em>, <em>die</em>, or <em>das</em> in the nominative singular, the adjective ends in <em>-e</em>: <em>der gute Vater</em>, <em>die kleine Schwester</em>. With no article, a masculine nominative adjective shows <em>-er</em>: <em>heißer Kaffee</em> (“hot coffee”).</p><p>In a statement the finite verb is the second element. <em>Morgen kommt die Schwester</em> (“tomorrow the sister is coming”) has <em>kommt</em> second. In a subordinate clause introduced by <em>dass</em> (“that”), the finite verb stands at the end: <em>ich weiß, dass sie schläft</em> (“I know that she is sleeping”). A yes-or-no question puts the verb first: <em>schläft sie?</em> (“is she sleeping?”). A separable prefix stands at the end of the main clause: <em>ich mache die Tür zu</em> (“I close the door”).</p>",
+   "body": "<p>Several German prepositions always take one case, and so another case after them is a solecism: the preposition and the article are both real German, but they do not fit. The prepositions fall into these groups:</p>\n<p><strong><em>mit, zu, aus, von</em></strong>, which take the dative (<em>mit der Schwester</em>, “with the sister”; <em>aus der Schule</em>, “out of the school”)<br><strong><em>für, durch, ohne</em></strong>, which take the accusative (<em>für das Kind</em>, “for the child”; <em>durch den Garten</em>, “through the garden”)<br><strong><em>an</em></strong> and <strong><em>in</em></strong>, which take the dative for the place where and the accusative for motion toward a place (<em>an der Schule</em>, “at the school”; <em>an die Schule</em>, “to the school”)</p><p>After <em>der</em>, <em>die</em>, or <em>das</em> in the nominative singular, the adjective ends in <em>-e</em>: <em>der gute Vater</em>, <em>die kleine Schwester</em>. With no article, a masculine nominative adjective shows <em>-er</em>: <em>heißer Kaffee</em> (“hot coffee”).</p><p>In a statement the finite verb is the second element, so <em>Morgen kommt die Schwester</em> (“tomorrow the sister is coming”) has <em>kommt</em> second. In a subordinate clause introduced by <em>dass</em> (“that”), the finite verb stands at the end: <em>ich weiß, dass sie schläft</em> (“I know that she is sleeping”). A yes-or-no question puts the verb first: <em>schläft sie?</em> (“is she sleeping?”). A separable prefix stands at the end of the main clause: <em>ich mache die Tür zu</em> (“I close the door”).</p>",
    "qp": {
     "id": "q-case-verb",
     "variants": [
@@ -77,7 +77,7 @@ ARS.decks["lang.vi.de/errors"] = {
      },
      {
       "prompt": "Where is the finite verb in <em>Heute schläft der Vater</em>?",
-      "options": ["First, because <em>heute</em> is an adverb", "Second: <em>schläft</em> follows <em>heute</em>", "At the end, because the clause begins with <em>heute</em>", "Nowhere: <em>schläft</em> is a separable prefix"],
+      "options": ["First, because <em>heute</em> is an adverb", "Second: <em>schläft</em> follows <em>heute</em>", "At the end, because the clause begins with <em>heute</em>", "Third, after <em>der Vater</em>"],
       "answer": 1,
       "explain": "A statement keeps the finite verb second, as <em>Morgen kommt die Schwester</em> does. <em>Heute</em> is the first element, and <em>schläft</em> is the second."
      },
@@ -93,7 +93,7 @@ ARS.decks["lang.vi.de/errors"] = {
   {
    "id": "prose-poem",
    "title": "Ordinary speech and the poet",
-   "body": "<p><em>Gehte</em> in a student’s sentence is a barbarism. The past of <em>gehen</em> is <em>ging</em>. A poet may place words in an order that ordinary prose does not use, and that order is not the same error. The words are real German words.</p><p>Donatus marks the difference of setting. A barbarism belongs to ordinary speech. In a poem he calls the same departure in a word a metaplasm (<em>in poemate metaplasmus</em>). The license belongs to the poem. It does not make <em>gehte</em> the past of <em>gehen</em>.</p>",
+   "body": "<p>A poet may place German words in an order that ordinary prose does not use, but that order is not the same kind of departure as <em>gehte</em> in a student’s sentence, because the poet’s words are all real German words, whereas <em>gehte</em> is not a German form.</p><p>Donatus also distinguishes by setting. A barbarism belongs to ordinary speech, whereas in a poem he calls a departure in a single word a <strong>metaplasm</strong> (<em>in poemate metaplasmus</em>), a change of form allowed to the poet. That permission belongs to the poem; it does not make <em>gehte</em> the past of <em>gehen</em>.</p>",
    "qp": {
     "id": "q-prose-poem",
     "variants": [
@@ -110,10 +110,10 @@ ARS.decks["lang.vi.de/errors"] = {
       "explain": "In a poem Donatus calls the departure a metaplasm. In ordinary speech the same bad form is a barbarism. <em>Gehte</em> for <em>ging</em> is the barbarism."
      },
      {
-      "prompt": "Why does a poet’s unusual word order differ from <em>er gehte</em>?",
-      "options": ["The unusual order can use real words; <em>gehte</em> is not a German form", "Both are barbarisms, because both are written", "<em>Gehte</em> is a case ending, and word order is a gender", "There is no difference"],
+      "prompt": "Why does a poet’s unusual word order differ from <em>er laufte</em> for “he ran”?",
+      "options": ["The unusual order uses real words; <em>laufte</em> is not a German form", "Both are barbarisms, because both depart from ordinary prose", "Both are metaplasms, because both are unusual", "<em>Laufte</em> is a solecism, and the unusual order is a barbarism"],
       "answer": 0,
-      "explain": "<em>Gehte</em> is not the past of <em>gehen</em>. The past is <em>ging</em>. An unusual order keeps real words. That is not an error in one form."
+      "explain": "The past of <em>laufen</em> is <em>lief</em>, so <em>laufte</em> is not a German form, and in ordinary speech it is a barbarism. An unusual order keeps real words, so it is not an error in one form."
      }
     ]
    }
