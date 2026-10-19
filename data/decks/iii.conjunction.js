@@ -1,5 +1,5 @@
 /* III.13 The Conjunction [iii.conjunction]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 7 panels, 2 question points.
    Live material drawn on: DECKS.pos (the conjunction joins two extremes), DECKS.latpos. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -23,7 +23,20 @@ ARS.decks['iii.conjunction'] = {
 <p><strong>copulative</strong>, which join, as <i>et</i>, <i>-que</i>, <i>atque</i> (“and”);<br><strong>disjunctive</strong>, which separate or offer a choice, as <i>aut</i>, <i>vel</i>, <i>-ve</i> (“or”) and <i>nec</i>, <i>neque</i> (“nor”);<br><strong>expletive</strong>, which fill out or strengthen the sense, as <i>quidem</i> (“indeed”) and <i>saltem</i> (“at least”);<br><strong>causal</strong>, which state a cause or condition, as <i>sī</i> (“if”), <i>nisi</i> (“unless”), <i>nam</i> (“for”);<br><strong>rational</strong>, which draw a conclusion or give a reason, as <i>ergō</i> and <i>igitur</i> (“therefore”), <i>quia</i> and <i>quoniam</i> (“because,” “since”).</p>
 <p>English conjunctions can be classed in the same way: “and” is copulative, “or” and “nor” are disjunctive, “indeed” is expletive, “if” and “unless” are causal (in Donatus’s sense, conditional), and “therefore” and “because” are rational. So the power of a conjunction is the logical relation it signifies between the things it joins, and the reader who knows that relation understands how the thought proceeds.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the power of the conjunction, in paraphrase.`,
-  qpTodo: `The power of conjunctions: which kind is a given conjunction (<i>sīve</i>, <i>itaque</i>; “so,” “unless”), and what relation does it signify.` },
+  qp: { id: 'q-power', variants: [
+    { prompt: `In Donatus’s division by power, what kind of conjunction is Latin <i>sīve</i> (“or if,” “whether … or”)?`,
+      options: [`Copulative`, `Disjunctive`, `Expletive`, `Rational`],
+      answer: 1,
+      explain: `<i>Sīve</i> offers a choice between alternatives, as <i>aut</i> and <i>vel</i> do, so it is disjunctive. A copulative conjunction, such as <i>et</i>, simply joins.` },
+    { prompt: `In Donatus’s division by power, what kind of conjunction is Latin <i>itaque</i> (“and so,” “therefore”)?`,
+      options: [`Copulative`, `Causal`, `Rational`, `Disjunctive`],
+      answer: 2,
+      explain: `<i>Itaque</i> draws a conclusion from what precedes, as <i>ergō</i> and <i>igitur</i> do, so it is rational. A causal conjunction, such as <i>sī</i>, states a cause or condition.` },
+    { prompt: `In “Unless the wind drops, the boats will stay in harbor,” what relation does “unless” signify?`,
+      options: [`A choice between two things`, `A condition`, `A conclusion drawn from what precedes`, `A simple joining`],
+      answer: 1,
+      explain: `The boats will stay unless a condition is met, so “unless,” like <i>nisi</i>, signifies a condition; it is causal in Donatus’s sense. It offers no choice and draws no conclusion.` }
+  ]} },
 
 { id: 'coordinating',
   title: 'Coordinating and subordinating conjunctions',
@@ -54,7 +67,20 @@ ARS.decks['iii.conjunction'] = {
   body: `<p>Some words are conjunctions in one use and other parts of speech in another. English “that” is a conjunction in “I know that he came,” where it introduces a clause and refers to nothing; it is a relative pronoun in “the letter that I wrote,” where it refers to “the letter”; and it is a demonstrative in “that letter.” Latin <i>cum</i>, as we saw earlier, is a preposition in <i>cum lēgātīs</i> (“with the envoys”) and a conjunction in <i>cum vēnisset</i> (“when he had come”), and English “before” and “after” are prepositions, adverbs, or conjunctions according to their use.</p>
 <p>The test is the same as for every part of speech: what is the word doing in this sentence? A conjunction joins and refers to nothing; a relative pronoun joins and also refers to an antecedent; a preposition takes a noun as its object; an adverb determines another word without joining anything.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
-  qpTodo: `Conjunction or another part: in a given sentence, is “since” (or <i>quod</i>, “until”) a conjunction, a relative pronoun, a preposition, or an adverb, and why.` }
+  qp: { id: 'q-that', variants: [
+    { prompt: `In “Since the bridge was closed, we took the ferry,” what part of speech is “since”?`,
+      options: [`A preposition`, `An adverb`, `A conjunction`, `A relative pronoun`],
+      answer: 2,
+      explain: `“Since” introduces the clause “the bridge was closed” and joins it to the main clause, and it refers to nothing. So here it is a conjunction, giving the reason.` },
+    { prompt: `In “I have not seen him since Easter,” what part of speech is “since”?`,
+      options: [`A conjunction`, `An adverb`, `A relative pronoun`, `A preposition`],
+      answer: 3,
+      explain: `Here “since” takes a noun, “Easter,” as its object and relates it to “have not seen,” so it is a preposition. In “since the bridge was closed” the same word introduces a clause and is a conjunction.` },
+    { prompt: `In Latin <i>carmen quod scrīpsī</i> (“the poem that I wrote”), what part of speech is <i>quod</i>?`,
+      options: [`A conjunction, because it introduces a clause`, `A relative pronoun`, `An adverb modifying <i>scrīpsī</i>`, `A preposition`],
+      answer: 1,
+      explain: `<i>Quod</i> joins the clause to <i>carmen</i> (“poem”) and also refers to it: it is neuter singular like <i>carmen</i> and the object of <i>scrīpsī</i>. So it is a relative pronoun. In <i>laudō quod vēnit</i> (“I praise him because he came”), <i>quod</i> refers to nothing and is a conjunction.` }
+  ]} }
 
   ]
 };
