@@ -1,5 +1,5 @@
 /* VI.2 Barbarism [vi.barbarism]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 7 panels, 2 question points.
    Live material drawn on: DECKS.vices (3 panels), DECKS.latfaults; DECKS.figures (fault and license).
    Quintilian I.5.5–12 checked against the Perseus text of Butler's translation. */
 window.ARS = window.ARS || {};
@@ -30,7 +30,20 @@ ARS.decks['vi.barbarism'] = {
 <p>English barbarisms fall into the same four kinds:</p>
 <p><strong>addition</strong>: “mischievious” for “mischievous,” “athelete” for “athlete,” “drownded” for “drowned”;<br><strong>omission</strong>: “libary” for “library,” “probly” for “probably”;<br><strong>substitution</strong>: “brung” for “brought,” “excape” for “escape”;<br><strong>transposition</strong>: “nucular” for “nuclear,” “revelant” for “relevant.”</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.10, 12 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `The four ways: in a given barbarism (“realator” for “realtor,” “Artic” for “Arctic,” “expresso” for “espresso,” “perscription” for “prescription”), which of the four changes has been made, and what is the correct form.` },
+  qp: { id: 'q-four-ways', variants: [
+    { prompt: `In “realator” for “realtor,” which of the four changes has been made?`,
+      options: [`Addition`, `Omission`, `Substitution`, `Transposition`],
+      answer: 0,
+      explain: `A syllable has been added: “real-a-tor” for “real-tor.” The correct form is “realtor.”` },
+    { prompt: `In “Artic” for “Arctic,” which of the four changes has been made?`,
+      options: [`Addition`, `Omission`, `Substitution`, `Transposition`],
+      answer: 1,
+      explain: `A letter has been omitted: the first “c” of “Arctic.”` },
+    { prompt: `In “expresso” for “espresso,” which of the four changes has been made?`,
+      options: [`Addition`, `Omission`, `Substitution`, `Transposition`],
+      answer: 2,
+      explain: `One letter has been put in place of another: “x” for “s.” The correct form is “espresso.”` }
+  ]} },
 
 { id: 'forms',
   title: 'Barbarisms of form',
@@ -49,7 +62,20 @@ ARS.decks['vi.barbarism'] = {
   body: `<p>“He flaunted the rules,” meaning “he flouted them,” uses a real word in the wrong sense, whereas “heared” is not a word of standard English at all. A barbarism is an error in the form of a word; to use a correctly formed word in a sense that it does not have is a different error, which, as we have seen, is called an impropriety. Other common improprieties are “enormity” for “enormousness” and “disinterested” for “uninterested”; many speakers now accept the last, but careful usage still keeps the two words apart.</p>
 <p>The distinction matters because the remedy differs. A barbarism is corrected by restoring the right form of the word; an impropriety is corrected by choosing the right word. Both are errors in a single word, and so both belong with the barbarism rather than with the solecism, which lies in the arrangement of several words.</p>`,
   src: `Donatus, <i>Ars maior</i> III.3 (<i>acyrologia</i>), in paraphrase; standard English usage guides.`,
-  qpTodo: `Barbarism or impropriety: is a given error (“irregardless,” “fortuitous” for “fortunate,” “knowed”) an error of form or of sense, and how is it corrected.` },
+  qp: { id: 'q-impropriety', variants: [
+    { prompt: `Is “knowed” for “knew” an error of form or of sense?`,
+      options: [`Of form; it is a barbarism`, `Of sense; it is an impropriety`, `Of arrangement; it is a solecism`, `It is not an error`],
+      answer: 0,
+      explain: `“Knowed” follows the regular pattern, but usage has fixed “knew,” so the error lies in the form of the word. It is corrected by restoring the right form.` },
+    { prompt: `“It was a fortuitous meeting,” meaning a lucky one. In careful usage, what kind of error is this?`,
+      options: [`A barbarism of form`, `An impropriety`, `A solecism of arrangement`, `No error at all`],
+      answer: 1,
+      explain: `“Fortuitous” is a correctly formed word, but in careful usage it means “happening by chance,” not “lucky.” Using a real word in a sense it does not have is an impropriety.` },
+    { prompt: `How is an impropriety corrected?`,
+      options: [`By restoring the word’s right form`, `By rearranging the sentence`, `By choosing the right word`, `By adding a letter`],
+      answer: 2,
+      explain: `An impropriety uses a correctly formed word in the wrong sense, so it is corrected by choosing the word that has the sense intended; a barbarism is corrected by restoring the right form.` }
+  ]} },
 
 { id: 'license',
   title: 'Barbarism and license',
