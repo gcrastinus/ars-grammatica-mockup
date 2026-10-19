@@ -10,13 +10,13 @@ The changes from the mockup are these:
 - Seven section reviews (twelve since 17 Oct 2026) and three shared exercise buttons are added (see below).
 - Section III is retitled "The Parts of Speech" (*De partibus orationis*), because no deck treats analogy and anomaly; the criteria of correctness, including analogy, are treated in P.4.
 - Section I is named "Sign and Significant Voice," the same name as its exercise set.
-- Greek, French, and German have no decks of their own. They appear only as examples where they show something English and Latin do not.
+- Greek, French, and German have no decks of their own in the general course. They appear there only as examples where they show something English and Latin do not. What is particular to each language, including English and Latin, is on the per-section language screens (rule 1).
 
 ---
 
 ## Rules that apply to every item
 
-**1. Stable ids and optional language layers.** Every division has a stable id (given in brackets after each title, e.g. `[iii.noun-2]`). The id never changes when a title or a position changes, and progress is stored under it. Each general deck may later receive optional child layers attached under it (for example, "The Noun in English" and "The Noun in Latin" under `[iii.noun-2]`), each with its own id of the form `parent-id/layer` (`iii.noun-2/la`). The data should allow this without restructuring. Nothing is built for layers now.
+**1. Stable ids and the particular languages.** Every division has a stable id (given in brackets after each title, e.g. `[iii.noun-2]`). The id never changes when a title or a position changes, and progress is stored under it. Per-section language screens replace the reserved per-deck child layers (`iii.noun-2/la`). A language screen has the id `lang.<bar>.<code>` (for example `lang.iii-decl.grc`), and an item on it has the id `<screen id>/<slug>` (for example `lang.iii-decl.grc/article`). Those ids never change either. What each screen holds is recorded in LANGUAGES-LAYER-SPEC.md.
 
 **2. Question points.** Programmed-course questions appear at some cards, not on every card, and make the student connect and use what was learned. Every question point has exactly three variants (A, B, C).
 - A correct answer shows "Correct" and the explanation. A wrong answer shows "Incorrect," the right answer, and the explanation, then the next variant. After the third variant it cycles back through the same three until one is answered correctly.

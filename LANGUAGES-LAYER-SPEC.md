@@ -1,6 +1,6 @@
 # The Particular Languages Layer: specification and inventory
 
-Drafted 18 Oct 2026 from Timothy's voice-dictated design (18 Oct 2026, about 12:08 AM). It is a spec only; nothing is built. Later it moves into the mockup's ITEM-LIST.md (layout, ids) and EXERCISES-PLAN.md (contents, build order).
+Drafted 18 Oct 2026 from Timothy's voice-dictated design (18 Oct 2026, about 12:08 AM). The design is in Parts 1–3. What was carried over on 18 Oct 2026 is listed under Build notes. ITEM-LIST.md rule 1 now names the per-section screens in place of the reserved per-deck child layers.
 
 Section names and ids below are the mockup's (`data/structure.js`, read 18 Oct 2026). The old live app (`/workspace/ars-grammatica`) numbers its acts differently; the inventory maps its material onto the mockup's sections.
 
@@ -215,3 +215,37 @@ Built = enough for a language screen with light editing; partial = some material
 - Q1 heading: "The grammars of the particular languages" (same in every bar).
 - Q6 preposition: the preposition's language material goes on the second Section III bar, with the indeclinable parts, where the course teaches it.
 - Q5 gating: always open, with a quiet note "Best taken after the section."
+
+---
+
+## Build notes (18 Oct 2026)
+
+The nine bars and the 45 screens are in the mockup. Each bar is full width, the same minimum height as Cumulative Review, headed "The grammars of the particular languages," with the five buttons in the order English, Latin, Greek, French, German. The III-declinable bar stands after iii.review-declinable and before the label "The indeclinable parts." The other eight stand after that section's Cumulative Review bar. A button opens `lang.<bar>.<code>`. The screen has a band in that language's color, the title "<Language>: <section name>" (Greek also shows Ἑλληνική), the note "Best taken after the section," and "← All sections," which returns to that bar. The Recitation Tablet stays on the homepage only. Screen records are `data/languages/<bar>.<code>.js`. Decks are `data/decks/lang.<bar>.<code>/`. Exercises are `data/exercises/lang.<bar>.<code>/`. The general decks were not changed. The old app was read at `cebdc33` and nothing was pushed to it.
+
+A finished study tile shows "✓ Studied." A finished language exercise shows "✓ Finished." A language button shows a gold dot when any built item on its screen has been begun, and a check when every built item is finished. An empty screen shows no mark. A language item enters the cumulative review only after that study deck or that exercise has been finished.
+
+Old cards that had one question were not given invented B and C variants. The question became an exercise item. A set with fewer than three items repeats those items in A, B, and C under distinct ids. Options are shuffled on each visit. Where the correct option was a long stored sentence with a trailing clause, the clause was moved into the explanation, and only when the shortened wording stayed unique and still answered the question. No foreign form was invented. Passage sets, and a few short parallel labels, remain over the one-third cap. They are listed at the end of these notes.
+
+The German preposition table is on the III-indeclinable screen. The French article paradigm, including its contraction rows, stays on the III-declinable screen. The comparison card on the partitive and the contractions with *à* and *de* is on the III-indeclinable screen.
+
+Left in the old app, and not copied here: the generated Latin noun and verb drills (stem plus ending); the Greek, French, and German produce items (24, 21, and 22), which store an answer and no distractors; eight English decline items that restate the general distinction; the Latin scansion drill whose notation is not a student prompt; the generated English and Latin agreement drills; ten English form chips and six diagram chips that do not store which label is correct; and one comparison item (pc12) that is general doctrine. The clause corpus is a study deck only. The sixteen Greek hexameter lines are study panels, with the stored feet, not a scansion quiz.
+
+**II. The Matter of Speech.** English: syllable and stress (6 cards, 36 questions) and meter (6 cards, 32 questions). The first English card restates the syllable; the rest is stress, suffixes, the schwa, and the rhythm of English. Latin: meter names only (10 questions). More to come. Greek: syllable, quantity, and accent (cards, 14 questions), meter (cards, 5 questions), and the 16 hexameter lines. French: syllable and stress (cards, 14 questions) and meter (cards, 5 questions). German: syllable, length, and stress (cards, 14 questions) and meter (cards, 5 questions).
+
+**III, the declinable parts.** English: the accidents (cards, 18 questions) and agreement, case, and the verb (cards, 92 questions). Latin: the noun (cards, 5 questions), the verb (cards, 6 questions), inflection (cards), case (16), and declinable and indeclinable (34). Greek: accidents compared with Latin, paradigms, the sentence (40), declinable and indeclinable (15), case (11), parts of speech (12), and the article and the participle (cards, 8). French: accidents compared with Latin, paradigms, the sentence (40), declinable and indeclinable (13), case (10), and parts of speech (12). German: accidents compared with Latin, paradigms, the sentence (40), declinable and indeclinable (15), case (12), parts of speech (12), and the article (cards, 4).
+
+**III, the indeclinable parts.** English: the eight parts (cards, 102 questions) and a harder set (33). Latin: the eight parts (cards, 25) and prepositions and case (9). Greek: parts of speech (10), government (9), and particle cards. French: parts of speech (8), government (8), and the partitive and the contractions (1 card, 4 questions). German: particle and preposition cards, the preposition table, parts of speech (8), and government (8).
+
+**IV. Word formation.** Each language has the one stored card. English and Latin also have that card's one question as an exercise. All five say more to come.
+
+**V. Construction.** English: subject and predicate (cards, 103), the phrase (cards, 102), the clause (cards, 102), government (1), congruity (6), dependences (20), and cited sentences (12). Latin: the passive, the infinitive, and the participle (cards, 24), the subjunctive (cards, 40), building the sentence (cards, 6), more of the sentence (41), clauses (40), clauses in the authors (study only), government (8), congruity (38), dependences (44), and cited sentences (12). Greek: word order compared with Latin (cards), more of the sentence (48), voice and the infinitive and the participle (24), clauses (37), mood (31), agreement (16), congruity (9), and cited sentences (10). French: word order (cards), more of the sentence (48), the passive, the infinitive, and the participle (24), clauses and the participle (36), the subjunctive, the conditional, and the imperative (32), agreement (10), congruity (9), and cited sentences (11). German: word order (cards), more of the sentence (48), the passive, the infinitive, and the participle (24), clauses and word order (36), the Konjunktiv and the imperative (32), agreement (10), congruity (9), and cited sentences (10).
+
+**VI. Correctness and errors.** English: common faults (cards, 102) and barbarism and solecism (6). Latin: Donatus's barbarism, solecism, and metaplasm (cards, 2 questions) and barbarism and solecism (6). More to come. Greek, French, and German: barbarism and solecism only (7 each). More to come.
+
+**VII. Figures and tropes.** English: 10 questions. More to come. Latin: Donatus's figures and tropes (cards, 38 questions). Greek, French, and German: empty. More to come.
+
+**IX. Analysis.** English: the diagram (cards, 62), prose (15 passages, 63 questions), poetry (10 passages, 43). Latin: prose (63), poetry (52), the period (16), Livy (9), and Servius (12), with the passage decks. Greek: prose (65) and poetry (42). French: prose (56) and poetry (43). German: prose (59) and poetry (39). No marking drill was stored for Greek, French, or German.
+
+**X. Making.** All five screens are empty. More to come. No model passages were composed.
+
+Sets in which the correct option is still the longest in more than a third of the items: French syllable, set C (3 of 4); Greek parts of speech on the indeclinable screen, set C (2 of 3); French case, set B (2 of 3); Greek agreement, set C (4 of 5); French mood, set B (5 of 11); German agreement, set C (2 of 3); German cited sentences, set C (2 of 3). In these the correct label is longer by a few letters ("consonant" beside "vowel," "interjection" beside "adverb," "Indirect-object form" beside "Direct-object form," a verb form beside a shorter one, "does not agree in case" beside "in gender"). The prose and poetry sets of all five languages are also over the cap: the stored correct option is the full description of the clause, and cutting it would remove the answer. Distractors in the sets that were sampled are wrong answers, not true statements aimed beside the question. That check was not made item by item through the passage sets.
