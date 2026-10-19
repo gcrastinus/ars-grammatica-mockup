@@ -720,3 +720,27 @@ No new items were written, and no wording was changed: a check of the house rule
 | D | 20 | 9 | 3 | 4 | 4 | 3 · 4 · 3 · 4 · 3 · 3 |
 | E | 20 | 9 | 3 | 4 | 4 | 3 · 3 · 4 · 3 · 3 · 4 |
 | F | 20 | 9 | 3 | 4 | 4 | 4 · 4 · 3 · 3 · 3 · 3 |
+
+## AG. Log: Sections VI and VII card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
+
+Same rules as AE and AF: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries and Sections I–V, and earlier decks of VI–VII); closing clauses toward the following card where they fit; expand only as clarity needs; rules 27a and 27b (Latin left first where the figure or trope is studied in it). Doctrine, citations, ids, and question points unchanged; Timothy's earlier placements kept ("brung," "drownded," "excape," "I came, I saw, I conquered" on both schemata cards, Donatus's order of the tropes). One commit per deck; every changed file passed `node --check` and the load test. Four groups worked in parallel; afterward the lead replaced vi.solecism's *inter tē et ego* ("between you and I," in iii.preposition) with *videō tū* ("I see thou," for *videō tē*). Kept: John 1:1 on vii.schemata / anadiplosis (the Greek text is the classic example of the figure; i.ambiguity quotes the English for the pause). No new translations.
+
+**vi.usage**
+- criteria-again "lie" or "lay" ("who"/"whom" is in Section III); educated-usage "The data are" / "The data is" ("It is I" is in v.agreement); change: the wrong pointer to "nice" in Section IV replaced by "As we have seen, words change their meaning by usage," with "meat" (once any food; "sweetmeat"); kinds-of-error opens with "knowed" for "knew" and "The box of apples are heavy" (the Preliminaries' "brung" and "The list of books are" replaced).
+
+**vi.barbarism**
+- definition opens from "heared," "excetera," "sherbert," recalls the Preliminary definition, the closing restatement cut, ends toward writing and speech; forms "swimmed," "mouses," "buyed," Latin *parvior* for *minor*, *volit* for *vult*; impropriety "He flaunted the rules" (for "flouted"), "enormity," "disinterested" kept. "Brung," "drownded," "excape," and "o'er"/"e'en" kept where Timothy placed them.
+**vi.solecism**
+- definition opens with "The keys to the cabinet is missing" and "Let he who is ready begin" (for the Preliminaries' "The list of books are" and iii.preposition's "between you and I"); in-the-phrase argued on "keys"/"is," ends toward the one-word solecism; one-word "Whom did you call?" (Quintilian's own "Whom do I see?" kept); four-kinds "Us arrived first"; accidents *poēta clāra*, *mīlitēs pugnat* (*nauta* is now Section III's), "Him and her were invited"; english "When the vase struck the shelf, it cracked"; figure recalls Virgil's line from Section V; other-faults "The coach praised the player with the whistle."
+
+**vi.metaplasm**
+- definition opens with "'twas," "'neath," "'mid" (the forms the removing card teaches are left to it), ends toward the metaplasms that add; removing "'gainst"; between-words: ecthlipsis given with Donatus's *multum ille*, recalled from Section II.
+**vii.literal**
+- proper "heart" and "the heart of the city" ("the arm of God" is on the St. Thomas card); literal-figurative ends toward figurative uses that have become ordinary; augustine-signs opens from the parable of the lost sheep; literally: "icy" said of a greeting (the lion example appears twice already); grammar-task opens from "the morning of life" in a poem.
+
+**vii.schemata**
+- zeugma-syllepsis: "The father chose the wine, the mother the bread, and the children the songs" (v.figures has the king-and-queen sentence); syllepsis recalls Virgil's line on Juno's arms and chariot from Section V instead of quoting it again; prolepsis *alter Rōmam* (*in urbem* is in iii.preposition). Donatus's own examples and the Latin-first figure lines kept; "I came, I saw, I conquered" on both cards (Timothy).
+**vii.tropes**
+- metaphor opens from "A blanket of snow" ("The ship plowed the sea" is in vii.literal); Quintilian's lion distinction recalled in plain words, not quoted again; ends toward catachresis ("But a word may also be carried over where no proper word exists at all").
+- synecdoche "fifty souls were lost" ("our daily bread" is in i.functions); onomatopoeia "sizzle," "hiss," "cuckoo," "bang" ("buzz" is in Section I), with a recall that even imitative words are imposed.
+- Other cards already opened from English examples with English-first quotations; the authors' own examples kept (Donatus's Atlas and Turnus, Quintilian's *cano*/*canto*/*dico*, *mucrō*, Scipio).
