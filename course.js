@@ -1096,7 +1096,8 @@ function goHome(){
 }
 
 /* A finished study deck, exercise set, or section review is named once, on the main page.
-   Shown is recorded when that callout is closed, or when the tablet opens while it is up. */
+   Shown is recorded when the callout is displayed, so a later return home does not show it again.
+   Closing it, or opening the tablet while it is up, also clears anything still waiting. */
 function nudgeBag(){
   if (!store.reciteNudges || typeof store.reciteNudges !== 'object') store.reciteNudges = { shown: {}, pending: [] };
   if (!store.reciteNudges.shown || typeof store.reciteNudges.shown !== 'object') store.reciteNudges.shown = {};
@@ -1138,6 +1139,9 @@ function refreshReciteNudge(){
   el.hidden = false;
   if (icon) icon.classList.add('is-glow');
   document.body.classList.add('recite-nudge');
+  bag.shown[item.id] = true;
+  bag.pending = bag.pending.filter(p => !p || p.id !== item.id);
+  save();
 }
 
 /* ---------- controls ---------- */
