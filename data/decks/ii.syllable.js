@@ -30,10 +30,10 @@ ARS.decks['ii.syllable'] = {
       options: [`Two`, `Four`, `Three`, `One`],
       answer: 2,
       explain: `<i>Puella</i> is divided <i>pu-el-la</i>. The <i>u</i> and the <i>e</i> stand side by side, but they are not a diphthong, so each makes its own syllable. With the final <i>a</i>, the word has three vowels and three syllables.` },
-    { prompt: `Why does Latin <i>poena</i> (“penalty”) have two syllables and not three?`,
-      options: [`Because the n closes the first syllable`, `Because oe is a diphthong`, `Because a final a is not counted`, `Because o and e are never pronounced apart`],
+    { prompt: `Why does Latin <i>foedus</i> (“treaty”) have two syllables and not three?`,
+      options: [`Because the d closes the first syllable`, `Because oe is a diphthong`, `Because a final s is not counted`, `Because o and e are never pronounced apart`],
       answer: 1,
-      explain: `A diphthong is two vowels pronounced in one syllable, and it counts as one vowel. <i>Oe</i> is a diphthong, so <i>poena</i> is divided <i>poe-na</i>. Two vowels that are not a diphthong, as in <i>de-us</i>, make two syllables.` }
+      explain: `A diphthong is two vowels pronounced in one syllable, and it counts as one vowel. <i>Oe</i> is a diphthong, so <i>foedus</i> is divided <i>foe-dus</i>. Two vowels that are not a diphthong, as in <i>de-us</i>, make two syllables.` }
   ]} },
 
 { id: 'accidents',
@@ -60,18 +60,18 @@ ARS.decks['ii.syllable'] = {
 <p>A few letters need separate treatment. The double letter <i>x</i> counts as two consonants, so in <i>saxum</i> (“rock”) the first syllable is closed (<i>sac-sum</i> in sound). The pair <i>qu</i> counts as one consonant, so <i>aqua</i> (“water”) is <i>a-qua</i>. The breathing <i>h</i> does not count as a consonant at all. A compound word is divided between its parts: <i>ab-eō</i> (“I go away”), not <i>a-beō</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.`,
   qp: { id: 'q-latin-division', variants: [
-    { prompt: `How is <i>aqua</i> (“water”) divided into syllables?`,
-      options: [`aq-ua`, `a-qua`, `aqu-a`, `a-qu-a`],
+    { prompt: `How is <i>loquor</i> (“I speak”) divided into syllables?`,
+      options: [`loq-uor`, `lo-quor`, `loqu-or`, `lo-qu-or`],
       answer: 1,
-      explain: `The pair <i>qu</i> counts as one consonant, and a single consonant between two vowels goes with the following vowel. So <i>aqua</i> is divided <i>a-qua</i>, and its first syllable is open.` },
-    { prompt: `How is <i>patris</i> (“of the father”) divided in ordinary speech?`,
-      options: [`pat-ris`, `pa-tris`, `patr-is`, `pa-tr-is`],
+      explain: `The pair <i>qu</i> counts as one consonant, and a single consonant between two vowels goes with the following vowel. So <i>loquor</i> is divided <i>lo-quor</i>, and its first syllable is open.` },
+    { prompt: `How is <i>capra</i> (“she-goat”) divided in ordinary speech?`,
+      options: [`cap-ra`, `ca-pra`, `capr-a`, `ca-pr-a`],
       answer: 1,
-      explain: `When a mute (here <i>t</i>) is followed by a liquid (<i>r</i>), the two consonants usually go together with the following vowel, so the word is divided <i>pa-tris</i>. A poet may divide them, <i>pat-ris</i>, and that choice changes the length of the first syllable; but <i>pa-tris</i> is the ordinary division.` },
-    { prompt: `A single consonant between two vowels usually goes with the following vowel, yet <i>abeō</i> (“I go away”) is divided <i>ab-eō</i>. Why?`,
-      options: [`Because b is a mute`, `Because two vowels cannot stand side by side`, `Because it is a compound of <i>ab</i> and <i>eō</i>`, `Because its e is long`],
+      explain: `When a mute (here <i>p</i>) is followed by a liquid (<i>r</i>), the two consonants usually go together with the following vowel, so the word is divided <i>ca-pra</i>. A poet may divide them, <i>cap-ra</i>, and that choice changes the length of the first syllable; but <i>ca-pra</i> is the ordinary division.` },
+    { prompt: `A single consonant between two vowels usually goes with the following vowel, yet <i>subeō</i> (“I go under”) is divided <i>sub-eō</i>. Why?`,
+      options: [`Because b is a mute`, `Because two vowels cannot stand side by side`, `Because it is a compound of <i>sub</i> and <i>eō</i>`, `Because its e is long`],
       answer: 2,
-      explain: `A compound word is divided between its parts. <i>Abeō</i> is made of <i>ab</i> (“from”) and <i>eō</i> (“I go”), so it is divided <i>ab-eō</i> and not <i>a-beō</i>. The general rule for a single consonant gives way to the parts of the word.` }
+      explain: `A compound word is divided between its parts. <i>Subeō</i> is made of <i>sub</i> (“under”) and <i>eō</i> (“I go”), so it is divided <i>sub-eō</i> and not <i>su-beō</i>. The general rule for a single consonant gives way to the parts of the word.` }
   ]} },
 
 { id: 'english-syllable',
@@ -96,14 +96,14 @@ ARS.decks['ii.syllable'] = {
       options: [`le-mon`, `lem-on`, `lemo-n`, `It is one syllable`],
       answer: 1,
       explain: `The first vowel of “lemon” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>m</i> goes with the first syllable, “lem-on.”` },
-    { prompt: `Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>, but English “habit” is divided “hab-it.” Why do they differ?`,
+    { prompt: `Latin <i>rapit</i> (“he seizes”) is divided <i>ra-pit</i>, but English “rapid” is divided “rap-id.” Why do they differ?`,
       options: [`English divides every word after its consonants`, `English stressed short vowels do not end syllables`, `Latin has no short vowels`, `The English word comes from French`],
       answer: 1,
-      explain: `In Latin a single consonant between two vowels goes with the following vowel, so <i>ha-bet</i>. In English a short vowel that is stressed, as in “cat” or “bed,” does not end a syllable, so the consonant stays with it: “hab-it.” English does not divide every word after its consonants; “father” is divided “fa-ther.”` },
-    { prompt: `How is “walking” divided when it is broken at the end of a line?`,
-      options: [`wal-king`, `walk-ing`, `wa-lking`, `walki-ng`],
+      explain: `In Latin a single consonant between two vowels goes with the following vowel, so <i>ra-pit</i>. In English a short vowel that is stressed, as in “cat” or “bed,” does not end a syllable, so the consonant stays with it: “rap-id.” English does not divide every word after its consonants; “father” is divided “fa-ther.”` },
+    { prompt: `How is “jumping” divided when it is broken at the end of a line?`,
+      options: [`jum-ping`, `jump-ing`, `ju-mping`, `jumpi-ng`],
       answer: 1,
-      explain: `In writing, the conventions of the dictionaries consider the parts of the word as well as the sound. “Walking” is made of “walk” and the ending “-ing,” so it is divided “walk-ing.”` }
+      explain: `In writing, the conventions of the dictionaries consider the parts of the word as well as the sound. “Jumping” is made of “jump” and the ending “-ing,” so it is divided “jump-ing.”` }
   ]} },
 
 { id: 'to-quantity',
