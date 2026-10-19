@@ -70,10 +70,10 @@ ARS.decks['ii.punctuation'] = {
       options: [`The clause picks out one of several brothers`, `The speaker has only one brother`, `The clause is a question`, `They mark a pause but change nothing`],
       answer: 1,
       explain: `Set off by commas, “who lives in Boston” adds a fact about the brother already known, so the speaker has one brother. Without the commas, “My brother who lives in Boston is a doctor” picks out one brother from others, as “The students who had finished went home” picks out some of the students.` },
-    { prompt: `In <i>ibis redibis nunquam per bella peribis</i>, what does a pause after <i>nunquam</i> make the oracle say?`,
-      options: [`“You will go, you will return, never in war will you perish”`, `“You will go, you will never return, in war you will perish”`, `“You will never go, you will return, in war you will perish”`, `“You will go and return, and you will never go to war”`],
+    { prompt: `A message said to have been sent about the imprisoned King Edward II, <i>Edwardum occidere nolite timere bonum est</i>, was written without punctuation. What does a pause after <i>timere</i> make it say?`,
+      options: [`“Do not kill Edward; it is good to fear”`, `“Do not fear to kill Edward; it is good”`, `“Edward does not wish to kill; to fear is good”`, `“Do not fear Edward, and do not kill him”`],
       answer: 1,
-      explain: `A pause after <i>nunquam</i> joins “never” to <i>redibis</i>, “you will return,” so the soldier will never return and will perish in war. A pause after <i>redibis</i> joins <i>nunquam</i> to <i>peribis</i> and gives the opposite prophecy. The words are the same; only the division differs.` }
+      explain: `A pause after <i>timere</i> joins <i>nolite timere</i>, “do not fear,” to <i>Edwardum occidere</i>, “to kill Edward,” and leaves <i>bonum est</i>, “it is good,” as a clause of its own. A pause after <i>nolite</i> gives the opposite command: “Do not kill Edward; it is good to fear.” The words are the same; only the division differs.` }
   ]}},
 
 { id: 'to-meter',
