@@ -19,7 +19,7 @@ ARS.languages["lang.iii-decl.en"] = {
    "kind": "exercise",
    "built": true,
    "title": "The Accidents of English",
-   "desc": "18 questions."
+   "desc": "45 questions."
   },
 {
    "id": "lang.iii-decl.en/form",
@@ -33,7 +33,7 @@ ARS.languages["lang.iii-decl.en"] = {
    "kind": "exercise",
    "built": true,
    "title": "Agreement and Case",
-   "desc": "92 questions."
+   "desc": "65 questions."
   }
 
  ]
