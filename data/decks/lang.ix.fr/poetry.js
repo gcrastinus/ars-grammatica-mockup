@@ -4,12 +4,12 @@ ARS.decks["lang.ix.fr/poetry"] = {
  "id": "lang.ix.fr/poetry",
  "title": "French Poetry",
  "sub": "Ten passages of French verse, read part by part",
- "sources": "Lawless",
+ "sources": "Lawless; the translations of the verse, other than Mongan’s prose for Corneille, are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
    "title": "Racine, <i>Phèdre</i> I.1.1–4 · Alexandrine",
-   "body": "<p>Le dessein en est pris : je pars, cher Théramène,<br>Et quitte le séjour de l’aimable Trézène.<br>Dans le doute mortel dont je suis agité,<br>Je commence à rougir de mon oisiveté.</p><p>My mind is settled, dear Theramenes,<br>And I can stay no more in lovely Troezen.<br>In doubt that racks my soul with mortal anguish,<br>I grow ashamed of such long idleness.<br>— Robert Bruce Boswell</p><p><strong>Context.</strong> Hippolytus, son of Theseus, tells his tutor Theramenes that he will go in search of his father. The lines are alexandrines, of twelve syllables, rhyming in pairs.</p>"
+   "body": "<p>Le dessein en est pris : je pars, cher Théramène,<br>Et quitte le séjour de l’aimable Trézène.<br>Dans le doute mortel dont je suis agité,<br>Je commence à rougir de mon oisiveté.</p><p>The plan for it is made: I am leaving, dear Theramenes,<br>and I leave the dwelling of lovely Troezen.<br>In the mortal doubt by which I am shaken,<br>I begin to blush for my idleness.</p><p><strong>Context.</strong> Hippolytus, son of Theseus, tells his tutor Theramenes that he will go in search of his father. The lines are alexandrines, of twelve syllables, rhyming in pairs.</p>"
   },
   {
    "id": "poetry-2",
@@ -39,7 +39,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-7",
    "title": "Ronsard, <i>Odes</i> “Mignonne, allons voir si la rose” 1–6 · Octosyllable",
-   "body": "<p>Mignonne, allons voir si la rose<br>Qui ce matin avait déclose<br>Sa robe de pourpre au soleil,<br>A point perdu cette vesprée<br>Les plis de sa robe pourprée,<br>Et son teint au vôtre pareil.</p><p>See, Mignonne, has not the Rose,<br>That this morning did unclose<br>Her purple mantle to the light,<br>Lost, before the day be dead,<br>The glory of her raiment red,<br>Her color, bright as yours is bright?<br>— Andrew Lang</p><p><strong>Context.</strong> Ronsard asks a young woman to come and see whether the rose that opened this morning has faded by evening; the poem ends with a call to gather youth while it lasts. Each line has eight syllables, or nine with a final mute <em>e</em>.</p>"
+   "body": "<p>Mignonne, allons voir si la rose<br>Qui ce matin avait déclose<br>Sa robe de pourpre au soleil,<br>A point perdu cette vesprée<br>Les plis de sa robe pourprée,<br>Et son teint au vôtre pareil.</p><p>Darling, let us go and see whether the rose<br>that this morning had opened<br>its purple gown to the sun<br>has at all lost, this evening,<br>the folds of its purple gown,<br>and its color, like yours.</p><p><strong>Context.</strong> Ronsard asks a young woman to come and see whether the rose that opened this morning has faded by evening; the poem ends with a call to gather youth while it lasts. Each line has eight syllables, or nine with a final mute <em>e</em>.</p>"
   },
   {
    "id": "poetry-8",
@@ -64,7 +64,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-12",
    "title": "Verlaine, <i>Romances sans paroles</i> “Ariettes oubliées” III.1–8 · Hexasyllable",
-   "body": "<p>Il pleure dans mon cœur<br>Comme il pleut sur la ville ;<br>Quelle est cette langueur<br>Qui pénètre mon cœur ?<br><br>Ô bruit doux de la pluie<br>Par terre et sur les toits !<br>Pour un cœur qui s’ennuie,<br>Ô le chant de la pluie !</p><p>It weeps in my heart<br>As it rains on the town.<br>What is this dull smart<br>Possessing my heart?<br><br>Soft sound of the rain<br>On the ground and the roofs!<br>To a heart in pain,<br>O the song of the rain!<br>— Gertrude Hall</p><p><strong>Context.</strong> Verlaine makes an impersonal verb of weeping on the model of <em>il pleut</em>, “it rains.” The lines have six syllables.</p>"
+   "body": "<p>Il pleure dans mon cœur<br>Comme il pleut sur la ville ;<br>Quelle est cette langueur<br>Qui pénètre mon cœur ?<br><br>Ô bruit doux de la pluie<br>Par terre et sur les toits !<br>Pour un cœur qui s’ennuie,<br>Ô le chant de la pluie !</p><p>It weeps in my heart<br>as it rains on the town;<br>what is this languor<br>that pierces my heart?<br><br>O sweet sound of the rain<br>on the ground and on the roofs!<br>For a heart that is weary,<br>O the song of the rain!</p><p><strong>Context.</strong> Verlaine makes an impersonal verb of weeping on the model of <em>il pleut</em>, “it rains.” The lines have six syllables.</p>"
   },
   {
    "id": "poetry-13",
@@ -94,7 +94,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-18",
    "title": "Charles d’Orléans, <i>Rondeaux</i> “Le temps a laissié son manteau” 1–4 · Octosyllable",
-   "body": "<p>Le temps a laissié son manteau<br>De vent, de froidure et de pluye,<br>Et s’est vestu de brouderie,<br>De soleil luyant, cler et beau.</p><p>The year has changed his mantle cold<br>Of wind, of rain, of bitter air;<br>And he goes clad in cloth of gold,<br>Of laughing suns and season fair;<br>— Andrew Lang</p><p><strong>Context.</strong> This is a rondeau of the fifteenth century, in the spelling of its time: <em>laissié</em> for <em>laissé</em>, <em>pluye</em> for <em>pluie</em>, <em>vestu</em> for <em>vêtu</em>, <em>luyant</em> for <em>luisant</em>, and <em>cler</em> for <em>clair</em>. The line is the octosyllable, of eight syllables.</p>"
+   "body": "<p>Le temps a laissié son manteau<br>De vent, de froidure et de pluye,<br>Et s’est vestu de brouderie,<br>De soleil luyant, cler et beau.</p><p>The season has left off his cloak<br>of wind, of cold, and of rain,<br>and has clothed himself with embroidery<br>of shining sun, clear and fair.</p><p><strong>Context.</strong> This is a rondeau of the fifteenth century, in the spelling of its time: <em>laissié</em> for <em>laissé</em>, <em>pluye</em> for <em>pluie</em>, <em>vestu</em> for <em>vêtu</em>, <em>luyant</em> for <em>luisant</em>, and <em>cler</em> for <em>clair</em>. The line is the octosyllable, of eight syllables.</p>"
   },
   {
    "id": "poetry-19",
@@ -164,7 +164,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-32",
    "title": "Ronsard, <i>Sonnets pour Hélène</i> II.24.1–4 · Alexandrine",
-   "body": "<p>Quand vous serez bien vieille, au soir, à la chandelle,<br>Assise auprès du feu, dévidant et filant,<br>Direz, chantant mes vers, en vous émerveillant :<br>Ronsard me célébrait du temps que j’étais belle.</p><p>When you are very old, at evening<br>You’ll sit and spin beside the fire, and say,<br>Humming my songs, “Ah well, ah well-a-day!<br>When I was young, of me did Ronsard sing.”<br>— Andrew Lang</p><p><strong>Context.</strong> Ronsard imagines the woman he loves grown old, remembering that a poet once praised her. The poem is a sonnet in alexandrines.</p>"
+   "body": "<p>Quand vous serez bien vieille, au soir, à la chandelle,<br>Assise auprès du feu, dévidant et filant,<br>Direz, chantant mes vers, en vous émerveillant :<br>Ronsard me célébrait du temps que j’étais belle.</p><p>When you are very old, in the evening, by the candle,<br>seated near the fire, winding and spinning,<br>you will say, singing my verses, marveling:<br>“Ronsard praised me in the days when I was beautiful.”</p><p><strong>Context.</strong> Ronsard imagines the woman he loves grown old, remembering that a poet once praised her. The poem is a sonnet in alexandrines.</p>"
   },
   {
    "id": "poetry-33",
@@ -189,7 +189,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-37",
    "title": "Du Bellay, <i>Divers jeux rustiques</i> “D’un vanneur de blé aux vents” 1–6 · Lines of six syllables",
-   "body": "<p>À vous, troupe légère,<br>Qui d’aile passagère<br>Par le monde volez,<br>Et d’un sifflant murmure<br>L’ombrageuse verdure<br>Doucement ébranlez,</p><p>To you, troop so fleet,<br>That with winged wandering feet,<br>Through the wide world pass,<br>And with soft murmuring<br>Toss the green shades of spring<br>In woods and grass,<br>— Andrew Lang</p><p><strong>Context.</strong> A winnower of grain calls on the winds. The sentence begins with its indirect object, <em>à vous</em>, and the verb, “I offer,” does not come until the seventh line, after the passage ends.</p>"
+   "body": "<p>À vous, troupe légère,<br>Qui d’aile passagère<br>Par le monde volez,<br>Et d’un sifflant murmure<br>L’ombrageuse verdure<br>Doucement ébranlez,</p><p>To you, light band,<br>who with passing wing<br>fly through the world,<br>and with a whistling murmur<br>the shady green<br>gently shake,</p><p><strong>Context.</strong> A winnower of grain calls on the winds. The sentence begins with its indirect object, <em>à vous</em>, and the verb, “I offer,” does not come until the seventh line, after the passage ends.</p>"
   },
   {
    "id": "poetry-38",
@@ -209,7 +209,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-41",
    "title": "Racine, <i>Phèdre</i> I.3.273–276 · Alexandrine",
-   "body": "<p>Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I looked, alternately turned pale and blushed<br>To see him, and my soul grew all distraught;<br>A mist obscured my vision, and my voice<br>Faltered, my blood ran cold, then burned like fire;<br>— Robert Bruce Boswell</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The passé simple gives each event once and complete; the imperfect gives the states that lasted.</p>"
+   "body": "<p>Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I saw him, I blushed, I grew pale at the sight of him;<br>a trouble arose in my distraught soul;<br>my eyes no longer saw, I could not speak;<br>I felt my whole body both freeze and burn:</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The passé simple gives each event once and complete; the imperfect gives the states that lasted.</p>"
   },
   {
    "id": "poetry-42",
@@ -234,7 +234,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-46",
    "title": "Verlaine, <i>Poèmes saturniens</i> “Mon rêve familier” 1–4 · Alexandrine",
-   "body": "<p>Je fais souvent ce rêve étrange et pénétrant<br>D’une femme inconnue, et que j’aime, et qui m’aime,<br>Et qui n’est, chaque fois, ni tout à fait la même<br>Ni tout à fait une autre, et m’aime et me comprend.</p><p>Oft do I dream this strange and penetrating dream:</p>\n<p>An unknown woman, whom I love, who loves me well,<br>Who does not every time quite change, nor yet quite dwell<br>The same—and loves me well, and knows me as I am.<br>— Gertrude Hall</p><p><strong>Context.</strong> These lines open a sonnet. They make one sentence of four lines, in which a woman is named and then a series of relative clauses joined by <em>et</em> tells what she is.</p>"
+   "body": "<p>Je fais souvent ce rêve étrange et pénétrant<br>D’une femme inconnue, et que j’aime, et qui m’aime,<br>Et qui n’est, chaque fois, ni tout à fait la même<br>Ni tout à fait une autre, et m’aime et me comprend.</p><p>I often have this strange and piercing dream<br>of an unknown woman, whom I love, and who loves me,<br>and who is, each time, neither quite the same<br>nor quite another, and loves me and understands me.</p><p><strong>Context.</strong> These lines open a sonnet. They make one sentence of four lines, in which a woman is named and then a series of relative clauses joined by <em>et</em> tells what she is.</p>"
   },
   {
    "id": "poetry-47",
