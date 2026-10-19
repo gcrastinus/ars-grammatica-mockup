@@ -209,17 +209,30 @@
     host.appendChild(b);
   };
 
+  /* The last section that carries a roman numeral is the Final Review. */
+  function lastNumberedSection(){
+    let last = null;
+    (ARS.structure || []).forEach(sec => { if (sec && sec.roman) last = sec; });
+    return last;
+  }
+  function reviewHeading(sec){
+    const last = lastNumberedSection();
+    if (last && sec && sec.id === last.id) return { title: 'Final Review', sub: 'The whole course' };
+    return { title: 'Cumulative Review', sub: cumulativeRangeLabel(sec.roman) };
+  }
+
   root.cumulativeBar = function (sec) {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'cumul-bar';
     b.dataset.section = sec.id;
+    const head = reviewHeading(sec);
     const h = document.createElement('span');
     h.className = 'cumul-h';
-    h.textContent = 'Cumulative Review';
+    h.textContent = head.title;
     const p = document.createElement('span');
     p.className = 'cumul-range';
-    p.textContent = cumulativeRangeLabel(sec.roman);
+    p.textContent = head.sub;
     b.appendChild(h);
     b.appendChild(p);
     b.addEventListener('click', () => startCumulative(sec.id));
@@ -436,11 +449,11 @@
     const gen = ++cumulGen;
     const sec = (ARS.structure || []).find(s => s.id === sectionId);
     if (!sec) return;
-    const label = cumulativeRangeLabel(sec.roman);
+    const head = reviewHeading(sec);
     location.hash = 'cumul/' + sectionId;
-    $('ex-kind').textContent = 'Cumulative Review';
-    $('ex-title').textContent = 'Cumulative Review';
-    $('ex-sub').textContent = label;
+    $('ex-kind').textContent = head.title;
+    $('ex-title').textContent = head.title;
+    $('ex-sub').textContent = head.sub;
     $('ex-body').innerHTML = '<p class="ex-empty">The questions are being gathered.</p>';
     show('scr-ex');
     const anyDone = rangeSections(sectionId).some(s => s.items.some(studyDone)) || languageItemDone(sectionId);
@@ -458,9 +471,9 @@
       runQueue({
         items: items,
         hash: 'cumul/' + sectionId,
-        kind: 'Cumulative Review',
-        title: 'Cumulative Review',
-        sub: label
+        kind: head.title,
+        title: head.title,
+        sub: head.sub
       });
     }).catch(() => {
       if (gen !== cumulGen) return;
