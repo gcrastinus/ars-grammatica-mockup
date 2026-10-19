@@ -14,8 +14,7 @@ ARS.exercises['x.ex.imitation'] = {
   {
    "deck": "x.imitation",
    "cards": [
-    "tradition",
-    "petrarch"
+    "imitation"
    ]
   }
  ],
