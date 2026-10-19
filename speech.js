@@ -153,21 +153,30 @@
     const parts = [];
     const title = $('deck-title');
     const sub = $('deck-sub');
-    if (title) pushText(parts, title.innerText || title.textContent);
-    if (sub) pushText(parts, sub.innerText || sub.textContent);
+    /* The deck's title and subtitle are read only on its first card; after that, only the card itself. */
+    const cnt = $('deck-count');
+    const first = !cnt || /^Panel 1 of/.test(normalizeText(cnt.textContent));
+    if (first && title) pushText(parts, title.innerText || title.textContent);
+    if (first && sub) pushText(parts, sub.innerText || sub.textContent);
     const body = $('deck-body');
     if (body) walk(body, parts, { skipButtons:false });
     return joinParts(parts);
   }
 
+  /* Exercises are not read aloud, except a question that carries a quoted passage:
+     a passage box, a prompt of several lines, or a prompt long enough to hold a paragraph. */
+  function hasPassage(body){
+    if (body.querySelector('.psg-fixed, .q-passage, .q-original, blockquote')){
+      const t = normalizeText(Array.from(body.querySelectorAll('.psg-fixed, .q-passage, .q-original, blockquote')).map(e => e.textContent).join(' '));
+      if (t.length >= 120) return true;
+    }
+    return Array.from(body.querySelectorAll('.q-prompt')).some(el =>
+      el.querySelector('br') || normalizeText(el.textContent).length >= 200);
+  }
   function collectExText(){
     const parts = [];
-    const title = $('ex-title');
-    const sub = $('ex-sub');
-    if (title) pushText(parts, title.innerText || title.textContent);
-    if (sub) pushText(parts, sub.innerText || sub.textContent);
     const body = $('ex-body');
-    if (body) walk(body, parts, { skipButtons:false });
+    if (body && hasPassage(body)) walk(body, parts, { skipButtons:false });
     return joinParts(parts);
   }
 
@@ -241,7 +250,8 @@
   function startSpeak(){
     const text = collectSpeakText();
     if (!text){
-      speakChunks(['There is nothing to read on this screen.']);
+      const scr = document.querySelector('.screen.active');
+      speakChunks([scr && scr.id === 'scr-ex' ? 'Exercises are read aloud only when a question quotes a passage.' : 'There is nothing to read on this screen.']);
       return;
     }
     speakChunks(chunkText(text));
