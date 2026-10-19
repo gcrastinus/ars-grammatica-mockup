@@ -1,5 +1,5 @@
 /* III.7 The Pronoun [iii.pronoun]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: Pronouns (not yet written).
+   Plan (ITEM-LIST.md): 10 panels, 3 question points. Exercise: Pronouns (not yet written).
    Live material drawn on: DECKS.enacc (the English personal pronouns: case, person, number, gender); DECKS.pos (the pronoun). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -22,7 +22,20 @@ ARS.decks['iii.pronoun'] = {
   body: `<p>“I,” “you,” and “she” refer to definite persons in the situation of speaking, whereas “anybody” and “whatever” do not; they leave the person to be found or leave it unknown. For the pronoun, therefore, <strong>quality</strong> is the distinction between definite and indefinite pronouns. <strong>Definite</strong> pronouns are those that refer to a definite person: <i>ego</i> (“I”), <i>tū</i> (“you”), <i>ille</i> (“he,” “that one”). <strong>Indefinite</strong> pronouns do not refer to a definite person: <i>quis</i>, <i>quae</i>, <i>quod</i> (“who?” “anyone”).</p>
 <p>Donatus states the distinction: “pronouns are either definite or indefinite” (<i>aut enim finita sunt pronomina aut infinita</i>; <i>Ars minor</i>). So the quality of the pronoun concerns how definitely it refers, whereas the quality of the noun concerns whether it names one thing or a kind. The other new accident, person, concerns the act of speaking itself.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the quality of the pronoun (the Latin).`,
-  qpTodo: `Definite or indefinite: is a given pronoun (<i>nōs</i>, <i>quisquam</i>, “we,” “somebody”) definite or indefinite, and why.` },
+  qp: { id: 'q-quality', variants: [
+    { prompt: `Is Latin <i>nōs</i> (“we”) a definite or an indefinite pronoun?`,
+      options: [`Definite, because it includes the speaker`, `Indefinite, because it refers to many people`, `Indefinite, because it has no gender`, `Definite, because it is a noun`],
+      answer: 0,
+      explain: `<i>Nōs</i> refers to definite persons in the situation of speaking, the speaker and those with him, so it is definite. Referring to several people does not make a pronoun indefinite, and the first-person pronouns have no gender because the speaker is present.` },
+    { prompt: `Is Latin <i>quisquam</i> (“anyone”) a definite or an indefinite pronoun?`,
+      options: [`Definite`, `Indefinite`, `Neither, because it is a noun`, `Both`],
+      answer: 1,
+      explain: `<i>Quisquam</i> refers to a person without saying which person, so it is indefinite, like <i>quis</i> (“anyone”). A definite pronoun such as <i>ego</i> or <i>tū</i> refers to a definite person.` },
+    { prompt: `Why is “somebody” an indefinite pronoun?`,
+      options: [`Because it has no plural`, `Because it does not say which person is meant`, `Because it names a kind of person, as a common noun does`, `Because it is a compound`],
+      answer: 1,
+      explain: `“Somebody” refers to a person but leaves the person unknown, which is Donatus’s indefinite quality. It does not name a kind, as a common noun does, and being a compound is a matter of figure, not of quality.` }
+  ]} },
 
 { id: 'person',
   title: 'Person',
@@ -47,7 +60,20 @@ ARS.decks['iii.pronoun'] = {
   body: `<p>For the pronoun of the third person English has “he,” “she,” and “it” in the singular and “they” in the plural. Latin has no single personal pronoun of the third person. It uses the demonstrative <i>is</i>, <i>ea</i>, <i>id</i> (“he,” “she,” “it”; “that”), or <i>ille</i>, <i>illa</i>, <i>illud</i>, which have all three genders.</p>
 <p>A pronoun of the third person refers to something named elsewhere, usually earlier, in the sentence or the conversation. The noun to which it refers is called its <strong>antecedent</strong> (Latin <i>antecēdēns</i>, “going before”). In “Helen found the key, and she kept it,” the antecedent of “she” is “Helen” and the antecedent of “it” is “the key.” The pronoun takes the gender and number of its antecedent, but its case depends on its own use in its clause: in <i>Gāium vīdī et eī epistulam dedī</i> (“I saw Gaius and gave him a letter”), <i>eī</i> is masculine singular like <i>Gāium</i>, but dative, because it is the indirect object of <i>dedī</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 146, 296–297, in paraphrase.`,
-  qpTodo: `Antecedent and case: in a given sentence, what is the antecedent of the pronoun, which accidents does the pronoun take from it (gender, number), and which does it not (case).` },
+  qp: { id: 'q-third-person', variants: [
+    { prompt: `In “The gardener lost the spade, and he searched for it,” what is the antecedent of “it”?`,
+      options: [`“The gardener”`, `“the spade”`, `“he”`, `There is none`],
+      answer: 1,
+      explain: `The antecedent is the noun to which the pronoun refers. “It” refers to the spade, so “the spade” is its antecedent; the antecedent of “he” is “the gardener.”` },
+    { prompt: `In <i>Iūlia vēnit et eam salūtāvī</i> (“Julia came, and I greeted her”), which accidents does <i>eam</i> take from its antecedent <i>Iūlia</i>?`,
+      options: [`Case only`, `Gender, number, and case`, `Number only`, `Gender and number, but not case`],
+      answer: 3,
+      explain: `<i>Eam</i> is feminine and singular, like <i>Iūlia</i>, but it is accusative, because it is the object of <i>salūtāvī</i>, whereas <i>Iūlia</i> is the nominative subject of <i>vēnit</i>. A pronoun takes its case from its use in its own clause.` },
+    { prompt: `In “The queen arrived, and the crowd cheered her,” why is “her” in the objective case, though “the queen” is a subject?`,
+      options: [`Because it takes its case from its antecedent`, `Because “her” is a possessive pronoun`, `Because it is the object in its own clause`, `Because English pronouns have only one case`],
+      answer: 2,
+      explain: `A pronoun takes the gender and number of its antecedent, but its case comes from its own clause. In “the crowd cheered her,” “her” is the object of “cheered,” so it is objective.` }
+  ]} },
 
 { id: 'demonstratives',
   title: 'Demonstrative pronouns',
@@ -72,7 +98,20 @@ ARS.decks['iii.pronoun'] = {
   body: `<p>In “Marcus praises himself,” <i>Marcus sē laudat</i>, the one praised is the one who praises. A pronoun that refers back in this way to the subject of its own clause is a <strong>reflexive</strong> pronoun. Latin has <i>sē</i> (“himself,” “herself,” “itself,” “themselves”); English has “myself,” “yourself,” “himself,” and the rest. The <strong>possessive</strong> pronouns are adjectives formed from the personal pronouns: <i>meus</i> (“my”), <i>tuus</i> (“your”), <i>suus</i> (“his own,” “her own,” “their own”).</p>
 <p>Latin distinguishes here what English often leaves ambiguous. In “Marcus told Titus that he had lost his book,” we cannot tell whose book is meant. Latin distinguishes <i>suum librum</i> (“his own book,” the subject’s) from <i>eius librum</i> (“his book,” someone else’s). So the Latin reflexive removes an ambiguity of the kind we saw in Section I, and an English writer must often rephrase the sentence to remove it.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 144–145, 299–302, in paraphrase.`,
-  qpTodo: `Reflexive and possessive: in a given Latin sentence, does <i>suus</i> or <i>eius</i> refer to the subject, and how would English make the same distinction.` },
+  qp: { id: 'q-reflexive-possessive', variants: [
+    { prompt: `In <i>Lūcia amīcam suam vocat</i> (“Lucy calls her friend”), whose friend is meant?`,
+      options: [`Lucy’s own friend`, `Someone else’s friend`, `It cannot be told`, `The hearer’s friend`],
+      answer: 0,
+      explain: `<i>Suus</i> refers back to the subject of its clause, so <i>amīcam suam</i> is Lucy’s own friend. To speak of another woman’s friend, Latin would say <i>amīcam eius</i>.` },
+    { prompt: `In <i>Mārcus equum eius vendidit</i> (“Marcus sold his horse”), whose horse is meant?`,
+      options: [`Marcus’s own horse`, `Either, as in English`, `Another man’s horse`, `No one’s`],
+      answer: 2,
+      explain: `<i>Eius</i> (“his”) refers to someone other than the subject. If the horse were Marcus’s own, Latin would say <i>equum suum</i>. So the Latin is clear where the English “his” is not.` },
+    { prompt: `In “Paul told James that he had lost his sword,” we cannot tell whose sword is meant. Which Latin possessive, agreeing with <i>gladium</i> (“sword”), would show that the sword is Paul’s own?`,
+      options: [`<i>eius</i>`, `<i>suum</i>`, `<i>tuum</i>`, `<i>meum</i>`],
+      answer: 1,
+      explain: `<i>Suus</i> refers back to the subject, here Paul, the one who speaks, so <i>suum</i> shows that the sword is his own. <i>Eius</i> would point to someone else. English must rephrase to say the same, for example “Paul told James, ‘I have lost my sword.’”` }
+  ]} },
 
 { id: 'clear-reference',
   title: 'Clear reference',
