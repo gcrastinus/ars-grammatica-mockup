@@ -12,8 +12,10 @@ ARS.decks['iii.adverb'] = {
 
 { id: 'adverb',
   title: 'The adverb and its accidents',
-  body: `<p>We have completed the declinable parts of speech and turn now to the four indeclinable parts, which keep one form. The first is the adverb. In “We walked slowly” and “He arrived late,” the words “slowly” and “late” add something to the verbs “walked” and “arrived”: they tell how we walked and when he arrived. We have seen Donatus’s definition: a part of speech that, added to a verb, makes its meaning clear and completes it. Its name, <i>adverbium</i>, means “what is added to the verb,” and the modists explain it as signifying by the mode of determining a word that signifies as becoming.</p>
-<p>Donatus gives the adverb three accidents: signification, comparison, and figure (<i>significatio, comparatio, figura</i>; <i>Ars minor</i>). The adverb has no case, number, gender, tense, or person, because it does not signify a thing as stable or as becoming but determines another word. Its accidents concern what kind of determination it gives (signification), how much (comparison), and how it is made (figure).</p>`,
+  body: `<p>In “We walked slowly” and “He arrived late,” the words “slowly” and “late” add something to the verbs “walked” and “arrived”: they tell how we walked and when he arrived. Such words are adverbs. With the participle we completed the declinable parts of speech, and the adverb is the first of the four indeclinable parts, which keep one form. We have seen Donatus’s definition of the adverb: a part of speech that, added to a verb, makes its meaning clear and completes it. Its name, <i>adverbium</i>, means “what is added to the verb,” and the modists explain it as signifying by the mode of determining a word that signifies as becoming.</p>
+<p>Donatus gives the adverb three accidents (<i>Ars minor</i>):</p>
+<p><strong>signification</strong> (<i>significatio</i>);<br><strong>comparison</strong> (<i>comparatio</i>);<br><strong>figure</strong> (<i>figura</i>).</p>
+<p>The adverb has no case, number, gender, tense, or person, because it does not signify a thing as stable or as becoming but determines another word. Its accidents concern what kind of determination it gives (signification), how much (comparison), and how it is made (figure).</p>`,
   src: `Donatus, <i>Ars minor</i>, on the adverb (the Latin).` },
 
 { id: 'signification',
@@ -22,7 +24,7 @@ ARS.decks['iii.adverb'] = {
 <p><strong>place</strong>: <i>hīc</i> (“here”), <i>ibi</i> (“there”), “here,” “there,” “everywhere”;<br><strong>time</strong>: <i>hodiē</i> (“today”), <i>nunc</i> (“now”), “today,” “now,” “often”;<br><strong>manner</strong>: <i>male</i> (“badly”), <i>libenter</i> (“gladly”), “badly,” “gladly”;<br><strong>quantity</strong> and <strong>number</strong>: <i>multum</i> (“much”), <i>semel</i> (“once”), “much,” “twice”;<br><strong>negation</strong> and <strong>affirmation</strong>: <i>nēquāquam</i> (“by no means”), <i>certē</i> (“certainly”), “never,” “indeed”;<br><strong>questioning</strong>: <i>cūr</i> (“why?”), <i>ubi</i> (“where?”), “why?” “when?”;<br><strong>doubt</strong>: <i>fortasse</i> (“perhaps”), “perhaps,” “possibly.”</p>
 <p>Donatus’s list also includes adverbs of wishing (<i>utinam</i>, “would that”), of exhorting, and of comparison. So the adverbs are a large and varied class, united not by what they signify but by the way they signify: each determines another word.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the signification of the adverb, in paraphrase.`,
-  qpTodo: `The kinds of adverb: what kind of meaning does a given adverb add (<i>hīc</i>, <i>nunc</i>, <i>bene</i>, <i>nōn</i>, <i>cūr</i>; “often,” “perhaps”).` },
+  qpTodo: `The kinds of adverb: what kind of meaning does a given adverb add (<i>illīc</i>, <i>herī</i>, <i>bene</i>, <i>nōn</i>, <i>quandō</i>; “rarely,” “maybe”).` },
 
 { id: 'formation',
   title: 'How adverbs are formed',
@@ -32,14 +34,14 @@ ARS.decks['iii.adverb'] = {
 
 { id: 'comparison',
   title: 'The comparison of adverbs',
-  body: `<p>Adverbs derived from adjectives of quality can be compared, as the adjectives are. In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>: <i>rēctē</i>, <i>rēctius</i>, <i>rēctissimē</i> (“rightly,” “more rightly,” “most rightly”); <i>ācriter</i>, <i>ācrius</i>, <i>ācerrimē</i> (“sharply,” “more sharply,” “most sharply”). As we have seen with the adjectives, irregular comparison takes its forms from different words, and the adverbs follow: <i>paulum</i>, <i>minus</i>, <i>minimē</i> (“a little,” “less,” “least”).</p>
-<p>English compares most adverbs with “more” and “most”: “happily,” “more happily,” “most happily.” A few short adverbs take “-er” and “-est”: “fast,” “faster,” “fastest”; “soon,” “sooner,” “soonest.” And “badly,” “worse,” “worst” are irregular, as some Latin adverbs are. Adverbs that signify place, time, or negation, such as “here,” “now,” and “not,” cannot be compared, for the same reason that some adjectives cannot: what they signify does not admit more and less.</p>`,
+  body: `<p>Adverbs derived from adjectives of quality can be compared, as the adjectives are. English compares most adverbs with “more” and “most”: “happily,” “more happily,” “most happily.” A few short adverbs take “-er” and “-est”: “fast,” “faster,” “fastest”; “soon,” “sooner,” “soonest.” And “badly,” “worse,” “worst” are irregular.</p>
+<p>In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>: <i>rēctē</i>, <i>rēctius</i>, <i>rēctissimē</i> (“rightly,” “more rightly,” “most rightly”); <i>ācriter</i>, <i>ācrius</i>, <i>ācerrimē</i> (“sharply,” “more sharply,” “most sharply”). As we have seen with the adjectives, irregular comparison takes its forms from different words, and the adverbs follow: <i>paulum</i>, <i>minus</i>, <i>minimē</i> (“a little,” “less,” “least”). In both languages, adverbs that signify place, time, or negation, such as “here,” “now,” and “not,” cannot be compared, for the same reason that some adjectives cannot: what they signify does not admit more and less.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 218, in paraphrase.` },
 
 { id: 'figure',
   title: 'Simple and compound adverbs',
   body: `<p>“Soon” is a single word, whereas “meanwhile” is made of “mean” and “while.” So the adverb, like the noun and the verb, has <strong>figure</strong>: it is simple or compound. Donatus’s examples are <i>doctē</i> (“learnedly”), which is simple, and <i>indoctē</i> (“unlearnedly”), which is compound (<i>Ars minor</i>). Many Latin adverbs are compounds of a preposition and a case: <i>posteā</i> (“afterward”), from <i>post</i> and <i>eā</i>; <i>intereā</i> (“meanwhile”); <i>dēnuō</i> (“anew”), from <i>dē novō</i>.</p>
-<p>English has many compound adverbs, some written as one word and some as several: “otherwise,” “furthermore,” “meanwhile,” “nowadays,” “at last,” “of course.” A group of words that does the work of an adverb is called an adverbial phrase. We will see in Section V that whole phrases and clauses can do the work of an adverb.</p>`,
+<p>English has many compound adverbs, some written as one word and some as several: “otherwise,” “furthermore,” “meanwhile,” “nowadays,” “at last,” “of course.” A group of words that does the work of an adverb is called an <strong>adverbial phrase</strong>. We will see in Section V that whole phrases and clauses can do the work of an adverb.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the figure of the adverb, in paraphrase.` },
 
 { id: 'what-modifies',
