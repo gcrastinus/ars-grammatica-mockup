@@ -116,7 +116,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0
@@ -132,7 +132,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0
@@ -266,7 +266,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>Ach</b>, die Frau kommt. Ah, the woman is coming.",
    "explain": "<em>Ach</em> is a cry, and it stands outside the clause. The word is an interjection.",
-   "options": ["interjection", "adverb", "preposition", "conjunction"],
+   "options": ["interjection", "adverb", "preposition, before a noun", "conjunction"],
    "answer": 0
   }
  ]

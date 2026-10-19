@@ -248,7 +248,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "type": "mc",
    "prompt": "How does <em>dû</em> in <em>il a dû</em> differ from partitive <em>du</em>?",
    "explain": "<em>Dû</em> is the participle of <em>devoir</em>, and it keeps the circumflex. Partitive <em>du</em>, as in <em>du pain</em>, has no circumflex and means “some.”",
-   "options": ["<em>Dû</em> is the participle of <em>devoir</em>; <em>du</em> is the partitive", "<em>Dû</em> means “some bread”", "They are the same word", "<em>Du</em> is the participle, and <em>dû</em> is “to”"],
+   "options": ["<em>Dû</em> is the participle of <em>devoir</em>; <em>du</em> is the partitive", "<em>Dû</em> means “some bread”", "They are the same word", "<em>Du</em> is the participle of <em>devoir</em> and means “some,” while <em>dû</em> means “to”"],
    "answer": 0
   },
   {
@@ -259,7 +259,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "type": "mc",
    "prompt": "Why is the phrase <em>de bons amis</em>, not <em>des bons amis</em>?",
    "explain": "When an adjective precedes a plural noun, the form is <em>de</em>, not <em>des</em>. <em>De bons amis</em> is that pattern. <em>Des amis</em> is the plural without a preceding adjective.",
-   "options": ["A negation requires <em>de</em>", "An adjective precedes the plural noun", "<em>Amis</em> is feminine singular", "<em>Beaucoup</em> stands in front of the noun"],
+   "options": ["A negation requires <em>de</em>", "An adjective precedes the noun", "<em>Amis</em> is feminine singular", "<em>Beaucoup</em> stands in front of the noun"],
    "answer": 1
   },
   {
@@ -270,7 +270,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "type": "mc",
    "prompt": "What is <em>des amis</em>?",
    "explain": "<em>Des amis</em> is “some friends,” the plural indefinite, or the plural partitive when no adjective precedes. It is not the form used in <em>de bons amis</em>, where an adjective comes first.",
-   "options": ["“Not any friends,” after a negation", "“Some friends,” the plural indefinite", "The masculine singular article", "The participle of <em>devoir</em>"],
+   "options": ["“Not any friends,” after a negation", "“Some friends”", "The masculine singular article", "The participle of <em>devoir</em>"],
    "answer": 1
   }
  ]

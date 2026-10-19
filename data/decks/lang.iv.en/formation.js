@@ -21,13 +21,13 @@ ARS.decks["lang.iv.en/formation"] = {
      },
      {
       "prompt": "“Begin” and “commence” name the same act. What kind of pair are they?",
-      "options": ["One is present and the other is past", "A Germanic–Latinate pair, from two sources", "A doublet, from one Latin source", "They differ only by a suffix"],
+      "options": ["One is present and the other is past", "A Germanic–Latinate pair", "A doublet, from one Latin source", "They differ only by a suffix"],
       "answer": 1,
       "explain": "“Begin” is part of the older Germanic vocabulary. “Commence” is Latinate, through French. Two sources make a Germanic–Latinate pair. A doublet, such as “royal” and “regal,” comes from one source by two routes."
      },
      {
       "prompt": "Why does English often have both a plain word and a learned word for one idea?",
-      "options": ["Every Germanic word was later translated into Latin", "The learned word replaced the plain one", "English kept its Germanic words and also took in Latinate ones", "The two words were coined on the same day"],
+      "options": ["Every Germanic word was later translated into Latin", "The learned word replaced the plain one", "It kept Germanic words and took Latinate ones", "The two words were coined on the same day"],
       "answer": 2,
       "explain": "The Germanic stock stayed, and French and Latin supplied a second stock. “Help” did not have to disappear when “aid” arrived."
      }
@@ -43,19 +43,19 @@ ARS.decks["lang.iv.en/formation"] = {
     "variants": [
      {
       "prompt": "What does “-ness” make from the adjective “bold”?",
-      "options": ["The adverb “boldly”", "The noun “boldness,” the quality of being bold", "The opposite, “unbold”", "A compound of two nouns"],
+      "options": ["The adverb “boldly”", "The noun “boldness”", "The opposite, “unbold”", "A compound of two nouns"],
       "answer": 1,
       "explain": "“-ness” makes a noun of quality from an adjective, as “kindness” is made from “kind.” “Boldness” is that noun from “bold.”"
      },
      {
       "prompt": "“Friendly” ends in “-ly” and is an adjective. What does that show about “-ly”?",
-      "options": ["“-ly” can make only adverbs", "The same ending can make an adverb or an adjective, and the use shows which", "“Friendly” is not an English word", "“-ly” is a Latinate suffix"],
+      "options": ["“-ly” can make only adverbs", "An adverb or an adjective", "“Friendly” is not an English word", "“-ly” is a Latinate suffix"],
       "answer": 1,
       "explain": "“Quickly” is an adverb, and “friendly” is an adjective. The letters “-ly” are Germanic in both, and the part of speech is read from the use."
      },
      {
       "prompt": "Where does “un-” stand, and what does it do in “unfair”?",
-      "options": ["It is a suffix and names a person", "It is a prefix and makes the opposite", "It is the head of a compound", "It marks a Latinate borrowing"],
+      "options": ["It is a suffix and names a person", "A prefix, and the opposite", "It is the head of a compound", "It marks a Latinate borrowing"],
       "answer": 1,
       "explain": "“Un-” is added at the front, so it is a prefix. “Unfair” is the opposite of “fair,” as “unhappy” is the opposite of “happy.”"
      }
@@ -99,13 +99,13 @@ ARS.decks["lang.iv.en/formation"] = {
     "variants": [
      {
       "prompt": "“Bookshelf” is a compound. Which word is the head?",
-      "options": ["“Book,” because it comes first", "“Shelf,” because a bookshelf is a kind of shelf", "Both equally", "Neither, because a suffix is the head"],
+      "options": ["“Book,” because it comes first", "“Shelf”", "Both equally", "Neither, because a suffix is the head"],
       "answer": 1,
       "explain": "The head names the kind. A bookshelf is a shelf, and “book” says what it is for, as “case” is the head of “bookcase.”"
      },
      {
       "prompt": "How does “a blackbird” differ from “a black bird”?",
-      "options": ["There is no difference", "“Blackbird” is one compound and names a kind of bird; “black bird” is a bird that is black", "“Black bird” is the compound, because it is two words", "Both are suffixes added to “black”"],
+      "options": ["There is no difference", "“Blackbird” is one word and names a kind", "“Black bird” is the compound, because it is two words", "Both are suffixes added to “black”"],
       "answer": 1,
       "explain": "The compound is one word and names a kind. The two-word phrase only describes a color. The same split separates “greenhouse” from “green house.”"
      },
@@ -127,13 +127,13 @@ ARS.decks["lang.iv.en/formation"] = {
     "variants": [
      {
       "prompt": "“Sunday” is the day named for the sun. Which fact about English compounds does that illustrate?",
-      "options": ["Every compound is Latinate", "A compound can keep the reason of its two parts", "“Sun” is a suffix", "The head of a compound is always meaningless"],
+      "options": ["Every compound is Latinate", "It can keep the reason of its parts", "“Sun” is a suffix", "The head of a compound is always meaningless"],
       "answer": 1,
       "explain": "“Sunday” joins “sun” and “day,” and the older reason is still in the parts, as “breakfast” still joins “break” and “fast.”"
      },
      {
       "prompt": "The <em>p</em> of “cupboard” is not heard. What remains true of the word?",
-      "options": ["It was never a compound", "The written parts still show a board for cups", "It is a Latinate doublet of “cup”", "“-ard” is the suffix “-ness”"],
+      "options": ["It was never a compound", "It remains a compound in writing", "It is a Latinate doublet of “cup”", "“-ard” is the suffix “-ness”"],
       "answer": 1,
       "explain": "Sound has changed, and the spelling still shows “cup” and “board.” That is the older reason kept in the word."
      },

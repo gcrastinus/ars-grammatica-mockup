@@ -18,7 +18,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "prompt": "In <em>une belle nuit</em>, how many syllables does verse count?",
    "explain": "Before a consonant the mute <em>e</em> is counted: <em>u-ne</em>, <em>bel-le</em>, <em>nuit</em>.",
    "options": [
-    "Five: u-ne bel-le nuit",
+    "Five",
     "Three",
     "Four",
     "Six"
@@ -34,7 +34,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "prompt": "Counting <em>passion</em> as three syllables is…",
    "explain": "<em>Diérèse</em> separates the vowels; <em>synérèse</em> joins them.",
    "options": [
-    "Diérèse: the two vowels are sounded apart",
+    "Diérèse",
     "Elision",
     "A feminine rhyme",
     "A caesura"
@@ -165,7 +165,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
     "A feminine rhyme",
     "Elision before a consonant",
     "The caesura after the sixth syllable",
-    "<em>Synérèse</em>: the vowels count as one syllable"
+    "<em>Synérèse</em>"
    ],
    "answer": 3
   },

@@ -853,7 +853,7 @@
       id: 'sy2',
       prompt: 'When is a Latin syllable long by position?',
       options: [
-        'When a short vowel is followed by two consonants, or by ' + em('x') + ' or ' + em('z'),
+        'A vowel before two consonants, or before ' + em('x') + ' or ' + em('z'),
         'When its vowel is long by nature, whatever follows',
         'When a macron is written over its vowel',
         'When it is the last syllable of the word'
@@ -886,7 +886,7 @@
       id: 'sy8',
       prompt: 'What are ' + em('ae') + ', ' + em('oe') + ', and ' + em('au') + ' in Latin?',
       options: [
-        'Diphthongs: one syllable, and long by nature',
+        'Diphthongs: one long syllable',
         'Two syllables each, one for each vowel',
         'Short vowels, which never take the accent',
         'Consonants, when they stand between vowels'
@@ -897,7 +897,7 @@
       id: 'sy9',
       prompt: 'What does the enclitic ' + em('-que') + ' do to the accent?',
       options: [
-        'It pulls the accent onto the syllable just before it',
+        'It pulls the accent onto the syllable before it',
         'It leaves the accent where it was',
         'It moves the accent to the first syllable',
         'It takes the accent on itself, as the last syllable'
@@ -908,7 +908,7 @@
       id: 'sy13',
       prompt: 'What may a mute and a liquid do when they stand between vowels?',
       options: [
-        'They may stay with the following vowel, or they may split',
+        'They may stay with the next vowel, or split',
         'They must always split, like any two consonants',
         'They are never counted as part of a syllable',
         'They always make the preceding vowel long by position'
@@ -949,10 +949,13 @@
       const it = take(w => w.longPen !== null);
       if (!it) { stressN += 1; continue; }
       const answer = it.longPen ? 0 : 1;
+      const options = it.longPen
+        ? ['Long', 'Short, so the accent falls back']
+        : ['Long, by nature or by position', 'Short'];
       push({
         id: freshId(idPrefix), deck: idPrefix, section: 'ii', type: 'mc',
         prompt: 'Is the penult of ' + em(it.w) + ' long or short?',
-        options: ['Long', 'Short'], answer: answer,
+        options: options, answer: answer,
         explain: it.why
       });
     }

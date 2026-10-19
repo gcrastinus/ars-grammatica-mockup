@@ -240,9 +240,9 @@ ARS.exercises["lang.ix.la/period-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "What governs the infinitives <em>volvere</em> and <em>adire</em>?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.” — literal rendering (this course’s)<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
-   "explain": "<em>Impello</em>, “drive, compel,” here takes an infinitive, as verse allows; prose would write <em>ut</em> with the subjunctive. <em>Virum</em> is the one driven.",
+   "explain": "<em>Impello</em>, “drive, compel,” here takes the infinitives <em>volvere</em> and <em>adire</em>, as verse allows; prose would write <em>ut</em> with the subjunctive. <em>Virum</em> is the one driven.",
    "options": [
-    "<em>impulerit</em>: she drove him to pass through, to face",
+    "<em>impulerit</em>: she drove him",
     "<em>memora</em>: tell me to pass through",
     "<em>dolens</em>: grieving to pass through",
     "<em>insignem</em>: famous for passing through"
@@ -258,7 +258,7 @@ ARS.exercises["lang.ix.la/period-ex"] = {
    "prompt": "<em>animis caelestibus</em>: what work does the case do?<br><br>“Is there such wrath in heavenly spirits?” — literal rendering (this course’s)<br>(<em>impulerit. Tantaene animis caelestibus irae?</em>)",
    "explain": "With <em>sunt</em> understood, the dative names the possessor: “are there such angers to heavenly minds?” The subject is <em>irae</em>, and <em>tantaene</em> carries the question.",
    "options": [
-    "Dative of possession: do heavenly spirits have such wrath?",
+    "Dative of possession",
     "Ablative of means: by heavenly spirits",
     "Ablative of place: in the heavens",
     "Nominative plural, the subject of the question"

@@ -148,7 +148,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0
@@ -164,7 +164,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0

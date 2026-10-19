@@ -131,7 +131,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "explain": "<em>Spät</em> determines <em>reitet</em>: it says when. “Who rides so late through night and wind?” (Goethe, “Erlkönig,” line 1)",
    "options": [
     "reitet",
-    "Wer",
+    "Wer, which the adverb modifies",
     "Nacht",
     "Wind"
    ],
@@ -147,7 +147,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "explain": "<em>Schöner</em> adheres to <em>Götterfunken</em>, which stands in apposition to <em>Freude</em>. “Joy, beautiful spark of the gods, daughter of Elysium.” (Schiller, “An die Freude,” lines 1–2)",
    "options": [
     "Götterfunken",
-    "Freude",
+    "Freude, which the adjective agrees with",
     "Tochter",
     "Elysium"
    ],

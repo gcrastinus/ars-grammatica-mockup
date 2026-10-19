@@ -201,7 +201,7 @@ ARS.exercises["lang.iii-decl.grc/parts-ex"] = {
     "participle",
     "article",
     "noun",
-    "verb",
+    "finite verb",
     "adjective",
     "pronoun"
    ],
@@ -219,7 +219,7 @@ ARS.exercises["lang.iii-decl.grc/parts-ex"] = {
     "participle",
     "article",
     "noun",
-    "verb",
+    "finite verb",
     "adjective",
     "pronoun"
    ],

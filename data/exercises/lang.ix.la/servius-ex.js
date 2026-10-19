@@ -98,7 +98,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "prompt": "Servius on <em>insomnia terrent</em> reports another reading, <em>terret</em>. What would change with it?<br><br>“Anna, my sister, what dreams terrify me, hanging in doubt!” — literal rendering (this course’s)<br>(<em>Anna soror, quae me suspensam insomnia terrent!</em>)",
    "explain": "Servius explains that <em>insomnia</em> as a feminine singular meant wakefulness, and as a neuter plural meant what we see in dreams. With <em>terrent</em> the word is neuter plural; with <em>terret</em> it would be feminine singular. Number and gender decide the meaning.",
    "options": [
-    "<em>Insomnia</em> would be feminine singular, “sleeplessness,” not neuter plural, “dreams”",
+    "<em>Insomnia</em> would be feminine singular, “sleeplessness”",
     "<em>Insomnia</em> would become the object, and <em>me</em> the subject of the verb",
     "The verb would become passive, so that Dido is frightened by Anna",
     "Nothing in the grammar would change; only the meter would be altered"
@@ -114,7 +114,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "prompt": "Servius on <em>pertaesum thalami taedaeque fuisset</em>: what does <em>pertaesus</em> govern?<br><br>“if I had not been weary of the marriage chamber and the marriage torch, to this one fault perhaps I might have yielded.” — literal rendering (this course’s)<br>(<em>si non pertaesum thalami taedaeque fuisset, huic uni forsan potui succumbere culpae.</em>)",
    "explain": "Servius: <span class=\"lat\">pertaesus participium est sine verbi origine et regit genetivum, ut hoc loco: nam genetivus singularis est</span>. He calls <em>pertaesus</em> a participle with no verb behind it, and says that it governs the genitive: weary of the chamber and of the torch.",
    "options": [
-    "The genitive: <em>thalami</em> and <em>taedae</em>, of the marriage-chamber and the torch",
+    "The genitive of <em>thalami</em> and <em>taedae</em>",
     "The accusative, as verbs of feeling usually do in verse",
     "The ablative of the thing that brings the weariness",
     "The dative of the person who is made weary"

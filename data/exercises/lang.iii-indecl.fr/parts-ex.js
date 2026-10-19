@@ -116,7 +116,7 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0
@@ -132,7 +132,7 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "options": [
     "interjection",
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction"
    ],
    "answer": 0
@@ -307,7 +307,7 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "explain": "<em>Ouf</em> is a cry, and it keeps one form.",
    "options": [
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "conjunction",
     "interjection"
    ],
@@ -323,7 +323,7 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "explain": "<em>Zut</em> is a cry, and it keeps one form.",
    "options": [
     "adverb",
-    "preposition",
+    "preposition, before a noun",
     "interjection",
     "conjunction"
    ],
