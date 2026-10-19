@@ -23,13 +23,13 @@ ARS.decks['vii.schemata'] = {
 { id: 'prolepsis',
   title: 'Prolepsis',
   body: `<p>The sentence “The two brothers went their ways, the one to the city, the other to the sea” first names “the two brothers” as the subject of “went” and then distributes them: “the one … the other.” This figure is called <strong>prolepsis</strong> (Greek, “taking beforehand”), because it states a whole first and then divides it into its parts, each with its own construction. Strictly, “the one” and “the other” have no verb of their own; they depend on the verb of the whole.</p>
-<p>Latin uses the same figure with <i>alter … alter</i> (“the one … the other”) and <i>aliī … aliī</i> (“some … others”): <i>duo frātrēs, alter in urbem, alter ad mare</i>. The figure is a departure from regular construction, because the parts are construed with a verb that belongs to the whole; but it is clear, because the whole has already been named.</p>`,
+<p>Latin uses the same figure with <i>alter … alter</i> (“the one … the other”) and <i>aliī … aliī</i> (“some … others”): <i>duo frātrēs, alter Rōmam, alter ad mare</i>. The figure is a departure from regular construction, because the parts are construed with a verb that belongs to the whole; but it is clear, because the whole has already been named.</p>`,
   src: `Donatus, <i>Ars maior</i> III.5, in paraphrase.` },
 
 { id: 'zeugma-syllepsis',
   title: 'Zeugma, hypozeuxis, and syllepsis',
-  body: `<p>We studied zeugma and syllepsis in Section V as figures of construction. Donatus counts them among the figures of words. <strong>Zeugma</strong> closes several clauses with one word: “The king rules the city, the queen the harbor, and the sailor the ship.” <strong>Syllepsis</strong> construes one word with several that differ in gender or number, agreeing with only one: <i>hic illius arma, / hic currus fuit</i> (<i>Aeneid</i> I.16–17).</p>
-<p>Donatus adds the opposite of zeugma, <strong>hypozeuxis</strong> (Greek, “yoking under”), in which each clause has its own verb: “The king rules the city, the queen governs the harbor, and the sailor commands the ship.” So zeugma and hypozeuxis are two ways of arranging the same thought, one with a single verb shared by every clause and one with a verb in each.</p>`,
+  body: `<p>We studied zeugma and syllepsis in Section V as figures of construction. Donatus counts them among the figures of words. <strong>Zeugma</strong> closes several clauses with one word: “The father chose the wine, the mother the bread, and the children the songs.” <strong>Syllepsis</strong> construes one word with several that differ in gender or number, agreeing with only one, as we saw in Virgil’s description of Juno’s arms and chariot.</p>
+<p>Donatus adds the opposite of zeugma, <strong>hypozeuxis</strong> (Greek, “yoking under”), in which each clause has its own verb: “The father chose the wine, the mother picked the bread, and the children named the songs.” So zeugma and hypozeuxis are two ways of arranging the same thought, one with a single verb shared by every clause and one with a verb in each.</p>`,
   src: `Donatus, <i>Ars maior</i> III.5, in paraphrase; Virgil, <i>Aeneid</i> I.16–17.` },
 
 { id: 'anaphora-epanalepsis',
