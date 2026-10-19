@@ -1,5 +1,5 @@
 /* VI.4 Metaplasm [vi.metaplasm]
-   Plan (ITEM-LIST.md): 8 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 8 panels, 2 question points.
    Live material drawn on: DECKS.figures (fault and license; metaplasm, Donatus's fourteen kinds with his examples),
    DECKS.latfaults. */
 window.ARS = window.ARS || {};
@@ -30,7 +30,20 @@ ARS.decks['vi.metaplasm'] = {
 <p><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gainst” for “against”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
 <p>These are the metaplasms most often met in English poetry, because English verse, as we saw in Section II, counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word. In prose the same shortened forms would be barbarisms, or at least informal, as “’tis” now is.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
-  qpTodo: `Metaplasms of adding and removing: which change has been made in a given poetic form (“’gan” for “began,” “ta’en” for “taken”; <i>periclum</i> for <i>perīculum</i>, <i>induperātor</i> for <i>imperātor</i>), and what is the regular form.` },
+  qp: { id: 'q-removing', variants: [
+    { prompt: `Which metaplasm is “’gan” for “began”?`,
+      options: [`Aphaeresis`, `Syncope`, `Apocope`, `Prosthesis`],
+      answer: 0,
+      explain: `A syllable is removed from the beginning of the word, so the metaplasm is aphaeresis, as in “’tis” for “it is.” The regular form is “began.”` },
+    { prompt: `Which metaplasm is “ta’en” for “taken”?`,
+      options: [`Apocope`, `Syncope`, `Aphaeresis`, `Epenthesis`],
+      answer: 1,
+      explain: `A letter is removed from the middle of the word, so the metaplasm is syncope, as in “ne’er” for “never.” The regular form is “taken.”` },
+    { prompt: `Which metaplasm is Latin <i>induperātor</i> for <i>imperātor</i> (“commander”)?`,
+      options: [`Syncope`, `Aphaeresis`, `Epenthesis`, `Apocope`],
+      answer: 2,
+      explain: `Letters are added in the middle of the word, so the metaplasm is epenthesis, as in <i>relliquiās</i>. The regular form is <i>imperātor</i>.` }
+  ]} },
 
 { id: 'quantity',
   title: 'Metaplasms of quantity',
@@ -59,7 +72,20 @@ ARS.decks['vi.metaplasm'] = {
 <p><strong>antithesis</strong> (Greek, “setting against”) puts one letter in place of another: Latin <i>ollī</i> for <i>illī</i> (“to him”), an old form used by Virgil for its archaic dignity;<br><strong>metathesis</strong> (“transposition”) moves letters to another place: Latin <i>Euandre</i> for <i>Euander</i> (the name Evander).</p>
 <p>So Donatus’s fourteen metaplasms are prosthesis, epenthesis, paragoge, aphaeresis, syncope, apocope, ectasis, systole, diaeresis, episynaloephe, synaloepha, ecthlipsis, antithesis, and metathesis. Each corresponds to one of the four ways of the barbarism (adding, removing, changing, and moving) or to a change of quantity or of syllables, and each is permitted only in verse and for a reason.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
-  qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>aulai</i> for <i>aulae</i> in <i>Aeneid</i> III.354, <i>monstrum horrendum</i> measured <i>monstr’ horrendum</i>, <i>steterunt</i> with a short <i>e</i> in <i>Aeneid</i> II.774), and what is the regular form.` },
+  qp: { id: 'q-changing', variants: [
+    { prompt: `In <i>Aeneid</i> III.354 Virgil writes <i>aulai</i> for <i>aulae</i> (“of the hall”). Which metaplasm is this?`,
+      options: [`Diaeresis`, `Episynaloephe`, `Paragoge`, `Antithesis`],
+      answer: 0,
+      explain: `The diphthong <i>ae</i> is divided into two syllables, <i>a-i</i>, so one syllable becomes two: diaeresis, as in Ennius’s <i>Albai Longai</i>. The regular form is <i>aulae</i>.` },
+    { prompt: `<i>Monstrum horrendum</i> is measured <i>monstr’ horrendum</i>. Which metaplasm is this?`,
+      options: [`Synaloepha`, `Ecthlipsis`, `Syncope`, `Apocope`],
+      answer: 1,
+      explain: `A final syllable ending in <i>m</i> is elided before a vowel: ecthlipsis. Synaloepha is the elision of a final vowel alone.` },
+    { prompt: `In <i>Aeneid</i> II.774 Virgil measures <i>steterunt</i> with a short <i>e</i> in its second syllable. Which metaplasm is this?`,
+      options: [`Ectasis`, `Syncope`, `Systole`, `Metathesis`],
+      answer: 2,
+      explain: `The regular form is <i>stetērunt</i>, with a long <i>ē</i>; Virgil makes the long syllable short, which is systole, as in <i>aquosus Orion</i>.` }
+  ]} },
 
 { id: 'license-limits',
   title: 'License and its limits',
