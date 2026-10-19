@@ -1,5 +1,5 @@
 /* III.8 The Verb I: Quality, Mood, and Voice [iii.verb-1]
-   Plan (ITEM-LIST.md): 12 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: in the shared Verbs set
+   Plan (ITEM-LIST.md): 12 panels, 3 question points. Exercise: in the shared Verbs set
    (after III.9).
    Live material drawn on: DECKS.latverb (signs of mood), DECKS.latvoice (the passive, passive endings, the infinitive,
    deponent verbs), DECKS.enacc (English mood and voice). */
@@ -37,7 +37,20 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>Latin <i>utinam audiat</i> (“may he hear!”) expresses a wish, whereas <i>cum audiat</i> (“since he hears”) stands in a clause joined under another clause; yet the verb <i>audiat</i> has the same form in both. Donatus distinguishes the two by their use. He calls the first the <strong>optative</strong> (from <i>optāre</i>, “to wish”), used for wishes, and the second the <strong>subjunctive</strong> (from <i>subiungere</i>, “to join under”), used in clauses joined under another, as after <i>cum</i> (“when”). Greek has separate forms for the optative, and the Latin grammarians kept the Greek distinction. Modern Latin grammars count one mood, the subjunctive, with many uses: wishes, commands, possibilities, and many kinds of dependent clause.</p>
 <p>English has kept only a few subjunctive forms. They appear in conditions contrary to fact (“If I were rich,” which careful usage prefers to “If I was rich”), after verbs of demanding (“I insist that he be present”), and in some fixed phrases (“God save the King”). In most other cases English uses auxiliary verbs such as “may,” “might,” “would,” and “should” where Latin uses the subjunctive.</p>`,
   src: `Donatus, <i>Ars minor</i>; Allen and Greenough, <i>New Latin Grammar</i> §§ 157, 439–447, in paraphrase.`,
-  qpTodo: `Mood: which mood is the marked verb in a given sentence (<i>clāmat</i>, <i>clāmā</i>, <i>utinam veniat</i>; “If he were taller,” “Close the door”), and what does the mood show.` },
+  qp: { id: 'q-subjunctive', variants: [
+    { prompt: `Which mood is Latin <i>clāmā</i> (“shout!”)?`,
+      options: [`The indicative`, `The imperative`, `The subjunctive`, `The infinitive`],
+      answer: 1,
+      explain: `<i>Clāmā</i> is the present stem of <i>clāmō</i> (“I shout”) used to command one person, which is the present imperative. The indicative <i>clāmat</i> would state that he shouts.` },
+    { prompt: `In <i>utinam veniat</i> (“may he come!”), what does Donatus call the mood of <i>veniat</i>, and what does it show?`,
+      options: [`The indicative, showing a fact`, `The optative, showing a wish`, `The imperative, showing a command`, `The infinitive, naming the action`],
+      answer: 1,
+      explain: `Donatus calls the mood of wishes the optative, after the Greek. Modern Latin grammars count it as one use of the subjunctive, because <i>veniat</i> has the same form after <i>cum</i>.` },
+    { prompt: `In “If he were taller, he would reach the shelf,” which mood is “were”?`,
+      options: [`The indicative`, `The imperative`, `The subjunctive`, `The infinitive`],
+      answer: 2,
+      explain: `“Were” here supposes something contrary to fact, and the English subjunctive survives in such conditions. Careful usage prefers “If he were taller” to “If he was taller.”` }
+  ]} },
 
 { id: 'infinitive-impersonal',
   title: 'The infinitive and the impersonal',
@@ -62,7 +75,20 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>“The girl praises the poet” and “The poet is praised by the girl” describe the same action, but in the first the subject does the action and in the second the subject receives it. In the <strong>active</strong> voice the subject does the action; in the <strong>passive</strong> voice the subject receives it. <i>Puella poētam laudat</i>, “the girl praises the poet,” is active; <i>poēta ā puellā laudātur</i>, “the poet is praised by the girl,” is passive. The accident that Donatus calls <i>genus</i> is called <strong>voice</strong> in English grammars. In the passive the one who receives the action becomes the subject, and the doer, if it is named, is expressed with <i>ā</i> or <i>ab</i> and the ablative, as in English it is expressed with “by.”</p>
 <p>Latin forms the passive with its own personal endings: <i>laudō</i>, “I praise,” <i>laudor</i>, “I am praised”; <i>laudat</i>, “he praises,” <i>laudātur</i>, “he is praised.” English forms the passive with the verb “to be” and the past participle: “is praised,” “was praised.” Donatus says that active verbs end in <i>-ō</i> and, by taking the letter <i>r</i>, make passives from themselves, as <i>legō</i>, <i>legor</i> (<i>Ars minor</i>).</p>`,
   src: `Donatus, <i>Ars minor</i>, on the voice of the verb, in paraphrase; Allen and Greenough, <i>New Latin Grammar</i> §§ 156, 405.`,
-  qpTodo: `Active and passive: is a given verb active or passive (<i>docet</i>, <i>docētur</i>, “was taught”), and how is the doer expressed in a passive sentence.` },
+  qp: { id: 'q-voice', variants: [
+    { prompt: `Is Latin <i>docētur</i> active or passive?`,
+      options: [`Active`, `Passive`, `Neuter`, `Deponent`],
+      answer: 1,
+      explain: `<i>Docētur</i> has the passive ending <i>-tur</i> and means “he is taught”; the active <i>docet</i> means “he teaches.” A deponent also has a passive ending, but <i>doceō</i> has an active form, so <i>docētur</i> is a true passive.` },
+    { prompt: `In “The boy was taught by his tutor,” how is the doer expressed?`,
+      options: [`By the subject, “the boy”`, `By the verb, “was taught”`, `By the phrase “by his uncle”`, `It is not expressed`],
+      answer: 2,
+      explain: `In the passive the one who receives the action becomes the subject, here “the boy.” The doer, if it is named, is expressed with “by,” here “by his tutor.”` },
+    { prompt: `In a Latin passive sentence, how is the doer expressed when it is named?`,
+      options: [`By the nominative`, `By the accusative`, `By the dative alone`, `By <i>ā</i> or <i>ab</i> with the ablative`],
+      answer: 3,
+      explain: `As in <i>poēta ā puellā laudātur</i> (“the poet is praised by the girl”), the doer is expressed with <i>ā</i> or <i>ab</i> and the ablative, as English uses “by.” The nominative is the subject, the one who receives the action.` }
+  ]} },
 
 { id: 'neuter',
   title: 'Neuter verbs',
@@ -75,7 +101,20 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>Latin <i>loquor</i> has the ending of a passive verb, like <i>laudor</i> (“I am praised”), but it means “I speak,” and there is no active <i>loquō</i>. Verbs of this kind, passive in form but active in meaning, are called <strong>deponent</strong> verbs. Donatus says that they end in <i>-r</i>, like passive verbs, but, if the <i>r</i> is taken away, they are not Latin, as <i>luctor</i> (“I wrestle”) and <i>loquor</i> (“I speak”) (<i>Ars minor</i>); there is no <i>luctō</i> or <i>loquō</i>. They are called deponent (from <i>dēpōnere</i>, “to lay aside”) because they seem to have laid aside their active forms.</p>
 <p>So <i>sequor</i> means “I follow,” not “I am followed,” and <i>hortātur</i> means “he encourages.” A dictionary shows that a verb is deponent by giving its principal parts in passive form: <i>hortor</i>, <i>hortārī</i>, <i>hortātus sum</i>. A reader who forgets that a verb is deponent will translate it as passive and reverse the sense of the sentence, so the deponent verbs must be learned as such.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the voice of the verb, in paraphrase; Allen and Greenough, <i>New Latin Grammar</i> § 190.`,
-  qpTodo: `Deponent verbs: what does a given deponent form mean (<i>morātur</i>, <i>patitur</i>, <i>cōnor</i>), and how can a reader tell that the verb is deponent.` },
+  qp: { id: 'q-deponent', variants: [
+    { prompt: `What does Latin <i>morātur</i> mean?`,
+      options: [`“He is delayed by someone”`, `“He delays”`, `“He is loved”`, `“He will die”`],
+      answer: 1,
+      explain: `<i>Moror</i> (“I delay,” “I linger”) is deponent: passive in form but active in meaning. So <i>morātur</i> means “he delays,” not “he is delayed.”` },
+    { prompt: `What does Latin <i>patitur</i> mean?`,
+      options: [`“He suffers”`, `“He is suffered”`, `“He lies open”`, `“He is made to suffer by another”`],
+      answer: 0,
+      explain: `<i>Patior</i> (“I suffer,” “I allow”) is deponent, so <i>patitur</i> means “he suffers.” “He lies open” would be <i>patet</i>, from a different verb, <i>pateō</i>.` },
+    { prompt: `How can a reader tell from a dictionary that Latin <i>cōnor</i> (“I try”) is deponent?`,
+      options: [`Its meaning is passive, as its ending is`, `It has no perfect tense`, `It is marked as a neuter verb`, `Its principal parts are passive in form`],
+      answer: 3,
+      explain: `A dictionary gives a deponent verb’s principal parts in passive form: <i>cōnor</i>, <i>cōnārī</i>, <i>cōnātus sum</i>. Its meaning is active, so the form alone would mislead a reader who did not know.` }
+  ]} },
 
 { id: 'common',
   title: 'Common verbs',
