@@ -298,7 +298,7 @@ ARS.exercises['iii.ex.parts'] = {
    "set": "A",
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "<i><b>Altam</b> turrim vīdimus.</i> (“We saw a tall tower.”) In Donatus’s eight parts, what part of speech is the marked word?",
+   "prompt": "<i><b>Dūrum</b> saxum frēgit.</i> (“He broke a hard stone.”) In Donatus’s eight parts, what part of speech is the marked word?",
    "options": [
     "Adverb",
     "Noun",
@@ -306,7 +306,7 @@ ARS.exercises['iii.ex.parts'] = {
     "Verb"
    ],
    "answer": 1,
-   "explain": "An English grammar would call “tall” an adjective, but Donatus counts the adjective under the noun, because <i>altam</i> has case and is declined as a noun is. So in his eight it is a noun."
+   "explain": "An English grammar would call “hard” an adjective, but Donatus counts the adjective under the noun, because <i>dūrum</i> has case and is declined as a noun is. So in his eight it is a noun."
   },
   {
    "id": "prt-A19",
