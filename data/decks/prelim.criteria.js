@@ -31,10 +31,10 @@ ARS.decks['prelim.criteria'] = {
       options: [`The proof of the uncertain by reference to the certain`, `The use of words found in the oldest writers`, `The practice of the majority of speakers`, `The study of the origin of words`],
       answer: 0,
       explain: `Quintilian defines analogy as “the testing of all subjects of doubt by the application of some standard of comparison about which there is no question, the proof that is to say of the uncertain by reference to the certain” (I.6.4). The origin of words is etymology.` },
-    { prompt: `Quintilian settles whether to say <i>domuum</i> or <i>domorum</i> by comparing <i>anus</i> and <i>manus</i>. Which criterion is he using?`,
+    { prompt: `Unsure whether the plural of “walrus” is “walruses,” a writer compares it with “bus, buses” and “circus, circuses.” Which criterion is he using?`,
       options: [`Authority`, `Antiquity`, `Usage`, `Reason, by analogy`],
       answer: 3,
-      explain: `He compares the doubtful word with words of the same declension whose forms are certain. That is analogy, which Quintilian names as the chief support of reason (I.6.1).` }
+      explain: `He compares the doubtful form with words of the same kind whose forms are certain. That is analogy, which Quintilian names as the chief support of reason (I.6.1).` }
   ]}},
 
 { id: 'antiquity',
@@ -69,10 +69,10 @@ ARS.decks['prelim.criteria'] = {
       options: [`The practice of the majority of speakers`, `The forms found in the oldest writers`, `The agreed practice of educated men`, `The forms that follow the rules of analogy`],
       answer: 2,
       explain: `Quintilian defines usage as “the agreed practice of educated men” (I.6.45). He rejects the practice of the majority as a standard, because crowds often commit barbarisms.` },
-    { prompt: `Why is “thou art” not the ordinary form today, although it has the authority of the King James Version?`,
-      options: [`Because usage has changed, and in ordinary speech antiquity and authority yield to usage`, `Because “thou art” was never correct English`, `Because analogy forbids the form “art”`, `Because the King James Version has no authority in grammar`],
+    { prompt: `Why is “he doth” not the ordinary form today, although it has the authority of the King James Version?`,
+      options: [`Because usage has changed, and in ordinary speech antiquity and authority yield to usage`, `Because “he doth” was never correct English`, `Because analogy forbids the form “doth”`, `Because the King James Version has no authority in grammar`],
       answer: 0,
-      explain: `“Thou art” was correct and is still correct in the reading of Scripture and in prayer, where antiquity and authority keep their place. In ordinary speech, the agreed practice of educated speakers is now “you are,” and usage prevails.` }
+      explain: `“He doth” was correct and is still correct in the reading of Scripture and in prayer, where antiquity and authority keep their place. In ordinary speech, the agreed practice of educated speakers is now “he does,” and usage prevails.` }
   ]}},
 
 { id: 'analogy-anomaly',
