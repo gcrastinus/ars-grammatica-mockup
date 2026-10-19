@@ -154,7 +154,7 @@ ARS.decks["lang.ix.en/poetry"] = {
   {
    "id": "poetry-30",
    "title": "The frame",
-   "body": "<p>“I met a traveller from an antique land\nWho said”: “Who said” is a relative clause on “a traveller.” All that follows is what he said. The line scans as five iambs: “i MET a TRAV-el-LER from AN an-TIQUE LAND,” with a light stress on “-ler.”</p>"
+   "body": "<p>“I met a traveller from an antique land\nWho said”: “Who said” is a relative clause on “a traveller.” All that follows is what he said. The line scans as five iambs, with “traveller” said in two syllables and “antique” stressed on the first: “i MET a TRAV-ler FROM an AN-tique LAND.”</p>"
   },
   {
    "id": "poetry-31",
