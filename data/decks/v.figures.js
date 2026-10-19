@@ -1,5 +1,5 @@
 /* V.10 Figures of Construction [v.figures]
-   Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions.
    One panel (donatus-words) notes that Donatus counts zeugma and syllepsis among the figures of words and refers ahead to VII.2.
    Live material drawn on: DECKS.figures (fault and license; figures; zeugma), DECKS.latfigs. Linacre's treatment of the
    figures (De emendata structura VI) is named but not yet checked. */
@@ -23,7 +23,20 @@ ARS.decks['v.figures'] = {
   body: `<p>When someone asks “Where are you going?” and the answer is “Home,” the hearer understands “I am going home,” although the words “I am going” were not said. <strong>Ellipsis</strong> (Greek, “a falling short”; the medieval grammarians wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context. In “Some people prefer tea; others, coffee,” the verb “prefer” is understood after “others.” Latin often omits the verb “to be”: Cicero writes <i>omnia praeclara, rara</i> (<i>Laelius</i> 79), which is rendered “everything splendid is rare,” where English must supply “is.” Donatus names this figure <i>eclipsis</i>, the lack of a word that the sentence requires, as in Virgil’s <i>haec secum</i> (“these things with herself”), where “she said” is lacking (<i>Ars maior</i> III.3).</p>
 <p>Ellipsis is the most common of the figures of construction, and ordinary speech uses it constantly. The construction is complete in the mind of the hearer, because the omitted word is supplied from what has been said. So ellipsis does not make a sentence incomplete; it leaves to the hearer a word that the context already gives. Sometimes, instead, a word is expressed once and made to serve several clauses.</p>`,
   src: `Cicero, <i>Laelius</i> 79 (trans. W. A. Falconer; the Latin and English checked against the Perseus text); Donatus, <i>Ars maior</i> III.3; Allen and Greenough, <i>New Latin Grammar</i> § 640.`,
-  qpTodo: `Ellipsis: which word is omitted in a given sentence (“Some came by train, others by bus”; <i>ego Rōmam, tū Athēnās</i>, “I to Rome, you to Athens”), and from where does the hearer supply it.` },
+  qp: { id: 'q-ellipsis', variants: [
+    { prompt: `In “Some came by train, others by bus,” which word is omitted?`,
+      options: [`“came”`, `“some”`, `“train”`, `“by”`],
+      answer: 0,
+      explain: `The verb “came” is expressed once and understood again after “others”: “others came by bus.” The hearer supplies it from the first clause.` },
+    { prompt: `In Latin <i>ego Rōmam, tū Athēnās</i> (“I to Rome, you to Athens”), what must the hearer supply?`,
+      options: [`A subject for each clause`, `A verb of going`, `A preposition before each city`, `Nothing; it is complete as written`],
+      answer: 1,
+      explain: `The verb is omitted: <i>ego Rōmam</i> (<i>eō</i>), <i>tū Athēnās</i> (<i>īs</i>), “I go to Rome, you go to Athens.” The context gives the verb, so the construction is complete in the mind of the hearer.` },
+    { prompt: `Why does ellipsis not make a sentence incomplete?`,
+      options: [`Because only short words are omitted`, `Because a figure needs no verb`, `The hearer supplies the missing word`, `Because the sentence is in verse`],
+      answer: 2,
+      explain: `The omitted word is needed for the construction but is easily understood from the context, so the construction is complete in the mind of the hearer.` }
+  ]} },
 
 { id: 'zeugma',
   title: 'Zeugma',
@@ -36,7 +49,20 @@ ARS.decks['v.figures'] = {
   body: `<p>In “Neither he nor they are coming,” the one verb “are” serves for both subjects, although it agrees in number only with “they.” <strong>Syllepsis</strong> (Greek, “a taking together”) is the figure in which one word is construed with several others that differ in gender, number, or person, and agrees with only one of them. Donatus’s example is from the <i>Aeneid</i>, where Virgil says of Juno’s city of Carthage <i>hic illius arma, / hic currus fuit</i>, “Here were her arms, her chariot” (I.16–17). In the Latin the singular <i>fuit</i> (“was”) agrees with <i>currus</i> (“chariot”) but is understood also with the plural <i>arma</i> (“arms”); the English translation has to use the plural “were” for both.</p>
 <p>We saw earlier, as a rule of English agreement, that such a verb agrees with the nearer subject; the grammarians described it as a figure, because one form serves for words that would each require a different form.</p>`,
   src: `Donatus, <i>Ars maior</i> III.5; Virgil, <i>Aeneid</i> I.16–17 (trans. T. C. Williams, checked against the Perseus text).`,
-  qpTodo: `Syllepsis: in a given sentence (“Either you or I am mistaken”; “Neither the sailors nor the captain was to blame”), with which word does the verb agree, and with which is it understood.` },
+  qp: { id: 'q-syllepsis', variants: [
+    { prompt: `In “Either you or I am mistaken,” with which subject does “am” agree?`,
+      options: [`“I”`, `“you”`, `With both`, `With neither`],
+      answer: 0,
+      explain: `“Am” agrees in person and number with “I,” the nearer subject, and is understood also with “you,” with which it does not agree. That is syllepsis.` },
+    { prompt: `In “Neither the sailors nor the captain was to blame,” with which subject is “was” understood without agreeing with it?`,
+      options: [`“the captain”`, `“the sailors”`, `With both`, `With neither`],
+      answer: 1,
+      explain: `“Was” agrees with “the captain,” the nearer subject, and is understood also with the plural “the sailors.”` },
+    { prompt: `What is the figure in which one word is construed with several that differ in number or person, and agrees with only one?`,
+      options: [`Zeugma`, `Ellipsis`, `Syllepsis`, `Hendiadys`],
+      answer: 2,
+      explain: `Syllepsis (“a taking together”) construes one word with several but makes it agree with only one, as Virgil’s <i>fuit</i> agrees with <i>currus</i> and is understood with <i>arma</i>.` }
+  ]} },
 
 { id: 'donatus-words',
   title: 'Zeugma and syllepsis among the figures of words',
@@ -49,13 +75,39 @@ ARS.decks['v.figures'] = {
   body: `<p>In “The crew are asleep in their bunks,” the verb is plural, although “crew” is singular in form, because the members of the crew are thought of separately. We have seen that the grammarians call this agreement by the sense; later grammarians name it the figure <strong>synthesis</strong>. Another figure puts one case in place of another. In the <i>Aeneid</i> Dido offers the Trojans a share in Carthage with the words <i>urbem quam statuo vestra est</i> (I.573), which one translation renders “I build this city for your own.” In the Latin, <i>urbem</i> (“city”) is accusative, attracted into the case of the relative <i>quam</i> (“which”), although it is the subject of <i>est</i> (“is”) and should be nominative, <i>urbs</i>. Donatus gives this line as an example of one case put for another (<i>Ars maior</i> III.2). The grammarians call this <strong>antiptosis</strong> (Greek, “a case falling for another case”).</p>
 <p>Such figures show that the authors sometimes let the construction follow the sense or the nearness of another word rather than the strict rule. The grammarian’s task is to recognize the figure, to explain the regular construction from which it departs, and to show the reason for the departure.</p>`,
   src: `Virgil, <i>Aeneid</i> I.573 (trans. T. C. Williams, checked against the Perseus text); Donatus, <i>Ars maior</i> III.2; Allen and Greenough, <i>New Latin Grammar</i> §§ 306, 317, in paraphrase.`,
-  qpTodo: `Figures of agreement and case: what departure from regular construction is shown in a given example (“The orchestra are tuning their instruments”; a Latin example of one case put for another, other than Dido’s line), and what would the regular construction be.` },
+  qp: { id: 'q-sense-case', variants: [
+    { prompt: `What departure from regular construction does “The orchestra are tuning their instruments” show?`,
+      options: [`Agreement by the sense`, `One case put for another, as in Dido’s line`, `Ellipsis of the verb`, `Hyperbaton`],
+      answer: 0,
+      explain: `“Orchestra” is singular in form, but its members are thought of separately, so the verb and pronoun are plural. The regular construction would be “The orchestra is tuning its instruments.” Later grammarians call this figure synthesis.` },
+    { prompt: `In Terence’s line <i>eunuchum quem dedistī nōbīs, quās turbās dedit!</i> (“the eunuch whom you gave us, what disturbances he caused!”), why is <i>eunuchum</i> accusative, though in sense it is the subject of <i>dedit</i>?`,
+      options: [`It is the object of <i>dedit</i>`, `It takes the case of <i>quem</i>`, `It is an ablative absolute`, `It is a barbarism of form`],
+      answer: 1,
+      explain: `<i>Eunuchum</i> takes the accusative of the relative <i>quem</i>, which is the object of <i>dedistī</i>, although as the subject of <i>dedit</i> it should be nominative, <i>eunuchus</i>. This is one case put for another, like Dido’s <i>urbem quam statuo</i>.` },
+    { prompt: `What do the grammarians call the figure in which one case is put in place of another?`,
+      options: [`Synthesis`, `Anastrophe`, `Syllepsis`, `Antiptosis`],
+      answer: 3,
+      explain: `Antiptosis (“a case falling for another case”) is the name for one case put for another; synthesis is agreement by the sense.` }
+  ]} },
 
 { id: 'order-figures',
   title: 'Figures of order',
   body: `<p>English keeps a fixed order of words, because its order carries the construction, but it sometimes inverts that order: “Great is Diana of the Ephesians” (Acts 19:28) places the predicate adjective before the verb and the subject. Latin, whose endings show the construction, departs from the usual order much more freely. The separation of words that belong together is called hyperbaton, as we saw earlier, and Quintilian counts it a figure. A narrower figure of order is <strong>anastrophe</strong> (Greek, “turning back”), in which a preposition is placed after its noun: Virgil writes <i>maria omnia circum</i> (<i>Aeneid</i> I.32), placing <i>circum</i> (“around”) after <i>maria omnia</i> (“all the seas”), for <i>circum maria omnia</i>; Donatus’s example is <i>Italiam contra</i> for <i>contra Italiam</i> (“opposite Italy”). Another is <strong>hysteron proteron</strong> (Greek, “the later earlier”), in which what happens later is said first. Aeneas urges his men <i>moriamur et in media arma ruamus</i> (<i>Aeneid</i> II.353), putting <i>moriamur</i> (“let us die”) before <i>ruamus</i> (“let us rush”), although the rush into the midst of the fighting must come before the death. Donatus counts both among the kinds of hyperbaton (<i>Ars maior</i> III.6). In each case the regular order can be restored, and the figure is understood by comparison with it.</p>`,
   src: `Virgil, <i>Aeneid</i> I.32, II.353; Donatus, <i>Ars maior</i> III.6; Acts 19:28 (King James Version); Allen and Greenough, <i>New Latin Grammar</i> § 640.`,
-  qpTodo: `Analysis: in a given line of verse, find the figure of order (hyperbaton, anastrophe, hysteron proteron) and restore the regular order.` },
+  qp: { id: 'q-order-figures', variants: [
+    { prompt: `In Latin <i>silvās inter</i> (“among the woods”), what figure of order is used?`,
+      options: [`Anastrophe`, `Hysteron proteron`, `Hendiadys`, `Zeugma`],
+      answer: 0,
+      explain: `The preposition <i>inter</i> is placed after its noun, for the regular <i>inter silvās</i>. A preposition placed after its noun is anastrophe.` },
+    { prompt: `What figure is used in “He climbed the hill and set out from home”?`,
+      options: [`Anastrophe`, `Hysteron proteron`, `Ellipsis`, `Syllepsis`],
+      answer: 1,
+      explain: `Setting out from home must come before climbing the hill, but it is said second. Saying the later thing first is hysteron proteron.` },
+    { prompt: `Restore the regular order of Latin <i>mare per altum</i> (“through the deep sea”).`,
+      options: [`<i>mare altum per</i>`, `<i>altum mare per</i>`, `<i>per mare altum</i>`, `It is already regular`],
+      answer: 2,
+      explain: `The preposition <i>per</i> belongs before its noun and the words that depend on it: <i>per mare altum</i>. The poet has placed it between the noun and its adjective.` }
+  ]} },
 
 { id: 'hendiadys',
   title: 'Hendiadys',
@@ -68,7 +120,20 @@ ARS.decks['v.figures'] = {
   body: `<p>We have seen that the same departure from the rule may be a solecism or a figure. The grammarians judged by the criteria that we studied in the Preliminary section. A departure is a figure when it has a reason that the hearer can grasp, such as brevity, emphasis, the meter, or agreement with the sense, and when it is supported by the authority and usage of good authors. A departure is a solecism when it comes from ignorance of the rule and serves no purpose.</p>
 <p>So the student who wishes to use a figure must first know the rule from which it departs, and the reader who meets one must recognize both the rule and the reason. This is why the figures are studied after the regular construction, and why Donatus places them after the errors of speech. In Section VI we turn to those errors: the barbarism, the solecism, and the changes of words allowed in verse.</p>`,
   src: `Donatus, <i>Ars maior</i> III; Quintilian, <i>Institutio oratoria</i> I.5 and IX.3, in paraphrase.`,
-  qpTodo: `Analysis: in a given sentence that departs from regular construction, name the figure, give the regular construction, and say what reason makes it a figure rather than a solecism.` }
+  qp: { id: 'q-figure-solecism', variants: [
+    { prompt: `When is a departure from regular construction a figure rather than a solecism?`,
+      options: [`When it is made by ignorance of the rule`, `When it has a reason good authors accept`, `Whenever it occurs in prose`, `Whenever it shortens the sentence`],
+      answer: 1,
+      explain: `A figure has a reason the hearer can grasp, such as brevity, emphasis, the meter, or the sense, and is supported by good authors; a solecism comes from ignorance of the rule and serves no purpose.` },
+    { prompt: `Donatus says that a departure from the rule of construction is called a solecism in prose. What does he call it in a poem?`,
+      options: [`A barbarism`, `A metaplasm`, `A trope`, `A figure`],
+      answer: 3,
+      explain: `“In prose it is called a solecism, in a poem a figure” (<i>Ars maior</i> III.2): the same arrangement may be an error or a figure according to its reason and its setting.` },
+    { prompt: `A student writes “The boys is coming.” Why is this a solecism and not a figure?`,
+      options: [`It has no reason that authors accept`, `Every departure in English is a solecism`, `It has too few words`, `Because it is in prose`],
+      answer: 0,
+      explain: `The plural subject and singular verb serve no purpose of brevity, emphasis, or sense; they come from ignorance of the rule. Prose alone does not make a departure a solecism, since good prose also uses figures such as ellipsis.` }
+  ]} }
 
   ]
 };
