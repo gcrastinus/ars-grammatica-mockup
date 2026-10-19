@@ -15,7 +15,7 @@ ARS.decks['vii.literal'] = {
 
 { id: 'proper',
   title: 'Proper signification',
-  body: `<p>We saw in Section I that a word signifies by imposition: speakers have set a sound to signify a certain thing. What a word signifies by its imposition is its <strong>proper signification</strong> (Latin <i>propria significātiō</i>). So “lion” properly signifies a certain kind of animal, and “heart” a certain organ of the body.</p>
+  body: `<p>“Fox” properly signifies a certain kind of animal, and “heart” a certain organ of the body. A word signifies, as we saw in Section I, by imposition: speakers have set a sound to signify a certain thing. What a word signifies by its imposition is its <strong>proper signification</strong> (Latin <i>propria significātiō</i>).</p>
 <p>But speakers also use words of things other than those for which they were imposed. We say of a cunning man, “He is a fox,” and of the busiest part of a town, “the heart of the city.” Quintilian defines this use: “By a trope is meant the artistic alteration of a word or phrase from its proper meaning to another” (<i>Institutio oratoria</i> VIII.6.1). The word keeps its imposition, but it is used of something else, and the hearer must understand both what it properly signifies and what it is used to signify here.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.1 (trans. Butler; checked against the Perseus text).` },
 
@@ -24,14 +24,14 @@ ARS.decks['vii.literal'] = {
   body: `<p>In “The lion roared,” said of the animal, “lion” is used of the thing it was imposed to signify. In “Achilles was a lion in battle,” it is used of a man who was like a lion in courage. A word used in its proper signification is said to be used <strong>literally</strong> (from Latin <i>littera</i>, “letter,” that is, according to the letter of the words). A word used of something other than its proper signification, by some likeness or relation, is said to be used <strong>figuratively</strong>. So in the first sentence “lion” is used literally, and in the second it is used figuratively.</p>
 <p>Quintilian explains the difference between the figurative use and a plain comparison: “It is a comparison when I say that a man did something <i>like a lion</i>, it is a metaphor when I say of him, <i>He is a lion</i>” (<i>Institutio oratoria</i> VIII.6.9). In the comparison, “lion” is still used literally and the word “like” states the likeness; in the figurative use, the likeness is not stated, and the word itself is carried over to the man. But some figurative uses have become so common that they no longer seem figurative at all.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.9 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Literal or figurative: is the marked word used literally or figuratively in a given sentence (“The lion roared”; “Achilles was a lion in battle”; “He fought like a lion”), and why.` },
+  qpTodo: `Literal or figurative: is the marked word used literally or figuratively in a given sentence (fresh sentences, not the card’s “lion” examples: e.g., “The snake slid under the rock”; “That lawyer is a snake”; “He moved like a snake”), and why.` },
 
 { id: 'necessary',
   title: 'Figurative words that have become ordinary',
   body: `<p>English is full of figurative uses that have become ordinary: the “leg” of a table, the “mouth” of a river, the “foot” of a mountain, a “hard” question. Many of them are so common that speakers no longer recognize that they were once figurative, and dictionaries list them as ordinary senses of the word. Often such a use was necessary, because the language had no proper word for the thing; there is no other ordinary English word for the part of a table that the word “leg” names.</p>
 <p>Quintilian observes the same thing in Latin. Some figurative uses are necessary, because the language has no proper word: farmers “call a vinebud <i>gemma</i>, a gem (what other term is there which they could use?), or speak of the crops being thirsty or the fruit suffering. For the same reason we speak of a hard or rough man, there being no literal term for these temperaments” (<i>Institutio oratoria</i> VIII.6.6). So the boundary between literal and figurative use can change with usage, because a figurative use that becomes established may become a second proper signification of the word.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.6 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Established figurative uses: is a given expression (“the leg of a table,” “the mouth of a river,” “a hard man”) still felt as figurative, and why did the language need it.` },
+  qpTodo: `Established figurative uses: is a given expression (fresh expressions, not the card’s: e.g., “the eye of a needle,” “the neck of a bottle,” “a cold reception”) still felt as figurative, and why did the language need it.` },
 
 { id: 'augustine-signs',
   title: 'Augustine: literal and figurative signs',
