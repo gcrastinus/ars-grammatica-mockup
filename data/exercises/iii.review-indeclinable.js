@@ -472,7 +472,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "set": "B",
    "deck": "iii.interjection",
    "type": "mc-marked",
-   "prompt": "“<b>Whoa</b>, look at the size of that wave!” What feeling does the marked word express?",
+   "prompt": "“<b>Wow</b>, look at the size of that wave!” What feeling does the marked word express?",
    "options": [
     "Grief",
     "Disgust",
@@ -480,7 +480,7 @@ ARS.exercises['iii.review-indeclinable'] = {
     "Wonder"
    ],
    "answer": 3,
-   "explain": "“Whoa” here expresses wonder at something astonishing, as Latin <i>papae</i> does."
+   "explain": "“Wow” here expresses wonder at something astonishing, as Latin <i>papae</i> does."
   },
   {
    "id": "ri-B15",
