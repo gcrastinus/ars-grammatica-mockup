@@ -1,5 +1,5 @@
 /* III.4 Homonymy and Synonymy [iii.homonymy]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written). One panel points back to I.6.
+   Plan (ITEM-LIST.md): 7 panels, 2 question points. One panel points back to I.6.
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from Donatus and Aristotle, Categories 1. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -21,7 +21,20 @@ ARS.decks['iii.homonymy'] = {
   body: `<p>The opposite case is just as common. “Begin” and “commence,” “buy” and “purchase,” and “freedom” and “liberty” are different words that signify the same thing. Such words are called <strong>synonyms</strong>. Donatus names this case as well: nouns that are many in name but signify one thing, which he calls <strong>synonyms</strong> or <strong>polyonyms</strong> (Greek <i>synōnymos</i>, “named together,” and <i>polyōnymos</i>, “many-named”). His examples are <i>terra</i>, <i>humus</i>, and <i>tellūs</i>, all meaning “earth,” and <i>ēnsis</i>, <i>mucrō</i>, and <i>gladius</i>, all meaning “sword” (<i>Ars maior</i> II).</p>
 <p>English is especially rich in synonyms because it has taken many words from French and Latin beside its native ones, so that the native “kingly” stands beside the French “royal” and the Latin “regal.”</p>`,
   src: `Donatus, <i>Ars maior</i> II, on the noun, in paraphrase.`,
-  qpTodo: `Homonym or synonym: given a pair or group of words (<i>mālus</i>, “mast” and “apple tree”; <i>metus</i>, <i>formīdō</i>; “pupil”; “ask,” “inquire”), say which it is and why.` },
+  qp: { id: 'q-synonyms', variants: [
+    { prompt: `Latin <i>mālus</i> means both “mast” and “apple tree.” What is it?`,
+      options: [`A homonym`, `A synonym`, `A word without signification`, `A compound`],
+      answer: 0,
+      explain: `<i>Mālus</i> is one word with two meanings, the mast of a ship and the apple tree, so it is a homonym. Synonyms are the opposite case: many words with one meaning.` },
+    { prompt: `Latin <i>metus</i> and <i>formīdō</i> both mean “fear.” What are they?`,
+      options: [`Homonyms`, `Two meanings of one word`, `Synonyms`, `One word in two cases`],
+      answer: 2,
+      explain: `<i>Metus</i> and <i>formīdō</i> are two different words that signify the same thing, so they are synonyms, as Donatus’s <i>terra</i>, <i>humus</i>, and <i>tellūs</i> are. They are not two forms of one word, since they come from different stems.` },
+    { prompt: `“Ask” and “inquire” signify the same thing. Why are they called synonyms and not homonyms?`,
+      options: [`Because they are one word with two meanings`, `Because they sound alike`, `Because one is formed from the other`, `Because they are two words with one meaning`],
+      answer: 3,
+      explain: `A synonym is one of many words that signify the same thing, and “ask” and “inquire” are two words with one meaning. A homonym is the opposite: one word with more than one meaning. The two words neither sound alike nor come from each other.` }
+  ]} },
 
 { id: 'exact-synonyms',
   title: 'Are synonyms ever exactly the same?',
@@ -46,7 +59,20 @@ ARS.decks['iii.homonymy'] = {
   body: `<p>“Pale” and “pail” sound alike but are spelled differently, whereas “tear” (to rip) and “tear” (from the eye) are spelled alike but sound different. Modern grammars therefore distinguish kinds of homonyms by sound and spelling. <strong>Homophones</strong> are words that sound alike but may be spelled differently, as also “there,” “their,” and “they’re.” <strong>Homographs</strong> are words that are spelled alike but may sound different, as also “bow” (of a ship) and “bow” (for arrows).</p>
 <p>The distinction matters because writing and speech can produce different ambiguities. A homophone is ambiguous only in speech, since writing distinguishes “pale” from “pail”; a homograph with two pronunciations is ambiguous only in writing, since speech distinguishes the two words “tear.” This follows from what we saw in Section II about the imperfect fit between English spelling and sound.</p>`,
   src: `Standard English grammars, in paraphrase.`,
-  qpTodo: `Homophones and homographs: given a pair (“flea” and “flee”; “minute,” sixty seconds, and “minute,” very small), which is it, and is the pair ambiguous in speech or in writing.` },
+  qp: { id: 'q-homophones', variants: [
+    { prompt: `“Flea” and “flee” sound alike but are spelled differently. What are they called?`,
+      options: [`Homographs`, `Homophones`, `Synonyms`, `Paronyms`],
+      answer: 1,
+      explain: `Words that sound alike but are spelled differently are homophones. Homographs are spelled alike but may sound different, and synonyms are different words with one meaning.` },
+    { prompt: `Is the pair “horse” and “hoarse” ambiguous in speech or in writing?`,
+      options: [`In writing only`, `In speech only`, `In both speech and writing`, `In neither`],
+      answer: 1,
+      explain: `“Horse” and “hoarse” are homophones: they sound alike, so a hearer may take one for the other, but writing distinguishes them by their spelling. So the pair is ambiguous only in speech.` },
+    { prompt: `“Minute” (sixty seconds) and “minute” (very small) are spelled alike but pronounced differently. Where can the word be ambiguous?`,
+      options: [`In speech only`, `In both speech and writing`, `In neither`, `In writing only`],
+      answer: 3,
+      explain: `The two words are homographs with different pronunciations. Speech distinguishes them, because “MIN-it” and “my-NOOT” sound different, but writing does not, so the word is ambiguous only in writing.` }
+  ]} },
 
 { id: 'ambiguity',
   title: 'Homonymy and ambiguity',
