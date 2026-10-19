@@ -26,7 +26,8 @@ ARS.decks['iii.figure'] = {
 { id: 'four-ways',
   title: 'The four ways of compounding',
   body: `<p>When two words are joined into one, each may keep its whole form or change it. In “sunflower” both “sun” and “flower” stay whole, whereas in “holiday” (from “holy” and “day”) the vowel of “holy” has changed. So the parts of a compound may change their form when they are joined.</p>
-<p>Donatus says that nouns are compounded in four ways (<i>Ars minor</i>): first, from two whole words, as <i>suburbānus</i> (“near the city”), from <i>sub</i> (“under,” “near”) and <i>urbānus</i> (“of the city”); second, from two words that are changed, as <i>efficāx</i> (“effective”) and <i>mūniceps</i> (“citizen of a town”); third, from a whole word and a changed one, as <i>īnsulsus</i> (“tasteless,” “silly”), from <i>in-</i> and <i>salsus</i> (“salted”); and fourth, from a changed word and a whole one, as <i>nūgigerulus</i> (“a carrier of trifles”). Sometimes a noun is compounded from more than two parts, as <i>inexpugnābilis</i> (“unconquerable”). The <i>a</i> of <i>salsus</i> becomes <i>u</i> in <i>īnsulsus</i>, and the <i>-ere</i> of <i>facere</i> disappears in <i>efficāx</i>.</p>`,
+<p>Donatus says that nouns are compounded in four ways (<i>Ars minor</i>): first, from two whole words, as <i>suburbānus</i> (“near the city”), from <i>sub</i> (“under,” “near”) and <i>urbānus</i> (“of the city”); second, from two words that are changed, as <i>efficāx</i> (“effective”) and <i>mūniceps</i> (“citizen of a town”); third, from a whole word and a changed one, as <i>īnsulsus</i> (“tasteless,” “silly”), from <i>in-</i> and <i>salsus</i> (“salted”); and fourth, from a changed word and a whole one, as <i>nūgigerulus</i> (“a carrier of trifles”). Sometimes a noun is compounded from more than two parts, as <i>inexpugnābilis</i> (“unconquerable”).</p>
+<p>In each case the change can be seen. In <i>efficāx</i>, <i>ex</i> becomes <i>ef-</i> and the <i>-ere</i> of <i>facere</i> (“to make”) disappears; in <i>mūniceps</i>, <i>mūnia</i> (“duties”) loses its ending and <i>capiō</i> (“I take”) becomes <i>-ceps</i>; in <i>īnsulsus</i>, the <i>a</i> of <i>salsus</i> becomes <i>u</i>; and in <i>nūgigerulus</i>, <i>nūgae</i> (“trifles”) becomes <i>nūgi-</i>, whereas <i>gerulus</i> (“carrier”) stays whole.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the figure of the noun, in paraphrase.` },
 
 { id: 'english-compounds',
@@ -37,10 +38,10 @@ ARS.decks['iii.figure'] = {
 
 { id: 'all-parts',
   title: 'Compounds in the other parts of speech',
-  body: `<p>Figure belongs not only to the noun but to the other parts of speech. Latin verbs are very often compounded with prepositions: <i>faciō</i> (“I make”) gives <i>cōnficiō</i> (“I complete”), <i>efficiō</i> (“I bring about”), and <i>perficiō</i> (“I finish”); <i>pōnō</i> (“I place”) gives <i>compōnō</i> (“I put together”) and <i>dēpōnō</i> (“I put down”). Pronouns, adverbs, and conjunctions can be compound as well, as <i>quisquis</i> (“whoever”), <i>īdem</i> (“the same”), <i>postquam</i> (“after”), and English “whoever,” “therefore,” and “nevertheless.”</p>
+  body: `<p>Figure belongs not only to the noun but to the other parts of speech. Latin verbs are very often compounded with prepositions: <i>faciō</i> (“I make”) gives <i>cōnficiō</i> (“I complete”), <i>efficiō</i> (“I bring about”), and <i>perficiō</i> (“I finish”); <i>pōnō</i> (“I place”) gives <i>compōnō</i> (“I put together”) and <i>expōnō</i> (“I set out”). Pronouns, adverbs, and conjunctions can be compound as well, as <i>quisquis</i> (“whoever”), <i>īdem</i> (“the same”), <i>postquam</i> (“after”), and English “whoever,” “therefore,” and “nevertheless.”</p>
 <p>Many English words are compounds of the same kind, borrowed from Latin: “deposit,” “component,” “postpone,” and “opponent” all contain the Latin <i>pōnere</i> (“to place”), though English speakers are rarely aware of it. English also forms compounds of its own, as “understand,” “withdraw,” and “overcome.”</p>`,
   src: `Donatus, <i>Ars maior</i> II; Allen and Greenough, <i>New Latin Grammar</i>, on compound verbs.`,
-  qpTodo: `Simple or compound: given a word (<i>impotēns</i>, <i>cōnficiō</i>, “understand,” “house”), is it simple or compound, and of what parts is it made.` },
+  qpTodo: `Simple or compound: given a word (<i>indignus</i>, <i>remittō</i>, “outrun,” “tree”), is it simple or compound, and of what parts is it made.` },
 
 { id: 'species',
   title: 'Primitive and derived words',
@@ -53,7 +54,7 @@ ARS.decks['iii.figure'] = {
   body: `<p>Composition and derivation are often confused, but they differ. In <strong>composition</strong> two words, or parts of words, are joined, and each part can usually be found as a word of the language: <i>in-</i> and <i>potēns</i>; “green” and “house.” In <strong>derivation</strong> one word is formed from another, usually by adding an ending that is not itself a word: <i>mōns</i> and <i>-ānus</i>; “king” and “-dom.”</p>
 <p>So the two accidents answer different questions, and one word can have both. Latin <i>inimīcitia</i> (“enmity”) is compound, because <i>inimīcus</i> (“enemy”) is made of <i>in-</i> (“not”) and <i>amīcus</i> (“friend”), and it is also derived, because <i>inimīcitia</i> is formed from <i>inimīcus</i> by the ending <i>-itia</i>. In English, “unkindness” is compound in the same way, from “un-” and “kind,” and derived, by the ending “-ness.”</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> IV–V, in paraphrase.`,
-  qpTodo: `Figure and species together: is a given word (<i>inimīcitia</i>, “unkindness,” <i>montānus</i>, “greenhouse”) simple or compound, and primitive or derived.` },
+  qpTodo: `Figure and species together: is a given word (<i>inhūmānitās</i>, “unfriendly,” <i>marīnus</i>, “windmill”) simple or compound, and primitive or derived.` },
 
 { id: 'to-iv',
   title: 'Figure, species, and word formation',
