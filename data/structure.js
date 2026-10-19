@@ -85,7 +85,7 @@ ARS.structure = [
    { id:'v.congruity', kind:'study-ex', built:true, title:'Congruity', desc:'A sentence correctly formed and complete, as distinct from a sentence that is true.' },
    { id:'v.agreement', kind:'study-ex', built:true, title:'Agreement (<i>concordantia</i>)', desc:'How do words agree in gender, number, case, and person?' },
    { id:'v.government', kind:'study-ex', built:true, title:'Government (<i>regimen</i>)', desc:'How does a verb, a preposition, or a noun require a case?' },
-   { id:'v.dependence', kind:'study', built:true, title:'Dependence', desc:'The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>).' },
+   { id:'v.dependence', kind:'study-ex', built:true, title:'Dependence', desc:'The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>).' },
    { id:'v.order', kind:'study', built:true, title:'Order (<i>ordo</i>)', desc:'Natural and artificial order, word order in English and in Latin, and the basic orders that typology classifies.' },
    { id:'v.phrase', kind:'study', built:true, title:'The Phrase', desc:'Groups of words that act as one part of speech.' },
    { id:'v.clause', kind:'study', built:true, title:'The Clause', desc:'Subject and predicate, and independent and dependent clauses.' },
