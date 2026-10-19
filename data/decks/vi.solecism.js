@@ -1,5 +1,5 @@
 /* VI.3 Solecism [vi.solecism]
-   Plan (ITEM-LIST.md): 8 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 8 panels, 2 question points.
    Live material drawn on: DECKS.vices, DECKS.latfaults, DECKS.enfault (5 panels: fragment, run-on, misplaced and dangling
    modifier, unclear pronoun), DECKS.figures (the other faults). Quintilian I.5.34–54 checked against the Perseus text of
    Butler's translation. */
@@ -30,7 +30,20 @@ ARS.decks['vi.solecism'] = {
   body: `<p>A single word spoken alone can still be wrongly constructed. If a speaker says “Come, all of you” to one person, or answers the question “Whom did you call?” with “I,” the words do not fit what they address or answer. Quintilian asks whether a solecism can occur in a single word in this way: “Is it for instance a solecism if a man when calling a single person to him says <i>uenite</i>, or in dismissing several persons says <i>abi</i> or <i>discede</i>? Or again if the answer does not correspond to the question: suppose, for example, when someone said to you <i>Whom do I see?</i>, you were to reply <i>I</i>” (<i>Institutio oratoria</i> I.5.36).</p>
 <p>He concludes: “a solecism may occur in one word, but never in a word in isolation” (I.5.38). The plural command <i>venīte</i> (“come,” to several) addressed to one person is a solecism, because it does not agree with the number of those addressed, although no other word is spoken. So the construction may be with something that is not a word, such as the situation of speaking or the question that was asked, and the solecism is still an error of agreement.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.36–38 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Solecism in one word: why is <i>salvēte</i> (“greetings,” to several) said to one person (or “He” in answer to “Whom did they choose?”) a solecism, and with what is the word wrongly constructed.` },
+  qp: { id: 'q-one-word', variants: [
+    { prompt: `Why is Latin <i>salvēte</i> (“greetings,” said to several) a solecism when it is said to one person?`,
+      options: [`Its number does not fit the hearer`, `It is a barbarism, a wrong form of the word`, `It lacks a subject`, `It is a misspelling`],
+      answer: 0,
+      explain: `<i>Salvēte</i> is plural, but it is addressed to one person, so it does not agree with the number of those addressed. Like Quintilian’s <i>venīte</i>, it is a solecism in one word, constructed wrongly with the situation of speaking.` },
+    { prompt: `When someone asks “Whom did they choose?” and the answer is “He,” with what is “He” wrongly constructed?`,
+      options: [`With a verb in its own clause`, `With the question asked`, `With nothing; it is a barbarism`, `With the person addressed`],
+      answer: 1,
+      explain: `The answer stands for the object of “choose” in the question, so it requires the objective “him.” The word is wrongly constructed with the question, as Quintilian’s answer <i>I</i> is.` },
+    { prompt: `Quintilian concludes that a solecism may occur in one word, but never where?`,
+      options: [`In a verb`, `In a poem`, `In a word in isolation`, `In a Latin sentence`],
+      answer: 2,
+      explain: `“A solecism may occur in one word, but never in a word in isolation”: there must always be something, a word, a question, or the situation, with which it is wrongly constructed.` }
+  ]} },
 
 { id: 'four-kinds',
   title: 'The four kinds of solecism',
@@ -50,7 +63,20 @@ ARS.decks['vi.solecism'] = {
 <p>a <strong>sentence fragment</strong> presents a dependent clause or a phrase as a sentence: “Because the gate was shut.”;<br>a <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark: “The gate was shut, we went home”;<br>a <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on: “Walking into the room, the lamp fell over”;<br>an <strong>unclear pronoun</strong>, as we saw in Section III, has no clear antecedent: “When the vase struck the shelf, it cracked.”</p>
 <p>Each of these is a failure of the relations studied in Section V. The fragment fails in completeness, the run-on in the joining of clauses, the dangling modifier in dependence, and the unclear pronoun in the reference that agreement presupposes.</p>`,
   src: `Standard English handbooks, in paraphrase.`,
-  qpTodo: `Errors of construction: what is wrong in a given sentence (a fragment, a comma splice, a dangling modifier, a solecism of number or case), and how is it corrected.` },
+  qp: { id: 'q-english', variants: [
+    { prompt: `What is wrong with “Hoping for rain, the clouds gathered over the farm”?`,
+      options: [`A dangling modifier`, `A comma splice`, `A sentence fragment`, `A solecism of case`],
+      answer: 0,
+      explain: `“Hoping for rain” has no word in the sentence that it can sensibly depend on: it attaches to “the clouds,” which do not hope. The phrase needs a person to depend on: “Hoping for rain, the farmer watched the clouds gather.”` },
+    { prompt: `What is wrong with “The road was icy, we drove slowly”?`,
+      options: [`A dangling modifier`, `A comma splice`, `A sentence fragment`, `A solecism of number`],
+      answer: 1,
+      explain: `Two independent clauses are joined by a comma alone. It is corrected with a conjunction or a stronger mark: “The road was icy, so we drove slowly,” or “The road was icy; we drove slowly.”` },
+    { prompt: `How is the fragment “Since the shop had closed.” best corrected?`,
+      options: [`By adding a comma`, `By changing “had” to “has”`, `By joining it to a main clause`, `By removing “the”`],
+      answer: 2,
+      explain: `The words are a dependent clause presented as a sentence, so they fail in completeness. Joined to a main clause they are complete: “Since the shop had closed, we went home.”` }
+  ]} },
 
 { id: 'figure',
   title: 'Solecism and figure',
