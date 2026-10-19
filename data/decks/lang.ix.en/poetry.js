@@ -9,7 +9,7 @@ ARS.decks["lang.ix.en/poetry"] = {
   {
    "id": "poetry-1",
    "title": "Milton, <i>Paradise Lost</i> I.1–6 · Blank verse",
-   "body": "<p>Of Man’s first disobedience, and the fruit<br>Of that forbidden tree whose mortal taste<br>Brought death into the World, and all our woe,<br>With loss of Eden, till one greater Man<br>Restore us, and regain the blissful seat,<br>Sing, Heavenly Muse,</p><p><strong>Context.</strong> John Milton’s epic, published in 1667, opens as the classical epics do, by naming its subject and calling on the Muse. The main verb, “Sing,” is held back to the sixth line. The meter is blank verse: unrhymed iambic pentameter.</p>"
+   "body": "<p>Of Man’s first disobedience, and the fruit<br>Of that forbidden tree whose mortal taste<br>Brought death into the World, and all our woe,<br>With loss of Eden, till one greater Man<br>Restore us, and regain the blissful seat,<br>Sing, Heavenly Muse,</p><p><strong>Context.</strong> John Milton’s epic, published in 1667, opens as the classical epics do, by naming its subject and calling on the Muse. The main verb, “Sing,” is held back to the sixth line. The meter is blank verse, that is, unrhymed iambic pentameter, and, as we noted in Section II, the sense runs on across the ends of the lines.</p>"
   },
   {
    "id": "poetry-2",
@@ -39,7 +39,7 @@ ARS.decks["lang.ix.en/poetry"] = {
   {
    "id": "poetry-7",
    "title": "Shakespeare, <i>Sonnets</i> 18.1–8 · Iambic pentameter",
-   "body": "<p>Shall I compare thee to a summer’s day?<br>Thou art more lovely and more temperate:<br>Rough winds do shake the darling buds of May,<br>And summer’s lease hath all too short a date:<br>Sometime too hot the eye of heaven shines,<br>And often is his gold complexion dimm’d,<br>And every fair from fair sometime declines,<br>By chance, or nature’s changing course untrimm’d:</p><p><strong>Context.</strong> Shakespeare’s sonnets were printed in 1609. A sonnet has fourteen lines of iambic pentameter; these are the first eight, which set the beloved against a summer’s day.</p>"
+   "body": "<p>Shall I compare thee to a summer’s day?<br>Thou art more lovely and more temperate:<br>Rough winds do shake the darling buds of May,<br>And summer’s lease hath all too short a date:<br>Sometime too hot the eye of heaven shines,<br>And often is his gold complexion dimm’d,<br>And every fair from fair sometime declines,<br>By chance, or nature’s changing course untrimm’d:</p><p><strong>Context.</strong> Shakespeare’s sonnets were printed in 1609. A sonnet has fourteen lines of iambic pentameter (we measured the first line of this one in Section II); these are the first eight, which set the beloved against a summer’s day.</p>"
   },
   {
    "id": "poetry-8",
@@ -94,7 +94,7 @@ ARS.decks["lang.ix.en/poetry"] = {
   {
    "id": "poetry-18",
    "title": "Coleridge, <i>The Rime of the Ancient Mariner</i> lines 1–8 · The ballad stanza",
-   "body": "<p>It is an ancient Mariner,<br>And he stoppeth one of three.<br>&quot;By thy long grey beard and glittering eye,<br>Now wherefore stopp'st thou me?<br><br>&quot;The Bridegroom's doors are opened wide,<br>And I am next of kin;<br>The guests are met, the feast is set:<br>May'st hear the merry din.&quot;</p><p><strong>Context.</strong> Coleridge’s poem appeared in <i>Lyrical Ballads</i> in 1798. It is written in the ballad stanza, in lines of four and three beats in turn. An old sailor stops a guest on his way to a wedding.</p>"
+   "body": "<p>It is an ancient Mariner,<br>And he stoppeth one of three.<br>&quot;By thy long grey beard and glittering eye,<br>Now wherefore stopp'st thou me?<br><br>&quot;The Bridegroom's doors are opened wide,<br>And I am next of kin;<br>The guests are met, the feast is set:<br>May'st hear the merry din.&quot;</p><p><strong>Context.</strong> Coleridge’s poem appeared in <i>Lyrical Ballads</i> in 1798. It is written in the ballad stanza, in lines of four and three beats in turn, as we noted in the study of English meter. An old sailor stops a guest on his way to a wedding.</p>"
   },
   {
    "id": "poetry-19",
