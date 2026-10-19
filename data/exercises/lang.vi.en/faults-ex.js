@@ -5,7 +5,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "VI",
- "title": "Common Faults in English",
+ "title": "Common Errors in English",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

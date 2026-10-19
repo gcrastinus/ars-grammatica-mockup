@@ -11,14 +11,14 @@ ARS.languages["lang.vi.en"] = {
    "id": "lang.vi.en/faults",
    "kind": "study",
    "built": true,
-   "title": "Common Faults in English",
-   "desc": "What a modern class marks, set beside barbarism and solecism."
+   "title": "Common Errors in English",
+   "desc": "The errors that English handbooks name, set beside barbarism and solecism."
   },
 {
    "id": "lang.vi.en/faults-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Common Faults in English",
+   "title": "Common Errors in English",
    "desc": "102 questions."
   }
 
