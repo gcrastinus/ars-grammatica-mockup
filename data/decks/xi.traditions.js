@@ -25,8 +25,8 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'scribal-school',
   title: 'Sumerian in the Babylonian school',
-  body: `<p>In Mesopotamia, some two thousand years before Donatus, the scribes who spoke Akkadian kept Sumerian as a language of learning after it had ceased to be anyone’s mother tongue, as Latin was later kept in the West. They did not write a treatise called grammar. They wrote lists and paradigms on clay tablets, with a Sumerian form in the left column and its Akkadian equivalent in the right, so that the Sumerian was understood through the Akkadian.</p>
-<p>The simplest line of such a list is a pair: Sumerian <i>lugal</i> = Akkadian <i>šarru</i>, “king.” The art begins with this pairing, not with a definition of the noun, and every Sumerian word, prefix, or form is taught by the Akkadian form that faces it. So the scribal art of words is a bilingual art: its unit is the match between two languages, not the analysis of one.</p>`,
+  body: `<p>When a language is no longer anyone’s mother tongue but its books are still read, it must be taught in school, as Latin was in the West. In Mesopotamia, some two thousand years before Donatus, the scribes who spoke Akkadian kept Sumerian as a language of learning after it had ceased to be anyone’s mother tongue, as Latin was later kept in the West. They did not write a treatise called grammar. They wrote lists and paradigms on clay tablets, with a Sumerian form in the left column and its Akkadian equivalent in the right, so that the Sumerian was understood through the Akkadian.</p>
+<p>The simplest line of such a list is a pair: Sumerian <i>lugal</i> = Akkadian <i>šarru</i>, “king.” The art begins with this pairing, not with a definition of the noun, and every Sumerian word, prefix, or form is taught by the Akkadian form that faces it. So the scribal art of words is a bilingual art: its unit is the match between two languages, not the analysis of one. The scribes’ first concern was the written sign itself.</p>`,
   src: `<i>Materials for the Sumerian Lexicon</i> IV; Black, <i>Sumerian Grammar in Babylonian Theory</i>; both in paraphrase.` },
 
 { id: 'scribal-sign',
@@ -34,7 +34,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Our art begins with the letter, the least part of articulate voice that can be written. The scribal art begins with the <strong>sign</strong>, a cuneiform character that may write a whole word, a syllable, or several different words. The sign called KA, for example, may be read <i>inim</i> (“word”), <i>dug</i> (“to speak”), or <i>gù</i> (“voice”), so that one figure has several powers, and the powers are different words.</p>
 <p>The scribes compiled sign lists, such as the series called <i>Ea</i>, which give each sign with its readings and often an Akkadian equivalent, and the series <i>Diri</i>, which treats signs written together for one reading. So the scribal “letter” is not a sound without meaning, as ours is, but a written sign that often already has a meaning. We saw in Section II that a letter has a name, a figure, and a power; the sign lists record the same three things for each sign, but the power of a sign is often a word.</p>`,
   src: `<i>Materials for the Sumerian Lexicon</i>, the <i>Ea</i> and <i>Diri</i> series, in paraphrase.`,
-  qpTodo: `The sign: how does a cuneiform sign such as KA differ from a Latin letter (it may write a word; it has several readings), and what did the sign lists record.` },
+  qpTodo: `The sign: how does a cuneiform sign such as AN (read <i>an</i>, “heaven,” or <i>dingir</i>, “god”) differ from a Latin letter (it may write a word; it has several readings), and what did the sign lists record.` },
 
 { id: 'scribal-lists',
   title: 'The thematic lists',
@@ -59,8 +59,8 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'vyakarana',
   title: 'Vyākaraṇa, the analysis of speech',
-  body: `<p>The Indian name for grammar is <i>vyākaraṇa</i>, “analysis” or “separation,” that is, the separating of speech into its parts. It was counted among the six auxiliary sciences of the Veda, the sacred texts of Hinduism, because the exact wording of the Veda had to be preserved and understood, and that required the ability to take a word apart and put it together again.</p>
-<p>The central work of the tradition is Pāṇini’s <i>Aṣṭādhyāyī</i> (“The Eight Chapters”), composed perhaps in the fourth century BC. Before it stands Yāska’s <i>Nirukta</i>, a work on the explanation of difficult Vedic words; after it come Patañjali’s <i>Mahābhāṣya</i> (“The Great Commentary”), of about the second century BC, and Bhartṛhari’s <i>Vākyapadīya</i>, a philosophy of language of about the fifth century AD. So the Indian tradition is older than the Greek grammar of Dionysius Thrax and developed independently of it.</p>`,
+  body: `<p>A text that must be recited word for word, without the change of a single sound, for many centuries requires a careful study of its words. The Indian name for that study is <i>vyākaraṇa</i>, “analysis” or “separation,” that is, the separating of speech into its parts. It was counted among the six auxiliary sciences of the Veda, the sacred texts of Hinduism, because the exact wording of the Veda had to be preserved and understood, and that required the ability to take a word apart and put it together again.</p>
+<p>The central work of the tradition is Pāṇini’s <i>Aṣṭādhyāyī</i> (“The Eight Chapters”), composed perhaps in the fourth century BC. Before it stands Yāska’s <i>Nirukta</i>, a work on the explanation of difficult Vedic words; after it come Patañjali’s <i>Mahābhāṣya</i> (“The Great Commentary”), of about the second century BC, and Bhartṛhari’s <i>Vākyapadīya</i>, a philosophy of language of about the fifth century AD. So the Indian tradition is older than the Greek grammar of Dionysius Thrax and developed independently of it, and its central work has a form unlike any Greek or Latin grammar.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i>; Yāska, <i>Nirukta</i>; Patañjali, <i>Mahābhāṣya</i>; Bhartṛhari, <i>Vākyapadīya</i>; general history, in paraphrase.` },
 
 { id: 'sutra',
@@ -80,7 +80,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>When two sounds meet in Sanskrit, at the end of one word and the beginning of the next, or within a word, they often change. This change is called <strong>sandhi</strong> (“putting together”), and its rules are part of the grammar. So <i>tat</i> (“that”) and <i>api</i> (“also”) are joined as <i>tad api</i> (“that too”), and <i>rāmaḥ</i> (“Rāma”) and <i>gacchati</i> (“goes”) are joined as <i>rāmo gacchati</i>.</p>
 <p>We saw in Section VI that a change in a single word is a barbarism in prose and a metaplasm in verse. In Sanskrit, by contrast, the changes of sandhi are required in correct speech, and omitting them would be an error. English has a few such changes, as “an apple” but “a pear,” and Latin elision in verse is a kind of sandhi; but no other classical tradition made the joining of sounds so large a part of the grammar.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i>, the rules of sandhi, in paraphrase.`,
-  qpTodo: `Sandhi: what happens when two Sanskrit words are joined (<i>tat</i> + <i>api</i>), and how does sandhi differ from a barbarism or a metaplasm in Latin.` },
+  qpTodo: `Sandhi: what happens when two Sanskrit words are joined (<i>na</i> + <i>asti</i>, which become <i>nāsti</i>, “is not”), and how does sandhi differ from a barbarism or a metaplasm in Latin.` },
 
 { id: 'yaska',
   title: 'Yāska’s four kinds of word',
@@ -91,14 +91,14 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'pada',
   title: 'The word in the sentence',
-  body: `<p>The English word “king” can stand in a sentence just as it is, but the Latin stem <i>rēg-</i> cannot; it must first receive an ending, as in <i>rēx</i> or <i>rēgem</i>. Sanskrit is like Latin in this respect, and Pāṇini defines a word in use, a <strong>pada</strong>, by its ending: a word is that which ends in a nominal ending or a verbal ending (<i>Aṣṭādhyāyī</i> 1.4.14, <i>suptiṅantaṃ padam</i>, in substance). So the stem <i>rāma</i> is not yet a word of the sentence; with the nominative ending it becomes <i>rāmaḥ</i>, “Rāma,” which can stand in a sentence.</p>
+  body: `<p>The English word “peace” can stand in a sentence just as it is, but the Latin stem <i>pāc-</i> cannot; it must first receive an ending, as in <i>pāx</i> or <i>pācem</i>. Sanskrit is like Latin in this respect, and Pāṇini defines a word in use, a <strong>pada</strong>, by its ending: a word is that which ends in a nominal ending or a verbal ending (<i>Aṣṭādhyāyī</i> 1.4.14, <i>suptiṅantaṃ padam</i>, in substance). So the stem <i>rāma</i> is not yet a word of the sentence; with the nominative ending it becomes <i>rāmaḥ</i>, “Rāma,” which can stand in a sentence.</p>
 <p>This definition differs from Priscian’s, which we saw in Section III defines the word as the least part of a constructed sentence. Both relate the word to the sentence, but Pāṇini makes the ending the mark of a word, so that a stem without its ending belongs to a level below the word. The difference reflects the languages: in Sanskrit, as in Latin, nouns and verbs almost never appear without an ending, whereas in English many words do.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i> 1.4.14 (Vasu for reference), in substance.` },
 
 { id: 'root-affix',
   title: 'Root and affix',
-  body: `<p>The Indian grammar derives almost every form from a <strong>root</strong> (<i>dhātu</i>) and one or more <strong>affixes</strong> (<i>pratyaya</i>). The roots are listed in a separate catalogue with their meanings: <i>gam</i> (“go”), <i>kṛ</i> (“make”), <i>bhū</i> (“be, become”). A verb of the sentence is made by adding affixes to the root: from <i>gam</i> comes <i>gacchati</i>, “he goes,” and with a past affix <i>agacchat</i>, “he went.”</p>
-<p>So the Indian grammarian does not parse a finished form, as we do when we name the accidents of <i>laudābantur</i>; he builds the form from its root. We saw in Section IV that Latin and English words are formed by derivation and composition; Pāṇini made derivation the method of the whole grammar, so that nouns, verbs, and even many particles are derived from roots by rules.</p>`,
+  body: `<p>Many English words can be traced to a shorter word from which they were made, as “player” to “play.” The Indian grammar derives almost every form in this way, from a <strong>root</strong> (<i>dhātu</i>) and one or more <strong>affixes</strong> (<i>pratyaya</i>). The roots are listed in a separate catalogue with their meanings: <i>gam</i> (“go”), <i>kṛ</i> (“make”), <i>bhū</i> (“be, become”). A verb of the sentence is made by adding affixes to the root: from <i>gam</i> comes <i>gacchati</i>, “he goes,” and with a past affix <i>agacchat</i>, “he went.”</p>
+<p>So the Indian grammarian does not parse a finished form, as we do when we name the accidents of <i>audiēbātur</i>; he builds the form from its root. We saw in Section IV that Latin and English words are formed by derivation and composition; Pāṇini made derivation the method of the whole grammar, so that nouns, verbs, and even many particles are derived from roots by rules.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i>; the <i>Dhātupāṭha</i>; both in paraphrase.` },
 
 { id: 'karaka',
@@ -143,8 +143,8 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'nahw',
   title: 'Naḥw, the way of speech',
-  body: `<p>The Arabic name for grammar is <i>naḥw</i>, “way” or “direction,” that is, the way in which speech goes when it is correct Arabic. Arabic grammar arose in the eighth century in Iraq, when the spread of Islam brought many speakers of other languages into the Arabic-speaking world. Errors in the reading of the Qurʾān and in ordinary speech made it necessary to describe correct Arabic and to teach it.</p>
-<p>The founding work is the <i>Kitāb</i> (“The Book”) of Sībawayh, a Persian who died about 796, and the later tradition called it simply “the Book.” Sībawayh described the Arabic of the Qurʾān, of the old poets, and of the Bedouin, whose speech was regarded as the standard. So, like the Sanskrit grammar, the Arabic grammar served a sacred text, but its standard was also the living speech of those who spoke Arabic best.</p>`,
+  body: `<p>When a language spreads quickly to many new speakers, errors multiply, and those who care for the language must describe its correct forms. The Arabic name for this description is <i>naḥw</i>, “way” or “direction,” that is, the way in which speech goes when it is correct Arabic. Arabic grammar arose in the eighth century in Iraq, when the spread of Islam brought many speakers of other languages into the Arabic-speaking world. Errors in the reading of the Qurʾān and in ordinary speech made it necessary to describe correct Arabic and to teach it.</p>
+<p>The founding work is the <i>Kitāb</i> (“The Book”) of Sībawayh, a Persian who died about 796, and the later tradition called it simply “the Book.” Sībawayh described the Arabic of the Qurʾān, of the old poets, and of the Bedouin, whose speech was regarded as the standard. So, like the Sanskrit grammar, the Arabic grammar served a sacred text, but its standard was also the living speech of those who spoke Arabic best. Sībawayh’s first question was how many kinds of word there are.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>; general history, in paraphrase.` },
 
 { id: 'three-parts',
@@ -152,7 +152,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>We saw in Section III that Donatus counted eight parts of speech, whereas the logicians spoke of the noun, the verb, and the other words. The Arabic grammarians made their own division. Sībawayh begins his book with the parts of speech, and he counts three: words are the <strong>noun</strong> (<i>ism</i>), the <strong>verb</strong> (<i>fiʿl</i>), and the <strong>particle</strong> (<i>ḥarf</i>), which comes for a meaning that is neither noun nor verb (<i>fa-l-kalimu smun wa-fiʿlun wa-ḥarfun jāʾa li-maʿnan laysa bi-smin wa-lā fiʿlin</i>; <i>al-Kitāb</i>, ch. 1, in substance).</p>
 <p>The Arabic noun includes our noun, adjective, and pronoun, and the participle, which in Arabic is formed like a noun. The particle includes our prepositions, conjunctions, and many words that we class as adverbs or interjections. So the Arabic division resembles the logicians’ division into noun, verb, and the rest that we saw in Section III, but it is a grammarian’s division, made for the construction of Arabic, and it has remained the standard of the Arabic tradition.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, ch. 1, the Arabic in transliteration and the English in substance.`,
-  qpTodo: `Sībawayh’s three parts: what are the three parts of speech in Arabic grammar, and to which of them do our adjective, pronoun, preposition, and conjunction belong.` },
+  qpTodo: `Sībawayh’s three parts: what are the three parts of speech in Arabic grammar, and to which of them does a given Arabic word belong (<i>kabīr</i>, “big”; <i>thumma</i>, “then”).` },
 
 { id: 'root-pattern',
   title: 'Letters, roots, and patterns',
@@ -165,7 +165,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The Arabic noun changes its final vowel according to its use in the sentence, and this change is called <strong>iʿrāb</strong> (“making Arabic,” that is, giving a word its correct Arabic ending). There are three states: <i>rafʿ</i>, with the ending <i>-u</i>, used for the subject and the predicate; <i>naṣb</i>, with the ending <i>-a</i>, used for the object; and <i>jarr</i>, with the ending <i>-i</i>, used after prepositions and for the second noun of a possessive construction. So <i>zaydun</i>, <i>zaydan</i>, and <i>zaydin</i> are three forms of the name Zayd.</p>
 <p>Words that do not change their endings are called <i>mabnī</i> (“built,” fixed), and the distinction between words with iʿrāb and fixed words corresponds to our distinction between declinable and indeclinable words. The three states of the Arabic noun resemble the Latin nominative, accusative, and genitive, but there are only three, and their uses are defined by the Arabic theory of government.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `Iʿrāb: which state (<i>rafʿ</i>, <i>naṣb</i>, <i>jarr</i>) is shown by a given form of a noun (<i>zaydun</i>, <i>zaydan</i>, <i>zaydin</i>), and which Latin case does each resemble.` },
+  qpTodo: `Iʿrāb: which state (<i>rafʿ</i>, <i>naṣb</i>, <i>jarr</i>) is shown by a given form of a noun (<i>qalamun</i>, <i>qalaman</i>, <i>qalamin</i>, “pen”), and which Latin case does each resemble.` },
 
 { id: 'amil',
   title: 'The governor',
@@ -178,14 +178,14 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The Arabic grammarians distinguished two kinds of sentence by their first word. A <strong>verbal sentence</strong> (<i>jumla fiʿliyya</i>) begins with a verb: <i>kataba zaydun kitāban</i>, “Zayd wrote a book.” The verb <i>kataba</i> governs the agent, <i>zaydun</i>, in <i>rafʿ</i>, and the object, <i>kitāban</i>, in <i>naṣb</i>. The usual order is verb, agent, object, the VSO order that we saw in Section V in the classification of languages.</p>
 <p>As in Latin, the endings show the roles, so the order can change: <i>kataba kitāban zaydun</i> still means that Zayd wrote the book. The Arabic names for the three parts, <i>fiʿl</i> (verb), <i>fāʿil</i> (agent), and <i>mafʿūl</i> (object), are all formed from the root <i>f-ʿ-l</i>, “doing,” which the grammarians used as the model root for naming the patterns of words.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `The verbal sentence: in <i>kataba zaydun kitāban</i>, which word is the verb, the agent, and the object, what governs each ending, and why can the order change.` },
+  qpTodo: `The verbal sentence: in <i>qaraʾa ʿaliyyun risālatan</i> (“Ali read a letter”), which word is the verb, the agent, and the object, what governs each ending, and why can the order change.` },
 
 { id: 'nominal-sentence',
   title: 'The nominal sentence',
   body: `<p>A <strong>nominal sentence</strong> (<i>jumla ismiyya</i>) begins with a noun and may contain no verb at all: <i>zaydun ʿālimun</i>, “Zayd is learned.” The first noun is the <strong>topic</strong> (<i>mubtadaʾ</i>, “that with which one begins”), and the second is the <strong>comment</strong> (<i>khabar</i>, “information”); both are in <i>rafʿ</i>. The grammarians said that the topic is governed by the act of beginning itself, an abstract governor that is not a spoken word.</p>
 <p>So in Arabic a sentence can be complete without a verb. We saw in Section V that the modists held a construction to be complete only with a subject and a verb, and that Latin often omits the copula, as in <i>omnia praeclara, rara</i>. The Arabic grammarians did not treat the nominal sentence as an omission; they treated it as a kind of sentence in its own right. This is a real difference in the account of completeness.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `The nominal sentence: in <i>zaydun ʿālimun</i>, which word is the topic and which the comment, what case are they in, and how does the Arabic account of completeness differ from the modists’.` },
+  qpTodo: `The nominal sentence: in <i>al-baytu kabīrun</i> (“The house is big”), which word is the topic and which the comment, what case are they in, and how does the Arabic account of completeness differ from the modists’.` },
 
 { id: 'particles-govern',
   title: 'Particles that govern',
@@ -271,17 +271,17 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'binyanim',
   title: 'The patterns of the verb',
-  body: `<p>The Hebrew verb is formed from its root in several patterns, which modern grammars call <strong>binyanim</strong> (“buildings”), each with its own meaning. From the root <i>sh-b-r</i>, “break,” come <i>shavar</i> (“he broke”), <i>nishbar</i> (“it was broken”), <i>shibber</i> (“he shattered”), and <i>hishbir</i> (“he caused to break”). The patterns express voice and kinds of action: active and passive, intensive, causative, and reflexive.</p>
+  body: `<p>English pairs such as “sit” and “set” or “rise” and “raise” differ by a vowel and in meaning: in the first the subject acts, in the second it causes another to act. The Hebrew verb makes such differences regularly; it is formed from its root in several patterns, which modern grammars call <strong>binyanim</strong> (“buildings”), each with its own meaning. From the root <i>sh-b-r</i>, “break,” come <i>shavar</i> (“he broke”), <i>nishbar</i> (“it was broken”), <i>shibber</i> (“he shattered”), and <i>hishbir</i> (“he caused to break”). The patterns express voice and kinds of action: active and passive, intensive, causative, and reflexive.</p>
 <p>The Hebrew grammarians, following the Arabic practice of naming patterns by the model root <i>f-ʿ-l</i>, named the Hebrew patterns by the root <i>p-ʿ-l</i>, “do”: <i>paʿal</i> (also called <i>qal</i>, “light”), <i>nifʿal</i>, <i>piʿel</i>, <i>hifʿil</i>, and the rest. We saw in Section III that Donatus counted five voices of the Latin verb; the Hebrew patterns do the work of voice and of some of Donatus’s forms, such as the frequentative, within a single system.</p>`,
   src: `David Kimḥi, <i>Mikhlol</i>; standard grammars of Biblical Hebrew; both in paraphrase.`,
-  qpTodo: `The patterns of the verb: what does each pattern add to the root <i>sh-b-r</i> (<i>shavar</i>, <i>nishbar</i>, <i>hishbir</i>), and how are the patterns named.` },
+  qpTodo: `The patterns of the verb: what does each pattern add to the root <i>g-d-l</i> (<i>gadal</i>, “he grew”; <i>giddel</i>, “he brought up”; <i>higdil</i>, “he made great”), and how are the patterns named.` },
 
 { id: 'construct',
   title: 'The article and the construct state',
   body: `<p>Hebrew has a definite article, <i>ha-</i>, joined to the front of the noun: <i>melekh</i> (“a king”), <i>ha-melekh</i> (“the king”). Like Arabic, it expresses possession by joining two nouns, the first in a shortened form called the <strong>construct state</strong> (<i>semikhut</i>, “leaning”): <i>bayit</i> (“house”), but <i>beit ha-melekh</i> (“the house of the king”). The first noun loses its article and often changes its vowels, and the second noun carries the article for the whole phrase.</p>
 <p>Hebrew nouns have no case endings, so the construct state does the work that the Latin genitive does by an ending. We saw that Arabic marks annexation by changing both nouns; Hebrew marks it by changing only the first. So the three Semitic traditions, Arabic, Hebrew, and Aramaic, share a construction that the Latin grammarians had no name for, and the Hebrew grammarians described it in terms taken from Arabic.</p>`,
   src: `Standard grammars of Biblical Hebrew, in paraphrase.`,
-  qpTodo: `The construct state: in <i>beit ha-melekh</i>, which noun is in the construct state, which carries the article, and how does Latin express the same relation.` },
+  qpTodo: `The construct state: in <i>dvar ha-navi</i> (“the word of the prophet,” from <i>davar</i>, “word”), which noun is in the construct state, which carries the article, and how does Latin express the same relation.` },
 
 { id: 'kimhi',
   title: 'David Kimḥi',
@@ -305,7 +305,7 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'xiaoxue',
   title: 'Xiaoxue, the lesser learning',
-  body: `<p>The Chinese tradition called the study of language <i>xiǎoxué</i> (小學, “the lesser learning”), meaning the studies that must come before the reading of the classics. It had three branches: the study of the written character, the study of its sound, and the study of its meaning in the old texts. There was no list of parts of speech and no account of case or conjugation, because classical Chinese has no inflection: its words do not change their form.</p>
+  body: `<p>A reader of very old books must first learn to read their writing and their old words. The Chinese tradition called these studies <i>xiǎoxué</i> (小學, “the lesser learning”), because they must come before the reading of the classics. It had three branches: the study of the written character, the study of its sound, and the study of its meaning in the old texts. There was no list of parts of speech and no account of case or conjugation, because classical Chinese has no inflection: its words do not change their form.</p>
 <p>So the Chinese tradition differs most from ours. Our art begins with the voice and the letter, studies the parts of speech and their accidents, and ends with the construction of the sentence. The Chinese art begins with the written character, which is often a whole word, and studies its form, its sound, and its meaning. Its aim, like ours, was to make the classical texts readable, but the language required a different art.</p>`,
   src: `General history, in paraphrase.` },
 
@@ -320,7 +320,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Some Chinese characters are pictures of what they signify, but most are not, and the Chinese scholars asked how the others were made. In the postface to his dictionary, Xu Shen describes six ways in which characters are formed, called the <strong>six writings</strong> (六書, <i>liùshū</i>):<br><strong>pictographs</strong> (象形 <i>xiàngxíng</i>), which picture a thing: 日 “sun,” 木 “tree”;<br><strong>simple indicatives</strong> (指事 <i>zhǐshì</i>), which point to an idea by a mark: 上 “above,” 下 “below”;<br><strong>compound ideographs</strong> (會意 <i>huìyì</i>), which join two characters to make a meaning: 人 “person” and 言 “speech” make 信 “trust”;<br><strong>phono-semantic compounds</strong> (形聲 <i>xíngshēng</i>), which join a part for the meaning with a part for the sound: 江 <i>jiāng</i>, “river,” with “water” for the meaning and 工 <i>gōng</i> for the sound;<br><strong>derivative cognates</strong> (轉注 <i>zhuǎnzhù</i>), a class whose meaning is disputed;<br>and <strong>phonetic loans</strong> (假借 <i>jiǎjiè</i>), characters borrowed for another word of similar sound.</p>
 <p>Most Chinese characters are phono-semantic compounds. So the six writings are the Chinese tradition’s account of the parts of the written word, as our figure and species are an account of how words are made.</p>`,
   src: `Xu Shen, <i>Shuowen jiezi</i>, postface, in paraphrase.`,
-  qpTodo: `The six writings: which kind of character is a given example (日 a pictograph, 上 an indicator, 信 a compound indicator, 江 a form-and-sound character), and what does each part contribute.` },
+  qpTodo: `The six writings: which kind of character is a given example (山 “mountain,” a pictograph; 本 “root,” a simple indicative; 休 “rest,” a compound ideograph of 人 and 木; 河 <i>hé</i>, “river,” a phono-semantic compound), and what does each part contribute.` },
 
 { id: 'imposition-graphs',
   title: 'The character and imposition',
@@ -330,7 +330,7 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'erya',
   title: 'The Erya and the glossing of the classics',
-  body: `<p>The oldest Chinese work on words is the <i>Erya</i> (爾雅, “Approaching What Is Correct”), compiled perhaps in the third century BC, which explains old words by more familiar ones, arranged in groups by meaning: words for relatives, for buildings, for plants, for animals. This practice of explaining the words of an old text by those of the present was called <i>xùngǔ</i> (訓詁, “glossing”).</p>
+  body: `<p>The words of an old text are often no longer understood by later readers. The oldest Chinese work on such words is the <i>Erya</i> (爾雅, “Approaching What Is Correct”), compiled perhaps in the third century BC, which explains old words by more familiar ones, arranged in groups by meaning: words for relatives, for buildings, for plants, for animals. This practice of explaining the words of an old text by those of the present was called <i>xùngǔ</i> (訓詁, “glossing”).</p>
 <p>Glossing was the Chinese counterpart of what we called explaining (<i>ēnarrātiō</i>), the second task of the grammarian. The classics, such as the <i>Book of Odes</i> and the <i>Analects</i> of Confucius, were the texts on which it was exercised, as the poets were for the Greek and Latin grammarians. So the Chinese tradition, like ours, joined the study of the language to the reading of a body of authors.</p>`,
   src: `The <i>Erya</i>, in paraphrase; general history.` },
 
@@ -349,10 +349,10 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'full-empty',
   title: 'Full words and empty words',
-  body: `<p>The nearest the traditional Chinese scholars came to parts of speech was the distinction, made from about the twelfth century, between <strong>full words</strong> (實字, <i>shízì</i>), which name a thing or an action, such as 人 (“person”) and 來 (“come”), and <strong>empty words</strong> (虛字, <i>xūzì</i>), which do not name but have a function in the sentence, such as 之 (<i>zhī</i>), 乎 (<i>hū</i>), 者 (<i>zhě</i>), 也 (<i>yě</i>), and 而 (<i>ér</i>).</p>
+  body: `<p>In any sentence some words name things and actions, and others only relate them. The nearest the traditional Chinese scholars came to parts of speech was the distinction, made from about the twelfth century, between <strong>full words</strong> (實字, <i>shízì</i>), which name a thing or an action, such as 人 (“person”) and 來 (“come”), and <strong>empty words</strong> (虛字, <i>xūzì</i>), which do not name but have a function in the sentence, such as 之 (<i>zhī</i>), 乎 (<i>hū</i>), 者 (<i>zhě</i>), 也 (<i>yě</i>), and 而 (<i>ér</i>).</p>
 <p>The distinction resembles the medieval division between categorematic and syncategorematic words that we saw in Section I, more than Donatus’s eight parts. The empty words do the work that Latin does by endings and by many of its conjunctions and particles: they mark the relations between the full words, ask a question, or close a sentence. Treatises devoted to the empty words were among the most important works of Chinese grammatical study.</p>`,
   src: `General history of Chinese grammatical study, in paraphrase.`,
-  qpTodo: `Full and empty words: is a given character full or empty (人, 來, 之, 也, 而), and which medieval distinction does the division resemble.` },
+  qpTodo: `Full and empty words: is a given character full or empty (水 “water,” 行 “go,” 於 <i>yú</i>, 矣 <i>yǐ</i>), and which medieval distinction does the division resemble.` },
 
 { id: 'analects',
   title: 'Empty words in a line of the Analects',
@@ -365,7 +365,7 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Because classical Chinese has no inflection, its construction is shown almost entirely by the order of the words and by the empty words. In 王命之 (<i>wáng mìng zhī</i>), “The king ordered it,” 王 (“king”) stands first as the one who acts, 命 (“order”) second as the action, and 之 (“it”) last as the thing ordered. Time is shown, when it is shown, by a word of time, as 昨日 (“yesterday”), not by a form of the verb.</p>
 <p>We saw in Section V that English, which has lost most of its endings, relies on order to show its construction, and that languages can be classed by their usual order. Chinese is the extreme case: the relations that Latin shows by case and conjugation are shown by the place of each word. The traditional Chinese marks of punctuation, 句 (<i>jù</i>, a completed stretch) and 讀 (<i>dòu</i>, a pause), which readers added to the classics, divided the text into its units, as the ancient marks of pause did in Latin.</p>`,
   src: `General description of classical Chinese, in paraphrase.`,
-  qpTodo: `Order without inflection: how does 王命之 show which word acts and which is acted upon, and how does this compare with Latin and with English.` },
+  qpTodo: `Order without inflection: how does 民畏之 (<i>mín wèi zhī</i>, “The people fear him”) show which word acts and which is acted upon, and how does this compare with Latin and with English.` },
 
 { id: 'mashi',
   title: 'Ma Jianzhong and the Latin model',
