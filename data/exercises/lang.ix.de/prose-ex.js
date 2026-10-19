@@ -384,7 +384,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em>geht um</em></p> <em>geht … um</em> is…",
-   "explain": "In a main clause the separable prefix leaves its verb; <em>umgehen</em>, of ghosts, to haunt.",
+   "explain": "In a main clause the separable prefix leaves its verb. <em>Umgehen</em>, of ghosts, is “to haunt.”",
    "options": [
     "The separable verb <em>umgehen</em>, split in a main clause",
     "<em>Gehen</em> with the preposition <em>um</em> governing <em>Europa</em>",
@@ -786,10 +786,10 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>getötet</em> is the participle of…",
    "explain": "<em>Töten</em>, a weak verb: <em>ge-töt-et</em>.",
    "options": [
-    "<em>töten</em>, to kill",
-    "<em>tot sein</em>, to be dead",
-    "<em>sterben</em>, to die",
-    "<em>tun</em>, to do"
+    "<em>töten</em>, “to kill”",
+    "<em>tot sein</em>, “to be dead”",
+    "<em>sterben</em>, “to die”",
+    "<em>tun</em>, “to do”"
    ],
    "answer": 0
   },

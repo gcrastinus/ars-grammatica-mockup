@@ -374,7 +374,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-74",
    "title": "Three infinitives used as nouns",
-   "body": "<p><strong>Three infinitives used as nouns.</strong> <em>auferre trucidare rapere</em>: Three infinitives, without a conjunction, name actions as things: to carry off, to slaughter, to plunder. They are the object of <em>appellant</em>, which is understood here from the end of the sentence.</p>"
+   "body": "<p><strong>Three infinitives used as nouns.</strong> <em>auferre trucidare rapere</em>: Three infinitives, without a conjunction, name actions as things: “to carry off,” “to slaughter,” “to plunder.” They are the object of <em>appellant</em>, which is understood here from the end of the sentence.</p>"
   },
   {
    "id": "prose-75",

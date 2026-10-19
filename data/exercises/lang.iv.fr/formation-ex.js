@@ -27,7 +27,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the adverb that -ment makes from <em>forte</em>.",
+   "prompt": "Write the adverb that -ment makes from <em>fort</em>.",
    "explain": "<em>Fort</em> ends in a consonant, so <em>-ment</em> is added to the feminine <em>forte</em>. The adverb is <em>fortement</em>, “strongly.”",
    "answer": "fortement"
   },

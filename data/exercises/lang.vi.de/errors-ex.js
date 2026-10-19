@@ -15,7 +15,7 @@ ARS.exercises["lang.vi.de/errors-ex"] = {
    "deck": "lang.vi.de/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What case does <em>mit</em> take in <em>mit dem Freund</em> (with the friend)?",
+   "prompt": "What case does <em>mit</em> take in <em>mit dem Freund</em> (“with the friend”)?",
    "explain": "<em>Mit</em> takes the dative. The article in <em>mit dem Freund</em> is <em>dem</em>, the dative form.",
    "options": ["Accusative", "Dative", "Genitive", "Nominative"],
    "answer": 1
@@ -48,8 +48,8 @@ ARS.exercises["lang.vi.de/errors-ex"] = {
    "deck": "lang.vi.de/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the form of “the good man” after <em>der</em>.",
-   "explain": "After <em>der</em>, the adjective in this pattern is <em>gute</em>: <em>der gute Mann</em>.",
+   "prompt": "Choose the nominative of “the good man,” after <em>der</em>.",
+   "explain": "The nominative after <em>der</em> is <em>der gute Mann</em>. The adjective takes <em>-e</em>. The accusative would be <em>den guten Mann</em>.",
    "options": ["<em>der gute Mann</em>", "<em>der guter Mann</em>", "<em>der guten Mann</em>", "<em>der gutem Mann</em>"],
    "answer": 0
   },
@@ -59,8 +59,8 @@ ARS.exercises["lang.vi.de/errors-ex"] = {
    "deck": "lang.vi.de/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the form of “a good man.”",
-   "explain": "After <em>ein</em>, the adjective in this pattern is <em>guter</em>: <em>ein guter Mann</em>.",
+   "prompt": "Choose the nominative of “a good man.”",
+   "explain": "The nominative after <em>ein</em> is <em>ein guter Mann</em>. The adjective takes <em>-er</em>. The accusative would be <em>einen guten Mann</em>.",
    "options": ["<em>ein guten Mann</em>", "<em>ein guter Mann</em>", "<em>ein gute Mann</em>", "<em>ein gutem Mann</em>"],
    "answer": 1
   },
@@ -103,7 +103,7 @@ ARS.exercises["lang.vi.de/errors-ex"] = {
    "deck": "lang.vi.de/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What case follows <em>für</em> in <em>für den Freund</em> (for the friend)?",
+   "prompt": "What case follows <em>für</em> in <em>für den Freund</em> (“for the friend”)?",
    "explain": "<em>Für</em> takes the accusative. <em>Den</em> is the accusative article in <em>für den Freund</em>.",
    "options": ["Dative", "Genitive", "Accusative", "Nominative"],
    "answer": 2
@@ -114,7 +114,7 @@ ARS.exercises["lang.vi.de/errors-ex"] = {
    "deck": "lang.vi.de/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What case does <em>durch</em> take in <em>durch den Park</em> (through the park)?",
+   "prompt": "What case does <em>durch</em> take in <em>durch den Park</em> (“through the park”)?",
    "explain": "<em>Durch</em> takes the accusative. The article in <em>durch den Park</em> is <em>den</em>.",
    "options": ["Dative", "Accusative", "Genitive", "Nominative"],
    "answer": 1

@@ -128,7 +128,7 @@ ARS.exercises["lang.ix.la/period-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em>et terris … et alto</em>: how do these words stand?<br><br>“much tossed was he on land and on the deep by the might of the gods above, because of cruel Juno’s unforgetting wrath;” — literal rendering (this course’s)<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
-   "explain": "<em>Terris</em> and <em>alto</em> (the deep) are ablatives telling where he was tossed. Verse often leaves out the <em>in</em> that prose would write. <em>Et … et</em> joins them as companions.",
+   "explain": "<em>Terris</em> and <em>alto</em> (“the deep”) are ablatives telling where he was tossed. Verse often leaves out the <em>in</em> that prose would write. <em>Et … et</em> joins them as companions.",
    "options": [
     "As ablatives of place where, without a preposition",
     "As datives of advantage: for the lands and for the sea",

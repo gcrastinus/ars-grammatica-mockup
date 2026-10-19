@@ -129,7 +129,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-25",
    "title": "A reflexive verb and a dative",
-   "body": "<p><strong>A reflexive verb and a dative.</strong> <em>sich verwunderte, so oft sie ihr ins Gesicht schien</em>: <em>Sich verwundern</em>, to wonder. <em>So oft</em>, “as often as.” <em>Ihr</em> is dative, the girl: shone into her face.</p>"
+   "body": "<p><strong>A reflexive verb and a dative.</strong> <em>sich verwunderte, so oft sie ihr ins Gesicht schien</em>: <em>Sich verwundern</em>, “to wonder.” <em>So oft</em>, “as often as.” <em>Ihr</em> is dative, the girl: shone into her face.</p>"
   },
   {
    "id": "prose-26",
@@ -409,7 +409,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-81",
    "title": "Sich verstehen auf",
-   "body": "<p><strong>Sich verstehen auf.</strong> <em>sich schlecht auf Weiber verstanden</em>: <em>Sich auf etwas verstehen</em>: to understand a thing, to be skilled in it. <em>Verstanden</em> here is the simple past plural, closing the <em>dass</em> clause.</p>"
+   "body": "<p><strong>Sich verstehen auf.</strong> <em>sich schlecht auf Weiber verstanden</em>: <em>Sich auf etwas verstehen</em>: “to understand a thing, to be skilled in it.” <em>Verstanden</em> here is the simple past plural, closing the <em>dass</em> clause.</p>"
   }
  ]
 };

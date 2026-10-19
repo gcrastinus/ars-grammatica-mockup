@@ -15,7 +15,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>le problème</em>?",
+   "prompt": "What gender is <em>problème</em>?",
    "explain": "<em>Problème</em> is masculine, and the article is <em>le</em>. A final <em>e</em> does not make this noun feminine.",
    "options": ["Feminine, because it ends in <em>e</em>", "Masculine", "Feminine, like <em>la mer</em>", "No gender, because it is a problem"],
    "answer": 1
@@ -26,7 +26,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>la mer</em>?",
+   "prompt": "What gender is <em>mer</em>?",
    "explain": "<em>Mer</em>, “sea,” is feminine, and the article is <em>la</em>. It does not take <em>le</em>.",
    "options": ["Masculine, like <em>le problème</em>", "Masculine, because it is short", "Feminine", "The same gender as <em>le musée</em>"],
    "answer": 2
@@ -103,7 +103,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>le musée</em>?",
+   "prompt": "What gender is <em>musée</em>?",
    "explain": "<em>Musée</em>, “museum,” is masculine, and the article is <em>le</em>. The ending <em>-ée</em> does not make it feminine.",
    "options": ["Feminine, because of <em>-ée</em>", "Feminine, like <em>la table</em>", "Masculine", "Plural, because of the article"],
    "answer": 2
@@ -114,7 +114,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>la table</em>?",
+   "prompt": "What gender is <em>table</em>?",
    "explain": "<em>Table</em> is feminine, and the article is <em>la</em>. <em>Le table</em> would be the wrong article.",
    "options": ["Masculine, like <em>le musée</em>", "Feminine", "Masculine, like <em>le problème</em>", "No article is allowed"],
    "answer": 1
@@ -193,7 +193,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "type": "mc",
    "prompt": "Which noun is feminine?",
    "explain": "<em>La mer</em> is feminine. <em>Le problème</em> and <em>le musée</em> are masculine, even though each ends in <em>e</em> or <em>-ée</em>.",
-   "options": ["<em>Le problème</em>", "<em>Le musée</em>", "<em>La mer</em>", "<em>Du pain</em>"],
+   "options": ["<em>problème</em>", "<em>musée</em>", "<em>mer</em>", "<em>pain</em>"],
    "answer": 2
   },
   {
@@ -204,7 +204,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "type": "mc",
    "prompt": "Which noun takes <em>le</em>, not <em>la</em>?",
    "explain": "<em>Musée</em> is masculine, so the article is <em>le</em>. <em>Table</em> and <em>mer</em> take <em>la</em>.",
-   "options": ["<em>La table</em>", "<em>La mer</em>", "<em>Les pommes</em>", "<em>Le musée</em>"],
+   "options": ["<em>table</em>", "<em>mer</em>", "<em>pommes</em>", "<em>musée</em>"],
    "answer": 3
   },
   {

@@ -31,7 +31,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "deck": "lang.v.la/govern-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Latin <em>ūtor</em> (to use) governs the… He uses a <b>sword</b>.",
+   "prompt": "Latin <em>ūtor</em> (“to use”) governs the… He uses a <b>sword</b>.",
    "explain": "In <span class=\"lat\">ūtitur gladio</span> we “use with” a thing. Government is a requirement of this verb, not a general rule of objects.",
    "options": [
     "Ablative",
@@ -95,7 +95,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "deck": "lang.v.la/govern-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Latin <em>cum</em> (with) governs the… She came <b>with a friend</b>.",
+   "prompt": "Latin <em>cum</em> (“with”) governs the… She came <b>with a friend</b>.",
    "explain": "The phrase is <span class=\"lat\">cum amico</span>. Accompaniment is expressed by the ablative, and <em>cum</em> requires that case.",
    "options": [
     "Ablative",
@@ -111,7 +111,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "deck": "lang.v.la/govern-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Latin <em>ad</em> (to, toward) governs the… They marched <b>toward the camp</b>.",
+   "prompt": "Latin <em>ad</em> (“to, toward”) governs the… They marched <b>toward the camp</b>.",
    "explain": "In <span class=\"lat\">ad castra</span>, motion toward takes the accusative.",
    "options": [
     "Accusative",
