@@ -190,7 +190,7 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 - Reuse: `syllable`, `ensyl`, and examples from `grcsyl`, `desyl`, and `frsyl` (not as decks); `EX.syllable`, `EX.ensyl`
 
 **II.5 Punctuation (*posituræ*)** `[ii.punctuation]`. The old marks of pause (*distinctio*, *subdistinctio*, and *media distinctio*) beside the modern ones.
-- Panels 7 · QP 2 · Exercise: no
+- Panels 8 · QP 2 · Exercise: no
 - Sources: Donatus, *Ars maior* I.6 (rule 9); Isidore, *Etymologiae* I.20 (Barney); M. B. Parkes, *Pause and Effect* (1992)
 - Reuse: the `distinctio` panels in `period`
 
