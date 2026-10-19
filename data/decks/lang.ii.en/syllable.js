@@ -34,7 +34,7 @@ ARS.decks["lang.ii.en/syllable"] = {
   {
    "id": "syllable-6",
    "title": "The rhythm of English",
-   "body": "<p><strong>The rhythm of English.</strong> English speech is <strong>stress-timed</strong>: the stressed syllables come at roughly even intervals, and the weak syllables between them are squeezed to fit. “The CAT is on the MAT” and “The CATerpillar's on the MATtress” take about the same time to say, because each has two strong beats. Small words such as “and,” “of,” “to,” and “a” are usually weak, and their vowels become schwa.</p>\n<p>This is the ground of English meter, which counts the beats of stressed syllables. Latin is the contrast: a Latin syllable is long or short by its vowel and its consonants, and Latin verse counts that length. The next study measures the Latin syllable.</p>"
+   "body": "<p><strong>The rhythm of English.</strong> English speech is <strong>stress-timed</strong>: the stressed syllables come at roughly even intervals, and the weak syllables between them are squeezed to fit. “The CAT is on the MAT” and “The CATerpillar's on the MATtress” take about the same time to say, because each has two strong beats. Small words such as “and,” “of,” “to,” and “a” are usually weak, and their vowels become schwa.</p>\n<p>This is the ground of English meter, which counts the beats of stressed syllables. Latin is the contrast: a Latin syllable is long or short by its vowel and its consonants, and Latin verse counts that length.</p>"
   }
  ]
 };
