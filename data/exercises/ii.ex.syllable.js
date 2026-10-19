@@ -20,11 +20,11 @@ ARS.exercises['ii.ex.syllable'] = {
     "what-syllable",
     "vowel-center",
     "open-closed",
-    "latin-division-1",
-    "latin-division-2",
     "english-syllable",
     "syllabic-consonants",
-    "english-division"
+    "english-division",
+    "latin-division-1",
+    "latin-division-2"
    ]
   },
   {

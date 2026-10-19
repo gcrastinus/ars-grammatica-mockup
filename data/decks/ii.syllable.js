@@ -1,5 +1,7 @@
 /* II.3 The Syllable [ii.syllable]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: Syllable (not yet written).
+   10 panels, 3 question points (written). Exercise: Syllable (ii.ex.syllable, written). English first, then Latin
+   (Timothy, 19 Oct 2026): the three English cards come before the two Latin division cards, and the habet/habit
+   contrast is on latin-division-1.
    Live material drawn on: DECKS.syllable (definition, how to divide), DECKS.ensyl (the English syllable, clusters). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -48,9 +50,41 @@ ARS.decks['ii.syllable'] = {
 <p>The distinction matters because the length of a Latin syllable depends on it. Here we must keep apart the length of the vowel and the length of the syllable. A syllable with a short vowel is short if it is open. If it is closed, the vowel stays short, but the syllable as a whole is long, because the consonant at its end adds to the time needed to pronounce it: in <i>canunt</i> (“they sing”) the “u” is short, but the syllable “-nunt” is long. So the rules for dividing words into syllables are also the ground of the rules for measuring them.</p>`,
   src: `Allen, <i>Vox Latina</i>, appendix on syllabic division, in paraphrase.` },
 
+{ id: 'english-syllable',
+  title: 'The English syllable',
+  body: `<p>English syllables are counted by vowel sounds, not by vowel letters. “Make” has two vowel letters but one syllable, because its final <i>e</i> is silent, and “strength” has eight letters but one syllable, because it has one vowel sound. On the other hand, “lion” and “being” have two syllables each, because each has two vowel sounds.</p>
+<p>English also allows larger groups of consonants than Latin does. Up to three consonants can begin an English syllable, as in “street,” “spring,” and “splash” (and when there are three, the first is always <i>s</i>). Four can end one, as in “texts” and “twelfths.” Many groups that are pronounceable in other languages cannot begin an English word, such as <i>pn</i> or <i>ps</i>; that is why the <i>p</i> of “pneumonia” and “psalm,” taken from Greek, is not pronounced.</p>`,
+  src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.` },
+
+{ id: 'syllabic-consonants',
+  title: 'Syllables without a written vowel',
+  body: `<p>We have said that every syllable has a vowel at its center, but English adds a qualification. In some unstressed syllables a liquid or a nasal consonant takes the place of the vowel. The second syllable of “button” is usually pronounced with no vowel sound at all, only the <i>n</i>; so is the second syllable of “bottle” with <i>l</i>, and of “rhythm” with <i>m</i>. Such a consonant is called a <strong>syllabic consonant</strong>.</p>
+<p>So the English word “rhythm” has two syllables, though it has only one vowel letter (<i>y</i>), because the final <i>m</i> makes a syllable of its own. Latin, as the grammarians describe it, has no syllabic consonants; every Latin syllable has a vowel or diphthong at its center, which is why the Latin rule of counting is simpler than the English one.</p>`,
+  src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.` },
+
+{ id: 'english-division',
+  title: 'Dividing an English word',
+  body: `<p>English words are divided in two ways, which do not always agree. In writing, a word broken at the end of a line is divided according to the conventions of the dictionaries, which consider both the sound and the parts of the word: “fa-ther,” “walk-ing,” “hab-it.” In pronunciation, the division follows the sounds, and here one rule is particular to English. The short vowel sounds of English, the vowels of “cat,” “bed,” “sit,” “hot,” and “cup,” never end an English word; a consonant always closes them. In the same way, when such a vowel is stressed, it does not end a syllable, and the consonant after it stays in its syllable. Take “habit”: its first vowel is the vowel of “cat,” and the stress falls on it, so the syllable cannot end with that vowel, and the “b” stays with it: “hab-it,” not “ha-bit.” So also “rob-in,” “cam-el,” and “wag-on.” A long vowel sound may end a syllable, so “bacon” is divided “ba-con” and “tiger” “ti-ger.”</p>
+<p>Pronunciation dictionaries such as Wells’s <i>Longman Pronunciation Dictionary</i> give the division of each word, and they sometimes differ from one another in the hard cases. The division into syllables is still a matter of the sound, but English, unlike Latin, as we will see, has no single rule that settles every word.</p>`,
+  src: `Wells, <i>Longman Pronunciation Dictionary</i>; Merriam-Webster’s word divisions, in paraphrase.`,
+  qp: { id: 'q-english-division', variants: [
+    { prompt: `How is “lemon” divided into syllables in pronunciation?`,
+      options: [`le-mon`, `lem-on`, `lemo-n`, `It is one syllable`],
+      answer: 1,
+      explain: `The first vowel of “lemon” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>m</i> goes with the first syllable, “lem-on.”` },
+    { prompt: `Latin <i>rapit</i> (“he seizes”) is divided <i>ra-pit</i>, but English “rapid” is divided “rap-id.” Why do they differ?`,
+      options: [`English divides every word after its consonants`, `English stressed short vowels do not end syllables`, `Latin has no short vowels`, `The English word comes from French`],
+      answer: 1,
+      explain: `Latin, as we will see, puts a single consonant between two vowels with the following vowel, so <i>ra-pit</i>. In English a short vowel that is stressed, as in “cat” or “bed,” does not end a syllable, so the consonant stays with it: “rap-id.” English does not divide every word after its consonants; “father” is divided “fa-ther.”` },
+    { prompt: `How is “jumping” divided when it is broken at the end of a line?`,
+      options: [`jum-ping`, `jump-ing`, `ju-mping`, `jumpi-ng`],
+      answer: 1,
+      explain: `In writing, the conventions of the dictionaries consider the parts of the word as well as the sound. “Jumping” is made of “jump” and the ending “-ing,” so it is divided “jump-ing.”` }
+  ]} },
+
 { id: 'latin-division-1',
   title: 'Dividing a Latin word: one consonant and two',
-  body: `<p>When a single consonant stands between two vowels, it goes with the following vowel. So <i>rota</i> (“wheel”) is divided <i>ro-ta</i>, <i>lupus</i> (“wolf”) is <i>lu-pus</i>, and <i>amor</i> (“love”) is <i>a-mor</i>. In each case the syllable before the consonant is open.</p>
+  body: `<p>When a single consonant stands between two vowels, it goes with the following vowel. So <i>rota</i> (“wheel”) is divided <i>ro-ta</i>, <i>lupus</i> (“wolf”) is <i>lu-pus</i>, and <i>amor</i> (“love”) is <i>a-mor</i>. In each case the syllable before the consonant is open. So Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>, whereas English “habit,” as we noted earlier, is divided “hab-it,” because in English a stressed short vowel does not end a syllable.</p>
 <p>When two consonants stand between two vowels, they are usually divided, the first going with the preceding vowel and the second with the following one. So <i>fortis</i> (“brave”) is <i>for-tis</i>, <i>magnus</i> (“great”) is <i>mag-nus</i>, and <i>mittō</i> (“I send”) is <i>mit-tō</i>. When three consonants stand together, usually the last goes with the following vowel, as in <i>sanc-tus</i> (“holy”). In each case the syllable before the consonants is closed.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.` },
 
@@ -72,38 +106,6 @@ ARS.decks['ii.syllable'] = {
       options: [`Because b is a mute`, `Because two vowels cannot stand side by side`, `Because it is a compound of <i>sub</i> and <i>eō</i>`, `Because its e is long`],
       answer: 2,
       explain: `A compound word is divided between its parts. <i>Subeō</i> is made of <i>sub</i> (“under”) and <i>eō</i> (“I go”), so it is divided <i>sub-eō</i> and not <i>su-beō</i>. The general rule for a single consonant gives way to the parts of the word.` }
-  ]} },
-
-{ id: 'english-syllable',
-  title: 'The English syllable',
-  body: `<p>English syllables are counted by vowel sounds, not by vowel letters. “Make” has two vowel letters but one syllable, because its final <i>e</i> is silent, and “strength” has eight letters but one syllable, because it has one vowel sound. On the other hand, “lion” and “being” have two syllables each, because each has two vowel sounds.</p>
-<p>English also allows larger groups of consonants than Latin does. Up to three consonants can begin an English syllable, as in “street,” “spring,” and “splash” (and when there are three, the first is always <i>s</i>). Four can end one, as in “texts” and “twelfths.” Many groups that are pronounceable in other languages cannot begin an English word, such as <i>pn</i> or <i>ps</i>; that is why the <i>p</i> of “pneumonia” and “psalm,” taken from Greek, is not pronounced.</p>`,
-  src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.` },
-
-{ id: 'syllabic-consonants',
-  title: 'Syllables without a written vowel',
-  body: `<p>We have said that every syllable has a vowel at its center, but English adds a qualification. In some unstressed syllables a liquid or a nasal consonant takes the place of the vowel. The second syllable of “button” is usually pronounced with no vowel sound at all, only the <i>n</i>; so is the second syllable of “bottle” with <i>l</i>, and of “rhythm” with <i>m</i>. Such a consonant is called a <strong>syllabic consonant</strong>.</p>
-<p>So the English word “rhythm” has two syllables, though it has only one vowel letter (<i>y</i>), because the final <i>m</i> makes a syllable of its own. Latin, as the grammarians describe it, has no syllabic consonants; every Latin syllable has a vowel or diphthong at its center, which is why the Latin rule of counting is simpler than the English one.</p>`,
-  src: `Wells, <i>Longman Pronunciation Dictionary</i>, in paraphrase.` },
-
-{ id: 'english-division',
-  title: 'Dividing an English word',
-  body: `<p>English words are divided in two ways, which do not always agree. In writing, a word broken at the end of a line is divided according to the conventions of the dictionaries, which consider both the sound and the parts of the word: “fa-ther,” “walk-ing,” “hab-it.” In pronunciation, the division follows the sounds, and here one rule differs from Latin. The short vowel sounds of English, the vowels of “cat,” “bed,” “sit,” “hot,” and “cup,” never end an English word; a consonant always closes them. In the same way, when such a vowel is stressed, it does not end a syllable, and the consonant after it stays in its syllable. Take “habit”: its first vowel is the vowel of “cat,” and the stress falls on it, so the syllable cannot end with that vowel, and the “b” stays with it: “hab-it,” not “ha-bit.” So also “rob-in,” “cam-el,” and “wag-on.” A long vowel sound may end a syllable, so “bacon” is divided “ba-con” and “tiger” “ti-ger.” Latin has no such rule: a single consonant between two vowels goes with the second, so Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>.</p>
-<p>Pronunciation dictionaries such as Wells’s <i>Longman Pronunciation Dictionary</i> give the division of each word, and they sometimes differ from one another in the hard cases. The division into syllables is still a matter of the sound, but English, unlike Latin, has no single rule that settles every word.</p>`,
-  src: `Wells, <i>Longman Pronunciation Dictionary</i>; Merriam-Webster’s word divisions, in paraphrase.`,
-  qp: { id: 'q-english-division', variants: [
-    { prompt: `How is “lemon” divided into syllables in pronunciation?`,
-      options: [`le-mon`, `lem-on`, `lemo-n`, `It is one syllable`],
-      answer: 1,
-      explain: `The first vowel of “lemon” is short and stressed, and in English a stressed short vowel does not end a syllable. So the <i>m</i> goes with the first syllable, “lem-on.”` },
-    { prompt: `Latin <i>rapit</i> (“he seizes”) is divided <i>ra-pit</i>, but English “rapid” is divided “rap-id.” Why do they differ?`,
-      options: [`English divides every word after its consonants`, `English stressed short vowels do not end syllables`, `Latin has no short vowels`, `The English word comes from French`],
-      answer: 1,
-      explain: `In Latin a single consonant between two vowels goes with the following vowel, so <i>ra-pit</i>. In English a short vowel that is stressed, as in “cat” or “bed,” does not end a syllable, so the consonant stays with it: “rap-id.” English does not divide every word after its consonants; “father” is divided “fa-ther.”` },
-    { prompt: `How is “jumping” divided when it is broken at the end of a line?`,
-      options: [`jum-ping`, `jump-ing`, `ju-mping`, `jumpi-ng`],
-      answer: 1,
-      explain: `In writing, the conventions of the dictionaries consider the parts of the word as well as the sound. “Jumping” is made of “jump” and the ending “-ing,” so it is divided “jump-ing.”` }
   ]} },
 
 { id: 'to-quantity',
