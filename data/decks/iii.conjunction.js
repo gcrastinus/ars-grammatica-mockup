@@ -13,21 +13,22 @@ ARS.decks['iii.conjunction'] = {
 { id: 'conjunction',
   title: 'The conjunction and its accidents',
   body: `<p>A conjunction may join single words, as in “salt and pepper,” or phrases, as in “in the house or in the garden,” or whole clauses, as in “She came, but he stayed.” We have seen that the conjunction joins and orders the thought, and that the modists explain it as signifying by the mode of joining two terms. Priscian defines it as an indeclinable part of speech that joins other parts of speech and shows their force or their order (<i>Institutiones grammaticae</i> XVI).</p>
-<p>Donatus gives the conjunction three accidents: power, figure, and order (<i>potestas, figura, ordo</i>; <i>Ars minor</i>). <strong>Power</strong> is the kind of relation the conjunction signifies; <strong>figure</strong> is whether it is simple or compound; and <strong>order</strong> is its position in relation to the words it joins.</p>`,
+<p>Donatus gives the conjunction three accidents (<i>Ars minor</i>):</p>
+<p><strong>Power</strong> (<i>potestas</i>) is the kind of relation the conjunction signifies.<br><strong>Figure</strong> (<i>figura</i>) is whether it is simple or compound.<br><strong>Order</strong> (<i>ordo</i>) is its position in relation to the words it joins.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the conjunction (the Latin); Priscian, <i>Institutiones grammaticae</i> XVI, in paraphrase.` },
 
 { id: 'power',
   title: 'The power of conjunctions',
   body: `<p>“She sang and he played” simply joins two statements; “She will sing or he will play” offers a choice between them; “She will sing if he plays” makes one the condition of the other; and “He played; therefore she sang” draws the second from the first. Conjunctions differ, then, in the relation they signify, and Donatus calls this their power. He divides the conjunctions by their power into five kinds (<i>Ars minor</i>):</p>
 <p><strong>copulative</strong>, which join, as <i>et</i>, <i>-que</i>, <i>atque</i> (“and”);<br><strong>disjunctive</strong>, which separate or offer a choice, as <i>aut</i>, <i>vel</i>, <i>-ve</i> (“or”) and <i>nec</i>, <i>neque</i> (“nor”);<br><strong>expletive</strong>, which fill out or strengthen the sense, as <i>quidem</i> (“indeed”) and <i>saltem</i> (“at least”);<br><strong>causal</strong>, which state a cause or condition, as <i>sī</i> (“if”), <i>nisi</i> (“unless”), <i>nam</i> (“for”);<br><strong>rational</strong>, which draw a conclusion or give a reason, as <i>ergō</i> and <i>igitur</i> (“therefore”), <i>quia</i> and <i>quoniam</i> (“because,” “since”).</p>
-<p>English conjunctions can be classed in the same way: “and” is copulative, “or” and “nor” are disjunctive, “if” and “unless” are causal (in Donatus’s sense, conditional), and “therefore” and “because” are rational. So the power of a conjunction is the logical relation it signifies between the things it joins, and the reader who knows that relation understands how the thought proceeds.</p>`,
+<p>English conjunctions can be classed in the same way: “and” is copulative, “or” and “nor” are disjunctive, “indeed” is expletive, “if” and “unless” are causal (in Donatus’s sense, conditional), and “therefore” and “because” are rational. So the power of a conjunction is the logical relation it signifies between the things it joins, and the reader who knows that relation understands how the thought proceeds.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the power of the conjunction, in paraphrase.`,
-  qpTodo: `The power of conjunctions: which kind is a given conjunction (<i>et</i>, <i>aut</i>, <i>sī</i>, <i>ergō</i>; “and,” “or,” “therefore”), and what relation does it signify.` },
+  qpTodo: `The power of conjunctions: which kind is a given conjunction (<i>sīve</i>, <i>itaque</i>; “so,” “unless”), and what relation does it signify.` },
 
 { id: 'coordinating',
   title: 'Coordinating and subordinating conjunctions',
-  body: `<p>Modern grammars divide the conjunctions differently, by the kind of joining rather than by its meaning. <strong>Coordinating</strong> conjunctions join words or clauses of equal rank, so that neither depends on the other: “and,” “but,” “or,” “nor,” Latin <i>et</i>, <i>sed</i>, <i>aut</i>. In “She came, and he stayed,” each clause could stand as a sentence by itself.</p>
-<p><strong>Subordinating</strong> conjunctions join a dependent clause to the clause on which it depends: “because,” “if,” “when,” “although,” “that,” Latin <i>quia</i>, <i>sī</i>, <i>cum</i>, <i>ut</i>. In “He stayed because she came,” the clause “because she came” cannot stand by itself; it tells why he stayed. The two divisions do not conflict: a causal conjunction in Donatus’s sense, such as “if,” is a subordinating conjunction in the modern sense. We will study the joining of clauses in Section V.</p>`,
+  body: `<p>Modern grammars divide the conjunctions differently, by the kind of joining rather than by its meaning. <strong>Coordinating</strong> conjunctions join words or clauses of equal rank, so that neither depends on the other: “and,” “but,” “or,” “nor,” Latin <i>et</i>, <i>sed</i>, <i>aut</i>. In “The snow melted, and the river rose,” each clause could stand as a sentence by itself.</p>
+<p><strong>Subordinating</strong> conjunctions join a dependent clause to the clause on which it depends: “because,” “if,” “when,” “although,” “that,” Latin <i>quia</i>, <i>sī</i>, <i>cum</i>, <i>ut</i>. In “The river rose because the snow melted,” the clause “because the snow melted” cannot stand by itself; it tells why the river rose. The two divisions do not conflict: a causal conjunction in Donatus’s sense, such as “if,” is a subordinating conjunction in the modern sense. We will study the joining of clauses in Section V.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 223–224, in paraphrase.` },
 
 { id: 'order',
@@ -50,10 +51,10 @@ ARS.decks['iii.conjunction'] = {
 
 { id: 'that',
   title: 'Conjunction, relative, and adverb',
-  body: `<p>Some words are conjunctions in one use and other parts of speech in another. English “that” is a conjunction in “I know that he came,” where it introduces a clause and refers to nothing; it is a relative pronoun in “the letter that I wrote,” where it refers to “the letter”; and it is a demonstrative in “that letter.” We saw that Latin <i>cum</i> is a preposition in <i>cum amīcō</i> and a conjunction in <i>cum venit</i>, and English “before” and “after” are prepositions, adverbs, or conjunctions according to their use.</p>
+  body: `<p>Some words are conjunctions in one use and other parts of speech in another. English “that” is a conjunction in “I know that he came,” where it introduces a clause and refers to nothing; it is a relative pronoun in “the letter that I wrote,” where it refers to “the letter”; and it is a demonstrative in “that letter.” Latin <i>cum</i>, as we saw earlier, is a preposition in <i>cum lēgātīs</i> (“with the envoys”) and a conjunction in <i>cum vēnisset</i> (“when he had come”), and English “before” and “after” are prepositions, adverbs, or conjunctions according to their use.</p>
 <p>The test is the same as for every part of speech: what is the word doing in this sentence? A conjunction joins and refers to nothing; a relative pronoun joins and also refers to an antecedent; a preposition takes a noun as its object; an adverb determines another word without joining anything.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
-  qpTodo: `Conjunction or another part: in a given sentence, is “that” (or <i>cum</i>, “before”) a conjunction, a relative pronoun, a preposition, or an adverb, and why.` }
+  qpTodo: `Conjunction or another part: in a given sentence, is “since” (or <i>quod</i>, “until”) a conjunction, a relative pronoun, a preposition, or an adverb, and why.` }
 
   ]
 };
