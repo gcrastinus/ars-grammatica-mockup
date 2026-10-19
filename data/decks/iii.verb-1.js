@@ -15,8 +15,8 @@ ARS.decks['iii.verb-1'] = {
 { id: 'accidents',
   title: 'The accidents of the verb',
   body: `<p>“She sings,” “Sing!” “She is praised,” and “They sang” all use a verb, but the verb differs in each: in the manner in which the action is presented, in whether the subject acts or is acted upon, in the person and number of the subject, and in the time of the action. We have seen that the verb signifies with time and person and without case, and that it signifies by the mode of becoming. The properties in which one form of a verb differs from another in this way are its accidents. Donatus gives the verb seven accidents (<i>Ars minor</i>):</p>
-<p><strong>quality</strong> (<i>qualitas</i>);<br><strong>conjugation</strong> (<i>coniugatio</i>);<br><strong>voice</strong> (<i>genus</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>);<br><strong>tense</strong> (<i>tempus</i>);<br><strong>person</strong> (<i>persona</i>).<br>His word for voice is <i>genus</i>, the same word that names the gender of the noun.</p>
-<p>We have already studied figure, which distinguishes simple verbs such as <i>faciō</i> from compound verbs such as <i>cōnficiō</i>. Here we study quality, which for the verb includes its moods and its forms, and voice, which concerns whether the subject acts or is acted upon. Tense, person, number, and conjugation are studied together in the second part of the study of the verb, because they are the accidents by which the forms of the verb are arranged in its conjugation.</p>`,
+<p><strong>quality</strong> (<i>qualitas</i>);<br><strong>conjugation</strong> (<i>coniugatio</i>);<br><strong>voice</strong> (<i>genus</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>);<br><strong>tense</strong> (<i>tempus</i>);<br><strong>person</strong> (<i>persona</i>).</p>
+<p>Donatus’s word for voice is <i>genus</i>, the same word that names the gender of the noun. We have already studied figure, which distinguishes simple verbs such as <i>faciō</i> from compound verbs such as <i>cōnficiō</i>. Here we study quality, which for the verb includes its moods and its forms, and voice, which concerns whether the subject acts or is acted upon. Tense, person, number, and conjugation are studied together in the second part of the study of the verb, because they are the accidents by which the forms of the verb are arranged in its conjugation.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the verb.` },
 
 { id: 'mood',
@@ -37,7 +37,7 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>Latin <i>utinam audiat</i> (“may he hear!”) expresses a wish, whereas <i>cum audiat</i> (“since he hears”) stands in a clause joined under another clause; yet the verb <i>audiat</i> has the same form in both. Donatus distinguishes the two by their use. He calls the first the <strong>optative</strong> (from <i>optāre</i>, “to wish”), used for wishes, and the second the <strong>subjunctive</strong> (from <i>subiungere</i>, “to join under”), used in clauses joined under another, as after <i>cum</i> (“when”). Greek has separate forms for the optative, and the Latin grammarians kept the Greek distinction. Modern Latin grammars count one mood, the subjunctive, with many uses: wishes, commands, possibilities, and many kinds of dependent clause.</p>
 <p>English has kept only a few subjunctive forms. They appear in conditions contrary to fact (“If I were rich,” which careful usage prefers to “If I was rich”), after verbs of demanding (“I insist that he be present”), and in some fixed phrases (“God save the King”). In most other cases English uses auxiliary verbs such as “may,” “might,” “would,” and “should” where Latin uses the subjunctive.</p>`,
   src: `Donatus, <i>Ars minor</i>; Allen and Greenough, <i>New Latin Grammar</i> §§ 157, 439–447, in paraphrase.`,
-  qpTodo: `Mood: which mood is the marked verb in a given sentence (<i>cantat</i>, <i>cantā</i>, <i>utinam veniat</i>; “If I were king,” “Close the door”), and what does the mood show.` },
+  qpTodo: `Mood: which mood is the marked verb in a given sentence (<i>clāmat</i>, <i>clāmā</i>, <i>utinam veniat</i>; “If he were taller,” “Close the door”), and what does the mood show.` },
 
 { id: 'infinitive-impersonal',
   title: 'The infinitive and the impersonal',
@@ -48,7 +48,7 @@ ARS.decks['iii.verb-1'] = {
 { id: 'forms',
   title: 'The forms of the verb',
   body: `<p>English says “I want to read,” “I keep reading,” and “I am growing warm,” using separate words or auxiliary verbs, whereas Latin can express each of these meanings with a single verb formed from another by a regular ending. This is the second part of the verb’s quality, its <strong>form</strong> (<i>fōrma</i>). Donatus gives four forms (<i>Ars minor</i>): first, the <strong>perfect</strong> form, which is the verb itself, as <i>legō</i> (“I read”); second, the <strong>meditative</strong> or desiderative form, which signifies the wish or intention to do something, as <i>lectūriō</i> (“I want to read”); third, the <strong>frequentative</strong> form, which signifies doing something often, as <i>lectitō</i> (“I read often”); and fourth, the <strong>inchoative</strong> form, which signifies beginning to do something or to become something, as <i>calēscō</i> (“I grow warm”).</p>
-<p>These forms are derived verbs, formed by regular endings, and they belong as much to species as to quality. Some English verbs borrowed from Latin keep the inchoative ending <i>-ēscō</i>: “convalesce” and “coalesce.”</p>`,
+<p>These forms are derived verbs, formed by regular endings, and they belong as much to species (the accident by which a word is primitive or derived) as to quality. Some English verbs borrowed from Latin keep the inchoative ending <i>-ēscō</i>: “convalesce” and “coalesce.”</p>`,
   src: `Donatus, <i>Ars minor</i>, on the forms of the verb, in paraphrase.` },
 
 { id: 'english-moods',
@@ -62,7 +62,7 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>“The girl praises the poet” and “The poet is praised by the girl” describe the same action, but in the first the subject does the action and in the second the subject receives it. In the <strong>active</strong> voice the subject does the action; in the <strong>passive</strong> voice the subject receives it. <i>Puella poētam laudat</i>, “the girl praises the poet,” is active; <i>poēta ā puellā laudātur</i>, “the poet is praised by the girl,” is passive. The accident that Donatus calls <i>genus</i> is called <strong>voice</strong> in English grammars. In the passive the one who receives the action becomes the subject, and the doer, if it is named, is expressed with <i>ā</i> or <i>ab</i> and the ablative, as in English it is expressed with “by.”</p>
 <p>Latin forms the passive with its own personal endings: <i>laudō</i>, “I praise,” <i>laudor</i>, “I am praised”; <i>laudat</i>, “he praises,” <i>laudātur</i>, “he is praised.” English forms the passive with the verb “to be” and the past participle: “is praised,” “was praised.” Donatus says that active verbs end in <i>-ō</i> and, by taking the letter <i>r</i>, make passives from themselves, as <i>legō</i>, <i>legor</i> (<i>Ars minor</i>).</p>`,
   src: `Donatus, <i>Ars minor</i>, on the voice of the verb, in paraphrase; Allen and Greenough, <i>New Latin Grammar</i> §§ 156, 405.`,
-  qpTodo: `Active and passive: is a given verb active or passive (<i>laudat</i>, <i>laudātur</i>, “was praised”), and how is the doer expressed in a passive sentence.` },
+  qpTodo: `Active and passive: is a given verb active or passive (<i>docet</i>, <i>docētur</i>, “was taught”), and how is the doer expressed in a passive sentence.` },
 
 { id: 'neuter',
   title: 'Neuter verbs',
@@ -75,7 +75,7 @@ ARS.decks['iii.verb-1'] = {
   body: `<p>Latin <i>loquor</i> has the ending of a passive verb, like <i>laudor</i> (“I am praised”), but it means “I speak,” and there is no active <i>loquō</i>. Verbs of this kind, passive in form but active in meaning, are called <strong>deponent</strong> verbs. Donatus says that they end in <i>-r</i>, like passive verbs, but, if the <i>r</i> is taken away, they are not Latin, as <i>luctor</i> (“I wrestle”) and <i>loquor</i> (“I speak”) (<i>Ars minor</i>); there is no <i>luctō</i> or <i>loquō</i>. They are called deponent (from <i>dēpōnere</i>, “to lay aside”) because they seem to have laid aside their active forms.</p>
 <p>So <i>sequor</i> means “I follow,” not “I am followed,” and <i>hortātur</i> means “he encourages.” A dictionary shows that a verb is deponent by giving its principal parts in passive form: <i>hortor</i>, <i>hortārī</i>, <i>hortātus sum</i>. A reader who forgets that a verb is deponent will translate it as passive and reverse the sense of the sentence, so the deponent verbs must be learned as such.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the voice of the verb, in paraphrase; Allen and Greenough, <i>New Latin Grammar</i> § 190.`,
-  qpTodo: `Deponent verbs: what does a given deponent form mean (<i>sequor</i>, <i>loquitur</i>, <i>hortātur</i>), and how can a reader tell that the verb is deponent.` },
+  qpTodo: `Deponent verbs: what does a given deponent form mean (<i>morātur</i>, <i>patitur</i>, <i>cōnor</i>), and how can a reader tell that the verb is deponent.` },
 
 { id: 'common',
   title: 'Common verbs',
