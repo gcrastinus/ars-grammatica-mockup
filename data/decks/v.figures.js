@@ -20,14 +20,14 @@ ARS.decks['v.figures'] = {
 
 { id: 'ellipsis',
   title: 'Ellipsis',
-  body: `<p>When someone asks “Where are you going?” and the answer is “Home,” the hearer understands “I am going home,” although the words “I am going” were not said. <strong>Ellipsis</strong> (Greek, “a falling short”; the medieval grammarians wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context. In “Some people prefer tea; others, coffee,” the verb “prefer” is understood after “others.” Latin often omits the verb “to be”: Cicero writes <i>omnia praeclara, rara</i> (<i>Laelius</i> 79), which is rendered “everything splendid is rare,” where English must supply “is.” Donatus names this figure <i>eclipsis</i>, the lack of a word that the sentence requires, as in Virgil’s <i>haec secum</i> (“these things with herself”), where “she said” is lacking (<i>Ars maior</i> III.3).</p>
+  body: `<p>When someone asks “Where are you going?” and the answer is “Home,” the hearer understands “I am going home,” although the words “I am going” were not said. <strong>Ellipsis</strong> (Greek, “a falling short”; the medieval grammarians wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context. Latin often omits the verb “to be”: Cicero writes <i>omnia praeclara, rara</i> (<i>Laelius</i> 79), which is rendered “everything splendid is rare,” where English must supply “is.” Donatus names this figure <i>eclipsis</i>, the lack of a word that the sentence requires, as in Virgil’s <i>haec secum</i> (“these things with herself”), where “she said” is lacking (<i>Ars maior</i> III.3).</p>
 <p>Ellipsis is the most common of the figures of construction, and ordinary speech uses it constantly. The construction is complete in the mind of the hearer, because the omitted word is supplied from what has been said. So ellipsis does not make a sentence incomplete; it leaves to the hearer a word that the context already gives. Sometimes, instead, a word is expressed once and made to serve several clauses.</p>`,
   src: `Cicero, <i>Laelius</i> 79 (trans. W. A. Falconer; the Latin and English checked against the Perseus text); Donatus, <i>Ars maior</i> III.3; Allen and Greenough, <i>New Latin Grammar</i> § 640.`,
   qp: { id: 'q-ellipsis', variants: [
-    { prompt: `In “Some came by train, others by bus,” which word is omitted?`,
-      options: [`“came”`, `“some”`, `“train”`, `“by”`],
+    { prompt: `Asked “Where are you driving?”, someone answers “To the station.” Which words does the answer leave out?`,
+      options: [`“I am driving”`, `“to the”`, `“Where are you”`, `No words`],
       answer: 0,
-      explain: `The verb “came” is expressed once and understood again after “others”: “others came by bus.” The hearer supplies it from the first clause.` },
+      explain: `The answer omits words that the question makes plain, “I am driving,” and the hearer supplies them from the context: ellipsis.` },
     { prompt: `In Latin <i>ego Rōmam, tū Athēnās</i> (“I to Rome, you to Athens”), what must the hearer supply?`,
       options: [`A subject for each clause`, `A verb of going`, `A preposition before each city`, `Nothing; it is complete as written`],
       answer: 1,
@@ -40,7 +40,7 @@ ARS.decks['v.figures'] = {
 
 { id: 'zeugma',
   title: 'Zeugma',
-  body: `<p>“The king rules the city, the queen the harbor, and the sailor the ship” uses the verb “rules” only once, but the verb serves for all three clauses. <strong>Zeugma</strong> (Greek, “a yoking”) is the figure in which one word, usually a verb, serves for several clauses or phrases, though it is expressed only once. Donatus defines zeugma as one word closing several clauses that are fitly joined (<i>unius verbi conclusio diversis clausulis apte coniuncta</i>; <i>Ars maior</i> III.5).</p>
+  body: `<p>“The king rules the city, the queen the harbor, and the sailor the ship” uses the verb “rules” only once, but the verb serves for all three clauses. <strong>Zeugma</strong> (Greek, “a yoking”) is the figure in which one word, usually a verb, serves for several clauses or phrases, though it is expressed only once. “Some people prefer tea; others, coffee” is of the same kind, since “prefer” serves both clauses. Donatus defines zeugma as one word closing several clauses that are fitly joined (<i>unius verbi conclusio diversis clausulis apte coniuncta</i>; <i>Ars maior</i> III.5).</p>
 <p>Later grammarians also use the name for a harder kind of yoking, in which one word is joined to two others but fits only one of them strictly. English handbooks often use “zeugma” for a word that applies in different senses to two others, as in Alexander Pope’s “Or stain her Honour, or her new Brocade” (<i>The Rape of the Lock</i> II.107), where “stain” is used of honor in one sense and of a dress in another. In every case one word does the work of several, but it need not agree with each of them.</p>`,
   src: `Donatus, <i>Ars maior</i> III.5, in paraphrase; Pope, <i>The Rape of the Lock</i> II.107.` },
 
