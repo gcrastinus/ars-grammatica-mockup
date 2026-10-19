@@ -13,8 +13,8 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'definition',
   title: 'What is a metaplasm?',
-  body: `<p>English poetry uses many changed forms of words: “ne’er” for “never,” “’gainst” for “against,” “’tis” for “it is,” “ope” for “open,” and “th’ ” for “the” before a vowel. Each changes the form of a word, usually to reduce the number of its syllables so that the line fits the meter. In ordinary speech these changes would be barbarisms, but in a poem they are allowed.</p>
-<p>We have seen that Donatus calls a change in a single word a barbarism in ordinary speech and a metaplasm in a poem. He defines the <strong>metaplasm</strong> (Greek <i>metaplasmos</i>, “reshaping”) as a change of correct, plain speech into another form, made for the sake of the meter or of ornament (<i>Ars maior</i> III.4). So a metaplasm is a barbarism permitted to the poets for a reason. Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change.</p>`,
+  body: `<p>English poetry uses many changed forms of words: “’twas” for “it was,” “’neath” for “beneath,” and “’mid” for “amid.” Each changes the form of a word, usually to reduce the number of its syllables so that the line fits the meter. In ordinary speech these changes would be barbarisms, but in a poem they are allowed.</p>
+<p>We have seen that Donatus calls a change in a single word a barbarism in ordinary speech and a metaplasm in a poem. He defines the <strong>metaplasm</strong> (Greek <i>metaplasmos</i>, “reshaping”) as a change of correct, plain speech into another form, made for the sake of the meter or of ornament (<i>Ars maior</i> III.4). So a metaplasm is a barbarism permitted to the poets for a reason. Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change, beginning with those that add a letter or a syllable.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
 { id: 'adding',
@@ -25,7 +25,7 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'removing',
   title: 'Metaplasms that remove',
-  body: `<p>Three metaplasms remove a letter or syllable:<br><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gan” for “began”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
+  body: `<p>Three metaplasms remove a letter or syllable:<br><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gainst” for “against”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
 <p>These are the metaplasms most often met in English poetry, because English verse, as we saw in Section II, counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word. In prose the same shortened forms would be barbarisms, or at least informal, as “’tis” now is.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
   qpTodo: `Metaplasms of adding and removing: which change has been made in a given poetic form (“ne’er,” “’tis,” “ope,” “adown”; <i>temnō</i>, <i>relliquiās</i>), and what is the regular form.` },
@@ -44,8 +44,8 @@ ARS.decks['vi.metaplasm'] = {
 
 { id: 'between-words',
   title: 'Metaplasms between words',
-  body: `<p>Two metaplasms occur where one word meets another:<br><strong>synaloepha</strong> (Greek, “melting together”) is the elision of a final vowel before a word that begins with a vowel;<br><strong>ecthlipsis</strong> (“squeezing out”) is the elision of a final syllable ending in <i>m</i> before a vowel, as in <i>multum ille</i>, measured <i>mult’ ille</i>.</p>
-<p>We studied these in Section II as elision, the rule by which certain final syllables are not counted in Latin verse. Donatus counts them among the metaplasms because they change how a word is pronounced in the line. English poetry has a similar elision in “th’ eternal” for “the eternal,” where the vowel of “the” is dropped before another vowel.</p>`,
+  body: `<p>Two metaplasms occur where one word meets another:<br><strong>synaloepha</strong> (Greek, “melting together”) is the elision of a final vowel before a word that begins with a vowel;<br><strong>ecthlipsis</strong> (“squeezing out”) is the elision of a final syllable ending in <i>m</i> before a vowel; Donatus’s example is the line of Virgil that we measured in Section II, <i>multum ille</i>, measured <i>mult’ ille</i>.</p>
+<p>We studied these in Section II as elision, the rule by which certain final syllables are not counted in Latin verse. Donatus counts them among the metaplasms because they change how a word is pronounced in the line. English poetry has a similar elision, as we saw in Section II, where the vowel of “the” is dropped before another vowel.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.` },
 
 { id: 'changing',
