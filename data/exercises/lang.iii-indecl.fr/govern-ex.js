@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why does <em>je</em> not follow <em>avec</em> in <em>Elle parle avec moi</em>?",
-   "explain": "<em>Je</em> is the subject form. <em>Avec</em> is a preposition, and the pronoun after it is the stressed form <em>moi</em>.",
+   "prompt": "Why does <em>je</em> not follow <em>sans</em> in <em>Il part sans moi</em>?",
+   "explain": "<em>Je</em> is the subject form. <em>Sans</em> is a preposition, and the pronoun after it is the stressed form <em>moi</em>.",
    "options": [
     "<em>Je</em> is the stressed form after a preposition.",
     "<em>Je</em> is the subject form.",
@@ -159,10 +159,10 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Toi</em> follows <em>pour</em>. Which form is <em>tu</em>?",
-   "explain": "<em>Tu</em> is the subject form, and it does not follow <em>pour</em>. The form after that preposition is the stressed <em>toi</em>.",
+   "prompt": "<em>Toi</em> follows <em>devant</em> in <em>Elle s’arrête devant toi</em>. Which form is <em>tu</em>?",
+   "explain": "<em>Tu</em> is the subject form, and it does not follow <em>devant</em>. The form after that preposition is the stressed <em>toi</em>.",
    "options": [
-    "The stressed form that follows <em>pour</em>.",
+    "The stressed form that follows <em>devant</em>.",
     "The direct-object form.",
     "The subject form.",
     "The indirect-object form."
@@ -175,8 +175,8 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Elle</em> after <em>sans</em> is the stressed form. Which form has the same spelling?",
-   "explain": "<em>Elle</em> is spelled like the subject form. After <em>sans</em> the use is still the stressed one. <em>Il</em> would not stand there.",
+   "prompt": "<em>Elle</em> after <em>pour</em> in <em>Le pain est pour elle</em> is the stressed form. Which form has the same spelling?",
+   "explain": "<em>Elle</em> is spelled like the subject form. After <em>pour</em> the use is still the stressed one. <em>Il</em> would not stand there.",
    "options": [
     "<em>Lui</em>, the indirect object.",
     "<em>Le</em>, the direct object.",
@@ -192,12 +192,12 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence puts the pronoun after a preposition?",
-   "explain": "<em>Sans</em> is a preposition, and <em>elle</em> follows it. In the other three sentences the pronoun stands before the verb.",
+   "explain": "<em>Avec</em> is a preposition, and <em>lui</em> follows it. In the other three sentences the pronoun stands before the verb.",
    "options": [
-    "<em>La femme le finit</em>, with the pronoun before the verb.",
-    "<em>Il vient sans elle</em>.",
-    "<em>Le roi lui parle</em>, with the pronoun before the verb.",
-    "<em>Il l’a</em>, with the pronoun before the verb."
+    "<em>Le roi la voit</em>, with the pronoun before the verb.",
+    "<em>Elle vient avec lui</em>.",
+    "<em>La femme leur écrit</em>, with the pronoun before the verb.",
+    "<em>Il l’ouvre</em>, with the pronoun before the verb."
    ],
    "answer": 1
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>La femme leur vend le livre</em>, whom does <em>leur</em> stand for?",
-   "explain": "<em>Leur</em> stands for the buyers, the persons to whom the book is sold. <em>Le livre</em> is the thing sold, and it stays a noun in this sentence.",
+   "prompt": "In <em>Le roi leur donne le pain</em>, whom does <em>leur</em> stand for?",
+   "explain": "<em>Leur</em> stands for the persons to whom the bread is given. <em>Le pain</em> is the thing given, and it stays a noun in this sentence.",
    "options": [
-    "The book that is sold.",
-    "The woman who sells.",
-    "The buyers.",
-    "The subject of <em>vend</em>."
+    "The bread that is given.",
+    "The king who gives it.",
+    "The persons who receive it.",
+    "The speaker of the sentence."
    ],
    "answer": 2
   },
@@ -223,12 +223,12 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Lui</em> in <em>Le roi lui parle</em> stands before the verb. Where does the stressed form stand?",
-   "explain": "The stressed form follows a preposition, as <em>moi</em> follows <em>avec</em>. <em>Lui</em> before <em>parle</em> is the indirect object, and there is no preposition written beside it.",
+   "prompt": "<em>Lui</em> in <em>La femme lui écrit</em> stands before the verb. Where does the stressed form stand?",
+   "explain": "The stressed form follows a preposition. <em>Lui</em> before <em>écrit</em> is the indirect object, and there is no preposition written beside it.",
    "options": [
     "Before the verb, in place of <em>lui</em>.",
-    "As the subject, in place of <em>le roi</em>.",
-    "As the direct object of <em>parle</em>.",
+    "As the subject, in place of <em>la femme</em>.",
+    "As the direct object of <em>écrit</em>.",
     "After a preposition."
    ],
    "answer": 3
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Le</em> in <em>La femme le finit</em> stands for the thing finished. What does it not stand for?",
-   "explain": "<em>Le</em> is the direct object, the thing finished. A person spoken to would be <em>lui</em>, and <em>finir</em> does not take that person in this sentence.",
+   "prompt": "<em>La</em> in <em>Le roi la voit</em> stands for the person seen. What does it not stand for?",
+   "explain": "<em>La</em> is the direct object, the person seen. A person written to would be <em>lui</em>, and <em>voir</em> does not take that person in this sentence.",
    "options": [
-    "The thing finished.",
-    "A person spoken to.",
+    "The person seen.",
+    "A person written to.",
     "The direct object.",
-    "The noun that the verb acts on."
+    "The one the verb acts on."
    ],
    "answer": 1
   },
@@ -256,12 +256,12 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which pronoun is the direct object?",
-   "explain": "<em>Le</em> in <em>La femme le finit</em> is the direct object. <em>Lui</em> and <em>leur</em> are indirect objects, and <em>moi</em> is stressed after <em>avec</em>.",
+   "explain": "<em>La</em> in <em>Le roi la voit</em> is the direct object. <em>Lui</em> and <em>leur</em> are indirect objects, and <em>moi</em> is stressed after <em>sans</em>.",
    "options": [
-    "<em>Le</em> in <em>La femme le finit</em>.",
-    "<em>Lui</em> in <em>Le roi lui parle</em>.",
-    "<em>Leur</em> in <em>La femme leur vend le livre</em>.",
-    "<em>Moi</em> in <em>Elle parle avec moi</em>."
+    "<em>La</em> in <em>Le roi la voit</em>.",
+    "<em>Lui</em> in <em>La femme lui écrit</em>.",
+    "<em>Leur</em> in <em>Le roi leur donne le pain</em>.",
+    "<em>Moi</em> in <em>Il part sans moi</em>."
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is the direct object <em>l’</em> rather than <em>le</em> in <em>Il l’a</em>?",
-   "explain": "The verb <em>a</em> begins with a vowel, so the direct-object pronoun elides to <em>l’</em>. <em>Avoir</em> does not put the thing had in a stressed form.",
+   "prompt": "Why is the direct object <em>l’</em> rather than <em>le</em> in <em>Il l’ouvre</em>?",
+   "explain": "The verb <em>ouvre</em> begins with a vowel, so the direct-object pronoun elides to <em>l’</em>. <em>Ouvrir</em> does not put the thing opened in a stressed form.",
    "options": [
-    "<em>Avoir</em> takes the stressed form.",
+    "<em>Ouvrir</em> takes the stressed form.",
     "The pronoun stands after a preposition.",
-    "<em>A</em> begins with a vowel.",
-    "<em>Avoir</em> takes an indirect object."
+    "<em>Ouvre</em> begins with a vowel.",
+    "<em>Ouvrir</em> takes an indirect object."
    ],
    "answer": 2
   },
@@ -287,11 +287,11 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "If <em>dans la ville</em> meant “in the city” rather than “into the city,” what would happen to <em>ville</em>?",
-   "explain": "<em>Ville</em> would stay <em>ville</em>. <em>Dans</em> marks the place either way, and the noun takes no case ending for motion or for place where.",
+   "prompt": "If <em>sous le pont</em> meant “under the bridge” as the place where he is, rather than motion toward it, what would happen to <em>pont</em>?",
+   "explain": "<em>Pont</em> would stay <em>pont</em>. <em>Sous</em> marks the place either way, and the noun takes no case ending for motion or for place where.",
    "options": [
     "It would take the ablative.",
-    "It would stay <em>ville</em>.",
+    "It would stay <em>pont</em>.",
     "It would take the accusative.",
     "It would take the dative."
    ],
@@ -303,8 +303,8 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Dans</em> does not give <em>ville</em> a Latin case. Which difference does French not make here?",
-   "explain": "Latin <em>in</em> can distinguish motion from place by the case of the noun. French <em>dans</em> does not. <em>Ville</em> has the same form for “into the city” and for “in the city.”",
+   "prompt": "<em>Sous</em> does not give <em>pont</em> a Latin case. Which difference does French not make here?",
+   "explain": "Latin <em>in</em> can distinguish motion from place by the case of the noun. French <em>sous</em> does not. <em>Pont</em> has the same form for going under the bridge and for being under it.",
    "options": [
     "A noun as against a pronoun.",
     "<em>Le</em> as against <em>la</em>.",
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Il va dans la ville</em>, what marks the place?",
-   "explain": "The preposition <em>dans</em> marks the place. <em>Ville</em> does not take an accusative ending for motion or an ablative ending for place where.",
+   "prompt": "In <em>Il est sous le pont</em>, what marks the place?",
+   "explain": "The preposition <em>sous</em> marks the place. <em>Pont</em> does not take an accusative ending for motion or an ablative ending for place where.",
    "options": [
-    "An accusative ending on <em>ville</em>.",
-    "An ablative ending on <em>ville</em>.",
-    "The preposition <em>dans</em>.",
-    "A dative ending on <em>ville</em>."
+    "An accusative ending on <em>pont</em>.",
+    "An ablative ending on <em>pont</em>.",
+    "The preposition <em>sous</em>.",
+    "A dative ending on <em>pont</em>."
    ],
    "answer": 2
   }

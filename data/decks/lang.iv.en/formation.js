@@ -139,7 +139,7 @@ ARS.decks["lang.iv.en/formation"] = {
      },
      {
       "prompt": "“Regal” and “kingly” are both English. Where does the reason inside “regal” come from?",
-      "options": ["From the English word “king”", "From Latin <em>rēgālis</em>", "From the suffix “-ly”", "From a compound of “red” and “gal”"],
+      "options": ["From the English word “king”", "From Latin <em>rēgālis</em>", "From the suffix “-ly”", "From French <em>roi</em>, as “royal” is"],
       "answer": 1,
       "explain": "“Kingly” is built on the Germanic word. “Regal” keeps a Latin reason, the adjective <em>rēgālis</em>, and is English by borrowing."
      }

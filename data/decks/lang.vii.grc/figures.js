@@ -27,7 +27,7 @@ ARS.decks["lang.vii.grc/figures"] = {
      },
      {
       "prompt": "A simile names both sides of a likeness. What else does it do?",
-      "options": ["It transfers one word and leaves the likeness unstated", "It denies the stem with a privative prefix", "It augments a compound verb", "It states the likeness"],
+      "options": ["It transfers one word and leaves the likeness unstated", "It adds a second, unrelated likeness", "It changes the tense of the verb", "It states the likeness"],
       "answer": 3,
       "explain": "The likeness is stated, with “as,” “like,” or the same kind of wording. A metaphor transfers a word and does not state the likeness."
      }
@@ -43,19 +43,19 @@ ARS.decks["lang.vii.grc/figures"] = {
     "variants": [
      {
       "prompt": "“The lawyer is a fox.” What kind of figure is this?",
-      "options": ["A metaphor", "A simile, because the likeness is stated with “like”", "A paradigm form, because the noun is singular", "No figure, because both words can be literal"],
+      "options": ["A metaphor", "A simile, because the likeness is stated with “like”", "A plain statement, because both words are nouns", "No figure, because both words can be literal"],
       "answer": 0,
       "explain": "“Fox” is used of a person, and the sentence does not say “like.” That is a metaphor, as “shepherd” is used of Dryas without “like.”"
      },
      {
       "prompt": "“The lawyer is like a fox.” How does this differ from “The lawyer is a fox”?",
-      "options": ["There is no difference", "Both are metaphors, because “fox” cannot be literal", "The sentence with “like” augments the noun", "One is a simile and one is a metaphor"],
+      "options": ["There is no difference", "Both are metaphors, because “fox” cannot be literal", "The sentence with “like” is also a metaphor", "One is a simile and one is a metaphor"],
       "answer": 3,
       "explain": "“Like” states the likeness, so the first sentence is a simile. Without “like,” “fox” is transferred, and the sentence is a metaphor."
      },
      {
       "prompt": "A metaphor is sometimes called a shorter form of a simile. What is left out?",
-      "options": ["The noun", "The verb “to be”", "The stating of the likeness", "The breathing on the first vowel"],
+      "options": ["The noun", "The verb “to be”", "The stating of the likeness", "The name of the person"],
       "answer": 2,
       "explain": "A simile states the likeness. A metaphor implies the likeness in the transferred word and does not state it."
      }
@@ -71,7 +71,7 @@ ARS.decks["lang.vii.grc/figures"] = {
     "variants": [
      {
       "prompt": "“A school is like a garden” states the likeness in one sentence and stops. What figure is it?",
-      "options": ["A simile", "A metaphor, because “garden” is transferred without “like”", "An augment", "A privative compound"],
+      "options": ["A simile", "A metaphor, because “garden” is transferred without “like”", "No figure, because a school is not a garden", "A literal account of a garden"],
       "answer": 0,
       "explain": "“Like” states the likeness, so the sentence is a simile even when it is not kept through a longer scene."
      },
@@ -83,7 +83,7 @@ ARS.decks["lang.vii.grc/figures"] = {
      },
      {
       "prompt": "A stated likeness is kept through several sentences about one ship, one captain, and one crew. What is that, at bottom?",
-      "options": ["One simile, kept up", "Several unrelated metaphors", "A change of accent", "A compound of two stems"],
+      "options": ["One simile, kept up", "Several unrelated metaphors", "A change from one likeness to another", "A literal account of a voyage"],
       "answer": 0,
       "explain": "The likeness was stated, and the scene does not leave it. Length does not turn the simile into a string of separate metaphors."
      }
@@ -99,19 +99,19 @@ ARS.decks["lang.vii.grc/figures"] = {
     "variants": [
      {
       "prompt": "“A household is like a ship. The stores are the cargo, the children are the passengers, and the parents keep the helm.” The likeness is stated and kept. What is this?",
-      "options": ["One metaphor, because “ship” occurs only once", "A privative adjective", "A hexameter", "An extended simile"],
+      "options": ["One metaphor, because “ship” occurs only once", "A literal account of a household", "A single sentence with no likeness stated", "An extended simile"],
       "answer": 3,
       "explain": "“Like” states the likeness, and the following sentences stay with that ship. A simile kept through a scene is an extended simile."
      },
      {
       "prompt": "“The household is a ship, the stores are cargo, and the parents are a helm.” No sentence says “like.” What is this?",
-      "options": ["A continued metaphor", "An extended simile, because several sentences are used", "A single literal description of a ship", "An augment placed between prefix and verb"],
+      "options": ["A continued metaphor", "An extended simile, because several sentences are used", "A single literal description of a ship", "A past tense of one verb"],
       "answer": 0,
       "explain": "Each sentence transfers a word, and none states the likeness. That is a continued metaphor. An extended simile would have stated the likeness."
      },
      {
       "prompt": "A passage states “like,” keeps one scene, and is also called an allegory because the scene means something further. What does the name “allegory” do to the stated likeness?",
-      "options": ["It erases the word “like” and makes the passage a metaphor", "It marks the passage as a barbarism", "It names a further meaning", "It shows that the scene was never a comparison"],
+      "options": ["It erases the word “like” and makes the passage a metaphor", "It marks the passage as a literal description", "It names a further meaning", "It shows that the scene was never a comparison"],
       "answer": 2,
       "explain": "The likeness was stated, so the passage is still a simile, and an extended one if the scene is kept. “Allegory” names the further meaning. It does not unwrite “like.”"
      }

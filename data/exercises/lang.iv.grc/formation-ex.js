@@ -71,8 +71,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "A suffix is added at the end of a stem. Which of these is a suffix?",
-   "explain": "<em>-σις</em> stands at the end and names the action. <em>ἀ-</em> is a prefix, and the augment is the past mark of a verb.",
-   "options": ["The augment <em>ε</em>", "The privative <em>ἀ-</em>", "The first stem of a compound", "<em>-σις</em>"],
+   "explain": "<em>-σις</em> stands at the end and names the action. <em>ἀ-</em> is a prefix. The personal ending <em>-ω</em> marks the verb, and it is not one of the noun-forming suffixes.",
+   "options": ["The personal ending <em>-ω</em>", "The privative <em>ἀ-</em>", "The first stem of a compound", "<em>-σις</em>"],
    "answer": 3
   },
   {
@@ -127,7 +127,7 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "type": "mc",
    "prompt": "In both glosses of <em>ἄτιμος</em>, “unhonored” and “without civic rights,” what does <em>ἀ-</em> contribute?",
    "explain": "The prefix is the denial in both glosses. “Honor” and “civic rights” belong to the stem <em>τιμή</em>, not to two different prefixes.",
-   "options": ["A different prefix in each gloss", "The name of a doer", "The augment", "The denial of the stem"],
+   "options": ["A different prefix in each gloss", "The name of a doer", "The stem’s own meaning", "The denial of the stem"],
    "answer": 3
   },
   {
@@ -137,8 +137,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the <em>ν</em> of <em>ἀν-</em>?",
-   "explain": "The <em>ν</em> is written when the privative prefix stands before a vowel. It is part of that prefix, not the augment and not a nominal suffix.",
-   "options": ["The suffix <em>-σις</em>", "Part of <em>ἀν-</em>", "The augment of a compound verb", "The second stem of a compound noun"],
+   "explain": "The <em>ν</em> is written when the privative prefix stands before a vowel. It is part of that prefix, not the vowel of the stem and not a nominal suffix.",
+   "options": ["The suffix <em>-σις</em>", "Part of <em>ἀν-</em>", "The vowel that follows the prefix", "The second stem of a compound noun"],
    "answer": 1
   },
   {

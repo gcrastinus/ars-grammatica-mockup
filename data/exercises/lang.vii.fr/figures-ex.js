@@ -83,7 +83,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "“Slow and steady wins the race” stands at the head of a story about a race. What is the line?",
    "explain": "The line states a general truth, and the story tries it. That is a sententious line, the shape of the fable’s opening. It is not a change of French measure.",
-   "options": ["A sententious line", "A French alexandrine", "The partitive", "A prefix"],
+   "options": ["A sententious line", "A French alexandrine", "An antithesis of slow and fast", "A change of tense"],
    "answer": 0
   },
   {
@@ -94,7 +94,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "What does a metaphor do with a word?",
    "explain": "A metaphor uses a word for something the word resembles. The proper signification is left behind, and the likeness does the work.",
-   "options": ["It states a general law", "It uses a likeness", "It counts the syllables", "It adds <em>re-</em>"],
+   "options": ["It states a general law", "It uses a likeness", "It counts the syllables", "It keeps the word’s proper sense"],
    "answer": 1
   },
   {
@@ -138,7 +138,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "A line names Neptune. What further fact is required before the line is a metaphor?",
    "explain": "A proper name is not by itself a metaphor. A metaphor needs a word used for a likeness. Naming a storm as the person Neptune is personification, a different device.",
-   "options": ["Nothing further. Every proper name is a metaphor", "A word used for a likeness", "A feminine rhyme", "A partitive article"],
+   "options": ["Nothing further. Every proper name is a metaphor", "A word used for a likeness", "A count of the syllables", "The name standing as the subject"],
    "answer": 1
   },
   {
@@ -149,7 +149,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "How does a metaphor differ from an antithesis?",
    "explain": "A metaphor carries a word to a likeness. An antithesis sets opposed senses in matching form, and the words keep their proper sense. One changes signification. The other arranges it.",
-   "options": ["They are the same device", "Metaphor changes sense; antithesis keeps it", "Antithesis is a partitive, and metaphor is a gender", "A metaphor is always eight syllables"],
+   "options": ["They are the same device", "Metaphor changes sense; antithesis keeps it", "Antithesis changes the sense, and metaphor keeps it", "A metaphor must be two matching halves"],
    "answer": 1
   },
   {
@@ -160,7 +160,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "What does a trope change?",
    "explain": "A trope changes the signification of a word, as a metaphor does when the remaining life is called a torch. A change in the number of syllables does not do that.",
-   "options": ["The number of syllables only", "The signification of a word", "The gender of a noun", "The auxiliary, from <em>avoir</em> to <em>être</em>"],
+   "options": ["The number of syllables only", "The signification of a word", "Whether the line is a maxim", "The order of the two halves"],
    "answer": 1
   },
   {
@@ -171,7 +171,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "“Present, the house is loud; absent, it is still.” What is the opposition?",
    "explain": "Present is set against absent, and loud against still, in matching form. That is antithesis. The words keep their proper sense, so the line is not a metaphor.",
-   "options": ["A metaphor", "Antithesis", "A partitive", "A mute <em>e</em>"],
+   "options": ["A metaphor", "Antithesis", "A sententious line about every house", "A change from one line length to another"],
    "answer": 1
   },
   {
@@ -204,7 +204,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "type": "mc",
    "prompt": "In Phaedra’s couplet, the first line says the hands are free from stain, and the second wishes the soul were as innocent. What does the second half do?",
    "explain": "The second half turns the first into the opposed sense, in matching form. Stainless hands are set against a soul that is not innocent. The turn is not a change of measure.",
-   "options": ["It repeats the first half in the same sense", "It opposes the first half", "It makes the line a partitive", "It shortens the line to four syllables"],
+   "options": ["It repeats the first half in the same sense", "It opposes the first half", "It turns the hands into a torch", "It changes the line from twelve syllables to eight"],
    "answer": 1
   },
   {

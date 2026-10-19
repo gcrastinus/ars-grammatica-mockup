@@ -83,7 +83,7 @@ ARS.decks["lang.vii.fr/figures"] = {
      },
      {
       "prompt": "What does the second half of an antithesis do to the first?",
-      "options": ["It repeats the first half in the same sense", "It opposes the first half", "It makes the line a partitive", "It borrows the line again from Latin"],
+      "options": ["It repeats the first half in the same sense", "It opposes the first half", "It changes the line from one length to another", "It names the second half as a maxim"],
       "answer": 1,
       "explain": "The line turns. Hippolytus flees her when she is present and finds her when she is absent. The second half is the opposite of the first, in matching form."
      }
