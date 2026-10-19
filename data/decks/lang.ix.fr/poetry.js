@@ -234,7 +234,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-46",
    "title": "Verlaine, Poèmes saturniens “Mon rêve familier” 1–4 · Alexandrine (in the drill)",
-   "body": "<p><strong>Verlaine, <i>Poèmes saturniens</i> “Mon rêve familier” 1–4 · Alexandrine (in the drill)</strong></p><p>Je fais souvent ce rêve étrange et pénétrant<br>D’une femme inconnue, et que j’aime, et qui m’aime,<br>Et qui n’est, chaque fois, ni tout à fait la même<br>Ni tout à fait une autre, et m’aime et me comprend.</p><p>Oft do I dream this strange and penetrating dream:<br>An unknown woman, whom I love, who loves me well,<br>Who does not every time quite change, nor yet quite dwell<br>The same—and loves me well, and knows me as I am.<br>— Gertrude Hall</p><p><strong>Context.</strong> The opening of a sonnet. One sentence of four lines: a woman is named, and then a string of relative clauses joined by <em>et</em> tells what she is.</p>"
+   "body": "<p><strong>Verlaine, <i>Poèmes saturniens</i> “Mon rêve familier” 1–4 · Alexandrine (in the drill)</strong></p><p>Je fais souvent ce rêve étrange et pénétrant<br>D’une femme inconnue, et que j’aime, et qui m’aime,<br>Et qui n’est, chaque fois, ni tout à fait la même<br>Ni tout à fait une autre, et m’aime et me comprend.</p><p>Oft do I dream this strange and penetrating dream:</p>\n<p>An unknown woman, whom I love, who loves me well,<br>Who does not every time quite change, nor yet quite dwell<br>The same—and loves me well, and knows me as I am.<br>— Gertrude Hall</p><p><strong>Context.</strong> The opening of a sonnet. One sentence of four lines: a woman is named, and then a string of relative clauses joined by <em>et</em> tells what she is.</p>"
   },
   {
    "id": "poetry-47",
