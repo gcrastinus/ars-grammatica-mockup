@@ -512,3 +512,6 @@ body.dark .lang-de{background:#4a5560}
 /* Section review bars match the Cumulative Review bar exactly: title and range only. */
 .set-card.review-bar .kind,
 .set-card.review-bar .begin{display:none}
+
+/* Reviews (section and cumulative) take the same lighter panel color as the exercise strip. */
+.cumul-bar, .set-card.review-bar{background:var(--panel)}
