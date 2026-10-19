@@ -4,12 +4,12 @@ ARS.decks["lang.ix.de/poetry"] = {
  "id": "lang.ix.de/poetry",
  "title": "German Poetry",
  "sub": "Ten passages of German verse, read part by part",
- "sources": "Duden",
+ "sources": "Duden; the translations are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
    "title": "Goethe, <i>Wandrers Nachtlied II (Ein Gleiches)</i> 1–8 · Free short lines with varied stresses",
-   "body": "<p>Über allen Gipfeln<br>Ist Ruh’,<br>In allen Wipfeln<br>Spürest du<br>Kaum einen Hauch;<br>Die Vögelein schweigen im Walde.<br>Warte nur, balde<br>Ruhest du auch.</p><p>O’er all the hilltops<br>Is quiet now,<br>In all the treetops<br>You hear<br>Hardly a breath;<br>The birds are asleep in the trees:<br>Wait; soon like these<br>You too shall rest.<br>— Henry Wadsworth Longfellow</p><p><strong>Context.</strong> Goethe wrote these lines on the wall of a hut on the Kickelhahn, a hill near Ilmenau. The lines are short, and their stresses vary: some have one, some two, and some three.</p>"
+   "body": "<p>Über allen Gipfeln<br>Ist Ruh’,<br>In allen Wipfeln<br>Spürest du<br>Kaum einen Hauch;<br>Die Vögelein schweigen im Walde.<br>Warte nur, balde<br>Ruhest du auch.</p><p>Over all the hilltops<br>is rest;<br>in all the treetops<br>you feel<br>hardly a breath;<br>the little birds are silent in the wood.<br>Only wait, soon<br>you too will rest.</p><p><strong>Context.</strong> Goethe wrote these lines on the wall of a hut on the Kickelhahn, a hill near Ilmenau. The lines are short, and their stresses vary: some have one, some two, and some three.</p>"
   },
   {
    "id": "poetry-2",
@@ -39,7 +39,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-7",
    "title": "Müller, <i>Die schöne Müllerin</i> “Wohin?” 1–4 · Iambic trimeter, three beats",
-   "body": "<p>Ich hört’ ein Bächlein rauschen<br>Wohl aus dem Felsenquell,<br>Hinab zum Tale rauschen<br>So frisch und wunderhell.</p><p>I heard a brooklet gushing<br>From its rocky fountain near,<br>Down into the valley rushing,<br>So fresh and wondrous clear.<br>— Henry Wadsworth Longfellow</p><p><strong>Context.</strong> This is the second song of Schubert’s cycle. After a verb of perceiving, German puts a bare infinitive: <em>ich hörte ein Bächlein rauschen</em>, “I heard a brook rush.”</p>"
+   "body": "<p>Ich hört’ ein Bächlein rauschen<br>Wohl aus dem Felsenquell,<br>Hinab zum Tale rauschen<br>So frisch und wunderhell.</p><p>I heard a little brook rushing<br>indeed out of the rock spring,<br>rushing down to the valley,<br>so fresh and wondrously bright.</p><p><strong>Context.</strong> This is the second song of Schubert’s cycle. After a verb of perceiving, German puts a bare infinitive: <em>ich hörte ein Bächlein rauschen</em>, “I heard a brook rush.”</p>"
   },
   {
    "id": "poetry-8",
@@ -64,7 +64,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-12",
    "title": "Uhland, <i>Das Schloss am Meere</i> 1–4 · Three-beat lines, iambic and anapestic",
-   "body": "<p>Hast du das Schloss gesehen,<br>Das hohe Schloss am Meer?<br>Golden und rosig wehen<br>Die Wolken drüber her.</p><p>Have you seen that lordly castle,<br>That Castle by the Sea?<br>Golden and red above it<br>The clouds float gorgeously.<br>— Henry Wadsworth Longfellow</p><p><strong>Context.</strong> The poem is a dialogue, in which one speaker asks and the other answers. The first sentence is a question in the perfect tense, with the participle at the end.</p>"
+   "body": "<p>Hast du das Schloss gesehen,<br>Das hohe Schloss am Meer?<br>Golden und rosig wehen<br>Die Wolken drüber her.</p><p>Have you seen the castle,<br>the high castle by the sea?<br>Golden and rosy<br>the clouds drift over it.</p><p><strong>Context.</strong> The poem is a dialogue, in which one speaker asks and the other answers. The first sentence is a question in the perfect tense, with the participle at the end.</p>"
   },
   {
    "id": "poetry-13",
@@ -84,7 +84,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-16",
    "title": "Luther, <i>Ein feste Burg ist unser Gott</i> 1–4 · Iambic, eight- and seven-syllable lines",
-   "body": "<p>Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A safe stronghold our God is still,<br>A trusty shield and weapon;<br>He’ll help us clear from all the ill<br>That has us now o’ertaken.<br>— Thomas Carlyle</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the adjective after <em>ein</em> has no ending, and the subordinate clause puts its helping verb before its participle.</p>"
+   "body": "<p>Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A mighty fortress is our God,<br>a good defense and weapons.<br>He helps us free out of all the need<br>that has now befallen us.</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the adjective after <em>ein</em> has no ending, and the subordinate clause puts its helping verb before its participle.</p>"
   },
   {
    "id": "poetry-17",
@@ -109,7 +109,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-21",
    "title": "Goethe, <i>Der König in Thule</i> 1–4 · Three-beat lines, iambs mixed with anapests",
-   "body": "<p>Es war ein König in Thule,<br>Gar treu bis an das Grab,<br>Dem sterbend seine Buhle<br>Einen goldnen Becher gab.</p><p>In Thule lived a monarch,<br>Still faithful to the grave,<br>To whom his dying mistress<br>A golden goblet gave.<br>— Edgar Alfred Bowring</p><p><strong>Context.</strong> Gretchen sings this ballad in <em>Faust</em>. The stanza is one sentence, with a relative clause in the dative.</p>"
+   "body": "<p>Es war ein König in Thule,<br>Gar treu bis an das Grab,<br>Dem sterbend seine Buhle<br>Einen goldnen Becher gab.</p><p>There was a king in Thule,<br>very faithful right up to the grave,<br>to whom his beloved, dying,<br>gave a golden cup.</p><p><strong>Context.</strong> Gretchen sings this ballad in <em>Faust</em>. The stanza is one sentence, with a relative clause in the dative.</p>"
   },
   {
    "id": "poetry-22",
@@ -134,7 +134,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-26",
    "title": "Goethe, <i>Wandrers Nachtlied</i> complete · Trochaic lines of four and two beats",
-   "body": "<p>Der du von dem Himmel bist,<br>Alles Leid und Schmerzen stillest,<br>Den, der doppelt elend ist,<br>Doppelt mit Erquickung füllest,<br>Ach ich bin des Treibens müde!<br>Was soll all der Schmerz und Lust?<br>Süßer Friede,<br>Komm, ach komm in meine Brust!</p><p>You that from the heavens are,<br>Every pain and sorrow still,<br>And the doubly wretched heart<br>Doubly with refreshment fill,<br>I am weary with contending!<br>Why this rapture and unrest?<br>Peace descending,<br>Come, ah, come into my breast!<br>— Henry Wadsworth Longfellow</p><p><strong>Context.</strong> The poem is a prayer to peace. The one addressed is held back to line 7, <em>Süßer Friede</em> (“sweet peace”); the first four lines are relative clauses about it, with the verbs at the end.</p>"
+   "body": "<p>Der du von dem Himmel bist,<br>Alles Leid und Schmerzen stillest,<br>Den, der doppelt elend ist,<br>Doppelt mit Erquickung füllest,<br>Ach ich bin des Treibens müde!<br>Was soll all der Schmerz und Lust?<br>Süßer Friede,<br>Komm, ach komm in meine Brust!</p><p>You who are from heaven,<br>who still all sorrow and pains,<br>who fill him who is doubly wretched<br>doubly with refreshment,<br>ah, I am tired of the bustle!<br>What is all the pain and pleasure for?<br>Sweet peace,<br>come, ah, come into my breast!</p><p><strong>Context.</strong> The poem is a prayer to peace. The one addressed is held back to line 7, <em>Süßer Friede</em> (“sweet peace”); the first four lines are relative clauses about it, with the verbs at the end.</p>"
   },
   {
    "id": "poetry-27",
@@ -164,7 +164,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-32",
    "title": "Heine, <i>Die Nordsee</i> “Nachts in der Kajüte” 1–4 · Free lines of three beats",
-   "body": "<p>Das Meer hat seine Perlen,<br>Der Himmel hat seine Sterne,<br>Aber mein Herz, mein Herz,<br>Mein Herz hat seine Liebe.</p><p>The sea has its pearls,<br>The heaven has its stars;<br>But my heart, my heart,<br>My heart has its love.<br>— Henry Wadsworth Longfellow</p><p><strong>Context.</strong> The poem has three sentences of the same shape, and the third is broken by repetition. <em>Seine</em> serves for “its” as well as “his.”</p>"
+   "body": "<p>Das Meer hat seine Perlen,<br>Der Himmel hat seine Sterne,<br>Aber mein Herz, mein Herz,<br>Mein Herz hat seine Liebe.</p><p>The sea has its pearls,<br>the sky has its stars,<br>but my heart, my heart,<br>my heart has its love.</p><p><strong>Context.</strong> The poem has three sentences of the same shape, and the third is broken by repetition. <em>Seine</em> serves for “its” as well as “his.”</p>"
   },
   {
    "id": "poetry-33",
@@ -184,7 +184,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-36",
    "title": "Heine, <i>Ein Fichtenbaum steht einsam</i> 1–4 · Three-beat lines, iambs mixed with anapests",
-   "body": "<p>Ein Fichtenbaum steht einsam<br>Im Norden auf kahler Höh’.<br>Ihn schläfert; mit weißer Decke<br>Umhüllen ihn Eis und Schnee.</p><p>There stands a lonely pine tree<br>In the north, on a barren height;<br>He sleeps while the ice and snowflakes<br>Swathe him in folds of white.<br>— Emma Lazarus</p><p><strong>Context.</strong> The pine dreams of a palm in the south. The verb <em>schläfert</em> is impersonal, and the object is placed before the verb.</p>"
+   "body": "<p>Ein Fichtenbaum steht einsam<br>Im Norden auf kahler Höh’.<br>Ihn schläfert; mit weißer Decke<br>Umhüllen ihn Eis und Schnee.</p><p>A pine tree stands lonely<br>in the north on a bare height.<br>He grows sleepy; with a white cover<br>ice and snow wrap him round.</p><p><strong>Context.</strong> The pine dreams of a palm in the south. The verb <em>schläfert</em> is impersonal, and the object is placed before the verb.</p>"
   },
   {
    "id": "poetry-37",
@@ -209,7 +209,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-41",
    "title": "Heine, <i>Buch der Lieder</i> “Du bist wie eine Blume” 1–4 · Three-beat iambic lines",
-   "body": "<p>Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You seem like a flower,<br>So pure and fair and bright;<br>A melancholy yearning<br>Steals over me at your sight.<br>— Emma Lazarus</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <em>anschauen</em> and <em>hineinschleichen</em>.</p>"
+   "body": "<p>Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You are like a flower,<br>so lovely and fair and pure;<br>I look at you, and melancholy<br>creeps into my heart.</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <em>anschauen</em> and <em>hineinschleichen</em>.</p>"
   },
   {
    "id": "poetry-42",
@@ -234,7 +234,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-46",
    "title": "Rinkart, <i>Nun danket alle Gott</i> 1–4 · Iambic trimeter, six and seven syllables",
-   "body": "<p>Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now thank we all our God,<br>With heart and hands and voices,<br>Who wondrous things has done,<br>In whom his world rejoices;<br>— Catherine Winkworth</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>"
+   "body": "<p>Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now all of you give thanks to God<br>with hearts, mouth, and hands,<br>who does great things<br>to us and everywhere,</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>"
   },
   {
    "id": "poetry-47",
