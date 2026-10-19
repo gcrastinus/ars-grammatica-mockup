@@ -66,18 +66,18 @@ ARS.decks['i.syncategorematic'] = {
 <p>The first says something of all horses, the second of at least one, the third of none, and the fourth says that nothing other than a horse runs. The same is true in Latin: <i>omnis equus currit</i> (“every horse runs”), <i>aliquis equus currit</i> (“some horse runs”), and <i>nullus equus currit</i> (“no horse runs”). Because the categorematic words are the same in each sentence, the whole difference in meaning comes from the syncategorematic words. (The examples given above are especially important for logic.)</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i>, in paraphrase.`,
   qp: { id: 'q-syncat', variants: [
-    { prompt: `In “Every horse runs,” which word is syncategorematic?`,
-      options: [`“Horse”`, `“Every”`, `“Runs”`, `None of them`],
+    { prompt: `In “Each tailor sews,” which word is syncategorematic?`,
+      options: [`“Tailor”`, `“Each”`, `“Sews”`, `None of them`],
       answer: 1,
-      explain: `“Every” does not bring a thing to mind by itself; it determines how “horse” is to be taken, namely as each and all horses. “Horse” and “runs” signify something by themselves, and so they are categorematic.` },
+      explain: `“Each” does not bring a thing to mind by itself; it determines how “tailor” is to be taken, namely as every tailor, one by one. “Tailor” and “sews” signify something by themselves, and so they are categorematic.` },
     { prompt: `Which of these words is categorematic?`,
-      options: [`“Not”`, `“If”`, `“Only”`, `“White”`],
+      options: [`“Nor”`, `“Whether”`, `“Both”`, `“Bitter”`],
       answer: 3,
-      explain: `“White” signifies something definite by itself, a color, and it can be said of something, as in “The horse is white.” “Not,” “if,” and “only” signify only together with other words, by determining how they are taken.` },
-    { prompt: `“Every horse runs” and “No horse runs” have the same categorematic words. Why do they mean such different things?`,
-      options: [`Because the syncategorematic words “every” and “no” determine how “horse” is taken`, `Because “horse” has a different signification in each sentence`, `Because “runs” consignifies a different time in each sentence`, `Because one sentence is in English and the other is not`],
+      explain: `“Bitter” signifies something definite by itself, a taste, and it can be said of something, as in “The medicine is bitter.” “Nor,” “whether,” and “both” signify only together with other words, by determining how they are taken.` },
+    { prompt: `“Every tower fell” and “No tower fell” have the same categorematic words. Why do they mean such different things?`,
+      options: [`Because the syncategorematic words “every” and “no” determine how “tower” is taken`, `Because “tower” has a different signification in each sentence`, `Because “fell” consignifies a different time in each sentence`, `Because one sentence is in English and the other is not`],
       answer: 0,
-      explain: `The categorematic words keep the same signification in both sentences. The difference comes entirely from “every” and “no,” which determine whether what is said is said of all horses or of none.` }
+      explain: `The categorematic words keep the same signification in both sentences. The difference comes entirely from “every” and “no,” which determine whether what is said is said of all towers or of none.` }
   ]}},
 
 { id: 'kinds',
@@ -93,18 +93,18 @@ ARS.decks['i.syncategorematic'] = {
 <p>So syncategorematic words belong to several parts of speech. “Every” and “no” are adjectives, since they go with nouns, as in “every horse” and “no horse”; “not” and “only” are adverbs; “if” and “and” are conjunctions; and “except” is a preposition in “everyone except John.” In the same way, categorematic words include nouns (“horse”), adjectives (“white”), and verbs (“runs”). One word can therefore be described under both divisions: “every” is an adjective and a syncategorematic word.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II, in paraphrase.`,
   qp: { id: 'q-not-parts', variants: [
-    { prompt: `“Every” is an adjective. Is it categorematic or syncategorematic?`,
+    { prompt: `“Any,” as in “any book,” is an adjective. Is it categorematic or syncategorematic?`,
       options: [`Categorematic, because every adjective is categorematic`, `Neither, because only nouns and verbs belong to this division`, `Syncategorematic, because it signifies only by determining how another word is taken`, `Categorematic, because it can be written by itself`],
       answer: 2,
-      explain: `The two divisions answer different questions. As a part of speech, “every” is an adjective; as a sign, it is syncategorematic, because it does not signify a thing by itself but determines how the word it goes with is taken.` },
+      explain: `The two divisions answer different questions. As a part of speech, “any” is an adjective; as a sign, it is syncategorematic, because it does not signify a thing by itself but determines how the word it goes with is taken.` },
     { prompt: `Why does the division into categorematic and syncategorematic words not coincide with the parts of speech?`,
       options: [`Because it asks whether a word signifies something definite by itself`, `Because it applies only to Latin`, `Because syncategorematic words are not words at all`, `Because the parts of speech were invented later`],
       answer: 0,
       explain: `The parts of speech are distinguished by the way each word signifies and is arranged with others. The other division asks only whether a word signifies something definite by itself, and so syncategorematic words are found among adjectives, adverbs, conjunctions, and prepositions.` },
     { prompt: `Which pair lists two syncategorematic words that belong to different parts of speech?`,
-      options: [`“Horse” and “white”`, `“Runs” and “stone”`, `“Horse” and “every”`, `“Not” and “if”`],
+      options: [`“Pebble” and “gentle”`, `“Wagon” and “glows”`, `“Pebble” and “neither”`, `“Neither” and “lest”`],
       answer: 3,
-      explain: `“Not” is an adverb and “if” is a conjunction, but both signify only together with other words, so both are syncategorematic. “Horse,” “white,” “runs,” and “stone” signify something by themselves.` }
+      explain: `“Neither” is an adjective in “neither road,” and “lest” is a conjunction, but both signify only together with other words, so both are syncategorematic. “Pebble,” “gentle,” “wagon,” and “glows” signify something by themselves.` }
   ]}},
 
 { id: 'why-grammar',
