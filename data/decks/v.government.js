@@ -12,7 +12,7 @@ ARS.decks['v.government'] = {
 
 { id: 'what-government',
   title: 'What is government?',
-  body: `<p>We have seen that in agreement two words share an accident. In <strong>government</strong> (Latin <i>regimen</i>, “ruling”) one word requires another word to be in a particular case, which the first word does not itself have. The verb <i>dūcit</i> (“he leads”) has no case, but it requires its object to be in the accusative: <i>legiōnem dūcit</i>, “he leads the legion.” So the verb is said to <strong>govern</strong> the accusative.</p>
+  body: `<p>We say “She thanked him,” not “She thanked he,” although the verb “thanked” has no case of its own: the verb requires the pronoun in the objective case. This relation is not agreement, in which, as we have seen, two words share an accident. It is <strong>government</strong> (Latin <i>regimen</i>, “ruling”), in which one word requires another word to be in a particular case that the first word does not itself have. The verb <i>dūcit</i> (“he leads”) has no case, but it requires its object to be in the accusative: <i>legiōnem dūcit</i>, “he leads the legion.” So the verb is said to <strong>govern</strong> the accusative.</p>
 <p>The grammarians of the twelfth century, especially Peter Helias in his commentary on Priscian, made government one of the principal ideas of syntax. A word governs another, in their account, when it requires that word in a certain form in order to complete the construction (<i>Summa super Priscianum</i>). We have already seen the clearest case of government with the preposition, which governs a particular case in its noun.</p>`,
   src: `Peter Helias, <i>Summa super Priscianum</i>, in paraphrase; Priscian, <i>Institutiones grammaticae</i> XVIII.` },
 
@@ -25,17 +25,17 @@ ARS.decks['v.government'] = {
 { id: 'other-cases',
   title: 'Verbs that govern other cases',
   body: `<p>The English verbs “trust,” “obey,” and “use” all take a direct object, but the Latin verbs with the same meanings do not govern the accusative. Some Latin verbs govern a case other than the accusative, and they must be learned with their case:</p>
-<p>the <strong>dative</strong>, with many verbs of favoring, helping, obeying, trusting, and their opposites: <i>tibi crēdō</i>, “I trust you”; <i>lēgibus pāret</i>, “he obeys the laws”; <i>hostibus nocet</i>, “he harms the enemy”;<br>the <strong>genitive</strong>, with some verbs of remembering and forgetting: <i>amīcī meminit</i>, “he remembers his friend”;<br>the <strong>ablative</strong>, with five deponent verbs and their compounds: <i>ūtor</i> (“I use”), <i>fruor</i> (“I enjoy”), <i>fungor</i> (“I perform”), <i>potior</i> (“I gain possession of”), and <i>vescor</i> (“I feed on”): <i>gladiō ūtitur</i>, “he uses a sword.”</p>
+<p>Many verbs of favoring, helping, obeying, trusting, and their opposites govern the <strong>dative</strong>: <i>tibi crēdō</i>, “I trust you”; <i>lēgibus pāret</i>, “he obeys the laws”; <i>hostibus nocet</i>, “he harms the enemy.”<br>Some verbs of remembering and forgetting govern the <strong>genitive</strong>: <i>amīcī meminit</i>, “he remembers his friend.”<br>Five deponent verbs and their compounds govern the <strong>ablative</strong>: <i>ūtor</i> (“I use”), <i>fruor</i> (“I enjoy”), <i>fungor</i> (“I perform”), <i>potior</i> (“I gain possession of”), and <i>vescor</i> (“I feed on”), as in <i>gladiō ūtitur</i>, “he uses a sword.”</p>
 <p>So the case that a verb governs is a fact of each language, and a student who translates word for word will often choose the wrong case. The dictionary gives the case that each such verb governs.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 350, 367, 410.`,
   qpTodo: `Verbs and their cases: which case does a given Latin verb govern (<i>crēdō</i>, <i>pāreō</i>, <i>meminī</i>, <i>ūtor</i>), and which form of the noun completes it.` },
 
 { id: 'prepositions',
   title: 'Prepositions and government',
-  body: `<p>We saw in Section III that each Latin preposition governs a particular case: <i>ad</i>, <i>per</i>, and <i>post</i> the accusative; <i>ab</i>, <i>cum</i>, and <i>ex</i> the ablative. We also saw that <i>in</i> and <i>sub</i> govern either case with a difference of meaning: <i>in castra</i>, “into the camp” (motion toward), and <i>in castrīs</i>, “in the camp” (rest in a place).</p>
-<p>The government of a preposition is the clearest example of what government means, because the preposition has no case of its own and exists only to relate its noun to another word. The case it governs is part of what it signifies: <i>in</i> with the accusative signifies motion into, and <i>in</i> with the ablative signifies position in. English shows the same distinction with two different prepositions, “into” and “in.”</p>`,
+  body: `<p>The Latin preposition <i>ad</i> is always followed by the accusative and <i>cum</i> by the ablative; the preposition decides the case of its noun. Each Latin preposition, as we saw in Section III, governs a particular case: <i>ad</i>, <i>per</i>, and <i>post</i> the accusative; <i>ab</i>, <i>cum</i>, and <i>ex</i> the ablative; and <i>in</i> and <i>sub</i> govern either case with a difference of meaning, motion toward a place with the accusative and rest in a place with the ablative.</p>
+<p>The government of a preposition is the clearest example of what government means, because the preposition has no case of its own and exists only to relate its noun to another word. The case it governs is part of what it signifies, so that <i>in</i> with the accusative signifies motion into, whereas <i>in</i> with the ablative signifies position in.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 220–221.`,
-  qpTodo: `Prepositions and their cases: which case does a given preposition govern in a given phrase, and what does the case add to its meaning (<i>in urbem</i>, <i>in urbe</i>, <i>cum amīcō</i>).` },
+  qpTodo: `Prepositions and their cases: which case does a given preposition govern in a given phrase, and what does the case add to its meaning (<i>in theātrum</i>, <i>in theātrō</i>, <i>cum amīcō</i>).` },
 
 { id: 'nouns-adjectives',
   title: 'Nouns and adjectives that govern',
@@ -47,9 +47,9 @@ ARS.decks['v.government'] = {
 { id: 'english',
   title: 'Government in English',
   body: `<p>English shows government less plainly than Latin, because its nouns no longer show case. But government remains in two places. First, many English verbs, nouns, and adjectives require a particular preposition: we “listen to,” “wait for,” “depend on,” and are “afraid of,” and to change the preposition (“depend of”) is an error. Second, a preposition or verb governs the objective case of a pronoun: “for you and me,” “Give it to him and me,” “whom did you see?”</p>
-<p>The common error “for you and I” is a failure of government, because “for” is a preposition and requires the objective case of both pronouns. Latin makes the same requirement visible in the ending: <i>prō tē et mē</i>, not <i>prō tē et ego</i>. So where English has lost its endings, government still exists, but its marks are fewer, and a speaker must know the rule even where the form does not show it.</p>`,
+<p>“For you and I,” which is common in speech but avoided in careful usage, is a failure of government, because “for” is a preposition and requires the objective case of both pronouns. Latin makes the same requirement visible in the ending: <i>prō tē et mē</i>, not <i>prō tē et ego</i>. So where English has lost its endings, government still exists, but its marks are fewer, and a speaker must know the rule even where the form does not show it.</p>`,
   src: `Standard English grammars, in paraphrase.`,
-  qpTodo: `Analysis: in a given English sentence, which word governs the marked pronoun or preposition, and which form does it require (“between you and me,” “listen to,” “whom”).` },
+  qpTodo: `Analysis: in a given English sentence, which word governs the marked pronoun or preposition, and which form does it require (“with him and me,” “listen to,” “whom”).` },
 
 { id: 'governed-governing',
   title: 'The governing word and the governed',
@@ -59,7 +59,7 @@ ARS.decks['v.government'] = {
 
 { id: 'agreement-government',
   title: 'Agreement and government compared',
-  body: `<p>Agreement and government are the two principal relations of form between words, and they differ in a clear way. In agreement the two words share the same accident: <i>aurīga strēnuus</i>, both masculine, singular, and nominative. In government one word requires in another an accident that it does not have itself: <i>dūcit</i> has no case, but it requires <i>legiōnem</i> in the accusative.</p>
+  body: `<p>Agreement and government are the two principal relations of form between words, and they differ in a clear way. In agreement the two words share the same accident, as an adjective shares the gender, number, and case of its noun. In government one word requires in another an accident that it does not have itself, as a verb, which has no case, requires its object in the accusative.</p>
 <p>So in <i>fīdus servus portam claudit</i>, “the faithful slave closes the gate,” <i>fīdus</i> agrees with <i>servus</i>, <i>claudit</i> agrees with <i>servus</i> in person and number, and <i>claudit</i> governs <i>portam</i> in the accusative. Both relations rest on a deeper one, the relation of dependence: in each pair, one word depends on the other.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>; Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.`,
   qpTodo: `Analysis: in a given Latin sentence, name each relation of agreement and each of government, with the words involved.` }
