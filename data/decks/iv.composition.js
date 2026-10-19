@@ -1,5 +1,5 @@
 /* IV.2 Composition [iv.composition]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written). The first panel refers back to
+   Plan (ITEM-LIST.md): 7 panels, 2 question points. The first panel refers back to
    III.3, where composition was first named as the accident "figure."
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from Priscian, Vossius, and Duden. */
 window.ARS = window.ARS || {};
@@ -22,7 +22,20 @@ ARS.decks['iv.composition'] = {
   body: `<p>The most common Latin compounds are verbs made with a preposition, as we have seen with the preposition. In these compounds the vowel of the verb is often weakened: <i>capiō</i> (“I take”) becomes <i>-cipiō</i> in <i>accipiō</i> (“I receive”), <i>teneō</i> (“I hold”) becomes <i>-tineō</i> in <i>retineō</i> (“I hold back”), and <i>cadō</i> (“I fall”) becomes <i>-cidō</i> in <i>incidō</i> (“I fall into”). English keeps these weakened forms in “accept,” “retain,” and “incident.”</p>
 <p>Latin also forms compound nouns and adjectives from a noun and a verbal root: <i>armiger</i> (“armor-bearer,” from <i>arma</i>, “arms,” and <i>gerere</i>, “to carry”), <i>artifex</i> (“craftsman,” from <i>ars</i>, “art,” and <i>facere</i>, “to make”), <i>signifer</i> (“standard-bearer,” from <i>signum</i> and <i>ferre</i>). And it forms adjectives from an adjective and a noun: <i>magnanimus</i> (“great-souled,” from <i>magnus</i> and <i>animus</i>). Latin compounds of this kind are fewer than Greek or German ones, and the Latin poets used them as a mark of high style.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 264–268, in paraphrase.`,
-  qpTodo: `Latin compounds: of what parts is a given compound made (<i>tubicen</i>, <i>opifex</i>, <i>dēcipiō</i>, <i>longaevus</i>), and what change has a part undergone.` },
+  qp: { id: 'q-latin', variants: [
+    { prompt: `Of what parts is Latin <i>tubicen</i> (“trumpeter”) made?`,
+      options: [`<i>tuba</i> and <i>canere</i>`, `<i>tuba</i> and <i>cēna</i> (“dinner”)`, `<i>tū</i> (“you”) and <i>cēnsēre</i> (“to judge”)`, `<i>tubus</i> (“pipe”) and <i>cingere</i> (“to gird”)`],
+      answer: 0,
+      explain: `<i>Tubicen</i> is the one who plays the trumpet: <i>tuba</i> (“trumpet”) with the root of <i>canere</i> (“to sing,” “to play”), whose <i>a</i> is weakened to <i>e</i> in <i>-cen</i>, as <i>capiō</i> becomes <i>-cipiō</i> in <i>accipiō</i>.` },
+    { prompt: `Latin <i>dēcipiō</i> (“I deceive”) is made of <i>dē</i> and <i>capiō</i> (“I take”). What has happened to <i>capiō</i>?`,
+      options: [`It has lost its first syllable`, `Its <i>a</i> has become <i>i</i>`, `It has taken the vowel of <i>dē</i>`, `Nothing; it is unchanged`],
+      answer: 1,
+      explain: `In compounds the vowel of the verb is often weakened, so <i>capiō</i> becomes <i>-cipiō</i>, as in <i>accipiō</i>. English “deceive” and “deception” come from these forms.` },
+    { prompt: `Of what parts is Latin <i>opifex</i> (“workman”) made?`,
+      options: [`<i>ops</i> (“help”) and <i>fax</i> (“torch”)`, `<i>opus</i> and <i>fīgere</i> (“to fix”)`, `<i>opus</i> and <i>facere</i>`, `<i>optāre</i> (“to wish”) and <i>facere</i>`],
+      answer: 2,
+      explain: `<i>Opifex</i> is the one who makes work: <i>opus</i> (“work”), with the stem shortened to <i>opi-</i>, and the root of <i>facere</i> (“to make”), weakened to <i>-fex</i>, as in <i>artifex</i>.` }
+  ]} },
 
 { id: 'greek',
   title: 'Greek compounds in English',
@@ -35,7 +48,20 @@ ARS.decks['iv.composition'] = {
   body: `<p>English forms compounds of many kinds: first, of noun and noun, as “teapot,” “doorknob,” and “sailboat”; second, of adjective and noun, as “bluebell,” “hardware,” and “highway”; third, of verb and noun, as “pickpocket” and “breakwater”; fourth, of a noun and an agent noun (a noun that names the doer of an action), as “shoemaker” and “housekeeper”; and fifth, of an adjective and a participle, as “good-looking” and “kind-hearted.”</p>
 <p>In most English compounds the last part is the principal one, and the first part determines it. A “houseboat” is a kind of boat, and a “boathouse” is a kind of house; a “teapot” is a pot, and a “doorknob” is a knob. The principal part is often called the <strong>head</strong> of the compound. So the order of the parts matters, as it does in an English phrase, and the meaning of the compound depends on it.</p>`,
   src: `Marchand, <i>Categories and Types</i>, the chapter on composition; Duden, on compounds; both in paraphrase.`,
-  qpTodo: `English compounds: in a given compound (“birdhouse,” “housefly,” “sunburn”), which part is the head, and what kind of thing does the compound signify.` },
+  qp: { id: 'q-english', variants: [
+    { prompt: `In “birdhouse,” which part is the head?`,
+      options: [`“bird,” because it comes first`, `Both parts equally`, `“house”`, `Neither part`],
+      answer: 2,
+      explain: `In most English compounds the last part is the head, and the first part determines it. Order alone does not make the first part the head: a birdhouse is a house for birds; a “housebird” would be a kind of bird.` },
+    { prompt: `In “housefly,” which part is the head?`,
+      options: [`“house”`, `“fly”`, `Both parts equally`, `Neither part`],
+      answer: 1,
+      explain: `A housefly is a kind of fly, the fly found in houses, so “fly,” the last part, is the head and “house” determines it.` },
+    { prompt: `A “sunburn” is a kind of what?`,
+      options: [`A kind of sun`, `A kind of light`, `A kind of burn`, `A kind of heat`],
+      answer: 2,
+      explain: `The last part, “burn,” is the head, and “sun” tells what caused it. So a sunburn is a burn, not a kind of sun.` }
+  ]} },
 
 { id: 'german',
   title: 'German compounds',
