@@ -1,5 +1,5 @@
 /* IV.1 Derivation [iv.derivation]
-   Plan (ITEM-LIST.md): 8 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 8 panels, 2 question points.
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from Priscian, Vossius, and Marchand. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -22,7 +22,20 @@ ARS.decks['iv.derivation'] = {
 <p><i>-tor</i> forms the <strong>agent</strong>, the one who does the action: <i>ōrātor</i> (“speaker”) from <i>ōrāre</i>; <i>victor</i> (“conqueror”) from <i>vincere</i>;<br><i>-tiō</i> forms the <strong>action</strong>: <i>āctiō</i> (“a doing”) from <i>agere</i>; <i>mōtiō</i> (“a moving”) from <i>movēre</i>;<br><i>-tās</i> and <i>-tūdō</i> form the <strong>quality</strong>: <i>cāritās</i> (“dearness,” “love”) from <i>cārus</i>; <i>magnitūdō</i> (“greatness”) from <i>magnus</i>;<br><i>-ulus</i>, <i>-culus</i>, and <i>-ellus</i> form <strong>diminutives</strong>, which signify something small: <i>libellus</i> (“little book”) from <i>liber</i>; <i>puerulus</i> (“little boy”) from <i>puer</i>.</p>
 <p>The English “libel” also comes from one of these derivatives, <i>libellus</i>, which meant a little book and then a written accusation. So a student who knows the Latin suffixes can often recognize the structure of English words that were borrowed from Latin. Latin forms adjectives by suffixes in the same way.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 236–243, in paraphrase.`,
-  qpTodo: `Latin noun suffixes: what does the suffix of a given noun signify (<i>amātor</i>, <i>lectiō</i>, <i>bonitās</i>, <i>agellus</i>), and from what word is it derived.` },
+  qp: { id: 'q-latin-nouns', variants: [
+    { prompt: `What does the suffix of Latin <i>amātor</i> signify, and from what word is it formed?`,
+      options: [`The agent, one who loves, from <i>amāre</i>`, `The action, a loving, from <i>amāre</i>`, `A quality, lovableness, from <i>amīcus</i>`, `A diminutive, a little lover, from <i>amor</i>`],
+      answer: 0,
+      explain: `<i>-tor</i> forms the agent, the one who does the action, so <i>amātor</i> is “lover,” from <i>amāre</i> (“to love”), as <i>ōrātor</i> is from <i>ōrāre</i>. The action would be formed with <i>-tiō</i>.` },
+    { prompt: `Latin <i>lectiō</i> is formed from <i>legere</i> (“to read”). What does it signify?`,
+      options: [`The one who reads`, `The act of reading`, `The quality of being readable`, `A little book`],
+      answer: 1,
+      explain: `<i>-tiō</i> forms the action, so <i>lectiō</i> is “a reading,” as <i>āctiō</i> is “a doing.” The one who reads would be <i>lēctor</i>, with <i>-tor</i>.` },
+    { prompt: `What is Latin <i>agellus</i>, formed from <i>ager</i> (“field”)?`,
+      options: [`One who works a field`, `The quality of being fertile`, `The act of plowing`, `A diminutive, “a little field”`],
+      answer: 3,
+      explain: `<i>-ellus</i> is one of the diminutive suffixes, which signify something small, as in <i>libellus</i> from <i>liber</i>. So <i>agellus</i> is “a little field.”` }
+  ]} },
 
 { id: 'latin-adjectives',
   title: 'Latin suffixes that form adjectives',
@@ -55,7 +68,20 @@ ARS.decks['iv.derivation'] = {
   body: `<p>English also forms new words without adding any suffix. A word of one part of speech can be used as another without change of form: the noun “hammer” gives the verb “to hammer,” the verb “to throw” gives the noun “a throw,” and the noun “butter” gives the verb “to butter the bread.” Marchand calls this <strong>zero-derivation</strong>, that is, derivation with no visible suffix; it is also called <strong>conversion</strong>. We saw in Section III that English words of one form can be different parts of speech, and conversion is how many such pairs arose.</p>
 <p>A word can also be formed by removing what looks like a suffix. “Editor” is older than the verb “to edit,” which was formed from it by taking away “-or”; “burglar” gave “to burgle,” and “television” gave “to televise.” This is called <strong>back-formation</strong>. It shows that speakers recognize the patterns of derivation and apply them in reverse, even when the history of the word is different.</p>`,
   src: `Marchand, <i>Categories and Types</i>, the chapters on zero-derivation and back-derivation, in paraphrase.`,
-  qpTodo: `Kinds of derivation: is a given word formed by a suffix, by conversion, or by back-formation (“loudness,” “to mail,” “to babysit,” “laughable”), and from what word.` },
+  qp: { id: 'q-conversion', variants: [
+    { prompt: `How is the verb “to mail” (a letter) formed from the noun “mail”?`,
+      options: [`By a suffix`, `By conversion`, `By back-formation`, `By composition`],
+      answer: 1,
+      explain: `The noun is used as a verb without any change of form, which is conversion, or zero-derivation, as “hammer” gives “to hammer.”` },
+    { prompt: `The verb “to babysit” was formed from the older noun “babysitter.” What kind of formation is this?`,
+      options: [`Conversion`, `Back-formation`, `A hybrid`, `Derivation by a suffix`],
+      answer: 1,
+      explain: `The noun came first, and the verb was made by taking away what looks like the agent suffix “-er,” as “to edit” was made from “editor.” That is back-formation.` },
+    { prompt: `“Laughable” joins the English verb “laugh” to the Latin suffix “-able.” What is such a word called?`,
+      options: [`A back-formation`, `A conversion`, `A hybrid`, `A diminutive`],
+      answer: 2,
+      explain: `A word made of parts from two languages is a hybrid, as “readable” and “starvation” are. Usage, not the mixture of languages, decides whether such a word is correct.` }
+  ]} },
 
 { id: 'analogy',
   title: 'Derivation and analogy',
