@@ -19,8 +19,8 @@ ARS.decks['x.progymnasmata'] = {
 
 { id: 'what',
   title: 'What are the progymnasmata?',
-  body: `<p>Schools still teach writing by a series of assignments that grow harder: a student first retells a story, then describes a place, and later writes an essay that argues for a position. The ancient schools gave students such a series of written exercises between the study of grammar and the study of rhetoric. They were called <strong>progymnasmata</strong> (Greek, “preliminary exercises”). George Kennedy, the modern historian of these exercises, explains that they were preliminary “to the practice of declamation in the schools of rhetoric,” and that they “were assigned by Greek grammarians to students after they had learned to read and write as preparation for declamation” (Kennedy, <i>Progymnasmata</i>, p. x).</p>
-<p>Quintilian assigns the first of them to the Roman grammarian: “Their pupils should learn to paraphrase Aesop’s fables, the natural successors of the fairy stories of the nursery, in simple and restrained language and subsequently to set down this paraphrase in writing with the same simplicity of style” (<i>Institutio oratoria</i> I.9.2). So the progymnasmata stand at the meeting of grammar and rhetoric: they begin with the stories that children already know and end with exercises in argument that prepare for the speeches of the rhetorical schools.</p>`,
+  body: `<p>Schools still teach writing by a series of assignments that grow harder: a student first retells a story, then describes a place, and later writes an essay that argues for a position. The classical tradition gave students such a series of written exercises between the study of grammar and the study of rhetoric. They were called <strong>progymnasmata</strong> (Greek, “preliminary exercises”). George Kennedy, the modern historian of these exercises, explains that they were preliminary “to the practice of declamation in the schools of rhetoric,” and that they “were assigned by Greek grammarians to students after they had learned to read and write as preparation for declamation” (Kennedy, <i>Progymnasmata</i>, p. x).</p>
+<p>Quintilian assigns the first of them to the Roman grammarian: “Their pupils should learn to paraphrase Aesop’s fables, the natural successors of the fairy stories of the nursery, in simple and restrained language and subsequently to set down this paraphrase in writing with the same simplicity of style” (<i>Institutio oratoria</i> I.9.2). So the progymnasmata stand at the meeting of grammar and rhetoric: they begin with the stories that children already know and end with exercises in argument that prepare for the speeches studied in rhetoric.</p>`,
   src: `Kennedy, <i>Progymnasmata</i>, p. x; Quintilian, <i>Institutio oratoria</i> I.9.2 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'fourteen',
@@ -49,10 +49,10 @@ ARS.decks['x.progymnasmata'] = {
 
 { id: 'maxim',
   title: 'Maxim',
-  body: `<p>A maxim is a general saying, such as “Haste makes waste” or “A friend in need is a friend indeed,” and it is expanded in the same way as the chreia. Aphthonius defines it: “Maxim (<i>gnōmē</i>) is a summary statement, in declarative sentences, urging or dissuading something.”</p>
+  body: `<p>A maxim is a general saying, such as “Haste makes waste” or “Look before you leap,” and it is expanded in the same way as the chreia. Aphthonius defines it: “Maxim (<i>gnōmē</i>) is a summary statement, in declarative sentences, urging or dissuading something.”</p>
 <p>The maxim differs from the chreia in one point: the chreia is attributed to a person and may report an action, whereas the maxim is a general statement, attributed to no one in particular. Quintilian draws a similar line between the aphorism and the character sketch (<i>ethologia</i>): “aphorisms are general propositions, while ethologiae are concerned with persons” (<i>Institutio oratoria</i> I.9.3). The maxim used as an ornament of a speech, the <i>sententia</i>, is studied in rhetoric.</p>`,
   src: `Aphthonius, ch. 4 (trans. Kennedy, p. 99); Quintilian, <i>Institutio oratoria</i> I.9.3 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Chreia and maxim: is a given saying a chreia or a maxim (a saying attributed to Isocrates; “Haste makes waste”), and what distinguishes the two.` },
+  qpTodo: `Chreia and maxim: is a given saying a chreia or a maxim (a saying attributed to Diogenes; “Many hands make light work”), and what distinguishes the two.` },
 
 { id: 'refutation',
   title: 'Refutation',
@@ -102,24 +102,24 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>In the exercise of ecphrasis the student describes a person, a place, a time, an event, or a work of art so vividly that the reader seems to see it. Aphthonius defines it: “Ecphrasis (<i>ekphrasis</i>) is descriptive language, bringing what is shown clearly before the eyes.” Homer’s description of the shield of Achilles in the eighteenth book of the <i>Iliad</i> is the most famous ancient example.</p>
 <p>Ecphrasis teaches the student to choose details and to order them, from the whole to the parts or from one side to the other, so that the description can be followed. It draws on the vocabulary that the student has gathered from reading and on the epithets and periphrases that we studied among the tropes.</p>`,
   src: `Aphthonius, ch. 12 (trans. Kennedy, p. 117); Homer, <i>Iliad</i> XVIII.`,
-  qpTodo: `Ethopoeia, ecphrasis, and syncrisis: which exercise is described in a given task (what Niobe might say; a description of a harbor; Achilles and Hector compared), and what does it require of the writer.` },
+  qpTodo: `Ethopoeia, ecphrasis, and syncrisis: which exercise is described in a given task (what Penelope might say when Odysseus returns; a description of a harbor; Rome and Carthage compared), and what does it require of the writer.` },
 
 { id: 'thesis',
   title: 'Thesis',
   body: `<p>A thesis is a general question, not tied to particular persons or circumstances, such as whether one should marry, whether one should go to sea, or whether the city should be fortified. The student argues for one answer and answers the objections. Aphthonius defines it: “Thesis (<i>thesis</i>) is a logical examination of any matter under inspection.”</p>
-<p>The thesis is the first exercise that treats a general question by argument without the support of a story or a famous saying. It stands close to philosophy, which also discusses general questions, and it prepares for the arguments of the rhetorical schools, where the same questions arise in particular cases.</p>`,
+<p>The thesis is the first exercise that treats a general question by argument without the support of a story or a famous saying. It stands close to philosophy, which also discusses general questions, and it prepares for the arguments of rhetoric, where the same questions arise in particular cases.</p>`,
   src: `Aphthonius, ch. 13 (trans. Kennedy, p. 120).` },
 
 { id: 'law',
   title: 'Introduction of a law',
   body: `<p>The last exercise is the argument for or against a proposed law. Aphthonius begins: “Some have also allowed that the introduction of a law is an exercise.” The student argues that a law is or is not just, lawful, advantageous, and practicable, considering what it would require and what effects it would have.</p>
-<p>The introduction of a law is the most difficult of the exercises, because it requires the student to argue about a particular measure as a citizen would in an assembly. It is the last step before the full speeches of the rhetorical schools, which Kennedy calls declamation, and with it the preliminary exercises end.</p>`,
+<p>The introduction of a law is the most difficult of the exercises, because it requires the student to argue about a particular measure as a citizen would in an assembly. It is the last step before the full practice speeches of rhetoric, which Kennedy calls declamation, and with it the preliminary exercises end.</p>`,
   src: `Aphthonius, ch. 14 (trans. Kennedy, p. 124); Kennedy, p. x.` },
 
 { id: 'fable-first-1',
   title: 'Why does the fable come first?',
   body: `<p>A child who has heard the story of the fox who could not reach the grapes and called them sour can retell it long before he can argue about anything, and the story already teaches a lesson. The handbooks give two reasons of this kind for placing the fable first. Nicolaus says that the teachers “put the fable first among them as being naturally plain and simpler than the others and as having some relationship to poems. In their transition from poems to rhetoric, students should not all at once encounter things that are strange and unusual to them.” The handbook attributed to Hermogenes gives a moral reason: “Fable (<i>mythos</i>) is regarded as the first exercise to be assigned to the young because it can bring their minds into harmony for the better. In this way they (i.e., teachers of grammar) think to form students while still tender.”</p>
-<p>Both reasons belong to the grammar school. The fable is easy, because it is short and familiar from the poets that the students have been reading, and it is morally useful, because it teaches a lesson in a form that the young accept. The note in the translation, “teachers of grammar,” shows that the exercise was assigned by the grammarian, as Quintilian also says.</p>`,
+<p>Both reasons belong to the teaching of grammar. The fable is easy, because it is short and familiar from the poets that the students have been reading, and it is morally useful, because it teaches a lesson in a form that the young accept. The note in the translation, “teachers of grammar,” shows that the exercise was assigned by the grammarian, as Quintilian also says.</p>`,
   src: `Nicolaus (trans. Kennedy, p. 133); [Hermogenes] (trans. Kennedy, p. 74).`,
   qpTodo: `Why the fable comes first: what two reasons do the handbooks give (its ease and its relation to the poets; its moral use for the young), and which handbook gives each.` },
 
