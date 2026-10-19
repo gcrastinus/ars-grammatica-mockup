@@ -1,5 +1,5 @@
 /* III.3 Figure and Species [iii.figure]
-   Plan (ITEM-LIST.md): 8 panels, 2 question points (placeholders: qpTodo; to be written). Exercise: Figure and Species
+   Plan (ITEM-LIST.md): 8 panels, 2 question points. Exercise: Figure and Species
    (not yet written). IV.2 (Composition) takes up composition again and refers back here.
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from Donatus and Priscian. */
 window.ARS = window.ARS || {};
@@ -41,7 +41,20 @@ ARS.decks['iii.figure'] = {
   body: `<p>Figure belongs not only to the noun but to the other parts of speech. Latin verbs are very often compounded with prepositions: <i>faciō</i> (“I make”) gives <i>cōnficiō</i> (“I complete”), <i>efficiō</i> (“I bring about”), and <i>perficiō</i> (“I finish”); <i>pōnō</i> (“I place”) gives <i>compōnō</i> (“I put together”) and <i>expōnō</i> (“I set out”). Pronouns, adverbs, and conjunctions can be compound as well, as <i>quisquis</i> (“whoever”), <i>īdem</i> (“the same”), <i>postquam</i> (“after”), and English “whoever,” “therefore,” and “nevertheless.”</p>
 <p>Many English words are compounds of the same kind, borrowed from Latin: “deposit,” “component,” “postpone,” and “opponent” all contain the Latin <i>pōnere</i> (“to place”), though English speakers are rarely aware of it. English also forms compounds of its own, as “understand,” “withdraw,” and “overcome.”</p>`,
   src: `Donatus, <i>Ars maior</i> II; Allen and Greenough, <i>New Latin Grammar</i>, on compound verbs.`,
-  qpTodo: `Simple or compound: given a word (<i>indignus</i>, <i>remittō</i>, “outrun,” “tree”), is it simple or compound, and of what parts is it made.` },
+  qp: { id: 'q-all-parts', variants: [
+    { prompt: `Is Latin <i>indignus</i> (“unworthy”) simple or compound?`,
+      options: [`Simple, because it is one word`, `Compound, of <i>in-</i> and <i>dignus</i>`, `Compound, of <i>ind-</i> and <i>ignus</i>`, `Simple, because <i>in-</i> is not a word`],
+      answer: 1,
+      explain: `<i>Indignus</i> is made of the prefix <i>in-</i> (“not”) and <i>dignus</i> (“worthy”), as Donatus’s <i>indecens</i> is made of <i>in-</i> and <i>decens</i>. A compound word is still one word, and a prefix counts as one of its parts.` },
+    { prompt: `Is Latin <i>remittō</i> (“I send back”) simple or compound?`,
+      options: [`Simple, like <i>mittō</i>`, `Compound, of <i>rem</i> and <i>ittō</i>`, `Simple, because <i>re-</i> is not a separate word`, `Compound, of <i>re-</i> and <i>mittō</i>`],
+      answer: 3,
+      explain: `<i>Remittō</i> is <i>mittō</i> (“I send”) with the prefix <i>re-</i> (“back”), so it is compound, as <i>cōnficiō</i> is compound of <i>faciō</i>.` },
+    { prompt: `Which of these English words is simple?`,
+      options: [`“outrun”`, `“tree”`, `“upset”`, `“doorstep”`],
+      answer: 1,
+      explain: `“Tree” is not made of other words or parts. “Outrun” is “out” and “run,” “upset” is “up” and “set,” and “doorstep” is “door” and “step,” so all three are compound.` }
+  ]} },
 
 { id: 'species',
   title: 'Primitive and derived words',
@@ -54,7 +67,20 @@ ARS.decks['iii.figure'] = {
   body: `<p>Composition and derivation are often confused, but they differ. In <strong>composition</strong> two words, or parts of words, are joined, and each part can usually be found as a word of the language: <i>in-</i> and <i>potēns</i>; “green” and “house.” In <strong>derivation</strong> one word is formed from another, usually by adding an ending that is not itself a word: <i>mōns</i> and <i>-ānus</i>; “king” and “-dom.”</p>
 <p>So the two accidents answer different questions, and one word can have both. Latin <i>inimīcitia</i> (“enmity”) is compound, because <i>inimīcus</i> (“enemy”) is made of <i>in-</i> (“not”) and <i>amīcus</i> (“friend”), and it is also derived, because <i>inimīcitia</i> is formed from <i>inimīcus</i> by the ending <i>-itia</i>. In English, “unkindness” is compound in the same way, from “un-” and “kind,” and derived, by the ending “-ness.”</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> IV–V, in paraphrase.`,
-  qpTodo: `Figure and species together: is a given word (<i>inhūmānitās</i>, “unfriendly,” <i>marīnus</i>, “windmill”) simple or compound, and primitive or derived.` },
+  qp: { id: 'q-figure-vs-species', variants: [
+    { prompt: `Latin <i>inhūmānitās</i> (“inhumanity”) is formed from <i>inhūmānus</i> (“inhuman”) by an ending. What are its figure and species?`,
+      options: [`Simple and primitive`, `Compound and derived`, `Compound and primitive`, `Simple and derived`],
+      answer: 1,
+      explain: `<i>Inhūmānus</i> is made of <i>in-</i> and <i>hūmānus</i>, so <i>inhūmānitās</i> is compound; and it is formed from <i>inhūmānus</i> by the ending <i>-itās</i>, so it is derived, as <i>inimīcitia</i> is.` },
+    { prompt: `Latin <i>marīnus</i> (“of the sea”) is formed from <i>mare</i> (“sea”). What are its figure and species?`,
+      options: [`Simple and derived`, `Compound and derived`, `Compound and primitive`, `Simple and primitive`],
+      answer: 0,
+      explain: `<i>Marīnus</i> is formed from one word, <i>mare</i>, by an ending that is not itself a word, as <i>montānus</i> is from <i>mōns</i>. So it is derived, but not compound.` },
+    { prompt: `What are the figure and species of English “windmill”?`,
+      options: [`Simple and derived`, `Compound and derived`, `Compound and primitive`, `Simple and primitive`],
+      answer: 2,
+      explain: `“Windmill” joins two words, “wind” and “mill,” so it is compound. No ending is added to form it from another word, so it is not derived; in Priscian’s terms its species is primitive.` }
+  ]} },
 
 { id: 'to-iv',
   title: 'Figure, species, and word formation',
