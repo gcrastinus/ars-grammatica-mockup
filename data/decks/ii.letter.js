@@ -25,18 +25,18 @@ ARS.decks['ii.letter'] = {
 <p>One figure may have more than one power, as English C has one power in “cat” and another in “city.” And one power may have more than one figure, as the English sound /k/ is written with c in “cat,” k in “kit,” and ck in “back.”</p>`,
   src: `Donatus, <i>Ars maior</i> I.2.`,
   qp: { id: 'q-accidents', variants: [
-    { prompt: `The shape C, as it is written on the page, is which accident of the letter?`,
+    { prompt: `The shape G, as it is written on the page, is which accident of the letter?`,
       options: [`Its name`, `Its figure`, `Its power`, `Its quantity`],
       answer: 1,
-      explain: `The figure (<i>figura</i>) is the shape of the letter as it is written, such as C, c, or the cursive <i>c</i>. The name is what we call the letter (“see”), and the power is the sound it stands for.` },
-    { prompt: `The sound /s/ that C has in “city” is which accident of the letter?`,
+      explain: `The figure (<i>figura</i>) is the shape of the letter as it is written, such as G, g, or the cursive <i>g</i>. The name is what we call the letter (“jee”), and the power is the sound it stands for.` },
+    { prompt: `The sound /z/ that S has in “nose” is which accident of the letter?`,
       options: [`Its power`, `Its figure`, `Its name`, `Its accent`],
       answer: 0,
-      explain: `The power (<i>potestas</i>) is the sound that a letter stands for. The C of “city” has the power /s/, whereas the C of “cat” has the power /k/; the figure is the same in both words.` },
-    { prompt: `English writes the sound /k/ with <i>c</i> in “cat,” <i>k</i> in “kit,” and <i>ck</i> in “back.” What does this show?`,
-      options: [`One figure can have more than one power`, `One power can have more than one figure`, `A letter can have more than one name`, `The letters c and k have the same figure`],
+      explain: `The power (<i>potestas</i>) is the sound that a letter stands for. The S of “nose” has the power /z/, whereas the S of “sad” has the power /s/; the figure is the same in both words.` },
+    { prompt: `English writes the sound /f/ with <i>f</i> in “fan,” <i>ph</i> in “phone,” and <i>gh</i> in “laugh.” What does this show?`,
+      options: [`One figure can have more than one power`, `One power can have more than one figure`, `A letter can have more than one name`, `The letters f and p have the same figure`],
       answer: 1,
-      explain: `The sound /k/ is one power, and here it is written with three different figures. The reverse case, one figure with more than one power, is C in “cat” and “city.”` }
+      explain: `The sound /f/ is one power, and here it is written with three different figures. The reverse case, one figure with more than one power, is C in “cat” and “city.”` }
   ]} },
 
 { id: 'vowels',
@@ -51,18 +51,18 @@ ARS.decks['ii.letter'] = {
 <p>The Latin names of the letters show the division. The name of a semivowel begins with a vowel and ends with the letter’s own sound: <i>ef, el, em, en, er, es, ix</i>. The name of a mute begins with its own sound and ends with a vowel: <i>be, ce, de, ge, pe, te</i>. The English names of the letters, which descend from the Latin ones, still follow the same pattern: “ef,” “el,” “em,” “es,” but “bee,” “dee,” “tee.”</p>`,
   src: `Donatus, <i>Ars maior</i> I.2; Isidore, <i>Etymologiae</i> I.4, in paraphrase.`,
   qp: { id: 'q-semivowel', variants: [
-    { prompt: `The sound of <i>s</i> can be held as a hiss without a vowel. What kind of consonant is <i>s</i>?`,
+    { prompt: `The sound of <i>f</i> can be held without a vowel, as a steady breath. What kind of consonant is <i>f</i>?`,
       options: [`A mute`, `A semivowel`, `A vowel`, `A double letter`],
       answer: 1,
-      explain: `A semivowel is a consonant that can be partly pronounced without a vowel, as <i>s</i> can be held as a hiss. It is still a consonant, because it cannot make a syllable without a vowel.` },
-    { prompt: `The Latin name of the letter <i>t</i> is <i>te</i>. What kind of consonant does the name show it to be?`,
+      explain: `A semivowel is a consonant that can be partly pronounced without a vowel, as <i>f</i> can be held as a steady breath. It is still a consonant, because it cannot make a syllable without a vowel.` },
+    { prompt: `The Latin name of the letter <i>k</i> is <i>ka</i>. What kind of consonant does the name show it to be?`,
       options: [`A semivowel, because its name begins with a vowel`, `A mute, because its name begins with its own sound`, `A liquid, because it follows other consonants easily`, `A semivowel, because its name ends with a vowel`],
       answer: 1,
-      explain: `The name of a mute begins with its own sound and ends with a vowel (<i>be, ce, de, te</i>), whereas the name of a semivowel begins with a vowel and ends with its own sound (<i>ef, el, em, es</i>). <i>Te</i> begins with the sound of <i>t</i>, so <i>t</i> is a mute.` },
-    { prompt: `Why is <i>d</i> called a mute?`,
+      explain: `The name of a mute begins with its own sound and ends with a vowel (<i>be, ce, de, te</i>), whereas the name of a semivowel begins with a vowel and ends with its own sound (<i>ef, el, em, es</i>). <i>Ka</i> begins with the sound of <i>k</i>, so <i>k</i> is a mute.` },
+    { prompt: `Why is <i>p</i> called a mute?`,
       options: [`Because it is silent in many English words`, `Because it cannot be pronounced without a vowel`, `Because it is never written at the end of a word`, `Because it can be held only as a hum`],
       answer: 1,
-      explain: `A mute is a consonant that cannot be pronounced at all without a vowel; to say <i>d</i> we must say “dee” or “duh.” The name does not mean that the letter is silent. The sounds that can be held or hummed, such as <i>s</i>, <i>m</i>, and <i>l</i>, are the semivowels.` }
+      explain: `A mute is a consonant that cannot be pronounced at all without a vowel; to say <i>p</i> we must say “pee” or “puh.” The name does not mean that the letter is silent. The sounds that can be held or hummed, such as <i>s</i>, <i>m</i>, and <i>l</i>, are the semivowels.` }
   ]} },
 
 { id: 'liquids-doubles',
@@ -91,18 +91,18 @@ ARS.decks['ii.letter'] = {
 <p>Most consonants are pronounced as in English, with six differences. First, <i>c</i> and <i>g</i> are always hard, as in “come” and “go,” so <i>Cicero</i> is “Kikero” and <i>gens</i> (“nation”) begins like “get.” Second, consonantal <i>u</i> (printed <i>v</i> in many books) is pronounced like English <i>w</i>, so <i>ventus</i> (“wind”) is “wentus.” Third, consonantal <i>i</i> (printed <i>j</i> in some books) is pronounced like English <i>y</i>, so <i>iūstus</i> (“just”) is “yoostus.” Fourth, <i>s</i> is always voiceless, as in “sit,” never as in “rose.” Fifth, <i>r</i> is trilled. And sixth, doubled consonants are held longer, as in <i>annus</i> (“year”).</p>`,
   src: `Allen, <i>Vox Latina</i> (2nd ed., 1978), ch. 1 and 3, in paraphrase.`,
   qp: { id: 'q-pronunciation', variants: [
-    { prompt: `In the restored pronunciation, how does <i>Cicero</i> begin?`,
-      options: [`Like “sister”`, `Like “kick”`, `Like “church”`, `Like “cheese”`],
+    { prompt: `In the restored pronunciation, how does <i>centum</i> (“hundred”) begin?`,
+      options: [`Like “cent”`, `Like “Kent”`, `Like “cello”`, `Like “gent”`],
       answer: 1,
-      explain: `In Latin <i>c</i> is always hard, as in “cat,” so <i>Cicero</i> is pronounced “Kikero” and begins like “kick.” The soft <i>c</i> of English “city” and the “ch” sound of the church pronunciation came later.` },
-    { prompt: `Which English sound matches the Latin diphthong <i>au</i>, as in <i>causa</i> (“cause”)?`,
+      explain: `In Latin <i>c</i> is always hard, as in “come,” even before <i>e</i>, so <i>centum</i> begins like “Kent.” The soft <i>c</i> of English “cent” and the “ch” sound of the church pronunciation, heard in “cello,” came later.` },
+    { prompt: `Which English sound matches the Latin diphthong <i>au</i>, as in <i>laus</i> (“praise”)?`,
       options: [`The vowel of “cow”`, `The vowel of “caught”`, `The vowel of “coat”`, `The vowel of “cut”`],
       answer: 0,
-      explain: `The diphthong <i>au</i> is pronounced as in “house,” so <i>causa</i> begins like “cow.” The English word “cause,” which has the vowel of “caught,” comes from it, but its sound has changed.` },
-    { prompt: `How is <i>iam</i> (“now”) pronounced in the restored pronunciation?`,
-      options: [`Like English “jam”`, `Like English “yam”`, `Like English “I am”`, `Like English “gem”`],
+      explain: `The diphthong <i>au</i> is pronounced as in “house,” so <i>laus</i> sounds like English “louse.” The English word “laud,” which has the vowel of “caught,” comes from the same Latin word, but its sound has changed.` },
+    { prompt: `How does <i>iuvenis</i> (“young man”) begin in the restored pronunciation?`,
+      options: [`Like English “juice”`, `Like English “you”`, `Like English “eye”`, `Like English “chew”`],
       answer: 1,
-      explain: `Here <i>i</i> stands before a vowel at the beginning of the word, so it is consonantal <i>i</i>, which is pronounced like English <i>y</i>. The Romans wrote it with the same figure as the vowel; the <i>j</i> printed in some books was added in the Renaissance and does not show the Latin sound.` }
+      explain: `Here <i>i</i> stands before a vowel at the beginning of the word, so it is consonantal <i>i</i>, which is pronounced like English <i>y</i>; the consonantal <i>u</i> after it is pronounced like English <i>w</i>, so the word is “yuwenis.” The Romans wrote the consonant with the same figure as the vowel; the <i>j</i> printed in some books was added in the Renaissance and does not show the Latin sound.` }
   ]} },
 
 { id: 'orthography',
@@ -117,18 +117,18 @@ ARS.decks['ii.letter'] = {
 <p>The reason is chiefly historical. English spelling was largely fixed by the fifteenth and sixteenth centuries, after printing came to England, but the pronunciation of English continued to change. Between about 1400 and 1700 the long vowels of English shifted (the change called the Great Vowel Shift), so that “name,” which had once been pronounced with the vowel of “father,” came to be pronounced as it is now, but its spelling stayed the same. So English spelling often records an older pronunciation of the word.</p>`,
   src: `Standard histories of English (e.g., Baugh and Cable, <i>A History of the English Language</i>), in paraphrase.`,
   qp: { id: 'q-spelling', variants: [
-    { prompt: `Why does “knight” have a <i>k</i> that is not pronounced?`,
+    { prompt: `Why does “knee” have a <i>k</i> that is not pronounced?`,
       options: [`The spelling kept a k that was once pronounced`, `Scholars added it to show a Latin origin`, `It marks the vowel as long`, `It shows that the word came from French`],
       answer: 0,
-      explain: `The <i>k</i> and the <i>gh</i> of “knight” were once pronounced. English spelling was largely fixed by the fifteenth and sixteenth centuries, and it kept these letters after the sounds were lost. The added letters that show a Latin origin are of another kind, as the <i>b</i> of “debt.”` },
-    { prompt: `“Name” was once pronounced with the vowel of “father.” Why does its spelling no longer match its sound?`,
+      explain: `The <i>k</i> of “knee” was once pronounced. English spelling was largely fixed by the fifteenth and sixteenth centuries, and it kept this letter after the sound was lost. The added letters that show a Latin origin are of another kind, as the <i>b</i> of “debt.”` },
+    { prompt: `“Time” was once pronounced with the vowel of “machine.” Why does its spelling no longer match its sound?`,
       options: [`Printers respelled it to match French`, `The sound changed after the spelling was fixed`, `The final e was added to change the sound`, `Scholars respelled it from Latin`],
       answer: 1,
-      explain: `Between about 1400 and 1700 the long vowels of English shifted (the Great Vowel Shift), so the vowel of “name” came to be pronounced as it is now. The spelling had already been fixed, so it stayed the same and now records an older pronunciation.` },
-    { prompt: `“I” and “eye” have the same sound but different spellings. What does this show about English?`,
+      explain: `Between about 1400 and 1700 the long vowels of English shifted (the Great Vowel Shift), so the vowel of “time” came to be pronounced as it is now. The spelling had already been fixed, so it stayed the same and now records an older pronunciation.` },
+    { prompt: `“Right” and “write” have the same sound but different spellings. What does this show about English?`,
       options: [`Its spelling records sound as closely as Latin’s does`, `Its spelling follows sound less closely than Latin’s`, `Every English vowel sound has its own letter`, `Words with one sound must have one spelling`],
       answer: 1,
-      explain: `In Latin the spelling follows the sound closely, so a reader who knows the powers of the letters can pronounce almost any word. In English the relation is much looser: one sound can have different spellings, as in “I” and “eye,” and one spelling can have different sounds, as in “read” and “read.”` }
+      explain: `In Latin the spelling follows the sound closely, so a reader who knows the powers of the letters can pronounce almost any word. In English the relation is much looser: one sound can have different spellings, as in “right” and “write,” and one spelling can have different sounds, as in “read” and “read.”` }
   ]} },
 
 { id: 'etymological-spelling',
