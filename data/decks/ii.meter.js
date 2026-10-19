@@ -10,7 +10,7 @@ ARS.decks['ii.meter'] = {
   id: 'ii.meter',
   title: 'Feet and Meter',
   sub: 'Feet and verse, with lines of English and Latin, and of Greek, German, and French where they show stress, quantity, or syllable count distinctively',
-  sources: `Diomedes, <i>Ars grammatica</i> III; Bede, <i>De arte metrica</i>; Allen and Greenough, <i>New Latin Grammar</i>, on prosody.`,
+  sources: `Diomedes, <i>Ars grammatica</i> III; Bede, <i>De arte metrica</i>; Augustine, <i>De musica</i>; Allen and Greenough, <i>New Latin Grammar</i>, on prosody.`,
   recitation: [
     `Verse is speech arranged in lines, each line following a fixed pattern of syllables, and that pattern is the meter (Greek <i>metron</i>, “measure”).`,
     `Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length.`,
@@ -65,8 +65,10 @@ ARS.decks['ii.meter'] = {
 { id: 'what-meter',
   title: 'Verse and meter',
   body: `<p>When we recite “Mary had a little lamb” or sing a hymn, we hear a beat that returns in the same pattern in every line, and each line ends when the pattern is complete. We have seen that Latin syllables are long or short and that English syllables are stressed or unstressed. <strong>Verse</strong> is speech arranged in lines, each of which follows a fixed pattern of such syllables, and the pattern is called the <strong>meter</strong> (Greek <i>metron</i>, “measure”). Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length (<i>Ars grammatica</i> III).</p>
-<p>Prose has rhythm too, but its rhythm is not fixed in a repeated pattern. So the same words may be prose or verse according to whether their syllables are arranged by a rule of measure. The grammarian studies meter because the poets were the first authors that the student read, and they could not be read aloud correctly, or understood fully, without knowing how their lines were measured.</p>`,
-  src: `Diomedes, <i>Ars grammatica</i> III, in paraphrase.` },
+<p>But why should the pattern of a line be called a measure? A measure is taken of something that has extent, and spoken syllables have their extent in time: each takes some time to say, and a line lasts from its first syllable to its last. St. Augustine observes that nothing moves well unless it keeps a measure, and that whatever moves in rhythm keeps “the measures of time-units” (<i>De musica</i> I.2.3, I.3.4). Verse, therefore, is speech measured in time; its meter orders the syllables so that the same pattern, of long and short syllables or of stressed and unstressed ones, returns in every line.</p>
+<p>Prose has rhythm too, but its rhythm is not fixed in a repeated pattern. So the same words may be prose or verse according to whether their syllables are arranged by a rule of measure. The grammarian studies meter because the poets were the first authors that the student read, and they could not be read aloud correctly, or understood fully, without knowing how their lines were measured.</p>
+<p>In this deck we give a short history and overview of the meters of the classical tradition: how the Greeks and Romans measured verse in time, and how English and the modern languages took up those measures in their own ways. Other traditions measure verse in other ways. Classical Sanskrit verse, like Greek and Latin, is measured by long and short syllables, and its commonest meter, the <i>śloka</i> of the <i>Mahābhārata</i> and the <i>Rāmāyaṇa</i>, is a couplet of two lines of sixteen syllables each. Classical Chinese verse counts syllables instead, five or seven to the line, and sets syllables of level tone against syllables of changing tone in fixed patterns, so that pitch does the work that length does in Latin. In this course, however, we follow the classical tradition of Greece and Rome and its descendants in English.</p>`,
+  src: `Diomedes, <i>Ars grammatica</i> III, in paraphrase; Augustine, <i>De musica</i> I.2.3 and I.3.4 (Latin and the Aquinas Institute English at augustinus.cc).` },
 
 { id: 'feet',
   title: 'The foot',
