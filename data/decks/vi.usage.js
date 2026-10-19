@@ -27,7 +27,7 @@ ARS.decks['vi.usage'] = {
 
 { id: 'educated-usage',
   title: 'Whose usage?',
-  body: `<p>We saw that Quintilian defines usage as the agreed practice of educated speakers, not as whatever most people say. This definition raises a question for every language: how do we know what educated speakers agree on? The grammarians answer from the authors, from the speech of those who are trained in the language, and from the agreement of good dictionaries and grammars, which record that usage.</p>
+  body: `<p>A form can be heard every day and still not be good usage: “ain’t” is common in speech, but it is not used in careful writing. Usage, as Quintilian defines it and as we saw in the Preliminary section, is the agreed practice of educated speakers, not whatever most people say. This definition raises a question for every language: how do we know what educated speakers agree on? The grammarians answer from the authors, from the speech of those who are trained in the language, and from the agreement of good dictionaries and grammars, which record that usage.</p>
 <p>Usage also differs according to the kind of speech. In formal and scientific writing, “The data are” keeps the Latin plural of <i>datum</i>; in conversation and much ordinary writing, “The data is” is the established usage of educated speakers. Neither is simply wrong; each is correct in its place. So a question of usage is often a question of fitness to the occasion, and the grammarian must judge not only whether a form is used but where and by whom.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.45, in paraphrase.` },
 
@@ -47,8 +47,8 @@ ARS.decks['vi.usage'] = {
   title: 'When does a new usage become correct?',
   body: `<p>Usage changes, as Horace says, and a form that begins as an error may become correct when educated speakers and writers adopt it. As we have seen, words change their meaning by usage. The word “meat” once meant any food, as it still does in “sweetmeat,” and now means flesh; no one would call the modern sense an error. The word “decimate” originally meant to kill one in every ten, as a Roman punishment of mutinous soldiers; it is now used of any great destruction, and that use is established in good writers, though some still object to it.</p>
 <p>So the grammarian judges a new usage by asking whether it has been accepted by the speakers and authors whose usage sets the standard, not by whether it agrees with the origin of the word. We saw in Section IV that the original meaning of a word does not decide its present meaning. A disputed usage remains disputed while good authors disagree, and then the grammarian must say that it is disputed, and in which kinds of writing each form is accepted.</p>`,
-  src: `The <i>Oxford English Dictionary</i>, s.vv. “nice,” “decimate,” in paraphrase.`,
-  qpTodo: `Changes of usage: is a given usage now correct (“nice” meaning pleasant; “decimate” of great destruction), and by which criterion is it judged.` },
+  src: `The <i>Oxford English Dictionary</i>, s.vv. “meat,” “decimate,” in paraphrase.`,
+  qpTodo: `Changes of usage: is a given usage now correct (“quick” meaning fast rather than alive; “hopefully” in “Hopefully, the train will be on time”), and by which criterion is it judged.` },
 
 { id: 'kinds-of-error',
   title: 'The kinds of error',
