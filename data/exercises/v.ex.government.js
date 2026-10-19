@@ -1,0 +1,441 @@
+/* Government [v.ex.government]  Exercise set opened from the Exercise button of v.government. Written 24 items in three fixed sets. */
+window.ARS = window.ARS || {};
+ARS.exercises = ARS.exercises || {};
+ARS.exercises['v.ex.government'] = {
+ "id": "v.ex.government",
+ "kind": "exercise",
+ "status": "written",
+ "section": "V",
+ "title": "Government",
+ "openedFrom": "v.government (Exercise button)",
+ "covers": [
+  {
+   "deck": "v.government",
+   "cards": [
+    "what-government",
+    "accusative",
+    "other-cases",
+    "prepositions",
+    "nouns-adjectives",
+    "english",
+    "governed-governing",
+    "agreement-government"
+   ]
+  }
+ ],
+ "skill": "Say which case a verb, preposition, noun, or adjective governs; choose the governed form; find the governing word; correct an error of government in English.",
+ "types": [
+  "sort",
+  "mc",
+  "identify",
+  "transform"
+ ],
+ "pool": 24,
+ "rotation": "A, B, C, A, … (never shuffled)",
+ "sets": {
+  "A": 8,
+  "B": 8,
+  "C": 8
+ },
+ "limit": "Only what v.government teaches; no example from its cards.",
+ "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
+ "items": [
+  {
+   "id": "gv-A01",
+   "set": "A",
+   "deck": "v.government",
+   "type": "sort",
+   "prompt": "Sort each Latin verb by the case of its object.",
+   "entries": [
+    "<i>videō</i> (“I see”)",
+    "<i>ignōscō</i> (“I pardon”)",
+    "<i>oblīvīscor</i> (“I forget”)",
+    "<i>laudō</i> (“I praise”)",
+    "<i>serviō</i> (“I serve”)",
+    "<i>reminīscor</i> (“I recall”)"
+   ],
+   "bins": [
+    "Accusative",
+    "Dative",
+    "Genitive"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+   ],
+   "explain": "<i>Videō</i> and <i>laudō</i> govern the accusative of the direct object. <i>Ignōscō</i> and <i>serviō</i> are verbs of favoring and serving and govern the dative. <i>Oblīvīscor</i> and <i>reminīscor</i> are verbs of forgetting and remembering and govern the genitive."
+  },
+  {
+   "id": "gv-A02",
+   "set": "A",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which form completes <i>victor ___ parcit</i> (“the victor spares the captives”)?",
+   "options": [
+    "<i>captīvōs</i>",
+    "<i>captīvīs</i>",
+    "<i>captīvōrum</i>",
+    "<i>captīvī</i>"
+   ],
+   "answer": 1,
+   "explain": "<i>Parcō</i> (“I spare”) governs the dative, so its object is <i>captīvīs</i>, dative plural. English “spare” takes a direct object, which is why the accusative is tempting."
+  },
+  {
+   "id": "gv-A03",
+   "set": "A",
+   "deck": "v.government",
+   "type": "identify",
+   "prompt": "<i>Mīles pīlum in mūrum iēcit</i> (“the soldier threw the javelin onto the wall”). Click every word that governs another word.",
+   "tokens": [
+    "<i>Mīles</i>",
+    "<i>pīlum</i>",
+    "<i>in</i>",
+    "<i>mūrum</i>",
+    "<i>iēcit</i>"
+   ],
+   "answer": [
+    2,
+    4
+   ],
+   "explain": "<i>Iēcit</i> governs <i>pīlum</i> in the accusative as its object, and <i>in</i> governs <i>mūrum</i> in the accusative of motion onto. <i>Mīles</i> is the subject, with which <i>iēcit</i> agrees."
+  },
+  {
+   "id": "gv-A04",
+   "set": "A",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In “afraid of the dark,” what governs the preposition “of”?",
+   "options": [
+    "The adjective “afraid”",
+    "The noun “dark”",
+    "The article “the”",
+    "Nothing governs it"
+   ],
+   "answer": 0,
+   "explain": "English adjectives govern particular prepositions, fixed by usage: we are “afraid of,” not “afraid from.” So the adjective “afraid” governs “of.”"
+  },
+  {
+   "id": "gv-A05",
+   "set": "A",
+   "deck": "v.government",
+   "type": "transform",
+   "prompt": "Rewrite the sentence as careful usage requires: “The prize was shared between my brother and I.”",
+   "accept": [
+    "The prize was shared between my brother and me."
+   ],
+   "explain": "“Between” is a preposition and governs the objective case of both pronouns, so the form is “me.”"
+  },
+  {
+   "id": "gv-A06",
+   "set": "A",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which form completes <i>in ___ intrāvit</i> (“he went into the shop”)?",
+   "options": [
+    "<i>tabernam</i>",
+    "<i>tabernā</i>",
+    "<i>tabernae</i>",
+    "<i>taberna</i>"
+   ],
+   "answer": 0,
+   "explain": "<i>In</i> with the accusative signifies motion into a place, so the form is <i>tabernam</i>. <i>In tabernā</i> would mean that he was already in the shop."
+  },
+  {
+   "id": "gv-A07",
+   "set": "A",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In Latin <i>cōnsulem sententiam rogat</i> (“he asks the consul his opinion”), how many accusatives does <i>rogat</i> govern?",
+   "options": [
+    "One",
+    "Two",
+    "None",
+    "Three"
+   ],
+   "answer": 1,
+   "explain": "Like <i>doceō</i>, verbs of asking can govern two accusatives, one of the person (<i>cōnsulem</i>) and one of the thing (<i>sententiam</i>)."
+  },
+  {
+   "id": "gv-A08",
+   "set": "A",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In Latin <i>pōculum aquae</i> (“a cup of water”), which word governs <i>aquae</i>?",
+   "options": [
+    "<i>pōculum</i>",
+    "No word governs it",
+    "A verb that is understood",
+    "The ending <i>-ae</i> itself"
+   ],
+   "answer": 0,
+   "explain": "A noun governs the genitive of another noun that completes or limits its meaning, so <i>pōculum</i> governs <i>aquae</i>."
+  },
+  {
+   "id": "gv-B01",
+   "set": "B",
+   "deck": "v.government",
+   "type": "sort",
+   "prompt": "Sort each Latin adjective by the case it governs.",
+   "entries": [
+    "<i>pār</i> (“equal to”)",
+    "<i>ūtilis</i> (“useful to”)",
+    "<i>ignārus</i> (“ignorant of”)",
+    "<i>avidus</i> (“greedy for”)",
+    "<i>cārus</i> (“dear to”)",
+    "<i>expers</i> (“without a share in”)"
+   ],
+   "bins": [
+    "Dative",
+    "Genitive"
+   ],
+   "answer": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "explain": "Adjectives of likeness, nearness, and fitness govern the dative: <i>pār</i>, <i>ūtilis</i>, <i>cārus</i>. Adjectives of desire, knowledge, and fullness, and their opposites, govern the genitive: <i>ignārus</i>, <i>avidus</i>, <i>expers</i>."
+  },
+  {
+   "id": "gv-B02",
+   "set": "B",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which form completes <i>___ invideō</i> (“I envy my neighbor”)?",
+   "options": [
+    "<i>vīcīnum</i>",
+    "<i>vīcīnō</i>",
+    "<i>vīcīnī</i>",
+    "<i>vīcīnus</i>"
+   ],
+   "answer": 1,
+   "explain": "<i>Invideō</i> (“I envy”) is one of the verbs that govern the dative, so the form is <i>vīcīnō</i>."
+  },
+  {
+   "id": "gv-B03",
+   "set": "B",
+   "deck": "v.government",
+   "type": "identify",
+   "prompt": "“The children listened to the old sailor with great care.” Click the word that governs the preposition “to.”",
+   "tokens": [
+    "The children",
+    "listened",
+    "to",
+    "the old sailor",
+    "with great care."
+   ],
+   "answer": 1,
+   "explain": "English verbs require particular prepositions: we “listen to.” So “listened” governs “to,” which in turn governs “the old sailor.”"
+  },
+  {
+   "id": "gv-B04",
+   "set": "B",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In Latin <i>post proelium</i> (“after the battle”), which word governs and which is governed?",
+   "options": [
+    "<i>post</i> governs <i>proelium</i>",
+    "<i>proelium</i> governs <i>post</i>",
+    "Neither governs the other",
+    "They agree in case"
+   ],
+   "answer": 0,
+   "explain": "The preposition has no case of its own and requires its noun in a particular case. <i>Post</i> governs the accusative <i>proelium</i>."
+  },
+  {
+   "id": "gv-B05",
+   "set": "B",
+   "deck": "v.government",
+   "type": "transform",
+   "prompt": "Rewrite the question as careful usage requires: “Who did the council appoint?”",
+   "accept": [
+    "Whom did the council appoint?"
+   ],
+   "explain": "The pronoun is the object of “appoint,” so careful usage puts it in the objective case: “Whom.”"
+  },
+  {
+   "id": "gv-B06",
+   "set": "B",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which form completes <i>cum ___ vēnit</i> (“he came with his father”)?",
+   "options": [
+    "<i>patrem</i>",
+    "<i>patre</i>",
+    "<i>patrī</i>",
+    "<i>patris</i>"
+   ],
+   "answer": 1,
+   "explain": "<i>Cum</i> governs the ablative, and the ablative of <i>pater</i> is <i>patre</i>."
+  },
+  {
+   "id": "gv-B07",
+   "set": "B",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "English says “similar to” and “different from.” What decides which preposition each adjective takes?",
+   "options": [
+    "Usage",
+    "The case of the noun that follows",
+    "The rules of logic",
+    "The verb of the sentence"
+   ],
+   "answer": 0,
+   "explain": "In English the choice of preposition after a verb, noun, or adjective is fixed by usage, and it must be learned with the word, as Latin cases are learned with each verb."
+  },
+  {
+   "id": "gv-B08",
+   "set": "B",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In Latin <i>dux mīlitēs in castra dūxit</i> (“the general led the soldiers into the camp”), which word governs <i>castra</i>?",
+   "options": [
+    "<i>in</i>",
+    "<i>dūxit</i>",
+    "<i>dux</i>",
+    "<i>mīlitēs</i>"
+   ],
+   "answer": 0,
+   "explain": "The preposition <i>in</i> governs <i>castra</i> in the accusative of motion into. <i>Dūxit</i> governs <i>mīlitēs</i>, its direct object."
+  },
+  {
+   "id": "gv-C01",
+   "set": "C",
+   "deck": "v.government",
+   "type": "sort",
+   "prompt": "Sort each phrase by the relation it shows: agreement or government.",
+   "entries": [
+    "<i>lāta flūmina</i> (“wide rivers”)",
+    "<i>viam mūnit</i> (“he builds the road”)",
+    "<i>ad oppidum</i> (“to the town”)",
+    "<i>mīlitēs pugnant</i> (“the soldiers fight”)",
+    "“with them”",
+    "“these roads”"
+   ],
+   "bins": [
+    "Agreement",
+    "Government"
+   ],
+   "answer": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "explain": "In agreement two words share an accident: <i>lāta flūmina</i>, <i>mīlitēs pugnant</i>, “these roads.” In government one word requires in another a case it does not have itself: <i>viam mūnit</i>, <i>ad oppidum</i>, “with them.”"
+  },
+  {
+   "id": "gv-C02",
+   "set": "C",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which form completes <i>grātus ___</i> (“pleasing to the people”)?",
+   "options": [
+    "<i>populum</i>",
+    "<i>populō</i>",
+    "<i>populī</i>",
+    "<i>populus</i>"
+   ],
+   "answer": 1,
+   "explain": "Adjectives of fitness and of pleasing govern the dative, so the form is <i>populō</i>."
+  },
+  {
+   "id": "gv-C03",
+   "set": "C",
+   "deck": "v.government",
+   "type": "identify",
+   "prompt": "<i>Rōmānī oppidum ex mūrō dēfendunt</i> (“the Romans defend the town from the wall”). Click every governed word.",
+   "tokens": [
+    "<i>Rōmānī</i>",
+    "<i>oppidum</i>",
+    "<i>ex</i>",
+    "<i>mūrō</i>",
+    "<i>dēfendunt</i>"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explain": "<i>Dēfendunt</i> governs <i>oppidum</i> in the accusative, and <i>ex</i> governs <i>mūrō</i> in the ablative. <i>Rōmānī</i> is the subject, with which the verb agrees."
+  },
+  {
+   "id": "gv-C04",
+   "set": "C",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Which preposition does “apologize” require in “He apologized ___ the delay”?",
+   "options": [
+    "“for”",
+    "“of”",
+    "“at”",
+    "“on”"
+   ],
+   "answer": 0,
+   "explain": "Usage fixes the preposition: we “apologize for” something and “apologize to” someone. Here the delay is the thing, so the preposition is “for.”"
+  },
+  {
+   "id": "gv-C05",
+   "set": "C",
+   "deck": "v.government",
+   "type": "transform",
+   "prompt": "Rewrite the sentence as careful usage requires: “The work was left to Tom and I.”",
+   "accept": [
+    "The work was left to Tom and me."
+   ],
+   "explain": "“To” is a preposition and governs the objective case of both words it takes, so the pronoun is “me.”"
+  },
+  {
+   "id": "gv-C06",
+   "set": "C",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "Why is “for you and I” a failure of government?",
+   "options": [
+    "“For” requires “me,” not “I”",
+    "“You” should be “yourself”",
+    "“And” cannot join two pronouns",
+    "The sentence has no verb"
+   ],
+   "answer": 0,
+   "explain": "“For” is a preposition and requires the objective case of both pronouns. “You” has the same form in both cases, but “I” must become “me.”"
+  },
+  {
+   "id": "gv-C07",
+   "set": "C",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In Latin <i>cupiditās pecūniae</i> (“desire for money”), which case does <i>cupiditās</i> govern?",
+   "options": [
+    "The genitive",
+    "The dative",
+    "The accusative",
+    "The ablative"
+   ],
+   "answer": 0,
+   "explain": "A noun governs the genitive of another noun that completes its meaning; English uses “for” here, but Latin uses the genitive <i>pecūniae</i>."
+  },
+  {
+   "id": "gv-C08",
+   "set": "C",
+   "deck": "v.government",
+   "type": "mc",
+   "prompt": "In a relation of government, which is the governing word?",
+   "options": [
+    "The word whose meaning needs completing",
+    "The word that supplies the required form",
+    "The subject of the sentence",
+    "The last word of the phrase"
+   ],
+   "answer": 0,
+   "explain": "The governing word is the one whose meaning requires completion, as a verb requires its object; the governed word supplies the completion in the required form."
+  }
+ ]
+};
