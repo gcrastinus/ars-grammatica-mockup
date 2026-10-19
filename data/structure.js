@@ -91,7 +91,7 @@ ARS.structure = [
    { id:'v.clause', kind:'study-ex', built:true, title:'The Clause', desc:'Subject and predicate, and independent and dependent clauses.' },
    { id:'v.period', kind:'study-ex', built:true, title:'The Period', desc:'The sentence of many members.' },
    { id:'v.mood', kind:'study-ex', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.' },
-   { id:'v.figures', kind:'study', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },
+   { id:'v.figures', kind:'study-ex', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },
    { id:'v.review', kind:'review', title:'Section Review: Construction', desc:'Forty-five questions on V.1 to V.10, in three fixed sets of fifteen.' }
  ],
  langBars:[
