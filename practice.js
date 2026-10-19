@@ -306,6 +306,8 @@
         if ((it.kind === 'exercise' || it.kind === 'review') && (it.built || (typeof hasPlan === 'function' && hasPlan(it.id)))){
           exIds.push(it.id);
         }
+        const dx = ARS.deckEx && ARS.deckEx[it.id];
+        if (dx && hasPlan(dx) && exIds.indexOf(dx) < 0) exIds.push(dx);
       });
     });
     const deckLoads = decks.map(d => loadDeck(d.id).then(deck => ({ meta: d, deck: deck })).catch(() => null));
