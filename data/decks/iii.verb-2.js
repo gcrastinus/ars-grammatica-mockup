@@ -1,5 +1,5 @@
 /* III.9 The Verb II: Tense, Person, Number, and Conjugation [iii.verb-2]
-   Plan (ITEM-LIST.md): 15 panels, 4 question points (placeholders: qpTodo; to be written). Two panels on aspect
+   Plan (ITEM-LIST.md): 15 panels, 4 question points. Two panels on aspect
    (aspect-latin, aspect-english-greek); two closing panels give the modistic account of the verb's accidents.
    Exercise: Verbs (iii.ex.verbs, after this deck; not yet written).
    Live material drawn on: DECKS.latverb (principal parts, conjugations, signs of tense and mood, perfect system, reading a
@@ -48,7 +48,20 @@ ARS.decks['iii.verb-2'] = {
 <tr><td>Fourth</td><td class="f"><i>-īre</i></td><td><i>audiō, audīre</i> (“to hear”)</td></tr></table></div>
 <p>The second and third conjugations differ by the quantity of the <i>e</i> of the infinitive, long in <i>monēre</i> and short in <i>regere</i>, so the macron matters here. Some verbs of the third conjugation, such as <i>capiō</i>, end in <i>-iō</i> in the first person and have an <i>i</i> in some forms like the fourth conjugation; they are called third conjugation <i>-iō</i> verbs.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 171–174.`,
-  qpTodo: `Conjugation: to which conjugation does a given verb belong (<i>habēre</i>, <i>mittere</i>, <i>sentīre</i>, <i>fugere</i>), and how is it known from the infinitive.` },
+  qp: { id: 'q-conjugation', variants: [
+    { prompt: `To which conjugation does Latin <i>habēre</i> (“to have”) belong?`,
+      options: [`The first`, `The second`, `The third`, `The fourth`],
+      answer: 1,
+      explain: `The conjugation is known from the present infinitive. <i>Habēre</i> ends in <i>-ēre</i> with a long <i>e</i>, like <i>monēre</i>, so it belongs to the second conjugation.` },
+    { prompt: `To which conjugation does Latin <i>mittere</i> (“to send”) belong, and how is it known?`,
+      options: [`The second, because its infinitive ends in <i>-ere</i>`, `The third, because its <i>e</i> is short`, `The fourth, because it has a double <i>t</i>`, `The first, because it ends in <i>-re</i>`],
+      answer: 1,
+      explain: `<i>Mittere</i> has a short <i>e</i> before <i>-re</i>, like <i>regere</i>, so it belongs to the third conjugation. The second conjugation has a long <i>ē</i>, as in <i>monēre</i>, which is why the macron matters here.` },
+    { prompt: `Latin <i>fugiō</i>, <i>fugere</i> (“to flee”) has the infinitive of the third conjugation but <i>-iō</i> in the first person. What kind of verb is it?`,
+      options: [`A verb of the fourth conjugation`, `A deponent verb of the third conjugation`, `A third conjugation <i>-iō</i> verb`, `A verb of the second conjugation`],
+      answer: 2,
+      explain: `Like <i>capiō</i>, <i>fugiō</i> has the short <i>-ere</i> of the third conjugation in its infinitive but an <i>i</i> in some forms, as the fourth conjugation does. Such verbs are called third conjugation <i>-iō</i> verbs. The fourth conjugation has a long <i>-īre</i>, as in <i>audīre</i>.` }
+  ]} },
 
 { id: 'principal-parts',
   title: 'Principal parts and stems',
@@ -75,7 +88,20 @@ ARS.decks['iii.verb-2'] = {
 <p>the imperfect indicative has <i>-bā-</i> (<i>-ēbā-</i> in the third and fourth conjugations): <i>amābat</i>, <i>regēbat</i>;<br>the future indicative has <i>-bi-</i> in the first and second conjugations and <i>-ē-</i> in the third and fourth (with <i>-am</i> in the first person): <i>amābit</i>, <i>reget</i>, <i>regam</i>;<br>the present subjunctive has <i>-ē-</i> in the first conjugation and <i>-ā-</i> in the others: <i>amet</i>, <i>regat</i>;<br>the imperfect subjunctive is the infinitive with the personal endings: <i>amāret</i>, <i>regeret</i>.</p>
 <p>So to read a Latin verb form we look first at the stem, which shows whether the form is built on the present stem or the perfect stem; then at the sign, which shows the tense and mood; and last at the ending, which shows the person, the number, and the voice. In <i>laudābantur</i>, <i>laudā-</i> is the present stem, <i>-bā-</i> the sign of the imperfect indicative, and <i>-ntur</i> the ending of the third person plural passive: “they were being praised.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 168–169, in paraphrase.`,
-  qpTodo: `Reading a verb form: what are the tense, mood, person, number, and voice of a given form (<i>vocābantur</i>, <i>dūcet</i>, <i>mittat</i>), and which part of the form shows each.` },
+  qp: { id: 'q-signs', variants: [
+    { prompt: `What are the tense, mood, person, number, and voice of Latin <i>vocābantur</i>?`,
+      options: [`Imperfect indicative, third person plural, passive`, `Present indicative, third person plural, active`, `Future indicative, third person plural, passive`, `Imperfect subjunctive, third person plural, passive`],
+      answer: 0,
+      explain: `<i>Vocā-</i> is the present stem of <i>vocō</i> (“I call”), <i>-bā-</i> is the sign of the imperfect indicative, and <i>-ntur</i> is the ending of the third person plural passive: “they were being called.” The imperfect subjunctive would be <i>vocārentur</i>.` },
+    { prompt: `Which part of Latin <i>dūcet</i> shows that it is future?`,
+      options: [`The stem <i>dūc-</i>`, `The ending <i>-t</i>`, `The sign <i>-ē-</i>`, `Nothing, because it is present`],
+      answer: 2,
+      explain: `<i>Dūcō</i> is a verb of the third conjugation, where the future has the sign <i>-ē-</i>: <i>dūcet</i>, “he will lead.” The present is <i>dūcit</i>. The ending <i>-t</i> shows the third person singular active.` },
+    { prompt: `What is Latin <i>mittat</i>?`,
+      options: [`Present indicative, third person singular`, `Present subjunctive, third person singular`, `Future indicative, third person singular`, `Imperfect subjunctive, third person singular`],
+      answer: 1,
+      explain: `Outside the first conjugation the present subjunctive has the sign <i>-ā-</i>, so <i>mittat</i> is the present subjunctive of <i>mittō</i>. The present indicative is <i>mittit</i>, the future <i>mittet</i>, and the imperfect subjunctive <i>mitteret</i>.` }
+  ]} },
 
 { id: 'perfect-system',
   title: 'The perfect system',
@@ -95,7 +121,20 @@ ARS.decks['iii.verb-2'] = {
   body: `<p>The English verb has only two tenses formed by the verb itself: the present (“jump,” “drive”) and the past (“jumped,” “drove”). The other tenses are formed with auxiliary verbs: the future with “will” (“will jump”), the perfect with “have” (“has jumped”), the pluperfect with “had” (“had jumped”), and the future perfect with “will have” (“will have jumped”).</p>
 <p>An English verb is learned by three principal parts: the present, the past, and the past participle. <strong>Regular</strong> verbs add <i>-ed</i> for both the past and the past participle: “jump,” “jumped,” “jumped.” <strong>Irregular</strong> verbs change their vowel or their form: “drive,” “drove,” “driven”; “ride,” “rode,” “ridden”; “take,” “took,” “taken.” The irregular verbs are among the oldest and most common verbs of the language, and errors in them, such as “throwed” for “threw,” are among the commonest barbarisms of English, that is, errors in the form of a single word.</p>`,
   src: `Standard English grammars, in paraphrase.`,
-  qpTodo: `English principal parts: what are the principal parts of a given English verb (“sing,” “go,” “walk”), and which tense uses an auxiliary.` },
+  qp: { id: 'q-english-tense', variants: [
+    { prompt: `What are the principal parts of the English verb “sing”?`,
+      options: [`“sing,” “singed,” “singed”`, `“sing,” “sang,” “sung”`, `“sing,” “sung,” “sang”`, `“sing,” “sang,” “sang”`],
+      answer: 1,
+      explain: `The principal parts are the present, the past, and the past participle. “Sing” is irregular and changes its vowel: “sing,” “sang,” “sung” (“she sang,” “she has sung”).` },
+    { prompt: `What are the principal parts of the English verb “fly”?`,
+      options: [`“fly,” “flied,” “flied”`, `“fly,” “flew,” “flew”`, `“fly,” “flew,” “flown”`, `“fly,” “flown,” “flew”`],
+      answer: 2,
+      explain: `“Fly” is irregular: the past is “flew” and the past participle “flown” (“the bird flew,” “the bird has flown”). “Flied” is what the regular rule would give.` },
+    { prompt: `Which of these English tenses is formed without an auxiliary verb?`,
+      options: [`The future, “will walk”`, `The past, “walked”`, `The perfect, “has walked”`, `The pluperfect, “had walked”`],
+      answer: 1,
+      explain: `English forms only two tenses by the verb itself, the present and the past. The future uses “will,” the perfect “have,” and the pluperfect “had.”` }
+  ]} },
 
 { id: 'aspect-latin',
   title: 'Aspect: complete and incomplete action',
@@ -109,7 +148,20 @@ ARS.decks['iii.verb-2'] = {
   body: `<p>English marks aspect with auxiliary verbs. The <strong>progressive</strong> (“be” with the form in <i>-ing</i>) presents an action as going on: “She was writing a letter.” The <strong>perfect</strong> (“have” with the past participle) presents an action as complete, with its result still present: “She has written the letter.” So “She wrote a letter,” “She was writing a letter,” and “She has written a letter” all concern the past, but they present the writing in three different ways.</p>
 <p>Greek shows aspect most clearly. The Greek verb has three stems for three aspects: the present stem for an action going on, the aorist stem for an action viewed simply as an event, and the perfect stem for a completed action whose result remains (Smyth, <i>Greek Grammar</i> §§ 1850–1853). So γράφει (<i>graphei</i>) is “he is writing,” ἔγραψε (<i>egrapse</i>) is “he wrote,” and γέγραφε (<i>gegraphe</i>) is “he has written (and it stands written).” The Latin perfect serves for both the Greek aorist and the Greek perfect.</p>`,
   src: `Smyth, <i>Greek Grammar</i> §§ 1850–1853, in paraphrase.`,
-  qpTodo: `Aspect: does a given form present the action as going on or as complete (<i>monēbat</i>, <i>monuit</i>; “was digging,” “has dug”), and what is the difference between the Latin imperfect and perfect.` },
+  qp: { id: 'q-aspect-english-greek', variants: [
+    { prompt: `Does Latin <i>monēbat</i> present the action as going on or as complete?`,
+      options: [`As going on, because it is imperfect`, `As complete, because it is past`, `As complete, because it is perfect`, `Neither, because it is a present tense`],
+      answer: 0,
+      explain: `<i>Monēbat</i> is the imperfect of <i>moneō</i>: “he was warning” or “he used to warn.” Being past does not make an action complete; the imperfect presents a past action as going on or repeated.` },
+    { prompt: `What is the difference between Latin <i>monēbat</i> and <i>monuit</i>?`,
+      options: [`One is past and the other present`, `They differ in aspect`, `They differ in person`, `They differ in voice`],
+      answer: 1,
+      explain: `Both are past and active, in the third person singular. The imperfect <i>monēbat</i> (“he was warning”) presents the warning as going on, whereas the perfect <i>monuit</i> (“he warned”) presents it as complete. They differ in aspect, as Varro saw.` },
+    { prompt: `Which English form presents digging as complete, with its result still present?`,
+      options: [`“was digging”`, `“is digging”`, `“digs”`, `“has dug”`],
+      answer: 3,
+      explain: `The English perfect, “have” with the past participle, presents an action as complete with its result still present: “He has dug the trench.” The progressive “was digging” presents it as going on.` }
+  ]} },
 
 { id: 'sum',
   title: 'The verb “to be” and other irregular verbs',
