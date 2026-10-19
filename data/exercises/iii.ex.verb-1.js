@@ -1,15 +1,10 @@
-/* The Verb I: Quality, Mood, and Voice [iii.ex.verb-1]  PLAN AND STUBS ONLY: no questions, options, or answers are written yet.
-   Opened from: iii.verb-1 (Exercise button). Pool 24, three fixed sets of 8.
-   Split on 19 Oct 2026 from iii.ex.verbs (Verbs), which covered III.8 and III.9: this set keeps exactly
-   the 24 stubs tagged iii.verb-1, renumbered (formerId keeps the old id). Each study set has questions on what its
-   deck teaches; the Section Review and the cumulative review take the decks together (Timothy, 19 Oct 2026).
-   Every item is a stub marked todo:true; see EXERCISES-PLAN.md for the format and the item types. */
+/* The Verb I: Quality, Mood, and Voice [iii.ex.verb-1]  Exercise set opened from the Exercise button of iii.verb-1. Written 24 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['iii.ex.verb-1'] = {
  "id": "iii.ex.verb-1",
  "kind": "exercise",
- "status": "plan",
+ "status": "written",
  "section": "III",
  "title": "The Verb I: Quality, Mood, and Voice",
  "openedFrom": "iii.verb-1 (Exercise button)",
@@ -42,42 +37,339 @@ ARS.exercises['iii.ex.verb-1'] = {
   "B": 8,
   "C": 8
  },
- "groupsPerSet": [
-  {
-   "group": "Quality, mood, and voice",
-   "n": 8,
-   "deck": "iii.verb-1",
-   "lang": null,
-   "cards": null
-  }
- ],
- "split": "In each set of 8: 8 items on III.8 (quality, mood, and voice).",
  "limit": "The moods and voices shown in III.8, with the conjugation tables only as III.8 uses them; no participles.",
- "instr": "TODO",
+ "instr": "Choose the answer or type the word or form. Macrons are not tested in typed Latin answers.",
  "items": [
-  {"id": "vb1-A01", "set": "A", "deck": "iii.verb-1", "card": "mood", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-A01"},
-  {"id": "vb1-A02", "set": "A", "deck": "iii.verb-1", "card": "indicative-imperative", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-A02"},
-  {"id": "vb1-A03", "set": "A", "deck": "iii.verb-1", "card": "subjunctive", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-A03"},
-  {"id": "vb1-A04", "set": "A", "deck": "iii.verb-1", "card": "infinitive-impersonal", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-A04"},
-  {"id": "vb1-A05", "set": "A", "deck": "iii.verb-1", "card": "forms", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-A05"},
-  {"id": "vb1-A06", "set": "A", "deck": "iii.verb-1", "card": "english-moods", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-A06"},
-  {"id": "vb1-A07", "set": "A", "deck": "iii.verb-1", "card": "voice", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-A07"},
-  {"id": "vb1-A08", "set": "A", "deck": "iii.verb-1", "card": "neuter", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-A08"},
-  {"id": "vb1-B01", "set": "B", "deck": "iii.verb-1", "card": "mood", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-B01"},
-  {"id": "vb1-B02", "set": "B", "deck": "iii.verb-1", "card": "indicative-imperative", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-B02"},
-  {"id": "vb1-B03", "set": "B", "deck": "iii.verb-1", "card": "subjunctive", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-B03"},
-  {"id": "vb1-B04", "set": "B", "deck": "iii.verb-1", "card": "infinitive-impersonal", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-B04"},
-  {"id": "vb1-B05", "set": "B", "deck": "iii.verb-1", "card": "forms", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-B05"},
-  {"id": "vb1-B06", "set": "B", "deck": "iii.verb-1", "card": "english-moods", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-B06"},
-  {"id": "vb1-B07", "set": "B", "deck": "iii.verb-1", "card": "voice", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-B07"},
-  {"id": "vb1-B08", "set": "B", "deck": "iii.verb-1", "card": "neuter", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-B08"},
-  {"id": "vb1-C01", "set": "C", "deck": "iii.verb-1", "card": "mood", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-C01"},
-  {"id": "vb1-C02", "set": "C", "deck": "iii.verb-1", "card": "indicative-imperative", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-C02"},
-  {"id": "vb1-C03", "set": "C", "deck": "iii.verb-1", "card": "subjunctive", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-C03"},
-  {"id": "vb1-C04", "set": "C", "deck": "iii.verb-1", "card": "infinitive-impersonal", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-C04"},
-  {"id": "vb1-C05", "set": "C", "deck": "iii.verb-1", "card": "forms", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-C05"},
-  {"id": "vb1-C06", "set": "C", "deck": "iii.verb-1", "card": "english-moods", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-C06"},
-  {"id": "vb1-C07", "set": "C", "deck": "iii.verb-1", "card": "voice", "group": "Quality, mood, and voice", "type": "mc", "todo": true, "formerId": "vrb-C07"},
-  {"id": "vb1-C08", "set": "C", "deck": "iii.verb-1", "card": "neuter", "group": "Quality, mood, and voice", "type": "form", "todo": true, "formerId": "vrb-C08"}
+  {
+   "id": "vb1-A01",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "“Close the window!” In what manner does the verb present the action?",
+   "options": [
+    "As a command",
+    "As a fact",
+    "As a wish",
+    "As something supposed"
+   ],
+   "answer": 0,
+   "explain": "The verb presents the closing as something the speaker commands, so it is in the imperative mood. A fact is presented by the indicative, a wish by the optative or subjunctive."
+  },
+  {
+   "id": "vb1-A02",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Latin <i>cantō</i> (“I sing”) has the imperative <i>cantā</i> when one person is addressed. Type the imperative used when several are addressed.",
+   "accept": [
+    "cantāte"
+   ],
+   "macrons": false,
+   "explain": "The present imperative adds <i>-te</i> to the stem when more than one person is addressed, so the form is <i>cantāte</i>, “sing!” (to several)."
+  },
+  {
+   "id": "vb1-A03",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Which sentence uses the subjunctive that careful usage prefers in a condition contrary to fact?",
+   "options": [
+    "“If the bridge was open, we would cross.”",
+    "“If the bridge is open, we would cross.”",
+    "“If the bridge were open, we would cross.”",
+    "“If the bridge be open, then we would cross.”"
+   ],
+   "answer": 2,
+   "explain": "The bridge is not open, so the condition is contrary to fact, and careful usage prefers the subjunctive “were” to the indicative “was.” “Be” is the subjunctive used after verbs of demanding and in fixed phrases, not in conditions of this kind."
+  },
+  {
+   "id": "vb1-A04",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Latin <i>cantō</i> (“I sing”) belongs to the same conjugation as <i>amō</i>, whose present infinitive is <i>amāre</i>. Type the present infinitive of <i>cantō</i>.",
+   "accept": [
+    "cantāre"
+   ],
+   "macrons": false,
+   "explain": "The infinitive names the action without person or number: <i>cantāre</i>, “to sing,” as <i>amāre</i> is “to love.”"
+  },
+  {
+   "id": "vb1-A05",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>clāmitō</i> (“I keep shouting”) is formed from <i>clāmō</i> (“I shout”). Which of Donatus’s forms is it?",
+   "options": [
+    "The frequentative",
+    "The inchoative",
+    "The desiderative",
+    "The perfect"
+   ],
+   "answer": 0,
+   "explain": "The frequentative form signifies doing something often or repeatedly, as <i>lectitō</i> (“I read often”) does. The inchoative signifies beginning, and the desiderative wanting."
+  },
+  {
+   "id": "vb1-A06",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Type the mood of “were” in “If the clock were right, we would be early.”",
+   "accept": [
+    "subjunctive",
+    "the subjunctive",
+    "subjunctive mood"
+   ],
+   "explain": "The clock is not right, so the condition is contrary to fact, and “were” is the subjunctive, one of the few subjunctive forms English keeps."
+  },
+  {
+   "id": "vb1-A07",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "In “The harbor was blocked by ice,” what is the voice of “was blocked”?",
+   "options": [
+    "Active",
+    "Neuter",
+    "Passive",
+    "Deponent"
+   ],
+   "answer": 2,
+   "explain": "The subject, “the harbor,” receives the action, and the doer is named with “by,” so the verb is passive. English forms the passive with “to be” and the past participle."
+  },
+  {
+   "id": "vb1-A08",
+   "set": "A",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Latin <i>iaceō</i> (“I lie,” “I am lying down”) ends in <i>-ō</i> but signifies neither acting on something nor being acted upon, and it forms no personal passive. Type the name Donatus gives to a verb of this kind.",
+   "accept": [
+    "neuter",
+    "neuter verb",
+    "a neuter verb",
+    "neutral"
+   ],
+   "explain": "A verb that signifies neither doing nor undergoing is a neuter verb (from <i>neuter</i>, “neither”). Modern grammars call such a verb intransitive."
+  },
+  {
+   "id": "vb1-B01",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Donatus lists six moods. Which of these is not among them?",
+   "options": [
+    "The optative",
+    "The conditional",
+    "The impersonal",
+    "The infinitive"
+   ],
+   "answer": 1,
+   "explain": "Donatus’s six moods are the indicative, the imperative, the optative, the subjunctive, the infinitive, and the impersonal. He has no conditional mood; Latin expresses conditions with the indicative or the subjunctive."
+  },
+  {
+   "id": "vb1-B02",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Latin <i>spectō</i> (“I watch”) belongs to the same conjugation as <i>ambulō</i>. Type its present imperative when one person is addressed.",
+   "accept": [
+    "spectā"
+   ],
+   "macrons": false,
+   "explain": "When one person is addressed, the present imperative is the present stem of the verb, so the form is <i>spectā</i>, “watch!”"
+  },
+  {
+   "id": "vb1-B03",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "“The committee recommends that he resign.” Why is “resign,” not “resigns,” used?",
+   "options": [
+    "It is the infinitive, used here without “to”",
+    "It is the imperative, as a command addressed to him",
+    "It is an error for “resigns”",
+    "It is the subjunctive, after “recommends”"
+   ],
+   "answer": 3,
+   "explain": "After verbs of demanding, recommending, and the like, English keeps the subjunctive, which has no “-s” in the third person singular: “that he resign,” as in “I insist that he be present.”"
+  },
+  {
+   "id": "vb1-B04",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Latin <i>tonat</i> means “it thunders,” and no one does the thundering. Type the person and number in which an impersonal verb is used.",
+   "accept": [
+    "third person singular",
+    "third singular",
+    "3rd person singular",
+    "third-person singular",
+    "the third person singular",
+    "3rd singular"
+   ],
+   "explain": "An impersonal verb is used only in the third person singular, without a personal subject, as <i>pluit</i> (“it rains”) is. English supplies “it” as a formal subject."
+  },
+  {
+   "id": "vb1-B05",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>pallēscō</i> (“I turn pale”) is formed from <i>palleō</i> (“I am pale”). Which of Donatus’s forms is it?",
+   "options": [
+    "The frequentative",
+    "The inchoative",
+    "The desiderative",
+    "The perfect"
+   ],
+   "answer": 1,
+   "explain": "The ending <i>-ēscō</i> marks the inchoative form, which signifies beginning to do something or to become something, as <i>calēscō</i> (“I grow warm”) does."
+  },
+  {
+   "id": "vb1-B06",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Type the mood of “Be” in “Be careful on the ice.”",
+   "accept": [
+    "imperative",
+    "the imperative",
+    "imperative mood"
+   ],
+   "explain": "The sentence is a command, and the verb is in the imperative mood. English uses the bare form of the verb, without a subject."
+  },
+  {
+   "id": "vb1-B07",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>vēnor</i> (“I hunt”) has the ending of a passive verb, but it means “I hunt,” and there is no active <i>vēnō</i>. What kind of verb is it?",
+   "options": [
+    "Passive",
+    "Common",
+    "Intransitive",
+    "Deponent"
+   ],
+   "answer": 3,
+   "explain": "A verb that is passive in form but active in meaning, and has no active form, is deponent, as <i>loquor</i> is. A common verb has both an active and a passive meaning."
+  },
+  {
+   "id": "vb1-B08",
+   "set": "B",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "A verb that does not take a direct object, as “laughed” in “The guests laughed,” is called by modern grammars what? Type one word.",
+   "accept": [
+    "intransitive"
+   ],
+   "explain": "Modern grammars call a verb that does not take a direct object intransitive, and Donatus would call such a verb neuter. A verb that takes a direct object is transitive."
+  },
+  {
+   "id": "vb1-C01",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>Avis cantat</i> (“The bird sings”) presents the action as a fact. In what mood is <i>cantat</i>?",
+   "options": [
+    "Imperative",
+    "Subjunctive",
+    "Indicative",
+    "Infinitive"
+   ],
+   "answer": 2,
+   "explain": "The indicative mood presents the action as a fact; it is the mood of statements and of most questions."
+  },
+  {
+   "id": "vb1-C02",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Type the command that corresponds to the statement “You close the gate,” addressed to one person.",
+   "accept": [
+    "close the gate",
+    "close the gate!"
+   ],
+   "explain": "English forms the imperative with the bare form of the verb, usually without a subject: “Close the gate.”"
+  },
+  {
+   "id": "vb1-C03",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Where Donatus counts an optative and a subjunctive, how many moods do modern Latin grammars count?",
+   "options": [
+    "One, the subjunctive",
+    "Two, as Donatus does",
+    "None, because Latin uses auxiliaries",
+    "Three, adding the conditional"
+   ],
+   "answer": 0,
+   "explain": "Modern grammars count one mood, the subjunctive, which expresses wishes, commands, possibilities, and many kinds of dependent clause. Donatus kept the Greek distinction because Greek has separate optative forms."
+  },
+  {
+   "id": "vb1-C04",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Type the infinitive in this sentence: “Learning to swim took her a whole summer.”",
+   "accept": [
+    "to swim",
+    "swim"
+   ],
+   "explain": "“To swim” names the action without limiting it by person or number, so it is the infinitive."
+  },
+  {
+   "id": "vb1-C05",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>parturiō</i> (“I am in labor,” literally “I want to bring forth”) is formed from <i>pariō</i> (“I bring forth”). Which of Donatus’s forms is it?",
+   "options": [
+    "The inchoative",
+    "The frequentative",
+    "The desiderative",
+    "The impersonal"
+   ],
+   "answer": 2,
+   "explain": "The ending <i>-uriō</i> marks the desiderative or meditative form, which signifies the wish or intention to do something, as <i>lectūriō</i> (“I want to read”) does."
+  },
+  {
+   "id": "vb1-C06",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "Type the mood of “is” in “The river is high this spring.”",
+   "accept": [
+    "indicative",
+    "the indicative",
+    "indicative mood"
+   ],
+   "explain": "“Is” presents the height of the river as a fact, so it is in the indicative mood."
+  },
+  {
+   "id": "vb1-C07",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "mc",
+   "prompt": "Latin <i>imitor</i> (“I imitate”) is deponent. What does <i>Puerī patrem imitantur</i> mean?",
+   "options": [
+    "“The boys imitate their father.”",
+    "“The boys are imitated by their father.”",
+    "“The father imitates the boys.”",
+    "“The boys were imitating their father.”"
+   ],
+   "answer": 0,
+   "explain": "A deponent verb is passive in form but active in meaning, so <i>imitantur</i> means “they imitate,” not “they are imitated.” Reading it as passive would reverse the sense. The tense is present, not past."
+  },
+  {
+   "id": "vb1-C08",
+   "set": "C",
+   "deck": "iii.verb-1",
+   "type": "form",
+   "prompt": "In “The children slept until noon,” is “slept” transitive or intransitive? Type one word.",
+   "accept": [
+    "intransitive"
+   ],
+   "explain": "“Slept” takes no direct object, so it is intransitive; Donatus would call such a verb neuter, because it signifies neither doing nor undergoing."
+  }
  ]
 };
