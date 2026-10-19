@@ -4,12 +4,12 @@ ARS.decks["lang.ix.grc/poetry"] = {
  "id": "lang.ix.grc/poetry",
  "title": "Greek Poetry",
  "sub": "Ten passages in four meters, read part by part",
- "sources": "Smyth, <i>Greek Grammar</i>",
+ "sources": "Smyth, <i>Greek Grammar</i>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, and Aeschylus are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
    "title": "Homer, <i>Iliad</i> 1.1–7 · Dactylic hexameter",
-   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove fulfilled from the day on which the son of Atreus, king of men, and great Achilles, first fell out with one another.<br>— Samuel Butler</p><p><strong>Context.</strong> The <i>Iliad</i> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>"
+   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>Sing, goddess, the wrath of Achilles son of Peleus,<br>the accursed wrath, which laid countless pains on the Achaeans,<br>and sent forth many mighty souls to Hades,<br>souls of heroes, and made the men themselves a prey for dogs<br>and for all birds, and the will of Zeus was being fulfilled,<br>from the time when the two first quarreled and stood apart,<br>the son of Atreus, lord of men, and godlike Achilles.</p><p><strong>Context.</strong> The <i>Iliad</i> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>"
   },
   {
    "id": "poetry-2",
@@ -49,7 +49,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-9",
    "title": "Homer, <i>Odyssey</i> 1.1–5 · Dactylic hexameter",
-   "body": "<p>ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ<br>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν·<br>πολλῶν δʼ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,<br>πολλὰ δʼ ὅ γʼ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,<br>ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.</p><p>Tell me, O Muse, of that ingenious hero who traveled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his own life and bring his men safely home.<br>— Samuel Butler</p><p><strong>Context.</strong> The <i>Odyssey</i> opens as the <i>Iliad</i> does, with its subject and a call to the Muse: the man of many turns, who wandered after the fall of Troy.</p>"
+   "body": "<p>ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ<br>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν·<br>πολλῶν δʼ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,<br>πολλὰ δʼ ὅ γʼ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,<br>ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.</p><p>Tell me, Muse, of the man of many ways, who was driven to wander<br>very far, after he sacked the holy city of Troy;<br>and he saw the cities of many men and came to know their mind,<br>and on the sea he suffered many pains in his heart,<br>striving to win his own life and the return of his comrades.</p><p><strong>Context.</strong> The <i>Odyssey</i> opens as the <i>Iliad</i> does, with its subject and a call to the Muse: the man of many turns, who wandered after the fall of Troy.</p>"
   },
   {
    "id": "poetry-10",
@@ -79,7 +79,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-15",
    "title": "Sophocles, <i>Oedipus Tyrannus</i> 1–5 · Iambic trimeter",
-   "body": "<p>ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,<br>τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε<br>ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;<br>πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,<br>ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων·</p><p>My children, latest born to Cadmus old,<br>Why sit you here as suppliants, in your hands<br>Branches of olive filleted with wool?<br>What means this reek of incense everywhere,<br>And everywhere laments and litanies?<br>— F. Storr</p><p><strong>Context.</strong> The play opens at Thebes, which is struck by plague. The king, Oedipus, speaks to the suppliants before his palace. The spoken lines of Greek tragedy are iambic trimeters, and the first line of this play was measured in the study of Greek meter.</p>"
+   "body": "<p>ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,<br>τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε<br>ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;<br>πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,<br>ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων·</p><p>O children, young brood of Cadmus of old,<br>what is this sitting of yours before me in these seats,<br>wreathed with suppliant branches?<br>And the city is full at once of incense,<br>and at once of paeans and of groans;</p><p><strong>Context.</strong> The play opens at Thebes, which is struck by plague. The king, Oedipus, speaks to the suppliants before his palace. The spoken lines of Greek tragedy are iambic trimeters, and the first line of this play was measured in the study of Greek meter.</p>"
   },
   {
    "id": "poetry-16",
@@ -134,7 +134,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-26",
    "title": "Simonides (ascribed), <i>Epitaph for the Spartans at Thermopylae</i> in Herodotus 7.228 · Elegiac couplet",
-   "body": "<p>ὦ ξεῖνʼ, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε<br>κείμεθα τοῖς κείνων ῥήμασι πειθόμενοι.</p><p>Stranger, report this word, we pray, to the Spartans, that lying<br>Here in this spot we remain, faithfully keeping their laws.<br>— G. C. Macaulay</p><p><strong>Context.</strong> Herodotus quotes this epitaph for the Spartans who died at Thermopylae in 480 BC. It is an elegiac couplet: a hexameter and a pentameter.</p>"
+   "body": "<p>ὦ ξεῖνʼ, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε<br>κείμεθα τοῖς κείνων ῥήμασι πειθόμενοι.</p><p>Stranger, tell the Spartans that here<br>we lie, obeying their words.</p><p><strong>Context.</strong> Herodotus quotes this epitaph for the Spartans who died at Thermopylae in 480 BC. It is an elegiac couplet: a hexameter and a pentameter.</p>"
   },
   {
    "id": "poetry-27",
@@ -189,7 +189,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-37",
    "title": "Euripides, <i>Medea</i> 1–6 · Iambic trimeter",
-   "body": "<p>Εἴθ᾽ ὤφελ᾽ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ᾽ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, μηδ᾽ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>Ah! would to Heaven the good ship Argo never had sped its course to the Colchian land through the misty blue Symplegades, nor ever in the glens of Pelion the pine been felled to furnish with oars the chieftain’s hands, who went to fetch the golden fleece for Pelias;<br>— Edward P. Coleridge</p><p><strong>Context.</strong> The Nurse opens the play with a wish that the past had been otherwise. The verse is iambic trimeter, that is, three pairs of iambs: x — ᴗ — | x — ᴗ — | x — ᴗ —. We met these lines in Section V, where the English translation turns the third infinitive into a clause of purpose.</p>"
+   "body": "<p>Εἴθ᾽ ὤφελ᾽ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ᾽ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, μηδ᾽ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>Would that the hull of the Argo had not flown through<br>the dark Symplegades to the land of the Colchians,<br>nor that ever in the glens of Pelion had fallen<br>the pine, cut down, nor had furnished with oars the hands<br>of the best of men, who went after the all-golden fleece<br>for Pelias.</p><p><strong>Context.</strong> The Nurse opens the play with a wish that the past had been otherwise. The verse is iambic trimeter, that is, three pairs of iambs: x — ᴗ — | x — ᴗ — | x — ᴗ —. We met these lines in Section V, where the English translation turns the third infinitive into a clause of purpose.</p>"
   },
   {
    "id": "poetry-38",
@@ -219,7 +219,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-43",
    "title": "Aeschylus, <i>Agamemnon</i> 1–3 · Iambic trimeter",
-   "body": "<p>θεοὺς μὲν αἰτῶ τῶνδ᾽ ἀπαλλαγὴν πόνων<br>φρουρᾶς ἐτείας μῆκος, ἣν κοιμώμενος<br>στέγαις Ἀτρειδῶν ἄγκαθεν, κυνὸς δίκην,</p><p>Release from this weary task of mine has been my plea to the gods throughout this long year’s watch, in which, lying upon the palace roof of the Atreidae, upon my bent arm, like a dog, …<br>— Herbert Weir Smyth</p><p><strong>Context.</strong> The watchman speaks on the roof of the palace at Argos. <em>Αἰτῶ</em> takes two accusatives, and the relative clause runs on past the third line.</p>"
+   "body": "<p>θεοὺς μὲν αἰτῶ τῶνδ᾽ ἀπαλλαγὴν πόνων<br>φρουρᾶς ἐτείας μῆκος, ἣν κοιμώμενος<br>στέγαις Ἀτρειδῶν ἄγκαθεν, κυνὸς δίκην,</p><p>I ask the gods for release from these toils,<br>the length of a year-long watch, in which, lying<br>on the roof of the sons of Atreus, on my elbows, like a dog,</p><p><strong>Context.</strong> The watchman speaks on the roof of the palace at Argos. <em>Αἰτῶ</em> takes two accusatives, and the relative clause runs on past the third line.</p>"
   },
   {
    "id": "poetry-44",
