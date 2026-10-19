@@ -721,7 +721,7 @@ No new items were written, and no wording was changed: a check of the house rule
 | E | 20 | 9 | 3 | 4 | 4 | 3 · 3 · 4 · 3 · 3 · 4 |
 | F | 20 | 9 | 3 | 4 | 4 | 4 · 4 · 3 · 3 · 3 · 3 |
 
-## AG. Log: Sections VI and VII card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
+## AH. Log: Sections VI and VII card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
 
 Same rules as AE and AF: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries and Sections I–V, and earlier decks of VI–VII); closing clauses toward the following card where they fit; expand only as clarity needs; rules 27a and 27b (Latin left first where the figure or trope is studied in it). Doctrine, citations, ids, and question points unchanged; Timothy's earlier placements kept ("brung," "drownded," "excape," "I came, I saw, I conquered" on both schemata cards, Donatus's order of the tropes). One commit per deck; every changed file passed `node --check` and the load test. Four groups worked in parallel; afterward the lead replaced vi.solecism's *inter tē et ego* ("between you and I," in iii.preposition) with *videō tū* ("I see thou," for *videō tē*). Kept: John 1:1 on vii.schemata / anadiplosis (the Greek text is the classic example of the figure; i.ambiguity quotes the English for the pause). No new translations.
 
