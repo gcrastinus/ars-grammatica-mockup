@@ -64,11 +64,11 @@ ARS.decks['iii.adverb'] = {
   src: `Priscian, <i>Institutiones grammaticae</i> XV, in paraphrase.`,
   qp: { id: 'q-what-modifies', variants: [
     { prompt: `In “The tea is extremely hot,” which word does “extremely” determine?`,
-      options: [`The verb “is”`, `The adjective “hot”`, `The noun “tea”`, `The whole sentence`],
+      options: [`The linking verb “is”`, `The adjective “hot”`, `The noun “tea”`, `The whole sentence`],
       answer: 1,
       explain: `“Extremely” tells how hot the tea is, so it determines the adjective “hot.” Adverbs determine adjectives as well as verbs, as Priscian notes.` },
     { prompt: `In “Luckily, the rope held,” what does “luckily” determine?`,
-      options: [`The verb “held”`, `The noun “rope”`, `The whole sentence`, `The article “the”`],
+      options: [`The verb “held”`, `The noun “rope”`, `The whole sentence`, `The article “the” before “rope”`],
       answer: 2,
       explain: `“Luckily” does not say how the rope held; it says that the whole event, the rope’s holding, was lucky. So it determines the sentence as a whole.` },
     { prompt: `In “Only he saw the comet,” which word does “only” determine?`,
