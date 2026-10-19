@@ -4,7 +4,6 @@
 .set-card .kind{font-family:'Cinzel',serif; font-size:12px; letter-spacing:.2em; color:var(--gold); text-transform:uppercase; margin-bottom:6px}
 .set-card .card-id{font-size:13px; color:var(--ink-soft); opacity:.7; margin-top:6px; font-style:italic}
 .home-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; margin:8px 0 30px}
-#home-acts .home-grid{grid-template-columns:1fr}
 
 .deck-title{font-family:'Cinzel',serif; font-size:26px; font-weight:600; text-align:center; margin:4px 0 2px; line-height:1.25}
 .deck-sub{font-style:italic; color:var(--ink-soft); text-align:center; margin-bottom:18px; font-size:17px}
@@ -396,7 +395,7 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
   font-family:'Cinzel',serif; font-size:12px; font-weight:400; letter-spacing:.06em;
   color:var(--ink-soft); line-height:1.25;
 }
-.lang-btns{display:grid; grid-template-columns:1fr; gap:8px}
+.lang-btns{display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:8px}
 .lang-bar .lang-btn{
   --lang:#3a4550;
   font-family:'Cinzel',serif; font-size:17px; font-weight:600; letter-spacing:.02em;
@@ -481,10 +480,17 @@ body.dark .lang-bar .lang-btn.is-done:focus-visible{
 @media (max-width:600px){
   .lang-bar{padding:8px 10px; gap:6px}
   .lang-bar .lang-h{font-size:11px; letter-spacing:.04em; line-height:1.2}
-  .lang-bar .lang-btn{font-size:16px; padding:12px 10px; min-height:48px}
+  .lang-btns{grid-template-columns:repeat(5, minmax(0, 1fr)); gap:5px}
+  .lang-bar .lang-btn{font-size:13px; letter-spacing:0; padding:11px 2px; min-height:44px; line-height:1.15; white-space:nowrap}
   .lang-band{padding:14px 14px}
   .lang-band h2{font-size:22px}
   .panel table.para{font-size:14.5px}
+}
+@media (max-width:370px){
+  .lang-btns{grid-template-columns:repeat(6, minmax(0, 1fr)); gap:6px}
+  .lang-bar .lang-btn{font-size:15px; padding:11px 6px; white-space:normal}
+  .lang-bar .lang-btn:nth-child(-n+3){grid-column:span 2}
+  .lang-bar .lang-btn:nth-child(n+4){grid-column:span 3}
 }
 /* A section review uses the same full-width bar as Cumulative Review, and stays in its place in the grid. */
 .set-card.review-bar{
