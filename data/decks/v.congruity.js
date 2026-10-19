@@ -14,7 +14,7 @@ ARS.decks['v.congruity'] = {
 
 { id: 'construction',
   title: 'What is construction?',
-  body: `<p>We have studied the word: its sounds, its parts of speech, its accidents, and its formation and origin. We now turn to the arrangement of words in the sentence. Not every set of words is a sentence: “guard the sleeps” has the words of a sentence but not the arrangement, whereas “The guard sleeps” has both. The Latin grammarians called the arrangement <i>cōnstrūctiō</i>, from which English has <strong>construction</strong>; the Greek name, <i>syntaxis</i> (“arrangement”), gives English <strong>syntax</strong>.</p>
+  body: `<p>“The guard sleeps” is a sentence, but “guard the sleeps,” made of the same words, is not: it has the words of a sentence but not their arrangement. We have studied the word itself, its sounds, its parts of speech, its accidents, and its formation and origin; we now turn to the arrangement of words in the sentence. The Latin grammarians called the arrangement <i>cōnstrūctiō</i>, from which English has <strong>construction</strong>; the Greek name, <i>syntaxis</i> (“arrangement”), gives English <strong>syntax</strong>.</p>
 <p>The word “construction” is used in two senses, and both are standard. It means the arrangement of words in general, as when we speak of the rules of construction; and it means a particular group of words arranged together, as when we say that “the green field” is a construction of an adjective and a noun. The sentence is the first thing that can be correctly or incorrectly formed as a whole, and, once it is complete, the first thing that can be true or false.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> XVII.1–2, in paraphrase.` },
 
@@ -51,7 +51,7 @@ ARS.decks['v.congruity'] = {
   body: `<p>Every sentence raises two questions: is it well formed, and is what it says true? Grammar answers the first, and logic the second. “The chimaera runs” is a congruous and complete sentence, although no chimaera runs anywhere. We saw in Section III that “chimaera” signifies by the mode of a stable thing, and so it can be the subject of “runs” whether or not anything answers to it.</p>
 <p>So a sentence can be congruous and true (“The sun rises”), congruous and false (“The sun is square”), or incongruous, as “The sun rise,” and then it is not yet fit to be true or false, though a hearer may guess what it was meant to say. We saw in the Preliminary section, with Walshe’s examples, that grammar judges “man is stone” correct and logic judges it false. Congruity is the condition of truth or falsity, but it does not decide which.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Aristotle, <i>De interpretatione</i> 4; both in paraphrase.`,
-  qpTodo: `Congruity and truth: is a given sentence congruous, and if so, is it true or false (“The sun rises,” “The sun is square,” “The sun rise”); which question belongs to grammar and which to logic.` },
+  qpTodo: `Congruity and truth: is a given sentence congruous, and if so, is it true or false (“The river freezes,” “The river is triangular,” “The river freeze”); which question belongs to grammar and which to logic.` },
 
 { id: 'suppositum',
   title: 'What the sentence is about, and what is said of it',
@@ -70,7 +70,7 @@ ARS.decks['v.congruity'] = {
 { id: 'grammar-logic',
   title: 'Grammar’s subject and predicate, and logic’s',
   body: `<p>Logic also speaks of subject and predicate, but in a related and different sense. In logic the subject and predicate are the terms of a statement considered as true or false, joined by the copula “is”: in “Every man is mortal,” the subject term is “man” and the predicate term is “mortal.” In grammar the subject is “every man” and the predicate is “is mortal,” and grammar asks only whether they are correctly arranged and complete.</p>
-<p>So “The moon is made of green cheese” is as good a sentence as “Two and two make four,” since each has a subject and a predicate correctly joined; only logic asks which is true. We will return to the relation between grammatical and logical forms in Section VIII. The relations by which the words of a sentence are joined (agreement, government, and dependence), the order of words, and the larger units of the phrase, the clause, and the period are the remaining subjects of this section of the course.</p>`,
+<p>So “Rivers flow uphill” is as good a sentence as “Two and two make four,” since each has a subject and a predicate correctly joined; only logic asks which is true. We will return to the relation between grammatical and logical forms in Section VIII. The relations by which the words of a sentence are joined (agreement, government, and dependence), the order of words, and the larger units of the phrase, the clause, and the period are the remaining subjects of this section of the course.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 5; Peter of Spain, <i>Tractatus</i> I; both in paraphrase.`,
   qpTodo: `Analysis: in a given sentence (English or Latin), mark the grammatical subject and predicate, and say whether the sentence is congruous and complete.` }
 
