@@ -1,0 +1,110 @@
+window.ARS = window.ARS || {};
+ARS.decks = ARS.decks || {};
+ARS.decks["lang.iii-decl.fr/accidents"] = {
+ "id": "lang.iii-decl.fr/accidents",
+ "title": "The Accidents of French Compared to Latin",
+ "sub": "The accidents of modern French: what it has, and where it differs from Latin.",
+ "sources": "Lawless; Larousse; Le Conjugueur",
+ "panels": [
+  {
+   "id": "accidents-1",
+   "title": "Modern French",
+   "body": "<p><strong>Modern French</strong></p><p>We compare modern French to Latin. The forms here are the forms of standard written French, the French of the school grammar and of the dictionary. We do not use Old French, and we do not use a regional dialect.</p>"
+  },
+  {
+   "id": "accidents-2",
+   "title": "The forms of the article",
+   "body": "<p><strong>The forms of the article</strong></p><p>The definite article is <em>le</em> before a masculine singular noun, <em>la</em> before a feminine singular noun, and <em>les</em> before a plural noun. Before a vowel or a mute h, an h that is not pronounced, <em>le</em> and <em>la</em> become <em>l’</em>. The indefinite article is <em>un</em>, <em>une</em>, and <em>des</em>. The partitive, for an unspecified amount, is <em>du</em>, <em>de la</em>, <em>de l’</em>, and <em>des</em>. <em>À</em> contracts with <em>le</em> and <em>les</em>, and the results are <em>au</em> and <em>aux</em>. <em>De</em> contracts with <em>le</em> and <em>les</em>, and the results are <em>du</em> and <em>des</em>. <em>À la</em>, <em>à l’</em>, <em>de la</em>, and <em>de l’</em> stay in two words.</p>"
+  },
+  {
+   "id": "accidents-3",
+   "title": "Gender",
+   "body": "<p><strong>Gender</strong></p><p>Every French noun is masculine or feminine. Latin has a third gender, the neuter, and French has none. The article shows the gender. <em>Le livre</em> is masculine, and <em>la table</em> is feminine. The ending does not always show the gender, since <em>livre</em> ends in e and is masculine, and <em>victoire</em> is feminine for a reason the ending alone does not settle.</p>"
+  },
+  {
+   "id": "accidents-4",
+   "title": "Number",
+   "body": "<p><strong>Number</strong></p><p>A French noun has two numbers, the singular and the plural, as a Latin noun has. A regular plural adds s, and that s is usually silent. Some plurals change the stem. The plural of <em>cheval</em> is <em>chevaux</em>, and the plural of <em>cadeau</em> is <em>cadeaux</em>. The article marks number as well. <em>Les</em> is plural, and <em>le</em> and <em>la</em> are singular.</p>"
+  },
+  {
+   "id": "accidents-5",
+   "title": "No case on the noun",
+   "body": "<p><strong>No case on the noun</strong></p><p>A French noun does not change for case. Latin marks the nominative, the genitive, the dative, the accusative, the ablative, and the vocative on the noun. French keeps one form of the noun for the subject, for the object, and for the object of a preposition. In <em>le roi vend le cheval</em>, each noun has the form it would have in another place in the sentence. What Latin marks by case, French marks by the order of the words and by the preposition, and, for a pronoun, by a change of form.</p>"
+  },
+  {
+   "id": "accidents-6",
+   "title": "Adjective agreement",
+   "body": "<p><strong>Adjective agreement</strong></p><p>An adjective agrees with its noun in gender and number. It does not agree in case, because the noun has no case. <em>Un bon roi</em> is masculine and singular, <em>une bonne femme</em> is feminine and singular, <em>les bons rois</em> is masculine and plural, and <em>les bonnes femmes</em> is feminine and plural. <em>Bon</em> adds e for the feminine and s for the plural, and the feminine singular doubles the n, so the form is <em>bonne</em>. A short adjective such as <em>bon</em>, <em>petit</em>, or <em>grand</em> usually stands before the noun.</p>"
+  },
+  {
+   "id": "accidents-7",
+   "title": "Subject, object, and stressed pronouns",
+   "body": "<p><strong>Subject, object, and stressed pronouns</strong></p><p>The pronoun keeps a difference that the noun has lost. The subject forms are <em>je</em>, <em>tu</em>, <em>il</em>, <em>elle</em>, on, <em>nous</em>, <em>vous</em>, <em>ils</em>, and <em>elles</em>. The direct-object forms are <em>me</em>, <em>te</em>, <em>le</em>, <em>la</em>, <em>nous</em>, <em>vous</em>, and <em>les</em>. The indirect-object forms are <em>me</em>, <em>te</em>, <em>lui</em>, <em>nous</em>, <em>vous</em>, and <em>leur</em>. The stressed forms, also called disjunctive, are <em>moi</em>, <em>toi</em>, <em>lui</em>, <em>elle</em>, <em>soi</em>, <em>nous</em>, <em>vous</em>, <em>eux</em>, and <em>elles</em>. <em>Je</em> is the subject of the verb, <em>me</em> is the object, and <em>moi</em> stands where the form is stressed, above all after a preposition. <em>Nous</em> and <em>vous</em> have one spelling in all four uses, so the place in the sentence shows the use.</p>"
+  },
+  {
+   "id": "accidents-8",
+   "title": "Person and number",
+   "body": "<p><strong>Person and number</strong></p><p>The ending of the verb, together with the subject pronoun, shows the person and the number. Latin often leaves the subject pronoun out, because the ending is enough. French writes the pronoun in an ordinary statement. The subject of <em>je parle</em> is the speaker. The subject of <em>il parle</em> is he, or a masculine it. The subject of <em>ils parlent</em> is they. <em>Elles</em> is used for a group that is feminine throughout, and <em>ils</em> is used for a masculine group and for a mixed group. On takes the third person singular, whether it means one, or people, or we.</p>"
+  },
+  {
+   "id": "accidents-9",
+   "title": "The present",
+   "body": "<p><strong>The present</strong></p><p>The present indicative says that the action goes on now, or that it is habitual, or that it is so in general. <em>Il parle</em> means he speaks, or he is speaking. A regular verb in <em>-er</em>, such as <em>parler</em>, has the endings e, <em>es</em>, e, ons, ez, and ent. A regular verb in <em>-ir</em> of the <em>finir</em> type inserts <em>-iss-</em> in the plural: <em>finis</em>, <em>finis</em>, <em>finit</em>, <em>finissons</em>, <em>finissez</em>, <em>finissent</em>. A regular verb in <em>-re</em> of the <em>vendre</em> type has <em>vends</em>, <em>vends</em>, <em>vend</em>, <em>vendons</em>, <em>vendez</em>, <em>vendent</em>. The third person singular of <em>vendre</em> adds no letter.</p>"
+  },
+  {
+   "id": "accidents-10",
+   "title": "The passé composé",
+   "body": "<p><strong>The passé composé</strong></p><p>The passé composé is the ordinary past of a completed action. Latin uses the perfect for that past. <em>Il a parlé</em> means he spoke, or he has spoken. The form is the present of <em>avoir</em> or of <em>être</em>, with the past participle. <em>Parler</em>, <em>finir</em>, <em>vendre</em>, <em>faire</em>, <em>être</em>, and <em>avoir</em> take <em>avoir</em>. <em>Aller</em> and <em>venir</em> take <em>être</em>, and the participle then agrees with the subject, so <em>elle est allée</em> and <em>ils sont venus</em>. With <em>avoir</em>, the participle does not agree with the subject. It agrees with a direct object that stands before the verb. That further agreement is real, and a single cell of the <em>table</em> does not show the sentence in which it is made.</p>"
+  },
+  {
+   "id": "accidents-11",
+   "title": "The imparfait",
+   "body": "<p><strong>The imparfait</strong></p><p>The imparfait says that the action went on in the past, or that it was habitual then. <em>Il parlait</em> means he was speaking, or he used to speak. The passé composé does not by itself say either of those things. The endings are ais, ais, <em>ait</em>, ions, iez, <em>aient</em>, on the stem of the first person plural of the present, without <em>-ons</em>. <em>Nous parlions</em> is the spelling of the imparfait of <em>parler</em>, and it is also the spelling of the present subjunctive. The rest of the sentence shows which is meant.</p>"
+  },
+  {
+   "id": "accidents-12",
+   "title": "The future",
+   "body": "<p><strong>The future</strong></p><p>The future says that the action will happen. <em>Il parlera</em> means he will speak. A regular verb takes the infinitive as its stem, or the infinitive of an <em>-re</em> verb without the final e, and then the endings <em>ai</em>, as, a, ons, ez, <em>ont</em>. <em>Être</em>, <em>avoir</em>, <em>aller</em>, <em>faire</em>, and <em>venir</em> do not use that stem. Their future stems are ser-, aur-, ir-, fer-, and viendr-. <em>Je serai</em> is the future of <em>être</em>. <em>Je serais</em> is the conditional, which is another mood, and it is not the future.</p>"
+  },
+  {
+   "id": "accidents-13",
+   "title": "Être and avoir",
+   "body": "<p><strong>Être and avoir</strong></p><p><em>Être</em> means be, as Latin sum does, and <em>avoir</em> means have. Both are irregular, and both are auxiliaries of the passé composé. <em>Avoir</em> forms that tense for most verbs, as in <em>j’ai parlé</em>. <em>Être</em> forms it for <em>aller</em> and for <em>venir</em>, and for the other verbs of motion and of change of state that go with them, as in <em>je suis allé</em> and <em>je suis venu</em>. <em>Être</em> itself takes <em>avoir</em>, so the passé composé is <em>j’ai été</em>. The participle <em>été</em> does not take a feminine ending.</p>"
+  },
+  {
+   "id": "accidents-14",
+   "title": "The three groups",
+   "body": "<p><strong>The three groups</strong></p><p>The school grammar sorts the verbs into three groups. The first group is the verbs in <em>-er</em>, except <em>aller</em>, and <em>parler</em> is the model. The second group is the verbs in <em>-ir</em> that take <em>-iss-</em>, and <em>finir</em> is the model. The third group holds the rest, including the verbs in <em>-re</em>, such as <em>vendre</em>, and the irregulars, such as <em>aller</em>, <em>faire</em>, and <em>venir</em>. <em>Aller</em> ends in <em>-er</em> and still belongs to the third group. From the model we build the other regular verbs of that group. A third-group verb has to be learned from its own <em>table</em>.</p>"
+  },
+  {
+   "id": "accidents-15",
+   "title": "Stem and ending",
+   "body": "<p><strong>Stem and ending</strong></p><p>The form in the sentence is a stem and an ending. In <em>parlons</em> the ending <em>-ons</em> marks the first person plural, and in <em>finissons</em> the same ending follows <em>-iss-</em>. In <em>parlé</em> the ending marks the past participle of an <em>-er</em> verb. The subject pronoun marks the person a second time, because several written endings of an <em>-er</em> verb are pronounced alike. The ending and the pronoun together mark the person and the number.</p>"
+  },
+  {
+   "id": "accidents-16",
+   "title": "Aspect",
+   "body": "<p><strong>Aspect</strong></p><p>French marks a difference of aspect in the past, that is, a difference in how the action is presented. The passé composé, and the passé simple of written narrative, present an action as complete, and the imparfait presents it as going on or repeated. <em>Il a lu le livre</em> means he read the book, and the reading is complete. <em>Il</em> lisait <em>le livre</em> means he was reading the book. A sentence often sets the two side by side: <em>il</em> lisait <em>quand le roi est entré</em>, he was reading when the king came in. Latin makes the same distinction with the imperfect and the perfect.</p>"
+  },
+  {
+   "id": "accidents-17",
+   "title": "Compound tenses and the passive",
+   "body": "<p><strong>Compound tenses and the passive</strong></p><p>Many French tenses are made with an auxiliary and the past participle. The passé composé, the plus-que-parfait, and the futur antérieur use <em>avoir</em> or <em>être</em>: <em>il a parlé</em>, <em>il avait parlé</em>, <em>il aura parlé</em>. Most verbs take <em>avoir</em>. A small set of verbs of motion or change of state, such as <em>aller</em>, <em>venir</em>, arriver, <em>partir</em>, and naître, take <em>être</em>, and then the participle agrees with the subject: <em>elle est venue</em>. The passive is <em>être</em> with the past participle: <em>la lettre est écrite par le roi</em>. The near future is <em>aller</em> with the infinitive: <em>il va parler</em>.</p>"
+  },
+  {
+   "id": "accidents-18",
+   "title": "Pronominal verbs",
+   "body": "<p><strong>Pronominal verbs</strong></p><p>A pronominal verb is used with a reflexive pronoun of the same person as the subject: <em>je me lave</em>, I wash myself. Some pronominal verbs have a reflexive sense, some a reciprocal sense, as in <em>ils se parlent</em>, they speak to each other, and some a sense close to the Greek middle or to a passive, as in <em>le livre se vend bien</em>, the book sells well. Pronominal verbs take <em>être</em> in the compound tenses: <em>elle s’est lavée</em>. Latin has no middle voice in form, and Greek has one.</p>"
+  },
+  {
+   "id": "accidents-19",
+   "title": "Object pronouns, y, and en",
+   "body": "<p><strong>Object pronouns, y, and en</strong></p><p>The object pronouns <em>me</em>, <em>te</em>, <em>le</em>, <em>la</em>, <em>lui</em>, <em>nous</em>, <em>vous</em>, <em>leur</em>, and the pronouns <em>y</em> and <em>en</em> have no stress of their own and stand next to the verb, before it except in the affirmative imperative. Words of this kind are called clitics. <em>Y</em> stands for a place, or for <em>à</em> with a thing: j’y <em>vais</em>, I am going there. <em>En</em> stands for <em>de</em> with a noun, or for a quantity: <em>j’en ai deux</em>, I have two of them. When two stand together, their order is fixed: <em>il me le donne</em>, <em>il le lui donne</em>.</p>"
+  },
+  {
+   "id": "accidents-20",
+   "title": "The conditional and the imperative",
+   "body": "<p><strong>The conditional and the imperative</strong></p><p>Beside the indicative and the subjunctive, French has the conditional and the imperative. The conditional is made from the stem of the future and the endings of the imparfait: <em>je parlerais</em>, I would speak. It gives the result of a condition that is not real, after <em>si</em> with the imparfait, as in <em>si j’avais le temps</em>, <em>je parlerais au roi</em>, and it softens a request, as in <em>je voudrais un livre</em>. The imperative has three forms and no subject pronoun: <em>parle</em>, <em>parlons</em>, <em>parlez</em>. A verb in <em>-er</em> has no s in the second person singular of the imperative.</p>"
+  }
+ ]
+};
