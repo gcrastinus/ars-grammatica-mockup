@@ -14,8 +14,9 @@ ARS.decks['iii.participle'] = {
 
 { id: 'accidents',
   title: 'The participle and its accidents',
-  body: `<p>In “the boy, reading a book, laughed,” the word “reading” describes the boy, as an adjective does, but it also signifies an action and takes its own object, “a book,” as a verb does. We have seen that the participle takes part of the noun and part of the verb. Donatus gives it six accidents: gender, case, tense, signification, number, and figure (<i>genera, casus, tempora, significationes, numerus, figura</i>; <i>Ars minor</i>). Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both.</p>
-<p>By <strong>signification</strong> Donatus here means what the verb calls voice: whether the participle signifies doing or undergoing. So <i>vocāns</i> (“calling”) is active in signification and present in tense, and it is declined for gender, number, and case; <i>vocātus</i> (“called”) is passive in signification and perfect in tense. In every case the participle agrees with a noun, as an adjective does, but it signifies an action, as a verb does.</p>`,
+  body: `<p>In “the boy, reading a book, laughed,” the word “reading” describes the boy, as an adjective does, but it also signifies an action and takes its own object, “a book,” as a verb does. The participle, as we have seen, takes part of the noun and part of the verb. Donatus gives it six accidents (<i>Ars minor</i>):</p>
+<p><strong>gender</strong> (<i>genus</i>);<br><strong>case</strong> (<i>casus</i>);<br><strong>tense</strong> (<i>tempus</i>);<br><strong>signification</strong> (<i>significatio</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>).</p>
+<p>Gender and case it takes from the noun; tense and signification it takes from the verb; number and figure it shares with both. By signification Donatus here means what the verb calls voice: whether the participle signifies doing or undergoing. So <i>vocāns</i> (“calling”) is active in signification and present in tense, and it is declined for gender, number, and case; <i>vocātus</i> (“called”) is passive in signification and perfect in tense. In every case the participle agrees with a noun, as an adjective does, but it signifies an action, as a verb does.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the participle (the Latin).` },
 
 { id: 'latin-participles',
@@ -28,7 +29,7 @@ ARS.decks['iii.participle'] = {
 <tr><td>Future passive (gerundive)</td><td>present stem + <i>-ndus</i></td><td class="f"><i>laudandus</i>, “to be praised”</td></tr></table></div>
 <p>So Latin has no perfect active participle and no present passive participle. English “having praised” must be expressed in Latin in another way, and “being praised” has no single Latin equivalent. The perfect passive, future active, and future passive participles are declined like <i>bonus</i>, <i>bona</i>, <i>bonum</i>; the present participle is declined like an adjective of the third declension, <i>laudāns</i>, <i>laudantis</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 158, 488–500.`,
-  qpTodo: `The Latin participles: which participle is a given form (<i>laudāns</i>, <i>laudātus</i>, <i>laudātūrus</i>, <i>laudandus</i>), and what are its tense and signification.` },
+  qpTodo: `The Latin participles: which participle is a given form (<i>monēns</i>, <i>monitus</i>, <i>monitūrus</i>, <i>monendus</i>), and what are its tense and signification.` },
 
 { id: 'agreement',
   title: 'The participle as adjective',
@@ -62,10 +63,10 @@ ARS.decks['iii.participle'] = {
 
 { id: 'gerund',
   title: 'Participle and gerund',
-  body: `<p>The English form in <i>-ing</i> is used in two different ways. In “the singing bird” it is a participle, because it describes the bird. In “Swimming is good exercise” it is a <strong>gerund</strong>, a verbal noun, because it names the action as a thing and is the subject of the sentence. We saw in Section I that the same activity can be signified as a thing (“running” as a noun) or as an action (“runs”), and the gerund is the form in which a verb is used in the mode of a noun.</p>
+  body: `<p>The English form in <i>-ing</i> is used in two different ways. In “the singing bird” it is a participle, because it describes the bird. In “Swimming strengthens the heart” it is a <strong>gerund</strong>, a verbal noun, because it names the action as a thing and is the subject of the sentence. We saw in Section I that the same activity can be signified as a thing (“running” as a noun) or as an action (“runs”), and the gerund is the form in which a verb is used in the mode of a noun.</p>
 <p>Latin distinguishes the two by their forms. The Latin <strong>gerund</strong> is a verbal noun declined only in the oblique cases: <i>ars amandī</i>, “the art of loving”; <i>ad legendum</i>, “for reading.” For the nominative Latin uses the infinitive: <i>legere iūcundum est</i>, “reading is pleasant.” So the question whether an English <i>-ing</i> form is a participle or a gerund is decided, like every question of the parts of speech, by how the word is used in its sentence.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 501–507, in paraphrase.`,
-  qpTodo: `Participle or gerund: in a given sentence, is the <i>-ing</i> form a participle or a gerund (“the running horse,” “Running is good exercise,” “I enjoy reading”), and why.` },
+  qpTodo: `Participle or gerund: in a given sentence, is the <i>-ing</i> form a participle or a gerund (“the barking dog,” “Rowing is hard work,” “She dislikes waiting”), and why.` },
 
 { id: 'modist',
   title: 'The modists on the participle',
