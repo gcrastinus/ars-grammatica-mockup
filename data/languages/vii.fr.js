@@ -5,6 +5,22 @@ ARS.languages["lang.vii.fr"] = {
  "bar": "vii",
  "code": "fr",
  "section": "vii",
- "more": true,
- "items": []
+ "more": false,
+ "items": [
+{
+   "id": "lang.vii.fr/figures",
+   "kind": "study",
+   "built": true,
+   "title": "Figures in La Fontaine and Racine",
+   "desc": "A maxim, a metaphor, an antithesis, and a change of line length."
+  },
+{
+   "id": "lang.vii.fr/figures-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Figures in La Fontaine and Racine",
+   "desc": "21 questions."
+  }
+
+ ]
 };

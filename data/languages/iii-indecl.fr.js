@@ -12,14 +12,14 @@ ARS.languages["lang.iii-indecl.fr"] = {
    "kind": "exercise",
    "built": true,
    "title": "Parts of Speech",
-   "desc": "8 questions."
+   "desc": "20 questions."
   },
 {
    "id": "lang.iii-indecl.fr/govern-ex",
    "kind": "exercise",
    "built": true,
    "title": "Government",
-   "desc": "8 questions."
+   "desc": "20 questions."
   },
 {
    "id": "lang.iii-indecl.fr/compared",
@@ -33,7 +33,7 @@ ARS.languages["lang.iii-indecl.fr"] = {
    "kind": "exercise",
    "built": true,
    "title": "French Articles and Contractions",
-   "desc": "4 questions."
+   "desc": "20 questions."
   }
 
  ]
