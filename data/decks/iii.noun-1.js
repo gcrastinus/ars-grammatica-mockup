@@ -13,7 +13,7 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'accidents',
   title: 'The accidents of the noun',
-  body: `<p>We have seen that the noun signifies a body or a thing, with case, and that it signifies by the mode of a stable thing. But nouns also differ from one another in several ways. “Paris” names one city, whereas “village” names any village; “warm” can become “warmer” and “warmest”; Latin <i>rēgīna</i> (“queen”) is feminine, and <i>rēgīnae</i> (“queens”) plural; “lighthouse” is made of two words; and <i>rēgīnam</i> differs from <i>rēgīna</i> by its relation to the other words of the sentence. Donatus asks how many accidents the noun has and answers six (<i>Ars minor</i>):</p>
+  body: `<p>Nouns differ from one another in several ways. “Paris” names one city, whereas “village” names any village; “warm” can become “warmer” and “warmest”; Latin <i>rēgīna</i> (“queen”) is feminine, and <i>rēgīnae</i> (“queens”) plural; “lighthouse” is made of two words; and <i>rēgīnam</i> differs from <i>rēgīna</i> by its relation to the other words of the sentence. All of these are nouns, which, as we have seen, signify a body or a thing, with case, by the mode of a stable thing; the differences among them are the accidents of the noun. Donatus asks how many accidents the noun has and answers six (<i>Ars minor</i>):</p>
 <p><strong>quality</strong> (<i>qualitas</i>);<br><strong>comparison</strong> (<i>comparatio</i>);<br><strong>gender</strong> (<i>genus</i>);<br><strong>number</strong> (<i>numerus</i>);<br><strong>figure</strong> (<i>figura</i>);<br><strong>case</strong> (<i>casus</i>).</p>
 <p>We have already studied figure, the distinction between simple and compound nouns. Quality divides nouns into proper and common, and comparison belongs to adjectives of quality and quantity. Gender, number, and case are the accidents by which a Latin noun is declined, and so they are best studied together. We begin with quality.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the noun.` },
@@ -39,13 +39,13 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'adjective',
   title: 'The adjective under the noun',
-  body: `<p>We have seen that Donatus counts the adjective as a kind of noun. The Latin grammarians call it the <strong>noun adjective</strong> (<i>nōmen adiectīvum</i>, “the noun that is added”), because it is added to another noun to signify a quality or quantity of the thing that noun names. In <i>alta turris</i> (“a tall tower”) the adjective <i>alta</i> is added to <i>turris</i>, and in <i>novus ager</i> (“a new field”) the adjective <i>novus</i> is added to <i>ager</i>.</p>
+  body: `<p>In <i>alta turris</i> (“a tall tower”) the adjective <i>alta</i> is added to <i>turris</i>, and in <i>novus ager</i> (“a new field”) the adjective <i>novus</i> is added to <i>ager</i>; each signifies a quality of the thing that the other noun names. Donatus, as we have seen, counts the adjective as a kind of noun, and the Latin grammarians call it the <strong>noun adjective</strong> (<i>nōmen adiectīvum</i>, “the noun that is added”), because it is added to another noun to signify a quality or quantity of the thing that noun names.</p>
 <p>The reason for counting it under the noun is that a Latin adjective has the accidents of the noun: it is declined for gender, number, and case, and it agrees with its noun in all three, as in <i>novus ager</i>, <i>nova via</i> (“a new road”), and <i>novum tēctum</i> (“a new roof”). English adjectives are not declined, and English grammars therefore count the adjective as a separate part of speech. In both languages, however, the adjective depends on a noun and tells what sort of thing the noun refers to. Because the adjective and the substantive are so close, each can sometimes take the other’s place.</p>`,
   src: `Donatus, <i>Ars maior</i> II; Priscian, <i>Institutiones grammaticae</i> II, in paraphrase.` },
 
 { id: 'substantive-use',
   title: 'Adjectives used as nouns, and nouns used as adjectives',
-  body: `<p>Because the adjective and the substantive share the mode of a stable thing, each can sometimes be used in the place of the other. An adjective is used as a noun when the noun it would describe is understood: In “The rich must help the poor,” “the rich” and “the poor” mean rich people and poor people, and Latin <i>sapientēs</i> (“the wise”) means “wise men.” Such an adjective is said to be used <strong>substantively</strong>.</p>
+  body: `<p>In “The rich must help the poor,” “the rich” and “the poor” mean rich people and poor people, and Latin <i>sapientēs</i> (“the wise”) means “wise men.” An adjective is used as a noun in this way when the noun it would describe is understood, and it is then said to be used <strong>substantively</strong>. This is possible because the adjective and the substantive share the mode of a stable thing.</p>
 <p>A noun can also be used to describe another noun, as “brick” in “a brick wall,” “school” in “a school bus,” and “Chicago” in “a Chicago street.” English does this very freely, and Latin does it rarely, preferring an adjective (<i>mūrus lapideus</i>, “a wall of stone”) or a genitive. So in a given sentence we must ask how the word is used, as we saw with the parts of speech in general.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, on adjectives used as nouns, in paraphrase.` },
 
@@ -54,7 +54,7 @@ ARS.decks['iii.noun-1'] = {
   body: `<p>“Peter is tall,” “Peter is taller than Paul,” and “Peter is the tallest of the brothers” say the same quality of Peter in three degrees. This accident of the noun is called <strong>comparison</strong> (<i>comparātiō</i>). The <strong>positive</strong> degree signifies the quality simply: “tall,” <i>clārus</i> (“famous”). The <strong>comparative</strong> signifies more of the quality in one thing than in another: “taller,” <i>clārior</i>. The <strong>superlative</strong> signifies the most of the quality among several things, or a very high degree of it: “tallest,” <i>clārissimus</i>. Latin <i>clārissimus</i> can also mean simply “very famous,” without comparison to others.</p>
 <p>Donatus gives the same three degrees: “the positive, as ‘learned’; the comparative, as ‘more learned’; and the superlative, as ‘most learned’” (<i>positivus, ut doctus; comparativus, ut doctior; superlativus, ut doctissimus</i>; <i>Ars minor</i>). The degrees are formed in regular ways.</p>`,
   src: `Donatus, <i>Ars minor</i>, on comparison (the Latin).`,
-  qpTodo: `The degrees of comparison: which degree is a given form (<i>doctior</i>, “tallest,” <i>altus</i>), and what it signifies.` },
+  qpTodo: `The degrees of comparison: which degree is a given form (<i>fortior</i>, “widest,” <i>lātus</i>), and what it signifies.` },
 
 { id: 'forming',
   title: 'How the degrees are formed',
@@ -64,11 +64,11 @@ ARS.decks['iii.noun-1'] = {
 
 { id: 'irregular',
   title: 'Irregular comparison',
-  body: `<p>We saw in the Preliminary section that <i>bonus</i> is compared <i>melior</i>, <i>optimus</i>, against the regular pattern. Some of the most common adjectives are compared irregularly in this way, by forms taken from different words. In Latin:</p>
+  body: `<p>Some of the most common adjectives are compared irregularly, by forms taken from different words, as <i>bonus</i> is compared <i>melior</i>, <i>optimus</i>, against the regular pattern, as we saw in the Preliminary section. In Latin:</p>
 <p><i>bonus</i>, <i>melior</i>, <i>optimus</i> (“good,” “better,” “best”);<br><i>malus</i>, <i>peior</i>, <i>pessimus</i> (“bad,” “worse,” “worst”);<br><i>magnus</i>, <i>maior</i>, <i>maximus</i> (“great,” “greater,” “greatest”);<br><i>parvus</i>, <i>minor</i>, <i>minimus</i> (“small,” “smaller,” “smallest”).</p>
 <p>English has the same irregularities in its most common adjectives: “good,” “better,” “best”; “bad,” “worse,” “worst”; “much,” “more,” “most”; “little,” “less,” “least.” It is commonly observed that the words used most often are the most likely to keep irregular forms, because they are learned by hearing rather than formed by rule. Many English words come from these Latin forms: “ameliorate,” “optimist,” “pessimist,” “major,” “maximum,” “minor,” and “minimum.”</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 129, in paraphrase.`,
-  qpTodo: `Irregular comparison: which form completes a series (<i>bonus</i>, <i>melior</i>, …; “bad,” “worse,” …), and which English word is derived from a given Latin form.` },
+  qpTodo: `Irregular comparison: which form completes a series (<i>multus</i>, <i>plūs</i>, …; “many,” “more,” …), and which English word is derived from a given Latin form.` },
 
 { id: 'which-compared',
   title: 'Which nouns admit comparison?',
