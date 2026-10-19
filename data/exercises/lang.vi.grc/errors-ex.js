@@ -15,9 +15,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Where does the accent of <em>ἄνθρωπος</em> stand?",
-   "explain": "The ultima of <em>ἄνθρωπος</em> is short, so the accent can stand on the antepenult, and that is where this noun keeps it.",
-   "options": ["On the ultima", "On the antepenult", "As a circumflex on the penult", "Nowhere, because the word is a proclitic"],
+   "prompt": "Choose the present, first person singular, of <em>πέμπω</em> (“I send”).",
+   "explain": "The present ends in <em>-ω</em>. <em>πέμπω</em> is that form. <em>πέμπωμι</em> is not Attic, and <em>ἔπεμπον</em> is the imperfect.",
+   "options": ["<em>πέμπωμι</em>", "<em>πέμπω</em>", "<em>ἔπεμπον</em>", "<em>πέμπομεν</em>"],
    "answer": 1
   },
   {
@@ -26,9 +26,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "The genitive <em>ἀνθρώπου</em> has its accent on the penult. Why does the accent not stay on the antepenult?",
-   "explain": "If the last syllable is long, the accent cannot stand on the antepenult. The ending <em>-ου</em> is long, so the accent of <em>ἄνθρωπος</em> moves to the penult in <em>ἀνθρώπου</em>.",
-   "options": ["Because a noun never has an accent", "Because the genitive is a proclitic", "Because the ultima is long", "Because a circumflex is required on every genitive"],
+   "prompt": "Choose the nominative plural of <em>τέκνον</em> (“child”).",
+   "explain": "A neuter of the second declension makes the nominative plural in <em>-α</em> (Smyth §231). <em>τέκνα</em> is that plural. <em>τέκνοις</em> is the dative plural.",
+   "options": ["<em>τέκνονες</em>", "<em>τέκνοι</em>", "<em>τέκνα</em>", "<em>τέκνοις</em>"],
    "answer": 2
   },
   {
@@ -37,10 +37,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What breathing does <em>ἀγαθός</em> (“good”) take?",
-   "explain": "<em>ἀγαθός</em> begins with a smooth breathing. A rough breathing would be the sound of <em>h</em>, as in <em>ὁ</em>.",
-   "options": ["A smooth breathing", "A rough breathing", "No breathing, because the word begins with a stop", "A rough breathing on the last vowel"],
-   "answer": 0
+   "prompt": "Choose the aorist, third person plural, of <em>πέμπω</em>.",
+   "explain": "The aorist, third person plural, is <em>ἔπεμψαν</em>. Movable <em>ν</em> is not added to the ending <em>-αν</em> (Smyth §134). <em>πέμπουσι</em> is the present.",
+   "options": ["<em>ἔπεμψανε</em>", "<em>ἔπεμψαν</em>", "<em>πέμπουσι</em>", "<em>ἔπεμπον</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:a4",
@@ -48,10 +48,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What breathing does initial rho take in <em>ῥήτωρ</em> (“orator”)?",
-   "explain": "A word that begins with rho takes the rough breathing. <em>ῥήτωρ</em> is written with that breathing on the rho.",
-   "options": ["A smooth breathing", "No breathing", "A rough breathing on the eta", "A rough breathing on the rho"],
-   "answer": 3
+   "prompt": "Choose the accusative singular of <em>βασιλεύς</em> (“king”).",
+   "explain": "The accusative singular is <em>βασιλέα</em>. <em>βασιλέως</em> is the genitive. <em>βασιλέαν</em> adds an ending this noun does not take.",
+   "options": ["<em>βασιλέαν</em>", "<em>βασιλεύς</em>", "<em>βασιλέα</em>", "<em>βασιλέως</em>"],
+   "answer": 2
   },
   {
    "id": "lang.vi.grc/errors-ex:a5",
@@ -59,10 +59,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which form is the imperfect of <em>λύω</em> (“I loose”)?",
-   "explain": "The imperfect adds the syllabic augment <em>ε</em> at the front of <em>λύω</em>. That form is <em>ἔλυον</em>. <em>ἔλυσα</em> is the aorist, and <em>λύω</em> is the present.",
-   "options": ["<em>λύω</em>", "<em>ἔλυσα</em>", "<em>ἔλυον</em>", "<em>ἀπέλυσα</em>"],
-   "answer": 2
+   "prompt": "Choose the present infinitive of <em>φιλέω</em> (“I love”).",
+   "explain": "Attic contracts the infinitive. The form is <em>φιλεῖν</em>. <em>φιλέειν</em> is the uncontracted spelling, and <em>ἐφίλουν</em> is the imperfect.",
+   "options": ["<em>φιλέειν</em>", "<em>φιλεῖν</em>", "<em>φιλέει</em>", "<em>ἐφίλουν</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:a6",
@@ -70,10 +70,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "<em>λύω</em> begins with a consonant. Which aorist augments it correctly?",
-   "explain": "A verb that begins with a consonant takes the syllabic augment <em>ε</em>. The aorist is <em>ἔλυσα</em>, not a form that lengthens the first syllable to eta.",
-   "options": ["<em>ἔλυσα</em>", "<em>ἤλυσα</em>", "<em>λύσα</em>", "<em>λύω</em>"],
-   "answer": 0
+   "prompt": "Choose the imperfect of <em>καταβαίνω</em> (“I go down”).",
+   "explain": "The augment stands between the preposition and the verb, and <em>κατά</em> drops its final vowel (Smyth §449). The imperfect is <em>κατέβαινον</em>. <em>κατέβην</em> is the aorist.",
+   "options": ["<em>κατάβαινον</em>", "<em>κατέβαινον</em>", "<em>κατέβην</em>", "<em>καταβαίνω</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:a7",
@@ -81,9 +81,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase agrees with <em>γυνή</em> (“woman”) as “the woman”?",
-   "explain": "The article agrees in gender, number, and case. <em>ἡ γυνή</em> is the feminine phrase. <em>ὁ</em> is masculine, and <em>τό</em> is neuter.",
-   "options": ["<em>ὁ γυνή</em>", "<em>ἡ γυνή</em>", "<em>τὸ γυνή</em>", "<em>τὰ γυνή</em>"],
+   "prompt": "Choose the imperfect of <em>εἰσφέρω</em> (“I carry in”).",
+   "explain": "The augment stands inside the compound (Smyth §449). The imperfect is <em>εἰσέφερον</em>. <em>εἰσήνεγκον</em> is the aorist, and <em>εἴσφερον</em> puts the augment in the wrong place.",
+   "options": ["<em>εἴσφερον</em>", "<em>εἰσέφερον</em>", "<em>εἰσήνεγκον</em>", "<em>εἰσφέρω</em>"],
    "answer": 1
   },
   {
@@ -92,9 +92,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase is “the gift,” with the article agreeing?",
-   "explain": "<em>δῶρον</em> takes the neuter article. The agreeing phrase is <em>τὸ δῶρον</em>. <em>ἡ</em> is feminine, and <em>ὁ</em> is masculine.",
-   "options": ["<em>ἡ δῶρον</em>", "<em>ὁ δῶρον</em>", "<em>τὸν δῶρον</em>", "<em>τὸ δῶρον</em>"],
+   "prompt": "In <em>ὁ παῖς τὸν πατέρα λέγωμι</em>, choose the word that is not an Attic form.",
+   "explain": "The present, first person singular, of <em>λέγω</em> is <em>λέγω</em>. <em>λέγωμι</em> is not an Attic form. <em>παῖς</em> and <em>πατέρα</em> are ordinary Attic.",
+   "options": ["<em>ὁ</em>", "<em>παῖς</em>", "<em>πατέρα</em>", "<em>λέγωμι</em>"],
    "answer": 3
   },
   {
@@ -103,9 +103,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Why is the accent of <em>ῥήτωρ</em> an acute on the penult, rather than a circumflex?",
-   "explain": "A long penult takes the circumflex when the ultima is short, and the acute when the ultima is long. The ending <em>-ωρ</em> is long, so <em>ῥήτωρ</em> has the acute.",
-   "options": ["Because the ultima is long", "Because rho cannot take an accent", "Because every two-syllable noun is a proclitic", "Because the penult is short"],
+   "prompt": "Choose the sentence in which the adjective agrees.",
+   "explain": "<em>στρατιώτης</em> (“soldier”) is masculine, so the adjective is <em>ἀγαθός</em>. <em>ἀγαθή</em> is feminine, <em>ἀγαθόν</em> is neuter, and <em>ἡ</em> is the feminine article.",
+   "options": ["<em>ὁ στρατιώτης ἀγαθός ἐστιν</em>", "<em>ὁ στρατιώτης ἀγαθή ἐστιν</em>", "<em>ἡ στρατιώτης ἀγαθός ἐστιν</em>", "<em>ὁ στρατιώτης ἀγαθόν ἐστιν</em>"],
    "answer": 0
   },
   {
@@ -114,10 +114,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In the citation form <em>ἀγαθός</em>, where does the acute stand?",
-   "explain": "The accent of this adjective stays on the ultima in the citation form <em>ἀγαθός</em>. A smooth breathing on the first syllable is not an accent.",
-   "options": ["On the antepenult", "On the penult, as a circumflex", "On the ultima", "On no syllable"],
-   "answer": 2
+   "prompt": "What is wrong with <em>ἡ μήτηρ ἀγαθός ἐστιν</em>?",
+   "explain": "<em>μήτηρ</em> (“mother”) is feminine, and <em>ἀγαθός</em> is masculine. The feminine is <em>ἀγαθή</em>. The words are real Attic words, and the genders do not match.",
+   "options": ["The verb is plural", "Gender does not match", "<em>μήτηρ</em> is not a Greek word", "The article <em>ἡ</em> is neuter"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:b3",
@@ -125,9 +125,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What breathing does the article <em>ὁ</em> take?",
-   "explain": "The rough breathing is the sound of <em>h</em>. <em>ὁ</em> is written with that breathing. <em>ἀγαθός</em> is the word in this set that takes the smooth breathing.",
-   "options": ["A smooth breathing", "A rough breathing", "No breathing, because it is a proclitic", "A rough breathing on a following noun"],
+   "prompt": "What is wrong with <em>οἱ παῖδες γράφει</em>?",
+   "explain": "<em>παῖδες</em> is plural, and <em>γράφει</em> is singular. The third person plural is <em>γράφουσι</em>. Both forms are real Attic, and the number does not match.",
+   "options": ["<em>γράφει</em> is not an Attic form", "Number does not match", "<em>παῖδες</em> is a neuter singular", "The article <em>οἱ</em> is feminine"],
    "answer": 1
   },
   {
@@ -136,10 +136,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Where is the breathing written in the diphthong <em>οὐ</em> (“not”)?",
-   "explain": "A breathing on a diphthong is written over the second vowel. <em>οὐ</em> has the smooth breathing on the upsilon.",
-   "options": ["On the first vowel", "On both vowels", "On the second vowel", "On neither vowel, because a diphthong takes no breathing"],
-   "answer": 2
+   "prompt": "What is wrong with <em>τὸν στρατιώτης βλέπω</em>?",
+   "explain": "<em>τόν</em> is accusative, and <em>στρατιώτης</em> is nominative. The accusative is <em>τὸν στρατιώτην</em>. <em>βλέπω</em> (“I see”) is a real form and is not the error.",
+   "options": ["<em>βλέπω</em> is plural", "Case does not match", "<em>στρατιώτης</em> is feminine", "Nothing is wrong"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:b5",
@@ -147,10 +147,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which form is the aorist of <em>λύω</em>, as distinct from the imperfect?",
-   "explain": "The imperfect is <em>ἔλυον</em>. The aorist is <em>ἔλυσα</em>. Both have the syllabic augment, and the endings differ.",
-   "options": ["<em>ἔλυον</em>", "<em>λύω</em>", "<em>ἀπέλυον</em>", "<em>ἔλυσα</em>"],
-   "answer": 3
+   "prompt": "What is wrong with <em>ἐν τὴν οἰκίαν μένει</em>?",
+   "explain": "<em>ἐν</em> (“in”) takes the dative. <em>τὴν οἰκίαν</em> is accusative. The dative is <em>ἐν τῇ οἰκίᾳ</em>. <em>μένει</em> (“remains”) is a real singular verb.",
+   "options": ["<em>οἰκία</em> is not a Greek word", "<em>ἐν</em> takes the dative", "<em>μένει</em> is a plural verb", "The article is already dative"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:b6",
@@ -158,9 +158,9 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which aorist of <em>ἀπολύω</em> places the augment between the prefix and the verb?",
-   "explain": "The prefix itself is not augmented. The aorist is <em>ἀπέλυσα</em>, with <em>ε</em> between <em>ἀπ-</em> and the verb.",
-   "options": ["<em>ἀπόλυσα</em>", "<em>ἀπέλυσα</em>", "<em>ἔλυσα</em>", "<em>ἀπολύω</em>"],
+   "prompt": "Choose the Attic prose phrase for “with the father.”",
+   "explain": "In Attic prose <em>μετά</em> meaning “with” takes the genitive (Smyth §1691). <em>μετὰ τοῦ πατρός</em> is that phrase. The dative with <em>μετά</em> is chiefly epic, and the accusative means “after.”",
+   "options": ["<em>μετὰ τῷ πατρί</em>", "<em>μετὰ τοῦ πατρός</em>", "<em>μετὰ τὸν πατέρα</em>", "<em>μετὰ ὁ πατήρ</em>"],
    "answer": 1
   },
   {
@@ -169,10 +169,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase is the masculine accusative “the man”?",
-   "explain": "The article agrees in gender, number, and case. The masculine accusative phrase is <em>τὸν ἄνθρωπον</em>. <em>τὸ</em> is neuter, and <em>ἡ</em> is feminine.",
-   "options": ["<em>τὸ ἄνθρωπον</em>", "<em>ἡ ἄνθρωπον</em>", "<em>τὸν ἄνθρωπον</em>", "<em>τὰ ἄνθρωπον</em>"],
-   "answer": 2
+   "prompt": "What is the construction in <em>τὰ ὅπλα καλά ἐστιν</em>?",
+   "explain": "A neuter plural subject takes a singular verb (Smyth §958). <em>ὅπλα</em> (“arms”) is neuter plural, and <em>καλά</em> agrees. The singular verb is regular Attic.",
+   "options": ["An error of number, because every plural subject takes a plural verb", "Regular Attic", "A barbarism in <em>ὅπλα</em>", "A case error in <em>καλά</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:b8",
@@ -180,10 +180,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase is the neuter plural “the gifts”?",
-   "explain": "<em>δῶρα</em> is plural, so the article is <em>τὰ</em>. <em>τὸ δῶρον</em> is the singular. The agreeing plural phrase is <em>τὰ δῶρα</em>.",
-   "options": ["<em>τὸ δῶρα</em>", "<em>τὰ δῶρα</em>", "<em>ὁ δῶρα</em>", "<em>τῶν δῶρα</em>"],
-   "answer": 1
+   "prompt": "Choose the sentence that is free of error.",
+   "explain": "<em>φιλεῖ</em> is the third person singular of <em>φιλέω</em>, and <em>τὸν παῖδα</em> is the accusative, which that verb takes. <em>φιλεῖς</em> is second person. <em>τοὺς παῖδα</em> and <em>τῷ παῖδα</em> do not agree.",
+   "options": ["<em>ὁ πατὴρ τὸν παῖδα φιλεῖ</em>", "<em>ὁ πατὴρ τὸν παῖδα φιλεῖς</em>", "<em>ὁ πατὴρ τοὺς παῖδα φιλεῖ</em>", "<em>ὁ πατὴρ τῷ παῖδα φιλεῖ</em>"],
+   "answer": 0
   },
   {
    "id": "lang.vi.grc/errors-ex:c1",
@@ -191,10 +191,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>τὸ δῶρον</em>, why is the article written with a grave?",
-   "explain": "An acute on the last syllable is written as a grave when another word follows. <em>τό</em> therefore stands as <em>τὸ</em> before <em>δῶρον</em>. <em>ὁ</em> is different: it is a proclitic and has no accent of its own.",
-   "options": ["Because <em>τό</em> is a proclitic, like <em>ὁ</em>", "Because a grave marks a long vowel", "An ultima acute becomes grave before the next word", "Because the noun has no accent"],
-   "answer": 2
+   "prompt": "Choose the Attic genitive singular of <em>στρατιώτης</em> (“soldier”).",
+   "explain": "The Attic genitive singular is <em>στρατιώτου</em>. <em>στρατιώτοιο</em> is a Homeric genitive. <em>στρατιώτῃ</em> is the dative.",
+   "options": ["<em>στρατιώτοιο</em>", "<em>στρατιώτου</em>", "<em>στρατιώτης</em>", "<em>στρατιώτῃ</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:c2",
@@ -202,10 +202,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Where does the accent of the aorist <em>ἔλυσα</em> stand?",
-   "explain": "A verb is recessive. The ultima of <em>ἔλυσα</em> is short, so the accent goes back to the antepenult, which is the augment.",
-   "options": ["On the ultima", "On the antepenult, the augment", "As a circumflex on the penult", "Nowhere, because an augmented verb is a proclitic"],
-   "answer": 1
+   "prompt": "What is wrong with <em>ἡ τέκνον κακόν ἐστιν</em>?",
+   "explain": "<em>τέκνον</em> is neuter, so the article is <em>τό</em>. <em>κακόν</em> is neuter and does agree. The article’s gender is the error.",
+   "options": ["<em>τέκνον</em> is not a Greek word", "The verb must be plural here", "Gender of the article", "<em>κακόν</em> does not agree with <em>τέκνον</em>"],
+   "answer": 2
   },
   {
    "id": "lang.vi.grc/errors-ex:c3",
@@ -213,10 +213,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What breathing does <em>ἡ</em> take?",
-   "explain": "<em>ἡ</em>, like <em>ὁ</em>, is written with the rough breathing. The smooth breathing is the mark used on <em>ἀγαθός</em> and on <em>οὐ</em>.",
-   "options": ["A rough breathing", "A smooth breathing", "No breathing", "A rough breathing only when the noun is neuter"],
-   "answer": 0
+   "prompt": "What is wrong with <em>ὁρῶ τοῦ ῥήτορος</em>, if the sense is “I see the orator”?",
+   "explain": "<em>ὁράω</em> takes the accusative of the person seen. The accusative is <em>τὸν ῥήτορα</em>. <em>τοῦ ῥήτορος</em> is a real genitive, and it is the wrong case for this verb.",
+   "options": ["<em>ῥήτωρ</em> is feminine", "<em>ὁρῶ</em> is not a Greek form", "The person seen stands in the accusative", "The genitive is required with <em>ὁράω</em>"],
+   "answer": 2
   },
   {
    "id": "lang.vi.grc/errors-ex:c4",
@@ -224,10 +224,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What breathing does <em>οὐ</em> (“not”) take?",
-   "explain": "<em>οὐ</em> begins with a diphthong and takes the smooth breathing. The rough breathing would be a different word-shape, the one used for the sound of <em>h</em>.",
-   "options": ["A rough breathing", "No breathing, because it is a proclitic", "A smooth breathing", "A rough breathing on the omicron and a smooth one on the upsilon"],
-   "answer": 2
+   "prompt": "What is wrong with <em>εἰς τῇ νήσῳ ἔρχεται</em>?",
+   "explain": "<em>εἰς</em> (“into”) takes the accusative. <em>τῇ νήσῳ</em> is dative. The accusative is <em>εἰς τὴν νῆσον</em>. <em>ἔρχεται</em> is a real form.",
+   "options": ["<em>νῆσος</em> is masculine", "<em>εἰς</em> takes the accusative", "<em>ἔρχεται</em> is a barbarism", "Nothing is wrong"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:c5",
@@ -235,10 +235,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which form is the aorist of <em>ἐκβάλλω</em> (“I throw out”)?",
-   "explain": "The augment stands between the prefix and the verb, and <em>ἐκ</em> is written <em>ἐξ</em> before that vowel. The aorist is <em>ἐξέβαλον</em>.",
-   "options": ["<em>ἔκβαλον</em>", "<em>ἐκέβαλον</em>", "<em>ἐκβάλλω</em>", "<em>ἐξέβαλον</em>"],
-   "answer": 3
+   "prompt": "Choose the imperfect of <em>ἀποβάλλω</em> (“I throw away”).",
+   "explain": "The preposition drops its final vowel, and the augment follows: <em>ἀπέβαλλον</em> (Smyth §449). <em>ἀπέβαλον</em> is the aorist. <em>ἀπόβαλλον</em> leaves the augment out.",
+   "options": ["<em>ἀπόβαλλον</em>", "<em>ἀπέβαλλον</em>", "<em>ἀπέβαλον</em>", "<em>ἀποβάλλω</em>"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:c6",
@@ -246,10 +246,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which form is the aorist of <em>συμβάλλω</em> (“I throw together”)?",
-   "explain": "The prefix is not augmented at the front of the whole word. The aorist is <em>συνέβαλον</em>, with <em>ε</em> between the prefix and the verb.",
-   "options": ["<em>συνέβαλον</em>", "<em>ἔσυμβαλον</em>", "<em>συμβάλλω</em>", "<em>ἐξέβαλον</em>"],
-   "answer": 0
+   "prompt": "What is wrong with <em>σὺν τὸν στρατιώτην μάχεται</em>?",
+   "explain": "<em>σύν</em> (“with”) takes the dative: <em>σὺν τῷ στρατιώτῃ</em>. <em>τὸν στρατιώτην</em> is accusative. <em>μάχεται</em> (“he fights”) is a real form.",
+   "options": ["<em>στρατιώτης</em> is neuter", "<em>σύν</em> takes the dative", "<em>μάχεται</em> is not a Greek form", "Nothing is wrong"],
+   "answer": 1
   },
   {
    "id": "lang.vi.grc/errors-ex:c7",
@@ -257,10 +257,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase is the genitive plural “of the men”?",
-   "explain": "The article agrees in case as well as in gender and number. The genitive plural phrase is <em>τῶν ἀνθρώπων</em>. <em>τὸν</em> is accusative singular.",
-   "options": ["<em>τὸν ἀνθρώπων</em>", "<em>τὰ ἀνθρώπων</em>", "<em>τῶν ἀνθρώπων</em>", "<em>ὁ ἀνθρώπων</em>"],
-   "answer": 2
+   "prompt": "Choose the sentence that is free of error.",
+   "explain": "<em>ὅπλα</em> is neuter plural, <em>καλά</em> agrees, and a neuter plural subject takes a singular verb. <em>καλοί</em> is masculine. <em>ὅπλον</em> is singular, and <em>ἡ</em> is feminine.",
+   "options": ["<em>τὰ ὅπλα καλά ἐστιν</em>", "<em>τὰ ὅπλα καλοί ἐστιν</em>", "<em>τὰ ὅπλον καλά ἐστιν</em>", "<em>ἡ ὅπλα καλά ἐστιν</em>"],
+   "answer": 0
   },
   {
    "id": "lang.vi.grc/errors-ex:c8",
@@ -268,10 +268,10 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which phrase is “the man,” with a masculine article in the nominative?",
-   "explain": "<em>ἄνθρωπος</em> in the nominative takes <em>ὁ</em>. <em>ἡ</em> agrees with a feminine noun, as in <em>ἡ γυνή</em>, and <em>τὸ</em> agrees with a neuter noun.",
-   "options": ["<em>ἡ ἄνθρωπος</em>", "<em>τὸ ἄνθρωπος</em>", "<em>τῶν ἄνθρωπος</em>", "<em>ὁ ἄνθρωπος</em>"],
-   "answer": 3
+   "prompt": "What is wrong with <em>ὁ ῥήτωρ τοὺς νόμους γράφουσι</em>?",
+   "explain": "<em>ῥήτωρ</em> is singular, and <em>γράφουσι</em> is plural. The third person singular is <em>γράφει</em>. <em>τοὺς νόμους</em> agrees, and it is not the error.",
+   "options": ["<em>νόμους</em> is a barbarism", "The verb’s number", "<em>τοὺς</em> does not agree with <em>νόμους</em>", "Nothing is wrong"],
+   "answer": 1
   }
  ]
 };
