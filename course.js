@@ -267,11 +267,12 @@ function makeTile(it){
   c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
     ${studied ? '<span class="done-flag">✓ Studied</span>' : ''}${finished ? '<span class="done-flag">✓ Finished</span>' : ''}
     <h3>${it.title}</h3><p>${it.desc}</p>
-    <span class="begin">${it.built ? (practiceTile ? 'Begin →' : 'Study →') : ''}</span>
+    <span class="begin">${it.built ? ((practiceTile || it.introFor) ? 'Begin →' : 'Study →') : ''}</span>
     <span class="soon-flag">Coming</span>`;
   const exId = ARS.deckEx && ARS.deckEx[it.id];
-  /* Language exercises are loaded by id. They are not listed in exerciseFiles. */
-  if (it.built && exId && (hasPlan(exId) || String(exId).indexOf('lang.') === 0)){
+  /* Language exercises are loaded by id. They are not listed in exerciseFiles.
+     introFor opens its exercise from Next on the last panel, so the tile has no Exercise button. */
+  if (it.built && !it.introFor && exId && (hasPlan(exId) || String(exId).indexOf('lang.') === 0)){
     const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
     b.onclick = e => { e.stopPropagation(); openEx(exId); };
     c.appendChild(b);
@@ -310,7 +311,8 @@ function loadDeck(id){
    Cumulative review, in practice.js, uses the same runner. */
 function hasPlan(id){ return !!(ARS.exerciseFiles && ARS.exerciseFiles.indexOf(id) >= 0); }
 /* A section exercise or review opens in the player. A built exercise that is itself a deck
-   (ix.sentences, ix.passages, ix.marking, x.imitation) opens as a deck. */
+   (ix.sentences, ix.passages, ix.marking, x.imitation) opens as a deck. x.imitation carries
+   introFor, so Next on its last panel opens that exercise and the tile has no Exercise button. */
 function playerItem(it){
   if (!it) return false;
   if (it.kind === 'review') return true;
@@ -999,6 +1001,8 @@ function openDeck(id){
     st.opens += 1; save();
     // Each opening starts every question point on the next form: A, then B, then C, then A again.
     const start = (st.opens - 1) % 3;
+    const spec = ARS.structure.flatMap(s => s.items).find(x => x.id === id);
+    if (spec && spec.introFor) deck.introFor = spec.introFor;
     cur = { deck, i:0, start, qp:{} };
     location.hash = 'deck/' + id;
     $('deck-home').textContent = screenReturn ? '← Back' : '← All sections';
@@ -1032,7 +1036,7 @@ function renderPanel(){
   if (!p.qp && p.qpTodo){ const t = document.createElement('div'); t.className = 'q-box qp qp-todo';
     t.innerHTML = `<div class="qp-label"><span>Question point (to be written)</span></div><div class="q-prompt">${p.qpTodo}</div>`; body.appendChild(t); }
   $('deck-prev').disabled = i === 0;
-  $('deck-next').textContent = i === n - 1 ? 'Finish' : 'Next →';
+  $('deck-next').textContent = (i === n - 1 && !deck.introFor) ? 'Finish' : 'Next →';
   updateNext();
 }
 
@@ -1093,6 +1097,7 @@ function answer(qp, k){
 function nextPanel(){
   if ($('deck-next').disabled) return;
   if (cur.i < cur.deck.panels.length - 1){ cur.i += 1; renderPanel(); window.scrollTo(0, 0); return; }
+  if (cur.deck.introFor){ openEx(cur.deck.introFor); return; }
   const st = deckState(cur.deck.id);
   const first = !st.done;
   if (first) st.doneAt = Date.now();

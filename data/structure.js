@@ -142,7 +142,7 @@ ARS.structure = [
    gloss:'From reading to writing.',
    items:[
    { id:'x.composition', kind:'study', built:true, title:'Composition', desc:'Building sentences and periods.' },
-   { id:'x.imitation', kind:'exercise', built:true, title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
+   { id:'x.imitation', kind:'exercise', built:true, introFor:'x.ex.imitation', title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
    { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
    { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }

@@ -1,5 +1,5 @@
 /* Imitation [x.ex.imitation]  PLAN AND STUBS ONLY: no questions, options, or answers are written yet.
-   Opened from: x.imitation (Exercise button). Pool 10.
+   Opened from: x.imitation (Next on the introductory panel). Pool 10.
    Every item is a stub marked todo:true; see EXERCISES-PLAN.md for the format and the item types. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
@@ -9,7 +9,7 @@ ARS.exercises['x.ex.imitation'] = {
  "status": "plan",
  "section": "X",
  "title": "Imitation",
- "openedFrom": "x.imitation (Exercise button)",
+ "openedFrom": "x.imitation (Next on the introductory panel)",
  "covers": [
   {
    "deck": "x.imitation",

@@ -7,6 +7,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['x.imitation'] = {
   id: 'x.imitation',
+  introFor: 'x.ex.imitation',
   title: 'Imitation',
   sub: 'Ten passages of English prose, copied word for word',
   sources: `Quintilian, <i>Institutio oratoria</i> X.2; Roger Ascham, <i>The Scholemaster</i> (1570); Jeroen De Keyser, “The Descendants of Petrarch’s <i>Pro Archia</i>,” <i>Classical Quarterly</i> (2013).`,
