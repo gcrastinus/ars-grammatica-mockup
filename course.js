@@ -81,6 +81,28 @@ function langRecord(bar, code){
   const stored = ARS.languages && ARS.languages[id];
   return stored || { id:id, bar:bar, code:code, section:info.section, items:[], more:true };
 }
+/* A language study deck with a built exercise of the same id plus "-ex" opens that
+   exercise from the small button. The exercise is not a tile of its own. */
+function linkLangDeckExercises(){
+  ARS.deckEx = ARS.deckEx || {};
+  const langs = ARS.languages || {};
+  Object.keys(langs).forEach(sid => {
+    const items = langs[sid].items || [];
+    const byId = {};
+    items.forEach(it => { byId[it.id] = it; });
+    items.forEach(it => {
+      if (!it || it.kind !== 'study' || !it.built) return;
+      const exId = it.id + '-ex';
+      const ex = byId[exId];
+      if (ex && ex.kind === 'exercise' && ex.built) ARS.deckEx[it.id] = exId;
+    });
+  });
+}
+function deckForExercise(exId){
+  const map = ARS.deckEx || {};
+  for (const deckId in map) if (map[deckId] === exId) return deckId;
+  return '';
+}
 function langItemBegun(it){
   if (!it || it.kind === 'note') return false;
   if (it.kind === 'exercise' || it.kind === 'models'){
@@ -201,7 +223,10 @@ function openLang(id){
   $('lang-note').textContent = 'Best taken after the section.';
   const grid = $('lang-grid');
   grid.innerHTML = '';
-  (screen.items || []).forEach(it => grid.appendChild(makeTile(it)));
+  (screen.items || []).forEach(it => {
+    if (it && it.kind === 'exercise' && deckForExercise(it.id)) return;
+    grid.appendChild(makeTile(it));
+  });
   const more = $('lang-more');
   const thin = screen.more || !(screen.items && screen.items.length);
   more.hidden = !thin;
@@ -244,7 +269,8 @@ function makeTile(it){
     <span class="begin">${it.built ? (practiceTile ? 'Begin →' : 'Study →') : ''}</span>
     <span class="soon-flag">Coming</span>`;
   const exId = ARS.deckEx && ARS.deckEx[it.id];
-  if (it.built && exId && hasPlan(exId)){
+  /* Language exercises are loaded by id. They are not listed in exerciseFiles. */
+  if (it.built && exId && (hasPlan(exId) || String(exId).indexOf('lang.') === 0)){
     const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
     b.onclick = e => { e.stopPropagation(); openEx(exId); };
     c.appendChild(b);
@@ -1061,7 +1087,8 @@ function goHome(){
     const backId = (cur && cur.deck && cur.deck.id) || (run && run.ex && run.ex.id) || '';
     const id = screenReturn;
     openLang(id);
-    const card = backId && document.querySelector('#lang-grid .set-card[data-id="' + backId.replace(/"/g, '') + '"]');
+    const focusId = (backId && deckForExercise(backId)) || backId;
+    const card = focusId && document.querySelector('#lang-grid .set-card[data-id="' + focusId.replace(/"/g, '') + '"]');
     if (card){ card.scrollIntoView({ block:'center' }); card.focus({ preventScroll:true }); }
     return;
   }
@@ -1132,6 +1159,7 @@ document.addEventListener('keydown', e => {
 });
 
 setDark(!!store.dark);
+linkLangDeckExercises();
 buildHome();
 const lx = location.hash.match(/^#lang\/(.+)$/);
 if (lx) openLang(decodeURIComponent(lx[1]));
