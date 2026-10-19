@@ -35,7 +35,7 @@ ARS.decks['v.government'] = {
   body: `<p>The Latin preposition <i>ad</i> is always followed by the accusative and <i>cum</i> by the ablative; the preposition decides the case of its noun. Each Latin preposition, as we saw in Section III, governs a particular case: <i>ad</i>, <i>per</i>, and <i>post</i> the accusative; <i>ab</i>, <i>cum</i>, and <i>ex</i> the ablative; and <i>in</i> and <i>sub</i> govern either case with a difference of meaning, motion toward a place with the accusative and rest in a place with the ablative.</p>
 <p>The government of a preposition is the clearest example of what government means, because the preposition has no case of its own and exists only to relate its noun to another word. The case it governs is part of what it signifies, so that <i>in</i> with the accusative signifies motion into, whereas <i>in</i> with the ablative signifies position in.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 220–221.`,
-  qpTodo: `Prepositions and their cases: which case does a given preposition govern in a given phrase, and what does the case add to its meaning (<i>in theātrum</i>, <i>in theātrō</i>, <i>cum amīcō</i>).` },
+  qpTodo: `Prepositions and their cases: which case does a given preposition govern in a given phrase, and what does the case add to its meaning (<i>in theātrum</i>, <i>in theātrō</i>, <i>cum comite</i>).` },
 
 { id: 'nouns-adjectives',
   title: 'Nouns and adjectives that govern',
