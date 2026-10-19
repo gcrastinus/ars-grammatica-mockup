@@ -19,7 +19,7 @@ ARS.decks["lang.ii.de/meter"] = {
   {
    "id": "meter-3",
    "title": "Trochaic Lines",
-   "body": "<p><strong>Trochaic lines.</strong> Folk song and much of Goethe’s early verse are trochaic, as in <em>Sah ein Knab’ ein Röslein stehn</em> (“A boy saw a little rose standing”), from his “Heidenröslein.” With its stresses marked, it reads <em>SAH ein KNAB ein RÖS-lein STEHN</em>. As in English, the last foot often keeps only its stressed syllable.</p>"
+   "body": "<p><strong>Trochaic lines.</strong> Folk song and much of Goethe’s early verse are trochaic, as in <em>Sah ein Knab ein Röslein stehn</em> (“A boy saw a little rose standing”), from his “Heidenröslein.” With its stresses marked, it reads <em>SAH ein KNAB ein RÖS-lein STEHN</em>. As in English, the last foot often keeps only its stressed syllable.</p>"
   },
   {
    "id": "meter-4",
