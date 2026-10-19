@@ -26,7 +26,7 @@ ARS.structure = [
    { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
    { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, praying, calling, and expressing feeling, and why only the statement is true or false.' },
    { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
-   { id:'i.review', kind:'review', built:true, title:'Section Review: Sign and Significant Voice', desc:'One hundred fourteen questions on I.1 to I.6, in six sets of nineteen that rotate, with every kind of question.' }
+   { id:'i.review', kind:'review', built:true, title:'Section Review: Sign and Significant Voice', desc:'One hundred twenty questions on I.1 to I.6, in six sets of twenty that rotate, with every kind of question.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',

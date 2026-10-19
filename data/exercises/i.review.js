@@ -1,12 +1,13 @@
 /* Section Review: Sign and Significant Voice [i.review]
    WRITTEN (18 Oct 2026); hand-edited; do not regenerate with gen.py.
    MERGED 18 Oct 2026 (Timothy's decision): the former exercise set i.ex.sign (72 items) and the former review
-   (45 items) are now one review, the only exercise of Section I. 114 items in six fixed sets of 19 (A, B, C, D, E, F
-   in rotation, never reordered); item ids are unchanged (sv-* from the old set, ri-* from the old review). Every set
-   mixes multiple choice, multiple choice on a marked word, identify (click the word or words; `answer` is an index or
-   an array), and sort (`answer` gives the bin of each entry), and covers all six decks, in deck order with the types
-   interleaved. Options and sort entries are shown shuffled and the key follows them. Items with "why" add a short
-   prompt and a model answer (no grading). Cut in the merge: ri-A11, ri-A13, ri-C09 (see REVISION-GUIDE.md). */
+   (45 items) are now one review, the only exercise of Section I. REBALANCED 18 Oct 2026 (Timothy): 120 items in six
+   fixed sets of 20 (A, B, C, D, E, F in rotation, never reordered); item ids are unchanged (sv-* from the old set, ri-*
+   from the old review); ri-A11, ri-A13, ri-C09, cut in the merge, are restored, and sv-con-13, sv-syn-13, sv-fun-13 are
+   new. Every set mixes multiple choice, multiple choice on a marked word, identify (click the word or words; `answer` is
+   an index or an array), and sort (`answer` gives the bin of each entry), and covers all six decks, three or four items
+   each, in deck order with the types interleaved. Options and sort entries are shown shuffled and the key follows them.
+   Items with "why" add a short prompt and a model answer (no grading). See REVISION-GUIDE.md AG. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['i.review'] = {
@@ -49,22 +50,22 @@ ARS.exercises['i.review'] = {
   "identify",
   "sort"
  ],
- "pool": 114,
+ "pool": 120,
  "rotation": "A, B, C, D, E, F, A, … (never shuffled)",
  "sets": {
-  "A": 19,
-  "B": 19,
-  "C": 19,
-  "D": 19,
-  "E": 19,
-  "F": 19
+  "A": 20,
+  "B": 20,
+  "C": 20,
+  "D": 20,
+  "E": 20,
+  "F": 20
  },
  "balancePerSet": {
   "i.sign": "3–4",
   "i.imposition": "3–4",
-  "i.consignification": 3,
-  "i.syncategorematic": "2–3",
-  "i.functions": "2–3",
+  "i.consignification": "3–4",
+  "i.syncategorematic": "3–4",
+  "i.functions": "3–4",
   "i.ambiguity": "3–4"
  },
  "limit": "Only what I.1 to I.6 teach; nothing repeats a question point.",
@@ -384,6 +385,25 @@ ARS.exercises['i.review'] = {
    "explain": "The sentence calls the person addressed; the tradition calls this kind the vocative. It is complete and meaningful, but it says nothing true or false."
   },
   {
+   "id": "sv-fun-12",
+   "set": "A",
+   "deck": "i.functions",
+   "type": "identify",
+   "prompt": "Aristotle leaves some kinds of sentence to rhetoric or poetry rather than to logic. Click the sentence that belongs there.",
+   "tokens": [
+    "Every metal conducts heat.",
+    "Iron is a metal.",
+    "Hear my prayer, O Lord.",
+    "No metal is alive."
+   ],
+   "answer": 2,
+   "explain": "Logic considers only the statement, which is true or false. “Hear my prayer, O Lord” is a prayer, neither true nor false, and Aristotle says that the study of such sentences belongs rather to rhetoric or poetry.",
+   "why": {
+    "prompt": "Why does logic study only the statement?",
+    "model": "Because logic is concerned with truth and with what follows from what is true, and only the statement says that something is or is not so."
+   }
+  },
+  {
    "id": "ri-C12",
    "set": "A",
    "deck": "i.functions",
@@ -433,19 +453,19 @@ ARS.exercises['i.review'] = {
    }
   },
   {
-   "id": "ri-B15",
+   "id": "ri-A13",
    "set": "A",
    "deck": "i.ambiguity",
    "type": "mc",
-   "prompt": "“Crane” can mean a tall wading bird or a machine for lifting. How does the tradition account for one sound with both meanings?",
+   "prompt": "“The ruler was broken.” Where does the ambiguity lie?",
    "options": [
-    "It was imposed with more than one meaning",
-    "The sound signifies both by nature",
-    "One meaning is consignified with the other",
-    "The construction gives the word two senses"
+    "There is no ambiguity",
+    "In the arrangement of the words",
+    "In the single word “ruler”",
+    "In the word “broken”"
    ],
-   "answer": 0,
-   "explain": "A word signifies by imposition, and one sound can be imposed with more than one meaning; so the ambiguity lies in a single word. Neither meaning is consignified with the other: each is a proper meaning, and only the rest of the sentence, or the occasion, shows which is meant."
+   "answer": 2,
+   "explain": "“Ruler” can mean a strip for measuring or a person who governs, so the double sense lies in one word imposed with more than one meaning. The arrangement of the words is clear."
   },
   {
    "id": "sv-sign-6",
@@ -532,35 +552,36 @@ ARS.exercises['i.review'] = {
    "explain": "The referee’s whistle signifies a stop in the game only because the players have agreed on its meaning, so it is a conventional sign. A yawn, footprints, and thunder signify by nature, whether or not anyone means them to."
   },
   {
-   "id": "sv-con-4",
+   "id": "sv-con-13",
    "set": "B",
    "deck": "i.consignification",
    "type": "sort",
-   "prompt": "Sort each word by its mode of signifying: does it present the reality as a thing, as something happening, or as a quality of something else?",
+   "prompt": "Each pair of words has the same proper meaning. Sort each pair by the accident in which its two words differ.",
    "entries": [
-    "“thirst” in “Thirst woke him”",
-    "“thirsts” in “The traveler thirsts”",
-    "“thirsty” in “a thirsty traveler”",
-    "“grief” in “Grief silenced the room”",
-    "“grieves” in “She grieves”",
-    "“sorrow” in “Sorrow followed the news”",
-    "“mourns” in “He mourns”"
+    "“mouse” and “mice”",
+    "“ox” and “oxen”",
+    "<i>urbs</i> and <i>urbēs</i> (“city,” “cities”)",
+    "“I knit” and “she knits”",
+    "“they” and “them”",
+    "“who” and “whom”",
+    "“prince” and “princess”"
    ],
    "bins": [
-    "As a thing",
-    "As something happening",
-    "As a quality of something else"
+    "Number",
+    "Person",
+    "Case",
+    "Gender"
    ],
    "answer": [
     0,
+    0,
+    0,
     1,
     2,
-    0,
-    1,
-    0,
-    1
+    2,
+    3
    ],
-   "explain": "“Thirst,” “grief,” and “sorrow” signify by way of a thing. “Thirsts,” “grieves,” and “mourns” signify by way of something happening. “Thirsty” signifies by way of a quality belonging to something else. These are different modes of signifying."
+   "explain": "“Mouse” and “mice,” “ox” and “oxen,” and <i>urbs</i> and <i>urbēs</i> differ in number: one, or more than one. “I knit” and “she knits” differ in person: the speaker, or someone else. “They” and “them,” and “who” and “whom,” differ in case: the first of each pair is the form used for the subject, the second the form used for the object. “Prince” and “princess” differ in gender. In every pair the proper meaning stays the same; what changes is an accident that the word consignifies along with it."
   },
   {
    "id": "sv-imp-1",
@@ -799,6 +820,21 @@ ARS.exercises['i.review'] = {
    "answer": 3,
    "explain": "No single word has two meanings. The phrase “in her pajamas” can belong to the woman who took the photograph or to the dog, so the double sense lies in the arrangement of the words.",
    "type": "mc"
+  },
+  {
+   "id": "ri-C14",
+   "set": "B",
+   "deck": "i.ambiguity",
+   "type": "mc-marked",
+   "prompt": "Written down, “The <b>bass</b> was enormous” can be read in two ways. What is the cause of the ambiguity?",
+   "options": [
+    "Punctuation that has been left out",
+    "Writing that does not show pronunciation",
+    "A word that can belong to two other words",
+    "Letters read as one word or as two"
+   ],
+   "answer": 1,
+   "explain": "Pronounced to rhyme with “mass,” “bass” is a fish; pronounced to rhyme with “base,” it is a low voice or instrument. In speech there is no ambiguity; only the writing, which does not show the pronunciation, leaves the reader to decide."
   },
   {
    "id": "ri-B13",
@@ -1081,6 +1117,21 @@ ARS.exercises['i.review'] = {
    ],
    "answer": 2,
    "explain": "A word is not a noun or a verb because of its sound or its length, nor because of the reality it signifies. “Departure” signifies the leaving as a thing, and “departs” signifies it as something happening; the mode of signifying makes the part of speech."
+  },
+  {
+   "id": "ri-A11",
+   "set": "C",
+   "deck": "i.functions",
+   "type": "mc",
+   "prompt": "“Where did you put the keys?” What kind of sentence is this?",
+   "options": [
+    "A command",
+    "A call",
+    "A question",
+    "A statement"
+   ],
+   "answer": 2,
+   "explain": "The sentence asks something; it does not say that anything is or is not so. English shows the question by adding “did” before the subject (“did you put” instead of “you put”) and by the question mark."
   },
   {
    "id": "sv-amb-3",
@@ -1453,6 +1504,21 @@ ARS.exercises['i.review'] = {
    "explain": "The indicatives <i>pluit</i>, <i>cadit</i>, and <i>tacet</i> state something. <i>Pluitne</i> asks, because of <i>-ne</i>. The imperatives <i>tacē</i> and <i>scrībite</i> command. <i>Utinam nix cadat</i> wishes. The kinds of sentence are marked in the forms of the words, and so they belong to grammar."
   },
   {
+   "id": "ri-B10",
+   "set": "D",
+   "deck": "i.syncategorematic",
+   "type": "mc",
+   "prompt": "“Only Paul paid for lunch” and “Paul paid only for lunch” use the same words. Why do they mean different things?",
+   "options": [
+    "Because “paid” is in a different tense",
+    "Because “only” limits a different word",
+    "Because “lunch” has two meanings",
+    "Because the second is a question"
+   ],
+   "answer": 1,
+   "explain": "In the first sentence “only” limits who paid (no one but Paul); in the second it limits what he paid for (lunch and nothing else). A syncategorematic word changes the meaning according to its place."
+  },
+  {
    "id": "sv-fun-8",
    "set": "D",
    "deck": "i.functions",
@@ -1685,6 +1751,37 @@ ARS.exercises['i.review'] = {
    "explain": "“Mended” signifies an action and, along with it, that the action took place in the past. The verb consignifies time; “fisherman” and “nets” signify things without time."
   },
   {
+   "id": "sv-con-4",
+   "set": "E",
+   "deck": "i.consignification",
+   "type": "sort",
+   "prompt": "Sort each word by its mode of signifying: does it present the reality as a thing, as something happening, or as a quality of something else?",
+   "entries": [
+    "“thirst” in “Thirst woke him”",
+    "“thirsts” in “The traveler thirsts”",
+    "“thirsty” in “a thirsty traveler”",
+    "“grief” in “Grief silenced the room”",
+    "“grieves” in “She grieves”",
+    "“sorrow” in “Sorrow followed the news”",
+    "“mourns” in “He mourns”"
+   ],
+   "bins": [
+    "As a thing",
+    "As something happening",
+    "As a quality of something else"
+   ],
+   "answer": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "explain": "“Thirst,” “grief,” and “sorrow” signify by way of a thing. “Thirsts,” “grieves,” and “mourns” signify by way of something happening. “Thirsty” signifies by way of a quality belonging to something else. These are different modes of signifying."
+  },
+  {
    "id": "ri-B07",
    "set": "E",
    "deck": "i.consignification",
@@ -1745,23 +1842,19 @@ ARS.exercises['i.review'] = {
    "type": "mc"
   },
   {
-   "id": "sv-fun-12",
+   "id": "sv-fun-13",
    "set": "E",
    "deck": "i.functions",
-   "type": "identify",
-   "prompt": "Aristotle leaves some kinds of sentence to rhetoric or poetry rather than to logic. Click the sentence that belongs there.",
-   "tokens": [
-    "Every metal conducts heat.",
-    "Iron is a metal.",
-    "Hear my prayer, O Lord.",
-    "No metal is alive."
+   "type": "mc-marked",
+   "prompt": "“<b>Is</b> the ferry late?” Putting “is” first makes this a question. What does the speaker do with what he understands?",
+   "options": [
+    "He asks another person for a judgment",
+    "He states what he understands to be so",
+    "He asks that something be made so",
+    "He prays for something to be given or done"
    ],
-   "answer": 2,
-   "explain": "Logic considers only the statement, which is true or false. “Hear my prayer, O Lord” is a prayer, neither true nor false, and Aristotle says that the study of such sentences belongs rather to rhetoric or poetry.",
-   "why": {
-    "prompt": "Why does logic study only the statement?",
-    "model": "Because logic is concerned with truth and with what follows from what is true, and only the statement says that something is or is not so."
-   }
+   "answer": 0,
+   "explain": "In the statement “The ferry is late” the speaker simply expresses what he understands to be so, that is, a judgment. In the question he directs what he understands toward another person and asks him for the judgment, whether the ferry is late or not; that is why a question is answered by a statement. A command asks that something be made so, and a prayer asks for something to be given or done."
   },
   {
    "id": "sv-syn-12",
@@ -1820,19 +1913,19 @@ ARS.exercises['i.review'] = {
    "explain": "Grammar considers every kind of sentence, since a question or a prayer can be incorrectly formed as surely as a statement. Logic considers only the statement, because it is concerned with truth."
   },
   {
-   "id": "ri-C14",
+   "id": "ri-B15",
    "set": "E",
    "deck": "i.ambiguity",
-   "type": "mc-marked",
-   "prompt": "Written down, “The <b>bass</b> was enormous” can be read in two ways. What is the cause of the ambiguity?",
+   "type": "mc",
+   "prompt": "“Crane” can mean a tall wading bird or a machine for lifting. How does the tradition account for one sound with both meanings?",
    "options": [
-    "Punctuation that has been left out",
-    "Writing that does not show pronunciation",
-    "A word that can belong to two other words",
-    "Letters read as one word or as two"
+    "It was imposed with more than one meaning",
+    "The sound signifies both by nature",
+    "One meaning is consignified with the other",
+    "The construction gives the word two senses"
    ],
-   "answer": 1,
-   "explain": "Pronounced to rhyme with “mass,” “bass” is a fish; pronounced to rhyme with “base,” it is a low voice or instrument. In speech there is no ambiguity; only the writing, which does not show the pronunciation, leaves the reader to decide."
+   "answer": 0,
+   "explain": "A word signifies by imposition, and one sound can be imposed with more than one meaning; so the ambiguity lies in a single word. Neither meaning is consignified with the other: each is a proper meaning, and only the rest of the sentence, or the occasion, shows which is meant."
   },
   {
    "id": "sv-amb-1",
@@ -2159,19 +2252,33 @@ ARS.exercises['i.review'] = {
    "explain": "“With the umbrella” can belong to “hit” (the woman used the umbrella) or to “the thief” (the thief had it). The double sense lies in the arrangement, not in any one word."
   },
   {
-   "id": "ri-B10",
+   "id": "sv-syn-13",
    "set": "F",
    "deck": "i.syncategorematic",
-   "type": "mc",
-   "prompt": "“Only Paul paid for lunch” and “Paul paid only for lunch” use the same words. Why do they mean different things?",
-   "options": [
-    "Because “paid” is in a different tense",
-    "Because “only” limits a different word",
-    "Because “lunch” has two meanings",
-    "Because the second is a question"
+   "type": "sort",
+   "prompt": "These sentences have the same categorematic words, “rose” and “bloomed.” Sort each sentence by how many roses it says bloomed.",
+   "entries": [
+    "“Each rose bloomed.”",
+    "“All the roses bloomed.”",
+    "“Some roses bloomed.”",
+    "“Several roses bloomed.”",
+    "“A few roses bloomed.”",
+    "“No rose bloomed.”"
    ],
-   "answer": 1,
-   "explain": "In the first sentence “only” limits who paid (no one but Paul); in the second it limits what he paid for (lunch and nothing else). A syncategorematic word changes the meaning according to its place."
+   "bins": [
+    "All of them",
+    "At least one",
+    "None"
+   ],
+   "answer": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "explain": "“Each” and “all” take every rose; “some,” “several,” and “a few” take at least one; “no” takes none. “Rose” and “bloomed” keep the same signification in every sentence, so the whole difference in meaning comes from the syncategorematic words, which say how much of “rose” is meant."
   },
   {
    "id": "sv-amb-9",
@@ -2190,6 +2297,21 @@ ARS.exercises['i.review'] = {
    ],
    "answer": 6,
    "explain": "“Scale” can mean an instrument for weighing, a plate on a fish’s skin, or a series of musical notes, and a judge might look at any of them. The ambiguity lies in a single word."
+  },
+  {
+   "id": "ri-C09",
+   "set": "F",
+   "deck": "i.syncategorematic",
+   "type": "mc",
+   "prompt": "Which of these words signifies something definite by itself?",
+   "options": [
+    "“or”",
+    "“except”",
+    "“mountain”",
+    "“if”"
+   ],
+   "answer": 2,
+   "explain": "“Mountain” brings something definite to mind when it is heard by itself, so it is a categorematic word. “Or,” “except,” and “if” signify only together with other words, by determining how they are taken; they are syncategorematic."
   },
   {
    "id": "sv-fun-5",

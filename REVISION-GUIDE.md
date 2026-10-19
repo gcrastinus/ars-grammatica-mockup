@@ -709,3 +709,14 @@ Every set mixes all four types and covers all six decks; within a set the items 
 - `ri-C09` (Which word signifies something definite by itself? "mountain"): a near-duplicate of `ri-A09` ("unless") and `sv-syn-2` (*equus*).
 
 No new items were written, and no wording was changed: a check of the house rules (shuffled options, correct option not mostly the longest, prompts, American spelling, mentioned English words in double quotation marks, no "previous deck," no "the schools") found no clear violations.
+
+- 18 Oct 2026 (Timothy): six sets of exactly 20 (120 items). The three cut items are restored (`ri-A11` to set C, `ri-A13` to A, `ri-C09` to F), and three new items were written on the thinnest types and points: `sv-con-13` (sort, B: pairs with the same proper meaning sorted by the accident in which they differ, number, person, case, or gender; case had no item), `sv-syn-13` (sort, F: "rose" and "bloomed" with "each," "all," "some," "several," "a few," "no," sorted by how many roses; the same categorematic words with the whole difference in the syncategorematic words), and `sv-fun-13` (mc-marked, E: "**Is** the ferry late?", what the speaker does with what he understands: he asks another person for a judgment). Moves to keep the balance: `ri-B15` A→E, `sv-fun-12` E→A, `sv-con-4` B→E, `ri-C14` E→B, `ri-B10` F→D. Near-duplicates kept apart: `ri-A13` from `sv-amb-1` (E), `ri-B13` (B), `ri-C13` (D); `ri-C09` from `ri-A09` (B), `sv-syn-2` (E); `ri-A11` from `sv-fun-3` (F), `sv-fun-10` (D), and from `sv-fun-13` (E); `sv-con-13` from `ri-B07` (E) and `sv-con-7` (F); `ri-B15` ("crane") no longer shares set A with the "crane" entry of `sv-amb-6`. Every set now has mc 9 and sort 4, identify and mc-marked 7 between them (A has identify 5 and mc-marked 2), and three or four items from each deck (`balancePerSet` 3–4 for all six). The correct option is uniquely the longest in at most 4 of a set's 11–12 multiple-choice items (A 4, B 2, C 3, D 2, E 0, F 3; a few more tie for longest). `data/structure.js` description and `pool`/`sets` updated.
+
+| Set | Items | mc | mc-marked | identify | sort | sign · imposition · consignification · syncategorematic · functions · ambiguity |
+|---|---|---|---|---|---|---|
+| A | 20 | 9 | 2 | 5 | 4 | 3 · 3 · 3 · 3 · 4 · 4 |
+| B | 20 | 9 | 3 | 4 | 4 | 4 · 3 · 3 · 3 · 3 · 4 |
+| C | 20 | 9 | 3 | 4 | 4 | 4 · 4 · 3 · 3 · 3 · 3 |
+| D | 20 | 9 | 3 | 4 | 4 | 3 · 4 · 3 · 4 · 3 · 3 |
+| E | 20 | 9 | 3 | 4 | 4 | 3 · 3 · 4 · 3 · 3 · 4 |
+| F | 20 | 9 | 3 | 4 | 4 | 4 · 4 · 3 · 3 · 3 · 3 |
