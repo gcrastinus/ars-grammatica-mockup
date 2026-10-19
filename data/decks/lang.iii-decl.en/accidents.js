@@ -29,7 +29,7 @@ ARS.decks["lang.iii-decl.en/accidents"] = {
   {
    "id": "accidents-5",
    "title": "Principal parts",
-   "body": "<p>An English verb is learned by three <strong>principal parts</strong>: the present, the past, and the past participle. Regular verbs add “-ed” for the last two (“cook,” “cooked,” “cooked”), whereas irregular verbs change in other ways (“drink,” “drank,” “drunk”; “freeze,” “froze,” “frozen”).</p>"
+   "body": "<p>An English verb is learned by three <strong>principal parts</strong>: the present, the past, and the past participle. Regular verbs add “-ed” for the last two (“cook,” “cooked,” “cooked”), whereas irregular verbs change in other ways (“drink,” “drank,” “drunk”; “freeze,” “froze,” “frozen”). Two verbs are often confused because their parts overlap: “lie” (to recline) has the parts “lie,” “lay,” “lain,” whereas “lay” (to put or place) has “lay,” “laid,” “laid.” So “lay” is the past of “lie” (“Yesterday the dog lay by the fire”) and also the present of “lay” (“Lay the cups on the tray”).</p>"
   }
  ]
 };
