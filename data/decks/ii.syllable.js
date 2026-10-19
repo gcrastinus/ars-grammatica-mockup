@@ -45,7 +45,7 @@ ARS.decks['ii.syllable'] = {
 { id: 'open-closed',
   title: 'Open and closed syllables',
   body: `<p>In Latin <i>pa-ter</i> (“father”) the first syllable ends in a vowel and the second in a consonant; in <i>por-ta</i> (“gate”) the first syllable ends in a consonant and the second in a vowel. In English both syllables of “ba-by” end in a vowel, and both syllables of “bas-ket” end in a consonant. A syllable that ends in a vowel is called <strong>open</strong>, and a syllable that ends in a consonant is called <strong>closed</strong>.</p>
-<p>The distinction matters because the length of a Latin syllable depends on it. A syllable with a short vowel is short if it is open, but long if it is closed, because the consonant at its end adds to the time needed to pronounce it. So the rules for dividing words into syllables are also the ground of the rules for measuring them.</p>`,
+<p>The distinction matters because the length of a Latin syllable depends on it. Here we must keep apart the length of the vowel and the length of the syllable. A syllable with a short vowel is short if it is open. If it is closed, the vowel stays short, but the syllable as a whole is long, because the consonant at its end adds to the time needed to pronounce it: in <i>canunt</i> (“they sing”) the “u” is short, but the syllable “-nunt” is long. So the rules for dividing words into syllables are also the ground of the rules for measuring them.</p>`,
   src: `Allen, <i>Vox Latina</i>, appendix on syllabic division, in paraphrase.` },
 
 { id: 'latin-division-1',
