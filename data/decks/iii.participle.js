@@ -1,5 +1,5 @@
 /* III.10 The Participle [iii.participle]
-   Plan (ITEM-LIST.md): 9 panels, 2 question points (placeholders: qpTodo; to be written). One closing panel gives the
+   Plan (ITEM-LIST.md): 9 panels, 2 question points. One closing panel gives the
    modistic account of why the participle has the accidents of both noun and verb. Exercise: Participles (not yet written).
    Live material drawn on: DECKS.latvoice (the perfect passive participle, the perfect passive), DECKS.pos (participle and
    gerund), DECKS.modes (the participle in the four declinable parts). */
@@ -29,7 +29,20 @@ ARS.decks['iii.participle'] = {
 <tr><td>Future passive (gerundive)</td><td>present stem + <i>-ndus</i></td><td class="f"><i>laudandus</i>, “to be praised”</td></tr></table></div>
 <p>So Latin has no perfect active participle and no present passive participle. English “having praised” must be expressed in Latin in another way, and “being praised” has no single Latin equivalent. The perfect passive, future active, and future passive participles are declined like <i>bonus</i>, <i>bona</i>, <i>bonum</i>; the present participle is declined like an adjective of the third declension, <i>laudāns</i>, <i>laudantis</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 158, 488–500.`,
-  qpTodo: `The Latin participles: which participle is a given form (<i>monēns</i>, <i>monitus</i>, <i>monitūrus</i>, <i>monendus</i>), and what are its tense and signification.` },
+  qp: { id: 'q-latin-participles', variants: [
+    { prompt: `Which participle is Latin <i>monitūrus</i>, from <i>moneō</i> (“I warn”)?`,
+      options: [`The present active`, `The perfect passive`, `The future active`, `The future passive (gerundive)`],
+      answer: 2,
+      explain: `<i>Monitūrus</i> is the participial stem <i>monit-</i> with <i>-ūrus</i>, which makes the future active participle: “about to warn.”` },
+    { prompt: `What are the tense and signification of Latin <i>monitus</i>?`,
+      options: [`Present and active`, `Perfect and passive`, `Future and active`, `Perfect and active`],
+      answer: 1,
+      explain: `<i>Monitus</i> is the participial stem with <i>-us</i>, the perfect passive participle: “warned,” “having been warned.” Only deponent verbs have a perfect participle with active meaning.` },
+    { prompt: `Which participle is Latin <i>monendus</i>, and what does it signify?`,
+      options: [`The present active, “warning”`, `The future active, “about to warn”`, `The perfect passive, “warned”`, `The gerundive, “to be warned”`],
+      answer: 3,
+      explain: `<i>Monendus</i> is the present stem with <i>-ndus</i>, the future passive participle, called the gerundive: “to be warned,” that is, one who ought to be warned. The present active participle is <i>monēns</i>.` }
+  ]} },
 
 { id: 'agreement',
   title: 'The participle as adjective',
@@ -66,7 +79,20 @@ ARS.decks['iii.participle'] = {
   body: `<p>The English form in <i>-ing</i> is used in two different ways. In “the singing bird” it is a participle, because it describes the bird. In “Swimming strengthens the heart” it is a <strong>gerund</strong>, a verbal noun, because it names the action as a thing and is the subject of the sentence. We saw in Section I that the same activity can be signified as a thing (“running” as a noun) or as an action (“runs”), and the gerund is the form in which a verb is used in the mode of a noun.</p>
 <p>Latin distinguishes the two by their forms. The Latin <strong>gerund</strong> is a verbal noun declined only in the oblique cases: <i>ars amandī</i>, “the art of loving”; <i>ad legendum</i>, “for reading.” For the nominative Latin uses the infinitive: <i>legere iūcundum est</i>, “reading is pleasant.” So the question whether an English <i>-ing</i> form is a participle or a gerund is decided, like every question of the parts of speech, by how the word is used in its sentence.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 501–507, in paraphrase.`,
-  qpTodo: `Participle or gerund: in a given sentence, is the <i>-ing</i> form a participle or a gerund (“the barking dog,” “Rowing is hard work,” “She dislikes waiting”), and why.` },
+  qp: { id: 'q-gerund', variants: [
+    { prompt: `In “the barking dog,” is “barking” a participle or a gerund?`,
+      options: [`A participle, because it describes the dog`, `A gerund, because it names the barking as a thing`, `A gerund, because it ends in <i>-ing</i>`, `A participle, because it is the subject`],
+      answer: 0,
+      explain: `“Barking” describes the dog, as an adjective does, so it is a participle. An <i>-ing</i> form is a gerund only when it names the action as a thing, as in “Barking annoys the neighbors.”` },
+    { prompt: `In “Rowing is hard work,” what is “rowing”?`,
+      options: [`A participle, describing someone who rows`, `A gerund, the subject of the sentence`, `A verb in the present tense`, `An adjective`],
+      answer: 1,
+      explain: `“Rowing” names the action as a thing and is the subject of “is,” so it is a gerund, a verbal noun. It describes no one, so it is not a participle.` },
+    { prompt: `In “She dislikes waiting,” why is “waiting” a gerund?`,
+      options: [`Because it describes the woman`, `Because it is the object of “dislikes”`, `Because every <i>-ing</i> form is a gerund`, `Because it has its own subject, “she”`],
+      answer: 1,
+      explain: `“Waiting” names the action as a thing, the object of “dislikes,” as a noun would be. The same form is a participle when it describes a noun, as in “the waiting crowd.”` }
+  ]} },
 
 { id: 'modist',
   title: 'The modists on the participle',
