@@ -9,27 +9,27 @@ ARS.decks["lang.vi.fr/errors"] = {
   {
    "id": "one-word",
    "title": "An error in one word",
-   "body": "<p>A student writes <em>des journals</em> for “newspapers,” and <em>nous mangezons</em> for “we eat.” Neither word is a French form. The plural of <em>journal</em> is <em>journaux</em>. The first person plural of <em>manger</em> is <em>nous mangeons</em>. <em>Vous mangez</em> is a real form, and it is second person. Joining that ending to <em>-ons</em> does not make a word.</p><p>An accent can make the same difference inside one written word. <em>Là</em> means “there.” <em>La</em> is the feminine article. <em>Sûr</em> means “sure.” <em>Sur</em> means “on.” The accented word and the unaccented word are two words. Writing one for the other is an error in that word.</p><p>Donatus calls a fault in one word a <strong>barbarism</strong> (<em>barbarismus est una pars orationis vitiosa in communi sermone</em>; <em>Ars maior</em> III). <em>Journals</em> and <em>mangezons</em> are barbarisms. So is <em>la</em> written where the sentence requires <em>là</em>.</p>",
+   "body": "<p>A student writes <em>des journals</em> for “newspapers,” and <em>nous mangezons</em> for “we eat.” Neither <em>journals</em> nor <em>mangezons</em> is a French form, because the plural of <em>journal</em> is <em>journaux</em>, and the first person plural of <em>manger</em> (“to eat”) is <em>nous mangeons</em>. <em>Vous mangez</em> (“you eat”) is a real form of the second person, but joining its ending to <em>-ons</em> does not make a word.</p><p>An accent can make the same difference within one written word: <em>là</em> means “there,” whereas <em>la</em> is the feminine article; <em>sûr</em> means “sure,” whereas <em>sur</em> means “on.” The accented and the unaccented forms are two different words, and so writing one for the other is an error in that word.</p><p>Donatus calls a fault in one word a <strong>barbarism</strong>, “one part of speech faulty in ordinary speech” (<em>una pars orationis vitiosa in communi sermone</em>; <em>Ars maior</em> III). So <em>journals</em> and <em>mangezons</em> are barbarisms, and so is <em>la</em> written where the sentence requires <em>là</em>.</p>",
    "qp": {
     "id": "q-one-word",
     "variants": [
      {
       "prompt": "A student writes <em>des hôpitals</em>. What kind of error is <em>hôpitals</em>?",
-      "options": ["No error: the plural of <em>hôpital</em> adds <em>-s</em>", "A solecism: <em>des</em> and <em>hôpitals</em> disagree in gender", "A barbarism: the plural is <em>hôpitaux</em>", "A metaplasm required in ordinary prose"],
+      "options": ["No error: the plural of <em>hôpital</em> adds <em>-s</em>", "A solecism: <em>des</em> and <em>hôpitals</em> disagree in gender", "A barbarism: the plural is <em>hôpitaux</em>", "A metaplasm, since the form is unusual"],
       "answer": 2,
       "explain": "<em>Hôpital</em> forms the plural <em>hôpitaux</em>, as <em>journal</em> forms <em>journaux</em>. <em>Hôpitals</em> is not a French form, so the error is in the one word."
      },
      {
-      "prompt": "Why is <em>chevaux</em> not a barbarism?",
-      "options": ["Because every plural in <em>-aux</em> is a poet’s license", "Because it is the French plural of <em>cheval</em>", "Because <em>chevaux</em> is a verb, not a noun", "Because a barbarism can occur only in a preposition"],
+      "prompt": "Why is <em>canaux</em> (“canals”) not a barbarism, although it does not end in <em>-s</em>?",
+      "options": ["Because every plural in <em>-aux</em> is a poet’s license", "Because it is the real plural of <em>canal</em>", "Because a barbarism is an error in the joining of words", "Because a plural noun cannot be a barbarism"],
       "answer": 1,
-      "explain": "<em>Chevaux</em> is the real plural, of the same pattern as <em>journaux</em>. A barbarism is a form the language does not have."
+      "explain": "<em>Canaux</em> is the real plural, of the same pattern as <em>journaux</em>. A barbarism is a form the language does not have, such as <em>canals</em>; an error in the joining of words is a solecism."
      },
      {
       "prompt": "What does Donatus call an error in one word, in ordinary speech?",
       "options": ["A solecism", "A barbarism", "A metaplasm", "A contraction"],
       "answer": 1,
-      "explain": "A barbarism is a fault in one word. A solecism is a fault in the joining. A metaplasm is Donatus’s name for the poet’s departure, not for the error in ordinary speech."
+      "explain": "A barbarism is an error in one word, whereas a solecism is an error in the joining of words. A metaplasm is Donatus’s name for the poet’s departure, not for the error in ordinary speech."
      }
     ]
    }
@@ -37,7 +37,7 @@ ARS.decks["lang.vi.fr/errors"] = {
   {
    "id": "agreement",
    "title": "Gender and number",
-   "body": "<p><em>Le maison</em> joins two real French words, and they do not fit. <em>Maison</em> (“house”) is feminine. The article is <em>la</em>. <em>Les enfants joue</em> fails in number. <em>Enfants</em> is plural, and <em>joue</em> is the third person singular of <em>jouer</em> (“to play”). The third person plural is <em>jouent</em>.</p><p>Donatus calls a fault in the joining a <strong>solecism</strong> (<em>soloecismus est vitium in contextu partium orationis contra regulam artis grammaticae factum</em>). Each word exists. The construction is incorrect. <em>Le maison</em> is not a barbarism, because <em>maison</em> is a real word and <em>le</em> is a real article.</p>",
+   "body": "<p><em>Le maison</em> joins two real French words, but they do not fit, because <em>maison</em> (“house”) is feminine, and its article is <em>la</em>. <em>Les enfants joue</em> fails in number, because <em>enfants</em> (“children”) is plural, whereas <em>joue</em> is the third person singular of <em>jouer</em> (“to play”); the third person plural is <em>jouent</em>.</p><p>Donatus calls an error of this kind a <strong>solecism</strong>, “a fault in the joining of the parts of speech, made against the rule of the art of grammar” (<em>vitium in contextu partium orationis contra regulam artis grammaticae factum</em>; <em>Ars maior</em> III.2). Each word exists, but the construction is incorrect. So <em>le maison</em> is not a barbarism, because <em>maison</em> is a real word and <em>le</em> is a real article.</p>",
    "qp": {
     "id": "q-agreement",
     "variants": [
@@ -49,15 +49,15 @@ ARS.decks["lang.vi.fr/errors"] = {
      },
      {
       "prompt": "What fails in <em>les élève chante</em>?",
-      "options": ["Nothing: a plural article takes a singular noun and a singular verb", "<em>Chante</em> is not a form of <em>chanter</em>", "Number: <em>les</em> is plural, and <em>élève</em> and <em>chante</em> are singular", "<em>Élève</em> is an adverb"],
+      "options": ["Nothing: a plural article takes a singular noun and a singular verb", "<em>Chante</em> is not a form of <em>chanter</em>", "Number: <em>les</em> is plural, and <em>élève</em> and <em>chante</em> are singular", "Gender: <em>élève</em> is feminine"],
       "answer": 2,
       "explain": "The words are real. <em>Les</em> is plural, so the noun is <em>élèves</em> and the verb is <em>chantent</em>. The same mismatch of number makes <em>les enfants joue</em> a solecism."
      },
      {
-      "prompt": "Why is <em>la maison</em> not a solecism?",
-      "options": ["Because <em>maison</em> has no gender", "The article agrees", "Because <em>la</em> means “there” in this phrase", "Because a solecism is an error inside one letter"],
+      "prompt": "Why is <em>la fleur</em> (“the flower”) not a solecism?",
+      "options": ["Because <em>fleur</em> has no gender", "The article agrees", "Because <em>la</em> means “there” in this phrase", "Because a solecism needs a verb"],
       "answer": 1,
-      "explain": "<em>Maison</em> is feminine, and <em>la</em> agrees with it. The solecism was <em>le maison</em>, where the article did not agree."
+      "explain": "<em>Fleur</em> is feminine, and <em>la</em> agrees with it. In <em>le maison</em>, by contrast, the masculine article does not agree with a feminine noun."
      }
     ]
    }
@@ -65,7 +65,7 @@ ARS.decks["lang.vi.fr/errors"] = {
   {
    "id": "participle",
    "title": "The participle, au, and de",
-   "body": "<p><em>Les portes que j’ai ouvert</em> uses real forms, and the participle does not fit. <em>Portes</em> (“doors”) is feminine plural, and <em>que</em> stands for that direct object, before the verb. With <em>avoir</em>, the past participle then agrees: <em>les portes que j’ai ouvertes</em>. When the direct object follows, the participle does not agree. <em>J’ai ouvert les portes</em> is the matching sentence.</p><p>With <em>être</em>, the participle agrees with the subject. <em>Elle est arrivé</em> fails. <em>Elle est arrivée</em> (“she has arrived”) agrees.</p><p><em>À le marché</em> is the same kind of error. <em>À</em> and <em>le</em> are real words, and before the singular article they contract: <em>au marché</em> (“to the market,” or “at the market”). After a negation, and after <em>beaucoup</em>, the partitive is <em>de</em> alone: <em>pas de lait</em> (“no milk”), <em>beaucoup de lait</em> (“a lot of milk”), not <em>pas du lait</em>. Before an adjective in the plural, <em>des</em> likewise becomes <em>de</em>: <em>de bons livres</em> (“good books”), not <em>des bons livres</em>.</p>",
+   "body": "<p><em>Les portes que j’ai ouvert</em> (“the doors that I opened”) uses real forms, but the participle does not fit. <em>Portes</em> (“doors”) is feminine plural, and <em>que</em> stands for that direct object before the verb; with <em>avoir</em>, the past participle then agrees with it: <em>les portes que j’ai ouvertes</em>. When the direct object follows the verb, the participle does not agree, as in <em>j’ai ouvert les portes</em> (“I opened the doors”).</p><p>With <em>être</em>, the participle agrees with the subject, so <em>elle est arrivé</em> is incorrect, whereas <em>elle est arrivée</em> (“she has arrived”) agrees.</p><p><em>À le marché</em> is the same kind of error, because <em>à</em> and <em>le</em> are real words, but before the masculine singular article <em>à</em> must contract: <em>au marché</em> (“to the market,” or “at the market”). After a negation, and after <em>beaucoup</em>, the partitive is <em>de</em> alone: <em>pas de lait</em> (“no milk”), <em>beaucoup de lait</em> (“a lot of milk”), not <em>pas du lait</em>. Before an adjective in the plural, <em>des</em> likewise becomes <em>de</em>: <em>de bons livres</em> (“good books”), not <em>des bons livres</em>.</p>",
    "qp": {
     "id": "q-participle",
     "variants": [
@@ -77,13 +77,13 @@ ARS.decks["lang.vi.fr/errors"] = {
      },
      {
       "prompt": "Choose the phrase for “to the teacher.”",
-      "options": ["<em>à le professeur</em>", "<em>au professeur</em>", "<em>à les professeur</em>", "<em>aux le professeur</em>"],
+      "options": ["<em>à le professeur</em>", "<em>au professeur</em>", "<em>à les professeur</em>", "<em>aux professeur</em>"],
       "answer": 1,
       "explain": "<em>À</em> contracts with <em>le</em> to <em>au</em>, as <em>au marché</em> replaces <em>à le marché</em>. <em>Professeur</em> is masculine singular."
      },
      {
       "prompt": "Why is the phrase <em>pas de vin</em>, not <em>pas du vin</em>?",
-      "options": ["Because <em>vin</em> is feminine", "Negation takes <em>de</em> alone", "Because <em>pas</em> is a preposition that takes <em>au</em>", "Because <em>du</em> is the past participle of <em>devoir</em>"],
+      "options": ["Because <em>vin</em> is feminine", "Negation takes <em>de</em> alone", "Because <em>pas</em> is a preposition that takes <em>au</em>", "Because <em>vin</em> is plural"],
       "answer": 1,
       "explain": "After a negation the partitive is <em>de</em> alone, as in <em>pas de lait</em>. <em>Du vin</em> is the partitive in an affirmative phrase such as <em>il boit du vin</em>."
      }
@@ -93,7 +93,7 @@ ARS.decks["lang.vi.fr/errors"] = {
   {
    "id": "prose-poem",
    "title": "Ordinary speech and the poet",
-   "body": "<p><em>Journals</em> in a student’s sentence is a barbarism. The plural is <em>journaux</em>. A poet may invert the ordinary order of a sentence, and that inversion is not the same error. The words are real, and the departure is one the verse allows.</p><p>Donatus marks the difference of setting. A barbarism belongs to ordinary speech. In a poem he calls the same departure in a word a metaplasm (<em>in poemate metaplasmus</em>). The license belongs to the poem. It does not make <em>journals</em> a French plural in prose.</p>",
+   "body": "<p>A poet may invert the ordinary order of a French sentence, but that inversion is not the same kind of departure as <em>journals</em> in a student’s sentence, because the poet’s words are all real French words, and the departure is one that verse allows, whereas <em>journals</em> is not a French form.</p><p>Donatus also distinguishes by setting. A barbarism belongs to ordinary speech, whereas in a poem he calls a departure in a single word a <strong>metaplasm</strong> (<em>in poemate metaplasmus</em>), a change of form allowed to the poet. That permission belongs to the poem; it does not make <em>journals</em> a French plural in prose.</p>",
    "qp": {
     "id": "q-prose-poem",
     "variants": [
@@ -105,15 +105,15 @@ ARS.decks["lang.vi.fr/errors"] = {
      },
      {
       "prompt": "What does Donatus call a poet’s departure in a single word?",
-      "options": ["A solecism, because verse has no words", "A metaplasm", "A barbarism, and the poem is incorrect for that reason", "No departure: a poem cannot change a word"],
+      "options": ["A solecism, because the error lies in the joining", "A metaplasm", "A barbarism, and the poem is incorrect for that reason", "No departure: a poem cannot change a word"],
       "answer": 1,
       "explain": "Donatus calls the departure a metaplasm in a poem, and a barbarism in ordinary speech. The license is the poet’s."
      },
      {
-      "prompt": "Why does a poet’s inversion of word order differ from <em>des journals</em>?",
-      "options": ["The inversion uses real words; <em>journals</em> is not a French form", "Both are barbarisms, because both occur in writing", "The inversion is a gender error, and <em>journals</em> is a tense", "There is no difference"],
+      "prompt": "Why does a poet’s inversion of word order differ from <em>des animals</em> for “animals”?",
+      "options": ["The inversion uses real words; <em>animals</em> is not a French form", "Both are barbarisms, because both depart from ordinary prose", "Both are metaplasms, because both are unusual", "<em>Animals</em> is a solecism, and the inversion is a barbarism"],
       "answer": 0,
-      "explain": "<em>Journals</em> fails as a word. The plural is <em>journaux</em>. An inversion keeps real French words and changes their order, which verse may do."
+      "explain": "The plural of <em>animal</em> is <em>animaux</em>, so <em>animals</em> fails as a word. An inversion keeps real French words and changes their order, which verse may do."
      }
     ]
    }
