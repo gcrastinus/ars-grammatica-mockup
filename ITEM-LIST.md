@@ -183,8 +183,8 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 - Reuse: `ensyl` (6), `syllable` (6); items from `EX.ensyl` and `EX.syllable`
 
 **II.4 Quantity and Accent** `[ii.quantity]`. Long and short syllables, by nature and by position; the acute, grave, and circumflex; English stress, which is not quantity.
-- Panels 13 · QP 4
-- Exercise: **Quantity, Stress, and Accent**, pool 48, three fixed sets of 16. The items cover Latin quantity by position, the Latin penultimate rule, and English primary stress with the suffixes that move it.
+- Panels 16 · QP 4 (Allen and Greenough §§ 9–12 cards added 19 Oct 2026: hidden quantity, a final syllable before the next word, consonant *i*)
+- Exercise: **Quantity, Stress, and Accent**, pool 60, three fixed sets of 20. The items cover Latin quantity by nature and by position (with the mute-and-liquid exception, hidden quantity, the vowel before *ns*, *nf*, *nd*, *nt*, final syllables before the next word, and consonant *i*), the Latin penultimate rule, and English primary stress with the suffixes that move it.
 - Taught-only limit: long vowels are marked with macrons in every Latin item, since natural quantity cannot be seen from the spelling and the student is not expected to know it.
 - Sources: Donatus, *Ars maior* I.5 (rule 9); Quintilian I.5.22–31 (Butler); Allen, *Vox Latina*; Smyth, *Greek Grammar*, the chapter on accent, only for one example of Greek pitch accent
 - Reuse: `syllable`, `ensyl`, and examples from `grcsyl`, `desyl`, and `frsyl` (not as decks); `EX.syllable`, `EX.ensyl`
@@ -239,17 +239,17 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 *The declinable parts*
 
 **III.5 The Noun I: Kinds, Quality, and Comparison** `[iii.noun-1]`. Proper and common nouns, the adjective under the noun, and the degrees of comparison.
-- Panels 10 · QP 3 · Exercise: in the shared Nouns and Adjectives set
+- Panels 10 · QP 3 · Exercise: **The Noun I** `[iii.ex.noun-1]`, pool 24, three fixed sets of 8
 - Sources: Donatus, *Ars minor* (Chase) and *Ars maior* II (rule 9); Priscian II–III (rule 9)
 - Reuse: `pos`, the noun and adjective panels; `enacc`, comparison
 
 **III.6 The Noun II: Gender, Number, and Case** `[iii.noun-2]`. The accidents that make declension, with the cases set beside English word order and prepositions. Two closing panels give the modistic account of the noun's accidents and the objection from grammatical gender.
-- Panels 14 · QP 4 · Exercise: in the shared Nouns and Adjectives set
+- Panels 14 · QP 4 · Exercise: **The Noun II** `[iii.ex.noun-2]`, pool 36, three fixed sets of 12
 - Sources: Priscian V–VII (rule 9); Allen and Greenough, *New Latin Grammar*; Thomas of Erfurt (Bursill-Hall) for the closing panels
 - Reuse: `latnoun` (6), `casework` (8), `enacc`; `objections`, the gender panel; `EX.cases` becomes question-point variants
 
-**Exercise button: Nouns and Adjectives** `[iii.ex.nouns]` (after III.6). This set covers III.5 and III.6.
-- Pool 60, three fixed sets of 20. Latin forms are generated from the declension tables and checked exactly.
+**Exercise buttons: The Noun I and The Noun II** `[iii.ex.noun-1]`, `[iii.ex.noun-2]` (on III.5 and III.6; split from the former shared set `iii.ex.nouns` on 19 Oct 2026, Timothy: each study set gets questions on what it teaches, and the reviews take them together).
+- Pools 24 and 36 (the former 60), three fixed sets each. Latin forms are generated from the declension tables and checked exactly.
 - Taught-only limit: only the declensions shown in III.6. Sentences use verbs only as glossed words, so that no item depends on the verb.
 - Reuse: `EX.latnoun`, `EX.produce` (noun forms)
 
@@ -261,18 +261,18 @@ Notes marked *Planning note* are written for Timothy (some in the first person) 
 - Reuse: `enacc`, the pronoun panels
 
 **III.8 The Verb I: Quality, Mood, and Voice** `[iii.verb-1]`. The forms and moods of the verb, and active, passive, neuter, and deponent (*genus*).
-- Panels 12 · QP 3 · Exercise: in the shared Verbs set
+- Panels 12 · QP 3 · Exercise: **The Verb I** `[iii.ex.verb-1]`, pool 24, three fixed sets of 8
 - Sources: Donatus, *Ars minor* (Chase) and *Ars maior* II (rule 9); Priscian VIII (rule 9)
 - Reuse: `latverb` (6), `latvoice` (6)
 
 **III.9 The Verb II: Tense, Person, Number, and Conjugation** `[iii.verb-2]`. How the verb marks time, aspect, and person, and how verbs are conjugated.
 - It has two panels on aspect: complete and incomplete action, the Latin perfect against the imperfect, and the English progressive and perfect, with Greek where it shows aspect most clearly. Two closing panels give the modistic account of the verb's accidents.
-- Panels 15 · QP 4 · Exercise: in the shared Verbs set
+- Panels 15 · QP 4 · Exercise: **The Verb II** `[iii.ex.verb-2]`, pool 36, three fixed sets of 12, each set with 4 items on aspect
 - Sources: Priscian VIII–X (rule 9); Varro, *De lingua Latina* IX–X on *infectum* and *perfectum* (Kent, Loeb); Smyth, *Greek Grammar*, on aspect; Thomas of Erfurt (Bursill-Hall)
 - Reuse: `latverb`, `enacc` (tense and aspect), `casework`; `modes`, the panel on why the verb has time
 
-**Exercise button: Verbs** `[iii.ex.verbs]` (after III.9). This set covers III.8 and III.9.
-- Pool 60, three fixed sets of 20, each set with at least 4 items on aspect. Latin forms are generated from the conjugation tables.
+**Exercise buttons: The Verb I and The Verb II** `[iii.ex.verb-1]`, `[iii.ex.verb-2]` (on III.8 and III.9; split from the former shared set `iii.ex.verbs` on 19 Oct 2026, as for the nouns).
+- Pools 24 and 36 (the former 60), three fixed sets each; each set of III.9 has 4 items on aspect. Latin forms are generated from the conjugation tables.
 - Taught-only limit: the conjugations and tenses shown in III.8 and III.9; no participles.
 - Reuse: `EX.latverb`, `EX.produce` (verb forms)
 

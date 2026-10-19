@@ -1,4 +1,6 @@
-/* The order of the whole course: 76 buttons (ITEM-LIST.md's 71, with section reviews added for I, VIII, IX, X, and XI on Timothy's instruction, 17 Oct 2026).
+/* The order of the whole course: 73 buttons (ITEM-LIST.md's 71, with section reviews added for I, VIII, IX, X, and XI on Timothy's instruction, 17 Oct 2026;
+   the Section I exercise merged into its review, 18 Oct; the Nouns and Verbs exercise tiles split by deck into the Exercise
+   buttons of iii.noun-1, iii.noun-2, iii.verb-1, and iii.verb-2, 19 Oct 2026).
    Each item has a stable id (never changed when a title or a position changes; progress is stored under it).
    kind: 'study' (a deck), 'study-ex' (a deck with its own exercise set), 'exercise' (a shared exercise set),
          'review' (a section review).
@@ -49,13 +51,11 @@ ARS.structure = [
    { id:'iii.reasons', kind:'study', built:true, title:'The Reasons for the Parts', desc:'Why are there eight parts of speech, and how do they differ by their mode of signifying?' },
    { id:'iii.figure', kind:'study-ex', built:true, title:'Figure and Species', desc:'Simple and compound words, and primitive and derived words.' },
    { id:'iii.homonymy', kind:'study', built:true, title:'Homonymy and Synonymy', desc:'One word with many meanings, and many words with one meaning.' },
-   { id:'iii.noun-1', kind:'study', built:true, group:'The declinable parts', title:'The Noun I: Kinds, Quality, and Comparison', desc:'Proper and common nouns, the adjective under the noun, and the degrees of comparison.' },
-   { id:'iii.noun-2', kind:'study', built:true, title:'The Noun II: Gender, Number, and Case', desc:'The accidents that make declension, set beside English word order and prepositions.' },
-   { id:'iii.ex.nouns', kind:'exercise', title:'Nouns and Adjectives', desc:'The exercise set for III.5 and III.6.' },
+   { id:'iii.noun-1', kind:'study-ex', built:true, group:'The declinable parts', title:'The Noun I: Kinds, Quality, and Comparison', desc:'Proper and common nouns, the adjective under the noun, and the degrees of comparison.' },
+   { id:'iii.noun-2', kind:'study-ex', built:true, title:'The Noun II: Gender, Number, and Case', desc:'The accidents that make declension, set beside English word order and prepositions.' },
    { id:'iii.pronoun', kind:'study-ex', built:true, title:'The Pronoun', desc:'The pronoun and its accidents: quality, gender, number, figure, person, and case.' },
-   { id:'iii.verb-1', kind:'study', built:true, title:'The Verb I: Quality, Mood, and Voice', desc:'The forms and moods of the verb, and active, passive, neuter, and deponent verbs.' },
-   { id:'iii.verb-2', kind:'study', built:true, title:'The Verb II: Tense, Person, Number, and Conjugation', desc:'How does the verb mark time, aspect, and person, and how are verbs conjugated?' },
-   { id:'iii.ex.verbs', kind:'exercise', title:'Verbs', desc:'The exercise set for III.8 and III.9, including aspect.' },
+   { id:'iii.verb-1', kind:'study-ex', built:true, title:'The Verb I: Quality, Mood, and Voice', desc:'The forms and moods of the verb, and active, passive, neuter, and deponent verbs.' },
+   { id:'iii.verb-2', kind:'study-ex', built:true, title:'The Verb II: Tense, Person, Number, and Conjugation', desc:'How does the verb mark time, aspect, and person, and how are verbs conjugated?' },
    { id:'iii.participle', kind:'study-ex', built:true, title:'The Participle', desc:'The part of speech that shares in the noun and the verb, and its accidents.' },
    { id:'iii.review-declinable', kind:'review', title:'Section Review: The Word and the Declinable Parts', desc:'Forty-five questions on III.1 to III.10, in three fixed sets of fifteen.' },
    { id:'iii.adverb', kind:'study', built:true, group:'The indeclinable parts', title:'The Adverb', desc:'The adverb and its accidents: signification, comparison, and figure.' },
