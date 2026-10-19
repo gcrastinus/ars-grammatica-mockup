@@ -13,13 +13,6 @@ ARS.languages["lang.iv.en"] = {
    "built": true,
    "title": "Word Formation",
    "desc": "Word formation in English."
-  },
-{
-   "id": "lang.iv.en/formation-ex",
-   "kind": "exercise",
-   "built": true,
-   "title": "Word Formation",
-   "desc": "1 question."
   }
 
  ]

@@ -245,6 +245,7 @@
       accept: it.accept,
       answers: it.answers,
       macrons: it.macrons,
+      order: it.order,
       explain: it.explain || '',
       tokens: it.tokens,
       text: it.text,
@@ -389,8 +390,10 @@
             });
           });
         }
-        if (row.kind === 'ex' && row.ex && Array.isArray(row.ex.items) && row.ex.status !== 'plan'){
-          row.ex.items.forEach(it => {
+        if (row.kind === 'ex' && row.ex && row.ex.status !== 'plan'){
+          const generated = typeof row.ex.fresh === 'function';
+          const list = generated ? row.ex.fresh(row.ex.reviewCount || 4) : (row.ex.items || []);
+          list.forEach(it => {
             const key = promptKey(it.prompt);
             if (!itemPlayable(it) || seen.has(it.id) || prompts.has(key)) return;
             seen.add(it.id);

@@ -47,7 +47,7 @@ ARS.languages["lang.v.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "Building the Latin Sentence",
-   "desc": "6 questions."
+   "desc": "Sentences drawn fresh each time from a small vocabulary of nouns, verbs, and adjectives."
   },
 {
    "id": "lang.v.la/more-ex",

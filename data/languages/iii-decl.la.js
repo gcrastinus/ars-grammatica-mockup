@@ -19,7 +19,7 @@ ARS.languages["lang.iii-decl.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "The Latin Noun",
-   "desc": "5 questions."
+   "desc": "Forms drawn fresh each time from 50 nouns and 13 adjectives."
   },
 {
    "id": "lang.iii-decl.la/verb",
@@ -33,7 +33,7 @@ ARS.languages["lang.iii-decl.la"] = {
    "kind": "exercise",
    "built": true,
    "title": "The Latin Verb",
-   "desc": "6 questions."
+   "desc": "Forms drawn fresh each time from 29 verbs."
   },
 {
    "id": "lang.iii-decl.la/casework",

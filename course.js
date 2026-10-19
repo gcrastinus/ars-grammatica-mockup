@@ -13,6 +13,7 @@
    form      answer, or accept (string or list). answers is read when accept is absent.
              Same normalization as count. One trailing period is ignored. Any other final
              punctuation is kept. Not treated as a number.
+             order: "any" — the words are compared in any order (a built sentence).
    divide    answer, the stored division, with hyphens. Same normalization, then hyphens and
              dashes are read as "-", and spaces around a hyphen are removed.
    transform accept, a short list (or one string). answer or answers is used when accept is absent.
@@ -415,10 +416,17 @@ function acceptedOf(item){
   if (item.type === 'count' && typeof item.answer === 'number' && isFinite(item.answer)) return [String(item.answer)];
   return [];
 }
+function foldTokens(s, item){
+  return foldForm(s, item).split(' ').filter(Boolean).sort().join(' ');
+}
+function gradeFold(item){
+  if (item && item.order === 'any') return s => foldTokens(s, item);
+  return foldOf(item);
+}
 function gradeTypedAnswer(item, given){
   const accepted = acceptedOf(item);
   if (!accepted.length) return false;
-  const fold = foldOf(item);
+  const fold = gradeFold(item);
   const g = fold(given);
   if (!g) return false;
   return accepted.some(a => fold(a) === g);
@@ -426,7 +434,7 @@ function gradeTypedAnswer(item, given){
 function alsoAccepted(item){
   const accepted = acceptedOf(item);
   if (accepted.length < 2) return [];
-  const fold = foldOf(item);
+  const fold = gradeFold(item);
   const seen = new Set([fold(accepted[0])]);
   const out = [];
   for (let i = 1; i < accepted.length; i++){
@@ -732,15 +740,32 @@ function runQueue(spec){
   show('scr-ex');
   renderItem();
 }
-/* A one-question set is stored once, with set "all", and that item is the sitting for A, B, and C. */
+/* A one-question set is stored once, with set "all". That item is asked with every set
+   that has questions of its own, and it is the whole sitting when a set has none. */
 function itemsForSet(ex, set){
   const items = ex.items || [];
   const own = items.filter(x => x.set === set);
-  if (own.length) return own;
-  return items.filter(x => x.set === 'all');
+  const shared = items.filter(x => x.set === 'all');
+  if (own.length) return own.concat(shared);
+  if (shared.length) return shared;
+  return [];
 }
 function runEx(ex){
-  const st = exState(ex.id); const forms = ex.sets ? Object.keys(ex.sets) : FORMS; const set = forms[st.visits % forms.length]; st.visits += 1; save();
+  const st = exState(ex.id);
+  st.visits += 1;
+  save();
+  if (typeof ex.fresh === 'function'){
+    const items = ex.fresh(20);
+    runQueue({
+      ex: ex, set: '', items: items, hash: 'ex/' + ex.id,
+      kind: ex.kind === 'review' ? 'Section review' : 'Exercise',
+      title: ex.title,
+      sub: `${items.length} questions, drawn fresh. ${ex.instr || ''}`
+    });
+    return;
+  }
+  const forms = ex.sets ? Object.keys(ex.sets) : FORMS;
+  const set = forms[(st.visits - 1) % forms.length];
   const items = itemsForSet(ex, set);
   runQueue({
     ex: ex, set: set, items: items, hash: 'ex/' + ex.id,
@@ -897,11 +922,13 @@ function renderSummary(){
   }
   const ids = Object.keys(run.first), right = ids.filter(i => run.first[i]).length;
   const byId = {};
-  (run.ex ? run.ex.items : run.queue).forEach(x => { if (x && x.id) byId[x.id] = x; });
+  const listed = (run.ex && run.ex.items && run.ex.items.length) ? run.ex.items : run.queue;
+  listed.forEach(x => { if (x && x.id) byId[x.id] = x; });
   const missed = ids.filter(i => run.first[i] === false).map(i => byId[i]).filter(Boolean);
   const body = $('ex-body'); body.innerHTML = '';
   const box = document.createElement('div'); box.className = 'q-box qp';
-  box.innerHTML = `<div class="qp-label"><span>${run.set ? 'Set ' + run.set + ' finished' : 'Review finished'}</span></div>
+  const finished = run.set ? ('Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
+  box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
     <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;

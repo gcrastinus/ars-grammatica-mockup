@@ -13,13 +13,6 @@ ARS.languages["lang.iv.la"] = {
    "built": true,
    "title": "Word Formation",
    "desc": "Derivation and composition in Latin."
-  },
-{
-   "id": "lang.iv.la/formation-ex",
-   "kind": "exercise",
-   "built": true,
-   "title": "Word Formation",
-   "desc": "1 question."
   }
 
  ]
