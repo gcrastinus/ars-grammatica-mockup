@@ -15,17 +15,17 @@ ARS.decks['viii.supposition'] = {
 
 { id: 'review-signification',
   title: 'Signification: a review',
-  body: `<p>We have seen in Section I that a word signifies by imposition, and that what it signifies does not change from one sentence to another: “man” signifies the nature of man in every sentence in which it is used. We have also seen that only a statement is true or false. In this section we ask a further question, which arises only when a word is used in a statement: in this statement, what does the word stand for?</p>`,
+  body: `<p>In “The drum is beating” and in “Every drum has a skin,” the word “drum” signifies the same kind of thing. A word signifies by imposition, as we saw in Section I, and what it signifies does not change from one sentence to another: “man” signifies the nature of man in every sentence in which it is used. We have also seen that only a statement is true or false. In this section we ask a further question, which arises only when a word is used in a statement: in this statement, what does the word stand for?</p>`,
   src: `Aristotle, <i>De interpretatione</i> 1–4, in paraphrase.` },
 
 { id: 'review-modes',
   title: 'The modes of signifying: a review',
-  body: `<p>We have seen in Section III that the parts of speech differ by their modes of signifying, so that “running” and “runs” signify the same activity in different modes. The modists considered how words signify in order to explain their construction. The logicians of the same century, beginning from the same doctrine of signification, asked how words function in statements that are true or false. Their answer was the doctrine of supposition, which the grammarian must know because it explains how the same noun can refer to different things in different sentences.</p>`,
+  body: `<p>“Running” and “runs” signify the same activity, but in different modes; the parts of speech, as we saw in Section III, differ by their modes of signifying. The modists considered how words signify in order to explain their construction. The logicians of the same century, beginning from the same doctrine of signification, asked how words function in statements that are true or false. Their answer was the doctrine of supposition, which the grammarian must know because it explains how the same noun can refer to different things in different sentences.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, in paraphrase.` },
 
 { id: 'review-syncategorematic',
   title: 'Syncategorematic words: a review',
-  body: `<p>We have seen in Section I that categorematic words such as “man” and “runs” signify by themselves, whereas syncategorematic words such as “every,” “no,” “some,” and “not” determine how the other words are taken. The doctrine of supposition is largely an account of what these words do. A noun stands for different things according to the syncategorematic words that go with it, and according to its place in the statement. So supposition depends on the distinction between categorematic and syncategorematic words, and on the order of words, which we studied in Section V.</p>`,
+  body: `<p>“Every star shines” and “No star shines” differ only in one word, and that word changes what “star” is taken for. Categorematic words such as “man” and “runs,” as we saw in Section I, signify by themselves, whereas syncategorematic words such as “every,” “no,” “some,” and “not” determine how the other words are taken. The doctrine of supposition is largely an account of what these words do. A noun stands for different things according to the syncategorematic words that go with it, and according to its place in the statement. So supposition depends on the distinction between categorematic and syncategorematic words, and on the order of words, which we studied in Section V.</p>`,
   src: `William of Sherwood, <i>Syncategoremata</i> (Kretzmann for reference), in paraphrase.` },
 
 { id: 'what-supposition',
@@ -44,7 +44,7 @@ ARS.decks['viii.supposition'] = {
 { id: 'material',
   title: 'Material supposition',
   body: `<p>When a teacher says “Dog is a noun,” no one thinks that some dog is a noun; the sentence is about the word. A term has <strong>material supposition</strong> when it stands for itself as a word, that is, for the sound or the written mark. In “Dog is a noun,” “dog” stands for the word “dog,” not for any dog; in “Dog has three letters,” it stands for the written word. As we have seen, names of the second imposition, such as “noun,” are used to speak about words, and a term in material supposition is the word that is spoken about.</p>
-<p>Modern writing marks material supposition with quotation marks or italics: “‘Dog’ is a noun,” or “<i>Dog</i> is a noun.” The medieval logicians had no such marks, and they distinguished material supposition by the predicate: only a word can be a noun or have three letters. Ockham gives material supposition as the first of his three principal kinds (<i>Summa logicae</i> I.64); Peter of Spain does not list it separately.</p>`,
+<p>Modern writing marks material supposition with quotation marks or italics: “‘Dog’ is a noun,” or “<i>Dog</i> is a noun.” The medieval logicians had no such marks, and they distinguished material supposition by the predicate: only a word can be a noun or have three letters. William of Ockham, an English logician of the fourteenth century, gives material supposition as the first of his three principal kinds (<i>Summa logicae</i> I.64); Peter of Spain does not list it separately.</p>`,
   src: `Ockham, <i>Summa logicae</i> I.64 (Loux for reference); William of Sherwood, <i>Introductiones</i> V; both in paraphrase.` },
 
 { id: 'simple',
