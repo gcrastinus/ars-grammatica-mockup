@@ -153,10 +153,10 @@ ARS.decks['i.sign'] = {
       options: [`The spoken word “ladder”`, `The written word “ladder”`, `A ripple on a pond`, `The concept of a ladder in the mind`],
       answer: 3,
       explain: `The concept is that by which we know the ladder; we know the ladder by means of it without first noticing the concept itself. The spoken word, the written word, and the ripple must each first be perceived, and so they are instrumental signs.` },
-    { prompt: `When we think of a camel, what do we first know?`,
-      options: [`Our concept of the camel, and then the camel`, `The camel, by means of the concept`, `The word “camel,” and then the concept`, `Nothing, until the camel is in front of us`],
+    { prompt: `When we think of a giraffe, what do we first know?`,
+      options: [`Our concept of the giraffe, and then the giraffe`, `The giraffe, by means of the concept`, `The word “giraffe,” and then the concept`, `Nothing, until the giraffe is in front of us`],
       answer: 1,
-      explain: `The concept is a formal sign: it is that by which we know the camel, not what we first know. We can reflect on the concept afterwards, but it is the camel that we think of.` }
+      explain: `The concept is a formal sign: it is that by which we know the giraffe, not what we first know. We can reflect on the concept afterwards, but it is the giraffe that we think of.` }
   ]}},
 
 { id: 'why-grammar',
