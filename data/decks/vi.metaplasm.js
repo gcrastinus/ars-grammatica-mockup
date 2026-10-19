@@ -30,7 +30,7 @@ ARS.decks['vi.metaplasm'] = {
 <p><strong>aphaeresis</strong> (Greek, “taking away”) removes from the beginning: Latin <i>temnō</i> for <i>contemnō</i> (“I despise”); English “’tis” for “it is” and “’gainst” for “against”;<br><strong>syncope</strong> (“cutting short”) removes from the middle: Latin <i>commōrat</i> for <i>commōverat</i> (“had moved”); English “ne’er” for “never” and “e’er” for “ever”;<br><strong>apocope</strong> (“cutting off”) removes from the end: Latin <i>Achillī</i> for <i>Achillis</i> (“of Achilles”); English “ope” for “open.”</p>
 <p>These are the metaplasms most often met in English poetry, because English verse, as we saw in Section II, counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word. In prose the same shortened forms would be barbarisms, or at least informal, as “’tis” now is.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
-  qpTodo: `Metaplasms of adding and removing: which change has been made in a given poetic form (“ne’er,” “’tis,” “ope,” “adown”; <i>temnō</i>, <i>relliquiās</i>), and what is the regular form.` },
+  qpTodo: `Metaplasms of adding and removing: which change has been made in a given poetic form (“’gan” for “began,” “ta’en” for “taken”; <i>periclum</i> for <i>perīculum</i>, <i>induperātor</i> for <i>imperātor</i>), and what is the regular form.` },
 
 { id: 'quantity',
   title: 'Metaplasms of quantity',
@@ -59,7 +59,7 @@ ARS.decks['vi.metaplasm'] = {
 <p><strong>antithesis</strong> (Greek, “setting against”) puts one letter in place of another: Latin <i>ollī</i> for <i>illī</i> (“to him”), an old form used by Virgil for its archaic dignity;<br><strong>metathesis</strong> (“transposition”) moves letters to another place: Latin <i>Euandre</i> for <i>Euander</i> (the name Evander).</p>
 <p>So Donatus’s fourteen metaplasms are prosthesis, epenthesis, paragoge, aphaeresis, syncope, apocope, ectasis, systole, diaeresis, episynaloephe, synaloepha, ecthlipsis, antithesis, and metathesis. Each corresponds to one of the four ways of the barbarism (adding, removing, changing, and moving) or to a change of quantity or of syllables, and each is permitted only in verse and for a reason.</p>`,
   src: `Donatus, <i>Ars maior</i> III.4, in paraphrase.`,
-  qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>olli</i>, <i>Albai</i>, <i>multum ille</i>, <i>Ītaliam</i>), and what is the regular form.` },
+  qpTodo: `Naming the metaplasm: which of Donatus’s kinds is shown in a given example (<i>aulai</i> for <i>aulae</i> in <i>Aeneid</i> III.354, <i>monstrum horrendum</i> measured <i>monstr’ horrendum</i>, <i>steterunt</i> with a short <i>e</i> in <i>Aeneid</i> II.774), and what is the regular form.` },
 
 { id: 'license-limits',
   title: 'License and its limits',
