@@ -11,8 +11,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | The Syllable (`ii.syllable`) | 30 | 759 |
 | Quantity and Accent (`ii.quantity`) | 46 | 1133 |
 | Punctuation (*posituræ*) (`ii.punctuation`) | 31 | 972 |
-| Feet and Meter (`ii.meter`) | 47 | 1081 |
-| **Section II, whole section** | **224** | **5651** |
+| Feet and Meter (`ii.meter`) | 47 | 1099 |
+| **Section II, whole section** | **224** | **5669** |
 
 ## Voice (*vox*) (`ii.voice`)
 
@@ -227,7 +227,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 17. The first line of the *Aeneid*, *Arma virumque cano, Troiae qui primus ab oris*, is such a hexameter, and the opening of *Evangeline* imitates the six beats by stress.
 18. A caesura (Latin for a cutting) is a break between words inside a foot, not at a foot’s end.
 19. In the hexameter that break usually comes in the third foot, after the first syllable.
-20. If every word ended where a foot ends, the line would fall into six pieces; a word that runs past the end of a foot binds the line into one.
+20. If every word ended where a foot ends, the line would fall into equal pieces, an effect a poet might seek only rarely, since the words are meant to form a unity, whereas a word that runs past the end of a foot binds the line into one.
 21. The feet therefore divide the line by the meter, and the words divide it by the sense.
 22. The caesura is the break inside a foot, and punctuation marks the pauses of the sense, which need not fall at the same place.
 23. English has no fixed caesura, and the name is used more loosely for any strong pause within the line.

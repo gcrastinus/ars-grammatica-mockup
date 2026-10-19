@@ -31,7 +31,7 @@ ARS.decks['ii.meter'] = {
     `The first line of the <i>Aeneid</i>, <i>Arma virumque cano, Troiae qui primus ab oris</i>, is such a hexameter, and the opening of <i>Evangeline</i> imitates the six beats by stress.`,
     `A caesura (Latin for a cutting) is a break between words inside a foot, not at a foot’s end.`,
     `In the hexameter that break usually comes in the third foot, after the first syllable.`,
-    `If every word ended where a foot ends, the line would fall into six pieces; a word that runs past the end of a foot binds the line into one.`,
+    `If every word ended where a foot ends, the line would fall into equal pieces, an effect a poet might seek only rarely, since the words are meant to form a unity, whereas a word that runs past the end of a foot binds the line into one.`,
     `The feet therefore divide the line by the meter, and the words divide it by the sense.`,
     `The caesura is the break inside a foot, and punctuation marks the pauses of the sense, which need not fall at the same place.`,
     `English has no fixed caesura, and the name is used more loosely for any strong pause within the line.`,
