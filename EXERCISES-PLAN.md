@@ -1,6 +1,6 @@
 # Exercise sets and section reviews: plan for Sections I–XI
 
-This is the plan for Timothy's approval before any question is written. It follows ITEM-LIST.md (rules 4–8 and 11, and the "Exercise" line of each deck). Nothing here is student-facing yet, and no question, option, or answer has been written. The 186 question-point placeholders in the decks are a separate matter and are untouched.
+This is the plan for the exercise sets and section reviews, approved by Timothy. It follows ITEM-LIST.md (rules 4–8 and 11, and the "Exercise" line of each deck). The sets and reviews are written as they come in Phase 3, section by section, and the table below marks each one WRITTEN with its date; a file still marked as a plan shows its plan screen in the course. As of 19 Oct 2026 the sets and reviews of Sections I to VI are written, except the Section II review (`ii.review`), and those of Sections VII to XI are plans. The question points in the decks are a separate matter: those of Sections I to VI are written.
 
 ## What exists
 
