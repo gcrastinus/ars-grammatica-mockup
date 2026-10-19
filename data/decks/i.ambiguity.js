@@ -109,10 +109,10 @@ ARS.decks['i.ambiguity'] = {
 <p>Quintilian gives these same remedies for the ambiguities of construction: “the first may be remedied by a change of case, the second by separating the words or altering their position, the third by some addition” (VII.9.9). A change of case means a change in the ending of a Latin word, which shows what it belongs to; in English we usually change the order of the words or add a word instead.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VII.9.9.`,
   qp: { id: 'q-remedy', variants: [
-    { prompt: `How can “She struck the burglar with the poker” be made to say that the burglar had the poker?`,
-      options: [`“With the poker, she struck the burglar.”`, `“She struck the burglar with a poker.”`, `“She struck the burglar who had the poker.”`, `“With the poker in her hand, she struck the burglar.”`],
+    { prompt: `How can “She struck the intruder with the poker” be made to say that the intruder had the poker?`,
+      options: [`“With the poker, she struck the intruder.”`, `“She struck the intruder with a poker.”`, `“She struck the intruder who had the poker.”`, `“With the poker in her hand, she struck the intruder.”`],
       answer: 2,
-      explain: `Adding “who had” makes “the poker” belong to the burglar, so the construction is no longer ambiguous. Moving “with the poker” to the front would make it belong to “struck,” so that she used it.` },
+      explain: `Adding “who had” makes “the poker” belong to the intruder, so the construction is no longer ambiguous. Moving “with the poker” to the front would make it belong to “struck,” so that she used it.` },
     { prompt: `Quintilian gives three remedies for ambiguity of construction. Which of these is one of them?`,
       options: [`Separating the words or altering their position`, `Replacing every word with a Latin one`, `Making the sentence shorter`, `Asking the hearer what he understood`],
       answer: 0,
