@@ -2266,9 +2266,9 @@ ARS.exercises['i.review'] = {
     "“No rose bloomed.”"
    ],
    "bins": [
-    "All of them",
-    "At least one",
-    "None"
+    "Every rose",
+    "Some roses (not said to be all)",
+    "No rose"
    ],
    "answer": [
     0,
@@ -2278,7 +2278,7 @@ ARS.exercises['i.review'] = {
     1,
     2
    ],
-   "explain": "“Each” and “all” take every rose; “some,” “several,” and “a few” take at least one; “no” takes none. “Rose” and “bloomed” keep the same signification in every sentence, so the whole difference in meaning comes from the syncategorematic words, which say how much of “rose” is meant."
+   "explain": "“Each” and “all” take every rose; “some,” “several,” and “a few” take some roses without saying that all bloomed; “no” takes none. “Rose” and “bloomed” keep the same signification in every sentence, so the whole difference in meaning comes from the syncategorematic words, which say how much of “rose” is meant."
   },
   {
    "id": "sv-amb-9",
