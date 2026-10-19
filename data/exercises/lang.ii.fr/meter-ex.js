@@ -159,8 +159,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Counting <em>lion</em> as one syllable is…",
-   "explain": "<em>Synérèse</em> joins vowels that stand side by side, so <em>lion</em> is one syllable, as <em>hier</em> may be. <em>Diérèse</em> counts them apart, as when <em>passion</em> is three syllables. <em>Nuit</em> is one syllable too, but its vowels are an ordinary diphthong, not this choice.",
+   "prompt": "Counting <em>ciel</em> (“sky”) as one syllable is…",
+   "explain": "<em>Synérèse</em> counts two vowels that stand side by side as one syllable, so <em>ciel</em> is one syllable. <em>Diérèse</em> counts them apart, as <em>lion</em> is two syllables in classical verse.",
    "options": [
     "A feminine rhyme",
     "Elision before a consonant",

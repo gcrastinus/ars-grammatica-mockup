@@ -14,7 +14,7 @@ ARS.decks["lang.ii.fr/meter"] = {
   {
    "id": "meter-2",
    "title": "Diaeresis and Synaeresis",
-   "body": "<p><strong>Diaeresis and synaeresis.</strong> Two vowels side by side in a word may be counted as one syllable or as two, as custom fixes for each word and as the poet chooses. Counting them as one is <strong>synaeresis</strong> (French <em>synérèse</em>), as in <em>lion</em> (“lion”) and <em>hier</em> (“yesterday”). Counting them as two is <strong>diaeresis</strong> (French <em>diérèse</em>), as when <em>passion</em> is three syllables, <em>pas-si-on</em>, in classical verse. <em>Nuit</em> (“night”) is one syllable, but its vowels make an ordinary diphthong, so the poet has no choice to make there.</p>"
+   "body": "<p><strong>Diaeresis and synaeresis.</strong> Two vowels side by side in a word may be counted as one syllable or as two, as custom fixes for each word and as the poet chooses. Counting them as one is <strong>synaeresis</strong> (French <em>synérèse</em>), as in <em>pied</em> (“foot”) and, usually, <em>hier</em> (“yesterday”). Counting them as two is <strong>diaeresis</strong> (French <em>diérèse</em>): in classical verse <em>lion</em> (“lion”) is two syllables, <em>li-on</em>, and <em>passion</em> is three, <em>pas-si-on</em>. <em>Nuit</em> (“night”) is one syllable, but its vowels make an ordinary diphthong, so the poet has no choice to make there.</p>"
   },
   {
    "id": "meter-3",
