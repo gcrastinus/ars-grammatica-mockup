@@ -4,7 +4,7 @@ ARS.decks["lang.vii.la/figures"] = {
  "id": "lang.vii.la/figures",
  "title": "Latin Figures and Tropes",
  "sub": "Donatus’s figures of words and tropes, in his examples from Virgil and Ennius",
- "sources": "Donatus, <i>Ars maior</i>; Virgil; Dryden’s translation",
+ "sources": "Donatus, <i>Ars maior</i>; Virgil",
  "panels": [
   {
    "id": "figures-1",

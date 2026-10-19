@@ -47,7 +47,7 @@ ARS.decks['iii.figure'] = {
   title: 'Primitive and derived words',
   body: `<p>“Kingdom” is formed from “king,” “kindness” from “kind,” and “golden” from “gold,” in each case by adding an ending, whereas “king,” “kind,” and “gold” are not formed from another English word. Latin forms words in the same way: <i>montānus</i> (“of the mountains”) is formed from <i>mōns</i> (“mountain”), and <i>ferreus</i> (“of iron”) from <i>ferrum</i> (“iron”). The second accident, then, concerns whether a word is formed from another word.</p>
 <p>Priscian calls this accident species and divides it into two: the <strong>primitive</strong> species (<i>principālis</i>), which belongs to a word that is not formed from another, and the <strong>derived</strong> species (<i>dērīvātīva</i>), which belongs to a word that is formed from another (<i>Institutiones grammaticae</i> II). A derived word may belong to a different part of speech from its primitive, as “golden” is an adjective formed from the noun “gold,” and “widen” a verb formed from the adjective “wide.”</p>`,
-  src: `Priscian, <i>Institutiones grammaticae</i> IV, in paraphrase.` },
+  src: `Priscian, <i>Institutiones grammaticae</i> II (the two species of the noun); the derived nouns are treated in IV; in paraphrase.` },
 
 { id: 'figure-vs-species',
   title: 'Composition and derivation are different',

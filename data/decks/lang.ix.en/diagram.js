@@ -4,7 +4,7 @@ ARS.decks["lang.ix.en/diagram"] = {
  "id": "lang.ix.en/diagram",
  "title": "The Diagram",
  "sub": "Reed and Kellogg’s picture, as much as helps",
- "sources": "a standard English grammar",
+ "sources": "Alonzo Reed and Brainerd Kellogg, <i>Higher Lessons in English</i>",
  "panels": [
   {
    "id": "diagram-1",
