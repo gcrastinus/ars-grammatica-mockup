@@ -176,7 +176,7 @@ function langBar(bar){
   el.className = 'lang-bar';
   el.dataset.langbar = bar.id;
   const h = document.createElement('div');
-  h.className = 'cumul-h';
+  h.className = 'lang-h';
   h.textContent = bar.heading || 'The grammars of the particular languages';
   el.appendChild(h);
   const row = document.createElement('div');
@@ -185,7 +185,7 @@ function langBar(bar){
     const screen = langRecord(bar.id, L.code);
     const b = document.createElement('button');
     b.type = 'button';
-    b.className = 'lang-btn';
+    b.className = 'lang-btn lang-' + L.code;
     const mark = langScreenMark(screen);
     if (mark) b.classList.add(mark === 'done' ? 'is-done' : 'is-begun');
     b.dataset.screen = screen.id;

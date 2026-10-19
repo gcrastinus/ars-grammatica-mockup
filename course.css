@@ -350,24 +350,41 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .cumul-bar:hover{border-color:var(--gold-soft)}
 .cumul-h{font-family:'Cinzel',serif; font-size:18px; font-weight:600; letter-spacing:.04em}
 .cumul-range{font-style:italic; color:var(--ink-soft); font-size:16.5px; line-height:1.35}
-/* The particular-languages bar: the same frame and height as Cumulative Review. */
+/* The particular-languages bar. The heading is a small label; the buttons are the bar. */
 .lang-bar{
   grid-column:1 / -1; width:100%; min-height:102px; box-sizing:border-box;
-  display:flex; flex-direction:column; justify-content:center; align-items:stretch; gap:8px;
+  display:flex; flex-direction:column; justify-content:center; align-items:stretch; gap:7px;
   text-align:left; color:var(--ink); background:var(--card);
   border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
-  padding:10px 22px;
+  padding:10px 16px 12px;
 }
 .lang-bar:hover{border-color:var(--line)}
-.lang-btns{display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:8px}
-.lang-btn{
-  position:relative; font-family:'Cinzel',serif; font-size:14px; font-weight:600; letter-spacing:.04em;
-  color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:8px;
-  padding:6px 8px; cursor:pointer; line-height:1.2;
+.lang-bar .lang-h{
+  font-family:'Cinzel',serif; font-size:12px; font-weight:400; letter-spacing:.06em;
+  color:var(--ink-soft); line-height:1.25;
 }
-.lang-btn:hover{border-color:var(--gold-soft)}
+.lang-btns{display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:8px}
+.lang-bar .lang-btn{
+  --lang:#3a4550;
+  position:relative; font-family:'Cinzel',serif; font-size:17px; font-weight:600; letter-spacing:.02em;
+  color:var(--lang);
+  background:color-mix(in srgb, var(--lang) 15%, var(--card));
+  border:1px solid var(--lang); border-radius:8px;
+  padding:14px 8px; min-height:54px; cursor:pointer; line-height:1.15; text-align:center;
+  transition:background .15s, border-color .15s;
+}
+.lang-bar .lang-btn.lang-en{--lang:#3e5c49}
+.lang-bar .lang-btn.lang-la{--lang:#7b2d26}
+.lang-bar .lang-btn.lang-grc{--lang:#1e3a5f}
+.lang-bar .lang-btn.lang-fr{--lang:#6b4e2e}
+.lang-bar .lang-btn.lang-de{--lang:#3a4550}
+.lang-bar .lang-btn:hover,
+.lang-bar .lang-btn:focus-visible{
+  background:color-mix(in srgb, var(--lang) 28%, var(--card));
+}
+.lang-bar .lang-btn:focus-visible{outline:2px solid var(--lang); outline-offset:2px}
 .lang-mark{
-  position:absolute; top:2px; right:5px; font-size:10px; font-family:'EB Garamond',serif; line-height:1;
+  position:absolute; top:6px; right:7px; font-size:12px; font-family:'EB Garamond',serif; line-height:1;
 }
 .lang-btn.is-begun .lang-mark{color:var(--gold)}
 .lang-btn.is-done .lang-mark{color:var(--good-text)}
@@ -394,6 +411,20 @@ body.dark .lang-la{background:#8a3a32}
 body.dark .lang-grc{background:#2a5080}
 body.dark .lang-fr{background:#7a5a36}
 body.dark .lang-de{background:#4a5560}
+body.dark .lang-bar .lang-btn.lang-en{--lang:#2c4a3a}
+body.dark .lang-bar .lang-btn.lang-la{--lang:#8a3a32}
+body.dark .lang-bar .lang-btn.lang-grc{--lang:#2a5080}
+body.dark .lang-bar .lang-btn.lang-fr{--lang:#7a5a36}
+body.dark .lang-bar .lang-btn.lang-de{--lang:#4a5560}
+body.dark .lang-bar .lang-btn{
+  color:color-mix(in srgb, #fff 60%, var(--lang));
+  background:color-mix(in srgb, var(--lang) 55%, var(--card));
+  border-color:color-mix(in srgb, #fff 38%, var(--lang));
+}
+body.dark .lang-bar .lang-btn:hover,
+body.dark .lang-bar .lang-btn:focus-visible{
+  background:color-mix(in srgb, var(--lang) 68%, var(--card));
+}
 .para-wrap{overflow-x:auto; max-width:100%}
 .panel table.para{border-collapse:collapse; width:max-content; min-width:100%; margin:8px 0 14px; font-size:16.5px}
 .panel table.para th, .panel table.para td{
@@ -402,12 +433,19 @@ body.dark .lang-de{background:#4a5560}
 .panel table.para th{font-family:'Cinzel',serif; font-size:12px; font-weight:600; letter-spacing:.04em}
 .panel table.para td.f{font-style:italic}
 @media (max-width:600px){
-  .lang-bar{padding:8px 10px; gap:4px}
-  .lang-bar .cumul-h{font-size:14.5px; letter-spacing:.03em; line-height:1.15}
-  .lang-btn{font-size:11px; letter-spacing:.01em; padding:5px 1px; line-height:1.1}
+  .lang-bar{padding:8px 10px; gap:6px}
+  .lang-bar .lang-h{font-size:11px; letter-spacing:.04em; line-height:1.2}
+  .lang-btns{grid-template-columns:repeat(5, minmax(0, 1fr)); gap:5px}
+  .lang-bar .lang-btn{font-size:13px; letter-spacing:0; padding:11px 2px; min-height:44px; line-height:1.15; white-space:nowrap}
   .lang-band{padding:14px 14px}
   .lang-band h2{font-size:22px}
   .panel table.para{font-size:14.5px}
+}
+@media (max-width:370px){
+  .lang-btns{grid-template-columns:repeat(6, minmax(0, 1fr)); gap:6px}
+  .lang-bar .lang-btn{font-size:15px; padding:11px 6px; white-space:normal}
+  .lang-bar .lang-btn:nth-child(-n+3){grid-column:span 2}
+  .lang-bar .lang-btn:nth-child(n+4){grid-column:span 3}
 }
 /* A section review uses the same full-width bar as Cumulative Review, and stays in its place in the grid. */
 .set-card.review-bar{
