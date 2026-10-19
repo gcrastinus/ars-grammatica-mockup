@@ -6,7 +6,7 @@ Translator credits removed from the app's text (see `CLAUDE.md`, "Translators").
 |---|---|---|---|
 | Quintilian, *Institutio oratoria* | I.4.2 | H. E. Butler (Loeb) | prelim.definition / definition (body "which Butler translates as", src, qp explain) |
 | Quintilian, *Institutio oratoria* | I.4.5 | H. E. Butler (Loeb) | prelim.definition / first (src) |
-| Isidore, *Etymologiae* | I.5.1 | Credited as "trans. T. Kearns", which was wrong: no Kearns translation exists. The wording of the I.5.1 definition matches Stephen A. Barney and others (2006); verify. | prelim.definition / name (body, src); definition (body, src) |
+| Isidore, *Etymologiae* | I.5.1 | Credited as "trans. T. Kearns", which was wrong: no Kearns translation exists. The wording of the I.5.1 definition matches Stephen A. Barney and others (2006). The Latin and the locus are **verified** (Lindsay text) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); Barney's English still to be checked. | prelim.definition / name (body, src); definition (body, src) |
 | Isidore, *Etymologiae* | I.5.3 | Stephen A. Barney and others (2006) | prelim.definition / (voice panel) src |
 | St. Thomas, *Summa theologiae* | I-II q. 57 a. 3 ad 3 | Fathers of the English Dominican Province | prelim.definition / art (src) |
 | Thomas of Erfurt, *Grammatica speculativa* | — | G. L. Bursill-Hall (1972) | prelim.definition (src) |
@@ -29,20 +29,20 @@ No translator is named in the text (CLAUDE.md, "Translators"). Quotations marked
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Augustine, *De doctrina christiana* | II.1.1 (definition of a sign), II.1.2 (natural signs), II.2.3 (given signs) | J. F. Shaw (NPNF) | i.sign / what-sign, natural, given; qp q-natural-given | **verify** |
+| Augustine, *De doctrina christiana* | II.1.1 (definition of a sign), II.1.2 (natural signs), II.2.3 (given signs) | J. F. Shaw (NPNF) | i.sign / what-sign, natural, given; qp q-natural-given | **verified at second hand** (II.1.1 and II.1.2 in full; II.2.3 only the opening; "emotions" may read "feelings" in Shaw) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 | Augustine, *De doctrina christiana* | II.3.4; III.2.3 | — (paraphrase) | i.sign / given; i.ambiguity / pause | paraphrase |
-| Aristotle, *De interpretatione* | 1, 16a3–8; 1, 16a16–18 | E. M. Edghill (Oxford) | i.sign / aristotle, same-for-all; i.consignification / not-true | **verify** |
+| Aristotle, *De interpretatione* | 1, 16a3–8; 1, 16a16–18 | E. M. Edghill (Oxford) | i.sign / aristotle, same-for-all; i.consignification / not-true | 16a3–8 **verified at second hand** (the opening of 16a5–8 read; the Greek at 16a3–6 not checked) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); 16a16–18 still **verify** |
 | Aristotle, *De interpretatione* | 2, 16a19–22; 2, 16a26–29 | E. M. Edghill | i.imposition / what-imposition, not-by-nature; i.consignification / time-in-verb, parts-no-meaning | **verify** (the live app quotes 16a26–29 in Ackrill’s wording instead) |
 | Aristotle, *De interpretatione* | 3, 16b6–7 | E. M. Edghill | i.consignification / consignification, why-time | **verify** |
 | Aristotle, *De interpretatione* | 1, 16a13–18 (“man” and “white”; goat-stag); 3, 16b19–25 (“imply a copulation…”) | E. M. Edghill, checked word for word against classics.mit.edu (Oct 17) | i.consignification / not-true, composition; qp q-not-true | checked (goat-stag now in Edghill’s exact wording; the earlier deck’s wording was not Edghill’s) |
 | St. Thomas, *In Peri hermeneias* | I, lect. 5, nn. 5, 7, 15–22 (Latin lemma *consignificat autem quamdam compositionem*) | Latin checked at corpusthomisticum.org | i.consignification / cursus-curro, why-time, composition | Latin checked; English is reference, not quotation |
-| Aristotle, *De interpretatione* | 4, 17a1–7 | E. M. Edghill | i.functions / aristotle, rhetoric-poetry | **verify** |
+| Aristotle, *De interpretatione* | 4, 17a1–7 | E. M. Edghill | i.functions / aristotle, rhetoric-poetry | 17a1–4 (i.functions / aristotle) **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); 17a5–7 (rhetoric-poetry) still **verify** |
 | Aristotle, *Sophistical Refutations* | 4 | — (paraphrase; W. A. Pickard-Cambridge for reference) | i.ambiguity | paraphrase |
 | Quintilian, *Institutio oratoria* | VII.9.1, 2, 6, 8, 9 | H. E. Butler (Loeb), checked against the Perseus text; only passages free of scanning errors are quoted | i.ambiguity | checked (Perseus) |
 | St. Thomas, *In Peri hermeneias* | I, lect. 2, 5, 7 | — (paraphrase; Jean T. Oesterle for reference) | i.sign, i.consignification, i.functions | paraphrase |
-| St. Thomas, *Summa theologiae* | I, q. 13, a. 2, ad 2 | — (paraphrase; English Dominican Province for reference) | i.imposition / reason-for-name | paraphrase; locus to verify |
+| St. Thomas, *Summa theologiae* | I, q. 13, a. 2, ad 2 | — (paraphrase; English Dominican Province for reference) | i.imposition / reason-for-name | paraphrase; locus **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 | Boethius, *In Categorias Aristotelis* | I (first and second imposition) | no published English translation | i.imposition / first-second, grammar-second | paraphrase |
-| Boethius of Dacia, *Modi significandi* | (languages differ in sound) | A. C. Senape McDermott (abridgement) for reference | i.imposition / many-languages | paraphrase; locus to verify |
+| Boethius of Dacia, *Modi significandi* | (languages differ in sound) | A. C. Senape McDermott (abridgement) for reference | i.imposition / many-languages | paraphrase; locus **corrected** at second hand: ed. Pinborg and Roos (1969), p. 12 (question number not confirmed) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); the card's source note is not yet changed |
 | Priscian, *Institutiones grammaticae* | II.15, II.17 | no published English translation | i.consignification / priscian; i.syncategorematic / priscian | paraphrase |
 | William of Sherwood, *Syncategoremata* | — | Norman Kretzmann (1968) for reference | i.syncategorematic | paraphrase |
 | John of St. Thomas, *Tractatus de signis* | Ars logica II, q. 22 (formal and instrumental signs) | John Deely (1985) for reference | i.sign / formal-instrumental | paraphrase; locus to verify |
@@ -64,11 +64,11 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 |---|---|---|---|---|
 | Donatus, *Ars maior* | I.1 (*vox est aer ictus …*; *omnis vox aut articulata est aut confusa*); I.2 (*pars minima vocis articulatae*; *nomen, figura, potestas*; *quaeritur enim, quid vocetur littera, qua figura sit, quid possit*; *h* as a mark of breathing); I.3 (definition of the syllable); I.5 (*toni*, *accentus*, *tenores*; three accents); I.6 (three *positurae*) | no published English translation | ii.* | **verified** against Holtz's text. **Corrected** at ii.quantity / what-accent: Donatus calls the accents *toni* and says that others call them *accentus* or *tenores* (the draft said he himself uses all three names) |
 | Priscian, *Institutiones grammaticae* | I.1–2 (four differences of voice: *articulata, inarticulata, literata, illiterata*, with the examples *arma virumque cano*, whistles and groans, *coax, cra*, *crepitus, mugitus*); II (syllable *sub uno accentu et uno spiritu prolata*; *accidit unicuique syllabae tenor, spiritus, tempus, numerus literarum*) | no published English translation | ii.voice / priscian-four; ii.syllable / what-syllable, accidents | **verified** (paraphrase matches). **Corrected** at ii.syllable / accidents: the list of four accidents of the syllable is Priscian's (*Inst.* II), not Donatus's as drafted |
-| Aristotle, *De anima* | II.8, 420b27–33 | J. A. Smith for reference | ii.voice / natural-philosophy | paraphrase; **still unverified** (no reachable text of the translation) |
+| Aristotle, *De anima* | II.8, 420b27–33 | J. A. Smith for reference | ii.voice / natural-philosophy | paraphrase; doctrine and example **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); the exact Bekker lines are still unverified |
 | Quintilian, *Institutio oratoria* | I.4.9; I.5.22; I.7.30–31 | H. E. Butler (Loeb) | ii.letter / quintilian-letters, orthography; ii.quantity / what-accent | checked (Perseus) |
 | Ovid, *Metamorphoses* | XIII.607 | Brookes More (1922) | ii.quantity / common | checked (Perseus) |
 | Isidore, *Etymologiae* | I.4 (names of semivowels and mutes); I.20 (*positurae*: *subdistinctio* = comma, *media distinctio* = colon, *distinctio* = period) | Barney et al. (2006) for reference | ii.letter / consonants; ii.punctuation / comma-colon-period | **verified** against the Latin (paraphrase) |
-| Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase; **still unverified** (no reachable copy) |
+| Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase; ch. 1 **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); ch. 2–4 still unverified |
 | *ibis redibis nunquam per bella peribis* | — | the two English readings are ours | ii.punctuation / sense | **still unverified**: no ancient source found; the attribution to the Sibyl was removed. The two renderings are glosses that show the two punctuations; a question for Timothy whether such glosses are acceptable (**resolved**, 17 Oct: both glosses checked against the Latin and found accurate; unchanged) |
 | Virgil, *Aeneid* | I.1, I.3 | Theodore C. Williams (1910) | ii.meter / elision, hexameter, caesura | checked (Perseus); macrons removed from the quoted lines (L.2) |
 | Catullus | 5.1; 51.1 | Leonard C. Smithers (1894) | ii.meter / elision, lyric | checked (Perseus) |
@@ -76,8 +76,8 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Ovid, *Amores* | I.1.2 (*Edere, materia conveniente modis*), I.1.3–4 | John Dryden | ii.meter / elegiac | checked (Perseus); the Latin now printed as the Perseus edition prints it (capital *E*, no macrons) |
 | Ambrose, *Aeterne rerum conditor* | 1 | — | ii.meter / hymn | **corrected**: the plain rendering was removed; the card now describes the hymn instead of translating the line. The Latin is **verified** in Bede, *De arte metrica* 21, who names the hymn as an example of the meter (added to the card) |
 | Bede, *De arte metrica* | 21; 24 | Calvin B. Kendall (1991) for reference | ii.meter / hymn, bede-rhythm | **verified** against the Latin (24: *rithmus … verborum modulata conpositio, non metrica ratione, sed numero syllabarum ad iudicium aurium examinata …; rithmus per se sine metro esse potest, metrum vero sine rithmo esse non potest*) |
-| Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase; **still unverified** (no reachable text) |
-| Racine, *Phèdre* | I.1.1 | — | ii.meter / three-principles | **corrected**: the plain rendering was removed; the card describes the line instead. The French is **still unverified** against an edition (the colon after *pris* follows modern editions from memory) |
+| Opitz, *Buch von der deutschen Poeterey* | ch. 7 | — | ii.meter / three-principles | paraphrase; **verified** (chapter and paraphrase; Neudrucke edition, 1913, via GITenberg) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
+| Racine, *Phèdre* | I.1.1 | — | ii.meter / three-principles | **corrected**: the plain rendering was removed; the card describes the line instead. The French is **verified** (FreDraCor text of *Phèdre*) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 
 ### Section III
 
@@ -133,9 +133,9 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Virgil, *Georgics* | II.192 (*pateris libamus et auro*) | James Rhoades, "We pour to heaven from bowls of gold" | v.figures / hendiadys | **corrected**: our rendering replaced by Rhoades's (checked against Perseus) |
 | Cicero, *Laelius* | 79 (*omnia praeclara, rara*) | W. A. Falconer (Loeb), "everything splendid is rare" | v.figures / ellipsis | **verified**: locus 79 confirmed; the Latin now printed as the Perseus edition prints it (with the comma); our rendering replaced by Falconer's |
 | Donatus, *Ars maior* | III.2 (*soloecismus in prosa oratione, in poemate schema nominatur*); III.3 (*eclipsis*, *haec secum*); III.5 (zeugma, syllepsis); III.6 (hyperbaton and its kinds) | no published English translation | v.figures | **verified**; quoted or added as confirmation |
-| Linacre, *De emendata structura Latini sermonis* (1524) | VI | — | v.figures / donatus-words | **still unverified** (book number; no reachable text) |
+| Linacre, *De emendata structura Latini sermonis* (1524) | VI | — | v.figures / donatus-words | six books **verified at second hand** (library catalogues: London, Pynson, 1524); the content of Book VI still unverified (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 | Shakespeare, Bacon, Milton, Johnson, Pope, KJV | as cited | — | v.phrase, v.clause, v.figures, v.agreement, v.order | **verified** against: Shakespeare, Project Gutenberg Complete Works (#100); Bacon, *Essays* (Gutenberg #575); Milton, *Paradise Lost* (Gutenberg #20, 1674 text) and Sonnet XIX (Beeching's edition, Gutenberg #1745, 1673 text, where it is numbered XVI: “They also serve who only stand and waite”); Pope, *The Rape of the Lock* (Gutenberg #9800); KJV (Romans 6:23; Acts 3:6). **Corrected**: *Paradise Lost* I.1–6 now in the 1674 spelling (“Of Mans First Disobedience … Sing Heav’nly Muse”); Johnson, *Rasselas* ch. 11, now without the comma before “and,” as in the only edition reached (Standard Ebooks, which modernizes spelling; the 1759 text **still unverified**) |
-| Macaulay, “Lord Clive” | “Every schoolboy knows who imprisoned Montezuma, and who strangled Atahualpa” | — | v.clause / noun-clause | **still unverified** (no reachable text) |
+| Macaulay, “Lord Clive” | “Every schoolboy knows who imprisoned Montezuma, and who strangled Atahualpa” | — | v.clause / noun-clause | **verified**, word for word (Gutenberg #2332) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 
 ### Section VI
 
@@ -146,14 +146,14 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Donatus, *Ars maior* | III.1 (*barbarismus est una pars orationis vitiosa in communi sermone*; *in poemate metaplasmus*); III.2 (*soloecismus est vitium in contextu partium orationis contra regulam artis grammaticae factum*); III.3 (the twelve faults; *acyrologia*; *pleonasmos*, *sic ore locuta est*); III.4 (the fourteen metaplasms and their examples) | no published English translation | vi.* | **verified** against Holtz's text; macrons removed from the quoted definitions. **Corrected**: the example of systole was not Donatus's (*steterunt*); it is now his own, *aquosus Orion* (*Aeneid* IV.52). Donatus's note on *Italiam* (*cum Italia correpte dici debeat*) and his pleonasm example (*Aeneid* I.614) **added**. The English gloss of *sic ore locuta est* is ours (a question for Timothy; **resolved**, 17 Oct: checked against the Latin and found accurate; unchanged). Ennius's *rex Albai Longai* is quoted as Donatus gives it; the Ennius locus is **still unverified** |
 | Diogenes Laertius, *Lives* | I.51 (Soli and the word "solecize") | R. D. Hicks (Loeb), on Perseus | vi.solecism / definition | **verified**; now quoted ("who in process of time corrupted the purity of Attic and were said to solecize") |
 | Strabo, *Geography* | XIV.2.28 | H. C. Hamilton and W. Falconer (1903), on Perseus | vi.solecism / definition | **verified**; now quoted ("either from Soli or some other source") |
-| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase; **still unverified** (no reachable text) |
+| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase; Johnson **verified** (Gutenberg #5430); Lowth **verified at second hand** (pp. 127–28 as quoted in secondary sources) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md). Proposed: add that Johnson also held it the lexicographer's duty "to correct" improprieties |
 
 ### Section VII
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
 | Quintilian, *Institutio oratoria* | VIII.6.1–2, 4–9, 19–20, 23–27, 29–31, 34–35, 37–38, 40–44, 54, 59–61, 67–68, 74–75; IX.1.4; IX.3.26–27 | H. E. Butler (Loeb) | vii.* | checked (Perseus); at VIII.6.68 the Perseus text reads "win rocks," a scanning error for "twin rocks," which we print |
-| Augustine, *De doctrina christiana* | II.10.15; III.5.9; III.10.14 | J. F. Shaw for reference | vii.literal | paraphrase; **still unverified** (no reachable text) |
+| Augustine, *De doctrina christiana* | II.10.15; III.5.9; III.10.14 | J. F. Shaw for reference | vii.literal | paraphrase; II.10.15 (proper and figurative signs) and III.5.9 (locus and sense) **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); III.10.14 and the Latin of III.5.9 still unverified |
 | St. Thomas, *Summa theologiae* | I, q. 1, a. 10, ad 3 | Fathers of the English Dominican Province | vii.literal / aquinas | **verified** (the wording matches the Dominican translation as printed by the Christian Classics Ethereal Library, found by an exact-phrase search) |
 | Donatus, *Ars maior* | III.5 (the seventeen figures and their examples: *sequitur pulcherrimus Astur, / Astur equo fidens*; *ante etiam sceptrum Dictaei regis et ante*; *me, me adsum qui feci*; *o Tite tute Tati tibi tanta tyranne tulisti*; *litora litoribus contraria …*; *principio caelum ac terras …*; *Acamasque Thoasque / Pelidesque Neoptolemus*; *ite, / ferte citi flammas, date tela, impellite remos*); III.6 (definition of the trope; the four kinds of metaphor; *pelagus tenuere rates*; *si tantum pectore robur / concipis*; *clangor tubarum*; the seven species of allegory) | no published English translation | vii.schemata, vii.tropes | **verified** against Holtz's text; macrons removed. **Corrected**: (1) the polysyndeton example was misquoted as *… Neoptolemusque*; Donatus has *Pelidesque Neoptolemus*, and the claim that *-que* is attached to "every name" was corrected; (2) the explanation of *pelagus tenuere rates* was wrong (Donatus's point is that *rates*, "rafts," is used of ships, both lifeless), now corrected; (3) the paraphrase of the definition of the trope now follows the Latin, which is quoted. **Added**: Donatus's own examples of epanalepsis, anadiplosis, and asyndeton, beside the examples already given. Where Donatus's text of Virgil differs from the Perseus text (VI.724 *liquentes*/*liquentis*; IV.594 *tela*/*vela*; II.262 punctuation), the card says "as Donatus quotes it" |
 | Ennius, *Annales* (in Donatus) | *o Tite tute Tati tibi tanta tyranne tulisti* | — | vii.schemata / paromoeon | **corrected**: the plain rendering was removed; the card now describes the line (addressed to the Sabine king Titus Tatius; every word begins with *t*) |
@@ -192,7 +192,7 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Quintilian, *Institutio oratoria* | I.9.2–3; X.2.1–2, 4; X.3.1, 5, 9–10 | H. E. Butler (Loeb) | x.composition, x.imitation, x.progymnasmata | checked (Perseus) |
 | Erasmus, *De copia* | I.33 (*Tuae litterae me magnopere delectarunt*) | Betty I. Knott (CWE 24) for reference | x.composition / copia | the Latin sentence **verified at second hand** (several published accounts); macrons removed. **Corrected**: "about one hundred and fifty forms" changed to "nearly two hundred" (the usual count is 195). The English gloss of the sentence is ours (a question for Timothy; **resolved**, 17 Oct: checked against the Latin and found accurate; unchanged) |
 | Ascham, *The Scholemaster* (1570) | Books I–II | written in English | x.imitation, x.translation | paraphrase; **still unverified** (no reachable text) |
-| Petrarch, *Seniles* | XVI.1 (the ink at Liège) | — | x.imitation / petrarch | paraphrase; **still unverified** (no reachable text; De Keyser 2013 confirms the Liège discovery of 1333 and the role of Petrarch's copy) |
+| Petrarch, *Seniles* | XVI.1 (the ink at Liège) | — | x.imitation / petrarch | paraphrase; locus **verified at second hand** (De Keyser 2013 quotes the Latin) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md). The paraphrase is loose: Petrarch says that finding any ink was hard work and that what he found was the color of saffron; a correction is proposed |
 | De Keyser, "The Descendants of Petrarch's *Pro Archia*," *Classical Quarterly* 63.1 (2013), 292–328 | — | — | x.imitation | cited |
 | Aristotle, *De interpretatione* | 1, 16a5–8 | E. M. Edghill | x.translation / aristotle | **verified** (Edghill's text, *The Complete Aristotle*, found by an exact-phrase search); same wording as i.sign |
 | Cicero, *De optimo genere oratorum* | 14 | H. M. Hubbell (Loeb) for reference | x.translation / cicero | **corrected**: the English quoted from memory and the translator's name in the card were removed. The Latin (*nec converti ut interpres, sed ut orator … sed genus omne verborum vimque servavi*) is now quoted, **verified** against the Latin Library and Perseus texts, and followed by a paraphrase. Hubbell's wording could be confirmed only in part at second hand |
@@ -270,9 +270,9 @@ This table supersedes the status given above for the items it lists. **Verified*
 
 | Text | Where | Translation | Status |
 |---|---|---|---|
-| Caesar, *De bello Gallico* I.1 (*Gallia est omnis divisa in partes tres*) | ii.punctuation / why-punctuation | "All Gaul is divided into three parts" (W. A. McDevitte and W. S. Bohn, 1869) | standard rendering; **to be checked** word for word |
-| Ovid, *Metamorphoses* I.1 (*In nova fert animus mutatas dicere formas*) | ii.meter / caesura | "My mind is bent to tell of bodies changed into new forms" (F. J. Miller, Loeb, 1916) | from memory; **to be checked** word for word |
-| Shakespeare, Sonnet 129.1 | ii.meter / elision | English original ("Th' expense of spirit in a waste of shame") | modern spelling; the 1609 Quarto reads "Th'expence of Spirit in a waste of shame"; **to be checked** |
+| Caesar, *De bello Gallico* I.1 (*Gallia est omnis divisa in partes tres*) | ii.punctuation / why-punctuation | "All Gaul is divided into three parts" (W. A. McDevitte and W. S. Bohn, 1869) | **verified** word for word (Perseus TEI of McDevitte and Bohn, via GitHub) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
+| Ovid, *Metamorphoses* I.1 (*In nova fert animus mutatas dicere formas*) | ii.meter / caesura | "My mind is bent to tell of bodies changed into new forms" (F. J. Miller, Loeb, 1916) | **verified at second hand** only (a weak search match); keep the flag on the card until a page of Miller is read (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
+| Shakespeare, Sonnet 129.1 | ii.meter / elision | English original ("Th' expense of spirit in a waste of shame") | modern spelling; the 1609 Quarto reads "Th'expence of Spirit in a waste of shame"; **verified** (Gutenberg #100) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 
 ## Rule 27b (18 Oct 2026): unpublished renderings now quoted English-first
 
@@ -309,3 +309,24 @@ The translator is not named on the cards. English is quoted first; the German in
 | *Verweile doch, du bist so schön.* | "Ah, still delay—thou art so fair!" | Bayard Taylor | https://en.wikisource.org/wiki/Faust_(trans._Bayard_Taylor)/IV_The_Study_Compact | The inner line only. The lead-in “When thus I hail the Moment flying” renders a different German line and is not quoted. |
 | *Freude, schöner Götterfunken, / Tochter aus Elysium,* | "Spark from the fire that Gods have fed-- / JOY--thou Elysian Child divine," | Sir Edward Lytton Bulwer, *Blackwood’s Edinburgh Magazine*, Vol. 54, No. 334 (August 1843), in the Gutenberg text of that volume | https://www.gutenberg.org/cache/epub/25065/pg25065.txt | Two hyphens and “JOY” in capitals, as in the plain text (ebook 25065). The card quotes both German lines the couplet covers. |
 | *Seid umschlungen, Millionen! Diesen Kuß der ganzen Welt!* | "Embrace ye millions--let this kiss, / Brothers, embrace the earth below!" | same Bulwer text | same URL | Bulwer’s “Embrace ye” is active; the German is *seid umschlungen*. The kiss and “the earth below” cover *diesen Kuß der ganzen Welt*. |
+
+## Quotation check of 19 Oct 2026: quotations with no entry above
+
+Found in the sweep of data/decks/ (details in sources/QUOTATION-CHECK-OCT-19.md, Part 3). These are English originals or the KJV, so no translator is involved.
+
+| Text | Where | Status |
+|---|---|---|
+| Ecclesiastes 12:13 (KJV) | prelim.definition / sentence-and-period | **verified** (KJV). The card's source note also names Lincoln's Second Inaugural, which the card does not quote |
+| Lincoln, Gettysburg Address, opening words | prelim.methodice / historice | **verified** (standard text) |
+| Ecclesiastes 12:1 (KJV) | prelim.methodice / one-sentence | **verified** (KJV) |
+| Shakespeare, *Hamlet* I.4 ("I'll make a ghost of him that lets me") | prelim.methodice / question | **verified** (Gutenberg #100) |
+| Psalm 23:1 (KJV) | prelim.offices / reading | **verified** (KJV; "LORD" printed "Lord") |
+| Psalm 19:1 (KJV) | prelim.offices / question | **verified** (KJV) |
+| Shakespeare, Sonnet 18.1 | ii.meter / pentameter | **verified** (Gutenberg #100) |
+| Donne, "Death, be not proud" (title words) | ii.meter / pentameter | standard; not checked against a text |
+| Shakespeare, *Macbeth* V.5.19 | ii.meter / caesura | **verified** (Gutenberg #100, modern spelling) |
+| Longfellow, *Evangeline*, line 1 | ii.meter / hexameter | **verified** (Gutenberg #2039, via GITenberg) |
+| Coleridge, "The Ovidian Elegiac Metre" (after Schiller) | ii.meter / elegiac | **verified at second hand** |
+| Thomas Ken, doxology ("Praise God, from whom all blessings flow") | ii.meter / hymn | standard; not checked against a text |
+| Shakespeare, *Julius Caesar* III.2 ("the most unkindest cut of all") | vi.usage / authors | **verified** (Gutenberg #100) |
+| Churchill, House of Commons, 4 June 1940 | vii.literal / figures-tropes | **verified at second hand** (parliament.uk; Hansard not reached) |
