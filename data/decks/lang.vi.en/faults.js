@@ -30,6 +30,11 @@ ARS.decks["lang.vi.en/faults"] = {
    "id": "faults-5",
    "title": "What we do not confuse",
    "body": "<p>None of these errors is a barbarism. “The fire wnet out” contains a barbarism, because the error lies in the spelling of one word, whereas “The fire went out the room grew cold” is a solecism, which English handbooks call a run-on sentence. These errors must also be kept distinct from falsehood: a sentence may be congruous and false, and it may be incongruous and still point at something true. The errors named here are errors of form.</p>"
+  },
+  {
+   "id": "faults-6",
+   "title": "“Fewer” and “less,” parallel series, and clear reference",
+   "body": "<p>Three further errors are often named in English handbooks. In “There were less cars on the road today,” “less” stands with a plural noun whose members are counted. Careful usage uses “fewer” with plural nouns that are counted (“fewer cars,” “fewer eggs”) and “less” with nouns of quantity that are not counted (“less traffic,” “less flour”). To use the one where usage requires the other is an impropriety, a word used in a sense it does not have; like the barbarism, and unlike the fragment, the run-on sentence, and the dangling modifier, it lies in a single word.</p>\n<p>In “The guide was patient, cheerful, and knew the mountains well,” the series joins two adjectives and a verb phrase, so its members are not of the same construction. The members of a series joined by a conjunction should be of one kind: “The guide was patient, cheerful, and well informed about the mountains.” This is the requirement we saw with the correlative conjunctions in Section III, and a series that breaks it is called a faulty parallel.</p>\n<p>In “When Paul met his brother, he was tired,” the pronoun “he” can refer to either man. A pronoun is correctly used only when its antecedent is clear, as we saw in Section III, and so the sentence must be rephrased: “Paul was tired when he met his brother.” The faulty parallel and the unclear pronoun are failures of construction, and so they are solecisms.</p>"
   }
  ]
 };

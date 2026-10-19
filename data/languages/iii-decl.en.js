@@ -33,7 +33,7 @@ ARS.languages["lang.iii-decl.en"] = {
    "kind": "exercise",
    "built": true,
    "title": "Agreement and Case",
-   "desc": "65 questions."
+   "desc": "44 questions."
   }
 
  ]

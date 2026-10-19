@@ -19,7 +19,7 @@ ARS.languages["lang.vi.en"] = {
    "kind": "exercise",
    "built": true,
    "title": "Common Errors in English",
-   "desc": "102 questions."
+   "desc": "123 questions."
   }
 
  ]

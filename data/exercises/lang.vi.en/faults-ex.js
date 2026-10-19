@@ -6,7 +6,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
  "status": "written",
  "section": "VI",
  "title": "Common Errors in English",
- "instr": "Choose the answer.",
+ "instr": "Answer each question as it asks.",
  "openedFrom": "",
  "items": [
   {
@@ -1842,6 +1842,331 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
     "A misplaced modifier"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu103",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence uses “fewer” or “less” correctly?",
+   "explain": "“Cups” are counted, so the word is “fewer”. “Less” fits a mass, not a number of cups.",
+   "options": [
+    "Please bring fewer cups.",
+    "Please brings less cups.",
+    "Bring fewer water.",
+    "Please bring fewer cup today."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu104",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence uses “fewer” or “less” correctly?",
+   "explain": "“Salt” is a mass here, so the word is “less”. “Fewer” and “few” want a count.",
+   "options": [
+    "We need less salt in the soup.",
+    "We need fewer salt in the soup.",
+    "We needs less salt now.",
+    "The soup needs less salts now."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu105",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence uses “fewer” or “less” correctly?",
+   "explain": "“Students” are counted, so the word is “fewer”. “Less” would fit a mass, not a number of students.",
+   "options": [
+    "Fewer students came today.",
+    "Less students comes today.",
+    "Few student came.",
+    "The class has less student today."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu106",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence tells clearly that Ann was the angry one?",
+   "explain": "“She” might be Ann or Ruth, so the antecedent is not clear. Repeating “Ann” tells which person. A pronoun needs one antecedent the reader can find.",
+   "options": [
+    "When Ann met Ruth, Ann was angry.",
+    "When Ann met Ruth, she was angry.",
+    "When Ann met Ruth, he was angry.",
+    "When Ann met Ruth, they was angry."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu107",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence has a clear antecedent and a verb that agrees?",
+   "explain": "“Who” relates to “clerk”, a person, and “has” agrees with “clerk”. The verb agrees with the noun the clause depends on.",
+   "options": [
+    "The clerk who called has the key.",
+    "The women who called has the key.",
+    "The men who called has the key.",
+    "The clerk which called has the key."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu108",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence tells clearly that Tom was late?",
+   "explain": "“He” might be Tom or Bill. The name “Tom” in the second clause has one person in view. “She” names neither of them.",
+   "options": [
+    "Tom told Bill that Tom was late.",
+    "Tom told Bill that he was late.",
+    "Tom told Bill that she was late.",
+    "Tom told Bill that they was late."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu109",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "The three objects of “likes” are gerunds, one form carried through. Mixing an infinitive, or a noun, with the gerunds breaks the parallel. Parallel structure is a kind of congruity.",
+   "options": [
+    "She likes reading, writing, and walking.",
+    "She likes reading, writing, and to walk.",
+    "She likes reading, writing, and a walk.",
+    "She likes to read, writing, and walking."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu110",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "Three independent clauses, each with “we” and a past verb. “Leaving”, “to leave”, and “gone” do not match that pattern.",
+   "options": [
+    "We came, we saw, and we left.",
+    "We came, we saw, and leaving.",
+    "We came, we saw, and to leave.",
+    "We came, we saw, and gone."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu111",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "Three infinitives depend on “wanted”. A gerund in the series breaks the parallel.",
+   "options": [
+    "He wanted to rest, to read, and to think.",
+    "He wanted resting, to read, and to think.",
+    "He wanted to rest, to read, and thinking.",
+    "He wanted to rest, reading, and to think."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu112",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "Three adverbs tell how she writes. “Good” is an adjective, and “with clarity” is a phrase. “A lot” does not match the other two.",
+   "options": [
+    "She writes clearly, quickly, and well.",
+    "She writes clearly, quickly, and good.",
+    "She writes clearly, quickly, and a lot.",
+    "She writes with clarity, quickly, and well."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu113",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the series parallel?",
+   "explain": "Three infinitives are the objects of “promised”. A participle in the series breaks the parallel.",
+   "options": [
+    "She promised to write, to wait, and to return.",
+    "She promised to write, to wait, and returning.",
+    "She promised writing, to wait, and to return.",
+    "She promised to write, waiting, and to return."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu114",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the pair parallel?",
+   "explain": "“Both…and” joins two adjectives here. “So” does not name a quality, “with justice” is a phrase, and “justly” is an adverb.",
+   "options": [
+    "He is both kind and just.",
+    "He is both kind and so.",
+    "He is both kind and with justice.",
+    "He is both kind and justly."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu115",
+   "set": "B",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence tells clearly that Ned would drive?",
+   "explain": "“He” might be Ned or Mark. The name in the noun clause has one antecedent. The clause is what Ned told, and the pronoun, if one is used, must point to one person.",
+   "options": [
+    "Ned told Mark that Ned would drive.",
+    "Ned told Mark that he would drive.",
+    "Ned told Mark that she would drive.",
+    "Ned told Mark that they would drive."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu116",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence uses “fewer” or “less” correctly?",
+   "explain": "“Seats” are counted, so the word is “fewer”.",
+   "options": [
+    "Fewer seats remain tonight.",
+    "Less seats remains tonight.",
+    "Fewer seat remains tonight.",
+    "The hall has less seats this evening."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu117",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence uses “fewer” or “less” correctly?",
+   "explain": "“Water” is a mass, so the word is “less”.",
+   "options": [
+    "Less water is in the jar.",
+    "Few water is in the jar.",
+    "Less water be in the jar.",
+    "Fewer water is in the jar."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu118",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "Three independent clauses, each with its own finite verb. A phrase, or a participle where a finite verb should stand, breaks the parallel.",
+   "options": [
+    "The work was hard, the pay was small, and the days were long.",
+    "The work was hard, the pay was small, and long days.",
+    "The work was hard, the pay small, and to wait.",
+    "The work was hard, the pay was small, and the days being long."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu119",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "After “can”, three bare infinitives match. “Steering” and “mending” are participles, and “to mend” brings in “to” where the others have none.",
+   "options": [
+    "She can read the chart, mend the sail, and steer the boat.",
+    "She can read the chart, mend the sail, and steering.",
+    "She can read the chart, mending the sail, and steer the boat.",
+    "She can read the chart, to mend the sail, and steer the boat."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu120",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which sentence keeps the three parts parallel?",
+   "explain": "Three infinitives tell the purpose. A participle in the series breaks the parallel.",
+   "options": [
+    "He came to see, to hear, and to learn.",
+    "He came to see, to hear, and learning.",
+    "He came seeing, to hear, and to learn.",
+    "He came to see, hearing, and to learn."
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu121",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "form",
+   "prompt": "Rewrite the sentence so “fewer” or “less” matches the noun. Change only what must change. The sentence is “We need fewer sugar in the tea..”",
+   "explain": "“Sugar” is a mass, so the word is “less”. “Fewer” wants a count noun.",
+   "accept": [
+    "We need less sugar in the tea."
+   ]
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu122",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "form",
+   "prompt": "Rewrite the sentence so the three parts are parallel. Change only what must change. The sentence is “She likes to read, writing, and to walk..”",
+   "explain": "The series should be one form throughout. Three gerunds match. Three infinitives would also match: “to read, to write, and to walk”.",
+   "accept": [
+    "She likes reading, writing, and walking.",
+    "She likes to read, to write, and to walk."
+   ]
+  },
+  {
+   "id": "lang.vi.en/faults-ex:eu123",
+   "set": "C",
+   "deck": "lang.vi.en/faults-ex",
+   "section": "vi",
+   "type": "form",
+   "prompt": "Rewrite the sentence so the reader knows that Ann was angry. Change only what must change. The sentence is “When Ann met Ruth, she was angry..”",
+   "explain": "“She” might be Ann or Ruth. The name “Ann” makes the antecedent clear. If Ruth were the angry one, the name would be “Ruth”.",
+   "accept": [
+    "When Ann met Ruth, Ann was angry."
+   ]
   }
  ]
 };
