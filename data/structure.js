@@ -100,7 +100,7 @@ ARS.structure = [
  { id:'vi', roman:'VI', latin:'De vitiis', name:'Correctness and Errors',
    gloss:'Usage and authority as the standard of correctness, and the errors that depart from it.',
    items:[
-   { id:'vi.usage', kind:'study', built:true, title:'Usage and Authority', desc:'The criteria of correctness applied to questions of usage and authority.' },
+   { id:'vi.usage', kind:'study-ex', built:true, title:'Usage and Authority', desc:'The criteria of correctness applied to questions of usage and authority.' },
    { id:'vi.barbarism', kind:'study', built:true, title:'Barbarism', desc:'An error in a single word.' },
    { id:'vi.solecism', kind:'study', built:true, title:'Solecism', desc:'An error in the arrangement of words.' },
    { id:'vi.metaplasm', kind:'study', built:true, title:'Metaplasm', desc:'A change in a word permitted for meter or ornament.' },
