@@ -13,9 +13,9 @@ ARS.decks['vi.barbarism'] = {
 
 { id: 'definition',
   title: 'What is a barbarism?',
-  body: `<p>“Brung” for “brought,” “irregardless” for “regardless,” and “libary” for “library” are errors that lie in a single word, considered by itself, apart from the words around it. An error of this kind is called a <strong>barbarism</strong>.</p>
-<p>Donatus defines the barbarism as “one part of speech faulty in ordinary speech” (<i>una pars orationis vitiosa in communi sermone</i>), and he adds that in a poem the same thing is called a metaplasm (<i>in poemate metaplasmus</i>; <i>Ars maior</i> III.1). Quintilian gives the same definition: “I will define barbarism as an offence occurring in connexion with single words” (<i>Institutio oratoria</i> I.5.6). So a barbarism is an error in a single word, considered by itself, apart from its construction with other words.</p>
-<p>The name comes from the Greek <i>barbaros</i>, “foreigner,” a word that the Greeks used of anyone whose speech they could not understand. A barbarism is therefore, in origin, a word spoken as a foreigner would speak it: with the wrong sound, the wrong form, or the wrong accent.</p>`,
+  body: `<p>“Heared” for “heard,” “excetera” for “et cetera,” and “sherbert” for “sherbet” are errors that lie in a single word, considered by itself, apart from the words around it. As we saw in the Preliminary section, an error of this kind is called a <strong>barbarism</strong>.</p>
+<p>Donatus defines the barbarism as “one part of speech faulty in ordinary speech” (<i>una pars orationis vitiosa in communi sermone</i>), and he adds that in a poem the same thing is called a metaplasm (<i>in poemate metaplasmus</i>; <i>Ars maior</i> III.1). Quintilian gives the same definition: “I will define barbarism as an offence occurring in connexion with single words” (<i>Institutio oratoria</i> I.5.6).</p>
+<p>The name comes from the Greek <i>barbaros</i>, “foreigner,” a word that the Greeks used of anyone whose speech they could not understand. A barbarism is therefore, in origin, a word spoken as a foreigner would speak it: with the wrong sound, the wrong form, or the wrong accent. Such an error can lie in the word as it is written or in the word as it is spoken.</p>`,
   src: `Donatus, <i>Ars maior</i> III.1 (the Latin; the English in substance); Quintilian, <i>Institutio oratoria</i> I.5.6 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'writing-speech',
@@ -33,8 +33,8 @@ ARS.decks['vi.barbarism'] = {
 
 { id: 'forms',
   title: 'Barbarisms of form',
-  body: `<p>A barbarism may also lie in the form of a word, when a speaker applies a regular pattern where usage has fixed an irregular one, or the reverse. “Goed” for “went,” “childs” for “children,” and “bringed” for “brought” follow the regular patterns of English, but they are barbarisms because usage has fixed other forms. We saw in the Preliminary section that analogy yields to usage, and these are the plainest examples.</p>
-<p>Latin has the same kind of barbarism: a form such as <i>bonior</i> for <i>melior</i> (“better”) or <i>fereō</i> for <i>ferō</i> (“I carry”) would follow a pattern but violate usage. So the grammarian who learns the irregular forms of a language one by one, as we saw with comparison and with the irregular verbs in Section III, learns to avoid the barbarisms of form.</p>`,
+  body: `<p>A barbarism may also lie in the form of a word, when a speaker applies a regular pattern where usage has fixed an irregular one, or the reverse. “Swimmed” for “swam,” “mouses” for “mice,” and “buyed” for “bought” follow the regular patterns of English, but they are barbarisms because usage has fixed other forms. We saw in the Preliminary section that analogy yields to usage, and these are the plainest examples.</p>
+<p>Latin has the same kind of barbarism: a form such as <i>parvior</i> for <i>minor</i> (“smaller”) or <i>volit</i> for <i>vult</i> (“he wishes”) would follow a pattern but violate usage. So the grammarian who learns the irregular forms of a language one by one, as we saw with comparison and with the irregular verbs in Section III, learns to avoid the barbarisms of form.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6, in paraphrase.` },
 
 { id: 'foreign',
@@ -45,7 +45,7 @@ ARS.decks['vi.barbarism'] = {
 
 { id: 'impropriety',
   title: 'Barbarism and impropriety',
-  body: `<p>A barbarism is an error in the form of a word. A different error is to use a correctly formed word in a sense that it does not have, which we saw is called an impropriety. “He inferred that I was wrong,” meaning “he implied,” uses a real word in the wrong sense; “irregardless” is not a word of standard English at all. Other common improprieties are “flaunt” for “flout” and “disinterested” for “uninterested,” although the last is now accepted by many speakers.</p>
+  body: `<p>A barbarism is an error in the form of a word. A different error is to use a correctly formed word in a sense that it does not have, which we saw is called an impropriety. “He flaunted the rules,” meaning “he flouted them,” uses a real word in the wrong sense; “heared” is not a word of standard English at all. Other common improprieties are “enormity” for “enormousness” and “disinterested” for “uninterested,” although the last is now accepted by many speakers.</p>
 <p>The distinction matters because the remedy differs. A barbarism is corrected by restoring the right form of the word; an impropriety is corrected by choosing the right word. Both are errors in a single word, and so both belong with the barbarism rather than with the solecism, which lies in the arrangement of several words.</p>`,
   src: `Donatus, <i>Ars maior</i> III.3 (<i>acyrologia</i>), in paraphrase; standard English usage guides.`,
   qpTodo: `Barbarism or impropriety: is a given error (“irregardless,” “inferred” for “implied,” “brung”) an error of form or of sense, and how is it corrected.` },
