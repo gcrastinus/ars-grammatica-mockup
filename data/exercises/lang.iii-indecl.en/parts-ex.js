@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "The Eight in English",
+ "title": "The Eight Parts of Speech in English",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

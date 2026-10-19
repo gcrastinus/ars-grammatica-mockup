@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.en/parts"] = {
  "id": "lang.iii-indecl.en/parts",
- "title": "The Eight in English",
+ "title": "The Eight Parts of Speech in English",
  "sub": "The eight parts of speech as modern English grammars count them, beside the traditional names",
  "sources": "Donatus, <i>Ars maior</i>; a standard English grammar; Priscian, <i>Institutiones grammaticae</i>",
  "panels": [

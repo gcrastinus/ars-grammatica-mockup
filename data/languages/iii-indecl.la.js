@@ -11,14 +11,14 @@ ARS.languages["lang.iii-indecl.la"] = {
    "id": "lang.iii-indecl.la/parts",
    "kind": "study",
    "built": true,
-   "title": "The Eight in Latin",
+   "title": "The Eight Parts of Speech in Latin",
    "desc": "Donatus’s eight parts, in Latin sentences."
   },
 {
    "id": "lang.iii-indecl.la/parts-ex",
    "kind": "exercise",
    "built": true,
-   "title": "The Eight in Latin",
+   "title": "The Eight Parts of Speech in Latin",
    "desc": "25 questions."
   },
 {

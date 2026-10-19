@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.la/parts"] = {
  "id": "lang.iii-indecl.la/parts",
- "title": "The Eight in Latin",
+ "title": "The Eight Parts of Speech in Latin",
  "sub": "Donatus’s eight parts, in Latin sentences",
  "sources": "Donatus, <i>Ars maior</i>; Allen and Greenough, <i>New Latin Grammar</i>",
  "panels": [

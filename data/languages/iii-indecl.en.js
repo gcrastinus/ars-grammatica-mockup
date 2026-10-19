@@ -11,14 +11,14 @@ ARS.languages["lang.iii-indecl.en"] = {
    "id": "lang.iii-indecl.en/parts",
    "kind": "study",
    "built": true,
-   "title": "The Eight in English",
+   "title": "The Eight Parts of Speech in English",
    "desc": "The same art, in the list a modern class uses."
   },
 {
    "id": "lang.iii-indecl.en/parts-ex",
    "kind": "exercise",
    "built": true,
-   "title": "The Eight in English",
+   "title": "The Eight Parts of Speech in English",
    "desc": "102 questions."
   },
 {
