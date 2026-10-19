@@ -99,10 +99,10 @@ ARS.decks['prelim.definition'] = {
       options: [`It is correctly formed, though what it says is false`, `It is incorrectly formed, because it is false`, `It is incorrectly formed, because the moon is not cheese`, `It cannot be judged until we know whether it is true`],
       answer: 0,
       explain: `The words are correctly formed and correctly arranged, so grammar judges the sentence correct. That it is false is the judgment of logic, and it does not make the sentence incorrect.` },
-    { prompt: `Latin <i>Homo est lapis</i> (“A man is a stone”). Which judgment belongs to grammar?`,
+    { prompt: `Latin <i>Sol est frigidus</i> (“The sun is cold”). Which judgment belongs to grammar?`,
       options: [`The sentence is false`, `The sentence is correctly formed`, `The sentence would not persuade a hearer`, `The sentence is incorrectly formed, because it is false`],
       answer: 1,
-      explain: `Grammar judges only that the sentence is correctly formed: the singular subject <i>homo</i> agrees with the singular verb <i>est</i>. That it is false is the judgment of logic, and whether it persuades is the question of rhetoric.` }
+      explain: `Grammar judges only that the sentence is correctly formed: the singular subject <i>sol</i> agrees with the singular verb <i>est</i>, and <i>frigidus</i> agrees with <i>sol</i>. That it is false is the judgment of logic, and whether it persuades is the question of rhetoric.` }
   ]}},
 
 { id: 'end',
