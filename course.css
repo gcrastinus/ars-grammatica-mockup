@@ -40,7 +40,13 @@
 .qp-todo .q-prompt{font-size:16px; font-style:italic; color:var(--ink-soft)}
 
 /* Exercise sets and section reviews not yet written: the plan and the empty stubs (reviewer view). */
-.set-card .ex-link{display:inline-block; align-self:flex-start; margin-top:10px; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:var(--gold); background:none; border:1px solid var(--gold-soft); border-radius:6px; padding:4px 10px; cursor:pointer}
+/* A deck's exercise: a full-height strip along the right edge of its tile, in a set-off shade. */
+.set-card{--ex-w:clamp(80px,18%,118px)}
+.set-card:has(> .ex-link){padding-right:calc(var(--ex-w) + 18px)}
+.set-card .ex-link{position:absolute; top:0; right:0; bottom:0; width:var(--ex-w); margin:0; display:flex; align-items:center; justify-content:center; text-align:center; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.1em; line-height:1.35; color:var(--gold); background:var(--panel); border:none; border-left:1px solid var(--line); border-radius:0 13px 13px 0; padding:10px 6px; cursor:pointer; transition:background .15s, color .15s}
+.set-card .ex-link:hover, .set-card .ex-link:focus-visible{background:var(--track); color:var(--ink)}
+.set-card .ex-link:focus-visible{outline:2px solid var(--gold); outline-offset:-3px}
+.set-card:has(> .ex-link) .done-flag{right:calc(var(--ex-w) + 14px)}
 .set-card.soon.has-plan{opacity:.8; cursor:pointer}
 .set-card.soon.has-plan .soon-flag::after{content:' · plan'}
 .ex-plan{border-style:dashed}
