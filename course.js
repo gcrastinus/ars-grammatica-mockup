@@ -40,6 +40,8 @@
    An item type with no renderer shows "This item type is not yet available."
    Hyphens and dashes are treated alike on count, form, divide, and transform, and accents
    other than macrons are ignored, as on the written count and divide items.
+   A German exercise (lang.*.de) also accepts ae, oe, ue, and ss for ä, ö, ü, and ß,
+   capitals included. An exercise in another language does not.
    Samples: test/typed-samples.js, not loaded by the course. */
 const KEY = 'ars-grammatica-course-v2';
 const store = (() => {
@@ -59,6 +61,13 @@ const LANGS = [
   { code:'fr', name:'French' },
   { code:'de', name:'German' }
 ];
+/* Letters an English keyboard does not have, shown under a typed answer in that language. */
+const LETTER_KEYS = {
+  grc:'αβγδεζηθικλμνξοπρσςτυφχψω',
+  fr:'éèêàâçëïîôùûœ',
+  de:'äöüß'
+};
+const LETTER_KEY_LABEL = { grc:'Greek letters', fr:'French letters', de:'German letters' };
 const LANG_BARS = {
   'ii': { section:'ii', title:'The Matter of Speech' },
   'iii-decl': { section:'iii', title:'The Parts of Speech', group:'The declinable parts' },
@@ -386,11 +395,19 @@ function showExercisePlan(id, ex){
    "Why?" prompt with a model answer (no grading). */
 
 /* Normalization shared by count, form, divide, and transform. The cumulative review calls acceptedOf. */
+function exerciseLang(item){
+  const src = String(item && (item.deck || item.id) || '');
+  const m = src.match(/^lang\.[^/]*\.([a-z]{2,3})(?:\/|$)/);
+  return m ? m[1] : '';
+}
 function foldBase(s, item){
   let t = String(s == null ? '' : s);
   t = t.replace(/[\u2018\u2019\u201A\u201B]/g, "'").replace(/[\u201C\u201D\u201E\u201F]/g, '"');
   t = t.replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/g, '-');
   t = t.replace(/\s+/g, ' ').trim().toLowerCase();
+  if (item && item.germanSpellings){
+    t = t.normalize('NFC').replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
+  }
   if (item && item.macrons === false){
     t = t.replace(/[āēīōūȳ]/g, ch => ({ 'ā':'a', 'ē':'e', 'ī':'i', 'ō':'o', 'ū':'u', 'ȳ':'y' }[ch]));
     t = t.normalize('NFD').replace(/\u0304/g, '');
@@ -463,7 +480,10 @@ function gradeTypedAnswer(item, given){
   const fold = gradeFold(item);
   const g = fold(given);
   if (!g) return false;
-  return accepted.some(a => fold(a) === g);
+  if (accepted.some(a => fold(a) === g)) return true;
+  if (exerciseLang(item) !== 'de') return false;
+  const foldDe = gradeFold(Object.assign({}, item, { germanSpellings: true }));
+  return accepted.some(a => foldDe(a) === g);
 }
 function alsoAccepted(item){
   const accepted = acceptedOf(item);
@@ -591,6 +611,7 @@ function renderTypedItem(host, it, done){
   const btn = makeCheck();
   row.appendChild(input);
   row.appendChild(btn);
+  addLetterKeys(row, input, it);
   host.appendChild(row);
   const submit = () => {
     const given = input.value;
@@ -599,6 +620,7 @@ function renderTypedItem(host, it, done){
     input.disabled = true;
     input.classList.add(ok ? 'right' : 'wrong');
     btn.disabled = true;
+    row.querySelectorAll('.ex-key').forEach(key => { key.disabled = true; });
     done(ok, given, acceptedOf(it)[0] || '');
   };
   btn.addEventListener('click', submit);
@@ -608,6 +630,38 @@ function renderTypedItem(host, it, done){
     submit();
   });
   setTimeout(() => input.focus(), 0);
+}
+function insertAtCursor(input, text){
+  const value = String(input.value || '');
+  const start = input.selectionStart == null ? value.length : input.selectionStart;
+  const end = input.selectionEnd == null ? start : input.selectionEnd;
+  input.value = value.slice(0, start) + text + value.slice(end);
+  const pos = start + text.length;
+  if (input.setSelectionRange) input.setSelectionRange(pos, pos);
+  input.focus();
+}
+function addLetterKeys(row, input, item){
+  const lang = exerciseLang(item);
+  const letters = LETTER_KEYS[lang];
+  if (!letters) return;
+  const bar = document.createElement('div');
+  bar.className = 'ex-keys lang-' + lang;
+  bar.setAttribute('role', 'group');
+  bar.setAttribute('aria-label', LETTER_KEY_LABEL[lang] || 'Letters');
+  Array.from(letters).forEach(ch => {
+    const key = document.createElement('button');
+    key.type = 'button';
+    key.className = 'ex-key';
+    key.textContent = ch;
+    key.setAttribute('aria-label', ch);
+    key.addEventListener('mousedown', ev => ev.preventDefault());
+    key.addEventListener('click', () => {
+      if (input.disabled) return;
+      insertAtCursor(input, ch);
+    });
+    bar.appendChild(key);
+  });
+  row.appendChild(bar);
 }
 function renderCopyItem(host, it, done){
   const wrap = document.createElement('div'); wrap.className = 'ex-copy';

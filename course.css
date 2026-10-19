@@ -314,6 +314,39 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .ex-tokens .ex-token{width:auto; flex:0 0 auto; min-width:48px; text-align:center}
 .ex-typed{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
 .ex-typed input{font:inherit; font-size:18px; padding:8px 10px; border:1px solid var(--gold-soft); border-radius:6px; background:transparent; color:inherit; min-width:200px}
+.ex-keys{--lang:#3a4550; flex:1 0 100%; display:flex; flex-wrap:wrap; gap:4px; margin:0}
+.ex-key{
+  font-family:'EB Garamond', Georgia, serif; font-size:15px; line-height:1;
+  min-width:26px; height:26px; padding:0 4px; border-radius:4px; cursor:pointer;
+  color:var(--lang);
+  background:color-mix(in srgb, var(--lang) 15%, var(--card));
+  border:1px solid color-mix(in srgb, var(--lang) 55%, var(--line));
+}
+.ex-keys.lang-grc{--lang:#1e3a5f}
+.ex-keys.lang-fr{--lang:#6b4e2e}
+.ex-keys.lang-de{--lang:#3a4550}
+.ex-key:hover,
+.ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 28%, var(--card))}
+.ex-key:focus-visible{outline:2px solid var(--lang); outline-offset:1px}
+.ex-key:disabled{opacity:.4; cursor:default}
+body.dark .ex-keys.lang-grc{--lang:#2a5080}
+body.dark .ex-keys.lang-fr{--lang:#7a5a36}
+body.dark .ex-keys.lang-de{--lang:#4a5560}
+body.dark .ex-key{
+  color:color-mix(in srgb, #fff 60%, var(--lang));
+  background:color-mix(in srgb, var(--lang) 55%, var(--card));
+  border-color:color-mix(in srgb, #fff 38%, var(--lang));
+}
+body.dark .ex-key:hover,
+body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, var(--card))}
+.ex-typed > .answer-in{order:1}
+.ex-typed > .ex-keys{order:2}
+.ex-typed > .btn{order:3}
+.ex-typed.ex-block > .ex-keys{flex:none}
+@media (max-width:600px){
+  .ex-key{font-size:16px; min-width:32px; height:34px; padding:0 6px}
+  .ex-keys{gap:5px}
+}
 .ex-why{margin-top:12px}
 .ex-why textarea{width:100%; font:inherit; margin:6px 0; padding:6px; background:transparent; color:inherit; border:1px solid var(--gold-soft); border-radius:6px}
 .ex-model{margin-top:8px; font-style:italic}
