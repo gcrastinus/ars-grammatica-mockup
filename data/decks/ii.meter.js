@@ -28,7 +28,7 @@ ARS.decks['ii.meter'] = {
 
 { id: 'elision',
   title: 'Elision',
-  body: `<p>English poets sometimes print a vowel that is not counted. Shakespeare begins a sonnet “Th’ expense of spirit in a waste of shame” (Sonnet 129), where “the” loses its vowel before “expense,” so that the line keeps its ten syllables. Latin verse does the same thing by rule, and before a line can be measured we must know which syllables count. When a word ends in a vowel, or in a vowel followed by <i>m</i>, and the next word begins with a vowel or with <i>h</i>, the final syllable of the first word is not counted in the meter. This is called <strong>elision</strong> (Latin <i>elisio</i>, “striking out”).</p>
+  body: `<p>English poets sometimes leave out of print a vowel that is not counted, and mark the gap with an apostrophe. Shakespeare begins a sonnet “Th’ expense of spirit in a waste of shame” (Sonnet 129), where “the” loses its vowel before “expense,” so that the line keeps its ten syllables. Latin verse does the same thing by rule, although there the vowel is still written, and before a line can be measured we must know which syllables count. When a word ends in a vowel, or in a vowel followed by <i>m</i>, and the next word begins with a vowel or with <i>h</i>, the final syllable of the first word is not counted in the meter. This is called <strong>elision</strong> (Latin <i>elisio</i>, “striking out”).</p>
 <p>So in Virgil’s <i>multum ille et terris</i> (<i>Aeneid</i> I.3), the <i>-um</i> of <i>multum</i> and the <i>-e</i> of <i>ille</i> are elided, and the words are measured as <i>mult’ ill’ et terrīs</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 612; Shakespeare, Sonnet 129.1; Virgil, <i>Aeneid</i> I.3.` },
 
