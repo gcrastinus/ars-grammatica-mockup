@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Agreement, Case, and the Verb",
+ "title": "Agreement and Case",
  "instr": "Answer each question as it asks.",
  "openedFrom": "",
  "items": [

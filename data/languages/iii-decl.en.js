@@ -25,14 +25,14 @@ ARS.languages["lang.iii-decl.en"] = {
    "id": "lang.iii-decl.en/form",
    "kind": "study",
    "built": true,
-   "title": "Agreement, Case, and the Verb",
-   "desc": "Congruity, the accidents that English still shows, and the verb’s own accidents."
+   "title": "Agreement and Case",
+   "desc": "Agreement, the case of pronouns, quoted authors, and contractions."
   },
 {
    "id": "lang.iii-decl.en/form-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Agreement, Case, and the Verb",
+   "title": "Agreement and Case",
    "desc": "92 questions."
   }
 
