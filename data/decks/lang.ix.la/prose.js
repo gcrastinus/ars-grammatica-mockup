@@ -229,7 +229,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-45",
    "title": "Augustine, <i>Confessiones</i> I.1",
-   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for You made us for Yourself, and our heart is restless, until it reposes in You.<br>— Pusey</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>"
+   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.<br>— Pusey</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>"
   },
   {
    "id": "prose-46",

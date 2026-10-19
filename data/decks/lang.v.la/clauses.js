@@ -4,7 +4,7 @@ ARS.decks["lang.v.la/clauses"] = {
  "id": "lang.v.la/clauses",
  "title": "Clauses in the Authors",
  "sub": "Stored sentences, with the note on the kind of clause",
- "sources": "Translations: Plato, Jowett; Thucydides, Crawley; Herodotus, Rawlinson; Sophocles, Storr; Euripides, Coleridge; Polybius, Shuckburgh; Livy, Roberts; Sallust, Watson; Tacitus, Church and Brodribb; Plutarch, Perrin; Augustine, <i>Confessions</i>, Pusey (lightly modernized), and <i>City of God</i>, Dods.",
+ "sources": "Translations: Plato, Jowett; Thucydides, Crawley; Herodotus, Rawlinson; Sophocles, Storr; Euripides, Coleridge; Polybius, Shuckburgh; Livy, Roberts; Sallust, Watson; Tacitus, Church and Brodribb; Plutarch, Perrin; Augustine, <i>Confessions</i>, Pusey, and <i>City of God</i>, Dods.",
  "panels": [
   {
    "id": "clauses-1",
@@ -239,27 +239,27 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-47",
    "title": "Augustine, Confessions I.1",
-   "body": "<p>Great are You, O Lord, and greatly to be praised; great is Your power, and Your wisdom infinite. And You would man praise; man, but a particle of Your creation; … You awaken us to delight in Your praise; <span class=\"target\">for You made us for Yourself, and our heart is restless, until it reposes in You</span>.</p><p>magnus es, domine, et laudabilis valde. … tu excitas ut laudare te delectet, <span class=\"target\">quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te</span>.</p><p>The marked words give the reason why God stirs us to praise: he made us for himself. In Pusey’s English, “for” joins this reason as a coordinate clause; Latin makes it subordinate with <span class=\"lat\">quia</span>. Nested inside is a clause of time, <span class=\"lat\">donec requiescat</span>.</p>"
+   "body": "<p>Great art Thou, O Lord, and greatly to be praised; great is Thy power, and Thy wisdom infinite. And Thee would man praise; man, but a particle of Thy creation; … Thou awakest us to delight in Thy praise; <span class=\"target\">for Thou madest us for Thyself, and our heart is restless, until it repose in Thee</span>.</p><p>magnus es, domine, et laudabilis valde. … tu excitas ut laudare te delectet, <span class=\"target\">quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te</span>.</p><p>The marked words give the reason why God stirs us to praise: he made us for himself. In Pusey’s English, “for” joins this reason as a coordinate clause; Latin makes it subordinate with <span class=\"lat\">quia</span>. Nested inside is a clause of time, <span class=\"lat\">donec requiescat</span>.</p>"
   },
   {
    "id": "clauses-48",
    "title": "Augustine, Confessions I.1",
-   "body": "<p>You awaken us <span class=\"target\">to delight in Your praise</span>; for You made us for Yourself, and our heart is restless, until it reposes in You.</p><p>tu excitas <span class=\"target\">ut laudare te delectet</span>, quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>English uses an infinitive of purpose, and Latin <span class=\"lat\">ut</span> with the subjunctive: God stirs us in order that praising him may delight us.</p>"
+   "body": "<p>Thou awakest us <span class=\"target\">to delight in Thy praise</span>; for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.</p><p>tu excitas <span class=\"target\">ut laudare te delectet</span>, quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>English uses an infinitive of purpose, and Latin <span class=\"lat\">ut</span> with the subjunctive: God stirs us in order that praising him may delight us.</p>"
   },
   {
    "id": "clauses-49",
    "title": "Augustine, Confessions I.1",
-   "body": "<p>… for You made us for Yourself, and our heart is restless, <span class=\"target\">until it reposes in You</span>.</p><p>… quia fecisti nos ad te et inquietum est cor nostrum <span class=\"target\">donec requiescat in te</span>.</p><p>“Until” / <span class=\"lat\">donec</span> bounds the restlessness in time. Latin uses the subjunctive for an end that is looked forward to.</p>"
+   "body": "<p>… for Thou madest us for Thyself, and our heart is restless, <span class=\"target\">until it repose in Thee</span>.</p><p>… quia fecisti nos ad te et inquietum est cor nostrum <span class=\"target\">donec requiescat in te</span>.</p><p>“Until” / <span class=\"lat\">donec</span> bounds the restlessness in time. Latin uses the subjunctive for an end that is looked forward to.</p>"
   },
   {
    "id": "clauses-50",
    "title": "Augustine, Confessions I.1",
-   "body": "<p>Grant me, Lord, to know and understand <span class=\"target\">which is first, to call on You or to praise You? and, again, to know You or to call on You?</span></p><p>da mihi, domine, scire et intellegere <span class=\"target\">utrum sit prius invocare te an laudare te, et scire te prius sit an invocare te</span>.</p><p>After “to know and understand” come reported questions: “which” in English, <span class=\"lat\">utrum … an</span> with the subjunctive in Latin.</p>"
+   "body": "<p>Grant me, Lord, to know and understand <span class=\"target\">which is first, to call on Thee or to praise Thee? and, again, to know Thee or to call on Thee?</span></p><p>da mihi, domine, scire et intellegere <span class=\"target\">utrum sit prius invocare te an laudare te, et scire te prius sit an invocare te</span>.</p><p>After “to know and understand” come reported questions: “which” in English, <span class=\"lat\">utrum … an</span> with the subjunctive in Latin.</p>"
   },
   {
    "id": "clauses-51",
    "title": "Augustine, Confessions I.6",
-   "body": "<p>Yet suffer me to speak to Your mercy, me, dust and ashes. Yet suffer me to speak, <span class=\"target\">since I speak to Your mercy, and not to scornful man</span>.</p><p>sed tamen sine me loqui apud misericordiam tuam, me terram et cinerem sine tamen loqui. <span class=\"target\">quoniam ecce misericordia tua est, non homo, inrisor meus, cui loquor</span>.</p><p>“Since” / <span class=\"lat\">quoniam</span> gives the reason why he may speak: it is to mercy that he speaks.</p>"
+   "body": "<p>Yet suffer me to speak unto Thy mercy, me, dust and ashes. Yet suffer me to speak, <span class=\"target\">since I speak to Thy mercy, and not to scornful man</span>.</p><p>sed tamen sine me loqui apud misericordiam tuam, me terram et cinerem sine tamen loqui. <span class=\"target\">quoniam ecce misericordia tua est, non homo, inrisor meus, cui loquor</span>.</p><p>“Since” / <span class=\"lat\">quoniam</span> gives the reason why he may speak: it is to mercy that he speaks.</p>"
   },
   {
    "id": "clauses-52",
