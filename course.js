@@ -113,15 +113,6 @@ function deckForExercise(exId){
   for (const deckId in map) if (map[deckId] === exId) return deckId;
   return '';
 }
-function langItemBegun(it){
-  if (!it || it.kind === 'note') return false;
-  if (it.kind === 'exercise' || it.kind === 'models'){
-    const st = store.ex && store.ex[it.id];
-    return !!(st && (st.visits || st.done));
-  }
-  const st = store.decks[it.id];
-  return !!(st && (st.opens || st.done));
-}
 function langItemDone(it){
   if (!it || it.kind === 'note') return false;
   if (it.kind === 'exercise' || it.kind === 'models'){
@@ -131,12 +122,9 @@ function langItemDone(it){
   const st = store.decks[it.id];
   return !!(st && st.done);
 }
-function langScreenMark(screen){
+function langScreenDone(screen){
   const items = (screen.items || []).filter(it => it.built && it.kind !== 'note');
-  if (!items.length) return '';
-  if (items.every(langItemDone)) return 'done';
-  if (items.some(langItemBegun)) return 'begun';
-  return '';
+  return items.length > 0 && items.every(langItemDone);
 }
 
 function deckState(id){ return store.decks[id] || (store.decks[id] = { opens:0, done:false }); }
@@ -195,20 +183,11 @@ function langBar(bar){
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'lang-btn lang-' + L.code;
-    const mark = langScreenMark(screen);
-    if (mark) b.classList.add(mark === 'done' ? 'is-done' : 'is-begun');
+    if (langScreenDone(screen)) b.classList.add('is-done');
     b.dataset.screen = screen.id;
     const name = document.createElement('span');
     name.textContent = L.name;
     b.appendChild(name);
-    if (mark){
-      const m = document.createElement('span');
-      m.className = 'lang-mark';
-      m.setAttribute('aria-hidden', 'true');
-      m.textContent = mark === 'done' ? '✓' : '●';
-      b.appendChild(m);
-      b.setAttribute('aria-label', L.name + (mark === 'done' ? ', finished' : ', begun'));
-    }
     b.addEventListener('click', () => openLang(screen.id));
     row.appendChild(b);
   });

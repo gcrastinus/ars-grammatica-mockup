@@ -398,7 +398,7 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
 .lang-btns{display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:8px}
 .lang-bar .lang-btn{
   --lang:#3a4550;
-  position:relative; font-family:'Cinzel',serif; font-size:17px; font-weight:600; letter-spacing:.02em;
+  font-family:'Cinzel',serif; font-size:17px; font-weight:600; letter-spacing:.02em;
   color:var(--lang);
   background:color-mix(in srgb, var(--lang) 15%, var(--card));
   border:1px solid var(--lang); border-radius:8px;
@@ -415,11 +415,15 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
   background:color-mix(in srgb, var(--lang) 28%, var(--card));
 }
 .lang-bar .lang-btn:focus-visible{outline:2px solid var(--lang); outline-offset:2px}
-.lang-mark{
-  position:absolute; top:6px; right:7px; font-size:12px; font-family:'EB Garamond',serif; line-height:1;
+.lang-bar .lang-btn.is-done{
+  color:color-mix(in srgb, var(--lang) 58%, var(--ink-soft));
+  border-color:color-mix(in srgb, var(--lang) 42%, var(--line));
+  background:color-mix(in srgb, var(--lang) 8%, var(--card));
 }
-.lang-btn.is-begun .lang-mark{color:var(--gold)}
-.lang-btn.is-done .lang-mark{color:var(--good-text)}
+.lang-bar .lang-btn.is-done:hover,
+.lang-bar .lang-btn.is-done:focus-visible{
+  background:color-mix(in srgb, var(--lang) 16%, var(--card));
+}
 /* A language screen is a side room: the band is that language's color. */
 .lang-band{
   border-radius:14px; padding:16px 22px; margin:8px 0 10px; color:#f6f0e1;
@@ -456,6 +460,15 @@ body.dark .lang-bar .lang-btn{
 body.dark .lang-bar .lang-btn:hover,
 body.dark .lang-bar .lang-btn:focus-visible{
   background:color-mix(in srgb, var(--lang) 68%, var(--card));
+}
+body.dark .lang-bar .lang-btn.is-done{
+  color:color-mix(in srgb, #fff 28%, var(--lang));
+  background:color-mix(in srgb, var(--lang) 34%, var(--card));
+  border-color:color-mix(in srgb, #fff 16%, var(--lang));
+}
+body.dark .lang-bar .lang-btn.is-done:hover,
+body.dark .lang-bar .lang-btn.is-done:focus-visible{
+  background:color-mix(in srgb, var(--lang) 46%, var(--card));
 }
 .para-wrap{overflow-x:auto; max-width:100%}
 .panel table.para{border-collapse:collapse; width:max-content; min-width:100%; margin:8px 0 14px; font-size:16.5px}
