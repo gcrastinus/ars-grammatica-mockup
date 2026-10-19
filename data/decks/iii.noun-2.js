@@ -1,5 +1,5 @@
 /* III.6 The Noun II: Gender, Number, and Case [iii.noun-2]
-   Plan (ITEM-LIST.md): 14 panels, 4 question points (placeholders: qpTodo; to be written). Two closing panels give the
+   Plan (ITEM-LIST.md): 14 panels, 4 question points. Two closing panels give the
    modistic account of the noun's accidents and the objection from grammatical gender. Exercise: Nouns and Adjectives
    (iii.ex.nouns, after this deck; not yet written).
    Live material drawn on: DECKS.latnoun (declension, the five declensions), DECKS.casework (the cases and English word order
@@ -24,7 +24,20 @@ ARS.decks['iii.noun-2'] = {
   body: `<p>In Latin the gender of a noun that names a person usually follows the sex of the person: <i>avus</i> (“grandfather”) is masculine and <i>avia</i> (“grandmother”) feminine. But Latin assigns a gender to every noun, including nouns that name things without sex: <i>mēnsa</i> (“table”) is feminine, <i>hortus</i> (“garden”) masculine, and <i>dōnum</i> (“gift”) neuter. This is called <strong>grammatical gender</strong>. It is known partly from the ending of the noun and partly from the usage of the language; so most nouns in <i>-a</i> are feminine, but <i>nauta</i> (“sailor”) and <i>pīrāta</i> (“pirate”) are masculine, because they name men.</p>
 <p>English has <strong>natural gender</strong>: a noun is masculine, feminine, or neuter according to what it refers to, and the gender appears only in the pronouns that refer to it, “he,” “she,” and “it.” So “bench” is referred to as “it,” and “aunt” as “she.” English keeps a few traces of other usage, as when a ship or a nation is called “she.” Gender is one accident; the number of things meant is another.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 30–34, in paraphrase.`,
-  qpTodo: `Natural and grammatical gender: what gender is a given Latin noun (<i>via</i>, <i>agricola</i>, <i>templum</i>), and how is the gender of an English noun shown.` },
+  qp: { id: 'q-natural-grammatical', variants: [
+    { prompt: `What gender is Latin <i>agricola</i> (“farmer”), though it ends in <i>-a</i>?`,
+      options: [`Feminine, because it ends in <i>-a</i>`, `Masculine, because it names a man`, `Neuter`, `Common`],
+      answer: 1,
+      explain: `Most nouns in <i>-a</i> are feminine, but a noun that names a man is masculine, as <i>nauta</i> and <i>pīrāta</i> are. So <i>agricola</i> is masculine, and an adjective that describes it takes the masculine form.` },
+    { prompt: `What gender is Latin <i>ōvum</i> (“egg”)?`,
+      options: [`Masculine`, `Feminine`, `Neuter`, `Common`],
+      answer: 2,
+      explain: `An egg has no sex, but Latin assigns a gender to every noun. Nouns in <i>-um</i>, such as <i>dōnum</i>, are neuter, and <i>ōvum</i> is one of them. This is grammatical gender, known from the ending and the usage of the language.` },
+    { prompt: `How is the gender of an English noun such as “bishop” shown?`,
+      options: [`By its ending`, `By the article before it`, `By its plural form`, `By the pronoun that refers to it`],
+      answer: 3,
+      explain: `English has natural gender, and it appears only in the pronouns: a bishop is referred to as “he.” English nouns have no gender endings, and “the” and “a” are the same for every gender.` }
+  ]} },
 
 { id: 'number',
   title: 'Number',
@@ -45,14 +58,40 @@ ARS.decks['iii.noun-2'] = {
 <p>the <strong>nominative</strong> is the case of the subject: <i>puella cantat</i>, “the girl sings”;<br>the <strong>genitive</strong> usually shows possession or relation, and is often translated with “of”: <i>liber puellae</i>, “the book of the girl,” “the girl’s book”;<br>the <strong>dative</strong> is the case of the indirect object, translated with “to” or “for”: <i>puellae librum dat</i>, “he gives a book to the girl”;<br>the <strong>accusative</strong> is the case of the direct object: <i>puellam videt</i>, “he sees the girl”;<br>the <strong>vocative</strong> is the case of address: <i>Venī, puella</i>, “Come, girl”;<br>the <strong>ablative</strong> shows means, manner, place, or time, and is translated with “by,” “with,” “from,” or “in”: <i>gladiō</i>, “with a sword.”</p>
 <p>Many uses of the cases also depend on prepositions, which govern particular cases, as <i>ad</i> governs the accusative and <i>cum</i> the ablative. We will study these relations as government in Section V.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 338–431, in paraphrase.`,
-  qpTodo: `The uses of the cases: in a given Latin sentence, which case is the marked noun, and what does that case show (subject, possession, indirect object, direct object, address, means).` },
+  qp: { id: 'q-case-uses', variants: [
+    { prompt: `In <i>Nauta rēgīnae dōnum dat</i> (“The sailor gives a gift to the queen”), which case is <i>rēgīnae</i>, and what does it show?`,
+      options: [`The genitive, showing possession`, `The dative, showing the indirect object`, `The nominative plural, showing the subject`, `The ablative, showing means`],
+      answer: 1,
+      explain: `<i>Rēgīnae</i> names the person to whom the gift is given, so it is the dative, the case of the indirect object. The subject is <i>nauta</i>, which the singular verb <i>dat</i> agrees with, so <i>rēgīnae</i> is not a nominative plural.` },
+    { prompt: `In <i>Mīles hastā pugnat</i> (“The soldier fights with a spear”), which case is <i>hastā</i>?`,
+      options: [`The ablative, showing means`, `The accusative, showing the direct object`, `The nominative, showing the subject`, `The vocative, showing address`],
+      answer: 0,
+      explain: `The spear is the means by which the soldier fights, and the ablative is the case that shows means, translated with “with.” The long <i>-ā</i> is the ablative ending of the first declension.` },
+    { prompt: `In <i>Audī, amīce</i> (“Listen, friend”), which case is <i>amīce</i>?`,
+      options: [`The nominative`, `The vocative`, `The genitive`, `The dative`],
+      answer: 1,
+      explain: `<i>Amīce</i> names the one addressed, so it is the vocative, the case of address. In nouns in <i>-us</i> of the second declension the vocative has its own ending, <i>-e</i>, as <i>domine</i> does.` }
+  ]} },
 
 { id: 'english-case',
   title: 'Case in English: endings, word order, and prepositions',
   body: `<p>English nouns have kept only one case ending, the <strong>possessive</strong>: “the girl’s book,” “the sailors’ ropes.” The English personal pronouns keep three cases: the subjective (“I,” “he,” “she,” “we,” “they,” “who”), the objective (“me,” “him,” “her,” “us,” “them,” “whom”), and the possessive (“my,” “his,” “her,” “our,” “their,” “whose”).</p>
 <p>For the other relations that Latin shows by case endings, English uses the order of words and prepositions. In “The bull attacks the boy,” the subject comes before the verb and the object after it; if we exchange them, the meaning is reversed. In Latin <i>taurus puerum petit</i> the endings show that <i>taurus</i> (“bull”) is the subject and <i>puerum</i> (“boy”) the object, so the order can change without changing the meaning: <i>puerum taurus petit</i> says the same thing. English “to the girl” and “with a sword” do with prepositions what Latin does with the dative <i>puellae</i> and the ablative <i>gladiō</i>.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, on the order of words, in paraphrase.`,
-  qpTodo: `English and Latin case: why can a Latin sentence such as <i>lupus agnum capit</i> change its order without changing its meaning, whereas “The wolf catches the lamb” cannot; or which English pronoun form a sentence requires.` },
+  qp: { id: 'q-english-case', variants: [
+    { prompt: `Why can Latin <i>lupus agnum capit</i> (“the wolf catches the lamb”) be written <i>agnum lupus capit</i> with the same meaning?`,
+      options: [`Because the endings show subject and object`, `Because Latin word order never affects the meaning of a sentence`, `Because the verb comes last`, `Because Latin has no subject`],
+      answer: 0,
+      explain: `The nominative <i>lupus</i> shows the subject and the accusative <i>agnum</i> the object, wherever they stand. Latin word order still matters for emphasis and style, but here the endings carry the relation.` },
+    { prompt: `Why does “The wolf catches the lamb” change its meaning if the two nouns change places?`,
+      options: [`Because the verb must agree with the object`, `Because English has no possessive case`, `Because English shows subject and object by word order`, `Because “wolf” has a nominative ending and “lamb” an accusative ending`],
+      answer: 2,
+      explain: `English nouns have no endings for the subject and the object; the subject comes before the verb and the object after it. So if the nouns change places, the doer and the one acted on change too.` },
+    { prompt: `Which pronoun form completes “The pilot greeted ___” with the person meant as the one greeted?`,
+      options: [`“he”`, `“him”`, `“his”`, `“who”`],
+      answer: 1,
+      explain: `The one greeted is the object of “greeted,” and the English personal pronouns keep an objective case for the object: “him.” “He” is subjective and “his” possessive.` }
+  ]} },
 
 { id: 'declension',
   title: 'What is a declension?',
@@ -122,7 +161,20 @@ ARS.decks['iii.noun-2'] = {
   body: `<p>An ending does not always show a single case. In the first declension <i>puellae</i> can be genitive singular, dative singular, or nominative plural; in the second, <i>dominō</i> can be dative or ablative; in the third, <i>rēgēs</i> can be nominative or accusative plural. So the reader must decide from the other words of the sentence which case is meant.</p>
 <p>In <i>puellae rosās dant</i> (“the girls give roses”), the verb <i>dant</i> (“they give”) is plural, so <i>puellae</i> is the nominative plural and the subject. In <i>puellae rosam dat</i> (“he gives a rose to the girl”), the verb <i>dat</i> (“he gives”) is singular and has its own subject understood, so <i>puellae</i> is the dative, the person to whom the rose is given. This is the first example of what we will study as construction in Section V: the words of a sentence determine one another.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
-  qpTodo: `Reading an ending: in a given sentence, which case and number is an ambiguous form (<i>agricolae</i>, <i>servō</i>, <i>urbēs</i>), and which word of the sentence decides it.` },
+  qp: { id: 'q-reading-ending', variants: [
+    { prompt: `In <i>Agricolae agrōs colunt</i> (“The farmers till the fields”), what is <i>agricolae</i>, and which word decides it?`,
+      options: [`Genitive singular, decided by <i>agrōs</i>`, `Nominative plural, decided by the plural verb <i>colunt</i>`, `Dative singular, decided by <i>colunt</i>`, `Nominative singular, decided by its ending`],
+      answer: 1,
+      explain: `<i>Agricolae</i> can be genitive singular, dative singular, or nominative plural. The verb <i>colunt</i> (“they till”) is plural and has no other subject, so <i>agricolae</i> is the nominative plural and the subject.` },
+    { prompt: `In <i>Dominus servō cibum dat</i> (“The master gives food to the slave”), is <i>servō</i> dative or ablative?`,
+      options: [`Dative, the one to whom food is given`, `Ablative, because <i>-ō</i> is the ablative ending`, `Dative, because it stands after the subject`, `Ablative, because it shows means`],
+      answer: 0,
+      explain: `<i>Servō</i> can be dative or ablative. The verb <i>dat</i> (“gives”) calls for a person to whom something is given, and the slave is that person, so <i>servō</i> is the dative. Its place in the sentence does not decide the case.` },
+    { prompt: `In <i>Rōmānī urbēs aedificant</i> (“The Romans build cities”), which case is <i>urbēs</i>?`,
+      options: [`Nominative plural`, `Genitive singular`, `Ablative plural`, `Accusative plural`],
+      answer: 3,
+      explain: `<i>Urbēs</i> can be nominative or accusative plural. The subject of the plural verb <i>aedificant</i> is <i>Rōmānī</i>, so <i>urbēs</i> is what they build, the direct object, in the accusative.` }
+  ]} },
 
 { id: 'adjectives',
   title: 'The declension of adjectives',
