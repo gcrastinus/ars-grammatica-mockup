@@ -427,7 +427,10 @@ function foldCopy(s){
     .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
     .replace(/\s+/g, ' ')
     .trim()
-    .normalize('NFC');
+    .normalize('NFC')
+    .replace(/ô/g, 'o')
+    .replace(/æ/g, 'ae')
+    .replace(/Æ/g, 'Ae');
 }
 function foldOf(item){
   const type = item && item.type;
