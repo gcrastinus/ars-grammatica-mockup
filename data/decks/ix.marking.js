@@ -12,8 +12,8 @@ ARS.decks['ix.marking'] = {
 
 { id: 'every-dependence',
   title: 'Marking every dependence',
-  body: `<p>We saw in Section V that every construction joins a word that depends to a word that terminates its dependence, and that a sentence contains as many constructions as it has dependences. Marking a sentence makes all of them visible at once. An arrow is drawn from each word that depends to the word on which it depends. So in “The brave sailor sees the king,” arrows run from “brave” to “sailor,” from each “the” to its noun, and from “sees” to “sailor” and to “king.”</p>
-<p>The arrows follow Thomas of Erfurt, as in Section V: the adjective depends on its noun, the adverb on its verb, and the verb on its subject and, if it has one, on its object. A preposition depends on the word to which it relates its phrase, and its noun depends on the preposition. The English article, which is not one of Donatus’s eight parts, is drawn as depending on its noun, as an adjective does.</p>`,
+  body: `<p>We saw in Section V that every construction joins a word that depends to a word that terminates its dependence, and that a sentence contains as many constructions as it has dependences. Marking a sentence makes all of them visible at once. An arrow is drawn from each word that depends to the word on which it depends. So in “The young gardener waters the roses,” arrows run from “young” to “gardener,” from each “the” to its noun, and from “waters” to “gardener” and to “roses.”</p>
+<p>The arrows follow Thomas of Erfurt, as in Section V: the adjective depends on its noun, the adverb on its verb, and the verb on its subject and, if it has one, on its object. A preposition depends on the word to which it relates its phrase, and its noun depends on the preposition. The English article, which is not one of Donatus’s eight parts, is drawn as depending on its noun, as an adjective does. A sentence marked by these conventions can then be checked.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on construction (Bursill-Hall), in paraphrase.` },
 
 { id: 'stored-analysis',
