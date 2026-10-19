@@ -28,8 +28,8 @@ ARS.decks["lang.iii-decl.en/form"] = {
   },
   {
    "id": "form-5",
-   "title": "A verse we do not rewrite",
-   "body": "<p>A rule of agreement describes how careful writers ordinarily join a subject and its verb, but it does not give the grammarian license to correct an author. The Bible reads, “For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord” (Romans 6:23). “Wages” looks plural, and a modern handbook would often expect “are,” but the verse has “is,” and the subject of “is” is “wages.”</p>\n<p>Whether a modern handbook would accept the verse and what the verse itself does are two different questions. Grammar can describe what the sentence does, but it does not, on the ground of a rule, rewrite an author. A sentence made up to show an error is written for that purpose; but when an author is quoted, the quotation is the text, and the question is what the text is doing.</p>"
+   "title": "Quoted authors are not corrected",
+   "body": "<p>As we have seen in Section V, an older author sometimes uses a form that a modern handbook would not expect, as when the King James Version joins a singular verb to a subject that looks plural. Grammar describes what such a sentence does, but it does not, on that ground, rewrite the author. A translation’s grammar and a handbook’s rule are two different questions.</p>\n<p>The incorrect sentences given for practice are made up in order to be corrected. But when an author is quoted, the quotation is the text, and the question is what the text is doing.</p>"
   },
   {
    "id": "form-6",
