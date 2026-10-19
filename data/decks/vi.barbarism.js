@@ -21,7 +21,7 @@ ARS.decks['vi.barbarism'] = {
 { id: 'writing-speech',
   title: 'Barbarisms in writing and in speech',
   body: `<p>A misspelling, such as “recieve” for “receive,” is an error in a single word as it is written, and a mispronunciation, such as “Febuary” for “February,” is an error in a single word as it is spoken. Quintilian distinguishes barbarisms in writing from barbarisms in speech in the same way: “although what is incorrect in writing will also be incorrect in speech, the converse is not necessarily true, inasmuch as mistakes in writing are caused by addition or omission, substitution or transposition, while mistakes in speaking are due to separation or combination of syllables, to aspiration or other errors of sound” (<i>Institutio oratoria</i> I.5.6).</p>
-<p>So a misspelling is a barbarism in writing, and a mispronunciation is a barbarism in speech. We saw in Section II that putting the accent on the wrong syllable, as on the first syllable of <i>Camillus</i>, was counted an error of the same kind. English, with its loose relation of spelling to sound, has many barbarisms that occur only in writing, such as “would of” for “would have,” which sound alike in rapid speech.</p>`,
+<p>We saw in Section II that putting the accent on the wrong syllable, as on the first syllable of <i>Camillus</i>, was counted an error of the same kind. English, with its loose relation of spelling to sound, has many barbarisms that occur only in writing, such as “would of” for “would have,” which sound alike in rapid speech.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.6 (trans. Butler; checked against the Perseus text).` },
 
 { id: 'four-ways',
@@ -30,7 +30,7 @@ ARS.decks['vi.barbarism'] = {
 <p>English barbarisms fall into the same four kinds:</p>
 <p><strong>addition</strong>: “mischievious” for “mischievous,” “athelete” for “athlete,” “drownded” for “drowned”;<br><strong>omission</strong>: “libary” for “library,” “probly” for “probably”;<br><strong>substitution</strong>: “brung” for “brought,” “excape” for “escape”;<br><strong>transposition</strong>: “nucular” for “nuclear,” “revelant” for “relevant.”</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.10, 12 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `The four ways: in a given barbarism (“libary,” “nucular,” “mischievious,” “brung”), which of the four changes has been made, and what is the correct form.` },
+  qpTodo: `The four ways: in a given barbarism (“realator” for “realtor,” “Artic” for “Arctic,” “expresso” for “espresso,” “perscription” for “prescription”), which of the four changes has been made, and what is the correct form.` },
 
 { id: 'forms',
   title: 'Barbarisms of form',
@@ -46,14 +46,14 @@ ARS.decks['vi.barbarism'] = {
 
 { id: 'impropriety',
   title: 'Barbarism and impropriety',
-  body: `<p>A barbarism is an error in the form of a word. A different error is to use a correctly formed word in a sense that it does not have, which we saw is called an impropriety. “He flaunted the rules,” meaning “he flouted them,” uses a real word in the wrong sense; “heared” is not a word of standard English at all. Other common improprieties are “enormity” for “enormousness” and “disinterested” for “uninterested,” although the last is now accepted by many speakers.</p>
+  body: `<p>“He flaunted the rules,” meaning “he flouted them,” uses a real word in the wrong sense, whereas “heared” is not a word of standard English at all. A barbarism is an error in the form of a word; to use a correctly formed word in a sense that it does not have is a different error, which, as we have seen, is called an impropriety. Other common improprieties are “enormity” for “enormousness” and “disinterested” for “uninterested”; many speakers now accept the last, but careful usage still keeps the two words apart.</p>
 <p>The distinction matters because the remedy differs. A barbarism is corrected by restoring the right form of the word; an impropriety is corrected by choosing the right word. Both are errors in a single word, and so both belong with the barbarism rather than with the solecism, which lies in the arrangement of several words.</p>`,
   src: `Donatus, <i>Ars maior</i> III.3 (<i>acyrologia</i>), in paraphrase; standard English usage guides.`,
-  qpTodo: `Barbarism or impropriety: is a given error (“irregardless,” “inferred” for “implied,” “brung”) an error of form or of sense, and how is it corrected.` },
+  qpTodo: `Barbarism or impropriety: is a given error (“irregardless,” “fortuitous” for “fortunate,” “knowed”) an error of form or of sense, and how is it corrected.` },
 
 { id: 'license',
   title: 'Barbarism and license',
-  body: `<p>We saw that Donatus calls the same change a barbarism in ordinary speech and a metaplasm in a poem. Quintilian gives an example: when Ennius wrote <i>Mettoeoque Fufetioeo</i>, with an old Greek-like genitive ending twice over, “he is defended on the plea of poetic licence” (<i>Institutio oratoria</i> I.5.12). English verse writes “o’er” for “over” and “e’en” for “even” for the sake of the meter, and in prose the same shortenings would be errors.</p>
+  body: `<p>We saw that Donatus calls the same change a barbarism in ordinary speech and a metaplasm in a poem. Quintilian gives an example: when Ennius, an early Roman poet (239–169 BC), wrote <i>Mettoeoque Fufetioeo</i>, with an old Greek-like genitive ending twice over, “he is defended on the plea of poetic licence” (<i>Institutio oratoria</i> I.5.12). English verse writes “o’er” for “over” and “e’en” for “even” for the sake of the meter, and in prose the same shortenings would be errors.</p>
 <p>So the poet’s license does not abolish the rule; it presupposes it. The reader recognizes “o’er” as a shortening of “over” because he knows the regular form. The changes allowed in verse are considered in this section of the course as metaplasms, and the error in the arrangement of words as the solecism.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.5.12 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.1, in paraphrase.` }
 
