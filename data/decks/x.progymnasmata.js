@@ -37,7 +37,7 @@ ARS.decks['x.progymnasmata'] = {
 
 { id: 'narrative',
   title: 'Narrative',
-  body: `<p>A narrative is a story told in order, whether true, as in history, or invented, as in poetry. The student tells, for example, the story of Daedalus and Icarus, or the crossing of the Rubicon by Caesar, setting out who acted, what was done, when, where, how, and why. Aphthonius defines it: “Narrative (<i>diēgēma</i>) is an exposition of an action that has happened or as though it had happened.”</p>
+  body: `<p>A narrative is a story told in order, whether true, as in history, or invented, as in poetry. The student tells, for example, the story of Daedalus and Icarus, or the crossing of the Rubicon by Caesar, setting out who acted, what was done, when, where, how, and why. Aphthonius defines it: “Narrative (<i>diêgêma</i>) is an exposition of an action that has happened or as though it had happened.”</p>
 <p>The narrative is longer and more varied than the fable and has no moral attached. It teaches the student to order events clearly in time, to connect them by their causes, and to keep the main action in view. These are the grammatical skills of the sentence and the period applied to a whole story.</p>`,
   src: `Aphthonius, ch. 2 (trans. Kennedy, p. 96).` },
 
@@ -49,20 +49,20 @@ ARS.decks['x.progymnasmata'] = {
 
 { id: 'maxim',
   title: 'Maxim',
-  body: `<p>A maxim is a general saying, such as “Haste makes waste” or “Look before you leap,” and it is expanded in the same way as the chreia. Aphthonius defines it: “Maxim (<i>gnōmē</i>) is a summary statement, in declarative sentences, urging or dissuading something.”</p>
-<p>The maxim differs from the chreia in one point: the chreia is attributed to a person and may report an action, whereas the maxim is a general statement, attributed to no one in particular. Quintilian draws a similar line between the aphorism and the character sketch (<i>ethologia</i>): “aphorisms are general propositions, while ethologiae are concerned with persons” (<i>Institutio oratoria</i> I.9.3). The maxim used as an ornament of a speech, the <i>sententia</i>, is studied in rhetoric.</p>`,
+  body: `<p>A maxim is a general saying, such as “Haste makes waste” or “Look before you leap,” and it is expanded in the same way as the chreia. Aphthonius defines it: “Maxim (<i>gnômê</i>) is a summary statement, in declarative sentences, urging or dissuading something.”</p>
+<p>The maxim differs from the chreia in one point: the chreia is attributed to a person and may report an action, whereas the maxim is a general statement, attributed to no one in particular. Quintilian draws a similar line between the aphorism and the character sketch (<i>ethologia</i>): “<i>aphorisms</i> are general propositions, while <i>ethologiae</i> are concerned with persons” (<i>Institutio oratoria</i> I.9.3). The maxim used as an ornament of a speech, the <i>sententia</i>, is studied in rhetoric.</p>`,
   src: `Aphthonius, ch. 4 (trans. Kennedy, p. 99); Quintilian, <i>Institutio oratoria</i> I.9.3 (trans. Butler; checked against the Perseus text).`,
   qpTodo: `Chreia and maxim: is a given saying a chreia or a maxim (a saying attributed to Diogenes; “Many hands make light work”), and what distinguishes the two.` },
 
 { id: 'refutation',
   title: 'Refutation',
-  body: `<p>In the exercise of refutation the student argues that a story, usually from myth or poetry, is not credible, because it is unclear, impossible, inconsistent, or improper. He might argue, for example, that the story of a boy flying on wings of wax is impossible, because wax could not hold feathers against the force of the wind. Aphthonius defines it: “Refutation (<i>anaskeuē</i>) is an overturning of some matter at hand.”</p>
+  body: `<p>In the exercise of refutation the student argues that a story, usually from myth or poetry, is not credible, because it is unclear, impossible, inconsistent, or improper. He might argue, for example, that the story of a boy flying on wings of wax is impossible, because wax could not hold feathers against the force of the wind. Aphthonius defines it: “Refutation (<i>anaskeuê</i>) is an overturning of some matter at hand.”</p>
 <p>Refutation is the first of the exercises that require argument against a received view, and so it is harder than the chreia and the maxim, which argue for a saying already accepted. It prepares the student for the part of a speech in which the speaker answers the arguments of the other side, which is studied in rhetoric.</p>`,
   src: `Aphthonius, ch. 5 (trans. Kennedy, p. 101).` },
 
 { id: 'confirmation',
   title: 'Confirmation',
-  body: `<p>Confirmation is the opposite of refutation, because in it the student argues that a story is credible, clear, possible, consistent, and fitting. Often the same story is first refuted and then confirmed, so that the student learns to see the arguments on both sides. Aphthonius defines it: “Confirmation (<i>kataskeuē</i>) is the corroboration of some matter at hand.”</p>
+  body: `<p>Confirmation is the opposite of refutation, because in it the student argues that a story is credible, clear, possible, consistent, and fitting. Often the same story is first refuted and then confirmed, so that the student learns to see the arguments on both sides. Aphthonius defines it: “Confirmation (<i>kataskeuê</i>) is the corroboration of some matter at hand.”</p>
 <p>The two exercises together train the student to examine a narrative as a judge would, asking whether it is clear, whether it could have happened, and whether its parts agree with one another. So they connect the grammarian’s task of judging, which we saw in the Preliminary section, with the orator’s task of proving.</p>`,
   src: `Aphthonius, ch. 6 (trans. Kennedy, p. 103).`,
   qpTodo: `Refutation and confirmation: what does each exercise do with a given story, and by what headings (clear, possible, consistent, fitting) is the story examined.` },
@@ -93,7 +93,7 @@ ARS.decks['x.progymnasmata'] = {
 
 { id: 'ethopoeia',
   title: 'Ethopoeia',
-  body: `<p>In the exercise of ethopoeia the student writes the words that a known person might have said in a given situation, such as what Niobe might say over her dead children, or what a general might say to his soldiers before a battle. The speech must fit the character, the age, and the circumstances of the speaker. Aphthonius defines it: “Ethopoeia (<i>ēthopoiia</i>) is imitation of the character of a proposed speaker.”</p>
+  body: `<p>In the exercise of ethopoeia the student writes the words that a known person might have said in a given situation, such as what Niobe might say over her dead children, or what a general might say to his soldiers before a battle. The speech must fit the character, the age, and the circumstances of the speaker. Aphthonius defines it: “Ethopoeia (<i>êthopoiia</i>) is imitation of the character of a proposed speaker.”</p>
 <p>Ethopoeia teaches the student to write in a voice other than his own, adapting his words to a person and an occasion. It is closely related to what the ancient critics admired in the poets and historians, who put fitting speeches into the mouths of their characters, as Homer does in the <i>Iliad</i> and Thucydides in his <i>History</i>.</p>`,
   src: `Aphthonius, ch. 11 (trans. Kennedy, p. 115); the Niobe subject in paraphrase.` },
 

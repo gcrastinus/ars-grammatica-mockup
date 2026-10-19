@@ -20,9 +20,9 @@ ARS.decks['x.imitation'] = {
 
 { id: 'petrarch',
   title: 'Petrarch copies the <i>Pro Archia</i>',
-  body: `<p>In 1333 the Italian poet Francesco Petrarch, traveling in northern Europe, found at Liège a manuscript of Cicero’s speech for the poet Archias, a speech that had been almost unknown for centuries. He copied it out in his own hand, and he recalled years later that the ink he could find in that town was barely usable (Petrarch, <i>Seniles</i> XVI.1). His copy became the source from which the speech spread again among the scholars of Italy, as Jeroen De Keyser has shown in his study of its descendants.</p>
+  body: `<p>In 1333 the Italian poet Francesco Petrarch, traveling in northern Europe, found at Liège a manuscript of Cicero’s speech for the poet Archias, a speech that had been almost unknown for centuries. He copied it out in his own hand, and he recalled years later that it was hard work to find any ink in that town, and that what he found looked like saffron (Petrarch, <i>Seniles</i> XVI.1). His copy became the source from which the speech spread again among the scholars of Italy, as Jeroen De Keyser has shown in his study of its descendants.</p>
 <p>Petrarch copied the speech because there was no other way to possess it, but the copying was also a way of learning it. To write out a passage word for word requires attention to every word, every construction, and every mark of punctuation, and it fixes the movement of the sentences in the mind. So to copy a passage of a good author exactly as it stands is a way of learning its sentences in every detail.</p>`,
-  src: `Petrarch, <i>Seniles</i> XVI.1 (locus not verified), in paraphrase; De Keyser, “The Descendants of Petrarch’s <i>Pro Archia</i>” (2013).` }
+  src: `Petrarch, <i>Seniles</i> XVI.1, in paraphrase; De Keyser, “The Descendants of Petrarch’s <i>Pro Archia</i>” (2013).` }
 
   ]
 };

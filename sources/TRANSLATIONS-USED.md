@@ -29,7 +29,7 @@ No translator is named in the text (CLAUDE.md, "Translators"). Quotations marked
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| Augustine, *De doctrina christiana* | II.1.1 (definition of a sign), II.1.2 (natural signs), II.2.3 (given signs) | J. F. Shaw (NPNF) | i.sign / what-sign, natural, given; qp q-natural-given | **verified at second hand** (II.1.1 and II.1.2 in full; II.2.3 only the opening; "emotions" may read "feelings" in Shaw) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
+| Augustine, *De doctrina christiana* | II.1.1 (definition of a sign), II.1.2 (natural signs), II.2.3 (given signs) | J. F. Shaw (NPNF) | i.sign / what-sign, natural, given; qp q-natural-given | **verified** (New Advent, NPNF I.2, read in full: II.1.1, II.1.2, II.2.3); II.2.3 **corrected** on the card, "emotions" → "feelings" as Shaw prints (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 | Augustine, *De doctrina christiana* | II.3.4; III.2.3 | — (paraphrase) | i.sign / given; i.ambiguity / pause | paraphrase |
 | Aristotle, *De interpretatione* | 1, 16a3–8; 1, 16a16–18 | E. M. Edghill (Oxford) | i.sign / aristotle, same-for-all; i.consignification / not-true | 16a3–8 **verified at second hand** (the opening of 16a5–8 read; the Greek at 16a3–6 not checked) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); 16a16–18 still **verify** |
 | Aristotle, *De interpretatione* | 2, 16a19–22; 2, 16a26–29 | E. M. Edghill | i.imposition / what-imposition, not-by-nature; i.consignification / time-in-verb, parts-no-meaning | **verify** (the live app quotes 16a26–29 in Ackrill’s wording instead) |
@@ -146,7 +146,7 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Donatus, *Ars maior* | III.1 (*barbarismus est una pars orationis vitiosa in communi sermone*; *in poemate metaplasmus*); III.2 (*soloecismus est vitium in contextu partium orationis contra regulam artis grammaticae factum*); III.3 (the twelve faults; *acyrologia*; *pleonasmos*, *sic ore locuta est*); III.4 (the fourteen metaplasms and their examples) | no published English translation | vi.* | **verified** against Holtz's text; macrons removed from the quoted definitions. **Corrected**: the example of systole was not Donatus's (*steterunt*); it is now his own, *aquosus Orion* (*Aeneid* IV.52). Donatus's note on *Italiam* (*cum Italia correpte dici debeat*) and his pleonasm example (*Aeneid* I.614) **added**. The English gloss of *sic ore locuta est* is ours (a question for Timothy; **resolved**, 17 Oct: checked against the Latin and found accurate; unchanged). Ennius's *rex Albai Longai* is quoted as Donatus gives it; the Ennius locus is **still unverified** |
 | Diogenes Laertius, *Lives* | I.51 (Soli and the word "solecize") | R. D. Hicks (Loeb), on Perseus | vi.solecism / definition | **verified**; now quoted ("who in process of time corrupted the purity of Attic and were said to solecize") |
 | Strabo, *Geography* | XIV.2.28 | H. C. Hamilton and W. Falconer (1903), on Perseus | vi.solecism / definition | **verified**; now quoted ("either from Soli or some other source") |
-| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase; Johnson **verified** (Gutenberg #5430); Lowth **verified at second hand** (pp. 127–28 as quoted in secondary sources) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md). Proposed: add that Johnson also held it the lexicographer's duty "to correct" improprieties |
+| Lowth (1762); Johnson, Preface to the *Dictionary* (1755) | — | — | vi.usage / prescribe-describe | paraphrase; Johnson **verified** (Gutenberg #5430); Lowth **verified at second hand** (pp. 127–28 as quoted in secondary sources) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md). Added (Timothy approved, 19 Oct 2026): Johnson's "the duty of the lexicographer to correct or proscribe", quoted from Gutenberg #5430, **verified** |
 
 ### Section VII
 
@@ -252,7 +252,7 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Thomas of Erfurt, *Grammatica speculativa* | iii.reasons, iii.noun-2, iii.verb-2, iii.participle, v.* | **unreachable** | no text on GitHub; Bursill-Hall's edition is in copyright |
 | Peter Helias, *Summa super Priscianum* | v.congruity, v.government | **unreachable** | no text found |
 | Linacre, *De emendata structura* VI | v.figures | **unreachable** | not in EEBO-TCP (TCP has only Linacre's *Rudimenta grammatices*, 1525) |
-| Lowth, *Short Introduction* (1762) | vi.usage / prescribe-describe | **unreachable** | Project Gutenberg #72554 is too recent to be mirrored by GITenberg; not in ECCO-TCP |
+| Lowth, *Short Introduction* (1762) | vi.usage / prescribe-describe | **verified at second hand** (19 Oct 2026; pp. 127–28 as quoted in secondary sources; the 1762 text itself still unread) | Project Gutenberg #72554 is too recent to be mirrored by GITenberg; not in ECCO-TCP |
 | Vossius, *Aristarchus*; *Etymologicon* | iv.derivation, iv.etymology | **unreachable** | no text found |
 | Tesnière, *Éléments*, Books A and D | v.dependence | **unreachable** | the open-access translation (OAPEN) was refused |
 | Dionysius Thrax, *Technē* 11 | iii.parts | **unreachable** | not in Perseus or First1KGreek on GitHub; Wikisource (Davidson) refused |
@@ -271,7 +271,7 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Text | Where | Translation | Status |
 |---|---|---|---|
 | Caesar, *De bello Gallico* I.1 (*Gallia est omnis divisa in partes tres*) | ii.punctuation / why-punctuation | "All Gaul is divided into three parts" (W. A. McDevitte and W. S. Bohn, 1869) | **verified** word for word (Perseus TEI of McDevitte and Bohn, via GitHub) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
-| Ovid, *Metamorphoses* I.1 (*In nova fert animus mutatas dicere formas*) | ii.meter / caesura | "My mind is bent to tell of bodies changed into new forms" (F. J. Miller, Loeb, 1916) | **verified at second hand** only (a weak search match); keep the flag on the card until a page of Miller is read (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
+| Ovid, *Metamorphoses* I.1 (*In nova fert animus mutatas dicere formas*) | ii.meter / caesura | "My mind is bent to tell of bodies changed into new forms" (F. J. Miller, Loeb, 1916) | **verified** (Loeb 1916 text on loebclassics.com, Wikisource and archive.org); card flag removed (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 | Shakespeare, Sonnet 129.1 | ii.meter / elision | English original ("Th' expense of spirit in a waste of shame") | modern spelling; the 1609 Quarto reads "Th'expence of Spirit in a waste of shame"; **verified** (Gutenberg #100) (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md) |
 
 ## Rule 27b (18 Oct 2026): unpublished renderings now quoted English-first
