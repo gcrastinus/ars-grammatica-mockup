@@ -8,363 +8,363 @@ ARS.decks["lang.ix.fr/prose"] = {
  "panels": [
   {
    "id": "prose-1",
-   "title": "Descartes, Discours de la méthode I",
-   "body": "<p><strong>Descartes, <i>Discours de la méthode</i> I</strong></p><p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>— John Veitch</p><p><strong>Context.</strong> Descartes opens his <em>Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>"
+   "title": "Descartes, <i>Discours de la méthode</i> I",
+   "body": "<p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>— John Veitch</p><p><strong>Context.</strong> Descartes opens his <em>Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>"
   },
   {
    "id": "prose-2",
    "title": "The main clause and a superlative",
-   "body": "<p><strong>The main clause and a superlative.</strong> <em>Le bon sens est la chose du monde la mieux partagée</em>: <em>Le bon sens</em> is the subject of <em>est</em>. <em>La mieux partagée</em>, “the best shared,” is the superlative of the participle <em>partagée</em>, made with the article and <em>mieux</em>, and it agrees with <em>la chose</em>, which is feminine.</p>"
+   "body": "<p><em>Le bon sens est la chose du monde la mieux partagée</em>: <em>Le bon sens</em> is the subject of <em>est</em>. <em>La mieux partagée</em>, “the best shared,” is the superlative of the participle <em>partagée</em>, made with the article and <em>mieux</em>, and it agrees with <em>la chose</em>, which is feminine.</p>"
   },
   {
    "id": "prose-3",
    "title": "The pronoun en",
-   "body": "<p><strong>The pronoun en.</strong> <em>car chacun pense en être si bien pourvu</em>: <em>Car</em>, “for,” gives the reason. <em>Pense</em> takes the infinitive <em>être</em> directly, since the subject is the same: each thinks himself to be provided. <em>En</em> stands for <em>de bon sens</em>: provided with it.</p>"
+   "body": "<p><em>car chacun pense en être si bien pourvu</em>: <em>Car</em>, “for,” gives the reason. <em>Pense</em> takes the infinitive <em>être</em> directly, since the subject is the same: each thinks himself to be provided. <em>En</em> stands for <em>de bon sens</em>, so the sense is “provided with it.”</p>"
   },
   {
    "id": "prose-4",
    "title": "A clause of result",
-   "body": "<p><strong>A clause of result.</strong> <em>que ceux même qui sont les plus difficiles à contenter en toute autre chose</em>: <em>Si bien … que</em>, “so well … that,” brings in the result. <em>Ceux</em>, “those,” is taken up by the relative <em>qui</em>, and <em>à contenter</em>, “to satisfy,” completes <em>difficiles</em>.</p>"
+   "body": "<p><em>que ceux même qui sont les plus difficiles à contenter en toute autre chose</em>: <em>Si bien … que</em>, “so well … that,” brings in the result. <em>Ceux</em>, “those,” is taken up by the relative <em>qui</em>, and <em>à contenter</em>, “to satisfy,” completes <em>difficiles</em>.</p>"
   },
   {
    "id": "prose-5",
    "title": "The negative and the comparison",
-   "body": "<p><strong>The negative and the comparison.</strong> <em>n’ont point coutume d’en désirer plus qu’ils en ont</em>: <em>Ne … point</em> is an older and stronger form of <em>ne … pas</em>. <em>Avoir coutume de</em>, “to be accustomed to,” takes the infinitive with <em>de</em>, and <em>plus qu’ils en ont</em> compares: more than they have.</p>"
+   "body": "<p><em>n’ont point coutume d’en désirer plus qu’ils en ont</em>: <em>Ne … point</em> is an older and stronger form of <em>ne … pas</em>. <em>Avoir coutume de</em>, “to be accustomed to,” takes the infinitive with <em>de</em>, and <em>plus qu’ils en ont</em> compares: more than they have.</p>"
   },
   {
    "id": "prose-6",
-   "title": "Descartes, Discours de la méthode IV",
-   "body": "<p><strong>Descartes, <i>Discours de la méthode</i> IV</strong></p><p>Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>— John Veitch</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the passé simple of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em>il fallait que</em>.</p>"
+   "title": "Descartes, <i>Discours de la méthode</i> IV",
+   "body": "<p>Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>— John Veitch</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the passé simple of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em>il fallait que</em>.</p>"
   },
   {
    "id": "prose-7",
    "title": "The passé simple",
-   "body": "<p><strong>The passé simple.</strong> <em>Mais aussitôt après je pris garde que</em>: <em>Je pris garde</em>, “I took notice,” is the passé simple of <em>prendre</em>, the tense of a single past event in written narrative. It takes a clause with <em>que</em> as its object.</p>"
+   "body": "<p><em>Mais aussitôt après je pris garde que</em>: <em>Je pris garde</em>, “I took notice,” is the passé simple of <em>prendre</em>, the tense of a single past event in written narrative. It takes a clause with <em>que</em> as its object.</p>"
   },
   {
    "id": "prose-8",
    "title": "The imperfect",
-   "body": "<p><strong>The imperfect.</strong> <em>pendant que je voulais ainsi penser que tout était faux</em>: <em>Voulais</em> and <em>était</em> are imperfects: they describe what was going on while the event happened.</p>"
+   "body": "<p><em>pendant que je voulais ainsi penser que tout était faux</em>: <em>Voulais</em> and <em>était</em> are imperfects: they describe what was going on while the event happened.</p>"
   },
   {
    "id": "prose-9",
    "title": "The imperfect subjunctive",
-   "body": "<p><strong>The imperfect subjunctive.</strong> <em>il fallait nécessairement que moi qui le pensais fusse quelque chose</em>: <em>Il fallait que</em>, “it was necessary that,” requires the subjunctive, and after a past main verb the classical language uses the imperfect subjunctive: <em>fusse</em>, from <em>être</em>. <em>Moi</em> is the stressed pronoun, set first and taken up by <em>qui</em>.</p>"
+   "body": "<p><em>il fallait nécessairement que moi qui le pensais fusse quelque chose</em>: <em>Il fallait que</em>, “it was necessary that,” requires the subjunctive, and after a past main verb the classical language uses the imperfect subjunctive: <em>fusse</em>, from <em>être</em>. <em>Moi</em> is the stressed pronoun, set first and taken up by <em>qui</em>.</p>"
   },
   {
    "id": "prose-10",
    "title": "The truth itself",
-   "body": "<p><strong>The truth itself.</strong> <em>je pense, donc je suis</em>: The truth is set in apposition to <em>cette vérité</em>: <em>je pense, donc je suis</em>, “I think, therefore I am.” <em>Donc</em> draws the conclusion.</p>"
+   "body": "<p><em>je pense, donc je suis</em>: The truth is set in apposition to <em>cette vérité</em>: <em>je pense, donc je suis</em>, “I think, therefore I am.” <em>Donc</em> draws the conclusion.</p>"
   },
   {
    "id": "prose-11",
    "title": "Result again",
-   "body": "<p><strong>Result again.</strong> <em>si ferme et si assurée que</em>: <em>Si … que</em> gives the result: so firm and so sure that the skeptics could not shake it. <em>Assurée</em> is feminine, agreeing with <em>vérité</em>.</p>"
+   "body": "<p><em>si ferme et si assurée que</em>: <em>Si … que</em> gives the result: so firm and so sure that the skeptics could not shake it. <em>Assurée</em> is feminine, agreeing with <em>vérité</em>.</p>"
   },
   {
    "id": "prose-12",
    "title": "The main verb",
-   "body": "<p><strong>The main verb.</strong> <em>je jugeai que je pouvais la recevoir sans scrupule</em>: <em>Je jugeai</em>, passé simple, is the main verb of the second sentence. <em>La</em> stands for <em>cette vérité</em>.</p>"
+   "body": "<p><em>je jugeai que je pouvais la recevoir sans scrupule</em>: <em>Je jugeai</em>, passé simple, is the main verb of the second sentence. <em>La</em> stands for <em>cette vérité</em>.</p>"
   },
   {
    "id": "prose-13",
-   "title": "Pascal, Pensées 347",
-   "body": "<p><strong>Pascal, <i>Pensées</i> 347</strong></p><p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>— W. F. Trotter</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>"
+   "title": "Pascal, <i>Pensées</i> 347",
+   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>— W. F. Trotter</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>"
   },
   {
    "id": "prose-14",
    "title": "Ne … que",
-   "body": "<p><strong>Ne … que.</strong> <em>L’homme n’est qu’un roseau</em>: <em>Ne … que</em> means “only”: man is only a reed. It limits, and it is not a plain negative.</p>"
+   "body": "<p><em>L’homme n’est qu’un roseau</em>: <em>Ne … que</em> means “only”: man is only a reed. It limits, and it is not a plain negative.</p>"
   },
   {
    "id": "prose-15",
    "title": "Apposition",
-   "body": "<p><strong>Apposition.</strong> <em>le plus faible de la nature</em>: <em>Le plus faible</em>, the superlative, stands in apposition to <em>un roseau</em>, and <em>de la nature</em> gives the group in which it is the weakest.</p>"
+   "body": "<p><em>le plus faible de la nature</em>: <em>Le plus faible</em>, the superlative, stands in apposition to <em>un roseau</em>, and <em>de la nature</em> gives the group in which it is the weakest.</p>"
   },
   {
    "id": "prose-16",
    "title": "The present participle as adjective",
-   "body": "<p><strong>The present participle as adjective.</strong> <em>mais c’est un roseau pensant</em>: <em>Pensant</em>, “thinking,” is a present participle used as an adjective, and it follows its noun. <em>C’est</em> points back to man.</p>"
+   "body": "<p><em>mais c’est un roseau pensant</em>: <em>Pensant</em>, “thinking,” is a present participle used as an adjective, and it follows its noun. <em>C’est</em> points back to man.</p>"
   },
   {
    "id": "prose-17",
    "title": "Il faut que with the subjunctive",
-   "body": "<p><strong>Il faut que with the subjunctive.</strong> <em>Il ne faut pas que l’univers entier s’arme pour l’écraser</em>: <em>Il ne faut pas que</em>, “it is not necessary that,” takes the subjunctive: <em>s’arme</em>. <em>Pour</em> with the infinitive gives the purpose, and <em>l’</em> stands for man.</p>"
+   "body": "<p><em>Il ne faut pas que l’univers entier s’arme pour l’écraser</em>: <em>Il ne faut pas que</em>, “it is not necessary that,” takes the subjunctive: <em>s’arme</em>. <em>Pour</em> with the infinitive gives the purpose, and <em>l’</em> stands for man.</p>"
   },
   {
    "id": "prose-18",
    "title": "Two subjects, one verb",
-   "body": "<p><strong>Two subjects, one verb.</strong> <em>une vapeur, une goutte d’eau suffit pour le tuer</em>: The verb <em>suffit</em> is singular, though it has two subjects, because the second takes the place of the first: a vapor, or even a drop of water.</p>"
+   "body": "<p><em>une vapeur, une goutte d’eau suffit pour le tuer</em>: The verb <em>suffit</em> is singular, though it has two subjects, because the second takes the place of the first: a vapor, or even a drop of water.</p>"
   },
   {
    "id": "prose-19",
-   "title": "Montaigne, Essais Au lecteur",
-   "body": "<p><strong>Montaigne, <i>Essais</i> Au lecteur</strong></p><p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>— Charles Cotton</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>"
+   "title": "Montaigne, <i>Essais</i> Au lecteur",
+   "body": "<p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>— Charles Cotton</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>"
   },
   {
    "id": "prose-20",
    "title": "C’est and the address",
-   "body": "<p><strong>C’est and the address.</strong> <em>C’est ici un livre de bonne foi, lecteur</em>: <em>C’est ici</em>, “this here is,” presents the book. <em>Lecteur</em>, without an article, is the person addressed.</p>"
+   "body": "<p><em>C’est ici un livre de bonne foi, lecteur</em>: <em>C’est ici</em>, “this here is,” presents the book. <em>Lecteur</em>, without an article, is the person addressed.</p>"
   },
   {
    "id": "prose-21",
    "title": "The familiar pronoun",
-   "body": "<p><strong>The familiar pronoun.</strong> <em>Il t’avertit dès l’entrée</em>: <em>Il</em> is the book. <em>T’</em>, for <em>te</em>, is the familiar object pronoun: Montaigne speaks to the reader as <em>tu</em>.</p>"
+   "body": "<p><em>Il t’avertit dès l’entrée</em>: <em>Il</em> is the book. <em>T’</em>, for <em>te</em>, is the familiar object pronoun: Montaigne speaks to the reader as <em>tu</em>.</p>"
   },
   {
    "id": "prose-22",
    "title": "A reflexive verb in the passé composé",
-   "body": "<p><strong>A reflexive verb in the passé composé.</strong> <em>que je ne m’y suis proposé aucune fin que domestique et privée</em>: <em>Je me suis proposé</em>, “I set before myself,” is reflexive and so takes <em>être</em>. <em>Y</em> stands for the book: in it. <em>Ne … aucune fin que</em> means “no end but.”</p>"
+   "body": "<p><em>que je ne m’y suis proposé aucune fin que domestique et privée</em>: <em>Je me suis proposé</em>, “I set before myself,” is reflexive and so takes <em>être</em>. <em>Y</em> stands for the book: in it. <em>Ne … aucune fin que</em> means “no end but.”</p>"
   },
   {
    "id": "prose-23",
    "title": "Nul and ni",
-   "body": "<p><strong>Nul and ni.</strong> <em>Je n’y ai eu nulle considération de ton service ni de ma gloire</em>: <em>Ne … nulle</em>, “no … at all,” is a strong negative, and <em>ni</em> continues it: neither your service nor my glory.</p>"
+   "body": "<p><em>Je n’y ai eu nulle considération de ton service ni de ma gloire</em>: <em>Ne … nulle</em>, “no … at all,” is a strong negative, and <em>ni</em> continues it: neither your service nor my glory.</p>"
   },
   {
    "id": "prose-24",
-   "title": "Rousseau, Du contrat social I.1",
-   "body": "<p><strong>Rousseau, <i>Du contrat social</i> I.1</strong></p><p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau opens the first book of the <em>Social Contract</em> with a contrast between what man is by birth and what he is in society.</p>"
+   "title": "Rousseau, <i>Du contrat social</i> I.1",
+   "body": "<p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau opens the first book of the <em>Social Contract</em> with a contrast between what man is by birth and what he is in society.</p>"
   },
   {
    "id": "prose-25",
    "title": "Naître with être",
-   "body": "<p><strong>Naître with être.</strong> <em>L’homme est né libre</em>: <em>Est né</em> is the passé composé of <em>naître</em>, a verb that takes <em>être</em>. <em>Libre</em> is predicate: born free.</p>"
+   "body": "<p><em>L’homme est né libre</em>: <em>Est né</em> is the passé composé of <em>naître</em>, a verb that takes <em>être</em>. <em>Libre</em> is a predicate adjective, so the sense is “man is born free.”</p>"
   },
   {
    "id": "prose-26",
    "title": "The contrast",
-   "body": "<p><strong>The contrast.</strong> <em>et partout il est dans les fers</em>: <em>Partout</em>, “everywhere,” stands first for emphasis. <em>Dans les fers</em> is a fixed phrase: in chains.</p>"
+   "body": "<p><em>et partout il est dans les fers</em>: <em>Partout</em>, “everywhere,” stands first for emphasis. <em>Dans les fers</em>, “in chains,” is a fixed phrase.</p>"
   },
   {
    "id": "prose-27",
    "title": "Tel as a pronoun",
-   "body": "<p><strong>Tel as a pronoun.</strong> <em>Tel se croit le maître des autres</em>: <em>Tel</em>, used alone, means “such a one,” “a certain man.” <em>Se croit</em>, “believes himself,” takes <em>le maître</em> as predicate.</p>"
+   "body": "<p><em>Tel se croit le maître des autres</em>: <em>Tel</em>, used alone, means “such a one,” “a certain man.” <em>Se croit</em>, “believes himself,” takes <em>le maître</em> as predicate.</p>"
   },
   {
    "id": "prose-28",
    "title": "Ne pas laisser de",
-   "body": "<p><strong>Ne pas laisser de.</strong> <em>qui ne laisse pas d’être plus esclave qu’eux</em>: The relative <em>qui</em> takes up <em>tel</em>, though it stands after the verb. <em>Ne pas laisser de</em> means “not to fail to,” that is, “still”: he is still more a slave than they.</p>"
+   "body": "<p><em>qui ne laisse pas d’être plus esclave qu’eux</em>: The relative <em>qui</em> takes up <em>tel</em>, though it stands after the verb. <em>Ne pas laisser de</em> means “not to fail to,” that is, “still”: he is still more a slave than they.</p>"
   },
   {
    "id": "prose-29",
-   "title": "Tocqueville, De la démocratie en Amérique Introduction",
-   "body": "<p><strong>Tocqueville, <i>De la démocratie en Amérique</i> Introduction</strong></p><p>Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Among the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>— Henry Reeve</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>"
+   "title": "Tocqueville, <i>De la démocratie en Amérique</i> Introduction",
+   "body": "<p>Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Among the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>— Henry Reeve</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>"
   },
   {
    "id": "prose-30",
    "title": "The adjective after its noun",
-   "body": "<p><strong>The adjective after its noun.</strong> <em>Parmi les objets nouveaux</em>: <em>Nouveaux</em> follows <em>objets</em>: placed after the noun it means “new to me, novel.” <em>Parmi</em> takes the plural: among.</p>"
+   "body": "<p><em>Parmi les objets nouveaux</em>: <em>Nouveaux</em> follows <em>objets</em>, and placed after the noun it means “new to me, novel.” <em>Parmi</em>, “among,” takes a plural noun.</p>"
   },
   {
    "id": "prose-31",
    "title": "A relative clause",
-   "body": "<p><strong>A relative clause.</strong> <em>qui, pendant mon séjour aux États-Unis, ont attiré mon attention</em>: <em>Qui</em> is the subject of <em>ont attiré</em>, and the verb is plural because its antecedent, <em>objets</em>, is plural. <em>Aux</em> is <em>à les</em>: the name of the country is plural.</p>"
+   "body": "<p><em>qui, pendant mon séjour aux États-Unis, ont attiré mon attention</em>: <em>Qui</em> is the subject of <em>ont attiré</em>, and the verb is plural because its antecedent, <em>objets</em>, is plural. <em>Aux</em> is <em>à les</em>: the name of the country is plural.</p>"
   },
   {
    "id": "prose-32",
    "title": "Aucun as subject",
-   "body": "<p><strong>Aucun as subject.</strong> <em>aucun n’a plus vivement frappé mes regards</em>: <em>Aucun</em>, “none,” is the subject of the main clause, with <em>ne</em>. The verb is singular.</p>"
+   "body": "<p><em>aucun n’a plus vivement frappé mes regards</em>: <em>Aucun</em>, “none,” is the subject of the main clause, with <em>ne</em>. The verb is singular.</p>"
   },
   {
    "id": "prose-33",
    "title": "The comparison",
-   "body": "<p><strong>The comparison.</strong> <em>que l’égalité des conditions</em>: <em>Plus … que</em> compares: nothing more than equality. <em>Des conditions</em> is <em>de les</em>: of conditions, that is, of social rank.</p>"
+   "body": "<p><em>que l’égalité des conditions</em>: <em>Plus … que</em> compares: nothing more than equality. <em>Des conditions</em> is <em>de les</em>: of conditions, that is, of social rank.</p>"
   },
   {
    "id": "prose-34",
-   "title": "Flaubert, Madame Bovary I.1",
-   "body": "<p><strong>Flaubert, <i>Madame Bovary</i> I.1</strong></p><p>Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>— Eleanor Marx-Aveling</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the passé simple.</p>"
+   "title": "Flaubert, <i>Madame Bovary</i> I.1",
+   "body": "<p>Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>— Eleanor Marx-Aveling</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the passé simple.</p>"
   },
   {
    "id": "prose-35",
    "title": "The imperfect: the scene",
-   "body": "<p><strong>The imperfect: the scene.</strong> <em>Nous étions à l’Étude</em>: <em>Étions</em> is the imperfect of <em>être</em>, describing the state of things when something happened.</p>"
+   "body": "<p><em>Nous étions à l’Étude</em>: <em>Étions</em> is the imperfect of <em>être</em>, describing the state of things when something happened.</p>"
   },
   {
    "id": "prose-36",
    "title": "The passé simple: the event",
-   "body": "<p><strong>The passé simple: the event.</strong> <em>quand le Proviseur entra</em>: <em>Entra</em>, passé simple, is the event that breaks in on the scene.</p>"
+   "body": "<p><em>quand le Proviseur entra</em>: <em>Entra</em>, passé simple, is the event that breaks in on the scene.</p>"
   },
   {
    "id": "prose-37",
    "title": "The past participle and the agent",
-   "body": "<p><strong>The past participle and the agent.</strong> <em>suivi d’un nouveau habillé en bourgeois</em>: <em>Suivi</em>, “followed,” agrees with <em>le Proviseur</em>, and <em>de</em> gives the agent. <em>Un nouveau</em>, “a new one,” is an adjective used as a noun, and <em>habillé en bourgeois</em> means “dressed in ordinary clothes.”</p>"
+   "body": "<p><em>suivi d’un nouveau habillé en bourgeois</em>: <em>Suivi</em>, “followed,” agrees with <em>le Proviseur</em>, and <em>de</em> gives the agent. <em>Un nouveau</em>, “a new one,” is an adjective used as a noun, and <em>habillé en bourgeois</em> means “dressed in ordinary clothes.”</p>"
   },
   {
    "id": "prose-38",
    "title": "A second agent and a relative clause",
-   "body": "<p><strong>A second agent and a relative clause.</strong> <em>et d’un garçon de classe qui portait un grand pupitre</em>: <em>Et d’un garçon</em> is a second agent of <em>suivi</em>. <em>Qui portait</em>, imperfect, describes him.</p>"
+   "body": "<p><em>et d’un garçon de classe qui portait un grand pupitre</em>: <em>Et d’un garçon</em> is a second agent of <em>suivi</em>. <em>Qui portait</em>, imperfect, describes him.</p>"
   },
   {
    "id": "prose-39",
-   "title": "Hugo, Les Misérables I.1.1",
-   "body": "<p><strong>Hugo, <i>Les Misérables</i> I.1.1</strong></p><p>En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D——. He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>— Isabel F. Hapgood</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>"
+   "title": "Hugo, <i>Les Misérables</i> I.1.1",
+   "body": "<p>En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D——. He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>— Isabel F. Hapgood</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>"
   },
   {
    "id": "prose-40",
    "title": "A noun of office without the article",
-   "body": "<p><strong>A noun of office without the article.</strong> <em>était évêque de Digne</em>: <em>Évêque</em> stands without an article: after <em>être</em>, a noun of rank or profession is used like an adjective.</p>"
+   "body": "<p><em>était évêque de Digne</em>: <em>Évêque</em> stands without an article: after <em>être</em>, a noun of rank or profession is used like an adjective.</p>"
   },
   {
    "id": "prose-41",
    "title": "C’était with a noun",
-   "body": "<p><strong>C’était with a noun.</strong> <em>C’était un vieillard d’environ soixante-quinze ans</em>: With a noun that has an article, French uses <em>c’était</em>, not <em>il était</em>. <em>D’environ</em>, “of about,” gives his age.</p>"
+   "body": "<p><em>C’était un vieillard d’environ soixante-quinze ans</em>: With a noun that has an article, French uses <em>c’était</em>, not <em>il était</em>. <em>D’environ</em>, “of about,” gives his age.</p>"
   },
   {
    "id": "prose-42",
    "title": "Depuis with the imperfect",
-   "body": "<p><strong>Depuis with the imperfect.</strong> <em>il occupait le siège de Digne depuis 1806</em>: <em>Depuis</em>, “since,” with the imperfect says what had been going on up to that time and was still going on. English uses the pluperfect: he had occupied.</p>"
+   "body": "<p><em>il occupait le siège de Digne depuis 1806</em>: <em>Depuis</em>, “since,” with the imperfect says what had been going on up to that time and was still going on. English uses the pluperfect: he had occupied.</p>"
   },
   {
    "id": "prose-43",
    "title": "Declaration of the Rights of Man and of the Citizen, article 1 (1789)",
-   "body": "<p><strong>Declaration of the Rights of Man and of the Citizen, <i></i> article 1 (1789)</strong></p><p>Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.</p><p>Men are born, and always continue, free and equal in respect of their rights. Civil distinctions, therefore, can be founded only on public utility.<br>— Thomas Paine</p><p><strong>Context.</strong> The National Assembly adopted the Declaration in August 1789. Paine translated it in his <em>Rights of Man</em>, a reply to Burke.</p>"
+   "body": "<p>Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.</p><p>Men are born, and always continue, free and equal in respect of their rights. Civil distinctions, therefore, can be founded only on public utility.<br>— Thomas Paine</p><p><strong>Context.</strong> The National Assembly adopted the Declaration in August 1789. Paine translated it in his <em>Rights of Man</em>, a reply to Burke.</p>"
   },
   {
    "id": "prose-44",
    "title": "Two verbs and two predicates",
-   "body": "<p><strong>Two verbs and two predicates.</strong> <em>Les hommes naissent et demeurent libres et égaux en droits</em>: <em>Naissent</em> and <em>demeurent</em> share the subject and the predicates <em>libres et égaux</em>, which agree with <em>les hommes</em>, masculine plural.</p>"
+   "body": "<p><em>Les hommes naissent et demeurent libres et égaux en droits</em>: <em>Naissent</em> and <em>demeurent</em> share the subject and the predicates <em>libres et égaux</em>, which agree with <em>les hommes</em>, masculine plural.</p>"
   },
   {
    "id": "prose-45",
    "title": "The passive infinitive",
-   "body": "<p><strong>The passive infinitive.</strong> <em>Les distinctions sociales ne peuvent être fondées</em>: <em>Être fondées</em> is a passive infinitive after <em>peuvent</em>, and <em>fondées</em> agrees with <em>les distinctions</em>, feminine plural.</p>"
+   "body": "<p><em>Les distinctions sociales ne peuvent être fondées</em>: <em>Être fondées</em> is a passive infinitive after <em>peuvent</em>, and <em>fondées</em> agrees with <em>les distinctions</em>, feminine plural.</p>"
   },
   {
    "id": "prose-46",
    "title": "Ne … que",
-   "body": "<p><strong>Ne … que.</strong> <em>que sur l’utilité commune</em>: <em>Ne … que</em> means “only”: they can be founded only on the common good.</p>"
+   "body": "<p><em>que sur l’utilité commune</em>: <em>Ne … que</em> means “only,” so the sense is that social distinctions can be founded only on the common good.</p>"
   },
   {
    "id": "prose-47",
-   "title": "Molière, Le Bourgeois gentilhomme II.4",
-   "body": "<p><strong>Molière, <i>Le Bourgeois gentilhomme</i> II.4</strong></p><p>Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j’en susse rien, et je vous suis le plus obligé du monde de m’avoir appris cela.</p><p>By my faith! For more than forty years I have been speaking prose without knowing anything about it, and I am much obliged to you for having taught me that.<br>— Philip Dwight Jones</p><p><strong>Context.</strong> Monsieur Jourdain, a rich tradesman who wants to be a gentleman, takes lessons from a philosophy master. Told that all that is not verse is prose, he discovers what he has always been doing.</p>"
+   "title": "Molière, <i>Le Bourgeois gentilhomme</i> II.4",
+   "body": "<p>Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j’en susse rien, et je vous suis le plus obligé du monde de m’avoir appris cela.</p><p>By my faith! For more than forty years I have been speaking prose without knowing anything about it, and I am much obliged to you for having taught me that.<br>— Philip Dwight Jones</p><p><strong>Context.</strong> Monsieur Jourdain, a rich tradesman who wants to be a gentleman, takes lessons from a philosophy master. Told that all that is not verse is prose, he discovers what he has always been doing.</p>"
   },
   {
    "id": "prose-48",
    "title": "Il y a … que with the present",
-   "body": "<p><strong>Il y a … que with the present.</strong> <em>il y a plus de quarante ans que je dis de la prose</em>: <em>Il y a … que</em> with the present tense says how long something has been going on: for forty years I have been speaking. <em>De la prose</em> is the partitive.</p>"
+   "body": "<p><em>il y a plus de quarante ans que je dis de la prose</em>: <em>Il y a … que</em> with the present tense says how long something has been going on: for forty years I have been speaking. <em>De la prose</em> is the partitive.</p>"
   },
   {
    "id": "prose-49",
    "title": "Sans que with the subjunctive",
-   "body": "<p><strong>Sans que with the subjunctive.</strong> <em>sans que j’en susse rien</em>: <em>Sans que</em> always takes the subjunctive. <em>Susse</em> is the imperfect subjunctive of <em>savoir</em>, and <em>en</em> stands for the fact.</p>"
+   "body": "<p><em>sans que j’en susse rien</em>: <em>Sans que</em> always takes the subjunctive. <em>Susse</em> is the imperfect subjunctive of <em>savoir</em>, and <em>en</em> stands for the fact.</p>"
   },
   {
    "id": "prose-50",
    "title": "The superlative with du monde",
-   "body": "<p><strong>The superlative with du monde.</strong> <em>je vous suis le plus obligé du monde</em>: <em>Le plus obligé du monde</em>, “the most obliged in the world,” is a strong thanks. <em>Vous</em> is the indirect object: obliged to you.</p>"
+   "body": "<p><em>je vous suis le plus obligé du monde</em>: <em>Le plus obligé du monde</em>, “the most obliged in the world,” is a strong thanks. <em>Vous</em> is the indirect object: obliged to you.</p>"
   },
   {
    "id": "prose-51",
    "title": "The past infinitive",
-   "body": "<p><strong>The past infinitive.</strong> <em>de m’avoir appris cela</em>: <em>Avoir appris</em> is the past infinitive: for having taught. <em>M’</em> is the indirect object of <em>apprendre</em>: taught to me.</p>"
+   "body": "<p><em>de m’avoir appris cela</em>: <em>Avoir appris</em> is the past infinitive, “for having taught.” <em>M’</em> is the indirect object of <em>apprendre</em>, so the sense is “for having taught me that.”</p>"
   },
   {
    "id": "prose-52",
-   "title": "Pascal, Pensées 277 (in the drill)",
-   "body": "<p><strong>Pascal, <i>Pensées</i> 277 (in the drill)</strong></p><p>Le cœur a ses raisons, que la raison ne connaît point. On le sent en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>— W. F. Trotter</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>"
+   "title": "Pascal, <i>Pensées</i> 277",
+   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point. On le sent en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>— W. F. Trotter</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>"
   },
   {
    "id": "prose-53",
    "title": "The possessive",
-   "body": "<p><strong>The possessive.</strong> <em>Le cœur a ses raisons</em>: <em>Ses</em> agrees with <em>raisons</em>, feminine plural, not with the possessor.</p>"
+   "body": "<p><em>Le cœur a ses raisons</em>: <em>Ses</em> agrees with <em>raisons</em>, feminine plural, not with the possessor.</p>"
   },
   {
    "id": "prose-54",
    "title": "The relative que",
-   "body": "<p><strong>The relative que.</strong> <em>que la raison ne connaît point</em>: <em>Que</em> is the object of <em>connaît</em>, and it stands for <em>raisons</em>. <em>Ne … point</em> is a strong negative.</p>"
+   "body": "<p><em>que la raison ne connaît point</em>: <em>Que</em> is the object of <em>connaît</em>, and it stands for <em>raisons</em>. <em>Ne … point</em> is a strong negative.</p>"
   },
   {
    "id": "prose-55",
    "title": "On and the neuter le",
-   "body": "<p><strong>On and the neuter le.</strong> <em>On le sent en mille choses</em>: <em>On</em>, “one, we,” is the general subject. <em>Le</em> stands for the whole preceding statement.</p>"
+   "body": "<p><em>On le sent en mille choses</em>: <em>On</em>, “one, we,” is the general subject. <em>Le</em> stands for the whole preceding statement.</p>"
   },
   {
    "id": "prose-56",
-   "title": "Pascal, Pensées 206 (in the drill)",
-   "body": "<p><strong>Pascal, <i>Pensées</i> 206 (in the drill)</strong></p><p>Le silence éternel de ces espaces infinis m’effraie.</p><p>The eternal silence of these infinite spaces frightens me.<br>— W. F. Trotter</p><p><strong>Context.</strong> One of the shortest of the thoughts. The new astronomy had opened spaces without end, and Pascal sets the man who sees them against their silence.</p>"
+   "title": "Pascal, <i>Pensées</i> 206",
+   "body": "<p>Le silence éternel de ces espaces infinis m’effraie.</p><p>The eternal silence of these infinite spaces frightens me.<br>— W. F. Trotter</p><p><strong>Context.</strong> This is one of the shortest of the thoughts. The new astronomy had opened spaces without end, and Pascal sets the man who sees them against their silence.</p>"
   },
   {
    "id": "prose-57",
    "title": "The subject",
-   "body": "<p><strong>The subject.</strong> <em>Le silence éternel</em>: <em>Le silence</em> is the subject, and <em>éternel</em> follows it.</p>"
+   "body": "<p><em>Le silence éternel</em>: <em>Le silence</em> (“the silence”) is the subject, and the adjective <em>éternel</em> (“eternal”) follows it.</p>"
   },
   {
    "id": "prose-58",
    "title": "The demonstrative and the plural",
-   "body": "<p><strong>The demonstrative and the plural.</strong> <em>de ces espaces infinis</em>: <em>Ces</em>, “these,” points to the spaces. <em>Infinis</em> agrees with <em>espaces</em>, masculine plural.</p>"
+   "body": "<p><em>de ces espaces infinis</em>: <em>Ces</em>, “these,” points to the spaces. <em>Infinis</em> agrees with <em>espaces</em>, masculine plural.</p>"
   },
   {
    "id": "prose-59",
    "title": "The object pronoun",
-   "body": "<p><strong>The object pronoun.</strong> <em>m’effraie</em>: <em>M’</em> is the object pronoun, placed before the verb. <em>Effraie</em> is singular: its subject is <em>le silence</em>, not the spaces.</p>"
+   "body": "<p><em>m’effraie</em>: <em>M’</em> is the object pronoun, placed before the verb. <em>Effraie</em> is singular: its subject is <em>le silence</em>, not the spaces.</p>"
   },
   {
    "id": "prose-60",
-   "title": "La Rochefoucauld, Maximes 218 (in the drill)",
-   "body": "<p><strong>La Rochefoucauld, <i>Maximes</i> 218 (in the drill)</strong></p><p>L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>— J. W. Willis Bund and J. Hain Friswell</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>"
+   "title": "La Rochefoucauld, <i>Maximes</i> 218",
+   "body": "<p>L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>— J. W. Willis Bund and J. Hain Friswell</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>"
   },
   {
    "id": "prose-61",
    "title": "The article before a mute h",
-   "body": "<p><strong>The article before a mute h.</strong> <em>L’hypocrisie est un hommage</em>: <em>L’</em> is the article elided before the mute <em>h</em> of <em>hypocrisie</em>. <em>Un hommage</em> is the predicate.</p>"
+   "body": "<p><em>L’hypocrisie est un hommage</em>: <em>L’</em> is the article elided before the mute <em>h</em> of <em>hypocrisie</em>. <em>Un hommage</em> is the predicate.</p>"
   },
   {
    "id": "prose-62",
    "title": "The relative que",
-   "body": "<p><strong>The relative que.</strong> <em>que le vice rend</em>: <em>Que</em> is the object of <em>rend</em> and stands for <em>hommage</em>. <em>Le vice</em> is the subject.</p>"
+   "body": "<p><em>que le vice rend</em>: <em>Que</em> is the object of <em>rend</em> and stands for <em>hommage</em>. <em>Le vice</em> is the subject.</p>"
   },
   {
    "id": "prose-63",
    "title": "The indirect object",
-   "body": "<p><strong>The indirect object.</strong> <em>à la vertu</em>: <em>Rendre hommage à</em>: to pay homage to. <em>À la vertu</em> is the indirect object.</p>"
+   "body": "<p><em>à la vertu</em>: <em>Rendre hommage à</em> means “to pay homage to,” and <em>à la vertu</em> (“to virtue”) is the indirect object.</p>"
   },
   {
    "id": "prose-64",
-   "title": "Proust, Du côté de chez Swann I.1 (in the drill)",
-   "body": "<p><strong>Proust, <i>Du côté de chez Swann</i> I.1 (in the drill)</strong></p><p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>— C. K. Scott Moncrieff</p><p><strong>Context.</strong> The first sentences of <em>In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>"
+   "title": "Proust, <i>Du côté de chez Swann</i> I.1",
+   "body": "<p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>— C. K. Scott Moncrieff</p><p><strong>Context.</strong> These are the first sentences of <em>In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>"
   },
   {
    "id": "prose-65",
    "title": "The passé composé of a reflexive verb",
-   "body": "<p><strong>The passé composé of a reflexive verb.</strong> <em>Longtemps, je me suis couché de bonne heure</em>: <em>Je me suis couché</em> is the passé composé of <em>se coucher</em>, with <em>être</em>. With <em>longtemps</em> it sums up a long stretch of the past.</p>"
+   "body": "<p><em>Longtemps, je me suis couché de bonne heure</em>: <em>Je me suis couché</em> is the passé composé of <em>se coucher</em>, with <em>être</em>. With <em>longtemps</em> it sums up a long stretch of the past.</p>"
   },
   {
    "id": "prose-66",
    "title": "An absolute construction",
-   "body": "<p><strong>An absolute construction.</strong> <em>à peine ma bougie éteinte</em>: <em>Ma bougie éteinte</em>, “my candle put out,” is a noun with a participle, standing apart from the clause: scarcely was my candle out.</p>"
+   "body": "<p><em>à peine ma bougie éteinte</em>: <em>Ma bougie éteinte</em>, “my candle put out,” is a noun with a participle, standing apart from the clause: scarcely was my candle out.</p>"
   },
   {
    "id": "prose-67",
    "title": "The imperfect of habit, and result",
-   "body": "<p><strong>The imperfect of habit, and result.</strong> <em>mes yeux se fermaient si vite que je n’avais pas le temps</em>: <em>Se fermaient</em> and <em>avais</em> are imperfects of what happened again and again. <em>Si vite que</em> gives the result.</p>"
+   "body": "<p><em>mes yeux se fermaient si vite que je n’avais pas le temps</em>: <em>Se fermaient</em> and <em>avais</em> are imperfects of what happened again and again. <em>Si vite que</em> gives the result.</p>"
   },
   {
    "id": "prose-68",
    "title": "The infinitive after a noun",
-   "body": "<p><strong>The infinitive after a noun.</strong> <em>de me dire</em>: <em>Le temps de</em> takes the infinitive: time to say. <em>Me</em> is the indirect object: to say to myself.</p>"
+   "body": "<p><em>de me dire</em>: <em>Le temps de</em> takes the infinitive, “time to say.” <em>Me</em> is the indirect object, so the sense is “to say to myself.”</p>"
   },
   {
    "id": "prose-69",
-   "title": "Rousseau, Du contrat social I.4 (in the drill)",
-   "body": "<p><strong>Rousseau, <i>Du contrat social</i> I.4 (in the drill)</strong></p><p>Puisque aucun homme n’a une autorité naturelle sur son semblable, et puisque la force ne produit aucun droit, restent donc les conventions pour base de toute autorité légitime parmi les hommes.</p><p>Since no man has a natural authority over his fellow, and force creates no right, we must conclude that conventions form the basis of all legitimate authority among men.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau has set aside the father’s power and the right of the strongest. Two causal clauses come first; then the main clause, with its verb before its subject.</p>"
+   "title": "Rousseau, <i>Du contrat social</i> I.4",
+   "body": "<p>Puisque aucun homme n’a une autorité naturelle sur son semblable, et puisque la force ne produit aucun droit, restent donc les conventions pour base de toute autorité légitime parmi les hommes.</p><p>Since no man has a natural authority over his fellow, and force creates no right, we must conclude that conventions form the basis of all legitimate authority among men.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau has set aside the father’s power and the right of the strongest. Two causal clauses come first; then the main clause, with its verb before its subject.</p>"
   },
   {
    "id": "prose-70",
    "title": "The first reason",
-   "body": "<p><strong>The first reason.</strong> <em>Puisque aucun homme n’a une autorité naturelle sur son semblable</em>: <em>Puisque</em>, “since,” gives a reason taken as known. <em>Aucun … ne</em> makes the subject negative: no man has.</p>"
+   "body": "<p><em>Puisque aucun homme n’a une autorité naturelle sur son semblable</em>: <em>Puisque</em>, “since,” gives a reason taken as known. <em>Aucun … ne</em> makes the subject negative: no man has.</p>"
   },
   {
    "id": "prose-71",
    "title": "The second reason",
-   "body": "<p><strong>The second reason.</strong> <em>et puisque la force ne produit aucun droit</em>: <em>Puisque</em> is repeated. <em>Ne … aucun</em> again: force produces no right.</p>"
+   "body": "<p><em>et puisque la force ne produit aucun droit</em>: <em>Puisque</em> is repeated, and <em>ne … aucun</em> is used again, so the sense is “and since force produces no right.”</p>"
   },
   {
    "id": "prose-72",
    "title": "Verb before subject",
-   "body": "<p><strong>Verb before subject.</strong> <em>restent donc les conventions pour base de toute autorité légitime parmi les hommes</em>: The verb <em>restent</em> comes before its subject <em>les conventions</em>: there remain, then, the conventions. It is plural to agree with them. <em>Pour base</em>, “as the basis.”</p>"
+   "body": "<p><em>restent donc les conventions pour base de toute autorité légitime parmi les hommes</em>: The verb <em>restent</em> comes before its subject <em>les conventions</em> (“there remain, then, the conventions”), and it is plural to agree with them. <em>Pour base</em> means “as the basis.”</p>"
   }
  ]
 };
