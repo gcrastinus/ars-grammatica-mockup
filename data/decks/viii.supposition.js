@@ -39,7 +39,7 @@ ARS.decks['viii.supposition'] = {
   body: `<p>A word by itself has signification but no supposition. The word “dog” in a dictionary signifies a certain animal, but it does not stand for anything in particular, because nothing is said of it. Only when it is used as a term in a proposition, as the subject or the predicate, does the question arise what it stands for. So supposition is a property of terms in propositions, not of words by themselves.</p>
 <p>This is why supposition belongs chiefly to logic, which studies the proposition as true or false, whereas signification belongs to grammar as well. But grammar must know the doctrine, because the same grammatical form, a noun in the nominative with a verb, can carry different suppositions, and the reader who does not distinguish them will misunderstand what is said. The first of these differences is between a term that stands for a thing and a term that stands for itself as a word.</p>`,
   src: `Peter of Spain, <i>Tractatus</i> VI; Ockham, <i>Summa logicae</i> I.63; both in paraphrase.`,
-  qpTodo: `Signification and supposition: does a given word have supposition by itself (“tree” in a word list) or only in a proposition (“A tree fell”), and what is the difference between what it signifies and what it stands for.` },
+  qpTodo: `Signification and supposition: does a given word have supposition by itself (“river” in a word list) or only in a proposition (“A river flooded”), and what is the difference between what it signifies and what it stands for.` },
 
 { id: 'material',
   title: 'Material supposition',
@@ -71,7 +71,7 @@ ARS.decks['viii.supposition'] = {
   body: `<p>When someone says “A car is outside,” the statement is true whichever car is there, provided that one is. Common personal supposition is divided again. A term has <strong>determinate supposition</strong> when the statement is true if it is true of at least one of the individuals for which the term stands. In “A bird is singing,” “bird” has determinate supposition, because the statement is true if some one bird is singing, whichever it is.</p>
 <p>The logicians tested determinate supposition by a rule of <strong>descent</strong>: from “A bird is singing,” one may descend to “This bird is singing, or that bird is singing, or that bird is singing,” and so on for every bird, joined by “or.” A term has determinate supposition when this descent to a disjunction of singular statements (statements joined by “or”) is valid. So determinate supposition is the supposition of a common term with “some,” or of a common term with no sign of quantity in an affirmative statement. A term taken with “every” stands in another way.</p>`,
   src: `William of Sherwood, <i>Introductiones</i> V; Ockham, <i>Summa logicae</i> I.70; both in paraphrase.`,
-  qpTodo: `Determinate supposition: in a given statement (“A ship is sinking”; “Some tree is tall”), does the subject have determinate supposition, and to what disjunction can one descend.` },
+  qpTodo: `Determinate supposition: in a given statement (“A ship is sinking”; “Some tower is tall”), does the subject have determinate supposition, and to what disjunction can one descend.` },
 
 { id: 'distributive',
   title: 'Confused and distributive supposition',
