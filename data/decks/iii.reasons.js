@@ -1,5 +1,5 @@
 /* III.2 The Reasons for the Parts [iii.reasons]
-   Plan (ITEM-LIST.md): 11 panels, 4 question points (placeholders: qpTodo; to be written). Moved here from VIII; it comes
+   Plan (ITEM-LIST.md): 11 panels, 4 question points. Moved here from VIII; it comes
    before the individual parts and does not depend on the accidents. The chimaera objection stays here; the gender objection
    is in III.6. The modistic accounts of particular accidents are in the closing panels of III.6, III.9, and III.10.
    Live material drawn on: DECKS.modes (the thing, the mind, and the word; why the order cannot be reversed; what makes the
@@ -27,14 +27,40 @@ ARS.decks['iii.reasons'] = {
 <p><strong>the mode of being</strong> (<i>modus essendi</i>), the way the thing is in itself;<br><strong>the mode of understanding</strong> (<i>modus intelligendi</i>), the way the mind grasps the thing;<br><strong>the mode of signifying</strong> (<i>modus significandi</i>), the way a word signifies the thing.</p>
 <p>The order is fixed: the mode of understanding is taken from the mode of being, and the mode of signifying from the mode of understanding. This is the order we saw in Section I, where words signify things by means of concepts. A candle is a candle whether anyone understands it or not, and a child can understand what a candle is before learning the word; but a word cannot signify anything unless someone understands what it is imposed for.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, ch. 1–4 (Bursill-Hall), in paraphrase.`,
-  qpTodo: `The order of the modes: which depends on which (the mode of signifying on the mode of understanding, and that on the mode of being), and why the order cannot be reversed.` },
+  qp: { id: 'q-three-modes', variants: [
+    { prompt: `According to the modists, from what is the mode of signifying taken?`,
+      options: [`From the mode of being, without the mind`, `From the mode of understanding`, `From the sound of the word`, `From the custom of the speakers`],
+      answer: 1,
+      explain: `The order is fixed: the mode of understanding is taken from the mode of being, and the mode of signifying from the mode of understanding. A word signifies a thing as the mind grasps it, so it does not go from the thing to the word without the mind.` },
+    { prompt: `Why can the order of the three modes not be reversed?`,
+      options: [`Because a thing depends on the word that names it`, `Because the word is learned before the thing is understood`, `Because a word signifies only what is understood`, `Because the mode of being is taken from the mode of signifying`],
+      answer: 2,
+      explain: `A word cannot signify anything unless someone understands what it is imposed for, and the mind understands a thing as the thing is. So the thing comes first, then the understanding, then the word. A thing is what it is whether or not anyone names it.` },
+    { prompt: `Snow falls on a roof, and the mind grasps the falling as something happening to the snow. Which mode is this?`,
+      options: [`The mode of being`, `The mode of understanding`, `The mode of signifying`, `The mode of imposition`],
+      answer: 1,
+      explain: `The way the mind grasps a thing is the mode of understanding. The falling as it really happens is the mode of being, and the way a word such as “falls” signifies it is the mode of signifying. The modists name no “mode of imposition.”` }
+  ]} },
 
 { id: 'not-the-meaning',
   title: 'The mode of signifying is not the meaning',
   body: `<p>The words “hope,” “hopes,” and “hopeful” all signify the same reality, but “hope” is a noun, “hopes” a verb, and “hopeful” an adjective. As we have seen in Section I, two words can signify the same thing and still be different parts of speech, because they signify it in different modes. The modists make this the ground of their whole account. Their own example is a group of Latin words that all signify pain: <i>dolor</i> (“pain,” a noun), <i>doleō</i> (“I feel pain,” a verb), <i>dolēns</i> (“feeling pain,” a participle), and <i>heu</i> (“alas,” an interjection). The thing signified is one; the modes of signifying are four, and so the words belong to four parts of speech.</p>
 <p>So the part of speech of a word is not decided by what it signifies but by how it signifies. The mind can grasp one reality as a thing that can be talked about, as something going on, or as a quality of something else, and the language has a word for each. But a word also has a particular form, and the form must be accounted for as well.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase; St. Thomas, <i>In Peri hermeneias</i> I, lect. 5, in paraphrase.`,
-  qpTodo: `The same thing in different modes: given a fresh set such as <i>timor</i>, <i>timeō</i>, <i>timēns</i> (or “envy,” “envies,” “envious”), what is the same in them, what differs, and which part of speech each is.` },
+  qp: { id: 'q-not-the-meaning', variants: [
+    { prompt: `Latin <i>timor</i> (“fear”), <i>timeō</i> (“I fear”), and <i>timēns</i> (“fearing”) signify the same reality. What makes them different parts of speech?`,
+      options: [`They signify different things`, `Their endings alone`, `They signify the same thing in different modes`, `Only one of them is a word`],
+      answer: 2,
+      explain: `The thing signified, fear, is one; the modes of signifying differ. <i>Timor</i> signifies fear as a stable thing, <i>timeō</i> as something going on and said of the speaker, and <i>timēns</i> as something going on that adheres to someone. The endings follow from the modes; they are not the reason.` },
+    { prompt: `Which part of speech is Latin <i>timēns</i> (“fearing”)?`,
+      options: [`A noun`, `A verb`, `An interjection`, `A participle`],
+      answer: 3,
+      explain: `<i>Timēns</i> signifies fear as something going on, as the verb does, but it adheres to a person, as an adjective does, and it has case and gender. That is the participle.` },
+    { prompt: `“Envy,” “envies,” and “envious” signify the same reality. Which of them signifies it as a quality belonging to something else?`,
+      options: [`“Envious”`, `“Envy”`, `“Envies”`, `None of them`],
+      answer: 0,
+      explain: `“Envious,” as in “an envious neighbor,” signifies envy as belonging to the neighbor, so it is a noun adjective. “Envy” signifies it as a thing that can be talked about, and “envies” as something going on.` }
+  ]} },
 
 { id: 'essential-accidental',
   title: 'What makes the part, and what makes the form',
@@ -59,7 +85,20 @@ ARS.decks['iii.reasons'] = {
   body: `<p>In “The bell rings,” “rings” signifies the ringing as something happening and as said of the bell. So the verb signifies by the mode of becoming (<i>per modum fieri</i>), that is, as something going on, and as distinct from the thing of which it is said. Because it signifies as becoming, the verb has time: St. Thomas, commenting on Aristotle, gives the reason that motion is measured by time (<i>In Peri hermeneias</i> I, lect. 5). We saw in Section I that the verb consignifies time; here we see why.</p>
 <p>The participle also signifies by the mode of becoming, but as united with the thing, not as said of it. In “the ringing bell,” “ringing” signifies something going on, but it stays with “bell” as a quality does. That is why the participle has time from the verb and case and gender from the noun. So the verb and the participle differ as the noun and the adjective do: one stands apart, and the other adheres.</p>`,
   src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 5; Thomas of Erfurt, <i>Grammatica speculativa</i>, on the verb and the participle (Bursill-Hall), in paraphrase.`,
-  qpTodo: `Verb and participle: in “The river flows” and “the flowing river,” what do the verb and the participle share, and how do they differ.` },
+  qp: { id: 'q-verb-participle', variants: [
+    { prompt: `In “The river flows” and “the flowing river,” what do “flows” and “flowing” share?`,
+      options: [`Both signify by the mode of becoming`, `Both have case`, `Both are said of the river as a statement`, `Both signify by the mode of a stable thing`],
+      answer: 0,
+      explain: `Both signify the flowing as something going on, which is the mode of becoming, and so both have time. Only the participle “flowing” has case, and only the verb “flows” is said of the river.` },
+    { prompt: `How does “flowing” in “the flowing river” differ from “flows” in “The river flows”?`,
+      options: [`It signifies no time at all`, `It signifies the river as a stable thing`, `It is not formed from the verb`, `It adheres to the river`],
+      answer: 3,
+      explain: `The verb stands apart and is said of the river; the participle stays with the river, as a quality does, and so it takes case and gender from the noun. It still signifies something going on, with time, and it is formed from the verb “flow.”` },
+    { prompt: `Why, according to St. Thomas, does the verb have time?`,
+      options: [`Because motion is measured by time`, `Because Latin verb endings show it`, `Because it signifies a stable thing`, `Because it stands after its subject`],
+      answer: 0,
+      explain: `The verb signifies by the mode of becoming, that is, as something going on, and motion is measured by time. The endings show the time, but they are not its reason.` }
+  ]} },
 
 { id: 'indeclinable',
   title: 'The four indeclinable parts',
@@ -79,7 +118,20 @@ ARS.decks['iii.reasons'] = {
   body: `<p>An objection arises at once. If the noun signifies its thing as a stable being, and the mode of signifying is taken from the mode of being, what are we to say of nouns such as “chimaera,” “nothing,” or “blindness”? The chimaera is a monster of Greek myth, with a lion’s head, a goat’s body, and a serpent’s tail, and no such thing exists; “nothing” names no thing at all; and blindness is not a thing but the lack of sight. Yet all three are nouns.</p>
 <p>Thomas of Erfurt answers that the mode of signifying may be taken from the properties of another thing, provided that it does not conflict with the thing signified. We understand a privation (the lack of something that would otherwise be present) through what it lacks, and so we name blindness by the properties of sight; we imagine the chimaera as made of parts of real animals, and so we name it by the properties of those parts. St. Thomas adds that the grammarian considers substance only as to the mode of signifying: whatever a noun signifies is signified as something of which something can be said, even if it does not exist (<i>In Peri hermeneias</i> I). So the question whether a chimaera exists belongs to logic and metaphysics, not to grammar.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, ch. 6 (Bursill-Hall); St. Thomas, <i>In Peri hermeneias</i> I; both in paraphrase.`,
-  qpTodo: `The chimaera: why is “chimaera” (or “blindness,” “nothing”) a noun although it names nothing that exists, and from where does it take its mode of signifying.` },
+  qp: { id: 'q-chimaera', variants: [
+    { prompt: `“Deafness” is the lack of hearing, not a thing. Why is it still a noun?`,
+      options: [`Because deafness is a real substance`, `Because it signifies as a stable thing`, `Because it is a verb used as a noun`, `Because it has no case`],
+      answer: 1,
+      explain: `A privation is understood through what it lacks, so “deafness” takes its mode of signifying from the properties of hearing and signifies as something stable that can be talked about. What a noun signifies need not be a real substance.` },
+    { prompt: `No centaur exists. From where does the noun “centaur” take its mode of signifying?`,
+      options: [`From the properties of the animals we imagine it made of`, `From a centaur that exists somewhere unseen`, `From the verb from which it is formed`, `From the agreement of the speakers who first imposed it`],
+      answer: 0,
+      explain: `Thomas of Erfurt answers that the mode of signifying may be taken from the properties of another thing. We imagine the centaur as made of a man and a horse, and so we name it by the properties of those real animals. The agreement of speakers gives a word its signification, not its mode of signifying.` },
+    { prompt: `Must the grammarian decide whether a phoenix exists before counting “phoenix” as a noun?`,
+      options: [`Yes, because only existing things can be named`, `No; that question belongs to logic and metaphysics`, `Yes, because the mode of signifying is the mode of being`, `No, because “phoenix” is a pronoun`],
+      answer: 1,
+      explain: `St. Thomas says that the grammarian considers substance only as to the mode of signifying: whatever a noun signifies is signified as something of which something can be said, even if it does not exist. Whether it exists is a question for logic and metaphysics.` }
+  ]} },
 
 { id: 'logic-grammar',
   title: 'The grammarian’s eight and the logician’s two',
