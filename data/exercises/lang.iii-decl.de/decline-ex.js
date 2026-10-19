@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.de/decline-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Declinable and indeclinable",
+ "title": "Declinable and Indeclinable",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

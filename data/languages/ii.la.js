@@ -7,12 +7,13 @@ ARS.languages["lang.ii.la"] = {
  "section": "ii",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.ii.la/meter-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Latin meter",
+   "title": "Latin Meter",
    "desc": "10 questions."
   }
+
  ]
 };

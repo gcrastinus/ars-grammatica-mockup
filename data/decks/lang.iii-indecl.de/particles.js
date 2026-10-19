@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.de/particles"] = {
  "id": "lang.iii-indecl.de/particles",
- "title": "German particles and prepositions",
+ "title": "German Particles and Prepositions",
  "sub": "The cards on prepositions, particles, and separable prefixes",
  "sources": "Duden",
  "panels": [

@@ -208,10 +208,13 @@ function openLang(id){
   show('scr-lang');
 }
 
+function clearHash(){
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+}
 function leaveLang(){
   const id = screenReturn;
   screenReturn = null;
-  location.hash = '';
+  clearHash();
   buildHome();
   show('scr-home');
   const m = id && String(id).match(/^lang\.([^.]+)\./);
@@ -729,9 +732,16 @@ function runQueue(spec){
   show('scr-ex');
   renderItem();
 }
+/* A one-question set is stored once, with set "all", and that item is the sitting for A, B, and C. */
+function itemsForSet(ex, set){
+  const items = ex.items || [];
+  const own = items.filter(x => x.set === set);
+  if (own.length) return own;
+  return items.filter(x => x.set === 'all');
+}
 function runEx(ex){
   const st = exState(ex.id); const forms = ex.sets ? Object.keys(ex.sets) : FORMS; const set = forms[st.visits % forms.length]; st.visits += 1; save();
-  const items = ex.items.filter(x => x.set === set);
+  const items = itemsForSet(ex, set);
   runQueue({
     ex: ex, set: set, items: items, hash: 'ex/' + ex.id,
     kind: ex.kind === 'review' ? 'Section review' : 'Exercise',
@@ -1028,7 +1038,7 @@ function goHome(){
     if (card){ card.scrollIntoView({ block:'center' }); card.focus({ preventScroll:true }); }
     return;
   }
-  location.hash = ''; buildHome(); show('scr-home');
+  clearHash(); buildHome(); show('scr-home');
 }
 
 /* A finished study deck, exercise set, or section review is named once, on the main page.

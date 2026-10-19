@@ -7,26 +7,27 @@ ARS.languages["lang.iii-indecl.la"] = {
  "section": "iii",
  "more": false,
  "items": [
-  {
+{
    "id": "lang.iii-indecl.la/parts",
    "kind": "study",
    "built": true,
    "title": "The Eight in Latin",
-   "desc": "Donatus’s eight parts, in Latin sentences"
+   "desc": "Donatus’s eight parts, in Latin sentences."
   },
-  {
+{
    "id": "lang.iii-indecl.la/parts-ex",
    "kind": "exercise",
    "built": true,
    "title": "The Eight in Latin",
    "desc": "25 questions."
   },
-  {
+{
    "id": "lang.iii-indecl.la/prepositions-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Prepositions and case",
+   "title": "Prepositions and Case",
    "desc": "9 questions."
   }
+
  ]
 };

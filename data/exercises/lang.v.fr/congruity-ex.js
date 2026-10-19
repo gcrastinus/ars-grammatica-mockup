@@ -5,7 +5,7 @@ ARS.exercises["lang.v.fr/congruity-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Congruity and completeness",
+ "title": "Congruity and Completeness",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

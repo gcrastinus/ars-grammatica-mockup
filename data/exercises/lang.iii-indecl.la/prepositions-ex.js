@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Prepositions and case",
+ "title": "Prepositions and Case",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

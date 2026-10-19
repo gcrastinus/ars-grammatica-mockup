@@ -7,12 +7,13 @@ ARS.languages["lang.vi.grc"] = {
  "section": "vi",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.vi.grc/vices-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Barbarism and solecism",
+   "title": "Barbarism and Solecism",
    "desc": "7 questions."
   }
+
  ]
 };

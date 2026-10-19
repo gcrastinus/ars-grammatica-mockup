@@ -471,12 +471,12 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "deck": "lang.ii.en/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the first <em>o</em> of “photography” a schwa, though it is a full vowel in “photograph”?",
+   "prompt": "Why is the first “o” of “photography” a schwa, though it is a full vowel in “photograph”?",
    "explain": "The stress of “photography” falls on “tog,” so the first syllable weakens: fə-ˈtä-grə-fē. and an unstressed vowel is often reduced",
    "options": [
     "In “photography” it is unstressed",
     "The suffix “-y” always makes a schwa",
-    "The letter <em>o</em> is a schwa in every long word",
+    "The letter “o” is a schwa in every long word",
     "“Photography” is a verb"
    ],
    "answer": 0
@@ -522,9 +522,9 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "prompt": "An English syllable can begin with three consonants. What is always the first of the three?",
    "explain": "Three-consonant beginnings in English are s, then p, t, or k, then a liquid or glide: “spl,” “str,” “scr.”",
    "options": [
-    "<em>s</em>, as in “street,” “spring,” and “splash”",
-    "<em>t</em>, as in “tree”",
-    "<em>r</em>, as in “rest”",
+    "“s”, as in “street,” “spring,” and “splash”",
+    "“t”, as in “tree”",
+    "“r”, as in “rest”",
     "Any consonant"
    ],
    "answer": 0

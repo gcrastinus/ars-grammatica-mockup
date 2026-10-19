@@ -5,7 +5,7 @@ ARS.exercises["lang.v.grc/voice-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Greek: Voice, the infinitive, and the participle",
+ "title": "Greek: Voice, the Infinitive, and the Participle",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

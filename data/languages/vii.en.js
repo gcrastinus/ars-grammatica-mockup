@@ -7,12 +7,5 @@ ARS.languages["lang.vii.en"] = {
  "section": "vii",
  "more": true,
  "items": [
-  {
-   "id": "lang.vii.en/figures-ex",
-   "kind": "exercise",
-   "built": true,
-   "title": "Figures",
-   "desc": "10 questions."
-  }
  ]
 };

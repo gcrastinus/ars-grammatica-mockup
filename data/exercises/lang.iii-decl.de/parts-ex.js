@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.de/parts-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Parts of speech",
+ "title": "Parts of Speech",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

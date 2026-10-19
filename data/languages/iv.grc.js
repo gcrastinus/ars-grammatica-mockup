@@ -7,12 +7,13 @@ ARS.languages["lang.iv.grc"] = {
  "section": "iv",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.iv.grc/formation",
    "kind": "study",
    "built": true,
-   "title": "Word formation",
-   "desc": "The Greek card on word formation"
+   "title": "Word Formation",
+   "desc": "The Greek card on word formation."
   }
+
  ]
 };

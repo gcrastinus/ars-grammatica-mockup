@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.ii.grc/hexameter"] = {
  "id": "lang.ii.grc/hexameter",
- "title": "Greek hexameter lines",
+ "title": "Greek Hexameter Lines",
  "sub": "Sixteen stored lines, with the syllables and feet already marked",
  "sources": "Smyth, <i>Greek Grammar</i>",
  "panels": [

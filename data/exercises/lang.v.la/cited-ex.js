@@ -5,7 +5,7 @@ ARS.exercises["lang.v.la/cited-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Cited sentences",
+ "title": "Cited Sentences",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

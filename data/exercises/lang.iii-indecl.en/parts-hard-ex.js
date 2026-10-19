@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Harder parts of speech",
+ "title": "Harder Parts of Speech",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? The soldiers held the <b>narrow</b> pass until nightfall.",
-   "explain": "It tells us what sort of pass. An adjective depends on a noun; take the noun away and <em>narrow</em> names nothing.",
+   "explain": "It tells us what sort of pass. An adjective depends on a noun; take the noun away and “narrow” names nothing.",
    "options": [
     "adjective",
     "adverb",
@@ -38,7 +38,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? He drove the cart <b>fast</b> along the road.",
-   "explain": "The same word is an adjective in <em>a fast horse</em>. Here it does not tell us what sort of cart but how the driving went, and how belongs to the verb. The word has not changed; its function has, and the parts of speech are a list of functions.",
+   "explain": "The same word is an adjective in “a fast horse”. Here it does not tell us what sort of cart but how the driving went, and how belongs to the verb. The word has not changed; its function has, and the parts of speech are a list of functions.",
    "options": [
     "adverb",
     "adjective",
@@ -60,7 +60,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>Running</b> is good exercise.",
-   "explain": "The <em>-ing</em> form is used as a noun: it is the subject, and we could put <em>the</em> before it. The tradition calls this the gerund. The same activity is now signified in the manner of something at rest.",
+   "explain": "The “-ing” form is used as a noun: it is the subject, and we could put “the” before it. The tradition calls this the gerund. The same activity is now signified in the manner of something at rest.",
    "options": [
     "noun",
     "adjective",
@@ -82,7 +82,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? The <b>running</b> horse cleared the wall.",
-   "explain": "Now the same <em>-ing</em> form depends on a noun and qualifies it, while keeping the verb’s sense of something under way. That is exactly the participle, <span class=\"lat\">per modum esse indistantis a substantia</span>: becoming, but not standing apart from its subject.",
+   "explain": "Now the same “-ing” form depends on a noun and qualifies it, while keeping the verb’s sense of something under way. That is exactly the participle, <span class=\"lat\">per modum esse indistantis a substantia</span>: becoming, but not standing apart from its subject.",
    "options": [
     "participle",
     "adjective",
@@ -104,7 +104,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? I know <b>that</b> he arrived.",
-   "explain": "Here <em>that</em> joins one whole statement to another. In <em>I know that man</em> it points at a particular one and is an adjective; in <em>that is mine</em> it stands in for a noun and is a pronoun. Three functions share one sound.",
+   "explain": "Here “that” joins one whole statement to another. In “I know that man” it points at a particular one and is an adjective; in “that is mine” it stands in for a noun and is a pronoun. Three functions share one sound.",
    "options": [
     "conjunction",
     "adjective",
@@ -126,7 +126,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>That</b> is the very book I wanted.",
-   "explain": "It stands in for a noun, since it is the subject of <em>is</em> and names nothing itself. In <em>I know that he arrived</em> the same sound joins two statements and is a conjunction.",
+   "explain": "It stands in for a noun, since it is the subject of “is” and names nothing itself. In “I know that he arrived” the same sound joins two statements and is a conjunction.",
    "options": [
     "pronoun",
     "adjective",
@@ -148,7 +148,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? I know <b>that</b> man.",
-   "explain": "Here <em>that</em> determines a particular man and depends on the noun. In <em>I know that he arrived</em> the same sound joins two statements.",
+   "explain": "Here “that” determines a particular man and depends on the noun. In “I know that he arrived” the same sound joins two statements.",
    "options": [
     "adjective",
     "adverb",
@@ -170,7 +170,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? They arrived <b>before</b> the storm.",
-   "explain": "It stands before a naming word and ties it to the arriving. In <em>they arrived before the storm broke</em> it would be joining two statements as a conjunction; in <em>he had seen it before</em> it stands alone and is an adverb.",
+   "explain": "It stands before a naming word and ties it to the arriving. In “they arrived before the storm broke” it would be joining two statements as a conjunction; in “he had seen it before” it stands alone and is an adverb.",
    "options": [
     "preposition",
     "adjective",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? He had seen the place <b>before</b>.",
-   "explain": "Nothing follows it, so it is not governing a noun; it tells us <em>when</em>, and when belongs to the verb.",
+   "explain": "Nothing follows it, so it is not governing a noun; it tells us “when”, and when belongs to the verb.",
    "options": [
     "adverb",
     "adjective",
@@ -214,7 +214,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? We bought fresh <b>paint</b> for the door.",
-   "explain": "The very same word is a verb in <em>we paint the door</em>. The list of the parts of speech is not a list of words but of the ways words are used.",
+   "explain": "The very same word is a verb in “we paint the door”. The list of the parts of speech is not a list of words but of the ways words are used.",
    "options": [
     "noun",
     "adjective",
@@ -236,7 +236,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? The senate voted to <b>paint</b> the doors again.",
-   "explain": "Here it says what is done. In <em>fresh paint</em> the same sound names a thing.",
+   "explain": "Here it says what is done. In “fresh paint” the same sound names a thing.",
    "options": [
     "verb",
     "adjective",
@@ -302,7 +302,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? She was <b>weary</b>, but she went on.",
-   "explain": "It qualifies <em>she</em> across the verb <em>was</em>, as a predicate adjective. It still tells of what sort.",
+   "explain": "It qualifies “she” across the verb “was”, as a predicate adjective. It still tells of what sort.",
    "options": [
     "adjective",
     "adverb",
@@ -390,7 +390,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? They arrived before the storm <b>broke</b>.",
-   "explain": "<em>Broke</em> is the verb of the second statement. <em>Before</em> here joins two statements, so it is a conjunction; the marked word is still the verb of the second clause.",
+   "explain": "“Broke” is the verb of the second statement. “Before” here joins two statements, so it is a conjunction; the marked word is still the verb of the second clause.",
    "options": [
     "verb",
     "adjective",
@@ -412,7 +412,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? They arrived <b>before</b> the storm broke.",
-   "explain": "A verb follows (<em>broke</em>), so <em>before</em> joins two statements. In <em>before the storm</em> with no verb, it is a preposition.",
+   "explain": "A verb follows (“broke”), so “before” joins two statements. In “before the storm” with no verb, it is a preposition.",
    "options": [
     "conjunction",
     "adjective",
@@ -434,7 +434,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>Running</b> hard, the horse cleared the wall.",
-   "explain": "<em>Running</em> depends on <em>horse</em> and keeps the verb’s sense of something under way. Compare <em>Running is good exercise</em>, where the same form is used as a noun.",
+   "explain": "“Running” depends on “horse” and keeps the verb’s sense of something under way. Compare “Running is good exercise”, where the same form is used as a noun.",
    "options": [
     "participle",
     "adjective",
@@ -456,7 +456,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? He is a <b>fast</b> runner.",
-   "explain": "It tells what sort of runner. In <em>he ran fast</em> the same sound is an adverb.",
+   "explain": "It tells what sort of runner. In “he ran fast” the same sound is an adverb.",
    "options": [
     "adjective",
     "adverb",
@@ -478,7 +478,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? He ran <b>fast</b>.",
-   "explain": "It tells how he ran. In <em>a fast runner</em> the same sound is an adjective.",
+   "explain": "It tells how he ran. In “a fast runner” the same sound is an adjective.",
    "options": [
     "adverb",
     "adjective",
@@ -500,7 +500,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? Give it to <b>whoever</b> waits.",
-   "explain": "<em>Whoever</em> stands in for the person, and the clause it heads is used as a noun. The marked word itself is a pronoun.",
+   "explain": "“Whoever” stands in for the person, and the clause it heads is used as a noun. The marked word itself is a pronoun.",
    "options": [
     "pronoun",
     "adjective",
@@ -544,7 +544,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? The <b>waiting</b> sailors saw the king.",
-   "explain": "<em>Waiting</em> depends on <em>sailors</em> and keeps the flow. It is not the gerund (<em>waiting is hard</em>).",
+   "explain": "“Waiting” depends on “sailors” and keeps the flow. It is not the gerund (“waiting is hard”).",
    "options": [
     "participle",
     "adjective",
@@ -566,7 +566,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>Waiting</b> is hard.",
-   "explain": "This is the gerund: it is the subject, and so it is used as a noun. Compare <em>the waiting sailors</em>, a participle.",
+   "explain": "This is the gerund: it is the subject, and so it is used as a noun. Compare “the waiting sailors”, a participle.",
    "options": [
     "noun",
     "adjective",
@@ -588,7 +588,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? She looked <b>up</b>.",
-   "explain": "Nothing follows, so it is not a preposition here. It tells where she looked. In <em>up the road</em> it would be a preposition.",
+   "explain": "Nothing follows, so it is not a preposition here. It tells where she looked. In “up the road” it would be a preposition.",
    "options": [
     "adverb",
     "adjective",
@@ -610,7 +610,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? She walked <b>up</b> the road.",
-   "explain": "It stands before <em>the road</em> and bends that naming toward the walking. In <em>she looked up</em>, nothing follows, and it is an adverb.",
+   "explain": "It stands before “the road” and bends that naming toward the walking. In “she looked up”, nothing follows, and it is an adverb.",
    "options": [
     "preposition",
     "adjective",
@@ -632,7 +632,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>Well</b>, the city has fallen.",
-   "explain": "It is a spoken affect, not the adverb of <em>he fought well</em>; tone and pause tell us which.",
+   "explain": "It is a spoken affect, not the adverb of “he fought well”; tone and pause tell us which.",
    "options": [
     "interjection",
     "adjective",
@@ -654,7 +654,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? He fought <b>well</b>.",
-   "explain": "It tells how he fought. It is not the interjection <em>well</em> that opens a remark.",
+   "explain": "It tells how he fought. It is not the interjection “well” that opens a remark.",
    "options": [
     "adverb",
     "adjective",
@@ -676,7 +676,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? This is the man <b>that</b> I saw.",
-   "explain": "This is the relative <em>that</em>, which stands in for <em>man</em> and joins the seeing. In <em>I know that he came</em> the same sound is a conjunction.",
+   "explain": "This is the relative “that”, which stands in for “man” and joins the seeing. In “I know that he came” the same sound is a conjunction.",
    "options": [
     "pronoun",
     "adjective",
@@ -698,7 +698,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? I know <b>this</b> man.",
-   "explain": "<em>This</em> determines a particular man. In <em>this is mine</em> it stands in for a noun and is a pronoun.",
+   "explain": "“This” determines a particular man. In “this is mine” it stands in for a noun and is a pronoun.",
    "options": [
     "adjective",
     "adverb",
@@ -720,7 +720,7 @@ ARS.exercises["lang.iii-indecl.en/parts-hard-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <b>This</b> is mine.",
-   "explain": "It is the subject and names nothing itself. In <em>this man</em> it determines a noun and is an adjective.",
+   "explain": "It is the subject and names nothing itself. In “this man” it determines a noun and is an adjective.",
    "options": [
     "pronoun",
     "adjective",

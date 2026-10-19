@@ -2,8 +2,8 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iv.en/formation"] = {
  "id": "lang.iv.en/formation",
- "title": "Word formation",
- "sub": "The English panel on word formation",
+ "title": "Word Formation",
+ "sub": "Word formation in English.",
  "sources": "a standard English grammar",
  "panels": [
   {

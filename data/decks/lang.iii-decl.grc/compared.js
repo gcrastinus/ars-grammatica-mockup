@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-decl.grc/compared"] = {
  "id": "lang.iii-decl.grc/compared",
- "title": "Greek and the parts of speech",
+ "title": "The Article and the Participle",
  "sub": "The article and the participle, set beside Latin",
  "sources": "Priscian, <i>Institutiones grammaticae</i>; Smyth, <i>Greek Grammar</i>; Lawless; Duden; Donatus, <i>Ars maior</i>",
  "panels": [

@@ -7,19 +7,20 @@ ARS.languages["lang.iv.en"] = {
  "section": "iv",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.iv.en/formation",
    "kind": "study",
    "built": true,
-   "title": "Word formation",
-   "desc": "The English panel on word formation"
+   "title": "Word Formation",
+   "desc": "Word formation in English."
   },
-  {
+{
    "id": "lang.iv.en/formation-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Word formation",
+   "title": "Word Formation",
    "desc": "1 question."
   }
+
  ]
 };

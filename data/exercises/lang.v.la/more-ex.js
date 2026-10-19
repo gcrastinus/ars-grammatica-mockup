@@ -5,7 +5,7 @@ ARS.exercises["lang.v.la/more-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "More of the Latin sentence",
+ "title": "More of the Latin Sentence",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

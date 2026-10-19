@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "German and the article",
+ "title": "German and the Article",
  "instr": "Choose the answer.",
  "openedFrom": "lang.iii-decl.de/compared",
  "items": [

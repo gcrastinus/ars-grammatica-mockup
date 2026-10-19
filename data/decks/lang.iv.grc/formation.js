@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iv.grc/formation"] = {
  "id": "lang.iv.grc/formation",
- "title": "Word formation",
+ "title": "Word Formation",
  "sub": "The Greek card on word formation",
  "sources": "Smyth, <i>Greek Grammar</i>",
  "panels": [

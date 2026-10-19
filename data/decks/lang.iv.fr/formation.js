@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iv.fr/formation"] = {
  "id": "lang.iv.fr/formation",
- "title": "Word formation",
+ "title": "Word Formation",
  "sub": "The French card on word formation",
  "sources": "Lawless; Larousse",
  "panels": [

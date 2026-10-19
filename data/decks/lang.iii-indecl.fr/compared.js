@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.fr/compared"] = {
  "id": "lang.iii-indecl.fr/compared",
- "title": "French articles and contractions",
+ "title": "French Articles and Contractions",
  "sub": "The partitive, and the contractions with à and de",
  "sources": "Lawless; Larousse",
  "panels": [

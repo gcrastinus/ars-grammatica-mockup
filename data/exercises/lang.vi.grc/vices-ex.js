@@ -5,7 +5,7 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "VI",
- "title": "Barbarism and solecism",
+ "title": "Barbarism and Solecism",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

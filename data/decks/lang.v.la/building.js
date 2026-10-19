@@ -9,12 +9,12 @@ ARS.decks["lang.v.la/building"] = {
   {
    "id": "building-1",
    "title": "Building a Sentence",
-   "body": "<p><strong>BUILDING A SENTENCE.</strong> Parsing goes from the form to its accidents. Building goes the other way, from the meaning to the forms. To say <em>The girl praises the poet</em> in Latin, we choose the case of each noun by its use in the sentence. The subject is in the nominative, <em>puella</em>, and the one who receives the action is in the accusative, <em>poētam</em>. The verb agrees with its subject in number and person: <em>laudat</em>. An adjective agrees with its noun in gender, number, and case: <em>puella bona</em>, <em>poētam bonum</em>.</p>"
+   "body": "<p><strong>BUILDING A SENTENCE.</strong> Parsing goes from the form to its accidents. Building goes the other way, from the meaning to the forms. To say “The girl praises the poet” in Latin, we choose the case of each noun by its use in the sentence. The subject is in the nominative, <em>puella</em>, and the one who receives the action is in the accusative, <em>poētam</em>. The verb agrees with its subject in number and person: <em>laudat</em>. An adjective agrees with its noun in gender, number, and case: <em>puella bona</em>, <em>poētam bonum</em>.</p>"
   },
   {
    "id": "building-2",
    "title": "Word order",
-   "body": "<p><strong>Word order.</strong> In English the order of the words shows which noun is the subject: <em>The girl praises the poet</em> does not mean <em>The poet praises the girl</em>. In Latin the endings show it, and so the order is free. <em>Puella poētam laudat</em>, <em>poētam puella laudat</em>, and <em>laudat puella poētam</em> all say the same thing. The usual prose order puts the subject first and the verb last.</p>"
+   "body": "<p><strong>Word order.</strong> In English the order of the words shows which noun is the subject: “The girl praises the poet” does not mean “The poet praises the girl”. In Latin the endings show it, and so the order is free. <em>Puella poētam laudat</em>, <em>poētam puella laudat</em>, and <em>laudat puella poētam</em> all say the same thing. The usual prose order puts the subject first and the verb last.</p>"
   },
   {
    "id": "building-3",

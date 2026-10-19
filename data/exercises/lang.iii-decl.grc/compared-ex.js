@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Greek and the parts of speech",
+ "title": "Questions on the Article and the Participle",
  "instr": "Choose the answer.",
  "openedFrom": "lang.iii-decl.grc/compared",
  "items": [

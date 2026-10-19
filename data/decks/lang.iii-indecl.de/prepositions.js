@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.de/prepositions"] = {
  "id": "lang.iii-indecl.de/prepositions",
- "title": "German prepositions",
+ "title": "German Prepositions",
  "sub": "The stored table of prepositions and the case each requires",
  "sources": "Duden",
  "panels": [

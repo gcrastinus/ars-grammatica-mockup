@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-indecl.grc/particles"] = {
  "id": "lang.iii-indecl.grc/particles",
- "title": "Greek particles",
+ "title": "Greek Particles",
  "sub": "Cards moved out of the accidents deck",
  "sources": "Smyth, <i>Greek Grammar</i>",
  "panels": [

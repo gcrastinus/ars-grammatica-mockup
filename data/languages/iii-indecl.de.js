@@ -7,33 +7,34 @@ ARS.languages["lang.iii-indecl.de"] = {
  "section": "iii",
  "more": false,
  "items": [
-  {
+{
    "id": "lang.iii-indecl.de/particles",
    "kind": "study",
    "built": true,
-   "title": "German particles and prepositions",
+   "title": "German Particles and Prepositions",
    "desc": "3 cards."
   },
-  {
+{
    "id": "lang.iii-indecl.de/prepositions",
    "kind": "study",
    "built": true,
-   "title": "German prepositions",
-   "desc": "The stored table of prepositions and the case each requires"
+   "title": "German Prepositions",
+   "desc": "The stored table of prepositions and the case each requires."
   },
-  {
+{
    "id": "lang.iii-indecl.de/parts-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Parts of speech",
+   "title": "Parts of Speech",
    "desc": "8 questions."
   },
-  {
+{
    "id": "lang.iii-indecl.de/govern-ex",
    "kind": "exercise",
    "built": true,
    "title": "Government",
    "desc": "8 questions."
   }
+
  ]
 };

@@ -5,7 +5,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Greek: More of the sentence",
+ "title": "Greek: More of the Sentence",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

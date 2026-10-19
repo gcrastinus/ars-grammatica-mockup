@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "French articles and contractions",
+ "title": "French Articles and Contractions",
  "instr": "Choose the answer.",
  "openedFrom": "lang.iii-indecl.fr/compared",
  "items": [

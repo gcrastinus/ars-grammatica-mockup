@@ -7,19 +7,20 @@ ARS.languages["lang.iv.la"] = {
  "section": "iv",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.iv.la/formation",
    "kind": "study",
    "built": true,
-   "title": "Word formation",
-   "desc": "The Latin panel on derivation and composition"
+   "title": "Word Formation",
+   "desc": "Derivation and composition in Latin."
   },
-  {
+{
    "id": "lang.iv.la/formation-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Word formation",
+   "title": "Word Formation",
    "desc": "1 question."
   }
+
  ]
 };

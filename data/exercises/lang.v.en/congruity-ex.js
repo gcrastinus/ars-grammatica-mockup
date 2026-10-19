@@ -5,7 +5,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Congruity and completeness",
+ "title": "Congruity and Completeness",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -31,7 +31,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this sentence. The brave sailor.",
-   "explain": "<em>Brave</em> fits <em>sailor</em>. There is no verb, so the sense is not yet complete. This is Thomas’s <em>homo albus</em>.",
+   "explain": "“Brave” fits “sailor”. There is no verb, so the sense is not yet complete. This is Thomas’s <em>homo albus</em>.",
    "options": [
     "Congruous: the parts fit, but the sense is unfinished",
     "Incongruous: the parts do not fit with one another, so the construction fails",
@@ -46,7 +46,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this sentence. If the sailor waits",
-   "explain": "It is well formed as a clause, and the <em>if</em> leaves the sense unfinished. A subordinate clause is not complete on its own.",
+   "explain": "It is well formed as a clause, and the “if” leaves the sense unfinished. A subordinate clause is not complete on its own.",
    "options": [
     "Congruous: the parts fit, but the sense is unfinished",
     "Incongruous: the parts do not fit with one another, so the construction fails",
@@ -61,7 +61,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this sentence. The sailors waits at the gate.",
-   "explain": "<em>Sailors</em> is plural; <em>waits</em> is singular. The modes of number do not fit. That is a failure of congruity, not of completeness.",
+   "explain": "“Sailors” is plural; “waits” is singular. The modes of number do not fit. That is a failure of congruity, not of completeness.",
    "options": [
     "Incongruous: the parts do not fit with one another, so the construction fails",
     "Congruous: the parts fit, but the sense is unfinished",

@@ -2,7 +2,7 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iii-decl.de/compared"] = {
  "id": "lang.iii-decl.de/compared",
- "title": "German and the article",
+ "title": "German and the Article",
  "sub": "Case on the article, and the noun written with a capital",
  "sources": "Duden",
  "panels": [

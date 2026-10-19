@@ -14,7 +14,7 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "figures-2",
    "title": "Tropes",
-   "body": "<p><strong>TROPES.</strong> A trope carries a word from its proper signification to another. Donatus’s Latin examples: <em>Ceres</em> for bread, in <em>sine Cerere et Libero friget Venus</em> (metonymy); <em>Anchisiades</em> for Aeneas (antonomasia); two lines of Virgil on Aurora leaving Tithonus’s bed for “it was dawn” (periphrasis); <em>clangor tubarum</em>, a name made from the sound (onomatopoeia).</p>\n<p>Servius, commenting on Virgil line by line, names the same figures and tropes where they occur, and so a reader of the <i>Aeneid</i> in the schools learned Donatus’s list on Virgil’s lines.</p>"
+   "body": "<p><strong>TROPES.</strong> A trope carries a word from its proper signification to another. Donatus’s Latin examples: <em>Ceres</em> for bread, in <em>sine Cerere et Libero friget Venus</em> (metonymy); <em>Anchisiades</em> for Aeneas (antonomasia); two lines of Virgil on Aurora leaving Tithonus’s bed for “it was dawn” (periphrasis); <em>clangor tubarum</em>, a name made from the sound (onomatopoeia).</p>\n<p>Servius, commenting on Virgil line by line, names the same figures and tropes where they occur, and so a schoolboy reading the <i>Aeneid</i> learned Donatus’s list on Virgil’s lines.</p>"
   }
  ]
 };

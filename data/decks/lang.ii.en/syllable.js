@@ -9,7 +9,7 @@ ARS.decks["lang.ii.en/syllable"] = {
   {
    "id": "syllable-1",
    "title": "The English syllable",
-   "body": "<p><strong>The English syllable.</strong> An English syllable has one vowel sound at its center. We count the syllables of a word by its vowel sounds, not by its vowel letters: “make” has one syllable, because its final <em>e</em> is silent, and “strength” has one, although it has eight letters.</p>\n<p>English allows clusters of consonants that Latin does not. Up to three consonants can begin a syllable, as in “street,” “spring,” and “splash,” and the three always begin with <em>s</em>. More can end one, as in “strength” and “twelfths.” Many clusters cannot begin an English word at all, such as <em>tl</em> or <em>pn</em> in speech.</p>"
+   "body": "<p><strong>The English syllable.</strong> An English syllable has one vowel sound at its center. We count the syllables of a word by its vowel sounds, not by its vowel letters: “make” has one syllable, because its final “e” is silent, and “strength” has one, although it has eight letters.</p>\n<p>English allows clusters of consonants that Latin does not. Up to three consonants can begin a syllable, as in “street,” “spring,” and “splash,” and the three always begin with “s”. More can end one, as in “strength” and “twelfths.” Many clusters cannot begin an English word at all, such as “tl” or “pn” in speech.</p>"
   },
   {
    "id": "syllable-2",
@@ -29,7 +29,7 @@ ARS.decks["lang.ii.en/syllable"] = {
   {
    "id": "syllable-5",
    "title": "Weak syllables and the schwa",
-   "body": "<p><strong>Weak syllables and the schwa.</strong> An unstressed English syllable is often weak: its vowel is shortened and becomes the neutral vowel called <strong>schwa</strong>, written ə. The first and last vowels of “banana” are schwa (bə-ˈna-nə), and so is the first vowel of “about” (ə-ˈbau̇t).</p>\n<p>So the same letter can sound differently in words of one family. The first <em>o</em> of “photograph” (ˈfō-tə-ˌgraf) is a full vowel, because it is stressed, but in “photography” (fə-ˈtä-grə-fē) it is a schwa, because the stress has moved.</p>"
+   "body": "<p><strong>Weak syllables and the schwa.</strong> An unstressed English syllable is often weak: its vowel is shortened and becomes the neutral vowel called <strong>schwa</strong>, written ə. The first and last vowels of “banana” are schwa (bə-ˈna-nə), and so is the first vowel of “about” (ə-ˈbau̇t).</p>\n<p>So the same letter can sound differently in words of one family. The first “o” of “photograph” (ˈfō-tə-ˌgraf) is a full vowel, because it is stressed, but in “photography” (fə-ˈtä-grə-fē) it is a schwa, because the stress has moved.</p>"
   },
   {
    "id": "syllable-6",

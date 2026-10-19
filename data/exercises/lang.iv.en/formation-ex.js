@@ -5,45 +5,13 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "IV",
- "title": "Word formation",
+ "title": "Word Formation",
  "instr": "Choose the answer.",
  "openedFrom": "lang.iv.en/formation",
  "items": [
-  {
+{
    "id": "lang.iv.en/formation-ex:n0-A",
-   "set": "A",
-   "deck": "lang.iv.en/formation-ex",
-   "section": "iv",
-   "type": "mc",
-   "prompt": "What does the suffix “-ness” make in “kindness”?",
-   "explain": "“Kind” is an adjective, and “-ness” makes from it the noun “kindness,” the quality of being kind.",
-   "options": [
-    "A noun from an adjective",
-    "An adverb from an adjective",
-    "A verb from a noun",
-    "An adjective from a verb"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iv.en/formation-ex:n0-B",
-   "set": "B",
-   "deck": "lang.iv.en/formation-ex",
-   "section": "iv",
-   "type": "mc",
-   "prompt": "What does the suffix “-ness” make in “kindness”?",
-   "explain": "“Kind” is an adjective, and “-ness” makes from it the noun “kindness,” the quality of being kind.",
-   "options": [
-    "A noun from an adjective",
-    "An adverb from an adjective",
-    "A verb from a noun",
-    "An adjective from a verb"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iv.en/formation-ex:n0-C",
-   "set": "C",
+   "set": "all",
    "deck": "lang.iv.en/formation-ex",
    "section": "iv",
    "type": "mc",
@@ -57,5 +25,6 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    ],
    "answer": 0
   }
+
  ]
 };

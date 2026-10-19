@@ -95,7 +95,7 @@ ARS.exercises["lang.iii-decl.la/verb-ex"] = {
    "deck": "lang.iii-decl.la/verb-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In a story, which form says that the soldiers <em>were fighting</em> when the king arrived?",
+   "prompt": "In a story, which form says that the soldiers “were fighting” when the king arrived?",
    "explain": "The imperfect, built on the present stem, presents the fighting as going on at that time. The perfect would present it as a completed act, and the pluperfect as complete before the arrival.",
    "options": [
     "<em>pugnābant</em>, the imperfect",

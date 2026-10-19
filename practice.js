@@ -228,6 +228,9 @@
 
   const $ = id => document.getElementById(id);
   let cumulGen = 0;
+  function promptKey(s){
+    return String(s || '').replace(/\s+/g, ' ').trim();
+  }
   function copyItem(it, meta){
     return {
       id: it.id,
@@ -364,6 +367,7 @@
     });
     if (!loads.length) return pool;
     return Promise.all(loads).then(rows => {
+      const prompts = new Set(pool.map(it => promptKey(it.prompt)));
       rows.forEach(row => {
         if (!row) return;
         const order = orderOf[row.sc.section] || 0;
@@ -373,8 +377,10 @@
             p.qp.variants.forEach((v, vi) => {
               if (!v || !v.prompt || !Array.isArray(v.options) || typeof v.answer !== 'number') return;
               const id = row.deck.id + ':' + (p.qp.id || ('p' + pi)) + ':' + vi;
-              if (seen.has(id)) return;
+              const key = promptKey(v.prompt);
+              if (seen.has(id) || prompts.has(key)) return;
               seen.add(id);
+              prompts.add(key);
               pool.push({
                 id:id, deck:row.deck.id, section:row.sc.section, sectionOrder:order,
                 doneAt:row.st.doneAt || 0, type:'mc', prompt:v.prompt, options:v.options,
@@ -385,8 +391,10 @@
         }
         if (row.kind === 'ex' && row.ex && Array.isArray(row.ex.items) && row.ex.status !== 'plan'){
           row.ex.items.forEach(it => {
-            if (!itemPlayable(it) || seen.has(it.id)) return;
+            const key = promptKey(it.prompt);
+            if (!itemPlayable(it) || seen.has(it.id) || prompts.has(key)) return;
             seen.add(it.id);
+            prompts.add(key);
             pool.push(copyItem(it, {
               section:row.sc.section, sectionOrder:order, doneAt:row.st.doneAt || 0
             }));
@@ -394,6 +402,28 @@
         }
       });
       return pool;
+    });
+  }
+
+  /* A finished language-screen deck or exercise counts, as well as a general deck. */
+  function languageItemDone(sectionId){
+    const store = courseStore();
+    const ids = new Set(rangeSections(sectionId).map(s => s.id));
+    return Object.keys(ARS.languages || {}).some(k => {
+      const sc = ARS.languages[k];
+      if (!sc || !ids.has(sc.section)) return false;
+      return (sc.items || []).some(it => {
+        if (!it || !it.built) return false;
+        if (it.kind === 'study' || it.kind === 'study-ex'){
+          const st = store.decks && store.decks[it.id];
+          return !!(st && st.done);
+        }
+        if (it.kind === 'exercise'){
+          const st = store.ex && store.ex[it.id];
+          return !!(st && st.done);
+        }
+        return false;
+      });
     });
   }
 
@@ -408,7 +438,7 @@
     $('ex-sub').textContent = label;
     $('ex-body').innerHTML = '<p class="ex-empty">The questions are being gathered.</p>';
     show('scr-ex');
-    const anyDone = rangeSections(sectionId).some(s => s.items.some(studyDone));
+    const anyDone = rangeSections(sectionId).some(s => s.items.some(studyDone)) || languageItemDone(sectionId);
     if (!anyDone){
       $('ex-body').innerHTML = '<p class="ex-empty">This review draws on the decks completed from the beginning of the course through this section. No deck in that range is completed yet.</p>';
       return;

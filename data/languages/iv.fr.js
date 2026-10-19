@@ -7,12 +7,13 @@ ARS.languages["lang.iv.fr"] = {
  "section": "iv",
  "more": true,
  "items": [
-  {
+{
    "id": "lang.iv.fr/formation",
    "kind": "study",
    "built": true,
-   "title": "Word formation",
-   "desc": "The French card on word formation"
+   "title": "Word Formation",
+   "desc": "The French card on word formation."
   }
+
  ]
 };

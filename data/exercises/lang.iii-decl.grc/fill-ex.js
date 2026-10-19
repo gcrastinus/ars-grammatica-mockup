@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.grc/fill-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "The Greek sentence",
+ "title": "The Greek Sentence",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

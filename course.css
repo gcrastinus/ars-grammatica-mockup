@@ -388,7 +388,8 @@ body.dark .lang-la{background:#8a3a32}
 body.dark .lang-grc{background:#2a5080}
 body.dark .lang-fr{background:#7a5a36}
 body.dark .lang-de{background:#4a5560}
-.panel table.para{border-collapse:collapse; width:100%; margin:8px 0 14px; font-size:16.5px}
+.para-wrap{overflow-x:auto; max-width:100%}
+.panel table.para{border-collapse:collapse; width:max-content; min-width:100%; margin:8px 0 14px; font-size:16.5px}
 .panel table.para th, .panel table.para td{
   border:1px solid var(--line); padding:4px 8px; text-align:left; vertical-align:top;
 }

@@ -7,26 +7,27 @@ ARS.languages["lang.iii-indecl.en"] = {
  "section": "iii",
  "more": false,
  "items": [
-  {
+{
    "id": "lang.iii-indecl.en/parts",
    "kind": "study",
    "built": true,
    "title": "The Eight in English",
-   "desc": "The same art, in the list a modern class uses"
+   "desc": "The same art, in the list a modern class uses."
   },
-  {
+{
    "id": "lang.iii-indecl.en/parts-ex",
    "kind": "exercise",
    "built": true,
    "title": "The Eight in English",
    "desc": "102 questions."
   },
-  {
+{
    "id": "lang.iii-indecl.en/parts-hard-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Harder parts of speech",
+   "title": "Harder Parts of Speech",
    "desc": "33 questions."
   }
+
  ]
 };

@@ -2,8 +2,8 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.iv.la/formation"] = {
  "id": "lang.iv.la/formation",
- "title": "Word formation",
- "sub": "The Latin panel on derivation and composition",
+ "title": "Word Formation",
+ "sub": "Derivation and composition in Latin.",
  "sources": "Allen and Greenough, <i>New Latin Grammar</i>",
  "panels": [
   {

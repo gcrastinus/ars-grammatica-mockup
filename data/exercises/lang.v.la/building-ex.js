@@ -15,7 +15,7 @@ ARS.exercises["lang.v.la/building-ex"] = {
    "deck": "lang.v.la/building-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In <em>The girl praises the poet</em>, which form does <em>poet</em> take in Latin?",
+   "prompt": "In “The girl praises the poet”, which form does “poet” take in Latin?",
    "explain": "The case follows its use in the sentence. The poet receives the praising, so <em>poēta</em> is in the accusative, <em>poētam</em>. The declension decides the ending, not the case.",
    "options": [
     "The accusative, <em>poētam</em>, because the poet receives the action.",

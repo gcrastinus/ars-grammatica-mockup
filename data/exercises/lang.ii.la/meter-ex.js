@@ -5,7 +5,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "II",
- "title": "Latin meter",
+ "title": "Latin Meter",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [

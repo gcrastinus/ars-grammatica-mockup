@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Troia capta</em> is… iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>Troia capta</em> is…<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "A noun and a participle in the ablative, standing apart from the rest as a circumstance, make an ablative absolute: Troy having been taken. <em>Satis constat</em> then governs the infinitives <em>saevitum esse</em> and <em>abstinuisse</em>.",
    "options": [
     "An ablative absolute: a circumstance the period depends on",
@@ -31,7 +31,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "How are <em>et vetusti iure hospitii</em> and <em>quia … fuerunt</em> joined to <em>abstinuisse</em>? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "How are <em>et vetusti iure hospitii</em> and <em>quia … fuerunt</em> joined to <em>abstinuisse</em>?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "<em>Et … et</em> joins the two causes as companions. The first is an ablative phrase; the second is a clause that depends, with <em>quia</em>. Together they give the cause of <em>abstinuisse</em>.",
    "options": [
     "As two causes linked by <em>et … et</em>: a phrase, then a <em>quia</em>-clause",
@@ -47,7 +47,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What does <em>constat</em> govern? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "What does <em>constat</em> govern?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "<em>Satis constat</em> takes the reported facts in the infinitive: <em>saevitum esse</em> (an impersonal passive) and <em>abstinuisse</em>, with <em>Achivos</em> as its subject. Foster’s text marks the two members with a colon.",
    "options": [
     "An accusative and infinitive: <em>saevitum esse</em> and <em>abstinuisse</em>",
@@ -63,7 +63,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Aeneae Antenorique</em> stands in apposition to <em>duobus</em>. What is the case? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>Aeneae Antenorique</em> stands in apposition to <em>duobus</em>. What is the case?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "Here <em>abstinere</em> is transitive: it takes the thing withheld in the accusative (<em>omne ius belli</em>) and the persons from whom it is withheld in the dative (Allen and Greenough §381, on verbs of taking away). <em>Duobus</em> is that dative, and the names stand in apposition to it.",
    "options": [
     "Dative: the persons from whom the rights of war were withheld",
@@ -79,7 +79,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>saevitum esse</em>: what form? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>saevitum esse</em>: what form?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "<em>Saevire</em> takes no object, and so its passive is impersonal: <em>saevitum est</em>, “there was raging.” As an infinitive it depends on <em>constat</em>. <em>In ceteros</em> tells against whom.",
    "options": [
     "An impersonal passive infinitive: “violence was done”",
@@ -95,7 +95,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>in ceteros … Troianos</em>: case and sense? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>in ceteros … Troianos</em>: case and sense?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "With the accusative, <em>in</em> can mean “against,” where hostility is aimed. With the ablative it would be place where, “among.” The adjective and noun are split around the verb.",
    "options": [
     "Accusative: against the rest of the Trojans",
@@ -111,7 +111,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>pacis reddendaeque Helenae</em>: what is <em>reddendae</em>? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>pacis reddendaeque Helenae</em>: what is <em>reddendae</em>?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "The gerundive agrees with its noun: <em>Helenae reddendae</em>, “of Helen to be given back,” that is, of giving Helen back. Latin prefers this to a gerund with an object.",
    "options": [
     "A gerundive agreeing with <em>Helenae</em>",
@@ -127,7 +127,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>pacis reddendaeque Helenae</em>: on which word do these genitives depend? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>pacis reddendaeque Helenae</em>: on which word do these genitives depend?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "<em>Auctor</em> takes a genitive of what one urges: they had always been advocates of making peace and returning Helen. <em>Semper … fuerunt</em> is the verb of the <em>quia</em>-clause. they had always urged peace and Helen’s return",
    "options": [
     "<em>auctores</em>, “advocates”",
@@ -143,7 +143,7 @@ ARS.exercises["lang.ix.la/livy-ex"] = {
    "deck": "lang.ix.la/livy-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Achivos</em>: how does it stand? iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; … To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen. — Roberts",
+   "prompt": "<em>Achivos</em>: how does it stand?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.” — Roberts<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
    "explain": "In the accusative and infinitive after <em>constat</em>, the subject of the infinitive is accusative: “that the Achaeans withheld every right of war.”",
    "options": [
     "As the subject accusative of <em>abstinuisse</em>, in the reported statement",
