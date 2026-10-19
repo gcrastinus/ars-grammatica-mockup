@@ -744,3 +744,23 @@ Same rules as AE and AF: realities first, then the principle, then the tradition
 - metaphor opens from "A blanket of snow" ("The ship plowed the sea" is in vii.literal); Quintilian's lion distinction recalled in plain words, not quoted again; ends toward catachresis ("But a word may also be carried over where no proper word exists at all").
 - synecdoche "fifty souls were lost" ("our daily bread" is in i.functions); onomatopoeia "sizzle," "hiss," "cuckoo," "bang" ("buzz" is in Section I), with a recall that even imitative words are imposed.
 - Other cards already opened from English examples with English-first quotations; the authors' own examples kept (Donatus's Atlas and Turnus, Quintilian's *cano*/*canto*/*dico*, *mucrō*, Scipio).
+
+## AI. Log: Sections VIII and IX card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
+
+Same rules as AE, AF, and AH: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries and Sections I–VII, and earlier decks of VIII–IX), recalls in general terms; closing clauses toward the following card where they fit; expand only as clarity needs; rules 27a and 27b. New rule (Timothy, 19 Oct 2026): no card question may ask about an example the card itself gives in the same respect; VIII and IX have no written question points, so the VIII placeholders were changed to fresh examples (listed below). Doctrine, citations, and ids unchanged. One commit per deck; every changed file passed `node --check` and the load test. No new translations. Also: the Sections VI and VII log relettered AH (two sections were lettered AG).
+
+**viii.supposition**
+- A running example "dog" replaces Section I's "man" and "horse" ("A dog is barking," "Dog is a species of animal," "Dog is a noun," "Every dog has four legs"); simple opens from "The wolf is a species of animal"; discrete "Plato is speaking," "This student is speaking"; determinate "A car is outside," "A bird is singing"; distributive "Every planet moves," "No square is round"; merely confused "Every rose is a flower"; negation opens from "No fish is a bird," "Some flower is not red," "Not every train is late"; Latin and English "a soldier" / "the soldier," *mīles pugnat*, "Cats purr"; ampliation opens from "A white thing was black" before Peter of Spain, with "Every tree that will be planted will grow." The authors' own examples (*homō est speciēs*, *omnis homō est animal*, *homō currit*) kept; closing clauses toward the following card; the three review cards keep their short recalls.
+- Question placeholders (new rule: a question may not ask about the card's own example in the same respect): in-proposition "river" / "A river flooded"; personal "lily"; determinate "A ship is sinking," "Some tower is tall"; merely-confused "Every apple is a fruit."
+
+**viii.equivalents**
+- statement opens from "Every swan is white"; copula "Honey is sweet," "The child sleeps," Cicero's *omnia praeclara, rara* recalled from Section V; quantity "Every metal conducts heat," "Some metal is liquid," "This metal is iron" (Aristotle's own examples kept); quality "The lamp is lit," "Not every song is sad" / "Every song is not sad"; four-forms on "tree" and *arbor*; indefinite "The whale is a mammal," *homō est animal* and *homō currit* marked as the logicians' standard examples; hypothetical "If the river rises, the bridge will close"; relative "My sister, who teaches music, lives nearby."
+- Question placeholders: copula "The bell rings," "Gold is heavy," *vīta brevis*; quality "Not every road is paved," "Every road is not paved," "All is not lost"; figure-of-speech "'Everyone' is singular, so everyone is one person," "Silence has a name, so silence is a sound."
+**ix.sentences**
+- example: the worked analysis now parses and construes *Faber quem vocāvistī sellam ad vīllam portat* ("The carpenter whom you called is carrying the chair to the farmhouse"); the old boy-and-book sentence with *puer quem* repeated Sections III and V. order-of-steps ends toward the worked example. Priscian's own *arma* analysis kept.
+
+**ix.passages**
+- three-tasks ends toward the fixed order of the tasks; servius ends toward reading a Latin passage with a close translation; latin-translation opens from a book with the Latin on one page and the English on the facing page.
+
+**ix.marking**
+- every-dependence: "The young gardener waters the roses" for "The brave sailor sees the king" (which repeated "sailor," "brave," and v.dependence's "sees"); conventions paragraph ends toward checking a marked sentence; stored-analysis unchanged.
