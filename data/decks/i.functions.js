@@ -51,9 +51,9 @@ ARS.decks['i.functions'] = {
   src: `Aristotle, <i>De interpretatione</i> 4, 17a1–5.`,
   qp: { id: 'q-statement', variants: [
     { prompt: `Which of these sentences is a statement, that is, true or false?`,
-      options: [`“Boil the kettle.”`, `“Is the kettle boiling?”`, `“The kettle is boiling.”`, `“May the kettle boil soon.”`],
+      options: [`“Heat the oven.”`, `“Is the oven hot?”`, `“The oven is hot.”`, `“May the oven be hot.”`],
       answer: 2,
-      explain: `Only “The kettle is boiling” says that something is so, and so only it is true or false. The command, the question, and the wish are complete and meaningful sentences, but none of them says that something is or is not so.` },
+      explain: `Only “The oven is hot” says that something is so, and so only it is true or false. The command, the question, and the wish are complete and meaningful sentences, but none of them says that something is or is not so.` },
     { prompt: `“Keep us safe this night, O Lord” is a prayer. Is it true or false?`,
       options: [`True, if it is a good prayer`, `False, because it is not a statement`, `True or false, according to whether it is answered`, `Neither; it asserts nothing`],
       answer: 3,
