@@ -1,5 +1,5 @@
 /* VI.1 Usage and Authority [vi.usage]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written). Applies the four criteria of P.4;
+   Plan (ITEM-LIST.md): 7 panels, 2 question points. Applies the four criteria of P.4;
    the first panel refers back to P.4 and does not teach the criteria again.
    Live material drawn on: none. Horace, Ars poetica 70–72, quoted in Smart's prose translation (Perseus); ITEM-LIST names
    Fairclough's Loeb, which could not be checked here. */
@@ -23,7 +23,20 @@ ARS.decks['vi.usage'] = {
   body: `<p>Words, like all human works, change: some go out of use and some return. A word that was correct in one age may be obsolete in the next, and an old word may be revived. So the grammarian cannot judge correctness by the rules alone, or by the oldest form alone; he must know the usage of his own time and of the authors he reads.</p>
 <p>Horace, in his poem on the art of poetry, states the power of usage over words: “Many words shall revive, which now have fallen off; and many which are now in esteem shall fall off, if it be the will of custom, in whose power is the decision and right and standard of language” (<i>Ars poetica</i> 70–72). The Latin of the last line, <i>quem penes arbitrium est et ius et norma loquendi</i>, was quoted for centuries as the classic statement that usage (<i>ūsus</i>) is the judge of speech.</p>`,
   src: `Horace, <i>Ars poetica</i> 70–72 (Latin checked against the Perseus text; trans. Christopher Smart, checked against the Perseus text).`,
-  qpTodo: `Horace on usage: according to Horace, what decides whether a word is in use, and what happens to words over time; apply this to a given English word that has fallen out of use or returned.` },
+  qp: { id: 'q-horace', variants: [
+    { prompt: `According to Horace, what decides whether a word is in use?`,
+      options: [`Custom, that is, usage`, `The oldest form of the word`, `The rules of analogy`, `The word’s etymology`],
+      answer: 0,
+      explain: `Horace says that custom holds “the decision and right and standard of language”: usage (<i>ūsus</i>) judges which words are in use.` },
+    { prompt: `What does Horace say happens to words over time?`,
+      options: [`None changes once it is correct`, `Some fall off, and some revive`, `All old words return in time`, `Only borrowed words change`],
+      answer: 1,
+      explain: `“Many words shall revive, which now have fallen off; and many which are now in esteem shall fall off, if it be the will of custom.”` },
+    { prompt: `“Thou” has fallen out of ordinary English but remains in prayer and in older poetry. How would Horace explain this?`,
+      options: [`Analogy has forbidden it`, `It was always incorrect`, `Its etymology has changed`, `Custom decides where it is used`],
+      answer: 3,
+      explain: `For Horace custom is the judge of speech: usage has let “thou” fall from ordinary speech while keeping it in the kinds of speech where it is still at home.` }
+  ]} },
 
 { id: 'educated-usage',
   title: 'Whose usage?',
@@ -48,7 +61,20 @@ ARS.decks['vi.usage'] = {
   body: `<p>Usage changes, as Horace says, and a form that begins as an error may become correct when educated speakers and writers adopt it. As we have seen, words change their meaning by usage. The word “meat” once meant any food, as it still does in “sweetmeat,” and now means flesh; no one would call the modern sense an error. The word “decimate” originally meant to kill one in every ten, as a Roman punishment of mutinous soldiers; it is now used of any great destruction, and that use is established in good writers, though some still object to it.</p>
 <p>So the grammarian judges a new usage by asking whether it has been accepted by the speakers and authors whose usage sets the standard, not by whether it agrees with the origin of the word. We saw in Section IV that the original meaning of a word does not decide its present meaning. A disputed usage remains disputed while good authors disagree, and then the grammarian must say that it is disputed, and in which kinds of writing each form is accepted.</p>`,
   src: `The <i>Oxford English Dictionary</i>, s.vv. “meat,” “decimate,” in paraphrase.`,
-  qpTodo: `Changes of usage: is a given usage now correct (“quick” meaning fast rather than alive; “hopefully” in “Hopefully, the train will be on time”), and by which criterion is it judged.` },
+  qp: { id: 'q-change', variants: [
+    { prompt: `“Quick” once meant “alive,” as in “the quick and the dead.” Is its use to mean “fast” correct?`,
+      options: [`Yes; usage has established it`, `No; the original meaning decides`, `No; it is a barbarism`, `Yes, because of its etymology`],
+      answer: 0,
+      explain: `A new usage becomes correct when the speakers and authors who set the standard accept it, and this sense has long been accepted. The original meaning of a word does not decide its present meaning.` },
+    { prompt: `“Hopefully, the train will be on time” is widely used, but some careful writers still object to it. How should the grammarian describe it?`,
+      options: [`As a barbarism, since its origin is otherwise`, `As disputed, and say where it is accepted`, `As a solecism in every kind of writing`, `As correct beyond any objection`],
+      answer: 1,
+      explain: `While good authors disagree, a usage remains disputed, and the grammarian says so and states in which kinds of writing each form is accepted.` },
+    { prompt: `By what does the grammarian judge whether a new usage has become correct?`,
+      options: [`The original meaning of the word`, `Whether analogy with similar words supports it`, `Acceptance by good speakers and authors`, `The oldest recorded form of the word`],
+      answer: 2,
+      explain: `The grammarian asks whether the speakers and authors whose usage sets the standard have accepted it, not whether it agrees with the origin of the word.` }
+  ]} },
 
 { id: 'kinds-of-error',
   title: 'The kinds of error',
