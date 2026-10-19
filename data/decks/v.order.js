@@ -29,7 +29,7 @@ ARS.decks['v.order'] = {
       answer: 0,
       explain: `Quintilian’s natural order is the order in which things are customarily named. We say “husband and wife,” “day and night,” “rising and setting,” and “east and west,” so the other three phrases reverse the customary order.` },
     { prompt: `According to Priscian, why is the nominative naturally placed before the verb?`,
-      options: [`Because the substance comes before its action`, `Because the Latin endings require it`, `Because the verb must close the sentence`, `Because a sentence must begin with a noun`],
+      options: [`Because the substance comes before its action`, `Because the Latin endings require it`, `Because the verb must close the sentence`, `Because a sentence must always begin with a noun`],
       answer: 0,
       explain: `Priscian holds that the substance is prior to the action that is said of it, so the nominative, which names the substance, naturally precedes the verb. Latin endings allow any order, and Latin sentences often begin with other words.` },
     { prompt: `What did the medieval grammarians call an order arranged by art for some effect?`,
@@ -59,7 +59,7 @@ ARS.decks['v.order'] = {
       answer: 1,
       explain: `The first and last places are the most emphatic. Quintilian notes that a word placed at the close is impressed on the mind of the hearer, whereas in the middle it would go unnoticed.` },
     { prompt: `How can English give the emphasis of Latin <i>lēgātōs Brūtus mīsit</i>?`,
-      options: [`“Envoys sent Brutus”`, `“Brutus envoys sent”`, `“Brutus sent envoys”`, `“It was envoys that Brutus sent”`],
+      options: [`“Envoys sent Brutus”`, `“Brutus envoys sent”`, `“Brutus did send envoys”`, `“It was envoys Brutus sent”`],
       answer: 3,
       explain: `English order carries the construction, so moving the object before the verb would usually change the meaning: “Envoys sent Brutus” makes the envoys the senders. English gives the emphasis by other means, such as “It was envoys that …”.` }
   ]} },
@@ -77,17 +77,17 @@ ARS.decks['v.order'] = {
   src: `Quintilian, <i>Institutio oratoria</i> IX.4.32 (trans. Butler; checked against the Perseus text).`,
   qp: { id: 'q-english-fixed', variants: [
     { prompt: `“The cat chased the dog” and “The dog chased the cat” differ in meaning, whereas Latin <i>fēlēs canem agit</i> and <i>canem fēlēs agit</i> do not. Why?`,
-      options: [`English shows them by order, Latin by endings`, `Latin has no subject or object`, `English verbs come last`, `Latin word order has no effect of any kind`],
+      options: [`Order in English, endings in Latin`, `Latin has no subject or object`, `English verbs come last`, `Latin word order has no effect of any kind`],
       answer: 0,
       explain: `English shows subject and object by their place before and after the verb, so exchanging them changes the meaning. In Latin the nominative <i>fēlēs</i> and the accusative <i>canem</i> show the construction in any order; the order still affects emphasis.` },
     { prompt: `In “I saw a ship in a dream with three masts,” to which word does “with three masts” attach as the sentence stands?`,
       options: [`To “ship,” as the writer meant`, `To “dream,” the nearer noun`, `To “saw”`, `To “I”`],
       answer: 1,
       explain: `In English a phrase attaches to the nearest word it can describe, so here it describes the dream. Placed beside the word it is meant to describe, “In a dream I saw a ship with three masts,” it is clear.` },
-    { prompt: `Which revision removes the ambiguity of “She served pie to the guests on paper plates”?`,
-      options: [`“She served pie on paper plates to the guests”`, `“She served pie to the guests on paper plates”`, `“To the guests on paper plates she served pie”`, `“On the guests she served pie with paper plates”`],
+    { prompt: `Which revision removes the ambiguity of “She served soup to the guests in clay bowls”?`,
+      options: [`“She served soup in clay bowls to the guests”`, `“She served soup to the guests in clay bowls”`, `“To the guests in clay bowls she served soup”`, `“In the guests she served soup with clay bowls”`],
       answer: 0,
-      explain: `As the sentence stands, “on paper plates” can attach to “the guests.” Placed after “pie,” the word it describes, the phrase can only tell how the pie was served.` }
+      explain: `As the sentence stands, “in clay bowls” can attach to “the guests.” Placed after “soup,” the word it describes, the phrase can only tell how the soup was served.` }
   ]} },
 
 { id: 'construing',
@@ -126,7 +126,7 @@ ARS.decks['v.order'] = {
       answer: 2,
       explain: `Classical Arabic, like Biblical Hebrew and Welsh, usually puts the verb first: verb, subject, object (VSO).` },
     { prompt: `Why can Latin depart from its usual SOV order more freely than English from its SVO order?`,
-      options: [`Because Latin endings show the construction`, `Because Latin has no usual order`, `Because Latin is really SVO`, `Because English nouns have case endings`],
+      options: [`Its endings show the construction`, `Because Latin has no usual order at all`, `Because Latin is really SVO`, `Because English nouns have case endings`],
       answer: 0,
       explain: `English order carries the construction, so it is largely fixed. Latin endings show the construction, so its order is free to do other work. Latin does have a usual order, SOV.` }
   ]} },
@@ -159,7 +159,7 @@ ARS.decks['v.order'] = {
       answer: 0,
       explain: `The usual order would put the subject <i>lupus</i> first. Placing the object <i>cervum</i> first stresses it: it is the deer that the wolf follows.` },
     { prompt: `Which of these stays the same whatever the order of the words?`,
-      options: [`The emphasis of the sentence`, `The rhythm of the sentence`, `The relations of construction`, `The word that comes first`],
+      options: [`The emphasis of the whole sentence`, `The rhythm of the sentence`, `The relations of construction`, `The word that comes first`],
       answer: 2,
       explain: `The relations of dependence, agreement, and government are the same in any order; the order affects emphasis, rhythm, and what comes first.` }
   ]} }
