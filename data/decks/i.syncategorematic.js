@@ -102,9 +102,9 @@ ARS.decks['i.syncategorematic'] = {
       answer: 0,
       explain: `The parts of speech are distinguished by the way each word signifies and is arranged with others. The other division asks only whether a word signifies something definite by itself, and so syncategorematic words are found among adjectives, adverbs, conjunctions, and prepositions.` },
     { prompt: `Which pair lists two syncategorematic words that belong to different parts of speech?`,
-      options: [`“Pebble” and “gentle”`, `“Wagon” and “glows”`, `“Pebble” and “neither”`, `“Neither” and “lest”`],
+      options: [`“Pebble” and “gentle”`, `“Anvil” and “glows”`, `“Pebble” and “neither”`, `“Neither” and “lest”`],
       answer: 3,
-      explain: `“Neither” is an adjective in “neither road,” and “lest” is a conjunction, but both signify only together with other words, so both are syncategorematic. “Pebble,” “gentle,” “wagon,” and “glows” signify something by themselves.` }
+      explain: `“Neither” is an adjective in “neither road,” and “lest” is a conjunction, but both signify only together with other words, so both are syncategorematic. “Pebble,” “gentle,” “anvil,” and “glows” signify something by themselves.` }
   ]}},
 
 { id: 'why-grammar',
