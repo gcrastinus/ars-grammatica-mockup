@@ -33,7 +33,7 @@ ARS.languages["lang.ii.de"] = {
    "kind": "exercise",
    "built": true,
    "title": "German Meter",
-   "desc": "5 questions."
+   "desc": "21 questions."
   }
 
  ]

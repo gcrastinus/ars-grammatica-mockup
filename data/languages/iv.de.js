@@ -5,14 +5,21 @@ ARS.languages["lang.iv.de"] = {
  "bar": "iv",
  "code": "de",
  "section": "iv",
- "more": true,
+ "more": false,
  "items": [
 {
    "id": "lang.iv.de/formation",
    "kind": "study",
    "built": true,
-   "title": "Word Formation",
-   "desc": "The German card on word formation."
+   "title": "Word Formation in German",
+   "desc": "Compounds, the suffixes that make nouns, and separable and inseparable prefixes."
+  },
+{
+   "id": "lang.iv.de/formation-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Word Formation in German",
+   "desc": "24 questions."
   }
 
  ]

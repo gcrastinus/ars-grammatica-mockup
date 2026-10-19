@@ -26,14 +26,14 @@ ARS.languages["lang.iii-indecl.de"] = {
    "kind": "exercise",
    "built": true,
    "title": "Parts of Speech",
-   "desc": "8 questions."
+   "desc": "20 questions."
   },
 {
    "id": "lang.iii-indecl.de/govern-ex",
    "kind": "exercise",
    "built": true,
    "title": "Government",
-   "desc": "8 questions."
+   "desc": "20 questions."
   }
 
  ]

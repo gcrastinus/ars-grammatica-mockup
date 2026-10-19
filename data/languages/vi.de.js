@@ -5,7 +5,7 @@ ARS.languages["lang.vi.de"] = {
  "bar": "vi",
  "code": "de",
  "section": "vi",
- "more": true,
+ "more": false,
  "items": [
 {
    "id": "lang.vi.de/vices-ex",
@@ -13,6 +13,13 @@ ARS.languages["lang.vi.de"] = {
    "built": true,
    "title": "Barbarism and Solecism",
    "desc": "7 questions."
+  },
+{
+   "id": "lang.vi.de/errors-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Common Errors in German",
+   "desc": "24 questions."
   }
 
  ]
