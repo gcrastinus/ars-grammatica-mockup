@@ -2,34 +2,34 @@ window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks["lang.vi.en/faults"] = {
  "id": "lang.vi.en/faults",
- "title": "Common Faults in English",
- "sub": "What a modern class marks, set beside barbarism and solecism",
+ "title": "Common Errors in English",
+ "sub": "The errors that English handbooks name, set beside barbarism and solecism",
  "sources": "Donatus, <i>Ars maior</i>; a standard English grammar; Priscian, <i>Institutiones grammaticae</i>",
  "panels": [
   {
    "id": "faults-1",
-   "title": "Card 1",
-   "body": "<p>Which is correct: “The rain stopped. We went out.” or “The rain stopped we went out.”? We hear where one sentence ends and the next begins. Many common faults come from a sentence boundary in the wrong place: two sentences run together, or part of a sentence written as a whole one.</p>"
+   "title": "Where a sentence ends",
+   "body": "<p>“The rain stopped. We went out.” is correctly written, whereas “The rain stopped we went out.” is not, and a reader hears at once where the first sentence should end and the second begin. Many common errors in English come from a sentence boundary in the wrong place: two sentences are run together, or part of a sentence is written as if it were a whole one.</p>"
   },
   {
    "id": "faults-2",
-   "title": "Barbarism and Solecism, and the Modern List",
-   "body": "<p><strong>BARBARISM AND SOLECISM, AND THE MODERN LIST.</strong> Donatus sorts the faults of speech before he allows the same departures as figures. A <strong>barbarism</strong> is a fault in a single word, in its letters, its form, or its pronunciation. A <strong>solecism</strong> is a fault in the arrangement, where the words are each possible and the construction is not. We have those two names already, and we will meet Donatus’s list in its own place. A modern class uses a shorter list of sentence faults. We learn that list here, and we say which of the two older names it sits beside.</p>\n<p>The faulty sentences below are made. They are not offered as quotations. When a real sentence of an author looks odd to a handbook, we have already said what we do: we describe it, and we do not silently emend it.</p>"
+   "title": "Barbarism and solecism, and the modern list",
+   "body": "<p>We have seen that Donatus divides the faults of speech (<i>vitia</i>) into the barbarism and the solecism, and that he allows the same departures to the poets as figures. A <strong>barbarism</strong> is an error in a single word, in its letters, its form, or its pronunciation. A <strong>solecism</strong> is an error in the arrangement of words, where each word is possible but the construction is not. English handbooks use a shorter list of errors in the sentence, and for each of them we can say which of the two classical names it falls under.</p>\n<p>The incorrect sentences given as examples are made up for the purpose; they are not quotations. When a sentence of an author departs from what a handbook expects, the grammarian describes what the sentence does and does not silently correct it, as we saw in the Preliminary section.</p>"
   },
   {
    "id": "faults-3",
    "title": "Fragment, run-on, comma splice",
-   "body": "<p><strong>Fragment, run-on, comma splice.</strong> A <strong>fragment</strong> is a group of words written as if it were a sentence, though it does not make one. Usually it lacks a finite verb, or it is a dependent clause left standing alone. “Because the gate was shut.” The clause depends, and nothing is there for it to depend on. Priscian asks for a complete sense. A fragment fails that test. It may be congruous in its parts and still incomplete.</p>\n<p>A <strong>run-on</strong> joins two independent clauses with no mark and no conjunction: “The king arrived the queen departed.” A <strong>comma splice</strong> joins them with a comma alone: “The king arrived, the queen departed.” Both are solecisms of construction. English needs a period, a semicolon, or a coordinating conjunction such as “and, but, or”. “The king arrived, and the queen departed” is sound.</p>\n<p>A semicolon between two independent clauses is also sound. Burke’s period and Shakespeare’s line about cowards use it. A comma splice uses a comma where a semicolon is needed.</p>"
+   "body": "<p>A <strong>fragment</strong> is a group of words written as if it were a sentence, though it is not one. Usually it lacks a finite verb, or it is a dependent clause standing alone, as in “Because the bridge had washed away.” This clause depends on another, but there is no other clause for it to depend on. Priscian requires that a sentence show a complete sense, and a fragment fails that requirement; so a fragment may be congruous in its parts and still be incomplete.</p>\n<p>A <strong>run-on</strong> sentence joins two independent clauses with no mark of punctuation and no conjunction: “The fire went out the room grew cold.” A <strong>comma splice</strong> joins them with a comma alone: “The fire went out, the room grew cold.” Both are solecisms, because the clauses are not correctly joined. English requires a period, a semicolon, or a coordinating conjunction such as “and,” “but,” or “or”: “The fire went out, and the room grew cold.”</p>\n<p>A semicolon between two independent clauses is also correct, as in “The harvest was late; the barns stood empty.” The comma splice, then, is the use of a comma where a semicolon or a conjunction is needed.</p>"
   },
   {
    "id": "faults-4",
    "title": "Misplaced and dangling modifiers",
-   "body": "<p><strong>Misplaced and dangling modifiers.</strong> A modifier is meant for one word, and it should sit where that aim is plain. A <strong>misplaced modifier</strong> is in the sentence, but it sits by the wrong word, so that the structure says something we did not mean. “The king wrote a letter to the queen on a horse.” The phrase “on a horse” depends on “queen” as the sentence is built. If we meant that the king was on the horse, the phrase is misplaced.</p>\n<p>A <strong>dangling modifier</strong> has nothing in the sentence to depend on. “Walking into the city, the gates were shut.” The participial phrase needs a person who walked. The subject on offer is “gates”, and gates do not walk. The modifier dangles. This is a solecism of construction. The repair gives the phrase its noun: “Walking into the city, he found the gates shut.”</p>"
+   "body": "<p>A modifier belongs to one word, and it should stand where that word is plain. A <strong>misplaced modifier</strong> is in the sentence but stands beside the wrong word, so that the construction says something the writer did not mean. In “The farmer sold a cow to his neighbor with a crooked horn,” the phrase “with a crooked horn,” as the sentence is built, depends on “neighbor”; if the writer meant that the cow had the crooked horn, the phrase is misplaced.</p>\n<p>A <strong>dangling modifier</strong> has nothing in the sentence to depend on. In “Climbing the stairs, the lights went out,” the participial phrase requires a person who climbed, but the only subject is “the lights,” and lights do not climb stairs. The modifier therefore dangles, and this is a solecism. The correction gives the phrase its noun: “Climbing the stairs, she saw the lights go out.”</p>"
   },
   {
    "id": "faults-5",
    "title": "What we do not confuse",
-   "body": "<p><strong>What we do not confuse.</strong> A barbarism is not yet any of these. “The king arrivd” is a barbarism if the fault is the spelling of one word. “The king arrived the queen departed” is a solecism, and a modern class calls it a run-on. A sentence may be congruous and false, and it may be incongruous and still point at something true. The fault we are naming here is a fault of form.</p>\n<p>The drill gives a sentence and asks which fault it shows, or whether it shows none of these. One choice is always a sound sentence of the same shape, so that “sound” is a real judgment and not a guess at the odd one out.</p>"
+   "body": "<p>None of these errors is a barbarism. “The fire wnet out” contains a barbarism, because the error lies in the spelling of one word, whereas “The fire went out the room grew cold” is a solecism, which English handbooks call a run-on sentence. These errors must also be kept distinct from falsehood: a sentence may be congruous and false, and it may be incongruous and still point at something true. The errors named here are errors of form.</p>"
   }
  ]
 };
