@@ -41,11 +41,11 @@ ARS.decks['prelim.offices'] = {
 <p>An error in a single word is called a <strong>barbarism</strong>, and an error in the arrangement of words is called a <strong>solecism</strong>. For example, “brung” for “brought” and “drownded” for “drowned” are barbarisms. “Him and me went home” for “He and I went home,” and Latin <i>rosa rubrum</i> for <i>rosa rubra</i> (“the red rose”), in which the adjective does not agree with the noun, are solecisms. Both are treated fully in Section VI, Correctness and Errors.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.13.`,
   qp: { id: 'q-office', variants: [
-    { prompt: `A teacher explains that “nigh” in “nor the years draw nigh” means “near.” Which task of the grammarian is this?`,
+    { prompt: `A teacher explains that “ere” in “Sir, come down ere my child die” (John 4:49) means “before.” Which task of the grammarian is this?`,
       options: [`Reading`, `Explaining`, `Correcting`, `Judging`],
       answer: 1,
       explain: `Explaining a word that is not in common use belongs to explaining (<i>enarratio</i>), as Quintilian says (I.8.15). Reading is reading aloud correctly, and correcting restores what is incorrect.` },
-    { prompt: `A student decides where to pause in “The Lord is my shepherd; I shall not want.” Which task of the grammarian is this?`,
+    { prompt: `A student decides where to pause in “The heavens declare the glory of God; and the firmament sheweth his handywork” (Psalm 19:1). Which task of the grammarian is this?`,
       options: [`Explaining`, `Correcting`, `Reading`, `Judging`],
       answer: 2,
       explain: `Deciding where to pause belongs to reading (<i>lectio</i>). Quintilian says that the reader must know “where the sense ends or begins” (I.8.1).` },
