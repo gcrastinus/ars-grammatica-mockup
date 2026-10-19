@@ -85,7 +85,7 @@ ARS.decks['v.order'] = {
       answer: 1,
       explain: `In English a phrase attaches to the nearest word it can describe, so here it describes the dream. Placed beside the word it is meant to describe, “In a dream I saw a ship with three masts,” it is clear.` },
     { prompt: `Which revision removes the ambiguity of “She served soup to the guests in clay bowls”?`,
-      options: [`“She served soup in clay bowls to the guests”`, `“She served soup to the guests in clay bowls”`, `“To the guests in clay bowls she served soup”`, `“In the guests she served soup with clay bowls”`],
+      options: [`“She served soup in clay bowls to the guests”`, `“She served soup to the guests in clay bowls”`, `“To the guests in clay bowls she served soup”`, `“She served to the guests in clay bowls the soup”`],
       answer: 0,
       explain: `As the sentence stands, “in clay bowls” can attach to “the guests.” Placed after “soup,” the word it describes, the phrase can only tell how the soup was served.` }
   ]} },
