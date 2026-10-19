@@ -1,5 +1,5 @@
 /* V.6 The Phrase [v.phrase]
-   Plan (ITEM-LIST.md): 8 panels, 4 question points, 2 of them short analysis questions (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 8 panels, 4 question points, 2 of them short analysis questions.
    Live material drawn on: DECKS.enphr (phrase, five kinds, form and function, in the authors, participle and gerund). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -27,7 +27,20 @@ ARS.decks['v.phrase'] = {
   body: `<p>Among the commonest groups of words in English are groups such as “of mercy,” “in the state of Denmark,” and “for delight,” each made of a preposition followed by a noun. A <strong>prepositional phrase</strong> begins with a preposition and ends with its object, with any words that depend on the object. It is usually used as an adjective, telling which one or what kind, or as an adverb, telling when, where, how, or why.</p>
 <p>In Portia’s line “The quality of mercy is not strain’d” (Shakespeare, <i>The Merchant of Venice</i> IV.1), “of mercy” depends on “quality” and tells which quality, so it is used as an adjective. In “They arrived after the storm,” “after the storm” depends on “arrived” and tells when, so it is used as an adverb. Latin prepositional phrases are used in the same ways: <i>post tempestātem vēnērunt</i>, “they came after the storm.” But Latin also expresses many such relations by a case alone, without a preposition: <i>saxō</i>, “with a stone.”</p>`,
   src: `Shakespeare, <i>The Merchant of Venice</i> IV.1; Reed and Kellogg, <i>Higher Lessons in English</i>, in paraphrase.`,
-  qpTodo: `The prepositional phrase: in a given sentence, which word does the phrase depend on, and is it used as an adjective or as an adverb (“The lamp on the desk is lit,” “They slept until noon”).` },
+  qp: { id: 'q-prepositional', variants: [
+    { prompt: `In “The lamp on the desk is lit,” on which word does “on the desk” depend, and how is it used?`,
+      options: [`On “lamp,” as an adjective`, `On “is lit,” as an adverb`, `On “desk,” as a noun`, `On no word, as a clause`],
+      answer: 0,
+      explain: `“On the desk” tells which lamp is meant, so it depends on “lamp” and is used as an adjective. Within the phrase, “desk” is the object of “on.”` },
+    { prompt: `In “They slept until noon,” how is the phrase “until noon” used?`,
+      options: [`As an adjective`, `As the subject`, `As an adverb`, `As the object of “slept”`],
+      answer: 2,
+      explain: `“Until noon” depends on “slept” and tells how long they slept, so it is a prepositional phrase used as an adverb.` },
+    { prompt: `Which of these prepositional phrases is used as an adjective?`,
+      options: [`“to Rome” in “the road to Rome”`, `“to Rome” in “they marched to Rome”`, `“by night” in “they walked by night”`, `“in silence” in “they sat in silence”`],
+      answer: 0,
+      explain: `In “the road to Rome” the phrase tells which road, so it depends on a noun and is used as an adjective. The other three depend on verbs and tell where, when, or how, so they are used as adverbs.` }
+  ]} },
 
 { id: 'participial-gerund',
   title: 'Participial and gerund phrases',
@@ -40,7 +53,20 @@ ARS.decks['v.phrase'] = {
   body: `<p>In Hamlet’s question “To be, or not to be, that is the question” (<i>Hamlet</i> III.1), “to be” and “not to be” are two groups of words built on the infinitive with “to,” and they are used as nouns: they are what “that” refers to. A group of this kind, an infinitive with “to” and the words that depend on it, is called an <strong>infinitive phrase</strong>, and it may be used as a noun, as an adjective, or as an adverb. In Bacon’s “some few to be chewed and digested” (<i>Essays</i>, “Of Studies”), the infinitive phrase is used as an adjective, describing the books. In “She came to see the king,” the phrase “to see the king” is used as an adverb, telling why she came.</p>
 <p>Latin uses the infinitive chiefly as a noun or to complete another verb, as we saw in Section III: <i>labōrāre necesse est</i>, “to work is necessary”; <i>nāre discit</i>, “he is learning to swim.” To express purpose, as in “She came to see the king,” Latin uses other constructions, such as a clause with <i>ut</i> or a phrase with the gerund, which we will meet with the clause.</p>`,
   src: `Shakespeare, <i>Hamlet</i> III.1; Bacon, <i>Essays</i>, “Of Studies”; Allen and Greenough, <i>New Latin Grammar</i> §§ 451–460.`,
-  qpTodo: `The infinitive phrase: in a given sentence, is the infinitive phrase used as a noun, an adjective, or an adverb (“To forgive is hard”; “water to drink”; “They trained to win the match”).` },
+  qp: { id: 'q-infinitive', variants: [
+    { prompt: `In “To forgive is hard,” how is the infinitive phrase “to forgive” used?`,
+      options: [`As a noun`, `As an adjective`, `As an adverb`, `As a finite verb`],
+      answer: 0,
+      explain: `“To forgive” is the subject of “is,” so it is used as a noun, as “to be” is in Hamlet’s question.` },
+    { prompt: `In “They brought water to drink,” how is the infinitive phrase “to drink” used?`,
+      options: [`As a noun`, `As an adjective`, `As an adverb`, `As a finite verb`],
+      answer: 1,
+      explain: `“To drink” depends on “water” and tells what kind of water, water for drinking, so it is used as an adjective.` },
+    { prompt: `In “They trained to win the match,” how is the infinitive phrase “to win the match” used?`,
+      options: [`As a noun`, `As an adjective`, `As an adverb`, `As the subject`],
+      answer: 2,
+      explain: `The phrase depends on “trained” and tells why they trained, so it is used as an adverb. Latin would express this purpose with another construction, such as a clause with <i>ut</i>.` }
+  ]} },
 
 { id: 'appositive',
   title: 'The appositive phrase',
@@ -53,14 +79,40 @@ ARS.decks['v.phrase'] = {
   body: `<p>English sometimes sets a noun and a participle apart from the rest of the sentence to tell the circumstances of the action, as in “The weather being fine, we sailed.” This construction is called the <strong>nominative absolute</strong>. It is not common in English, which usually prefers a clause: “Because the weather was fine, we sailed.”</p>
 <p>Latin uses the same kind of phrase much more often, in the ablative case, and so it has a phrase that has no exact counterpart in ordinary English: the <strong>ablative absolute</strong>. It consists of a noun and a participle (or another noun or adjective) in the ablative case, and it stands apart from the construction of the rest of the sentence, telling the time, cause, or circumstances of the action: <i>urbe captā, hostēs discessērunt</i>, “the city having been captured, the enemy departed,” or more naturally, “when the city had been captured, the enemy departed.” <i>Caesare duce</i>, “Caesar being leader,” means “under Caesar’s leadership.” It is called absolute (from <i>absolūtus</i>, “loosed”) because it is loosed from the construction of the main clause.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 419–420.`,
-  qpTodo: `Analysis: in a given Latin sentence, mark the ablative absolute, give its noun and participle, and say what it tells about the main action.` },
+  qp: { id: 'q-absolute', variants: [
+    { prompt: `In Latin <i>sōle oriente, nautae nāvigāvērunt</i> (“the sun rising, the sailors set sail”), which words make the ablative absolute?`,
+      options: [`<i>sōle oriente</i>`, `<i>nautae nāvigāvērunt</i>`, `<i>nautae</i> alone`, `There is none`],
+      answer: 0,
+      explain: `<i>Sōle oriente</i> is a noun and a participle in the ablative, loosed from the construction of the main clause, <i>nautae nāvigāvērunt</i>. It tells the time: “at sunrise.”` },
+    { prompt: `In Latin <i>epistulā lēctā, rēx rīsit</i> (“the letter having been read, the king laughed”), what does the ablative absolute tell?`,
+      options: [`What the king laughed at, as his object`, `Who laughed`, `The time or circumstance of the laughing`, `Where the king was`],
+      answer: 2,
+      explain: `<i>Epistulā lēctā</i> stands apart from the construction of <i>rēx rīsit</i> and tells when, or in what circumstances, the king laughed: “when the letter had been read.”` },
+    { prompt: `Why is the ablative absolute called “absolute”?`,
+      options: [`Because it states what is always true`, `Because it is loosed from the main construction`, `Because it must always stand first in its sentence`, `Because it contains no noun`],
+      answer: 1,
+      explain: `<i>Absolūtus</i> means “loosed”: the phrase depends on no word of the main clause in the way an object or an adjective does, though it tells the time, cause, or circumstances of the action.` }
+  ]} },
 
 { id: 'diagram',
   title: 'Phrases in a diagram',
   body: `<p>The dependences of the words in a sentence can be shown by drawing the sentence as a diagram, in which each word or phrase is placed under the word on which it depends. In 1877 Alonzo Reed and Brainerd Kellogg, two American teachers, published <i>Higher Lessons in English</i>, which taught the analysis of sentences by drawing them as diagrams. In their diagrams the subject and the verb stand on a horizontal base (the main line), divided by a vertical line, and the words and phrases that depend on them are drawn on slanting lines below the word on which they depend.</p>
 <p>So in “The light of the moon fell on the water,” the phrase “of the moon” is drawn below “light,” with the preposition “of” on a slanting line and its object “moon” on a horizontal line beneath, and “on the water” is drawn in the same way below “fell.” The diagram makes the dependence of the phrase visible in the same way that marking the dependences does: each phrase is placed under the word that it describes or determines.</p>`,
   src: `Reed and Kellogg, <i>Higher Lessons in English</i> (1877), on the diagram, in paraphrase.`,
-  qpTodo: `Analysis: in a given sentence, mark each phrase, name it by form and by function, and say on which word it depends.` }
+  qp: { id: 'q-diagram', variants: [
+    { prompt: `In “The song of the lark rose above the field,” on which word does “of the lark” depend?`,
+      options: [`“song”`, `“rose”`, `“field”`, `“lark”`],
+      answer: 0,
+      explain: `“Of the lark” tells which song, so it depends on “song” and is used as an adjective; in a diagram it is drawn below “song.” “Above the field” depends on “rose.”` },
+    { prompt: `In “The children ran across the meadow,” what is “across the meadow” by form and by function?`,
+      options: [`A prepositional phrase used as an adjective`, `A prepositional phrase used as an adverb`, `An infinitive phrase used as a noun`, `An appositive phrase`],
+      answer: 1,
+      explain: `By form it is prepositional, a preposition with its object; by function it depends on “ran” and tells where, so it is used as an adverb.` },
+    { prompt: `In a Reed and Kellogg diagram, where is a phrase drawn?`,
+      options: [`On the base line, beside the verb`, `Above the subject`, `Below the word it depends on`, `At the right end of the base line`],
+      answer: 2,
+      explain: `The subject and verb stand on the base, and each word or phrase that depends on another is drawn on slanting lines below the word on which it depends.` }
+  ]} }
 
   ]
 };
