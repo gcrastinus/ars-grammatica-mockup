@@ -1,5 +1,5 @@
 /* III.11 The Adverb [iii.adverb]
-   Plan (ITEM-LIST.md): 7 panels, 2 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 7 panels, 2 question points.
    Live material drawn on: DECKS.pos (the remaining four), DECKS.latpos (the four that do not change). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -24,7 +24,20 @@ ARS.decks['iii.adverb'] = {
 <p><strong>place</strong>: <i>hīc</i> (“here”), <i>ibi</i> (“there”), “here,” “there,” “everywhere”;<br><strong>time</strong>: <i>hodiē</i> (“today”), <i>nunc</i> (“now”), “today,” “now,” “often”;<br><strong>manner</strong>: <i>male</i> (“badly”), <i>libenter</i> (“gladly”), “badly,” “gladly”;<br><strong>quantity</strong> and <strong>number</strong>: <i>multum</i> (“much”), <i>semel</i> (“once”), “much,” “twice”;<br><strong>negation</strong> and <strong>affirmation</strong>: <i>nēquāquam</i> (“by no means”), <i>certē</i> (“certainly”), “never,” “indeed”;<br><strong>questioning</strong>: <i>cūr</i> (“why?”), <i>ubi</i> (“where?”), “why?” “when?”;<br><strong>doubt</strong>: <i>fortasse</i> (“perhaps”), “perhaps,” “possibly.”</p>
 <p>Donatus’s list also includes adverbs of wishing (<i>utinam</i>, “would that”), of exhorting, and of comparison. So the adverbs are a large and varied class, united not by what they signify but by the way they signify: each determines another word.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the signification of the adverb, in paraphrase.`,
-  qpTodo: `The kinds of adverb: what kind of meaning does a given adverb add (<i>illīc</i>, <i>herī</i>, <i>bene</i>, <i>nōn</i>, <i>quandō</i>; “rarely,” “maybe”).` },
+  qp: { id: 'q-signification', variants: [
+    { prompt: `What kind of meaning does the Latin adverb <i>herī</i> add?`,
+      options: [`Place`, `Time`, `Manner`, `Doubt`],
+      answer: 1,
+      explain: `<i>Herī</i> means “yesterday,” so it tells when, and it is an adverb of time, like <i>hodiē</i> and <i>nunc</i>.` },
+    { prompt: `In a question such as <i>Quandō venit?</i> (“When does he come?”), what kind of adverb is <i>quandō</i>?`,
+      options: [`An adverb of place`, `An adverb of negation`, `An adverb of quantity`, `An adverb of questioning`],
+      answer: 3,
+      explain: `<i>Quandō</i> asks when, so in a question it is an adverb of questioning, like <i>cūr</i> (“why?”) and <i>ubi</i> (“where?”). Its answer would be an adverb of time.` },
+    { prompt: `What kind of meaning does “maybe” add in “Maybe the ferry is late”?`,
+      options: [`Time`, `Manner`, `Doubt`, `Affirmation`],
+      answer: 2,
+      explain: `“Maybe” leaves it uncertain whether the ferry is late, so it is an adverb of doubt, like “perhaps” and Latin <i>fortasse</i>. An adverb of affirmation, such as “certainly,” would assert it.` }
+  ]} },
 
 { id: 'formation',
   title: 'How adverbs are formed',
@@ -49,7 +62,20 @@ ARS.decks['iii.adverb'] = {
   body: `<p>In “She sings beautifully,” <i>pulchrē cantat</i>, the adverb determines the verb. But adverbs also determine adjectives (“very good,” <i>valdē bonus</i>), other adverbs (“very quickly,” <i>valdē celeriter</i>), and whole sentences (“Fortunately, the bridge held”). Donatus defines the adverb by its relation to the verb, because that is its principal use. Priscian explains that the adverb is added to the verb chiefly, but also to the other parts that signify something like an action or a quality (<i>Institutiones grammaticae</i> XV).</p>
 <p>In English the position of an adverb can change the meaning of a sentence. “She nearly lost all her money” means that she came close to losing all of it but did not; “She lost nearly all her money” means that she lost most of it. So the adverb must be placed next to the word it is meant to determine, and an adverb placed where it determines the wrong word causes the kind of ambiguity we saw in Section I.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> XV, in paraphrase.`,
-  qpTodo: `What the adverb determines: in a given sentence, which word does the adverb determine (a verb, an adjective, another adverb, the sentence), and how does moving “only” change the meaning.` },
+  qp: { id: 'q-what-modifies', variants: [
+    { prompt: `In “The tea is extremely hot,” which word does “extremely” determine?`,
+      options: [`The verb “is”`, `The adjective “hot”`, `The noun “tea”`, `The whole sentence`],
+      answer: 1,
+      explain: `“Extremely” tells how hot the tea is, so it determines the adjective “hot.” Adverbs determine adjectives as well as verbs, as Priscian notes.` },
+    { prompt: `In “Luckily, the rope held,” what does “luckily” determine?`,
+      options: [`The verb “held”`, `The noun “rope”`, `The whole sentence`, `The article “the”`],
+      answer: 2,
+      explain: `“Luckily” does not say how the rope held; it says that the whole event, the rope’s holding, was lucky. So it determines the sentence as a whole.` },
+    { prompt: `In “Only he saw the comet,” which word does “only” determine?`,
+      options: [`“saw”`, `“the comet”`, `The whole sentence`, `“he”`],
+      answer: 3,
+      explain: `Placed before “he,” “only” determines “he”: no one else saw the comet. Moved before “saw,” it determines the verb (he saw it and did nothing more), although in speech “He only saw the comet” is often used to mean that he saw nothing but the comet. The adverb should stand next to the word it determines.` }
+  ]} },
 
 { id: 'other-parts',
   title: 'Adverb, preposition, and conjunction',
