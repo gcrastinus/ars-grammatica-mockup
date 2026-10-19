@@ -1,5 +1,5 @@
 /* IV.3 Etymology [iv.etymology]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 10 panels, 3 question points.
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"). Quintilian I.6.28 and I.6.32–34 checked against the Perseus
    text of Butler's translation. */
 window.ARS = window.ARS || {};
@@ -36,7 +36,20 @@ ARS.decks['iv.etymology'] = {
 <p>Isidore of Seville, writing in the seventh century, made etymology the method of a whole encyclopedia, the <i>Etymologiae</i>, which explains the things of every art and science by the origins of their names. He defines etymology as the origin of words, when the force of a verb or a noun is found by interpretation (<i>Etymologiae</i> I.29.1), and he holds that when we know the origin of a word we understand its force more quickly.</p>
 <p>Some of Isidore’s etymologies are still accepted. He derives <i>rēx</i> (“king”) from <i>regere</i> (“to rule”) and adds that one who does not correct does not rule, so that the name of king is kept by acting rightly and lost by doing wrong (<i>Etymologiae</i> IX.3.4); the two words are in fact related. But many of his derivations are guesses from a likeness of sound, and Isidore himself says that not all words were imposed with a reason that can be found.</p>`,
   src: `Isidore, <i>Etymologiae</i> I.29.1–3, IX.3.4 (Barney et al. for reference), in paraphrase.`,
-  qpTodo: `Ancient etymology: what did Isidore (or Varro, or Plato) seek in the origin of a word, and why is an etymology from a likeness of sound not reliable by itself.` },
+  qp: { id: 'q-isidore', variants: [
+    { prompt: `What did Isidore seek in the origin of a word?`,
+      options: [`Its force, to understand the thing named`, `The date when the word first appeared`, `The regular sound changes that produced it`, `Its spelling in the oldest Greek texts`],
+      answer: 0,
+      explain: `Isidore defines etymology as the origin of words, when the force of a word is found by interpretation, and he holds that knowing the origin helps us understand the word’s force more quickly. Regular sound changes were found only in the nineteenth century.` },
+    { prompt: `Why is an etymology from a likeness of sound not reliable by itself?`,
+      options: [`Because the sounds of words never change`, `Because only the spelling of a word shows its origin`, `Because unrelated words can sound alike by chance`, `Because Isidore did not use sound at all`],
+      answer: 2,
+      explain: `Two words can sound alike without being related, so a likeness of sound is only a guess until it is confirmed. Many of Isidore’s derivations are such guesses; the comparative method later required regular correspondences of sound.` },
+    { prompt: `Isidore derives <i>rēx</i> from <i>regere</i> and adds that one who does not correct does not rule. What does this show about his method?`,
+      options: [`He traced regular laws of sound change`, `He drew a lesson from the origin`, `He thought no word had a findable origin`, `He took every meaning from Greek`],
+      answer: 1,
+      explain: `For Isidore the origin of a name shows something about the thing named, so he draws a lesson from it: the name of king is kept by acting rightly. Here the two words are in fact related, but the lesson is his own addition.` }
+  ]} },
 
 { id: 'quintilian-caution',
   title: 'Quintilian’s caution',
@@ -56,7 +69,20 @@ ARS.decks['iv.etymology'] = {
   body: `<p>English “mother” resembles Latin <i>māter</i>, and English “maternal” resembles Latin <i>māternus</i>, but the two pairs are related in different ways. Comparative etymology distinguishes two ways in which an English word can be related to a Latin one. A <strong>cognate</strong> (Latin <i>cognātus</i>, “born together”) is a word that has descended in each language from a common ancestor in the parent language, as “mother” and <i>māter</i> have, or “new” and <i>novus</i>. A <strong>borrowed word</strong> or <strong>loanword</strong> is a word that one language has taken from another, as English took “maternal” from Latin <i>māternus</i>.</p>
 <p>So English often has a native word and a borrowed word from the same root: “mother” (native) and “maternal” (from Latin); “mouth” and “oral”; “eye” and “ocular”; “heart” and “cardiac” (from Greek). The native word has undergone the sound changes of English; the borrowed word was taken from Latin or Greek much later and keeps its foreign form. This is why English has so many pairs of a common native word and a learned adjective.</p>`,
   src: `Standard histories of English; the <i>Oxford English Dictionary</i>, in paraphrase.`,
-  qpTodo: `Cognate or borrowed: is a given English word cognate with a Latin word or borrowed from it (“father” and <i>pater</i>; “paternal” and <i>paternus</i>; “tooth” and “dental”), and how can one tell.` },
+  qp: { id: 'q-cognate-borrowed', variants: [
+    { prompt: `Is English “father” cognate with Latin <i>pater</i> or borrowed from it?`,
+      options: [`Cognate`, `Borrowed from Latin`, `Borrowed through French`, `Unrelated`],
+      answer: 0,
+      explain: `“Father” has descended in English from the same ancestor as <i>pater</i> and shows the sound changes of English (Latin <i>p</i> answers to English <i>f</i>), so it is a cognate, as “mother” is of <i>māter</i>.` },
+    { prompt: `Is English “paternal” cognate with Latin <i>paternus</i> or borrowed from it?`,
+      options: [`Cognate`, `Native English`, `Borrowed from Latin`, `Unrelated`],
+      answer: 2,
+      explain: `“Paternal” keeps the Latin form, <i>p</i> and all, because English took it from Latin long after the sound changes of English had taken place. So it is borrowed, as “maternal” is.` },
+    { prompt: `“Tooth” and “dental” go back to the same root. How can we tell that “tooth” is native and “dental” borrowed?`,
+      options: [`“Dental” keeps its Latin form`, `“Tooth” was taken from French`, `“Dental” is the older word`, `They mean different things`],
+      answer: 0,
+      explain: `“Tooth” has undergone the sound changes of English (Latin <i>d</i> answers to English <i>t</i>), whereas “dental” keeps the form of Latin <i>dēns</i>, <i>dentis</i>, because it was borrowed much later.` }
+  ]} },
 
 { id: 'layers',
   title: 'The layers of English vocabulary',
@@ -69,7 +95,20 @@ ARS.decks['iv.etymology'] = {
   body: `<p>Etymology requires several cautions. First, speakers sometimes reshape an unfamiliar word to resemble familiar ones, a process called <strong>folk etymology</strong>. English “crayfish” comes from French <i>écrevisse</i> and has nothing to do with fish; “bridegroom” comes from Old English <i>brȳdguma</i> (“bride-man”), and the <i>r</i> of “groom” was added when <i>guma</i> was no longer understood.</p>
 <p>Second, the meaning of a word can change greatly over time. “Villain” comes, through French, from Latin <i>villānus</i> (“a farm worker”), and once meant a peasant; “sad” once meant “satisfied” or “weary.” So the original meaning of a word is not its true or present meaning. To argue that a word must mean today what its ancestor meant is a fallacy, sometimes called the <strong>etymological fallacy</strong>. The present meaning is fixed by usage, as we saw with imposition in Section I, and etymology explains how that meaning came about but does not overrule it.</p>`,
   src: `The <i>Oxford English Dictionary</i>, s.vv. “crayfish,” “bridegroom,” “villain,” “sad,” in paraphrase.`,
-  qpTodo: `Cautions in etymology: what has happened in a given case (“hangnail,” “sparrowgrass” for “asparagus,” “spinster”), and why does the original meaning of a word not decide its present meaning.` },
+  qp: { id: 'q-cautions', variants: [
+    { prompt: `“Sparrowgrass” was once a common form of “asparagus.” What has happened?`,
+      options: [`Folk etymology`, `A change of meaning`, `Back-formation`, `Conversion`],
+      answer: 0,
+      explain: `Speakers reshaped an unfamiliar word to resemble familiar ones, “sparrow” and “grass,” though the plant has nothing to do with sparrows. That is folk etymology, as in “crayfish.”` },
+    { prompt: `“Spinster” once meant a woman who spins. What has happened to the word?`,
+      options: [`Folk etymology`, `It was borrowed from Latin`, `Its meaning has changed`, `It is a hybrid`],
+      answer: 2,
+      explain: `The form is the same, but the meaning has changed over time, as with “villain” and “sad.” What the word once meant does not decide what it means now.` },
+    { prompt: `Why does the original meaning of a word not decide its present meaning?`,
+      options: [`Because the origin of a word is always unknown`, `Because the present meaning is fixed by usage`, `Because etymology is never reliable`, `Because words never change their meanings`],
+      answer: 1,
+      explain: `The meaning of a word is fixed by usage, as we saw with imposition. Etymology explains how the present meaning came about, but to argue from the origin to the present meaning is the etymological fallacy.` }
+  ]} },
 
 { id: 'oed',
   title: 'Etymology and the dictionary',
