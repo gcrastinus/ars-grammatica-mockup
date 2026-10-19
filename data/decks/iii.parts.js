@@ -1,5 +1,5 @@
 /* III.1 The Word (dictio) and the Eight Parts [iii.parts]
-   Plan (ITEM-LIST.md): 13 panels, 4 question points (placeholders: qpTodo; to be written). Exercise: The Eight Parts (not yet written).
+   Plan (ITEM-LIST.md): 13 panels, 4 question points. Exercise: The Eight Parts (not yet written).
    Live material drawn on: DECKS.pos (the word; a list of uses; the eight; noun, verb, pronoun and participle, the remaining
    four; how to tell), DECKS.enpos, DECKS.latpos (the eight in Latin; post as preposition and adverb), the article panels
    of DECKS.poscompare. Donatus's definitions are quoted in Latin from the Ars minor and given in English in substance. */
@@ -31,7 +31,20 @@ ARS.decks['iii.parts'] = {
 <p><strong>noun</strong> (<i>nomen</i>);<br><strong>pronoun</strong> (<i>pronomen</i>);<br><strong>verb</strong> (<i>verbum</i>);<br><strong>adverb</strong> (<i>adverbium</i>);<br><strong>participle</strong> (<i>participium</i>);<br><strong>conjunction</strong> (<i>coniunctio</i>);<br><strong>preposition</strong> (<i>praepositio</i>);<br><strong>interjection</strong> (<i>interiectio</i>).</p>
 <p>Donatus has no separate part for the adjective, because, as we will see, the Latin grammarians count the adjective as a kind of noun.</p>`,
   src: `Donatus, <i>Ars minor</i>, the opening question.`,
-  qpTodo: `The eight parts: which of a list is not one of Donatus’s eight (the adjective, the article), or which part a marked word in a simple Latin or English sentence is.` },
+  qp: { id: 'q-the-eight', variants: [
+    { prompt: `Which of these is not one of Donatus’s eight parts of speech?`,
+      options: [`The participle`, `The interjection`, `The adjective`, `The preposition`],
+      answer: 2,
+      explain: `Donatus counts the adjective under the noun, because Latin adjectives have case and are declined like nouns. The participle, the interjection, and the preposition are all among his eight.` },
+    { prompt: `In Latin <i>Mīles in castrīs dormit</i> (“The soldier sleeps in the camp”), what part of speech is <i>in</i>?`,
+      options: [`An adverb`, `A preposition`, `A conjunction`, `A noun`],
+      answer: 1,
+      explain: `<i>In</i> is placed before <i>castrīs</i> (“the camp”) and relates it to the sleeping, as <i>in</i> relates the palace to the sitting in <i>Rēgīna in rēgiā sedet</i>. A word of this kind is a preposition.` },
+    { prompt: `Why does Donatus have no separate part of speech for the adjective?`,
+      options: [`Because Latin has no adjectives`, `Because he counts it as a kind of verb`, `Because the adjective is not declined`, `Because he counts it as a kind of noun`],
+      answer: 3,
+      explain: `Latin adjectives have case and are declined like nouns, so Donatus counts the adjective as a noun that signifies a quality. Latin has many adjectives, and they are declined, so the other answers are not his reason.` }
+  ]} },
 
 { id: 'by-use',
   title: 'The part of speech is decided by use',
@@ -39,7 +52,20 @@ ARS.decks['iii.parts'] = {
 <p>English shows this clearly, because many English words have one form for several parts of speech. In “We bought the paint,” “paint” is a noun, because it refers to a thing; in “We paint the wall,” it is a verb, because it says what is done. Latin usually distinguishes the two by their forms (<i>dōnum</i>, “gift,” is a noun, and <i>dōnat</i>, “he gives,” is a verb), but Latin also has words with more than one use. <i>Post</i> is a preposition in <i>post bellum</i> (“after the war”) and an adverb in <i>paulō post</i> (“a little later”); <i>cum</i> is a preposition in <i>cum amīcō</i> (“with a friend”) and a conjunction in <i>cum venit</i> (“when he comes”).</p>
 <p>Priscian, as we saw in Section I, draws the same conclusion: the parts of speech can be distinguished from one another only by attending to what is proper to the signification of each (<i>non aliter possunt discerni a se partes orationis, nisi uniuscuiusque proprietates significationum attendamus</i>; <i>Institutiones grammaticae</i> II.17).</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II.17, in paraphrase.`,
-  qpTodo: `Decided by use: in a given pair of sentences (“the brush on the table” / “They brush the horse”; <i>ante lūcem</i> / <i>paucīs ante diēbus</i>), what part of speech is the marked word in each, and why.` },
+  qp: { id: 'q-by-use', variants: [
+    { prompt: `In “They brush the horse,” what part of speech is “brush”?`,
+      options: [`A noun`, `A verb`, `An adverb`, `A preposition`],
+      answer: 1,
+      explain: `In this sentence “brush” says what is done to the horse, so it is a verb. In “the brush on the table” the same word refers to a thing and is a noun. The use in the sentence, not the form, decides the part of speech.` },
+    { prompt: `In Latin <i>ante lūcem</i> (“before dawn”), <i>ante</i> is a preposition. What is it in <i>paucīs ante diēbus</i> (“a few days before”)?`,
+      options: [`An adverb`, `A preposition, because the form is the same`, `A conjunction`, `A noun`],
+      answer: 0,
+      explain: `In <i>ante lūcem</i>, <i>ante</i> stands before a noun and takes the accusative, so it is a preposition. In <i>paucīs ante diēbus</i> it governs no noun; it means “earlier” and says when, so it is an adverb, as <i>post</i> is in <i>paulō post</i>.` },
+    { prompt: `Why do the grammarians decide the part of speech of a word by its use in a sentence?`,
+      options: [`Because every word has only one form`, `Because one form can serve as different parts of speech`, `Because the form of a word never shows anything about how it is used`, `Because a dictionary does not record parts of speech`],
+      answer: 1,
+      explain: `The same form can be a noun in one sentence and a verb in another, as “swim” is in “a short swim” and “they swim,” so the form alone cannot decide. The form often does help, as Latin <i>dōnum</i> and <i>dōnat</i> show, and dictionaries do record the usual parts of speech.` }
+  ]} },
 
 { id: 'noun',
   title: 'The noun',
@@ -77,7 +103,20 @@ ARS.decks['iii.parts'] = {
   body: `<p>Some words join words, as “and” does in “bread and wine,” <i>pānis et vīnum</i>, and some join clauses and show how they are related, as “but,” “if,” and “because” do, and Latin <i>sed</i>, <i>sī</i>, and <i>quia</i>. Such a word is a <strong>conjunction</strong> (<i>coniunctio</i>, “joining”), which is, in Donatus’s words, “a part of speech that joins and orders the thought” (<i>pars orationis adnectens ordinansque sententiam</i>; <i>Ars minor</i>).</p>
 <p>Words such as “ah” and “hurrah,” Latin <i>vae</i> (“woe”) and <i>euge</i> (“well done”), express a feeling and are thrown into a sentence without being constructed with its other words; we saw in Section I that speech can express feeling in this way. Such a word is an <strong>interjection</strong> (<i>interiectio</i>, “what is thrown in”), which Donatus defines as “a part of speech that signifies a feeling of the mind by an unformed utterance” (<i>pars orationis significans mentis affectum voce incondita</i>; <i>Ars minor</i>). An interjection is a word, unlike a groan, because it signifies by imposition.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the conjunction and the interjection (the Latin; the English in substance).`,
-  qpTodo: `Naming the part: in a given sentence, which part of speech is the marked word (an adverb, a preposition, a conjunction, an interjection), decided by Donatus’s definitions.` },
+  qp: { id: 'q-conjunction-interjection', variants: [
+    { prompt: `In “The ferry sailed late,” what part of speech is “late”?`,
+      options: [`A preposition`, `A conjunction`, `An adverb`, `An interjection`],
+      answer: 2,
+      explain: `“Late” is added to the verb “sailed” and completes its meaning by saying when. That is what Donatus says an adverb does.` },
+    { prompt: `In Latin <i>Fessus erat, sed labōrābat</i> (“He was tired, but he kept working”), what part of speech is <i>sed</i> (“but”)?`,
+      options: [`An adverb`, `A conjunction`, `A preposition`, `An interjection`],
+      answer: 1,
+      explain: `<i>Sed</i> joins two clauses and shows how they are related, here by contrast. Donatus defines the conjunction as a part of speech that joins and orders the thought.` },
+    { prompt: `In “Phew, the storm has passed,” what part of speech is “phew”?`,
+      options: [`An interjection`, `An adverb`, `A conjunction`, `A noun`],
+      answer: 0,
+      explain: `“Phew” expresses a feeling, relief, and it is thrown into the sentence without being constructed with the other words. That is Donatus’s interjection. It does not modify “has passed,” as an adverb would, and it joins nothing, as a conjunction would.` }
+  ]} },
 
 { id: 'greek-article',
   title: 'The Greek eight and the article',
@@ -91,7 +130,20 @@ ARS.decks['iii.parts'] = {
   body: `<p>English school grammars also usually count eight parts of speech, but not the same eight. The traditional English list is noun, pronoun, adjective, verb, adverb, preposition, conjunction, and interjection, and the articles are usually counted with the adjectives (some older grammars, such as Robert Lowth’s of 1762, count the article separately and so have nine parts). So the English list differs from Donatus’s in two ways. It counts the <strong>adjective</strong> as a part of its own, because English adjectives are not declined like nouns; and it does not count the <strong>participle</strong> as a part of its own, but treats it as a form of the verb.</p>
 <p>The lists differ because the languages differ and because the distinctions can be drawn more finely or less finely. The ways of signifying that the lists describe are largely the same. In this course we use Donatus’s eight, because they are the parts of the tradition, and we note the English practice where it differs.</p>`,
   src: `Standard English school grammars; Lowth, <i>A Short Introduction to English Grammar</i> (1762), in paraphrase.`,
-  qpTodo: `Donatus’s list and the English list: in which list is the adjective a separate part, in which the participle, and why.` },
+  qp: { id: 'q-english-eight', variants: [
+    { prompt: `Which part of speech does the traditional English list count separately, though Donatus counts it under the noun?`,
+      options: [`The participle`, `The adjective`, `The pronoun`, `The interjection`],
+      answer: 1,
+      explain: `Donatus counts the adjective as a kind of noun, because Latin adjectives are declined like nouns. English adjectives are not declined like nouns, so the English list counts the adjective as a part of its own.` },
+    { prompt: `Which part of speech does Donatus count separately, though the traditional English list treats it as a form of the verb?`,
+      options: [`The adverb`, `The adjective`, `The participle`, `The article`],
+      answer: 2,
+      explain: `Donatus counts the participle as a part of its own, because it takes part of the noun and part of the verb. The English list treats it as a form of the verb.` },
+    { prompt: `Why does the traditional English list count the adjective as a part of its own?`,
+      options: [`Because English adjectives are not declined like nouns`, `Because English has no nouns that signify a quality`, `Because Lowth counted the article separately and so had nine parts`, `Because English adjectives are a kind of verb`],
+      answer: 0,
+      explain: `Donatus counts the adjective under the noun because Latin adjectives are declined like nouns. English adjectives are not, so the English grammars give the adjective a place of its own. Lowth’s nine parts are a separate matter: he counted the article as well.` }
+  ]} },
 
 { id: 'declinable',
   title: 'Declinable and indeclinable parts',
