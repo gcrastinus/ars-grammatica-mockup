@@ -12,8 +12,8 @@ ARS.decks['v.phrase'] = {
 
 { id: 'what-phrase',
   title: 'What is a phrase?',
-  body: `<p>We saw that a preposition and its noun make a group that depends on another word as a whole. Such a group is called a <strong>phrase</strong>: a group of words that is used as a single part of speech and does not contain a subject and a finite verb of its own. A <strong>finite verb</strong> is a verb that has person and number and can make a statement with its subject, as “wept” or “is.” The infinitive (“to be”) and the participle (“walking”) are forms of the verb, but they are not finite, so a group built on them can still be a phrase.</p>
-<p>So in “The cottage by the river is old,” “by the river” is a phrase, because the three words together do the work of one adjective, telling which cottage. But “The cottage that stands by the river is old” contains a clause, “that stands by the river,” because it has a subject (“that”) and a finite verb (“stands”). The phrase is the larger unit of construction between the word and the clause.</p>`,
+  body: `<p>In “The cottage by the river is old,” the three words “by the river” together tell which cottage is meant, and so they do the work of one adjective. A preposition and its noun, as we noted earlier, make a group of this kind, which depends on another word as a whole. Such a group is called a <strong>phrase</strong>: a group of words that is used as a single part of speech and does not contain a subject and a finite verb of its own. A <strong>finite verb</strong> is a verb that has person and number and can make a statement with its subject, as “wept” or “is.” The infinitive (“to be”) and the participle (“walking”) are forms of the verb, but they are not finite, so a group built on them can still be a phrase.</p>
+<p>So “by the river” is a phrase. But “The cottage that stands by the river is old” contains a clause, “that stands by the river,” because it has a subject (“that”) and a finite verb (“stands”). The phrase is the larger unit of construction between the word and the clause.</p>`,
   src: `Reed and Kellogg, <i>Higher Lessons in English</i>, on phrases, in paraphrase.` },
 
 { id: 'form-function',
@@ -24,10 +24,10 @@ ARS.decks['v.phrase'] = {
 
 { id: 'prepositional',
   title: 'The prepositional phrase',
-  body: `<p>Among the commonest groups of words in English are groups such as “of mercy,” “in the state of Denmark,” and “for delight,” each made of a preposition followed by a noun. A <strong>prepositional phrase</strong> begins with a preposition and ends with its object, with any words that depend on the object: “of mercy,” “in the state of Denmark,” “for delight.” It is usually used as an adjective, telling which one or what kind, or as an adverb, telling when, where, how, or why.</p>
+  body: `<p>Among the commonest groups of words in English are groups such as “of mercy,” “in the state of Denmark,” and “for delight,” each made of a preposition followed by a noun. A <strong>prepositional phrase</strong> begins with a preposition and ends with its object, with any words that depend on the object. It is usually used as an adjective, telling which one or what kind, or as an adverb, telling when, where, how, or why.</p>
 <p>In Portia’s line “The quality of mercy is not strain’d” (Shakespeare, <i>The Merchant of Venice</i> IV.1), “of mercy” depends on “quality” and tells which quality, so it is used as an adjective. In “They arrived after the storm,” “after the storm” depends on “arrived” and tells when, so it is used as an adverb. Latin prepositional phrases are used in the same ways: <i>post tempestātem vēnērunt</i>, “they came after the storm.” But Latin also expresses many such relations by a case alone, without a preposition: <i>saxō</i>, “with a stone.”</p>`,
   src: `Shakespeare, <i>The Merchant of Venice</i> IV.1; Reed and Kellogg, <i>Higher Lessons in English</i>, in paraphrase.`,
-  qpTodo: `The prepositional phrase: in a given sentence, which word does the phrase depend on, and is it used as an adjective or as an adverb (“The quality of mercy,” “arrived after the storm”).` },
+  qpTodo: `The prepositional phrase: in a given sentence, which word does the phrase depend on, and is it used as an adjective or as an adverb (“The lamp on the desk is lit,” “They slept until noon”).` },
 
 { id: 'participial-gerund',
   title: 'Participial and gerund phrases',
@@ -37,10 +37,10 @@ ARS.decks['v.phrase'] = {
 
 { id: 'infinitive',
   title: 'The infinitive phrase',
-  body: `<p>Hamlet’s question “To be, or not to be” is made of two groups of words built on the infinitive with “to.” An <strong>infinitive phrase</strong> is built on an infinitive with “to” and the words that depend on it. It may be used as a noun, as an adjective, or as an adverb. In Hamlet’s “To be, or not to be, that is the question” (<i>Hamlet</i> III.1), the two infinitive phrases are used as nouns: they are what “that” refers to. In Bacon’s “some few to be chewed and digested” (<i>Essays</i>, “Of Studies”), the infinitive phrase is used as an adjective, describing the books. In “She came to see the king,” the phrase “to see the king” is used as an adverb, telling why she came.</p>
+  body: `<p>In Hamlet’s question “To be, or not to be, that is the question” (<i>Hamlet</i> III.1), “to be” and “not to be” are two groups of words built on the infinitive with “to,” and they are used as nouns: they are what “that” refers to. A group of this kind, an infinitive with “to” and the words that depend on it, is called an <strong>infinitive phrase</strong>, and it may be used as a noun, as an adjective, or as an adverb. In Bacon’s “some few to be chewed and digested” (<i>Essays</i>, “Of Studies”), the infinitive phrase is used as an adjective, describing the books. In “She came to see the king,” the phrase “to see the king” is used as an adverb, telling why she came.</p>
 <p>Latin uses the infinitive chiefly as a noun or to complete another verb, as we saw in Section III: <i>labōrāre necesse est</i>, “to work is necessary”; <i>nāre discit</i>, “he is learning to swim.” To express purpose, as in “She came to see the king,” Latin uses other constructions, such as a clause with <i>ut</i> or a phrase with the gerund, which we will meet with the clause.</p>`,
   src: `Shakespeare, <i>Hamlet</i> III.1; Bacon, <i>Essays</i>, “Of Studies”; Allen and Greenough, <i>New Latin Grammar</i> §§ 451–460.`,
-  qpTodo: `The infinitive phrase: in a given sentence, is the infinitive phrase used as a noun, an adjective, or an adverb (“To be, or not to be”; “books to be chewed”; “came to see the king”).` },
+  qpTodo: `The infinitive phrase: in a given sentence, is the infinitive phrase used as a noun, an adjective, or an adverb (“To forgive is hard”; “water to drink”; “They trained to win the match”).` },
 
 { id: 'appositive',
   title: 'The appositive phrase',
