@@ -9,6 +9,7 @@
    count     answer (number or string). accept or answers may add further answers.
              Trimmed. Case, curly quotes, and (when macrons is false) macrons are normalized.
              A whole number ignores leading zeros: "04" and 4 match.
+             A whole English number word from "zero" to "twenty" is read as its digits, so "one" and "One" match 1.
              Spaces inside the answer are kept, so "1 2" does not match 12.
    form      answer, or accept (string or list). answers is read when accept is absent.
              Same normalization as count. One trailing period is ignored. Any other final
@@ -409,7 +410,9 @@ function foldTransform(s, item){
   return t.replace(/\s+/g, ' ').trim();
 }
 function foldCount(s, item){
-  const t = foldBase(s, item);
+  let t = foldBase(s, item);
+  const words = { zero:'0', one:'1', two:'2', three:'3', four:'4', five:'5', six:'6', seven:'7', eight:'8', nine:'9', ten:'10', eleven:'11', twelve:'12', thirteen:'13', fourteen:'14', fifteen:'15', sixteen:'16', seventeen:'17', eighteen:'18', nineteen:'19', twenty:'20' };
+  if (words[t]) t = words[t];
   if (/^[0-9]+$/.test(t)) return String(parseInt(t, 10));
   return t;
 }
@@ -578,6 +581,8 @@ function renderTypedItem(host, it, done){
   input.setAttribute('aria-label', 'Answer');
   input.autocomplete = 'off';
   input.spellcheck = false;
+  const accepted = acceptedOf(it);
+  if (accepted.length && accepted.every(a => /^[0-9]+$/.test(a))) input.placeholder = 'Enter a number';
   const btn = makeCheck();
   row.appendChild(input);
   row.appendChild(btn);
