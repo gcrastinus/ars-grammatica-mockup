@@ -22,11 +22,18 @@ ARS.languages["lang.ii.la"] = {
    "desc": "Division, quantity, and accent, drawn fresh each time from 28 Latin words."
   },
 {
+   "id": "lang.ii.la/meter",
+   "kind": "study",
+   "built": true,
+   "title": "Latin Meter",
+   "desc": "The steps of scansion, applied to the hexameter, the elegiac couplet, the hendecasyllable, and the sapphic stanza."
+  },
+{
    "id": "lang.ii.la/meter-ex",
    "kind": "exercise",
    "built": true,
    "title": "Latin Meter",
-   "desc": "21 questions."
+   "desc": "35 questions in three sets: scansion, feet, elision, and the meters."
   }
 
  ]
