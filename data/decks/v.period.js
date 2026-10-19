@@ -15,7 +15,7 @@ ARS.decks['v.period'] = {
 { id: 'what-period',
   title: 'What is a period?',
   body: `<p>Some long sentences keep the hearer waiting for their main point until the end, and then complete it all at once. We saw in Section II that the Greek rhetoricians named the parts of a sentence the comma, the colon, and the period, and that the marks of punctuation took their names from these parts. The <strong>period</strong>, whose Greek name, as we have seen, means “a going round,” is a sentence of several members that comes round to completion. Aristotle defines it: “by period I mean a sentence that has a beginning and end in itself and a magnitude that can be easily grasped” (<i>Rhetoric</i> III.9.3).</p>
-<p>So a period is not merely a long sentence. It is a sentence whose parts are arranged so that the sense is held in suspense until the end and then completed, and whose length is such that the hearer can take it in as a whole. We have studied the clause and the joining of clauses; the period is the largest unit of construction that grammar studies, because it is still one sentence.</p>`,
+<p>So a period is not merely a long sentence. It is a sentence whose parts are arranged so that the sense is held in suspense until the end and then completed, and whose length is such that the hearer can take it in as a whole. We have studied the clause and how clauses are combined; the period is the largest unit of construction that grammar studies, because it is still one sentence.</p>`,
   src: `Aristotle, <i>Rhetoric</i> III.9.3 (trans. J. H. Freese, Loeb; checked against the Perseus text).` },
 
 { id: 'continuous-periodic',
