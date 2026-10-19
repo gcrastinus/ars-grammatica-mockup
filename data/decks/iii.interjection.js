@@ -21,7 +21,7 @@ ARS.decks['iii.interjection'] = {
   body: `<p>English interjections signify different kinds of feeling: joy (“hooray,” “bravo”), grief (“alas”), wonder (“wow”), pain (“ouch”), disgust (“ugh”), and surprise (“gosh”). Some interjections serve to call someone, as English “hey” and “hello” and Latin <i>heus</i> (“hey there”).</p>
 <p>Donatus gives the interjection one accident, <strong>signification</strong>: it signifies joy, as <i>euax</i> (“hurrah”); grief, as <i>heu</i> (“alas”); wonder, as <i>papae</i> (“wow”); or fear, as <i>attat</i> (“oh no!”); and any similar feeling (<i>Ars minor</i>). So the interjection, like the other indeclinable parts, has only the accident that concerns what kind of thing it signifies.</p>`,
   src: `Donatus, <i>Ars minor</i>, on the interjection, in paraphrase.`,
-  qpTodo: `The signification of the interjection: what feeling does a given interjection signify (<i>heu</i>, <i>euax</i>, <i>papae</i>; “ouch,” “hooray”), and why is an interjection a word and a groan not.` },
+  qpTodo: `The signification of the interjection: what feeling does a given interjection signify (<i>ēheu</i>, <i>ēia</i>; “oops,” “yuck”), and why is an interjection a word and a groan not.` },
 
 { id: 'languages',
   title: 'Interjections in different languages',
