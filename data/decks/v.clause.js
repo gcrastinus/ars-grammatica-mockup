@@ -1,5 +1,5 @@
 /* V.7 The Clause [v.clause]
-   Plan (ITEM-LIST.md): 10 panels, 5 question points, 2 of them short analysis questions (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 10 panels, 5 question points, 2 of them short analysis questions.
    Live material drawn on: DECKS.ensent (subject and predicate, the six patterns), DECKS.encl (clause, three works of a
    dependent clause, four kinds of sentence, a longer period), DECKS.clauses (kinds of clause, purpose and result, indirect
    speech), DECKS.endiag (the diagram). */
@@ -30,7 +30,20 @@ ARS.decks['v.clause'] = {
 <p>subject and verb: “Jesus wept” (John 11:35);<br>subject, verb, and direct object: “God created the heaven”;<br>subject, verb, indirect object, and direct object: “The messenger gave the king a letter”;<br>subject, linking verb, and predicate noun: “The mind is its own place” (Milton, <i>Paradise Lost</i> I.254);<br>subject, linking verb, and predicate adjective: “The night grew cold”;<br>subject, verb, direct object, and objective complement: “Histories make men wise” (Bacon, “Of Studies”).</p>
 <p>A <strong>linking verb</strong>, such as “be,” “seem,” or “become,” joins the subject to a word that renames or describes it, rather than carrying an action to an object. These patterns correspond to what we saw as the valency of the verb: each verb requires a certain number of words to complete it, and the patterns show what those words are.</p>`,
   src: `Reed and Kellogg, <i>Higher Lessons in English</i>; John 11:35 and Genesis 1:1 (King James Version); Milton, <i>Paradise Lost</i> I.254; Bacon, “Of Studies.”`,
-  qpTodo: `The patterns: which pattern does a given clause have (“The puppy slept,” “The soup is too salty,” “The jury found him guilty”), and what does each word after the verb do.` },
+  qp: { id: 'q-patterns', variants: [
+    { prompt: `Which pattern does the clause “The kitten slept” have?`,
+      options: [`Subject and verb`, `Subject, verb, and direct object`, `Subject, linking verb, and predicate adjective`, `Subject, verb, indirect object, and direct object`],
+      answer: 0,
+      explain: `“Slept” requires only a subject; nothing follows it to complete it. So the clause has the simplest pattern, subject and verb, as “Jesus wept” does.` },
+    { prompt: `In “The soup is too salty,” what does “salty” do?`,
+      options: [`It describes the subject after a linking verb`, `It is the direct object of “is”`, `It is an objective complement, describing an object`, `It is an adverb telling how`],
+      answer: 0,
+      explain: `“Is” is a linking verb: it carries no action to an object but joins the subject to a word that describes it. “Salty” is a predicate adjective describing “the soup.”` },
+    { prompt: `In “The jury found him guilty,” what is “guilty”?`,
+      options: [`A predicate adjective of “jury”`, `An indirect object`, `An objective complement`, `A direct object`],
+      answer: 2,
+      explain: `“Him” is the direct object of “found,” and “guilty” completes the object by saying what the jury found him to be. That is the pattern of subject, verb, direct object, and objective complement.` }
+  ]} },
 
 { id: 'noun-clauses',
   title: 'Noun clauses',
@@ -43,7 +56,20 @@ ARS.decks['v.clause'] = {
   body: `<p>In “the sailor who rescued us,” the clause “who rescued us” tells which sailor is meant, as an adjective does in “the brave sailor.” An <strong>adjective clause</strong>, also called a <strong>relative clause</strong>, depends on a noun and tells which one or what kind. It usually begins with a relative pronoun, “who,” “which,” or “that,” which refers to the noun. Milton writes, “They also serve who only stand and waite” (Sonnet XIX), where the clause “who only stand and waite” depends on “they” and tells which people serve.</p>
 <p>We saw that the Latin relative pronoun agrees with its antecedent in gender and number and takes its case from its own clause: <i>liber quem lēgī</i>, “the book that I read.” The relative clause therefore joins two constructions: the relative belongs by its gender and number to the main clause and by its case to the dependent clause.</p>`,
   src: `Milton, Sonnet XIX (1673 spelling); Johnson, <i>Rasselas</i>, ch. 11; Allen and Greenough, <i>New Latin Grammar</i> §§ 303–308.`,
-  qpTodo: `Adjective clauses: in a given sentence, mark the relative clause, give the noun it depends on, and say what case the relative would have in Latin and why.` },
+  qp: { id: 'q-adjective-clauses', variants: [
+    { prompt: `In “The farmer whose dog barked apologized,” on which noun does the relative clause depend?`,
+      options: [`“farmer”`, `“dog”`, `“barked”`, `“apologized”`],
+      answer: 0,
+      explain: `The clause “whose dog barked” tells which farmer apologized, so it depends on “farmer,” as an adjective would.` },
+    { prompt: `If “the ship that the storm sank” were put into Latin, what case would the relative pronoun have?`,
+      options: [`The nominative`, `The accusative`, `The dative`, `The genitive`],
+      answer: 1,
+      explain: `The relative takes its gender and number from “ship” but its case from its own clause, where it is the object of “sank.” So it would be accusative, although “ship” in the main clause may be in another case.` },
+    { prompt: `If “the friend to whom I lent the book” were put into Latin, what case would the relative pronoun have?`,
+      options: [`The nominative`, `The accusative`, `The ablative`, `The dative`],
+      answer: 3,
+      explain: `In its own clause the relative is the person to whom the book is lent, the indirect object of “lent,” so in Latin it would be dative, like <i>cui</i>.` }
+  ]} },
 
 { id: 'adverb-clauses',
   title: 'Adverb clauses',
@@ -51,7 +77,20 @@ ARS.decks['v.clause'] = {
 <p><strong>temporal</strong> clauses tell when: “after the guests had gone,” <i>postquam hospitēs discessērunt</i>;<br><strong>causal</strong> clauses tell why: “because the night was dark,” <i>quia nox obscūra erat</i>;<br><strong>conditional</strong> clauses tell under what condition: “if the king consents,” <i>sī rēx cōnsentit</i>;<br><strong>concessive</strong> clauses tell in spite of what: “although the road was long,” <i>quamquam via longa erat</i>;<br><strong>purpose</strong> clauses tell the end aimed at: “so that he might see,” <i>ut vidēret</i>;<br><strong>result</strong> clauses tell what followed: “so dark that no one saw,” <i>tam obscūra ut nēmō vidēret</i>.</p>
 <p>A condition and a concession differ in this way: a condition grants a case, and the main clause holds only in that case; a concession grants the case and holds that the main clause is true all the same.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 512–550, in paraphrase.`,
-  qpTodo: `Adverb clauses: what does a given adverb clause tell (time, cause, condition, concession, purpose, result), and which conjunction shows it.` },
+  qp: { id: 'q-adverb-clauses', variants: [
+    { prompt: `In “Although the hall was cold, the choir sang,” what does the clause “although the hall was cold” tell?`,
+      options: [`A concession`, `A cause`, `A condition`, `A time`],
+      answer: 0,
+      explain: `The clause grants that the hall was cold and holds that the choir sang all the same, so it is concessive, shown by “although.”` },
+    { prompt: `In “She spoke slowly so that the guests could hear,” what does the clause “so that the guests could hear” tell?`,
+      options: [`A result`, `A purpose`, `A time`, `A cause`],
+      answer: 1,
+      explain: `The clause states the end she aimed at in speaking slowly, so it is a purpose clause. A result clause would state what in fact followed, often after a word of degree such as “so … that.”` },
+    { prompt: `In “If the pond freezes, we will skate,” what kind of clause is “if the pond freezes,” and which word shows it?`,
+      options: [`A clause of time, shown by “will”`, `A clause of cause, shown by “we”`, `A condition, shown by “if”`, `A purpose, shown by “freezes”`],
+      answer: 2,
+      explain: `“If” introduces a condition: the skating holds only in the case that the pond freezes.` }
+  ]} },
 
 { id: 'latin-mood',
   title: 'How Latin marks the kinds of clause',
@@ -65,7 +104,20 @@ ARS.decks['v.clause'] = {
 <p>a <strong>simple</strong> sentence has one independent clause and no dependent clause: “Studies serve for delight, for ornament, and for ability” (Bacon, “Of Studies”), which is long but has only one finite verb;<br>a <strong>compound</strong> sentence has two or more independent clauses: “Cowards die many times before their deaths; / The valiant never taste of death but once” (Shakespeare, <i>Julius Caesar</i> II.2);<br>a <strong>complex</strong> sentence has one independent clause and at least one dependent clause: “When the sun rose, the birds began to sing”;<br>a <strong>compound-complex</strong> sentence has at least two independent clauses and at least one dependent clause: “The river rose, and the farmers who lived near it fled.”</p>
 <p>The joining of clauses of equal rank, side by side, is called <strong>parataxis</strong> (Greek, “placing beside”); the joining of a dependent clause to a main clause is called <strong>hypotaxis</strong> (Greek, “placing under”). Latin prose, especially Cicero’s, favors hypotaxis, and we will study its long sentences of many clauses as the period.</p>`,
   src: `Bacon, “Of Studies”; Shakespeare, <i>Julius Caesar</i> II.2; Reed and Kellogg, <i>Higher Lessons in English</i>, in paraphrase.`,
-  qpTodo: `Analysis: is a given sentence simple, compound, complex, or compound-complex; mark each clause and say whether it is independent or dependent.` },
+  qp: { id: 'q-kinds-of-sentence', variants: [
+    { prompt: `What kind of sentence is “The wind dropped, and the boats returned”?`,
+      options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
+      answer: 1,
+      explain: `It has two independent clauses joined by “and,” each able to stand alone, and no dependent clause, so it is compound.` },
+    { prompt: `What kind of sentence is “The boats returned after the wind dropped”?`,
+      options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
+      answer: 2,
+      explain: `“The boats returned” is independent, and “after the wind dropped” is a dependent clause with its own subject and verb, telling when. One independent and one dependent clause make a complex sentence.` },
+    { prompt: `What kind of sentence is “The boats with red sails returned to the harbor at dusk”?`,
+      options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
+      answer: 0,
+      explain: `It has one finite verb, “returned,” and so one clause; “with red sails,” “to the harbor,” and “at dusk” are phrases. A long sentence can still be simple.` }
+  ]} },
 
 { id: 'diagram',
   title: 'Clauses in a diagram',
@@ -78,7 +130,20 @@ ARS.decks['v.clause'] = {
   body: `<p>Johnson has Imlac say: “Human life is everywhere a state in which much is to be endured and little to be enjoyed” (<i>Rasselas</i>, ch. 11). The independent clause is “Human life is everywhere a state,” with the pattern of subject, linking verb, and predicate noun. The clause “in which much is to be endured and little to be enjoyed” depends on “state,” so it is an adjective clause. Within it, “and” joins “much is to be endured” to “little to be enjoyed,” where “is” is understood.</p>
 <p>The whole sentence is complex, not compound, because it has only one independent clause. This is the kind of analysis that every sentence admits: we find the independent clause and its pattern, then each dependent clause and the word on which it depends, then the phrases and single words that depend within each clause.</p>`,
   src: `Johnson, <i>Rasselas</i>, ch. 11.`,
-  qpTodo: `Analysis: in a given sentence, find the independent clause and its pattern, and each dependent clause with the word on which it depends.` }
+  qp: { id: 'q-johnson', variants: [
+    { prompt: `In “The house where I was born still stands,” what is the independent clause?`,
+      options: [`“The house … still stands”`, `“where I was born”`, `“I was born,” with its own subject and verb`, `There is none`],
+      answer: 0,
+      explain: `“The house still stands” can stand alone; “where I was born” depends on “house” and tells which house.` },
+    { prompt: `In “The road that leads to the coast is narrow,” on which word does the dependent clause depend?`,
+      options: [`“road”`, `“leads”`, `“coast”`, `“narrow”`],
+      answer: 0,
+      explain: `“That leads to the coast” tells which road, so it is an adjective clause depending on “road.”` },
+    { prompt: `In “Life is a journey that no one finishes alone,” what is the pattern of the independent clause?`,
+      options: [`Subject and verb`, `Subject, verb, and direct object`, `Subject, linking verb, and predicate noun`, `Subject, verb, indirect object, and direct object`],
+      answer: 2,
+      explain: `“Life is a journey” joins the subject to a noun that renames it by the linking verb “is,” as Johnson’s “Human life is everywhere a state” does. “That no one finishes alone” depends on “journey.”` }
+  ]} }
 
   ]
 };
