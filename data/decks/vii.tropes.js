@@ -53,7 +53,7 @@ ARS.decks['vii.tropes'] = {
   body: `<p>English often uses “the crown” for the king, “the White House” for the president’s office, “I am reading Shakespeare” for his plays, and “the kettle is boiling” for the water in it. In each the word keeps its proper signification, but it is used of something related to what it signifies, and the hearer supplies the relation. The use of one name for another that is associated with it, not by likeness but by some other relation, is called <strong>metonymy</strong> (Greek, “change of name”).</p>
 <p>Quintilian says it consists “in the substitution of one name for another,” and lists its kinds: the inventor for the invention, as Ceres for grain and Vulcan for fire; the possessor for the possession; the container for the contained; the author for his work, as when “we … speak of Virgil when we mean Virgil’s poems”; and the cause for the effect, as Horace’s “Pale death” (<i>Institutio oratoria</i> VIII.6.23–27).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.23–27 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Metonymy: in a given sentence (“the crown,” “reading Shakespeare,” “the kettle is boiling”), what does the word properly signify, what is it used for, and what relation joins them.` },
+  qpTodo: `Metonymy: in a given sentence (“Downing Street announced,” “She drank the whole bottle,” “The pen is mightier than the sword”), what does the word properly signify, what is it used for, and what relation joins them.` },
 
 { id: 'antonomasia',
   title: 'Antonomasia',
