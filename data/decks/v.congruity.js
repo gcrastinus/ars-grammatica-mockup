@@ -1,5 +1,5 @@
 /* V.1 Congruity [v.congruity]
-   Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions.
    Live material drawn on: DECKS.oratio (the arrangement of words, Priscian's definition, suppositum and appositum, the four
    causes, grammar's subject and logic's), DECKS.cong (two conditions, why the verb completes, three judgments),
    DECKS.congtruth (congruity and truth, the four cases). */
@@ -23,7 +23,20 @@ ARS.decks['v.congruity'] = {
   body: `<p>A group of words can fail to be a sentence in two ways. In “the tired guard” the words fit together, but nothing is said about the guard, so the sense is not complete. In “The guards sleeps” something is said, but the verb does not fit its subject. Only “The guard sleeps” meets both conditions: its words fit together, and its sense is complete. So a sentence requires a fitting arrangement of words and a complete sense.</p>
 <p>Priscian, whose last two books on construction were the textbook of syntax for the grammarians of the Middle Ages, defines the sentence by these two conditions: a sentence is “a fitting arrangement of words, showing a complete sense” (<i>oratio est ordinatio dictionum congrua, sententiam perfectam demonstrans</i>; <i>Institutiones grammaticae</i> II.15). The arrangement must be fitting (<i>congrua</i>), and the sense must be complete (<i>perfecta</i>). Priscian also reports that the dialecticians counted only two parts of the sentence, the noun and the verb, because these alone, joined to each other, make a complete sentence (II.15); we saw in Section III that the logicians counted them as the principal parts for this reason.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> II.15 and XVII (the Latin definition; the English in substance).`,
-  qpTodo: `Priscian’s two conditions: given a group of words (“the tall sailor,” “The sailors waits,” “The sailor waits”), which condition does it meet (fitting arrangement, complete sense), and which does it fail.` },
+  qp: { id: 'q-priscian', variants: [
+    { prompt: `Which of Priscian’s two conditions does “the tall gardener” fail?`,
+      options: [`A fitting arrangement of words`, `A complete sense`, `Both conditions`, `Neither condition`],
+      answer: 1,
+      explain: `The adjective fits its noun, so the arrangement is fitting; but nothing is said about the gardener, so the sense is not complete.` },
+    { prompt: `Which of Priscian’s two conditions does “The gardeners digs” fail?`,
+      options: [`A complete sense`, `Both conditions`, `A fitting arrangement`, `Neither, because it says something`],
+      answer: 2,
+      explain: `Something is said about the gardeners, but the plural subject does not fit the singular verb, so the arrangement is not fitting.` },
+    { prompt: `Does “The gardener digs” meet both of Priscian’s conditions?`,
+      options: [`Only a fitting arrangement`, `Only a complete sense`, `Neither condition`, `Yes, both`],
+      answer: 3,
+      explain: `The subject and verb fit, and something is said about the gardener, so the words are a fitting arrangement showing a complete sense: a sentence.` }
+  ]} },
 
 { id: 'congruity',
   title: 'Congruity',
@@ -36,7 +49,20 @@ ARS.decks['v.congruity'] = {
   body: `<p>When someone says “the old bridge” and stops, the hearer waits for something more; when someone says “The old bridge stands,” the hearer has been told something and waits for nothing. A construction is <strong>complete</strong> when it produces a complete sense in the mind of the hearer in this way. So “the old bridge” is congruous but incomplete, whereas “The old bridge stands” is congruous and complete. Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so (<i>Grammatica speculativa</i>, on completeness).</p>
 <p>A construction can have a subject and a verb and still be incomplete. “If the guard sleeps” is congruous, but the word “if” leaves the sense unfinished, because the hearer expects something to follow. Latin <i>sī custōs dormit</i> is incomplete for the same reason. So a dependent clause can be well formed and still not be complete by itself, a point we will consider again with the clause, later in this section of the course.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on completeness (Bursill-Hall), in paraphrase.`,
-  qpTodo: `Completeness: is a given construction complete (“the white horse,” “The white horse runs,” “If the sailor waits”), and what does it lack if it is not.` },
+  qp: { id: 'q-completeness', variants: [
+    { prompt: `Is “the white horse” complete?`,
+      options: [`No; nothing is said of it`, `Yes; it names a thing`, `No; its words do not fit`, `Yes; it has a noun`],
+      answer: 0,
+      explain: `The words fit, so the construction is congruous, but the hearer waits for something to be said about the horse. Completeness requires at least a subject joined to a verb.` },
+    { prompt: `What does “If the white horse runs” lack?`,
+      options: [`A verb`, `A main clause`, `A subject`, `Agreement of subject and verb`],
+      answer: 1,
+      explain: `It has a subject and a verb that agree, but “if” leaves the sense unfinished, so the hearer expects a main clause to complete it.` },
+    { prompt: `Which of these is complete?`,
+      options: [`“the white horse”`, `“If the white horse runs”`, `“The white horse runs”`, `“when the white horse runs”`],
+      answer: 2,
+      explain: `Only “The white horse runs” joins a subject and a verb without a word such as “if” or “when” that leaves the sense waiting for more.` }
+  ]} },
 
 { id: 'three-judgments',
   title: 'Three judgments of a construction',
@@ -44,14 +70,40 @@ ARS.decks['v.congruity'] = {
 <p><strong>Incongruous</strong>: the parts do not fit with one another, so the construction fails: “The children plays,” <i>līberī lūdit</i>.<br><strong>Congruous but incomplete</strong>: the parts fit, but the sense is not yet complete: “the narrow gate,” “if the children play.”<br><strong>Congruous and complete</strong>: the parts fit, and the sense is complete: “The children play,” <i>līberī lūdunt</i>.</p>
 <p>Incongruity is a failure of fit, and incompleteness is a failure to finish; they are two different ways in which a group of words can fall short of a sentence. In Section VI we will see that an incongruous construction is a solecism, an error in the arrangement of words, whereas an incomplete construction is not an error at all if it is used as a part of a larger sentence.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase.`,
-  qpTodo: `Analysis: given a short sentence or group of words, judge it incongruous, congruous but incomplete, or congruous and complete, and say why.` },
+  qp: { id: 'q-three-judgments', variants: [
+    { prompt: `How should “The torches flickers” be judged?`,
+      options: [`Incongruous`, `Congruous but incomplete`, `Congruous and complete`, `Congruous but false`],
+      answer: 0,
+      explain: `The plural subject does not fit the singular verb, so the parts do not fit with one another and the construction fails.` },
+    { prompt: `How should “the bright torch” be judged?`,
+      options: [`Incongruous`, `Congruous but incomplete`, `Congruous and complete`, `Incongruous but complete`],
+      answer: 1,
+      explain: `The adjective fits its noun, but nothing is said of the torch, so the group is congruous but incomplete.` },
+    { prompt: `How should “The torch flickers” be judged?`,
+      options: [`Incongruous`, `Congruous but incomplete`, `Congruous and complete`, `Complete but incongruous`],
+      answer: 2,
+      explain: `Subject and verb fit, and the sense is finished, so the construction is congruous and complete.` }
+  ]} },
 
 { id: 'truth',
   title: 'Congruity and truth',
   body: `<p>Every sentence raises two questions: is it well formed, and is what it says true? Grammar answers the first, and logic the second. “The chimaera runs” is a congruous and complete sentence, although no chimaera runs anywhere. We saw in Section III that “chimaera” signifies by the mode of a stable thing, and so it can be the subject of “runs” whether or not anything answers to it.</p>
 <p>So a sentence can be congruous and true (“The sun rises”), congruous and false (“The sun is square”), or incongruous, as “The sun rise,” and then it is not yet fit to be true or false, though a hearer may guess what it was meant to say. We saw in the Preliminary section, with Walshe’s examples, that grammar judges “man is stone” correct and logic judges it false. Congruity is the condition of truth or falsity, but it does not decide which.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Aristotle, <i>De interpretatione</i> 4; both in paraphrase.`,
-  qpTodo: `Congruity and truth: is a given sentence congruous, and if so, is it true or false (“The river freezes,” “The river is triangular,” “The river freeze”); which question belongs to grammar and which to logic.` },
+  qp: { id: 'q-truth', variants: [
+    { prompt: `How do grammar and logic judge “The river is triangular”?`,
+      options: [`Correct in grammar; false in logic`, `Incongruous in grammar; false in logic`, `Correct in grammar; true in logic`, `Incongruous in both`],
+      answer: 0,
+      explain: `The sentence is congruous and complete, which is all that grammar asks; whether it is true is a question for logic, and it is false.` },
+    { prompt: `Is “The river freeze” fit to be true or false?`,
+      options: [`Yes, and it is true`, `No, because it is incongruous`, `Yes, and it is false`, `Yes, because the sense can be guessed`],
+      answer: 1,
+      explain: `Congruity is the condition of truth or falsity. “The river freeze” is incongruous, so it is not yet fit to be true or false, though a hearer may guess what it was meant to say.` },
+    { prompt: `Which question about “The river freezes” belongs to logic?`,
+      options: [`Is it congruous?`, `Is it complete?`, `Does the verb agree with its subject?`, `Is it true?`],
+      answer: 3,
+      explain: `Grammar asks whether the sentence is congruous and complete; logic asks whether what it says is true.` }
+  ]} },
 
 { id: 'suppositum',
   title: 'What the sentence is about, and what is said of it',
@@ -72,7 +124,20 @@ ARS.decks['v.congruity'] = {
   body: `<p>Logic also speaks of subject and predicate, but in a related and different sense. In logic the subject and predicate are the terms of a statement considered as true or false, joined by the copula “is”: in “Every man is mortal,” the subject term is “man” and the predicate term is “mortal.” In grammar the subject is “every man” and the predicate is “is mortal,” and grammar asks only whether they are correctly arranged and complete.</p>
 <p>So “Rivers flow uphill” is as good a sentence as “Two and two make four,” since each has a subject and a predicate correctly joined; only logic asks which is true. We will return to the relation between grammatical and logical forms in Section VIII. The relations by which the words of a sentence are joined (agreement, government, and dependence), the order of words, and the larger units of the phrase, the clause, and the period are the remaining subjects of this section of the course.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 5; Peter of Spain, <i>Tractatus</i> I; both in paraphrase.`,
-  qpTodo: `Analysis: in a given sentence (English or Latin), mark the grammatical subject and predicate, and say whether the sentence is congruous and complete.` }
+  qp: { id: 'q-grammar-logic', variants: [
+    { prompt: `In Latin <i>rēgīna sapiēns rēgnum regit</i> (“the wise queen rules the kingdom”), what is the grammatical subject?`,
+      options: [`<i>rēgīna sapiēns</i>`, `<i>rēgnum regit</i>`, `<i>rēgīna</i> alone`, `<i>sapiēns rēgnum</i>`],
+      answer: 0,
+      explain: `Grammar takes the subject as the noun with the words that depend on it, <i>rēgīna sapiēns</i>; the predicate is <i>rēgnum regit</i>.` },
+    { prompt: `In “Every raven is black,” what is the grammatical predicate, and what is the logical predicate term?`,
+      options: [`“black,” and “is black”`, `“every raven,” and “raven”`, `“is black,” and “black”`, `“is,” and “black”`],
+      answer: 2,
+      explain: `Grammar takes the predicate as the verb with what depends on it, “is black”; logic takes the terms joined by the copula, so the predicate term is “black.”` },
+    { prompt: `Is “The patient potter shapes the clay” congruous and complete?`,
+      options: [`Congruous but incomplete`, `Incongruous`, `Complete but incongruous`, `Congruous and complete`],
+      answer: 3,
+      explain: `The subject “the patient potter” and the predicate “shapes the clay” fit, and the sense is finished, so the sentence is congruous and complete.` }
+  ]} }
 
   ]
 };
