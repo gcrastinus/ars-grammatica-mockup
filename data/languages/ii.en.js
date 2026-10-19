@@ -10,9 +10,9 @@ ARS.languages["lang.ii.en"] = {
 {
    "id": "lang.ii.en/spelling",
    "kind": "study",
-   "built": false,
+   "built": true,
    "title": "English Spelling",
-   "desc": "The patterns of English spelling and the history behind them."
+   "desc": "Why whole classes of English words are spelled as they are."
   },
 {
    "id": "lang.ii.en/syllable",
