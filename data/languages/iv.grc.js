@@ -5,14 +5,21 @@ ARS.languages["lang.iv.grc"] = {
  "bar": "iv",
  "code": "grc",
  "section": "iv",
- "more": true,
+ "more": false,
  "items": [
 {
    "id": "lang.iv.grc/formation",
    "kind": "study",
    "built": true,
-   "title": "Word Formation",
-   "desc": "The Greek card on word formation."
+   "title": "Word Formation in Greek",
+   "desc": "Suffixes, the privative prefix, compounds, and the augment of a compound."
+  },
+{
+   "id": "lang.iv.grc/formation-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Word Formation in Greek",
+   "desc": "24 questions."
   }
 
  ]

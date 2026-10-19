@@ -33,7 +33,7 @@ ARS.languages["lang.ii.grc"] = {
    "kind": "exercise",
    "built": true,
    "title": "Greek Meter",
-   "desc": "5 questions."
+   "desc": "21 questions."
   },
 {
    "id": "lang.ii.grc/hexameter",

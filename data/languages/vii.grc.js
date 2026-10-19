@@ -5,6 +5,22 @@ ARS.languages["lang.vii.grc"] = {
  "bar": "vii",
  "code": "grc",
  "section": "vii",
- "more": true,
- "items": []
+ "more": false,
+ "items": [
+{
+   "id": "lang.vii.grc/figures",
+   "kind": "study",
+   "built": true,
+   "title": "Figures in Homer and Plato",
+   "desc": "Simile and metaphor in the Iliad, and two comparisons in the Republic."
+  },
+{
+   "id": "lang.vii.grc/figures-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Figures in Homer and Plato",
+   "desc": "21 questions."
+  }
+
+ ]
 };

@@ -61,7 +61,7 @@ ARS.languages["lang.iii-decl.grc"] = {
    "kind": "exercise",
    "built": true,
    "title": "Questions on the Article and the Participle",
-   "desc": "8 questions."
+   "desc": "20 questions."
   }
 
  ]
