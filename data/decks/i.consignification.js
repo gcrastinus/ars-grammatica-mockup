@@ -175,8 +175,8 @@ ARS.decks['i.consignification'] = {
 <p>Since these terms without definite signification are crucial to much expression, how words like these signify must be considered next.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 1, 16a13–18 (Edghill).`,
   qp: { id: 'q-not-true', variants: [
-    { prompt: `Is the word “dragon,” by itself, true or false?`,
-      options: [`False, because there are no dragons`, `True, because the word signifies something`, `Neither; a word signifies, but it says nothing of anything`, `False, because it is not a real word`],
+    { prompt: `Is the word “griffin,” by itself, true or false?`,
+      options: [`False, because there are no griffins`, `True, because the word signifies something`, `Neither; a word signifies, but it says nothing of anything`, `False, because it is not a real word`],
       answer: 2,
       explain: `A word signifies, but it is not true or false until something is said of something. Aristotle says of “goat-stag”: “It has significance, but there is no truth or falsity about it, unless ‘is’ or ‘is not’ is added” (<i>De interpretatione</i> 1).` },
     { prompt: `What must be added to the word “mermaid” for something true or false to be said?`,
