@@ -183,8 +183,7 @@
       const b = boxes[id];
       if (!b || b.dueAt == null || b.dueAt > Date.now()) return;
       if (!range.has(b.section)) return;
-      const deck = store.decks && store.decks[b.deck];
-      if (!deck || !deck.done) return;
+      if (!reviewSourceDone(b.deck)) return;
       n += 1;
     });
     return n;
@@ -266,6 +265,19 @@
     if (typeof root.renderReviewNotice === 'function') root.renderReviewNotice();
   };
 
+  /* A general item waits until its study deck is finished. A language item waits until
+     that language deck or that language exercise has been finished. */
+  function reviewSourceDone(deckId){
+    const store = courseStore();
+    const deck = store.decks && store.decks[deckId];
+    if (deck && deck.done) return true;
+    if (deckId && String(deckId).indexOf('lang.') === 0){
+      const ex = store.ex && store.ex[deckId];
+      if (ex && ex.done) return true;
+    }
+    return false;
+  }
+
   function rangeSections(sectionId){
     const out = [];
     for (const sec of ARS.structure || []){
@@ -324,6 +336,62 @@
           const meta = done[it.deck];
           pool.push(copyItem(it, meta));
         });
+      });
+      return collectLanguagePool(secs, pool, seen);
+    });
+  }
+
+  /* Language-screen items join the cumulative review only after the student has finished them. */
+  function collectLanguagePool(secs, pool, seen){
+    const store = courseStore();
+    const ids = new Set(secs.map(s => s.id));
+    const screens = Object.keys(ARS.languages || {}).map(k => ARS.languages[k]).filter(sc => sc && ids.has(sc.section));
+    const orderOf = {};
+    (ARS.structure || []).forEach((sec, i) => { orderOf[sec.id] = i; });
+    const loads = [];
+    screens.forEach(sc => {
+      (sc.items || []).forEach(it => {
+        if (!it || !it.built) return;
+        if ((it.kind === 'study' || it.kind === 'study-ex')){
+          const st = store.decks && store.decks[it.id];
+          if (st && st.done) loads.push(loadDeck(it.id).then(deck => ({ kind:'deck', it:it, sc:sc, deck:deck, st:st })).catch(() => null));
+        }
+        if (it.kind === 'exercise'){
+          const st = store.ex && store.ex[it.id];
+          if (st && st.done) loads.push(loadEx(it.id).then(ex => ({ kind:'ex', it:it, sc:sc, ex:ex, st:st })).catch(() => null));
+        }
+      });
+    });
+    if (!loads.length) return pool;
+    return Promise.all(loads).then(rows => {
+      rows.forEach(row => {
+        if (!row) return;
+        const order = orderOf[row.sc.section] || 0;
+        if (row.kind === 'deck' && row.deck){
+          (row.deck.panels || []).forEach((p, pi) => {
+            if (!p.qp || !p.qp.variants) return;
+            p.qp.variants.forEach((v, vi) => {
+              if (!v || !v.prompt || !Array.isArray(v.options) || typeof v.answer !== 'number') return;
+              const id = row.deck.id + ':' + (p.qp.id || ('p' + pi)) + ':' + vi;
+              if (seen.has(id)) return;
+              seen.add(id);
+              pool.push({
+                id:id, deck:row.deck.id, section:row.sc.section, sectionOrder:order,
+                doneAt:row.st.doneAt || 0, type:'mc', prompt:v.prompt, options:v.options,
+                answer:v.answer, explain:v.explain || ''
+              });
+            });
+          });
+        }
+        if (row.kind === 'ex' && row.ex && Array.isArray(row.ex.items) && row.ex.status !== 'plan'){
+          row.ex.items.forEach(it => {
+            if (!itemPlayable(it) || seen.has(it.id)) return;
+            seen.add(it.id);
+            pool.push(copyItem(it, {
+              section:row.sc.section, sectionOrder:order, doneAt:row.st.doneAt || 0
+            }));
+          });
+        }
       });
       return pool;
     });

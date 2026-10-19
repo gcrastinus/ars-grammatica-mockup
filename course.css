@@ -344,6 +344,64 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .cumul-bar:hover{border-color:var(--gold-soft)}
 .cumul-h{font-family:'Cinzel',serif; font-size:18px; font-weight:600; letter-spacing:.04em}
 .cumul-range{font-style:italic; color:var(--ink-soft); font-size:16.5px; line-height:1.35}
+/* The particular-languages bar: the same frame and height as Cumulative Review. */
+.lang-bar{
+  grid-column:1 / -1; width:100%; min-height:102px; box-sizing:border-box;
+  display:flex; flex-direction:column; justify-content:center; align-items:stretch; gap:8px;
+  text-align:left; color:var(--ink); background:var(--card);
+  border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
+  padding:10px 22px;
+}
+.lang-bar:hover{border-color:var(--line)}
+.lang-btns{display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:8px}
+.lang-btn{
+  position:relative; font-family:'Cinzel',serif; font-size:14px; font-weight:600; letter-spacing:.04em;
+  color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:8px;
+  padding:6px 8px; cursor:pointer; line-height:1.2;
+}
+.lang-btn:hover{border-color:var(--gold-soft)}
+.lang-mark{
+  position:absolute; top:2px; right:5px; font-size:10px; font-family:'EB Garamond',serif; line-height:1;
+}
+.lang-btn.is-begun .lang-mark{color:var(--gold)}
+.lang-btn.is-done .lang-mark{color:var(--good-text)}
+/* A language screen is a side room: the band is that language's color. */
+.lang-band{
+  border-radius:14px; padding:16px 22px; margin:8px 0 10px; color:#f6f0e1;
+}
+.lang-band h2{
+  font-family:'Cinzel',serif; font-size:26px; font-weight:600; letter-spacing:.03em; margin:0; color:#f6f0e1;
+}
+.lang-native{font-family:'EB Garamond',serif; font-style:italic; font-size:20px; margin-bottom:2px}
+.lang-group{font-style:italic; font-size:16.5px; margin-top:4px; opacity:.9}
+.lang-note, .lang-more{
+  text-align:center; font-style:italic; color:var(--ink-soft); font-size:16px; margin:4px 0 14px;
+}
+.lang-more[hidden]{display:none}
+.lang-en{background:#3e5c49}
+.lang-la{background:#7b2d26}
+.lang-grc{background:#1e3a5f}
+.lang-fr{background:#6b4e2e}
+.lang-de{background:#3a4550}
+body.dark .lang-en{background:#2c4a3a}
+body.dark .lang-la{background:#8a3a32}
+body.dark .lang-grc{background:#2a5080}
+body.dark .lang-fr{background:#7a5a36}
+body.dark .lang-de{background:#4a5560}
+.panel table.para{border-collapse:collapse; width:100%; margin:8px 0 14px; font-size:16.5px}
+.panel table.para th, .panel table.para td{
+  border:1px solid var(--line); padding:4px 8px; text-align:left; vertical-align:top;
+}
+.panel table.para th{font-family:'Cinzel',serif; font-size:12px; font-weight:600; letter-spacing:.04em}
+.panel table.para td.f{font-style:italic}
+@media (max-width:600px){
+  .lang-bar{padding:8px 10px; gap:4px}
+  .lang-bar .cumul-h{font-size:14.5px; letter-spacing:.03em; line-height:1.15}
+  .lang-btn{font-size:11px; letter-spacing:.01em; padding:5px 1px; line-height:1.1}
+  .lang-band{padding:14px 14px}
+  .lang-band h2{font-size:22px}
+  .panel table.para{font-size:14.5px}
+}
 /* A section review uses the same full-width bar as Cumulative Review, and stays in its place in the grid. */
 .set-card.review-bar{
   grid-column:1 / -1; width:100%; min-height:102px; box-sizing:border-box;

@@ -4,7 +4,9 @@
          'review' (a section review).
    built: true when the deck's data file exists in data/decks/<id>.js.
    An exercise or a review is built when its questions open in the player.
-   layers: reserved for optional child layers (for example 'iii.noun-2/la', “The Noun in Latin”); none are built yet. */
+   langBars: the particular-languages bar for this section (LANGUAGES-LAYER-SPEC.md). after:'cumul' places it
+   under the Cumulative Review bar; after an item id places it directly under that item. The screens are
+   lang.<bar>.<code> (data/languages/). */
 window.ARS = window.ARS || {};
 ARS.structure = [
  { id:'prelim', roman:'', latin:'Quid sit grammatica', name:'What Is Grammar?',
@@ -36,6 +38,9 @@ ARS.structure = [
    { id:'ii.punctuation', kind:'study', built:true, title:'Punctuation (<i>posituræ</i>)', desc:'The old marks of pause beside the modern ones.' },
    { id:'ii.meter', kind:'study', built:true, title:'Feet and Meter', desc:'Feet and verse in English and Latin, with Greek, German, or French where they show something distinctive.' },
    { id:'ii.review', kind:'review', title:'Section Review: The Matter of Speech', desc:'Forty-five questions on II.1 to II.6, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'ii', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'iii', roman:'III', latin:'De partibus orationis', name:'The Parts of Speech',
    gloss:'The eight parts of speech, the reasons for them, and their accidents.',
@@ -58,6 +63,10 @@ ARS.structure = [
    { id:'iii.conjunction', kind:'study', built:true, title:'The Conjunction', desc:'The conjunction and its accidents: power, figure, and order.' },
    { id:'iii.interjection', kind:'study', built:true, title:'The Interjection', desc:'The part of speech that signifies a feeling of the mind.' },
    { id:'iii.review-indeclinable', kind:'review', title:'Section Review: The Indeclinable Parts', desc:'Forty-five questions on III.11 to III.14, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'iii-decl', after:'iii.review-declinable', heading:'The grammars of the particular languages' },
+   { id:'iii-indecl', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'iv', roman:'IV', latin:'De etymologia', name:'Word Formation and Etymology',
    gloss:'How words are derived and compounded, and what can be known of their origins.',
@@ -66,6 +75,9 @@ ARS.structure = [
    { id:'iv.composition', kind:'study', built:true, title:'Composition', desc:'How are words joined to make compounds in English and Latin?' },
    { id:'iv.etymology', kind:'study', built:true, title:'Etymology', desc:'The origin of words, ancient and comparative, and the cautions it requires.' },
    { id:'iv.review', kind:'review', title:'Section Review: Word Formation and Etymology', desc:'Thirty questions on IV.1 to IV.3, in three fixed sets of ten.' }
+ ],
+ langBars:[
+   { id:'iv', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'v', roman:'V', latin:'De constructione', name:'Construction',
    gloss:'Congruity, agreement, government, dependence, and order, from the phrase to the period.',
@@ -81,6 +93,9 @@ ARS.structure = [
    { id:'v.mood', kind:'study', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.' },
    { id:'v.figures', kind:'study', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },
    { id:'v.review', kind:'review', title:'Section Review: Construction', desc:'Forty-five questions on V.1 to V.10, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'v', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'vi', roman:'VI', latin:'De vitiis', name:'Correctness and Errors',
    gloss:'Usage and authority as the standard of correctness, and the errors that depart from it.',
@@ -90,6 +105,9 @@ ARS.structure = [
    { id:'vi.solecism', kind:'study', built:true, title:'Solecism', desc:'An error in the arrangement of words.' },
    { id:'vi.metaplasm', kind:'study', built:true, title:'Metaplasm', desc:'A change in a word permitted for meter or ornament.' },
    { id:'vi.review', kind:'review', title:'Section Review: Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'vi', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'vii', roman:'VII', latin:'De schematibus et tropis', name:'Figures and Tropes',
    gloss:'The literal and the figurative sense, the figures of words, and the tropes.',
@@ -98,6 +116,9 @@ ARS.structure = [
    { id:'vii.schemata', kind:'study-ex', built:true, title:'Figures of Words (<i>schemata lexeos</i>)', desc:'Repetition, omission, and arrangement used for effect.' },
    { id:'vii.tropes', kind:'study-ex', built:true, title:'Tropes', desc:'Metaphor, metonymy, synecdoche, and the other changes of meaning.' },
    { id:'vii.review', kind:'review', title:'Section Review: Figures', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'vii', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'viii', roman:'VIII', latin:'De significatione et suppositione', name:'Signification and Supposition',
    gloss:'What a term stands for in a proposition, and how the forms of logic appear in grammar.',
@@ -113,6 +134,9 @@ ARS.structure = [
    { id:'ix.passages', kind:'exercise', built:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
    { id:'ix.marking', kind:'exercise', built:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
    { id:'ix.review', kind:'review', title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
+ ],
+ langBars:[
+   { id:'ix', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'x', roman:'X', latin:'De compositione', name:'Making',
    gloss:'From reading to writing.',
@@ -122,6 +146,9 @@ ARS.structure = [
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
    { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
    { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'x', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
    gloss:'The other classical grammars, and the modern study of universal grammar.',

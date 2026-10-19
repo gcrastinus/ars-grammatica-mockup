@@ -1,7 +1,7 @@
 'use strict';
 /* Ars Grammatica: the working course page.
    The order of the course is in data/structure.js; each built deck is a separate file, data/decks/<id>.js.
-   Progress is stored locally under each stable id, so later language layers (id/layer) can be added beside it.
+   Progress is stored locally under each stable id. A language-screen item uses lang.<bar>.<code>/<slug> (LANGUAGES-LAYER-SPEC.md).
 
    Typed-answer fields drawn by runEx (EXERCISES-PLAN.md, "Data fields of the renderers").
    Common fields: id, set, type, prompt, explain. Optional why: { prompt, model }.
@@ -48,7 +48,63 @@ function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch
 function courseStore(){ return store; }
 const $ = id => document.getElementById(id);
 const FORMS = ['A', 'B', 'C'];
-const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review' };
+const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review', 'models':'Models' };
+/* Particular languages (LANGUAGES-LAYER-SPEC.md). Button order is fixed. */
+const LANGS = [
+  { code:'en', name:'English' },
+  { code:'la', name:'Latin' },
+  { code:'grc', name:'Greek', native:'Ἑλληνική' },
+  { code:'fr', name:'French' },
+  { code:'de', name:'German' }
+];
+const LANG_BARS = {
+  'ii': { section:'ii', title:'The Matter of Speech' },
+  'iii-decl': { section:'iii', title:'The Parts of Speech', group:'The declinable parts' },
+  'iii-indecl': { section:'iii', title:'The Parts of Speech', group:'The indeclinable parts' },
+  'iv': { section:'iv', title:'Word Formation and Etymology' },
+  'v': { section:'v', title:'Construction' },
+  'vi': { section:'vi', title:'Correctness and Errors' },
+  'vii': { section:'vii', title:'Figures and Tropes' },
+  'ix': { section:'ix', title:'Analysis of Sentences and Passages' },
+  'x': { section:'x', title:'Making' }
+};
+let screenReturn = null;   // language screen to reopen when a deck or exercise on it is closed
+function langId(bar, code){ return 'lang.' + bar + '.' + code; }
+function langScreenOf(id){
+  const m = String(id || '').match(/^(lang\.[^/]+)/);
+  return m ? m[1] : null;
+}
+function langRecord(bar, code){
+  const id = langId(bar, code);
+  const info = LANG_BARS[bar] || { section:'', title:'' };
+  const stored = ARS.languages && ARS.languages[id];
+  return stored || { id:id, bar:bar, code:code, section:info.section, items:[], more:true };
+}
+function langItemBegun(it){
+  if (!it || it.kind === 'note') return false;
+  if (it.kind === 'exercise' || it.kind === 'models'){
+    const st = store.ex && store.ex[it.id];
+    return !!(st && (st.visits || st.done));
+  }
+  const st = store.decks[it.id];
+  return !!(st && (st.opens || st.done));
+}
+function langItemDone(it){
+  if (!it || it.kind === 'note') return false;
+  if (it.kind === 'exercise' || it.kind === 'models'){
+    const st = store.ex && store.ex[it.id];
+    return !!(st && st.done);
+  }
+  const st = store.decks[it.id];
+  return !!(st && st.done);
+}
+function langScreenMark(screen){
+  const items = (screen.items || []).filter(it => it.built && it.kind !== 'note');
+  if (!items.length) return '';
+  if (items.every(langItemDone)) return 'done';
+  if (items.some(langItemBegun)) return 'begun';
+  return '';
+}
 
 function deckState(id){ return store.decks[id] || (store.decks[id] = { opens:0, done:false }); }
 function show(scr){
@@ -78,44 +134,131 @@ function buildHome(){
       if (it.group){
         const g = document.createElement('div'); g.className = 'grp-label'; g.textContent = it.group; grid.appendChild(g);
       }
-      const c = document.createElement('div');
-      const st = store.decks[it.id];
-      const plan = hasPlan(it.id);
-      const practiceTile = playerItem(it);
-      c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '') + (it.kind === 'review' ? ' review-bar' : '');
-      c.dataset.id = it.id;
-      c.innerHTML = `<div class="kind">${KIND[it.kind]}</div>
-        ${it.built && !practiceTile && st && st.done ? '<span class="done-flag">✓ Studied</span>' : ''}
-        <h3>${it.title}</h3><p>${it.desc}</p>
-        <span class="begin">${it.built ? (practiceTile ? 'Begin →' : 'Study →') : ''}</span>
-        <span class="soon-flag">Coming</span>`;
-      // A deck with its own exercise set (II–XI) gets an Exercise button that opens the set's plan.
-      const exId = ARS.deckEx && ARS.deckEx[it.id];
-      if (it.built && exId && hasPlan(exId)){
-        const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
-        b.onclick = e => { e.stopPropagation(); openEx(exId); };
-        c.appendChild(b);
-      }
-      if (!it.built && plan){
-        c.tabIndex = 0; c.setAttribute('role', 'button');
-        c.onclick = () => openEx(it.id);
-        c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
-      }
-      if (it.built && practiceTile){
-        c.tabIndex = 0; c.setAttribute('role', 'button');
-        c.onclick = () => openEx(it.id);
-        c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
-      } else if (it.built){
-        c.tabIndex = 0; c.setAttribute('role', 'button');
-        c.onclick = () => openDeck(it.id);
-        c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openDeck(it.id); } };
-      }
-      grid.appendChild(c);
+      grid.appendChild(makeTile(it));
+      (sec.langBars || []).filter(b => b.after === it.id).forEach(b => grid.appendChild(langBar(b)));
     });
-    if (sec.roman && typeof cumulativeBar === 'function') grid.appendChild(cumulativeBar(sec));
+    if (sec.roman && typeof cumulativeBar === 'function'){
+      grid.appendChild(cumulativeBar(sec));
+      (sec.langBars || []).filter(b => b.after === 'cumul').forEach(b => grid.appendChild(langBar(b)));
+    }
   });
   if (typeof renderReciteReminder === 'function') renderReciteReminder();
   if (typeof renderReviewNotice === 'function') renderReviewNotice();
+}
+
+/* A full-width bar of five language buttons. The buttons are the same on every bar. */
+function langBar(bar){
+  const el = document.createElement('div');
+  el.className = 'lang-bar';
+  el.dataset.langbar = bar.id;
+  const h = document.createElement('div');
+  h.className = 'cumul-h';
+  h.textContent = bar.heading || 'The grammars of the particular languages';
+  el.appendChild(h);
+  const row = document.createElement('div');
+  row.className = 'lang-btns';
+  LANGS.forEach(L => {
+    const screen = langRecord(bar.id, L.code);
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'lang-btn';
+    const mark = langScreenMark(screen);
+    if (mark) b.classList.add(mark === 'done' ? 'is-done' : 'is-begun');
+    b.dataset.screen = screen.id;
+    const name = document.createElement('span');
+    name.textContent = L.name;
+    b.appendChild(name);
+    if (mark){
+      const m = document.createElement('span');
+      m.className = 'lang-mark';
+      m.setAttribute('aria-hidden', 'true');
+      m.textContent = mark === 'done' ? '✓' : '●';
+      b.appendChild(m);
+      b.setAttribute('aria-label', L.name + (mark === 'done' ? ', finished' : ', begun'));
+    }
+    b.addEventListener('click', () => openLang(screen.id));
+    row.appendChild(b);
+  });
+  el.appendChild(row);
+  return el;
+}
+
+function openLang(id){
+  const m = String(id).match(/^lang\.([^.]+)\.([^.]+)$/);
+  if (!m || !LANG_BARS[m[1]]) return;
+  const bar = m[1], code = m[2];
+  const L = LANGS.find(x => x.code === code);
+  const info = LANG_BARS[bar];
+  const screen = langRecord(bar, code);
+  screenReturn = id;
+  location.hash = 'lang/' + id;
+  const band = $('lang-band');
+  band.className = 'lang-band lang-' + code;
+  const native = L && L.native ? `<div class="lang-native">${L.native}</div>` : '';
+  const group = info.group ? `<div class="lang-group">${info.group}</div>` : '';
+  band.innerHTML = native + `<h2>${L ? L.name : code}: ${info.title}</h2>` + group;
+  $('lang-note').textContent = 'Best taken after the section.';
+  const grid = $('lang-grid');
+  grid.innerHTML = '';
+  (screen.items || []).forEach(it => grid.appendChild(makeTile(it)));
+  const more = $('lang-more');
+  const thin = screen.more || !(screen.items && screen.items.length);
+  more.hidden = !thin;
+  more.textContent = 'More to come.';
+  show('scr-lang');
+}
+
+function leaveLang(){
+  const id = screenReturn;
+  screenReturn = null;
+  location.hash = '';
+  buildHome();
+  show('scr-home');
+  const m = id && String(id).match(/^lang\.([^.]+)\./);
+  const bar = m && document.querySelector('[data-langbar="' + m[1] + '"]');
+  if (bar){
+    bar.scrollIntoView({ block:'center' });
+    const btn = bar.querySelector('button');
+    if (btn) btn.focus({ preventScroll:true });
+  }
+}
+
+/* A homepage tile or a language-screen tile. */
+function makeTile(it){
+  const c = document.createElement('div');
+  const st = store.decks[it.id];
+  const plan = hasPlan(it.id);
+  const practiceTile = playerItem(it) || (it.kind === 'exercise' && String(it.id).indexOf('lang.') === 0);
+  const exDone = practiceTile && store.ex && store.ex[it.id] && store.ex[it.id].done;
+  c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '') + (it.kind === 'review' ? ' review-bar' : '');
+  c.dataset.id = it.id;
+  const studied = it.built && !practiceTile && st && st.done;
+  const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
+  c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
+    ${studied ? '<span class="done-flag">✓ Studied</span>' : ''}${finished ? '<span class="done-flag">✓ Finished</span>' : ''}
+    <h3>${it.title}</h3><p>${it.desc}</p>
+    <span class="begin">${it.built ? (practiceTile ? 'Begin →' : 'Study →') : ''}</span>
+    <span class="soon-flag">Coming</span>`;
+  const exId = ARS.deckEx && ARS.deckEx[it.id];
+  if (it.built && exId && hasPlan(exId)){
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
+    b.onclick = e => { e.stopPropagation(); openEx(exId); };
+    c.appendChild(b);
+  }
+  const open = () => {
+    if (practiceTile) openEx(it.id);
+    else openDeck(it.id);
+  };
+  if (!it.built && plan){
+    c.tabIndex = 0; c.setAttribute('role', 'button');
+    c.onclick = () => openEx(it.id);
+    c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openEx(it.id); } };
+  } else if (it.built){
+    c.tabIndex = 0; c.setAttribute('role', 'button');
+    c.onclick = open;
+    c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(); } };
+  }
+  return c;
 }
 
 /* ---------- loading a deck's data file ---------- */
@@ -159,6 +302,8 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
   'analysis':'parse and construe', 'passage-mc':'questions on a passage', 'mark':'mark the dependences', 'copy':'copy word for word' };
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 function openEx(id){
+  const homeOf = langScreenOf(id);
+  if (homeOf) screenReturn = homeOf;
   loadEx(id).then(ex => {
     if (ex.status === 'written') return runEx(ex);
     showExercisePlan(id, ex);
@@ -577,6 +722,7 @@ function runQueue(spec){
   const items = (spec.items || []).slice();
   run = { ex: spec.ex || null, set: spec.set || '', queue: items, n: items.length, k:0, first:{}, retried:{} };
   if (spec.hash) location.hash = spec.hash;
+  $('ex-home').textContent = screenReturn ? '← Back' : '← All sections';
   $('ex-kind').textContent = spec.kind || '';
   $('ex-title').innerHTML = spec.title || '';
   $('ex-sub').innerHTML = spec.sub || '';
@@ -733,6 +879,12 @@ function finishItem(box, it, ok, given, right){
   nb.focus({ preventScroll:true });
 }
 function renderSummary(){
+  if (run.ex){
+    const st = exState(run.ex.id);
+    if (!st.done) st.doneAt = Date.now();
+    st.done = true;
+    save();
+  }
   const ids = Object.keys(run.first), right = ids.filter(i => run.first[i]).length;
   const byId = {};
   (run.ex ? run.ex.items : run.queue).forEach(x => { if (x && x.id) byId[x.id] = x; });
@@ -744,7 +896,7 @@ function renderSummary(){
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;
   box.querySelector('button').onclick = () => {
-    if (run.ex && run.set) noteReciteNudge(run.ex.id + ':' + run.set, run.ex.title + ', Set ' + run.set);
+    if (run.ex && run.set && String(run.ex.id).indexOf('lang.') !== 0) noteReciteNudge(run.ex.id + ':' + run.set, run.ex.title + ', Set ' + run.set);
     goHome();
   };
   body.appendChild(box);
@@ -755,12 +907,15 @@ let cur = null;   // { deck, i, start, qp: { [qpId]: { v, status, chosen } } }
 
 function openDeck(id){
   loadDeck(id).then(deck => {
+    const homeOf = langScreenOf(id);
+    if (homeOf) screenReturn = homeOf;
     const st = deckState(id);
     st.opens += 1; save();
     // Each opening starts every question point on the next form: A, then B, then C, then A again.
     const start = (st.opens - 1) % 3;
     cur = { deck, i:0, start, qp:{} };
     location.hash = 'deck/' + id;
+    $('deck-home').textContent = screenReturn ? '← Back' : '← All sections';
     $('deck-title').innerHTML = deck.title;
     $('deck-sub').innerHTML = deck.sub || '';
     show('scr-deck');
@@ -856,7 +1011,7 @@ function nextPanel(){
   const first = !st.done;
   if (first) st.doneAt = Date.now();
   st.done = true;
-  if (first) noteReciteNudge(cur.deck.id, cur.deck.title);
+  if (first && String(cur.deck.id).indexOf('lang.') !== 0) noteReciteNudge(cur.deck.id, cur.deck.title);
   save();
   const id = cur.deck.id; goHome();
   const card = document.querySelector(`.set-card[data-id="${id}"]`);
@@ -864,7 +1019,17 @@ function nextPanel(){
 }
 function prevPanel(){ if (cur.i > 0){ cur.i -= 1; renderPanel(); window.scrollTo(0, 0); } }
 
-function goHome(){ location.hash = ''; buildHome(); show('scr-home'); }
+function goHome(){
+  if (screenReturn){
+    const backId = (cur && cur.deck && cur.deck.id) || (run && run.ex && run.ex.id) || '';
+    const id = screenReturn;
+    openLang(id);
+    const card = backId && document.querySelector('#lang-grid .set-card[data-id="' + backId.replace(/"/g, '') + '"]');
+    if (card){ card.scrollIntoView({ block:'center' }); card.focus({ preventScroll:true }); }
+    return;
+  }
+  location.hash = ''; buildHome(); show('scr-home');
+}
 
 /* A finished study deck, exercise set, or section review is named once, on the main page.
    Shown is recorded when that callout is closed, or when the tablet opens while it is up. */
@@ -918,6 +1083,7 @@ $('deck-next').onclick = nextPanel;
 $('deck-prev').onclick = prevPanel;
 $('deck-home').onclick = goHome;
 $('ex-home').onclick = goHome;
+$('lang-home').onclick = leaveLang;
 $('done-home').onclick = goHome;
 $('done-again').onclick = () => openDeck(cur.deck.id);
 $('recite-callout').onclick = dismissReciteNudge;
@@ -930,11 +1096,14 @@ document.addEventListener('keydown', e => {
 
 setDark(!!store.dark);
 buildHome();
+const lx = location.hash.match(/^#lang\/(.+)$/);
+if (lx) openLang(decodeURIComponent(lx[1]));
 const mx = location.hash.match(/^#ex\/(.+)$/);
-if (mx && hasPlan(mx[1])) openEx(mx[1]);
+if (mx && (hasPlan(mx[1]) || langScreenOf(mx[1]))) openEx(mx[1]);
 const m = location.hash.match(/^#deck\/(.+)$/);
 if (m){
   const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built && !playerItem(x));
   if (it) openDeck(it.id);
+  else if (langScreenOf(m[1])) openDeck(m[1]);
 }
 if (!location.hash.match(/^#(ex|deck|cumul)\//)) refreshReciteNudge();

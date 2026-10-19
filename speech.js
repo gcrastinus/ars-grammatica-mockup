@@ -140,7 +140,7 @@
             if (h3) bits.push(normalizeText(h3.textContent));
             if (p) bits.push(normalizeText(p.innerText || p.textContent));
             if (bits.length) add(bits.join('. '));
-          } else if (el.classList.contains('cumul-bar')){
+          } else if (el.classList.contains('cumul-bar') || el.classList.contains('lang-bar')){
             add(el.innerText || el.textContent);
           }
         });
@@ -177,6 +177,11 @@
     if (scr.id === 'scr-home') return collectHomeText();
     if (scr.id === 'scr-deck') return collectDeckText();
     if (scr.id === 'scr-ex') return collectExText();
+    if (scr.id === 'scr-lang'){
+      const parts = [];
+      walk(scr, parts, { skipButtons:false });
+      return joinParts(parts);
+    }
     if (scr.id === 'scr-done'){
       const parts = [];
       const card = scr.querySelector('.complete-card');
