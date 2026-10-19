@@ -23,7 +23,20 @@ ARS.decks['v.order'] = {
   body: `<p>We say “life and death,” “black and white,” and “east and west,” and rarely the reverse. We also usually name what we are speaking about before we say what it does: “The boy runs.” Some orders of words therefore seem to follow the nature of things or of thought, and the grammarians call such an order a <strong>natural order</strong> (<i>ōrdō nātūrālis</i>). Quintilian uses the term for the order in which things are customarily named: “There is also another species of order which may be entitled natural, as for example when we speak of men and women, day and night, rising and setting, in preference to the reverse order” (<i>Institutio oratoria</i> IX.4.23). Priscian uses it for the order of the parts of the sentence, holding that the nominative is naturally placed before the verb, because the substance is prior to the action that is said of it (<i>Institutiones grammaticae</i> XVII).</p>
 <p>The medieval grammarians developed Priscian’s idea. They held that the natural order of a sentence is the subject first, then the verb, then what depends on the verb, because this is the order in which the mind conceives the thought: first what it speaks about, then what it says of it. Any other order they called <strong>artificial</strong> (<i>ōrdō artificiālis</i>), that is, arranged by art for some effect.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.4.23 (trans. Butler; checked against the Perseus text); Priscian, <i>Institutiones grammaticae</i> XVII, in paraphrase.`,
-  qpTodo: `Natural order: what does Quintilian mean by natural order, shown with a fresh pair (“husband and wife,” “wife and husband”), and what is the natural order of the parts of a sentence according to Priscian and the medieval grammarians.` },
+  qp: { id: 'q-natural', variants: [
+    { prompt: `Which of these phrases is in the natural order, in Quintilian’s sense?`,
+      options: [`“husband and wife”`, `“night and day”`, `“setting and rising”`, `“west and east”`],
+      answer: 0,
+      explain: `Quintilian’s natural order is the order in which things are customarily named. We say “husband and wife,” “day and night,” “rising and setting,” and “east and west,” so the other three phrases reverse the customary order.` },
+    { prompt: `According to Priscian, why is the nominative naturally placed before the verb?`,
+      options: [`Because the substance comes before its action`, `Because the Latin endings require it`, `Because the verb must close the sentence`, `Because a sentence must begin with a noun`],
+      answer: 0,
+      explain: `Priscian holds that the substance is prior to the action that is said of it, so the nominative, which names the substance, naturally precedes the verb. Latin endings allow any order, and Latin sentences often begin with other words.` },
+    { prompt: `What did the medieval grammarians call an order arranged by art for some effect?`,
+      options: [`Natural order`, `Customary order`, `Artificial order`, `Construed order`],
+      answer: 2,
+      explain: `The natural order follows the order in which the mind conceives the thought: subject, verb, and what depends on the verb. Any other order, arranged by art for some effect, they called artificial (<i>ōrdō artificiālis</i>).` }
+  ]} },
 
 { id: 'quintilian-rules',
   title: 'Quintilian against fixed rules of order',
@@ -36,7 +49,20 @@ ARS.decks['v.order'] = {
   body: `<p>A speaker who wants to stress a word often moves it out of its usual place: “This book I will keep” puts “this book” first. The first and last places in a sentence are the most emphatic. In Latin, a word moved from its usual place to the beginning or the end of the sentence is thereby emphasized: the sentence we have seen in its usual order, <i>Galliam Caesar vīcit</i>, puts Gaul first in order to stress it. Quintilian observes that it is often possible “to give special significance to a word by placing it at the close of the sentence and thereby stamping and impressing it on the mind of the hearer, whereas if it were placed in the middle of the sentence, it would remain unnoticed” (<i>Institutio oratoria</i> IX.4.29).</p>
 <p>English uses the same positions for emphasis, within the limits of its fixed order. In the familiar English of the Bible, Peter says to the lame man, “Silver and gold have I none; but such as I have give I thee” (Acts 3:6), placing the objects first for emphasis. Ordinary English more often uses other means, such as “It was Gaul that Caesar conquered,” because moving the object before the verb would usually change the construction.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.4.29 (trans. Butler; checked against the Perseus text); Acts 3:6 (King James Version).`,
-  qpTodo: `Order and emphasis: in a given Latin sentence (<i>Brūtus lēgātōs mīsit</i>, <i>lēgātōs Brūtus mīsit</i>), which word is emphasized by its position, and how would English give the same emphasis.` },
+  qp: { id: 'q-emphasis', variants: [
+    { prompt: `In Latin <i>lēgātōs Brūtus mīsit</i> (“Brutus sent envoys”), which word is emphasized by its position?`,
+      options: [`<i>lēgātōs</i>`, `<i>Brūtus</i>`, `<i>mīsit</i>`, `No word`],
+      answer: 0,
+      explain: `The usual order is <i>Brūtus lēgātōs mīsit</i>, subject first and verb last. Moving <i>lēgātōs</i> to the first place stresses it: it was envoys that Brutus sent.` },
+    { prompt: `Which positions in a sentence are the most emphatic?`,
+      options: [`The middle positions`, `The first and the last`, `The second position`, `The place just before the verb`],
+      answer: 1,
+      explain: `The first and last places are the most emphatic. Quintilian notes that a word placed at the close is impressed on the mind of the hearer, whereas in the middle it would go unnoticed.` },
+    { prompt: `How can English give the emphasis of Latin <i>lēgātōs Brūtus mīsit</i>?`,
+      options: [`“Envoys sent Brutus”`, `“Brutus envoys sent”`, `“Brutus sent envoys”`, `“It was envoys that Brutus sent”`],
+      answer: 3,
+      explain: `English order carries the construction, so moving the object before the verb would usually change the meaning: “Envoys sent Brutus” makes the envoys the senders. English gives the emphasis by other means, such as “It was envoys that …”.` }
+  ]} },
 
 { id: 'latin-freedom',
   title: 'Latin order and the separation of words',
@@ -49,14 +75,40 @@ ARS.decks['v.order'] = {
   body: `<p>English order is fixed because it carries the construction. The usual English order is subject, verb, object: “The dog bit the man.” Questions invert the subject and an auxiliary verb (“Did the dog bite the man?”), and a few other constructions change the order, but the basic pattern holds, and departures from it are noticed.</p>
 <p>Because the order carries the construction, a word placed in the wrong position can attach itself to the wrong word. Quintilian notes that faulty order “leads to ambiguity” (<i>Institutio oratoria</i> IX.4.32), and we saw in Section I that English ambiguity often lies in the arrangement of words, and that moving a word such as “only” changes the sense. So in English, correct order is part of correct construction, not only a matter of style.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.4.32 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `English order: why does exchanging subject and object change the meaning of an English sentence but not of a Latin one, and where does a misplaced phrase in a given sentence attach.` },
+  qp: { id: 'q-english-fixed', variants: [
+    { prompt: `“The cat chased the dog” and “The dog chased the cat” differ in meaning, whereas Latin <i>fēlēs canem agit</i> and <i>canem fēlēs agit</i> do not. Why?`,
+      options: [`English shows them by order, Latin by endings`, `Latin has no subject or object`, `English verbs come last`, `Latin word order has no effect of any kind`],
+      answer: 0,
+      explain: `English shows subject and object by their place before and after the verb, so exchanging them changes the meaning. In Latin the nominative <i>fēlēs</i> and the accusative <i>canem</i> show the construction in any order; the order still affects emphasis.` },
+    { prompt: `In “I saw a ship in a dream with three masts,” to which word does “with three masts” attach as the sentence stands?`,
+      options: [`To “ship,” as the writer meant`, `To “dream,” the nearer noun`, `To “saw”`, `To “I”`],
+      answer: 1,
+      explain: `In English a phrase attaches to the nearest word it can describe, so here it describes the dream. Placed beside the word it is meant to describe, “In a dream I saw a ship with three masts,” it is clear.` },
+    { prompt: `Which revision removes the ambiguity of “She served pie to the guests on paper plates”?`,
+      options: [`“She served pie on paper plates to the guests”`, `“She served pie to the guests on paper plates”`, `“To the guests on paper plates she served pie”`, `“On the guests she served pie with paper plates”`],
+      answer: 0,
+      explain: `As the sentence stands, “on paper plates” can attach to “the guests.” Placed after “pie,” the word it describes, the phrase can only tell how the pie was served.` }
+  ]} },
 
 { id: 'construing',
   title: 'Construing a Latin sentence',
   body: `<p>A beginner reading a Latin poet often rearranges the words in his head into an order that English would use, so as to see which word belongs with which. For many centuries grammarians taught students to read Latin in just this way, by <strong>construing</strong> it, that is, by putting its words into the natural order: first the subject with its adjectives, then the verb, then the object and the other words that depend on the verb. So the line we have seen, <i>saevae memorem Iunonis ob iram</i>, was construed <i>ob memorem iram saevae Iunonis</i>, “because of the unforgetting anger of cruel Juno.” The English word “construe” comes from Latin <i>cōnstruere</i>, the verb from which <i>cōnstrūctiō</i> is formed.</p>
 <p>Construing does not change the meaning of the sentence; it makes the dependences visible by placing each word beside the word on which it depends. It is therefore an exercise in the analysis of construction, and it shows that the natural order is the order of the dependences that we have studied, whereas the artificial order of the author arranges them for emphasis, sound, and effect.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
-  qpTodo: `Analysis: put a given short Latin sentence into the natural order (subject, verb, object), and say which words were separated in the author’s order.` },
+  qp: { id: 'q-construing', variants: [
+    { prompt: `Put Latin <i>magnam videt nauta nāvem</i> (“the sailor sees a great ship”) into the natural order.`,
+      options: [`<i>nauta videt magnam nāvem</i>`, `<i>magnam nāvem videt nauta</i>`, `<i>nāvem magnam nauta videt</i>`, `<i>videt nauta nāvem magnam</i>`],
+      answer: 0,
+      explain: `Construing puts the subject first, then the verb, then the object with its adjective: <i>nauta videt magnam nāvem</i>. In the author’s order <i>magnam</i> was separated from <i>nāvem</i>, with which it agrees.` },
+    { prompt: `In Latin <i>clārō rēx gaudet triumphō</i> (“the king rejoices in the famous triumph”), which words that belong together are separated?`,
+      options: [`<i>rēx</i> and <i>gaudet</i>`, `<i>clārō</i> and <i>triumphō</i>`, `<i>gaudet</i> and <i>triumphō</i>`, `No words are separated`],
+      answer: 1,
+      explain: `<i>Clārō</i> agrees with <i>triumphō</i>, ablative singular, but the two stand at opposite ends of the sentence; the endings, not the positions, show that they belong together.` },
+    { prompt: `What is the separation of words that belong together called?`,
+      options: [`Construing`, `Natural order`, `Agreement`, `Hyperbaton`],
+      answer: 3,
+      explain: `Hyperbaton (Greek, “stepping over”) is the separation of words constructed together, which Quintilian counts among the figures. Construing is the reverse operation, putting the words back beside each other.` }
+  ]} },
 
 { id: 'typology-1',
   title: 'Languages classed by their order',
@@ -64,7 +116,20 @@ ARS.decks['v.order'] = {
 <p><strong>SVO</strong> (subject, verb, object), as in English and French.<br><strong>SOV</strong> (subject, object, verb), as in Latin in its usual order, in Japanese, and in Turkish.<br><strong>VSO</strong> (verb, subject, object), as in Classical Arabic, Biblical Hebrew, and Welsh.</p>
 <p>So English and Latin stand at two points of this classification. English has a fixed SVO order; Latin has a usual SOV order, which its endings free it to change. We will return to this classification, and to what it shows about the relation of languages to one another, in Section XI.</p>`,
   src: `Greenberg, “Some Universals of Grammar” (1963), in paraphrase.`,
-  qpTodo: `Typology: what is the usual order of subject, verb, and object in a given language or sentence (English, Latin, Japanese, Classical Arabic), and why can Latin depart from its usual order more freely than English.` },
+  qp: { id: 'q-typology-1', variants: [
+    { prompt: `What is the usual order of subject, verb, and object in a Japanese statement?`,
+      options: [`SVO`, `SOV`, `VSO`, `OVS`],
+      answer: 1,
+      explain: `Japanese puts the verb after its object: subject, object, verb (SOV), as Latin does in its usual order and Turkish does.` },
+    { prompt: `What is the usual order of subject, verb, and object in Classical Arabic?`,
+      options: [`SVO`, `SOV`, `VSO`, `OSV`],
+      answer: 2,
+      explain: `Classical Arabic, like Biblical Hebrew and Welsh, usually puts the verb first: verb, subject, object (VSO).` },
+    { prompt: `Why can Latin depart from its usual SOV order more freely than English from its SVO order?`,
+      options: [`Because Latin endings show the construction`, `Because Latin has no usual order`, `Because Latin is really SVO`, `Because English nouns have case endings`],
+      answer: 0,
+      explain: `English order carries the construction, so it is largely fixed. Latin endings show the construction, so its order is free to do other work. Latin does have a usual order, SOV.` }
+  ]} },
 
 { id: 'typology-2',
   title: 'Facts that go together',
@@ -84,7 +149,20 @@ ARS.decks['v.order'] = {
   body: `<p>We have seen that order does different work in different languages. In English it shows the construction, so a change of order is a change of meaning, and a word in the wrong place can cause ambiguity. In Latin the endings show the construction, so the order can give emphasis, separate words for effect, and follow the rhythm of the sentence, as Quintilian describes. In both languages the first and last positions are emphatic, and in both there is a natural order that follows the dependences of the words.</p>
 <p>So the order of words is a part of construction, but not the whole of it. The relations of dependence, agreement, and government are the same whatever the order, and the natural order is the order in which those relations are easiest to see. The phrase, the clause, and the period, which are groups of words that act together as one part of the sentence, are studied in this section as well.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> IX.4; Priscian, <i>Institutiones grammaticae</i> XVII.`,
-  qpTodo: `Analysis: in a given English sentence and its Latin equivalent, compare how the construction is shown (by order in English, by endings in Latin), and which word each language emphasizes.` }
+  qp: { id: 'q-summary', variants: [
+    { prompt: `In “The wolf follows the deer” and Latin <i>lupus cervum sequitur</i>, how is the object shown?`,
+      options: [`Both by the ending of the noun`, `English by position, Latin by ending`, `Both by the position of the noun`, `English by a preposition, Latin by position`],
+      answer: 1,
+      explain: `English shows the object by its place after the verb; Latin shows it by the accusative ending of <i>cervum</i>, wherever it stands.` },
+    { prompt: `In Latin <i>cervum lupus sequitur</i> (“the wolf follows the deer”), which word is emphasized by its position?`,
+      options: [`<i>cervum</i>`, `<i>lupus</i>`, `<i>sequitur</i>`, `No word`],
+      answer: 0,
+      explain: `The usual order would put the subject <i>lupus</i> first. Placing the object <i>cervum</i> first stresses it: it is the deer that the wolf follows.` },
+    { prompt: `Which of these stays the same whatever the order of the words?`,
+      options: [`The emphasis of the sentence`, `The rhythm of the sentence`, `The relations of construction`, `The word that comes first`],
+      answer: 2,
+      explain: `The relations of dependence, agreement, and government are the same in any order; the order affects emphasis, rhythm, and what comes first.` }
+  ]} }
 
   ]
 };
