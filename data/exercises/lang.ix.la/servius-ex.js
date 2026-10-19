@@ -15,15 +15,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius says Book IV is joined to Book III: the third ends <em>factoque hic fine quievit</em>, and Virgil goes on <em>At regina</em>. How does <em>at</em> join?<br><br>“At last he fell silent, and, making an end here, was at rest. But the queen, long since wounded by a heavy care, feeds the wound in her veins, and is consumed by a hidden fire.” — literal rendering (this course’s)<br>(<em>(III.718) Conticuit tandem, factoque hic fine quievit. (IV.1–2) At regina gravi iamdudum saucia cura volnus alit venis, et caeco carpitur igni.</em>)",
-   "explain": "Servius on IV.1 defends the connection of the two books: since the third closes with <em>factoque hic fine quievit</em>, Virgil continues <em>at regina</em>, and he calls an abrupt transition a fault (<span class=\"lat\">ex abrupto vitiosus est transitus</span>). Grammatically, <em>at</em> is a coordinating particle of contrast; the new period stands beside the old one and does not depend on it.",
+   "prompt": "Servius on <em>Tyrii tenuere coloni</em> says a word is missing. What does he supply first?<br><br>“There was an ancient city; Tyrian settlers held it.” — literal rendering (this course’s)<br>(<em>Urbs antiqua fuit, Tyrii tenuere coloni.</em>)",
+   "explain": "Servius says <span class=\"lat\">quam</span> is lacking, or, as others hold, <span class=\"lat\">hanc</span>. The old writers, he says, like to add the thought by epexegesis, where later Latin inserts a pronoun. <em>Tyrii tenuere coloni</em> takes up the city: the city which Tyrian settlers held.",
    "options": [
-    "As a coordinating particle: a new main clause set beside the last",
-    "As a subordinating word, so that the queen’s care depends on <em>quievit</em>",
-    "As a relative, taking up Aeneas from the last line of Book III",
-    "As the sign of a purpose clause, “so that the queen might grieve”"
+    "A missing main verb, since <em>tenuere</em> cannot carry the clause",
+    "The conjunction <em>et</em>, joining the settlers to the city",
+    "The relative <em>quam</em>",
+    "A preposition before <em>Tyrii</em>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/servius-ex:sv2",
@@ -31,15 +31,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>gravi … cura</em>: what case, and why?<br><br>“But the queen, long since wounded by a heavy care, feeds the wound in her veins, and is consumed by a hidden fire.” — literal rendering (this course’s)<br>(<em>At regina gravi iamdudum saucia cura volnus alit venis, et caeco carpitur igni.</em>)",
-   "explain": "<em>Gravi … cura</em> is ablative, giving the cause of the wound; <em>alit</em> has <em>volnus</em> for its object. Servius glosses <em>cura</em> here as <span class=\"lat\">amore intolerabili</span>, a love she could not bear.",
+   "prompt": "Servius on <em>dives opum</em>: what case does he say the ancients joined to <em>dives</em>?<br><br>“the mouths of the Tiber, rich in resources and very fierce in the pursuits of war.” — literal rendering (this course’s)<br>(<em>ostia, dives opum studiisque asperrima belli.</em>)",
+   "explain": "Servius says that <em>dives</em> is now used alone, but the ancients added the thing, joining it in the genitive only. He writes <span class=\"lat\">genetivo</span>. <em>Opum</em> is that genitive: rich in resources.",
    "options": [
-    "Ablative, with <em>saucia</em>: wounded by a heavy care",
-    "Accusative, the object of <em>alit</em> in the next line",
-    "Nominative, in apposition to <em>regina</em>, “the queen, a heavy care”",
-    "Genitive of quality, “the queen of heavy care”"
+    "An ablative of means, the wealth by which the city is called rich",
+    "The genitive",
+    "The dative",
+    "The accusative"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/servius-ex:sv3",
@@ -47,15 +47,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>caeco carpitur igni</em>: what does he say of the form <em>igni</em>?<br><br>“she feeds the wound in her veins, and is consumed by a hidden fire.” — literal rendering (this course’s)<br>(<em>volnus alit venis, et caeco carpitur igni.</em>)",
-   "explain": "Servius: <span class=\"lat\">sane igni pro igne, dativus pro ablativo</span>. Modern grammars count <em>igni</em> as an ordinary ablative of the <em>i</em>-stem <em>ignis</em> (Allen and Greenough §76); Servius gives another account, and it is his that is reported here.",
+   "prompt": "Servius on <em>gentibus</em> in <em>hoc regnum dea gentibus esse</em>: what does he say the dative stands for?<br><br>“the goddess both strives and cherishes that this be a kingdom for the nations, if the fates in any way allow.” — literal rendering (this course’s)<br>(<em>hoc regnum dea gentibus esse, si qua fata sinant, iam tum tenditque fovetque.</em>)",
+   "explain": "Servius says <span class=\"lat\">gentibus pro gentium, dativum pro genetivo</span>: the dative stands for the genitive <em>gentium</em>. The usual school reading takes <em>gentibus</em> as a dative of reference, “for the nations.”",
    "options": [
-    "That <em>igni</em> stands for <em>igne</em>, a dative for an ablative",
-    "That <em>igni</em> is a genitive of the material of which the fire is made",
-    "That <em>igni</em> is a locative, “in the fire,” and names no means at all",
-    "That <em>igni</em> is an accusative governed by the verb <em>carpitur</em>"
+    "A dative of reference, which is the only account he gives",
+    "An ablative of means",
+    "The subject of <em>esse</em>",
+    "The genitive <em>gentium</em>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/servius-ex:sv4",
@@ -63,13 +63,13 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>multa viri virtus</em>: how does he take <em>multa</em>?<br><br>“Much does the man’s valor come back to her mind, and much the honor of his race:” — literal rendering (this course’s)<br>(<em>Multa viri virtus animo, multusque recursat gentis honos:</em>)",
-   "explain": "Servius: <span class=\"lat\">multa autem virtus figurate dixit; nam ad numerum transtulit quod est quantitatis: aut multa pro magna</span>. <em>Virtus</em> is singular and cannot be counted, so <em>multa</em> stands for <em>magna</em>, great. <em>Viri</em> is a possessive genitive: the valor that belongs to the man.",
+   "prompt": "Servius on <em>late regem</em>: what is <em>regem</em> standing for?<br><br>“from this a people, ruling widely and proud in war, was to come.” — literal rendering (this course’s)<br>(<em>hinc populum late regem belloque superbum venturum.</em>)",
+   "explain": "Servius says <span class=\"lat\">pro late regnaturum, nomen pro participio</span>. <em>Regem</em> is a noun standing for the future participle <em>regnaturum</em>: a people that would rule widely.",
    "options": [
-    "As figurative: a word of number for one of size, <em>multa</em> for <em>magna</em>",
-    "As a neuter plural, “many things,” the object of the verb <em>recursat</em>",
-    "As an adverb, “often,” modifying <em>recursat</em> and not <em>virtus</em>",
-    "As a genitive plural agreeing with <em>viri</em>, “of many men”"
+    "A noun for a future participle",
+    "A dative of the person ruled",
+    "An adverb modifying <em>late</em>",
+    "The object of a verb of making that he says has dropped out of the line"
    ],
    "answer": 0
   },
@@ -79,15 +79,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>haerent infixi pectore voltus</em>: what does he say of <em>pectore</em>?<br><br>“his looks and his words cling fixed in her breast, and care gives her limbs no gentle rest.” — literal rendering (this course’s)<br>(<em>haerent infixi pectore voltus verbaque, nec placidam membris dat cura quietem.</em>)",
-   "explain": "Servius: <span class=\"lat\">pectore vero pro pectori</span>. With <em>infixi</em>, “fixed in,” the dative might be expected, and Servius says the ablative stands in its place.",
+   "prompt": "Servius on <em>sub pectore</em>: what does he say <em>sub</em> stands for?<br><br>“when Juno, keeping an eternal wound under her breast.” — literal rendering (this course’s)<br>(<em>cum Iuno, aeternum servans sub pectore volnus.</em>)",
+   "explain": "Servius says <span class=\"lat\">sub pectore pro in pectore</span>. The wound is her stored anger. <em>Sub</em> is the preposition, and <em>pectore</em> is ablative with it.",
    "options": [
-    "That <em>pectore</em> stands for <em>pectori</em>, an ablative for a dative",
-    "That <em>pectore</em> is the subject of <em>haerent</em> in the same line",
-    "That <em>pectore</em> is an accusative of the part affected, like a Greek accusative",
-    "That <em>pectore</em> is a genitive depending on <em>voltus</em>"
+    "A prefix of <em>pectore</em>, written apart from it by tmesis",
+    "Nothing, since <em>pectore</em> is a dative and needs no preposition",
+    "The preposition <em>in</em>",
+    "An adverb of place"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/servius-ex:sv6",
@@ -95,15 +95,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>insomnia terrent</em> reports another reading, <em>terret</em>. What would change with it?<br><br>“Anna, my sister, what dreams terrify me, hanging in doubt!” — literal rendering (this course’s)<br>(<em>Anna soror, quae me suspensam insomnia terrent!</em>)",
-   "explain": "Servius explains that <em>insomnia</em> as a feminine singular meant wakefulness, and as a neuter plural meant what we see in dreams. With <em>terrent</em> the word is neuter plural; with <em>terret</em> it would be feminine singular. Number and gender decide the meaning.",
+   "prompt": "Why is <em>fuit</em> singular in <em>hic illius arma, hic currus fuit</em>?<br><br>“here her arms, here was her chariot.” — literal rendering (this course’s)<br>(<em>hic illius arma, hic currus fuit.</em>)",
+   "explain": "Servius says that when a plural noun and a singular noun are joined, the verb agrees with the nearer: <span class=\"lat\">respondemus viciniori, ut ecce hoc loco currui, non armis respondit</span>. He writes <span class=\"lat\">currui</span> for the nearer noun. <em>Fuit</em> is singular because <em>currus</em> is singular.",
    "options": [
-    "<em>Insomnia</em> would be feminine singular, “sleeplessness”",
-    "<em>Insomnia</em> would become the object, and <em>me</em> the subject of the verb",
-    "The verb would become passive, so that Dido is frightened by Anna",
-    "Nothing in the grammar would change; only the meter would be altered"
+    "A verb after two subjects is singular in Virgil whatever the nearer noun is",
+    "It agrees with <em>currus</em>, the nearer noun",
+    "<em>Arma</em> is singular in sense",
+    "<em>Fuit</em> is a syncopated <em>fuerunt</em>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/servius-ex:sv7",
@@ -111,13 +111,13 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>pertaesum thalami taedaeque fuisset</em>: what does <em>pertaesus</em> govern?<br><br>“if I had not been weary of the marriage chamber and the marriage torch, to this one fault perhaps I might have yielded.” — literal rendering (this course’s)<br>(<em>si non pertaesum thalami taedaeque fuisset, huic uni forsan potui succumbere culpae.</em>)",
-   "explain": "Servius: <span class=\"lat\">pertaesus participium est sine verbi origine et regit genetivum, ut hoc loco: nam genetivus singularis est</span>. He calls <em>pertaesus</em> a participle with no verb behind it, and says that it governs the genitive: weary of the chamber and of the torch.",
+   "prompt": "Servius on <em>tot annos</em>: which case does he call the more proper in phrases of this kind?<br><br>“with one people I wage wars for so many years.” — literal rendering (this course’s)<br>(<em>una cum gente tot annos bella gero.</em>)",
+   "explain": "Servius says that both the accusative and the ablative are used in these phrases, as in <span class=\"lat\">tota nocte legi</span> and <span class=\"lat\">totam noctem legi</span>. The more proper expression, he says, is by the accusative. <em>Tot annos</em> is that accusative of how long. Juno is the speaker: she wages war with one people for so many years.",
    "options": [
-    "The genitive of <em>thalami</em> and <em>taedae</em>",
-    "The accusative, as verbs of feeling usually do in verse",
-    "The ablative of the thing that brings the weariness",
-    "The dative of the person who is made weary"
+    "The accusative",
+    "The genitive",
+    "The dative",
+    "The ablative only, since an accusative of duration would need a preposition"
    ],
    "answer": 0
   },
@@ -127,15 +127,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>optem</em>: how does he gloss it?<br><br>“But I would wish that the earth might first gape to its depths for me, or the almighty Father drive me with his thunderbolt to the shades, the pale shades of Erebus and the deep night, before, Modesty, I violate thee or undo thy laws.” — literal rendering (this course’s)<br>(<em>Sed mihi vel tellus optem prius ima dehiscat, vel Pater omnipotens adigat me fulmine ad umbras, pallentis umbras Erebi noctemque profundam, ante, Pudor, quam te violo, aut tua iura resolvo.</em>)",
-   "explain": "Servius: <span class=\"lat\">optem pro velim</span>. The subjunctive softens the wish; <em>dehiscat</em> is its object, without <em>ut</em>; and <em>ante … quam</em> in the last line sets the bound, before she breaks faith.",
+   "prompt": "What is Servius’s first gloss of <em>fertur</em>?<br><br>“whom Juno is said to have cherished, one above all lands, Samos having been set second.” — literal rendering (this course’s)<br>(<em>quam Iuno fertur terris magis omnibus unam posthabita coluisse Samo.</em>)",
+   "explain": "Servius’s first gloss is <span class=\"lat\">dicitur</span>, “is said.” He also allows <span class=\"lat\">creditur</span>, “is believed.”",
    "options": [
-    "As <em>velim</em>, “I would wish”: a wish put gently, not a plan",
-    "As a future indicative, “I shall choose,” stating a plan",
-    "As an imperative addressed to Anna, “choose for me”",
-    "As an infinitive of purpose depending on <em>dehiscat</em>"
+    "It means <em>creditur</em>, and he allows no other sense",
+    "It means she is carried, a passive with no gloss",
+    "It is impersonal and has no subject",
+    "It means <em>dicitur</em>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/servius-ex:sv9",
@@ -143,15 +143,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>male sana</em>: what does <em>male</em> mean here?<br><br>“when, hardly in her right mind, she speaks thus to her sister, one in heart with her:” — literal rendering (this course’s)<br>(<em>cum sic unanimam adloquitur male sana sororem:</em>)",
-   "explain": "Servius glosses <span class=\"lat\">male sana</span> as <span class=\"lat\">non plene sana, amore vitiata</span>: not fully sane, spoiled by love. He adds that <em>male</em> often means <em>non</em> and often <em>minus</em>, as the prefix <em>ve-</em> does in <em>vecors</em> and <em>vesanus</em>; so the adverb denies the adjective, and does not describe a manner.",
+   "prompt": "What is Servius’s first gloss of <em>longe</em>?<br><br>“Carthage, opposite Italy and, far off, the mouths of the Tiber.” — literal rendering (this course’s)<br>(<em>Karthago, Italiam contra Tiberinaque longe ostia.</em>)",
+   "explain": "Servius’s first gloss of <em>longe</em> is <span class=\"lat\">valde</span>, “very.” He also allows <span class=\"lat\">maxime</span> or <span class=\"lat\">praecipue</span>, “especially,” and some readers join <em>longe</em> with <em>dives</em>, “very rich,” rather than with <em>ostia</em>.",
    "options": [
-    "“Not”: <em>male sana</em> is “not fully sane”",
-    "“Badly”: she speaks in an ill manner",
-    "“Wickedly”: she plans an evil deed",
-    "“Sickly”: she has a fever of the body"
+    "It means <em>maxime</em>, and he rejects every other sense",
+    "It means <em>valde</em>",
+    "It is an adjective with <em>ostia</em>",
+    "It must be taken with <em>ostia</em>, and he says those who join it to <em>dives</em> are wrong"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/servius-ex:sv10",
@@ -159,15 +159,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>unanimam</em> (his lemma reads <em>unanimem</em>): what does he say of the adjective?<br><br>“when, hardly in her right mind, she speaks thus to her sister, one in heart with her:” — literal rendering (this course’s)<br>(<em>cum sic unanimam adloquitur male sana sororem:</em>)",
-   "explain": "Servius writes <span class=\"lat\">dicimus autem et ‘unanimus’ et ‘unanimis’, sicut ‘inermus’ et ‘inermis’</span>: the adjective has a form of the second declension and a form of the third, as <em>inermus</em> and <em>inermis</em> do. Greenough’s text prints <em>unanimam</em>, the first form; Servius’s lemma has the second. Either way it is accusative, agreeing with <em>sororem</em>.",
+   "prompt": "Servius on <em>divom</em> in <em>quae divom incedo regina</em>: what is the form?<br><br>“I, who walk as queen of the gods.” — literal rendering (this course’s)<br>(<em>Ast ego, quae divom incedo regina.</em>)",
+   "explain": "Servius, whose lemma is <span class=\"lat\">divum</span>, says it stands for <span class=\"lat\">divorum</span>, as <span class=\"lat\">Argivum</span> does. The line reads <em>divom</em>. <em>Divom</em> and <em>divum</em> are the old genitive plural.",
    "options": [
-    "That both <em>unanimus</em> and <em>unanimis</em> are said",
-    "That it is a noun, “the one-souled,” in apposition",
-    "That it agrees with <em>male sana</em>, not with <em>sororem</em>",
-    "That it is a genitive, “of one mind”"
+    "A dative plural, the gods toward whom she walks",
+    "An accusative singular",
+    "An old genitive plural",
+    "A nominative, the subject of <em>incedo</em>, so the gods walk as queen"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/servius-ex:sv11",
@@ -175,13 +175,13 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>forti pectore et armis</em>: what does he say we must supply?<br><br>“Who is this new guest who has come to our house? How he bears himself in his looks! How strong in heart and in arms!” — literal rendering (this course’s)<br>(<em>Quis novus hic nostris successit sedibus hospes, quem sese ore ferens, quam forti pectore et armis!</em>)",
-   "explain": "Servius says <span class=\"lat\">sane subaudis ‘est’</span>: we understand <em>est</em>, “how strong he is in heart and in arms.” The ablatives describe the man (ablatives of quality), and the verb “to be” is left out, as Latin often leaves it out in an exclamation.",
+   "prompt": "Servius on <em>venturum excidio</em>: what does he say <em>excidio</em> stands for?<br><br>“about to come for the ruin of Libya.” — literal rendering (this course’s)<br>(<em>venturum excidio Libyae.</em>)",
+   "explain": "Servius says <span class=\"lat\">ad excidium. nota figura</span>. The dative <em>excidio</em> stands where <em>ad</em> with the accusative might stand: for the ruin, or to the ruin, of Libya.",
    "options": [
-    "The verb <em>est</em>, which is understood: “how strong he is in heart and in arms”",
-    "A preposition, <em>cum</em>, understood before the ablatives to govern them as “with”",
-    "A second subject, with Aeneas named again",
-    "Nothing, since the ablatives are the subject"
+    "A dative for <em>ad excidium</em>",
+    "An ablative of cause",
+    "A genitive of the charge",
+    "An accusative of place to which, the preposition having been left out as on other lines"
    ],
    "answer": 0
   },
@@ -191,15 +191,15 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "deck": "lang.ix.la/servius-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Servius on <em>recursat</em>: what kind of verb does he say Virgil has used?<br><br>“The man’s great valor, and the great honor of his race, keep running back into her mind;” — literal rendering (this course’s)<br>(<em>Multa viri virtus animo, multusque recursat gentis honos;</em>)",
-   "explain": "Servius writes <span class=\"lat\">bene frequentativo usus est verbo in frequenti amantis cogitatione</span>: Virgil does well to use a frequentative verb for the lover’s frequent thought. <em>Recurso</em> is the frequentative of <em>recurro</em>, “run back,” and means “keep running back.”",
+   "prompt": "Servius on <em>repostum</em> in <em>manet alta mente repostum</em>: what is the form?<br><br>“it remains stored deep in the mind.” — literal rendering (this course’s)<br>(<em>manet alta mente repostum.</em>)",
+   "explain": "Servius says <span class=\"lat\">repostum</span> is a syncope: one syllable has been taken out of the middle of <span class=\"lat\">repositum</span>. He calls a change of this kind in a word’s form a <span class=\"lat\">pathos</span>.",
    "options": [
-    "A frequentative, for the lover’s frequent thought",
-    "An inceptive verb, for a love only now beginning",
-    "A deponent verb, passive in form and active in sense",
-    "An impersonal verb, with no subject expressed"
+    "A frequentative of <em>pono</em>, so that the thing was placed again and again",
+    "A supine depending on <em>manet</em>",
+    "An adverb",
+    "A shortened <em>repositum</em>"
    ],
-   "answer": 0
+   "answer": 3
   }
  ]
 };

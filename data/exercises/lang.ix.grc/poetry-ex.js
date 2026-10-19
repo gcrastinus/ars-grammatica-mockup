@@ -351,15 +351,15 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Ἀφρόδιτα</em> ends in <em>-α</em> because…",
-   "explain": "Attic would have <em>Ἀφροδίτη</em>; the vocative in Sappho’s dialect is <em>Ἀφρόδιτα</em>.",
+   "prompt": "<em>Ῥώμα</em> and <em>γᾶς</em> have long <em>ā</em> because…",
+   "explain": "Doric keeps long <em>ā</em> where Attic has <em>η</em>. Attic would have <em>Ῥώμη</em> and <em>γῆς</em>.",
    "options": [
-    "Aeolic keeps long <em>ā</em> where Attic has <em>η</em>, here in the vocative",
-    "It is a neuter plural",
-    "It is accusative",
-    "It is a dual"
+    "Each word is a neuter plural, and the ending <em>-α</em> is long",
+    "The written accent has made the vowel long",
+    "Doric keeps <em>ā</em> where Attic has <em>η</em>",
+    "Both words are accusative, and an accusative in <em>-α</em> is long"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.grc/poetry-ex:n22",
@@ -367,15 +367,15 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>λίσσομαί σε</em></p> <em>λίσσομαι</em> is…",
-   "explain": "It has no active form; it means “I beg.” middle in form, active in sense",
+   "prompt": "<em>χαῖρε</em> is…",
+   "explain": "<em>Χαῖρε</em> is the present imperative of <em>χαίρω</em>, “hail.” The acute on the last syllable comes from the enclitic <em>μοι</em>.",
    "options": [
-    "A deponent",
-    "A passive: I am begged",
-    "A future",
-    "An imperative"
+    "A deponent, middle in form, meaning “I greet”",
+    "A present imperative",
+    "A prohibition with <em>μή</em>",
+    "An aorist infinitive used as a command"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.grc/poetry-ex:n23",
@@ -383,15 +383,15 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>μή … δάμνα</em> is…",
-   "explain": "<em>Μή</em> with the present imperative forbids an action going on. do not keep crushing",
+   "prompt": "<em>ἅ</em> in <em>ἃ ναίεις</em> is…",
+   "explain": "<em>Ἅ</em> is the feminine relative, and it takes up <em>Ῥώμα</em>. Its verb is <em>ναίεις</em>, “you dwell.”",
    "options": [
-    "A prohibition with the present imperative",
-    "A purpose clause",
-    "A fear clause",
-    "A statement of fact"
+    "The Doric article, the feminine of <em>ὁ</em>, standing before the verb",
+    "An adverb of place",
+    "The object of <em>ναίεις</em>",
+    "A relative pronoun"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.grc/poetry-ex:n24",
@@ -399,13 +399,13 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ἄσαισι</em> is…",
-   "explain": "Aeolic <em>-αισι</em> for Attic <em>-αις</em>. with distresses",
+   "prompt": "<em>Ἄρηος</em> is…",
+   "explain": "<em>Ἄρηος</em>, “of Ares,” is genitive and depends on <em>θυγάτηρ</em>, “daughter.”",
    "options": [
-    "An Aeolic dative plural",
-    "A nominative singular",
-    "A verb",
-    "An accusative plural"
+    "A genitive",
+    "A vocative of <em>Ἄρης</em>, addressed together with Rome",
+    "A dative of the person for whom she is a daughter",
+    "An accusative of respect"
    ],
    "answer": 0
   },
@@ -415,15 +415,15 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>θῦμον</em> is the object of…",
-   "explain": "Do not crush my heart: <em>θῦμον</em>, accusative.",
+   "prompt": "<em>Ὄλυμπον</em> is…",
+   "explain": "<em>Ὄλυμπον</em> is accusative, the object of <em>ναίεις</em>, “you dwell.” <em>Σεμνὸν</em> and <em>ἄθραυστον</em> agree with it.",
    "options": [
-    "<em>δάμνα</em>",
-    "<em>λίσσομαι</em>",
-    "<em>πότνια</em>",
-    "Nothing; it is a vocative"
+    "A vocative, another name of Rome",
+    "The subject of <em>ναίεις</em>",
+    "The object of <em>ναίεις</em>",
+    "A genitive depending on <em>γᾶς</em>, so that the noun is not governed by the verb"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.grc/poetry-ex:n26",

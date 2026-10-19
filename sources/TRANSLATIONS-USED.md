@@ -71,7 +71,9 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Parkes, *Pause and Effect* | ch. 1–4 | — | ii.punctuation | paraphrase; ch. 1 **verified at second hand** (19 Oct 2026; sources/QUOTATION-CHECK-OCT-19.md); ch. 2–4 still unverified |
 | *ibis redibis nunquam per bella peribis* | — | the two English readings are ours | ii.punctuation / sense | **still unverified**: no ancient source found; the attribution to the Sibyl was removed. The two renderings are glosses that show the two punctuations; a question for Timothy whether such glosses are acceptable (**resolved**, 17 Oct: both glosses checked against the Latin and found accurate; unchanged) |
 | Virgil, *Aeneid* | I.1, I.3 | Theodore C. Williams (1910) | ii.meter / elision, hexameter, caesura | checked (Perseus); macrons removed from the quoted lines (L.2) |
-| Catullus | 5.1; 51.1 | Leonard C. Smithers (1894) | ii.meter / elision, lyric | checked (Perseus) |
+| Catullus | 13.1 | Leonard C. Smithers (1894), as modernized by Perseus | lang.ii.la/meter | unchanged on that card |
+| Catullus | 13.3; 46.1–8; 101.1, 2, 5, 6 | the course’s own | ii.meter / lyric (13.3); lang.ix.la/poetry (46); lang.ii.la/meter-ex (46.1 and 101) | Latin checked against Merrill 1893 (Perseus). Scansion of 13.3, 46.1, and 101 checked against Hypotactic. In 101.2 the *i* of *advenio* is short before the elided *o*. Smithers’s renderings of 5.1 and 51.1 are no longer used |
+| Horace, *Odes* | I.38.1 | the course’s own | ii.meter / lyric | Latin checked against Shorey and Laing 1919, which prints *adparatus*. English is the course’s own |
 | Homer, *Iliad* | I.1 | A. T. Murray (Loeb) | ii.meter / homer | checked (Perseus) |
 | Ovid, *Amores* | I.1.2 (*Edere, materia conveniente modis*), I.1.3–4 | John Dryden | ii.meter / elegiac | checked (Perseus); the Latin now printed as the Perseus edition prints it (capital *E*, no macrons) |
 | Ambrose, *Aeterne rerum conditor* | 1 | — | ii.meter / hymn | **corrected**: the plain rendering was removed; the card now describes the hymn instead of translating the line. The Latin is **verified** in Bede, *De arte metrica* 21, who names the hymn as an example of the meter (added to the card) |
@@ -184,6 +186,12 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | Priscian, *Partitiones duodecim versuum Aeneidos principalium* | 1 | no published English translation | ix.sentences / parsing | **verified** against the Latin (*Corpus Grammaticorum Latinorum*); the card was made more exact (Priscian begins with the meter, counts nine parts of speech, and asks of *arma* why it lacks a singular, what compounds it forms, and how its case is known "from the construction") |
 | Servius, commentary on Virgil | — | — | ix.passages | paraphrase |
 | Quintilian, *Institutio oratoria* | I.8.13 | H. E. Butler (Loeb) | ix.sentences | checked (Perseus) |
+| Catullus, *Carmina* | 46.1–8 | the course’s own | lang.ix.la/poetry, poetry-18–24; poetry-ex n11–n15 | Latin checked against Merrill 1893 (Perseus). English is the course’s own, line by line |
+| Ovid, *Fasti* | III.1–4 | the course’s own | lang.ix.la/poetry, poetry-50–55; poetry-ex n31–n35 | Latin checked against Frazer’s Loeb 1931 (the Latin only; the English is not Frazer’s) |
+| Sappho | fr. 16.1 | the course’s own | lang.ii.grc/meter | Greek as Digital Sappho prints the line, with the first letter restored (ο]ἰ). Not collated to the papyrus. The verb is in the next line and is not quoted |
+| Melinno, Hymn to Rome | 1–4 | the course’s own | lang.ix.grc/poetry, poetry-31–36; poetry-ex n21–n25 | Greek from two transcriptions that agree. Not collated to a printed Stobaeus or to *Supplementum Hellenisticum* 541. One report of that edition prints Ἄρεος. The dialect is treated as Doric |
+| Servius on *Aeneid* I | notes on I.12–17, 21–22, 26, 36, 46–47 | — | lang.ix.la/servius-ex | Notes from the Wikisource transcription of Thilo (Leipzig, 1884), stated there as *partim* and not collated to the printed page. Consonantal *u* printed as *v*; *genetivo* kept. Virgil’s lines from Greenough (Boston, 1881): *Karthago*, *volnus*, *divom*. Servius’s lemma is *divum* |
+| Livy, *Ab urbe condita* | 5.47.4 | the course’s own | lang.ix.la/prose, prose-68–72; prose-ex n54–n58 | Latin checked against Weissenborn–Müller (Teubner), keeping the corrected readings. The subject of *fefellere* is the Gauls, from the previous sentence. English is the course’s own |
 
 ### Section X
 

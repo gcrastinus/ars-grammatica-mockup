@@ -191,15 +191,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>Vivamus</em></p> <em>vivamus</em> is…",
-   "explain": "The present subjunctive in the first person plural urges an action that includes the speaker. “let us live”",
+   "prompt": "<em>volemus</em> is…",
+   "explain": "<em>Volemus</em> is the present subjunctive, first person plural, and it urges an action that includes the speaker: let us fly.",
    "options": [
-    "A present subjunctive of exhortation",
-    "A present indicative: “we live”",
-    "A future: “we shall live”",
-    "An imperative plural"
+    "A future indicative: we shall fly",
+    "An imperative plural addressed to Catullus",
+    "A hortatory subjunctive",
+    "A complementary infinitive depending on <em>avet</em>, as if the wish to fly completed that verb"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/poetry-ex:n12",
@@ -207,15 +207,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>unius … assis</em> is…",
-   "explain": "Verbs of valuing take the genitive of the value set on a thing.",
+   "prompt": "<em>egelidos</em> agrees with…",
+   "explain": "<em>Egelidos</em>, “mild,” is accusative plural, like <em>tepores</em>, the object of <em>refert</em>. <em>Ver</em>, “spring,” is the subject.",
    "options": [
-    "A genitive of value: at one as",
-    "A genitive of possession: of one coin",
-    "An ablative of price",
-    "A nominative"
+    "<em>ver</em>, because an adjective of the weather agrees with the season",
+    "<em>tepores</em>",
+    "<em>auris</em>, the breezes",
+    "<em>campi</em>, the fields"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/poetry-ex:n13",
@@ -223,15 +223,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>occidere et redire</em></p> <em>occidere</em> and <em>redire</em> depend on…",
-   "explain": "<em>Possum</em> is completed by an infinitive: they are able to set and to return.",
+   "prompt": "<em>Asiae</em> with <em>urbes</em> is…",
+   "explain": "<em>Asiae</em>, “of Asia,” is a possessive genitive depending on <em>urbes</em>, “cities.”",
    "options": [
-    "<em>possunt</em>, as complementary infinitives",
-    "<em>soles</em>, as nouns in apposition",
-    "<em>aestimemus</em>, as its objects",
-    "Nothing: they are historical infinitives"
+    "A genitive of value, the price set on the cities",
+    "A dative of advantage",
+    "An ablative of the place left behind",
+    "A possessive genitive"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/poetry-ex:n14",
@@ -239,13 +239,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>cum semel occidit</em></p> <em>cum … occidit</em> is…",
-   "explain": "<em>Cum</em> with the indicative gives the time simply: when once the light has set. when once it has set",
+   "prompt": "<em>vagari</em> is…",
+   "explain": "<em>Avet</em>, “longs,” is completed by the infinitive <em>vagari</em>, “to wander.”",
    "options": [
-    "A clause of time with the indicative",
-    "A causal clause with the subjunctive",
-    "A preposition with the ablative",
-    "A concessive clause"
+    "A complementary infinitive with <em>avet</em>",
+    "A gerundive of obligation, with <em>mens</em> as the person who must wander",
+    "The subject of <em>avet</em>",
+    "A supine of purpose after <em>refert</em>"
    ],
    "answer": 0
   },
@@ -255,15 +255,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em>nobis … nox est perpetua una dormienda</em>, what is <em>nobis</em>?",
-   "explain": "With the gerundive of obligation, the person who must act stands in the dative: one night must be slept by us.",
+   "prompt": "<em>studio</em> is…",
+   "explain": "<em>Studio</em>, “with eagerness,” is an ablative of cause with <em>vigescunt</em>: the feet grow lively from eagerness.",
    "options": [
-    "The dative of the agent with the gerundive",
-    "An ablative of means",
-    "The subject of <em>est</em>",
-    "A dative of purpose"
+    "A dative of purpose, the end for which the feet grow lively",
+    "An ablative absolute, with <em>laeti</em> as its participle",
+    "An ablative of cause",
+    "The subject of <em>vigescunt</em>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/poetry-ex:n16",
@@ -511,15 +511,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>prima</em> agrees with…",
-   "explain": "<em>Prima</em> is feminine singular nominative, like <em>Cynthia</em>, and it says that she was the first. she was the first to take me",
+   "prompt": "<em>bellice</em> agrees with…",
+   "explain": "<em>Bellice</em>, “warlike,” is vocative and agrees with <em>Mars</em>, the god addressed.",
    "options": [
-    "<em>Cynthia</em>",
-    "<em>me</em>",
-    "<em>ocellis</em>",
-    "<em>Amor</em>"
+    "<em>clipeo</em>",
+    "<em>Mars</em>",
+    "<em>hasta</em>",
+    "<em>poetae</em>, the poet who is asked what he has to do with the god"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/poetry-ex:n32",
@@ -527,15 +527,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>suis … ocellis</em> is…",
-   "explain": "The ablative without a preposition gives the means by which she took him. <em>Ocellis</em> is a diminutive of <em>oculis</em>. with her own eyes",
+   "prompt": "<em>casside</em> is…",
+   "explain": "<em>Solve</em>, “loose,” takes <em>comas</em>, “hair,” as its object, and <em>casside</em>, “from the helmet,” is the ablative of separation.",
    "options": [
-    "An ablative of means",
-    "A dative of the person affected",
-    "An ablative absolute",
-    "The subject of <em>cepit</em>"
+    "An ablative of means, the helmet by which the hair is loosed",
+    "The object of <em>solve</em>",
+    "An ablative of separation",
+    "A dative of the person from whom the hair is taken"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/poetry-ex:n33",
@@ -543,13 +543,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>contactum</em> agrees with…",
-   "explain": "<em>Contactum</em> is masculine singular accusative, like <em>me</em>: me, touched before by no desires.",
+   "prompt": "<em>nitidas</em> agrees with…",
+   "explain": "<em>Nitidas</em>, “shining,” is accusative plural, like <em>comas</em>, and the two are divided around <em>casside solve</em>.",
    "options": [
-    "<em>me</em>, the poet",
-    "<em>Cynthia</em>",
-    "<em>cupidinibus</em>",
-    "<em>ocellis</em>"
+    "<em>comas</em>",
+    "<em>casside</em>",
+    "<em>Mars</em>",
+    "<em>comas</em> and <em>casside</em> together, since both stand beside the adjective"
    ],
    "answer": 0
   },
@@ -559,15 +559,15 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>mihi</em> with <em>lumina</em> is…",
-   "explain": "The dative of the person concerned often stands where English uses a possessive: he cast down the eyes for me, that is, my eyes.",
+   "prompt": "<em>poetae</em> in <em>quid sit cum Marte poetae</em> is…",
+   "explain": "<em>Quid sit</em> is an indirect question after <em>roges</em>. <em>Poetae</em> is a dative of reference: what a poet has to do with Mars.",
    "options": [
-    "A dative of reference: my eyes",
-    "The subject of <em>deiecit</em>",
-    "An ablative of means",
-    "The object of <em>deiecit</em>"
+    "The subject of <em>roges</em>, as if the poet asked in the nominative",
+    "A possessive genitive with <em>quid</em>",
+    "An ablative of accompaniment, depending on <em>cum</em>",
+    "A dative of reference"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/poetry-ex:n35",
@@ -575,13 +575,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>impositis … pedibus</em> is…",
-   "explain": "A noun and a participle in the ablative stand apart as a circumstance of <em>pressit</em>. his feet having been set on it",
+   "prompt": "<em>depositis clipeo et hasta</em> is…",
+   "explain": "<em>Clipeo</em> and <em>hasta</em>, with the participle <em>depositis</em>, “having been laid aside,” stand in the ablative as a circumstance. The participle is plural because it belongs to both nouns.",
    "options": [
     "An ablative absolute",
-    "A dative: for the feet",
-    "The object of <em>pressit</em>",
-    "An ablative of comparison"
+    "The object of <em>ades</em>",
+    "A dative of the person concerned",
+    "An ablative of means, the weapons with which Mars is asked to be present"
    ],
    "answer": 0
   },

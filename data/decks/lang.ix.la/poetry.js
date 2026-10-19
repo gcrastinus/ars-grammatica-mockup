@@ -4,7 +4,7 @@ ARS.decks["lang.ix.la/poetry"] = {
  "id": "lang.ix.la/poetry",
  "title": "Latin Poetry",
  "sub": "Ten passages in five meters, read part by part",
- "sources": "Dickinson College Commentaries; Allen and Greenough, <i>New Latin Grammar</i>; the translations of Virgil, Ovid, Ambrose, Lucretius, Propertius, and Venantius Fortunatus are the course’s own plain renderings, line by line",
+ "sources": "Dickinson College Commentaries; Allen and Greenough, <i>New Latin Grammar</i>; the translations of Virgil, Ovid, Ambrose, Lucretius, Catullus, and Venantius Fortunatus are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
@@ -93,38 +93,38 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-18",
-   "title": "Catullus, <i>Carmina</i> 5.1–6 · Hendecasyllable",
-   "body": "<p>Vivamus mea Lesbia, atque amemus,<br>rumoresque senum severiorum<br>omnes unius aestimemus assis!<br>soles occidere et redire possunt:<br>nobis cum semel occidit brevis lux,<br>nox est perpetua una dormienda.</p><p>Let us live, my Lesbia, and love, and value at one farthing all the talk of crabbed old men. Suns may set and rise again. For us, when the short light has once set, remains to be slept the sleep of one unbroken night.<br>— Cornish</p><p><strong>Context.</strong> Catullus urges Lesbia to live and love without regard to the talk of old men, because life is short. The meter is the hendecasyllable, a line of eleven syllables, and we measured the first line in Section II.</p>"
+   "title": "Catullus, <i>Carmina</i> 46.1–8 · Hendecasyllable",
+   "body": "<p>Iam ver egelidos refert tepores,<br>iam caeli furor aequinoctialis<br>iucundis Zephyri silescit auris.<br>linquantur Phrygii, Catulle, campi<br>Nicaeaeque ager uber aestuosae:<br>ad claras Asiae volemus urbes.<br>iam mens praetrepidans avet vagari,<br>iam laeti studio pedes vigescunt.</p><p>Now spring brings back the mild warmth,<br>now the equinoctial fury of the sky<br>grows quiet with the pleasant breezes of the West Wind.<br>Let the Phrygian fields be left, Catullus,<br>and the rich field of hot Nicaea:<br>let us fly to the famous cities of Asia.<br>Now the mind, trembling beforehand, longs to wander,<br>now the glad feet grow lively with eagerness.</p><p><strong>Context.</strong> Catullus, leaving Bithynia in the spring, tells himself to leave the fields of Nicaea and to sail for the cities of Asia. The meter is the hendecasyllable, a line of eleven syllables.</p>"
   },
   {
    "id": "poetry-19",
    "title": "Hortatory subjunctives",
-   "body": "<p><em>Vivamus mea Lesbia, atque amemus</em>: <em>Vivamus</em> and <em>amemus</em> are present subjunctives of exhortation: let us live, let us love. <em>Mea Lesbia</em> is vocative.</p>"
+   "body": "<p><em>linquantur Phrygii, Catulle, campi</em> and <em>ad claras Asiae volemus urbes</em>: <em>Linquantur</em> and <em>volemus</em> are present subjunctives of exhortation. The first is passive: let the fields be left. The second includes the speaker: let us fly. <em>Catulle</em> is vocative, Catullus addressing himself.</p>"
   },
   {
    "id": "poetry-20",
-   "title": "The object, and a comparative",
-   "body": "<p><em>rumoresque senum severiorum</em>: <em>Rumores</em> is the object of <em>aestimemus</em> in the next line, and <em>senum</em> is a genitive plural. <em>Severiorum</em> is a comparative, “rather severe.”</p>"
+   "title": "The object and its adjective",
+   "body": "<p><em>egelidos refert tepores</em>: <em>Tepores</em>, “warmth,” is the object of <em>refert</em>, “brings back,” and <em>ver</em>, “spring,” is the subject. <em>Egelidos</em>, “mild,” the chill having been taken off, agrees with <em>tepores</em>.</p>"
   },
   {
    "id": "poetry-21",
-   "title": "The genitive of value",
-   "body": "<p><em>omnes unius aestimemus assis</em>: <em>Unius … assis</em>, “at one as,” the smallest coin, is a genitive of value with <em>aestimemus</em>, a third hortatory subjunctive.</p>"
+   "title": "A genitive",
+   "body": "<p><em>ad claras Asiae volemus urbes</em>: <em>Asiae</em>, “of Asia,” is a possessive genitive depending on <em>urbes</em>. <em>Claras</em> agrees with <em>urbes</em>: the famous cities. <em>Ad</em> with the accusative gives the place to which.</p>"
   },
   {
    "id": "poetry-22",
-   "title": "Complementary infinitives",
-   "body": "<p><em>soles occidere et redire possunt</em>: <em>Possunt</em> takes two infinitives, <em>occidere</em> and <em>redire</em>: suns can set and return.</p>"
+   "title": "A complementary infinitive",
+   "body": "<p><em>avet vagari</em>: <em>Avet</em>, “longs,” is completed by the infinitive <em>vagari</em>, “to wander.” <em>Mens</em>, “the mind,” is the subject.</p>"
   },
   {
    "id": "poetry-23",
-   "title": "A clause of time",
-   "body": "<p><em>nobis cum semel occidit brevis lux</em>: <em>Cum</em> with the indicative <em>occidit</em> gives the time: when once the brief light has set. <em>Nobis</em> goes with <em>dormienda</em> in the next line.</p>"
+   "title": "A participle",
+   "body": "<p><em>mens praetrepidans</em>: <em>Praetrepidans</em>, “trembling beforehand,” is a present participle and agrees with <em>mens</em>.</p>"
   },
   {
    "id": "poetry-24",
-   "title": "The gerundive of obligation",
-   "body": "<p><em>nox est perpetua una dormienda</em>: <em>Dormienda est</em>, the gerundive with <em>est</em>, says what must be done: one perpetual night must be slept. <em>Nobis</em> is the dative of the agent, by us.</p>"
+   "title": "The adjective and the cause",
+   "body": "<p><em>laeti studio pedes vigescunt</em>: <em>Pedes</em>, “the feet,” is the subject of <em>vigescunt</em>, “grow lively,” and <em>laeti</em>, “glad,” agrees with <em>pedes</em>. <em>Studio</em>, “with eagerness,” is an ablative of cause.</p>"
   },
   {
    "id": "poetry-25",
@@ -253,33 +253,33 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-50",
-   "title": "Propertius, <i>Elegiae</i> I.1.1–4 · Elegiac couplet",
-   "body": "<p>Cynthia prima suis miserum me cepit ocellis,<br>contactum nullis ante cupidinibus.<br>tum mihi constantis deiecit lumina fastus<br>et caput impositis pressit Amor pedibus,</p><p>Cynthia first captured wretched me with her own little eyes,<br>me, touched before by no desires.<br>Then Love cast down my eyes of constant pride<br>and pressed my head, his feet having been set on it,</p><p><strong>Context.</strong> Propertius opens his first book of elegies with Cynthia, the woman he loves, and with Love as a conqueror who stands on his neck. The meter is the elegiac couplet.</p>"
+   "title": "Ovid, <i>Fasti</i> III.1–4 · Elegiac couplet",
+   "body": "<p>Bellice, depositis clipeo paulisper et hasta,<br>Mars, ades et nitidas casside solve comas,<br>forsitan ipse roges, quid sit cum Marte poetae:<br>a te, qui canitur, nomina mensis habet.</p><p>Warlike one, your shield and your spear having been laid aside for a little while,<br>Mars, be present, and loose your shining hair from the helmet.<br>Perhaps you yourself may ask what a poet has to do with Mars:<br>the month that is sung of has its name from you.</p><p><strong>Context.</strong> Ovid opens the third book of the <em>Fasti</em>, on the month of March, by asking Mars to set his arms aside, because the month has its name from him. The meter is the elegiac couplet.</p>"
   },
   {
    "id": "poetry-51",
-   "title": "The subject",
-   "body": "<p><em>Cynthia prima</em>: <em>Cynthia</em> is the subject of <em>cepit</em>, and <em>prima</em> agrees with her: she was the first.</p>"
+   "title": "The address",
+   "body": "<p><em>Bellice … Mars</em>: <em>Mars</em> is vocative, the god addressed, and <em>bellice</em>, “warlike,” agrees with him.</p>"
   },
   {
    "id": "poetry-52",
-   "title": "The object and the means",
-   "body": "<p><em>suis miserum me cepit ocellis</em>: <em>Me</em> is the object, and <em>miserum</em> agrees with it. <em>Suis … ocellis</em>, “with her own little eyes,” is an ablative of means, divided around the verb.</p>"
+   "title": "Separation",
+   "body": "<p><em>nitidas casside solve comas</em>: <em>Solve</em>, “loose,” is an imperative, and <em>comas</em>, “hair,” is its object. <em>Casside</em>, “from the helmet,” is an ablative of separation.</p>"
   },
   {
    "id": "poetry-53",
-   "title": "A participle",
-   "body": "<p><em>contactum nullis ante cupidinibus</em>: <em>Contactum</em>, “touched,” agrees with <em>me</em>, and <em>nullis … cupidinibus</em> is an ablative of means: touched before by no desires.</p>"
+   "title": "An adjective with the object",
+   "body": "<p><em>nitidas … comas</em>: <em>Nitidas</em>, “shining,” agrees with <em>comas</em>, and the two are divided around <em>casside solve</em>.</p>"
   },
   {
    "id": "poetry-54",
-   "title": "A new clause",
-   "body": "<p><em>tum mihi constantis deiecit lumina fastus</em>: <em>Deiecit</em>, “cast down,” has its subject, <em>Amor</em>, in the next line. <em>Lumina</em>, “eyes,” is the object, <em>constantis … fastus</em> is a genitive depending on it, and <em>mihi</em> is a dative of reference: my eyes.</p>"
+   "title": "A dative of reference",
+   "body": "<p><em>quid sit cum Marte poetae</em>: <em>Quid sit</em> is an indirect question after <em>roges</em>, “you may ask,” which is subjunctive with <em>forsitan</em>, “perhaps.” <em>Poetae</em> is a dative of reference: what a poet has to do with Mars.</p>"
   },
   {
    "id": "poetry-55",
    "title": "An ablative absolute",
-   "body": "<p><em>et caput impositis pressit Amor pedibus</em>: <em>Amor</em> is the subject of both verbs. <em>Impositis … pedibus</em>, “his feet having been set on it,” is an ablative absolute, and <em>caput</em> is the object of <em>pressit</em>.</p>"
+   "body": "<p><em>depositis clipeo paulisper et hasta</em>: <em>Clipeo</em> and <em>hasta</em>, “the shield and the spear,” with the participle <em>depositis</em>, “having been laid aside,” make an ablative absolute. The participle is plural because it belongs to both nouns. <em>Paulisper</em>, “for a little while,” is an adverb.</p>"
   },
   {
    "id": "poetry-56",

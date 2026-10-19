@@ -4,7 +4,7 @@ ARS.decks["lang.ix.la/prose"] = {
  "id": "lang.ix.la/prose",
  "title": "Latin Prose",
  "sub": "Fifteen passages of the historians, the orators, and the Christian writers, read part by part",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries",
+ "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries; the rendering of Livy 5.47.4 is the course’s own",
  "panels": [
   {
    "id": "prose-1",
@@ -343,28 +343,28 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-68",
-   "title": "Livy, <i>Ab urbe condita</i> I.58",
-   "body": "<p>… postquam satis tuta circa sopitique omnes videbantur, stricto gladio ad dormientem Lucretiam venit sinistraque manu mulieris pectore oppresso …</p><p>When all around seemed safe and everybody fast asleep, he went in the frenzy of his passion with a naked sword to the sleeping Lucretia, and placing his left hand on her breast, said, …<br>— Roberts</p><p><strong>Context.</strong> Sextus Tarquinius, the king’s son, came at night to the house of Collatinus while he was away, and went to the room of Lucretia, his wife. Livy tells it in one sentence of circumstances leading to the main verb.</p>"
+   "title": "Livy, <i>Ab urbe condita</i> 5.47.4",
+   "body": "<p>… anseres non fefellere, quibus sacris Iunonis in summa inopia cibi tamen abstinebatur. quae res saluti fuit; namque clangore eorum alarumque crepitu excitus M. Manlius, qui triennio ante consul fuerat, vir bello egregius, armis arreptis simul ad arma ceteros ciens vadit et, dum ceteri trepidant, Gallum, qui iam in summo constiterat, umbone ictum deturbat.</p><p>The Gauls did not escape the notice of the geese, from which, sacred to Juno, there was nevertheless abstinence in the greatest want of food. This was the means of safety. For Marcus Manlius, who had been consul three years before, a man excellent in war, roused by their clamor and by the clatter of their wings, his arms having been seized, went to arms, calling the others at the same time, and, while the rest were in confusion, threw down a Gaul who had already taken his stand on the summit, struck with the boss.</p><p><strong>Context.</strong> The Gauls had climbed the Capitol by night. They had escaped the notice of the sentries and of the dogs. The geese were sacred to Juno, and they had not been eaten even when food was shortest. Marcus Manlius, roused by the geese, threw the first Gaul down from the height.</p>"
   },
   {
    "id": "prose-69",
    "title": "A clause of time",
-   "body": "<p><em>postquam satis tuta circa sopitique omnes videbantur</em>: <em>Postquam</em> with the indicative <em>videbantur</em> gives the time: after everything around seemed safe and all asleep. <em>Tuta circa</em> and <em>sopiti omnes</em> are two subjects with their predicates, joined by <em>-que</em>.</p>"
+   "body": "<p><em>dum ceteri trepidant</em>: <em>Dum</em>, “while,” with the indicative <em>trepidant</em>, “are in confusion,” gives the time of <em>deturbat</em>. <em>Ceteri</em>, “the rest,” is the subject.</p>"
   },
   {
    "id": "prose-70",
    "title": "An ablative absolute",
-   "body": "<p><em>stricto gladio</em>: A noun and a participle in the ablative give a circumstance: the sword having been drawn, that is, with drawn sword.</p>"
+   "body": "<p><em>armis arreptis</em>: <em>Armis</em>, “arms,” and <em>arreptis</em>, “having been seized,” stand in the ablative as a circumstance of <em>vadit</em>: the arms having been seized.</p>"
   },
   {
    "id": "prose-71",
-   "title": "The main verb",
-   "body": "<p><em>ad dormientem Lucretiam venit</em>: <em>Venit</em> is the main verb, and <em>ad … Lucretiam</em> gives the goal. <em>Dormientem</em>, a present participle, agrees with <em>Lucretiam</em>.</p>"
+   "title": "The main verb and the participles",
+   "body": "<p><em>ad arma ceteros ciens vadit</em> and <em>Gallum … umbone ictum deturbat</em>: <em>Vadit</em>, “goes,” is a main verb, and <em>ad arma</em>, “to arms,” gives the goal. <em>Ciens</em>, “calling,” is a present participle and agrees with Manlius, the subject; <em>ceteros</em>, “the others,” is its object. <em>Ictum</em>, “struck,” is a perfect participle and agrees with <em>Gallum</em>, the object of <em>deturbat</em>, “throws down.” <em>Umbone</em>, “with the boss,” is an ablative of means.</p>"
   },
   {
    "id": "prose-72",
-   "title": "A second ablative absolute",
-   "body": "<p><em>sinistraque manu mulieris pectore oppresso</em>: <em>Pectore oppresso</em> is another ablative absolute, her breast having been pressed down, and <em>sinistra manu</em> is the ablative of means: with his left hand. <em>Mulieris</em> is genitive, depending on <em>pectore</em>.</p>"
+   "title": "An ablative of cause",
+   "body": "<p><em>clangore eorum alarumque crepitu</em>: <em>Clangore</em>, “by the clamor,” and <em>crepitu</em>, “by the clatter,” are ablatives of cause with <em>excitus</em>, “roused.” <em>Eorum</em>, “of them,” and <em>alarum</em>, “of the wings,” are genitives. There is no participle with these nouns, so they give the cause of <em>excitus</em>.</p>"
   },
   {
    "id": "prose-73",

@@ -879,15 +879,15 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>postquam … videbantur</em> is…",
-   "explain": "<em>Postquam</em>, “after,” takes the indicative and gives the time of the main action.",
+   "prompt": "<em>dum ceteri trepidant</em> is…",
+   "explain": "<em>Dum</em>, “while,” with the indicative <em>trepidant</em> gives the time of <em>deturbat</em>.",
    "options": [
-    "A clause of time with the indicative",
-    "A clause of cause with the subjunctive",
+    "A clause of cause, with the subjunctive understood for the indicative that stands in the text",
     "A relative clause",
-    "A condition"
+    "A clause of time with the indicative",
+    "A condition contrary to fact"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ix.la/prose-ex:n55",
@@ -895,15 +895,15 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>sopitique</em></p> <em>sopiti</em> agrees with…",
-   "explain": "<em>Sopiti</em> is nominative masculine plural, the predicate of <em>omnes</em>: all seemed asleep. <em>-que</em> joins it to the first clause.",
+   "prompt": "<em>excitus</em> agrees with…",
+   "explain": "<em>Excitus</em>, “roused,” is nominative singular and agrees with <em>M. Manlius</em>. The Gauls, named in the clauses before these words, are the subject of <em>fefellere</em>, and <em>anseres</em> is the object.",
    "options": [
-    "<em>omnes</em>, the second subject of <em>videbantur</em>",
-    "<em>tuta</em>, the things around",
-    "The understood subject of <em>venit</em>",
-    "<em>Lucretiam</em>"
+    "<em>anseres</em>, as if the geese were the subject of <em>fefellere</em>",
+    "<em>M. Manlius</em>",
+    "<em>Gallum</em>, the Gaul who had already taken his stand on the summit",
+    "<em>ceteros</em>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ix.la/prose-ex:n56",
@@ -911,15 +911,15 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>stricto gladio</em> is…",
-   "explain": "A noun and a participle in the ablative stand apart as a circumstance of <em>venit</em>. Roberts renders it as a phrase, “with a naked sword.”",
+   "prompt": "<em>armis arreptis</em> is…",
+   "explain": "<em>Armis</em> and the participle <em>arreptis</em> stand in the ablative as a circumstance of <em>vadit</em>: the arms having been seized.",
    "options": [
-    "An ablative absolute: the sword having been drawn",
-    "A dative after <em>venit</em>, “he came to the drawn sword”",
-    "A nominative agreeing with the understood subject, Tarquin",
-    "An accusative, the object of the verb <em>venit</em>"
+    "The object of <em>vadit</em>",
+    "A dative of purpose",
+    "An ablative of means, the seized arms being a mere adjective with the verb",
+    "An ablative absolute"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/prose-ex:n57",
@@ -927,15 +927,15 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>dormientem</em> is…",
-   "explain": "<em>Dormientem</em> is the accusative singular of the present participle, and it agrees with <em>Lucretiam</em> after <em>ad</em>: to the sleeping Lucretia.",
+   "prompt": "<em>ictum</em> is…",
+   "explain": "<em>Ictum</em> is the perfect participle of <em>icio</em>, “strike,” and it agrees with <em>Gallum</em>, the object of <em>deturbat</em>: a Gaul struck with the boss.",
    "options": [
-    "A present participle agreeing with <em>Lucretiam</em>",
-    "A gerund, “by sleeping”",
-    "A perfect participle, “having slept”",
-    "An infinitive"
+    "A present participle agreeing with Manlius and governing <em>ceteros</em>",
+    "An infinitive",
+    "An ablative absolute",
+    "A perfect participle agreeing with <em>Gallum</em>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.ix.la/prose-ex:n58",
@@ -943,13 +943,13 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>mulieris pectore oppresso</em> is…",
-   "explain": "The noun <em>pectore</em> and the participle <em>oppresso</em> stand in the ablative as a circumstance, with <em>sinistra manu</em> as the means. the woman’s breast pressed down",
+   "prompt": "<em>clangore eorum</em> is…",
+   "explain": "<em>Clangore</em>, “by the clamor,” is an ablative of cause with <em>excitus</em>. <em>Eorum</em> is genitive. <em>Crepitu</em> is a second ablative of the same kind. An ablative absolute would have a participle, and none stands here.",
    "options": [
-    "A second ablative absolute",
-    "The object of <em>venit</em>",
-    "A dative of the person affected",
-    "An ablative of comparison"
+    "An ablative of cause",
+    "A second ablative absolute, with a participle understood",
+    "The object of <em>excitus</em>",
+    "A dative of the person for whom the noise was made"
    ],
    "answer": 0
   },

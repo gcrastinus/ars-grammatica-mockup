@@ -29,7 +29,7 @@ ARS.decks["lang.ii.grc/meter"] = {
   {
    "id": "meter-5",
    "title": "The Sapphic Stanza",
-   "body": "<p><strong>The sapphic stanza.</strong> Sappho’s poem 31 begins φαίνεταί μοι κῆνος ἴσος θέοισιν (“That man seems to me equal to the gods”), measured — ᴗ — x — ᴗ ᴗ — ᴗ — x. The <strong>sapphic stanza</strong> has three lines of this pattern and a short fourth line, the <strong>adonean</strong>, — ᴗ ᴗ — x. Sappho wrote in it on Lesbos about 600 BC, and Catullus and Horace took it over into Latin.</p>\n<p>Choral lyric, in the odes of tragedy, uses many other patterns, laid out in a <strong>strophe</strong> and an <strong>antistrophe</strong> of the same shape.</p>"
+   "body": "<p><strong>The sapphic stanza.</strong> A line of Sappho reads οἰ μὲν ἰππήων στρότον οἰ δὲ πέσδων (“Some an army of horsemen, others of foot soldiers”; fragment 16.1), measured — ᴗ — x — ᴗ ᴗ — ᴗ — x. The first letter is restored. The verb stands in the next line, which is not taken up here. The <strong>sapphic stanza</strong> has three lines of this pattern and a short fourth line, the <strong>adonean</strong>, — ᴗ ᴗ — x. Sappho wrote in it on Lesbos about 600 BC, and Catullus and Horace took it over into Latin.</p>\n<p>Choral lyric, in the odes of tragedy, uses many other patterns, laid out in a <strong>strophe</strong> and an <strong>antistrophe</strong> of the same shape.</p>"
   }
  ]
 };

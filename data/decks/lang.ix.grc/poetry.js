@@ -4,7 +4,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
  "id": "lang.ix.grc/poetry",
  "title": "Greek Poetry",
  "sub": "Ten passages in four meters, read part by part",
- "sources": "Smyth, <i>Greek Grammar</i>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, and Aeschylus are the course’s own plain renderings, line by line",
+ "sources": "Smyth, <i>Greek Grammar</i>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
@@ -158,33 +158,33 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-31",
-   "title": "Sappho, <i>Hymn to Aphrodite</i> fr. 1.1–4 · Sapphic stanza",
-   "body": "<p>Ποικιλόθρον᾽ ἀθάνατ᾽ Ἀφρόδιτα,<br>παῖ Διός, δολόπλοκε, λίσσομαί σε<br>μή μ᾽ ἄσαισι μηδ᾽ ὀνίαισι δάμνα,<br>πότνια, θῦμον·</p><p>Immortal Aphrodite of the broidered throne, daughter of Zeus, weaver of wiles, I pray you, break not my spirit with anguish and distress, O Queen.<br>— Henry Thornton Wharton</p><p><strong>Context.</strong> This is the first stanza of the only poem of Sappho that survives whole. The sapphic stanza has three long lines of the shape — ᴗ — x — ᴗ ᴗ — ᴗ — x and a short fourth, the adonean, — ᴗ ᴗ — x. Sappho writes in the Lesbian dialect, so she writes <em>θῦμον</em> for <em>θυμόν</em>.</p>"
+   "title": "Melinno, <i>Hymn to Rome</i> 1–4 · Sapphic stanza",
+   "body": "<p>χαῖρέ μοι, Ῥώμα, θυγάτηρ Ἄρηος,<br>χρυσεομίτρα δαΐφρων ἄνασσα,<br>σεμνὸν ἃ ναίεις ἐπὶ γᾶς Ὄλυμπον<br>αἰὲν ἄθραυστον.</p><p>Hail, Rome, daughter of Ares,<br>golden-mitred warlike queen,<br>you who dwell on a holy Olympus upon the earth,<br>forever unbroken.</p><p><strong>Context.</strong> Melinno’s hymn to Rome is preserved by Stobaeus. The meter is the sapphic stanza: three lines of the pattern — ᴗ — x — ᴗ ᴗ — ᴗ — x and a short fourth line, the adonean, — ᴗ ᴗ — x. The dialect is Doric, so long <em>ā</em> stands where Attic has <em>η</em>.</p>"
   },
   {
    "id": "poetry-32",
-   "title": "Vocative and elision",
-   "body": "<p><em>Ποικιλόθρον᾽ ἀθάνατ᾽ Ἀφρόδιτα</em>: The line has three vocatives: <em>ποικιλόθρονε</em>, “of the many-colored throne,” and <em>ἀθάνατε</em>, “immortal,” both elided before a vowel, and <em>Ἀφρόδιτα</em>, with Aeolic <em>ā</em> for Attic <em>η</em>.</p>"
+   "title": "The address",
+   "body": "<p><em>Ῥώμα … χρυσεομίτρα δαΐφρων ἄνασσα</em>: The line addresses Rome. <em>Ῥώμα</em>, <em>χρυσεομίτρα</em> (“golden-mitred”), <em>δαΐφρων</em> (“warlike”), and <em>ἄνασσα</em> (“queen”) are vocatives. <em>Ῥώμα</em> and <em>χρυσεομίτρα</em> have Doric long <em>ā</em>. <em>Θυγάτηρ</em> (“daughter”) is nominative, in apposition to Rome.</p>"
   },
   {
    "id": "poetry-33",
-   "title": "More vocatives",
-   "body": "<p><em>παῖ Διός, δολόπλοκε</em>: <em>Παῖ</em> is the vocative of <em>παῖς</em> (“child”); <em>Διός</em>, “of Zeus,” is the genitive of <em>Ζεύς</em>; and <em>δολόπλοκε</em> means “weaver of wiles.”</p>"
+   "title": "A genitive",
+   "body": "<p><em>θυγάτηρ Ἄρηος</em>: <em>Ἄρηος</em>, “of Ares,” is the genitive, depending on <em>θυγάτηρ</em>, “daughter.”</p>"
   },
   {
    "id": "poetry-34",
-   "title": "The main verb",
-   "body": "<p><em>λίσσομαί σε</em>: <em>Λίσσομαι</em>, “I beg,” is a deponent verb, middle in form, and it takes <em>σε</em> (“you”) as its object.</p>"
+   "title": "The imperative",
+   "body": "<p><em>χαῖρέ μοι</em>: <em>Χαῖρε</em> is the present imperative of <em>χαίρω</em>, “hail.” <em>Μοι</em> is the dative of the enclitic pronoun, “to me.” Because <em>μοι</em> is enclitic, the accent of <em>χαῖρε</em> is drawn to the last syllable.</p>"
   },
   {
    "id": "poetry-35",
-   "title": "A prohibition",
-   "body": "<p><em>μή μ᾽ ἄσαισι μηδ᾽ ὀνίαισι δάμνα</em>: <em>Μή</em> with the present imperative <em>δάμνα</em> makes a prohibition, “do not keep crushing.” <em>Ἄσαισι</em> and <em>ὀνίαισι</em> are Aeolic dative plurals, “with distress and pains.” <em>Μ᾽</em> is <em>μοι</em> or <em>με</em>, elided.</p>"
+   "title": "A relative clause",
+   "body": "<p><em>ἃ ναίεις ἐπὶ γᾶς</em>: <em>Ἅ</em>, “who,” is a relative pronoun, feminine, and takes up <em>Ῥώμα</em>. <em>Ναίεις</em>, “you dwell,” is its verb. <em>Ἐπὶ γᾶς</em> means “upon the earth.” <em>Γᾶς</em> is the Doric genitive, with long <em>ā</em>, for Attic <em>γῆς</em>.</p>"
   },
   {
    "id": "poetry-36",
    "title": "The adonean",
-   "body": "<p><em>πότνια, θῦμον</em>: <em>Πότνια</em>, “lady,” is another vocative, and <em>θῦμον</em> (“my heart”) is the object of <em>δάμνα</em>. The line is an adonean: — ᴗ ᴗ — —.</p>"
+   "body": "<p><em>αἰὲν ἄθραυστον</em>: <em>Ὄλυμπον</em> (“Olympus”) is the object of <em>ναίεις</em>. <em>Σεμνὸν</em> (“holy”) and <em>ἄθραυστον</em> (“unbroken”) agree with it, and <em>αἰὲν</em> means “forever.” The line is an adonean, measured <em>αἰ-ὲν ἄ-θραυ-στον</em>, — ᴗ ᴗ — —.</p>"
   },
   {
    "id": "poetry-37",
