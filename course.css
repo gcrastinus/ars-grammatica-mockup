@@ -2,7 +2,6 @@
 .set-card.built .soon-flag{display:none}
 .set-card.soon .begin{display:none}
 .set-card .kind{font-family:'Cinzel',serif; font-size:12px; letter-spacing:.2em; color:var(--gold); text-transform:uppercase; margin-bottom:6px}
-.set-card .done-flag{position:absolute; top:14px; right:16px; font-family:'Cinzel',serif; font-size:12px; letter-spacing:.12em; color:var(--good-text)}
 .set-card .card-id{font-size:13px; color:var(--ink-soft); opacity:.7; margin-top:6px; font-style:italic}
 .home-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; margin:8px 0 30px}
 
@@ -43,10 +42,10 @@
 /* A deck's exercise: a full-height strip along the right edge of its tile, in a set-off shade. */
 .set-card{--ex-w:clamp(80px,18%,118px)}
 .set-card:has(> .ex-link){padding-right:calc(var(--ex-w) + 18px)}
-.set-card .ex-link{position:absolute; top:0; right:0; bottom:0; width:var(--ex-w); margin:0; display:flex; align-items:center; justify-content:center; text-align:center; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.1em; line-height:1.35; color:var(--gold); background:var(--panel); border:none; border-left:1px solid var(--line); border-radius:0 13px 13px 0; padding:10px 6px; cursor:pointer; transition:background .15s, color .15s}
+.set-card .ex-link{position:absolute; top:0; right:0; bottom:0; width:var(--ex-w); margin:0; display:flex; align-items:center; justify-content:center; text-align:center; font-family:'Cinzel',serif; font-size:13px; font-weight:600; letter-spacing:.1em; line-height:1.35; color:var(--gold); background:var(--panel); border:none; border-left:1px solid var(--line); border-radius:0 13px 13px 0; padding:10px 6px; cursor:pointer; transition:background .15s, color .15s}
+.set-card .ex-link.is-done{font-weight:400}
 .set-card .ex-link:hover, .set-card .ex-link:focus-visible{background:var(--track); color:var(--ink)}
 .set-card .ex-link:focus-visible{outline:2px solid var(--gold); outline-offset:-3px}
-.set-card:has(> .ex-link) .done-flag{right:calc(var(--ex-w) + 14px)}
 .set-card.soon.has-plan{opacity:.8; cursor:pointer}
 .set-card.soon.has-plan .soon-flag::after{content:' · plan'}
 .ex-plan{border-style:dashed}
@@ -500,7 +499,6 @@ body.dark .lang-bar .lang-btn:focus-visible{
 }
 .set-card.review-bar .begin,
 .set-card.review-bar .soon-flag{margin-top:2px; font-size:12px; letter-spacing:.12em}
-.set-card.review-bar .done-flag{top:10px; right:18px; font-size:11px; letter-spacing:.08em}
 .ex-count{text-align:center; font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; color:var(--gold); margin:8px 0 12px}
 .ex-empty{text-align:center; font-style:italic; color:var(--ink-soft); font-size:18px; line-height:1.5; margin:28px auto; max-width:520px}
 .typed-row{display:flex; gap:10px; align-items:center; margin-top:14px}

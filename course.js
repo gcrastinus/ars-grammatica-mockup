@@ -273,16 +273,18 @@ function makeTile(it){
   c.dataset.id = it.id;
   const studied = it.built && !practiceTile && st && st.done;
   const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
+  const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : 'Study →') : '';
   c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
-    ${studied ? '<span class="done-flag">✓ Studied</span>' : ''}${finished ? '<span class="done-flag">✓ Finished</span>' : ''}
     <h3>${it.title}</h3><p>${it.desc}</p>
-    <span class="begin">${it.built ? ((practiceTile || it.introFor) ? 'Begin →' : 'Study →') : ''}</span>
+    <span class="begin${(studied || finished) ? ' is-done' : ''}">${begin}</span>
     <span class="soon-flag">Coming</span>`;
   const exId = ARS.deckEx && ARS.deckEx[it.id];
   /* Language exercises are loaded by id. They are not listed in exerciseFiles.
      introFor opens its exercise from Next on the last panel, so the tile has no Exercise button. */
   if (it.built && !it.introFor && exId && (hasPlan(exId) || String(exId).indexOf('lang.') === 0)){
-    const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link'; b.textContent = 'Exercise →';
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'ex-link';
+    if (store.ex && store.ex[exId] && store.ex[exId].done) b.classList.add('is-done');
+    b.textContent = 'Exercise →';
     b.onclick = e => { e.stopPropagation(); openEx(exId); };
     c.appendChild(b);
   }

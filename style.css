@@ -260,8 +260,9 @@ h1{font-family:'Cinzel', serif; font-size:44px; font-weight:600; letter-spacing:
 .set-card p{font-size:16.5px; color:var(--ink-soft); line-height:1.45; flex:1}
 .begin{
   display:inline-block; margin-top:12px; font-family:'Cinzel',serif; font-size:13px;
-  letter-spacing:.16em; color:var(--gold);
+  letter-spacing:.16em; color:var(--gold); font-weight:600;
 }
+.begin.is-done{font-weight:400}
 .soon-flag{
   display:inline-block; margin-top:12px; font-family:'Cinzel',serif; font-size:12px;
   letter-spacing:.16em; color:var(--ink-soft); font-style:normal;

@@ -80,7 +80,6 @@
         || el.classList.contains('q-head')
         || el.classList.contains('begin')
         || el.classList.contains('soon-flag')
-        || el.classList.contains('done-flag')
         || el.classList.contains('q-progress')
         || el.classList.contains('designer-credit')
         || el.classList.contains('si-home');
