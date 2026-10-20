@@ -1,6 +1,6 @@
 /* IX.2 Analysis of Passages [ix.passages]
    Plan (ITEM-LIST.md): 3 panels (method only), no question points. Exercise: pool of 15 passages, 5 questions each
-   (not yet written). Latin passages are used only with a published translation close enough to align phrase by phrase.
+   (written 20 Oct 2026, from sources/passages/). The Latin passages carry the course’s literal translations (sources/TRANSLATIONS-USED.md).
    Live material drawn on: none for the method panels. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
