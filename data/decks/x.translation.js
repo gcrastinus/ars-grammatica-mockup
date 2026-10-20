@@ -1,5 +1,5 @@
 /* X.3 Translation [x.translation]
-   Plan (ITEM-LIST.md): 12 panels, 4 question points (placeholders: qpTodo; to be written). Translators are named only in
+   Plan (ITEM-LIST.md): 12 panels, 4 question points. Translators are named only in
    the source lines (REVISION-GUIDE M).
    Live material drawn on: DECKS.traditions (why a concept cannot be the end of signification), in part. Aristotle,
    De interpretatione 1, is quoted as in i.sign. Cicero is quoted in Latin (checked) with a
@@ -30,7 +30,20 @@ ARS.decks['x.translation'] = {
   body: `<p>Anyone who has tried to translate knows that a version that follows the original word for word often sounds strange, and that a good translation must sometimes change the words in order to keep the sense. Cicero, the Roman orator of the first century BC, translated two Greek speeches, Demosthenes’ and Aeschines’ speeches on the crown, and he explained his method: he did not translate as an interpreter but as an orator, keeping the same thoughts and their forms, which he calls their figures, in words suited to Latin usage; and he did not think it necessary to render word for word, but kept the whole character and force of the words (<i>nec converti ut interpres, sed ut orator, sententiis isdem et earum formis tamquam figuris, verbis ad nostram consuetudinem aptis. In quibus non verbum pro verbo necesse habui reddere, sed genus omne verborum vimque servavi</i>; <i>De optimo genere oratorum</i> 14).</p>
 <p>Cicero distinguishes two ways of translating. The interpreter (<i>interpres</i>) renders word for word; the orator renders the thought and the style in the words that his own language uses. Cicero chose the second way because his purpose was to give Romans a model of Greek eloquence in Latin, and a word-for-word version would not have been eloquent Latin.</p>`,
   src: `Cicero, <i>De optimo genere oratorum</i> 14 (the Latin checked against the Latin Library and Perseus texts; the English in paraphrase; H. M. Hubbell, Loeb, for reference).`,
-  qpTodo: `Cicero’s method: what does Cicero mean by translating “as an orator” rather than “as an interpreter,” and what does each kind of translator preserve.` },
+  qp: { id: 'q-cicero', variants: [
+    { prompt: `What does Cicero mean by translating “as an orator” rather than “as an interpreter”?`,
+      options: [`Rendering every Greek word in its order`, `Rendering the thought, not word for word`, `Adding arguments of his own to the speeches`, `Translating only the best parts of each speech`],
+      answer: 1,
+      explain: `The interpreter renders word for word; the orator keeps the same thoughts and their figures in words suited to his own language.` },
+    { prompt: `According to Cicero, what does the orator-translator keep?`,
+      options: [`The thoughts, their figures, and the force of the words`, `The exact order and the number of the Greek words`, `The sounds and the rhythm of the Greek sentences`, `Nothing but the general topic of each of the speeches`],
+      answer: 0,
+      explain: `Cicero says he kept the same thoughts and their forms, and the whole character and force of the words, though not word for word.` },
+    { prompt: `Why did Cicero choose to translate as an orator?`,
+      options: [`To make the Greek easier for students to parse`, `Because he knew too little Greek to do otherwise`, `To shorten the speeches for a Roman audience`, `To give Romans eloquent Latin models`],
+      answer: 3,
+      explain: `His purpose was to give Romans a model of Greek eloquence in Latin, and a word-for-word version would not have been eloquent Latin.` }
+  ] } },
 
 { id: 'jerome',
   title: 'Jerome: sense for sense',
@@ -43,7 +56,20 @@ ARS.decks['x.translation'] = {
   body: `<p>The difference between word-for-word and sense-for-sense translation can be seen in a single sentence. Latin <i>grātiās agō</i> means, word for word, “I do thanks,” but in sense, “I thank you.” The ablative absolute <i>hōc factō</i> means, word for word, “this having been done,” but English usually says “when this had been done” or “after this was done.” <i>Pāx petenda est</i> is, word for word, “peace is to-be-sought,” but in sense, “peace must be sought.”</p>
 <p>In each case the word-for-word version is either not English or not natural English, because the two languages express the same relation by different constructions, as we saw in Sections V and VII. A sense-for-sense translation finds the English construction that expresses the same relation. But the closer version still has a use: it shows the construction of the original, and so it serves the student of the language, as we saw with the close translations used in the analysis of passages.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i>, in paraphrase.`,
-  qpTodo: `Word for word and sense for sense: given a Latin expression (<i>nōmen mihi est</i>, <i>nāve frāctā</i>, <i>bellum gerendum est</i>), which English version is word for word and which sense for sense, and what does each preserve.` },
+  qp: { id: 'q-word-sense', variants: [
+    { prompt: `<i>Nōmen mihi est Marcus.</i> Which English version is word for word?`,
+      options: [`“My name is Marcus.”`, `“I am called by the name Marcus.”`, `“Marcus is the name I have.”`, `“Name to me is Marcus.”`],
+      answer: 3,
+      explain: `Word for word, the dative <i>mihi</i> is “to me”: “Name to me is Marcus.” The other versions render the sense in English constructions.` },
+    { prompt: `<i>Nāve frāctā, nautae natāvērunt.</i> Which English version renders the sense?`,
+      options: [`“The ship having been broken, the sailors swam.”`, `“By a broken ship the sailors swam.”`, `“When the ship was wrecked, the sailors swam.”`, `“Ship broken, sailors swam.”`],
+      answer: 2,
+      explain: `The ablative absolute is rendered in natural English by a clause, “when the ship was wrecked.” “The ship having been broken” is the word-for-word version, which shows the Latin construction.` },
+    { prompt: `<i>Bellum gerendum est.</i> What does the word-for-word version, “war is to-be-waged,” preserve?`,
+      options: [`The natural English idiom`, `The Latin construction`, `The tone of the speaker`, `Nothing of the original`],
+      answer: 1,
+      explain: `The close version shows the gerundive construction of the Latin; the sense-for-sense version, “war must be waged,” finds the English construction for the same relation.` }
+  ] } },
 
 { id: 'bruni',
   title: 'Bruni on the correct way to translate',
@@ -80,14 +106,40 @@ ARS.decks['x.translation'] = {
   body: `<p>The classical account answers both objections from the doctrine of signification that we studied in Section I. Words signify things by means of concepts, and the concepts are likenesses of the things; so the meaning of a word is not only a pattern of behavior, as Quine supposed, nor a creation of the grammar of each language, as the strong form of the Sapir–Whorf hypothesis supposed. The rabbit is one animal, and the concept of it is one, whatever words different peoples have imposed.</p>
 <p>This answer does not deny what the objections rightly observe: that languages divide and mark things differently, and that a translator can be uncertain what a word means. It holds that such uncertainty is overcome, as it is in fact overcome by every child who learns a language and by every translator who learns a foreign one, by attending to the things that are spoken about and to the use of the words in many sentences. So translation is difficult and always imperfect in some respects, but it is possible, because what is understood is common to all.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 1; St. Thomas, <i>In Peri hermeneias</i> I, lect. 2; both in paraphrase.`,
-  qpTodo: `The objections and the answer: what do the Sapir–Whorf hypothesis and Quine’s indeterminacy each claim about translation, and how does the classical account of signification answer them.` },
+  qp: { id: 'q-answer', variants: [
+    { prompt: `What does the strong form of the Sapir–Whorf hypothesis claim about translation?`,
+      options: [`Different grammars make concepts differ`, `Every language marks tense in its verbs`, `Translation between any languages is easy`, `Words signify their things by nature alone`],
+      answer: 0,
+      explain: `The strong form holds that grammar shapes thought so that speakers of very different languages think in different ways; if that were true, translation between them would be impossible.` },
+    { prompt: `What does Quine’s indeterminacy of translation claim?`,
+      options: [`Every word in a language has only one meaning`, `No language has a word for a rabbit as a whole`, `Translation is possible but always very slow`, `There is no fact about the right translation`],
+      answer: 3,
+      explain: `Quine argued that no evidence of behavior could settle which translation is right, and that there is no fact of the matter, because meaning is nothing beyond behavior.` },
+    { prompt: `How does the classical account answer both objections?`,
+      options: [`Languages do not differ in what they mark`, `A careful translator never makes an error`, `The concepts of the same things are common`, `Meaning is nothing beyond observable behavior`],
+      answer: 2,
+      explain: `Words signify things by concepts that are likenesses of the things, so what is understood is common to all; the difficulty of translation is real but can be overcome by attending to the things and to the use of the words.` }
+  ] } },
 
 { id: 'grammar-exercise',
   title: 'Translation as an exercise of grammar',
   body: `<p>Translation draws on every part of the grammar we have studied. The translator must parse and construe the original, as in the analysis of sentences; recognize its figures and tropes; know the signification of its words and the differences among synonyms; and then compose in the other language, choosing the constructions that express the same relations. So translation is both a test of understanding and an exercise in composition.</p>
 <p>This is why the tradition, from Cicero’s translations of Demosthenes to Ascham’s double translation, used translation to teach both the foreign language and one’s own. A student who translates a sentence of Latin into good English has understood the Latin and has written English, and in comparing the two he learns what each language can do.</p>`,
   src: `Ascham, <i>The Scholemaster</i>; Quintilian, <i>Institutio oratoria</i> X.5, in paraphrase.`,
-  qpTodo: `Translation and grammar: which parts of grammar does a translator use at each step (parsing and construing the original, recognizing its figures, choosing the constructions of the other language).` }
+  qp: { id: 'q-grammar-exercise', variants: [
+    { prompt: `A translator finds the subject, the verb, and the cases of a Latin sentence. Which part of grammar is used at this step?`,
+      options: [`Parsing and construing`, `Composition in English`, `The rules of meter`, `Etymology and spelling`],
+      answer: 0,
+      explain: `Finding what each word is and how the words go together is the analysis of the sentence, its parsing and construing.` },
+    { prompt: `The translator recognizes that a phrase is a metaphor and decides how to keep it. Which part of grammar is used?`,
+      options: [`The study of the letters and sounds`, `The declensions of nouns`, `Punctuation and spelling`, `The study of figures and tropes`],
+      answer: 3,
+      explain: `Recognizing a figurative use, and deciding how to carry it over, draws on the study of figures and tropes.` },
+    { prompt: `The translator chooses an English clause for a Latin ablative absolute. Which part of grammar is used?`,
+      options: [`Etymology of the Latin words`, `The quantity of syllables`, `Composition in the other language`, `Spelling and pronunciation`],
+      answer: 2,
+      explain: `Choosing the construction that expresses the same relation in English is composition, the last step of translation.` }
+  ] } }
 
   ]
 };
