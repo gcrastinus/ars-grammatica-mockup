@@ -1,5 +1,5 @@
 /* XI.2 Universal Grammar and Modern Linguistics [xi.modern]
-   Plan (ITEM-LIST.md): 45 panels, 15 question points (placeholders: qpTodo; to be written). No exercise.
+   Plan (ITEM-LIST.md): 45 panels, 15 question points. No exercise.
    Live material drawn on: DECKS.traditions (Three Ways of Studying Language, whole: three ways, the humanists, what
    philology gained, Saussure, what the modists granted, langue as habit, John of St. Thomas on the signified, what a
    closed system loses, where this leaves the student); DECKS.typo (typology); DECKS.ug (two universal grammars; what
@@ -46,7 +46,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>English “name,” Latin <i>nōmen</i>, Greek <i>onoma</i>, and Sanskrit <i>nāman</i> are plainly alike, and such likenesses run through many words of many languages. In 1786 Sir William Jones, a British judge in Calcutta who had learned Sanskrit, told the Asiatic Society of Bengal that Sanskrit bears to Greek and Latin a stronger likeness, both in the roots of its verbs and in its grammatical forms, than could have come about by chance, so that a scholar who examined all three would conclude that they had sprung from some common source, which perhaps no longer exists (“Third Anniversary Discourse”).</p>
 <p>This observation began the study of the history and relations of languages. Philologists came to see that Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written. We saw in Section IV that comparative etymology explains English “foot” and Latin <i>pēs</i> as cognates; that explanation rests on the discovery that Jones announced.</p>`,
   src: `Sir William Jones, “Third Anniversary Discourse” (1786), in paraphrase.`,
-  qpTodo: `The discovery of Sanskrit: what did Jones observe about Sanskrit, Greek, and Latin, and what did his observation begin.` },
+  qp: { id: 'q-jones', variants: [
+    { prompt: `What did Sir William Jones observe about Sanskrit, Greek, and Latin?`,
+      options: [`That Sanskrit was descended from Latin`, `That Greek and Latin were unrelated`, `That Sanskrit had no grammar of its own at all`, `A likeness too strong to come by chance`],
+      answer: 3,
+      explain: `Jones said that Sanskrit bears to Greek and Latin a stronger likeness, in the roots of its verbs and in its grammatical forms, than could have come about by chance.` },
+    { prompt: `What did Jones conclude from the likeness of the three languages?`,
+      options: [`Sanskrit is the parent of the other two`, `Latin is the parent of the other two`, `They sprang from a common source`, `The likeness was a coincidence`],
+      answer: 2,
+      explain: `Jones concluded that a scholar who examined all three would see that they had sprung from some common source, which perhaps no longer exists.` },
+    { prompt: `What study did Jones’s observation begin?`,
+      options: [`The medieval study of the modes of signifying`, `The history and relations of languages`, `The first grammar of Sanskrit`, `The study of speech acts`],
+      answer: 1,
+      explain: `His observation began the study of the history and relations of languages, which led to the recognition of Proto-Indo-European, the unwritten parent of Latin, Greek, Sanskrit, and many other languages.` }
+  ] } },
 
 { id: 'comparative',
   title: 'Comparative and historical grammar',
@@ -73,14 +86,40 @@ ARS.decks['xi.modern'] = {
   body: `<p>When someone says “The bus is late,” two things are involved: a particular act of speaking, and the English language that makes the act possible. The Swiss linguist Ferdinand de Saussure (1857–1913) is usually counted the founder of modern linguistics. His <i>Cours de linguistique générale</i> (“Course in General Linguistics”), published from his students’ notes in 1916, distinguishes <i>langue</i>, the system of a language shared by its speakers, from <i>parole</i>, the particular acts of speaking in which the system is used. No single speaker invents or controls the <i>langue</i>; each speaker draws on it. Saussure held that linguistics should take the <i>langue</i> as its object (<i>Cours</i>, Introduction).</p>
 <p>So in the sentence “The bus is late,” spoken by a particular person at a particular time, the act of speaking is <i>parole</i>, and the English words, forms, and rules that make it possible are <i>langue</i>. The grammarian of the classical art studied the language of the authors, which is neither simply the one nor the other, but the best usage within the <i>langue</i>.</p>`,
   src: `Saussure, <i>Cours de linguistique générale</i> (trans. Wade Baskin, 1959, for reference), in paraphrase.`,
-  qpTodo: `Langue and parole: in a given example, what is the <i>langue</i> and what is the <i>parole</i>, and which did Saussure make the object of linguistics.` },
+  qp: { id: 'q-saussure', variants: [
+    { prompt: `A child asks her father, “May I go out?” In Saussure’s terms, what is the child’s question?`,
+      options: [`<i>Langue</i>, the whole system of the English language`, `Neither <i>langue</i> nor <i>parole</i>`, `A signified without a signifier`, `<i>Parole</i>, a particular act of speaking`],
+      answer: 3,
+      explain: `The particular act of speaking, by one person at one time, is <i>parole</i>; the English words, forms, and rules that make it possible are <i>langue</i>.` },
+    { prompt: `In the same example, what is the <i>langue</i>?`,
+      options: [`The child’s voice as she speaks the words`, `The father’s answer to the question`, `The English words, forms, and rules`, `The particular time and place of the question`],
+      answer: 2,
+      explain: `The <i>langue</i> is the system of a language shared by its speakers, which no single speaker invents or controls.` },
+    { prompt: `Which did Saussure make the object of linguistics?`,
+      options: [`<i>Parole</i>`, `<i>Langue</i>`, `Both equally`, `Neither, but the history of words`],
+      answer: 1,
+      explain: `Saussure held that linguistics should take the <i>langue</i>, the shared system, as its object.` }
+  ] } },
 
 { id: 'signifier',
   title: 'The sign: signifier and signified',
   body: `<p>English says “snow” and Latin says <i>nix</i> for the same thing. Saussure describes the linguistic sign as the union of a <strong>signifier</strong> (<i>signifiant</i>), a sound-image, and a <strong>signified</strong> (<i>signifié</i>), a concept. The sign does not join a name to a thing but a sound-image to a concept. And the bond between them is <strong>arbitrary</strong>: nothing in the sound of English “snow” or Latin <i>nix</i> fits it to the concept of snow, as the existence of different words in different languages shows (<i>Cours</i>, Part I, ch. 1).</p>
 <p>The classical tradition agrees with much of this. We saw in Section I that words signify by imposition, not by nature, and that they signify things by means of concepts. Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things. The difference between Saussure and the tradition lies in what follows the concept.</p>`,
   src: `Saussure, <i>Cours</i>, Part I, ch. 1, in paraphrase.`,
-  qpTodo: `Signifier and signified: what does Saussure mean by the signifier and the signified, what does he mean by calling the sign arbitrary, and where does the classical doctrine of imposition agree.` },
+  qp: { id: 'q-signifier', variants: [
+    { prompt: `What does Saussure mean by the signifier and the signified?`,
+      options: [`A sound-image and a concept`, `A name and the thing it names`, `A letter and a sound`, `A word and its etymology`],
+      answer: 0,
+      explain: `The linguistic sign joins a signifier (<i>signifiant</i>), a sound-image, to a signified (<i>signifié</i>), a concept; it does not join a name to a thing.` },
+    { prompt: `What does Saussure mean by calling the sign arbitrary?`,
+      options: [`The sign can mean anything that a speaker likes`, `Speakers change their words every day`, `The sign has no meaning at all`, `Nothing in the sound fits it to the concept`],
+      answer: 3,
+      explain: `The bond between signifier and signified is arbitrary: nothing in the sound of a word fits it to its concept, as the different words of different languages for the same thing show.` },
+    { prompt: `Where does the classical doctrine agree with Saussure’s account of the sign?`,
+      options: [`The concept is the end of signification`, `Words signify things without concepts`, `Words signify by imposition, not by nature`, `The modes of signifying differ from language to language`],
+      answer: 2,
+      explain: `The tradition holds that words signify by imposition and by means of concepts. It differs from Saussure on what follows the concept.` }
+  ] } },
 
 { id: 'synchronic',
   title: 'Synchronic and diachronic',
@@ -111,7 +150,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>When we think of an island, it is the island that we think of, not our idea of it. We saw in Section I that smoke or a spoken word must first be known as an object before it leads the mind to something else, and is therefore an <strong>instrumental sign</strong>, whereas the concept leads the mind to its object without first being known as an object itself, and is therefore a <strong>formal sign</strong>. The concept is that by which we know, not that which we know. Saussure makes the signified a concept and stops there. The classical reply rests on this doctrine of signs, which comes from John of St. Thomas (John Poinsot) (<i>Tractatus de signis</i>).</p>
 <p>If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else. Saussure’s account treats the concept as the end point of signification; the classical account holds that through the concept the word signifies the thing. This is the central point at which the two accounts differ, and it concerns not the facts of language but what signification is.</p>`,
   src: `John of St. Thomas, <i>Tractatus de signis</i> (trans. John Deely, 1985, for reference), in paraphrase.`,
-  qpTodo: `Instrumental and formal signs: why is the concept a formal sign, and why does the classical account hold that signification does not end in the concept, as Saussure’s account does.` },
+  qp: { id: 'q-poinsot', variants: [
+    { prompt: `Why is the concept a formal sign?`,
+      options: [`It leads to its object without being known`, `It must first be known as an object by the mind`, `It is a written mark that stands for a sound`, `It signifies only by the convention of speakers`],
+      answer: 0,
+      explain: `An instrumental sign, such as smoke or a spoken word, must first be known as an object; the concept leads the mind to its object without first being known as an object itself.` },
+    { prompt: `Why does the classical account hold that signification does not end in the concept?`,
+      options: [`The concept is a spoken word, not a mental one`, `The concept is known before the thing`, `Concepts differ from language to language`, `A formal sign consists in leading to another`],
+      answer: 3,
+      explain: `If the concept is a formal sign, it consists entirely in leading the mind to something else, so through the concept the word signifies the thing.` },
+    { prompt: `According to the classical account, when we think of an island, what do we think of?`,
+      options: [`Our idea of the island`, `The word “island”`, `The island itself`, `The sound of the word`],
+      answer: 2,
+      explain: `The concept is that by which we know, not that which we know, so it is the island that we think of.` }
+  ] } },
 
 { id: 'bloomfield',
   title: 'Bloomfield and American structuralism',
@@ -126,7 +178,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>A speaker of English knows at once that “The guests arrived” is an English sentence and that “Arrived guests the” is not, though no one taught a rule that decides it. In <i>Syntactic Structures</i> (1957) Noam Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones. Such a grammar is called <strong>generative</strong>. Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, and gave the example “Colorless green ideas sleep furiously,” which is grammatical though it makes no sense, whereas “Furiously sleep ideas green colorless” is not grammatical (<i>Syntactic Structures</i>, ch. 2).</p>
 <p>We saw in Section V that the classical grammarians distinguished congruity from truth: “The chimaera runs” is congruous, though false. Chomsky’s example makes a similar point, that grammatical correctness is distinct from sense. But the modists would add that “Colorless green ideas” is congruous because its words fit one another by their modes of signifying, which are themselves taken from meaning; so for them grammar is never wholly independent of signification.</p>`,
   src: `Chomsky, <i>Syntactic Structures</i> (1957), ch. 2; the example sentence quoted.`,
-  qpTodo: `Grammatical and meaningful: why is a sentence such as “Square silence drinks the morning” grammatical but meaningless, and how does this compare with the classical distinction between congruity and truth.` },
+  qp: { id: 'q-syntactic-structures', variants: [
+    { prompt: `Why is “Square silence drinks the morning” grammatical?`,
+      options: [`It states something that is true`, `It has a clear sense that any reader grasps`, `It contains no verb and no subject`, `Its words are correctly constructed`],
+      answer: 3,
+      explain: `The adjective agrees with its noun, the verb with its subject, and the verb has an object, so the sentence is correctly constructed, although it makes no sense.` },
+    { prompt: `Why is “Square silence drinks the morning” meaningless?`,
+      options: [`It has an error of construction in it`, `It lacks a subject`, `Its words cannot be joined in sense`, `Its verb is in the wrong tense`],
+      answer: 2,
+      explain: `Silence cannot be square or drink anything, so the words, though correctly constructed, do not make a sense that could be true or false.` },
+    { prompt: `Which classical distinction does Chomsky’s example most resemble?`,
+      options: [`Literal and figurative sense`, `Congruity and truth`, `Barbarism and solecism`, `Noun and verb`],
+      answer: 1,
+      explain: `The classical grammarians held that “The chimaera runs” is congruous though false; Chomsky’s example likewise separates grammatical correctness from sense. The modists would add that congruity follows modes of signifying taken from meaning.` }
+  ] } },
 
 { id: 'phrase-structure',
   title: 'Phrase-structure rules',
@@ -157,7 +222,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>In English the verb comes before its object (“opens the door”) and the preposition before its noun (“under the bridge”); in Japanese both come after. In the 1980s Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>, which have a small number of possible settings, fixed differently in different languages. One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, so that the verb precedes its object and the preposition its noun, whereas Japanese places it last, so that it has postpositions in place of prepositions.</p>
 <p>This proposal connects generative grammar with the typology that we saw in Section V: Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun can be explained as the setting of one parameter. It also resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents, with the principles in the place of the substance and the parameters in the place of the accidents.</p>`,
   src: `Chomsky, <i>Lectures on Government and Binding</i> (1981), in paraphrase.`,
-  qpTodo: `Principles and parameters: what is a parameter, how does the head parameter explain the difference between English and Japanese order, and how does the proposal compare with Bacon’s substance and accidents.` },
+  qp: { id: 'q-parameters', variants: [
+    { prompt: `In the theory of principles and parameters, what is a parameter?`,
+      options: [`A point of grammar with a few settings`, `A rule that holds without exception for every language`, `A word that has no meaning`, `A sound that every language has`],
+      answer: 0,
+      explain: `Principles hold for every language; parameters have a small number of possible settings, which are fixed differently in different languages.` },
+    { prompt: `How does the head parameter explain the difference between English and Japanese order?`,
+      options: [`English has heads and Japanese has none`, `Japanese has no verbs or objects`, `English has postpositions, Japanese prepositions`, `English puts the head first, Japanese last`],
+      answer: 3,
+      explain: `English places the head of a phrase first, so the verb precedes its object and the preposition its noun; Japanese places it last, so it has postpositions.` },
+    { prompt: `How does the theory compare with Roger Bacon’s claim?`,
+      options: [`It denies that any grammar is common to all languages`, `It makes every language the same`, `Principles are substance, parameters accidents`, `Bacon spoke only of Latin`],
+      answer: 2,
+      explain: `Bacon held that grammar is one in substance and differs in accidents; the principles stand in the place of the substance and the parameters in the place of the accidents.` }
+  ] } },
 
 { id: 'minimalism',
   title: 'The minimalist program',
@@ -190,7 +268,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>Thomas and Tesnière agree on most dependences: the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb. They agree that every construction joins two words and that the sentence is a structure of such joinings. They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.</p>
 <p>For Thomas, a word depends on another because its mode of signifying requires what the other supplies; the reason lies in signification. For Tesnière, a word depends on another because of its place in the structure of the sentence; the reason lies in the structure itself. So the modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Tesnière, <i>Éléments</i>; both in paraphrase.`,
-  qpTodo: `Thomas and Tesnière: on which dependences do they agree, on which do they differ, and where does each find the reason for a dependence.` },
+  qp: { id: 'q-dependency-compare', variants: [
+    { prompt: `On which dependence do Thomas of Erfurt and Tesnière agree?`,
+      options: [`The verb depends on its subject`, `The subject depends on its verb alone`, `The noun depends on its adjective`, `The adjective depends on its noun`],
+      answer: 3,
+      explain: `They agree on most dependences, such as the adjective on its noun, the adverb on its verb, and the article on its noun.` },
+    { prompt: `On which relation do Thomas and Tesnière chiefly differ?`,
+      options: [`The relation of the adjective to its noun`, `The adverb and its verb`, `The relation of the verb to its subject`, `The article and its noun`],
+      answer: 2,
+      explain: `Thomas makes the verb depend on its subject; Tesnière makes the subject depend on the verb.` },
+    { prompt: `Where does each find the reason for a dependence?`,
+      options: [`Both in the order of the words in the sentence`, `Thomas in signification, Tesnière in structure`, `Both in the history of the language`, `Thomas in sound, Tesnière in meaning`],
+      answer: 1,
+      explain: `For Thomas a word depends on another because its mode of signifying requires what the other supplies; for Tesnière the reason lies in the structure of the sentence.` }
+  ] } },
 
 /* ---------- Typology and universals (6) ---------- */
 
@@ -199,14 +290,40 @@ ARS.decks['xi.modern'] = {
   body: `<p>Joseph Greenberg, as we saw in Section V, classified languages by the order of subject, verb, and object, and found that other facts of order go together with it. Many of his universals are <strong>implicational</strong>: they state that if a language has one property, it has another. So languages whose usual order is verb, subject, object always have prepositions; and languages with the order subject, object, verb usually have postpositions (Greenberg, Universals 3 and 4).</p>
 <p>Such universals do not say that every language has a given property; they say how properties are related. This is a different kind of universal from those of the general grammarians, who sought properties present in every language, such as the distinction of noun and verb. Typology, the comparison of languages by their structure, has shown that implicational universals are far more common than absolute ones.</p>`,
   src: `Greenberg, “Some Universals of Grammar” (1963), in paraphrase.`,
-  qpTodo: `Implicational universals: what does an implicational universal state (in languages with prepositions, the genitive usually follows its noun), and how does it differ from a universal present in every language.` },
+  qp: { id: 'q-universals', variants: [
+    { prompt: `“In languages with prepositions, the genitive usually follows its noun.” What kind of universal is this?`,
+      options: [`An implicational universal`, `An absolute universal`, `A parameter of the Latin language alone`, `A rule of etymology`],
+      answer: 0,
+      explain: `It states that if a language has one property (prepositions), it has another (the genitive after its noun), so it is implicational.` },
+    { prompt: `What does an implicational universal state?`,
+      options: [`Every language without exception has the property`, `No two languages share a property`, `Every language has prepositions`, `One property in a language implies another`],
+      answer: 3,
+      explain: `An implicational universal does not say that every language has a property; it says how properties go together.` },
+    { prompt: `How does an implicational universal differ from a universal sought by the general grammarians?`,
+      options: [`It holds only for Latin and Greek`, `It concerns meaning rather than form`, `It relates properties to each other`, `It was proposed before the modists`],
+      answer: 2,
+      explain: `The general grammarians sought properties present in every language, such as the distinction of noun and verb; an implicational universal states how properties are related.` }
+  ] } },
 
 { id: 'morphological-types',
   title: 'How languages build their words',
   body: `<p>Modern typology refines the classification that began with Humboldt and the Schlegels. An <strong>isolating</strong> language, such as Chinese, has words that do not change their form, so that its relations are shown by order and by particles, as we saw in the study of the Chinese tradition. An <strong>agglutinating</strong> language, such as Turkish, adds a separate piece for each meaning: <i>ev</i> (“house”), <i>ev-ler</i> (“houses”), <i>ev-ler-den</i> (“from the houses”). A <strong>fusional</strong> language, such as Latin, joins several meanings in one ending: the <i>-ō</i> of <i>spērō</i> (“I hope”) marks first person, singular, present, indicative, and active at once. A <strong>polysynthetic</strong> language, such as some languages of the Inuit, can express in one long word what English expresses in a sentence.</p>
 <p>These are tendencies, not boxes. English is now largely isolating, but it keeps some fusional forms such as “geese” and “spoke”; Latin is fusional, but it uses separate words in <i>sine pecūniā</i> (“without money”). So the types describe how much each language does by endings and how it combines them.</p>`,
   src: `Comrie, <i>Language Universals and Linguistic Typology</i>, ch. 2, in paraphrase.`,
-  qpTodo: `Morphological types: is a given form isolating, agglutinating, or fusional (Turkish <i>el-ler-im</i>, “my hands”; Latin <i>dīxī</i>; Chinese 書), and what does each type do with the meanings of a word.` },
+  qp: { id: 'q-morphological-types', variants: [
+    { prompt: `Turkish <i>el-ler-im</i> means “my hands,” with <i>el</i> “hand,” <i>-ler</i> plural, and <i>-im</i> “my.” Which type of form is it?`,
+      options: [`Isolating`, `Fusional`, `Agglutinating`, `Polysynthetic`],
+      answer: 2,
+      explain: `An agglutinating language adds a separate piece for each meaning, as Turkish adds <i>-ler</i> for the plural and <i>-im</i> for “my.”` },
+    { prompt: `Latin <i>dīxī</i>, “I said,” marks person, number, tense, mood, and voice in one ending. Which type of form is it?`,
+      options: [`Agglutinating`, `Fusional`, `Isolating`, `Polysynthetic`],
+      answer: 1,
+      explain: `A fusional language joins several meanings in one ending, so the <i>-ī</i> of <i>dīxī</i> marks all of them at once.` },
+    { prompt: `Chinese 書, “book,” does not change its form for number or case. Which type does it show?`,
+      options: [`Isolating`, `Fusional`, `Agglutinating`, `Polysynthetic`],
+      answer: 0,
+      explain: `In an isolating language words do not change their form, so relations are shown by order and by particles.` }
+  ] } },
 
 { id: 'alignment',
   title: 'Case, order, and alignment',
@@ -231,7 +348,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>Roger Bacon held, as we have seen, that grammar is one and the same in substance in all languages, though it varies in its accidents. Typology supplies the evidence on which such a claim can be tested. It shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark; but it also shows that every known language has means of naming things and of saying something about them, of distinguishing in some way what acts from what is acted upon, of negating, and of asking.</p>
 <p>So the classical claim can be defended in a qualified form: the relations that grammar expresses, such as the relation of what is said to what it is said of, are common to all languages, whereas the means of expressing them are accidents that vary. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.</p>`,
   src: `Comrie, <i>Language Universals and Linguistic Typology</i>; Roger Bacon, <i>Greek Grammar</i>; both in paraphrase.`,
-  qpTodo: `Typology and the classical claim: what does typology show that all languages share, what does it show that they do not, and how does this bear on Bacon’s claim that grammar is one in substance.` },
+  qp: { id: 'q-typology-claim', variants: [
+    { prompt: `What does typology show that all known languages share?`,
+      options: [`The same order of subject, verb, and object in every sentence`, `The same number of cases and of tenses`, `Ways of naming, predicating, negating, asking`, `The same set of sounds`],
+      answer: 2,
+      explain: `Every known language has means of naming things and saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.` },
+    { prompt: `What does typology show that languages do not share?`,
+      options: [`Any means at all of naming things or persons`, `Their sounds, forms, orders, and categories`, `Any way of asking a question`, `Any way of negating a statement`],
+      answer: 1,
+      explain: `Languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.` },
+    { prompt: `How does typology bear on Bacon’s claim that grammar is one in substance?`,
+      options: [`It supports a qualified form of the claim`, `It refutes the claim entirely`, `It proves the claim in full, without any qualification`, `It has no bearing on the claim`],
+      answer: 0,
+      explain: `The relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so the claim can be defended in a qualified form.` }
+  ] } },
 
 /* ---------- Functional grammar (5) ---------- */
 
@@ -252,14 +382,40 @@ ARS.decks['xi.modern'] = {
   body: `<p>The question “Did the baker sell the last loaf?” speaks of an event, asks the hearer something, and begins from the baker, who may already have been mentioned. M. A. K. Halliday held that every clause serves three functions at once, which he called <strong>metafunctions</strong>. The <strong>ideational</strong> function represents things and events: who did what to whom. The <strong>interpersonal</strong> function establishes a relation between speaker and hearer: whether the clause states, asks, or commands, and with what attitude. The <strong>textual</strong> function joins the clause to the text around it: what is theme and what is new.</p>
 <p>These three functions correspond in part to the older classifications. Bühler’s representation corresponds to Halliday’s ideational function, and his appeal to the hearer to the interpersonal; the textual function adds what the classical rhetoricians treated under the arrangement of words. So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.</p>`,
   src: `Halliday, <i>An Introduction to Functional Grammar</i>, ch. 2, in paraphrase; Bühler, <i>Sprachtheorie</i> (1934).`,
-  qpTodo: `Halliday’s three functions: which function is served by a given feature of a clause (who did what to whom; whether it is a question; what is placed first), and which older classification does each resemble.` },
+  qp: { id: 'q-halliday', variants: [
+    { prompt: `In the question “Did the gardener lock the gate?”, which function is served by its being a question?`,
+      options: [`The interpersonal function`, `The ideational function`, `The textual function`, `None of the three functions`],
+      answer: 0,
+      explain: `Whether a clause states, asks, or commands establishes a relation between speaker and hearer, so it belongs to the interpersonal function.` },
+    { prompt: `In the same clause, which function represents who did what to whom?`,
+      options: [`The interpersonal function`, `The textual function`, `None of the three`, `The ideational function`],
+      answer: 3,
+      explain: `The ideational function represents things and events: the gardener locking the gate.` },
+    { prompt: `Which older classification does Halliday’s textual function draw on?`,
+      options: [`Bühler’s representation`, `Bühler’s appeal to the hearer in speech`, `The rhetoricians’ arrangement of words`, `Donatus’s eight parts`],
+      answer: 2,
+      explain: `The textual function joins the clause to the text around it, which the classical rhetoricians treated under the arrangement of words; Bühler’s representation and appeal correspond to the ideational and interpersonal functions.` }
+  ] } },
 
 { id: 'roles',
   title: 'Semantic roles',
   body: `<p>In “The woodcutter split the log with an axe,” the woodcutter acts, the log undergoes the action, and the axe is the means. Several modern theories describe the relations of the participants in an action as <strong>semantic roles</strong>. Charles Fillmore, in “The Case for Case” (1968), proposed roles such as the agent (who does the action), the instrument (with which it is done), the experiencer (who perceives or feels), and the location; Simon Dik, in his Functional Grammar, uses similar roles such as agent, goal, and recipient. These roles are distinguished from the grammatical subject and object, since the agent can be the subject (“The woodcutter split the log”) or not (“The log was split by the woodcutter”).</p>
 <p>The semantic roles closely resemble Pāṇini’s kārakas, which we saw are roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent. So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.</p>`,
   src: `Fillmore, “The Case for Case” (1968); Dik, <i>The Theory of Functional Grammar</i>; both in paraphrase.`,
-  qpTodo: `Semantic roles: what role does each participant play in a given sentence (agent, instrument, recipient), why is a role distinct from the subject, and which earlier doctrines does the idea resemble.` },
+  qp: { id: 'q-roles', variants: [
+    { prompt: `“The scribe wrote the letter with a reed.” What role does “reed” play?`,
+      options: [`Agent`, `Instrument`, `Recipient`, `Experiencer`],
+      answer: 1,
+      explain: `The reed is the means with which the writing is done, so it is the instrument.` },
+    { prompt: `“The letter was written by the scribe.” Why is “scribe” the agent but not the subject?`,
+      options: [`The agent need not be the subject`, `The scribe is the instrument of writing`, `The sentence has no agent`, `The letter is the agent`],
+      answer: 0,
+      explain: `A semantic role is distinct from the grammatical subject: in the passive the agent is named in a phrase with “by,” and the thing done is the subject.` },
+    { prompt: `Which earlier doctrine does the idea of semantic roles most resemble?`,
+      options: [`The Arabic theory of the governor`, `The Chinese full and empty words`, `The Hebrew construct state`, `Pāṇini’s kārakas`],
+      answer: 3,
+      explain: `Pāṇini’s kārakas are roles in the action distinct from the endings that mark them, as semantic roles are distinct from subject and object.` }
+  ] } },
 
 { id: 'formal-functional',
   title: 'Formal and functional accounts compared',
@@ -280,14 +436,40 @@ ARS.decks['xi.modern'] = {
   body: `<p>The sentence “The bull is in the field” says something with a certain sense, may be meant as a warning, and may make the hearer leave the field. Austin argued that every utterance performs several acts at once in this way. The <strong>locutionary</strong> act is the saying of a sentence with a certain sense and reference. The <strong>illocutionary</strong> act is what is done in saying it, such as a statement, a warning, a promise, or a command. The <strong>perlocutionary</strong> act is what is brought about by saying it, as when the hearer is alarmed and leaves the field.</p>
 <p>So the illocutionary act corresponds to what the tradition called the kind of sentence: a statement, a question, a command, a prayer, or a call. The perlocutionary act, the effect on the hearer, belongs to what Aristotle assigned to rhetoric, as we saw in Section I. Austin’s analysis shows that grammar, logic, and rhetoric each consider one aspect of every utterance.</p>`,
   src: `Austin, <i>How to Do Things with Words</i>, Lectures VIII–IX, in paraphrase.`,
-  qpTodo: `Three acts: in a given utterance (“There is ice on the steps,” said as a warning), what is the locutionary act, the illocutionary act, and the perlocutionary act, and which belongs to which art of the trivium.` },
+  qp: { id: 'q-three-acts', variants: [
+    { prompt: `“There is ice on the steps,” said as a warning. What is the locutionary act?`,
+      options: [`Saying the sentence with its sense`, `Warning the hearer of the danger`, `Making the hearer walk carefully`, `Putting the ice on the steps in winter`],
+      answer: 0,
+      explain: `The locutionary act is the saying of the sentence with a certain sense and reference.` },
+    { prompt: `In the same utterance, what is the illocutionary act?`,
+      options: [`The saying of the words`, `The hearer’s caution`, `The ice itself`, `The warning`],
+      answer: 3,
+      explain: `The illocutionary act is what is done in saying the sentence: here, a warning.` },
+    { prompt: `In the same utterance, what is the perlocutionary act, and to which art did Aristotle assign such effects?`,
+      options: [`The warning itself; grammar`, `The saying of the words; logic and grammar`, `The hearer’s caution; rhetoric`, `The sense; grammar`],
+      answer: 2,
+      explain: `The perlocutionary act is what is brought about by saying the sentence, such as the hearer’s caution; the effect on the hearer belongs to what Aristotle assigned to rhetoric.` }
+  ] } },
 
 { id: 'searle',
   title: 'Searle’s classes of speech act',
   body: `<p>With sentences we state, we try to get others to act, we promise, we thank, and we pronounce a couple married. The American philosopher John Searle, in <i>Speech Acts</i> (1969) and later work, classified illocutionary acts into five kinds: <strong>assertives</strong>, which commit the speaker to the truth of something (“The shop is closed”); <strong>directives</strong>, which attempt to get the hearer to do something (“Close the door”); <strong>commissives</strong>, which commit the speaker to a future action (“I promise to come”); <strong>expressives</strong>, which express a feeling (“Thank you,” “Alas”); and <strong>declarations</strong>, which bring about what they say (“I pronounce you man and wife”).</p>
 <p>Searle’s classes can be compared with St. Thomas’s kinds of sentence that we saw in Section I: the enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive. The commissive and the declaration are kinds that the medieval account did not distinguish separately, although promises and sacramental formulas were much discussed in medieval theology.</p>`,
   src: `Searle, <i>Speech Acts</i> (1969); “A Classification of Illocutionary Acts” (1976); both in paraphrase.`,
-  qpTodo: `Searle’s classes: which class is a given utterance (an assertive, a directive, a commissive, an expressive, a declaration), and which of St. Thomas’s kinds of sentence does it correspond to.` },
+  qp: { id: 'q-searle', variants: [
+    { prompt: `“I will bring your ladder back tomorrow,” said as a promise. Which of Searle’s classes is it?`,
+      options: [`A commissive`, `An assertive`, `A directive`, `A declaration`],
+      answer: 0,
+      explain: `A commissive commits the speaker to a future action. The medieval account did not distinguish this kind separately.` },
+    { prompt: `“Please shut the window.” Which of Searle’s classes is it, and which of St. Thomas’s kinds of sentence does it correspond to?`,
+      options: [`An assertive; the enunciative`, `An expressive; the vocative`, `A declaration; the deprecative`, `A directive; the imperative`],
+      answer: 3,
+      explain: `A directive attempts to get the hearer to do something, and it corresponds to the imperative (and, for a request to a superior, the deprecative).` },
+    { prompt: `“The library opens at nine.” Which of Searle’s classes is it, and which of St. Thomas’s kinds does it correspond to?`,
+      options: [`A directive; the imperative`, `A commissive; the optative`, `An assertive; the enunciative`, `An expressive; the interrogative`],
+      answer: 2,
+      explain: `An assertive commits the speaker to the truth of something, as the enunciative sentence states what is true or false.` }
+  ] } },
 
 { id: 'indirect',
   title: 'Indirect speech acts',
@@ -314,7 +496,20 @@ ARS.decks['xi.modern'] = {
   body: `<p>Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written. This course has studied it in its parts: the definition and tasks of grammar, the sign, the material of speech, the parts of speech and their reasons, the formation of words, construction, correctness and its errors, the figures and tropes, signification and supposition, analysis, composition, and the other traditions and the modern study of language.</p>
 <p>Whether grammar is in substance one in all languages is still an open question, and modern linguistics has both challenged and renewed the classical claim. The classical art does not depend on settling that question. It depends on the claim that words are signs of what the mind understands, and that the mind understands things. Because this is so, it is possible to learn another language, to translate, and to read the authors of other ages; and these are the reasons that the tradition gave for studying grammar first among the liberal arts.</p>`,
   src: `General conclusion.`,
-  qpTodo: `The question of the course: what does the classical art claim that all languages share, what has modern linguistics found that bears on the claim, and on what conviction does the classical art finally rest.` }
+  qp: { id: 'q-end', variants: [
+    { prompt: `What does the classical art claim that all languages share?`,
+      options: [`The same words for the same things everywhere`, `The same sounds and letters`, `The same number of cases`, `The relations that grammar expresses`],
+      answer: 3,
+      explain: `The classical claim, in its qualified form, is that the relations grammar expresses are common to all languages, whereas the means of expressing them vary.` },
+    { prompt: `What has modern linguistics found that bears on the classical claim?`,
+      options: [`That all languages have one and the same grammar`, `That no two languages share anything`, `Wide variety of means, with common relations`, `That only Latin has grammar`],
+      answer: 2,
+      explain: `Typology has shown that languages differ widely in their sounds, forms, orders, and categories, but that they share means of naming, predicating, negating, and asking.` },
+    { prompt: `On what conviction does the classical art finally rest?`,
+      options: [`Every language has the eight parts of speech of Donatus`, `Words are signs of what the mind understands`, `Latin is the model of every language`, `Grammar is independent of meaning`],
+      answer: 1,
+      explain: `The classical art rests on the claim that words are signs of what the mind understands, and that the mind understands things; so translation and the reading of other ages are possible.` }
+  ] } }
 
   ]
 };
