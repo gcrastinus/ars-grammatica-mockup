@@ -1,4 +1,4 @@
-/* Workshop and Marking [ix.ex.marking]  Exercise set opened from the Exercise button of ix.marking. Written 36 items in three fixed sets. */
+/* Workshop and Marking [ix.ex.marking]  Exercise set opened from the Exercise button of ix.marking. Written 48 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['ix.ex.marking'] = {
@@ -13,7 +13,9 @@ ARS.exercises['ix.ex.marking'] = {
    "deck": "ix.marking",
    "cards": [
     "every-dependence",
-    "stored-analysis"
+    "stored-analysis",
+    "conjunctions",
+    "relatives"
    ]
   }
  ],
@@ -21,15 +23,15 @@ ARS.exercises['ix.ex.marking'] = {
  "types": [
   "mark"
  ],
- "pool": 36,
+ "pool": 48,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 12,
-  "B": 12,
-  "C": 12
+  "A": 16,
+  "B": 16,
+  "C": 16
  },
- "limit": "The dependences of V.4 (Thomas of Erfurt) and the stored analyses only; composed sentences of one clause.",
- "instr": "Click the word that depends, then the word on which it depends; each pair of clicks draws one arrow. The article and the adjective depend on their noun, the adverb on its verb, the verb on its subject and its object, the preposition on the word to which it relates its phrase, and the noun of the phrase on the preposition. Press Check when every dependence is marked.",
+ "limit": "The dependences of V.4 (Thomas of Erfurt), with the rules of IX.3 for conjunctions, possessive adjectives, appositives, infinitives, and relatives, and the stored analyses only; composed sentences of one clause, or of two clauses joined by a conjunction or a relative. No genitive and no other subordinate clauses.",
+ "instr": "Click the word that depends, then the word on which it depends; each pair of clicks draws one arrow. The article and the adjective depend on their noun, the adverb on its verb, the verb on its subject and its object, the preposition on the word to which it relates its phrase, and the noun of the phrase on the preposition. A conjunction depends on both words it joins (on the verb of each clause, when it joins clauses), and a verb with two joined subjects or objects depends on each. A possessive adjective depends on its noun, an appositive on the noun it explains, and an infinitive that completes a verb is marked as its object, with “to” depending on the infinitive. A relative depends on its antecedent and is marked within its own clause like any noun. Press Check when every dependence is marked.",
  "items": [
   {
    "id": "mrk-A01",
@@ -575,6 +577,185 @@ ARS.exercises['ix.ex.marking'] = {
    "card": "stored-analysis"
   },
   {
+   "id": "mrk-A13",
+   "set": "A",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “Anna and Ben carried the boxes.”",
+   "tokens": [
+    "Anna",
+    "and",
+    "Ben",
+    "carried",
+    "the",
+    "boxes."
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "explain": "The conjunction “and” joins two words, so it depends on both, “Anna” and “Ben.” The carrying belongs to each of them, so “carried” depends on “Anna” and on “Ben,” and also on its object “boxes.” The word “the” depends on “boxes.”",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-A14",
+   "set": "A",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “My uncle, a sailor, mended the old boat.”",
+   "tokens": [
+    "My",
+    "uncle,",
+    "a",
+    "sailor,",
+    "mended",
+    "the",
+    "old",
+    "boat."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "explain": "The possessive adjective “My” depends on “uncle.” “Sailor” is in apposition to “uncle,” so it depends on “uncle,” and “a” depends on “sailor.” The verb “mended” depends on its subject “uncle” and on its object “boat,” and “the” and “old” depend on “boat.”",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-A15",
+   "set": "A",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “The dog that guards the farm barks loudly.”",
+   "tokens": [
+    "The",
+    "dog",
+    "that",
+    "guards",
+    "the",
+    "farm",
+    "barks",
+    "loudly."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "explain": "The relative “that” depends on its antecedent “dog.” Within its clause, “guards” depends on “that” as on its subject and on its object “farm,” and the second “the” depends on “farm.” The main verb “barks” depends on “dog,” the first “The” depends on “dog,” and “loudly” depends on “barks.”",
+   "card": "relatives"
+  },
+  {
+   "id": "mrk-A16",
+   "set": "A",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Gāius et Tullia rosās carpunt.</i> (“Gaius and Tullia pick roses.”)",
+   "tokens": [
+    "<i>Gāius</i>",
+    "<i>et</i>",
+    "<i>Tullia</i>",
+    "<i>rosās</i>",
+    "<i>carpunt.</i>"
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "explain": "The conjunction <i>et</i> depends on both words it joins, <i>Gāius</i> and <i>Tullia</i>. The picking belongs to each of them, so <i>carpunt</i> depends on <i>Gāius</i> and on <i>Tullia</i>, and also on its object <i>rosās</i>.",
+   "card": "conjunctions"
+  },
+  {
    "id": "mrk-B01",
    "set": "B",
    "deck": "ix.marking",
@@ -1106,6 +1287,157 @@ ARS.exercises['ix.ex.marking'] = {
    ],
    "explain": "The main verb is <i>currunt</i>; it depends on its subject <i>Equī</i>. The word <i>celerēs</i> depends on <i>Equī</i>. The word <i>per</i> depends on <i>currunt</i>. The noun <i>campum</i> depends on the preposition <i>per</i>.",
    "card": "stored-analysis"
+  },
+  {
+   "id": "mrk-B13",
+   "set": "B",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “The children want to swim.”",
+   "tokens": [
+    "The",
+    "children",
+    "want",
+    "to",
+    "swim."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "explain": "The infinitive “to swim” completes the verb, so it is marked as its object: “want” depends on its subject “children” and on “swim.” The word “to” depends on “swim,” as the article depends on its noun, and “The” depends on “children.”",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-B14",
+   "set": "B",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “The sun set, and the owls woke.”",
+   "tokens": [
+    "The",
+    "sun",
+    "set,",
+    "and",
+    "the",
+    "owls",
+    "woke."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "explain": "The conjunction “and” joins two clauses, so it depends on the verb of each, “set” and “woke.” Each verb depends on its own subject: “set” on “sun” and “woke” on “owls.” Each “the” depends on its noun.",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-B15",
+   "set": "B",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “The cake that she baked vanished quickly.”",
+   "tokens": [
+    "The",
+    "cake",
+    "that",
+    "she",
+    "baked",
+    "vanished",
+    "quickly."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "explain": "The relative “that” depends on its antecedent “cake.” Within its clause, “baked” depends on its subject “she” and on “that” as on its object. The main verb “vanished” depends on “cake,” “The” depends on “cake,” and “quickly” depends on “vanished.”",
+   "card": "relatives"
+  },
+  {
+   "id": "mrk-B16",
+   "set": "B",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Agricola quem laudāmus arat.</i> (“The farmer whom we praise plows.”)",
+   "tokens": [
+    "<i>Agricola</i>",
+    "<i>quem</i>",
+    "<i>laudāmus</i>",
+    "<i>arat.</i>"
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "explain": "The relative <i>quem</i> depends on its antecedent <i>agricola</i>, with which it agrees in gender and number. Within its clause, <i>laudāmus</i> depends on <i>quem</i> as on its object. The main verb <i>arat</i> depends on <i>agricola</i>.",
+   "card": "relatives"
   },
   {
    "id": "mrk-C01",
@@ -1654,6 +1986,161 @@ ARS.exercises['ix.ex.marking'] = {
    ],
    "explain": "The main verb is <i>pugnat</i>; it depends on its subject <i>Mīles</i>. The word <i>fortis</i> depends on <i>Mīles</i>. The word <i>cum</i> depends on <i>pugnat</i>. The noun <i>sociīs</i> depends on the preposition <i>cum</i>.",
    "card": "stored-analysis"
+  },
+  {
+   "id": "mrk-C13",
+   "set": "C",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “Her brother hopes to win the race.”",
+   "tokens": [
+    "Her",
+    "brother",
+    "hopes",
+    "to",
+    "win",
+    "the",
+    "race."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "explain": "The possessive adjective “Her” depends on “brother.” The verb “hopes” depends on its subject “brother” and on the infinitive “win,” which completes it and is marked as its object; “to” depends on “win.” The infinitive “win” depends on its own object “race,” and “the” depends on “race.”",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-C14",
+   "set": "C",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. “Our neighbor, the baker, sells bread and cakes.”",
+   "tokens": [
+    "Our",
+    "neighbor,",
+    "the",
+    "baker,",
+    "sells",
+    "bread",
+    "and",
+    "cakes."
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "explain": "The possessive adjective “Our” depends on “neighbor.” “Baker” is in apposition to “neighbor,” so it depends on “neighbor,” and “the” depends on “baker.” The verb “sells” depends on its subject “neighbor” and on each of its objects, “bread” and “cakes.” The conjunction “and” depends on both words it joins, “bread” and “cakes.”",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-C15",
+   "set": "C",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Lūcius, amīcus noster, librum legit.</i> (“Lucius, our friend, reads a book.”)",
+   "tokens": [
+    "<i>Lūcius,</i>",
+    "<i>amīcus</i>",
+    "<i>noster,</i>",
+    "<i>librum</i>",
+    "<i>legit.</i>"
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "explain": "The noun <i>amīcus</i> is in apposition to <i>Lūcius</i>, so it depends on <i>Lūcius</i>, and the possessive adjective <i>noster</i> depends on <i>amīcus</i>. The verb <i>legit</i> depends on its subject <i>Lūcius</i> and on its object <i>librum</i>.",
+   "card": "conjunctions"
+  },
+  {
+   "id": "mrk-C16",
+   "set": "C",
+   "deck": "ix.marking",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Puerī cantāre volunt.</i> (“The boys wish to sing.”)",
+   "tokens": [
+    "<i>Puerī</i>",
+    "<i>cantāre</i>",
+    "<i>volunt.</i>"
+   ],
+   "analysis": [
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "explain": "The infinitive <i>cantāre</i> completes the verb, so it is marked as its object: <i>volunt</i> depends on its subject <i>puerī</i> and on <i>cantāre</i>.",
+   "card": "conjunctions"
   }
  ]
 };

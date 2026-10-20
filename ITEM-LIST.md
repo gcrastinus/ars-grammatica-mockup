@@ -466,8 +466,8 @@ Both analysis buttons draw on one corpus, mostly English with some Latin. Latin 
 - Reuse: the English passages in `passages.js`, the Latin passages in `index.html`, and `latprose`, `latpoetry`, `enprose`, `enpoetry`, with their drills (only Latin passages whose Loeb translation aligns)
 
 **IX.3 Workshop and Marking** `[ix.marking]`. The marking drill on stored sentences. The student marks every dependence in a sentence whose analysis is stored, and the drill compares the marks with that analysis. The Free Workshop, which accepts any sentence but cannot judge the marks, is dropped.
-- Panels 2 · QP 0
-- Exercise: pool of 36 stored sentences, three fixed sets of 12.
+- Panels 4 (2 added from notes/IX3-MARKING-RULES.md, 20 Oct 2026) · QP 0
+- Exercise: pool of 48 stored sentences, three fixed sets of 16 (12 added on 20 Oct 2026 for the rules of the two new panels on conjunctions and relatives).
 - Sources: Thomas of Erfurt (Bursill-Hall)
 - Reuse: `markup` (3), `EX.markup`, `markQ`
 
