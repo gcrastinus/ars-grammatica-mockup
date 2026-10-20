@@ -1,6 +1,6 @@
 /* VII.3 Tropes [vii.tropes]
-   Plan (ITEM-LIST.md): 15 panels, 4 question points. Exercise: Tropes (not yet
-   written), on twelve tropes: metaphor, catachresis, metalepsis, metonymy, antonomasia, epithet, synecdoche, onomatopoeia,
+   Plan (ITEM-LIST.md): 15 panels, 4 question points. Exercise: Tropes (written),
+   on twelve tropes: metaphor, catachresis, metalepsis, metonymy, antonomasia, epithet, synecdoche, onomatopoeia,
    periphrasis, hyperbole, allegory, and irony (taken as a species of allegory, as Donatus does).
    Panels follow Donatus's order (synecdoche after epithet, Timothy, 18 Oct 2026).
    Overlap with Ars Rhetorica: metaphor, irony, and hyperbole appear in its glossary and drills; this deck asks what the

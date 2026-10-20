@@ -1,6 +1,6 @@
 /* VII.2 Figures of Words (schemata lexeos) [vii.schemata]
    Plan (ITEM-LIST.md): 13 panels, 3 question points. Exercise: Figures of Words
-   (not yet written). One panel (zeugma-syllepsis) refers back to V.10.
+   (written). One panel (zeugma-syllepsis) refers back to V.10.
    Overlap with Ars Rhetorica: examples are taken from Virgil, Ennius, Scripture, and English poets, not from Cicero, Gorgias,
    or Augustine, and the deck asks what each figure does to the arrangement of words, not to the hearer.
    Live material drawn on: DECKS.figures (figures; anaphora, polysyndeton, zeugma), DECKS.latfigs. Donatus's own examples
