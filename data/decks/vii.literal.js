@@ -1,5 +1,5 @@
 /* VII.1 Literal and Figurative Sense [vii.literal]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: Literal and Figurative
+   Plan (ITEM-LIST.md): 10 panels, 3 question points. Exercise: Literal and Figurative
    (not yet written). No trope is named for the student to identify before VII.3.
    Live material drawn on: DECKS.figures (why tropes belong to grammar: St. Thomas on God's arm), DECKS.service.
    Quintilian VIII.6.1, 5–9 and IX.1.4 checked against the Perseus text of Butler's translation. St. Thomas (ST I q.1 a.10
@@ -24,14 +24,40 @@ ARS.decks['vii.literal'] = {
   body: `<p>In “The lion roared,” said of the animal, “lion” is used of the thing it was imposed to signify. In “Achilles was a lion in battle,” it is used of a man who was like a lion in courage. A word used in its proper signification is said to be used <strong>literally</strong> (from Latin <i>littera</i>, “letter,” that is, according to the letter of the words). A word used of something other than its proper signification, by some likeness or relation, is said to be used <strong>figuratively</strong>. So in the first sentence “lion” is used literally, and in the second it is used figuratively.</p>
 <p>Quintilian explains the difference between the figurative use and a plain comparison: “It is a comparison when I say that a man did something <i>like a lion</i>, it is a metaphor when I say of him, <i>He is a lion</i>” (<i>Institutio oratoria</i> VIII.6.9). In the comparison, “lion” is still used literally and the word “like” states the likeness; in the figurative use, the likeness is not stated, and the word itself is carried over to the man. But some figurative uses have become so common that they no longer seem figurative at all.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.9 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Literal or figurative: is the marked word used literally or figuratively in a given sentence (fresh sentences, not the card’s “lion” examples: e.g., “The snake slid under the rock”; “That lawyer is a snake”; “He moved like a snake”), and why.` },
+  qp: { id: 'q-literal-figurative', variants: [
+    { prompt: `In “The snake slid under the rock,” is “snake” used literally or figuratively?`,
+      options: [`Literally: it names the animal it was imposed for`, `Figuratively, because snakes are thought cunning`, `Figuratively, because the sentence compares two things`, `Neither, since an animal’s name is a proper noun`],
+      answer: 0,
+      explain: `The word is used of the animal for which it was imposed, so it is used literally. Nothing here is compared or carried over.` },
+    { prompt: `In “That lawyer is a snake,” is “snake” used literally or figuratively?`,
+      options: [`Literally, since the sentence says what the lawyer is`, `Literally, because “snake” keeps its imposition`, `Figuratively, because “lawyer” is used of an animal`, `Figuratively: carried over to a man by a likeness`],
+      answer: 3,
+      explain: `The lawyer is not an animal; the word is carried over to him because of a supposed likeness in treachery, and the likeness is not stated. So “snake” is used figuratively, as a metaphor.` },
+    { prompt: `In “He moved like a snake,” how is “snake” used?`,
+      options: [`Figuratively, since the man is called a snake`, `Figuratively, since every comparison is a trope`, `Literally, since “like” states the likeness`, `Literally, since the man is a snake`],
+      answer: 2,
+      explain: `In a comparison the word “like” states the likeness, and “snake” still names the animal; the word is not carried over to the man. As Quintilian says, it is a comparison, not a metaphor.` }
+  ] } },
 
 { id: 'necessary',
   title: 'Figurative words that have become ordinary',
   body: `<p>English is full of figurative uses that have become ordinary: the “leg” of a table, the “mouth” of a river, the “foot” of a mountain, a “hard” question. Many of them are so common that speakers no longer recognize that they were once figurative, and dictionaries list them as ordinary senses of the word. Often such a use was necessary, because the language had no proper word for the thing; there is no other ordinary English word for the part of a table that the word “leg” names.</p>
 <p>Quintilian observes the same thing in Latin. Some figurative uses are necessary, because the language has no proper word: farmers “call a vinebud <i>gemma</i>, a gem (what other term is there which they could use?), or speak of the crops being thirsty or the fruit suffering. For the same reason we speak of a hard or rough man, there being no literal term for these temperaments” (<i>Institutio oratoria</i> VIII.6.6). So the boundary between literal and figurative use can change with usage, because a figurative use that becomes established may become a second proper signification of the word.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.6 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Established figurative uses: is a given expression (fresh expressions, not the card’s: e.g., “the eye of a needle,” “the neck of a bottle,” “a cold reception”) still felt as figurative, and why did the language need it.` },
+  qp: { id: 'q-necessary', variants: [
+    { prompt: `Why did English need the figurative phrase “the eye of a needle”?`,
+      options: [`The hole looks exactly like a human eye`, `English has no other word for it`, `Poets prefer figurative words`, `A literal word would be ambiguous`],
+      answer: 1,
+      explain: `There is no proper ordinary English word for the hole in a needle, so a word was carried over from the eye by a likeness. Such a use was necessary, as Quintilian says of the farmers’ <i>gemma</i>.` },
+    { prompt: `Do most speakers still feel “the neck of a bottle” as figurative?`,
+      options: [`No; it is now an ordinary sense`, `Yes; every figurative use is always felt as one`, `No; “neck” was first imposed for bottles`, `Yes, because dictionaries do not list it`],
+      answer: 0,
+      explain: `A figurative use that becomes established may become a second proper signification, and dictionaries list it as an ordinary sense. Speakers rarely notice that “neck” was carried over from the body.` },
+    { prompt: `In “They gave us a cold reception,” what does “cold” signify?`,
+      options: [`A low temperature in the hall`, `A reception held in winter`, `Nothing, since the whole phrase is an idiom`, `Unfriendliness, by an established use`],
+      answer: 3,
+      explain: `A reception has no temperature in the proper sense; “cold” is carried over to a manner of receiving guests. The use is so common that it is felt as an ordinary sense of the word.` }
+  ] } },
 
 { id: 'augustine-signs',
   title: 'Augustine: literal and figurative signs',
@@ -63,7 +89,20 @@ ARS.decks['vii.literal'] = {
   body: `<p>Several marks help a reader decide whether a word is used literally or figuratively. The first is the context: if the literal sense does not fit the subject, as when “icy” is said of a person’s greeting, the word is probably figurative. The second is the kind of writing: poetry and oratory use figurative words more freely than law or science. The third is the author’s intention, as St. Thomas says, which the reader learns from the whole work and its occasion.</p>
 <p>In current English the word “literally” is often used for emphasis with a figurative expression, as in “I was literally dying of laughter,” which is not literally true. In careful usage this use is avoided, because it confuses the very distinction that the word names. The grammarian uses “literally” only in its proper sense: according to the proper signification of the words.</p>`,
   src: `Standard English usage guides, in paraphrase.`,
-  qpTodo: `Telling them apart: in a given sentence, is the marked word used literally or figuratively, and which mark decides it (the context, the kind of writing, the author’s intention).` },
+  qp: { id: 'q-literally', variants: [
+    { prompt: `“His reply was frosty.” Which mark shows most clearly that “frosty” is figurative?`,
+      options: [`The kind of writing: this is a poem`, `The author’s intention, stated in a note`, `The context: replies have no frost`, `The spelling of the word`],
+      answer: 2,
+      explain: `The literal sense does not fit the subject, since a reply is not covered with frost, so the context shows that the word is carried over to a manner of speaking.` },
+    { prompt: `A law reads, “The owner shall fence the field.” Which mark chiefly supports reading “field” in its proper signification?`,
+      options: [`The context, since fields are often fenced`, `The kind of writing`, `The sound of the word “field”`, `The length of the sentence`],
+      answer: 1,
+      explain: `Poetry and oratory use figurative words more freely than law or science, which aim to use words in their proper signification. So the kind of writing supports the literal reading.` },
+    { prompt: `Someone in a warm room says, “I literally froze when I saw the bill.” What does careful usage say of this “literally”?`,
+      options: [`Careful usage avoids it`, `It is correct, since “literally” means “very”`, `It is correct whenever the speaker is surprised`, `It makes the sentence literally true`],
+      answer: 0,
+      explain: `The speaker did not freeze, so the statement is figurative, and “literally” used for emphasis confuses the distinction that the word names. Careful usage keeps “literally” for the proper signification of the words.` }
+  ] } },
 
 { id: 'grammar-task',
   title: 'Why figurative sense belongs to grammar',
