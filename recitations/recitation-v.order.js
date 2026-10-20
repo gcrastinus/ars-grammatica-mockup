@@ -28,7 +28,7 @@
     `Construing does not change the meaning of the sentence; it makes the dependences visible by placing each word beside the word on which it depends.`,
     `So construing shows that the natural order is the order of the dependences, whereas the artificial order of the author arranges them for emphasis, sound, and effect.`,
     `Modern linguists, following Joseph Greenberg, class languages by the usual order of subject (S), verb (V), and object (O) in a statement.`,
-    `The three common orders are SVO (as in English and French), SOV (as in Latin in its usual order), and VSO (as in Classical Arabic, Biblical Hebrew, and Welsh).`,
+    `The three common orders are SVO, as in English; SOV, as in the usual order of Latin; and VSO, as in Classical Arabic.`,
     `English has a fixed SVO order; Latin has a usual SOV order, which its endings free it to change.`,
     `Greenberg found that the order of subject, verb, and object tends to go together with other facts of order.`,
     `Languages in which the verb comes before the object usually have prepositions, and languages in which the verb comes after the object usually have <strong>postpositions</strong>, placed after the noun.`,

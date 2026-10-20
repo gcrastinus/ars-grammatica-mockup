@@ -15,7 +15,7 @@
     `Thomas of Erfurt explains that an adjective signifies by the mode of adhering to another, so it requires a word that signifies by the mode of standing by itself, and when the two are joined the modes fit.`,
     `So congruity depends on how the words signify in the sentence, not merely on what part of speech they usually are.`,
     `A construction is <strong>complete</strong> when it produces a complete sense in the mind of the hearer, so that the hearer has been told something and waits for nothing more.`,
-    `A construction can be congruous but incomplete (“the old bridge”) or congruous and complete (“The old bridge stands”).`,
+    `A construction can be congruous but incomplete (“the old bridge”), or congruous and complete, as a sentence is.`,
     `Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so.`,
     `A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a dependent clause can be well formed and still not be complete by itself.`,
     `Of any group of words we may make one of three judgments: incongruous (the parts do not fit with one another, so the construction fails); congruous but incomplete (the parts fit, but the sense is not yet complete); and congruous and complete.`,

@@ -10,13 +10,13 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Agreement (*concordantia*) (`v.agreement`) | 33 | 742 |
 | Government (*regimen*) (`v.government`) | 31 | 638 |
 | Dependence (`v.dependence`) | 31 | 751 |
-| Order (*ordo*) (`v.order`) | 38 | 978 |
+| Order (*ordo*) (`v.order`) | 38 | 972 |
 | The Phrase (`v.phrase`) | 23 | 661 |
 | The Clause (`v.clause`) | 34 | 853 |
 | The Period (`v.period`) | 26 | 691 |
 | Mood and Voice in Construction (`v.mood`) | 37 | 870 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **322** | **8003** |
+| **Section V, whole section** | **322** | **7997** |
 
 ## Congruity (`v.congruity`)
 
@@ -33,7 +33,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 11. Thomas of Erfurt explains that an adjective signifies by the mode of adhering to another, so it requires a word that signifies by the mode of standing by itself, and when the two are joined the modes fit.
 12. So congruity depends on how the words signify in the sentence, not merely on what part of speech they usually are.
 13. A construction is **complete** when it produces a complete sense in the mind of the hearer, so that the hearer has been told something and waits for nothing more.
-14. A construction can be congruous but incomplete (“the old bridge”) or congruous and complete (“The old bridge stands”).
+14. A construction can be congruous but incomplete (“the old bridge”), or congruous and complete, as a sentence is.
 15. Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so.
 16. A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a dependent clause can be well formed and still not be complete by itself.
 17. Of any group of words we may make one of three judgments: incongruous (the parts do not fit with one another, so the construction fails); congruous but incomplete (the parts fit, but the sense is not yet complete); and congruous and complete.
@@ -190,7 +190,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 24. Construing does not change the meaning of the sentence; it makes the dependences visible by placing each word beside the word on which it depends.
 25. So construing shows that the natural order is the order of the dependences, whereas the artificial order of the author arranges them for emphasis, sound, and effect.
 26. Modern linguists, following Joseph Greenberg, class languages by the usual order of subject (S), verb (V), and object (O) in a statement.
-27. The three common orders are SVO (as in English and French), SOV (as in Latin in its usual order), and VSO (as in Classical Arabic, Biblical Hebrew, and Welsh).
+27. The three common orders are SVO, as in English; SOV, as in the usual order of Latin; and VSO, as in Classical Arabic.
 28. English has a fixed SVO order; Latin has a usual SOV order, which its endings free it to change.
 29. Greenberg found that the order of subject, verb, and object tends to go together with other facts of order.
 30. Languages in which the verb comes before the object usually have prepositions, and languages in which the verb comes after the object usually have **postpositions**, placed after the noun.
