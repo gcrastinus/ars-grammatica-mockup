@@ -1,11 +1,13 @@
-/* Recitation outline for ii.meter: 47 points. Revised 19 Oct 2026 to the manner of the Section I outlines.
+/* Recitation outline for ii.meter: 49 points. Revised 19 Oct 2026 to the manner of the Section I outlines.
    Copied into data/decks/ii.meter.js as the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>). */
   recitation: [
     `Verse is speech arranged in lines, each line following a fixed pattern of syllables, and that pattern is the meter (Greek <i>metron</i>, “measure”).`,
     `Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length.`,
+    `The pattern is called a measure because spoken syllables have their extent in time, so verse is speech measured in time, in which the same pattern of syllables returns in every line.`,
     `Prose has a rhythm too, but not a pattern that returns, so the same words are prose or verse according as a rule of measure governs their syllables.`,
     `The grammarian studies meter because the poets were the first authors read, and a line cannot be read aloud rightly, or fully understood, unless its measure is known.`,
+    `Other traditions measure verse in other ways: classical Sanskrit verse, like Greek and Latin, by long and short syllables, and classical Chinese verse by the number of syllables and a fixed pattern of tones.`,
     `A foot (Latin <i>pes</i>) is the least group of syllables that a meter repeats.`,
     `Latin and Greek feet are made of long and short syllables, a long syllable marked – and a short one ∪.`,
     `A dactyl (– ∪ ∪) is a long syllable and two short ones (<i>Rōmulus</i>).`,

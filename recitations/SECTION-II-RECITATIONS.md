@@ -6,13 +6,13 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Voice (*vox*) (`ii.voice`) | 27 | 703 |
-| The Letter and Orthography (`ii.letter`) | 43 | 1003 |
-| The Syllable (`ii.syllable`) | 30 | 759 |
-| Quantity and Accent (`ii.quantity`) | 46 | 1133 |
-| Punctuation (*posituræ*) (`ii.punctuation`) | 31 | 972 |
-| Feet and Meter (`ii.meter`) | 47 | 1099 |
-| **Section II, whole section** | **224** | **5669** |
+| Voice (*vox*) (`ii.voice`) | 27 | 701 |
+| The Letter and Orthography (`ii.letter`) | 43 | 972 |
+| The Syllable (`ii.syllable`) | 30 | 741 |
+| Quantity and Accent (`ii.quantity`) | 46 | 1106 |
+| Punctuation (*posituræ*) (`ii.punctuation`) | 31 | 965 |
+| Feet and Meter (`ii.meter`) | 49 | 1145 |
+| **Section II, whole section** | **226** | **5630** |
 
 ## Voice (*vox*) (`ii.voice`)
 
@@ -210,66 +210,50 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 1. Verse is speech arranged in lines, each line following a fixed pattern of syllables, and that pattern is the meter (Greek *metron*, “measure”).
 2. Diomedes defines meter, in substance, as an arrangement of feet in a fixed order, limited to a definite length.
-3. Prose has a rhythm too, but not a pattern that returns, so the same words are prose or verse according as a rule of measure governs their syllables.
-4. The grammarian studies meter because the poets were the first authors read, and a line cannot be read aloud rightly, or fully understood, unless its measure is known.
-5. A foot (Latin *pes*) is the least group of syllables that a meter repeats.
-6. Latin and Greek feet are made of long and short syllables, a long syllable marked – and a short one ∪.
-7. A dactyl (– ∪ ∪) is a long syllable and two short ones (*Rōmulus*).
-8. A spondee (– –) is two long syllables (*Rōmā*, “from Rome”).
-9. A trochee (– ∪) is a long syllable and a short one (*Rōma*).
-10. An iamb (∪ –) is a short syllable and a long one (*legō*, “I read”).
-11. An anapest (∪ ∪ –) is two short syllables and a long one (*bonitās*, “goodness”).
-12. The names of the feet are Greek, and English uses them for feet of stressed and unstressed syllables.
-13. Elision (Latin *elisio*, “striking out”) leaves uncounted a final syllable that ends in a vowel, or in a vowel and *m*, when the next word begins with a vowel or with *h*.
-14. Latin still writes the elided vowel, whereas English sometimes drops it from the print and marks the place with an apostrophe.
-15. The dactylic hexameter, the meter of Greek and Latin epic, has six feet: the first four each a dactyl or a spondee, the fifth almost always a dactyl, and the sixth two syllables.
-16. Its close, – ∪ ∪ | – –, is the fixed part of the line, and measuring begins there.
-17. The first line of the *Aeneid*, *Arma virumque cano, Troiae qui primus ab oris*, is such a hexameter, and the opening of *Evangeline* imitates the six beats by stress.
-18. A caesura (Latin for a cutting) is a break between words inside a foot, not at a foot’s end.
-19. In the hexameter that break usually comes in the third foot, after the first syllable.
-20. If every word ended where a foot ends, the line would fall into equal pieces, an effect a poet might seek only rarely, since the words are meant to form a unity, whereas a word that runs past the end of a foot binds the line into one.
-21. The feet therefore divide the line by the meter, and the words divide it by the sense.
-22. The caesura is the break inside a foot, and punctuation marks the pauses of the sense, which need not fall at the same place.
-23. English has no fixed caesura, and the name is used more loosely for any strong pause within the line.
-24. Greek verse, like Latin, is measured by quantity, and its written accents are independent of the meter.
-25. The elegiac couplet is a hexameter followed by a pentameter, a shorter line that pauses in the middle and again at the end.
-26. Each half of the pentameter is two and a half feet, – ∪ ∪ | – ∪ ∪ | –, and only the first half may put a spondee for a dactyl.
-27. Ovid describes the pentameter as a hexameter from which one foot has been taken in every second line.
-28. The hendecasyllable, a line of eleven syllables, follows the order – – – ∪ ∪ – ∪ – ∪ – –, and elision counts toward the eleven.
-29. The sapphic stanza, named for Sappho, has three lines of the pattern – ∪ – – – ∪ ∪ – ∪ – – and a short fourth line, – ∪ ∪ – –.
-30. An iambic dimeter is four iambs taken in pairs, and the first and third feet may be long where the iamb is short.
-31. Ambrose wrote hymns in that meter, four lines to the stanza, and many English hymns descend from it in lines of eight syllables, the beat on every second one.
-32. Bede counts the feet singly and so calls the same line an iambic tetrameter.
-33. The hymns are measured by quantity, yet the word accent usually falls on the beat, which is where Latin verse begins to move from quantity toward accent.
-34. After long and short vowels ceased to be distinguished in spoken Latin, verse came to count syllables and accents instead of quantity.
-35. Bede sets meter, arrangement by the rules of quantity, apart from rhythm (*rhythmus*), arrangement by the number of syllables as the ear judges it.
-36. Rhythm can stand without meter, but meter cannot stand without rhythm, and later verse still measures, by accent and by number of syllables.
-37. English verse measures by stress, not by quantity, because English length follows the stress and does not by itself distinguish words.
-38. An English iamb is unstressed then stressed, a trochee stressed then unstressed, an anapest two unstressed and a stressed, and a dactyl a stressed and two unstressed.
-39. A line takes its name from the foot and from the number of feet: four are a tetrameter, five a pentameter, and six a hexameter.
-40. The English iamb and the Latin iamb share their name and their order, but one is unstressed and stressed, whereas the other is short and long, and a stressed English syllable may be short in time.
-41. The ordinary line of English verse is the iambic pentameter, five iambs, ten syllables with the stress on the even syllables.
-42. Unrhymed iambic pentameter is blank verse, the line of Shakespeare’s plays and of Milton’s *Paradise Lost*.
-43. A line seldom keeps the pattern without change, and the usual change is a trochee for the first iamb, heard against the pattern that is expected.
-44. An English line is measured by the syllables the words themselves stress, and by the pattern that fits most of those stresses.
-45. Greek and Latin measure by quantity, English and German by stress, and Opitz required the German beat to fall on the syllable the word itself stresses.
-46. French measures chiefly by the number of syllables, and its classical line, the alexandrine, has twelve, with a pause after the sixth.
-47. The measure follows what each language distinguishes in its own sound, so a Latin meter cannot be copied into English by putting a stress in place of each long syllable.
-
-## Section II: The Matter of Speech, whole section
-
-The combined outline is the six outlines above, in this order, each under its deck title, with the same check boxes:
-
-- **Voice (*vox*)**: points 1–27 of its outline (combined points 1–27)
-- **The Letter and Orthography**: points 1–43 of its outline (combined points 28–70)
-- **The Syllable**: points 1–30 of its outline (combined points 71–100)
-- **Quantity and Accent**: points 1–46 of its outline (combined points 101–146)
-- **Punctuation (*posituræ*)**: points 1–31 of its outline (combined points 147–177)
-- **Feet and Meter**: points 1–47 of its outline (combined points 178–224)
-
-## Classification questions for Timothy
-
-1. **Punctuation history.** The printer-by-printer account (Boccaccio, Griffo, Aldus and *De Aetna*, Manuzio the Younger, Lowth, and the dates) is cut. What remains is the distinction: the three heights of the point, the passage of the names comma, colon, and period from the parts of a sentence to the marks, and the gradual change from marks of pause to marks of the sense. Restore any of the names or dates?
-2. **Scansions and verse quotations.** The full measures (the *Aeneid*, Ovid, the *Iliad*, Catullus, Ambrose) and the verse quotations (Williams, Dryden, Coleridge, Shakespeare, Donne, Racine, Macbeth) are cut. Each meter keeps its pattern, and the foot keeps one Latin word in parentheses. The opening line of the *Aeneid* is named, without its scansion. Restore any measure?
-3. **The cadence.** Lincoln, Churchill, and Farnsworth’s sentences are cut. What remains is that orators arrange the close of a sentence (the *clausula*), that the rhythms before a pause are the most noticeable, and that two final stresses can close a sentence emphatically. Enough?
-4. **No bold.** Section I bolds a term where it is defined. These outlines do not, by the instruction for this revision. Bold the defined terms, as in Section I?
+3. The pattern is called a measure because spoken syllables have their extent in time, so verse is speech measured in time, in which the same pattern of syllables returns in every line.
+4. Prose has a rhythm too, but not a pattern that returns, so the same words are prose or verse according as a rule of measure governs their syllables.
+5. The grammarian studies meter because the poets were the first authors read, and a line cannot be read aloud rightly, or fully understood, unless its measure is known.
+6. Other traditions measure verse in other ways: classical Sanskrit verse, like Greek and Latin, by long and short syllables, and classical Chinese verse by the number of syllables and a fixed pattern of tones.
+7. A foot (Latin *pes*) is the least group of syllables that a meter repeats.
+8. Latin and Greek feet are made of long and short syllables, a long syllable marked – and a short one ∪.
+9. A dactyl (– ∪ ∪) is a long syllable and two short ones (*Rōmulus*).
+10. A spondee (– –) is two long syllables (*Rōmā*, “from Rome”).
+11. A trochee (– ∪) is a long syllable and a short one (*Rōma*).
+12. An iamb (∪ –) is a short syllable and a long one (*legō*, “I read”).
+13. An anapest (∪ ∪ –) is two short syllables and a long one (*bonitās*, “goodness”).
+14. The names of the feet are Greek, and English uses them for feet of stressed and unstressed syllables.
+15. Elision (Latin *elisio*, “striking out”) leaves uncounted a final syllable that ends in a vowel, or in a vowel and *m*, when the next word begins with a vowel or with *h*.
+16. Latin still writes the elided vowel, whereas English sometimes drops it from the print and marks the place with an apostrophe.
+17. The dactylic hexameter, the meter of Greek and Latin epic, has six feet: the first four each a dactyl or a spondee, the fifth almost always a dactyl, and the sixth two syllables.
+18. Its close, – ∪ ∪ | – –, is the fixed part of the line, and measuring begins there.
+19. The first line of the *Aeneid*, *Arma virumque cano, Troiae qui primus ab oris*, is such a hexameter, and the opening of *Evangeline* imitates the six beats by stress.
+20. A caesura (Latin for a cutting) is a break between words inside a foot, not at a foot’s end.
+21. In the hexameter that break usually comes in the third foot, after the first syllable.
+22. If every word ended where a foot ends, the line would fall into equal pieces, an effect a poet might seek only rarely, since the words are meant to form a unity, whereas a word that runs past the end of a foot binds the line into one.
+23. The feet therefore divide the line by the meter, and the words divide it by the sense.
+24. The caesura is the break inside a foot, and punctuation marks the pauses of the sense, which need not fall at the same place.
+25. English has no fixed caesura, and the name is used more loosely for any strong pause within the line.
+26. Greek verse, like Latin, is measured by quantity, and its written accents are independent of the meter.
+27. The elegiac couplet is a hexameter followed by a pentameter, a shorter line that pauses in the middle and again at the end.
+28. Each half of the pentameter is two and a half feet, – ∪ ∪ | – ∪ ∪ | –, and only the first half may put a spondee for a dactyl.
+29. Ovid describes the pentameter as a hexameter from which one foot has been taken in every second line.
+30. The hendecasyllable, a line of eleven syllables, follows the order – – – ∪ ∪ – ∪ – ∪ – –, and elision counts toward the eleven.
+31. The sapphic stanza, named for Sappho, has three lines of the pattern – ∪ – – – ∪ ∪ – ∪ – – and a short fourth line, – ∪ ∪ – –.
+32. An iambic dimeter is four iambs taken in pairs, and the first and third feet may be long where the iamb is short.
+33. Ambrose wrote hymns in that meter, four lines to the stanza, and many English hymns descend from it in lines of eight syllables, the beat on every second one.
+34. Bede counts the feet singly and so calls the same line an iambic tetrameter.
+35. The hymns are measured by quantity, yet the word accent usually falls on the beat, which is where Latin verse begins to move from quantity toward accent.
+36. After long and short vowels ceased to be distinguished in spoken Latin, verse came to count syllables and accents instead of quantity.
+37. Bede sets meter, arrangement by the rules of quantity, apart from rhythm (*rhythmus*), arrangement by the number of syllables as the ear judges it.
+38. Rhythm can stand without meter, but meter cannot stand without rhythm, and later verse still measures, by accent and by number of syllables.
+39. English verse measures by stress, not by quantity, because English length follows the stress and does not by itself distinguish words.
+40. An English iamb is unstressed then stressed, a trochee stressed then unstressed, an anapest two unstressed and a stressed, and a dactyl a stressed and two unstressed.
+41. A line takes its name from the foot and from the number of feet: four are a tetrameter, five a pentameter, and six a hexameter.
+42. The English iamb and the Latin iamb share their name and their order, but one is unstressed and stressed, whereas the other is short and long, and a stressed English syllable may be short in time.
+43. The ordinary line of English verse is the iambic pentameter, five iambs, ten syllables with the stress on the even syllables.
+44. Unrhymed iambic pentameter is blank verse, the line of Shakespeare’s plays and of Milton’s *Paradise Lost*.
+45. A line seldom keeps the pattern without change, and the usual change is a trochee for the first iamb, heard against the pattern that is expected.
+46. An English line is measured by the syllables the words themselves stress, and by the pattern that fits most of those stresses.
+47. Greek and Latin measure by quantity, English and German by stress, and Opitz required the German beat to fall on the syllable the word itself stresses.
+48. French measures chiefly by the number of syllables, and its classical line, the alexandrine, has twelve, with a pause after the sixth.
+49. The measure follows what each language distinguishes in its own sound, so a Latin meter cannot be copied into English by putting a stress in place of each long syllable.
