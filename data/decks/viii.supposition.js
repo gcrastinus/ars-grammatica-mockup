@@ -1,6 +1,6 @@
 /* VIII.1 Supposition [viii.supposition]
-   Plan (ITEM-LIST.md): 17 panels, 5 question points. Exercise: Supposition (not yet
-   written). The first three panels review signification and the modes of signifying; then material, simple, and personal
+   Plan (ITEM-LIST.md): 17 panels, 5 question points. Exercise: Supposition (written).
+   The first three panels review signification and the modes of signifying; then material, simple, and personal
    supposition, and the kinds of personal supposition (discrete, determinate, confused and distributive, merely confused).
    Overlap with Ars Syllogistica, which teaches supposition from the side of logic.
    Live material drawn on: DECKS.suppos (two questions; where grammar hands over). */
