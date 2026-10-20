@@ -955,3 +955,4 @@ One commit per deck (git log, "card pass against the final style list"). Doctrin
 - **`ix.ex.marking` (36)**: 12 per set, 9 English and 3 Latin composed sentences of one clause, with their stored dependences.
 - **`ix.review` (30)**: questions on the method only, with no passage quoted.
 - **Checks.** Every stored analysis and marking was run through the course’s own grading functions in the browser: each is accepted when answered as stored, and rejected when an arrow is missing. Opening words of every drill sentence were searched in `data/`, and six sentences that repeated another deck or exercise were replaced.
+- Commit 7cefa31 (the deck headers, EXERCISES-PLAN.md, and this entry) was pushed with an empty message by a slip in the commit script; its content is as described here.
