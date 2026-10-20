@@ -9,8 +9,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Usage and Authority (`vi.usage`) | 24 | 660 |
 | Barbarism (`vi.barbarism`) | 23 | 587 |
 | Solecism (`vi.solecism`) | 32 | 781 |
-| Metaplasm (`vi.metaplasm`) | 22 | 578 |
-| **Section VI, whole section** | **101** | **2606** |
+| Metaplasm (`vi.metaplasm`) | 22 | 579 |
+| **Section VI, whole section** | **101** | **2607** |
 
 ## Usage and Authority (`vi.usage`)
 
@@ -108,7 +108,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 4. Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change.
 5. Three metaplasms add a letter or syllable: **prosthesis** (“putting before”) adds at the beginning, **epenthesis** (“putting in”) adds in the middle, and **paragoge** (“leading past”) adds at the end.
 6. The added letter or syllable usually serves the meter, by lengthening a syllable or adding one.
-7. Three metaplasms remove a letter or syllable: **aphaeresis** (“taking away”) removes from the beginning, **syncope** (“cutting short”) removes from the middle, and **apocope** (“cutting off”) removes from the end (“’tis,” “ne’er,” “ope”).
+7. Three metaplasms remove a letter or syllable: **aphaeresis** (“taking away”) removes from the beginning, **syncope** (“cutting short”) removes from the middle, and **apocope** (“cutting off”) removes from the end (“’tis” for “it is”).
 8. These are the metaplasms most often met in English poetry, because English verse counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word.
 9. In prose the same shortened forms would be barbarisms, or at least informal.
 10. Two metaplasms change the quantity of a syllable: **ectasis** (“stretching out”) makes a short syllable long, and **systole** (“drawing together”) makes a long syllable short.

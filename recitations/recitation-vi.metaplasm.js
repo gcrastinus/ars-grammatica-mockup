@@ -8,7 +8,7 @@
     `Donatus counts fourteen kinds of metaplasm, which work on the letters and syllables of a single word, and they can be grouped by the kind of change.`,
     `Three metaplasms add a letter or syllable: <strong>prosthesis</strong> (“putting before”) adds at the beginning, <strong>epenthesis</strong> (“putting in”) adds in the middle, and <strong>paragoge</strong> (“leading past”) adds at the end.`,
     `The added letter or syllable usually serves the meter, by lengthening a syllable or adding one.`,
-    `Three metaplasms remove a letter or syllable: <strong>aphaeresis</strong> (“taking away”) removes from the beginning, <strong>syncope</strong> (“cutting short”) removes from the middle, and <strong>apocope</strong> (“cutting off”) removes from the end (“’tis,” “ne’er,” “ope”).`,
+    `Three metaplasms remove a letter or syllable: <strong>aphaeresis</strong> (“taking away”) removes from the beginning, <strong>syncope</strong> (“cutting short”) removes from the middle, and <strong>apocope</strong> (“cutting off”) removes from the end (“’tis” for “it is”).`,
     `These are the metaplasms most often met in English poetry, because English verse counts syllables and stresses, and a poet who needs one syllable fewer can shorten a word.`,
     `In prose the same shortened forms would be barbarisms, or at least informal.`,
     `Two metaplasms change the quantity of a syllable: <strong>ectasis</strong> (“stretching out”) makes a short syllable long, and <strong>systole</strong> (“drawing together”) makes a long syllable short.`,
