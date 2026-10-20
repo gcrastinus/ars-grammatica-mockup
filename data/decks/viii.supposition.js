@@ -1,5 +1,5 @@
 /* VIII.1 Supposition [viii.supposition]
-   Plan (ITEM-LIST.md): 17 panels, 5 question points (placeholders: qpTodo; to be written). Exercise: Supposition (not yet
+   Plan (ITEM-LIST.md): 17 panels, 5 question points. Exercise: Supposition (not yet
    written). The first three panels review signification and the modes of signifying; then material, simple, and personal
    supposition, and the kinds of personal supposition (discrete, determinate, confused and distributive, merely confused).
    Overlap with Ars Syllogistica, which teaches supposition from the side of logic.
@@ -39,7 +39,20 @@ ARS.decks['viii.supposition'] = {
   body: `<p>A word by itself has signification but no supposition. The word “dog” in a dictionary signifies a certain animal, but it does not stand for anything in particular, because nothing is said of it. Only when it is used as a term in a proposition, as the subject or the predicate, does the question arise what it stands for. So supposition is a property of terms in propositions, not of words by themselves.</p>
 <p>This is why supposition belongs chiefly to logic, which studies the proposition as true or false, whereas signification belongs to grammar as well. But grammar must know the doctrine, because the same grammatical form, a noun in the nominative with a verb, can carry different suppositions, and the reader who does not distinguish them will misunderstand what is said. The first of these differences is between a term that stands for a thing and a term that stands for itself as a word.</p>`,
   src: `Peter of Spain, <i>Tractatus</i> VI; Ockham, <i>Summa logicae</i> I.63; both in paraphrase.`,
-  qpTodo: `Signification and supposition: does a given word have supposition by itself (“river” in a word list) or only in a proposition (“A river flooded”), and what is the difference between what it signifies and what it stands for.` },
+  qp: { id: 'q-in-proposition', variants: [
+    { prompt: `The word “harbor” stands alone in a spelling list. Does it have supposition there?`,
+      options: [`Yes, personal supposition`, `Yes, material supposition`, `No; it only signifies`, `No; it has no signification either`],
+      answer: 2,
+      explain: `A word by itself has signification, which it has from its imposition, but supposition belongs only to a term used in a proposition. In a list nothing is said of “harbor,” so it stands for nothing.` },
+    { prompt: `In “A harbor froze last winter,” what does “harbor” signify, and what does it stand for?`,
+      options: [`It signifies one harbor; it stands for the kind`, `Kind of place; one harbor`, `It signifies the word; it stands for the sound`, `It signifies nothing until it stands for something`],
+      answer: 1,
+      explain: `The word signifies the same kind of place in every sentence; in this statement it stands for some one harbor that froze.` },
+    { prompt: `Why does supposition belong chiefly to logic rather than to grammar?`,
+      options: [`It concerns terms in statements`, `Grammar does not study nouns`, `Logic alone studies signification`, `Supposition is a kind of meter`],
+      answer: 0,
+      explain: `Supposition is a property of terms in propositions, and logic studies the proposition as true or false. Signification belongs to grammar as well.` }
+  ] } },
 
 { id: 'material',
   title: 'Material supposition',
@@ -58,7 +71,20 @@ ARS.decks['viii.supposition'] = {
   body: `<p>When we say “A dog is barking” or “Every dog has four legs,” we speak of dogs themselves, the individuals, and not of the word or of the kind. A term has <strong>personal supposition</strong> when it stands for the individual things that it signifies. In “A dog is barking,” “dog” stands for some individual dog; in “Every dog has four legs,” it stands for each individual dog. Personal supposition is the most common kind, because most statements are about individual things. The name “personal” does not mean that the term stands for persons only: “dog” here has personal supposition for individual dogs.</p>
 <p>So the same word “dog” can have three suppositions in three statements: material in “Dog is a noun,” simple in “Dog is a species of animal,” and personal in “A dog is barking.” Its signification is the same in all three; what it stands for differs. The grammar of the three sentences is the same, a noun subject with a verb and a predicate, and only the sense of the whole shows which supposition is meant. Personal supposition is itself divided further.</p>`,
   src: `Peter of Spain, <i>Tractatus</i> VI; Ockham, <i>Summa logicae</i> I.64; both in paraphrase.`,
-  qpTodo: `Material, simple, or personal: what does “lily” stand for in a given statement (“Lily is a noun,” “Lily is a species of flower,” “A lily is blooming”), and which supposition is it.` },
+  qp: { id: 'q-personal', variants: [
+    { prompt: `“Lily is a noun.” What supposition does “lily” have?`,
+      options: [`Material`, `Simple`, `Personal`, `None at all`],
+      answer: 0,
+      explain: `Only a word can be a noun, so “lily” stands for itself as a word: material supposition.` },
+    { prompt: `“The lily is a species of flower.” What supposition does “lily” have?`,
+      options: [`Material`, `Personal`, `None at all`, `Simple`],
+      answer: 3,
+      explain: `No single lily is a species, so the term stands for the common nature or concept: simple supposition.` },
+    { prompt: `“A lily is blooming by the gate.” What supposition does “lily” have?`,
+      options: [`Material`, `Simple`, `Personal`, `None at all`],
+      answer: 2,
+      explain: `The statement speaks of an individual lily, so the term stands for individuals: personal supposition.` }
+  ] } },
 
 { id: 'discrete',
   title: 'Discrete supposition',
@@ -71,7 +97,20 @@ ARS.decks['viii.supposition'] = {
   body: `<p>When someone says “A car is outside,” the statement is true whichever car is there, provided that one is. Common personal supposition is divided again. A term has <strong>determinate supposition</strong> when the statement is true if it is true of at least one of the individuals for which the term stands. In “A bird is singing,” “bird” has determinate supposition, because the statement is true if some one bird is singing, whichever it is.</p>
 <p>The logicians tested determinate supposition by a rule of <strong>descent</strong>: from “A bird is singing,” one may descend to “This bird is singing, or that bird is singing, or that bird is singing,” and so on for every bird, joined by “or.” A term has determinate supposition when this descent to a disjunction of singular statements (statements joined by “or”) is valid. So determinate supposition is the supposition of a common term with “some,” or of a common term with no sign of quantity in an affirmative statement. A term taken with “every” stands in another way.</p>`,
   src: `William of Sherwood, <i>Introductiones</i> V; Ockham, <i>Summa logicae</i> I.70; both in paraphrase.`,
-  qpTodo: `Determinate supposition: in a given statement (“A ship is sinking”; “Some tower is tall”), does the subject have determinate supposition, and to what disjunction can one descend.` },
+  qp: { id: 'q-determinate', variants: [
+    { prompt: `“A ship is sinking.” To what may one descend from “ship”?`,
+      options: [`“This ship is sinking, and that one …”`, `To nothing, since “ship” is singular`, `“This ship is sinking, or that one …”`, `“Every ship is this ship”`],
+      answer: 2,
+      explain: `The statement is true if some one ship is sinking, so “ship” has determinate supposition, and one may descend to a disjunction of singular statements joined by “or.”` },
+    { prompt: `“Some tower is tall.” What supposition does “tower” have?`,
+      options: [`Confused and distributive`, `Determinate`, `Merely confused`, `Discrete`],
+      answer: 1,
+      explain: `“Some” gives the term after it determinate supposition: the statement is true if at least one tower is tall.` },
+    { prompt: `Which statement gives its subject determinate supposition?`,
+      options: [`“A cart is passing.”`, `“Every cart is passing.”`, `“No cart is passing.”`, `“This cart is passing.”`],
+      answer: 0,
+      explain: `A common term with no sign of quantity in an affirmative statement has determinate supposition. “Every” and “no” distribute the term, and “this” makes the supposition discrete.` }
+  ] } },
 
 { id: 'distributive',
   title: 'Confused and distributive supposition',
@@ -84,7 +123,20 @@ ARS.decks['viii.supposition'] = {
   body: `<p>In “Every rose is a flower,” the word “flower” does not stand for one flower, since no one flower is every rose, nor for each flower, since not every flower is a rose. It stands for many flowers in another way. A term has <strong>merely confused supposition</strong> when it stands for many individuals but one cannot descend from it either to a disjunction of statements or to a conjunction. The standard case is the predicate of a universal affirmative statement: in “Every rose is a flower,” “flower” has merely confused supposition. One cannot descend to “Every rose is this flower, or every rose is that flower,” because no single flower is every rose; nor to “Every rose is this flower, and every rose is that flower.”</p>
 <p>One can descend only to a disjunction within the predicate: “Every rose is this flower or that flower or that flower.” So the term “flower” stands for many flowers, but not distributively and not determinately; it stands for them in a merely confused way. The logicians’ own example was “Every man is an animal” (<i>omnis homō est animal</i>). This kind of supposition shows how much the sense of a statement depends on the place of a term and on the signs that go before it, and negation is one such sign.</p>`,
   src: `William of Sherwood, <i>Introductiones</i> V; Ockham, <i>Summa logicae</i> I.70; both in paraphrase.`,
-  qpTodo: `The kinds of personal supposition: in “Every apple is a fruit,” what supposition does each term have (“apple” confused and distributive, “fruit” merely confused), and what descent does each allow.` },
+  qp: { id: 'q-merely-confused', variants: [
+    { prompt: `In “Every apple is a fruit,” what supposition does “apple” have?`,
+      options: [`Merely confused`, `Determinate`, `Confused and distributive`, `Discrete`],
+      answer: 2,
+      explain: `“Every” distributes the term that follows it, so “apple” stands for each apple, one by one; one may descend to “this apple is a fruit, and that apple is a fruit …”` },
+    { prompt: `In “Every apple is a fruit,” what supposition does “fruit” have?`,
+      options: [`Confused and distributive`, `Merely confused`, `Determinate`, `Discrete`],
+      answer: 1,
+      explain: `“Fruit,” the predicate of a universal affirmative statement, stands for many fruits, but neither for each one nor for some one: merely confused supposition.` },
+    { prompt: `Why can one not descend from “fruit” in “Every apple is a fruit” to “Every apple is this fruit, or every apple is that fruit”?`,
+      options: [`No single fruit is every apple`, `“Fruit” stands for itself as a word`, `“Fruit” is a proper noun`, `Descent is possible only from predicates`],
+      answer: 0,
+      explain: `Each disjunct would say that every apple is one particular fruit, which is false. One can descend only within the predicate: “Every apple is this fruit or that fruit or …”` }
+  ] } },
 
 { id: 'negation',
   title: 'Negation and supposition',
@@ -98,7 +150,20 @@ ARS.decks['viii.supposition'] = {
 <p><strong>material</strong>: the term stands for itself as a word (“Dog is a noun”);<br><strong>simple</strong>: the term stands for the common nature or concept (“Dog is a species of animal”);<br><strong>personal</strong>: the term stands for individuals, and personal supposition is either<br>   <strong>discrete</strong>, for one individual (“Plato,” “this student”), or common, which is either<br>   <strong>determinate</strong>, for at least one (“A bird is singing”), or<br>   <strong>confused and distributive</strong>, for each (“Every planet moves”), or<br>   <strong>merely confused</strong>, for many, but not each separately (“flower” in “Every rose is a flower”).</p>
 <p>The kind of supposition is decided by the predicate (for material and simple supposition) and by the signs and the order of the words (for the kinds of personal supposition). So supposition is a doctrine of logic that rests on grammar: on the distinction of proper and common nouns, on the syncategorematic words, and on the order of the sentence. Each language, moreover, shows these differences by its own means.</p>`,
   src: `Peter of Spain, <i>Tractatus</i> VI; William of Sherwood, <i>Introductiones</i> V; Ockham, <i>Summa logicae</i> I.63–77; all in paraphrase.`,
-  qpTodo: `The whole division: in a given statement, what supposition does the marked term have, and which feature of the sentence (the predicate, a sign, a demonstrative, the order) decides it.` },
+  qp: { id: 'q-rules', variants: [
+    { prompt: `“This elm is old.” What supposition does “this elm” have, and what decides it?`,
+      options: [`Determinate, decided by the predicate`, `Simple, decided by the order`, `Material, decided by the noun`, `Discrete, by the demonstrative`],
+      answer: 3,
+      explain: `The demonstrative “this” restricts the common noun to one individual, so the term has discrete supposition.` },
+    { prompt: `“Elm has three letters.” What decides that “elm” has material supposition?`,
+      options: [`The order of the words`, `A sign of quantity`, `The predicate`, `A demonstrative`],
+      answer: 2,
+      explain: `Only a word can have letters, so the predicate shows that “elm” stands for itself as a word.` },
+    { prompt: `In “Some meadow is not green,” what supposition does “green” have, and why?`,
+      options: [`Determinate, because of “some”`, `Distributed by “not”`, `Merely confused, as a predicate`, `Discrete, because it is an adjective`],
+      answer: 1,
+      explain: `A negative sign distributes every term that follows it, so “green” stands for each green thing: the meadow is not this green thing, and not that one.` }
+  ] } },
 
 { id: 'latin-english',
   title: 'Supposition in Latin and in English',
