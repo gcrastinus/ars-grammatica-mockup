@@ -37,6 +37,8 @@
    When another accepted answer still differs after normalization, "Also accepted:" lists it.
    A wrong copy names the first word that differs, instead of both texts.
    identify keeps its present feedback.
+   passage   (optional, on mc and mc-marked) a passage shown in a box above the prompt, with
+             passageSrc (its source line) and passageTr (a translation) below it.
    An item type with no renderer shows "This item type is not yet available."
    Hyphens and dashes are treated alike on count, form, divide, and transform, and accents
    other than macrons are ignored, as on the written count and divide items.
@@ -852,6 +854,7 @@ function renderItem(){
   const it = run.queue[run.k], again = run.k >= run.n;
   const box = document.createElement('div'); box.className = 'q-box qp ex-item';
   box.innerHTML = `<div class="qp-label"><span>${again ? 'Asked again' : 'Question'}</span><span class="qp-form">${again ? '' : `${run.k + 1} of ${run.n}`}</span></div>
+    ${it.passage ? `<div class="ex-passage">${it.passage}${it.passageSrc ? `<div class="ex-passage-src">${it.passageSrc}</div>` : ''}${it.passageTr ? `<div class="ex-passage-tr">${it.passageTr}</div>` : ''}</div>` : ''}
     <div class="q-prompt">${it.prompt}</div><div class="opts"></div><div class="fb"></div>`;
   const opts = box.querySelector('.opts');
   const done = (ok, given, right) => finishItem(box, it, ok, given, right);

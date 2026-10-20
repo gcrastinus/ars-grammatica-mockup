@@ -597,3 +597,8 @@ body.dark .lang-bar .lang-btn.is-done:focus-visible{
 
 /* Reviews (section and cumulative) take the same lighter panel color as the exercise strip. */
 .cumul-bar, .set-card.review-bar{background:var(--panel)}
+
+/* A passage shown above a question (Analysis of Passages) */
+.ex-passage{border-left:3px solid var(--gold-soft); padding:8px 14px; margin:4px 0 16px; font-size:17px; line-height:1.55}
+.ex-passage-src{font-size:14px; color:var(--ink-soft); margin-top:6px; font-style:italic}
+.ex-passage-tr{font-size:15px; color:var(--ink-soft); margin-top:8px; border-top:1px solid var(--gold-soft); padding-top:6px}
