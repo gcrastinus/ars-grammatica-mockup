@@ -83,7 +83,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 10. The logicians named four quantities: **universal**, with the sign “every” or “no”; **particular**, with the sign “some”; **singular**, with a proper name or a demonstrative; and **indefinite**, with a common noun and no sign.
 11. In grammar the signs of quantity are syncategorematic words, adjectives in form, so the logical quantity of a statement is shown by a part of speech that grammar classes among the adjectives.
 12. A statement is **affirmative** or **negative**, and this is called its quality; Aristotle says that every affirmation has an opposite negation.
-13. In grammar negation is expressed by an adverb (“not,” *nōn*) or by a negative adjective or pronoun (“no,” “none,” *nūllus*, *nēmō*).
+13. In grammar negation is expressed by an adverb, such as “not,” or by a negative adjective or pronoun, such as “no.”
 14. The place of the negation decides what is denied: “Not every song is sad” denies the universal statement, whereas “Every song is not sad,” strictly read, means that no song is sad.
 15. English often uses the second form with the sense of the first, so the grammar of negation can be ambiguous where the logic is not, and the reader must decide from the sense which negation is meant.
 16. Quantity and quality together give four forms of the categorical statement, named with the vowels A, E, I, and O.
