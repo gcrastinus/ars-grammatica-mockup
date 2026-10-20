@@ -359,3 +359,14 @@ The exercises do not name the translators. English is quoted first. The Greek or
 | Schiller, *An die Freude*, second chorus | “O World, thy Maker's throne to see,” with “ye millions” in the same chorus. | Sir Edward Lytton Bulwer, Gutenberg ebook 25065 | lang.vii.de/figures-ex, the second chorus | https://www.gutenberg.org/cache/epub/25065/pg25065.txt | Bulwer’s couplet is “Why bow ye down--why down--ye millions? / O World, thy Maker's throne to see.” That is a different chorus from the spark and from “Embrace ye millions.” The German used is the later spelling *Ahnest du den Schöpfer, Welt?* (the 1786 Thalia text has *Ahndest*) and *Ihr stürzt nieder, Millionen?* (de.wikisource). |
 
 The ship card in lang.vii.grc/figures (19 Oct 2026) keeps Jowett’s English and extends the Greek through *καὶ γιγνώσκοντα περὶ ναυτικῶν ἕτερα τοιαῦτα*, so that “and his knowledge of navigation is not much better” has Greek beside it. The opening of the quotation matches Burnet on Perseus (1999.01.0167, book 6, 488a). The continuation is that same text; a second fetch of 488b timed out. The leaves card’s *ὥρη:* is now *ὥρη·*.
+
+## ix.ex.passages: the four Latin passages (20 Oct 2026)
+
+The Latin is taken exactly from the Latin Library files in `sources/passages/`, which carry no translation. Each passage is shown with a literal translation made for the course by Claude and labeled “Literal translation.” It is not a published translation and is not presented as one; Timothy may replace any of them with a checked published translation.
+
+| Text | Where | Translation |
+|---|---|---|
+| Cicero, *In Catilinam* I.1–2 | ix.ex.passages, A5 | the course’s own, literal |
+| Caesar, *De Bello Gallico* I.1.1–4 | ix.ex.passages, B5 | the course’s own, literal |
+| Livy, *Ab Urbe Condita*, Praef. 10–12 | ix.ex.passages, C4 | the course’s own, literal (the bracketed *[civitatem]* of the edition is not translated) |
+| Augustine, *Confessiones* I.1.1 | ix.ex.passages, C5 | the course’s own, literal |
