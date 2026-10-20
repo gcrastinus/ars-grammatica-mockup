@@ -1,5 +1,5 @@
 /* VII.2 Figures of Words (schemata lexeos) [vii.schemata]
-   Plan (ITEM-LIST.md): 13 panels, 3 question points (placeholders: qpTodo; to be written). Exercise: Figures of Words
+   Plan (ITEM-LIST.md): 13 panels, 3 question points. Exercise: Figures of Words
    (not yet written). One panel (zeugma-syllepsis) refers back to V.10.
    Overlap with Ars Rhetorica: examples are taken from Virgil, Ennius, Scripture, and English poets, not from Cicero, Gorgias,
    or Augustine, and the deck asks what each figure does to the arrangement of words, not to the hearer.
@@ -49,7 +49,20 @@ ARS.decks['vii.schemata'] = {
   body: `<p>Coleridge’s Ancient Mariner says, “Alone, alone, all, all alone, / Alone on a wide wide sea!” The words “alone,” “all,” and “wide” are each repeated immediately, with no other word between. This figure is called <strong>epizeuxis</strong> (Greek, “fastening together”). In the <i>Aeneid</i>, Nisus, seeing his friend about to be killed for what he himself has done, cries <i>Me me, adsum qui feci</i> (IX.427), which is translated “’T is I, ’t is I! … look on the man who slew them!” This is Donatus’s example.</p>
 <p>So we have seen four figures of repetition, which differ by the place of the repeated word: at the beginning of several clauses (anaphora), at the beginning and end of one (epanalepsis), at the end of one and the beginning of the next (anadiplosis), and immediately in succession (epizeuxis). In each, the repetition adds no new meaning to the construction, but it binds the words together and marks their arrangement.</p>`,
   src: `Virgil, <i>Aeneid</i> IX.427 (trans. T. C. Williams); Coleridge, <i>The Rime of the Ancient Mariner</i>, Part IV; Donatus, <i>Ars maior</i> III.5, in paraphrase.`,
-  qpTodo: `Figures of repetition: which figure is shown in a given example (anaphora, epanalepsis, anadiplosis, epizeuxis), judged by the place of the repeated word.` },
+  qp: { id: 'q-epizeuxis', variants: [
+    { prompt: `“Run, run, the bridge is falling!” Which figure of repetition is this?`,
+      options: [`Anaphora`, `Anadiplosis`, `Epizeuxis`, `Epanalepsis`],
+      answer: 2,
+      explain: `The word “run” is repeated immediately, with no other word between, so the figure is epizeuxis.` },
+    { prompt: `“Remember the harbor, remember the hills, remember the house where you were born.” Which figure of repetition is this?`,
+      options: [`Epizeuxis`, `Anaphora`, `Anadiplosis`, `Epanalepsis`],
+      answer: 1,
+      explain: `The same word, “remember,” begins each of the three clauses, so the figure is anaphora.` },
+    { prompt: `“They built the wall, the wall that kept out the sea.” Which figure of repetition is this?`,
+      options: [`Anadiplosis`, `Anaphora`, `Epizeuxis`, `Epanalepsis`],
+      answer: 0,
+      explain: `The word with which the first clause ends, “wall,” begins the next, so that the second is linked to the first. This is anadiplosis.` }
+  ] } },
 
 { id: 'paronomasia',
   title: 'Paronomasia',
@@ -68,7 +81,20 @@ ARS.decks['vii.schemata'] = {
   body: `<p>The proverb “A friend in need is a friend indeed” ends its two halves with the same sound. The saying attributed to Julius Caesar after a swift victory, <i>VENI VIDI VICI</i>, “I came, I saw, I conquered,” which Suetonius says was carried as an inscription in his Pontic triumph (<i>Julius</i> 37), has three verbs with the same ending and nearly the same sound. Two figures of this kind are distinguished. <strong>Homoeoptoton</strong> (Greek, “alike in case”) places together several words in the same case, so that their endings correspond. <strong>Homoeoteleuton</strong> (Greek, “alike in ending”) places together words or clauses that end in the same sound, whether or not they are in the same case.</p>
 <p>These figures are especially natural in Latin, whose endings make many words alike in sound. In English, where few words have endings, the corresponding figure is rhyme, and it appears in prose chiefly in proverbs. The grammarian notes that these figures depend on the accidents of the words, case and ending, which we studied in Section III.</p>`,
   src: `Suetonius, <i>Divus Julius</i> 37 (the Latin as Rolfe prints it; trans. J. C. Rolfe and A. Thomson agree); Donatus, <i>Ars maior</i> III.5.`,
-  qpTodo: `Figures of sound and ending: which figure is shown in a given example (paronomasia, paromoeon, homoeoteleuton), and what in the words produces it.` },
+  qp: { id: 'q-endings', variants: [
+    { prompt: `“The bold brown bear broke the bench.” Which figure is this, and what produces it?`,
+      options: [`Paromoeon: the same first sound`, `Paronomasia: words alike in sound`, `Homoeoteleuton: the same ending`, `Polyptoton: one word in several forms`],
+      answer: 0,
+      explain: `Most of the words begin with the same sound, <i>b</i>, so the figure is paromoeon, which English usually calls alliteration.` },
+    { prompt: `“They hoped for a peace, but got only a piece of land.” Which figure is this?`,
+      options: [`Paromoeon`, `Homoeoteleuton`, `Polyptoton`, `Paronomasia`],
+      answer: 3,
+      explain: `“Peace” and “piece” are alike in sound but differ in meaning, and they are placed together for that reason. This is paronomasia, which English calls a pun.` },
+    { prompt: `“The rich man’s gain was the poor man’s pain.” Which figure is this, and what produces it?`,
+      options: [`Paromoeon: the same first sound`, `Paronomasia: one word in two senses`, `Homoeoteleuton: like endings`, `Polyptoton: one word in two forms`],
+      answer: 2,
+      explain: `The two halves end in words with the same sound, “gain” and “pain,” so the figure is homoeoteleuton; in English it is a rhyme.` }
+  ] } },
 
 { id: 'polyptoton',
   title: 'Polyptoton',
@@ -87,7 +113,20 @@ ARS.decks['vii.schemata'] = {
   body: `<p>“And the rain descended, and the floods came, and the winds blew, and beat upon that house” (Matthew 7:25) joins every member with “and,” whereas “She laughed, sang, danced” uses no conjunction at all. The plain construction would use one conjunction before the last member: “the rain, the floods, and the winds.” So two figures concern the conjunctions that join a series. <strong>Polysyndeton</strong> (Greek, “many joinings”) uses more conjunctions than are needed, and <strong>asyndeton</strong> (Greek, “unjoined”; Donatus calls it <i>dialyton</i>) omits the conjunctions altogether.</p>
 <p>Latin uses both. Donatus cites Virgil’s list of the Greeks who came out of the wooden horse, <i>Acamasque Thoasque / Pelidesque Neoptolemus</i> (<i>Aeneid</i> II.262–63, as Donatus quotes it), where <i>-que</i> (“and”) is attached to name after name, as an example of polysyndeton. His example of asyndeton is Dido’s command <i>ite, / ferte citi flammas, date tela, impellite remos</i> (<i>Aeneid</i> IV.593–94, as Donatus quotes it), where four commands follow one another with no conjunction. So these figures are recognized by comparing the number of conjunctions with the number that the construction requires.</p>`,
   src: `Virgil, <i>Aeneid</i> II.262–63, IV.593–94 (Donatus’s form); Matthew 7:25 (King James Version); Donatus, <i>Ars maior</i> III.5, in paraphrase.`,
-  qpTodo: `Polysyndeton and asyndeton: does a given series have more or fewer conjunctions than its construction requires, and which figure is it.` },
+  qp: { id: 'q-conjunctions', variants: [
+    { prompt: `“We packed the tents and the stoves and the ropes and the maps.” Which figure is this?`,
+      options: [`Asyndeton`, `Polysyndeton`, `Anaphora`, `Zeugma`],
+      answer: 1,
+      explain: `The plain construction would put one “and” before the last member; this series has an “and” before every member after the first, more conjunctions than are needed. That is polysyndeton.` },
+    { prompt: `“She opened the door, looked out, shut it again.” Which figure is this?`,
+      options: [`Asyndeton`, `Polysyndeton`, `Epizeuxis`, `Zeugma`],
+      answer: 0,
+      explain: `The plain construction would put “and” before “shut”; the series has no conjunction at all, so the figure is asyndeton (Donatus’s dialyton).` },
+    { prompt: `“The farmer plowed, sowed, and reaped.” Which figure does the series show?`,
+      options: [`Polysyndeton`, `Asyndeton`, `Anaphora`, `Neither`],
+      answer: 3,
+      explain: `The series has one conjunction before the last member, which is the number the construction requires. So it is the plain construction, neither polysyndeton nor asyndeton.` }
+  ] } },
 
 { id: 'what-they-do',
   title: 'What the figures of words do to construction',
