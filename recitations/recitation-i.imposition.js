@@ -27,7 +27,7 @@
     `Names of the <strong>first imposition</strong> signify things in the usual way; they were imposed first, to signify things.`,
     `Names of the <strong>second imposition</strong> signify words considered as words; they were imposed afterward, to signify words already imposed (“noun” in “‘Horse’ is a noun”).`,
     `Logic makes a similar distinction between first and second intentions, that is, concepts of things and concepts of concepts, but that belongs to logic.`,
-    `In grammar, “genus” and “species” are names of the first imposition, since they signify concepts and not words.`,
+    `For the grammarian, the logician’s words “genus” and “species” (not Latin <i>genus</i> in the sense of grammatical gender) are names of the first imposition, since they signify concepts and not words.`,
     `Grammar is the art of speaking and writing correctly and must speak about words; so almost every technical term of grammar is a name of the second imposition.`,
     `A word spoken about as a word is marked to show that it is mentioned and not used: in this course an English word goes in double quotation marks and a Latin word in italics.`,
     `Because each people imposes its own sounds, languages differ in their words; but what the words signify, the concepts and the things, is the same for all.`,

@@ -4,19 +4,19 @@ Drafted 17 Oct 2026 from the finished Section I decks (`data/decks/i.*.js`), fol
 
 Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strings, one string per point (HTML as on the cards). The whole-section recitation is not stored separately; the Tablet joins the decks' arrays in course order under their deck titles (see `recitation-section-i.js`).
 
-| Deck | Points |
-|---|---|
-| Sign and Symbol (`i.sign`) | 41 |
-| Imposition (`i.imposition`) | 32 |
-| Signification and Consignification (`i.consignification`) | 44 |
-| Categorematic and Syncategorematic Words (`i.syncategorematic`) | 26 |
-| The Functions of Language (`i.functions`) | 26 |
-| Ambiguity (`i.ambiguity`) | 21 |
-| **Section I, whole section** | **190** |
+| Deck | Points | Words |
+|---|---|---|
+| Sign and Symbol (`i.sign`) | 42 | 1046 |
+| Imposition (`i.imposition`) | 32 | 805 |
+| Signification and Consignification (`i.consignification`) | 44 | 1075 |
+| Categorematic and Syncategorematic Words (`i.syncategorematic`) | 26 | 649 |
+| The Functions of Language (`i.functions`) | 26 | 708 |
+| Ambiguity (`i.ambiguity`) | 21 | 561 |
+| **Section I, whole section** | **191** | **4844** |
 
 ## Sign and Symbol (`i.sign`)
 
-1. The material of grammar is speech, that is, the voice as it signifies thoughts in the mind and as it is arranged into phrases and sentences.
+1. The material of grammar is speech, that is, the voice as it signifies thoughts in the mind, which the classical grammarians called **significant voice** (Latin *vox significativa*), and as it is arranged into phrases and sentences.
 2. Something that signifies (that has meaning) is a sign; so a word is a kind of sign.
 3. Before grammar considers the sounds and letters of which words are made, it must say what a sign is and how a word signifies.
 4. A sign is a thing which, besides the impression it makes on the senses, brings something else to mind (St. Augustine); or, “that which represents something other than itself to a cognitive power” (John of St. Thomas).
@@ -56,7 +56,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 38. This division was worked out most fully by John of St. Thomas.
 39. Grammar begins with the sign because its material is speech, and speech is made of conventional signs.
 40. A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he studies the sounds, their letters and syllables, and how words are formed and arranged.
-41. So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.
+41. The grammarians divided voices into those that signify and those that do not, and the significant voices into those that signify by nature (a groan) and those that signify by imposition (a word); only the last kind belongs to grammar.
+42. So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.
 
 ## Imposition (`i.imposition`)
 
@@ -85,7 +86,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 23. Names of the **first imposition** signify things in the usual way; they were imposed first, to signify things.
 24. Names of the **second imposition** signify words considered as words; they were imposed afterward, to signify words already imposed (“noun” in “‘Horse’ is a noun”).
 25. Logic makes a similar distinction between first and second intentions, that is, concepts of things and concepts of concepts, but that belongs to logic.
-26. In grammar, “genus” and “species” are names of the first imposition, since they signify concepts and not words.
+26. For the grammarian, the logician’s words “genus” and “species” (not Latin *genus* in the sense of grammatical gender) are names of the first imposition, since they signify concepts and not words.
 27. Grammar is the art of speaking and writing correctly and must speak about words; so almost every technical term of grammar is a name of the second imposition.
 28. A word spoken about as a word is marked to show that it is mentioned and not used: in this course an English word goes in double quotation marks and a Latin word in italics.
 29. Because each people imposes its own sounds, languages differ in their words; but what the words signify, the concepts and the things, is the same for all.
@@ -221,23 +222,3 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 19. Grammar locates the double sense and shows how it can be removed; logic asks what happens when an argument depends on the double sense.
 20. Aristotle lists six ways in which arguments that seem to prove something depend on language: equivocation, amphiboly, composition, division, accent, and the form of expression (words of the same form taken to signify things of the same kind).
 21. The study of such arguments belongs to logic.
-
-## Section I: Sign and Significant Voice, whole section
-
-The combined outline is the six outlines above, in this order, each under its deck title, with the same check boxes:
-
-- **Sign and Symbol**: points 1–41 of its outline (combined points 1–41)
-- **Imposition**: points 1–32 of its outline (combined points 42–73)
-- **Signification and Consignification**: points 1–44 of its outline (combined points 74–117)
-- **Categorematic and Syncategorematic Words**: points 1–26 of its outline (combined points 118–143)
-- **The Functions of Language**: points 1–26 of its outline (combined points 144–169)
-- **Ambiguity**: points 1–21 of its outline (combined points 170–190)
-
-## Classification questions for Timothy
-
-1. **Authorities named in the outline.** Where a card presents a doctrine as an author's (Augustine's definition and division of signs, Aristotle's account of word, concept, and thing, John of St. Thomas on formal and instrumental signs, Priscian and the dialecticians, the modists, Aristotle's names for the kinds of ambiguity, Bühler and Jakobson), the author is kept as part of the point. Authors named only in passing (Boethius on first and second imposition, Quintilian on usage and on the remedies, William of Sherwood, Cicero, Shakespeare) are left out. Keep, drop, or add any?
-2. **Asides left out:** Augustine is not speaking of sign language (I.1 card 4); the cross, the flag, *Moby-Dick* (I.1 card 8); the Babylonian, Egyptian, and Jewish examples of the power of names (I.2 card 2; summarized in one point as a reason, not as examples); the changes in the sound of “neither” (I.2 card 1); Augustine on the pause in John 1:1 (I.6 card 4); the syllogism on raw meat (I.6 card 9); the closing pointers to Sections II, III, VII, VIII and to Ars Syllogistica.
-3. **Kept although partly illustrative:** the expert and the novice (I.1 card 6) and translation as evidence (card 6), kept as parts of the argument; the many names for one man (I.1 card 7) as a conclusion; the answers that each kind of sentence receives (I.5 card 6) as an argument.
-4. **The modern accounts card (I.5 card 8)** is kept in four short points (agreement with the tradition, Bühler, Jakobson, the poetic function). It could be cut to one point, or left out as comparative material.
-5. **Quoted definitions.** Two definitions are given in the cards' own wording without quotation marks: John of St. Thomas's definition of the sign (I.1 point 4) and Aristotle's note on the verb as the mark of time (I.3 point 6, stated, not quoted). The outline shows no quotations; confirm that a definition repeated in this way is acceptable.
-6. **Lists split into separate points:** the five accidents (I.3) and the four kinds of syncategorematic word (I.4) are one point each, since they are important lists that return; the four causes of ambiguity and the five traditional names of the kinds of sentence are single points.

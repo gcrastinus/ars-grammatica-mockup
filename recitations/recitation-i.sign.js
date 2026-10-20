@@ -1,8 +1,8 @@
-/* Recitation outline for i.sign (Sign and Symbol): 41 points. DRAFT for Timothy's review.
+/* Recitation outline for i.sign (Sign and Symbol): 42 points. DRAFT for Timothy's review.
    Moved into data/decks/i.sign.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
-    `The material of grammar is speech, that is, the voice as it signifies thoughts in the mind and as it is arranged into phrases and sentences.`,
+    `The material of grammar is speech, that is, the voice as it signifies thoughts in the mind, which the classical grammarians called <strong>significant voice</strong> (Latin <i>vox significativa</i>), and as it is arranged into phrases and sentences.`,
     `Something that signifies (that has meaning) is a sign; so a word is a kind of sign.`,
     `Before grammar considers the sounds and letters of which words are made, it must say what a sign is and how a word signifies.`,
     `A sign is a thing which, besides the impression it makes on the senses, brings something else to mind (St. Augustine); or, “that which represents something other than itself to a cognitive power” (John of St. Thomas).`,
@@ -42,5 +42,6 @@
     `This division was worked out most fully by John of St. Thomas.`,
     `Grammar begins with the sign because its material is speech, and speech is made of conventional signs.`,
     `A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he studies the sounds, their letters and syllables, and how words are formed and arranged.`,
+    `The grammarians divided voices into those that signify and those that do not, and the significant voices into those that signify by nature (a groan) and those that signify by imposition (a word); only the last kind belongs to grammar.`,
     `So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.`
   ],
