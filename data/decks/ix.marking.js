@@ -1,5 +1,5 @@
 /* IX.3 Workshop and Marking [ix.marking]
-   Plan (ITEM-LIST.md): 2 panels, no question points. Exercise: the marking drill on 36 stored sentences (not yet written).
+   Plan (ITEM-LIST.md): 2 panels, no question points. Exercise: the marking drill on 36 stored sentences (written; composed sentences).
    Live material drawn on: DECKS.markup (marking every dependence; the article). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};

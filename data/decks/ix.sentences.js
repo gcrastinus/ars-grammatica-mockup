@@ -1,5 +1,5 @@
 /* IX.1 Analysis of Sentences [ix.sentences]
-   Plan (ITEM-LIST.md): 3 panels (method only), no question points. Exercise: pool of 60 sentences (not yet written).
+   Plan (ITEM-LIST.md): 3 panels (method only), no question points. Exercise: pool of 60 sentences (written; composed sentences).
    Live material drawn on: none for the method panels. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
