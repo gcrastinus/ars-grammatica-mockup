@@ -1,6 +1,6 @@
 /* X.4 Classical Composition Exercises [x.progymnasmata]
    Plan (ITEM-LIST.md): 22 panels (2 introductory, 14 one per exercise, 2 on why the fable comes first, 4 on the order),
-   6 question points (placeholders: qpTodo; to be written).
+   6 question points.
    Every quotation of Kennedy and of the handbooks in his translation is taken from sources/KENNEDY-FABLE-AND-ORDER.md, with
    the printed page numbers given there; nothing is quoted from any other report of Kennedy. The illustrations of each
    exercise are ours unless a model is named; Aphthonius's model subjects other than the cicadas and ants are named from
@@ -52,7 +52,20 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>A maxim is a general saying, such as “Haste makes waste” or “Look before you leap,” and it is expanded in the same way as the chreia. Aphthonius defines it: “Maxim (<i>gnômê</i>) is a summary statement, in declarative sentences, urging or dissuading something.”</p>
 <p>The maxim differs from the chreia in one point: the chreia is attributed to a person and may report an action, whereas the maxim is a general statement, attributed to no one in particular. Quintilian draws a similar line between the aphorism and the character sketch (<i>ethologia</i>): “<i>aphorisms</i> are general propositions, while <i>ethologiae</i> are concerned with persons” (<i>Institutio oratoria</i> I.9.3). The maxim used as an ornament of a speech, the <i>sententia</i>, is studied in rhetoric.</p>`,
   src: `Aphthonius, ch. 4 (trans. Kennedy, p. 99); Quintilian, <i>Institutio oratoria</i> I.9.3 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Chreia and maxim: is a given saying a chreia or a maxim (a saying attributed to Diogenes; “Many hands make light work”), and what distinguishes the two.` },
+  qp: { id: 'q-maxim', variants: [
+    { prompt: `“Many hands make light work.” Is this a chreia or a maxim?`,
+      options: [`A maxim`, `A chreia`, `A fable`, `A thesis`],
+      answer: 0,
+      explain: `It is a general saying attributed to no one in particular, so it is a maxim. A chreia is attributed to a named person.` },
+    { prompt: `A saying attributed to Diogenes the Cynic is to be expanded. Which exercise is this?`,
+      options: [`A maxim`, `A fable`, `An ecphrasis`, `A chreia`],
+      answer: 3,
+      explain: `A chreia reports a memorable saying or action of a named person, so a saying of Diogenes is a chreia.` },
+    { prompt: `What distinguishes the chreia from the maxim?`,
+      options: [`The maxim is always longer`, `The chreia gives no reason`, `The chreia names its person`, `The maxim is written in verse`],
+      answer: 2,
+      explain: `The chreia is attributed to a person and may report an action; the maxim is a general statement attributed to no one in particular.` }
+  ] } },
 
 { id: 'refutation',
   title: 'Refutation',
@@ -65,7 +78,20 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>Confirmation is the opposite of refutation, because in it the student argues that a story is credible, clear, possible, consistent, and fitting. Often the same story is first refuted and then confirmed, so that the student learns to see the arguments on both sides. Aphthonius defines it: “Confirmation (<i>kataskeuê</i>) is the corroboration of some matter at hand.”</p>
 <p>The two exercises together train the student to examine a narrative as a judge would, asking whether it is clear, whether it could have happened, and whether its parts agree with one another. So they connect the grammarian’s task of judging, which we saw in the Preliminary section, with the orator’s task of proving.</p>`,
   src: `Aphthonius, ch. 6 (trans. Kennedy, p. 103).`,
-  qpTodo: `Refutation and confirmation: what does each exercise do with a given story, and by what headings (clear, possible, consistent, fitting) is the story examined.` },
+  qp: { id: 'q-confirmation', variants: [
+    { prompt: `A student argues that the story of Arion, carried to shore on the back of a dolphin, could not have happened. Which exercise is this?`,
+      options: [`Confirmation`, `Refutation`, `Encomion`, `Narrative`],
+      answer: 1,
+      explain: `Arguing that a story is not credible, here because it could not have happened, is refutation.` },
+    { prompt: `A student argues that the same story is clear, possible, consistent, and fitting. Which exercise is this?`,
+      options: [`Confirmation`, `Refutation`, `Invective`, `Common-place`],
+      answer: 0,
+      explain: `Arguing that a story is credible under these headings is confirmation, the opposite of refutation.` },
+    { prompt: `By which headings are stories examined in refutation and confirmation?`,
+      options: [`Origin, upbringing, deeds, and death`, `Just, lawful, advantageous, possible`, `Who, what, when, where, and why`, `Clear, possible, consistent, fitting`],
+      answer: 3,
+      explain: `Refutation argues that a story is unclear, impossible, inconsistent, or improper; confirmation, that it is clear, possible, consistent, and fitting.` }
+  ] } },
 
 { id: 'common-place',
   title: 'Common-place',
@@ -102,7 +128,20 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>In the exercise of ecphrasis the student describes a person, a place, a time, an event, or a work of art so vividly that the reader seems to see it. Aphthonius defines it: “Ecphrasis (<i>ekphrasis</i>) is descriptive language, bringing what is shown clearly before the eyes.” Homer’s description of the shield of Achilles in the eighteenth book of the <i>Iliad</i> is the most famous example in Greek literature.</p>
 <p>Ecphrasis teaches the student to choose details and to order them, from the whole to the parts or from one side to the other, so that the description can be followed. It draws on the vocabulary that the student has gathered from reading and on the epithets and periphrases that we studied among the tropes.</p>`,
   src: `Aphthonius, ch. 12 (trans. Kennedy, p. 117); Homer, <i>Iliad</i> XVIII.`,
-  qpTodo: `Ethopoeia, ecphrasis, and syncrisis: which exercise is described in a given task (what Penelope might say when Odysseus returns; a description of a harbor; Rome and Carthage compared), and what does it require of the writer.` },
+  qp: { id: 'q-ecphrasis', variants: [
+    { prompt: `“Write what Penelope might say when Odysseus returns.” Which exercise is this?`,
+      options: [`Ecphrasis`, `Syncrisis`, `Ethopoeia`, `Narrative`],
+      answer: 2,
+      explain: `Writing the words a known person might say in a given situation is ethopoeia, and the speech must fit her character and circumstances.` },
+    { prompt: `“Describe a harbor at dawn so that the reader seems to see it.” Which exercise is this?`,
+      options: [`Ethopoeia`, `Ecphrasis`, `Narrative`, `Common-place`],
+      answer: 1,
+      explain: `Description that brings its subject clearly before the eyes is ecphrasis.` },
+    { prompt: `“Compare Rome and Carthage.” Which exercise is this, and what does it require?`,
+      options: [`Syncrisis, holding two subjects side by side`, `Ecphrasis, describing each city in vivid detail`, `Invective, blaming one city for its wrongdoing`, `Narrative, telling the story of their wars`],
+      answer: 0,
+      explain: `Syncrisis compares two persons or things under the headings of the encomion, so the writer must hold both in view and make the parallel clear.` }
+  ] } },
 
 { id: 'thesis',
   title: 'Thesis',
@@ -121,7 +160,20 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>A child who has heard the story of the fox who could not reach the grapes and called them sour can retell it long before he can argue about anything, and the story already teaches a lesson. The handbooks give two reasons of this kind for placing the fable first. Nicolaus says that the teachers “put the fable first among them as being naturally plain and simpler than the others and as having some relationship to poems. In their transition from poems to rhetoric, students should not all at once encounter things that are strange and unusual to them.” The handbook attributed to Hermogenes gives a moral reason: “Fable (<i>mythos</i>) is regarded as the first exercise to be assigned to the young because it can bring their minds into harmony for the better. In this way they (i.e., teachers of grammar) think to form students while still tender.”</p>
 <p>Both reasons belong to the teaching of grammar. The fable is easy, because it is short and familiar from the poets that the students have been reading, and it is morally useful, because it teaches a lesson in a form that the young accept. The note in the translation, “teachers of grammar,” shows that the exercise was assigned by the grammarian, as Quintilian also says.</p>`,
   src: `Nicolaus (trans. Kennedy, p. 133); [Hermogenes] (trans. Kennedy, p. 74).`,
-  qpTodo: `Why the fable comes first: what two reasons do the handbooks give (its ease and its relation to the poets; its moral use for the young), and which handbook gives each.` },
+  qp: { id: 'q-fable-first-1', variants: [
+    { prompt: `Which handbook says the fable comes first because it is plain, simple, and related to poems?`,
+      options: [`Aphthonius`, `Nicolaus`, `Theon`, `John of Sardis`],
+      answer: 1,
+      explain: `Nicolaus says the teachers put the fable first as naturally plain and simpler, and as related to poems, so that students passing from poems to rhetoric meet nothing strange.` },
+    { prompt: `Which handbook gives a moral reason for putting the fable first?`,
+      options: [`The handbook attributed to Hermogenes`, `Nicolaus, in his handbook`, `Theon, in the earliest handbook`, `Aphthonius, in his definition of the fable`],
+      answer: 0,
+      explain: `The handbook attributed to Hermogenes says that the fable can bring the minds of the young into harmony for the better.` },
+    { prompt: `What two reasons do the handbooks give for putting the fable first?`,
+      options: [`Its length and its meter`, `Its truth and its antiquity`, `Its humor and its brevity only`, `Its ease and its moral use`],
+      answer: 3,
+      explain: `The fable is easy, being short and familiar from the poets, and morally useful, teaching a lesson the young accept.` }
+  ] } },
 
 { id: 'fable-first-2',
   title: 'The fable and what follows it',
@@ -146,14 +198,40 @@ ARS.decks['x.progymnasmata'] = {
   body: `<p>The handbooks do not all keep this order. Theon, the earliest of the handbooks, begins not with the fable but with the chreia: “We begin, first, with the chreia; for this is short and easily remembered. Then comes fable and narration.” Kennedy explains that the Greek text of Theon was later rearranged: “Sometime in later antiquity Theon’s work was edited, and the order of the chapters was rearranged to make it conform more closely to the system of exercises described in the handbook of Aphthonius” (p. 2), and that Armenian manuscripts “preserve the original order of the text” (p. 2).</p>
 <p>Kennedy’s table of the handbooks shows the difference: Theon places the chreia first, the fable second, and the narrative third, whereas [Hermogenes], Aphthonius, and Nicolaus place the fable first, the narrative second, and the chreia third (p. xiii). Nicolaus reports the dispute: “There are some who assign it before both fable and narrative … It is not unreasonable to assign it a place after the fable and the narrative, because it requires the use of more logical divisions.”</p>`,
   src: `Theon (trans. Kennedy, p. 8); Kennedy, pp. 2, xiii; Nicolaus (trans. Kennedy, p. 139).`,
-  qpTodo: `Theon’s order: which exercise does Theon put first and why, how does his order differ from Aphthonius’s, and what reason does Nicolaus give for placing the chreia third.` },
+  qp: { id: 'q-order-theon', variants: [
+    { prompt: `Which exercise does Theon put first?`,
+      options: [`The fable`, `The narrative`, `The maxim`, `The chreia`],
+      answer: 3,
+      explain: `Theon begins with the chreia, because it is short and easily remembered; the fable and the narrative come next.` },
+    { prompt: `How does Theon’s order differ from Aphthonius’s at the start?`,
+      options: [`The thesis comes before everything`, `The fable comes after all the others`, `The chreia comes before the fable`, `There is no difference between them`],
+      answer: 2,
+      explain: `Theon places the chreia first, the fable second, and the narrative third; Aphthonius places the fable first, the narrative second, and the chreia third.` },
+    { prompt: `Why does Nicolaus think it reasonable to place the chreia after the fable and the narrative?`,
+      options: [`It is shorter than the fable or the narrative`, `It requires more logical divisions`, `It was invented later than the other exercises`, `It needs no argument, only a retelling`],
+      answer: 1,
+      explain: `Nicolaus says it is not unreasonable to place the chreia third, because it requires the use of more logical divisions.` }
+  ] } },
 
 { id: 'grammar',
   title: 'Why these exercises belong to grammar',
   body: `<p>The progymnasmata belong to grammar because they are exercises in composition: the student retells, expands, describes, and argues in correct and clear sentences, using the constructions, figures, and tropes that grammar has taught. For this reason, as we have seen, they were assigned by the grammarians to students who had learned to read and write, and Quintilian gives the first of them, the paraphrase of Aesop’s fables, to the Roman grammarian.</p>
 <p>So the progymnasmata complete the course of grammar and open the way to rhetoric. They begin from the reading of the poets, which is the grammarian’s first task, and they end at the threshold of the full speech, which is the work of rhetoric. The student who has completed them has learned to produce good writing as well as to understand it.</p>`,
   src: `Kennedy, <i>Progymnasmata</i>, p. x; Quintilian, <i>Institutio oratoria</i> I.9.2.`,
-  qpTodo: `Grammar and the progymnasmata: why were these exercises assigned by the grammarian, and what parts of grammar does each kind of exercise use.` }
+  qp: { id: 'q-grammar', variants: [
+    { prompt: `Why were the progymnasmata assigned by the grammarian?`,
+      options: [`They are exercises in formal logic`, `They concern only the meter of verse`, `They replace the reading of the poets`, `They are exercises in composition`],
+      answer: 3,
+      explain: `The student retells, expands, describes, and argues in correct and clear sentences, using what grammar has taught; Quintilian gives the first of them to the grammarian.` },
+    { prompt: `Which part of grammar does syncrisis draw on especially?`,
+      options: [`The declensions of nouns and adjectives`, `The letters of the alphabet and their sounds`, `Parallel construction and balance`, `Etymology and the origins of words`],
+      answer: 2,
+      explain: `Syncrisis holds two subjects side by side, so its sentences must make the parallel clear.` },
+    { prompt: `Which part of grammar does ecphrasis draw on especially?`,
+      options: [`The conjugations of the verbs`, `Vocabulary, epithets, and periphrases`, `Punctuation and the marks of the period`, `Etymology and the history of words`],
+      answer: 1,
+      explain: `Ecphrasis chooses and orders details, drawing on the vocabulary gathered from reading and on the epithets and periphrases studied among the tropes.` }
+  ] } }
 
   ]
 };
