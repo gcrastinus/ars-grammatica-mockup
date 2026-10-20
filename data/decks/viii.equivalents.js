@@ -1,5 +1,5 @@
 /* VIII.2 Grammatical Equivalents of Logical Forms [viii.equivalents]
-   Plan (ITEM-LIST.md): 14 panels, 4 question points (placeholders: qpTodo; to be written). The deck ends with four panels
+   Plan (ITEM-LIST.md): 14 panels, 4 question points. The deck ends with four panels
    (ug-1 to ug-4) on what modern universal grammar shares with the scholastic analysis and where it differs, leading to XI.2.
    Live material drawn on: DECKS.figura (the figure of speech), DECKS.service, DECKS.congtruth, DECKS.ug (two universal
    grammars). */
@@ -23,7 +23,20 @@ ARS.decks['viii.equivalents'] = {
   body: `<p>In “Honey is sweet” the word “is” says nothing about honey by itself and nothing about sweetness by itself; it joins the two, so that something is said of honey. The logicians call this word the <strong>copula</strong> (Latin, “link”). Aristotle observes that in such a statement “is” is added as a third element joining the subject and the predicate (<i>De interpretatione</i> 10, 19b19–22). In grammar, “is” is a verb, and in “Honey is sweet” it is a linking verb with a predicate adjective, as we saw in Section V.</p>
 <p>The logicians analyzed every statement into subject, copula, and predicate, even when the grammar has no separate copula. So “The child sleeps” is analyzed as “The child is sleeping,” with “is” as the copula and “sleeping” as the predicate. Latin often omits the copula entirely, as in Cicero’s <i>omnia praeclara, rara</i> (“everything splendid is rare”), which we saw as an example of ellipsis. So the copula is a constant element of the logical form, whereas in the grammar it may be a separate word, part of the verb, or omitted.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 10, 19b19–22 (Edghill for reference), in paraphrase; Peter of Spain, <i>Tractatus</i> I; Cicero, <i>Laelius</i> 79 (trans. W. A. Falconer).`,
-  qpTodo: `The copula: what are the subject, copula, and predicate of a given statement in its logical form (“The bell rings,” “Gold is heavy,” <i>vīta brevis</i>), and where is the copula in the grammar.` },
+  qp: { id: 'q-copula', variants: [
+    { prompt: `In logical form, what are the subject, copula, and predicate of “The bell rings”?`,
+      options: [`“the bell,” “is,” and “ringing”`, `“the,” “bell,” and “rings”`, `“bell,” “rings,” and nothing`, `“the bell,” “rings,” and the word “is”`],
+      answer: 0,
+      explain: `The logicians analyzed every statement into subject, copula, and predicate, even when the grammar has no separate copula, so “The bell rings” is read “The bell is ringing.”` },
+    { prompt: `“Gold is heavy.” Where is the copula in the grammar?`,
+      options: [`In the noun “gold”`, `In the adjective “heavy”`, `It is omitted`, `In the verb “is”`],
+      answer: 3,
+      explain: `Here the copula is a separate word, the linking verb “is,” which joins “gold” and “heavy.”` },
+    { prompt: `Latin <i>vīta brevis</i> (“life [is] short”). Where is the copula?`,
+      options: [`In the noun <i>vīta</i>`, `In the adjective <i>brevis</i>`, `Omitted, understood`, `In the ending of a verb`],
+      answer: 2,
+      explain: `Latin often omits the copula, so the phrase is a complete statement with the copula understood: <i>vīta brevis est</i>.` }
+  ] } },
 
 { id: 'quantity',
   title: 'Quantity',
@@ -37,7 +50,20 @@ ARS.decks['viii.equivalents'] = {
   body: `<p>“The lamp is lit” says that something is so, and “The lamp is not lit” says that it is not so. A statement is therefore <strong>affirmative</strong> or <strong>negative</strong>, and this is called its quality. Aristotle says that every affirmation has an opposite negation (<i>De interpretatione</i> 6). In grammar, negation is expressed by an adverb (“not,” Latin <i>nōn</i>) or by a negative adjective or pronoun (“no,” “none,” Latin <i>nūllus</i>, <i>nēmō</i>).</p>
 <p>The place of the negation decides what is denied. “Not every song is sad” denies the universal statement and means that some song is not sad; “Every song is not sad,” strictly read, means that no song is sad. English often uses the second form with the sense of the first, as in the proverb “All that glitters is not gold,” which means that not all that glitters is gold. So the grammar of negation can be ambiguous where the logic is not, and the reader must decide from the sense which negation is meant. Quantity and quality, taken together, give the forms of the simple statement.</p>`,
   src: `Aristotle, <i>De interpretatione</i> 6–7 (Edghill for reference), in paraphrase.`,
-  qpTodo: `Negation: what does a given statement deny (“Not every road is paved”; “Every road is not paved”; “All is not lost”), and how does the place of the negation decide it.` },
+  qp: { id: 'q-quality', variants: [
+    { prompt: `“Not every road is paved.” What does the statement deny?`,
+      options: [`That any road is paved`, `That every road is paved`, `That some road is unpaved`, `That roads exist`],
+      answer: 1,
+      explain: `“Not” stands before “every,” so it denies the universal statement; what remains is that some road is not paved.` },
+    { prompt: `Strictly read, what does “Every road is not paved” say?`,
+      options: [`That no road is paved`, `That some road is not paved`, `That every road is paved`, `That roads are not roads`],
+      answer: 0,
+      explain: `Strictly read, “not” comes after “every” and denies the predicate of each road, so no road is paved. English often uses this form with the other sense, so the reader must decide from the sense.` },
+    { prompt: `“All is not lost,” as English usually means it, says what?`,
+      options: [`That nothing at all remains`, `That everything is lost`, `That nothing was ever lost`, `That not all is lost`],
+      answer: 3,
+      explain: `English often puts “not” after “all” with the sense of “not all,” as in the proverb on the card. So the sentence means that not everything is lost, and some hope remains.` }
+  ] } },
 
 { id: 'four-forms',
   title: 'The four forms of the categorical statement',
@@ -63,7 +89,20 @@ ARS.decks['viii.equivalents'] = {
   body: `<p>The argument “‘Nothing’ is a noun; every noun names a thing; therefore nothing is a thing” argues from the grammatical form to the thing. “Blindness” has the form of “sight,” but sight is a power and blindness the lack of a power. So the grammatical form of a sentence does not always show its logical form, and an argument that takes the one for the other is a fallacy.</p>
 <p>Aristotle names this fallacy the <strong>figure of speech</strong> (<i>schēma tēs lexeōs</i>): what is not the same is expressed in the same form, as when a word that signifies a state has the form of a word that signifies an action (<i>Sophistical Refutations</i> 4). We saw this warning with the chimaera in Section III: a noun signifies by the mode of a stable thing, but it does not follow that every noun names a thing that exists. The grammar is a way of signifying, not a copy of the thing, and the logician must look through the form to what is signified.</p>`,
   src: `Aristotle, <i>Sophistical Refutations</i> 4 (Pickard-Cambridge for reference), in paraphrase.`,
-  qpTodo: `The figure of speech: what is wrong with a given argument that takes the grammatical form for the thing (“‘Everyone’ is singular, so everyone is one person”; “Silence has a name, so silence is a sound”).` },
+  qp: { id: 'q-figure-of-speech', variants: [
+    { prompt: `“‘Everyone’ takes a singular verb, so everyone is one person.” What is wrong with this argument?`,
+      options: [`“Everyone” is really plural`, `Grammar is taken for the thing`, `Singular verbs are an error`, `Nothing; the argument is perfectly sound`],
+      answer: 1,
+      explain: `The singular form of the word is a fact of grammar; it does not make all the people one person. Taking the grammatical form for the thing is the fallacy of the figure of speech.` },
+    { prompt: `“Silence has a name, so silence is a sound.” What is wrong with this argument?`,
+      options: [`A noun can name a lack`, `Silence has no name`, `Every noun names a sound`, `Nothing; it is sound reasoning`],
+      answer: 0,
+      explain: `“Silence” has the form of a noun, but what it names is the absence of sound. A noun signifies by the mode of a stable thing, but it does not follow that every noun names a thing of that kind.` },
+    { prompt: `What does Aristotle call the fallacy that takes the grammatical form for the thing?`,
+      options: [`The etymological fallacy`, `Equivocation`, `Amphiboly`, `The figure of speech`],
+      answer: 3,
+      explain: `Aristotle names it the figure of speech (<i>schēma tēs lexeōs</i>): what is not the same is expressed in the same form.` }
+  ] } },
 
 { id: 'port-royal',
   title: 'The grammar of Port-Royal',
@@ -100,7 +139,20 @@ ARS.decks['viii.equivalents'] = {
   body: `<p>Whether there is a grammar common to all languages is finally a question of fact as well as of principle, and it can be tested only by studying many languages. We saw in Section V that Greenberg compared the order of words in many languages and found regularities that hold for most of them. In Section XI we will study grammatical traditions other than the Greek and Latin one, and modern accounts of grammar, and ask how far the variety of languages supports the claim that grammar is one in substance.</p>
 <p>The grammarian need not settle the question in order to study the grammar of English and Latin. But the question shows why the study of grammar is a liberal art: it asks not only how a language is used, but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.</p>`,
   src: `Greenberg, “Some Universals of Grammar” (1963); Chomsky, <i>Cartesian Linguistics</i>; both in paraphrase.`,
-  qpTodo: `Two universal grammars: what do the scholastic and the Chomskyan accounts share, where does each ground the common structure of languages, and what evidence would bear on the question.` }
+  qp: { id: 'q-ug-4', variants: [
+    { prompt: `What do the scholastic and the Chomskyan universal grammars share?`,
+      options: [`The claim that grammar is a local custom`, `The claim of a structure common to all languages`, `The same account of where that structure comes from`, `A reliance on Latin alone`],
+      answer: 1,
+      explain: `Both hold that there is a grammar common to all languages and that a science of it is possible, against the view that each language must be described only in its own terms.` },
+    { prompt: `Where does the scholastic account ground the structure common to all languages?`,
+      options: [`In things, as the mind grasps them`, `In a biological faculty of language`, `In the customs of each people`, `In the Latin grammarians`],
+      answer: 0,
+      explain: `For the scholastics the modes of signifying come from the modes of understanding, and these from the modes of being, which are the same for all. Chomsky grounds the common structure in the mind as a biological endowment.` },
+    { prompt: `What kind of evidence bears on whether grammar is one in substance in all languages?`,
+      options: [`The grammar of Latin alone`, `The opinions of the modists`, `The etymology of grammatical terms`, `The study of many languages`],
+      answer: 3,
+      explain: `The question is finally one of fact as well as principle, so it can be tested only by studying many languages, as Greenberg did for word order.` }
+  ] } }
 
   ]
 };
