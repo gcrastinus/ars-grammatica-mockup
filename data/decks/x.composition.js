@@ -1,5 +1,5 @@
 /* X.1 Composition [x.composition]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points (placeholders: qpTodo; to be written).
+   Plan (ITEM-LIST.md): 10 panels, 3 question points.
    Overlap with Ars Rhetorica: this deck stays with how sentences are combined and built, not with choosing among styles.
    Live material drawn on: DECKS.making (combining sentences; modifiers and pronouns; parallel series; active and passive),
    DECKS.latbuild (building the Latin sentence). Quintilian X.3 checked against the Perseus text of Butler's translation. */
@@ -23,7 +23,20 @@ ARS.decks['x.composition'] = {
   body: `<p>Two short sentences about the same thing can often become one, and then one of them becomes a part of the other. “The kitten was hungry. The kitten cried” becomes “The hungry kitten cried,” where the first sentence has become an adjective. Two sentences with the same predicate can share it: “Maria sings. Her brother sings” becomes “Maria and her brother sing,” with a compound subject. Two sentences with the same subject can share it: “The baker mixed the dough. He shaped the loaves” becomes “The baker mixed the dough and shaped the loaves,” with a compound predicate.</p>
 <p>The combined sentence must keep the construction correct. Two independent clauses cannot be joined by a comma alone, as we saw in Section VI with the comma splice; they need a conjunction (“and,” “but”) or a semicolon. And a compound subject joined by “and” takes a plural verb, as we saw in the study of agreement.</p>`,
   src: `Standard English handbooks, in paraphrase.`,
-  qpTodo: `Combining sentences: which combination of two given sentences is correct and keeps their meaning (a compound subject, a compound predicate, an adjective), and what is wrong with the others.` },
+  qp: { id: 'q-combining', variants: [
+    { prompt: `“The wagon was old. The wagon rattled.” Which combination is correct and keeps the meaning?`,
+      options: [`“The wagon was old, it rattled.”`, `“The old wagon rattled loudly.”`, `“The old wagon rattled.”`, `“The wagon, rattled, was old.”`],
+      answer: 2,
+      explain: `The first sentence becomes an adjective, “old,” and the meaning is kept. Joining two independent clauses with a comma alone is a comma splice, adding “loudly” says more than the two sentences said, and the last version is not a correct construction.` },
+    { prompt: `“Lucas paints. His sister paints.” Which combination is correct?`,
+      options: [`“Lucas and his sister paints.”`, `“Lucas and his sister paint.”`, `“Lucas paints, his sister paints.”`, `“Lucas, and his sister, paints.”`],
+      answer: 1,
+      explain: `The two sentences share their predicate, so they combine with a compound subject; a compound subject joined by “and” takes a plural verb, “paint.”` },
+    { prompt: `“The mason cut the stone. She set it in the wall.” Which combination is correct?`,
+      options: [`“The mason cut the stone and set it in the wall.”`, `“The mason cut the stone, she set it in the wall.”`, `“The mason and she cut the stone and the wall.”`, `“Cutting the stone, it was set in the wall.”`],
+      answer: 0,
+      explain: `The two sentences share their subject, so they combine with a compound predicate. The second distractor is a comma splice, and the last leaves the participle dangling.` }
+  ] } },
 
 { id: 'subordination',
   title: 'Subordination',
@@ -42,7 +55,20 @@ ARS.decks['x.composition'] = {
   body: `<p>“She likes swimming, hiking, and riding” joins three gerunds, and the series reads evenly; “She likes swimming, hiking, and to ride” joins two gerunds and an infinitive, and the last member does not match the others. Words and phrases joined by a coordinating conjunction should have the same construction, and this is called <strong>parallel construction</strong>. So the first sentence is parallel and the second is not. We saw in Section III that the members of a correlative pair, such as “both … and” or “not only … but also,” should join words of the same kind; the same rule applies to every series.</p>
 <p>Parallel construction is required by grammar, because the conjunction joins words of equal rank, and words of equal rank should be alike in construction. It also makes the sentence clear, because the reader recognizes the series by the likeness of its members. The figures of repetition that we studied in Section VII, such as anaphora (the repetition of a word at the beginning of successive clauses), are a deliberate strengthening of the same principle.</p>`,
   src: `Standard English handbooks, in paraphrase.`,
-  qpTodo: `Parallel construction: which version of a given series is parallel, and what part of speech or form do its members share.` },
+  qp: { id: 'q-parallel', variants: [
+    { prompt: `Which version of the series is parallel?`,
+      options: [`“He likes reading, sketching, and to fish.”`, `“He likes reading, sketching, and fishing.”`, `“He likes to read, sketching, and fishing.”`, `“He likes reading, to sketch, and to go fishing.”`],
+      answer: 1,
+      explain: `All three members are gerunds, so the series is parallel; the other versions mix gerunds and infinitives.` },
+    { prompt: `“The room was cold, damp, and smelled of smoke.” What would make the series parallel?`,
+      options: [`Make all three members adjectives`, `Add the conjunction “and” before “damp”`, `Change the adjective “cold” to “coldly”`, `Put a semicolon after the word “cold”`],
+      answer: 0,
+      explain: `“Cold” and “damp” are adjectives, but “smelled of smoke” is a verb phrase. A parallel series has members of one kind: “cold, damp, and smoky.”` },
+    { prompt: `In “not only in the city but also in the country,” what do the two members share?`,
+      options: [`Each is a dependent clause`, `Each is an adverb of place`, `Each is a noun with its article`, `Each is a prepositional phrase`],
+      answer: 3,
+      explain: `The correlative pair “not only … but also” joins two members of the same construction, here two prepositional phrases, “in the city” and “in the country.”` }
+  ] } },
 
 { id: 'voice',
   title: 'Choosing the voice',
@@ -61,7 +87,20 @@ ARS.decks['x.composition'] = {
   body: `<p>“Your letter pleased me greatly,” “I was greatly pleased by your letter,” and “Nothing has given me more pleasure than your letter” say nearly the same thing with different subjects, voices, and figures. So one thought can be expressed by different constructions, each correct, and the choice among them is a matter of judgment.</p>
 <p>In 1512 Erasmus published <i>De copia</i> (“On Abundance”), a textbook that taught students to express the same thought in many different ways. Its most famous chapter takes a single sentence, the one with which we began, “Your letter pleased me greatly” (<i>Tuae litterae me magnopere delectarunt</i>), and rewrites it in nearly two hundred forms, by changing the words, the voice, the construction, and the figures (<i>De copia</i> I.33). So composition draws on the whole of grammar, and the student who can vary a sentence correctly has understood its construction.</p>`,
   src: `Erasmus, <i>De copia</i> I.33 (Knott, <i>Collected Works of Erasmus</i> 24, for reference), in paraphrase; the Latin sentence and the count (usually given as 195) checked at second hand.`,
-  qpTodo: `Varying a sentence: which of several rewritings of a given sentence keeps its meaning and is correctly constructed, and what has been changed (the voice, the subject, the construction).` },
+  qp: { id: 'q-copia', variants: [
+    { prompt: `“The hailstorm ruined the orchard.” Which rewriting keeps the meaning and is correctly constructed?`,
+      options: [`“The orchard was ruined by the hailstorm.”`, `“The orchard ruined the hailstorm.”`, `“The hailstorm was ruined by the orchard.”`, `“The orchard, the hailstorm ruined it, badly.”`],
+      answer: 0,
+      explain: `The passive keeps the meaning and changes the subject. Exchanging subject and object reverses the meaning, and the last version is not a sentence.` },
+    { prompt: `“The orchard was ruined by the hailstorm” is a rewriting of “The hailstorm ruined the orchard.” What has been changed?`,
+      options: [`The tense of the verb`, `The meaning of the sentence`, `The mood of the verb`, `The voice, and with it the subject`],
+      answer: 3,
+      explain: `The active has become passive, so the orchard is now the subject; the tense and the meaning are the same.` },
+    { prompt: `“Because of the hailstorm, the orchard was lost” is another rewriting. What has been changed?`,
+      options: [`Only the voice of the main verb`, `Nothing at all in the sentence`, `The construction`, `The person and number of the verb`],
+      answer: 2,
+      explain: `The cause, once the subject of the verb, is now a prepositional phrase, “because of the hailstorm,” and the orchard is the subject of “was lost.” The thought is nearly the same in a different construction.` }
+  ] } },
 
 { id: 'quintilian',
   title: 'Writing slowly and well',
