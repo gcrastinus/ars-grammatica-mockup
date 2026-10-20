@@ -1,0 +1,33 @@
+/* Recitation outline for iii.adverb: 28 points. Written 20 Oct 2026 from the deck's final cards.
+   Copied from data/decks/iii.adverb.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
+   Each string is one checkable point, shown with a check box; HTML as on the cards. */
+  recitation: [
+    `The adverb is the first of the four indeclinable parts of speech, which keep one form.`,
+    `Donatus defines the adverb as a part of speech that, added to a verb, makes its meaning clear and completes it; its name, <i>adverbium</i>, means “what is added to the verb.”`,
+    `The modists explain the adverb as signifying by the mode of determining a word that signifies as becoming.`,
+    `Donatus gives the adverb three accidents: signification, comparison, and figure.`,
+    `The adverb has no case, number, gender, tense, or person, because it does not signify a thing as stable or as becoming but determines another word.`,
+    `Its accidents concern what kind of determination it gives (signification), how much (comparison), and how it is made (figure).`,
+    `The kind of meaning that an adverb adds is its <strong>signification</strong>.`,
+    `The principal kinds of adverb by signification are adverbs of place, time, manner, quantity and number, negation and affirmation, questioning, and doubt; Donatus’s list also includes adverbs of wishing, of exhorting, and of comparison.`,
+    `So the adverbs are a large and varied class, united not by what they signify but by the way they signify: each determines another word.`,
+    `Many adverbs are derived from adjectives: in Latin, adjectives of the first and second declensions form adverbs in <i>-ē</i>, and adjectives of the third declension form adverbs in <i>-iter</i>.`,
+    `Some Latin adverbs have the form of a case of the adjective.`,
+    `English forms most adverbs of manner by adding “-ly” to the adjective, but many common adverbs have no ending, and some words have the same form as adjective and adverb.`,
+    `So, as with every part of speech, the form does not always decide whether a word is an adverb; the use does.`,
+    `Adverbs derived from adjectives of quality can be compared, as the adjectives are.`,
+    `English compares most adverbs with “more” and “most”; a few short adverbs take “-er” and “-est”; and some are irregular.`,
+    `In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>; adverbs from irregularly compared adjectives follow their adjectives.`,
+    `Adverbs that signify place, time, or negation cannot be compared, because what they signify does not admit more and less.`,
+    `The adverb has <strong>figure</strong>: it is simple or compound.`,
+    `Many Latin adverbs are compounds of a preposition and a case, and English has many compound adverbs, some written as one word and some as several.`,
+    `A group of words that does the work of an adverb is called an <strong>adverbial phrase</strong>, and whole phrases and clauses can do the work of an adverb.`,
+    `Adverbs determine verbs, but also adjectives, other adverbs, and whole sentences.`,
+    `Donatus defines the adverb by its relation to the verb because that is its principal use; Priscian explains that it is added to the verb chiefly, but also to the other parts that signify something like an action or a quality.`,
+    `In English the position of an adverb can change the meaning of a sentence, so the adverb must be placed next to the word it is meant to determine.`,
+    `An adverb placed where it determines the wrong word causes ambiguity.`,
+    `Several words can be adverbs in one sentence and other parts of speech in another.`,
+    `The preposition takes an object, the conjunction introduces a clause, and the adverb does neither.`,
+    `Priscian notes that the Greeks placed the interjection under the adverb, and that the Latins separated it because it shows a feeling of the mind even without a verb.`,
+    `So the boundaries between the indeclinable parts are drawn by their ways of signifying, and the same word may cross them.`
+  ],
