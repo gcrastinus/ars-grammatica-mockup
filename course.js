@@ -1138,13 +1138,13 @@ function answer(qp, k){
 function nextPanel(){
   if ($('deck-next').disabled) return;
   if (cur.i < cur.deck.panels.length - 1){ cur.i += 1; renderPanel(); window.scrollTo(0, 0); return; }
-  if (cur.deck.introFor){ openEx(cur.deck.introFor); return; }
   const st = deckState(cur.deck.id);
   const first = !st.done;
   if (first) st.doneAt = Date.now();
   st.done = true;
   if (first && String(cur.deck.id).indexOf('lang.') !== 0) noteReciteNudge(cur.deck.id, cur.deck.title);
   save();
+  if (cur.deck.introFor){ openEx(cur.deck.introFor); return; }
   const id = cur.deck.id; goHome();
   const card = document.querySelector(`.set-card[data-id="${id}"]`);
   if (card){ card.scrollIntoView({block:'center'}); card.focus({preventScroll:true}); }

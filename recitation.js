@@ -43,11 +43,17 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   const RECITE_AFTER_DAYS = [3, 7, 30];
   const DAY_MS = 24 * 60 * 60 * 1000;
 
+  /* A study deck, or one of the method decks that the course lists as an exercise (IX.1–IX.3, X.2)
+     and marks with recite:true in data/structure.js. */
+  function recitable(it){
+    return !!it && (it.kind === 'study' || it.kind === 'study-ex' || it.recite === true);
+  }
+
   function sectionRecitation(sectionId){
     const sec = (ARS.structure || []).find(s => s.id === sectionId);
     if (!sec) return [];
     return sec.items
-      .filter(it => it.kind === 'study' || it.kind === 'study-ex')
+      .filter(recitable)
       .map(it => ARS.decks && ARS.decks[it.id])
       .filter(d => d && Array.isArray(d.recitation) && d.recitation.length)
       .map(d => ({ deck: d.id, title: d.title, points: d.recitation }));
@@ -82,6 +88,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   }
 
   ARS.sectionRecitation = sectionRecitation;
+  ARS.recitable = recitable;
   ARS.RECITE_AFTER_DAYS = RECITE_AFTER_DAYS;
   ARS.reciteDistinctCount = reciteDistinctCount;
   ARS.reciteMinimum = reciteMinimum;
@@ -101,14 +108,14 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     const out = [];
     (ARS.structure || []).forEach(sec => {
       sec.items.forEach(it => {
-        if ((it.kind === 'study' || it.kind === 'study-ex') && it.built) out.push({ sec, it });
+        if (recitable(it) && it.built) out.push({ sec, it });
       });
     });
     return out;
   }
 
   function sectionStudies(sec){
-    return sec.items.filter(it => (it.kind === 'study' || it.kind === 'study-ex') && it.built);
+    return sec.items.filter(it => recitable(it) && it.built);
   }
 
   function isUnlocked(id){ return !!bag().unlocked[id]; }
@@ -154,7 +161,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     let n = 0;
     for (const sec of ARS.structure || []){
       for (const it of sec.items){
-        if ((it.kind === 'study' || it.kind === 'study-ex') && it.built){
+        if (recitable(it) && it.built){
           if (it.id === key) return n;
           n += 1;
         }
@@ -431,6 +438,15 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     const open = menuList.hidden;
     menuList.hidden = !open;
     menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    /* The list now runs to some seventy entries; keep its bottom on the screen, so the last sections can be reached
+       by scrolling the list itself (the CSS maximum still applies when there is room). */
+    if (open){
+      menuList.style.maxHeight = '';
+      let room = window.innerHeight - menuList.getBoundingClientRect().top - 12;
+      /* On a very short screen, fold the account of recitation to make room for the list. */
+      if (room < 160 && desc && desc.open){ desc.open = false; room = window.innerHeight - menuList.getBoundingClientRect().top - 12; }
+      if (room < menuList.offsetHeight) menuList.style.maxHeight = Math.max(120, room) + 'px';
+    }
   });
   document.addEventListener('click', e => {
     if (!menuList.hidden && picker && !picker.contains(e.target)) closeMenu();

@@ -130,9 +130,9 @@ ARS.structure = [
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',
    items:[
-   { id:'ix.sentences', kind:'exercise', built:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
-   { id:'ix.passages', kind:'exercise', built:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
-   { id:'ix.marking', kind:'exercise', built:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
+   { id:'ix.sentences', kind:'exercise', built:true, recite:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
+   { id:'ix.passages', kind:'exercise', built:true, recite:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
+   { id:'ix.marking', kind:'exercise', built:true, recite:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
    { id:'ix.review', kind:'review', title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
  ],
  langBars:[
@@ -142,7 +142,7 @@ ARS.structure = [
    gloss:'From reading to writing.',
    items:[
    { id:'x.composition', kind:'study', built:true, title:'Composition', desc:'Building sentences and periods.' },
-   { id:'x.imitation', kind:'exercise', built:true, introFor:'x.ex.imitation', title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
+   { id:'x.imitation', kind:'exercise', built:true, recite:true, introFor:'x.ex.imitation', title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
    { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
    { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
