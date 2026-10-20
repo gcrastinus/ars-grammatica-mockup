@@ -11,6 +11,16 @@ ARS.decks['x.imitation'] = {
   title: 'Imitation',
   sub: 'Ten passages of English prose, copied word for word',
   sources: `Quintilian, <i>Institutio oratoria</i> X.2; Roger Ascham, <i>The Scholemaster</i> (1570); Jeroen De Keyser, “The Descendants of Petrarch’s <i>Pro Archia</i>,” <i>Classical Quarterly</i> (2013).`,
+  recitation: [
+    `Many arts are learned by copying a model, and writing well is learned in the same way, by imitating good writers.`,
+    `Quintilian holds that imitation is a large part of art, since it is expedient to imitate whatever has been invented with success.`,
+    `But imitation alone is not sufficient, because the aim is to write well oneself, not merely to repeat another.`,
+    `Ascham made imitation the chief method of teaching Latin style: the student studied a passage of Cicero closely, translated it, and then wrote in the same manner.`,
+    `So the student learns not only the words of a good author but the way in which they are put together.`,
+    `Copying out a text was once the only way to possess it, and it was also a way of learning it.`,
+    `Writing out a passage word for word requires attention to every word, every construction, and every mark of punctuation, and it fixes the movement of the sentences in the mind.`,
+    `So copying brings the student into the closest contact with good sentences.`
+  ],
   panels: [
 
 { id: 'imitation',
