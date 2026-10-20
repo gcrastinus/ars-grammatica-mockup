@@ -1,6 +1,6 @@
 /* XI.1 The Other Classical Traditions [xi.traditions]
-   Plan (ITEM-LIST.md): 56 panels (scribal lists 6, Sanskrit 13, Arabic 13, Hebrew 12, Chinese 12), 18 question points
-   (placeholders: qpTodo; to be written). No exercise.
+   Plan (ITEM-LIST.md): 56 panels (scribal lists 6, Sanskrit 13, Arabic 13, Hebrew 12, Chinese 12), 18 question points.
+   No exercise.
    Live material drawn on: DECKS.scribal (33), DECKS.vyakarana (34), DECKS.nahw (30), DECKS.xiaoxue (31), each cut to the
    target; DECKS.quaestiones for the question-point topics. Hebrew is new, built from the sources named in ITEM-LIST.md.
    Sībawayh and the other sources without a published English translation of the passage are paraphrased; quotations in
@@ -34,7 +34,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Our art begins with the letter, the least part of articulate voice that can be written. The scribal art begins with the <strong>sign</strong>, a cuneiform character that may write a whole word, a syllable, or several different words. The sign called KA, for example, may be read <i>inim</i> (“word”), <i>dug</i> (“to speak”), or <i>gù</i> (“voice”), so that one figure has several powers, and the powers are different words.</p>
 <p>The scribes compiled sign lists, such as the series called <i>Ea</i>, which give each sign with its readings and often an Akkadian equivalent, and the series <i>Diri</i>, which treats signs written together for one reading. So the scribal “letter” is not a sound without meaning, as ours is, but a written sign that often already has a meaning. We saw in Section II that a letter has a name, a figure, and a power; the sign lists record the same three things for each sign, but the power of a sign is often a word.</p>`,
   src: `<i>Materials for the Sumerian Lexicon</i>, the <i>Ea</i> and <i>Diri</i> series, in paraphrase.`,
-  qpTodo: `The sign: how does a cuneiform sign such as AN (read <i>an</i>, “heaven,” or <i>dingir</i>, “god”) differ from a Latin letter (it may write a word; it has several readings), and what did the sign lists record.` },
+  qp: { id: 'q-scribal-sign', variants: [
+    { prompt: `The cuneiform sign AN may be read <i>an</i>, “heaven,” or <i>dingir</i>, “god.” How does it differ from a Latin letter?`,
+      options: [`It writes only a vowel, never a consonant`, `It is a mark of punctuation, not a sign of speech`, `It can write a word and has several readings`, `It has a figure but no name and no power`],
+      answer: 2,
+      explain: `A Latin letter is the least part of articulate voice and has no meaning of its own; a cuneiform sign may write a whole word, and one sign may have several readings that are different words.` },
+    { prompt: `What did the scribal sign lists, such as the series Ea, record for each sign?`,
+      options: [`Its place among the eight parts of speech`, `Its readings, often with an Akkadian equivalent`, `The rules for joining it with other signs in verse`, `Only the number of wedges used to write it`],
+      answer: 1,
+      explain: `The sign lists give each sign with its readings and often an Akkadian equivalent, so they record the figure, the name, and the powers of the sign.` },
+    { prompt: `We saw that a letter has a name, a figure, and a power. How does the power of a cuneiform sign often differ from the power of a Latin letter?`,
+      options: [`The power of a sign is often a word`, `A sign has no power at all, only a figure`, `The power of a sign is always a single vowel`, `A sign has a name but no figure`],
+      answer: 0,
+      explain: `The power of a Latin letter is a sound without meaning, but the power of a cuneiform sign, such as AN read <i>dingir</i>, “god,” is often a whole word.` }
+  ] } },
 
 { id: 'scribal-lists',
   title: 'The thematic lists',
@@ -47,7 +60,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The most ambitious tablets are paradigms of the Sumerian verb, the Old Babylonian Grammatical Texts. One of them takes the Sumerian verb for “to go” and runs it through more than three hundred lines of forms, each paired with an Akkadian form: Sumerian <i>ba-ši-ŋen</i> = Akkadian <i>ittalakšum</i>, “he went away to him.” The paradigms often give the persons in the order third, first, second (“he,” “I,” “you”), not our first, second, third.</p>
 <p>Later Neo-Babylonian texts isolate the pieces of a Sumerian form, such as a prefix or a suffix, and give each an Akkadian explanation. This is the nearest the scribes come to our accidents of the word. But they do not name a genitive or a tense; they say that this Sumerian piece is the equivalent of that Akkadian relation. So the scribal grammar is a grammar of correspondences, and its categories are the forms of the other language.</p>`,
   src: `<i>Materials for the Sumerian Lexicon</i> IV (Old Babylonian and Neo-Babylonian Grammatical Texts); Black, <i>Sumerian Grammar in Babylonian Theory</i>; both in paraphrase.`,
-  qpTodo: `The paradigms: what does a line of a Sumerian verbal paradigm pair (a Sumerian form with an Akkadian form), and how do the scribes’ categories differ from accidents such as tense and case.` },
+  qp: { id: 'q-scribal-paradigms', variants: [
+    { prompt: `What does each line of a Sumerian verbal paradigm pair?`,
+      options: [`A Sumerian root with its definition in Sumerian`, `A Sumerian form with an Akkadian form`, `A sign with the sound of each of its wedges`, `Two Sumerian forms that differ only in tense`],
+      answer: 1,
+      explain: `Each line pairs a Sumerian form with the Akkadian form that translates it, as <i>ba-ši-ŋen</i> with <i>ittalakšum</i>, “he went away to him.”` },
+    { prompt: `How do the scribes’ categories differ from accidents such as tense and case?`,
+      options: [`They give an equivalent, not an accident`, `They name more accidents than Donatus does`, `They name the tense and case of every form`, `They have no relation to the forms at all`],
+      answer: 0,
+      explain: `The scribes do not name a genitive or a tense; they say that a Sumerian piece is the equivalent of an Akkadian relation. So their categories are the forms of the other language.` },
+    { prompt: `In what order do the paradigms often give the persons of the verb?`,
+      options: [`First, second, third`, `Second, third, first`, `Plural first, then singular`, `Third, first, second`],
+      answer: 3,
+      explain: `The paradigms often give the persons in the order “he,” “I,” “you,” that is, third, first, second, not our first, second, third.` }
+  ] } },
 
 { id: 'scribal-compare',
   title: 'What the scribes asked',
@@ -80,14 +106,40 @@ ARS.decks['xi.traditions'] = {
   body: `<p>When two sounds meet in Sanskrit, at the end of one word and the beginning of the next, or within a word, they often change. This change is called <strong>sandhi</strong> (“putting together”), and its rules are part of the grammar. So <i>tat</i> (“that”) and <i>api</i> (“also”) are joined as <i>tad api</i> (“that too”), and <i>rāmaḥ</i> (“Rāma”) and <i>gacchati</i> (“goes”) are joined as <i>rāmo gacchati</i>.</p>
 <p>We saw in Section VI that a change in a single word is a barbarism in prose and a metaplasm in verse. In Sanskrit, by contrast, the changes of sandhi are required in correct speech, and omitting them would be an error. English has a few such changes, as “an apple” but “a pear,” and Latin elision in verse is a kind of sandhi; but no other classical tradition made the joining of sounds so large a part of the grammar.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i>, the rules of sandhi, in paraphrase.`,
-  qpTodo: `Sandhi: what happens when two Sanskrit words are joined (<i>na</i> + <i>asti</i>, which become <i>nāsti</i>, “is not”), and how does sandhi differ from a barbarism or a metaplasm in Latin.` },
+  qp: { id: 'q-sandhi', variants: [
+    { prompt: `Sanskrit <i>na</i> (“not”) and <i>asti</i> (“is”) are joined as <i>nāsti</i>, “is not.” What has happened?`,
+      options: [`A letter has been added to the second word`, `The first word has been dropped altogether`, `The words have been joined by a conjunction`, `Two vowels have merged into one long vowel`],
+      answer: 3,
+      explain: `The final <i>a</i> of <i>na</i> and the initial <i>a</i> of <i>asti</i> meet and become one long <i>ā</i>. This change at the meeting of sounds is sandhi.` },
+    { prompt: `In Latin a change in the sounds of a single word is a barbarism in prose and a metaplasm in verse. How does sandhi differ?`,
+      options: [`It is permitted only in verse, never in prose`, `It is an error in prose as well as in verse`, `In Sanskrit it is required in correct speech`, `It occurs only within a word, never between words`],
+      answer: 2,
+      explain: `The changes of sandhi are part of correct Sanskrit, and omitting them would be an error; in Latin the corresponding changes are an error in prose and a permitted license in verse.` },
+    { prompt: `Which English change is a kind of sandhi?`,
+      options: [`“child” but “children”`, `“an apple” but “a pear”`, `“go” but “went” or “gone”`, `“foot” but “feet”`],
+      answer: 1,
+      explain: `The article takes the form “an” before a vowel and “a” before a consonant, so its form changes where two sounds meet. The other pairs are changes of inflection within a word.` }
+  ] } },
 
 { id: 'yaska',
   title: 'Yāska’s four kinds of word',
   body: `<p>The Greek and Latin grammarians, as we have seen, counted eight parts of speech, and the modists distinguished the noun from the verb by its mode of signifying. The Indian tradition also divided words into kinds, and it gave a reason for its first division. Yāska divides words into four kinds: the <strong>name</strong> (<i>nāman</i>), the <strong>verb</strong> (<i>ākhyāta</i>), the <strong>preverb</strong> (<i>upasarga</i>), which is placed before a verb and changes its sense, and the <strong>particle</strong> (<i>nipāta</i>), which includes words such as <i>ca</i> (“and”) and <i>na</i> (“not”). He also says what distinguishes the first two: the verb has becoming as its principal meaning (<i>bhāvapradhānam ākhyātam</i>), and names have a being, a thing, as theirs (<i>sattvapradhānāni nāmāni</i>) (<i>Nirukta</i> I.1, in substance).</p>
 <p>This account comes strikingly close to the modists’ distinction that we saw in Section III, between the mode of becoming and the mode of a stable thing, although the two traditions had no contact. But Yāska counts four kinds, not eight: the adjective belongs with the name, and there is no participle or interjection as a separate kind.</p>`,
   src: `Yāska, <i>Nirukta</i> I.1 (Lakshman Sarup for reference), the Sanskrit in transliteration and the English in substance.`,
-  qpTodo: `Yāska’s four kinds: what are Yāska’s four kinds of word, and how does his account of the name and the verb compare with the modists’ modes of signifying.` },
+  qp: { id: 'q-yaska', variants: [
+    { prompt: `What are Yāska’s four kinds of word?`,
+      options: [`Noun, verb, adjective, and participle`, `Name, verb, preverb, and particle`, `Noun, pronoun, verb, and adverb`, `Root, affix, ending, and compound`],
+      answer: 1,
+      explain: `Yāska divides words into the name (<i>nāman</i>), the verb (<i>ākhyāta</i>), the preverb (<i>upasarga</i>), and the particle (<i>nipāta</i>).` },
+    { prompt: `How does Yāska distinguish the verb from the name?`,
+      options: [`Becoming for the verb, a being for the name`, `The verb has endings and the name has none`, `The verb always comes first in the sentence`, `The name is always shorter than the verb`],
+      answer: 0,
+      explain: `Yāska says that the verb has becoming as its principal meaning, and names have a being, a thing, as theirs (<i>Nirukta</i> I.1, in substance).` },
+    { prompt: `Yāska’s account of the name and the verb comes close to which doctrine that we have studied?`,
+      options: [`Donatus’s eight accidents of the Latin verb`, `The Stoic division of the sentence into parts`, `Priscian’s definition of the word as least part`, `The modists’ modes of a stable thing and of becoming`],
+      answer: 3,
+      explain: `The modists distinguished the noun by the mode of a stable thing and the verb by the mode of becoming, which is strikingly close to Yāska’s account, although the two traditions had no contact.` }
+  ] } },
 
 { id: 'pada',
   title: 'The word in the sentence',
@@ -107,7 +159,20 @@ ARS.decks['xi.traditions'] = {
 <p>the <strong>agent</strong> (<i>kartṛ</i>), the independent doer;<br>the <strong>object</strong> (<i>karman</i>), what the agent most wishes to reach;<br>the <strong>instrument</strong> (<i>karaṇa</i>), the most effective means;<br>the <strong>recipient</strong> (<i>sampradāna</i>), the one to whom something is given;<br>the <strong>source</strong> (<i>apādāna</i>), the fixed point from which something departs;<br>and the <strong>locus</strong> (<i>adhikaraṇa</i>), the place or time in which the action occurs.</p>
 <p>These are relations in the action, not names of endings. The endings of the noun mark them, but not one for one: the same role may be marked by different endings in different constructions, as the agent is marked differently in an active and a passive sentence. So the kārakas resemble the uses of the Latin cases, but they belong to the action and are prior to the endings that express them.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i> 1.4.23–55 (Vasu for reference), in paraphrase.`,
-  qpTodo: `The kārakas: which kāraka does a given noun express in a simple sentence (agent, object, instrument, recipient, source, locus), and why is a kāraka not the same as a case ending.` },
+  qp: { id: 'q-karaka', variants: [
+    { prompt: `“The farmer cuts the grain with a sickle in the field.” Which kāraka does “sickle” express?`,
+      options: [`The agent (<i>kartṛ</i>)`, `The locus (<i>adhikaraṇa</i>)`, `The source (<i>apādāna</i>)`, `The instrument (<i>karaṇa</i>)`],
+      answer: 3,
+      explain: `The sickle is the most effective means of the cutting, so it is the instrument.` },
+    { prompt: `“The priest draws water from the well for the guests.” Which kāraka does “well” express?`,
+      options: [`The recipient (<i>sampradāna</i>)`, `The object (<i>karman</i>)`, `The source (<i>apādāna</i>)`, `The instrument (<i>karaṇa</i>)`],
+      answer: 2,
+      explain: `The well is the fixed point from which the water departs, so it is the source.` },
+    { prompt: `Why is a kāraka not the same as a case ending?`,
+      options: [`It is always marked by one and the same ending`, `A role in the action, which various endings mark`, `It belongs to the noun alone and never to the action`, `It is a kind of compound word, not a relation`],
+      answer: 1,
+      explain: `A kāraka is a role in the action signified by the verb. The endings mark the kārakas, but not one for one: the agent is marked differently in an active and a passive sentence.` }
+  ] } },
 
 { id: 'sentence-example',
   title: 'A Sanskrit sentence',
@@ -126,7 +191,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Anyone who begins the study of grammar may ask what it is for, and we saw in the Preliminary section the answers that the Greek and Latin grammarians gave. Patañjali opens his <i>Great Commentary</i> by asking the same question, and he gives five chief purposes in a single compound: <i>rakṣohāgamalaghvasaṃdehāḥ prayojanam</i>, that is, the preservation of the Veda; the adapting of its formulas to new occasions; the command of scripture; brevity, since rules teach more quickly than lists of words; and the removal of doubt about the correct form (<i>Mahābhāṣya</i>, Paspaśāhnika, in substance).</p>
 <p>These purposes resemble those that the Greek and Latin grammarians gave for their art: to speak correctly and to explain the authors. But Patañjali’s first purpose is the preservation of a sacred text, and his fourth, brevity, explains the form of Pāṇini’s grammar: a short set of rules that generates every correct form is easier to learn than a list of all the forms.</p>`,
   src: `Patañjali, <i>Mahābhāṣya</i>, Paspaśāhnika (trans. S. D. Joshi and J. A. F. Roodbergen, 1986, for reference), the Sanskrit in transliteration and the English in substance.`,
-  qpTodo: `Patañjali’s purposes: what purposes does Patañjali give for grammar, and how do they compare with the purposes of the Greek and Latin art.` },
+  qp: { id: 'q-patanjali', variants: [
+    { prompt: `Which of these is among Patañjali’s purposes of grammar?`,
+      options: [`The preservation of the Veda`, `The composition of new hymns`, `The translation of the Veda into Greek`, `The teaching of good handwriting`],
+      answer: 0,
+      explain: `Patañjali names the preservation of the Veda, its adaptation to new occasions, the command of scripture, brevity, and the removal of doubt about the correct form.` },
+    { prompt: `Which of Patañjali’s purposes explains the form of Pāṇini’s grammar?`,
+      options: [`The removal of doubt about the meaning of words`, `The adaptation of formulas to new uses`, `The command of the scriptures`, `Brevity, since rules teach faster than lists`],
+      answer: 3,
+      explain: `A short set of rules that generates every correct form is easier to learn than a list of all the forms, so brevity explains the form of Pāṇini’s grammar.` },
+    { prompt: `How do Patañjali’s purposes compare with those of the Greek and Latin art?`,
+      options: [`They are identical in every respect`, `His purposes concern only sounds`, `His first purpose is a sacred text`, `The Latin art had no stated purpose`],
+      answer: 2,
+      explain: `The Greek and Latin grammarians aimed to speak correctly and to explain the authors; Patañjali shares these aims, but his first purpose is the preservation of a sacred text.` }
+  ] } },
 
 { id: 'bhartrhari',
   title: 'Bhartṛhari and the sentence',
@@ -153,7 +231,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Donatus counted eight parts of speech, as we saw in Section III, whereas the logicians spoke of the noun, the verb, and the other words. The Arabic grammarians made their own division. Sībawayh begins his book with the parts of speech, and he counts three: words are the <strong>noun</strong> (<i>ism</i>), the <strong>verb</strong> (<i>fiʿl</i>), and the <strong>particle</strong> (<i>ḥarf</i>), which comes for a meaning that is neither noun nor verb (<i>fa-l-kalimu smun wa-fiʿlun wa-ḥarfun jāʾa li-maʿnan laysa bi-smin wa-lā fiʿlin</i>; <i>al-Kitāb</i>, ch. 1, in substance).</p>
 <p>The Arabic noun includes our noun, adjective, and pronoun, and the participle, which in Arabic is formed like a noun. The particle includes our prepositions, conjunctions, and many words that we class as adverbs or interjections. So the Arabic division resembles the logicians’ division into noun, verb, and the rest that we saw in Section III, but it is a grammarian’s division, made for the construction of Arabic, and it has remained the standard of the Arabic tradition.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, ch. 1, the Arabic in transliteration and the English in substance.`,
-  qpTodo: `Sībawayh’s three parts: what are the three parts of speech in Arabic grammar, and to which of them does a given Arabic word belong (<i>kabīr</i>, “big”; <i>thumma</i>, “then”).` },
+  qp: { id: 'q-three-parts', variants: [
+    { prompt: `To which of Sībawayh’s three parts does Arabic <i>kabīr</i> (“big”) belong?`,
+      options: [`The verb (<i>fiʿl</i>)`, `The particle (<i>ḥarf</i>)`, `None of the three`, `The noun (<i>ism</i>)`],
+      answer: 3,
+      explain: `The Arabic noun includes our noun, adjective, and pronoun, so the adjective <i>kabīr</i> belongs to the noun.` },
+    { prompt: `To which of Sībawayh’s three parts does Arabic <i>thumma</i> (“then”) belong?`,
+      options: [`The noun (<i>ism</i>)`, `The verb (<i>fiʿl</i>)`, `The particle (<i>ḥarf</i>)`, `None of the three`],
+      answer: 2,
+      explain: `<i>Thumma</i> comes for a meaning that is neither noun nor verb, so it is a particle, which includes our conjunctions and many of our adverbs.` },
+    { prompt: `What are the three parts of speech in Arabic grammar?`,
+      options: [`The noun, the verb, and the adjective`, `The noun, the verb, and the particle`, `The root, the pattern, and the ending`, `The topic, the comment, and the verb`],
+      answer: 1,
+      explain: `Sībawayh begins his book by dividing words into the noun (<i>ism</i>), the verb (<i>fiʿl</i>), and the particle (<i>ḥarf</i>).` }
+  ] } },
 
 { id: 'root-pattern',
   title: 'Letters, roots, and patterns',
@@ -166,7 +257,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The Arabic noun changes its final vowel according to its use in the sentence, and this change is called <strong>iʿrāb</strong> (“making Arabic,” that is, giving a word its correct Arabic ending). There are three states: <i>rafʿ</i>, with the ending <i>-u</i>, used for the subject and the predicate; <i>naṣb</i>, with the ending <i>-a</i>, used for the object; and <i>jarr</i>, with the ending <i>-i</i>, used after prepositions and for the second noun of a possessive construction. So <i>zaydun</i>, <i>zaydan</i>, and <i>zaydin</i> are three forms of the name Zayd.</p>
 <p>Words that do not change their endings are called <i>mabnī</i> (“built,” fixed), and the distinction between words with iʿrāb and fixed words corresponds to our distinction between declinable and indeclinable words. The three states of the Arabic noun resemble the Latin nominative, accusative, and genitive, but there are only three, and their uses are defined by the Arabic theory of government.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `Iʿrāb: which state (<i>rafʿ</i>, <i>naṣb</i>, <i>jarr</i>) is shown by a given form of a noun (<i>qalamun</i>, <i>qalaman</i>, <i>qalamin</i>, “pen”), and which Latin case does each resemble.` },
+  qp: { id: 'q-irab', variants: [
+    { prompt: `Which state of <i>iʿrāb</i> does <i>qalamun</i> (“pen”) show?`,
+      options: [`<i>Naṣb</i>, which resembles the accusative`, `<i>Jarr</i>, which resembles the genitive`, `<i>Rafʿ</i>, which resembles the nominative`, `None; the word is <i>mabnī</i> (fixed)`],
+      answer: 2,
+      explain: `The ending <i>-u</i> marks <i>rafʿ</i>, used for the subject and the predicate, so it resembles the Latin nominative.` },
+    { prompt: `Which state of <i>iʿrāb</i> does <i>qalaman</i> show?`,
+      options: [`<i>Rafʿ</i>, which resembles the nominative`, `<i>Naṣb</i>, which resembles the accusative`, `<i>Jarr</i>, which resembles the genitive`, `None; the word is <i>mabnī</i> (fixed)`],
+      answer: 1,
+      explain: `The ending <i>-a</i> marks <i>naṣb</i>, used for the object, so it resembles the Latin accusative.` },
+    { prompt: `Which state of <i>iʿrāb</i> does <i>qalamin</i> show?`,
+      options: [`<i>Jarr</i>, which resembles the genitive`, `<i>Rafʿ</i>, which resembles the nominative`, `<i>Naṣb</i>, which resembles the accusative`, `None; the word is <i>mabnī</i> (fixed)`],
+      answer: 0,
+      explain: `The ending <i>-i</i> marks <i>jarr</i>, used after prepositions and for the second noun of a possessive construction, so it resembles the Latin genitive.` }
+  ] } },
 
 { id: 'amil',
   title: 'The governor',
@@ -179,14 +283,40 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The Arabic grammarians distinguished two kinds of sentence by their first word. A <strong>verbal sentence</strong> (<i>jumla fiʿliyya</i>) begins with a verb: <i>kataba zaydun kitāban</i>, “Zayd wrote a book.” The verb <i>kataba</i> governs the agent, <i>zaydun</i>, in <i>rafʿ</i>, and the object, <i>kitāban</i>, in <i>naṣb</i>. The usual order is verb, agent, object, the VSO order that we saw in Section V in the classification of languages.</p>
 <p>As in Latin, the endings show the roles, so the order can change: <i>kataba kitāban zaydun</i> still means that Zayd wrote the book. The Arabic names for the three parts, <i>fiʿl</i> (verb), <i>fāʿil</i> (agent), and <i>mafʿūl</i> (object), are all formed from the root <i>f-ʿ-l</i>, “doing,” which the grammarians used as the model root for naming the patterns of words.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `The verbal sentence: in <i>qaraʾa ʿaliyyun risālatan</i> (“Ali read a letter”), which word is the verb, the agent, and the object, what governs each ending, and why can the order change.` },
+  qp: { id: 'q-verbal-sentence', variants: [
+    { prompt: `In <i>qaraʾa ʿaliyyun risālatan</i> (“Ali read a letter”), which word is the agent (<i>fāʿil</i>)?`,
+      options: [`<i>qaraʾa</i>`, `<i>risālatan</i>`, `<i>ʿaliyyun</i>`, `None; the sentence has no agent`],
+      answer: 2,
+      explain: `<i>ʿAliyyun</i> is the agent, in <i>rafʿ</i> with the ending <i>-un</i>; <i>qaraʾa</i> is the verb and <i>risālatan</i> the object.` },
+    { prompt: `In <i>qaraʾa ʿaliyyun risālatan</i>, what governs the ending of <i>risālatan</i>?`,
+      options: [`The agent <i>ʿaliyyun</i>, by agreement`, `The verb <i>qaraʾa</i>`, `The act of beginning the sentence`, `No governor; the ending is fixed`],
+      answer: 1,
+      explain: `The verb governs its agent in <i>rafʿ</i> and its object in <i>naṣb</i>, so <i>risālatan</i> takes the ending <i>-an</i>.` },
+    { prompt: `Why can the order of <i>qaraʾa ʿaliyyun risālatan</i> change without changing its sense?`,
+      options: [`The endings show the roles`, `Arabic has no rules of order at all`, `The verb always agrees with the object`, `The article marks the agent`],
+      answer: 0,
+      explain: `As in Latin, the endings show the roles, so the order can change and the agent and the object are still known.` }
+  ] } },
 
 { id: 'nominal-sentence',
   title: 'The nominal sentence',
   body: `<p>A <strong>nominal sentence</strong> (<i>jumla ismiyya</i>) begins with a noun and may contain no verb at all: <i>zaydun ʿālimun</i>, “Zayd is learned.” The first noun is the <strong>topic</strong> (<i>mubtadaʾ</i>, “that with which one begins”), and the second is the <strong>comment</strong> (<i>khabar</i>, “information”); both are in <i>rafʿ</i>. The grammarians said that the topic is governed by the act of beginning itself, an abstract governor that is not a spoken word.</p>
 <p>So in Arabic a sentence can be complete without a verb. We saw in Section V that the modists held a construction to be complete only with a subject and a verb, and that Latin often omits the copula, as in <i>omnia praeclara, rara</i>. The Arabic grammarians did not treat the nominal sentence as an omission; they treated it as a kind of sentence in its own right. This is a real difference in the account of completeness.</p>`,
   src: `Sībawayh, <i>al-Kitāb</i>, in paraphrase.`,
-  qpTodo: `The nominal sentence: in <i>al-baytu kabīrun</i> (“The house is big”), which word is the topic and which the comment, what case are they in, and how does the Arabic account of completeness differ from the modists’.` },
+  qp: { id: 'q-nominal-sentence', variants: [
+    { prompt: `In <i>al-baytu kabīrun</i> (“The house is big”), which word is the topic (<i>mubtadaʾ</i>)?`,
+      options: [`<i>al-baytu</i>`, `<i>kabīrun</i>`, `An omitted verb “is”`, `Both words equally`],
+      answer: 0,
+      explain: `The first noun, <i>al-baytu</i>, is the topic, “that with which one begins”; <i>kabīrun</i> is the comment (<i>khabar</i>).` },
+    { prompt: `In <i>al-baytu kabīrun</i>, in which state are the topic and the comment?`,
+      options: [`The topic in <i>rafʿ</i>, the comment in <i>naṣb</i>`, `Both are in <i>jarr</i>`, `The topic in <i>naṣb</i>, the comment in <i>rafʿ</i>`, `Both are in <i>rafʿ</i>`],
+      answer: 3,
+      explain: `In the nominal sentence both the topic and the comment are in <i>rafʿ</i>; the topic is governed by the act of beginning itself.` },
+    { prompt: `How does the Arabic account of the nominal sentence differ from the modists’ account of completeness?`,
+      options: [`It requires two verbs in every complete sentence`, `It denies that any sentence is complete`, `It counts a verbless sentence as complete`, `It treats the topic as a kind of verb`],
+      answer: 2,
+      explain: `The modists held a construction to be complete only with a subject and a verb; the Arabic grammarians treated the nominal sentence as a kind of sentence in its own right, not as an omission.` }
+  ] } },
 
 { id: 'particles-govern',
   title: 'Particles that govern',
@@ -249,14 +379,40 @@ ARS.decks['xi.traditions'] = {
   body: `<p>The Hebrew grammarians took over the Arabic division of words into three parts: the <strong>noun</strong> (<i>shem</i>, “name”), the <strong>verb</strong> (<i>poʿal</i>, “action”), and the <strong>particle</strong> (<i>millah</i>, “word,” or particle). Kimḥi’s grammar, like the Arabic ones, is arranged by these three parts, with the verb treated first and at greatest length.</p>
 <p>So the Hebrew tradition counts three parts, as the Arabic does, not eight, as the Latin does. The choice follows the model of Arabic grammar, but it also fits the Hebrew language, in which the adjective is formed and inflected like a noun and the prepositions are often joined to the following word as prefixes, as in <i>ba-bayit</i>, “in the house.”</p>`,
   src: `David Kimḥi, <i>Mikhlol</i> (William Chomsky, 1952, for reference), in paraphrase.`,
-  qpTodo: `The three Hebrew parts: what are the three parts of speech in Hebrew grammar, from which tradition did the Hebrew grammarians take them, and how do they differ from Donatus’s eight.` },
+  qp: { id: 'q-hebrew-parts', variants: [
+    { prompt: `What are the three parts of speech in Hebrew grammar?`,
+      options: [`The noun, the verb, and the particle`, `The noun, the verb, and the adjective`, `The root, the pattern, and the prefix`, `The noun, the pronoun, and the verb`],
+      answer: 0,
+      explain: `The Hebrew grammarians divided words into the noun (<i>shem</i>), the verb (<i>poʿal</i>), and the particle (<i>millah</i>).` },
+    { prompt: `From which tradition did the Hebrew grammarians take the division into three parts?`,
+      options: [`The Latin tradition of Donatus`, `The Sanskrit tradition of Pāṇini`, `The Greek tradition of Dionysius`, `The Arabic tradition`],
+      answer: 3,
+      explain: `Hebrew grammar arose among scholars who knew Arabic grammar and applied its methods to Hebrew, including the three parts of speech.` },
+    { prompt: `Why does the division into three parts fit Hebrew, rather than Donatus’s eight?`,
+      options: [`Hebrew has no verbs of its own`, `Hebrew has more than eight parts`, `Its adjectives inflect like nouns`, `Hebrew words never change their form`],
+      answer: 2,
+      explain: `In Hebrew the adjective is formed and inflected like a noun, and prepositions are often prefixed to the following word, as in <i>ba-bayit</i>, “in the house.”` }
+  ] } },
 
 { id: 'roots-dispute',
   title: 'The dispute over the root',
   body: `<p>Some forms of a Hebrew verb show all the letters of its root, and some show only one or two. So the Hebrew grammarians had to decide how many letters a root has. This question occupied the Hebrew grammarians of tenth-century Spain. Menahem ben Saruq, in his dictionary, the <i>Maḥberet</i>, held that many Hebrew roots consist of one or two letters, because in many forms of the verb only one or two letters of the root appear. His opponent, Dunash ben Labrat, criticized many of Menahem’s analyses, and the dispute was carried on by their students.</p>
 <p>The dispute was settled by Judah Ḥayyūj, who showed that Hebrew roots, like Arabic roots, consist regularly of three consonants, and that the letters which seem to disappear in some forms are “weak” letters (such as <i>w</i>, <i>y</i>, and <i>n</i>) that drop out or change by rule. So the root <i>n-p-l</i>, “fall,” appears as <i>yippol</i>, “he will fall,” where the <i>n</i> has disappeared, but the root is still three letters.</p>`,
   src: `Menahem ben Saruq, <i>Maḥberet</i>; Dunash ben Labrat, <i>Teshuvot</i>; Judah Ḥayyūj; all in paraphrase.`,
-  qpTodo: `The root: what was the dispute between Menahem and Dunash, how did Ḥayyūj settle it, and what is a “weak” letter.` },
+  qp: { id: 'q-roots-dispute', variants: [
+    { prompt: `What did Menahem ben Saruq hold about Hebrew roots?`,
+      options: [`Every root has exactly four letters`, `Roots do not exist in Hebrew`, `Many consist of one or two letters`, `Every root is borrowed from Arabic`],
+      answer: 2,
+      explain: `Menahem held that many Hebrew roots consist of one or two letters, because in many forms of the verb only one or two letters of the root appear.` },
+    { prompt: `How did Judah Ḥayyūj settle the dispute over the root?`,
+      options: [`He showed that all roots have two letters`, `Roots have three consonants, some weak`, `He agreed with Menahem in every case`, `He abandoned the idea of a root`],
+      answer: 1,
+      explain: `Ḥayyūj showed that Hebrew roots, like Arabic roots, consist regularly of three consonants, and that the letters which seem to disappear are weak letters that drop out or change by rule.` },
+    { prompt: `What is a “weak” letter in Hebrew grammar?`,
+      options: [`A root letter that drops out or changes by rule`, `A letter written smaller than the others in a word`, `A vowel sign added to the text by the Masoretes`, `A letter used only in foreign words`],
+      answer: 0,
+      explain: `A weak letter, such as <i>w</i>, <i>y</i>, or <i>n</i>, belongs to the root but drops out or changes in some forms, as the <i>n</i> of <i>n-p-l</i> in <i>yippol</i>.` }
+  ] } },
 
 { id: 'hayyuj',
   title: 'Judah Ḥayyūj',
@@ -275,14 +431,40 @@ ARS.decks['xi.traditions'] = {
   body: `<p>English pairs such as “sit” and “set” or “rise” and “raise” differ by a vowel and in meaning: in the first the subject acts, in the second it causes another to act. The Hebrew verb makes such differences regularly; it is formed from its root in several patterns, which modern grammars call <strong>binyanim</strong> (“buildings”), each with its own meaning. From the root <i>sh-b-r</i>, “break,” come <i>shavar</i> (“he broke”), <i>nishbar</i> (“it was broken”), <i>shibber</i> (“he shattered”), and <i>hishbir</i> (“he caused to break”). The patterns express voice and kinds of action: active and passive, intensive, causative, and reflexive.</p>
 <p>The Hebrew grammarians, following the Arabic practice of naming patterns by the model root <i>f-ʿ-l</i>, named the Hebrew patterns by the root <i>p-ʿ-l</i>, “do”: <i>paʿal</i> (also called <i>qal</i>, “light”), <i>nifʿal</i>, <i>piʿel</i>, <i>hifʿil</i>, and the rest. We saw in Section III that Donatus counted five voices of the Latin verb; the Hebrew patterns do the work of voice and of some of Donatus’s forms, such as the frequentative, within a single system.</p>`,
   src: `David Kimḥi, <i>Mikhlol</i>; standard grammars of Biblical Hebrew; both in paraphrase.`,
-  qpTodo: `The patterns of the verb: what does each pattern add to the root <i>g-d-l</i> (<i>gadal</i>, “he grew”; <i>giddel</i>, “he brought up”; <i>higdil</i>, “he made great”), and how are the patterns named.` },
+  qp: { id: 'q-binyanim', variants: [
+    { prompt: `From the root <i>g-d-l</i>, <i>gadal</i> means “he grew.” What does the pattern of <i>higdil</i>, “he made great,” add?`,
+      options: [`A passive sense`, `A reflexive sense`, `A sense of past time`, `A causative sense`],
+      answer: 3,
+      explain: `<i>Higdil</i> is in the pattern <i>hifʿil</i>, which expresses causing: to make something great.` },
+    { prompt: `From the root <i>g-d-l</i>, what does <i>giddel</i>, “he brought up,” show about the patterns of the verb?`,
+      options: [`The root itself has changed its letters`, `The verb has become a noun of action`, `The pattern changes the kind of action`, `Only the person of the verb has changed`],
+      answer: 2,
+      explain: `<i>Giddel</i>, in the pattern <i>piʿel</i>, keeps the root <i>g-d-l</i> but changes the kind of action: not “he grew” but “he brought up.”` },
+    { prompt: `How did the Hebrew grammarians name the patterns of the verb?`,
+      options: [`By numbers from one to seven`, `By the forms of the model root <i>p-ʿ-l</i>, “do”`, `By the names of the grammarians who found them`, `By the Latin names of the voices`],
+      answer: 1,
+      explain: `Following the Arabic use of <i>f-ʿ-l</i>, they named the patterns by the root <i>p-ʿ-l</i>: <i>paʿal</i>, <i>nifʿal</i>, <i>piʿel</i>, <i>hifʿil</i>, and the rest.` }
+  ] } },
 
 { id: 'construct',
   title: 'The article and the construct state',
   body: `<p>Hebrew has a definite article, <i>ha-</i>, joined to the front of the noun: <i>melekh</i> (“a king”), <i>ha-melekh</i> (“the king”). Like Arabic, it expresses possession by joining two nouns, the first in a shortened form called the <strong>construct state</strong> (<i>semikhut</i>, “leaning”): <i>bayit</i> (“house”), but <i>beit ha-melekh</i> (“the house of the king”). The first noun loses its article and often changes its vowels, and the second noun carries the article for the whole phrase.</p>
 <p>Hebrew nouns have no case endings, so the construct state does the work that the Latin genitive does by an ending. We saw that Arabic marks annexation by changing both nouns; Hebrew marks it by changing only the first. So the three Semitic traditions, Arabic, Hebrew, and Aramaic, share a construction that the Latin grammarians had no name for, and the Hebrew grammarians described it in terms taken from Arabic.</p>`,
   src: `Standard grammars of Biblical Hebrew, in paraphrase.`,
-  qpTodo: `The construct state: in <i>dvar ha-navi</i> (“the word of the prophet,” from <i>davar</i>, “word”), which noun is in the construct state, which carries the article, and how does Latin express the same relation.` },
+  qp: { id: 'q-construct', variants: [
+    { prompt: `In <i>dvar ha-navi</i> (“the word of the prophet”), which noun is in the construct state?`,
+      options: [`<i>navi</i>, “prophet,” the second noun`, `<i>dvar</i>, from <i>davar</i>, “word”`, `Both nouns, since both are joined`, `Neither noun, since Hebrew has none`],
+      answer: 1,
+      explain: `The first noun is shortened in the construct state: <i>davar</i> becomes <i>dvar</i>.` },
+    { prompt: `In <i>dvar ha-navi</i>, which noun carries the article?`,
+      options: [`The second noun, <i>navi</i>`, `The first noun, <i>dvar</i>`, `Both nouns, one article each`, `Neither noun; Hebrew has no article`],
+      answer: 0,
+      explain: `The first noun loses its article, and the second noun carries the article for the whole phrase: <i>ha-navi</i>.` },
+    { prompt: `How does Latin express the relation of <i>dvar ha-navi</i>, “the word of the prophet”?`,
+      options: [`By changing the form of the first noun`, `By an article before the second noun`, `By the order of the words alone`, `By the genitive of the second noun`],
+      answer: 3,
+      explain: `Latin puts the second noun in the genitive, <i>verbum prophētae</i>; Hebrew has no case endings, so it marks the relation by the construct state of the first noun.` }
+  ] } },
 
 { id: 'kimhi',
   title: 'David Kimḥi',
@@ -322,7 +504,20 @@ ARS.decks['xi.traditions'] = {
 <p><strong>pictographs</strong> (象形 <i>xiàngxíng</i>), which picture a thing: 日 “sun,” 木 “tree”;<br><strong>simple indicatives</strong> (指事 <i>zhǐshì</i>), which point to an idea by a mark: 上 “above,” 下 “below”;<br><strong>compound ideographs</strong> (會意 <i>huìyì</i>), which join two characters to make a meaning: 人 “person” and 言 “speech” make 信 “trust”;<br><strong>phono-semantic compounds</strong> (形聲 <i>xíngshēng</i>), which join a part for the meaning with a part for the sound: 江 <i>jiāng</i>, “river,” with “water” for the meaning and 工 <i>gōng</i> for the sound;<br><strong>derivative cognates</strong> (轉注 <i>zhuǎnzhù</i>), a class whose meaning is disputed;<br>and <strong>phonetic loans</strong> (假借 <i>jiǎjiè</i>), characters borrowed for another word of similar sound.</p>
 <p>Most Chinese characters are phono-semantic compounds. So the six writings are the Chinese tradition’s account of the parts of the written word, as our figure and species are an account of how words are made.</p>`,
   src: `Xu Shen, <i>Shuowen jiezi</i>, postface, in paraphrase.`,
-  qpTodo: `The six writings: which kind of character is a given example (山 “mountain,” a pictograph; 本 “root,” a simple indicative; 休 “rest,” a compound ideograph of 人 and 木; 河 <i>hé</i>, “river,” a phono-semantic compound), and what does each part contribute.` },
+  qp: { id: 'q-six-writings', variants: [
+    { prompt: `Which kind of character is 山, “mountain,” which pictures peaks?`,
+      options: [`A pictograph`, `A simple indicative`, `A compound ideograph`, `A phonetic loan`],
+      answer: 0,
+      explain: `A pictograph pictures a thing, as 山 pictures a mountain.` },
+    { prompt: `休, “rest,” joins 人, “person,” and 木, “tree.” Which kind of character is it?`,
+      options: [`A pictograph`, `A phono-semantic compound`, `A simple indicative`, `A compound ideograph`],
+      answer: 3,
+      explain: `A compound ideograph joins two characters to make a meaning: a person beside a tree, resting.` },
+    { prompt: `河 <i>hé</i>, “river,” has “water” on the left and 可 <i>kě</i> on the right. What does each part contribute?`,
+      options: [`Both parts together give only the meaning`, `Both parts give the sound`, `“Water” gives the meaning, 可 the sound`, `可 gives the meaning, “water” the sound`],
+      answer: 2,
+      explain: `河 is a phono-semantic compound: one part indicates the meaning (water) and the other the sound (可 <i>kě</i>). Most Chinese characters are formed in this way.` }
+  ] } },
 
 { id: 'imposition-graphs',
   title: 'The character and imposition',
@@ -341,7 +536,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Because the character does not show its sound fully, the Chinese scholars needed a way to record the pronunciation. They developed the method called <strong>fǎnqiè</strong> (反切), which spells the sound of a syllable by two other characters: the first gives the initial consonant, and the second gives the rest of the syllable, its vowel, its ending, and its tone. So the syllable <i>dōng</i> could be spelled by <i>dé</i> (for the initial <i>d</i>) and <i>hóng</i> (for the rest, <i>-ōng</i>).</p>
 <p>In 601 Lu Fayan and his collaborators completed the <i>Qieyun</i> (切韻, “Divided Rhymes”), a dictionary that arranged characters by their tone and rhyme and gave their sounds by fǎnqiè. Its successors became the standard references for pronunciation and for the rhymes of poetry. We saw in Section II that the Latin syllable is divided by its vowel and consonants; fǎnqiè divides the Chinese syllable into initial and remainder, a division suited to a language of single-syllable words with tones.</p>`,
   src: `Lu Fayan, <i>Qieyun</i> (601), in paraphrase.`,
-  qpTodo: `Fǎnqiè: how does fǎnqiè spell the sound of a syllable by two characters, and how does it divide the syllable compared with the Latin division into letters.` },
+  qp: { id: 'q-qieyun', variants: [
+    { prompt: `In a fǎnqiè spelling of a syllable <i>lán</i> by two characters read <i>lì</i> and <i>hán</i>, what does <i>lì</i> give?`,
+      options: [`The vowel and the tone`, `The whole syllable`, `Nothing; it marks the meaning`, `The initial consonant, <i>l</i>`],
+      answer: 3,
+      explain: `In fǎnqiè the first character gives the initial consonant, and the second gives the rest of the syllable, its vowel, its ending, and its tone.` },
+    { prompt: `In the same spelling, what does <i>hán</i> give?`,
+      options: [`The initial consonant of the syllable, <i>h</i>`, `The meaning of the syllable, not its sound`, `The rest of the syllable, with its tone`, `Only the tone`],
+      answer: 2,
+      explain: `The second character gives the remainder of the syllable after the initial: its vowel, its ending, and its tone.` },
+    { prompt: `How does fǎnqiè divide a syllable, compared with the Latin division into letters?`,
+      options: [`Into vowels, semivowels, and mutes`, `Into an initial and a remainder`, `Into long and short syllables`, `Into roots and affixes`],
+      answer: 1,
+      explain: `Fǎnqiè divides the Chinese syllable into its initial and the rest, a division suited to a language of single-syllable words with tones; the Latin grammarians divided the syllable into its letters.` }
+  ] } },
 
 { id: 'tones',
   title: 'Tone',
@@ -354,7 +562,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>In any sentence some words name things and actions, and others only relate them. The nearest the traditional Chinese scholars came to parts of speech was the distinction, made from about the twelfth century, between <strong>full words</strong> (實字, <i>shízì</i>), which name a thing or an action, such as 人 (“person”) and 來 (“come”), and <strong>empty words</strong> (虛字, <i>xūzì</i>), which do not name but have a function in the sentence, such as 之 (<i>zhī</i>), 乎 (<i>hū</i>), 者 (<i>zhě</i>), 也 (<i>yě</i>), and 而 (<i>ér</i>).</p>
 <p>The distinction resembles the medieval division between categorematic and syncategorematic words that we saw in Section I, more than Donatus’s eight parts. The empty words do the work that Latin does by endings and by many of its conjunctions and particles: they mark the relations between the full words, ask a question, or close a sentence. Treatises devoted to the empty words were among the most important works of Chinese grammatical study.</p>`,
   src: `General history of Chinese grammatical study, in paraphrase.`,
-  qpTodo: `Full and empty words: is a given character full or empty (水 “water,” 行 “go,” 於 <i>yú</i>, 矣 <i>yǐ</i>), and which medieval distinction does the division resemble.` },
+  qp: { id: 'q-full-empty', variants: [
+    { prompt: `Is 水, “water,” a full word or an empty word?`,
+      options: [`An empty word`, `Neither`, `Both`, `A full word`],
+      answer: 3,
+      explain: `水 names a thing, so it is a full word (實字).` },
+    { prompt: `Is 於 <i>yú</i>, which relates a noun to the action (“at,” “in”), a full word or an empty word?`,
+      options: [`A full word`, `Neither`, `An empty word`, `Both`],
+      answer: 2,
+      explain: `於 does not name a thing or an action but marks a relation between full words, so it is an empty word (虛字).` },
+    { prompt: `Which medieval distinction does the division into full and empty words most resemble?`,
+      options: [`The eight parts of Donatus`, `Categorematic and syncategorematic words`, `Declinable and indeclinable words in Latin`, `Literal and figurative senses`],
+      answer: 1,
+      explain: `Full words, like categorematic words, signify by themselves; empty words, like syncategorematic words, signify only with others.` }
+  ] } },
 
 { id: 'analects',
   title: 'Empty words in a line of the Analects',
@@ -367,7 +588,20 @@ ARS.decks['xi.traditions'] = {
   body: `<p>Because classical Chinese has no inflection, its construction is shown almost entirely by the order of the words and by the empty words. In 王命之 (<i>wáng mìng zhī</i>), “The king ordered it,” 王 (“king”) stands first as the one who acts, 命 (“order”) second as the action, and 之 (“it”) last as the thing ordered. Time is shown, when it is shown, by a word of time, as 昨日 (“yesterday”), not by a form of the verb.</p>
 <p>We saw in Section V that English, which has lost most of its endings, relies on order to show its construction, and that languages can be classed by their usual order. Chinese is the extreme case: the relations that Latin shows by case and conjugation are shown by the place of each word. The traditional Chinese marks of punctuation, 句 (<i>jù</i>, a completed stretch) and 讀 (<i>dòu</i>, a pause), which readers added to the classics, divided the text into its units, as the marks of pause described by the Latin grammarians did in Latin.</p>`,
   src: `General description of classical Chinese, in paraphrase.`,
-  qpTodo: `Order without inflection: how does 民畏之 (<i>mín wèi zhī</i>, “The people fear him”) show which word acts and which is acted upon, and how does this compare with Latin and with English.` },
+  qp: { id: 'q-order-chinese', variants: [
+    { prompt: `In 民畏之 (<i>mín wèi zhī</i>, “The people fear him”), how is it shown which word acts?`,
+      options: [`By order: the doer stands first`, `By the case ending added to 民`, `By a case particle placed after 民`, `By the tone given to 畏`],
+      answer: 0,
+      explain: `Classical Chinese has no inflection, so 民 (“people”), standing first, is the one who acts; 畏 (“fear”) is the action, and 之 (“him”) the one acted upon.` },
+    { prompt: `In 民畏之, what does Latin use where Chinese uses order?`,
+      options: [`Only the order of the words`, `Empty words between the nouns`, `Tones on each syllable`, `Case endings and conjugation`],
+      answer: 3,
+      explain: `Latin shows the one who acts by the nominative, the one acted upon by the accusative, and the action by the endings of the verb; Chinese shows all three by the place of each word.` },
+    { prompt: `How does English compare with Chinese in showing construction?`,
+      options: [`English relies entirely on its endings`, `English uses tones, as Chinese does`, `English also relies largely on order`, `English has no rules of order`],
+      answer: 2,
+      explain: `English, which has lost most of its endings, relies on order to show its construction; Chinese is the extreme case.` }
+  ] } },
 
 { id: 'mashi',
   title: 'Ma Jianzhong and the Latin model',
