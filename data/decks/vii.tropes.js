@@ -1,5 +1,5 @@
 /* VII.3 Tropes [vii.tropes]
-   Plan (ITEM-LIST.md): 15 panels, 4 question points (placeholders: qpTodo; to be written). Exercise: Tropes (not yet
+   Plan (ITEM-LIST.md): 15 panels, 4 question points. Exercise: Tropes (not yet
    written), on twelve tropes: metaphor, catachresis, metalepsis, metonymy, antonomasia, epithet, synecdoche, onomatopoeia,
    periphrasis, hyperbole, allegory, and irony (taken as a species of allegory, as Donatus does).
    Panels follow Donatus's order (synecdoche after epithet, Timothy, 18 Oct 2026).
@@ -34,7 +34,20 @@ ARS.decks['vii.tropes'] = {
 <p>Donatus and Quintilian divide metaphors into the same four kinds (<i>Ars maior</i> III.6; <i>Institutio oratoria</i> VIII.6.9–11):</p>
 <p><strong>from one living thing to another</strong>: Livy says that Scipio was continually “barked at” by Cato (Quintilian, VIII.6.9), carrying the dog’s bark to a man;<br><strong>from one lifeless thing to another</strong>: in the words <i>pelagus tenuere rates</i> (<i>Aeneid</i> V.8) Virgil calls the ships <i>rates</i> (“rafts”), and Donatus explains that neither rafts nor ships have life;<br><strong>from the living to the lifeless</strong>: Virgil gives the mountain Atlas a pine-crowned “head” (Donatus);<br><strong>from the lifeless to the living</strong>: Turnus is told to take “oak” into his breast, meaning hardness (Donatus).</p>`,
   src: `Donatus, <i>Ars maior</i> III.6, in paraphrase; Quintilian, <i>Institutio oratoria</i> VIII.6.9 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Metaphor: in a given sentence, which word is used as a metaphor, what does it properly signify, and what likeness carries it over (and, if asked, which of the four kinds it is).` },
+  qp: { id: 'q-metaphor-kinds', variants: [
+    { prompt: `“The old library was a gold mine of maps.” Which word is used as a metaphor, and for what?`,
+      options: [`“library,” for a building`, `“maps,” for charts of the sea`, `“gold mine,” rich source`, `“old,” for something valuable`],
+      answer: 2,
+      explain: `A gold mine properly signifies a mine from which gold is dug. It is carried over to the library because the library yields many valuable maps, as a mine yields gold.` },
+    { prompt: `“Her laughter was music to the tired nurses.” What does “music” properly signify, and what carries it over?`,
+      options: [`Laughter; the nurses were musicians`, `Ordered sound; both please`, `A written score; the laughter was written down`, `Noise; the laughter was too loud`],
+      answer: 1,
+      explain: `“Music” properly signifies sound ordered by art. It is carried over to the laughter by a likeness in the pleasure that each gives to the hearer.` },
+    { prompt: `“The wind howled around the house.” Which of the four kinds of metaphor is this?`,
+      options: [`From the living to the lifeless`, `From one living thing to another`, `From one lifeless thing to another`, `From the lifeless to the living`],
+      answer: 0,
+      explain: `“Howl” is properly the cry of a dog or a wolf, a living thing, and it is carried over to the wind, which has no life.` }
+  ] } },
 
 { id: 'catachresis',
   title: 'Catachresis',
@@ -53,7 +66,20 @@ ARS.decks['vii.tropes'] = {
   body: `<p>English often uses “the crown” for the king, “the White House” for the president’s office, “I am reading Shakespeare” for his plays, and “the kettle is boiling” for the water in it. In each the word keeps its proper signification, but it is used of something related to what it signifies, and the hearer supplies the relation. The use of one name for another that is associated with it, not by likeness but by some other relation, is called <strong>metonymy</strong> (Greek, “change of name”).</p>
 <p>Quintilian says it consists “in the substitution of one name for another,” and lists its kinds: the inventor for the invention, as Ceres for grain and Vulcan for fire; the possessor for the possession; the container for the contained; the author for his work, as when “we … speak of Virgil when we mean Virgil’s poems”; and the cause for the effect, as Horace’s “Pale death” (<i>Institutio oratoria</i> VIII.6.23–27).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.23–27 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Metonymy: in a given sentence (“Downing Street announced,” “She drank the whole bottle,” “The pen is mightier than the sword”), what does the word properly signify, what is it used for, and what relation joins them.` },
+  qp: { id: 'q-metonymy', variants: [
+    { prompt: `“Downing Street announced a new tax.” What does “Downing Street” stand for, and by what relation?`,
+      options: [`A street, by its proper signification`, `The tax, by cause for effect`, `The prime minister’s office`, `London, by part for whole`],
+      answer: 2,
+      explain: `The street on which the British prime minister lives is used for the office that works there. One name is used for another associated with it, not by likeness, so the trope is metonymy.` },
+    { prompt: `“She drank the whole bottle.” What does “bottle” stand for, and by what relation?`,
+      options: [`The glass of the bottle, by part for whole`, `The drink, container for contained`, `A large amount, by hyperbole`, `Her thirst, by effect for cause`],
+      answer: 1,
+      explain: `No one drinks glass; “bottle” is used for what it contains. The container put for the contained is one of Quintilian’s kinds of metonymy.` },
+    { prompt: `“We listened to Mozart all evening.” What does “Mozart” stand for, and by what relation?`,
+      options: [`His music, by author for work`, `A recording, by part for whole`, `A concert hall, by place for event`, `A musician who looks like him, by likeness`],
+      answer: 0,
+      explain: `We cannot listen to the man himself; his name stands for his music. Quintilian lists the author put for his work among the kinds of metonymy.` }
+  ] } },
 
 { id: 'antonomasia',
   title: 'Antonomasia',
@@ -90,7 +116,20 @@ ARS.decks['vii.tropes'] = {
   body: `<p>English says “I have told you a thousand times” and “He is as slow as a snail,” the first enlarging the fact and the second lessening it. Words that go beyond the truth in this way make the trope called <strong>hyperbole</strong> (Greek, “throwing beyond”), which is, in Quintilian’s words, “an elegant straining of the truth, and may be employed indifferently for exaggeration or attenuation” (<i>Institutio oratoria</i> VIII.6.67). Virgil speaks of “twin rocks that threaten heaven” (VIII.6.68).</p>
 <p>Quintilian explains why hyperbole is not a lie: “hyperbole lies, though without any intention to deceive,” and “such disregard of truth is pardonable, for it does not involve the definite assertion of the thing that is not” (VIII.6.74–75). So hyperbole is a trope, not a false statement: the hearer understands that the words go beyond the fact and takes them as signifying only that the fact is great or small. This is the point at which the tropes touch the distinction between grammar and logic that we saw in Section I.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.67–68, 74–75 (trans. Butler; checked against the Perseus text).`,
-  qpTodo: `Hyperbole: in a given sentence, which words go beyond the truth, do they enlarge or lessen, and why is the sentence not a lie.` },
+  qp: { id: 'q-hyperbole', variants: [
+    { prompt: `“This suitcase weighs more than a house.” Which words go beyond the truth?`,
+      options: [`“suitcase,” lessening its size`, `“weighs,” enlarging the effort`, `“more than a house”`, `None, since the sentence is a comparison`],
+      answer: 2,
+      explain: `No suitcase weighs more than a house; these words enlarge the weight to say that it is very heavy. This is hyperbole used for exaggeration.` },
+    { prompt: `“The shop is only a stone’s throw away,” said of a shop two miles off. Do the words enlarge or lessen?`,
+      options: [`They enlarge the distance`, `They lessen the distance`, `They state the distance exactly`, `They neither enlarge nor lessen`],
+      answer: 1,
+      explain: `A stone’s throw is far shorter than two miles, so the words lessen the distance. Quintilian says that hyperbole may be used for attenuation as well as exaggeration.` },
+    { prompt: `“I have waited an eternity for the bus.” Why is this not a lie?`,
+      options: [`It does not intend to deceive`, `The speaker has in fact waited forever`, `Every sentence about time is figurative`, `The sentence is a question`],
+      answer: 0,
+      explain: `Hyperbole goes beyond the truth without any intention to deceive, and the hearer takes the words as signifying only that the wait was long. It does not assert the thing that is not.` }
+  ] } },
 
 { id: 'allegory',
   title: 'Allegory',
@@ -104,7 +143,20 @@ ARS.decks['vii.tropes'] = {
 <p>Quintilian’s second kind of allegory says something “absolutely opposed to the meaning of the words,” and he names it irony: “that class of allegory in which the meaning is contrary to that suggested by the words, involve an element of irony” (<i>Institutio oratoria</i> VIII.6.54). Donatus likewise counts irony as a species of allegory, together with other species such as the riddle (<i>aenigma</i>), the proverb (<i>paroemia</i>), and sarcasm (<i>sarcasmos</i>) (<i>Ars maior</i> III.6).</p>
 <p>Quintilian says that irony “is made evident to the understanding either by the delivery, the character of the speaker or the nature of the subject. For if any one of these three is out of keeping with the words, it at once becomes clear that the intention of the speaker is other than what he actually says” (VIII.6.54).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.54 (trans. Butler; checked against the Perseus text); Donatus, <i>Ars maior</i> III.6, in paraphrase.`,
-  qpTodo: `Allegory and irony: in a given passage, is the trope an allegory (a continued metaphor) or irony (the contrary of the words), and by what does the hearer recognize it.` },
+  qp: { id: 'q-irony', variants: [
+    { prompt: `A muddy dog comes in, and the host says, “Well, aren’t you a clean one!” Which trope is this, and how is it recognized?`,
+      options: [`Allegory, a continued metaphor about dogs`, `Irony; the dog belies the words`, `Hyperbole, since “clean” enlarges the fact`, `Metonymy, “clean” for washing`],
+      answer: 1,
+      explain: `The words say the contrary of what is meant, and the muddy dog shows it, since the subject does not fit the words. Quintilian says irony is recognized by the delivery, the character of the speaker, or the nature of the subject.` },
+    { prompt: `A preacher describes a garden overrun by weeds because its gardener neglected it, and means a soul neglected by its owner. Which trope is this?`,
+      options: [`Allegory`, `Irony`, `Hyperbole`, `Metonymy`],
+      answer: 0,
+      explain: `Each word keeps its proper signification within the description, but the whole signifies something else; the garden, the weeds, and the gardener are a continued metaphor. That is allegory.` },
+    { prompt: `“That was a brilliant idea,” said after someone has locked the keys in the car. What shows that the words are ironic?`,
+      options: [`The word “brilliant” is a metaphor`, `The sentence is in the past tense`, `The speaker uses an adjective`, `The event contradicts them`],
+      answer: 3,
+      explain: `Locking the keys in the car is not a brilliant idea, so the nature of the subject shows that the speaker means the contrary of the words.` }
+  ] } },
 
 { id: 'summary',
   title: 'The tropes and signification',
