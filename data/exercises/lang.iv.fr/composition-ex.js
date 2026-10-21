@@ -63,13 +63,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>pomme de terre</i>. (“potato”)",
-   "explain": "The second noun is a complement, so only the first takes the plural.",
+   "prompt": "Choose the plural of <i>timbre-poste</i>. (“postage stamp”)",
+   "explain": "<i>Poste</i> is a complement (a stamp “for the post”), so only <i>timbre</i> takes the plural: <i>timbres-poste</i>.",
    "options": [
-    "<i>pommes de terres</i>",
-    "<i>pomme de terres</i>",
-    "<i>pommes de terre</i>",
-    "<i>pommes des terres</i>"
+    "<i>timbre-postes</i>",
+    "<i>timbres-postes</i>",
+    "<i>timbres-poste</i>",
+    "<i>timbres-de-poste</i>"
    ],
    "answer": 2
   },

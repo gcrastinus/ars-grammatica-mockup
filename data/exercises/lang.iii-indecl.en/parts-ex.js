@@ -854,21 +854,21 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "deck": "lang.iii-indecl.en/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which part of speech is the marked word? I know <b>that</b> he arrived.",
-   "explain": "Here “that” joins one whole statement to another. In “I know that man” it points at a particular one and is an adjective; in “that is mine” it stands in for a noun and is a pronoun. Three functions share one sound.",
+   "prompt": "Which part of speech is the marked word? We hoped <b>that</b> the ship would return.",
+   "explain": "Here “that” joins one whole statement, “the ship would return,” to the verb “hoped,” so it is a conjunction.",
    "options": [
-    "Conjunction",
     "Adjective",
     "Adverb",
     "Noun",
     "Participle",
     "Pronoun",
+    "Conjunction",
     "Preposition",
     "Verb",
     "Article",
     "Interjection"
    ],
-   "answer": 0,
+   "answer": 5,
    "formerId": "lang.iii-indecl.en/parts-hard-ex:ph5"
   },
   {

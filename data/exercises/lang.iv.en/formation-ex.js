@@ -102,9 +102,12 @@ ARS.exercises["lang.iv.en/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the opposite of “wise” made with “un-.”",
-   "explain": "“Un-” is the Germanic prefix of the opposite. The opposite of “wise” is “unwise.”",
-   "answer": "unwise"
+   "prompt": "Write the opposite of “kind” made with “un-.”",
+   "explain": "“Un-” is the Germanic prefix of the opposite. The opposite of “kind” is “unkind.”",
+   "answer": "unwise",
+   "accept": [
+    "unkind"
+   ]
   },
   {
    "id": "lang.iv.en/formation-ex:a8",

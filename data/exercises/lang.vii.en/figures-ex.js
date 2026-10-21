@@ -383,7 +383,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "deck": "lang.vii.en/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which device is “O my Luve’s like a red, red rose”?",
+   "prompt": "Which device is “Her voice was like a silver bell”?",
    "explain": "The likeness is stated with “like.”",
    "options": [
     "Metaphor",

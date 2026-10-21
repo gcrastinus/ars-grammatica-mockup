@@ -31,7 +31,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Counting <em>passion</em> as three syllables is…",
+   "prompt": "Counting <em>ruine</em> as three syllables, <em>ru-i-ne</em>, is…",
    "explain": "<em>Diérèse</em> separates the vowels; <em>synérèse</em> joins them.",
    "options": [
     "Diérèse",
@@ -127,15 +127,15 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>une heure</em>, what happens to the mute <em>e</em> of <em>une</em>?",
-   "explain": "A mute <em>e</em> is elided before a vowel. In <em>une heure</em> the <em>e</em> of <em>une</em> is not counted. Before a consonant, as in <em>une belle nuit</em>, that <em>e</em> is counted.",
+   "prompt": "In <em>une île</em>, what happens to the mute <em>e</em> of <em>une</em>?",
+   "explain": "A mute <em>e</em> is elided before a vowel, so in <em>une île</em> the <em>e</em> of <em>une</em> is not counted.",
    "options": [
-    "It is elided, and not counted",
     "It is counted, because it ends the word",
     "It makes a feminine rhyme inside the phrase",
+    "It is elided, and not counted",
     "It is a dieresis, two syllables for one vowel"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.ii.fr/meter-ex:n8",

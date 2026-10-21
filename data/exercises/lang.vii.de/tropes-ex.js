@@ -223,13 +223,13 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Why is <i>des Lebens goldner Baum</i> not a simile?",
-   "explain": "A simile would say “like a tree.”",
+   "prompt": "Why is <i>Das Leben ist ein Traum</i> (“Life is a dream”) not a simile?",
+   "explain": "A simile would say <i>wie ein Traum</i>, “like a dream.” Without the word of likeness it is a metaphor.",
    "options": [
-    "It is in the genitive, which never makes a figure",
+    "It is in the nominative, which never makes a figure",
     "No word of likeness, such as <i>wie</i>, is stated",
-    "It names a color",
-    "It is spoken by Mephistopheles"
+    "It names a feeling",
+    "It is a question"
    ],
    "answer": 1
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In Mephistopheles’ <i>stets das Böse will und stets das Gute schafft</i>, which word is repeated to sharpen the antithesis?",
-   "explain": "“Always … always.”",
+   "prompt": "In the proverb <i>Viel Feind, viel Ehr</i> (“many foes, much honor”), which word is repeated?",
+   "explain": "<i>Viel</i> stands at the head of both members, and the repetition sets the foes against the honor.",
    "options": [
-    "<i>Kraft</i>",
-    "<i>Teil</i>",
-    "<i>stets</i>",
-    "<i>jener</i>"
+    "<i>Feind</i>",
+    "<i>Ehr</i>",
+    "<i>viel</i>",
+    "None"
    ],
    "answer": 2
   },

@@ -302,8 +302,8 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>et iam prima novo spargebat lumine terras / Tithoni croceum linquens Aurora cubile</em> (Aeneid IV.584–585), for “it was dawn,” is…",
-   "explain": "Two lines say “day was breaking.” Donatus gives these lines for periphrasis, a circumlocution for ornament.",
+   "prompt": "<em>Tempus erat quo prima quies mortalibus aegris / incipit</em> (<em>Aeneid</em> II.268–269), for “it was night,” is…",
+   "explain": "Two lines describe the hour when first rest comes to weary mortals instead of saying “it was night.” That is periphrasis, a circumlocution for ornament.",
    "options": [
     "Periphrasis: many words for one thing",
     "Hyperbole: more than the truth",

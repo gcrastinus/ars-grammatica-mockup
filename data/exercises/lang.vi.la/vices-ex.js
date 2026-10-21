@@ -15,11 +15,11 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <em>Puella <b>bonus</b> est.</em>",
-   "explain": "<em>Bonus</em> is a Latin word, but beside <em>puella</em> it disagrees in gender. That is an error in the arrangement.",
+   "prompt": "What kind of error? <em>Via <b>longus</b> est.</em>",
+   "explain": "<em>Longus</em> is a Latin word, but beside the feminine <em>via</em> it disagrees in gender; the sentence needs <em>longa</em>. That is an error in the arrangement.",
    "options": [
     "Solecism: adjective and noun do not fit",
-    "Barbarism: <em>bonus</em> is not a Latin form",
+    "Barbarism: <em>longus</em> is not a Latin form",
     "No error: Latin adjectives take any gender",
     "Incomplete: the sense is not finished"
    ],
@@ -31,15 +31,15 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <em>Puer patrem <b>amavis</b>.</em>",
-   "explain": "<em>Amavis</em> is not a Latin form; the perfect, third person singular, is <em>amāvit</em>. The error is in the word, before any arrangement is asked.",
+   "prompt": "What kind of error? <em>Puer canem <b>videvit</b>.</em>",
+   "explain": "<em>Videvit</em> is not a Latin form; the perfect, third person singular, is <em>vīdit</em>. The error is in the word, before any arrangement is asked.",
    "options": [
-    "Barbarism: a form the language does not have",
     "Solecism: two good words badly arranged",
+    "Barbarism: a form the language does not have",
     "No error: the sentence is sound as it stands",
     "A figure, allowed for the meter"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.vi.la/vices-ex:vc11",

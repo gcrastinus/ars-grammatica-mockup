@@ -287,13 +287,13 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>va, cours, vole, et nous venge</i>, which verbs stand in asyndeton?",
-   "explain": "The first three verbs have no conjunction; <i>et</i> joins only the last.",
+   "prompt": "In <i>adieu veau, vache, cochon, couvée</i> (La Fontaine, “La Laitière et le Pot au lait”), how are the four nouns joined?",
+   "explain": "The nouns stand side by side with no conjunction, and the list falls as quickly as the milkmaid’s hopes.",
    "options": [
-    "Only <i>venge</i>",
-    "<i>vole</i> and <i>venge</i>",
-    "<i>Va, cours, vole</i>",
-    "None"
+    "By <i>et</i> before the last",
+    "By <i>adieu</i> repeated",
+    "By no conjunction: asyndeton",
+    "By a relative pronoun"
    ],
    "answer": 2
   },

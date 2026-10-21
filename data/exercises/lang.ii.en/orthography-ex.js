@@ -27,10 +27,10 @@ ARS.exercises["lang.ii.en/orthography-ex"] = {
    "deck": "lang.ii.en/orthography-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write the “-ing” form of “write.”",
-   "explain": "The silent “e” of “write” drops before an ending that begins with a vowel, and the consonant stays single after the long vowel.",
+   "prompt": "Write the “-ing” form of “smile.”",
+   "explain": "The silent “e” of “smile” drops before an ending that begins with a vowel, and the consonant stays single after the long vowel.",
    "accept": [
-    "writing"
+    "smiling"
    ]
   },
   {
@@ -131,10 +131,10 @@ ARS.exercises["lang.ii.en/orthography-ex"] = {
    "deck": "lang.ii.en/orthography-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write the past tense of “prefer.”",
-   "explain": "“PreFER” is stressed on its last syllable, so the final consonant is doubled before “-ed.”",
+   "prompt": "Write the past tense of “control.”",
+   "explain": "“ConTROL” is stressed on its last syllable, so the final consonant is doubled before “-ed.”",
    "accept": [
-    "preferred"
+    "controlled"
    ]
   },
   {

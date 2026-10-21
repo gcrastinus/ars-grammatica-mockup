@@ -79,10 +79,10 @@ ARS.exercises["lang.iii-decl.en/verbals-ex"] = {
    "deck": "lang.iii-decl.en/verbals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect participle of “write.”",
-   "explain": "The perfect participle is “having” with the past participle: “having written.”",
+   "prompt": "Write the perfect participle of “speak.”",
+   "explain": "The perfect participle is “having” with the past participle: “having spoken.”",
    "accept": [
-    "having written"
+    "having spoken"
    ]
   },
   {

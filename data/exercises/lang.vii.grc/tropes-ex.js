@@ -287,13 +287,13 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Thrasymachus calls Socrates’ manner <i>εἰρωνεία</i>. What does he mean?",
-   "explain": "Socrates claims to know nothing while he refutes others.",
+   "prompt": "A man says <i>ὡς σοφὸς εἶ</i> (“how wise you are!”) to someone who has just said something foolish. Which trope is this?",
+   "explain": "He says the contrary of what he means, so the trope is irony.",
    "options": [
-    "A love of long speeches",
-    "A habit of asking for money",
-    "A pretense of ignorance",
-    "A fear of the crowd"
+    "Metaphor",
+    "Synecdoche",
+    "Irony",
+    "Metonymy"
    ],
    "answer": 2
   },

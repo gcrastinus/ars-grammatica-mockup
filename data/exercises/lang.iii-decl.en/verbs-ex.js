@@ -107,10 +107,10 @@ ARS.exercises["lang.iii-decl.en/verbs-ex"] = {
    "deck": "lang.iii-decl.en/verbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past tense of “teach.”",
-   "explain": "“Teach” changes its vowel and adds “-t,” written “taught.”",
+   "prompt": "Write the past tense of “buy.”",
+   "explain": "“Buy” changes its vowel and adds “-t,” written “bought.”",
    "accept": [
-    "taught"
+    "bought"
    ]
   },
   {

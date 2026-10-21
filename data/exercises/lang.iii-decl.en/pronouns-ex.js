@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.en/pronouns-ex"] = {
    "deck": "lang.iii-decl.en/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the possessive pronoun (the form that stands alone) of “they.”",
-   "explain": "“Their” stands before a noun, and “theirs” stands alone: “The boat is theirs.” It takes no apostrophe.",
+   "prompt": "Write the possessive pronoun that completes “The farm is not ours; it is ___.” (It belongs to them.)",
+   "explain": "“Their” stands before a noun, and “theirs” stands alone, with no apostrophe.",
    "accept": [
     "theirs"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.en/pronouns-ex"] = {
    "deck": "lang.iii-decl.en/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the objective case of “we.”",
-   "explain": "“We” is subjective, “us” objective, and “our” possessive.",
+   "prompt": "Write the pronoun that completes “The guide showed ___ the way.” (The speaker and others receive the action.)",
+   "explain": "The indirect object takes the objective case: “us,” not “we.”",
    "accept": [
     "us"
    ]
@@ -199,8 +199,8 @@ ARS.exercises["lang.iii-decl.en/pronouns-ex"] = {
    "deck": "lang.iii-decl.en/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the reflexive pronoun of “we.”",
-   "explain": "The reflexive of “we” is “ourselves,” plural in “-selves.”",
+   "prompt": "Write the pronoun that completes “We helped ___ to the bread.”",
+   "explain": "When the object is the same as the subject “we,” English uses the reflexive “ourselves.”",
    "accept": [
     "ourselves"
    ]

@@ -95,15 +95,15 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the stress fall in <em>Liebe</em>?",
-   "explain": "The stress of <em>Liebe</em> falls on the first syllable, <em>LIE-be</em>. Opitz requires the beat to fall on that syllable.",
+   "prompt": "Where does the stress fall in <em>Arbeit</em>?",
+   "explain": "<em>Arbeit</em> is stressed on its first syllable, <em>AR-beit</em>, and the beat of the line must fall there.",
    "options": [
-    "On the second syllable",
     "On the first syllable",
+    "On the second syllable",
     "On neither syllable",
     "Only on a syllable that the line leaves unstressed"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.ii.de/meter-ex:m6",
@@ -111,15 +111,15 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the stress fall in <em>Gestalt</em>?",
-   "explain": "The stress of <em>Gestalt</em> falls on the second syllable, <em>Ge-STALT</em>. The beat has to fall there.",
+   "prompt": "Where does the stress fall in <em>Verstand</em>?",
+   "explain": "The prefix <em>ver-</em> is unstressed, so <em>Verstand</em> is stressed on its second syllable, <em>ver-STAND</em>.",
    "options": [
     "On the first syllable",
-    "On a syllable the word does not stress",
     "On the second syllable",
+    "On a syllable the word does not stress",
     "On both syllables at once"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.ii.de/meter-ex:m7",
@@ -255,15 +255,15 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the hymn label <em>87 87</em> record?",
-   "explain": "Hymnals name a meter by the syllable counts of the lines. <em>87 87</em> records those counts.",
+   "prompt": "What does the hymn label <em>76 76</em> record?",
+   "explain": "Hymnals name a meter by the syllable counts of the lines. <em>76 76</em> records lines of seven and six syllables in turn.",
    "options": [
-    "The stresses inside <em>Liebe</em> and <em>Gestalt</em>",
+    "The stresses inside <em>Arbeit</em> and <em>Verstand</em>",
     "A rhyme pattern of abab",
-    "The syllable counts of the lines",
-    "The number of beats in a ballad, which is four"
+    "The number of beats in a ballad, which is four",
+    "The syllable counts of the lines"
    ],
-   "answer": 2
+   "answer": 3
   },
   {
    "id": "lang.ii.de/meter-ex:m16",
@@ -271,15 +271,15 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "The dedication of <em>Faust</em> is rhymed, and the line of classical drama is unrhymed. What do the two lines share?",
-   "explain": "Both are iambic pentameter. The dedication rhymes, and the dramatic line does not.",
+   "prompt": "Lessing wrote <em>Nathan der Weise</em> in the unrhymed line of classical German drama. What line is it?",
+   "explain": "The line of classical German drama is unrhymed iambic pentameter, as in the English blank verse that it imitates.",
    "options": [
-    "A trochaic opening",
-    "A ballad filling of one or two unstressed syllables",
-    "The hymn counts eight and seven",
-    "Iambic pentameter"
+    "A trochaic line of four beats",
+    "A ballad line with one or two unstressed syllables",
+    "Iambic pentameter",
+    "The hymn line of eight and seven syllables"
    ],
-   "answer": 3
+   "answer": 2
   },
   {
    "id": "lang.ii.de/meter-ex:m17",

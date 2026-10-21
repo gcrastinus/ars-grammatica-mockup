@@ -79,11 +79,11 @@ ARS.exercises["lang.iv.en/composition-ex"] = {
    "deck": "lang.iv.en/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the plural of “passer-by.”",
-   "explain": "The head, “passer,” stands first and takes the plural.",
+   "prompt": "Write the plural of “commander-in-chief.”",
+   "explain": "The head, “commander,” stands first and takes the plural.",
    "accept": [
-    "passers-by",
-    "passers by"
+    "commanders-in-chief",
+    "commanders in chief"
    ]
   },
   {
@@ -92,10 +92,10 @@ ARS.exercises["lang.iv.en/composition-ex"] = {
    "deck": "lang.iv.en/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the plural of “handful” in present usage.",
+   "prompt": "Write the plural of “mouthful” in present usage.",
    "explain": "Compounds in “-ful” take the plural at the end.",
    "accept": [
-    "handfuls"
+    "mouthfuls"
    ]
   },
   {
