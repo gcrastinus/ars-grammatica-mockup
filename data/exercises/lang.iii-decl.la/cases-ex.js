@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Case",
+ "title": "Inflection and Case",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -296,6 +296,198 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
     "Vocative"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc9",
+   "set": "A",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em><b>Puer</b> currit.</em>",
+   "explain": "<em>Puer</em> is a noun, which changes its ending for case and number (<em>puer, puerī, puerō</em>), so it is declinable.",
+   "options": [
+    "Declinable: a noun",
+    "Declinable: a verb",
+    "Indeclinable: an adverb",
+    "Declinable: a pronoun"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc17",
+   "set": "A",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Puer <b>currit</b>.</em>",
+   "explain": "<em>Currit</em> is a verb, which changes its ending for person, number, tense, mood, and voice (<em>currō, currit, currēbat</em>), so it is declinable in Donatus’s sense, that is, it is inflected.",
+   "options": [
+    "Declinable: a noun",
+    "Declinable: a verb",
+    "Indeclinable: an adverb",
+    "Declinable: a participle"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc31",
+   "set": "A",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Rēx <b>bene</b> regnat.</em>",
+   "explain": "<em>Bene</em> (“well”) is an adverb and keeps one form, so it is indeclinable. The adjective would be <em>bonus</em>.",
+   "options": [
+    "Declinable: an adjective",
+    "Indeclinable: an adverb",
+    "Indeclinable: a conjunction",
+    "Indeclinable: a preposition"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc35",
+   "set": "A",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Mīles <b>in</b> castra venit.</em>",
+   "explain": "<em>In</em> is a preposition; it governs the accusative <em>castra</em> but does not itself change, so it is indeclinable.",
+   "options": [
+    "Indeclinable: a conjunction",
+    "Indeclinable: a preposition",
+    "Indeclinable: an adverb",
+    "Declinable: a noun"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc26",
+   "set": "B",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Avis <b>parva</b> volat.</em>",
+   "explain": "<em>Parva</em> is an adjective agreeing with <em>avis</em>; it changes for gender, number, and case (<em>parvus, parva, parvum</em>), so it is declinable.",
+   "options": [
+    "Declinable: a noun",
+    "Declinable: an adjective",
+    "Declinable: a participle",
+    "Indeclinable: an adverb"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc27",
+   "set": "B",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em><b>Ego</b> sum.</em>",
+   "explain": "<em>Ego</em> is a pronoun with the cases <em>meī, mihi, mē</em>, so it is declinable.",
+   "options": [
+    "Declinable: a noun",
+    "Indeclinable: an adverb",
+    "Declinable: a pronoun",
+    "Indeclinable: an interjection"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc38",
+   "set": "B",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Puer <b>et</b> puella cantant.</em>",
+   "explain": "<em>Et</em> joins the two subjects; it is a conjunction and keeps one form.",
+   "options": [
+    "Indeclinable: a preposition",
+    "Indeclinable: an adverb",
+    "Indeclinable: a conjunction",
+    "Declinable: a pronoun"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc41",
+   "set": "B",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em><b>Heu</b>, puer cadit.</em>",
+   "explain": "<em>Heu</em> (“alas”) expresses a feeling of the mind; it is an interjection and keeps one form.",
+   "options": [
+    "Indeclinable: an adverb",
+    "Indeclinable: a conjunction",
+    "Indeclinable: an interjection",
+    "Declinable: a noun"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc43",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Puella <b>cantāns</b> venit.</em>",
+   "explain": "<em>Cantāns</em> (“singing”) is a participle: it is formed from a verb and declined as an adjective (<em>cantantis, cantantī</em>), agreeing with <em>puella</em>.",
+   "options": [
+    "Declinable: a participle",
+    "Declinable: an adjective",
+    "Declinable: a verb",
+    "Indeclinable: an adverb"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc39",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Rēx regnat, <b>sed</b> populus tacet.</em>",
+   "explain": "<em>Sed</em> (“but”) joins the two clauses; it is a conjunction and indeclinable.",
+   "options": [
+    "Indeclinable: an adverb",
+    "Indeclinable: a conjunction",
+    "Indeclinable: a preposition",
+    "Declinable: a pronoun"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc32",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Puer <b>cito</b> currit.</em>",
+   "explain": "<em>Cito</em> (“quickly”) tells how the boy runs; it is an adverb and keeps one form.",
+   "options": [
+    "Indeclinable: an adverb",
+    "Declinable: an adjective",
+    "Declinable: a participle",
+    "Indeclinable: a preposition"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:dc37",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em>Rēx <b>cum</b> mīlitibus venit.</em>",
+   "explain": "<em>Cum</em> here governs the ablative <em>mīlitibus</em>, so it is a preposition and indeclinable. As a conjunction, “when,” it would introduce a clause.",
+   "options": [
+    "Indeclinable: a conjunction",
+    "Indeclinable: an adverb",
+    "Declinable: a pronoun",
+    "Indeclinable: a preposition"
+   ],
+   "answer": 3
   }
  ]
 };

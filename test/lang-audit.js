@@ -160,7 +160,8 @@ Object.keys(exercises).filter(id => id.indexOf('lang.') === 0).sort().forEach(id
   if (items.length < 20 && !ex.small) fail(`${id}: ${items.length} items (under 20)`);
   const seen = {};
   items.forEach(x => {
-    const k = norm(x.prompt) + '|' + (x.passage ? norm(x.passage).slice(0, 60) : '') + '|' + (x.tokens ? norm(x.tokens.join(' ')) : '') +
+    const marks = (String(x.prompt || '').match(/<b>[^<]*<\/b>/g) || []).join(' ');
+    const k = norm(x.prompt) + '|' + norm(marks) + '|' + (x.passage ? norm(x.passage).slice(0, 60) : '') + '|' + (x.tokens ? norm(x.tokens.join(' ')) : '') +
       '|' + (x.entries ? norm(x.entries.join(' ')) : '');
     if (seen[k]) row.dupes.push(seen[k] + ' = ' + x.id); else seen[k] = x.id;
   });
