@@ -29,11 +29,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the adverb formed from <em>līber</em> (“free”).",
-   "explain": "<em>Līber</em> keeps its <em>e</em>: <em>līberē</em>.",
+   "prompt": "Write the adverb formed from <em>miser</em> (“wretched”).",
+   "explain": "An adjective of the first and second declensions takes <em>-ē</em>; <em>miser</em> keeps its <em>e</em>: <em>miserē</em>.",
    "accept": [
-    "līberē",
-    "libere"
+    "miserē",
+    "misere"
    ],
    "macrons": false
   },
@@ -43,11 +43,10 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the adverb formed from <em>ācer</em> (“sharp”).",
-   "explain": "Third declension adjectives take <em>-iter</em> on the stem <em>ācr-</em>.",
+   "prompt": "Write the adverb formed from <em>celer</em> (“swift”).",
+   "explain": "An adjective of the third declension takes <em>-iter</em>: <em>celeriter</em>.",
    "accept": [
-    "ācriter",
-    "acriter"
+    "celeriter"
    ],
    "macrons": false
   },
@@ -84,10 +83,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the adverb formed from <em>malus</em> (“bad”).",
-   "explain": "<em>Malus</em> gives the irregular <em>male</em>.",
+   "prompt": "Write the adverb formed from <em>altus</em> (“high, deep”).",
+   "explain": "An adjective of the first and second declensions takes <em>-ē</em>: <em>altē</em>.",
    "accept": [
-    "male"
+    "altē",
+    "alte"
    ],
    "macrons": false
   },
@@ -113,13 +113,13 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <em>nōnne vidēs?</em> expect as its answer?",
-   "explain": "<em>Nōnne</em> expects “yes.”",
+   "prompt": "What does <em>nōnne audīs?</em> expect as its answer?",
+   "explain": "<em>Nōnne</em> expects the answer “yes”: “you hear, do you not?”",
    "options": [
     "“No”",
-    "Either",
+    "Either answer",
     "“Yes”",
-    "A number"
+    "No answer: it is a command"
    ],
    "answer": 2
   },
@@ -129,10 +129,10 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the comparative of the adverb <em>fortiter</em>.",
-   "explain": "The comparative adverb is the neuter of the comparative adjective.",
+   "prompt": "Write the comparative of the adverb <em>lentē</em>.",
+   "explain": "The comparative of an adverb is the neuter accusative of the comparative adjective: <em>lentius</em>.",
    "accept": [
-    "fortius"
+    "lentius"
    ],
    "macrons": false
   },
@@ -142,11 +142,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the superlative of the adverb <em>fortiter</em>.",
-   "explain": "The superlative ends in <em>-issimē</em>.",
+   "prompt": "Write the superlative of the adverb <em>pulchrē</em>.",
+   "explain": "<em>Pulcher</em> has the superlative <em>pulcherrimus</em>, so the adverb is <em>pulcherrimē</em>.",
    "accept": [
-    "fortissimē",
-    "fortissime"
+    "pulcherrimē",
+    "pulcherrime"
    ],
    "macrons": false
   },
@@ -156,10 +156,10 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the comparative of the adverb <em>male</em>.",
-   "explain": "<em>Male, peius, pessimē</em>.",
+   "prompt": "Write the comparative of the adverb <em>saepe</em>.",
+   "explain": "The comparative of an adverb ends in <em>-ius</em>: <em>saepius</em>.",
    "accept": [
-    "peius"
+    "saepius"
    ],
    "macrons": false
   },
@@ -169,11 +169,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the superlative of the adverb <em>facile</em>.",
-   "explain": "<em>Facilis</em> has <em>facillimus</em>, so the adverb is <em>facillimē</em>.",
+   "prompt": "Write the superlative of the adverb <em>līberē</em>.",
+   "explain": "An adjective in <em>-er</em> has the superlative in <em>-errimus</em>, so the adverb is <em>līberrimē</em>.",
    "accept": [
-    "facillimē",
-    "facillime"
+    "līberrimē",
+    "liberrime"
    ],
    "macrons": false
   },
@@ -234,10 +234,10 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "prompt": "Which sentence places <em>autem</em> correctly?",
    "explain": "<em>Autem</em> stands in the second place of its clause.",
    "options": [
-    "<em>Autem ego maneō.</em>",
-    "<em>Ego autem maneō.</em>",
-    "<em>Ego maneō autem nunc.</em>",
-    "<em>Ego maneō, autem.</em>"
+    "<em>Autem pater tacuit.</em>",
+    "<em>Pater autem tacuit.</em>",
+    "<em>Pater tacuit autem.</em>",
+    "<em>Pater tacuit, autem.</em>"
    ],
    "answer": 1
   },
@@ -247,11 +247,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the superlative of the adverb <em>multum</em>.",
-   "explain": "<em>Multum, plūs, plūrimum</em>.",
+   "prompt": "Write the superlative of the adverb <em>diū</em>.",
+   "explain": "<em>Diū</em>, <em>diūtius</em>, <em>diūtissimē</em>: the superlative ends in <em>-issimē</em>.",
    "accept": [
-    "plūrimum",
-    "plurimum"
+    "diūtissimē",
+    "diutissime"
    ],
    "macrons": false
   },
@@ -261,10 +261,11 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the comparative of the adverb <em>magnopere</em>.",
-   "explain": "<em>Magnopere, magis, maximē</em>.",
+   "prompt": "Write the comparative of the adverb <em>prūdenter</em>.",
+   "explain": "The comparative of the adverb is the neuter of the comparative adjective: <em>prūdentius</em>.",
    "accept": [
-    "magis"
+    "prūdentius",
+    "prudentius"
    ],
    "macrons": false
   },
@@ -290,8 +291,8 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>ō mē miserum!</em>, what case is <em>mē</em>?",
-   "explain": "With an exclamation, <em>ō</em> may take the accusative.",
+   "prompt": "In <em>ō fallācem hominum spem!</em> (Cicero, <em>De oratore</em> III.7), what case is <em>spem</em>?",
+   "explain": "With an exclamation, <em>ō</em> may take the accusative: “oh, the deceitful hope of men!”",
    "options": [
     "Accusative of exclamation",
     "Vocative, the case of address",
@@ -322,13 +323,13 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "deck": "lang.iii-indecl.la/adverbs-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>subitō</em>?",
-   "explain": "<em>Subitō</em> (“suddenly”) is an adverb in the form of an old ablative.",
+   "prompt": "What is <em>rārō</em> (“seldom”)?",
+   "explain": "<em>Rārō</em> is an old ablative of <em>rārus</em> used as an adverb.",
    "options": [
-    "An ablative noun meaning “sudden thing”",
-    "A participle",
+    "A verb in the first person",
+    "A noun in the dative",
     "An adverb, an old case form",
-    "A conjunction"
+    "An adjective, masculine"
    ],
    "answer": 2
   },

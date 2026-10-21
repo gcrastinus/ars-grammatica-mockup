@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>quā dē causā</em> (“for which reason”), where does the preposition stand?",
-   "explain": "A preposition often stands between an adjective (here the relative) and its noun.",
+   "prompt": "In <em>magnā cum cūrā</em> (“with great care”), where does the preposition stand?",
+   "explain": "A preposition often stands between an adjective and its noun, as <em>cum</em> does here.",
    "options": [
     "After the noun",
-    "Before the relative",
+    "Before the adjective",
     "At the end of the sentence",
-    "Between the relative and the noun"
+    "Between the adjective and the noun"
    ],
    "answer": 3
   }

@@ -85,10 +85,10 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the comparative, masculine nominative singular, of <em>bonus</em>.",
-   "explain": "<em>Bonus</em> is irregular: <em>melior</em>, <em>optimus</em>.",
+   "prompt": "Write the comparative, masculine nominative singular, of <em>longus</em>.",
+   "explain": "The comparative adds <em>-ior</em> to the stem: <em>longior</em>.",
    "accept": [
-    "melior"
+    "longior"
    ],
    "macrons": false
   },
@@ -114,10 +114,10 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Latin cardinal number “seven.”",
-   "explain": "<em>Septem</em> is indeclinable.",
+   "prompt": "Write the Latin cardinal number “twelve.”",
+   "explain": "Twelve is <em>duodecim</em>, “two and ten,” and like the other cardinals from four to a hundred it is not declined.",
    "accept": [
-    "septem"
+    "duodecim"
    ],
    "macrons": false
   },
@@ -180,10 +180,11 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the superlative, masculine nominative singular, of <em>magnus</em>.",
-   "explain": "<em>Magnus</em> is irregular: <em>maior</em>, <em>maximus</em>.",
+   "prompt": "Write the superlative, masculine nominative singular, of <em>dūrus</em> (“hard”).",
+   "explain": "The superlative adds <em>-issimus</em> to the stem: <em>dūrissimus</em>.",
    "accept": [
-    "maximus"
+    "dūrissimus",
+    "durissimus"
    ],
    "macrons": false
   },
@@ -225,10 +226,10 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Latin ordinal number “third,” masculine nominative singular.",
-   "explain": "The ordinals are adjectives like <em>bonus</em>: <em>prīmus, secundus, tertius</em>.",
+   "prompt": "Write the Latin ordinal number “twelfth,” masculine nominative singular.",
+   "explain": "The ordinal is an adjective declined like <em>bonus</em>: <em>duodecimus</em>.",
    "accept": [
-    "tertius"
+    "duodecimus"
    ],
    "macrons": false
   },
@@ -238,11 +239,11 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive of <em>duo</em>, masculine.",
-   "explain": "<em>Duo</em> has the genitive <em>duōrum, duārum, duōrum</em>.",
+   "prompt": "Write the ablative of <em>ūnus</em>, feminine.",
+   "explain": "<em>Ūnus</em> is declined like <em>sōlus</em>, with the regular ablative: <em>ūnā</em>.",
    "accept": [
-    "duōrum",
-    "duorum"
+    "ūnā",
+    "una"
    ],
    "macrons": false
   },
@@ -252,11 +253,11 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative of <em>duo</em>, feminine.",
-   "explain": "The dative and ablative of <em>duo</em> are <em>duōbus, duābus, duōbus</em>.",
+   "prompt": "Write the dative of <em>ūnus</em>, masculine.",
+   "explain": "<em>Ūnus</em> has the dative singular in <em>-ī</em> in all three genders: <em>ūnī</em>.",
    "accept": [
-    "duābus",
-    "duabus"
+    "ūnī",
+    "uni"
    ],
    "macrons": false
   },
@@ -282,13 +283,13 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the comparative of <em>parvus</em>?",
-   "explain": "<em>Parvus</em> is irregular: <em>minor</em>, <em>minimus</em>.",
+   "prompt": "Which adjective forms its superlative in -errimus?",
+   "explain": "An adjective in <em>-er</em> forms the superlative in <em>-errimus</em>: <em>miser, miserrimus</em>.",
    "options": [
-    "<em>minor</em>",
-    "<em>parvior</em>",
-    "<em>minimus</em>",
-    "<em>peior</em>"
+    "<em>miser</em>",
+    "<em>lātus</em>",
+    "<em>fortis</em>",
+    "<em>similis</em>"
    ],
    "answer": 0
   },
@@ -314,10 +315,10 @@ ARS.exercises["lang.iii-decl.la/adjectives-ex"] = {
    "deck": "lang.iii-decl.la/adjectives-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the superlative, masculine nominative singular, of <em>facilis</em>.",
-   "explain": "<em>Facilis</em> takes <em>-limus</em>: <em>facillimus</em>.",
+   "prompt": "Write the superlative, masculine nominative singular, of <em>humilis</em> (“low”).",
+   "explain": "<em>Humilis</em> is one of the six adjectives in <em>-lis</em> with the superlative in <em>-limus</em>: <em>humillimus</em>.",
    "accept": [
-    "facillimus"
+    "humillimus"
    ],
    "macrons": false
   },

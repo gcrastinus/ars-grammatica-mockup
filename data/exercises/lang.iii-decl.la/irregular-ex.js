@@ -15,10 +15,10 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person plural present of <em>sum</em>.",
-   "explain": "The present of <em>sum</em> is <em>sum, es, est, sumus, estis, sunt</em>.",
+   "prompt": "Write the first person plural present of <em>absum</em>.",
+   "explain": "<em>Absum</em> (“to be away”) is <em>ab</em> joined to <em>sum</em>, and it is conjugated like <em>sum</em>: <em>absumus</em>.",
    "accept": [
-    "sumus"
+    "absumus"
    ],
    "macrons": false
   },
@@ -28,10 +28,10 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular future of <em>sum</em>.",
-   "explain": "The future of <em>sum</em> is <em>erō, eris, erit</em>.",
+   "prompt": "Write the third person singular future of <em>adsum</em>.",
+   "explain": "<em>Adsum</em> (“to be present”) takes the forms of <em>sum</em>: future <em>aderit</em>.",
    "accept": [
-    "erit"
+    "aderit"
    ],
    "macrons": false
   },
@@ -41,11 +41,13 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person singular perfect of <em>sum</em>.",
-   "explain": "The perfect of <em>sum</em> is built on <em>fu-</em>: <em>fuī</em>.",
+   "prompt": "Write the first person singular perfect of <em>absum</em>.",
+   "explain": "The perfect of <em>absum</em> is built on <em>fu-</em>, as the perfect of <em>sum</em> is: <em>āfuī</em> (also written <em>abfuī</em>).",
    "accept": [
-    "fuī",
-    "fui"
+    "āfuī",
+    "afui",
+    "abfuī",
+    "abfui"
    ],
    "macrons": false
   },
@@ -68,10 +70,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present infinitive of <em>possum</em>.",
-   "explain": "The infinitive of <em>possum</em> is <em>posse</em>.",
+   "prompt": "Write the present infinitive of <em>prōsum</em>.",
+   "explain": "<em>Prōsum</em> (“to be useful”) keeps a <em>d</em> before a vowel: <em>prōdesse</em>, <em>prōdest</em>.",
    "accept": [
-    "posse"
+    "prōdesse",
+    "prodesse"
    ],
    "macrons": false
   },
@@ -81,13 +84,13 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>sint</em>?",
-   "explain": "<em>Sim, sīs, sit, sīmus, sītis, sint</em> is the present subjunctive. The indicative is <em>sunt</em>, the future <em>erunt</em>, and the imperfect subjunctive <em>essent</em>.",
+   "prompt": "What is <em>absint</em>?",
+   "explain": "<em>Absint</em> has the forms of <em>sint</em>, the present subjunctive of <em>sum</em>, third person plural.",
    "options": [
-    "Present indicative, third person plural, of <em>sum</em>",
-    "Future, third person plural, of <em>sum</em>",
-    "Imperfect subjunctive, third person plural, of <em>sum</em>",
-    "Present subjunctive, third person plural, of <em>sum</em>"
+    "Present indicative of <em>absum</em>",
+    "Imperfect subjunctive of <em>absum</em>",
+    "Future indicative of <em>absum</em>",
+    "Present subjunctive of <em>absum</em>"
    ],
    "answer": 3
   },
@@ -97,10 +100,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present active of <em>ferō</em>.",
-   "explain": "<em>Ferō</em> leaves out the connecting vowel: <em>fert</em>.",
+   "prompt": "Write the third person singular present active of <em>īnferō</em>.",
+   "explain": "<em>Īnferō</em> is conjugated like <em>ferō</em> and leaves out the connecting vowel: <em>īnfert</em>.",
    "accept": [
-    "fert"
+    "īnfert",
+    "infert"
    ],
    "macrons": false
   },
@@ -110,11 +114,10 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the second person singular present of <em>volō</em>.",
-   "explain": "<em>Volō, vīs, vult</em>.",
+   "prompt": "Write the third person plural present subjunctive of <em>volō</em>.",
+   "explain": "The present subjunctive of <em>volō</em> is built on <em>vel-</em>: <em>velim, velīs, velit, velīmus, velītis, velint</em>.",
    "accept": [
-    "vīs",
-    "vis"
+    "velint"
    ],
    "macrons": false
   },
@@ -124,10 +127,10 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person plural present of <em>eō</em>.",
-   "explain": "The stem <em>ī-</em> becomes <em>e-</em> before a vowel: <em>eunt</em>.",
+   "prompt": "Write the third person plural present of <em>redeō</em>.",
+   "explain": "<em>Redeō</em> is conjugated like <em>eō</em>; the stem becomes <em>e-</em> before a vowel: <em>redeunt</em>.",
    "accept": [
-    "eunt"
+    "redeunt"
    ],
    "macrons": false
   },
@@ -137,11 +140,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person plural present of <em>eō</em>.",
-   "explain": "<em>Eō, īs, it, īmus, ītis, eunt</em>.",
+   "prompt": "Write the first person plural present of <em>exeō</em>.",
+   "explain": "<em>Exeō</em> is conjugated like <em>eō</em>: <em>exīmus</em>.",
    "accept": [
-    "īmus",
-    "imus"
+    "exīmus",
+    "eximus"
    ],
    "macrons": false
   },
@@ -165,11 +168,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the plural imperative of <em>nōlō</em>.",
-   "explain": "The imperative of <em>nōlō</em> is <em>nōlī</em> (singular) and <em>nōlīte</em> (plural).",
+   "prompt": "Write the first person plural present subjunctive of <em>nōlō</em>.",
+   "explain": "The present subjunctive of <em>nōlō</em> is <em>nōlim, nōlīs, nōlit, nōlīmus</em>.",
    "accept": [
-    "nōlīte",
-    "nolite"
+    "nōlīmus",
+    "nolimus"
    ],
    "macrons": false
   },
@@ -179,11 +182,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person plural present of <em>mālō</em>.",
-   "explain": "<em>Mālō</em> follows <em>volō</em>: <em>volunt</em>, <em>mālunt</em>.",
+   "prompt": "Write the third person singular imperfect subjunctive of <em>mālō</em>.",
+   "explain": "The imperfect subjunctive of <em>mālō</em> is built on the infinitive <em>mālle</em>: <em>māllet</em>.",
    "accept": [
-    "mālunt",
-    "malunt"
+    "māllet",
+    "mallet"
    ],
    "macrons": false
   },
@@ -193,13 +196,13 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>vellem</em>?",
-   "explain": "The imperfect subjunctive of <em>volō</em> is <em>vellem</em>, from the infinitive <em>velle</em>. The present subjunctive is <em>velim</em>.",
+   "prompt": "What is <em>vellet</em>?",
+   "explain": "The imperfect subjunctive of <em>volō</em> is built on <em>velle</em>: <em>vellem, vellēs, vellet</em>.",
    "options": [
     "Present subjunctive of <em>volō</em>",
-    "Pluperfect subjunctive of <em>volō</em>",
+    "Imperfect indicative of <em>volō</em>",
     "Imperfect subjunctive of <em>volō</em>",
-    "Imperfect indicative of <em>volō</em>"
+    "Pluperfect subjunctive of <em>volō</em>"
    ],
    "answer": 2
   },
@@ -209,11 +212,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present passive infinitive of <em>ferō</em>.",
-   "explain": "The active infinitive is <em>ferre</em>, the passive <em>ferrī</em>.",
+   "prompt": "Write the present passive infinitive of <em>afferō</em>.",
+   "explain": "<em>Afferō</em> is conjugated like <em>ferō</em>, whose passive infinitive is <em>ferrī</em>: <em>afferrī</em>.",
    "accept": [
-    "ferrī",
-    "ferri"
+    "afferrī",
+    "afferri"
    ],
    "macrons": false
   },
@@ -223,13 +226,13 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What are the principal parts of <em>ferō</em>?",
-   "explain": "<em>Ferō</em> takes its perfect and its participle from other stems: <em>tulī</em>, <em>lātum</em>.",
+   "prompt": "What are the principal parts of <em>afferō</em>?",
+   "explain": "<em>Afferō</em> takes the parts of <em>ferō</em> (<em>ferre, tulī, lātum</em>), with <em>ad-</em> assimilated: <em>attulī, allātum</em>.",
    "options": [
-    "<em>ferō, ferre, tulī, lātum</em>",
-    "<em>ferō, ferere, ferī, fertum</em>",
-    "<em>ferō, ferre, fērī, fēctum</em>",
-    "<em>ferō, ferre, tulī, tultum</em>"
+    "<em>afferō, afferre, attulī, allātum</em>",
+    "<em>afferō, afferere, afferī, afferitum</em>",
+    "<em>afferō, afferre, affēcī, affectum</em>",
+    "<em>afferō, affīre, affīvī, affītum</em>"
    ],
    "answer": 0
   },
@@ -239,10 +242,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present of <em>fīō</em>.",
-   "explain": "<em>Fīō, fīs, fit</em>; the <em>i</em> of <em>fit</em> is short.",
+   "prompt": "Write the third person plural imperfect of <em>fīō</em>.",
+   "explain": "The imperfect of <em>fīō</em> is <em>fīēbam</em>, and the third person plural is <em>fīēbant</em>.",
    "accept": [
-    "fit"
+    "fīēbant",
+    "fiebant"
    ],
    "macrons": false
   },
@@ -282,10 +286,10 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive singular of the present participle of <em>eō</em>.",
-   "explain": "<em>Iēns, euntis</em>: before a vowel the stem is <em>e-</em>.",
+   "prompt": "Write the genitive singular of the present participle of <em>redeō</em>.",
+   "explain": "The present participle of <em>eō</em> is <em>iēns, euntis</em>, and its compounds follow it: <em>rediēns, redeuntis</em>.",
    "accept": [
-    "euntis"
+    "redeuntis"
    ],
    "macrons": false
   },
@@ -311,13 +315,13 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which compound of <em>eō</em> has a full passive?",
-   "explain": "A compound of <em>eō</em> with a transitive sense, such as <em>trānseō</em> (“to cross [a river]”), has a full passive: <em>flūmen trānsītur</em>. The others are intransitive.",
+   "prompt": "Why does <em>eō</em> itself have only an impersonal passive?",
+   "explain": "A verb without a direct object has only an impersonal passive, as <em>ītur</em>, “one goes.”",
    "options": [
-    "<em>exeō</em>, “to go out”",
-    "<em>redeō</em>, “to come back”",
-    "<em>pereō</em>, “to perish”",
-    "<em>trānseō</em>, “to cross”"
+    "Because it is a deponent",
+    "Because its stem is irregular",
+    "Because it has no perfect",
+    "Because it is intransitive"
    ],
    "answer": 3
   },
@@ -327,13 +331,11 @@ ARS.exercises["lang.iii-decl.la/irregular-ex"] = {
    "deck": "lang.iii-decl.la/irregular-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present of <em>nōlō</em>.",
-   "explain": "The singular forms of <em>nōlō</em> other than the first person are written with <em>nōn</em>: <em>nōn vīs, nōn vult</em>.",
+   "prompt": "Write the third person plural imperfect subjunctive of <em>nōlō</em>.",
+   "explain": "The imperfect subjunctive of <em>nōlō</em> is built on <em>nōlle</em>: <em>nōllent</em>.",
    "accept": [
-    "nōn vult",
-    "non vult",
-    "nōn volt",
-    "non volt"
+    "nōllent",
+    "nollent"
    ],
    "macrons": false
   },
