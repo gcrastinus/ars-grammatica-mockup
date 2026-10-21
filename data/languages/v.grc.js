@@ -94,7 +94,7 @@ ARS.languages["lang.v.grc"] = {
    "kind": "exercise",
    "built": true,
    "title": "Word Order and Dependence in Greek",
-   "desc": "22 questions.",
+   "desc": "31 questions, nine of them marking the dependences.",
    "exFor": "lang.v.grc/order"
   }
  ]

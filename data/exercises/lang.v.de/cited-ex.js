@@ -6,7 +6,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
  "status": "written",
  "section": "V",
  "title": "Word Order and Dependence in German",
- "instr": "Choose the answer.",
+ "instr": "Choose the answer. In a marking question, click the word that depends, then the word on which it depends, and press Check when every dependence is marked.",
  "openedFrom": "",
  "items": [
   {
@@ -327,6 +327,381 @@ ARS.exercises["lang.v.de/cited-ex"] = {
     "on no word"
    ],
    "answer": 1
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk1",
+   "set": "A",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Der alte Mann liest ein Buch.</i> (“The old man reads a book.”)",
+   "tokens": [
+    "<i>Der</i>",
+    "<i>alte</i>",
+    "<i>Mann</i>",
+    "<i>liest</i>",
+    "<i>ein</i>",
+    "<i>Buch.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "explain": "The main verb is <i>liest</i>; it depends on its subject <i>Mann</i> and on its object <i>Buch</i>. The words <i>Der</i> and <i>alte</i> depend on <i>Mann</i>, and <i>ein</i> depends on <i>Buch</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk2",
+   "set": "A",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Die Kinder spielen auf der Wiese.</i> (“The children play in the meadow.”)",
+   "tokens": [
+    "<i>Die</i>",
+    "<i>Kinder</i>",
+    "<i>spielen</i>",
+    "<i>auf</i>",
+    "<i>der</i>",
+    "<i>Wiese.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   "explain": "The verb <i>spielen</i> depends on its subject <i>Kinder</i>. The preposition <i>auf</i> depends on <i>spielen</i>; <i>Wiese</i> depends on <i>auf</i>, and <i>der</i> on <i>Wiese</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk3",
+   "set": "A",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Hans und Grete suchen den Weg.</i> (“Hansel and Gretel look for the way.”)",
+   "tokens": [
+    "<i>Hans</i>",
+    "<i>und</i>",
+    "<i>Grete</i>",
+    "<i>suchen</i>",
+    "<i>den</i>",
+    "<i>Weg.</i>"
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "explain": "The conjunction <i>und</i> depends on both words it joins, <i>Hans</i> and <i>Grete</i>. The verb <i>suchen</i> depends on each subject and on its object <i>Weg</i>; <i>den</i> depends on <i>Weg</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk4",
+   "set": "B",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Der fleißige Schüler schreibt einen langen Brief.</i> (“The diligent pupil writes a long letter.”)",
+   "tokens": [
+    "<i>Der</i>",
+    "<i>fleißige</i>",
+    "<i>Schüler</i>",
+    "<i>schreibt</i>",
+    "<i>einen</i>",
+    "<i>langen</i>",
+    "<i>Brief.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "explain": "The main verb is <i>schreibt</i>; it depends on its subject <i>Schüler</i> and on its object <i>Brief</i>. The words <i>Der</i> and <i>fleißige</i> depend on <i>Schüler</i>; <i>einen</i> and <i>langen</i> depend on <i>Brief</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk5",
+   "set": "B",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Mein Onkel, ein Bäcker, verkauft frisches Brot.</i> (“My uncle, a baker, sells fresh bread.”)",
+   "tokens": [
+    "<i>Mein</i>",
+    "<i>Onkel,</i>",
+    "<i>ein</i>",
+    "<i>Bäcker,</i>",
+    "<i>verkauft</i>",
+    "<i>frisches</i>",
+    "<i>Brot.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "explain": "The possessive <i>Mein</i> depends on <i>Onkel</i>. The noun <i>Bäcker</i> is in apposition to <i>Onkel</i> and depends on it, and <i>ein</i> depends on <i>Bäcker</i>. The verb <i>verkauft</i> depends on its subject <i>Onkel</i> and on its object <i>Brot</i>; <i>frisches</i> depends on <i>Brot</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk6",
+   "set": "B",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Der kalte Wind weht stark über das Land.</i> (“The cold wind blows hard over the land.”)",
+   "tokens": [
+    "<i>Der</i>",
+    "<i>kalte</i>",
+    "<i>Wind</i>",
+    "<i>weht</i>",
+    "<i>stark</i>",
+    "<i>über</i>",
+    "<i>das</i>",
+    "<i>Land.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     5
+    ]
+   ],
+   "explain": "The verb <i>weht</i> depends on its subject <i>Wind</i>. The adverb <i>stark</i> and the preposition <i>über</i> depend on the verb; <i>Land</i> depends on <i>über</i>, and <i>das</i> on <i>Land</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk7",
+   "set": "C",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Die Vögel wollen singen.</i> (“The birds want to sing.”)",
+   "tokens": [
+    "<i>Die</i>",
+    "<i>Vögel</i>",
+    "<i>wollen</i>",
+    "<i>singen.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "explain": "The verb <i>wollen</i> depends on its subject <i>Vögel</i>. The infinitive <i>singen</i> completes the verb and is marked as its object, so <i>wollen</i> depends on <i>singen</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk8",
+   "set": "C",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Der Hund, den ich sehe, bellt laut.</i> (“The dog that I see barks loudly.”)",
+   "tokens": [
+    "<i>Der</i>",
+    "<i>Hund,</i>",
+    "<i>den</i>",
+    "<i>ich</i>",
+    "<i>sehe,</i>",
+    "<i>bellt</i>",
+    "<i>laut.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "explain": "The relative <i>den</i> depends on its antecedent <i>Hund</i>. Within its clause, <i>sehe</i> depends on its subject <i>ich</i> and on its object <i>den</i>. The main verb <i>bellt</i> depends on <i>Hund</i>, and the adverb <i>laut</i> depends on <i>bellt</i>."
+  },
+  {
+   "id": "lang.v.de/cited-ex:mk9",
+   "set": "C",
+   "deck": "lang.v.de/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Die Mutter kauft Äpfel auf dem Markt.</i> (“The mother buys apples at the market.”)",
+   "tokens": [
+    "<i>Die</i>",
+    "<i>Mutter</i>",
+    "<i>kauft</i>",
+    "<i>Äpfel</i>",
+    "<i>auf</i>",
+    "<i>dem</i>",
+    "<i>Markt.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "explain": "The main verb is <i>kauft</i>; it depends on its subject <i>Mutter</i> and on its object <i>Äpfel</i>. The preposition <i>auf</i> depends on <i>kauft</i>; <i>Markt</i> depends on <i>auf</i>, and <i>dem</i> on <i>Markt</i>."
   }
  ]
 };

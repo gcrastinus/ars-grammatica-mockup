@@ -94,7 +94,7 @@ ARS.languages["lang.v.de"] = {
    "kind": "exercise",
    "built": true,
    "title": "Word Order and Dependence in German",
-   "desc": "20 questions.",
+   "desc": "29 questions, nine of them marking the dependences.",
    "exFor": "lang.v.de/order"
   }
  ]

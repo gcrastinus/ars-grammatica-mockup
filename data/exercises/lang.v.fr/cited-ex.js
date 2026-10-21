@@ -6,7 +6,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
  "status": "written",
  "section": "V",
  "title": "Word Order, Negation, and Dependence in French",
- "instr": "Choose the answer.",
+ "instr": "Choose the answer. In a marking question, click the word that depends, then the word on which it depends, and press Check when every dependence is marked.",
  "openedFrom": "",
  "items": [
   {
@@ -344,6 +344,401 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
     "<i>enfants</i>"
    ],
    "answer": 3
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk1",
+   "set": "A",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Le petit chat dort sur le lit.</i> (“The little cat sleeps on the bed.”)",
+   "tokens": [
+    "<i>Le</i>",
+    "<i>petit</i>",
+    "<i>chat</i>",
+    "<i>dort</i>",
+    "<i>sur</i>",
+    "<i>le</i>",
+    "<i>lit.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "explain": "The verb <i>dort</i> depends on its subject <i>chat</i>, and <i>Le</i> and <i>petit</i> depend on <i>chat</i>. The preposition <i>sur</i> depends on <i>dort</i>; <i>lit</i> depends on <i>sur</i>, and <i>le</i> on <i>lit</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk2",
+   "set": "A",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Les enfants mangent des pommes rouges.</i> (“The children eat red apples.”)",
+   "tokens": [
+    "<i>Les</i>",
+    "<i>enfants</i>",
+    "<i>mangent</i>",
+    "<i>des</i>",
+    "<i>pommes</i>",
+    "<i>rouges.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "explain": "The main verb is <i>mangent</i>; it depends on its subject <i>enfants</i> and on its object <i>pommes</i>. The article <i>des</i> and the adjective <i>rouges</i> depend on <i>pommes</i>, wherever the adjective stands."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk3",
+   "set": "A",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Pierre et Marie cherchent la clé.</i> (“Peter and Mary look for the key.”)",
+   "tokens": [
+    "<i>Pierre</i>",
+    "<i>et</i>",
+    "<i>Marie</i>",
+    "<i>cherchent</i>",
+    "<i>la</i>",
+    "<i>clé.</i>"
+   ],
+   "analysis": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "explain": "The conjunction <i>et</i> depends on both words it joins, <i>Pierre</i> and <i>Marie</i>. The verb <i>cherchent</i> depends on each subject and on its object <i>clé</i>; <i>la</i> depends on <i>clé</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk4",
+   "set": "B",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Le vieux marin raconte une longue histoire.</i> (“The old sailor tells a long story.”)",
+   "tokens": [
+    "<i>Le</i>",
+    "<i>vieux</i>",
+    "<i>marin</i>",
+    "<i>raconte</i>",
+    "<i>une</i>",
+    "<i>longue</i>",
+    "<i>histoire.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "explain": "The main verb is <i>raconte</i>; it depends on its subject <i>marin</i> and on its object <i>histoire</i>. The words <i>Le</i> and <i>vieux</i> depend on <i>marin</i>; <i>une</i> and <i>longue</i> depend on <i>histoire</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk5",
+   "set": "B",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Mon frère, le médecin, habite à Paris.</i> (“My brother, the doctor, lives in Paris.”)",
+   "tokens": [
+    "<i>Mon</i>",
+    "<i>frère,</i>",
+    "<i>le</i>",
+    "<i>médecin,</i>",
+    "<i>habite</i>",
+    "<i>à</i>",
+    "<i>Paris.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "explain": "The possessive <i>Mon</i> depends on <i>frère</i>. The noun <i>médecin</i> is in apposition to <i>frère</i> and depends on it, and <i>le</i> depends on <i>médecin</i>. The verb <i>habite</i> depends on <i>frère</i>; <i>à</i> depends on <i>habite</i>, and <i>Paris</i> on <i>à</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk6",
+   "set": "B",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Le soleil brille doucement sur la mer.</i> (“The sun shines softly on the sea.”)",
+   "tokens": [
+    "<i>Le</i>",
+    "<i>soleil</i>",
+    "<i>brille</i>",
+    "<i>doucement</i>",
+    "<i>sur</i>",
+    "<i>la</i>",
+    "<i>mer.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "explain": "The verb <i>brille</i> depends on its subject <i>soleil</i>. The adverb <i>doucement</i> and the preposition <i>sur</i> depend on the verb; <i>mer</i> depends on <i>sur</i>, and <i>la</i> on <i>mer</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk7",
+   "set": "C",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Les élèves veulent chanter.</i> (“The pupils want to sing.”)",
+   "tokens": [
+    "<i>Les</i>",
+    "<i>élèves</i>",
+    "<i>veulent</i>",
+    "<i>chanter.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "explain": "The verb <i>veulent</i> depends on its subject <i>élèves</i>. The infinitive <i>chanter</i> completes the verb and is marked as its object, so <i>veulent</i> depends on <i>chanter</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk8",
+   "set": "C",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Le livre que je lis parle de la mer.</i> (“The book that I am reading speaks of the sea.”)",
+   "tokens": [
+    "<i>Le</i>",
+    "<i>livre</i>",
+    "<i>que</i>",
+    "<i>je</i>",
+    "<i>lis</i>",
+    "<i>parle</i>",
+    "<i>de</i>",
+    "<i>la</i>",
+    "<i>mer.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "explain": "The relative <i>que</i> depends on its antecedent <i>livre</i>. Within its clause, <i>lis</i> depends on its subject <i>je</i> and on its object <i>que</i>. The main verb <i>parle</i> depends on <i>livre</i>; <i>de</i> depends on <i>parle</i>, <i>mer</i> on <i>de</i>, and <i>la</i> on <i>mer</i>."
+  },
+  {
+   "id": "lang.v.fr/cited-ex:mk9",
+   "set": "C",
+   "deck": "lang.v.fr/cited-ex",
+   "section": "v",
+   "type": "mark",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i>Le soldat courageux défend la ville avec ses amis.</i> (“The brave soldier defends the town with his friends.”)",
+   "tokens": [
+    "<i>Le</i>",
+    "<i>soldat</i>",
+    "<i>courageux</i>",
+    "<i>défend</i>",
+    "<i>la</i>",
+    "<i>ville</i>",
+    "<i>avec</i>",
+    "<i>ses</i>",
+    "<i>amis.</i>"
+   ],
+   "analysis": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "explain": "The main verb is <i>défend</i>; it depends on its subject <i>soldat</i> and on its object <i>ville</i>. The adjective <i>courageux</i> depends on <i>soldat</i>, though it follows it. The preposition <i>avec</i> depends on <i>défend</i>; <i>amis</i> depends on <i>avec</i>, and the possessive <i>ses</i> on <i>amis</i>."
   }
  ]
 };

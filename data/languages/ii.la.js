@@ -5,7 +5,6 @@ ARS.languages["lang.ii.la"] = {
  "bar": "ii",
  "code": "la",
  "section": "ii",
- "more": true,
  "items": [
   {
    "id": "lang.ii.la/syllable",

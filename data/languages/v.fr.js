@@ -94,7 +94,7 @@ ARS.languages["lang.v.fr"] = {
    "kind": "exercise",
    "built": true,
    "title": "Word Order, Negation, and Dependence in French",
-   "desc": "21 questions.",
+   "desc": "30 questions, nine of them marking the dependences.",
    "exFor": "lang.v.fr/order"
   }
  ]
