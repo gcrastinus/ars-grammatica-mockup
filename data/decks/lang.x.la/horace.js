@@ -4,7 +4,7 @@ ARS.decks["lang.x.la/horace"] = {
  "id": "lang.x.la/horace",
  "title": "Horace, Integer vitae",
  "sub": "A model passage, with points of style and composition",
- "sources": "Dickinson College Commentaries; Allen and Greenough, <i>New Latin Grammar</i>; the translations of Virgil, Ovid, Ambrose, Lucretius, Catullus, and Venantius Fortunatus are the course’s own plain renderings, line by line",
+ "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries",
  "panels": [
   {
    "id": "text",

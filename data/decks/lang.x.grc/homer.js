@@ -4,7 +4,7 @@ ARS.decks["lang.x.grc/homer"] = {
  "id": "lang.x.grc/homer",
  "title": "Homer’s Iliad",
  "sub": "A model passage, with points of style and composition",
- "sources": "Smyth, <em>Greek Grammar</em>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
+ "sources": "Smyth, <em>Greek Grammar</em>; the translation is the course’s own plain rendering, line by line",
  "panels": [
   {
    "id": "text",

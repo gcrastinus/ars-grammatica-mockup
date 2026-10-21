@@ -4,7 +4,7 @@ ARS.decks["lang.x.fr/racine"] = {
  "id": "lang.x.fr/racine",
  "title": "Racine’s Phèdre",
  "sub": "A model passage, with points of style and composition",
- "sources": "Lawless; the translations of the verse, other than Mongan’s prose for Corneille, are the course’s own plain renderings, line by line",
+ "sources": "Lawless; the translation is the course’s own plain rendering, line by line",
  "panels": [
   {
    "id": "text",

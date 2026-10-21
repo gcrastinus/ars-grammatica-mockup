@@ -4,7 +4,7 @@ ARS.decks["lang.x.de/heine"] = {
  "id": "lang.x.de/heine",
  "title": "Heine’s Du bist wie eine Blume",
  "sub": "A model passage, with points of style and composition",
- "sources": "Duden; the translations are the course’s own plain renderings, line by line",
+ "sources": "Duden; the translation is the course’s own plain rendering, line by line",
  "panels": [
   {
    "id": "text",

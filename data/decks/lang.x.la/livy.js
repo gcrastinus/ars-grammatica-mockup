@@ -4,7 +4,7 @@ ARS.decks["lang.x.la/livy"] = {
  "id": "lang.x.la/livy",
  "title": "Livy’s Opening",
  "sub": "A model passage, with points of style and composition",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries; the rendering of Livy 5.47.4 is the course’s own",
+ "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries",
  "panels": [
   {
    "id": "text",

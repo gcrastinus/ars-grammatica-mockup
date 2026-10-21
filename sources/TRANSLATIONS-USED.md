@@ -370,3 +370,76 @@ The Latin is taken exactly from the Latin Library files in `sources/passages/`, 
 | Caesar, *De Bello Gallico* I.1.1–4 | ix.ex.passages, B5 | the course’s own, literal |
 | Livy, *Ab Urbe Condita*, Praef. 10–12 | ix.ex.passages, C4 | the course’s own, literal (the bracketed *[civitatem]* of the edition is not translated) |
 | Augustine, *Confessiones* I.1.1 | ix.ex.passages, C5 | the course’s own, literal |
+
+## Languages layer, 19–21 Oct 2026 (Sections II, V, VI, VII, X; Quiz Maker)
+
+No translator is named in the cards except on the long passages of Sections IX and X, where the published translator stands under the English (see the decision for Timothy in notes/LANGUAGES-FINISH-REPORT.md). Every rendering below marked "the course’s own" is a plain line-by-line English made for the course by Claude. It is not a published translation and is not presented as one; the deck's Sources note says so. Timothy may replace any of them with a checked published translation.
+
+### Section X: model passages (lang.x.<code>)
+
+The passages and their English are those of the Section IX passage decks, where they were already recorded or are listed above.
+
+| Deck | Passage | Translation |
+|---|---|---|
+| lang.x.la/augustine | *Confessiones* I.1.1 | E. B. Pusey |
+| lang.x.la/cicero1 | *In Catilinam* I.1 | C. D. Yonge |
+| lang.x.la/cicero2 | *In Catilinam* II.1 | C. D. Yonge |
+| lang.x.la/horace | *Carmina* I.22.1–8 | Christopher Smart |
+| lang.x.la/livy | *Ab urbe condita* I.1.1 | Canon Roberts |
+| lang.x.la/sallust | *Bellum Catilinae* 5 | J. S. Watson |
+| lang.x.la/tacitus | *Agricola* 30 | Church and Brodribb |
+| lang.x.la/virgil | *Aeneid* I.1–11 | the course’s own |
+| lang.x.grc/homer | *Iliad* 1.1–7 | the course’s own |
+| lang.x.grc/demosthenes | First Philippic 1 | Charles Rann Kennedy |
+| lang.x.grc/herodotus | I.0 | G. C. Macaulay |
+| lang.x.grc/john | John 1:1–5 | King James Version |
+| lang.x.grc/plato | *Apology* 17a | Benjamin Jowett |
+| lang.x.grc/thucydides1, thucydides2 | I.1; I.22.4 | Richard Crawley |
+| lang.x.grc/xenophon | *Anabasis* I.1.1 | H. G. Dakyns |
+| lang.x.fr/descartes | *Discours de la méthode* I | John Veitch |
+| lang.x.fr/larochefoucauld | *Maximes* 218 | J. W. Willis Bund and J. Hain Friswell |
+| lang.x.fr/montaigne | *Essais*, “Au lecteur” | Charles Cotton |
+| lang.x.fr/pascal | *Pensées* 347 | W. F. Trotter |
+| lang.x.fr/proust | *Du côté de chez Swann* I.1 | C. K. Scott Moncrieff |
+| lang.x.fr/rousseau | *Du contrat social* I.1 | G. D. H. Cole |
+| lang.x.fr/racine, ronsard | *Phèdre* I.3.273–276; *Sonnets pour Hélène* II.24.1–4 | the course’s own |
+| lang.x.de/grimm | “Der Froschkönig” | Margaret Hunt |
+| lang.x.de/kant | *Grundlegung*, first section | Thomas Kingsmill Abbott |
+| lang.x.de/kleist | *Michael Kohlhaas*, opening | Frances A. King |
+| lang.x.de/manifest | *Manifest der Kommunistischen Partei*, opening | Samuel Moore |
+| lang.x.de/werther | *Werther*, 4 May 1771 | R. Dillon Boylan |
+| lang.x.de/zarathustra | *Also sprach Zarathustra*, Vorrede 1 | Thomas Common |
+| lang.x.de/heine, nachtlied | “Du bist wie eine Blume” 1–4; “Wandrers Nachtlied” | the course’s own |
+
+The English models (lang.x.en) are English texts and need no translation.
+
+### Sections II, V, VI, and VII: quotations rendered by the course
+
+| Work | Passage | Deck | Translation |
+|---|---|---|---|
+| Catullus | 84.1–2 (*chommoda*, *hinsidias*) | lang.vi.la/faults | the course’s own |
+| *Appendix Probi* | the entries quoted (*speculum non speclum*, *columna non colomna*, and others) | lang.vi.la/faults, vices-ex | the course’s own glosses |
+| Servius on *Aeneid* I | the eight notes added on I.1–19 | lang.ix.la/servius, servius-ex | the course’s own (Latin from the Wikisource transcription of Thilo, as above) |
+| Virgil, *Aeneid* | I.300–301; I.399 | lang.vii.la/figures | the course’s own |
+| Cicero, *In Catilinam* | I.1; II.1 (single phrases) | lang.vii.la/figures, figures-ex | the course’s own |
+| *Rhetorica ad Herennium* | IV.39 (the definition quoted) | lang.vii.la/figures | the course’s own |
+| Seneca, *Epistulae* | 106.12 | lang.vii.la/figures-ex | the course’s own |
+| Homer, *Odyssey* | II.1; I.343 | lang.vii.grc/tropes, tropes-ex | the course’s own |
+| Homer, *Iliad* | XVIII.309; II.671–673 | lang.vii.grc/tropes, tropes-ex | the course’s own |
+| Plato | *Republic* 337a; *Apology* 38a | lang.vii.grc/tropes-ex | the course’s own |
+| Mark | 2:27 | lang.vii.grc/tropes-ex | the course’s own (close to the King James wording, which is not quoted) |
+| Sophocles, *Antigone* | 523 | lang.vii.grc/tropes-ex | the course’s own |
+| Plutarch, *Caesar* | 50 (*veni, vidi, vici* in Greek) | lang.vii.grc/tropes-ex | the course’s own |
+| Thucydides | II.40 | lang.vii.grc/tropes-ex | the course’s own |
+| Hesiod, *Works and Days* | 40 | lang.vii.grc/tropes-ex | the course’s own |
+| Baudelaire, “Correspondances” | 1–4 | lang.vii.fr/tropes | the course’s own |
+| Voltaire, *Candide* | ch. 1 | lang.vii.fr/tropes-ex | the course’s own |
+| Corneille, *Horace* IV.5; *Le Cid* I.5, II.2, IV.3 | single lines | lang.vii.fr/tropes, tropes-ex | the course’s own |
+| Molière, *L’Avare* | III.1 | lang.vii.fr/tropes-ex | the course’s own |
+| Hugo, “L’Expiation” | 1 | lang.vii.fr/tropes-ex | the course’s own |
+| Ronsard | *Sonnets pour Hélène* II.24 | lang.vii.fr/tropes-ex | the course’s own |
+| Goethe, *Faust* | single lines other than those of Bayard Taylor listed above | lang.vii.de/tropes, tropes-ex | the course’s own |
+| Goethe, “Mignon” | 1 | lang.vii.de/tropes-ex | the course’s own |
+| Schiller, *Wilhelm Tell* | III.1 | lang.vii.de/tropes-ex | the course’s own |
+
+Sentences made up for the course (the example sentences of Sections III and V, the marking sentences in lang.v.grc, fr, and de cited-ex, and the clause examples added on 21 Oct 2026) are the course's own and are not quotations.

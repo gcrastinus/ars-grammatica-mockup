@@ -4,7 +4,7 @@ ARS.decks["lang.x.la/virgil"] = {
  "id": "lang.x.la/virgil",
  "title": "Virgil’s Opening",
  "sub": "A model passage, with points of style and composition",
- "sources": "Dickinson College Commentaries; Allen and Greenough, <em>New Latin Grammar</em>; the translations of Virgil, Ovid, Ambrose, Lucretius, Catullus, and Venantius Fortunatus are the course’s own plain renderings, line by line",
+ "sources": "Allen and Greenough, <em>New Latin Grammar</em>; Dickinson College Commentaries; the translation is the course’s own plain rendering, line by line",
  "panels": [
   {
    "id": "text",
