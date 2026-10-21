@@ -223,7 +223,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-21",
    "title": "Hesiod, <em>Works and Days</em> 1–4 · Dactylic hexameter",
-   "body": "<p>μοῦσαι Πιερίηθεν ἀοιδῇσιν κλείουσαι<br>δεῦτε, Δίʼ ἐννέπετε, σφέτερον πατέρʼ ὑμνείουσαι·<br>ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε,<br>ῥητοί τʼ ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.</p><p>Muses of Pieria who give glory through song, come hither, tell of Zeus your father and chant his praise. Through him mortal men are famed or un-famed, sung or unsung alike, as great Zeus wills.<br>— Hugh G. Evelyn-White</p><p><strong>Context.</strong> Hesiod’s poem on work and the farmer’s year opens with a hymn to Zeus. Like Homer, Hesiod writes in hexameters and in the epic dialect.</p>",
+   "body": "<p>μοῦσαι Πιερίηθεν ἀοιδῇσιν κλείουσαι<br>δεῦτε, Δίʼ ἐννέπετε, σφέτερον πατέρʼ ὑμνείουσαι·<br>ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε,<br>ῥητοί τʼ ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.</p><p>Muses of Pieria who give glory through song, come hither, tell of Zeus your father and chant his praise. Through him mortal men are famed or un-famed, sung or unsung alike, as great Zeus wills.<br>Translation: Hugh G. Evelyn-White.</p><p><strong>Context.</strong> Hesiod’s poem on work and the farmer’s year opens with a hymn to Zeus. Like Homer, Hesiod writes in hexameters and in the epic dialect.</p>",
    "qp": {
     "id": "q-grc-ixv-poetry-21",
     "variants": [
@@ -548,7 +548,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-48",
    "title": "Callimachus, <em>Epigrams</em> 2.1–3 · Elegiac couplet",
-   "body": "<p>εἶπέ τις, Ἡράκλειτε, τεὸν μόρον, ἐς δέ με δάκρυ<br>ἤγαγεν, ἐμνήσθην δ᾽ ὁσσάκις ἀμφότεροι<br>ἥλιον ἐν λέσχῃ κατεδύσαμεν …</p><p>One told me of your fate, Heraclitus, and wrung me to tears, and I remembered how often both of us let the sun sink as we talked; …<br>— J. W. Mackail</p><p><strong>Context.</strong> Callimachus mourns his friend Heraclitus of Halicarnassus. The elegiac couplet joins a hexameter to a pentameter; the sentence runs on past the third line.</p>",
+   "body": "<p>εἶπέ τις, Ἡράκλειτε, τεὸν μόρον, ἐς δέ με δάκρυ<br>ἤγαγεν, ἐμνήσθην δ᾽ ὁσσάκις ἀμφότεροι<br>ἥλιον ἐν λέσχῃ κατεδύσαμεν …</p><p>One told me of your fate, Heraclitus, and wrung me to tears, and I remembered how often both of us let the sun sink as we talked; …<br>Translation: J. W. Mackail.</p><p><strong>Context.</strong> Callimachus mourns his friend Heraclitus of Halicarnassus. The elegiac couplet joins a hexameter to a pentameter; the sentence runs on past the third line.</p>",
    "qp": {
     "id": "q-grc-ixv-poetry-48",
     "variants": [
@@ -611,7 +611,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   {
    "id": "poetry-53",
    "title": "Plato (ascribed), <em>Epigram on Aster</em> Anth. Pal. 7.670 · Elegiac couplet",
-   "body": "<p>ἀστὴρ πρὶν μὲν ἔλαμπες ἐνὶ ζωοῖσιν Ἑῷος·<br>νῦν δὲ θανὼν λάμπεις Ἕσπερος ἐν φθιμένοις.</p><p>Morning Star that once did shine among the living, now deceased you shine the Evening Star among the dead.<br>— J. W. Mackail</p><p><strong>Context.</strong> The epigram is a single elegiac couplet, in which the hexameter tells of the living and the pentameter of the dead. <em>Μέν</em> and <em>δέ</em> set the two lines against each other, and the name Aster means “star.”</p>",
+   "body": "<p>ἀστὴρ πρὶν μὲν ἔλαμπες ἐνὶ ζωοῖσιν Ἑῷος·<br>νῦν δὲ θανὼν λάμπεις Ἕσπερος ἐν φθιμένοις.</p><p>Morning Star that once did shine among the living, now deceased you shine the Evening Star among the dead.<br>Translation: J. W. Mackail.</p><p><strong>Context.</strong> The epigram is a single elegiac couplet, in which the hexameter tells of the living and the pentameter of the dead. <em>Μέν</em> and <em>δέ</em> set the two lines against each other, and the name Aster means “star.”</p>",
    "qp": {
     "id": "q-grc-ixv-poetry-53",
     "variants": [

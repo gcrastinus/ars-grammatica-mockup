@@ -9,7 +9,7 @@ ARS.decks["lang.x.fr/descartes"] = {
   {
    "id": "text",
    "title": "Descartes, <i>Discours de la méthode</i> I",
-   "body": "<p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>— John Veitch</p><p><strong>Context.</strong> Descartes opens his <i>Discourse on Method</i>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>"
+   "body": "<p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Descartes opens his <i>Discourse on Method</i>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>"
   },
   {
    "id": "style",

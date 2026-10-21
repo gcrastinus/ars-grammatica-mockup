@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/kant"] = {
   {
    "id": "text",
    "title": "Kant, <i>Grundlegung zur Metaphysik der Sitten</i> I",
-   "body": "<p>Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a good will.<br>— Thomas Kingsmill Abbott</p><p><strong>Context.</strong> This is the first sentence of Kant’s <i>Groundwork</i>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>"
+   "body": "<p>Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a good will.<br>Translation: Thomas Kingsmill Abbott.</p><p><strong>Context.</strong> This is the first sentence of Kant’s <i>Groundwork</i>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>"
   },
   {
    "id": "style",

@@ -243,7 +243,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   {
    "id": "poetry-25",
    "title": "Horace, <em>Carmina</em> I.22.1–8 · Sapphic stanza",
-   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>— Christopher Smart</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>",
+   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>Translation: Christopher Smart.</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>",
    "qp": {
     "id": "q-la-ixv-poetry-25",
     "variants": [
@@ -550,7 +550,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   {
    "id": "poetry-56",
    "title": "Martial, <em>Epigrammata</em> I.32 · Elegiac couplet",
-   "body": "<p>Non amo te, Sabidi, nec possum dicere quare:<br>hoc tantum possum dicere, non amo te.</p><p>I do not love you, Sabidius, nor can I say why; I can only say this, I do not love you.<br>— Bohn’s Classical Library</p><p><strong>Context.</strong> Martial wrote short poems with a turn at the end. This one, of a single elegiac couplet, says the same thing at its beginning and at its end.</p>",
+   "body": "<p>Non amo te, Sabidi, nec possum dicere quare:<br>hoc tantum possum dicere, non amo te.</p><p>I do not love you, Sabidius, nor can I say why; I can only say this, I do not love you.<br>Translation: Bohn’s Classical Library.</p><p><strong>Context.</strong> Martial wrote short poems with a turn at the end. This one, of a single elegiac couplet, says the same thing at its beginning and at its end.</p>",
    "qp": {
     "id": "q-la-ixv-poetry-56",
     "variants": [
@@ -618,7 +618,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   {
    "id": "poetry-62",
    "title": "Juvenal, <em>Saturae</em> X.356–358 · Dactylic hexameter",
-   "body": "<p>orandum est ut sit mens sana in corpore sano.<br>fortem posce animum mortis terrore carentem,<br>qui spatium vitae extremum inter munera ponat<br>naturae, …</p><p>… you should pray for a sound mind in a sound body; for a stout heart that has no fear of death, and deems length of days the least of Nature’s gifts …<br>— Ramsay</p><p><strong>Context.</strong> Juvenal’s tenth satire shows how the things men pray for, wealth, power, eloquence, long life, and beauty, ruin them. At its close he says what may rightly be asked of the gods. The meter is the dactylic hexameter.</p>",
+   "body": "<p>orandum est ut sit mens sana in corpore sano.<br>fortem posce animum mortis terrore carentem,<br>qui spatium vitae extremum inter munera ponat<br>naturae, …</p><p>… you should pray for a sound mind in a sound body; for a stout heart that has no fear of death, and deems length of days the least of Nature’s gifts …<br>Translation: G. G. Ramsay.</p><p><strong>Context.</strong> Juvenal’s tenth satire shows how the things men pray for, wealth, power, eloquence, long life, and beauty, ruin them. At its close he says what may rightly be asked of the gods. The meter is the dactylic hexameter.</p>",
    "qp": {
     "id": "q-la-ixv-poetry-62",
     "variants": [

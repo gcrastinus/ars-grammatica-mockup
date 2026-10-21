@@ -9,7 +9,7 @@ ARS.decks["lang.x.grc/plato"] = {
   {
    "id": "text",
    "title": "Plato, <i>Apology</i> 17a",
-   "body": "<p>ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα· ἐγὼ δʼ οὖν καὶ αὐτὸς ὑπʼ αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην, οὕτω πιθανῶς ἔλεγον. καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.</p><p>How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was, so persuasively did they speak; and yet they have hardly uttered a word of truth.<br>— Benjamin Jowett</p><p><strong>Context.</strong> Socrates begins his defense before the Athenian jury in 399 BC. He sets his own experience of the accusers’ speeches against what the jury may have felt.</p>"
+   "body": "<p>ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα· ἐγὼ δʼ οὖν καὶ αὐτὸς ὑπʼ αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην, οὕτω πιθανῶς ἔλεγον. καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.</p><p>How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was, so persuasively did they speak; and yet they have hardly uttered a word of truth.<br>Translation: Benjamin Jowett.</p><p><strong>Context.</strong> Socrates begins his defense before the Athenian jury in 399 BC. He sets his own experience of the accusers’ speeches against what the jury may have felt.</p>"
   },
   {
    "id": "style",

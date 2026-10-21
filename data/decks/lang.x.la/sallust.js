@@ -9,7 +9,7 @@ ARS.decks["lang.x.la/sallust"] = {
   {
    "id": "text",
    "title": "Sallust, <i>Bellum Catilinae</i> 5",
-   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>— Watson</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>"
+   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>Translation: J. S. Watson.</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>"
   },
   {
    "id": "style",

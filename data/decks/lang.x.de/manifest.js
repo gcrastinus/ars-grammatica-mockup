@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/manifest"] = {
   {
    "id": "text",
    "title": "Marx and Engels, <i>Manifest der Kommunistischen Partei</i> Preamble",
-   "body": "<p>Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A specter is haunting Europe—the specter of Communism. All the powers of old Europe have entered into a holy alliance to exorcise this specter: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>— Samuel Moore</p><p><strong>Context.</strong> This is the opening of the <i>Manifesto</i>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>"
+   "body": "<p>Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A specter is haunting Europe—the specter of Communism. All the powers of old Europe have entered into a holy alliance to exorcise this specter: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>Translation: Samuel Moore.</p><p><strong>Context.</strong> This is the opening of the <i>Manifesto</i>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>"
   },
   {
    "id": "style",

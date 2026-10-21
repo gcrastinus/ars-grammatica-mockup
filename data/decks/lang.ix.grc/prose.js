@@ -9,7 +9,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-1",
    "title": "Herodotus, <em>Histories</em> 1.0",
-   "body": "<p>Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε, ὡς μήτε τὰ γενόμενα ἐξ ἀνθρώπων τῷ χρόνῳ ἐξίτηλα γένηται, μήτε ἔργα μεγάλα τε καὶ θωμαστά, τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι ἀποδεχθέντα, ἀκλεᾶ γένηται, τά τε ἄλλα καὶ διʼ ἣν αἰτίην ἐπολέμησαν ἀλλήλοισι.</p><p>This is the Showing forth of the Inquiry of Herodotus of Halicarnassos, to the end that neither the deeds of men may be forgotten by lapse of time, nor the works great and marvelous, which have been produced some by Hellenes and some by Barbarians, may lose their renown; and especially that the causes may be remembered for which these waged war with one another.<br>— G. C. Macaulay</p><p><strong>Context.</strong> Herodotus wrote in the Ionic dialect in the fifth century BC. His history opens with one sentence that names the author, the work, and its purpose: that the deeds of Greeks and barbarians may not be forgotten, and above all the cause of their war.</p>",
+   "body": "<p>Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε, ὡς μήτε τὰ γενόμενα ἐξ ἀνθρώπων τῷ χρόνῳ ἐξίτηλα γένηται, μήτε ἔργα μεγάλα τε καὶ θωμαστά, τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι ἀποδεχθέντα, ἀκλεᾶ γένηται, τά τε ἄλλα καὶ διʼ ἣν αἰτίην ἐπολέμησαν ἀλλήλοισι.</p><p>This is the Showing forth of the Inquiry of Herodotus of Halicarnassos, to the end that neither the deeds of men may be forgotten by lapse of time, nor the works great and marvelous, which have been produced some by Hellenes and some by Barbarians, may lose their renown; and especially that the causes may be remembered for which these waged war with one another.<br>Translation: G. C. Macaulay.</p><p><strong>Context.</strong> Herodotus wrote in the Ionic dialect in the fifth century BC. His history opens with one sentence that names the author, the work, and its purpose: that the deeds of Greeks and barbarians may not be forgotten, and above all the cause of their war.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-1",
     "variants": [
@@ -82,7 +82,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-8",
    "title": "Thucydides, <em>History</em> 1.1.1",
-   "body": "<p>Θουκυδίδης Ἀθηναῖος ξυνέγραψε τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων, ὡς ἐπολέμησαν πρὸς ἀλλήλους, ἀρξάμενος εὐθὺς καθισταμένου καὶ ἐλπίσας μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον τῶν προγεγενημένων, τεκμαιρόμενος ὅτι ἀκμάζοντές τε ᾖσαν ἐς αὐτὸν ἀμφότεροι παρασκευῇ τῇ πάσῃ καὶ τὸ ἄλλο Ἑλληνικὸν ὁρῶν ξυνιστάμενον πρὸς ἑκατέρους, τὸ μὲν εὐθύς, τὸ δὲ καὶ διανοούμενον.</p><p>Thucydides, an Athenian, wrote the history of the war between the Peloponnesians and the Athenians, beginning at the moment that it broke out, and believing that it would be a great war and more worthy of relation than any that had preceded it. This belief was not without its grounds. The preparations of both the combatants were in every department in the last state of perfection; and he could see the rest of the Hellenic race taking sides in the quarrel; those who delayed doing so at once having it in contemplation.<br>— Richard Crawley</p><p><strong>Context.</strong> Thucydides opens his history of the war between Athens and Sparta (431–404 BC) by naming himself and his subject, and by saying why he began to write at once. The sentence has one main verb and a chain of participles.</p>",
+   "body": "<p>Θουκυδίδης Ἀθηναῖος ξυνέγραψε τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων, ὡς ἐπολέμησαν πρὸς ἀλλήλους, ἀρξάμενος εὐθὺς καθισταμένου καὶ ἐλπίσας μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον τῶν προγεγενημένων, τεκμαιρόμενος ὅτι ἀκμάζοντές τε ᾖσαν ἐς αὐτὸν ἀμφότεροι παρασκευῇ τῇ πάσῃ καὶ τὸ ἄλλο Ἑλληνικὸν ὁρῶν ξυνιστάμενον πρὸς ἑκατέρους, τὸ μὲν εὐθύς, τὸ δὲ καὶ διανοούμενον.</p><p>Thucydides, an Athenian, wrote the history of the war between the Peloponnesians and the Athenians, beginning at the moment that it broke out, and believing that it would be a great war and more worthy of relation than any that had preceded it. This belief was not without its grounds. The preparations of both the combatants were in every department in the last state of perfection; and he could see the rest of the Hellenic race taking sides in the quarrel; those who delayed doing so at once having it in contemplation.<br>Translation: Richard Crawley.</p><p><strong>Context.</strong> Thucydides opens his history of the war between Athens and Sparta (431–404 BC) by naming himself and his subject, and by saying why he began to write at once. The sentence has one main verb and a chain of participles.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-8",
     "variants": [
@@ -155,7 +155,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-15",
    "title": "Thucydides, <em>History</em> 1.22.4",
-   "body": "<p>καὶ ἐς μὲν ἀκρόασιν ἴσως τὸ μὴ μυθῶδες αὐτῶν ἀτερπέστερον φανεῖται· ὅσοι δὲ βουλήσονται τῶν τε γενομένων τὸ σαφὲς σκοπεῖν καὶ τῶν μελλόντων ποτὲ αὖθις κατὰ τὸ ἀνθρώπινον τοιούτων καὶ παραπλησίων ἔσεσθαι, ὠφέλιμα κρίνειν αὐτὰ ἀρκούντως ἕξει. κτῆμά τε ἐς αἰεὶ μᾶλλον ἢ ἀγώνισμα ἐς τὸ παραχρῆμα ἀκούειν ξύγκειται.</p><p>The absence of romance in my history will, I fear, detract somewhat from its interest; but if it be judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation of the future, which in the course of human things must resemble if it does not reflect it, I shall be content. In fine, I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.<br>— Richard Crawley</p><p><strong>Context.</strong> In his account of his method, Thucydides says what kind of reader his history is for.</p>",
+   "body": "<p>καὶ ἐς μὲν ἀκρόασιν ἴσως τὸ μὴ μυθῶδες αὐτῶν ἀτερπέστερον φανεῖται· ὅσοι δὲ βουλήσονται τῶν τε γενομένων τὸ σαφὲς σκοπεῖν καὶ τῶν μελλόντων ποτὲ αὖθις κατὰ τὸ ἀνθρώπινον τοιούτων καὶ παραπλησίων ἔσεσθαι, ὠφέλιμα κρίνειν αὐτὰ ἀρκούντως ἕξει. κτῆμά τε ἐς αἰεὶ μᾶλλον ἢ ἀγώνισμα ἐς τὸ παραχρῆμα ἀκούειν ξύγκειται.</p><p>The absence of romance in my history will, I fear, detract somewhat from its interest; but if it be judged useful by those inquirers who desire an exact knowledge of the past as an aid to the interpretation of the future, which in the course of human things must resemble if it does not reflect it, I shall be content. In fine, I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.<br>Translation: Richard Crawley.</p><p><strong>Context.</strong> In his account of his method, Thucydides says what kind of reader his history is for.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-15",
     "variants": [
@@ -228,7 +228,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-22",
    "title": "Plato, <em>Apology</em> 17a",
-   "body": "<p>ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα· ἐγὼ δʼ οὖν καὶ αὐτὸς ὑπʼ αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην, οὕτω πιθανῶς ἔλεγον. καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.</p><p>How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was, so persuasively did they speak; and yet they have hardly uttered a word of truth.<br>— Benjamin Jowett</p><p><strong>Context.</strong> Socrates begins his defense before the Athenian jury in 399 BC. He sets his own experience of the accusers’ speeches against what the jury may have felt.</p>",
+   "body": "<p>ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα· ἐγὼ δʼ οὖν καὶ αὐτὸς ὑπʼ αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην, οὕτω πιθανῶς ἔλεγον. καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.</p><p>How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was, so persuasively did they speak; and yet they have hardly uttered a word of truth.<br>Translation: Benjamin Jowett.</p><p><strong>Context.</strong> Socrates begins his defense before the Athenian jury in 399 BC. He sets his own experience of the accusers’ speeches against what the jury may have felt.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-22",
     "variants": [
@@ -296,7 +296,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-28",
    "title": "Plato, <em>Republic</em> 327a",
-   "body": "<p>κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες.</p><p>I went down yesterday to the Piraeus with Glaucon the son of Ariston, that I might offer up my prayers to the goddess; and also because I wanted to see in what manner they would celebrate the festival, which was a new thing.<br>— Benjamin Jowett</p><p><strong>Context.</strong> Socrates tells how the conversation of the <em>Republic</em> came about. He had gone down to the harbor of Athens for a new festival of a Thracian goddess.</p>",
+   "body": "<p>κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες.</p><p>I went down yesterday to the Piraeus with Glaucon the son of Ariston, that I might offer up my prayers to the goddess; and also because I wanted to see in what manner they would celebrate the festival, which was a new thing.<br>Translation: Benjamin Jowett.</p><p><strong>Context.</strong> Socrates tells how the conversation of the <em>Republic</em> came about. He had gone down to the harbor of Athens for a new festival of a Thracian goddess.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-28",
     "variants": [
@@ -364,7 +364,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-34",
    "title": "Xenophon, <em>Anabasis</em> 1.1.1",
-   "body": "<p>Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος· ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.</p><p>Darius and Parysatis had two sons: the elder was named Artaxerxes, and the younger Cyrus. Now, as Darius lay sick and felt that the end of life drew near, he wished both his sons to be with him.<br>— H. G. Dakyns</p><p><strong>Context.</strong> Xenophon’s <em>Anabasis</em> tells of the march of the younger Cyrus against his brother, the king of Persia, and of the return of the Greek soldiers. It begins plainly, with the family of the king.</p>",
+   "body": "<p>Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος· ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.</p><p>Darius and Parysatis had two sons: the elder was named Artaxerxes, and the younger Cyrus. Now, as Darius lay sick and felt that the end of life drew near, he wished both his sons to be with him.<br>Translation: H. G. Dakyns.</p><p><strong>Context.</strong> Xenophon’s <em>Anabasis</em> tells of the march of the younger Cyrus against his brother, the king of Persia, and of the return of the Greek soldiers. It begins plainly, with the family of the king.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-34",
     "variants": [
@@ -427,7 +427,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-39",
    "title": "Aristotle, <em>Nicomachean Ethics</em> 1094a1–3",
-   "body": "<p>πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ· διὸ καλῶς ἀπεφήναντο τἀγαθόν, οὗ πάντʼ ἐφίεται.</p><p>Every art, and every science reduced to a teachable form, and in like manner every action and moral choice, aims, it is thought, at some good: for which reason a common and by no means a bad description of the Chief Good is, “that which all things aim at.”<br>— D. P. Chase</p><p><strong>Context.</strong> Aristotle opens the <em>Ethics</em> with a claim about all human activity, and he draws from it a definition of the good. The sentence has four subjects and one verb.</p>",
+   "body": "<p>πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ· διὸ καλῶς ἀπεφήναντο τἀγαθόν, οὗ πάντʼ ἐφίεται.</p><p>Every art, and every science reduced to a teachable form, and in like manner every action and moral choice, aims, it is thought, at some good: for which reason a common and by no means a bad description of the Chief Good is, “that which all things aim at.”<br>Translation: D. P. Chase.</p><p><strong>Context.</strong> Aristotle opens the <em>Ethics</em> with a claim about all human activity, and he draws from it a definition of the good. The sentence has four subjects and one verb.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-39",
     "variants": [
@@ -490,7 +490,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-44",
    "title": "Aristotle, <em>Politics</em> 1252a1–7",
-   "body": "<p>ἐπειδὴ πᾶσαν πόλιν ὁρῶμεν κοινωνίαν τινὰ οὖσαν καὶ πᾶσαν κοινωνίαν ἀγαθοῦ τινος ἕνεκεν συνεστηκυῖαν (τοῦ γὰρ εἶναι δοκοῦντος ἀγαθοῦ χάριν πάντα πράττουσι πάντες), δῆλον ὡς πᾶσαι μὲν ἀγαθοῦ τινος στοχάζονται, μάλιστα δὲ καὶ τοῦ κυριωτάτου πάντων ἡ πασῶν κυριωτάτη καὶ πάσας περιέχουσα τὰς ἄλλας.</p><p>As we see that every city is a society, and every society is established for some good purpose; for an apparent good is the spring of all human actions; it is evident that this is the principle upon which they are every one founded, and this is more especially true of that which has for its object the best possible, and is itself the most excellent, and comprehends all the rest.<br>— William Ellis</p><p><strong>Context.</strong> Aristotle begins the <em>Politics</em>, as he begins the <em>Ethics</em>, with the good at which things aim. The city is the community that aims at the highest good.</p>",
+   "body": "<p>ἐπειδὴ πᾶσαν πόλιν ὁρῶμεν κοινωνίαν τινὰ οὖσαν καὶ πᾶσαν κοινωνίαν ἀγαθοῦ τινος ἕνεκεν συνεστηκυῖαν (τοῦ γὰρ εἶναι δοκοῦντος ἀγαθοῦ χάριν πάντα πράττουσι πάντες), δῆλον ὡς πᾶσαι μὲν ἀγαθοῦ τινος στοχάζονται, μάλιστα δὲ καὶ τοῦ κυριωτάτου πάντων ἡ πασῶν κυριωτάτη καὶ πάσας περιέχουσα τὰς ἄλλας.</p><p>As we see that every city is a society, and every society is established for some good purpose; for an apparent good is the spring of all human actions; it is evident that this is the principle upon which they are every one founded, and this is more especially true of that which has for its object the best possible, and is itself the most excellent, and comprehends all the rest.<br>Translation: William Ellis.</p><p><strong>Context.</strong> Aristotle begins the <em>Politics</em>, as he begins the <em>Ethics</em>, with the good at which things aim. The city is the community that aims at the highest good.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-44",
     "variants": [
@@ -558,7 +558,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-50",
    "title": "The Gospel according to John, 1:1–5",
-   "body": "<p>Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν. πάντα διʼ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων· καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.</p><p>In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God. All things were made by him; and without him was not any thing made that was made. In him was life; and the life was the light of men. And the light shineth in darkness; and the darkness comprehended it not.<br>— King James Version</p><p><strong>Context.</strong> The Gospel of John opens with a prologue on the Word. The clauses are short and joined by <em>καί</em>. The edition punctuates verse 3 so that <em>ὃ γέγονεν</em> begins a new sentence, whereas the King James Version joins it to the sentence before.</p>",
+   "body": "<p>Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν. πάντα διʼ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων· καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.</p><p>In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God. All things were made by him; and without him was not any thing made that was made. In him was life; and the life was the light of men. And the light shineth in darkness; and the darkness comprehended it not.<br>Translation: King James Version.</p><p><strong>Context.</strong> The Gospel of John opens with a prologue on the Word. The clauses are short and joined by <em>καί</em>. The edition punctuates verse 3 so that <em>ὃ γέγονεν</em> begins a new sentence, whereas the King James Version joins it to the sentence before.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-50",
     "variants": [
@@ -626,7 +626,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-56",
    "title": "Plato, <em>Phaedo</em> 118a",
-   "body": "<p>ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα· ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.</p><p>Crito, I owe a cock to Asclepius; will you remember to pay the debt?<br>— Benjamin Jowett</p><p><strong>Context.</strong> These are the last words of Socrates, as Phaedo reports them, after he has drunk the hemlock. Jowett’s English turns the command into a question.</p>",
+   "body": "<p>ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα· ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.</p><p>Crito, I owe a cock to Asclepius; will you remember to pay the debt?<br>Translation: Benjamin Jowett.</p><p><strong>Context.</strong> These are the last words of Socrates, as Phaedo reports them, after he has drunk the hemlock. Jowett’s English turns the command into a question.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-56",
     "variants": [
@@ -689,7 +689,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-61",
    "title": "Thucydides, <em>History</em> 2.35.1",
-   "body": "<p>οἱ μὲν πολλοὶ τῶν ἐνθάδε ἤδη εἰρηκότων ἐπαινοῦσι τὸν προσθέντα τῷ νόμῳ τὸν λόγον τόνδε, ὡς καλὸν ἐπὶ τοῖς ἐκ τῶν πολέμων θαπτομένοις ἀγορεύεσθαι αὐτόν.</p><p>Most of my predecessors in this place have commended him who made this speech part of the law, telling us that it is well that it should be delivered at the burial of those who fall in battle.<br>— Richard Crawley</p><p><strong>Context.</strong> Pericles begins the funeral oration for the Athenians who died in the first year of the war (431 BC). He starts from the custom of the speech itself.</p>",
+   "body": "<p>οἱ μὲν πολλοὶ τῶν ἐνθάδε ἤδη εἰρηκότων ἐπαινοῦσι τὸν προσθέντα τῷ νόμῳ τὸν λόγον τόνδε, ὡς καλὸν ἐπὶ τοῖς ἐκ τῶν πολέμων θαπτομένοις ἀγορεύεσθαι αὐτόν.</p><p>Most of my predecessors in this place have commended him who made this speech part of the law, telling us that it is well that it should be delivered at the burial of those who fall in battle.<br>Translation: Richard Crawley.</p><p><strong>Context.</strong> Pericles begins the funeral oration for the Athenians who died in the first year of the war (431 BC). He starts from the custom of the speech itself.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-61",
     "variants": [
@@ -747,7 +747,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-65",
    "title": "Xenophon, <em>Memorabilia</em> 1.1.1",
-   "body": "<p>πολλάκις ἐθαύμασα τίσι ποτὲ λόγοις Ἀθηναίους ἔπεισαν οἱ γραψάμενοι Σωκράτην ὡς ἄξιος εἴη θανάτου τῇ πόλει.</p><p>I have often wondered by what arguments those who indicted Socrates could have persuaded the Athenians that his life was justly forfeit to the state.<br>— H. G. Dakyns</p><p><strong>Context.</strong> Xenophon begins his memoirs of Socrates by asking how the Athenians could have been persuaded to condemn him.</p>",
+   "body": "<p>πολλάκις ἐθαύμασα τίσι ποτὲ λόγοις Ἀθηναίους ἔπεισαν οἱ γραψάμενοι Σωκράτην ὡς ἄξιος εἴη θανάτου τῇ πόλει.</p><p>I have often wondered by what arguments those who indicted Socrates could have persuaded the Athenians that his life was justly forfeit to the state.<br>Translation: H. G. Dakyns.</p><p><strong>Context.</strong> Xenophon begins his memoirs of Socrates by asking how the Athenians could have been persuaded to condemn him.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-65",
     "variants": [
@@ -810,7 +810,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-70",
    "title": "Plato, <em>Meno</em> 70a",
-   "body": "<p>ἔχεις μοι εἰπεῖν, ὦ Σώκρατες, ἆρα διδακτὸν ἡ ἀρετή; ἢ οὐ διδακτὸν ἀλλʼ ἀσκητόν; ἢ οὔτε ἀσκητὸν οὔτε μαθητόν, ἀλλὰ φύσει παραγίγνεται τοῖς ἀνθρώποις ἢ ἄλλῳ τινὶ τρόπῳ;</p><p>Can you tell me, Socrates, whether virtue is acquired by teaching or by practice; or if neither by teaching nor by practice, then whether it comes to man by nature, or in what other way?<br>— Benjamin Jowett</p><p><strong>Context.</strong> The <em>Meno</em> opens without any preface, as Meno asks Socrates whether virtue can be taught.</p>",
+   "body": "<p>ἔχεις μοι εἰπεῖν, ὦ Σώκρατες, ἆρα διδακτὸν ἡ ἀρετή; ἢ οὐ διδακτὸν ἀλλʼ ἀσκητόν; ἢ οὔτε ἀσκητὸν οὔτε μαθητόν, ἀλλὰ φύσει παραγίγνεται τοῖς ἀνθρώποις ἢ ἄλλῳ τινὶ τρόπῳ;</p><p>Can you tell me, Socrates, whether virtue is acquired by teaching or by practice; or if neither by teaching nor by practice, then whether it comes to man by nature, or in what other way?<br>Translation: Benjamin Jowett.</p><p><strong>Context.</strong> The <em>Meno</em> opens without any preface, as Meno asks Socrates whether virtue can be taught.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-70",
     "variants": [
@@ -873,7 +873,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-75",
    "title": "Demosthenes, <em>First Philippic</em> 1",
-   "body": "<p>εἰ μὲν περὶ καινοῦ τινος πράγματος προυτίθετʼ, ὦ ἄνδρες Ἀθηναῖοι, λέγειν, ἐπισχὼν ἂν ἕως οἱ πλεῖστοι τῶν εἰωθότων γνώμην ἀπεφήναντο, εἰ μὲν ἤρεσκέ τί μοι τῶν ὑπὸ τούτων ῥηθέντων, ἡσυχίαν ἂν ἦγον, εἰ δὲ μή, τότʼ ἂν καὐτὸς ἐπειρώμην ἃ γιγνώσκω λέγειν·</p><p>Had the question for debate been any thing new, Athenians, I should have waited till most of the usual speakers had been heard; if any of their counsels had been to my liking, I had remained silent, else proceeded to impart my own.<br>— Charles Rann Kennedy</p><p><strong>Context.</strong> Demosthenes spoke his First Philippic in 351 BC, urging the Athenians to act against Philip of Macedon. He begins by explaining why he rises to speak first.</p>",
+   "body": "<p>εἰ μὲν περὶ καινοῦ τινος πράγματος προυτίθετʼ, ὦ ἄνδρες Ἀθηναῖοι, λέγειν, ἐπισχὼν ἂν ἕως οἱ πλεῖστοι τῶν εἰωθότων γνώμην ἀπεφήναντο, εἰ μὲν ἤρεσκέ τί μοι τῶν ὑπὸ τούτων ῥηθέντων, ἡσυχίαν ἂν ἦγον, εἰ δὲ μή, τότʼ ἂν καὐτὸς ἐπειρώμην ἃ γιγνώσκω λέγειν·</p><p>Had the question for debate been any thing new, Athenians, I should have waited till most of the usual speakers had been heard; if any of their counsels had been to my liking, I had remained silent, else proceeded to impart my own.<br>Translation: Charles Rann Kennedy.</p><p><strong>Context.</strong> Demosthenes spoke his First Philippic in 351 BC, urging the Athenians to act against Philip of Macedon. He begins by explaining why he rises to speak first.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-75",
     "variants": [
@@ -936,7 +936,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   {
    "id": "prose-80",
    "title": "The Gospel according to Luke, 2:1–3",
-   "body": "<p>Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην· (αὕτη ἀπογραφὴ πρώτη ἐγένετο ἡγεμονεύοντος τῆς Συρίας Κυρηνίου·) καὶ ἐπορεύοντο πάντες ἀπογράφεσθαι, ἕκαστος εἰς τὴν ἑαυτοῦ πόλιν.</p><p>And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed. (And this taxing was first made when Cyrenius was governor of Syria.) And all went to be taxed, every one into his own city.<br>— King James Version</p><p><strong>Context.</strong> Luke begins his account of the birth of Jesus by placing it in the reign of Augustus.</p>",
+   "body": "<p>Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην· (αὕτη ἀπογραφὴ πρώτη ἐγένετο ἡγεμονεύοντος τῆς Συρίας Κυρηνίου·) καὶ ἐπορεύοντο πάντες ἀπογράφεσθαι, ἕκαστος εἰς τὴν ἑαυτοῦ πόλιν.</p><p>And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed. (And this taxing was first made when Cyrenius was governor of Syria.) And all went to be taxed, every one into his own city.<br>Translation: King James Version.</p><p><strong>Context.</strong> Luke begins his account of the birth of Jesus by placing it in the reign of Augustus.</p>",
    "qp": {
     "id": "q-grc-ixp-prose-80",
     "variants": [

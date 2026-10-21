@@ -9,7 +9,7 @@ ARS.decks["lang.x.grc/demosthenes"] = {
   {
    "id": "text",
    "title": "Demosthenes, <i>First Philippic</i> 1",
-   "body": "<p>εἰ μὲν περὶ καινοῦ τινος πράγματος προυτίθετʼ, ὦ ἄνδρες Ἀθηναῖοι, λέγειν, ἐπισχὼν ἂν ἕως οἱ πλεῖστοι τῶν εἰωθότων γνώμην ἀπεφήναντο, εἰ μὲν ἤρεσκέ τί μοι τῶν ὑπὸ τούτων ῥηθέντων, ἡσυχίαν ἂν ἦγον, εἰ δὲ μή, τότʼ ἂν καὐτὸς ἐπειρώμην ἃ γιγνώσκω λέγειν·</p><p>Had the question for debate been any thing new, Athenians, I should have waited till most of the usual speakers had been heard; if any of their counsels had been to my liking, I had remained silent, else proceeded to impart my own.<br>— Charles Rann Kennedy</p><p><strong>Context.</strong> Demosthenes spoke his First Philippic in 351 BC, urging the Athenians to act against Philip of Macedon. He begins by explaining why he rises to speak first.</p>"
+   "body": "<p>εἰ μὲν περὶ καινοῦ τινος πράγματος προυτίθετʼ, ὦ ἄνδρες Ἀθηναῖοι, λέγειν, ἐπισχὼν ἂν ἕως οἱ πλεῖστοι τῶν εἰωθότων γνώμην ἀπεφήναντο, εἰ μὲν ἤρεσκέ τί μοι τῶν ὑπὸ τούτων ῥηθέντων, ἡσυχίαν ἂν ἦγον, εἰ δὲ μή, τότʼ ἂν καὐτὸς ἐπειρώμην ἃ γιγνώσκω λέγειν·</p><p>Had the question for debate been any thing new, Athenians, I should have waited till most of the usual speakers had been heard; if any of their counsels had been to my liking, I had remained silent, else proceeded to impart my own.<br>Translation: Charles Rann Kennedy.</p><p><strong>Context.</strong> Demosthenes spoke his First Philippic in 351 BC, urging the Athenians to act against Philip of Macedon. He begins by explaining why he rises to speak first.</p>"
   },
   {
    "id": "style",

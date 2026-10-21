@@ -9,7 +9,7 @@ ARS.decks["lang.x.fr/montaigne"] = {
   {
    "id": "text",
    "title": "Montaigne, <em>Essais</em> Au lecteur",
-   "body": "<p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>— Charles Cotton</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>"
+   "body": "<p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>Translation: Charles Cotton.</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>"
   },
   {
    "id": "style",

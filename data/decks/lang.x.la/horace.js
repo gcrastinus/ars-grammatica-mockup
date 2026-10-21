@@ -9,7 +9,7 @@ ARS.decks["lang.x.la/horace"] = {
   {
    "id": "text",
    "title": "Horace, <i>Carmina</i> I.22.1–8 · Sapphic stanza",
-   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>— Christopher Smart</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>"
+   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>Translation: Christopher Smart.</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>"
   },
   {
    "id": "style",

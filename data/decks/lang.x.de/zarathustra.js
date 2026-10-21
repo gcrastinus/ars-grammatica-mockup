@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/zarathustra"] = {
   {
    "id": "text",
    "title": "Nietzsche, <i>Also sprach Zarathustra</i> Vorrede 1",
-   "body": "<p>Als Zarathustra dreißig Jahr alt war, verließ er seine Heimat und den See seiner Heimat und ging in das Gebirge. Hier genoss er seines Geistes und seiner Einsamkeit und wurde dessen zehn Jahre nicht müde.</p><p>When Zarathustra was thirty years old, he left his home and the lake of his home, and went into the mountains. There he enjoyed his spirit and solitude, and for ten years did not weary of it.<br>— Thomas Common</p><p><strong>Context.</strong> This is the beginning of the prologue. Nietzsche writes in a biblical manner, and he keeps the older genitive objects with <i>genießen</i> (“to enjoy”) and <i>müde</i> (“tired”).</p>"
+   "body": "<p>Als Zarathustra dreißig Jahr alt war, verließ er seine Heimat und den See seiner Heimat und ging in das Gebirge. Hier genoss er seines Geistes und seiner Einsamkeit und wurde dessen zehn Jahre nicht müde.</p><p>When Zarathustra was thirty years old, he left his home and the lake of his home, and went into the mountains. There he enjoyed his spirit and solitude, and for ten years did not weary of it.<br>Translation: Thomas Common.</p><p><strong>Context.</strong> This is the beginning of the prologue. Nietzsche writes in a biblical manner, and he keeps the older genitive objects with <i>genießen</i> (“to enjoy”) and <i>müde</i> (“tired”).</p>"
   },
   {
    "id": "style",

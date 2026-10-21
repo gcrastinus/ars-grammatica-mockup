@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/kleist"] = {
   {
    "id": "text",
    "title": "Kleist, <i>Michael Kohlhaas</i> opening",
-   "body": "<p>An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a schoolmaster, one of the most upright and, at the same time, one of the most terrible men of his day.<br>— Frances A. King</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>"
+   "body": "<p>An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a schoolmaster, one of the most upright and, at the same time, one of the most terrible men of his day.<br>Translation: Frances A. King.</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>"
   },
   {
    "id": "style",

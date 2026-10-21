@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/werther"] = {
   {
    "id": "text",
    "title": "Goethe, <i>Die Leiden des jungen Werthers</i> 4 May 1771",
-   "body": "<p>Wie froh bin ich, dass ich weg bin! Bester Freund, was ist das Herz des Menschen! Dich zu verlassen, den ich so liebe, von dem ich unzertrennlich war, und froh zu sein!</p><p>How happy I am that I am gone! My dear friend, what a thing is the heart of man! To leave you, from whom I have been inseparable, whom I love so dearly, and yet to feel happy!<br>— R. Dillon Boylan</p><p><strong>Context.</strong> Goethe’s novel is told in letters, and the first letter opens with three exclamations.</p>"
+   "body": "<p>Wie froh bin ich, dass ich weg bin! Bester Freund, was ist das Herz des Menschen! Dich zu verlassen, den ich so liebe, von dem ich unzertrennlich war, und froh zu sein!</p><p>How happy I am that I am gone! My dear friend, what a thing is the heart of man! To leave you, from whom I have been inseparable, whom I love so dearly, and yet to feel happy!<br>Translation: R. Dillon Boylan.</p><p><strong>Context.</strong> Goethe’s novel is told in letters, and the first letter opens with three exclamations.</p>"
   },
   {
    "id": "style",

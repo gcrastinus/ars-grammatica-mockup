@@ -271,7 +271,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-23",
    "title": "Corneille, <em>Le Cid</em> I.4.1–4 · Alexandrine",
-   "body": "<p>Ô rage ! ô désespoir ! ô vieillesse ennemie !<br>N’ai-je donc tant vécu que pour cette infamie ?<br>Et ne suis-je blanchi dans les travaux guerriers<br>Que pour voir en un jour flétrir tant de lauriers ?</p><p>O rage! O despair! O inimical old age! Have I then lived so long only for this disgrace? And have I grown gray in warlike toils, only to see in one day so many of my laurels wither?<br>— Roscoe Mongan</p><p><strong>Context.</strong> Don Diègue, too old to avenge the slap he has just received, laments alone. The alexandrine has twelve syllables, with a pause after the sixth.</p>",
+   "body": "<p>Ô rage ! ô désespoir ! ô vieillesse ennemie !<br>N’ai-je donc tant vécu que pour cette infamie ?<br>Et ne suis-je blanchi dans les travaux guerriers<br>Que pour voir en un jour flétrir tant de lauriers ?</p><p>O rage! O despair! O inimical old age! Have I then lived so long only for this disgrace? And have I grown gray in warlike toils, only to see in one day so many of my laurels wither?<br>Translation: Roscoe Mongan.</p><p><strong>Context.</strong> Don Diègue, too old to avenge the slap he has just received, laments alone. The alexandrine has twelve syllables, with a pause after the sixth.</p>",
    "qp": {
     "id": "q-fr-ixv-poetry-23",
     "variants": [
@@ -334,7 +334,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-28",
    "title": "Corneille, <em>Le Cid</em> I.5 · Alexandrine",
-   "body": "<p>Rodrigue, as-tu du cœur ?<br>— Tout autre que mon père<br>L’éprouverait sur l’heure.</p><p>Rodrigo, have you courage?<br>— Any other than my father would have found that out instantly.<br>— Roscoe Mongan</p><p><strong>Context.</strong> Don Diègue, too old to avenge an insult, asks his son whether he has the courage to do it for him. One alexandrine is divided between the two speakers.</p>",
+   "body": "<p>Rodrigue, as-tu du cœur ?<br>— Tout autre que mon père<br>L’éprouverait sur l’heure.</p><p>Rodrigo, have you courage?<br>— Any other than my father would have found that out instantly.<br>Translation: Roscoe Mongan.</p><p><strong>Context.</strong> Don Diègue, too old to avenge an insult, asks his son whether he has the courage to do it for him. One alexandrine is divided between the two speakers.</p>",
    "qp": {
     "id": "q-fr-ixv-poetry-28",
     "variants": [

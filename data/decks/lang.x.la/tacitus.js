@@ -9,7 +9,7 @@ ARS.decks["lang.x.la/tacitus"] = {
   {
    "id": "text",
    "title": "Tacitus, <i>Agricola</i> 30",
-   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>— Church and Brodribb</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>"
+   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>Translation: Church and Brodribb.</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>"
   },
   {
    "id": "style",

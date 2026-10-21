@@ -9,7 +9,7 @@ ARS.decks["lang.x.de/grimm"] = {
   {
    "id": "text",
    "title": "Grimm, <i>Der Froschkönig</i> KHM 1",
-   "body": "<p>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, so oft sie ihr ins Gesicht schien.</p><p>In old times when wishing still helped one, there lived a king whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, which has seen so much, was astonished whenever it shone in her face.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the first sentence of the first tale in the Grimms’ collection. It is one long sentence that moves from the old days to a king, to his daughters, to the youngest, and to the sun.</p>"
+   "body": "<p>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, so oft sie ihr ins Gesicht schien.</p><p>In old times when wishing still helped one, there lived a king whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, which has seen so much, was astonished whenever it shone in her face.<br>Translation: Margaret Hunt.</p><p><strong>Context.</strong> This is the first sentence of the first tale in the Grimms’ collection. It is one long sentence that moves from the old days to a king, to his daughters, to the youngest, and to the sun.</p>"
   },
   {
    "id": "style",

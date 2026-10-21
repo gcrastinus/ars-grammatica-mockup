@@ -9,7 +9,7 @@ ARS.decks["lang.x.la/cicero1"] = {
   {
    "id": "text",
    "title": "Cicero, <i>In Catilinam</i> I.1",
-   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>— Yonge</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>"
+   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>"
   },
   {
    "id": "style",

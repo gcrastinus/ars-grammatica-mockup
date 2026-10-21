@@ -9,7 +9,7 @@ ARS.decks["lang.x.fr/proust"] = {
   {
    "id": "text",
    "title": "Proust, <i>Du côté de chez Swann</i> I.1",
-   "body": "<p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>— C. K. Scott Moncrieff</p><p><strong>Context.</strong> These are the first sentences of <i>In Search of Lost Time</i>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>"
+   "body": "<p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>Translation: C. K. Scott Moncrieff.</p><p><strong>Context.</strong> These are the first sentences of <i>In Search of Lost Time</i>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>"
   },
   {
    "id": "style",

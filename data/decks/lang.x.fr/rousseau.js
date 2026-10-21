@@ -9,7 +9,7 @@ ARS.decks["lang.x.fr/rousseau"] = {
   {
    "id": "text",
    "title": "Rousseau, <i>Du contrat social</i> I.1",
-   "body": "<p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau opens the first book of the <i>Social Contract</i> with a contrast between what man is by birth and what he is in society.</p>"
+   "body": "<p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>Translation: G. D. H. Cole.</p><p><strong>Context.</strong> Rousseau opens the first book of the <i>Social Contract</i> with a contrast between what man is by birth and what he is in society.</p>"
   },
   {
    "id": "style",

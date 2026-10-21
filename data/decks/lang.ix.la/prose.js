@@ -9,7 +9,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-1",
    "title": "Livy, <em>Ab urbe condita</em> I.1.1",
-   "body": "<p>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.<br>— Roberts</p><p><strong>Context.</strong> Livy opens his history of Rome with the fall of Troy. Before he tells of Aeneas, he states what is generally agreed: that the Greeks spared two Trojans, Aeneas and Antenor, and he gives two reasons. We met parts of this period in Section V, among the clauses in the authors. The whole is one period, and every clause in it depends, directly or through another, on <em>satis constat</em>, “it is well agreed.”</p>",
+   "body": "<p>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.<br>Translation: Canon Roberts.</p><p><strong>Context.</strong> Livy opens his history of Rome with the fall of Troy. Before he tells of Aeneas, he states what is generally agreed: that the Greeks spared two Trojans, Aeneas and Antenor, and he gives two reasons. We met parts of this period in Section V, among the clauses in the authors. The whole is one period, and every clause in it depends, directly or through another, on <em>satis constat</em>, “it is well agreed.”</p>",
    "qp": {
     "id": "q-la-ixp-prose-1",
     "variants": [
@@ -82,7 +82,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-8",
    "title": "Cicero, <em>In Catilinam</em> I.1",
-   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>— Yonge</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>",
+   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>",
    "qp": {
     "id": "q-la-ixp-prose-8",
     "variants": [
@@ -150,7 +150,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-14",
    "title": "Cicero, <em>In Catilinam</em> II.1",
-   "body": "<p>Tandem aliquando, Quirites, L. Catilinam furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem ex urbe vel eiecimus vel emisimus vel ipsum egredientem verbis prosecuti sumus.</p><p>At length, O Romans, we have dismissed from the city, or driven out, or, when he was departing of his own accord, we have pursued with words, Lucius Catiline, mad with audacity, breathing wickedness, impiously planning mischief to his country, threatening fire and sword to you and to this city.<br>— Yonge</p><p><strong>Context.</strong> The day after the first speech, Catiline left Rome, and Cicero spoke to the people. The opening sentence is one long period: four participles describe Catiline, and three verbs, joined by <em>vel</em>, offer three ways of describing his departure.</p>",
+   "body": "<p>Tandem aliquando, Quirites, L. Catilinam furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem ex urbe vel eiecimus vel emisimus vel ipsum egredientem verbis prosecuti sumus.</p><p>At length, O Romans, we have dismissed from the city, or driven out, or, when he was departing of his own accord, we have pursued with words, Lucius Catiline, mad with audacity, breathing wickedness, impiously planning mischief to his country, threatening fire and sword to you and to this city.<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> The day after the first speech, Catiline left Rome, and Cicero spoke to the people. The opening sentence is one long period: four participles describe Catiline, and three verbs, joined by <em>vel</em>, offer three ways of describing his departure.</p>",
    "qp": {
     "id": "q-la-ixp-prose-14",
     "variants": [
@@ -213,7 +213,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-19",
    "title": "Cicero, <em>In Verrem</em> Actio prima 1",
-   "body": "<p>quod erat optandum maxime, iudices, et quod unum ad invidiam vestri ordinis infamiamque iudiciorum sedandam maxime pertinebat, id non humano consilio sed prope divinitus datum atque oblatum vobis summo rei publicae tempore videtur.</p><p>That which was above all things to be desired, O judges, and which above all things was calculated to have the greatest influence toward allaying the unpopularity of your order, and putting an end to the discredit into which your judicial decisions have fallen, appears to have been thrown in your way, and given to you not by any human contrivance, but almost by the interposition of the gods, at a most important crisis of the republic.<br>— Yonge</p><p><strong>Context.</strong> In 70 BC Cicero prosecuted Verres, a former governor of Sicily, for extortion. The juries were then drawn from the senate, and they were widely thought to be corrupt. Cicero opens by telling the judges that this trial is a gift to them, a chance to restore the good name of their order.</p>",
+   "body": "<p>quod erat optandum maxime, iudices, et quod unum ad invidiam vestri ordinis infamiamque iudiciorum sedandam maxime pertinebat, id non humano consilio sed prope divinitus datum atque oblatum vobis summo rei publicae tempore videtur.</p><p>That which was above all things to be desired, O judges, and which above all things was calculated to have the greatest influence toward allaying the unpopularity of your order, and putting an end to the discredit into which your judicial decisions have fallen, appears to have been thrown in your way, and given to you not by any human contrivance, but almost by the interposition of the gods, at a most important crisis of the republic.<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> In 70 BC Cicero prosecuted Verres, a former governor of Sicily, for extortion. The juries were then drawn from the senate, and they were widely thought to be corrupt. Cicero opens by telling the judges that this trial is a gift to them, a chance to restore the good name of their order.</p>",
    "qp": {
     "id": "q-la-ixp-prose-19",
     "variants": [
@@ -281,7 +281,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-25",
    "title": "Cicero, <em>Philippicae</em> I.1",
-   "body": "<p>ante quam de re publica, patres conscripti, dicam ea quae dicenda hoc tempore arbitror, exponam vobis breviter consilium et profectionis et reversionis meae.</p><p>Before, O conscript fathers, I say those things concerning the republic which I think myself bound to say at the present time, I will explain to you briefly the cause of my departure from, and of my return to, the city.<br>— Yonge</p><p><strong>Context.</strong> In September 44 BC, after Caesar’s death, Cicero returned to Rome and spoke in the senate against Antony. He begins by promising to explain why he had set out from Italy and why he came back.</p>",
+   "body": "<p>ante quam de re publica, patres conscripti, dicam ea quae dicenda hoc tempore arbitror, exponam vobis breviter consilium et profectionis et reversionis meae.</p><p>Before, O conscript fathers, I say those things concerning the republic which I think myself bound to say at the present time, I will explain to you briefly the cause of my departure from, and of my return to, the city.<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> In September 44 BC, after Caesar’s death, Cicero returned to Rome and spoke in the senate against Antony. He begins by promising to explain why he had set out from Italy and why he came back.</p>",
    "qp": {
     "id": "q-la-ixp-prose-25",
     "variants": [
@@ -344,7 +344,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-30",
    "title": "Sallust, <em>Bellum Catilinae</em> 5",
-   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>— Watson</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>",
+   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>Translation: J. S. Watson.</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>",
    "qp": {
     "id": "q-la-ixp-prose-30",
     "variants": [
@@ -407,7 +407,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-35",
    "title": "Livy, <em>Ab urbe condita</em> I.54",
-   "body": "<p>inde in consilia publica adhiberi. ubi cum de aliis rebus adsentiri se veteribus Gabinis diceret, quibus eae notiores essent, ipse identidem belli auctor esse et in eo sibi praecipuam prudentiam adsumere, quod utriusque populi vires nosset …</p><p>He was admitted to the meetings of the national council. Whilst expressing his agreement with the elders of Gabii on other subjects, on which they were better informed, he was continually urging them to war, and claimed to speak with special authority, because he was acquainted with the strength of each nation, …<br>— Roberts</p><p><strong>Context.</strong> Sextus Tarquinius, son of the last king of Rome, has fled to the town of Gabii, pretending to be an exile from his father’s cruelty. Livy tells how he won the trust of the Gabines, and he tells it with historical infinitives.</p>",
+   "body": "<p>inde in consilia publica adhiberi. ubi cum de aliis rebus adsentiri se veteribus Gabinis diceret, quibus eae notiores essent, ipse identidem belli auctor esse et in eo sibi praecipuam prudentiam adsumere, quod utriusque populi vires nosset …</p><p>He was admitted to the meetings of the national council. Whilst expressing his agreement with the elders of Gabii on other subjects, on which they were better informed, he was continually urging them to war, and claimed to speak with special authority, because he was acquainted with the strength of each nation, …<br>Translation: Canon Roberts.</p><p><strong>Context.</strong> Sextus Tarquinius, son of the last king of Rome, has fled to the town of Gabii, pretending to be an exile from his father’s cruelty. Livy tells how he won the trust of the Gabines, and he tells it with historical infinitives.</p>",
    "qp": {
     "id": "q-la-ixp-prose-35",
     "variants": [
@@ -475,7 +475,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-41",
    "title": "Livy, <em>Ab urbe condita</em> II.10",
-   "body": "<p>pons sublicius iter paene hostibus dedit, ni unus vir fuisset, Horatius Cocles; id munimentum illo die fortuna urbis Romanae habuit.</p><p>The enemy would have forced their way over the Sublician bridge had it not been for one man, Horatius Cocles. The good fortune of Rome provided him as her bulwark on that memorable day.<br>— Roberts</p><p><strong>Context.</strong> When the Etruscans under Porsenna attacked Rome, the wooden bridge over the Tiber nearly let them into the city. Livy introduces Horatius Cocles, who held the bridge while it was cut down behind him.</p>",
+   "body": "<p>pons sublicius iter paene hostibus dedit, ni unus vir fuisset, Horatius Cocles; id munimentum illo die fortuna urbis Romanae habuit.</p><p>The enemy would have forced their way over the Sublician bridge had it not been for one man, Horatius Cocles. The good fortune of Rome provided him as her bulwark on that memorable day.<br>Translation: Canon Roberts.</p><p><strong>Context.</strong> When the Etruscans under Porsenna attacked Rome, the wooden bridge over the Tiber nearly let them into the city. Livy introduces Horatius Cocles, who held the bridge while it was cut down behind him.</p>",
    "qp": {
     "id": "q-la-ixp-prose-41",
     "variants": [
@@ -533,7 +533,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-45",
    "title": "Augustine, <em>Confessiones</em> I.1",
-   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.<br>— Pusey</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>",
+   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.<br>Translation: E. B. Pusey.</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>",
    "qp": {
     "id": "q-la-ixp-prose-45",
     "variants": [
@@ -591,7 +591,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-49",
    "title": "Boethius, <em>De consolatione philosophiae</em> I, prose 1",
-   "body": "<p>Haec dum mecum tacitus ipse reputarem querimoniamque lacrimabilem stili officio signarem, adstitisse mihi supra uerticem uisa est mulier …</p><p>While I ruminated these things with myself, and determined to set forth my woful complaint in writing, methought I saw a woman stand above my head, …<br>— trans. “I. T.” (1609), revised by H. F. Stewart</p><p><strong>Context.</strong> Boethius wrote the <em>Consolation</em> in prison, awaiting execution. The book opens with a poem of lament; this prose section begins as Philosophy appears to him. The text writes <em>u</em> for <em>v</em>.</p>",
+   "body": "<p>Haec dum mecum tacitus ipse reputarem querimoniamque lacrimabilem stili officio signarem, adstitisse mihi supra uerticem uisa est mulier …</p><p>While I ruminated these things with myself, and determined to set forth my woful complaint in writing, methought I saw a woman stand above my head, …<br>Translation: “I. T.” (1609), revised by H. F. Stewart.</p><p><strong>Context.</strong> Boethius wrote the <em>Consolation</em> in prison, awaiting execution. The book opens with a poem of lament; this prose section begins as Philosophy appears to him. The text writes <em>u</em> for <em>v</em>.</p>",
    "qp": {
     "id": "q-la-ixp-prose-49",
     "variants": [
@@ -654,7 +654,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-54",
    "title": "Cicero, <em>In Catilinam</em> I.2",
-   "body": "<p>O tempora, o mores! senatus haec intellegit, consul videt; hic tamen vivit. vivit? immo vero etiam in senatum venit, …</p><p>Shame on the age and on its principles! The senate is aware of these things; the consul sees them; and yet this man lives. Lives! aye, he comes even into the senate.<br>— Yonge</p><p><strong>Context.</strong> A few lines into the first speech against Catiline, Cicero turns from Catiline to the state of the times: the senate and the consul know what he is doing, and yet he lives and even comes into the senate.</p>",
+   "body": "<p>O tempora, o mores! senatus haec intellegit, consul videt; hic tamen vivit. vivit? immo vero etiam in senatum venit, …</p><p>Shame on the age and on its principles! The senate is aware of these things; the consul sees them; and yet this man lives. Lives! aye, he comes even into the senate.<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> A few lines into the first speech against Catiline, Cicero turns from Catiline to the state of the times: the senate and the consul know what he is doing, and yet he lives and even comes into the senate.</p>",
    "qp": {
     "id": "q-la-ixp-prose-54",
     "variants": [
@@ -717,7 +717,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-59",
    "title": "Cicero, <em>Pro Milone</em> 1",
-   "body": "<p>Etsi vereor, iudices, ne turpe sit pro fortissimo viro dicere incipientem timere, …</p><p>Although I am afraid, O judges, that it is a base thing for one who is beginning to speak for a very brave man to be alarmed, …<br>— Yonge</p><p><strong>Context.</strong> In 52 BC Cicero defended Milo, who was charged with the killing of Clodius. The court was surrounded by soldiers, and Cicero begins by admitting that he is afraid.</p>",
+   "body": "<p>Etsi vereor, iudices, ne turpe sit pro fortissimo viro dicere incipientem timere, …</p><p>Although I am afraid, O judges, that it is a base thing for one who is beginning to speak for a very brave man to be alarmed, …<br>Translation: C. D. Yonge.</p><p><strong>Context.</strong> In 52 BC Cicero defended Milo, who was charged with the killing of Clodius. The court was surrounded by soldiers, and Cicero begins by admitting that he is afraid.</p>",
    "qp": {
     "id": "q-la-ixp-prose-59",
     "variants": [
@@ -775,7 +775,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-63",
    "title": "Sallust, <em>Bellum Catilinae</em> 51",
-   "body": "<p>Omnis homines, patres conscripti, qui de rebus dubiis consultant, ab odio, amicitia, ira atque misericordia vacuos esse decet.</p><p>It becomes all men, Conscript Fathers, who deliberate on dubious matters, to be influenced neither by hatred, affection, anger, nor pity.<br>— Watson</p><p><strong>Context.</strong> In the debate on the punishment of the conspirators, Sallust gives Julius Caesar a speech urging the senate not to act in anger. This is its first sentence.</p>",
+   "body": "<p>Omnis homines, patres conscripti, qui de rebus dubiis consultant, ab odio, amicitia, ira atque misericordia vacuos esse decet.</p><p>It becomes all men, Conscript Fathers, who deliberate on dubious matters, to be influenced neither by hatred, affection, anger, nor pity.<br>Translation: J. S. Watson.</p><p><strong>Context.</strong> In the debate on the punishment of the conspirators, Sallust gives Julius Caesar a speech urging the senate not to act in anger. This is its first sentence.</p>",
    "qp": {
     "id": "q-la-ixp-prose-63",
     "variants": [
@@ -901,7 +901,7 @@ ARS.decks["lang.ix.la/prose"] = {
   {
    "id": "prose-73",
    "title": "Tacitus, <em>Agricola</em> 30",
-   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>— Church and Brodribb</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>",
+   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>Translation: Church and Brodribb.</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>",
    "qp": {
     "id": "q-la-ixp-prose-73",
     "variants": [
