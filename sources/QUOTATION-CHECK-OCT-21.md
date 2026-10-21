@@ -24,7 +24,7 @@ Timothy's decision of 21 Oct 2026: check every quotation listed as unverified in
 
 | Quotation | Where | Edition checked | Result |
 |---|---|---|---|
-| Goethe, *Faust* I, lines 1, 317, 354–356, 358–359, 1112, 1335–1336, 1557 and following, 1700, 2038–2039 | lang.vii.de/figures, tropes, figures-ex; lang.ii.de/meter | Gutenberg ebook 2229 | **corrected**: *Verweile doch! du bist so schön!* (1700); *Es irrt der Mensch so lang er strebt.* (317); *Habe nun, ach! Philosophie, / Juristerei und Medizin, / Und leider auch Theologie* (354–356, with its line breaks); the rest verified |
+| Goethe, *Faust* I, every line quoted in these decks and sets | lang.vii.de/figures, tropes, figures-ex; lang.ii.de/meter | Gutenberg ebook 2229 | **corrected**: *Verweile doch! du bist so schön!* (1700); *Es irrt der Mensch so lang er strebt.* (317); *Habe nun, ach! Philosophie, / Juristerei und Medizin, / Und leider auch Theologie* (354–356, with its line breaks); the rest verified |
 | Goethe, "Erlkönig" 1–3 and "Mein Vater, mein Vater" | lang.ii.de/meter, meter-ex; lang.vii.de/tropes-ex | de.wikisource | verified |
 | Goethe, "Heidenröslein" 1 | lang.ii.de/meter | de.wikisource prints *Knab'*; the course prints *Knab*, as many modern editions do | words verified |
 | Goethe, "Mignon" (*Wilhelm Meisters Lehrjahre* III.1) | lang.vii.de/tropes | de.wikisource (*Citronen*); modernized spelling *Zitronen* | **corrected**: the course had added question marks to *Kennst du das Land, wo die Zitronen blühn*, *Kennst du das Haus*, and *Kennst du den Berg*; they are now quoted as they begin their lines |
