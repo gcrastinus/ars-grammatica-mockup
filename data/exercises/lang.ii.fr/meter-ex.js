@@ -15,8 +15,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>une belle nuit</em>, how many syllables does verse count?",
-   "explain": "Before a consonant the mute <em>e</em> is counted: <em>u-ne</em>, <em>bel-le</em>, <em>nuit</em>.",
+   "prompt": "In <em>une longue nuit</em>, how many syllables does verse count?",
+   "explain": "u-ne-lon-gue-nuit: the mute <em>e</em> of <em>une</em> and of <em>longue</em> counts before a consonant, so the group has five syllables.",
    "options": [
     "Five",
     "Three",
@@ -255,15 +255,15 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "The lines of Verlaine’s <em>Chanson d’automne</em> that the account names are of how many syllables?",
-   "explain": "Those lines have four syllables. Verlaine likes odd-numbered lines and very short ones. Four is not the octosyllable and not the alexandrine.",
+   "prompt": "In Baudelaire’s <em>Mon enfant, ma sœur, / Songe à la douceur</em>, how many syllables has each line?",
+   "explain": "mon-en-fant-ma-sœur has five syllables; in son-gea-la-dou-ceur the mute <em>e</em> of <em>songe</em> is elided before <em>à</em>, so this line also has five.",
    "options": [
     "Four",
-    "Six, like Du Bellay’s hymn",
-    "Eight, with a fixed caesura",
-    "Twelve, with the caesura after the sixth"
+    "Five",
+    "Six, like a half alexandrine",
+    "Eight, with a fixed caesura"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.ii.fr/meter-ex:n16",
@@ -271,10 +271,10 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "A masculine rhyme, such as <em>nuit</em> / <em>fuit</em>, ends on…",
-   "explain": "A masculine rhyme ends on a sounded vowel or consonant. A feminine rhyme ends on a mute <em>e</em>, as <em>belle</em> / <em>elle</em>. The names are not the grammatical gender of a noun.",
+   "prompt": "A masculine rhyme, such as <em>sœur</em> / <em>douceur</em>, ends on…",
+   "explain": "A masculine rhyme ends on a sounded syllable, here the <em>r</em> of <em>sœur</em> and <em>douceur</em>; a feminine rhyme ends on a mute <em>e</em>.",
    "options": [
-    "A mute <em>e</em>",
+    "A mute e",
     "A feminine noun",
     "A sounded vowel or consonant",
     "The caesura"
