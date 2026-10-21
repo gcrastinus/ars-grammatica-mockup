@@ -288,7 +288,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb <i><i>cano</i></i> also depends on its object. Which word terminates that dependence? <i>Arma virumque <b>cano</b>, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora.</i>",
-   "explain": "<i>Arma</i> (and <i>virum</i>) are accusative and terminate the transitive dependence of <i>cano</i>. “I sing of arms and the man who first came from the shores of Troy, an exile by fate, to Italy and the Lavinian shores.” (Virgil, <i>Aeneid</i> I.1–3)",
+   "explain": "<i>Arma</i> (and <i>virum</i>) are accusative and terminate the transitive dependence of <i>cano</i>. “Arms I sing and the man who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …” (Virgil, <i>Aeneid</i> I.1–3)",
    "options": [
     "<i>Arma</i>",
     "<i>Troiae</i>",

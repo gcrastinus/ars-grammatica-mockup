@@ -388,8 +388,8 @@ The passages and their English are those of the Section IX passage decks, where 
 | lang.x.la/livy | *Ab urbe condita* I.1.1 | Canon Roberts |
 | lang.x.la/sallust | *Bellum Catilinae* 5 | J. S. Watson |
 | lang.x.la/tacitus | *Agricola* 30 | Church and Brodribb |
-| lang.x.la/virgil | *Aeneid* I.1–11 | the course’s own |
-| lang.x.grc/homer | *Iliad* 1.1–7 | the course’s own |
+| lang.x.la/virgil (and lang.ix.la/poetry, poetry-ex, lang.v.la/workshop-ex) | *Aeneid* I.1–11 | H. Rushton Fairclough, Loeb (1916), checked against the 1916 printing (archive.org, virgil-aeneid-loeb), 21 Oct 2026 |
+| lang.x.grc/homer (and lang.ix.grc/poetry) | *Iliad* 1.1–7 | A. T. Murray, Loeb (1924), checked on Perseus (1999.01.0134), 21 Oct 2026 |
 | lang.x.grc/demosthenes | First Philippic 1 | Charles Rann Kennedy |
 | lang.x.grc/herodotus | I.0 | G. C. Macaulay |
 | lang.x.grc/john | John 1:1–5 | King James Version |

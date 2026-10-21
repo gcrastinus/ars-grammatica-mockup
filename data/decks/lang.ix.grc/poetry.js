@@ -4,12 +4,12 @@ ARS.decks["lang.ix.grc/poetry"] = {
  "id": "lang.ix.grc/poetry",
  "title": "Greek Poetry",
  "sub": "Ten passages in four meters, read part by part",
- "sources": "Smyth, <em>Greek Grammar</em>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
+ "sources": "Smyth, <em>Greek Grammar</em>; the translations of Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
    "title": "Homer, <em>Iliad</em> 1.1–7 · Dactylic hexameter",
-   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>Sing, goddess, the wrath of Achilles son of Peleus,<br>the accursed wrath, which laid countless pains on the Achaeans,<br>and sent forth many mighty souls to Hades,<br>souls of heroes, and made the men themselves a prey for dogs<br>and for all birds, and the will of Zeus was being fulfilled,<br>from the time when the two first quarreled and stood apart,<br>the son of Atreus, lord of men, and godlike Achilles.</p><p><strong>Context.</strong> The <em>Iliad</em> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>",
+   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>The wrath sing, goddess, of Peleus’ son, Achilles, that destructive wrath which brought countless woes upon the Achaeans, and sent forth to Hades many valiant souls of heroes, and made them themselves spoil for dogs and every bird; thus the plan of Zeus came to fulfillment, from the time when first they parted in strife Atreus’ son, king of men, and brilliant Achilles.<br>Translation: A. T. Murray.</p><p><strong>Context.</strong> The <em>Iliad</em> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>",
    "qp": {
     "id": "q-grc-ixv-poetry-1",
     "variants": [

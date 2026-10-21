@@ -916,7 +916,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "On which word does <em>qui</em> depend?<br><br>“Arms and the man I sing, who first from the shores of Troy came, an exile by fate, to Italy and the Lavinian shores, …”<br>(<em>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
+   "prompt": "On which word does <em>qui</em> depend?<br><br>“Arms I sing and the man who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
    "explain": "The relative takes up <em>virum</em>, the man just named. Its own verb is <em>venit</em>, so <em>qui</em> is nominative, the subject of <em>venit</em>, and not an accusative with <em>cano</em>.",
    "options": [
     "<em>virum</em>, the man just named",
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ob iram</em> with <em>memorem Iunonis</em>: how does it stand?<br><br>“much tossed was he on land and on the deep by the might of the gods above, because of cruel Juno’s unforgetting wrath;”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "prompt": "<em>ob iram</em> with <em>memorem Iunonis</em>: how does it stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
    "explain": "<em>Ob</em> takes the accusative, and the phrase gives the cause of <em>iactatus</em>. There is no second verb, so the question of parataxis or hypotaxis does not arise.",
    "options": [
     "As a phrase, not a clause: <em>ob</em> governs <em>iram</em> and gives the cause",
@@ -984,7 +984,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>fato profugus</em>: what work is <em>fato</em> doing?<br><br>“who first from the shores of Troy, an exile by fate, came to Italy and the Lavinian shores, …”<br>(<em>Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
+   "prompt": "<em>fato profugus</em>: what work is <em>fato</em> doing?<br><br>“who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em>Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
    "explain": "<em>Fato</em> is ablative and names the cause of his exile. <em>Italiam</em> and <em>litora</em> are accusatives of the goal with <em>venit</em>, without a preposition, as is usual in verse.",
    "options": [
     "Ablative of cause: an exile <em>by</em> fate",
@@ -1001,7 +1001,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>et terris … et alto</em>: how do these words stand?<br><br>“much tossed was he on land and on the deep by the might of the gods above, because of cruel Juno’s unforgetting wrath;”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "prompt": "<em>et terris … et alto</em>: how do these words stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
    "explain": "<em>Terris</em> and <em>alto</em> (“the deep”) are ablatives telling where he was tossed. Verse often leaves out the <em>in</em> that prose would write. <em>Et … et</em> joins them as companions.",
    "options": [
     "As ablatives of place where, without a preposition",
@@ -1018,7 +1018,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>vi superum</em>: what form is <em>superum</em>?<br><br>“much tossed was he on land and on the deep by the might of the gods above, because of cruel Juno’s unforgetting wrath;”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "prompt": "<em>vi superum</em>: what form is <em>superum</em>?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
    "explain": "The old genitive plural in <em>-um</em> stands for <em>-orum</em>, as in <em>deum</em> for <em>deorum</em> in line 9. <em>Vi superum</em> is “by the force of the gods above.”",
    "options": [
     "Genitive plural, for <em>superorum</em>: of the gods above",
@@ -1035,7 +1035,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>saevae memorem Iunonis ob iram</em>: with which word does <em>memorem</em> agree?<br><br>“much tossed was he on land and on the deep by the might of the gods above, because of cruel Juno’s unforgetting wrath;”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "prompt": "<em>saevae memorem Iunonis ob iram</em>: with which word does <em>memorem</em> agree?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
    "explain": "<em>Memorem</em> is accusative singular, and so it agrees with <em>iram</em>, the object of <em>ob</em>. <em>Saevae</em> agrees with <em>Iunonis</em>. The two adjectives are interlaced with the two nouns, a common order in verse.",
    "options": [
     "<em>iram</em>: Juno’s unforgetting wrath",
