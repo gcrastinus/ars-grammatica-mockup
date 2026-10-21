@@ -74,13 +74,9 @@ Left, as the spec had already decided: the old vocabulary files, the Latin scans
 
 ## 7. Quotations and translations not verified in this pass
 
-Every translation that is the course's own is marked in its deck's Sources note and listed in sources/TRANSLATIONS-USED.md. These original-language quotations were written from the standard text as remembered and were not collated against a printed or online edition in this pass:
+Every translation that is the course's own is marked in its deck's Sources note and listed in sources/TRANSLATIONS-USED.md. The original-language quotations that stood in this section were collated on 21 Oct 2026. The record is notes/QUOTATIONS-COLLATION-REPORT.md. Two were corrected: Baudelaire, "Correspondances" line 2, and *Rhetorica ad Herennium* IV.39. The eight Servius notes were read in the Wikisource transcription of Thilo, not on a photograph of the printed page, and they match that transcription. One quotation is still unverified:
 
-- Section VII tropes and schemes: Homer, *Odyssey* II.1, I.343 and *Iliad* II.426, XVIII.309, II.671–673; Plato, *Republic* 337a and *Apology* 38a; Mark 2:27; Sophocles, *Antigone* 523; Plutarch, *Caesar* 50; Thucydides II.40; Hesiod, *Works and Days* 40; Baudelaire, "Correspondances" 1–4; Voltaire, *Candide* 1; Corneille, *Horace* IV.5 and *Le Cid* I.5, II.2, IV.3; Molière, *L'Avare* III.1; Hugo, "L'Expiation" 1; Ronsard, *Sonnets pour Hélène* II.24; Goethe, *Faust* (lines other than Bayard Taylor's, which were checked), "Mignon" 1; Schiller, *Wilhelm Tell* III.1; Virgil, *Aeneid* I.300–301, I.399; Cicero, *In Catilinam* I.1, II.1; *Rhetorica ad Herennium* IV.39; Seneca, *Epistulae* 106.12.
-- Section VI: Catullus 84.1–2 and the *Appendix Probi* entries quoted.
-- Section II meter sets (21 Oct): Lessing, *Nathan der Weise* III.7 ("Es eifre jeder seiner unbestochnen"); Schiller, "Das Lied von der Glocke" ("Steht die Form, aus Lehm gebrannt"; "Frisch, Gesellen! seid zur Hand"); Goethe, "Erlkönig" lines 2 and 3; Paul Gerhardt, "O Haupt voll Blut und Wunden" 1–2; Baudelaire, "L'Invitation au voyage" 1–2.
-- Servius: the eight new notes are from the Wikisource transcription of Thilo, which is not collated to the printed page.
-- The Preliminary overviews quote nothing; their facts follow the standard histories named in each deck's Sources note (Baugh and Cable; Palmer; Horrocks; Elcock and Rickard; Wells).
+- Section II meter set: Paul Gerhardt, "O Haupt voll Blut und Wunden" 1–2 (*O Haupt voll Blut und Wunden, / Voll Schmerz und voller Hohn*). No text of the hymn was found on German Wikisource, Project Gutenberg, or Gallica. The words agree with the Evangelisches Gesangbuch text (EG 85) as reprinted on the German Wikipedia article, except that the course capitalizes *Voll* at the start of the second line, where that reprint has *voll*.
 
 ## 8. Checks
 
