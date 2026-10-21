@@ -5,7 +5,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Clauses and the Order of Words in German",
+ "title": "Clauses in German",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Der Mann, ______ spricht, ist mein Freund. The man who speaks is my friend.",
-   "explain": "The relative pronoun takes its gender and number from <em>der Mann</em> and its case from its own clause, where it is the subject: <em>der</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Der Mann, ______ spricht, ist mein Freund.</i> (“The man who speaks is my friend”).",
+   "explain": "The relative pronoun takes its gender and number from <i>der Mann</i> and its case from its own clause, where it is the subject: <i>der</i>.",
    "options": [
-    "der",
-    "den",
-    "dem",
-    "die"
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>dem</i>",
+    "<i>die</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Der Mann, ______ ich sehe, ist der König. The man whom I see is the king.",
-   "explain": "The relative is the object of <em>sehe</em>, so it is in the accusative: <em>den</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Der Mann, ______ ich sehe, ist der König.</i> (“The man whom I see is the king”).",
+   "explain": "The relative is the object of <i>sehe</i>, so it is in the accusative: <i>den</i>.",
    "options": [
-    "den",
-    "der",
-    "dem",
-    "dessen"
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>dessen</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Der Mann, ______ ich helfe, ist mein Freund. The man whom I help is my friend.",
-   "explain": "Helfen takes the dative, so the relative is <em>dem</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Der Mann, ______ ich helfe, ist mein Freund.</i> (“The man whom I help is my friend”).",
+   "explain": "Helfen takes the dative, so the relative is <i>dem</i>.",
    "options": [
-    "dem",
-    "den",
-    "der",
-    "dessen"
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dessen</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Die Frau, ______ Haus groß ist, ist hier. The woman whose house is large is here.",
-   "explain": "The relative that shows the possessor is in the genitive, and for a feminine antecedent it is <em>deren</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Die Frau, ______ Haus groß ist, ist hier.</i> (“The woman whose house is large is here”).",
+   "explain": "The relative that shows the possessor is in the genitive, and for a feminine antecedent it is <i>deren</i>.",
    "options": [
-    "deren",
-    "dessen",
-    "der",
-    "die"
+    "<i>deren</i>",
+    "<i>dessen</i>",
+    "<i>der</i>",
+    "<i>die</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Der Mann, ______ Pferd alt ist, ist hier. The man whose horse is old is here.",
-   "explain": "For a masculine antecedent, the genitive relative is <em>dessen</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Der Mann, ______ Pferd alt ist, ist hier.</i> (“The man whose horse is old is here”).",
+   "explain": "For a masculine antecedent, the genitive relative is <i>dessen</i>.",
    "options": [
-    "dessen",
-    "deren",
-    "dem",
-    "der"
+    "<i>dessen</i>",
+    "<i>deren</i>",
+    "<i>dem</i>",
+    "<i>der</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Das Buch, ______ ich lese, ist lang. The book that I read is long.",
-   "explain": "The relative of a neuter noun <em>in</em> the accusative is <em>das</em>, with one s. <em>Dass</em> is the conjunction that.",
+   "prompt": "Choose the form that fills the blank: <i>Das Buch, ______ ich lese, ist lang.</i> (“The book that I read is long”).",
+   "explain": "The relative of a neuter noun <i>in</i> the accusative is <i>das</i>, with one s. <i>Dass</i> is the conjunction that.",
    "options": [
-    "das",
-    "dass",
-    "den",
-    "der"
+    "<i>das</i>",
+    "<i>dass</i>",
+    "<i>den</i>",
+    "<i>der</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Die Frauen, ______ kommen, sind Freundinnen. The women who come are friends.",
-   "explain": "The relative of a plural noun <em>in</em> the nominative is <em>die</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Die Frauen, ______ kommen, sind Freundinnen.</i> (“The women who come are friends”).",
+   "explain": "The relative of a plural noun <i>in</i> the nominative is <i>die</i>.",
    "options": [
-    "die",
-    "der",
-    "denen",
-    "deren"
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>denen</i>",
+    "<i>deren</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Die Männer, mit ______ ich spreche, sind hier. The men with whom I speak are here.",
-   "explain": "<em>Mit</em> takes the dative, and the dative plural of the relative is <em>denen</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Die Männer, mit ______ ich spreche, sind hier.</i> (“The men with whom I speak are here”).",
+   "explain": "<i>Mit</i> takes the dative, and the dative plural of the relative is <i>denen</i>.",
    "options": [
-    "denen",
-    "den",
-    "die",
-    "deren"
+    "<i>denen</i>",
+    "<i>den</i>",
+    "<i>die</i>",
+    "<i>deren</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er bleibt zu Hause, weil er krank ______. He stays at home because he is ill.",
-   "explain": "After <em>weil</em> the finite verb goes to the end of the clause, and the clause states a fact, so the indicative: <em>weil er krank ist</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er bleibt zu Hause, weil er krank ______.</i> (“He stays at home because he is ill”).",
+   "explain": "After <i>weil</i> the finite verb goes to the end of the clause, and the clause states a fact, so the indicative: <i>weil er krank ist</i>.",
    "options": [
-    "ist",
-    "sein",
-    "sei",
-    "seid"
+    "<i>ist</i>",
+    "<i>sein</i>",
+    "<i>sei</i>",
+    "<i>seid</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Sie liest, weil sie Zeit ______. She reads because she has time.",
-   "explain": "After <em>weil</em> the verb stands last, in the indicative: <em>weil sie Zeit hat</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Sie liest, weil sie Zeit ______.</i> (“She reads because she has time”).",
+   "explain": "After <i>weil</i> the verb stands last, in the indicative: <i>weil sie Zeit hat</i>.",
    "options": [
-    "hat",
-    "habe",
-    "haben",
-    "hätte"
+    "<i>hat</i>",
+    "<i>habe</i>",
+    "<i>haben</i>",
+    "<i>hätte</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wir bleiben, weil es ______. We stay because it is raining.",
-   "explain": "After <em>weil</em> the verb stands last: <em>weil es regnet</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Wir bleiben, weil es ______.</i> (“We stay because it is raining”).",
+   "explain": "After <i>weil</i> the verb stands last: <i>weil es regnet</i>.",
    "options": [
-    "regnet",
-    "regnen",
-    "geregnet",
-    "regne"
+    "<i>regnet</i>",
+    "<i>regnen</i>",
+    "<i>geregnet</i>",
+    "<i>regne</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er bleibt, ______ er müde ist. He stays because he is tired.",
-   "explain": "The verb stands at the end, so the clause is subordinate, and <em>weil</em> gives the reason. <em>Denn</em> would keep the order of a main clause: <em>denn er ist müde</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er bleibt, ______ er müde ist.</i> (“He stays because he is tired”).",
+   "explain": "The verb stands at the end, so the clause is subordinate, and <i>weil</i> gives the reason. <i>Denn</i> would keep the order of a main clause: <i>denn er ist müde</i>.",
    "options": [
-    "weil",
-    "denn",
-    "dass",
-    "ob"
+    "<i>weil</i>",
+    "<i>denn</i>",
+    "<i>dass</i>",
+    "<i>ob</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er bleibt, ______ er ist müde. He stays, for he is tired.",
-   "explain": "The verb stands second, as in a main clause, so the joining word is the coordinating <em>denn</em>. After <em>weil</em> the verb would go to the end.",
+   "prompt": "Choose the form that fills the blank: <i>Er bleibt, ______ er ist müde.</i> (“He stays, for he is tired”).",
+   "explain": "The verb stands second, as in a main clause, so the joining word is the coordinating <i>denn</i>. After <i>weil</i> the verb would go to the end.",
    "options": [
-    "denn",
-    "weil",
-    "dass",
-    "ob"
+    "<i>denn</i>",
+    "<i>weil</i>",
+    "<i>dass</i>",
+    "<i>ob</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ich weiß, dass er morgen ______. I know that he is coming tomorrow.",
-   "explain": "After <em>dass</em> the finite verb goes to the end: <em>dass er morgen kommt</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ich weiß, dass er morgen ______.</i> (“I know that he is coming tomorrow”).",
+   "explain": "After <i>dass</i> the finite verb goes to the end: <i>dass er morgen kommt</i>.",
    "options": [
-    "kommt",
-    "kommen",
-    "komme",
-    "käme"
+    "<i>kommt</i>",
+    "<i>kommen</i>",
+    "<i>komme</i>",
+    "<i>käme</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Da der König krank ist, ______ die Königin. Since the king is ill, the queen speaks.",
-   "explain": "When a subordinate clause stands first, it fills the first place, and the verb of the main clause follows it at once: <em>spricht die Königin</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Da der König krank ist, ______ die Königin.</i> (“Since the king is ill, the queen speaks”).",
+   "explain": "When a subordinate clause stands first, it fills the first place, and the verb of the main clause follows it at once: <i>spricht die Königin</i>.",
    "options": [
-    "spricht",
-    "sprecht",
-    "sprechen",
-    "spreche"
+    "<i>spricht</i>",
+    "<i>sprecht</i>",
+    "<i>sprechen</i>",
+    "<i>spreche</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn ich Zeit ______, würde ich kommen. If I had time, I would come.",
-   "explain": "A condition that is not real takes the Konjunktiv II: <em>wenn ich Zeit hätte</em>. <em>Hatte</em> is the Präteritum.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn ich Zeit ______, würde ich kommen.</i> (“If I had time, I would come”).",
+   "explain": "A condition that is not real takes the Konjunktiv II: <i>wenn ich Zeit hätte</i>. <i>Hatte</i> is the Präteritum.",
    "options": [
-    "hätte",
-    "habe",
-    "hatte",
-    "haben"
+    "<i>hätte</i>",
+    "<i>habe</i>",
+    "<i>hatte</i>",
+    "<i>haben</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn ich Zeit hätte, ______ ich kommen. If I had time, I would come.",
-   "explain": "The result of a condition that is not real is given by <em>würde</em> with the infinitive. <em>Wurde</em> is the Präteritum.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn ich Zeit hätte, ______ ich kommen.</i> (“If I had time, I would come”).",
+   "explain": "The result of a condition that is not real is given by <i>würde</i> with the infinitive. <i>Wurde</i> is the Präteritum.",
    "options": [
-    "würde",
-    "werde",
-    "wurde",
-    "wird"
+    "<i>würde</i>",
+    "<i>werde</i>",
+    "<i>wurde</i>",
+    "<i>wird</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn er König ______, wäre er glücklich. If he were king, he would be happy.",
-   "explain": "A condition that is not real takes the Konjunktiv II: <em>wenn er König wäre</em>. <em>War</em> is the Präteritum.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn er König ______, wäre er glücklich.</i> (“If he were king, he would be happy”).",
+   "explain": "A condition that is not real takes the Konjunktiv II: <i>wenn er König wäre</i>. <i>War</i> is the Präteritum.",
    "options": [
-    "wäre",
-    "war",
-    "ist",
-    "sei"
+    "<i>wäre</i>",
+    "<i>war</i>",
+    "<i>ist</i>",
+    "<i>sei</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn es ______, bleiben wir zu Hause. If it rains, we stay at home.",
-   "explain": "A real condition takes the indicative, and after <em>wenn</em> the verb goes to the end: <em>wenn es regnet</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn es ______, bleiben wir zu Hause.</i> (“If it rains, we stay at home”).",
+   "explain": "A real condition takes the indicative, and after <i>wenn</i> the verb goes to the end: <i>wenn es regnet</i>.",
    "options": [
-    "regnet",
-    "regne",
-    "regnen",
-    "geregnet"
+    "<i>regnet</i>",
+    "<i>regne</i>",
+    "<i>regnen</i>",
+    "<i>geregnet</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn du ______, freue ich mich. If you come, I am glad.",
-   "explain": "<em>Du</em> takes the ending <em>-st</em>, and after <em>wenn</em> the verb goes to the end: <em>wenn du kommst</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn du ______, freue ich mich.</i> (“If you come, I am glad”).",
+   "explain": "<i>Du</i> takes the ending <i>-st</i>, and after <i>wenn</i> the verb goes to the end: <i>wenn du kommst</i>.",
    "options": [
-    "kommst",
-    "kommt",
-    "komme",
-    "kommen"
+    "<i>kommst</i>",
+    "<i>kommt</i>",
+    "<i>komme</i>",
+    "<i>kommen</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn du kommst, ______ ich mich. If you come, I am glad.",
-   "explain": "The main clause follows the subordinate clause, so its verb stands first, and <em>ich</em> takes <em>-e</em>: <em>freue ich mich</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn du kommst, ______ ich mich.</i> (“If you come, I am glad”).",
+   "explain": "The main clause follows the subordinate clause, so its verb stands first, and <i>ich</i> takes <i>-e</i>: <i>freue ich mich</i>.",
    "options": [
-    "freue",
-    "freut",
-    "freust",
-    "freuen"
+    "<i>freue</i>",
+    "<i>freut</i>",
+    "<i>freust</i>",
+    "<i>freuen</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn wir das Buch hätten, ______ wir es lesen. If we had the book, we would read it.",
-   "explain": "The result is <em>würde</em> with the infinitive, in the first person plural: <em>würden wir es lesen</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn wir das Buch hätten, ______ wir es lesen.</i> (“If we had the book, we would read it”).",
+   "explain": "The result is <i>würde</i> with the infinitive, in the first person plural: <i>würden wir es lesen</i>.",
    "options": [
-    "würden",
-    "werden",
-    "wurden",
-    "würdet"
+    "<i>würden</i>",
+    "<i>werden</i>",
+    "<i>wurden</i>",
+    "<i>würdet</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er sagt, ______ der König krank ist. He says that the king is ill.",
-   "explain": "A reported statement can be introduced by <em>dass</em>, with two s, and its verb goes to the end. <em>Das</em> is the article or the relative.",
+   "prompt": "Choose the form that fills the blank: <i>Er sagt, ______ der König krank ist.</i> (“He says that the king is ill”).",
+   "explain": "A reported statement can be introduced by <i>dass</i>, with two s, and its verb goes to the end. <i>Das</i> is the article or the relative.",
    "options": [
-    "dass",
-    "das",
-    "ob",
-    "weil"
+    "<i>dass</i>",
+    "<i>das</i>",
+    "<i>ob</i>",
+    "<i>weil</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ich weiß nicht, ______ er kommt. I do not know whether he is coming.",
-   "explain": "A reported yes-or-no question is introduced by <em>ob</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ich weiß nicht, ______ er kommt.</i> (“I do not know whether he is coming”).",
+   "explain": "A reported yes-or-no question is introduced by <i>ob</i>.",
    "options": [
-    "ob",
-    "wenn",
-    "dass",
-    "weil"
+    "<i>ob</i>",
+    "<i>wenn</i>",
+    "<i>dass</i>",
+    "<i>weil</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er fragt, wo der König ______. He asks where the king is.",
-   "explain": "A reported question keeps its question word, and its verb goes to the end: <em>wo der König ist</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er fragt, wo der König ______.</i> (“He asks where the king is”).",
+   "explain": "A reported question keeps its question word, and its verb goes to the end: <i>wo der König ist</i>.",
    "options": [
-    "ist",
-    "sein",
-    "bist",
-    "seid"
+    "<i>ist</i>",
+    "<i>sein</i>",
+    "<i>bist</i>",
+    "<i>seid</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Sie fragt, ______ er will. She asks what he wants.",
-   "explain": "The question is about the thing wanted, so was. <em>Wer</em> asks about a person.",
+   "prompt": "Choose the form that fills the blank: <i>Sie fragt, ______ er will.</i> (“She asks what he wants”).",
+   "explain": "The question is about the thing wanted, so was. <i>Wer</i> asks about a person.",
    "options": [
-    "was",
-    "wer",
-    "wo",
-    "ob"
+    "<i>was</i>",
+    "<i>wer</i>",
+    "<i>wo</i>",
+    "<i>ob</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ich glaube, dass sie recht ______. I believe that she is right.",
-   "explain": "After <em>dass</em> the verb goes to the end, and <em>sie</em>, she, takes <em>hat</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ich glaube, dass sie recht ______.</i> (“I believe that she is right”).",
+   "explain": "After <i>dass</i> the verb goes to the end, and <i>sie</i>, she, takes <i>hat</i>.",
    "options": [
-    "hat",
-    "haben",
-    "hast",
-    "habt"
+    "<i>hat</i>",
+    "<i>haben</i>",
+    "<i>hast</i>",
+    "<i>habt</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er sagt, er ______ krank. He says that he is ill.",
-   "explain": "Written German reports speech in the Konjunktiv I, and the third person singular of <em>sein</em> is <em>sei</em>. Without <em>dass</em> the reported clause keeps the order of a main clause.",
+   "prompt": "Choose the form that fills the blank: <i>Er sagt, er ______ krank.</i> (“He says that he is ill”).",
+   "explain": "Written German reports speech in the Konjunktiv I, and the third person singular of <i>sein</i> is <i>sei</i>. Without <i>dass</i> the reported clause keeps the order of a main clause.",
    "options": [
-    "sei",
-    "seien",
-    "seid",
-    "sein"
+    "<i>sei</i>",
+    "<i>seien</i>",
+    "<i>seid</i>",
+    "<i>sein</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Sie sagt, sie ______ keine Zeit. She says that she has no time.",
-   "explain": "The Konjunktiv I of <em>haben</em> in the third person singular is <em>habe</em>, the form of reported speech.",
+   "prompt": "Choose the form that fills the blank: <i>Sie sagt, sie ______ keine Zeit.</i> (“She says that she has no time”).",
+   "explain": "The Konjunktiv I of <i>haben</i> in the third person singular is <i>habe</i>, the form of reported speech.",
    "options": [
-    "habe",
-    "haben",
-    "habest",
-    "habt"
+    "<i>habe</i>",
+    "<i>haben</i>",
+    "<i>habest</i>",
+    "<i>habt</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er sagt, er ______ morgen. He says that he is coming tomorrow.",
-   "explain": "The Konjunktiv I of <em>kommen</em> in the third person singular is <em>komme</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er sagt, er ______ morgen.</i> (“He says that he is coming tomorrow”).",
+   "explain": "The Konjunktiv I of <i>kommen</i> in the third person singular is <i>komme</i>.",
    "options": [
-    "komme",
-    "kommen",
-    "kommest",
-    "kommet"
+    "<i>komme</i>",
+    "<i>kommen</i>",
+    "<i>kommest</i>",
+    "<i>kommet</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er ging, ______ ein Wort zu sagen. He left without saying a word.",
-   "explain": "<em>Ohne</em> with <em>zu</em> and the infinitive says that something did not happen: <em>ohne ein Wort zu sagen</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er ging, ______ ein Wort zu sagen.</i> (“He left without saying a word”).",
+   "explain": "<i>Ohne</i> with <i>zu</i> and the infinitive says that something did not happen: <i>ohne ein Wort zu sagen</i>.",
    "options": [
-    "ohne",
-    "um",
-    "damit",
-    "für"
+    "<i>ohne</i>",
+    "<i>um</i>",
+    "<i>damit</i>",
+    "<i>für</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ zu arbeiten, schläft er. Instead of working, he sleeps.",
-   "explain": "<em>Statt</em> with <em>zu</em> and the infinitive gives what is done in place of something else.",
+   "prompt": "Choose the form that fills the blank: <i>______ zu arbeiten, schläft er.</i> (“Instead of working, he sleeps”).",
+   "explain": "<i>Statt</i> with <i>zu</i> and the infinitive gives what is done in place of something else.",
    "options": [
-    "Statt",
-    "Ohne",
-    "Um",
-    "Damit"
+    "<i>Statt</i>",
+    "<i>Ohne</i>",
+    "<i>Um</i>",
+    "<i>Damit</i>"
    ],
    "answer": 0
   },
@@ -527,13 +527,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er kam, um den König zu ______. He came in order to see the king.",
-   "explain": "<em>Um</em> ... <em>zu</em> takes the infinitive at the end: <em>um den König zu sehen</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er kam, um den König zu ______.</i> (“He came in order to see the king”).",
+   "explain": "<i>Um</i> ... <i>zu</i> takes the infinitive at the end: <i>um den König zu sehen</i>.",
    "options": [
-    "sehen",
-    "sieht",
-    "gesehen",
-    "sah"
+    "<i>sehen</i>",
+    "<i>sieht</i>",
+    "<i>gesehen</i>",
+    "<i>sah</i>"
    ],
    "answer": 0
   },
@@ -543,13 +543,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er spricht laut, ______ der König ihn hört. He speaks loudly so that the king hears him.",
-   "explain": "When the subject of the purpose clause is not the subject of the main clause, German uses <em>damit</em> with a finite verb. <em>Um</em> ... <em>zu</em> needs the same subject.",
+   "prompt": "Choose the form that fills the blank: <i>Er spricht laut, ______ der König ihn hört.</i> (“He speaks loudly so that the king hears him”).",
+   "explain": "When the subject of the purpose clause is not the subject of the main clause, German uses <i>damit</i> with a finite verb. <i>Um</i> ... <i>zu</i> needs the same subject.",
    "options": [
-    "damit",
-    "um",
-    "ohne",
-    "ob"
+    "<i>damit</i>",
+    "<i>um</i>",
+    "<i>ohne</i>",
+    "<i>ob</i>"
    ],
    "answer": 0
   },
@@ -559,13 +559,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. das auf dem Tisch ______ Buch the book lying on the table",
-   "explain": "A participle with its own phrase can stand before the noun, and it takes the adjective ending: <em>das auf dem Tisch liegende Buch</em>.",
+   "prompt": "Choose the form that fills the blank: <i>das auf dem Tisch ______ Buch</i> (“the book lying on the table”).",
+   "explain": "A participle with its own phrase can stand before the noun, and it takes the adjective ending: <i>das auf dem Tisch liegende Buch</i>.",
    "options": [
-    "liegende",
-    "liegend",
-    "liegenden",
-    "liegender"
+    "<i>liegende</i>",
+    "<i>liegend</i>",
+    "<i>liegenden</i>",
+    "<i>liegender</i>"
    ],
    "answer": 0
   },
@@ -575,15 +575,79 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. der in der Stadt ______ Mann the man who has arrived in the city",
-   "explain": "The participle stands before the noun with its phrase and takes the ending <em>-e</em> after <em>der</em>: <em>der in der Stadt angekommene Mann</em>.",
+   "prompt": "Choose the form that fills the blank: <i>der in der Stadt ______ Mann</i> (“the man who has arrived in the city”).",
+   "explain": "The participle stands before the noun with its phrase and takes the ending <i>-e</i> after <i>der</i>: <i>der in der Stadt angekommene Mann</i>.",
    "options": [
-    "angekommene",
-    "angekommen",
-    "angekommenen",
-    "angekommener"
+    "<i>angekommene</i>",
+    "<i>angekommen</i>",
+    "<i>angekommenen</i>",
+    "<i>angekommener</i>"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.v.de/clause-ex:decls37",
+   "set": "A",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which sentence is correct for “we stay at home because it is cold”?",
+   "explain": "<i>Weil</i> sends the finite verb to the end.",
+   "options": [
+    "<i>Wir bleiben zu Hause, weil es ist kalt.</i>",
+    "<i>Wir bleiben zu Hause, weil es kalt ist.</i>",
+    "<i>Wir bleiben zu Hause, weil ist es kalt.</i>",
+    "<i>Wir bleiben zu Hause weil, es kalt ist.</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.de/clause-ex:decls38",
+   "set": "B",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Obwohl er krank war, ______ er zur Arbeit</i> (“although he was ill, he went to work”)?",
+   "explain": "The subordinate clause fills the first place, so the main clause begins with its verb.",
+   "options": [
+    "<i>ging</i>",
+    "<i>er ging</i>",
+    "<i>gehen</i>",
+    "<i>gegangen</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.de/clause-ex:decls39",
+   "set": "C",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does <i>die im Garten spielenden Kinder</i> mean?",
+   "explain": "The participle with its modifier stands between the article and the noun: an extended attribute.",
+   "options": [
+    "“the children played in the garden”",
+    "“in the garden the children play”",
+    "“the children who will play in the garden”",
+    "“the children playing in the garden”"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.de/clause-ex:decls40",
+   "set": "C",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Hätte ich das gewusst, ______ ich gekommen</i> (“had I known that, I would have come”)?",
+   "explain": "<i>Kommen</i> takes <i>sein</i>, so the past Konjunktiv II is <i>wäre gekommen</i>.",
+   "options": [
+    "<i>hätte</i>",
+    "<i>würde</i>",
+    "<i>war</i>",
+    "<i>wäre</i>"
+   ],
+   "answer": 3
   }
  ]
 };

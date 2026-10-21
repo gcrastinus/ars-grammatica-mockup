@@ -5,7 +5,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "The Konjunktiv and the Imperative",
+ "title": "The Konjunktiv and the Imperative in German",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, first person singular, of “sein.”",
-   "explain": "The Konjunktiv II of <em>sein</em> is made from the Präteritum <em>war</em> with the umlaut and <em>-e</em>: <em>ich wäre</em>.",
+   "prompt": "Choose the Konjunktiv II, first person singular, of <i>sein</i>.",
+   "explain": "The Konjunktiv II of <i>sein</i> is made from the Präteritum <i>war</i> with the umlaut and <i>-e</i>: <i>ich wäre</i>.",
    "options": [
-    "wäre",
-    "war",
-    "sei",
-    "bin"
+    "<i>wäre</i>",
+    "<i>war</i>",
+    "<i>sei</i>",
+    "<i>bin</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, third person singular, of “haben.”",
-   "explain": "The Konjunktiv II of <em>haben</em> is <em>hätte</em>, from <em>hatte</em> with the umlaut.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>haben</i>.",
+   "explain": "The Konjunktiv II of <i>haben</i> is <i>hätte</i>, from <i>hatte</i> with the umlaut.",
    "options": [
-    "hätte",
-    "hatte",
-    "habe",
-    "hat"
+    "<i>hätte</i>",
+    "<i>hatte</i>",
+    "<i>habe</i>",
+    "<i>hat</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, third person singular, of “werden.”",
-   "explain": "The Konjunktiv II of <em>werden</em> is <em>würde</em>, from <em>wurde</em> with the umlaut.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>werden</i>.",
+   "explain": "The Konjunktiv II of <i>werden</i> is <i>würde</i>, from <i>wurde</i> with the umlaut.",
    "options": [
-    "würde",
-    "wurde",
-    "werde",
-    "wird"
+    "<i>würde</i>",
+    "<i>wurde</i>",
+    "<i>werde</i>",
+    "<i>wird</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, first person singular, of “können.”",
-   "explain": "The Konjunktiv II of <em>können</em> is <em>könnte</em>. <em>Konnte</em> is the Präteritum, and <em>könne</em> the Konjunktiv I.",
+   "prompt": "Choose the Konjunktiv II, first person singular, of <i>können</i>.",
+   "explain": "The Konjunktiv II of <i>können</i> is <i>könnte</i>. <i>Konnte</i> is the Präteritum, and <i>könne</i> the Konjunktiv I.",
    "options": [
-    "könnte",
-    "konnte",
-    "kann",
-    "könne"
+    "<i>könnte</i>",
+    "<i>konnte</i>",
+    "<i>kann</i>",
+    "<i>könne</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, third person singular, of “kommen.”",
-   "explain": "A strong verb makes its Konjunktiv II from the Präteritum, with the umlaut and <em>-e</em>: <em>kam</em>, <em>käme</em>.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>kommen</i>.",
+   "explain": "A strong verb makes its Konjunktiv II from the Präteritum, with the umlaut and <i>-e</i>: <i>kam</i>, <i>käme</i>.",
    "options": [
-    "käme",
-    "kam",
-    "komme",
-    "kommt"
+    "<i>käme</i>",
+    "<i>kam</i>",
+    "<i>komme</i>",
+    "<i>kommt</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, first person plural, of “sein.”",
-   "explain": "The first person plural of the Konjunktiv II of <em>sein</em> is <em>wären</em>. <em>Waren</em> is the Präteritum.",
+   "prompt": "Choose the Konjunktiv II, first person plural, of <i>sein</i>.",
+   "explain": "The first person plural of the Konjunktiv II of <i>sein</i> is <i>wären</i>. <i>Waren</i> is the Präteritum.",
    "options": [
-    "wären",
-    "waren",
-    "seien",
-    "sind"
+    "<i>wären</i>",
+    "<i>waren</i>",
+    "<i>seien</i>",
+    "<i>sind</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, third person singular, of “müssen.”",
-   "explain": "The Konjunktiv II of <em>müssen</em> is <em>müsste</em>. <em>Musste</em> is the Präteritum.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>müssen</i>.",
+   "explain": "The Konjunktiv II of <i>müssen</i> is <i>müsste</i>. <i>Musste</i> is the Präteritum.",
    "options": [
-    "müsste",
-    "musste",
-    "muss",
-    "müsse"
+    "<i>müsste</i>",
+    "<i>musste</i>",
+    "<i>muss</i>",
+    "<i>müsse</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv II, first person singular, of “wissen.”",
-   "explain": "The Konjunktiv II of <em>wissen</em> is <em>wüsste</em>. <em>Wusste</em> is the Präteritum.",
+   "prompt": "Choose the Konjunktiv II, first person singular, of <i>wissen</i>.",
+   "explain": "The Konjunktiv II of <i>wissen</i> is <i>wüsste</i>. <i>Wusste</i> is the Präteritum.",
    "options": [
-    "wüsste",
-    "wusste",
-    "weiß",
-    "wisse"
+    "<i>wüsste</i>",
+    "<i>wusste</i>",
+    "<i>weiß</i>",
+    "<i>wisse</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn ich nur Zeit ______! If only I had time!",
-   "explain": "A wish that is not fulfilled takes the Konjunktiv II: <em>wenn ich nur Zeit hätte</em>!",
+   "prompt": "Choose the form that fills the blank: <i>Wenn ich nur Zeit ______!</i> (“If only I had time!”).",
+   "explain": "A wish that is not fulfilled takes the Konjunktiv II: <i>wenn ich nur Zeit hätte</i>!",
    "options": [
-    "hätte",
-    "habe",
-    "hatte",
-    "hat"
+    "<i>hätte</i>",
+    "<i>habe</i>",
+    "<i>hatte</i>",
+    "<i>hat</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Sie das Fenster öffnen? Would you open the window?",
-   "explain": "<em>Würde</em> with the infinitive makes a polite request: <em>würden Sie das Fenster öffnen</em>?",
+   "prompt": "Choose the form that fills the blank: <i>______ Sie das Fenster öffnen?</i> (“Would you open the window?”).",
+   "explain": "<i>Würde</i> with the infinitive makes a polite request: <i>würden Sie das Fenster öffnen</i>?",
    "options": [
-    "Würden",
-    "Wurden",
-    "Wären",
-    "Hätten"
+    "<i>Würden</i>",
+    "<i>Wurden</i>",
+    "<i>Wären</i>",
+    "<i>Hätten</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. An deiner Stelle ______ ich bleiben. In your place I would stay.",
-   "explain": "<em>Würde</em> with the infinitive says what would happen: <em>ich würde bleiben</em>.",
+   "prompt": "Choose the form that fills the blank: <i>An deiner Stelle ______ ich bleiben.</i> (“In your place I would stay”).",
+   "explain": "<i>Würde</i> with the infinitive says what would happen: <i>ich würde bleiben</i>.",
    "options": [
-    "würde",
-    "werde",
-    "wurde",
-    "hätte"
+    "<i>würde</i>",
+    "<i>werde</i>",
+    "<i>wurde</i>",
+    "<i>hätte</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Er tut so, als ______ er der König. He acts as if he were the king.",
-   "explain": "After <em>als</em> in the sense of as if, the verb follows at once and stands in the Konjunktiv II: <em>als wäre er der König</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Er tut so, als ______ er der König.</i> (“He acts as if he were the king”).",
+   "explain": "After <i>als</i> in the sense of as if, the verb follows at once and stands in the Konjunktiv II: <i>als wäre er der König</i>.",
    "options": [
-    "wäre",
-    "ist",
-    "war",
-    "sein"
+    "<i>wäre</i>",
+    "<i>ist</i>",
+    "<i>war</i>",
+    "<i>sein</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Wenn ich reich wäre, ______ ich ein Haus kaufen. If I were rich, I would buy a house.",
-   "explain": "The result of a condition that is not real is <em>würde</em> with the infinitive.",
+   "prompt": "Choose the form that fills the blank: <i>Wenn ich reich wäre, ______ ich ein Haus kaufen.</i> (“If I were rich, I would buy a house”).",
+   "explain": "The result of a condition that is not real is <i>würde</i> with the infinitive.",
    "options": [
-    "würde",
-    "werde",
-    "wurde",
-    "wäre"
+    "<i>würde</i>",
+    "<i>werde</i>",
+    "<i>wurde</i>",
+    "<i>wäre</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ich wünschte, er ______. I wish that he would come.",
-   "explain": "A wish takes the Konjunktiv II, and the Konjunktiv II of <em>kommen</em> is <em>käme</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ich wünschte, er ______.</i> (“I wish that he would come”).",
+   "explain": "A wish takes the Konjunktiv II, and the Konjunktiv II of <i>kommen</i> is <i>käme</i>.",
    "options": [
-    "käme",
-    "kommt",
-    "kam",
-    "komme"
+    "<i>käme</i>",
+    "<i>kommt</i>",
+    "<i>kam</i>",
+    "<i>komme</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Das ______ gut. That would be good.",
-   "explain": "What would be so is said with the Konjunktiv II: <em>das wäre gut</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Das ______ gut.</i> (“That would be good”).",
+   "explain": "What would be so is said with the Konjunktiv II: <i>das wäre gut</i>.",
    "options": [
-    "wäre",
-    "war",
-    "sei",
-    "sind"
+    "<i>wäre</i>",
+    "<i>war</i>",
+    "<i>sei</i>",
+    "<i>sind</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ich ______ das Buch gelesen, wenn ich Zeit gehabt hätte. I would have read the book if I had had time.",
-   "explain": "A past condition that was not fulfilled takes the Konjunktiv II of the auxiliary with the participle: <em>ich hätte gelesen</em>. <em>Lesen</em> forms its Perfekt with <em>haben</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ich ______ das Buch gelesen, wenn ich Zeit gehabt hätte.</i> (“I would have read the book if I had had time”).",
+   "explain": "A past condition that was not fulfilled takes the Konjunktiv II of the auxiliary with the participle: <i>ich hätte gelesen</i>. <i>Lesen</i> forms its Perfekt with <i>haben</i>.",
    "options": [
-    "hätte",
-    "habe",
-    "hatte",
-    "wäre"
+    "<i>hätte</i>",
+    "<i>habe</i>",
+    "<i>hatte</i>",
+    "<i>wäre</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “sein.”",
-   "explain": "The Konjunktiv I of <em>sein</em> in the third person singular is <em>sei</em>, the form of reported speech.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>sein</i>.",
+   "explain": "The Konjunktiv I of <i>sein</i> in the third person singular is <i>sei</i>, the form of reported speech.",
    "options": [
-    "sei",
-    "ist",
-    "wäre",
-    "seist"
+    "<i>sei</i>",
+    "<i>ist</i>",
+    "<i>wäre</i>",
+    "<i>seist</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “haben.”",
-   "explain": "The Konjunktiv I is made from the stem of the infinitive with <em>-e</em>: <em>er habe</em>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>haben</i>.",
+   "explain": "The Konjunktiv I is made from the stem of the infinitive with <i>-e</i>: <i>er habe</i>.",
    "options": [
-    "habe",
-    "hat",
-    "hätte",
-    "habest"
+    "<i>habe</i>",
+    "<i>hat</i>",
+    "<i>hätte</i>",
+    "<i>habest</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “kommen.”",
-   "explain": "The Konjunktiv I takes the stem of the infinitive and <em>-e</em>: <em>er komme</em>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>kommen</i>.",
+   "explain": "The Konjunktiv I takes the stem of the infinitive and <i>-e</i>: <i>er komme</i>.",
    "options": [
-    "komme",
-    "kommt",
-    "käme",
-    "kommest"
+    "<i>komme</i>",
+    "<i>kommt</i>",
+    "<i>käme</i>",
+    "<i>kommest</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “werden.”",
-   "explain": "The Konjunktiv I of <em>werden</em> is <em>er werde</em>. <em>Wird</em> is the indicative, and <em>würde</em> the Konjunktiv II.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>werden</i>.",
+   "explain": "The Konjunktiv I of <i>werden</i> is <i>er werde</i>. <i>Wird</i> is the indicative, and <i>würde</i> the Konjunktiv II.",
    "options": [
-    "werde",
-    "wird",
-    "würde",
-    "werdest"
+    "<i>werde</i>",
+    "<i>wird</i>",
+    "<i>würde</i>",
+    "<i>werdest</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “können.”",
-   "explain": "The Konjunktiv I is made from the stem of the infinitive, so it keeps the umlaut of <em>können</em>: <em>er könne</em>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>können</i>.",
+   "explain": "The Konjunktiv I is made from the stem of the infinitive, so it keeps the umlaut of <i>können</i>: <i>er könne</i>.",
    "options": [
-    "könne",
-    "kann",
-    "könnte",
-    "können"
+    "<i>könne</i>",
+    "<i>kann</i>",
+    "<i>könnte</i>",
+    "<i>können</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person plural, of “sein.”",
-   "explain": "The Konjunktiv I of <em>sein</em> in the third person plural is <em>seien</em>.",
+   "prompt": "Choose the Konjunktiv I, third person plural, of <i>sein</i>.",
+   "explain": "The Konjunktiv I of <i>sein</i> in the third person plural is <i>seien</i>.",
    "options": [
-    "seien",
-    "sind",
-    "wären",
-    "seiest"
+    "<i>seien</i>",
+    "<i>sind</i>",
+    "<i>wären</i>",
+    "<i>seiest</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “sprechen.”",
-   "explain": "The Konjunktiv I keeps the vowel of the infinitive, without the change to i: <em>er spreche</em>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>sprechen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive, without the change to i: <i>er spreche</i>.",
    "options": [
-    "spreche",
-    "spricht",
-    "spräche",
-    "sprechest"
+    "<i>spreche</i>",
+    "<i>spricht</i>",
+    "<i>spräche</i>",
+    "<i>sprechest</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Konjunktiv I, third person singular, of “geben.”",
-   "explain": "The Konjunktiv I keeps the vowel of the infinitive: <em>er gebe</em>. <em>Gibt</em> is the indicative, and <em>gäbe</em> the Konjunktiv II.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>geben</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive: <i>er gebe</i>. <i>Gibt</i> is the indicative, and <i>gäbe</i> the Konjunktiv II.",
    "options": [
-    "gebe",
-    "gibt",
-    "gäbe",
-    "gebest"
+    "<i>gebe</i>",
+    "<i>gibt</i>",
+    "<i>gäbe</i>",
+    "<i>gebest</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ das Buch! (To one friend) Read the book!",
-   "explain": "A strong verb that changes e to ie in the present also changes it in the imperative singular, and the imperative has no <em>-st</em>: lies!",
+   "prompt": "Choose the form that fills the blank: <i>______ das Buch!</i> (to one friend: “Read the book!”).",
+   "explain": "A strong verb that changes e to ie in the present also changes it in the imperative singular, and the imperative has no <i>-st</i>: lies!",
    "options": [
-    "Lies",
-    "Lest",
-    "Lesen",
-    "Liest"
+    "<i>Lies</i>",
+    "<i>Lest</i>",
+    "<i>Lesen</i>",
+    "<i>Liest</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ mir das Buch! (To one friend) Give me the book!",
-   "explain": "The imperative singular of <em>geben</em> is <em>gib</em>, with the change of e to i.",
+   "prompt": "Choose the form that fills the blank: <i>______ mir das Buch!</i> (to one friend: “Give me the book!”).",
+   "explain": "The imperative singular of <i>geben</i> is <i>gib</i>, with the change of e to i.",
    "options": [
-    "Gib",
-    "Gebt",
-    "Gibst",
-    "Geben"
+    "<i>Gib</i>",
+    "<i>Gebt</i>",
+    "<i>Gibst</i>",
+    "<i>Geben</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ her! (To several friends) Come here!",
-   "explain": "The imperative addressed to several friends is the <em>ihr</em> form without the pronoun: <em>kommt</em>!",
+   "prompt": "Choose the form that fills the blank: <i>______ her!</i> (to several friends: “Come here!”).",
+   "explain": "The imperative addressed to several friends is the <i>ihr</i> form without the pronoun: <i>kommt</i>!",
    "options": [
-    "Kommt",
-    "Komm",
-    "Kommen",
-    "Kommst"
+    "<i>Kommt</i>",
+    "<i>Komm</i>",
+    "<i>Kommen</i>",
+    "<i>Kommst</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Sprechen ______ bitte langsam! (Formal) Speak slowly, please!",
-   "explain": "The formal imperative keeps the pronoun <em>Sie</em> after the verb: <em>sprechen Sie</em>!",
+   "prompt": "Choose the form that fills the blank: <i>Sprechen ______ bitte langsam!</i> (formal: “Speak slowly, please!”).",
+   "explain": "The formal imperative keeps the pronoun <i>Sie</i> after the verb: <i>sprechen Sie</i>!",
    "options": [
-    "Sie",
-    "du",
-    "ihr",
-    "wir"
+    "<i>Sie</i>",
+    "<i>du</i>",
+    "<i>ihr</i>",
+    "<i>wir</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ lauter! (To one friend) Speak louder!",
-   "explain": "The imperative singular of <em>sprechen</em> is <em>sprich</em>, with the change of e to i.",
+   "prompt": "Choose the form that fills the blank: <i>______ lauter!</i> (to one friend: “Speak louder!”).",
+   "explain": "The imperative singular of <i>sprechen</i> is <i>sprich</i>, with the change of e to i.",
    "options": [
-    "Sprich",
-    "Sprecht",
-    "Spricht",
-    "Sprechen"
+    "<i>Sprich</i>",
+    "<i>Sprecht</i>",
+    "<i>Spricht</i>",
+    "<i>Sprechen</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ ruhig! (To one friend) Be quiet!",
-   "explain": "The imperative singular of <em>sein</em> is <em>sei</em>. <em>Seid</em> is the plural.",
+   "prompt": "Choose the form that fills the blank: <i>______ ruhig!</i> (to one friend: “Be quiet!”).",
+   "explain": "The imperative singular of <i>sein</i> is <i>sei</i>. <i>Seid</i> is the plural.",
    "options": [
-    "Sei",
-    "Bist",
-    "Seid",
-    "Ist"
+    "<i>Sei</i>",
+    "<i>Bist</i>",
+    "<i>Seid</i>",
+    "<i>Ist</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ her! (To one friend) Come here!",
-   "explain": "The imperative singular of <em>kommen</em> is <em>komm</em>, and the ending <em>-e</em> is usually left off.",
+   "prompt": "Choose the form that fills the blank: <i>______ her!</i> (to one friend: “Come here!”).",
+   "explain": "The imperative singular of <i>kommen</i> is <i>komm</i>, and the ending <i>-e</i> is usually left off.",
    "options": [
-    "Komm",
-    "Kommt",
-    "Kommst",
-    "Kommen"
+    "<i>Komm</i>",
+    "<i>Kommt</i>",
+    "<i>Kommst</i>",
+    "<i>Kommen</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ wir! Let us go!",
-   "explain": "An imperative that includes the speaker puts the verb first with <em>wir</em>: <em>gehen wir</em>!",
+   "prompt": "Choose the form that fills the blank: <i>______ wir!</i> (“Let us go!”).",
+   "explain": "An imperative that includes the speaker puts the verb first with <i>wir</i>: <i>gehen wir</i>!",
    "options": [
-    "Gehen",
-    "Geht",
-    "Gehe",
-    "Gehst"
+    "<i>Gehen</i>",
+    "<i>Geht</i>",
+    "<i>Gehe</i>",
+    "<i>Gehst</i>"
    ],
    "answer": 0
   }
