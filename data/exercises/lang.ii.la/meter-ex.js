@@ -13,7 +13,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A1",
    "set": "A",
    "type": "identify",
-   "prompt": "With its long vowels marked, <em>Quid faciat laetās segetēs, quō sīdere terram</em> (Virgil, <i>Georgics</i> I.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "With its long vowels marked, <i>Quid faciat laetās segetēs, quō sīdere terram</i> (Virgil, <i>Georgics</i> I.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "quid",
     "fa",
@@ -50,7 +50,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A2",
    "set": "A",
    "type": "mc",
-   "prompt": "In the same line, <em>quid faciat laetās</em>, why is the last syllable of <em>faciat</em> long?",
+   "prompt": "In the same line, <i>quid faciat laetās</i>, why is the last syllable of <i>faciat</i> long?",
    "options": [
     "Its <i>a</i> is long by nature",
     "Its <i>t</i> is followed by the <i>l</i> of <i>laetās</i>",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A3",
    "set": "A",
    "type": "mc",
-   "prompt": "Scanned, the same line is <em>quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</em>. Which of the first five feet are spondees?",
+   "prompt": "Scanned, the same line is <i>quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</i>. Which of the first five feet are spondees?",
    "options": [
     "The first and third",
     "The second, fourth, and fifth",
@@ -82,7 +82,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A4",
    "set": "A",
    "type": "mc",
-   "prompt": "In verse the first syllable of <em>cuius</em> (“whose”) is long, although its <em>u</em> is short. Why?",
+   "prompt": "In verse the first syllable of <i>cuius</i> (“whose”) is long, although its <i>u</i> is short. Why?",
    "options": [
     "A mute and a liquid follow its <i>u</i>",
     "A vowel standing before another vowel is long",
@@ -98,7 +98,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A5",
    "set": "A",
    "type": "mc",
-   "prompt": "What is the meter of this line of Catullus? <em>Iām vēr ēgelidōs refert tepōrēs</em> (<i>Carmina</i> 46.1)",
+   "prompt": "What is the meter of this line of Catullus? <i>Iām vēr ēgelidōs refert tepōrēs</i> (<i>Carmina</i> 46.1)",
    "options": [
     "Dactylic hexameter",
     "Hendecasyllable",
@@ -145,7 +145,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:mn4",
    "set": "A",
    "type": "mc",
-   "prompt": "What is the meter of this line of Horace? <em>Integer vītae scelerisque pūrus</em> (<i>Odes</i> I.22.1)",
+   "prompt": "What is the meter of this line of Horace? <i>Integer vītae scelerisque pūrus</i> (<i>Odes</i> I.22.1)",
    "options": [
     "Hendecasyllable",
     "Dactylic hexameter",
@@ -225,7 +225,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B1",
    "set": "B",
    "type": "count",
-   "prompt": "How many syllables does this line count in the meter? <em>Conticuēre omnēs intentīque ōra tenēbant</em> (Virgil, <i>Aeneid</i> II.1). Type a number.",
+   "prompt": "How many syllables does this line count in the meter? <i>Conticuēre omnēs intentīque ōra tenēbant</i> (Virgil, <i>Aeneid</i> II.1). Type a number.",
    "answer": 14,
    "explain": "The line has sixteen written syllables. The final <i>e</i> of <i>conticuēre</i> is elided before <i>omnēs</i>, and the final <i>e</i> of <i>intentīque</i> before <i>ōra</i>, so fourteen syllables count in the meter.",
    "deck": "lang.ii.la/meter",
@@ -235,7 +235,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B2",
    "set": "B",
    "type": "identify",
-   "prompt": "After its two elisions, <em>Conticuēre omnēs intentīque ōra tenēbant</em> is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "After its two elisions, <i>Conticuēre omnēs intentīque ōra tenēbant</i> is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "con",
     "ti",
@@ -272,7 +272,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B3",
    "set": "B",
    "type": "mc",
-   "prompt": "Scanned, the same line is <em>con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</em>. Which of the first five feet are dactyls?",
+   "prompt": "Scanned, the same line is <i>con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</i>. Which of the first five feet are dactyls?",
    "options": [
     "The first, third, and fifth",
     "The first and fifth",
@@ -288,7 +288,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B4",
    "set": "B",
    "type": "mc",
-   "prompt": "In Horace’s line <em>nōn eget Maurīs iaculīs neque arcū</em> (<i>Odes</i> I.22.2), why is the syllable <em>get</em> long?",
+   "prompt": "In Horace’s line <i>nōn eget Maurīs iaculīs neque arcū</i> (<i>Odes</i> I.22.2), why is the syllable <i>get</i> long?",
    "options": [
     "Its <i>e</i> is long by nature",
     "It stands before the diphthong <i>au</i> of <i>Maurīs</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:mn5",
    "set": "B",
    "type": "mc",
-   "prompt": "What is the meter of this short line, which closes a stanza of Horace? <em>Fusce, pharetra</em> (<i>Odes</i> I.22.4)",
+   "prompt": "What is the meter of this short line, which closes a stanza of Horace? <i>Fusce, pharetra</i> (<i>Odes</i> I.22.4)",
    "options": [
     "Iambic dimeter",
     "Pentameter",
@@ -320,7 +320,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B6",
    "set": "B",
    "type": "identify",
-   "prompt": "<em>Fusce, pharetra</em> follows the pattern – ∪ ∪ – –, and to fit it Horace measures one common syllable long. Click that syllable.",
+   "prompt": "<i>Fusce, pharetra</i> follows the pattern – ∪ ∪ – –, and to fit it Horace measures one common syllable long. Click that syllable.",
    "tokens": [
     "fus",
     "ce",
@@ -337,7 +337,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B7",
    "set": "B",
    "type": "mc",
-   "prompt": "The last line of Virgil’s first <i>Eclogue</i>, with its long vowels marked, is <em>maiōrēsque cadunt altīs dē montibus umbrae</em>, scanned <em>mai-iō | rēs-que ca | dunt al | tīs dē | mon-ti-bus | um-brae</em>. What foot is the first?",
+   "prompt": "The last line of Virgil’s first <i>Eclogue</i>, with its long vowels marked, is <i>maiōrēsque cadunt altīs dē montibus umbrae</i>, scanned <i>mai-iō | rēs-que ca | dunt al | tīs dē | mon-ti-bus | um-brae</i>. What foot is the first?",
    "options": [
     "A dactyl",
     "A spondee",
@@ -433,7 +433,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C1",
    "set": "C",
    "type": "identify",
-   "prompt": "With its long vowels marked, <em>Multās per gentēs et multa per aequora vectus</em> (Catullus 101.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "With its long vowels marked, <i>Multās per gentēs et multa per aequora vectus</i> (Catullus 101.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "Mul",
     "tās",
@@ -470,7 +470,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C2",
    "set": "C",
    "type": "mc",
-   "prompt": "In <em>multa per aequora</em>, why is the second <em>per</em> short?",
+   "prompt": "In <i>multa per aequora</i>, why is the second <i>per</i> short?",
    "options": [
     "Its <i>e</i> is elided before <i>aequora</i>",
     "A word of one syllable is short in verse",
@@ -486,7 +486,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C3",
    "set": "C",
    "type": "mc",
-   "prompt": "What is the meter of this line of Catullus? <em>heu miser indignē frāter adēmpte mihī</em> (<i>Carmina</i> 101.6)",
+   "prompt": "What is the meter of this line of Catullus? <i>heu miser indignē frāter adēmpte mihī</i> (<i>Carmina</i> 101.6)",
    "options": [
     "Dactylic hexameter, because the line has six feet and no break in the middle",
     "Hendecasyllable",
@@ -502,7 +502,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C4",
    "set": "C",
    "type": "mc",
-   "prompt": "In the same pentameter, <em>heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</em>, why is <em>gnē</em>, the syllable before the break, long?",
+   "prompt": "In the same pentameter, <i>heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i>gnē</i>, the syllable before the break, long?",
    "options": [
     "A syllable before the break is long whatever its letters",
     "It is elided before <i>frater</i>",
@@ -518,7 +518,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C5",
    "set": "C",
    "type": "count",
-   "prompt": "How many syllables does this line count in the meter? <em>quandoquidem fortūna mihī tētē abstulit ipsum</em> (Catullus 101.5). Type a number.",
+   "prompt": "How many syllables does this line count in the meter? <i>quandoquidem fortūna mihī tētē abstulit ipsum</i> (Catullus 101.5). Type a number.",
    "answer": 15,
    "explain": "The line has sixteen written syllables. The second <i>ē</i> of <i>tētē</i> is elided before <i>abstulit</i>, so fifteen syllables count, and the line is a hexameter: <i>quan-do-qui | dem-for | tū-na-mi | hī-tē | t(ē) abs-tu-lit | ip-sum</i>.",
    "deck": "lang.ii.la/meter",
@@ -528,7 +528,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C6",
    "set": "C",
    "type": "mc",
-   "prompt": "Which vowel is elided in <em>adveniō hās miserās, frāter, ad īnferiās</em> (Catullus 101.2)?",
+   "prompt": "Which vowel is elided in <i>adveniō hās miserās, frāter, ad īnferiās</i> (Catullus 101.2)?",
    "options": [
     "The <i>a</i> of <i>hās</i>",
     "A vowel of <i>miserās</i>",
@@ -544,7 +544,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C7",
    "set": "C",
    "type": "mc",
-   "prompt": "Ambrose’s evening hymn begins <em>Deus creātor omnium</em> (“God, creator of all things”). Its syllables are <em>de-us cre-ā-to-rom-ni-um</em>. What foot does each pair of syllables form?",
+   "prompt": "Ambrose’s evening hymn begins <i>Deus creātor omnium</i> (“God, creator of all things”). Its syllables are <i>de-us cre-ā-to-rom-ni-um</i>. What foot does each pair of syllables form?",
    "options": [
     "A trochee",
     "A spondee",

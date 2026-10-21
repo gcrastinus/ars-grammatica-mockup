@@ -82,10 +82,10 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "prompt": "“Bread is better than nothing; nothing is better than wisdom; therefore bread is better than wisdom.” What has been treated as a thing?",
    "explain": "In the first premise “nothing” names the lack of food; in the second it is a quantifier, “no thing,” denying that anything is better than wisdom. The argument treats both as one named item in a scale: the figure of speech, helped by equivocation.",
    "options": [
-    "The word “nothing”, as though it named a thing",
-    "The word “bread”, read as a verb in the conclusion",
-    "The syllable “wis-”, read as a separate word",
-    "The comparative “better”, read as a noun"
+    "The word “nothing,” as though it named a thing",
+    "The word “bread,” read as a verb in the conclusion",
+    "The syllable “wis-,” read as a separate word",
+    "The comparative “better,” read as a noun"
    ],
    "answer": 0
   },
@@ -111,7 +111,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "deck": "lang.vii.en/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Aristotle’s example: “to be well” has the same form as “to cut” or “to build”. Why is that a trap?",
+   "prompt": "Aristotle’s example: “to be well” has the same form as “to cut” or “to build.” Why is that a trap?",
    "explain": "In <em>Sophistical Refutations</em> 4 Aristotle says that what is not an action can be signified in the form of speech as if it were one: being well is said in the same form as cutting or building, though it signifies a quality and a way of being disposed, and they signify doing something. To argue from the shared form to a shared kind is the figure of speech.",
    "options": [
     "The same form names both a state and an action",

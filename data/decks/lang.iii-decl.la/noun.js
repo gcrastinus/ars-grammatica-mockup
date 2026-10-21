@@ -4,7 +4,7 @@ ARS.decks["lang.iii-decl.la/noun"] = {
  "id": "lang.iii-decl.la/noun",
  "title": "The Latin Noun",
  "sub": "The five declensions, and how to read an ending",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>",
+ "sources": "Allen and Greenough, <em>New Latin Grammar</em>",
  "panels": [
   {
    "id": "noun-1",

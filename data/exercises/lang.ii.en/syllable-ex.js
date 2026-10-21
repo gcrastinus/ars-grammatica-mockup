@@ -522,9 +522,9 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "prompt": "An English syllable can begin with three consonants. What is always the first of the three?",
    "explain": "Three-consonant beginnings in English are s, then p, t, or k, then a liquid or glide: “spl,” “str,” “scr.”",
    "options": [
-    "“s”, as in “street,” “spring,” and “splash”",
-    "“t”, as in “tree”",
-    "“r”, as in “rest”",
+    "“s,” as in “street,” “spring,” and “splash”",
+    "“t,” as in “tree”",
+    "“r,” as in “rest”",
     "Any consonant"
    ],
    "answer": 0

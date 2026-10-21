@@ -4,7 +4,7 @@ ARS.decks["lang.iv.fr/formation"] = {
  "id": "lang.iv.fr/formation",
  "title": "Word Formation in French",
  "sub": "The adverb in -ment, the noun in -eur and -tion, the prefix re-, and the doublet",
- "sources": "Grevisse and Goosse, <i>Le bon usage</i>; Larousse",
+ "sources": "Grevisse and Goosse, <em>Le bon usage</em>; Larousse",
  "panels": [
   {
    "id": "ment",

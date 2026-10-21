@@ -4,7 +4,7 @@ ARS.decks["lang.vii.fr/figures"] = {
  "id": "lang.vii.fr/figures",
  "title": "Figures in La Fontaine and Racine",
  "sub": "A maxim, a metaphor, an antithesis, and a change of line length",
- "sources": "La Fontaine, <i>Fables</i>, “Le Loup et l’Agneau,” translated by Elizur Wright (the two lines on line length, the course’s own plain translation); Racine, <i>Phèdre</i>, translated by Robert Bruce Boswell",
+ "sources": "La Fontaine, <em>Fables</em>, “Le Loup et l’Agneau,” translated by Elizur Wright (the two lines on line length, the course’s own plain translation); Racine, <em>Phèdre</em>, translated by Robert Bruce Boswell",
  "panels": [
   {
    "id": "maxim",

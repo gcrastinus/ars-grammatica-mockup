@@ -70,7 +70,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Walking into the city, the gates were shut.”",
-   "explain": "The participial phrase needs someone who walked. The subject on offer is “gates”, and gates do not walk. The modifier has no word to depend on, and so it dangles. The repair would name the walker.",
+   "explain": "The participial phrase needs someone who walked. The subject on offer is “gates,” and gates do not walk. The modifier has no word to depend on, and so it dangles. The repair would name the walker.",
    "options": [
     "A dangling modifier",
     "A sentence fragment",
@@ -88,7 +88,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The king arrived, and the queen departed.”",
-   "explain": "Two independent clauses are joined by a comma and “and”, which is a proper compound sentence. There is no fragment, no run-on, and no dangling modifier.",
+   "explain": "Two independent clauses are joined by a comma and “and,” which is a proper compound sentence. There is no fragment, no run-on, and no dangling modifier.",
    "options": [
     "A correct sentence, with no error",
     "A sentence fragment",
@@ -106,7 +106,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The king wrote a letter to the queen on a horse.”",
-   "explain": "As the words stand, “on a horse” depends on “queen”. If the writer meant that the king wrote while on a horse, the phrase is sitting by the wrong noun. The noun is present, and it is in the wrong place. That is a misplaced modifier, not a dangling one.",
+   "explain": "As the words stand, “on a horse” depends on “queen.” If the writer meant that the king wrote while on a horse, the phrase is sitting by the wrong noun. The noun is present, and it is in the wrong place. That is a misplaced modifier, not a dangling one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -124,7 +124,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “He served a meal to the guests that was burned.”",
-   "explain": "The adjective clause “that was burned” sits beside “guests”, and so the structure says the guests were burned. The meal is what was burned. The clause is in the sentence and aimed at the wrong noun.",
+   "explain": "The adjective clause “that was burned” sits beside “guests,” and so the structure says the guests were burned. The meal is what was burned. The clause is in the sentence and aimed at the wrong noun.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -214,7 +214,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “She handed a book to the sailor with a torn cover.”",
-   "explain": "“With a torn cover” sits beside “sailor”. If the cover of the book is what is torn, the phrase modifies the wrong noun. Both nouns are present. The modifier is misplaced, not dangling.",
+   "explain": "“With a torn cover” sits beside “sailor.” If the cover of the book is what is torn, the phrase modifies the wrong noun. Both nouns are present. The modifier is misplaced, not dangling.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -232,7 +232,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The king arrived the queen, who had waited, departed.”",
-   "explain": "“The king arrived” and “the queen departed” are fused with no mark between them. The adjective clause “who had waited” is itself well attached to “queen”. The error is the missing connection between the two independent clauses, a run-on, not a dangling modifier.",
+   "explain": "“The king arrived” and “the queen departed” are fused with no mark between them. The adjective clause “who had waited” is itself well attached to “queen.” The error is the missing connection between the two independent clauses, a run-on, not a dangling modifier.",
    "options": [
     "A run-on sentence",
     "A sentence fragment",
@@ -302,7 +302,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Running to catch the train, my hat blew off.”",
-   "explain": "“Running to catch the train” needs a runner, and the subject on offer is “hat”. The runner is not in the sentence, so the modifier dangles: “Running to catch the train, I lost my hat” would repair it.",
+   "explain": "“Running to catch the train” needs a runner, and the subject on offer is “hat.” The runner is not in the sentence, so the modifier dangles: “Running to catch the train, I lost my hat” would repair it.",
    "options": [
     "A dangling modifier",
     "A sentence fragment",
@@ -374,7 +374,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “She almost read every book in the library.”",
-   "explain": "As written, “almost” modifies “read”: she nearly read them, but did not. If the sense is that she read nearly every book, “almost” belongs before “every”.",
+   "explain": "As written, “almost” modifies “read”: she nearly read them, but did not. If the sense is that she read nearly every book, “almost” belongs before “every.”",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -392,7 +392,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Fair is foul, and foul is fair:”",
-   "explain": "Two independent clauses are joined by “and”, which is a sound compound sentence. The order of each clause is inverted, and that inversion is not an error. We quote Shakespeare as he wrote it; we do not correct him. The sentence is complete, and each part is where its use requires. (William Shakespeare, <em>Macbeth</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "Two independent clauses are joined by “and,” which is a sound compound sentence. The order of each clause is inverted, and that inversion is not an error. We quote Shakespeare as he wrote it; we do not correct him. The sentence is complete, and each part is where its use requires. (William Shakespeare, <em>Macbeth</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "A correct sentence, with no error",
     "A sentence fragment",
@@ -410,7 +410,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Reading maketh a full man; conference a ready man; and writing an exact man.”",
-   "explain": "The second and third members leave out “maketh”, and the reader supplies it from the first. That is ellipsis, a figure of construction, not a fragment: each member has its verb, written once. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "explain": "The second and third members leave out “maketh,” and the reader supplies it from the first. That is ellipsis, a figure of construction, not a fragment: each member has its verb, written once. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "options": [
     "A correct sentence, with no error",
     "A sentence fragment",
@@ -464,7 +464,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The sailor who mended the sail.”",
-   "explain": "There is a subject and an adjective clause, and there is no verb for “sailor”. The words name someone and stop. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
+   "explain": "There is a subject and an adjective clause, and there is no verb for “sailor.” The words name someone and stop. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
    "options": [
     "A sentence fragment",
     "A run-on sentence",
@@ -626,7 +626,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “While reading the book, the lamp went out.”",
-   "explain": "“Reading” needs a reader. The only subject on offer is “lamp”, and a lamp does not read. A dangling modifier has no word in the sentence that can take it.",
+   "explain": "“Reading” needs a reader. The only subject on offer is “lamp,” and a lamp does not read. A dangling modifier has no word in the sentence that can take it.",
    "options": [
     "A dangling modifier",
     "A sentence fragment",
@@ -806,7 +806,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “She served lunch to the children on paper plates.”",
-   "explain": "As the words stand, “on paper plates” sits beside “children”. The plates belong with the lunch. Both nouns are present, and the phrase is by the wrong one. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "As the words stand, “on paper plates” sits beside “children.” The plates belong with the lunch. Both nouns are present, and the phrase is by the wrong one. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -824,7 +824,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “He bought a coat for his brother with brass buttons.”",
-   "explain": "“With brass buttons” sits beside “brother”. If the buttons are on the coat, the phrase modifies the wrong noun. The coat is in the sentence. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "“With brass buttons” sits beside “brother.” If the buttons are on the coat, the phrase modifies the wrong noun. The coat is in the sentence. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -842,7 +842,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The gate shut the crew waited.”",
-   "explain": "Two independent clauses are fused, with no mark and no conjunction: “The gate shut” and “the crew waited”. A run-on fuses two independent clauses, with no mark and no conjunction. The error is in the arrangement, a solecism.",
+   "explain": "Two independent clauses are fused, with no mark and no conjunction: “The gate shut” and “the crew waited.” A run-on fuses two independent clauses, with no mark and no conjunction. The error is in the arrangement, a solecism.",
    "options": [
     "A run-on sentence",
     "A sentence fragment",
@@ -1148,7 +1148,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Driven by the wind, the decision was quick.”",
-   "explain": "“Driven by the wind” can modify a ship or a cloud. It cannot modify “decision”, and no ship is in the sentence. A dangling modifier has no word in the sentence that can take it.",
+   "explain": "“Driven by the wind” can modify a ship or a cloud. It cannot modify “decision,” and no ship is in the sentence. A dangling modifier has no word in the sentence that can take it.",
    "options": [
     "A dangling modifier",
     "A sentence fragment",
@@ -1184,7 +1184,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “He gave a book to the child that was torn.”",
-   "explain": "“That was torn” sits beside “child”. If the book is torn, the clause is beside the wrong noun. The book is in the sentence. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "“That was torn” sits beside “child.” If the book is torn, the clause is beside the wrong noun. The book is in the sentence. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -1256,7 +1256,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Whom the committee chose.”",
-   "explain": "The clause has an object form, “whom”, and no main clause says what happened to the person chosen. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
+   "explain": "The clause has an object form, “whom,” and no main clause says what happened to the person chosen. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
    "options": [
     "A sentence fragment",
     "A run-on sentence",
@@ -1472,7 +1472,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The clerk returned the book to the child with the torn page.”",
-   "explain": "“With the torn page” sits beside “child”. If the page of the book is torn, the phrase is by the wrong noun. The book is present. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "“With the torn page” sits beside “child.” If the page of the book is torn, the phrase is by the wrong noun. The book is present. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -1490,7 +1490,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “He nearly spent every coin in the box.”",
-   "explain": "As written, “nearly” modifies “spent”: he came close to spending and did not. If he spent almost every coin, “nearly” belongs with “every”. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "As written, “nearly” modifies “spent”: he came close to spending and did not. If he spent almost every coin, “nearly” belongs with “every.” A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -1760,7 +1760,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “The mate showed a chart to the pilot with a torn corner.”",
-   "explain": "“With a torn corner” sits beside “pilot”. If the corner of the chart is torn, the phrase is by the wrong noun. The chart is present. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
+   "explain": "“With a torn corner” sits beside “pilot.” If the corner of the chart is torn, the phrase is by the wrong noun. The chart is present. A misplaced modifier sits by the wrong word. The word it seems to depend on is present, and it is the wrong one.",
    "options": [
     "A misplaced modifier",
     "A sentence fragment",
@@ -1832,7 +1832,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Few things are impossible to diligence and skill.”",
-   "explain": "One independent clause. “Are” links, and “impossible” describes “things”. The sentence is sound. We quote him as he wrote; we do not correct him. The sentence is complete, and each part is where its use requires. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
+   "explain": "One independent clause. “Are” links, and “impossible” describes “things.” The sentence is sound. We quote him as he wrote; we do not correct him. The sentence is complete, and each part is where its use requires. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
    "options": [
     "A correct sentence, with no error",
     "A sentence fragment",
@@ -1850,7 +1850,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which request uses “fewer” or “less” correctly?",
-   "explain": "“Cups” are counted, so the word is “fewer”. “Less” fits a mass, not a number of cups.",
+   "explain": "“Cups” are counted, so the word is “fewer.” “Less” fits a mass, not a number of cups.",
    "options": [
     "Please bring fewer cups.",
     "Please brings less cups.",
@@ -1866,7 +1866,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the soup uses “fewer” or “less” correctly?",
-   "explain": "“Salt” is a mass here, so the word is “less”. “Fewer” and “few” want a count.",
+   "explain": "“Salt” is a mass here, so the word is “less.” “Fewer” and “few” want a count.",
    "options": [
     "We need less salt in the soup.",
     "We need fewer salt in the soup.",
@@ -1882,7 +1882,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the class uses “fewer” or “less” correctly?",
-   "explain": "“Students” are counted, so the word is “fewer”. “Less” would fit a mass, not a number of students.",
+   "explain": "“Students” are counted, so the word is “fewer.” “Less” would fit a mass, not a number of students.",
    "options": [
     "Fewer students came today.",
     "Less students comes today.",
@@ -1914,7 +1914,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence has a clear antecedent and a verb that agrees?",
-   "explain": "“Who” relates to “clerk”, a person, and “has” agrees with “clerk”. The verb agrees with the noun the clause depends on.",
+   "explain": "“Who” relates to “clerk,” a person, and “has” agrees with “clerk.” The verb agrees with the noun the clause depends on.",
    "options": [
     "The clerk who called has the key.",
     "The women who called has the key.",
@@ -1962,7 +1962,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the visit keeps the three parts parallel?",
-   "explain": "Three independent clauses, each with “we” and a past verb. “Leaving”, “to leave”, and “gone” do not match that pattern.",
+   "explain": "Three independent clauses, each with “we” and a past verb. “Leaving,” “to leave,” and “gone” do not match that pattern.",
    "options": [
     "We came, we saw, and we left.",
     "We came, we saw, and leaving.",
@@ -1978,7 +1978,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about his wishes keeps the three parts parallel?",
-   "explain": "Three infinitives depend on “wanted”. A gerund in the series breaks the parallel.",
+   "explain": "Three infinitives depend on “wanted.” A gerund in the series breaks the parallel.",
    "options": [
     "He wanted to rest, to read, and to think.",
     "He wanted resting, to read, and to think.",
@@ -2010,7 +2010,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence keeps the series parallel?",
-   "explain": "Three infinitives are the objects of “promised”. A participle in the series breaks the parallel.",
+   "explain": "Three infinitives are the objects of “promised.” A participle in the series breaks the parallel.",
    "options": [
     "She promised to write, to wait, and to return.",
     "She promised to write, to wait, and returning.",
@@ -2058,7 +2058,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the hall uses “fewer” or “less” correctly?",
-   "explain": "“Seats” are counted, so the word is “fewer”.",
+   "explain": "“Seats” are counted, so the word is “fewer.”",
    "options": [
     "Fewer seats remain tonight.",
     "Less seats remains tonight.",
@@ -2074,7 +2074,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the jar uses “fewer” or “less” correctly?",
-   "explain": "“Water” is a mass, so the word is “less”.",
+   "explain": "“Water” is a mass, so the word is “less.”",
    "options": [
     "Less water is in the jar.",
     "Few water is in the jar.",
@@ -2106,7 +2106,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which sentence about the sailor’s skills keeps the three parts parallel?",
-   "explain": "After “can”, three bare infinitives match. “Steering” and “mending” are participles, and “to mend” brings in “to” where the others have none.",
+   "explain": "After “can,” three bare infinitives match. “Steering” and “mending” are participles, and “to mend” brings in “to” where the others have none.",
    "options": [
     "She can read the chart, mend the sail, and steer the boat.",
     "She can read the chart, mend the sail, and steering.",
@@ -2138,7 +2138,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "form",
    "prompt": "Rewrite the sentence so “fewer” or “less” matches the noun. Change only what must change. The sentence is “We need fewer sugar in the tea..”",
-   "explain": "“Sugar” is a mass, so the word is “less”. “Fewer” wants a count noun.",
+   "explain": "“Sugar” is a mass, so the word is “less.” “Fewer” wants a count noun.",
    "accept": [
     "We need less sugar in the tea."
    ]
@@ -2150,7 +2150,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "form",
    "prompt": "Rewrite the sentence so the three parts are parallel. Change only what must change. The sentence is “She likes to read, writing, and to walk..”",
-   "explain": "The series should be one form throughout. Three gerunds match. Three infinitives would also match: “to read, to write, and to walk”.",
+   "explain": "The series should be one form throughout. Three gerunds match. Three infinitives would also match: “to read, to write, and to walk.”",
    "accept": [
     "She likes reading, writing, and walking.",
     "She likes to read, to write, and to walk."
@@ -2163,7 +2163,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "form",
    "prompt": "Rewrite the sentence so the reader knows that Ann was angry. Change only what must change. The sentence is “When Ann met Ruth, she was angry..”",
-   "explain": "“She” might be Ann or Ruth. The name “Ann” makes the antecedent clear. If Ruth were the angry one, the name would be “Ruth”.",
+   "explain": "“She” might be Ann or Ruth. The name “Ann” makes the antecedent clear. If Ruth were the angry one, the name would be “Ruth.”",
    "accept": [
     "When Ann met Ruth, Ann was angry."
    ]
@@ -2191,7 +2191,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? “The boys <b>runs</b> home.”",
-   "explain": "“Runs” is an English word, but it does not fit “boys”. Each piece is native; the construction fails.",
+   "explain": "“Runs” is an English word, but it does not fit “boys.” Each piece is native; the construction fails.",
    "options": [
     "Solecism: the words do not fit",
     "Barbarism: “runs” is not a word",
@@ -2239,7 +2239,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? “She <b>goed</b> to the harbor at dawn.”",
-   "explain": "“Goed” is a form English does not have. Compare “she go to the harbor”, which uses good words in a bad arrangement, and is a solecism.",
+   "explain": "“Goed” is a form English does not have. Compare “she go to the harbor,” which uses good words in a bad arrangement, and is a solecism.",
    "options": [
     "Barbarism: the past of “go” is “went”",
     "Solecism: “harbor” disagrees with “she”",

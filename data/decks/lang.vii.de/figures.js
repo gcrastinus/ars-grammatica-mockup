@@ -4,7 +4,7 @@ ARS.decks["lang.vii.de/figures"] = {
  "id": "lang.vii.de/figures",
  "title": "Figures in Goethe and Schiller",
  "sub": "Apostrophe, metaphor, and hyperbole",
- "sources": "Goethe, <i>Faust</i>, translated by Bayard Taylor; Schiller, <i>An die Freude</i>, translated by Edward Bulwer-Lytton",
+ "sources": "Goethe, <em>Faust</em>, translated by Bayard Taylor; Schiller, <em>An die Freude</em>, translated by Edward Bulwer-Lytton",
  "panels": [
   {
    "id": "apostrophe",

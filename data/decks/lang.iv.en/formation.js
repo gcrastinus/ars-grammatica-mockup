@@ -4,7 +4,7 @@ ARS.decks["lang.iv.en/formation"] = {
  "id": "lang.iv.en/formation",
  "title": "Word Formation in English",
  "sub": "The Germanic stock and the Latinate stock, and how English builds words from each",
- "sources": "Quirk, Greenbaum, Leech, and Svartvik, <i>A Comprehensive Grammar of the English Language</i>; the <i>Oxford English Dictionary</i>",
+ "sources": "Quirk, Greenbaum, Leech, and Svartvik, <em>A Comprehensive Grammar of the English Language</em>; the <em>Oxford English Dictionary</em>",
  "panels": [
   {
    "id": "stocks",

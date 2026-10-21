@@ -32,7 +32,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb “waits” depend? “The brave sailor <b>waits</b>.”",
-   "explain": "The verb depends on its subject, and the subject terminates the dependence: in <em>Socrates currit</em>, <em>currit</em> depends on “Socrates”. What is going on needs something it is going on in.",
+   "explain": "The verb depends on its subject, and the subject terminates the dependence: in <em>Socrates currit</em>, <em>currit</em> depends on “Socrates.” What is going on needs something it is going on in.",
    "options": [
     "“sailor”",
     "“brave”",
@@ -64,7 +64,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb “gave” also depends on its object. Which word terminates that dependence? “The queen gave the sailor a <b>gift</b>.”",
-   "explain": "In a transitive construction the verb depends on the word after it, and that word terminates the dependence: <em>percutio Socratem</em>. “Gave” depends on “gift”, and in another construction on “sailor”.",
+   "explain": "In a transitive construction the verb depends on the word after it, and that word terminates the dependence: <em>percutio Socratem</em>. “Gave” depends on “gift,” and in another construction on “sailor.”",
    "options": [
     "“gift”",
     "“queen”",
@@ -112,7 +112,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “narrow” depend? “The soldiers held the <b>narrow</b> pass.”",
-   "explain": "The adjective adheres to “pass”, not to the verb and not to the subject. Take “pass” away and “narrow” names nothing.",
+   "explain": "The adjective adheres to “pass,” not to the verb and not to the subject. Take “pass” away and “narrow” names nothing.",
    "options": [
     "“pass”",
     "“soldiers”",
@@ -144,7 +144,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “single” depend? “It is a truth universally acknowledged, that a <b>single</b> man in possession of a good fortune, must be in want of a wife.”",
-   "explain": "The adjective depends on its noun, and “man” terminates the dependence of “single”. (Jane Austen, <em>Pride and Prejudice</em>, ch. 1)",
+   "explain": "The adjective depends on its noun, and “man” terminates the dependence of “single.” (Jane Austen, <em>Pride and Prejudice</em>, ch. 1)",
    "options": [
     "“man”",
     "“truth”",
@@ -160,7 +160,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “new” depend? “Four score and seven years ago our fathers brought forth on this continent, a <b>new</b> nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.”",
-   "explain": "“New” adheres to “nation”, which terminates its dependence. (Abraham Lincoln, Gettysburg Address (Bliss copy))",
+   "explain": "“New” adheres to “nation,” which terminates its dependence. (Abraham Lincoln, Gettysburg Address (Bliss copy))",
    "options": [
     "“nation”",
     "“continent”",
@@ -176,7 +176,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb “brought” depend? “Four score and seven years ago our fathers <b>brought</b> forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.”",
-   "explain": "The verb depends on its subject: “fathers” terminates the dependence of “brought”, as “Socrates” terminates that of <em>currit</em>. (Abraham Lincoln, Gettysburg Address (Bliss copy))",
+   "explain": "The verb depends on its subject: “fathers” terminates the dependence of “brought,” as “Socrates” terminates that of <em>currit</em>. (Abraham Lincoln, Gettysburg Address (Bliss copy))",
    "options": [
     "“fathers”",
     "“nation”",
@@ -192,7 +192,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “parting” depend? “The curfew tolls the knell of <b>parting</b> day.”",
-   "explain": "“Parting” adheres to “day”, as an adjective (here a participle) does to its noun. (Thomas Gray, “Elegy Written in a Country Churchyard,” line 1)",
+   "explain": "“Parting” adheres to “day,” as an adjective (here a participle) does to its noun. (Thomas Gray, “Elegy Written in a Country Churchyard,” line 1)",
    "options": [
     "“day”",
     "“knell”",
@@ -208,7 +208,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb “tolls” also depends on its object. Which word terminates that dependence? “The curfew <b>tolls</b> the knell of parting day.”",
-   "explain": "“Curfew” is the subject; the object that terminates the transitive dependence is “knell”. (Thomas Gray, “Elegy Written in a Country Churchyard,” line 1)",
+   "explain": "“Curfew” is the subject; the object that terminates the transitive dependence is “knell.” (Thomas Gray, “Elegy Written in a Country Churchyard,” line 1)",
    "options": [
     "“knell”",
     "“curfew”",
@@ -240,7 +240,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “darling” depend? “Rough winds do shake the <b>darling</b> buds of May.”",
-   "explain": "“Darling” adheres to “buds”; “of May” also depends on “buds”, but through the preposition. (Shakespeare, Sonnet 18, line 3 (modern spelling))",
+   "explain": "“Darling” adheres to “buds”; “of May” also depends on “buds,” but through the preposition. (Shakespeare, Sonnet 18, line 3 (modern spelling))",
    "options": [
     "“buds”",
     "“May”",
@@ -256,7 +256,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “green” depend? “He maketh me to lie down in <b>green</b> pastures: he leadeth me beside the still waters.”",
-   "explain": "“Green” adheres to “pastures”. (Psalm 23:2, King James Version)",
+   "explain": "“Green” adheres to “pastures.” (Psalm 23:2, King James Version)",
    "options": [
     "“pastures”",
     "“waters”",
@@ -288,7 +288,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “antique” depend? “I met a traveller from an <b>antique</b> land.”",
-   "explain": "“Antique” adheres to “land”. (Percy Bysshe Shelley, “Ozymandias,” line 1)",
+   "explain": "“Antique” adheres to “land.” (Percy Bysshe Shelley, “Ozymandias,” line 1)",
    "options": [
     "“land”",
     "“traveller”",
@@ -304,7 +304,7 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does “idle” depend? “It little profits that an <b>idle</b> king, by this still hearth, among these barren crags, match’d with an aged wife, I mete and dole unequal laws unto a savage race.”",
-   "explain": "“Idle” adheres to “king”, the noun it qualifies. (Alfred Tennyson, “Ulysses,” lines 1–5)",
+   "explain": "“Idle” adheres to “king,” the noun it qualifies. (Alfred Tennyson, “Ulysses,” lines 1–5)",
    "options": [
     "“king”",
     "“hearth”",

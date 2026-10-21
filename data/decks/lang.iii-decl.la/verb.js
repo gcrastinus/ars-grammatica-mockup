@@ -4,7 +4,7 @@ ARS.decks["lang.iii-decl.la/verb"] = {
  "id": "lang.iii-decl.la/verb",
  "title": "The Latin Verb",
  "sub": "Principal parts, stems, and the signs of tense and mood",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>",
+ "sources": "Allen and Greenough, <em>New Latin Grammar</em>",
  "panels": [
   {
    "id": "verb-1",

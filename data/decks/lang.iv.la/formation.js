@@ -4,7 +4,7 @@ ARS.decks["lang.iv.la/formation"] = {
  "id": "lang.iv.la/formation",
  "title": "Word Formation in Latin",
  "sub": "Suffixes, the vowel of a compound, and the consonants of the prefix",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>",
+ "sources": "Allen and Greenough, <em>New Latin Grammar</em>",
  "panels": [
   {
    "id": "doer",

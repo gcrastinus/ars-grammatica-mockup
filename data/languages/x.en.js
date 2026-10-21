@@ -39,7 +39,7 @@ ARS.languages["lang.x.en"] = {
    "kind": "models",
    "built": true,
    "title": "Bacon on Studies",
-   "desc": "Bacon, Essays “Of Studies”."
+   "desc": "Bacon, Essays “Of Studies.”"
   },
   {
    "id": "lang.x.en/lincoln",
@@ -60,7 +60,7 @@ ARS.languages["lang.x.en"] = {
    "kind": "models",
    "built": true,
    "title": "Thoreau on Walden",
-   "desc": "Thoreau, Walden “Where I Lived, and What I Lived For”."
+   "desc": "Thoreau, Walden “Where I Lived, and What I Lived For.”"
   }
  ],
  "more": false

@@ -31,7 +31,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: “The brave sailor”",
-   "explain": "“Brave” fits “sailor”. There is no verb, so the sense is not yet complete. This is Thomas’s <em>homo albus</em>.",
+   "explain": "“Brave” fits “sailor.” There is no verb, so the sense is not yet complete. This is Thomas’s <em>homo albus</em>.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Congruous but incomplete: the sense is unfinished",

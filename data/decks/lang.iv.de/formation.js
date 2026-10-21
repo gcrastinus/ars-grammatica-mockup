@@ -4,7 +4,7 @@ ARS.decks["lang.iv.de/formation"] = {
  "id": "lang.iv.de/formation",
  "title": "Word Formation in German",
  "sub": "Compounds, the suffixes that make nouns, and separable and inseparable prefixes",
- "sources": "Duden, <i>Die Grammatik</i>",
+ "sources": "Duden, <em>Die Grammatik</em>",
  "panels": [
   {
    "id": "compounds",

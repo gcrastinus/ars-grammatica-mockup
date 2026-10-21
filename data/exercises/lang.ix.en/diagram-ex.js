@@ -64,7 +64,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The bell rang.",
-   "explain": "The sentence is S-V, with “bell” and “rang” on the base. “The” belongs to “bell”, so it hangs on a slant under the subject. Under the verb it would seem to tell how the bell rang, which an article cannot do.",
+   "explain": "The sentence is S-V, with “bell” and “rang” on the base. “The” belongs to “bell,” so it hangs on a slant under the subject. Under the verb it would seem to tell how the bell rang, which an article cannot do.",
    "options": [
     "The bell rang",
     "The hung on the verb",
@@ -80,7 +80,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Dogs chase cats.",
-   "explain": "“Cats” receives the action of “chase”, so it is the direct object, and the line before it stops on the base. A slant would make “cats” a complement, as if the dogs were cats.",
+   "explain": "“Cats” receives the action of “chase,” so it is the direct object, and the line before it stops on the base. A slant would make “cats” a complement, as if the dogs were cats.",
    "options": [
     "Dogs chase cats",
     "cats as a complement",
@@ -96,7 +96,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The sea is calm.",
-   "explain": "“Is” links, and “calm” is a predicate adjective describing the sea, so a slant leans back toward the subject before it. “The” hangs under “sea”. “Calm” is not an object, and it does not modify the verb.",
+   "explain": "“Is” links, and “calm” is a predicate adjective describing the sea, so a slant leans back toward the subject before it. “The” hangs under “sea.” “Calm” is not an object, and it does not modify the verb.",
    "options": [
     "The sea is calm",
     "calm as an object",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The LORD is my shepherd;",
-   "explain": "“Is” links, and “shepherd” renames the subject, so a slant leans back toward it. “The” hangs under “LORD”, and “my” under “shepherd”. The subject is “the LORD”, the one of whom something is said.",
+   "explain": "“Is” links, and “shepherd” renames the subject, so a slant leans back toward it. “The” hangs under “LORD,” and “my” under “shepherd.” The subject is “the LORD,” the one of whom something is said.",
    "options": [
     "The LORD is my shepherd",
     "shepherd as an object",
@@ -160,7 +160,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The mind is its own place.",
-   "explain": "The pattern of this clause is S-LV-PN, so “place” follows a slant. “The” hangs under “mind”, and “own” hangs under “place”. Hanging “The” on the verb would modify “is”, which the clause does not do. “Its” is left off this small diagram so the offices stay readable.",
+   "explain": "The pattern of this clause is S-LV-PN, so “place” follows a slant. “The” hangs under “mind,” and “own” hangs under “place.” Hanging “The” on the verb would modify “is,” which the clause does not do. “Its” is left off this small diagram so the offices stay readable.",
    "options": [
     "The mind is its own place",
     "place as object",
@@ -208,7 +208,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? He gave the king a letter.",
-   "explain": "“Letter” is the direct object and stays on the base. “King” is the indirect object and hangs below, with “(to)” on the slant, because the pattern is the unspoken “to the king”. Swapping them would make the king the thing given.",
+   "explain": "“Letter” is the direct object and stays on the base. “King” is the indirect object and hangs below, with “(to)” on the slant, because the pattern is the unspoken “to the king.” Swapping them would make the king the thing given.",
    "options": [
     "He gave the king a letter",
     "letter and king swapped",
@@ -224,7 +224,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Histories make men wise.",
-   "explain": "“Men” is the direct object, cut off by the line that stops on the base. “Wise” is the objective complement, cut off by a slant after the object, because it describes “men”. A slant straight after “make” would describe the histories instead. We diagram the first member. Bacon’s sentence goes on after a semicolon, “poets witty; the mathematics subtile”, with “make” understood.",
+   "explain": "“Men” is the direct object, cut off by the line that stops on the base. “Wise” is the objective complement, cut off by a slant after the object, because it describes “men.” A slant straight after “make” would describe the histories instead. We diagram the first member. Bacon’s sentence goes on after a semicolon, “poets witty; the mathematics subtile,” with “make” understood.",
    "options": [
     "Histories make men wise",
     "wise as object",
@@ -240,7 +240,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Birds sing when dawn comes.",
-   "explain": "“When dawn comes” has its own subject and finite verb, so it is a clause on a lower base, joined by a dotted line, with “when” on that line. It is not a prepositional phrase, and “dawn” is not a second subject of “sing”.",
+   "explain": "“When dawn comes” has its own subject and finite verb, so it is a clause on a lower base, joined by a dotted line, with “when” on that line. It is not a prepositional phrase, and “dawn” is not a second subject of “sing.”",
    "options": [
     "Birds sing when dawn comes",
     "when dawn as a phrase",
@@ -496,7 +496,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The road is long.",
-   "explain": "“Long” describes the road after the copula, so a slant leans back toward the subject. “The” hangs under “road”.",
+   "explain": "“Long” describes the road after the copula, so a slant leans back toward the subject. “The” hangs under “road.”",
    "options": [
     "The road is long. choice 1",
     "The road is long. choice 2",
@@ -512,7 +512,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The sky is blue.",
-   "explain": "“Blue” is a predicate adjective, not an object the sky acts on. “The” belongs to “sky”.",
+   "explain": "“Blue” is a predicate adjective, not an object the sky acts on. “The” belongs to “sky.”",
    "options": [
     "The sky is blue. choice 1",
     "The sky is blue. choice 2",
@@ -528,7 +528,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? He is a pilot.",
-   "explain": "“Pilot” renames the subject after the copula, so it is a predicate nominative and stands in the nominative with “he”. “A” hangs under “pilot”. The line slants.",
+   "explain": "“Pilot” renames the subject after the copula, so it is a predicate nominative and stands in the nominative with “he.” “A” hangs under “pilot.” The line slants.",
    "options": [
     "He is a pilot. choice 1",
     "He is a pilot. choice 2",
@@ -544,7 +544,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Rome is a city.",
-   "explain": "“City” is a predicate nominative, a noun renaming Rome. “A” hangs under “city”. It is not the accusative.",
+   "explain": "“City” is a predicate nominative, a noun renaming Rome. “A” hangs under “city.” It is not the accusative.",
    "options": [
     "Rome is a city. choice 1",
     "Rome is a city. choice 2",
@@ -560,7 +560,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? She is a nurse.",
-   "explain": "“Nurse” renames the subject. The slant is the sign of the predicate nominative, and “a” hangs under “nurse”.",
+   "explain": "“Nurse” renames the subject. The slant is the sign of the predicate nominative, and “a” hangs under “nurse.”",
    "options": [
     "She is a nurse. choice 1",
     "She is a nurse. choice 2",
@@ -672,7 +672,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? We are ready.",
-   "explain": "“Are” is the copula, and “ready” describes the subject. The slant leans back toward “we”.",
+   "explain": "“Are” is the copula, and “ready” describes the subject. The slant leans back toward “we.”",
    "options": [
     "We are ready. choice 1",
     "We are ready. choice 2",
@@ -720,7 +720,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The old clock stopped.",
-   "explain": "The sentence is a subject and a verb. “The” and “old” hang under “clock”. “Old” does not modify “stopped”.",
+   "explain": "The sentence is a subject and a verb. “The” and “old” hang under “clock.” “Old” does not modify “stopped.”",
    "options": [
     "The old clock stopped. choice 1",
     "The old clock stopped. choice 2",
@@ -736,7 +736,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Cows graze in fields.",
-   "explain": "“In fields” hangs under the verb. “Fields” is the object of the preposition, not the direct object of “graze”.",
+   "explain": "“In fields” hangs under the verb. “Fields” is the object of the preposition, not the direct object of “graze.”",
    "options": [
     "Cows graze in fields. choice 1",
     "Cows graze in fields. choice 2",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? he leadeth me beside the still waters.",
-   "explain": "“Me” is the direct object, the accusative. “Beside the still waters” is a prepositional phrase. “The” is left off this small diagram so the offices stay readable, and “still” hangs under “waters”.",
+   "explain": "“Me” is the direct object, the accusative. “Beside the still waters” is a prepositional phrase. “The” is left off this small diagram so the offices stay readable, and “still” hangs under “waters.”",
    "options": [
     "he leadeth me beside the still waters. choice 1",
     "he leadeth me beside the still waters. choice 2",
@@ -880,7 +880,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The man whom we met left.",
-   "explain": "“Whom we met” is an adjective clause on a lower base, and “whom” is its direct object, not the joining word. “The” hangs under “man”. “Left” is the verb of the main clause.",
+   "explain": "“Whom we met” is an adjective clause on a lower base, and “whom” is its direct object, not the joining word. “The” hangs under “man.” “Left” is the verb of the main clause.",
    "options": [
     "The man whom we met left. choice 1",
     "The man whom we met left. choice 2",
@@ -896,7 +896,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? I know that he came.",
-   "explain": "“That he came” is a noun clause, the object of “know”. It stands on a stilt in the object slot, above the main line. “That” is the joining word, written on the stilt. A dotted line below the main line would be an adverb clause.",
+   "explain": "“That he came” is a noun clause, the object of “know.” It stands on a stilt in the object slot, above the main line. “That” is the joining word, written on the stilt. A dotted line below the main line would be an adverb clause.",
    "options": [
     "I know that he came. choice 1",
     "I know that he came. choice 2",
@@ -928,7 +928,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? She took the book and left.",
-   "explain": "The verb is compound, “took” and “left”, and “book” is the direct object of “took”. “The” is left off so the object stays readable.",
+   "explain": "The verb is compound, “took” and “left,” and “book” is the direct object of “took.” “The” is left off so the object stays readable.",
    "options": [
     "She took the book and left. choice 1",
     "She took the book and left. choice 2",
@@ -944,7 +944,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Tom hit the ball hard.",
-   "explain": "“Ball” is the direct object, and “hard” hangs under the verb. “The” hangs under “ball”.",
+   "explain": "“Ball” is the direct object, and “hard” hangs under the verb. “The” hangs under “ball.”",
    "options": [
     "Tom hit the ball hard. choice 1",
     "Tom hit the ball hard. choice 2",
@@ -960,7 +960,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? Ann gave the cook a pie.",
-   "explain": "“Pie” is the direct object. “Cook” is the indirect object, the dative, under the verb with “(to)”. “The” and “a” are left off so the offices stay readable.",
+   "explain": "“Pie” is the direct object. “Cook” is the indirect object, the dative, under the verb with “(to).” “The” and “a” are left off so the offices stay readable.",
    "options": [
     "Ann gave the cook a pie. choice 1",
     "Ann gave the cook a pie. choice 2",
@@ -992,7 +992,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Which diagram matches the sentence? The bell rings at noon.",
-   "explain": "“At noon” tells when, and it hangs under the verb. “The” hangs under “bell”. “Noon” is not a direct object.",
+   "explain": "“At noon” tells when, and it hangs under the verb. “The” hangs under “bell.” “Noon” is not a direct object.",
    "options": [
     "The bell rings at noon. choice 1",
     "The bell rings at noon. choice 2",

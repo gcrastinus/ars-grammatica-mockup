@@ -304,7 +304,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which name gives the tense, the voice, and the mood of “deprecated” in this sentence? “Both parties deprecated war; but one of them would make war rather than let the nation survive; and the other would accept war rather than let it perish.”",
-   "explain": "“Deprecated” is past, it states a fact in the indicative, and the subject does the deprecating, which is active voice. Nothing in the form is a command or a perfect with “have”. (Abraham Lincoln, Second Inaugural Address, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
+   "explain": "“Deprecated” is past, it states a fact in the indicative, and the subject does the deprecating, which is active voice. Nothing in the form is a command or a perfect with “have.” (Abraham Lincoln, Second Inaugural Address, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
    "options": [
     "Past indicative active",
     "Present indicative passive",
@@ -335,7 +335,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In Gibbon’s “were all considered by the people, as equally true”, what is the voice, and what is the tense?",
+   "prompt": "In Gibbon’s “were all considered by the people, as equally true,” what is the voice, and what is the tense?",
    "explain": "The modes receive the considering, so the voice is passive. “Were considered” is past, and it states a fact, so the mood is indicative. “By the people” names the doer beside the passive verb. (Edward Gibbon, <em>The History of the Decline and Fall of the Roman Empire</em>, chapter 2 (as printed by Project Gutenberg, eBook 731))",
    "options": [
     "Past indicative passive",
@@ -384,7 +384,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "“for out of it wast thou taken”: what are the tense, voice, and mood of “wast taken”?",
-   "explain": "“Wast taken” is the older second-person form of “were taken”. Adam received the taking, so the voice is passive; it is past; and it states a fact, so it is indicative. (The King James Version (the Oxford text of 1769), Genesis 3:19)",
+   "explain": "“Wast taken” is the older second-person form of “were taken.” Adam received the taking, so the voice is passive; it is past; and it states a fact, so it is indicative. (The King James Version (the Oxford text of 1769), Genesis 3:19)",
    "options": [
     "Past indicative passive",
     "Past indicative active",
@@ -400,7 +400,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "“The stone which the builders refused is become the head stone of the corner” (Psalm 118:22). What is “is become”?",
-   "explain": "Older English formed the perfect of some verbs of motion and change with “be”: “is become” is “has become.” German still does so (<i>ist geworden</i>).",
+   "explain": "Older English formed the perfect of some verbs of motion and change with “be”: “is become” is “has become.” German still does so (<em>ist geworden</em>).",
    "options": [
     "The present perfect, in an older form",
     "The present progressive",
@@ -608,7 +608,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What are the tense and the mood of “is”? The rest is silence.",
-   "explain": "“Is” links “rest” to “silence”. It is present and indicative. A linking verb is the copula. It is not passive: nothing is done to the rest by “is”. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Is” links “rest” to “silence.” It is present and indicative. A linking verb is the copula. It is not passive: nothing is done to the rest by “is.” (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Present indicative, a linking verb",
     "Present imperative, a linking verb",
@@ -624,7 +624,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What are the tense, the voice, and the mood of “shalt”? Thou shalt not steal.",
-   "explain": "“Shalt” is the older second-person future of “shall”. The mood is indicative, a command stated as what is required, and the voice is active. We name the form. We do not rewrite the commandment. (The King James Version (the Oxford text of 1769), Exodus 20:15)",
+   "explain": "“Shalt” is the older second-person future of “shall.” The mood is indicative, a command stated as what is required, and the voice is active. We name the form. We do not rewrite the commandment. (The King James Version (the Oxford text of 1769), Exodus 20:15)",
    "options": [
     "Future indicative active",
     "Future imperative active",
@@ -640,7 +640,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What are the tense, the voice, and the mood of “died”? while we were yet sinners, Christ died for us.",
-   "explain": "“Died” states a past fact. Christ did the dying, so the voice is active, not passive. The clause of time is “while we were yet sinners”. (The King James Version (the Oxford text of 1769), Romans 5:8)",
+   "explain": "“Died” states a past fact. Christ did the dying, so the voice is active, not passive. The clause of time is “while we were yet sinners.” (The King James Version (the Oxford text of 1769), Romans 5:8)",
    "options": [
     "Past indicative active",
     "Past imperative active",
@@ -656,7 +656,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What are the tense and the mood of “lay” in “that a man lay down his life”? Greater love hath no man than this, that a man lay down his life for his friends.",
-   "explain": "The “that”-clause is a clause of purpose depending on “this”, and “lay” is subjunctive. It is present, and it is active: the man would lay down his life. “Lay” here means to put, and “his life” is the object. We name the mood. We do not rewrite the verse. (The King James Version (the Oxford text of 1769), John 15:13)",
+   "explain": "The “that”-clause is a clause of purpose depending on “this,” and “lay” is subjunctive. It is present, and it is active: the man would lay down his life. “Lay” here means to put, and “his life” is the object. We name the mood. We do not rewrite the verse. (The King James Version (the Oxford text of 1769), John 15:13)",
    "options": [
     "Present subjunctive active",
     "Present indicative active",
@@ -671,8 +671,8 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In “if the salt have lost his savour”, what are the tense and the mood of “have lost”?",
-   "explain": "“Have lost” is perfect in tense and subjunctive in mood. “Have”, not “has”, is the sign of that subjunctive, the form older English uses in this “if”-clause. The voice is active. A modern class would often write “has lost”. We do not emend the verse. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
+   "prompt": "In “if the salt have lost his savour,” what are the tense and the mood of “have lost”?",
+   "explain": "“Have lost” is perfect in tense and subjunctive in mood. “Have,” not “has,” is the sign of that subjunctive, the form older English uses in this “if”-clause. The voice is active. A modern class would often write “has lost.” We do not emend the verse. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
    "options": [
     "Perfect subjunctive active",
     "Present indicative passive",

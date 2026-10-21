@@ -4,7 +4,7 @@ ARS.decks["lang.vii.grc/figures"] = {
  "id": "lang.vii.grc/figures",
  "title": "Figures in Homer and Plato",
  "sub": "Simile and metaphor in the Iliad, and two comparisons in the Republic",
- "sources": "Homer, <i>Iliad</i>, in A. T. Murray’s translation; Plato, <i>Republic</i>, in Benjamin Jowett’s translation",
+ "sources": "Homer, <em>Iliad</em>, in A. T. Murray’s translation; Plato, <em>Republic</em>, in Benjamin Jowett’s translation",
  "panels": [
   {
    "id": "leaves",

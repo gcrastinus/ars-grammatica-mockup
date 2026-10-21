@@ -16,7 +16,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject.",
-   "explain": "The simple subject is “king”. “The” only points it out. “At the gate” tells where, and it is not part of the subject.",
+   "explain": "The simple subject is “king.” “The” only points it out. “At the gate” tells where, and it is not part of the subject.",
    "tokens": [
     "The",
     "king",
@@ -56,7 +56,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the direct object.",
-   "explain": "“Heaven” receives the creating, and so does “earth”. The question asks for the first noun of the direct object. “God” is the subject. The pattern is still one S-V-DO with a compound object.",
+   "explain": "“Heaven” receives the creating, and so does “earth.” The question asks for the first noun of the direct object. “God” is the subject. The pattern is still one S-V-DO with a compound object.",
    "tokens": [
     "God",
     "created",
@@ -95,7 +95,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? The messenger gave the king a letter.",
-   "explain": "“Letter” is the direct object, the thing given. “King” is the indirect object, the one to whom it is given, with no preposition written. If the sentence said “to the king”, that phrase would be prepositional and the pattern would be S-V-DO.",
+   "explain": "“Letter” is the direct object, the thing given. “King” is the indirect object, the one to whom it is given, with no preposition written. If the sentence said “to the king,” that phrase would be prepositional and the pattern would be S-V-DO.",
    "options": [
     "S-V-IO-DO",
     "S-V",
@@ -131,7 +131,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? His brother is a sailor.",
-   "explain": "“Is” links. “Sailor” is a noun renaming “brother”, and so it is a predicate nominative.",
+   "explain": "“Is” links. “Sailor” is a noun renaming “brother,” and so it is a predicate nominative.",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -148,8 +148,8 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "The line begins “The mind is its own place”. Which pattern does that clause follow?",
-   "explain": "“Is” links “mind” to “place”. “Place” renames the mind. It is not an object the mind acts upon. The first clause, taken by itself, is S-LV-PN. “In it self” and “Heav’n” are the spellings of his text. (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
+   "prompt": "The line begins “The mind is its own place.” Which pattern does that clause follow?",
+   "explain": "“Is” links “mind” to “place.” “Place” renames the mind. It is not an object the mind acts upon. The first clause, taken by itself, is S-LV-PN. “In it self” and “Heav’n” are the spellings of his text. (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -167,7 +167,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? The quality of mercy is not strain’d,",
-   "explain": "The simple subject is “quality”. “Is” links, and “strain’d” describes that quality. “Not” is an adverb modifying the verb. “Of mercy” is a phrase, not an object. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "The simple subject is “quality.” “Is” links, and “strain’d” describes that quality. “Not” is an adverb modifying the verb. “Of mercy” is a phrase, not an object. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -203,7 +203,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does the first member follow, “Histories make men wise”?",
-   "explain": "“Men” receives the action of “make”. “Wise” tells what the histories make them, and so it is an objective complement. After the semicolon Bacon writes “poets witty”, and the rest, with “make” understood. The spelling is “subtile”. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "explain": "“Men” receives the action of “make.” “Wise” tells what the histories make them, and so it is an objective complement. After the semicolon Bacon writes “poets witty,” and the rest, with “make” understood. The spelling is “subtile.” (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "options": [
     "S-V-DO-OC",
     "S-V",
@@ -239,7 +239,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject.",
-   "explain": "“Quality” is the simple subject. “Mercy” is the object of “of”. The whole phrase “the quality of mercy” is the complete subject. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Quality” is the simple subject. “Mercy” is the object of “of.” The whole phrase “the quality of mercy” is the complete subject. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "tokens": [
     "The",
     "quality",
@@ -284,7 +284,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate nominative.",
-   "explain": "“State” renames “life” after the linking verb “is”. “Everywhere” is an adverb. The “in which” clause depends on “state” and is not itself the complement. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 11 (Cassell, 1889))",
+   "explain": "“State” renames “life” after the linking verb “is.” “Everywhere” is an adverb. The “in which” clause depends on “state” and is not itself the complement. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 11 (Cassell, 1889))",
    "tokens": [
     "Human",
     "life",
@@ -316,7 +316,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? They also serve who only stand and waite.",
-   "explain": "“They serve” is S-V. “Also” is an adverb. The “who”-clause is an adjective clause telling which they, not a direct object. Milton’s spelling is “waite”. (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
+   "explain": "“They serve” is S-V. “Also” is an adverb. The “who”-clause is an adjective clause telling which they, not a direct object. Milton’s spelling is “waite.” (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
    "options": [
     "S-V",
     "S-V-DO",
@@ -364,8 +364,8 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern of the first member, “Histories make men wise”, in the shorthand, with hyphens.",
-   "explain": "The first member is S-V-DO-OC. “Men” is the direct object and “wise” the objective complement. The later members understand “make”. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "prompt": "Write the pattern of the first member, “Histories make men wise,” in the shorthand, with hyphens.",
+   "explain": "The first member is S-V-DO-OC. “Men” is the direct object and “wise” the objective complement. The later members understand “make.” (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "accept": [
     "S-V-DO-OC",
     "SVDOOC"
@@ -377,8 +377,8 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern of the first clause, “The mind is its own place”, in the shorthand, with hyphens.",
-   "explain": "The first clause is S-LV-PN. “Is” is the linking verb, and “place” is the predicate nominative. The line then continues with a second predicate, “Can make”. (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
+   "prompt": "Write the pattern of the first clause, “The mind is its own place,” in the shorthand, with hyphens.",
+   "explain": "The first clause is S-LV-PN. “Is” is the linking verb, and “place” is the predicate nominative. The line then continues with a second predicate, “Can make.” (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
    "accept": [
     "S-LV-PN",
     "SLVPN"
@@ -391,7 +391,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject. The folio spelling is kept.",
-   "explain": "The order is inverted. “Head” is what lies uneasy, and so it is the subject. “Lyes” is the verb. “Vneasie” is an adjective describing the head, set first for emphasis; “lyes” here is used almost as a linking verb. The relative clause “that weares a Crowne” depends on “Head”. (William Shakespeare, <em>King Henry IV</em>, Part 2, III.1, in the spelling of the First Folio (1623), TLN 1452 (Internet Shakespeare Editions))",
+   "explain": "The order is inverted. “Head” is what lies uneasy, and so it is the subject. “Lyes” is the verb. “Vneasie” is an adjective describing the head, set first for emphasis; “lyes” here is used almost as a linking verb. The relative clause “that weares a Crowne” depends on “Head.” (William Shakespeare, <em>King Henry IV</em>, Part 2, III.1, in the spelling of the First Folio (1623), TLN 1452 (Internet Shakespeare Editions))",
    "tokens": [
     "Vneasie",
     "lyes",
@@ -413,7 +413,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? The LORD is my shepherd;",
-   "explain": "“Is” links, and “shepherd” is a noun renaming “the LORD”: a predicate nominative. “My” belongs to “shepherd”. (The King James Version (the Oxford text of 1769), Psalm 23:1)",
+   "explain": "“Is” links, and “shepherd” is a noun renaming “the LORD”: a predicate nominative. “My” belongs to “shepherd.” (The King James Version (the Oxford text of 1769), Psalm 23:1)",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -611,7 +611,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? The child looks tired.",
-   "explain": "“Looks” links here. “Tired” describes the child. “Looks” would be an action verb in “the child looks at the ship”. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective.",
+   "explain": "“Looks” links here. “Tired” describes the child. “Looks” would be an action verb in “the child looks at the ship.” The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective.",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -773,7 +773,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject.",
-   "explain": "The simple subject is “boat”. “The” and “small” only tell which boat and what sort. “Left” is the verb.",
+   "explain": "The simple subject is “boat.” “The” and “small” only tell which boat and what sort. “Left” is the verb.",
    "tokens": [
     "The",
     "small",
@@ -829,7 +829,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate adjective.",
-   "explain": "“Hot” describes the soup after the linking verb “is”. A modern class calls it a predicate adjective. “Now” is an adverb.",
+   "explain": "“Hot” describes the soup after the linking verb “is.” A modern class calls it a predicate adjective. “Now” is an adverb.",
    "tokens": [
     "The",
     "soup",
@@ -848,7 +848,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate nominative.",
-   "explain": "“Nurse” renames “aunt”. It stands in the nominative with the subject, and a modern class calls it a predicate nominative.",
+   "explain": "“Nurse” renames “aunt.” It stands in the nominative with the subject, and a modern class calls it a predicate nominative.",
    "tokens": [
     "Her",
     "aunt",
@@ -868,7 +868,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject.",
-   "explain": "The simple subject is “road”. “Long” is the predicate adjective, and it is not part of the subject.",
+   "explain": "The simple subject is “road.” “Long” is the predicate adjective, and it is not part of the subject.",
    "tokens": [
     "The",
     "road",
@@ -959,7 +959,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? Men at some time are masters of their fates:",
-   "explain": "“Are” links, and “masters” renames “men”. “Of their fates” tells which masters. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Are” links, and “masters” renames “men.” “Of their fates” tells which masters. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -977,7 +977,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does “I am the way, the truth, and the life” follow?",
-   "explain": "“Am” links. “Way”, “truth”, and “life” rename the subject, three predicate nominatives joined by “and”. The pattern is still S-LV-PN. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), John 14:6)",
+   "explain": "“Am” links. “Way,” “truth,” and “life” rename the subject, three predicate nominatives joined by “and.” The pattern is still S-LV-PN. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), John 14:6)",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -1013,7 +1013,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? Now faith is the substance of things hoped for,",
-   "explain": "“Is” links, and “substance” renames “faith”. “Of things hoped for” is a phrase telling which substance. It is not a second object. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Hebrews 11:1)",
+   "explain": "“Is” links, and “substance” renames “faith.” “Of things hoped for” is a phrase telling which substance. It is not a second object. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Hebrews 11:1)",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -1067,7 +1067,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? Ye are the salt of the earth:",
-   "explain": "“Are” links, and “salt” renames “ye”. “Of the earth” tells which salt. It does not turn the pattern into S-V-DO. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
+   "explain": "“Are” links, and “salt” renames “ye.” “Of the earth” tells which salt. It does not turn the pattern into S-V-DO. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -1085,7 +1085,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does “Be still” follow? Be still, and know that I am God:",
-   "explain": "“Be” links, and “still” describes the understood subject “you”. The command is a copula with a predicate adjective. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (The King James Version (the Oxford text of 1769), Psalm 46:10)",
+   "explain": "“Be” links, and “still” describes the understood subject “you.” The command is a copula with a predicate adjective. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (The King James Version (the Oxford text of 1769), Psalm 46:10)",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -1139,7 +1139,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject of this clause.",
-   "explain": "“God” is what the clause is about. “Love” renames God after “is”, so it is the predicate nominative. “For” joins the clause to “He that loveth not knoweth not God”. (The King James Version (the Oxford text of 1769), 1 John 4:8)",
+   "explain": "“God” is what the clause is about. “Love” renames God after “is,” so it is the predicate nominative. “For” joins the clause to “He that loveth not knoweth not God.” (The King James Version (the Oxford text of 1769), 1 John 4:8)",
    "tokens": [
     "for",
     "God",
@@ -1157,7 +1157,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate adjective.",
-   "explain": "“Kind” describes charity after the linking verb “is”. “Long” tells how charity suffers, and it is an adverb, not the complement of “is”. (The King James Version (the Oxford text of 1769), 1 Corinthians 13:4)",
+   "explain": "“Kind” describes charity after the linking verb “is.” “Long” tells how charity suffers, and it is an adverb, not the complement of “is.” (The King James Version (the Oxford text of 1769), 1 Corinthians 13:4)",
    "tokens": [
     "Charity",
     "suffereth",
@@ -1220,7 +1220,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate adjective in the first member.",
-   "explain": "“Easy” describes the yoke after “is”. “Light” is used in the same way in the second member, for the burden. (The King James Version (the Oxford text of 1769), Matthew 11:30)",
+   "explain": "“Easy” describes the yoke after “is.” “Light” is used in the same way in the second member, for the burden. (The King James Version (the Oxford text of 1769), Matthew 11:30)",
    "tokens": [
     "For",
     "my",
@@ -1244,7 +1244,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate nominative.",
-   "explain": "“Bread” renames the subject after “am”. “Of life” tells which bread. The noun stays in the nominative, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), John 6:35)",
+   "explain": "“Bread” renames the subject after “am.” “Of life” tells which bread. The noun stays in the nominative, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), John 6:35)",
    "tokens": [
     "I",
     "am",
@@ -1264,7 +1264,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate nominative.",
-   "explain": "“Salt” renames “ye”. “Of the earth” tells which salt, and it is not the complement. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
+   "explain": "“Salt” renames “ye.” “Of the earth” tells which salt, and it is not the complement. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
    "tokens": [
     "Ye",
     "are",
@@ -1285,7 +1285,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the linking verb.",
-   "explain": "“Tastes” links the soup to “good”. It does not carry an action across to an object.",
+   "explain": "“Tastes” links the soup to “good.” It does not carry an action across to an object.",
    "tokens": [
     "The",
     "soup",
@@ -1322,7 +1322,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? Few things are impossible to diligence and skill.",
-   "explain": "“Are” links, and “impossible” describes “things”. “To diligence and skill” is a prepositional phrase, not an object. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
+   "explain": "“Are” links, and “impossible” describes “things.” “To diligence and skill” is a prepositional phrase, not an object. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -1340,7 +1340,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does the main clause follow, “It is a truth”? It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "The main clause is “It is a truth”. “Is” links, and “truth” renames “it”. The “that”-clause stands in apposition to “truth” and does not change the pattern of the main clause. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "The main clause is “It is a truth.” “Is” links, and “truth” renames “it.” The “that”-clause stands in apposition to “truth” and does not change the pattern of the main clause. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -1358,7 +1358,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does “be content” follow? be content.",
-   "explain": "“Be” links, and “content” describes the understood subject “you”. The words before it are “Of the blessings set before you make your choice, and”. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
+   "explain": "“Be” links, and “content” describes the understood subject “you.” The words before it are “Of the blessings set before you make your choice, and.” The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -1394,7 +1394,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does “Create in me a clean heart” follow?",
-   "explain": "“Heart” is the direct object, the thing to be created. “In me” is a prepositional phrase, not an indirect object, because the preposition is written. “Clean” describes “heart”. The direct object receives the action. In the older grammar that office is the accusative. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
+   "explain": "“Heart” is the direct object, the thing to be created. “In me” is a prepositional phrase, not an indirect object, because the preposition is written. “Clean” describes “heart.” The direct object receives the action. In the older grammar that office is the accusative. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
    "options": [
     "S-V-DO",
     "S-V",
@@ -1546,7 +1546,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate adjective.",
-   "explain": "“Impossible” describes “tasks” after “are”. Johnson’s sentence is “Few things are impossible to diligence and skill.”",
+   "explain": "“Impossible” describes “tasks” after “are.” Johnson’s sentence is “Few things are impossible to diligence and skill.”",
    "tokens": [
     "Some",
     "tasks",
@@ -1565,7 +1565,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the predicate nominative.",
-   "explain": "“Alpha” renames the subject. “Omega” is a second predicate nominative, joined by “and”. (The King James Version (the Oxford text of 1769), Revelation 1:8)",
+   "explain": "“Alpha” renames the subject. “Omega” is a second predicate nominative, joined by “and.” (The King James Version (the Oxford text of 1769), Revelation 1:8)",
    "tokens": [
     "I",
     "am",
@@ -1623,7 +1623,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the simple subject.",
-   "explain": "“Burden” is what this member is about. “Light” describes it after “is”. (The King James Version (the Oxford text of 1769), Matthew 11:30)",
+   "explain": "“Burden” is what this member is about. “Light” describes it after “is.” (The King James Version (the Oxford text of 1769), Matthew 11:30)",
    "tokens": [
     "my",
     "burden",
@@ -1641,7 +1641,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? The fear of the LORD is the beginning of knowledge:",
-   "explain": "“Is” links, and “beginning” renames “fear”. “Of the LORD” and “of knowledge” tell which fear and which beginning. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Proverbs 1:7)",
+   "explain": "“Is” links, and “beginning” renames “fear.” “Of the LORD” and “of knowledge” tell which fear and which beginning. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), Proverbs 1:7)",
    "options": [
     "S-LV-PN",
     "S-V",
@@ -1659,7 +1659,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does the main clause follow, “It is not good”? It is not good that the man should be alone;",
-   "explain": "In the main clause “is” links, and “good” describes “it”. “Not” is an adverb. The “that”-clause tells what is not good, and it does not turn “good” into an object. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (The King James Version (the Oxford text of 1769), Genesis 2:18)",
+   "explain": "In the main clause “is” links, and “good” describes “it.” “Not” is an adverb. The “that”-clause tells what is not good, and it does not turn “good” into an object. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective. (The King James Version (the Oxford text of 1769), Genesis 2:18)",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -1754,7 +1754,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the verb.",
-   "explain": "“Goeth” is the verb, the older third-person form of “goes”. “Before destruction” is a prepositional phrase. (The King James Version (the Oxford text of 1769), Proverbs 16:18)",
+   "explain": "“Goeth” is the verb, the older third-person form of “goes.” “Before destruction” is a prepositional phrase. (The King James Version (the Oxford text of 1769), Proverbs 16:18)",
    "tokens": [
     "Pride",
     "goeth",
@@ -1772,7 +1772,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the subject of believeth.",
-   "explain": "“Whosoever” is the subject of “believeth”. It is a relative pronoun. “In him” is a phrase. (The King James Version (the Oxford text of 1769), John 3:16)",
+   "explain": "“Whosoever” is the subject of “believeth.” It is a relative pronoun. “In him” is a phrase. (The King James Version (the Oxford text of 1769), John 3:16)",
    "tokens": [
     "that",
     "whosoever",

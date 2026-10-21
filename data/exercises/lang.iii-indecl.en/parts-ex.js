@@ -258,7 +258,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The quality of <span class=\"target\">mercy</span> is not strain’d,",
-   "explain": "“Mercy” names the thing the quality belongs to. It is the object of the preposition “of”, and the object of a preposition is still a noun. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Mercy” names the thing the quality belongs to. It is the object of the preposition “of,” and the object of a preposition is still a noun. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Noun",
     "Pronoun",
@@ -324,7 +324,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Something is rotten <span class=\"target\">in</span> the state of Denmark.",
-   "explain": "“In” takes “the state” as its object and ties that place to “rotten”. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“In” takes “the state” as its object and ties that place to “rotten.” (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Preposition",
     "Noun",
@@ -346,7 +346,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">Reading</span> maketh a full man; conference a ready man; and writing an exact man.",
-   "explain": "“Reading” is the subject of “maketh”. The “-ing” form is used as a noun, and so we call it a gerund. In “the reading boy” the same form would be a participle. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "explain": "“Reading” is the subject of “maketh.” The “-ing” form is used as a noun, and so we call it a gerund. In “the reading boy” the same form would be a participle. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "options": [
     "Noun",
     "Pronoun",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? To <span class=\"target\">be</span>, or not to be, that is the question:",
-   "explain": "“Be” is the verb inside the infinitive “to be”. The asserting verb of the whole sentence is “is”. The marked word is still a verb. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Be” is the verb inside the infinitive “to be.” The asserting verb of the whole sentence is “is.” The marked word is still a verb. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Verb",
     "Noun",
@@ -412,7 +412,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? They also serve <span class=\"target\">who</span> only stand and waite.",
-   "explain": "“Who” relates to “They” and is the subject of “stand”. A relative pronoun is a pronoun. Donatus files it there, not with the conjunction. The spelling “waite” is Milton’s. (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
+   "explain": "“Who” relates to “They” and is the subject of “stand.” A relative pronoun is a pronoun. Donatus files it there, not with the conjunction. The spelling “waite” is Milton’s. (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
    "options": [
     "Pronoun",
     "Noun",
@@ -478,7 +478,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Vneasie lyes the <span class=\"target\">Head</span>, that weares a Crowne.",
-   "explain": "The folio spells it “Head”. That word names what lies uneasy, and so it is the subject, a noun. The unusual order does not change the part of speech. (William Shakespeare, <em>King Henry IV</em>, Part 2, III.1, in the spelling of the First Folio (1623), TLN 1452 (Internet Shakespeare Editions))",
+   "explain": "The folio spells it “Head.” That word names what lies uneasy, and so it is the subject, a noun. The unusual order does not change the part of speech. (William Shakespeare, <em>King Henry IV</em>, Part 2, III.1, in the spelling of the First Folio (1623), TLN 1452 (Internet Shakespeare Editions))",
    "options": [
     "Noun",
     "Pronoun",
@@ -500,7 +500,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The mind is its own place, and in it self<br>Can <span class=\"target\">make</span> a Heav’n of Hell, a Hell of Heav’n.",
-   "explain": "“Can make” is the second asserting group, sharing the subject “mind”. “Make” is a verb. “Heav’n” (Milton’s spelling of “Heaven”) and “Hell” are nouns. (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
+   "explain": "“Can make” is the second asserting group, sharing the subject “mind.” “Make” is a verb. “Heav’n” (Milton’s spelling of “Heaven”) and “Hell” are nouns. (John Milton, <em>Paradise Lost</em>, Book I, in Beeching’s edition (Oxford, 1900))",
    "options": [
     "Verb",
     "Noun",
@@ -522,7 +522,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The <span class=\"target\">waiting</span> sailors saw the king.",
-   "explain": "“Waiting” depends on “sailors” and keeps the verb’s sense of something going on. That is the participle. In “Waiting is hard”, “waiting” would be a gerund used as a noun instead.",
+   "explain": "“Waiting” depends on “sailors” and keeps the verb’s sense of something going on. That is the participle. In “Waiting is hard,” “waiting” would be a gerund used as a noun instead.",
    "options": [
     "Participle",
     "Noun",
@@ -543,7 +543,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Augustus was sensible that mankind is governed by <span class=\"target\">names</span>;",
-   "explain": "“Names” is the object of “by”. A modern class calls this a noun, Donatus’s <span class=\"lat\">nomen</span>. (Edward Gibbon, <em>The History of the Decline and Fall of the Roman Empire</em>, chapter 3 (as printed by Project Gutenberg, eBook 731))",
+   "explain": "“Names” is the object of “by.” A modern class calls this a noun, Donatus’s <span class=\"lat\">nomen</span>. (Edward Gibbon, <em>The History of the Decline and Fall of the Roman Empire</em>, chapter 3 (as printed by Project Gutenberg, eBook 731))",
    "options": [
     "Noun",
     "Pronoun",
@@ -587,7 +587,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? He maketh me to lie down in <span class=\"target\">green</span> pastures:",
-   "explain": "“Green” tells what sort of pastures, and it cannot stand alone in the sentence. It modifies “pastures”, and so it is an adjective. (The King James Version (the Oxford text of 1769), Psalm 23:2)",
+   "explain": "“Green” tells what sort of pastures, and it cannot stand alone in the sentence. It modifies “pastures,” and so it is an adjective. (The King James Version (the Oxford text of 1769), Psalm 23:2)",
    "options": [
     "Adjective",
     "Noun",
@@ -609,7 +609,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Read <span class=\"target\">not</span> to contradict and confute;",
-   "explain": "“Not” denies the verb “read”, and a word that modifies a verb is an adverb. “To contradict” and “to confute” are infinitives of purpose. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "explain": "“Not” denies the verb “read,” and a word that modifies a verb is an adverb. “To contradict” and “to confute” are infinitives of purpose. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "options": [
     "Adverb",
     "Noun",
@@ -631,7 +631,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Emma Woodhouse, <span class=\"target\">handsome</span>, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence;",
-   "explain": "“Handsome”, “clever”, and “rich” describe Emma. They follow the name, set off by commas, but they still modify the noun as adjectives. The verb is “seemed”. (Jane Austen, <em>Emma</em> (1815), chapter 1, as printed by Project Gutenberg (eBook 158))",
+   "explain": "“Handsome,” “clever,” and “rich” describe Emma. They follow the name, set off by commas, but they still modify the noun as adjectives. The verb is “seemed.” (Jane Austen, <em>Emma</em> (1815), chapter 1, as printed by Project Gutenberg (eBook 158))",
    "options": [
     "Adjective",
     "Noun",
@@ -653,7 +653,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Vanity of vanities, <span class=\"target\">saith</span> the Preacher, vanity of vanities; all is vanity.",
-   "explain": "“Saith” is the older form of “says”. It is the verb of the inserted clause, and its subject, “the Preacher”, follows it. (The King James Version (the Oxford text of 1769), Ecclesiastes 1:2)",
+   "explain": "“Saith” is the older form of “says.” It is the verb of the inserted clause, and its subject, “the Preacher,” follows it. (The King James Version (the Oxford text of 1769), Ecclesiastes 1:2)",
    "options": [
     "Verb",
     "Noun",
@@ -697,7 +697,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? for dust thou art, and unto dust shalt <span class=\"target\">thou</span> return.",
-   "explain": "“Thou” is the older second-person singular, the subject of “shalt return”. It stands for the one addressed, and so it is a pronoun. (The King James Version (the Oxford text of 1769), Genesis 3:19)",
+   "explain": "“Thou” is the older second-person singular, the subject of “shalt return.” It stands for the one addressed, and so it is a pronoun. (The King James Version (the Oxford text of 1769), Genesis 3:19)",
    "options": [
     "Pronoun",
     "Noun",
@@ -786,7 +786,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? He drove the cart <b>fast</b> along the road.",
-   "explain": "The same word is an adjective in “a fast horse”. Here it does not tell us what sort of cart but how the driving went, and how belongs to the verb. The word has not changed; its function has, and the parts of speech are a list of functions.",
+   "explain": "The same word is an adjective in “a fast horse.” Here it does not tell us what sort of cart but how the driving went, and how belongs to the verb. The word has not changed; its function has, and the parts of speech are a list of functions.",
    "options": [
     "Adverb",
     "Adjective",
@@ -947,7 +947,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? He had seen the place <b>before</b>.",
-   "explain": "Nothing follows it, so it is not governing a noun; it tells us “when”, and when belongs to the verb.",
+   "explain": "Nothing follows it, so it is not governing a noun; it tells us “when,” and when belongs to the verb.",
    "options": [
     "Adverb",
     "Adjective",
@@ -970,7 +970,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? We bought fresh <b>paint</b> for the door.",
-   "explain": "The very same word is a verb in “we paint the door”. The list of the parts of speech is not a list of words but of the ways words are used.",
+   "explain": "The very same word is a verb in “we paint the door.” The list of the parts of speech is not a list of words but of the ways words are used.",
    "options": [
     "Noun",
     "Adjective",
@@ -1016,7 +1016,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Three <span class=\"target\">small</span> boats left the harbor.",
-   "explain": "“Small” tells the size of the boats. “Three” is an adjective too, and it tells how many. The marked word is “small”. A modern class calls this an adjective. Donatus counts this use under the noun.",
+   "explain": "“Small” tells the size of the boats. “Three” is an adjective too, and it tells how many. The marked word is “small.” A modern class calls this an adjective. Donatus counts this use under the noun.",
    "options": [
     "Adjective",
     "Noun",
@@ -1038,7 +1038,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The jar on the shelf is <span class=\"target\">empty</span>.",
-   "explain": "“Empty” describes the jar after the linking verb “is”. A modern class calls this an adjective. Donatus counts this use under the noun.",
+   "explain": "“Empty” describes the jar after the linking verb “is.” A modern class calls this an adjective. Donatus counts this use under the noun.",
    "options": [
     "Adjective",
     "Noun",
@@ -1104,7 +1104,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The work is <span class=\"target\">almost</span> done.",
-   "explain": "“Almost” limits “done”, and a word that modifies an adjective is an adverb. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>.",
+   "explain": "“Almost” limits “done,” and a word that modifies an adjective is an adverb. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>.",
    "options": [
     "Adverb",
     "Noun",
@@ -1236,7 +1236,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? She gave <span class=\"target\">an</span> honest answer.",
-   "explain": "“An” is the form of “a” used before a vowel sound, here the sound of “honest”. A modern class calls this an article. Latin has no article, so Donatus does not count one.",
+   "explain": "“An” is the form of “a” used before a vowel sound, here the sound of “honest.” A modern class calls this an article. Latin has no article, so Donatus does not count one.",
    "options": [
     "Article",
     "Noun",
@@ -1279,7 +1279,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The <span class=\"target\">sleeping</span> child did not stir.",
-   "explain": "“Sleeping” depends on “child”. In “Sleeping is hard” the same form would be a gerund, used as a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Sleeping” depends on “child.” In “Sleeping is hard” the same form would be a gerund, used as a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
    "options": [
     "Participle",
     "Noun",
@@ -1300,7 +1300,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">Fallen</span> leaves covered the path.",
-   "explain": "“Fallen” depends on “leaves”. The leaves have fallen, and the word still describes them. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Fallen” depends on “leaves.” The leaves have fallen, and the word still describes them. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
    "options": [
     "Participle",
     "Noun",
@@ -1321,7 +1321,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The cat sat <span class=\"target\">under</span> the table.",
-   "explain": "“Under” takes “the table” as its object and ties that place to “sat”. A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>.",
+   "explain": "“Under” takes “the table” as its object and ties that place to “sat.” A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>.",
    "options": [
     "Preposition",
     "Noun",
@@ -1365,7 +1365,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? They talked <span class=\"target\">about</span> the storm.",
-   "explain": "“About” takes “the storm” as its object and ties it to “talked”. A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>.",
+   "explain": "“About” takes “the storm” as its object and ties it to “talked.” A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>.",
    "options": [
     "Preposition",
     "Noun",
@@ -1387,7 +1387,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Take the pen <span class=\"target\">or</span> the pencil.",
-   "explain": "“Or” joins “pen” and “pencil”, and it is used only to join. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>.",
+   "explain": "“Or” joins “pen” and “pencil,” and it is used only to join. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>.",
    "options": [
     "Conjunction",
     "Noun",
@@ -1409,7 +1409,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? We stayed <span class=\"target\">because</span> the rain began.",
-   "explain": "“Because” joins the reason, “the rain began”, to “we stayed”. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>.",
+   "explain": "“Because” joins the reason, “the rain began,” to “we stayed.” A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>.",
    "options": [
     "Conjunction",
     "Noun",
@@ -1475,7 +1475,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">So</span> shines a good deed in a naughty world.",
-   "explain": "“So” tells the manner of “shines”. A word that modifies a verb is an adverb. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“So” tells the manner of “shines.” A word that modifies a verb is an adverb. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (William Shakespeare, <em>The Merchant of Venice</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Adverb",
     "Noun",
@@ -1607,7 +1607,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">Now</span> is the winter of our discontent Made glorious summer by this son of York;",
-   "explain": "“Now” tells when the winter is. It modifies the verb “is”. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (William Shakespeare, <em>King Richard III</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Now” tells when the winter is. It modifies the verb “is.” A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (William Shakespeare, <em>King Richard III</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Adverb",
     "Noun",
@@ -1629,7 +1629,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? I am the way, the truth, <span class=\"target\">and</span> the life: no man cometh unto the Father, but by me.",
-   "explain": "“And” joins “the way”, “the truth”, and “the life”. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (The King James Version (the Oxford text of 1769), John 14:6)",
+   "explain": "“And” joins “the way,” “the truth,” and “the life.” A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (The King James Version (the Oxford text of 1769), John 14:6)",
    "options": [
     "Conjunction",
     "Noun",
@@ -1651,7 +1651,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Create in <span class=\"target\">me</span> a clean heart, O God; and renew a right spirit within me.",
-   "explain": "“Me” is the object of “in”. The older grammar calls the object of a preposition an accusative, and a modern class calls the form the objective case. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
+   "explain": "“Me” is the object of “in.” The older grammar calls the object of a preposition an accusative, and a modern class calls the form the objective case. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
    "options": [
     "Pronoun",
     "Noun",
@@ -1717,7 +1717,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Ambition should be made of <span class=\"target\">sterner</span> stuff:",
-   "explain": "“Sterner” tells what sort of stuff. It describes “stuff”. A modern class calls this an adjective. Donatus counts this use under the noun. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Sterner” tells what sort of stuff. It describes “stuff.” A modern class calls this an adjective. Donatus counts this use under the noun. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Adjective",
     "Noun",
@@ -1739,7 +1739,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Ye are the salt <span class=\"target\">of</span> the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.",
-   "explain": "“Of” takes “the earth” as its object and ties that phrase to “salt”. A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
+   "explain": "“Of” takes “the earth” as its object and ties that phrase to “salt.” A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (The King James Version (the Oxford text of 1769), Matthew 5:13)",
    "options": [
     "Preposition",
     "Noun",
@@ -1807,7 +1807,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? She was <b>weary</b>, but she went on.",
-   "explain": "It qualifies “she” across the verb “was”, as a predicate adjective. It still tells of what sort.",
+   "explain": "It qualifies “she” across the verb “was,” as a predicate adjective. It still tells of what sort.",
    "options": [
     "Adjective",
     "Adverb",
@@ -1922,7 +1922,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <b>Running</b> hard, the horse cleared the wall.",
-   "explain": "“Running” depends on “horse” and keeps the verb’s sense of something under way. Compare “Running is good exercise”, where the same form is used as a noun.",
+   "explain": "“Running” depends on “horse” and keeps the verb’s sense of something under way. Compare “Running is good exercise,” where the same form is used as a noun.",
    "options": [
     "Participle",
     "Adjective",
@@ -1991,7 +1991,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Now faith is the substance of things <span class=\"target\">hoped</span> for,",
-   "explain": "“Hoped” depends on “things”. The phrase is “things hoped for”, and “for” belongs with the participle. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (The King James Version (the Oxford text of 1769), Hebrews 11:1)",
+   "explain": "“Hoped” depends on “things.” The phrase is “things hoped for,” and “for” belongs with the participle. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (The King James Version (the Oxford text of 1769), Hebrews 11:1)",
    "options": [
     "Participle",
     "Noun",
@@ -2100,7 +2100,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? If God be for us, <span class=\"target\">who</span> can be against us?",
-   "explain": "“Who” is the subject of “can be”. The subjective form is “who”. The objective form, “whom”, would be the object of its own clause. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), Romans 8:31)",
+   "explain": "“Who” is the subject of “can be.” The subjective form is “who.” The objective form, “whom,” would be the object of its own clause. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), Romans 8:31)",
    "options": [
     "Pronoun",
     "Noun",
@@ -2144,7 +2144,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? The fault, dear Brutus, is not in our stars, <span class=\"target\">But</span> in ourselves, that we are underlings.",
-   "explain": "“But” joins “in our stars” with “in ourselves”. It does not start a new clause. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“But” joins “in our stars” with “in ourselves.” It does not start a new clause. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Conjunction",
     "Noun",
@@ -2166,7 +2166,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Judge not, <span class=\"target\">that</span> ye be not judged.",
-   "explain": "“That” joins the purpose, “ye be not judged”, to the command “Judge not”. “Be” is subjunctive. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (The King James Version (the Oxford text of 1769), Matthew 7:1)",
+   "explain": "“That” joins the purpose, “ye be not judged,” to the command “Judge not.” “Be” is subjunctive. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (The King James Version (the Oxford text of 1769), Matthew 7:1)",
    "options": [
     "Conjunction",
     "Noun",
@@ -2210,7 +2210,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? It is a truth <span class=\"target\">universally</span> acknowledged, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "“Universally” tells the extent of “acknowledged”. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "“Universally” tells the extent of “acknowledged.” A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Adverb",
     "Noun",
@@ -2254,7 +2254,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? It is a truth universally <span class=\"target\">acknowledged</span>, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "“Acknowledged” depends on “truth”. “Universally” modifies the participle. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "“Acknowledged” depends on “truth.” “Universally” modifies the participle. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Participle",
     "Noun",
@@ -2275,7 +2275,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Greater love hath no man than this, that a man lay down <span class=\"target\">his</span> life for his friends.",
-   "explain": "“His” stands for the man and shows possession of “life”. The older grammar calls that form the genitive. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), John 15:13)",
+   "explain": "“His” stands for the man and shows possession of “life.” The older grammar calls that form the genitive. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), John 15:13)",
    "options": [
     "Pronoun",
     "Noun",
@@ -2297,7 +2297,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">Crafty</span> men contemn studies, simple men admire them, and wise men use them;",
-   "explain": "“Crafty” tells what sort of men. It depends on “men”. A modern class calls this an adjective. Donatus counts this use under the noun. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
+   "explain": "“Crafty” tells what sort of men. It depends on “men.” A modern class calls this an adjective. Donatus counts this use under the noun. (Francis Bacon, “Of Studies,” <em>Essays</em> (1625), in the modernized spelling of Project Gutenberg eBook 575, which does not name its source)",
    "options": [
     "Adjective",
     "Noun",
@@ -2319,7 +2319,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? And the light shineth in darkness; and the darkness comprehended it <span class=\"target\">not</span>.",
-   "explain": "“Not” denies “comprehended”. In this order the adverb follows the verb, which is ordinary in the English of 1611. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (The King James Version (the Oxford text of 1769), John 1:5)",
+   "explain": "“Not” denies “comprehended.” In this order the adverb follows the verb, which is ordinary in the English of 1611. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (The King James Version (the Oxford text of 1769), John 1:5)",
    "options": [
     "Adverb",
     "Noun",
@@ -2341,7 +2341,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? For God so loved the world, that he gave his only <span class=\"target\">begotten</span> Son, that whosoever believeth in him should not perish, but have everlasting life.",
-   "explain": "“Begotten” depends on “Son”. “Only” limits it. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (The King James Version (the Oxford text of 1769), John 3:16)",
+   "explain": "“Begotten” depends on “Son.” “Only” limits it. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (The King James Version (the Oxford text of 1769), John 3:16)",
    "options": [
     "Participle",
     "Noun",
@@ -2362,7 +2362,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? If I loved you <span class=\"target\">less</span>, I might be able to talk about it more.",
-   "explain": "“Less” tells the degree of “loved”. It modifies the verb, so it is an adverb here. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
+   "explain": "“Less” tells the degree of “loved.” It modifies the verb, so it is an adverb here. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
    "options": [
     "Adverb",
     "Noun",
@@ -2384,7 +2384,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? For God so loved the world, that he gave his only begotten Son, that <span class=\"target\">whosoever</span> believeth in him should not perish, but have everlasting life.",
-   "explain": "“Whosoever” is the subject of “believeth”. It is a compound relative pronoun: the one who, whoever that may be. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), John 3:16)",
+   "explain": "“Whosoever” is the subject of “believeth.” It is a compound relative pronoun: the one who, whoever that may be. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), John 3:16)",
    "options": [
     "Pronoun",
     "Noun",
@@ -2428,7 +2428,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? For God so loved the world, that he gave his only begotten Son, that whosoever believeth <span class=\"target\">in</span> him should not perish, but have everlasting life.",
-   "explain": "“In” takes “him” as its object and ties that phrase to “believeth”. A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (The King James Version (the Oxford text of 1769), John 3:16)",
+   "explain": "“In” takes “him” as its object and ties that phrase to “believeth.” A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (The King James Version (the Oxford text of 1769), John 3:16)",
    "options": [
     "Preposition",
     "Noun",
@@ -2450,7 +2450,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with <span class=\"target\">whom</span> is no variableness,",
-   "explain": "“Whom” is the object of “with”. “Whom” is the objective form of “who”, and the object of a preposition takes that form. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), James 1:17)",
+   "explain": "“Whom” is the object of “with.” “Whom” is the objective form of “who,” and the object of a preposition takes that form. A modern class calls this a pronoun, Donatus’s <span class=\"lat\">pronomen</span>. (The King James Version (the Oxford text of 1769), James 1:17)",
    "options": [
     "Pronoun",
     "Noun",
@@ -2494,7 +2494,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Every good gift and every <span class=\"target\">perfect</span> gift is from above, and cometh down from the Father of lights, with whom is no variableness,",
-   "explain": "“Perfect” tells what sort of gift, beside “good” in the pair “every good gift and every perfect gift”. A modern class calls this an adjective. Donatus counts this use under the noun. (The King James Version (the Oxford text of 1769), James 1:17)",
+   "explain": "“Perfect” tells what sort of gift, beside “good” in the pair “every good gift and every perfect gift.” A modern class calls this an adjective. Donatus counts this use under the noun. (The King James Version (the Oxford text of 1769), James 1:17)",
    "options": [
     "Adjective",
     "Noun",
@@ -2516,7 +2516,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? If I loved you less, I might be able to talk about it <span class=\"target\">more</span>.",
-   "explain": "“More” tells the degree of the talking that would have been possible. It modifies the understood comparison in “talk about it more”. A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
+   "explain": "“More” tells the degree of the talking that would have been possible. It modifies the understood comparison in “talk about it more.” A modern class calls this an adverb, Donatus’s <span class=\"lat\">adverbium</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
    "options": [
     "Adverb",
     "Noun",
@@ -2538,7 +2538,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? If I loved you less, I might be able to talk <span class=\"target\">about</span> it more.",
-   "explain": "“About” takes “it” as its object inside the infinitive “to talk about it”. A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
+   "explain": "“About” takes “it” as its object inside the infinitive “to talk about it.” A modern class calls this a preposition, Donatus’s <span class=\"lat\">praepositio</span>. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
    "options": [
     "Preposition",
     "Noun",
@@ -2560,7 +2560,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Few things are <span class=\"target\">impossible</span> to diligence and skill.",
-   "explain": "“Impossible” describes “things” after the linking verb “are”. A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
+   "explain": "“Impossible” describes “things” after the linking verb “are.” A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
    "options": [
     "Adjective",
     "Noun",
@@ -2582,7 +2582,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <span class=\"target\">Few</span> things are impossible to diligence and skill.",
-   "explain": "“Few” tells how many things. It cannot stand alone as the name of a thing, so it is used as an adjective, though it sits in the subject’s place beside “things”. A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
+   "explain": "“Few” tells how many things. It cannot stand alone as the name of a thing, so it is used as an adjective, though it sits in the subject’s place beside “things.” A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 12 (Cassell, 1889))",
    "options": [
     "Adjective",
     "Noun",
@@ -2625,7 +2625,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Of the blessings set before you make your choice, and be <span class=\"target\">content</span>.",
-   "explain": "“Content” describes the person commanded, after the linking verb “be”. The subject “you” is understood in the imperative. A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
+   "explain": "“Content” describes the person commanded, after the linking verb “be.” The subject “you” is understood in the imperative. A modern class calls this an adjective. Donatus counts this use under the noun. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
    "options": [
     "Adjective",
     "Noun",
@@ -2647,7 +2647,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? I am <span class=\"target\">Alpha</span> and Omega,",
-   "explain": "“Alpha” names what the speaker is. After “am” it is a predicate nominative. “Omega” is a second one, joined by “and”. A modern class calls this a noun, Donatus’s <span class=\"lat\">nomen</span>. (The King James Version (the Oxford text of 1769), Revelation 1:8)",
+   "explain": "“Alpha” names what the speaker is. After “am” it is a predicate nominative. “Omega” is a second one, joined by “and.” A modern class calls this a noun, Donatus’s <span class=\"lat\">nomen</span>. (The King James Version (the Oxford text of 1769), Revelation 1:8)",
    "options": [
     "Noun",
     "Pronoun",
@@ -2690,7 +2690,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Hope deferred maketh the heart <span class=\"target\">sick</span>: but when the desire cometh, it is a tree of life.",
-   "explain": "“Sick” describes “the heart”. It is an objective complement after “maketh”. A modern class calls this an adjective. Donatus counts this use under the noun. (The King James Version (the Oxford text of 1769), Proverbs 13:12)",
+   "explain": "“Sick” describes “the heart.” It is an objective complement after “maketh.” A modern class calls this an adjective. Donatus counts this use under the noun. (The King James Version (the Oxford text of 1769), Proverbs 13:12)",
    "options": [
     "Adjective",
     "Noun",
@@ -2712,7 +2712,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? Of the blessings set before you make your choice, <span class=\"target\">and</span> be content.",
-   "explain": "“And” joins the two commands, “make your choice” and “be content”. A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
+   "explain": "“And” joins the two commands, “make your choice” and “be content.” A modern class calls this a conjunction, Donatus’s <span class=\"lat\">coniunctio</span>. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
    "options": [
     "Conjunction",
     "Noun",
@@ -2780,7 +2780,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? <b>Waiting</b> is hard.",
-   "explain": "This is the gerund: it is the subject, and so it is used as a noun. Compare “the waiting sailors”, a participle.",
+   "explain": "This is the gerund: it is the subject, and so it is used as a noun. Compare “the waiting sailors,” a participle.",
    "options": [
     "Noun",
     "Adjective",
@@ -2826,7 +2826,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? She walked <b>up</b> the road.",
-   "explain": "It stands before “the road” and bends that naming toward the walking. In “she looked up”, nothing follows, and it is an adverb.",
+   "explain": "It stands before “the road” and bends that naming toward the walking. In “she looked up,” nothing follows, and it is an adverb.",
    "options": [
     "Preposition",
     "Adjective",
@@ -2895,7 +2895,7 @@ ARS.exercises["lang.iii-indecl.en/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which part of speech is the marked word? This is the man <b>that</b> I saw.",
-   "explain": "This is the relative “that”, which stands in for “man” and joins the seeing. In “I know that he came” the same sound is a conjunction.",
+   "explain": "This is the relative “that,” which stands in for “man” and joins the seeing. In “I know that he came” the same sound is a conjunction.",
    "options": [
     "Pronoun",
     "Adjective",

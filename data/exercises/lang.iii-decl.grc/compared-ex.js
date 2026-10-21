@@ -31,7 +31,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In Greek, <em>τὸ φιλοσοφεῖν</em> is…",
+   "prompt": "In Greek, <i>τὸ φιλοσοφεῖν</i> is…",
    "explain": "The neuter article makes the infinitive a noun. Latin has no article, so it cannot do this. The phrase means “philosophizing.”",
    "options": [
     "An infinitive made a noun by the article",
@@ -94,7 +94,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>ἄνθρωπος</em> without the article means…",
+   "prompt": "<i>ἄνθρωπος</i> without the article means…",
    "explain": "Greek has no indefinite article; the bare noun is indefinite.",
    "options": [
     "“a man” or “man”",
@@ -110,7 +110,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>τὸ καλόν</em> means…",
+   "prompt": "<i>τὸ καλόν</i> means…",
    "explain": "The neuter article makes the adjective a noun.",
    "options": [
     "“the beautiful”",
@@ -126,7 +126,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>λύσας</em>, “having loosed,” is…",
+   "prompt": "<i>λύσας</i>, “having loosed,” is…",
    "explain": "Latin has no active participle of the past in most verbs; Greek has the aorist.",
    "options": [
     "An aorist active participle, a form Latin lacks",
@@ -176,7 +176,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which articles does Greek have?",
-   "explain": "Greek has the definite article <em>ὁ, ἡ, τό</em>. It has no indefinite article. French and German have both.",
+   "explain": "Greek has the definite article <i>ὁ, ἡ, τό</i>. It has no indefinite article. French and German have both.",
    "options": [
     "An indefinite article and no definite one",
     "Both a definite and an indefinite article",
@@ -208,12 +208,12 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which pair shows a definite article and an indefinite article in German?",
-   "explain": "German has both. <em>der König</em> is definite, and <em>ein König</em> is indefinite. French has the same pair of kinds in <em>le roi</em> and <em>un roi</em>.",
+   "explain": "German has both. <i>der König</i> is definite, and <i>ein König</i> is indefinite. French has the same pair of kinds in <i>le roi</i> and <i>un roi</i>.",
    "options": [
-    "<em>der König</em> and <em>ein König</em>",
-    "<em>ὁ</em> and <em>ἡ</em>, two genders of one definite article",
-    "<em>τὸ καλόν</em> and <em>οἱ τότε</em>",
-    "<em>le roi</em> alone, with no second form"
+    "<i>der König</i> and <i>ein König</i>",
+    "<i>ὁ</i> and <i>ἡ</i>, two genders of one definite article",
+    "<i>τὸ καλόν</i> and <i>οἱ τότε</i>",
+    "<i>le roi</i> alone, with no second form"
    ],
    "answer": 0
   },
@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What can the Greek article do with an adverb?",
-   "explain": "The article can turn an adverb into a noun, as <em>οἱ τότε</em> means “the men of that time.” Latin has no article with which to do that.",
+   "explain": "The article can turn an adverb into a noun, as <i>οἱ τότε</i> means “the men of that time.” Latin has no article with which to do that.",
    "options": [
     "Nothing; an adverb cannot stand with the article",
     "Give it a past augment",
@@ -308,7 +308,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "options": [
     "With an indefinite article of its own",
     "A noun, a relative, or the adjective",
-    "With the same article <em>ὁ, ἡ, τό</em>",
+    "With the same article <i>ὁ, ἡ, τό</i>",
     "Only with a participle of the future"
    ],
    "answer": 1
@@ -319,7 +319,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What do <em>der gute Mann</em> and <em>ein guter Mann</em> show about the German adjective?",
+   "prompt": "What do <i>der gute Mann</i> and <i>ein guter Mann</i> show about the German adjective?",
    "explain": "The adjective changes its ending with the article before it. That agreement is why the adjective is filed with the noun.",
    "options": [
     "The adjective never changes",

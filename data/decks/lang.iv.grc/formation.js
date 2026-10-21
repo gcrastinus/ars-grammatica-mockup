@@ -4,7 +4,7 @@ ARS.decks["lang.iv.grc/formation"] = {
  "id": "lang.iv.grc/formation",
  "title": "Word Formation in Greek",
  "sub": "Suffixes that name an act, a doer, and a thing produced; the privative prefix; compounds; and the augment of a compound verb",
- "sources": "Smyth, <i>Greek Grammar</i>",
+ "sources": "Smyth, <em>Greek Grammar</em>",
  "panels": [
   {
    "id": "suffixes",
