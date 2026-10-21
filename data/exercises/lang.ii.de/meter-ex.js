@@ -63,8 +63,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>Herr von Ribbeck auf Ribbeck im Havelland</em> (Fontane), between the beats there are…",
-   "explain": "HERR von RIB-beck auf RIB-beck im HA-vel-LAND: the ballad line keeps four beats and lets one or two unstressed syllables fall between them.",
+   "prompt": "In <em>Es ist der Vater mit seinem Kind</em> (Goethe, “Erlkönig,” line 2), between the beats there are…",
+   "explain": "es IST der VA-ter mit SEI-nem KIND: the ballad line keeps four beats and lets one or two unstressed syllables fall between them.",
    "options": [
     "One or two unstressed syllables",
     "Always exactly one",
@@ -191,8 +191,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many beats does <em>Ein Birnbaum in seinem Garten stand</em> (Fontane) have?",
-   "explain": "ein BIRN-baum in SEI-nem GAR-ten STAND: four beats, as in the other lines of the ballad.",
+   "prompt": "How many beats does <em>Er hat den Knaben wohl in dem Arm</em> (Goethe, “Erlkönig,” line 3) have?",
+   "explain": "er HAT den KNA-ben WOHL in dem ARM: four beats, as in the other lines of the ballad.",
    "options": [
     "Three",
     "Four",
