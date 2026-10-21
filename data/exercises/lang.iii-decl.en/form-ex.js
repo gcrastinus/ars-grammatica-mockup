@@ -15,15 +15,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The simple subject is “flock”, singular. “Of starlings” tells which flock and does not take over the verb. Agreement of this kind is the congruity of number.",
+   "prompt": "Choose the verb that agrees with its subject: “The flock of starlings ___ loud.”",
+   "explain": "The simple subject is “flock,” which is singular. “Of starlings” tells which flock and does not decide the number.",
    "options": [
-    "The flock of starlings is loud.",
-    "The flock of starlings are loud.",
-    "A flock of starlings are loud.",
-    "The flock of starlings have been loud."
+    "are",
+    "is",
+    "were",
+    "have been"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef2",
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“And” makes a compound subject, and a compound subject with “and” is plural. “Are” matches it. “With” does not make a compound subject: “The king, with the queen, is here.”",
+   "prompt": "Choose the verb that agrees with its subject: “The king and the queen ___ here.”",
+   "explain": "Two subjects joined by “and” make a compound subject, which is plural.",
    "options": [
-    "The king and the queen are here.",
-    "The king and the queen is here.",
-    "The king and queen is here.",
-    "The king, with the queen, are here."
+    "are",
+    "is",
+    "was",
+    "has been"
    ],
    "answer": 0
   },
@@ -47,15 +47,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“Each” is the subject, and it is singular. “Of the sailors” tells the group we are taking one from. The verb matches “each”.",
+   "prompt": "Choose the verb that agrees with its subject: “Each of the sailors ___ ready.”",
+   "explain": "“Each” is singular when it is the subject, and “of the sailors” does not decide the number.",
    "options": [
-    "Each of the sailors is ready.",
-    "Each of the sailors are ready.",
-    "Each sailor are ready.",
-    "Neither of the sailors are ready."
+    "are",
+    "were",
+    "have been",
+    "is"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef4",
@@ -63,15 +63,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pronoun is in the case its office requires?",
-   "explain": "“Between” is a preposition, and it governs the objective case. “Me” is objective. “I” is subjective, the case of a subject, and it is not the case a preposition governs.",
+   "prompt": "Choose the pronoun careful usage requires: “This is between you and ___.”",
+   "explain": "“Between” is a preposition and governs the objective case, so the pronoun is “me.”",
    "options": [
-    "This is between you and me.",
-    "This is between you and I.",
-    "This is between yourself and I.",
-    "This is between I and you."
+    "I",
+    "myself",
+    "me",
+    "we"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef5",
@@ -80,14 +80,14 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence keeps the pronoun in the case formal prose requires?",
-   "explain": "“Is” links, and the complement renames the subject. A predicate nominative stands in the subjective case, so the form is “I”. Ordinary talk often says “It’s me”. The form asked here is the formal one.",
+   "explain": "After “is,” the pronoun renames the subject and stands as a predicate nominative, in the subjective case. In conversation “It is me” is common, but formal prose prefers “It is I.”",
    "options": [
-    "It is I who waited at the gate.",
-    "It is me who waited at the gate.",
-    "It is myself who waited at the gate.",
-    "It is mine who waited at the gate."
+    "“It is me who waited at the gate.”",
+    "“It is I who waited at the gate.”",
+    "“It is myself who waited at the gate.”",
+    "“It is mine who waited at the gate.”"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef6",
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has “who” or “whom” in the case of its own clause?",
-   "explain": "“Whom” is the object of “see”, and the object takes the objective case. In “Who did you say was at the gate”, “who” would be the subject of “was”, and the subjective case would be right. The case comes from the pronoun’s own clause.",
+   "prompt": "Choose the pronoun careful usage requires: “___ did you see at the gate?”",
+   "explain": "The pronoun is the object of “see” in its own clause, so careful usage puts it in the objective case: “whom.”",
    "options": [
-    "Whom did you see at the gate?",
-    "Who did you see at the gate?",
-    "Whom did you say was at the gate?",
-    "Whose did you see at the gate?"
+    "Whom",
+    "Who",
+    "Whose",
+    "Which"
    ],
    "answer": 0
   },
@@ -111,26 +111,26 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with the nearer subject?",
-   "explain": "With “neither…nor”, the verb agrees with the nearer subject. “Queen” is singular, and so the verb is “is”.",
+   "prompt": "Choose the verb that agrees with its subject: “Neither the king nor the queen ___ here.”",
+   "explain": "With “neither … nor,” the verb agrees with the nearer subject, “the queen,” which is singular.",
    "options": [
-    "Neither the king nor the queen is here.",
-    "Neither the king nor the queen are here.",
-    "Neither the queen nor the guards is here.",
-    "Either the guards or the king are here."
+    "are",
+    "were",
+    "have been",
+    "is"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef14",
    "set": "A",
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the sentence so the verb agrees with the subject. Change only what must change. The sentence is “The flock of starlings are loud..”",
-   "explain": "The subject is “flock”, singular, and the verb should be “is”. “Of starlings” is a phrase modifying the subject. This matching of number is congruity.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence so the verb agrees with its subject. Change only what must change: “The list of names are on the door.”",
+   "explain": "The simple subject is “list,” which is singular, so the verb is “is.”",
    "accept": [
-    "The flock of starlings is loud."
+    "The list of names is on the door."
    ]
   },
   {
@@ -138,11 +138,11 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "set": "A",
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Choose the answer. Rewrite the sentence so the pronoun is in the case its office requires. The sentence is “The letter is between you and I..”",
-   "explain": "“Between” governs the objective case. The pronoun should be “me”. “I” is the subjective form, for subjects and predicate nominatives.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence so the pronoun is in the case careful usage requires. Change only what must change: “Mother sent Tom and I to the store.”",
+   "explain": "“Tom and me” is the object of “sent,” so the pronoun is objective: “me.”",
    "accept": [
-    "The letter is between you and me."
+    "Mother sent Tom and me to the store."
    ]
   },
   {
@@ -151,15 +151,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In “For the wages of sin is death”, which word is the subject of “is”?",
-   "explain": "The subject of “is” is “wages”. “Of sin” modifies it, and “death” is the predicate nominative. The verse continues after the semicolon, “but the gift of God is eternal life through Jesus Christ our Lord.” We do not rewrite “is”. (The King James Version (the Oxford text of 1769), Romans 6:23)",
+   "prompt": "In “For the wages of sin is death” (Romans 6:23), which word is the subject of “is”?",
+   "explain": "The subject of “is” is “wages”; “of sin” modifies it, and “death” is the predicate nominative. The singular verb with a plural-looking subject is the translator’s, and we describe it rather than rewrite it.",
    "options": [
-    "wages",
     "sin",
     "death",
+    "wages",
     "For"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef18",
@@ -167,15 +167,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has “there” agreeing with the real subject?",
-   "explain": "“There” is not the subject. The subject is “gates”, which is plural, and the verb is “are”.",
+   "prompt": "Choose the verb that agrees with its subject: “There ___ two gates in the wall.”",
+   "explain": "After “there,” the verb agrees with the real subject, which follows it: “gates,” plural.",
    "options": [
-    "There are two gates in the wall.",
-    "There is two gates in the wall.",
-    "There be two gates in the wall.",
-    "There am two gates in the wall."
+    "is",
+    "was",
+    "has been",
+    "are"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef19",
@@ -183,13 +183,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“News” ends in “-s” but is singular in English, and so it takes “is”. The form of a word can mislead; the agreement follows its number.",
+   "prompt": "Choose the verb that agrees with its subject: “The news ___ good today.”",
+   "explain": "“News” ends in “-s” but is singular in meaning and takes a singular verb.",
    "options": [
-    "The news is good today.",
-    "The news are good today.",
-    "The news are good.",
-    "The news were good."
+    "is",
+    "are",
+    "were",
+    "have been"
    ],
    "answer": 0
   },
@@ -199,13 +199,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pronoun is in the case its office requires?",
-   "explain": "“To” governs both pronouns, and so both are objective: “her” and “me”. Take away the other pronoun and the ear agrees: “to her”, “to me”.",
+   "prompt": "Choose the pronoun careful usage requires: “The captain gave the letter to her and ___.”",
+   "explain": "“Her and me” is the object of “to,” so both pronouns are objective.",
    "options": [
-    "The captain gave the letter to her and me.",
-    "The captain gave the letter to she and I.",
-    "The captain gave the letter to her and I.",
-    "The captain gave it to she and me."
+    "me",
+    "I",
+    "myself",
+    "mine"
    ],
    "answer": 0
   },
@@ -215,15 +215,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with the nearer subject?",
-   "explain": "With “either…or” the verb agrees with the nearer subject. “Sailors” is plural and stands nearer, so “are”. Put “captain” last and the verb would be “is” (or “was”).",
+   "prompt": "Choose the verb that agrees with its subject: “Either the captain or the sailors ___ to blame.”",
+   "explain": "With “either … or,” the verb agrees with the nearer subject, “the sailors,” which is plural.",
    "options": [
-    "Either the captain or the sailors are to blame.",
-    "Either the captain or the sailors is to blame.",
-    "Either the sailors or the captain are to blame.",
-    "Neither the sailors nor the captain were to blame."
+    "is",
+    "was",
+    "has been",
+    "are"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef24",
@@ -231,13 +231,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence keeps the pronoun in the case formal prose requires?",
-   "explain": "In formal prose “than” is treated as a conjunction, and the clause is completed in the mind: “than I am”. So the pronoun is subjective. Ordinary speech often says “than me”.",
+   "prompt": "Which comparison keeps the pronoun in the case formal prose requires?",
+   "explain": "“Than I” is short for “than I am,” so formal prose uses the subjective “I.” In conversation “than me” is common.",
    "options": [
-    "She is taller than I.",
-    "Her is taller than I.",
-    "She is taller than myself.",
-    "Her is taller than me."
+    "“She is taller than I.”",
+    "“Her is taller than I.”",
+    "“She is taller than myself.”",
+    "“Her is taller than me.”"
    ],
    "answer": 0
   },
@@ -247,15 +247,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The subject is “bunch”, singular. “Of keys” tells which bunch and does not take the verb. The verb agrees with “bunch”.",
+   "prompt": "Choose the verb that agrees with its subject: “A bunch of keys ___ on the hook.”",
+   "explain": "The simple subject is “bunch,” which is singular.",
    "options": [
-    "A bunch of keys is on the hook.",
-    "A bunch of keys are on the hook.",
-    "A bunch of keys be on the hook.",
-    "A bunch of keys set on the hook."
+    "are",
+    "were",
+    "have been",
+    "is"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef26",
@@ -263,15 +263,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“News” ends in “s” and is still singular in English, so the verb is “is”.",
+   "prompt": "Choose the verb that agrees with its subject: “Measles ___ a contagious disease.”",
+   "explain": "The name of the disease ends in “-s” but is singular in meaning, like “news.”",
    "options": [
-    "The news is welcome today.",
-    "The news are welcome today.",
-    "The news be welcome today.",
-    "The news am welcome today."
+    "are",
+    "were",
+    "is",
+    "have been"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef27",
@@ -279,15 +279,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“Each” is singular. “Of the boats” does not make the verb plural. “All of the boats” would take “are”, not “is”.",
+   "prompt": "Choose the verb that agrees with its subject: “Every one of the boats ___ ready.”",
+   "explain": "“Every one” is singular, and “of the boats” does not decide the number.",
    "options": [
-    "Each of the boats is ready.",
-    "Each of the boats are ready.",
-    "Each of the boats be ready.",
-    "All of the boats is ready."
+    "are",
+    "is",
+    "were",
+    "have been"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef28",
@@ -295,13 +295,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "“There” is not the subject. The subject is “ships”, plural, and the verb is “are”.",
+   "prompt": "Choose the verb that agrees with its subject: “Here ___ the papers you asked for.”",
+   "explain": "After “here,” as after “there,” the verb agrees with the subject that follows it: “papers,” plural.",
    "options": [
-    "There are two ships in the bay.",
-    "There is two ships in the bay.",
-    "There was two ships in the bay.",
-    "There be two ships in the bay now."
+    "are",
+    "is",
+    "was",
+    "has been"
    ],
    "answer": 0
   },
@@ -311,15 +311,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The subject is “number”, singular. “Of mistakes” modifies it. A phrase between subject and verb does not steal the agreement.",
+   "prompt": "Choose the verb that agrees with its subject: “The number of mistakes ___ small.”",
+   "explain": "“The number” is singular, and “of mistakes” does not decide the number. Usage differs with “a number,” which means “several” and takes a plural verb: “A number of mistakes were found.”",
    "options": [
-    "The number of mistakes is small.",
-    "The number of mistakes are small.",
-    "The number of mistakes be small.",
-    "The number of mistakes am small."
+    "are",
+    "were",
+    "have been",
+    "is"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef30",
@@ -327,15 +327,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The subject is “quality”, not “cloth”. “Of the cloth” tells which quality. The verb is “is”.",
+   "prompt": "Choose the verb that agrees with its subject: “The quality of the cloths ___ poor.”",
+   "explain": "The simple subject is “quality,” singular; “of the cloths” tells whose quality.",
    "options": [
-    "The quality of the cloth is plain.",
-    "The quality of the cloth are plain.",
-    "The quality of the cloth be plain.",
-    "The quality of the cloth am plain."
+    "are",
+    "is",
+    "were",
+    "have been"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef31",
@@ -343,15 +343,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun formal prose wants after a preposition?",
-   "explain": "“For” governs both pronouns. The form after a preposition is the objective, which the older grammar calls the accusative: “me”, not “I”. Take the other pronoun away and the ear agrees: “for me”.",
+   "prompt": "Choose the pronoun careful usage requires: “The note is for you and ___.”",
+   "explain": "“For” is a preposition, and its object is in the objective case.",
    "options": [
-    "The note is for you and me.",
-    "The note is for you and I.",
-    "The note is for you and we.",
-    "The note is for you and myself."
+    "I",
+    "we",
+    "me",
+    "myself"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef32",
@@ -359,15 +359,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun formal prose wants after a preposition?",
-   "explain": "“Between” governs both objects. Both stand in the objective case: “you” and “me”. “Between you and I” is a common slip. Take the other pronoun away and the ear agrees: “between me”.",
+   "prompt": "Choose the pronoun careful usage requires: “The decision rests with the board and ___.”",
+   "explain": "“With” is a preposition, so its object “the board and him” is objective.",
    "options": [
-    "The gift is between you and me.",
-    "The gift is between you and I.",
-    "The gift is between you and we.",
-    "The gift is between you and myself."
+    "he",
+    "himself",
+    "his",
+    "him"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef33",
@@ -375,13 +375,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun formal prose wants after a preposition?",
-   "explain": "“From” governs “her” and “me”. “I” is the subjective form, for a subject or a predicate nominative, not for the object of a preposition.",
+   "prompt": "Choose the pronoun careful usage requires: “She heard the news from her mother and ___.”",
+   "explain": "“From” governs the objective case, and both objects stand in it.",
    "options": [
-    "She heard the news from her and me.",
-    "She heard the news from her and I.",
-    "She heard the news from her and we.",
-    "She heard the news from her and myself."
+    "me",
+    "I",
+    "we",
+    "myself"
    ],
    "answer": 0
   },
@@ -391,15 +391,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun formal prose wants after a preposition?",
-   "explain": "“For” governs the object. A name does not change, and the pronoun beside it is still “me”.",
+   "prompt": "Choose the pronoun careful usage requires: “The letter is addressed to Ann and ___.”",
+   "explain": "“To” is a preposition, so the pronoun is objective.",
    "options": [
-    "The letter is for Ann and me.",
-    "The letter is for Ann and I.",
-    "The letter is for Ann and we.",
-    "The letter is for Ann and myself."
+    "I",
+    "me",
+    "myself",
+    "mine"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef35",
@@ -407,15 +407,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun formal prose wants after a preposition?",
-   "explain": "“By” governs “Ann and me”. The pronoun is objective.",
+   "prompt": "Choose the pronoun careful usage requires: “The map was drawn by Ann and ___.”",
+   "explain": "“By” is a preposition, so the pronoun is objective, even though Ann and the speaker did the drawing.",
    "options": [
-    "The map was drawn by Ann and me.",
-    "The map was drawn by Ann and I.",
-    "The map was drawn by Ann and we.",
-    "The map was drawn by Ann and myself."
+    "I",
+    "myself",
+    "me",
+    "we"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef44",
@@ -423,15 +423,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the subject form formal prose wants?",
-   "explain": "The pronouns are the subject of “went”, so formal prose uses the subject forms “he” and “I”. “Me and him” are object forms.",
+   "prompt": "Choose the pronoun careful usage requires: “___ and I went to the ship.”",
+   "explain": "“He and I” is the subject of “went,” so both pronouns are subjective.",
    "options": [
-    "He and I went to the ship.",
-    "Me and him went to the ship.",
-    "I and me went to the ship.",
-    "Me went to the ship."
+    "Him",
+    "His",
+    "He",
+    "Himself"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef51",
@@ -439,13 +439,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "“Whom” is the object of “met”, the objective form of “who”. The older grammar calls that form the accusative. “Who” is the subjective form. “Which” is for things.",
+   "prompt": "Choose the pronoun careful usage requires: “The person ___ she met is kind.”",
+   "explain": "The relative is the object of “met” in its own clause, so careful usage uses “whom.”",
    "options": [
-    "The person whom she met is kind.",
-    "The person what she met is kind.",
-    "The person who she met is kind.",
-    "The person which she met is kind."
+    "whom",
+    "who",
+    "which",
+    "what"
    ],
    "answer": 0
   },
@@ -455,15 +455,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "The pronoun is the object of “to”. After a preposition, formal prose uses “whom”, not “who”.",
+   "prompt": "Choose the pronoun careful usage requires: “The woman to ___ she spoke is here.”",
+   "explain": "The relative is the object of the preposition “to,” so it is objective.",
    "options": [
-    "The woman to whom she spoke is here.",
-    "The woman to what she spoke is here.",
-    "The woman to who she spoke is here.",
-    "The woman to which she spoke is here."
+    "who",
+    "whom",
+    "which",
+    "what"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef53",
@@ -471,15 +471,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "The pronoun is the object of “invite”, set first in the question. Formal prose uses “whom”. “Who” is the subject form. Ordinary speech often says “who”.",
+   "prompt": "Choose the pronoun careful usage requires: “___ did the clerk invite?”",
+   "explain": "The pronoun is the object of “invite,” so careful usage puts it in the objective case.",
    "options": [
-    "Whom did the clerk invite?",
-    "Who did the clerk invite?",
-    "Who did the clerk invited?",
-    "Whom did the clerk invited?"
+    "Who",
+    "Which",
+    "Whom",
+    "Whose"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef54",
@@ -487,15 +487,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "“Whom” is the object of “trust”. The clause tells which friend, and the pronoun inside it still takes its case from its own verb.",
+   "prompt": "Choose the pronoun careful usage requires: “The friend ___ we trust arrived.”",
+   "explain": "The relative is the object of “trust,” so it is objective.",
    "options": [
-    "The friend whom we trust arrived.",
-    "The friend what we trust arrived.",
-    "The friend who we trust arrived.",
-    "The friend which we trust arrived."
+    "who",
+    "which",
+    "what",
+    "whom"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef62",
@@ -503,15 +503,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pronoun fits one dog when no sex is meant?",
-   "explain": "The antecedent is “dog”, one animal. “Its” fits when no sex is meant. “His” and “her” name a sex the sentence does not give, and “my” would mean the speaker.",
+   "prompt": "Choose the pronoun careful usage requires: “The dog lost ___ collar in the yard.”",
+   "explain": "The antecedent is one animal, and “its” fits when no sex is meant. “It’s” is a contraction of “it is.”",
    "options": [
-    "The dog lost its collar in the yard.",
-    "The dog lost his collar in the yard.",
-    "The dog lost my collar in the yard.",
-    "The dog lost her collar in the yard."
+    "his",
+    "it’s",
+    "its",
+    "their"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef63",
@@ -519,15 +519,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In formal prose, which pronoun is the predicate nominative?",
-   "explain": "After the linking verb, the pronoun renames the subject and stands in the subjective case, the nominative. Formal prose uses “she”, not “her”. Ordinary speech often says “her”.",
+   "prompt": "Choose the pronoun careful usage requires: “The winner is ___.”",
+   "explain": "After the linking verb, the pronoun renames the subject and stands in the subjective case. Ordinary speech often says “her,” but formal prose uses “she.”",
    "options": [
-    "The winner is she.",
-    "The winner is her.",
-    "The winner is hers.",
-    "The winner is them."
+    "her",
+    "she",
+    "hers",
+    "herself"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef64",
@@ -535,13 +535,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In formal prose, which pronoun is the predicate nominative?",
-   "explain": "“He” renames “the author” and is nominative. “Him” is objective. “We” and “them” do not match one author.",
+   "prompt": "Choose the pronoun careful usage requires: “The author of the letter was ___.”",
+   "explain": "The pronoun is a predicate nominative after “was,” so formal prose puts it in the subjective case.",
    "options": [
-    "The author is he.",
-    "The author is we.",
-    "The author is him.",
-    "The author is them."
+    "he",
+    "him",
+    "his",
+    "himself"
    ],
    "answer": 0
   },
@@ -551,15 +551,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The subject after “there” is “paths”, plural. The verb is “are”.",
+   "prompt": "Choose the verb that agrees with its subject: “Where ___ the keys to the barn?”",
+   "explain": "In a question the subject may follow the verb; the subject here is “the keys,” plural.",
    "options": [
-    "There are two paths up the hill.",
-    "There is two paths up the hill.",
-    "There was two paths up the hill.",
-    "There be two paths up the hill now."
+    "is",
+    "are",
+    "was",
+    "has been"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef68",
@@ -567,13 +567,13 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence has the verb agreeing with its subject?",
-   "explain": "The subject is “bunch”, singular. “Of grapes” does not become the subject.",
+   "prompt": "Choose the verb that agrees with its subject: “A pair of scissors ___ on the desk.”",
+   "explain": "The simple subject is “pair,” which is singular; “of scissors” tells which pair.",
    "options": [
-    "A bunch of grapes is on the plate.",
-    "A bunch of grapes are on the plate.",
-    "A bunch of grapes be on the plate.",
-    "A bunch of grapes set on the plate."
+    "is",
+    "are",
+    "were",
+    "have been"
    ],
    "answer": 0
   },
@@ -583,15 +583,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "“Whom” is the object of “obeyed”. The clause tells which officer, and the case comes from that verb, not from “resigned”.",
+   "prompt": "Choose the pronoun careful usage requires: “The officer ___ the men obeyed resigned.”",
+   "explain": "The relative is the object of “obeyed” in its own clause, so it is objective.",
    "options": [
-    "The officer whom the men obeyed resigned.",
-    "The officer what the men obeyed resigned.",
-    "The officer who the men obeyed resigned.",
-    "The officer which the men obeyed resigned."
+    "who",
+    "which",
+    "what",
+    "whom"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef70",
@@ -599,15 +599,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "The pronoun is the object of “to”. Formal prose uses “whom” after the preposition. “Who” is the subject form.",
+   "prompt": "Choose the pronoun careful usage requires: “To ___ was the letter sent?”",
+   "explain": "The pronoun is the object of “to,” so it is objective.",
    "options": [
-    "To whom was the letter sent?",
-    "To who was the letter sent?",
-    "To who was the letters sent?",
-    "To whom was the letter sended?"
+    "who",
+    "whom",
+    "which",
+    "whose"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef71",
@@ -615,15 +615,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "“Whom” is the object of “seated”. “Left” has “guest” as its subject, and that does not change the case inside the clause.",
+   "prompt": "Choose the pronoun careful usage requires: “The guest ___ they seated left early.”",
+   "explain": "The relative is the object of “seated,” so it is objective.",
    "options": [
-    "The guest whom they seated left early.",
-    "The guest what they seated left early.",
-    "The guest who they seated left early.",
-    "The guest which they seated left early."
+    "who",
+    "which",
+    "whom",
+    "what"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef87",
@@ -631,15 +631,15 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the object form formal prose wants?",
-   "explain": "“Whom” is the object of “names”. “She” is a predicate nominative after “is”, and that nominative does not reach into the clause.",
+   "prompt": "Choose the pronoun careful usage requires: “She is the one ___ the letter names.”",
+   "explain": "The relative is the object of “names,” so it is objective; “the letter” is the subject of its clause.",
    "options": [
-    "She is the one whom the letter names.",
-    "She is the one what the letter names.",
-    "She is the one who the letter names.",
-    "She is the one which the letter names."
+    "who",
+    "which",
+    "what",
+    "whom"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef88",
@@ -647,24 +647,24 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pronoun fits one flock when no sex is meant?",
-   "explain": "The antecedent is “flock”, one flock. “Its” fits when no sex is meant. “His” and “her” name a sex the sentence does not give, and “my” would mean the speaker.",
+   "prompt": "Choose the pronoun careful usage requires: “The flock lost ___ way in the fog.”",
+   "explain": "“Flock” is singular, and a pronoun agrees with its antecedent in number, so the singular “its” is used.",
    "options": [
-    "The flock lost its way in the fog.",
-    "The flock lost his way in the fog.",
-    "The flock lost my way in the fog.",
-    "The flock lost her way in the fog."
+    "their",
+    "it’s",
+    "its",
+    "his"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/form-ex:ef97",
    "set": "C",
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the question so formal prose has the object form of “who”. Change only what must change. The sentence is “Who did she invite to the feast?.”",
-   "explain": "The pronoun is the object of “invite”. Formal prose uses “whom”. Ordinary speech often keeps “who”.",
+   "type": "transform",
+   "prompt": "Rewrite the question so that formal prose has the objective form of “who.” Change only what must change: “Who did she invite to the feast?”",
+   "explain": "The pronoun is the object of “invite,” so formal prose uses “whom.”",
    "accept": [
     "Whom did she invite to the feast?"
    ]
@@ -674,11 +674,11 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the sentence so the pronoun after the preposition is in the case formal prose wants. Change only what must change. The sentence is “The note is for you and I..”",
-   "explain": "“For” governs the objective case. The pronoun is “me”.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence so both pronouns are in the case careful usage requires. Change only what must change: “The secret stays between he and I.”",
+   "explain": "“Between” is a preposition, and both pronouns are its objects, so both are objective.",
    "accept": [
-    "The note is for you and me."
+    "The secret stays between him and me."
    ]
   },
   {
@@ -686,9 +686,9 @@ ARS.exercises["lang.iii-decl.en/form-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.en/form-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the sentence so the verb agrees with the subject. Change only what must change. The sentence is “The men who called has the key..”",
-   "explain": "The subject of “has” is “men”, plural. The adjective clause “who called” does not become the subject. The verb is “have”.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence so the verb agrees with its subject. Change only what must change: “The men who called has the key.”",
+   "explain": "The subject is “men,” plural, so the verb is “have”; the clause “who called” does not change the number.",
    "accept": [
     "The men who called have the key."
    ]

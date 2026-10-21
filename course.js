@@ -93,8 +93,10 @@ function langRecord(bar, code){
   const stored = ARS.languages && ARS.languages[id];
   return stored || { id:id, bar:bar, code:code, section:info.section, items:[], more:true };
 }
-/* A language study deck with a built exercise of the same id plus "-ex" opens that
-   exercise from the small button. The exercise is not a tile of its own. */
+/* A language study deck opens its exercise from the small "Exercise →" button, and the
+   exercise is then not a tile of its own. The pairing is, in this order: the study item's
+   `ex` (the exercise id); an exercise item's `exFor` (the deck id); or else the exercise
+   whose id is the deck id plus "-ex". One exercise to a deck. */
 function linkLangDeckExercises(){
   ARS.deckEx = ARS.deckEx || {};
   const langs = ARS.languages || {};
@@ -102,11 +104,19 @@ function linkLangDeckExercises(){
     const items = langs[sid].items || [];
     const byId = {};
     items.forEach(it => { byId[it.id] = it; });
+    const usable = id => byId[id] && byId[id].kind === 'exercise' && byId[id].built;
     items.forEach(it => {
       if (!it || it.kind !== 'study' || !it.built) return;
-      const exId = it.id + '-ex';
-      const ex = byId[exId];
-      if (ex && ex.kind === 'exercise' && ex.built) ARS.deckEx[it.id] = exId;
+      if (it.ex && usable(it.ex)) ARS.deckEx[it.id] = it.ex;
+    });
+    items.forEach(it => {
+      if (!it || it.kind !== 'exercise' || !it.built || !it.exFor) return;
+      const deck = byId[it.exFor];
+      if (deck && deck.kind === 'study' && deck.built && !ARS.deckEx[deck.id]) ARS.deckEx[deck.id] = it.id;
+    });
+    items.forEach(it => {
+      if (!it || it.kind !== 'study' || !it.built || ARS.deckEx[it.id]) return;
+      if (usable(it.id + '-ex')) ARS.deckEx[it.id] = it.id + '-ex';
     });
   });
 }

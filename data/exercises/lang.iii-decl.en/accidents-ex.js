@@ -31,15 +31,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which is the plural of “child”?",
-   "explain": "An old plural in “-en,” kept from Old English. “Child’s” is the possessive.",
+   "prompt": "Which is the plural of “mongoose”?",
+   "explain": "“Mongoose” is not a compound of “goose,” so it takes the regular plural “-s.” “Mongoose’s” is the possessive singular.",
    "options": [
-    "“children”",
-    "“childs”",
-    "“childes”",
-    "“child’s”"
+    "“mongeese”",
+    "“mongooses”",
+    "“mongoose”",
+    "“mongoose’s”"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea3",
@@ -319,15 +319,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "“Consider the lilies of the field, how they grow; they toil not, neither do they spin:” What is the mood of “Consider”?",
-   "explain": "“Consider” commands. The subject “you” is understood, which is ordinary in the imperative. The absence of a written subject does not make the verb an infinitive. An infinitive would be “to consider”. (The King James Version (the Oxford text of 1769), Matthew 6:28)",
+   "prompt": "“Consider the lilies of the field, how they grow; they toil not, neither do they spin” (Matthew 6:28). What is the mood of “Consider”?",
+   "explain": "“Consider” is a command, with its subject “you” understood, so it is imperative.",
    "options": [
-    "Imperative, a command, with “you” understood",
-    "Indicative, a plain statement of fact",
-    "Subjunctive, a wish contrary to fact",
-    "Infinitive, because no subject is written"
+    "Indicative",
+    "Subjunctive",
+    "Infinitive",
+    "Imperative"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea21",
@@ -399,13 +399,13 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "“The stone which the builders refused is become the head stone of the corner.” What is “is become”?",
-   "explain": "Older English formed the perfect of verbs of motion and change with “be”: “is become”, “is risen”, “are come”. Modern English uses “has”. It is not a passive, since nothing is done to the stone by “become”. (The King James Version (the Oxford text of 1769), Psalm 118:22)",
+   "prompt": "“The stone which the builders refused is become the head stone of the corner” (Psalm 118:22). What is “is become”?",
+   "explain": "Older English formed the perfect of some verbs of motion and change with “be”: “is become” is “has become.” German still does so (<i>ist geworden</i>).",
    "options": [
-    "The perfect: the older form of “has become”",
-    "The present progressive: “is becoming”",
-    "The future: “will become”",
-    "A passive: “is made”"
+    "The present perfect, in an older form",
+    "The present progressive",
+    "The future",
+    "The passive voice"
    ],
    "answer": 0
   },
@@ -415,15 +415,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence asks someone to recline?",
-   "explain": "“Lie”, to recline, takes no object. The form for a command is “lie”. “Lay” means put, and it takes an object.",
+   "prompt": "Choose the form that completes the sentence: “Please ___ down and rest.”",
+   "explain": "The sentence asks someone to recline, so the verb is “lie,” and the imperative is its present form.",
    "options": [
-    "Please lie down and rest.",
-    "Please lay down and rest.",
-    "Please lay down now.",
-    "Please laid down and rest now."
+    "lay",
+    "lie",
+    "laid",
+    "lain"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea27",
@@ -431,15 +431,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the past of “lie” (to recline)?",
-   "explain": "The past of “lie” (recline) is “lay”. “Laid” is the past of “lay” (to put). Nothing is put anywhere in this sentence.",
+   "prompt": "Choose the form that completes the sentence: “Yesterday she ___ on the couch.”",
+   "explain": "The past of “lie” (“to recline”) is “lay.” “Laid” is the past of “lay” (“to put”), which needs an object.",
    "options": [
-    "Yesterday she lay on the couch.",
-    "Yesterday she lie on the couch.",
-    "Yesterday she laid on the couch.",
-    "Yesterday she lain on the couch."
+    "laid",
+    "lie",
+    "lay",
+    "lain"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea28",
@@ -447,15 +447,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the past of “lay” (to put)?",
-   "explain": "“Lay” means to put, and it takes an object, here “the book”. The past is “laid”. The past of “lie” is “lay”, and that verb would not take “the book”.",
+   "prompt": "Choose the form that completes the sentence: “She ___ the book on the desk yesterday.”",
+   "explain": "“The book” is an object, so the verb is “lay” (“to put”), whose past is “laid.”",
    "options": [
-    "She laid the book on the desk.",
-    "She lay the book on the desk.",
-    "She lain the book on the desk.",
-    "She lie the book on the desk."
+    "lay",
+    "lain",
+    "lied",
+    "laid"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea29",
@@ -463,13 +463,13 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses “lie” (to recline) correctly?",
-   "explain": "The dog is reclining, so the participle is “lying”. “Laying” would mean putting something down. “Lain” is the perfect participle and does not follow “is” in this sense.",
+   "prompt": "Choose the form that completes the sentence: “The dog is ___ by the fire.”",
+   "explain": "The dog reclines, so the verb is “lie,” whose present participle is “lying.”",
    "options": [
-    "The dog is lying by the fire.",
-    "The dog be lying by the fire.",
-    "The dog is laying by the fire.",
-    "The dog is lain by the fire."
+    "lying",
+    "laying",
+    "lain",
+    "laid"
    ],
    "answer": 0
   },
@@ -479,15 +479,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence asks someone to put the map down?",
-   "explain": "“Lay” means to put, and the map is the object. “Lie” would mean recline, and it takes no object.",
+   "prompt": "Choose the form that completes the sentence: “Please ___ the map on the table.”",
+   "explain": "“The map” is an object, so the verb is “lay” (“to put”); the imperative is its present form.",
    "options": [
-    "Please lay the map on the table.",
-    "Please lie the map on the table.",
-    "Please laid the map on the table.",
-    "Please lain the map on the table."
+    "lie",
+    "laid",
+    "lay",
+    "lain"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea31",
@@ -495,15 +495,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lie” (to recline)?",
-   "explain": "The perfect participle of “lie” (recline) is “lain”. “Laid” is the participle of “lay” (to put). Nothing is put down here.",
+   "prompt": "Choose the form that completes the sentence: “She has ___ down for an hour.”",
+   "explain": "The present perfect of “lie” is “has lain.” “Has laid” would need an object.",
    "options": [
-    "She has lain down for an hour.",
-    "She has laid down for an hour.",
-    "She has lay down for an hour.",
-    "She has lie down for an hour."
+    "laid",
+    "lain",
+    "lay",
+    "lie"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea32",
@@ -511,13 +511,13 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lay” (to put)?",
-   "explain": "“The mats” are the object, so the verb is “lay” (to put). The perfect participle is “laid”.",
+   "prompt": "Choose the form that completes the sentence: “They have ___ the mats by the door.”",
+   "explain": "“The mats” is an object, so the verb is “lay,” whose past participle is “laid.”",
    "options": [
-    "They have laid the mats by the door.",
-    "They have lain the mats by the door.",
-    "They have lay the mats by the door.",
-    "They have lie the mats by the door."
+    "laid",
+    "lain",
+    "lay",
+    "lie"
    ],
    "answer": 0
   },
@@ -527,15 +527,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lie” (to recline)?",
-   "explain": "The letter reclines on the desk. No one puts the letter in this sentence. The participle is “lain”.",
+   "prompt": "Choose the form that completes the sentence: “The letter has ___ on the desk all day.”",
+   "explain": "The letter is resting there, not putting anything, so the verb is “lie,” and its past participle is “lain.”",
    "options": [
-    "The letter has lain on the desk all day.",
-    "The letter has laid on the desk all day.",
-    "The letter has lay on the desk all day.",
-    "The letter has lie on the desk all day."
+    "laid",
+    "lay",
+    "lied",
+    "lain"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea34",
@@ -543,15 +543,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses “lie” (to recline) in the clause of condition?",
-   "explain": "She would have reclined. The participle with “had” is “lain”. “Laid” would mean she had put something down.",
+   "prompt": "Choose the form that completes the sentence: “Had she ___ still, the child would have slept.”",
+   "explain": "“Had she lain” is the past perfect of “lie” in a condition contrary to fact.",
    "options": [
-    "Had she lain still, the child would have slept.",
-    "Had she laid still, the child would have slept.",
-    "Had she lay still, the child would have slept.",
-    "Had she lie still, the child would have slept."
+    "laid",
+    "lay",
+    "lain",
+    "lie"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea35",
@@ -559,15 +559,15 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lay” (to put)?",
-   "explain": "“The book” is the object. The verb is “lay”, and the perfect participle is “laid”.",
+   "prompt": "Choose the form that completes the sentence: “He has ___ the book aside.”",
+   "explain": "“The book” is an object, so the verb is “lay,” and “has laid” is its present perfect.",
    "options": [
-    "He has laid the book aside.",
-    "He has lain the book aside.",
-    "He has lay the book aside.",
-    "He has lie the book aside."
+    "lain",
+    "laid",
+    "lay",
+    "lie"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.en/accidents-ex:ea36",
@@ -575,13 +575,13 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lie” (to recline)?",
-   "explain": "The tools rest in the shed. No one puts them in this sentence. The participle is “lain”.",
+   "prompt": "Choose the form that completes the sentence: “The hen has ___ an egg.”",
+   "explain": "To produce an egg is a sense of “lay,” which takes an object (“an egg”), so the participle is “laid.”",
    "options": [
-    "The tools have lain in the shed.",
-    "The tools have laid in the shed.",
-    "The tools have lay in the shed.",
-    "The tools have lie in the shed."
+    "laid",
+    "lain",
+    "lay",
+    "lied"
    ],
    "answer": 0
   },
@@ -687,13 +687,13 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which sentence uses the present perfect of “lie” (to recline)?",
-   "explain": "The rugs rest in the sun. The participle of “lie” is “lain”.",
+   "prompt": "Choose the form that completes the sentence: “The fields ___ fallow all last year.”",
+   "explain": "The fields rested, so the verb is “lie,” and its past is “lay.”",
    "options": [
-    "The rugs have lain in the sun.",
-    "The rugs have laid in the sun.",
-    "The rugs have lay in the sun.",
-    "The rugs have lie in the sun."
+    "lay",
+    "laid",
+    "lain",
+    "lie"
    ],
    "answer": 0
   },
@@ -702,9 +702,9 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the sentence so the verb is the one that means recline. Change only what must change. The sentence is “The book was laying on the desk..”",
-   "explain": "The book reclines. The participle is “lying”. “Laying” would mean that someone was putting the book somewhere.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence so the verb is the one that means “recline.” Change only what must change: “The book was laying on the desk.”",
+   "explain": "The book reclines and does not put anything, so the verb is “lie,” and the progressive uses its participle “lying.”",
    "accept": [
     "The book was lying on the desk."
    ]
@@ -714,9 +714,9 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.en/accidents-ex",
    "section": "iii",
-   "type": "form",
-   "prompt": "Rewrite the sentence so the past of “lie” (to recline) is used. Change only what must change. The sentence is “She laid on the couch all afternoon..”",
-   "explain": "No object is put anywhere. The past of “lie” is “lay”. “Laid” is the past of “lay”, to put.",
+   "type": "transform",
+   "prompt": "Rewrite the sentence with the past of “lie” (“to recline”). Change only what must change: “She laid on the couch all afternoon.”",
+   "explain": "“Laid” is the past of “lay” and needs an object. The past of “lie” is “lay.”",
    "accept": [
     "She lay on the couch all afternoon."
    ]
