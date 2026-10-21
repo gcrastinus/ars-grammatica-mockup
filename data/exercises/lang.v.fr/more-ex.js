@@ -5,7 +5,7 @@ ARS.exercises["lang.v.fr/more-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "More of the French Sentence",
+ "title": "Pronouns, Prepositions, and Government in French",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous ______ le livre. We carry the book.",
-   "explain": "The subject is <em>nous</em>, the first person plural, and the ending <em>-ons</em> marks that person. <em>Porte</em> is singular, <em>portez</em> is the second person plural, and <em>portent</em> is the third person plural.",
+   "prompt": "Choose the form that fills the blank: <i>Nous ______ le livre.</i> (“We carry the book”).",
+   "explain": "The subject is <i>nous</i>, the first person plural, and the ending <i>-ons</i> marks that person. <i>Porte</i> is singular, <i>portez</i> is the second person plural, and <i>portent</i> is the third person plural.",
    "options": [
-    "portons",
-    "porte",
-    "portez",
-    "portent"
+    "<i>portons</i>",
+    "<i>porte</i>",
+    "<i>portez</i>",
+    "<i>portent</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Tu ______ au roi. You (one friend) speak to the king.",
-   "explain": "<em>Tu</em> is the second person singular, and a verb in <em>-er</em> ends in <em>-es</em> in that person. <em>Parle</em> is the first or third person singular, and <em>parlez</em> and <em>parlons</em> are plural.",
+   "prompt": "Choose the form that fills the blank: <i>Tu ______ au roi.</i> (“You (one friend) speak to the king”).",
+   "explain": "<i>Tu</i> is the second person singular, and a verb in <i>-er</i> ends in <i>-es</i> in that person. <i>Parle</i> is the first or third person singular, and <i>parlez</i> and <i>parlons</i> are plural.",
    "options": [
-    "parles",
-    "parle",
-    "parlez",
-    "parlons"
+    "<i>parles</i>",
+    "<i>parle</i>",
+    "<i>parlez</i>",
+    "<i>parlons</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ils ______ la lettre. They finish the letter.",
-   "explain": "<em>Ils</em> is the third person plural, and <em>finir</em>, a verb of the second group, adds <em>-iss-</em> in the plural: <em>finissent</em>. <em>Finit</em> and <em>finis</em> are singular, and <em>finissons</em> is the first person plural.",
+   "prompt": "Choose the form that fills the blank: <i>Ils ______ la lettre.</i> (“They finish the letter”).",
+   "explain": "<i>Ils</i> is the third person plural, and <i>finir</i>, a verb of the second group, adds <i>-iss-</i> in the plural: <i>finissent</i>. <i>Finit</i> and <i>finis</i> are singular, and <i>finissons</i> is the first person plural.",
    "options": [
-    "finissent",
-    "finit",
-    "finissons",
-    "finis"
+    "<i>finissent</i>",
+    "<i>finit</i>",
+    "<i>finissons</i>",
+    "<i>finis</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ le cheval. I sell the horse.",
-   "explain": "<em>Je</em> is the first person singular, and <em>vendre</em> ends in <em>-s</em> in that person. <em>Vend</em> is the third person singular, and <em>vendons</em> and <em>vendez</em> are plural.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ le cheval.</i> (“I sell the horse”).",
+   "explain": "<i>Je</i> is the first person singular, and <i>vendre</i> ends in <i>-s</i> in that person. <i>Vend</i> is the third person singular, and <i>vendons</i> and <i>vendez</i> are plural.",
    "options": [
-    "vends",
-    "vend",
-    "vendons",
-    "vendez"
+    "<i>vends</i>",
+    "<i>vend</i>",
+    "<i>vendons</i>",
+    "<i>vendez</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Vous ______ dans le jardin. You (more than one) are in the garden.",
-   "explain": "<em>Vous</em> is the second person plural, and the form of <em>être</em> for that person is <em>êtes</em>. <em>Sommes</em> is the first person plural, <em>sont</em> the third person plural, and <em>est</em> the third person singular.",
+   "prompt": "Choose the form that fills the blank: <i>Vous ______ dans le jardin.</i> (“You (more than one) are in the garden”).",
+   "explain": "<i>Vous</i> is the second person plural, and the form of <i>être</i> for that person is <i>êtes</i>. <i>Sommes</i> is the first person plural, <i>sont</i> the third person plural, and <i>est</i> the third person singular.",
    "options": [
-    "êtes",
-    "sommes",
-    "sont",
-    "est"
+    "<i>êtes</i>",
+    "<i>sommes</i>",
+    "<i>sont</i>",
+    "<i>est</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine ______ un jardin. The queen has a garden.",
-   "explain": "<em>La reine</em> is a third person singular subject, and the form of <em>avoir</em> for that person is a. As and <em>ai</em> are the second and first person singular, and <em>ont</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>La reine ______ un jardin.</i> (“The queen has a garden”).",
+   "explain": "<i>La reine</i> is a third person singular subject, and the form of <i>avoir</i> for that person is a. As and <i>ai</i> are the second and first person singular, and <i>ont</i> is plural.",
    "options": [
-    "a",
-    "as",
-    "ai",
-    "ont"
+    "<i>a</i>",
+    "<i>as</i>",
+    "<i>ai</i>",
+    "<i>ont</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous ______ à la ville. We go to the city.",
-   "explain": "<em>Nous</em> is the first person plural, and the form of <em>aller</em> for that person is <em>allons</em>. <em>Allez</em> is the second person plural, <em>vont</em> the third person plural, and <em>va</em> the third person singular.",
+   "prompt": "Choose the form that fills the blank: <i>Nous ______ à la ville.</i> (“We go to the city”).",
+   "explain": "<i>Nous</i> is the first person plural, and the form of <i>aller</i> for that person is <i>allons</i>. <i>Allez</i> is the second person plural, <i>vont</i> the third person plural, and <i>va</i> the third person singular.",
    "options": [
-    "allons",
-    "allez",
-    "vont",
-    "va"
+    "<i>allons</i>",
+    "<i>allez</i>",
+    "<i>vont</i>",
+    "<i>va</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les amis ______ de la ville. The friends come from the city.",
-   "explain": "<em>Les amis</em> is a third person plural subject, and the form of <em>venir</em> for that person is <em>viennent</em>. <em>Vient</em> is singular, and <em>venons</em> and <em>venez</em> are the first and second persons plural.",
+   "prompt": "Choose the form that fills the blank: <i>Les amis ______ de la ville.</i> (“The friends come from the city”).",
+   "explain": "<i>Les amis</i> is a third person plural subject, and the form of <i>venir</i> for that person is <i>viennent</i>. <i>Vient</i> is singular, and <i>venons</i> and <i>venez</i> are the first and second persons plural.",
    "options": [
-    "viennent",
-    "vient",
-    "venons",
-    "venez"
+    "<i>viennent</i>",
+    "<i>vient</i>",
+    "<i>venons</i>",
+    "<i>venez</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi ______ voit. The king sees me.",
-   "explain": "<em>Me</em> is the object pronoun of the first person, and it stands before the verb. <em>Moi</em> is the stressed form, used after a preposition or alone, <em>je</em> is the subject, and <em>mon</em> is the possessive.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi ______ voit.</i> (“The king sees me”).",
+   "explain": "<i>Me</i> is the object pronoun of the first person, and it stands before the verb. <i>Moi</i> is the stressed form, used after a preposition or alone, <i>je</i> is the subject, and <i>mon</i> is the possessive.",
    "options": [
-    "me",
-    "moi",
-    "je",
-    "mon"
+    "<i>me</i>",
+    "<i>moi</i>",
+    "<i>je</i>",
+    "<i>mon</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi ______ voit. The king sees her.",
-   "explain": "The direct object pronoun for a feminine singular person or thing is <em>la</em>, and it stands before the verb. <em>Le</em> would mean him, <em>elle</em> is the subject or stressed form, and <em>lui</em> is the indirect object.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi ______ voit.</i> (“The king sees her”).",
+   "explain": "The direct object pronoun for a feminine singular person or thing is <i>la</i>, and it stands before the verb. <i>Le</i> would mean him, <i>elle</i> is the subject or stressed form, and <i>lui</i> is the indirect object.",
    "options": [
-    "la",
-    "lui",
-    "elle",
-    "le"
+    "<i>la</i>",
+    "<i>lui</i>",
+    "<i>elle</i>",
+    "<i>le</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine ______ donne le livre. The queen gives him the book.",
-   "explain": "The king receives the book, so he is the indirect object, and the indirect object pronoun of the third person singular is <em>lui</em>. <em>Le</em> is the direct object, <em>il</em> the subject, and <em>leur</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>La reine ______ donne le livre.</i> (“The queen gives him the book”).",
+   "explain": "The king receives the book, so he is the indirect object, and the indirect object pronoun of the third person singular is <i>lui</i>. <i>Le</i> is the direct object, <i>il</i> the subject, and <i>leur</i> is plural.",
    "options": [
-    "lui",
-    "le",
-    "il",
-    "leur"
+    "<i>lui</i>",
+    "<i>le</i>",
+    "<i>il</i>",
+    "<i>leur</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine ______ donne le livre. The queen gives them the book.",
-   "explain": "The indirect object pronoun of the third person plural is <em>leur</em>, and it never takes an s. <em>Lui</em> is singular, <em>les</em> is the direct object, and <em>leurs</em> is the possessive adjective before a plural noun.",
+   "prompt": "Choose the form that fills the blank: <i>La reine ______ donne le livre.</i> (“The queen gives them the book”).",
+   "explain": "The indirect object pronoun of the third person plural is <i>leur</i>, and it never takes an s. <i>Lui</i> is singular, <i>les</i> is the direct object, and <i>leurs</i> is the possessive adjective before a plural noun.",
    "options": [
-    "leur",
-    "lui",
-    "les",
-    "leurs"
+    "<i>leur</i>",
+    "<i>lui</i>",
+    "<i>les</i>",
+    "<i>leurs</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le livre est pour ______. The book is for me.",
-   "explain": "After a preposition French uses the stressed pronoun, so <em>pour moi</em>. <em>Me</em> is the object pronoun, which stands before a verb, and <em>je</em> is the subject.",
+   "prompt": "Choose the form that fills the blank: <i>Le livre est pour ______.</i> (“The book is for me”).",
+   "explain": "After a preposition French uses the stressed pronoun, so <i>pour moi</i>. <i>Me</i> is the object pronoun, which stands before a verb, and <i>je</i> is the subject.",
    "options": [
-    "moi",
-    "me",
-    "je",
-    "mon"
+    "<i>moi</i>",
+    "<i>me</i>",
+    "<i>je</i>",
+    "<i>mon</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ vois. I see them (the horses).",
-   "explain": "The horses are the direct object, and the direct object pronoun of the third person plural is <em>les</em>. <em>Leur</em> is the indirect object, <em>eux</em> is the stressed form, and <em>lui</em> is singular.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ vois.</i> (“I see them (the horses)”).",
+   "explain": "The horses are the direct object, and the direct object pronoun of the third person plural is <i>les</i>. <i>Leur</i> is the indirect object, <i>eux</i> is the stressed form, and <i>lui</i> is singular.",
    "options": [
-    "les",
-    "leur",
-    "eux",
-    "lui"
+    "<i>les</i>",
+    "<i>leur</i>",
+    "<i>eux</i>",
+    "<i>lui</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’homme ______ voit. The man sees us.",
-   "explain": "The object pronoun of the first person plural is <em>nous</em>, the same form <em>as</em> the subject, and it stands before the verb. <em>Notre</em> and <em>nos</em> are possessives, and on is a subject pronoun.",
+   "prompt": "Choose the form that fills the blank: <i>L’homme ______ voit.</i> (“The man sees us”).",
+   "explain": "The object pronoun of the first person plural is <i>nous</i>, the same form <i>as</i> the subject, and it stands before the verb. <i>Notre</i> and <i>nos</i> are possessives, and on is a subject pronoun.",
    "options": [
-    "nous",
-    "notre",
-    "nos",
-    "on"
+    "<i>nous</i>",
+    "<i>notre</i>",
+    "<i>nos</i>",
+    "<i>on</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il parle avec ______. He speaks with them (the men).",
-   "explain": "After a preposition French uses the stressed pronoun, and the stressed form of the third person plural masculine is <em>eux</em>. <em>Leur</em> and <em>les</em> are object pronouns, and <em>ils</em> is the subject.",
+   "prompt": "Choose the form that fills the blank: <i>Il parle avec ______.</i> (“He speaks with them (the men)”).",
+   "explain": "After a preposition French uses the stressed pronoun, and the stressed form of the third person plural masculine is <i>eux</i>. <i>Leur</i> and <i>les</i> are object pronouns, and <i>ils</i> is the subject.",
    "options": [
-    "eux",
-    "leur",
-    "les",
-    "ils"
+    "<i>eux</i>",
+    "<i>leur</i>",
+    "<i>les</i>",
+    "<i>ils</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi donne le livre ______ ami. The king gives the book to the friend.",
-   "explain": "<em>Ami</em> begins with a vowel, so the article is <em>l’</em>, and <em>à l’</em> does not contract. <em>Au</em> is <em>à</em> and <em>le</em>, which is used before a consonant, and <em>aux</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi donne le livre ______ ami.</i> (“The king gives the book to the friend”).",
+   "explain": "<i>Ami</i> begins with a vowel, so the article is <i>l’</i>, and <i>à l’</i> does not contract. <i>Au</i> is <i>à</i> and <i>le</i>, which is used before a consonant, and <i>aux</i> is plural.",
    "options": [
-    "à l’",
-    "au",
-    "à le",
-    "aux"
+    "<i>à l’</i>",
+    "<i>au</i>",
+    "<i>à le</i>",
+    "<i>aux</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi donne le livre ______ reine. The king gives the book to the queen.",
-   "explain": "The person who receives is introduced by <em>à</em>, and <em>reine</em> is feminine, so the form is <em>à la</em>, which does not contract. <em>Au</em> is masculine, and <em>aux</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi donne le livre ______ reine.</i> (“The king gives the book to the queen”).",
+   "explain": "The person who receives is introduced by <i>à</i>, and <i>reine</i> is feminine, so the form is <i>à la</i>, which does not contract. <i>Au</i> is masculine, and <i>aux</i> is plural.",
    "options": [
-    "à la",
-    "au",
-    "aux",
-    "à le"
+    "<i>à la</i>",
+    "<i>au</i>",
+    "<i>aux</i>",
+    "<i>à le</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi donne le livre ______ amis. The king gives the book to the friends.",
-   "explain": "<em>À</em> and <em>les</em> contract to <em>aux</em> before a plural noun. <em>Au</em> is singular, <em>à les</em> is never written, and <em>des</em> is <em>de</em> and <em>les</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi donne le livre ______ amis.</i> (“The king gives the book to the friends”).",
+   "explain": "<i>À</i> and <i>les</i> contract to <i>aux</i> before a plural noun. <i>Au</i> is singular, <i>à les</i> is never written, and <i>des</i> is <i>de</i> and <i>les</i>.",
    "options": [
-    "aux",
-    "au",
-    "à les",
-    "des"
+    "<i>aux</i>",
+    "<i>au</i>",
+    "<i>à les</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La femme envoie une lettre ______ roi. The woman sends a letter to the king.",
-   "explain": "The king receives the letter, so he is introduced by <em>à</em>, and <em>à</em> and <em>le</em> contract to <em>au</em>. <em>Du</em> is <em>de</em> and <em>le</em>, and <em>à le</em> is never written.",
+   "prompt": "Choose the form that fills the blank: <i>La femme envoie une lettre ______ roi.</i> (“The woman sends a letter to the king”).",
+   "explain": "The king receives the letter, so he is introduced by <i>à</i>, and <i>à</i> and <i>le</i> contract to <i>au</i>. <i>Du</i> is <i>de</i> and <i>le</i>, and <i>à le</i> is never written.",
    "options": [
-    "au",
-    "du",
-    "à le",
-    "le"
+    "<i>au</i>",
+    "<i>du</i>",
+    "<i>à le</i>",
+    "<i>le</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi parle ______ femmes. The king speaks to the women.",
-   "explain": "<em>Parler</em> takes <em>à</em> before the person spoken to, and <em>à</em> and <em>les</em> contract to <em>aux</em>. <em>Des</em> is <em>de</em> and <em>les</em>, and <em>au</em> is singular.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi parle ______ femmes.</i> (“The king speaks to the women”).",
+   "explain": "<i>Parler</i> takes <i>à</i> before the person spoken to, and <i>à</i> and <i>les</i> contract to <i>aux</i>. <i>Des</i> is <i>de</i> and <i>les</i>, and <i>au</i> is singular.",
    "options": [
-    "aux",
-    "à les",
-    "des",
-    "au"
+    "<i>aux</i>",
+    "<i>à les</i>",
+    "<i>des</i>",
+    "<i>au</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous donnons un cadeau ______ homme. We give a gift to the man.",
-   "explain": "<em>Homme</em> begins with a mute h, so the article is <em>l’</em>, and <em>à l’</em> does not contract. <em>Au</em> is used before a consonant, and <em>de l’</em> would mean of the man.",
+   "prompt": "Choose the form that fills the blank: <i>Nous donnons un cadeau ______ homme.</i> (“We give a gift to the man”).",
+   "explain": "<i>Homme</i> begins with a mute h, so the article is <i>l’</i>, and <i>à l’</i> does not contract. <i>Au</i> is used before a consonant, and <i>de l’</i> would mean of the man.",
    "options": [
-    "à l’",
-    "au",
-    "à le",
-    "de l’"
+    "<i>à l’</i>",
+    "<i>au</i>",
+    "<i>à le</i>",
+    "<i>de l’</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il envoie des cadeaux ______ rois. He sends gifts to the kings.",
-   "explain": "<em>À</em> and <em>les</em> contract to <em>aux</em>. <em>Au</em> is singular, and <em>des</em> is <em>de</em> and <em>les</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il envoie des cadeaux ______ rois.</i> (“He sends gifts to the kings”).",
+   "explain": "<i>À</i> and <i>les</i> contract to <i>aux</i>. <i>Au</i> is singular, and <i>des</i> is <i>de</i> and <i>les</i>.",
    "options": [
-    "aux",
-    "au",
-    "à les",
-    "des"
+    "<i>aux</i>",
+    "<i>au</i>",
+    "<i>à les</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine donne le cheval ______ femme. The queen gives the horse to the woman.",
-   "explain": "<em>Femme</em> is feminine, so the person who receives is introduced by <em>à la</em>, which does not contract. <em>De la</em> would mean of the woman.",
+   "prompt": "Choose the form that fills the blank: <i>La reine donne le cheval ______ femme.</i> (“The queen gives the horse to the woman”).",
+   "explain": "<i>Femme</i> is feminine, so the person who receives is introduced by <i>à la</i>, which does not contract. <i>De la</i> would mean of the woman.",
    "options": [
-    "à la",
-    "au",
-    "de la",
-    "à le"
+    "<i>à la</i>",
+    "<i>au</i>",
+    "<i>de la</i>",
+    "<i>à le</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le livre ______ roi est bon. The king’s book is good.",
-   "explain": "French shows the possessor with <em>de</em>, and <em>de</em> and <em>le</em> contract to <em>du</em>. <em>Des</em> is plural, and <em>au</em> is <em>à</em> and <em>le</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Le livre ______ roi est bon.</i> (“The king’s book is good”).",
+   "explain": "French shows the possessor with <i>de</i>, and <i>de</i> and <i>le</i> contract to <i>du</i>. <i>Des</i> is plural, and <i>au</i> is <i>à</i> and <i>le</i>.",
    "options": [
-    "du",
-    "de le",
-    "au",
-    "des"
+    "<i>du</i>",
+    "<i>de le</i>",
+    "<i>au</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La maison ______ reine est grande. The queen’s house is large.",
-   "explain": "The possessor is introduced by <em>de</em>, and <em>reine</em> is feminine, so the form is <em>de la</em>, which does not contract. <em>Du</em> is masculine, and <em>à la</em> would mean to the queen.",
+   "prompt": "Choose the form that fills the blank: <i>La maison ______ reine est grande.</i> (“The queen’s house is large”).",
+   "explain": "The possessor is introduced by <i>de</i>, and <i>reine</i> is feminine, so the form is <i>de la</i>, which does not contract. <i>Du</i> is masculine, and <i>à la</i> would mean to the queen.",
    "options": [
-    "de la",
-    "du",
-    "à la",
-    "des"
+    "<i>de la</i>",
+    "<i>du</i>",
+    "<i>à la</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le jardin ______ amis est petit. The friends’ garden is small.",
-   "explain": "<em>De</em> and <em>les</em> contract to <em>des</em> before a plural noun. <em>Du</em> is singular, <em>de les</em> is never written, and <em>aux</em> is <em>à</em> and <em>les</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Le jardin ______ amis est petit.</i> (“The friends’ garden is small”).",
+   "explain": "<i>De</i> and <i>les</i> contract to <i>des</i> before a plural noun. <i>Du</i> is singular, <i>de les</i> is never written, and <i>aux</i> is <i>à</i> and <i>les</i>.",
    "options": [
-    "des",
-    "du",
-    "de les",
-    "aux"
+    "<i>des</i>",
+    "<i>du</i>",
+    "<i>de les</i>",
+    "<i>aux</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le cheval ______ homme est vieux. The man’s horse is old.",
-   "explain": "<em>Homme</em> begins with a mute h, so the article is <em>l’</em>, and <em>de l’</em> does not contract. <em>Du</em> is used before a consonant, and <em>à l’</em> would mean to the man.",
+   "prompt": "Choose the form that fills the blank: <i>Le cheval ______ homme est vieux.</i> (“The man’s horse is old”).",
+   "explain": "<i>Homme</i> begins with a mute h, so the article is <i>l’</i>, and <i>de l’</i> does not contract. <i>Du</i> is used before a consonant, and <i>à l’</i> would mean to the man.",
    "options": [
-    "de l’",
-    "du",
-    "de le",
-    "à l’"
+    "<i>de l’</i>",
+    "<i>du</i>",
+    "<i>de le</i>",
+    "<i>à l’</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les lettres ______ femmes sont longues. The women’s letters are long.",
-   "explain": "<em>De</em> and <em>les</em> contract to <em>des</em>. <em>De les</em> is never written, <em>du</em> is singular, and <em>aux</em> is <em>à</em> and <em>les</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les lettres ______ femmes sont longues.</i> (“The women’s letters are long”).",
+   "explain": "<i>De</i> and <i>les</i> contract to <i>des</i>. <i>De les</i> is never written, <i>du</i> is singular, and <i>aux</i> is <i>à</i> and <i>les</i>.",
    "options": [
-    "des",
-    "de les",
-    "du",
-    "aux"
+    "<i>des</i>",
+    "<i>de les</i>",
+    "<i>du</i>",
+    "<i>aux</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les cadeaux ______ roi sont beaux. The king’s gifts are beautiful.",
-   "explain": "There is one king, so the form is <em>du</em>, <em>de</em> and <em>le</em> contracted. <em>Des</em> would mean of the kings, and <em>au</em> is <em>à</em> and <em>le</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les cadeaux ______ roi sont beaux.</i> (“The king’s gifts are beautiful”).",
+   "explain": "There is one king, so the form is <i>du</i>, <i>de</i> and <i>le</i> contracted. <i>Des</i> would mean of the kings, and <i>au</i> is <i>à</i> and <i>le</i>.",
    "options": [
-    "du",
-    "des",
-    "au",
-    "de le"
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>au</i>",
+    "<i>de le</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les jardins ______ ville sont grands. The city’s gardens are large.",
-   "explain": "<em>Ville</em> is feminine and singular, so the possessor is introduced by <em>de la</em>. <em>Du</em> is masculine, <em>des</em> is plural, and <em>à la</em> would mean to the city.",
+   "prompt": "Choose the form that fills the blank: <i>Les jardins ______ ville sont grands.</i> (“The city’s gardens are large”).",
+   "explain": "<i>Ville</i> is feminine and singular, so the possessor is introduced by <i>de la</i>. <i>Du</i> is masculine, <i>des</i> is plural, and <i>à la</i> would mean to the city.",
    "options": [
-    "de la",
-    "du",
-    "des",
-    "à la"
+    "<i>de la</i>",
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>à la</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La table ______ ami est petite. The friend’s table is small.",
-   "explain": "<em>Ami</em> begins with a vowel, so the article is <em>l’</em>, and <em>de l’</em> does not contract. <em>Du</em> is used before a consonant.",
+   "prompt": "Choose the form that fills the blank: <i>La table ______ ami est petite.</i> (“The friend’s table is small”).",
+   "explain": "<i>Ami</i> begins with a vowel, so the article is <i>l’</i>, and <i>de l’</i> does not contract. <i>Du</i> is used before a consonant.",
    "options": [
-    "de l’",
-    "du",
-    "de le",
-    "des"
+    "<i>de l’</i>",
+    "<i>du</i>",
+    "<i>de le</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -527,13 +527,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi et la reine ______ le cadeau. The king and the queen carry the gift.",
-   "explain": "Two subjects joined by <em>et</em> make a plural subject of the third person, so the verb is <em>portent</em>. <em>Porte</em> is singular, and <em>portons</em> and <em>portez</em> are the first and second persons.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi et la reine ______ le cadeau.</i> (“The king and the queen carry the gift”).",
+   "explain": "Two subjects joined by <i>et</i> make a plural subject of the third person, so the verb is <i>portent</i>. <i>Porte</i> is singular, and <i>portons</i> and <i>portez</i> are the first and second persons.",
    "options": [
-    "portent",
-    "porte",
-    "portons",
-    "portez"
+    "<i>portent</i>",
+    "<i>porte</i>",
+    "<i>portons</i>",
+    "<i>portez</i>"
    ],
    "answer": 0
   },
@@ -543,13 +543,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi et la reine sont ______. The king and the queen are content.",
-   "explain": "An adjective that describes a masculine noun and a feminine noun together is masculine plural: <em>contents</em>. <em>Contentes</em> would describe only feminine nouns.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi et la reine sont ______.</i> (“The king and the queen are content”).",
+   "explain": "An adjective that describes a masculine noun and a feminine noun together is masculine plural: <i>contents</i>. <i>Contentes</i> would describe only feminine nouns.",
    "options": [
-    "contents",
-    "content",
-    "contente",
-    "contentes"
+    "<i>contents</i>",
+    "<i>content</i>",
+    "<i>contente</i>",
+    "<i>contentes</i>"
    ],
    "answer": 0
   },
@@ -559,13 +559,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La femme et la fille sont ______. The woman and the girl are small.",
-   "explain": "Both nouns are feminine, so the adjective is feminine plural: <em>petites</em>. <em>Petits</em> is masculine plural, and <em>petite</em> is singular.",
+   "prompt": "Choose the form that fills the blank: <i>La femme et la fille sont ______.</i> (“The woman and the girl are small”).",
+   "explain": "Both nouns are feminine, so the adjective is feminine plural: <i>petites</i>. <i>Petits</i> is masculine plural, and <i>petite</i> is singular.",
    "options": [
-    "petites",
-    "petits",
-    "petite",
-    "petit"
+    "<i>petites</i>",
+    "<i>petits</i>",
+    "<i>petite</i>",
+    "<i>petit</i>"
    ],
    "answer": 0
   },
@@ -575,13 +575,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Toi et moi, nous ______ au roi. You and I speak to the king.",
-   "explain": "A subject that includes the speaker is of the first person, and <em>toi et moi</em> is plural, so the verb is <em>parlons</em>. <em>Parlez</em> is the second person plural, and <em>parlent</em> the third.",
+   "prompt": "Choose the form that fills the blank: <i>Toi et moi, nous ______ au roi.</i> (“You and I speak to the king”).",
+   "explain": "A subject that includes the speaker is of the first person, and <i>toi et moi</i> is plural, so the verb is <i>parlons</i>. <i>Parlez</i> is the second person plural, and <i>parlent</i> the third.",
    "options": [
-    "parlons",
-    "parlez",
-    "parlent",
-    "parle"
+    "<i>parlons</i>",
+    "<i>parlez</i>",
+    "<i>parlent</i>",
+    "<i>parle</i>"
    ],
    "answer": 0
   },
@@ -591,13 +591,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Mon ami et moi ______ à la ville. My friend and I go to the city.",
-   "explain": "<em>Mon ami et moi</em> includes the speaker, so the verb is in the first person plural: <em>allons</em>. <em>Vont</em> is the third person plural, and <em>allez</em> the second.",
+   "prompt": "Choose the form that fills the blank: <i>Mon ami et moi ______ à la ville.</i> (“My friend and I go to the city”).",
+   "explain": "<i>Mon ami et moi</i> includes the speaker, so the verb is in the first person plural: <i>allons</i>. <i>Vont</i> is the third person plural, and <i>allez</i> the second.",
    "options": [
-    "allons",
-    "vont",
-    "allez",
-    "va"
+    "<i>allons</i>",
+    "<i>vont</i>",
+    "<i>allez</i>",
+    "<i>va</i>"
    ],
    "answer": 0
   },
@@ -607,13 +607,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’homme et le cheval sont ______. The man and the horse are old.",
-   "explain": "Both nouns are masculine, and <em>vieux</em> is both the masculine singular and the masculine plural. <em>Vieille</em> and <em>vieilles</em> are feminine, and <em>vieil</em> stands only before a singular noun that begins with a vowel.",
+   "prompt": "Choose the form that fills the blank: <i>L’homme et le cheval sont ______.</i> (“The man and the horse are old”).",
+   "explain": "Both nouns are masculine, and <i>vieux</i> is both the masculine singular and the masculine plural. <i>Vieille</i> and <i>vieilles</i> are feminine, and <i>vieil</i> stands only before a singular noun that begins with a vowel.",
    "options": [
-    "vieux",
-    "vieille",
-    "vieilles",
-    "vieil"
+    "<i>vieux</i>",
+    "<i>vieille</i>",
+    "<i>vieilles</i>",
+    "<i>vieil</i>"
    ],
    "answer": 0
   },
@@ -623,13 +623,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi envoie le livre et ______ lettre. The king sends the book and the letter.",
-   "explain": "In French each noun keeps its own article, and <em>lettre</em> is feminine and singular, so <em>la</em>. <em>Le</em> is masculine, and <em>les</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi envoie le livre et ______ lettre.</i> (“The king sends the book and the letter”).",
+   "explain": "In French each noun keeps its own article, and <i>lettre</i> is feminine and singular, so <i>la</i>. <i>Le</i> is masculine, and <i>les</i> is plural.",
    "options": [
-    "la",
-    "le",
-    "les",
-    "l’"
+    "<i>la</i>",
+    "<i>le</i>",
+    "<i>les</i>",
+    "<i>l’</i>"
    ],
    "answer": 0
   },
@@ -639,13 +639,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Pierre et Marie ______ la maison. Peter and Mary sell the house.",
-   "explain": "Two subjects joined by <em>et</em> make a plural subject of the third person, so <em>vendent</em>. <em>Vend</em> and <em>vends</em> are singular, and <em>vendons</em> is the first person plural.",
+   "prompt": "Choose the form that fills the blank: <i>Pierre et Marie ______ la maison.</i> (“Peter and Mary sell the house”).",
+   "explain": "Two subjects joined by <i>et</i> make a plural subject of the third person, so <i>vendent</i>. <i>Vend</i> and <i>vends</i> are singular, and <i>vendons</i> is the first person plural.",
    "options": [
-    "vendent",
-    "vend",
-    "vendons",
-    "vends"
+    "<i>vendent</i>",
+    "<i>vend</i>",
+    "<i>vendons</i>",
+    "<i>vends</i>"
    ],
    "answer": 0
   },
@@ -655,13 +655,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi habite ______ Paris. The king lives in Paris.",
-   "explain": "Before the name of a city French uses <em>à</em> for place where and for place to which. <em>En</em> is used before a feminine country, and <em>au</em> before a masculine country.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi habite ______ Paris.</i> (“The king lives in Paris”).",
+   "explain": "Before the name of a city French uses <i>à</i> for place where and for place to which. <i>En</i> is used before a feminine country, and <i>au</i> before a masculine country.",
    "options": [
-    "à",
-    "en",
-    "au",
-    "dans"
+    "<i>à</i>",
+    "<i>en</i>",
+    "<i>au</i>",
+    "<i>dans</i>"
    ],
    "answer": 0
   },
@@ -671,13 +671,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine va ______ France. The queen goes to France.",
-   "explain": "Before a feminine country French uses <em>en</em>, without the article. <em>À</em> is used before a city, <em>au</em> before a masculine country, and <em>aux</em> before a plural one.",
+   "prompt": "Choose the form that fills the blank: <i>La reine va ______ France.</i> (“The queen goes to France”).",
+   "explain": "Before a feminine country French uses <i>en</i>, without the article. <i>À</i> is used before a city, <i>au</i> before a masculine country, and <i>aux</i> before a plural one.",
    "options": [
-    "en",
-    "à",
-    "au",
-    "aux"
+    "<i>en</i>",
+    "<i>à</i>",
+    "<i>au</i>",
+    "<i>aux</i>"
    ],
    "answer": 0
   },
@@ -687,13 +687,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’ami habite ______ Canada. The friend lives in Canada.",
-   "explain": "<em>Canada</em> is a masculine country that begins with a consonant, so French uses <em>au</em>, <em>à</em> and <em>le</em> contracted. <em>En</em> is used before a feminine country.",
+   "prompt": "Choose the form that fills the blank: <i>L’ami habite ______ Canada.</i> (“The friend lives in Canada”).",
+   "explain": "<i>Canada</i> is a masculine country that begins with a consonant, so French uses <i>au</i>, <i>à</i> and <i>le</i> contracted. <i>En</i> is used before a feminine country.",
    "options": [
-    "au",
-    "en",
-    "à",
-    "aux"
+    "<i>au</i>",
+    "<i>en</i>",
+    "<i>à</i>",
+    "<i>aux</i>"
    ],
    "answer": 0
   },
@@ -703,13 +703,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi va ______ États-Unis. The king goes to the United States.",
-   "explain": "<em>États-Unis</em> is plural, so French uses <em>aux</em>, <em>à</em> and <em>les</em> contracted. <em>Au</em> is singular, and <em>à les</em> is never written.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi va ______ États-Unis.</i> (“The king goes to the United States”).",
+   "explain": "<i>États-Unis</i> is plural, so French uses <i>aux</i>, <i>à</i> and <i>les</i> contracted. <i>Au</i> is singular, and <i>à les</i> is never written.",
    "options": [
-    "aux",
-    "au",
-    "en",
-    "à les"
+    "<i>aux</i>",
+    "<i>au</i>",
+    "<i>en</i>",
+    "<i>à les</i>"
    ],
    "answer": 0
   },
@@ -719,13 +719,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La lettre est ______ le livre. The letter is in the book.",
-   "explain": "<em>Dans</em> with the article means inside something: <em>dans le livre</em>. <em>En</em> is used without an article, as in <em>en France</em>, and <em>au livre</em> would mean to the book.",
+   "prompt": "Choose the form that fills the blank: <i>La lettre est ______ le livre.</i> (“The letter is in the book”).",
+   "explain": "<i>Dans</i> with the article means inside something: <i>dans le livre</i>. <i>En</i> is used without an article, as in <i>en France</i>, and <i>au livre</i> would mean to the book.",
    "options": [
-    "dans",
-    "en",
-    "au",
-    "à"
+    "<i>dans</i>",
+    "<i>en</i>",
+    "<i>au</i>",
+    "<i>à</i>"
    ],
    "answer": 0
   },
@@ -735,13 +735,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’homme vient ______ Paris. The man comes from Paris.",
-   "explain": "Motion from a city is shown by <em>de</em>: <em>il vient de Paris</em>. <em>À</em> would mean to <em>Paris</em>, and <em>du</em> is <em>de</em> and <em>le</em>, which a city name does not take.",
+   "prompt": "Choose the form that fills the blank: <i>L’homme vient ______ Paris.</i> (“The man comes from Paris”).",
+   "explain": "Motion from a city is shown by <i>de</i>: <i>il vient de Paris</i>. <i>À</i> would mean to <i>Paris</i>, and <i>du</i> is <i>de</i> and <i>le</i>, which a city name does not take.",
    "options": [
-    "de",
-    "à",
-    "en",
-    "du"
+    "<i>de</i>",
+    "<i>à</i>",
+    "<i>en</i>",
+    "<i>du</i>"
    ],
    "answer": 0
   },
@@ -751,13 +751,13 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La femme vient ______ France. The woman comes from France.",
-   "explain": "Motion from a feminine country is shown by <em>de</em> without the article: <em>elle vient de France</em>. <em>Du</em> is used before a masculine country, and <em>en</em> would mean in <em>France</em>.",
+   "prompt": "Choose the form that fills the blank: <i>La femme vient ______ France.</i> (“The woman comes from France”).",
+   "explain": "Motion from a feminine country is shown by <i>de</i> without the article: <i>elle vient de France</i>. <i>Du</i> is used before a masculine country, and <i>en</i> would mean in <i>France</i>.",
    "options": [
-    "de",
-    "du",
-    "en",
-    "à"
+    "<i>de</i>",
+    "<i>du</i>",
+    "<i>en</i>",
+    "<i>à</i>"
    ],
    "answer": 0
   },
@@ -767,15 +767,79 @@ ARS.exercises["lang.v.fr/more-ex"] = {
    "deck": "lang.v.fr/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’ami vient ______ Canada. The friend comes from Canada.",
-   "explain": "Motion from a masculine country is shown by <em>de</em> with the article, and <em>de</em> and <em>le</em> contract to <em>du</em>. <em>Au</em> would mean to <em>Canada</em>, and <em>des</em> is plural.",
+   "prompt": "Choose the form that fills the blank: <i>L’ami vient ______ Canada.</i> (“The friend comes from Canada”).",
+   "explain": "Motion from a masculine country is shown by <i>de</i> with the article, and <i>de</i> and <i>le</i> contract to <i>du</i>. <i>Au</i> would mean to <i>Canada</i>, and <i>des</i> is plural.",
    "options": [
-    "du",
-    "de",
-    "au",
-    "des"
+    "<i>du</i>",
+    "<i>de</i>",
+    "<i>au</i>",
+    "<i>des</i>"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.v.fr/more-ex:frmore49",
+   "set": "A",
+   "deck": "lang.v.fr/more-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Il ______ obéit toujours</i> (“he always obeys her”)?",
+   "explain": "<i>Obéir</i> governs <i>à</i>, so “her” is the indirect object <i>lui</i>.",
+   "options": [
+    "<i>la</i>",
+    "<i>lui</i>",
+    "<i>elle</i>",
+    "<i>leur</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.fr/more-ex:frmore50",
+   "set": "B",
+   "deck": "lang.v.fr/more-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which sentence is correct for “she needs a pen”?",
+   "explain": "<i>Avoir besoin</i> governs <i>de</i>.",
+   "options": [
+    "<i>Elle a besoin un stylo.</i>",
+    "<i>Elle a besoin à un stylo.</i>",
+    "<i>Elle besoin un stylo.</i>",
+    "<i>Elle a besoin d’un stylo.</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.fr/more-ex:frmore51",
+   "set": "C",
+   "deck": "lang.v.fr/more-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Ils reviennent ______ Pays-Bas</i> (“they are coming back from the Netherlands”)?",
+   "explain": "<i>Pays-Bas</i> is plural, so “from” is <i>de</i> + <i>les</i>, contracted to <i>des</i>.",
+   "options": [
+    "<i>des</i>",
+    "<i>de</i>",
+    "<i>aux</i>",
+    "<i>du</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.fr/more-ex:frmore52",
+   "set": "C",
+   "deck": "lang.v.fr/more-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Je me souviens ______ voyage</i> (“I remember the journey”)?",
+   "explain": "<i>Se souvenir</i> governs <i>de</i>, and <i>de</i> and <i>le</i> contract to <i>du</i>.",
+   "options": [
+    "<i>au</i>",
+    "<i>du</i>",
+    "<i>le</i>",
+    "<i>de le</i>"
+   ],
+   "answer": 1
   }
  ]
 };

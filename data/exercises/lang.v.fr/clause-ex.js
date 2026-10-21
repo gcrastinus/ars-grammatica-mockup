@@ -5,7 +5,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Clauses and the Participle in French",
+ "title": "Clauses in French",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’homme ______ parle est mon ami. The man who speaks is my friend.",
-   "explain": "The relative is the subject of <em>parle</em>, and the subject relative is <em>qui</em>. <em>Que</em> is the object, <em>dont</em> replaces <em>de</em> with a noun, and <em>où</em> is a place or a time.",
+   "prompt": "Choose the form that fills the blank: <i>L’homme ______ parle est mon ami.</i> (“The man who speaks is my friend”).",
+   "explain": "The relative is the subject of <i>parle</i>, and the subject relative is <i>qui</i>. <i>Que</i> is the object, <i>dont</i> replaces <i>de</i> with a noun, and <i>où</i> is a place or a time.",
    "options": [
-    "qui",
-    "que",
-    "dont",
-    "où"
+    "<i>qui</i>",
+    "<i>que</i>",
+    "<i>dont</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le livre ______ je lis est long. The book that I read is long.",
-   "explain": "The relative is the object of <em>lis</em>, and the object relative is <em>que</em>. <em>Qui</em> would be the subject.",
+   "prompt": "Choose the form that fills the blank: <i>Le livre ______ je lis est long.</i> (“The book that I read is long”).",
+   "explain": "The relative is the object of <i>lis</i>, and the object relative is <i>que</i>. <i>Qui</i> would be the subject.",
    "options": [
-    "que",
-    "qui",
-    "dont",
-    "où"
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>dont</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La ville ______ j’habite est grande. The city where I live is large.",
-   "explain": "The relative stands for a place, so <em>où</em>.",
+   "prompt": "Choose the form that fills the blank: <i>La ville ______ j’habite est grande.</i> (“The city where I live is large”).",
+   "explain": "The relative stands for a place, so <i>où</i>.",
    "options": [
-    "où",
-    "que",
-    "qui",
-    "dont"
+    "<i>où</i>",
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>dont</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le livre ______ je parle est vieux. The book I am speaking about is old.",
-   "explain": "<em>Parler</em> takes <em>de</em> before the thing spoken of, and the relative that replaces <em>de</em> with its noun is <em>dont</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Le livre ______ je parle est vieux.</i> (“The book I am speaking about is old”).",
+   "explain": "<i>Parler</i> takes <i>de</i> before the thing spoken of, and the relative that replaces <i>de</i> with its noun is <i>dont</i>.",
    "options": [
-    "dont",
-    "que",
-    "qui",
-    "où"
+    "<i>dont</i>",
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La femme ______ le roi voit est la reine. The woman whom the king sees is the queen.",
-   "explain": "<em>Le roi</em> is the subject of <em>voit</em>, and the relative is its object, so <em>que</em>.",
+   "prompt": "Choose the form that fills the blank: <i>La femme ______ le roi voit est la reine.</i> (“The woman whom the king sees is the queen”).",
+   "explain": "<i>Le roi</i> is the subject of <i>voit</i>, and the relative is its object, so <i>que</i>.",
    "options": [
-    "que",
-    "qui",
-    "dont",
-    "où"
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>dont</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les chevaux ______ courent sont beaux. The horses that run are beautiful.",
-   "explain": "The relative is the subject of <em>courent</em>, so <em>qui</em>. The verb then agrees with the antecedent, <em>les chevaux</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les chevaux ______ courent sont beaux.</i> (“The horses that run are beautiful”).",
+   "explain": "The relative is the subject of <i>courent</i>, so <i>qui</i>. The verb then agrees with the antecedent, <i>les chevaux</i>.",
    "options": [
-    "qui",
-    "que",
-    "dont",
-    "où"
+    "<i>qui</i>",
+    "<i>que</i>",
+    "<i>dont</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le jour ______ il est venu était long. The day when he came was long.",
-   "explain": "After a noun of time French uses <em>où</em> as the relative: <em>le jour où il est venu</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Le jour ______ il est venu était long.</i> (“The day when he came was long”).",
+   "explain": "After a noun of time French uses <i>où</i> as the relative: <i>le jour où il est venu</i>.",
    "options": [
-    "où",
-    "que",
-    "qui",
-    "dont"
+    "<i>où</i>",
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>dont</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. L’ami ______ la maison est grande habite ici. The friend whose house is large lives here.",
-   "explain": "The house belongs to the friend, so the relative replaces <em>de</em> with a noun: <em>la maison de l’ami</em> becomes <em>dont la maison</em>.",
+   "prompt": "Choose the form that fills the blank: <i>L’ami ______ la maison est grande habite ici.</i> (“The friend whose house is large lives here”).",
+   "explain": "The house belongs to the friend, so the relative replaces <i>de</i> with a noun: <i>la maison de l’ami</i> becomes <i>dont la maison</i>.",
    "options": [
-    "dont",
-    "que",
-    "qui",
-    "où"
+    "<i>dont</i>",
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>où</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il reste parce qu’il ______ malade. He stays because he is ill.",
-   "explain": "<em>Parce que</em> gives a fact as the reason, and its verb is in the indicative: <em>il est</em>. <em>Soit</em> is the subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>Il reste parce qu’il ______ malade.</i> (“He stays because he is ill”).",
+   "explain": "<i>Parce que</i> gives a fact as the reason, and its verb is in the indicative: <i>il est</i>. <i>Soit</i> is the subjunctive.",
    "options": [
-    "est",
-    "soit",
-    "être",
-    "étant"
+    "<i>est</i>",
+    "<i>soit</i>",
+    "<i>être</i>",
+    "<i>étant</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle lit parce qu’elle ______ le temps. She reads because she has the time.",
-   "explain": "After <em>parce que</em> the verb is in the indicative, so <em>elle</em> a. <em>Ait</em> is the subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>Elle lit parce qu’elle ______ le temps.</i> (“She reads because she has the time”).",
+   "explain": "After <i>parce que</i> the verb is in the indicative, so <i>elle</i> a. <i>Ait</i> is the subjunctive.",
    "options": [
-    "a",
-    "ait",
-    "avoir",
-    "ayant"
+    "<i>a</i>",
+    "<i>ait</i>",
+    "<i>avoir</i>",
+    "<i>ayant</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous restons parce qu’il ______. We stay because it is raining.",
-   "explain": "The reason is stated as a fact, so the indicative: <em>il pleut</em>. <em>Pleuve</em> is the subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>Nous restons parce qu’il ______.</i> (“We stay because it is raining”).",
+   "explain": "The reason is stated as a fact, so the indicative: <i>il pleut</i>. <i>Pleuve</i> is the subjunctive.",
    "options": [
-    "pleut",
-    "pleuve",
-    "pleuvoir",
-    "pleuvant"
+    "<i>pleut</i>",
+    "<i>pleuve</i>",
+    "<i>pleuvoir</i>",
+    "<i>pleuvant</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ils partent parce que le roi ______. They leave because the king is coming.",
-   "explain": "After <em>parce que</em> the verb is in the indicative: <em>le roi vient</em>. <em>Vienne</em> is the subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>Ils partent parce que le roi ______.</i> (“They leave because the king is coming”).",
+   "explain": "After <i>parce que</i> the verb is in the indicative: <i>le roi vient</i>. <i>Vienne</i> is the subjunctive.",
    "options": [
-    "vient",
-    "vienne",
-    "venir",
-    "venant"
+    "<i>vient</i>",
+    "<i>vienne</i>",
+    "<i>venir</i>",
+    "<i>venant</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il reste ______ il est fatigué. He stays because he is tired.",
-   "explain": "The clause gives the reason, so <em>parce que</em>. <em>Pour que</em> and <em>afin que</em> give a purpose, and <em>bien que</em> a concession, and all three take the subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>Il reste ______ il est fatigué.</i> (“He stays because he is tired”).",
+   "explain": "The clause gives the reason, so <i>parce que</i>. <i>Pour que</i> and <i>afin que</i> give a purpose, and <i>bien que</i> a concession, and all three take the subjunctive.",
    "options": [
-    "parce qu’",
-    "pour qu’",
-    "bien qu’",
-    "afin qu’"
+    "<i>parce qu’</i>",
+    "<i>pour qu’</i>",
+    "<i>bien qu’</i>",
+    "<i>afin qu’</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ le roi est malade, la reine parle. Since the king is ill, the queen speaks.",
-   "explain": "<em>Comme</em> at the head of the sentence gives the cause, and its verb is in the indicative. <em>Pour que</em> and <em>afin que</em> give a purpose, and <em>bien que</em> a concession.",
+   "prompt": "Choose the form that fills the blank: <i>______ le roi est malade, la reine parle.</i> (“Since the king is ill, the queen speaks”).",
+   "explain": "<i>Comme</i> at the head of the sentence gives the cause, and its verb is in the indicative. <i>Pour que</i> and <i>afin que</i> give a purpose, and <i>bien que</i> a concession.",
    "options": [
-    "Comme",
-    "Pour que",
-    "Bien que",
-    "Afin que"
+    "<i>Comme</i>",
+    "<i>Pour que</i>",
+    "<i>Bien que</i>",
+    "<i>Afin que</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle est heureuse parce qu’elle ______ gagné. She is happy because she has won.",
-   "explain": "After <em>parce que</em> the verb is in the indicative, and the passé composé of gagner is made with <em>avoir</em>: <em>elle a gagné</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elle est heureuse parce qu’elle ______ gagné.</i> (“She is happy because she has won”).",
+   "explain": "After <i>parce que</i> the verb is in the indicative, and the passé composé of gagner is made with <i>avoir</i>: <i>elle a gagné</i>.",
    "options": [
-    "a",
-    "ait",
-    "avoir",
-    "ayant"
+    "<i>a</i>",
+    "<i>ait</i>",
+    "<i>avoir</i>",
+    "<i>ayant</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si j’______ le livre, je le lirais. If I had the book, I would read it.",
-   "explain": "A condition that is not real is given by <em>si</em> with the imparfait, and the result is in the conditional. After <em>si</em> meaning if, French does not use the conditional.",
+   "prompt": "Choose the form that fills the blank: <i>Si j’______ le livre, je le lirais.</i> (“If I had the book, I would read it”).",
+   "explain": "A condition that is not real is given by <i>si</i> with the imparfait, and the result is in the conditional. After <i>si</i> meaning if, French does not use the conditional.",
    "options": [
-    "avais",
-    "aurais",
-    "ai",
-    "aie"
+    "<i>avais</i>",
+    "<i>aurais</i>",
+    "<i>ai</i>",
+    "<i>aie</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si j’avais le livre, je le ______. If I had the book, I would read it.",
-   "explain": "After <em>si</em> with the imparfait, the result is in the conditional: <em>je lirais</em>. <em>Lirai</em> is the future.",
+   "prompt": "Choose the form that fills the blank: <i>Si j’avais le livre, je le ______.</i> (“If I had the book, I would read it”).",
+   "explain": "After <i>si</i> with the imparfait, the result is in the conditional: <i>je lirais</i>. <i>Lirai</i> is the future.",
    "options": [
-    "lirais",
-    "lirai",
-    "lis",
-    "lise"
+    "<i>lirais</i>",
+    "<i>lirai</i>",
+    "<i>lis</i>",
+    "<i>lise</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. S’il ______ roi, il serait heureux. If he were king, he would be happy.",
-   "explain": "The condition is not real, so <em>si</em> takes the imparfait: <em>s’il était roi</em>. <em>Serait</em> is the conditional, which stands in the result.",
+   "prompt": "Choose the form that fills the blank: <i>S’il ______ roi, il serait heureux.</i> (“If he were king, he would be happy”).",
+   "explain": "The condition is not real, so <i>si</i> takes the imparfait: <i>s’il était roi</i>. <i>Serait</i> is the conditional, which stands in the result.",
    "options": [
-    "était",
-    "serait",
-    "soit",
-    "est"
+    "<i>était</i>",
+    "<i>serait</i>",
+    "<i>soit</i>",
+    "<i>est</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si tu ______, je serai content. If you come, I will be content.",
-   "explain": "A real condition about the future takes <em>si</em> with the present, and the result is in the future. After <em>si</em> meaning if, French uses neither the future nor the conditional.",
+   "prompt": "Choose the form that fills the blank: <i>Si tu ______, je serai content.</i> (“If you come, I will be content”).",
+   "explain": "A real condition about the future takes <i>si</i> with the present, and the result is in the future. After <i>si</i> meaning if, French uses neither the future nor the conditional.",
    "options": [
-    "viens",
-    "viendras",
-    "viendrais",
-    "viennes"
+    "<i>viens</i>",
+    "<i>viendras</i>",
+    "<i>viendrais</i>",
+    "<i>viennes</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si tu viens, je ______ content. If you come, I will be content.",
-   "explain": "After <em>si</em> with the present, the result about the future is in the future: <em>je serai</em>. <em>Serais</em> is the conditional, which follows <em>si</em> with the imparfait.",
+   "prompt": "Choose the form that fills the blank: <i>Si tu viens, je ______ content.</i> (“If you come, I will be content”).",
+   "explain": "After <i>si</i> with the present, the result about the future is in the future: <i>je serai</i>. <i>Serais</i> is the conditional, which follows <i>si</i> with the imparfait.",
    "options": [
-    "serai",
-    "serais",
-    "sois",
-    "étais"
+    "<i>serai</i>",
+    "<i>serais</i>",
+    "<i>sois</i>",
+    "<i>étais</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si la reine parlait, le roi ______. If the queen spoke, the king would listen.",
-   "explain": "After <em>si</em> with the imparfait, the result is in the conditional: <em>le roi écouterait</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Si la reine parlait, le roi ______.</i> (“If the queen spoke, the king would listen”).",
+   "explain": "After <i>si</i> with the imparfait, the result is in the conditional: <i>le roi écouterait</i>.",
    "options": [
-    "écouterait",
-    "écoutera",
-    "écoute",
-    "écoutait"
+    "<i>écouterait</i>",
+    "<i>écoutera</i>",
+    "<i>écoute</i>",
+    "<i>écoutait</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si nous ______ le temps, nous irions à Paris. If we had the time, we would go to Paris.",
-   "explain": "The condition is not real, so <em>si</em> takes the imparfait: <em>nous avions</em>. <em>Aurions</em> is the conditional.",
+   "prompt": "Choose the form that fills the blank: <i>Si nous ______ le temps, nous irions à Paris.</i> (“If we had the time, we would go to Paris”).",
+   "explain": "The condition is not real, so <i>si</i> takes the imparfait: <i>nous avions</i>. <i>Aurions</i> is the conditional.",
    "options": [
-    "avions",
-    "aurions",
-    "ayons",
-    "avons"
+    "<i>avions</i>",
+    "<i>aurions</i>",
+    "<i>ayons</i>",
+    "<i>avons</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il dit ______ le roi est malade. He says that the king is ill.",
-   "explain": "A reported statement after <em>dire</em> is introduced by <em>que</em>, and French never leaves <em>que</em> out.",
+   "prompt": "Choose the form that fills the blank: <i>Il dit ______ le roi est malade.</i> (“He says that the king is ill”).",
+   "explain": "A reported statement after <i>dire</i> is introduced by <i>que</i>, and French never leaves <i>que</i> out.",
    "options": [
-    "que",
-    "qui",
-    "si",
-    "ce que"
+    "<i>que</i>",
+    "<i>qui</i>",
+    "<i>si</i>",
+    "<i>ce que</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ne sais pas ______ vient. I do not know whether he is coming.",
-   "explain": "A reported yes-or-no question is introduced by <em>si</em>, and <em>si</em> is elided before <em>il</em>: <em>s’il</em>. <em>Si il</em> is never written.",
+   "prompt": "Choose the form that fills the blank: <i>Je ne sais pas ______ vient.</i> (“I do not know whether he is coming”).",
+   "explain": "A reported yes-or-no question is introduced by <i>si</i>, and <i>si</i> is elided before <i>il</i>: <i>s’il</i>. <i>Si il</i> is never written.",
    "options": [
-    "s’il",
-    "qu’il",
-    "ce qu’il",
-    "si il"
+    "<i>s’il</i>",
+    "<i>qu’il</i>",
+    "<i>ce qu’il</i>",
+    "<i>si il</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il demande ______ tu veux. He asks what you want.",
-   "explain": "A reported question about the object of the verb is introduced by <em>ce que</em>. <em>Ce qui</em> is used when the word asked about is the subject.",
+   "prompt": "Choose the form that fills the blank: <i>Il demande ______ tu veux.</i> (“He asks what you want”).",
+   "explain": "A reported question about the object of the verb is introduced by <i>ce que</i>. <i>Ce qui</i> is used when the word asked about is the subject.",
    "options": [
-    "ce que",
-    "que",
-    "quoi",
-    "ce qui"
+    "<i>ce que</i>",
+    "<i>que</i>",
+    "<i>quoi</i>",
+    "<i>ce qui</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il demande ______ se passe. He asks what is happening.",
-   "explain": "The word asked about is the subject of <em>se passe</em>, so the reported question is introduced by <em>ce qui</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il demande ______ se passe.</i> (“He asks what is happening”).",
+   "explain": "The word asked about is the subject of <i>se passe</i>, so the reported question is introduced by <i>ce qui</i>.",
    "options": [
-    "ce qui",
-    "ce que",
-    "qui",
-    "que"
+    "<i>ce qui</i>",
+    "<i>ce que</i>",
+    "<i>qui</i>",
+    "<i>que</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je demande ______ est le roi. I ask where the king is.",
-   "explain": "A reported question keeps its question word: <em>où est le roi</em> becomes <em>je demande où est le roi</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je demande ______ est le roi.</i> (“I ask where the king is”).",
+   "explain": "A reported question keeps its question word: <i>où est le roi</i> becomes <i>je demande où est le roi</i>.",
    "options": [
-    "où",
-    "que",
-    "si",
-    "ce qui"
+    "<i>où</i>",
+    "<i>que</i>",
+    "<i>si</i>",
+    "<i>ce qui</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle sait que la reine ______ venue. She knows that the queen has come.",
-   "explain": "After <em>savoir que</em> the verb is in the indicative, and <em>venir</em> forms the passé composé with <em>être</em>: <em>la reine est venue</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elle sait que la reine ______ venue.</i> (“She knows that the queen has come”).",
+   "explain": "After <i>savoir que</i> the verb is in the indicative, and <i>venir</i> forms the passé composé with <i>être</i>: <i>la reine est venue</i>.",
    "options": [
-    "est",
-    "a",
-    "soit",
-    "été"
+    "<i>est</i>",
+    "<i>a</i>",
+    "<i>soit</i>",
+    "<i>été</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je pense qu’il ______ raison. I think that he is right.",
-   "explain": "After an affirmative verb of thinking, such as <em>penser</em>, the reported statement is in the indicative: <em>il a raison</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je pense qu’il ______ raison.</i> (“I think that he is right”).",
+   "explain": "After an affirmative verb of thinking, such as <i>penser</i>, the reported statement is in the indicative: <i>il a raison</i>.",
    "options": [
-    "a",
-    "ait",
-    "avoir",
-    "ayant"
+    "<i>a</i>",
+    "<i>ait</i>",
+    "<i>avoir</i>",
+    "<i>ayant</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ne pense pas qu’il ______ raison. I do not think that he is right.",
-   "explain": "After a verb of thinking in the negative, written French usually puts the reported statement in the subjunctive: <em>qu’il ait raison</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je ne pense pas qu’il ______ raison.</i> (“I do not think that he is right”).",
+   "explain": "After a verb of thinking in the negative, written French usually puts the reported statement in the subjunctive: <i>qu’il ait raison</i>.",
    "options": [
-    "ait",
-    "a",
-    "avoir",
-    "ayant"
+    "<i>ait</i>",
+    "<i>a</i>",
+    "<i>avoir</i>",
+    "<i>ayant</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. En ______, il apprend. While reading, he learns.",
-   "explain": "The gérondif is <em>en</em> with the present participle, and it says that two actions go on together: <em>en lisant</em>.",
+   "prompt": "Choose the form that fills the blank: <i>En ______, il apprend.</i> (“While reading, he learns”).",
+   "explain": "The gérondif is <i>en</i> with the present participle, and it says that two actions go on together: <i>en lisant</i>.",
    "options": [
-    "lisant",
-    "lire",
-    "lu",
-    "lit"
+    "<i>lisant</i>",
+    "<i>lire</i>",
+    "<i>lu</i>",
+    "<i>lisait</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il est entré en ______. He came in singing.",
-   "explain": "<em>En</em> with the present participle gives the manner of the action: <em>il est entré en chantant</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il est entré en ______.</i> (“He came in singing”).",
+   "explain": "<i>En</i> with the present participle gives the manner of the action: <i>il est entré en chantant</i>.",
    "options": [
-    "chantant",
-    "chanter",
-    "chanté",
-    "chante"
+    "<i>chantant</i>",
+    "<i>chanter</i>",
+    "<i>chanté</i>",
+    "<i>chantait</i>"
    ],
    "answer": 0
   },
@@ -527,13 +527,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ayant ______ la lettre, le roi est parti. Having finished the letter, the king left.",
-   "explain": "<em>Ayant</em> with the past participle presents one action as complete before the next: <em>ayant fini</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ayant ______ la lettre, le roi est parti.</i> (“Having finished the letter, the king left”).",
+   "explain": "<i>Ayant</i> with the past participle presents one action as complete before the next: <i>ayant fini</i>.",
    "options": [
-    "fini",
-    "finissant",
-    "finir",
-    "finit"
+    "<i>fini</i>",
+    "<i>finissant</i>",
+    "<i>finir</i>",
+    "<i>finit</i>"
    ],
    "answer": 0
   },
@@ -543,13 +543,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. C’est en ______ qu’on réussit. It is by working that one succeeds.",
-   "explain": "The gérondif, <em>en</em> with the present participle, gives the means: <em>en travaillant</em>.",
+   "prompt": "Choose the form that fills the blank: <i>C’est en ______ qu’on réussit.</i> (“It is by working that one succeeds”).",
+   "explain": "The gérondif, <i>en</i> with the present participle, gives the means: <i>en travaillant</i>.",
    "options": [
-    "travaillant",
-    "travailler",
-    "travaillé",
-    "travaille"
+    "<i>travaillant</i>",
+    "<i>travailler</i>",
+    "<i>travaillé</i>",
+    "<i>travaille</i>"
    ],
    "answer": 0
   },
@@ -559,13 +559,13 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Une fois la lettre ______, le roi l’a envoyée. Once the letter was written, the king sent it.",
-   "explain": "The participle in this phrase agrees with its noun, <em>lettre</em>, which is feminine: <em>une fois la lettre écrite</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Une fois la lettre ______, le roi l’a envoyée.</i> (“Once the letter was written, the king sent it”).",
+   "explain": "The participle in this phrase agrees with its noun, <i>lettre</i>, which is feminine: <i>une fois la lettre écrite</i>.",
    "options": [
-    "écrite",
-    "écrit",
-    "écrire",
-    "écrivant"
+    "<i>écrite</i>",
+    "<i>écrit</i>",
+    "<i>écrire</i>",
+    "<i>écrivant</i>"
    ],
    "answer": 0
   },
@@ -575,15 +575,79 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "deck": "lang.v.fr/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ le roi, la femme s’est arrêtée. Seeing the king, the woman stopped.",
-   "explain": "The present participle, without <em>en</em>, can open a sentence and give the circumstance of the main action: <em>voyant le roi</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ le roi, la femme s’est arrêtée.</i> (“Seeing the king, the woman stopped”).",
+   "explain": "The present participle, without <i>en</i>, can open a sentence and give the circumstance of the main action: <i>voyant le roi</i>.",
    "options": [
-    "Voyant",
-    "Voir",
-    "Vu",
-    "Voit"
+    "<i>Voyant</i>",
+    "<i>Voir</i>",
+    "<i>Vu</i>",
+    "<i>Voit</i>"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.v.fr/clause-ex:frcls37",
+   "set": "A",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>la clé avec ______ j’ouvre la porte</i> (“the key with which I open the door”)?",
+   "explain": "After <i>avec</i>, French uses <i>lequel</i>, agreeing with <i>clé</i>, feminine singular.",
+   "options": [
+    "<i>lequel</i>",
+    "<i>que</i>",
+    "<i>dont</i>",
+    "<i>laquelle</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.fr/clause-ex:frcls38",
+   "set": "B",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Il a promis qu’il ______</i> (“he promised that he would write”)?",
+   "explain": "After a past main verb, the future of the original becomes the conditional.",
+   "options": [
+    "<i>écrira</i>",
+    "<i>écrivait</i>",
+    "<i>écrirait</i>",
+    "<i>écrive</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.fr/clause-ex:frcls39",
+   "set": "C",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Si elle était venue, nous l’______ vue</i> (“if she had come, we would have seen her”)?",
+   "explain": "<i>Si</i> with the pluperfect goes with the past conditional.",
+   "options": [
+    "<i>avions</i>",
+    "<i>aurions</i>",
+    "<i>aurons</i>",
+    "<i>aurions été</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.fr/clause-ex:frcls40",
+   "set": "C",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does <i>le travail terminé</i> mean in <i>Le travail terminé, ils sont partis</i>?",
+   "explain": "A noun with a past participle stands apart from the main clause, like the Latin ablative absolute.",
+   "options": [
+    "“while finishing the work”",
+    "“when the work was finished”",
+    "“in order to finish the work”",
+    "“the work that they will finish”"
+   ],
+   "answer": 1
   }
  ]
 };

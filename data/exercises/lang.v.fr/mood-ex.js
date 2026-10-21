@@ -5,7 +5,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "The Subjunctive, the Conditional, and the Imperative",
+ "title": "The Subjunctive, the Conditional, and the Imperative in French",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, first person singular, of “finir.”",
-   "explain": "The present subjunctive takes its stem from the third person plural of the present, <em>finissent</em>, and adds <em>-e</em>: <em>que je finisse</em>.",
+   "prompt": "Choose the present subjunctive, first person singular, of <i>finir</i>.",
+   "explain": "The present subjunctive takes its stem from the third person plural of the present, <i>finissent</i>, and adds <i>-e</i>: <i>que je finisse</i>.",
    "options": [
-    "finisse",
-    "finis",
-    "finissais",
-    "finirai"
+    "<i>finisse</i>",
+    "<i>finis</i>",
+    "<i>finissais</i>",
+    "<i>finirai</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, first person singular, of “être.”",
-   "explain": "<em>Être</em> has an irregular subjunctive: <em>que je sois</em>. <em>Suis</em> is the present indicative, and <em>serai</em> the future.",
+   "prompt": "Choose the present subjunctive, first person singular, of <i>être</i>.",
+   "explain": "<i>Être</i> has an irregular subjunctive: <i>que je sois</i>. <i>Suis</i> is the present indicative, and <i>serai</i> the future.",
    "options": [
-    "sois",
-    "suis",
-    "serai",
-    "étais"
+    "<i>sois</i>",
+    "<i>suis</i>",
+    "<i>serai</i>",
+    "<i>étais</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person singular, of “avoir.”",
-   "explain": "<em>Avoir</em> has an irregular subjunctive: <em>qu’il ait</em>. A is the present indicative, and <em>aura</em> the future.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>avoir</i>.",
+   "explain": "<i>Avoir</i> has an irregular subjunctive: <i>qu’il ait</i>. A is the present indicative, and <i>aura</i> the future.",
    "options": [
-    "ait",
-    "a",
-    "aura",
-    "avait"
+    "<i>ait</i>",
+    "<i>a</i>",
+    "<i>aura</i>",
+    "<i>avait</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, first person singular, of “aller.”",
-   "explain": "<em>Aller</em> has the subjunctive <em>que j’aille</em>. <em>Vais</em> is the present indicative, and <em>irai</em> the future.",
+   "prompt": "Choose the present subjunctive, first person singular, of <i>aller</i>.",
+   "explain": "<i>Aller</i> has the subjunctive <i>que j’aille</i>. <i>Vais</i> is the present indicative, and <i>irai</i> the future.",
    "options": [
-    "aille",
-    "vais",
-    "irai",
-    "allais"
+    "<i>aille</i>",
+    "<i>vais</i>",
+    "<i>irai</i>",
+    "<i>allais</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person plural, of “faire.”",
-   "explain": "<em>Faire</em> has the subjunctive stem fass-: qu’ils <em>fassent</em>. <em>Font</em> is the present indicative.",
+   "prompt": "Choose the present subjunctive, third person plural, of <i>faire</i>.",
+   "explain": "<i>Faire</i> has the subjunctive stem fass-: qu’ils <i>fassent</i>. <i>Font</i> is the present indicative.",
    "options": [
-    "fassent",
-    "font",
-    "feront",
-    "faisaient"
+    "<i>fassent</i>",
+    "<i>font</i>",
+    "<i>feront</i>",
+    "<i>faisaient</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, first person plural, of “venir.”",
-   "explain": "In the first and second persons plural the subjunctive of <em>venir</em> takes the stem ven- and the endings <em>-ions</em> and <em>-iez</em>: <em>que nous venions</em>.",
+   "prompt": "Choose the present subjunctive, first person plural, of <i>venir</i>.",
+   "explain": "In the first and second persons plural the subjunctive of <i>venir</i> takes the stem ven- and the endings <i>-ions</i> and <i>-iez</i>: <i>que nous venions</i>.",
    "options": [
-    "venions",
-    "venons",
-    "viendrons",
-    "viennent"
+    "<i>venions</i>",
+    "<i>venons</i>",
+    "<i>viendrons</i>",
+    "<i>viennent</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person singular, of “pouvoir.”",
-   "explain": "<em>Pouvoir</em> has the subjunctive stem puiss-: <em>qu’il puisse</em>. <em>Peut</em> is the present indicative.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>pouvoir</i>.",
+   "explain": "<i>Pouvoir</i> has the subjunctive stem puiss-: <i>qu’il puisse</i>. <i>Peut</i> is the present indicative.",
    "options": [
-    "puisse",
-    "peut",
-    "pourra",
-    "pouvait"
+    "<i>puisse</i>",
+    "<i>peut</i>",
+    "<i>pourra</i>",
+    "<i>pouvait</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, second person plural, of “être.”",
-   "explain": "The subjunctive of <em>être</em> in the second person plural is <em>que vous soyez</em>. <em>Êtes</em> is the present indicative.",
+   "prompt": "Choose the present subjunctive, second person plural, of <i>être</i>.",
+   "explain": "The subjunctive of <i>être</i> in the second person plural is <i>que vous soyez</i>. <i>Êtes</i> is the present indicative.",
    "options": [
-    "soyez",
-    "êtes",
-    "serez",
-    "étiez"
+    "<i>soyez</i>",
+    "<i>êtes</i>",
+    "<i>serez</i>",
+    "<i>étiez</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il faut que tu ______. It is necessary that you come.",
-   "explain": "<em>Il faut que</em> requires the subjunctive: <em>que tu viennes</em>. <em>Viens</em> is the indicative.",
+   "prompt": "Choose the form that fills the blank: <i>Il faut que tu ______.</i> (“It is necessary that you come”).",
+   "explain": "<i>Il faut que</i> requires the subjunctive: <i>que tu viennes</i>. <i>Viens</i> is the indicative.",
    "options": [
-    "viennes",
-    "viens",
-    "viendras",
-    "venir"
+    "<i>viennes</i>",
+    "<i>viens</i>",
+    "<i>viendras</i>",
+    "<i>venir</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je veux que tu ______ heureux. I want you to be happy.",
-   "explain": "After a verb of wanting with <em>que</em> and a different subject, French uses the subjunctive: <em>que tu sois</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je veux que tu ______ heureux.</i> (“I want you to be happy”).",
+   "explain": "After a verb of wanting with <i>que</i> and a different subject, French uses the subjunctive: <i>que tu sois</i>.",
    "options": [
-    "sois",
-    "es",
-    "seras",
-    "être"
+    "<i>sois</i>",
+    "<i>es</i>",
+    "<i>seras</i>",
+    "<i>être</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il parle lentement pour que la reine ______. He speaks slowly so that the queen may understand.",
-   "explain": "<em>Pour que</em> gives a purpose and requires the subjunctive: <em>qu’elle comprenne</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il parle lentement pour que la reine ______.</i> (“He speaks slowly so that the queen may understand”).",
+   "explain": "<i>Pour que</i> gives a purpose and requires the subjunctive: <i>qu’elle comprenne</i>.",
    "options": [
-    "comprenne",
-    "comprend",
-    "comprendra",
-    "comprendre"
+    "<i>comprenne</i>",
+    "<i>comprend</i>",
+    "<i>comprendra</i>",
+    "<i>comprendre</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Bien qu’il ______ malade, il travaille. Although he is ill, he works.",
-   "explain": "<em>Bien que</em> gives a concession and requires the subjunctive: <em>bien qu’il soit</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Bien qu’il ______ malade, il travaille.</i> (“Although he is ill, he works”).",
+   "explain": "<i>Bien que</i> gives a concession and requires the subjunctive: <i>bien qu’il soit</i>.",
    "options": [
-    "soit",
-    "est",
-    "sera",
-    "être"
+    "<i>soit</i>",
+    "<i>est</i>",
+    "<i>sera</i>",
+    "<i>être</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Partez avant que le roi ______. Leave before the king comes!",
-   "explain": "<em>Avant que</em> requires the subjunctive: <em>avant que le roi vienne</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Partez avant que le roi ______.</i> (“Leave before the king comes!”).",
+   "explain": "<i>Avant que</i> requires the subjunctive: <i>avant que le roi vienne</i>.",
    "options": [
-    "vienne",
-    "vient",
-    "viendra",
-    "venir"
+    "<i>vienne</i>",
+    "<i>vient</i>",
+    "<i>viendra</i>",
+    "<i>venir</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je suis content que vous ______ là. I am glad that you are here.",
-   "explain": "After an expression of feeling with <em>que</em>, French uses the subjunctive: <em>que vous soyez là</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je suis content que vous ______ là.</i> (“I am glad that you are here”).",
+   "explain": "After an expression of feeling with <i>que</i>, French uses the subjunctive: <i>que vous soyez là</i>.",
    "options": [
-    "soyez",
-    "êtes",
-    "serez",
-    "être"
+    "<i>soyez</i>",
+    "<i>êtes</i>",
+    "<i>serez</i>",
+    "<i>être</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je pense qu’il ______. I think that he is coming.",
-   "explain": "An affirmative verb of thinking states what the speaker holds to be so, and it takes the indicative: <em>il vient</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je pense qu’il ______.</i> (“I think that he is coming”).",
+   "explain": "An affirmative verb of thinking states what the speaker holds to be so, and it takes the indicative: <i>il vient</i>.",
    "options": [
-    "vient",
-    "vienne",
-    "venir",
-    "venant"
+    "<i>vient</i>",
+    "<i>vienne</i>",
+    "<i>venir</i>",
+    "<i>venant</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il faut que nous ______ la lettre. It is necessary that we finish the letter.",
-   "explain": "<em>Il faut que</em> requires the subjunctive, and the first person plural of the subjunctive ends in <em>-ions</em>: <em>que nous finissions</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il faut que nous ______ la lettre.</i> (“It is necessary that we finish the letter”).",
+   "explain": "<i>Il faut que</i> requires the subjunctive, and the first person plural of the subjunctive ends in <i>-ions</i>: <i>que nous finissions</i>.",
    "options": [
-    "finissions",
-    "finissons",
-    "finirons",
-    "finir"
+    "<i>finissions</i>",
+    "<i>finissons</i>",
+    "<i>finirons</i>",
+    "<i>finir</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ un livre, s’il vous plaît. I would like a book, please.",
-   "explain": "The conditional softens a request: <em>je voudrais</em>. <em>Voudrai</em> is the future, and <em>voudrait</em> the third person.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ un livre, s’il vous plaît.</i> (“I would like a book, please”).",
+   "explain": "The conditional softens a request: <i>je voudrais</i>. <i>Voudrai</i> is the future, and <i>voudrait</i> the third person.",
    "options": [
-    "voudrais",
-    "voudrai",
-    "voulais",
-    "voudrait"
+    "<i>voudrais</i>",
+    "<i>voudrai</i>",
+    "<i>voulais</i>",
+    "<i>voudrait</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Conditional, first person singular, of “avoir.”",
-   "explain": "The conditional takes the stem of the future, aur-, and the endings of the imparfait: j’aurais. <em>Aurai</em> is the future.",
+   "prompt": "Choose the conditional, first person singular, of <i>avoir</i>.",
+   "explain": "The conditional takes the stem of the future, aur-, and the endings of the imparfait: j’aurais. <i>Aurai</i> is the future.",
    "options": [
-    "aurais",
-    "aurai",
-    "avais",
-    "aie"
+    "<i>aurais</i>",
+    "<i>aurai</i>",
+    "<i>avais</i>",
+    "<i>aurait</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Conditional, third person singular, of “être.”",
-   "explain": "The conditional of <em>être</em> is made on the future stem ser- with the ending <em>-ait</em>: <em>il serait</em>.",
+   "prompt": "Choose the conditional, third person singular, of <i>être</i>.",
+   "explain": "The conditional of <i>être</i> is made on the future stem ser- with the ending <i>-ait</i>: <i>il serait</i>.",
    "options": [
-    "serait",
-    "sera",
-    "était",
-    "soit"
+    "<i>serait</i>",
+    "<i>sera</i>",
+    "<i>était</i>",
+    "<i>seraient</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Conditional, first person plural, of “faire.”",
-   "explain": "The future stem of <em>faire</em> is fer-, and the conditional adds <em>-ions</em>: <em>nous ferions</em>. <em>Ferons</em> is the future, <em>faisions</em> the imparfait, and <em>fassions</em> the subjunctive.",
+   "prompt": "Choose the conditional, first person plural, of <i>faire</i>.",
+   "explain": "The future stem of <i>faire</i> is fer-, and the conditional adds <i>-ions</i>: <i>nous ferions</i>. <i>Ferons</i> is the future, <i>faisions</i> the imparfait, and <i>fassions</i> the subjunctive.",
    "options": [
-    "ferions",
-    "ferons",
-    "faisions",
-    "fassions"
+    "<i>ferions</i>",
+    "<i>ferons</i>",
+    "<i>faisions</i>",
+    "<i>fassions</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Conditional, second person singular, of “pouvoir.”",
-   "explain": "The future stem of <em>pouvoir</em> is pourr-, and the conditional adds <em>-ais</em>: <em>tu pourrais</em>.",
+   "prompt": "Choose the conditional, second person singular, of <i>pouvoir</i>.",
+   "explain": "The future stem of <i>pouvoir</i> is pourr-, and the conditional adds <i>-ais</i>: <i>tu pourrais</i>.",
    "options": [
-    "pourrais",
-    "pourras",
-    "pouvais",
-    "puisses"
+    "<i>pourrais</i>",
+    "<i>pourras</i>",
+    "<i>pouvais</i>",
+    "<i>puisses</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Si j’étais riche, j’______ une maison. If I were rich, I would buy a house.",
-   "explain": "After <em>si</em> with the imparfait, the result is in the conditional: <em>j’achèterais</em>. <em>Achèterai</em> is the future.",
+   "prompt": "Choose the form that fills the blank: <i>Si j’étais riche, j’______ une maison.</i> (“If I were rich, I would buy a house”).",
+   "explain": "After <i>si</i> with the imparfait, the result is in the conditional: <i>j’achèterais</i>. <i>Achèterai</i> is the future.",
    "options": [
-    "achèterais",
-    "achèterai",
-    "achetais",
-    "achète"
+    "<i>achèterais</i>",
+    "<i>achèterai</i>",
+    "<i>achetais</i>",
+    "<i>achète</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______-vous m’aider ? Could you help me?",
-   "explain": "The conditional makes a polite request: pourriez-vous <em>m’aider</em> ? <em>Pourrez</em> is the future.",
+   "prompt": "Choose the form that fills the blank: <i>______-vous m’aider ?</i> (“Could you help me?”).",
+   "explain": "The conditional makes a polite request: pourriez-vous <i>m’aider</i> ? <i>Pourrez</i> is the future.",
    "options": [
-    "Pourriez",
-    "Pourrez",
-    "Pouviez",
-    "Puissiez"
+    "<i>Pourriez</i>",
+    "<i>Pourrez</i>",
+    "<i>Pouviez</i>",
+    "<i>Puissiez</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Conditional, third person plural, of “parler.”",
-   "explain": "The conditional of a verb in <em>-er</em> is the infinitive with the endings of the imparfait: <em>ils parleraient</em>.",
+   "prompt": "Choose the conditional, third person plural, of <i>parler</i>.",
+   "explain": "The conditional of a verb in <i>-er</i> is the infinitive with the endings of the imparfait: <i>ils parleraient</i>.",
    "options": [
-    "parleraient",
-    "parleront",
-    "parlaient",
-    "parlent"
+    "<i>parleraient</i>",
+    "<i>parleront</i>",
+    "<i>parlaient</i>",
+    "<i>parlent</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ le livre ! (To one friend) Read the book!",
-   "explain": "The imperative has no subject pronoun, and the form for one person addressed as <em>tu</em> is <em>lis</em>. <em>Lisons</em> means let us read.",
+   "prompt": "Choose the form that fills the blank: <i>______ le livre !</i> (to one friend: “Read the book!”).",
+   "explain": "The imperative has no subject pronoun, and the form for one person addressed as <i>tu</i> is <i>lis</i>. <i>Lisons</i> means let us read.",
    "options": [
-    "Lis",
-    "Lit",
-    "Lire",
-    "Lisons"
+    "<i>Lis</i>",
+    "<i>Lit</i>",
+    "<i>Lire</i>",
+    "<i>Lisons</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ le travail ! (To several people) Finish the work!",
-   "explain": "The imperative addressed to several people is the <em>vous</em> form without the pronoun: <em>finissez</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ le travail !</i> (to several people: “Finish the work!”).",
+   "explain": "The imperative addressed to several people is the <i>vous</i> form without the pronoun: <i>finissez</i>.",
    "options": [
-    "Finissez",
-    "Finis",
-    "Finissons",
-    "Finir"
+    "<i>Finissez</i>",
+    "<i>Finis</i>",
+    "<i>Finissons</i>",
+    "<i>Finir</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ à la ville ! Let us go to the city!",
-   "explain": "The imperative of the first person plural includes the speaker: <em>allons</em>, let us go.",
+   "prompt": "Choose the form that fills the blank: <i>______ à la ville !</i> (“Let us go to the city!”).",
+   "explain": "The imperative of the first person plural includes the speaker: <i>allons</i>, let us go.",
    "options": [
-    "Allons",
-    "Allez",
-    "Aller",
-    "Allions"
+    "<i>Allons</i>",
+    "<i>Allez</i>",
+    "<i>Aller</i>",
+    "<i>Allions</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ au roi ! (To one friend) Speak to the king!",
-   "explain": "A verb in <em>-er</em> has no s in the imperative of the second person singular: <em>parle</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ au roi !</i> (to one friend: “Speak to the king!”).",
+   "explain": "A verb in <i>-er</i> has no s in the imperative of the second person singular: <i>parle</i>.",
    "options": [
-    "Parle",
-    "Parles",
-    "Parlé",
-    "Parler"
+    "<i>Parle</i>",
+    "<i>Parles</i>",
+    "<i>Parlé</i>",
+    "<i>Parler</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Donne-______ le livre ! (To one friend) Give me the book!",
-   "explain": "In the affirmative imperative the object pronoun follows the verb, and <em>me</em> becomes <em>moi</em>: <em>donne-moi</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Donne-______ le livre !</i> (to one friend: “Give me the book!”).",
+   "explain": "In the affirmative imperative the object pronoun follows the verb, and <i>me</i> becomes <i>moi</i>: <i>donne-moi</i>.",
    "options": [
-    "moi",
-    "me",
-    "je",
-    "m’"
+    "<i>moi</i>",
+    "<i>me</i>",
+    "<i>je</i>",
+    "<i>m’</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ sage ! (To one child) Be good!",
-   "explain": "<em>Être</em> has an irregular imperative, taken from the subjunctive: <em>sois</em>, <em>soyons</em>, <em>soyez</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ sage !</i> (to one child: “Be good!”).",
+   "explain": "<i>Être</i> has an irregular imperative, taken from the subjunctive: <i>sois</i>, <i>soyons</i>, <i>soyez</i>.",
    "options": [
-    "Sois",
-    "Es",
-    "Soit",
-    "Être"
+    "<i>Sois</i>",
+    "<i>Es</i>",
+    "<i>Soit</i>",
+    "<i>Être</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ne ______ pas ! (To several people) Do not speak!",
-   "explain": "A negative imperative puts <em>ne</em> before the verb and <em>pas</em> after it: <em>ne parlez pas</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ne ______ pas !</i> (to several people: “Do not speak!”).",
+   "explain": "A negative imperative puts <i>ne</i> before the verb and <i>pas</i> after it: <i>ne parlez pas</i>.",
    "options": [
-    "parlez",
-    "parlé",
-    "parler",
-    "parlent"
+    "<i>parlez</i>",
+    "<i>parlé</i>",
+    "<i>parler</i>",
+    "<i>parlent</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ ici ! (To one friend) Come here!",
-   "explain": "The imperative of the second person singular of <em>venir</em> is <em>viens</em>, the same as the present without <em>tu</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ ici !</i> (to one friend: “Come here!”).",
+   "explain": "The imperative of the second person singular of <i>venir</i> is <i>viens</i>, the same as the present without <i>tu</i>.",
    "options": [
-    "Viens",
-    "Vient",
-    "Venir",
-    "Viennes"
+    "<i>Viens</i>",
+    "<i>Vient</i>",
+    "<i>Venir</i>",
+    "<i>Viennes</i>"
    ],
    "answer": 0
   }
