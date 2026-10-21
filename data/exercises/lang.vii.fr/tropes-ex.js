@@ -239,7 +239,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Pascal writes, <i>Le cœur a ses raisons que la raison ne connaît point</i>. What play on words joins the two uses of <i>raison</i>?",
+   "prompt": "Pascal writes, <i>Le cœur a ses raisons, que la raison ne connaît point</i>. What play on words joins the two uses of <i>raison</i>?",
    "explain": "The heart’s “reasons” and “reason” the faculty: one word in two senses.",
    "options": [
     "A metaphor of the heart as a reason",
@@ -287,7 +287,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Va, cours, vole, et nous venge</i>, which verbs stand in asyndeton?",
+   "prompt": "In <i>va, cours, vole, et nous venge</i>, which verbs stand in asyndeton?",
    "explain": "The first three verbs have no conjunction; <i>et</i> joins only the last.",
    "options": [
     "Only <i>venge</i>",

@@ -9,7 +9,7 @@ ARS.decks["lang.x.fr/pascal"] = {
   {
    "id": "text",
    "title": "Pascal, <i>Pensées</i> 347",
-   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>"
+   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature : mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>"
   },
   {
    "id": "style",

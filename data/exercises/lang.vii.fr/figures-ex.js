@@ -26,9 +26,9 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“The Hare and the Tortoise” opens with a maxim: “To win a race, the swiftness of a dart<br>Availeth not without a timely start” (<em>Rien ne sert de courir : il faut partir à point</em>). The hare delays, and the tortoise wins. What does that trial show about the maxim?",
+   "prompt": "“The Hare and the Tortoise” opens with a maxim: “To win a race, the swiftness of a dart<br>Availeth not without a timely start” (<em>Rien ne sert de courir ; il faut partir à point</em>). The hare delays, and the tortoise wins. What does that trial show about the maxim?",
    "explain": "The maxim says that swiftness does not win a race without a timely start. The hare delays, and the tortoise wins. The trial shows that a timely start prevails.",
-   "options": ["That swiftness alone is enough", "That a timely start prevails", "That the hare never runs", "That the opening is a metaphor for hunger"],
+   "options": ["That swiftness alone is enough", "That a timely start prevails", "That the hare never runs", "That slowness is a virtue in itself"],
    "answer": 1
   },
   {
@@ -48,9 +48,9 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>Elle se hâte avec lenteur</em> has eight syllables, and <em>Rien ne sert de courir : il faut partir à point</em> has twelve. What differs?",
+   "prompt": "<em>Elle se hâte avec lenteur</em> has eight syllables, and <em>Rien ne sert de courir ; il faut partir à point</em> has twelve. What differs?",
    "explain": "The lines differ in measure, the number of syllables. That difference does not by itself change the signification of any word.",
-   "options": ["The measure", "The proper sense of <em>hâte</em>", "The gender of the tortoise", "Whether the fable is in prose"],
+   "options": ["The measure", "The proper sense of <em>hâte</em>", "The tense of the verbs", "Whether the fable is in prose"],
    "answer": 0
   },
   {
@@ -70,7 +70,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>Elle se hâte avec lenteur</em> and <em>Rien ne sert de courir : il faut partir à point</em> are both literal, one of eight syllables and one of twelve. What is the difference?",
+   "prompt": "<em>Elle se hâte avec lenteur</em> and <em>Rien ne sert de courir ; il faut partir à point</em> are both literal, one of eight syllables and one of twelve. What is the difference?",
    "explain": "The words stay literal, so there is no trope. The difference is the measure. It is not a maxim, a metaphor, or an antithesis.",
    "options": ["A metaphor", "An antithesis", "A sententious line", "The measure"],
    "answer": 3

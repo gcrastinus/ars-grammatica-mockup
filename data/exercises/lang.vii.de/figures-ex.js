@@ -63,7 +63,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“I’ve studied now Philosophy / And Jurisprudence, Medicine,— / And even, alas! Theology” (<em>Habe nun, ach! Philosophie, Juristerei und Medizin, und leider auch Theologie</em>) names the studies and stops. What is that wording?",
+   "prompt": "“I’ve studied now Philosophy / And Jurisprudence, Medicine,— / And even, alas! Theology” (<em>Habe nun, ach! Philosophie, / Juristerei und Medizin, / Und leider auch Theologie</em>) names the studies and stops. What is that wording?",
    "explain": "The wording states the claim. It does not transfer a word by likeness, it does not address the studies, and it does not go beyond the fact that he has studied them.",
    "options": [
     "Only a statement",

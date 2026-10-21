@@ -145,7 +145,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-13",
    "title": "Pascal, <em>Pensées</em> 347",
-   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>",
+   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature : mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-13",
     "variants": [
@@ -644,7 +644,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-52",
    "title": "Pascal, <em>Pensées</em> 277",
-   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point. On le sent en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>",
+   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point ; on le sait en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-52",
     "variants": [
@@ -679,7 +679,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "“one,” “we,” a general subject"
       ],
       "answer": 3,
-      "explain": "<em>On le sent en mille choses.</em>"
+      "explain": "<em>on le sait en mille choses.</em>"
      }
     ]
    }
@@ -697,7 +697,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-55",
    "title": "On and the neuter le",
-   "body": "<p><em>On le sent en mille choses</em>: <em>On</em>, “one, we,” is the general subject. <em>Le</em> stands for the whole preceding statement.</p>"
+   "body": "<p><em>on le sait en mille choses</em>: <em>On</em>, “one, we,” is the general subject. <em>Le</em> stands for the whole preceding statement.</p>"
   },
   {
    "id": "prose-56",

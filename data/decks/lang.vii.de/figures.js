@@ -9,7 +9,7 @@ ARS.decks["lang.vii.de/figures"] = {
   {
    "id": "apostrophe",
    "title": "Address to what cannot answer",
-   "body": "<p>A speaker who says “Stay” to a friend in the room addresses a person who is present and can answer, and that address is ordinary. But a speaker, above all in verse, can turn aside and address someone who is absent, or a thing that cannot answer at all, and this turn is called <strong>apostrophe</strong>.</p><p>In Goethe’s <em>Faust</em>, Faust addresses the passing moment, although a moment cannot hear:</p><p>“Ah, still delay—thou art so fair!” (<em>Verweile doch, du bist so schön.</em>)</p><p>The word “thou” marks the one addressed. The moment is not called by the name of some other thing, and nothing in the line is enlarged beyond the fact, so the figure lies in the address alone.</p>",
+   "body": "<p>A speaker who says “Stay” to a friend in the room addresses a person who is present and can answer, and that address is ordinary. But a speaker, above all in verse, can turn aside and address someone who is absent, or a thing that cannot answer at all, and this turn is called <strong>apostrophe</strong>.</p><p>In Goethe’s <em>Faust</em>, Faust addresses the passing moment, although a moment cannot hear:</p><p>“Ah, still delay—thou art so fair!” (<em>Verweile doch! du bist so schön!</em>)</p><p>The word “thou” marks the one addressed. The moment is not called by the name of some other thing, and nothing in the line is enlarged beyond the fact, so the figure lies in the address alone.</p>",
    "qp": {
     "id": "q-apostrophe",
     "variants": [
@@ -93,7 +93,7 @@ ARS.decks["lang.vii.de/figures"] = {
   {
    "id": "telling",
    "title": "Three tests",
-   "body": "<p>The three figures are told apart by three tests:</p>\n<p><strong>Apostrophe</strong>: someone or something is addressed.<br><strong>Metaphor</strong>: a word is used for something it resembles.<br><strong>Hyperbole</strong>: the wording goes beyond the truth, to enlarge or to lessen.</p><p>A line may meet more than one test, but the tests remain separate, and each asks its own question. In the prologue of <em>Faust</em>, the Lord speaks about man:</p><p>“While Man's desires and aspirations stir,<br>He cannot choose but err.” (<em>Es irrt der Mensch, solang er strebt.</em>)</p><p>Man is spoken about, not addressed; no word is used for something it resembles; and the line does not enlarge or lessen the fact. So the line is a plain statement, and none of the three figures is in it.</p>",
+   "body": "<p>The three figures are told apart by three tests:</p>\n<p><strong>Apostrophe</strong>: someone or something is addressed.<br><strong>Metaphor</strong>: a word is used for something it resembles.<br><strong>Hyperbole</strong>: the wording goes beyond the truth, to enlarge or to lessen.</p><p>A line may meet more than one test, but the tests remain separate, and each asks its own question. In the prologue of <em>Faust</em>, the Lord speaks about man:</p><p>“While Man's desires and aspirations stir,<br>He cannot choose but err.” (<em>Es irrt der Mensch so lang er strebt.</em>)</p><p>Man is spoken about, not addressed; no word is used for something it resembles; and the line does not enlarge or lessen the fact. So the line is a plain statement, and none of the three figures is in it.</p>",
    "qp": {
     "id": "q-telling",
     "variants": [
