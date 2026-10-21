@@ -145,6 +145,105 @@ Ids are the screen item ids (`lang.<bar>.<code>/<slug>`). "ex" is the exercise p
 
 For each language, in Timothy's priority order (III and the preposition, IV, V, VI, IX, X, then II and VII): every topic marked partial or missing gets a study deck with question points and its own paired exercise of at least 20 items in sets A, B, and C, and every existing exercise is paired with the deck whose matter it drills. The final state is recorded below.
 
-## After the pass
+## After the pass (21 Oct 2026, c41a637)
 
-(Filled in at the end of the pass.)
+Every topic that was partial or missing now has a study deck with question points and a paired exercise of at least 20 items, except where noted. "Covered" below means a deck and its exercise.
+
+### English
+
+| Topic | State | Where |
+|---|---|---|
+| Sounds, letters, spelling | covered (no exercise by decision) | ii.en/spelling |
+| Punctuation | in the general course only (ii.punctuation); no English deck | none |
+| Noun: number and the possessive | covered | iii-decl.en/noun |
+| Pronoun: the full table | covered | iii-decl.en/pronouns |
+| Verb: strong and weak, principal parts | covered | iii-decl.en/verbs |
+| Progressive, perfect, auxiliaries and modals | covered | iii-decl.en/accidents |
+| Participle, gerund, infinitive | covered | iii-decl.en/verbals |
+| Prepositions and conjunctions in English usage | covered | iii-indecl.en/usage |
+| Composition; etymology | covered | iv.en/composition; iv.en/etymology |
+| Congruity, dependences | covered | v.en/agreement; v.en/dependence |
+| Figures in English authors | covered | vii.en/figures |
+| Models | covered (eight, read only) | x.en |
+| Overview | covered (read only) | prelim.en/overview |
+
+### Latin
+
+| Topic | State | Where |
+|---|---|---|
+| Syllable, quantity, accent | covered | ii.la/syllable (generated set) |
+| Spelling and punctuation (i/j, u/v) | covered | ii.la/orthography |
+| Adjectives, comparison, numerals | covered | iii-decl.la/adjectives |
+| Pronouns | covered | iii-decl.la/pronouns |
+| Irregular verbs | covered | iii-decl.la/irregular |
+| Participles, gerund, gerundive, supine | covered | iii-decl.la/participles |
+| Inflection and case | covered (now paired) | iii-decl.la/casework |
+| Prepositions and their cases | covered | iii-indecl.la/prepositions |
+| Adverbs, conjunctions, interjections | covered | iii-indecl.la/adverbs |
+| Composition; etymology | covered | iv.la/composition; iv.la/etymology |
+| Uses of the cases, agreement, government | covered | v.la/agreement; v.la/government |
+| Clauses | covered | v.la/clause-kinds (v.la/clauses is a deck of examples, noEx) |
+| Dependence | covered | v.la/dependence |
+| Errors | covered | vi.la/faults |
+| Figures and tropes | covered | vii.la/figures |
+| Passages; the period; Livy; Servius | covered (Livy and period merged into prose and poetry) | ix.la/prose, poetry, servius |
+| Models | covered | x.la |
+| Overview | covered | prelim.la/overview |
+
+### Greek
+
+| Topic | State | Where |
+|---|---|---|
+| Alphabet and pronunciation, breathings and accents, punctuation | covered | ii.grc/writing; ii.grc/syllable |
+| Hexameter | covered | ii.grc/hexameter |
+| Three declensions (typed drill) | covered | iii-decl.grc/paradigms |
+| Pronouns | covered | iii-decl.grc/pronouns |
+| Contract verbs; -μι verbs; the perfect system | covered | iii-decl.grc/contract; mi; perfect |
+| The participle | covered | iii-decl.grc/participle |
+| Prepositions | covered | iii-indecl.grc/prepositions |
+| Particles, negatives | covered | iii-indecl.grc/particles |
+| Composition; etymology | covered | iv.grc/composition; iv.grc/etymology |
+| Agreement, government, voice, mood, clauses | covered | v.grc/agreement, government, voice, mood, clauses |
+| Genitive absolute, indirect discourse, conditions, temporal clauses, alternative questions | covered | v.grc/clauses |
+| Errors | covered | vi.grc/errors; vi.grc/attic |
+| Figures and tropes | covered | vii.grc/figures; vii.grc/tropes |
+| Marking | covered (nine items) | v.grc/order (cited-ex) |
+| Models | covered | x.grc |
+| Overview | covered | prelim.grc/overview |
+
+### French
+
+| Topic | State | Where |
+|---|---|---|
+| Elision, liaison, punctuation | covered | ii.fr/orthography |
+| Pronouns: relative, demonstrative, possessive, interrogative | covered | iii-decl.fr/pronouns |
+| Passé simple, compound tenses, the subjunctive | covered | iii-decl.fr/tenses; iii-decl.fr/subjunctive |
+| Agreement of the past participle | covered | iii-decl.fr/participle |
+| Prepositions | covered | iii-indecl.fr/prepositions |
+| Negation, adverbs, conjunctions | covered | iii-indecl.fr/invariable |
+| Composition; etymology | covered | iv.fr/composition; iv.fr/etymology |
+| Construction (agreement, government, voice, mood, clauses, order) | covered | v.fr/* (purpose, result, and time added 21 Oct) |
+| Errors | covered | vi.fr/errors; vi.fr/usage |
+| Figures and tropes | covered | vii.fr/figures; vii.fr/tropes |
+| Marking | covered (nine items) | v.fr/order (cited-ex) |
+| Models | covered | x.fr |
+| Overview | covered | prelim.fr/overview |
+
+### German
+
+| Topic | State | Where |
+|---|---|---|
+| Letters, umlaut, ß, capitals, the comma rules | covered | ii.de/orthography |
+| Noun plural classes | covered | iii-decl.de/plurals |
+| Pronouns | covered | iii-decl.de/pronouns |
+| Ablaut series; modal verbs; Konjunktiv I | covered | iii-decl.de/strong; modals; konjunktiv |
+| Prepositions by case, two-way prepositions | covered | iii-indecl.de/prepositions |
+| Composition; etymology | covered | iv.de/composition; iv.de/etymology |
+| Word order, clauses, voice, mood | covered | v.de/* (result and time added 21 Oct) |
+| Errors | covered | vi.de/errors; vi.de/usage |
+| Figures and tropes | covered | vii.de/figures; vii.de/tropes |
+| Marking | covered (nine items) | v.de/order (cited-ex) |
+| Models | covered | x.de |
+| Overview | covered | prelim.de/overview |
+
+Left as before: English punctuation (general deck only) and the English spelling deck without an exercise; the German double accusative (*lehren*), mentioned in the old app's notes, is not taught on a German card.
