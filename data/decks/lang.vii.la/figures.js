@@ -138,7 +138,7 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "schemes-authors",
    "title": "Four schemes in the authors",
-   "body": "<p>The schemes can be seen in Cicero, Seneca, and the handbooks:</p>\n<p><strong>Anaphora</strong>: Cicero opens his attack on Catiline, <i>nihilne tē nocturnum praesidium Palātī, nihil urbis vigiliae, nihil timor populī …</i> (“have neither the night watch on the Palatine, nor the patrols of the city, nor the fear of the people … moved you?”; <i>In Catilīnam</i> I.1)<br>\n<strong>Chiasmus</strong>: the <i>Rhetorica ad Herennium</i> gives “you must eat to live, not live to eat” (<i>esse oportet ut vīvās, nōn vīvere ut edās</i>; IV.39)<br>\n<strong>Antithesis</strong>: Seneca complains that “we learn not for life but for school” (<i>nōn vītae sed scholae discimus</i>; <i>Epistulae</i> 106.12)<br>\n<strong>Asyndeton</strong>: Cicero says of Catiline’s flight, <i>abiit, excessit, ēvāsit, ērūpit</i> (“he has gone, he has left, he has escaped, he has broken out”; <i>In Catilīnam</i> II.1)</p>",
+   "body": "<p>The schemes can be seen in Cicero, Seneca, and the handbooks:</p>\n<p><strong>Anaphora</strong>: Cicero opens his attack on Catiline, <i>nihilne tē nocturnum praesidium Palātī, nihil urbis vigiliae, nihil timor populī …</i> (“have neither the night watch on the Palatine, nor the patrols of the city, nor the fear of the people … moved you?”; <i>In Catilīnam</i> I.1)<br>\n<strong>Chiasmus</strong>: the <i>Rhetorica ad Herennium</i> gives “you must eat to live, not live to eat” (<i>esse oportet, ut vīvās, nōn vīvere, ut edis</i>; IV.39)<br>\n<strong>Antithesis</strong>: Seneca complains that “we learn not for life but for school” (<i>nōn vītae sed scholae discimus</i>; <i>Epistulae</i> 106.12)<br>\n<strong>Asyndeton</strong>: Cicero says of Catiline’s flight, <i>abiit, excessit, ēvāsit, ērūpit</i> (“he has gone, he has left, he has escaped, he has broken out”; <i>In Catilīnam</i> II.1)</p>",
    "qp": {
     "id": "q-la-fig-4",
     "variants": [
@@ -165,7 +165,7 @@ ARS.decks["lang.vii.la/figures"] = {
       "explain": "Four verbs, no <i>et</i>: asyndeton."
      },
      {
-      "prompt": "In <i>esse ut vīvās, nōn vīvere ut edās</i>, how are the verbs ordered?",
+      "prompt": "In <i>esse ut vīvās, nōn vīvere, ut edis</i>, how are the verbs ordered?",
       "options": [
        "Reversed in the second member",
        "The same in both members",
