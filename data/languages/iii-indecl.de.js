@@ -7,34 +7,35 @@ ARS.languages["lang.iii-indecl.de"] = {
  "section": "iii",
  "more": false,
  "items": [
-{
-   "id": "lang.iii-indecl.de/particles",
-   "kind": "study",
-   "built": true,
-   "title": "German Particles and Prepositions",
-   "desc": "3 cards."
-  },
-{
+  {
    "id": "lang.iii-indecl.de/prepositions",
    "kind": "study",
    "built": true,
    "title": "German Prepositions",
-   "desc": "The stored table of prepositions and the case each requires."
+   "desc": "The cases of the prepositions, the two-way prepositions, and the contractions."
   },
-{
-   "id": "lang.iii-indecl.de/parts-ex",
-   "kind": "exercise",
-   "built": true,
-   "title": "Parts of Speech",
-   "desc": "20 questions."
-  },
-{
+  {
    "id": "lang.iii-indecl.de/govern-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Government",
-   "desc": "20 questions."
+   "title": "German Prepositions",
+   "desc": "24 questions.",
+   "exFor": "lang.iii-indecl.de/prepositions"
+  },
+  {
+   "id": "lang.iii-indecl.de/particles",
+   "kind": "study",
+   "built": true,
+   "title": "German Conjunctions, Prefixes, and Particles",
+   "desc": "Conjunctions and the place of the verb, separable prefixes, and modal particles."
+  },
+  {
+   "id": "lang.iii-indecl.de/parts-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "German Conjunctions, Prefixes, and Particles",
+   "desc": "24 questions.",
+   "exFor": "lang.iii-indecl.de/particles"
   }
-
  ]
 };

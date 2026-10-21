@@ -7,7 +7,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
  "section": "III",
  "title": "French Articles and Contractions",
  "instr": "Choose the answer.",
- "openedFrom": "lang.iii-indecl.fr/compared",
+ "openedFrom": "",
  "items": [
   {
    "id": "lang.iii-indecl.fr/compared-ex:n0",
@@ -15,63 +15,63 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Je mange du pain</em>, <em>du</em> is…",
-   "explain": "It marks an unmeasured amount. Its form comes from <em>de</em> and <em>le</em>, but here it is an article, not “of the.”",
+   "prompt": "Choose the form: <i>Il boit ___ lait.</i> (“He drinks some milk”).",
+   "explain": "An unmeasured amount of a masculine noun: the partitive <i>du</i>.",
    "options": [
-    "The partitive article: some bread",
-    "The genitive case: of the bread",
-    "A preposition alone",
-    "The definite article: the bread"
+    "<i>de la</i>",
+    "<i>des</i>",
+    "<i>du</i>",
+    "<i>le</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:m1-0",
+   "set": "A",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Elle mange ___ soupe.</i> (“She is eating some soup”).",
+   "explain": "<i>Soupe</i> is feminine: the partitive <i>de la</i>.",
+   "options": [
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>la</i>",
+    "<i>de la</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:m1-1",
+   "set": "A",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Je voudrais ___ huile.</i> (“I would like some oil”).",
+   "explain": "Before a vowel the partitive is <i>de l’</i>.",
+   "options": [
+    "<i>de l’</i>",
+    "<i>du</i>",
+    "<i>de la</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
   {
-   "id": "lang.iii-indecl.fr/compared-ex:m1-0",
-   "deck": "lang.iii-indecl.fr/compared-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "<em>au</em> stands for…",
-   "explain": "<em>À</em> and <em>le</em> contract; <em>à les</em> becomes <em>aux</em>.",
-   "options": [
-    "<em>à le</em>",
-    "<em>à la</em>",
-    "<em>de le</em>",
-    "<em>à les</em>"
-   ],
-   "answer": 0,
-   "set": "A"
-  },
-  {
-   "id": "lang.iii-indecl.fr/compared-ex:m1-1",
-   "deck": "lang.iii-indecl.fr/compared-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "In <em>Il boit de l’eau</em>, <em>de l’</em> is…",
-   "explain": "Some water, an unmeasured amount.",
-   "options": [
-    "The partitive article",
-    "The definite article",
-    "A genitive",
-    "A preposition of origin"
-   ],
-   "answer": 0,
-   "set": "B"
-  },
-  {
    "id": "lang.iii-indecl.fr/compared-ex:m1-2",
+   "set": "A",
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>J’en veux</em>, <em>en</em> stands for…",
-   "explain": "<em>En</em> replaces <em>de</em> with its noun; <em>y</em> replaces <em>à</em> with its noun.",
+   "prompt": "Choose the form: <i>Nous cueillons ___ fraises.</i> (“We are picking some strawberries”).",
+   "explain": "The plural partitive is <i>des</i>.",
    "options": [
-    "A phrase with <em>de</em>: “some of it”",
-    "A phrase with <em>à</em>: “to it”",
-    "The subject",
-    "A preposition: “in”"
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>de la</i>",
+    "<i>les</i>"
    ],
-   "answer": 0,
-   "set": "C"
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp3",
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is the partitive before a feminine noun?",
-   "explain": "The feminine partitive is <em>de la</em>. <em>Du</em> is the masculine partitive, as in <em>du pain</em>. <em>Au</em> is <em>à</em> joined to <em>le</em>, and <em>à la</em> is not the partitive.",
+   "prompt": "Choose the form: <i>Je vais ___ marché.</i> (“I am going to the market”).",
+   "explain": "<i>À</i> with <i>le</i> becomes <i>au</i>.",
    "options": [
-    "<em>du</em>, as in <em>du pain</em>",
-    "<em>de la</em>",
-    "<em>au</em>, from <em>à</em> and <em>le</em>",
-    "<em>à la</em>, which is not a partitive"
+    "<i>à le</i>",
+    "<i>au</i>",
+    "<i>du</i>",
+    "<i>aux</i>"
    ],
    "answer": 1
   },
@@ -95,15 +95,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>De le</em> becomes <em>du</em>. What is written for <em>de la</em>?",
-   "explain": "<em>De la</em> does not contract. <em>De le</em> becomes <em>du</em>, and <em>de les</em> becomes <em>des</em>. <em>De la</em> stays two words.",
+   "prompt": "Choose the form: <i>Il parle ___ enfants.</i> (“He is speaking to the children”).",
+   "explain": "<i>À</i> with <i>les</i> becomes <i>aux</i>.",
    "options": [
-    "<em>du</em>, the same contraction",
-    "<em>des</em>, from <em>de</em> and <em>les</em>",
-    "<em>de la</em>, still two words",
-    "<em>au</em>, from <em>à</em> and <em>le</em>"
+    "<i>aux</i>",
+    "<i>à les</i>",
+    "<i>des</i>",
+    "<i>au</i>"
    ],
-   "answer": 2
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp5",
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Un pain</em> counts one loaf. What marks bread as an unmeasured amount?",
-   "explain": "The partitive marks an unmeasured amount, as <em>du pain</em> does. <em>Un</em> counts one loaf. The partitive is not a case ending on the noun.",
+   "prompt": "Choose the form: <i>C’est le livre ___ professeur.</i> (“It is the teacher’s book”).",
+   "explain": "<i>De</i> with <i>le</i> becomes <i>du</i>.",
    "options": [
-    "The indefinite article <em>un</em>",
-    "The definite article <em>le</em>",
-    "A genitive ending on <em>pain</em>",
-    "The partitive"
+    "<i>de le</i>",
+    "<i>au</i>",
+    "<i>de la</i>",
+    "<i>du</i>"
    ],
    "answer": 3
   },
@@ -127,31 +127,31 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin says <em>panem</em>, with no article. What does French add for an unmeasured amount of bread?",
-   "explain": "French puts a partitive article with the noun, as in <em>du pain</em>. Latin can say <em>panem</em> alone. The partitive is not a case ending.",
+   "prompt": "Choose the form: <i>Elle revient ___ école.</i> (“She is coming back from school”).",
+   "explain": "<i>De l’</i> does not contract.",
    "options": [
-    "A case ending on the noun",
-    "A partitive article",
-    "The contraction <em>au</em>",
-    "No word at all"
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>de l’</i>",
+    "<i>de la</i>"
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp7",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is written for <em>à la</em>?",
-   "explain": "<em>À la</em> does not contract. <em>À le</em> becomes <em>au</em>, and <em>à les</em> becomes <em>aux</em>.",
+   "prompt": "Choose the form: <i>Je n’ai pas ___ voiture.</i> (“I don’t have a car”).",
+   "explain": "After a negative the indefinite article becomes <i>de</i>.",
    "options": [
-    "<em>au</em>",
-    "<em>aux</em>",
-    "<em>à la</em>",
-    "<em>du</em>"
+    "<i>une</i>",
+    "<i>de</i>",
+    "<i>la</i>",
+    "<i>de la</i>"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp8",
@@ -159,15 +159,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is the partitive with a plural noun?",
-   "explain": "The plural partitive is <em>des</em>. <em>Du</em> and <em>de la</em> are the singular partitives. <em>Au</em> is a contraction with <em>à</em>, not the partitive.",
+   "prompt": "Choose the form: <i>Il ne mange pas ___ viande.</i> (“He doesn’t eat meat”).",
+   "explain": "After a negative the partitive becomes <i>de</i>.",
    "options": [
-    "<em>du</em>, before a masculine singular",
-    "<em>de la</em>, before a feminine singular",
-    "<em>au</em>, from <em>à</em> and <em>le</em>",
-    "<em>des</em>"
+    "<i>de</i>",
+    "<i>de la</i>",
+    "<i>la</i>",
+    "<i>du</i>"
    ],
-   "answer": 3
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp9",
@@ -175,15 +175,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "As a contraction, what does <em>des</em> stand for?",
-   "explain": "<em>Des</em> is the contraction of <em>de</em> and <em>les</em>. <em>À le</em> becomes <em>au</em>, and <em>de la</em> stays two words.",
+   "prompt": "Choose the form: <i>un verre ___ eau</i> (“a glass of water”).",
+   "explain": "After a word of quantity, plain <i>de</i>, <i>d’</i> before a vowel.",
    "options": [
-    "<em>à la</em>, which does not contract",
-    "<em>de les</em>",
-    "<em>à le</em>, which becomes <em>au</em>",
-    "<em>de la</em>, which stays two words"
+    "<i>de l’</i>",
+    "<i>du</i>",
+    "<i>des</i>",
+    "<i>d’</i>"
    ],
-   "answer": 1
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp10",
@@ -191,15 +191,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "When <em>du</em> is the contraction of <em>de</em> and <em>le</em>, what does it mean?",
-   "explain": "As a contraction, <em>du</em> means “of the,” <em>de</em> joined to <em>le</em>. The same shape in <em>du pain</em> is the partitive, “some bread,” and that is a different use.",
+   "prompt": "Choose the form: <i>Elle a beaucoup ___ patience.</i> (“She has a lot of patience”).",
+   "explain": "After <i>beaucoup</i>, plain <i>de</i>.",
    "options": [
-    "Some, an unmeasured amount",
-    "To the",
-    "Of the",
-    "The plural partitive"
+    "<i>de la</i>",
+    "<i>de</i>",
+    "<i>la</i>",
+    "<i>du</i>"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp11",
@@ -207,15 +207,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why does <em>de l’eau</em> use <em>de l’</em>, and not <em>du</em>?",
-   "explain": "<em>Eau</em> begins with a vowel, so <em>la</em> elides and the partitive is <em>de l’</em>. <em>Du</em> is <em>de</em> joined to <em>le</em>, and it is the partitive before a masculine noun that begins with a consonant, as in <em>du pain</em>.",
+   "prompt": "Choose the form: <i>Je n’aime pas ___ poisson.</i> (“I don’t like fish”).",
+   "explain": "After a verb of liking, the definite article stays even after a negative.",
    "options": [
-    "The article elides before the vowel.",
-    "<em>Eau</em> is plural.",
-    "The partitive is left out before a vowel.",
-    "<em>Du</em> is never a partitive."
+    "<i>de</i>",
+    "<i>du</i>",
+    "<i>le</i>",
+    "<i>un</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp12",
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Does <em>pain</em> change its form when the partitive is used?",
-   "explain": "The partitive is an article, not a case ending. <em>Pain</em> keeps its form. Latin can say <em>panem</em> with no article, and French does not add an ending to the noun.",
+   "prompt": "Choose the form: <i>Ce n’est pas ___ sucre, c’est du sel.</i> (“That is not sugar, it is salt”).",
+   "explain": "After <i>être</i> the partitive stays: <i>ce n’est pas du sucre</i>.",
    "options": [
-    "Yes. A partitive case ending is added.",
-    "Yes. The noun becomes the Latin <em>panem</em>.",
-    "Yes. An unmeasured amount takes a plural ending.",
-    "No. The noun stays <em>pain</em>."
+    "<i>de</i>",
+    "<i>le</i>",
+    "<i>des</i>",
+    "<i>du</i>"
    ],
    "answer": 3
   },
@@ -239,31 +239,31 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does the partitive <em>des</em> mark?",
-   "explain": "The partitive <em>des</em> marks an unmeasured plural amount. It is not the definite <em>les</em>, and it is not <em>au</em> or <em>aux</em>.",
+   "prompt": "In <i>la fin du film</i>, what is <i>du</i>?",
+   "explain": "“The end of the film”: <i>du</i> is the contraction of <i>de le</i>.",
    "options": [
-    "One thing, counted",
-    "An unmeasured plural",
-    "<em>À</em> joined to <em>les</em>",
-    "The definite plural <em>les</em>"
+    "<i>de</i> with <i>le</i>, “of the”",
+    "the partitive, “some”",
+    "<i>à</i> with <i>le</i>",
+    "the indefinite article, “a”"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp14",
-   "set": "C",
+   "set": "B",
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is a contraction with <em>à</em>, and not a partitive?",
-   "explain": "<em>Au</em> is <em>à</em> joined to <em>le</em>. It is not a partitive. <em>Du</em>, <em>de la</em>, and <em>des</em> are the partitive forms, and <em>du</em> and <em>des</em> are also contractions with <em>de</em>.",
+   "prompt": "In <i>il achète du vin</i>, what is <i>du</i>?",
+   "explain": "“He buys wine”: an unmeasured amount, so <i>du</i> is partitive.",
    "options": [
-    "<em>du</em>, which is also the partitive in <em>du pain</em>",
-    "<em>des</em>, which is also the plural partitive",
-    "<em>au</em>",
-    "<em>de la</em>, the feminine partitive"
+    "<i>de</i> with <i>le</i>, “of the”",
+    "the partitive, “some”",
+    "<i>à</i> with <i>le</i>",
+    "the definite article"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp15",
@@ -271,15 +271,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>De</em> and <em>le</em> are written as which one word?",
-   "explain": "<em>De</em> and <em>le</em> contract to <em>du</em>. <em>À</em> and <em>le</em> contract to <em>au</em>. <em>De la</em> does not contract.",
+   "prompt": "Choose the form: <i>Des pommes? J’___ veux trois.</i> (“Apples? I want three of them”).",
+   "explain": "<i>En</i> stands for <i>de</i> with what follows and keeps the number.",
    "options": [
-    "<em>du</em>",
-    "<em>au</em>, which is <em>à</em> and <em>le</em>",
-    "<em>des</em>, which is <em>de</em> and <em>les</em>",
-    "<em>de la</em>, which stays two words"
+    "<i>y</i>",
+    "<i>les</i>",
+    "<i>en</i>",
+    "<i>leur</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp16",
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>À</em> and <em>les</em> are written as which one word?",
-   "explain": "<em>À</em> and <em>les</em> contract to <em>aux</em>. <em>Des</em> is <em>de</em> and <em>les</em>, and <em>au</em> is <em>à</em> and <em>le</em>.",
+   "prompt": "Choose the form: <i>Le musée? Nous ___ allons ce soir.</i> (“The museum? We are going there tonight”).",
+   "explain": "<i>Y</i> stands for <i>à</i> with a place.",
    "options": [
-    "<em>des</em>, which is <em>de</em> and <em>les</em>",
-    "<em>du</em>, which is <em>de</em> and <em>le</em>",
-    "<em>au</em>, which is <em>à</em> and <em>le</em>",
-    "<em>aux</em>"
+    "<i>en</i>",
+    "<i>le</i>",
+    "<i>lui</i>",
+    "<i>y</i>"
    ],
    "answer": 3
   },
@@ -303,15 +303,15 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Pain</em> is masculine, and it begins with a consonant. Which partitive is used?",
-   "explain": "The masculine partitive, before a consonant, is <em>du</em>, as in <em>du pain</em>. <em>De la</em> is the feminine partitive. <em>Au</em> is not a partitive.",
+   "prompt": "Choose the form: <i>Ton projet? J’___ pense souvent.</i> (“Your plan? I often think about it”).",
+   "explain": "<i>Penser à</i> with a thing: <i>j’y pense</i>.",
    "options": [
-    "<em>de la</em>",
-    "<em>du</em>",
-    "<em>à la</em>",
-    "<em>au</em>"
+    "<i>y</i>",
+    "<i>en</i>",
+    "<i>le</i>",
+    "<i>lui</i>"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.fr/compared-ex:cmp18",
@@ -319,15 +319,79 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which list is the partitive?",
-   "explain": "The partitive articles are <em>du</em>, <em>de la</em>, and <em>des</em>. <em>Le</em>, <em>la</em>, and <em>les</em> are definite. <em>Un</em> and <em>une</em> are indefinite. <em>Au</em> and <em>aux</em> contract <em>à</em> with the article.",
+   "prompt": "Choose the form: <i>Ta sœur? Je ___ parle souvent.</i> (“Your sister? I often speak to her”).",
+   "explain": "With a person, French uses <i>lui</i>, not <i>y</i>.",
    "options": [
-    "<em>le</em>, <em>la</em>, and <em>les</em>, the definite articles",
-    "<em>un</em> and <em>une</em>, one of something",
-    "<em>du</em>, <em>de la</em>, and <em>des</em>",
-    "<em>au</em> and <em>aux</em>, from <em>à</em>"
+    "<i>y</i>",
+    "<i>lui</i>",
+    "<i>en</i>",
+    "<i>la</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:cmp19",
+   "set": "C",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Ce livre? Il ___ parle sans cesse.</i> (“This book? He talks about it constantly”).",
+   "explain": "<i>Parler de</i> with a thing: <i>il en parle</i>.",
+   "options": [
+    "<i>y</i>",
+    "<i>le</i>",
+    "<i>en</i>",
+    "<i>lui</i>"
    ],
    "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:cmp20",
+   "set": "C",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Ce sont ___ vieux amis.</i> (“They are old friends”).",
+   "explain": "In careful writing, <i>des</i> becomes <i>de</i> before a plural adjective that precedes its noun.",
+   "options": [
+    "<i>des</i>",
+    "<i>les</i>",
+    "<i>de</i>",
+    "<i>du</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:cmp21",
+   "set": "C",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Il a peur ___ chiens.</i> (“He is afraid of dogs”).",
+   "explain": "<i>Avoir peur de</i>, with <i>de</i> and <i>les</i> contracted.",
+   "options": [
+    "<i>de les</i>",
+    "<i>des</i>",
+    "<i>aux</i>",
+    "<i>du</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-indecl.fr/compared-ex:cmp22",
+   "set": "C",
+   "deck": "lang.iii-indecl.fr/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Elle n’a jamais ___ temps.</i> (“She never has time”).",
+   "explain": "After the negative <i>ne … jamais</i>, plain <i>de</i>.",
+   "options": [
+    "<i>de</i>",
+    "<i>du</i>",
+    "<i>le</i>",
+    "<i>des</i>"
+   ],
+   "answer": 0
   }
  ]
 };

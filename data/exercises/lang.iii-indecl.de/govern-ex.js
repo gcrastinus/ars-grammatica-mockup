@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Government",
+ "title": "German Prepositions",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,15 +15,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does für take? Das Buch ist für den <b>König</b>.",
-   "explain": "<em>Für</em> takes the accusative. Duden calls <em>für</em> a preposition with the accusative. The article is <em>den</em>.",
+   "prompt": "Choose the form: <i>Das Geschenk ist für ___ Großvater.</i> (“The present is for the grandfather”).",
+   "explain": "<i>Für</i> takes the accusative.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative"
+    "<i>dem</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>des</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov2",
@@ -31,15 +31,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does ohne take? Der König kommt ohne den <b>Freund</b>.",
-   "explain": "<em>Ohne</em> takes the accusative. The Duden example is <em>ohne</em> jeden Zweifel. The article here is <em>den</em>.",
+   "prompt": "Choose the form: <i>Sie geht ohne ___ Mantel.</i> (“She goes without her coat”).",
+   "explain": "<i>Ohne</i> takes the accusative; <i>Mantel</i> is masculine.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative"
+    "<i>ihrem</i>",
+    "<i>ihres</i>",
+    "<i>ihr</i>",
+    "<i>ihren</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov3",
@@ -47,138 +47,158 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does gegen take? Der König spricht gegen den <b>Freund</b>.",
-   "explain": "<em>Gegen</em> takes the accusative. Duden says the preposition <em>gegen</em> governs the accusative.",
+   "prompt": "Choose the form: <i>Wir laufen durch ___ Wald.</i> (“We run through the forest”).",
+   "explain": "<i>Durch</i> takes the accusative.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative"
+    "<i>den</i>",
+    "<i>dem</i>",
+    "<i>des</i>",
+    "<i>der</i>"
    ],
    "answer": 0
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov4",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does mit take? Die Frau kommt mit dem <b>König</b>.",
-   "explain": "<em>Mit</em> takes the dative. Duden names <em>mit</em> among the prepositions that require the dative. The article is <em>dem</em>.",
+   "prompt": "Choose the form: <i>Er kommt aus ___ Küche.</i> (“He comes out of the kitchen”).",
+   "explain": "<i>Aus</i> takes the dative; feminine <i>der</i>.",
    "options": [
-    "Dative",
-    "Nominative",
-    "Accusative",
-    "Genitive"
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>des</i>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov5",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does statt take? Der König kommt statt des <b>Freundes</b>.",
-   "explain": "<em>Statt</em> takes the genitive in standard written German. Duden names <em>statt</em> among the genitive prepositions. The form is <em>des Freundes</em>.",
+   "prompt": "Choose the form: <i>Ich fahre mit ___ Bus.</i> (“I am going by bus”).",
+   "explain": "<i>Mit</i> takes the dative.",
    "options": [
-    "Genitive",
-    "Nominative",
-    "Accusative",
-    "Dative"
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>des</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov6",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does wegen take? Der König kommt wegen des <b>Mannes</b>.",
-   "explain": "<em>Wegen</em> takes the genitive in standard written German. The noun here shows the genitive ending. The bare singular that stays uninflected, as in <em>wegen</em> Umbau, is a different pattern, and it is not this sentence.",
+   "prompt": "Choose the form: <i>Sie wohnt bei ___ Tante.</i> (“She lives with her aunt”).",
+   "explain": "<i>Bei</i> takes the dative; feminine <i>ihrer</i>.",
    "options": [
-    "Genitive",
-    "Nominative",
-    "Accusative",
-    "Dative"
+    "<i>ihre</i>",
+    "<i>ihren</i>",
+    "<i>ihres</i>",
+    "<i>ihrer</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov7",
-   "set": "C",
+   "set": "A",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does in take for the place to which? Der König kommt in die <b>Stadt</b>.",
-   "explain": "In takes the accusative for the place to which. The Duden question is wohin, and the printed example is in <em>die Stadt</em>. The article <em>die</em> is that accusative.",
+   "prompt": "Choose the form: <i>Nach ___ Konzert gingen wir essen.</i> (“After the concert we went to eat”).",
+   "explain": "<i>Nach</i> takes the dative.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative"
+    "<i>dem</i>",
+    "<i>das</i>",
+    "<i>den</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov8",
-   "set": "C",
-   "deck": "lang.iii-indecl.de/govern-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "What case does in take for the place where? Der König ist in der <b>Stadt</b>.",
-   "explain": "In takes the dative for the place where. The Duden question is <em>wo</em>, and the printed example is <em>im Haus</em>. <em>Der Stadt</em> is the same dative, written without the contraction.",
-   "options": [
-    "Dative",
-    "Nominative",
-    "Accusative",
-    "Genitive"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-indecl.de/govern-ex:dgov9",
    "set": "A",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does nach take? Der König kommt nach dem <b>Mann</b>. The king comes after the man.",
-   "explain": "<em>Nach</em> takes the dative. The article in <em>nach dem Mann</em> is <em>dem</em>.",
-   "options": ["Nominative", "Dative", "Accusative", "Genitive"],
+   "prompt": "Choose the form: <i>Während ___ Reise las sie viel.</i> (“During the journey she read a lot”).",
+   "explain": "<i>Während</i> takes the genitive in written German; feminine <i>der</i>.",
+   "options": [
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>dem</i>"
+   ],
    "answer": 1
   },
   {
-   "id": "lang.iii-indecl.de/govern-ex:dgov10",
-   "set": "A",
+   "id": "lang.iii-indecl.de/govern-ex:dgov9",
+   "set": "B",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does zu take? Der König kommt zu dem <b>Freund</b>. The king comes to the friend.",
-   "explain": "<em>Zu</em> takes the dative. The article in <em>zu dem Freund</em> is <em>dem</em>.",
-   "options": ["Accusative", "Genitive", "Dative", "Nominative"],
+   "prompt": "Choose the form: <i>Das Buch liegt auf ___ Tisch.</i> (“The book lies on the table”).",
+   "explain": "Position (<i>wo?</i>): the dative.",
+   "options": [
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>das</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.de/govern-ex:dgov10",
+   "set": "B",
+   "deck": "lang.iii-indecl.de/govern-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Ich lege das Buch auf ___ Tisch.</i> (“I lay the book on the table”).",
+   "explain": "Movement (<i>wohin?</i>): the accusative.",
+   "options": [
+    "<i>dem</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>das</i>"
+   ],
    "answer": 2
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov11",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does durch take? Der König kommt durch die <b>Stadt</b>. The king comes through the city.",
-   "explain": "<em>Durch</em> takes the accusative. The article in <em>durch die Stadt</em> is <em>die</em>.",
-   "options": ["Dative", "Genitive", "Nominative", "Accusative"],
-   "answer": 3
+   "prompt": "Choose the form: <i>Die Katze sitzt unter ___ Bett.</i> (“The cat is sitting under the bed”).",
+   "explain": "<i>Sitzen</i> names a position: dative.",
+   "options": [
+    "<i>das</i>",
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>des</i>"
+   ],
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov12",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does aus take? Der König kommt aus der <b>Stadt</b>. The king comes out of the city.",
-   "explain": "<em>Aus</em> takes the dative. The article in <em>aus der Stadt</em> is <em>der</em>, the dative feminine.",
-   "options": ["Dative", "Accusative", "Nominative", "Genitive"],
+   "prompt": "Choose the form: <i>Die Katze läuft unter ___ Bett.</i> (“The cat runs under the bed”).",
+   "explain": "Movement to a place under the bed: accusative.",
+   "options": [
+    "<i>das</i>",
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>des</i>"
+   ],
    "answer": 0
   },
   {
@@ -187,10 +207,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does nach take? Der König kommt nach der <b>Frau</b>. The king comes after the woman.",
-   "explain": "<em>Nach</em> takes the dative. In <em>nach der Frau</em> the article <em>der</em> is dative feminine.",
-   "options": ["Accusative", "Dative", "Nominative", "Genitive"],
-   "answer": 1
+   "prompt": "Choose the form: <i>Er stellt die Lampe neben ___ Sofa.</i> (“He puts the lamp next to the sofa”).",
+   "explain": "<i>Stellen</i> names a movement: accusative.",
+   "options": [
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>das</i>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov14",
@@ -198,9 +223,14 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does zu take? Der Mann kommt zu der <b>Frau</b>. The man comes to the woman.",
-   "explain": "<em>Zu</em> takes the dative. In <em>zu der Frau</em> the article <em>der</em> is dative feminine.",
-   "options": ["Nominative", "Genitive", "Dative", "Accusative"],
+   "prompt": "Choose the form: <i>Die Lampe steht neben ___ Sofa.</i> (“The lamp stands next to the sofa”).",
+   "explain": "<i>Stehen</i> names a position: dative.",
+   "options": [
+    "<i>das</i>",
+    "<i>den</i>",
+    "<i>dem</i>",
+    "<i>der</i>"
+   ],
    "answer": 2
   },
   {
@@ -209,10 +239,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does bei take? Der König ist bei dem <b>Freund</b>. The king is with the friend.",
-   "explain": "<em>Bei</em> takes the dative. The article in <em>bei dem Freund</em> is <em>dem</em>.",
-   "options": ["Genitive", "Accusative", "Nominative", "Dative"],
-   "answer": 3
+   "prompt": "Choose the form: <i>Zwischen ___ Häusern ist ein Garten.</i> (“Between the houses is a garden”).",
+   "explain": "Position: the dative plural <i>den</i>, with <i>-n</i> on the noun.",
+   "options": [
+    "<i>die</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>"
+   ],
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov16",
@@ -220,9 +255,14 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does von take? Das Buch ist von dem <b>König</b>. The book is from the king.",
-   "explain": "<em>Von</em> takes the dative. The article in <em>von dem König</em> is <em>dem</em>.",
-   "options": ["Dative", "Nominative", "Accusative", "Genitive"],
+   "prompt": "Choose the form: <i>Er wartet vor ___ Tür.</i> (“He is waiting in front of the door”).",
+   "explain": "Position: the feminine dative <i>der</i>.",
+   "options": [
+    "<i>der</i>",
+    "<i>die</i>",
+    "<i>den</i>",
+    "<i>dem</i>"
+   ],
    "answer": 0
   },
   {
@@ -231,10 +271,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the accusative after <em>durch</em>. Die Frau kommt durch die Stadt. The woman comes through the city.",
-   "explain": "<em>Durch</em> takes the accusative, so the phrase is <em>durch die Stadt</em>.",
-   "options": ["<em>durch der Stadt</em>", "<em>durch die Stadt</em>", "<em>durch dem Stadt</em>", "<em>durch des Stadt</em>"],
-   "answer": 1
+   "prompt": "Choose the form: <i>Wir gehen heute ___ Theater.</i> (“We are going to the theater today”).",
+   "explain": "Movement into: <i>in das</i>, contracted to <i>ins</i>.",
+   "options": [
+    "<i>im</i>",
+    "<i>in dem</i>",
+    "<i>zur</i>",
+    "<i>ins</i>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov18",
@@ -242,9 +287,14 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does bei take? Der Mann ist bei der <b>Frau</b>. The man is with the woman.",
-   "explain": "<em>Bei</em> takes the dative. In <em>bei der Frau</em> the article <em>der</em> is dative feminine.",
-   "options": ["Nominative", "Accusative", "Dative", "Genitive"],
+   "prompt": "Choose the form: <i>Er wohnt ___ dritten Stock.</i> (“He lives on the third floor”).",
+   "explain": "Position: <i>in dem</i>, contracted to <i>im</i>.",
+   "options": [
+    "<i>ins</i>",
+    "<i>in den</i>",
+    "<i>im</i>",
+    "<i>ans</i>"
+   ],
    "answer": 2
   },
   {
@@ -253,10 +303,15 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does von take? Das Buch ist von der <b>Frau</b>. The book is from the woman.",
-   "explain": "<em>Von</em> takes the dative. In <em>von der Frau</em> the article <em>der</em> is dative feminine.",
-   "options": ["Accusative", "Genitive", "Nominative", "Dative"],
-   "answer": 3
+   "prompt": "Choose the form: <i>Ich gehe ___ Bäckerei.</i> (“I am going to the bakery”).",
+   "explain": "<i>Zu</i> takes the dative; feminine <i>der</i> contracts to <i>zur</i>.",
+   "options": [
+    "<i>zum</i>",
+    "<i>zur</i>",
+    "<i>zu die</i>",
+    "<i>zu den</i>"
+   ],
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.de/govern-ex:dgov20",
@@ -264,10 +319,79 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the dative after <em>aus</em>. Der König kommt aus der Stadt. The king comes out of the city.",
-   "explain": "<em>Aus</em> takes the dative, so the phrase is <em>aus der Stadt</em>.",
-   "options": ["<em>aus der Stadt</em>", "<em>aus die Stadt</em>", "<em>aus den Stadt</em>", "<em>aus dem Stadt</em>"],
+   "prompt": "Choose the form: <i>Sie kommt gerade ___ Arzt.</i> (“She is just coming from the doctor’s”).",
+   "explain": "<i>Von</i> takes the dative; <i>von dem</i> becomes <i>vom</i>.",
+   "options": [
+    "<i>von den</i>",
+    "<i>vom</i>",
+    "<i>von die</i>",
+    "<i>zum</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-indecl.de/govern-ex:dgov21",
+   "set": "C",
+   "deck": "lang.iii-indecl.de/govern-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Trotz ___ Regens spielten sie weiter.</i> (“In spite of the rain they played on”).",
+   "explain": "<i>Trotz</i> takes the genitive in written German.",
+   "options": [
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>des</i>",
+    "<i>der</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.de/govern-ex:dgov22",
+   "set": "C",
+   "deck": "lang.iii-indecl.de/govern-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Das Flugzeug fliegt über ___ Stadt.</i> (“The plane flies over the city”).",
+   "explain": "Movement across, toward and over the city: accusative.",
+   "options": [
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>dem</i>",
+    "<i>die</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-indecl.de/govern-ex:dgov23",
+   "set": "C",
+   "deck": "lang.iii-indecl.de/govern-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Die Wolken hängen über ___ Stadt.</i> (“The clouds hang over the city”).",
+   "explain": "Position: dative.",
+   "options": [
+    "<i>der</i>",
+    "<i>die</i>",
+    "<i>den</i>",
+    "<i>dem</i>"
+   ],
    "answer": 0
+  },
+  {
+   "id": "lang.iii-indecl.de/govern-ex:dgov24",
+   "set": "C",
+   "deck": "lang.iii-indecl.de/govern-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Er setzt sich an ___ Fenster.</i> (“He sits down at the window”).",
+   "explain": "<i>Sich setzen</i> names a movement: accusative <i>an das</i> (or <i>ans</i>).",
+   "options": [
+    "<i>dem</i>",
+    "<i>das</i>",
+    "<i>den</i>",
+    "<i>der</i>"
+   ],
+   "answer": 1
   }
  ]
 };

@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Prepositions and Case",
+ "title": "Latin Prepositions and Their Cases",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,15 +15,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>in</em>, in the … (of place where, takes the ablative). What case does it govern?",
-   "explain": "of place where, takes the ablative",
+   "prompt": "What case does <em>ante</em> (“before”) govern?",
+   "explain": "<em>Ante</em> takes the accusative: <em>ante lūcem</em>, “before dawn.”",
    "options": [
-    "Ablative",
-    "Nominative",
-    "Genitive",
-    "Dative",
     "Accusative",
-    "Vocative"
+    "Ablative",
+    "Genitive",
+    "Dative"
    ],
    "answer": 0
   },
@@ -33,17 +31,15 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>in</em>, into the … (of motion into, takes the accusative). What case does it govern?",
-   "explain": "of motion into, takes the accusative",
+   "prompt": "What case does <em>dē</em> (“concerning, down from”) govern?",
+   "explain": "<em>Dē</em> takes the ablative: <em>dē amīcitiā</em>, “on friendship.”",
    "options": [
     "Accusative",
-    "Nominative",
     "Genitive",
     "Dative",
-    "Ablative",
-    "Vocative"
+    "Ablative"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp2",
@@ -51,169 +47,175 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>ad</em>, toward the … (takes the accusative). What case does it govern?",
-   "explain": "takes the accusative",
+   "prompt": "What case does <em>per</em> (“through”) govern?",
+   "explain": "<em>Per</em> takes the accusative: <em>per agrōs</em>.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative",
     "Ablative",
-    "Vocative"
+    "Genitive",
+    "Accusative",
+    "Dative"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp3",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>ex</em>, out of the … (takes the ablative). What case does it govern?",
-   "explain": "takes the ablative",
+   "prompt": "What case does <em>prō</em> (“on behalf of”) govern?",
+   "explain": "<em>Prō</em> takes the ablative: <em>prō patriā</em>, “for the fatherland.”",
    "options": [
-    "Ablative",
-    "Nominative",
-    "Genitive",
-    "Dative",
     "Accusative",
-    "Vocative"
+    "Ablative",
+    "Genitive",
+    "Dative"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp4",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>per</em>, through the … (takes the accusative). What case does it govern?",
-   "explain": "takes the accusative",
+   "prompt": "Choose the form: <em>ex ___</em> (“out of the water”).",
+   "explain": "<em>Ex</em> takes the ablative.",
    "options": [
-    "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative",
-    "Ablative",
-    "Vocative"
+    "<em>aquā</em>",
+    "<em>aquam</em>",
+    "<em>aquae</em>",
+    "<em>aqua</em>"
    ],
    "answer": 0
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp5",
+   "set": "A",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <em>trāns ___</em> (“across the river”).",
+   "explain": "<em>Trāns</em> takes the accusative; a neuter accusative is the same as the nominative.",
+   "options": [
+    "<em>flūmine</em>",
+    "<em>flūminis</em>",
+    "<em>flūminī</em>",
+    "<em>flūmen</em>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp6",
+   "set": "A",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <em>cum ___</em> (“with friends”).",
+   "explain": "<em>Cum</em> takes the ablative.",
+   "options": [
+    "<em>amīcōs</em>",
+    "<em>amīcōrum</em>",
+    "<em>amīcīs</em>",
+    "<em>amīcī</em>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp7",
+   "set": "A",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <em>inter ___</em> (“among the trees”).",
+   "explain": "<em>Inter</em> takes the accusative.",
+   "options": [
+    "<em>arboribus</em>",
+    "<em>arborēs</em>",
+    "<em>arborum</em>",
+    "<em>arbore</em>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp8",
    "set": "B",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Latin <em>post</em>, behind the … (takes the accusative). What case does it govern?",
-   "explain": "takes the accusative",
+   "prompt": "What case does <em>apud</em> (“at the house of, among”) govern?",
+   "explain": "<em>Apud</em> takes the accusative: <em>apud Graecōs</em>, “among the Greeks.”",
    "options": [
     "Accusative",
-    "Nominative",
-    "Genitive",
-    "Dative",
     "Ablative",
-    "Vocative"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-indecl.la/prepositions-ex:gp6",
-   "set": "C",
-   "deck": "lang.iii-indecl.la/prepositions-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "Latin <em>dē</em>, down from the … (takes the ablative). What case does it govern?",
-   "explain": "takes the ablative",
-   "options": [
-    "Ablative",
-    "Nominative",
     "Genitive",
-    "Dative",
-    "Accusative",
-    "Vocative"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-indecl.la/prepositions-ex:gp7",
-   "set": "C",
-   "deck": "lang.iii-indecl.la/prepositions-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "Latin <em>cum</em>, with the … (of accompaniment, takes the ablative). What case does it govern?",
-   "explain": "of accompaniment, takes the ablative",
-   "options": [
-    "Ablative",
-    "Nominative",
-    "Genitive",
-    "Dative",
-    "Accusative",
-    "Vocative"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-indecl.la/prepositions-ex:gp8",
-   "set": "C",
-   "deck": "lang.iii-indecl.la/prepositions-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "Latin <em>sine</em>, without the … (takes the ablative). What case does it govern?",
-   "explain": "takes the ablative",
-   "options": [
-    "Ablative",
-    "Nominative",
-    "Genitive",
-    "Dative",
-    "Accusative",
-    "Vocative"
+    "Dative"
    ],
    "answer": 0
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp9",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>ante</em> (“before”) govern?",
-   "explain": "<em>Ante</em> governs the accusative. <em>Ante bellum</em> is “before the war.”",
-   "options": ["The nominative of the subject", "Accusative", "Ablative", "Genitive"],
-   "answer": 1
+   "prompt": "What case does <em>prae</em> (“in comparison with”) govern?",
+   "explain": "<em>Prae</em> takes the ablative.",
+   "options": [
+    "Accusative",
+    "Genitive",
+    "Dative",
+    "Ablative"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp10",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>apud</em> (“at the house of,” “among”) govern?",
-   "explain": "<em>Apud</em> governs the accusative. <em>Apud rēgem</em> is “at the king’s house.”",
-   "options": ["The nominative of the subject", "Accusative", "Dative", "Genitive"],
+   "prompt": "Choose the form: <em>in ___ manet</em> (“he stays in the house”).",
+   "explain": "<em>In</em> with rest takes the ablative.",
+   "options": [
+    "<em>vīllam</em>",
+    "<em>vīllā</em>",
+    "<em>vīllae</em>",
+    "<em>vīllās</em>"
+   ],
    "answer": 1
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp11",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>contrā</em> (“against”) govern?",
-   "explain": "<em>Contrā</em> governs the accusative. <em>Contrā hostēs</em> is “against the enemy.”",
-   "options": ["The nominative of the subject", "Accusative", "Ablative", "Dative"],
-   "answer": 1
+   "prompt": "Choose the form: <em>in ___ intrat</em> (“he enters into the house”).",
+   "explain": "<em>In</em> with motion into takes the accusative.",
+   "options": [
+    "<em>vīllā</em>",
+    "<em>vīllae</em>",
+    "<em>vīllam</em>",
+    "<em>vīllīs</em>"
+   ],
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp12",
-   "set": "A",
+   "set": "B",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>inter</em> (“between,” “among”) govern?",
-   "explain": "<em>Inter</em> governs the accusative. <em>Inter amīcōs</em> is “among friends.”",
-   "options": ["The nominative of the subject", "Dative", "Accusative", "Genitive"],
-   "answer": 2
+   "prompt": "Choose the form: <em>sub ___ stābant</em> (“they stood beneath the wall”).",
+   "explain": "<em>Sub</em> with rest takes the ablative.",
+   "options": [
+    "<em>mūrum</em>",
+    "<em>mūrī</em>",
+    "<em>mūrōs</em>",
+    "<em>mūrō</em>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp13",
@@ -221,10 +223,15 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>trāns</em> (“across”) govern?",
-   "explain": "<em>Trāns</em> governs the accusative. <em>Trāns flūmen</em> is “across the river.”",
-   "options": ["The nominative of the subject", "Ablative", "Accusative", "Genitive"],
-   "answer": 2
+   "prompt": "Choose the form: <em>contrā ___</em> (“against the enemy”).",
+   "explain": "<em>Contrā</em> takes the accusative.",
+   "options": [
+    "<em>hostēs</em>",
+    "<em>hostibus</em>",
+    "<em>hostium</em>",
+    "<em>hostī</em>"
+   ],
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp14",
@@ -232,9 +239,14 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>ab</em> (“from,” “away from”) govern?",
-   "explain": "<em>Ab</em>, also written <em>ā</em>, governs the ablative. <em>Ab urbe</em> is “from the city.”",
-   "options": ["Accusative", "Ablative", "Dative", "Genitive"],
+   "prompt": "Which preposition governs the ablative?",
+   "explain": "<em>Sine</em> takes the ablative; <em>ob</em>, <em>circum</em>, and <em>prope</em> take the accusative.",
+   "options": [
+    "<em>ob</em>",
+    "<em>sine</em>",
+    "<em>circum</em>",
+    "<em>prope</em>"
+   ],
    "answer": 1
   },
   {
@@ -243,21 +255,31 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does Latin <em>prō</em> (“in front of,” “on behalf of”) govern?",
-   "explain": "<em>Prō</em> governs the ablative. <em>Prō patriā</em> is “on behalf of one’s country.”",
-   "options": ["Accusative", "Dative", "Ablative", "Genitive"],
+   "prompt": "Which preposition can govern either the accusative or the ablative?",
+   "explain": "<em>In</em> takes the ablative of rest and the accusative of motion into.",
+   "options": [
+    "<em>ad</em>",
+    "<em>ex</em>",
+    "<em>in</em>",
+    "<em>per</em>"
+   ],
    "answer": 2
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp16",
-   "set": "B",
+   "set": "C",
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "When <em>sub</em> means motion toward a place, what case does it govern?",
-   "explain": "With the accusative, <em>sub</em> signifies motion toward a place. With the ablative, it signifies rest.",
-   "options": ["Ablative", "Accusative", "The nominative of the subject", "Genitive"],
-   "answer": 1
+   "prompt": "How does Latin say “with us”?",
+   "explain": "<em>Cum</em> is joined to the end of the personal pronouns: <em>nōbīscum</em>.",
+   "options": [
+    "<em>cum nōs</em>",
+    "<em>cum nōbīs</em> only",
+    "<em>nōscum</em>",
+    "<em>nōbīscum</em>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp17",
@@ -265,10 +287,15 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "When <em>sub</em> means rest in a place, what case does it govern?",
-   "explain": "With the ablative, <em>sub</em> signifies rest in a place. Motion toward takes the accusative instead.",
-   "options": ["Accusative", "Ablative", "Dative", "Genitive"],
-   "answer": 1
+   "prompt": "Choose the form: <em>___ profectī sunt</em> (“they set out from Rome”).",
+   "explain": "With the name of a city, the ablative alone shows the place from which.",
+   "options": [
+    "<em>Rōmā</em>",
+    "<em>ā Rōmā</em>",
+    "<em>Rōmam</em>",
+    "<em>Rōmae</em>"
+   ],
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp18",
@@ -276,9 +303,14 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the preposition that governs the ablative.",
-   "explain": "<em>Prō</em> governs the ablative. <em>Trāns</em>, <em>contrā</em>, and <em>inter</em> govern the accusative.",
-   "options": ["<em>trāns</em>", "<em>prō</em>", "<em>contrā</em>", "<em>inter</em>"],
+   "prompt": "Choose the form: <em>___ habitat</em> (“he lives at Carthage”).",
+   "explain": "The place where, with the name of a city, is the locative; for a noun of the third declension it is in <em>-ī</em> (or <em>-e</em>).",
+   "options": [
+    "<em>in Carthāgine</em>",
+    "<em>Carthāginī</em>",
+    "<em>Carthāginem</em>",
+    "<em>ad Carthāginem</em>"
+   ],
    "answer": 1
   },
   {
@@ -287,10 +319,15 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the preposition that governs the accusative.",
-   "explain": "<em>Ad</em> governs the accusative. <em>Sine</em>, <em>prō</em>, and <em>cum</em> govern the ablative.",
-   "options": ["<em>sine</em>", "<em>ad</em>", "<em>prō</em>", "<em>cum</em>"],
-   "answer": 1
+   "prompt": "Choose the form: <em>___ redīre</em> (“to return home”).",
+   "explain": "<em>Domus</em> takes no preposition: the accusative alone for “home” with motion.",
+   "options": [
+    "<em>ad domum</em>",
+    "<em>domī</em>",
+    "<em>domum</em>",
+    "<em>domō</em>"
+   ],
+   "answer": 2
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp20",
@@ -298,10 +335,63 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the preposition that can govern either the accusative or the ablative.",
-   "explain": "<em>Sub</em>, like <em>in</em>, governs the accusative for motion toward and the ablative for rest. <em>Ante</em> governs only the accusative. <em>Sine</em> and <em>trāns</em> do not take both cases.",
-   "options": ["<em>ante</em>", "<em>sine</em>", "<em>sub</em>", "<em>trāns</em>"],
+   "prompt": "Choose the form: <em>___ manēre</em> (“to stay in the country”).",
+   "explain": "<em>Rūs</em> has the locative <em>rūrī</em>.",
+   "options": [
+    "<em>in rūre</em>",
+    "<em>rūs</em>",
+    "<em>rūrī</em>",
+    "<em>rūre</em>"
+   ],
    "answer": 2
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp21",
+   "set": "C",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What does <em>Ītaliam contrā</em> show?",
+   "explain": "The preposition follows its noun: anastrophe.",
+   "options": [
+    "A preposition with the ablative",
+    "A preposition after its noun",
+    "A preposition used as an adverb",
+    "A locative"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp22",
+   "set": "C",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <em>in ___ nāvigāvērunt</em> (“they sailed to Sicily”).",
+   "explain": "With the name of a country, Latin uses the preposition: <em>in Siciliam</em>.",
+   "options": [
+    "<em>Siciliam</em>",
+    "<em>Siciliā</em>",
+    "<em>Siciliae</em>",
+    "<em>Siciliī</em>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-indecl.la/prepositions-ex:gp23",
+   "set": "C",
+   "deck": "lang.iii-indecl.la/prepositions-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "In <em>quā dē causā</em> (“for which reason”), where does the preposition stand?",
+   "explain": "A preposition often stands between an adjective (here the relative) and its noun.",
+   "options": [
+    "After the noun",
+    "Before the relative",
+    "At the end of the sentence",
+    "Between the relative and the noun"
+   ],
+   "answer": 3
   }
  ]
 };
