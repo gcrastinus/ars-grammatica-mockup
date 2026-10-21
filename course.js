@@ -41,7 +41,9 @@
              passageSrc (its source line) and passageTr (a translation) below it.
    An item type with no renderer shows "This item type is not yet available."
    Hyphens and dashes are treated alike on count, form, divide, and transform, and accents
-   other than macrons are ignored, as on the written count and divide items.
+   other than macrons are ignored, as on the written count and divide items. In Greek this means
+   that accents, breathings, and the iota subscript need not be typed, and a final sigma may be
+   typed as σ or ς; a Greek form item carries macrons: false, so long marks are not tested either.
    A German exercise (lang.*.de) also accepts ae, oe, ue, and ss for ä, ö, ü, and ß,
    capitals included. An exercise in another language does not.
    Samples: test/typed-samples.js, not loaded by the course. */
@@ -398,6 +400,7 @@ function foldBase(s, item){
   t = t.replace(/[\u2018\u2019\u201A\u201B]/g, "'").replace(/[\u201C\u201D\u201E\u201F]/g, '"');
   t = t.replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/g, '-');
   t = t.replace(/\s+/g, ' ').trim().toLowerCase();
+  t = t.replace(/ς/g, 'σ');   // Greek final sigma is read as sigma, so either may be typed at the end of a word
   if (item && item.germanSpellings){
     t = t.normalize('NFC').replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
   }
