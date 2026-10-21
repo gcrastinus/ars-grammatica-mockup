@@ -15,10 +15,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person singular present of <i>können</i>.",
-   "explain": "The first and third persons singular of a modal have no ending: <i>ich kann</i>.",
+   "prompt": "Write the second person singular Präteritum of <i>können</i>.",
+   "explain": "The Präteritum of a modal takes the weak endings without the umlaut: <i>du konntest</i>.",
    "accept": [
-    "kann"
+    "konntest"
    ]
   },
   {
@@ -27,10 +27,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present of <i>müssen</i>.",
-   "explain": "<i>Ich muss, du musst, er muss</i>.",
+   "prompt": "Write the first person plural Präteritum of <i>müssen</i>.",
+   "explain": "The Präteritum drops the umlaut and takes the weak endings: <i>wir mussten</i>.",
    "accept": [
-    "muss"
+    "mussten"
    ]
   },
   {
@@ -39,10 +39,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the second person singular present of <i>wollen</i>.",
-   "explain": "<i>Wollen</i> has <i>i</i> in the singular: <i>du willst</i>.",
+   "prompt": "Write the second person plural Präteritum of <i>wollen</i>.",
+   "explain": "The Präteritum of <i>wollen</i> takes the weak endings: <i>ihr wolltet</i>.",
    "accept": [
-    "willst"
+    "wolltet"
    ]
   },
   {
@@ -51,10 +51,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person plural present of <i>dürfen</i>.",
-   "explain": "In the plural the modal keeps the vowel of the infinitive: <i>wir dürfen</i>.",
+   "prompt": "Write the second person singular Konjunktiv II of <i>dürfen</i>.",
+   "explain": "The Konjunktiv II restores the umlaut of the infinitive: <i>du dürftest</i>.",
    "accept": [
-    "dürfen"
+    "dürftest"
    ]
   },
   {
@@ -63,12 +63,12 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er ___ heute nicht kommen.</i> (“He cannot come today”).",
-   "explain": "The third person singular of <i>können</i> is <i>kann</i>.",
+   "prompt": "Choose the form: Er ___ morgen leider nicht arbeiten. (“He cannot work tomorrow, unfortunately”).",
+   "explain": "The third person singular of <i>können</i> has no ending: <i>er kann</i>.",
    "options": [
-    "<i>kannt</i>",
     "<i>könnt</i>",
     "<i>können</i>",
+    "<i>kannst</i>",
     "<i>kann</i>"
    ],
    "answer": 3
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich ___ einen Tee, bitte.</i> (“I would like a tea, please”).",
-   "explain": "<i>Möchte</i>, the Konjunktiv II of <i>mögen</i>, is the polite “would like.”",
+   "prompt": "Choose the form: Wir ___ zwei Zimmer, bitte. (“We would like two rooms, please”).",
+   "explain": "<i>Möchte</i>, the Konjunktiv II of <i>mögen</i>, serves as a polite present; with <i>wir</i> it is <i>möchten</i>.",
    "options": [
-    "<i>möchte</i>",
-    "<i>mag</i>",
-    "<i>mochte</i>",
-    "<i>möge</i>"
+    "<i>möchten</i>",
+    "<i>mögen</i>",
+    "<i>mochten</i>",
+    "<i>möchte</i>"
    ],
    "answer": 0
   },
@@ -127,10 +127,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>können</i>.",
-   "explain": "The Präteritum drops the umlaut: <i>konnte</i>.",
+   "prompt": "Write the first person plural Konjunktiv II of <i>können</i>.",
+   "explain": "The Konjunktiv II takes the umlaut where the infinitive has it: <i>wir könnten</i>.",
    "accept": [
-    "konnte"
+    "könnten"
    ]
   },
   {
@@ -139,10 +139,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, first person singular, of <i>dürfen</i>.",
-   "explain": "The Präteritum drops the umlaut: <i>durfte</i>.",
+   "prompt": "Write the second person singular Präteritum of <i>sollen</i>.",
+   "explain": "<i>Sollen</i> takes the weak endings in the Präteritum: <i>du solltest</i>.",
    "accept": [
-    "durfte"
+    "solltest"
    ]
   },
   {
@@ -151,10 +151,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>können</i>.",
-   "explain": "In the Konjunktiv II the umlaut returns: <i>könnte</i>.",
+   "prompt": "Write the second person plural Konjunktiv II of <i>müssen</i>.",
+   "explain": "The Konjunktiv II takes the umlaut of the infinitive: <i>ihr müsstet</i>.",
    "accept": [
-    "könnte"
+    "müsstet"
    ]
   },
   {
@@ -163,10 +163,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>mögen</i>.",
-   "explain": "<i>Mögen, mochte, gemocht</i>.",
+   "prompt": "Write the first person plural Präteritum of <i>mögen</i>.",
+   "explain": "The Präteritum of <i>mögen</i> has <i>o</i> and <i>ch</i>: <i>wir mochten</i>.",
    "accept": [
-    "mochte"
+    "mochten"
    ]
   },
   {
@@ -223,10 +223,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the second person singular present of <i>mögen</i>.",
-   "explain": "<i>Ich mag, du magst, er mag</i>.",
+   "prompt": "Write the second person singular Konjunktiv II of <i>mögen</i>.",
+   "explain": "The Konjunktiv II of <i>mögen</i> is <i>möchte</i>, used as a polite present: <i>du möchtest</i>.",
    "accept": [
-    "magst"
+    "möchtest"
    ]
   },
   {
@@ -267,10 +267,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>dürfen</i>.",
-   "explain": "The umlaut returns in the Konjunktiv II: <i>dürfte</i>.",
+   "prompt": "Write the third person plural Präteritum of <i>dürfen</i>.",
+   "explain": "The Präteritum drops the umlaut: <i>sie durften</i>.",
    "accept": [
-    "dürfte"
+    "durften"
    ]
   },
   {
@@ -340,10 +340,10 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>sollen</i>.",
-   "explain": "<i>Sollen, sollte, gesollt</i>; the Konjunktiv II has the same form.",
+   "prompt": "Write the second person plural Präteritum of <i>können</i>.",
+   "explain": "The Präteritum of <i>können</i> has <i>o</i> and the weak endings: <i>ihr konntet</i>.",
    "accept": [
-    "sollte"
+    "konntet"
    ]
   }
  ]
