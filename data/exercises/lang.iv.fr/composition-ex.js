@@ -63,13 +63,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>timbre-poste</i>. (“postage stamp”)",
-   "explain": "<i>Poste</i> is a complement (a stamp “for the post”), so only <i>timbre</i> takes the plural: <i>timbres-poste</i>.",
+   "prompt": "Choose the plural of <i>chef-d’œuvre</i>. (“masterpiece”)",
+   "explain": "<i>D’œuvre</i> is a complement of <i>chef</i>, so only the first noun takes the plural: <i>chefs-d’œuvre</i>.",
    "options": [
-    "<i>timbre-postes</i>",
-    "<i>timbres-postes</i>",
-    "<i>timbres-poste</i>",
-    "<i>timbres-de-poste</i>"
+    "<i>chef-d’œuvres</i>",
+    "<i>chefs-d’œuvres</i>",
+    "<i>chefs-d’œuvre</i>",
+    "<i>chefs-des-œuvres</i>"
    ],
    "answer": 2
   },
