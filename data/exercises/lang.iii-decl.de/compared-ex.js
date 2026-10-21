@@ -7,7 +7,7 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
  "section": "III",
  "title": "German and the Article",
  "instr": "Choose the answer.",
- "openedFrom": "lang.iii-decl.de/compared",
+ "openedFrom": "",
  "items": [
   {
    "id": "lang.iii-decl.de/compared-ex:n0",
@@ -15,63 +15,63 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Ich stehe früh auf</em> (“I get up early”), <em>auf</em> is…",
-   "explain": "In a main clause the prefix of a separable verb goes to the end. <em>Aufstehen</em> means “to get up,” and in <em>Ich stehe früh auf</em> the prefix stands at the end.",
+   "prompt": "Choose the form: <i>Ich besuche ___ Onkel.</i> (“I am visiting the uncle”).",
+   "explain": "<i>Onkel</i> is masculine and the direct object, so the article is accusative <i>den</i>.",
    "options": [
-    "The separated prefix",
-    "A preposition governing <em>früh</em>",
-    "An article",
-    "A particle of emphasis"
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
   {
    "id": "lang.iii-decl.de/compared-ex:m1-0",
+   "set": "A",
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <em>Schwimmen</em> capitalized in <em>Das Schwimmen ist gesund</em> (“Swimming is healthy”)?",
-   "explain": "<em>Das Schwimmen</em>, “swimming,” is a noun.",
+   "prompt": "Choose the form: <i>Sie hilft ___ Nachbarin.</i> (“She helps the neighbor (a woman)”).",
+   "explain": "<i>Helfen</i> takes the dative, and the feminine dative article is <i>der</i>.",
    "options": [
-    "It is used as a noun",
-    "It begins a clause",
-    "It is a proper name",
-    "German capitalizes every verb"
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>dem</i>"
    ],
-   "answer": 0,
-   "set": "A"
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.de/compared-ex:m1-1",
+   "set": "A",
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>den Baum</em> (“the tree,” accusative), what shows the accusative?",
-   "explain": "German nouns keep few endings; the article carries the case. <em>Baum</em> has the same form in the nominative <em>der Baum</em>.",
+   "prompt": "Choose the form: <i>___ Fenster ist offen.</i> (“The window is open”).",
+   "explain": "<i>Fenster</i> is neuter, and the subject is nominative: <i>das</i>.",
    "options": [
-    "The article <em>den</em>",
-    "The ending of <em>Baum</em>",
-    "The capital letter",
-    "The word order alone"
+    "<i>Der</i>",
+    "<i>Die</i>",
+    "<i>Das</i>",
+    "<i>Den</i>"
    ],
-   "answer": 0,
-   "set": "B"
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.de/compared-ex:m1-2",
+   "set": "A",
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>ein alter Baum</em>, but <em>der alte Baum</em>: why the different endings?",
-   "explain": "After <em>der</em> the weak ending <em>-e</em>; after <em>ein</em>, which shows no gender here, the strong ending <em>-er</em>.",
+   "prompt": "Choose the form: <i>Das Auto ___ Lehrerin ist neu.</i> (“The teacher’s car is new”).",
+   "explain": "The feminine genitive article is <i>der</i>.",
    "options": [
-    "The adjective’s ending depends on the article before it",
-    "The adjective <em>alt</em> is irregular",
-    "One is plural",
-    "One is a noun"
+    "<i>des</i>",
+    "<i>die</i>",
+    "<i>dem</i>",
+    "<i>der</i>"
    ],
-   "answer": 0,
-   "set": "C"
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.de/compared-ex:a1",
@@ -79,10 +79,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <em>Körper</em> capitalized in <em>Das Schwimmen stärkt den Körper</em> (“Swimming strengthens the body”)?",
-   "explain": "<em>Körper</em> is a noun, “body.” Every noun is written with a capital letter.",
-   "options": ["It is a separable prefix", "It begins the sentence", "It is a noun", "It is the finite verb"],
-   "answer": 2
+   "prompt": "Choose the form: <i>Wir sprechen mit ___ Kindern.</i> (“We are speaking with the children”).",
+   "explain": "<i>Mit</i> takes the dative, and the dative plural article is <i>den</i>.",
+   "options": [
+    "<i>den</i>",
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>dem</i>"
+   ],
+   "answer": 0
   },
   {
    "id": "lang.iii-decl.de/compared-ex:a2",
@@ -90,9 +95,14 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why does <em>Schöne</em> take a capital in <em>das Schöne</em> (“the beautiful”)?",
-   "explain": "<em>Schöne</em> is a word used as a noun, “the beautiful,” and a word used as a noun is capitalized.",
-   "options": ["The article replaces the capital on the noun", "The word is used as a noun", "<em>Schöne</em> is the verb <em>stehe</em>", "<em>Schöne</em> is a separable prefix"],
+   "prompt": "Which word must be written with a capital in German? <i>die ___ ist schön</i> (“the garden is beautiful”)",
+   "explain": "German writes every noun with a capital; the article, the verb, and the adjective take a small letter (except at the beginning of a sentence).",
+   "options": [
+    "<i>schön</i>, because it describes the noun",
+    "<i>Garten</i>, because it is a noun",
+    "<i>ist</i>, because it is the verb",
+    "<i>die</i>, because it begins the phrase"
+   ],
    "answer": 1
   },
   {
@@ -101,10 +111,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Schwimmen</em> is not the first word of <em>Das Schwimmen ist gesund</em>. Why is it capitalized?",
-   "explain": "<em>Schwimmen</em> is a noun, “swimming.” The capital marks the noun, not the first word of the sentence. <em>Das</em> is the first word.",
-   "options": ["It is the finite verb", "It is a separable prefix", "It is the article", "<em>Schwimmen</em> is a noun"],
-   "answer": 3
+   "prompt": "Why is <i>Wandern</i> capitalized in <i>Das Wandern macht müde</i> (“Hiking makes one tired”)?",
+   "explain": "An infinitive used as a noun, here with the article, is written with a capital.",
+   "options": [
+    "It is the first verb of the sentence",
+    "It is a proper name",
+    "It is an infinitive used as a noun",
+    "Every infinitive is capitalized"
+   ],
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.de/compared-ex:a4",
@@ -112,21 +127,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Ich stehe früh auf</em>, which word is the finite verb?",
-   "explain": "<em>Stehe</em> is the finite verb. <em>Auf</em> is the prefix, and it stands at the end of the clause.",
-   "options": ["<em>auf</em>", "<em>früh</em>", "<em>Ich</em>", "<em>stehe</em>"],
+   "prompt": "How does German show the case of <i>dem Arzt</i> (“to the doctor”)?",
+   "explain": "The article carries most of the case: <i>der</i>, <i>den</i>, <i>dem</i>, <i>des Arztes</i>.",
+   "options": [
+    "By an ending on <i>Arzt</i>",
+    "By the capital letter",
+    "By the word order alone",
+    "By the article <i>dem</i>"
+   ],
    "answer": 3
-  },
-  {
-   "id": "lang.iii-decl.de/compared-ex:a5",
-   "set": "A",
-   "deck": "lang.iii-decl.de/compared-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "Which form joins the prefix to the verb?",
-   "explain": "The infinitive <em>aufstehen</em> writes the prefix and the verb as one word. In <em>Ich stehe früh auf</em> the prefix stands apart.",
-   "options": ["<em>Ich stehe früh auf</em>", "<em>das Schöne</em>", "<em>aufstehen</em>", "<em>den Baum</em>"],
-   "answer": 2
   },
   {
    "id": "lang.iii-decl.de/compared-ex:b1",
@@ -134,10 +143,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the main-clause form of <em>aufstehen</em>.",
-   "explain": "In a main clause the prefix stands at the end: <em>Ich stehe früh auf</em>.",
-   "options": ["<em>aufstehen</em>, the infinitive with the prefix joined", "<em>Ich stehe früh auf</em>", "<em>Das Schwimmen ist gesund</em>", "<em>des Baumes</em>, the genitive"],
-   "answer": 1
+   "prompt": "Choose the form: <i>Er wartet auf ___ Zug.</i> (“He is waiting for the train”).",
+   "explain": "<i>Warten auf</i> takes the accusative: <i>auf den Zug</i>.",
+   "options": [
+    "<i>dem</i>",
+    "<i>der</i>",
+    "<i>des</i>",
+    "<i>den</i>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.de/compared-ex:b2",
@@ -145,9 +159,14 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What stands at the end of <em>Ich stehe früh auf</em>?",
-   "explain": "The separable prefix <em>auf</em> stands at the end of the main clause.",
-   "options": ["<em>stehe</em>", "<em>früh</em>", "<em>auf</em>", "<em>Ich</em>"],
+   "prompt": "Choose the form: <i>Wir wohnen in ___ Stadtmitte.</i> (“We live in the city center”).",
+   "explain": "<i>In</i> with the place where takes the dative, and the feminine dative is <i>der</i>.",
+   "options": [
+    "<i>die</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>"
+   ],
    "answer": 2
   },
   {
@@ -156,10 +175,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which word begins <em>Das Schwimmen ist gesund</em>?",
-   "explain": "<em>Das</em> is the first word. <em>Schwimmen</em> is capitalized because it is a noun, not because it begins the sentence.",
-   "options": ["<em>Schwimmen</em>", "<em>gesund</em>", "<em>ist</em>", "<em>Das</em>"],
-   "answer": 3
+   "prompt": "Choose the form: <i>Sie stellt die Vase auf ___ Tisch.</i> (“She puts the vase on the table”).",
+   "explain": "<i>Auf</i> with motion toward a place takes the accusative.",
+   "options": [
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>des</i>"
+   ],
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.de/compared-ex:b4",
@@ -167,9 +191,14 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <em>stehe</em> not capitalized in <em>Ich stehe früh auf</em>?",
-   "explain": "<em>Stehe</em> is a verb, not a noun. The capital that marks a noun is not used for it.",
-   "options": ["It is a verb, not a noun", "It is a noun, as <em>Baum</em> and <em>Körper</em> are nouns", "It is the prefix <em>auf</em>", "It is the article"],
+   "prompt": "Choose the form: <i>Die Vase steht auf ___ Tisch.</i> (“The vase stands on the table”).",
+   "explain": "<i>Auf</i> with the place where takes the dative.",
+   "options": [
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>des</i>"
+   ],
    "answer": 0
   },
   {
@@ -178,10 +207,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "The prefix is joined in the infinitive and stands at the end of the main clause. Which pair shows both?",
-   "explain": "<em>Aufstehen</em> joins the prefix, and <em>Ich stehe früh auf</em> places <em>auf</em> at the end.",
-   "options": ["<em>das Schöne</em> and <em>das Schwimmen</em>, both of them nouns", "<em>den Baum</em> and <em>dem Baum</em>, two cases", "<em>Ich stehe früh auf</em> and <em>aufstehen</em>", "<em>der Baum</em> and <em>des Baumes</em>, two cases of one noun"],
-   "answer": 2
+   "prompt": "Why is <i>Gute</i> capitalized in <i>Wir wünschen dir alles Gute</i> (“We wish you all the best”)?",
+   "explain": "An adjective used as a noun, here after <i>alles</i>, is written with a capital.",
+   "options": [
+    "It begins a clause",
+    "It is a proper name",
+    "It is the object of the verb, and objects are capitalized",
+    "It is an adjective used as a noun"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.de/compared-ex:b6",
@@ -189,10 +223,47 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<em>Ich stehe früh auf</em> contains no noun. What follows for a capital that marks a noun?",
-   "explain": "No word in the clause is a noun, so no capital is required to mark a noun. <em>Ich</em> begins the sentence.",
-   "options": ["<em>Baum</em> must still be written in the clause", "No noun is there to capitalize", "<em>Schwimmen</em> supplies the capital", "<em>Schöne</em> is the prefix and takes the capital"],
+   "prompt": "Which sentence capitalizes the formal “you” correctly?",
+   "explain": "The formal <i>Sie</i> and its forms (<i>Ihnen</i>, <i>Ihr</i>) are capitalized; <i>mir</i> and the verb are not.",
+   "options": [
+    "<i>Können sie mir helfen?</i> (meaning “you”)",
+    "<i>können Sie Mir helfen?</i>",
+    "<i>Können Sie mir helfen?</i>",
+    "<i>Können Sie Mir Helfen?</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.de/compared-ex:b7",
+   "set": "B",
+   "deck": "lang.iii-decl.de/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Ich gebe ___ Hund einen Knochen.</i> (“I give the dog a bone”).",
+   "explain": "The dog is the indirect object, so the article is dative <i>dem</i>.",
+   "options": [
+    "<i>den</i>",
+    "<i>dem</i>",
+    "<i>der</i>",
+    "<i>das</i>"
+   ],
    "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.de/compared-ex:b8",
+   "set": "B",
+   "deck": "lang.iii-decl.de/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Hast du ___ Schlüssel gefunden?</i> (“Have you found the key”).",
+   "explain": "<i>Schlüssel</i> is masculine and the direct object: <i>den</i>.",
+   "options": [
+    "<i>den</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>die</i>"
+   ],
+   "answer": 0
   },
   {
    "id": "lang.iii-decl.de/compared-ex:c1",
@@ -200,10 +271,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why are both <em>Schwimmen</em> and <em>Körper</em> capitalized in <em>Das Schwimmen stärkt den Körper</em>?",
-   "explain": "Both words are nouns, and every noun is written with a capital.",
-   "options": ["Both are separable prefixes", "Both are nouns", "Both are articles", "Both are finite verbs"],
-   "answer": 1
+   "prompt": "Which spelling is correct?",
+   "explain": "The name of the language and a person named by nationality are nouns and take a capital; the adverb <i>gut</i> does not.",
+   "options": [
+    "<i>Er spricht gut deutsch, aber er ist kein deutscher.</i>",
+    "<i>Er spricht gut Deutsch, aber er ist kein deutscher.</i>",
+    "<i>Er spricht gut Deutsch, aber er ist kein Deutscher.</i>",
+    "<i>Er spricht Gut Deutsch, aber er ist kein Deutscher.</i>"
+   ],
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.de/compared-ex:c2",
@@ -211,10 +287,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pair capitalizes both words that are used as nouns?",
-   "explain": "<em>Das Schöne</em> and <em>das Schwimmen</em> capitalize <em>Schöne</em> and <em>Schwimmen</em> because each is used as a noun.",
-   "options": ["<em>das schöne</em> and <em>das schwimmen</em>", "<em>das Schöne</em> and <em>das Schwimmen</em>", "<em>das Schöne</em> and <em>das schwimmen</em>", "<em>das schöne</em> and <em>das Schwimmen</em>"],
-   "answer": 1
+   "prompt": "Which sentence is spelled correctly?",
+   "explain": "<i>Lesen</i> after <i>beim</i> (<i>bei dem</i>) is an infinitive used as a noun, and <i>Zeit</i> is a noun.",
+   "options": [
+    "<i>Beim lesen vergisst er die Zeit.</i>",
+    "<i>Beim Lesen vergisst er die zeit.</i>",
+    "<i>beim lesen Vergisst er die Zeit.</i>",
+    "<i>Beim Lesen vergisst er die Zeit.</i>"
+   ],
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.de/compared-ex:c3",
@@ -222,10 +303,15 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the clause in which the prefix stands at the end.",
-   "explain": "In <em>Ich stehe früh auf</em> the prefix <em>auf</em> stands at the end. The infinitive <em>aufstehen</em> keeps the prefix joined.",
-   "options": ["<em>aufstehen</em>, with the prefix joined on", "<em>Ich stehe früh auf</em>", "<em>das Schwimmen</em>", "<em>den Baum</em>"],
-   "answer": 1
+   "prompt": "Choose the form: <i>Wegen ___ Regens blieben wir zu Hause.</i> (“Because of the rain we stayed at home”).",
+   "explain": "<i>Wegen</i> takes the genitive in written German: <i>wegen des Regens</i>.",
+   "options": [
+    "<i>des</i>",
+    "<i>dem</i>",
+    "<i>den</i>",
+    "<i>der</i>"
+   ],
+   "answer": 0
   },
   {
    "id": "lang.iii-decl.de/compared-ex:c4",
@@ -233,9 +319,14 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "The article in <em>das Schwimmen</em> does not replace the capital. Which spelling is the noun?",
-   "explain": "The noun is <em>das Schwimmen</em>, with a capital <em>S</em>. The article <em>das</em> does not take the place of that capital.",
-   "options": ["<em>das schwimmen</em>", "<em>das Schwimmen</em>", "<em>den schwimmen</em>", "<em>dem schwimmen</em>"],
+   "prompt": "Choose the form: <i>Ich kenne den Namen ___ Gasthauses.</i> (“I know the name of the inn”).",
+   "explain": "<i>Gasthaus</i> is neuter, and the genitive article is <i>des</i>, with <i>-es</i> on the noun.",
+   "options": [
+    "<i>der</i>",
+    "<i>des</i>",
+    "<i>dem</i>",
+    "<i>den</i>"
+   ],
    "answer": 1
   },
   {
@@ -244,10 +335,63 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <em>Baum</em> capitalized in <em>den Baum</em>?",
-   "explain": "<em>Baum</em> is a noun. Every noun is written with a capital letter.",
-   "options": ["<em>Baum</em> is a separable prefix", "The article <em>den</em> is the noun", "<em>Baum</em> is a noun", "<em>Baum</em> is the verb <em>stehe</em>"],
+   "prompt": "Which word in <i>Er ist der Erste, der kommt</i> (“He is the first to come”) is an adjective used as a noun?",
+   "explain": "<i>Der Erste</i>, “the first one,” is an adjective used as a noun and so is capitalized.",
+   "options": [
+    "the second <i>der</i>",
+    "<i>kommt</i>",
+    "<i>Erste</i>",
+    "<i>Er</i>"
+   ],
    "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.de/compared-ex:c6",
+   "set": "C",
+   "deck": "lang.iii-decl.de/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Er dankt ___ Gästen.</i> (“He thanks the guests”).",
+   "explain": "<i>Danken</i> takes the dative, and the dative plural article is <i>den</i>, with <i>-n</i> on the noun.",
+   "options": [
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>dem</i>",
+    "<i>den</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-decl.de/compared-ex:c7",
+   "set": "C",
+   "deck": "lang.iii-decl.de/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What does the article show in <i>des Malers</i> that the English “the painter’s” shows by an ending alone?",
+   "explain": "<i>Des</i> is the masculine or neuter genitive, so the article shows both the case and the gender.",
+   "options": [
+    "The genitive, with the gender of the noun",
+    "The plural number",
+    "The dative case",
+    "Nothing beyond what English shows"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.de/compared-ex:c8",
+   "set": "C",
+   "deck": "lang.iii-decl.de/compared-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "Choose the form: <i>Trotz ___ Kälte gingen sie hinaus.</i> (“In spite of the cold they went out”).",
+   "explain": "<i>Trotz</i> takes the genitive in written German, and the feminine genitive article is <i>der</i>.",
+   "options": [
+    "<i>die</i>",
+    "<i>der</i>",
+    "<i>den</i>",
+    "<i>dem</i>"
+   ],
+   "answer": 1
   }
  ]
 };

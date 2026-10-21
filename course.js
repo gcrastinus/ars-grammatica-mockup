@@ -45,7 +45,8 @@
    that accents, breathings, and the iota subscript need not be typed, and a final sigma may be
    typed as σ or ς; a Greek form item carries macrons: false, so long marks are not tested either.
    A German exercise (lang.*.de) also accepts ae, oe, ue, and ss for ä, ö, ü, and ß,
-   capitals included. An exercise in another language does not.
+   capitals included. An exercise in another language does not. In German the umlaut itself
+   is never ignored: "Bucher" does not match "Bücher" (other accents are still ignored).
    Samples: test/typed-samples.js, not loaded by the course. */
 const KEY = 'ars-grammatica-course-v2';
 const store = (() => {
@@ -408,7 +409,9 @@ function foldBase(s, item){
     t = t.replace(/[āēīōūȳ]/g, ch => ({ 'ā':'a', 'ē':'e', 'ī':'i', 'ō':'o', 'ū':'u', 'ȳ':'y' }[ch]));
     t = t.normalize('NFD').replace(/\u0304/g, '');
   }
-  t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' ? m : '')).normalize('NFC');
+  /* German keeps its umlaut (U+0308), so "Bucher" is not taken for "B\u00fccher"; ue for \u00fc is still accepted. */
+  const keepUmlaut = exerciseLang(item) === 'de';
+  t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' || (keepUmlaut && m === '\u0308') ? m : '')).normalize('NFC');
   return t;
 }
 function foldDivide(s, item){
