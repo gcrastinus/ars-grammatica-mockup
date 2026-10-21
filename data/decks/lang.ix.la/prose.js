@@ -4,12 +4,50 @@ ARS.decks["lang.ix.la/prose"] = {
  "id": "lang.ix.la/prose",
  "title": "Latin Prose",
  "sub": "Fifteen passages of the historians, the orators, and the Christian writers, read part by part",
- "sources": "Allen and Greenough, <i>New Latin Grammar</i>; Dickinson College Commentaries; the rendering of Livy 5.47.4 is the course’s own",
+ "sources": "Allen and Greenough, <em>New Latin Grammar</em>; Dickinson College Commentaries; the rendering of Livy 5.47.4 is the course’s own",
  "panels": [
   {
    "id": "prose-1",
-   "title": "Livy, <i>Ab urbe condita</i> I.1.1",
-   "body": "<p>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.<br>— Roberts</p><p><strong>Context.</strong> Livy opens his history of Rome with the fall of Troy. Before he tells of Aeneas, he states what is generally agreed: that the Greeks spared two Trojans, Aeneas and Antenor, and he gives two reasons. We met parts of this period in Section V, among the clauses in the authors. The whole is one period, and every clause in it depends, directly or through another, on <em>satis constat</em>, “it is well agreed.”</p>"
+   "title": "Livy, <em>Ab urbe condita</em> I.1.1",
+   "body": "<p>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.<br>— Roberts</p><p><strong>Context.</strong> Livy opens his history of Rome with the fall of Troy. Before he tells of Aeneas, he states what is generally agreed: that the Greeks spared two Trojans, Aeneas and Antenor, and he gives two reasons. We met parts of this period in Section V, among the clauses in the authors. The whole is one period, and every clause in it depends, directly or through another, on <em>satis constat</em>, “it is well agreed.”</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-1",
+    "variants": [
+     {
+      "prompt": "What kind of verb is <em>constat</em> (“it is agreed”)?",
+      "options": [
+       "Deponent, with a passive form and active sense",
+       "Passive",
+       "Impersonal",
+       "Transitive with a direct object"
+      ],
+      "answer": 2,
+      "explain": "<em>Constat</em> has no personal subject; what is agreed follows as an accusative and infinitive."
+     },
+     {
+      "prompt": "What does <em>-que</em> join in <em>Aeneae Antenorique</em>?",
+      "options": [
+       "The two causes of the Greeks’ restraint",
+       "The two names",
+       "Two verbs",
+       "Two clauses"
+      ],
+      "answer": 1,
+      "explain": "It joins Aeneas and Antenor."
+     },
+     {
+      "prompt": "What does <em>omne ius belli</em> name?",
+      "options": [
+       "The thing withheld",
+       "The persons from whom something is withheld",
+       "The subject",
+       "The cause"
+      ],
+      "answer": 0,
+      "explain": "It is the object of <em>abstinuisse</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-2",
@@ -43,8 +81,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-8",
-   "title": "Cicero, <i>In Catilinam</i> I.1",
-   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>— Yonge</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>"
+   "title": "Cicero, <em>In Catilinam</em> I.1",
+   "body": "<p>quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia?</p><p>When, O Catiline, do you mean to cease abusing our patience? How long is that madness of yours still to mock us? When is there to be an end of that unbridled audacity of yours, swaggering about as it does now?<br>— Yonge</p><p><strong>Context.</strong> Cicero, consul in 63 BC, spoke the first speech against Catiline in the senate, with Catiline present. He opens without any preface, with three questions put to Catiline himself.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-8",
+    "variants": [
+     {
+      "prompt": "What tense is <em>abutere</em>?",
+      "options": [
+       "Present, with the passive ending <em>-ris</em>",
+       "Future",
+       "Perfect",
+       "Imperfect"
+      ],
+      "answer": 1,
+      "explain": "It is the future of the deponent <em>abutor</em>, with <em>-re</em> for <em>-ris</em>."
+     },
+     {
+      "prompt": "What is <em>Catilina</em> in the first question?",
+      "options": [
+       "Nominative, the subject of <em>abutere</em>",
+       "Ablative",
+       "Vocative",
+       "Genitive"
+      ],
+      "answer": 2,
+      "explain": "Cicero addresses Catiline by name."
+     },
+     {
+      "prompt": "What does <em>iste</em> often carry, as in <em>furor iste tuus</em>?",
+      "options": [
+       "Respect for the person addressed in the speech",
+       "A question",
+       "A wish",
+       "Contempt"
+      ],
+      "answer": 3,
+      "explain": "<em>Iste</em>, “that … of yours,” is often contemptuous."
+     }
+    ]
+   }
   },
   {
    "id": "prose-9",
@@ -73,8 +149,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-14",
-   "title": "Cicero, <i>In Catilinam</i> II.1",
-   "body": "<p>Tandem aliquando, Quirites, L. Catilinam furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem ex urbe vel eiecimus vel emisimus vel ipsum egredientem verbis prosecuti sumus.</p><p>At length, O Romans, we have dismissed from the city, or driven out, or, when he was departing of his own accord, we have pursued with words, Lucius Catiline, mad with audacity, breathing wickedness, impiously planning mischief to his country, threatening fire and sword to you and to this city.<br>— Yonge</p><p><strong>Context.</strong> The day after the first speech, Catiline left Rome, and Cicero spoke to the people. The opening sentence is one long period: four participles describe Catiline, and three verbs, joined by <em>vel</em>, offer three ways of describing his departure.</p>"
+   "title": "Cicero, <em>In Catilinam</em> II.1",
+   "body": "<p>Tandem aliquando, Quirites, L. Catilinam furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem ex urbe vel eiecimus vel emisimus vel ipsum egredientem verbis prosecuti sumus.</p><p>At length, O Romans, we have dismissed from the city, or driven out, or, when he was departing of his own accord, we have pursued with words, Lucius Catiline, mad with audacity, breathing wickedness, impiously planning mischief to his country, threatening fire and sword to you and to this city.<br>— Yonge</p><p><strong>Context.</strong> The day after the first speech, Catiline left Rome, and Cicero spoke to the people. The opening sentence is one long period: four participles describe Catiline, and three verbs, joined by <em>vel</em>, offer three ways of describing his departure.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-14",
+    "variants": [
+     {
+      "prompt": "What case is <em>L. Catilinam</em>?",
+      "options": [
+       "Nominative, the subject of the period",
+       "Vocative",
+       "Accusative",
+       "Ablative"
+      ],
+      "answer": 2,
+      "explain": "It is the object of the verbs at the end."
+     },
+     {
+      "prompt": "Who are the <em>Quirites</em>?",
+      "options": [
+       "The senators, the conscript fathers of the city",
+       "The citizens of Rome",
+       "The soldiers",
+       "The judges"
+      ],
+      "answer": 1,
+      "explain": "Cicero addresses the people in the vocative."
+     },
+     {
+      "prompt": "How many participles describe Catiline?",
+      "options": [
+       "Four",
+       "Three, one for each verb at the end of the period",
+       "Two",
+       "One"
+      ],
+      "answer": 0,
+      "explain": "<em>Furentem</em>, <em>anhelantem</em>, <em>molientem</em>, <em>minitantem</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-15",
@@ -98,8 +212,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-19",
-   "title": "Cicero, <i>In Verrem</i> Actio prima 1",
-   "body": "<p>quod erat optandum maxime, iudices, et quod unum ad invidiam vestri ordinis infamiamque iudiciorum sedandam maxime pertinebat, id non humano consilio sed prope divinitus datum atque oblatum vobis summo rei publicae tempore videtur.</p><p>That which was above all things to be desired, O judges, and which above all things was calculated to have the greatest influence toward allaying the unpopularity of your order, and putting an end to the discredit into which your judicial decisions have fallen, appears to have been thrown in your way, and given to you not by any human contrivance, but almost by the interposition of the gods, at a most important crisis of the republic.<br>— Yonge</p><p><strong>Context.</strong> In 70 BC Cicero prosecuted Verres, a former governor of Sicily, for extortion. The juries were then drawn from the senate, and they were widely thought to be corrupt. Cicero opens by telling the judges that this trial is a gift to them, a chance to restore the good name of their order.</p>"
+   "title": "Cicero, <em>In Verrem</em> Actio prima 1",
+   "body": "<p>quod erat optandum maxime, iudices, et quod unum ad invidiam vestri ordinis infamiamque iudiciorum sedandam maxime pertinebat, id non humano consilio sed prope divinitus datum atque oblatum vobis summo rei publicae tempore videtur.</p><p>That which was above all things to be desired, O judges, and which above all things was calculated to have the greatest influence toward allaying the unpopularity of your order, and putting an end to the discredit into which your judicial decisions have fallen, appears to have been thrown in your way, and given to you not by any human contrivance, but almost by the interposition of the gods, at a most important crisis of the republic.<br>— Yonge</p><p><strong>Context.</strong> In 70 BC Cicero prosecuted Verres, a former governor of Sicily, for extortion. The juries were then drawn from the senate, and they were widely thought to be corrupt. Cicero opens by telling the judges that this trial is a gift to them, a chance to restore the good name of their order.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-19",
+    "variants": [
+     {
+      "prompt": "What is the antecedent of the two <em>quod</em> clauses?",
+      "options": [
+       "<em>iudices</em>, the persons addressed in the vocative",
+       "<em>id</em>",
+       "<em>ordinis</em>",
+       "<em>tempore</em>"
+      ],
+      "answer": 1,
+      "explain": "<em>Id</em> comes later and takes up both clauses."
+     },
+     {
+      "prompt": "What is <em>iudices</em>?",
+      "options": [
+       "Nominative, the subject of <em>videtur</em>",
+       "Dative",
+       "Vocative",
+       "Accusative"
+      ],
+      "answer": 2,
+      "explain": "Cicero addresses the judges."
+     },
+     {
+      "prompt": "What do <em>non … sed</em> set against each other?",
+      "options": [
+       "The judges and the senators of the order",
+       "Two verbs",
+       "Two times",
+       "Human design and divine gift"
+      ],
+      "answer": 3,
+      "explain": "<em>Non humano consilio sed prope divinitus.</em>"
+     }
+    ]
+   }
   },
   {
    "id": "prose-20",
@@ -128,8 +280,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-25",
-   "title": "Cicero, <i>Philippicae</i> I.1",
-   "body": "<p>ante quam de re publica, patres conscripti, dicam ea quae dicenda hoc tempore arbitror, exponam vobis breviter consilium et profectionis et reversionis meae.</p><p>Before, O conscript fathers, I say those things concerning the republic which I think myself bound to say at the present time, I will explain to you briefly the cause of my departure from, and of my return to, the city.<br>— Yonge</p><p><strong>Context.</strong> In September 44 BC, after Caesar’s death, Cicero returned to Rome and spoke in the senate against Antony. He begins by promising to explain why he had set out from Italy and why he came back.</p>"
+   "title": "Cicero, <em>Philippicae</em> I.1",
+   "body": "<p>ante quam de re publica, patres conscripti, dicam ea quae dicenda hoc tempore arbitror, exponam vobis breviter consilium et profectionis et reversionis meae.</p><p>Before, O conscript fathers, I say those things concerning the republic which I think myself bound to say at the present time, I will explain to you briefly the cause of my departure from, and of my return to, the city.<br>— Yonge</p><p><strong>Context.</strong> In September 44 BC, after Caesar’s death, Cicero returned to Rome and spoke in the senate against Antony. He begins by promising to explain why he had set out from Italy and why he came back.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-25",
+    "variants": [
+     {
+      "prompt": "What does <em>ante quam … dicam</em> mark?",
+      "options": [
+       "An act already finished before the speech began",
+       "A cause",
+       "An act still to come",
+       "A purpose"
+      ],
+      "answer": 2,
+      "explain": "<em>Antequam</em> with the subjunctive marks what is still to come."
+     },
+     {
+      "prompt": "What is <em>patres conscripti</em>?",
+      "options": [
+       "The subject of <em>exponam</em>",
+       "The address to the senators",
+       "The object of <em>dicam</em>",
+       "A genitive"
+      ],
+      "answer": 1,
+      "explain": "It is vocative."
+     },
+     {
+      "prompt": "What mood is <em>exponam</em>?",
+      "options": [
+       "Indicative",
+       "Subjunctive, after <em>ante quam</em> earlier in the period",
+       "Imperative",
+       "Infinitive"
+      ],
+      "answer": 0,
+      "explain": "It is the future indicative, the main verb: “I will set out.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-26",
@@ -153,8 +343,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-30",
-   "title": "Sallust, <i>Bellum Catilinae</i> 5",
-   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>— Watson</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>"
+   "title": "Sallust, <em>Bellum Catilinae</em> 5",
+   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>— Watson</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-30",
+    "variants": [
+     {
+      "prompt": "What is the main verb?",
+      "options": [
+       "<em>fuit</em>",
+       "<em>natus</em>, the participle “born”",
+       "<em>genere</em>",
+       "<em>vi</em>"
+      ],
+      "answer": 0,
+      "explain": "<em>Catilina … fuit</em>."
+     },
+     {
+      "prompt": "What does <em>sed</em> set against the first ablative of quality?",
+      "options": [
+       "A clause of concession with its own verb",
+       "A genitive",
+       "A dative",
+       "A second ablative of quality"
+      ],
+      "answer": 3,
+      "explain": "<em>Sed ingenio malo pravoque.</em>"
+     },
+     {
+      "prompt": "What case is <em>Catilina</em>?",
+      "options": [
+       "Vocative, since Sallust speaks to him",
+       "Ablative",
+       "Nominative",
+       "Genitive"
+      ],
+      "answer": 2,
+      "explain": "It is the subject."
+     }
+    ]
+   }
   },
   {
    "id": "prose-31",
@@ -178,8 +406,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-35",
-   "title": "Livy, <i>Ab urbe condita</i> I.54",
-   "body": "<p>inde in consilia publica adhiberi. ubi cum de aliis rebus adsentiri se veteribus Gabinis diceret, quibus eae notiores essent, ipse identidem belli auctor esse et in eo sibi praecipuam prudentiam adsumere, quod utriusque populi vires nosset …</p><p>He was admitted to the meetings of the national council. Whilst expressing his agreement with the elders of Gabii on other subjects, on which they were better informed, he was continually urging them to war, and claimed to speak with special authority, because he was acquainted with the strength of each nation, …<br>— Roberts</p><p><strong>Context.</strong> Sextus Tarquinius, son of the last king of Rome, has fled to the town of Gabii, pretending to be an exile from his father’s cruelty. Livy tells how he won the trust of the Gabines, and he tells it with historical infinitives.</p>"
+   "title": "Livy, <em>Ab urbe condita</em> I.54",
+   "body": "<p>inde in consilia publica adhiberi. ubi cum de aliis rebus adsentiri se veteribus Gabinis diceret, quibus eae notiores essent, ipse identidem belli auctor esse et in eo sibi praecipuam prudentiam adsumere, quod utriusque populi vires nosset …</p><p>He was admitted to the meetings of the national council. Whilst expressing his agreement with the elders of Gabii on other subjects, on which they were better informed, he was continually urging them to war, and claimed to speak with special authority, because he was acquainted with the strength of each nation, …<br>— Roberts</p><p><strong>Context.</strong> Sextus Tarquinius, son of the last king of Rome, has fled to the town of Gabii, pretending to be an exile from his father’s cruelty. Livy tells how he won the trust of the Gabines, and he tells it with historical infinitives.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-35",
+    "variants": [
+     {
+      "prompt": "What does <em>ubi</em> take up?",
+      "options": [
+       "The time, “when,” of the Gabines’ decision",
+       "The elders",
+       "The war",
+       "The councils"
+      ],
+      "answer": 3,
+      "explain": "<em>Ubi</em>, “there,” refers to the public councils."
+     },
+     {
+      "prompt": "What mood is <em>diceret</em> after <em>cum</em>?",
+      "options": [
+       "Subjunctive",
+       "Indicative, since the saying is a fact",
+       "Imperative",
+       "Infinitive"
+      ],
+      "answer": 0,
+      "explain": "<em>Cum</em> with the imperfect subjunctive gives the circumstance."
+     },
+     {
+      "prompt": "What case is <em>ipse</em>, the subject of the historical infinitives?",
+      "options": [
+       "Accusative, as the subject of an infinitive must be",
+       "Nominative",
+       "Dative",
+       "Ablative"
+      ],
+      "answer": 1,
+      "explain": "The subject of a historical infinitive is nominative."
+     }
+    ]
+   }
   },
   {
    "id": "prose-36",
@@ -208,8 +474,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-41",
-   "title": "Livy, <i>Ab urbe condita</i> II.10",
-   "body": "<p>pons sublicius iter paene hostibus dedit, ni unus vir fuisset, Horatius Cocles; id munimentum illo die fortuna urbis Romanae habuit.</p><p>The enemy would have forced their way over the Sublician bridge had it not been for one man, Horatius Cocles. The good fortune of Rome provided him as her bulwark on that memorable day.<br>— Roberts</p><p><strong>Context.</strong> When the Etruscans under Porsenna attacked Rome, the wooden bridge over the Tiber nearly let them into the city. Livy introduces Horatius Cocles, who held the bridge while it was cut down behind him.</p>"
+   "title": "Livy, <em>Ab urbe condita</em> II.10",
+   "body": "<p>pons sublicius iter paene hostibus dedit, ni unus vir fuisset, Horatius Cocles; id munimentum illo die fortuna urbis Romanae habuit.</p><p>The enemy would have forced their way over the Sublician bridge had it not been for one man, Horatius Cocles. The good fortune of Rome provided him as her bulwark on that memorable day.<br>— Roberts</p><p><strong>Context.</strong> When the Etruscans under Porsenna attacked Rome, the wooden bridge over the Tiber nearly let them into the city. Livy introduces Horatius Cocles, who held the bridge while it was cut down behind him.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-41",
+    "variants": [
+     {
+      "prompt": "What does <em>paene</em> mean?",
+      "options": [
+       "“almost”",
+       "“again and again,” of a repeated act",
+       "“at last”",
+       "“never”"
+      ],
+      "answer": 0,
+      "explain": "It modifies <em>dedit</em>: it almost gave a way."
+     },
+     {
+      "prompt": "What is the subject of <em>habuit</em>?",
+      "options": [
+       "<em>id munimentum</em>, which stands first",
+       "<em>urbis</em>",
+       "<em>die</em>",
+       "<em>fortuna</em>"
+      ],
+      "answer": 3,
+      "explain": "<em>Fortuna urbis Romanae</em> had that defense."
+     },
+     {
+      "prompt": "What is <em>id munimentum</em>?",
+      "options": [
+       "The subject of <em>habuit</em>",
+       "An ablative",
+       "The object of <em>habuit</em>",
+       "A vocative"
+      ],
+      "answer": 2,
+      "explain": "It refers to Horatius himself."
+     }
+    ]
+   }
   },
   {
    "id": "prose-42",
@@ -228,8 +532,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-45",
-   "title": "Augustine, <i>Confessiones</i> I.1",
-   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.<br>— Pusey</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>"
+   "title": "Augustine, <em>Confessiones</em> I.1",
+   "body": "<p>… quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.</p><p>… for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.<br>— Pusey</p><p><strong>Context.</strong> Augustine opens the <em>Confessions</em> with praise of God, and then gives the reason that a human being wishes to praise him. He speaks to God throughout, in the second person. We met these clauses in Section V, among the clauses in the authors; here they are read in their sentence.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-45",
+    "variants": [
+     {
+      "prompt": "To whom does Augustine speak?",
+      "options": [
+       "To God, in the second person",
+       "To the reader, in the third person",
+       "To his mother",
+       "To himself"
+      ],
+      "answer": 0,
+      "explain": "<em>Fecisti</em> is the second person singular."
+     },
+     {
+      "prompt": "What does <em>ad te</em> give in <em>fecisti nos ad te</em>?",
+      "options": [
+       "The place where we were made",
+       "The agent",
+       "The time",
+       "The end for which we were made"
+      ],
+      "answer": 3,
+      "explain": "“Toward you.”"
+     },
+     {
+      "prompt": "What is <em>cor nostrum</em>?",
+      "options": [
+       "The object of <em>fecisti</em>",
+       "An ablative",
+       "The subject of <em>est</em>",
+       "A vocative"
+      ],
+      "answer": 2,
+      "explain": "<em>Inquietum est cor nostrum.</em>"
+     }
+    ]
+   }
   },
   {
    "id": "prose-46",
@@ -248,8 +590,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-49",
-   "title": "Boethius, <i>De consolatione philosophiae</i> I, prose 1",
-   "body": "<p>Haec dum mecum tacitus ipse reputarem querimoniamque lacrimabilem stili officio signarem, adstitisse mihi supra uerticem uisa est mulier …</p><p>While I ruminated these things with myself, and determined to set forth my woful complaint in writing, methought I saw a woman stand above my head, …<br>— trans. “I. T.” (1609), revised by H. F. Stewart</p><p><strong>Context.</strong> Boethius wrote the <em>Consolation</em> in prison, awaiting execution. The book opens with a poem of lament; this prose section begins as Philosophy appears to him. The text writes <em>u</em> for <em>v</em>.</p>"
+   "title": "Boethius, <em>De consolatione philosophiae</em> I, prose 1",
+   "body": "<p>Haec dum mecum tacitus ipse reputarem querimoniamque lacrimabilem stili officio signarem, adstitisse mihi supra uerticem uisa est mulier …</p><p>While I ruminated these things with myself, and determined to set forth my woful complaint in writing, methought I saw a woman stand above my head, …<br>— trans. “I. T.” (1609), revised by H. F. Stewart</p><p><strong>Context.</strong> Boethius wrote the <em>Consolation</em> in prison, awaiting execution. The book opens with a poem of lament; this prose section begins as Philosophy appears to him. The text writes <em>u</em> for <em>v</em>.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-49",
+    "variants": [
+     {
+      "prompt": "What does the text write in place of <em>v</em>?",
+      "options": [
+       "<em>u</em>",
+       "<em>w</em>, as in German printing",
+       "<em>b</em>",
+       "<em>f</em>"
+      ],
+      "answer": 0,
+      "explain": "The text writes <em>uisa</em> and <em>uerticem</em>."
+     },
+     {
+      "prompt": "What does <em>-que</em> join in <em>querimoniamque … signarem</em>?",
+      "options": [
+       "Two nouns, the subject of the main clause",
+       "Two clauses of purpose",
+       "Two infinitives",
+       "<em>signarem</em> to <em>reputarem</em>"
+      ],
+      "answer": 3,
+      "explain": "Both verbs stand under the same <em>dum</em>."
+     },
+     {
+      "prompt": "Where does the main clause come?",
+      "options": [
+       "First, before the clause of time",
+       "In the middle",
+       "Last",
+       "There is none"
+      ],
+      "answer": 2,
+      "explain": "<em>uisa est mulier</em> comes after the clause of time and the infinitive."
+     }
+    ]
+   }
   },
   {
    "id": "prose-50",
@@ -273,8 +653,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-54",
-   "title": "Cicero, <i>In Catilinam</i> I.2",
-   "body": "<p>O tempora, o mores! senatus haec intellegit, consul videt; hic tamen vivit. vivit? immo vero etiam in senatum venit, …</p><p>Shame on the age and on its principles! The senate is aware of these things; the consul sees them; and yet this man lives. Lives! aye, he comes even into the senate.<br>— Yonge</p><p><strong>Context.</strong> A few lines into the first speech against Catiline, Cicero turns from Catiline to the state of the times: the senate and the consul know what he is doing, and yet he lives and even comes into the senate.</p>"
+   "title": "Cicero, <em>In Catilinam</em> I.2",
+   "body": "<p>O tempora, o mores! senatus haec intellegit, consul videt; hic tamen vivit. vivit? immo vero etiam in senatum venit, …</p><p>Shame on the age and on its principles! The senate is aware of these things; the consul sees them; and yet this man lives. Lives! aye, he comes even into the senate.<br>— Yonge</p><p><strong>Context.</strong> A few lines into the first speech against Catiline, Cicero turns from Catiline to the state of the times: the senate and the consul know what he is doing, and yet he lives and even comes into the senate.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-54",
+    "variants": [
+     {
+      "prompt": "What is <em>haec</em> in <em>senatus haec intellegit, consul videt</em>?",
+      "options": [
+       "The subject of <em>intellegit</em>, neuter plural",
+       "An ablative",
+       "The object of both verbs",
+       "An adverb"
+      ],
+      "answer": 2,
+      "explain": "<em>Haec</em>, neuter plural, is the object of both."
+     },
+     {
+      "prompt": "What does <em>tamen</em> mean?",
+      "options": [
+       "“therefore,” drawing a conclusion",
+       "“nevertheless”",
+       "“again”",
+       "“also”"
+      ],
+      "answer": 1,
+      "explain": "It sets <em>hic … vivit</em> against what precedes."
+     },
+     {
+      "prompt": "What does <em>immo vero</em> do?",
+      "options": [
+       "It corrects upward",
+       "It denies the whole statement made before it",
+       "It asks a question",
+       "It gives a reason"
+      ],
+      "answer": 0,
+      "explain": "“Nay rather”: he even comes into the senate."
+     }
+    ]
+   }
   },
   {
    "id": "prose-55",
@@ -298,8 +716,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-59",
-   "title": "Cicero, <i>Pro Milone</i> 1",
-   "body": "<p>Etsi vereor, iudices, ne turpe sit pro fortissimo viro dicere incipientem timere, …</p><p>Although I am afraid, O judges, that it is a base thing for one who is beginning to speak for a very brave man to be alarmed, …<br>— Yonge</p><p><strong>Context.</strong> In 52 BC Cicero defended Milo, who was charged with the killing of Clodius. The court was surrounded by soldiers, and Cicero begins by admitting that he is afraid.</p>"
+   "title": "Cicero, <em>Pro Milone</em> 1",
+   "body": "<p>Etsi vereor, iudices, ne turpe sit pro fortissimo viro dicere incipientem timere, …</p><p>Although I am afraid, O judges, that it is a base thing for one who is beginning to speak for a very brave man to be alarmed, …<br>— Yonge</p><p><strong>Context.</strong> In 52 BC Cicero defended Milo, who was charged with the killing of Clodius. The court was surrounded by soldiers, and Cicero begins by admitting that he is afraid.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-59",
+    "variants": [
+     {
+      "prompt": "What case is <em>iudices</em>?",
+      "options": [
+       "Nominative, the subject of <em>vereor</em>",
+       "Vocative",
+       "Accusative",
+       "Dative"
+      ],
+      "answer": 1,
+      "explain": "Cicero addresses the judges."
+     },
+     {
+      "prompt": "What does <em>dicere</em> complete?",
+      "options": [
+       "<em>vereor</em>, the verb of fearing",
+       "<em>turpe</em>",
+       "<em>incipientem</em>",
+       "<em>viro</em>"
+      ],
+      "answer": 2,
+      "explain": "One beginning to speak."
+     },
+     {
+      "prompt": "What does <em>etsi</em> grant?",
+      "options": [
+       "A wish that the speaker hopes will come true",
+       "A purpose",
+       "A command",
+       "A fact"
+      ],
+      "answer": 3,
+      "explain": "“Although I fear.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-60",
@@ -318,8 +774,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-63",
-   "title": "Sallust, <i>Bellum Catilinae</i> 51",
-   "body": "<p>Omnis homines, patres conscripti, qui de rebus dubiis consultant, ab odio, amicitia, ira atque misericordia vacuos esse decet.</p><p>It becomes all men, Conscript Fathers, who deliberate on dubious matters, to be influenced neither by hatred, affection, anger, nor pity.<br>— Watson</p><p><strong>Context.</strong> In the debate on the punishment of the conspirators, Sallust gives Julius Caesar a speech urging the senate not to act in anger. This is its first sentence.</p>"
+   "title": "Sallust, <em>Bellum Catilinae</em> 51",
+   "body": "<p>Omnis homines, patres conscripti, qui de rebus dubiis consultant, ab odio, amicitia, ira atque misericordia vacuos esse decet.</p><p>It becomes all men, Conscript Fathers, who deliberate on dubious matters, to be influenced neither by hatred, affection, anger, nor pity.<br>— Watson</p><p><strong>Context.</strong> In the debate on the punishment of the conspirators, Sallust gives Julius Caesar a speech urging the senate not to act in anger. This is its first sentence.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-63",
+    "variants": [
+     {
+      "prompt": "What form is <em>omnis</em> in <em>omnis homines</em>?",
+      "options": [
+       "Accusative plural",
+       "Nominative singular, agreeing with a subject understood",
+       "Genitive singular",
+       "Dative plural"
+      ],
+      "answer": 0,
+      "explain": "<em>Omnis</em> is the accusative plural in <em>-is</em>, the same as <em>omnes</em>."
+     },
+     {
+      "prompt": "What does <em>vacuus</em> take?",
+      "options": [
+       "The dative of the person freed",
+       "The genitive of the thing",
+       "The accusative",
+       "The ablative of separation"
+      ],
+      "answer": 3,
+      "explain": "“Free from,” here with <em>ab</em>."
+     },
+     {
+      "prompt": "What kind of verb is <em>decet</em>?",
+      "options": [
+       "Deponent, with a passive ending and active sense",
+       "Passive",
+       "Impersonal",
+       "Intransitive with a personal subject"
+      ],
+      "answer": 2,
+      "explain": "<em>Decet</em>, “it is fitting,” takes an accusative and infinitive."
+     }
+    ]
+   }
   },
   {
    "id": "prose-64",
@@ -343,8 +837,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-68",
-   "title": "Livy, <i>Ab urbe condita</i> 5.47.4",
-   "body": "<p>… anseres non fefellere, quibus sacris Iunonis in summa inopia cibi tamen abstinebatur. quae res saluti fuit; namque clangore eorum alarumque crepitu excitus M. Manlius, qui triennio ante consul fuerat, vir bello egregius, armis arreptis simul ad arma ceteros ciens vadit et, dum ceteri trepidant, Gallum, qui iam in summo constiterat, umbone ictum deturbat.</p><p>The Gauls did not escape the notice of the geese, from which, sacred to Juno, there was nevertheless abstinence in the greatest want of food. This was the means of safety. For Marcus Manlius, who had been consul three years before, a man excellent in war, roused by their clamor and by the clatter of their wings, his arms having been seized, went to arms, calling the others at the same time, and, while the rest were in confusion, threw down a Gaul who had already taken his stand on the summit, struck with the boss.</p><p><strong>Context.</strong> The Gauls had climbed the Capitol by night. They had escaped the notice of the sentries and of the dogs. The geese were sacred to Juno, and they had not been eaten even when food was shortest. Marcus Manlius, roused by the geese, threw the first Gaul down from the height.</p>"
+   "title": "Livy, <em>Ab urbe condita</em> 5.47.4",
+   "body": "<p>… anseres non fefellere, quibus sacris Iunonis in summa inopia cibi tamen abstinebatur. quae res saluti fuit; namque clangore eorum alarumque crepitu excitus M. Manlius, qui triennio ante consul fuerat, vir bello egregius, armis arreptis simul ad arma ceteros ciens vadit et, dum ceteri trepidant, Gallum, qui iam in summo constiterat, umbone ictum deturbat.</p><p>The Gauls did not escape the notice of the geese, from which, sacred to Juno, there was nevertheless abstinence in the greatest want of food. This was the means of safety. For Marcus Manlius, who had been consul three years before, a man excellent in war, roused by their clamor and by the clatter of their wings, his arms having been seized, went to arms, calling the others at the same time, and, while the rest were in confusion, threw down a Gaul who had already taken his stand on the summit, struck with the boss.</p><p><strong>Context.</strong> The Gauls had climbed the Capitol by night. They had escaped the notice of the sentries and of the dogs. The geese were sacred to Juno, and they had not been eaten even when food was shortest. Marcus Manlius, roused by the geese, threw the first Gaul down from the height.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-68",
+    "variants": [
+     {
+      "prompt": "What does <em>dum</em> with the indicative give in <em>dum ceteri trepidant</em>?",
+      "options": [
+       "The purpose of Manlius in calling the others to arms",
+       "The time of <em>deturbat</em>",
+       "A cause",
+       "A condition"
+      ],
+      "answer": 1,
+      "explain": "“While the rest are in confusion.”"
+     },
+     {
+      "prompt": "What is <em>excitus</em>?",
+      "options": [
+       "A finite verb in the perfect",
+       "An infinitive",
+       "A participle agreeing with Manlius",
+       "A noun"
+      ],
+      "answer": 2,
+      "explain": "“Roused,” agreeing with the subject."
+     },
+     {
+      "prompt": "What case is <em>umbone</em>?",
+      "options": [
+       "Dative, the person to whom the blow is given",
+       "Accusative",
+       "Genitive",
+       "Ablative"
+      ],
+      "answer": 3,
+      "explain": "It is the ablative of means: struck with the boss."
+     }
+    ]
+   }
   },
   {
    "id": "prose-69",
@@ -368,8 +900,46 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-73",
-   "title": "Tacitus, <i>Agricola</i> 30",
-   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>— Church and Brodribb</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>"
+   "title": "Tacitus, <em>Agricola</em> 30",
+   "body": "<p>auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant.</p><p>To robbery, slaughter, plunder, they give the lying name of empire; they make a solitude and call it peace.<br>— Church and Brodribb</p><p><strong>Context.</strong> Tacitus gives a speech to Calgacus, a British chief, before the battle with the Roman army of Agricola. These are the last words of his description of the Romans.</p>",
+   "qp": {
+    "id": "q-la-ixp-prose-73",
+    "variants": [
+     {
+      "prompt": "How are <em>auferre trucidare rapere</em> joined?",
+      "options": [
+       "By <em>et</em>, which is understood after each word",
+       "Without a conjunction",
+       "By <em>-que</em>",
+       "By <em>atque</em>"
+      ],
+      "answer": 1,
+      "explain": "The three infinitives stand side by side."
+     },
+     {
+      "prompt": "What is <em>imperium</em>?",
+      "options": [
+       "The subject of <em>appellant</em>",
+       "An ablative of manner",
+       "The predicate accusative, the name given",
+       "A vocative"
+      ],
+      "answer": 2,
+      "explain": "They call those actions empire."
+     },
+     {
+      "prompt": "What mood is <em>faciunt</em> after <em>ubi</em>?",
+      "options": [
+       "Subjunctive, as in a clause of purpose",
+       "Imperative",
+       "Infinitive",
+       "Indicative"
+      ],
+      "answer": 3,
+      "explain": "<em>Ubi</em> with the indicative gives the place as a fact."
+     }
+    ]
+   }
   },
   {
    "id": "prose-74",

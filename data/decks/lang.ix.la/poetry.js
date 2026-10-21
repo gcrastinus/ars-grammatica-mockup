@@ -4,12 +4,50 @@ ARS.decks["lang.ix.la/poetry"] = {
  "id": "lang.ix.la/poetry",
  "title": "Latin Poetry",
  "sub": "Ten passages in five meters, read part by part",
- "sources": "Dickinson College Commentaries; Allen and Greenough, <i>New Latin Grammar</i>; the translations of Virgil, Ovid, Ambrose, Lucretius, Catullus, and Venantius Fortunatus are the course’s own plain renderings, line by line",
+ "sources": "Dickinson College Commentaries; Allen and Greenough, <em>New Latin Grammar</em>; the translations of Virgil, Ovid, Ambrose, Lucretius, Catullus, and Venantius Fortunatus are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
-   "title": "Virgil, <i>Aeneid</i> I.1–11 · Dactylic hexameter",
-   "body": "<p>Arma virumque cano, Troiae qui primus ab oris<br>Italiam, fato profugus, Laviniaque venit<br>litora, multum ille et terris iactatus et alto<br>vi superum saevae memorem Iunonis ob iram;<br>multa quoque et bello passus, dum conderet urbem,<br>inferretque deos Latio, genus unde Latinum,<br>Albanique patres, atque altae moenia Romae.<br>Musa, mihi causas memora, quo numine laeso,<br>quidve dolens, regina deum tot volvere casus<br>insignem pietate virum, tot adire labores<br>impulerit. Tantaene animis caelestibus irae?</p><p>Arms and the man I sing, who first from the shores of Troy<br>came to Italy, an exile by fate, and to the Lavinian<br>shores, much tossed both on lands and on the deep<br>by the force of the gods above, because of the unforgetting wrath of cruel Juno;<br>and he suffered much in war also, until he should found a city<br>and bring his gods into Latium; from whom came the Latin race,<br>and the Alban fathers, and the walls of lofty Rome.<br>Muse, tell me the causes: what divine will having been wounded,<br>or grieving at what, the queen of the gods drove to pass through so many misfortunes<br>a man famous for his devotion, to face so many labors.<br>Are there such angers in heavenly minds?</p><p><strong>Context.</strong> Virgil opens the <em>Aeneid</em> by stating his subject, the man and his wars, in one long period of seven lines, and then asks the Muse for the cause of Juno’s anger. The meter is the dactylic hexameter; we measured the first line in Section II, and we have seen that Priscian asked his questions about it word by word. Poetry keeps the grammar of prose, but it places the words more freely.</p>"
+   "title": "Virgil, <em>Aeneid</em> I.1–11 · Dactylic hexameter",
+   "body": "<p>Arma virumque cano, Troiae qui primus ab oris<br>Italiam, fato profugus, Laviniaque venit<br>litora, multum ille et terris iactatus et alto<br>vi superum saevae memorem Iunonis ob iram;<br>multa quoque et bello passus, dum conderet urbem,<br>inferretque deos Latio, genus unde Latinum,<br>Albanique patres, atque altae moenia Romae.<br>Musa, mihi causas memora, quo numine laeso,<br>quidve dolens, regina deum tot volvere casus<br>insignem pietate virum, tot adire labores<br>impulerit. Tantaene animis caelestibus irae?</p><p>Arms and the man I sing, who first from the shores of Troy<br>came to Italy, an exile by fate, and to the Lavinian<br>shores, much tossed both on lands and on the deep<br>by the force of the gods above, because of the unforgetting wrath of cruel Juno;<br>and he suffered much in war also, until he should found a city<br>and bring his gods into Latium; from whom came the Latin race,<br>and the Alban fathers, and the walls of lofty Rome.<br>Muse, tell me the causes: what divine will having been wounded,<br>or grieving at what, the queen of the gods drove to pass through so many misfortunes<br>a man famous for his devotion, to face so many labors.<br>Are there such angers in heavenly minds?</p><p><strong>Context.</strong> Virgil opens the <em>Aeneid</em> by stating his subject, the man and his wars, in one long period of seven lines, and then asks the Muse for the cause of Juno’s anger. The meter is the dactylic hexameter; we measured the first line in Section II, and we have seen that Priscian asked his questions about it word by word. Poetry keeps the grammar of prose, but it places the words more freely.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-1",
+    "variants": [
+     {
+      "prompt": "What does <em>iactatus</em> agree with?",
+      "options": [
+       "<em>ille</em>, the man",
+       "<em>alto</em>, the deep sea on which he was tossed",
+       "<em>terris</em>",
+       "<em>Iunonis</em>"
+      ],
+      "answer": 0,
+      "explain": "<em>Ille</em> is the man again, and <em>iactatus</em> agrees with him."
+     },
+     {
+      "prompt": "What case are <em>terris</em> and <em>alto</em>?",
+      "options": [
+       "Dative, the places to which he was driven",
+       "Accusative",
+       "Genitive",
+       "Ablative"
+      ],
+      "answer": 3,
+      "explain": "They give the places, by land and by sea, in the ablative."
+     },
+     {
+      "prompt": "What is <em>Musa</em>?",
+      "options": [
+       "Nominative, the subject of <em>memora</em>",
+       "Ablative",
+       "Vocative",
+       "Genitive"
+      ],
+      "answer": 2,
+      "explain": "The poet calls on the Muse."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-2",
@@ -63,8 +101,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-12",
-   "title": "Ovid, <i>Amores</i> I.1.1–4 · Elegiac couplet",
-   "body": "<p>Arma gravi numero violentaque bella parabam<br>edere, materia conveniente modis.<br>par erat inferior versus—risisse Cupido<br>dicitur atque unum surripuisse pedem.</p><p>Arms in weighty meter and violent wars I was preparing<br>to bring forth, the matter suiting the measures.<br>The second verse was equal; Cupid is said<br>to have laughed and to have stolen one foot away.</p><p><strong>Context.</strong> Ovid begins his love poems by explaining why they are not epic. He meant to write of wars in hexameters, but Cupid stole a foot from the second line, and so the elegiac couplet was made: a hexameter followed by a shorter line, the pentameter.</p>"
+   "title": "Ovid, <em>Amores</em> I.1.1–4 · Elegiac couplet",
+   "body": "<p>Arma gravi numero violentaque bella parabam<br>edere, materia conveniente modis.<br>par erat inferior versus—risisse Cupido<br>dicitur atque unum surripuisse pedem.</p><p>Arms in weighty meter and violent wars I was preparing<br>to bring forth, the matter suiting the measures.<br>The second verse was equal; Cupid is said<br>to have laughed and to have stolen one foot away.</p><p><strong>Context.</strong> Ovid begins his love poems by explaining why they are not epic. He meant to write of wars in hexameters, but Cupid stole a foot from the second line, and so the elegiac couplet was made: a hexameter followed by a shorter line, the pentameter.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-12",
+    "variants": [
+     {
+      "prompt": "What does the imperfect <em>parabam</em> present?",
+      "options": [
+       "A single completed act in the past",
+       "A future act",
+       "A plan going on and not carried out",
+       "A command"
+      ],
+      "answer": 2,
+      "explain": "“I was preparing,” the plan not carried out."
+     },
+     {
+      "prompt": "What is the subject of <em>par erat</em>?",
+      "options": [
+       "<em>Cupido</em>, who stole the foot",
+       "<em>inferior versus</em>",
+       "<em>materia</em>",
+       "<em>pedem</em>"
+      ],
+      "answer": 1,
+      "explain": "The lower line was equal."
+     },
+     {
+      "prompt": "What does <em>dicitur</em> take?",
+      "options": [
+       "The infinitives <em>risisse</em> and <em>surripuisse</em>",
+       "A clause with <em>quod</em> and the indicative",
+       "An accusative subject",
+       "A dative of the person"
+      ],
+      "answer": 0,
+      "explain": "Latin makes Cupid the subject of <em>dicitur</em> and adds the infinitives."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-13",
@@ -93,8 +169,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-18",
-   "title": "Catullus, <i>Carmina</i> 46.1–8 · Hendecasyllable",
-   "body": "<p>Iam ver egelidos refert tepores,<br>iam caeli furor aequinoctialis<br>iucundis Zephyri silescit auris.<br>linquantur Phrygii, Catulle, campi<br>Nicaeaeque ager uber aestuosae:<br>ad claras Asiae volemus urbes.<br>iam mens praetrepidans avet vagari,<br>iam laeti studio pedes vigescunt.</p><p>Now spring brings back the mild warmth,<br>now the equinoctial fury of the sky<br>grows quiet with the pleasant breezes of the West Wind.<br>Let the Phrygian fields be left, Catullus,<br>and the rich field of hot Nicaea:<br>let us fly to the famous cities of Asia.<br>Now the mind, trembling beforehand, longs to wander,<br>now the glad feet grow lively with eagerness.</p><p><strong>Context.</strong> Catullus, leaving Bithynia in the spring, tells himself to leave the fields of Nicaea and to sail for the cities of Asia. The meter is the hendecasyllable, a line of eleven syllables.</p>"
+   "title": "Catullus, <em>Carmina</em> 46.1–8 · Hendecasyllable",
+   "body": "<p>Iam ver egelidos refert tepores,<br>iam caeli furor aequinoctialis<br>iucundis Zephyri silescit auris.<br>linquantur Phrygii, Catulle, campi<br>Nicaeaeque ager uber aestuosae:<br>ad claras Asiae volemus urbes.<br>iam mens praetrepidans avet vagari,<br>iam laeti studio pedes vigescunt.</p><p>Now spring brings back the mild warmth,<br>now the equinoctial fury of the sky<br>grows quiet with the pleasant breezes of the West Wind.<br>Let the Phrygian fields be left, Catullus,<br>and the rich field of hot Nicaea:<br>let us fly to the famous cities of Asia.<br>Now the mind, trembling beforehand, longs to wander,<br>now the glad feet grow lively with eagerness.</p><p><strong>Context.</strong> Catullus, leaving Bithynia in the spring, tells himself to leave the fields of Nicaea and to sail for the cities of Asia. The meter is the hendecasyllable, a line of eleven syllables.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-18",
+    "variants": [
+     {
+      "prompt": "What is the subject of <em>refert</em>?",
+      "options": [
+       "<em>ver</em>",
+       "<em>tepores</em>, the warmth that comes back",
+       "<em>furor</em>",
+       "<em>Zephyri</em>"
+      ],
+      "answer": 0,
+      "explain": "Spring brings back the warmth."
+     },
+     {
+      "prompt": "What case is <em>Catulle</em>?",
+      "options": [
+       "Nominative, the subject of <em>linquantur</em>",
+       "Dative",
+       "Ablative",
+       "Vocative"
+      ],
+      "answer": 3,
+      "explain": "The poet addresses himself."
+     },
+     {
+      "prompt": "What does <em>avet</em> take?",
+      "options": [
+       "An accusative object, <em>mens</em>",
+       "The ablative",
+       "The infinitive <em>vagari</em>",
+       "A clause with <em>ut</em>"
+      ],
+      "answer": 2,
+      "explain": "It is completed by an infinitive."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-19",
@@ -128,8 +242,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-25",
-   "title": "Horace, <i>Carmina</i> I.22.1–8 · Sapphic stanza",
-   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>— Christopher Smart</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>"
+   "title": "Horace, <em>Carmina</em> I.22.1–8 · Sapphic stanza",
+   "body": "<p>Integer vitae scelerisque purus<br>non eget Mauris iaculis neque arcu<br>nec venenatis gravida sagittis,<br>Fusce, pharetra,<br>sive per Syrtis iter aestuosas<br>sive facturus per inhospitalem<br>Caucasum vel quae loca fabulosus<br>lambit Hydaspes.</p><p>The man of upright life and pure from wickedness, O Fuscus, has no need of the Moorish javelins, or bow, or quiver loaded with poisoned darts, whether he is about to make his journey through the sultry Syrtes, or the inhospitable Caucasus, or those places which Hydaspes, celebrated in story, washes.<br>— Christopher Smart</p><p><strong>Context.</strong> Horace writes to his friend Aristius Fuscus that the upright man needs no weapons, wherever he travels. The meter is the sapphic stanza: three sapphic lines and a short adonic.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-25",
+    "variants": [
+     {
+      "prompt": "What does <em>eget</em> govern?",
+      "options": [
+       "The ablative",
+       "The accusative of the thing needed, as English does",
+       "The dative",
+       "The nominative"
+      ],
+      "answer": 0,
+      "explain": "<em>Egeo</em> takes the ablative."
+     },
+     {
+      "prompt": "What do <em>sive … sive</em> give?",
+      "options": [
+       "A cause and its effect, joined by two conjunctions",
+       "A purpose",
+       "A condition contrary to fact",
+       "Alternatives"
+      ],
+      "answer": 3,
+      "explain": "Whether through the Syrtes or through the Caucasus."
+     },
+     {
+      "prompt": "Where does the relative clause <em>quae loca … lambit Hydaspes</em> put its antecedent?",
+      "options": [
+       "Before the clause, in the main sentence",
+       "After the verb of the main clause",
+       "Inside the clause",
+       "It has none"
+      ],
+      "answer": 2,
+      "explain": "<em>Quae loca</em>: the antecedent stands inside."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-26",
@@ -168,8 +320,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-33",
-   "title": "Ambrose, <i>Hymni</i> 1.1–8 · Iambic dimeter",
-   "body": "<p>Aeterne rerum conditor,<br>Noctem diemque qui regis,<br>Et temporum das tempora,<br>Ut alleves fastidium,<br>Praeco diei jam sonat,<br>Noctis profundae pervigil,<br>Nocturna lux viantibus,<br>A nocte noctem segregans.</p><p>Eternal maker of things,<br>who rule night and day,<br>and give the seasons their times<br>to relieve our weariness:<br>the herald of the day now sounds,<br>watchful through the deep night,<br>a light in the night for travelers,<br>separating night from night.</p><p><strong>Context.</strong> Ambrose, bishop of Milan in the fourth century, wrote hymns for the people to sing. This one is for the morning, and its herald of the day is the cock. The meter is the iambic dimeter, four iambs to a line, in stanzas of four lines, as we saw in Section II, where its first line was measured. The text as printed writes <em>j</em> for consonant <em>i</em>.</p>"
+   "title": "Ambrose, <em>Hymni</em> 1.1–8 · Iambic dimeter",
+   "body": "<p>Aeterne rerum conditor,<br>Noctem diemque qui regis,<br>Et temporum das tempora,<br>Ut alleves fastidium,<br>Praeco diei jam sonat,<br>Noctis profundae pervigil,<br>Nocturna lux viantibus,<br>A nocte noctem segregans.</p><p>Eternal maker of things,<br>who rule night and day,<br>and give the seasons their times<br>to relieve our weariness:<br>the herald of the day now sounds,<br>watchful through the deep night,<br>a light in the night for travelers,<br>separating night from night.</p><p><strong>Context.</strong> Ambrose, bishop of Milan in the fourth century, wrote hymns for the people to sing. This one is for the morning, and its herald of the day is the cock. The meter is the iambic dimeter, four iambs to a line, in stanzas of four lines, as we saw in Section II, where its first line was measured. The text as printed writes <em>j</em> for consonant <em>i</em>.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-33",
+    "variants": [
+     {
+      "prompt": "What case is <em>rerum</em> in <em>rerum conditor</em>?",
+      "options": [
+       "Ablative, the things by which God made the world",
+       "Dative",
+       "Accusative",
+       "Genitive"
+      ],
+      "answer": 3,
+      "explain": "It depends on <em>conditor</em>: maker of things."
+     },
+     {
+      "prompt": "What is the subject of <em>sonat</em>?",
+      "options": [
+       "<em>praeco</em>",
+       "<em>diei</em>, the day that is heralded",
+       "<em>lux</em>",
+       "<em>nocte</em>"
+      ],
+      "answer": 0,
+      "explain": "The herald of the day now sounds."
+     },
+     {
+      "prompt": "What mood is <em>alleves</em>?",
+      "options": [
+       "Indicative, the second person present",
+       "Subjunctive",
+       "Imperative",
+       "Infinitive"
+      ],
+      "answer": 1,
+      "explain": "<em>Ut</em> with the present subjunctive gives the purpose."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-34",
@@ -213,8 +403,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-42",
-   "title": "Lucretius, <i>De rerum natura</i> I.1–5 · Dactylic hexameter",
-   "body": "<p>Aeneadum genetrix, hominum divomque voluptas,<br>alma Venus, caeli subter labentia signa<br>quae mare navigerum, quae terras frugiferentis<br>concelebras, per te quoniam genus omne animantum<br>concipitur visitque exortum lumina solis:</p><p>Mother of the sons of Aeneas, delight of men and gods,<br>nourishing Venus, who beneath the gliding signs of heaven<br>the ship-bearing sea, who the fruit-bearing lands<br>fill with life, since through you every kind of living things<br>is conceived and, having arisen, sees the light of the sun:</p><p><strong>Context.</strong> Lucretius opens his poem on nature with a prayer to Venus, mother of Aeneas and so of the Romans, as the power by which every living thing is conceived. The meter is the dactylic hexameter.</p>"
+   "title": "Lucretius, <em>De rerum natura</em> I.1–5 · Dactylic hexameter",
+   "body": "<p>Aeneadum genetrix, hominum divomque voluptas,<br>alma Venus, caeli subter labentia signa<br>quae mare navigerum, quae terras frugiferentis<br>concelebras, per te quoniam genus omne animantum<br>concipitur visitque exortum lumina solis:</p><p>Mother of the sons of Aeneas, delight of men and gods,<br>nourishing Venus, who beneath the gliding signs of heaven<br>the ship-bearing sea, who the fruit-bearing lands<br>fill with life, since through you every kind of living things<br>is conceived and, having arisen, sees the light of the sun:</p><p><strong>Context.</strong> Lucretius opens his poem on nature with a prayer to Venus, mother of Aeneas and so of the Romans, as the power by which every living thing is conceived. The meter is the dactylic hexameter.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-42",
+    "variants": [
+     {
+      "prompt": "What is <em>Venus</em>?",
+      "options": [
+       "Nominative, the subject of <em>concipitur</em>",
+       "Genitive",
+       "Ablative",
+       "Vocative"
+      ],
+      "answer": 3,
+      "explain": "The poet addresses Venus."
+     },
+     {
+      "prompt": "What does <em>subter</em> take?",
+      "options": [
+       "The accusative",
+       "The ablative, as <em>sub</em> does of rest",
+       "The genitive",
+       "The dative"
+      ],
+      "answer": 0,
+      "explain": "<em>Subter labentia signa</em>."
+     },
+     {
+      "prompt": "Where does <em>quoniam</em> stand in its clause?",
+      "options": [
+       "First, as the conjunction always does",
+       "Second",
+       "Last",
+       "After the verb"
+      ],
+      "answer": 1,
+      "explain": "<em>Per te quoniam …</em>: it stands second."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-43",
@@ -253,8 +481,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-50",
-   "title": "Ovid, <i>Fasti</i> III.1–4 · Elegiac couplet",
-   "body": "<p>Bellice, depositis clipeo paulisper et hasta,<br>Mars, ades et nitidas casside solve comas,<br>forsitan ipse roges, quid sit cum Marte poetae:<br>a te, qui canitur, nomina mensis habet.</p><p>Warlike one, your shield and your spear having been laid aside for a little while,<br>Mars, be present, and loose your shining hair from the helmet.<br>Perhaps you yourself may ask what a poet has to do with Mars:<br>the month that is sung of has its name from you.</p><p><strong>Context.</strong> Ovid opens the third book of the <em>Fasti</em>, on the month of March, by asking Mars to set his arms aside, because the month has its name from him. The meter is the elegiac couplet.</p>"
+   "title": "Ovid, <em>Fasti</em> III.1–4 · Elegiac couplet",
+   "body": "<p>Bellice, depositis clipeo paulisper et hasta,<br>Mars, ades et nitidas casside solve comas,<br>forsitan ipse roges, quid sit cum Marte poetae:<br>a te, qui canitur, nomina mensis habet.</p><p>Warlike one, your shield and your spear having been laid aside for a little while,<br>Mars, be present, and loose your shining hair from the helmet.<br>Perhaps you yourself may ask what a poet has to do with Mars:<br>the month that is sung of has its name from you.</p><p><strong>Context.</strong> Ovid opens the third book of the <em>Fasti</em>, on the month of March, by asking Mars to set his arms aside, because the month has its name from him. The meter is the elegiac couplet.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-50",
+    "variants": [
+     {
+      "prompt": "What is <em>solve</em>?",
+      "options": [
+       "An imperative",
+       "An infinitive, “to loose,” after <em>ades</em>",
+       "A participle",
+       "A subjunctive"
+      ],
+      "answer": 0,
+      "explain": "“Loose your shining hair.”"
+     },
+     {
+      "prompt": "What makes <em>roges</em> subjunctive?",
+      "options": [
+       "<em>quid</em>, which asks a question",
+       "<em>ipse</em>",
+       "<em>Marte</em>",
+       "<em>forsitan</em>"
+      ],
+      "answer": 3,
+      "explain": "It is subjunctive with <em>forsitan</em>, “perhaps.”"
+     },
+     {
+      "prompt": "Why is <em>depositis</em> plural?",
+      "options": [
+       "It agrees with <em>comas</em>, the hair, which is plural",
+       "It agrees with Mars",
+       "It belongs to both the shield and the spear",
+       "It is a neuter plural of the object"
+      ],
+      "answer": 2,
+      "explain": "The participle goes with <em>clipeo</em> and <em>hasta</em> together."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-51",
@@ -283,8 +549,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-56",
-   "title": "Martial, <i>Epigrammata</i> I.32 · Elegiac couplet",
-   "body": "<p>Non amo te, Sabidi, nec possum dicere quare:<br>hoc tantum possum dicere, non amo te.</p><p>I do not love you, Sabidius, nor can I say why; I can only say this, I do not love you.<br>— Bohn’s Classical Library</p><p><strong>Context.</strong> Martial wrote short poems with a turn at the end. This one, of a single elegiac couplet, says the same thing at its beginning and at its end.</p>"
+   "title": "Martial, <em>Epigrammata</em> I.32 · Elegiac couplet",
+   "body": "<p>Non amo te, Sabidi, nec possum dicere quare:<br>hoc tantum possum dicere, non amo te.</p><p>I do not love you, Sabidius, nor can I say why; I can only say this, I do not love you.<br>— Bohn’s Classical Library</p><p><strong>Context.</strong> Martial wrote short poems with a turn at the end. This one, of a single elegiac couplet, says the same thing at its beginning and at its end.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-56",
+    "variants": [
+     {
+      "prompt": "What does <em>non</em> negate in <em>Non amo te</em>?",
+      "options": [
+       "<em>te</em>, the person who is not loved",
+       "The whole couplet",
+       "<em>amo</em>",
+       "Nothing"
+      ],
+      "answer": 2,
+      "explain": "<em>Non</em> negates the verb."
+     },
+     {
+      "prompt": "What is the verb of the question <em>quare</em>?",
+      "options": [
+       "<em>possum</em>, which stands before it",
+       "Understood",
+       "<em>amo</em>, written out",
+       "<em>dicere</em>"
+      ],
+      "answer": 1,
+      "explain": "The verb of its question is understood: why I do not love you."
+     },
+     {
+      "prompt": "What is <em>hoc</em>?",
+      "options": [
+       "The object of <em>dicere</em>",
+       "The subject of <em>possum</em>, the thing that can be said",
+       "An adverb",
+       "An ablative"
+      ],
+      "answer": 0,
+      "explain": "It points to what follows."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-57",
@@ -313,8 +617,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-62",
-   "title": "Juvenal, <i>Saturae</i> X.356–358 · Dactylic hexameter",
-   "body": "<p>orandum est ut sit mens sana in corpore sano.<br>fortem posce animum mortis terrore carentem,<br>qui spatium vitae extremum inter munera ponat<br>naturae, …</p><p>… you should pray for a sound mind in a sound body; for a stout heart that has no fear of death, and deems length of days the least of Nature’s gifts …<br>— Ramsay</p><p><strong>Context.</strong> Juvenal’s tenth satire shows how the things men pray for, wealth, power, eloquence, long life, and beauty, ruin them. At its close he says what may rightly be asked of the gods. The meter is the dactylic hexameter.</p>"
+   "title": "Juvenal, <em>Saturae</em> X.356–358 · Dactylic hexameter",
+   "body": "<p>orandum est ut sit mens sana in corpore sano.<br>fortem posce animum mortis terrore carentem,<br>qui spatium vitae extremum inter munera ponat<br>naturae, …</p><p>… you should pray for a sound mind in a sound body; for a stout heart that has no fear of death, and deems length of days the least of Nature’s gifts …<br>— Ramsay</p><p><strong>Context.</strong> Juvenal’s tenth satire shows how the things men pray for, wealth, power, eloquence, long life, and beauty, ruin them. At its close he says what may rightly be asked of the gods. The meter is the dactylic hexameter.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-62",
+    "variants": [
+     {
+      "prompt": "What does <em>orandum est</em> say?",
+      "options": [
+       "What has been done in the past by those who pray",
+       "What must be done",
+       "What will happen",
+       "Who prays"
+      ],
+      "answer": 1,
+      "explain": "The impersonal gerundive: one must pray."
+     },
+     {
+      "prompt": "What is <em>posce</em>?",
+      "options": [
+       "The present infinitive, “to ask for”",
+       "The subjunctive",
+       "The imperative singular",
+       "The participle"
+      ],
+      "answer": 2,
+      "explain": "“Ask for.”"
+     },
+     {
+      "prompt": "What does <em>careo</em> take?",
+      "options": [
+       "The genitive of the thing lacked, <em>mortis</em>",
+       "The accusative",
+       "The dative",
+       "The ablative"
+      ],
+      "answer": 3,
+      "explain": "<em>Terrore</em> is ablative with <em>carentem</em>."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-63",
@@ -343,8 +685,46 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-68",
-   "title": "Venantius Fortunatus, <i>Vexilla regis</i> 1–8 · Iambic dimeter",
-   "body": "<p>Vexilla regis prodeunt,<br>fulget crucis mysterium,<br>quo carne carnis conditor<br>suspensus est patibulo.<br>Quo vulneratus insuper<br>mucrone diro lanceae,<br>ut nos lavaret crimine,<br>manavit unda et sanguine.</p><p>The banners of the king go forth,<br>the mystery of the cross shines,<br>on which the maker of flesh, in the flesh,<br>was hung on the gibbet.<br>Where, wounded moreover<br>by the cruel point of the lance,<br>that he might wash us from sin,<br>he flowed with water and blood.</p><p><strong>Context.</strong> Venantius Fortunatus, a poet of sixth-century Gaul, wrote this hymn when a relic of the cross was brought to Poitiers. It was later sung in Passiontide. The meter is the iambic dimeter of the Ambrosian hymns.</p>"
+   "title": "Venantius Fortunatus, <em>Vexilla regis</em> 1–8 · Iambic dimeter",
+   "body": "<p>Vexilla regis prodeunt,<br>fulget crucis mysterium,<br>quo carne carnis conditor<br>suspensus est patibulo.<br>Quo vulneratus insuper<br>mucrone diro lanceae,<br>ut nos lavaret crimine,<br>manavit unda et sanguine.</p><p>The banners of the king go forth,<br>the mystery of the cross shines,<br>on which the maker of flesh, in the flesh,<br>was hung on the gibbet.<br>Where, wounded moreover<br>by the cruel point of the lance,<br>that he might wash us from sin,<br>he flowed with water and blood.</p><p><strong>Context.</strong> Venantius Fortunatus, a poet of sixth-century Gaul, wrote this hymn when a relic of the cross was brought to Poitiers. It was later sung in Passiontide. The meter is the iambic dimeter of the Ambrosian hymns.</p>",
+   "qp": {
+    "id": "q-la-ixv-poetry-68",
+    "variants": [
+     {
+      "prompt": "What is the subject of <em>fulget</em>?",
+      "options": [
+       "<em>crucis</em>, the cross whose mystery shines",
+       "<em>vexilla</em>",
+       "<em>regis</em>",
+       "<em>mysterium</em>"
+      ],
+      "answer": 3,
+      "explain": "The mystery of the cross shines."
+     },
+     {
+      "prompt": "What tense and voice is <em>suspensus est</em>?",
+      "options": [
+       "Perfect passive",
+       "Present active, with the participle as an adjective",
+       "Imperfect passive",
+       "Future perfect"
+      ],
+      "answer": 0,
+      "explain": "“Was hung.”"
+     },
+     {
+      "prompt": "What does <em>manavit</em> take?",
+      "options": [
+       "The accusative of what flowed",
+       "The ablatives <em>unda</em> and <em>sanguine</em>",
+       "The dative",
+       "A clause with <em>ut</em>"
+      ],
+      "answer": 1,
+      "explain": "He flowed with water and blood."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-69",

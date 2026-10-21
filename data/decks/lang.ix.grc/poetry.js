@@ -4,12 +4,50 @@ ARS.decks["lang.ix.grc/poetry"] = {
  "id": "lang.ix.grc/poetry",
  "title": "Greek Poetry",
  "sub": "Ten passages in four meters, read part by part",
- "sources": "Smyth, <i>Greek Grammar</i>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
+ "sources": "Smyth, <em>Greek Grammar</em>; the translations of Homer, Sophocles, the Thermopylae epitaph, Euripides, Aeschylus, and Melinno are the course’s own plain renderings, line by line",
  "panels": [
   {
    "id": "poetry-1",
-   "title": "Homer, <i>Iliad</i> 1.1–7 · Dactylic hexameter",
-   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>Sing, goddess, the wrath of Achilles son of Peleus,<br>the accursed wrath, which laid countless pains on the Achaeans,<br>and sent forth many mighty souls to Hades,<br>souls of heroes, and made the men themselves a prey for dogs<br>and for all birds, and the will of Zeus was being fulfilled,<br>from the time when the two first quarreled and stood apart,<br>the son of Atreus, lord of men, and godlike Achilles.</p><p><strong>Context.</strong> The <i>Iliad</i> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>"
+   "title": "Homer, <em>Iliad</em> 1.1–7 · Dactylic hexameter",
+   "body": "<p>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος<br>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,<br>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν<br>ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν<br>οἰωνοῖσί τε πᾶσι, Διὸς δʼ ἐτελείετο βουλή,<br>ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε<br>Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</p><p>Sing, goddess, the wrath of Achilles son of Peleus,<br>the accursed wrath, which laid countless pains on the Achaeans,<br>and sent forth many mighty souls to Hades,<br>souls of heroes, and made the men themselves a prey for dogs<br>and for all birds, and the will of Zeus was being fulfilled,<br>from the time when the two first quarreled and stood apart,<br>the son of Atreus, lord of men, and godlike Achilles.</p><p><strong>Context.</strong> The <em>Iliad</em> opens by naming its subject, the wrath of Achilles, and asking the goddess to sing it. Homer’s language is older than Attic, and its forms differ. The meter is the dactylic hexameter, and we measured the first line in Section II.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-1",
+    "variants": [
+     {
+      "prompt": "What case is <em>θεά</em>?",
+      "options": [
+       "Nominative, the subject of <em>ἄειδε</em>",
+       "Vocative",
+       "Dative",
+       "Accusative"
+      ],
+      "answer": 1,
+      "explain": "The poet calls on the goddess."
+     },
+     {
+      "prompt": "What does <em>οὐλομένην</em> agree with?",
+      "options": [
+       "<em>Ἀχιλῆος</em>, the hero whose wrath it is",
+       "<em>θεά</em>",
+       "<em>μῆνιν</em>",
+       "<em>ψυχάς</em>"
+      ],
+      "answer": 2,
+      "explain": "“Accursed,” of the wrath, held over into the second line."
+     },
+     {
+      "prompt": "What does the imperfect <em>ἐτελείετο</em> present?",
+      "options": [
+       "A single act completed at one moment",
+       "A future event",
+       "A wish",
+       "The will of Zeus as being fulfilled throughout"
+      ],
+      "answer": 3,
+      "explain": "The imperfect presents the action as going on."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-2",
@@ -48,8 +86,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-9",
-   "title": "Homer, <i>Odyssey</i> 1.1–5 · Dactylic hexameter",
-   "body": "<p>ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ<br>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν·<br>πολλῶν δʼ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,<br>πολλὰ δʼ ὅ γʼ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,<br>ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.</p><p>Tell me, Muse, of the man of many ways, who was driven to wander<br>very far, after he sacked the holy city of Troy;<br>and he saw the cities of many men and came to know their mind,<br>and on the sea he suffered many pains in his heart,<br>striving to win his own life and the return of his comrades.</p><p><strong>Context.</strong> The <i>Odyssey</i> opens as the <i>Iliad</i> does, with its subject and a call to the Muse: the man of many turns, who wandered after the fall of Troy.</p>"
+   "title": "Homer, <em>Odyssey</em> 1.1–5 · Dactylic hexameter",
+   "body": "<p>ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ<br>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν·<br>πολλῶν δʼ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,<br>πολλὰ δʼ ὅ γʼ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,<br>ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.</p><p>Tell me, Muse, of the man of many ways, who was driven to wander<br>very far, after he sacked the holy city of Troy;<br>and he saw the cities of many men and came to know their mind,<br>and on the sea he suffered many pains in his heart,<br>striving to win his own life and the return of his comrades.</p><p><strong>Context.</strong> The <em>Odyssey</em> opens as the <em>Iliad</em> does, with its subject and a call to the Muse: the man of many turns, who wandered after the fall of Troy.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-9",
+    "variants": [
+     {
+      "prompt": "What does <em>πολύτροπον</em> agree with?",
+      "options": [
+       "<em>μοῦσα</em>, the Muse who is called on",
+       "<em>ἄνδρα</em>",
+       "<em>μοι</em>",
+       "<em>πτολίεθρον</em>"
+      ],
+      "answer": 1,
+      "explain": "The man of many ways."
+     },
+     {
+      "prompt": "What does <em>ἐπεί</em> with the aorist <em>ἔπερσεν</em> make?",
+      "options": [
+       "A clause of cause in the subjunctive",
+       "A condition",
+       "A clause of time",
+       "A purpose clause"
+      ],
+      "answer": 2,
+      "explain": "“After he sacked the holy city of Troy.”"
+     },
+     {
+      "prompt": "What is <em>ἥν</em> in <em>ἥν τε ψυχήν</em>?",
+      "options": [
+       "The relative pronoun, “which,” in the accusative",
+       "The article",
+       "A conjunction",
+       "The Homeric possessive, “his own”"
+      ],
+      "answer": 3,
+      "explain": "<em>Ἥν</em> here is the possessive."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-10",
@@ -78,8 +154,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-15",
-   "title": "Sophocles, <i>Oedipus Tyrannus</i> 1–5 · Iambic trimeter",
-   "body": "<p>ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,<br>τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε<br>ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;<br>πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,<br>ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων·</p><p>O children, young brood of Cadmus of old,<br>what is this sitting of yours before me in these seats,<br>wreathed with suppliant branches?<br>And the city is full at once of incense,<br>and at once of paeans and of groans;</p><p><strong>Context.</strong> The play opens at Thebes, which is struck by plague. The king, Oedipus, speaks to the suppliants before his palace. The spoken lines of Greek tragedy are iambic trimeters, and the first line of this play was measured in the study of Greek meter.</p>"
+   "title": "Sophocles, <em>Oedipus Tyrannus</em> 1–5 · Iambic trimeter",
+   "body": "<p>ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,<br>τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε<br>ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;<br>πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,<br>ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων·</p><p>O children, young brood of Cadmus of old,<br>what is this sitting of yours before me in these seats,<br>wreathed with suppliant branches?<br>And the city is full at once of incense,<br>and at once of paeans and of groans;</p><p><strong>Context.</strong> The play opens at Thebes, which is struck by plague. The king, Oedipus, speaks to the suppliants before his palace. The spoken lines of Greek tragedy are iambic trimeters, and the first line of this play was measured in the study of Greek meter.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-15",
+    "variants": [
+     {
+      "prompt": "What stands in apposition to <em>ὦ τέκνα</em>?",
+      "options": [
+       "<em>νέα τροφή</em>",
+       "<em>Κάδμου τοῦ πάλαι</em>, the genitive of the founder",
+       "<em>ἕδρας</em>",
+       "<em>πόλις</em>"
+      ],
+      "answer": 0,
+      "explain": "“Young brood.”"
+     },
+     {
+      "prompt": "What kind of dative is <em>μοι</em> in <em>τίνας … μοι θοάζετε</em>?",
+      "options": [
+       "The indirect object of a verb of giving",
+       "A dative of means",
+       "A dative of time",
+       "An ethic dative"
+      ],
+      "answer": 3,
+      "explain": "It shows the speaker’s interest."
+     },
+     {
+      "prompt": "What kind of dative is <em>ἱκτηρίοις κλάδοισιν</em>?",
+      "options": [
+       "A dative of the persons for whom the suppliants sit",
+       "A dative of place",
+       "A dative of means",
+       "A dative of possession"
+      ],
+      "answer": 2,
+      "explain": "“With suppliant branches.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-16",
@@ -108,8 +222,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-21",
-   "title": "Hesiod, <i>Works and Days</i> 1–4 · Dactylic hexameter",
-   "body": "<p>μοῦσαι Πιερίηθεν ἀοιδῇσιν κλείουσαι<br>δεῦτε, Δίʼ ἐννέπετε, σφέτερον πατέρʼ ὑμνείουσαι·<br>ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε,<br>ῥητοί τʼ ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.</p><p>Muses of Pieria who give glory through song, come hither, tell of Zeus your father and chant his praise. Through him mortal men are famed or un-famed, sung or unsung alike, as great Zeus wills.<br>— Hugh G. Evelyn-White</p><p><strong>Context.</strong> Hesiod’s poem on work and the farmer’s year opens with a hymn to Zeus. Like Homer, Hesiod writes in hexameters and in the epic dialect.</p>"
+   "title": "Hesiod, <em>Works and Days</em> 1–4 · Dactylic hexameter",
+   "body": "<p>μοῦσαι Πιερίηθεν ἀοιδῇσιν κλείουσαι<br>δεῦτε, Δίʼ ἐννέπετε, σφέτερον πατέρʼ ὑμνείουσαι·<br>ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε,<br>ῥητοί τʼ ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.</p><p>Muses of Pieria who give glory through song, come hither, tell of Zeus your father and chant his praise. Through him mortal men are famed or un-famed, sung or unsung alike, as great Zeus wills.<br>— Hugh G. Evelyn-White</p><p><strong>Context.</strong> Hesiod’s poem on work and the farmer’s year opens with a hymn to Zeus. Like Homer, Hesiod writes in hexameters and in the epic dialect.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-21",
+    "variants": [
+     {
+      "prompt": "What does <em>Πιερίηθεν</em> mean?",
+      "options": [
+       "“to Pieria,” the place to which the Muses come",
+       "“in Pieria”",
+       "“of Pieria”",
+       "“from Pieria”"
+      ],
+      "answer": 3,
+      "explain": "The suffix <em>-θεν</em> means “from.”"
+     },
+     {
+      "prompt": "What is <em>Δί’</em> in <em>Δί’ ἐννέπετε</em>?",
+      "options": [
+       "<em>Δία</em> with its vowel elided",
+       "The preposition <em>διά</em>, “through”",
+       "A dative",
+       "A particle"
+      ],
+      "answer": 0,
+      "explain": "“Tell of Zeus.”"
+     },
+     {
+      "prompt": "What agrees with the Muses in <em>κλείουσαι</em>?",
+      "options": [
+       "The verb <em>ἐννέπετε</em>, as a second imperative",
+       "The participle itself",
+       "<em>ἀοιδῇσιν</em>",
+       "<em>πατέρα</em>"
+      ],
+      "answer": 1,
+      "explain": "<em>Κλείουσαι</em>, “glorifying,” agrees with <em>μοῦσαι</em>."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-22",
@@ -133,8 +285,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-26",
-   "title": "Simonides (ascribed), <i>Epitaph for the Spartans at Thermopylae</i> in Herodotus 7.228 · Elegiac couplet",
-   "body": "<p>ὦ ξεῖνʼ, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε<br>κείμεθα τοῖς κείνων ῥήμασι πειθόμενοι.</p><p>Stranger, tell the Spartans that here<br>we lie, obeying their words.</p><p><strong>Context.</strong> Herodotus quotes this epitaph for the Spartans who died at Thermopylae in 480 BC. It is an elegiac couplet: a hexameter and a pentameter.</p>"
+   "title": "Simonides (ascribed), <em>Epitaph for the Spartans at Thermopylae</em> in Herodotus 7.228 · Elegiac couplet",
+   "body": "<p>ὦ ξεῖνʼ, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε<br>κείμεθα τοῖς κείνων ῥήμασι πειθόμενοι.</p><p>Stranger, tell the Spartans that here<br>we lie, obeying their words.</p><p><strong>Context.</strong> Herodotus quotes this epitaph for the Spartans who died at Thermopylae in 480 BC. It is an elegiac couplet: a hexameter and a pentameter.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-26",
+    "variants": [
+     {
+      "prompt": "What is <em>ξεῖν’</em>?",
+      "options": [
+       "The nominative <em>ξεῖνος</em>, the subject of the couplet",
+       "A dative",
+       "The vocative <em>ξεῖνε</em>, elided",
+       "A verb"
+      ],
+      "answer": 2,
+      "explain": "“Stranger,” with its last vowel elided."
+     },
+     {
+      "prompt": "What does <em>ὅτι</em> introduce?",
+      "options": [
+       "The reason for the Spartans’ death at the pass",
+       "What is to be told",
+       "A condition",
+       "A purpose"
+      ],
+      "answer": 1,
+      "explain": "“That here we lie.”"
+     },
+     {
+      "prompt": "What tense is <em>κείμεθα</em>?",
+      "options": [
+       "Present",
+       "Aorist, of their death in battle",
+       "Future",
+       "Perfect"
+      ],
+      "answer": 0,
+      "explain": "“We lie.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-27",
@@ -158,8 +348,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-31",
-   "title": "Melinno, <i>Hymn to Rome</i> 1–4 · Sapphic stanza",
-   "body": "<p>χαῖρέ μοι, Ῥώμα, θυγάτηρ Ἄρηος,<br>χρυσεομίτρα δαΐφρων ἄνασσα,<br>σεμνὸν ἃ ναίεις ἐπὶ γᾶς Ὄλυμπον<br>αἰὲν ἄθραυστον.</p><p>Hail, Rome, daughter of Ares,<br>golden-mitred warlike queen,<br>you who dwell on a holy Olympus upon the earth,<br>forever unbroken.</p><p><strong>Context.</strong> Melinno’s hymn to Rome is preserved by Stobaeus. The meter is the sapphic stanza: three lines of the pattern — ᴗ — x — ᴗ ᴗ — ᴗ — x and a short fourth line, the adonean, — ᴗ ᴗ — x. The dialect is Doric, so long <em>ā</em> stands where Attic has <em>η</em>.</p>"
+   "title": "Melinno, <em>Hymn to Rome</em> 1–4 · Sapphic stanza",
+   "body": "<p>χαῖρέ μοι, Ῥώμα, θυγάτηρ Ἄρηος,<br>χρυσεομίτρα δαΐφρων ἄνασσα,<br>σεμνὸν ἃ ναίεις ἐπὶ γᾶς Ὄλυμπον<br>αἰὲν ἄθραυστον.</p><p>Hail, Rome, daughter of Ares,<br>golden-mitred warlike queen,<br>you who dwell on a holy Olympus upon the earth,<br>forever unbroken.</p><p><strong>Context.</strong> Melinno’s hymn to Rome is preserved by Stobaeus. The meter is the sapphic stanza: three lines of the pattern — ᴗ — x — ᴗ ᴗ — ᴗ — x and a short fourth line, the adonean, — ᴗ ᴗ — x. The dialect is Doric, so long <em>ā</em> stands where Attic has <em>η</em>.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-31",
+    "variants": [
+     {
+      "prompt": "Why do <em>Ῥώμα</em> and <em>γᾶς</em> have long <em>ā</em>?",
+      "options": [
+       "The meter lengthens the vowel in every Sapphic line",
+       "They are Attic forms",
+       "The dialect is Doric",
+       "They are plural"
+      ],
+      "answer": 2,
+      "explain": "Doric keeps long <em>ā</em> where Attic has <em>η</em>."
+     },
+     {
+      "prompt": "What is the Attic form of <em>γᾶς</em>?",
+      "options": [
+       "<em>γαίης</em>, the epic genitive",
+       "<em>γῆς</em>",
+       "<em>γᾶ</em>",
+       "<em>γῇ</em>"
+      ],
+      "answer": 1,
+      "explain": "Attic <em>γῆς</em>, “of the earth.”"
+     },
+     {
+      "prompt": "Why is the accent of <em>χαῖρε</em> drawn to the last syllable in <em>χαῖρέ μοι</em>?",
+      "options": [
+       "<em>μοι</em> is enclitic",
+       "<em>χαῖρε</em> is an imperative of the aorist",
+       "The meter requires it",
+       "<em>μοι</em> is emphatic"
+      ],
+      "answer": 0,
+      "explain": "An enclitic throws its accent back."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-32",
@@ -188,8 +416,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-37",
-   "title": "Euripides, <i>Medea</i> 1–6 · Iambic trimeter",
-   "body": "<p>Εἴθ᾽ ὤφελ᾽ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ᾽ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, μηδ᾽ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>Would that the hull of the Argo had not flown through<br>the dark Symplegades to the land of the Colchians,<br>nor that ever in the glens of Pelion had fallen<br>the pine, cut down, nor had furnished with oars the hands<br>of the best of men, who went after the all-golden fleece<br>for Pelias.</p><p><strong>Context.</strong> The Nurse opens the play with a wish that the past had been otherwise. The verse is iambic trimeter, that is, three pairs of iambs: x — ᴗ — | x — ᴗ — | x — ᴗ —. We met these lines in Section V, where the English translation turns the third infinitive into a clause of purpose.</p>"
+   "title": "Euripides, <em>Medea</em> 1–6 · Iambic trimeter",
+   "body": "<p>Εἴθ᾽ ὤφελ᾽ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ᾽ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, μηδ᾽ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>Would that the hull of the Argo had not flown through<br>the dark Symplegades to the land of the Colchians,<br>nor that ever in the glens of Pelion had fallen<br>the pine, cut down, nor had furnished with oars the hands<br>of the best of men, who went after the all-golden fleece<br>for Pelias.</p><p><strong>Context.</strong> The Nurse opens the play with a wish that the past had been otherwise. The verse is iambic trimeter, that is, three pairs of iambs: x — ᴗ — | x — ᴗ — | x — ᴗ —. We met these lines in Section V, where the English translation turns the third infinitive into a clause of purpose.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-37",
+    "variants": [
+     {
+      "prompt": "What is <em>ὤφελε</em>?",
+      "options": [
+       "The aorist of <em>ὀφείλω</em>, “ought”",
+       "The present of <em>ὠφελέω</em>, “help”",
+       "An imperative",
+       "An optative"
+      ],
+      "answer": 0,
+      "explain": "<em>Εἴθ’ ὤφελε</em> with the infinitive expresses an unattainable wish."
+     },
+     {
+      "prompt": "What does <em>μηδέ</em> add?",
+      "options": [
+       "A reason for the first wish",
+       "A question",
+       "A condition",
+       "A second wish"
+      ],
+      "answer": 3,
+      "explain": "Nor that the pine had fallen."
+     },
+     {
+      "prompt": "What case is <em>Πελίᾳ</em>?",
+      "options": [
+       "Genitive, “of Pelias,” with <em>δέρας</em>",
+       "Nominative",
+       "Dative",
+       "Accusative"
+      ],
+      "answer": 2,
+      "explain": "“For Pelias.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-38",
@@ -218,8 +484,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-43",
-   "title": "Aeschylus, <i>Agamemnon</i> 1–3 · Iambic trimeter",
-   "body": "<p>θεοὺς μὲν αἰτῶ τῶνδ᾽ ἀπαλλαγὴν πόνων<br>φρουρᾶς ἐτείας μῆκος, ἣν κοιμώμενος<br>στέγαις Ἀτρειδῶν ἄγκαθεν, κυνὸς δίκην,</p><p>I ask the gods for release from these toils,<br>the length of a year-long watch, in which, lying<br>on the roof of the sons of Atreus, on my elbows, like a dog,</p><p><strong>Context.</strong> The watchman speaks on the roof of the palace at Argos. <em>Αἰτῶ</em> takes two accusatives, and the relative clause runs on past the third line.</p>"
+   "title": "Aeschylus, <em>Agamemnon</em> 1–3 · Iambic trimeter",
+   "body": "<p>θεοὺς μὲν αἰτῶ τῶνδ᾽ ἀπαλλαγὴν πόνων<br>φρουρᾶς ἐτείας μῆκος, ἣν κοιμώμενος<br>στέγαις Ἀτρειδῶν ἄγκαθεν, κυνὸς δίκην,</p><p>I ask the gods for release from these toils,<br>the length of a year-long watch, in which, lying<br>on the roof of the sons of Atreus, on my elbows, like a dog,</p><p><strong>Context.</strong> The watchman speaks on the roof of the palace at Argos. <em>Αἰτῶ</em> takes two accusatives, and the relative clause runs on past the third line.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-43",
+    "variants": [
+     {
+      "prompt": "What kind of genitive is <em>τῶνδε … πόνων</em>?",
+      "options": [
+       "Of possession, the toils belonging to the watchman",
+       "Of time",
+       "Of comparison",
+       "Of separation"
+      ],
+      "answer": 3,
+      "explain": "Release from these toils."
+     },
+     {
+      "prompt": "What does <em>μῆκος</em> restate?",
+      "options": [
+       "<em>πόνων</em>",
+       "<em>θεούς</em>, the gods who are asked",
+       "<em>φρουρᾶς</em>",
+       "<em>στέγαις</em>"
+      ],
+      "answer": 0,
+      "explain": "The length of a year-long watch, in the accusative."
+     },
+     {
+      "prompt": "What does <em>δίκην</em> with the genitive mean?",
+      "options": [
+       "“as a penalty for,” the sense of the noun",
+       "“in the manner of”",
+       "“because of”",
+       "“instead of”"
+      ],
+      "answer": 1,
+      "explain": "<em>Κυνὸς δίκην</em>, “like a dog.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-44",
@@ -243,8 +547,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-48",
-   "title": "Callimachus, <i>Epigrams</i> 2.1–3 · Elegiac couplet",
-   "body": "<p>εἶπέ τις, Ἡράκλειτε, τεὸν μόρον, ἐς δέ με δάκρυ<br>ἤγαγεν, ἐμνήσθην δ᾽ ὁσσάκις ἀμφότεροι<br>ἥλιον ἐν λέσχῃ κατεδύσαμεν …</p><p>One told me of your fate, Heraclitus, and wrung me to tears, and I remembered how often both of us let the sun sink as we talked; …<br>— J. W. Mackail</p><p><strong>Context.</strong> Callimachus mourns his friend Heraclitus of Halicarnassus. The elegiac couplet joins a hexameter to a pentameter; the sentence runs on past the third line.</p>"
+   "title": "Callimachus, <em>Epigrams</em> 2.1–3 · Elegiac couplet",
+   "body": "<p>εἶπέ τις, Ἡράκλειτε, τεὸν μόρον, ἐς δέ με δάκρυ<br>ἤγαγεν, ἐμνήσθην δ᾽ ὁσσάκις ἀμφότεροι<br>ἥλιον ἐν λέσχῃ κατεδύσαμεν …</p><p>One told me of your fate, Heraclitus, and wrung me to tears, and I remembered how often both of us let the sun sink as we talked; …<br>— J. W. Mackail</p><p><strong>Context.</strong> Callimachus mourns his friend Heraclitus of Halicarnassus. The elegiac couplet joins a hexameter to a pentameter; the sentence runs on past the third line.</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-48",
+    "variants": [
+     {
+      "prompt": "What is <em>Ἡράκλειτε</em>?",
+      "options": [
+       "Nominative, the subject of <em>εἶπε</em>",
+       "Genitive",
+       "Vocative",
+       "Accusative"
+      ],
+      "answer": 2,
+      "explain": "The poet addresses his dead friend."
+     },
+     {
+      "prompt": "What does <em>ὁσσάκις</em> mean?",
+      "options": [
+       "“how much,” of the tears",
+       "“how often”",
+       "“once”",
+       "“where”"
+      ],
+      "answer": 1,
+      "explain": "With the epic double <em>σ</em>."
+     },
+     {
+      "prompt": "What tense is <em>εἶπε</em>?",
+      "options": [
+       "Aorist",
+       "Imperfect, of a report repeated",
+       "Present",
+       "Perfect"
+      ],
+      "answer": 0,
+      "explain": "“Someone told.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-49",
@@ -268,8 +610,46 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-53",
-   "title": "Plato (ascribed), <i>Epigram on Aster</i> Anth. Pal. 7.670 · Elegiac couplet",
-   "body": "<p>ἀστὴρ πρὶν μὲν ἔλαμπες ἐνὶ ζωοῖσιν Ἑῷος·<br>νῦν δὲ θανὼν λάμπεις Ἕσπερος ἐν φθιμένοις.</p><p>Morning Star that once did shine among the living, now deceased you shine the Evening Star among the dead.<br>— J. W. Mackail</p><p><strong>Context.</strong> The epigram is a single elegiac couplet, in which the hexameter tells of the living and the pentameter of the dead. <em>Μέν</em> and <em>δέ</em> set the two lines against each other, and the name Aster means “star.”</p>"
+   "title": "Plato (ascribed), <em>Epigram on Aster</em> Anth. Pal. 7.670 · Elegiac couplet",
+   "body": "<p>ἀστὴρ πρὶν μὲν ἔλαμπες ἐνὶ ζωοῖσιν Ἑῷος·<br>νῦν δὲ θανὼν λάμπεις Ἕσπερος ἐν φθιμένοις.</p><p>Morning Star that once did shine among the living, now deceased you shine the Evening Star among the dead.<br>— J. W. Mackail</p><p><strong>Context.</strong> The epigram is a single elegiac couplet, in which the hexameter tells of the living and the pentameter of the dead. <em>Μέν</em> and <em>δέ</em> set the two lines against each other, and the name Aster means “star.”</p>",
+   "qp": {
+    "id": "q-grc-ixv-poetry-53",
+    "variants": [
+     {
+      "prompt": "What tense is <em>λάμπεις</em>?",
+      "options": [
+       "Imperfect, like <em>ἔλαμπες</em> in the first line",
+       "Aorist",
+       "Present",
+       "Future"
+      ],
+      "answer": 2,
+      "explain": "“You shine,” now among the dead."
+     },
+     {
+      "prompt": "What is <em>ἐνί</em>?",
+      "options": [
+       "A form of the numeral “one,” <em>ἕνα</em>",
+       "Epic for <em>ἐν</em>",
+       "A dative",
+       "An adverb"
+      ],
+      "answer": 1,
+      "explain": "<em>Ἐνὶ ζωοῖσιν</em>, “among the living.”"
+     },
+     {
+      "prompt": "What do <em>μέν</em> and <em>δέ</em> set against each other?",
+      "options": [
+       "The two lines, the living and the dead",
+       "The morning star and the sun, in one line",
+       "Two persons",
+       "Two cities"
+      ],
+      "answer": 0,
+      "explain": "The hexameter tells of the living and the pentameter of the dead."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-54",

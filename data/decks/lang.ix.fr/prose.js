@@ -8,8 +8,46 @@ ARS.decks["lang.ix.fr/prose"] = {
  "panels": [
   {
    "id": "prose-1",
-   "title": "Descartes, <i>Discours de la méthode</i> I",
-   "body": "<p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>— John Veitch</p><p><strong>Context.</strong> Descartes opens his <em>Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>"
+   "title": "Descartes, <em>Discours de la méthode</em> I",
+   "body": "<p>Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>— John Veitch</p><p><strong>Context.</strong> Descartes opens his <em>Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-1",
+    "variants": [
+     {
+      "prompt": "What does <em>car</em> give?",
+      "options": [
+       "The result of the first clause, “so that”",
+       "The reason",
+       "A condition",
+       "A contrast"
+      ],
+      "answer": 1,
+      "explain": "<em>Car</em>, “for,” gives the reason."
+     },
+     {
+      "prompt": "Why does <em>pense</em> take the infinitive <em>être</em> directly?",
+      "options": [
+       "<em>Penser</em> always takes <em>de</em> before an infinitive",
+       "It is a passive",
+       "The subject is the same",
+       "It is a question"
+      ],
+      "answer": 2,
+      "explain": "Each thinks himself to be provided."
+     },
+     {
+      "prompt": "What does <em>à contenter</em> complete?",
+      "options": [
+       "<em>ceux</em>, the persons who are hard to satisfy",
+       "<em>chose</em>",
+       "<em>sont</em>",
+       "<em>difficiles</em>"
+      ],
+      "answer": 3,
+      "explain": "Difficult to satisfy."
+     }
+    ]
+   }
   },
   {
    "id": "prose-2",
@@ -33,8 +71,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-6",
-   "title": "Descartes, <i>Discours de la méthode</i> IV",
-   "body": "<p>Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>— John Veitch</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the passé simple of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em>il fallait que</em>.</p>"
+   "title": "Descartes, <em>Discours de la méthode</em> IV",
+   "body": "<p>Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>— John Veitch</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the passé simple of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em>il fallait que</em>.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-6",
+    "variants": [
+     {
+      "prompt": "What tense are <em>voulais</em> and <em>était</em>?",
+      "options": [
+       "Imperfect",
+       "Passé simple, of single past events",
+       "Present",
+       "Conditional"
+      ],
+      "answer": 0,
+      "explain": "They describe what was going on."
+     },
+     {
+      "prompt": "What does <em>il fallait que</em> require?",
+      "options": [
+       "The indicative, since it states a fact",
+       "The infinitive",
+       "The conditional",
+       "The subjunctive"
+      ],
+      "answer": 3,
+      "explain": "After a past main verb the classical language uses the imperfect subjunctive."
+     },
+     {
+      "prompt": "What does <em>assurée</em> agree with?",
+      "options": [
+       "<em>suppositions</em>, the nearer plural noun",
+       "<em>je</em>",
+       "<em>vérité</em>",
+       "<em>sceptiques</em>"
+      ],
+      "answer": 2,
+      "explain": "It is feminine, agreeing with <em>cette vérité</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-7",
@@ -68,8 +144,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-13",
-   "title": "Pascal, <i>Pensées</i> 347",
-   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>— W. F. Trotter</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>"
+   "title": "Pascal, <em>Pensées</em> 347",
+   "body": "<p>L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>— W. F. Trotter</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-13",
+    "variants": [
+     {
+      "prompt": "What does <em>le plus faible de la nature</em> stand in apposition to?",
+      "options": [
+       "<em>l’homme</em>, the subject of the sentence",
+       "<em>l’univers</em>",
+       "<em>un roseau</em>",
+       "<em>une vapeur</em>"
+      ],
+      "answer": 2,
+      "explain": "The superlative describes the reed."
+     },
+     {
+      "prompt": "What does <em>pour</em> with the infinitive give in <em>pour l’écraser</em>?",
+      "options": [
+       "The cause of the universe’s arming",
+       "The purpose",
+       "A condition",
+       "The time"
+      ],
+      "answer": 1,
+      "explain": "To crush him."
+     },
+     {
+      "prompt": "What does <em>l’</em> stand for in <em>pour l’écraser</em>?",
+      "options": [
+       "Man",
+       "The universe, which arms itself",
+       "The vapor",
+       "Nature"
+      ],
+      "answer": 0,
+      "explain": "It refers to <em>l’homme</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-14",
@@ -98,8 +212,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-19",
-   "title": "Montaigne, <i>Essais</i> Au lecteur",
-   "body": "<p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>— Charles Cotton</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>"
+   "title": "Montaigne, <em>Essais</em> Au lecteur",
+   "body": "<p>C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>— Charles Cotton</p><p><strong>Context.</strong> Montaigne prefaces his <em>Essays</em> with a short note to the reader. He addresses him as <em>tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-19",
+    "variants": [
+     {
+      "prompt": "What does <em>C’est ici</em> do?",
+      "options": [
+       "It presents the book",
+       "It asks the reader a question about the book",
+       "It names the author",
+       "It gives a reason"
+      ],
+      "answer": 0,
+      "explain": "“This here is an honest book.”"
+     },
+     {
+      "prompt": "What does <em>y</em> stand for in <em>je ne m’y suis proposé</em>?",
+      "options": [
+       "The reader, the person addressed as <em>tu</em>",
+       "The end",
+       "Montaigne’s family",
+       "The book: “in it”"
+      ],
+      "answer": 3,
+      "explain": "<em>Y</em> stands for the book."
+     },
+     {
+      "prompt": "What does <em>ni</em> continue?",
+      "options": [
+       "An affirmative list of the book’s purposes",
+       "A question",
+       "The negative <em>ne … nulle</em>",
+       "A comparison"
+      ],
+      "answer": 2,
+      "explain": "Neither your service nor my glory."
+     }
+    ]
+   }
   },
   {
    "id": "prose-20",
@@ -123,8 +275,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-24",
-   "title": "Rousseau, <i>Du contrat social</i> I.1",
-   "body": "<p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau opens the first book of the <em>Social Contract</em> with a contrast between what man is by birth and what he is in society.</p>"
+   "title": "Rousseau, <em>Du contrat social</em> I.1",
+   "body": "<p>L’homme est né libre, et partout il est dans les fers. Tel se croit le maître des autres, qui ne laisse pas d’être plus esclave qu’eux.</p><p>Man is born free; and everywhere he is in chains. One thinks himself the master of others, and still remains a greater slave than they.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau opens the first book of the <em>Social Contract</em> with a contrast between what man is by birth and what he is in society.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-24",
+    "variants": [
+     {
+      "prompt": "What is <em>libre</em> in <em>L’homme est né libre</em>?",
+      "options": [
+       "A predicate adjective",
+       "An adverb modifying <em>né</em>",
+       "A noun",
+       "The subject"
+      ],
+      "answer": 0,
+      "explain": "Man is born free."
+     },
+     {
+      "prompt": "Why does <em>partout</em> stand first?",
+      "options": [
+       "Because it is the subject of <em>est</em>",
+       "It is a question",
+       "It begins a clause of time",
+       "For emphasis"
+      ],
+      "answer": 3,
+      "explain": "“Everywhere he is in chains.”"
+     },
+     {
+      "prompt": "What does <em>Tel</em> mean, used alone?",
+      "options": [
+       "“so,” “thus,” as an adverb of manner",
+       "“all”",
+       "“such a one,” “a certain man”",
+       "“none”"
+      ],
+      "answer": 2,
+      "explain": "<em>Tel se croit le maître des autres.</em>"
+     }
+    ]
+   }
   },
   {
    "id": "prose-25",
@@ -148,8 +338,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-29",
-   "title": "Tocqueville, <i>De la démocratie en Amérique</i> Introduction",
-   "body": "<p>Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Among the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>— Henry Reeve</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>"
+   "title": "Tocqueville, <em>De la démocratie en Amérique</em> Introduction",
+   "body": "<p>Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Among the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>— Henry Reeve</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-29",
+    "variants": [
+     {
+      "prompt": "What does <em>nouveaux</em> mean placed after <em>objets</em>?",
+      "options": [
+       "“another,” a different set of objects of the same kind",
+       "“young”",
+       "“recent” in date only",
+       "“novel,” new to the observer"
+      ],
+      "answer": 3,
+      "explain": "Placed after the noun, it means new to me."
+     },
+     {
+      "prompt": "What is <em>aux</em> in <em>aux États-Unis</em>?",
+      "options": [
+       "<em>à</em> + <em>les</em>",
+       "<em>à</em> + <em>le</em>, the masculine singular article",
+       "A form of <em>avoir</em>",
+       "<em>de</em> + <em>les</em>"
+      ],
+      "answer": 0,
+      "explain": "The name of the country is plural."
+     },
+     {
+      "prompt": "What is the subject of the main clause?",
+      "options": [
+       "<em>l’égalité</em>, which is compared",
+       "<em>aucun</em>",
+       "<em>mon attention</em>",
+       "<em>les objets</em>"
+      ],
+      "answer": 1,
+      "explain": "<em>Aucun n’a plus vivement frappé mes regards.</em>"
+     }
+    ]
+   }
   },
   {
    "id": "prose-30",
@@ -173,8 +401,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-34",
-   "title": "Flaubert, <i>Madame Bovary</i> I.1",
-   "body": "<p>Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>— Eleanor Marx-Aveling</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the passé simple.</p>"
+   "title": "Flaubert, <em>Madame Bovary</em> I.1",
+   "body": "<p>Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>— Eleanor Marx-Aveling</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the passé simple.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-34",
+    "variants": [
+     {
+      "prompt": "What does <em>de</em> give in <em>suivi d’un nouveau</em>?",
+      "options": [
+       "The place from which he came",
+       "The agent",
+       "The cause",
+       "The time"
+      ],
+      "answer": 1,
+      "explain": "Followed by a new boy."
+     },
+     {
+      "prompt": "What does <em>qui portait</em> describe?",
+      "options": [
+       "<em>le Proviseur</em>, who entered",
+       "<em>un nouveau</em>",
+       "<em>un garçon de classe</em>",
+       "<em>nous</em>"
+      ],
+      "answer": 2,
+      "explain": "The school servant carried a desk."
+     },
+     {
+      "prompt": "What tense is <em>portait</em>?",
+      "options": [
+       "Passé simple, like <em>entra</em>",
+       "Present",
+       "Passé composé",
+       "Imperfect"
+      ],
+      "answer": 3,
+      "explain": "It describes him."
+     }
+    ]
+   }
   },
   {
    "id": "prose-35",
@@ -198,8 +464,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-39",
-   "title": "Hugo, <i>Les Misérables</i> I.1.1",
-   "body": "<p>En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D——. He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>— Isabel F. Hapgood</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>"
+   "title": "Hugo, <em>Les Misérables</em> I.1.1",
+   "body": "<p>En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D——. He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>— Isabel F. Hapgood</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-39",
+    "variants": [
+     {
+      "prompt": "What does <em>d’environ</em> mean?",
+      "options": [
+       "“of exactly,” giving a precise age",
+       "“since”",
+       "“of about”",
+       "“toward”"
+      ],
+      "answer": 2,
+      "explain": "An old man of about seventy-five."
+     },
+     {
+      "prompt": "What does <em>depuis</em> with the imperfect say?",
+      "options": [
+       "What happened once and was then finished",
+       "What had been going on and still was",
+       "What will happen",
+       "What should have happened"
+      ],
+      "answer": 1,
+      "explain": "English uses the pluperfect: he had occupied."
+     },
+     {
+      "prompt": "What is <em>évêque</em> after <em>était</em>?",
+      "options": [
+       "A noun of office used like an adjective",
+       "The subject of <em>était</em>, placed after the verb",
+       "An apposition",
+       "An object"
+      ],
+      "answer": 0,
+      "explain": "It stands without an article."
+     }
+    ]
+   }
   },
   {
    "id": "prose-40",
@@ -219,7 +523,45 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-43",
    "title": "Declaration of the Rights of Man and of the Citizen, article 1 (1789)",
-   "body": "<p>Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.</p><p>Men are born, and always continue, free and equal in respect of their rights. Civil distinctions, therefore, can be founded only on public utility.<br>— Thomas Paine</p><p><strong>Context.</strong> The National Assembly adopted the Declaration in August 1789. Paine translated it in his <em>Rights of Man</em>, a reply to Burke.</p>"
+   "body": "<p>Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.</p><p>Men are born, and always continue, free and equal in respect of their rights. Civil distinctions, therefore, can be founded only on public utility.<br>— Thomas Paine</p><p><strong>Context.</strong> The National Assembly adopted the Declaration in August 1789. Paine translated it in his <em>Rights of Man</em>, a reply to Burke.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-43",
+    "variants": [
+     {
+      "prompt": "How many verbs share the subject <em>les hommes</em>?",
+      "options": [
+       "One, with <em>demeurent</em> used as an adjective",
+       "Three",
+       "None",
+       "Two"
+      ],
+      "answer": 3,
+      "explain": "<em>Naissent</em> and <em>demeurent</em>."
+     },
+     {
+      "prompt": "What is <em>être fondées</em>?",
+      "options": [
+       "A passive infinitive",
+       "A passé composé with <em>être</em>",
+       "A present participle",
+       "A subjunctive"
+      ],
+      "answer": 0,
+      "explain": "After <em>peuvent</em>."
+     },
+     {
+      "prompt": "What does <em>ne … que</em> mean?",
+      "options": [
+       "“not … at all,” a strong negative",
+       "“only”",
+       "“no longer”",
+       "“never”"
+      ],
+      "answer": 1,
+      "explain": "Only on the common good."
+     }
+    ]
+   }
   },
   {
    "id": "prose-44",
@@ -238,8 +580,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-47",
-   "title": "Molière, <i>Le Bourgeois gentilhomme</i> II.4",
-   "body": "<p>Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j’en susse rien, et je vous suis le plus obligé du monde de m’avoir appris cela.</p><p>By my faith! For more than forty years I have been speaking prose without knowing anything about it, and I am much obliged to you for having taught me that.<br>— Philip Dwight Jones</p><p><strong>Context.</strong> Monsieur Jourdain, a rich tradesman who wants to be a gentleman, takes lessons from a philosophy master. Told that all that is not verse is prose, he discovers what he has always been doing.</p>"
+   "title": "Molière, <em>Le Bourgeois gentilhomme</em> II.4",
+   "body": "<p>Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j’en susse rien, et je vous suis le plus obligé du monde de m’avoir appris cela.</p><p>By my faith! For more than forty years I have been speaking prose without knowing anything about it, and I am much obliged to you for having taught me that.<br>— Philip Dwight Jones</p><p><strong>Context.</strong> Monsieur Jourdain, a rich tradesman who wants to be a gentleman, takes lessons from a philosophy master. Told that all that is not verse is prose, he discovers what he has always been doing.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-47",
+    "variants": [
+     {
+      "prompt": "What is <em>de la prose</em>?",
+      "options": [
+       "A genitive of possession, “of the prose”",
+       "The subject",
+       "An indirect object",
+       "The partitive"
+      ],
+      "answer": 3,
+      "explain": "Some prose."
+     },
+     {
+      "prompt": "What does <em>Il y a … que</em> with the present say?",
+      "options": [
+       "How long something has been going on",
+       "When something happened once in the past",
+       "How far away a place is",
+       "What will happen"
+      ],
+      "answer": 0,
+      "explain": "For forty years I have been speaking prose."
+     },
+     {
+      "prompt": "What is <em>vous</em> in <em>je vous suis le plus obligé</em>?",
+      "options": [
+       "The subject of <em>suis</em>",
+       "The indirect object",
+       "The direct object",
+       "A reflexive"
+      ],
+      "answer": 1,
+      "explain": "Obliged to you."
+     }
+    ]
+   }
   },
   {
    "id": "prose-48",
@@ -263,8 +643,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-52",
-   "title": "Pascal, <i>Pensées</i> 277",
-   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point. On le sent en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>— W. F. Trotter</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>"
+   "title": "Pascal, <em>Pensées</em> 277",
+   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point. On le sent en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>— W. F. Trotter</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-52",
+    "variants": [
+     {
+      "prompt": "What does <em>ses</em> agree with?",
+      "options": [
+       "<em>cœur</em>, the possessor",
+       "<em>raisons</em>",
+       "<em>la raison</em>",
+       "<em>choses</em>"
+      ],
+      "answer": 1,
+      "explain": "A possessive agrees with the thing possessed."
+     },
+     {
+      "prompt": "What kind of negative is <em>ne … point</em>?",
+      "options": [
+       "A limiting “only,” like <em>ne … que</em>",
+       "A negative of time, “never”",
+       "A strong negative",
+       "An affirmative"
+      ],
+      "answer": 2,
+      "explain": "<em>Ne … point</em> is stronger than <em>ne … pas</em>."
+     },
+     {
+      "prompt": "What does <em>On</em> mean?",
+      "options": [
+       "“the heart,” named before",
+       "“reason”",
+       "“they,” some particular persons",
+       "“one,” “we,” a general subject"
+      ],
+      "answer": 3,
+      "explain": "<em>On le sent en mille choses.</em>"
+     }
+    ]
+   }
   },
   {
    "id": "prose-53",
@@ -283,8 +701,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-56",
-   "title": "Pascal, <i>Pensées</i> 206",
-   "body": "<p>Le silence éternel de ces espaces infinis m’effraie.</p><p>The eternal silence of these infinite spaces frightens me.<br>— W. F. Trotter</p><p><strong>Context.</strong> This is one of the shortest of the thoughts. The new astronomy had opened spaces without end, and Pascal sets the man who sees them against their silence.</p>"
+   "title": "Pascal, <em>Pensées</em> 206",
+   "body": "<p>Le silence éternel de ces espaces infinis m’effraie.</p><p>The eternal silence of these infinite spaces frightens me.<br>— W. F. Trotter</p><p><strong>Context.</strong> This is one of the shortest of the thoughts. The new astronomy had opened spaces without end, and Pascal sets the man who sees them against their silence.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-56",
+    "variants": [
+     {
+      "prompt": "What does <em>éternel</em> agree with?",
+      "options": [
+       "<em>espaces</em>, the infinite spaces",
+       "<em>silence</em>",
+       "<em>m’</em>",
+       "<em>ces</em>"
+      ],
+      "answer": 1,
+      "explain": "The eternal silence."
+     },
+     {
+      "prompt": "Where does the object pronoun <em>m’</em> stand?",
+      "options": [
+       "After the verb, joined by a hyphen",
+       "At the end",
+       "Before the verb",
+       "Before the subject"
+      ],
+      "answer": 2,
+      "explain": "<em>M’effraie.</em>"
+     },
+     {
+      "prompt": "What does <em>ces</em> point to?",
+      "options": [
+       "The silence, a masculine singular noun",
+       "The speaker",
+       "The stars",
+       "The spaces"
+      ],
+      "answer": 3,
+      "explain": "“These spaces.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-57",
@@ -303,8 +759,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-60",
-   "title": "La Rochefoucauld, <i>Maximes</i> 218",
-   "body": "<p>L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>— J. W. Willis Bund and J. Hain Friswell</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>"
+   "title": "La Rochefoucauld, <em>Maximes</em> 218",
+   "body": "<p>L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>— J. W. Willis Bund and J. Hain Friswell</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-60",
+    "variants": [
+     {
+      "prompt": "Why is the article elided in <em>L’hypocrisie</em>?",
+      "options": [
+       "The <em>h</em> is mute",
+       "The <em>h</em> is aspirate",
+       "The noun is masculine",
+       "The article is plural"
+      ],
+      "answer": 0,
+      "explain": "The article is elided before a mute <em>h</em>."
+     },
+     {
+      "prompt": "What is <em>un hommage</em>?",
+      "options": [
+       "The subject of <em>est</em>",
+       "The object of <em>rend</em>",
+       "An indirect object",
+       "The predicate"
+      ],
+      "answer": 3,
+      "explain": "Hypocrisy is a homage."
+     },
+     {
+      "prompt": "What is <em>le vice</em>?",
+      "options": [
+       "The object of <em>rend</em>, placed after the relative",
+       "An apposition",
+       "The subject of <em>rend</em>",
+       "The predicate"
+      ],
+      "answer": 2,
+      "explain": "Vice pays the homage."
+     }
+    ]
+   }
   },
   {
    "id": "prose-61",
@@ -323,8 +817,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-64",
-   "title": "Proust, <i>Du côté de chez Swann</i> I.1",
-   "body": "<p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>— C. K. Scott Moncrieff</p><p><strong>Context.</strong> These are the first sentences of <em>In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>"
+   "title": "Proust, <em>Du côté de chez Swann</em> I.1",
+   "body": "<p>Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>— C. K. Scott Moncrieff</p><p><strong>Context.</strong> These are the first sentences of <em>In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-64",
+    "variants": [
+     {
+      "prompt": "What does <em>longtemps</em> do with the passé composé in the first sentence?",
+      "options": [
+       "It sums up a long stretch of the past",
+       "It marks a single moment in the past",
+       "It looks to the future",
+       "It asks a question"
+      ],
+      "answer": 0,
+      "explain": "“For a long time I went to bed early.”"
+     },
+     {
+      "prompt": "What does <em>si vite que</em> give?",
+      "options": [
+       "The purpose of closing his eyes",
+       "A cause",
+       "A comparison",
+       "The result"
+      ],
+      "answer": 3,
+      "explain": "So quickly that I did not have time."
+     },
+     {
+      "prompt": "What is <em>me</em> in <em>de me dire</em>?",
+      "options": [
+       "The direct object of <em>dire</em>",
+       "The subject",
+       "The indirect object",
+       "A reflexive of the passive"
+      ],
+      "answer": 2,
+      "explain": "To say to myself."
+     }
+    ]
+   }
   },
   {
    "id": "prose-65",
@@ -348,8 +880,46 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-69",
-   "title": "Rousseau, <i>Du contrat social</i> I.4",
-   "body": "<p>Puisque aucun homme n’a une autorité naturelle sur son semblable, et puisque la force ne produit aucun droit, restent donc les conventions pour base de toute autorité légitime parmi les hommes.</p><p>Since no man has a natural authority over his fellow, and force creates no right, we must conclude that conventions form the basis of all legitimate authority among men.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau has set aside the father’s power and the right of the strongest. Two causal clauses come first; then the main clause, with its verb before its subject.</p>"
+   "title": "Rousseau, <em>Du contrat social</em> I.4",
+   "body": "<p>Puisque aucun homme n’a une autorité naturelle sur son semblable, et puisque la force ne produit aucun droit, restent donc les conventions pour base de toute autorité légitime parmi les hommes.</p><p>Since no man has a natural authority over his fellow, and force creates no right, we must conclude that conventions form the basis of all legitimate authority among men.<br>— G. D. H. Cole</p><p><strong>Context.</strong> Rousseau has set aside the father’s power and the right of the strongest. Two causal clauses come first; then the main clause, with its verb before its subject.</p>",
+   "qp": {
+    "id": "q-fr-ixp-prose-69",
+    "variants": [
+     {
+      "prompt": "What does <em>puisque</em> give?",
+      "options": [
+       "A condition that may not be true",
+       "A purpose",
+       "A time",
+       "A reason taken as known"
+      ],
+      "answer": 3,
+      "explain": "“Since.”"
+     },
+     {
+      "prompt": "What does <em>donc</em> do?",
+      "options": [
+       "It draws the conclusion",
+       "It gives the reason for the first clause",
+       "It asks a question",
+       "It sets up a contrast"
+      ],
+      "answer": 0,
+      "explain": "“Then,” “therefore.”"
+     },
+     {
+      "prompt": "What is the subject of <em>restent</em>?",
+      "options": [
+       "<em>la force</em>, the subject of the clause before",
+       "<em>les conventions</em>",
+       "<em>aucun homme</em>",
+       "<em>les hommes</em>"
+      ],
+      "answer": 1,
+      "explain": "The verb comes before its subject."
+     }
+    ]
+   }
   },
   {
    "id": "prose-70",

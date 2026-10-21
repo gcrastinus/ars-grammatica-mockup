@@ -8,8 +8,46 @@ ARS.decks["lang.ix.de/prose"] = {
  "panels": [
   {
    "id": "prose-1",
-   "title": "Kant, <i>Grundlegung zur Metaphysik der Sitten</i> I",
-   "body": "<p>Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a good will.<br>— Thomas Kingsmill Abbott</p><p><strong>Context.</strong> This is the first sentence of Kant’s <em>Groundwork</em>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>"
+   "title": "Kant, <em>Grundlegung zur Metaphysik der Sitten</em> I",
+   "body": "<p>Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a good will.<br>— Thomas Kingsmill Abbott</p><p><strong>Context.</strong> This is the first sentence of Kant’s <em>Groundwork</em>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-1",
+    "variants": [
+     {
+      "prompt": "What does <em>Es ist … nichts</em> mean?",
+      "options": [
+       "“it is not,” with <em>es</em> as the real subject",
+       "“nothing is it”",
+       "“there is nothing”",
+       "“it was nothing”"
+      ],
+      "answer": 2,
+      "explain": "<em>Es</em> fills the first place, and <em>nichts</em> is the real subject."
+     },
+     {
+      "prompt": "What does <em>zu denken</em> complete?",
+      "options": [
+       "<em>ist</em>, as a second main verb",
+       "<em>möglich</em>",
+       "<em>Welt</em>",
+       "<em>nichts</em>"
+      ],
+      "answer": 1,
+      "explain": "“Possible to think.”"
+     },
+     {
+      "prompt": "What does <em>was</em> take up?",
+      "options": [
+       "<em>nichts</em>",
+       "<em>Wille</em>, the answer at the end",
+       "<em>Welt</em>",
+       "<em>Einschränkung</em>"
+      ],
+      "answer": 0,
+      "explain": "After <em>nichts</em>, the relative is <em>was</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-2",
@@ -38,8 +76,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-7",
-   "title": "Kant, <i>Kritik der reinen Vernunft</i> A vii",
-   "body": "<p>Die menschliche Vernunft hat das besondere Schicksal in einer Gattung ihrer Erkenntnisse: dass sie durch Fragen belästigt wird, die sie nicht abweisen kann; denn sie sind ihr durch die Natur der Vernunft selbst aufgegeben, die sie aber auch nicht beantworten kann; denn sie übersteigen alles Vermögen der menschlichen Vernunft.</p><p>Human reason, in one sphere of its cognition, is called upon to consider questions which it cannot decline, as they are presented by its own nature, but which it cannot answer, as they transcend every faculty of the mind.<br>— J. M. D. Meiklejohn</p><p><strong>Context.</strong> Kant’s first preface begins with the strange fate of reason: it is pressed by questions it can neither set aside nor answer. The sentence turns on two relative clauses, each followed by a reason with <em>denn</em>.</p>"
+   "title": "Kant, <em>Kritik der reinen Vernunft</em> A vii",
+   "body": "<p>Die menschliche Vernunft hat das besondere Schicksal in einer Gattung ihrer Erkenntnisse: dass sie durch Fragen belästigt wird, die sie nicht abweisen kann; denn sie sind ihr durch die Natur der Vernunft selbst aufgegeben, die sie aber auch nicht beantworten kann; denn sie übersteigen alles Vermögen der menschlichen Vernunft.</p><p>Human reason, in one sphere of its cognition, is called upon to consider questions which it cannot decline, as they are presented by its own nature, but which it cannot answer, as they transcend every faculty of the mind.<br>— J. M. D. Meiklejohn</p><p><strong>Context.</strong> Kant’s first preface begins with the strange fate of reason: it is pressed by questions it can neither set aside nor answer. The sentence turns on two relative clauses, each followed by a reason with <em>denn</em>.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-7",
+    "variants": [
+     {
+      "prompt": "What ending do the adjectives take in <em>Die menschliche Vernunft</em>?",
+      "options": [
+       "The weak ending <em>-e</em>",
+       "The strong ending <em>-er</em>, which shows the feminine",
+       "<em>-en</em>",
+       "No ending"
+      ],
+      "answer": 0,
+      "explain": "After the article the adjective is weak."
+     },
+     {
+      "prompt": "What does <em>durch</em> give in <em>durch Fragen belästigt wird</em>?",
+      "options": [
+       "The place through which reason passes",
+       "The time",
+       "The purpose",
+       "The means"
+      ],
+      "answer": 3,
+      "explain": "Reason is troubled by questions."
+     },
+     {
+      "prompt": "What do the two relative clauses beginning with <em>die</em> stand for?",
+      "options": [
+       "<em>Vernunft</em>, the subject of the sentence",
+       "<em>Natur</em>",
+       "<em>Fragen</em>",
+       "<em>Erkenntnisse</em>"
+      ],
+      "answer": 2,
+      "explain": "Questions which it cannot decline and cannot answer."
+     }
+    ]
+   }
   },
   {
    "id": "prose-8",
@@ -68,8 +144,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-13",
-   "title": "Goethe, <i>Die Leiden des jungen Werthers</i> 4 May 1771",
-   "body": "<p>Wie froh bin ich, dass ich weg bin! Bester Freund, was ist das Herz des Menschen! Dich zu verlassen, den ich so liebe, von dem ich unzertrennlich war, und froh zu sein!</p><p>How happy I am that I am gone! My dear friend, what a thing is the heart of man! To leave you, from whom I have been inseparable, whom I love so dearly, and yet to feel happy!<br>— R. Dillon Boylan</p><p><strong>Context.</strong> Goethe’s novel is told in letters, and the first letter opens with three exclamations.</p>"
+   "title": "Goethe, <em>Die Leiden des jungen Werthers</em> 4 May 1771",
+   "body": "<p>Wie froh bin ich, dass ich weg bin! Bester Freund, was ist das Herz des Menschen! Dich zu verlassen, den ich so liebe, von dem ich unzertrennlich war, und froh zu sein!</p><p>How happy I am that I am gone! My dear friend, what a thing is the heart of man! To leave you, from whom I have been inseparable, whom I love so dearly, and yet to feel happy!<br>— R. Dillon Boylan</p><p><strong>Context.</strong> Goethe’s novel is told in letters, and the first letter opens with three exclamations.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-13",
+    "variants": [
+     {
+      "prompt": "Where does <em>bin</em> stand after <em>dass</em>?",
+      "options": [
+       "In second place, as in a main clause",
+       "First",
+       "After <em>ich</em> and before <em>weg</em>",
+       "At the end"
+      ],
+      "answer": 3,
+      "explain": "<em>Dass ich weg bin.</em>"
+     },
+     {
+      "prompt": "What kind of noun is <em>Mensch</em>, which takes <em>-en</em> in <em>des Menschen</em>?",
+      "options": [
+       "A weak noun",
+       "A strong noun of the neuter gender",
+       "A feminine noun",
+       "A plural noun"
+      ],
+      "answer": 0,
+      "explain": "Weak nouns take <em>-en</em> in the oblique cases."
+     },
+     {
+      "prompt": "What is <em>Dich zu verlassen</em>?",
+      "options": [
+       "A clause of purpose with <em>um</em> left out",
+       "An infinitive used as an exclamation",
+       "A finite verb",
+       "A question"
+      ],
+      "answer": 1,
+      "explain": "“To leave you!”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-14",
@@ -98,8 +212,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-19",
-   "title": "Grimm, <i>Der Froschkönig</i> KHM 1",
-   "body": "<p>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, so oft sie ihr ins Gesicht schien.</p><p>In old times when wishing still helped one, there lived a king whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, which has seen so much, was astonished whenever it shone in her face.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the first sentence of the first tale in the Grimms’ collection. It is one long sentence that moves from the old days to a king, to his daughters, to the youngest, and to the sun.</p>"
+   "title": "Grimm, <em>Der Froschkönig</em> KHM 1",
+   "body": "<p>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, so oft sie ihr ins Gesicht schien.</p><p>In old times when wishing still helped one, there lived a king whose daughters were all beautiful, but the youngest was so beautiful that the sun itself, which has seen so much, was astonished whenever it shone in her face.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the first sentence of the first tale in the Grimms’ collection. It is one long sentence that moves from the old days to a king, to his daughters, to the youngest, and to the sun.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-19",
+    "variants": [
+     {
+      "prompt": "What does <em>wo</em> serve for in <em>wo das Wünschen noch geholfen hat</em>?",
+      "options": [
+       "“where,” a place in the old times",
+       "“when”",
+       "“because”",
+       "“whether”"
+      ],
+      "answer": 1,
+      "explain": "<em>Wo</em> here means “when.”"
+     },
+     {
+      "prompt": "What is <em>das Wünschen</em>?",
+      "options": [
+       "A participle used as an adjective",
+       "A plural noun",
+       "An infinitive made a noun",
+       "A verb in the present"
+      ],
+      "answer": 2,
+      "explain": "“Wishing.”"
+     },
+     {
+      "prompt": "What does <em>ihr</em> refer to in <em>sie ihr ins Gesicht schien</em>?",
+      "options": [
+       "The sun, which shone",
+       "The king",
+       "The time",
+       "The girl"
+      ],
+      "answer": 3,
+      "explain": "It is dative: into her face."
+     }
+    ]
+   }
   },
   {
    "id": "prose-20",
@@ -133,8 +285,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-26",
-   "title": "Grimm, <i>Rumpelstilzchen</i> KHM 55",
-   "body": "<p>Es war einmal ein Müller, der war arm, aber er hatte eine schöne Tochter.</p><p>Once there was a miller who was poor, but who had a beautiful daughter.<br>— Margaret Hunt</p><p><strong>Context.</strong> The tale begins with the usual opening of a German tale, <em>Es war einmal</em>, “once upon a time there was.”</p>"
+   "title": "Grimm, <em>Rumpelstilzchen</em> KHM 55",
+   "body": "<p>Es war einmal ein Müller, der war arm, aber er hatte eine schöne Tochter.</p><p>Once there was a miller who was poor, but who had a beautiful daughter.<br>— Margaret Hunt</p><p><strong>Context.</strong> The tale begins with the usual opening of a German tale, <em>Es war einmal</em>, “once upon a time there was.”</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-26",
+    "variants": [
+     {
+      "prompt": "What does <em>einmal</em> mean in <em>Es war einmal</em>?",
+      "options": [
+       "“one time more,” again",
+       "“never”",
+       "“always”",
+       "“once”"
+      ],
+      "answer": 3,
+      "explain": "“Once upon a time there was.”"
+     },
+     {
+      "prompt": "Does <em>aber</em> move the verb?",
+      "options": [
+       "No",
+       "Yes, to the end of the clause",
+       "Yes, to the first place",
+       "Only in questions"
+      ],
+      "answer": 0,
+      "explain": "<em>Aber er hatte</em>: the verb stays second."
+     },
+     {
+      "prompt": "Why is <em>der</em> in <em>der war arm</em> a demonstrative?",
+      "options": [
+       "It is in the dative case",
+       "The verb stays second",
+       "It stands for a feminine noun",
+       "It begins a question"
+      ],
+      "answer": 1,
+      "explain": "In a relative clause the verb would go to the end."
+     }
+    ]
+   }
   },
   {
    "id": "prose-27",
@@ -153,8 +343,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-30",
-   "title": "Goethe, <i>Dichtung und Wahrheit</i> I.1",
-   "body": "<p>Am 28. August 1749, mittags mit dem Glockenschlage zwölf, kam ich in Frankfurt am Main auf die Welt.</p><p>On the 28th of August, 1749, at midday, as the clock struck twelve, I came into the world at Frankfurt-on-the-Main.<br>— John Oxenford</p><p><strong>Context.</strong> Goethe opens his autobiography with the hour of his birth.</p>"
+   "title": "Goethe, <em>Dichtung und Wahrheit</em> I.1",
+   "body": "<p>Am 28. August 1749, mittags mit dem Glockenschlage zwölf, kam ich in Frankfurt am Main auf die Welt.</p><p>On the 28th of August, 1749, at midday, as the clock struck twelve, I came into the world at Frankfurt-on-the-Main.<br>— John Oxenford</p><p><strong>Context.</strong> Goethe opens his autobiography with the hour of his birth.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-30",
+    "variants": [
+     {
+      "prompt": "What is <em>am</em>?",
+      "options": [
+       "<em>an dem</em>",
+       "<em>an den</em>, with the accusative",
+       "<em>auf dem</em>",
+       "<em>in dem</em>"
+      ],
+      "answer": 0,
+      "explain": "“On the.”"
+     },
+     {
+      "prompt": "What does <em>auf die Welt kommen</em> mean?",
+      "options": [
+       "“to travel around the world”",
+       "“to die”",
+       "“to come home”",
+       "“to be born”"
+      ],
+      "answer": 3,
+      "explain": "With the accusative of motion."
+     },
+     {
+      "prompt": "What old ending does <em>Glockenschlage</em> keep?",
+      "options": [
+       "The genitive <em>-s</em>",
+       "The plural <em>-e</em>",
+       "The dative <em>-e</em>",
+       "The accusative <em>-en</em>"
+      ],
+      "answer": 2,
+      "explain": "“With the stroke of the bell.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-31",
@@ -173,8 +401,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-34",
-   "title": "Marx and Engels, <i>Manifest der Kommunistischen Partei</i> Preamble",
-   "body": "<p>Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A specter is haunting Europe—the specter of Communism. All the powers of old Europe have entered into a holy alliance to exorcise this specter: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>— Samuel Moore</p><p><strong>Context.</strong> This is the opening of the <em>Manifesto</em>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>"
+   "title": "Marx and Engels, <em>Manifest der Kommunistischen Partei</em> Preamble",
+   "body": "<p>Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A specter is haunting Europe—the specter of Communism. All the powers of old Europe have entered into a holy alliance to exorcise this specter: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>— Samuel Moore</p><p><strong>Context.</strong> This is the opening of the <em>Manifesto</em>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-34",
+    "variants": [
+     {
+      "prompt": "What does <em>umgehen</em>, said of ghosts, mean?",
+      "options": [
+       "“to walk about”",
+       "“to go around,” to avoid something",
+       "“to disappear”",
+       "“to fall down”"
+      ],
+      "answer": 0,
+      "explain": "<em>Ein Gespenst geht um.</em>"
+     },
+     {
+      "prompt": "What case does <em>gegen</em> take?",
+      "options": [
+       "The dative, like <em>zu</em> before it",
+       "The genitive",
+       "The nominative",
+       "The accusative"
+      ],
+      "answer": 3,
+      "explain": "<em>Gegen dies Gespenst.</em>"
+     },
+     {
+      "prompt": "What is <em>Mächte</em>?",
+      "options": [
+       "A verb, “might,” in the subjunctive",
+       "A dative singular",
+       "The plural of <em>Macht</em>",
+       "An adjective"
+      ],
+      "answer": 2,
+      "explain": "“Powers.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-35",
@@ -203,8 +469,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-40",
-   "title": "Nietzsche, <i>Also sprach Zarathustra</i> Vorrede 1",
-   "body": "<p>Als Zarathustra dreißig Jahr alt war, verließ er seine Heimat und den See seiner Heimat und ging in das Gebirge. Hier genoss er seines Geistes und seiner Einsamkeit und wurde dessen zehn Jahre nicht müde.</p><p>When Zarathustra was thirty years old, he left his home and the lake of his home, and went into the mountains. There he enjoyed his spirit and solitude, and for ten years did not weary of it.<br>— Thomas Common</p><p><strong>Context.</strong> This is the beginning of the prologue. Nietzsche writes in a biblical manner, and he keeps the older genitive objects with <em>genießen</em> (“to enjoy”) and <em>müde</em> (“tired”).</p>"
+   "title": "Nietzsche, <em>Also sprach Zarathustra</em> Vorrede 1",
+   "body": "<p>Als Zarathustra dreißig Jahr alt war, verließ er seine Heimat und den See seiner Heimat und ging in das Gebirge. Hier genoss er seines Geistes und seiner Einsamkeit und wurde dessen zehn Jahre nicht müde.</p><p>When Zarathustra was thirty years old, he left his home and the lake of his home, and went into the mountains. There he enjoyed his spirit and solitude, and for ten years did not weary of it.<br>— Thomas Common</p><p><strong>Context.</strong> This is the beginning of the prologue. Nietzsche writes in a biblical manner, and he keeps the older genitive objects with <em>genießen</em> (“to enjoy”) and <em>müde</em> (“tired”).</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-40",
+    "variants": [
+     {
+      "prompt": "Why does <em>Jahr</em> stay singular in <em>dreißig Jahr</em>?",
+      "options": [
+       "It is a genitive singular",
+       "It is an old plural without an ending",
+       "It agrees with Zarathustra",
+       "Nouns of measure often do"
+      ],
+      "answer": 3,
+      "explain": "In <em>dreißig Jahr</em> the noun stays singular, as nouns of measure often do."
+     },
+     {
+      "prompt": "What case is <em>seiner Heimat</em> in <em>den See seiner Heimat</em>?",
+      "options": [
+       "Genitive",
+       "Dative, after a verb of leaving",
+       "Accusative",
+       "Nominative"
+      ],
+      "answer": 0,
+      "explain": "“The lake of his home.”"
+     },
+     {
+      "prompt": "What does <em>einer Sache müde werden</em> mean?",
+      "options": [
+       "“to make a thing tired”",
+       "“to grow weary of a thing”",
+       "“to rest from work”",
+       "“to become sleepy”"
+      ],
+      "answer": 1,
+      "explain": "<em>Müde</em> takes the genitive."
+     }
+    ]
+   }
   },
   {
    "id": "prose-41",
@@ -233,8 +537,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-46",
-   "title": "Schopenhauer, <i>Die Welt als Wille und Vorstellung</i> I.1",
-   "body": "<p>„Die Welt ist meine Vorstellung“: – dies ist eine Wahrheit, welche in Beziehung auf jedes lebende und erkennende Wesen gilt; wiewohl der Mensch allein sie in das reflektierte abstrakte Bewusstsein bringen kann.</p><p>“The world is my idea”: this is a truth which holds good for everything that lives and knows, though man alone can bring it into reflective and abstract consciousness.<br>— R. B. Haldane and J. Kemp</p><p><strong>Context.</strong> These are the first words of Schopenhauer’s chief work. The sentence gives a thesis, then a relative clause, and then a concession.</p>"
+   "title": "Schopenhauer, <em>Die Welt als Wille und Vorstellung</em> I.1",
+   "body": "<p>„Die Welt ist meine Vorstellung“: – dies ist eine Wahrheit, welche in Beziehung auf jedes lebende und erkennende Wesen gilt; wiewohl der Mensch allein sie in das reflektierte abstrakte Bewusstsein bringen kann.</p><p>“The world is my idea”: this is a truth which holds good for everything that lives and knows, though man alone can bring it into reflective and abstract consciousness.<br>— R. B. Haldane and J. Kemp</p><p><strong>Context.</strong> These are the first words of Schopenhauer’s chief work. The sentence gives a thesis, then a relative clause, and then a concession.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-46",
+    "variants": [
+     {
+      "prompt": "What does <em>Dies</em> sum up?",
+      "options": [
+       "The world, a feminine noun",
+       "The quoted thesis",
+       "The man",
+       "The consciousness"
+      ],
+      "answer": 1,
+      "explain": "It stays neuter whatever noun follows."
+     },
+     {
+      "prompt": "What does <em>wiewohl</em> mean?",
+      "options": [
+       "“as well as,” joining two nouns",
+       "“because”",
+       "“although”",
+       "“when”"
+      ],
+      "answer": 2,
+      "explain": "It begins a dependent clause of concession."
+     },
+     {
+      "prompt": "Where does the modal <em>kann</em> stand in the <em>wiewohl</em> clause?",
+      "options": [
+       "In second place, before the subject",
+       "First",
+       "Before <em>sie</em>",
+       "At the end, after its infinitive"
+      ],
+      "answer": 3,
+      "explain": "It closes the clause."
+     }
+    ]
+   }
   },
   {
    "id": "prose-47",
@@ -258,8 +600,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-51",
-   "title": "Kleist, <i>Michael Kohlhaas</i> opening",
-   "body": "<p>An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a schoolmaster, one of the most upright and, at the same time, one of the most terrible men of his day.<br>— Frances A. King</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>"
+   "title": "Kleist, <em>Michael Kohlhaas</em> opening",
+   "body": "<p>An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a schoolmaster, one of the most upright and, at the same time, one of the most terrible men of his day.<br>— Frances A. King</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-51",
+    "variants": [
+     {
+      "prompt": "What is the subject of <em>lebte</em>?",
+      "options": [
+       "<em>den Ufern</em>, which stand first",
+       "<em>ein Rosshändler</em>",
+       "<em>Michael Kohlhaas</em> alone",
+       "<em>der Havel</em>"
+      ],
+      "answer": 1,
+      "explain": "The subject is put off past a place and a time."
+     },
+     {
+      "prompt": "What case is <em>der Havel</em>?",
+      "options": [
+       "Dative, after <em>an</em>",
+       "Nominative",
+       "Genitive feminine",
+       "Accusative"
+      ],
+      "answer": 2,
+      "explain": "“Of the Havel.”"
+     },
+     {
+      "prompt": "What does <em>einer der</em> mean?",
+      "options": [
+       "“a single,” with the dative",
+       "“the first of”",
+       "“none of the”",
+       "“one of the”"
+      ],
+      "answer": 3,
+      "explain": "With the genitive plural."
+     }
+    ]
+   }
   },
   {
    "id": "prose-52",
@@ -288,8 +668,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-57",
-   "title": "Grimm, <i>Hänsel und Gretel</i> KHM 15",
-   "body": "<p>Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel.</p><p>Hard by a great forest dwelt a poor woodcutter with his wife and his two children. The boy was called Hansel and the girl Gretel.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the opening of the tale. The datives after <em>vor</em> and <em>mit</em> and the gender of the small words deserve attention.</p>"
+   "title": "Grimm, <em>Hänsel und Gretel</em> KHM 15",
+   "body": "<p>Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel.</p><p>Hard by a great forest dwelt a poor woodcutter with his wife and his two children. The boy was called Hansel and the girl Gretel.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the opening of the tale. The datives after <em>vor</em> and <em>mit</em> and the gender of the small words deserve attention.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-57",
+    "variants": [
+     {
+      "prompt": "What does the place phrase do to the order of <em>wohnte ein armer Holzhacker</em>?",
+      "options": [
+       "It sends the verb to the end of the clause",
+       "It makes the clause a question",
+       "Nothing",
+       "It puts the verb second, before the subject"
+      ],
+      "answer": 3,
+      "explain": "The place phrase is first, so <em>wohnte</em> comes next."
+     },
+     {
+      "prompt": "What ending does <em>armer</em> show?",
+      "options": [
+       "The strong ending after <em>ein</em>",
+       "The weak ending after the article <em>der</em>",
+       "The dative ending",
+       "The plural ending"
+      ],
+      "answer": 0,
+      "explain": "<em>Ein</em> has no ending in the masculine nominative."
+     },
+     {
+      "prompt": "What gender are nouns in <em>-chen</em>?",
+      "options": [
+       "Feminine, like <em>die Frau</em>",
+       "Neuter",
+       "Masculine",
+       "They follow the sex of the person"
+      ],
+      "answer": 1,
+      "explain": "<em>Das Bübchen</em>, <em>das Mädchen</em>."
+     }
+    ]
+   }
   },
   {
    "id": "prose-58",
@@ -313,8 +731,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-62",
-   "title": "Grimm, <i>Die Sterntaler</i> KHM 153",
-   "body": "<p>Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben, und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen.</p><p>There was once upon a time a little girl whose father and mother were dead, and she was so poor that she no longer had any little room to live in, or bed to sleep in.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the opening of “The Star-Money.” The girl is <em>es</em>, “it,” throughout, because <em>Mädchen</em> is neuter.</p>"
+   "title": "Grimm, <em>Die Sterntaler</em> KHM 153",
+   "body": "<p>Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben, und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen.</p><p>There was once upon a time a little girl whose father and mother were dead, and she was so poor that she no longer had any little room to live in, or bed to sleep in.<br>— Margaret Hunt</p><p><strong>Context.</strong> This is the opening of “The Star-Money.” The girl is <em>es</em>, “it,” throughout, because <em>Mädchen</em> is neuter.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-62",
+    "variants": [
+     {
+      "prompt": "Why is <em>kleines</em> the form after <em>ein</em>?",
+      "options": [
+       "<em>Mädchen</em> is feminine",
+       "It is a genitive",
+       "It follows a weak article",
+       "<em>Ein</em> has no ending in the neuter nominative"
+      ],
+      "answer": 3,
+      "explain": "The adjective shows the gender and case."
+     },
+     {
+      "prompt": "What does <em>kein … mehr</em> mean?",
+      "options": [
+       "“no longer any”",
+       "“no more than one,” of number",
+       "“never”",
+       "“not yet”"
+      ],
+      "answer": 0,
+      "explain": "She no longer had any little room."
+     },
+     {
+      "prompt": "What does <em>darin</em> stand for?",
+      "options": [
+       "<em>dort</em>, a place far away",
+       "<em>in dem</em>",
+       "<em>damit</em>",
+       "<em>davon</em>"
+      ],
+      "answer": 1,
+      "explain": "“In it.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-63",
@@ -338,8 +794,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-67",
-   "title": "Nietzsche, <i>Die fröhliche Wissenschaft</i> 125",
-   "body": "<p>Gott ist tot! Gott bleibt tot! Und wir haben ihn getötet! Wie trösten wir uns, die Mörder aller Mörder?</p><p>God is dead! God remains dead! And we have killed him! How shall we console ourselves, the most murderous of all murderers?<br>— Thomas Common</p><p><strong>Context.</strong> The madman speaks in the marketplace. <em>Tot</em>, the adjective, stands beside <em>getötet</em>, the participle of <em>töten</em> (“to kill”).</p>"
+   "title": "Nietzsche, <em>Die fröhliche Wissenschaft</em> 125",
+   "body": "<p>Gott ist tot! Gott bleibt tot! Und wir haben ihn getötet! Wie trösten wir uns, die Mörder aller Mörder?</p><p>God is dead! God remains dead! And we have killed him! How shall we console ourselves, the most murderous of all murderers?<br>— Thomas Common</p><p><strong>Context.</strong> The madman speaks in the marketplace. <em>Tot</em>, the adjective, stands beside <em>getötet</em>, the participle of <em>töten</em> (“to kill”).</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-67",
+    "variants": [
+     {
+      "prompt": "What does <em>bleibt</em> mean?",
+      "options": [
+       "“remains”",
+       "“becomes,” like <em>wird</em>",
+       "“seems”",
+       "“was”"
+      ],
+      "answer": 0,
+      "explain": "<em>Gott bleibt tot.</em>"
+     },
+     {
+      "prompt": "What is <em>ihn</em>?",
+      "options": [
+       "Dative masculine, the person to whom it was done",
+       "Nominative",
+       "A reflexive",
+       "Accusative masculine, referring to God"
+      ],
+      "answer": 3,
+      "explain": "“Have killed him.”"
+     },
+     {
+      "prompt": "What is <em>uns</em> in <em>Wie trösten wir uns</em>?",
+      "options": [
+       "The subject",
+       "A dative of possession",
+       "Reflexive",
+       "An indirect object only"
+      ],
+      "answer": 2,
+      "explain": "“How shall we comfort ourselves.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-68",
@@ -363,8 +857,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-72",
-   "title": "Clausewitz, <i>Vom Kriege</i> I.1.24",
-   "body": "<p>Der Krieg ist eine bloße Fortsetzung der Politik mit anderen Mitteln. So sehen wir also, dass der Krieg nicht bloß ein politischer Akt, sondern ein wahres politisches Instrument ist, eine Fortsetzung des politischen Verkehrs, ein Durchführen desselben mit anderen Mitteln.</p><p>War is a mere continuation of policy by other means. We see, therefore, that war is not merely a political act, but also a real political instrument, a continuation of political commerce, a carrying out of the same by other means.<br>— J. J. Graham</p><p><strong>Context.</strong> The heading of § 24 and its first sentence. Clausewitz states the thesis, and then restates it in a <em>dass</em> clause with three appositions after the verb.</p>"
+   "title": "Clausewitz, <em>Vom Kriege</em> I.1.24",
+   "body": "<p>Der Krieg ist eine bloße Fortsetzung der Politik mit anderen Mitteln. So sehen wir also, dass der Krieg nicht bloß ein politischer Akt, sondern ein wahres politisches Instrument ist, eine Fortsetzung des politischen Verkehrs, ein Durchführen desselben mit anderen Mitteln.</p><p>War is a mere continuation of policy by other means. We see, therefore, that war is not merely a political act, but also a real political instrument, a continuation of political commerce, a carrying out of the same by other means.<br>— J. J. Graham</p><p><strong>Context.</strong> The heading of § 24 and its first sentence. Clausewitz states the thesis, and then restates it in a <em>dass</em> clause with three appositions after the verb.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-72",
+    "variants": [
+     {
+      "prompt": "What is <em>eine bloße Fortsetzung</em>?",
+      "options": [
+       "The accusative object of <em>ist</em>",
+       "A genitive",
+       "The predicate nominative",
+       "A dative"
+      ],
+      "answer": 2,
+      "explain": "“A mere continuation.”"
+     },
+     {
+      "prompt": "What does <em>nicht bloß … sondern</em> mean?",
+      "options": [
+       "“neither … nor,” denying both",
+       "“not merely … but”",
+       "“either … or”",
+       "“both … and”"
+      ],
+      "answer": 1,
+      "explain": "Not merely a political act but a real instrument."
+     },
+     {
+      "prompt": "What is <em>ein Durchführen</em>?",
+      "options": [
+       "An infinitive made a noun",
+       "A present participle used as an adjective",
+       "A verb in the present",
+       "A plural noun"
+      ],
+      "answer": 0,
+      "explain": "“A carrying out.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-73",
@@ -388,8 +920,46 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-77",
-   "title": "Nietzsche, <i>Jenseits von Gut und Böse</i> Vorrede",
-   "body": "<p>Vorausgesetzt, dass die Wahrheit ein Weib ist –, wie? ist der Verdacht nicht gegründet, dass alle Philosophen, sofern sie Dogmatiker waren, sich schlecht auf Weiber verstanden?</p><p>Supposing that Truth is a woman—what then? Is there not ground for suspecting that all philosophers, in so far as they have been dogmatists, have failed to understand women?<br>— Helen Zimmern</p><p><strong>Context.</strong> The first words of <em>Beyond Good and Evil</em>: a supposition, then a question with a <em>dass</em> clause that holds another clause inside it.</p>"
+   "title": "Nietzsche, <em>Jenseits von Gut und Böse</em> Vorrede",
+   "body": "<p>Vorausgesetzt, dass die Wahrheit ein Weib ist –, wie? ist der Verdacht nicht gegründet, dass alle Philosophen, sofern sie Dogmatiker waren, sich schlecht auf Weiber verstanden?</p><p>Supposing that Truth is a woman—what then? Is there not ground for suspecting that all philosophers, in so far as they have been dogmatists, have failed to understand women?<br>— Helen Zimmern</p><p><strong>Context.</strong> The first words of <em>Beyond Good and Evil</em>: a supposition, then a question with a <em>dass</em> clause that holds another clause inside it.</p>",
+   "qp": {
+    "id": "q-de-ixp-prose-77",
+    "variants": [
+     {
+      "prompt": "What does <em>Vorausgesetzt</em> mean, standing alone?",
+      "options": [
+       "“presupposed,” describing a noun that follows",
+       "“supposing that”",
+       "“in advance”",
+       "“certainly”"
+      ],
+      "answer": 1,
+      "explain": "A past participle used for a condition."
+     },
+     {
+      "prompt": "What is <em>gegründet</em> in <em>ist der Verdacht nicht gegründet</em>?",
+      "options": [
+       "The perfect of a verb of motion",
+       "The subject",
+       "The predicate",
+       "An infinitive"
+      ],
+      "answer": 2,
+      "explain": "“Founded.”"
+     },
+     {
+      "prompt": "What does <em>sich auf etwas verstehen</em> mean?",
+      "options": [
+       "“to agree with someone about a thing”",
+       "“to stand on a thing”",
+       "“to misunderstand”",
+       "“to understand a thing, to be skilled in it”"
+      ],
+      "answer": 3,
+      "explain": "They understood women badly."
+     }
+    ]
+   }
   },
   {
    "id": "prose-78",

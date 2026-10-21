@@ -8,8 +8,46 @@ ARS.decks["lang.ix.de/poetry"] = {
  "panels": [
   {
    "id": "poetry-1",
-   "title": "Goethe, <i>Wandrers Nachtlied II (Ein Gleiches)</i> 1–8 · Free short lines with varied stresses",
-   "body": "<p>Über allen Gipfeln<br>Ist Ruh’,<br>In allen Wipfeln<br>Spürest du<br>Kaum einen Hauch;<br>Die Vögelein schweigen im Walde.<br>Warte nur, balde<br>Ruhest du auch.</p><p>Over all the hilltops<br>is rest;<br>in all the treetops<br>you feel<br>hardly a breath;<br>the little birds are silent in the wood.<br>Only wait, soon<br>you too will rest.</p><p><strong>Context.</strong> Goethe wrote these lines on the wall of a hut on the Kickelhahn, a hill near Ilmenau. The lines are short, and their stresses vary: some have one, some two, and some three.</p>"
+   "title": "Goethe, <em>Wandrers Nachtlied II (Ein Gleiches)</em> 1–8 · Free short lines with varied stresses",
+   "body": "<p>Über allen Gipfeln<br>Ist Ruh’,<br>In allen Wipfeln<br>Spürest du<br>Kaum einen Hauch;<br>Die Vögelein schweigen im Walde.<br>Warte nur, balde<br>Ruhest du auch.</p><p>Over all the hilltops<br>is rest;<br>in all the treetops<br>you feel<br>hardly a breath;<br>the little birds are silent in the wood.<br>Only wait, soon<br>you too will rest.</p><p><strong>Context.</strong> Goethe wrote these lines on the wall of a hut on the Kickelhahn, a hill near Ilmenau. The lines are short, and their stresses vary: some have one, some two, and some three.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-1",
+    "variants": [
+     {
+      "prompt": "What is <em>Ruh’</em>?",
+      "options": [
+       "<em>Ruhe</em>, shortened for the meter",
+       "An imperative of <em>ruhen</em>, “rest!”",
+       "A dative",
+       "A plural"
+      ],
+      "answer": 0,
+      "explain": "“Rest.”"
+     },
+     {
+      "prompt": "What case is <em>einen Hauch</em>?",
+      "options": [
+       "Dative, after <em>in allen Wipfeln</em>",
+       "Nominative",
+       "Genitive",
+       "Accusative"
+      ],
+      "answer": 3,
+      "explain": "It is the object of <em>spürest</em>."
+     },
+     {
+      "prompt": "What is <em>Warte</em>?",
+      "options": [
+       "The present, first person singular",
+       "A noun",
+       "The imperative",
+       "A subjunctive"
+      ],
+      "answer": 2,
+      "explain": "“Wait.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-2",
@@ -38,8 +76,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-7",
-   "title": "Müller, <i>Die schöne Müllerin</i> “Wohin?” 1–4 · Iambic trimeter, three beats",
-   "body": "<p>Ich hört’ ein Bächlein rauschen<br>Wohl aus dem Felsenquell,<br>Hinab zum Tale rauschen<br>So frisch und wunderhell.</p><p>I heard a little brook rushing<br>indeed out of the rock spring,<br>rushing down to the valley,<br>so fresh and wondrously bright.</p><p><strong>Context.</strong> This is the second song of Schubert’s cycle. After a verb of perceiving, German puts a bare infinitive: <em>ich hörte ein Bächlein rauschen</em>, “I heard a brook rush.”</p>"
+   "title": "Müller, <em>Die schöne Müllerin</em> “Wohin?” 1–4 · Iambic trimeter, three beats",
+   "body": "<p>Ich hört’ ein Bächlein rauschen<br>Wohl aus dem Felsenquell,<br>Hinab zum Tale rauschen<br>So frisch und wunderhell.</p><p>I heard a little brook rushing<br>indeed out of the rock spring,<br>rushing down to the valley,<br>so fresh and wondrously bright.</p><p><strong>Context.</strong> This is the second song of Schubert’s cycle. After a verb of perceiving, German puts a bare infinitive: <em>ich hörte ein Bächlein rauschen</em>, “I heard a brook rush.”</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-7",
+    "variants": [
+     {
+      "prompt": "What is <em>hört’</em>?",
+      "options": [
+       "The present tense, “I hear,” shortened",
+       "An imperative",
+       "<em>hörte</em>, with the final <em>e</em> dropped",
+       "A subjunctive"
+      ],
+      "answer": 2,
+      "explain": "“Heard,” the past tense."
+     },
+     {
+      "prompt": "What does <em>Wohl</em> add?",
+      "options": [
+       "A strong emphasis that the brook was real",
+       "Little to the sense; it fills out the line",
+       "A negative",
+       "A question"
+      ],
+      "answer": 1,
+      "explain": "“Indeed.”"
+     },
+     {
+      "prompt": "Why do <em>frisch</em> and <em>wunderhell</em> have no endings?",
+      "options": [
+       "They are used as adverbs",
+       "They are attributive adjectives after <em>so</em>",
+       "They are nouns",
+       "They are plural"
+      ],
+      "answer": 0,
+      "explain": "They tell how the brook rushed."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-8",
@@ -63,8 +139,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-12",
-   "title": "Uhland, <i>Das Schloss am Meere</i> 1–4 · Three-beat lines, iambic and anapestic",
-   "body": "<p>Hast du das Schloss gesehen,<br>Das hohe Schloss am Meer?<br>Golden und rosig wehen<br>Die Wolken drüber her.</p><p>Have you seen the castle,<br>the high castle by the sea?<br>Golden and rosy<br>the clouds drift over it.</p><p><strong>Context.</strong> The poem is a dialogue, in which one speaker asks and the other answers. The first sentence is a question in the perfect tense, with the participle at the end.</p>"
+   "title": "Uhland, <em>Das Schloss am Meere</em> 1–4 · Three-beat lines, iambic and anapestic",
+   "body": "<p>Hast du das Schloss gesehen,<br>Das hohe Schloss am Meer?<br>Golden und rosig wehen<br>Die Wolken drüber her.</p><p>Have you seen the castle,<br>the high castle by the sea?<br>Golden and rosy<br>the clouds drift over it.</p><p><strong>Context.</strong> The poem is a dialogue, in which one speaker asks and the other answers. The first sentence is a question in the perfect tense, with the participle at the end.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-12",
+    "variants": [
+     {
+      "prompt": "What tense is <em>Hast … gesehen</em>?",
+      "options": [
+       "The simple past of <em>sehen</em>",
+       "The pluperfect",
+       "The perfect",
+       "The present"
+      ],
+      "answer": 2,
+      "explain": "“Have you seen.”"
+     },
+     {
+      "prompt": "What is <em>am</em> in <em>am Meer</em>?",
+      "options": [
+       "<em>an den</em>, with motion toward",
+       "<em>an dem</em>",
+       "<em>auf dem</em>",
+       "<em>in dem</em>"
+      ],
+      "answer": 1,
+      "explain": "“By the.”"
+     },
+     {
+      "prompt": "What is the subject of <em>wehen</em>?",
+      "options": [
+       "<em>die Wolken</em>",
+       "<em>Golden und rosig</em>, which stand first",
+       "<em>das Schloss</em>",
+       "<em>du</em>"
+      ],
+      "answer": 0,
+      "explain": "The clouds drift over it."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-13",
@@ -83,8 +197,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-16",
-   "title": "Luther, <i>Ein feste Burg ist unser Gott</i> 1–4 · Iambic, eight- and seven-syllable lines",
-   "body": "<p>Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A mighty fortress is our God,<br>a good defense and weapons.<br>He helps us free out of all the need<br>that has now befallen us.</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the adjective after <em>ein</em> has no ending, and the subordinate clause puts its helping verb before its participle.</p>"
+   "title": "Luther, <em>Ein feste Burg ist unser Gott</em> 1–4 · Iambic, eight- and seven-syllable lines",
+   "body": "<p>Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A mighty fortress is our God,<br>a good defense and weapons.<br>He helps us free out of all the need<br>that has now befallen us.</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the adjective after <em>ein</em> has no ending, and the subordinate clause puts its helping verb before its participle.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-16",
+    "variants": [
+     {
+      "prompt": "What comes first in <em>Ein feste Burg ist unser Gott</em>?",
+      "options": [
+       "The subject, in the ordinary order",
+       "The verb",
+       "The predicate, for emphasis",
+       "An object"
+      ],
+      "answer": 2,
+      "explain": "The subject is <em>unser Gott</em>."
+     },
+     {
+      "prompt": "What case does <em>helfen</em> take?",
+      "options": [
+       "The accusative, as most verbs do",
+       "The dative",
+       "The genitive",
+       "The nominative"
+      ],
+      "answer": 1,
+      "explain": "<em>Er hilft uns.</em>"
+     },
+     {
+      "prompt": "What does the relative <em>die</em> take up?",
+      "options": [
+       "<em>Not</em>",
+       "<em>Gott</em>, the subject of the first line",
+       "<em>Waffen</em>",
+       "<em>uns</em>"
+      ],
+      "answer": 0,
+      "explain": "“The need that has now befallen us.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-17",
@@ -108,8 +260,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-21",
-   "title": "Goethe, <i>Der König in Thule</i> 1–4 · Three-beat lines, iambs mixed with anapests",
-   "body": "<p>Es war ein König in Thule,<br>Gar treu bis an das Grab,<br>Dem sterbend seine Buhle<br>Einen goldnen Becher gab.</p><p>There was a king in Thule,<br>very faithful right up to the grave,<br>to whom his beloved, dying,<br>gave a golden cup.</p><p><strong>Context.</strong> Gretchen sings this ballad in <em>Faust</em>. The stanza is one sentence, with a relative clause in the dative.</p>"
+   "title": "Goethe, <em>Der König in Thule</em> 1–4 · Three-beat lines, iambs mixed with anapests",
+   "body": "<p>Es war ein König in Thule,<br>Gar treu bis an das Grab,<br>Dem sterbend seine Buhle<br>Einen goldnen Becher gab.</p><p>There was a king in Thule,<br>very faithful right up to the grave,<br>to whom his beloved, dying,<br>gave a golden cup.</p><p><strong>Context.</strong> Gretchen sings this ballad in <em>Faust</em>. The stanza is one sentence, with a relative clause in the dative.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-21",
+    "variants": [
+     {
+      "prompt": "What does <em>Es</em> do in <em>Es war ein König in Thule</em>?",
+      "options": [
+       "It fills the first place",
+       "It is the real subject of the sentence",
+       "It is the object",
+       "It refers to Thule"
+      ],
+      "answer": 0,
+      "explain": "The subject is <em>ein König</em>."
+     },
+     {
+      "prompt": "What case follows <em>bis an</em> in <em>bis an das Grab</em>?",
+      "options": [
+       "Dative, of rest at the grave",
+       "Genitive",
+       "Nominative",
+       "Accusative"
+      ],
+      "answer": 3,
+      "explain": "Motion toward: right up to the grave."
+     },
+     {
+      "prompt": "What is <em>goldnen</em>?",
+      "options": [
+       "A comparative, “more golden”",
+       "A noun",
+       "<em>goldenen</em>, shortened",
+       "A dative plural"
+      ],
+      "answer": 2,
+      "explain": "It agrees with <em>Becher</em>."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-22",
@@ -133,8 +323,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-26",
-   "title": "Goethe, <i>Wandrers Nachtlied</i> complete · Trochaic lines of four and two beats",
-   "body": "<p>Der du von dem Himmel bist,<br>Alles Leid und Schmerzen stillest,<br>Den, der doppelt elend ist,<br>Doppelt mit Erquickung füllest,<br>Ach ich bin des Treibens müde!<br>Was soll all der Schmerz und Lust?<br>Süßer Friede,<br>Komm, ach komm in meine Brust!</p><p>You who are from heaven,<br>who still all sorrow and pains,<br>who fill him who is doubly wretched<br>doubly with refreshment,<br>ah, I am tired of the bustle!<br>What is all the pain and pleasure for?<br>Sweet peace,<br>come, ah, come into my breast!</p><p><strong>Context.</strong> The poem is a prayer to peace. The one addressed is held back to line 7, <em>Süßer Friede</em> (“sweet peace”); the first four lines are relative clauses about it, with the verbs at the end.</p>"
+   "title": "Goethe, <em>Wandrers Nachtlied</em> complete · Trochaic lines of four and two beats",
+   "body": "<p>Der du von dem Himmel bist,<br>Alles Leid und Schmerzen stillest,<br>Den, der doppelt elend ist,<br>Doppelt mit Erquickung füllest,<br>Ach ich bin des Treibens müde!<br>Was soll all der Schmerz und Lust?<br>Süßer Friede,<br>Komm, ach komm in meine Brust!</p><p>You who are from heaven,<br>who still all sorrow and pains,<br>who fill him who is doubly wretched<br>doubly with refreshment,<br>ah, I am tired of the bustle!<br>What is all the pain and pleasure for?<br>Sweet peace,<br>come, ah, come into my breast!</p><p><strong>Context.</strong> The poem is a prayer to peace. The one addressed is held back to line 7, <em>Süßer Friede</em> (“sweet peace”); the first four lines are relative clauses about it, with the verbs at the end.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-26",
+    "variants": [
+     {
+      "prompt": "What does <em>Der du … bist</em> mean?",
+      "options": [
+       "“he who is,” in the third person",
+       "“you who are”",
+       "“the one you are”",
+       "“are you he?”"
+      ],
+      "answer": 1,
+      "explain": "The relative is followed by <em>du</em>, so the verb is in the second person."
+     },
+     {
+      "prompt": "What case is <em>Den</em> in <em>Den, der doppelt elend ist</em>?",
+      "options": [
+       "Dative plural, “to those”",
+       "Nominative",
+       "Accusative",
+       "Genitive"
+      ],
+      "answer": 2,
+      "explain": "It is the object of <em>füllest</em>."
+     },
+     {
+      "prompt": "Who is addressed in the poem?",
+      "options": [
+       "<em>der Himmel</em>, from which peace comes",
+       "<em>mein Herz</em>",
+       "the reader",
+       "<em>Süßer Friede</em>"
+      ],
+      "answer": 3,
+      "explain": "The one addressed is held back to line 7."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-27",
@@ -163,8 +391,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-32",
-   "title": "Heine, <i>Die Nordsee</i> “Nachts in der Kajüte” 1–4 · Free lines of three beats",
-   "body": "<p>Das Meer hat seine Perlen,<br>Der Himmel hat seine Sterne,<br>Aber mein Herz, mein Herz,<br>Mein Herz hat seine Liebe.</p><p>The sea has its pearls,<br>the sky has its stars,<br>but my heart, my heart,<br>my heart has its love.</p><p><strong>Context.</strong> The poem has three sentences of the same shape, and the third is broken by repetition. <em>Seine</em> serves for “its” as well as “his.”</p>"
+   "title": "Heine, <em>Die Nordsee</em> “Nachts in der Kajüte” 1–4 · Free lines of three beats",
+   "body": "<p>Das Meer hat seine Perlen,<br>Der Himmel hat seine Sterne,<br>Aber mein Herz, mein Herz,<br>Mein Herz hat seine Liebe.</p><p>The sea has its pearls,<br>the sky has its stars,<br>but my heart, my heart,<br>my heart has its love.</p><p><strong>Context.</strong> The poem has three sentences of the same shape, and the third is broken by repetition. <em>Seine</em> serves for “its” as well as “his.”</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-32",
+    "variants": [
+     {
+      "prompt": "What does <em>seine</em> mean in <em>Das Meer hat seine Perlen</em>?",
+      "options": [
+       "“its”",
+       "“his,” referring to a person",
+       "“her”",
+       "“their”"
+      ],
+      "answer": 0,
+      "explain": "<em>Seine</em> refers to a neuter noun as it would to a masculine one."
+     },
+     {
+      "prompt": "How many times is the subject <em>mein Herz</em> said before the verb?",
+      "options": [
+       "Two, with the third in a new sentence",
+       "One",
+       "Four",
+       "Three"
+      ],
+      "answer": 3,
+      "explain": "The third sentence is broken by repetition."
+     },
+     {
+      "prompt": "What gender is <em>der Himmel</em>?",
+      "options": [
+       "Neuter, like <em>das Meer</em>",
+       "Feminine",
+       "Masculine",
+       "It has no gender"
+      ],
+      "answer": 2,
+      "explain": "It is masculine, and <em>seine</em> is used again."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-33",
@@ -183,8 +449,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-36",
-   "title": "Heine, <i>Ein Fichtenbaum steht einsam</i> 1–4 · Three-beat lines, iambs mixed with anapests",
-   "body": "<p>Ein Fichtenbaum steht einsam<br>Im Norden auf kahler Höh’.<br>Ihn schläfert; mit weißer Decke<br>Umhüllen ihn Eis und Schnee.</p><p>A pine tree stands lonely<br>in the north on a bare height.<br>He grows sleepy; with a white cover<br>ice and snow wrap him round.</p><p><strong>Context.</strong> The pine dreams of a palm in the south. The verb <em>schläfert</em> is impersonal, and the object is placed before the verb.</p>"
+   "title": "Heine, <em>Ein Fichtenbaum steht einsam</em> 1–4 · Three-beat lines, iambs mixed with anapests",
+   "body": "<p>Ein Fichtenbaum steht einsam<br>Im Norden auf kahler Höh’.<br>Ihn schläfert; mit weißer Decke<br>Umhüllen ihn Eis und Schnee.</p><p>A pine tree stands lonely<br>in the north on a bare height.<br>He grows sleepy; with a white cover<br>ice and snow wrap him round.</p><p><strong>Context.</strong> The pine dreams of a palm in the south. The verb <em>schläfert</em> is impersonal, and the object is placed before the verb.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-36",
+    "variants": [
+     {
+      "prompt": "What is <em>einsam</em>?",
+      "options": [
+       "An adjective used as an adverb",
+       "A predicate adjective after <em>ist</em>",
+       "A noun",
+       "A verb"
+      ],
+      "answer": 0,
+      "explain": "“Stands lonely.”"
+     },
+     {
+      "prompt": "What is <em>Höh’</em>?",
+      "options": [
+       "<em>hoch</em>, the adjective",
+       "<em>Höhle</em>",
+       "<em>Hof</em>",
+       "<em>Höhe</em>"
+      ],
+      "answer": 3,
+      "explain": "“A bare height.”"
+     },
+     {
+      "prompt": "What is the subject of <em>umhüllen</em>?",
+      "options": [
+       "<em>ihn</em>, the pine tree",
+       "<em>Decke</em>",
+       "<em>Eis und Schnee</em>",
+       "<em>mit weißer Decke</em>"
+      ],
+      "answer": 2,
+      "explain": "The subject comes last."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-37",
@@ -208,8 +512,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-41",
-   "title": "Heine, <i>Buch der Lieder</i> “Du bist wie eine Blume” 1–4 · Three-beat iambic lines",
-   "body": "<p>Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You are like a flower,<br>so lovely and fair and pure;<br>I look at you, and melancholy<br>creeps into my heart.</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <em>anschauen</em> and <em>hineinschleichen</em>.</p>"
+   "title": "Heine, <em>Buch der Lieder</em> “Du bist wie eine Blume” 1–4 · Three-beat iambic lines",
+   "body": "<p>Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You are like a flower,<br>so lovely and fair and pure;<br>I look at you, and melancholy<br>creeps into my heart.</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <em>anschauen</em> and <em>hineinschleichen</em>.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-41",
+    "variants": [
+     {
+      "prompt": "What does <em>wie eine Blume</em> mean?",
+      "options": [
+       "“how a flower,” in a question",
+       "“as soon as a flower”",
+       "“like a flower”",
+       "“when a flower”"
+      ],
+      "answer": 2,
+      "explain": "A comparison."
+     },
+     {
+      "prompt": "Why do <em>hold</em>, <em>schön</em>, and <em>rein</em> have no endings?",
+      "options": [
+       "They are adverbs of manner",
+       "They are predicate adjectives",
+       "They are nouns",
+       "They are in the plural"
+      ],
+      "answer": 1,
+      "explain": "They are said of <em>du</em>."
+     },
+     {
+      "prompt": "What is <em>hinein</em>?",
+      "options": [
+       "The separated prefix of <em>hineinschleichen</em>",
+       "A preposition with the accusative, “into”",
+       "An adverb of time",
+       "A conjunction"
+      ],
+      "answer": 0,
+      "explain": "It goes to the end of the main clause."
+     }
+    ]
+   }
   },
   {
    "id": "poetry-42",
@@ -233,8 +575,46 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-46",
-   "title": "Rinkart, <i>Nun danket alle Gott</i> 1–4 · Iambic trimeter, six and seven syllables",
-   "body": "<p>Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now all of you give thanks to God<br>with hearts, mouth, and hands,<br>who does great things<br>to us and everywhere,</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>"
+   "title": "Rinkart, <em>Nun danket alle Gott</em> 1–4 · Iambic trimeter, six and seven syllables",
+   "body": "<p>Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now all of you give thanks to God<br>with hearts, mouth, and hands,<br>who does great things<br>to us and everywhere,</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>",
+   "qp": {
+    "id": "q-de-ixv-poetry-46",
+    "variants": [
+     {
+      "prompt": "What case does <em>danken</em> take?",
+      "options": [
+       "The accusative, as English “thank” does",
+       "The genitive",
+       "The nominative",
+       "The dative"
+      ],
+      "answer": 3,
+      "explain": "<em>Danket … Gott.</em>"
+     },
+     {
+      "prompt": "What is <em>Händen</em>?",
+      "options": [
+       "Dative plural",
+       "Nominative plural, the subject",
+       "Genitive singular",
+       "Accusative singular"
+      ],
+      "answer": 0,
+      "explain": "After <em>mit</em>."
+     },
+     {
+      "prompt": "What does <em>An allen Enden</em> mean?",
+      "options": [
+       "“at last,” at the end of time",
+       "“everywhere”",
+       "“in all directions away”",
+       "“to every end”"
+      ],
+      "answer": 1,
+      "explain": "Literally “at all ends.”"
+     }
+    ]
+   }
   },
   {
    "id": "poetry-47",

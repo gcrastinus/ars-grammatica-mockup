@@ -9,7 +9,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-1",
    "title": "The Declaration of Independence, 1776",
-   "body": "<p>When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation. We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.</p><p><strong>Context.</strong> The Declaration of Independence, adopted by the Continental Congress on July 4, 1776, opens with one long period that states why a declaration is needed at all. Its main clause is held back until the reasons for it have been set out. The second sentence then states the truths on which the argument rests.</p>"
+   "body": "<p>When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation. We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.</p><p><strong>Context.</strong> The Declaration of Independence, adopted by the Continental Congress on July 4, 1776, opens with one long period that states why a declaration is needed at all. Its main clause is held back until the reasons for it have been set out. The second sentence then states the truths on which the argument rests.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-1",
+    "variants": [
+     {
+      "prompt": "In the first sentence, what does “it” in “it becomes necessary” look forward to?",
+      "options": [
+       "“The Course of human events,” at the head of the sentence",
+       "“one people”",
+       "The infinitives “to dissolve” and “to assume”",
+       "“the political bands”"
+      ],
+      "answer": 2,
+      "explain": "“It” anticipates what becomes necessary: to dissolve the bands and to assume the station."
+     },
+     {
+      "prompt": "What does the relative clause “to which the Laws of Nature … entitle them” describe?",
+      "options": [
+       "“the Powers of the earth,” the nearer noun",
+       "“the separate and equal station”",
+       "“the political bands”",
+       "“one people”"
+      ],
+      "answer": 1,
+      "explain": "“To which” takes up the station."
+     },
+     {
+      "prompt": "Why is the main clause of the first sentence held back?",
+      "options": [
+       "The clause of time comes first and is long",
+       "The sentence has no main clause of its own at all",
+       "The subject is understood",
+       "It is a question"
+      ],
+      "answer": 0,
+      "explain": "Everything before “a decent respect … requires” belongs to the clause of time."
+     }
+    ]
+   }
   },
   {
    "id": "prose-2",
@@ -54,7 +92,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-10",
    "title": "Gibbon, <i>The Decline and Fall of the Roman Empire</i> chapter I",
-   "body": "<p>In the second century of the Christian Æra, the empire of Rome comprehended the fairest part of the earth, and the most civilized portion of mankind. The frontiers of that extensive monarchy were guarded by ancient renown and disciplined valor. The gentle but powerful influence of laws and manners had gradually cemented the union of the provinces. Their peaceful inhabitants enjoyed and abused the advantages of wealth and luxury.</p><p><strong>Context.</strong> Edward Gibbon published the first volume of his history in 1776. He opens by describing the empire at its height, in the age of the Antonines, before he tells of its decline. Each sentence is balanced in pairs.</p>"
+   "body": "<p>In the second century of the Christian Æra, the empire of Rome comprehended the fairest part of the earth, and the most civilized portion of mankind. The frontiers of that extensive monarchy were guarded by ancient renown and disciplined valor. The gentle but powerful influence of laws and manners had gradually cemented the union of the provinces. Their peaceful inhabitants enjoyed and abused the advantages of wealth and luxury.</p><p><strong>Context.</strong> Edward Gibbon published the first volume of his history in 1776. He opens by describing the empire at its height, in the age of the Antonines, before he tells of its decline. Each sentence is balanced in pairs.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-10",
+    "variants": [
+     {
+      "prompt": "In “The frontiers of that extensive monarchy were guarded,” what is the subject?",
+      "options": [
+       "“ancient renown”",
+       "“disciplined valor”",
+       "“The frontiers of that extensive monarchy”",
+       "“the monarchy” alone, as the doer"
+      ],
+      "answer": 2,
+      "explain": "In the passive, the frontiers receive the action and are the subject."
+     },
+     {
+      "prompt": "What does “by ancient renown and disciplined valor” name?",
+      "options": [
+       "The time of the guarding",
+       "The agent of the passive",
+       "The place of the frontiers",
+       "The object of “guarded”"
+      ],
+      "answer": 1,
+      "explain": "With a passive verb, “by” names the agent."
+     },
+     {
+      "prompt": "What do the verbs “enjoyed and abused” share?",
+      "options": [
+       "One object",
+       "No subject",
+       "Different tenses",
+       "A clause of time"
+      ],
+      "answer": 0,
+      "explain": "Two verbs share one object."
+     }
+    ]
+   }
   },
   {
    "id": "prose-11",
@@ -84,7 +160,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-16",
    "title": "Johnson, <i>Letter to the Earl of Chesterfield</i> 1755, in Boswell’s Life",
-   "body": "<p>Seven years, my Lord, have now past, since I waited in your outward rooms, or was repulsed from your door; during which time I have been pushing on my work through difficulties, of which it is useless to complain, and have brought it, at last, to the verge of publication, without one act of assistance, one word of encouragement, or one smile of favour. Such treatment I did not expect, for I never had a Patron before.</p><p><strong>Context.</strong> Samuel Johnson had once sought the help of Lord Chesterfield for his <i>Dictionary</i> and had been turned away. When the <i>Dictionary</i> was about to appear, Chesterfield praised it in print, and Johnson replied with this letter, which Boswell prints in his <i>Life of Johnson</i>.</p>"
+   "body": "<p>Seven years, my Lord, have now past, since I waited in your outward rooms, or was repulsed from your door; during which time I have been pushing on my work through difficulties, of which it is useless to complain, and have brought it, at last, to the verge of publication, without one act of assistance, one word of encouragement, or one smile of favour. Such treatment I did not expect, for I never had a Patron before.</p><p><strong>Context.</strong> Samuel Johnson had once sought the help of Lord Chesterfield for his <i>Dictionary</i> and had been turned away. When the <i>Dictionary</i> was about to appear, Chesterfield praised it in print, and Johnson replied with this letter, which Boswell prints in his <i>Life of Johnson</i>.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-16",
+    "variants": [
+     {
+      "prompt": "What is “my Lord” in “Seven years, my Lord, have now past”?",
+      "options": [
+       "A noun of address set inside the main clause",
+       "The subject of “have past,” placed second",
+       "An appositive to “years”",
+       "The object of “past”"
+      ],
+      "answer": 0,
+      "explain": "“My Lord” addresses Chesterfield; the subject is “seven years.”"
+     },
+     {
+      "prompt": "What does “during which time” take up?",
+      "options": [
+       "“your door”",
+       "“my work”",
+       "“difficulties”",
+       "“Seven years”"
+      ],
+      "answer": 3,
+      "explain": "The relative phrase refers back to the seven years."
+     },
+     {
+      "prompt": "What tense is “have been pushing”?",
+      "options": [
+       "The simple past",
+       "The past perfect progressive",
+       "The present perfect progressive",
+       "The future perfect"
+      ],
+      "answer": 2,
+      "explain": "It reports an action begun in the past and still going on."
+     }
+    ]
+   }
   },
   {
    "id": "prose-17",
@@ -124,7 +238,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-24",
    "title": "Burke, <i>Reflections on the Revolution in France</i> 1790",
-   "body": "<p>It is now sixteen or seventeen years since I saw the queen of France, then the Dauphiness, at Versailles; and surely never lighted on this orb, which she hardly seemed to touch, a more delightful vision. I saw her just above the horizon, decorating and cheering the elevated sphere she just began to move in,—glittering like the morning-star, full of life and splendor and joy.</p><p><strong>Context.</strong> Edmund Burke wrote the <i>Reflections</i> in 1790 against the course of the French Revolution. In this passage he recalls Marie Antoinette as he saw her years before, when she had newly come to France.</p>"
+   "body": "<p>It is now sixteen or seventeen years since I saw the queen of France, then the Dauphiness, at Versailles; and surely never lighted on this orb, which she hardly seemed to touch, a more delightful vision. I saw her just above the horizon, decorating and cheering the elevated sphere she just began to move in,—glittering like the morning-star, full of life and splendor and joy.</p><p><strong>Context.</strong> Edmund Burke wrote the <i>Reflections</i> in 1790 against the course of the French Revolution. In this passage he recalls Marie Antoinette as he saw her years before, when she had newly come to France.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-24",
+    "variants": [
+     {
+      "prompt": "What is “then the Dauphiness”?",
+      "options": [
+       "The subject of “saw,” placed after it",
+       "An appositive to “the queen of France”",
+       "A clause of time",
+       "The object of “saw”"
+      ],
+      "answer": 1,
+      "explain": "It says what she was at that time."
+     },
+     {
+      "prompt": "In the second clause, where does the subject of “lighted” stand?",
+      "options": [
+       "Before the verb, in the usual order",
+       "In the first clause",
+       "At the end, after the verb",
+       "It is understood"
+      ],
+      "answer": 2,
+      "explain": "The verb comes first after “never,” and the subject, “a more delightful vision,” is held to the end."
+     },
+     {
+      "prompt": "What do “decorating and cheering” describe?",
+      "options": [
+       "“I,” the subject",
+       "“the horizon”",
+       "“the sphere”",
+       "“Her,” the object of “saw”"
+      ],
+      "answer": 3,
+      "explain": "The participles describe the queen."
+     }
+    ]
+   }
   },
   {
    "id": "prose-25",
@@ -164,7 +316,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-32",
    "title": "Newman, <i>The Idea of a University</i> Discourse VIII",
-   "body": "<p>Hence it is that it is almost a definition of a gentleman to say he is one who never inflicts pain. This description is both refined and, as far as it goes, accurate. He is mainly occupied in merely removing the obstacles which hinder the free and unembarrassed action of those about him; and he concurs with their movements rather than takes the initiative himself.</p><p><strong>Context.</strong> John Henry Newman gave these discourses in Dublin in 1852. Here he describes the gentleman whom a liberal education forms, and he defines him with care, adding a qualification to each claim.</p>"
+   "body": "<p>Hence it is that it is almost a definition of a gentleman to say he is one who never inflicts pain. This description is both refined and, as far as it goes, accurate. He is mainly occupied in merely removing the obstacles which hinder the free and unembarrassed action of those about him; and he concurs with their movements rather than takes the initiative himself.</p><p><strong>Context.</strong> John Henry Newman gave these discourses in Dublin in 1852. Here he describes the gentleman whom a liberal education forms, and he defines him with care, adding a qualification to each claim.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-32",
+    "variants": [
+     {
+      "prompt": "What does “Hence it is that” do?",
+      "options": [
+       "It begins a clause of time with “hence”",
+       "It is a question",
+       "It introduces the main statement with emphasis",
+       "It names the subject"
+      ],
+      "answer": 2,
+      "explain": "The emphatic frame points to what follows the second “it.”"
+     },
+     {
+      "prompt": "What does “both … and” join in “both refined and, as far as it goes, accurate”?",
+      "options": [
+       "Two subjects of “is”",
+       "Two predicate adjectives",
+       "Two independent clauses",
+       "Two verbs"
+      ],
+      "answer": 1,
+      "explain": "“Refined” and “accurate” both describe the description."
+     },
+     {
+      "prompt": "What does “rather than” set against each other in the last clause?",
+      "options": [
+       "Two verbs with the same subject",
+       "Two nouns",
+       "Two clauses of time with one subject",
+       "Two objects"
+      ],
+      "answer": 0,
+      "explain": "He concurs rather than takes the initiative."
+     }
+    ]
+   }
   },
   {
    "id": "prose-33",
@@ -194,7 +384,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-38",
    "title": "Austen, <i>Pride and Prejudice</i> chapter 1",
-   "body": "<p>It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.</p><p><strong>Context.</strong> Jane Austen’s novel, published in 1813, opens with a general statement that the story will soon qualify. The second sentence shows the same truth at work in a neighborhood.</p>"
+   "body": "<p>It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.</p><p><strong>Context.</strong> Jane Austen’s novel, published in 1813, opens with a general statement that the story will soon qualify. The second sentence shows the same truth at work in a neighborhood.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-38",
+    "variants": [
+     {
+      "prompt": "What is the phrase “in possession of a good fortune”?",
+      "options": [
+       "A prepositional phrase describing “a single man”",
+       "The subject of “must be,” the real subject",
+       "A clause of condition",
+       "The object of “want”"
+      ],
+      "answer": 0,
+      "explain": "It tells which single man is meant."
+     },
+     {
+      "prompt": "What does “So … that” give in the second sentence?",
+      "options": [
+       "A purpose",
+       "A condition",
+       "A comparison of equals",
+       "A result"
+      ],
+      "answer": 3,
+      "explain": "The truth is so well fixed that he is considered their daughters’ property."
+     },
+     {
+      "prompt": "What is the main clause of the second sentence?",
+      "options": [
+       "“However little known … may be”",
+       "“that he is considered”",
+       "“this truth is so well fixed in the minds of the surrounding families”",
+       "“on his first entering a neighbourhood”"
+      ],
+      "answer": 2,
+      "explain": "The concession comes first and the main clause after it."
+     }
+    ]
+   }
   },
   {
    "id": "prose-39",
@@ -224,7 +452,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-44",
    "title": "The Epistle to the Hebrews, <i>King James Version</i> 1:1–3",
-   "body": "<p>God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high:</p><p><strong>Context.</strong> The Epistle to the Hebrews opens with one long Greek period, which the King James translators (1611) followed closely. The capital in “Hath” marks the start of the second verse in that edition.</p>"
+   "body": "<p>God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high:</p><p><strong>Context.</strong> The Epistle to the Hebrews opens with one long Greek period, which the King James translators (1611) followed closely. The capital in “Hath” marks the start of the second verse in that edition.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-44",
+    "variants": [
+     {
+      "prompt": "What are “spake in time past” and “hath spoken in these last days” set against each other to show?",
+      "options": [
+       "Two subjects",
+       "A question and an answer",
+       "A cause and the result that follows",
+       "Two times of God’s speaking"
+      ],
+      "answer": 3,
+      "explain": "The earlier speaking by the prophets is set against the later speaking by the Son."
+     },
+     {
+      "prompt": "What does “whom he hath appointed heir of all things” take up?",
+      "options": [
+       "“his Son”",
+       "“God”",
+       "“the fathers”",
+       "“the prophets”"
+      ],
+      "answer": 0,
+      "explain": "“Whom” refers to the Son and is the object of “hath appointed.”"
+     },
+     {
+      "prompt": "How is the second relative clause, “by whom also he made the worlds,” joined to the first?",
+      "options": [
+       "By “but”",
+       "Without “and”",
+       "By “because”",
+       "By a semicolon and “and”"
+      ],
+      "answer": 1,
+      "explain": "It follows directly, with no conjunction."
+     }
+    ]
+   }
   },
   {
    "id": "prose-45",
@@ -264,7 +530,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-52",
    "title": "Bacon, <i>Essays</i> “Of Studies”",
-   "body": "<p>Studies serve for delight, for ornament, and for ability. Their chief use for delight, is in privateness and retiring; for ornament, is in discourse; and for ability, is in the judgment, and disposition of business. For expert men can execute, and perhaps judge of particulars, one by one; but the general counsels, and the plots and marshalling of affairs, come best, from those that are learned.</p><p><strong>Context.</strong> Francis Bacon’s essay “Of Studies” appeared in 1597 and was enlarged in 1625. Bacon writes in short, balanced members, and he leaves out words that the reader can supply from what came before.</p>"
+   "body": "<p>Studies serve for delight, for ornament, and for ability. Their chief use for delight, is in privateness and retiring; for ornament, is in discourse; and for ability, is in the judgment, and disposition of business. For expert men can execute, and perhaps judge of particulars, one by one; but the general counsels, and the plots and marshalling of affairs, come best, from those that are learned.</p><p><strong>Context.</strong> Francis Bacon’s essay “Of Studies” appeared in 1597 and was enlarged in 1625. Bacon writes in short, balanced members, and he leaves out words that the reader can supply from what came before.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-52",
+    "variants": [
+     {
+      "prompt": "How many verbs does the first sentence, “Studies serve for delight, for ornament, and for ability,” have?",
+      "options": [
+       "One",
+       "Three",
+       "Two",
+       "None"
+      ],
+      "answer": 0,
+      "explain": "It is a simple sentence with one verb and three phrases."
+     },
+     {
+      "prompt": "What is the subject of the first member of the second sentence?",
+      "options": [
+       "“privateness and retiring”",
+       "“Studies”",
+       "“delight”",
+       "“Their chief use for delight”"
+      ],
+      "answer": 3,
+      "explain": "The predicate is “is in privateness and retiring.”"
+     },
+     {
+      "prompt": "What does “For” give in “For expert men can execute”?",
+      "options": [
+       "The purpose of studies for expert men",
+       "A comparison",
+       "The reason for what was said",
+       "A condition"
+      ],
+      "answer": 2,
+      "explain": "“For” here is a conjunction introducing a reason."
+     }
+    ]
+   }
   },
   {
    "id": "prose-53",
@@ -299,7 +603,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-59",
    "title": "Lincoln, <i>Gettysburg Address</i> 1863, the Bliss copy",
-   "body": "<p>Four score and seven years ago our fathers brought forth, on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.</p><p><strong>Context.</strong> Abraham Lincoln spoke at the dedication of the soldiers’ cemetery at Gettysburg on November 19, 1863. The text here is the copy he signed, known as the Bliss copy.</p>"
+   "body": "<p>Four score and seven years ago our fathers brought forth, on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.</p><p><strong>Context.</strong> Abraham Lincoln spoke at the dedication of the soldiers’ cemetery at Gettysburg on November 19, 1863. The text here is the copy he signed, known as the Bliss copy.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-59",
+    "variants": [
+     {
+      "prompt": "What does “score” mean in “Four score and seven years ago”?",
+      "options": [
+       "Ten",
+       "Twenty",
+       "A hundred",
+       "A dozen"
+      ],
+      "answer": 1,
+      "explain": "Four score and seven is eighty-seven."
+     },
+     {
+      "prompt": "Where does the phrase “on this continent” stand in “our fathers brought forth, on this continent, a new nation”?",
+      "options": [
+       "Before the subject",
+       "After the object",
+       "Between the verb and its object",
+       "At the very end of the sentence"
+      ],
+      "answer": 2,
+      "explain": "The phrase of place is set between “brought forth” and “a new nation.”"
+     },
+     {
+      "prompt": "What does “testing” describe?",
+      "options": [
+       "The fathers",
+       "The proposition",
+       "The continent",
+       "The war"
+      ],
+      "answer": 3,
+      "explain": "It is a participle describing “a great civil war.”"
+     }
+    ]
+   }
   },
   {
    "id": "prose-60",
@@ -334,7 +676,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-66",
    "title": "Lincoln, <i>Second Inaugural Address</i> 1865",
-   "body": "<p>With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan—to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.</p><p><strong>Context.</strong> Lincoln gave his second inaugural address on March 4, 1865, a few weeks before the end of the Civil War. This is its last sentence, a single period.</p>"
+   "body": "<p>With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan—to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.</p><p><strong>Context.</strong> Lincoln gave his second inaugural address on March 4, 1865, a few weeks before the end of the Civil War. This is its last sentence, a single period.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-66",
+    "variants": [
+     {
+      "prompt": "What kind of clause is “let us strive on”?",
+      "options": [
+       "A clause of purpose depending on “firmness”",
+       "A relative clause",
+       "A clause of time",
+       "The main clause, an exhortation"
+      ],
+      "answer": 3,
+      "explain": "The main clause comes after the phrases of manner."
+     },
+     {
+      "prompt": "What does “as God gives us to see the right” limit?",
+      "options": [
+       "“firmness in the right”",
+       "“charity for all”",
+       "“the nation’s wounds”",
+       "“a just and lasting peace”"
+      ],
+      "answer": 0,
+      "explain": "It qualifies the firmness: as far as God lets us see the right."
+     },
+     {
+      "prompt": "What does the last infinitive, “to do all,” do?",
+      "options": [
+       "It begins a new sentence after the dash",
+       "It gathers the preceding purposes into one",
+       "It is the subject of “strive”",
+       "It names the agent"
+      ],
+      "answer": 1,
+      "explain": "After the dash, “to do all” sums up the purposes."
+     }
+    ]
+   }
   },
   {
    "id": "prose-67",
@@ -369,7 +749,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-73",
    "title": "Dickens, <i>A Tale of Two Cities</i> chapter 1",
-   "body": "<p>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way—in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</p><p><strong>Context.</strong> Charles Dickens published <i>A Tale of Two Cities</i> in 1859. It is set in London and Paris before and during the French Revolution, and it opens with this single long sentence.</p>"
+   "body": "<p>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way—in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</p><p><strong>Context.</strong> Charles Dickens published <i>A Tale of Two Cities</i> in 1859. It is set in London and Paris before and during the French Revolution, and it opens with this single long sentence.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-73",
+    "variants": [
+     {
+      "prompt": "What does the subject change to in “we had everything before us”?",
+      "options": [
+       "“it”",
+       "“we”",
+       "“the period”",
+       "“authorities”"
+      ],
+      "answer": 1,
+      "explain": "The pairs continue with a new subject, “we.”"
+     },
+     {
+      "prompt": "What does “in short” do?",
+      "options": [
+       "It begins a clause of condition after the dash",
+       "It is the subject",
+       "It gathers the pairs into one statement",
+       "It introduces a question"
+      ],
+      "answer": 2,
+      "explain": "After the dash, “in short” sums up."
+     },
+     {
+      "prompt": "How are the opening clauses joined?",
+      "options": [
+       "By “and”",
+       "By semicolons only",
+       "By “but” and “and” in turn",
+       "By commas only"
+      ],
+      "answer": 3,
+      "explain": "The short independent clauses stand side by side, joined by commas."
+     }
+    ]
+   }
   },
   {
    "id": "prose-74",
@@ -394,7 +812,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-78",
    "title": "Milton, <i>Areopagitica</i> 1644",
-   "body": "<p>And yet, on the other hand, unless wariness be used, as good almost kill a man as kill a good book. Who kills a man kills a reasonable creature, God's image; but he who destroys a good book, kills reason itself, kills the image of God, as it were in the eye.</p><p><strong>Context.</strong> John Milton wrote <i>Areopagitica</i> in 1644 against the licensing of books before they were printed. He argues that to destroy a good book is like killing a man.</p>"
+   "body": "<p>And yet, on the other hand, unless wariness be used, as good almost kill a man as kill a good book. Who kills a man kills a reasonable creature, God's image; but he who destroys a good book, kills reason itself, kills the image of God, as it were in the eye.</p><p><strong>Context.</strong> John Milton wrote <i>Areopagitica</i> in 1644 against the licensing of books before they were printed. He argues that to destroy a good book is like killing a man.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-78",
+    "variants": [
+     {
+      "prompt": "What words are left out in “as good almost kill a man as kill a good book”?",
+      "options": [
+       "The subject and a helping verb, “one might”",
+       "The object",
+       "A preposition",
+       "Nothing; the sentence is complete as written"
+      ],
+      "answer": 0,
+      "explain": "The full sense is “one might as well almost kill a man as kill a good book.”"
+     },
+     {
+      "prompt": "How many verbs does “he who destroys a good book” have in the main clause?",
+      "options": [
+       "One",
+       "Three",
+       "None",
+       "Two"
+      ],
+      "answer": 3,
+      "explain": "He kills reason itself and kills the image of God."
+     },
+     {
+      "prompt": "What mood is “be used” in “unless wariness be used”?",
+      "options": [
+       "The imperative",
+       "The indicative passive",
+       "The subjunctive",
+       "The infinitive"
+      ],
+      "answer": 2,
+      "explain": "The condition after “unless” uses the subjunctive."
+     }
+    ]
+   }
   },
   {
    "id": "prose-79",
@@ -419,7 +875,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-83",
    "title": "Swift, <i>A Modest Proposal</i> 1729",
-   "body": "<p>It is a melancholy object to those, who walk through this great town, or travel in the country, when they see the streets, the roads, and cabbin-doors crowded with beggars of the female sex, followed by three, four, or six children, all in rags, and importuning every passenger for an alms.</p><p><strong>Context.</strong> Jonathan Swift published <i>A Modest Proposal</i> in 1729, a satire on the treatment of the Irish poor. It opens with this description of the beggars of Dublin.</p>"
+   "body": "<p>It is a melancholy object to those, who walk through this great town, or travel in the country, when they see the streets, the roads, and cabbin-doors crowded with beggars of the female sex, followed by three, four, or six children, all in rags, and importuning every passenger for an alms.</p><p><strong>Context.</strong> Jonathan Swift published <i>A Modest Proposal</i> in 1729, a satire on the treatment of the Irish poor. It opens with this description of the beggars of Dublin.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-83",
+    "variants": [
+     {
+      "prompt": "In the main clause, what does “to those” tell?",
+      "options": [
+       "Where they walk",
+       "When they see",
+       "For whom it is a melancholy object",
+       "Who the beggars of the town are"
+      ],
+      "answer": 2,
+      "explain": "“To those” names the persons for whom the sight is melancholy."
+     },
+     {
+      "prompt": "How many verbs does the relative clause “who walk … or travel” have?",
+      "options": [
+       "One",
+       "Two",
+       "Three",
+       "None"
+      ],
+      "answer": 1,
+      "explain": "“Walk” and “travel” are joined by “or.”"
+     },
+     {
+      "prompt": "What do “followed” and “importuning” describe?",
+      "options": [
+       "The beggars",
+       "The streets",
+       "The travelers",
+       "The children only"
+      ],
+      "answer": 0,
+      "explain": "Both participles describe the beggars."
+     }
+    ]
+   }
   },
   {
    "id": "prose-84",
@@ -444,7 +938,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-88",
    "title": "Melville, <i>Moby-Dick</i> chapter 1",
-   "body": "<p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.</p><p><strong>Context.</strong> Herman Melville published <i>Moby-Dick</i> in 1851. The narrator introduces himself and tells why he went to sea.</p>"
+   "body": "<p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.</p><p><strong>Context.</strong> Herman Melville published <i>Moby-Dick</i> in 1851. The narrator introduces himself and tells why he went to sea.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-88",
+    "variants": [
+     {
+      "prompt": "What is the subject of “Call me Ishmael”?",
+      "options": [
+       "“me”",
+       "“Ishmael,” named by the verb",
+       "“I”",
+       "“You,” understood"
+      ],
+      "answer": 3,
+      "explain": "It is an imperative; the subject is understood."
+     },
+     {
+      "prompt": "What does “having little or no money in my purse” give?",
+      "options": [
+       "The reason, describing “I”",
+       "The purpose of sailing",
+       "A condition",
+       "The object of “thought,” as a noun"
+      ],
+      "answer": 0,
+      "explain": "The participle describes the subject and gives the reason."
+     },
+     {
+      "prompt": "What is “I would sail about a little”?",
+      "options": [
+       "The main clause of the sentence",
+       "A noun clause, the object of “thought”",
+       "A clause of time",
+       "A relative clause"
+      ],
+      "answer": 1,
+      "explain": "It is what he thought."
+     }
+    ]
+   }
   },
   {
    "id": "prose-89",
@@ -469,7 +1001,45 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-93",
    "title": "Thoreau, <i>Walden</i> “Where I Lived, and What I Lived For”",
-   "body": "<p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p><p><strong>Context.</strong> Henry David Thoreau lived by Walden Pond from 1845 to 1847, and he published <i>Walden</i> in 1854. Here he gives his reason for going.</p>"
+   "body": "<p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p><p><strong>Context.</strong> Henry David Thoreau lived by Walden Pond from 1845 to 1847, and he published <i>Walden</i> in 1854. Here he gives his reason for going.</p>",
+   "qp": {
+    "id": "q-en-ixp-prose-93",
+    "variants": [
+     {
+      "prompt": "What is the main clause of the sentence?",
+      "options": [
+       "“because I wished to live deliberately”",
+       "“when I came to die”",
+       "“that I had not lived”",
+       "“I went to the woods”"
+      ],
+      "answer": 3,
+      "explain": "The main clause comes first."
+     },
+     {
+      "prompt": "On which word do “to front” and “see” depend?",
+      "options": [
+       "“wished”",
+       "“went”",
+       "“live,” the first infinitive",
+       "“learn”"
+      ],
+      "answer": 0,
+      "explain": "They are further infinitives depending on “wished.”"
+     },
+     {
+      "prompt": "What is “that I had not lived”?",
+      "options": [
+       "A relative clause describing “I”",
+       "A noun clause, the object of “discover”",
+       "A clause of time",
+       "A clause of purpose"
+      ],
+      "answer": 1,
+      "explain": "It is what he would not discover."
+     }
+    ]
+   }
   },
   {
    "id": "prose-94",
