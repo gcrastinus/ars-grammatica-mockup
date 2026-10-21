@@ -17,7 +17,7 @@ Timothy's decision of 21 Oct 2026: check every quotation listed as unverified in
 | Racine, *Phèdre* I.3.273–276; II.5 | lang.x.fr/racine; lang.vii.fr/figures | Didot (1854) | verified; **corrected**: *et transir et brûler* lowercase (mid-line) |
 | Ronsard, *Sonnets pour Hélène* II.24 (42 in the 1578 order) | lang.x.fr/ronsard; lang.vii.fr/tropes-ex | Bossard (1921) | words verified; modernized spelling and punctuation |
 | La Fontaine, "Le Loup et l'Agneau"; "Le Lièvre et la Tortue" | lang.vii.fr/figures, figures-ex | ed. 1874 | verified; **corrected**: *Rien ne sert de courir ; il faut partir à point* (semicolon, not colon) |
-| Pascal, *Pensées* 277 (Brunschvicg) | lang.ix.fr/prose; lang.vii.fr/tropes-ex | Brunschvicg, *Pensées et Opuscules* (1912), archive.org | **corrected**: *Le cœur a ses raisons, que la raison ne connaît point ; on le sait en mille choses.* The course had *On le sent*. Trotter's English ("We feel it in a thousand things") is kept as published, though it does not render *sait*. |
+| Pascal, *Pensées* 277 (Brunschvicg) | lang.ix.fr/prose; lang.vii.fr/tropes-ex | Brunschvicg, *Pensées et Opuscules* (1912), archive.org | **corrected**: *Le cœur a ses raisons, que la raison ne connaît point ; on le sait en mille choses.* The course had *On le sent*. On Timothy's decision (21 Oct 2026) the quotation now ends after *ne connaît point* in French and "which reason does not know" in Trotter's English, so that the two agree; the card on *on* and *le* became a card on the play on *raison*, and the questions on that clause were replaced. |
 | Pascal, *Pensées* 347 (Brunschvicg) | lang.ix.fr/prose; lang.x.fr/pascal | Brunschvicg (1912) | **corrected** punctuation: *la nature : mais*, *une goutte d'eau, suffit* |
 
 ## German

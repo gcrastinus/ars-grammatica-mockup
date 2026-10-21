@@ -644,7 +644,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-52",
    "title": "Pascal, <em>Pensées</em> 277",
-   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point ; on le sait en mille choses.</p><p>The heart has its reasons, which reason does not know. We feel it in a thousand things.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>",
+   "body": "<p>Le cœur a ses raisons, que la raison ne connaît point.</p><p>The heart has its reasons, which reason does not know.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> In this thought Pascal plays on the word <em>raison</em>: the heart has reasons of its own, which the reasoning mind does not know.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-52",
     "variants": [
@@ -671,15 +671,15 @@ ARS.decks["lang.ix.fr/prose"] = {
       "explain": "<em>Ne … point</em> is stronger than <em>ne … pas</em>."
      },
      {
-      "prompt": "What does <em>On</em> mean?",
+      "prompt": "What is the subject of <em>connaît</em>?",
       "options": [
-       "“the heart,” named before",
-       "“reason”",
-       "“they,” some particular persons",
-       "“one,” “we,” a general subject"
+       "<em>que</em>, the relative",
+       "<em>le cœur</em>",
+       "<em>ses raisons</em>",
+       "<em>la raison</em>"
       ],
       "answer": 3,
-      "explain": "<em>on le sait en mille choses.</em>"
+      "explain": "<em>La raison</em> is the subject; <em>que</em> is the object of <em>connaît</em>."
      }
     ]
    }
@@ -696,8 +696,8 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-55",
-   "title": "On and the neuter le",
-   "body": "<p><em>on le sait en mille choses</em>: <em>On</em>, “one, we,” is the general subject. <em>Le</em> stands for the whole preceding statement.</p>"
+   "title": "The play on raison",
+   "body": "<p><em>ses raisons … la raison</em>: the plural <em>raisons</em> means grounds or motives, and the singular <em>la raison</em> means the reasoning mind. The same word used in two senses is the figure called antanaclasis.</p>"
   },
   {
    "id": "prose-56",

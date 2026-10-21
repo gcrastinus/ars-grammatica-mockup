@@ -678,13 +678,13 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>On</em> is…",
-   "explain": "<em>On</em> is the indefinite subject, rendered by “we” in the translation.",
+   "prompt": "What person and number is <em>connaît</em>?",
+   "explain": "<em>Connaît</em> is the third person singular of the present of <em>connaître</em>, agreeing with its subject <em>la raison</em>.",
    "options": [
-    "A pronoun for people in general: one, we",
-    "The heart",
-    "Reason",
-    "A preposition"
+    "Third person singular, agreeing with <em>la raison</em>",
+    "Third person plural, agreeing with <em>raisons</em>",
+    "First person singular",
+    "Second person singular"
    ],
    "answer": 0,
    "passageRef": "prose-52"
@@ -695,13 +695,13 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>le</em> in <em>On le sent</em> stands for…",
-   "explain": "<em>Le</em> can stand for a whole idea: we feel that it is so.",
+   "prompt": "What tense is <em>connaît</em>?",
+   "explain": "<em>Connaît</em> is the present: Pascal states something always true.",
    "options": [
-    "The whole statement just made",
-    "<em>le cœur</em>",
-    "<em>la raison</em>",
-    "A thousand things, named in the next clause"
+    "The present",
+    "The passé simple",
+    "The imparfait",
+    "The future"
    ],
    "answer": 0,
    "passageRef": "prose-52"
