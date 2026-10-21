@@ -146,6 +146,9 @@ ARS.structure = [
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
    { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
    { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
+ ],
+ langBars:[
+   { id:'x', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
  { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
    gloss:'The other classical grammars, and the modern study of universal grammar.',

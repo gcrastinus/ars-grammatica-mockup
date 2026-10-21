@@ -130,7 +130,7 @@ function deckForExercise(exId){
 }
 function langItemDone(it){
   if (!it || it.kind === 'note') return false;
-  if (it.kind === 'exercise' || it.kind === 'models'){
+  if (it.kind === 'exercise'){
     const st = store.ex && store.ex[it.id];
     return !!(st && st.done);
   }
@@ -267,7 +267,7 @@ function makeTile(it){
   c.dataset.id = it.id;
   const studied = it.built && !practiceTile && st && st.done;
   const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
-  const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : 'Study →') : '';
+  const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : (it.kind === 'models' ? 'Read →' : 'Study →')) : '';
   c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
     <h3>${it.title}</h3><p>${it.desc}</p>
     <span class="begin${(studied || finished) ? ' is-done' : ''}">${begin}</span>

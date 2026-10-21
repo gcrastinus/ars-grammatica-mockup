@@ -83,7 +83,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
         const exBtn = t.querySelector('.ex-link');
         const want = ARS.deckEx[it.id];
         if (want && !exBtn) out.problems.push(it.id + ': paired with ' + want + ' but no Exercise button');
-        if (it.kind === 'study'){
+        if (it.kind === 'study' || it.kind === 'models'){
           try {
             const d = await loadDeck(it.id); out.decks++;
             openDeck(it.id); await wait(20);
