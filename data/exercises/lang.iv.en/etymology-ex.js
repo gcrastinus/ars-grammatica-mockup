@@ -31,13 +31,13 @@ ARS.exercises["lang.iv.en/etymology-ex"] = {
    "deck": "lang.iv.en/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word was borrowed from Latin <i>genu</i> (“knee”)?",
-   "explain": "“Genuflect” keeps the Latin <i>g</i>; “knee” is the native cognate.",
+   "prompt": "Which word was borrowed from Latin <i>pēs, pedis</i> (“foot”)?",
+   "explain": "“Pedal” keeps the Latin p, so it is a borrowing; “foot” is the native cognate, with f for Latin p.",
    "options": [
-    "“knee”",
-    "“kneel”",
-    "“kneeling-stool”",
-    "“genuflect”"
+    "“foot”",
+    "“fetter”",
+    "“path”",
+    "“pedal”"
    ],
    "answer": 3
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iv.en/etymology-ex"] = {
    "deck": "lang.iv.en/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word was borrowed from Latin <i>cor</i>, <i>cordis</i> (“heart”)?",
-   "explain": "“Cordial” keeps the Latin <i>c</i>.",
+   "prompt": "Which word was borrowed from Latin <i>pater</i> (“father”)?",
+   "explain": "“Paternal” keeps the Latin p, so it was taken from Latin; “father” is the native cognate.",
    "options": [
-    "“heart”",
-    "“cordial”",
-    "“hearty”",
-    "“heartfelt”"
+    "“father”",
+    "“paternal”",
+    "“fatherly”",
+    "“patter”"
    ],
    "answer": 1
   },
