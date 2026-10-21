@@ -5,7 +5,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Congruity and Completeness",
+ "title": "Agreement and Congruity in Latin",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,14 +15,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Percutio album, with <em>album</em> taken as an adjective, not as a substantive (“the white thing”).",
-   "explain": "Taken as an adjective, <em>album</em> has the mode of adhering, and there is no noun standing by itself for it to adhere to. The modes do not fit. Taken as a substantive adjective, “the white thing,” the construction would be sound.",
+   "prompt": "Choose the description that fits this group of words: <i>Percutiō album</i>, with <i>album</i> taken as an adjective, not as a substantive (“the white thing”).",
+   "explain": "Taken as an adjective, <i>album</i> has the mode of adhering, and there is no noun standing by itself for it to adhere to. The modes do not fit. Taken as a substantive adjective, “the white thing,” the construction would be sound.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.la/congruity-ex:cg4",
@@ -30,12 +30,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. homo albus",
-   "explain": "The adjective fits the noun. Completeness requires a finite verb: <em>homo est albus</em>.",
+   "prompt": "Choose the description that fits this group of words: <i>homō albus</i>.",
+   "explain": "The adjective fits the noun. Completeness requires a finite verb: <i>homō est albus</i>.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -45,14 +45,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. homo est albus",
+   "prompt": "Choose the description that fits this group of words: <i>homō est albus</i>.",
    "explain": "The construction fits, and a finite verb makes the sentence complete. Grammar has judged the sentence. Whether the man is in fact white is not asked here.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.la/congruity-ex:cg8",
@@ -60,12 +60,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Homo albus currit bene.",
+   "prompt": "Choose the description that fits this group of words: <i>Homō albus currit bene</i>.",
    "explain": "Adjective depends on noun, verb on subject, and adverb on verb; each dependence is terminated, and the verb finishes the sentence. Thomas uses this sentence to show that it holds three constructions, not one.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -75,12 +75,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puer fortis currit.",
+   "prompt": "Choose the description that fits this group of words: <i>Puer fortis currit</i>.",
    "explain": "The parts fit, and a finite verb finishes the sentence.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -90,27 +90,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puella bona cantat.",
+   "prompt": "Choose the description that fits this group of words: <i>Puella bona cantat</i>.",
    "explain": "The parts fit, and a finite verb finishes the sentence.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg13",
-   "set": "A",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Nauta fessus dormit.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -120,57 +105,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Rex sapiens regnat.",
+   "prompt": "Choose the description that fits this group of words: <i>Rēx sapiēns rēgnat</i>.",
    "explain": "The parts fit, and a finite verb finishes the sentence.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg15",
-   "set": "A",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Miles validus pugnat.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg16",
-   "set": "A",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Avis parva volat.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg17",
-   "set": "A",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Servus bonus laborat.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -180,29 +120,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Mater filium amat.",
+   "prompt": "Choose the description that fits this group of words: <i>Māter fīlium amat</i>.",
    "explain": "The parts fit, and a finite verb finishes the sentence.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit",
+    "Congruous and complete: the sense is now finished"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg19",
-   "set": "A",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puer aquam bibit.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.la/congruity-ex:cg20",
@@ -210,42 +135,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Rex leges dat.",
+   "prompt": "Choose the description that fits this group of words: <i>Rēx lēgēs dat</i>.",
    "explain": "The parts fit, and a finite verb finishes the sentence.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg21",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Nauta navem ducit.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg22",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puella carmina cantat.",
-   "explain": "The parts fit, and a finite verb finishes the sentence.",
-   "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -255,12 +150,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puer fortis.",
+   "prompt": "Choose the description that fits this group of words: <i>Puer fortis</i>.",
    "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -270,44 +165,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puella bona.",
+   "prompt": "Choose the description that fits this group of words: <i>Puella bona</i>.",
    "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg25",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Navis magna.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg26",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Via longa.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.la/congruity-ex:cg27",
@@ -315,89 +180,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Rex sapiens.",
+   "prompt": "Choose the description that fits this group of words: <i>Rēx sapiēns</i>.",
    "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg28",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Miles validus.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg29",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Liber novus.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg30",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Aqua frigida.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg31",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Urbs antiqua.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg32",
-   "set": "B",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Poeta clarus.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.la/congruity-ex:cg33",
@@ -405,27 +195,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Hortus parvus.",
+   "prompt": "Choose the description that fits this group of words: <i>Hortus parvus</i>.",
    "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg34",
-   "set": "C",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Amicus fidus.",
-   "explain": "The adjective fits the noun. There is no verb, so the sense is not yet complete.",
-   "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -435,29 +210,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Pueri currit.",
+   "prompt": "Choose the description that fits this group of words: <i>Puerī currit</i>.",
    "explain": "The subject is plural and the verb is singular. The parts do not fit.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg36",
-   "set": "C",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puellae cantat.",
-   "explain": "The subject is plural and the verb is singular. The parts do not fit.",
-   "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.la/congruity-ex:cg37",
@@ -465,14 +225,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Ego sumus.",
-   "explain": "<em>Ego</em> is singular and <em>sumus</em> is plural. The parts do not fit.",
+   "prompt": "Choose the description that fits this group of words: <i>Ego sumus</i>.",
+   "explain": "<i>Ego</i> is singular and <i>sumus</i> is plural. The parts do not fit.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.la/congruity-ex:cg38",
@@ -480,12 +240,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Nos est laetus.",
-   "explain": "<em>Nos</em> is plural and <em>est</em> is singular. The parts do not fit.",
+   "prompt": "Choose the description that fits this group of words: <i>Nōs est laetus</i>.",
+   "explain": "<i>Nōs</i> is plural and <i>est</i> is singular. The parts do not fit.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Incongruous: the parts do not fit",
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished"
    ],
    "answer": 0
   },
@@ -495,14 +255,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Puella bonus est.",
-   "explain": "<em>Puella</em> is feminine and <em>bonus</em> is masculine. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "prompt": "Choose the description that fits this group of words: <i>Puella bonus est</i>.",
+   "explain": "<i>Puella</i> is feminine and <i>bonus</i> is masculine. The parts do not fit. the parts do not fit with one another, so the construction fails",
    "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.la/congruity-ex:cg40",
@@ -510,14 +270,14 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Libri est magnus.",
-   "explain": "<em>Libri</em> is plural and <em>est</em> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "prompt": "Choose the description that fits this group of words: <i>Librī est magnus</i>.",
+   "explain": "<i>Librī</i> is plural and <i>est</i> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
    "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.la/congruity-ex:cg41",
@@ -525,12 +285,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Tu sum.",
-   "explain": "<em>Tu</em> is second person and <em>sum</em> is first person. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "prompt": "Choose the description that fits this group of words: <i>Tū sum</i>.",
+   "explain": "<i>Tū</i> is second person and <i>sum</i> is first person. The parts do not fit. the parts do not fit with one another, so the construction fails",
    "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Incongruous: the parts do not fit",
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished"
    ],
    "answer": 0
   },
@@ -540,27 +300,12 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Me currit.",
-   "explain": "<em>Me</em> is the object form, and it stands where a subject is required. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "prompt": "Choose the description that fits this group of words: <i>Mē currit</i>.",
+   "explain": "<i>Mē</i> is the object form, and it stands where a subject is required. The parts do not fit. the parts do not fit with one another, so the construction fails",
    "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.v.la/congruity-ex:cg43",
-   "set": "C",
-   "deck": "lang.v.la/congruity-ex",
-   "section": "v",
-   "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Canis currunt.",
-   "explain": "<em>Canis</em> is singular and <em>currunt</em> is plural. The parts do not fit. the parts do not fit with one another, so the construction fails",
-   "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Incongruous: the parts do not fit",
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished"
    ],
    "answer": 0
   },
@@ -570,12 +315,172 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Milites pugnat.",
-   "explain": "<em>Milites</em> is plural and <em>pugnat</em> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "prompt": "Choose the description that fits this group of words: <i>Mīlitēs pugnat</i>.",
+   "explain": "<i>Mīlitēs</i> is plural and <i>pugnat</i> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
    "options": [
-    "Incongruous",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr1",
+   "set": "A",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>convīva laetus</i>.",
+   "explain": "<i>Convīva</i> (“guest”) is masculine, though it belongs to the first declension, so the adjective is masculine: <i>laetus</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr2",
+   "set": "A",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>rēgīna bonus</i>.",
+   "explain": "<i>Rēgīna</i> is feminine, so the adjective should be <i>bona</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr3",
+   "set": "A",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>puerī parvus</i>.",
+   "explain": "<i>Puerī</i> is plural, so the adjective should be <i>parvī</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr4",
+   "set": "B",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>urbem magna</i>.",
+   "explain": "<i>Urbem</i> is accusative, so the adjective should be <i>magnam</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr5",
+   "set": "B",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>mare tranquillum</i>.",
+   "explain": "<i>Mare</i> is a neuter noun of the third declension, and <i>tranquillum</i> is neuter, singular, and nominative or accusative, as <i>mare</i> is.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr6",
+   "set": "B",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>arborēs altī</i>.",
+   "explain": "<i>Arbor</i> (“tree”) is feminine, though it ends in <i>-or</i>, so the adjective should be <i>altae</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr7",
+   "set": "C",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>cum amīcīs fīdīs</i>.",
+   "explain": "<i>Cum</i> governs the ablative, and <i>fīdīs</i> agrees with <i>amīcīs</i> in the masculine ablative plural.",
+   "options": [
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Correct: the words agree",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr8",
+   "set": "C",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Judge the phrase: <i>dē bellō longum</i>.",
+   "explain": "<i>Bellō</i> is ablative after <i>dē</i>, so the adjective should be <i>longō</i>.",
+   "options": [
+    "Correct: the words agree",
+    "Incorrect: they do not agree in gender",
+    "Incorrect: they do not agree in number",
+    "Incorrect: they do not agree in case"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr9",
+   "set": "C",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Fēminae, ______ vīdimus, cantābant</i> (“the women whom we saw were singing”)?",
+   "explain": "The relative is feminine plural because <i>fēminae</i> is, and accusative as the object of <i>vīdimus</i>.",
+   "options": [
+    "<i>quās</i>",
+    "<i>quae</i>",
+    "<i>quōs</i>",
+    "<i>quārum</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.la/congruity-ex:agr10",
+   "set": "B",
+   "deck": "lang.v.la/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>Tū et ego ______</i> (“you and I are friends”)?",
+   "explain": "When one subject is <i>ego</i>, the verb is first person plural.",
+   "options": [
+    "<i>amīcī sumus</i>",
+    "<i>amīcī estis</i>",
+    "<i>amīcus est</i>",
+    "<i>amīcī sunt</i>"
    ],
    "answer": 0
   }

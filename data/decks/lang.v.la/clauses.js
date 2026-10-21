@@ -9,7 +9,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-1",
    "title": "Plato, Apology 30d–e",
-   "body": "<p>And now, Athenians, I am not going to argue for my own sake, as you may think, but for yours, <span class=\"target\">that you may not sin against the God by condemning me</span>, who am his gift to you.</p><p>νῦν οὖν, ὦ ἄνδρες Ἀθηναῖοι, πολλοῦ δέω ἐγὼ ὑπὲρ ἐμαυτοῦ ἀπολογεῖσθαι, ὥς τις ἂν οἴοιτο, ἀλλὰ ὑπὲρ ὑμῶν, <span class=\"target\">μή τι ἐξαμάρτητε περὶ τὴν τοῦ θεοῦ δόσιν ὑμῖν ἐμοῦ καταψηφισάμενοι</span>.</p><p>The marked clause gives the end for which he argues, so it is a clause of purpose. Greek gives a negative purpose with μή and the subjunctive (ἐξαμάρτητε); Latin would write <span class=\"lat\">ne</span>. It is not result, since nothing has yet followed.</p>"
+   "body": "<p>And now, Athenians, I am not going to argue for my own sake, as you may think, but for yours, <span class=\"target\">that you may not sin against the God by condemning me</span>, who am his gift to you.</p><p>νῦν οὖν, ὦ ἄνδρες Ἀθηναῖοι, πολλοῦ δέω ἐγὼ ὑπὲρ ἐμαυτοῦ ἀπολογεῖσθαι, ὥς τις ἂν οἴοιτο, ἀλλὰ ὑπὲρ ὑμῶν, <span class=\"target\">μή τι ἐξαμάρτητε περὶ τὴν τοῦ θεοῦ δόσιν ὑμῖν ἐμοῦ καταψηφισάμενοι</span>.</p><p>The marked clause gives the end for which he argues, so it is a clause of purpose. Greek gives a negative purpose with μή and the subjunctive (ἐξαμάρτητε); Latin would write <span class=\"lat\">ne</span>. It is not result, since nothing has yet followed.</p>",
+   "qp": {
+    "id": "q-la-auth-plato",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “He studied hard <b>so that he might pass the examination</b>”?",
+      "options": [
+       "A clause of result",
+       "A conditional clause",
+       "A clause of purpose",
+       "An indirect question"
+      ],
+      "answer": 2,
+      "explain": "The clause gives the end aimed at."
+     },
+     {
+      "prompt": "What kind of clause is marked in “<b>If you leave now</b>, you will catch the train”?",
+      "options": [
+       "A clause of purpose",
+       "A conditional clause",
+       "A clause of comparison",
+       "A clause of result"
+      ],
+      "answer": 1,
+      "explain": "“If” grants a case, and the main clause says what follows."
+     },
+     {
+      "prompt": "What kind of clause is marked in “She asked <b>whether the shop was open</b>”?",
+      "options": [
+       "An indirect question",
+       "A clause of purpose",
+       "A clause of comparison",
+       "A clause of result"
+      ],
+      "answer": 0,
+      "explain": "After a verb of asking, the question is reported, not answered."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-2",
@@ -39,7 +77,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-7",
    "title": "Thucydides II.38",
-   "body": "<p>… while the magnitude of our city draws the produce of the world into our harbour, <span class=\"target\">so that to the Athenian the fruits of other countries are as familiar a luxury as those of his own</span>.</p><p>ἐπεσέρχεται δὲ διὰ μέγεθος τῆς πόλεως ἐκ πάσης γῆς τὰ πάντα, <span class=\"target\">καὶ ξυμβαίνει ἡμῖν μηδὲν οἰκειοτέρᾳ τῇ ἀπολαύσει τὰ αὐτοῦ ἀγαθὰ γιγνόμενα καρποῦσθαι ἢ καὶ τὰ τῶν ἄλλων ἀνθρώπων</span>.</p><p>The marked clause gives a consequence of the drawing of trade, so it is a clause of result. Crawley’s “so that” is consecutive, that is, it expresses result, not purpose: the city did not grow great in order that foreign fruit should be familiar. The Greek states the consequence in a coordinate clause, καὶ ξυμβαίνει (“and it comes about”).</p>"
+   "body": "<p>… while the magnitude of our city draws the produce of the world into our harbour, <span class=\"target\">so that to the Athenian the fruits of other countries are as familiar a luxury as those of his own</span>.</p><p>ἐπεσέρχεται δὲ διὰ μέγεθος τῆς πόλεως ἐκ πάσης γῆς τὰ πάντα, <span class=\"target\">καὶ ξυμβαίνει ἡμῖν μηδὲν οἰκειοτέρᾳ τῇ ἀπολαύσει τὰ αὐτοῦ ἀγαθὰ γιγνόμενα καρποῦσθαι ἢ καὶ τὰ τῶν ἄλλων ἀνθρώπων</span>.</p><p>The marked clause gives a consequence of the drawing of trade, so it is a clause of result. Crawley’s “so that” is consecutive, that is, it expresses result, not purpose: the city did not grow great in order that foreign fruit should be familiar. The Greek states the consequence in a coordinate clause, καὶ ξυμβαίνει (“and it comes about”).</p>",
+   "qp": {
+    "id": "q-la-auth-thuc",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “The rain was so heavy <b>that the river flooded</b>”?",
+      "options": [
+       "A clause of result",
+       "A clause of purpose",
+       "A conditional clause",
+       "A concessive clause"
+      ],
+      "answer": 0,
+      "explain": "The clause gives what followed."
+     },
+     {
+      "prompt": "What kind of clause is marked in “<b>Although the road was long</b>, they walked on”?",
+      "options": [
+       "A causal clause",
+       "A conditional clause",
+       "A clause of result",
+       "A concessive clause"
+      ],
+      "answer": 3,
+      "explain": "“Although” grants a fact, and the main action goes on all the same."
+     },
+     {
+      "prompt": "Which word in English usually marks a clause of result?",
+      "options": [
+       "“in order that”",
+       "“whether”",
+       "“so … that”",
+       "“who”"
+      ],
+      "answer": 2,
+      "explain": "“So … that” (or “such … that”) gives a consequence."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-8",
@@ -64,7 +140,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-12",
    "title": "Herodotus I.1",
-   "body": "<p>Here they exposed their merchandise, and traded with the natives for five or six days; at the end of which time, <span class=\"target\">when almost everything was sold</span>, there came down to the beach a number of women, and among them the daughter of the king, …</p><p>πέμπτῃ δὲ ἢ ἕκτῃ ἡμέρῃ ἀπ’ ἧς ἀπίκοντο, <span class=\"target\">ἐξεμπολημένων σφι σχεδὸν πάντων</span>, ἐλθεῖν ἐπὶ τὴν θάλασσαν γυναῖκας ἄλλας τε πολλὰς καὶ δὴ καὶ τοῦ βασιλέος θυγατέρα·</p><p>“When” marks the time at which the women came down. Greek has no clause here: a genitive absolute (ἐξεμπολημένων … πάντων, “almost everything having been sold”) is used in the same way.</p>"
+   "body": "<p>Here they exposed their merchandise, and traded with the natives for five or six days; at the end of which time, <span class=\"target\">when almost everything was sold</span>, there came down to the beach a number of women, and among them the daughter of the king, …</p><p>πέμπτῃ δὲ ἢ ἕκτῃ ἡμέρῃ ἀπ’ ἧς ἀπίκοντο, <span class=\"target\">ἐξεμπολημένων σφι σχεδὸν πάντων</span>, ἐλθεῖν ἐπὶ τὴν θάλασσαν γυναῖκας ἄλλας τε πολλὰς καὶ δὴ καὶ τοῦ βασιλέος θυγατέρα·</p><p>“When” marks the time at which the women came down. Greek has no clause here: a genitive absolute (ἐξεμπολημένων … πάντων, “almost everything having been sold”) is used in the same way.</p>",
+   "qp": {
+    "id": "q-la-auth-hdt",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “<b>When the bell rang</b>, the pupils went out”?",
+      "options": [
+       "A temporal clause",
+       "A clause of purpose",
+       "An indirect statement",
+       "A relative clause"
+      ],
+      "answer": 0,
+      "explain": "“When” marks the time of the main action."
+     },
+     {
+      "prompt": "What kind of clause is marked in “He replied <b>that he had seen nothing</b>”?",
+      "options": [
+       "A clause of purpose",
+       "A conditional clause",
+       "A clause of comparison",
+       "An indirect statement"
+      ],
+      "answer": 3,
+      "explain": "After a verb of replying, the content of the reply is reported."
+     },
+     {
+      "prompt": "What kind of clause is marked in “They feared <b>lest the bridge should fall</b>”?",
+      "options": [
+       "A clause of result",
+       "A conditional clause",
+       "A clause of fearing",
+       "A relative clause"
+      ],
+      "answer": 2,
+      "explain": "After a verb of fearing, the clause gives what is feared."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-13",
@@ -89,7 +203,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-17",
    "title": "Sophocles, Oedipus Tyrannus 67–72",
-   "body": "<p>Thus pondering one clue of hope I caught,<br>And tracked it up; I have sent Menoeceus’ son,<br>Creon, my consort’s brother, <span class=\"target\">to inquire<br>Of Pythian Phoebus at his Delphic shrine,<br>How I might save the State by act or word</span>.</p><p>ἣν δ’ εὖ σκοπῶν ηὕρισκον ἴασιν μόνην,<br>ταύτην ἔπραξα· παῖδα γὰρ Μενοικέως<br>Κρέοντ’, ἐμαυτοῦ γαμβρόν, ἐς τὰ Πυθικὰ<br>ἔπεμψα Φοίβου δώμαθ’, <span class=\"target\">ὡς πύθοιθ’ ὅ τι<br>δρῶν ἢ τί φωνῶν τήνδε ῥυσαίμην πόλιν</span>.</p><p>The marked clause gives the end for which he was sent, so it is a clause of purpose. Storr uses the infinitive “to inquire”; Greek has ὡς with the optative (πύθοιτο). Nested inside is an indirect question: how he might save the city.</p>"
+   "body": "<p>Thus pondering one clue of hope I caught,<br>And tracked it up; I have sent Menoeceus’ son,<br>Creon, my consort’s brother, <span class=\"target\">to inquire<br>Of Pythian Phoebus at his Delphic shrine,<br>How I might save the State by act or word</span>.</p><p>ἣν δ’ εὖ σκοπῶν ηὕρισκον ἴασιν μόνην,<br>ταύτην ἔπραξα· παῖδα γὰρ Μενοικέως<br>Κρέοντ’, ἐμαυτοῦ γαμβρόν, ἐς τὰ Πυθικὰ<br>ἔπεμψα Φοίβου δώμαθ’, <span class=\"target\">ὡς πύθοιθ’ ὅ τι<br>δρῶν ἢ τί φωνῶν τήνδε ῥυσαίμην πόλιν</span>.</p><p>The marked clause gives the end for which he was sent, so it is a clause of purpose. Storr uses the infinitive “to inquire”; Greek has ὡς with the optative (πύθοιτο). Nested inside is an indirect question: how he might save the city.</p>",
+   "qp": {
+    "id": "q-la-auth-soph",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “I sent a messenger <b>to ask the way</b>”?",
+      "options": [
+       "A clause of characteristic",
+       "A conditional clause",
+       "An infinitive of purpose",
+       "An indirect statement"
+      ],
+      "answer": 2,
+      "explain": "The infinitive gives the end for which the messenger was sent."
+     },
+     {
+      "prompt": "What kind of clause is marked in “<b>Whoever finds the ring</b> will be rewarded”?",
+      "options": [
+       "A clause of purpose",
+       "An indefinite relative clause",
+       "A clause of result",
+       "A participial phrase used as object"
+      ],
+      "answer": 1,
+      "explain": "“Whoever” grants the case of anyone who finds it, much as a condition does."
+     },
+     {
+      "prompt": "What kind of clause is marked in “He wondered <b>how he could escape</b>”?",
+      "options": [
+       "An indirect question",
+       "A clause of purpose",
+       "A clause of comparison",
+       "A concessive clause"
+      ],
+      "answer": 0,
+      "explain": "The clause reports a question."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-18",
@@ -109,7 +261,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-21",
    "title": "Euripides, Medea 1–6",
-   "body": "<p>Ah! would to Heaven the good ship Argo ne’er had sped its course to the Colchian land through the misty blue Symplegades, nor ever in the glens of Pelion the pine been felled <span class=\"target\">to furnish with oars the chieftain’s hands</span>, who went to fetch the golden fleece for Pelias; …</p><p>Εἴθ’ ὤφελ’ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ’ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, <span class=\"target\">μηδ’ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων</span>, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>In Coleridge’s English, “to furnish” is an infinitive of purpose: the pine was felled to that end. The Greek is built differently, since μηδ’ ἐρετμῶσαι is a third infinitive of the Nurse’s wish (“nor had it furnished oars”); the purpose is the translator’s construction.</p>"
+   "body": "<p>Ah! would to Heaven the good ship Argo ne’er had sped its course to the Colchian land through the misty blue Symplegades, nor ever in the glens of Pelion the pine been felled <span class=\"target\">to furnish with oars the chieftain’s hands</span>, who went to fetch the golden fleece for Pelias; …</p><p>Εἴθ’ ὤφελ’ Ἀργοῦς μὴ διαπτάσθαι σκάφος<br>Κόλχων ἐς αἶαν κυανέας Συμπληγάδας,<br>μηδ’ ἐν νάπαισι Πηλίου πεσεῖν ποτε<br>τμηθεῖσα πεύκη, <span class=\"target\">μηδ’ ἐρετμῶσαι χέρας<br>ἀνδρῶν ἀρίστων</span>, οἳ τὸ πάγχρυσον δέρας<br>Πελίᾳ μετῆλθον.</p><p>In Coleridge’s English, “to furnish” is an infinitive of purpose: the pine was felled to that end. The Greek is built differently, since μηδ’ ἐρετμῶσαι is a third infinitive of the Nurse’s wish (“nor had it furnished oars”); the purpose is the translator’s construction.</p>",
+   "qp": {
+    "id": "q-la-auth-eur",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “I swear <b>that I will keep the promise</b>”?",
+      "options": [
+       "An indirect statement",
+       "A clause of purpose",
+       "A clause of comparison",
+       "A conditional clause"
+      ],
+      "answer": 0,
+      "explain": "After a verb of swearing, the content of the oath is reported."
+     },
+     {
+      "prompt": "What kind of clause is marked in “I am afraid <b>that it may rain</b>”?",
+      "options": [
+       "A clause of purpose",
+       "A causal clause",
+       "A relative clause",
+       "A clause of fearing"
+      ],
+      "answer": 3,
+      "explain": "The clause gives what is feared."
+     },
+     {
+      "prompt": "What kind of clause is marked in “I will help you, <b>if I can</b>”?",
+      "options": [
+       "A clause of purpose",
+       "A concessive clause",
+       "A conditional clause",
+       "A clause of comparison"
+      ],
+      "answer": 2,
+      "explain": "“If” grants the case."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-22",
@@ -129,7 +319,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-25",
    "title": "Polybius I.1",
-   "body": "<p><span class=\"target\">Had the praise of History been passed over by former Chroniclers</span> it would perhaps have been incumbent upon me to urge the choice and special study of records of this sort, as the readiest means men can have of correcting their knowledge of the past.</p><p><span class=\"target\">εἰ μὲν τοῖς πρὸ ἡμῶν ἀναγράφουσι τὰς πράξεις παραλελεῖφθαι συνέβαινε τὸν ὑπὲρ αὐτῆς τῆς ἱστορίας ἔπαινον</span>, ἴσως ἀναγκαῖον ἦν τὸ προτρέπεσθαι πάντας πρὸς τὴν αἵρεσιν καὶ παραδοχὴν τῶν τοιούτων ὑπομνημάτων …</p><p>This is an unreal condition: English “had … been” marks a case that did not happen, and Greek has εἰ with a past indicative (συνέβαινε), with ἦν in the main clause.</p>"
+   "body": "<p><span class=\"target\">Had the praise of History been passed over by former Chroniclers</span> it would perhaps have been incumbent upon me to urge the choice and special study of records of this sort, as the readiest means men can have of correcting their knowledge of the past.</p><p><span class=\"target\">εἰ μὲν τοῖς πρὸ ἡμῶν ἀναγράφουσι τὰς πράξεις παραλελεῖφθαι συνέβαινε τὸν ὑπὲρ αὐτῆς τῆς ἱστορίας ἔπαινον</span>, ἴσως ἀναγκαῖον ἦν τὸ προτρέπεσθαι πάντας πρὸς τὴν αἵρεσιν καὶ παραδοχὴν τῶν τοιούτων ὑπομνημάτων …</p><p>This is an unreal condition: English “had … been” marks a case that did not happen, and Greek has εἰ with a past indicative (συνέβαινε), with ἦν in the main clause.</p>",
+   "qp": {
+    "id": "q-la-auth-pol",
+    "variants": [
+     {
+      "prompt": "What kind of condition is “Had they known, they would have come”?",
+      "options": [
+       "Simple present",
+       "Future more vivid",
+       "Open future",
+       "Unreal, past"
+      ],
+      "answer": 3,
+      "explain": "“Had … known” marks a case that did not happen."
+     },
+     {
+      "prompt": "What kind of clause is marked in “He came <b>because he was invited</b>”?",
+      "options": [
+       "A causal clause",
+       "A clause of purpose",
+       "A clause of result",
+       "A conditional clause"
+      ],
+      "answer": 0,
+      "explain": "“Because” gives the reason."
+     },
+     {
+      "prompt": "What kind of clause is marked in “The book <b>that you lent me</b> is excellent”?",
+      "options": [
+       "An indirect statement",
+       "A relative clause",
+       "A clause of purpose",
+       "A clause of result"
+      ],
+      "answer": 1,
+      "explain": "The clause tells which book is meant."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-26",
@@ -149,7 +377,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-29",
    "title": "Livy I.1",
-   "body": "<p>To begin with, it is generally admitted that after the capture of Troy, <span class=\"target\">whilst the rest of the Trojans were massacred</span>, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.</p><p>iam primum omnium satis constat Troia capta <span class=\"target\">in ceteros saevitum esse Troianos</span>: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>“Whilst” marks the time of the sparing: it happened while the others were massacred. Livy has no temporal clause here; he reports the massacre with an infinitive (<span class=\"lat\">saevitum esse</span>) after <span class=\"lat\">satis constat</span>, and the ablative absolute <span class=\"lat\">Troia capta</span> (a noun and participle in the ablative, standing apart as a circumstance) gives the time.</p>"
+   "body": "<p>To begin with, it is generally admitted that after the capture of Troy, <span class=\"target\">whilst the rest of the Trojans were massacred</span>, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.</p><p>iam primum omnium satis constat Troia capta <span class=\"target\">in ceteros saevitum esse Troianos</span>: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</p><p>“Whilst” marks the time of the sparing: it happened while the others were massacred. Livy has no temporal clause here; he reports the massacre with an infinitive (<span class=\"lat\">saevitum esse</span>) after <span class=\"lat\">satis constat</span>, and the ablative absolute <span class=\"lat\">Troia capta</span> (a noun and participle in the ablative, standing apart as a circumstance) gives the time.</p>",
+   "qp": {
+    "id": "q-la-auth-livy",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in Latin <i>Dīcunt <b>urbem captam esse</b></i> (“they say that the city has been taken”)?",
+      "options": [
+       "A clause of purpose",
+       "A clause of comparison",
+       "An indirect statement",
+       "A clause of result"
+      ],
+      "answer": 2,
+      "explain": "The accusative and infinitive report what is said."
+     },
+     {
+      "prompt": "What kind of clause is marked in <i>Mīlitēs mīsit <b>ut urbem dēfenderent</b></i>?",
+      "options": [
+       "A clause of result",
+       "A clause of purpose",
+       "An indirect question",
+       "A causal clause"
+      ],
+      "answer": 1,
+      "explain": "<i>Ut</i> with the subjunctive after <i>mīsit</i> gives the end aimed at."
+     },
+     {
+      "prompt": "What kind of construction is <i>urbe captā</i> (“the city having been taken”)?",
+      "options": [
+       "An ablative absolute",
+       "An indirect statement",
+       "A relative clause",
+       "A clause of purpose"
+      ],
+      "answer": 0,
+      "explain": "Noun and participle in the ablative stand apart from the main construction."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-30",
@@ -174,7 +440,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-34",
    "title": "Sallust, Bellum Catilinae 1",
-   "body": "<p>It becomes all men, who desire to excel other animals, to strive, to the utmost of their power, <span class=\"target\">not to pass through life in obscurity, like the beasts of the field</span>, which nature has formed groveling and subservient to appetite.</p><p>Omnis homines, qui sese student praestare ceteris animalibus, summa ope niti decet, <span class=\"target\">ne vitam silentio transeant veluti pecora</span>, quae natura prona atque ventri oboedientia finxit.</p><p>This is a negative aim after a verb of striving: English has the infinitive “not to pass,” and Latin <span class=\"lat\">ne</span> with the subjunctive after <span class=\"lat\">niti</span>.</p>"
+   "body": "<p>It becomes all men, who desire to excel other animals, to strive, to the utmost of their power, <span class=\"target\">not to pass through life in obscurity, like the beasts of the field</span>, which nature has formed groveling and subservient to appetite.</p><p>Omnis homines, qui sese student praestare ceteris animalibus, summa ope niti decet, <span class=\"target\">ne vitam silentio transeant veluti pecora</span>, quae natura prona atque ventri oboedientia finxit.</p><p>This is a negative aim after a verb of striving: English has the infinitive “not to pass,” and Latin <span class=\"lat\">ne</span> with the subjunctive after <span class=\"lat\">niti</span>.</p>",
+   "qp": {
+    "id": "q-la-auth-sall",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in <i>Tantus erat timor <b>ut nēmō loquerētur</b></i> (“so great was the fear that no one spoke”)?",
+      "options": [
+       "A clause of result",
+       "A clause of purpose",
+       "A conditional clause",
+       "An indirect question"
+      ],
+      "answer": 0,
+      "explain": "<i>Tantus … ut</i> gives a consequence."
+     },
+     {
+      "prompt": "What kind of clause is marked in <i><b>Cum Rōmam vēnisset</b>, amīcōs vīsit</i> (“when he had come to Rome, he visited his friends”)?",
+      "options": [
+       "A clause of purpose",
+       "An indirect question",
+       "A clause of comparison",
+       "A temporal <i>cum</i> clause"
+      ],
+      "answer": 3,
+      "explain": "<i>Cum</i> with the subjunctive in narrative marks the time."
+     },
+     {
+      "prompt": "Which word introduces a negative clause of purpose in Latin?",
+      "options": [
+       "<i>ut nōn</i>",
+       "<i>nisi</i>",
+       "<i>nē</i>",
+       "<i>quod</i>"
+      ],
+      "answer": 2,
+      "explain": "A negative purpose takes <i>nē</i>."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-35",
@@ -194,7 +498,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-38",
    "title": "Tacitus, Annals I.1",
-   "body": "<p>The despotisms of Cinna and Sulla were brief; the rule of Pompeius and of Crassus soon yielded before Cæsar; the arms of Lepidus and Antonius before Augustus; <span class=\"target\">who, when the world was wearied by civil strife, subjected it to empire under the title of “Prince.”</span></p><p>non Cinnae, non Sullae longa dominatio; et Pompei Crassique potentia cito in Caesarem, Lepidi atque Antonii arma in Augustum cessere, <span class=\"target\">qui cuncta discordiis civilibus fessa nomine principis sub imperium accepit</span>.</p><p>“Who” / <span class=\"lat\">qui</span> depends on Augustus and says what he did. Inside it, “when the world was wearied” renders a participle in Latin (<span class=\"lat\">fessa</span>).</p>"
+   "body": "<p>The despotisms of Cinna and Sulla were brief; the rule of Pompeius and of Crassus soon yielded before Cæsar; the arms of Lepidus and Antonius before Augustus; <span class=\"target\">who, when the world was wearied by civil strife, subjected it to empire under the title of “Prince.”</span></p><p>non Cinnae, non Sullae longa dominatio; et Pompei Crassique potentia cito in Caesarem, Lepidi atque Antonii arma in Augustum cessere, <span class=\"target\">qui cuncta discordiis civilibus fessa nomine principis sub imperium accepit</span>.</p><p>“Who” / <span class=\"lat\">qui</span> depends on Augustus and says what he did. Inside it, “when the world was wearied” renders a participle in Latin (<span class=\"lat\">fessa</span>).</p>",
+   "qp": {
+    "id": "q-la-auth-tac",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in <i>Rogāvit <b>quis vēnisset</b></i> (“he asked who had come”)?",
+      "options": [
+       "An indirect question",
+       "A clause of comparison",
+       "A clause of purpose",
+       "A clause of result"
+      ],
+      "answer": 0,
+      "explain": "After a verb of asking, the question word introduces the reported question."
+     },
+     {
+      "prompt": "What kind of clause is marked in <i><b>Quamquam fessī erant</b>, prōcessērunt</i> (“although they were tired, they advanced”)?",
+      "options": [
+       "A causal clause",
+       "A clause of result",
+       "A conditional clause",
+       "A concessive clause"
+      ],
+      "answer": 3,
+      "explain": "<i>Quamquam</i> grants a fact."
+     },
+     {
+      "prompt": "What kind of clause is marked in <i>Laudō puerum <b>quī vērum dīxit</b></i> (“I praise the boy who told the truth”)?",
+      "options": [
+       "A causal clause",
+       "An indirect statement",
+       "A relative clause",
+       "A clause of purpose"
+      ],
+      "answer": 2,
+      "explain": "The clause describes <i>puerum</i>."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-39",
@@ -219,7 +561,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-43",
    "title": "Plutarch, Alexander 1",
-   "body": "<p>It is the life of Alexander the king, and of Caesar, <span class=\"target\">who overthrew Pompey</span>, that I am writing in this book, and the multitude of the deeds to be treated is so great that I shall make no other preface than to entreat my readers, …</p><p>Ἀλεξάνδρου τοῦ βασιλέως βίον καὶ τοῦ Καίσαρος, <span class=\"target\">ὑφ’ οὗ κατελύθη Πομπήϊος</span>, ἐν τούτῳ τῷ βιβλίῳ γράφοντες, …</p><p>“Who overthrew Pompey” depends on “Caesar” and tells which Caesar is meant. Greek has the relative οὗ, with a passive verb (“by whom Pompey was overthrown”).</p>"
+   "body": "<p>It is the life of Alexander the king, and of Caesar, <span class=\"target\">who overthrew Pompey</span>, that I am writing in this book, and the multitude of the deeds to be treated is so great that I shall make no other preface than to entreat my readers, …</p><p>Ἀλεξάνδρου τοῦ βασιλέως βίον καὶ τοῦ Καίσαρος, <span class=\"target\">ὑφ’ οὗ κατελύθη Πομπήϊος</span>, ἐν τούτῳ τῷ βιβλίῳ γράφοντες, …</p><p>“Who overthrew Pompey” depends on “Caesar” and tells which Caesar is meant. Greek has the relative οὗ, with a passive verb (“by whom Pompey was overthrown”).</p>",
+   "qp": {
+    "id": "q-la-auth-plut",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “I write <b>not to praise him but to describe him</b>”?",
+      "options": [
+       "A clause of comparison",
+       "Infinitives of purpose",
+       "A conditional clause",
+       "A concessive clause"
+      ],
+      "answer": 1,
+      "explain": "The infinitives give the ends for which he writes."
+     },
+     {
+      "prompt": "What kind of clause is marked in “It often happens <b>that a small act reveals a character</b>”?",
+      "options": [
+       "A clause of purpose",
+       "A relative clause",
+       "A noun clause",
+       "A conditional clause"
+      ],
+      "answer": 2,
+      "explain": "The clause is what happens, so it is used as a noun."
+     },
+     {
+      "prompt": "What kind of clause is marked in “We visited the town <b>where my grandfather was born</b>”?",
+      "options": [
+       "A clause of result",
+       "A clause of purpose",
+       "An indirect question",
+       "A relative clause"
+      ],
+      "answer": 3,
+      "explain": "The clause describes “the town.”"
+     }
+    ]
+   }
   },
   {
    "id": "clauses-44",
@@ -239,7 +619,45 @@ ARS.decks["lang.v.la/clauses"] = {
   {
    "id": "clauses-47",
    "title": "Augustine, Confessions I.1",
-   "body": "<p>Great art Thou, O Lord, and greatly to be praised; great is Thy power, and Thy wisdom infinite. And Thee would man praise; man, but a particle of Thy creation; … Thou awakest us to delight in Thy praise; <span class=\"target\">for Thou madest us for Thyself, and our heart is restless, until it repose in Thee</span>.</p><p>magnus es, domine, et laudabilis valde. … tu excitas ut laudare te delectet, <span class=\"target\">quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te</span>.</p><p>The marked words give the reason why God stirs us to praise: he made us for himself. In Pusey’s English, “for” joins this reason as a coordinate clause; Latin makes it subordinate with <span class=\"lat\">quia</span>. Nested inside is a clause of time, <span class=\"lat\">donec requiescat</span>.</p>"
+   "body": "<p>Great art Thou, O Lord, and greatly to be praised; great is Thy power, and Thy wisdom infinite. And Thee would man praise; man, but a particle of Thy creation; … Thou awakest us to delight in Thy praise; <span class=\"target\">for Thou madest us for Thyself, and our heart is restless, until it repose in Thee</span>.</p><p>magnus es, domine, et laudabilis valde. … tu excitas ut laudare te delectet, <span class=\"target\">quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te</span>.</p><p>The marked words give the reason why God stirs us to praise: he made us for himself. In Pusey’s English, “for” joins this reason as a coordinate clause; Latin makes it subordinate with <span class=\"lat\">quia</span>. Nested inside is a clause of time, <span class=\"lat\">donec requiescat</span>.</p>",
+   "qp": {
+    "id": "q-la-auth-aug",
+    "variants": [
+     {
+      "prompt": "What kind of clause is marked in “We waited <b>until the rain stopped</b>”?",
+      "options": [
+       "A clause of purpose",
+       "A conditional clause",
+       "A relative clause",
+       "A temporal clause"
+      ],
+      "answer": 3,
+      "explain": "“Until” marks the time up to which the main action lasts."
+     },
+     {
+      "prompt": "What kind of clause is marked in “She hopes <b>to finish the book</b> today”?",
+      "options": [
+       "An infinitive used as object",
+       "A clause of result",
+       "A participial phrase used as object",
+       "A temporal clause"
+      ],
+      "answer": 0,
+      "explain": "The infinitive names what she hopes for."
+     },
+     {
+      "prompt": "What kind of clause is marked in “I do not know <b>whence I came</b>”?",
+      "options": [
+       "A clause of comparison",
+       "An indirect question",
+       "A clause of purpose",
+       "A clause of result"
+      ],
+      "answer": 1,
+      "explain": "After “I do not know,” the clause reports a question."
+     }
+    ]
+   }
   },
   {
    "id": "clauses-48",
@@ -271,5 +689,6 @@ ARS.decks["lang.v.la/clauses"] = {
    "title": "Augustine, City of God I, Preface",
    "body": "<p>I have undertaken its defense against those <span class=\"target\">who prefer their own gods to the Founder of this city</span>,—a city surpassingly glorious, …</p><p>… hoc opere instituto et mea ad te promissione debito defendere adversus eos <span class=\"target\">qui conditori eius deos suos praeferunt</span>, fili carissime Marcelline, suscepi.</p><p>“Who” / <span class=\"lat\">qui</span> depends on “those” and tells which people are meant: those who prefer their gods to the city’s founder.</p>"
   }
- ]
+ ],
+ "noEx": true
 };
