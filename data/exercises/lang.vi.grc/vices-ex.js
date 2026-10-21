@@ -15,9 +15,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ὁ ἄνθρωπος τὸν ἵππον <b>λῡ́ωμι</b>",
-   "explain": "λῡ́ωμι is not an Attic form. The present, first person singular, of λῡ́ω is λῡ́ω (§383). The error is in the one word.",
-   "options": ["A barbarism: λῡ́ωμι is not Attic", "No error: a present may end in -μι", "A solecism: λῡ́ω and -μι are both real and only the join fails"],
+   "prompt": "What kind of error? <i>ὁ ἄνθρωπος τὸν ἵππον</i> <b><i>λῡ́ωμι</i></b>",
+   "explain": "<i>λῡ́ωμι</i> is not an Attic form. The present, first person singular, of <i>λῡ́ω</i> is <i>λῡ́ω</i> (§383). The error is in the one word.",
+   "options": [
+    "A barbarism: <i>λῡ́ωμι</i> is not Attic",
+    "No error: a present may end in -<i>μι</i>",
+    "A solecism: <i>λῡ́ω</i> and -<i>μι</i> are both real and only the join fails"
+   ],
    "answer": 0
   },
   {
@@ -26,9 +30,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? τὰ <b>δώρονες</b> ἀγαθά ἐστι",
-   "explain": "δώρονες is not an Attic form. The nominative plural of δῶρον is δῶρα (§231). The article and the adjective are real forms, and the error is in the one word. The singular verb is regular with a neuter plural.",
-   "options": ["No error: -ες is the neuter plural", "A barbarism: δώρονες is not Attic", "A solecism: ἐστι should be plural with every subject"],
+   "prompt": "What kind of error? <i>τὰ</i> <b><i>δώρονες</i></b> <i>ἀγαθά ἐστι</i>",
+   "explain": "<i>δώρονες</i> is not an Attic form. The nominative plural of <i>δῶρον</i> is <i>δῶρα</i> (§231). The article and the adjective are real forms, and the error is in the one word. The singular verb is regular with a neuter plural.",
+   "options": [
+    "No error: -<i>ες</i> is the neuter plural",
+    "A barbarism: <i>δώρονες</i> is not Attic",
+    "A solecism: <i>ἐστι</i> should be plural with every subject"
+   ],
    "answer": 1
   },
   {
@@ -37,9 +45,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? οἱ παῖδες τὸν νόμον <b>ἔγραψανε</b>",
-   "explain": "ἔγραψανε is not an Attic form. The aorist, third person plural, is ἔγραψαν. Movable ν is not added to that ending (§134).",
-   "options": ["A solecism of tense", "No error: -ε may be added to any plural", "A barbarism: ἔγραψανε is not Attic"],
+   "prompt": "What kind of error? <i>οἱ παῖδες τὸν νόμον</i> <b><i>ἔγραψανε</i></b>",
+   "explain": "<i>ἔγραψανε</i> is not an Attic form. The aorist, third person plural, is <i>ἔγραψαν</i>. Movable <i>ν</i> is not added to that ending (§134).",
+   "options": [
+    "A solecism of tense",
+    "No error: -<i>ε</i> may be added to any plural",
+    "A barbarism: <i>ἔγραψανε</i> is not Attic"
+   ],
    "answer": 2
   },
   {
@@ -48,9 +60,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <b>οἱ</b> ἄνθρωπος τὸν ἵππον λῡ́ει",
-   "explain": "οἱ is a real plural article, and ἄνθρωπος is a real singular noun. The two do not agree in number, so the join fails.",
-   "options": ["A solecism: the article and the noun differ in number", "A barbarism: ἄνθρωπος is not a Greek word", "No error: οἱ may stand with a singular noun"],
+   "prompt": "What kind of error? <b><i>οἱ</i></b> <i>ἄνθρωπος τὸν ἵππον λῡ́ει</i>",
+   "explain": "<i>οἱ</i> is a real plural article, and <i>ἄνθρωπος</i> is a real singular noun. The two do not agree in number, so the join fails.",
+   "options": [
+    "A solecism: the article and the noun differ in number",
+    "A barbarism: <i>ἄνθρωπος</i> is not a Greek word",
+    "No error: <i>οἱ</i> may stand with a singular noun"
+   ],
    "answer": 0
   },
   {
@@ -59,9 +75,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ἡ θυγάτηρ <b>καλός</b> ἐστιν",
-   "explain": "θυγάτηρ (“daughter”) is feminine, and καλός is masculine. The feminine is καλή. Both words are real, and the genders do not match.",
-   "options": ["A barbarism: καλός is not an adjective", "A solecism of gender", "No error: καλός is the feminine form"],
+   "prompt": "What kind of error? <i>ἡ θυγάτηρ</i> <b><i>καλός</i></b> <i>ἐστιν</i>",
+   "explain": "<i>θυγάτηρ</i> (“daughter”) is feminine, and <i>καλός</i> is masculine. The feminine is <i>καλή</i>. Both words are real, and the genders do not match.",
+   "options": [
+    "A barbarism: <i>καλός</i> is not an adjective",
+    "A solecism of gender",
+    "No error: <i>καλός</i> is the feminine form"
+   ],
    "answer": 1
   },
   {
@@ -70,9 +90,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ἡ μήτηρ τὸν παῖδα φιλεῖ",
-   "explain": "μήτηρ is nominative feminine, τὸν παῖδα is accusative, and φιλεῖ is the third person singular of φιλέω. The words agree, and the verb takes that accusative.",
-   "options": ["A barbarism in φιλεῖ", "A solecism of case", "No error"],
+   "prompt": "What kind of error? <i>ἡ μήτηρ τὸν παῖδα φιλεῖ</i>",
+   "explain": "<i>μήτηρ</i> is nominative feminine, <i>τὸν παῖδα</i> is accusative, and <i>φιλεῖ</i> is the third person singular of <i>φιλέω</i>. The words agree, and the verb takes that accusative.",
+   "options": [
+    "A barbarism in <i>φιλεῖ</i>",
+    "A solecism of case",
+    "No error"
+   ],
    "answer": 2
   },
   {
@@ -81,9 +105,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? τὰ ζῷα τρέχει",
-   "explain": "ζῷα is neuter plural, and a neuter plural subject takes a singular verb (Smyth §958). τρέχει is that singular. The sentence is regular Attic.",
-   "options": ["No error: a neuter plural may take a singular verb", "A solecism: τρέχει must be plural", "A barbarism: ζῷα is not the plural of ζῷον"],
+   "prompt": "What kind of error? <i>τὰ ζῷα τρέχει</i>",
+   "explain": "<i>ζῷα</i> is neuter plural, and a neuter plural subject takes a singular verb (Smyth §958). <i>τρέχει</i> is that singular. The sentence is regular Attic.",
+   "options": [
+    "No error: a neuter plural may take a singular verb",
+    "A solecism: <i>τρέχει</i> must be plural",
+    "A barbarism: <i>ζῷα</i> is not the plural of <i>ζῷον</i>"
+   ],
    "answer": 0
   },
   {
@@ -92,9 +120,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? οἱ ἄνθρωποι τὸν ἵππον <b>ἔλῡσανε</b>",
-   "explain": "ἔλῡσανε is not an Attic form. The aorist, third person plural, is ἔλῡσαν (§383). Movable ν is not added to that ending (§134).",
-   "options": ["No error: the added -ε is ordinary Attic", "A barbarism: ἔλῡσανε is not Attic", "A solecism: the subject is plural and the verb ending is plural"],
+   "prompt": "What kind of error? <i>οἱ ἄνθρωποι τὸν ἵππον</i> <b><i>ἔλῡσανε</i></b>",
+   "explain": "<i>ἔλῡσανε</i> is not an Attic form. The aorist, third person plural, is <i>ἔλῡσαν</i> (§383). Movable <i>ν</i> is not added to that ending (§134).",
+   "options": [
+    "No error: the added -<i>ε</i> is ordinary Attic",
+    "A barbarism: <i>ἔλῡσανε</i> is not Attic",
+    "A solecism: the subject is plural and the verb ending is plural"
+   ],
    "answer": 1
   },
   {
@@ -103,9 +135,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? τὰ <b>δένδρονες</b> μεγάλα ἐστίν",
-   "explain": "δένδρονες is not an Attic form. The nominative plural of δένδρον (“tree”) is δένδρα. μεγάλα agrees with that neuter plural, and ἐστίν is regular with it. The error is the one noun.",
-   "options": ["A solecism: μεγάλα is masculine", "No error: -ες is the neuter ending", "A barbarism: δένδρονες is not Attic"],
+   "prompt": "What kind of error? <i>τὰ</i> <b><i>δένδρονες</i></b> <i>μεγάλα ἐστίν</i>",
+   "explain": "<i>δένδρονες</i> is not an Attic form. The nominative plural of <i>δένδρον</i> (“tree”) is <i>δένδρα</i>. <i>μεγάλα</i> agrees with that neuter plural, and <i>ἐστίν</i> is regular with it. The error is the one noun.",
+   "options": [
+    "A solecism: <i>μεγάλα</i> is masculine",
+    "No error: -<i>ες</i> is the neuter ending",
+    "A barbarism: <i>δένδρονες</i> is not Attic"
+   ],
    "answer": 2
   },
   {
@@ -114,9 +150,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ἡ νῑ́κη <b>ἀγαθός</b> ἐστι",
-   "explain": "ἀγαθός is a real adjective, and it is masculine. νῑ́κη is feminine, so the two do not agree. The error is in the join.",
-   "options": ["A solecism of gender", "A barbarism: ἀγαθός is not Greek", "No error: ἀγαθός is feminine"],
+   "prompt": "What kind of error? <i>ἡ νῑ́κη</i> <b><i>ἀγαθός</i></b> <i>ἐστι</i>",
+   "explain": "<i>ἀγαθός</i> is a real adjective, and it is masculine. <i>νῑ́κη</i> is feminine, so the two do not agree. The error is in the join.",
+   "options": [
+    "A solecism of gender",
+    "A barbarism: <i>ἀγαθός</i> is not Greek",
+    "No error: <i>ἀγαθός</i> is feminine"
+   ],
    "answer": 0
   },
   {
@@ -125,9 +165,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? οἱ στρατιῶται <b>μάχεται</b>",
-   "explain": "στρατιῶται is plural, and μάχεται is singular. The third person plural is μάχονται. Both forms are real, and the number does not match.",
-   "options": ["A barbarism: μάχεται is not a Greek form", "A solecism of number", "No error: a masculine plural takes a singular verb"],
+   "prompt": "What kind of error? <i>οἱ στρατιῶται</i> <b><i>μάχεται</i></b>",
+   "explain": "<i>στρατιῶται</i> is plural, and <i>μάχεται</i> is singular. The third person plural is <i>μάχονται</i>. Both forms are real, and the number does not match.",
+   "options": [
+    "A barbarism: <i>μάχεται</i> is not a Greek form",
+    "A solecism of number",
+    "No error: a masculine plural takes a singular verb"
+   ],
    "answer": 1
   },
   {
@@ -136,9 +180,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <b>τὴν</b> πατήρ βλέπω",
-   "explain": "τήν is feminine accusative, and πατήρ is masculine nominative. The accusative is τὸν πατέρα. The words are real, and they do not agree.",
-   "options": ["No error: τήν may stand with any noun", "A barbarism: πατήρ is not Attic", "A solecism: gender and case both fail"],
+   "prompt": "What kind of error? <b><i>τὴν</i></b> <i>πατήρ βλέπω</i>",
+   "explain": "<i>τήν</i> is feminine accusative, and <i>πατήρ</i> is masculine nominative. The accusative is <i>τὸν πατέρα</i>. The words are real, and they do not agree.",
+   "options": [
+    "No error: <i>τήν</i> may stand with any noun",
+    "A barbarism: <i>πατήρ</i> is not Attic",
+    "A solecism: gender and case both fail"
+   ],
    "answer": 2
   },
   {
@@ -147,9 +195,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? σὺν τῷ ἀδελφῷ μάχεται",
-   "explain": "σύν takes the dative, and τῷ ἀδελφῷ is dative masculine. μάχεται is third person singular. The sentence is Attic.",
-   "options": ["No error", "A barbarism in ἀδελφῷ", "A solecism: σύν takes the accusative"],
+   "prompt": "What kind of error? <i>σὺν τῷ ἀδελφῷ μάχεται</i>",
+   "explain": "<i>σύν</i> takes the dative, and <i>τῷ ἀδελφῷ</i> is dative masculine. <i>μάχεται</i> is third person singular. The sentence is Attic.",
+   "options": [
+    "No error",
+    "A barbarism in <i>ἀδελφῷ</i>",
+    "A solecism: <i>σύν</i> takes the accusative"
+   ],
    "answer": 0
   },
   {
@@ -158,9 +210,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ἡ μήτηρ τὴν θυγατέρα φιλεῖ",
-   "explain": "θυγατέρα is the accusative of θυγάτηρ, and φιλεῖ takes that accusative. The subject is singular, and the verb is singular. Nothing in the sentence is an error.",
-   "options": ["A solecism of gender", "No error", "A barbarism: θυγατέρα is not the accusative"],
+   "prompt": "What kind of error? <i>ἡ μήτηρ τὴν θυγατέρα φιλεῖ</i>",
+   "explain": "<i>θυγατέρα</i> is the accusative of <i>θυγάτηρ</i>, and <i>φιλεῖ</i> takes that accusative. The subject is singular, and the verb is singular. Nothing in the sentence is an error.",
+   "options": [
+    "A solecism of gender",
+    "No error",
+    "A barbarism: <i>θυγατέρα</i> is not the accusative"
+   ],
    "answer": 1
   },
   {
@@ -169,9 +225,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? οἱ παῖδες <b>ἦλθονε</b>",
-   "explain": "ἦλθονε is not an Attic form. The aorist, third person plural, of ἔρχομαι is ἦλθον. The error is in the one word.",
-   "options": ["A barbarism: ἦλθονε is not Attic", "A solecism: ἦλθον is plural and the subject is plural", "No error: -ε is movable ν"],
+   "prompt": "What kind of error? <i>οἱ παῖδες</i> <b><i>ἦλθονε</i></b>",
+   "explain": "<i>ἦλθονε</i> is not an Attic form. The aorist, third person plural, of <i>ἔρχομαι</i> is <i>ἦλθον</i>. The error is in the one word.",
+   "options": [
+    "A barbarism: <i>ἦλθονε</i> is not Attic",
+    "A solecism: <i>ἦλθον</i> is plural and the subject is plural",
+    "No error: -<i>ε</i> is movable <i>ν</i>"
+   ],
    "answer": 0
   },
   {
@@ -180,9 +240,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ὁ ἄνθρωπος τῷ <b>ἵππον</b> λῡ́ει",
-   "explain": "τῷ is a real dative, and ἵππον is a real accusative. The two do not agree in case, so the join fails.",
-   "options": ["No error: τῷ may govern an accusative", "A barbarism: ἵππον is not a case of ἵππος", "A solecism of case"],
+   "prompt": "What kind of error? <i>ὁ ἄνθρωπος τῷ</i> <b><i>ἵππον</i></b> <i>λῡ́ει</i>",
+   "explain": "<i>τῷ</i> is a real dative, and <i>ἵππον</i> is a real accusative. The two do not agree in case, so the join fails.",
+   "options": [
+    "No error: <i>τῷ</i> may govern an accusative",
+    "A barbarism: <i>ἵππον</i> is not a case of <i>ἵππος</i>",
+    "A solecism of case"
+   ],
    "answer": 2
   },
   {
@@ -191,9 +255,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error in Attic prose? <b>μετὰ τῷ ἀδελφῷ</b> ἔρχεται, meant as “he goes with his brother.”",
-   "explain": "μετά and τῷ are both real. In Attic prose μετά meaning “with” takes the genitive: μετὰ τοῦ ἀδελφοῦ. The dative is chiefly epic (Smyth §1691). The join fails in prose.",
-   "options": ["No error: μετά takes the dative in Attic prose", "A solecism: the case is not the Attic one", "A barbarism: ἀδελφῷ is not a Greek dative"],
+   "prompt": "What kind of error in Attic prose? <b><i>μετὰ τῷ ἀδελφῷ</i></b> <i>ἔρχεται</i>, meant as “he goes with his brother.”",
+   "explain": "<i>μετά</i> and <i>τῷ</i> are both real. In Attic prose <i>μετά</i> meaning “with” takes the genitive: <i>μετὰ τοῦ ἀδελφοῦ</i>. The dative is chiefly epic (Smyth §1691). The join fails in prose.",
+   "options": [
+    "No error: <i>μετά</i> takes the dative in Attic prose",
+    "A solecism: the case is not the Attic one",
+    "A barbarism: <i>ἀδελφῷ</i> is not a Greek dative"
+   ],
    "answer": 1
   },
   {
@@ -202,9 +270,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ὁ πατὴρ τὸν παῖδα <b>τιμάει</b>",
-   "explain": "τιμάει is the uncontracted spelling. Attic contracts τιμάω, and the third person singular is τιμᾷ. The error is in the one verb.",
-   "options": ["A solecism of case in παῖδα", "No error: τιμάει is the Attic contraction", "A barbarism: τιμάει is not the Attic form"],
+   "prompt": "What kind of error? <i>ὁ πατὴρ τὸν παῖδα</i> <b><i>τιμάει</i></b>",
+   "explain": "<i>τιμάει</i> is the uncontracted spelling. Attic contracts <i>τιμάω</i>, and the third person singular is <i>τιμᾷ</i>. The error is in the one verb.",
+   "options": [
+    "A solecism of case in <i>παῖδα</i>",
+    "No error: <i>τιμάει</i> is the Attic contraction",
+    "A barbarism: <i>τιμάει</i> is not the Attic form"
+   ],
    "answer": 2
   },
   {
@@ -213,9 +285,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? ὁ ἄνθρωπος <b>λῡ́ουσι</b> τὸν ἵππον",
-   "explain": "λῡ́ουσι is a real plural form (§383). The subject ἄνθρωπος is singular, so the verb does not fit it.",
-   "options": ["A solecism of number", "A barbarism: λῡ́ουσι is not Attic", "No error: a singular subject takes a plural verb"],
+   "prompt": "What kind of error? <i>ὁ ἄνθρωπος</i> <b><i>λῡ́ουσι</i></b> <i>τὸν ἵππον</i>",
+   "explain": "<i>λῡ́ουσι</i> is a real plural form (§383). The subject <i>ἄνθρωπος</i> is singular, so the verb does not fit it.",
+   "options": [
+    "A solecism of number",
+    "A barbarism: <i>λῡ́ουσι</i> is not Attic",
+    "No error: a singular subject takes a plural verb"
+   ],
    "answer": 0
   },
   {
@@ -224,9 +300,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? βλέπω <b>τὸν μητρί</b>",
-   "explain": "τόν is accusative, and μητρί is dative. The accusative of μήτηρ is τὴν μητέρα. The two forms are real, and they do not agree.",
-   "options": ["A barbarism: μητρί is not a case of μήτηρ", "A solecism of case", "No error: βλέπω takes the dative"],
+   "prompt": "What kind of error? <i>βλέπω</i> <b><i>τὸν μητρί</i></b>",
+   "explain": "<i>τόν</i> is accusative, and <i>μητρί</i> is dative. The accusative of <i>μήτηρ</i> is <i>τὴν μητέρα</i>. The two forms are real, and they do not agree.",
+   "options": [
+    "A barbarism: <i>μητρί</i> is not a case of <i>μήτηρ</i>",
+    "A solecism of case",
+    "No error: <i>βλέπω</i> takes the dative"
+   ],
    "answer": 1
   },
   {
@@ -235,9 +315,13 @@ ARS.exercises["lang.vi.grc/vices-ex"] = {
    "deck": "lang.vi.grc/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? μετὰ τοῦ παιδὸς ἔρχεται",
-   "explain": "In Attic prose μετά meaning “with” takes the genitive. παιδός is the genitive of παῖς, and ἔρχεται is singular. The sentence is sound.",
-   "options": ["A barbarism in παιδός", "A solecism: μετά cannot take the genitive", "No error"],
+   "prompt": "What kind of error? <i>μετὰ τοῦ παιδὸς ἔρχεται</i>",
+   "explain": "In Attic prose <i>μετά</i> meaning “with” takes the genitive. <i>παιδός</i> is the genitive of <i>παῖς</i>, and <i>ἔρχεται</i> is singular. The sentence is sound.",
+   "options": [
+    "A barbarism in <i>παιδός</i>",
+    "A solecism: <i>μετά</i> cannot take the genitive",
+    "No error"
+   ],
    "answer": 2
   }
  ]

@@ -5,273 +5,393 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "VI",
- "title": "Common Errors in Greek",
+ "title": "Attic Correctness: Barbarisms and Solecisms",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
   {
-   "id": "lang.vi.grc/errors-ex:a1",
+   "id": "lang.vi.grc/errors-ex:e1",
    "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the present, first person singular, of <em>πέμπω</em> (“I send”).",
-   "explain": "The present ends in <em>-ω</em>. <em>πέμπω</em> is that form. <em>πέμπωμι</em> is not Attic, and <em>ἔπεμπον</em> is the imperfect.",
-   "options": ["<em>πέμπωμι</em>", "<em>πέμπω</em>", "<em>ἔπεμπον</em>", "<em>πέμπομεν</em>"],
+   "prompt": "A student writing Attic prose writes <i>ἡμέρη</i> for “day.” What kind of error is <i>ἡμέρη</i>?",
+   "explain": "<i>Ἡμέρη</i> is Ionic; Attic keeps <i>α</i> after <i>ρ</i>. The error is in the one word.",
+   "options": [
+    "A barbarism: Attic has <i>ἡμέρα</i>",
+    "A solecism of gender",
+    "No error: <i>ἡμέρη</i> is the Attic form",
+    "A metaplasm allowed in prose"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e2",
+   "set": "A",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which spelling of the word for “sea” is the Attic prose form?",
+   "explain": "Attic prose writes <i>ττ</i> where Ionic and the common dialect write <i>σσ</i>.",
+   "options": [
+    "<i>θάλασσα</i>",
+    "<i>θάλαττα</i>",
+    "<i>θάλατα</i>",
+    "<i>θάλαττη</i>"
+   ],
    "answer": 1
   },
   {
-   "id": "lang.vi.grc/errors-ex:a2",
+   "id": "lang.vi.grc/errors-ex:e3",
    "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the nominative plural of <em>τέκνον</em> (“child”).",
-   "explain": "A neuter of the second declension makes the nominative plural in <em>-α</em> (Smyth §231). <em>τέκνα</em> is that plural. <em>τέκνοις</em> is the dative plural.",
-   "options": ["<em>τέκνονες</em>", "<em>τέκνοι</em>", "<em>τέκνα</em>", "<em>τέκνοις</em>"],
+   "prompt": "A student writes <i>ἐτίμαε</i> for “he was honoring.” What is the error?",
+   "explain": "Attic contracts <i>α</i> and <i>ε</i> to <i>α</i>: <i>ἐτίμα</i>.",
+   "options": [
+    "A solecism of person",
+    "A wrong augment in a compound",
+    "A barbarism: Attic contracts it to <i>ἐτίμα</i>",
+    "No error: Attic does not contract <i>-άω</i> verbs"
+   ],
    "answer": 2
   },
   {
-   "id": "lang.vi.grc/errors-ex:a3",
+   "id": "lang.vi.grc/errors-ex:e4",
    "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the aorist, third person plural, of <em>πέμπω</em>.",
-   "explain": "The aorist, third person plural, is <em>ἔπεμψαν</em>. Movable <em>ν</em> is not added to the ending <em>-αν</em> (Smyth §134). <em>πέμπουσι</em> is the present.",
-   "options": ["<em>ἔπεμψανε</em>", "<em>ἔπεμψαν</em>", "<em>πέμπουσι</em>", "<em>ἔπεμπον</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:a4",
-   "set": "A",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the accusative singular of <em>βασιλεύς</em> (“king”).",
-   "explain": "The accusative singular is <em>βασιλέα</em>. <em>βασιλέως</em> is the genitive. <em>βασιλέαν</em> adds an ending this noun does not take.",
-   "options": ["<em>βασιλέαν</em>", "<em>βασιλεύς</em>", "<em>βασιλέα</em>", "<em>βασιλέως</em>"],
-   "answer": 2
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:a5",
-   "set": "A",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the present infinitive of <em>φιλέω</em> (“I love”).",
-   "explain": "Attic contracts the infinitive. The form is <em>φιλεῖν</em>. <em>φιλέειν</em> is the uncontracted spelling, and <em>ἐφίλουν</em> is the imperfect.",
-   "options": ["<em>φιλέειν</em>", "<em>φιλεῖν</em>", "<em>φιλέει</em>", "<em>ἐφίλουν</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:a6",
-   "set": "A",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the imperfect of <em>καταβαίνω</em> (“I go down”).",
-   "explain": "The augment stands between the preposition and the verb, and <em>κατά</em> drops its final vowel (Smyth §449). The imperfect is <em>κατέβαινον</em>. <em>κατέβην</em> is the aorist.",
-   "options": ["<em>κατάβαινον</em>", "<em>κατέβαινον</em>", "<em>κατέβην</em>", "<em>καταβαίνω</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:a7",
-   "set": "A",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the imperfect of <em>εἰσφέρω</em> (“I carry in”).",
-   "explain": "The augment stands inside the compound (Smyth §449). The imperfect is <em>εἰσέφερον</em>. <em>εἰσήνεγκον</em> is the aorist, and <em>εἴσφερον</em> puts the augment in the wrong place.",
-   "options": ["<em>εἴσφερον</em>", "<em>εἰσέφερον</em>", "<em>εἰσήνεγκον</em>", "<em>εἰσφέρω</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:a8",
-   "set": "A",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "In <em>ὁ παῖς τὸν πατέρα λέγωμι</em>, choose the word that is not an Attic form.",
-   "explain": "The present, first person singular, of <em>λέγω</em> is <em>λέγω</em>. <em>λέγωμι</em> is not an Attic form. <em>παῖς</em> and <em>πατέρα</em> are ordinary Attic.",
-   "options": ["<em>ὁ</em>", "<em>παῖς</em>", "<em>πατέρα</em>", "<em>λέγωμι</em>"],
+   "prompt": "Choose the Attic prose genitive singular of <i>λόγος</i>.",
+   "explain": "<i>Λόγοιο</i> is the Homeric genitive; in Attic prose it would be a barbarism.",
+   "options": [
+    "<i>λόγοιο</i>",
+    "<i>λόγῳ</i>",
+    "<i>λόγον</i>",
+    "<i>λόγου</i>"
+   ],
    "answer": 3
   },
   {
-   "id": "lang.vi.grc/errors-ex:b1",
-   "set": "B",
+   "id": "lang.vi.grc/errors-ex:e5",
+   "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the sentence in which the adjective agrees.",
-   "explain": "<em>στρατιώτης</em> (“soldier”) is masculine, so the adjective is <em>ἀγαθός</em>. <em>ἀγαθή</em> is feminine, <em>ἀγαθόν</em> is neuter, and <em>ἡ</em> is the feminine article.",
-   "options": ["<em>ὁ στρατιώτης ἀγαθός ἐστιν</em>", "<em>ὁ στρατιώτης ἀγαθή ἐστιν</em>", "<em>ἡ στρατιώτης ἀγαθός ἐστιν</em>", "<em>ὁ στρατιώτης ἀγαθόν ἐστιν</em>"],
+   "prompt": "Choose the imperfect of <i>προσβάλλω</i> (“attack”).",
+   "explain": "The augment stands between the preposition and the verb. A wrong augment is a barbarism.",
+   "options": [
+    "<i>προσέβαλλον</i>",
+    "<i>πρόσβαλλον</i>",
+    "<i>ἐπροσβάλλον</i>",
+    "<i>προσβάλλον</i>"
+   ],
    "answer": 0
   },
   {
-   "id": "lang.vi.grc/errors-ex:b2",
-   "set": "B",
+   "id": "lang.vi.grc/errors-ex:e6",
+   "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What is wrong with <em>ἡ μήτηρ ἀγαθός ἐστιν</em>?",
-   "explain": "<em>μήτηρ</em> (“mother”) is feminine, and <em>ἀγαθός</em> is masculine. The feminine is <em>ἀγαθή</em>. The words are real Attic words, and the genders do not match.",
-   "options": ["The verb is plural", "Gender does not match", "<em>μήτηρ</em> is not a Greek word", "The article <em>ἡ</em> is neuter"],
+   "prompt": "Choose the aorist of <i>ἀποκτείνω</i> (“kill”).",
+   "explain": "<i>Ἀπό</i> drops its final vowel before the augment: <i>ἀπ-έ-κτεινα</i>.",
+   "options": [
+    "<i>ἠπόκτεινα</i>",
+    "<i>ἀπέκτεινα</i>",
+    "<i>ἀποέκτεινα</i>",
+    "<i>ἀπόκτεινα</i>"
+   ],
    "answer": 1
   },
   {
-   "id": "lang.vi.grc/errors-ex:b3",
-   "set": "B",
+   "id": "lang.vi.grc/errors-ex:e7",
+   "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What is wrong with <em>οἱ παῖδες γράφει</em>?",
-   "explain": "<em>παῖδες</em> is plural, and <em>γράφει</em> is singular. The third person plural is <em>γράφουσι</em>. Both forms are real Attic, and the number does not match.",
-   "options": ["<em>γράφει</em> is not an Attic form", "Number does not match", "<em>παῖδες</em> is a neuter singular", "The article <em>οἱ</em> is feminine"],
-   "answer": 1
+   "prompt": "What kind of error is <i>εἰς τῇ ἀγορᾷ</i> for “into the marketplace”?",
+   "explain": "Each word is real, but <i>εἰς</i> requires <i>εἰς τὴν ἀγοράν</i>.",
+   "options": [
+    "A barbarism: <i>ἀγορᾷ</i> is not Attic",
+    "No error: <i>εἰς</i> takes the dative",
+    "A solecism: <i>εἰς</i> takes the accusative",
+    "A metaplasm of the article"
+   ],
+   "answer": 2
   },
   {
-   "id": "lang.vi.grc/errors-ex:b4",
-   "set": "B",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>τὸν στρατιώτης βλέπω</em>?",
-   "explain": "<em>τόν</em> is accusative, and <em>στρατιώτης</em> is nominative. The accusative is <em>τὸν στρατιώτην</em>. <em>βλέπω</em> (“I see”) is a real form and is not the error.",
-   "options": ["<em>βλέπω</em> is plural", "Case does not match", "<em>στρατιώτης</em> is feminine", "Nothing is wrong"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:b5",
-   "set": "B",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>ἐν τὴν οἰκίαν μένει</em>?",
-   "explain": "<em>ἐν</em> (“in”) takes the dative. <em>τὴν οἰκίαν</em> is accusative. The dative is <em>ἐν τῇ οἰκίᾳ</em>. <em>μένει</em> (“remains”) is a real singular verb.",
-   "options": ["<em>οἰκία</em> is not a Greek word", "<em>ἐν</em> takes the dative", "<em>μένει</em> is a plural verb", "The article is already dative"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:b6",
-   "set": "B",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the Attic prose phrase for “with the father.”",
-   "explain": "In Attic prose <em>μετά</em> meaning “with” takes the genitive (Smyth §1691). <em>μετὰ τοῦ πατρός</em> is that phrase. The dative with <em>μετά</em> is chiefly epic, and the accusative means “after.”",
-   "options": ["<em>μετὰ τῷ πατρί</em>", "<em>μετὰ τοῦ πατρός</em>", "<em>μετὰ τὸν πατέρα</em>", "<em>μετὰ ὁ πατήρ</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:b7",
-   "set": "B",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is the construction in <em>τὰ ὅπλα καλά ἐστιν</em>?",
-   "explain": "A neuter plural subject takes a singular verb (Smyth §958). <em>ὅπλα</em> (“arms”) is neuter plural, and <em>καλά</em> agrees. The singular verb is regular Attic.",
-   "options": ["An error of number, because every plural subject takes a plural verb", "Regular Attic", "A barbarism in <em>ὅπλα</em>", "A case error in <em>καλά</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:b8",
-   "set": "B",
+   "id": "lang.vi.grc/errors-ex:e8",
+   "set": "A",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
    "prompt": "Choose the sentence that is free of error.",
-   "explain": "<em>φιλεῖ</em> is the third person singular of <em>φιλέω</em>, and <em>τὸν παῖδα</em> is the accusative, which that verb takes. <em>φιλεῖς</em> is second person. <em>τοὺς παῖδα</em> and <em>τῷ παῖδα</em> do not agree.",
-   "options": ["<em>ὁ πατὴρ τὸν παῖδα φιλεῖ</em>", "<em>ὁ πατὴρ τὸν παῖδα φιλεῖς</em>", "<em>ὁ πατὴρ τοὺς παῖδα φιλεῖ</em>", "<em>ὁ πατὴρ τῷ παῖδα φιλεῖ</em>"],
+   "explain": "Article, noun, and verb are all plural.",
+   "options": [
+    "<i>οἱ στρατιῶται μάχεται.</i>",
+    "<i>ὁ στρατιῶται μάχονται.</i>",
+    "<i>οἱ στρατιώτης μάχονται.</i>",
+    "<i>οἱ στρατιῶται μάχονται.</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e9",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What kind of error is <i>ἐν τὴν πόλιν μένει</i>?",
+   "explain": "Place where takes <i>ἐν</i> with the dative: <i>ἐν τῇ πόλει</i>.",
+   "options": [
+    "A solecism: <i>ἐν</i> takes the dative",
+    "A barbarism: <i>πόλιν</i> is not Attic",
+    "No error: rest takes the accusative",
+    "A wrong augment"
+   ],
    "answer": 0
   },
   {
-   "id": "lang.vi.grc/errors-ex:c1",
-   "set": "C",
+   "id": "lang.vi.grc/errors-ex:e10",
+   "set": "B",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the Attic genitive singular of <em>στρατιώτης</em> (“soldier”).",
-   "explain": "The Attic genitive singular is <em>στρατιώτου</em>. <em>στρατιώτοιο</em> is a Homeric genitive. <em>στρατιώτῃ</em> is the dative.",
-   "options": ["<em>στρατιώτοιο</em>", "<em>στρατιώτου</em>", "<em>στρατιώτης</em>", "<em>στρατιώτῃ</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c2",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>ἡ τέκνον κακόν ἐστιν</em>?",
-   "explain": "<em>τέκνον</em> is neuter, so the article is <em>τό</em>. <em>κακόν</em> is neuter and does agree. The article’s gender is the error.",
-   "options": ["<em>τέκνον</em> is not a Greek word", "The verb must be plural here", "Gender of the article", "<em>κακόν</em> does not agree with <em>τέκνον</em>"],
-   "answer": 2
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c3",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>ὁρῶ τοῦ ῥήτορος</em>, if the sense is “I see the orator”?",
-   "explain": "<em>ὁράω</em> takes the accusative of the person seen. The accusative is <em>τὸν ῥήτορα</em>. <em>τοῦ ῥήτορος</em> is a real genitive, and it is the wrong case for this verb.",
-   "options": ["<em>ῥήτωρ</em> is feminine", "<em>ὁρῶ</em> is not a Greek form", "The person seen stands in the accusative", "The genitive is required with <em>ὁράω</em>"],
-   "answer": 2
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c4",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>εἰς τῇ νήσῳ ἔρχεται</em>?",
-   "explain": "<em>εἰς</em> (“into”) takes the accusative. <em>τῇ νήσῳ</em> is dative. The accusative is <em>εἰς τὴν νῆσον</em>. <em>ἔρχεται</em> is a real form.",
-   "options": ["<em>νῆσος</em> is masculine", "<em>εἰς</em> takes the accusative", "<em>ἔρχεται</em> is a barbarism", "Nothing is wrong"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c5",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the imperfect of <em>ἀποβάλλω</em> (“I throw away”).",
-   "explain": "The preposition drops its final vowel, and the augment follows: <em>ἀπέβαλλον</em> (Smyth §449). <em>ἀπέβαλον</em> is the aorist. <em>ἀπόβαλλον</em> leaves the augment out.",
-   "options": ["<em>ἀπόβαλλον</em>", "<em>ἀπέβαλλον</em>", "<em>ἀπέβαλον</em>", "<em>ἀποβάλλω</em>"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c6",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "What is wrong with <em>σὺν τὸν στρατιώτην μάχεται</em>?",
-   "explain": "<em>σύν</em> (“with”) takes the dative: <em>σὺν τῷ στρατιώτῃ</em>. <em>τὸν στρατιώτην</em> is accusative. <em>μάχεται</em> (“he fights”) is a real form.",
-   "options": ["<em>στρατιώτης</em> is neuter", "<em>σύν</em> takes the dative", "<em>μάχεται</em> is not a Greek form", "Nothing is wrong"],
-   "answer": 1
-  },
-  {
-   "id": "lang.vi.grc/errors-ex:c7",
-   "set": "C",
-   "deck": "lang.vi.grc/errors-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the sentence that is free of error.",
-   "explain": "<em>ὅπλα</em> is neuter plural, <em>καλά</em> agrees, and a neuter plural subject takes a singular verb. <em>καλοί</em> is masculine. <em>ὅπλον</em> is singular, and <em>ἡ</em> is feminine.",
-   "options": ["<em>τὰ ὅπλα καλά ἐστιν</em>", "<em>τὰ ὅπλα καλοί ἐστιν</em>", "<em>τὰ ὅπλον καλά ἐστιν</em>", "<em>ἡ ὅπλα καλά ἐστιν</em>"],
+   "prompt": "A student writes <i>γίνομαι</i> for “I become” in an Attic prose composition. How would an Atticist judge it?",
+   "explain": "<i>Γίνομαι</i> is the form of the common dialect.",
+   "options": [
+    "A barbarism: Attic prose writes <i>γίγνομαι</i>",
+    "A solecism of person",
+    "No error: <i>γίνομαι</i> is the classical form",
+    "A metaplasm allowed in prose"
+   ],
    "answer": 0
   },
   {
-   "id": "lang.vi.grc/errors-ex:c8",
+   "id": "lang.vi.grc/errors-ex:e11",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What kind of error is <i>ὁ ῥήτωρ λέγουσι</i>?",
+   "explain": "<i>Λέγουσι</i> is a real plural, but the subject is singular.",
+   "options": [
+    "A barbarism in <i>λέγουσι</i>",
+    "No error",
+    "A wrong augment",
+    "A solecism of number"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e12",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What kind of error is <i>τὴν δῶρον</i>?",
+   "explain": "<i>Δῶρον</i> is neuter; the article must be <i>τό</i>.",
+   "options": [
+    "A barbarism in <i>δῶρον</i>",
+    "A solecism of number",
+    "A solecism of gender",
+    "No error"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e13",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>βοηθεῖ τὸν φίλον</i> (“he helps his friend”)?",
+   "explain": "The construction requires <i>τῷ φίλῳ</i>; each word is real, so the error is a solecism.",
+   "options": [
+    "<i>Φίλον</i> is not Attic",
+    "<i>Βοηθέω</i> governs the dative",
+    "The verb is plural",
+    "Nothing is wrong"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e14",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>ἄρχει τὴν χώραν</i> (“he rules the land”)?",
+   "explain": "The construction requires <i>τῆς χώρας</i>.",
+   "options": [
+    "<i>Ἄρχω</i> governs the genitive",
+    "<i>Χώραν</i> is Ionic",
+    "The verb has the wrong augment",
+    "Nothing is wrong"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e15",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Choose the Attic prose phrase for “with the general.”",
+   "explain": "In Attic prose <i>μετά</i> meaning “with” takes the genitive; with the dative it is chiefly epic.",
+   "options": [
+    "<i>μετὰ τῷ στρατηγῷ</i>",
+    "<i>μετὰ τὸν στρατηγόν</i>",
+    "<i>μετὰ ὁ στρατηγός</i>",
+    "<i>μετὰ τοῦ στρατηγοῦ</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e16",
+   "set": "B",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Choose the correct phrase for “through the city.”",
+   "explain": "<i>Διά</i> meaning “through” takes the genitive, and it is elided only before a vowel.",
+   "options": [
+    "<i>διὰ τῇ πόλει</i>",
+    "<i>δι’ τῆς πόλεως</i>",
+    "<i>διὰ τῆς πόλεως</i>",
+    "<i>διὰ ἡ πόλις</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e17",
    "set": "C",
    "deck": "lang.vi.grc/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What is wrong with <em>ὁ ῥήτωρ τοὺς νόμους γράφουσι</em>?",
-   "explain": "<em>ῥήτωρ</em> is singular, and <em>γράφουσι</em> is plural. The third person singular is <em>γράφει</em>. <em>τοὺς νόμους</em> agrees, and it is not the error.",
-   "options": ["<em>νόμους</em> is a barbarism", "The verb’s number", "<em>τοὺς</em> does not agree with <em>νόμους</em>", "Nothing is wrong"],
+   "prompt": "A student writes <i>πόληος</i> for “of the city” in Attic prose. What is the error?",
+   "explain": "<i>Πόληος</i> is the Homeric form; in Attic prose it mixes dialects.",
+   "options": [
+    "A solecism: the genitive does not fit the noun",
+    "A barbarism: the Attic genitive is <i>πόλεως</i>",
+    "No error: <i>πόληος</i> is Attic",
+    "A wrong augment"
+   ],
    "answer": 1
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e18",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "A student writes <i>ἵπποισι</i> for “to the horses” in Attic prose. What is the error?",
+   "explain": "The ending <i>-οισι</i> belongs to epic and Ionic, and to Attic verse.",
+   "options": [
+    "A barbarism: Attic prose writes <i>ἵπποις</i>",
+    "A solecism of number",
+    "No error: <i>-οισι</i> is the Attic prose ending",
+    "A wrong accent only"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e19",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Choose the imperfect of <i>καταγράφω</i> (“write down”).",
+   "explain": "<i>Κατά</i> drops its final vowel before the augment.",
+   "options": [
+    "<i>κατάγραφον</i>",
+    "<i>ἐκατάγραφον</i>",
+    "<i>καταέγραφον</i>",
+    "<i>κατέγραφον</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e20",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>ὁρῶ τοῦ ἀνδρός</i> (“I see the man”)?",
+   "explain": "The person seen is accusative: <i>τὸν ἄνδρα</i>.",
+   "options": [
+    "<i>Ἀνδρός</i> is not an Attic genitive",
+    "The verb is plural",
+    "Nothing is wrong",
+    "<i>Ὁράω</i> takes the accusative"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e21",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>ἐὰν ἔλθοι, χαιρήσω</i>?",
+   "explain": "The future more vivid condition has <i>ἐάν</i> with the subjunctive: <i>ἐὰν ἔλθῃ</i>.",
+   "options": [
+    "<i>Ἐάν</i> takes the subjunctive, not the optative",
+    "<i>Χαιρήσω</i> is not Attic",
+    "<i>Ἐάν</i> must be followed by the future indicative",
+    "Nothing is wrong"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e22",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>ἔρχεται ἵνα μανθάνει</i> (“he comes in order to learn”)?",
+   "explain": "The construction requires <i>ἵνα μανθάνῃ</i>.",
+   "options": [
+    "<i>Μανθάνει</i> is a barbarism",
+    "Purpose with <i>ἵνα</i> takes the subjunctive",
+    "<i>Ἵνα</i> takes the infinitive, as <i>ὥστε</i> does",
+    "Nothing is wrong"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e23",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "What is wrong with <i>οὐ γράψῃς</i> meant as “do not write”?",
+   "explain": "A prohibition is <i>μή</i> with the aorist subjunctive: <i>μὴ γράψῃς</i>.",
+   "options": [
+    "<i>Γράψῃς</i> is a barbarism",
+    "The verb should be in the optative",
+    "A prohibition takes <i>μή</i>",
+    "Nothing is wrong"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vi.grc/errors-ex:e24",
+   "set": "C",
+   "deck": "lang.vi.grc/errors-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "A student writes <i>τιμάουσι</i> for “they honor.” What is the error?",
+   "explain": "Attic contracts <i>α</i> and <i>ο</i> to <i>ω</i>.",
+   "options": [
+    "A solecism of number",
+    "No error: Attic does not contract it",
+    "A wrong augment",
+    "A barbarism: Attic contracts it to <i>τιμῶσι</i>"
+   ],
+   "answer": 3
   }
  ]
 };

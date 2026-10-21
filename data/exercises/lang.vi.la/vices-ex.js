@@ -5,7 +5,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "VI",
- "title": "Barbarism and solecism",
+ "title": "Latin Barbarism, Solecism, and Metaplasm",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,12 +15,12 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of fault? Puella <b>bonus</b> est.",
-   "explain": "<em>Bonus</em> is a Latin word, but beside <em>puella</em> it disagrees in gender. That is a fault in the arrangement.",
+   "prompt": "What kind of error? <em>Puella <b>bonus</b> est.</em>",
+   "explain": "<em>Bonus</em> is a Latin word, but beside <em>puella</em> it disagrees in gender. That is an error in the arrangement.",
    "options": [
     "Solecism: adjective and noun do not fit",
     "Barbarism: <em>bonus</em> is not a Latin form",
-    "No fault: Latin adjectives take any gender",
+    "No error: Latin adjectives take any gender",
     "Incomplete: the sense is not finished"
    ],
    "answer": 0
@@ -31,45 +31,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of fault? Puer patrem <b>amavis</b>.",
-   "explain": "<em>Amavis</em> is not a Latin form; the perfect, third person singular, is <em>amāvit</em>. The fault is in the word, before any arrangement is asked.",
+   "prompt": "What kind of error? <em>Puer patrem <b>amavis</b>.</em>",
+   "explain": "<em>Amavis</em> is not a Latin form; the perfect, third person singular, is <em>amāvit</em>. The error is in the word, before any arrangement is asked.",
    "options": [
     "Barbarism: a form the language does not have",
     "Solecism: two good words badly arranged",
-    "No fault: the sentence is sound as it stands",
+    "No error: the sentence is sound as it stands",
     "A figure, allowed for the meter"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.vi.la/vices-ex:vc9",
-   "set": "B",
-   "deck": "lang.vi.la/vices-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Donatus counts this as a solecism. In which of the accidents is the mismatch? pars in frusta <b>secant</b> (Aeneid I.212)",
-   "explain": "Donatus gives this as a solecism by number: <span class=\"lat\">pars in frusta secant pro secat</span>. <em>Pars</em> is singular, and the verb is plural, because the sense is “some of them.” In a poet the same thing is allowed as a figure.",
-   "options": [
-    "Number: <em>secant</em>, not <em>secat</em>",
-    "Case: <em>frusta</em> for <em>frustis</em>",
-    "Gender: <em>pars</em> is masculine",
-    "Tense: <em>secant</em> for <em>secuerunt</em>"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.vi.la/vices-ex:vc10",
-   "set": "B",
-   "deck": "lang.vi.la/vices-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Donatus counts this as a solecism. In which of the accidents is the mismatch? <b>urbem</b> quam statuo vestra est (Aeneid I.573)",
-   "explain": "Donatus: <span class=\"lat\">per casus, sicut urbem quam statuo vestra est pro urbs quam statuo</span>. <em>Urbem</em> is the subject of <em>est</em> and should be nominative; it has been drawn into the case of the relative <em>quam</em>.",
-   "options": [
-    "Case: <em>urbem</em> for <em>urbs</em>",
-    "Number: <em>statuo</em> for <em>statuimus</em>",
-    "Gender: <em>vestra</em> for <em>vester</em>",
-    "Mood: <em>est</em> for <em>sit</em>"
    ],
    "answer": 0
   },
@@ -79,8 +47,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts this as a solecism. What has gone wrong? <b>apud</b> amicum eo",
-   "explain": "Donatus gives <span class=\"lat\">apud amicum eo pro ad amicum</span>. <em>Apud</em> means “at the house of,” place where; going toward a person needs <em>ad</em>. Each word is good Latin, and the fault is in the construction.",
+   "prompt": "Donatus counts this as a solecism. What has gone wrong? <em><b>apud</b> amicum eo</em>",
+   "explain": "Donatus gives <span class=\"lat\">apud amicum eo pro ad amicum</span>. <em>Apud</em> means “at the house of,” place where; going toward a person needs <em>ad</em>. Each word is good Latin, and the error is in the construction.",
    "options": [
     "<em>Apud</em> stands where <em>ad</em> is needed",
     "A barbarism: <em>eo</em> is not a Latin form",
@@ -95,29 +63,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts this as a solecism by the parts of speech. What has happened? <b>torvum</b>que repente clamat (Aeneid VII.399)",
+   "prompt": "Donatus counts this as a solecism by the parts of speech. What has happened? <em><b>torvum</b>que repente clamat</em> (<em>Aeneid</em> VII.399)",
    "explain": "Donatus: <span class=\"lat\">torvumque repente clamat pro torve: nomen pro adverbio positum est</span>. A noun (here an adjective, filed under the noun) stands where an adverb is wanted. In a poet it is allowed as a figure.",
    "options": [
     "Noun for adverb: <em>torvum</em> for <em>torve</em>",
     "A barbarism: <em>torvum</em> is not a Latin word",
     "Case: <em>torvum</em> for <em>torvo</em>",
-    "Nothing: the line has no fault at all"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.vi.la/vices-ex:vc13",
-   "set": "A",
-   "deck": "lang.vi.la/vices-ex",
-   "section": "vi",
-   "type": "mc",
-   "prompt": "Choose the name of the change. <em>commorat</em> for <em>commoverat</em>.",
-   "explain": "A syllable is taken from the middle of the word: <em>commoverat</em> loses <em>-ve-</em>. Donatus calls that syncope. In verse the same change is a metaplasm, which he allows the poet.",
-   "options": [
-    "Syncope: a syllable taken from the middle",
-    "Apocope: a syllable taken from the end",
-    "Prosthesis: a letter added at the front",
-    "A solecism of two good words"
+    "Nothing: the line has no error at all"
    ],
    "answer": 0
   },
@@ -344,6 +296,134 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
     "The phrase is a barbarism in the verb"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc9b",
+   "set": "B",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which accident is mismatched in <em>Mīlitēs fortiter pugnat</em>?",
+   "explain": "The plural subject requires the plural verb <em>pugnant</em>; each word is good Latin, so the error is a solecism.",
+   "options": [
+    "Number: <em>pugnat</em> for <em>pugnant</em>",
+    "Case: <em>mīlitēs</em> for <em>mīlitum</em>",
+    "Gender: <em>fortiter</em> for <em>fortis</em>",
+    "Tense: <em>pugnat</em> for <em>pugnābat</em>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc10b",
+   "set": "B",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Which accident is mismatched in <em>Urbs, quam vidēs, magnam est</em>?",
+   "explain": "A predicate adjective agrees with the subject in case, so it should be nominative, <em>magna</em>.",
+   "options": [
+    "Case: <em>magnam</em> for <em>magna</em>",
+    "Gender: <em>urbs</em> is masculine",
+    "Number: <em>vidēs</em> for <em>vidētis</em>",
+    "Mood: <em>est</em> for <em>sit</em>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc13b",
+   "set": "A",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Choose the name of the change: <em>dīxtī</em> for <em>dīxistī</em>.",
+   "explain": "The syllable <em>-is-</em> is taken from the middle of the word; Donatus calls that syncope.",
+   "options": [
+    "Apocope: a syllable taken from the end",
+    "Prosthesis: a letter added at the front",
+    "A solecism of two good words",
+    "Syncope: a syllable taken from the middle"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc28",
+   "set": "A",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "The <em>Appendix Probi</em> writes <em>columna non colomna</em>. What kind of error is <em>colomna</em>?",
+   "explain": "<em>O</em> stands where <em>u</em> belongs; the error is in the one word.",
+   "options": [
+    "A solecism of gender",
+    "A barbarism: one letter put for another",
+    "A metaplasm allowed in prose",
+    "No error: both spellings are classical"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc29",
+   "set": "B",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "The <em>Appendix Probi</em> writes <em>viridis non virdis</em>. What was done to the word in <em>virdis</em>?",
+   "explain": "The short <em>i</em> between <em>r</em> and <em>d</em> is dropped.",
+   "options": [
+    "A letter was added at the end",
+    "A letter was moved to the front",
+    "A letter was taken from the middle",
+    "The case was changed"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc30",
+   "set": "B",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Why is <em>virdis</em> a barbarism and not a metaplasm?",
+   "explain": "Donatus calls the same change a metaplasm only in a poem.",
+   "options": [
+    "It belongs to ordinary speech, not to a poem",
+    "It joins two words wrongly",
+    "It is a foreign word",
+    "It changes the case of the word"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc31",
+   "set": "C",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "A speaker says <em>omō</em> for <em>homō</em>. What kind of barbarism is that?",
+   "explain": "The aspiration is taken away from the word.",
+   "options": [
+    "A barbarism by accent",
+    "A solecism of case",
+    "Barbarolexis, a foreign word",
+    "A barbarism by aspiration"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vi.la/vices-ex:vc32",
+   "set": "C",
+   "deck": "lang.vi.la/vices-ex",
+   "section": "vi",
+   "type": "mc",
+   "prompt": "Spanish <em>tabla</em> and French <em>table</em> come from <em>tabla</em>, which the <em>Appendix Probi</em> corrects to <em>tabula</em>. What does this show?",
+   "explain": "The Romance words continue the forms of everyday speech, which the grammarians counted as barbarisms.",
+   "options": [
+    "The Appendix Probi was wrong about Latin",
+    "<em>Tabula</em> was a foreign word in Latin",
+    "A barbarism of the common speech became the regular Romance form",
+    "The Romance languages descend from Greek"
+   ],
+   "answer": 2
   }
  ]
 };

@@ -12,22 +12,31 @@ ARS.languages["lang.vi.fr"] = {
    "kind": "study",
    "built": true,
    "title": "Barbarism and Solecism in French",
-   "desc": "Errors in one word and errors in the joining."
+   "desc": "Errors in one word and errors in the joining.",
+   "ex": "lang.vi.fr/vices-ex"
   },
-{
+  {
    "id": "lang.vi.fr/vices-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Barbarism and Solecism",
-   "desc": "21 questions."
+   "title": "Barbarism and Solecism in French",
+   "desc": "21 questions.",
+   "exFor": "lang.vi.fr/errors"
   },
-{
+  {
+   "id": "lang.vi.fr/usage",
+   "kind": "study",
+   "built": true,
+   "title": "Common Errors in French",
+   "desc": "The gender of nouns, words that sound alike, and the participle, au, and de."
+  },
+  {
    "id": "lang.vi.fr/errors-ex",
    "kind": "exercise",
    "built": true,
    "title": "Common Errors in French",
-   "desc": "24 questions."
+   "desc": "24 questions.",
+   "exFor": "lang.vi.fr/usage"
   }
-
  ]
 };

@@ -4,7 +4,7 @@ ARS.decks["lang.vi.grc/errors"] = {
  "id": "lang.vi.grc/errors",
  "title": "Barbarism and Solecism in Greek",
  "sub": "An error in one Attic word, and an error in the joining of real Attic words",
- "sources": "Donatus, <i>Ars maior</i>; Smyth, <i>Greek Grammar</i>",
+ "sources": "Donatus, <em>Ars maior</em>; Smyth, <em>Greek Grammar</em>",
  "panels": [
   {
    "id": "one-word",
@@ -15,19 +15,34 @@ ARS.decks["lang.vi.grc/errors"] = {
     "variants": [
      {
       "prompt": "A student writes <em>παιδεύωμι</em> for the present, first person singular. What kind of error is that?",
-      "options": ["A solecism: two real endings have been joined", "A barbarism: <em>παιδεύωμι</em> is not an Attic form", "No error: every present may end in <em>-μι</em>", "A metaplasm, since the form is unusual"],
+      "options": [
+       "A solecism: two real endings have been joined",
+       "A barbarism: <em>παιδεύωμι</em> is not an Attic form",
+       "No error: every present may end in <em>-μι</em>",
+       "A metaplasm, since the form is unusual"
+      ],
       "answer": 1,
       "explain": "The present of <em>παιδεύω</em> is <em>παιδεύω</em>, as the present of <em>γράφω</em> is <em>γράφω</em>. <em>παιδεύωμι</em> is not an Attic word, so the error is a barbarism."
      },
      {
       "prompt": "What is the nominative plural of <em>ἔργον</em> (“work”)?",
-      "options": ["<em>ἔργονες</em>", "<em>ἔργοι</em>", "<em>ἔργα</em>", "<em>ἔργοις</em>"],
+      "options": [
+       "<em>ἔργονες</em>",
+       "<em>ἔργοι</em>",
+       "<em>ἔργα</em>",
+       "<em>ἔργοις</em>"
+      ],
       "answer": 2,
       "explain": "A neuter of the second declension forms the nominative plural in <em>-α</em>, as <em>βιβλία</em> is the plural of <em>βιβλίον</em>, so the plural is <em>ἔργα</em>. <em>ἔργοις</em> is a real form, but it is the dative plural."
      },
      {
       "prompt": "Why is <em>ἔγραψαν</em> not a barbarism?",
-      "options": ["Because a barbarism is an error in the joining of words", "It is the Attic aorist, third person plural", "Because the aorist takes no augment", "Because a barbarism must be a noun"],
+      "options": [
+       "Because a barbarism is an error in the joining of words",
+       "It is the Attic aorist, third person plural",
+       "Because the aorist takes no augment",
+       "Because a barbarism must be a noun"
+      ],
       "answer": 1,
       "explain": "<em>ἔγραψαν</em> is a real Attic form, the aorist, third person plural, of <em>γράφω</em>. A barbarism is a form the language does not have."
      }
@@ -43,49 +58,36 @@ ARS.decks["lang.vi.grc/errors"] = {
     "variants": [
      {
       "prompt": "What kind of error is <em>οἱ νόμοι γράφει</em>?",
-      "options": ["No error: every plural subject takes a singular verb", "A barbarism: <em>γράφει</em> is not an Attic form", "A solecism of number", "A barbarism: <em>νόμοι</em> is not a plural"],
+      "options": [
+       "No error: every plural subject takes a singular verb",
+       "A barbarism: <em>γράφει</em> is not an Attic form",
+       "A solecism of number",
+       "A barbarism: <em>νόμοι</em> is not a plural"
+      ],
       "answer": 2,
       "explain": "<em>γράφει</em> is a real singular verb, and <em>νόμοι</em> is a real plural noun. The two do not agree in number. The third person plural is <em>γράφουσι</em>."
      },
      {
       "prompt": "Why is the singular verb in <em>τὰ δῶρα ἐστίν</em> regular Attic?",
-      "options": ["Because <em>δῶρα</em> is feminine singular", "A neuter plural takes a singular verb", "Because <em>ἐστίν</em> is plural", "Because the article <em>τὰ</em> is singular"],
+      "options": [
+       "Because <em>δῶρα</em> is feminine singular",
+       "A neuter plural takes a singular verb",
+       "Because <em>ἐστίν</em> is plural",
+       "Because the article <em>τὰ</em> is singular"
+      ],
       "answer": 1,
       "explain": "Smyth §958 gives the rule, and <em>τὰ τέκνα καλά ἐστιν</em> is the same construction. <em>δῶρα</em> is neuter plural. <em>τὰ</em> is the neuter plural article."
      },
      {
       "prompt": "What fails in <em>ἡ κρήνη μέγας ἐστίν</em>?",
-      "options": ["Gender does not match", "<em>ἐστίν</em> is not an Attic form", "The article <em>ἡ</em> is neuter", "Nothing: <em>μέγας</em> is the feminine of this adjective"],
+      "options": [
+       "Gender does not match",
+       "<em>ἐστίν</em> is not an Attic form",
+       "The article <em>ἡ</em> is neuter",
+       "Nothing: <em>μέγας</em> is the feminine of this adjective"
+      ],
       "answer": 0,
       "explain": "The words are real, and the genders do not match. The feminine is <em>μεγάλη</em>, as it is with <em>πόλις</em>. The error is a solecism."
-     }
-    ]
-   }
-  },
-  {
-   "id": "article-case",
-   "title": "Article, case, and augment",
-   "body": "<p>The Greek article and its noun agree in gender, number, and case. <em>τὸν λόγος</em> joins an accusative article to a nominative noun, whereas the accusative is <em>τὸν λόγον</em>; and <em>ἡ δῶρον</em> joins a feminine article to a neuter noun, whereas the neuter article is <em>τό</em>. The article has these three genders:</p>\n<p><strong><em>ὁ</em></strong>, masculine (<em>ὁ λόγος</em>, “the word”)<br><strong><em>ἡ</em></strong>, feminine (<em>ἡ πόλις</em>, “the city”)<br><strong><em>τό</em></strong>, neuter (<em>τὸ δῶρον</em>, “the gift”)</p><p>A preposition requires a certain case, and the wrong case is a solecism, because the preposition and the form of the noun are both real. <em>ἐν</em> (“in”) takes the dative, as in <em>ἐν τῷ οἴκῳ</em> (“in the house”). <em>εἰς</em> (“into”) takes the accusative, as in <em>εἰς τὴν ἀγοράν</em> (“into the market”). <em>σύν</em> (“with”) takes the dative, as in <em>σὺν τῷ πατρί</em> (“with the father”). In Attic prose <em>μετά</em> meaning “with” takes the genitive, as in <em>μετὰ τῶν πολιτῶν</em> (“with the citizens”). With the dative, <em>μετά</em> is chiefly epic (Smyth §1691).</p><p>A wrong augment (the prefix that marks the past tenses of the indicative), however, is a barbarism, not a solecism, because the one verb form is not Attic. In a compound verb the augment stands between the preposition and the verb. The imperfect of <em>εἰσβάλλω</em> (“I throw into”) is <em>εἰσέβαλλον</em>, not <em>εἴσβαλλον</em> (Smyth §449).</p>",
-   "qp": {
-    "id": "q-article-case",
-    "variants": [
-     {
-      "prompt": "Choose the Attic phrase for “in the market.”",
-      "options": ["<em>ἐν τὴν ἀγοράν</em>", "<em>ἐν τῇ ἀγορᾷ</em>", "<em>εἰς τῇ ἀγορᾷ</em>", "<em>ἐν ἡ ἀγορά</em>"],
-      "answer": 1,
-      "explain": "<em>ἐν</em> takes the dative, as <em>ἐν τῷ οἴκῳ</em> does. <em>τῇ ἀγορᾷ</em> is the dative. <em>εἰς</em> would take the accusative <em>τὴν ἀγοράν</em>."
-     },
-     {
-      "prompt": "Where does the augment of a compound verb stand?",
-      "options": ["Before the whole compound, as if the verb were simple", "Between preposition and verb", "After the personal ending", "After the stem, before the ending"],
-      "answer": 1,
-      "explain": "Smyth §449 places the augment between the preposition and the verb. <em>εἰσέβαλλον</em> is built that way. <em>εἴσβαλλον</em> puts the change on the front of the compound."
-     },
-     {
-      "prompt": "What kind of error is <em>τὸ τιμή</em> for “the honor”?",
-      "options": ["No error: <em>τιμή</em> is neuter", "A barbarism: <em>τιμή</em> is not a Greek word", "A solecism of gender", "A barbarism: <em>τό</em> is not an article"],
-      "answer": 2,
-      "explain": "Both words are real. <em>τιμή</em> is feminine, so the article is <em>ἡ</em>. The genders do not match, as in <em>ἡ δῶρον</em>, which joins a feminine article to a neuter noun."
      }
     ]
    }
@@ -99,19 +101,34 @@ ARS.decks["lang.vi.grc/errors"] = {
     "variants": [
      {
       "prompt": "A student writes <em>λόγοιο</em> as the genitive singular in an Attic prose sentence. What is that?",
-      "options": ["No error: <em>λόγοιο</em> is the Attic genitive", "A barbarism: Attic prose uses <em>λόγου</em>", "A solecism: <em>λόγοιο</em> is the Attic dative", "Correct prose, because every Homeric form is Attic"],
+      "options": [
+       "No error: <em>λόγοιο</em> is the Attic genitive",
+       "A barbarism: Attic prose uses <em>λόγου</em>",
+       "A solecism: <em>λόγοιο</em> is the Attic dative",
+       "Correct prose, because every Homeric form is Attic"
+      ],
       "answer": 1,
       "explain": "The Attic genitive singular of <em>λόγος</em> is <em>λόγου</em>. <em>λόγοιο</em> is a Homeric form. In Attic prose the one word is a barbarism."
      },
      {
       "prompt": "What does Donatus call a poet’s departure in a single word, such as Homer’s genitive <em>πόληος</em> for Attic <em>πόλεως</em>?",
-      "options": ["A solecism, because the poem joins two dialects", "A barbarism, and the poem is incorrect", "A metaplasm", "No departure: <em>πόληος</em> is the Attic genitive"],
+      "options": [
+       "A solecism, because the poem joins two dialects",
+       "A barbarism, and the poem is incorrect",
+       "A metaplasm",
+       "No departure: <em>πόληος</em> is the Attic genitive"
+      ],
       "answer": 2,
       "explain": "In a poem Donatus calls the departure a metaplasm. <em>πόλεως</em> is the Attic genitive of <em>πόλις</em>; <em>πόληος</em> is at home in Homer, but not in Attic prose."
      },
      {
       "prompt": "A student writes the Homeric infinitive <em>ἔμμεν</em> for <em>εἶναι</em> in Attic prose. What kind of error is that?",
-      "options": ["A solecism of case", "No error: <em>ἔμμεν</em> is the Attic form", "A barbarism: Attic prose does not use <em>ἔμμεν</em>", "A metaplasm, since the form is Homeric"],
+      "options": [
+       "A solecism of case",
+       "No error: <em>ἔμμεν</em> is the Attic form",
+       "A barbarism: Attic prose does not use <em>ἔμμεν</em>",
+       "A metaplasm, since the form is Homeric"
+      ],
       "answer": 2,
       "explain": "<em>ἔμμεν</em>, like <em>ἔμμεναι</em>, is a Homeric infinitive of <em>εἰμί</em>. In Attic prose the form is <em>εἶναι</em>. The error is in the one word."
      }
