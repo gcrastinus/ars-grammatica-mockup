@@ -5,15 +5,22 @@ ARS.languages["lang.vii.en"] = {
  "bar": "vii",
  "code": "en",
  "section": "vii",
- "more": true,
+ "more": false,
  "items": [
-{
+  {
+   "id": "lang.vii.en/figures",
+   "kind": "study",
+   "built": true,
+   "title": "Figures and Tropes in English",
+   "desc": "Rhyme and alliteration, zeugma and periphrasis, metaphor and simile, tropes and schemes, and the fallacy of the figure."
+  },
+  {
    "id": "lang.vii.en/figures-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Figures",
-   "desc": "21 questions."
+   "title": "Figures and Tropes in English",
+   "desc": "37 questions.",
+   "exFor": "lang.vii.en/figures"
   }
-
  ]
 };

@@ -5,7 +5,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "VII",
- "title": "Figures",
+ "title": "Figures and Tropes in English",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -344,6 +344,277 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
     "An imperative to a statement that something exists"
    ],
    "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e1",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which device is “The fair breeze blew, the white foam flew, / The furrow followed free” (Coleridge, <em>The Rime of the Ancient Mariner</em> II)?",
+   "explain": "“Fair … foam … flew … furrow … followed … free.”",
+   "options": [
+    "Alliteration",
+    "Metaphor",
+    "Simile",
+    "Zeugma"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e2",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which device is “Miss Bolo … went straight home, in a flood of tears and a sedan-chair” (Dickens, <em>The Pickwick Papers</em> 35)?",
+   "explain": "“In” governs a state of feeling and a vehicle.",
+   "options": [
+    "Metaphor",
+    "Zeugma",
+    "Simile",
+    "Alliteration"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e3",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which device is “O my Luve’s like a red, red rose”?",
+   "explain": "The likeness is stated with “like.”",
+   "options": [
+    "Metaphor",
+    "Alliteration",
+    "Simile",
+    "Zeugma"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e4",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which device is “All the world’s a stage” (<em>As You Like It</em> II.7)?",
+   "explain": "The world is called a stage without “like.”",
+   "options": [
+    "Simile",
+    "Alliteration",
+    "Zeugma",
+    "Metaphor"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e5",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which trope is “The crown approved the treaty” for the king or queen?",
+   "explain": "The sign of office is put for the ruler.",
+   "options": [
+    "Metonymy",
+    "Metaphor",
+    "Synecdoche",
+    "Irony"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e6",
+   "set": "A",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which trope is “a fleet of fifty sail” for fifty ships?",
+   "explain": "The part is put for the whole.",
+   "options": [
+    "Metaphor",
+    "Synecdoche",
+    "Metonymy",
+    "Irony"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e7",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Swift calls his plan to eat the children of the poor “a modest proposal.” Which trope is in the title?",
+   "explain": "The plan is monstrous, and the title says the contrary.",
+   "options": [
+    "Metaphor",
+    "Metonymy",
+    "Irony",
+    "Synecdoche"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e8",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which scheme is “we can not dedicate—we can not consecrate—we can not hallow—this ground” (Lincoln, Gettysburg Address)?",
+   "explain": "“We can not” heads each member.",
+   "options": [
+    "Chiasmus",
+    "Antithesis",
+    "Asyndeton",
+    "Anaphora"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e9",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which scheme is “That’s one small step for man, one giant leap for mankind” (Armstrong, 1969)?",
+   "explain": "Small and giant, man and mankind, in matching form.",
+   "options": [
+    "Antithesis",
+    "Anaphora",
+    "Chiasmus",
+    "Asyndeton"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e10",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which scheme is “Fair is foul, and foul is fair”?",
+   "explain": "The terms are reversed in the second member.",
+   "options": [
+    "Chiasmus",
+    "Anaphora",
+    "Antithesis",
+    "Asyndeton"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e11",
+   "set": "B",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which scheme is “He came, he saw, he left” with no conjunction?",
+   "explain": "The clauses stand without “and.”",
+   "options": [
+    "Anaphora",
+    "Chiasmus",
+    "Antithesis",
+    "Asyndeton"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e12",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which is a periphrastic form of the past tense?",
+   "explain": "A helping word takes the place of the ending.",
+   "options": [
+    "“did walk”",
+    "“walked”",
+    [
+     "“did walk”",
+     "“walked”",
+     "“walks”",
+     "“walking”"
+    ],
+    "“walks”"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e13",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "In “Here thou, great Anna! whom three realms obey, / Dost sometimes counsel take,” what form is “Dost … take”?",
+   "explain": "“Dost take” is “takest” with the helping verb.",
+   "options": [
+    "The periphrastic present with “do”",
+    [
+     "The periphrastic present with “do”",
+     "The past tense",
+     "The future",
+     "The imperative"
+    ],
+    "The past tense",
+    "The future"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e14",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Why is “His voice was thunder” a metaphor and not a simile?",
+   "explain": "A simile would say “like thunder.”",
+   "options": [
+    "No word of likeness is stated",
+    "It has a verb",
+    "It names a sound",
+    "It is in the past tense"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e15",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "What kind of rhyme is “night” and “light”?",
+   "explain": "It ends on the stressed syllable.",
+   "options": [
+    "Masculine",
+    "Feminine",
+    "Internal",
+    [
+     "Masculine",
+     "Feminine",
+     "Internal",
+     "No rhyme"
+    ]
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.vii.en/figures-ex:e16",
+   "set": "C",
+   "deck": "lang.vii.en/figures-ex",
+   "section": "vii",
+   "type": "mc",
+   "prompt": "Which device joins “He caught a cold and the last train”?",
+   "explain": "“Caught” is used in two senses.",
+   "options": [
+    "Metaphor",
+    "Simile",
+    "Zeugma",
+    "Alliteration"
+   ],
+   "answer": 2
   }
  ]
 };

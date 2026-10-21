@@ -10,38 +10,6 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
  "openedFrom": "lang.vii.la/figures",
  "items": [
   {
-   "id": "lang.vii.la/figures-ex:n0",
-   "set": "A",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "The repeated <em>-que</em> in <em>Acamasque Thoasque Pelidesque Neoptolemusque</em> is…",
-   "explain": "More conjunctions than the list needs, for weight.",
-   "options": [
-    "Polysyndeton",
-    "Tmesis",
-    "Ellipsis",
-    "Metaphor"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.vii.la/figures-ex:n1",
-   "set": "A",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "<em>Ceres</em> put for bread is…",
-   "explain": "Ceres gave grain to men, and her name stands for what she gave.",
-   "options": [
-    "Metonymy: the discoverer’s name for the thing",
-    "Synecdoche: the part for the whole",
-    "Irony",
-    "Onomatopoeia"
-   ],
-   "answer": 0
-  },
-  {
    "id": "lang.vii.la/figures-ex:m2-0",
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
@@ -218,54 +186,6 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "set": "A"
   },
   {
-   "id": "lang.vii.la/figures-ex:m2-11",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "In <em>Acamasque Thoasque Pelidesque Neoptolemusque</em>, the repeated <em>-que</em> is…",
-   "explain": "It puts many conjunctions where one would serve. The example is Donatus’s form of <em>Aeneid</em> II.262–63 (Virgil writes <em>Pelidesque Neoptolemus</em>). Anaphora, by contrast, repeats a word at the head of several lines.",
-   "options": [
-    "Polysyndeton: more conjunctions than are needed",
-    "Anaphora, the same word at the head of lines",
-    "Synecdoche, the part put for the whole",
-    "Paragoge, a syllable added at the end"
-   ],
-   "answer": 0,
-   "set": "B"
-  },
-  {
-   "id": "lang.vii.la/figures-ex:m2-12",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "<em>Ceres</em> for bread (<em>sine Cerere et Libero friget Venus</em>) is…",
-   "explain": "The discoverer’s name is put for the thing discovered. Synecdoche would be part for whole.",
-   "options": [
-    "Metonymy: the discoverer’s name put for the thing",
-    "Synecdoche, the part for the whole",
-    "Metaphor, carried over by likeness",
-    "Antonomasia, a description put in place of a proper name"
-   ],
-   "answer": 0,
-   "set": "B"
-  },
-  {
-   "id": "lang.vii.la/figures-ex:m2-13",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "<em>Anchisiades</em>, the son of Anchises, for Aeneas, is…",
-   "explain": "A description is put in place of a proper name.",
-   "options": [
-    "Antonomasia, put for a proper name",
-    "Metonymy, the inventor for the thing",
-    "Hyperbole, beyond belief",
-    "Epenthesis, a letter added within"
-   ],
-   "answer": 0,
-   "set": "B"
-  },
-  {
    "id": "lang.vii.la/figures-ex:m2-14",
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
@@ -340,7 +260,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
     "Antithesis: one letter for another",
     "Metathesis: letters moved",
     "Prosthesis: added at the front",
-    "Diaeresis: one syllable made two"
+    "Diaeresis: one syllable divided into two"
    ],
    "answer": 0,
    "set": "B"
@@ -378,22 +298,6 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "set": "B"
   },
   {
-   "id": "lang.vii.la/figures-ex:m2-21",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "<em>torrere parant flammis et frangere saxo</em> (Aeneid I.179), where the grain is parched before it is ground, Donatus calls…",
-   "explain": "The grain is ground after it is parched, but Virgil names the parching first. Donatus gives this line for hysterologia.",
-   "options": [
-    "Hysterologia: what comes later is said first",
-    "Polysyndeton: more conjunctions than needed",
-    "Metaphor: a word carried over",
-    "Apocope: a letter taken from the end"
-   ],
-   "answer": 0,
-   "set": "B"
-  },
-  {
    "id": "lang.vii.la/figures-ex:m2-22",
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
@@ -424,22 +328,6 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    ],
    "answer": 0,
    "set": "B"
-  },
-  {
-   "id": "lang.vii.la/figures-ex:m2-24",
-   "deck": "lang.vii.la/figures-ex",
-   "section": "vii",
-   "type": "mc",
-   "prompt": "<em>saxo cere comminuit brum</em> (Ennius), where <em>cerebrum</em> is cut in two by another word, is…",
-   "explain": "The word <em>cerebrum</em> is split, and <em>comminuit</em> set between its parts. Donatus quotes Ennius for tmesis.",
-   "options": [
-    "Tmesis: one word cut by another",
-    "Syncope: a letter taken from the middle",
-    "Diaeresis: one syllable made two",
-    "Metathesis: a letter moved"
-   ],
-   "answer": 0,
-   "set": "C"
   },
   {
    "id": "lang.vii.la/figures-ex:m2-25",
@@ -481,7 +369,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "prompt": "<em>sequitur pulcherrimus Astur, / Astur equo fidens</em> (Aeneid X.180–181) is…",
    "explain": "<em>Astur</em> ends one line and begins the next. These are Donatus’s lines for anadiplosis.",
    "options": [
-    "Anadiplosis: the last word of one line repeated at the start of the next",
+    "Anadiplosis: a line’s last word begins the next",
     "Epanalepsis: one line begins and ends with the same word",
     "Epizeuxis: a word doubled at once",
     "Antonomasia: a name put for a name"
@@ -510,7 +398,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>nam inceptio est amentium, haud amantium</em>, “for it is the undertaking of the mad, not of lovers” (Terence, <i>Andria</i> 218), is…",
+   "prompt": "<em>nam inceptio est amentium, haud amantium</em>, “for it is the undertaking of the mad, not of lovers” (Terence, <em>Andria</em> 218), is…",
    "explain": "<em>Amentium</em> and <em>amantium</em> differ by a letter and differ greatly in meaning. Donatus gives this line for paronomasia.",
    "options": [
     "Paronomasia: words alike in sound but different in sense",

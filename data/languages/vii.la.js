@@ -7,20 +7,19 @@ ARS.languages["lang.vii.la"] = {
  "section": "vii",
  "more": false,
  "items": [
-{
+  {
    "id": "lang.vii.la/figures",
    "kind": "study",
    "built": true,
    "title": "Latin Figures and Tropes",
    "desc": "Donatus’s figures of words and tropes, in his examples from Virgil and Ennius."
   },
-{
+  {
    "id": "lang.vii.la/figures-ex",
    "kind": "exercise",
    "built": true,
    "title": "Latin Figures and Tropes",
-   "desc": "38 questions."
+   "desc": "31 questions."
   }
-
  ]
 };
