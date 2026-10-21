@@ -5,7 +5,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Congruity and Completeness",
+ "title": "Agreement, Case, and Congruity in English",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,12 +15,12 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The brave sailor waits.",
+   "prompt": "Choose the description that fits this group of words: “The brave sailor waits.”",
    "explain": "The adjective fits the noun, the noun and verb fit, and the sentence is complete.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -30,14 +30,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The brave sailor.",
+   "prompt": "Choose the description that fits this group of words: “The brave sailor”",
    "explain": "“Brave” fits “sailor”. There is no verb, so the sense is not yet complete. This is Thomas’s <em>homo albus</em>.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg6",
@@ -45,12 +45,12 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. If the sailor waits",
+   "prompt": "Choose the description that fits this group of words: “If the sailor waits”",
    "explain": "It is well formed as a clause, and the “if” leaves the sense unfinished. A subordinate clause is not complete on its own.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -60,14 +60,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The sailors waits at the gate.",
+   "prompt": "Choose the description that fits this group of words: “The sailors waits at the gate.”",
    "explain": "“Sailors” is plural; “waits” is singular. The modes of number do not fit. That is a failure of congruity, not of completeness.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg9",
@@ -75,14 +75,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Him go store yesterday.",
+   "prompt": "Choose the description that fits this group of words: “Him go store yesterday.”",
    "explain": "The cases and the verb-form do not fit. What the speaker means may well be true, but the sentence itself is faulty.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg10",
@@ -90,12 +90,12 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The old road.",
+   "prompt": "Choose the description that fits this group of words: “The old road”",
    "explain": "The adjective fits, but there is no verb, and so the sense is not yet complete.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -121,14 +121,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The red barn.",
+   "prompt": "Choose the description that fits this group of words: “The red barn”",
    "explain": "“Red” fits “barn.” There is no verb, so the sense is not yet complete.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "id": "lang.v.en/congruity-ex:cg13",
@@ -136,14 +136,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The bells ring at noon.",
+   "prompt": "Choose the description that fits this group of words: “The bells ring at noon.”",
    "explain": "The noun and the verb fit, and the sentence says something complete. Nothing further is required to finish the sense.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg14",
@@ -151,14 +151,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The cats sleeps on the step.",
+   "prompt": "Choose the description that fits this group of words: “The cats sleeps on the step.”",
    "explain": "“Cats” is plural and “sleeps” is singular. The modes of number do not fit, so the construction fails. The group is not merely unfinished.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg15",
@@ -166,14 +166,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. While the bread baked",
+   "prompt": "Choose the description that fits this group of words: “While the bread baked”",
    "explain": "The noun and the verb fit. “While” leaves the hearer waiting for the main clause, so the sense is not complete.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 2
+   "answer": 0
   },
   {
    "id": "lang.v.en/congruity-ex:cg16",
@@ -181,12 +181,12 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The low wall.",
+   "prompt": "Choose the description that fits this group of words: “The low wall”",
    "explain": "“Low” fits “wall.” No verb is said, so the sense is unfinished.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit with one another, so the construction fails"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
    "answer": 0
   },
@@ -196,14 +196,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The door stick in the frame.",
+   "prompt": "Choose the description that fits this group of words: “The door stick in the frame.”",
    "explain": "“Door” is singular and “stick” is plural. The construction fails by number. It is not a finished sentence with a fitting verb.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "id": "lang.v.en/congruity-ex:cg18",
@@ -211,14 +211,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The river froze in January.",
+   "prompt": "Choose the description that fits this group of words: “The river froze in January.”",
    "explain": "The subject and the verb fit, and a complete past event is stated. The hearer is not left waiting for a verb or for a main clause.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg19",
@@ -226,14 +226,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Because the lamp was lit",
+   "prompt": "Choose the description that fits this group of words: “Because the lamp was lit”",
    "explain": "The clause is well formed inside itself. “Because” marks it as dependent, so the sense is not complete until a main clause is added.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.v.en/congruity-ex:cg20",
@@ -241,14 +241,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. Them was late.",
+   "prompt": "Choose the description that fits this group of words: “Them was late.”",
    "explain": "“Them” is the object form, and the subject form is “they.” “Was” is also singular beside a plural pronoun. The parts do not fit.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Complete: the parts fit, and the sentence is finished",
-    "Incongruous: the parts do not fit"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg21",
@@ -256,14 +256,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The bright coin.",
+   "prompt": "Choose the description that fits this group of words: “The bright coin”",
    "explain": "“Bright” fits “coin.” With no verb, nothing is yet said of the coin.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "id": "lang.v.en/congruity-ex:cg22",
@@ -271,14 +271,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. If the guests arrive",
+   "prompt": "Choose the description that fits this group of words: “If the guests arrive”",
    "explain": "“Guests” and “arrive” fit. “If” leaves the sense waiting for what follows, so the group is not a complete sentence.",
    "options": [
-    "Incongruous: the parts do not fit with one another, so the construction fails",
-    "Complete: the parts fit, and the sentence is finished",
-    "Congruous: the parts fit, but the sense is unfinished"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 2
+   "answer": 0
   },
   {
    "id": "lang.v.en/congruity-ex:cg23",
@@ -286,14 +286,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The map shows the road.",
+   "prompt": "Choose the description that fits this group of words: “The map shows the road.”",
    "explain": "Subject and verb fit, and the sentence tells something finished. It is congruous and complete.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit with one another, so the construction fails"
+    "Congruous but incomplete: the sense is unfinished",
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/congruity-ex:cg24",
@@ -301,14 +301,14 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The child go home.",
+   "prompt": "Choose the description that fits this group of words: “The child go home.”",
    "explain": "“Child” is singular and “go” does not fit that number. The construction fails. The group is not a complete sentence whose parts agree.",
    "options": [
-    "Congruous: the parts fit, but the sense is unfinished",
     "Incongruous: the parts do not fit",
-    "Complete: the parts fit, and the sentence is finished"
+    "Congruous and complete: the sense is now finished",
+    "Congruous but incomplete: the sense is unfinished"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.v.en/congruity-ex:cg25",
@@ -316,14 +316,190 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "deck": "lang.v.en/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the description that fits this sentence. The books is on the shelf.",
+   "prompt": "Choose the description that fits this group of words: “The books is on the shelf.”",
    "explain": "“Books” is plural and “is” is singular. Number does not fit, so the sentence is incongruous. A hearer can guess the sense, and the grammar still fails.",
    "options": [
-    "Complete: the parts fit, and the sentence is finished",
-    "Congruous: the parts fit, but the sense is unfinished",
-    "Incongruous: the parts do not fit"
+    "Congruous and complete: the sense is now finished",
+    "Incongruous: the parts do not fit",
+    "Congruous but incomplete: the sense is unfinished"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag1",
+   "set": "A",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “Each of the windows ______ cleaned yesterday”?",
+   "explain": "“Each” is singular, so the verb is singular.",
+   "options": [
+    "“was”",
+    "“were”",
+    "“are”",
+    "“have been”"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag2",
+   "set": "A",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “There ______ three letters for you”?",
+   "explain": "After “there,” the verb agrees with the subject that follows, “letters.”",
+   "options": [
+    "“is”",
+    "“are”",
+    "“was”",
+    "“has been”"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag3",
+   "set": "A",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “______ and I painted the fence”?",
+   "explain": "The subject of a finite verb is in the nominative.",
+   "options": [
+    "“Him”",
+    "“His”",
+    "“He”",
+    "“Himself”"
    ],
    "answer": 2
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag4",
+   "set": "B",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “A number of guests ______ late”?",
+   "explain": "“A number of,” meaning “several,” takes a plural verb.",
+   "options": [
+    "“was”",
+    "“is”",
+    "“has been”",
+    "“were”"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag5",
+   "set": "B",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “The number of errors ______ small”?",
+   "explain": "“The number of” takes a singular verb; the subject is “number.”",
+   "options": [
+    "“is”",
+    "“are”",
+    "“were”",
+    "“have been”"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag6",
+   "set": "B",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “The prize was divided between Anna and ______”?",
+   "explain": "“Between” governs the objective case.",
+   "options": [
+    "“I”",
+    "“me”",
+    "“myself”",
+    "“mine”"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag7",
+   "set": "C",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In formal writing, which form completes “She runs faster than ______”?",
+   "explain": "After “than” the case shows the understood verb: “than I (run).”",
+   "options": [
+    "“me”",
+    "“myself”",
+    "“I”",
+    "“mine”"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag8",
+   "set": "C",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “The sailor ______ we rescued was grateful”?",
+   "explain": "The relative is the object of “rescued.”",
+   "options": [
+    "“who”",
+    "“whose”",
+    "“which”",
+    "“whom”"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag9",
+   "set": "C",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “Give the map to ______ is waiting at the door”?",
+   "explain": "The pronoun is the subject of “is waiting,” so it is nominative, though the whole clause is the object of “to.”",
+   "options": [
+    "“whoever”",
+    "“whomever”",
+    "“whom”",
+    "“whose”"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag10",
+   "set": "C",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes “Neither the captain nor the sailors ______ ready”?",
+   "explain": "With “neither … nor” the verb agrees with the nearer subject, “sailors.”",
+   "options": [
+    "“were”",
+    "“was”",
+    "“is”",
+    "“has been”"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.en/congruity-ex:ag11",
+   "set": "B",
+   "deck": "lang.v.en/congruity-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In American usage, which form completes “The jury ______ reached its verdict”?",
+   "explain": "In American usage a collective noun usually takes a singular verb, as “its” also shows.",
+   "options": [
+    "“have”",
+    "“are”",
+    "“were”",
+    "“has”"
+   ],
+   "answer": 3
   }
  ]
 };
