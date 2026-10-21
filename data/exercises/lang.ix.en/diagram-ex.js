@@ -10,996 +10,772 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
  "openedFrom": "",
  "items": [
   {
-   "id": "lang.ix.en/diagram-ex:ed1",
+   "id": "lang.ix.en/diagram-ex:d1",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Birds sing.",
-   "explain": "“Birds sing” is S-V. The diagram needs the base and the line that crosses it, and nothing else. An object, a complement, or a modifier would add a line the sentence does not have.",
+   "prompt": "In the diagram of “Wolves howl.”, where does “howl” go?",
+   "explain": "“Wolves” is the subject and “howl” the verb. The crossing line divides them, and the verb stands just after it.",
    "options": [
-    "Birds sing",
-    "Birds sing tunes",
-    "Birds are few",
-    "Birds sing softly"
+    "On the base line, just after the crossing line",
+    "On the base line, before the crossing line",
+    "On the base line, after a line that stops on the base",
+    "On a slant under “Wolves”"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed2",
+   "id": "lang.ix.en/diagram-ex:d2",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Birds sing songs.",
-   "explain": "“Songs” is a direct object, so the line before it rests on the base and does not cross, and it does not slant. A slant would make “songs” a complement, as if the birds were songs.",
+   "prompt": "In the diagram of “Farmers plant corn.”, which line stands just before “corn”?",
+   "explain": "“Corn” is the direct object, so the line before it comes down onto the base and does not cross it.",
    "options": [
-    "Birds sing songs",
-    "songs as a complement",
-    "Birds sing",
-    "old songs"
+    "A line that crosses the base",
+    "A line that stops on the base",
+    "A line that slants back toward the subject",
+    "A dotted line"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed3",
+   "id": "lang.ix.en/diagram-ex:d3",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? She is wise.",
-   "explain": "“Is” links, and “wise” is a predicate adjective. The line before it slants back toward the subject. A vertical line that merely stops on the base would mark a direct object, and “wise” is not one.",
+   "prompt": "In the diagram of “The lake is deep.”, which line stands just before “deep”?",
+   "explain": "“Is” links, and “deep” describes the subject, so the line before it slants back toward the subject.",
    "options": [
-    "She is wise",
-    "wise drawn as an object",
-    "She is",
-    "very wise"
+    "A line that stops on the base",
+    "A line that crosses the base",
+    "A line that slants back toward the subject",
+    "A dotted line"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed13",
+   "id": "lang.ix.en/diagram-ex:d4",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The bell rang.",
-   "explain": "The sentence is S-V, with “bell” and “rang” on the base. “The” belongs to “bell,” so it hangs on a slant under the subject. Under the verb it would seem to tell how the bell rang, which an article cannot do.",
+   "prompt": "In the diagram of “The captain was a sailor.”, where does “sailor” go?",
+   "explain": "“Sailor” renames the subject after the linking verb “was,” so it stands on the base after a slanted line.",
    "options": [
-    "The bell rang",
-    "The hung on the verb",
-    "The bell rang noon",
-    "The bell is loud"
+    "On the base line, after a line that stops on the base",
+    "On a slant under “captain”",
+    "On the base line, before the crossing line",
+    "On the base line, after a slanted line"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed14",
+   "id": "lang.ix.en/diagram-ex:d5",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Dogs chase cats.",
-   "explain": "“Cats” receives the action of “chase,” so it is the direct object, and the line before it stops on the base. A slant would make “cats” a complement, as if the dogs were cats.",
+   "prompt": "In the diagram of “Clouds gather.”, which line divides “Clouds” from “gather”?",
+   "explain": "A vertical line that crosses the base divides the subject from the predicate.",
    "options": [
-    "Dogs chase cats",
-    "cats as a complement",
-    "Dogs chase",
-    "Dogs are cats"
+    "A line that crosses the base",
+    "A line that stops on the base",
+    "A line that slants back toward the subject",
+    "A dotted line"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed15",
+   "id": "lang.ix.en/diagram-ex:d6",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The sea is calm.",
-   "explain": "“Is” links, and “calm” is a predicate adjective describing the sea, so a slant leans back toward the subject before it. “The” hangs under “sea.” “Calm” is not an object, and it does not modify the verb.",
+   "prompt": "In the diagram of “Young foxes play.”, where does “Young” go?",
+   "explain": "“Young” describes “foxes,” so it hangs on a slant under that word.",
    "options": [
-    "The sea is calm",
-    "calm as an object",
-    "calm hung on the verb",
-    "sea is calm, without The"
+    "On the base line, before the crossing line",
+    "On a slant under “foxes”",
+    "On a slant under “play”",
+    "On the base line, after a line that stops on the base"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed16",
+   "id": "lang.ix.en/diagram-ex:d7",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Children laugh loudly.",
-   "explain": "“Loudly” is an adverb telling how the children laugh, so it hangs on a slant under the verb. Under “children” it would modify the noun, which an adverb does not do; and it is not an object, since nothing receives the laughing.",
+   "prompt": "In the diagram of “The train arrived late.”, where does “late” go?",
+   "explain": "“Late” tells when the train arrived, so it modifies the verb and hangs under “arrived.”",
    "options": [
-    "Children laugh loudly",
-    "loudly as an object",
-    "loudly under Children",
-    "Children laugh"
+    "On a slant under “train”",
+    "On the base line, after a line that stops on the base",
+    "On a slant under “arrived”",
+    "On the base line, after a slanted line"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed17",
+   "id": "lang.ix.en/diagram-ex:d8",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The LORD is my shepherd;",
-   "explain": "“Is” links, and “shepherd” renames the subject, so a slant leans back toward it. “The” hangs under “LORD,” and “my” under “shepherd.” The subject is “the LORD,” the one of whom something is said.",
+   "prompt": "In the diagram of “Mary wrote a poem.”, where does “a” go?",
+   "explain": "The article modifies the noun after it, so “a” hangs under “poem.”",
    "options": [
-    "The LORD is my shepherd",
-    "shepherd as an object",
-    "my hung on the verb",
-    "subject and complement swapped"
+    "On a slant under “wrote”",
+    "On a slant under “Mary”",
+    "On the base line, after a line that stops on the base",
+    "On a slant under “poem”"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed18",
+   "id": "lang.ix.en/diagram-ex:d9",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the first clause? They perfect nature,",
-   "explain": "“They” (studies) do the perfecting, and “nature” receives it: S-V-DO. The line before a direct object stops on the base and does not slant.",
+   "prompt": "In the diagram of “The bread smells fresh.”, which line stands just before “fresh”?",
+   "explain": "“Smells” links here, and “fresh” describes the bread, so the line before it slants back toward the subject.",
    "options": [
-    "They perfect nature",
-    "nature as a complement",
-    "subject and object swapped",
-    "nature hung on the verb"
+    "A line that slants back toward the subject",
+    "A line that stops on the base",
+    "A line that crosses the base",
+    "A dotted line"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed4",
+   "id": "lang.ix.en/diagram-ex:d10",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The mind is its own place.",
-   "explain": "The pattern of this clause is S-LV-PN, so “place” follows a slant. “The” hangs under “mind,” and “own” hangs under “place.” Hanging “The” on the verb would modify “is,” which the clause does not do. “Its” is left off this small diagram so the offices stay readable.",
+   "prompt": "In the diagram of “Students read history.”, where does “history” go?",
+   "explain": "“History” receives the action of “read,” so it is the direct object, on the base after a line that stops on the base.",
    "options": [
-    "The mind is its own place",
-    "place as object",
-    "mind is place, unmodified",
-    "The hung on the verb"
+    "On the base line, after a line that stops on the base",
+    "On the base line, after a slanted line",
+    "On the base line, just after the crossing line",
+    "On a slant under “read”"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed5",
+   "id": "lang.ix.en/diagram-ex:d11",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Birds sing in trees.",
-   "explain": "“In trees” is a prepositional phrase telling where, so it hangs under the verb, with “in” on the slant and “trees” on the lower horizontal. It is not a direct object, and it is not a clause, because “in” has no finite verb.",
+   "prompt": "In the diagram of “Students read history.”, where does “Students” go?",
+   "explain": "The subject stands first on the base line, before the crossing line.",
    "options": [
-    "Birds sing in trees",
-    "trees as object",
-    "in trees under birds",
-    "in as a clause"
+    "On the base line, after a line that stops on the base",
+    "On a slant under “read”",
+    "On the base line, just after the crossing line",
+    "On the base line, before the crossing line"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed6",
+   "id": "lang.ix.en/diagram-ex:d12",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Boys and girls sing.",
-   "explain": "The subject is compound. Two subject lines join before the crossing line, and “and” stands on the dotted line between them. “Girls” is not a direct object, and the verb is not a linking verb.",
+   "prompt": "What does a line that comes down onto the base, without crossing it, divide?",
+   "explain": "A line that stops on the base divides the verb from a direct object.",
    "options": [
-    "Boys and girls sing",
-    "girls as object",
-    "Boys sing",
-    "Boys are girls"
+    "The subject from the predicate",
+    "A linking verb from a complement",
+    "The verb from a direct object",
+    "A clause from its main line"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed7",
+   "id": "lang.ix.en/diagram-ex:d13",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? He gave the king a letter.",
-   "explain": "“Letter” is the direct object and stays on the base. “King” is the indirect object and hangs below, with “(to)” on the slant, because the pattern is the unspoken “to the king.” Swapping them would make the king the thing given.",
+   "prompt": "In the diagram of “The nurse spoke quietly.”, where does “quietly” go?",
+   "explain": "“Quietly” tells how the nurse spoke, so it hangs under the verb.",
    "options": [
-    "He gave the king a letter",
-    "letter and king swapped",
-    "no indirect object",
-    "letter as complement"
+    "On a slant under “nurse”",
+    "On a slant under “spoke”",
+    "On the base line, after a line that stops on the base",
+    "On the base line, after a slanted line"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed8",
+   "id": "lang.ix.en/diagram-ex:d14",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Histories make men wise.",
-   "explain": "“Men” is the direct object, cut off by the line that stops on the base. “Wise” is the objective complement, cut off by a slant after the object, because it describes “men.” A slant straight after “make” would describe the histories instead. We diagram the first member. Bacon’s sentence goes on after a semicolon, “poets witty; the mathematics subtile,” with “make” understood.",
+   "prompt": "In the diagram of “The runners were tired.”, which line stands just before “tired”?",
+   "explain": "“Were” links, and “tired” describes the runners, so the slant points back toward the subject.",
    "options": [
-    "Histories make men wise",
-    "wise as object",
-    "wise as subject complement",
-    "Histories are wise"
+    "A line that slants back toward the subject",
+    "A line that stops on the base",
+    "A line that crosses the base",
+    "A dotted line"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed9",
+   "id": "lang.ix.en/diagram-ex:d15",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Birds sing when dawn comes.",
-   "explain": "“When dawn comes” has its own subject and finite verb, so it is a clause on a lower base, joined by a dotted line, with “when” on that line. It is not a prepositional phrase, and “dawn” is not a second subject of “sing.”",
+   "prompt": "In the diagram of “Heavy rain fell.”, where does “rain” go?",
+   "explain": "“Rain” is the subject of “fell,” so it stands first on the base line.",
    "options": [
-    "Birds sing when dawn comes",
-    "when dawn as a phrase",
-    "dawn as object",
-    "compound subject"
+    "On the base line, just after the crossing line",
+    "On the base line, after a line that stops on the base",
+    "On a slant under “fell”",
+    "On the base line, before the crossing line"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed12",
+   "id": "lang.ix.en/diagram-ex:d16",
    "set": "A",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Jesus wept.",
-   "explain": "The sentence is S-V. “Jesus” is the subject and “wept” the verb. There is no object and no complement. Reversing the words would make “wept” the thing the sentence is about, which it is not.",
+   "prompt": "Why does the line before a subject complement slant back toward the subject?",
+   "explain": "The complement renames or describes the subject and does not receive an action, so the slant points back to the subject.",
    "options": [
-    "Jesus wept",
-    "with an object the sentence lacks",
-    "wept as a complement",
-    "the words reversed"
+    "It receives the action of the verb",
+    "It tells where the action happens",
+    "It renames or describes the subject",
+    "It joins two clauses"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed19",
-   "set": "A",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Cats sleep.",
-   "explain": "“Cats” is the subject and “sleep” the verb. The base line (the main line) holds those two words, and the line that crosses it divides them. There is no accusative and no complement.",
-   "options": [
-    "Cats sleep. choice 1",
-    "Cats sleep. choice 2",
-    "Cats sleep. choice 3",
-    "Cats sleep. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed20",
-   "set": "A",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Rain falls.",
-   "explain": "The sentence is a subject and a verb. “Falls” does not take an object, and it is not a copula.",
-   "options": [
-    "Rain falls. choice 1",
-    "Rain falls. choice 2",
-    "Rain falls. choice 3",
-    "Rain falls. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed21",
-   "set": "A",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Bells ring.",
-   "explain": "“Bells” do the ringing. Nothing receives it, so the base line stops at the verb.",
-   "options": [
-    "Bells ring. choice 1",
-    "Bells ring. choice 2",
-    "Bells ring. choice 3",
-    "Bells ring. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed22",
-   "set": "A",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Fish swim.",
-   "explain": "A subject and a verb complete the sense. A complement would say what the fish are, and this sentence does not.",
-   "options": [
-    "Fish swim. choice 1",
-    "Fish swim. choice 2",
-    "Fish swim. choice 3",
-    "Fish swim. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed23",
-   "set": "A",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Lions roar.",
-   "explain": "“Roar” asserts, and nothing is roared at. The direct object, the accusative, is not in the sentence.",
-   "options": [
-    "Lions roar. choice 1",
-    "Lions roar. choice 2",
-    "Lions roar. choice 3",
-    "Lions roar. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed24",
+   "id": "lang.ix.en/diagram-ex:d17",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Dogs bark.",
-   "explain": "“Dogs” is the subject and “bark” the verb. An object would be a second noun on the base, and there is none.",
+   "prompt": "In the diagram of “Ducks swim on the pond.”, where does “on” go?",
+   "explain": "“On the pond” tells where the ducks swim, so the phrase hangs under the verb, with the preposition on the slant.",
    "options": [
-    "Dogs bark. choice 1",
-    "Dogs bark. choice 2",
-    "Dogs bark. choice 3",
-    "Dogs bark. choice 4"
+    "On the base line after “swim”",
+    "On the slant of a phrase under “swim”",
+    "On a dotted line under “swim”",
+    "On the slant of a phrase under “Ducks”"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed25",
+   "id": "lang.ix.en/diagram-ex:d18",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Cats chase mice.",
-   "explain": "“Mice” receives the action, so it is the direct object, the accusative. The line before it stops on the base. A slant would make “mice” a complement, as if the cats were mice.",
+   "prompt": "In the diagram of “Ducks swim on the pond.”, where does “pond” go?",
+   "explain": "The object of the preposition stands on the short horizontal line at the bottom of the phrase.",
    "options": [
-    "Cats chase mice. choice 1",
-    "Cats chase mice. choice 2",
-    "Cats chase mice. choice 3",
-    "Cats chase mice. choice 4"
+    "On a short horizontal line under the slant",
+    "On the base line after “swim,” as a direct object of the verb",
+    "On a slant under “swim”",
+    "On a lower base with its own verb"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed26",
+   "id": "lang.ix.en/diagram-ex:d19",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Girls read books.",
-   "explain": "“Books” is the direct object. The line that stops on the base is the sign of that office, not the slant of a complement.",
+   "prompt": "In the diagram of “The man with the dog smiled.”, under which word does “with the dog” hang?",
+   "explain": "The phrase tells which man, so it modifies “man” and hangs under it.",
    "options": [
-    "Girls read books. choice 1",
-    "Girls read books. choice 2",
-    "Girls read books. choice 3",
-    "Girls read books. choice 4"
+    "“smiled”",
+    "“the”",
+    "It stands on the base line",
+    "“man”"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed27",
+   "id": "lang.ix.en/diagram-ex:d20",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Wind bends trees.",
-   "explain": "“Trees” receives the bending. It is the accusative, drawn on the base after a line that stops.",
+   "prompt": "In the diagram of “Anna sent her brother a parcel.”, which word stays on the base after the verb?",
+   "explain": "“Parcel” is the direct object and stays on the base; the indirect object hangs below.",
    "options": [
-    "Wind bends trees. choice 1",
-    "Wind bends trees. choice 2",
-    "Wind bends trees. choice 3",
-    "Wind bends trees. choice 4"
+    "“brother”",
+    "“her”",
+    "“Anna”",
+    "“parcel”"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed28",
+   "id": "lang.ix.en/diagram-ex:d21",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Tom hit the ball.",
-   "explain": "“Ball” is the direct object, and “the” hangs under it. A slant before “ball” would make the ball a complement.",
+   "prompt": "In the diagram of “Anna sent her brother a parcel.”, where does “brother” go?",
+   "explain": "An indirect object hangs under the verb like a prepositional phrase, with “(to)” on the slant when the preposition is not written.",
    "options": [
-    "Tom hit the ball. choice 1",
-    "Tom hit the ball. choice 2",
-    "Tom hit the ball. choice 3",
-    "Tom hit the ball. choice 4"
+    "Under the verb, with “(to)” on the slant",
+    "On the base line after the verb, as the direct object",
+    "Under “parcel,” as a modifier",
+    "On the base line before the verb"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed29",
+   "id": "lang.ix.en/diagram-ex:d22",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Bees make honey.",
-   "explain": "“Honey” is what is made, the direct object. It is not a predicate nominative, because “make” is not a copula.",
+   "prompt": "In the diagram of “Oaks and pines grow here.”, how is the subject drawn?",
+   "explain": "A compound subject is two short lines joined before the crossing line, with the conjunction on a dotted line between them.",
    "options": [
-    "Bees make honey. choice 1",
-    "Bees make honey. choice 2",
-    "Bees make honey. choice 3",
-    "Bees make honey. choice 4"
+    "One line holding both words",
+    "Two short lines joined before the crossing line",
+    "Two subjects, each on its own separate base line with its own verb",
+    "The second noun hangs under the first"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed30",
+   "id": "lang.ix.en/diagram-ex:d23",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? A child read the note.",
-   "explain": "“Child” is the subject and “note” the direct object. “A” hangs under the subject, and “the” under the object.",
+   "prompt": "In the diagram of “Oaks and pines grow here.”, where is “and” written?",
+   "explain": "The conjunction of a compound part is written on the dotted line that joins the two parts.",
    "options": [
-    "A child read the note. choice 1",
-    "A child read the note. choice 2",
-    "A child read the note. choice 3",
-    "A child read the note. choice 4"
+    "On the base line after “grow”",
+    "On a slant under “Oaks”",
+    "On a dotted line between the two subjects",
+    "On the crossing line between the subjects and the verb"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed31",
+   "id": "lang.ix.en/diagram-ex:d24",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Ann is kind.",
-   "explain": "“Is” links, and a linking verb is the copula. “Kind” describes Ann, so it is a predicate adjective and the line before it slants back toward the subject.",
+   "prompt": "In the diagram of “The judge declared him innocent.”, where does “innocent” go?",
+   "explain": "“Innocent” describes the object “him,” so it is an objective complement: it follows the direct object, cut off by a slant.",
    "options": [
-    "Ann is kind. choice 1",
-    "Ann is kind. choice 2",
-    "Ann is kind. choice 3",
-    "Ann is kind. choice 4"
+    "Under the verb, on a slant",
+    "Before the crossing line",
+    "Under “judge,” on a slant, as a word describing the judge",
+    "After the direct object, cut off by a slant"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed32",
+   "id": "lang.ix.en/diagram-ex:d25",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Soup is hot.",
-   "explain": "“Is” is the copula, and “hot” is a predicate adjective. A line that merely stops would mark a direct object, and “hot” is not one.",
+   "prompt": "In the diagram of “We elected Ruth president.”, what cuts off “president”?",
+   "explain": "An objective complement is cut off by the same slant as a subject complement, because it renames the object.",
    "options": [
-    "Soup is hot. choice 1",
-    "Soup is hot. choice 2",
-    "Soup is hot. choice 3",
-    "Soup is hot. choice 4"
+    "A slant, as for a subject complement",
+    "A line that crosses the base",
+    "A dotted line",
+    "Nothing: it hangs under the verb on a slant of its own"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed33",
+   "id": "lang.ix.en/diagram-ex:d26",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The road is long.",
-   "explain": "“Long” describes the road after the copula, so a slant leans back toward the subject. “The” hangs under “road.”",
+   "prompt": "In the diagram of “Grandfather told us a story.”, where does “us” go?",
+   "explain": "“Us” is the indirect object: it hangs under the verb, with “(to)” on the slant.",
    "options": [
-    "The road is long. choice 1",
-    "The road is long. choice 2",
-    "The road is long. choice 3",
-    "The road is long. choice 4"
+    "On the base line after a line that stops on the base",
+    "Under the verb, with “(to)” on the slant",
+    "After “story,” cut off by a slant",
+    "On a slant under “story”"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed34",
+   "id": "lang.ix.en/diagram-ex:d27",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The sky is blue.",
-   "explain": "“Blue” is a predicate adjective, not an object the sky acts on. “The” belongs to “sky.”",
+   "prompt": "In the diagram of “A deer ran across the road.”, where does “across” go?",
+   "explain": "“Across the road” tells where the deer ran, so the phrase hangs under the verb, with “across” on the slant.",
    "options": [
-    "The sky is blue. choice 1",
-    "The sky is blue. choice 2",
-    "The sky is blue. choice 3",
-    "The sky is blue. choice 4"
+    "On the base line after “ran”",
+    "On a slant under “road”",
+    "On the slant of a phrase under “ran”",
+    "On a dotted line under “deer,” as a clause of place"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed35",
+   "id": "lang.ix.en/diagram-ex:d28",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? He is a pilot.",
-   "explain": "“Pilot” renames the subject after the copula, so it is a predicate nominative and stands in the nominative with “he.” “A” hangs under “pilot.” The line slants.",
+   "prompt": "In the diagram of “A deer ran across the road.”, where does “the” go?",
+   "explain": "Inside the phrase, “the” modifies its noun and hangs under “road.”",
    "options": [
-    "He is a pilot. choice 1",
-    "He is a pilot. choice 2",
-    "He is a pilot. choice 3",
-    "He is a pilot. choice 4"
+    "On a slant under “ran”",
+    "On a slant under “across”",
+    "On a slant under “deer”",
+    "On a slant under “road”"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed36",
+   "id": "lang.ix.en/diagram-ex:d29",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Rome is a city.",
-   "explain": "“City” is a predicate nominative, a noun renaming Rome. “A” hangs under “city.” It is not the accusative.",
+   "prompt": "In the diagram of “The girls sang and danced.”, how is the predicate drawn?",
+   "explain": "A compound predicate is drawn like a compound subject, on the other side of the crossing line.",
    "options": [
-    "Rome is a city. choice 1",
-    "Rome is a city. choice 2",
-    "Rome is a city. choice 3",
-    "Rome is a city. choice 4"
+    "Two short lines after the crossing line, joined by a dotted line",
+    "One line holding both verbs",
+    "The second verb hangs under the first",
+    "Two separate base lines, each with the subject repeated before its verb"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed37",
+   "id": "lang.ix.en/diagram-ex:d30",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? She is a nurse.",
-   "explain": "“Nurse” renames the subject. The slant is the sign of the predicate nominative, and “a” hangs under “nurse.”",
+   "prompt": "In the diagram of “The letter from Rome arrived.”, under which word does “from Rome” hang?",
+   "explain": "The phrase tells which letter, so it modifies the noun and hangs under “letter.”",
    "options": [
-    "She is a nurse. choice 1",
-    "She is a nurse. choice 2",
-    "She is a nurse. choice 3",
-    "She is a nurse. choice 4"
+    "“arrived”",
+    "“The”",
+    "“letter”",
+    "It stands on the base line"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed38",
+   "id": "lang.ix.en/diagram-ex:d31",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Tom is a clerk.",
-   "explain": "“Is” links, and “clerk” is a predicate nominative. A vertical stop would make “clerk” a direct object.",
+   "prompt": "What is written on the slant of an indirect object when the preposition is not in the sentence?",
+   "explain": "The understood preposition is written in parentheses on the slant.",
    "options": [
-    "Tom is a clerk. choice 1",
-    "Tom is a clerk. choice 2",
-    "Tom is a clerk. choice 3",
-    "Tom is a clerk. choice 4"
+    "Nothing at all",
+    "“(to)” or “(for)” in parentheses",
+    "The verb of the sentence written a second time",
+    "A dotted line"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed39",
+   "id": "lang.ix.en/diagram-ex:d32",
    "set": "B",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Horses run swiftly.",
-   "explain": "“Swiftly” tells how, so it hangs on a slant under the verb. An adverb is not a direct object.",
+   "prompt": "In the diagram of “They painted the fence green.”, where does “green” go?",
+   "explain": "“Green” tells what the fence was made, so it is an objective complement after the direct object.",
    "options": [
-    "Horses run swiftly. choice 1",
-    "Horses run swiftly. choice 2",
-    "Horses run swiftly. choice 3",
-    "Horses run swiftly. choice 4"
+    "After the direct object, cut off by a slant",
+    "Under “fence,” on a slant",
+    "Under the verb, on a slant",
+    "On the base line after a line that stops on the base, as a second object"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed40",
-   "set": "B",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Stars shine brightly.",
-   "explain": "“Brightly” modifies the verb. Under “stars” it would seem to modify the noun, which an adverb does not do.",
-   "options": [
-    "Stars shine brightly. choice 1",
-    "Stars shine brightly. choice 2",
-    "Stars shine brightly. choice 3",
-    "Stars shine brightly. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed41",
-   "set": "B",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Owls hunt at night.",
-   "explain": "“At night” is a prepositional phrase telling when, so “at” sits on a slant under the verb and “night” on the lower line. “Night” is not a direct object.",
-   "options": [
-    "Owls hunt at night. choice 1",
-    "Owls hunt at night. choice 2",
-    "Owls hunt at night. choice 3",
-    "Owls hunt at night. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed42",
-   "set": "B",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Boats sail at dawn.",
-   "explain": "“At dawn” hangs under the verb. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and does not start a clause.",
-   "options": [
-    "Boats sail at dawn. choice 1",
-    "Boats sail at dawn. choice 2",
-    "Boats sail at dawn. choice 3",
-    "Boats sail at dawn. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed43",
-   "set": "B",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? The soup tastes good.",
-   "explain": "“Tastes” links here, and a linking verb is the copula. “Good” is a predicate adjective. In “she tastes the soup” the same verb would take a direct object.",
-   "options": [
-    "The soup tastes good. choice 1",
-    "The soup tastes good. choice 2",
-    "The soup tastes good. choice 3",
-    "The soup tastes good. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed44",
-   "set": "B",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? We are ready.",
-   "explain": "“Are” is the copula, and “ready” describes the subject. The slant leans back toward “we.”",
-   "options": [
-    "We are ready. choice 1",
-    "We are ready. choice 2",
-    "We are ready. choice 3",
-    "We are ready. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed45",
+   "id": "lang.ix.en/diagram-ex:d33",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Cows and sheep graze.",
-   "explain": "The subject is compound. Two subject lines join before the crossing line, and “and” stands on the dotted line between them.",
+   "prompt": "In the diagram of “We left when the bell rang.”, where is “when the bell rang” drawn?",
+   "explain": "An adverb clause is drawn on a lower base and hangs from the verb by a dotted line.",
    "options": [
-    "Cows and sheep graze. choice 1",
-    "Cows and sheep graze. choice 2",
-    "Cows and sheep graze. choice 3",
-    "Cows and sheep graze. choice 4"
+    "On the base line after “left”",
+    "On a stilt above the main line",
+    "On the slant of a phrase under “We”",
+    "On a lower base, joined to “left” by a dotted line"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed46",
+   "id": "lang.ix.en/diagram-ex:d34",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Tom and Ann are kind.",
-   "explain": "The subject is compound, and “are” is the copula. “Kind” is a predicate adjective after the slant.",
+   "prompt": "In the diagram of “We left when the bell rang.”, what is written on the dotted line?",
+   "explain": "The connecting word of a dependent clause is written on the dotted line.",
    "options": [
-    "Tom and Ann are kind. choice 1",
-    "Tom and Ann are kind. choice 2",
-    "Tom and Ann are kind. choice 3",
-    "Tom and Ann are kind. choice 4"
+    "“rang”",
+    "“bell”",
+    "“when”",
+    "Nothing"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed47",
+   "id": "lang.ix.en/diagram-ex:d35",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The old clock stopped.",
-   "explain": "The sentence is a subject and a verb. “The” and “old” hang under “clock.” “Old” does not modify “stopped.”",
+   "prompt": "In the diagram of “The boy who won the race smiled.”, from which word does the clause hang?",
+   "explain": "An adjective clause hangs from the noun it describes, here “boy.”",
    "options": [
-    "The old clock stopped. choice 1",
-    "The old clock stopped. choice 2",
-    "The old clock stopped. choice 3",
-    "The old clock stopped. choice 4"
+    "“smiled”",
+    "“boy”",
+    "“race”",
+    "“who”"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed48",
+   "id": "lang.ix.en/diagram-ex:d36",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Cows graze in fields.",
-   "explain": "“In fields” hangs under the verb. “Fields” is the object of the preposition, not the direct object of “graze.”",
+   "prompt": "In the diagram of “I believe that she is right.”, how is “that she is right” drawn?",
+   "explain": "A noun clause used as an object stands on a stilt in the object place, above the main line.",
    "options": [
-    "Cows graze in fields. choice 1",
-    "Cows graze in fields. choice 2",
-    "Cows graze in fields. choice 3",
-    "Cows graze in fields. choice 4"
+    "On a stilt in the object place, above the main line",
+    "On a lower base joined by a dotted line",
+    "On the slant of a phrase under “believe”",
+    "After a slanted line, as a complement"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed49",
+   "id": "lang.ix.en/diagram-ex:d37",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? She gave the child a toy.",
-   "explain": "“Toy” is the direct object and stays on the base. “Child” is the indirect object, the dative, and hangs below with “(to)” on the slant, because no preposition is written. “The” and “a” are left off this small diagram so the offices stay readable.",
+   "prompt": "In the diagram of “I believe that she is right.”, where is “that” written?",
+   "explain": "The joining word of a noun clause is written on the stilt.",
    "options": [
-    "She gave the child a toy. choice 1",
-    "She gave the child a toy. choice 2",
-    "She gave the child a toy. choice 3",
-    "She gave the child a toy. choice 4"
+    "On the main line before “believe”",
+    "On a dotted line under “believe”",
+    "On a slant under “she”",
+    "On the stilt"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d38",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “The dog barked because a stranger came.”, from which word does the clause hang?",
+   "explain": "“Because a stranger came” tells why the dog barked, so it is an adverb clause and hangs from the verb.",
+   "options": [
+    "“dog”",
+    "“stranger”",
+    "“barked”",
+    "“because”"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d39",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "Why does “before the storm” in “Before the storm, the birds were silent” not get a lower base?",
+   "explain": "A lower base is drawn only for a clause, which has its own subject and finite verb; a prepositional phrase has none.",
+   "options": [
+    "It comes first in the sentence",
+    "It has no finite verb",
+    "It is set off by a comma",
+    "It modifies the subject"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d40",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “The book that you lent me is lost.”, from which word does “that you lent me” hang?",
+   "explain": "The clause tells which book, so it is an adjective clause and hangs from “book.”",
+   "options": [
+    "“lost”",
+    "“book”",
+    "“lent”",
+    "“is”"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d41",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the lower base of “The book that you lent me is lost”, where does “that” stand?",
+   "explain": "Within its own clause the relative is marked like any noun: “that” is the object of “lent,” so it stands on the lower base after the line that stops on it.",
+   "options": [
+    "On the dotted line only",
+    "On a slant under “book”",
+    "On the lower base, as the object of “lent”",
+    "On the stilt"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d42",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “She smiled as the music began.”, what does the lower base hold?",
+   "explain": "The dependent clause has its own subject and finite verb, and they stand on the lower base with their own crossing line.",
+   "options": [
+    "“as the music,” as a phrase",
+    "“smiled,” repeated",
+    "Nothing: the clause hangs on a stilt",
+    "“music began,” with its own crossing line"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d43",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “The hikers who reached the top rested.”, which word is on the main base after the crossing line?",
+   "explain": "The main clause is “The hikers rested”; the relative clause goes on a lower base.",
+   "options": [
+    "“rested”",
+    "“reached”",
+    "“top”",
+    "“who”"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed50",
+   "id": "lang.ix.en/diagram-ex:d44",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? The judge set the captive free.",
-   "explain": "“Captive” is the direct object, the accusative. “Free” is the objective complement and follows a slant after the object. “The” is left off, twice, so the offices stay readable.",
+   "prompt": "In the diagram of “He said that the road was closed.”, what kind of clause stands on the stilt?",
+   "explain": "“That the road was closed” is what he said, the object of the verb, so it is a noun clause on a stilt.",
    "options": [
-    "The judge set the captive free. choice 1",
-    "The judge set the captive free. choice 2",
-    "The judge set the captive free. choice 3",
-    "The judge set the captive free. choice 4"
+    "An adverb clause telling when",
+    "A noun clause, the object of “said”",
+    "An adjective clause describing “road”",
+    "An independent clause"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d45",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “Although it rained, we played.”, from which word does the clause hang?",
+   "explain": "“Although it rained” is an adverb clause, and an adverb clause hangs from the verb of the main clause.",
+   "options": [
+    "“we”",
+    "“rained”",
+    "“played”",
+    "“it”"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d46",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "What is the difference between a lower base and the slant of a phrase?",
+   "explain": "A lower base is drawn for a clause, which has its own subject and finite verb; a phrase hangs on a slant.",
+   "options": [
+    "A lower base holds a phrase, without a verb",
+    "A slant holds a clause with its own subject",
+    "There is no difference in the diagram",
+    "A lower base holds a clause, with a finite verb"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ix.en/diagram-ex:d47",
+   "set": "C",
+   "deck": "lang.ix.en/diagram-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "In the diagram of “The town where I was born is small.”, from which word does the clause hang?",
+   "explain": "“Where I was born” tells which town, so it is an adjective clause and hangs from “town.”",
+   "options": [
+    "“town”",
+    "“small”",
+    "“born”",
+    "“is”"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ix.en/diagram-ex:ed51",
+   "id": "lang.ix.en/diagram-ex:d48",
    "set": "C",
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Which diagram matches the sentence? Charity is kind.",
-   "explain": "We diagram the second member. “Is” is the copula, and “kind” is a predicate adjective.",
+   "prompt": "In the diagram of “Tell me what you saw.”, how is “what you saw” drawn?",
+   "explain": "“What you saw” is the direct object of “Tell,” a noun clause, so it stands on a stilt in the object place.",
    "options": [
-    "Charity is kind. choice 1",
-    "Charity is kind. choice 2",
-    "Charity is kind. choice 3",
-    "Charity is kind. choice 4"
+    "On a lower base joined to “Tell”",
+    "On a stilt in the object place",
+    "On the slant of a phrase under “me”",
+    "After a slanted line, as a complement"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed52",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? God is love.",
-   "explain": "The verse reads “for God is love.” “For” joins this clause to the one before it, and it is left off the diagram. “Is” is the copula, and “love” is a predicate nominative.",
-   "options": [
-    "God is love. choice 1",
-    "God is love. choice 2",
-    "God is love. choice 3",
-    "God is love. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed53",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Pride goeth before destruction.",
-   "explain": "This question uses the opening of the verse. “Before destruction” is a prepositional phrase under the verb. “Destruction” is not a direct object.",
-   "options": [
-    "Pride goeth before destruction. choice 1",
-    "Pride goeth before destruction. choice 2",
-    "Pride goeth before destruction. choice 3",
-    "Pride goeth before destruction. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed54",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Ye are the salt.",
-   "explain": "“Salt” renames the subject, a predicate nominative, and “the” hangs under it. “Of the earth” is left off.",
-   "options": [
-    "Ye are the salt. choice 1",
-    "Ye are the salt. choice 2",
-    "Ye are the salt. choice 3",
-    "Ye are the salt. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed55",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? he leadeth me beside the still waters.",
-   "explain": "“Me” is the direct object, the accusative. “Beside the still waters” is a prepositional phrase. “The” is left off this small diagram so the offices stay readable, and “still” hangs under “waters.”",
-   "options": [
-    "he leadeth me beside the still waters. choice 1",
-    "he leadeth me beside the still waters. choice 2",
-    "he leadeth me beside the still waters. choice 3",
-    "he leadeth me beside the still waters. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed56",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? We stay when the rain stops.",
-   "explain": "“When the rain stops” has its own subject and finite verb, so it is a clause on a lower base. “The” is left off the lower subject so the clause stays readable. “When” is not a preposition.",
-   "options": [
-    "We stay when the rain stops. choice 1",
-    "We stay when the rain stops. choice 2",
-    "We stay when the rain stops. choice 3",
-    "We stay when the rain stops. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed57",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? The man whom we met left.",
-   "explain": "“Whom we met” is an adjective clause on a lower base, and “whom” is its direct object, not the joining word. “The” hangs under “man.” “Left” is the verb of the main clause.",
-   "options": [
-    "The man whom we met left. choice 1",
-    "The man whom we met left. choice 2",
-    "The man whom we met left. choice 3",
-    "The man whom we met left. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed58",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? I know that he came.",
-   "explain": "“That he came” is a noun clause, the object of “know.” It stands on a stilt in the object slot, above the main line. “That” is the joining word, written on the stilt. A dotted line below the main line would be an adverb clause.",
-   "options": [
-    "I know that he came. choice 1",
-    "I know that he came. choice 2",
-    "I know that he came. choice 3",
-    "I know that he came. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed59",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? The wind and the rain stopped.",
-   "explain": "The subject is compound. “The” is left off both nouns so the two subject lines stay readable. “And” stands on the dotted line.",
-   "options": [
-    "The wind and the rain stopped. choice 1",
-    "The wind and the rain stopped. choice 2",
-    "The wind and the rain stopped. choice 3",
-    "The wind and the rain stopped. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed60",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? She took the book and left.",
-   "explain": "The verb is compound, “took” and “left,” and “book” is the direct object of “took.” “The” is left off so the object stays readable.",
-   "options": [
-    "She took the book and left. choice 1",
-    "She took the book and left. choice 2",
-    "She took the book and left. choice 3",
-    "She took the book and left. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed61",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Tom hit the ball hard.",
-   "explain": "“Ball” is the direct object, and “hard” hangs under the verb. “The” hangs under “ball.”",
-   "options": [
-    "Tom hit the ball hard. choice 1",
-    "Tom hit the ball hard. choice 2",
-    "Tom hit the ball hard. choice 3",
-    "Tom hit the ball hard. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed62",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? Ann gave the cook a pie.",
-   "explain": "“Pie” is the direct object. “Cook” is the indirect object, the dative, under the verb with “(to).” “The” and “a” are left off so the offices stay readable.",
-   "options": [
-    "Ann gave the cook a pie. choice 1",
-    "Ann gave the cook a pie. choice 2",
-    "Ann gave the cook a pie. choice 3",
-    "Ann gave the cook a pie. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed63",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? They named the child John.",
-   "explain": "“Child” is the direct object, and “John” is the objective complement, the name they gave. “The” is left off so the offices stay readable.",
-   "options": [
-    "They named the child John. choice 1",
-    "They named the child John. choice 2",
-    "They named the child John. choice 3",
-    "They named the child John. choice 4"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ix.en/diagram-ex:ed64",
-   "set": "C",
-   "deck": "lang.ix.en/diagram-ex",
-   "section": "ix",
-   "type": "mc",
-   "prompt": "Which diagram matches the sentence? The bell rings at noon.",
-   "explain": "“At noon” tells when, and it hangs under the verb. “The” hangs under “bell.” “Noon” is not a direct object.",
-   "options": [
-    "The bell rings at noon. choice 1",
-    "The bell rings at noon. choice 2",
-    "The bell rings at noon. choice 3",
-    "The bell rings at noon. choice 4"
-   ],
-   "answer": 0
+   "answer": 1
   }
  ]
 };
