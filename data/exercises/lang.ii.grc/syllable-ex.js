@@ -10,13 +10,13 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
  "openedFrom": "",
  "items": [
   {
-   "id": "lang.ii.grc/syllable-ex:gsy1",
+   "id": "lang.ii.grc/syllable-ex:g1",
    "set": "A",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? ἄνθρωπος",
-   "explain": "ἄν-θρω-πος has three vowels, and so three syllables.",
+   "prompt": "How many syllables does <i>θάλαττα</i> have?",
+   "explain": "<i>Θά-λατ-τα</i>: three vowels, three syllables.",
    "options": [
     "Three",
     "Two",
@@ -26,212 +26,340 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy2",
+   "id": "lang.ii.grc/syllable-ex:g2",
    "set": "A",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? παιδεύω",
-   "explain": "αι and ευ are diphthongs, each one sound, so the word is παι-δεύ-ω, three syllables.",
+   "prompt": "How many syllables does <i>βασιλεύς</i> have?",
+   "explain": "<i>Βα-σι-λεύς</i>; <i>ευ</i> is a diphthong, one syllable.",
    "options": [
+    "Four, since ευ is two vowels",
     "Three",
-    "Five",
-    "Four",
-    "Two"
+    "Two",
+    "Five"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy3",
+   "id": "lang.ii.grc/syllable-ex:g3",
    "set": "A",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which vowels are always long?",
-   "explain": "η and ω are always long, and ε and ο are always short. α, ι, and υ may be either.",
+   "prompt": "How many syllables does <i>οἶκοι</i> have?",
+   "explain": "<i>Οἶ-κοι</i>: each <i>οι</i> is a diphthong.",
    "options": [
-    "η and ω",
-    "ε and ο",
-    "α and ι",
-    "ι and υ"
+    "Four, one for each vowel",
+    "Three",
+    "Two",
+    "One"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy4",
+   "id": "lang.ii.grc/syllable-ex:g4",
    "set": "A",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which letters count as double consonants and make a short vowel before them long by position?",
-   "explain": "ζ, ξ, and ψ each stand for two consonants, so a short vowel before one of them makes a syllable long by position.",
+   "prompt": "Which vowels are always short?",
+   "explain": "<i>Η</i> and <i>ω</i> are always long; <i>α</i>, <i>ι</i>, <i>υ</i> may be either.",
    "options": [
-    "ζ, ξ, and ψ",
-    "θ, φ, and χ",
-    "λ, μ, and ν",
-    "β, γ, and δ"
+    "<i>η</i> and <i>ω</i>",
+    "<i>α</i> and <i>ι</i>",
+    "<i>ι</i> and <i>υ</i>",
+    "<i>ε</i> and <i>ο</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy5",
+   "id": "lang.ii.grc/syllable-ex:g5",
    "set": "A",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "The three Greek accent marks are…",
-   "explain": "The marks show the pitch of a syllable. A circumflex stands only on a long vowel or a diphthong. The breathings are not accents.",
+   "prompt": "Why is the first syllable of <i>ἔργον</i> long?",
+   "explain": "A short vowel before two consonants makes a long syllable.",
    "options": [
-    "Acute, grave, and circumflex",
-    "Long, short, and common",
-    "Rough, smooth, and middle breathing",
-    "Diaeresis, macron, and breve"
+    "By position: <i>ρ</i> and <i>γ</i> follow its vowel",
+    "By nature: <i>ε</i> is a long vowel",
+    "Because it bears the accent",
+    "Because of the smooth breathing"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy6",
+   "id": "lang.ii.grc/syllable-ex:g6",
+   "set": "A",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is the first syllable of <i>δῆμος</i> long?",
+   "explain": "<i>Η</i> is always long.",
+   "options": [
+    "Two consonants follow its vowel",
+    "Its vowel <i>η</i> is long by nature",
+    "The circumflex makes it long",
+    "It is the first syllable of the word"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g7",
+   "set": "A",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which word begins with the sound <i>h</i>?",
+   "explain": "<i>Ἡμέρα</i> has the rough breathing.",
+   "options": [
+    "<i>ἐλπίς</i>",
+    "<i>ἀρετή</i>",
+    "<i>ἡμέρα</i>",
+    "<i>οἶνος</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g8",
+   "set": "A",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Over which vowel of a diphthong at the start of a word is the breathing written?",
+   "explain": "<i>Οἶνος</i>, <i>αὐτός</i>: the breathing stands over the second vowel.",
+   "options": [
+    "The first",
+    "Both",
+    "Neither; the diphthong takes no breathing",
+    "The second"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g9",
    "set": "B",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In Greek, if the last syllable is long, the accent cannot stand on…",
-   "explain": "By the law of limitation, a long last syllable keeps the accent off the antepenult. Verbs still go as far back as the law allows.",
+   "prompt": "Why may the accent of <i>φιλόσοφος</i> stand on the antepenult?",
+   "explain": "The accent may stand on the antepenult only when the last syllable is short.",
    "options": [
-    "The antepenult",
-    "The penult",
-    "The last syllable",
-    "Any long vowel"
+    "The last syllable is short",
+    "The penult is long",
+    "Every noun in <i>-ος</i> is accented there",
+    "It is a verb"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy7",
+   "id": "lang.ii.grc/syllable-ex:g10",
    "set": "B",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why does παιδεύω have its accent on the penult?",
-   "explain": "A verb's accent goes as far back as the law allows. The last syllable, ω, is long, so the accent cannot reach the antepenult and stands on the penult. and the long last syllable stops it at the penult",
+   "prompt": "Where does the accent stand in <i>θανάτου</i>, the genitive of <i>θάνατος</i>?",
+   "explain": "The accent persists as far as the law of limitation allows.",
    "options": [
-    "The accent of a verb is recessive",
-    "The penult is always accented in Greek",
-    "The diphthong ευ must carry the accent",
-    "The last syllable is short"
+    "On the penult, because the last syllable is long",
+    "On the antepenult, as in the nominative",
+    "On the last syllable, as the ending <i>-ου</i> requires",
+    "It has no accent"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy8",
+   "id": "lang.ii.grc/syllable-ex:g11",
    "set": "B",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why does δῶρον have a circumflex and not an acute?",
-   "explain": "A long penult that carries the accent takes the circumflex when the last syllable is short. In the genitive δώρου the last syllable is long, and the acute is written.",
+   "prompt": "Why does <i>σῶμα</i> have a circumflex?",
+   "explain": "A long accented penult takes the circumflex before a short last syllable.",
    "options": [
-    "The accented penult is long and the last syllable is short",
-    "Every noun in -ον takes the circumflex",
-    "The last syllable is long",
-    "The circumflex marks the rough breathing"
+    "Every neuter noun of the third declension has a circumflex",
+    "Its last syllable is long",
+    "It begins with a consonant",
+    "Its accented penult is long, and its last syllable is short"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g12",
+   "set": "B",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is the accent of <i>σώματος</i> an acute?",
+   "explain": "The circumflex stands only on the last two syllables.",
+   "options": [
+    "The genitive always has an acute",
+    "The penult is now short, so it cannot take a circumflex",
+    "Only the acute may stand on the antepenult",
+    "The circumflex is used only on verbs"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g13",
+   "set": "B",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Where does the accent of <i>γράφομεν</i> stand?",
+   "explain": "A verb’s accent is recessive, and the last syllable is short.",
+   "options": [
+    "On the penult, the syllable before the last",
+    "On the antepenult",
+    "On the last syllable",
+    "It has none"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g14",
+   "set": "B",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is the accent of <i>γράφω</i> on the penult and not further back?",
+   "explain": "The last syllable, <i>ω</i>, is long, so the accent cannot go further back in any case.",
+   "options": [
+    "The word has only two syllables, and the last is long",
+    "The verb is irregular",
+    "The penult is long by position",
+    "Verbs are never accented on the last syllable of the stem"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy9",
+   "id": "lang.ii.grc/syllable-ex:g15",
    "set": "B",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What happens to the accent of ἄνθρωπος in the genitive singular? ἀνθρώπου",
-   "explain": "The accent of a noun stays where it is in the nominative as far as the law allows. A long last syllable keeps it off the antepenult, so it moves to the penult.",
+   "prompt": "For the accent, how is the final <i>-αι</i> of <i>θάλατται</i> counted?",
+   "explain": "Final <i>αι</i> and <i>οι</i> count as short for the accent, except in the optative.",
    "options": [
-    "It moves to the penult, because the ending -ου is long",
-    "It stays on the antepenult, because the accent of a noun never moves",
-    "It moves to the last syllable",
-    "It becomes a circumflex on the antepenult"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ii.grc/syllable-ex:gsy10",
-   "set": "B",
-   "deck": "lang.ii.grc/syllable-ex",
-   "section": "ii",
-   "type": "mc",
-   "prompt": "For the accent, how is final -οι of ἄνθρωποι counted?",
-   "explain": "Final αι and οι count as short for the accent, except in the optative, so ἄνθρωποι keeps the accent on the antepenult.",
-   "options": [
-    "As short, so the accent may stay on the antepenult",
-    "As long, because οι is a diphthong",
+    "As long, since it is a diphthong",
     "As two syllables",
-    "As long, so the accent must move"
+    "It is not counted",
+    "As short"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy11",
+   "id": "lang.ii.grc/syllable-ex:g16",
+   "set": "B",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which of these forms may take movable nu?",
+   "explain": "The third person plural in <i>-σι</i> may take <i>ν</i>.",
+   "options": [
+    "<i>λέγει</i>",
+    "<i>λόγος</i>",
+    "<i>λέγουσι</i>",
+    "<i>λέγομεν</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g17",
    "set": "C",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the rough breathing mark?",
-   "explain": "The rough breathing is the sound h at the beginning of the word, as in ὁ. The smooth breathing marks that there is no h.",
+   "prompt": "Which of these is enclitic?",
+   "explain": "The indefinite <i>που</i> has no accent of its own.",
    "options": [
-    "That the word begins with the sound h",
-    "That the vowel is long",
-    "That the syllable is accented",
-    "That the word is enclitic"
+    "<i>ποῦ</i>, “where?”",
+    "<i>που</i>, “somewhere”",
+    "<i>πόθεν</i>, “from where?”",
+    "<i>ὅπου</i>, “where,” relative"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy12",
+   "id": "lang.ii.grc/syllable-ex:g18",
    "set": "C",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which breathing does a word beginning with ρ take? ῥήτωρ",
-   "explain": "A word that begins with ρ takes the rough breathing, as in ῥήτωρ.",
+   "prompt": "Which of these is proclitic, with no accent, leaning on the word after it?",
+   "explain": "<i>Ἐν</i>, <i>εἰς</i>, and <i>ἐκ</i> are proclitics.",
    "options": [
-    "The rough breathing",
-    "The smooth breathing",
-    "No breathing",
-    "The circumflex"
+    "<i>ἐν</i>",
+    "<i>ἐπί</i>",
+    "<i>ἀπό</i>",
+    "<i>περί</i>"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy13",
+   "id": "lang.ii.grc/syllable-ex:g19",
    "set": "C",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "When is the grave accent written?",
-   "explain": "An acute on the last syllable becomes a grave when another word follows without a pause, as in τὸν ἄνθρωπον.",
+   "prompt": "On which syllables may a circumflex stand?",
+   "explain": "The circumflex needs a long vowel and stands on one of the last two syllables.",
    "options": [
-    "For an acute on the last syllable when another word follows",
-    "On any short vowel",
-    "On the antepenult of a verb",
-    "On a word that begins with a vowel"
+    "Any syllable, if the vowel is long",
+    "Only the antepenult",
+    "Only a short vowel",
+    "The last or the penult, on a long vowel or diphthong"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g20",
+   "set": "C",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is it <i>καλὸς ἀνήρ</i> but <i>ἀνὴρ καλός</i>?",
+   "explain": "The final acute is written grave before another word.",
+   "options": [
+    "The adjective has a grave only before nouns",
+    "<i>Ἀνήρ</i> changes its accent with the case",
+    "The grave marks emphasis",
+    "An acute on the last syllable becomes grave when a word follows"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.grc/syllable-ex:g21",
+   "set": "C",
+   "deck": "lang.ii.grc/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "In <i>ἐν δέ</i>, is the syllable <i>ἐν</i> long or short?",
+   "explain": "The <i>ν</i> and the <i>δ</i> of the next word make two consonants.",
+   "options": [
+    "Long by position",
+    "Short, since <i>ε</i> is short",
+    "Long by nature",
+    "Not counted"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.grc/syllable-ex:gsy14",
+   "id": "lang.ii.grc/syllable-ex:g22",
    "set": "C",
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why may ἄνθρωπός ἐστι have two accents on ἄνθρωπος?",
-   "explain": "An enclitic has no accent of its own and is pronounced with the word before it. A word accented on the antepenult then takes a second accent on its last syllable. and it gives the word before it a second accent",
+   "prompt": "Why is the first syllable of <i>ἔξω</i> long?",
+   "explain": "<i>Ξ</i> counts as two consonants, <i>κσ</i>.",
    "options": [
-    "ἐστι is an enclitic",
-    "Every noun before a verb takes two accents",
-    "The second accent marks the genitive",
-    "ἄνθρωπος always has two accents"
+    "<i>ε</i> is long before every consonant",
+    "<i>ξ</i> is a double consonant",
+    "It bears the accent",
+    "<i>ω</i> lengthens it"
    ],
-   "answer": 0
+   "answer": 1
   }
  ]
 };

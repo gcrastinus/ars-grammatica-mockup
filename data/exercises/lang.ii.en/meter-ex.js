@@ -51,7 +51,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "explain": "The first foot is reversed, stressed then unstressed; the line returns to iambs.",
    "options": [
     "A trochee in place of the first iamb",
-    "An anapest",
+    "An anapest in place of the first iamb",
     "A spondee in every foot",
     "A feminine ending"
    ],
@@ -67,7 +67,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "explain": "Four trochees would have eight syllables; the last is cut to a single beat.",
    "options": [
     "The last trochee has lost its unstressed syllable",
-    "One word is not counted",
+    "The second “Tyger” is pronounced as one syllable",
     "It is iambic pentameter",
     "The meter counts only nouns"
    ],
@@ -83,7 +83,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "explain": "4, 3, 4, 3, with the rhyme usually on the three-beat lines.",
    "options": [
     "Four beats and three beats in turn",
-    "Five beats each",
+    "Five beats in each of the four lines",
     "Six beats and five in turn",
     "Two beats each"
    ],
@@ -101,7 +101,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
     "To mark the syllables the words themselves stress",
     "To count the letters",
     "To find the rhyme",
-    "To decide the meter before reading"
+    "To decide the meter from the first line before reading the rest"
    ],
    "answer": 0
   },

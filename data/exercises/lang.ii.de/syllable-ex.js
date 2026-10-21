@@ -10,228 +10,356 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
  "openedFrom": "",
  "items": [
   {
-   "id": "lang.ii.de/syllable-ex:dsy1",
+   "id": "lang.ii.de/syllable-ex:d1",
    "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? Bauer",
-   "explain": "<em>Au</em> is a diphthong, one sound, so the word is <em>Bau-er</em>.",
+   "prompt": "How many syllables does <i>Freude</i> have?",
+   "explain": "<i>Freu-de</i>; <i>eu</i> is a diphthong.",
    "options": [
-    "Two",
-    "One",
     "Three",
+    "One",
+    "Two",
     "Four"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy2",
+   "id": "lang.ii.de/syllable-ex:d2",
    "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? Universität",
-   "explain": "The word is <em>U-ni-ver-si-tät</em>.",
+   "prompt": "How many syllables does <i>Zeitung</i> have?",
+   "explain": "<i>Zei-tung</i>.",
    "options": [
-    "Five",
+    "Three",
+    "One",
     "Four",
-    "Six",
-    "Three"
+    "Two"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy3",
+   "id": "lang.ii.de/syllable-ex:d3",
    "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of this word long or short? See",
+   "prompt": "Is the vowel of <i>Boot</i> long or short?",
    "explain": "A doubled vowel is long.",
    "options": [
     "Long, because it is doubled",
-    "Short, because one syllable is short",
-    "Short, because it is final",
-    "Long, because a consonant follows"
+    "Short, because the word is short",
+    "Short, because a consonant follows",
+    "Long, because it is stressed"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy4",
+   "id": "lang.ii.de/syllable-ex:d4",
    "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of this word long or short? Bett",
-   "explain": "A doubled consonant after a vowel shows that the vowel is short.",
+   "prompt": "Is the vowel of <i>Stuhl</i> long or short?",
+   "explain": "The silent <i>h</i> marks a long vowel.",
    "options": [
-    "Short, because a doubled consonant follows",
+    "Short, because two consonants follow",
+    "Long, because of the silent <i>h</i>",
+    "Short, because <i>u</i> is short",
+    "Long, because it is final"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d5",
+   "set": "A",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Is the vowel of <i>Brief</i> long or short?",
+   "explain": "<i>Ie</i> writes a long <i>i</i>.",
+   "options": [
+    "Short, because it is a diphthong",
+    "Short, because <i>f</i> follows",
+    "Long, because it is written <i>ie</i>",
+    "It has two vowels"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d6",
+   "set": "A",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Is the vowel of <i>Sonne</i> long or short?",
+   "explain": "A doubled consonant marks a short vowel.",
+   "options": [
+    "Long, because the word has two syllables",
     "Long, because it is stressed",
-    "Long, because the word is short",
-    "Short, because it is an e"
+    "Short, because the word ends in <i>e</i>",
+    "Short, because a doubled consonant follows"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy5",
+   "id": "lang.ii.de/syllable-ex:d7",
    "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the h in this word show? Sohn",
-   "explain": "A silent h after a vowel shows that the vowel is long.",
+   "prompt": "Is the vowel of <i>Wasser</i> long or short?",
+   "explain": "<i>Ss</i> after it marks a short vowel.",
    "options": [
-    "That the vowel before it is long",
-    "That the word begins with h",
-    "That the vowel is short",
-    "That the syllable is stressed"
+    "Short",
+    "Long",
+    "Neither",
+    "Long in the plural only"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy6",
+   "id": "lang.ii.de/syllable-ex:d8",
    "set": "B",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this word is stressed? sprechen",
+   "prompt": "Which syllable of <i>lesen</i> is stressed?",
    "explain": "German stresses the first syllable of the stem.",
    "options": [
-    "spre-",
-    "-chen",
+    "<i>-sen</i>",
+    "<i>le-</i>",
     "Both equally",
     "Neither"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy7",
+   "id": "lang.ii.de/syllable-ex:d9",
    "set": "B",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this word is stressed? verstehen",
-   "explain": "<em>Ver-</em> is an inseparable prefix and is never stressed; the stress falls on the first syllable of the stem.",
+   "prompt": "Which syllable of <i>gelesen</i> is stressed?",
+   "explain": "<i>Ge-</i> is not part of the stem and is not stressed.",
    "options": [
-    "-ste-",
-    "ver-",
-    "-hen",
+    "<i>ge-</i>",
+    "<i>-sen</i>",
+    "<i>-le-</i>",
     "All three equally"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy8",
+   "id": "lang.ii.de/syllable-ex:d10",
    "set": "B",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this word is stressed? ankommen",
+   "prompt": "Which syllable of <i>bezahlen</i> is stressed?",
+   "explain": "<i>Be-</i> is an inseparable prefix and is never stressed.",
+   "options": [
+    "<i>be-</i>",
+    "<i>-len</i>",
+    "<i>-zah-</i>",
+    "All three equally"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d11",
+   "set": "B",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which syllable of <i>aufstehen</i> is stressed?",
    "explain": "A separable prefix takes the stress.",
    "options": [
-    "an-",
-    "-kom-",
-    "-men",
+    "<i>-ste-</i>",
+    "<i>auf-</i>",
+    "<i>-hen</i>",
     "None"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy9",
+   "id": "lang.ii.de/syllable-ex:d12",
    "set": "B",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which part of this compound is stressed? Haustür",
+   "prompt": "Which part of <i>Kühlschrank</i> is stressed?",
    "explain": "A compound is usually stressed on its first part.",
    "options": [
-    "The first part, Haus-",
-    "The second part, -tür",
+    "The first, <i>Kühl-</i>",
+    "The second, <i>-schrank</i>",
     "Both equally",
     "Neither"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy10",
+   "id": "lang.ii.de/syllable-ex:d13",
    "set": "B",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this word is stressed? studieren",
-   "explain": "Verbs in <em>-ieren</em> are stressed on <em>-ie-</em>.",
+   "prompt": "Which syllable of <i>telefonieren</i> is stressed?",
+   "explain": "Verbs in <i>-ieren</i> are stressed on that ending.",
    "options": [
-    "-die-",
-    "stu-",
-    "-ren",
-    "All three equally"
+    "<i>te-</i>",
+    "<i>-le-</i>",
+    "<i>-ren</i>",
+    "<i>-nie-</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy11",
+   "id": "lang.ii.de/syllable-ex:d14",
    "set": "C",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this word is stressed? Bäckerei",
-   "explain": "Nouns in <em>-ei</em> are stressed on the last syllable.",
+   "prompt": "Which syllable of <i>Qualität</i> is stressed?",
+   "explain": "Nouns in <i>-ität</i> are stressed on the last syllable.",
    "options": [
-    "The last, -rei",
-    "The first, Bä-",
-    "The second, -cke-",
+    "The first, <i>Qua-</i>",
+    "The middle, <i>-li-</i>",
+    "The last, <i>-tät</i>",
     "None"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy12",
+   "id": "lang.ii.de/syllable-ex:d15",
    "set": "C",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is the final g of this word pronounced? Tag",
-   "explain": "At the end of a word, g is pronounced as k in the standard pronunciation, although the spelling keeps g.",
+   "prompt": "Which syllable of <i>Bücherei</i> is stressed?",
+   "explain": "Nouns in <i>-ei</i> are stressed on the last syllable.",
    "options": [
-    "As k",
-    "As g",
+    "The first, <i>Bü-</i>",
+    "The last, <i>-rei</i>",
+    "The middle, <i>-che-</i>",
+    "None"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d16",
+   "set": "C",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "How is the final <i>d</i> of <i>Kind</i> pronounced?",
+   "explain": "Final <i>b</i>, <i>d</i>, <i>g</i> are devoiced.",
+   "options": [
+    "As <i>t</i>",
+    "As <i>d</i>",
     "It is silent",
-    "As ch in every region"
+    "As <i>s</i>"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy13",
+   "id": "lang.ii.de/syllable-ex:d17",
    "set": "C",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of this participle is stressed? gesprochen",
-   "explain": "<em>Ge-</em> is an unstressed prefix, and the stress falls on the stem.",
+   "prompt": "How is the final <i>b</i> of <i>gelb</i> pronounced?",
+   "explain": "Final <i>b</i> is pronounced <i>p</i>.",
    "options": [
-    "-spro-",
-    "ge-",
-    "-chen",
+    "As <i>b</i>",
+    "As <i>f</i>",
+    "It is silent",
+    "As <i>p</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d18",
+   "set": "C",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is <i>Kind</i> spelled with <i>d</i>, though it ends in the sound <i>t</i>?",
+   "explain": "The spelling follows the forms in which a vowel follows.",
+   "options": [
+    "The <i>d</i> is a foreign spelling",
+    "German never writes <i>t</i> at the end of a word",
+    "The other forms, such as <i>Kinder</i>, sound the <i>d</i>",
+    "The <i>d</i> marks a long vowel"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d19",
+   "set": "C",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which prefix is never stressed?",
+   "explain": "<i>Er-</i> is inseparable.",
+   "options": [
+    "<i>auf-</i>",
+    "<i>er-</i>",
+    "<i>an-</i>",
+    "<i>mit-</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d20",
+   "set": "C",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which syllable of <i>zerbrechen</i> is stressed?",
+   "explain": "<i>Zer-</i> is an inseparable prefix.",
+   "options": [
+    "<i>zer-</i>",
+    "<i>-bre-</i>",
+    "<i>-chen</i>",
     "All three equally"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.de/syllable-ex:dsy14",
-   "set": "C",
+   "id": "lang.ii.de/syllable-ex:d21",
+   "set": "A",
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Does German use the Latin law of the penult?",
-   "explain": "German finds the stem, whereas Latin measures the penult.",
+   "prompt": "How many syllables does <i>heute</i> have?",
+   "explain": "<i>Heu-te</i>: the final <i>e</i> is sounded in German.",
    "options": [
-    "No; the stress falls on the first syllable of the stem",
-    "Yes, in every word",
-    "Yes, but only in verbs",
-    "No; the stress falls on the last syllable"
+    "Three",
+    "One",
+    "Two",
+    "Four"
    ],
-   "answer": 0
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.de/syllable-ex:d22",
+   "set": "B",
+   "deck": "lang.ii.de/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "How is the final <i>g</i> of <i>Weg</i> pronounced?",
+   "explain": "Final <i>g</i> is devoiced to <i>k</i>.",
+   "options": [
+    "As <i>g</i>",
+    "As <i>ch</i> in every region",
+    "It is silent",
+    "As <i>k</i>"
+   ],
+   "answer": 3
   }
  ]
 };

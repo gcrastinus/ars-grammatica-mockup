@@ -10,45 +10,29 @@ ARS.exercises["lang.ii.fr/syllable-ex"] = {
  "openedFrom": "",
  "items": [
   {
-   "id": "lang.ii.fr/syllable-ex:fsy1",
+   "id": "lang.ii.fr/syllable-ex:f1",
    "set": "A",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? maison",
-   "explain": "<em>Ai</em> is one vowel sound and on another: <em>mai-son</em>.",
+   "prompt": "How many syllables does <i>chapeau</i> have?",
+   "explain": "<i>Cha-peau</i>; <i>eau</i> writes one vowel sound.",
    "options": [
-    "Two",
-    "One",
     "Three",
-    "Four"
+    "Two",
+    "Four",
+    "One"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy2",
+   "id": "lang.ii.fr/syllable-ex:f2",
    "set": "A",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? beau",
-   "explain": "<em>Eau</em> is one vowel sound, so <em>beau</em> is one syllable.",
-   "options": [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ii.fr/syllable-ex:fsy3",
-   "set": "A",
-   "deck": "lang.ii.fr/syllable-ex",
-   "section": "ii",
-   "type": "mc",
-   "prompt": "How many syllables does this word have in ordinary speech? table",
-   "explain": "The final mute e is not sounded in ordinary speech, so <em>table</em> is one syllable.",
+   "prompt": "How many syllables does <i>fleur</i> have?",
+   "explain": "<i>Eu</i> writes one vowel sound.",
    "options": [
     "One",
     "Two",
@@ -58,180 +42,324 @@ ARS.exercises["lang.ii.fr/syllable-ex"] = {
    "answer": 0
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy4",
+   "id": "lang.ii.fr/syllable-ex:f3",
    "set": "A",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? université",
-   "explain": "The word is u-ni-ver-si-té, with five sounded vowels.",
+   "prompt": "How many syllables does <i>aujourd’hui</i> have?",
+   "explain": "<i>Au-jour-d’hui</i>.",
    "options": [
-    "Five",
     "Four",
-    "Six",
+    "Two",
+    "Five",
     "Three"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy5",
+   "id": "lang.ii.fr/syllable-ex:f4",
    "set": "A",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have? parlons",
-   "explain": "The word is par-lons, and the final s is not sounded.",
+   "prompt": "How many syllables does <i>voiture</i> have in ordinary speech?",
+   "explain": "<i>Voi-ture</i>: the final mute <i>e</i> is not sounded.",
+   "options": [
+    "Three, counting the final <i>e</i>",
+    "One",
+    "Two",
+    "Four"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f5",
+   "set": "A",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "How many syllables does <i>café</i> have?",
+   "explain": "<i>Ca-fé</i>: the final <i>é</i> is sounded.",
+   "options": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f6",
+   "set": "A",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "How many syllables does <i>chanson</i> have?",
+   "explain": "<i>Chan-son</i>.",
    "options": [
     "Two",
-    "One",
     "Three",
+    "One",
     "Four"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy6",
+   "id": "lang.ii.fr/syllable-ex:f7",
    "set": "B",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the stress fall in this word, said alone? université",
-   "explain": "French stresses the last sounded syllable of the group, and a word said alone is a group by itself.",
+   "prompt": "In <i>un grand jardin</i>, which syllable carries the beat?",
+   "explain": "The beat falls on the last sounded syllable of the group.",
    "options": [
-    "On the last syllable, -té",
-    "On the first syllable, u-",
-    "On the penult, -si-",
-    "On the second syllable, -ni-"
+    "<i>grand</i>",
+    "<i>un</i>",
+    "<i>jar-</i>",
+    "<i>-din</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f8",
+   "set": "B",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Said alone, where does <i>téléphone</i> take its beat?",
+   "explain": "The final mute <i>e</i> is not sounded, so the beat is on <i>-phone</i>.",
+   "options": [
+    "On <i>té-</i>, the first syllable",
+    "On <i>-lé-</i>, the middle syllable",
+    "On <i>-phone</i>, the last sounded syllable",
+    "On the final <i>e</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f9",
+   "set": "B",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which is correct for “the school”?",
+   "explain": "<i>La</i> is elided before a vowel.",
+   "options": [
+    "<i>la école</i>",
+    "<i>l’école</i>",
+    "<i>le école</i>",
+    "<i>l’a école</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f10",
+   "set": "B",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which is correct for “if he comes”?",
+   "explain": "<i>Si</i> is elided before <i>il</i>.",
+   "options": [
+    "<i>si il vient</i>",
+    "<i>s’i vient</i>",
+    "<i>si’l vient</i>",
+    "<i>s’il vient</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f11",
+   "set": "B",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which is correct for “if she comes”?",
+   "explain": "<i>Si</i> is elided only before <i>il</i> and <i>ils</i>.",
+   "options": [
+    "<i>si elle vient</i>",
+    "<i>s’elle vient</i>",
+    "<i>s’el vient</i>",
+    "<i>si’elle vient</i>"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy7",
+   "id": "lang.ii.fr/syllable-ex:f12",
    "set": "B",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In this group, which word carries the beat? le petit garçon",
-   "explain": "The beat falls at the end of the rhythmic group, here on the last syllable of garçon.",
+   "prompt": "In <i>nous avons</i>, how is the <i>s</i> of <i>nous</i> pronounced?",
+   "explain": "This is liaison.",
    "options": [
-    "garçon, on its last syllable",
-    "le",
-    "petit, on its last syllable",
-    "petit, on its first syllable"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ii.fr/syllable-ex:fsy8",
-   "set": "B",
-   "deck": "lang.ii.fr/syllable-ex",
-   "section": "ii",
-   "type": "mc",
-   "prompt": "What is elision?",
-   "explain": "In <em>l’homme</em> and <em>j’ai</em> the final vowel of <em>le</em> and <em>je</em> is dropped, and the apostrophe marks its place. and marked with an apostrophe",
-   "options": [
-    "A final vowel dropped before a vowel",
-    "A final consonant sounded before a vowel",
-    "The stress at the end of a group",
-    "A vowel lengthened before r"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ii.fr/syllable-ex:fsy9",
-   "set": "B",
-   "deck": "lang.ii.fr/syllable-ex",
-   "section": "ii",
-   "type": "mc",
-   "prompt": "In les amis, how is the s of les pronounced?",
-   "explain": "This is liaison: the final consonant, silent before a pause, is sounded before a vowel, and an s is sounded as z.",
-   "options": [
-    "As z, joined to amis",
     "It is silent",
-    "As s",
-    "As t"
+    "As <i>z</i>, joined to <i>avons</i>",
+    "As <i>s</i>",
+    "As <i>s</i>, after a short pause"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy10",
+   "id": "lang.ii.fr/syllable-ex:f13",
    "set": "B",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why do we write le héros and not l’héros?",
-   "explain": "An aspirated h, though it is not pronounced, blocks both elision and liaison: <em>le héros</em>, <em>les héros</em>. and it allows no elision",
+   "prompt": "Is there liaison in <i>et il</i>?",
+   "explain": "The <i>t</i> of <i>et</i> is never sounded.",
    "options": [
-    "The h of héros is aspirated",
-    "Héros is feminine",
-    "The h of héros is mute",
-    "Le never elides"
+    "Yes, the <i>t</i> is sounded before a vowel",
+    "Yes, as <i>z</i>",
+    "No; <i>et</i> never takes liaison",
+    "Only in verse"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy11",
+   "id": "lang.ii.fr/syllable-ex:f14",
    "set": "C",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does this word have in ordinary speech? samedi",
-   "explain": "The middle e is mute and usually not sounded in ordinary speech: sam-di.",
+   "prompt": "Which is correct for “the owl”?",
+   "explain": "The <i>h</i> of <i>hibou</i> is aspirated, so there is no elision.",
    "options": [
-    "Two",
+    "<i>l’hibou</i>",
+    "<i>la hibou</i>",
+    "<i>l’ hibou</i>",
+    "<i>le hibou</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f15",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Which is correct for “the hotel”?",
+   "explain": "The <i>h</i> of <i>hôtel</i> is mute, so <i>le</i> is elided.",
+   "options": [
+    "<i>l’hôtel</i>",
+    "<i>le hôtel</i>",
+    "<i>la hôtel</i>",
+    "<i>lé hôtel</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f16",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "What does the circumflex in <i>hôpital</i> often mark?",
+   "explain": "Compare English “hospital.”",
+   "options": [
+    "The stress of the word",
+    "An <i>s</i> once written after the vowel",
+    "A short vowel",
+    "A silent consonant at the end"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f17",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "What does the acute in <i>café</i> mark?",
+   "explain": "The acute marks a closed <i>e</i>, not the beat.",
+   "options": [
+    "The stress of the word",
+    "An <i>s</i> once written",
+    "A closed <i>e</i>",
+    "An open <i>e</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f18",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "What does the cedilla in <i>garçon</i> show?",
+   "explain": "Before <i>a</i>, <i>o</i>, or <i>u</i>, <i>ç</i> keeps the sound <i>s</i>.",
+   "options": [
+    "That the vowel is long",
+    "That the word is stressed on <i>-çon</i>",
+    "That the <i>c</i> is silent",
+    "That <i>c</i> is pronounced <i>s</i> before <i>o</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f19",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "Why is there no cedilla in <i>merci</i>?",
+   "explain": "The cedilla is needed only before <i>a</i>, <i>o</i>, <i>u</i>.",
+   "options": [
+    "Before <i>i</i>, <i>c</i> already sounds <i>s</i>",
+    "The word is borrowed",
+    "The <i>c</i> is pronounced <i>k</i>",
+    "Cedillas are not used after <i>r</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ii.fr/syllable-ex:f20",
+   "set": "C",
+   "deck": "lang.ii.fr/syllable-ex",
+   "section": "ii",
+   "type": "mc",
+   "prompt": "In verse, how many syllables does <i>la rose</i> count before a word beginning with a consonant?",
+   "explain": "<i>La ro-se</i>: the mute <i>e</i> counts before a consonant.",
+   "options": [
     "Three",
+    "Two",
     "One",
     "Four"
    ],
    "answer": 0
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy12",
+   "id": "lang.ii.fr/syllable-ex:f21",
    "set": "C",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the circumflex in forêt often mark?",
-   "explain": "Compare English forest: the circumflex often stands where an older s has dropped out.",
+   "prompt": "In verse, is the mute <i>e</i> of <i>belle</i> counted at the end of a line?",
+   "explain": "The final mute <i>e</i> of a line is never counted.",
    "options": [
-    "An s that was once written after the vowel",
-    "The stress of the word",
-    "A short vowel",
-    "The plural"
+    "Yes, always",
+    "Only before a vowel",
+    "Only in the alexandrine",
+    "No"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
-   "id": "lang.ii.fr/syllable-ex:fsy13",
-   "set": "C",
+   "id": "lang.ii.fr/syllable-ex:f22",
+   "set": "A",
    "deck": "lang.ii.fr/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the grave accent on à show?",
-   "explain": "The grave on <em>à</em> and <em>où</em> tells these words apart from a and <em>ou</em>. It does not mark stress. not a, the form of avoir",
+   "prompt": "How is the final <i>d</i> of <i>grand</i> sounded in <i>grand homme</i>?",
+   "explain": "In liaison <i>d</i> is sounded <i>t</i>.",
    "options": [
-    "That it is the preposition",
-    "That it is stressed",
-    "That it is long",
-    "That it is plural"
+    "As <i>d</i>",
+    "It is silent",
+    "As <i>t</i>, in liaison",
+    "As <i>z</i>"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.ii.fr/syllable-ex:fsy14",
-   "set": "C",
-   "deck": "lang.ii.fr/syllable-ex",
-   "section": "ii",
-   "type": "mc",
-   "prompt": "In verse, when is a mute e at the end of a word counted as a syllable?",
-   "explain": "In French verse the mute e is counted before a consonant and elided before a vowel; at the end of the line it is not counted.",
-   "options": [
-    "Before a word that begins with a consonant",
-    "Before a word that begins with a vowel",
-    "Never",
-    "Only at the end of the line"
-   ],
-   "answer": 0
+   "answer": 2
   }
  ]
 };

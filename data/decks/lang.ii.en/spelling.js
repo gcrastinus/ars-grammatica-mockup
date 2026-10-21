@@ -10,31 +10,221 @@ ARS.decks["lang.ii.en/spelling"] = {
    "id": "silent-e",
    "title": "Silent “e” and the vowel before it",
    "body": "<p><strong>Silent “e” and the vowel before it.</strong> Compare “hop” and “hope,” “rid” and “ride,” “not” and “note,” “cub” and “cube,” “fat” and “fate,” “pin” and “pine,” and “dun” and “dune.” In each pair the second word adds only a final “e,” which is not pronounced, and yet the vowel before the consonant changes its sound.</p><p>In English spelling a “long” vowel is one that says the name of its letter, as the “a” of “fate” and the “i” of “pine” do, and a “short” vowel is the other common sound of the same letter, as in “fat” and “pin.” These names do not mean the Latin quantity that we have studied. They are historical: as we noted earlier, the long vowels of English shifted while the spelling stayed, so that the long vowel of “fate” is now a different sound from the short vowel of “fat,” not merely a longer one. With the names understood, the rule is this: a final silent “e” after a single consonant shows that the vowel before that consonant is long, and without the “e” the vowel is short.</p><p>The “e” was once pronounced. In Middle English a final “e” was a syllable of its own, and when it ceased to be pronounced, the letter remained in the spelling. Because a long vowel was so often followed by such an “e,” writers came to keep it, and even to add it, as a sign of the long vowel. The Danish grammarian Otto Jespersen, whose account of English spelling this deck follows, observes: “After other consonants, e was particularly often retained (or added) when the preceding vowel was long: take . bite . rode, etc.” (<i>A Modern English Grammar</i> I § 6.28). A few common words, such as “come” and “some,” have the “e” although their vowel is short; Jespersen counts them among “a few words that have never been long.” So the rule holds for the great majority of words, and its exceptions are few and common enough to be learned one by one.</p>",
-   "src": "Jespersen, MEG I §§ 6.27–6.28 (pp. 192–194); EEG § 4.61 (p. 22). The long-vowel note: MEG I § 4.91."
+   "src": "Jespersen, MEG I §§ 6.27–6.28 (pp. 192–194); EEG § 4.61 (p. 22). The long-vowel note: MEG I § 4.91.",
+   "qp": {
+    "id": "q-en-sp-silent-e",
+    "variants": [
+     {
+      "prompt": "Why is the vowel of “cape” long, and that of “cap” short?",
+      "options": [
+       "The silent “e” marks the long vowel",
+       "“Cape” is a word borrowed from French",
+       "The “p” is doubled in “cape”",
+       "The stress falls differently"
+      ],
+      "answer": 0,
+      "explain": "A final silent “e” after a single consonant marks the vowel before it long."
+     },
+     {
+      "prompt": "Which word has a short vowel though it ends in silent “e”?",
+      "options": [
+       "“tone”",
+       "“bone”",
+       "“stone”",
+       "“done”"
+      ],
+      "answer": 3,
+      "explain": "A few words, like “come,” “some,” and “done,” keep the “e” with a short vowel."
+     },
+     {
+      "prompt": "Was the final “e” of words like “take” ever pronounced?",
+      "options": [
+       "No, it was always a sign of length",
+       "Only in Latin",
+       "Yes, in Middle English",
+       "Only in poetry"
+      ],
+      "answer": 2,
+      "explain": "It was once a syllable of its own."
+     }
+    ]
+   }
   },
   {
    "id": "e-other-work",
    "title": "The other work of silent “e.”",
    "body": "<p><strong>The other work of silent “e.”</strong> “Have,” “give,” “live,” “solve,” “sleeve,” and “groove” all end in an “e” after “v”; “glue,” “value,” “continue,” “argue,” and “virtue” end in an “e” after “u”; and “face,” “voice,” “since,” “age,” “huge,” and “bridge” end in an “e” after “c” or “g.” In “have,” “give,” and “since” the vowel before the consonant is short, so the “e” in these words is not marking a long vowel.</p><p>A final silent “e” therefore has other work besides the one we have seen. First, it keeps a word from ending in “v” or in “u,” which English words do not do. Second, it shows that a “c” before it has the sound of “s” and that a “g” before it has the sound of “j,” as in “face” and “huge.” Third, it shows that a final “s” is part of the word and not a plural ending, so that “dense” is written apart from “dens,” “tease” from “teas,” “praise” from “prays,” and “curse” from “curs”; “else” has its “e” for the same reason. So “have” and “give” are not exceptions to the rule of the long vowel; their “e” is doing different work.</p><p>The first of these habits comes from older printing, in which “u” stood both for the vowel and for the consonant that is now written “v,” so that the old books print “ioy,” “vs,” and “fiue” for “joy,” “us,” and “five” (<i>Essentials of English Grammar</i> § 6.8). An “e” after the letter showed that it was the consonant, and the habit was kept after “v” had a letter of its own. Jespersen remarks: “This explains how it is that no word in the E language now ends in -v” (MEG I § 6.28). In the same way, “The letter u was never used in the end of words: glue . continue . value, etc.” (MEG I § 4.92).</p>",
-   "src": "Jespersen, MEG I § 6.28 (1)–(4) (p. 193) and § 4.92 (p. 147); EEG § 6.8 (p. 36), in paraphrase. The non-plural pairs are Jespersen’s (curse/curs, tease/teas, praise/prays); “dense”/“dens” is the course’s own."
+   "src": "Jespersen, MEG I § 6.28 (1)–(4) (p. 193) and § 4.92 (p. 147); EEG § 6.8 (p. 36), in paraphrase. The non-plural pairs are Jespersen’s (curse/curs, tease/teas, praise/prays); “dense”/“dens” is the course’s own.",
+   "qp": {
+    "id": "q-en-sp-e-other-work",
+    "variants": [
+     {
+      "prompt": "Why does “sleeve” end in “e”?",
+      "options": [
+       "The vowel before the “v” is long and needs marking",
+       "English words do not end in “v”",
+       "It is a plural",
+       "It is French"
+      ],
+      "answer": 1,
+      "explain": "The “e” after “v” keeps the word from ending in “v.”"
+     },
+     {
+      "prompt": "Why does “lapse” end in “e”?",
+      "options": [
+       "To mark the vowel long",
+       "To make the “p” silent",
+       "To show that the “s” is not a plural ending",
+       "It is a Greek word"
+      ],
+      "answer": 2,
+      "explain": "“Lapse” is written apart from “laps.”"
+     },
+     {
+      "prompt": "What does the “e” of “rage” show?",
+      "options": [
+       "That the “a” is short",
+       "That the word is a verb",
+       "Nothing; it is silent",
+       "That the “g” has the sound of “j”"
+      ],
+      "answer": 3,
+      "explain": "Before “e,” “g” is soft."
+     }
+    ]
+   }
   },
   {
    "id": "double-consonant",
    "title": "A double consonant after a short vowel",
    "body": "<p><strong>A double consonant after a short vowel.</strong> Compare “hopping” and “hoping,” “planned” and “planed,” “dinner” and “diner,” “robbed” and “robed,” and “bitten” and “biting.” In each pair the first word has a short vowel and a doubled consonant, and the second has a long vowel and a single consonant. The same thing appears in letters that are not simply doubled: “deck,” “stick,” “pitch,” “hutch,” “badge,” and “lodge,” after short vowels, against “peek,” “speech,” and “page,” after long ones.</p><p>We have seen that a final silent “e” marks a long vowel. A doubled consonant marks a short one. When an ending that begins with a vowel, such as “-ing,” “-ed,” or “-er,” is added to a word of one syllable that ends in a single consonant after a short vowel, the consonant is doubled (“hop,” “hopping”). When the vowel is long, the silent “e” drops before the ending and the consonant stays single (“hope,” “hoping”). The letters “k,” “ch,” and the sound of “j” are not doubled as letters; instead they are written “ck,” “tch,” and “dge” after a short vowel, and “k,” “ch,” and “ge” after a long one. A few very common words, “much,” “rich,” “such,” and “which,” have a short vowel with a plain “ch.”</p><p>Jespersen states the principle directly: “Doubling of consonants has come to be extensively used to denote shortness of the preceding vowel, especially before a weak syllable, e.g. in hotter, hottest from hot, sobbing from sob. Instead of doubling k, ch and g [dʒ] the combinations ck, tch and dg(e) are written” (<i>Essentials</i> § 6.7). The doubling, he adds, “came to be regarded merely as a sign that the preceding vowel was short” (MEG I § 4.91), and “tch is a sort of doubling of ch (and dge of g(e) = /dʒ/)” (MEG I § 4.93).</p>",
-   "src": "Jespersen, EEG § 6.7 (p. 36); MEG I §§ 4.91 (p. 146), 4.93 (p. 148)."
+   "src": "Jespersen, EEG § 6.7 (p. 36); MEG I §§ 4.91 (p. 146), 4.93 (p. 148).",
+   "qp": {
+    "id": "q-en-sp-double-consonant",
+    "variants": [
+     {
+      "prompt": "Which is the correct spelling of “hop” with “-ing”?",
+      "options": [
+       "“hoping,” which keeps the vowel short",
+       "“hopeing”",
+       "“hopping”",
+       "“hoppeing”"
+      ],
+      "answer": 2,
+      "explain": "A single consonant after a short vowel doubles before “-ing.”"
+     },
+     {
+      "prompt": "Which is the correct spelling of “stare” with “-ing”?",
+      "options": [
+       "“starring”",
+       "“staring”",
+       "“stareing”",
+       "“starreing”"
+      ],
+      "answer": 1,
+      "explain": "The silent “e” drops, and the long vowel keeps a single consonant."
+     },
+     {
+      "prompt": "How does English write the sound of “ch” after a short vowel at the end of a word?",
+      "options": [
+       "Usually “tch,” as in “catch”",
+       "Always “ch,” as in “much” and “rich”",
+       "“chch”",
+       "“sh”"
+      ],
+      "answer": 0,
+      "explain": "“Tch” is a kind of doubling of “ch.”"
+     }
+    ]
+   }
   },
   {
    "id": "stress-doubling",
    "title": "How stress decides the doubling",
    "body": "<p><strong>How stress decides the doubling.</strong> “Forget” becomes “forgetting” and “forgettable”; “regret,” “regrettable”; “commit,” “committed”; “admit,” “admitted”; and “occur,” “occurring.” But “ballot” becomes “balloted”; “gossip,” “gossiping”; “limit,” “limited”; “benefit,” “benefited”; and “cricket,” “cricketing.” All these words end in a single consonant after a short vowel, and yet only the first group doubles it.</p><p>As we noted earlier, in an English word of more than one syllable one syllable bears the primary stress. That stress decides the doubling: a word of more than one syllable doubles its final consonant before an ending that begins with a vowel only if its last syllable is stressed. “ForGET,” “comMIT,” and “ocCUR” are stressed on the last syllable, whereas “BALlot,” “GOSsip,” and “LIMit” are stressed on the first. So “beGINning” doubles its “n,” and “OPening” does not. The rule can even change within one family, because the stress moves: “preFER,” “preFERRED,” but “PREFerence”; “reFER,” “reFERRing,” but “REFerence.” This rule settles some of the commonest misspellings, such as “occurred,” “committed,” “preferred,” and “benefited.”</p><p>Jespersen explains the rule from the history of the sounds: “In a medial position most consonants are doubled between an originally short stressed vowel and an unstressed one,” whereas “After weak vowels consonant-doubling is rare” (MEG I §§ 4.94–4.95). British spelling makes one exception: it doubles “l” even after a weak vowel, writing “travelled, travelling, traveller, levelled” (MEG I § 4.95). American spelling follows the stress rule here as elsewhere, and writes “traveled,” “leveled,” and “canceled.”</p>",
-   "src": "Jespersen, MEG I §§ 4.94–4.95 (pp. 148–149); MEG VI § 22.62 (p. 400: “forgettable, lettable, regrettable, clubbable”). The American forms are American usage, not Jespersen’s examples."
+   "src": "Jespersen, MEG I §§ 4.94–4.95 (pp. 148–149); MEG VI § 22.62 (p. 400: “forgettable, lettable, regrettable, clubbable”). The American forms are American usage, not Jespersen’s examples.",
+   "qp": {
+    "id": "q-en-sp-stress-doubling",
+    "variants": [
+     {
+      "prompt": "Which is the correct American spelling?",
+      "options": [
+       "“benefited”",
+       "“benefitted,” as in “committed”",
+       "“benifited”",
+       "“benefeted”"
+      ],
+      "answer": 0,
+      "explain": "“BENefit” is not stressed on the last syllable, so it does not double."
+     },
+     {
+      "prompt": "Which is correct?",
+      "options": [
+       "“omited”",
+       "“ommitted”",
+       "“omitid”",
+       "“omitted”"
+      ],
+      "answer": 3,
+      "explain": "“OmIT” is stressed on the last syllable, so the “t” doubles."
+     },
+     {
+      "prompt": "Why is it “preferred” but “preference”?",
+      "options": [
+       "“Preference” is a noun from French",
+       "“Preferred” is a past tense, which always doubles",
+       "The stress moves away from the last syllable",
+       "There is no rule"
+      ],
+      "answer": 2,
+      "explain": "Doubling follows the stress."
+     }
+    ]
+   }
   },
   {
    "id": "suffixes",
    "title": "Suffixes that change “e” and “y.”",
    "body": "<p><strong>Suffixes that change “e” and “y.”</strong> “Use” becomes “using” but “useful”; “move,” “movable”; and “desire,” “desirable.” But “change” becomes “changeable,” “peace,” “peaceable,” and “manage,” “manageable,” with the “e” kept. In the same way, “body” becomes “bodily” and “bodiless,” “rely” becomes “reliable,” “vary” becomes “variable,” and “cry” becomes “cries” and “cried”; but “play” becomes “plays” and “played,” “cry” becomes “crying,” and “lady” becomes “ladyship.”</p><p>Two rules account for these words. First, a silent “e” drops before an ending that begins with a vowel and stays before an ending that begins with a consonant; but it also stays before a vowel where it keeps a “c” or a “g” soft, since, as we have seen, that is part of its work. Second, a final “y” after a consonant becomes “i” inside the word; but it stays after a vowel (“plays,” “boys”), before “-ing” (“crying”), and before an ending that is felt as a separate word (“ladyship,” “twentyfold”). So in both rules the letter stays exactly where it is still doing a job.</p><p>The rule for “y” follows from its history. In English, Jespersen says, “y” “has become a mere variant of i used preferably at the end of words, while i is used in the beginning and interior of words” (<i>Essentials</i> § 6.62). So “die” makes “dies” but “dying,” “because ii is avoided”; and some words break the rule, as “laid,” “paid,” and “said” do beside “lays,” “pays,” and “says,” for “too much consistency must not be expected” (§ 6.62). For the “e,” Jespersen quotes the rule as Fowler gives it: “if the suffix begins with a vowel the mute e is dropped. … The chief exception … is that e remains even before a vowel when the soft sound of c or g is to be made possible …” (MEG VI § 22.62). He notes that writers do not always keep it, as in “likeable” and “unsaleable.”</p>",
-   "src": "Jespersen, EEG § 6.62 (p. 36); MEG VI § 22.62 (pp. 399–400: “Final y after a consonant is changed into i before -able: pitiable, reliable, variable”); MEG I § 6.29 (p. 194: “But always changeable, on account of the g”)."
+   "src": "Jespersen, EEG § 6.62 (p. 36); MEG VI § 22.62 (pp. 399–400: “Final y after a consonant is changed into i before -able: pitiable, reliable, variable”); MEG I § 6.29 (p. 194: “But always changeable, on account of the g”).",
+   "qp": {
+    "id": "q-en-sp-suffixes",
+    "variants": [
+     {
+      "prompt": "Which is correct?",
+      "options": [
+       "“noticable”",
+       "“noticible”",
+       "“noticeable”",
+       "“noticeible”"
+      ],
+      "answer": 2,
+      "explain": "The “e” stays to keep the “c” soft."
+     },
+     {
+      "prompt": "Which is correct?",
+      "options": [
+       "“happyness”",
+       "“happiness”",
+       "“happieness”",
+       "“hapiness”"
+      ],
+      "answer": 1,
+      "explain": "Final “y” after a consonant becomes “i” inside the word."
+     },
+     {
+      "prompt": "Which is correct?",
+      "options": [
+       "“enjoyed”",
+       "“enjoied”",
+       "“enjoyd”",
+       "“enjoyied”"
+      ],
+      "answer": 0,
+      "explain": "“Y” after a vowel stays."
+     }
+    ]
+   }
   },
   {
    "id": "c-and-g",
@@ -64,7 +254,45 @@ ARS.decks["lang.ii.en/spelling"] = {
    "id": "one-spelling",
    "title": "One word, one spelling",
    "body": "<p><strong>One word, one spelling.</strong> The “n” of “autumn” is silent, but it is pronounced in “autumnal”; so also “solemn” and “solemnity,” “condemn” and “condemnation,” “benign” and “benignity,” “malign” and “malignant.” The vowel changes in “wise” and “wisdom,” “vain” and “vanity,” “please” and “pleasant,” “type” and “typical,” “mean” and “meant,” and “keep” and “kept,” yet each pair keeps the same letters for its vowel.</p><p>English keeps a word’s spelling the same across its family, even when the pronunciation of the word changes from one form to another. The reason is that changes of sound worked only in certain positions, so that words that once sounded alike drifted apart in sound; the spelling records the word, not each of its sounds. So a silent letter, or a vowel that has weakened to the schwa we noted earlier, can often be recovered from a related word: “autumn” has its “n” because “autumnal” pronounces it, “competition” has its “e” because “compete” pronounces it, and “grammar” ends in “-ar” because “grammatical” pronounces the “a”; so also “definition” from “define.” This is the strongest single tool a speller has. As we noted earlier, “sign” and “signature,” and “nation” and “national,” are the same word in different forms, and the spelling shows it.</p><p>Jespersen describes the change in English spelling as a whole: “In the Middle Ages the general tendency was towards representing the same sound in the same way, wherever it was found, while the same word was not always spelt in the same manner. Nowadays greater importance is attached to representing the same word always in the same manner, while the same sound may be differently written in different words” (MEG I § 1.1). He explains the pairs by the history of the sounds: changes of sound “may give rise to phonetic alternations, through which closely connected words, which formerly had the same, or practically the same sound, become more or less differentiated in sound” (<i>Essentials</i> § 3.2). So, as he says, it is possible to give for English spelling, “if not rational, at any rate historical reasons” (<i>Essentials</i> § 6.11).</p>",
-   "src": "Jespersen, MEG I § 1.1 (p. 3); EEG § 3.2 (pp. 11–12), § 3.8 (p. 16, the vowel pairs), § 6.11 (p. 34); MEG I § 2.315 (p. 24, benign/benignity, in paraphrase). The schwa examples (compete/competition, grammar/grammatical, define/definition) are the course’s own, not Jespersen’s."
+   "src": "Jespersen, MEG I § 1.1 (p. 3); EEG § 3.2 (pp. 11–12), § 3.8 (p. 16, the vowel pairs), § 6.11 (p. 34); MEG I § 2.315 (p. 24, benign/benignity, in paraphrase). The schwa examples (compete/competition, grammar/grammatical, define/definition) are the course’s own, not Jespersen’s.",
+   "qp": {
+    "id": "q-en-sp-one-spelling",
+    "variants": [
+     {
+      "prompt": "Why does “bomb” have a silent “b”?",
+      "options": [
+       "Every word ending in “m” takes “b”",
+       "It marks a long vowel",
+       "“Bombard” pronounces it",
+       "It is a Greek spelling"
+      ],
+      "answer": 2,
+      "explain": "The spelling keeps the word the same across its family."
+     },
+     {
+      "prompt": "Which related word shows why “sign” is spelled with a “g”?",
+      "options": [
+       "“sing”",
+       "“signal”",
+       "“sigh”",
+       "“singe”"
+      ],
+      "answer": 1,
+      "explain": "“Signal” pronounces the “g,” and the family keeps one spelling."
+     },
+     {
+      "prompt": "What does modern English spelling chiefly try to keep the same?",
+      "options": [
+       "The word",
+       "Each sound",
+       "The number of letters",
+       "The stress"
+      ],
+      "answer": 0,
+      "explain": "It represents the same word in the same way."
+     }
+    ]
+   }
   },
   {
    "id": "greek",
