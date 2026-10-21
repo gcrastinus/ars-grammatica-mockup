@@ -391,6 +391,8 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
   padding:10px 16px 12px;
 }
 .lang-bar:hover{border-color:var(--line)}
+.lang-bar.lang-bar-small{min-height:0; padding-top:10px; padding-bottom:10px}
+.lang-bar.lang-bar-small .lang-btn{min-height:38px; padding:8px 6px; font-size:15px}
 .lang-bar .lang-h{
   font-family:'Cinzel',serif; font-size:12px; font-weight:400; letter-spacing:.06em;
   color:var(--ink-soft); line-height:1.25;

@@ -190,7 +190,7 @@ Object.keys(decks).filter(id => id.indexOf('lang.') === 0).sort().forEach(id => 
   const qps = panels.filter(p => p.qp);
   const bad = qps.filter(p => !p.qp.variants || p.qp.variants.length !== 3);
   qpReport.push({ id, panels: panels.length, qp: qps.length });
-  if (!qps.length && !d.models) fail('no question points: ' + id);
+  if (!qps.length && !d.models && !d.overview) fail('no question points: ' + id);
   bad.forEach(p => fail(`${id}/${p.id}: question point without three variants`));
   qps.forEach(p => (p.qp.variants || []).forEach((v, k) => {
     if (!Array.isArray(v.options) || typeof v.answer !== 'number' || !v.options[v.answer]) fail(`${id}/${p.id} variant ${k}: bad answer`);

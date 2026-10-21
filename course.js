@@ -57,7 +57,7 @@ function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch
 function courseStore(){ return store; }
 const $ = id => document.getElementById(id);
 const FORMS = ['A', 'B', 'C'];
-const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review', 'models':'Models' };
+const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review', 'models':'Models', 'overview':'Overview' };
 /* Particular languages (LANGUAGES-LAYER-SPEC.md). Button order is fixed. */
 const LANGS = [
   { code:'en', name:'English' },
@@ -74,6 +74,7 @@ const LETTER_KEYS = {
 };
 const LETTER_KEY_LABEL = { grc:'Greek letters', fr:'French letters', de:'German letters' };
 const LANG_BARS = {
+  'prelim': { section:'prelim', title:'An Overview', direct:'overview' },
   'ii': { section:'ii', title:'The Matter of Speech' },
   'iii-decl': { section:'iii', title:'The Parts of Speech', group:'The declinable parts' },
   'iii-indecl': { section:'iii', title:'The Parts of Speech', group:'The indeclinable parts' },
@@ -182,10 +183,12 @@ function buildHome(){
   if (typeof renderReviewNotice === 'function') renderReviewNotice();
 }
 
-/* A full-width bar of five language buttons. The buttons are the same on every bar. */
+/* A full-width bar of five language buttons. The buttons are the same on every bar.
+   A bar with `direct` (the Preliminary overviews) is smaller, and each button opens that
+   language's one deck (lang.<bar>.<code>/<direct>) instead of a screen of tiles. */
 function langBar(bar){
   const el = document.createElement('div');
-  el.className = 'lang-bar';
+  el.className = 'lang-bar' + (bar.direct ? ' lang-bar-small' : '');
   el.dataset.langbar = bar.id;
   const h = document.createElement('div');
   h.className = 'lang-h';
@@ -203,7 +206,7 @@ function langBar(bar){
     const name = document.createElement('span');
     name.textContent = L.name;
     b.appendChild(name);
-    b.addEventListener('click', () => openLang(screen.id));
+    b.addEventListener('click', () => bar.direct ? openDeck(screen.id + '/' + bar.direct) : openLang(screen.id));
     row.appendChild(b);
   });
   el.appendChild(row);
@@ -267,7 +270,7 @@ function makeTile(it){
   c.dataset.id = it.id;
   const studied = it.built && !practiceTile && st && st.done;
   const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
-  const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : (it.kind === 'models' ? 'Read →' : 'Study →')) : '';
+  const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : (it.kind === 'models' || it.kind === 'overview' ? 'Read →' : 'Study →')) : '';
   c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
     <h3>${it.title}</h3><p>${it.desc}</p>
     <span class="begin${(studied || finished) ? ' is-done' : ''}">${begin}</span>
@@ -1168,6 +1171,8 @@ function nextPanel(){
 function prevPanel(){ if (cur.i > 0){ cur.i -= 1; renderPanel(); window.scrollTo(0, 0); } }
 
 function goHome(){
+  const direct = screenReturn && String(screenReturn).match(/^lang\.([^.]+)\./);
+  if (direct && LANG_BARS[direct[1]] && LANG_BARS[direct[1]].direct){ leaveLang(); return; }
   if (screenReturn){
     const backId = (cur && cur.deck && cur.deck.id) || (run && run.ex && run.ex.id) || '';
     const id = screenReturn;

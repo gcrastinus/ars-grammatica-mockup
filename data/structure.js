@@ -13,6 +13,7 @@ window.ARS = window.ARS || {};
 ARS.structure = [
  { id:'prelim', roman:'', latin:'Quid sit grammatica', name:'What Is Grammar?',
    gloss:'The definition, the tasks, and the parts of the art, and the criteria of correct speech.',
+   langBars:[{ id:'prelim', after:'prelim.criteria', heading:'The particular languages: an overview of each', direct:'overview' }],
    items:[
    { id:'prelim.definition', kind:'study', built:true, title:'The Definition of Grammar', desc:'What is grammar, what does it treat, and why is it the first art of the trivium?' },
    { id:'prelim.offices', kind:'study', built:true, title:'The Tasks of the Grammarian', desc:'Reading, explaining, correcting, and judging (<i>lectio</i>, <i>enarratio</i>, <i>emendatio</i>, <i>iudicium</i>).' },
