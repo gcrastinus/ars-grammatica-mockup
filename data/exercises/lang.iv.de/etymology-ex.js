@@ -79,13 +79,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does German <i>Wein</i> come?",
-   "explain": "A word of Roman trade, absorbed early.",
+   "prompt": "From which Latin word does German <i>Keller</i> (“cellar”) come?",
+   "explain": "<i>Keller</i> is one of the early words of building taken from the Romans: Latin <i>cellārium</i>.",
    "options": [
-    "<i>vīta</i>",
-    "<i>vīnum</i>",
-    "<i>ventus</i>",
-    "<i>vīlla</i>"
+    "<i>caelum</i>",
+    "<i>cellārium</i>",
+    "<i>calceāmentum</i>",
+    "<i>calēre</i>"
    ],
    "answer": 1
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>Gift</i> mean in German?",
-   "explain": "A cognate of “gift” with a different sense.",
+   "prompt": "What does <i>also</i> mean in German?",
+   "explain": "German <i>also</i> means “so, therefore”; English “also” is <i>auch</i>.",
    "options": [
-    "“poison”",
-    "“present”",
-    "“talent”",
-    "“luck”"
+    "“so, therefore”",
+    "“also, too”",
+    "“always”",
+    "“as well as, besides”"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which German word is a <i>Fremdwort</i>, keeping its foreign form?",
-   "explain": "The others are old <i>Lehnwörter</i>, fully adapted.",
+   "prompt": "Which German word is a Fremdwort, keeping its foreign form?",
+   "explain": "<i>Ingenieur</i> keeps its French spelling and sound, whereas the others were taken from Latin early and fully adapted.",
    "options": [
     "<i>Fenster</i>",
     "<i>Mauer</i>",
-    "<i>Restaurant</i>",
-    "<i>Pflaumenbaum</i>"
+    "<i>Ingenieur</i>",
+    "<i>Straße</i>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Kloster</i> come?",
-   "explain": "A word of the church, absorbed into German.",
+   "prompt": "From which Latin word does <i>Pforte</i> (“gate”) come?",
+   "explain": "<i>Pforte</i> comes from Latin <i>porta</i>; the early loan took part in the German change of p to pf.",
    "options": [
-    "<i>claustrum</i>",
-    "<i>clārus</i>",
-    "<i>clāvis</i>",
-    "<i>clāmor</i>"
+    "<i>porta</i>",
+    "<i>portus</i>",
+    "<i>forum</i>",
+    "<i>fortis</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>Knecht</i> mean, and what is its English cognate?",
-   "explain": "“Knight” rose in standing; <i>Knecht</i> did not.",
+   "prompt": "What does <i>Zimmer</i> mean, and what is its English cognate?",
+   "explain": "<i>Zimmer</i> first meant a building of wood; its English cognate “timber” kept the sense of wood, with English t for German z.",
    "options": [
-    "“knight,” cognate of “knight”",
-    "“knot,” cognate of “knit”",
-    "“servant,” cognate of “knight”",
-    "“servant,” cognate of “knocker”"
+    "“room,” cognate of “simmer”",
+    "“timber,” cognate of “room”",
+    "“room,” cognate of “timber”",
+    "“summer,” cognate of “season”"
    ],
    "answer": 2
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Straße</i> come?",
-   "explain": "<i>Via strāta</i>, a paved road of the Romans.",
+   "prompt": "From which Latin word does <i>Ziegel</i> (“tile, brick”) come?",
+   "explain": "<i>Ziegel</i> comes from <i>tēgula</i>, one of the Roman words of building, with German z for Latin t.",
    "options": [
-    "<i>strepitus</i>",
-    "<i>strūctūra</i>",
-    "<i>stella</i>",
-    "<i>strāta</i>"
+    "<i>tegō</i>",
+    "<i>tigris</i>",
+    "<i>tēla</i>",
+    "<i>tēgula</i>"
    ],
    "answer": 3
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Kirsche</i> (“cherry”) come?",
-   "explain": "A Roman garden word, absorbed early.",
+   "prompt": "From which Latin word does <i>Pflanze</i> (“plant”) come?",
+   "explain": "<i>Pflanze</i> comes from Latin <i>planta</i>, a garden word taken from the Romans, with pf for p.",
    "options": [
-    "<i>circus</i>",
-    "<i>cēra</i>",
-    "<i>carduus</i>",
-    "<i>cerasus</i>"
+    "<i>plānus</i>",
+    "<i>plantāre</i>",
+    "<i>flāre</i>",
+    "<i>planta</i>"
    ],
    "answer": 3
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does German <i>Tafel</i> have <i>f</i> where Latin <i>tabula</i> has <i>b</i>?",
-   "explain": "An early loanword, fully adapted.",
+   "prompt": "Why does German <i>Pfeffer</i> have pf where Latin <i>piper</i> has p?",
+   "explain": "<i>Pfeffer</i> was taken from Latin before the second sound shift, so its p changed to pf like a native p.",
    "options": [
-    "German borrowed it from Greek",
-    "It is a native Germanic word",
-    "It came from English “table”",
-    "It was absorbed early and adapted"
+    "It came into German from French",
+    "It is a Fremdwort that keeps its form",
+    "German always writes pf for Latin p",
+    "It was borrowed early and shared the sound shift"
    ],
    "answer": 3
   },

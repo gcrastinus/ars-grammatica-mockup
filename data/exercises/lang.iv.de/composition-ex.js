@@ -79,13 +79,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>schneeweiß</i> mean?",
-   "explain": "A compound adjective, written as one word.",
+   "prompt": "What does <i>pechschwarz</i> mean?",
+   "explain": "<i>Pech</i> (“pitch”) and <i>schwarz</i> (“black”) make a compound adjective: as black as pitch.",
    "options": [
-    "“white snow”",
-    "“snowy weather”",
-    "“snow-white”",
-    "“whitish”"
+    "“very dark blue”",
+    "“dirty black”",
+    "“pitch-black”",
+    "“black with soot”"
    ],
    "answer": 2
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is a <i>Schreibtisch</i>?",
-   "explain": "The verb stem <i>schreib-</i> names the use.",
+   "prompt": "What is a <i>Spielplatz</i>?",
+   "explain": "The first part is the stem of <i>spielen</i> (“to play”), and the compound is a <i>Platz</i>, a place: a place for playing.",
    "options": [
-    "a table that writes",
-    "a written table",
-    "a writer’s chair",
-    "a desk, a table for writing"
+    "a game board",
+    "a player’s seat",
+    "a theater stage",
+    "a playground, a place for playing"
    ],
    "answer": 3
   },
@@ -151,13 +151,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>steinreich</i> mean?",
-   "explain": "The first part only strengthens the second.",
+   "prompt": "What does <i>bildschön</i> mean?",
+   "explain": "<i>Bild</i> (“picture”) only strengthens <i>schön</i>: “as beautiful as a picture,” very beautiful.",
    "options": [
-    "“rich in stones”",
-    "“hard as stone”",
-    "“very rich”",
-    "“poor”"
+    "“beautiful as a picture frame”",
+    "“painted beautifully”",
+    "“very beautiful”",
+    "“pretty in pictures only”"
    ],
    "answer": 2
   },
@@ -167,13 +167,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>blitzschnell</i> mean?",
-   "explain": "<i>Blitz-</i> strengthens <i>schnell</i>.",
+   "prompt": "What does <i>federleicht</i> mean?",
+   "explain": "<i>Feder</i> (“feather”) strengthens <i>leicht</i> (“light”): light as a feather.",
    "options": [
-    "“struck by lightning”",
-    "“quick as lightning”",
-    "“slow”",
-    "“bright”"
+    "“lightly feathered”",
+    "“light as a feather”",
+    "“light-colored”",
+    "“easy to write”"
    ],
    "answer": 1
   },
@@ -275,13 +275,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Does the <i>-er-</i> of <i>Kinderwagen</i> mean several children?",
-   "explain": "A baby carriage carries one child; the linking element only joins.",
+   "prompt": "Does the <i>-er-</i> of <i>Hühnerei</i> (“hen’s egg”) mean several hens?",
+   "explain": "The linking <i>-er-</i> looks like the plural of <i>Huhn</i>, but in the compound it only joins the parts.",
    "options": [
-    "Yes; it is a plural",
-    "Yes; it is a genitive",
+    "Yes; the egg comes from several hens",
+    "Yes; it is the genitive plural",
     "No; the linking element has lost that sense",
-    "No; it is a suffix of quality"
+    "No; it is the comparative ending"
    ],
    "answer": 2
   },
