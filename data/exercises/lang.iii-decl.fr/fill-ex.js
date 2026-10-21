@@ -591,8 +591,8 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>J’______ ai deux.</i> (“I have two of them”).",
-   "explain": "<i>En</i> stands for a quantity of something already named: <i>j’en ai deux</i>.",
+   "prompt": "Choose the form that fills the blank: <i>Il ______ prend trois.</i> (“He takes three of them”).",
+   "explain": "<i>En</i> stands for a quantity of something already named: <i>il en prend trois</i>.",
    "options": [
     "<i>en</i>",
     "<i>y</i>",

@@ -15,10 +15,10 @@ ARS.exercises["lang.iii-decl.fr/participle-ex"] = {
    "deck": "lang.iii-decl.fr/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>prendre</i>.",
-   "explain": "<i>Prendre</i> has the irregular participle <i>pris</i>.",
+   "prompt": "Write the past participle of <i>voir</i>.",
+   "explain": "<i>Voir</i> has the irregular participle <i>vu</i>.",
    "accept": [
-    "pris"
+    "vu"
    ]
   },
   {
@@ -27,10 +27,10 @@ ARS.exercises["lang.iii-decl.fr/participle-ex"] = {
    "deck": "lang.iii-decl.fr/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>dire</i>.",
-   "explain": "<i>Dire</i> has the participle <i>dit</i>.",
+   "prompt": "Write the past participle of <i>lire</i>.",
+   "explain": "<i>Lire</i> has the irregular participle <i>lu</i>.",
    "accept": [
-    "dit"
+    "lu"
    ]
   },
   {
@@ -39,10 +39,10 @@ ARS.exercises["lang.iii-decl.fr/participle-ex"] = {
    "deck": "lang.iii-decl.fr/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>naître</i>.",
-   "explain": "<i>Naître</i> has the participle <i>né</i>.",
+   "prompt": "Write the past participle of <i>offrir</i>.",
+   "explain": "<i>Offrir</i> forms its participle as <i>ouvrir</i> does: <i>offert</i>.",
    "accept": [
-    "né"
+    "offert"
    ]
   },
   {

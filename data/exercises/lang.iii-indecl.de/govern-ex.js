@@ -143,7 +143,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Das Buch liegt auf ___ Tisch.</i> (“The book lies on the table”).",
+   "prompt": "Choose the form: <i>Die Katze schläft unter ___ Tisch.</i> (“The cat sleeps under the table”).",
    "explain": "Position (<i>wo?</i>): the dative.",
    "options": [
     "<i>den</i>",
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich lege das Buch auf ___ Tisch.</i> (“I lay the book on the table”).",
-   "explain": "Movement (<i>wohin?</i>): the accusative.",
+   "prompt": "Choose the form: <i>Die Katze läuft unter ___ Tisch.</i> (“The cat runs under the table”).",
+   "explain": "Movement to a place (<i>wohin?</i>): the accusative.",
    "options": [
     "<i>dem</i>",
     "<i>der</i>",

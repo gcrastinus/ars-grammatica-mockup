@@ -95,8 +95,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Der Zug fährt um acht <b>ab</b>.</i> (“The train departs at eight.”)",
-   "explain": "<i>Ab</i> belongs to <i>abfahren</i> and goes to the end of the main clause.",
+   "prompt": "What is the marked word? <i>Wir kaufen morgen <b>ein</b>.</i> (“We are going shopping tomorrow.”)",
+   "explain": "<i>Ein</i> belongs to <i>einkaufen</i> and goes to the end of the main clause.",
    "options": [
     "A preposition",
     "A separable prefix",
@@ -319,7 +319,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Das weißt du <b>ja</b>.</i> (“You know that, after all.”)",
+   "prompt": "What is the marked word? <i>Das ist <b>ja</b> schön.</i> (“Well, that is lovely.”)",
    "explain": "Unstressed in the middle of the clause, <i>ja</i> is a modal particle.",
    "options": [
     "A modal particle",
@@ -367,7 +367,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Das ist <b>eben</b> so.</i> (“That’s just how it is.”)",
+   "prompt": "What is the marked word? <i>Er ist <b>eben</b> müde.</i> (“He is simply tired.”)",
    "explain": "<i>Eben</i> marks what cannot be helped: a modal particle.",
    "options": [
     "An adverb",

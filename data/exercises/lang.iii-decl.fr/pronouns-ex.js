@@ -287,7 +287,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>À ___ penses-tu?</i> (“What are you thinking about”).",
+   "prompt": "Choose the word: <i>De ___ parles-tu?</i> (“What are you talking about”).",
    "explain": "After a preposition, “what” is <i>quoi</i>.",
    "options": [
     "<i>que</i>",

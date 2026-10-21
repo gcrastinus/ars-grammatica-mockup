@@ -56,11 +56,11 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, second person singular, of <i>être</i> (with <i>que tu</i>).",
-   "explain": "<i>Que je sois, que tu sois, qu’il soit</i>.",
+   "prompt": "Write the present subjunctive, second person singular, of <i>prendre</i> (with <i>que tu</i>).",
+   "explain": "The stem comes from <i>ils prennent</i>: <i>que tu prennes</i>.",
    "accept": [
-    "que tu sois",
-    "sois"
+    "que tu prennes",
+    "prennes"
    ]
   },
   {
@@ -69,11 +69,11 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person plural, of <i>avoir</i> (with <i>que nous</i>).",
-   "explain": "<i>Que nous ayons</i>, with no <i>i</i> after the <i>y</i>.",
+   "prompt": "Write the present subjunctive, first person plural, of <i>boire</i> (with <i>que nous</i>).",
+   "explain": "The first and second persons plural take the stem of <i>nous buvons</i>: <i>que nous buvions</i>.",
    "accept": [
-    "que nous ayons",
-    "ayons"
+    "que nous buvions",
+    "buvions"
    ]
   },
   {
@@ -114,12 +114,12 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>faire</i> (with <i>qu’il</i>).",
-   "explain": "<i>Faire</i> has the irregular subjunctive <i>que je fasse</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i>recevoir</i> (with <i>qu’il</i>).",
+   "explain": "The stem comes from <i>ils reçoivent</i>: <i>qu’il reçoive</i>.",
    "accept": [
-    "qu’il fasse",
-    "qu'il fasse",
-    "fasse"
+    "qu’il reçoive",
+    "qu'il reçoive",
+    "reçoive"
    ]
   },
   {
@@ -128,12 +128,11 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person singular, of <i>aller</i> (with <i>que j’</i>).",
-   "explain": "<i>Aller</i> has <i>que j’aille</i>, but <i>que nous allions</i>.",
+   "prompt": "Write the present subjunctive, first person singular, of <i>devoir</i> (with <i>que je</i>).",
+   "explain": "The stem comes from <i>ils doivent</i>: <i>que je doive</i>.",
    "accept": [
-    "que j’aille",
-    "que j'aille",
-    "aille"
+    "que je doive",
+    "doive"
    ]
   },
   {
@@ -142,11 +141,11 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person plural, of <i>aller</i> (with <i>que nous</i>).",
-   "explain": "The first and second persons plural keep the stem of <i>nous allons</i>.",
+   "prompt": "Write the present subjunctive, first person plural, of <i>voir</i> (with <i>que nous</i>).",
+   "explain": "The first and second persons plural take the stem of <i>nous voyons</i> with <i>-ions</i>: <i>que nous voyions</i>.",
    "accept": [
-    "que nous allions",
-    "allions"
+    "que nous voyions",
+    "voyions"
    ]
   },
   {
@@ -155,12 +154,12 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>pouvoir</i> (with <i>qu’il</i>).",
-   "explain": "<i>Pouvoir</i> has the irregular subjunctive <i>que je puisse</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i>pleuvoir</i> (with <i>qu’il</i>).",
+   "explain": "<i>Pleuvoir</i> has only the third person: <i>qu’il pleuve</i>.",
    "accept": [
-    "qu’il puisse",
-    "qu'il puisse",
-    "puisse"
+    "qu’il pleuve",
+    "qu'il pleuve",
+    "pleuve"
    ]
   },
   {
@@ -169,12 +168,12 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person plural, of <i>venir</i> (with <i>qu’ils</i>).",
-   "explain": "From <i>ils viennent</i>: <i>qu’ils viennent</i>.",
+   "prompt": "Write the present subjunctive, third person plural, of <i>tenir</i> (with <i>qu’ils</i>).",
+   "explain": "<i>Tenir</i> keeps the stem of <i>ils tiennent</i> in the third person plural: <i>qu’ils tiennent</i>.",
    "accept": [
-    "qu’ils viennent",
-    "qu'ils viennent",
-    "viennent"
+    "qu’ils tiennent",
+    "qu'ils tiennent",
+    "tiennent"
    ]
   },
   {
@@ -215,12 +214,12 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>savoir</i> (with <i>qu’il</i>).",
-   "explain": "<i>Savoir</i> has the irregular subjunctive <i>que je sache</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i>croire</i> (with <i>qu’il</i>).",
+   "explain": "The stem comes from <i>ils croient</i>: <i>qu’il croie</i>.",
    "accept": [
-    "qu’il sache",
-    "qu'il sache",
-    "sache"
+    "qu’il croie",
+    "qu'il croie",
+    "croie"
    ]
   },
   {
@@ -305,13 +304,14 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the imperfect subjunctive, third person singular, of <i>avoir</i> (with <i>qu’il</i>).",
-   "explain": "The imperfect subjunctive of <i>avoir</i> is <i>qu’il eût</i>, built on the passé simple <i>il eut</i>.",
+   "prompt": "Write the imperfect subjunctive, third person singular, of <i>faire</i> (with <i>qu’il</i>).",
+   "explain": "The imperfect subjunctive is built on the passé simple <i>il fit</i>, with a circumflex in the third person singular: <i>qu’il fît</i>.",
    "accept": [
-    "qu’il eût",
-    "qu'il eût",
-    "eût",
-    "eut"
+    "qu’il fît",
+    "qu'il fît",
+    "fît",
+    "fit",
+    "qu'il fit"
    ]
   },
   {
@@ -320,13 +320,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>il eût mieux valu</i> mean?",
+   "prompt": "What does <i>il eût fallu partir</i> mean?",
    "explain": "In literary French the pluperfect subjunctive can serve as a conditional past.",
    "options": [
-    "“it was better”",
-    "“it would have been better”",
-    "“it ought to have been better”",
-    "“it had been better”"
+    "“it was necessary to leave”",
+    "“it would have been necessary to leave”",
+    "“it will be necessary to leave”",
+    "“it had been necessary to leave”"
    ],
    "answer": 1
   },
@@ -336,11 +336,11 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person singular, of <i>vouloir</i> (with <i>que je</i>).",
-   "explain": "<i>Vouloir</i> has <i>que je veuille</i>, but <i>que nous voulions</i>.",
+   "prompt": "Write the present subjunctive, first person singular, of <i>mourir</i> (with <i>que je</i>).",
+   "explain": "The stem comes from <i>ils meurent</i>: <i>que je meure</i>.",
    "accept": [
-    "que je veuille",
-    "veuille"
+    "que je meure",
+    "meure"
    ]
   },
   {

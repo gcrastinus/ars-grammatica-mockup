@@ -351,8 +351,8 @@ ARS.exercises["lang.iii-decl.de/pronouns-ex"] = {
    "deck": "lang.iii-decl.de/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Den kenne ___ nicht.</i> (“I don’t know that one”).",
-   "explain": "<i>Den</i> is the demonstrative object; the subject is <i>ich</i>, after the verb because the object stands first.",
+   "prompt": "Choose the form: <i>Die sehe ___ morgen.</i> (“I am seeing her tomorrow”).",
+   "explain": "<i>Die</i> is the demonstrative object; the subject is <i>ich</i>, after the verb because the object stands first.",
    "options": [
     "<i>mich</i>",
     "<i>ich</i>",

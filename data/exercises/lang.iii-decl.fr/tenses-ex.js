@@ -154,10 +154,10 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>venir</i>.",
-   "explain": "<i>Venir</i> has its own passé simple: <i>je vins, il vint</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i>tenir</i>.",
+   "explain": "<i>Tenir</i> has its own passé simple, like <i>venir</i>: <i>il tint</i>.",
    "accept": [
-    "vint"
+    "tint"
    ]
   },
   {
@@ -166,10 +166,10 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>pouvoir</i>.",
-   "explain": "<i>Pouvoir</i> takes the <i>u</i>-endings: <i>il put</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i>savoir</i>.",
+   "explain": "<i>Savoir</i> takes the u-endings: <i>il sut</i>.",
    "accept": [
-    "put"
+    "sut"
    ]
   },
   {
@@ -239,11 +239,11 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, first person plural, of <i>être</i>.",
-   "explain": "<i>Nous fûmes</i>, with the circumflex.",
+   "prompt": "Write the passé simple, first person plural, of <i>lire</i>.",
+   "explain": "<i>Lire</i> takes the u-endings, with the circumflex in the first and second persons plural: <i>nous lûmes</i>.",
    "accept": [
-    "fûmes",
-    "fumes"
+    "lûmes",
+    "lumes"
    ]
   },
   {
@@ -284,13 +284,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the conditionnel passé, first person singular, of <i>venir</i> (with <i>je</i>).",
-   "explain": "<i>Venir</i> takes <i>être</i>: the conditional of <i>être</i> with the participle.",
+   "prompt": "Write the conditionnel passé, first person singular, of <i>partir</i> (with <i>je</i>).",
+   "explain": "<i>Partir</i> takes <i>être</i>, so the conditionnel passé is <i>je serais parti</i> (<i>partie</i> for a woman).",
    "accept": [
-    "je serais venu",
-    "je serais venue",
-    "serais venu",
-    "serais venue"
+    "je serais parti",
+    "je serais partie",
+    "serais parti",
+    "serais partie"
    ]
   },
   {

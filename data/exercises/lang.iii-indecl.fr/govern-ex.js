@@ -271,8 +271,8 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je pense ___ toi.</i> (“I am thinking of you”).",
-   "explain": "<i>Penser à</i>, with the stressed pronoun after it.",
+   "prompt": "Choose the form: <i>Elle tient ___ son jardin.</i> (“She is attached to her garden”).",
+   "explain": "<i>Tenir à</i> means “to be attached to, to value.”",
    "options": [
     "<i>à</i>",
     "<i>de</i>",
