@@ -246,4 +246,4 @@ Every topic that was partial or missing now has a study deck with question point
 | Models | covered | x.de |
 | Overview | covered | prelim.de/overview |
 
-Left as before: English punctuation (general deck only) and the English spelling deck without an exercise; the German double accusative (*lehren*), mentioned in the old app's notes, is not taught on a German card.
+Left as before: English punctuation (general deck only) and the English spelling deck without an exercise.
