@@ -159,15 +159,15 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>ihr naht</em>, the beat falls on <em>naht</em>. What foot is that?",
+   "prompt": "In <em>wir gehn</em>, the beat falls on <em>gehn</em>. What foot is that?",
    "explain": "An unstressed syllable is followed by a stressed one. That foot is an iamb.",
    "options": [
-    "A trochee, stressed and then unstressed",
     "An iamb",
+    "A trochee, stressed and then unstressed",
     "A ballad filling of two unstressed syllables",
     "A hymn count of eight syllables"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.ii.de/meter-ex:m10",

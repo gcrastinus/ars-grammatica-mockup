@@ -15,15 +15,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, first person singular, of <i>finir</i>.",
-   "explain": "The present subjunctive takes its stem from the third person plural of the present, <i>finissent</i>, and adds <i>-e</i>: <i>que je finisse</i>.",
+   "prompt": "Choose the present subjunctive, first person singular, of <i>choisir</i>.",
+   "explain": "The stem comes from <i>ils choisissent</i>: <i>que je choisisse</i>.",
    "options": [
-    "<i>finisse</i>",
-    "<i>finis</i>",
-    "<i>finissais</i>",
-    "<i>finirai</i>"
+    "<i>choisis</i>",
+    "<i>choisisse</i>",
+    "<i>choisissais</i>",
+    "<i>choisirai</i>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.fr/mood-ex:frmood2",
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, first person singular, of <i>être</i>.",
-   "explain": "<i>Être</i> has an irregular subjunctive: <i>que je sois</i>. <i>Suis</i> is the present indicative, and <i>serai</i> the future.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>croire</i>.",
+   "explain": "The stem comes from <i>ils croient</i>: <i>qu’il croie</i>.",
    "options": [
-    "<i>sois</i>",
-    "<i>suis</i>",
-    "<i>serai</i>",
-    "<i>étais</i>"
+    "<i>croie</i>",
+    "<i>croit</i>",
+    "<i>croyait</i>",
+    "<i>croira</i>"
    ],
    "answer": 0
   },
@@ -47,15 +47,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, third person singular, of <i>avoir</i>.",
-   "explain": "<i>Avoir</i> has an irregular subjunctive: <i>qu’il ait</i>. A is the present indicative, and <i>aura</i> the future.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>recevoir</i>.",
+   "explain": "The stem comes from <i>ils reçoivent</i>: <i>qu’il reçoive</i>.",
    "options": [
-    "<i>ait</i>",
-    "<i>a</i>",
-    "<i>aura</i>",
-    "<i>avait</i>"
+    "<i>reçoit</i>",
+    "<i>recevait</i>",
+    "<i>recevra</i>",
+    "<i>reçoive</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.v.fr/mood-ex:frmood4",
@@ -63,15 +63,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, first person singular, of <i>aller</i>.",
-   "explain": "<i>Aller</i> has the subjunctive <i>que j’aille</i>. <i>Vais</i> is the present indicative, and <i>irai</i> the future.",
+   "prompt": "Choose the present subjunctive, first person singular, of <i>écrire</i>.",
+   "explain": "The stem comes from <i>ils écrivent</i>: <i>que j’écrive</i>.",
    "options": [
-    "<i>aille</i>",
-    "<i>vais</i>",
-    "<i>irai</i>",
-    "<i>allais</i>"
+    "<i>écris</i>",
+    "<i>écrivais</i>",
+    "<i>écrive</i>",
+    "<i>écrirai</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.fr/mood-ex:frmood5",
@@ -111,15 +111,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, third person singular, of <i>pouvoir</i>.",
-   "explain": "<i>Pouvoir</i> has the subjunctive stem puiss-: <i>qu’il puisse</i>. <i>Peut</i> is the present indicative.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>devoir</i>.",
+   "explain": "The stem comes from <i>ils doivent</i>: <i>qu’il doive</i>.",
    "options": [
-    "<i>puisse</i>",
-    "<i>peut</i>",
-    "<i>pourra</i>",
-    "<i>pouvait</i>"
+    "<i>doit</i>",
+    "<i>devait</i>",
+    "<i>devra</i>",
+    "<i>doive</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.v.fr/mood-ex:frmood8",
@@ -127,15 +127,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the present subjunctive, second person plural, of <i>être</i>.",
-   "explain": "The subjunctive of <i>être</i> in the second person plural is <i>que vous soyez</i>. <i>Êtes</i> is the present indicative.",
+   "prompt": "Choose the present subjunctive, second person plural, of <i>faire</i>.",
+   "explain": "<i>Faire</i> has the subjunctive stem <i>fass-</i>: <i>que vous fassiez</i>.",
    "options": [
-    "<i>soyez</i>",
-    "<i>êtes</i>",
-    "<i>serez</i>",
-    "<i>étiez</i>"
+    "<i>faites</i>",
+    "<i>faisiez</i>",
+    "<i>fassiez</i>",
+    "<i>ferez</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.fr/mood-ex:frmood9",
@@ -287,15 +287,15 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the conditional, first person singular, of <i>avoir</i>.",
-   "explain": "The conditional takes the stem of the future, aur-, and the endings of the imparfait: j’aurais. <i>Aurai</i> is the future.",
+   "prompt": "Choose the conditional, first person singular, of <i>venir</i>.",
+   "explain": "The conditional takes the stem of the future, <i>viendr-</i>, and the endings of the imparfait: <i>je viendrais</i>.",
    "options": [
-    "<i>aurais</i>",
-    "<i>aurai</i>",
-    "<i>avais</i>",
-    "<i>aurait</i>"
+    "<i>viendrai</i>",
+    "<i>venais</i>",
+    "<i>viendrait</i>",
+    "<i>viendrais</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.v.fr/mood-ex:frmood19",
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "deck": "lang.v.fr/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the conditional, third person singular, of <i>être</i>.",
-   "explain": "The conditional of <i>être</i> is made on the future stem ser- with the ending <i>-ait</i>: <i>il serait</i>.",
+   "prompt": "Choose the conditional, third person singular, of <i>voir</i>.",
+   "explain": "The conditional takes the stem of the future, <i>verr-</i>, and the endings of the imparfait: <i>il verrait</i>.",
    "options": [
-    "<i>serait</i>",
-    "<i>sera</i>",
-    "<i>était</i>",
-    "<i>seraient</i>"
+    "<i>verrait</i>",
+    "<i>verra</i>",
+    "<i>voyait</i>",
+    "<i>verrais</i>"
    ],
    "answer": 0
   },

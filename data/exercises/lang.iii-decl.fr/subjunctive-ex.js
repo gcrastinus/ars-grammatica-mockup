@@ -258,12 +258,12 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past subjunctive, third person plural feminine, of <i>venir</i> (with <i>qu’elles</i>).",
-   "explain": "<i>Venir</i> takes <i>être</i>, and the participle agrees with the subject.",
+   "prompt": "Write the past subjunctive, third person plural feminine, of <i>partir</i> (with <i>qu’elles</i>).",
+   "explain": "<i>Partir</i> takes <i>être</i>, and the participle agrees with the subject: <i>qu’elles soient parties</i>.",
    "accept": [
-    "qu’elles soient venues",
-    "qu'elles soient venues",
-    "soient venues"
+    "qu’elles soient parties",
+    "qu'elles soient parties",
+    "soient parties"
    ]
   },
   {

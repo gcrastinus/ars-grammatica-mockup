@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the adverb formed from <i>ἀληθής</i> (“true”), genitive plural <i>ἀληθῶν</i>?",
-   "explain": "Replace <i>-ων</i> with <i>-ως</i>: <i>ἀληθῶς</i>, “truly.”",
+   "prompt": "What is the adverb formed from <i>σαφής</i> (“clear”), genitive plural <i>σαφῶν</i>?",
+   "explain": "Replace <i>-ων</i> with <i>-ως</i>: <i>σαφῶς</i>, “clearly.”",
    "options": [
-    "<i>ἀληθές</i>",
-    "<i>ἀληθείᾳ</i>",
-    "<i>ἀληθοῦς</i>",
-    "<i>ἀληθῶς</i>"
+    "<i>σαφές</i>",
+    "<i>σαφείᾳ</i>",
+    "<i>σαφοῦς</i>",
+    "<i>σαφῶς</i>"
    ],
    "answer": 3
   },
@@ -287,8 +287,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What answer does <i>μῶν</i> expect?",
-   "explain": "<i>Μῶν</i>, like Latin <i>num</i>, expects “no.”",
+   "prompt": "What answer does <i>ἆρα μή</i> expect?",
+   "explain": "<i>Ἆρα μή</i>, like <i>μή</i> and Latin <i>num</i>, expects “no.”",
    "options": [
     "“No”",
     "“Yes”",
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἔλεγεν ἄν</i> express?",
-   "explain": "<i>Ἄν</i> with a past tense of the indicative marks what is unreal.",
+   "prompt": "What does <i>ἦλθεν ἄν</i> express?",
+   "explain": "<i>Ἄν</i> with a past tense of the indicative marks what is unreal: “he would have come.”",
    "options": [
-    "What was said in fact",
-    "What would have been said, but was not",
-    "What may be said in the future",
-    "A command to speak"
+    "What happened in fact",
+    "What would have happened, but did not",
+    "What may happen in the future",
+    "A command to come"
    ],
    "answer": 1
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the comparative of the adverb <i>σοφῶς</i>?",
-   "explain": "The comparative adverb is the neuter singular of the comparative adjective.",
+   "prompt": "What is the comparative of the adverb <i>ταχέως</i>?",
+   "explain": "The comparative adverb is the neuter singular of the comparative adjective <i>θάττων</i>: <i>θᾶττον</i>.",
    "options": [
-    "<i>σοφώτατα</i>",
-    "<i>σοφώτερος</i>",
-    "<i>σοφώτερον</i>",
-    "<i>σοφωτέρως</i>"
+    "<i>ταχύτερος</i>",
+    "<i>τάχιστα</i>",
+    "<i>θᾶττον</i>",
+    "<i>ταχυτέρως</i>"
    ],
    "answer": 2
   },

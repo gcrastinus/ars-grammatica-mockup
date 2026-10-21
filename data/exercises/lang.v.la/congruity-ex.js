@@ -330,8 +330,8 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "deck": "lang.v.la/congruity-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Judge the phrase: <i>convīva laetus</i>.",
-   "explain": "<i>Convīva</i> (“guest”) is masculine, though it belongs to the first declension, so the adjective is masculine: <i>laetus</i>.",
+   "prompt": "Judge the phrase: <i>agricola industrius</i>.",
+   "explain": "<i>Agricola</i> (“farmer”) is masculine, though it belongs to the first declension, so the adjective is masculine: <i>industrius</i>.",
    "options": [
     "Correct: the words agree",
     "Incorrect: they do not agree in gender",

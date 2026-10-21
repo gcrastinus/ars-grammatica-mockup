@@ -71,13 +71,13 @@ ARS.exercises["lang.iii-decl.la/participles-ex"] = {
    "deck": "lang.iii-decl.la/participles-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>audiēns</em>?",
-   "explain": "<em>Audiēns</em>, genitive <em>audientis</em>, is the present active participle, “hearing.”",
+   "prompt": "What is <em>legēns</em>?",
+   "explain": "<em>Legēns</em>, genitive <em>legentis</em>, is the present active participle, “reading.”",
    "options": [
-    "The present participle of <em>audiō</em>",
-    "The gerund of <em>audiō</em>",
-    "The future active participle of <em>audiō</em>",
-    "The present infinitive of <em>audiō</em>"
+    "The present participle of <em>legō</em>",
+    "The gerund of <em>legō</em>",
+    "The future active participle of <em>legō</em>",
+    "The present infinitive of <em>legō</em>"
    ],
    "answer": 0
   },
@@ -190,12 +190,12 @@ ARS.exercises["lang.iii-decl.la/participles-ex"] = {
    "deck": "lang.iii-decl.la/participles-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>patre regente</em>, why is the ablative <em>regente</em> and not <em>regentī</em>?",
+   "prompt": "In <em>sōle oriente</em>, why is the ablative <em>oriente</em> and not <em>orientī</em>?",
    "explain": "A present participle used as a participle has the ablative singular in <em>-e</em>; used as a mere adjective it has <em>-ī</em>.",
    "options": [
-    "Third-declension adjectives always have the ablative in <em>-e</em>",
     "A participle used as such takes <em>-e</em>",
-    "<em>Regente</em> is the gerund",
+    "Third-declension adjectives always have the ablative in <em>-e</em>",
+    "<em>Oriente</em> is the gerund",
     "The ablative in <em>-ī</em> is plural"
    ],
    "answer": 1
@@ -220,13 +220,13 @@ ARS.exercises["lang.iii-decl.la/participles-ex"] = {
    "deck": "lang.iii-decl.la/participles-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <em>hortātus</em> mean, from the deponent <em>hortor</em>?",
+   "prompt": "What does <em>secūtus</em> mean, from the deponent <em>sequor</em>?",
    "explain": "The perfect participle of a deponent verb is active in sense.",
    "options": [
-    "“having been urged”",
-    "“urging”",
-    "“to be urged”",
-    "“having urged”"
+    "“having been followed”",
+    "“following”",
+    "“to be followed”",
+    "“having followed”"
    ],
    "answer": 3
   },
@@ -249,8 +249,8 @@ ARS.exercises["lang.iii-decl.la/participles-ex"] = {
    "deck": "lang.iii-decl.la/participles-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>spectātum veniunt</em>, what is <em>spectātum</em>?",
-   "explain": "After a verb of motion, the supine in <em>-um</em> shows purpose: “they come to watch.”",
+   "prompt": "In <em>cubitum eunt</em>, what is <em>cubitum</em>?",
+   "explain": "After a verb of motion, the supine in -um shows purpose: “they go to bed,” literally “to lie down.”",
    "options": [
     "The perfect passive participle, agreeing with the subject",
     "The accusative supine, showing purpose",

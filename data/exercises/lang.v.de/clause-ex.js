@@ -751,13 +751,13 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "deck": "lang.v.de/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Why is <i>gegessen hatte</i> pluperfect in <i>nachdem sie gegessen hatte, ging sie spazieren</i> (“after she had eaten, she went for a walk”)?",
+   "prompt": "Why is <i>gelesen hatte</i> pluperfect in <i>nachdem er den Brief gelesen hatte, rief er an</i> (“after he had read the letter, he telephoned”)?",
    "explain": "The action of the <i>nachdem</i> clause comes before a past action, so it is in the pluperfect.",
    "options": [
     "<i>Nachdem</i> always takes the present",
     "It is Konjunktiv II",
     "It is a passive",
-    "The eating came before a past act"
+    "The reading came before a past act"
    ],
    "answer": 3
   },

@@ -15,15 +15,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, first person singular, of <i>sein</i>.",
-   "explain": "The Konjunktiv II of <i>sein</i> is made from the Präteritum <i>war</i> with the umlaut and <i>-e</i>: <i>ich wäre</i>.",
+   "prompt": "Choose the Konjunktiv II, first person singular, of <i>schreiben</i>.",
+   "explain": "The Konjunktiv II adds <i>-e</i> to the Präteritum <i>schrieb</i>: <i>ich schriebe</i>.",
    "options": [
-    "<i>wäre</i>",
-    "<i>war</i>",
-    "<i>sei</i>",
-    "<i>bin</i>"
+    "<i>schrieb</i>",
+    "<i>schreibe</i>",
+    "<i>schreib</i>",
+    "<i>schriebe</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.v.de/mood-ex:demood2",
@@ -31,15 +31,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, third person singular, of <i>haben</i>.",
-   "explain": "The Konjunktiv II of <i>haben</i> is <i>hätte</i>, from <i>hatte</i> with the umlaut.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>sehen</i>.",
+   "explain": "The Präteritum <i>sah</i> takes <i>-e</i> and the umlaut: <i>sähe</i>.",
    "options": [
-    "<i>hätte</i>",
-    "<i>hatte</i>",
-    "<i>habe</i>",
-    "<i>hat</i>"
+    "<i>sah</i>",
+    "<i>sehe</i>",
+    "<i>sähe</i>",
+    "<i>sieht</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.de/mood-ex:demood3",
@@ -47,15 +47,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, third person singular, of <i>werden</i>.",
-   "explain": "The Konjunktiv II of <i>werden</i> is <i>würde</i>, from <i>wurde</i> with the umlaut.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>tun</i>.",
+   "explain": "The Präteritum <i>tat</i> takes <i>-e</i> and the umlaut: <i>täte</i>.",
    "options": [
-    "<i>würde</i>",
-    "<i>wurde</i>",
-    "<i>werde</i>",
-    "<i>wird</i>"
+    "<i>tat</i>",
+    "<i>täte</i>",
+    "<i>tue</i>",
+    "<i>tut</i>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.de/mood-ex:demood4",
@@ -79,15 +79,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, third person singular, of <i>kommen</i>.",
-   "explain": "A strong verb makes its Konjunktiv II from the Präteritum, with the umlaut and <i>-e</i>: <i>kam</i>, <i>käme</i>.",
+   "prompt": "Choose the Konjunktiv II, third person singular, of <i>fahren</i>.",
+   "explain": "The Präteritum <i>fuhr</i> takes <i>-e</i> and the umlaut: <i>führe</i>.",
    "options": [
-    "<i>käme</i>",
-    "<i>kam</i>",
-    "<i>komme</i>",
-    "<i>kommt</i>"
+    "<i>fuhr</i>",
+    "<i>fahre</i>",
+    "<i>fährt</i>",
+    "<i>führe</i>"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.v.de/mood-ex:demood6",
@@ -95,15 +95,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, first person plural, of <i>sein</i>.",
-   "explain": "The first person plural of the Konjunktiv II of <i>sein</i> is <i>wären</i>. <i>Waren</i> is the Präteritum.",
+   "prompt": "Choose the Konjunktiv II, first person plural, of <i>liegen</i>.",
+   "explain": "The Präteritum <i>lagen</i> takes the umlaut: <i>wir lägen</i>.",
    "options": [
-    "<i>wären</i>",
-    "<i>waren</i>",
-    "<i>seien</i>",
-    "<i>sind</i>"
+    "<i>lagen</i>",
+    "<i>liegen</i>",
+    "<i>lägen</i>",
+    "<i>legen</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.de/mood-ex:demood7",
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv II, first person singular, of <i>wissen</i>.",
-   "explain": "The Konjunktiv II of <i>wissen</i> is <i>wüsste</i>. <i>Wusste</i> is the Präteritum.",
+   "prompt": "Choose the Konjunktiv II, first person singular, of <i>bringen</i>.",
+   "explain": "The mixed verb <i>bringen</i> takes the umlaut in the Konjunktiv II: <i>ich brächte</i>.",
    "options": [
-    "<i>wüsste</i>",
-    "<i>wusste</i>",
-    "<i>weiß</i>",
-    "<i>wisse</i>"
+    "<i>brächte</i>",
+    "<i>brachte</i>",
+    "<i>bringe</i>",
+    "<i>brauchte</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv I, third person singular, of <i>sein</i>.",
-   "explain": "The Konjunktiv I of <i>sein</i> in the third person singular is <i>sei</i>, the form of reported speech.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>dürfen</i>.",
+   "explain": "The Konjunktiv I keeps the stem of the infinitive: <i>er dürfe</i>.",
    "options": [
-    "<i>sei</i>",
-    "<i>ist</i>",
-    "<i>wäre</i>",
-    "<i>seist</i>"
+    "<i>dürfe</i>",
+    "<i>darf</i>",
+    "<i>dürfte</i>",
+    "<i>durfte</i>"
    ],
    "answer": 0
   },
@@ -287,15 +287,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv I, third person singular, of <i>haben</i>.",
-   "explain": "The Konjunktiv I is made from the stem of the infinitive with <i>-e</i>: <i>er habe</i>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>lassen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i>er lässt</i>): <i>er lasse</i>.",
    "options": [
-    "<i>habe</i>",
-    "<i>hat</i>",
-    "<i>hätte</i>",
-    "<i>habest</i>"
+    "<i>lässt</i>",
+    "<i>lasse</i>",
+    "<i>ließe</i>",
+    "<i>ließ</i>"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.de/mood-ex:demood19",
@@ -303,15 +303,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv I, third person singular, of <i>kommen</i>.",
-   "explain": "The Konjunktiv I takes the stem of the infinitive and <i>-e</i>: <i>er komme</i>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>helfen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i>er hilft</i>): <i>er helfe</i>.",
    "options": [
-    "<i>komme</i>",
-    "<i>kommt</i>",
-    "<i>käme</i>",
-    "<i>kommest</i>"
+    "<i>hilft</i>",
+    "<i>hülfe</i>",
+    "<i>helfe</i>",
+    "<i>half</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.de/mood-ex:demood20",
@@ -319,15 +319,15 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv I, third person singular, of <i>werden</i>.",
-   "explain": "The Konjunktiv I of <i>werden</i> is <i>er werde</i>. <i>Wird</i> is the indicative, and <i>würde</i> the Konjunktiv II.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>mögen</i>.",
+   "explain": "The Konjunktiv I keeps the stem of the infinitive: <i>er möge</i>.",
    "options": [
-    "<i>werde</i>",
-    "<i>wird</i>",
-    "<i>würde</i>",
-    "<i>werdest</i>"
+    "<i>mag</i>",
+    "<i>möchte</i>",
+    "<i>möge</i>",
+    "<i>mochte</i>"
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "id": "lang.v.de/mood-ex:demood21",
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "deck": "lang.v.de/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the Konjunktiv I, third person plural, of <i>sein</i>.",
-   "explain": "The Konjunktiv I of <i>sein</i> in the third person plural is <i>seien</i>.",
+   "prompt": "Choose the Konjunktiv I, third person singular, of <i>tragen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i>er trägt</i>): <i>er trage</i>.",
    "options": [
-    "<i>seien</i>",
-    "<i>sind</i>",
-    "<i>wären</i>",
-    "<i>seiest</i>"
+    "<i>trage</i>",
+    "<i>trägt</i>",
+    "<i>trüge</i>",
+    "<i>trug</i>"
    ],
    "answer": 0
   },

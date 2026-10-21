@@ -351,11 +351,11 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <em>Ītaliam contrā</em> show?",
+   "prompt": "What does <em>hostēs inter</em> show?",
    "explain": "The preposition follows its noun: anastrophe.",
    "options": [
-    "A preposition with the ablative",
     "A preposition after its noun",
+    "A preposition with the ablative",
     "A preposition used as an adverb",
     "A locative"
    ],

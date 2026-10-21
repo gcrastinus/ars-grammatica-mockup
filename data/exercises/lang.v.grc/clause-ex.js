@@ -655,8 +655,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which construction follows <i>οἶδα</i> (“I know”) in <i>οἶδα αὐτὸν ἀγαθὸν ὄντα</i>?",
-   "explain": "Verbs of knowing take the participle in indirect discourse.",
+   "prompt": "Which construction follows <i>αἰσθάνομαι</i> (“I perceive”) in <i>αἰσθάνομαι αὐτὸν ἀπιόντα</i>?",
+   "explain": "Verbs of knowing and perceiving take the participle in indirect discourse.",
    "options": [
     "The genitive absolute",
     "A clause of purpose",

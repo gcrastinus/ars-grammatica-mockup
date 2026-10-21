@@ -210,13 +210,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>γέγραφα</i> come from?",
-   "explain": "<i>Γέγραφα</i> reduplicates γ and keeps the φ of the stem: it is the perfect of <i>γράφω</i>.",
+   "prompt": "What does <i>κέκλοφα</i> come from?",
+   "explain": "<i>Κέκλοφα</i> reduplicates κ and changes the stem vowel to ο: the second perfect of <i>κλέπτω</i>.",
    "options": [
-    "<i>γίγνομαι</i>, “I become”",
-    "<i>γιγνώσκω</i>, “I know”",
-    "<i>γεραίρω</i>, “I honor”",
-    "<i>γράφω</i>, “I write”"
+    "<i>καλέω</i>, “I call”",
+    "<i>κλαίω</i>, “I weep”",
+    "<i>κλίνω</i>, “I lean”",
+    "<i>κλέπτω</i>, “I steal”"
    ],
    "answer": 3
   },

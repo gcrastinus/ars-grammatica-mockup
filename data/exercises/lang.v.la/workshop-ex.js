@@ -447,11 +447,11 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "deck": "lang.v.la/workshop-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In <i>Agricola in agrō labōrat</i>, on which word does the phrase <i>in agrō</i> depend?",
-   "explain": "The phrase tells where the farmer works, so it depends on the verb.",
+   "prompt": "In <i>Nauta in marī nāvigat</i>, on which word does the phrase <i>in marī</i> depend?",
+   "explain": "The phrase tells where the sailor sails, so it depends on the verb.",
    "options": [
-    "<i>labōrat</i>",
-    "<i>agricola</i>",
+    "<i>nāvigat</i>",
+    "<i>nauta</i>",
     "on no word"
    ],
    "answer": 0

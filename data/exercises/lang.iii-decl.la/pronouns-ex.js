@@ -313,13 +313,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>ūnus vestrum</em>, why is the genitive <em>vestrum</em>?",
-   "explain": "“One of you”: <em>vestrum</em> is the genitive of the whole; <em>vestrī</em> is objective.",
+   "prompt": "In <em>multī vestrum</em>, why is the genitive <em>vestrum</em>?",
+   "explain": "<em>Vestrum</em> names the whole of which a part is taken: “many of you.”",
    "options": [
-    "It is objective",
+    "It is the objective genitive",
     "It shows possession",
-    "It names the whole of which one is a part",
-    "It is the genitive of <em>vester</em>"
+    "It names the whole of which some are a part",
+    "It is the genitive of quality"
    ],
    "answer": 2
   },
