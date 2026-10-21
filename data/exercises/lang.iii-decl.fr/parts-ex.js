@@ -5,7 +5,7 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "III",
- "title": "Parts of Speech",
+ "title": "Variable and Invariable Words",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -14,178 +14,228 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "set": "A",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? <b>Le</b> roi parle. The king speaks.",
-   "explain": "<em>Le</em> points out the king. French has a definite article, and Latin has none.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>La</b> voisine chante.</i> (“The neighbor sings.”)",
+   "explain": "<i>La</i> is the definite article, which the French grammars count among the determiners.",
    "options": [
-    "article",
-    "noun",
-    "verb",
-    "adjective",
     "pronoun",
-    "participle"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-decl.fr/parts-ex:fpos2",
-   "set": "A",
-   "deck": "lang.iii-decl.fr/parts-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? La femme finit <b>le</b> livre. The woman finishes the book.",
-   "explain": "<em>Le</em> points out the book. The article agrees with <em>livre</em>, which is masculine and singular.",
-   "options": [
-    "article",
-    "noun",
-    "verb",
     "adjective",
-    "pronoun",
-    "participle"
+    "noun",
+    "determiner"
    ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.fr/parts-ex:fpos3",
    "set": "A",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le <b>roi</b> parle. The king speaks.",
-   "explain": "<em>Roi</em> names the king, and it is the subject of <em>parle</em>.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>La <b>voisine</b> chante.</i> (“The neighbor sings.”)",
+   "explain": "<i>Voisine</i> names a person: a noun, feminine singular.",
    "options": [
-    "noun",
-    "article",
-    "verb",
     "adjective",
-    "pronoun",
-    "participle"
-   ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-decl.fr/parts-ex:fpos4",
-   "set": "A",
-   "deck": "lang.iii-decl.fr/parts-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le roi vend le <b>cheval</b>. The king sells the horse.",
-   "explain": "<em>Cheval</em> names the horse, and it is the object of <em>vend</em>.",
-   "options": [
     "noun",
-    "article",
     "verb",
-    "adjective",
-    "pronoun",
-    "participle"
+    "pronoun"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.iii-decl.fr/parts-ex:fpos5",
-   "set": "B",
+   "set": "A",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le roi <b>parle</b>. The king speaks.",
-   "explain": "<em>Parle</em> says what the king does. It is the present, third person singular, of <em>parler</em>.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>La voisine <b>chante</b>.</i> (“The neighbor sings.”)",
+   "explain": "<i>Chante</i> has person, number, tense, and mood: a verb.",
    "options": [
-    "verb",
-    "article",
     "noun",
+    "adverb",
     "adjective",
-    "pronoun",
-    "participle"
+    "verb"
    ],
-   "answer": 0
-  },
-  {
-   "id": "lang.iii-decl.fr/parts-ex:fpos6",
-   "set": "B",
-   "deck": "lang.iii-decl.fr/parts-ex",
-   "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? La femme <b>finit</b> le livre. The woman finishes the book.",
-   "explain": "<em>Finit</em> says what the woman does. It is the present, third person singular, of <em>finir</em>.",
-   "options": [
-    "verb",
-    "article",
-    "noun",
-    "adjective",
-    "pronoun",
-    "participle"
-   ],
-   "answer": 0
+   "answer": 3
   },
   {
    "id": "lang.iii-decl.fr/parts-ex:fpos7",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>Une <b>vieille</b> voisine chante.</i> (“An old neighbor sings.”)",
+   "explain": "<i>Vieille</i> agrees with <i>voisine</i> and says what sort: an adjective.",
+   "options": [
+    "noun",
+    "adjective",
+    "determiner",
+    "adverb"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec9",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i>Elle chante <b>bien</b>.</i> (“She sings well.”)",
+   "explain": "<i>Bien</i> is an adverb and never changes its form.",
+   "options": [
+    "Variable: it can change form",
+    "Invariable: it never changes"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec1",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i>Les <b>voisines</b> chantent.</i> (“The neighbors sing.”)",
+   "explain": "<i>Voisines</i> is a noun in the plural; nouns change for number.",
+   "options": [
+    "Invariable: it never changes",
+    "Variable: it can change form"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec11",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i>Il marche <b>vers</b> la gare.</i> (“He walks toward the station.”)",
+   "explain": "<i>Vers</i> is a preposition and keeps one form.",
+   "options": [
+    "Invariable: it never changes",
+    "Variable: it can change form"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fpos15",
    "set": "B",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le <b>bon</b> roi parle. The good king speaks.",
-   "explain": "<em>Bon</em> tells what sort of king, and it agrees with <em>roi</em>.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Nous</b> chantons.</i> (“We sing.”)",
+   "explain": "<i>Nous</i> stands for the speakers: a pronoun.",
    "options": [
-    "adjective",
-    "article",
+    "determiner",
     "noun",
-    "verb",
     "pronoun",
-    "participle"
+    "adverb"
    ],
-   "answer": 0
+   "answer": 2
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fpos16",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>Le facteur <b>la</b> salue.</i> (“The mailman greets her.”)",
+   "explain": "Here <i>la</i> stands for a person and is the object of <i>salue</i>, so it is a pronoun, not the article.",
+   "options": [
+    "determiner",
+    "noun",
+    "preposition",
+    "pronoun"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec12",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>Elle part <b>sans</b> son frère.</i> (“She leaves without her brother.”)",
+   "explain": "<i>Sans</i> governs <i>son frère</i>: a preposition.",
+   "options": [
+    "conjunction",
+    "preposition",
+    "adverb",
+    "determiner"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec13",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>Le père <b>et</b> la fille arrivent.</i> (“The father and the daughter arrive.”)",
+   "explain": "<i>Et</i> joins the two subjects: a conjunction.",
+   "options": [
+    "preposition",
+    "adverb",
+    "conjunction",
+    "pronoun"
+   ],
+   "answer": 2
   },
   {
    "id": "lang.iii-decl.fr/parts-ex:fpos8",
    "set": "B",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? La <b>belle</b> femme parle. The beautiful woman speaks.",
-   "explain": "<em>Belle</em> tells what sort of woman, and it agrees with <em>femme</em>.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Mon</b> frère arrive.</i> (“My brother is arriving.”)",
+   "explain": "<i>Mon</i> stands before a noun and shows possession: a possessive determiner.",
    "options": [
-    "adjective",
-    "article",
-    "noun",
-    "verb",
+    "determiner",
     "pronoun",
-    "participle"
+    "adjective",
+    "noun"
    ],
    "answer": 0
   },
   {
-   "id": "lang.iii-decl.fr/parts-ex:fpos15",
-   "set": "C",
+   "id": "lang.iii-decl.fr/parts-ex:fdec14",
+   "set": "B",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? <b>Il</b> parle. He speaks.",
-   "explain": "<em>Il</em> stands for a masculine subject. Latin would often leave the pronoun out.",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i>Il pleut, <b>mais</b> nous sortons.</i> (“It is raining, but we are going out.”)",
+   "explain": "<i>Mais</i> is a conjunction and never changes.",
    "options": [
-    "pronoun",
-    "article",
-    "noun",
-    "verb",
-    "adjective",
-    "participle"
+    "Variable: it can change form",
+    "Invariable: it never changes"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
-   "id": "lang.iii-decl.fr/parts-ex:fpos16",
+   "id": "lang.iii-decl.fr/parts-ex:fdec7",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i><b>Elles</b> arrivent.</i> (“They arrive.”)",
+   "explain": "<i>Elles</i> is a pronoun, which changes for person, number, gender, and use (<i>elle</i>, <i>elles</i>, <i>les</i>, <i>leur</i>).",
+   "options": [
+    "Invariable: it never changes",
+    "Variable: it can change form"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec15",
    "set": "C",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le roi <b>le</b> vend. The king sells it.",
-   "explain": "<em>Le</em> stands for the thing sold, and no noun follows it, so it is a pronoun and not the article.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Hélas</b>, il est parti.</i> (“Alas, he has left.”)",
+   "explain": "<i>Hélas</i> expresses a feeling: an interjection.",
    "options": [
-    "pronoun",
-    "article",
-    "noun",
-    "verb",
-    "adjective",
-    "participle"
+    "interjection",
+    "adverb",
+    "conjunction",
+    "pronoun"
    ],
    "answer": 0
   },
@@ -194,16 +244,14 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? Le roi a <b>parlé</b>. The king has spoken.",
-   "explain": "<em>Parlé</em> is the past participle of <em>parler</em>. With a it makes the passé composé.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>La lettre est <b>arrivée</b>.</i> (“The letter has arrived.”)",
+   "explain": "<i>Arrivée</i> is the past participle, which the French grammars count as a form of the verb; with <i>être</i> it agrees with <i>lettre</i>.",
    "options": [
-    "participle",
-    "article",
-    "noun",
-    "finite verb",
+    "verb",
     "adjective",
-    "pronoun"
+    "noun",
+    "adverb"
    ],
    "answer": 0
   },
@@ -212,18 +260,62 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "set": "C",
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
-   "type": "mc",
-   "prompt": "What part of speech is the marked word? La femme, <b>parlant</b> au roi, finit le livre. The woman, speaking to the king, finishes the book.",
-   "explain": "<em>Parlant</em> is the present participle of <em>parler</em>. It stands beside the finite verb <em>finit</em>.",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Chantant</b> toujours, elle travaille.</i> (“Always singing, she works.”)",
+   "explain": "<i>Chantant</i> is the present participle, a form of the verb in the French grammar.",
    "options": [
-    "participle",
-    "article",
-    "noun",
-    "finite verb",
     "adjective",
-    "pronoun"
+    "verb",
+    "adverb",
+    "noun"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec10",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i>Il vient <b>souvent</b>.</i> (“He comes often.”)",
+   "explain": "<i>Souvent</i> tells when or how often: an adverb.",
+   "options": [
+    "adjective",
+    "conjunction",
+    "preposition",
+    "adverb"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec2",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "Is the marked word variable or invariable? <i>Elle est <b>contente</b>.</i> (“She is glad.”)",
+   "explain": "<i>Contente</i> is an adjective agreeing with <i>elle</i>; adjectives change for gender and number.",
+   "options": [
+    "Variable: it can change form",
+    "Invariable: it never changes"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.fr/parts-ex:fdec8",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/parts-ex",
+   "section": "iii",
+   "type": "mc-marked",
+   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Celui</b>-ci est à moi.</i> (“This one is mine.”)",
+   "explain": "<i>Celui</i> stands alone in place of a noun: a demonstrative pronoun. Before a noun, <i>ce</i> would be a determiner.",
+   "options": [
+    "determiner",
+    "adjective",
+    "pronoun",
+    "adverb"
+   ],
+   "answer": 2
   }
  ]
 };

@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ roi parle. The king speaks.",
-   "explain": "<em>Roi</em> is masculine and singular and begins with a consonant, so the article is <em>le</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ roi parle.</i> (“The king speaks”).",
+   "explain": "<i>Roi</i> is masculine and singular and begins with a consonant, so the article is <i>le</i>.",
    "options": [
-    "Le",
-    "La",
-    "Les",
-    "L’"
+    "<i>Le</i>",
+    "<i>La</i>",
+    "<i>Les</i>",
+    "<i>L’</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ femme lit. The woman reads.",
-   "explain": "<em>Femme</em> is feminine and singular, so the article is <em>la</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ femme lit.</i> (“The woman reads”).",
+   "explain": "<i>Femme</i> is feminine and singular, so the article is <i>la</i>.",
    "options": [
-    "La",
-    "Le",
-    "Les",
-    "L’"
+    "<i>La</i>",
+    "<i>Le</i>",
+    "<i>Les</i>",
+    "<i>L’</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ homme chante. The man sings.",
-   "explain": "<em>Homme</em> begins with a mute h, so <em>le</em> loses its vowel: <em>l’homme</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ homme chante.</i> (“The man sings”).",
+   "explain": "<i>Homme</i> begins with a mute h, so <i>le</i> loses its vowel: <i>l’homme</i>.",
    "options": [
-    "L’",
-    "Le",
-    "La",
-    "Les"
+    "<i>L’</i>",
+    "<i>Le</i>",
+    "<i>La</i>",
+    "<i>Les</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ chevaux courent. The horses run.",
-   "explain": "<em>Chevaux</em> is plural, and the plural definite article is <em>les</em> for both genders.",
+   "prompt": "Choose the form that fills the blank: <i>______ chevaux courent.</i> (“The horses run”).",
+   "explain": "<i>Chevaux</i> is plural, and the plural definite article is <i>les</i> for both genders.",
    "options": [
-    "Les",
-    "Le",
-    "La",
-    "L’"
+    "<i>Les</i>",
+    "<i>Le</i>",
+    "<i>La</i>",
+    "<i>L’</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ roi parle. A king speaks.",
-   "explain": "The indefinite article before a masculine singular noun is <em>un</em>.",
+   "prompt": "Choose the form that fills the blank: <i>______ roi parle.</i> (“A king speaks”).",
+   "explain": "The indefinite article before a masculine singular noun is <i>un</i>.",
    "options": [
-    "Un",
-    "Une",
-    "Des",
-    "Du"
+    "<i>Un</i>",
+    "<i>Une</i>",
+    "<i>Des</i>",
+    "<i>Du</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il mange ______ pain. He eats some bread.",
-   "explain": "An amount of something that is not counted takes the partitive article, and pain is masculine: <em>du</em> pain.",
+   "prompt": "Choose the form that fills the blank: <i>Il mange ______ pain.</i> (“He eats some bread”).",
+   "explain": "An amount of something that is not counted takes the partitive article, and pain is masculine: <i>du</i> pain.",
    "options": [
-    "du",
-    "de la",
-    "des",
-    "de l’"
+    "<i>du</i>",
+    "<i>de la</i>",
+    "<i>des</i>",
+    "<i>de l’</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle boit ______ eau. She drinks some water.",
-   "explain": "<em>Eau</em> begins with a vowel, so the partitive is <em>de l’</em>: <em>de l’eau</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elle boit ______ eau.</i> (“She drinks some water”).",
+   "explain": "<i>Eau</i> begins with a vowel, so the partitive is <i>de l’</i>: <i>de l’eau</i>.",
    "options": [
-    "de l’",
-    "du",
-    "de la",
-    "des"
+    "<i>de l’</i>",
+    "<i>du</i>",
+    "<i>de la</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il n’a pas ______ livre. He has no book.",
-   "explain": "After a negative, the indefinite and partitive articles become <em>de</em>: <em>il n’a pas de livre</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il n’a pas ______ livre.</i> (“He has no book”).",
+   "explain": "After a negative, the indefinite and partitive articles become <i>de</i>: <i>il n’a pas de livre</i>.",
    "options": [
-    "de",
-    "un",
-    "du",
-    "des"
+    "<i>de</i>",
+    "<i>un</i>",
+    "<i>du</i>",
+    "<i>des</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine est ______. The queen is happy.",
-   "explain": "The adjective agrees with <em>reine</em>, feminine and singular: <em>heureuse</em>. <em>Heureusement</em> is an adverb.",
+   "prompt": "Choose the form that fills the blank: <i>La reine est ______.</i> (“The queen is happy”).",
+   "explain": "The adjective agrees with <i>reine</i>, feminine and singular: <i>heureuse</i>. <i>Heureusement</i> is an adverb.",
    "options": [
-    "heureuse",
-    "heureux",
-    "heureuses",
-    "heureusement"
+    "<i>heureuse</i>",
+    "<i>heureux</i>",
+    "<i>heureuses</i>",
+    "<i>heureusement</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les maisons sont ______. The houses are large.",
-   "explain": "<em>Maisons</em> is feminine and plural, so <em>grandes</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les maisons sont ______.</i> (“The houses are large”).",
+   "explain": "<i>Maisons</i> is feminine and plural, so <i>grandes</i>.",
    "options": [
-    "grandes",
-    "grand",
-    "grande",
-    "grands"
+    "<i>grandes</i>",
+    "<i>grand</i>",
+    "<i>grande</i>",
+    "<i>grands</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Un ______ jardin. A small garden.",
-   "explain": "<em>Jardin</em> is masculine and singular, so <em>petit</em>. <em>Petit</em> stands before its noun.",
+   "prompt": "Choose the form that fills the blank: <i>Un ______ jardin.</i> (“A small garden”).",
+   "explain": "<i>Jardin</i> is masculine and singular, so <i>petit</i>. <i>Petit</i> stands before its noun.",
    "options": [
-    "petit",
-    "petite",
-    "petits",
-    "petites"
+    "<i>petit</i>",
+    "<i>petite</i>",
+    "<i>petits</i>",
+    "<i>petites</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Un ______ ami. A handsome friend.",
-   "explain": "Before a masculine singular noun that begins with a vowel, <em>beau</em> becomes <em>bel</em>: <em>un bel ami</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Un ______ ami.</i> (“A handsome friend”).",
+   "explain": "Before a masculine singular noun that begins with a vowel, <i>beau</i> becomes <i>bel</i>: <i>un bel ami</i>.",
    "options": [
-    "bel",
-    "beau",
-    "belle",
-    "beaux"
+    "<i>bel</i>",
+    "<i>beau</i>",
+    "<i>belle</i>",
+    "<i>beaux</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les femmes sont ______. The women are old.",
-   "explain": "<em>Femmes</em> is feminine and plural, so <em>vieilles</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les femmes sont ______.</i> (“The women are old”).",
+   "explain": "<i>Femmes</i> is feminine and plural, so <i>vieilles</i>.",
    "options": [
-    "vieilles",
-    "vieux",
-    "vieille",
-    "vieil"
+    "<i>vieilles</i>",
+    "<i>vieux</i>",
+    "<i>vieille</i>",
+    "<i>vieil</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les ______ livres. The good books.",
-   "explain": "<em>Livres</em> is masculine and plural, so <em>bons</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les ______ livres.</i> (“The good books”).",
+   "explain": "<i>Livres</i> is masculine and plural, so <i>bons</i>.",
    "options": [
-    "bons",
-    "bon",
-    "bonne",
-    "bonnes"
+    "<i>bons</i>",
+    "<i>bon</i>",
+    "<i>bonne</i>",
+    "<i>bonnes</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Une ______ maison. A beautiful house.",
-   "explain": "<em>Maison</em> is feminine, so <em>belle</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Une ______ maison.</i> (“A beautiful house”).",
+   "explain": "<i>Maison</i> is feminine, so <i>belle</i>.",
    "options": [
-    "belle",
-    "beau",
-    "bel",
-    "beaux"
+    "<i>belle</i>",
+    "<i>beau</i>",
+    "<i>bel</i>",
+    "<i>beaux</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les amies sont ______. The friends (women) are content.",
-   "explain": "<em>Amies</em> is feminine and plural, so <em>contentes</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les amies sont ______.</i> (“The friends (women) are content”).",
+   "explain": "<i>Amies</i> is feminine and plural, so <i>contentes</i>.",
    "options": [
-    "contentes",
-    "content",
-    "contents",
-    "contente"
+    "<i>contentes</i>",
+    "<i>content</i>",
+    "<i>contents</i>",
+    "<i>contente</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ français. I speak French.",
-   "explain": "<em>Je</em> takes the ending <em>-e</em> in a verb in <em>-er</em>: <em>je parle</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ français.</i> (“I speak French”).",
+   "explain": "<i>Je</i> takes the ending <i>-e</i> in a verb in <i>-er</i>: <i>je parle</i>.",
    "options": [
-    "parle",
-    "parles",
-    "parlons",
-    "parlent"
+    "<i>parle</i>",
+    "<i>parles</i>",
+    "<i>parlons</i>",
+    "<i>parlent</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Tu ______. You (one friend) finish.",
-   "explain": "<em>Tu</em> takes the ending <em>-s</em>: <em>tu finis</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Tu ______.</i> (“You (one friend) finish”).",
+   "explain": "<i>Tu</i> takes the ending <i>-s</i>: <i>tu finis</i>.",
    "options": [
-    "finis",
-    "finit",
-    "finissez",
-    "finissons"
+    "<i>finis</i>",
+    "<i>finit</i>",
+    "<i>finissez</i>",
+    "<i>finissons</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il ______ la maison. He sells the house.",
-   "explain": "<em>Vendre</em> has no ending in the third person singular: <em>il vend</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il ______ la maison.</i> (“He sells the house”).",
+   "explain": "<i>Vendre</i> has no ending in the third person singular: <i>il vend</i>.",
    "options": [
-    "vend",
-    "vends",
-    "vendons",
-    "vendent"
+    "<i>vend</i>",
+    "<i>vends</i>",
+    "<i>vendons</i>",
+    "<i>vendent</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous ______ amis. We are friends.",
-   "explain": "The first person plural of <em>être</em> is <em>sommes</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Nous ______ amis.</i> (“We are friends”).",
+   "explain": "The first person plural of <i>être</i> is <i>sommes</i>.",
    "options": [
-    "sommes",
-    "êtes",
-    "sont",
-    "suis"
+    "<i>sommes</i>",
+    "<i>êtes</i>",
+    "<i>sont</i>",
+    "<i>suis</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Vous ______ un cheval. You (several) have a horse.",
-   "explain": "The second person plural of <em>avoir</em> is <em>avez</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Vous ______ un cheval.</i> (“You (several) have a horse”).",
+   "explain": "The second person plural of <i>avoir</i> is <i>avez</i>.",
    "options": [
-    "avez",
-    "avons",
-    "ont",
-    "as"
+    "<i>avez</i>",
+    "<i>avons</i>",
+    "<i>ont</i>",
+    "<i>as</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elles ______ à Paris. They (women) go to Paris.",
-   "explain": "The third person plural of <em>aller</em> is <em>vont</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elles ______ à Paris.</i> (“They (women) go to Paris”).",
+   "explain": "The third person plural of <i>aller</i> is <i>vont</i>.",
    "options": [
-    "vont",
-    "va",
-    "allons",
-    "allez"
+    "<i>vont</i>",
+    "<i>va</i>",
+    "<i>allons</i>",
+    "<i>allez</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ le travail. I do the work.",
-   "explain": "The first person singular of <em>faire</em> is <em>fais</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ le travail.</i> (“I do the work”).",
+   "explain": "The first person singular of <i>faire</i> is <i>fais</i>.",
    "options": [
-    "fais",
-    "fait",
-    "faisons",
-    "font"
+    "<i>fais</i>",
+    "<i>fait</i>",
+    "<i>faisons</i>",
+    "<i>font</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ils ______. They come.",
-   "explain": "The third person plural of <em>venir</em> is <em>viennent</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ils ______.</i> (“They come”).",
+   "explain": "The third person plural of <i>venir</i> is <i>viennent</i>.",
    "options": [
-    "viennent",
-    "vient",
-    "venons",
-    "venez"
+    "<i>viennent</i>",
+    "<i>vient</i>",
+    "<i>venons</i>",
+    "<i>venez</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il ______ parlé au roi. He spoke to the king.",
-   "explain": "<em>Parler</em> forms the passé composé with <em>avoir</em>, and <em>il</em> takes a.",
+   "prompt": "Choose the form that fills the blank: <i>Il ______ parlé au roi.</i> (“He spoke to the king”).",
+   "explain": "<i>Parler</i> forms the passé composé with <i>avoir</i>, and <i>il</i> takes a.",
    "options": [
-    "a",
-    "est",
-    "as",
-    "ont"
+    "<i>a</i>",
+    "<i>est</i>",
+    "<i>as</i>",
+    "<i>ont</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle ______ venue hier. She came yesterday.",
-   "explain": "<em>Venir</em> forms the passé composé with <em>être</em>, and <em>elle</em> takes <em>est</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elle ______ venue hier.</i> (“She came yesterday”).",
+   "explain": "<i>Venir</i> forms the passé composé with <i>être</i>, and <i>elle</i> takes <i>est</i>.",
    "options": [
-    "est",
-    "a",
-    "es",
-    "sont"
+    "<i>est</i>",
+    "<i>a</i>",
+    "<i>es</i>",
+    "<i>sont</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous avons ______ la lettre. We finished the letter.",
-   "explain": "The passé composé is <em>avoir</em> with the past participle, and the participle of <em>finir</em> is <em>fini</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Nous avons ______ la lettre.</i> (“We finished the letter”).",
+   "explain": "The passé composé is <i>avoir</i> with the past participle, and the participle of <i>finir</i> is <i>fini</i>.",
    "options": [
-    "fini",
-    "finissons",
-    "finir",
-    "finis"
+    "<i>fini</i>",
+    "<i>finissons</i>",
+    "<i>finir</i>",
+    "<i>finis</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Ils sont ______ à la ville. They went to the city.",
-   "explain": "<em>Aller</em> takes <em>être</em>, and the participle agrees with <em>ils</em>, masculine plural: <em>allés</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Ils sont ______ à la ville.</i> (“They went to the city”).",
+   "explain": "<i>Aller</i> takes <i>être</i>, and the participle agrees with <i>ils</i>, masculine plural: <i>allés</i>.",
    "options": [
-    "allés",
-    "allé",
-    "allée",
-    "allées"
+    "<i>allés</i>",
+    "<i>allé</i>",
+    "<i>allée</i>",
+    "<i>allées</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. J’ai ______ le cheval. I sold the horse.",
-   "explain": "With <em>avoir</em> the participle does not agree with the subject, and the object comes after it, so <em>vendu</em>.",
+   "prompt": "Choose the form that fills the blank: <i>J’ai ______ le cheval.</i> (“I sold the horse”).",
+   "explain": "With <i>avoir</i> the participle does not agree with the subject, and the object comes after it, so <i>vendu</i>.",
    "options": [
-    "vendu",
-    "vendre",
-    "vends",
-    "vendue"
+    "<i>vendu</i>",
+    "<i>vendre</i>",
+    "<i>vends</i>",
+    "<i>vendue</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. La reine ______ quand le roi est entré. The queen was speaking when the king came in.",
-   "explain": "The imparfait presents the speaking as going on when the other action happened: <em>elle parlait</em>. A <em>parlé</em> would present it as a complete act.",
+   "prompt": "Choose the form that fills the blank: <i>La reine ______ quand le roi est entré.</i> (“The queen was speaking when the king came in”).",
+   "explain": "The imparfait presents the speaking as going on when the other action happened: <i>elle parlait</i>. A <i>parlé</i> would present it as a complete act.",
    "options": [
-    "parlait",
-    "a parlé",
-    "parle",
-    "parlera"
+    "<i>parlait</i>",
+    "<i>a parlé</i>",
+    "<i>parle</i>",
+    "<i>parlera</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il ______ le travail chaque jour. He used to do the work every day.",
-   "explain": "A habit in the past is given by the imparfait: <em>il faisait</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il ______ le travail chaque jour.</i> (“He used to do the work every day”).",
+   "explain": "A habit in the past is given by the imparfait: <i>il faisait</i>.",
    "options": [
-    "faisait",
-    "a fait",
-    "fait",
-    "fera"
+    "<i>faisait</i>",
+    "<i>a fait</i>",
+    "<i>fait</i>",
+    "<i>fera</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Les femmes sont ______. The women arrived.",
-   "explain": "Arriver takes <em>être</em>, and the participle agrees with <em>les femmes</em>, feminine plural: <em>arrivées</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Les femmes sont ______.</i> (“The women arrived”).",
+   "explain": "Arriver takes <i>être</i>, and the participle agrees with <i>les femmes</i>, feminine plural: <i>arrivées</i>.",
    "options": [
-    "arrivées",
-    "arrivé",
-    "arrivés",
-    "arrivée"
+    "<i>arrivées</i>",
+    "<i>arrivé</i>",
+    "<i>arrivés</i>",
+    "<i>arrivée</i>"
    ],
    "answer": 0
   },
@@ -527,13 +527,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Le roi ______ voit. The king sees him.",
-   "explain": "The direct object pronoun for a masculine singular person is <em>le</em>, before the verb.",
+   "prompt": "Choose the form that fills the blank: <i>Le roi ______ voit.</i> (“The king sees him”).",
+   "explain": "The direct object pronoun for a masculine singular person is <i>le</i>, before the verb.",
    "options": [
-    "le",
-    "lui",
-    "il",
-    "la"
+    "<i>le</i>",
+    "<i>lui</i>",
+    "<i>il</i>",
+    "<i>la</i>"
    ],
    "answer": 0
   },
@@ -543,13 +543,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Je ______ donne le livre. I give her the book.",
-   "explain": "She receives the book, so she is the indirect object, and the pronoun is <em>lui</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Je ______ donne le livre.</i> (“I give her the book”).",
+   "explain": "She receives the book, so she is the indirect object, and the pronoun is <i>lui</i>.",
    "options": [
-    "lui",
-    "la",
-    "elle",
-    "leur"
+    "<i>lui</i>",
+    "<i>la</i>",
+    "<i>elle</i>",
+    "<i>leur</i>"
    ],
    "answer": 0
   },
@@ -559,13 +559,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Elle ______ parle. She speaks to them.",
-   "explain": "<em>Parler à</em> takes an indirect object, and the plural indirect pronoun is <em>leur</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Elle ______ parle.</i> (“She speaks to them”).",
+   "explain": "<i>Parler à</i> takes an indirect object, and the plural indirect pronoun is <i>leur</i>.",
    "options": [
-    "leur",
-    "les",
-    "lui",
-    "eux"
+    "<i>leur</i>",
+    "<i>les</i>",
+    "<i>lui</i>",
+    "<i>eux</i>"
    ],
    "answer": 0
   },
@@ -575,13 +575,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il ______ va. He goes there.",
-   "explain": "<em>Y</em> stands for a place to which or in which: <em>il y va</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il ______ va.</i> (“He goes there”).",
+   "explain": "<i>Y</i> stands for a place to which or in which: <i>il y va</i>.",
    "options": [
-    "y",
-    "en",
-    "le",
-    "lui"
+    "<i>y</i>",
+    "<i>en</i>",
+    "<i>le</i>",
+    "<i>lui</i>"
    ],
    "answer": 0
   },
@@ -591,13 +591,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. J’______ ai deux. I have two of them.",
-   "explain": "<em>En</em> stands for a quantity of something already named: <em>j’en ai deux</em>.",
+   "prompt": "Choose the form that fills the blank: <i>J’______ ai deux.</i> (“I have two of them”).",
+   "explain": "<i>En</i> stands for a quantity of something already named: <i>j’en ai deux</i>.",
    "options": [
-    "en",
-    "y",
-    "les",
-    "l’"
+    "<i>en</i>",
+    "<i>y</i>",
+    "<i>les</i>",
+    "<i>l’</i>"
    ],
    "answer": 0
   },
@@ -607,13 +607,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Il me ______ donne. He gives it (the book) to me.",
-   "explain": "The book is the direct object, masculine, so <em>le</em>, and <em>me</em> comes before <em>le</em>.",
+   "prompt": "Choose the form that fills the blank: <i>Il me ______ donne.</i> (“He gives it (the book) to me”).",
+   "explain": "The book is the direct object, masculine, so <i>le</i>, and <i>me</i> comes before <i>le</i>.",
    "options": [
-    "le",
-    "lui",
-    "leur",
-    "y"
+    "<i>le</i>",
+    "<i>lui</i>",
+    "<i>leur</i>",
+    "<i>y</i>"
    ],
    "answer": 0
   },
@@ -623,13 +623,13 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. C’est pour ______. This is for you (one friend).",
-   "explain": "After a preposition French uses the stressed pronoun: <em>pour toi</em>.",
+   "prompt": "Choose the form that fills the blank: <i>C’est pour ______.</i> (“This is for you (one friend)”).",
+   "explain": "After a preposition French uses the stressed pronoun: <i>pour toi</i>.",
    "options": [
-    "toi",
-    "te",
-    "tu",
-    "ton"
+    "<i>toi</i>",
+    "<i>te</i>",
+    "<i>tu</i>",
+    "<i>ton</i>"
    ],
    "answer": 0
   },
@@ -639,15 +639,185 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "deck": "lang.iii-decl.fr/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. Nous ______ voyons. We see you (several).",
-   "explain": "The object pronoun of the second person plural is <em>vous</em>, before the verb.",
+   "prompt": "Choose the form that fills the blank: <i>Nous ______ voyons.</i> (“We see you (several)”).",
+   "explain": "The object pronoun of the second person plural is <i>vous</i>, before the verb.",
    "options": [
-    "vous",
-    "votre",
-    "vos",
-    "leur"
+    "<i>vous</i>",
+    "<i>votre</i>",
+    "<i>vos</i>",
+    "<i>leur</i>"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase1",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i><b>Je</b> parle au roi.</i>",
+   "explain": "<i>Je</i> is the subject of <i>parle</i>, so the pronoun is in the subject form. The object form is <i>me</i>, and the stressed form is <i>moi</i>.",
+   "options": [
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Indirect-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase1"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase2",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i><b>Elle</b> finit le livre.</i>",
+   "explain": "<i>Elle</i> is the subject of <i>finit</i>, so the pronoun is in the subject form. After a preposition the same letters are the stressed form, and there is no preposition here.",
+   "options": [
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Indirect-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase2"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase3",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>Le roi <b>le</b> vend.</i>",
+   "explain": "<i>Le</i> is the thing sold, and it is the direct object of <i>vend</i>. The pronoun stands before the verb.",
+   "options": [
+    "<i>Direct-object form</i>",
+    "<i>Subject form</i>",
+    "<i>Indirect-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase3"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase4",
+   "set": "A",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>La femme <b>les</b> finit.</i>",
+   "explain": "<i>Les</i> is the thing finished, and it is plural. It is the direct object of <i>finit</i>, and it stands before the verb.",
+   "options": [
+    "<i>Direct-object form</i>",
+    "<i>Subject form</i>",
+    "<i>Indirect-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase4"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase5",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>Il <b>l’</b>a.</i>",
+   "explain": "<i>L’</i> is <i>le</i> or <i>la</i> before the vowel of a. It is the direct object of a, from <i>avoir</i>, and it stands before the verb.",
+   "options": [
+    "<i>Direct-object form</i>",
+    "<i>Subject form</i>",
+    "<i>Indirect-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase5"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase6",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>Le roi <b>lui</b> parle.</i>",
+   "explain": "<i>Parler</i> takes <i>à</i> for the person spoken to. When that person is a pronoun before the verb, the form is <i>lui</i>, the indirect object. <i>Lui</i> here is not the stressed pronoun, because no preposition is written.",
+   "options": [
+    "<i>Indirect-object form</i>",
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase6"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase7",
+   "set": "B",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>La femme <b>leur</b> parle.</i>",
+   "explain": "<i>Leur</i> is the indirect object, plural, of <i>parle</i>. The person spoken to would be marked by <i>à</i> if the noun were written out.",
+   "options": [
+    "<i>Indirect-object form</i>",
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Stressed form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase7"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase8",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>Elle parle avec <b>moi</b>.</i>",
+   "explain": "<i>Avec</i> is a preposition, and the pronoun after it is the stressed form. <i>Moi</i> is that form. <i>Je</i> cannot stand there.",
+   "options": [
+    "<i>Stressed form</i>",
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Indirect-object form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase8"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase9",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>Le roi vient avec <b>eux</b>.</i>",
+   "explain": "<i>Eux</i> is the stressed form, masculine plural, after the preposition <i>avec</i>. The subject form would be <i>ils</i>.",
+   "options": [
+    "<i>Stressed form</i>",
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Indirect-object form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase9"
+  },
+  {
+   "id": "lang.iii-decl.fr/fill-ex:fcase10",
+   "set": "C",
+   "deck": "lang.iii-decl.fr/fill-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "What form is the marked pronoun? <i>C’est <b>toi</b>.</i>",
+   "explain": "After <i>c’est</i> the pronoun is the stressed form. <i>Toi</i> is that form, and <i>tu</i> is the subject form.",
+   "options": [
+    "<i>Stressed form</i>",
+    "<i>Subject form</i>",
+    "<i>Direct-object form</i>",
+    "<i>Indirect-object form</i>"
+   ],
+   "answer": 0,
+   "formerId": "lang.iii-decl.fr/cases-ex:fcase10"
   }
  ]
 };
