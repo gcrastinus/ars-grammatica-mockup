@@ -79,7 +79,7 @@ ARS.languages["lang.v.grc"] = {
    "kind": "exercise",
    "built": true,
    "title": "Clauses in Greek",
-   "desc": "41 questions.",
+   "desc": "50 questions.",
    "exFor": "lang.v.grc/clauses"
   },
   {

@@ -648,6 +648,150 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
     "“the work that they will finish”"
    ],
    "answer": 1
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t1",
+   "set": "A",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>il ferme la fenêtre pour que l’enfant ______</i> (“he closes the window so that the child may sleep”)?",
+   "explain": "<i>Pour que</i> takes the subjunctive; <i>dorme</i> is the present subjunctive of <i>dormir</i>.",
+   "options": [
+    "<i>dorme</i>",
+    "<i>dort</i>",
+    "<i>dormira</i>",
+    "<i>dormait</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t2",
+   "set": "A",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why does <i>pour</i> take the infinitive in <i>il travaille pour gagner sa vie</i> (“he works to earn his living”)?",
+   "explain": "When the subject of the purpose is the same as that of the main verb, French uses <i>pour</i> with the infinitive.",
+   "options": [
+    "<i>Pour</i> never takes <i>que</i>",
+    "The subject is the same",
+    "The purpose is a fact",
+    "<i>Gagner</i> is a verb of motion"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t3",
+   "set": "A",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What kind of clause is <i>que tout le monde l’écoutait</i> in <i>elle chantait si bien que tout le monde l’écoutait</i>?",
+   "explain": "<i>Si</i> before an adverb and then <i>que</i> gives a result: “she sang so well that everyone listened to her.”",
+   "options": [
+    "Purpose",
+    "Concession",
+    "Result",
+    "Condition"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t4",
+   "set": "B",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which mood follows <i>tellement … que</i> when the result is a fact?",
+   "explain": "A result stated as a fact is in the indicative.",
+   "options": [
+    "The subjunctive",
+    "The conditional",
+    "The imperative",
+    "The indicative"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t5",
+   "set": "B",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>nous partirons avant qu’il ______ nuit</i> (“we shall leave before it is night”)?",
+   "explain": "<i>Avant que</i> takes the subjunctive; <i>fasse</i> is the present subjunctive of <i>faire</i>.",
+   "options": [
+    "<i>fasse</i>",
+    "<i>fait</i>",
+    "<i>fera</i>",
+    "<i>faisait</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t6",
+   "set": "B",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What is <i>ne</i> in <i>partez avant qu’il ne pleuve</i> (“leave before it rains”)?",
+   "explain": "After <i>avant que</i> written French may add the expletive <i>ne</i>, which does not negate.",
+   "options": [
+    "A negation: “before it does not rain”",
+    "An expletive, not a negation",
+    "Part of the verb",
+    "A pronoun for the rain"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t7",
+   "set": "C",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which mood do the grammars require after <i>après que</i>?",
+   "explain": "<i>Après que</i> states a time that is real, so the grammars require the indicative, although the subjunctive is common in speech.",
+   "options": [
+    "The subjunctive",
+    "The conditional",
+    "The indicative",
+    "The infinitive"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t8",
+   "set": "C",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does the indicative <i>a vu</i> show in <i>il est parti de sorte que personne ne l’a vu</i> (“he left so that no one saw him”)?",
+   "explain": "<i>De sorte que</i> with the indicative states a result; with the subjunctive it would state a purpose.",
+   "options": [
+    "A purpose",
+    "A wish",
+    "A doubt",
+    "A result that followed"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.fr/clause-ex:t9",
+   "set": "C",
+   "deck": "lang.v.fr/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>attends jusqu’à ce que je ______</i> (“wait until I come back”)?",
+   "explain": "<i>Jusqu’à ce que</i> takes the subjunctive; <i>revienne</i> is the present subjunctive of <i>revenir</i>.",
+   "options": [
+    "<i>revienne</i>",
+    "<i>reviens</i>",
+    "<i>reviendrai</i>",
+    "<i>revenais</i>"
+   ],
+   "answer": 0
   }
  ]
 };

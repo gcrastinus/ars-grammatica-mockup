@@ -134,6 +134,49 @@ ARS.decks["lang.v.de/clauses"] = {
      }
     ]
    }
+  },
+  {
+   "id": "result-time",
+   "title": "Result and time",
+   "body": "<p>A clause of result tells what follows from the action. German prepares it with <i>so</i> before an adjective or adverb and introduces it with <i>dass</i>, or joins it with <i>sodass</i> (also written <i>so dass</i>); the verb is in the indicative and stands at the end: <i>er lief so schnell, dass niemand ihn einholte</i> (“he ran so fast that no one caught up with him”), <i>es regnete, sodass wir zu Hause blieben</i> (“it rained, so that we stayed at home”).</p>\n<p>A temporal clause tells when the action of the main verb takes place, and its finite verb also stands at the end. <i>Als</i> is used for one event in the past: <i>als ich nach Hause kam, schlief er</i> (“when I came home, he was asleep”). <i>Wenn</i> is used for an event that happened again and again in the past, and for the present and the future: <i>wenn du kommst, essen wir</i> (“when you come, we will eat”). <i>Wann</i> is not a conjunction of time but the interrogative “when?”. <i>Nachdem</i> (“after”) usually takes the pluperfect when the main verb is in the past: <i>nachdem er gegessen hatte, ging er</i> (“after he had eaten, he left”). <i>Bevor</i> (“before”), <i>während</i> (“while”), <i>seit</i> (“since”), and <i>bis</i> (“until”) take the indicative.</p>",
+   "qp": {
+    "id": "q-de-clauses-result-time",
+    "variants": [
+     {
+      "prompt": "Which conjunction is used for one event in the past?",
+      "options": [
+       "<i>wenn</i>",
+       "<i>als</i>",
+       "<i>wann</i>",
+       "<i>ob</i>"
+      ],
+      "answer": 1,
+      "explain": "<i>Als</i> is used for a single past event; <i>wenn</i> for repeated past events and for the present and future."
+     },
+     {
+      "prompt": "Where does the finite verb stand in a clause with <i>sodass</i>?",
+      "options": [
+       "Second",
+       "First",
+       "At the end",
+       "Before the subject"
+      ],
+      "answer": 2,
+      "explain": "Like every subordinate clause, the clause of result puts its finite verb at the end."
+     },
+     {
+      "prompt": "Which tense does <i>nachdem</i> usually take when the main verb is past?",
+      "options": [
+       "The present",
+       "The future",
+       "The imperative",
+       "The pluperfect"
+      ],
+      "answer": 3,
+      "explain": "The action of the <i>nachdem</i> clause comes before a past action, so it is in the pluperfect."
+     }
+    ]
+   }
   }
  ]
 };

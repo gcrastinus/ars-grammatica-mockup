@@ -177,6 +177,92 @@ ARS.decks["lang.v.grc/clauses"] = {
      }
     ]
    }
+  },
+  {
+   "id": "time",
+   "title": "Temporal clauses",
+   "body": "<p>A temporal clause tells when the action of the main verb takes place. It is introduced by <i>ἐπεί</i> or <i>ἐπειδή</i> (“when,” “after”), <i>ὅτε</i> (“when”), <i>ἕως</i> (“while,” “until”), or <i>πρίν</i> (“before,” “until”). When the clause refers to one definite act in past time, it takes the indicative, as in English: <i>ἐπειδὴ ἀφίκοντο, ἐδείπνουν</i> (“when they arrived, they dined”).</p>\n<p>When the clause refers to an indefinite future time, or to what happens again and again in present time, the conjunction takes <i>ἄν</i> and the verb is in the subjunctive. <i>Ἄν</i> combines with the conjunction: <i>ὅτε</i> with <i>ἄν</i> becomes <i>ὅταν</i>, and <i>ἐπειδή</i> with <i>ἄν</i> becomes <i>ἐπειδάν</i>. So <i>ὅταν ἔλθῃ, ὄψεσθε αὐτόν</i> means “when he comes, you will see him,” and <i>μενοῦμεν ἕως ἂν ἔλθῃ</i> means “we shall wait until he comes.” When the same kind of clause depends on a past tense and refers to what happened again and again, it takes the optative without <i>ἄν</i>: <i>ὅτε ἔλθοι</i> means “whenever he came.”</p>\n<p><i>Πρίν</i> takes the infinitive when the main clause is affirmative, and then it means “before”: <i>ἀπῆλθον πρὶν ἐκεῖνον ἐλθεῖν</i> (“they went away before he came”). When the main clause is negative, <i>πρίν</i> means “until” and takes a finite verb, as the other temporal conjunctions do: <i>οὐκ ἀπῆλθον πρὶν ἐκεῖνος ἦλθεν</i> (“they did not go away until he came”).</p>",
+   "qp": {
+    "id": "q-grc-clauses-time",
+    "variants": [
+     {
+      "prompt": "Which mood follows <i>ὅταν</i>?",
+      "options": [
+       "The subjunctive",
+       "The optative",
+       "The indicative",
+       "The infinitive"
+      ],
+      "answer": 0,
+      "explain": "<i>Ὅταν</i> is <i>ὅτε</i> with <i>ἄν</i>, and <i>ἄν</i> in a temporal clause goes with the subjunctive."
+     },
+     {
+      "prompt": "What does <i>πρίν</i> with the infinitive mean after an affirmative main clause?",
+      "options": [
+       "“Until”",
+       "“After”",
+       "“While”",
+       "“Before”"
+      ],
+      "answer": 3,
+      "explain": "After an affirmative clause <i>πρίν</i> takes the infinitive and means “before.”"
+     },
+     {
+      "prompt": "When does a temporal clause take the indicative?",
+      "options": [
+       "When it refers to an indefinite future",
+       "When it depends on a past tense and repeats",
+       "When it refers to one definite past act",
+       "When the main clause is a command"
+      ],
+      "answer": 2,
+      "explain": "One definite act in past time is stated in the indicative, as in English."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alternative",
+   "title": "Alternative questions",
+   "body": "<p>An alternative question offers two possibilities and asks which is true. Greek introduces it with <i>πότερον</i> (or <i>πότερα</i>) and puts <i>ἤ</i> (“or”) before the second member: <i>πότερον μένεις ἢ ἀπέρχῃ;</i> (“are you staying or going away?”). <i>Πότερον</i> is not translated; it marks the question as alternative, as <i>utrum</i> does in Latin, and <i>ἤ</i> answers to Latin <i>an</i>.</p>\n<p>An indirect alternative question is introduced by <i>πότερον … ἤ</i> or by <i>εἰ … ἤ</i>. After a primary tense it keeps the mood of the direct question. After a secondary tense its verb may be changed to the optative: <i>ἠρόμην πότερον μένοι ἢ ἀπέρχοιτο</i> (“I asked whether he was staying or going away”).</p>",
+   "qp": {
+    "id": "q-grc-clauses-alternative",
+    "variants": [
+     {
+      "prompt": "What does <i>πότερον</i> mark?",
+      "options": [
+       "An alternative question",
+       "A clause of purpose",
+       "A comparison",
+       "A wish"
+      ],
+      "answer": 0,
+      "explain": "<i>Πότερον … ἤ</i> asks which of two things is true."
+     },
+     {
+      "prompt": "Which Latin word answers to <i>πότερον</i>?",
+      "options": [
+       "<i>num</i>",
+       "<i>nōnne</i>",
+       "<i>quamquam</i>",
+       "<i>utrum</i>"
+      ],
+      "answer": 3,
+      "explain": "Both mark the question as alternative and are not translated."
+     },
+     {
+      "prompt": "After a secondary tense, which mood may an indirect alternative question take?",
+      "options": [
+       "The imperative",
+       "The infinitive",
+       "The optative",
+       "The participle"
+      ],
+      "answer": 2,
+      "explain": "After a secondary tense the verb of an indirect question may be changed to the optative."
+     }
+    ]
+   }
   }
  ]
 };

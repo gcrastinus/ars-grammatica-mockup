@@ -177,6 +177,92 @@ ARS.decks["lang.v.fr/clauses"] = {
      }
     ]
    }
+  },
+  {
+   "id": "purpose-result",
+   "title": "Purpose and result",
+   "body": "<p>A clause of purpose tells the end for which something is done. French introduces it with <i>pour que</i> or <i>afin que</i> and puts its verb in the subjunctive: <i>je parle lentement pour que tu comprennes</i> (“I speak slowly so that you may understand”). When the subject of the purpose is the same as the subject of the main verb, French uses <i>pour</i> or <i>afin de</i> with the infinitive instead: <i>je travaille pour réussir</i> (“I work in order to succeed”).</p>\n<p>A clause of result tells what follows from the action. French prepares it with <i>si</i> or <i>tellement</i> before an adjective or adverb, or with <i>tant</i> before a verb, and introduces it with <i>que</i>; the result is stated as a fact, so the verb is in the indicative: <i>il parlait si vite que personne ne le comprenait</i> (“he spoke so fast that no one understood him”). <i>De sorte que</i> takes the indicative when it states a result and the subjunctive when it states a purpose: <i>il a crié, de sorte que tout le monde l’a entendu</i> (“he shouted, so that everyone heard him”), but <i>parle de sorte qu’on t’entende</i> (“speak so that people may hear you”).</p>",
+   "qp": {
+    "id": "q-fr-clauses-purpose",
+    "variants": [
+     {
+      "prompt": "Which mood follows <i>pour que</i>?",
+      "options": [
+       "The indicative",
+       "The subjunctive",
+       "The conditional",
+       "The imperative"
+      ],
+      "answer": 1,
+      "explain": "<i>Pour que</i> and <i>afin que</i> take the subjunctive."
+     },
+     {
+      "prompt": "Which mood does a clause of result after <i>si … que</i> take?",
+      "options": [
+       "The subjunctive",
+       "The conditional",
+       "The indicative",
+       "The infinitive"
+      ],
+      "answer": 2,
+      "explain": "The result is stated as a fact, so the verb is in the indicative."
+     },
+     {
+      "prompt": "When does French use <i>pour</i> with the infinitive for purpose?",
+      "options": [
+       "When the subject is different",
+       "When the purpose is a fact",
+       "When the main verb is past",
+       "When the subject is the same"
+      ],
+      "answer": 3,
+      "explain": "With the same subject, <i>pour</i> or <i>afin de</i> takes the infinitive."
+     }
+    ]
+   }
+  },
+  {
+   "id": "time",
+   "title": "Temporal clauses",
+   "body": "<p>A temporal clause tells when the action of the main verb takes place. <i>Quand</i> and <i>lorsque</i> (“when”), <i>pendant que</i> (“while”), <i>depuis que</i> (“since”), and <i>après que</i> (“after”) state a time that is real, so they take the indicative: <i>quand il pleut, nous restons à la maison</i> (“when it rains, we stay at home”). The grammars require the indicative after <i>après que</i>, although the subjunctive is common in speech.</p>\n<p><i>Avant que</i> (“before”) and <i>jusqu’à ce que</i> (“until”) look forward to something that has not yet happened, so they take the subjunctive: <i>rentre avant qu’il pleuve</i> (“come home before it rains”). After <i>avant que</i> written French often adds a <i>ne</i> that is not a negation (the expletive <i>ne</i>): <i>avant qu’il ne pleuve</i> means the same thing.</p>",
+   "qp": {
+    "id": "q-fr-clauses-time",
+    "variants": [
+     {
+      "prompt": "Which mood follows <i>avant que</i>?",
+      "options": [
+       "The subjunctive",
+       "The indicative",
+       "The conditional",
+       "The infinitive"
+      ],
+      "answer": 0,
+      "explain": "<i>Avant que</i> looks forward to what has not yet happened and takes the subjunctive."
+     },
+     {
+      "prompt": "What is the <i>ne</i> in <i>avant qu’il ne pleuve</i>?",
+      "options": [
+       "A negation of the rain",
+       "Part of the verb",
+       "A pronoun",
+       "An expletive, not a negation"
+      ],
+      "answer": 3,
+      "explain": "The expletive <i>ne</i> adds no negation; the sentence means “before it rains.”"
+     },
+     {
+      "prompt": "Which mood do the grammars require after <i>après que</i>?",
+      "options": [
+       "The subjunctive",
+       "The conditional",
+       "The indicative",
+       "The imperative"
+      ],
+      "answer": 2,
+      "explain": "<i>Après que</i> states a time that is real and takes the indicative."
+     }
+    ]
+   }
   }
  ]
 };

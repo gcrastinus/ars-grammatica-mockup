@@ -79,7 +79,7 @@ ARS.languages["lang.v.de"] = {
    "kind": "exercise",
    "built": true,
    "title": "Clauses in German",
-   "desc": "40 questions.",
+   "desc": "49 questions.",
    "exFor": "lang.v.de/clauses"
   },
   {

@@ -648,6 +648,150 @@ ARS.exercises["lang.v.de/clause-ex"] = {
     "<i>wäre</i>"
    ],
    "answer": 3
+  },
+  {
+   "id": "lang.v.de/clause-ex:t1",
+   "set": "A",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why does German use <i>um … zu</i> in <i>er spart, um ein Haus zu kaufen</i> (“he saves in order to buy a house”)?",
+   "explain": "<i>Um … zu</i> with the infinitive gives a purpose when the subject is the same as that of the main clause.",
+   "options": [
+    "The purpose is a fact",
+    "The subject is the same",
+    "<i>Kaufen</i> is a modal verb",
+    "<i>Um</i> always governs the dative"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.de/clause-ex:t2",
+   "set": "A",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>ich erkläre es dir, damit du es ______</i> (“I explain it to you so that you understand it”)?",
+   "explain": "<i>Damit</i> takes a finite verb, which stands at the end of the clause.",
+   "options": [
+    "<i>verstehst</i>",
+    "<i>verstehen</i>",
+    "<i>zu verstehen</i>",
+    "<i>verstanden</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.de/clause-ex:t3",
+   "set": "A",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What kind of clause is the <i>dass</i> clause in <i>es schneite so stark, dass die Schule geschlossen blieb</i> (“it snowed so hard that the school stayed closed”)?",
+   "explain": "<i>So</i> before an adverb and then <i>dass</i> gives a result.",
+   "options": [
+    "Purpose",
+    "Reported speech",
+    "Condition",
+    "Result"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.de/clause-ex:t4",
+   "set": "B",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Where does the finite verb stand in a clause introduced by <i>sodass</i>?",
+   "explain": "A clause of result is a subordinate clause, so its finite verb stands at the end.",
+   "options": [
+    "Second",
+    "First",
+    "At the end",
+    "Before the subject"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.de/clause-ex:t5",
+   "set": "B",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which conjunction completes <i>______ ich gestern nach Hause kam, war niemand da</i> (“when I came home yesterday, no one was there”)?",
+   "explain": "One event in the past takes <i>als</i>; <i>wann</i> is the interrogative “when?”.",
+   "options": [
+    "<i>Wenn</i>",
+    "<i>Als</i>",
+    "<i>Wann</i>",
+    "<i>Ob</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.de/clause-ex:t6",
+   "set": "B",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which conjunction completes <i>immer ______ er uns besuchte, brachte er Blumen mit</i> (“whenever he visited us, he brought flowers”)?",
+   "explain": "An event that happened again and again in the past takes <i>wenn</i>.",
+   "options": [
+    "<i>wenn</i>",
+    "<i>als</i>",
+    "<i>wann</i>",
+    "<i>ob</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.de/clause-ex:t7",
+   "set": "C",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why is <i>gegessen hatte</i> pluperfect in <i>nachdem sie gegessen hatte, ging sie spazieren</i> (“after she had eaten, she went for a walk”)?",
+   "explain": "The action of the <i>nachdem</i> clause comes before a past action, so it is in the pluperfect.",
+   "options": [
+    "<i>Nachdem</i> always takes the present",
+    "It is Konjunktiv II",
+    "It is a passive",
+    "The eating came before a past act"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.de/clause-ex:t8",
+   "set": "C",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>warte, bis ich ______</i> (“wait until I come”)?",
+   "explain": "<i>Bis</i> takes the indicative, and the finite verb stands at the end: <i>bis ich komme</i>.",
+   "options": [
+    "<i>kam</i>",
+    "<i>kommen</i>",
+    "<i>komme</i>",
+    "<i>gekommen</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.de/clause-ex:t9",
+   "set": "C",
+   "deck": "lang.v.de/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which construction gives a purpose when the subjects differ?",
+   "explain": "With a different subject German uses <i>damit</i> and a finite verb.",
+   "options": [
+    "<i>um … zu</i> with the infinitive",
+    "<i>damit</i> with a finite verb",
+    "<i>dass</i> with Konjunktiv II",
+    "<i>so … dass</i> with the indicative"
+   ],
+   "answer": 1
   }
  ]
 };

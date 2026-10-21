@@ -664,6 +664,150 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
     "The participle of indirect discourse"
    ],
    "answer": 3
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t1",
+   "set": "A",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which mood follows <i>ὅταν</i> in <i>ὅταν ἔλθῃ ὁ ἄγγελος, ἀκουσόμεθα</i> (“when the messenger comes, we shall hear”)?",
+   "explain": "<i>Ὅταν</i> is <i>ὅτε</i> with <i>ἄν</i>; with the subjunctive it refers to an indefinite future time.",
+   "options": [
+    "The subjunctive",
+    "The optative",
+    "The indicative",
+    "The infinitive"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t2",
+   "set": "A",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why is <i>εἶδον</i> indicative in <i>ἐπειδὴ εἶδον τὴν θάλατταν, ἐχάρησαν</i> (“when they saw the sea, they rejoiced”)?",
+   "explain": "A temporal clause that refers to one definite act in past time takes the indicative.",
+   "options": [
+    "It states a purpose",
+    "It refers to one definite past act",
+    "It follows a primary tense",
+    "It repeats again and again"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t3",
+   "set": "A",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does <i>πρίν</i> mean in <i>ἀπέπλευσαν πρὶν τὴν ἐπιστολὴν ἐλθεῖν</i>?",
+   "explain": "After an affirmative main clause <i>πρίν</i> takes the infinitive and means “before”: “they sailed away before the letter came.”",
+   "options": [
+    "“Until”",
+    "“After”",
+    "“Before”",
+    "“Because”"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t4",
+   "set": "B",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why does <i>πρίν</i> take the indicative in <i>οὐκ ἐπαύσαντο πρὶν ἐνίκησαν</i> (“they did not stop until they won”)?",
+   "explain": "After a negative main clause <i>πρίν</i> means “until” and takes a finite verb.",
+   "options": [
+    "The main clause is affirmative",
+    "The event is still to come",
+    "The verb is in the middle voice",
+    "The main clause is negative"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t5",
+   "set": "B",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which form completes <i>περιμενοῦμεν ἕως ἂν ὁ στρατηγὸς ______</i> (“we shall wait until the general arrives”)?",
+   "explain": "<i>Ἕως ἄν</i> takes the subjunctive; <i>ἀφίκηται</i> is the aorist subjunctive of <i>ἀφικνέομαι</i>.",
+   "options": [
+    "<i>ἀφίκηται</i>",
+    "<i>ἀφίκετο</i>",
+    "<i>ἀφίκοιτο</i>",
+    "<i>ἀφικέσθαι</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t6",
+   "set": "B",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does <i>πότερον</i> mark in <i>πότερον ὁ παῖς γράφει ἢ ἀναγιγνώσκει;</i> (“is the boy writing or reading?”)?",
+   "explain": "<i>Πότερον … ἤ</i> asks which of two things is true; <i>ἤ</i> here means “or,” not “than.”",
+   "options": [
+    "A clause of purpose",
+    "An alternative question",
+    "A comparison",
+    "A wish"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t7",
+   "set": "C",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Why is <i>γράφοι</i> optative in <i>ἠρόμην πότερον γράφοι ἢ ἀναγιγνώσκοι</i> (“I asked whether he was writing or reading”)?",
+   "explain": "After a secondary tense the verb of an indirect question may be changed to the optative.",
+   "options": [
+    "It expresses a wish",
+    "It is contrary to fact",
+    "It follows a secondary tense",
+    "It follows every <i>πότερον</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t8",
+   "set": "C",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which Latin construction answers to <i>πότερον … ἤ</i>?",
+   "explain": "Latin asks an alternative question with <i>utrum</i> and <i>an</i>.",
+   "options": [
+    "<i>num … nōnne</i>",
+    "<i>cum … tum</i>",
+    "<i>et … et</i>",
+    "<i>utrum … an</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/clause-ex:t9",
+   "set": "C",
+   "deck": "lang.v.grc/clause-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does the optative without <i>ἄν</i> mark in <i>ὅτε ὁ βασιλεὺς ἔλθοι, πάντες ἀνίσταντο</i> (“whenever the king came, all stood up”)?",
+   "explain": "A temporal clause that depends on a past tense and refers to repeated action takes the optative without <i>ἄν</i>.",
+   "options": [
+    "Repeated action in past time",
+    "A wish for the future",
+    "One definite past event",
+    "A purpose"
+   ],
+   "answer": 0
   }
  ]
 };
