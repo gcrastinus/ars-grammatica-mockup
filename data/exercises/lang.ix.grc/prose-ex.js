@@ -34,7 +34,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>ὡς μήτε</em></p> <em>ὡς … γένηται</em> is…",
    "explain": "<em>Ὡς</em> with the subjunctive and the negative <em>μή</em> gives the purpose of the setting forth.",
    "options": [
-    "A purpose clause with the subjunctive",
+    "A purpose clause",
     "A result clause with the indicative",
     "A comparison: “as … happens”",
     "A temporal clause: “when … happened”"
@@ -114,7 +114,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ἀρξάμενος</em> agrees with…",
    "explain": "It is nominative masculine singular, like the subject.",
    "options": [
-    "<em>Θουκυδίδης</em>, the subject",
+    "<em>Θουκυδίδης</em>",
     "<em>τὸν πόλεμον</em>",
     "<em>Ἀθηναίων</em>",
     "<em>ἀλλήλους</em>"
@@ -130,7 +130,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>καθισταμένου</em> is…",
    "explain": "A participle in the genitive, standing apart, gives the time; the noun, the war, is understood from before. as it was arising",
    "options": [
-    "A genitive absolute with the war understood",
+    "A genitive absolute",
     "A genitive of possession with <em>πόλεμον</em>",
     "The object of <em>ἀρξάμενος</em> alone",
     "A finite verb"
@@ -146,7 +146,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ἔσεσθαι</em> is…",
    "explain": "Verbs of hoping and expecting take the future infinitive.",
    "options": [
-    "A future infinitive after <em>ἐλπίσας</em>",
+    "A future infinitive",
     "A present infinitive",
     "An aorist indicative",
     "A participle"
@@ -162,7 +162,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ὁρῶν … ξυνιστάμενον</em> shows…",
    "explain": "Verbs of perceiving take a participle that agrees with the thing perceived. seeing it take sides",
    "options": [
-    "A verb of seeing with a participle",
+    "A verb of seeing",
     "A purpose clause",
     "A genitive absolute",
     "An infinitive of result"
@@ -178,7 +178,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>τὸ μὴ μυθῶδες</em> is…",
    "explain": "The neuter article makes the adjective a noun, and <em>μή</em> negates it. the absence of the fabulous",
    "options": [
-    "An adjective made a noun by the article",
+    "An adjective",
     "A finite verb",
     "A genitive of comparison",
     "A purpose clause"
@@ -194,7 +194,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>φανεῖται</em> is…",
    "explain": "The contracted future of <em>φαίνομαι</em>.",
    "options": [
-    "Future: “will appear”",
+    "Future",
     "Present: “appears”",
     "Aorist",
     "Imperfect"
@@ -210,7 +210,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>ὅσοι δὲ βουλήσονται</em></p> <em>ὅσοι … βουλήσονται</em> is…",
    "explain": "<em>Ὅσοι</em>, “as many as,” names those for whom the work will be useful.",
    "options": [
-    "A relative clause standing as the subject of the thought",
+    "A relative clause",
     "A purpose clause",
     "A genitive absolute",
     "An indirect question"
@@ -226,7 +226,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ἀρκούντως ἕξει</em> means…",
    "explain": "<em>Ἔχω</em> with an adverb describes a state: it will be well enough.",
    "options": [
-    "“It will be enough”: <em>ἔχω</em> with an adverb",
+    "“It will be enough”",
     "“He will have enough”",
     "“It has been enough”",
     "“They will hold sufficiently”"
@@ -306,7 +306,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>εἰρήκασιν</em> is…",
    "explain": "The reduplicated stem <em>εἰρη-</em> and <em>-κασι</em> mark the perfect active. “they have said”",
    "options": [
-    "Perfect, third person plural",
+    "Perfect",
     "Aorist",
     "Future",
     "Present"
@@ -322,7 +322,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>κατέβην</em> is…",
    "explain": "<em>Ἔβην</em> is the root aorist of <em>βαίνω</em>, here compounded with <em>κατα-</em>. “I went down”",
    "options": [
-    "Aorist, first person singular",
+    "Aorist",
     "Imperfect",
     "Present",
     "Perfect"
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>μετὰ Γλαύκωνος</em> means…",
    "explain": "With the genitive, <em>μετά</em> means “with”; with the accusative, “after.”",
    "options": [
-    "“With Glaucon”: <em>μετά</em> with the genitive",
+    "“With Glaucon”",
     "“After Glaucon”",
     "“Among Glaucon”",
     "“Toward Glaucon”"
@@ -354,7 +354,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>προσευξόμενός</em></p> <em>προσευξόμενος</em> expresses…",
    "explain": "A future participle after a verb of motion gives the purpose.",
    "options": [
-    "Purpose, as a future participle",
+    "Purpose",
     "Past time",
     "Concession",
     "Condition"
@@ -530,7 +530,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>οὖσαν</em> after <em>ὁρῶμεν</em> shows…",
    "explain": "Verbs of perceiving take a participle agreeing with the thing perceived.",
    "options": [
-    "A verb of seeing with a participle",
+    "A verb of seeing",
     "A genitive absolute",
     "An infinitive",
     "A future"
@@ -546,7 +546,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ἕνεκεν</em> governs…",
    "explain": "<em>Ἕνεκα</em> and <em>χάριν</em> follow the genitive they govern.",
    "options": [
-    "The genitive, which comes before it",
+    "The genitive",
     "The dative",
     "The accusative",
     "Nothing"
@@ -562,7 +562,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>δῆλον</em></p> What is the main clause?",
    "explain": "The other verbs belong to dependent clauses or to the parenthesis. “it is clear”",
    "options": [
-    "<em>δῆλον</em>, with <em>ἐστί</em> understood",
+    "<em>δῆλον</em>",
     "<em>ὁρῶμεν</em>",
     "<em>πράττουσι</em>",
     "<em>στοχάζονται</em>"
@@ -578,7 +578,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>ἦν ὁ λόγος</em></p> <em>ἦν</em> is…",
    "explain": "<em>Ἦν</em> is the imperfect, “was,” of a continuing state.",
    "options": [
-    "Imperfect of <em>εἰμί</em>: “was”",
+    "Imperfect of <em>εἰμί</em>",
     "Aorist of <em>γίγνομαι</em>",
     "Present",
     "Future"
@@ -626,7 +626,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>ὃ γέγονεν</em></p> <em>γέγονεν</em> is…",
    "explain": "The reduplicated stem <em>γε-γον-</em> marks the perfect.",
    "options": [
-    "Perfect: “has come to be”",
+    "Perfect",
     "Aorist",
     "Imperfect",
     "Present"
@@ -642,7 +642,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>αὐτὸ</em></p> <em>αὐτό</em> refers to…",
    "explain": "<em>Αὐτό</em> is neuter, like <em>τὸ φῶς</em>.",
    "options": [
-    "<em>τὸ φῶς</em>, the light",
+    "<em>τὸ φῶς</em>",
     "<em>ἡ σκοτία</em>",
     "<em>ὁ λόγος</em>",
     "<em>ἡ ζωή</em>"
@@ -658,7 +658,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>τῷ Ἀσκληπιῷ</em> is…",
    "explain": "The person to whom something is owed stands in the dative.",
    "options": [
-    "Dative: the one to whom the debt is owed",
+    "Dative",
     "Genitive",
     "Accusative",
     "Vocative"
@@ -706,7 +706,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>μὴ ἀμελήσητε</em> is…",
    "explain": "Greek forbids a single act with <em>μή</em> and the aorist subjunctive.",
    "options": [
-    "A prohibition: <em>μή</em> with the aorist subjunctive",
+    "A prohibition",
     "A purpose clause",
     "A condition",
     "A fear clause"
@@ -741,7 +741,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“The one who added”",
     "“The law”",
     "“The speech”",
-    "“They added”"
+    "“The one who will add,” a future"
    ],
    "answer": 0
   },
@@ -754,7 +754,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>τῷ νόμῳ</em> is…",
    "explain": "<em>Προστίθημι</em>, “add to,” takes the dative of the thing added to. added to the law",
    "options": [
-    "Dative with the compound verb",
+    "Dative",
     "Accusative",
     "Genitive",
     "Nominative"
@@ -771,7 +771,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "explain": "It agrees with <em>τοῖς</em> after <em>ἐπί</em>: over those who are buried. those being buried",
    "options": [
     "A present passive participle",
-    "An aorist active participle",
+    "An aorist passive participle",
     "A finite verb",
     "An infinitive"
    ],
@@ -789,7 +789,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A passive infinitive",
     "A middle participle",
     "A future indicative",
-    "An imperative"
+    "A present middle imperative"
    ],
    "answer": 0
   },
@@ -802,10 +802,10 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>τίσι … λόγοις</em> is…",
    "explain": "The dative gives the means of persuading. by what arguments",
    "options": [
-    "A dative of means in an indirect question",
+    "A dative of means",
     "An indirect object",
     "A dative of possession",
-    "A genitive"
+    "A dative of manner"
    ],
    "answer": 0
   },
@@ -834,7 +834,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "Why is <em>εἴη</em> optative?",
    "explain": "After a past tense, a reported statement may take the optative.",
    "options": [
-    "It reports the charge after a past verb",
+    "It reports the charge",
     "It expresses a wish",
     "It is a condition",
     "It is a purpose clause"
@@ -852,7 +852,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "options": [
     "<em>ἄξιος</em>, “worthy,” takes the genitive",
     "It shows possession",
-    "It follows <em>ὡς</em>",
+    "It follows <em>ὡς</em>, which here takes the genitive",
     "It is a genitive absolute"
    ],
    "answer": 0
@@ -866,7 +866,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>ἔχεις μοι εἰπεῖν</em></p> <em>ἔχεις … εἰπεῖν</em> means…",
    "explain": "<em>Ἔχω</em> with an infinitive means “be able.”",
    "options": [
-    "“Can you say”: <em>ἔχω</em> with the infinitive",
+    "“Can you say”",
     "“You have said”",
     "“Do you have a saying”",
     "“You will say”"
@@ -898,10 +898,10 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<p><em>διδακτὸν ἡ ἀρετή</em></p> Why is <em>διδακτόν</em> neuter, though <em>ἀρετή</em> is feminine?",
    "explain": "Greek may use a neuter predicate to speak of a thing in general.",
    "options": [
-    "A neuter predicate adjective means “a thing that is teachable”",
+    "A neuter predicate means “a teachable thing”",
     "It agrees with an understood <em>ἔργον</em>",
-    "It is a mistake",
-    "<em>Ἀρετή</em> is neuter"
+    "Predicate adjectives always stand in the neuter",
+    "<em>Ἀρετή</em> is a neuter noun"
    ],
    "answer": 0
   },
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A condition contrary to fact",
     "A simple condition",
     "A purpose clause",
-    "A wish"
+    "A wish about the past, introduced by <em>εἰ</em>"
    ],
    "answer": 0
   },
@@ -963,7 +963,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "explain": "<em>Ῥηθέντων</em> is the aorist passive participle of the verb “say,” genitive plural. of the things said",
    "options": [
     "An aorist passive participle",
-    "A perfect active participle",
+    "A perfect passive participle",
     "A finite verb",
     "An infinitive"
    ],
@@ -979,7 +979,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "explain": "Crasis merges <em>καί</em> with the next word.",
    "options": [
     "<em>καὶ αὐτός</em> joined by crasis: “I too”",
-    "A form of <em>κάω</em>",
+    "<em>κατ’ αὐτόν</em>, shortened",
     "A genitive",
     "An adverb of place"
    ],
@@ -1042,7 +1042,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "prompt": "<em>ἑαυτοῦ</em> is…",
    "explain": "The reflexive refers back to the subject, <em>ἕκαστος</em>.",
    "options": [
-    "A reflexive pronoun: his own",
+    "A reflexive pronoun",
     "A personal pronoun “him”",
     "A relative pronoun",
     "A demonstrative"

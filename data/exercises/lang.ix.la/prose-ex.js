@@ -82,7 +82,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>Achivos</em>: how does it stand?",
    "explain": "In the accusative and infinitive after <em>constat</em>, the subject of the infinitive is accusative: “that the Achaeans withheld every right of war.”",
    "options": [
-    "As the subject accusative of <em>abstinuisse</em>, in the reported statement",
+    "As the subject accusative of <em>abstinuisse</em>",
     "As the object of <em>constat</em>, the thing that is agreed",
     "As an accusative of exclamation: “the Achaeans!”",
     "As the object of <em>saevitum esse</em>, the ones raged against"
@@ -146,7 +146,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>effrenata</em> agrees with…",
    "explain": "<em>Effrenata</em> is nominative feminine singular and agrees with <em>audacia</em>, which Cicero holds back to the end of the question. <em>Sese</em> and <em>finem</em> are accusative.",
    "options": [
-    "<em>audacia</em>, the subject of <em>iactabit</em>",
+    "<em>audacia</em>",
     "<em>sese</em>, the object of <em>iactabit</em>",
     "<em>finem</em>, the end asked about",
     "<em>Catilina</em>, the man addressed"
@@ -178,7 +178,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>vobis atque huic urbi</em> with <em>minitantem</em> is in which case?",
    "explain": "<em>Minitor</em> takes the dative of the person threatened and the ablative of the thing threatened with: <em>vobis … ferro flammaque minitantem</em>.",
    "options": [
-    "Dative: the persons and the city threatened",
+    "Dative",
     "Ablative: the means of the threat",
     "Accusative: the object of <em>minitantem</em>",
     "Genitive: depending on <em>ferro</em>"
@@ -194,7 +194,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<p><em>vel eiecimus vel emisimus vel</em></p> What does <em>vel … vel … vel</em> join?",
    "explain": "<em>Vel</em> leaves the choice to the hearer: drove him out, or let him go, or saw him off. All three verbs share the object <em>Catilinam</em>.",
    "options": [
-    "Three verbs, offered as alternative ways of describing one event",
+    "Three verbs",
     "Three subordinate clauses of purpose",
     "Three objects of one verb",
     "Three conditions, each with its own result"
@@ -210,7 +210,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>prosecuti sumus</em> is…",
    "explain": "<em>Prosequor</em> is deponent, so its perfect, passive in form, is active in meaning, and <em>ipsum egredientem</em> is its object.",
    "options": [
-    "The perfect of a deponent verb, active in meaning: “we followed”",
+    "The perfect of a deponent verb",
     "A perfect passive: “we were followed”",
     "A future perfect: “we shall have followed”",
     "A participle used as an adjective with <em>verbis</em>"
@@ -258,7 +258,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>sedandam</em> agrees with…",
    "explain": "One gerundive serves both feminine nouns joined by <em>-que</em>, and it agrees in form with the nearer one: <em>ad invidiam … infamiamque … sedandam</em>, “toward quieting the ill will and the ill repute.”",
    "options": [
-    "<em>infamiam</em>, the nearer noun, and serves for <em>invidiam</em> as well",
+    "<em>infamiam</em>",
     "<em>ordinis</em>, the order of the judges",
     "<em>iudiciorum</em>, the courts",
     "<em>id</em>, the subject of the main verb"
@@ -402,7 +402,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "In <em>malo pravoque</em>, what does <em>-que</em> join?",
    "explain": "<em>-que</em> joins <em>pravo</em> to <em>malo</em>, and both adjectives agree with <em>ingenio</em>.",
    "options": [
-    "The two adjectives agreeing with <em>ingenio</em>",
+    "The two adjectives",
     "<em>ingenio</em> to <em>corporis</em>",
     "The sentence to the next one",
     "<em>malo</em> to <em>fuit</em>"
@@ -466,7 +466,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>nosset</em> is…",
    "explain": "<em>Novi</em>, “I have learned,” means “I know,” so the pluperfect means “he knew.” The subjunctive after <em>quod</em> gives the reason as he stated it. “he knew”",
    "options": [
-    "The pluperfect subjunctive of <em>nosco</em>, shortened from <em>novisset</em>",
+    "The pluperfect subjunctive of <em>nosco</em>",
     "The present subjunctive of <em>nosco</em>: “he may know”",
     "The imperfect indicative: “he was knowing”",
     "An infinitive: “to know”"
@@ -482,7 +482,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>hostibus</em> is…",
    "explain": "<em>Dedit</em> takes the thing given, <em>iter</em>, in the accusative and the receiver, <em>hostibus</em>, in the dative.",
    "options": [
-    "Dative: the ones to whom a way was almost given",
+    "Dative",
     "Ablative: by the enemy",
     "Ablative absolute: the enemy being present",
     "Genitive: the way of the enemy"
@@ -514,7 +514,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>Horatius Cocles</em> stands…",
    "explain": "The name is in the nominative, like <em>vir</em>, and it tells who the one man was.",
    "options": [
-    "In apposition to <em>vir</em>, naming the man",
+    "In apposition to <em>vir</em>",
     "As the subject of <em>dedit</em>",
     "As a vocative, addressed by Livy",
     "As the object of <em>habuit</em>"
@@ -594,7 +594,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>dum … reputarem</em> depends on…",
    "explain": "<em>Dum … reputarem … signarem</em> is a clause of time, with the subjunctive as later Latin often has it with <em>dum</em>. The main clause is <em>uisa est mulier</em>.",
    "options": [
-    "<em>uisa est</em>, the main verb of the period",
+    "<em>uisa est</em>",
     "<em>mulier</em>, as a purpose clause",
     "<em>uerticem</em>, as the noun it governs",
     "Nothing: it is an independent wish"
@@ -642,7 +642,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>adstitisse</em> is…",
    "explain": "<em>Videor</em> takes an infinitive: <em>adstitisse uisa est</em>, “she seemed to have stood.” The perfect infinitive marks an act complete before the seeming.",
    "options": [
-    "A perfect infinitive depending on <em>uisa est</em>",
+    "A perfect infinitive",
     "A perfect indicative",
     "A present infinitive of purpose",
     "A historical infinitive"
@@ -690,7 +690,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>haec</em> is…",
    "explain": "<em>Haec</em>, “these things,” is what the senate understands and the consul sees.",
    "options": [
-    "Neuter plural accusative, the object of <em>intellegit</em> and <em>videt</em>",
+    "Neuter plural accusative",
     "Feminine singular nominative, the subject",
     "Neuter plural nominative, the subject of <em>videt</em>",
     "Ablative singular: “in this way”"
@@ -770,7 +770,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em>fortissimo</em> is…",
    "explain": "<em>Pro</em> takes the ablative, and <em>fortissimo</em>, “most brave,” agrees with <em>viro</em>.",
    "options": [
-    "A superlative adjective in the ablative, with <em>viro</em> after <em>pro</em>",
+    "A superlative adjective in the ablative",
     "A comparative adverb",
     "A superlative in the dative, the indirect object",
     "A nominative agreeing with the speaker"
@@ -818,7 +818,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<p><em>Omnis homines</em></p> What are the case and the use of <em>omnis homines</em>?",
    "explain": "<em>Omnis</em> is an accusative plural in <em>-is</em>. With <em>decet</em>, the persons for whom something is fitting stand in the accusative as the subject of the infinitive.",
    "options": [
-    "Accusative plural, the subject of the infinitive <em>vacuos esse</em>",
+    "Accusative plural",
     "Nominative plural, the subject of <em>decet</em>",
     "Genitive singular, “of every man”",
     "Vocative, addressing all men"
@@ -962,7 +962,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<p><em>auferre trucidare rapere</em></p> The three infinitives are…",
    "explain": "An infinitive can name an action as a thing. Here the three are what the Romans call empire.",
    "options": [
-    "Infinitives used as nouns, the object of an understood <em>appellant</em>",
+    "Infinitives used as nouns",
     "Historical infinitives standing for past verbs",
     "Infinitives of purpose",
     "Imperatives"
@@ -1014,6 +1014,86 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>imperium</em>, as a relative clause naming the empire",
     "Nothing: the two verbs are independent and equal",
     "<em>auferre</em>, as a clause of purpose"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ix.la/prose-ex:lp2",
+   "set": "A",
+   "deck": "lang.ix.la/prose-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "How are <em>et vetusti iure hospitii</em> and <em>quia … fuerunt</em> joined to <em>abstinuisse</em>?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.”<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
+   "explain": "<em>Et … et</em> joins the two causes as companions. The first is an ablative phrase; the second is a clause that depends, with <em>quia</em>. Together they give the cause of <em>abstinuisse</em>.",
+   "options": [
+    "As two causes linked by <em>et … et</em>: a phrase, then a <em>quia</em>-clause",
+    "As two relative clauses, both of them taking up <em>duobus</em>",
+    "As two independent periods, set side by side with <em>constat</em>",
+    "As a purpose clause and then a result clause, one after the other"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ix.la/prose-ex:lp3",
+   "set": "A",
+   "deck": "lang.ix.la/prose-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "What does <em>constat</em> govern?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.”<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
+   "explain": "<em>Satis constat</em> takes the reported facts in the infinitive: <em>saevitum esse</em> (an impersonal passive) and <em>abstinuisse</em>, with <em>Achivos</em> as its subject. Foster’s text marks the two members with a colon.",
+   "options": [
+    "An accusative and infinitive: <em>saevitum esse</em> and <em>abstinuisse</em>",
+    "A purpose clause, with <em>ut</em> understood before the infinitives",
+    "Only the nominative <em>Troianos</em>, as the subject of the verb",
+    "Nothing, since <em>constat</em> is complete and the rest is a new sentence"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ix.la/prose-ex:lp5",
+   "set": "B",
+   "deck": "lang.ix.la/prose-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "<em>saevitum esse</em>: what form?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.”<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
+   "explain": "<em>Saevire</em> takes no object, and so its passive is impersonal: <em>saevitum est</em>, “there was raging.” As an infinitive it depends on <em>constat</em>. <em>In ceteros</em> tells against whom.",
+   "options": [
+    "An impersonal passive infinitive: “violence was done”",
+    "A perfect active infinitive, with <em>ceteros</em> as its subject",
+    "A supine of purpose, “in order to rage,” after a verb of motion",
+    "A future infinitive, “to be about to rage”"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ix.la/prose-ex:lp6",
+   "set": "B",
+   "deck": "lang.ix.la/prose-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "<em>in ceteros … Troianos</em>: case and sense?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.”<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
+   "explain": "With the accusative, <em>in</em> can mean “against,” where hostility is aimed. With the ablative it would be place where, “among.” The adjective and noun are split around the verb.",
+   "options": [
+    "Accusative: against the rest of the Trojans",
+    "Ablative: among the rest of the Trojans, as the place where",
+    "Nominative: the rest of the Trojans raged",
+    "Genitive: of the rest of the Trojans"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.ix.la/prose-ex:lp8",
+   "set": "C",
+   "deck": "lang.ix.la/prose-ex",
+   "section": "ix",
+   "type": "mc",
+   "prompt": "<em>pacis reddendaeque Helenae</em>: on which word do these genitives depend?<br><br>“To begin with, it is generally admitted that after the capture of Troy, whilst the rest of the Trojans were massacred, against two of them—Aeneas and Antenor—the Achivi refused to exercise the rights of war, partly owing to old ties of hospitality, and partly because these men had always been in favour of making peace and surrendering Helen.”<br>(<em>iam primum omnium satis constat Troia capta in ceteros saevitum esse Troianos: duobus, Aeneae Antenorique, et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt, omne ius belli Achivos abstinuisse; …</em>)",
+   "explain": "<em>Auctor</em> takes a genitive of what one urges: they had always been advocates of making peace and returning Helen. <em>Semper … fuerunt</em> is the verb of the <em>quia</em>-clause.",
+   "options": [
+    "<em>auctores</em>, “advocates”",
+    "<em>fuerunt</em>, as genitives of quality: they were men of peace",
+    "<em>iure</em>, as genitives with “right”: by the right of peace",
+    "<em>hospitii</em>, as genitives of the bond: guest-friendship of peace"
    ],
    "answer": 0
   }

@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>könnte gehalten werden</em> is…",
    "explain": "<em>Gehalten werden</em> is the passive infinitive, and <em>könnte</em> is the past subjunctive of <em>können</em>. could be held",
    "options": [
-    "A subjunctive with a passive infinitive",
+    "A subjunctive",
     "A future active",
     "A perfect passive",
     "An imperative"
@@ -98,7 +98,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>die</em> in <em>die sie nicht abweisen kann</em> is…",
    "explain": "<em>Sie</em> is the subject, reason; <em>die</em>, plural, is the object: which it cannot refuse.",
    "options": [
-    "A relative pronoun standing for <em>Fragen</em>, object of <em>abweisen</em>",
+    "A relative pronoun",
     "The article with <em>sie</em>",
     "The subject of <em>kann</em>",
     "A demonstrative: those women"
@@ -146,7 +146,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<p><em>bin ich</em></p> Why does <em>bin</em> come before <em>ich</em>?",
    "explain": "In a main clause the finite verb is second; whatever comes first, the subject follows the verb.",
    "options": [
-    "The verb stays second, and <em>wie froh</em> holds the first place",
+    "The verb stays second",
     "It is a question",
     "<em>Ich</em> is the object",
     "German always puts the subject last"
@@ -178,7 +178,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>des Menschen</em> is…",
    "explain": "<em>Des</em> is the genitive article, and the weak noun <em>Mensch</em> adds <em>-en</em>.",
    "options": [
-    "Genitive singular: of man",
+    "Genitive singular",
     "Dative plural",
     "Accusative singular",
     "Nominative plural"
@@ -194,7 +194,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>den</em> in <em>den ich so liebe</em> stands for…",
    "explain": "<em>Den</em> is masculine accusative, object of <em>liebe</em>, and it takes up the friend addressed.",
    "options": [
-    "<em>dich</em>, the friend",
+    "<em>dich</em>",
     "<em>das Herz</em>",
     "<em>den Menschen</em>",
     "<em>ich</em>"
@@ -226,7 +226,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>dessen</em> is…",
    "explain": "<em>Dessen Töchter</em>: whose daughters, the king’s.",
    "options": [
-    "The genitive relative: whose",
+    "The genitive relative",
     "A demonstrative: that one’s",
     "The dative of <em>der</em>",
     "A conjunction: since"
@@ -290,7 +290,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "In <em>der war arm</em>, <em>der</em> is…",
    "explain": "In a relative clause the verb would be last: <em>der arm war</em>. Here it is second.",
    "options": [
-    "A demonstrative, since the verb stays second",
+    "A demonstrative",
     "A relative, with the verb at the end",
     "The article with <em>arm</em>",
     "A dative"
@@ -306,7 +306,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>eine schöne Tochter</em> is…",
    "explain": "<em>Er</em> is the subject; the feminine accusative looks like the nominative.",
    "options": [
-    "Accusative feminine, object of <em>hatte</em>",
+    "Accusative feminine",
     "Nominative, the subject",
     "Dative",
     "Genitive"
@@ -339,7 +339,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "Like <em>abends</em> and <em>morgens</em>, the <em>-s</em> is an old genitive used for time.",
    "options": [
     "An adverb from an old genitive: at noon",
-    "A plural noun",
+    "A plural noun, the subject of the clause",
     "A dative",
     "A verb"
    ],
@@ -356,7 +356,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "options": [
     "The verb stays second after the time phrases",
     "It is a question",
-    "<em>Ich</em> is the object",
+    "<em>Ich</em> is the object, placed after the verb",
     "It is a subjunctive"
    ],
    "answer": 0
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "options": [
     "<em>Auf</em> takes the accusative for motion onto a place",
     "<em>Auf</em> always takes the accusative",
-    "<em>Welt</em> is the object of <em>kam</em>",
+    "<em>Welt</em> is the object of <em>kam</em>, which governs the accusative",
     "It is a nominative"
    ],
    "answer": 0
@@ -386,7 +386,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<p><em>geht um</em></p> <em>geht … um</em> is…",
    "explain": "In a main clause the separable prefix leaves its verb. <em>Umgehen</em>, of ghosts, is “to haunt.”",
    "options": [
-    "The separable verb <em>umgehen</em>, split in a main clause",
+    "The separable verb <em>umgehen</em>",
     "<em>Gehen</em> with the preposition <em>um</em> governing <em>Europa</em>",
     "A passive",
     "A perfect"
@@ -419,7 +419,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "German brackets the clause: auxiliary second, participle last. and the rest goes between",
    "options": [
     "The participle closes the clause",
-    "It belongs to the next clause",
+    "It belongs to the next clause, as its first word",
     "It is an adjective",
     "It is a dependent clause"
    ],
@@ -434,7 +434,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<p><em>deutsche Polizisten</em></p> <em>deutsche</em> has the ending <em>-e</em> because…",
    "explain": "Without an article, the adjective shows the case: nominative plural <em>-e</em>. the strong ending",
    "options": [
-    "It is plural with no article",
+    "It is plural",
     "<em>Polizisten</em> is feminine",
     "It is dative",
     "It is singular"
@@ -484,7 +484,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "options": [
     "A genitive object of <em>genoss</em>",
     "A dative",
-    "A possessive of <em>er</em>",
+    "A genitive of possession depending on <em>er</em>",
     "The subject"
    ],
    "answer": 0
@@ -531,7 +531,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "The present participle adds <em>-d</em> to the infinitive: <em>leben</em>, <em>lebend</em>, with the ending <em>-e</em>.",
    "options": [
     "A present participle used as an adjective",
-    "A past participle",
+    "A past participle of <em>leben</em> used as an adjective",
     "An infinitive",
     "A noun"
    ],
@@ -546,7 +546,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>sie</em> in <em>der Mensch allein sie … bringen kann</em> is…",
    "explain": "<em>Der Mensch</em> is the subject; <em>sie</em>, feminine accusative, takes up <em>Wahrheit</em>.",
    "options": [
-    "The truth, object of <em>bringen</em>",
+    "The truth",
     "Man, the subject",
     "The beings, plural",
     "The world"
@@ -563,7 +563,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "<em>In</em> takes the accusative for motion and the dative for rest.",
    "options": [
     "Motion into a thing takes the accusative",
-    "<em>In</em> always takes the accusative",
+    "<em>In</em> always takes the accusative, whatever the sense",
     "<em>Bewusstsein</em> is masculine",
     "It is a genitive"
    ],
@@ -643,7 +643,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "<em>Vor</em> is a two-way preposition; the house stands before the forest, at rest.",
    "options": [
     "<em>vor</em> takes the dative for place at rest",
-    "<em>vor</em> always takes the dative",
+    "<em>vor</em> always takes the dative, whatever the sense",
     "It is the indirect object of <em>wohnte</em>",
     "It is the subject"
    ],
@@ -675,7 +675,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "After <em>mit</em>, dative; nouns add <em>-n</em> in the dative plural.",
    "options": [
     "The dative plural adds <em>-n</em>",
-    "It is genitive",
+    "It is the genitive plural",
     "It is a diminutive",
     "It is singular"
    ],
@@ -691,7 +691,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "The diminutive <em>-chen</em> makes any noun neuter, as in <em>das Mädchen</em>.",
    "options": [
     "Nouns in <em>-chen</em> are neuter",
-    "It is a mistake",
+    "The article follows the meaning, not the form",
     "<em>Bube</em> is neuter",
     "It is plural"
    ],
@@ -706,7 +706,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "Why <em>kleines</em>?",
    "explain": "After <em>ein</em> the neuter nominative adjective takes <em>-es</em>.",
    "options": [
-    "<em>Mädchen</em> is neuter, and <em>ein</em> has no ending",
+    "<em>Mädchen</em> is neuter",
     "It is genitive",
     "It is plural",
     "It is a comparative"
@@ -740,7 +740,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "options": [
     "The past perfect, formed with <em>sein</em>",
     "A passive",
-    "The simple past",
+    "The simple past of <em>sterben</em>, formed with <em>war</em>",
     "A subjunctive"
    ],
    "answer": 0
@@ -773,7 +773,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A predicate adjective",
     "A past participle",
     "A noun",
-    "An adverb of time"
+    "An adverb of time modifying <em>war</em>"
    ],
    "answer": 0
   },
@@ -850,7 +850,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "Why <em>Mitteln</em>?",
    "explain": "<em>Mit</em> takes the dative; the plural adds <em>-n</em>.",
    "options": [
-    "Dative plural after <em>mit</em>",
+    "Dative plural",
     "Genitive singular",
     "Accusative plural",
     "It is a verb"
@@ -898,7 +898,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "prompt": "<em>Vorausgesetzt</em> is…",
    "explain": "Like English “granted,” the participle stands alone before a <em>dass</em> clause. supposing",
    "options": [
-    "A past participle used for a condition",
+    "A past participle",
     "An imperative",
     "A noun",
     "A present participle"
@@ -915,7 +915,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "explain": "Questions without a question word put the verb first.",
    "options": [
     "It is a yes-or-no question",
-    "It follows <em>wie</em>",
+    "It follows <em>wie</em>, which sends the verb first",
     "It is a command",
     "It is a dependent clause"
    ],
@@ -932,7 +932,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "options": [
     "A clause nested inside the <em>dass</em> clause",
     "The main clause",
-    "A relative clause on <em>Weiber</em>",
+    "A relative clause depending on the noun <em>Weiber</em>",
     "A question"
    ],
    "answer": 0

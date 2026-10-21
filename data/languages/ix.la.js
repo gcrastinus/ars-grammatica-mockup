@@ -7,55 +7,48 @@ ARS.languages["lang.ix.la"] = {
  "section": "ix",
  "more": false,
  "items": [
-{
+  {
    "id": "lang.ix.la/prose",
    "kind": "study",
    "built": true,
    "title": "Latin Prose",
    "desc": "Fifteen passages of the historians, the orators, and the Christian writers, read part by part."
   },
-{
+  {
    "id": "lang.ix.la/prose-ex",
    "kind": "exercise",
    "built": true,
    "title": "Latin Prose",
-   "desc": "63 questions."
+   "desc": "68 questions."
   },
-{
+  {
    "id": "lang.ix.la/poetry",
    "kind": "study",
    "built": true,
    "title": "Latin Poetry",
    "desc": "Ten passages in five meters, read part by part."
   },
-{
+  {
    "id": "lang.ix.la/poetry-ex",
    "kind": "exercise",
    "built": true,
    "title": "Latin Poetry",
-   "desc": "52 questions."
+   "desc": "67 questions."
   },
-{
-   "id": "lang.ix.la/period-ex",
-   "kind": "exercise",
+  {
+   "id": "lang.ix.la/servius",
+   "kind": "study",
    "built": true,
-   "title": "The Period",
-   "desc": "16 questions."
+   "title": "Servius on the Aeneid",
+   "desc": "The ancient commentator, his questions, and the form of his notes."
   },
-{
-   "id": "lang.ix.la/livy-ex",
-   "kind": "exercise",
-   "built": true,
-   "title": "Livy",
-   "desc": "9 questions."
-  },
-{
+  {
    "id": "lang.ix.la/servius-ex",
    "kind": "exercise",
    "built": true,
-   "title": "Servius",
-   "desc": "12 questions."
+   "title": "Servius on the Aeneid",
+   "desc": "20 questions.",
+   "exFor": "lang.ix.la/servius"
   }
-
  ]
 };

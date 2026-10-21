@@ -162,7 +162,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>pensant</em> is…",
    "explain": "The participle in <em>-ant</em> describes the reed: a thinking reed.",
    "options": [
-    "A present participle used as an adjective",
+    "A present participle",
     "A finite verb in the present",
     "A noun meaning “thinker”",
     "An infinitive"
@@ -210,7 +210,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>lecteur</em> here is…",
    "explain": "A noun set off without an article, naming the one spoken to, is an address.",
    "options": [
-    "The person addressed: reader",
+    "The person addressed",
     "The subject of <em>est</em>",
     "The object of <em>avertit</em>",
     "In apposition to <em>livre</em>"
@@ -242,7 +242,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<p><em>m’y suis proposé</em></p> Why does <em>proposé</em> take <em>suis</em>, not <em>ai</em>?",
    "explain": "Every reflexive verb forms its compound tenses with <em>être</em>.",
    "options": [
-    "The verb is reflexive, and reflexive verbs take <em>être</em>",
+    "The verb is reflexive",
     "<em>Proposer</em> is a verb of motion",
     "The subject is feminine",
     "It is a passive"
@@ -274,7 +274,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>est né</em> is…",
    "explain": "<em>Naître</em> is one of the verbs that form the compound past with <em>être</em>.",
    "options": [
-    "The passé composé of <em>naître</em>, formed with <em>être</em>",
+    "The passé composé of <em>naître</em>",
     "A present passive: is borne",
     "An adjective with <em>est</em>",
     "An imperfect"
@@ -306,7 +306,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>ne laisse pas d’être</em> means…",
    "explain": "<em>Ne pas laisser de</em> with an infinitive means “not to fail to”: he still is.",
    "options": [
-    "Is nonetheless, still is",
+    "Is nonetheless",
     "Does not let himself be",
     "Stops being",
     "Leaves off being"
@@ -322,7 +322,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>eux</em> in <em>plus esclave qu’eux</em> is…",
    "explain": "After <em>que</em> in a comparison French uses the stressed pronoun: <em>eux</em>.",
    "options": [
-    "The stressed pronoun, standing for <em>les autres</em>",
+    "The stressed pronoun",
     "The subject pronoun <em>ils</em> shortened",
     "An object of <em>laisse</em>",
     "A reflexive"
@@ -386,7 +386,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>que</em> in <em>que l’égalité des conditions</em>…",
    "explain": "<em>Plus vivement … que</em>: more strongly than.",
    "options": [
-    "Completes the comparison with <em>plus</em>",
+    "Completes the comparison",
     "Begins a relative clause",
     "Begins a clause of result",
     "Is a relative object pronoun"
@@ -402,7 +402,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>étions</em> is in the imperfect because…",
    "explain": "The imperfect sets the background; the passé simple gives the event.",
    "options": [
-    "It describes the scene that was going on",
+    "It describes the scene",
     "It is a single completed event",
     "It is a condition",
     "It is a polite form"
@@ -434,7 +434,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>suivi</em> agrees with…",
    "explain": "The participle describes the headmaster, and <em>de</em> brings in those who followed him.",
    "options": [
-    "<em>le Proviseur</em>, who was followed",
+    "<em>le Proviseur</em>",
     "<em>un nouveau</em>",
     "<em>nous</em>",
     "<em>un grand pupitre</em>"
@@ -466,7 +466,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<p><em>était évêque</em></p> Why is there no article before <em>évêque</em>?",
    "explain": "<em>Il est médecin</em>, <em>il était évêque</em>: the noun of rank or profession is treated as a predicate adjective.",
    "options": [
-    "After <em>être</em>, a noun of office is used without one",
+    "After <em>être</em>",
     "There was only one bishop",
     "<em>Évêque</em> is an adjective",
     "The article is elided"
@@ -514,7 +514,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>égaux</em> agrees with…",
    "explain": "<em>Égal</em> has the plural <em>égaux</em>, like other adjectives in <em>-al</em>, and it describes men.",
    "options": [
-    "<em>les hommes</em>, masculine plural",
+    "<em>les hommes</em>",
     "<em>droits</em>",
     "<em>libres</em>",
     "Nothing: it is an adverb"
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em>ses</em> agrees with…",
    "explain": "French possessives agree with the noun they go with.",
    "options": [
-    "<em>raisons</em>, the thing possessed",
+    "<em>raisons</em>",
     "<em>cœur</em>, the possessor",
     "<em>la raison</em>",
     "Nothing: it is invariable"
@@ -623,10 +623,10 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>que</em> is…",
+   "prompt": "<em>que</em> in <em>que la raison ne connaît point</em> is…",
    "explain": "<em>La raison</em> is the subject; <em>que</em>, standing for the heart’s reasons, is the object.",
    "options": [
-    "A relative pronoun, object of <em>connaît</em>",
+    "A relative pronoun",
     "A conjunction: that",
     "The subject of <em>connaît</em>",
     "A comparison: than"
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The whole statement just made",
     "<em>le cœur</em>",
     "<em>la raison</em>",
-    "A thousand things"
+    "A thousand things, named in the next clause"
    ],
    "answer": 0
   },
@@ -693,7 +693,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A demonstrative adjective: these",
     "A possessive: his",
     "An article: the",
-    "A pronoun: those ones"
+    "A demonstrative pronoun: “those ones”"
    ],
    "answer": 0
   },
@@ -738,7 +738,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<p><em>L’</em></p> Why <em>l’</em> and not <em>la</em>?",
    "explain": "Before a vowel or a mute <em>h</em>, <em>le</em> and <em>la</em> become <em>l’</em>.",
    "options": [
-    "The <em>h</em> of <em>hypocrisie</em> is mute, so the article is elided",
+    "The <em>h</em> of <em>hypocrisie</em> is mute",
     "<em>Hypocrisie</em> is masculine",
     "<em>L’</em> is a pronoun here",
     "French elides before every consonant"
@@ -751,10 +751,10 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>que</em> is…",
+   "prompt": "<em>que</em> in <em>que le vice rend à la vertu</em> is…",
    "explain": "<em>Le vice</em> is the subject; <em>que</em> stands for the homage it pays.",
    "options": [
-    "A relative pronoun, object of <em>rend</em>",
+    "A relative pronoun",
     "The subject of <em>rend</em>",
     "A conjunction: that",
     "A comparison: than"

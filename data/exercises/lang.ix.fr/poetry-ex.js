@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em>dont</em> here means…",
    "explain": "<em>Être agité de</em>: to be shaken by. <em>Dont</em> takes the place of <em>duquel</em>.",
    "options": [
-    "By which, standing for <em>de</em> with the relative",
+    "By which",
     "Whose, of a person",
     "Where",
     "Than which"
@@ -98,7 +98,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em>si</em> in <em>voir si la rose</em> means…",
    "explain": "After <em>voir</em>, <em>si</em> introduces what is to be seen: whether the rose has lost its petals.",
    "options": [
-    "Whether: it begins an indirect question",
+    "Whether",
     "If: a condition",
     "So: an adverb of degree",
     "Yes: an answer"
@@ -130,7 +130,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em>au vôtre</em> means…",
    "explain": "<em>Au</em> is <em>à le</em>, and <em>le vôtre</em> stands for <em>votre teint</em>.",
    "options": [
-    "To yours: <em>le vôtre</em> is a possessive pronoun",
+    "To yours",
     "At your house",
     "To you",
     "Of yours"
@@ -260,7 +260,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "options": [
     "A reflexive verb takes <em>être</em> in compound tenses",
     "<em>Vêtir</em> always takes <em>être</em>",
-    "It is passive",
+    "It is passive, formed with <em>être</em> like every passive",
     "The old language had no <em>avoir</em>"
    ],
    "answer": 0
@@ -274,8 +274,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em>luyant</em> is…",
    "explain": "The old spelling of <em>luisant</em>, from <em>luire</em>.",
    "options": [
-    "A present participle used as an adjective: shining",
-    "A past participle",
+    "A present participle: “shining”",
+    "A past participle used as an adjective",
     "A finite verb",
     "A noun"
    ],
@@ -292,7 +292,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "options": [
     "It agrees with <em>vieillesse</em>",
     "It agrees with <em>rage</em>",
-    "The speaker is a woman",
+    "The speaker is a woman, and it agrees with her",
     "It is a noun of address"
    ],
    "answer": 0
@@ -325,7 +325,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The subject follows the verb in a question",
     "<em>Je</em> is the object",
     "It is a subjunctive",
-    "The meter alone requires it"
+    "The meter alone requires it, against the rule"
    ],
    "answer": 0
   },
@@ -357,7 +357,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The subject of <em>flétrir</em>",
     "The object of <em>flétrir</em>",
     "The subject of <em>voir</em>",
-    "A phrase of time"
+    "A phrase of quantity, the object of <em>voir</em>"
    ],
    "answer": 0
   },
@@ -466,7 +466,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "What is the subject of <em>Direz</em>?",
    "explain": "The ending <em>-ez</em> shows the person; the older language could omit the pronoun.",
    "options": [
-    "<em>vous</em>, left unexpressed",
+    "<em>vous</em>",
     "<em>Ronsard</em>",
     "<em>mes vers</em>",
     "<em>le feu</em>"
@@ -562,7 +562,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em>le</em> in <em>Je le vis</em> is…",
    "explain": "Object pronouns stand before the verb in French.",
    "options": [
-    "The object of <em>vis</em>, placed before the verb",
+    "The object of <em>vis</em>",
     "An article",
     "The subject",
     "A reflexive pronoun"
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "Why the imperfect <em>voyaient</em> and not the passé simple?",
    "explain": "The imperfect gives the condition; the passé simple gives the events.",
    "options": [
-    "It describes a state that lasted",
+    "It describes a state",
     "It is a single completed event",
     "It is a future in the past",
     "It is a subjunctive"

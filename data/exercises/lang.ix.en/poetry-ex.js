@@ -36,7 +36,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "A relative clause describing “tree”",
     "The main clause",
-    "A clause of time",
+    "A clause of time telling when death came",
     "A noun clause"
    ],
    "answer": 0
@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "<p>“Restore”</p> Why is it “restore” and not “restores”?",
    "explain": "“Till one greater Man restore us” looks forward to an event, and older English uses the subjunctive.",
    "options": [
-    "It is the subjunctive after “till,” of an event still awaited",
+    "It is the subjunctive",
     "It is an imperative",
     "The subject is plural",
     "It is an infinitive"
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "“Sing” is…",
    "explain": "It is a command to the Muse, the noun of address that follows.",
    "options": [
-    "An imperative, the main verb of the period",
+    "An imperative",
     "A present indicative",
     "An infinitive",
     "A participle"
@@ -82,9 +82,9 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "<p>“thee”</p> “Thee” is…",
    "explain": "“Thou” is the subject form, and “thee” the object.",
    "options": [
-    "The older objective form of the second person singular",
+    "The objective case of “thou”",
     "The subject",
-    "A possessive",
+    "The possessive form of “thou”",
     "A plural"
    ],
    "answer": 0
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "Comparative adjectives completing “art”",
     "Adverbs modifying “compare”",
-    "Superlatives",
+    "Superlative adjectives completing “art”",
     "Nouns"
    ],
    "answer": 0
@@ -116,7 +116,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "A helping verb of emphasis in the present",
     "The main verb meaning “perform”",
-    "A sign of the future",
+    "A helping verb that marks the future, like “will”",
     "A sign of the passive"
    ],
    "answer": 0
@@ -130,7 +130,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "<p>“is his gold complexion dimm’d”</p> “Is his gold complexion dimm’d” is…",
    "explain": "The order is inverted: his gold complexion is dimmed.",
    "options": [
-    "A passive verb, with the subject after the helping verb",
+    "A passive verb",
     "A question",
     "An active verb",
     "A participle alone"
@@ -146,7 +146,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "<p>“parting”</p> “Parting” in “parting day” is…",
    "explain": "It describes “day”: the departing day.",
    "options": [
-    "A participle used as an adjective",
+    "A participle",
     "A gerund",
     "A verb in the past",
     "A noun"
@@ -163,7 +163,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "explain": "A collective noun may take a plural verb when its members are thought of one by one. here taken as many animals",
    "options": [
     "“Herd” is a collective noun",
-    "It is an error",
+    "“Herd” is a plural noun in Gray’s English",
     "“Wind” is a noun",
     "The verb agrees with “lea”"
    ],
@@ -180,7 +180,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "An adverb of direction modifying “plods”",
     "An adjective describing “plowman”",
-    "A noun",
+    "A noun naming the place, the object of “plods”",
     "A preposition"
    ],
    "answer": 0
@@ -261,7 +261,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The subject “thou”",
     "The verb",
     "The object",
-    "Nothing"
+    "Nothing; the verb has its subject in the line before"
    ],
    "answer": 0
   },
@@ -291,7 +291,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "explain": "“That” takes up the cloud.",
    "options": [
     "A relative clause describing “a Cloud”",
-    "A noun clause",
+    "A noun clause, the object of the verb “wandered”",
     "A clause of time",
     "The main clause"
    ],
@@ -308,7 +308,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "A dependent clause of time",
     "The main clause",
-    "A relative clause",
+    "A relative clause describing “a crowd”",
     "An indirect question"
    ],
    "answer": 0
@@ -341,7 +341,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A relative clause describing “a traveller”",
     "A question",
     "The main clause",
-    "A noun clause, object of “met”"
+    "A noun clause, the object of the verb “met”"
    ],
    "answer": 0
   },
@@ -388,7 +388,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "options": [
     "Its subject is three things joined by “and”",
     "It is an imperative",
-    "It goes with “the sculptor”",
+    "It agrees with “the sculptor,” a plural subject here",
     "It is past tense"
    ],
    "answer": 0
@@ -469,7 +469,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The object of “could frame”",
     "The subject",
     "A noun of address",
-    "An adverb"
+    "An adverb telling how the tiger was framed"
    ],
    "answer": 0
   },
@@ -485,7 +485,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“True ease in writing”",
     "“art”",
     "“chance”",
-    "“writing” alone"
+    "“writing” alone, the object of “in”"
    ],
    "answer": 0
   },
@@ -517,7 +517,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The clause “(that) no harshness gives offence”",
     "The sound",
     "Art",
-    "Nothing"
+    "Nothing; “it” is an empty subject, as in “it rains”"
    ],
    "answer": 0
   },
@@ -530,7 +530,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "“an echo to the sense” is…",
    "explain": "“Seem” links the subject to what it is said to be.",
    "options": [
-    "A complement after “must seem”",
+    "A complement",
     "The subject",
     "The object of “sound”",
     "An adverb of place"
@@ -549,7 +549,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "An older form of the negative imperative",
     "A subjunctive of wish",
     "A question",
-    "A statement"
+    "A plain statement that death is not proud"
    ],
    "answer": 0
   },
@@ -613,7 +613,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "After “nor” the helping verb comes before the subject",
     "It is a question",
     "It is an imperative",
-    "For the rhyme"
+    "For the rhyme alone, against the ordinary English order"
    ],
    "answer": 0
   },
@@ -626,7 +626,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "“much abides” is…",
    "explain": "“Though” governs only “much is taken.”",
    "options": [
-    "The main clause after the concession",
+    "The main clause",
     "A dependent clause",
     "A relative clause",
     "An infinitive phrase"
@@ -658,7 +658,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "In “that which we are, we are,” the phrase “that which we are” is…",
    "explain": "The complement is moved to the front, and “we are” closes the line.",
    "options": [
-    "Placed first for emphasis; the clause is “we are that”",
+    "Placed first for emphasis",
     "The subject of “are”",
     "A question",
     "A dependent clause of time"

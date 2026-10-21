@@ -18,7 +18,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<em>μῆνιν</em> is…",
    "explain": "The first word of the poem is its subject: sing the wrath.",
    "options": [
-    "Accusative, the object of <em>ἄειδε</em>",
+    "Accusative",
     "Nominative",
     "Vocative",
     "Genitive"
@@ -34,7 +34,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<em>ἄειδε</em> is…",
    "explain": "The ending <em>-ε</em> with no augment marks the imperative.",
    "options": [
-    "A present imperative: “sing”",
+    "A present imperative",
     "An aorist indicative",
     "An infinitive",
     "A participle"
@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<p><em>ἣ μυρίʼ</em></p> <em>ἥ</em> refers to…",
    "explain": "The relative is feminine singular, like <em>μῆνιν</em>, and the wrath caused the woes.",
    "options": [
-    "<em>μῆνιν</em>, the wrath",
+    "<em>μῆνιν</em>",
     "<em>θεά</em>",
     "<em>Ἀχιλῆος</em>",
     "<em>Ἀχαιοῖς</em>"
@@ -68,7 +68,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "options": [
     "A Homeric dative plural",
     "A genitive",
-    "A verb",
+    "An Attic dative plural of <em>κύων</em>",
     "An accusative"
    ],
    "answer": 0
@@ -98,7 +98,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<em>ἄνδρα</em> is…",
    "explain": "As in the Iliad, the first word names the subject of the song.",
    "options": [
-    "Accusative, the object of <em>ἔννεπε</em>",
+    "Accusative",
     "Vocative",
     "Nominative",
     "Dative"
@@ -146,7 +146,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<em>ἀρνύμενος</em> agrees with…",
    "explain": "It is nominative masculine singular and describes him.",
    "options": [
-    "The man, the subject of <em>πάθεν</em>",
+    "The man",
     "<em>ψυχήν</em>",
     "<em>ἑταίρων</em>",
     "<em>πόντῳ</em>"
@@ -197,7 +197,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>γέμω</em>, “be full,” takes the genitive",
     "It shows possession",
     "It is a genitive absolute",
-    "It is partitive after <em>ὁμοῦ</em>"
+    "It is partitive after <em>ὁμοῦ</em>, “some of the incense”"
    ],
    "answer": 0
   },
@@ -277,7 +277,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A genitive in the epic ending <em>-οιο</em>",
     "A dative",
     "A nominative",
-    "A verb"
+    "An Attic genitive singular in <em>-ου</em>"
    ],
    "answer": 0
   },
@@ -291,7 +291,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "explain": "Greek can use the infinitive as a command.",
    "options": [
     "An infinitive standing for an imperative",
-    "An infinitive of purpose",
+    "An infinitive of purpose after the verb of going",
     "A finite verb",
     "A participle"
    ],
@@ -324,7 +324,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "options": [
     "<em>πείθομαι</em>, “obey,” takes the dative",
     "It is a dative of means",
-    "It follows <em>τοῖς</em> alone",
+    "It follows <em>τοῖς</em>, which takes the dative",
     "It is a dative of time"
    ],
    "answer": 0
@@ -434,7 +434,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<p><em>Εἴθ᾽ ὤφελ᾽</em></p> <em>εἴθ᾽ ὤφελε</em> with an infinitive expresses…",
    "explain": "“Would that it had not”: the Argo has already sailed.",
    "options": [
-    "A wish that cannot now come true",
+    "A wish",
     "A command",
     "A purpose",
     "A future condition"
@@ -501,7 +501,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>αἰτῶ</em> takes the person and the thing in the accusative",
     "One is the subject",
     "They are in apposition",
-    "<em>μέν</em> requires it"
+    "One is the object, and the other the subject of the infinitive"
    ],
    "answer": 0
   },
@@ -531,7 +531,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "explain": "<em>-όμενος</em>, contracted <em>-ώμενος</em>: present middle.",
    "options": [
     "A present middle participle: lying",
-    "An aorist passive",
+    "An aorist passive participle: “having lain down”",
     "A future active",
     "A perfect infinitive"
    ],
@@ -564,7 +564,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "options": [
     "Epic and Ionic for <em>σόν</em>, your",
     "A form of <em>θεός</em>",
-    "A verb",
+    "A dative of the second person pronoun",
     "The article"
    ],
    "answer": 0
@@ -594,7 +594,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "prompt": "<em>ἐμνήσθην</em> is…",
    "explain": "<em>Μιμνῄσκομαι</em> uses the passive aorist for “I remembered.”",
    "options": [
-    "An aorist passive form with active meaning",
+    "An aorist passive form",
     "I was reminded by someone",
     "A present",
     "A future"
@@ -612,7 +612,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "options": [
     "“We two,” <em>ἀμφότεροι</em>",
     "The sun",
-    "Someone",
+    "Someone not named, an indefinite subject",
     "Heraclitus alone"
    ],
    "answer": 0
@@ -660,7 +660,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "options": [
     "An epic dative plural",
     "An accusative",
-    "A verb",
+    "An Attic dative plural of <em>ζῷον</em>",
     "A genitive singular"
    ],
    "answer": 0

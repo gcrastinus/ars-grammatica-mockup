@@ -18,7 +18,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>allen Gipfeln</em> is…",
    "explain": "Nothing moves: <em>über</em> takes the dative, and the plural adds <em>-n</em>.",
    "options": [
-    "Dative plural, after <em>über</em> for rest",
+    "Dative plural",
     "Accusative plural",
     "Genitive plural",
     "Nominative plural"
@@ -34,8 +34,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>Spürest</em> is…",
    "explain": "The extra syllable fills the meter.",
    "options": [
-    "An older form of <em>spürst</em>, you feel",
-    "A subjunctive",
+    "An older form of <em>spürst</em> (“you feel”)",
+    "A subjunctive form of <em>spüren</em>, second person singular",
     "A past tense",
     "An imperative"
    ],
@@ -69,7 +69,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "An old form of <em>bald</em>, kept to rhyme with <em>Walde</em>",
     "It is a dative",
     "It is a noun",
-    "It is a misprint"
+    "It is the dative of an adjective, agreeing with <em>Walde</em>"
    ],
    "answer": 0
   },
@@ -82,7 +82,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>hört’</em> is…",
    "explain": "The apostrophe marks the dropped <em>e</em>.",
    "options": [
-    "<em>Hörte</em>, the past, with the <em>e</em> cut off",
+    "<em>Hörte</em>",
     "The present",
     "An imperative",
     "A past participle"
@@ -98,7 +98,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>rauschen</em> after <em>hört’ ein Bächlein</em> is…",
    "explain": "German says “I heard a brook rush,” with no <em>zu</em>.",
    "options": [
-    "A bare infinitive after a verb of perceiving",
+    "A bare infinitive",
     "A plural verb agreeing with <em>Bächlein</em>",
     "A noun",
     "A past participle"
@@ -165,7 +165,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "The past participle of a compound tense goes to the end",
     "It is an adjective",
     "It begins a new clause",
-    "The meter requires it, against the rule"
+    "The meter requires it, against the ordinary order of prose"
    ],
    "answer": 0
   },
@@ -242,7 +242,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<p><em>uns frei</em></p> <em>uns</em> in <em>Er hilft uns</em> is…",
    "explain": "<em>Jemandem helfen</em>: to help someone, in the dative.",
    "options": [
-    "Dative: <em>helfen</em> takes the dative",
+    "Dative",
     "Accusative",
     "Nominative",
     "Reflexive"
@@ -258,7 +258,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<p><em>hat betroffen</em></p> Where would modern German put <em>hat</em>?",
    "explain": "In a relative clause the finite verb now comes last.",
    "options": [
-    "At the very end: <em>betroffen hat</em>",
+    "At the very end",
     "First in the clause",
     "Before <em>uns</em>",
     "It would drop it"
@@ -450,7 +450,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>Der Himmel</em> is…",
    "explain": "The heaven has its stars.",
    "options": [
-    "Nominative, the subject",
+    "Nominative",
     "Dative",
     "Genitive",
     "Accusative, the object"
@@ -498,7 +498,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>Ihn schläfert</em> means…",
    "explain": "An impersonal verb: there is no subject, and the one affected is <em>ihn</em>.",
    "options": [
-    "He grows sleepy, with the person in the accusative",
+    "He grows sleepy",
     "He puts him to sleep",
     "Sleep him!",
     "He slept"
@@ -578,7 +578,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<em>mir</em> is…",
    "explain": "German often uses a dative of the person where English uses a possessive. “into my heart”",
    "options": [
-    "Dative: the person affected",
+    "Dative",
     "Accusative, the object",
     "Nominative",
     "Genitive"
@@ -626,7 +626,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "prompt": "<p><em>Der große Dinge tut</em></p> <em>Der</em> begins…",
    "explain": "The verb <em>tut</em> stands last.",
    "options": [
-    "A relative clause standing for <em>Gott</em>",
+    "A relative clause",
     "A main clause",
     "A question",
     "A new subject, “the man”"

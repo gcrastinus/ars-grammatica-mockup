@@ -34,7 +34,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“to dissolve”</p> “To dissolve” and “to assume” are…",
    "explain": "The anticipatory “it” is explained by the two infinitives: it becomes necessary to dissolve the bands and to assume a station.",
    "options": [
-    "Infinitives that say what “it becomes necessary” to do",
+    "Infinitives",
     "The verbs of the main clause",
     "Prepositional phrases of place",
     "Participles describing “people”"
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“that they should declare”</p> “That they should declare the causes” is…",
    "explain": "The clause names what respect requires, so it does the work of a noun, the object of the verb.",
    "options": [
-    "A noun clause, the object of “requires”",
+    "A noun clause",
     "An adverb clause of purpose",
     "A relative clause describing “mankind”",
     "A second main clause"
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "options": [
     "A prepositional phrase of time",
     "A dependent clause of time",
-    "The subject of the sentence",
+    "The subject of the sentence, placed first for emphasis",
     "A noun clause"
    ],
    "answer": 0
@@ -194,7 +194,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "In “it is useless to complain,” what is “it”?",
    "explain": "The real subject is the infinitive: to complain is useless.",
    "options": [
-    "An anticipatory subject that looks forward to “to complain”",
+    "An anticipatory subject",
     "A pronoun standing for “my work”",
     "A pronoun standing for “the door”",
     "The object of “complain”"
@@ -213,7 +213,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Three objects of the one preposition",
     "Three subjects of “brought”",
     "Three relative clauses",
-    "Three adverbs of manner"
+    "Three adverbs of manner modifying “brought”"
    ],
    "answer": 0
   },
@@ -226,8 +226,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“Such treatment”</p> Why does “such treatment” come first in its sentence?",
    "explain": "The ordinary order would be “I did not expect such treatment”; placing the object first stresses it.",
    "options": [
-    "The object is placed before the subject for emphasis",
-    "It is the subject of “expect”",
+    "The object is placed first for emphasis",
+    "It is the subject of “expect,” placed first",
     "It is a phrase of time",
     "It is a noun of address"
    ],
@@ -293,7 +293,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause without a relative pronoun",
     "A second main clause",
     "A clause of purpose",
-    "A participial phrase"
+    "A participial phrase describing the subject “she”"
    ],
    "answer": 0
   },
@@ -354,7 +354,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“removing”</p> “Removing” is…",
    "explain": "A verb form in “-ing” used as a noun after a preposition is a gerund.",
    "options": [
-    "A gerund, the object of the preposition “in”",
+    "A gerund",
     "A participle describing “he”",
     "The main verb",
     "An adjective describing “obstacles”"
@@ -402,7 +402,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“his first entering”</p> In “his first entering a neighbourhood,” “entering” is…",
    "explain": "The possessive marks “entering” as a noun: his entering.",
    "options": [
-    "A gerund, used as a noun with the possessive “his”",
+    "A gerund",
     "A present participle describing “man”",
     "The main verb",
     "An adjective"
@@ -436,7 +436,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "options": [
     "A relative clause describing “God”",
     "The main clause",
-    "A clause of time",
+    "A clause of time, telling when God spoke",
     "A noun clause"
    ],
    "answer": 0
@@ -453,7 +453,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“Hath spoken”",
     "“Spake”",
     "“Made”",
-    "“Appointed”"
+    "“Hath appointed,” in the last clause"
    ],
    "answer": 0
   },
@@ -514,8 +514,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“for delight, for ornament, and for ability”</p> “For delight, for ornament, and for ability” are…",
    "explain": "Each phrase tells what studies serve for.",
    "options": [
-    "Three prepositional phrases depending on “serve”",
-    "Three subjects",
+    "Three phrases depending on “serve”",
+    "Three subjects of the verb “serve”",
     "Three clauses",
     "Three objects of “studies”"
    ],
@@ -563,7 +563,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "explain": "“That” takes up “those” and tells which people are meant.",
    "options": [
     "A relative clause describing “those”",
-    "A noun clause",
+    "A noun clause in apposition to “those”",
     "A clause of result",
     "The main verb"
    ],
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "explain": "“Whether” reports a question: whether the nation can long endure. the object of “testing”",
    "options": [
     "An indirect question",
-    "A condition",
+    "A condition stating what must be true",
     "A relative clause",
     "A main clause"
    ],
@@ -674,7 +674,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“to finish”</p> “To finish the work” is…",
    "explain": "It tells what the striving is for.",
    "options": [
-    "An infinitive of purpose depending on “strive”",
+    "An infinitive of purpose",
     "The subject of the sentence",
     "A gerund",
     "A noun clause"
@@ -706,7 +706,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“It was the best of times, it was the worst of times”</p> How are the clauses of the opening joined?",
    "explain": "Each clause has its own subject and verb, and none depends on another; they are joined only by commas.",
    "options": [
-    "By commas alone, as independent clauses side by side",
+    "By commas alone",
     "By subordinating conjunctions",
     "As relative clauses",
     "As one clause with a compound subject"
@@ -722,7 +722,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "What does “in short” introduce?",
    "explain": "The period after the dash is the statement to which the pairs lead.",
    "options": [
-    "A main clause that sums up the series",
+    "A main clause",
     "A clause of purpose",
     "A relative clause",
     "A question"
@@ -771,7 +771,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "explain": "Older English uses the subjunctive in conditions: unless wariness be used.",
    "options": [
     "The subjunctive in a condition",
-    "The imperative",
+    "The imperative, giving a command to the reader",
     "The future tense",
     "The infinitive"
    ],
@@ -786,7 +786,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "“Who kills a man” is…",
    "explain": "The clause names the one who does the act, and so it serves as the subject.",
    "options": [
-    "A noun clause, the subject of “kills a reasonable creature”",
+    "A noun clause",
     "A question",
     "A relative clause describing “creature”",
     "An object"
@@ -866,7 +866,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“crowded”</p> “Crowded” describes…",
    "explain": "The participle completes “see the streets … crowded with beggars.” and the doors",
    "options": [
-    "The streets, the roads",
+    "The streets",
     "“Those” who walk",
     "The beggars",
     "“The country”"
@@ -898,7 +898,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "“Call me Ishmael” is…",
    "explain": "The verb gives a command, and the subject is not written.",
    "options": [
-    "An imperative with “you” understood",
+    "An imperative",
     "A question",
     "A statement in the past",
     "A relative clause"
@@ -914,7 +914,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“never mind how long precisely”</p> The words between the dashes are…",
    "explain": "They can be removed without breaking the construction.",
    "options": [
-    "A parenthesis that interrupts the sentence",
+    "A parenthesis",
     "The subject of the sentence",
     "A relative clause",
     "The main clause"
@@ -946,7 +946,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“I would sail about”</p> “I would sail about a little” is…",
    "explain": "It says what he thought; English may leave out “that.” without “that”",
    "options": [
-    "A noun clause, the object of “thought”",
+    "A noun clause",
     "A relative clause",
     "An independent sentence",
     "A condition"
@@ -965,7 +965,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A dependent clause of cause",
     "The main clause",
     "A relative clause",
-    "A clause of purpose"
+    "A clause of purpose, telling why he went"
    ],
    "answer": 0
   },
@@ -995,7 +995,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "explain": "“See if” means “see whether”: it reports a question.",
    "options": [
     "An indirect question",
-    "A condition",
+    "A condition on which the seeing depends",
     "A clause of result",
     "A relative clause"
    ],
