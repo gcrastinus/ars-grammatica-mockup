@@ -47,8 +47,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>ψευδόμαντις</i> (“false prophet”)?",
-   "explain": "The first part describes the second.",
+   "prompt": "What kind of compound is <i>μικρόκοσμος</i> (“small world”)?",
+   "explain": "The first part describes the second: a <i>κόσμος</i> that is <i>μικρός</i>, “small.”",
    "options": [
     "Possessive",
     "Governing",
@@ -63,12 +63,12 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>ἀνα-</i> mean in <i>ἀναβαίνω</i>?",
-   "explain": "<i>Ἀναβαίνω</i>, “I go up.”",
+   "prompt": "What does <i>ἀνα-</i> mean in <i>ἀνατέλλω</i> (“I rise,” of the sun)?",
+   "explain": "<i>Ἀνα-</i> means “up”: the sun rises up.",
    "options": [
     "“down”",
-    "“out”",
-    "“together”",
+    "“through”",
+    "“against”",
     "“up”"
    ],
    "answer": 3
@@ -111,13 +111,13 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>τρίπους</i> mean?",
-   "explain": "A numeral stands first: “tripod.”",
+   "prompt": "What does <i>τετράπους</i> mean?",
+   "explain": "The numeral <i>τετρα-</i> stands first and <i>πούς</i> (“foot”) second: “four-footed.”",
    "options": [
-    "“three times”",
-    "“third foot”",
-    "“three-footed”",
-    "“footless walker”"
+    "“four times”",
+    "“a fourth part”",
+    "“four-footed”",
+    "“having four sides”"
    ],
    "answer": 2
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>διαφέρω</i> come to mean, from “carry apart”?",
-   "explain": "<i>Δια-</i>, “apart”: things carried apart differ.",
+   "prompt": "What does <i>διαλέγομαι</i> come to mean, from “pick out between”?",
+   "explain": "<i>Δια-</i> gives the sense of exchange between two, and <i>διαλέγομαι</i> means “I talk with,” whence “dialogue.”",
    "options": [
-    "“I carry in”",
-    "“I bear together”",
-    "“I differ”",
-    "“I bring back”"
+    "“I choose apart”",
+    "“I read through”",
+    "“I converse”",
+    "“I deny”"
    ],
    "answer": 2
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>ῥοδοδάκτυλος</i>?",
-   "explain": "Dawn has rosy fingers; the whole describes one who has what the parts name.",
+   "prompt": "What kind of compound is <i>λευκώλενος</i> (“white-armed,” said of Hera)?",
+   "explain": "The whole describes someone who has what the parts name: white arms.",
    "options": [
     "Possessive",
-    "Governing",
     "Determinative",
-    "Verbal"
+    "Governing",
+    "Not a compound"
    ],
    "answer": 0
   },
@@ -271,8 +271,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>θεομάχος</i>?",
-   "explain": "One part acts on the other as a verb on its object.",
+   "prompt": "What kind of compound is <i>ἱππόδαμος</i> (“horse-taming”)?",
+   "explain": "One part acts on the other as a verb on its object: one who tames horses.",
    "options": [
     "Possessive",
     "Governing",
