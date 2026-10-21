@@ -366,7 +366,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>sequitur pulcherrimus Astur, / Astur equo fidens</em> (Aeneid X.180–181) is…",
+   "prompt": "<em>sequitur pulcherrimus Astur, / Astur equo fidens</em> (<em>Aeneid</em> X.180–181, as Donatus quotes it) is…",
    "explain": "<em>Astur</em> ends one line and begins the next. These are Donatus’s lines for anadiplosis.",
    "options": [
     "Anadiplosis: a line’s last word begins the next",

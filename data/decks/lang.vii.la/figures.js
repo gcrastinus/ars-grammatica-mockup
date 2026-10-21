@@ -9,7 +9,7 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "figures-1",
    "title": "Figures of words",
-   "body": "<p>We have seen in Section VII that a figure arranges words that keep their proper sense in an unusual way. Donatus’s examples are Latin, and many of them come from Virgil. The line <i>Acamasque Thoasque Pelidesque Neoptolemusque</i> (“and Acamas and Thoas and Neoptolemus, the descendant of Peleus”), which we saw in Section VII, has more conjunctions than are needed, and this is <strong>polysyndeton</strong>. In <i>torrere parant flammis et frangere saxo</i> (“they prepare to parch [the grain] with fire and to grind it with stone”), the later action is said first, and this is <strong>hysterologia</strong>. And in Ennius’s <i>saxo cere comminuit brum</i> (“he shattered the brain with a stone”), the word <i>cerebrum</i> is cut in two by another word, and this is <strong>tmesis</strong>.</p>",
+   "body": "<p>We have seen in Section VII that a figure arranges words that keep their proper sense in an unusual way. Donatus’s examples are Latin, and many of them come from Virgil. The line <i>Acamasque Thoasque / Pelidesque Neoptolemus</i> (“and Acamas and Thoas and Neoptolemus, the descendant of Peleus”), which we saw in Section VII, has more conjunctions than are needed, and this is <strong>polysyndeton</strong>. In <i>torrere parant flammis et frangere saxo</i> (“they prepare to parch [the grain] with fire and to grind it with stone”), the later action is said first, and this is <strong>hysterologia</strong>. And in Ennius’s <i>saxo cere comminuit brum</i> (“he shattered the brain with a stone”), the word <i>cerebrum</i> is cut in two by another word, and this is <strong>tmesis</strong>.</p>",
    "qp": {
     "id": "q-la-fig-1",
     "variants": [
