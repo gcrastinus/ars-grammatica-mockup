@@ -15,13 +15,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the native cognate of Latin <em>novem</em>?",
-   "explain": "“Nine” is inherited; “November” and “novena” are borrowings.",
+   "prompt": "Which English word is the native cognate of Latin <em>pater</em>?",
+   "explain": "English “father” is inherited, cognate with <em>pater</em>; “paternal,” “patron,” and “pattern” were borrowed from Latin.",
    "options": [
-    "“November”",
-    "“nine”",
-    "“novena”",
-    "“novel”"
+    "“paternal”",
+    "“father”",
+    "“patron”",
+    "“pattern”"
    ],
    "answer": 1
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word was borrowed from Latin <em>frāter</em>?",
-   "explain": "“Fraternal” keeps the Latin form; “brother” is the cognate.",
+   "prompt": "Which English word was borrowed from Latin <em>māter</em>?",
+   "explain": "“Maternal” comes from Latin <em>māternus</em>; “mother” is the native cognate.",
    "options": [
-    "“fraternal”",
-    "“brother”",
-    "“brotherly”",
-    "“brethren”"
+    "“maternal”",
+    "“mother”",
+    "“matter”",
+    "“mate”"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Romance word comes from Latin <em>caballus</em>?",
-   "explain": "<em>Caballus</em> gave <em>caballo</em>, <em>cavallo</em>, <em>cheval</em>.",
+   "prompt": "Which French word comes from Latin <em>bucca</em> (“cheek,” in common speech “mouth”)?",
+   "explain": "Spoken Latin used <em>bucca</em> for “mouth,” and it became French <em>bouche</em>.",
    "options": [
-    "Spanish <em>cabeza</em>",
-    "Spanish <em>caballo</em>",
-    "French <em>chèvre</em>",
-    "Italian <em>capello</em>"
+    "<em>bouc</em>",
+    "<em>bouche</em>",
+    "<em>bec</em>",
+    "<em>bouchon</em>"
    ],
    "answer": 1
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What did <em>schola</em> first mean in Greek?",
-   "explain": "<em>Σχολή</em> meant “leisure,” then the learned use of leisure, then “school.”",
+   "prompt": "Which Latin word did Latin take from Greek <em>ὄργανον</em> (“tool”)?",
+   "explain": "Latin wrote <em>ὄργανον</em> with its own letters as <em>organum</em>.",
    "options": [
-    "“leisure”",
-    "“building”",
-    "“teacher”",
-    "“book”"
+    "<em>organum</em>",
+    "<em>ōrdō</em>",
+    "<em>ōra</em>",
+    "<em>orbis</em>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin verb is the ancestor of French <em>manger</em>?",
-   "explain": "The spoken <em>mandūcāre</em>, “to chew,” replaced <em>edere</em>.",
+   "prompt": "Which spoken Latin word is the ancestor of French <em>tête</em> (“head”)?",
+   "explain": "Spoken Latin used <em>testa</em> (“pot, shell”) for the head, and it became <em>tête</em>; the literary <em>caput</em> survives in “capital.”",
    "options": [
-    "<em>edere</em>",
-    "<em>mandūcāre</em>",
-    "<em>mandāre</em>",
-    "<em>mendīcāre</em>"
+    "<em>caput</em>",
+    "<em>testa</em>",
+    "<em>tēctum</em>",
+    "<em>textus</em>"
    ],
    "answer": 1
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the literary Latin <em>edere</em> (“to eat”)?",
-   "explain": "“Edible” comes from <em>edibilis</em>; the others come from other verbs.",
+   "prompt": "Which English word keeps the literary Latin <em>ōs, ōris</em> (“mouth”)?",
+   "explain": "“Oral” comes from <em>ōs, ōris</em>, “mouth”; “oration” and “oracle” come from <em>ōrāre</em>, “to speak.”",
    "options": [
-    "“edit”",
-    "“edict”",
-    "“educate”",
-    "“edible”"
+    "“oration”",
+    "“orient”",
+    "“oracle”",
+    "“oral”"
    ],
    "answer": 3
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word did Latin take from Greek <em>ἐπιστολή</em>?",
-   "explain": "<em>Epistula</em>, “letter,” whence English “epistle.”",
+   "prompt": "Which Latin word did Latin take from Greek <em>κωμῳδία</em>?",
+   "explain": "Latin wrote the Greek ω as ō and the diphthong οι as oe: <em>cōmoedia</em>.",
    "options": [
-    "<em>littera</em>",
-    "<em>epistula</em>",
-    "<em>tabella</em>",
-    "<em>scrīptum</em>"
+    "<em>cōmitia</em>",
+    "<em>cōmoedia</em>",
+    "<em>commodum</em>",
+    "<em>cōmis</em>"
    ],
    "answer": 1
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does English “cavalry” have a <em>c</em> and not an <em>e</em> like “equine”?",
-   "explain": "Two Latin words for “horse” lie behind the two English words.",
+   "prompt": "Why does English “oral” differ in its root from French <em>bouche</em>?",
+   "explain": "“Oral” keeps the literary <em>ōs</em>, whereas <em>bouche</em> comes from the spoken <em>bucca</em>.",
    "options": [
-    "“Cavalry” is from Greek",
-    "Both come from <em>equus</em>",
-    "“Equine” is from French, and “cavalry” from Spanish",
-    "They come from two Latin words for “horse”"
+    "“Oral” came through French",
+    "<em>Bouche</em> is a Germanic word",
+    "English lost the b of the word",
+    "They come from two Latin words for “mouth”"
    ],
    "answer": 3
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Romanian word, like Italian <em>cavallo</em>, comes from <em>caballus</em>?",
-   "explain": "Romanian <em>cal</em>, “horse,” is from <em>caballus</em>.",
+   "prompt": "Which Italian word, like French <em>bouche</em>, comes from <em>bucca</em>?",
+   "explain": "Italian <em>bocca</em> (“mouth”) comes from spoken Latin <em>bucca</em>, as French <em>bouche</em> does.",
    "options": [
-    "<em>câine</em>",
-    "<em>cal</em>",
-    "<em>casă</em>",
-    "<em>cap</em>"
+    "<em>bosco</em>",
+    "<em>bocca</em>",
+    "<em>becco</em>",
+    "<em>boccia</em>"
    ],
    "answer": 1
   },

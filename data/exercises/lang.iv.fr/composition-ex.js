@@ -47,13 +47,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>grand-père</i>. (“grandfather”)",
-   "explain": "<i>Grand</i> agrees with <i>père</i>, and both take the plural.",
+   "prompt": "Choose the plural of <i>beau-frère</i>. (“brother-in-law”)",
+   "explain": "An adjective that agrees with its noun takes the plural with it: <i>beaux-frères</i>.",
    "options": [
-    "<i>grand-pères</i>",
-    "<i>grands-père</i>",
-    "<i>grandes-pères</i>",
-    "<i>grands-pères</i>"
+    "<i>beau-frères</i>",
+    "<i>beaux-frère</i>",
+    "<i>beau-frère</i>",
+    "<i>beaux-frères</i>"
    ],
    "answer": 3
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>chef-d’œuvre</i>. (“masterpiece”)",
-   "explain": "<i>D’œuvre</i> is a complement of <i>chef</i>, so only the first noun takes the plural: <i>chefs-d’œuvre</i>.",
+   "prompt": "Choose the plural of <i>pot-de-vin</i>. (“bribe”)",
+   "explain": "<i>De vin</i> is a complement of <i>pot</i>, so only the first noun takes the plural: <i>pots-de-vin</i>.",
    "options": [
-    "<i>chef-d’œuvres</i>",
-    "<i>chefs-d’œuvres</i>",
-    "<i>chefs-d’œuvre</i>",
-    "<i>chefs-des-œuvres</i>"
+    "<i>pot-de-vins</i>",
+    "<i>pots-de-vins</i>",
+    "<i>pots-de-vin</i>",
+    "<i>pots-des-vins</i>"
    ],
    "answer": 2
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>surcharger</i> mean?",
-   "explain": "<i>Sur-</i>, “over.”",
+   "prompt": "What does <i>survoler</i> mean?",
+   "explain": "<i>Sur-</i> means “over”: <i>voler</i>, “to fly,” <i>survoler</i>, “to fly over.”",
    "options": [
-    "“to overload”",
-    "“to unload”",
-    "“to load again”",
-    "“to load partly”"
+    "“to fly over”",
+    "“to fly under”",
+    "“to fly again”",
+    "“to steal again”"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>inconnu</i> mean?",
-   "explain": "<i>In-</i> makes an opposite.",
+   "prompt": "What does <i>incapable</i> mean?",
+   "explain": "<i>In-</i> makes an opposite: <i>capable</i>, <i>incapable</i>.",
    "options": [
-    "“known within”",
-    "“known again”",
-    "“well known”",
-    "“unknown”"
+    "“able within”",
+    "“able again”",
+    "“very able”",
+    "“unable”"
    ],
    "answer": 3
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>chef-d’œuvre</i>. (“masterpiece”)",
-   "explain": "Only the first noun takes the plural; <i>d’œuvre</i> is its complement.",
+   "prompt": "Choose the plural of <i>chef-lieu</i>. (“county seat”)",
+   "explain": "Two nouns side by side both take the plural, and <i>lieu</i> takes <i>-x</i>: <i>chefs-lieux</i>.",
    "options": [
-    "<i>chef-d’œuvres</i>",
-    "<i>chefs-d’œuvre</i>",
-    "<i>chefs-d’œuvres</i>",
-    "<i>chefs-de-œuvre</i>"
+    "<i>chef-lieux</i>",
+    "<i>chefs-lieux</i>",
+    "<i>chefs-lieu</i>",
+    "<i>chefs-lieus</i>"
    ],
    "answer": 1
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>chou-fleur</i>. (“cauliflower”)",
-   "explain": "Two nouns side by side both take the plural, and <i>chou</i> takes <i>-x</i>.",
+   "prompt": "Choose the plural of <i>oiseau-mouche</i>. (“hummingbird”)",
+   "explain": "Two nouns side by side both take the plural: <i>oiseaux-mouches</i>.",
    "options": [
-    "<i>chou-fleurs</i>",
-    "<i>choux-fleur</i>",
-    "<i>chous-fleurs</i>",
-    "<i>choux-fleurs</i>"
+    "<i>oiseau-mouches</i>",
+    "<i>oiseaux-mouche</i>",
+    "<i>oiseaus-mouches</i>",
+    "<i>oiseaux-mouches</i>"
    ],
    "answer": 3
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>tire-bouchon</i>. (“corkscrew”)",
-   "explain": "The verb never changes; the noun takes the plural.",
+   "prompt": "Choose the plural of <i>ouvre-boîte</i>. (“can opener”)",
+   "explain": "In a verb joined to its object, the verb never changes and the noun takes the plural: <i>ouvre-boîtes</i>.",
    "options": [
-    "<i>tire-bouchons</i>",
-    "<i>tires-bouchons</i>",
-    "<i>tires-bouchon</i>",
-    "<i>tire-bouchon</i>"
+    "<i>ouvre-boîtes</i>",
+    "<i>ouvres-boîtes</i>",
+    "<i>ouvres-boîte</i>",
+    "<i>ouvre-boîte</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>entrouvrir</i> mean?",
-   "explain": "<i>Entre-</i>, “partly.”",
+   "prompt": "What does <i>entrevoir</i> mean?",
+   "explain": "<i>Entre-</i> can mean “partly”: <i>voir</i>, “to see,” <i>entrevoir</i>, “to see partly, to glimpse.”",
    "options": [
-    "“to open between two”",
-    "“to open again”",
-    "“to half-open”",
-    "“to close”"
+    "“to see again”",
+    "“to foresee”",
+    "“to glimpse”",
+    "“to see between two walls”"
    ],
    "answer": 2
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From what is <i>embarquer</i> formed?",
-   "explain": "<i>Em-</i> and <i>-er</i> are added together to <i>barque</i>, “boat.”",
+   "prompt": "From what is <i>atterrir</i> (“to land”) formed?",
+   "explain": "<i>Atterrir</i> is formed from <i>terre</i> with the prefix <i>a-</i> and the verb ending <i>-ir</i> at once.",
    "options": [
-    "The verb <i>barrer</i>, with a prefix only",
-    "The adjective <i>bas</i>",
-    "The noun <i>embarras</i>",
-    "<i>Barque</i>, with a prefix and a suffix"
+    "The verb <i>terrer</i>, with a prefix only",
+    "The adjective <i>terrible</i>",
+    "The noun <i>terrain</i>",
+    "<i>Terre</i>, with a prefix and a suffix"
    ],
    "answer": 3
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>sous-estimer</i> mean?",
-   "explain": "<i>Sous-</i>, “under.”",
+   "prompt": "What does <i>sous-louer</i> mean?",
+   "explain": "<i>Sous-</i> means “under”: <i>louer</i>, “to rent,” <i>sous-louer</i>, “to rent under another, to sublet.”",
    "options": [
-    "“to underestimate”",
-    "“to overestimate”",
-    "“to estimate again”",
-    "“to esteem highly”"
+    "“to sublet”",
+    "“to rent again”",
+    "“to praise too little”",
+    "“to rent at a high price”"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "How does French write “windmill”?",
-   "explain": "A noun joined to a noun by <i>à</i>, with the head first.",
+   "prompt": "How does French write “sailboat” as a compound of two nouns?",
+   "explain": "French joins the nouns with <i>à</i> and puts the head first: <i>bateau à voiles</i>.",
    "options": [
-    "<i>vent-moulin</i>",
-    "<i>moulin à vent</i>",
-    "<i>ventmoulin</i>",
-    "<i>moulin de vent à</i>"
+    "<i>voile-bateau</i>",
+    "<i>bateau à voiles</i>",
+    "<i>bateauvoile</i>",
+    "<i>bateau de voiles à</i>"
    ],
    "answer": 1
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>coffre-fort</i>. (“safe”)",
-   "explain": "A noun and an agreeing adjective both take the plural.",
+   "prompt": "Choose the plural of <i>wagon-lit</i>. (“sleeping car”)",
+   "explain": "Two nouns side by side both take the plural: <i>wagons-lits</i>.",
    "options": [
-    "<i>coffres-fort</i>",
-    "<i>coffre-forts</i>",
-    "<i>coffres-forts</i>",
-    "<i>coffres-fortes</i>"
+    "<i>wagon-lits</i>",
+    "<i>wagons-lit</i>",
+    "<i>wagons-lits</i>",
+    "<i>wagon-lit</i>"
    ],
    "answer": 2
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the plural of <i>timbre-poste</i>. (“postage stamp”)",
-   "explain": "<i>Poste</i> is a complement (“for the post”), so only the first noun takes the plural.",
+   "prompt": "Choose the plural of <i>hôtel de ville</i>. (“city hall”)",
+   "explain": "<i>De ville</i> is a complement, so only <i>hôtel</i> takes the plural: <i>hôtels de ville</i>.",
    "options": [
-    "<i>timbres-postes</i>",
-    "<i>timbre-postes</i>",
-    "<i>timbre-poste</i>",
-    "<i>timbres-poste</i>"
+    "<i>hôtel de villes</i>",
+    "<i>hôtels de villes</i>",
+    "<i>hôtels des villes</i>",
+    "<i>hôtels de ville</i>"
    ],
    "answer": 3
   },
@@ -303,12 +303,12 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does the reformed spelling of 1990 allow for <i>des gratte-ciel</i>?",
-   "explain": "The reform lets the noun take the plural; the verb still never changes.",
+   "prompt": "What does the reformed spelling of 1990 allow for <i>des pèse-lettre</i> (“letter scales”)?",
+   "explain": "The reform of 1990 gives the noun of a verb-and-noun compound the plural ending in the plural: <i>des pèse-lettres</i>.",
    "options": [
-    "<i>des gratte-ciels</i>",
-    "<i>des grattes-ciels</i>, with both plural",
-    "<i>des grattes-ciel</i>, with the verb plural",
+    "<i>des pèse-lettres</i>",
+    "<i>des pèses-lettres</i>, with both plural",
+    "<i>des pèses-lettre</i>, with the verb plural",
     "no change at all"
    ],
    "answer": 0
@@ -319,13 +319,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>rouge-gorge</i> name?",
-   "explain": "The compound names the bird by what it has.",
+   "prompt": "What does <i>porte-monnaie</i> name?",
+   "explain": "<i>Porte-monnaie</i> is a verb joined to its object, “carry-money”: a purse.",
    "options": [
-    "a robin",
-    "a red throat",
-    "a red gorge in the mountains",
-    "a red-throated person"
+    "a purse",
+    "a door of money",
+    "a coin",
+    "a bank teller"
    ],
    "answer": 0
   },
@@ -335,11 +335,11 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is the head of <i>essuie-glace</i>?",
-   "explain": "A verb with its object names the thing that does the action, as English “scarecrow.”",
+   "prompt": "What is the head of <i>porte-parole</i> (“spokesman”)?",
+   "explain": "A verb joined to its object names something that is neither the verb nor the noun: a <i>porte-parole</i> is a person who carries the word.",
    "options": [
-    "<i>glace</i>",
-    "<i>essuie</i>",
+    "<i>porte</i>",
+    "<i>parole</i>",
     "both parts equally",
     "neither part"
    ],
@@ -351,13 +351,13 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "deck": "lang.iv.fr/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>défaire</i> mean?",
-   "explain": "<i>Dé-</i> undoes.",
+   "prompt": "What does <i>démonter</i> mean?",
+   "explain": "<i>Dé-</i> undoes: <i>monter</i>, “to set up, assemble,” <i>démonter</i>, “to take apart.”",
    "options": [
-    "“to do again”",
-    "“to do badly”",
-    "“to undo”",
-    "“to do beforehand”"
+    "“to climb again”",
+    "“to climb badly”",
+    "“to take apart”",
+    "“to set up beforehand”"
    ],
    "answer": 2
   },

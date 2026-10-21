@@ -210,13 +210,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In <em>refectus</em>, the participle of <em>reficiō</em>, the short <em>a</em> of <em>faciō</em> stands before two consonants. Choose the vowel that replaces it.",
-   "explain": "A short <em>a</em> before two consonants becomes <em>e</em>. <em>refectus</em> shows that <em>e</em>, as <em>factus</em> gives <em>cōnfectus</em>. Before one consonant the same <em>a</em> becomes <em>i</em>, which is the vowel of <em>reficiō</em> itself.",
+   "prompt": "In <em>acceptus</em>, the participle of <em>accipiō</em>, the short a of <em>captus</em> stands before two consonants. Choose the vowel that it becomes.",
+   "explain": "Short a before two consonants becomes e in a compound: <em>captus</em>, <em>acceptus</em>.",
    "options": [
-    "<em>i</em>",
-    "<em>e</em>",
-    "<em>ī</em>",
-    "<em>ū</em>"
+    "i",
+    "e",
+    "u",
+    "a, unchanged"
    ],
    "answer": 1
   },
@@ -249,9 +249,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>re-</em> and <em>faciō</em> (“to make”).",
-   "explain": "Allen and Greenough print <em>cōnficiō</em> from <em>faciō</em>. <em>re-</em> joined to the same verb is <em>reficiō</em>. The short <em>a</em> stands before one consonant and becomes <em>i</em>.",
-   "answer": "reficiō"
+   "prompt": "Write the compound of <em>re-</em> and <em>capiō</em> (“to take”).",
+   "explain": "Short a before one consonant becomes i: <em>capiō</em>, <em>recipiō</em>.",
+   "answer": "reficiō",
+   "accept": [
+    "recipiō",
+    "recipio"
+   ]
   },
   {
    "id": "lang.iv.la/formation-ex:c4",
@@ -260,9 +264,12 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the participle of <em>afficiō</em> in which the short <em>a</em> of <em>faciō</em> stands before two consonants and becomes <em>e</em>.",
-   "explain": "The participle is <em>affectus</em>. A short <em>a</em> before two consonants becomes <em>e</em>, as <em>factus</em> gives <em>cōnfectus</em>.",
-   "answer": "affectus"
+   "prompt": "Write the participle of <em>recipiō</em> in which the short a of <em>captus</em> stands before two consonants and becomes e.",
+   "explain": "Before two consonants the a becomes e: <em>captus</em>, <em>receptus</em>.",
+   "answer": "affectus",
+   "accept": [
+    "receptus"
+   ]
   },
   {
    "id": "lang.iv.la/formation-ex:c5",

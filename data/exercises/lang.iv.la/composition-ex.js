@@ -15,13 +15,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>agricola</em> join?",
-   "explain": "“Field-tiller”: the object first, the action second.",
+   "prompt": "What does <em>caelicola</em> (“heaven-dweller”) join?",
+   "explain": "<em>Caelicola</em> is <em>caelum</em> (“heaven”) with <em>colō</em> (“I dwell”), joined by the connecting vowel <em>-i-</em>.",
    "options": [
-    "<em>ager</em> and <em>cōlum</em>",
-    "<em>agō</em> and <em>colō</em>",
-    "<em>ager</em> and <em>colō</em>",
-    "<em>agnus</em> and <em>colō</em>"
+    "<em>caelum</em> and <em>collis</em>",
+    "<em>caelō</em> and <em>cōlō</em>",
+    "<em>caelum</em> and <em>colō</em>",
+    "<em>caecus</em> and <em>colō</em>"
    ],
    "answer": 2
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>magnanimus</em> mean?",
-   "explain": "<em>Magnus</em> and <em>animus</em>.",
+   "prompt": "What does <em>longaevus</em> mean?",
+   "explain": "<em>Longaevus</em> joins <em>longus</em> and <em>aevum</em> (“age”): “of long age, long-lived.”",
    "options": [
-    "“very large”",
-    "“great-souled”",
-    "“greatly loved”",
-    "“of great age”"
+    "“long-armed”",
+    "“long-lived”",
+    "“far-seeing”",
+    "“slow to anger”"
    ],
    "answer": 1
   },
@@ -127,12 +127,12 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which connecting vowel stands in <em>armiger</em>?",
-   "explain": "<em>Arm-i-ger</em>.",
+   "prompt": "Which connecting vowel stands in <em>frūgifer</em> (“fruit-bearing”)?",
+   "explain": "The first part of a Latin compound usually ends in <em>-i-</em>: <em>frūg-i-fer</em>.",
    "options": [
     "<em>-o-</em>",
     "<em>-i-</em>",
-    "<em>-e-</em>",
+    "<em>-a-</em>",
     "none"
    ],
    "answer": 1
@@ -159,13 +159,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>misericors</em> join?",
-   "explain": "“Having a heart for the wretched”: tender-hearted.",
+   "prompt": "What does <em>magniloquus</em> (“boastful”) join?",
+   "explain": "<em>Magniloquus</em> is “speaking big”: <em>magnus</em> with <em>loquor</em> (“I speak”).",
    "options": [
-    "<em>miser</em> and <em>corpus</em>",
-    "<em>mittō</em> and <em>cor</em>",
-    "<em>miser</em> and <em>cor</em>",
-    "<em>mīrus</em> and <em>cōram</em>"
+    "<em>magis</em> and <em>loquor</em>",
+    "<em>magnus</em> and <em>locus</em>",
+    "<em>magnus</em> and <em>loquor</em>",
+    "<em>magister</em> and <em>loquor</em>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>aedificium</em> mean, from <em>aedificō</em>?",
-   "explain": "From <em>aedēs</em> and <em>faciō</em>, with the noun suffix <em>-ium</em>.",
+   "prompt": "What does <em>pācificus</em> mean, from <em>pāx</em> and <em>faciō</em>?",
+   "explain": "<em>Pācificus</em> is “making peace,” with the object first and the action second.",
    "options": [
-    "“a temple only”",
-    "“a building”",
-    "“a builder”",
-    "“a city wall”"
+    "“peace-loving”",
+    "“peace-making”",
+    "“made in peace”",
+    "“paying a fine”"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does <em>redeō</em> have a <em>d</em> after <em>re-</em>?",
-   "explain": "<em>Re-</em> has the form <em>red-</em> before a vowel.",
+   "prompt": "Why does <em>redigō</em> (“I drive back”) have a d after <em>re-</em>?",
+   "explain": "<em>Re-</em> becomes <em>red-</em> before a vowel: <em>red-igō</em>, from <em>agō</em>, with the a weakened to i.",
    "options": [
     "<em>Re-</em> becomes <em>red-</em> before a vowel",
-    "The <em>d</em> belongs to <em>eō</em>",
-    "<em>Red-</em> is a different prefix meaning “red”",
-    "It is a misprint for <em>reeō</em>"
+    "The d belongs to the verb <em>agō</em>",
+    "The d marks the perfect tense",
+    "<em>Re-</em> always ends in d"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>omnipotēns</em> mean?",
-   "explain": "<em>Omnis</em> and <em>potēns</em>.",
+   "prompt": "What does <em>omniscius</em> mean?",
+   "explain": "<em>Omniscius</em> joins <em>omnis</em> (“all”) and <em>sciō</em> (“I know”).",
    "options": [
-    "“everywhere present”",
     "“all-powerful”",
     "“all-knowing”",
-    "“powerless”"
+    "“knowing nothing”",
+    "“known to all”"
    ],
    "answer": 1
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>animadvertō</em> come from?",
-   "explain": "Two words written as one.",
+   "prompt": "What does <em>manūmittō</em> (“I set free”) come from?",
+   "explain": "<em>Manūmittō</em> is <em>manū mittō</em>, “I let go from the hand,” written as one word.",
    "options": [
-    "<em>animal vertō</em>, “I turn an animal”",
-    "<em>anima dēvertō</em>, “I turn the breath aside”",
-    "<em>animum advertō</em>, “I turn the mind toward”",
-    "<em>animus videō</em>, “the mind sees”"
+    "<em>manus</em> and <em>mittō</em>, “I send a hand”",
+    "<em>mānō</em> and <em>mittō</em>, “I let flow”",
+    "<em>manū mittō</em>, “I send from the hand”",
+    "<em>manēre</em>, “to stay”"
    ],
    "answer": 2
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why is it <em>illicitus</em> and not <em>inlicitus</em>?",
-   "explain": "The negative <em>in-</em> assimilates its consonant, as the preposition does.",
+   "prompt": "Why is it <em>imprūdēns</em> and not <em>inprūdēns</em>?",
+   "explain": "The negative <em>in-</em> assimilates its consonant: before p it is written <em>im-</em>.",
    "options": [
-    "<em>Ill-</em> is a separate prefix meaning “bad”",
-    "The <em>n</em> is assimilated before <em>l</em>",
-    "<em>Licitus</em> begins with a vowel",
-    "The compound is from <em>ille</em>"
+    "<em>Im-</em> is a different prefix",
+    "The n becomes m before p",
+    "The word comes from <em>imperō</em>",
+    "The m marks the negative"
    ],
    "answer": 1
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is modeled on a Latin compound adjective?",
-   "explain": "“Magnanimous” comes from <em>magnanimus</em>.",
+   "prompt": "Which English word comes from the Latin compound adjective <em>magnificus</em>?",
+   "explain": "“Magnificent” comes from <em>magnificus</em>, “doing great things,” through its stem <em>magnificent-</em>.",
    "options": [
-    "“magnanimous”",
-    "“greathearted”",
-    "“bighead”",
-    "“kindhearted”"
+    "“magnificent”",
+    "“magnify”",
+    "“magnitude”",
+    "“magnate”"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iv.la/composition-ex"] = {
    "deck": "lang.iv.la/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>innocēns</em> mean, read from its parts?",
-   "explain": "<em>In-</em>, “not,” and <em>nocēns</em>, “harming.”",
+   "prompt": "What does <em>invalidus</em> mean, read from its parts?",
+   "explain": "The negative <em>in-</em> with <em>validus</em> (“strong”) gives “not strong, weak.”",
    "options": [
-    "“in harm”",
-    "“not harming”",
-    "“harming again”",
-    "“harming apart”"
+    "“very strong”",
+    "“not strong”",
+    "“strong within”",
+    "“made strong again”"
    ],
    "answer": 1
   }
