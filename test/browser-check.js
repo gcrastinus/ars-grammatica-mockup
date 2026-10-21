@@ -128,6 +128,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   let makerReport = null;
   if (MAKER){
     const src = fs.readFileSync(path.join(__dirname, 'maker-check.js'), 'utf8');
+    /* A fresh load of #maker: after the many hash changes above, Chrome throttles navigation. */
+    await send('Page.navigate', { url: `http://127.0.0.1:${port}/course.html#maker` });
+    await sleep(1500);
     makerReport = await evaluate(src);
   }
   ws.close(); chrome.kill(); srv.close();

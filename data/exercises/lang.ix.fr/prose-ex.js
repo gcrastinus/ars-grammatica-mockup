@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A passive verb: is shared",
     "An adverb modifying <em>est</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A place: from there",
     "The whole world, <em>du monde</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The object of <em>pense</em>",
     "A relative clause describing <em>chacun</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A negative meaning “no longer”",
     "An affirmative with emphasis"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The present, for what is always true",
     "The passé composé of speech"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It follows <em>pendant que</em>",
     "Every verb after <em>que</em> is subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Marks time: then, afterward",
     "Gives a condition: if"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>toute chose</em>",
     "The skeptics’ supposition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Is no longer a reed",
     "Is not even a reed"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.fr/prose-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A noun meaning “thinker”",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.fr/prose-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It is reflexive",
     "It is in a question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.fr/prose-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "French verbs do not agree in number",
     "<em>Une goutte d’eau</em> is its object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.fr/prose-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The object of <em>avertit</em>",
     "In apposition to <em>livre</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.fr/prose-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The article <em>la</em>",
     "The subject “you”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.fr/prose-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The subject is feminine",
     "It is a passive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.fr/prose-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Every consideration",
     "A consideration that counts for nothing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.fr/prose-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "An adjective with <em>est</em>",
     "An imperfect"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.fr/prose-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "As, introducing a comparison",
     "So, an adverb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Stops being",
     "Leaves off being"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.fr/prose-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "An object of <em>laisse</em>",
     "A reflexive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A form of <em>avoir</em>",
     "<em>de</em> with <em>les</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>Mon attention</em> is its subject",
     "Every passé composé is plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-29"
   },
   {
    "id": "lang.ix.fr/prose-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The object of <em>frappé</em>",
     "An adverb: never"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.fr/prose-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Begins a clause of result",
     "Is a relative object pronoun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It is a condition",
     "It is a polite form"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.fr/prose-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The future of <em>entrer</em>",
     "A past participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.fr/prose-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>nous</em>",
     "<em>un grand pupitre</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.fr/prose-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "An adverb: anew",
     "The object of <em>habillé</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.fr/prose-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>Évêque</em> is an adjective",
     "The article is elided"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.fr/prose-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>Ce</em> is required in the imperfect",
     "It is a question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.fr/prose-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Was going to occupy from 1806",
     "Occupied until 1806"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.fr/prose-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>libres</em>",
     "Nothing: it is an adverb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-43"
   },
   {
    "id": "lang.ix.fr/prose-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Can no longer",
     "Can never"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-43"
   },
   {
    "id": "lang.ix.fr/prose-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It is a verb in the past",
     "It agrees with <em>l’utilité</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-43"
   },
   {
    "id": "lang.ix.fr/prose-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "I will say for forty years",
     "I was saying until forty years ago"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-47"
   },
   {
    "id": "lang.ix.fr/prose-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It follows a superlative",
     "It is a wish"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-47"
   },
   {
    "id": "lang.ix.fr/prose-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A present infinitive",
     "A past participle used alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-47"
   },
   {
    "id": "lang.ix.fr/prose-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>la raison</em>",
     "Nothing: it is invariable"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The subject of <em>connaît</em>",
     "A comparison: than"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Reason",
     "A preposition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.fr/prose-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>la raison</em>",
     "A thousand things, named in the next clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.fr/prose-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>m’</em>",
     "<em>éternel</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.fr/prose-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "An article: the",
     "A demonstrative pronoun: “those ones”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-6"
   },
   {
    "id": "lang.ix.fr/prose-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>éternel</em>",
     "<em>me</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.fr/prose-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A reflexive: myself",
     "A possessive: my"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.fr/prose-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "<em>L’</em> is a pronoun here",
     "French elides before every consonant"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A conjunction: that",
     "A comparison: than"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.fr/prose-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A phrase of place: at virtue",
     "A phrase of means"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-60"
   },
   {
    "id": "lang.ix.fr/prose-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It is a passive",
     "<em>Longtemps</em> requires <em>être</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-64"
   },
   {
    "id": "lang.ix.fr/prose-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "The object of <em>à peine</em>",
     "A relative clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-64"
   },
   {
    "id": "lang.ix.fr/prose-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It depends on <em>si</em>",
     "It is a wish"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-64"
   },
   {
    "id": "lang.ix.fr/prose-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A cause",
     "A purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-64"
   },
   {
    "id": "lang.ix.fr/prose-ex:n52",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "A condition",
     "A purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-69"
   },
   {
    "id": "lang.ix.fr/prose-ex:n53",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Some man has",
     "No man had"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-69"
   },
   {
    "id": "lang.ix.fr/prose-ex:n54",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "It is impersonal",
     "It agrees with <em>droit</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-69"
   },
   {
    "id": "lang.ix.fr/prose-ex:n55",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Instead of a basis",
     "Against the basis"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-69"
   }
  ]
 };

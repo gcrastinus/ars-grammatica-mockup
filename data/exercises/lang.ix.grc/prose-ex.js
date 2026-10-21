@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "<em>ἦν</em>, “was”",
     "None, because the clause is a vocative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.grc/prose-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A comparison: “as … happens”",
     "A temporal clause: “when … happened”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.grc/prose-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Marks a question",
     "Gives a cause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.grc/prose-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "An infinitive",
     "A present active participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.grc/prose-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Present subjunctive",
     "Future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.grc/prose-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "<em>ἀρξάμενος</em>",
     "<em>ἔσεσθαι</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "<em>Ἀθηναίων</em>",
     "<em>ἀλλήλους</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The object of <em>ἀρξάμενος</em> alone",
     "A finite verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "An aorist indicative",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A genitive absolute",
     "An infinitive of result"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A genitive of comparison",
     "A purpose clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-15"
   },
   {
    "id": "lang.ix.grc/prose-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Aorist",
     "Imperfect"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-15"
   },
   {
    "id": "lang.ix.grc/prose-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A genitive absolute",
     "An indirect question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-15"
   },
   {
    "id": "lang.ix.grc/prose-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“It has been enough”",
     "“They will hold sufficiently”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-15"
   },
   {
    "id": "lang.ix.grc/prose-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The Greeks against the barbarians",
     "The past against the future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-15"
   },
   {
    "id": "lang.ix.grc/prose-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A purpose clause",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-22"
   },
   {
    "id": "lang.ix.grc/prose-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Genitive",
     "Dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-22"
   },
   {
    "id": "lang.ix.grc/prose-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It shows possession of <em>αὐτῶν</em>",
     "It follows <em>ὑπό</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-22"
   },
   {
    "id": "lang.ix.grc/prose-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Future",
     "Present"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-22"
   },
   {
    "id": "lang.ix.grc/prose-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Present",
     "Perfect"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-28"
   },
   {
    "id": "lang.ix.grc/prose-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“Among Glaucon”",
     "“Toward Glaucon”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-28"
   },
   {
    "id": "lang.ix.grc/prose-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Concession",
     "Condition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-28"
   },
   {
    "id": "lang.ix.grc/prose-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A main clause",
     "A purpose clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-28"
   },
   {
    "id": "lang.ix.grc/prose-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The subject",
     "A dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.grc/prose-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It is a future",
     "It is a mistake for the aorist"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.grc/prose-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Present",
     "Future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.grc/prose-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The plural",
     "None, it is indeclinable"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.grc/prose-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It is a genitive absolute",
     "It follows <em>δοκεῖ</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.grc/prose-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It is impersonal and has no subject",
     "It is a mistake"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.grc/prose-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A verb",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.grc/prose-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The verb is impersonal",
     "It agrees with <em>οὗ</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-39"
   },
   {
    "id": "lang.ix.grc/prose-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A condition",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.grc/prose-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "An infinitive",
     "A future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.grc/prose-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The accusative",
     "Nothing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.grc/prose-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "<em>πράττουσι</em>",
     "<em>στοχάζονται</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.grc/prose-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Present",
     "Future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-50"
   },
   {
    "id": "lang.ix.grc/prose-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Neither: the sentence has no subject",
     "<em>ἦν</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-50"
   },
   {
    "id": "lang.ix.grc/prose-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“Against him”",
     "“Before him”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-50"
   },
   {
    "id": "lang.ix.grc/prose-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Imperfect",
     "Present"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-50"
   },
   {
    "id": "lang.ix.grc/prose-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "<em>ὁ λόγος</em>",
     "<em>ἡ ζωή</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Accusative",
     "Vocative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.grc/prose-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It is a mistake for the singular",
     "It is a passive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.grc/prose-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "An aorist indicative",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.grc/prose-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A condition",
     "A fear clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-56"
   },
   {
    "id": "lang.ix.grc/prose-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A present infinitive",
     "A future participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-61"
   },
   {
    "id": "lang.ix.grc/prose-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“The speech”",
     "“The one who will add,” a future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-61"
   },
   {
    "id": "lang.ix.grc/prose-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Genitive",
     "Nominative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-61"
   },
   {
    "id": "lang.ix.grc/prose-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A finite verb",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-61"
   },
   {
    "id": "lang.ix.grc/prose-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A future indicative",
     "A present middle imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-61"
   },
   {
    "id": "lang.ix.grc/prose-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A dative of possession",
     "A dative of manner"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-65"
   },
   {
    "id": "lang.ix.grc/prose-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“The writings”",
     "“They wrote”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-65"
   },
   {
    "id": "lang.ix.grc/prose-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It is a condition",
     "It is a purpose clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-65"
   },
   {
    "id": "lang.ix.grc/prose-ex:n52",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It follows <em>ὡς</em>, which here takes the genitive",
     "It is a genitive absolute"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-65"
   },
   {
    "id": "lang.ix.grc/prose-ex:n53",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "“Do you have a saying”",
     "“You will say”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-70"
   },
   {
    "id": "lang.ix.grc/prose-ex:n54",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A condition",
     "A command"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.grc/prose-ex:n55",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "Predicate adjectives always stand in the neuter",
     "<em>Ἀρετή</em> is a neuter noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-70"
   },
   {
    "id": "lang.ix.grc/prose-ex:n56",
@@ -919,7 +975,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A dative of the person",
     "A genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-70"
   },
   {
    "id": "lang.ix.grc/prose-ex:n57",
@@ -935,7 +992,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A purpose clause",
     "A wish about the past, introduced by <em>εἰ</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-75"
   },
   {
    "id": "lang.ix.grc/prose-ex:n58",
@@ -951,7 +1009,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "It makes the participle future",
     "Nothing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-75"
   },
   {
    "id": "lang.ix.grc/prose-ex:n59",
@@ -967,7 +1026,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A finite verb",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-75"
   },
   {
    "id": "lang.ix.grc/prose-ex:n60",
@@ -983,7 +1043,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A genitive",
     "An adverb of place"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-75"
   },
   {
    "id": "lang.ix.grc/prose-ex:n61",
@@ -999,7 +1060,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A participle",
     "A subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-80"
   },
   {
    "id": "lang.ix.grc/prose-ex:n62",
@@ -1015,7 +1077,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A purpose clause with ἵνα",
     "A genitive absolute"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-80"
   },
   {
    "id": "lang.ix.grc/prose-ex:n63",
@@ -1031,7 +1094,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "The subject",
     "A dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-80"
   },
   {
    "id": "lang.ix.grc/prose-ex:n64",
@@ -1047,7 +1111,8 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
     "A relative pronoun",
     "A demonstrative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-80"
   }
  ]
 };

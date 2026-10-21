@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>die Welt</em>",
     "<em>ein guter Wille</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a genitive of possession",
     "It follows <em>ja</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A perfect passive",
     "An imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "After <em>ein</em> the adjective is always <em>-er</em>",
     "It is a comparative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a question",
     "It is an infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The subject of <em>kann</em>",
     "A demonstrative: those women"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Comes first",
     "Is left out"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The subject: you all",
     "Accusative: it"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Ich</em> is the object",
     "German always puts the subject last"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.de/prose-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is genitive",
     "It is plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.de/prose-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Accusative singular",
     "Nominative plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.de/prose-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>den Menschen</em>",
     "<em>ich</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>König</em> is the object",
     "The verb always comes first in tales"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.de/prose-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The dative of <em>der</em>",
     "A conjunction: since"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.de/prose-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>die Töchter</em>",
     "<em>die Zeiten</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.de/prose-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The possessive with <em>Gesicht</em>",
     "Accusative: her"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>einmal</em>",
     "<em>Tochter</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-26"
   },
   {
    "id": "lang.ix.de/prose-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The article with <em>arm</em>",
     "A dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-26"
   },
   {
    "id": "lang.ix.de/prose-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Dative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-26"
   },
   {
    "id": "lang.ix.de/prose-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>auf dem</em>",
     "<em>an das</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.de/prose-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A dative",
     "A verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.de/prose-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Ich</em> is the object, placed after the verb",
     "It is a subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.de/prose-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Welt</em> is the object of <em>kam</em>, which governs the accusative",
     "It is a nominative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.de/prose-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A passive",
     "A perfect"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.de/prose-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Nominative",
     "Accusative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.de/prose-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is an adjective",
     "It is a dependent clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.de/prose-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is dative",
     "It is singular"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-34"
   },
   {
    "id": "lang.ix.de/prose-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Als</em> means “if”",
     "Both are wrong; it should be <em>wann</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.de/prose-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a command",
     "<em>Er</em> is the object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-40"
   },
   {
    "id": "lang.ix.de/prose-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A genitive of possession depending on <em>er</em>",
     "The subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-40"
   },
   {
    "id": "lang.ix.de/prose-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A genitive",
     "A dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-40"
   },
   {
    "id": "lang.ix.de/prose-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>meine Vorstellung</em>",
     "<em>jedes Wesen</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-46"
   },
   {
    "id": "lang.ix.de/prose-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "An infinitive",
     "A noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-46"
   },
   {
    "id": "lang.ix.de/prose-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The beings, plural",
     "The world"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-7"
   },
   {
    "id": "lang.ix.de/prose-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Bewusstsein</em> is masculine",
     "It is a genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-40"
   },
   {
    "id": "lang.ix.de/prose-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>die Havel</em>",
     "<em>die Mitte</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.de/prose-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The genitive",
     "The dative or accusative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-51"
   },
   {
    "id": "lang.ix.de/prose-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "In the name of God",
     "Nameless"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-51"
   },
   {
    "id": "lang.ix.de/prose-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "“The most upright of one man”",
     "A comparative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-51"
   },
   {
    "id": "lang.ix.de/prose-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is the indirect object of <em>wohnte</em>",
     "It is the subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-57"
   },
   {
    "id": "lang.ix.de/prose-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>seiner Frau</em>",
     "<em>das Bübchen</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-57"
   },
   {
    "id": "lang.ix.de/prose-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a diminutive",
     "It is singular"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-57"
   },
   {
    "id": "lang.ix.de/prose-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Bube</em> is neuter",
     "It is plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-57"
   },
   {
    "id": "lang.ix.de/prose-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is plural",
     "It is a comparative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-62"
   },
   {
    "id": "lang.ix.de/prose-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The subject",
     "Accusative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-13"
   },
   {
    "id": "lang.ix.de/prose-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The simple past of <em>sterben</em>, formed with <em>war</em>",
     "A subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-62"
   },
   {
    "id": "lang.ix.de/prose-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a mistake",
     "It refers to the room"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-62"
   },
   {
    "id": "lang.ix.de/prose-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A noun",
     "An adverb of time modifying <em>war</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-67"
   },
   {
    "id": "lang.ix.de/prose-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>sterben</em>, “to die”",
     "<em>tun</em>, “to do”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-67"
   },
   {
    "id": "lang.ix.de/prose-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The subject",
     "A possessive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.de/prose-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Dative plural",
     "Accusative plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-67"
   },
   {
    "id": "lang.ix.de/prose-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Dative masculine",
     "Accusative feminine"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-72"
   },
   {
    "id": "lang.ix.de/prose-ex:n52",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "Accusative plural",
     "It is a verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-72"
   },
   {
    "id": "lang.ix.de/prose-ex:n53",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Sondern</em> means “although”",
     "They are the same"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-72"
   },
   {
    "id": "lang.ix.de/prose-ex:n54",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "<em>Instrument</em>",
     "<em>Akt</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-72"
   },
   {
    "id": "lang.ix.de/prose-ex:n55",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A noun",
     "A present participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-77"
   },
   {
    "id": "lang.ix.de/prose-ex:n56",
@@ -919,7 +975,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a command",
     "It is a dependent clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-77"
   },
   {
    "id": "lang.ix.de/prose-ex:n57",
@@ -935,7 +992,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "A relative clause depending on the noun <em>Weiber</em>",
     "A question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-77"
   },
   {
    "id": "lang.ix.de/prose-ex:n58",
@@ -951,7 +1009,8 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "An infinitive",
     "A present tense"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-77"
   }
  ]
 };

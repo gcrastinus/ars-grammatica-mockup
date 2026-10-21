@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Vocative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "An infinitive",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>Ἀχιλῆος</em>",
     "<em>Ἀχαιοῖς</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "An Attic dative plural of <em>κύων</em>",
     "An accusative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "The plural",
     "The neuter plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Nominative",
     "Dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-9"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Accusative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-9"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Its ending",
     "Its stem"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-9"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>ἑταίρων</em>",
     "<em>πόντῳ</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-9"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Accusative object",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-15"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "An infinitive",
     "An aorist active participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-15"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "It is a genitive absolute",
     "It is partitive after <em>ὁμοῦ</em>, “some of the incense”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-15"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "“Because … therefore”",
     "“If … then”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-15"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Accusative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Infinitives",
     "Participles"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Is an adverb",
     "Begins a new sentence"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A nominative",
     "An Attic genitive singular in <em>-ου</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A finite verb",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A relative clause",
     "A purpose clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "It follows <em>τοῖς</em>, which takes the dative",
     "It is a dative of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>ξεῖνε</em>",
     "<em>ῥήμασι</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Doric keeps <em>ā</em> where Attic has <em>η</em>",
     "Both words are accusative, and an accusative in <em>-α</em> is long"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "poetry-31"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A prohibition with <em>μή</em>",
     "An aorist infinitive used as a command"
    ],
-   "answer": 1
+   "answer": 1,
+   "passageRef": "poetry-31"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "The object of <em>ναίεις</em>",
     "A relative pronoun"
    ],
-   "answer": 3
+   "answer": 3,
+   "passageRef": "poetry-31"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A dative of the person for whom she is a daughter",
     "An accusative of respect"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-31"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "The object of <em>ναίεις</em>",
     "A genitive depending on <em>γᾶς</em>, so that the noun is not governed by the verb"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "poetry-31"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A purpose",
     "A future condition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>Συμπληγάδας</em>",
     "The Nurse"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A present infinitive",
     "A future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>Κόλχων</em>",
     "<em>Συμπληγάδας</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "They are in apposition",
     "One is the object, and the other the subject of the infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-43"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Partitive genitive",
     "Genitive of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-43"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A future active",
     "A perfect infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-43"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A dog’s punishment",
     "For a dog"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-43"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A dative of the second person pronoun",
     "The article"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-48"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>ἐμνήσθην</em>",
     "<em>ἐς</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-48"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A present",
     "A future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-48"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Someone not named, an indefinite subject",
     "Heraclitus alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-48"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "<em>ἐνί … ἐν</em>",
     "Nothing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "Present",
     "Future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-53"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "An Attic dative plural of <em>ζῷον</em>",
     "A genitive singular"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-53"
   },
   {
    "id": "lang.ix.grc/poetry-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
     "A future",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-53"
   }
  ]
 };

@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The noun “tree”",
     "The verb “Restore”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.en/poetry-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A clause of time telling when death came",
     "A noun clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.en/poetry-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The subject is plural",
     "It is an infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.en/poetry-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "An infinitive",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.en/poetry-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The possessive form of “thou”",
     "A plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.en/poetry-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "Superlative adjectives completing “art”",
     "Nouns"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.en/poetry-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A helping verb that marks the future, like “will”",
     "A sign of the passive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.en/poetry-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "An active verb",
     "A participle alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.en/poetry-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A verb in the past",
     "A noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-13"
   },
   {
    "id": "lang.ix.en/poetry-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Wind” is a noun",
     "The verb agrees with “lea”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-13"
   },
   {
    "id": "lang.ix.en/poetry-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A noun naming the place, the object of “plods”",
     "A preposition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-13"
   },
   {
    "id": "lang.ix.en/poetry-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“The world”",
     "“Darkness”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-13"
   },
   {
    "id": "lang.ix.en/poetry-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A plural",
     "An imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.en/poetry-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Therefore”",
     "“Whereas”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.en/poetry-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Beard”",
     "“Eye”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.en/poetry-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The object",
     "Nothing; the verb has its subject in the line before"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.en/poetry-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Cloud”",
     "“Hills”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.en/poetry-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A clause of time",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.en/poetry-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A relative clause describing “a crowd”",
     "An indirect question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.en/poetry-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "As a second main clause",
     "As a noun of address"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.en/poetry-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The main clause",
     "A noun clause, the object of the verb “met”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-29"
   },
   {
    "id": "lang.ix.en/poetry-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“the desert”",
     "“I”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-29"
   },
   {
    "id": "lang.ix.en/poetry-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“them”",
     "“Half sunk”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-29"
   },
   {
    "id": "lang.ix.en/poetry-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "It agrees with “the sculptor,” a plural subject here",
     "It is past tense"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-29"
   },
   {
    "id": "lang.ix.en/poetry-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "An infinitive after “tell”",
     "A noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-29"
   },
   {
    "id": "lang.ix.en/poetry-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "Two unstressed syllables",
     "A spondee only"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-35"
   },
   {
    "id": "lang.ix.en/poetry-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The night",
     "The hand"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-35"
   },
   {
    "id": "lang.ix.en/poetry-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“the night”",
     "“Tyger”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-35"
   },
   {
    "id": "lang.ix.en/poetry-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A noun of address",
     "An adverb telling how the tiger was framed"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-35"
   },
   {
    "id": "lang.ix.en/poetry-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“chance”",
     "“writing” alone, the object of “in”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-40"
   },
   {
    "id": "lang.ix.en/poetry-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“chance”",
     "“easiest”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-40"
   },
   {
    "id": "lang.ix.en/poetry-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "Art",
     "Nothing; “it” is an empty subject, as in “it rains”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-40"
   },
   {
    "id": "lang.ix.en/poetry-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "The object of “sound”",
     "An adverb of place"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-40"
   },
   {
    "id": "lang.ix.en/poetry-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A question",
     "A plain statement that death is not proud"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-45"
   },
   {
    "id": "lang.ix.en/poetry-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A possessive",
     "A noun of address"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-45"
   },
   {
    "id": "lang.ix.en/poetry-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Die”",
     "“For”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-45"
   },
   {
    "id": "lang.ix.en/poetry-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“Death”",
     "“me”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-45"
   },
   {
    "id": "lang.ix.en/poetry-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "It is an imperative",
     "For the rhyme alone, against the ordinary English order"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-45"
   },
   {
    "id": "lang.ix.en/poetry-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A relative clause",
     "An infinitive phrase"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-51"
   },
   {
    "id": "lang.ix.en/poetry-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“earth and heaven”",
     "“we”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-51"
   },
   {
    "id": "lang.ix.en/poetry-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "A question",
     "A dependent clause of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-51"
   },
   {
    "id": "lang.ix.en/poetry-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“old days”",
     "“will”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-51"
   },
   {
    "id": "lang.ix.en/poetry-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "“fate”",
     "“hearts”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-51"
   }
  ]
 };

@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "By hypotaxis, as if <em>ut</em> were understood before <em>virum</em>",
     "As a nominative, since <em>-que</em> changes the case of <em>virum</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>litora</em>, the shores he reached",
     "<em>cano</em>, as the thing sung"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A nominative, the subject of <em>venit</em>",
     "An ablative of place where"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Hypotaxis of cause: <em>dum</em> means “because”",
     "No dependence, since <em>conderet</em> has its own subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "It is a result clause following <em>tot</em>, “so many”",
     "Poetic license lets the subjunctive stand for the indicative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A purpose clause depending on <em>impulerit</em>",
     "An incomplete clause, since no verb can be supplied"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Present: “I prepare”",
     "Pluperfect: “I had prepared”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.la/poetry-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A dative with <em>modis</em>",
     "An ablative of comparison"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.la/poetry-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Accusative plural, the object of <em>edere</em>",
     "Genitive singular"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.la/poetry-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "As an infinitive of purpose",
     "As the subject of <em>erat</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.la/poetry-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>versus</em>",
     "<em>inferior</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.la/poetry-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A hortatory subjunctive",
     "A complementary infinitive depending on <em>avet</em>, as if the wish to fly completed that verb"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.la/poetry-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>auris</em>, the breezes",
     "<em>campi</em>, the fields"
    ],
-   "answer": 1
+   "answer": 1,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.la/poetry-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An ablative of the place left behind",
     "A possessive genitive"
    ],
-   "answer": 3
+   "answer": 3,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.la/poetry-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "The subject of <em>avet</em>",
     "A supine of purpose after <em>refert</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.la/poetry-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An ablative of cause",
     "The subject of <em>vigescunt</em>"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.la/poetry-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A nominative plural",
     "A locative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-25"
   },
   {
    "id": "lang.ix.la/poetry-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "The dative",
     "The genitive only"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-25"
   },
   {
    "id": "lang.ix.la/poetry-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Nominative: the subject of <em>eget</em>",
     "Genitive: of Fuscus"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-25"
   },
   {
    "id": "lang.ix.la/poetry-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Nominative singular",
     "Ablative plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-25"
   },
   {
    "id": "lang.ix.la/poetry-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A gerundive",
     "A present participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-25"
   },
   {
    "id": "lang.ix.la/poetry-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Ablative: by the eternal maker",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-33"
   },
   {
    "id": "lang.ix.la/poetry-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Because <em>qui</em> is always second person",
     "Because it agrees with <em>noctem</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-33"
   },
   {
    "id": "lang.ix.la/poetry-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An indirect question",
     "A clause of time: as you lighten"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-33"
   },
   {
    "id": "lang.ix.la/poetry-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A nominative plural",
     "A future participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-33"
   },
   {
    "id": "lang.ix.la/poetry-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>noctem</em>",
     "<em>lux</em> alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-33"
   },
   {
    "id": "lang.ix.la/poetry-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A nominative plural, the subject of the sentence",
     "An ablative of origin"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-42"
   },
   {
    "id": "lang.ix.la/poetry-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>caeli</em>",
     "<em>voluptas</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-42"
   },
   {
    "id": "lang.ix.la/poetry-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Because it is an imperative",
     "Because <em>quae</em> is always second person"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-42"
   },
   {
    "id": "lang.ix.la/poetry-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A relative clause taking up <em>terras</em>",
     "A condition contrary to fact"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-42"
   },
   {
    "id": "lang.ix.la/poetry-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>solis</em>",
     "<em>te</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-42"
   },
   {
    "id": "lang.ix.la/poetry-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>hasta</em>",
     "<em>poetae</em>, the poet who is asked what he has to do with the god"
    ],
-   "answer": 1
+   "answer": 1,
+   "passageRef": "poetry-50"
   },
   {
    "id": "lang.ix.la/poetry-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An ablative of separation",
     "A dative of the person from whom the hair is taken"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "poetry-50"
   },
   {
    "id": "lang.ix.la/poetry-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>Mars</em>",
     "<em>comas</em> and <em>casside</em> together, since both stand beside the adjective"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-50"
   },
   {
    "id": "lang.ix.la/poetry-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An ablative of accompaniment, depending on <em>cum</em>",
     "A dative of reference"
    ],
-   "answer": 3
+   "answer": 3,
+   "passageRef": "poetry-50"
   },
   {
    "id": "lang.ix.la/poetry-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A dative of the person concerned",
     "An ablative of means, the weapons with which Mars is asked to be present"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-50"
   },
   {
    "id": "lang.ix.la/poetry-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Nominative: the subject of <em>amo</em>",
     "Dative: to Sabidius"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-56"
   },
   {
    "id": "lang.ix.la/poetry-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>quare</em>, as a clause of purpose",
     "Nothing: it is a historical infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-56"
   },
   {
    "id": "lang.ix.la/poetry-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "“Where”: it asks the place",
     "“Whom”: it asks the person"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-56"
   },
   {
    "id": "lang.ix.la/poetry-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "The poem as a whole",
     "The reason, <em>quare</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-56"
   },
   {
    "id": "lang.ix.la/poetry-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A noun: so much",
     "A conjunction"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-56"
   },
   {
    "id": "lang.ix.la/poetry-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "What is being done now: one is praying",
     "What was hoped: one wished to pray"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-62"
   },
   {
    "id": "lang.ix.la/poetry-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A clause of time: as there is",
     "A clause of comparison: just as there is"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-62"
   },
   {
    "id": "lang.ix.la/poetry-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A present subjunctive",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-62"
   },
   {
    "id": "lang.ix.la/poetry-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "It is an ablative of comparison",
     "It is the object of <em>posce</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-62"
   },
   {
    "id": "lang.ix.la/poetry-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "It depends on <em>orandum est</em> as a purpose clause",
     "It is a wish"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-62"
   },
   {
    "id": "lang.ix.la/poetry-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "It is an impersonal verb",
     "Hymns use the plural for the singular"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-68"
   },
   {
    "id": "lang.ix.la/poetry-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>carne</em>",
     "<em>mysterium</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>patibulo</em>",
     "<em>suspensus est</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-68"
   },
   {
    "id": "lang.ix.la/poetry-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>lanceae</em>",
     "<em>nos</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-68"
   },
   {
    "id": "lang.ix.la/poetry-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An indirect question",
     "A clause of time: when he washed us"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-68"
   },
   {
    "id": "lang.ix.la/poetry-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A dative: for guilt",
     "The object of <em>lavaret</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-68"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe1",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A dative of advantage, “for the man”",
     "Nothing, since <em>cano</em> has no object here"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe2",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>cano</em>, as its object",
     "<em>litora</em>, the shores he reached"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe3",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "As a relative clause, taking up the man",
     "As a second main clause beside the tossing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe5",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Purpose clauses telling why the Muse should speak",
     "A result clause after <em>tot</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe6",
@@ -919,7 +975,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "As a relative clause taking up <em>virum</em>",
     "As incomplete, having no verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe7",
@@ -935,7 +992,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Dative of advantage: an exile “for” fate’s sake",
     "Nominative, in apposition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe8",
@@ -951,7 +1009,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "As accusatives of the goal, with <em>iactatus</em>",
     "As genitives depending on <em>multum</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe9",
@@ -967,7 +1026,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Nominative plural, the subject of the clause",
     "Ablative singular, agreeing with <em>vi</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe10",
@@ -983,7 +1043,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>saevae</em>: the cruel and mindful one",
     "<em>ille</em>: he, remembering"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe11",
@@ -999,7 +1060,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "An indirect question, depending on <em>memora</em>",
     "A second main clause, whose verb is <em>inferret</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe12",
@@ -1015,7 +1077,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Ablative: by the Muse",
     "Genitive: of the Muse"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe13",
@@ -1031,7 +1094,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Present infinitive: “to tell”",
     "Perfect indicative: “she told”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe14",
@@ -1047,7 +1111,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "A dative of the person offended",
     "A relative clause taking up <em>causas</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe15",
@@ -1063,7 +1128,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "<em>dolens</em>: grieving to pass through",
     "<em>insignem</em>: famous for passing through"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.la/poetry-ex:pe16",
@@ -1079,7 +1145,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
     "Ablative of place: in the heavens",
     "Nominative plural, the subject of the question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   }
  ]
 };

@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "An imperfect",
     "A reflexive verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The object of <em>pars</em>",
     "In apposition to <em>dessein</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Where",
     "Than which"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Gives a purpose",
     "Marks the indirect object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The future: we shall go",
     "The subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "So: an adverb of degree",
     "Yes: an answer"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The pluperfect: had lost",
     "A passive: is lost"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "To you",
     "Of yours"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "“He,” the heart",
     "“It,” the town"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It agrees with <em>cœur</em>",
     "Interrogatives are always feminine"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "A question: who?",
     "The poet"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "An impersonal verb",
     "The object of <em>pour</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "<em>vent</em>",
     "<em>pluye</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The imperfect: was leaving",
     "The present: leaves"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Whose cloak it is",
     "When it was left off"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It is passive, formed with <em>être</em> like every passive",
     "The old language had no <em>avoir</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "A finite verb",
     "A noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-18"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The speaker is a woman, and it agrees with her",
     "It is a noun of address"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Not at all",
     "No longer"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It is a subjunctive",
     "The meter alone requires it, against the rule"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "A present participle",
     "A finite verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The subject of <em>voir</em>",
     "A phrase of quantity, the object of <em>voir</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-23"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Raising the voice alone",
     "Using <em>si</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-28"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The object of a preposition",
     "The subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-28"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "An address to the father",
     "The predicate of <em>as</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-28"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The imperfect: was finding out",
     "The subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-28"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It is a command",
     "It is polite"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It agrees with <em>vieille</em> as a noun",
     "Participles are always feminine"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "<em>mes vers</em>",
     "<em>le feu</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "An infinitive",
     "A present indicative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "A direct object",
     "A phrase of place"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The object of <em>volez</em>",
     "A phrase of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It is an imperative",
     "It agrees with <em>aile</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The object of <em>volez</em>",
     "In apposition to <em>murmure</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-37"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The subject",
     "A reflexive pronoun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Imperfect: I was blushing",
     "Past participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Phèdre is speaking",
     "It is an adverb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "It is a future in the past",
     "It is a subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "The subject of <em>sentis</em>",
     "A phrase of place"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "I tell this dream",
     "I fear this dream"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-46"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "A conjunction, “that”",
     "A comparison, “than”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "An interrogative, “who?”",
     "A possessive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.fr/poetry-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
     "Both … and",
     "Not only … but also"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-46"
   }
  ]
 };

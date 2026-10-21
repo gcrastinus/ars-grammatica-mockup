@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause describing “events”",
     "A noun clause, the subject of “requires”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Prepositional phrases of place",
     "Participles describing “people”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“Dissolve,” with “people” as its subject",
     "“Entitle,” with “the Laws” as its subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause describing “mankind”",
     "A second main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Adverb clauses of result",
     "Three independent sentences"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The subject of the sentence, placed first for emphasis",
     "A noun clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-10"
   },
   {
    "id": "lang.ix.en/prose-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "None, since the verb is passive",
     "Three, one for each noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-10"
   },
   {
    "id": "lang.ix.en/prose-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A participle describing “monarchy”",
     "A verb in the subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-10"
   },
   {
    "id": "lang.ix.en/prose-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "It is the present perfect",
     "It is the conditional"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-10"
   },
   {
    "id": "lang.ix.en/prose-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The object of “waited”",
     "An appositive to “years”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-16"
   },
   {
    "id": "lang.ix.en/prose-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A noun clause, the object of “waited”",
     "A clause of purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-16"
   },
   {
    "id": "lang.ix.en/prose-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A pronoun standing for “the door”",
     "The object of “complain”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-16"
   },
   {
    "id": "lang.ix.en/prose-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Three relative clauses",
     "Three adverbs of manner modifying “brought”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-16"
   },
   {
    "id": "lang.ix.en/prose-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "It is a phrase of time",
     "It is a noun of address"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-16"
   },
   {
    "id": "lang.ix.en/prose-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause describing “years”",
     "A noun clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.en/prose-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“This orb”",
     "“She”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.en/prose-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“Versailles”",
     "“A vision”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.en/prose-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of purpose",
     "A participial phrase describing the subject “she”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-24"
   },
   {
    "id": "lang.ix.en/prose-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“A definition”",
     "“Pain”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-32"
   },
   {
    "id": "lang.ix.en/prose-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of time",
     "A question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-32"
   },
   {
    "id": "lang.ix.en/prose-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "The subject of “is”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-32"
   },
   {
    "id": "lang.ix.en/prose-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The main verb",
     "An adjective describing “obstacles”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-32"
   },
   {
    "id": "lang.ix.en/prose-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“A single man”",
     "“A wife”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-38"
   },
   {
    "id": "lang.ix.en/prose-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause describing “man”",
     "A clause of purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-38"
   },
   {
    "id": "lang.ix.en/prose-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The main verb",
     "An adjective"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-38"
   },
   {
    "id": "lang.ix.en/prose-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A condition",
     "A comparison of equality"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-38"
   },
   {
    "id": "lang.ix.en/prose-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of time, telling when God spoke",
     "A noun clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.en/prose-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“Made”",
     "“Hath appointed,” in the last clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.en/prose-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A pronoun standing for “God”",
     "An interrogative pronoun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-32"
   },
   {
    "id": "lang.ix.en/prose-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Main verbs",
     "Infinitives"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.en/prose-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“the fathers”",
     "“the prophets”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-44"
   },
   {
    "id": "lang.ix.en/prose-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Three clauses",
     "Three objects of “studies”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.en/prose-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“For,” as a second preposition",
     "Nothing, since the clause is complete"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.en/prose-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“During”",
     "“Instead of”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.en/prose-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of result",
     "The main verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.en/prose-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A noun clause",
     "An appositive to “fathers”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.en/prose-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Infinitives",
     "Gerunds"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.en/prose-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of purpose",
     "A clause of result"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.en/prose-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "A main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.en/prose-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "Subjects of “strive”",
     "Relative clauses"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-66"
   },
   {
    "id": "lang.ix.en/prose-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“We are in”",
     "“Who shall have borne the battle”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-66"
   },
   {
    "id": "lang.ix.en/prose-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A gerund",
     "A noun clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-66"
   },
   {
    "id": "lang.ix.en/prose-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The present perfect",
     "The simple future"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-66"
   },
   {
    "id": "lang.ix.en/prose-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "As relative clauses",
     "As one clause with a compound subject"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.en/prose-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "A question"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-52"
   },
   {
    "id": "lang.ix.en/prose-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A condition",
     "A concession"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.en/prose-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The main verb",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.en/prose-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The future tense",
     "The infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-78"
   },
   {
    "id": "lang.ix.en/prose-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause describing “creature”",
     "An object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-78"
   },
   {
    "id": "lang.ix.en/prose-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "As an indirect object",
     "As a noun of address"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-78"
   },
   {
    "id": "lang.ix.en/prose-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of time",
     "A condition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-78"
   },
   {
    "id": "lang.ix.en/prose-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of time",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-83"
   },
   {
    "id": "lang.ix.en/prose-ex:n52",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "An indirect question",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-83"
   },
   {
    "id": "lang.ix.en/prose-ex:n53",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The beggars",
     "“The country”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-83"
   },
   {
    "id": "lang.ix.en/prose-ex:n54",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "The passengers",
     "The roads"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-83"
   },
   {
    "id": "lang.ix.en/prose-ex:n55",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A statement in the past",
     "A relative clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-88"
   },
   {
    "id": "lang.ix.en/prose-ex:n56",
@@ -919,7 +975,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "The main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-88"
   },
   {
    "id": "lang.ix.en/prose-ex:n57",
@@ -935,7 +992,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "“The world”",
     "“Shore”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-88"
   },
   {
    "id": "lang.ix.en/prose-ex:n58",
@@ -951,7 +1009,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "An independent sentence",
     "A condition"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-88"
   },
   {
    "id": "lang.ix.en/prose-ex:n59",
@@ -967,7 +1026,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "A clause of purpose, telling why he went"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-93"
   },
   {
    "id": "lang.ix.en/prose-ex:n60",
@@ -983,7 +1043,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A gerund",
     "A participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-93"
   },
   {
    "id": "lang.ix.en/prose-ex:n61",
@@ -999,7 +1060,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A clause of result",
     "A relative clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-93"
   },
   {
    "id": "lang.ix.en/prose-ex:n62",
@@ -1015,7 +1077,8 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
     "A relative clause",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-93"
   }
  ]
 };

@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An accusative of the town, the object of <em>saevitum esse</em>",
     "A relative clause, taking up Troy, whose verb has been left out"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A supine of purpose, “in order to rage,” after a verb of motion",
     "A future infinitive, “to be about to rage”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Nominative: the subjects of <em>fuerunt</em> in the <em>quia</em>-clause",
     "Ablative: the persons by whom the war was waged on Troy"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A future active participle, “about to return”",
     "A perfect passive participle, “returned”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "As an accusative of exclamation: “the Achaeans!”",
     "As the object of <em>saevitum esse</em>, the ones raged against"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "One period, joined by an <em>ut</em> that is understood throughout",
     "A chain of relative clauses, all of them taking up <em>Catilina</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.la/prose-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Nominative, the subject of the verb <em>abutere</em>",
     "Dative of disadvantage, “to the cost of our patience”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.la/prose-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Present subjunctive",
     "Perfect indicative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.la/prose-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>finem</em>, the end asked about",
     "<em>Catilina</em>, the man addressed"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-8"
   },
   {
    "id": "lang.ix.la/prose-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>urbe</em>, the city from which he is driven, in the ablative",
     "the subject of <em>eiecimus</em>, “we”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-14"
   },
   {
    "id": "lang.ix.la/prose-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Accusative: the object of <em>minitantem</em>",
     "Genitive: depending on <em>ferro</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-14"
   },
   {
    "id": "lang.ix.la/prose-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Three objects of one verb",
     "Three conditions, each with its own result"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-14"
   },
   {
    "id": "lang.ix.la/prose-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A future perfect: “we shall have followed”",
     "A participle used as an adjective with <em>verbis</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-14"
   },
   {
    "id": "lang.ix.la/prose-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>iudices</em>, as relative clauses describing the judges",
     "<em>tempore</em>, as clauses of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.la/prose-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A supine of purpose",
     "A present participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.la/prose-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>iudiciorum</em>, the courts",
     "<em>id</em>, the subject of the main verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.la/prose-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>pertinebat</em>, in the second relative clause",
     "<em>datum</em>, a participle that stands alone"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-19"
   },
   {
    "id": "lang.ix.la/prose-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>dicenda</em>, as a clause of purpose",
     "Nothing: it is an independent wish"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-25"
   },
   {
    "id": "lang.ix.la/prose-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "What is being said: a present participle",
     "What he will say: a future active participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-25"
   },
   {
    "id": "lang.ix.la/prose-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "The imperfect subjunctive after <em>ante quam</em>",
     "The perfect indicative: “I have set out”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-25"
   },
   {
    "id": "lang.ix.la/prose-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>vobis</em>, as possessors",
     "<em>tempore</em>, as genitives of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-25"
   },
   {
    "id": "lang.ix.la/prose-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A dative: born for a noble family",
     "An ablative of time: at a noble time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.la/prose-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Ablatives of cause: he was because of great force",
     "Datives of possession with <em>fuit</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.la/prose-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>genere</em>, as genitives of origin",
     "<em>natus</em>, as the parents"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.la/prose-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "The sentence to the next one",
     "<em>malo</em> to <em>fuit</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-30"
   },
   {
    "id": "lang.ix.la/prose-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Infinitives of purpose",
     "Infinitives depending on an understood verb of wishing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-35"
   },
   {
    "id": "lang.ix.la/prose-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A preposition with the ablative",
     "A condition contrary to fact"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-35"
   },
   {
    "id": "lang.ix.la/prose-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A reflexive passive: “he was agreed with”",
     "An infinitive of purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-35"
   },
   {
    "id": "lang.ix.la/prose-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "The imperfect indicative: “he was knowing”",
     "An infinitive: “to know”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-35"
   },
   {
    "id": "lang.ix.la/prose-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Ablative absolute: the enemy being present",
     "Genitive: the way of the enemy"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-41"
   },
   {
    "id": "lang.ix.la/prose-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A purpose clause depending on <em>iter</em>",
     "A second main fact, set beside the first"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-41"
   },
   {
    "id": "lang.ix.la/prose-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "As a vocative, addressed by Livy",
     "As the object of <em>habuit</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-41"
   },
   {
    "id": "lang.ix.la/prose-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A dative: for that day",
     "An accusative of duration: for the whole day"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-41"
   },
   {
    "id": "lang.ix.la/prose-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Third person singular perfect: “he made”",
     "Second person plural perfect: “you all made”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-45"
   },
   {
    "id": "lang.ix.la/prose-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>te</em>, God",
     "Nothing: it is an adverb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-45"
   },
   {
    "id": "lang.ix.la/prose-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>ad te</em>, as a relative clause naming God",
     "Nothing: it is a third main clause"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-45"
   },
   {
    "id": "lang.ix.la/prose-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>uerticem</em>, as the noun it governs",
     "Nothing: it is an independent wish"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-49"
   },
   {
    "id": "lang.ix.la/prose-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>mulier</em>, the woman",
     "<em>stili</em>, the pen"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-49"
   },
   {
    "id": "lang.ix.la/prose-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An ablative absolute: the pen having served",
     "A genitive of the thing marked"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-49"
   },
   {
    "id": "lang.ix.la/prose-ex:n39",
@@ -647,7 +686,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A present infinitive of purpose",
     "A historical infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-49"
   },
   {
    "id": "lang.ix.la/prose-ex:n40",
@@ -663,7 +703,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "The subjects of <em>intellegit</em>",
     "Two nominatives in apposition to <em>senatus</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-54"
   },
   {
    "id": "lang.ix.la/prose-ex:n41",
@@ -679,7 +720,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>videt</em> depending on <em>intellegit</em> as its purpose",
     "One verb governing both nominatives as objects"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-54"
   },
   {
    "id": "lang.ix.la/prose-ex:n42",
@@ -695,7 +737,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Neuter plural nominative, the subject of <em>videt</em>",
     "Ablative singular: “in this way”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-49"
   },
   {
    "id": "lang.ix.la/prose-ex:n43",
@@ -711,7 +754,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A relative clause taking up the pronoun <em>hic</em>",
     "An incomplete clause until <em>ut</em> is supplied"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-54"
   },
   {
    "id": "lang.ix.la/prose-ex:n44",
@@ -727,7 +771,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Nominative: the senate comes",
     "Dative: for the senate"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-54"
   },
   {
    "id": "lang.ix.la/prose-ex:n45",
@@ -743,7 +788,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A cause: “because”",
     "A purpose: “in order that”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.la/prose-ex:n46",
@@ -759,7 +805,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A prohibition: “let it not be shameful”",
     "A result clause after <em>etsi</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.la/prose-ex:n47",
@@ -775,7 +822,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A superlative in the dative, the indirect object",
     "A nominative agreeing with the speaker"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.la/prose-ex:n48",
@@ -791,7 +839,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>iudices</em>, the judges",
     "<em>turpe</em>, the shameful thing"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.la/prose-ex:n49",
@@ -807,7 +856,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A historical infinitive",
     "An imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-59"
   },
   {
    "id": "lang.ix.la/prose-ex:n50",
@@ -823,7 +873,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Genitive singular, “of every man”",
     "Vocative, addressing all men"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-63"
   },
   {
    "id": "lang.ix.la/prose-ex:n51",
@@ -839,7 +890,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>decet</em>, as a clause of cause",
     "<em>rebus</em>, the matters deliberated"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-63"
   },
   {
    "id": "lang.ix.la/prose-ex:n52",
@@ -855,7 +907,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An ablative of cause: because of hatred",
     "An ablative of time"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-63"
   },
   {
    "id": "lang.ix.la/prose-ex:n53",
@@ -871,7 +924,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A verb in the subjunctive of purpose",
     "A deponent verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-63"
   },
   {
    "id": "lang.ix.la/prose-ex:n54",
@@ -887,7 +941,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A clause of time with the indicative",
     "A condition contrary to fact"
    ],
-   "answer": 2
+   "answer": 2,
+   "passageRef": "prose-68"
   },
   {
    "id": "lang.ix.la/prose-ex:n55",
@@ -903,7 +958,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>Gallum</em>, the Gaul who had already taken his stand on the summit",
     "<em>ceteros</em>"
    ],
-   "answer": 1
+   "answer": 1,
+   "passageRef": "prose-68"
   },
   {
    "id": "lang.ix.la/prose-ex:n56",
@@ -919,7 +975,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An ablative of means, the seized arms being a mere adjective with the verb",
     "An ablative absolute"
    ],
-   "answer": 3
+   "answer": 3,
+   "passageRef": "prose-68"
   },
   {
    "id": "lang.ix.la/prose-ex:n57",
@@ -935,7 +992,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An ablative absolute",
     "A perfect participle agreeing with <em>Gallum</em>"
    ],
-   "answer": 3
+   "answer": 3,
+   "passageRef": "prose-68"
   },
   {
    "id": "lang.ix.la/prose-ex:n58",
@@ -951,7 +1009,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "The object of <em>excitus</em>",
     "A dative of the person for whom the noise was made"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-68"
   },
   {
    "id": "lang.ix.la/prose-ex:n59",
@@ -967,7 +1026,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Infinitives of purpose",
     "Imperatives"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.la/prose-ex:n60",
@@ -983,7 +1043,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "An ablative absolute",
     "The object of <em>appellant</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.la/prose-ex:n61",
@@ -999,7 +1060,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A genitive depending on <em>nominibus</em>",
     "An ablative of means"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.la/prose-ex:n62",
@@ -1015,7 +1077,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Nothing: the two verbs are independent and equal",
     "<em>auferre</em>, as a clause of purpose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-73"
   },
   {
    "id": "lang.ix.la/prose-ex:lp2",
@@ -1031,7 +1094,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "As two independent periods, set side by side with <em>constat</em>",
     "As a purpose clause and then a result clause, one after the other"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:lp3",
@@ -1047,7 +1111,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Only the nominative <em>Troianos</em>, as the subject of the verb",
     "Nothing, since <em>constat</em> is complete and the rest is a new sentence"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:lp5",
@@ -1063,7 +1128,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "A supine of purpose, “in order to rage,” after a verb of motion",
     "A future infinitive, “to be about to rage”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:lp6",
@@ -1079,7 +1145,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "Nominative: the rest of the Trojans raged",
     "Genitive: of the rest of the Trojans"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   },
   {
    "id": "lang.ix.la/prose-ex:lp8",
@@ -1095,7 +1162,8 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
     "<em>iure</em>, as genitives with “right”: by the right of peace",
     "<em>hospitii</em>, as genitives of the bond: guest-friendship of peace"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "prose-1"
   }
  ]
 };

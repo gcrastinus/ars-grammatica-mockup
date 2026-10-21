@@ -627,7 +627,8 @@ ol.keys{margin:0; padding:0; list-style:none; counter-reset:qn}
 @media print{
   body, html{background:#fff !important}
   #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls, #recite-open, .si-home{display:none !important}
-  .wrap{max-width:none; padding:0; margin:0}
+  body{min-height:0 !important}
+  .wrap{max-width:none; padding:0 !important; margin:0}
   .screen{display:none !important}
   #scr-maker{display:block !important; position:static}
   #maker-ui{display:none !important}
@@ -698,6 +699,25 @@ textarea.fw-in{resize:vertical; min-height:84px; line-height:1.45}
 .qz-fmt{font-family:'EB Garamond',serif; font-size:14.5px; padding:3px 6px; border:1px solid var(--line); background:var(--panel2); color:var(--ink); border-radius:7px; margin-right:6px}
 .qsection{font-family:'Cinzel',serif; font-size:13px; letter-spacing:.12em; text-transform:uppercase; margin:22px 0 8px; padding-top:10px; border-top:1px solid #999}
 .kalso{font-weight:normal; font-style:italic}
+.maker-rowwrap select, .maker-rowwrap .qz-n{font-family:'EB Garamond',serif; font-size:14.5px; padding:3px 6px; border:1px solid var(--line); background:var(--panel2); color:var(--ink); border-radius:7px}
+.maker-rowwrap .qz-n{width:58px; margin-right:6px}
+#qz-langs label{display:inline-flex; gap:5px; align-items:center; font-size:14.5px; color:var(--ink-soft); cursor:pointer}
+.qz-tokens{font-size:15px; line-height:1.9; margin:6px 0; word-spacing:4px}
+.qz-bins{font-size:13.5px; font-family:Helvetica,Arial,sans-serif; margin:6px 0; display:flex; flex-wrap:wrap; gap:6px 16px}
+ul.qz-entries, ul.qz-parse{list-style:none; margin:4px 0 0; padding:0}
+ul.qz-entries li{font-size:14px; line-height:1.9}
+.qz-blank{display:inline-block; width:44px; border-bottom:1px solid #555; margin-right:8px}
+ul.qz-parse li{display:flex; gap:10px; font-size:14px; line-height:2}
+ul.qz-parse li span:first-child{flex:0 0 120px}
+.qz-line{flex:1; border-bottom:1px solid #555; margin-bottom:6px}
+.qz-passage{font-size:14.5px; line-height:1.6; border-left:3px solid #a67c2e; background:#faf7f0; padding:8px 12px; margin:6px 0 10px;
+  -webkit-print-color-adjust:exact; print-color-adjust:exact; break-inside:avoid; page-break-inside:avoid}
+.qz-src{font-size:12px; color:#555; margin-top:4px; font-family:Helvetica,Arial,sans-serif}
+.qz-tr{font-size:13.5px; color:#444; margin-top:6px}
+.qz-passage-block{break-inside:avoid; page-break-inside:avoid; break-after:avoid; page-break-after:avoid}
+.qz-passage-head{font-size:13px; font-style:italic; color:#444; margin:14px 0 4px}
+.qz-why{font-size:13.5px; margin-top:8px}
+.work.tall{height:150px}
 /* mockup additions */
 .set-card.mock{cursor:default}
 .set-card.mock:hover{transform:none}

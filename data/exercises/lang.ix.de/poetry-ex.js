@@ -23,7 +23,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Genitive plural",
     "Nominative plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.de/poetry-ex:n1",
@@ -39,7 +40,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A past tense",
     "An imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.de/poetry-ex:n2",
@@ -55,7 +57,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A feminine noun",
     "A verb"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.de/poetry-ex:n3",
@@ -71,7 +74,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is a noun",
     "It is the dative of an adjective, agreeing with <em>Walde</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.de/poetry-ex:n4",
@@ -87,7 +91,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "An imperative",
     "A past participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-1"
   },
   {
    "id": "lang.ix.de/poetry-ex:n5",
@@ -103,7 +108,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A noun",
     "A past participle"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.de/poetry-ex:n6",
@@ -119,7 +125,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is the indirect object of <em>hört’</em>",
     "<em>wohl</em> takes the dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.de/poetry-ex:n7",
@@ -135,7 +142,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>zu der</em>",
     "A separable prefix"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.de/poetry-ex:n8",
@@ -151,7 +159,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is a dependent clause",
     "The subject is left out"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.de/poetry-ex:n9",
@@ -167,7 +176,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It begins a new clause",
     "The meter requires it, against the ordinary order of prose"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.de/poetry-ex:n10",
@@ -183,7 +193,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is feminine",
     "It is dative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.de/poetry-ex:n11",
@@ -199,7 +210,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is a dependent clause",
     "It is an imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.de/poetry-ex:n12",
@@ -215,7 +227,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>einer feste Burg</em>",
     "<em>ein festes Burg</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-16"
   },
   {
    "id": "lang.ix.de/poetry-ex:n13",
@@ -231,7 +244,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>ist</em>",
     "There is none"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-16"
   },
   {
    "id": "lang.ix.de/poetry-ex:n14",
@@ -247,7 +261,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Nominative",
     "Reflexive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-16"
   },
   {
    "id": "lang.ix.de/poetry-ex:n15",
@@ -263,7 +278,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Before <em>uns</em>",
     "It would drop it"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-16"
   },
   {
    "id": "lang.ix.de/poetry-ex:n16",
@@ -279,7 +295,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A demonstrative subject",
     "Accusative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-7"
   },
   {
    "id": "lang.ix.de/poetry-ex:n17",
@@ -295,7 +312,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "An infinitive",
     "A noun"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.de/poetry-ex:n18",
@@ -311,7 +329,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>einen goldnen Becher</em>",
     "<em>dem</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.de/poetry-ex:n19",
@@ -327,7 +346,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is an infinitive",
     "It is a command"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.de/poetry-ex:n20",
@@ -343,7 +363,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "The one you are",
     "Which you are"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.de/poetry-ex:n21",
@@ -359,7 +380,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is a question",
     "It is an imperative"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.de/poetry-ex:n22",
@@ -375,7 +397,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It follows <em>doppelt</em>",
     "It is a dative plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-12"
   },
   {
    "id": "lang.ix.de/poetry-ex:n23",
@@ -391,7 +414,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Nominative, the subject",
     "Accusative, the object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.de/poetry-ex:n24",
@@ -407,7 +431,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A past participle",
     "A subjunctive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.de/poetry-ex:n25",
@@ -423,7 +448,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>Brust</em> is the subject",
     "It gives rest in a place"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-26"
   },
   {
    "id": "lang.ix.de/poetry-ex:n26",
@@ -439,7 +465,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Her",
     "Their"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-21"
   },
   {
    "id": "lang.ix.de/poetry-ex:n27",
@@ -455,7 +482,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Genitive",
     "Accusative, the object"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.de/poetry-ex:n28",
@@ -471,7 +499,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is a question",
     "The verb is left out"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-32"
   },
   {
    "id": "lang.ix.de/poetry-ex:n29",
@@ -487,7 +516,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is masculine nominative",
     "It is genitive plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-36"
   },
   {
    "id": "lang.ix.de/poetry-ex:n30",
@@ -503,7 +533,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Sleep him!",
     "He slept"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-36"
   },
   {
    "id": "lang.ix.de/poetry-ex:n31",
@@ -519,7 +550,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>weißer Decke</em>",
     "<em>der Fichtenbaum</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-36"
   },
   {
    "id": "lang.ix.de/poetry-ex:n32",
@@ -535,7 +567,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "It is the object of <em>bist</em>",
     "It is plural"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.de/poetry-ex:n33",
@@ -551,7 +584,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "An adverb of place",
     "A conjunction"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.de/poetry-ex:n34",
@@ -567,7 +601,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "<em>mir</em>",
     "<em>Herz</em>"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.de/poetry-ex:n35",
@@ -583,7 +618,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Nominative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-41"
   },
   {
    "id": "lang.ix.de/poetry-ex:n36",
@@ -599,7 +635,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Third person singular",
     "An infinitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-46"
   },
   {
    "id": "lang.ix.de/poetry-ex:n37",
@@ -615,7 +652,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "Nominative",
     "Genitive"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-16"
   },
   {
    "id": "lang.ix.de/poetry-ex:n38",
@@ -631,7 +669,8 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
     "A question",
     "A new subject, “the man”"
    ],
-   "answer": 0
+   "answer": 0,
+   "passageRef": "poetry-46"
   }
  ]
 };

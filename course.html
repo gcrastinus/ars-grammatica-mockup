@@ -64,6 +64,7 @@
     <div class="rule"></div>
     <div id="home-acts"></div>
     <p class="designer-credit">These sets of exercises were designed by Timothy Kearns, PhD, created and maintained with the assistance of AI, and are extensively revised for clarity and precision.</p>
+    <p class="teacher-note"><a href="#maker" id="maker-link">For instructors: build a printable quiz with an answer key</a></p>
     <div class="si-home"><a href="https://studiuminstitute.org">Studium Institute</a></div>
   </div>
 
@@ -115,6 +116,60 @@
     </div>
   </div>
 
+
+  <div class="screen" id="scr-maker">
+    <div id="maker-ui">
+      <div class="q-head">
+        <button class="btn" id="qz-home" type="button">← All sections</button>
+      </div>
+      <div class="deck-title">Quiz Maker</div>
+      <div class="deck-sub">A printable quiz with an answer key, drawn from the written exercises of the course and of the particular languages.</div>
+      <details class="maker-help">
+        <summary>How to make a quiz</summary>
+        <p>Choose the sets to draw from. For each set, choose Set A, B, or C, or any set, and the number of questions to take from it. The questions keep the order in which they are stored, from easier to harder, and no question appears twice. The Latin sets that are drawn fresh give new questions each time.</p>
+        <p>Turn on doctrine questions to add questions on the teaching of the decks behind the chosen sets. Then make the quiz, read it over, and print it or save it as a PDF. The answer key prints on a separate page.</p>
+      </details>
+      <div class="maker-card">
+        <h2>Heading</h2>
+        <div class="maker-fields">
+          <div class="maker-field"><label for="qz-course">Course or class</label><input type="text" id="qz-course" autocomplete="off"></div>
+          <div class="maker-field"><label for="qz-teacher">Instructor</label><input type="text" id="qz-teacher" autocomplete="off"></div>
+          <div class="maker-field"><label for="qz-date">Date</label><input type="text" id="qz-date" autocomplete="off" placeholder="Today"></div>
+        </div>
+      </div>
+      <div class="maker-card">
+        <h2>Sets</h2>
+        <div class="maker-fields">
+          <div class="maker-field"><label for="qz-sec">Section</label><select id="qz-sec"></select></div>
+          <div class="maker-field"><label>Show</label>
+            <div class="minibtns" id="qz-langs">
+              <label><input type="checkbox" value="main" checked> The course</label>
+              <label><input type="checkbox" value="en" checked> English</label>
+              <label><input type="checkbox" value="la" checked> Latin</label>
+              <label><input type="checkbox" value="grc" checked> Greek</label>
+              <label><input type="checkbox" value="fr" checked> French</label>
+              <label><input type="checkbox" value="de" checked> German</label>
+            </div>
+          </div>
+        </div>
+        <div class="minibtns"><button type="button" id="qz-all">Choose all shown</button><button type="button" id="qz-none">Clear all</button></div>
+        <div class="maker-setlist" id="qz-sets" style="margin-top:10px"></div>
+      </div>
+      <div class="maker-card">
+        <h2>Doctrine</h2>
+        <div class="maker-fields" style="align-items:center">
+          <button type="button" class="toggle" id="qz-doc-on">Add doctrine questions</button>
+          <div class="maker-field" id="qz-doc-n-wrap" style="display:none; flex:0 1 200px"><label for="qz-doc-n">Number of doctrine questions</label><input type="number" id="qz-doc-n" min="1" max="12" value="2"></div>
+        </div>
+      </div>
+      <div class="makebar">
+        <button type="button" class="btn primary" id="qz-gen">Make the quiz</button>
+        <button type="button" class="btn" id="qz-print" style="display:none">Print or save as PDF</button>
+        <p class="maker-status" id="qz-status">Choose at least one set.</p>
+      </div>
+    </div>
+    <div id="quiz-paper"></div>
+  </div>
 </div>
 
 <div id="recite-overlay" class="recite-overlay" hidden>
@@ -203,5 +258,6 @@
 <script src="practice.js"></script>
 <script src="recitation.js"></script>
 <script src="speech.js"></script>
+<script src="maker.js"></script>
 </body>
 </html>
