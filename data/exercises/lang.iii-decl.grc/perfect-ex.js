@@ -54,11 +54,11 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, third person singular, of <i>λύω</i>.",
-   "explain": "<i>Λέλυκα, λέλυκας, λέλυκε(ν)</i>.",
+   "prompt": "Write the perfect active, third person singular, of <i>βουλεύω</i>.",
+   "explain": "The perfect reduplicates the first consonant with ε and adds κ: <i>βεβούλευκε(ν)</i>.",
    "accept": [
-    "λέλυκε",
-    "λέλυκεν"
+    "βεβούλευκε",
+    "βεβούλευκεν"
    ],
    "macrons": false
   },
@@ -68,13 +68,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "How is <i>τέθνηκε</i> best translated?",
-   "explain": "The perfect presents the state that results: he has died, and so he is dead.",
+   "prompt": "How is <i>ἀπόλωλε</i> best translated?",
+   "explain": "The perfect <i>ἀπόλωλα</i> states the result that remains: “I am ruined, I am lost.”",
    "options": [
-    "“He is dead.”",
-    "“He died long ago.”",
-    "“He was dying.”",
-    "“He will die.”"
+    "“He is ruined.”",
+    "“He ruined.”",
+    "“He was ruining.”",
+    "“He will ruin.”"
    ],
    "answer": 0
   },
@@ -100,10 +100,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>στρατεύω</i>.",
-   "explain": "A verb beginning with two consonants (not a mute with a liquid) takes only <i>ἐ-</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i>πιστεύω</i>.",
+   "explain": "The perfect reduplicates π with ε and adds κα: <i>πεπίστευκα</i>.",
    "accept": [
-    "ἐστράτευκα"
+    "πεπίστευκα"
    ],
    "macrons": false
   },
@@ -142,10 +142,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive, third person plural, of <i>λύω</i>.",
-   "explain": "A vowel stem keeps one word in the third person plural: <i>λέλυνται</i>.",
+   "prompt": "Write the perfect middle and passive, third person plural, of <i>βουλεύω</i>.",
+   "explain": "The perfect middle and passive adds the endings directly to the reduplicated stem: <i>βεβούλευνται</i>.",
    "accept": [
-    "λέλυνται"
+    "βεβούλευνται"
    ],
    "macrons": false
   },
@@ -155,10 +155,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active infinitive of <i>λύω</i>.",
-   "explain": "The perfect active infinitive ends in <i>-έναι</i>: <i>λελυκέναι</i>.",
+   "prompt": "Write the perfect active infinitive of <i>βουλεύω</i>.",
+   "explain": "The perfect active infinitive ends in <i>-κέναι</i>: <i>βεβουλευκέναι</i>.",
    "accept": [
-    "λελυκέναι"
+    "βεβουλευκέναι"
    ],
    "macrons": false
   },
@@ -168,10 +168,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive infinitive of <i>λύω</i>.",
-   "explain": "The perfect middle infinitive ends in <i>-σθαι</i>: <i>λελύσθαι</i>.",
+   "prompt": "Write the perfect middle and passive infinitive of <i>βουλεύω</i>.",
+   "explain": "The perfect middle and passive infinitive ends in <i>-σθαι</i>, with the accent on the syllable before it: <i>βεβουλεῦσθαι</i>.",
    "accept": [
-    "λελύσθαι"
+    "βεβουλεῦσθαι"
    ],
    "macrons": false
   },
@@ -197,11 +197,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the pluperfect active, third person singular, of <i>λύω</i>.",
-   "explain": "The pluperfect adds the augment and takes <i>-ει(ν)</i> in the third person singular.",
+   "prompt": "Write the pluperfect active, third person singular, of <i>βουλεύω</i>.",
+   "explain": "The pluperfect adds the augment to the reduplicated stem: <i>ἐβεβουλεύκει</i>.",
    "accept": [
-    "ἐλελύκει",
-    "ἐλελύκειν"
+    "ἐβεβουλεύκει"
    ],
    "macrons": false
   },
@@ -211,13 +210,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>πέπομφα</i> come from?",
-   "explain": "<i>Πέμπω</i> forms the second perfect <i>πέπομφα</i>, with a change of vowel and the aspirate <i>φ</i>.",
+   "prompt": "What does <i>γέγραφα</i> come from?",
+   "explain": "<i>Γέγραφα</i> reduplicates γ and keeps the φ of the stem: it is the perfect of <i>γράφω</i>.",
    "options": [
-    "<i>πομπεύω</i>, “I lead a procession”",
-    "<i>πίπτω</i>, “I fall”",
-    "<i>φαίνω</i>, “I show”",
-    "<i>πέμπω</i>, “I send”"
+    "<i>γίγνομαι</i>, “I become”",
+    "<i>γιγνώσκω</i>, “I know”",
+    "<i>γεραίρω</i>, “I honor”",
+    "<i>γράφω</i>, “I write”"
    ],
    "answer": 3
   },
@@ -227,13 +226,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>μέμνημαι</i> mean?",
-   "explain": "The perfect of <i>μιμνῄσκω</i>, “I have been reminded,” means the resulting state, “I remember.”",
+   "prompt": "What does <i>κέκτημαι</i> mean?",
+   "explain": "<i>Κέκτημαι</i>, “I have acquired,” is used as a present: “I possess.”",
    "options": [
-    "“I reminded”",
-    "“I shall remember”",
-    "“I remember”",
-    "“I was reminded”"
+    "“I acquired”",
+    "“I am acquiring”",
+    "“I possess”",
+    "“I shall acquire”"
    ],
    "answer": 2
   },
@@ -256,13 +255,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>γέγραπται</i>?",
-   "explain": "<i>Φ</i> before <i>-ται</i> becomes <i>π</i>: <i>γέγραπται</i>, “it has been written,” “it stands written.”",
+   "prompt": "What is <i>λέλεκται</i>?",
+   "explain": "<i>Λέλεκται</i>, “it has been said,” is the perfect middle or passive of <i>λέγω</i>.",
    "options": [
-    "Perfect middle or passive of <i>γράφω</i>",
-    "Perfect active, third person singular, of <i>γράφω</i>",
-    "Aorist passive, third person singular, of <i>γράφω</i>",
-    "Pluperfect active, third person singular, of <i>γράφω</i>"
+    "Perfect middle or passive of <i>λέγω</i>",
+    "Present middle or passive of <i>λέγω</i>",
+    "Aorist passive of <i>λέγω</i>",
+    "Pluperfect active of <i>λέγω</i>"
    ],
    "answer": 0
   },
@@ -288,10 +287,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>ζητέω</i>.",
-   "explain": "<i>Ζ</i> is a double consonant, so the verb takes <i>ἐ-</i>, and the <i>ε</i> of the stem is lengthened to <i>η</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i>ποιέω</i>.",
+   "explain": "A contract verb lengthens its vowel before κ: <i>πεποίηκα</i>.",
    "accept": [
-    "ἐζήτηκα"
+    "πεποίηκα"
    ],
    "macrons": false
   },
@@ -333,10 +332,10 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active participle, masculine nominative singular, of <i>λύω</i>.",
-   "explain": "The perfect active participle is <i>λελυκώς, λελυκυῖα, λελυκός</i>.",
+   "prompt": "Write the perfect active participle, masculine nominative singular, of <i>βουλεύω</i>.",
+   "explain": "The perfect active participle ends in <i>-κώς</i>: <i>βεβουλευκώς</i>.",
    "accept": [
-    "λελυκώς"
+    "βεβουλευκώς"
    ],
    "macrons": false
   },
@@ -347,12 +346,12 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which verb has a perfect best translated by an English present?",
-   "explain": "<i>Οἶδα</i>, “I have seen,” means “I know.”",
+   "explain": "<i>Ἕστηκα</i>, “I have taken my stand,” means “I stand.”",
    "options": [
     "<i>λέλυκα</i>",
     "<i>γέγραφα</i>",
-    "<i>πεπαίδευκα</i>",
-    "<i>οἶδα</i>"
+    "<i>πεποίηκα</i>",
+    "<i>ἕστηκα</i>"
    ],
    "answer": 3
   }

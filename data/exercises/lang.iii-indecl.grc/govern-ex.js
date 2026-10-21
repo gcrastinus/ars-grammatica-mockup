@@ -303,8 +303,8 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "deck": "lang.iii-indecl.grc/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case follows the preposition? <i>παρὰ τῷ βασιλεῖ</i> (“at the king’s court”)",
-   "explain": "<i>Παρά</i> with the dative means “beside,” “at the house of.”",
+   "prompt": "What case follows the preposition? <i>παρὰ τῷ στρατηγῷ</i> (“at the general’s side”)",
+   "explain": "<i>Παρά</i> with the dative means “beside, at the side of” a person.",
    "options": [
     "Genitive",
     "Dative",

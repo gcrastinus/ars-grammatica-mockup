@@ -176,13 +176,13 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>ἐποιοῦμεν</i>?",
-   "explain": "The augment <i>ἐ-</i> with the contracted ending marks the imperfect; the aorist would be <i>ἐποιήσαμεν</i>.",
+   "prompt": "What is <i>ἐζητοῦμεν</i>?",
+   "explain": "The augment and the contraction of ε and ο to ου give <i>ἐζητοῦμεν</i>, “we were seeking.”",
    "options": [
-    "Present, first person plural, of <i>ποιέω</i>",
-    "Aorist, first person plural, of <i>ποιέω</i>",
-    "Pluperfect, first person plural, of <i>ποιέω</i>",
-    "Imperfect, first person plural, of <i>ποιέω</i>"
+    "Present, first person plural, of <i>ζητέω</i>",
+    "Aorist, first person plural, of <i>ζητέω</i>",
+    "Imperfect, third person plural, of <i>ζητέω</i>",
+    "Imperfect, first person plural, of <i>ζητέω</i>"
    ],
    "answer": 3
   },
@@ -192,10 +192,10 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the future, first person singular, of <i>ποιέω</i>.",
-   "explain": "Outside the present system the stem vowel is lengthened: <i>ε</i> becomes <i>η</i>.",
+   "prompt": "Write the future, first person singular, of <i>οἰκέω</i>.",
+   "explain": "A contract verb in <i>-έω</i> lengthens the ε to η before the σ of the future: <i>οἰκήσω</i>.",
    "accept": [
-    "ποιήσω"
+    "οἰκήσω"
    ],
    "macrons": false
   },
@@ -260,13 +260,13 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which rule makes <i>δηλοῦτε</i> from <i>δηλόετε</i>?",
-   "explain": "<i>Ο</i> with <i>ε</i> or <i>ο</i> gives <i>ου</i>.",
+   "prompt": "Which rule makes <i>ἀξιοῦτε</i> from <i>ἀξιόετε</i>?",
+   "explain": "In a verb in <i>-όω</i>, ο and ε contract to ου.",
    "options": [
-    "<i>ο</i> + <i>ε</i> gives <i>οι</i>",
-    "<i>ο</i> + <i>ε</i> gives <i>ου</i>",
-    "<i>ε</i> is absorbed by <i>ο</i>",
-    "<i>ο</i> + <i>ε</i> gives <i>ω</i>"
+    "ο + ε gives ω",
+    "ο + ε gives ου",
+    "ε + ε gives ει",
+    "α + ε gives ᾱ"
    ],
    "answer": 1
   },
@@ -276,13 +276,13 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the uncontracted form of <i>τιμᾷ</i> (third person singular)?",
-   "explain": "<i>Α</i> + <i>ει</i> gives <i>ᾳ</i>; the iota stays as a subscript.",
+   "prompt": "What is the uncontracted form of <i>τολμᾷ</i> (third person singular)?",
+   "explain": "α and ει contract to ᾳ: <i>τολμάει</i> becomes <i>τολμᾷ</i>.",
    "options": [
-    "<i>τιμάε</i>",
-    "<i>τιμάει</i>",
-    "<i>τιμάοι</i>",
-    "<i>τιμέει</i>"
+    "<i>τολμάεις</i>",
+    "<i>τολμάει</i>",
+    "<i>τολμάῃ</i>",
+    "<i>τολμέει</i>"
    ],
    "answer": 1
   },
@@ -292,10 +292,10 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person singular imperfect active of <i>τιμάω</i>.",
-   "explain": "<i>Ἐτίμαον</i> contracts to <i>ἐτίμων</i>, the same form as the third person plural.",
+   "prompt": "Write the first person singular imperfect active of <i>τολμάω</i>.",
+   "explain": "The augment <i>ἐ-</i> and the contraction of α and ο give <i>ἐτόλμων</i>.",
    "accept": [
-    "ἐτίμων"
+    "ἐτόλμων"
    ],
    "macrons": false
   },
@@ -305,12 +305,12 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why does <i>ποιεῖ</i> have the circumflex?",
-   "explain": "<i>Ποιέ-ει</i> had the accent on the first vowel; when the two vowels were joined, the long syllable took the circumflex. A contracted syllable without the accent takes none, as in <i>ἐποίει</i>.",
+   "prompt": "Why does <i>ζητεῖ</i> have the circumflex?",
+   "explain": "In <i>ζητέει</i> the accent stood on the first of the two vowels that contract, so the contracted syllable takes the circumflex.",
    "options": [
-    "Every contracted syllable takes the circumflex",
-    "The ending <i>-ει</i> always has the circumflex",
-    "The verb is in the imperfect",
+    "Every contracted syllable takes it",
+    "The ending is long by nature",
+    "It marks the third person",
     "The first of the two joined vowels was accented"
    ],
    "answer": 3
@@ -321,10 +321,10 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "deck": "lang.iii-decl.grc/contract-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the second person singular imperfect active of <i>ποιέω</i>.",
-   "explain": "<i>Ἐποίεες</i> contracts to <i>ἐποίεις</i>.",
+   "prompt": "Write the second person singular imperfect active of <i>ζητέω</i>.",
+   "explain": "The augment and the contraction of ε and ε to ει give <i>ἐζήτεις</i>.",
    "accept": [
-    "ἐποίεις"
+    "ἐζήτεις"
    ],
    "macrons": false
   },

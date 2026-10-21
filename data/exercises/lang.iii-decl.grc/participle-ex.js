@@ -55,10 +55,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the participle of <i>εἰμί</i>, neuter nominative singular.",
-   "explain": "<i>Ὤν, οὖσα, ὄν</i>.",
+   "prompt": "Write the participle of <i>πάρειμι</i> (“I am present”), neuter nominative singular.",
+   "explain": "<i>Πάρειμι</i> takes the participle of <i>εἰμί</i> (<i>ὤν, οὖσα, ὄν</i>) with <i>παρά</i>: neuter <i>παρόν</i>.",
    "accept": [
-    "ὄν"
+    "παρόν"
    ],
    "macrons": false
   },
@@ -68,13 +68,13 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>φεύγοντες</i>?",
-   "explain": "<i>-οντες</i> is the nominative plural masculine of the present active participle; the indicative is <i>φεύγουσι</i>.",
+   "prompt": "What is <i>λείποντες</i>?",
+   "explain": "<i>Λείποντες</i> is the present active participle of <i>λείπω</i>, masculine nominative plural.",
    "options": [
-    "Present active participle, dative plural",
+    "Aorist participle, nominative plural",
     "Present participle, nominative plural",
-    "Aorist active participle, nominative plural",
-    "Present indicative, third person plural"
+    "Present participle, dative plural",
+    "Perfect participle, nominative plural"
    ],
    "answer": 1
   },
@@ -129,11 +129,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative plural feminine of <i>λῡ́ων</i>.",
-   "explain": "The feminine follows the first declension: <i>λῡούσαις</i>.",
+   "prompt": "Write the dative plural feminine of <i>κελεύουσα</i>.",
+   "explain": "The feminine participle in <i>-ουσα</i> is declined like a noun of the first declension: <i>κελευούσαις</i>.",
    "accept": [
-    "λῡούσαις",
-    "λυούσαις"
+    "κελευούσαις"
    ],
    "macrons": false
   },
@@ -143,11 +142,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive plural feminine of <i>λῡ́ων</i>.",
-   "explain": "The feminine genitive plural has the circumflex on the ultima, as in the first declension: <i>λῡουσῶν</i>.",
+   "prompt": "Write the genitive plural feminine of <i>κελεύουσα</i>.",
+   "explain": "The feminine genitive plural takes the circumflex on the ending, as in the first declension: <i>κελευουσῶν</i>.",
    "accept": [
-    "λῡουσῶν",
-    "λυουσῶν"
+    "κελευουσῶν"
    ],
    "macrons": false
   },
@@ -186,11 +184,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present middle participle, masculine nominative singular, of <i>λύω</i>.",
-   "explain": "The middle participle ends in <i>-όμενος</i>.",
+   "prompt": "Write the present middle participle, masculine nominative singular, of <i>κελεύω</i>.",
+   "explain": "The middle participle ends in <i>-όμενος</i>: <i>κελευόμενος</i>.",
    "accept": [
-    "λῡόμενος",
-    "λυόμενος"
+    "κελευόμενος"
    ],
    "macrons": false
   },
@@ -200,12 +197,12 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>λῡσάμενος</i>?",
-   "explain": "<i>-σάμενος</i> marks the aorist middle participle; the present is <i>λῡόμενος</i>, the future <i>λῡσόμενος</i>.",
+   "prompt": "What is <i>κελευσάμενος</i>?",
+   "explain": "The σα of the aorist and the middle ending <i>-μενος</i> make the aorist middle participle.",
    "options": [
     "Present middle participle",
+    "Aorist passive participle",
     "Future middle participle",
-    "Perfect middle participle",
     "Aorist middle participle"
    ],
    "answer": 3
@@ -216,10 +213,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the aorist passive participle, feminine nominative singular, of <i>λύω</i>.",
-   "explain": "<i>Λυθείς, λυθεῖσα, λυθέν</i>.",
+   "prompt": "Write the aorist passive participle, feminine nominative singular, of <i>κελεύω</i>.",
+   "explain": "The aorist passive <i>ἐκελεύσθην</i> gives the participle <i>κελευσθείς, κελευσθεῖσα, κελευσθέν</i>.",
    "accept": [
-    "λυθεῖσα"
+    "κελευσθεῖσα"
    ],
    "macrons": false
   },
@@ -307,13 +304,13 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is the perfect active participle, feminine nominative singular, of <i>λύω</i>?",
-   "explain": "<i>Λελυκώς, λελυκυῖα, λελυκός</i>; <i>λελυμένη</i> is the perfect middle.",
+   "prompt": "Which form is the perfect active participle, feminine nominative singular, of <i>βουλεύω</i>?",
+   "explain": "The perfect active participle has the feminine in <i>-υῖα</i>: <i>βεβουλευκυῖα</i>.",
    "options": [
-    "<i>λελυμένη</i>",
-    "<i>λῡ́σᾱσα</i>",
-    "<i>λυθεῖσα</i>",
-    "<i>λελυκυῖα</i>"
+    "<i>βεβουλευκώς</i>",
+    "<i>βεβουλευμένη</i>",
+    "<i>βουλεύσασα</i>",
+    "<i>βεβουλευκυῖα</i>"
    ],
    "answer": 3
   },
@@ -339,11 +336,10 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative singular masculine of <i>λῡ́ων</i>.",
-   "explain": "The masculine is declined by the third declension: <i>λῡ́οντα</i>.",
+   "prompt": "Write the accusative singular masculine of <i>κελεύων</i>.",
+   "explain": "The masculine participle is declined on the stem <i>κελευοντ-</i>: <i>κελεύοντα</i>.",
    "accept": [
-    "λῡ́οντα",
-    "λύοντα"
+    "κελεύοντα"
    ],
    "macrons": false
   },
@@ -353,12 +349,12 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "deck": "lang.iii-decl.grc/participle-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>λῡ́σων</i>?",
-   "explain": "<i>Λῡ́σων, λῡ́σουσα, λῦσον</i> is the future active participle, “about to loose”; the future indicative is <i>λῡ́σω</i>.",
+   "prompt": "What is <i>κελεύσων</i>?",
+   "explain": "The σ of the future with the participle ending <i>-ων</i> makes the future active participle.",
    "options": [
     "The future active participle",
-    "The present active participle",
     "The aorist active participle",
+    "The present active participle",
     "The future indicative"
    ],
    "answer": 0

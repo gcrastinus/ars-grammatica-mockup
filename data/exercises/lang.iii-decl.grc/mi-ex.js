@@ -15,10 +15,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the second person singular present active of <i>δίδωμι</i>.",
-   "explain": "<i>Δίδωμι, δίδως, δίδωσι(ν)</i>, with the long vowel in the singular.",
+   "prompt": "Write the second person singular present active of <i>ἀποδίδωμι</i>.",
+   "explain": "<i>Ἀποδίδωμι</i> (“give back”) is conjugated like <i>δίδωμι</i>: <i>ἀποδίδως</i>.",
    "accept": [
-    "δίδως"
+    "ἀποδίδως"
    ],
    "macrons": false
   },
@@ -28,10 +28,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person plural present active of <i>δίδωμι</i>.",
-   "explain": "In the plural the stem vowel is short: <i>δίδομεν</i>.",
+   "prompt": "Write the first person plural present active of <i>ἀποδίδωμι</i>.",
+   "explain": "The stem vowel is short in the plural, as in <i>δίδομεν</i>: <i>ἀποδίδομεν</i>.",
    "accept": [
-    "δίδομεν"
+    "ἀποδίδομεν"
    ],
    "macrons": false
   },
@@ -41,11 +41,11 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present active of <i>τίθημι</i>.",
-   "explain": "<i>Τίθημι, τίθης, τίθησι(ν)</i>.",
+   "prompt": "Write the third person singular present active of <i>ἐπιτίθημι</i>.",
+   "explain": "<i>Ἐπιτίθημι</i> (“put upon”) is conjugated like <i>τίθημι</i>: <i>ἐπιτίθησι(ν)</i>.",
    "accept": [
-    "τίθησι",
-    "τίθησιν"
+    "ἐπιτίθησι",
+    "ἐπιτίθησιν"
    ],
    "macrons": false
   },
@@ -55,10 +55,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present infinitive active of <i>τίθημι</i>.",
-   "explain": "The infinitive of a verb in -μι ends in <i>-ναι</i>: <i>τιθέναι</i>.",
+   "prompt": "Write the present infinitive active of <i>ἐπιτίθημι</i>.",
+   "explain": "The infinitive ends in <i>-ναι</i> with the accent on the syllable before it: <i>ἐπιτιθέναι</i>.",
    "accept": [
-    "τιθέναι"
+    "ἐπιτιθέναι"
    ],
    "macrons": false
   },
@@ -68,13 +68,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>ἵστατε</i>?",
-   "explain": "The short stem <i>ἱστα-</i> with <i>-τε</i> is the present, second person plural.",
+   "prompt": "What is <i>ἀνίστατε</i>?",
+   "explain": "<i>Ἀνίστημι</i> (“raise up”) is conjugated like <i>ἵστημι</i>, whose second person plural is <i>ἵστατε</i>.",
    "options": [
-    "Present, third person singular, of <i>ἵστημι</i>",
-    "Present, second person plural, of <i>ἵστημι</i>",
-    "Aorist, second person plural, of <i>ἵστημι</i>",
-    "Imperative, second person singular, of <i>ἵστημι</i>"
+    "Aorist, second person plural, of <i>ἀνίστημι</i>",
+    "Present, second person plural, of <i>ἀνίστημι</i>",
+    "Present, third person plural, of <i>ἀνίστημι</i>",
+    "Perfect, second person plural, of <i>ἀνίστημι</i>"
    ],
    "answer": 1
   },
@@ -84,13 +84,11 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person plural present active of <i>δείκνῡμι</i>.",
-   "explain": "The third person plural ends in <i>-ᾱσι(ν)</i>: <i>δεικνύᾱσι</i>.",
+   "prompt": "Write the third person plural present active of <i>ἀποδείκνῡμι</i>.",
+   "explain": "<i>Ἀποδείκνῡμι</i> (“show forth”) is conjugated like <i>δείκνῡμι</i>: <i>ἀποδεικνύᾱσι(ν)</i>.",
    "accept": [
-    "δεικνύᾱσι",
-    "δεικνύασι",
-    "δεικνύασιν",
-    "δεικνύᾱσιν"
+    "ἀποδεικνύᾱσι",
+    "ἀποδεικνύᾱσιν"
    ],
    "macrons": false
   },
@@ -132,10 +130,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person singular aorist active of <i>τίθημι</i>.",
-   "explain": "The singular of the aorist has <i>κ</i>: <i>ἔθηκα</i>.",
+   "prompt": "Write the first person singular aorist active of <i>ἐπιτίθημι</i>.",
+   "explain": "The augment stands after the preposition, and the singular has κ: <i>ἐπέθηκα</i>.",
    "accept": [
-    "ἔθηκα"
+    "ἐπέθηκα"
    ],
    "macrons": false
   },
@@ -145,10 +143,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the first person plural aorist active of <i>τίθημι</i>.",
-   "explain": "The plural of the aorist has no <i>κ</i>: <i>ἔθεμεν</i>.",
+   "prompt": "Write the first person plural aorist active of <i>ἐπιτίθημι</i>.",
+   "explain": "The plural of the aorist has no κ: <i>ἐπέθεμεν</i>.",
    "accept": [
-    "ἔθεμεν"
+    "ἐπέθεμεν"
    ],
    "macrons": false
   },
@@ -158,10 +156,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the aorist infinitive active of <i>δίδωμι</i>.",
-   "explain": "The aorist infinitive of <i>δίδωμι</i> is <i>δοῦναι</i>.",
+   "prompt": "Write the aorist infinitive active of <i>ἀποδίδωμι</i>.",
+   "explain": "The aorist infinitive of <i>δίδωμι</i> is <i>δοῦναι</i>, and the compound follows it: <i>ἀποδοῦναι</i>.",
    "accept": [
-    "δοῦναι"
+    "ἀποδοῦναι"
    ],
    "macrons": false
   },
@@ -171,13 +169,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἔστησαν τρόπαιον</i> mean?",
-   "explain": "With an object, <i>ἔστησαν</i> belongs to the transitive first aorist <i>ἔστησα</i>, “I set up.”",
+   "prompt": "What does <i>ἔστησαν ἀνδριάντα</i> mean?",
+   "explain": "With an object, <i>ἔστησαν</i> is the first, transitive aorist: “they set up.”",
    "options": [
-    "“They stood by a trophy.”",
-    "“They set up a trophy.”",
-    "“They are setting up a trophy.”",
-    "“They have stood.”"
+    "“They stood by a statue.”",
+    "“They set up a statue.”",
+    "“They are setting up a statue.”",
+    "“They have stood up.”"
    ],
    "answer": 1
   },
@@ -203,10 +201,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present active participle, masculine nominative singular, of <i>δίδωμι</i>.",
-   "explain": "The present participle is <i>διδούς</i>, genitive <i>διδόντος</i>.",
+   "prompt": "Write the present active participle, masculine nominative singular, of <i>ἀποδίδωμι</i>.",
+   "explain": "The participle of <i>δίδωμι</i> is <i>διδούς</i>, and the compound follows it: <i>ἀποδιδούς</i>.",
    "accept": [
-    "διδούς"
+    "ἀποδιδούς"
    ],
    "macrons": false
   },
@@ -216,13 +214,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἕστηκεν</i> mean?",
-   "explain": "The perfect <i>ἕστηκα</i> means “I have taken my stand,” that is, “I stand.”",
+   "prompt": "What does <i>ἑστήκαμεν</i> mean?",
+   "explain": "The perfect of <i>ἵστημι</i> means “I have taken my stand,” that is, “I stand.”",
    "options": [
-    "“He stands.”",
-    "“He set up.”",
-    "“He stood once.”",
-    "“He is setting up.”"
+    "“We stand.”",
+    "“We set up.”",
+    "“We stood up.”",
+    "“We shall stand.”"
    ],
    "answer": 0
   },
@@ -232,10 +230,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person plural aorist active of <i>δίδωμι</i>.",
-   "explain": "The plural of the aorist has no <i>κ</i>: <i>ἔδομεν, ἔδοτε, ἔδοσαν</i>.",
+   "prompt": "Write the third person plural aorist active of <i>ἀποδίδωμι</i>.",
+   "explain": "The augment stands after the preposition, and the plural has no κ: <i>ἀπέδοσαν</i>.",
    "accept": [
-    "ἔδοσαν"
+    "ἀπέδοσαν"
    ],
    "macrons": false
   },
@@ -245,13 +243,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἴμεν</i> mean?",
-   "explain": "<i>Ἴμεν</i> is the first person plural of <i>εἶμι</i>, which in Attic serves as a future: “we shall go.” “We are” is <i>ἐσμέν</i>.",
+   "prompt": "What does <i>ἄπιμεν</i> mean?",
+   "explain": "<i>Ἄπειμι</i> is <i>εἶμι</i> with <i>ἀπό</i>, and in Attic its present serves as a future.",
    "options": [
-    "“we are”",
-    "“we say”",
-    "“we shall go”",
-    "“we were going”"
+    "“we are away”",
+    "“we went away”",
+    "“we shall go away”",
+    "“we shall send away”"
    ],
    "answer": 2
   },
@@ -261,10 +259,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present infinitive of <i>εἶμι</i>.",
-   "explain": "The infinitive of <i>εἶμι</i> is <i>ἰέναι</i>; that of <i>εἰμί</i> is <i>εἶναι</i>.",
+   "prompt": "Write the present infinitive of <i>ἄπειμι</i> (“I shall go away”).",
+   "explain": "<i>Ἄπειμι</i> is <i>εἶμι</i> with <i>ἀπό</i>, and its infinitive follows <i>ἰέναι</i>: <i>ἀπιέναι</i>.",
    "accept": [
-    "ἰέναι"
+    "ἀπιέναι"
    ],
    "macrons": false
   },
@@ -274,13 +272,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>“οὐκ οἶδα,” ἔφη</i>, what is <i>ἔφη</i>?",
-   "explain": "<i>Ἔφη</i> is the imperfect of <i>φημί</i>, used for “he said” inside a quotation.",
+   "prompt": "In <i>“οὐ βούλομαι,” ἔφη</i>, what is <i>ἔφη</i>?",
+   "explain": "<i>Ἔφη</i> is the imperfect of <i>φημί</i>, put inside the quotation as English puts “he said.”",
    "options": [
     "Imperfect of <i>φημί</i>, “he said”",
+    "Present of <i>φημί</i>, “he says”",
     "Aorist of <i>φαίνω</i>, “he appeared”",
-    "Imperfect of <i>εἰμί</i>, “he was”",
-    "Present of <i>φημί</i>, “he says”"
+    "Imperfect of <i>φέρω</i>, “he carried”"
    ],
    "answer": 0
   },
@@ -290,13 +288,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person plural present of <i>φημί</i>.",
-   "explain": "<i>Φημί, φῄς, φησί, φαμέν, φατέ, φᾱσί(ν)</i>.",
+   "prompt": "Write the third person plural imperfect of <i>φημί</i>.",
+   "explain": "The imperfect of <i>φημί</i> is <i>ἔφην, ἔφης, ἔφη</i>, and in the plural <i>ἔφαμεν, ἔφατε, ἔφασαν</i>.",
    "accept": [
-    "φᾱσί",
-    "φασί",
-    "φασίν",
-    "φᾱσίν"
+    "ἔφασαν"
    ],
    "macrons": false
   },
@@ -322,10 +317,10 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present infinitive active of <i>δείκνῡμι</i>.",
-   "explain": "The infinitive ends in <i>-ναι</i>: <i>δεικνύναι</i>.",
+   "prompt": "Write the present infinitive active of <i>ἀποδείκνῡμι</i>.",
+   "explain": "The infinitive ends in <i>-ναι</i>: <i>ἀποδεικνύναι</i>.",
    "accept": [
-    "δεικνύναι"
+    "ἀποδεικνύναι"
    ],
    "macrons": false
   },
@@ -335,13 +330,13 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "deck": "lang.iii-decl.grc/mi-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>θεῖναι</i>?",
-   "explain": "<i>Θεῖναι</i> is the aorist infinitive of <i>τίθημι</i>; the present is <i>τιθέναι</i>.",
+   "prompt": "What is <i>ἐπιθεῖναι</i>?",
+   "explain": "The aorist infinitive of <i>τίθημι</i> is <i>θεῖναι</i>, and the compound follows it: <i>ἐπιθεῖναι</i>.",
    "options": [
-    "Present infinitive of <i>τίθημι</i>",
-    "Aorist infinitive of <i>τίθημι</i>",
-    "Aorist infinitive of <i>θύω</i>",
-    "Present infinitive of <i>εἰμί</i>"
+    "Present infinitive of <i>ἐπιτίθημι</i>",
+    "Aorist infinitive of <i>ἐπιτίθημι</i>",
+    "Aorist infinitive of <i>ἐπιδίδωμι</i>",
+    "Perfect infinitive of <i>ἐπιτίθημι</i>"
    ],
    "answer": 1
   },
