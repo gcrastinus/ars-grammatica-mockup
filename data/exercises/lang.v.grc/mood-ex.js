@@ -5,7 +5,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Greek: Mood",
+ "title": "The Subjunctive and the Optative in Greek",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person singular, of “loose.”",
-   "explain": "The present subjunctive lengthens the thematic vowel, so the third person singular is λῡ́ῃ (Smyth §383). λῦε is the imperative, λῡ́οι is optative, and λῡ́σῃ is aorist.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>λύω</i> (“loose”).",
+   "explain": "The present subjunctive lengthens the thematic vowel, so the third person singular is <i>λῡ́ῃ</i> (Smyth §383). <i>λῦε</i> is the imperative, <i>λῡ́οι</i> is optative, and <i>λῡ́σῃ</i> is aorist.",
    "options": [
-    "λῡ́ῃ",
-    "λῦε",
-    "λῡ́οι",
-    "λῡ́σῃ"
+    "<i>λῡ́ῃ</i>",
+    "<i>λῦε</i>",
+    "<i>λῡ́οι</i>",
+    "<i>λῡ́σῃ</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person plural, of “loose.”",
-   "explain": "The present subjunctive, third person plural, is λῡ́ωσι (Smyth §383). λῦε is the imperative, λῡ́οιεν is optative, and λῡ́σωσι is aorist.",
+   "prompt": "Choose the present subjunctive, third person plural, of <i>λύω</i> (“loose”).",
+   "explain": "The present subjunctive, third person plural, is <i>λῡ́ωσι</i> (Smyth §383). <i>λῦε</i> is the imperative, <i>λῡ́οιεν</i> is optative, and <i>λῡ́σωσι</i> is aorist.",
    "options": [
-    "λῡ́ωσι",
-    "λῦε",
-    "λῡ́οιεν",
-    "λῡ́σωσι"
+    "<i>λῡ́ωσι</i>",
+    "<i>λῦε</i>",
+    "<i>λῡ́οιεν</i>",
+    "<i>λῡ́σωσι</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present optative, third person singular, of “loose.”",
-   "explain": "The present optative, third person singular, is λῡ́οι (Smyth §383). λῦε is the imperative, λῡ́ῃ is subjunctive, and λῡ́σαι is the aorist optative.",
+   "prompt": "Choose the present optative, third person singular, of <i>λύω</i> (“loose”).",
+   "explain": "The present optative, third person singular, is <i>λῡ́οι</i> (Smyth §383). <i>λῦε</i> is the imperative, <i>λῡ́ῃ</i> is subjunctive, and <i>λῡ́σαι</i> is the aorist optative.",
    "options": [
-    "λῡ́οι",
-    "λῦε",
-    "λῡ́ῃ",
-    "λῡ́σαι"
+    "<i>λῡ́οι</i>",
+    "<i>λῦε</i>",
+    "<i>λῡ́ῃ</i>",
+    "<i>λῡ́σαι</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present optative, first person singular, of “loose.”",
-   "explain": "The present optative, first person singular, is λῡ́οιμι (Smyth §383). λῡ́ω is indicative or present subjunctive, λῡ́οι is the third person, and λῡ́σαιμι is aorist.",
+   "prompt": "Choose the present optative, first person singular, of <i>λύω</i> (“loose”).",
+   "explain": "The present optative, first person singular, is <i>λῡ́οιμι</i> (Smyth §383). <i>λῡ́ω</i> is indicative or present subjunctive, <i>λῡ́οι</i> is the third person, and <i>λῡ́σαιμι</i> is aorist.",
    "options": [
-    "λῡ́οιμι",
-    "λῡ́ω",
-    "λῡ́οι",
-    "λῡ́σαιμι"
+    "<i>λῡ́οιμι</i>",
+    "<i>λῡ́ω</i>",
+    "<i>λῡ́οι</i>",
+    "<i>λῡ́σαιμι</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Aorist subjunctive, third person singular, of “loose.”",
-   "explain": "The aorist subjunctive, third person singular, is λῡ́σῃ (Smyth §383). λῡ́σει is future indicative, λῡ́σαι is optative, and ἔλῡσε is the aorist indicative.",
+   "prompt": "Choose the aorist subjunctive, third person singular, of <i>λύω</i> (“loose”).",
+   "explain": "The aorist subjunctive, third person singular, is <i>λῡ́σῃ</i> (Smyth §383). <i>λῡ́σει</i> is future indicative, <i>λῡ́σαι</i> is optative, and <i>ἔλῡσε</i> is the aorist indicative.",
    "options": [
-    "λῡ́σῃ",
-    "λῡ́σει",
-    "λῡ́σαι",
-    "ἔλῡσε"
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σει</i>",
+    "<i>λῡ́σαι</i>",
+    "<i>ἔλῡσε</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Aorist optative, third person singular, of “loose.”",
-   "explain": "The aorist optative, third person singular, is λῡ́σαι (Smyth §383). λῡ́σῃ is subjunctive, λῡ́σει is future indicative, and ἔλῡσε is the aorist indicative.",
+   "prompt": "Choose the aorist optative, third person singular, of <i>λύω</i> (“loose”).",
+   "explain": "The aorist optative, third person singular, is <i>λῡ́σαι</i> (Smyth §383). <i>λῡ́σῃ</i> is subjunctive, <i>λῡ́σει</i> is future indicative, and <i>ἔλῡσε</i> is the aorist indicative.",
    "options": [
-    "λῡ́σαι",
-    "λῡ́σῃ",
-    "λῡ́σει",
-    "ἔλῡσε"
+    "<i>λῡ́σαι</i>",
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σει</i>",
+    "<i>ἔλῡσε</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Present subjunctive, third person singular, of “educate.”",
-   "explain": "παιδεύω is the same kind of verb as λῡ́ω, so the present subjunctive, third person singular, is παιδεύῃ (Smyth §376 a, §383, §423). λῦε is the imperative of λῡ́ω, παιδεύοι is optative, and παιδεύσῃ is aorist.",
+   "prompt": "Choose the present subjunctive, third person singular, of <i>παιδεύω</i> (“educate”).",
+   "explain": "<i>παιδεύω</i> is the same kind of verb as <i>λῡ́ω</i>, so the present subjunctive, third person singular, is <i>παιδεύῃ</i> (Smyth §376 a, §383, §423). <i>παίδευε</i> is the imperative, <i>παιδεύοι</i> is optative, and <i>παιδεύσῃ</i> is aorist.",
    "options": [
-    "παιδεύῃ",
-    "λῦε",
-    "παιδεύοι",
-    "παιδεύσῃ"
+    "<i>παιδεύῃ</i>",
+    "<i>παίδευε</i>",
+    "<i>παιδεύοι</i>",
+    "<i>παιδεύσῃ</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ______ Aorist optative, third person singular, of “educate.”",
-   "explain": "Smyth prints παιδεύσαι as the aorist optative, third person singular (Smyth §427, §383). παιδεύσῃ is subjunctive, παιδεύει is the present indicative, and ἐπαίδευσα is the aorist indicative.",
+   "prompt": "Choose the aorist optative, third person singular, of <i>παιδεύω</i> (“educate”).",
+   "explain": "Smyth prints <i>παιδεύσαι</i> as the aorist optative, third person singular (Smyth §427, §383). <i>παιδεύσῃ</i> is subjunctive, <i>παιδεύει</i> is the present indicative, and <i>ἐπαίδευσα</i> is the aorist indicative.",
    "options": [
-    "παιδεύσαι",
-    "παιδεύσῃ",
-    "παιδεύει",
-    "ἐπαίδευσα"
+    "<i>παιδεύσαι</i>",
+    "<i>παιδεύσῃ</i>",
+    "<i>παιδεύει</i>",
+    "<i>ἐπαίδευσα</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ὁ κριτὴς ______ αὐτόν The king sends the horse in order that the judge may loose it.",
-   "explain": "After a primary tense, purpose takes the subjunctive (Smyth §2196, §2193). λῡ́σαι is optative, and λῡ́ει is indicative. αὐτόν is the horse, not the subject (Smyth §328 b).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ὁ κριτὴς ______ αὐτόν</i> (“The king sends the horse in order that the judge may loose it”).",
+   "explain": "After a primary tense, purpose takes the subjunctive (Smyth §2196, §2193). <i>λῡ́σαι</i> is optative, and <i>λῡ́ει</i> is indicative. <i>αὐτόν</i> is the horse, not the subject (Smyth §328 b).",
    "options": [
-    "λῡ́σῃ",
-    "λῡ́ει",
-    "λῡ́σαι",
-    "λῡ́ειν"
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́ει</i>",
+    "<i>λῡ́σαι</i>",
+    "<i>λῡ́ειν</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ὁ κριτὴς ______ λῡ́σῃ αὐτόν The king sends the horse in order that the judge may not loose it.",
-   "explain": "The negative of purpose is μή, written μὴ before the next word (Smyth §2193, §2196, §154). οὐ is the negative of a statement. οὐκ stands before a smooth vowel, and οὐχ before a rough vowel (Smyth §137).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ὁ κριτὴς ______ λῡ́σῃ αὐτόν</i> (“The king sends the horse in order that the judge may not loose it”).",
+   "explain": "The negative of purpose is <i>μή</i>, written <i>μὴ</i> before the next word (Smyth §2193, §2196, §154). <i>οὐ</i> is the negative of a statement. <i>οὐκ</i> stands before a smooth vowel, and <i>οὐχ</i> before a rough vowel (Smyth §137).",
    "options": [
-    "μὴ",
-    "οὐ",
-    "οὐκ",
-    "οὐχ"
+    "<i>μὴ</i>",
+    "<i>οὐ</i>",
+    "<i>οὐκ</i>",
+    "<i>οὐχ</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς παιδεύει τὸν νεᾱνίᾱν ______ ὁ βασιλεὺς λῡ́σῃ τὸν ἵππον The judge educates the young man in order that the king may loose the horse.",
-   "explain": "Purpose is introduced by ἵνα, with the subjunctive after a primary tense (Smyth §2193, §2196). ὅτι would mean because or that, and ὥστε would introduce a result.",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς παιδεύει τὸν νεᾱνίᾱν ______ ὁ βασιλεὺς λῡ́σῃ τὸν ἵππον</i> (“The judge educates the young man in order that the king may loose the horse”).",
+   "explain": "Purpose is introduced by <i>ἵνα</i>, with the subjunctive after a primary tense (Smyth §2193, §2196). <i>ὅτι</i> would mean because or that, and <i>ὥστε</i> would introduce a result.",
    "options": [
-    "ἵνα",
-    "ὅτι",
-    "εἰ",
-    "ὥστε"
+    "<i>ἵνα</i>",
+    "<i>ὅτι</i>",
+    "<i>εἰ</i>",
+    "<i>ὥστε</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς πέμπει τὸ δῶρον ἵνα οἱ ἄνθρωποι τὸν ἵππον ______ The king sends the gift in order that the men may loose the horse.",
-   "explain": "After a primary tense, purpose takes the subjunctive, and οἱ ἄνθρωποι is plural, so the verb is λῡ́σωσι (Smyth §2196, §383). λῡ́σῃ is singular, and λῡ́σουσι is future indicative. λῡ́σαιεν is optative.",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸ δῶρον ἵνα οἱ ἄνθρωποι τὸν ἵππον ______</i> (“The king sends the gift in order that the men may loose the horse”).",
+   "explain": "After a primary tense, purpose takes the subjunctive, and <i>οἱ ἄνθρωποι</i> is plural, so the verb is <i>λῡ́σωσι</i> (Smyth §2196, §383). <i>λῡ́σῃ</i> is singular, and <i>λῡ́σουσι</i> is future indicative. <i>λῡ́σαιεν</i> is optative.",
    "options": [
-    "λῡ́σωσι",
-    "λῡ́σῃ",
-    "λῡ́σουσι",
-    "λῡ́σαιεν"
+    "<i>λῡ́σωσι</i>",
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σουσι</i>",
+    "<i>λῡ́σαιεν</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ______ αὐτόν The king sends the horse in order that you may loose it.",
-   "explain": "After a primary tense, purpose takes the subjunctive, and the subject is “you,” one person, so the form is λῡ́σῃς (Smyth §2196, §383). λῡ́σεις is future indicative, and λῡ́σαις is optative.",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸν ἵππον ἵνα ______ αὐτόν</i> (“The king sends the horse in order that you may loose it”).",
+   "explain": "After a primary tense, purpose takes the subjunctive, and the subject is “you,” one person, so the form is <i>λῡ́σῃς</i> (Smyth §2196, §383). <i>λῡ́σεις</i> is future indicative, and <i>λῡ́σαις</i> is optative.",
    "options": [
-    "λῡ́σῃς",
-    "λῡ́σῃ",
-    "λῡ́σεις",
-    "λῡ́σαις"
+    "<i>λῡ́σῃς</i>",
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σεις</i>",
+    "<i>λῡ́σαις</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς πέμπει τὸ δῶρον ἵνα τὸν νεᾱνίᾱν ______ The judge sends the gift in order that we may educate the young man.",
-   "explain": "After a primary tense, purpose takes the subjunctive, and the subject is “we,” so the form is παιδεύσωμεν (Smyth §2196, §376 a, §423). παιδεύσω is singular, παιδεύσαιμεν is the aorist optative, and παιδεύοιμεν is the present optative.",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ἵνα τὸν νεᾱνίᾱν ______</i> (“The judge sends the gift in order that we may educate the young man”).",
+   "explain": "After a primary tense, purpose takes the subjunctive, and the subject is “we,” so the form is <i>παιδεύσωμεν</i> (Smyth §2196, §376 a, §423). <i>παιδεύσω</i> is singular, <i>παιδεύσαιμεν</i> is the aorist optative, and <i>παιδεύοιμεν</i> is the present optative.",
    "options": [
-    "παιδεύσωμεν",
-    "παιδεύσω",
-    "παιδεύσαιμεν",
-    "παιδεύοιμεν"
+    "<i>παιδεύσωμεν</i>",
+    "<i>παιδεύσω</i>",
+    "<i>παιδεύσαιμεν</i>",
+    "<i>παιδεύοιμεν</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. οἱ ἄνθρωποι τὸν ἵππον ἔλῡον ἵνα ὁ κριτὴς τὸν νεᾱνίᾱν ______ παιδεύοι The men were loosing the horse in order that the judge might not educate the young man.",
-   "explain": "After the imperfect, the purpose clause stands here in the optative, and its negative is μή, written μὴ before the next word (Smyth §2196, §2193, §154). οὐ is the negative of a statement, not of purpose.",
+   "prompt": "Choose the form that fills the blank: <i>οἱ ἄνθρωποι τὸν ἵππον ἔλῡον ἵνα ὁ κριτὴς τὸν νεᾱνίᾱν ______ παιδεύοι</i> (“The men were loosing the horse in order that the judge might not educate the young man”).",
+   "explain": "After the imperfect, the purpose clause stands here in the optative, and its negative is <i>μή</i>, written <i>μὴ</i> before the next word (Smyth §2196, §2193, §154). <i>οὐ</i> is the negative of a statement, not of purpose.",
    "options": [
-    "μὴ",
-    "οὐ",
-    "οὐκ",
-    "οὐχ"
+    "<i>μὴ</i>",
+    "<i>οὐ</i>",
+    "<i>οὐκ</i>",
+    "<i>οὐχ</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. οἱ ἄνθρωποι τὸν νεᾱνίᾱν ἐπαίδευον ______ ὁ βασιλεὺς λῡ́σαι τὸν ἵππον The men were educating the young man in order that the king might loose the horse.",
-   "explain": "After a secondary tense, ἵνα still introduces purpose, and the optative is one mood that clause allows (Smyth §2193, §2196). ὅτι would mean because or that, and ὥστε would introduce a result.",
+   "prompt": "Choose the form that fills the blank: <i>οἱ ἄνθρωποι τὸν νεᾱνίᾱν ἐπαίδευον ______ ὁ βασιλεὺς λῡ́σαι τὸν ἵππον</i> (“The men were educating the young man in order that the king might loose the horse”).",
+   "explain": "After a secondary tense, <i>ἵνα</i> still introduces purpose, and the optative is one mood that clause allows (Smyth §2193, §2196). <i>ὅτι</i> would mean because or that, and <i>ὥστε</i> would introduce a result.",
    "options": [
-    "ἵνα",
-    "ὅτι",
-    "εἰ",
-    "ὥστε"
+    "<i>ἵνα</i>",
+    "<i>ὅτι</i>",
+    "<i>εἰ</i>",
+    "<i>ὥστε</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς οὕτω σοφός ἐστιν ὥστε τὸ δῶρον ______ πέμπει The judge is so wise that he does not send the gift.",
-   "explain": "An actual result has the indicative, and the negative of that finite verb is οὐ, the form before a consonant (Smyth §2257, §2251, §137). μή is the negative used with ὥστε and the infinitive.",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς οὕτω σοφός ἐστιν ὥστε τὸ δῶρον ______ πέμπει</i> (“The judge is so wise that he does not send the gift”).",
+   "explain": "An actual result has the indicative, and the negative of that finite verb is <i>οὐ</i>, the form before a consonant (Smyth §2257, §2251, §137). <i>μή</i> is the negative used with <i>ὥστε</i> and the infinitive.",
    "options": [
-    "οὐ",
-    "μὴ",
-    "οὐκ",
-    "οὐχ"
+    "<i>οὐ</i>",
+    "<i>μὴ</i>",
+    "<i>οὐκ</i>",
+    "<i>οὐχ</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. οἱ ἄνθρωποι οὕτως ἀγαθοί εἰσιν ὥστε τὸν ἵππον ______ The men are so good that they loose the horse.",
-   "explain": "The clause states an actual result, so the verb is indicative, and οἱ ἄνθρωποι is plural (Smyth §2257, §383). λῡ́οιεν is optative, λῡ́ειν would be a natural result, and λῡ́ωσι is subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i>οἱ ἄνθρωποι οὕτως ἀγαθοί εἰσιν ὥστε τὸν ἵππον ______</i> (“The men are so good that they loose the horse”).",
+   "explain": "The clause states an actual result, so the verb is indicative, and <i>οἱ ἄνθρωποι</i> is plural (Smyth §2257, §383). <i>λῡ́οιεν</i> is optative, <i>λῡ́ειν</i> would be a natural result, and <i>λῡ́ωσι</i> is subjunctive.",
    "options": [
-    "λῡ́ουσι",
-    "λῡ́οιεν",
-    "λῡ́ειν",
-    "λῡ́ωσι"
+    "<i>λῡ́ουσι</i>",
+    "<i>λῡ́οιεν</i>",
+    "<i>λῡ́ειν</i>",
+    "<i>λῡ́ωσι</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβοῦμαι ______ ὁ βασιλεὺς λῡ́σῃ τὸν ἵππον I fear that the king may loose the horse.",
-   "explain": "A fear that something may happen is introduced by μή, written μὴ before the next word, with the subjunctive after a primary tense (Smyth §2221, §2225, §154). ἵνα would mean in order that, and ὅτι would mean that or because.",
+   "prompt": "Choose the form that fills the blank: <i>φοβοῦμαι ______ ὁ βασιλεὺς λῡ́σῃ τὸν ἵππον</i> (“I fear that the king may loose the horse”).",
+   "explain": "A fear that something may happen is introduced by <i>μή</i>, written <i>μὴ</i> before the next word, with the subjunctive after a primary tense (Smyth §2221, §2225, §154). <i>ἵνα</i> would mean in order that, and <i>ὅτι</i> would mean that or because.",
    "options": [
-    "μὴ",
-    "ἵνα",
-    "ὅτι",
-    "εἰ"
+    "<i>μὴ</i>",
+    "<i>ἵνα</i>",
+    "<i>ὅτι</i>",
+    "<i>εἰ</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβεῖται μὴ ὁ κριτὴς τὸν νεᾱνίᾱν ______ He fears that the judge may educate the young man.",
-   "explain": "After the primary tense φοβεῖται, the fear clause has the subjunctive (Smyth §2225, §383). The optative after a primary tense is rare (Smyth §2227). παιδεύει is indicative.",
+   "prompt": "Choose the form that fills the blank: <i>φοβεῖται μὴ ὁ κριτὴς τὸν νεᾱνίᾱν ______</i> (“He fears that the judge may educate the young man”).",
+   "explain": "After the primary tense <i>φοβεῖται</i>, the fear clause has the subjunctive (Smyth §2225, §383). The optative after a primary tense is rare (Smyth §2227). <i>παιδεύει</i> is indicative.",
    "options": [
-    "παιδεύσῃ",
-    "παιδεύει",
-    "παιδεύσαι",
-    "παιδεύειν"
+    "<i>παιδεύσῃ</i>",
+    "<i>παιδεύει</i>",
+    "<i>παιδεύσαι</i>",
+    "<i>παιδεύειν</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβοῦμαι μὴ οἱ ἄνθρωποι τὸν ἵππον ______ I fear that the men may loose the horse.",
-   "explain": "After φοβοῦμαι the fear clause has the subjunctive, and οἱ ἄνθρωποι is plural (Smyth §2225, §383). λῡ́σουσι is future indicative, and λῡ́σαιεν is optative.",
+   "prompt": "Choose the form that fills the blank: <i>φοβοῦμαι μὴ οἱ ἄνθρωποι τὸν ἵππον ______</i> (“I fear that the men may loose the horse”).",
+   "explain": "After <i>φοβοῦμαι</i> the fear clause has the subjunctive, and <i>οἱ ἄνθρωποι</i> is plural (Smyth §2225, §383). <i>λῡ́σουσι</i> is future indicative, and <i>λῡ́σαιεν</i> is optative.",
    "options": [
-    "λῡ́σωσι",
-    "λῡ́σῃ",
-    "λῡ́σουσι",
-    "λῡ́σαιεν"
+    "<i>λῡ́σωσι</i>",
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σουσι</i>",
+    "<i>λῡ́σαιεν</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβοῦμαι μὴ ______ λῡ́σῃ τὸν ἵππον ὁ βασιλεύς I fear that the king may not loose the horse.",
-   "explain": "A fear that something may not happen has μὴ οὐ, and the verb stays in the subjunctive (Smyth §2221, §2225). οὐ is the form before a consonant (Smyth §137). A second μή is not the negative of the verb.",
+   "prompt": "Choose the form that fills the blank: <i>φοβοῦμαι μὴ ______ λῡ́σῃ τὸν ἵππον ὁ βασιλεύς</i> (“I fear that the king may not loose the horse”).",
+   "explain": "A fear that something may not happen has <i>μὴ οὐ</i>, and the verb stays in the subjunctive (Smyth §2221, §2225). <i>οὐ</i> is the form before a consonant (Smyth §137). A second <i>μή</i> is not the negative of the verb.",
    "options": [
-    "οὐ",
-    "μὴ",
-    "οὐκ",
-    "οὐχ"
+    "<i>οὐ</i>",
+    "<i>μὴ</i>",
+    "<i>οὐκ</i>",
+    "<i>οὐχ</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβοῦμαι μὴ τὸν ἵππον ______ I fear that you may loose the horse.",
-   "explain": "After φοβοῦμαι the fear clause has the subjunctive, and the subject is “you,” one person (Smyth §2225, §383). λῡ́σεις is future indicative, and λῡ́σαις is optative.",
+   "prompt": "Choose the form that fills the blank: <i>φοβοῦμαι μὴ τὸν ἵππον ______</i> (“I fear that you may loose the horse”).",
+   "explain": "After <i>φοβοῦμαι</i> the fear clause has the subjunctive, and the subject is “you,” one person (Smyth §2225, §383). <i>λῡ́σεις</i> is future indicative, and <i>λῡ́σαις</i> is optative.",
    "options": [
-    "λῡ́σῃς",
-    "λῡ́σῃ",
-    "λῡ́σεις",
-    "λῡ́σαις"
+    "<i>λῡ́σῃς</i>",
+    "<i>λῡ́σῃ</i>",
+    "<i>λῡ́σεις</i>",
+    "<i>λῡ́σαις</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβοῦμαι μὴ ὁ βασιλεὺς τὸν ἵππον ______ I fear that the king is loosing the horse.",
-   "explain": "The fear is that the loosing is going on, so the present subjunctive stands after φοβοῦμαι (Smyth §2225, §383). λῡ́ει is indicative, and the optative is not the mood after a primary tense (Smyth §2227).",
+   "prompt": "Choose the form that fills the blank: <i>φοβοῦμαι μὴ ὁ βασιλεὺς τὸν ἵππον ______</i> (“I fear that the king is loosing the horse”).",
+   "explain": "The fear is that the loosing is going on, so the present subjunctive stands after <i>φοβοῦμαι</i> (Smyth §2225, §383). <i>λῡ́ει</i> is indicative, and the optative is not the mood after a primary tense (Smyth §2227).",
    "options": [
-    "λῡ́ῃ",
-    "λῡ́ει",
-    "λῡ́οι",
-    "λῡ́ειν"
+    "<i>λῡ́ῃ</i>",
+    "<i>λῡ́ει</i>",
+    "<i>λῡ́οι</i>",
+    "<i>λῡ́ειν</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. φοβεῖται μὴ τὸν ἵππον ______ He fears that we may loose the horse.",
-   "explain": "After the primary φοβεῖται, the fear clause has the subjunctive, and the subject is “we” (Smyth §2225, §383). λῡ́σομεν is future indicative, and λῡ́οιμεν is optative.",
+   "prompt": "Choose the form that fills the blank: <i>φοβεῖται μὴ τὸν ἵππον ______</i> (“He fears that we may loose the horse”).",
+   "explain": "After the primary <i>φοβεῖται</i>, the fear clause has the subjunctive, and the subject is “we” (Smyth §2225, §383). <i>λῡ́σομεν</i> is future indicative, and <i>λῡ́οιμεν</i> is optative.",
    "options": [
-    "λῡ́σωμεν",
-    "λῡ́σω",
-    "λῡ́σομεν",
-    "λῡ́οιμεν"
+    "<i>λῡ́σωμεν</i>",
+    "<i>λῡ́σω</i>",
+    "<i>λῡ́σομεν</i>",
+    "<i>λῡ́οιμεν</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. οἱ ἄνθρωποι τὸν ἵππον ἔλῡσαν ὥστε ὁ κριτὴς τὸν νεᾱνίᾱν ______ The men loosed the horse, so that the judge loosed the young man.",
-   "explain": "The judge is nominative and singular, and he is not the subject of ἔλῡσαν, so the result that occurred is the aorist indicative ἔλῡσε (Smyth §939, §2257, §2274). λῡ́ειν is an infinitive, and a different subject of the infinitive would stand in the accusative (Smyth §1975). ἔλῡσαν is plural, and λῡ́σαιμι is optative and first person.",
+   "prompt": "Choose the form that fills the blank: <i>οἱ ἄνθρωποι τὸν ἵππον ἔλῡσαν ὥστε ὁ κριτὴς τὸν νεᾱνίᾱν ______</i> (“The men loosed the horse, so that the judge loosed the young man”).",
+   "explain": "The judge is nominative and singular, and he is not the subject of <i>ἔλῡσαν</i>, so the result that occurred is the aorist indicative <i>ἔλῡσε</i> (Smyth §939, §2257, §2274). <i>λῡ́ειν</i> is an infinitive, and a different subject of the infinitive would stand in the accusative (Smyth §1975). <i>ἔλῡσαν</i> is plural, and <i>λῡ́σαιμι</i> is optative and first person.",
    "options": [
-    "ἔλῡσε",
-    "λῡ́ειν",
-    "ἔλῡσαν",
-    "λῡ́σαιμι"
+    "<i>ἔλῡσε</i>",
+    "<i>λῡ́ειν</i>",
+    "<i>ἔλῡσαν</i>",
+    "<i>λῡ́σαιμι</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς τὸν νεᾱνίᾱν ἔλῡσεν ὥστε οἱ ἄνθρωποι τὸν ἵππον ______ The judge loosed the young man, so that the men loosed the horse.",
-   "explain": "The men are nominative and plural, and they are not the subject of ἔλῡσεν, so the result that occurred is the aorist indicative ἔλῡσαν (Smyth §939, §2257, §2274). λῡ́ειν is an infinitive, and a different subject of the infinitive would stand in the accusative, while ἔλῡσε is singular and λῡ́σαιεν is optative (Smyth §1975). ἔλῡσεν takes ν before the vowel (Smyth §134).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς τὸν νεᾱνίᾱν ἔλῡσεν ὥστε οἱ ἄνθρωποι τὸν ἵππον ______</i> (“The judge loosed the young man, so that the men loosed the horse”).",
+   "explain": "The men are nominative and plural, and they are not the subject of <i>ἔλῡσεν</i>, so the result that occurred is the aorist indicative <i>ἔλῡσαν</i> (Smyth §939, §2257, §2274). <i>λῡ́ειν</i> is an infinitive, and a different subject of the infinitive would stand in the accusative, while <i>ἔλῡσε</i> is singular and <i>λῡ́σαιεν</i> is optative (Smyth §1975). <i>ἔλῡσεν</i> takes <i>ν</i> before the vowel (Smyth §134).",
    "options": [
-    "ἔλῡσαν",
-    "λῡ́ειν",
-    "ἔλῡσε",
-    "λῡ́σαιεν"
+    "<i>ἔλῡσαν</i>",
+    "<i>λῡ́ειν</i>",
+    "<i>ἔλῡσε</i>",
+    "<i>λῡ́σαιεν</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς τὸν ἵππον ἔλῡσεν ὥστε ἐγὼ τὸν νεᾱνίᾱν ______ The judge loosed the horse, so that I educated the young man.",
-   "explain": "ἐγώ is nominative, and it is a different subject from the judge, so the result that occurred is the aorist indicative ἐπαίδευσα (Smyth §939, §2257, §2274, §429). παιδεύειν is an infinitive, whose different subject would be accusative, παιδεύοι is third person optative, and παιδεύσαιμι is optative (Smyth §1975, §383). ἐγώ is written ἐγὼ before the next word, and ἔλῡσεν takes ν before the vowel (Smyth §154, §134).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς τὸν ἵππον ἔλῡσεν ὥστε ἐγὼ τὸν νεᾱνίᾱν ______</i> (“The judge loosed the horse, so that I educated the young man”).",
+   "explain": "<i>ἐγώ</i> is nominative, and it is a different subject from the judge, so the result that occurred is the aorist indicative <i>ἐπαίδευσα</i> (Smyth §939, §2257, §2274, §429). <i>παιδεύειν</i> is an infinitive, whose different subject would be accusative, <i>παιδεύοι</i> is third person optative, and <i>παιδεύσαιμι</i> is optative (Smyth §1975, §383). <i>ἐγώ</i> is written <i>ἐγὼ</i> before the next word, and <i>ἔλῡσεν</i> takes <i>ν</i> before the vowel (Smyth §154, §134).",
    "options": [
-    "ἐπαίδευσα",
-    "παιδεύειν",
-    "παιδεύοι",
-    "παιδεύσαιμι"
+    "<i>ἐπαίδευσα</i>",
+    "<i>παιδεύειν</i>",
+    "<i>παιδεύοι</i>",
+    "<i>παιδεύσαιμι</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν τῶν ἀνθρώπων ______ The king is so wise that the young man rules the men.",
-   "explain": "The young man is not the subject of ἐστιν, and he stands in the accusative, so the result that follows from what the king is takes the infinitive ἄρχειν, and ἄρχω takes the genitive of the people ruled (Smyth §2258, §1975, §1370). ἄρχει and ἄρχω are finite, and a finite verb takes a nominative subject, while παιδεύουσι is plural (Smyth §939, §423). βασιλεύς is written βασιλεὺς before the next word, οὕτω stands before a consonant, σοφός keeps its accent before ἐστιν, and ἐστιν takes ν before the vowel (Smyth §154, §136, §183 a, §134).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν τῶν ἀνθρώπων ______</i> (“The king is so wise that the young man rules the men”).",
+   "explain": "The young man is not the subject of <i>ἐστιν</i>, and he stands in the accusative, so the result that follows from what the king is takes the infinitive <i>ἄρχειν</i>, and <i>ἄρχω</i> takes the genitive of the people ruled (Smyth §2258, §1975, §1370). <i>ἄρχει</i> and <i>ἄρχω</i> are finite, and a finite verb takes a nominative subject, while <i>παιδεύουσι</i> is plural (Smyth §939, §423). <i>βασιλεύς</i> is written <i>βασιλεὺς</i> before the next word, <i>οὕτω</i> stands before a consonant, <i>σοφός</i> keeps its accent before <i>ἐστιν</i>, and <i>ἐστιν</i> takes <i>ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
    "options": [
-    "ἄρχειν",
-    "ἄρχει",
-    "ἄρχω",
-    "παιδεύουσι"
+    "<i>ἄρχειν</i>",
+    "<i>ἄρχει</i>",
+    "<i>ἄρχω</i>",
+    "<i>παιδεύουσι</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ κριτὴς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν ἀγαθὸν ______ The judge is so wise that the young man is good.",
-   "explain": "The young man is a different subject from the judge, so the young man and the adjective stand in the accusative with εἶναι, and the result follows from what the judge is (Smyth §2258, §1975, §768). ἐστί, ἦν, and ἔσομαι are finite, and a finite verb takes a nominative subject (Smyth §939). κριτής is written κριτὴς before the next word, οὕτω stands before a consonant, σοφός keeps its accent before ἐστιν, and ἐστιν takes ν before the vowel (Smyth §154, §136, §183 a, §134).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν ἀγαθὸν ______</i> (“The judge is so wise that the young man is good”).",
+   "explain": "The young man is a different subject from the judge, so the young man and the adjective stand in the accusative with <i>εἶναι</i>, and the result follows from what the judge is (Smyth §2258, §1975, §768). <i>ἐστί, ἦν</i>, and <i>ἔσομαι</i> are finite, and a finite verb takes a nominative subject (Smyth §939). <i>κριτής</i> is written <i>κριτὴς</i> before the next word, <i>οὕτω</i> stands before a consonant, <i>σοφός</i> keeps its accent before <i>ἐστιν</i>, and <i>ἐστιν</i> takes <i>ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
    "options": [
-    "εἶναι",
-    "ἐστί",
-    "ἦν",
-    "ἔσομαι"
+    "<i>εἶναι</i>",
+    "<i>ἐστί</i>",
+    "<i>ἦν</i>",
+    "<i>ἔσομαι</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank. ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν κριτὴν τὸν νεᾱνίᾱν ______ The king is so wise that the judge educates the young man.",
-   "explain": "The judge is a different subject from the king, and the young man is the object, so both stand in the accusative with παιδεύειν, the infinitive of a natural result (Smyth §2258, §1975). παιδεύουσι is indicative and plural, and παιδεύοι and παιδεύοιεν are optative, while a finite verb takes a nominative subject (Smyth §939, §383). βασιλεύς is written βασιλεὺς before the next word, οὕτω stands before a consonant, σοφός keeps its accent before ἐστιν, and ἐστιν takes ν before the vowel (Smyth §154, §136, §183 a, §134).",
+   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν κριτὴν τὸν νεᾱνίᾱν ______</i> (“The king is so wise that the judge educates the young man”).",
+   "explain": "The judge is a different subject from the king, and the young man is the object, so both stand in the accusative with <i>παιδεύειν</i>, the infinitive of a natural result (Smyth §2258, §1975). <i>παιδεύουσι</i> is indicative and plural, and <i>παιδεύοι</i> and <i>παιδεύοιεν</i> are optative, while a finite verb takes a nominative subject (Smyth §939, §383). <i>βασιλεύς</i> is written <i>βασιλεὺς</i> before the next word, <i>οὕτω</i> stands before a consonant, <i>σοφός</i> keeps its accent before <i>ἐστιν</i>, and <i>ἐστιν</i> takes <i>ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
    "options": [
-    "παιδεύειν",
-    "παιδεύουσι",
-    "παιδεύοι",
-    "παιδεύοιεν"
+    "<i>παιδεύειν</i>",
+    "<i>παιδεύουσι</i>",
+    "<i>παιδεύοι</i>",
+    "<i>παιδεύοιεν</i>"
    ],
    "answer": 0
   }

@@ -5,7 +5,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
  "kind": "exercise",
  "status": "written",
  "section": "V",
- "title": "Cited Sentences",
+ "title": "Word Order and Dependence in Greek",
  "instr": "Choose the answer.",
  "openedFrom": "",
  "items": [
@@ -15,13 +15,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>πολύτροπον</em> depends on which word? ἄνδρα μοι ἔννεπε, μοῦσα, <b>πολύτροπον</b>, ὃς μάλα πολλὰ πλάγχθη.",
-   "explain": "<em>Πολύτροπον</em> is accusative masculine singular, as <em>ἄνδρα</em> is, at the far end of the line. “Tell me, Muse, of the man of many turns, who wandered very far.” (Homer, <i>Odyssey</i> 1.1–2)",
+   "prompt": "On which word does <i>πολύτροπον</i> depend? <i>ἄνδρα μοι ἔννεπε, μοῦσα, <b>πολύτροπον</b>, ὃς μάλα πολλὰ πλάγχθη.</i>",
+   "explain": "<i>Πολύτροπον</i> is accusative masculine singular, as <i>ἄνδρα</i> is, at the far end of the line. “Tell me, Muse, of the man of many turns, who wandered very far.” (Homer, <i>Odyssey</i> 1.1–2)",
    "options": [
-    "ἄνδρα",
-    "Μοῦσα",
-    "μοι",
-    "πολλὰ"
+    "<i>ἄνδρα</i>",
+    "<i>Μοῦσα</i>",
+    "<i>μοι</i>",
+    "<i>πολλὰ</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In Thomas’s account, the verb <em>ἦν</em> depends on which word, its subject? ἐν ἀρχῇ <b>ἦν</b> ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν.",
-   "explain": "The verb depends on the nominative <em>λόγος</em>, its subject. “In the beginning was the Word, and the Word was with God.” (Gospel of John 1:1)",
+   "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i>ἦν</i> depend? <i>ἐν ἀρχῇ <b>ἦν</b> ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν.</i>",
+   "explain": "The verb depends on the nominative <i>λόγος</i>, its subject. “In the beginning was the Word, and the Word was with God.” (Gospel of John 1:1)",
    "options": [
-    "λόγος",
-    "ἀρχῇ",
-    "θεόν",
-    "ἐν"
+    "<i>λόγος</i>",
+    "<i>ἀρχῇ</i>",
+    "<i>θεόν</i>",
+    "<i>ἐν</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In Thomas’s account, the verb <em>γίγνονται</em> depends on which word, its subject? Δαρείου καὶ Παρυσάτιδος <b>γίγνονται</b> παῖδες δύο.",
-   "explain": "<em>Παῖδες</em> is the nominative subject; the genitives say whose children. “Of Darius and Parysatis were born two sons.” (Xenophon, <i>Anabasis</i> 1.1.1)",
+   "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i>γίγνονται</i> depend? <i>Δαρείου καὶ Παρυσάτιδος <b>γίγνονται</b> παῖδες δύο.</i>",
+   "explain": "<i>Παῖδες</i> is the nominative subject; the genitives say whose children. “Of Darius and Parysatis were born two sons.” (Xenophon, <i>Anabasis</i> 1.1.1)",
    "options": [
-    "παῖδες",
-    "Δαρείου",
-    "Παρυσάτιδος",
-    "δύο"
+    "<i>παῖδες</i>",
+    "<i>Δαρείου</i>",
+    "<i>Παρυσάτιδος</i>",
+    "<i>δύο</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>δύο</em> depends on which word? Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες <b>δύο</b>.",
-   "explain": "The numeral adheres to <em>παῖδες</em>. “Of Darius and Parysatis were born two sons.” (Xenophon, <i>Anabasis</i> 1.1.1)",
+   "prompt": "On which word does <i>δύο</i> depend? <i>Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες <b>δύο</b>.</i>",
+   "explain": "The numeral adheres to <i>παῖδες</i>. “Of Darius and Parysatis were born two sons.” (Xenophon, <i>Anabasis</i> 1.1.1)",
    "options": [
-    "παῖδες",
-    "Δαρείου",
-    "γίγνονται",
-    "Παρυσάτιδος"
+    "<i>παῖδες</i>",
+    "<i>Δαρείου</i>",
+    "<i>γίγνονται</i>",
+    "<i>Παρυσάτιδος</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>χθὲς</em> depends on which word? κατέβην <b>χθὲς</b> εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος.",
-   "explain": "<em>Χθές</em> says when the going down happened: an adverb on its verb. “I went down yesterday to the Piraeus with Glaucon, son of Ariston.” (Plato, <i>Republic</i> 327a)",
+   "prompt": "On which word does <i>χθὲς</i> depend? <i>κατέβην <b>χθὲς</b> εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος.</i>",
+   "explain": "<i>Χθές</i> says when the going down happened: an adverb on its verb. “I went down yesterday to the Piraeus with Glaucon, son of Ariston.” (Plato, <i>Republic</i> 327a)",
    "options": [
-    "κατέβην",
-    "Πειραιᾶ",
-    "Γλαύκωνος",
-    "Ἀρίστωνος"
+    "<i>κατέβην</i>",
+    "<i>Πειραιᾶ</i>",
+    "<i>Γλαύκωνος</i>",
+    "<i>Ἀρίστωνος</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>πάντες</em> depends on which word? <b>πάντες</b> ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει.",
-   "explain": "<em>Πάντες</em> is nominative masculine plural and adheres to <em>ἄνθρωποι</em>. “All men by nature desire to know.” (Aristotle, <i>Metaphysics</i> 980a21)",
+   "prompt": "On which word does <i>πάντες</i> depend? <i><b>πάντες</b> ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει.</i>",
+   "explain": "<i>Πάντες</i> is nominative masculine plural and adheres to <i>ἄνθρωποι</i>. “All men by nature desire to know.” (Aristotle, <i>Metaphysics</i> 980a21)",
    "options": [
-    "ἄνθρωποι",
-    "εἰδέναι",
-    "φύσει",
-    "ὀρέγονται"
+    "<i>ἄνθρωποι</i>",
+    "<i>εἰδέναι</i>",
+    "<i>φύσει</i>",
+    "<i>ὀρέγονται</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In Thomas’s account, the verb <em>ὀρέγονται</em> depends on which word, its subject? πάντες ἄνθρωποι τοῦ εἰδέναι <b>ὀρέγονται</b> φύσει.",
-   "explain": "The verb depends on its nominative subject <em>ἄνθρωποι</em>; the genitive <em>τοῦ εἰδέναι</em> says what they desire. “All men by nature desire to know.” (Aristotle, <i>Metaphysics</i> 980a21)",
+   "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i>ὀρέγονται</i> depend? <i>πάντες ἄνθρωποι τοῦ εἰδέναι <b>ὀρέγονται</b> φύσει.</i>",
+   "explain": "The verb depends on its nominative subject <i>ἄνθρωποι</i>; the genitive <i>τοῦ εἰδέναι</i> says what they desire. “All men by nature desire to know.” (Aristotle, <i>Metaphysics</i> 980a21)",
    "options": [
-    "ἄνθρωποι",
-    "εἰδέναι",
-    "φύσει",
-    "πάντες"
+    "<i>ἄνθρωποι</i>",
+    "<i>εἰδέναι</i>",
+    "<i>φύσει</i>",
+    "<i>πάντες</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>Ἀθηναῖος</em> depends on which word? Θουκυδίδης <b>Ἀθηναῖος</b> ξυνέγραψε τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.",
-   "explain": "<em>Ἀθηναῖος</em> is nominative and adheres to <em>Θουκυδίδης</em>, not to the genitive plural <em>Ἀθηναίων</em>. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
+   "prompt": "On which word does <i>Ἀθηναῖος</i> depend? <i>Θουκυδίδης <b>Ἀθηναῖος</b> ξυνέγραψε τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.</i>",
+   "explain": "<i>Ἀθηναῖος</i> is nominative and adheres to <i>Θουκυδίδης</i>, not to the genitive plural <i>Ἀθηναίων</i>. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
    "options": [
-    "Θουκυδίδης",
-    "πόλεμον",
-    "Ἀθηναίων",
-    "ξυνέγραψε"
+    "<i>Θουκυδίδης</i>",
+    "<i>πόλεμον</i>",
+    "<i>Ἀθηναίων</i>",
+    "<i>ξυνέγραψε</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "In Thomas’s account, the verb <em>ξυνέγραψε</em> depends on its object. Which word terminates that dependence? Θουκυδίδης Ἀθηναῖος <b>ξυνέγραψε</b> τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.",
-   "explain": "The accusative <em>πόλεμον</em> terminates the transitive dependence. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
+   "prompt": "In Thomas of Erfurt’s account, the verb <i>ξυνέγραψε</i> also depends on its object. Which word terminates that dependence? <i>Θουκυδίδης Ἀθηναῖος <b>ξυνέγραψε</b> τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.</i>",
+   "explain": "The accusative <i>πόλεμον</i> terminates the transitive dependence. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
    "options": [
-    "πόλεμον",
-    "Θουκυδίδης",
-    "Ἀθηναῖος",
-    "Πελοποννησίων"
+    "<i>πόλεμον</i>",
+    "<i>Θουκυδίδης</i>",
+    "<i>Ἀθηναῖος</i>",
+    "<i>Πελοποννησίων</i>"
    ],
    "answer": 0
   },
@@ -159,15 +159,206 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "deck": "lang.v.grc/cited-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "<em>ἥδε</em> depends on which word? Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις <b>ἥδε</b>.",
-   "explain": "<em>Ἥδε</em> is nominative feminine singular and points at <em>ἀπόδεξις</em>. “This is the setting forth of the inquiry of Herodotus of Halicarnassus.” (Herodotus 1.0)",
+   "prompt": "On which word does <i>ἥδε</i> depend? <i>Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις <b>ἥδε</b>.</i>",
+   "explain": "<i>Ἥδε</i> is nominative feminine singular and points at <i>ἀπόδεξις</i>. “This is the setting forth of the inquiry of Herodotus of Halicarnassus.” (Herodotus 1.0)",
    "options": [
-    "ἀπόδεξις",
-    "Ἡροδότου",
-    "ἱστορίης",
-    "Ἁλικαρνησσέος"
+    "<i>ἀπόδεξις</i>",
+    "<i>Ἡροδότου</i>",
+    "<i>ἱστορίης</i>",
+    "<i>Ἁλικαρνησσέος</i>"
    ],
    "answer": 0
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg11",
+   "set": "A",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does <i>ὁ ποταμὸς βαθύς</i> mean?",
+   "explain": "The adjective stands outside the article and noun, in the predicate position, so it is the predicate.",
+   "options": [
+    "“the deep river”",
+    "“a deep river”",
+    "“the river of the deep”",
+    "“the river is deep”"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg12",
+   "set": "A",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which phrase means “the wise judge”?",
+   "explain": "With the article repeated before the adjective, the adjective is attributive.",
+   "options": [
+    "<i>ὁ κριτὴς σοφός</i>",
+    "<i>σοφὸς ὁ κριτής</i>",
+    "<i>ὁ κριτὴς ὁ σοφός</i>",
+    "<i>κριτὴς ὁ σοφός ἐστι</i>"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg13",
+   "set": "A",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>τὴν ναῦν εἶδεν ὁ ναύτης</i>, which word is the subject?",
+   "explain": "<i>Ναύτης</i> is nominative; <i>ναῦν</i> is accusative, the object, though it stands first.",
+   "options": [
+    "<i>ναῦν</i>",
+    "<i>ναύτης</i>",
+    "<i>εἶδεν</i>",
+    "<i>τήν</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg14",
+   "set": "B",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which sentence places <i>δέ</i> correctly?",
+   "explain": "<i>Δέ</i> is postpositive; after the article it stands between the article and its noun.",
+   "options": [
+    "<i>ὁ δὲ παῖς ἔφυγεν.</i>",
+    "<i>δὲ ὁ παῖς ἔφυγεν.</i>",
+    "<i>ὁ παῖς ἔφυγεν δὲ.</i>",
+    "<i>δέ, ὁ παῖς ἔφυγεν.</i>"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg15",
+   "set": "B",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>ταχεῖα πλεῖ ἡ ναῦς</i>, on which word does <i>ταχεῖα</i> depend?",
+   "explain": "<i>Ταχεῖα</i> is feminine, singular, and nominative, as <i>ναῦς</i> is, though the verb stands between them.",
+   "options": [
+    "<i>πλεῖ</i>",
+    "<i>ἡ</i>",
+    "on no word",
+    "<i>ναῦς</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg16",
+   "set": "B",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "What does the first place in a Greek clause usually give a word?",
+   "explain": "The endings show the use of a word, so the first place is free to give emphasis.",
+   "options": [
+    "The case of the subject",
+    "The force of a question",
+    "Emphasis",
+    "The force of a negative"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg17",
+   "set": "B",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which phrase means “the wall is high”?",
+   "explain": "An adjective outside the article and noun is the predicate.",
+   "options": [
+    "<i>τὸ ὑψηλὸν τεῖχος</i>",
+    "<i>ὑψηλὸν τὸ τεῖχος</i>",
+    "<i>τὸ τεῖχος τὸ ὑψηλόν</i>",
+    "<i>τοῦ ὑψηλοῦ τείχους</i>"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg18",
+   "set": "C",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>ἡ τῶν Ἀθηναίων πόλις</i>, on which word does <i>Ἀθηναίων</i> depend?",
+   "explain": "The possessive genitive stands in the attributive position and depends on <i>πόλις</i>.",
+   "options": [
+    "<i>πόλις</i>",
+    "<i>ἡ</i>",
+    "<i>τῶν</i>",
+    "on no word"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg19",
+   "set": "C",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>ὁ γέρων καλῶς ᾄδει</i>, on which word does <i>καλῶς</i> depend?",
+   "explain": "An adverb depends on the verb.",
+   "options": [
+    "<i>γέρων</i>",
+    "<i>ὁ</i>",
+    "on no word",
+    "<i>ᾄδει</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg20",
+   "set": "C",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "Which word never stands first in its clause?",
+   "explain": "<i>Οὖν</i> (“therefore”) is postpositive.",
+   "options": [
+    "<i>καί</i>",
+    "<i>ἀλλά</i>",
+    "<i>ἐπεί</i>",
+    "<i>οὖν</i>"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg21",
+   "set": "C",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>ὁ ἀνὴρ ὁ τὴν ἐπιστολὴν γράψας</i>, why does <i>γράψας</i> describe <i>ἀνήρ</i>?",
+   "explain": "With the article repeated, the participle and its object are attributive: “the man who wrote the letter.”",
+   "options": [
+    "It stands in the attributive position after the repeated article",
+    "It stands at the end of the phrase",
+    "It agrees with <i>ἐπιστολήν</i>",
+    "It is a finite verb"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "lang.v.grc/cited-ex:wg22",
+   "set": "A",
+   "deck": "lang.v.grc/cited-ex",
+   "section": "v",
+   "type": "mc",
+   "prompt": "In <i>ἄνθρωποι πολλοὶ ἦλθον</i>, on which word does <i>ἦλθον</i> depend, in Thomas of Erfurt’s account?",
+   "explain": "In Thomas’s account the verb depends on its subject.",
+   "options": [
+    "<i>πολλοί</i>",
+    "<i>ἄνθρωποι</i>",
+    "on no word"
+   ],
+   "answer": 1
   }
  ]
 };
