@@ -32,8 +32,9 @@ const ROOT = path.resolve(__dirname, '..');
   /* answer a whole sitting through the real hooks: every item right, or the first k wrong */
   const sitting = async (id, opts) => ev(`(async () => {
     const o = ${JSON.stringify(opts || {})};
-    openEx(id = ${JSON.stringify(id)}, o.mode ? { mode: o.mode } : {});
-    await new Promise(r => setTimeout(r, 300));
+    id = ${JSON.stringify(id)}; run = null; openEx(id, o.mode ? { mode: o.mode } : {});
+    const t0 = Date.now();
+    while ((!run || !run.n || (run.ex && run.ex.id !== id)) && Date.now() - t0 < 15000) await new Promise(r => setTimeout(r, 100));
     const n = run.n, wrong = o.wrong || 0;
     for (let k = 0; k < n; k++) {
       run.k = k; renderItem();
