@@ -817,19 +817,3 @@ body.dark .lang-bar .lang-btn.is-done:focus-visible{background:color-mix(in srgb
 .sec-rule-faint{opacity:.5; margin:6px 0}
 .lang-bar .lang-btn .lang-sq{display:inline-block; width:5px; height:5px; background:currentColor; margin:0 7px 0 0; position:relative; top:-.3em; align-self:center; flex:none}
 
-/* Oct 22: the main column a third wider, for readability (home cards 520px to 693px). Every width is the earlier one times 4/3; all still shrink to fit a phone. */
-.wrap{max-width:1013px}
-.home-grid > .set-card,
-.home-grid > .cumul-bar,
-.home-grid > .lang-bar,
-#scr-home .set-card,
-#scr-lang .set-card,
-.cumul-bar,
-.grp-label,
-.sec-rule{width:min(693px, 100%)}
-.panel, .intro-note{max-width:45.33em}
-.act-gloss, .section-gloss{max-width:40em}
-.deck-sub, .designer-credit{max-width:48em}
-.q-box{max-width:747px}
-details.check{width:min(747px, 100%)}
-.ex-empty{max-width:693px}
