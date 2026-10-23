@@ -1,4 +1,7 @@
-/* Figures of Words [vii.ex.schemata]  Exercise set opened from the Exercise button of vii.schemata. Written 45 items in three fixed sets. */
+/* Figures of Words [vii.ex.schemata]  Exercise set opened from the Exercise button of vii.schemata. Written; 50 items in 2 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: name the figure. Level II: click the repeated words, with new passages from Cicero.
+   Level I (24), Level II (26). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vii.ex.schemata'] = {
@@ -31,12 +34,24 @@ ARS.exercises['vii.ex.schemata'] = {
   "mc",
   "identify"
  ],
- "pool": 45,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 50,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 15,
-  "B": 15,
+  "A": 18,
+  "B": 17,
   "C": 15
+ },
+ "levels": {
+  "pass": 1,
+  "top": 2,
+  "names": {
+   "1": "Name the figure of words.",
+   "2": "Find the repeated words of the figure."
+  },
+  "counts": {
+   "1": 24,
+   "2": 26
+  }
  },
  "limit": "Only the figures named in VII.2.",
  "instr": "Answer each question. Where words are to be clicked, press Check when the answer is complete.",
@@ -55,7 +70,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "The same word, “every,” begins each member of the series, so the figure is anaphora.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-A02",
@@ -75,7 +91,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "The word that ends the first member, “grain,” begins the next, so the second is linked to the first: anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-A03",
@@ -91,7 +108,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "“Fire” is repeated immediately, with no other word between, so the figure is epizeuxis.",
-   "card": "epizeuxis"
+   "card": "epizeuxis",
+   "level": 1
   },
   {
    "id": "sch-A04",
@@ -112,7 +130,8 @@ ARS.exercises['vii.ex.schemata'] = {
     4
    ],
    "explain": "“Gives,” “given,” and “give” are forms of one verb repeated in different forms. Repeating a word in different cases or forms is polyptoton.",
-   "card": "polyptoton"
+   "card": "polyptoton",
+   "level": 2
   },
   {
    "id": "sch-A05",
@@ -128,7 +147,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "The sentence ends with the word with which it began, “gold,” so the figure is epanalepsis; the repeated word encloses the sentence.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-A06",
@@ -148,7 +168,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "“The knight” ends the first clause and begins the second, so the two clauses are linked by anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-A07",
@@ -164,7 +185,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "“Whether” and “weather” are alike in sound but differ in meaning, and they are placed together for that reason. This is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 1
   },
   {
    "id": "sch-A08",
@@ -188,7 +210,8 @@ ARS.exercises['vii.ex.schemata'] = {
     5
    ],
    "explain": "Five of the six words begin with <i>b</i>. Beginning several words with the same sound is paromoeon, which English calls alliteration.",
-   "card": "paromoeon"
+   "card": "paromoeon",
+   "level": 2
   },
   {
    "id": "sch-A09",
@@ -204,7 +227,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "The three verbs end with the same sound, <i>-ātur</i>. Verbs have no case, so this is homoeoteleuton, likeness of ending, not homoeoptoton, likeness of case.",
-   "card": "endings"
+   "card": "endings",
+   "level": 1
   },
   {
    "id": "sch-A10",
@@ -224,7 +248,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "“Miner’s” and “minor” sound alike but differ in meaning; placing them together is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 2
   },
   {
    "id": "sch-A11",
@@ -240,7 +265,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "The subjects are named one after another, and the verb “came” is held back until the end, so the sense is carried through many members without a break. This is hirmos.",
-   "card": "hirmos"
+   "card": "hirmos",
+   "level": 1
   },
   {
    "id": "sch-A12",
@@ -263,7 +289,8 @@ ARS.exercises['vii.ex.schemata'] = {
     4
    ],
    "explain": "The plain construction puts one “and” before the last member: “sang, danced, feasted, and laughed.” The first two “and”s are added beyond need, which is polysyndeton.",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 2
   },
   {
    "id": "sch-A13",
@@ -279,7 +306,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 0,
    "explain": "The whole, “the two cousins,” is named first and then divided into its parts, “the one … the other,” which depend on the verb of the whole. This is prolepsis.",
-   "card": "prolepsis"
+   "card": "prolepsis",
+   "level": 1
   },
   {
    "id": "sch-A14",
@@ -296,7 +324,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "“Baked” is written once and serves the second clause too (“the father baked the pies”). This is zeugma.",
-   "card": "zeugma-syllepsis"
+   "card": "zeugma-syllepsis",
+   "level": 2
   },
   {
    "id": "sch-A15",
@@ -312,7 +341,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "The plain construction would put “and” before the last clause; here there is no conjunction at all, so the figure is asyndeton (Donatus’s dialyton).",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 1
   },
   {
    "id": "sch-B01",
@@ -328,7 +358,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "The sentence begins and ends with “patience,” so the figure is epanalepsis.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-B02",
@@ -347,7 +378,8 @@ ARS.exercises['vii.ex.schemata'] = {
     2
    ],
    "explain": "“The truth” ends the first member and begins the second, so they are linked by anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-B03",
@@ -363,7 +395,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 0,
    "explain": "“Home” is repeated immediately, with no other word between, so the figure is epizeuxis.",
-   "card": "epizeuxis"
+   "card": "epizeuxis",
+   "level": 1
   },
   {
    "id": "sch-B04",
@@ -382,7 +415,8 @@ ARS.exercises['vii.ex.schemata'] = {
     1
    ],
    "explain": "<i>Rēx</i> (nominative) and <i>rēgī</i> (dative) are one noun in two cases, each with its own place in the construction. This is polyptoton.",
-   "card": "polyptoton"
+   "card": "polyptoton",
+   "level": 2
   },
   {
    "id": "sch-B05",
@@ -398,7 +432,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "“By” begins each of the three phrases, so the figure is anaphora.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-B06",
@@ -418,7 +453,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "“The stream” ends the first clause and begins the second, so the figure is anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-B07",
@@ -434,7 +470,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 0,
    "explain": "“Knight” and “night” are alike in sound but differ in meaning, so the figure is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 1
   },
   {
    "id": "sch-B08",
@@ -458,7 +495,8 @@ ARS.exercises['vii.ex.schemata'] = {
     5
    ],
    "explain": "Five of the six words begin with <i>m</i>, so the figure is paromoeon (alliteration).",
-   "card": "paromoeon"
+   "card": "paromoeon",
+   "level": 2
   },
   {
    "id": "sch-B09",
@@ -474,7 +512,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "The nouns stand together in the same case, so their endings correspond: homoeoptoton. Polyptoton would repeat one word in different cases.",
-   "card": "endings"
+   "card": "endings",
+   "level": 1
   },
   {
    "id": "sch-B10",
@@ -497,7 +536,8 @@ ARS.exercises['vii.ex.schemata'] = {
     7
    ],
    "explain": "“Whole” and “hole” sound alike but differ in meaning; placing them together is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 2
   },
   {
    "id": "sch-B11",
@@ -513,7 +553,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "Hirmos is a long sentence whose sense is carried through many members to the end, so that the words that depend on the subject must be held in mind until the verb completes them.",
-   "card": "hirmos"
+   "card": "hirmos",
+   "level": 1
   },
   {
    "id": "sch-B12",
@@ -536,7 +577,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "The plain construction needs only the last “and”: “bread, cheese, wine, and fruit.” The others are added beyond need, which is polysyndeton.",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 2
   },
   {
    "id": "sch-B13",
@@ -552,7 +594,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "The whole, “our guests,” is named first and then divided into parts, “some … some,” which depend on the verb of the whole. This is prolepsis.",
-   "card": "prolepsis"
+   "card": "prolepsis",
+   "level": 1
   },
   {
    "id": "sch-B14",
@@ -567,7 +610,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "“Were” is plural and agrees only with “his officers,” though it is construed with both subjects. This is syllepsis.",
-   "card": "zeugma-syllepsis"
+   "card": "zeugma-syllepsis",
+   "level": 2
   },
   {
    "id": "sch-B15",
@@ -583,7 +627,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "Every clause is joined by “and,” even the first, so there are more conjunctions than the construction needs: polysyndeton.",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 1
   },
   {
    "id": "sch-C01",
@@ -599,7 +644,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "“We waited” begins each clause, so the figure is anaphora.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-C02",
@@ -618,7 +664,8 @@ ARS.exercises['vii.ex.schemata'] = {
     2
    ],
    "explain": "“The night” ends the first member and begins the second, so they are linked by anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-C03",
@@ -634,7 +681,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "“Faster” is repeated immediately, so the figure is epizeuxis.",
-   "card": "epizeuxis"
+   "card": "epizeuxis",
+   "level": 1
   },
   {
    "id": "sch-C04",
@@ -652,7 +700,8 @@ ARS.exercises['vii.ex.schemata'] = {
     1
    ],
    "explain": "<i>Nāvis</i> (nominative) and <i>nāvem</i> (accusative) are one noun in two cases, so the figure is polyptoton.",
-   "card": "polyptoton"
+   "card": "polyptoton",
+   "level": 2
   },
   {
    "id": "sch-C05",
@@ -668,7 +717,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "The sentence ends with the word with which it began, “silence,” so the figure is epanalepsis.",
-   "card": "anaphora-epanalepsis"
+   "card": "anaphora-epanalepsis",
+   "level": 1
   },
   {
    "id": "sch-C06",
@@ -688,7 +738,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "“The dog” ends the first clause and begins the second, so the figure is anadiplosis.",
-   "card": "anadiplosis"
+   "card": "anadiplosis",
+   "level": 2
   },
   {
    "id": "sch-C07",
@@ -704,7 +755,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "“Pray” and “prey” are alike in sound but differ in meaning, so the figure is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 1
   },
   {
    "id": "sch-C08",
@@ -729,7 +781,8 @@ ARS.exercises['vii.ex.schemata'] = {
     6
    ],
    "explain": "Five of the seven words begin with <i>f</i>, so the figure is paromoeon (alliteration).",
-   "card": "paromoeon"
+   "card": "paromoeon",
+   "level": 2
   },
   {
    "id": "sch-C09",
@@ -745,7 +798,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 3,
    "explain": "The halves end in words with the same sound, “glory” and “story,” so the figure is homoeoteleuton, which in English is rhyme.",
-   "card": "endings"
+   "card": "endings",
+   "level": 1
   },
   {
    "id": "sch-C10",
@@ -765,7 +819,8 @@ ARS.exercises['vii.ex.schemata'] = {
     2
    ],
    "explain": "“Bare” and “bear” sound alike but differ in meaning, so the figure is paronomasia.",
-   "card": "paronomasia"
+   "card": "paronomasia",
+   "level": 2
   },
   {
    "id": "sch-C11",
@@ -781,7 +836,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 0,
    "explain": "The sense is carried through many members, and the main verb, “came,” is held back to the end. This is hirmos.",
-   "card": "hirmos"
+   "card": "hirmos",
+   "level": 1
   },
   {
    "id": "sch-C12",
@@ -804,7 +860,8 @@ ARS.exercises['vii.ex.schemata'] = {
     3
    ],
    "explain": "The plain construction needs only the last “and.” The first two are added beyond need, which is polysyndeton.",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 2
   },
   {
    "id": "sch-C13",
@@ -820,7 +877,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 2,
    "explain": "Prolepsis states a whole first and then divides it into its parts, each with its own construction, as “the one … the other.”",
-   "card": "prolepsis"
+   "card": "prolepsis",
+   "level": 1
   },
   {
    "id": "sch-C14",
@@ -837,7 +895,8 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 1,
    "explain": "“Gave” is written once and serves the second clause too, so the figure is zeugma.",
-   "card": "zeugma-syllepsis"
+   "card": "zeugma-syllepsis",
+   "level": 2
   },
   {
    "id": "sch-C15",
@@ -853,7 +912,135 @@ ARS.exercises['vii.ex.schemata'] = {
    ],
    "answer": 0,
    "explain": "The plain construction would put “and” before “honest”; the series has no conjunction at all, so the figure is asyndeton.",
-   "card": "conjunctions"
+   "card": "conjunctions",
+   "level": 1
+  },
+  {
+   "id": "sch-L2-01",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.schemata",
+   "type": "identify",
+   "ask": "Click every repetition of the word that begins the questions.",
+   "card": "anaphora-epanalepsis",
+   "explain": "Cicero opens each question with the same word, <i>quid</i>, three times. Repeating the same word at the head of successive members is anaphora.",
+   "tokens": [
+    "Quid",
+    "proxima,",
+    "quid",
+    "superiore",
+    "nocte",
+    "egeris,",
+    "ubi",
+    "fueris,",
+    "quos",
+    "convocaveris,",
+    "quid",
+    "consilii",
+    "ceperis,"
+   ],
+   "answer": [
+    0,
+    2,
+    10
+   ],
+   "prompt": "“Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis,” (Cicero, <i>In Catilinam</i> I, chapter 1.) Click every repetition of the word that begins the questions.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "sch-L2-02",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.schemata",
+   "type": "identify",
+   "ask": "Click the repeated word in both places.",
+   "card": "anaphora-epanalepsis",
+   "explain": "Each exclamation begins with <i>o</i>, so the repeated word stands at the head of both members: anaphora.",
+   "tokens": [
+    "O",
+    "tempora,",
+    "o",
+    "mores!"
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "prompt": "“O tempora, o mores!” (Cicero, <i>In Catilinam</i> I, chapter 1.) Click the repeated word in both places.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "sch-L2-03",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.schemata",
+   "type": "identify",
+   "ask": "Click the repeated word in both places.",
+   "card": "anadiplosis",
+   "explain": "The word that ends the first member, <i>vivit</i>, begins the next. That is anadiplosis.",
+   "tokens": [
+    "hic",
+    "tamen",
+    "vivit.",
+    "Vivit?"
+   ],
+   "answer": [
+    2,
+    3
+   ],
+   "prompt": "“hic tamen vivit. Vivit?” (Cicero, <i>In Catilinam</i> I, chapter 1.) Click the repeated word in both places.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "sch-L2-04",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.schemata",
+   "type": "identify",
+   "ask": "Click the repeated word in both places.",
+   "card": "epizeuxis",
+   "explain": "<i>Fuit</i> is repeated immediately, with no word between. That is epizeuxis.",
+   "tokens": [
+    "Fuit,",
+    "fuit",
+    "ista",
+    "quondam",
+    "in",
+    "hac",
+    "re",
+    "publica",
+    "virtus,"
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "prompt": "“Fuit, fuit ista quondam in hac re publica virtus,” (Cicero, <i>In Catilinam</i> I, chapter 1.) Click the repeated word in both places.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "sch-L2-05",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.schemata",
+   "type": "identify",
+   "ask": "Click the repeated word in both places.",
+   "card": "epizeuxis",
+   "explain": "<i>Nos</i> is repeated immediately, with no word between. That is epizeuxis.",
+   "tokens": [
+    "nos,",
+    "nos,",
+    "dico",
+    "aperte,",
+    "consules",
+    "desumus."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "prompt": "“nos, nos, dico aperte, consules desumus.” (Cicero, <i>In Catilinam</i> I, chapter 1.) Click the repeated word in both places.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
   }
  ]
 };

@@ -1,4 +1,7 @@
-/* Tropes [vii.ex.tropes]  Exercise set opened from the Exercise button of vii.tropes. Written 48 items in three fixed sets. */
+/* Tropes [vii.ex.tropes]  Exercise set opened from the Exercise button of vii.tropes. Written; 59 items in 2 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: made sentences. Level II: tropes in the King James Bible and the opening of the Aeneid.
+   Level I (48), Level II (11). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vii.ex.tropes'] = {
@@ -32,12 +35,24 @@ ARS.exercises['vii.ex.tropes'] = {
  "types": [
   "mc"
  ],
- "pool": 48,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 59,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B.",
  "sets": {
-  "A": 16,
-  "B": 16,
+  "A": 22,
+  "B": 21,
   "C": 16
+ },
+ "levels": {
+  "pass": 1,
+  "top": 2,
+  "names": {
+   "1": "Name the trope in a short sentence.",
+   "2": "Name the trope in Scripture and poetry."
+  },
+  "counts": {
+   "1": 48,
+   "2": 11
+  }
  },
  "limit": "Only the twelve tropes of VII.3: metaphor, catachresis, metalepsis, metonymy, antonomasia, epithet, synecdoche, onomatopoeia, periphrasis, hyperbole, allegory, and irony (as a species of allegory).",
  "instr": "Choose the answer.",
@@ -56,7 +71,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "“Backbone” is carried over from the body to the general, because he held the army together as the spine holds the body. The likeness is not stated, and English has a proper word for a leader, so this is metaphor, not catachresis.",
-   "trope": "metaphor"
+   "trope": "metaphor",
+   "level": 1
   },
   {
    "id": "trp-A02",
@@ -72,7 +88,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "The pointers of a clock have no proper name of their own, so the nearest word, “hands,” is used for them. Using the nearest available word where no proper term exists is catachresis.",
-   "trope": "catachresis"
+   "trope": "catachresis",
+   "level": 1
   },
   {
    "id": "trp-A03",
@@ -88,7 +105,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The return of the swallows signifies spring, and spring signifies a year, so “ten returns of the swallows” reaches its meaning, ten years, by way of an intermediate step. That is metalepsis.",
-   "trope": "metalepsis"
+   "trope": "metalepsis",
+   "level": 1
   },
   {
    "id": "trp-A04",
@@ -104,7 +122,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "“The stage” is used for the theater and its profession, with which it is associated, not for something it resembles. One name put for another associated with it is metonymy.",
-   "trope": "metonymy"
+   "trope": "metonymy",
+   "level": 1
   },
   {
    "id": "trp-A05",
@@ -120,7 +139,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "A description, “the Maid of Orléans,” is put in place of the proper name, Joan of Arc. Putting an epithet or description in place of a proper name is antonomasia; if the name were added, it would be an epithet.",
-   "trope": "antonomasia"
+   "trope": "antonomasia",
+   "level": 1
   },
   {
    "id": "trp-A06",
@@ -136,7 +156,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "“Stout-hearted” is joined to the name “Roland” to adorn it, and the name is kept, so this is an epithet. Without the name it would be antonomasia.",
-   "trope": "epithet"
+   "trope": "epithet",
+   "level": 1
   },
   {
    "id": "trp-A07",
@@ -152,7 +173,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "“Head” is a part put for the whole animal, so this is synecdoche, the part for the whole.",
-   "trope": "synecdoche"
+   "trope": "synecdoche",
+   "level": 1
   },
   {
    "id": "trp-A08",
@@ -168,7 +190,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "“Buzz” is formed from the sound of what it names, so the word shows onomatopoeia.",
-   "trope": "onomatopoeia"
+   "trope": "onomatopoeia",
+   "level": 1
   },
   {
    "id": "trp-A09",
@@ -184,7 +207,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "Several words, “the ship of the desert,” are used in place of the one word “camel.” Since “camel” is a common noun, not a proper name, this is periphrasis rather than antonomasia.",
-   "trope": "periphrasis"
+   "trope": "periphrasis",
+   "level": 1
   },
   {
    "id": "trp-A10",
@@ -200,7 +224,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "No queue at a bakery is miles long; the words go beyond the truth to say that the line was very long, without any intention to deceive. This is hyperbole.",
-   "trope": "hyperbole"
+   "trope": "hyperbole",
+   "level": 1
   },
   {
    "id": "trp-A11",
@@ -216,7 +241,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "Each word keeps its proper signification within the story, but the whole story signifies something else, a life and its faults. Such a continued metaphor is allegory.",
-   "trope": "allegory"
+   "trope": "allegory",
+   "level": 1
   },
   {
    "id": "trp-A12",
@@ -232,7 +258,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The words say the contrary of what she means, and the flood shows it, since the subject does not fit the words. This is irony, the species of allegory that means the contrary of the words.",
-   "trope": "irony"
+   "trope": "irony",
+   "level": 1
   },
   {
    "id": "trp-A13",
@@ -248,7 +275,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "“Storm” is carried over to the applause because of a likeness in its noise and force, so this is metaphor.",
-   "trope": "metaphor"
+   "trope": "metaphor",
+   "level": 1
   },
   {
    "id": "trp-A14",
@@ -264,7 +292,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "“Ear,” the organ, is put for the faculty of hearing and judging sound, which is associated with it. The relation is not that of part and whole, so this is metonymy.",
-   "trope": "metonymy"
+   "trope": "metonymy",
+   "level": 1
   },
   {
    "id": "trp-A15",
@@ -280,7 +309,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "“Mouths,” a part, is put for the whole persons who must be fed, so this is synecdoche.",
-   "trope": "synecdoche"
+   "trope": "synecdoche",
+   "level": 1
   },
   {
    "id": "trp-A16",
@@ -296,7 +326,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The man was not punctual; the words mean the contrary, and the circumstances show it. This is irony.",
-   "trope": "irony"
+   "trope": "irony",
+   "level": 1
   },
   {
    "id": "trp-B01",
@@ -312,7 +343,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "Her memory is likened to a locked chest because what is in it cannot be got out, and the likeness is carried in the word itself. A single image is a metaphor; allegory continues the metaphor through a whole passage.",
-   "trope": "metaphor"
+   "trope": "metaphor",
+   "level": 1
   },
   {
    "id": "trp-B02",
@@ -328,7 +360,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The bound edge of a book has no other ordinary name, so the nearest word, “spine,” is used for it. This is catachresis.",
-   "trope": "catachresis"
+   "trope": "catachresis",
+   "level": 1
   },
   {
    "id": "trp-B03",
@@ -344,7 +377,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "Metalepsis substitutes one word for another by way of an intermediate one, as Quintilian explains with <i>canō</i>, <i>cantō</i>, and <i>dīcō</i>. Metonymy and synecdoche reach their meaning in one step.",
-   "trope": "metalepsis"
+   "trope": "metalepsis",
+   "level": 1
   },
   {
    "id": "trp-B04",
@@ -360,7 +394,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "“The hall” is the container put for the people in it, one of Quintilian’s kinds of metonymy.",
-   "trope": "metonymy"
+   "trope": "metonymy",
+   "level": 1
   },
   {
    "id": "trp-B05",
@@ -376,7 +411,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "A proper name is used for a type, a man of great strength. Antonomasia works both ways: a description for a name, or a name for a type.",
-   "trope": "antonomasia"
+   "trope": "antonomasia",
+   "level": 1
   },
   {
    "id": "trp-B06",
@@ -392,7 +428,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "“Ever-flowing” is joined to the name “Nile” to adorn it, and the name is kept, so this is an epithet.",
-   "trope": "epithet"
+   "trope": "epithet",
+   "level": 1
   },
   {
    "id": "trp-B07",
@@ -408,7 +445,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "“Faces,” a part, is put for the whole persons, so this is synecdoche.",
-   "trope": "synecdoche"
+   "trope": "synecdoche",
+   "level": 1
   },
   {
    "id": "trp-B08",
@@ -424,7 +462,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "“Creak” is formed from the sound it names, so the word shows onomatopoeia.",
-   "trope": "onomatopoeia"
+   "trope": "onomatopoeia",
+   "level": 1
   },
   {
    "id": "trp-B09",
@@ -440,7 +479,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "Several words are used in place of the common noun “lion,” so this is periphrasis. Antonomasia puts a description in place of a proper name.",
-   "trope": "periphrasis"
+   "trope": "periphrasis",
+   "level": 1
   },
   {
    "id": "trp-B10",
@@ -456,7 +496,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "No man is older than the hills; the words enlarge his age without any intention to deceive. This is hyperbole.",
-   "trope": "hyperbole"
+   "trope": "hyperbole",
+   "level": 1
   },
   {
    "id": "trp-B11",
@@ -472,7 +513,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The whole story signifies something other than the climb, and each part (the falls, the summit) has its counterpart in the life. A continued metaphor of this kind is allegory.",
-   "trope": "allegory"
+   "trope": "allegory",
+   "level": 1
   },
   {
    "id": "trp-B12",
@@ -488,7 +530,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "He means the contrary of “lovely,” and the soaked coat shows it. This is irony.",
-   "trope": "irony"
+   "trope": "irony",
+   "level": 1
   },
   {
    "id": "trp-B13",
@@ -504,7 +547,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "The flap under the laces has no other ordinary name, so the nearest word, “tongue,” is used for it. Where no proper term exists, the trope is catachresis, not metaphor.",
-   "trope": "catachresis"
+   "trope": "catachresis",
+   "level": 1
   },
   {
    "id": "trp-B14",
@@ -520,7 +564,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "Metonymy puts one name for another associated with it in one step; metalepsis passes through an intermediate step to reach its meaning.",
-   "trope": "metalepsis"
+   "trope": "metalepsis",
+   "level": 1
   },
   {
    "id": "trp-B15",
@@ -536,7 +581,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "A description, “the Swan of Avon,” is put in place of a proper name, Shakespeare, so this is antonomasia.",
-   "trope": "antonomasia"
+   "trope": "antonomasia",
+   "level": 1
   },
   {
    "id": "trp-B16",
@@ -552,7 +598,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "No one cries a river; the words enlarge her weeping without any intention to deceive. This is hyperbole.",
-   "trope": "hyperbole"
+   "trope": "hyperbole",
+   "level": 1
   },
   {
    "id": "trp-C01",
@@ -568,7 +615,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "“Took root” is carried over from a plant to an idea, by a likeness in how each settles and grows. English has proper words for this, so it is metaphor, not catachresis.",
-   "trope": "metaphor"
+   "trope": "metaphor",
+   "level": 1
   },
   {
    "id": "trp-C02",
@@ -584,7 +632,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "When this kind of program was first made it had no name of its own, so the nearest word, “virus,” was used for it, as “mouse” was for the device. This is catachresis.",
-   "trope": "catachresis"
+   "trope": "catachresis",
+   "level": 1
   },
   {
    "id": "trp-C03",
@@ -600,7 +649,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "The pruning of the vines signifies a season of the year, and the season signifies the year, so “five prunings” reaches its meaning, five years, by way of an intermediate step. That is metalepsis.",
-   "trope": "metalepsis"
+   "trope": "metalepsis",
+   "level": 1
   },
   {
    "id": "trp-C04",
@@ -616,7 +666,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "The author is put for her works, one of Quintilian’s kinds of metonymy.",
-   "trope": "metonymy"
+   "trope": "metonymy",
+   "level": 1
   },
   {
    "id": "trp-C05",
@@ -632,7 +683,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "A description is put in place of the proper name, so this is antonomasia.",
-   "trope": "antonomasia"
+   "trope": "antonomasia",
+   "level": 1
   },
   {
    "id": "trp-C06",
@@ -648,7 +700,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "“Brave” adorns the name “Hector,” which is kept, so this is an epithet.",
-   "trope": "epithet"
+   "trope": "epithet",
+   "level": 1
   },
   {
    "id": "trp-C07",
@@ -664,7 +717,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "The wheels, a part, are put for the whole car, so this is synecdoche.",
-   "trope": "synecdoche"
+   "trope": "synecdoche",
+   "level": 1
   },
   {
    "id": "trp-C08",
@@ -680,7 +734,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "“Gurgle” is formed from the sound it names, so the word shows onomatopoeia.",
-   "trope": "onomatopoeia"
+   "trope": "onomatopoeia",
+   "level": 1
   },
   {
    "id": "trp-C09",
@@ -696,7 +751,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "Several words are used in place of the one word “fish,” so this is periphrasis.",
-   "trope": "periphrasis"
+   "trope": "periphrasis",
+   "level": 1
   },
   {
    "id": "trp-C10",
@@ -712,7 +768,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "The noise did not wake the dead; the words enlarge it to say it was very loud. This is hyperbole.",
-   "trope": "hyperbole"
+   "trope": "hyperbole",
+   "level": 1
   },
   {
    "id": "trp-C11",
@@ -728,7 +785,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "The image is continued through several parts (the foundation, the roof), each standing for something in the nation. A continued metaphor of this kind is allegory.",
-   "trope": "allegory"
+   "trope": "allegory",
+   "level": 1
   },
   {
    "id": "trp-C12",
@@ -744,7 +802,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "The cook means the contrary, and the fallen cake shows it, so this is irony.",
-   "trope": "irony"
+   "trope": "irony",
+   "level": 1
   },
   {
    "id": "trp-C13",
@@ -760,7 +819,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 2,
    "explain": "“Green” is added to adorn “grass,” though all grass in spring is green, as Quintilian says poets speak of “white teeth.” Such an adorning adjective is an epithet.",
-   "trope": "epithet"
+   "trope": "epithet",
+   "level": 1
   },
   {
    "id": "trp-C14",
@@ -776,7 +836,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 3,
    "explain": "“Hoot” is formed from the sound of the owl’s cry, so the word shows onomatopoeia.",
-   "trope": "onomatopoeia"
+   "trope": "onomatopoeia",
+   "level": 1
   },
   {
    "id": "trp-C15",
@@ -792,7 +853,8 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 0,
    "explain": "Several words are used in place of the one word “wine,” so this is periphrasis.",
-   "trope": "periphrasis"
+   "trope": "periphrasis",
+   "level": 1
   },
   {
    "id": "trp-C16",
@@ -808,7 +870,206 @@ ARS.exercises['vii.ex.tropes'] = {
    ],
    "answer": 1,
    "explain": "The whole story, not a single word, signifies the teacher’s life, so this is allegory, a continued metaphor.",
-   "trope": "allegory"
+   "trope": "allegory",
+   "level": 1
+  },
+  {
+   "id": "trp-L2-01",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“In the sweat of thy face shalt thou eat bread” (Genesis 3:19, King James Version.) Which trope is this?",
+   "options": [
+    "Metaphor",
+    "Synecdoche",
+    "Hyperbole",
+    "Irony"
+   ],
+   "answer": 1,
+   "explain": "“Bread” is one kind of food standing for all food, a part for the whole or a species for its genus. That is synecdoche. Adam will eat more than bread.",
+   "trope": "synecdoche",
+   "source": "Genesis 3:19, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-02",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“Give us this day our daily bread.” (Matthew 6:11, King James Version.) Which trope is this?",
+   "options": [
+    "Synecdoche",
+    "Metonymy",
+    "Periphrasis",
+    "Metaphor"
+   ],
+   "answer": 0,
+   "explain": "“Bread” stands for all that is needed to live, one kind for the whole genus. That is synecdoche.",
+   "trope": "synecdoche",
+   "source": "Matthew 6:11, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-03",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“All flesh is grass” (Isaiah 40:6, King James Version.) Which trope is this?",
+   "options": [
+    "Metonymy",
+    "Catachresis",
+    "Synecdoche",
+    "Epithet"
+   ],
+   "answer": 2,
+   "explain": "The question is about “flesh”: the matter of which men are made stands for all mankind, a part for the whole. That is synecdoche. (“Grass” is a metaphor in the same verse.)",
+   "trope": "synecdoche",
+   "source": "Isaiah 40:6, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-04",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“The LORD is my shepherd” (Psalm 23:1, King James Version.) Which trope is this?",
+   "options": [
+    "Metaphor",
+    "Allegory",
+    "Metonymy",
+    "Antonomasia"
+   ],
+   "answer": 0,
+   "explain": "“Shepherd” is carried over to the LORD because He guides and feeds as a shepherd does. The likeness is not stated and the figure is one word, not a sustained story, so it is metaphor.",
+   "trope": "metaphor",
+   "source": "Psalm 23:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-05",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“Ye are the light of the world.” (Matthew 5:14, King James Version.) Which trope is this?",
+   "options": [
+    "Hyperbole",
+    "Metaphor",
+    "Synecdoche",
+    "Irony"
+   ],
+   "answer": 1,
+   "explain": "“Light” is carried over to the disciples because they show the way as light does. The likeness is not stated, so it is metaphor.",
+   "trope": "metaphor",
+   "source": "Matthew 5:14, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-06",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“Go ye, and tell that fox” (Luke 13:32, King James Version.) Which trope is this?",
+   "options": [
+    "Antonomasia",
+    "Metonymy",
+    "Metaphor",
+    "Epithet"
+   ],
+   "answer": 2,
+   "explain": "Herod is called a “fox” for his cunning. The likeness is not stated, so the word is a metaphor.",
+   "trope": "metaphor",
+   "source": "Luke 13:32, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-07",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“Let the floods clap their hands” (Psalm 98:8, King James Version.) Which trope is this?",
+   "options": [
+    "Metaphor",
+    "Onomatopoeia",
+    "Hyperbole",
+    "Catachresis"
+   ],
+   "answer": 0,
+   "explain": "Clapping and hands are carried over to the floods, which have neither, because their sound and motion resemble joyful applause. English has proper words for the sound of waters, so it is metaphor, not catachresis.",
+   "trope": "metaphor",
+   "source": "Psalm 98:8, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-08",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“all the night make I my bed to swim; I water my couch with my tears.” (Psalm 6:6, King James Version.) Which trope is this?",
+   "options": [
+    "Metaphor",
+    "Hyperbole",
+    "Irony",
+    "Periphrasis"
+   ],
+   "answer": 1,
+   "explain": "No man weeps enough to float his bed. The overstatement shows how great his grief is, which is hyperbole.",
+   "trope": "hyperbole",
+   "source": "Psalm 6:6, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-09",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“they were swifter than eagles, they were stronger than lions.” (2 Samuel 1:23, King James Version.) Which trope is this?",
+   "options": [
+    "Hyperbole",
+    "Metaphor",
+    "Synecdoche",
+    "Irony"
+   ],
+   "answer": 0,
+   "explain": "Saul and Jonathan were not literally faster than eagles or stronger than lions. The comparison exceeds the truth to praise them, which is hyperbole.",
+   "trope": "hyperbole",
+   "source": "2 Samuel 1:23, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-10",
+   "set": "B",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“strain at a gnat, and swallow a camel.” (Matthew 23:24, King James Version.) Which trope is this?",
+   "options": [
+    "Irony",
+    "Hyperbole",
+    "Metonymy",
+    "Antonomasia"
+   ],
+   "answer": 1,
+   "explain": "No one swallows a camel. The impossible contrast between the tiny gnat and the huge camel exaggerates their care for small things and neglect of great ones, which is hyperbole.",
+   "trope": "hyperbole",
+   "source": "Matthew 23:24, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "trp-L2-11",
+   "set": "A",
+   "level": 2,
+   "deck": "vii.tropes",
+   "type": "mc",
+   "prompt": "“Arma virumque cano” (Vergil, <i>Aeneid</i>, Book I, line 1.) Which trope is this?",
+   "options": [
+    "Synecdoche",
+    "Metonymy",
+    "Metaphor",
+    "Periphrasis"
+   ],
+   "answer": 1,
+   "explain": "<i>Arma</i>, “arms,” stands for war, the instrument for the thing done with it. The two are related by association, not likeness, so it is metonymy.",
+   "trope": "metonymy",
+   "source": "Vergil, Aeneid, Book I, line 1; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
   }
  ]
 };

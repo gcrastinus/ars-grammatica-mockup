@@ -1,4 +1,7 @@
-/* Analysis of Sentences [ix.ex.sentences]  Exercise set opened from the Exercise button of ix.sentences. Written 60 items in three fixed sets. */
+/* Analysis of Sentences [ix.ex.sentences]  Exercise set opened from the Exercise button of ix.sentences. Written; 60 items in 3 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Tagged by length only: Level I two or three words, Level II four or five, Level III six or seven.
+   Level I (12), Level II (27), Level III (21). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level II, mastery at Level III (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['ix.ex.sentences'] = {
@@ -23,11 +26,25 @@ ARS.exercises['ix.ex.sentences'] = {
   "analysis"
  ],
  "pool": 60,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C. Level III: sets A, B, C.",
  "sets": {
   "A": 20,
   "B": 20,
   "C": 20
+ },
+ "levels": {
+  "pass": 2,
+  "top": 3,
+  "names": {
+   "1": "Build a sentence of two or three words.",
+   "2": "Build a sentence of four or five words.",
+   "3": "Build a sentence of six or seven words."
+  },
+  "counts": {
+   "1": 12,
+   "2": 27,
+   "3": 21
+  }
  },
  "limit": "Everything taught in Sections I–VIII; composed sentences of one clause, so that every dependence falls under the conventions of IX.3.",
  "instr": "Type the part of speech of each word, then its accidents, separated by commas. For an English noun give its number (noun, singular); for a verb its person, number, tense, mood, and voice (verb, third, singular, past, indicative, active); for a Latin noun or adjective its case, number, and gender (noun, accusative, singular, feminine); for an article, an English adjective, an adverb, or a preposition, the part of speech alone. Then draw an arrow from each word that depends to the word on which it depends, as in IX.3: the article and the adjective depend on their noun, the adverb on its verb, the verb on its subject and its object, the preposition on the word to which it relates its phrase, and the noun of the phrase on the preposition.",
@@ -123,7 +140,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “rang,” third person plural, past, indicative, active; it depends on its subject “Bells.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-A02",
@@ -225,7 +243,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “slept,” third person singular, past, indicative, active; it depends on its subject “miller.” The word “The” depends on “miller.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-A03",
@@ -343,7 +362,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “slept,” third person singular, past, indicative, active; it depends on its subject “porter.” The words “The” and “weary” depend on “porter.” The word “soundly” depends on “slept.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A04",
@@ -463,7 +483,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “caught,” third person singular, past, indicative, active; it depends on its subject “heron” and on its object “fish.” The word “A” depends on “heron.” The word “a” depends on “fish.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A05",
@@ -591,7 +612,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “gathered,” third person plural, past, indicative, active; it depends on its subject “farmers” and on its object “wheat.” The word “The” depends on “farmers.” The words “the” and “ripe” depend on “wheat.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A06",
@@ -719,7 +741,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “played,” third person plural, past, indicative, active; it depends on its subject “children.” The word “The” depends on “children.” The word “in” depends on “played.” The word “the” depends on “meadow.” The noun “meadow” depends on the preposition “in.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A07",
@@ -840,7 +863,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “painted,” third person singular, past, indicative, active; it depends on its subject “Anna” and on its object “boat.” The words “a” and “small” depend on “boat.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A08",
@@ -968,7 +992,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “shook,” third person singular, past, indicative, active; it depends on its subject “wind” and on its object “shutters.” The word “The” depends on “wind.” The words “the” and “old” depend on “shutters.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A09",
@@ -1078,7 +1103,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “works,” third person singular, present, indicative, active; it depends on its subject “baker.” The word “The” depends on “baker.” The word “early” depends on “works.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A10",
@@ -1206,7 +1232,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “fly,” third person plural, present, indicative, active; it depends on its subject “geese.” The word “The” depends on “geese.” The word “over” depends on “fly.” The word “the” depends on “hills.” The noun “hills” depends on the preposition “over.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A11",
@@ -1342,7 +1369,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “knocked,” third person singular, past, indicative, active; it depends on its subject “stranger.” The word “A” depends on “stranger.” The words “loudly” and “at” depend on “knocked.” The word “the” depends on “gate.” The noun “gate” depends on the preposition “at.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A12",
@@ -1470,7 +1498,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “watched,” third person singular, past, indicative, active; it depends on its subject “fox” and on its object “hens.” The words “The” and “clever” depend on “fox.” The word “the” depends on “hens.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A13",
@@ -1580,7 +1609,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “need,” third person plural, present, indicative, active; it depends on its subject “trees” and on its object “water.” The word “Young” depends on “trees.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A14",
@@ -1717,7 +1747,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “gave,” third person singular, past, indicative, active; it depends on its subject “captain” and on its object “orders.” The words “The” and “of” depend on “captain.” The word “the” depends on “ship.” The noun “ship” depends on the preposition “of.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-A15",
@@ -1837,7 +1868,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “reads,” third person singular, present, indicative, active; it depends on its subject “Thomas” and on its object “books.” The word “old” depends on “books.” The word “carefully” depends on “reads.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-A16",
@@ -1936,7 +1968,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>mūgit</i>, third person singular, present, indicative, active; it depends on its subject <i>Taurus</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-A17",
@@ -2050,7 +2083,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>videt</i>, third person singular, present, indicative, active; it depends on its subject <i>Puer</i> and on its object <i>equum</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-A18",
@@ -2187,7 +2221,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>terret</i>, third person singular, present, indicative, active; it depends on its subject <i>lupus</i> and on its object <i>ovēs</i>. The word <i>Magnus</i> depends on <i>lupus</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-A19",
@@ -2309,7 +2344,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>manent</i>, third person plural, present, indicative, active; it depends on its subject <i>Mīlitēs</i>. The word <i>in</i> depends on <i>manent</i>. The noun <i>castrīs</i> depends on the preposition <i>in</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-A20",
@@ -2446,7 +2482,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>scrībit</i>, third person singular, present, indicative, active; it depends on its subject <i>Rēgīna</i> and on its object <i>epistulam</i>. The word <i>longam</i> depends on <i>epistulam</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-B01",
@@ -2539,7 +2576,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “neigh,” third person plural, present, indicative, active; it depends on its subject “Horses.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-B02",
@@ -2641,7 +2679,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “froze,” third person singular, past, indicative, active; it depends on its subject “pond.” The word “The” depends on “pond.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-B03",
@@ -2759,7 +2798,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “laughed,” third person singular, past, indicative, active; it depends on its subject “boy.” The words “The” and “small” depend on “boy.” The word “happily” depends on “laughed.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B04",
@@ -2879,7 +2919,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “built,” third person singular, past, indicative, active; it depends on its subject “carpenter” and on its object “table.” The word “A” depends on “carpenter.” The word “the” depends on “table.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B05",
@@ -3007,7 +3048,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “hauled,” third person plural, past, indicative, active; it depends on its subject “sailors” and on its object “nets.” The word “The” depends on “sailors.” The words “the” and “heavy” depend on “nets.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B06",
@@ -3135,7 +3177,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “rested,” third person plural, past, indicative, active; it depends on its subject “cattle.” The word “The” depends on “cattle.” The word “under” depends on “rested.” The word “the” depends on “oaks.” The noun “oaks” depends on the preposition “under.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B07",
@@ -3256,7 +3299,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “baked,” third person singular, past, indicative, active; it depends on its subject “Maria” and on its object “cake.” The words “a” and “large” depend on “cake.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B08",
@@ -3384,7 +3428,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “broke,” third person singular, past, indicative, active; it depends on its subject “storm” and on its object “mast.” The word “The” depends on “storm.” The words “the” and “tall” depend on “mast.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B09",
@@ -3494,7 +3539,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “sings,” third person singular, present, indicative, active; it depends on its subject “shepherd.” The word “The” depends on “shepherd.” The word “softly” depends on “sings.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B10",
@@ -3622,7 +3668,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “swim,” third person plural, present, indicative, active; it depends on its subject “swans.” The word “The” depends on “swans.” The word “on” depends on “swim.” The word “the” depends on “lake.” The noun “lake” depends on the preposition “on.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B11",
@@ -3758,7 +3805,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “arrived,” third person singular, past, indicative, active; it depends on its subject “traveler.” The word “A” depends on “traveler.” The words “late” and “at” depend on “arrived.” The word “the” depends on “inn.” The noun “inn” depends on the preposition “at.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B12",
@@ -3886,7 +3934,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “answered,” third person singular, past, indicative, active; it depends on its subject “teacher” and on its object “questions.” The words “The” and “patient” depend on “teacher.” The word “the” depends on “questions.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B13",
@@ -4005,7 +4054,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “guard,” third person plural, present, indicative, active; it depends on its subject “soldiers” and on its object “border.” The word “Brave” depends on “soldiers.” The word “the” depends on “border.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B14",
@@ -4141,7 +4191,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “creaked,” third person singular, past, indicative, active; it depends on its subject “door.” The words “The” and “of” depend on “door.” The word “the” depends on “barn.” The noun “barn” depends on the preposition “of.” The word “loudly” depends on “creaked.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-B15",
@@ -4261,7 +4312,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “writes,” third person singular, present, indicative, active; it depends on its subject “Peter” and on its object “letters.” The word “long” depends on “letters.” The word “weekly” depends on “writes.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-B16",
@@ -4360,7 +4412,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>fluit</i>, third person singular, present, indicative, active; it depends on its subject <i>Fluvius</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-B17",
@@ -4474,7 +4527,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>parant</i>, third person plural, present, indicative, active; it depends on its subject <i>Nautae</i> and on its object <i>nāvem</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-B18",
@@ -4611,7 +4665,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>amat</i>, third person singular, present, indicative, active; it depends on its subject <i>Fīlia</i> and on its object <i>rosās</i>. The word <i>parva</i> depends on <i>Fīlia</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-B19",
@@ -4733,7 +4788,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>ambulat</i>, third person singular, present, indicative, active; it depends on its subject <i>Senex</i>. The word <i>ad</i> depends on <i>ambulat</i>. The noun <i>forum</i> depends on the preposition <i>ad</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-B20",
@@ -4855,7 +4911,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>laudat</i>, third person singular, present, indicative, active; it depends on its subject <i>Dominus</i> and on its object <i>servōs</i>. The word <i>saepe</i> depends on <i>laudat</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-C01",
@@ -4948,7 +5005,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “hoot,” third person plural, present, indicative, active; it depends on its subject “Owls.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-C02",
@@ -5050,7 +5108,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “flickered,” third person singular, past, indicative, active; it depends on its subject “torch.” The word “The” depends on “torch.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 1
   },
   {
    "id": "ans-C03",
@@ -5168,7 +5227,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “limped,” third person singular, past, indicative, active; it depends on its subject “horse.” The words “The” and “lame” depend on “horse.” The word “slowly” depends on “limped.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C04",
@@ -5288,7 +5348,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “sold,” third person singular, past, indicative, active; it depends on its subject “merchant” and on its object “silver.” The word “A” depends on “merchant.” The word “the” depends on “silver.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C05",
@@ -5416,7 +5477,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “repaired,” third person plural, past, indicative, active; it depends on its subject “workmen” and on its object “wall.” The word “The” depends on “workmen.” The words “the” and “old” depend on “wall.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C06",
@@ -5544,7 +5606,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “walked,” third person plural, past, indicative, active; it depends on its subject “pilgrims.” The word “The” depends on “pilgrims.” The word “to” depends on “walked.” The word “the” depends on “shrine.” The noun “shrine” depends on the preposition “to.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C07",
@@ -5665,7 +5728,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “found,” third person singular, past, indicative, active; it depends on its subject “Elena” and on its object “stone.” The words “a” and “blue” depend on “stone.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C08",
@@ -5793,7 +5857,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “killed,” third person singular, past, indicative, active; it depends on its subject “frost” and on its object “vines.” The word “The” depends on “frost.” The words “the” and “young” depend on “vines.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C09",
@@ -5903,7 +5968,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “waits,” third person singular, present, indicative, active; it depends on its subject “guard.” The word “The” depends on “guard.” The word “patiently” depends on “waits.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C10",
@@ -6031,7 +6097,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “circle,” third person plural, present, indicative, active; it depends on its subject “crows.” The word “The” depends on “crows.” The word “above” depends on “circle.” The word “the” depends on “field.” The noun “field” depends on the preposition “above.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C11",
@@ -6167,7 +6234,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “came,” third person singular, past, indicative, active; it depends on its subject “messenger.” The word “A” depends on “messenger.” The words “quickly” and “from” depend on “came.” The word “the” depends on “city.” The noun “city” depends on the preposition “from.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C12",
@@ -6303,7 +6371,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “comforted,” third person singular, past, indicative, active; it depends on its subject “nurse” and on its object “child.” The words “The” and “gentle” depend on “nurse.” The words “the” and “sick” depend on “child.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C13",
@@ -6413,7 +6482,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “weigh,” third person plural, present, indicative, active; it depends on its subject “judges” and on its object “evidence.” The word “Wise” depends on “judges.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C14",
@@ -6549,7 +6619,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “rang,” third person singular, past, indicative, active; it depends on its subject “bell.” The words “The” and “of” depend on “bell.” The word “the” depends on “church.” The noun “church” depends on the preposition “of.” The word “twice” depends on “rang.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 3
   },
   {
    "id": "ans-C15",
@@ -6670,7 +6741,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is “plays,” third person singular, present, indicative, active; it depends on its subject “Daniel” and on its object “violin.” The word “the” depends on “violin.” The word “beautifully” depends on “plays.”",
-   "lang": "en"
+   "lang": "en",
+   "level": 2
   },
   {
    "id": "ans-C16",
@@ -6769,7 +6841,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>flābat</i>, third person singular, imperfect, indicative, active; it depends on its subject <i>Ventus</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-C17",
@@ -6883,7 +6956,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>recitat</i>, third person singular, present, indicative, active; it depends on its subject <i>Poēta</i> and on its object <i>carmen</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 1
   },
   {
    "id": "ans-C18",
@@ -7020,7 +7094,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>cūrat</i>, third person singular, present, indicative, active; it depends on its subject <i>medicus</i> and on its object <i>puerōs</i>. The word <i>Bonus</i> depends on <i>medicus</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-C19",
@@ -7142,7 +7217,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>labōrābant</i>, third person plural, imperfect, indicative, active; it depends on its subject <i>Agricolae</i>. The word <i>in</i> depends on <i>labōrābant</i>. The noun <i>agrīs</i> depends on the preposition <i>in</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   },
   {
    "id": "ans-C20",
@@ -7264,7 +7340,8 @@ ARS.exercises['ix.ex.sentences'] = {
     ]
    },
    "explain": "The main verb is <i>dūcēbat</i>, third person singular, imperfect, indicative, active; it depends on its subject <i>Imperātor</i> and on its object <i>mīlitēs</i>. The word <i>fortiter</i> depends on <i>dūcēbat</i>.",
-   "lang": "la"
+   "lang": "la",
+   "level": 2
   }
  ]
 };
