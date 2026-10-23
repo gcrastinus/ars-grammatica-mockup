@@ -55,46 +55,48 @@ const ROOT = path.resolve(__dirname, '..');
   const boxesFree = await ev(`Object.keys(courseStore().boxes || {}).length`);
   check('free: item boxes still recorded as before', boxesFree > 0, boxesFree);
 
-  /* 2. Guided: gating */
+  /* 2. Guided: gating. Section I has no exercise set, so finishing its study cards opens Section II. */
   await ev(`document.getElementById('path-guided').click()`);
-  check('guided: Section I set is open', await st('i.review') === 'learning');
   check('guided: Section II sets are locked', await st('ii.ex.syllable') === 'locked' && await st('ii.ex.quantity') === 'locked');
-  check('guided: lock note on Section II', await ev(`[...document.querySelectorAll('.lock-note')].some(n => /Section II|Syllable|exercises of Section I/.test(n.textContent) && /Section Review: Sign and Significant Voice is passed/.test(n.textContent))`));
+  check('guided: lock note names the study cards', await ev(`[...document.querySelectorAll('.lock-note')].some(n => /study cards of Section I are finished/.test(n.textContent))`));
   await ev(`openEx('ii.ex.syllable')`); await b.sleep(400);
   check('guided: locked exercise opens its own screen, not the set', await ev(`document.getElementById('scr-gx').classList.contains('active')`));
-  check('guided: locked screen names what opens it', await ev(`/opens when .* is passed/.test(document.getElementById('gx-body').textContent)`));
+  check('guided: locked screen names what opens it', await ev(`/opens when .* finished/.test(document.getElementById('gx-body').textContent)`));
   await ev(`document.getElementById('gx-back').click()`);
+  check('guided: section reviews never gate', await ev(`Object.values(GP.prereqs).every(a => a.every(id => !GP.info[id] || GP.info[id].kind === 'set'))`));
 
   /* 3. tracking is opt-in */
-  await sitting('i.review');
+  await ev(`ARS.structure[1].items.forEach(it => { if (/^i\\./.test(it.id) && it.kind !== 'review') courseStore().decks[it.id] = { opens:1, done:true, doneAt:Date.now() }; }); save();`);
+  check('finishing the cards of Section I opens Section II', await st('ii.ex.syllable') === 'learning');
+  await sitting('ii.ex.syllable');
   check('guided without tracking: nothing recorded', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
   await ev(`GP.openProgress(); document.getElementById('gp-track').click()`);
   check('tracking turned on', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).settings.trackingEnabled === true`));
 
   /* 4. pass needs 9 of 10 over two days */
   await day(0);
-  await sitting('i.review');                       /* set B or A, 20 right, day 0 */
-  check('one day of perfect answers is not a pass', await st('i.review') === 'learning');
+  await sitting('ii.ex.syllable');
+  check('one day of perfect answers is not a pass', await st('ii.ex.syllable') === 'learning');
   await day(1);
-  await sitting('i.review');
-  check('second day of right answers passes', await st('i.review') === 'passed');
-  check('pass opens Section II', await st('ii.ex.syllable') === 'learning' && await st('ii.ex.quantity') === 'learning');
-  check('Section III still locked', await st('iii.ex.parts') === 'locked');
+  await sitting('ii.ex.syllable');
+  check('second day of right answers passes', await st('ii.ex.syllable') === 'passed');
+  check('Section III still locked (quantity not passed)', await st('iii.ex.parts') === 'locked');
+  await sitting('ii.ex.quantity'); await day(2); await sitting('ii.ex.quantity');
+  check('Section II passed opens Section III', await st('ii.ex.quantity') === 'passed' && await st('iii.ex.parts') === 'learning');
+  check('optional set iii.ex.figure is not required for Section IV', await ev(`!GP.tiers[2].required.includes('iii.ex.figure') && GP.config.OPTIONAL.includes('iii.ex.figure')`));
+  check('Section IV needs the study cards, not sets', await st('v.ex.congruity') === 'locked');
 
   /* 5. mastery: a later day, a sitting of ten from the whole pool */
-  await sitting('i.review', { mode: 'mastery' });   /* same day as the pass */
-  check('mastery sitting on the pass day does not count', await st('i.review') === 'passed');
-  await day(2);
-  const n = await sitting('i.review', { mode: 'mastery' });
-  check('mastery sitting has ten questions', n === 10, n);
-  check('later-day mastery sitting masters the set', await st('i.review') === 'mastered');
+  await sitting('ii.ex.syllable', { mode: 'mastery' });   /* day 2: after the day-1 pass */
+  check('mastery sitting has ten questions and masters on a later day', await st('ii.ex.syllable') === 'mastered');
+  await sitting('ii.ex.quantity', { mode: 'mastery' });
   await day(2);
 
   /* 6. a missed pass: 8 of 10 is not enough */
-  await sitting('ii.ex.syllable', { every: 5 });
+  await sitting('iii.ex.parts', { every: 5 });
   await day(3);
-  await sitting('ii.ex.syllable', { every: 5 });
-  check('two wrong in the last ten (8 of 10) blocks the pass', await st('ii.ex.syllable') !== 'passed', JSON.stringify(await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['ii.ex.syllable'].history.map(h => h.date.slice(8) + (h.correct ? '+' : '-')).join(' ')`)));
+  await sitting('iii.ex.parts', { every: 5 });
+  check('two wrong in the last ten (8 of 10) blocks the pass', await st('iii.ex.parts') !== 'passed', JSON.stringify(await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['iii.ex.parts'].history.map(h => h.date.slice(8) + (h.correct ? '+' : '-')).join(' ')`)));
 
   /* 7. section reviews wait, and never gate */
   check('section review waits for the exercises', (await ev(`GP.recallState('ii.review').key`)) === 'wait');
@@ -130,7 +132,7 @@ const ROOT = path.resolve(__dirname, '..');
   await ev(`GP.eraseAll(); localStorage.removeItem('ars-grammatica-guided')`);
   await ev(`(() => { const f = new File([${JSON.stringify(exported)}], 'p.json', {type:'application/json'}); const dt = new DataTransfer(); dt.items.add(f); const i = document.getElementById('prog-import-file'); i.files = dt.files; i.dispatchEvent(new Event('change')); })()`);
   await b.sleep(500);
-  check('import restores the guided record', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['i.review'].masteredOn != null`));
+  check('import restores the guided record', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['ii.ex.syllable'].masteredOn != null`));
   check('import restores the course record', await ev(`Object.keys(courseStore().boxes || {}).length > 0`));
   await ev(`(() => { const f = new File(['{"nope":1}'], 'bad.json'); const dt = new DataTransfer(); dt.items.add(f); const i = document.getElementById('prog-import-file'); i.files = dt.files; i.dispatchEvent(new Event('change')); })()`);
   await b.sleep(300);

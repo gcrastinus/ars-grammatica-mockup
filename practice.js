@@ -351,7 +351,8 @@
           const st = store.decks && store.decks[it.id];
           if (st && st.done) decks.push({ id: it.id, section: sec.id, sectionOrder: order, doneAt: st.doneAt || 0 });
         }
-        if ((it.kind === 'exercise' || it.kind === 'review') && (it.built || (typeof hasPlan === 'function' && hasPlan(it.id)))){
+        if ((it.kind === 'exercise' || it.kind === 'review') && (it.built || (typeof hasPlan === 'function' && hasPlan(it.id))) && !(ARS.deckEx && ARS.deckEx[it.id])){
+          /* an exercise tile that is itself a deck (ix.sentences, x.imitation) has no file of its own; its set is added below as deckEx */
           exIds.push(it.id);
         }
         const dx = ARS.deckEx && ARS.deckEx[it.id];

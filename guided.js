@@ -6,7 +6,7 @@
      order    = Sections I to XI open in the order of data/structure.js. Section I is open from the start.
                 A section's exercises open when the required exercise sets of the section before are passed.
                 A section with no required exercise set (I, IV, XI, and X while its Imitation set is optional)
-                is gated by its section review, which then stands in for the exercise (STAND_IN below).
+                opens the next section when all of its study cards are finished.
      pass     = 9 of the last 10 answers correct, on at least 2 different days.
      mastered = a second pass on a later day: one sitting of 10 questions drawn from the whole pool,
                 9 of 10 correct, on a day after the day of the first pass (★).
@@ -38,9 +38,7 @@ const GPC = {
   RECALL_DELAY: 1,                          /* a section review is ready this many days after the section's exercises are passed */
   TODAY_CAP   : 20,                         /* questions in one Today's Review */
   /* Exercise sets that are supplementary: open with their section, never required to open the next one. */
-  OPTIONAL    : ['x.ex.imitation'],
-  /* A section with no required exercise set uses its section review(s) as the exercise that opens the next section. */
-  STAND_IN    : true
+  OPTIONAL    : ['x.ex.imitation', 'iii.ex.figure']
 };
 
 /* ---------------- the path, built from data/structure.js ---------------- */
@@ -52,25 +50,20 @@ const TIERS = [], PREREQS = {}, INFO = {};
     if (!sec.roman) return;
     const sets = [], reviews = [];
     let batch = [];
+    const cards = [];
     sec.items.forEach(it => {
       if (it.kind === 'review'){ reviews.push({ id:it.id, title:plain(it.title), decks:batch }); batch = []; return; }
       const ex = ARS.deckEx && ARS.deckEx[it.id];
       if (ex && String(ex).indexOf('lang.') !== 0) sets.push({ id:ex, title:plain(it.title), review:false });
-      if (it.built && !playerItem(it)) batch.push(it.id);
+      if (it.built && !playerItem(it)){ batch.push(it.id); cards.push(it.id); }
     });
     const required = sets.filter(s => !isOptional(s.id)).map(s => s.id);
-    const tier = { key:sec.id, roman:sec.roman, name:sec.name, sets:sets.slice(), reviews:[], required:required };
-    if (!required.length && GPC.STAND_IN){
-      reviews.forEach(r => { tier.sets.push({ id:r.id, title:r.title, review:true }); tier.required.push(r.id); });
-    } else {
-      tier.reviews = reviews;
-    }
-    TIERS.push(tier);
+    TIERS.push({ key:sec.id, roman:sec.roman, name:sec.name, sets:sets, reviews:reviews, required:required, cards:cards });
   });
   TIERS.forEach((t, i) => {
     const prev = i ? TIERS[i - 1] : null;
     t.sets.forEach(s => {
-      INFO[s.id] = { kind:'set', tier:t, title:s.title, review:s.review, optional:isOptional(s.id) };
+      INFO[s.id] = { kind:'set', tier:t, title:s.title, optional:isOptional(s.id) };
       PREREQS[s.id] = prev ? prev.required.slice() : [];
     });
     t.reviews.forEach(r => { INFO[r.id] = { kind:'review', tier:t, title:r.title, decks:r.decks }; });
@@ -155,7 +148,12 @@ function reflectPath(){
 /* ---------------- set states and gating ---------------- */
 function everPassed(id){ const r = prog && prog.sets && prog.sets[id]; return !!(r && (r.passedOn || r.masteredOn)); }
 function everMastered(id){ const r = prog && prog.sets && prog.sets[id]; return !!(r && r.masteredOn); }
-function unlocked(id){ return (PREREQS[id] || []).every(everPassed); }
+/* A section is complete when its required exercise sets are passed; one with none, when its study cards are finished. */
+function tierDone(t){ return t.required.length ? t.required.every(everPassed) : t.cards.every(deckDoneAt); }
+function unlocked(id){
+  const i = TIERS.indexOf(INFO[id].tier);
+  return i <= 0 || tierDone(TIERS[i - 1]);
+}
 function stateOf(id){
   if (everMastered(id)) return 'mastered';
   if (everPassed(id)) return 'passed';
@@ -163,16 +161,14 @@ function stateOf(id){
 }
 function locked(id){ return guided() && !!INFO[id] && INFO[id].kind === 'set' && stateOf(id) === 'locked'; }
 function sectionName(t){ return 'Section ' + t.roman; }
-function describe(id){
-  const info = INFO[id];
-  return info.review ? 'the ' + info.title : 'the exercise on ' + info.title;
-}
+function describe(id){ return 'the exercise on ' + INFO[id].title; }
 function listJoin(a){ return a.length === 1 ? a[0] : a.length === 2 ? a[0] + ' and ' + a[1] : a.slice(0, -1).join(', ') + ', and ' + a[a.length - 1]; }
 /* "the exercises of Section II are passed" / "the exercise on The Syllable is passed" */
 function gateText(id){
   const t = INFO[id].tier, i = TIERS.indexOf(t);
   if (i <= 0) return '';
   const prev = TIERS[i - 1];
+  if (!prev.required.length) return 'the study cards of ' + sectionName(prev) + ' are finished';
   if (prev.required.length === 1) return describe(prev.required[0]) + ' is passed';
   return 'the exercises of ' + sectionName(prev) + ' are passed';
 }
@@ -180,7 +176,7 @@ function recent(id){
   const r = prog && prog.sets && prog.sets[id];
   return r ? (r.history || []).slice(-GPC.PASS_WINDOW) : [];
 }
-function openSections(){ return TIERS.filter(t => t.required.every(id => unlocked(id))).map(t => t.key); }
+function openSections(){ return TIERS.filter((t, i) => i === 0 || tierDone(TIERS[i - 1])).map(t => t.key); }
 
 /* ---------------- pass and mastery ---------------- */
 function meetsPass(r){
@@ -450,12 +446,12 @@ function decorateSection(sec, grid){
   if (!guided()) return;
   const t = TIERS.find(x => x.key === sec.id);
   if (!t) return;
-  const shut = t.required.filter(locked);
+  const shut = t.sets.map(s => s.id).filter(locked);
   if (!shut.length) return;
   const note = document.createElement('div');
   note.className = 'lock-note';
-  const who = t.required.length === 1 ? describe(t.required[0]) : 'the exercises of ' + sectionName(t);
-  note.textContent = 'On the Guided Path, ' + who + (t.required.length === 1 ? ' opens' : ' open') + ' when ' + gateText(shut[0]) + '.';
+  const who = shut.length === 1 ? describe(shut[0]) : 'the exercises of ' + sectionName(t);
+  note.textContent = 'On the Guided Path, ' + who + (shut.length === 1 ? ' opens' : ' open') + ' when ' + gateText(shut[0]) + '.';
   grid.parentNode.insertBefore(note, grid);
 }
 function homeNote(){
@@ -559,7 +555,6 @@ function renderPanel(){
         if (q.length) detail = q.filter(x => x.correct).length + ' of the last ' + q.length + ' answers are correct.';
       }
       if (isOptional(id)) detail = (detail ? detail + ' ' : '') + 'Optional; it is not needed to open the next section.';
-      if (s.review) detail = (detail ? detail + ' ' : '') + 'This section review stands in for the exercise.';
       h += '<div class="gp-row st-' + st + '"><span class="gp-title">' + esc2(s.title) + '</span><span class="gp-chip">' + chip + '</span>'
         + (detail ? '<span class="gp-detail">' + esc2(detail) + '</span>' : '') + '</div>';
     });
@@ -650,8 +645,8 @@ function importProgress(file){
 /* ---------------- pools below the minimum (for a content session) ---------------- */
 function poolFlags(){
   return Promise.all(SETS.map(s => loadEx(s.id).then(ex => ({
-    id:s.id, size:typeof ex.fresh === 'function' ? null : uniqueItems(ex).length, required:!isOptional(s.id), standIn:!!INFO[s.id].review
-  })).catch(() => ({ id:s.id, size:0, required:!isOptional(s.id), standIn:false }))))
+    id:s.id, size:typeof ex.fresh === 'function' ? null : uniqueItems(ex).length, required:!isOptional(s.id)
+  })).catch(() => ({ id:s.id, size:0, required:!isOptional(s.id) }))))
     .then(rows => rows.filter(r => r.size != null && r.size < GPC.MIN_POOL));
 }
 

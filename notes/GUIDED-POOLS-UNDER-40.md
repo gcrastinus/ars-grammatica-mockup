@@ -1,19 +1,18 @@
 # Guided Path: pools under 40 items (for a content session)
 
 Pools below 40 items still pass and master (a mastery sitting draws 10 from the pool), but a student sees repeats sooner.
-Generated 23 Oct 2026 from data/exercises/. "Gates" means the set must be passed to open the next section (or, for a
-section review, stands in for the exercise: I, IV, X, XI). Imitation (x.ex.imitation) is optional.
+Generated 23 Oct 2026 from data/exercises/. "Gates" means the set must be passed to open the next section . Imitation (x.ex.imitation) and iii.ex.figure are optional. Sections with no required exercise set (I, IV, X, XI) open the next section when their study cards are finished.
 
 | Pool | Items | Role |
 |---|---|---|
-| iii.ex.figure | 30 | required exercise |
+| iii.ex.figure | 30 | optional exercise |
 | iii.ex.noun-1 | 24 | required exercise |
 | iii.ex.noun-2 | 36 | required exercise |
 | iii.ex.participles | 30 | required exercise |
 | iii.ex.pronouns | 30 | required exercise |
 | iii.ex.verb-1 | 24 | required exercise |
 | iii.ex.verb-2 | 36 | required exercise |
-| iv.review | 30 | section review, stands in for the exercise (gates) |
+| iv.review | 30 | section review (does not gate) |
 | ix.review | 30 | section review (does not gate) |
 | v.ex.agreement | 24 | required exercise |
 | v.ex.clause | 24 | required exercise |
@@ -31,5 +30,3 @@ section review, stands in for the exercise: I, IV, X, XI). Imitation (x.ex.imita
 | vi.ex.usage | 24 | required exercise |
 | viii.review | 30 | section review (does not gate) |
 | x.ex.imitation | 10 | optional exercise |
-
-Also stand-ins that are 40 or more: i.review (120), xi.review (45).
