@@ -184,7 +184,10 @@ function buildHome(){
     gl.textContent = sec.gloss;
     host.appendChild(gl);
     let grid = document.createElement('div'); grid.className = 'home-grid'; host.appendChild(grid);
+    let sawReview = false;
+    const rule = cls => { const r = document.createElement('div'); r.className = 'sec-rule ' + cls; r.setAttribute('aria-hidden','true'); return r; };
     sec.items.forEach(it => {
+      if (it.kind === 'review' && !sawReview){ grid.appendChild(rule('sec-rule-main')); sawReview = true; }
       if (it.group){
         const g = document.createElement('div'); g.className = 'grp-label'; g.textContent = it.group; grid.appendChild(g);
       }
@@ -192,6 +195,7 @@ function buildHome(){
       (sec.langBars || []).filter(b => b.after === it.id).forEach(b => grid.appendChild(langBar(b)));
     });
     if (sec.roman && typeof cumulativeBar === 'function'){
+      grid.appendChild(rule(sawReview ? 'sec-rule-faint' : 'sec-rule-main'));
       grid.appendChild(cumulativeBar(sec));
       (sec.langBars || []).filter(b => b.after === 'cumul').forEach(b => grid.appendChild(langBar(b)));
     }
@@ -220,7 +224,7 @@ function langBar(bar){
     b.className = 'lang-btn lang-' + L.code;
     if (langScreenDone(screen)) b.classList.add('is-done');
     b.dataset.screen = screen.id;
-    b.innerHTML = STAR;
+    b.innerHTML = '<span class="lang-sq" aria-hidden="true"></span>';
     const name = document.createElement('span');
     name.textContent = L.name;
     b.appendChild(name);
@@ -1030,7 +1034,7 @@ function finishItem(box, it, ok, given, right){
   const alsoHtml = alsoBody ? `<span class="also">Also accepted: ${alsoBody}</span>` : '';
   const mine = !beside && !copyWrong && given != null ? `Your answer: <b>${esc(given)}</b>. ` : '';
   const fb = box.querySelector('.fb');
-  fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct' : 'Incorrect'}</span>` +
+  fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct.' : 'Incorrect.'}</span> ` +
     compare + (diff ? diff + '<br>' : '') + alsoHtml + (ok ? mine : (beside || copyWrong ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
     (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
       <p class="ex-hint" data-act="why-hint">Write at least a few words first.</p>
@@ -1189,9 +1193,9 @@ function renderQP(qp){
   });
   const fb = box.querySelector('.fb');
   if (s.status === 'correct'){
-    fb.innerHTML = `<div class="feedback good"><span class="verdict">Correct</span>${v.explain}</div>`;
+    fb.innerHTML = `<div class="feedback good"><span class="verdict">Correct.</span> ${v.explain}</div>`;
   } else if (s.status === 'wrong'){
-    fb.innerHTML = `<div class="feedback bad"><span class="verdict">Incorrect</span>The correct answer is: ${v.options[v.answer]}.<br>${v.explain}
+    fb.innerHTML = `<div class="feedback bad"><span class="verdict">Incorrect.</span> The correct answer is: ${v.options[v.answer]}.<br>${v.explain}
       <div><button class="btn primary" type="button">Next question</button></div></div>`;
     fb.querySelector('button').onclick = () => {
       // The wrong-answer cycle: the next form of the same question point (A, B, C, then A again).

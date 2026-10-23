@@ -912,8 +912,8 @@ h1{
 .feedback.good{color:var(--sage)}
 .feedback.bad{color:var(--wine)}
 .feedback .verdict{
-  display:block; font-family:var(--display); font-weight:400; font-size:18px;
-  letter-spacing:0; text-transform:none; margin:0 0 4px;
+  display:inline; font-family:var(--display); font-weight:400; font-size:18px;
+  letter-spacing:0; text-transform:none; margin:0;
 }
 .feedback.good .verdict{color:var(--sage)}
 .feedback.bad .verdict{color:var(--wine)}
