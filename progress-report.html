@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ars Grammatica Progress Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="course.css">
+<link rel="icon" href="data:,">
+<style>
+.pr-card{width:min(640px,100%); margin:22px auto 0; padding:18px 22px; border:1px solid var(--frame)}
+.pr-stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; margin-top:12px}
+.pr-stat{border:1px solid var(--frame); padding:10px; text-align:center}
+.pr-stat .num{font-family:var(--display); font-size:24px}
+.pr-stat .lab{font-size:13.5px; color:var(--ink-soft)}
+.pr-row{display:flex; flex-wrap:wrap; gap:2px 12px; padding:7px 0; border-bottom:1px solid var(--frame)}
+.pr-row:last-child{border-bottom:0}
+.pr-row .t{flex:1; min-width:150px}
+.pr-row .m{flex-basis:100%; font-size:14px; font-style:italic; color:var(--ink-soft)}
+#pr-note{text-align:center; font-style:italic; color:var(--ink-soft); margin-top:10px}
+.pr-load{display:flex; justify-content:center; margin-top:18px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="star" viewBox="0 0 16 16"><path d="M8 0 C8.6 5 11 7.4 16 8 C11 8.6 8.6 11 8 16 C7.4 11 5 8.6 0 8 C5 7.4 7.4 5 8 0Z" fill="currentColor"/></symbol></defs></svg>
+<div id="top-right-controls" class="top-right-controls"><button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾ / ☀</button></div>
+<div class="wrap">
+  <header>
+    <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
+    <h1>Ars Grammatica</h1>
+    <div class="subtitle">Progress report</div>
+  </header>
+  <div class="rule"></div>
+  <div class="section-gloss">Load the progress file a student exported from Progress &amp; Review. The file is read in this browser and is not sent anywhere.</div>
+  <div class="pr-load"><button class="btn primary" id="choose" type="button">Choose a progress file</button><input type="file" id="file" accept=".json,application/json" hidden></div>
+  <p id="pr-note"></p>
+  <div id="report"></div>
+  <p class="teacher-note"><a href="course.html">← Ars Grammatica</a></p>
+</div>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const dt = $('dark-toggle');
+try{ if (JSON.parse(localStorage.getItem('ars-grammatica-course-v2') || '{}').dark) document.body.classList.add('dark'); }catch(e){}
+dt.onclick = () => document.body.classList.toggle('dark');
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function pd(s){ const p = s.split('-').map(Number); return new Date(p[0], p[1]-1, p[2]); }
+function nice(s){ return pd(s).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'}); }
+function today(){ const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+$('choose').onclick = () => $('file').click();
+$('file').onchange = ev => {
+  const f = ev.target.files && ev.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    let o; $('pr-note').textContent = '';
+    try{ o = JSON.parse(r.result); }catch(e){ $('pr-note').textContent = 'That file is not valid JSON.'; return; }
+    if (!o || typeof o !== 'object' || !o.sets || typeof o.sets !== 'object' || (o.app && o.app !== 'ars-grammatica')){
+      $('pr-note').textContent = 'This does not look like an Ars Grammatica progress file.'; return; }
+    render(o);
+  };
+  r.readAsText(f);
+};
+/* The path is read from the file's own course record where it can be: section and title of each set come from
+   the set id; the instructor sees ids and counts, which are stable across versions of the course. */
+function render(o){
+  const sets = o.sets, ids = Object.keys(sets).filter(k => (sets[k].history || []).length || sets[k].seen);
+  const dates = [];
+  ids.forEach(k => (sets[k].history || []).concat(sets[k].mhist || []).forEach(h => h && h.date && dates.push(h.date)));
+  dates.sort();
+  const seen = ids.reduce((a, k) => a + (sets[k].seen || 0), 0), ok = ids.reduce((a, k) => a + (sets[k].correct || 0), 0);
+  const mastered = ids.filter(k => sets[k].masteredOn).length;
+  const passed = ids.filter(k => sets[k].passedOn && !sets[k].masteredOn).length;
+  const learning = ids.length - mastered - passed;
+  const days = new Set(dates).size;
+  let h = '<div class="pr-card"><h2 class="deck-title" style="font-size:22px">Student progress</h2>';
+  if (!ids.length){
+    h += '<p class="section-gloss">This file holds no recorded answers. The student must turn on tracking on the Guided Path and answer some questions first.</p></div>';
+    $('report').innerHTML = h; return;
+  }
+  h += '<div class="section-gloss" style="margin:4px 0 0">Activity from ' + nice(dates[0]) + ' to ' + nice(dates[dates.length-1]) + ' · tracking ' + ((o.settings && o.settings.trackingEnabled) ? 'on' : 'off') + '</div>';
+  h += '<div class="pr-stats">'
+    + [[ids.length, 'Exercises attempted'], [mastered, 'Mastered ★'], [passed, 'Passed'], [learning, 'In progress'], [seen, 'Questions answered'],
+       [seen ? Math.round(ok / seen * 100) + '%' : '—', 'Overall accuracy'], [days, 'Days practiced']]
+       .map(x => '<div class="pr-stat"><div class="num">' + x[0] + '</div><div class="lab">' + x[1] + '</div></div>').join('') + '</div></div>';
+  h += '<div class="pr-card"><h2 class="deck-title" style="font-size:20px">Exercises and reviews, in course order</h2>';
+  ids.sort((a, b) => a.localeCompare(b, undefined, {numeric:true})).forEach(k => {
+    const r = sets[k], bits = [];
+    const hist = r.history || [], last = hist.slice(-10);
+    bits.push((r.seen || 0) + ' answered, ' + (r.seen ? Math.round((r.correct || 0) / r.seen * 100) : 0) + '% correct');
+    if (last.length) bits.push('last ' + last.length + ': ' + last.filter(x => x.correct).length + ' correct');
+    if (r.passedOn) bits.push('passed ' + nice(r.passedOn));
+    if (r.masteredOn) bits.push('mastered ' + nice(r.masteredOn));
+    const st = r.masteredOn ? 'Mastered ★' : r.passedOn ? 'Passed' : 'In progress';
+    h += '<div class="pr-row"><span class="t">' + esc(k) + '</span><span>' + st + '</span><span class="m">' + esc(bits.join(' · ')) + '</span></div>';
+  });
+  h += '</div>';
+  const rc = o.recall || {}, rk = Object.keys(rc);
+  if (rk.length){
+    h += '<div class="pr-card"><h2 class="deck-title" style="font-size:20px">Section reviews taken</h2>';
+    rk.forEach(k => { const r = rc[k]; h += '<div class="pr-row"><span class="t">' + esc(k) + '</span><span>' + r.right + ' of ' + r.n + '</span><span class="m">' + nice(r.date) + ' · taken ' + (r.count || 1) + (r.count > 1 ? ' times' : ' time') + '</span></div>'; });
+    h += '</div>';
+  }
+  const bx = (o.course && o.course.boxes) || {}, bk = Object.keys(bx);
+  if (bk.length){
+    const per = [0,0,0,0,0,0]; let due = 0; const now = Date.now();
+    bk.forEach(k => { per[Math.min(5, bx[k].box || 1)]++; if (bx[k].dueAt != null && bx[k].dueAt <= now) due++; });
+    h += '<div class="pr-card"><h2 class="deck-title" style="font-size:20px">Review boxes</h2><p>' + bk.length + ' questions are in the review boxes (box 1: ' + per[1] + '; box 2: ' + per[2] + '; box 3: ' + per[3] + '; box 4: ' + per[4] + '; box 5: ' + per[5] + '). ' + due + ' were due when the file was read.</p></div>';
+  }
+  h += '<p id="pr-note">This report shows the record only. It does not assign a grade, since a number cannot see the whole of a student’s learning.</p>';
+  $('report').innerHTML = h;
+}
+</script>
+</body>
+</html>

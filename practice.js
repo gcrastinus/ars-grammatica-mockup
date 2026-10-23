@@ -196,6 +196,8 @@
   root.renderReviewNotice = function () {
     const host = document.getElementById('review-due');
     if (!host) return;
+    /* On the Guided Path the due items are gathered into Today's Review (guided.js). */
+    if (root.GP && root.GP.isGuided && root.GP.isGuided()){ host.replaceChildren(); host.hidden = true; return; }
     const far = furthestSection();
     const n = far ? dueInRange(far.id) : 0;
     host.replaceChildren();
@@ -220,6 +222,35 @@
     if (last && sec && sec.id === last.id) return { title: 'Final Review', sub: 'The whole course' };
     return { title: 'Cumulative Review', sub: cumulativeRangeLabel(sec.roman) };
   }
+
+  /* For the Guided Path's Today's Review: how many items are due, and the due items themselves,
+     interleaved across decks, oldest first within a deck. total counts every due item in the pool. */
+  root.ARS.dueCount = function () {
+    const far = furthestSection();
+    return far ? dueInRange(far.id) : 0;
+  };
+  root.ARS.gatherDue = function (limit) {
+    const far = furthestSection();
+    if (!far) return Promise.resolve({ items: [], total: 0 });
+    return Promise.resolve(collectPool(far.id)).then(pool => {
+      const boxes = courseStore().boxes || {};
+      const now = Date.now();
+      const due = pool.filter(it => { const b = boxes[it.id]; return b && b.dueAt != null && b.dueAt <= now; });
+      const byDeck = new Map();
+      due.sort((a, b) => (boxes[a.id].dueAt - boxes[b.id].dueAt) || String(a.id).localeCompare(String(b.id)));
+      due.forEach(it => {
+        const k = it.deck || '';
+        if (!byDeck.has(k)) byDeck.set(k, []);
+        byDeck.get(k).push(it);
+      });
+      const queues = [...byDeck.values()];
+      const out = [];
+      while (out.length < due.length && out.length < (limit || REVIEW_SITTING)) {
+        queues.forEach(q => { if (q.length && out.length < (limit || REVIEW_SITTING)) out.push(q.shift()); });
+      }
+      return { items: out, total: due.length };
+    });
+  };
 
   root.cumulativeBar = function (sec) {
     const b = document.createElement('button');

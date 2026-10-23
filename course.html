@@ -61,6 +61,12 @@
     <div class="intro-note">
       <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the errors and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, German, and French where they show something distinctive.
     </div>
+    <div class="diff-row path-row" role="group" aria-label="Choose a path">
+      <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true">Free Practice</button>
+      <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
+    </div>
+    <div id="guided-note" class="guided-note"></div>
+    <p id="gp-storage" class="lock-note" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
     <div id="recite-due" class="recite-due" hidden></div>
     <div id="review-due" class="review-due" hidden></div>
     <div id="home-acts"></div>
@@ -120,6 +126,33 @@
     </div>
   </div>
 
+
+  <div class="screen" id="scr-gx">
+    <div class="q-head">
+      <button class="btn" id="gx-back" type="button">← All sections</button>
+    </div>
+    <div class="deck-title" id="gx-title"></div>
+    <div class="deck-sub" id="gx-sub"></div>
+    <div id="gx-body" class="gx-body"></div>
+  </div>
+
+  <div class="screen" id="scr-prog">
+    <div class="q-head">
+      <button class="btn" id="prog-back" type="button">← All sections</button>
+    </div>
+    <div class="deck-title">Progress &amp; Review</div>
+    <div class="deck-sub">The Guided Path, the review boxes, and a backup of the progress kept in this browser</div>
+    <div class="gp-box gp-note" id="gp-note" hidden></div>
+    <div id="prog-guided"></div>
+    <div class="section-label">Backup</div>
+    <div class="section-gloss">Export saves the progress kept in this browser as a file, which is the only way to carry it to another device or to keep a copy; Import restores it. The file holds the Guided Path record and the course’s record of finished decks, exercises, and review items.</div>
+    <div class="btn-row">
+      <button class="btn" id="prog-export" type="button">Export progress</button>
+      <button class="btn" id="prog-import" type="button">Import progress</button>
+      <input type="file" id="prog-import-file" accept=".json,application/json" hidden>
+    </div>
+    <div class="teacher-note"><a href="progress-report.html" target="_blank" rel="noopener">For instructors, a progress report from an exported file ⟶</a></div>
+  </div>
 
   <div class="screen" id="scr-maker">
     <div id="maker-ui">
@@ -265,6 +298,7 @@
 <script src="data/latin-forms.js"></script>
 <script src="course.js"></script>
 <script src="practice.js"></script>
+<script src="guided.js"></script>
 <script src="recitation.js"></script>
 <script src="speech.js"></script>
 <script src="tab-lock.js" data-app="Ars Grammatica" data-key="arsGrammatica.activeTab"></script>

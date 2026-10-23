@@ -199,7 +199,9 @@ function buildHome(){
       grid.appendChild(cumulativeBar(sec));
       (sec.langBars || []).filter(b => b.after === 'cumul').forEach(b => grid.appendChild(langBar(b)));
     }
+    if (window.GP && GP.decorateSection) GP.decorateSection(sec, grid);
   });
+  if (window.GP && GP.homeNote) GP.homeNote();
   if (typeof renderReciteReminder === 'function') renderReciteReminder();
   if (typeof renderReviewNotice === 'function') renderReviewNotice();
 }
@@ -320,6 +322,7 @@ function makeTile(it){
     c.onclick = open;
     c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(); } };
   }
+  if (window.GP && GP.decorateTile) GP.decorateTile(c, it);
   return c;
 }
 
@@ -364,11 +367,13 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
   'count':'count (a number)', 'divide':'divide into syllables', 'form':'give the form', 'transform':'rewrite (correct or transform)',
   'analysis':'parse and construe', 'passage-mc':'questions on a passage', 'mark':'mark the dependences', 'copy':'copy word for word' };
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
-function openEx(id){
+function openEx(id, opts){
+  /* On the Guided Path an exercise opens through its own screen (guided.js); opts marks the call that comes from it. */
+  if (!opts && window.GP && GP.intercept && GP.intercept(id)) return;
   const homeOf = langScreenOf(id);
   if (homeOf) screenReturn = homeOf;
   loadEx(id).then(ex => {
-    if (ex.status === 'written') return runEx(ex);
+    if (ex.status === 'written') return (opts && opts.mode === 'mastery' && window.GP) ? GP.runMastery(ex) : runEx(ex);
     showExercisePlan(id, ex);
   }).catch(err => { alert(err.message); });
 }
@@ -861,7 +866,8 @@ let run = null;   // { ex, set, queue, n, k, first: {id: right?}, retried: {id:t
 function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.ex[id] = { visits:0 }); }
 function runQueue(spec){
   const items = (spec.items || []).slice();
-  run = { ex: spec.ex || null, set: spec.set || '', queue: items, n: items.length, k:0, first:{}, retried:{} };
+  run = { ex: spec.ex || null, set: spec.set || '', queue: items, n: items.length, k:0, first:{}, retried:{},
+          mode: spec.mode || '', onFinish: spec.onFinish || null };
   if (spec.hash) location.hash = spec.hash;
   $('ex-home').textContent = screenReturn ? '← Back' : '← All sections';
   $('ex-kind').textContent = spec.kind || '';
@@ -1014,6 +1020,7 @@ function finishItem(box, it, ok, given, right){
   if (firstPass){
     run.first[it.id] = ok;
     if (ARS.noteAnswer) ARS.noteAnswer(it, ok);
+    if (window.GP && GP.onAnswer) GP.onAnswer(run, it, ok);
   }
   if (!ok){
     if (run.ex){
@@ -1075,12 +1082,14 @@ function renderSummary(){
   const listed = (run.ex && run.ex.items && run.ex.items.length) ? run.ex.items : run.queue;
   listed.forEach(x => { if (x && x.id) byId[x.id] = x; });
   const missed = ids.filter(i => run.first[i] === false).map(i => byId[i]).filter(Boolean);
+  if (run.onFinish){ run.onFinish(run, right, ids.length, missed); return; }
+  const gnote = (window.GP && GP.summaryNote) ? GP.summaryNote(run, right, ids.length) : '';
   const body = $('ex-body'); body.innerHTML = '';
   setExProgress();
   const box = document.createElement('div'); box.className = 'q-box qp';
   const finished = run.set ? ('Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
   box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
-    <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` +
+    <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` + gnote +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;
   box.querySelector('button').onclick = () => {
@@ -1320,7 +1329,8 @@ buildHome();
 const lx = location.hash.match(/^#lang\/(.+)$/);
 if (lx) openLang(decodeURIComponent(lx[1]));
 const mx = location.hash.match(/^#ex\/(.+)$/);
-if (mx && (hasPlan(mx[1]) || langScreenOf(mx[1]))) openEx(mx[1]);
+/* Deferred until every script has loaded, so the Guided Path (guided.js) can gate a reloaded exercise. */
+if (mx && (hasPlan(mx[1]) || langScreenOf(mx[1]))) window.addEventListener('DOMContentLoaded', () => openEx(mx[1]));
 const m = location.hash.match(/^#deck\/(.+)$/);
 if (m){
   const it = ARS.structure.flatMap(s => s.items).find(x => x.id === m[1] && x.built && !playerItem(x));

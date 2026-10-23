@@ -824,3 +824,70 @@ body.dark .lang-bar .lang-btn.is-done:focus-visible{background:color-mix(in srgb
 .lang-bar .lang-btn:focus-visible{outline-color:var(--rubric)}
 .lang-bar .lang-btn .lang-sq{background:var(--rubric)}
 body.dark .lang-bar .lang-btn{--rubric:#d07a68}
+
+/* Guided Path (guided.js): the path toggle, lock notes and states, an exercise's own screen, and the
+   Progress & Review screen. Same frames, hover, and type as the rest of the course. */
+.path-row{margin:22px 0 4px; gap:0}
+.diff-btn.path-btn{width:auto; min-width:150px; height:44px; padding:0 22px; font-size:16px; font-family:var(--text); border-radius:0}
+.path-row .path-btn + .path-btn{margin-left:-1px}
+.guided-note{max-width:34em; margin:14px auto 0; text-align:center}
+.guided-note[hidden]{display:none}
+.gp-line{font-style:italic; color:var(--ink-soft); font-size:16px; line-height:1.5; margin:0}
+.guided-note .btn-row{margin-top:14px}
+.lock-note{
+  max-width:34em; margin:-14px auto 22px; text-align:center;
+  font-style:italic; font-size:15px; line-height:1.45; color:var(--ink-soft);
+}
+.lock-note[hidden]{display:none}
+.gx-body .lock-note{margin:12px auto 0}
+.gx-body .q-instr{max-width:34em; margin:22px auto 0; font-size:16.5px; line-height:1.5}
+#gp-storage{margin:14px auto 0}
+.set-card .ex-state{
+  display:block; font-family:var(--text); font-size:12px; font-weight:400; letter-spacing:.04em;
+  text-transform:none; font-variant:small-caps; color:var(--ink-soft); line-height:1.2; margin-top:4px;
+}
+.set-card .ex-link .ex-state{margin:0 0 3px}
+.set-card .ex-link:has(.ex-state){flex-direction:column}
+.ex-state.st-mastered{color:var(--wine)}
+.set-card.locked, .set-card .ex-link.locked{color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.set-card .ex-link.locked:hover{background:transparent; color:color-mix(in srgb, var(--ink) 40%, var(--paper))}
+.gp-box{
+  width:min(560px, 100%); margin:22px auto 0; padding:18px 22px;
+  border:1px solid var(--frame); background:transparent; text-align:left;
+}
+.gp-box[hidden]{display:none}
+.gp-box p{font-size:16.5px; line-height:1.5; margin:0 0 8px; color:var(--ink)}
+.gp-box p:last-child{margin-bottom:0}
+.gp-box strong{font-weight:400; font-family:var(--display); font-size:18px}
+.gp-box .btn-row{margin-top:12px}
+.gp-note{border-color:var(--ink-soft)}
+.gp-today{max-width:34em; margin:0 auto; text-align:center; color:var(--ink-soft)}
+.gp-today p{margin:0 0 8px}
+.gp-agenda{width:min(520px, 100%); margin:0 auto; font-size:16px}
+.gp-agenda-row{display:flex; justify-content:space-between; gap:14px; padding:6px 4px; border-bottom:1px solid var(--frame); color:var(--ink-soft)}
+.gp-tier{
+  width:min(520px, 100%); margin:22px auto 8px; font-family:var(--text); font-size:14px;
+  letter-spacing:.05em; font-variant:small-caps; color:var(--ink-soft);
+}
+.gp-ladder{width:min(520px, 100%); margin:0 auto; display:flex; flex-direction:column; gap:6px}
+.gp-row{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px;
+  padding:9px 14px; border:1px solid var(--frame); background:transparent;
+}
+.gp-row.st-locked{color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.gp-title{flex:1; min-width:150px; font-family:var(--display); font-size:17px}
+.gp-chip{
+  font-size:12.5px; letter-spacing:.05em; font-variant:small-caps; color:var(--ink-soft);
+  border:1px solid var(--frame); padding:1px 8px; white-space:nowrap;
+}
+.gp-row.st-mastered .gp-chip{color:var(--wine); border-color:var(--wine)}
+.gp-row.st-passed .gp-chip{color:var(--ink); border-color:var(--ink-soft)}
+.gp-detail{flex-basis:100%; font-size:14.5px; font-style:italic; color:var(--ink-soft)}
+.gp-row.st-locked .gp-detail{color:inherit}
+#gp-recalls{margin:8px 0 0}
+@media (max-width:560px){
+  .diff-btn.path-btn{min-width:0; flex:1 1 0; padding:0 12px}
+  .path-row{flex-wrap:nowrap}
+  .set-card .ex-state{font-size:11px}
+  .gp-box{padding:14px 16px}
+}

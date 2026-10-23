@@ -1,0 +1,164 @@
+#!/usr/bin/env node
+/* Checks the Guided Path (guided.js) end to end in headless Chrome, with a faked calendar:
+     node test/guided-check.js [--base=https://grammatica.studiuminstitute.org] [--shots=/path/to/dir]
+   Gating, pass (9 of the last 10 over 2 days), mastery (a later-day sitting of 10), the section reviews,
+   Today's Review, the untouched course record in Free Practice, export and import, a re-read before writing,
+   and no sideways scrolling on any new screen at desktop and phone widths, in light and dark mode.
+   Exit code 1 on any failed check or page error. */
+'use strict';
+const path = require('path');
+const { launch } = require('./cdp.js');
+const arg = n => (process.argv.find(a => a.indexOf('--' + n + '=') === 0) || '').slice(n.length + 3);
+const BASE = arg('base'), SHOTS = arg('shots');
+const ROOT = path.resolve(__dirname, '..');
+
+(async () => {
+  const b = await launch(ROOT, BASE ? { base: BASE } : {});
+  const fails = [];
+  let passes = 0;
+  const check = (name, ok, extra) => { if (ok) passes++; else fails.push(name + (extra ? ' (' + extra + ')' : '')); };
+  const ev = b.evaluate;
+  /* a calendar the test can move forward */
+  await b.send('Page.addScriptToEvaluateOnNewDocument', { source: `(() => {
+    const R = Date; window.__off = +(sessionStorage.getItem('off') || 0);
+    window.Date = class extends R { constructor(...a){ if (a.length) super(...a); else super(R.now() + window.__off * 864e5); } static now(){ return R.now() + window.__off * 864e5; } };
+  })();` });
+  const day = async n => { await ev(`window.__off = ${n}; sessionStorage.setItem('off', ${n})`); };
+  await b.size(1100, 900);
+  await b.goto('course.html');
+  for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
+  await ev(`window.confirm = () => true`);
+
+  /* answer a whole sitting through the real hooks: every item right, or the first k wrong */
+  const sitting = async (id, opts) => ev(`(async () => {
+    const o = ${JSON.stringify(opts || {})};
+    openEx(id = ${JSON.stringify(id)}, o.mode ? { mode: o.mode } : {});
+    await new Promise(r => setTimeout(r, 300));
+    const n = run.n, wrong = o.wrong || 0;
+    for (let k = 0; k < n; k++) {
+      run.k = k; renderItem();
+      const box = document.querySelector('#ex-body .ex-item');
+      finishItem(box, run.queue[k], o.every ? k % o.every !== 0 : k < n - wrong, null, '');   /* wrong: the last items; every: each nth item */
+    }
+    run.k = run.queue.length; renderItem();
+    return n;
+  })()`);
+  const st = id => ev(`GP.stateOf(${JSON.stringify(id)})`);
+
+  /* 1. Free Practice is the default; nothing opens or records */
+  check('default is Free Practice', await ev(`!GP.isGuided() && document.getElementById('path-free').classList.contains('sel')`));
+  check('free: no guided record key', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
+  await sitting('ii.ex.quantity');
+  check('free: exercise runs without the gate', await ev(`run && run.ex && run.ex.id === 'ii.ex.quantity'`));
+  check('free: still no guided record', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
+  const boxesFree = await ev(`Object.keys(courseStore().boxes || {}).length`);
+  check('free: item boxes still recorded as before', boxesFree > 0, boxesFree);
+
+  /* 2. Guided: gating */
+  await ev(`document.getElementById('path-guided').click()`);
+  check('guided: Section I set is open', await st('i.review') === 'learning');
+  check('guided: Section II sets are locked', await st('ii.ex.syllable') === 'locked' && await st('ii.ex.quantity') === 'locked');
+  check('guided: lock note on Section II', await ev(`[...document.querySelectorAll('.lock-note')].some(n => /Section II|Syllable|exercises of Section I/.test(n.textContent) && /Section Review: Sign and Significant Voice is passed/.test(n.textContent))`));
+  await ev(`openEx('ii.ex.syllable')`); await b.sleep(400);
+  check('guided: locked exercise opens its own screen, not the set', await ev(`document.getElementById('scr-gx').classList.contains('active')`));
+  check('guided: locked screen names what opens it', await ev(`/opens when .* is passed/.test(document.getElementById('gx-body').textContent)`));
+  await ev(`document.getElementById('gx-back').click()`);
+
+  /* 3. tracking is opt-in */
+  await sitting('i.review');
+  check('guided without tracking: nothing recorded', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
+  await ev(`GP.openProgress(); document.getElementById('gp-track').click()`);
+  check('tracking turned on', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).settings.trackingEnabled === true`));
+
+  /* 4. pass needs 9 of 10 over two days */
+  await day(0);
+  await sitting('i.review');                       /* set B or A, 20 right, day 0 */
+  check('one day of perfect answers is not a pass', await st('i.review') === 'learning');
+  await day(1);
+  await sitting('i.review');
+  check('second day of right answers passes', await st('i.review') === 'passed');
+  check('pass opens Section II', await st('ii.ex.syllable') === 'learning' && await st('ii.ex.quantity') === 'learning');
+  check('Section III still locked', await st('iii.ex.parts') === 'locked');
+
+  /* 5. mastery: a later day, a sitting of ten from the whole pool */
+  await sitting('i.review', { mode: 'mastery' });   /* same day as the pass */
+  check('mastery sitting on the pass day does not count', await st('i.review') === 'passed');
+  await day(2);
+  const n = await sitting('i.review', { mode: 'mastery' });
+  check('mastery sitting has ten questions', n === 10, n);
+  check('later-day mastery sitting masters the set', await st('i.review') === 'mastered');
+  await day(2);
+
+  /* 6. a missed pass: 8 of 10 is not enough */
+  await sitting('ii.ex.syllable', { every: 5 });
+  await day(3);
+  await sitting('ii.ex.syllable', { every: 5 });
+  check('two wrong in the last ten (8 of 10) blocks the pass', await st('ii.ex.syllable') !== 'passed', JSON.stringify(await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['ii.ex.syllable'].history.map(h => h.date.slice(8) + (h.correct ? '+' : '-')).join(' ')`)));
+
+  /* 7. section reviews wait, and never gate */
+  check('section review waits for the exercises', (await ev(`GP.recallState('ii.review').key`)) === 'wait');
+  check('section review gates nothing', await ev(`GP.info['ii.review'].kind === 'review' && !(GP.prereqs['iii.ex.parts'] || []).includes('ii.review')`));
+
+  /* 8. Today's Review gathers due items and shows what moved */
+  await ev(`(() => { ARS.structure.forEach(sec => sec.items.forEach(it => { if (/^(i|ii)\\./.test(it.id) && !/review/.test(it.kind)) courseStore().decks[it.id] = { opens:1, done:true, doneAt:Date.now() }; })); save(); })()`);
+  await ev(`(() => { const bx = courseStore().boxes; let n = 0; for (const id in bx) { if (n++ < 12) bx[id].dueAt = Date.now() - 1000; } save(); })()`);
+  check('home names due items', await ev(`buildHome(), /review items are due today|review item is due today/.test(document.getElementById('guided-note').textContent)`));
+  await ev(`GP.startToday()`); await b.sleep(800);
+  const todayN = await ev(`run ? run.n : -1`);
+  check('Today’s Review runs due items', todayN > 0, todayN);
+  await ev(`(() => { for (let k = 0; k < run.n; k++) { run.k = k; renderItem(); finishItem(document.querySelector('#ex-body .ex-item'), run.queue[k], k % 4 !== 0, null, ''); } run.k = run.queue.length; renderItem(); })()`);
+  const sum = await ev(`document.getElementById('ex-body').textContent`);
+  check('Today’s Review shows what moved', /Moved up to box/.test(sum) && /Returned to box 1/.test(sum), sum.slice(0, 200));
+  check('Today’s Review names the next exercise', /next exercise to (learn|master)/.test(sum));
+
+  /* 9. Free Practice leaves the guided record alone */
+  await ev(`document.getElementById('scr-ex').classList.remove('active'); document.getElementById('scr-home').classList.add('active')`);
+  await ev(`document.getElementById('path-free').click()`);
+  const before = await ev(`localStorage.getItem('ars-grammatica-guided')`);
+  await sitting('ii.ex.quantity');
+  check('free practice writes nothing to the guided record', await ev(`localStorage.getItem('ars-grammatica-guided')`) === before);
+  await ev(`document.getElementById('path-guided').click()`);
+
+  /* 10. re-read before writing: a change made elsewhere survives the next answer */
+  await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); o.sets['zz.other.tab'] = {state:'learning', seen:1, correct:1, history:[], mhist:[], passedOn:null, masteredOn:null}; localStorage.setItem('ars-grammatica-guided', JSON.stringify(o)); })()`);
+  await sitting('ii.ex.quantity');
+  check('a record written by another tab is kept', await ev(`!!JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['zz.other.tab']`));
+
+  /* 11. export and import round trip */
+  const exported = await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); o.course = JSON.parse(JSON.stringify(courseStore())); return JSON.stringify(o); })()`);
+  await ev(`GP.eraseAll(); localStorage.removeItem('ars-grammatica-guided')`);
+  await ev(`(() => { const f = new File([${JSON.stringify(exported)}], 'p.json', {type:'application/json'}); const dt = new DataTransfer(); dt.items.add(f); const i = document.getElementById('prog-import-file'); i.files = dt.files; i.dispatchEvent(new Event('change')); })()`);
+  await b.sleep(500);
+  check('import restores the guided record', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['i.review'].masteredOn != null`));
+  check('import restores the course record', await ev(`Object.keys(courseStore().boxes || {}).length > 0`));
+  await ev(`(() => { const f = new File(['{"nope":1}'], 'bad.json'); const dt = new DataTransfer(); dt.items.add(f); const i = document.getElementById('prog-import-file'); i.files = dt.files; i.dispatchEvent(new Event('change')); })()`);
+  await b.sleep(300);
+  check('a wrong file is refused politely', await ev(`/could not be read/.test(document.getElementById('gp-note').textContent)`));
+
+  /* 12. layout: no sideways scrolling on the new screens, light and dark, desktop and phone */
+  const views = [
+    ['home', `goHome()`],
+    ['progress', `GP.openProgress()`],
+    ['exercise', `openEx('ii.ex.syllable')`],
+    ['locked', `openEx('iii.ex.parts')`],
+    ['review', `openEx('ii.review')`]
+  ];
+  for (const [w, h] of [[1100, 900], [390, 844]]) {
+    await b.size(w, h);
+    for (const dark of [false, true]) {
+      await ev(`setDark(${dark})`);
+      for (const [name, js] of views) {
+        await ev(js); await b.sleep(400);
+        const wide = await ev(`document.documentElement.scrollWidth - window.innerWidth`);
+        check(`no sideways scroll: ${name} ${w}px ${dark ? 'dark' : 'light'}`, wide <= 0, wide);
+        if (SHOTS) await b.shot(path.join(SHOTS, `${name}-${w}-${dark ? 'dark' : 'light'}.png`), name === 'home' || name === 'progress');
+      }
+    }
+  }
+  const errs = b.errors;
+  b.close();
+  console.log(`${passes} checks passed, ${fails.length} failed, ${errs.length} page errors.`);
+  fails.forEach(f => console.log('FAIL: ' + f));
+  errs.forEach(e => console.log('ERROR: ' + e));
+  process.exit(fails.length || errs.length ? 1 : 0);
+})().catch(e => { console.error(e); process.exit(1); });
