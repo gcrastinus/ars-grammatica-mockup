@@ -967,3 +967,20 @@ details.check[open] summary .chev{transform:rotate(90deg)}
   .panel h2{font-size:30px}
   .act-label, .act-latin, .act-gloss{padding-left:0; padding-right:0}
 }
+
+/* Oct 22: the main column a third wider, for readability (home cards 520px to 693px). Every width is the earlier one times 4/3; all still shrink to fit a phone. */
+.wrap{max-width:1013px}
+.home-grid > .set-card,
+.home-grid > .cumul-bar,
+.home-grid > .lang-bar,
+#scr-home .set-card,
+#scr-lang .set-card,
+.cumul-bar,
+.grp-label,
+.sec-rule{width:min(693px, 100%)}
+.panel, .intro-note{max-width:45.33em}
+.act-gloss, .section-gloss{max-width:40em}
+.deck-sub, .designer-credit{max-width:48em}
+.q-box{max-width:747px}
+details.check{width:min(747px, 100%)}
+.ex-empty{max-width:693px}
