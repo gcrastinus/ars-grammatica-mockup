@@ -75,7 +75,7 @@ const ROOT = path.resolve(__dirname, '..');
   check('tracking turned on', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).settings.trackingEnabled === true`));
 
   await ev(`courseStore().decks['i.sign'].done = false`);
-  check('home says to finish the study cards of Section I', await ev(`buildHome(), /Finish the study cards of Section I\\./.test(document.getElementById('guided-note').textContent) && !document.querySelector('#guided-note .primary')`));
+  check('home says to finish the study cards of Section I, with an Open Section I button', await ev(`buildHome(), /Finish the study cards of Section I\\./.test(document.getElementById('guided-note').textContent) && /^Open Section I$/.test((document.querySelector('#guided-note .primary')||{}).textContent||'')`));
   await ev(`courseStore().decks['i.sign'].done = true; buildHome()`);
 
   /* 4. pass needs 9 of 10 over two days */

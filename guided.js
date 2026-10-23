@@ -360,7 +360,7 @@ function cardsStep(){
   const i = TIERS.findIndex((t, k) => (k === 0 || tierDone(TIERS[k - 1])) && !t.required.length && !tierDone(t));
   if (i < 0) return null;
   const t = TIERS[i];
-  return { cards:true, id:null, tier:t, title:'the study cards of ' + sectionName(t) };
+  return { cards:true, id:null, deck:t.cards.find(d => !deckDoneAt(d)) || t.cards[0], tier:t, title:'the study cards of ' + sectionName(t) };
 }
 function nextLearning(){
   const set = REQUIRED.find(s => unlocked(s.id) && !everPassed(s.id)), c = cardsStep();
@@ -485,6 +485,7 @@ function homeNote(){
     if (!bits.length) bits.push('Nothing is due today, and every exercise on the path is mastered.');
     p.textContent = bits.join(' ');
     if (due) row.appendChild(btn('Start Today’s Review', 'primary', startToday));
+    else if (learn && learn.cards && learn.deck) row.appendChild(btn('Open ' + sectionName(learn.tier), 'primary', () => openDeck(learn.deck)));
     else if (learn && !learn.cards) row.appendChild(btn('Continue: ' + learn.title, 'primary', () => openEx(learn.id)));
   }
   row.appendChild(btn('Progress & Review', '', () => openProgress()));
@@ -540,7 +541,8 @@ function renderPanel(){
     if (learn && learn.cards) h += '<p>Finish the study cards of ' + esc2(sectionName(learn.tier)) + '.</p>';
     else if (learn) h += '<p>' + (everPassed(learn.id) ? 'Next to master' : 'Next to learn') + ': ' + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
     h += '<div class="btn-row">' + (bs.due ? '<button class="btn primary" type="button" id="gp-start">Start Today’s Review</button>' : '')
-      + (learn && !learn.cards ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Begin: ' + esc2(learn.title) + '</button>' : '') + '</div></div>';
+      + (learn && !learn.cards ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Begin: ' + esc2(learn.title) + '</button>' : '')
+      + (learn && learn.cards && learn.deck ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Open ' + esc2(sectionName(learn.tier)) + '</button>' : '') + '</div></div>';
     const rr = readyReviews();
     if (rr.length){
       h += '<div class="section-label">Section Reviews</div><div class="section-gloss">Each asks for the teaching of one section from memory. They open nothing and close nothing.</div><div class="home-grid" id="gp-recalls"></div>';
@@ -596,7 +598,7 @@ function renderPanel(){
     }
   });
   on('gp-start', startToday);
-  on('gp-learn', () => { const l = nextLearning(); if (l && !l.cards) openEx(l.id); });
+  on('gp-learn', () => { const l = nextLearning(); if (l && l.cards && l.deck) openDeck(l.deck); else if (l && !l.cards) openEx(l.id); });
   const rg = $('gp-recalls');
   if (rg) readyReviews().forEach(id => {
     const b = document.createElement('button');
