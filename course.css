@@ -830,6 +830,8 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
 .path-row{margin:22px 0 4px; gap:0}
 .diff-btn.path-btn{width:auto; min-width:150px; height:44px; padding:0 22px; font-size:16px; font-family:var(--text); border-radius:0}
 .path-row .path-btn + .path-btn{margin-left:-1px}
+.path-row .path-btn{position:relative}
+.path-row .path-btn.sel,.path-row .path-btn:hover,.path-row .path-btn:focus-visible{z-index:1}
 .guided-note{max-width:34em; margin:14px auto 0; text-align:center}
 .guided-note[hidden]{display:none}
 .gp-line{font-style:italic; color:var(--ink-soft); font-size:16px; line-height:1.5; margin:0}
