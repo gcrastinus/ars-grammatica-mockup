@@ -1,4 +1,7 @@
-/* The Phrase [v.ex.phrase]  Exercise set opened from the Exercise button of v.phrase. Written 24 items in three fixed sets. */
+/* The Phrase [v.ex.phrase]  Exercise set opened from the Exercise button of v.phrase. Written; 31 items in 2 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize phrases by form and use (choose or sort). Level II: find and name phrases in real sentences from the King James Bible and Vergil, and rewrite absolute phrases.
+   Level I (17), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.ex.phrase'] = {
@@ -30,12 +33,24 @@ ARS.exercises['v.ex.phrase'] = {
   "mc",
   "transform"
  ],
- "pool": 24,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 31,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 8,
-  "B": 8,
+  "A": 12,
+  "B": 11,
   "C": 8
+ },
+ "levels": {
+  "pass": 1,
+  "top": 2,
+  "names": {
+   "1": "Recognize phrases by form and use: choose or sort.",
+   "2": "Find and name phrases in real sentences; rewrite absolutes."
+  },
+  "counts": {
+   "1": 17,
+   "2": 14
+  }
  },
  "limit": "Only what v.phrase teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
@@ -69,7 +84,8 @@ ARS.exercises['v.ex.phrase'] = {
     4,
     0
    ],
-   "explain": "By form, a phrase is named from what it is built on: a preposition with its object, a participle describing a noun, an <i>-ing</i> form used as a noun, an infinitive with “to,” or a noun set beside another noun to rename it."
+   "explain": "By form, a phrase is named from what it is built on: a preposition with its object, a participle describing a noun, an <i>-ing</i> form used as a noun, an infinitive with “to,” or a noun set beside another noun to rename it.",
+   "level": 1
   },
   {
    "id": "ph-A02",
@@ -84,7 +100,8 @@ ARS.exercises['v.ex.phrase'] = {
     "to my aunt."
    ],
    "answer": 1,
-   "explain": "“With green shutters” tells which house, so it depends on “house” and is used as an adjective. “To my aunt” depends on “belongs.”"
+   "explain": "“With green shutters” tells which house, so it depends on “house” and is used as an adjective. “To my aunt” depends on “belongs.”",
+   "level": 2
   },
   {
    "id": "ph-A03",
@@ -99,7 +116,8 @@ ARS.exercises['v.ex.phrase'] = {
     "As the subject"
    ],
    "answer": 1,
-   "explain": "The phrase depends on “rested” and tells where, so it is a prepositional phrase used as an adverb."
+   "explain": "The phrase depends on “rested” and tells where, so it is a prepositional phrase used as an adverb.",
+   "level": 1
   },
   {
    "id": "ph-A04",
@@ -114,7 +132,8 @@ ARS.exercises['v.ex.phrase'] = {
     "A phrase is always shorter and contains no noun"
    ],
    "answer": 2,
-   "explain": "A phrase does the work of one part of speech and has no subject and finite verb of its own; a clause has both. Phrases may be used as nouns, adjectives, or adverbs, and many do not begin with a preposition."
+   "explain": "A phrase does the work of one part of speech and has no subject and finite verb of its own; a clause has both. Phrases may be used as nouns, adjectives, or adverbs, and many do not begin with a preposition.",
+   "level": 1
   },
   {
    "id": "ph-A05",
@@ -129,7 +148,8 @@ ARS.exercises['v.ex.phrase'] = {
     "A gerund phrase"
    ],
    "answer": 3,
-   "explain": "The <i>-ing</i> form names the action and the phrase is the subject of “was,” so it is a gerund phrase. A participial phrase would describe a noun."
+   "explain": "The <i>-ing</i> form names the action and the phrase is the subject of “was,” so it is a gerund phrase. A participial phrase would describe a noun.",
+   "level": 1
   },
   {
    "id": "ph-A06",
@@ -144,7 +164,8 @@ ARS.exercises['v.ex.phrase'] = {
     "Because it governs <i>senātum</i>"
    ],
    "answer": 0,
-   "explain": "<i>Cōnsul</i> is in apposition to <i>Cicerō</i>: it refers to the same person and so takes the same case. Apposition is a kind of agreement."
+   "explain": "<i>Cōnsul</i> is in apposition to <i>Cicerō</i>: it refers to the same person and so takes the same case. Apposition is a kind of agreement.",
+   "level": 1
   },
   {
    "id": "ph-A07",
@@ -163,7 +184,8 @@ ARS.exercises['v.ex.phrase'] = {
     0,
     1
    ],
-   "explain": "<i>Hieme adventante</i> is a noun and a participle in the ablative, loosed from the main clause, and it tells when the farmers stored the grain."
+   "explain": "<i>Hieme adventante</i> is a noun and a participle in the ablative, loosed from the main clause, and it tells when the farmers stored the grain.",
+   "level": 2
   },
   {
    "id": "ph-A08",
@@ -175,7 +197,8 @@ ARS.exercises['v.ex.phrase'] = {
     "Because the road was closed, we turned back.",
     "Because the road was closed we turned back."
    ],
-   "explain": "English usually prefers a clause to the nominative absolute: “Because the road was closed, we turned back.”"
+   "explain": "English usually prefers a clause to the nominative absolute: “Because the road was closed, we turned back.”",
+   "level": 2
   },
   {
    "id": "ph-B01",
@@ -204,7 +227,8 @@ ARS.exercises['v.ex.phrase'] = {
     0,
     2
    ],
-   "explain": "By function, a phrase is named from how it is used: as a noun (a subject or object), as an adjective (depending on a noun), or as an adverb (depending on a verb and telling when, where, or how)."
+   "explain": "By function, a phrase is named from how it is used: as a noun (a subject or object), as an adjective (depending on a noun), or as an adverb (depending on a verb and telling when, where, or how).",
+   "level": 1
   },
   {
    "id": "ph-B02",
@@ -219,7 +243,8 @@ ARS.exercises['v.ex.phrase'] = {
     "in the barn."
    ],
    "answer": 0,
-   "explain": "“Tired by the long march” is built on the participle “tired” and describes “the soldiers,” as an adjective does, so it is a participial phrase. “In the barn” is a prepositional phrase that depends on “slept.”"
+   "explain": "“Tired by the long march” is built on the participle “tired” and describes “the soldiers,” as an adjective does, so it is a participial phrase. “In the barn” is a prepositional phrase that depends on “slept.”",
+   "level": 2
   },
   {
    "id": "ph-B03",
@@ -234,7 +259,8 @@ ARS.exercises['v.ex.phrase'] = {
     "“The”"
    ],
    "answer": 2,
-   "explain": "“Over the river” tells which bridge, so it depends on “bridge” and is used as an adjective."
+   "explain": "“Over the river” tells which bridge, so it depends on “bridge” and is used as an adjective.",
+   "level": 1
   },
   {
    "id": "ph-B04",
@@ -249,7 +275,8 @@ ARS.exercises['v.ex.phrase'] = {
     "As an adverb"
    ],
    "answer": 3,
-   "explain": "The infinitive phrase depends on “waited” and tells why she waited, so it is used as an adverb."
+   "explain": "The infinitive phrase depends on “waited” and tells why she waited, so it is used as an adverb.",
+   "level": 1
   },
   {
    "id": "ph-B05",
@@ -264,7 +291,8 @@ ARS.exercises['v.ex.phrase'] = {
     "A clause"
    ],
    "answer": 0,
-   "explain": "It is a noun phrase set beside “my neighbor” to identify him, with no verb or conjunction to join it, so it is an appositive phrase."
+   "explain": "It is a noun phrase set beside “my neighbor” to identify him, with no verb or conjunction to join it, so it is an appositive phrase.",
+   "level": 1
   },
   {
    "id": "ph-B06",
@@ -279,7 +307,8 @@ ARS.exercises['v.ex.phrase'] = {
     "The subject of the sentence"
    ],
    "answer": 1,
-   "explain": "<i>Mīlitibus fessīs</i> stands apart from the main clause and tells the circumstance, or the cause, of the general’s pitching camp: because the soldiers were tired."
+   "explain": "<i>Mīlitibus fessīs</i> stands apart from the main clause and tells the circumstance, or the cause, of the general’s pitching camp: because the soldiers were tired.",
+   "level": 1
   },
   {
    "id": "ph-B07",
@@ -293,7 +322,8 @@ ARS.exercises['v.ex.phrase'] = {
     "When the bell rang, the pupils left.",
     "When the bell rang the pupils left."
    ],
-   "explain": "The nominative absolute tells the time of the main action, so a clause with “when” and the pluperfect gives the same sense."
+   "explain": "The nominative absolute tells the time of the main action, so a clause with “when” and the pluperfect gives the same sense.",
+   "level": 2
   },
   {
    "id": "ph-B08",
@@ -308,7 +338,8 @@ ARS.exercises['v.ex.phrase'] = {
     "A gerund phrase"
    ],
    "answer": 3,
-   "explain": "The phrase names the action and is the subject of “tired,” so it is a gerund phrase. In “Waving to the crowd, she smiled” the same words would be a participial phrase describing “she.”"
+   "explain": "The phrase names the action and is the subject of “tired,” so it is a gerund phrase. In “Waving to the crowd, she smiled” the same words would be a participial phrase describing “she.”",
+   "level": 1
   },
   {
    "id": "ph-C01",
@@ -339,7 +370,8 @@ ARS.exercises['v.ex.phrase'] = {
     4,
     0
    ],
-   "explain": "By form: “under the stairs” and “without a word” begin with a preposition; “shouting for help” describes the boy; “painting portraits” is an <i>-ing</i> form used as the subject; “to finish early” is built on the infinitive; “a city of canals” renames Bruges."
+   "explain": "By form: “under the stairs” and “without a word” begin with a preposition; “shouting for help” describes the boy; “painting portraits” is an <i>-ing</i> form used as the subject; “to finish early” is built on the infinitive; “a city of canals” renames Bruges.",
+   "level": 1
   },
   {
    "id": "ph-C02",
@@ -354,7 +386,8 @@ ARS.exercises['v.ex.phrase'] = {
     "on Monday."
    ],
    "answer": 3,
-   "explain": "“On Monday” depends on “arrived” and tells when, so it is used as an adverb. “From the bishop” depends on “letter.”"
+   "explain": "“On Monday” depends on “arrived” and tells when, so it is used as an adverb. “From the bishop” depends on “letter.”",
+   "level": 2
   },
   {
    "id": "ph-C03",
@@ -369,7 +402,8 @@ ARS.exercises['v.ex.phrase'] = {
     "As an adjective"
    ],
    "answer": 3,
-   "explain": "The phrase tells which view, so it depends on the noun “view” and is used as an adjective."
+   "explain": "The phrase tells which view, so it depends on the noun “view” and is used as an adjective.",
+   "level": 1
   },
   {
    "id": "ph-C04",
@@ -384,7 +418,8 @@ ARS.exercises['v.ex.phrase'] = {
     "“the man near the cart”"
    ],
    "answer": 0,
-   "explain": "“Who mended the cart” has a subject, “who,” and a finite verb, “mended,” so it is a clause. The others are built on prepositions or a participle and have no finite verb."
+   "explain": "“Who mended the cart” has a subject, “who,” and a finite verb, “mended,” so it is a clause. The others are built on prepositions or a participle and have no finite verb.",
+   "level": 1
   },
   {
    "id": "ph-C05",
@@ -399,7 +434,8 @@ ARS.exercises['v.ex.phrase'] = {
     "As the subject"
    ],
    "answer": 1,
-   "explain": "The infinitive phrase determines the adjective “proud,” telling in what respect he was proud; a word or phrase that determines an adjective is used as an adverb."
+   "explain": "The infinitive phrase determines the adjective “proud,” telling in what respect he was proud; a word or phrase that determines an adjective is used as an adverb.",
+   "level": 1
   },
   {
    "id": "ph-C06",
@@ -414,7 +450,8 @@ ARS.exercises['v.ex.phrase'] = {
     "The infinitive phrase"
    ],
    "answer": 2,
-   "explain": "Both set a noun and a participle apart from the main construction to tell its circumstances; Latin uses the ablative case, and uses the construction much more often."
+   "explain": "Both set a noun and a participle apart from the main construction to tell its circumstances; Latin uses the ablative case, and uses the construction much more often.",
+   "level": 1
   },
   {
    "id": "ph-C07",
@@ -432,7 +469,8 @@ ARS.exercises['v.ex.phrase'] = {
     0,
     1
    ],
-   "explain": "<i>Duce interfectō</i>, a noun and a perfect participle in the ablative, tells what had happened before the enemy fled."
+   "explain": "<i>Duce interfectō</i>, a noun and a perfect participle in the ablative, tells what had happened before the enemy fled.",
+   "level": 2
   },
   {
    "id": "ph-C08",
@@ -447,7 +485,134 @@ ARS.exercises['v.ex.phrase'] = {
     "Whether it stands first"
    ],
    "answer": 0,
-   "explain": "A phrase is named by function from the word on which it depends: on a noun it is used as an adjective, on a verb as an adverb."
+   "explain": "A phrase is named by function from the word on which it depends: on a noun it is used as an adjective, on a verb as an adverb.",
+   "level": 1
+  },
+  {
+   "id": "ph-L2-01",
+   "set": "A",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "identify",
+   "prompt": "(Luke 2:8, King James Version.) Click every participial phrase.",
+   "answer": [
+    1,
+    2
+   ],
+   "explain": "“Abiding in the field” and “keeping watch over their flock by night” are both participial phrases describing “shepherds.”",
+   "tokens": [
+    "And there were in the same country shepherds",
+    "abiding in the field,",
+    "keeping watch over their flock by night."
+   ],
+   "source": "Luke 2:8, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "ph-L2-02",
+   "set": "B",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "identify",
+   "prompt": "(Luke 10:30, King James Version.) Click the participial phrase.",
+   "answer": 2,
+   "explain": "“Leaving him half dead” has a participle and no finite verb. The part with “which” is a clause.",
+   "tokens": [
+    "A certain man went down from Jerusalem to Jericho, and fell among thieves,",
+    "which stripped him of his raiment, and wounded him, and departed,",
+    "leaving him half dead."
+   ],
+   "source": "Luke 10:30, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "ph-L2-03",
+   "set": "A",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "identify",
+   "prompt": "(Psalm 1:3, King James Version.) Click the phrase that depends on “tree” (not the clause).",
+   "answer": 1,
+   "explain": "“Planted by the rivers of water” is a participial phrase describing the tree. “That bringeth forth his fruit” has a finite verb, so it is a clause.",
+   "tokens": [
+    "And he shall be like a tree",
+    "planted by the rivers of water,",
+    "that bringeth forth his fruit in his season;"
+   ],
+   "source": "Psalm 1:3, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "ph-L2-04",
+   "set": "B",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "identify",
+   "prompt": "(Vergil, <i>Aeneid</i> I.8: “Muse, tell me the causes, what divinity having been wounded.”) Click the words of the ablative absolute.",
+   "explain": "<i>Quo numine laeso</i> is a noun with a participle in the ablative, standing apart from the main construction: “what divinity being wounded.”",
+   "tokens": [
+    "Musa,",
+    "mihi",
+    "causas",
+    "memora,",
+    "quo",
+    "numine",
+    "laeso,"
+   ],
+   "answer": [
+    4,
+    5,
+    6
+   ],
+   "source": "Vergil, Aeneid, Book I, line 8; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "ph-L2-05",
+   "set": "A",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "mc",
+   "prompt": "“Consider the lilies of the field, how they grow.” (Matthew 6:28, King James Version.) How is “of the field” used?",
+   "options": [
+    "As an adjective: it depends on “lilies”",
+    "As an adverb: it depends on “Consider”",
+    "As a noun: it is the object",
+    "As an absolute phrase"
+   ],
+   "answer": 0,
+   "explain": "It tells which lilies, so it is an adjective phrase depending on “lilies.”",
+   "source": "Matthew 6:28, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "ph-L2-06",
+   "set": "B",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "mc",
+   "prompt": "“By the rivers of Babylon, there we sat down.” (Psalm 137:1, King James Version.) How is “By the rivers of Babylon” used?",
+   "options": [
+    "As an adverb: it tells where they sat",
+    "As an adjective: it depends on “we”",
+    "As a noun: it is the subject",
+    "As an absolute phrase"
+   ],
+   "answer": 0,
+   "explain": "The phrase tells where, so it depends on the verb “sat” and is used as an adverb.",
+   "source": "Psalm 137:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "ph-L2-07",
+   "set": "A",
+   "level": 2,
+   "deck": "v.phrase",
+   "type": "mc",
+   "prompt": "“Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king” (Matthew 2:1, King James Version). What is “the king”?",
+   "options": [
+    "An appositive to “Herod”",
+    "The object of “of”",
+    "An adverb phrase",
+    "A participial phrase"
+   ],
+   "answer": 0,
+   "explain": "“The king” stands beside “Herod” and names the same person, so it is in apposition.",
+   "source": "Matthew 2:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   }
  ]
 };

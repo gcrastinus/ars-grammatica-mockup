@@ -1,4 +1,7 @@
-/* The Clause [v.ex.clause]  Exercise set opened from the Exercise button of v.clause. Written 24 items in three fixed sets. */
+/* The Clause [v.ex.clause]  Exercise set opened from the Exercise button of v.clause. Written; 32 items in 2 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize clauses and their uses (choose or sort). Level II: find and name clauses in real sentences from the King James Bible and Austen, and combine or rewrite clauses.
+   Level I (18), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.ex.clause'] = {
@@ -32,12 +35,24 @@ ARS.exercises['v.ex.clause'] = {
   "mc",
   "transform"
  ],
- "pool": 24,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 32,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 8,
-  "B": 8,
+  "A": 12,
+  "B": 12,
   "C": 8
+ },
+ "levels": {
+  "pass": 1,
+  "top": 2,
+  "names": {
+   "1": "Recognize clauses and their uses: choose or sort.",
+   "2": "Find and name clauses in real sentences; combine and rewrite."
+  },
+  "counts": {
+   "1": 18,
+   "2": 14
+  }
  },
  "limit": "Only what v.clause teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
@@ -69,7 +84,8 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition."
+   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "level": 1
   },
   {
    "id": "cl-A02",
@@ -83,7 +99,8 @@ ARS.exercises['v.ex.clause'] = {
     "where the path divided."
    ],
    "answer": 2,
-   "explain": "“Where the path divided” has its own subject and verb but cannot stand alone; it depends on “rested” and tells where."
+   "explain": "“Where the path divided” has its own subject and verb but cannot stand alone; it depends on “rested” and tells where.",
+   "level": 2
   },
   {
    "id": "cl-A03",
@@ -98,7 +115,8 @@ ARS.exercises['v.ex.clause'] = {
     "“sway”"
    ],
    "answer": 0,
-   "explain": "The simple subject is the noun itself, “pines”; the complete subject is “The tall pines of the ridge,” with the words that depend on it."
+   "explain": "The simple subject is the noun itself, “pines”; the complete subject is “The tall pines of the ridge,” with the words that depend on it.",
+   "level": 1
   },
   {
    "id": "cl-A04",
@@ -113,7 +131,8 @@ ARS.exercises['v.ex.clause'] = {
     "Subject, linking verb, predicate noun"
    ],
    "answer": 1,
-   "explain": "“A rake” is the direct object, what was handed, and “the boy” the indirect object, to whom it was handed."
+   "explain": "“A rake” is the direct object, what was handed, and “the boy” the indirect object, to whom it was handed.",
+   "level": 1
   },
   {
    "id": "cl-A05",
@@ -145,7 +164,8 @@ ARS.exercises['v.ex.clause'] = {
     4,
     5
    ],
-   "explain": "The conjunction usually shows the kind: “while” time, “because” cause, “unless” condition, “though” concession, “so that” purpose, and “so … that” after a word of degree result."
+   "explain": "The conjunction usually shows the kind: “while” time, “because” cause, “unless” condition, “though” concession, “so that” purpose, and “so … that” after a word of degree result.",
+   "level": 1
   },
   {
    "id": "cl-A06",
@@ -160,7 +180,8 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 3,
-   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a dependent clause. Two independent clauses with a dependent one make a compound-complex sentence."
+   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a dependent clause. Two independent clauses with a dependent one make a compound-complex sentence.",
+   "level": 1
   },
   {
    "id": "cl-A07",
@@ -171,7 +192,8 @@ ARS.exercises['v.ex.clause'] = {
    "accept": [
     "The sailor who rescued us was brave."
    ],
-   "explain": "The second statement becomes the main clause, and the first becomes an adjective clause depending on “sailor”: “The sailor who rescued us was brave.”"
+   "explain": "The second statement becomes the main clause, and the first becomes an adjective clause depending on “sailor”: “The sailor who rescued us was brave.”",
+   "level": 2
   },
   {
    "id": "cl-A08",
@@ -186,7 +208,8 @@ ARS.exercises['v.ex.clause'] = {
     "By the vocative"
    ],
    "answer": 1,
-   "explain": "Where English uses a clause with “that,” Latin usually uses the accusative and the infinitive: <i>dīcit urbem tūtam esse</i>, “he says that the city is safe.”"
+   "explain": "Where English uses a clause with “that,” Latin usually uses the accusative and the infinitive: <i>dīcit urbem tūtam esse</i>, “he says that the city is safe.”",
+   "level": 1
   },
   {
    "id": "cl-B01",
@@ -215,7 +238,8 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition."
+   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "level": 1
   },
   {
    "id": "cl-B02",
@@ -230,7 +254,8 @@ ARS.exercises['v.ex.clause'] = {
     "payment."
    ],
    "answer": 1,
-   "explain": "“Who repaired the clock” tells which man, so it is an adjective clause depending on “man.” The independent clause is “The man … refused payment.”"
+   "explain": "“Who repaired the clock” tells which man, so it is an adjective clause depending on “man.” The independent clause is “The man … refused payment.”",
+   "level": 2
   },
   {
    "id": "cl-B03",
@@ -245,7 +270,8 @@ ARS.exercises['v.ex.clause'] = {
     "“the valley”"
    ],
    "answer": 1,
-   "explain": "The complete predicate is the verb with all the words that depend on it: “covered the valley.” The simple predicate is “covered.”"
+   "explain": "The complete predicate is the verb with all the words that depend on it: “covered the valley.” The simple predicate is “covered.”",
+   "level": 1
   },
   {
    "id": "cl-B04",
@@ -260,7 +286,8 @@ ARS.exercises['v.ex.clause'] = {
     "Subject, linking verb, predicate noun"
    ],
    "answer": 2,
-   "explain": "“Seemed” is a linking verb, and “sad” describes the subject, so the pattern is subject, linking verb, and predicate adjective."
+   "explain": "“Seemed” is a linking verb, and “sad” describes the subject, so the pattern is subject, linking verb, and predicate adjective.",
+   "level": 1
   },
   {
    "id": "cl-B05",
@@ -290,7 +317,8 @@ ARS.exercises['v.ex.clause'] = {
     0,
     2
    ],
-   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause."
+   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause.",
+   "level": 1
   },
   {
    "id": "cl-B06",
@@ -305,7 +333,8 @@ ARS.exercises['v.ex.clause'] = {
     "The tense of the main verb"
    ],
    "answer": 0,
-   "explain": "A purpose clause is negated by <i>nē</i> and a result clause by <i>ut nōn</i>, and a result clause is usually prepared by a word of degree such as <i>tam</i> in the main clause. Both take the subjunctive."
+   "explain": "A purpose clause is negated by <i>nē</i> and a result clause by <i>ut nōn</i>, and a result clause is usually prepared by a word of degree such as <i>tam</i> in the main clause. Both take the subjunctive.",
+   "level": 1
   },
   {
    "id": "cl-B07",
@@ -317,7 +346,8 @@ ARS.exercises['v.ex.clause'] = {
     "The bridge, which was old, collapsed in the flood.",
     "The bridge which was old collapsed in the flood."
    ],
-   "explain": "“Which was old” becomes an adjective clause depending on “bridge,” set off by commas because it describes the bridge without telling which bridge."
+   "explain": "“Which was old” becomes an adjective clause depending on “bridge,” set off by commas because it describes the bridge without telling which bridge.",
+   "level": 2
   },
   {
    "id": "cl-B08",
@@ -332,7 +362,8 @@ ARS.exercises['v.ex.clause'] = {
     "A result"
    ],
    "answer": 2,
-   "explain": "The clause grants that the tickets were expensive and holds that they went all the same, so it is a concession. A condition would make the going hold only in some case."
+   "explain": "The clause grants that the tickets were expensive and holds that they went all the same, so it is a concession. A condition would make the going hold only in some case.",
+   "level": 1
   },
   {
    "id": "cl-C01",
@@ -361,7 +392,8 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition."
+   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "level": 1
   },
   {
    "id": "cl-C02",
@@ -374,7 +406,8 @@ ARS.exercises['v.ex.clause'] = {
     "the cook lit the ovens."
    ],
    "answer": 1,
-   "explain": "“The cook lit the ovens” can stand alone; “before the visitors came” depends on “lit” and tells when."
+   "explain": "“The cook lit the ovens” can stand alone; “before the visitors came” depends on “lit” and tells when.",
+   "level": 2
   },
   {
    "id": "cl-C03",
@@ -389,7 +422,8 @@ ARS.exercises['v.ex.clause'] = {
     "<i>frēgit</i>"
    ],
    "answer": 2,
-   "explain": "The simple subject is the noun <i>tempestās</i>; the complete subject is <i>ingēns tempestās</i>, and the complete predicate <i>nāvem frēgit</i>."
+   "explain": "The simple subject is the noun <i>tempestās</i>; the complete subject is <i>ingēns tempestās</i>, and the complete predicate <i>nāvem frēgit</i>.",
+   "level": 1
   },
   {
    "id": "cl-C04",
@@ -404,7 +438,8 @@ ARS.exercises['v.ex.clause'] = {
     "Subject, verb, direct object, objective complement"
    ],
    "answer": 3,
-   "explain": "“The ship” is the direct object, and “Endeavour” completes it by naming it; so the pattern is subject, verb, direct object, and objective complement."
+   "explain": "“The ship” is the direct object, and “Endeavour” completes it by naming it; so the pattern is subject, verb, direct object, and objective complement.",
+   "level": 1
   },
   {
    "id": "cl-C05",
@@ -434,7 +469,8 @@ ARS.exercises['v.ex.clause'] = {
     0,
     2
    ],
-   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause."
+   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause.",
+   "level": 1
   },
   {
    "id": "cl-C06",
@@ -449,7 +485,8 @@ ARS.exercises['v.ex.clause'] = {
     "The period"
    ],
    "answer": 1,
-   "explain": "Parataxis (Greek, “placing beside”) joins clauses of equal rank; hypotaxis (“placing under”) joins a dependent clause to a main clause."
+   "explain": "Parataxis (Greek, “placing beside”) joins clauses of equal rank; hypotaxis (“placing under”) joins a dependent clause to a main clause.",
+   "level": 1
   },
   {
    "id": "cl-C07",
@@ -461,7 +498,8 @@ ARS.exercises['v.ex.clause'] = {
     "She said that the spring was dry.",
     "She said that the spring is dry."
    ],
-   "explain": "Indirect speech reports the words in a noun clause with “that,” and the tense usually moves back after a past verb of saying: “She said that the spring was dry.”"
+   "explain": "Indirect speech reports the words in a noun clause with “that,” and the tense usually moves back after a past verb of saying: “She said that the spring was dry.”",
+   "level": 2
   },
   {
    "id": "cl-C08",
@@ -476,7 +514,138 @@ ARS.exercises['v.ex.clause'] = {
     "A result"
    ],
    "answer": 3,
-   "explain": "The clause tells what followed from his hunger, prepared by the word of degree “so,” so it is a result clause."
+   "explain": "The clause tells what followed from his hunger, prepared by the word of degree “so,” so it is a result clause.",
+   "level": 1
+  },
+  {
+   "id": "cl-L2-01",
+   "set": "A",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "identify",
+   "prompt": "(Psalm 121:1, King James Version.) Click the dependent clause.",
+   "answer": 1,
+   "explain": "“From whence cometh my help” has its own verb and subject but depends on “hills”; it tells which hills.",
+   "tokens": [
+    "I will lift up mine eyes unto the hills,",
+    "from whence cometh my help."
+   ],
+   "source": "Psalm 121:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-02",
+   "set": "B",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "identify",
+   "prompt": "(Matthew 5:14, King James Version.) Click the dependent clause.",
+   "answer": 1,
+   "explain": "“That is set on an hill” is an adjective clause depending on “city.”",
+   "tokens": [
+    "A city",
+    "that is set on an hill",
+    "cannot be hid."
+   ],
+   "source": "Matthew 5:14, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-03",
+   "set": "A",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "identify",
+   "prompt": "(Acts 2:2, King James Version.) Click the dependent clause.",
+   "answer": 2,
+   "explain": "“Where they were sitting” depends on “house” and tells which house. The other two parts are independent clauses joined by “and.”",
+   "tokens": [
+    "And suddenly there came a sound from heaven as of a rushing mighty wind,",
+    "and it filled all the house",
+    "where they were sitting."
+   ],
+   "source": "Acts 2:2, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-04",
+   "set": "B",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "identify",
+   "prompt": "(Matthew 6:21, King James Version.) Click the independent clause.",
+   "answer": 1,
+   "explain": "“Where your treasure is” cannot stand alone; “there will your heart be also” can.",
+   "tokens": [
+    "For where your treasure is,",
+    "there will your heart be also."
+   ],
+   "source": "Matthew 6:21, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-05",
+   "set": "A",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“And the wind ceased, and there was a great calm.” (Mark 4:39, King James Version.) What kind of sentence is it?",
+   "options": [
+    "Simple",
+    "Compound",
+    "Complex",
+    "Compound-complex"
+   ],
+   "answer": 1,
+   "explain": "Two independent clauses joined by “and,” with no dependent clause: a compound sentence.",
+   "source": "Mark 4:39, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-06",
+   "set": "B",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up.” (Matthew 13:4, King James Version.) What kind of sentence is it?",
+   "options": [
+    "Simple",
+    "Compound",
+    "Complex",
+    "Compound-complex"
+   ],
+   "answer": 3,
+   "explain": "Two independent clauses, “some seeds fell” and “the fowls came and devoured,” and one dependent clause, “when he sowed”: compound-complex.",
+   "source": "Matthew 13:4, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-07",
+   "set": "A",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“I will lift up mine eyes unto the hills, from whence cometh my help.” (Psalm 121:1, King James Version.) What kind of sentence is it?",
+   "options": [
+    "Simple",
+    "Compound",
+    "Complex",
+    "Compound-complex"
+   ],
+   "answer": 2,
+   "explain": "One independent clause and one dependent clause, “from whence cometh my help”: a complex sentence.",
+   "source": "Psalm 121:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "cl-L2-08",
+   "set": "B",
+   "level": 2,
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) How is the clause “that a single man … must be in want of a wife” used?",
+   "options": [
+    "As a noun clause: it is the real subject, which “It” stands for",
+    "As an adjective clause depending on “truth”",
+    "As an adverb clause telling why",
+    "As an independent clause"
+   ],
+   "answer": 0,
+   "explain": "“It” only holds the place; the “that” clause is what is acknowledged as a truth. A clause used as a subject is a noun clause.",
+   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342 (Pride and Prejudice)"
   }
  ]
 };

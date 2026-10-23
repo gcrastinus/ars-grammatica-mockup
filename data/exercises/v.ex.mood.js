@@ -1,4 +1,7 @@
-/* Mood and Voice in Construction [v.ex.mood]  Exercise set opened from the Exercise button of v.mood. Written 24 items in three fixed sets. */
+/* Mood and Voice in Construction [v.ex.mood]  Exercise set opened from the Exercise button of v.mood. Written; 32 items in 2 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize the uses of the moods, the infinitive, and the verbals (choose or sort). Level II: find and explain them in real sentences from Cicero, Caesar, and Vergil, and rewrite verbal phrases as clauses.
+   Level I (18), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.ex.mood'] = {
@@ -32,12 +35,24 @@ ARS.exercises['v.ex.mood'] = {
   "mc",
   "transform"
  ],
- "pool": 24,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 32,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 8,
-  "B": 8,
+  "A": 12,
+  "B": 12,
   "C": 8
+ },
+ "levels": {
+  "pass": 1,
+  "top": 2,
+  "names": {
+   "1": "Recognize the uses of the moods and verbals: choose or sort.",
+   "2": "Find and explain them in real Latin; rewrite verbal phrases as clauses."
+  },
+  "counts": {
+   "1": 18,
+   "2": 14
+  }
  },
  "limit": "Only what v.mood teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
@@ -68,7 +83,8 @@ ARS.exercises['v.ex.mood'] = {
     0,
     1
    ],
-   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both."
+   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both.",
+   "level": 1
   },
   {
    "id": "md-A02",
@@ -99,7 +115,8 @@ ARS.exercises['v.ex.mood'] = {
     4,
     0
    ],
-   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential)."
+   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential).",
+   "level": 1
   },
   {
    "id": "md-A03",
@@ -114,7 +131,8 @@ ARS.exercises['v.ex.mood'] = {
     "<i>venīre</i>"
    ],
    "answer": 2,
-   "explain": "In the accusative and infinitive, the subject of the reported statement is in the accusative, <i>Gallōs</i>, and its verb is the infinitive <i>venīre</i>."
+   "explain": "In the accusative and infinitive, the subject of the reported statement is in the accusative, <i>Gallōs</i>, and its verb is the infinitive <i>venīre</i>.",
+   "level": 2
   },
   {
    "id": "md-A04",
@@ -129,7 +147,8 @@ ARS.exercises['v.ex.mood'] = {
     "“People run”"
    ],
    "answer": 3,
-   "explain": "<i>Currō</i> (“I run”) is intransitive, so its passive is used impersonally, in the third person singular, to say that the action takes place without naming who does it: “people run,” “there is running.”"
+   "explain": "<i>Currō</i> (“I run”) is intransitive, so its passive is used impersonally, in the third person singular, to say that the action takes place without naming who does it: “people run,” “there is running.”",
+   "level": 1
   },
   {
    "id": "md-A05",
@@ -144,7 +163,8 @@ ARS.exercises['v.ex.mood'] = {
     "The infinitive of indirect statement"
    ],
    "answer": 0,
-   "explain": "<i>Incipiō</i> does not finish its sense by itself, so the infinitive completes it: the complementary infinitive."
+   "explain": "<i>Incipiō</i> does not finish its sense by itself, so the infinitive completes it: the complementary infinitive.",
+   "level": 1
   },
   {
    "id": "md-A06",
@@ -159,7 +179,8 @@ ARS.exercises['v.ex.mood'] = {
     "No time at all"
    ],
    "answer": 1,
-   "explain": "The future infinitive shows a time later than the main verb: the coming was still to happen when he spoke."
+   "explain": "The future infinitive shows a time later than the main verb: the coming was still to happen when he spoke.",
+   "level": 1
   },
   {
    "id": "md-A07",
@@ -172,7 +193,8 @@ ARS.exercises['v.ex.mood'] = {
     "Because they feared the storm the fishermen stayed ashore.",
     "Because the fishermen feared the storm, they stayed ashore."
    ],
-   "explain": "A participle often contains a relation, here cause, that English can state with a conjunction: “Because they feared the storm, the fishermen stayed ashore.”"
+   "explain": "A participle often contains a relation, here cause, that English can state with a conjunction: “Because they feared the storm, the fishermen stayed ashore.”",
+   "level": 2
   },
   {
    "id": "md-A08",
@@ -187,7 +209,8 @@ ARS.exercises['v.ex.mood'] = {
     "“for building a bridge”"
    ],
    "answer": 3,
-   "explain": "<i>Aedificandum</i> is a gerundive agreeing with <i>pontem</i>; with <i>ad</i> it expresses purpose: “for building a bridge.”"
+   "explain": "<i>Aedificandum</i> is a gerundive agreeing with <i>pontem</i>; with <i>ad</i> it expresses purpose: “for building a bridge.”",
+   "level": 1
   },
   {
    "id": "md-B01",
@@ -215,7 +238,8 @@ ARS.exercises['v.ex.mood'] = {
     0,
     1
    ],
-   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both."
+   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both.",
+   "level": 1
   },
   {
    "id": "md-B02",
@@ -246,7 +270,8 @@ ARS.exercises['v.ex.mood'] = {
     4,
     1
    ],
-   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential)."
+   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential).",
+   "level": 1
   },
   {
    "id": "md-B03",
@@ -260,7 +285,8 @@ ARS.exercises['v.ex.mood'] = {
     "<i>dormīre</i>"
    ],
    "answer": 2,
-   "explain": "<i>Dormīre</i> is the present infinitive of the reported statement; its subject is the accusative <i>puerōs</i>, and the present shows the same time as <i>putō</i>."
+   "explain": "<i>Dormīre</i> is the present infinitive of the reported statement; its subject is the accusative <i>puerōs</i>, and the present shows the same time as <i>putō</i>.",
+   "level": 2
   },
   {
    "id": "md-B04",
@@ -275,7 +301,8 @@ ARS.exercises['v.ex.mood'] = {
     "The perfect indicative"
    ],
    "answer": 0,
-   "explain": "<i>Mīsit</i> is past, so by the sequence of tenses the dependent clause has the imperfect subjunctive: <i>mīsit ut vidēret</i>."
+   "explain": "<i>Mīsit</i> is past, so by the sequence of tenses the dependent clause has the imperfect subjunctive: <i>mīsit ut vidēret</i>.",
+   "level": 1
   },
   {
    "id": "md-B05",
@@ -290,7 +317,8 @@ ARS.exercises['v.ex.mood'] = {
     "The infinitive of purpose"
    ],
    "answer": 1,
-   "explain": "<i>Dēbeō</i> requires another verb to finish its sense, so <i>dēfendere</i> is a complementary infinitive."
+   "explain": "<i>Dēbeō</i> requires another verb to finish its sense, so <i>dēfendere</i> is a complementary infinitive.",
+   "level": 1
   },
   {
    "id": "md-B06",
@@ -305,7 +333,8 @@ ARS.exercises['v.ex.mood'] = {
     "No word names them"
    ],
    "answer": 2,
-   "explain": "In the passive periphrastic the person who must do the action is in the dative of agent: <i>hominibus</i>."
+   "explain": "In the passive periphrastic the person who must do the action is in the dative of agent: <i>hominibus</i>.",
+   "level": 1
   },
   {
    "id": "md-B07",
@@ -321,7 +350,8 @@ ARS.exercises['v.ex.mood'] = {
     "When the meal finished, the guests rose.",
     "When the meal finished the guests rose."
    ],
-   "explain": "English usually turns an absolute phrase into a clause with a conjunction; here the phrase tells the time."
+   "explain": "English usually turns an absolute phrase into a clause with a conjunction; here the phrase tells the time.",
+   "level": 2
   },
   {
    "id": "md-B08",
@@ -336,7 +366,8 @@ ARS.exercises['v.ex.mood'] = {
     "An infinitive"
    ],
    "answer": 0,
-   "explain": "<i>Petendae</i> is a gerundive agreeing with <i>pācis</i>, genitive singular feminine; Latin uses the gerundive with a noun in place of the gerund with an object."
+   "explain": "<i>Petendae</i> is a gerundive agreeing with <i>pācis</i>, genitive singular feminine; Latin uses the gerundive with a noun in place of the gerund with an object.",
+   "level": 1
   },
   {
    "id": "md-C01",
@@ -364,7 +395,8 @@ ARS.exercises['v.ex.mood'] = {
     0,
     1
    ],
-   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both."
+   "explain": "In a passive sentence Latin expresses a person who acts by <i>ā</i> or <i>ab</i> with the ablative (the ablative of agent) and a thing that is used by the ablative alone (the ablative of means). English uses “by” for both.",
+   "level": 1
   },
   {
    "id": "md-C02",
@@ -395,7 +427,8 @@ ARS.exercises['v.ex.mood'] = {
     4,
     0
    ],
-   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential)."
+   "explain": "The independent subjunctive urges in the first person plural (hortatory), commands in the third person (jussive), wishes or prays, often with <i>utinam</i> (optative), asks what one should do (deliberative), and says what may or would happen (potential).",
+   "level": 1
   },
   {
    "id": "md-C03",
@@ -410,7 +443,8 @@ ARS.exercises['v.ex.mood'] = {
     "<i>rotundam</i>"
    ],
    "answer": 1,
-   "explain": "After <i>scīmus</i>, a verb of knowing, the reported statement puts its subject in the accusative, <i>terram</i>, and its verb in the infinitive, <i>esse</i>."
+   "explain": "After <i>scīmus</i>, a verb of knowing, the reported statement puts its subject in the accusative, <i>terram</i>, and its verb in the infinitive, <i>esse</i>.",
+   "level": 2
   },
   {
    "id": "md-C04",
@@ -425,7 +459,8 @@ ARS.exercises['v.ex.mood'] = {
     "Because questions take the imperfect"
    ],
    "answer": 1,
-   "explain": "The indirect question follows the sequence of tenses: after the past <i>rogāvit</i> it has the imperfect subjunctive."
+   "explain": "The indirect question follows the sequence of tenses: after the past <i>rogāvit</i> it has the imperfect subjunctive.",
+   "level": 1
   },
   {
    "id": "md-C05",
@@ -440,7 +475,8 @@ ARS.exercises['v.ex.mood'] = {
     "The ablative of means"
    ],
    "answer": 2,
-   "explain": "A participle, or an ablative absolute, often contains a relation between two actions that English states with a conjunction, as in “the king, fearing danger, fled.”"
+   "explain": "A participle, or an ablative absolute, often contains a relation between two actions that English states with a conjunction, as in “the king, fearing danger, fled.”",
+   "level": 1
   },
   {
    "id": "md-C06",
@@ -455,7 +491,8 @@ ARS.exercises['v.ex.mood'] = {
     "“I must go”"
    ],
    "answer": 3,
-   "explain": "The passive periphrastic of an intransitive verb, used impersonally, with the dative of agent <i>mihi</i>: “it must be gone by me,” that is, “I must go.”"
+   "explain": "The passive periphrastic of an intransitive verb, used impersonally, with the dative of agent <i>mihi</i>: “it must be gone by me,” that is, “I must go.”",
+   "level": 1
   },
   {
    "id": "md-C07",
@@ -468,7 +505,8 @@ ARS.exercises['v.ex.mood'] = {
     "Although he was wounded the soldier fought on.",
     "Although the soldier was wounded, he fought on."
    ],
-   "explain": "The participle “wounded” here grants a fact in spite of which the soldier fought, so English can state it with “although.”"
+   "explain": "The participle “wounded” here grants a fact in spite of which the soldier fought, so English can state it with “although.”",
+   "level": 2
   },
   {
    "id": "md-C08",
@@ -483,7 +521,163 @@ ARS.exercises['v.ex.mood'] = {
     "The infinitive"
    ],
    "answer": 1,
-   "explain": "<i>Ambulēmus</i> is the present subjunctive, first person plural, used as a hortatory subjunctive; the indicative <i>ambulāmus</i> would state “we walk.”"
+   "explain": "<i>Ambulēmus</i> is the present subjunctive, first person plural, used as a hortatory subjunctive; the indicative <i>ambulāmus</i> would state “we walk.”",
+   "level": 1
+  },
+  {
+   "id": "md-L2-01",
+   "set": "A",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "identify",
+   "prompt": "(Cicero, <i>In Catilinam</i> I.1: “you do not perceive that your plans are exposed.”) Click the subject of the infinitive.",
+   "explain": "In indirect statement the subject of the infinitive is accusative: <i>consilia</i> is the subject of <i>patere</i>.",
+   "tokens": [
+    "Patere",
+    "tua",
+    "consilia",
+    "non",
+    "sentis,"
+   ],
+   "answer": 2,
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "md-L2-02",
+   "set": "B",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "identify",
+   "prompt": "(Cicero, <i>In Catilinam</i> I.1: “do you not see that your conspiracy is held bound by the knowledge of all these men?”) Click the subject of the infinitive <i>teneri</i>.",
+   "explain": "<i>Coniurationem</i> is accusative, the subject of <i>teneri</i> after <i>vides</i>; <i>constrictam</i> agrees with it.",
+   "tokens": [
+    "constrictam",
+    "iam",
+    "horum",
+    "omnium",
+    "scientia",
+    "teneri",
+    "coniurationem",
+    "tuam",
+    "non",
+    "vides?"
+   ],
+   "answer": 6,
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "md-L2-03",
+   "set": "A",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "identify",
+   "prompt": "(Cicero, <i>In Catilinam</i> I.2: “you, Catiline, ought long ago to have been led to death by the consul’s order.”) Click the subject of the infinitive <i>duci</i>.",
+   "explain": "<i>Te duci</i> is the subject of the impersonal <i>oportebat</i>, and <i>te</i>, accusative, is the subject of the infinitive. <i>Catilina</i> is vocative.",
+   "tokens": [
+    "Ad",
+    "mortem",
+    "te,",
+    "Catilina,",
+    "duci",
+    "iussu",
+    "consulis",
+    "iam",
+    "pridem",
+    "oportebat,"
+   ],
+   "answer": 2,
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "md-L2-04",
+   "set": "B",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "identify",
+   "prompt": "(Vergil, <i>Aeneid</i> I.33: “of so great toil was it to found the Roman race.”) Click the infinitive that is the subject of <i>erat</i>.",
+   "explain": "<i>Romanam condere gentem</i> is the subject: “to found the Roman race was of so great toil.” An infinitive can be used as a noun.",
+   "tokens": [
+    "Tantae",
+    "molis",
+    "erat",
+    "Romanam",
+    "condere",
+    "gentem!"
+   ],
+   "answer": 4,
+   "source": "Vergil, Aeneid, Book I, line 33; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "md-L2-05",
+   "set": "A",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "identify",
+   "prompt": "(Vergil, <i>Aeneid</i> I.19 to 20: “but she had heard that a race was being drawn from Trojan blood.”) Click the subject of the infinitive.",
+   "explain": "After <i>audierat</i>, a verb of hearing, the statement goes into the accusative and infinitive: <i>progeniem duci</i>.",
+   "tokens": [
+    "Progeniem",
+    "sed",
+    "enim",
+    "Troiano",
+    "a",
+    "sanguine",
+    "duci",
+    "audierat,"
+   ],
+   "answer": 0,
+   "source": "Vergil, Aeneid, Book I, lines 19 to 20; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "md-L2-06",
+   "set": "B",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "<i>Forsan et haec olim meminisse iuvabit</i> (Vergil, <i>Aeneid</i> I.203: “perhaps someday it will please us to remember even these things”). How is <i>meminisse</i> used?",
+   "options": [
+    "As the subject of <i>iuvabit</i>",
+    "As a purpose clause",
+    "As a historical infinitive",
+    "As the object of <i>haec</i>"
+   ],
+   "answer": 0,
+   "explain": "“To remember even these things will please”: the infinitive is the subject of the impersonal <i>iuvabit</i>.",
+   "source": "Vergil, Aeneid, Book I, line 203; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "md-L2-07",
+   "set": "A",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "<i>Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris?</i> (Cicero, <i>In Catilinam</i> I.1.) Why are <i>egeris</i>, <i>fueris</i>, <i>convocaveris</i>, and <i>ceperis</i> subjunctive?",
+   "options": [
+    "They are indirect questions, depending on <i>ignorare</i>",
+    "They are purpose clauses",
+    "They are commands",
+    "They are conditions contrary to fact"
+   ],
+   "answer": 0,
+   "explain": "A question that depends on another verb takes the subjunctive. The perfect shows time before the present <i>arbitraris</i>.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "md-L2-08",
+   "set": "B",
+   "level": 2,
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "<i>ea quae ad effeminandos animos pertinent</i> (Caesar, <i>De Bello Gallico</i> I.1). What does <i>ad effeminandos animos</i> mean?",
+   "options": [
+    "“to the weakening of their spirits”",
+    "“having weakened their spirits”",
+    "“the spirits must be weakened”",
+    "“by weakened spirits”"
+   ],
+   "answer": 0,
+   "explain": "<i>Ad</i> with the gerundive and its noun in the accusative shows what something tends toward: the things that serve to weaken their spirits.",
+   "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
   }
  ]
 };
