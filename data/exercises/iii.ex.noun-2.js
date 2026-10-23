@@ -1,4 +1,7 @@
-/* The Noun II: Gender, Number, and Case [iii.ex.noun-2]  Exercise set opened from the Exercise button of iii.noun-2. Written 36 items in three fixed sets. */
+/* The Noun II: Gender, Number, and Case [iii.ex.noun-2]  Exercise set opened from the Exercise button of iii.noun-2. Written; 49 items in 3 levels.
+   LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize gender, number, case, and declension (choose). Level II: produce the form (type). Level III: name the case and form of nouns in real sentences from Vergil, Caesar, Cicero, and the King James Bible.
+   Level I (18), Level II (18), Level III (13). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   "levels": pass at Level II, mastery at Level III (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['iii.ex.noun-2'] = {
@@ -32,12 +35,26 @@ ARS.exercises['iii.ex.noun-2'] = {
   "mc",
   "form"
  ],
- "pool": 36,
- "rotation": "A, B, C, A, … (never shuffled)",
+ "pool": 49,
+ "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C. Level III: sets A, B.",
  "sets": {
-  "A": 12,
-  "B": 12,
+  "A": 19,
+  "B": 18,
   "C": 12
+ },
+ "levels": {
+  "pass": 2,
+  "top": 3,
+  "names": {
+   "1": "Recognize the gender, number, case, and declension of a noun: choose the answer.",
+   "2": "Produce the form from the declension tables: type it.",
+   "3": "Name the case and the form of nouns in real sentences from the Latin authors and the English Bible."
+  },
+  "counts": {
+   "1": 18,
+   "2": 18,
+   "3": 13
+  }
  },
  "limit": "Only the declensions shown in III.6; sentences use verbs only as glossed words. Latin forms are generated from the declension tables and checked exactly.",
  "instr": "Choose the answer or type the form. Macrons are not tested in typed Latin answers.",
@@ -55,7 +72,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Feminine"
    ],
    "answer": 1,
-   "explain": "A noun that is masculine or feminine according to the person meant is of the common gender, as <i>sacerdōs</i> is. An epicene noun keeps one gender whatever the sex of the animal."
+   "explain": "A noun that is masculine or feminine according to the person meant is of the common gender, as <i>sacerdōs</i> is. An epicene noun keeps one gender whatever the sex of the animal.",
+   "level": 1
   },
   {
    "id": "nn2-A02",
@@ -71,7 +89,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "masc."
    ],
    "macrons": false,
-   "explain": "A noun that names a man is masculine, whatever its ending, so <i>scrība</i> is masculine, as <i>nauta</i> is."
+   "explain": "A noun that names a man is masculine, whatever its ending, so <i>scrība</i> is masculine, as <i>nauta</i> is.",
+   "level": 2
   },
   {
    "id": "nn2-A03",
@@ -86,7 +105,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "“deer”"
    ],
    "answer": 3,
-   "explain": "We say “one deer” and “ten deer.” “Goose,” “child,” and “ox” keep older plurals of their own: “geese,” “children,” and “oxen.”"
+   "explain": "We say “one deer” and “ten deer.” “Goose,” “child,” and “ox” keep older plurals of their own: “geese,” “children,” and “oxen.”",
+   "level": 1
   },
   {
    "id": "nn2-A04",
@@ -98,7 +118,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "silvam"
    ],
    "macrons": false,
-   "explain": "The first declension forms the accusative singular in <i>-am</i>, so the form is <i>silvam</i>."
+   "explain": "The first declension forms the accusative singular in <i>-am</i>, so the form is <i>silvam</i>.",
+   "level": 2
   },
   {
    "id": "nn2-A05",
@@ -113,7 +134,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "The possessor"
    ],
    "answer": 1,
-   "explain": "<i>Rēmīs</i> (“with oars”) tells by what means the ship is moved; this is one of the chief uses of the ablative. Possession is usually shown by the genitive."
+   "explain": "<i>Rēmīs</i> (“with oars”) tells by what means the ship is moved; this is one of the chief uses of the ablative. Possession is usually shown by the genitive.",
+   "level": 1
   },
   {
    "id": "nn2-A06",
@@ -125,7 +147,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "horses’",
     "horses'"
    ],
-   "explain": "A plural noun that ends in “-s” forms the possessive by adding the apostrophe alone: “the horses’ stable.”"
+   "explain": "A plural noun that ends in “-s” forms the possessive by adding the apostrophe alone: “the horses’ stable.”",
+   "level": 2
   },
   {
    "id": "nn2-A07",
@@ -140,7 +163,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "The third"
    ],
    "answer": 3,
-   "explain": "The declension is known from the genitive singular, and a genitive in <i>-is</i> marks the third declension. The stem is <i>lēg-</i>, from which English has “legal.”"
+   "explain": "The declension is known from the genitive singular, and a genitive in <i>-is</i> marks the third declension. The stem is <i>lēg-</i>, from which English has “legal.”",
+   "level": 1
   },
   {
    "id": "nn2-A08",
@@ -152,7 +176,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "templīs"
    ],
    "macrons": false,
-   "explain": "The second declension forms the dative and ablative plural in <i>-īs</i>, so the form is <i>templīs</i>."
+   "explain": "The second declension forms the dative and ablative plural in <i>-īs</i>, so the form is <i>templīs</i>.",
+   "level": 2
   },
   {
    "id": "nn2-A09",
@@ -167,7 +192,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "<i>nōminum</i>"
    ],
    "answer": 1,
-   "explain": "A neuter noun ends in <i>-a</i> in the nominative and accusative plural, so the form is <i>nōmina</i>. <i>Nōminī</i> is the dative singular and <i>nōminum</i> the genitive plural; <i>-ēs</i> belongs to masculine and feminine nouns."
+   "explain": "A neuter noun ends in <i>-a</i> in the nominative and accusative plural, so the form is <i>nōmina</i>. <i>Nōminī</i> is the dative singular and <i>nōminum</i> the genitive plural; <i>-ēs</i> belongs to masculine and feminine nouns.",
+   "level": 1
   },
   {
    "id": "nn2-A10",
@@ -179,7 +205,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "speī"
    ],
    "macrons": false,
-   "explain": "<i>Spēs</i> is declined as <i>rēs</i> is, so its genitive singular is <i>speī</i>."
+   "explain": "<i>Spēs</i> is declined as <i>rēs</i> is, so its genitive singular is <i>speī</i>.",
+   "level": 2
   },
   {
    "id": "nn2-A11",
@@ -194,7 +221,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Dative plural"
    ],
    "answer": 2,
-   "explain": "The ending <i>-ēs</i> can be nominative or accusative plural in the third declension. The verb <i>custōdiunt</i> (“they guard”) is plural and needs a subject, and the sense requires that the shepherds guard the sheep, so <i>pāstōrēs</i> is the nominative and <i>ovēs</i> the accusative."
+   "explain": "The ending <i>-ēs</i> can be nominative or accusative plural in the third declension. The verb <i>custōdiunt</i> (“they guard”) is plural and needs a subject, and the sense requires that the shepherds guard the sheep, so <i>pāstōrēs</i> is the nominative and <i>ovēs</i> the accusative.",
+   "level": 1
   },
   {
    "id": "nn2-A12",
@@ -206,7 +234,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "sānī"
    ],
    "macrons": false,
-   "explain": "The masculine nominative plural of an adjective like <i>sānus</i> ends in <i>-ī</i>, so the phrase is <i>patrēs sānī</i>. The adjective need not have the same ending as its noun, because <i>pater</i> belongs to the third declension."
+   "explain": "The masculine nominative plural of an adjective like <i>sānus</i> ends in <i>-ī</i>, so the phrase is <i>patrēs sānī</i>. The adjective need not have the same ending as its noun, because <i>pater</i> belongs to the third declension.",
+   "level": 2
   },
   {
    "id": "nn2-B01",
@@ -222,7 +251,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "fem."
    ],
    "macrons": false,
-   "explain": "Most nouns of the second declension in <i>-us</i> are masculine, but the names of trees are usually feminine, so <i>fāgus</i> is feminine. Its gender is grammatical gender, known from the usage of the language and not from the sex of anything."
+   "explain": "Most nouns of the second declension in <i>-us</i> are masculine, but the names of trees are usually feminine, so <i>fāgus</i> is feminine. Its gender is grammatical gender, known from the usage of the language and not from the sex of anything.",
+   "level": 2
   },
   {
    "id": "nn2-B02",
@@ -237,7 +267,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "“trousers”"
    ],
    "answer": 3,
-   "explain": "There is no singular “trouser” for the garment, so “trousers” is used only in the plural, as “scissors” is. “Glove,” “boot,” and “stocking” have singulars."
+   "explain": "There is no singular “trouser” for the garment, so “trousers” is used only in the plural, as “scissors” is. “Glove,” “boot,” and “stocking” have singulars.",
+   "level": 1
   },
   {
    "id": "nn2-B03",
@@ -249,7 +280,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "servōrum"
    ],
    "macrons": false,
-   "explain": "The second declension forms the genitive plural in <i>-ōrum</i>, so the form is <i>servōrum</i> (“of the slaves”)."
+   "explain": "The second declension forms the genitive plural in <i>-ōrum</i>, so the form is <i>servōrum</i> (“of the slaves”).",
+   "level": 2
   },
   {
    "id": "nn2-B04",
@@ -264,7 +296,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "The person to whom"
    ],
    "answer": 1,
-   "explain": "<i>Nocte</i> tells when he comes, so it is an ablative of time. The person to whom something is given or said is shown by the dative, and the possessor by the genitive."
+   "explain": "<i>Nocte</i> tells when he comes, so it is an ablative of time. The person to whom something is given or said is shown by the dative, and the possessor by the genitive.",
+   "level": 1
   },
   {
    "id": "nn2-B05",
@@ -275,7 +308,8 @@ ARS.exercises['iii.ex.noun-2'] = {
    "accept": [
     "us"
    ],
-   "explain": "“Us” is the objective form of “we.” It is used here because the pronoun is the indirect object of “showed.”"
+   "explain": "“Us” is the objective form of “we.” It is used here because the pronoun is the indirect object of “showed.”",
+   "level": 2
   },
   {
    "id": "nn2-B06",
@@ -290,7 +324,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "The fourth"
    ],
    "answer": 3,
-   "explain": "The nominative in <i>-us</i> could belong to the second declension, but the genitive in <i>-ūs</i> marks the fourth. This is why a noun is learned with its genitive."
+   "explain": "The nominative in <i>-us</i> could belong to the second declension, but the genitive in <i>-ūs</i> marks the fourth. This is why a noun is learned with its genitive.",
+   "level": 1
   },
   {
    "id": "nn2-B07",
@@ -302,7 +337,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "portae"
    ],
    "macrons": false,
-   "explain": "The first declension forms the dative singular in <i>-ae</i>, the same ending as the genitive singular and the nominative plural."
+   "explain": "The first declension forms the dative singular in <i>-ae</i>, the same ending as the genitive singular and the nominative plural.",
+   "level": 2
   },
   {
    "id": "nn2-B08",
@@ -317,7 +353,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "<i>mīlitis-</i>"
    ],
    "answer": 1,
-   "explain": "The stem is found by taking the ending <i>-is</i> from the genitive <i>mīlitis</i>, which leaves <i>mīlit-</i>. The nominative <i>mīles</i> does not show it; English “military” comes from the stem."
+   "explain": "The stem is found by taking the ending <i>-is</i> from the genitive <i>mīlitis</i>, which leaves <i>mīlit-</i>. The nominative <i>mīles</i> does not show it; English “military” comes from the stem.",
+   "level": 1
   },
   {
    "id": "nn2-B09",
@@ -329,7 +366,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "portum"
    ],
    "macrons": false,
-   "explain": "The fourth declension forms the accusative singular in <i>-um</i>, as <i>manum</i> shows, so the form is <i>portum</i>."
+   "explain": "The fourth declension forms the accusative singular in <i>-um</i>, as <i>manum</i> shows, so the form is <i>portum</i>.",
+   "level": 2
   },
   {
    "id": "nn2-B10",
@@ -344,7 +382,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Dative, because every <i>-ō</i> ending is dative"
    ],
    "answer": 2,
-   "explain": "<i>Dat</i> (“he gives”) takes an indirect object, the person or animal to whom something is given, and the sense shows that the horse receives the water. So <i>equō</i> is dative; in another sentence the same form can be ablative."
+   "explain": "<i>Dat</i> (“he gives”) takes an indirect object, the person or animal to whom something is given, and the sense shows that the horse receives the water. So <i>equō</i> is dative; in another sentence the same form can be ablative.",
+   "level": 1
   },
   {
    "id": "nn2-B11",
@@ -356,7 +395,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "trīste"
    ],
    "macrons": false,
-   "explain": "The neuter nominative singular of <i>trīstis</i> is <i>trīste</i>, so the phrase is <i>carmen trīste</i> (“a sad song”)."
+   "explain": "The neuter nominative singular of <i>trīstis</i> is <i>trīste</i>, so the phrase is <i>carmen trīste</i> (“a sad song”).",
+   "level": 2
   },
   {
    "id": "nn2-B12",
@@ -371,7 +411,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Masculine"
    ],
    "answer": 0,
-   "explain": "A noun that names an animal of either sex under one gender is epicene, as <i>aquila</i> is. A common noun changes its gender with the sex of the person meant."
+   "explain": "A noun that names an animal of either sex under one gender is epicene, as <i>aquila</i> is. A common noun changes its gender with the sex of the person meant.",
+   "level": 1
   },
   {
    "id": "nn2-C01",
@@ -386,7 +427,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Two things"
    ],
    "answer": 3,
-   "explain": "Greek has a dual number for two things, which Latin and English lack. A collective noun, which names many taken as a group, is singular in form."
+   "explain": "Greek has a dual number for two things, which Latin and English lack. A collective noun, which names many taken as a group, is singular in form.",
+   "level": 1
   },
   {
    "id": "nn2-C02",
@@ -398,7 +440,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "vōcibus"
    ],
    "macrons": false,
-   "explain": "The third declension forms the dative and ablative plural in <i>-ibus</i>, added to the stem <i>vōc-</i>, so the form is <i>vōcibus</i>."
+   "explain": "The third declension forms the dative and ablative plural in <i>-ibus</i>, added to the stem <i>vōc-</i>, so the form is <i>vōcibus</i>.",
+   "level": 2
   },
   {
    "id": "nn2-C03",
@@ -413,7 +456,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "The direct object"
    ],
    "answer": 1,
-   "explain": "The genitive usually shows possession or relation and is often translated with “of”: “the horse of the farmer,” that is, “the farmer’s horse.”"
+   "explain": "The genitive usually shows possession or relation and is often translated with “of”: “the horse of the farmer,” that is, “the farmer’s horse.”",
+   "level": 1
   },
   {
    "id": "nn2-C04",
@@ -424,7 +468,8 @@ ARS.exercises['iii.ex.noun-2'] = {
    "accept": [
     "they"
    ],
-   "explain": "“They” is the subjective form, used for the subject of a verb, and “them” the objective form."
+   "explain": "“They” is the subjective form, used for the subject of a verb, and “them” the objective form.",
+   "level": 2
   },
   {
    "id": "nn2-C05",
@@ -439,7 +484,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "From its genitive singular"
    ],
    "answer": 3,
-   "explain": "The nominative can mislead (<i>-us</i> occurs in the second and the fourth declensions), but the genitive singular has a different ending in each declension, and it also shows the stem."
+   "explain": "The nominative can mislead (<i>-us</i> occurs in the second and the fourth declensions), but the genitive singular has a different ending in each declension, and it also shows the stem.",
+   "level": 1
   },
   {
    "id": "nn2-C06",
@@ -451,7 +497,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "verba"
    ],
    "macrons": false,
-   "explain": "A neuter noun has the same form in the nominative and the accusative, and in the plural these cases end in <i>-a</i>, so the form is <i>verba</i>."
+   "explain": "A neuter noun has the same form in the nominative and the accusative, and in the plural these cases end in <i>-a</i>, so the form is <i>verba</i>.",
+   "level": 2
   },
   {
    "id": "nn2-C07",
@@ -466,7 +513,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "“exit”"
    ],
    "answer": 1,
-   "explain": "The stem, <i>itiner-</i>, is shown by the genitive <i>itineris</i>, not by the nominative <i>iter</i>, and “itinerary” is formed from it. “Iterate” comes from <i>iterum</i> (“again”), “item” from <i>item</i> (“likewise”), and “exit” from <i>exit</i> (“he goes out”)."
+   "explain": "The stem, <i>itiner-</i>, is shown by the genitive <i>itineris</i>, not by the nominative <i>iter</i>, and “itinerary” is formed from it. “Iterate” comes from <i>iterum</i> (“again”), “item” from <i>item</i> (“likewise”), and “exit” from <i>exit</i> (“he goes out”).",
+   "level": 1
   },
   {
    "id": "nn2-C08",
@@ -478,7 +526,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "cāsibus"
    ],
    "macrons": false,
-   "explain": "The fourth declension forms the dative and ablative plural in <i>-ibus</i>, as <i>manibus</i> shows, so the form is <i>cāsibus</i>. This is the noun from which the name “case” comes."
+   "explain": "The fourth declension forms the dative and ablative plural in <i>-ibus</i>, as <i>manibus</i> shows, so the form is <i>cāsibus</i>. This is the noun from which the name “case” comes.",
+   "level": 2
   },
   {
    "id": "nn2-C09",
@@ -493,7 +542,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Nominative plural"
    ],
    "answer": 3,
-   "explain": "<i>Fīliae</i> could be genitive or dative singular or nominative plural. The verb <i>iuvant</i> (“they help”) is plural and needs a subject, so <i>fīliae</i> is the nominative plural."
+   "explain": "<i>Fīliae</i> could be genitive or dative singular or nominative plural. The verb <i>iuvant</i> (“they help”) is plural and needs a subject, so <i>fīliae</i> is the nominative plural.",
+   "level": 1
   },
   {
    "id": "nn2-C10",
@@ -505,7 +555,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "magnifica"
    ],
    "macrons": false,
-   "explain": "The neuter nominative plural ends in <i>-a</i>, so the phrase is <i>templa magnifica</i>. The same form is also the feminine nominative singular, and the noun shows which is meant."
+   "explain": "The neuter nominative plural ends in <i>-a</i>, so the phrase is <i>templa magnifica</i>. The same form is also the feminine nominative singular, and the noun shows which is meant.",
+   "level": 2
   },
   {
    "id": "nn2-C11",
@@ -520,7 +571,8 @@ ARS.exercises['iii.ex.noun-2'] = {
     "Masculine"
    ],
    "answer": 0,
-   "explain": "A noun that is masculine or feminine according to the person meant is of the common gender. An epicene noun keeps one gender for an animal of either sex."
+   "explain": "A noun that is masculine or feminine according to the person meant is of the common gender. An epicene noun keeps one gender for an animal of either sex.",
+   "level": 1
   },
   {
    "id": "nn2-C12",
@@ -531,7 +583,220 @@ ARS.exercises['iii.ex.noun-2'] = {
    "accept": [
     "he"
    ],
-   "explain": "English gender follows what the noun refers to, and it appears only in the pronouns. A nephew is male, so the pronoun is “he.”"
+   "explain": "English gender follows what the noun refers to, and it appears only in the pronouns. A nephew is male, so the pronoun is “he.”",
+   "level": 2
+  },
+  {
+   "id": "nn2-L3-01",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Gallia est omnis dīvīsa in partēs trēs</i> (“All Gaul is divided into three parts”). (Caesar, De Bello Gallico, Book I, chapter 1.) What are the case and number of <i>partēs</i>?",
+   "options": [
+    "Nominative plural",
+    "Accusative plural, after <i>in</i> meaning “into”",
+    "Ablative plural",
+    "Genitive singular"
+   ],
+   "answer": 1,
+   "explain": "<i>Pars, partis</i> is a third-declension noun; <i>partēs</i> may be nominative or accusative plural. After <i>in</i> meaning “into,” the accusative is required.",
+   "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
+  },
+  {
+   "id": "nn2-L3-02",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Hōrum omnium fortissimī sunt Belgae</i> (“Of all these the bravest are the Belgae”). (Caesar, De Bello Gallico, Book I, chapter 1.) What case is <i>hōrum omnium</i>, and why?",
+   "options": [
+    "Genitive, naming the whole of which the bravest are a part",
+    "Dative, naming those to whom something is given",
+    "Ablative of comparison",
+    "Nominative, as the subject"
+   ],
+   "answer": 0,
+   "explain": "<i>Hōrum omnium</i> is genitive plural: it names the whole group, and <i>fortissimī</i> picks out a part of it. This is the genitive of the whole (partitive genitive).",
+   "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
+  },
+  {
+   "id": "nn2-L3-03",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "form",
+   "prompt": "<i>Arma virumque canō</i> (“Of arms I sing and the man”). (Vergil, Aeneid, Book I, line 1.) Type the case of <i>virum</i>.",
+   "accept": [
+    "accusative",
+    "the accusative",
+    "accusative case"
+   ],
+   "explain": "<i>Virum</i> is the accusative singular of <i>vir, virī</i>, second declension: with <i>arma</i>, it is the object of <i>canō</i>.",
+   "source": "Vergil, Aeneid, Book I, line 1; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "nn2-L3-04",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "form",
+   "prompt": "<i>Mūsa, mihi causās memorā</i> (“Muse, tell me the causes”). (Vergil, Aeneid, Book I, line 8.) Type the case of <i>Mūsa</i>.",
+   "accept": [
+    "vocative",
+    "the vocative",
+    "vocative case"
+   ],
+   "explain": "The poet calls on the Muse. The case of address is the vocative; in the first declension it has the same form as the nominative, <i>Mūsa</i>.",
+   "source": "Vergil, Aeneid, Book I, line 8; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "nn2-L3-05",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Tantaene animīs caelestibus īrae?</i> (“Is there such anger in heavenly minds?” literally “Are there such angers to heavenly minds?”) (Vergil, Aeneid, Book I, line 11.) What case is <i>animīs</i>?",
+   "options": [
+    "Dative, naming the possessor",
+    "Ablative of means",
+    "Nominative plural",
+    "Genitive plural"
+   ],
+   "answer": 0,
+   "explain": "<i>Animīs</i> could be dative or ablative plural. With a form of <i>sum</i> understood, the dative names the one who has: “to heavenly minds are such angers,” that is, “heavenly minds have such anger.”",
+   "source": "Vergil, Aeneid, Book I, line 11; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "nn2-L3-06",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Tantae mōlis erat Rōmānam condere gentem!</i> (“So great a labor it was to found the Roman race!”) (Vergil, Aeneid, Book I, line 33.) What case is <i>tantae mōlis</i>?",
+   "options": [
+    "Dative",
+    "Genitive, describing what the founding was",
+    "Ablative",
+    "Nominative"
+   ],
+   "answer": 1,
+   "explain": "<i>Mōlēs, mōlis</i> (“mass,” “toil”) is third declension; <i>mōlis</i> is genitive singular. The genitive with <i>erat</i> describes the founding: it was “of so great a toil.”",
+   "source": "Vergil, Aeneid, Book I, line 33; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+  },
+  {
+   "id": "nn2-L3-07",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Ō tempora, ō mōrēs!</i> (“Oh the times! Oh the manners!”) (Cicero, First Oration against Catiline, chapter 1.) What case are <i>tempora</i> and <i>mōrēs</i>?",
+   "options": [
+    "Vocative, because the times are addressed",
+    "Genitive plural",
+    "Accusative of exclamation",
+    "Ablative of time"
+   ],
+   "answer": 2,
+   "explain": "Cicero does not speak to the times; he exclaims at them. Latin puts the thing exclaimed at in the accusative. <i>Tempora</i> is neuter plural, <i>mōrēs</i> masculine plural.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "nn2-L3-08",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "<i>Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?</i> (“How long, Catiline, will you abuse our patience?”) (Cicero, First Oration against Catiline, chapter 1.) What case is <i>patientiā</i>?",
+   "options": [
+    "Nominative",
+    "Accusative",
+    "Ablative, the case <i>abūtor</i> takes",
+    "Vocative"
+   ],
+   "answer": 2,
+   "explain": "The long final <i>ā</i> marks the ablative singular of the first declension. <i>Abūtor</i>, like <i>ūtor</i>, takes its object in the ablative.",
+   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
+  },
+  {
+   "id": "nn2-L3-09",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "form",
+   "prompt": "<i>quī ipsōrum linguā Celtae, nostrā Gallī appellantur</i> (“who in their own tongue are called Celts, in ours Gauls”). (Caesar, De Bello Gallico, Book I, chapter 1.) Type the case of <i>linguā</i>.",
+   "accept": [
+    "ablative",
+    "the ablative",
+    "ablative case"
+   ],
+   "explain": "<i>Linguā</i> is ablative singular: it names the means, the language by which they are called Celts.",
+   "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
+  },
+  {
+   "id": "nn2-L3-10",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "form",
+   "prompt": "<i>Hī omnēs linguā, īnstitūtīs, lēgibus inter sē differunt.</i> (“These all differ from one another in language, customs, and laws.”) (Caesar, De Bello Gallico, Book I, chapter 1.) <i>Lēgibus</i> is an ablative plural. Type its nominative singular.",
+   "accept": [
+    "lex",
+    "lēx"
+   ],
+   "macrons": false,
+   "explain": "<i>Lēx, lēgis</i> (“law”) is third declension; the ablative plural is <i>lēgibus</i>.",
+   "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
+  },
+  {
+   "id": "nn2-L3-11",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "form",
+   "prompt": "“And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother’s keeper?” (Genesis 4:9, King James Version.) “Brother’s” is the possessive singular. Type the possessive plural, as in “my ___ keeper,” where the speaker has several brothers.",
+   "accept": [
+    "brothers’",
+    "brothers'",
+    "brethren’s",
+    "brethren's"
+   ],
+   "explain": "The plural is “brothers,” which already ends in “-s,” so the possessive adds only the apostrophe: “brothers’.” The older plural “brethren” takes “’s”: “brethren’s.”",
+   "source": "Genesis 4:9, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "nn2-L3-12",
+   "set": "B",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "“He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.” (Psalm 23:3, King James Version.) In what case is “name’s”?",
+   "options": [
+    "Subjective (nominative)",
+    "Objective (accusative)",
+    "Possessive (genitive)",
+    "Vocative"
+   ],
+   "answer": 2,
+   "explain": "“Name’s” shows whose sake it is. The English possessive in “’s” corresponds to the Latin genitive.",
+   "source": "Psalm 23:3, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
+  },
+  {
+   "id": "nn2-L3-13",
+   "set": "A",
+   "level": 3,
+   "deck": "iii.noun-2",
+   "type": "mc",
+   "prompt": "“For dust thou art, and unto dust shalt thou return.” (Genesis 3:19, King James Version.) In “dust thou art,” in what case is “dust”?",
+   "options": [
+    "Subjective (nominative), as the predicate after “art”",
+    "Objective, as the object of “art”",
+    "Possessive",
+    "Objective, after “unto”"
+   ],
+   "answer": 0,
+   "explain": "“Art” is a form of “be,” which takes no object. The noun after it names the same thing as the subject “thou,” and stands in the same case, the subjective. The order is inverted: “thou art dust.” The second “dust,” after “unto,” is objective.",
+   "source": "Genesis 3:19, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   }
  ]
 };
