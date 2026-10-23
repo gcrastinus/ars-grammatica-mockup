@@ -65,6 +65,7 @@ const ROOT = path.resolve(__dirname, '..');
   await ev(`document.getElementById('gx-back').click()`);
   check('guided: section reviews never gate', await ev(`Object.values(GP.prereqs).every(a => a.every(id => !GP.info[id] || GP.info[id].kind === 'set'))`));
 
+
   /* 3. tracking is opt-in */
   await ev(`ARS.structure[1].items.forEach(it => { if (/^i\\./.test(it.id) && it.kind !== 'review') courseStore().decks[it.id] = { opens:1, done:true, doneAt:Date.now() }; }); save();`);
   check('finishing the cards of Section I opens Section II', await st('ii.ex.syllable') === 'learning');
@@ -72,6 +73,10 @@ const ROOT = path.resolve(__dirname, '..');
   check('guided without tracking: nothing recorded', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
   await ev(`GP.openProgress(); document.getElementById('gp-track').click()`);
   check('tracking turned on', await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).settings.trackingEnabled === true`));
+
+  await ev(`courseStore().decks['i.sign'].done = false`);
+  check('home says to finish the study cards of Section I', await ev(`buildHome(), /Finish the study cards of Section I\\./.test(document.getElementById('guided-note').textContent) && !document.querySelector('#guided-note .primary')`));
+  await ev(`courseStore().decks['i.sign'].done = true; buildHome()`);
 
   /* 4. pass needs 9 of 10 over two days */
   await day(0);

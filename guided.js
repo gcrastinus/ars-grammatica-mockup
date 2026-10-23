@@ -354,14 +354,23 @@ function readyReviews(){
 }
 
 /* ---------------- Today's Review ---------------- */
+/* The next step along the path. A section with no required exercise set is finished by its study cards, so
+   when the earliest open step is such a section the step is {cards:true}; otherwise it is an exercise set. */
+function cardsStep(){
+  const i = TIERS.findIndex((t, k) => (k === 0 || tierDone(TIERS[k - 1])) && !t.required.length && !tierDone(t));
+  if (i < 0) return null;
+  const t = TIERS[i];
+  return { cards:true, id:null, tier:t, title:'the study cards of ' + sectionName(t) };
+}
 function nextLearning(){
-  return REQUIRED.find(s => unlocked(s.id) && !everPassed(s.id))
-      || REQUIRED.find(s => unlocked(s.id) && !everMastered(s.id))
-      || null;
+  const set = REQUIRED.find(s => unlocked(s.id) && !everPassed(s.id)), c = cardsStep();
+  if (set && (!c || TIERS.indexOf(set.tier) < TIERS.indexOf(c.tier))) return set;
+  return c || REQUIRED.find(s => unlocked(s.id) && !everMastered(s.id)) || null;
 }
 function nextLine(){
   const learn = nextLearning();
   if (!learn) return '<p>Every exercise on the path is mastered.</p>';
+  if (learn.cards) return '<p>Finish the study cards of ' + esc2(sectionName(learn.tier)) + '.</p>';
   return '<p>' + (everPassed(learn.id) ? 'The next exercise to master is ' : 'The next exercise to learn is ') + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
 }
 function startToday(){
@@ -398,7 +407,7 @@ function finishToday(r, before, res, right, n, missed){
   const box = document.createElement('div'); box.className = 'q-box qp';
   box.innerHTML = '<div class="qp-label"><span>Today’s Review finished</span></div>' + h + '<div class="btn-row"></div>';
   const row = box.querySelector('.btn-row');
-  if (learn && guided()) row.appendChild(btn('Begin: ' + learn.title, 'primary', () => openEx(learn.id)));
+  if (learn && !learn.cards && guided()) row.appendChild(btn('Begin: ' + learn.title, 'primary', () => openEx(learn.id)));
   row.appendChild(btn('Progress & Review', '', () => openProgress()));
   row.appendChild(btn('Back to the course', '', backHome));
   body.appendChild(box);
@@ -470,12 +479,13 @@ function homeNote(){
     const due = ARS.dueCount ? ARS.dueCount() : 0, learn = nextLearning(), rr = readyReviews();
     const bits = [];
     if (due) bits.push(due === 1 ? '1 review item is due today.' : due + ' review items are due today.');
-    if (learn) bits.push((everPassed(learn.id) ? 'Next to master: ' : 'Next to learn: ') + learn.title + ' (' + sectionName(learn.tier) + ').');
+    if (learn && learn.cards) bits.push('Finish the study cards of ' + sectionName(learn.tier) + '.');
+    else if (learn) bits.push((everPassed(learn.id) ? 'Next to master: ' : 'Next to learn: ') + learn.title + ' (' + sectionName(learn.tier) + ').');
     if (rr.length) bits.push((rr.length === 1 ? 'A review is ready: ' : 'Reviews are ready: ') + rr.map(id => INFO[id].title).join('; ') + '.');
     if (!bits.length) bits.push('Nothing is due today, and every exercise on the path is mastered.');
     p.textContent = bits.join(' ');
     if (due) row.appendChild(btn('Start Today’s Review', 'primary', startToday));
-    else if (learn) row.appendChild(btn('Continue: ' + learn.title, 'primary', () => openEx(learn.id)));
+    else if (learn && !learn.cards) row.appendChild(btn('Continue: ' + learn.title, 'primary', () => openEx(learn.id)));
   }
   row.appendChild(btn('Progress & Review', '', () => openProgress()));
   host.appendChild(p);
@@ -527,9 +537,10 @@ function renderPanel(){
     const learn = nextLearning();
     h += '<div class="section-label">Today</div><div class="gp-today">';
     h += '<p>' + (bs.due ? (bs.due === 1 ? 'One review item is' : bs.due + ' review items are') + ' due. Today’s Review gathers up to ' + GPC.TODAY_CAP + ' of them, interleaved across the study cards and exercises.' : 'No review items are due today.') + '</p>';
-    if (learn) h += '<p>' + (everPassed(learn.id) ? 'Next to master' : 'Next to learn') + ': ' + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
+    if (learn && learn.cards) h += '<p>Finish the study cards of ' + esc2(sectionName(learn.tier)) + '.</p>';
+    else if (learn) h += '<p>' + (everPassed(learn.id) ? 'Next to master' : 'Next to learn') + ': ' + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
     h += '<div class="btn-row">' + (bs.due ? '<button class="btn primary" type="button" id="gp-start">Start Today’s Review</button>' : '')
-      + (learn ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Begin: ' + esc2(learn.title) + '</button>' : '') + '</div></div>';
+      + (learn && !learn.cards ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Begin: ' + esc2(learn.title) + '</button>' : '') + '</div></div>';
     const rr = readyReviews();
     if (rr.length){
       h += '<div class="section-label">Section Reviews</div><div class="section-gloss">Each asks for the teaching of one section from memory. They open nothing and close nothing.</div><div class="home-grid" id="gp-recalls"></div>';
@@ -585,7 +596,7 @@ function renderPanel(){
     }
   });
   on('gp-start', startToday);
-  on('gp-learn', () => { const l = nextLearning(); if (l) openEx(l.id); });
+  on('gp-learn', () => { const l = nextLearning(); if (l && !l.cards) openEx(l.id); });
   const rg = $('gp-recalls');
   if (rg) readyReviews().forEach(id => {
     const b = document.createElement('button');
