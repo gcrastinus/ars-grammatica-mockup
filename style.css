@@ -12,7 +12,7 @@
   --target:inherit; --target-bg:transparent;
 }
 body.dark{
-  --paper:#0d141e; --paper2:#090e15; --card:#111b2a; --ink:#e9dfc8; --ink-soft:#b4a583;
+  --paper:#1a2636; --paper2:#141d2a; --card:#213047; --ink:#e9dfc8; --ink-soft:#b4a583;
   --line:#1f3452; --frame:#34465f; --wine:#e08373; --sage:#8fbf95;
   --orn:#efe3c6; --hover:#1a2638;
   --good-text:#8fbf95; --bad-text:#e08373; --sel-text:#0d141e;
@@ -31,7 +31,7 @@ html{
   scrollbar-width:thin;
 }
 html:has(body.dark){
-  background:#0d141e;
+  background:#1a2636;
   color-scheme:dark;
   scrollbar-color:#34465f #0f1a29;
 }
