@@ -885,9 +885,26 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
 .gp-detail{flex-basis:100%; font-size:14.5px; font-style:italic; color:var(--ink-soft)}
 .gp-row.st-locked .gp-detail{color:inherit}
 #gp-recalls{margin:8px 0 0}
+/* the level picker (a set with "levels"; after Ars Rhetorica's) */
+.lp-list{width:min(520px, 100%); margin:22px auto 0; display:flex; flex-direction:column; gap:8px}
+.lp-lvl{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; width:100%; text-align:left;
+  text-transform:none; letter-spacing:0; font-family:var(--text); padding:12px 16px;
+  border:1px solid var(--frame); border-radius:0; background:transparent; box-shadow:none;
+}
+.lp-lvl:hover:not(:disabled){background:color-mix(in srgb, var(--frame) 18%, transparent)}
+.lp-lvl.lp-chosen{border-color:var(--ink-soft)}
+.lp-lvl:disabled{opacity:1; color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.lp-lvl .lp-num{font-family:var(--display); font-size:18px; color:var(--wine); min-width:76px}
+.lp-lvl:disabled .lp-num{color:inherit}
+.lp-lvl .lp-name{flex:1; min-width:180px; font-size:15.5px; line-height:1.45; color:var(--ink-soft)}
+.lp-lvl .lp-lock{flex-basis:100%; font-size:13.5px; font-style:italic; line-height:1.4; padding-left:90px; color:var(--ink-soft)}
+.q-prompt b{overflow-wrap:anywhere}
 @media (max-width:560px){
   .diff-btn.path-btn{min-width:0; flex:1 1 0; padding:0 12px}
   .path-row{flex-wrap:nowrap}
   .set-card .ex-state{font-size:11px}
   .gp-box{padding:14px 16px}
+  .lp-lvl .lp-name{min-width:0; flex-basis:100%}
+  .lp-lvl .lp-lock{padding-left:0}
 }

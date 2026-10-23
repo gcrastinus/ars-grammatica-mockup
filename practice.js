@@ -385,8 +385,10 @@
       });
       parts[1].forEach(ex => {
         if (!ex || !Array.isArray(ex.items) || ex.status === 'plan') return;
+        const cap = (root.ARS.levelCap && ex.levels) ? root.ARS.levelCap(ex) : Infinity;
         ex.items.forEach(it => {
           if (!itemPlayable(it) || !done[it.deck] || seen.has(it.id)) return;
+          if ((it.level || 1) > cap) return;   /* a leveled set: only up to the level reached */
           seen.add(it.id);
           const meta = done[it.deck];
           pool.push(copyItem(it, meta));

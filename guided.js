@@ -27,7 +27,7 @@
 const GPC = {
   STORAGE_KEY : 'ars-grammatica-guided',
   PATH_KEY    : 'ars-grammatica-path',      /* 'practice' | 'guided' */
-  SCHEMA      : 1,
+  SCHEMA      : 2,   /* 2 (Oct 2026): history and mhist entries carry "level"; schema 1 is migrated on read */
   PASS_WINDOW : 10,
   PASS_CORRECT: 9,
   PASS_DAYS   : 2,
@@ -98,11 +98,25 @@ function addDays(n, from){ const d = from ? parseDate(from) : new Date(); d.setD
 function niceDate(s){ return parseDate(s).toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' }); }
 function esc2(s){ return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c])); }
 
-/* ---------------- the progress object (schema 1) ---------------- */
+/* ---------------- the progress object (schema 2) ---------------- */
+/* Schema 1 had no levels. Every old answer counts as Level I; passedOn and masteredOn are kept, so a pass stays a pass
+   and a star stays a star. */
+function migrate(o){
+  if (!o || typeof o !== 'object' || !o.sets || typeof o.sets !== 'object') return o;
+  if (o.schemaVersion === 1){
+    Object.keys(o.sets).forEach(id => {
+      const r = o.sets[id];
+      if (!r || typeof r !== 'object') return;
+      ['history', 'mhist'].forEach(k => { if (Array.isArray(r[k])) r[k].forEach(h => { if (h && h.level == null) h.level = 1; }); });
+    });
+    o.schemaVersion = 2;
+  }
+  return o;
+}
 function parseProg(raw){
   if (!raw) return null;
   try{
-    const o = JSON.parse(raw);
+    const o = migrate(JSON.parse(raw));
     if (o && o.schemaVersion === GPC.SCHEMA && o.sets && typeof o.sets === 'object'){
       o.recall = (o.recall && typeof o.recall === 'object') ? o.recall : {};
       o.settings = o.settings || { trackingEnabled:false };
@@ -174,20 +188,30 @@ function gateText(id){
 }
 function recent(id){
   const r = prog && prog.sets && prog.sets[id];
-  return r ? (r.history || []).slice(-GPC.PASS_WINDOW) : [];
+  return r ? passList(id, { history:r.history || [] }).slice(-GPC.PASS_WINDOW) : [];
 }
 function openSections(){ return TIERS.filter((t, i) => i === 0 || tierDone(TIERS[i - 1])).map(t => t.key); }
 
 /* ---------------- pass and mastery ---------------- */
-function meetsPass(r){
-  const last = r.history.slice(-GPC.PASS_WINDOW);
+/* Levels (a set whose file has "levels":{pass, top}): the pass counts only answers at the pass level or above,
+   and mastery counts only answers at the top level. A set without levels is unchanged. */
+const LEVELS = {};   /* id -> ex.levels, filled as the files load */
+function lvOf(id){ return LEVELS[id] || null; }
+function lvl(h){ return (h && h.level) || 1; }
+function passList(id, r){
+  const L = lvOf(id);
+  return L ? r.history.filter(h => lvl(h) >= L.pass) : r.history;
+}
+function meetsPass(r, id){
+  const last = passList(id, r).slice(-GPC.PASS_WINDOW);
   if (last.length < GPC.PASS_WINDOW) return false;
   return last.filter(h => h.correct).length >= GPC.PASS_CORRECT && new Set(last.map(h => h.date)).size >= GPC.PASS_DAYS;
 }
 /* Mastery counts only sittings on a day after the first pass. */
-function meetsMastery(r){
+function meetsMastery(r, id){
   if (!r.passedOn) return false;
-  const q = r.mhist.filter(h => h.date > r.passedOn).slice(-GPC.MASTERY_SITTING);
+  const L = lvOf(id);
+  const q = r.mhist.filter(h => h.date > r.passedOn && (!L || lvl(h) >= L.top)).slice(-GPC.MASTERY_SITTING);
   return q.length >= GPC.MASTERY_SITTING && q.filter(h => h.correct).length >= GPC.MASTERY_CORRECT;
 }
 const events = [];     /* what changed during the sitting now running, for its summary */
@@ -197,17 +221,18 @@ function onAnswer(run, it, correct){
   const info = ex && INFO[ex.id];
   if (!info || info.kind !== 'set') return;
   const id = ex.id, before = openSections();
+  if (ex.levels) LEVELS[id] = ex.levels;
   let passed = false, mastered = false;
   mutate(p => {
     const r = recOf(p, id);
     r.seen = (r.seen || 0) + 1;
     if (correct) r.correct = (r.correct || 0) + 1;
-    const h = { date:today(), correct:!!correct, item:it.id };
+    const h = { date:today(), correct:!!correct, item:it.id, level:(it && it.level) || run.level || 1 };
     const list = run.mode === 'mastery' ? r.mhist : r.history;
     list.push(h);
     if (list.length > GPC.HISTORY_CAP) list.splice(0, list.length - GPC.HISTORY_CAP);
-    if (!r.passedOn && run.mode !== 'mastery' && meetsPass(r)){ r.passedOn = today(); passed = true; }
-    if (!r.masteredOn && run.mode === 'mastery' && meetsMastery(r)){ r.masteredOn = today(); mastered = true; }
+    if (!r.passedOn && run.mode !== 'mastery' && meetsPass(r, id)){ r.passedOn = today(); passed = true; }
+    if (!r.masteredOn && run.mode === 'mastery' && meetsMastery(r, id)){ r.masteredOn = today(); mastered = true; }
     r.state = r.masteredOn ? 'mastered' : r.passedOn ? 'passed' : 'learning';
   });
   if (passed || mastered){
@@ -234,7 +259,8 @@ function summaryNote(run, right, n){
     const e = events.shift();
     const title = esc2(INFO[e.id].title);
     if (e.kind === 'passed'){
-      html += '<p><strong>' + title + ' is passed.</strong> It is mastered (★) by a second pass on a later day, in a sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from the whole pool.</p>';
+      const L = lvOf(e.id);
+      html += '<p><strong>' + title + ' is passed.</strong> ' + (L ? 'Every level is now open. ' : '') + 'It is mastered (★) by a second pass on a later day, in a sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Level ' + ROMAN[L.top] : 'the whole pool') + '.</p>';
     } else {
       html += '<p><strong>' + title + ' is mastered ★.</strong> Its questions now return in Today’s Review on their own schedule.</p>';
     }
@@ -255,12 +281,14 @@ function uniqueItems(ex){
 function runMastery(ex){
   const st = exState(ex.id);
   st.visits = st.visits || 0;
-  const pool = typeof ex.fresh === 'function' ? ex.fresh(GPC.MASTERY_SITTING * 2) : uniqueItems(ex);
+  const L = ex.levels || null;
+  let pool = typeof ex.fresh === 'function' ? ex.fresh(GPC.MASTERY_SITTING * 2) : uniqueItems(ex);
+  if (L) pool = pool.filter(it => itemLevel(it) === L.top);
   const items = shuffled(pool.slice()).slice(0, GPC.MASTERY_SITTING);
   runQueue({
-    ex:ex, set:'', items:items, mode:'mastery', hash:'ex/' + ex.id,
+    ex:ex, set:'', level:L ? L.top : 0, items:items, mode:'mastery', hash:'ex/' + ex.id,
     kind:'Mastery sitting', title:ex.title,
-    sub:items.length + ' questions drawn from the whole pool of ' + pool.length + '. ' + GPC.MASTERY_CORRECT + ' must be correct. ' + (ex.instr || '')
+    sub:items.length + ' questions drawn from ' + (L ? 'the ' + pool.length + ' of Level ' + ROMAN[L.top] : 'the whole pool of ' + pool.length) + '. ' + GPC.MASTERY_CORRECT + ' must be correct. ' + (ex.instr || '')
   });
 }
 
@@ -273,6 +301,52 @@ function btn(label, cls, fn, disabled){
 }
 function para(text, cls){ const p = document.createElement('p'); p.className = cls || 'q-instr'; p.textContent = text; return p; }
 function backHome(){ if (typeof clearHash === 'function') clearHash(); buildHome(); show('scr-home'); }
+/* ---------------- the level picker (sets with "levels"; modeled on Ars Rhetorica's) ----------------
+   Guided: the levels above the pass level open once the exercise is passed. Free Practice: every level is open,
+   and its chosen level is kept apart from the Guided one (course record, not the guided record). */
+function levelReached(id, L){ return everPassed(id) ? L.top : L.pass; }
+function levelList(ex, isGuided){
+  const L = ex.levels, id = ex.id;
+  const box = document.createElement('div'); box.className = 'lp-list';
+  const chosen = isGuided ? ((prog && prog.sets && prog.sets[id] && prog.sets[id].level) || 1) : (exState(id).level || 1);
+  const open = isGuided ? levelReached(id, L) : L.top;
+  for (let n = 1; n <= L.top; n++){
+    const shut = n > open;
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'btn lp-lvl' + (n === chosen ? ' lp-chosen' : '');
+    b.dataset.level = n;
+    b.innerHTML = '<span class="lp-num">Level ' + ROMAN[n] + '</span><span class="lp-name">' + esc2((L.names && L.names[n]) || '') + '</span>' +
+      (shut ? '<span class="lp-lock">Level ' + ROMAN[n] + ' opens once this exercise is passed at Level ' + ROMAN[L.pass] + '.</span>' : '');
+    if (shut) b.disabled = true;
+    else b.onclick = () => {
+      if (isGuided){ if (tracking()) mutate(p => { recOf(p, id).level = n; }); }
+      else { exState(id).level = n; save(); }
+      openEx(id, { level:n });
+    };
+    box.appendChild(b);
+  }
+  return box;
+}
+function pickLevel(ex){
+  LEVELS[ex.id] = ex.levels;
+  if (guided() && INFO[ex.id]) return showGx(ex.id);
+  $('gx-title').textContent = ex.title;
+  $('gx-sub').textContent = 'Free Practice · choose a level';
+  const body = $('gx-body'); body.innerHTML = '';
+  body.appendChild(para('Each level has its own sets, given in order. In Free Practice every level is open, and nothing is recorded for the Guided Path.'));
+  body.appendChild(levelList(ex, false));
+  const acts = document.createElement('div'); acts.className = 'btn-row';
+  acts.appendChild(btn('← Home', '', backHome));
+  body.appendChild(acts);
+  show('scr-gx');
+}
+/* Today's Review draws a leveled set's items only up to the level reached. */
+ARS.levelCap = function(ex){
+  if (!ex || !ex.levels) return Infinity;
+  LEVELS[ex.id] = ex.levels;
+  if (!guided()) return ex.levels.top;
+  return levelReached(ex.id, ex.levels);
+};
 function intercept(id){
   if (!guided()) return false;
   const info = INFO[id];
@@ -286,7 +360,9 @@ function intercept(id){
 function showGx(id){
   const info = INFO[id];
   loadEx(id).then(ex => ex, () => null).then(ex => {
-    const size = ex ? (typeof ex.fresh === 'function' ? null : uniqueItems(ex).length) : null;
+    if (ex && ex.levels) LEVELS[id] = ex.levels;
+    const L = ex && ex.levels;
+    const size = ex ? (typeof ex.fresh === 'function' ? null : (L ? uniqueItems(ex).filter(it => itemLevel(it) === L.top) : uniqueItems(ex)).length) : null;
     $('gx-title').textContent = info.title;
     $('gx-sub').textContent = sectionName(info.tier) + ' · ' + info.tier.name;
     const body = $('gx-body');
@@ -304,21 +380,24 @@ function showGx(id){
       if (st === 'locked'){
         body.appendChild(para('This exercise opens when ' + gateText(id) + '.'));
       } else if (st === 'learning'){
-        body.appendChild(para('This exercise is passed when nine of the last ten answers are correct, on at least two different days. Each visit gives the next set in order.'));
+        body.appendChild(para(L
+          ? 'This exercise is passed when nine of the last ten answers at Level ' + ROMAN[L.pass] + ' or above are correct, on at least two different days. Each visit gives the next set of the level chosen.'
+          : 'This exercise is passed when nine of the last ten answers are correct, on at least two different days. Each visit gives the next set in order.'));
         const q = recent(id);
-        if (tracking()) note.push(q.length ? q.filter(h => h.correct).length + ' of the last ' + q.length + ' answers are correct.' : 'No answers are recorded yet.');
-        acts.appendChild(btn('Begin a set', 'primary', start));
+        if (tracking()) note.push(q.length ? q.filter(h => h.correct).length + ' of the last ' + q.length + ' answers' + (L ? ' at Level ' + ROMAN[L.pass] + ' or above' : '') + ' are correct.' : (L ? 'No answers at Level ' + ROMAN[L.pass] + ' or above are recorded yet.' : 'No answers are recorded yet.'));
+        if (!L) acts.appendChild(btn('Begin a set', 'primary', start));
       } else if (st === 'passed'){
         const wait = r.passedOn >= today();
-        body.appendChild(para('This exercise is passed. It is mastered (★) by passing it a second time on a later day, in one sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from the whole pool' + (size ? ' of ' + size + ' questions' : '') + ', with ' + GPC.MASTERY_CORRECT + ' of the ' + GPC.MASTERY_SITTING + ' correct.'));
+        body.appendChild(para('This exercise is passed. It is mastered (★) by passing it a second time on a later day, in one sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Level ' + ROMAN[L.top] : 'the whole pool') + (size ? ' of ' + size + ' questions' : '') + ', with ' + GPC.MASTERY_CORRECT + ' of the ' + GPC.MASTERY_SITTING + ' correct.'));
         if (wait) note.push('The mastery sitting opens on ' + niceDate(addDays(1, r.passedOn)) + '.');
         acts.appendChild(btn('Mastery sitting', 'primary', mastery, wait));
-        acts.appendChild(btn('Practice a set', '', start));
+        if (!L) acts.appendChild(btn('Practice a set', '', start));
       } else {
-        body.appendChild(para('This exercise is mastered (★). Its questions return in Today’s Review on their own schedule. Any set may still be practiced here.'));
-        acts.appendChild(btn('Practice a set', 'primary', start));
+        body.appendChild(para('This exercise is mastered (★). Its questions return in Today’s Review on their own schedule. Any ' + (L ? 'level' : 'set') + ' may still be practiced here.'));
+        if (!L) acts.appendChild(btn('Practice a set', 'primary', start));
         acts.appendChild(btn('Mastery sitting', '', mastery));
       }
+      if (L && st !== 'locked') body.appendChild(levelList(ex, true));
       if (!tracking() && st !== 'locked') note.push('Tracking is off, so these answers will not be recorded. Tracking is turned on under Progress & Review.');
     }
     note.forEach(t => body.appendChild(para(t, 'lock-note')));
@@ -631,7 +710,7 @@ function importProgress(file){
   const rd = new FileReader();
   rd.onload = () => {
     try{
-      const o = JSON.parse(rd.result);
+      const o = migrate(JSON.parse(rd.result));
       if (!o || o.schemaVersion !== GPC.SCHEMA || !o.sets || typeof o.sets !== 'object' || !o.settings) throw new Error('schema');
       if (o.app && o.app !== 'ars-grammatica') throw new Error('app');
       const have = prog || Object.keys(courseStore().decks || {}).length;
@@ -677,7 +756,7 @@ if ($('prog-import-file')) $('prog-import-file').onchange = ev => {
 };
 
 window.GP = {
-  isGuided:guided, isLocked:locked, intercept, onAnswer, summaryNote, runMastery, decorateTile, decorateSection,
+  isGuided:guided, isLocked:locked, intercept, pickLevel, migrate, onAnswer, summaryNote, runMastery, decorateTile, decorateSection,
   homeNote, openProgress, startToday,
   /* for checks and for the instructor's report */
   config:GPC, tiers:TIERS, prereqs:PREREQS, info:INFO, sets:SETS, stateOf, recallState, nextLearning, poolFlags,
@@ -685,4 +764,7 @@ window.GP = {
 };
 reflectPath();
 buildHome();
+/* learn which sets have levels, so the home chips count the right answers */
+Promise.all(SETS.filter(x => prog && prog.sets && prog.sets[x.id]).map(x => loadEx(x.id).then(ex => { if (ex && ex.levels){ LEVELS[x.id] = ex.levels; return true; } }, () => null)))
+  .then(r => { if (r.some(Boolean) && document.getElementById('scr-home') && document.getElementById('scr-home').classList.contains('active')) buildHome(); });
 })();

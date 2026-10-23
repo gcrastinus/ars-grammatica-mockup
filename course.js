@@ -373,7 +373,12 @@ function openEx(id, opts){
   const homeOf = langScreenOf(id);
   if (homeOf) screenReturn = homeOf;
   loadEx(id).then(ex => {
-    if (ex.status === 'written') return (opts && opts.mode === 'mastery' && window.GP) ? GP.runMastery(ex) : runEx(ex);
+    if (ex.status === 'written'){
+      if (opts && opts.mode === 'mastery' && window.GP) return GP.runMastery(ex);
+      /* A set with levels opens on its level picker (guided.js), on either path, unless a level is chosen. */
+      if (ex.levels && !(opts && opts.level) && window.GP && GP.pickLevel) return GP.pickLevel(ex);
+      return runEx(ex, opts);
+    }
     showExercisePlan(id, ex);
   }).catch(err => { alert(err.message); });
 }
@@ -867,7 +872,7 @@ function exState(id){ store.ex = store.ex || {}; return store.ex[id] || (store.e
 function runQueue(spec){
   const items = (spec.items || []).slice();
   run = { ex: spec.ex || null, set: spec.set || '', queue: items, n: items.length, k:0, first:{}, retried:{},
-          mode: spec.mode || '', onFinish: spec.onFinish || null };
+          mode: spec.mode || '', level: spec.level || 0, onFinish: spec.onFinish || null };
   if (spec.hash) location.hash = spec.hash;
   $('ex-home').textContent = screenReturn ? '← Back' : '← All sections';
   $('ex-kind').textContent = spec.kind || '';
@@ -886,8 +891,30 @@ function itemsForSet(ex, set){
   if (shared.length) return shared;
   return [];
 }
-function runEx(ex){
+/* Levels: an item's "level" (none = Level I); a set with "levels" runs one level at a time. */
+function itemLevel(it){ return (it && it.level) || 1; }
+const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
+function runEx(ex, opts){
   const st = exState(ex.id);
+  const level = ex.levels ? Math.max(1, Math.min(ex.levels.top, (opts && opts.level) || 1)) : 0;
+  if (level){
+    /* each level keeps its own place in the rotation of sets */
+    st.lvisits = st.lvisits || {};
+    st.lvisits[level] = (st.lvisits[level] || 0) + 1;
+    st.visits += 1;
+    save();
+    const own = (ex.items || []).filter(x => itemLevel(x) === level);
+    const forms = [...new Set(own.map(x => x.set))].filter(x => x !== 'all').sort();
+    const set = forms[(st.lvisits[level] - 1) % forms.length];
+    const items = itemsForSet({ items:own }, set);
+    runQueue({
+      ex: ex, set: set, level: level, items: items, hash: 'ex/' + ex.id,
+      kind: 'Exercise · Level ' + ROMAN[level],
+      title: ex.title,
+      sub: `Level ${ROMAN[level]} · Set ${set} · ${items.length} questions. ${ex.instr || ''}`
+    });
+    return;
+  }
   st.visits += 1;
   save();
   if (typeof ex.fresh === 'function'){
@@ -1087,7 +1114,7 @@ function renderSummary(){
   const body = $('ex-body'); body.innerHTML = '';
   setExProgress();
   const box = document.createElement('div'); box.className = 'q-box qp';
-  const finished = run.set ? ('Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
+  const finished = run.set ? ((run.level ? 'Level ' + ROMAN[run.level] + ', ' : '') + 'Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
   box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
     <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` + gnote +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +

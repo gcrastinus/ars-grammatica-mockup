@@ -3,6 +3,8 @@
      node test/guided-check.js [--base=https://grammatica.studiuminstitute.org] [--shots=/path/to/dir]
    Gating, pass (9 of the last 10 over 2 days), mastery (a later-day sitting of 10), the section reviews,
    Today's Review, the untouched course record in Free Practice, export and import, a re-read before writing,
+   levels (iii.ex.parts: the picker, the lock note, a pass at Level II opening III and IV, mastery from IV,
+   Today's Review capped at the level reached, the migration from schema 1),
    and no sideways scrolling on any new screen at desktop and phone widths, in light and dark mode.
    Exit code 1 on any failed check or page error. */
 'use strict';
@@ -32,7 +34,7 @@ const ROOT = path.resolve(__dirname, '..');
   /* answer a whole sitting through the real hooks: every item right, or the first k wrong */
   const sitting = async (id, opts) => ev(`(async () => {
     const o = ${JSON.stringify(opts || {})};
-    id = ${JSON.stringify(id)}; run = null; openEx(id, o.mode ? { mode: o.mode } : {});
+    id = ${JSON.stringify(id)}; run = null; openEx(id, o.mode ? { mode: o.mode } : o.level ? { level: o.level } : {});
     const t0 = Date.now();
     while ((!run || !run.n || (run.ex && run.ex.id !== id)) && Date.now() - t0 < 15000) await new Promise(r => setTimeout(r, 100));
     const n = run.n, wrong = o.wrong || 0;
@@ -97,11 +99,44 @@ const ROOT = path.resolve(__dirname, '..');
   await sitting('ii.ex.quantity', { mode: 'mastery' });
   await day(2);
 
-  /* 6. a missed pass: 8 of 10 is not enough */
-  await sitting('iii.ex.parts', { every: 5 });
+  /* 6. a missed pass: 8 of 10 is not enough (iii.ex.parts at Level II, its pass level) */
+  await sitting('iii.ex.parts', { every: 4, level: 2 });
   await day(3);
-  await sitting('iii.ex.parts', { every: 5 });
+  await sitting('iii.ex.parts', { every: 4, level: 2 });
   check('two wrong in the last ten (8 of 10) blocks the pass', await st('iii.ex.parts') !== 'passed', JSON.stringify(await ev(`JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['iii.ex.parts'].history.map(h => h.date.slice(8) + (h.correct ? '+' : '-')).join(' ')`)));
+
+  /* 6b. levels: only iii.ex.parts has them */
+  await ev(`openEx('iii.ex.parts')`); await b.sleep(500);
+  check('levels: the picker shows on iii.ex.parts', await ev(`document.getElementById('scr-gx').classList.contains('active') && document.querySelectorAll('#gx-body .lp-lvl').length === 4`));
+  check('levels: III and IV are locked before the pass, I and II open', await ev(`[...document.querySelectorAll('#gx-body .lp-lvl')].map(x => x.disabled ? 1 : 0).join('') === '0011'`));
+  check('levels: the lock note is one plain line', await ev(`document.querySelector('#gx-body .lp-lvl[data-level="3"] .lp-lock').textContent === 'Level III opens once this exercise is passed at Level II.'`));
+  if (SHOTS) for (const [w, h] of [[1100, 900], [390, 844]]) { await b.size(w, h); for (const dark of [false, true]) { await ev(`setDark(${dark})`); await b.sleep(300); await b.shot(path.join(SHOTS, `picker-locked-${w}-${dark ? 'dark' : 'light'}.png`), true); } }
+  await b.size(1100, 900); await ev(`setDark(false)`);
+  await ev(`openEx('ii.ex.quantity')`); await b.sleep(400);
+  check('levels: no picker on a set without levels', await ev(`document.querySelectorAll('.lp-lvl').length === 0 || !document.getElementById('scr-gx').contains(document.querySelector('.lp-lvl'))`));
+  check('levels: Today’s Review stops at the pass level before the pass', await ev(`ARS.levelCap(ARS.exercises['iii.ex.parts']) === 2 && ARS.levelCap(ARS.exercises['ii.ex.quantity']) === Infinity`));
+  await day(4); await sitting('iii.ex.parts', { level: 1 }); await day(5); await sitting('iii.ex.parts', { level: 1 });
+  check('levels: Level I answers do not count toward the pass', await st('iii.ex.parts') === 'learning');
+  check('levels: each answer records its level', await ev(`(() => { const h = JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['iii.ex.parts'].history; return h.length > 0 && h.every(x => x.level === 1 || x.level === 2) && h.some(x => x.level === 1) && h.some(x => x.level === 2); })()`));
+  check('levels: a level sitting holds only that level', await ev(`run.level === 1 && run.queue.every(it => (it.level || 1) === 1)`));
+  await day(6); await sitting('iii.ex.parts', { level: 2 }); await day(7); await sitting('iii.ex.parts', { level: 2 });
+  check('levels: a pass at Level II passes the exercise', await st('iii.ex.parts') === 'passed');
+  await ev(`openEx('iii.ex.parts')`); await b.sleep(500);
+  check('levels: the pass opens Levels III and IV', await ev(`[...document.querySelectorAll('#gx-body .lp-lvl')].every(x => !x.disabled)`));
+  check('levels: Today’s Review reaches Level IV after the pass', await ev(`ARS.levelCap(ARS.exercises['iii.ex.parts']) === 4`));
+  await ev(`document.querySelector('#gx-body .lp-lvl[data-level="3"]').click()`); await b.sleep(400);
+  check('levels: choosing Level III runs Level III', await ev(`run && run.level === 3 && run.queue.length >= 10 && run.queue.every(it => it.level === 3)`));
+  await day(8); await sitting('iii.ex.parts', { mode: 'mastery' });
+  check('levels: the mastery sitting is ten from Level IV', await ev(`run.mode === 'mastery' && run.n === 10 && run.queue.every(it => it.level === 4)`));
+  check('levels: mastery from Level IV masters the exercise', await st('iii.ex.parts') === 'mastered');
+  /* Free Practice: every level open, its own chosen level */
+  await ev(`document.getElementById('path-free').click()`);
+  const gpBefore = await ev(`localStorage.getItem('ars-grammatica-guided')`);
+  await ev(`openEx('iii.ex.parts')`); await b.sleep(400);
+  check('levels: Free Practice opens every level', await ev(`document.querySelectorAll('#gx-body .lp-lvl').length === 4 && [...document.querySelectorAll('#gx-body .lp-lvl')].every(x => !x.disabled)`));
+  await ev(`document.querySelector('#gx-body .lp-lvl[data-level="2"]').click()`); await b.sleep(300);
+  check('levels: Free Practice keeps its own level, apart from the Guided one', await ev(`exState('iii.ex.parts').level === 2 && JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['iii.ex.parts'].level === 3`) && await ev(`localStorage.getItem('ars-grammatica-guided')`) === gpBefore);
+  await ev(`document.getElementById('path-guided').click()`);
 
   /* 7. section reviews wait, and never gate */
   check('section review waits for the exercises', (await ev(`GP.recallState('ii.review').key`)) === 'wait');
@@ -143,13 +178,32 @@ const ROOT = path.resolve(__dirname, '..');
   await b.sleep(300);
   check('a wrong file is refused politely', await ev(`/could not be read/.test(document.getElementById('gp-note').textContent)`));
 
+  /* 13. migration from schema 1: old answers count as Level I, a pass stays a pass, a star stays a star */
+  const saved = await ev(`localStorage.getItem('ars-grammatica-guided')`);
+  await ev(`localStorage.setItem('ars-grammatica-guided', JSON.stringify({ schemaVersion:1, app:'ars-grammatica', settings:{ trackingEnabled:true }, recall:{}, sets:{
+    'ii.ex.syllable':{ state:'mastered', seen:20, correct:20, history:[{date:'2026-01-01', correct:true, item:'x'}], mhist:[{date:'2026-01-02', correct:true, item:'y'}], passedOn:'2026-01-01', masteredOn:'2026-01-02' },
+    'ii.ex.quantity':{ state:'passed', seen:10, correct:10, history:[{date:'2026-01-01', correct:true, item:'z'}], mhist:[], passedOn:'2026-01-01', masteredOn:null },
+    'iii.ex.parts':{ state:'learning', seen:3, correct:3, history:[{date:'2026-01-03', correct:true, item:'prt-A01'}], mhist:[], passedOn:null, masteredOn:null } } }))`);
+  await b.goto('course.html');
+  for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
+  check('migration: a schema 1 record is read', await ev(`GP.stateOf('ii.ex.syllable') === 'mastered' && GP.stateOf('ii.ex.quantity') === 'passed' && GP.stateOf('iii.ex.parts') === 'learning'`));
+  await sitting('ii.ex.quantity');
+  check('migration: the next write stores schema 2, old answers at Level I', await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); return o.schemaVersion === 2 && o.sets['ii.ex.syllable'].history[0].level === 1 && o.sets['ii.ex.syllable'].mhist[0].level === 1 && o.sets['iii.ex.parts'].history[0].level === 1 && o.sets['ii.ex.syllable'].masteredOn === '2026-01-02'; })()`));
+  check('migration: GP.migrate leaves schema 2 alone', await ev(`GP.migrate({schemaVersion:2, sets:{a:{history:[{level:3}]}}}).sets.a.history[0].level === 3`));
+  await ev(`localStorage.setItem('ars-grammatica-guided', ${JSON.stringify(saved)})`);
+  await b.goto('course.html');
+  for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
+  await ev(`window.confirm = () => true`);
   /* 12. layout: no sideways scrolling on the new screens, light and dark, desktop and phone */
   const views = [
     ['home', `goHome()`],
     ['progress', `GP.openProgress()`],
     ['exercise', `openEx('ii.ex.syllable')`],
     ['locked', `openEx('iii.ex.parts')`],
-    ['review', `openEx('ii.review')`]
+    ['review', `openEx('ii.review')`],
+    ['levels', `openEx('iii.ex.parts')`],
+    ['level3', `(async () => { run = null; openEx('iii.ex.parts', { level: 3 }); while (!run || !run.queue) await new Promise(r => setTimeout(r, 50)); run.k = Math.max(0, run.queue.findIndex(it => /Bunyan/.test(it.source))); renderItem(); })()`],
+    ['level4', `(async () => { run = null; openEx('iii.ex.parts', { level: 4 }); while (!run || !run.queue) await new Promise(r => setTimeout(r, 50)); run.k = Math.max(0, run.queue.findIndex(it => /Bunyan/.test(it.source))); renderItem(); })()`]
   ];
   for (const [w, h] of [[1100, 900], [390, 844]]) {
     await b.size(w, h);
