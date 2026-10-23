@@ -155,17 +155,34 @@ function show(scr){
   else concealReciteNudge();
 }
 
+/* The one ornament: the four-point star defined in course.html. */
+const STAR = '<svg class="orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>';
+
 /* ---------- home: all 71 buttons in order ---------- */
 function buildHome(){
   const host = $('home-acts'); host.innerHTML = '';
   ARS.structure.forEach(sec => {
-    const lab = document.createElement('div');
-    if (sec.roman){ lab.className = 'act-label'; lab.textContent = `${sec.roman} · ${sec.latin}`; host.appendChild(lab); }
-    const name = document.createElement('div');
-    name.className = sec.roman ? 'act-latin' : 'section-label';
-    name.textContent = sec.name; host.appendChild(name);
-    if (!sec.roman){ const l2 = document.createElement('div'); l2.className = 'act-gloss'; l2.innerHTML = `<i>${sec.latin}</i>`; host.appendChild(l2); }
-    const gl = document.createElement('div'); gl.className = 'act-gloss'; gl.textContent = sec.gloss; host.appendChild(gl);
+    const head = document.createElement('h2');
+    if (sec.roman){
+      head.className = 'act-label';
+      const n = document.createElement('span');
+      n.className = 'n';
+      n.textContent = sec.roman + '.';
+      head.appendChild(n);
+      head.appendChild(document.createTextNode(' ' + sec.latin));
+    } else {
+      head.className = 'section-label';
+      head.textContent = sec.name;
+    }
+    host.appendChild(head);
+    const lat = document.createElement('p');
+    lat.className = 'act-latin';
+    lat.textContent = sec.roman ? sec.name : sec.latin;
+    host.appendChild(lat);
+    const gl = document.createElement('p');
+    gl.className = 'act-gloss';
+    gl.textContent = sec.gloss;
+    host.appendChild(gl);
     let grid = document.createElement('div'); grid.className = 'home-grid'; host.appendChild(grid);
     sec.items.forEach(it => {
       if (it.group){
@@ -203,6 +220,7 @@ function langBar(bar){
     b.className = 'lang-btn lang-' + L.code;
     if (langScreenDone(screen)) b.classList.add('is-done');
     b.dataset.screen = screen.id;
+    b.innerHTML = STAR;
     const name = document.createElement('span');
     name.textContent = L.name;
     b.appendChild(name);
@@ -271,10 +289,10 @@ function makeTile(it){
   const studied = it.built && !practiceTile && st && st.done;
   const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
   const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : (it.kind === 'models' || it.kind === 'overview' ? 'Read →' : 'Study →')) : '';
-  c.innerHTML = `<div class="kind">${KIND[it.kind] || ''}</div>
+  c.innerHTML = `${STAR}<span class="tile-main"><div class="kind">${KIND[it.kind] || ''}</div>
     <h3>${it.title}</h3><p>${it.desc}</p>
     <span class="begin${(studied || finished) ? ' is-done' : ''}">${begin}</span>
-    <span class="soon-flag">Coming</span>`;
+    <span class="soon-flag">Coming</span></span>`;
   const exId = ARS.deckEx && ARS.deckEx[it.id];
   /* Language exercises are loaded by id. They are not listed in exerciseFiles.
      introFor opens its exercise from Next on the last panel, so the tile has no Exercise button. */
@@ -354,6 +372,9 @@ function showExercisePlan(id, ex){
   location.hash = 'ex/' + id;
   $('ex-kind').textContent = ex.kind === 'review' ? 'Section review' : 'Exercise';
   $('ex-title').innerHTML = ex.title;
+  const fill = $('ex-progress'), count = $('ex-count');
+  if (fill) fill.style.width = '0';
+  if (count) count.textContent = '';
   if (!ex.covers || !ex.items){
     $('ex-sub').textContent = 'The questions are not yet written.';
     $('ex-body').innerHTML = '';
@@ -383,6 +404,19 @@ function showExercisePlan(id, ex){
     });
     body.appendChild(box);
     show('scr-ex');
+}
+function setExProgress(){
+  const fill = $('ex-progress');
+  const count = $('ex-count');
+  if (!run || !run.n){
+    if (fill) fill.style.width = '0';
+    if (count) count.textContent = '';
+    return;
+  }
+  const done = run.k >= run.n;
+  const shown = done ? run.n : run.k + 1;
+  if (fill) fill.style.width = `${(shown / run.n) * 100}%`;
+  if (count) count.textContent = `${shown} / ${run.n}`;
 }
 
 /* ---------- running a written exercise set, a review, or a cumulative sitting ----------
@@ -870,6 +904,7 @@ function renderItem(){
   if (window.__arsStopSpeak) window.__arsStopSpeak();
   const body = $('ex-body'); body.innerHTML = '';
   if (run.k >= run.queue.length) return renderSummary();
+  setExProgress();
   const it = run.queue[run.k], again = run.k >= run.n;
   const box = document.createElement('div'); box.className = 'q-box qp ex-item';
   box.innerHTML = `<div class="qp-label"><span>${again ? 'Asked again' : 'Question'}</span><span class="qp-form">${again ? '' : `${run.k + 1} of ${run.n}`}</span></div>
@@ -1037,6 +1072,7 @@ function renderSummary(){
   listed.forEach(x => { if (x && x.id) byId[x.id] = x; });
   const missed = ids.filter(i => run.first[i] === false).map(i => byId[i]).filter(Boolean);
   const body = $('ex-body'); body.innerHTML = '';
+  setExProgress();
   const box = document.createElement('div'); box.className = 'q-box qp';
   const finished = run.set ? ('Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
   box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
@@ -1084,14 +1120,19 @@ function qpState(qp){
 function renderPanel(){
   if (window.__arsStopSpeak) window.__arsStopSpeak();
   const { deck, i } = cur, p = deck.panels[i], n = deck.panels.length;
-  $('deck-count').textContent = `Panel ${i + 1} of ${n}`;
+  $('deck-count').textContent = `${i + 1} / ${n}`;
+  const runEl = $('deck-run');
+  if (runEl){
+    const sec = (ARS.structure || []).find(s => (s.items || []).some(it => it.id === deck.id));
+    runEl.textContent = sec && sec.name ? sec.name : (deck.title || '');
+  }
   $('deck-progress').style.width = `${((i + 1) / n) * 100}%`;
   const body = $('deck-body'); body.innerHTML = '';
   const panel = document.createElement('div'); panel.className = 'panel';
   panel.innerHTML = `<h2>${p.title}</h2>${p.body}` +
     (i === 0 && deck.sources ? `<div class="psrc"><b>Sources</b>${deck.sources}</div>` : '');
   body.appendChild(panel);
-  if (p.qp) body.appendChild(renderQP(p.qp));
+  if (p.qp) body.appendChild(studyCheck(renderQP(p.qp)));
   // A question point not yet written: shown as a marked placeholder for review (qpTodo: what it will test).
   if (!p.qp && p.qpTodo){ const t = document.createElement('div'); t.className = 'q-box qp qp-todo';
     t.innerHTML = `<div class="qp-label"><span>Question point (to be written)</span></div><div class="q-prompt">${p.qpTodo}</div>`; body.appendChild(t); }
@@ -1104,7 +1145,24 @@ function updateNext(){
   const p = cur.deck.panels[cur.i];
   const blocked = p.qp && qpState(p.qp).status !== 'correct';
   $('deck-next').disabled = !!blocked;
-  $('deck-hint').textContent = blocked ? 'The question must be answered correctly before going on.' : '';
+  $('deck-hint').textContent = blocked ? 'Answer the Study Check to continue.' : '';
+}
+function studyCheck(box){
+  const wrap = document.createElement('div');
+  wrap.className = 'before-proceeding';
+  const h = document.createElement('p');
+  h.className = 'before';
+  h.textContent = 'Before Proceeding:';
+  const details = document.createElement('details');
+  details.className = 'check';
+  details.innerHTML = `<summary>${STAR}Study Check<span class="chev" aria-hidden="true">›</span></summary>`;
+  const qbody = document.createElement('div');
+  qbody.className = 'qbody';
+  qbody.appendChild(box);
+  details.appendChild(qbody);
+  wrap.appendChild(h);
+  wrap.appendChild(details);
+  return wrap;
 }
 
 function renderQP(qp){
@@ -1235,7 +1293,7 @@ function refreshReciteNudge(){
 }
 
 /* ---------- controls ---------- */
-function setDark(on){ store.dark = on; document.body.classList.toggle('dark', on); $('dark-toggle').textContent = on ? '☀' : '☾'; save(); }
+function setDark(on){ store.dark = on; document.body.classList.toggle('dark', on); const t = $('dark-toggle'); if (t) t.textContent = '☾ / ☀'; save(); }
 $('dark-toggle').onclick = () => setDark(!store.dark);
 $('deck-next').onclick = nextPanel;
 $('deck-prev').onclick = prevPanel;

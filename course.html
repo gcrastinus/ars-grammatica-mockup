@@ -6,12 +6,13 @@
 <title>Ars Grammatica</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="course.css">
 <link rel="icon" href="data:,">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="star" viewBox="0 0 16 16"><path d="M8 0 C8.6 5 11 7.4 16 8 C11 8.6 8.6 11 8 16 C7.4 11 5 8.6 0 8 C5 7.4 7.4 5 8 0Z" fill="currentColor"/></symbol></defs></svg>
 <div id="top-right-controls" class="top-right-controls">
 <div id="speak-unit" class="speak-unit">
 <button id="speak-toggle" type="button" title="Read this screen aloud" aria-label="Read this screen aloud">▶</button>
@@ -26,7 +27,7 @@
   </ul>
 </div>
 </div>
-<button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾</button>
+<button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾ / ☀</button>
 </div>
 <button type="button" id="recite-open" class="recite-open" title="Recitation Tablet" aria-label="Recitation Tablet">
   <svg class="recite-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
@@ -52,16 +53,16 @@
 
   <div class="screen active" id="scr-home">
     <header>
-      <div class="ornament">❦</div>
+      <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
       <h1>Ars Grammatica</h1>
       <div class="subtitle">The first art of the trivium</div>
     </header>
+    <div class="rule"></div>
     <div class="intro-note">
       <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the errors and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, German, and French where they show something distinctive.
     </div>
     <div id="recite-due" class="recite-due" hidden></div>
     <div id="review-due" class="review-due" hidden></div>
-    <div class="rule"></div>
     <div id="home-acts"></div>
     <p class="designer-credit">These sets of exercises were designed by Timothy Kearns, PhD, created and maintained with the assistance of AI, and are extensively revised for clarity and precision.</p>
     <p class="teacher-note"><a href="#maker" id="maker-link">For instructors: build a printable quiz with an answer key</a></p>
@@ -71,6 +72,7 @@
   <div class="screen" id="scr-deck">
     <div class="q-head">
       <button class="btn" id="deck-home">← All sections</button>
+      <span class="sc" id="deck-run"></span>
       <span class="deck-count" id="deck-count"></span>
     </div>
     <div class="q-progress"><div class="q-progress-fill" id="deck-progress"></div></div>
@@ -97,8 +99,10 @@
   <div class="screen" id="scr-ex">
     <div class="q-head">
       <button class="btn" id="ex-home">← All sections</button>
-      <span class="deck-count" id="ex-kind"></span>
+      <span class="sc" id="ex-kind"></span>
+      <span class="deck-count" id="ex-count"></span>
     </div>
+    <div class="q-progress"><div class="q-progress-fill" id="ex-progress"></div></div>
     <div class="deck-title" id="ex-title"></div>
     <div class="deck-sub" id="ex-sub"></div>
     <div id="ex-body"></div>
@@ -106,7 +110,7 @@
 
   <div class="screen" id="scr-done">
     <div class="complete-card">
-      <div class="complete-orn">❦</div>
+      <svg class="complete-orn orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
       <h2 id="done-title"></h2>
       <div class="complete-sub" id="done-sub"></div>
       <div class="complete-btns" style="margin-top:28px">

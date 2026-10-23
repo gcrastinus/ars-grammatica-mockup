@@ -150,7 +150,7 @@ function buildHome(){
     host.appendChild(grid);
   });
 }
-function setDark(on){ store.dark = on; document.body.classList.toggle('dark', on); $('dark-toggle').textContent = on ? '☀' : '☾'; save(); }
+function setDark(on){ store.dark = on; document.body.classList.toggle('dark', on); const t = $('dark-toggle'); if (t) t.textContent = '☾ / ☀'; save(); }
 $('dark-toggle').onclick = () => setDark(!store.dark);
 document.querySelectorAll('.mock-soon').forEach(b => b.onclick = soon);
 setDark(!!store.dark);
