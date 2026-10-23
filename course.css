@@ -817,3 +817,10 @@ body.dark .lang-bar .lang-btn.is-done:focus-visible{background:color-mix(in srgb
 .sec-rule-faint{opacity:.5; margin:6px 0}
 .lang-bar .lang-btn .lang-sq{display:inline-block; width:5px; height:5px; background:currentColor; margin:0 7px 0 0; position:relative; top:0; align-self:center; flex:none}
 
+
+/* Oct 23: language bar in printer's red and black: ink lettering, plain paper, light frame, a rubric-red square. */
+.lang-bar .lang-btn, .lang-bar .lang-btn.is-done{color:var(--ink) !important; background:var(--card) !important; border-color:var(--frame) !important; --rubric:#9b2d20}
+.lang-bar .lang-btn:hover, .lang-bar .lang-btn:focus-visible, .lang-bar .lang-btn.is-done:hover{background:var(--hover) !important}
+.lang-bar .lang-btn:focus-visible{outline-color:var(--rubric)}
+.lang-bar .lang-btn .lang-sq{background:var(--rubric)}
+body.dark .lang-bar .lang-btn{--rubric:#d07a68}
