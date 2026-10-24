@@ -15,7 +15,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "The Earth-Spirit is present and has just spoken. Faust answers, “Yes, I am Faust: I am thy peer!” (<em>Ich bin’s, bin Faust, bin deinesgleichen!</em>). What kind of address is that?",
+   "prompt": "The Earth-Spirit is present and has just spoken. Faust answers, “Yes, I am Faust: I am thy peer!” (<em lang=\"de\">Ich bin’s, bin Faust, bin deinesgleichen!</em>). What kind of address is that?",
    "explain": "The spirit is present and can answer, so the address is ordinary. Apostrophe turns to someone absent, or to a thing that cannot answer.",
    "options": [
     "Apostrophe, because every address is a figure",
@@ -31,13 +31,13 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Choose the apostrophe. Faust asks, “Thee, boundless Nature, how make thee my own?” (<em>Wo fass ich dich, unendliche Natur?</em>).",
+   "prompt": "Choose the apostrophe. Faust asks, “Thee, boundless Nature, how make thee my own?” (<em lang=\"de\">Wo fass ich dich, unendliche Natur?</em>).",
    "explain": "Nature is addressed, and nature cannot answer. That address is apostrophe. The other wordings state a fact, rename an act, or enlarge a claim.",
    "options": [
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
-    "“In Action’s storm” (<em>im Tatensturm</em>)",
-    "“Thee, boundless Nature, how make thee my own?” (<em>Wo fass ich dich, unendliche Natur?</em>)",
-    "“No crash of shipwreck shall have power to fright me!” (<em>in des Schiffbruchs Knirschen nicht zu zagen</em>)"
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)",
+    "“Thee, boundless Nature, how make thee my own?” (<em lang=\"de\">Wo fass ich dich, unendliche Natur?</em>)",
+    "“No crash of shipwreck shall have power to fright me!” (<em lang=\"de\">in des Schiffbruchs Knirschen nicht zu zagen</em>)"
    ],
    "answer": 2
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Choose the metaphor. The Earth-Spirit says, “In the tides of Life, in Action’s storm” (<em>In Lebensfluten, im Tatensturm</em>).",
-   "explain": "“Storm” (<em>Sturm</em>) is used for action, because action resembles a storm. The likeness is in the word itself.",
+   "prompt": "Choose the metaphor. The Earth-Spirit says, “In the tides of Life, in Action’s storm” (<em lang=\"de\">In Lebensfluten, im Tatensturm</em>).",
+   "explain": "“Storm” (<em lang=\"de\">Sturm</em>) is used for action, because action resembles a storm. The likeness is in the word itself.",
    "options": [
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
-    "“Thee, boundless Nature” (<em>unendliche Natur</em>)",
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
+    "“Thee, boundless Nature” (<em lang=\"de\">unendliche Natur</em>)",
     "“No crash of shipwreck shall have power to fright me!”",
-    "“In Action’s storm” (<em>im Tatensturm</em>)"
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)"
    ],
    "answer": 3
   },
@@ -63,7 +63,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“I’ve studied now Philosophy / And Jurisprudence, Medicine,— / And even, alas! Theology” (<em>Habe nun, ach! Philosophie, / Juristerei und Medizin, / Und leider auch Theologie</em>) names the studies and stops. What is that wording?",
+   "prompt": "“I’ve studied now Philosophy / And Jurisprudence, Medicine,— / And even, alas! Theology” (<em lang=\"de\">Habe nun, ach! Philosophie, / Juristerei und Medizin, / Und leider auch Theologie</em>) names the studies and stops. What is that wording?",
    "explain": "The wording states the claim. It does not transfer a word by likeness, it does not address the studies, and it does not go beyond the fact that he has studied them.",
    "options": [
     "Only a statement",
@@ -79,7 +79,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Faust, still in his study, says, “No crash of shipwreck shall have power to fright me!” (<em>Und in des Schiffbruchs Knirschen nicht zu zagen</em>). The wording enlarges a courage he is not then using. What is the figure?",
+   "prompt": "Faust, still in his study, says, “No crash of shipwreck shall have power to fright me!” (<em lang=\"de\">Und in des Schiffbruchs Knirschen nicht zu zagen</em>). The wording enlarges a courage he is not then using. What is the figure?",
    "explain": "The courage goes beyond the present fact in order to enlarge it. That figure is hyperbole.",
    "options": [
     "Metaphor",
@@ -95,7 +95,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“And here, poor fool! with all my lore / I stand, no wiser than before” (<em>Da steh ich nun, ich armer Tor! Und bin so klug als wie zuvor</em>) sets his wisdom at nothing. Which way does the wording go?",
+   "prompt": "“And here, poor fool! with all my lore / I stand, no wiser than before” (<em lang=\"de\">Da steh ich nun, ich armer Tor! Und bin so klug als wie zuvor</em>) sets his wisdom at nothing. Which way does the wording go?",
    "explain": "The wording lessens what he knows, beyond a measured fact. Hyperbole may lessen as well as enlarge.",
    "options": [
     "It enlarges a count of books",
@@ -112,11 +112,11 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which wording is a plain statement?",
-   "explain": "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>) does not address the study, does not rename it, and does not enlarge or lessen the claim.",
+   "explain": "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>) does not address the study, does not rename it, and does not enlarge or lessen the claim.",
    "options": [
-    "“O World, thy Maker’s throne to see” (<em>Ahnest du den Schöpfer, Welt?</em>)",
-    "“In Action’s storm” (<em>im Tatensturm</em>)",
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
+    "“O World, thy Maker’s throne to see” (<em lang=\"de\">Ahnest du den Schöpfer, Welt?</em>)",
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)",
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
     "“No crash of shipwreck shall have power to fright me!”"
    ],
    "answer": 2
@@ -128,12 +128,12 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Choose the address to a thing that cannot answer.",
-   "explain": "“O World, thy Maker’s throne to see” (<em>Ahnest du den Schöpfer, Welt?</em>) addresses the world. The world cannot answer, so the address is apostrophe.",
+   "explain": "“O World, thy Maker’s throne to see” (<em lang=\"de\">Ahnest du den Schöpfer, Welt?</em>) addresses the world. The world cannot answer, so the address is apostrophe.",
    "options": [
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
-    "“O World, thy Maker’s throne to see” (<em>Ahnest du den Schöpfer, Welt?</em>)",
-    "“In Action’s storm” (<em>im Tatensturm</em>)",
-    "“I stand, no wiser than before” (<em>bin so klug als wie zuvor</em>)"
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
+    "“O World, thy Maker’s throne to see” (<em lang=\"de\">Ahnest du den Schöpfer, Welt?</em>)",
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)",
+    "“I stand, no wiser than before” (<em lang=\"de\">bin so klug als wie zuvor</em>)"
    ],
    "answer": 1
   },
@@ -143,7 +143,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Why is “Thee, boundless Nature, how make thee my own?” (<em>Wo fass ich dich, unendliche Natur?</em>) apostrophe?",
+   "prompt": "Why is “Thee, boundless Nature, how make thee my own?” (<em lang=\"de\">Wo fass ich dich, unendliche Natur?</em>) apostrophe?",
    "explain": "Nature cannot answer. Apostrophe is an address to a thing that cannot answer, or to someone absent.",
    "options": [
     "Nature cannot answer",
@@ -159,13 +159,13 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In “In the tides of Life, in Action’s storm” (<em>In Lebensfluten, im Tatensturm</em>), which word is used for something it resembles?",
-   "explain": "<em>Sturm</em> (“storm”) is transferred to action. Action resembles a storm, and the word carries that likeness.",
+   "prompt": "In “In the tides of Life, in Action’s storm” (<em lang=\"de\">In Lebensfluten, im Tatensturm</em>), which word is used for something it resembles?",
+   "explain": "<em lang=\"de\">Sturm</em> (“storm”) is transferred to action. Action resembles a storm, and the word carries that likeness.",
    "options": [
-    "<em>Leben</em> (“life”), used for a storm",
-    "<em>Sturm</em> (“storm”), used for action",
-    "<em>im</em>, used for a number",
-    "<em>Taten</em>, used as an address"
+    "<em lang=\"de\">Leben</em> (“life”), used for a storm",
+    "<em lang=\"de\">Sturm</em> (“storm”), used for action",
+    "<em lang=\"de\">im</em>, used for a number",
+    "<em lang=\"de\">Taten</em>, used as an address"
    ],
    "answer": 1
   },
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A comparison would say that action is like a storm. The line says “Action’s storm” (<em>Tatensturm</em>) and does not add that word. What does the metaphor omit?",
+   "prompt": "A comparison would say that action is like a storm. The line says “Action’s storm” (<em lang=\"de\">Tatensturm</em>) and does not add that word. What does the metaphor omit?",
    "explain": "A metaphor carries the likeness in the transferred word and does not add a separate word such as “like.”",
    "options": [
     "The word “like”",
@@ -192,12 +192,12 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Choose the hyperbole that lessens.",
-   "explain": "“I stand, no wiser than before” (<em>Und bin so klug als wie zuvor</em>) lessens his wisdom beyond a measured fact. That lessening is hyperbole.",
+   "explain": "“I stand, no wiser than before” (<em lang=\"de\">Und bin so klug als wie zuvor</em>) lessens his wisdom beyond a measured fact. That lessening is hyperbole.",
    "options": [
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
-    "“I stand, no wiser than before” (<em>bin so klug als wie zuvor</em>)",
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
+    "“I stand, no wiser than before” (<em lang=\"de\">bin so klug als wie zuvor</em>)",
     "“O World, thy Maker’s throne to see”",
-    "“In Action’s storm” (<em>im Tatensturm</em>)"
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)"
    ],
    "answer": 1
   },
@@ -207,7 +207,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“No crash of shipwreck shall have power to fright me!” (<em>Und in des Schiffbruchs Knirschen nicht zu zagen</em>) is hyperbole. What is enlarged?",
+   "prompt": "“No crash of shipwreck shall have power to fright me!” (<em lang=\"de\">Und in des Schiffbruchs Knirschen nicht zu zagen</em>) is hyperbole. What is enlarged?",
    "explain": "The courage is set beyond the fact of a man standing in his study. The enlargement is the hyperbole.",
    "options": [
     "The likeness of action to a storm",
@@ -223,7 +223,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“O World, thy Maker’s throne to see” addresses the world, and “ye millions” in the same chorus sets the number beyond any crowd then present (<em>Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which pair of figures can stand in that one wording?",
+   "prompt": "“O World, thy Maker’s throne to see” addresses the world, and “ye millions” in the same chorus sets the number beyond any crowd then present (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which pair of figures can stand in that one wording?",
    "explain": "The tests are separate. The world is addressed, and the millions go beyond the fact. The wording is both apostrophe and hyperbole.",
    "options": [
     "Apostrophe and hyperbole",
@@ -240,12 +240,12 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Choose the wording that is not apostrophe.",
-   "explain": "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>) speaks about the study. It does not address Philosophy, Nature, or the world.",
+   "explain": "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>) speaks about the study. It does not address Philosophy, Nature, or the world.",
    "options": [
-    "“Thee, boundless Nature, how make thee my own?” (<em>Wo fass ich dich, unendliche Natur?</em>)",
-    "“O World, thy Maker’s throne to see” (<em>Ahnest du den Schöpfer, Welt?</em>)",
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
-    "“Thou, Spirit of the Earth, art nearer” (<em>Du, Geist der Erde, bist mir näher</em>), spoken before the spirit appears"
+    "“Thee, boundless Nature, how make thee my own?” (<em lang=\"de\">Wo fass ich dich, unendliche Natur?</em>)",
+    "“O World, thy Maker’s throne to see” (<em lang=\"de\">Ahnest du den Schöpfer, Welt?</em>)",
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
+    "“Thou, Spirit of the Earth, art nearer” (<em lang=\"de\">Du, Geist der Erde, bist mir näher</em>), spoken before the spirit appears"
    ],
    "answer": 2
   },
@@ -255,7 +255,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A thing that cannot answer is addressed, as Nature is in <em>Wo fass ich dich, unendliche Natur?</em> Which figure is that, whatever else the line also does?",
+   "prompt": "A thing that cannot answer is addressed, as Nature is in <em lang=\"de\">Wo fass ich dich, unendliche Natur?</em> Which figure is that, whatever else the line also does?",
    "explain": "An address to a thing that cannot answer is apostrophe, even when the same line also enlarges or renames.",
    "options": [
     "Metaphor",
@@ -272,12 +272,12 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Choose the plain statement.",
-   "explain": "“Jurisprudence, Medicine” (<em>Juristerei und Medizin</em>) does not address those studies, does not rename them by a likeness, and does not go beyond the fact that he names them.",
+   "explain": "“Jurisprudence, Medicine” (<em lang=\"de\">Juristerei und Medizin</em>) does not address those studies, does not rename them by a likeness, and does not go beyond the fact that he names them.",
    "options": [
-    "“In Action’s storm” (<em>im Tatensturm</em>)",
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)",
     "“O World, thy Maker’s throne to see”",
     "“No crash of shipwreck shall have power to fright me!”",
-    "“And Jurisprudence, Medicine” (<em>Juristerei und Medizin</em>)"
+    "“And Jurisprudence, Medicine” (<em lang=\"de\">Juristerei und Medizin</em>)"
    ],
    "answer": 3
   },
@@ -287,8 +287,8 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“In Action’s storm” (<em>im Tatensturm</em>) is a metaphor. What does <em>Sturm</em> do?",
-   "explain": "<em>Sturm</em> names the action by a likeness. The word is transferred from the weather to the act.",
+   "prompt": "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>) is a metaphor. What does <em lang=\"de\">Sturm</em> do?",
+   "explain": "<em lang=\"de\">Sturm</em> names the action by a likeness. The word is transferred from the weather to the act.",
    "options": [
     "It addresses the storm",
     "It enlarges a count of real storms",
@@ -304,12 +304,12 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Choose the hyperbole.",
-   "explain": "“No crash of shipwreck shall have power to fright me!” (<em>Und in des Schiffbruchs Knirschen nicht zu zagen</em>) sets the courage beyond the fact. That enlargement is hyperbole.",
+   "explain": "“No crash of shipwreck shall have power to fright me!” (<em lang=\"de\">Und in des Schiffbruchs Knirschen nicht zu zagen</em>) sets the courage beyond the fact. That enlargement is hyperbole.",
    "options": [
-    "“I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)",
+    "“I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)",
     "“No crash of shipwreck shall have power to fright me!”",
     "“Thee, boundless Nature, how make thee my own?”",
-    "“In Action’s storm” (<em>im Tatensturm</em>)"
+    "“In Action’s storm” (<em lang=\"de\">im Tatensturm</em>)"
    ],
    "answer": 1
   },
@@ -319,7 +319,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which figure is in “I’ve studied now Philosophy” (<em>Habe nun, ach! Philosophie</em>)?",
+   "prompt": "Which figure is in “I’ve studied now Philosophy” (<em lang=\"de\">Habe nun, ach! Philosophie</em>)?",
    "explain": "The sentence meets none of the three tests. It is not apostrophe, metaphor, or hyperbole.",
    "options": [
     "Apostrophe",
@@ -335,7 +335,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“O World, thy Maker’s throne to see,” with “ye millions” in the same chorus (<em>Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which two figures are in it?",
+   "prompt": "“O World, thy Maker’s throne to see,” with “ye millions” in the same chorus (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which two figures are in it?",
    "explain": "The world is addressed, so the wording is apostrophe, and “ye millions” goes beyond the crowd then present, so the wording is also hyperbole.",
    "options": [
     "Apostrophe and hyperbole",

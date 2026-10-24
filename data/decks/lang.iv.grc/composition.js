@@ -9,12 +9,12 @@ ARS.decks["lang.iv.grc/composition"] = {
   {
    "id": "kinds",
    "title": "The kinds of compound",
-   "body": "<p>English “upland” is land that is up, whereas “redcoat” is not a coat but a man who wears one. Greek, which compounds far more freely than Latin, makes the same two kinds and a third. In a <strong>determinative</strong> compound the first part describes the second: <i>ἀκρόπολις</i> (“upper city,” from <i>ἄκρος</i>, “highest,” and <i>πόλις</i>), <i>ψευδόμαντις</i> (“false prophet”). In a <strong>possessive</strong> compound the whole describes someone who has what the parts name: <i>μεγαλόψυχος</i> (“having a great soul,” “magnanimous”), and Homer’s <i>ῥοδοδάκτυλος</i> (“rosy-fingered”), said of Dawn. In a <strong>governing</strong> compound one part acts on the other as a verb on its object: <i>φιλόπολις</i> (“loving one’s city”), <i>λογογράφος</i> (“speech-writer”), <i>ψυχοπομπός</i> (“conductor of souls”).</p>",
+   "body": "<p>English “upland” is land that is up, whereas “redcoat” is not a coat but a man who wears one. Greek, which compounds far more freely than Latin, makes the same two kinds and a third. In a <strong>determinative</strong> compound the first part describes the second: <i lang=\"grc\">ἀκρόπολις</i> (“upper city,” from <i lang=\"grc\">ἄκρος</i>, “highest,” and <i lang=\"grc\">πόλις</i>), <i lang=\"grc\">ψευδόμαντις</i> (“false prophet”). In a <strong>possessive</strong> compound the whole describes someone who has what the parts name: <i lang=\"grc\">μεγαλόψυχος</i> (“having a great soul,” “magnanimous”), and Homer’s <i lang=\"grc\">ῥοδοδάκτυλος</i> (“rosy-fingered”), said of Dawn. In a <strong>governing</strong> compound one part acts on the other as a verb on its object: <i lang=\"grc\">φιλόπολις</i> (“loving one’s city”), <i lang=\"grc\">λογογράφος</i> (“speech-writer”), <i lang=\"grc\">ψυχοπομπός</i> (“conductor of souls”).</p>",
    "qp": {
     "id": "q-grc-comp-kinds",
     "variants": [
      {
-      "prompt": "What kind of compound is <i>μεγαλόψυχος</i>?",
+      "prompt": "What kind of compound is <i lang=\"grc\">μεγαλόψυχος</i>?",
       "options": [
        "Determinative: “a great soul”",
        "Governing: “loving the soul”",
@@ -25,7 +25,7 @@ ARS.decks["lang.iv.grc/composition"] = {
       "explain": "The compound describes a person who has a great soul."
      },
      {
-      "prompt": "What kind of compound is <i>λογογράφος</i>?",
+      "prompt": "What kind of compound is <i lang=\"grc\">λογογράφος</i>?",
       "options": [
        "Governing",
        "Possessive: one who has speeches",
@@ -36,7 +36,7 @@ ARS.decks["lang.iv.grc/composition"] = {
       "explain": "The second part acts on the first as a verb on its object."
      },
      {
-      "prompt": "What does <i>ἀκρόπολις</i> mean, read from its parts?",
+      "prompt": "What does <i lang=\"grc\">ἀκρόπολις</i> mean, read from its parts?",
       "options": [
        "“the city of the sharp ones”",
        "“the upper city”",
@@ -44,7 +44,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“a city with walls”"
       ],
       "answer": 1,
-      "explain": "<i>Ἄκρος</i>, “highest,” describes <i>πόλις</i>: a determinative compound."
+      "explain": "<i lang=\"grc\">Ἄκρος</i>, “highest,” describes <i lang=\"grc\">πόλις</i>: a determinative compound."
      }
     ]
    }
@@ -52,34 +52,34 @@ ARS.decks["lang.iv.grc/composition"] = {
   {
    "id": "joining",
    "title": "The joining vowel",
-   "body": "<p>When the first part of a Greek compound is a noun or an adjective, it usually ends in the joining vowel <i>-ο-</i>, whatever its declension: <i>ἱππόδρομος</i> (“horse-course,” racecourse), <i>νομοθέτης</i> (“law-giver”), <i>δημοκρατία</i> (“rule of the people”), <i>θεομάχος</i> (“fighting against god”). Before a vowel the <i>-ο-</i> is usually dropped: <i>φιλ-άνθρωπος</i> (“loving mankind”), <i>χειρ-ουργός</i> (“hand-worker,” whence “surgeon”). This is the <i>-o-</i> of the English learned compounds, as we have seen: “photograph,” “biology.” A verb stem can stand first as well, as <i>φιλ-</i> in <i>φιλόσοφος</i>, and a numeral, as <i>τρι-</i> in <i>τρίπους</i> (“three-footed,” “tripod”).</p>",
+   "body": "<p>When the first part of a Greek compound is a noun or an adjective, it usually ends in the joining vowel <i lang=\"grc\">-ο-</i>, whatever its declension: <i lang=\"grc\">ἱππόδρομος</i> (“horse-course,” racecourse), <i lang=\"grc\">νομοθέτης</i> (“law-giver”), <i lang=\"grc\">δημοκρατία</i> (“rule of the people”), <i lang=\"grc\">θεομάχος</i> (“fighting against god”). Before a vowel the <i lang=\"grc\">-ο-</i> is usually dropped: <i lang=\"grc\">φιλ-άνθρωπος</i> (“loving mankind”), <i lang=\"grc\">χειρ-ουργός</i> (“hand-worker,” whence “surgeon”). This is the <i lang=\"grc\">-o-</i> of the English learned compounds, as we have seen: “photograph,” “biology.” A verb stem can stand first as well, as <i lang=\"grc\">φιλ-</i> in <i lang=\"grc\">φιλόσοφος</i>, and a numeral, as <i lang=\"grc\">τρι-</i> in <i lang=\"grc\">τρίπους</i> (“three-footed,” “tripod”).</p>",
    "qp": {
     "id": "q-grc-comp-joining",
     "variants": [
      {
-      "prompt": "What vowel joins the parts of <i>νομοθέτης</i>?",
+      "prompt": "What vowel joins the parts of <i lang=\"grc\">νομοθέτης</i>?",
       "options": [
-       "<i>-ο-</i>",
-       "<i>-ι-</i>",
-       "<i>-α-</i>",
+       "<i lang=\"grc\">-ο-</i>",
+       "<i lang=\"grc\">-ι-</i>",
+       "<i lang=\"grc\">-α-</i>",
        "none"
       ],
       "answer": 0,
-      "explain": "Greek joins with <i>-ο-</i>: <i>νομ-ο-θέτης</i>."
+      "explain": "Greek joins with <i lang=\"grc\">-ο-</i>: <i lang=\"grc\">νομ-ο-θέτης</i>."
      },
      {
-      "prompt": "Why is it <i>φιλάνθρωπος</i> and not <i>φιλοάνθρωπος</i>?",
+      "prompt": "Why is it <i lang=\"grc\">φιλάνθρωπος</i> and not <i lang=\"grc\">φιλοάνθρωπος</i>?",
       "options": [
-       "<i>Φιλ-</i> never takes a joining vowel at all",
-       "<i>Ἄνθρωπος</i> is a verb",
+       "<i lang=\"grc\">Φιλ-</i> never takes a joining vowel at all",
+       "<i lang=\"grc\">Ἄνθρωπος</i> is a verb",
        "The word is Latin",
        "The joining vowel drops before a vowel"
       ],
       "answer": 3,
-      "explain": "Before the vowel of <i>ἄνθρωπος</i>, the <i>-ο-</i> is dropped."
+      "explain": "Before the vowel of <i lang=\"grc\">ἄνθρωπος</i>, the <i lang=\"grc\">-ο-</i> is dropped."
      },
      {
-      "prompt": "What does <i>ἱππόδρομος</i> name?",
+      "prompt": "What does <i lang=\"grc\">ἱππόδρομος</i> name?",
       "options": [
        "a horse that runs",
        "a rider",
@@ -87,7 +87,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "a horse-dealer"
       ],
       "answer": 2,
-      "explain": "<i>Ἵππος</i> and <i>δρόμος</i> (“course”): a determinative compound."
+      "explain": "<i lang=\"grc\">Ἵππος</i> and <i lang=\"grc\">δρόμος</i> (“course”): a determinative compound."
      }
     ]
    }
@@ -95,12 +95,12 @@ ARS.decks["lang.iv.grc/composition"] = {
   {
    "id": "verbs",
    "title": "Prepositions in compound verbs",
-   "body": "<p>As we have seen, a Greek preposition is often joined to a verb, and the augment stands between them. The preposition keeps its sense as an adverb, and the common ones give a large part of Greek vocabulary: <i>ἀνα-</i> (“up,” “again”: <i>ἀναβαίνω</i>, “I go up”), <i>ἀπο-</i> (“away,” “back”: <i>ἀποδίδωμι</i>, “I give back”), <i>δια-</i> (“through,” “apart”: <i>διαφέρω</i>, “I carry through,” “I differ”), <i>ἐκ-</i> (“out”), <i>εἰσ-</i> (“into”), <i>κατα-</i> (“down,” and often “completely”: <i>κατεσθίω</i>, “I eat up”), <i>συν-</i> (“together”), <i>προ-</i> (“before”), <i>ὑπο-</i> (“under”). So <i>κατα-</i> can do in Greek what “up” does in English “eat up” and “burn up”: it says that the action is carried through to the end.</p>",
+   "body": "<p>As we have seen, a Greek preposition is often joined to a verb, and the augment stands between them. The preposition keeps its sense as an adverb, and the common ones give a large part of Greek vocabulary: <i lang=\"grc\">ἀνα-</i> (“up,” “again”: <i lang=\"grc\">ἀναβαίνω</i>, “I go up”), <i lang=\"grc\">ἀπο-</i> (“away,” “back”: <i lang=\"grc\">ἀποδίδωμι</i>, “I give back”), <i lang=\"grc\">δια-</i> (“through,” “apart”: <i lang=\"grc\">διαφέρω</i>, “I carry through,” “I differ”), <i lang=\"grc\">ἐκ-</i> (“out”), <i lang=\"grc\">εἰσ-</i> (“into”), <i lang=\"grc\">κατα-</i> (“down,” and often “completely”: <i lang=\"grc\">κατεσθίω</i>, “I eat up”), <i lang=\"grc\">συν-</i> (“together”), <i lang=\"grc\">προ-</i> (“before”), <i lang=\"grc\">ὑπο-</i> (“under”). So <i lang=\"grc\">κατα-</i> can do in Greek what “up” does in English “eat up” and “burn up”: it says that the action is carried through to the end.</p>",
    "qp": {
     "id": "q-grc-comp-verbs",
     "variants": [
      {
-      "prompt": "What does <i>ἀναγιγνώσκω</i> mean, read from its parts (“know again”)?",
+      "prompt": "What does <i lang=\"grc\">ἀναγιγνώσκω</i> mean, read from its parts (“know again”)?",
       "options": [
        "“I forget”",
        "“I learn beforehand”",
@@ -108,10 +108,10 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“I know together”"
       ],
       "answer": 2,
-      "explain": "“To know again” the letters is to read; <i>ἀνα-</i> means “again.”"
+      "explain": "“To know again” the letters is to read; <i lang=\"grc\">ἀνα-</i> means “again.”"
      },
      {
-      "prompt": "What does <i>κατα-</i> add in <i>κατακαίω</i> (“I burn”)?",
+      "prompt": "What does <i lang=\"grc\">κατα-</i> add in <i lang=\"grc\">κατακαίω</i> (“I burn”)?",
       "options": [
        "That the burning is repeated",
        "That the burning is complete",
@@ -119,10 +119,10 @@ ARS.decks["lang.iv.grc/composition"] = {
        "That the burning is together"
       ],
       "answer": 1,
-      "explain": "<i>Κατα-</i> often says that the action is carried through to the end."
+      "explain": "<i lang=\"grc\">Κατα-</i> often says that the action is carried through to the end."
      },
      {
-      "prompt": "What does <i>ἀποδίδωμι</i> mean?",
+      "prompt": "What does <i lang=\"grc\">ἀποδίδωμι</i> mean?",
       "options": [
        "“I give back”",
        "“I give together”",
@@ -130,7 +130,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“I give before”"
       ],
       "answer": 0,
-      "explain": "<i>Ἀπο-</i>, “back,” with <i>δίδωμι</i>, “I give.”"
+      "explain": "<i lang=\"grc\">Ἀπο-</i>, “back,” with <i lang=\"grc\">δίδωμι</i>, “I give.”"
      }
     ]
    }
@@ -138,7 +138,7 @@ ARS.decks["lang.iv.grc/composition"] = {
   {
    "id": "english",
    "title": "Greek compounds in English",
-   "body": "<p>English keeps many Greek compounds whole, and their parts can still be read: “hippopotamus” (<i>ἵππος ποτάμιος</i>, “river horse”), “rhinoceros” (<i>ῥίς</i>, <i>ῥινός</i>, “nose,” and <i>κέρας</i>, “horn”), “chrysanthemum” (<i>χρυσός</i>, “gold,” and <i>ἄνθεμον</i>, “flower”), “orthodox” (<i>ὀρθός</i>, “right,” and <i>δόξα</i>, “opinion”), “monarchy” (<i>μόνος</i>, “alone,” and <i>ἀρχή</i>, “rule”). Many others were coined in modern times from Greek parts, as we have seen in English: “oxygen” (“acid-maker”) and “dinosaur” (“terrible lizard”). So a knowledge of a few Greek stems opens a large part of the learned vocabulary of English.</p>",
+   "body": "<p>English keeps many Greek compounds whole, and their parts can still be read: “hippopotamus” (<i lang=\"grc\">ἵππος ποτάμιος</i>, “river horse”), “rhinoceros” (<i lang=\"grc\">ῥίς</i>, <i lang=\"grc\">ῥινός</i>, “nose,” and <i lang=\"grc\">κέρας</i>, “horn”), “chrysanthemum” (<i lang=\"grc\">χρυσός</i>, “gold,” and <i lang=\"grc\">ἄνθεμον</i>, “flower”), “orthodox” (<i lang=\"grc\">ὀρθός</i>, “right,” and <i lang=\"grc\">δόξα</i>, “opinion”), “monarchy” (<i lang=\"grc\">μόνος</i>, “alone,” and <i lang=\"grc\">ἀρχή</i>, “rule”). Many others were coined in modern times from Greek parts, as we have seen in English: “oxygen” (“acid-maker”) and “dinosaur” (“terrible lizard”). So a knowledge of a few Greek stems opens a large part of the learned vocabulary of English.</p>",
    "qp": {
     "id": "q-grc-comp-english",
     "variants": [
@@ -151,7 +151,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“alone” and “arch”"
       ],
       "answer": 0,
-      "explain": "<i>Μόνος</i>, “alone,” and <i>ἀρχή</i>, “rule.”"
+      "explain": "<i lang=\"grc\">Μόνος</i>, “alone,” and <i lang=\"grc\">ἀρχή</i>, “rule.”"
      },
      {
       "prompt": "What does “rhinoceros” mean literally?",
@@ -162,7 +162,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“nose-horn”"
       ],
       "answer": 3,
-      "explain": "<i>Ῥίς</i>, “nose,” and <i>κέρας</i>, “horn.”"
+      "explain": "<i lang=\"grc\">Ῥίς</i>, “nose,” and <i lang=\"grc\">κέρας</i>, “horn.”"
      },
      {
       "prompt": "What does “orthodox” mean literally?",
@@ -173,7 +173,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“old teaching”"
       ],
       "answer": 2,
-      "explain": "<i>Ὀρθός</i>, “right,” and <i>δόξα</i>, “opinion.”"
+      "explain": "<i lang=\"grc\">Ὀρθός</i>, “right,” and <i lang=\"grc\">δόξα</i>, “opinion.”"
      }
     ]
    }

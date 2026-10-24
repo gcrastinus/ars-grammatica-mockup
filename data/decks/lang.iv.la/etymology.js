@@ -9,15 +9,15 @@ ARS.decks["lang.iv.la/etymology"] = {
   {
    "id": "cognates",
    "title": "Latin and its cognates",
-   "body": "<p>Latin <em>frāter</em>, Greek <em>φρᾱ́τηρ</em> (“member of a clan”), Sanskrit <em>bhrātar-</em>, and English “brother” are one word in four languages, inherited from a common parent language that grammarians call Indo-European. In the same way Latin <em>novem</em> answers to Greek <em>ἐννέα</em> and English “nine,” and Latin <em>mūs</em> to Greek <em>μῦς</em> and English “mouse.” The comparison of such words, set out by the comparative grammarians of the nineteenth century, showed that Latin and Greek are sister languages, not mother and daughter: neither comes from the other, and each keeps some features the other has lost.</p>",
+   "body": "<p>Latin <em lang=\"la\">frāter</em>, Greek <em lang=\"la\">φρᾱ́τηρ</em> (“member of a clan”), Sanskrit <em lang=\"la\">bhrātar-</em>, and English “brother” are one word in four languages, inherited from a common parent language that grammarians call Indo-European. In the same way Latin <em lang=\"la\">novem</em> answers to Greek <em lang=\"la\">ἐννέα</em> and English “nine,” and Latin <em lang=\"la\">mūs</em> to Greek <em lang=\"la\">μῦς</em> and English “mouse.” The comparison of such words, set out by the comparative grammarians of the nineteenth century, showed that Latin and Greek are sister languages, not mother and daughter: neither comes from the other, and each keeps some features the other has lost.</p>",
    "qp": {
     "id": "q-la-ety-cognates",
     "variants": [
      {
-      "prompt": "How are Latin <em>frāter</em> and English “brother” related?",
+      "prompt": "How are Latin <em lang=\"la\">frāter</em> and English “brother” related?",
       "options": [
        "“Brother” was borrowed from Latin",
-       "<em>Frāter</em> was borrowed from English",
+       "<em lang=\"la\">Frāter</em> was borrowed from English",
        "They are cognates",
        "They are unrelated"
       ],
@@ -36,7 +36,7 @@ ARS.decks["lang.iv.la/etymology"] = {
       "explain": "Neither comes from the other; both come from Indo-European."
      },
      {
-      "prompt": "Which English word is the native cognate of Latin <em>mūs</em>?",
+      "prompt": "Which English word is the native cognate of Latin <em lang=\"la\">mūs</em>?",
       "options": [
        "“mouse”",
        "“muscle”",
@@ -44,7 +44,7 @@ ARS.decks["lang.iv.la/etymology"] = {
        "“museum”"
       ],
       "answer": 0,
-      "explain": "“Mouse” is inherited; “muscle” comes from <em>mūsculus</em>, “little mouse,” by borrowing."
+      "explain": "“Mouse” is inherited; “muscle” comes from <em lang=\"la\">mūsculus</em>, “little mouse,” by borrowing."
      }
     ]
    }
@@ -52,42 +52,42 @@ ARS.decks["lang.iv.la/etymology"] = {
   {
    "id": "greek",
    "title": "Greek words in Latin",
-   "body": "<p>The Romans took much of their learning from the Greeks and many Greek words with it: <em>philosophia</em>, <em>poēta</em>, <em>schola</em> (“leisure,” then “school”), <em>theātrum</em>, <em>ēpistula</em> (Greek <em>ἐπιστολή</em>), <em>machina</em>. Latin wrote them with its own letters by fixed rules: Greek <em>κ</em> became <em>c</em>, <em>υ</em> became <em>y</em>, <em>χ</em> <em>ch</em>, <em>φ</em> <em>ph</em>, <em>θ</em> <em>th</em>, the diphthong <em>αι</em> became <em>ae</em>, and <em>οι</em> became <em>oe</em>: <em>Κύκλωψ</em>, <em>Cyclōps</em>; <em>φιλοσοφία</em>, <em>philosophia</em>; <em>Φοῖβος</em>, <em>Phoebus</em>. Through Latin these spellings came into English, which is why English writes “psychology” and not “sükhology.”</p>",
+   "body": "<p>The Romans took much of their learning from the Greeks and many Greek words with it: <em lang=\"la\">philosophia</em>, <em lang=\"la\">poēta</em>, <em lang=\"la\">schola</em> (“leisure,” then “school”), <em lang=\"la\">theātrum</em>, <em lang=\"la\">ēpistula</em> (Greek <em lang=\"la\">ἐπιστολή</em>), <em lang=\"la\">machina</em>. Latin wrote them with its own letters by fixed rules: Greek <em lang=\"la\">κ</em> became <em lang=\"la\">c</em>, <em lang=\"la\">υ</em> became <em lang=\"la\">y</em>, <em lang=\"la\">χ</em> <em lang=\"la\">ch</em>, <em lang=\"la\">φ</em> <em lang=\"la\">ph</em>, <em lang=\"la\">θ</em> <em lang=\"la\">th</em>, the diphthong <em lang=\"la\">αι</em> became <em lang=\"la\">ae</em>, and <em lang=\"la\">οι</em> became <em lang=\"la\">oe</em>: <em lang=\"la\">Κύκλωψ</em>, <em lang=\"la\">Cyclōps</em>; <em lang=\"la\">φιλοσοφία</em>, <em lang=\"la\">philosophia</em>; <em lang=\"la\">Φοῖβος</em>, <em lang=\"la\">Phoebus</em>. Through Latin these spellings came into English, which is why English writes “psychology” and not “sükhology.”</p>",
    "qp": {
     "id": "q-la-ety-greek",
     "variants": [
      {
-      "prompt": "How does Latin write the Greek <em>Μοῦσα</em>?",
+      "prompt": "How does Latin write the Greek <em lang=\"la\">Μοῦσα</em>?",
       "options": [
-       "<em>Mūsa</em>",
-       "<em>Moysa</em>",
-       "<em>Mousa</em>",
-       "<em>Muza</em>"
+       "<em lang=\"la\">Mūsa</em>",
+       "<em lang=\"la\">Moysa</em>",
+       "<em lang=\"la\">Mousa</em>",
+       "<em lang=\"la\">Muza</em>"
       ],
       "answer": 0,
-      "explain": "The Greek <em>ου</em>, a long <em>u</em> sound, becomes Latin <em>ū</em>."
+      "explain": "The Greek <em lang=\"la\">ου</em>, a long <em lang=\"la\">u</em> sound, becomes Latin <em lang=\"la\">ū</em>."
      },
      {
-      "prompt": "How does Latin write the Greek <em>θέατρον</em>?",
+      "prompt": "How does Latin write the Greek <em lang=\"la\">θέατρον</em>?",
       "options": [
-       "<em>teatrum</em>",
-       "<em>phaetrum</em>",
-       "<em>theatron</em> unchanged",
-       "<em>theātrum</em>"
+       "<em lang=\"la\">teatrum</em>",
+       "<em lang=\"la\">phaetrum</em>",
+       "<em lang=\"la\">theatron</em> unchanged",
+       "<em lang=\"la\">theātrum</em>"
       ],
       "answer": 3,
-      "explain": "Greek <em>θ</em> becomes <em>th</em>, and the ending is made Latin."
+      "explain": "Greek <em lang=\"la\">θ</em> becomes <em lang=\"la\">th</em>, and the ending is made Latin."
      },
      {
-      "prompt": "Why does English write “phoenix” with <em>oe</em>?",
+      "prompt": "Why does English write “phoenix” with <em lang=\"la\">oe</em>?",
       "options": [
        "English invented the spelling",
        "The word is French",
-       "Latin wrote Greek <em>οι</em> as <em>oe</em>",
+       "Latin wrote Greek <em lang=\"la\">οι</em> as <em lang=\"la\">oe</em>",
        "It keeps the Greek letters"
       ],
       "answer": 2,
-      "explain": "Greek <em>φοῖνιξ</em> became Latin <em>phoenīx</em>, and English took the Latin spelling."
+      "explain": "Greek <em lang=\"la\">φοῖνιξ</em> became Latin <em lang=\"la\">phoenīx</em>, and English took the Latin spelling."
      }
     ]
    }
@@ -95,23 +95,23 @@ ARS.decks["lang.iv.la/etymology"] = {
   {
    "id": "romance",
    "title": "Latin in the Romance languages and in English",
-   "body": "<p>Spoken Latin did not die; it changed, by small steps over centuries, into Italian, Spanish, Portuguese, French, Romanian, and the other Romance languages. Often the everyday word of spoken Latin, not the literary one, is the ancestor: the literary <em>equus</em> (“horse”) gave way to the spoken <em>caballus</em> (“nag”), whence Italian <em>cavallo</em>, Spanish <em>caballo</em>, French <em>cheval</em>; and the literary <em>edere</em> (“to eat”) to <em>mandūcāre</em> (“to chew”), whence French <em>manger</em> and Italian <em>mangiare</em>. The literary word often survives in learned borrowings: “equestrian,” “edible.” English took its Latin vocabulary twice, first through French (“chapter,” from <em>capitulum</em>) and then directly from books (“capital”), so that a Latin word may appear in English in two forms, a doublet, as we have seen.</p>",
+   "body": "<p>Spoken Latin did not die; it changed, by small steps over centuries, into Italian, Spanish, Portuguese, French, Romanian, and the other Romance languages. Often the everyday word of spoken Latin, not the literary one, is the ancestor: the literary <em lang=\"la\">equus</em> (“horse”) gave way to the spoken <em lang=\"la\">caballus</em> (“nag”), whence Italian <em lang=\"la\">cavallo</em>, Spanish <em lang=\"la\">caballo</em>, French <em lang=\"la\">cheval</em>; and the literary <em lang=\"la\">edere</em> (“to eat”) to <em lang=\"la\">mandūcāre</em> (“to chew”), whence French <em lang=\"la\">manger</em> and Italian <em lang=\"la\">mangiare</em>. The literary word often survives in learned borrowings: “equestrian,” “edible.” English took its Latin vocabulary twice, first through French (“chapter,” from <em lang=\"la\">capitulum</em>) and then directly from books (“capital”), so that a Latin word may appear in English in two forms, a doublet, as we have seen.</p>",
    "qp": {
     "id": "q-la-ety-romance",
     "variants": [
      {
-      "prompt": "Which Latin word is the ancestor of French <em>cheval</em>?",
+      "prompt": "Which Latin word is the ancestor of French <em lang=\"la\">cheval</em>?",
       "options": [
-       "<em>equus</em>",
-       "<em>caballus</em>",
-       "<em>cervus</em>",
-       "<em>caballārius</em>"
+       "<em lang=\"la\">equus</em>",
+       "<em lang=\"la\">caballus</em>",
+       "<em lang=\"la\">cervus</em>",
+       "<em lang=\"la\">caballārius</em>"
       ],
       "answer": 1,
-      "explain": "The spoken <em>caballus</em> replaced the literary <em>equus</em>."
+      "explain": "The spoken <em lang=\"la\">caballus</em> replaced the literary <em lang=\"la\">equus</em>."
      },
      {
-      "prompt": "Which English word keeps the literary <em>equus</em>?",
+      "prompt": "Which English word keeps the literary <em lang=\"la\">equus</em>?",
       "options": [
        "“cavalry”",
        "“chivalry”",
@@ -119,10 +119,10 @@ ARS.decks["lang.iv.la/etymology"] = {
        "“cavalierly”"
       ],
       "answer": 2,
-      "explain": "“Equestrian” is a learned borrowing from <em>equus</em>; the others come from <em>caballus</em> through French and Italian."
+      "explain": "“Equestrian” is a learned borrowing from <em lang=\"la\">equus</em>; the others come from <em lang=\"la\">caballus</em> through French and Italian."
      },
      {
-      "prompt": "Why do English “chapter” and “capital” look different though both come from Latin <em>caput</em>?",
+      "prompt": "Why do English “chapter” and “capital” look different though both come from Latin <em lang=\"la\">caput</em>?",
       "options": [
        "One is Greek and the other Latin",
        "They have unrelated origins",

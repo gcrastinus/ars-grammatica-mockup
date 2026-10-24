@@ -15,11 +15,11 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <em>Via <b>longus</b> est.</em>",
-   "explain": "<em>Longus</em> is a Latin word, but beside the feminine <em>via</em> it disagrees in gender; the sentence needs <em>longa</em>. That is an error in the arrangement.",
+   "prompt": "What kind of error? <em lang=\"la\">Via <b>longus</b> est.</em>",
+   "explain": "<em lang=\"la\">Longus</em> is a Latin word, but beside the feminine <em lang=\"la\">via</em> it disagrees in gender; the sentence needs <em lang=\"la\">longa</em>. That is an error in the arrangement.",
    "options": [
     "Solecism: adjective and noun do not fit",
-    "Barbarism: <em>longus</em> is not a Latin form",
+    "Barbarism: <em lang=\"la\">longus</em> is not a Latin form",
     "No error: Latin adjectives take any gender",
     "Incomplete: the sense is not finished"
    ],
@@ -31,8 +31,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <em>Puer canem <b>videvit</b>.</em>",
-   "explain": "<em>Videvit</em> is not a Latin form; the perfect, third person singular, is <em>vīdit</em>. The error is in the word, before any arrangement is asked.",
+   "prompt": "What kind of error? <em lang=\"la\">Puer canem <b>videvit</b>.</em>",
+   "explain": "<em lang=\"la\">Videvit</em> is not a Latin form; the perfect, third person singular, is <em lang=\"la\">vīdit</em>. The error is in the word, before any arrangement is asked.",
    "options": [
     "Solecism: two good words badly arranged",
     "Barbarism: a form the language does not have",
@@ -47,13 +47,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts this as a solecism. What has gone wrong? <em><b>apud</b> amicum eo</em>",
-   "explain": "Donatus gives <span class=\"lat\">apud amicum eo pro ad amicum</span>. <em>Apud</em> means “at the house of,” place where; going toward a person needs <em>ad</em>. Each word is good Latin, and the error is in the construction.",
+   "prompt": "Donatus counts this as a solecism. What has gone wrong? <em lang=\"la\"><b>apud</b> amicum eo</em>",
+   "explain": "Donatus gives <span class=\"lat\">apud amicum eo pro ad amicum</span>. <em lang=\"la\">Apud</em> means “at the house of,” place where; going toward a person needs <em lang=\"la\">ad</em>. Each word is good Latin, and the error is in the construction.",
    "options": [
-    "<em>Apud</em> stands where <em>ad</em> is needed",
-    "A barbarism: <em>eo</em> is not a Latin form",
-    "Number: <em>amicum</em> for <em>amicos</em>",
-    "Nothing: <em>apud</em> and <em>ad</em> mean the same"
+    "<em lang=\"la\">Apud</em> stands where <em lang=\"la\">ad</em> is needed",
+    "A barbarism: <em lang=\"la\">eo</em> is not a Latin form",
+    "Number: <em lang=\"la\">amicum</em> for <em lang=\"la\">amicos</em>",
+    "Nothing: <em lang=\"la\">apud</em> and <em lang=\"la\">ad</em> mean the same"
    ],
    "answer": 0
   },
@@ -63,12 +63,12 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts this as a solecism by the parts of speech. What has happened? <em><b>torvum</b>que repente clamat</em> (<em>Aeneid</em> VII.399)",
+   "prompt": "Donatus counts this as a solecism by the parts of speech. What has happened? <em lang=\"la\"><b>torvum</b>que repente clamat</em> (<em lang=\"la\">Aeneid</em> VII.399)",
    "explain": "Donatus: <span class=\"lat\">torvumque repente clamat pro torve: nomen pro adverbio positum est</span>. A noun (here an adjective, filed under the noun) stands where an adverb is wanted. In a poet it is allowed as a figure.",
    "options": [
-    "Noun for adverb: <em>torvum</em> for <em>torve</em>",
-    "A barbarism: <em>torvum</em> is not a Latin word",
-    "Case: <em>torvum</em> for <em>torvo</em>",
+    "Noun for adverb: <em lang=\"la\">torvum</em> for <em lang=\"la\">torve</em>",
+    "A barbarism: <em lang=\"la\">torvum</em> is not a Latin word",
+    "Case: <em lang=\"la\">torvum</em> for <em lang=\"la\">torvo</em>",
     "Nothing: the line has no error at all"
    ],
    "answer": 0
@@ -79,8 +79,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts <em>abiisse</em> for <em>abisse</em> as a barbarism (<em>nos abiisse rati</em>). What was done to the word?",
-   "explain": "Donatus lists this under addition of a syllable: <em>abiisse</em> where he says the form is <em>abisse</em>. The error is in the one word. In verse he would call the same change a metaplasm.",
+   "prompt": "Donatus counts <em lang=\"la\">abiisse</em> for <em lang=\"la\">abisse</em> as a barbarism (<em lang=\"la\">nos abiisse rati</em>). What was done to the word?",
+   "explain": "Donatus lists this under addition of a syllable: <em lang=\"la\">abiisse</em> where he says the form is <em lang=\"la\">abisse</em>. The error is in the one word. In verse he would call the same change a metaplasm.",
    "options": [
     "A syllable was added",
     "The verb disagrees with its subject in number",
@@ -95,8 +95,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose what was done. Donatus cites <em>infantibu</em> for <em>infantibus</em>.",
-   "explain": "The final letter of <em>infantibus</em> is dropped. Donatus classes this as a barbarism by taking away a letter. The other words of the phrase are not what makes the error.",
+   "prompt": "Choose what was done. Donatus cites <em lang=\"la\">infantibu</em> for <em lang=\"la\">infantibus</em>.",
+   "explain": "The final letter of <em lang=\"la\">infantibus</em> is dropped. Donatus classes this as a barbarism by taking away a letter. The other words of the phrase are not what makes the error.",
    "options": [
     "A letter was taken from the end",
     "A letter was added at the front",
@@ -111,8 +111,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose what was done. Donatus cites <em>salmentum</em> for <em>salsamentum</em>.",
-   "explain": "Donatus classes <em>salmentum</em> for <em>salsamentum</em> as a barbarism by loss of a syllable. The syllable comes out of the middle of the word, which is syncope, as with a shortened perfect.",
+   "prompt": "Choose what was done. Donatus cites <em lang=\"la\">salmentum</em> for <em lang=\"la\">salsamentum</em>.",
+   "explain": "Donatus classes <em lang=\"la\">salmentum</em> for <em lang=\"la\">salsamentum</em> as a barbarism by loss of a syllable. The syllable comes out of the middle of the word, which is syncope, as with a shortened perfect.",
    "options": [
     "A syllable was taken from the middle",
     "A letter was put in place of another letter",
@@ -127,8 +127,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus’s example of a foreign word is <em>mastruga</em>. What does he call that error?",
-   "explain": "A mistake in a Latin word is a barbarism. Donatus gives the foreign word a different name, barbarolexis, and his examples are <em>mastruga</em>, <em>cateia</em>, and <em>magalia</em>.",
+   "prompt": "Donatus’s example of a foreign word is <em lang=\"la\">mastruga</em>. What does he call that error?",
+   "explain": "A mistake in a Latin word is a barbarism. Donatus gives the foreign word a different name, barbarolexis, and his examples are <em lang=\"la\">mastruga</em>, <em lang=\"la\">cateia</em>, and <em lang=\"la\">magalia</em>.",
    "options": [
     "Barbarolexis: a foreign word",
     "A solecism of case",
@@ -143,13 +143,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts <em>intro sum</em> as a solecism for <em>intus sum</em>. What has gone wrong?",
-   "explain": "<em>Intro</em> means motion to the inside, and <em>intus</em> means rest inside. <em>Sum</em> states where someone is, so Donatus wants <em>intus</em>. Each word is a real Latin word. The error is the choice of adverb.",
+   "prompt": "Donatus counts <em lang=\"la\">intro sum</em> as a solecism for <em lang=\"la\">intus sum</em>. What has gone wrong?",
+   "explain": "<em lang=\"la\">Intro</em> means motion to the inside, and <em lang=\"la\">intus</em> means rest inside. <em lang=\"la\">Sum</em> states where someone is, so Donatus wants <em lang=\"la\">intus</em>. Each word is a real Latin word. The error is the choice of adverb.",
    "options": [
-    "<em>Intro</em> marks motion, and the verb marks rest",
-    "<em>Sum</em> is not a Latin form",
+    "<em lang=\"la\">Intro</em> marks motion, and the verb marks rest",
+    "<em lang=\"la\">Sum</em> is not a Latin form",
     "The subject is plural and the verb is singular",
-    "<em>Intro</em> and <em>intus</em> are the same adverb"
+    "<em lang=\"la\">Intro</em> and <em lang=\"la\">intus</em> are the same adverb"
    ],
    "answer": 0
   },
@@ -159,12 +159,12 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts <em>foris exeo</em> as a solecism for <em>foras</em>. Choose the reason.",
-   "explain": "<em>Foris</em> means “outside,” the place where someone is. <em>Foras</em> means “outward,” the direction of motion. <em>Exeō</em> is a verb of motion, so Donatus wants <em>foras</em>.",
+   "prompt": "Donatus counts <em lang=\"la\">foris exeo</em> as a solecism for <em lang=\"la\">foras</em>. Choose the reason.",
+   "explain": "<em lang=\"la\">Foris</em> means “outside,” the place where someone is. <em lang=\"la\">Foras</em> means “outward,” the direction of motion. <em lang=\"la\">Exeō</em> is a verb of motion, so Donatus wants <em lang=\"la\">foras</em>.",
    "options": [
-    "<em>Foris</em> marks rest, and the verb marks motion",
-    "The noun <em>foris</em> is in the wrong case",
-    "<em>Exeō</em> has lost a syllable",
+    "<em lang=\"la\">Foris</em> marks rest, and the verb marks motion",
+    "The noun <em lang=\"la\">foris</em> is in the wrong case",
+    "<em lang=\"la\">Exeō</em> has lost a syllable",
     "A conjunction stands at the end of the clause"
    ],
    "answer": 0
@@ -175,8 +175,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em>Dardanus</em> for <em>Dardanius</em> (<em>Aeneid</em> IV.661). What substitution does he name?",
-   "explain": "Donatus says a proper noun has been put for the appellative: <em>Dardanus</em> where he wants <em>Dardanius</em>. He classes this solecism under the quality of the noun. In the poet he allows it as a figure.",
+   "prompt": "Donatus cites <em lang=\"la\">Dardanus</em> for <em lang=\"la\">Dardanius</em> (<em lang=\"la\">Aeneid</em> IV.661). What substitution does he name?",
+   "explain": "Donatus says a proper noun has been put for the appellative: <em lang=\"la\">Dardanus</em> where he wants <em lang=\"la\">Dardanius</em>. He classes this solecism under the quality of the noun. In the poet he allows it as a figure.",
    "options": [
     "A proper noun for the appellative",
     "A plural verb with a singular subject",
@@ -191,13 +191,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em>sancta dearum</em> for <em>sanctissima</em>. Which accident is wrong?",
-   "explain": "The positive <em>sancta</em> stands where Donatus wants the superlative <em>sanctissima</em>. He classes the solecism under comparison. The line is Ennius’s, and in verse the same departure can be a figure.",
+   "prompt": "Donatus cites <em lang=\"la\">sancta dearum</em> for <em lang=\"la\">sanctissima</em>. Which accident is wrong?",
+   "explain": "The positive <em lang=\"la\">sancta</em> stands where Donatus wants the superlative <em lang=\"la\">sanctissima</em>. He classes the solecism under comparison. The line is Ennius’s, and in verse the same departure can be a figure.",
    "options": [
     "Comparison: the positive for the superlative",
-    "Gender: <em>sancta</em> for a masculine form",
+    "Gender: <em lang=\"la\">sancta</em> for a masculine form",
     "Tense: a present for a perfect",
-    "A barbarism: <em>sancta</em> is not Latin"
+    "A barbarism: <em lang=\"la\">sancta</em> is not Latin"
    ],
    "answer": 0
   },
@@ -207,8 +207,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em>itis, paratis arma</em> for <em>ite, parate</em>. What mood has been used?",
-   "explain": "The indicative <em>itis</em> and <em>paratis</em> stand where the order needs the imperative <em>ite</em> and <em>parate</em>. Donatus calls this a solecism of mood. The words themselves are ordinary Latin forms.",
+   "prompt": "Donatus cites <em lang=\"la\">itis, paratis arma</em> for <em lang=\"la\">ite, parate</em>. What mood has been used?",
+   "explain": "The indicative <em lang=\"la\">itis</em> and <em lang=\"la\">paratis</em> stand where the order needs the imperative <em lang=\"la\">ite</em> and <em lang=\"la\">parate</em>. Donatus calls this a solecism of mood. The words themselves are ordinary Latin forms.",
    "options": [
     "The indicative, where the imperative is needed",
     "The subjunctive, where the infinitive is needed",
@@ -223,11 +223,11 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em>spoliantur eos</em> for <em>spoliant</em>. What has gone wrong?",
-   "explain": "<em>Spoliantur</em> is passive, and a passive does not take <em>eos</em> as its object. Donatus wants the active <em>spoliant</em>. He classes the solecism under voice, which he calls <em>significatio</em>.",
+   "prompt": "Donatus cites <em lang=\"la\">spoliantur eos</em> for <em lang=\"la\">spoliant</em>. What has gone wrong?",
+   "explain": "<em lang=\"la\">Spoliantur</em> is passive, and a passive does not take <em lang=\"la\">eos</em> as its object. Donatus wants the active <em lang=\"la\">spoliant</em>. He classes the solecism under voice, which he calls <em lang=\"la\">significatio</em>.",
    "options": [
     "A passive form is used where the active is needed",
-    "The noun <em>eos</em> has lost its ending",
+    "The noun <em lang=\"la\">eos</em> has lost its ending",
     "The adverb is one of rest with a verb of motion",
     "A foreign word has been used for a Latin one"
    ],
@@ -239,13 +239,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>ceciditque superbum Ilium et omnis humo fumat Neptunia Troia</em>, Donatus wants <em>fumavit</em>. Why?",
-   "explain": "<em>Cecidit</em> is perfect, and <em>fumat</em> is present. Donatus asks for <em>fumavit</em>, so that the two verbs share one time. He classes this as a solecism of tense. Virgil’s line is still the poet’s, and Donatus allows the poet the figure.",
+   "prompt": "In <em lang=\"la\">ceciditque superbum Ilium et omnis humo fumat Neptunia Troia</em>, Donatus wants <em lang=\"la\">fumavit</em>. Why?",
+   "explain": "<em lang=\"la\">Cecidit</em> is perfect, and <em lang=\"la\">fumat</em> is present. Donatus asks for <em lang=\"la\">fumavit</em>, so that the two verbs share one time. He classes this as a solecism of tense. Virgil’s line is still the poet’s, and Donatus allows the poet the figure.",
    "options": [
     "The present stands beside a perfect",
-    "The subject <em>Troia</em> is plural",
-    "<em>Fumat</em> is not a Latin verb",
-    "A preposition has been left out before <em>humo</em>"
+    "The subject <em lang=\"la\">Troia</em> is plural",
+    "<em lang=\"la\">Fumat</em> is not a Latin verb",
+    "A preposition has been left out before <em lang=\"la\">humo</em>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em>Danai, qui parent Atridis, arma sumite</em> for <em>qui paretis, sumite</em>. Which accident clashes?",
-   "explain": "The relative clause speaks of the Danaans in the third person, <em>parent</em>, and the command then addresses them in the second person, <em>sumite</em>. Donatus wants <em>paretis</em> with <em>sumite</em>. He classes this as a solecism of person.",
+   "prompt": "Donatus cites <em lang=\"la\">Danai, qui parent Atridis, arma sumite</em> for <em lang=\"la\">qui paretis, sumite</em>. Which accident clashes?",
+   "explain": "The relative clause speaks of the Danaans in the third person, <em lang=\"la\">parent</em>, and the command then addresses them in the second person, <em lang=\"la\">sumite</em>. Donatus wants <em lang=\"la\">paretis</em> with <em lang=\"la\">sumite</em>. He classes this as a solecism of person.",
    "options": [
     "Person: third person, then a command to the same men",
     "Comparison: a positive adjective for a superlative",
-    "A letter added at the front of <em>parent</em>",
-    "Gender: <em>Danai</em> treated as feminine"
+    "A letter added at the front of <em lang=\"la\">parent</em>",
+    "Gender: <em lang=\"la\">Danai</em> treated as feminine"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus counts <em>intus eo</em> as a solecism for <em>intro</em>. Choose the reason.",
-   "explain": "<em>Eō</em> is a verb of motion. <em>Intus</em> marks the place where someone already is, and <em>intro</em> marks motion inward. Donatus wants <em>intro eo</em>. This is the pair of <em>intro sum</em>, looked at from the verb of motion.",
+   "prompt": "Donatus counts <em lang=\"la\">intus eo</em> as a solecism for <em lang=\"la\">intro</em>. Choose the reason.",
+   "explain": "<em lang=\"la\">Eō</em> is a verb of motion. <em lang=\"la\">Intus</em> marks the place where someone already is, and <em lang=\"la\">intro</em> marks motion inward. Donatus wants <em lang=\"la\">intro eo</em>. This is the pair of <em lang=\"la\">intro sum</em>, looked at from the verb of motion.",
    "options": [
-    "<em>Intus</em> marks rest, and <em>eō</em> marks motion",
-    "<em>Eō</em> is a noun put for a verb",
-    "The tense of <em>eō</em> is future",
-    "<em>Intus</em> is a barbarism, not a Latin word"
+    "<em lang=\"la\">Intus</em> marks rest, and <em lang=\"la\">eō</em> marks motion",
+    "<em lang=\"la\">Eō</em> is a noun put for a verb",
+    "The tense of <em lang=\"la\">eō</em> is future",
+    "<em lang=\"la\">Intus</em> is a barbarism, not a Latin word"
    ],
    "answer": 0
   },
@@ -287,12 +287,12 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus rejects <em>ad Romam pergo</em>. What does he say is wrong?",
-   "explain": "A town name in the accusative already marks the place toward which one goes, so <em>Romam pergo</em> is the construction. Donatus says the preposition is added to a word that is being used as an adverb of place, and it should not be. He pairs this with <em>Italia venio</em>, where the preposition a country name needs is missing.",
+   "prompt": "Donatus rejects <em lang=\"la\">ad Romam pergo</em>. What does he say is wrong?",
+   "explain": "A town name in the accusative already marks the place toward which one goes, so <em lang=\"la\">Romam pergo</em> is the construction. Donatus says the preposition is added to a word that is being used as an adverb of place, and it should not be. He pairs this with <em lang=\"la\">Italia venio</em>, where the preposition a country name needs is missing.",
    "options": [
     "The preposition is added to the town name",
-    "<em>Pergo</em> is a passive with an object",
-    "<em>Romam</em> is genitive, and the verb wants the dative",
+    "<em lang=\"la\">Pergo</em> is a passive with an object",
+    "<em lang=\"la\">Romam</em> is genitive, and the verb wants the dative",
     "The phrase is a barbarism in the verb"
    ],
    "answer": 0
@@ -303,13 +303,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which accident is mismatched in <em>Mīlitēs fortiter pugnat</em>?",
-   "explain": "The plural subject requires the plural verb <em>pugnant</em>; each word is good Latin, so the error is a solecism.",
+   "prompt": "Which accident is mismatched in <em lang=\"la\">Mīlitēs fortiter pugnat</em>?",
+   "explain": "The plural subject requires the plural verb <em lang=\"la\">pugnant</em>; each word is good Latin, so the error is a solecism.",
    "options": [
-    "Number: <em>pugnat</em> for <em>pugnant</em>",
-    "Case: <em>mīlitēs</em> for <em>mīlitum</em>",
-    "Gender: <em>fortiter</em> for <em>fortis</em>",
-    "Tense: <em>pugnat</em> for <em>pugnābat</em>"
+    "Number: <em lang=\"la\">pugnat</em> for <em lang=\"la\">pugnant</em>",
+    "Case: <em lang=\"la\">mīlitēs</em> for <em lang=\"la\">mīlitum</em>",
+    "Gender: <em lang=\"la\">fortiter</em> for <em lang=\"la\">fortis</em>",
+    "Tense: <em lang=\"la\">pugnat</em> for <em lang=\"la\">pugnābat</em>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which accident is mismatched in <em>Urbs, quam vidēs, magnam est</em>?",
-   "explain": "A predicate adjective agrees with the subject in case, so it should be nominative, <em>magna</em>.",
+   "prompt": "Which accident is mismatched in <em lang=\"la\">Urbs, quam vidēs, magnam est</em>?",
+   "explain": "A predicate adjective agrees with the subject in case, so it should be nominative, <em lang=\"la\">magna</em>.",
    "options": [
-    "Case: <em>magnam</em> for <em>magna</em>",
-    "Gender: <em>urbs</em> is masculine",
-    "Number: <em>vidēs</em> for <em>vidētis</em>",
-    "Mood: <em>est</em> for <em>sit</em>"
+    "Case: <em lang=\"la\">magnam</em> for <em lang=\"la\">magna</em>",
+    "Gender: <em lang=\"la\">urbs</em> is masculine",
+    "Number: <em lang=\"la\">vidēs</em> for <em lang=\"la\">vidētis</em>",
+    "Mood: <em lang=\"la\">est</em> for <em lang=\"la\">sit</em>"
    ],
    "answer": 0
   },
@@ -335,8 +335,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Choose the name of the change: <em>dīxtī</em> for <em>dīxistī</em>.",
-   "explain": "The syllable <em>-is-</em> is taken from the middle of the word; Donatus calls that syncope.",
+   "prompt": "Choose the name of the change: <em lang=\"la\">dīxtī</em> for <em lang=\"la\">dīxistī</em>.",
+   "explain": "The syllable <em lang=\"la\">-is-</em> is taken from the middle of the word; Donatus calls that syncope.",
    "options": [
     "Apocope: a syllable taken from the end",
     "Prosthesis: a letter added at the front",
@@ -351,8 +351,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "The <em>Appendix Probi</em> writes <em>columna non colomna</em>. What kind of error is <em>colomna</em>?",
-   "explain": "<em>O</em> stands where <em>u</em> belongs; the error is in the one word.",
+   "prompt": "The <em lang=\"la\">Appendix Probi</em> writes <em lang=\"la\">columna non colomna</em>. What kind of error is <em lang=\"la\">colomna</em>?",
+   "explain": "<em lang=\"la\">O</em> stands where <em lang=\"la\">u</em> belongs; the error is in the one word.",
    "options": [
     "A solecism of gender",
     "A barbarism: one letter put for another",
@@ -367,8 +367,8 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "The <em>Appendix Probi</em> writes <em>viridis non virdis</em>. What was done to the word in <em>virdis</em>?",
-   "explain": "The short <em>i</em> between <em>r</em> and <em>d</em> is dropped.",
+   "prompt": "The <em lang=\"la\">Appendix Probi</em> writes <em lang=\"la\">viridis non virdis</em>. What was done to the word in <em lang=\"la\">virdis</em>?",
+   "explain": "The short <em lang=\"la\">i</em> between <em lang=\"la\">r</em> and <em lang=\"la\">d</em> is dropped.",
    "options": [
     "A letter was added at the end",
     "A letter was moved to the front",
@@ -383,7 +383,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Why is <em>virdis</em> a barbarism and not a metaplasm?",
+   "prompt": "Why is <em lang=\"la\">virdis</em> a barbarism and not a metaplasm?",
    "explain": "Donatus calls the same change a metaplasm only in a poem.",
    "options": [
     "It belongs to ordinary speech, not to a poem",
@@ -399,7 +399,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "A speaker says <em>omō</em> for <em>homō</em>. What kind of barbarism is that?",
+   "prompt": "A speaker says <em lang=\"la\">omō</em> for <em lang=\"la\">homō</em>. What kind of barbarism is that?",
    "explain": "The aspiration is taken away from the word.",
    "options": [
     "A barbarism by accent",
@@ -415,11 +415,11 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Spanish <em>tabla</em> and French <em>table</em> come from <em>tabla</em>, which the <em>Appendix Probi</em> corrects to <em>tabula</em>. What does this show?",
+   "prompt": "Spanish <em lang=\"la\">tabla</em> and French <em lang=\"la\">table</em> come from <em lang=\"la\">tabla</em>, which the <em lang=\"la\">Appendix Probi</em> corrects to <em lang=\"la\">tabula</em>. What does this show?",
    "explain": "The Romance words continue the forms of everyday speech, which the grammarians counted as barbarisms.",
    "options": [
     "The Appendix Probi was wrong about Latin",
-    "<em>Tabula</em> was a foreign word in Latin",
+    "<em lang=\"la\">Tabula</em> was a foreign word in Latin",
     "A barbarism of the common speech became the regular Romance form",
     "The Romance languages descend from Greek"
    ],

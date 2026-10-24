@@ -16,7 +16,7 @@ The homepage keeps its present layout. At the end of each section in which the p
 
 - About half the height of a normal deck or section tile, full width, like the Cumulative Review bar.
 - A short heading above the buttons. Working wording: "The grammars of the particular languages." (Wording to be decided; see the questions.)
-- Five buttons side by side, always in this order: **English, Latin, Greek, French, German.**
+- Buttons side by side, always in this order: **English, Latin, Greek, Spanish, German, French.** Spanish stays hidden (`hidden:true` in `LANGS`, course.js) until its content is written.
 - The five buttons look the same in every bar in every section. Only the destination changes.
 
 ### 1.2 What a language button opens

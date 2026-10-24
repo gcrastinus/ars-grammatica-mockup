@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>steigen</i>.",
-   "explain": "<i>Steigen</i> follows the series ei, ie, ie: <i>steigen, stieg, gestiegen</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">steigen</i>.",
+   "explain": "<i lang=\"de\">Steigen</i> follows the series ei, ie, ie: <i lang=\"de\">steigen, stieg, gestiegen</i>.",
    "accept": [
     "stieg"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>schweigen</i>.",
-   "explain": "<i>Schweigen</i> follows the series ei, ie, ie, and the participle takes <i>ge-</i> and <i>-en</i>: <i>geschwiegen</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">schweigen</i>.",
+   "explain": "<i lang=\"de\">Schweigen</i> follows the series ei, ie, ie, and the participle takes <i lang=\"de\">ge-</i> and <i lang=\"de\">-en</i>: <i lang=\"de\">geschwiegen</i>.",
    "accept": [
     "geschwiegen"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>trinken</i>.",
-   "explain": "<i>Trinken</i> follows the series i, a, u: <i>trinken, trank, getrunken</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">trinken</i>.",
+   "explain": "<i lang=\"de\">Trinken</i> follows the series i, a, u: <i lang=\"de\">trinken, trank, getrunken</i>.",
    "accept": [
     "trank"
    ]
@@ -51,8 +51,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>binden</i>.",
-   "explain": "<i>Binden</i> follows the series i, a, u: <i>binden, band, gebunden</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">binden</i>.",
+   "explain": "<i lang=\"de\">Binden</i> follows the series i, a, u: <i lang=\"de\">binden, band, gebunden</i>.",
    "accept": [
     "gebunden"
    ]
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>waschen</i>.",
-   "explain": "<i>Waschen</i> follows the series a, u, a: <i>waschen, wusch, gewaschen</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">waschen</i>.",
+   "explain": "<i lang=\"de\">Waschen</i> follows the series a, u, a: <i lang=\"de\">waschen, wusch, gewaschen</i>.",
    "accept": [
     "wusch"
    ]
@@ -75,8 +75,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present of <i>fangen</i>.",
-   "explain": "A strong verb with <i>a</i> takes the umlaut in the second and third persons singular: <i>du fängst, er fängt</i>.",
+   "prompt": "Write the third person singular present of <i lang=\"de\">fangen</i>.",
+   "explain": "A strong verb with <i lang=\"de\">a</i> takes the umlaut in the second and third persons singular: <i lang=\"de\">du fängst, er fängt</i>.",
    "accept": [
     "fängt"
    ]
@@ -87,8 +87,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>brennen</i>.",
-   "explain": "<i>Brennen</i> is a mixed verb: it changes its vowel and takes the weak ending, <i>brennen, brannte, gebrannt</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">brennen</i>.",
+   "explain": "<i lang=\"de\">Brennen</i> is a mixed verb: it changes its vowel and takes the weak ending, <i lang=\"de\">brennen, brannte, gebrannt</i>.",
    "accept": [
     "brannte"
    ]
@@ -99,8 +99,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>treffen</i>.",
-   "explain": "<i>Treffen</i> has the principal parts <i>treffen, traf, getroffen</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">treffen</i>.",
+   "explain": "<i lang=\"de\">Treffen</i> has the principal parts <i lang=\"de\">treffen, traf, getroffen</i>.",
    "accept": [
     "getroffen"
    ]
@@ -111,8 +111,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>greifen</i>.",
-   "explain": "<i>Greifen</i> follows the series ei, i, i: <i>greifen, griff, gegriffen</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">greifen</i>.",
+   "explain": "<i lang=\"de\">Greifen</i> follows the series ei, i, i: <i lang=\"de\">greifen, griff, gegriffen</i>.",
    "accept": [
     "griff"
    ]
@@ -123,8 +123,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>fließen</i>.",
-   "explain": "<i>Fließen</i> follows the series ie, o, o: <i>fließen, floss, ist geflossen</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">fließen</i>.",
+   "explain": "<i lang=\"de\">Fließen</i> follows the series ie, o, o: <i lang=\"de\">fließen, floss, ist geflossen</i>.",
    "accept": [
     "geflossen"
    ]
@@ -135,8 +135,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>werfen</i>.",
-   "explain": "<i>Werfen</i> has the principal parts <i>werfen, warf, geworfen</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">werfen</i>.",
+   "explain": "<i lang=\"de\">Werfen</i> has the principal parts <i lang=\"de\">werfen, warf, geworfen</i>.",
    "accept": [
     "warf"
    ]
@@ -147,8 +147,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the third person singular present of <i>sterben</i>.",
-   "explain": "A strong verb with <i>e</i> changes it to <i>i</i> in the second and third persons singular: <i>du stirbst, er stirbt</i>.",
+   "prompt": "Write the third person singular present of <i lang=\"de\">sterben</i>.",
+   "explain": "A strong verb with <i lang=\"de\">e</i> changes it to <i lang=\"de\">i</i> in the second and third persons singular: <i lang=\"de\">du stirbst, er stirbt</i>.",
    "accept": [
     "stirbt"
    ]
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>messen</i>.",
-   "explain": "<i>Messen</i> follows the series e, a, e: <i>messen, maß, gemessen</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">messen</i>.",
+   "explain": "<i lang=\"de\">Messen</i> follows the series e, a, e: <i lang=\"de\">messen, maß, gemessen</i>.",
    "accept": [
     "maß"
    ]
@@ -171,8 +171,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>wenden</i>.",
-   "explain": "<i>Wenden</i> is usually a mixed verb, <i>wenden, wandte, gewandt</i>; the weak <i>gewendet</i> is also correct, especially of turning something over.",
+   "prompt": "Write the past participle of <i lang=\"de\">wenden</i>.",
+   "explain": "<i lang=\"de\">Wenden</i> is usually a mixed verb, <i lang=\"de\">wenden, wandte, gewandt</i>; the weak <i lang=\"de\">gewendet</i> is also correct, especially of turning something over.",
    "accept": [
     "gewandt",
     "gewendet"
@@ -185,12 +185,12 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the auxiliary: Er ___ nach Hause gelaufen (“He ran home”).",
-   "explain": "<i>Laufen</i> is a verb of motion with no object, so its Perfekt takes <i>sein</i>: <i>er ist gelaufen</i>.",
+   "explain": "<i lang=\"de\">Laufen</i> is a verb of motion with no object, so its Perfekt takes <i lang=\"de\">sein</i>: <i lang=\"de\">er ist gelaufen</i>.",
    "options": [
-    "<i>hat</i>",
-    "<i>wird</i>",
-    "<i>war</i>",
-    "<i>ist</i>"
+    "<i lang=\"de\">hat</i>",
+    "<i lang=\"de\">wird</i>",
+    "<i lang=\"de\">war</i>",
+    "<i lang=\"de\">ist</i>"
    ],
    "answer": 3
   },
@@ -200,13 +200,13 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the auxiliary: <i>Sie ___ den Brief geschrieben</i> (“She wrote the letter”).",
-   "explain": "<i>Schreiben</i> takes <i>haben</i>.",
+   "prompt": "Choose the auxiliary: <i lang=\"de\">Sie ___ den Brief geschrieben</i> (“She wrote the letter”).",
+   "explain": "<i lang=\"de\">Schreiben</i> takes <i lang=\"de\">haben</i>.",
    "options": [
-    "<i>ist</i>",
-    "<i>wird</i>",
-    "<i>hat</i>",
-    "<i>hatte</i>"
+    "<i lang=\"de\">ist</i>",
+    "<i lang=\"de\">wird</i>",
+    "<i lang=\"de\">hat</i>",
+    "<i lang=\"de\">hatte</i>"
    ],
    "answer": 2
   },
@@ -216,8 +216,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the imperative singular of <i>sehen</i>.",
-   "explain": "A verb that changes <i>e</i> to <i>ie</i> in the present makes the same change in the imperative singular: <i>du siehst</i>, <i>sieh!</i>.",
+   "prompt": "Write the imperative singular of <i lang=\"de\">sehen</i>.",
+   "explain": "A verb that changes <i lang=\"de\">e</i> to <i lang=\"de\">ie</i> in the present makes the same change in the imperative singular: <i lang=\"de\">du siehst</i>, <i lang=\"de\">sieh!</i>.",
    "accept": [
     "sieh",
     "siehe"
@@ -229,8 +229,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the imperative singular of <i>schlagen</i>.",
-   "explain": "A verb that takes the umlaut in the present (<i>du schlägst</i>) does not take it in the imperative: <i>schlag!</i> or <i>schlage!</i>.",
+   "prompt": "Write the imperative singular of <i lang=\"de\">schlagen</i>.",
+   "explain": "A verb that takes the umlaut in the present (<i lang=\"de\">du schlägst</i>) does not take it in the imperative: <i lang=\"de\">schlag!</i> or <i lang=\"de\">schlage!</i>.",
    "accept": [
     "schlag",
     "schlage"
@@ -242,8 +242,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>vergessen</i>.",
-   "explain": "A verb with the inseparable prefix <i>ver-</i> takes no <i>ge-</i>: <i>vergessen, vergaß, vergessen</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">vergessen</i>.",
+   "explain": "A verb with the inseparable prefix <i lang=\"de\">ver-</i> takes no <i lang=\"de\">ge-</i>: <i lang=\"de\">vergessen, vergaß, vergessen</i>.",
    "accept": [
     "vergessen"
    ]
@@ -254,8 +254,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>senden</i>.",
-   "explain": "<i>Senden</i> is a mixed verb, <i>sandte, gesandt</i>; the weak <i>sendete</i> is used of broadcasting and is also accepted.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">senden</i>.",
+   "explain": "<i lang=\"de\">Senden</i> is a mixed verb, <i lang=\"de\">sandte, gesandt</i>; the weak <i lang=\"de\">sendete</i> is used of broadcasting and is also accepted.",
    "accept": [
     "sandte",
     "sendete"
@@ -268,12 +268,12 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which verb is a mixed verb?",
-   "explain": "A mixed verb both changes its vowel and takes the weak endings: <i>brennen, brannte, gebrannt</i>.",
+   "explain": "A mixed verb both changes its vowel and takes the weak endings: <i lang=\"de\">brennen, brannte, gebrannt</i>.",
    "options": [
-    "<i>brennen, brannte, gebrannt</i>",
-    "<i>kommen, kam, gekommen</i>",
-    "<i>kaufen, kaufte, gekauft</i>",
-    "<i>schwimmen, schwamm, geschwommen</i>"
+    "<i lang=\"de\">brennen, brannte, gebrannt</i>",
+    "<i lang=\"de\">kommen, kam, gekommen</i>",
+    "<i lang=\"de\">kaufen, kaufte, gekauft</i>",
+    "<i lang=\"de\">schwimmen, schwamm, geschwommen</i>"
    ],
    "answer": 0
   },
@@ -284,12 +284,12 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the auxiliary: Sie ___ das Pferd über das Feld geritten (“She rode the horse across the field”).",
-   "explain": "With a direct object, <i>reiten</i> forms its Perfekt with <i>haben</i>: <i>sie hat das Pferd geritten</i>.",
+   "explain": "With a direct object, <i lang=\"de\">reiten</i> forms its Perfekt with <i lang=\"de\">haben</i>: <i lang=\"de\">sie hat das Pferd geritten</i>.",
    "options": [
-    "<i>ist</i>",
-    "<i>hat</i>",
-    "<i>wird</i>",
-    "<i>war</i>"
+    "<i lang=\"de\">ist</i>",
+    "<i lang=\"de\">hat</i>",
+    "<i lang=\"de\">wird</i>",
+    "<i lang=\"de\">war</i>"
    ],
    "answer": 1
   },
@@ -299,8 +299,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past participle of <i>probieren</i>.",
-   "explain": "A verb in <i>-ieren</i> takes no <i>ge-</i>: <i>probieren, probierte, probiert</i>.",
+   "prompt": "Write the past participle of <i lang=\"de\">probieren</i>.",
+   "explain": "A verb in <i lang=\"de\">-ieren</i> takes no <i lang=\"de\">ge-</i>: <i lang=\"de\">probieren, probierte, probiert</i>.",
    "accept": [
     "probiert"
    ]
@@ -311,8 +311,8 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Präteritum, third person singular, of <i>halten</i>.",
-   "explain": "<i>Halten</i> follows the series a, ie, a: <i>halten, hielt, gehalten</i>.",
+   "prompt": "Write the Präteritum, third person singular, of <i lang=\"de\">halten</i>.",
+   "explain": "<i lang=\"de\">Halten</i> follows the series a, ie, a: <i lang=\"de\">halten, hielt, gehalten</i>.",
    "accept": [
     "hielt"
    ]

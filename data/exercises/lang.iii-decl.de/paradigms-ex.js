@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Vater, masculine, “father”</i>. Write the genitive singular.",
-   "explain": "A strong masculine noun adds <i>-s</i> in the genitive singular: <i>des Vaters</i>.",
+   "prompt": "<i lang=\"de\">Vater, masculine, “father”</i>. Write the genitive singular.",
+   "explain": "A strong masculine noun adds <i lang=\"de\">-s</i> in the genitive singular: <i lang=\"de\">des Vaters</i>.",
    "accept": [
     "Vaters"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Wort, Wörter, neuter, “word”</i>. Write the dative plural.",
-   "explain": "The dative plural adds <i>-n</i> to a plural that does not already end in <i>-n</i> or <i>-s</i>.",
+   "prompt": "<i lang=\"de\">Wort, Wörter, neuter, “word”</i>. Write the dative plural.",
+   "explain": "The dative plural adds <i lang=\"de\">-n</i> to a plural that does not already end in <i lang=\"de\">-n</i> or <i lang=\"de\">-s</i>.",
    "accept": [
     "Wörtern"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Nacht, feminine, “night”</i>. Write the nominative plural.",
-   "explain": "<i>Nacht</i> takes <i>-e</i> with umlaut, like <i>Stadt</i>, <i>Städte</i>.",
+   "prompt": "<i lang=\"de\">Nacht, feminine, “night”</i>. Write the nominative plural.",
+   "explain": "<i lang=\"de\">Nacht</i> takes <i lang=\"de\">-e</i> with umlaut, like <i lang=\"de\">Stadt</i>, <i lang=\"de\">Städte</i>.",
    "accept": [
     "Nächte"
    ]
@@ -51,8 +51,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Student, masculine, “student”</i>. Write the accusative singular.",
-   "explain": "<i>Student</i> is a weak masculine noun, like <i>Mensch</i>: <i>-en</i> in every case but the nominative singular.",
+   "prompt": "<i lang=\"de\">Student, masculine, “student”</i>. Write the accusative singular.",
+   "explain": "<i lang=\"de\">Student</i> is a weak masculine noun, like <i lang=\"de\">Mensch</i>: <i lang=\"de\">-en</i> in every case but the nominative singular.",
    "accept": [
     "Studenten"
    ]
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Bruder, masculine, “brother”</i>. Write the nominative plural.",
-   "explain": "<i>Bruder</i> takes no ending but the umlaut, like <i>Garten</i>, <i>Gärten</i>.",
+   "prompt": "<i lang=\"de\">Bruder, masculine, “brother”</i>. Write the nominative plural.",
+   "explain": "<i lang=\"de\">Bruder</i> takes no ending but the umlaut, like <i lang=\"de\">Garten</i>, <i lang=\"de\">Gärten</i>.",
    "accept": [
     "Brüder"
    ]
@@ -75,8 +75,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Schiff, Schiffe, neuter, “ship”</i>. Write the dative plural.",
-   "explain": "<i>Schiffe</i> adds <i>-n</i> in the dative plural.",
+   "prompt": "<i lang=\"de\">Schiff, Schiffe, neuter, “ship”</i>. Write the dative plural.",
+   "explain": "<i lang=\"de\">Schiffe</i> adds <i lang=\"de\">-n</i> in the dative plural.",
    "accept": [
     "Schiffen"
    ]
@@ -87,8 +87,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Tag, Tage, masculine, “day”</i>. Write the dative plural.",
-   "explain": "<i>Tage</i> adds <i>-n</i> in the dative plural.",
+   "prompt": "<i lang=\"de\">Tag, Tage, masculine, “day”</i>. Write the dative plural.",
+   "explain": "<i lang=\"de\">Tage</i> adds <i lang=\"de\">-n</i> in the dative plural.",
    "accept": [
     "Tagen"
    ]
@@ -99,8 +99,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Lehrer, masculine, “teacher”</i>. Write the genitive singular.",
-   "explain": "A strong noun in <i>-er</i> adds only <i>-s</i>: <i>des Lehrers</i>.",
+   "prompt": "<i lang=\"de\">Lehrer, masculine, “teacher”</i>. Write the genitive singular.",
+   "explain": "A strong noun in <i lang=\"de\">-er</i> adds only <i lang=\"de\">-s</i>: <i lang=\"de\">des Lehrers</i>.",
    "accept": [
     "Lehrers"
    ]
@@ -111,8 +111,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>neu, “new”</i>. Write the strong neuter nominative singular (as in “___ Brot”).",
-   "explain": "With no article, the adjective takes the strong ending, which carries the mark of the neuter: <i>neues Brot</i>.",
+   "prompt": "<i lang=\"de\">neu, “new”</i>. Write the strong neuter nominative singular (as in “___ Brot”).",
+   "explain": "With no article, the adjective takes the strong ending, which carries the mark of the neuter: <i lang=\"de\">neues Brot</i>.",
    "accept": [
     "neues"
    ]
@@ -123,8 +123,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>sein, irregular, “be”</i>. Write the present, first person plural.",
-   "explain": "<i>Ich bin, du bist, er ist, wir sind, ihr seid, sie sind</i>.",
+   "prompt": "<i lang=\"de\">sein, irregular, “be”</i>. Write the present, first person plural.",
+   "explain": "<i lang=\"de\">Ich bin, du bist, er ist, wir sind, ihr seid, sie sind</i>.",
    "accept": [
     "sind"
    ]
@@ -135,8 +135,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>bleiben, strong, “stay”</i>. Write the Perfekt, third person singular.",
-   "explain": "<i>Bleiben</i> takes <i>sein</i> in the Perfekt.",
+   "prompt": "<i lang=\"de\">bleiben, strong, “stay”</i>. Write the Perfekt, third person singular.",
+   "explain": "<i lang=\"de\">Bleiben</i> takes <i lang=\"de\">sein</i> in the Perfekt.",
    "accept": [
     "ist geblieben"
    ]
@@ -147,8 +147,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>haben, irregular, “have”</i>. Write the present, second person singular.",
-   "explain": "<i>Ich habe, du hast, er hat</i>.",
+   "prompt": "<i lang=\"de\">haben, irregular, “have”</i>. Write the present, second person singular.",
+   "explain": "<i lang=\"de\">Ich habe, du hast, er hat</i>.",
    "accept": [
     "hast"
    ]
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>haben, irregular, “have”</i>. Write the Konjunktiv II, first person plural.",
-   "explain": "The Konjunktiv II of <i>haben</i> is <i>hätte</i>, with <i>-n</i> in the first person plural.",
+   "prompt": "<i lang=\"de\">haben, irregular, “have”</i>. Write the Konjunktiv II, first person plural.",
+   "explain": "The Konjunktiv II of <i lang=\"de\">haben</i> is <i lang=\"de\">hätte</i>, with <i lang=\"de\">-n</i> in the first person plural.",
    "accept": [
     "hätten"
    ]
@@ -171,8 +171,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>werden, irregular, “become”</i>. Write the present, second person singular.",
-   "explain": "<i>Ich werde, du wirst, er wird</i>.",
+   "prompt": "<i lang=\"de\">werden, irregular, “become”</i>. Write the present, second person singular.",
+   "explain": "<i lang=\"de\">Ich werde, du wirst, er wird</i>.",
    "accept": [
     "wirst"
    ]
@@ -183,8 +183,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>werden, irregular, “become”</i>. Write the Konjunktiv II, third person plural.",
-   "explain": "The Konjunktiv II of <i>werden</i> is <i>würde</i>, plural <i>würden</i>.",
+   "prompt": "<i lang=\"de\">werden, irregular, “become”</i>. Write the Konjunktiv II, third person plural.",
+   "explain": "The Konjunktiv II of <i lang=\"de\">werden</i> is <i lang=\"de\">würde</i>, plural <i lang=\"de\">würden</i>.",
    "accept": [
     "würden"
    ]
@@ -195,8 +195,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>kaufen, weak, “buy”</i>. Write the Perfekt, third person singular.",
-   "explain": "A weak verb forms its participle with <i>ge-</i> and <i>-t</i>, and takes <i>haben</i>.",
+   "prompt": "<i lang=\"de\">kaufen, weak, “buy”</i>. Write the Perfekt, third person singular.",
+   "explain": "A weak verb forms its participle with <i lang=\"de\">ge-</i> and <i lang=\"de\">-t</i>, and takes <i lang=\"de\">haben</i>.",
    "accept": [
     "hat gekauft"
    ]
@@ -207,8 +207,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>nehmen, strong, “take”</i>. Write the present, third person singular.",
-   "explain": "<i>Nehmen</i> changes <i>e</i> to <i>i</i> and doubles the <i>m</i>: <i>er nimmt</i>.",
+   "prompt": "<i lang=\"de\">nehmen, strong, “take”</i>. Write the present, third person singular.",
+   "explain": "<i lang=\"de\">Nehmen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">i</i> and doubles the <i lang=\"de\">m</i>: <i lang=\"de\">er nimmt</i>.",
    "accept": [
     "nimmt"
    ]
@@ -219,8 +219,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>kommen, strong, “come”</i>. Write the Konjunktiv II, third person singular.",
-   "explain": "The Präteritum <i>kam</i> with umlaut and <i>-e</i>: <i>käme</i>.",
+   "prompt": "<i lang=\"de\">kommen, strong, “come”</i>. Write the Konjunktiv II, third person singular.",
+   "explain": "The Präteritum <i lang=\"de\">kam</i> with umlaut and <i lang=\"de\">-e</i>: <i lang=\"de\">käme</i>.",
    "accept": [
     "käme"
    ]
@@ -231,8 +231,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>finden, strong, “find”</i>. Write the Präteritum, third person singular.",
-   "explain": "<i>Finden, fand, gefunden</i>.",
+   "prompt": "<i lang=\"de\">finden, strong, “find”</i>. Write the Präteritum, third person singular.",
+   "explain": "<i lang=\"de\">Finden, fand, gefunden</i>.",
    "accept": [
     "fand"
    ]
@@ -243,8 +243,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>fliegen, strong, “fly”</i>. Write the Perfekt, third person singular.",
-   "explain": "<i>Fliegen</i> is a verb of motion and takes <i>sein</i>.",
+   "prompt": "<i lang=\"de\">fliegen, strong, “fly”</i>. Write the Perfekt, third person singular.",
+   "explain": "<i lang=\"de\">Fliegen</i> is a verb of motion and takes <i lang=\"de\">sein</i>.",
    "accept": [
     "ist geflogen"
    ]
@@ -255,8 +255,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>lesen, strong, “read”</i>. Write the present, second person singular.",
-   "explain": "<i>Lesen</i> changes <i>e</i> to <i>ie</i>: <i>du liest</i>.",
+   "prompt": "<i lang=\"de\">lesen, strong, “read”</i>. Write the present, second person singular.",
+   "explain": "<i lang=\"de\">Lesen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">ie</i>: <i lang=\"de\">du liest</i>.",
    "accept": [
     "liest"
    ]
@@ -267,8 +267,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>geben, strong, “give”</i>. Write the Konjunktiv II, first person singular.",
-   "explain": "The Präteritum <i>gab</i> with umlaut and <i>-e</i>: <i>ich gäbe</i>.",
+   "prompt": "<i lang=\"de\">geben, strong, “give”</i>. Write the Konjunktiv II, first person singular.",
+   "explain": "The Präteritum <i lang=\"de\">gab</i> with umlaut and <i lang=\"de\">-e</i>: <i lang=\"de\">ich gäbe</i>.",
    "accept": [
     "gäbe"
    ]
@@ -279,8 +279,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>fahren, strong, “drive”</i>. Write the present, third person singular.",
-   "explain": "Verbs with <i>a</i> take the umlaut in the second and third persons singular.",
+   "prompt": "<i lang=\"de\">fahren, strong, “drive”</i>. Write the present, third person singular.",
+   "explain": "Verbs with <i lang=\"de\">a</i> take the umlaut in the second and third persons singular.",
    "accept": [
     "fährt"
    ]
@@ -291,8 +291,8 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "deck": "lang.iii-decl.de/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i>Name, masculine, “name”</i>. Write the genitive singular.",
-   "explain": "<i>Name</i> is weak in most cases but adds <i>-ns</i> in the genitive singular: <i>des Namens</i>.",
+   "prompt": "<i lang=\"de\">Name, masculine, “name”</i>. Write the genitive singular.",
+   "explain": "<i lang=\"de\">Name</i> is weak in most cases but adds <i lang=\"de\">-ns</i> in the genitive singular: <i lang=\"de\">des Namens</i>.",
    "accept": [
     "Namens"
    ]

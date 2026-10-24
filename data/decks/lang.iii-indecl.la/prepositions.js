@@ -9,12 +9,12 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
   {
    "id": "cases",
    "title": "Prepositions with the accusative and the ablative",
-   "body": "<p>English says “to the city” and “from the city,” and the noun does not change. A Latin preposition, as we have seen, governs a case of its own: <em>ad urbem</em> (“to the city”) takes the accusative, whereas <em>ab urbe</em> (“from the city”) takes the ablative. Most Latin prepositions take one of these two cases:</p>\n<p><strong>With the accusative</strong>: <em>ad</em> (“to”), <em>ante</em> (“before”), <em>apud</em> (“at the house of,” “among”), <em>circum</em> (“around”), <em>contrā</em> (“against”), <em>inter</em> (“between,” “among”), <em>ob</em> (“on account of”), <em>per</em> (“through”), <em>post</em> (“after,” “behind”), <em>praeter</em> (“beyond,” “except”), <em>prope</em> (“near”), <em>propter</em> (“on account of”), <em>trāns</em> (“across”)<br><strong>With the ablative</strong>: <em>ā</em> or <em>ab</em> (“from,” “by”), <em>cum</em> (“with”), <em>dē</em> (“down from,” “concerning”), <em>ē</em> or <em>ex</em> (“out of”), <em>prae</em> (“before,” “in comparison with”), <em>prō</em> (“in front of,” “on behalf of”), <em>sine</em> (“without”)</p>\n<p><em>Ā</em> and <em>ē</em> stand before consonants, <em>ab</em> and <em>ex</em> before vowels and also before consonants: <em>ā rēge</em>, <em>ab urbe</em>, <em>ex agrō</em>. As a rule of thumb, the prepositions that speak of motion away (<em>ab</em>, <em>dē</em>, <em>ex</em>) take the ablative, the case of separation.</p>",
+   "body": "<p>English says “to the city” and “from the city,” and the noun does not change. A Latin preposition, as we have seen, governs a case of its own: <em lang=\"la\">ad urbem</em> (“to the city”) takes the accusative, whereas <em lang=\"la\">ab urbe</em> (“from the city”) takes the ablative. Most Latin prepositions take one of these two cases:</p>\n<p><strong>With the accusative</strong>: <em lang=\"la\">ad</em> (“to”), <em lang=\"la\">ante</em> (“before”), <em lang=\"la\">apud</em> (“at the house of,” “among”), <em lang=\"la\">circum</em> (“around”), <em lang=\"la\">contrā</em> (“against”), <em lang=\"la\">inter</em> (“between,” “among”), <em lang=\"la\">ob</em> (“on account of”), <em lang=\"la\">per</em> (“through”), <em lang=\"la\">post</em> (“after,” “behind”), <em lang=\"la\">praeter</em> (“beyond,” “except”), <em lang=\"la\">prope</em> (“near”), <em lang=\"la\">propter</em> (“on account of”), <em lang=\"la\">trāns</em> (“across”)<br><strong>With the ablative</strong>: <em lang=\"la\">ā</em> or <em lang=\"la\">ab</em> (“from,” “by”), <em lang=\"la\">cum</em> (“with”), <em lang=\"la\">dē</em> (“down from,” “concerning”), <em lang=\"la\">ē</em> or <em lang=\"la\">ex</em> (“out of”), <em lang=\"la\">prae</em> (“before,” “in comparison with”), <em lang=\"la\">prō</em> (“in front of,” “on behalf of”), <em lang=\"la\">sine</em> (“without”)</p>\n<p><em lang=\"la\">Ā</em> and <em lang=\"la\">ē</em> stand before consonants, <em lang=\"la\">ab</em> and <em lang=\"la\">ex</em> before vowels and also before consonants: <em lang=\"la\">ā rēge</em>, <em lang=\"la\">ab urbe</em>, <em lang=\"la\">ex agrō</em>. As a rule of thumb, the prepositions that speak of motion away (<em lang=\"la\">ab</em>, <em lang=\"la\">dē</em>, <em lang=\"la\">ex</em>) take the ablative, the case of separation.</p>",
    "qp": {
     "id": "q-la-prep-cases",
     "variants": [
      {
-      "prompt": "Which case does <em>propter</em> (“on account of”) take?",
+      "prompt": "Which case does <em lang=\"la\">propter</em> (“on account of”) take?",
       "options": [
        "The accusative",
        "The ablative",
@@ -22,29 +22,29 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "The ablative or the accusative"
       ],
       "answer": 0,
-      "explain": "<em>Propter</em> is one of the many prepositions with the accusative."
+      "explain": "<em lang=\"la\">Propter</em> is one of the many prepositions with the accusative."
      },
      {
       "prompt": "Which phrase is correct for “without hope”?",
       "options": [
-       "<em>sine spem</em>",
-       "<em>sine speī</em>",
-       "<em>sine spēs</em>",
-       "<em>sine spē</em>"
+       "<em lang=\"la\">sine spem</em>",
+       "<em lang=\"la\">sine speī</em>",
+       "<em lang=\"la\">sine spēs</em>",
+       "<em lang=\"la\">sine spē</em>"
       ],
       "answer": 3,
-      "explain": "<em>Sine</em> takes the ablative: <em>spē</em>."
+      "explain": "<em lang=\"la\">Sine</em> takes the ablative: <em lang=\"la\">spē</em>."
      },
      {
-      "prompt": "Why is it <em>ab oppidō</em> but <em>ā mīlite</em>?",
+      "prompt": "Why is it <em lang=\"la\">ab oppidō</em> but <em lang=\"la\">ā mīlite</em>?",
       "options": [
        "The case is different in the two phrases",
-       "<em>Ab</em> is used of things, <em>ā</em> of persons",
-       "<em>Ab</em> stands before a vowel",
-       "<em>Ab</em> is the older form"
+       "<em lang=\"la\">Ab</em> is used of things, <em lang=\"la\">ā</em> of persons",
+       "<em lang=\"la\">Ab</em> stands before a vowel",
+       "<em lang=\"la\">Ab</em> is the older form"
       ],
       "answer": 2,
-      "explain": "<em>Ā</em> is used before consonants and <em>ab</em> before vowels (and often before consonants as well)."
+      "explain": "<em lang=\"la\">Ā</em> is used before consonants and <em lang=\"la\">ab</em> before vowels (and often before consonants as well)."
      }
     ]
    }
@@ -52,12 +52,12 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
   {
    "id": "both",
    "title": "Prepositions with both cases",
-   "body": "<p>English has “in” for rest and “into” for motion. Latin uses one preposition, <em>in</em>, for both, and shows the difference by the case: with the ablative, <em>in</em> means “in” or “on” (<em>in urbe</em>, “in the city”); with the accusative, it means “into,” “onto,” or “against” (<em>in urbem</em>, “into the city”). <em>Sub</em> (“under”) works the same way: <em>sub monte</em>, “at the foot of the mountain,” but <em>sub montem</em>, “up to the foot of the mountain.” <em>Super</em> (“above”) usually takes the accusative, and the ablative chiefly in the sense “concerning,” mostly in poetry. So with these prepositions the reader must look to the case to know whether the sentence speaks of rest or of motion.</p>",
+   "body": "<p>English has “in” for rest and “into” for motion. Latin uses one preposition, <em lang=\"la\">in</em>, for both, and shows the difference by the case: with the ablative, <em lang=\"la\">in</em> means “in” or “on” (<em lang=\"la\">in urbe</em>, “in the city”); with the accusative, it means “into,” “onto,” or “against” (<em lang=\"la\">in urbem</em>, “into the city”). <em lang=\"la\">Sub</em> (“under”) works the same way: <em lang=\"la\">sub monte</em>, “at the foot of the mountain,” but <em lang=\"la\">sub montem</em>, “up to the foot of the mountain.” <em lang=\"la\">Super</em> (“above”) usually takes the accusative, and the ablative chiefly in the sense “concerning,” mostly in poetry. So with these prepositions the reader must look to the case to know whether the sentence speaks of rest or of motion.</p>",
    "qp": {
     "id": "q-la-prep-both",
     "variants": [
      {
-      "prompt": "What does <em>in silvam</em> mean?",
+      "prompt": "What does <em lang=\"la\">in silvam</em> mean?",
       "options": [
        "“into the forest”",
        "“in the forest”",
@@ -65,21 +65,21 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "“through the forest”"
       ],
       "answer": 0,
-      "explain": "<em>In</em> with the accusative means motion into a place."
+      "explain": "<em lang=\"la\">In</em> with the accusative means motion into a place."
      },
      {
       "prompt": "Which phrase means “in the camp” (rest)?",
       "options": [
-       "<em>in castra</em>",
-       "<em>ad castra</em>",
-       "<em>ex castrīs</em>",
-       "<em>in castrīs</em>"
+       "<em lang=\"la\">in castra</em>",
+       "<em lang=\"la\">ad castra</em>",
+       "<em lang=\"la\">ex castrīs</em>",
+       "<em lang=\"la\">in castrīs</em>"
       ],
       "answer": 3,
-      "explain": "<em>In</em> with the ablative means rest in a place."
+      "explain": "<em lang=\"la\">In</em> with the ablative means rest in a place."
      },
      {
-      "prompt": "What does <em>sub iugum</em> mean?",
+      "prompt": "What does <em lang=\"la\">sub iugum</em> mean?",
       "options": [
        "“under the yoke,” at rest",
        "“above the yoke,” with motion",
@@ -87,7 +87,7 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "“away from the yoke”"
       ],
       "answer": 2,
-      "explain": "<em>Sub</em> with the accusative shows motion toward a place beneath."
+      "explain": "<em lang=\"la\">Sub</em> with the accusative shows motion toward a place beneath."
      }
     ]
    }
@@ -95,23 +95,23 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
   {
    "id": "position",
    "title": "Prepositions after their noun",
-   "body": "<p>A Latin preposition usually stands before its noun, as its name (<em>praepositiō</em>, “a placing before”) says. But <em>cum</em> is joined to the end of the personal and reflexive pronouns, and usually of the relative: <em>mēcum</em> (“with me”), <em>tēcum</em>, <em>sēcum</em>, <em>nōbīscum</em>, <em>vōbīscum</em>, <em>quōcum</em> (“with whom”). A few prepositions may follow their noun, especially in poetry, and grammars call this <strong>anastrophe</strong>: <em>Ītaliam contrā</em> (“facing Italy,” <em>Aeneid</em> I.13). A preposition may also be separated from its noun by an adjective or a genitive: <em>magnā cum laude</em>, “with great praise”; <em>quā dē causā</em>, “for which reason.”</p>",
+   "body": "<p>A Latin preposition usually stands before its noun, as its name (<em lang=\"la\">praepositiō</em>, “a placing before”) says. But <em lang=\"la\">cum</em> is joined to the end of the personal and reflexive pronouns, and usually of the relative: <em lang=\"la\">mēcum</em> (“with me”), <em lang=\"la\">tēcum</em>, <em lang=\"la\">sēcum</em>, <em lang=\"la\">nōbīscum</em>, <em lang=\"la\">vōbīscum</em>, <em lang=\"la\">quōcum</em> (“with whom”). A few prepositions may follow their noun, especially in poetry, and grammars call this <strong>anastrophe</strong>: <em lang=\"la\">Ītaliam contrā</em> (“facing Italy,” <em lang=\"la\">Aeneid</em> I.13). A preposition may also be separated from its noun by an adjective or a genitive: <em lang=\"la\">magnā cum laude</em>, “with great praise”; <em lang=\"la\">quā dē causā</em>, “for which reason.”</p>",
    "qp": {
     "id": "q-la-prep-position",
     "variants": [
      {
       "prompt": "How does Latin say “with you” (one person)?",
       "options": [
-       "<em>tēcum</em>",
-       "<em>cum tē</em>",
-       "<em>cum tibi</em>",
-       "<em>tibicum</em>"
+       "<em lang=\"la\">tēcum</em>",
+       "<em lang=\"la\">cum tē</em>",
+       "<em lang=\"la\">cum tibi</em>",
+       "<em lang=\"la\">tibicum</em>"
       ],
       "answer": 0,
-      "explain": "<em>Cum</em> is joined to the end of the personal pronouns: <em>tēcum</em>."
+      "explain": "<em lang=\"la\">Cum</em> is joined to the end of the personal pronouns: <em lang=\"la\">tēcum</em>."
      },
      {
-      "prompt": "What is <em>magnā cum cūrā</em>?",
+      "prompt": "What is <em lang=\"la\">magnā cum cūrā</em>?",
       "options": [
        "“of great care,” in the genitive",
        "“because of great care”",
@@ -119,7 +119,7 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "“with great care”"
       ],
       "answer": 3,
-      "explain": "The preposition often stands between an adjective and its noun: <em>magnā cum cūrā</em>."
+      "explain": "The preposition often stands between an adjective and its noun: <em lang=\"la\">magnā cum cūrā</em>."
      },
      {
       "prompt": "What is anastrophe?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "A preposition with two cases"
       ],
       "answer": 2,
-      "explain": "In anastrophe the preposition follows its noun, as <em>Ītaliam contrā</em>."
+      "explain": "In anastrophe the preposition follows its noun, as <em lang=\"la\">Ītaliam contrā</em>."
      }
     ]
    }
@@ -138,23 +138,23 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
   {
    "id": "place",
    "title": "Place without a preposition",
-   "body": "<p>English says “to Rome,” “from Rome,” and “at Rome,” always with a preposition. Latin uses no preposition with the names of cities and towns, and with <em>domus</em> (“home”) and <em>rūs</em> (“the country”). The accusative alone shows the place to which: <em>Rōmam</em> (“to Rome”), <em>domum</em> (“home”), <em>rūs</em> (“to the country”). The ablative alone shows the place from which: <em>Rōmā</em> (“from Rome”), <em>domō</em> (“from home”), <em>rūre</em>. And an old case, the <strong>locative</strong>, shows the place where: <em>Rōmae</em> (“at Rome”), <em>Corinthī</em> (“at Corinth”), <em>domī</em> (“at home”), <em>rūrī</em> (“in the country”). With the names of countries, Latin uses the prepositions: <em>in Italiam</em>, <em>in Italiā</em>.</p>",
+   "body": "<p>English says “to Rome,” “from Rome,” and “at Rome,” always with a preposition. Latin uses no preposition with the names of cities and towns, and with <em lang=\"la\">domus</em> (“home”) and <em lang=\"la\">rūs</em> (“the country”). The accusative alone shows the place to which: <em lang=\"la\">Rōmam</em> (“to Rome”), <em lang=\"la\">domum</em> (“home”), <em lang=\"la\">rūs</em> (“to the country”). The ablative alone shows the place from which: <em lang=\"la\">Rōmā</em> (“from Rome”), <em lang=\"la\">domō</em> (“from home”), <em lang=\"la\">rūre</em>. And an old case, the <strong>locative</strong>, shows the place where: <em lang=\"la\">Rōmae</em> (“at Rome”), <em lang=\"la\">Corinthī</em> (“at Corinth”), <em lang=\"la\">domī</em> (“at home”), <em lang=\"la\">rūrī</em> (“in the country”). With the names of countries, Latin uses the prepositions: <em lang=\"la\">in Italiam</em>, <em lang=\"la\">in Italiā</em>.</p>",
    "qp": {
     "id": "q-la-prep-place",
     "variants": [
      {
-      "prompt": "How does Latin say “to Athens” (<em>Athēnae</em>, plural)?",
+      "prompt": "How does Latin say “to Athens” (<em lang=\"la\">Athēnae</em>, plural)?",
       "options": [
-       "<em>ad Athēnās</em>",
-       "<em>Athēnīs</em>",
-       "<em>Athēnās</em>",
-       "<em>in Athēnīs</em>"
+       "<em lang=\"la\">ad Athēnās</em>",
+       "<em lang=\"la\">Athēnīs</em>",
+       "<em lang=\"la\">Athēnās</em>",
+       "<em lang=\"la\">in Athēnīs</em>"
       ],
       "answer": 2,
       "explain": "With the name of a city, the accusative alone shows the place to which."
      },
      {
-      "prompt": "What does <em>domī</em> mean?",
+      "prompt": "What does <em lang=\"la\">domī</em> mean?",
       "options": [
        "“home” (motion toward)",
        "“at home”",
@@ -162,18 +162,18 @@ ARS.decks["lang.iii-indecl.la/prepositions"] = {
        "“of the house”"
       ],
       "answer": 1,
-      "explain": "<em>Domī</em> is the locative, the place where."
+      "explain": "<em lang=\"la\">Domī</em> is the locative, the place where."
      },
      {
-      "prompt": "How does Latin say “in Gaul” (<em>Gallia</em>, a country)?",
+      "prompt": "How does Latin say “in Gaul” (<em lang=\"la\">Gallia</em>, a country)?",
       "options": [
-       "<em>in Galliā</em>",
-       "<em>Galliae</em>",
-       "<em>Galliā</em>",
-       "<em>in Galliam</em>"
+       "<em lang=\"la\">in Galliā</em>",
+       "<em lang=\"la\">Galliae</em>",
+       "<em lang=\"la\">Galliā</em>",
+       "<em lang=\"la\">in Galliam</em>"
       ],
       "answer": 0,
-      "explain": "The rule without a preposition holds for cities and towns, not for countries: <em>in Galliā</em>."
+      "explain": "The rule without a preposition holds for cities and towns, not for countries: <em lang=\"la\">in Galliā</em>."
      }
     ]
    }

@@ -15,13 +15,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸν ἄνθρωπον ______ λῡ́ει τὸν ἵππον</i> (“The judge sends the man who looses the horse”).",
-   "explain": "The man is masculine and singular, and the relative is the subject of <i>λῡ́ει</i>, so it is the nominative <i>ὅς</i>, written <i>ὃς</i> before the next word (Smyth §2501, §338, §154). <i>ὅν</i> would be the object of <i>λῡ́ει</i>, and <i>ἥ</i> is feminine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸν ἄνθρωπον ______ λῡ́ει τὸν ἵππον</i> (“The judge sends the man who looses the horse”).",
+   "explain": "The man is masculine and singular, and the relative is the subject of <i lang=\"grc\">λῡ́ει</i>, so it is the nominative <i lang=\"grc\">ὅς</i>, written <i lang=\"grc\">ὃς</i> before the next word (Smyth §2501, §338, §154). <i lang=\"grc\">ὅν</i> would be the object of <i lang=\"grc\">λῡ́ει</i>, and <i lang=\"grc\">ἥ</i> is feminine.",
    "options": [
-    "<i>ὃς</i>",
-    "<i>ὃν</i>",
-    "<i>ἣ</i>",
-    "<i>οἳ</i>"
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">ὃν</i>",
+    "<i lang=\"grc\">ἣ</i>",
+    "<i lang=\"grc\">οἳ</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>πέμπω τὸν ἵππον ______ ὁ κριτὴς λῡ́ει</i> (“I send the horse which the judge looses”).",
-   "explain": "The horse is masculine and singular, and the relative is the object of <i>λῡ́ει</i>, so it is accusative, written <i>ὃν</i> before the next word (Smyth §2501, §338, §154). <i>ὅς</i> would be a second subject of <i>λῡ́ει</i>, and <i>ἥν</i> is feminine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">πέμπω τὸν ἵππον ______ ὁ κριτὴς λῡ́ει</i> (“I send the horse which the judge looses”).",
+   "explain": "The horse is masculine and singular, and the relative is the object of <i lang=\"grc\">λῡ́ει</i>, so it is accusative, written <i lang=\"grc\">ὃν</i> before the next word (Smyth §2501, §338, §154). <i lang=\"grc\">ὅς</i> would be a second subject of <i lang=\"grc\">λῡ́ει</i>, and <i lang=\"grc\">ἥν</i> is feminine.",
    "options": [
-    "<i>ὃν</i>",
-    "<i>ὃς</i>",
-    "<i>ἣν</i>",
-    "<i>οὓς</i>"
+    "<i lang=\"grc\">ὃν</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">ἣν</i>",
+    "<i lang=\"grc\">οὓς</i>"
    ],
    "answer": 0
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ἡ πόλις ______ ὁ βασιλεὺς παιδεύει ἀγαθή ἐστι</i> (“The city which the king educates is good”).",
-   "explain": "The city is feminine and singular, and the relative is the object of <i>παιδεύει</i>, so it is accusative, written <i>ἣν</i> before the next word (Smyth §2501, §338, §154). <i>ἥ</i> would stand as a second subject beside <i>ὁ βασιλεύς</i>, and <i>ὅν</i> is masculine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ἡ πόλις ______ ὁ βασιλεὺς παιδεύει ἀγαθή ἐστι</i> (“The city which the king educates is good”).",
+   "explain": "The city is feminine and singular, and the relative is the object of <i lang=\"grc\">παιδεύει</i>, so it is accusative, written <i lang=\"grc\">ἣν</i> before the next word (Smyth §2501, §338, §154). <i lang=\"grc\">ἥ</i> would stand as a second subject beside <i lang=\"grc\">ὁ βασιλεύς</i>, and <i lang=\"grc\">ὅν</i> is masculine.",
    "options": [
-    "<i>ἣν</i>",
-    "<i>ἣ</i>",
-    "<i>ὃν</i>",
-    "<i>αἳ</i>"
+    "<i lang=\"grc\">ἣν</i>",
+    "<i lang=\"grc\">ἣ</i>",
+    "<i lang=\"grc\">ὃν</i>",
+    "<i lang=\"grc\">αἳ</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>πιστεύει τῇ ἐλπίδι ______ ἀγαθή ἐστι</i> (“He trusts the hope which is good”).",
-   "explain": "The hope is feminine and singular, and the relative is the subject of <i>ἐστι</i>, so it is nominative, written <i>ἣ</i> before the next word, and not the dative of the antecedent (Smyth §2501, §338, §154). <i>ἥν</i> is accusative, <i>ὅς</i> is masculine, and <i>ὅ</i> is neuter.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">πιστεύει τῇ ἐλπίδι ______ ἀγαθή ἐστι</i> (“He trusts the hope which is good”).",
+   "explain": "The hope is feminine and singular, and the relative is the subject of <i lang=\"grc\">ἐστι</i>, so it is nominative, written <i lang=\"grc\">ἣ</i> before the next word, and not the dative of the antecedent (Smyth §2501, §338, §154). <i lang=\"grc\">ἥν</i> is accusative, <i lang=\"grc\">ὅς</i> is masculine, and <i lang=\"grc\">ὅ</i> is neuter.",
    "options": [
-    "<i>ἣ</i>",
-    "<i>ἣν</i>",
-    "<i>ὃς</i>",
-    "<i>ὃ</i>"
+    "<i lang=\"grc\">ἣ</i>",
+    "<i lang=\"grc\">ἣν</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">ὃ</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τὸ δῶρον ______ ὁ κριτὴς πέμπει ἀγαθόν ἐστι</i> (“The gift which the judge sends is good”).",
-   "explain": "The gift is neuter and singular, and the relative is the object of <i>πέμπει</i>, so the form is <i>ὅ</i>, written <i>ὃ</i> before the next word (Smyth §2501, §338, §154). <i>ὅν</i> and <i>ὅς</i> are masculine, and <i>ἥ</i> is feminine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τὸ δῶρον ______ ὁ κριτὴς πέμπει ἀγαθόν ἐστι</i> (“The gift which the judge sends is good”).",
+   "explain": "The gift is neuter and singular, and the relative is the object of <i lang=\"grc\">πέμπει</i>, so the form is <i lang=\"grc\">ὅ</i>, written <i lang=\"grc\">ὃ</i> before the next word (Smyth §2501, §338, §154). <i lang=\"grc\">ὅν</i> and <i lang=\"grc\">ὅς</i> are masculine, and <i lang=\"grc\">ἥ</i> is feminine.",
    "options": [
-    "<i>ὃ</i>",
-    "<i>ὃν</i>",
-    "<i>ὃς</i>",
-    "<i>ἣ</i>"
+    "<i lang=\"grc\">ὃ</i>",
+    "<i lang=\"grc\">ὃν</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">ἣ</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τοὺς ἀνθρώπους ______ λῡ́ουσι τὸν ἵππον</i> (“The king sends the men who loose the horse”).",
-   "explain": "The men are masculine and plural, and the relative is the subject of <i>λῡ́ουσι</i>, so it is nominative plural, written <i>οἳ</i> before the next word (Smyth §2501, §338, §154). <i>ὅς</i> is singular, and <i>οὕς</i> would be the object, but <i>τὸν ἵππον</i> is already the object.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ βασιλεὺς πέμπει τοὺς ἀνθρώπους ______ λῡ́ουσι τὸν ἵππον</i> (“The king sends the men who loose the horse”).",
+   "explain": "The men are masculine and plural, and the relative is the subject of <i lang=\"grc\">λῡ́ουσι</i>, so it is nominative plural, written <i lang=\"grc\">οἳ</i> before the next word (Smyth §2501, §338, §154). <i lang=\"grc\">ὅς</i> is singular, and <i lang=\"grc\">οὕς</i> would be the object, but <i lang=\"grc\">τὸν ἵππον</i> is already the object.",
    "options": [
-    "<i>οἳ</i>",
-    "<i>ὃς</i>",
-    "<i>οὓς</i>",
-    "<i>αἳ</i>"
+    "<i lang=\"grc\">οἳ</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">οὓς</i>",
+    "<i lang=\"grc\">αἳ</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς ______ πιστεύω ἀγαθός ἐστι</i> (“The judge whom I trust is good”).",
-   "explain": "<i>πιστεύω</i> takes the dative, and the relative takes its case from its own clause, so it is <i>ᾧ</i> (Smyth §2501, §1745, §338). <i>ὅν</i> would be the object of a verb that takes the accusative, <i>ὅς</i> would be a second subject of <i>πιστεύω</i>, and <i>ὅ</i> is neuter.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς ______ πιστεύω ἀγαθός ἐστι</i> (“The judge whom I trust is good”).",
+   "explain": "<i lang=\"grc\">πιστεύω</i> takes the dative, and the relative takes its case from its own clause, so it is <i lang=\"grc\">ᾧ</i> (Smyth §2501, §1745, §338). <i lang=\"grc\">ὅν</i> would be the object of a verb that takes the accusative, <i lang=\"grc\">ὅς</i> would be a second subject of <i lang=\"grc\">πιστεύω</i>, and <i lang=\"grc\">ὅ</i> is neuter.",
    "options": [
-    "<i>ᾧ</i>",
-    "<i>ὃν</i>",
-    "<i>ὃς</i>",
-    "<i>ὃ</i>"
+    "<i lang=\"grc\">ᾧ</i>",
+    "<i lang=\"grc\">ὃν</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">ὃ</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>οἱ ἄνθρωποι ______ ὁ βασιλεὺς ἄρχει ἀγαθοί εἰσι</i> (“The men whom the king rules are good”).",
-   "explain": "<i>ἄρχω</i> takes the genitive of the people ruled, and the relative takes its case from its own clause, so it is <i>ὧν</i> (Smyth §2501, §1370, §338). <i>οὕς</i> is accusative, and <i>οἵ</i> would be a second subject of <i>ἄρχει</i>.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">οἱ ἄνθρωποι ______ ὁ βασιλεὺς ἄρχει ἀγαθοί εἰσι</i> (“The men whom the king rules are good”).",
+   "explain": "<i lang=\"grc\">ἄρχω</i> takes the genitive of the people ruled, and the relative takes its case from its own clause, so it is <i lang=\"grc\">ὧν</i> (Smyth §2501, §1370, §338). <i lang=\"grc\">οὕς</i> is accusative, and <i lang=\"grc\">οἵ</i> would be a second subject of <i lang=\"grc\">ἄρχει</i>.",
    "options": [
-    "<i>ὧν</i>",
-    "<i>οὓς</i>",
-    "<i>οἳ</i>",
-    "<i>οἷς</i>"
+    "<i lang=\"grc\">ὧν</i>",
+    "<i lang=\"grc\">οὓς</i>",
+    "<i lang=\"grc\">οἳ</i>",
+    "<i lang=\"grc\">οἷς</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον</i> (“The judge sends the gift because the king looses the horse”).",
-   "explain": "The clause gives the cause, so the conjunction is <i>ὅτι</i>, and <i>λῡ́ει</i> stays in the indicative (Smyth §2240, §2241). <i>ὅς</i> would be a relative, but the clause already has <i>ὁ βασιλεύς</i> as its subject. <i>ἵνα</i> would mean in order that.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον</i> (“The judge sends the gift because the king looses the horse”).",
+   "explain": "The clause gives the cause, so the conjunction is <i lang=\"grc\">ὅτι</i>, and <i lang=\"grc\">λῡ́ει</i> stays in the indicative (Smyth §2240, §2241). <i lang=\"grc\">ὅς</i> would be a relative, but the clause already has <i lang=\"grc\">ὁ βασιλεύς</i> as its subject. <i lang=\"grc\">ἵνα</i> would mean in order that.",
    "options": [
-    "<i>ὅτι</i>",
-    "<i>ὃς</i>",
-    "<i>εἰ</i>",
-    "<i>ἵνα</i>"
+    "<i lang=\"grc\">ὅτι</i>",
+    "<i lang=\"grc\">ὃς</i>",
+    "<i lang=\"grc\">εἰ</i>",
+    "<i lang=\"grc\">ἵνα</i>"
    ],
    "answer": 0
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸν ἵππον ὅτι ὁ κριτὴς ἀγαθός ______</i> (“The king sends the horse because the judge is good”).",
-   "explain": "A causal clause that states a fact takes the indicative, so the verb is <i>ἐστι</i> (Smyth §2241). <i>εἶναι</i> is an infinitive, and <i>ᾖ</i> is subjunctive. <i>εἰσί</i> is plural, but <i>ὁ κριτής</i> is singular.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ βασιλεὺς πέμπει τὸν ἵππον ὅτι ὁ κριτὴς ἀγαθός ______</i> (“The king sends the horse because the judge is good”).",
+   "explain": "A causal clause that states a fact takes the indicative, so the verb is <i lang=\"grc\">ἐστι</i> (Smyth §2241). <i lang=\"grc\">εἶναι</i> is an infinitive, and <i lang=\"grc\">ᾖ</i> is subjunctive. <i lang=\"grc\">εἰσί</i> is plural, but <i lang=\"grc\">ὁ κριτής</i> is singular.",
    "options": [
-    "<i>ἐστι</i>",
-    "<i>εἶναι</i>",
-    "<i>ᾖ</i>",
-    "<i>εἰσί</i>"
+    "<i lang=\"grc\">ἐστι</i>",
+    "<i lang=\"grc\">εἶναι</i>",
+    "<i lang=\"grc\">ᾖ</i>",
+    "<i lang=\"grc\">εἰσί</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ὅτι ὁ βασιλεὺς τὸν ἵππον ______ λῡ́ει</i> (“The judge sends the gift because the king does not loose the horse”).",
-   "explain": "The negative of a causal fact is <i>οὐ</i>, and <i>οὐ</i> is the form before a consonant (Smyth §2240, §137). <i>μή</i> is the negative of purpose, of the protasis, and of a fear. <i>οὐκ</i> stands before a smooth vowel, and <i>οὐχ</i> before a rough vowel.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ὅτι ὁ βασιλεὺς τὸν ἵππον ______ λῡ́ει</i> (“The judge sends the gift because the king does not loose the horse”).",
+   "explain": "The negative of a causal fact is <i lang=\"grc\">οὐ</i>, and <i lang=\"grc\">οὐ</i> is the form before a consonant (Smyth §2240, §137). <i lang=\"grc\">μή</i> is the negative of purpose, of the protasis, and of a fear. <i lang=\"grc\">οὐκ</i> stands before a smooth vowel, and <i lang=\"grc\">οὐχ</i> before a rough vowel.",
    "options": [
-    "<i>οὐ</i>",
-    "<i>μὴ</i>",
-    "<i>οὐκ</i>",
-    "<i>οὐχ</i>"
+    "<i lang=\"grc\">οὐ</i>",
+    "<i lang=\"grc\">μὴ</i>",
+    "<i lang=\"grc\">οὐκ</i>",
+    "<i lang=\"grc\">οὐχ</i>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ βασιλεὺς πέμπει τὸ δῶρον ὅτι οἱ ἄνθρωποι τὸν ἵππον ______</i> (“The king sends the gift because the men loose the horse”).",
-   "explain": "The subject <i>οἱ ἄνθρωποι</i> is plural, and a fact takes the indicative, so the verb is <i>λῡ́ουσι</i> (Smyth §2241, §383). <i>λῡ́ει</i> is singular, and <i>λῡ́ωσι</i> is subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ βασιλεὺς πέμπει τὸ δῶρον ὅτι οἱ ἄνθρωποι τὸν ἵππον ______</i> (“The king sends the gift because the men loose the horse”).",
+   "explain": "The subject <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural, and a fact takes the indicative, so the verb is <i lang=\"grc\">λῡ́ουσι</i> (Smyth §2241, §383). <i lang=\"grc\">λῡ́ει</i> is singular, and <i lang=\"grc\">λῡ́ωσι</i> is subjunctive.",
    "options": [
-    "<i>λῡ́ουσι</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́ωσι</i>",
-    "<i>λῡ́ειν</i>"
+    "<i lang=\"grc\">λῡ́ουσι</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́ωσι</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ὅτι ὁ βασιλεὺς τὸν ἵππον ______</i> (“The judge sends the gift because the king loosed the horse”).",
-   "explain": "The loosing is a past fact, so the causal clause has the aorist indicative (Smyth §2241, §383). <i>λῡ́ει</i> is present, and <i>λῡ́σῃ</i> is subjunctive. <i>λῦσαι</i> is the aorist infinitive.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ὅτι ὁ βασιλεὺς τὸν ἵππον ______</i> (“The judge sends the gift because the king loosed the horse”).",
+   "explain": "The loosing is a past fact, so the causal clause has the aorist indicative (Smyth §2241, §383). <i lang=\"grc\">λῡ́ει</i> is present, and <i lang=\"grc\">λῡ́σῃ</i> is subjunctive. <i lang=\"grc\">λῦσαι</i> is the aorist infinitive.",
    "options": [
-    "<i>ἔλῡσε</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́σῃ</i>",
-    "<i>λῦσαι</i>"
+    "<i lang=\"grc\">ἔλῡσε</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́σῃ</i>",
+    "<i lang=\"grc\">λῦσαι</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ὅτι οἱ ἄνθρωποι ἀγαθοί ______</i> (“The judge sends the gift because the men are good”).",
-   "explain": "The men are plural, and a causal fact takes the indicative, so the verb is <i>εἰσι</i> (Smyth §2241). <i>ἐστι</i> is singular, and <i>ὦσι</i> is subjunctive. After the oxytone <i>ἀγαθοί</i> the enclitic has no accent (Smyth §183 a).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ὅτι οἱ ἄνθρωποι ἀγαθοί ______</i> (“The judge sends the gift because the men are good”).",
+   "explain": "The men are plural, and a causal fact takes the indicative, so the verb is <i lang=\"grc\">εἰσι</i> (Smyth §2241). <i lang=\"grc\">ἐστι</i> is singular, and <i lang=\"grc\">ὦσι</i> is subjunctive. After the oxytone <i lang=\"grc\">ἀγαθοί</i> the enclitic has no accent (Smyth §183 a).",
    "options": [
-    "<i>εἰσι</i>",
-    "<i>ἐστι</i>",
-    "<i>εἶναι</i>",
-    "<i>ὦσι</i>"
+    "<i lang=\"grc\">εἰσι</i>",
+    "<i lang=\"grc\">ἐστι</i>",
+    "<i lang=\"grc\">εἶναι</i>",
+    "<i lang=\"grc\">ὦσι</i>"
    ],
    "answer": 0
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς πέμπει τὸ δῶρον ὅτι τὸν ἵππον ______</i> (“The judge sends the gift because you loose the horse”).",
-   "explain": "The subject is “you,” one person, and a causal fact takes the indicative, so the verb is <i>λῡ́εις</i> (Smyth §2241, §383). <i>λῡ́ει</i> would mean that someone else looses the horse, and <i>λῡ́ῃς</i> is subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ὅτι τὸν ἵππον ______</i> (“The judge sends the gift because you loose the horse”).",
+   "explain": "The subject is “you,” one person, and a causal fact takes the indicative, so the verb is <i lang=\"grc\">λῡ́εις</i> (Smyth §2241, §383). <i lang=\"grc\">λῡ́ει</i> would mean that someone else looses the horse, and <i lang=\"grc\">λῡ́ῃς</i> is subjunctive.",
    "options": [
-    "<i>λῡ́εις</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́ῃς</i>",
-    "<i>λῡ́ειν</i>"
+    "<i lang=\"grc\">λῡ́εις</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́ῃς</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>"
    ],
    "answer": 0
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king looses the horse, the judge sends the gift”).",
-   "explain": "A simple present condition has <i>εἰ</i> with the indicative (Smyth §2291, §2282). <i>ἐᾱ́ν</i> takes the subjunctive, and <i>οὐ</i> is a negative, not a conjunction.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king looses the horse, the judge sends the gift”).",
+   "explain": "A simple present condition has <i lang=\"grc\">εἰ</i> with the indicative (Smyth §2291, §2282). <i lang=\"grc\">ἐᾱ́ν</i> takes the subjunctive, and <i lang=\"grc\">οὐ</i> is a negative, not a conjunction.",
    "options": [
-    "<i>εἰ</i>",
-    "<i>ἐᾱ̀ν</i>",
-    "<i>οὐ</i>",
-    "<i>ὅτι</i>"
+    "<i lang=\"grc\">εἰ</i>",
+    "<i lang=\"grc\">ἐᾱ̀ν</i>",
+    "<i lang=\"grc\">οὐ</i>",
+    "<i lang=\"grc\">ὅτι</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ ὁ κριτὴς ἀγαθός ______, ὁ βασιλεὺς πέμπει τὸν ἵππον</i> (“If the judge is good, the king sends the horse”).",
-   "explain": "A simple present condition has the indicative, and <i>ν</i> stands before the vowel (Smyth §2291, §134). <i>ᾖ</i> is subjunctive and would stand with <i>ἐᾱ́ν</i>, and <i>εἴη</i> is optative. After <i>ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ ὁ κριτὴς ἀγαθός ______, ὁ βασιλεὺς πέμπει τὸν ἵππον</i> (“If the judge is good, the king sends the horse”).",
+   "explain": "A simple present condition has the indicative, and <i lang=\"grc\">ν</i> stands before the vowel (Smyth §2291, §134). <i lang=\"grc\">ᾖ</i> is subjunctive and would stand with <i lang=\"grc\">ἐᾱ́ν</i>, and <i lang=\"grc\">εἴη</i> is optative. After <i lang=\"grc\">ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
    "options": [
-    "<i>ἐστιν</i>",
-    "<i>ᾖ</i>",
-    "<i>εἴη</i>",
-    "<i>εἶναι</i>"
+    "<i lang=\"grc\">ἐστιν</i>",
+    "<i lang=\"grc\">ᾖ</i>",
+    "<i lang=\"grc\">εἴη</i>",
+    "<i lang=\"grc\">εἶναι</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ οἱ ἄνθρωποι τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the men were loosing the horse, the judge sends the gift”).",
-   "explain": "The loosing went on in the past, so the protasis has the imperfect indicative (Smyth §2291, §383). <i>λῡ́ουσι</i> is present, and <i>λῡ́ωσι</i> is subjunctive. <i>ἔλῡσαν</i> is aorist, a single act rather than a continued one.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ οἱ ἄνθρωποι τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the men were loosing the horse, the judge sends the gift”).",
+   "explain": "The loosing went on in the past, so the protasis has the imperfect indicative (Smyth §2291, §383). <i lang=\"grc\">λῡ́ουσι</i> is present, and <i lang=\"grc\">λῡ́ωσι</i> is subjunctive. <i lang=\"grc\">ἔλῡσαν</i> is aorist, a single act rather than a continued one.",
    "options": [
-    "<i>ἔλῡον</i>",
-    "<i>λῡ́ουσι</i>",
-    "<i>λῡ́ωσι</i>",
-    "<i>ἔλῡσαν</i>"
+    "<i lang=\"grc\">ἔλῡον</i>",
+    "<i lang=\"grc\">λῡ́ουσι</i>",
+    "<i lang=\"grc\">λῡ́ωσι</i>",
+    "<i lang=\"grc\">ἔλῡσαν</i>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ ὁ βασιλεὺς τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king loosed the horse, the judge sends the gift”).",
-   "explain": "The loosing is one past act, so the protasis has the aorist indicative, with <i>ν</i> before the vowel (Smyth §2291, §383, §134). <i>ἔλῡσαν</i> is plural, and <i>λῡ́σῃ</i> is subjunctive.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ ὁ βασιλεὺς τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king loosed the horse, the judge sends the gift”).",
+   "explain": "The loosing is one past act, so the protasis has the aorist indicative, with <i lang=\"grc\">ν</i> before the vowel (Smyth §2291, §383, §134). <i lang=\"grc\">ἔλῡσαν</i> is plural, and <i lang=\"grc\">λῡ́σῃ</i> is subjunctive.",
    "options": [
-    "<i>ἔλῡσεν</i>",
-    "<i>ἔλῡσαν</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́σῃ</i>"
+    "<i lang=\"grc\">ἔλῡσεν</i>",
+    "<i lang=\"grc\">ἔλῡσαν</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́σῃ</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ ______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king does not loose the horse, the judge sends the gift”).",
-   "explain": "The negative of the protasis is <i>μή</i>, written <i>μὴ</i> before the next word (Smyth §2286, §154). <i>οὐ</i> is the negative of a statement of fact. Before the rough breathing of <i>ὁ</i>, that negative would be spelled <i>οὐχ</i>, and <i>οὐκ</i> stands before a smooth vowel (Smyth §137).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ ______ ὁ βασιλεὺς λῡ́ει τὸν ἵππον, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king does not loose the horse, the judge sends the gift”).",
+   "explain": "The negative of the protasis is <i lang=\"grc\">μή</i>, written <i lang=\"grc\">μὴ</i> before the next word (Smyth §2286, §154). <i lang=\"grc\">οὐ</i> is the negative of a statement of fact. Before the rough breathing of <i lang=\"grc\">ὁ</i>, that negative would be spelled <i lang=\"grc\">οὐχ</i>, and <i lang=\"grc\">οὐκ</i> stands before a smooth vowel (Smyth §137).",
    "options": [
-    "<i>μὴ</i>",
-    "<i>οὐ</i>",
-    "<i>οὐκ</i>",
-    "<i>οὐχ</i>"
+    "<i lang=\"grc\">μὴ</i>",
+    "<i lang=\"grc\">οὐ</i>",
+    "<i lang=\"grc\">οὐκ</i>",
+    "<i lang=\"grc\">οὐχ</i>"
    ],
    "answer": 0
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ οἱ ἄνθρωποι τὸν ἵππον ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“If the men loose the horse, the king sends the gift”).",
-   "explain": "A simple present condition has the indicative, and <i>οἱ ἄνθρωποι</i> is plural, so the verb is <i>λῡ́ουσι</i>, with <i>ν</i> before the vowel (Smyth §2291, §383, §134). <i>λῡ́σαιεν</i> is optative, <i>λῡ́ωσι</i> is subjunctive, and <i>ἔλῡον</i> is imperfect.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ οἱ ἄνθρωποι τὸν ἵππον ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“If the men loose the horse, the king sends the gift”).",
+   "explain": "A simple present condition has the indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural, so the verb is <i lang=\"grc\">λῡ́ουσι</i>, with <i lang=\"grc\">ν</i> before the vowel (Smyth §2291, §383, §134). <i lang=\"grc\">λῡ́σαιεν</i> is optative, <i lang=\"grc\">λῡ́ωσι</i> is subjunctive, and <i lang=\"grc\">ἔλῡον</i> is imperfect.",
    "options": [
-    "<i>λῡ́ουσιν</i>",
-    "<i>λῡ́σαιεν</i>",
-    "<i>λῡ́ωσι</i>",
-    "<i>ἔλῡον</i>"
+    "<i lang=\"grc\">λῡ́ουσιν</i>",
+    "<i lang=\"grc\">λῡ́σαιεν</i>",
+    "<i lang=\"grc\">λῡ́ωσι</i>",
+    "<i lang=\"grc\">ἔλῡον</i>"
    ],
    "answer": 0
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>εἰ τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If you loose the horse, the judge sends the gift”).",
-   "explain": "A simple present condition has the indicative, and the subject is “you,” one person, so the verb is <i>λῡ́εις</i> (Smyth §2291, §383). <i>λῡ́ῃς</i> is subjunctive, and <i>λῡ́ει</i> would mean that someone else looses the horse.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If you loose the horse, the judge sends the gift”).",
+   "explain": "A simple present condition has the indicative, and the subject is “you,” one person, so the verb is <i lang=\"grc\">λῡ́εις</i> (Smyth §2291, §383). <i lang=\"grc\">λῡ́ῃς</i> is subjunctive, and <i lang=\"grc\">λῡ́ει</i> would mean that someone else looses the horse.",
    "options": [
-    "<i>λῡ́εις</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́ῃς</i>",
-    "<i>λῡ́ειν</i>"
+    "<i lang=\"grc\">λῡ́εις</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́ῃς</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>φησὶ τὸν βασιλέᾱ τὸν ἵππον ______</i> (“He says that the king looses the horse”).",
-   "explain": "<i>φημί</i> takes the infinitive, and a present fact is the present infinitive (Smyth §2016, §2017 a, §1867 a). <i>λῡ́ει</i> is indicative, and <i>λῡ́οιμι</i> is optative. <i>λῦσαι</i> would make the loosing past.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">φησὶ τὸν βασιλέᾱ τὸν ἵππον ______</i> (“He says that the king looses the horse”).",
+   "explain": "<i lang=\"grc\">φημί</i> takes the infinitive, and a present fact is the present infinitive (Smyth §2016, §2017 a, §1867 a). <i lang=\"grc\">λῡ́ει</i> is indicative, and <i lang=\"grc\">λῡ́οιμι</i> is optative. <i lang=\"grc\">λῦσαι</i> would make the loosing past.",
    "options": [
-    "<i>λῡ́ειν</i>",
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́οιμι</i>",
-    "<i>λῦσαι</i>"
+    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́οιμι</i>",
+    "<i lang=\"grc\">λῦσαι</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>φησὶ τὸν ______ ἀγαθὸν εἶναι</i> (“He says that the judge is good”).",
-   "explain": "The subject of the infinitive is not the subject of <i>φησί</i>, so it stands in the accusative, written <i>κριτὴν</i> before the next word (Smyth §1975, §2016, §154). <i>κριτής</i> is nominative, and <i>κριτῇ</i> is dative.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">φησὶ τὸν ______ ἀγαθὸν εἶναι</i> (“He says that the judge is good”).",
+   "explain": "The subject of the infinitive is not the subject of <i lang=\"grc\">φησί</i>, so it stands in the accusative, written <i lang=\"grc\">κριτὴν</i> before the next word (Smyth §1975, §2016, §154). <i lang=\"grc\">κριτής</i> is nominative, and <i lang=\"grc\">κριτῇ</i> is dative.",
    "options": [
-    "<i>κριτὴν</i>",
-    "<i>κριτὴς</i>",
-    "<i>κριτῇ</i>",
-    "<i>κριτοῦ</i>"
+    "<i lang=\"grc\">κριτὴν</i>",
+    "<i lang=\"grc\">κριτὴς</i>",
+    "<i lang=\"grc\">κριτῇ</i>",
+    "<i lang=\"grc\">κριτοῦ</i>"
    ],
    "answer": 0
   },
@@ -399,13 +399,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>λέγει ὅτι ὁ βασιλεὺς τὸν ἵππον ______</i> (“He says that the king looses the horse”).",
-   "explain": "<i>λέγω</i> with <i>ὅτι</i> takes the indicative, and the leading verb is present, so the optative is not used (Smyth §2577, §2017 b). <i>λῡ́ειν</i> is the infinitive, and with the active of <i>λέγω</i> the infinitive means a command (Smyth §2017 b).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">λέγει ὅτι ὁ βασιλεὺς τὸν ἵππον ______</i> (“He says that the king looses the horse”).",
+   "explain": "<i lang=\"grc\">λέγω</i> with <i lang=\"grc\">ὅτι</i> takes the indicative, and the leading verb is present, so the optative is not used (Smyth §2577, §2017 b). <i lang=\"grc\">λῡ́ειν</i> is the infinitive, and with the active of <i lang=\"grc\">λέγω</i> the infinitive means a command (Smyth §2017 b).",
    "options": [
-    "<i>λῡ́ει</i>",
-    "<i>λῡ́ειν</i>",
-    "<i>λῡ́ῃ</i>",
-    "<i>λῡ́οι</i>"
+    "<i lang=\"grc\">λῡ́ει</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">λῡ́ῃ</i>",
+    "<i lang=\"grc\">λῡ́οι</i>"
    ],
    "answer": 0
   },
@@ -415,13 +415,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>νομίζω τὸν ἵππον ἀγαθὸν ______</i> (“I think that the horse is good”).",
-   "explain": "A verb of thinking takes the infinitive (Smyth §2016, §2580). <i>ἐστι</i> is indicative, and <i>λῡ́ειν</i> would mean that the horse looses something.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">νομίζω τὸν ἵππον ἀγαθὸν ______</i> (“I think that the horse is good”).",
+   "explain": "A verb of thinking takes the infinitive (Smyth §2016, §2580). <i lang=\"grc\">ἐστι</i> is indicative, and <i lang=\"grc\">λῡ́ειν</i> would mean that the horse looses something.",
    "options": [
-    "<i>εἶναι</i>",
-    "<i>ἐστι</i>",
-    "<i>λῡ́ειν</i>",
-    "<i>εἴη</i>"
+    "<i lang=\"grc\">εἶναι</i>",
+    "<i lang=\"grc\">ἐστι</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">εἴη</i>"
    ],
    "answer": 0
   },
@@ -431,13 +431,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>ὁ κριτὴς φησὶ ______ εἶναι</i> (“The judge says that he himself is good”).",
-   "explain": "The subject of the infinitive is the same as the subject of <i>φησί</i>, so it is omitted, and the adjective is nominative, written <i>ἀγαθὸς</i> before <i>εἶναι</i> (Smyth §1973, §2017 a, §154). <i>ἀγαθόν</i> would be the predicate of a different subject, in the accusative (Smyth §1975).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς φησὶ ______ εἶναι</i> (“The judge says that he himself is good”).",
+   "explain": "The subject of the infinitive is the same as the subject of <i lang=\"grc\">φησί</i>, so it is omitted, and the adjective is nominative, written <i lang=\"grc\">ἀγαθὸς</i> before <i lang=\"grc\">εἶναι</i> (Smyth §1973, §2017 a, §154). <i lang=\"grc\">ἀγαθόν</i> would be the predicate of a different subject, in the accusative (Smyth §1975).",
    "options": [
-    "<i>ἀγαθὸς</i>",
-    "<i>ἀγαθὸν</i>",
-    "<i>ἀγαθῷ</i>",
-    "<i>ἀγαθοῦ</i>"
+    "<i lang=\"grc\">ἀγαθὸς</i>",
+    "<i lang=\"grc\">ἀγαθὸν</i>",
+    "<i lang=\"grc\">ἀγαθῷ</i>",
+    "<i lang=\"grc\">ἀγαθοῦ</i>"
    ],
    "answer": 0
   },
@@ -447,13 +447,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>λέγει ὅτι οἱ ἄνθρωποι τὸν ἵππον ______</i> (“He says that the men loose the horse”).",
-   "explain": "<i>ὅτι</i> with <i>λέγω</i> takes the indicative, and <i>οἱ ἄνθρωποι</i> is plural (Smyth §2577, §2017 b). <i>λῡ́οιεν</i> is optative, <i>λῡ́ωσι</i> is subjunctive, and <i>λῡ́ειν</i> is the infinitive of a command with active <i>λέγω</i> (Smyth §2017 b).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">λέγει ὅτι οἱ ἄνθρωποι τὸν ἵππον ______</i> (“He says that the men loose the horse”).",
+   "explain": "<i lang=\"grc\">ὅτι</i> with <i lang=\"grc\">λέγω</i> takes the indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural (Smyth §2577, §2017 b). <i lang=\"grc\">λῡ́οιεν</i> is optative, <i lang=\"grc\">λῡ́ωσι</i> is subjunctive, and <i lang=\"grc\">λῡ́ειν</i> is the infinitive of a command with active <i lang=\"grc\">λέγω</i> (Smyth §2017 b).",
    "options": [
-    "<i>λῡ́ουσι</i>",
-    "<i>λῡ́οιεν</i>",
-    "<i>λῡ́ειν</i>",
-    "<i>λῡ́ωσι</i>"
+    "<i lang=\"grc\">λῡ́ουσι</i>",
+    "<i lang=\"grc\">λῡ́οιεν</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">λῡ́ωσι</i>"
    ],
    "answer": 0
   },
@@ -463,13 +463,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>λέγει ὅτι ὁ κριτὴς ἀγαθός ______</i> (“He says that the judge is good”).",
-   "explain": "<i>λέγω</i> with <i>ὅτι</i> takes the indicative (Smyth §2577). <i>εἶναι</i> is the infinitive used after <i>φημί</i> and <i>νομίζω</i>, and <i>ᾖ</i> is subjunctive. After <i>ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">λέγει ὅτι ὁ κριτὴς ἀγαθός ______</i> (“He says that the judge is good”).",
+   "explain": "<i lang=\"grc\">λέγω</i> with <i lang=\"grc\">ὅτι</i> takes the indicative (Smyth §2577). <i lang=\"grc\">εἶναι</i> is the infinitive used after <i lang=\"grc\">φημί</i> and <i lang=\"grc\">νομίζω</i>, and <i lang=\"grc\">ᾖ</i> is subjunctive. After <i lang=\"grc\">ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
    "options": [
-    "<i>ἐστι</i>",
-    "<i>εἶναι</i>",
-    "<i>ᾖ</i>",
-    "<i>εἴη</i>"
+    "<i lang=\"grc\">ἐστι</i>",
+    "<i lang=\"grc\">εἶναι</i>",
+    "<i lang=\"grc\">ᾖ</i>",
+    "<i lang=\"grc\">εἴη</i>"
    ],
    "answer": 0
   },
@@ -479,13 +479,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>φησὶ τὸν βασιλέᾱ τὸν ἵππον ______</i> (“He says that the king loosed the horse”).",
-   "explain": "<i>φημί</i> takes the infinitive, and the aorist infinitive stands for an aorist indicative (Smyth §2016, §1867 d). <i>λῡ́ειν</i> is present, and <i>ἔλῡσε</i> is the indicative itself.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">φησὶ τὸν βασιλέᾱ τὸν ἵππον ______</i> (“He says that the king loosed the horse”).",
+   "explain": "<i lang=\"grc\">φημί</i> takes the infinitive, and the aorist infinitive stands for an aorist indicative (Smyth §2016, §1867 d). <i lang=\"grc\">λῡ́ειν</i> is present, and <i lang=\"grc\">ἔλῡσε</i> is the indicative itself.",
    "options": [
-    "<i>λῦσαι</i>",
-    "<i>λῡ́ειν</i>",
-    "<i>ἔλῡσε</i>",
-    "<i>λῡ́σῃ</i>"
+    "<i lang=\"grc\">λῦσαι</i>",
+    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">ἔλῡσε</i>",
+    "<i lang=\"grc\">λῡ́σῃ</i>"
    ],
    "answer": 0
   },
@@ -495,13 +495,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τοῦ βασιλέως τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“While the king is loosing the horse, the judge sends the gift”).",
-   "explain": "The king is not the subject or the object of <i>πέμπει</i>, so the phrase stands in the genitive absolute, and <i>λῡ́οντος</i> agrees with <i>βασιλέως</i> (Smyth §2070, §305). <i>λῡ́οντας</i> is accusative plural, and <i>λῡούσης</i> is feminine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τοῦ βασιλέως τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“While the king is loosing the horse, the judge sends the gift”).",
+   "explain": "The king is not the subject or the object of <i lang=\"grc\">πέμπει</i>, so the phrase stands in the genitive absolute, and <i lang=\"grc\">λῡ́οντος</i> agrees with <i lang=\"grc\">βασιλέως</i> (Smyth §2070, §305). <i lang=\"grc\">λῡ́οντας</i> is accusative plural, and <i lang=\"grc\">λῡούσης</i> is feminine.",
    "options": [
-    "<i>λῡ́οντος</i>",
-    "<i>λῡ́οντας</i>",
-    "<i>λῡ́οντα</i>",
-    "<i>λῡούσης</i>"
+    "<i lang=\"grc\">λῡ́οντος</i>",
+    "<i lang=\"grc\">λῡ́οντας</i>",
+    "<i lang=\"grc\">λῡ́οντα</i>",
+    "<i lang=\"grc\">λῡούσης</i>"
    ],
    "answer": 0
   },
@@ -511,13 +511,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τῆς ὁδοῦ μακρᾶς ______, ὁ ἄνθρωπος πέμπει τὸν ἵππον</i> (“Because the road is long, the man sends the horse”).",
-   "explain": "The road is not in the main construction, so the phrase is a genitive absolute, and <i>οὔσης</i> agrees with <i>ὁδοῦ</i> (Smyth §2070, §305). <i>ὄντος</i> is masculine, and <i>οὖσα</i> is nominative.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τῆς ὁδοῦ μακρᾶς ______, ὁ ἄνθρωπος πέμπει τὸν ἵππον</i> (“Because the road is long, the man sends the horse”).",
+   "explain": "The road is not in the main construction, so the phrase is a genitive absolute, and <i lang=\"grc\">οὔσης</i> agrees with <i lang=\"grc\">ὁδοῦ</i> (Smyth §2070, §305). <i lang=\"grc\">ὄντος</i> is masculine, and <i lang=\"grc\">οὖσα</i> is nominative.",
    "options": [
-    "<i>οὔσης</i>",
-    "<i>ὄντος</i>",
-    "<i>οὖσα</i>",
-    "<i>οὖσαν</i>"
+    "<i lang=\"grc\">οὔσης</i>",
+    "<i lang=\"grc\">ὄντος</i>",
+    "<i lang=\"grc\">οὖσα</i>",
+    "<i lang=\"grc\">οὖσαν</i>"
    ],
    "answer": 0
   },
@@ -527,13 +527,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τοῦ δώρου ἀγαθοῦ ______, ὁ κριτὴς πέμπει τὸν ἵππον</i> (“Since the gift is good, the judge sends the horse”).",
-   "explain": "The gift is not in the main construction, so the phrase is a genitive absolute, and <i>ὄντος</i> agrees with <i>δώρου</i> in the neuter (Smyth §2070, §305). <i>οὔσης</i> is feminine, and <i>ὄν</i> is nominative.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τοῦ δώρου ἀγαθοῦ ______, ὁ κριτὴς πέμπει τὸν ἵππον</i> (“Since the gift is good, the judge sends the horse”).",
+   "explain": "The gift is not in the main construction, so the phrase is a genitive absolute, and <i lang=\"grc\">ὄντος</i> agrees with <i lang=\"grc\">δώρου</i> in the neuter (Smyth §2070, §305). <i lang=\"grc\">οὔσης</i> is feminine, and <i lang=\"grc\">ὄν</i> is nominative.",
    "options": [
-    "<i>ὄντος</i>",
-    "<i>οὔσης</i>",
-    "<i>ὂν</i>",
-    "<i>ὄντα</i>"
+    "<i lang=\"grc\">ὄντος</i>",
+    "<i lang=\"grc\">οὔσης</i>",
+    "<i lang=\"grc\">ὂν</i>",
+    "<i lang=\"grc\">ὄντα</i>"
    ],
    "answer": 0
   },
@@ -543,13 +543,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τῶν ἀνθρώπων τὸν ἵππον ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“While the men are loosing the horse, the king sends the gift”).",
-   "explain": "The men are not the subject or the object of <i>πέμπει</i>, so the phrase is a genitive absolute, and <i>λῡόντων</i> is genitive plural (Smyth §2070, §305). <i>λῡ́οντος</i> is singular, and <i>λῡ́οντες</i> is nominative.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τῶν ἀνθρώπων τὸν ἵππον ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“While the men are loosing the horse, the king sends the gift”).",
+   "explain": "The men are not the subject or the object of <i lang=\"grc\">πέμπει</i>, so the phrase is a genitive absolute, and <i lang=\"grc\">λῡόντων</i> is genitive plural (Smyth §2070, §305). <i lang=\"grc\">λῡ́οντος</i> is singular, and <i lang=\"grc\">λῡ́οντες</i> is nominative.",
    "options": [
-    "<i>λῡόντων</i>",
-    "<i>λῡ́οντος</i>",
-    "<i>λῡ́οντες</i>",
-    "<i>λῡ́οντας</i>"
+    "<i lang=\"grc\">λῡόντων</i>",
+    "<i lang=\"grc\">λῡ́οντος</i>",
+    "<i lang=\"grc\">λῡ́οντες</i>",
+    "<i lang=\"grc\">λῡ́οντας</i>"
    ],
    "answer": 0
   },
@@ -559,13 +559,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τοῦ ______ ἀγαθοῦ ὄντος, ὁ βασιλεὺς πέμπει τὸν ἵππον</i> (“Since the watchman is good, the king sends the horse”).",
-   "explain": "The guard is not in the main construction, so the noun stands in the genitive with <i>ὄντος</i> (Smyth §2070, §305). <i>φυλάκων</i> is plural, and <i>φύλακα</i> is accusative.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τοῦ ______ ἀγαθοῦ ὄντος, ὁ βασιλεὺς πέμπει τὸν ἵππον</i> (“Since the watchman is good, the king sends the horse”).",
+   "explain": "The guard is not in the main construction, so the noun stands in the genitive with <i lang=\"grc\">ὄντος</i> (Smyth §2070, §305). <i lang=\"grc\">φυλάκων</i> is plural, and <i lang=\"grc\">φύλακα</i> is accusative.",
    "options": [
-    "<i>φύλακος</i>",
-    "<i>φυλάκων</i>",
-    "<i>φύλακα</i>",
-    "<i>φύλακι</i>"
+    "<i lang=\"grc\">φύλακος</i>",
+    "<i lang=\"grc\">φυλάκων</i>",
+    "<i lang=\"grc\">φύλακα</i>",
+    "<i lang=\"grc\">φύλακι</i>"
    ],
    "answer": 0
   },
@@ -575,13 +575,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τῶν νῑκῶν ἀγαθῶν ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“Since the victories are good, the king sends the gift”).",
-   "explain": "The victories are not in the main construction, so the phrase is a genitive absolute, and <i>οὐσῶν</i> agrees with <i>νῑκῶν</i> in the feminine plural (Smyth §2070, §305). <i>ὄντων</i> is masculine or neuter, and <i>οὔσης</i> is singular.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τῶν νῑκῶν ἀγαθῶν ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“Since the victories are good, the king sends the gift”).",
+   "explain": "The victories are not in the main construction, so the phrase is a genitive absolute, and <i lang=\"grc\">οὐσῶν</i> agrees with <i lang=\"grc\">νῑκῶν</i> in the feminine plural (Smyth §2070, §305). <i lang=\"grc\">ὄντων</i> is masculine or neuter, and <i lang=\"grc\">οὔσης</i> is singular.",
    "options": [
-    "<i>οὐσῶν</i>",
-    "<i>ὄντων</i>",
-    "<i>οὖσαι</i>",
-    "<i>οὔσης</i>"
+    "<i lang=\"grc\">οὐσῶν</i>",
+    "<i lang=\"grc\">ὄντων</i>",
+    "<i lang=\"grc\">οὖσαι</i>",
+    "<i lang=\"grc\">οὔσης</i>"
    ],
    "answer": 0
   },
@@ -591,13 +591,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i>τῆς ἐλπίδος ______ οὔσης, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“Because the hope is good, the judge sends the gift”).",
-   "explain": "The hope is not in the main construction, so the phrase is a genitive absolute, and <i>ἀγαθῆς</i> agrees with <i>ἐλπίδος</i> in the genitive feminine (Smyth §2070). <i>ἀγαθή</i> is nominative, and <i>ἀγαθοῦ</i> is masculine.",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τῆς ἐλπίδος ______ οὔσης, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“Because the hope is good, the judge sends the gift”).",
+   "explain": "The hope is not in the main construction, so the phrase is a genitive absolute, and <i lang=\"grc\">ἀγαθῆς</i> agrees with <i lang=\"grc\">ἐλπίδος</i> in the genitive feminine (Smyth §2070). <i lang=\"grc\">ἀγαθή</i> is nominative, and <i lang=\"grc\">ἀγαθοῦ</i> is masculine.",
    "options": [
-    "<i>ἀγαθῆς</i>",
-    "<i>ἀγαθὴ</i>",
-    "<i>ἀγαθὸν</i>",
-    "<i>ἀγαθοῦ</i>"
+    "<i lang=\"grc\">ἀγαθῆς</i>",
+    "<i lang=\"grc\">ἀγαθὴ</i>",
+    "<i lang=\"grc\">ἀγαθὸν</i>",
+    "<i lang=\"grc\">ἀγαθοῦ</i>"
    ],
    "answer": 0
   },
@@ -607,8 +607,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "What kind of condition is <i>εἰ ἔλθοι, χαίροιμ’ ἄν</i> (“if he should come, I would be glad”)?",
-   "explain": "<i>Εἰ</i> with the optative, and the optative with <i>ἄν</i>, make a future less vivid condition.",
+   "prompt": "What kind of condition is <i lang=\"grc\">εἰ ἔλθοι, χαίροιμ’ ἄν</i> (“if he should come, I would be glad”)?",
+   "explain": "<i lang=\"grc\">Εἰ</i> with the optative, and the optative with <i lang=\"grc\">ἄν</i>, make a future less vivid condition.",
    "options": [
     "Future more vivid",
     "Contrary to fact",
@@ -623,8 +623,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "What kind of condition is <i>εἰ ἐνταῦθα ἦσαν, ἐμάχοντο ἄν</i> (“if they were here, they would be fighting”)?",
-   "explain": "<i>Εἰ</i> with the imperfect, and the imperfect with <i>ἄν</i>, make a present condition contrary to fact.",
+   "prompt": "What kind of condition is <i lang=\"grc\">εἰ ἐνταῦθα ἦσαν, ἐμάχοντο ἄν</i> (“if they were here, they would be fighting”)?",
+   "explain": "<i lang=\"grc\">Εἰ</i> with the imperfect, and the imperfect with <i lang=\"grc\">ἄν</i>, make a present condition contrary to fact.",
    "options": [
     "Contrary to fact, present",
     "Future less vivid",
@@ -639,13 +639,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which form completes <i>ἐὰν ______, νικήσομεν</i> (“if we fight, we shall win”)?",
-   "explain": "<i>Ἐάν</i> takes the subjunctive.",
+   "prompt": "Which form completes <i lang=\"grc\">ἐὰν ______, νικήσομεν</i> (“if we fight, we shall win”)?",
+   "explain": "<i lang=\"grc\">Ἐάν</i> takes the subjunctive.",
    "options": [
-    "<i>μαχώμεθα</i>",
-    "<i>μαχόμεθα</i>",
-    "<i>μαχοίμεθα</i>",
-    "<i>μάχεσθαι</i>"
+    "<i lang=\"grc\">μαχώμεθα</i>",
+    "<i lang=\"grc\">μαχόμεθα</i>",
+    "<i lang=\"grc\">μαχοίμεθα</i>",
+    "<i lang=\"grc\">μάχεσθαι</i>"
    ],
    "answer": 0
   },
@@ -655,7 +655,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which construction follows <i>αἰσθάνομαι</i> (“I perceive”) in <i>αἰσθάνομαι αὐτὸν ἀπιόντα</i>?",
+   "prompt": "Which construction follows <i lang=\"grc\">αἰσθάνομαι</i> (“I perceive”) in <i lang=\"grc\">αἰσθάνομαι αὐτὸν ἀπιόντα</i>?",
    "explain": "Verbs of knowing and perceiving take the participle in indirect discourse.",
    "options": [
     "The genitive absolute",
@@ -671,8 +671,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which mood follows <i>ὅταν</i> in <i>ὅταν ἔλθῃ ὁ ἄγγελος, ἀκουσόμεθα</i> (“when the messenger comes, we shall hear”)?",
-   "explain": "<i>Ὅταν</i> is <i>ὅτε</i> with <i>ἄν</i>; with the subjunctive it refers to an indefinite future time.",
+   "prompt": "Which mood follows <i lang=\"grc\">ὅταν</i> in <i lang=\"grc\">ὅταν ἔλθῃ ὁ ἄγγελος, ἀκουσόμεθα</i> (“when the messenger comes, we shall hear”)?",
+   "explain": "<i lang=\"grc\">Ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>; with the subjunctive it refers to an indefinite future time.",
    "options": [
     "The subjunctive",
     "The optative",
@@ -687,7 +687,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Why is <i>εἶδον</i> indicative in <i>ἐπειδὴ εἶδον τὴν θάλατταν, ἐχάρησαν</i> (“when they saw the sea, they rejoiced”)?",
+   "prompt": "Why is <i lang=\"grc\">εἶδον</i> indicative in <i lang=\"grc\">ἐπειδὴ εἶδον τὴν θάλατταν, ἐχάρησαν</i> (“when they saw the sea, they rejoiced”)?",
    "explain": "A temporal clause that refers to one definite act in past time takes the indicative.",
    "options": [
     "It states a purpose",
@@ -703,8 +703,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "What does <i>πρίν</i> mean in <i>ἀπέπλευσαν πρὶν τὴν ἐπιστολὴν ἐλθεῖν</i>?",
-   "explain": "After an affirmative main clause <i>πρίν</i> takes the infinitive and means “before”: “they sailed away before the letter came.”",
+   "prompt": "What does <i lang=\"grc\">πρίν</i> mean in <i lang=\"grc\">ἀπέπλευσαν πρὶν τὴν ἐπιστολὴν ἐλθεῖν</i>?",
+   "explain": "After an affirmative main clause <i lang=\"grc\">πρίν</i> takes the infinitive and means “before”: “they sailed away before the letter came.”",
    "options": [
     "“Until”",
     "“After”",
@@ -719,8 +719,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Why does <i>πρίν</i> take the indicative in <i>οὐκ ἐπαύσαντο πρὶν ἐνίκησαν</i> (“they did not stop until they won”)?",
-   "explain": "After a negative main clause <i>πρίν</i> means “until” and takes a finite verb.",
+   "prompt": "Why does <i lang=\"grc\">πρίν</i> take the indicative in <i lang=\"grc\">οὐκ ἐπαύσαντο πρὶν ἐνίκησαν</i> (“they did not stop until they won”)?",
+   "explain": "After a negative main clause <i lang=\"grc\">πρίν</i> means “until” and takes a finite verb.",
    "options": [
     "The main clause is affirmative",
     "The event is still to come",
@@ -735,13 +735,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which form completes <i>περιμενοῦμεν ἕως ἂν ὁ στρατηγὸς ______</i> (“we shall wait until the general arrives”)?",
-   "explain": "<i>Ἕως ἄν</i> takes the subjunctive; <i>ἀφίκηται</i> is the aorist subjunctive of <i>ἀφικνέομαι</i>.",
+   "prompt": "Which form completes <i lang=\"grc\">περιμενοῦμεν ἕως ἂν ὁ στρατηγὸς ______</i> (“we shall wait until the general arrives”)?",
+   "explain": "<i lang=\"grc\">Ἕως ἄν</i> takes the subjunctive; <i lang=\"grc\">ἀφίκηται</i> is the aorist subjunctive of <i lang=\"grc\">ἀφικνέομαι</i>.",
    "options": [
-    "<i>ἀφίκηται</i>",
-    "<i>ἀφίκετο</i>",
-    "<i>ἀφίκοιτο</i>",
-    "<i>ἀφικέσθαι</i>"
+    "<i lang=\"grc\">ἀφίκηται</i>",
+    "<i lang=\"grc\">ἀφίκετο</i>",
+    "<i lang=\"grc\">ἀφίκοιτο</i>",
+    "<i lang=\"grc\">ἀφικέσθαι</i>"
    ],
    "answer": 0
   },
@@ -751,8 +751,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "What does <i>πότερον</i> mark in <i>πότερον ὁ παῖς γράφει ἢ ἀναγιγνώσκει;</i> (“is the boy writing or reading?”)?",
-   "explain": "<i>Πότερον … ἤ</i> asks which of two things is true; <i>ἤ</i> here means “or,” not “than.”",
+   "prompt": "What does <i lang=\"grc\">πότερον</i> mark in <i lang=\"grc\">πότερον ὁ παῖς γράφει ἢ ἀναγιγνώσκει;</i> (“is the boy writing or reading?”)?",
+   "explain": "<i lang=\"grc\">Πότερον … ἤ</i> asks which of two things is true; <i lang=\"grc\">ἤ</i> here means “or,” not “than.”",
    "options": [
     "A clause of purpose",
     "An alternative question",
@@ -767,13 +767,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Why is <i>γράφοι</i> optative in <i>ἠρόμην πότερον γράφοι ἢ ἀναγιγνώσκοι</i> (“I asked whether he was writing or reading”)?",
+   "prompt": "Why is <i lang=\"grc\">γράφοι</i> optative in <i lang=\"grc\">ἠρόμην πότερον γράφοι ἢ ἀναγιγνώσκοι</i> (“I asked whether he was writing or reading”)?",
    "explain": "After a secondary tense the verb of an indirect question may be changed to the optative.",
    "options": [
     "It expresses a wish",
     "It is contrary to fact",
     "It follows a secondary tense",
-    "It follows every <i>πότερον</i>"
+    "It follows every <i lang=\"grc\">πότερον</i>"
    ],
    "answer": 2
   },
@@ -783,13 +783,13 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which Latin construction answers to <i>πότερον … ἤ</i>?",
-   "explain": "Latin asks an alternative question with <i>utrum</i> and <i>an</i>.",
+   "prompt": "Which Latin construction answers to <i lang=\"grc\">πότερον … ἤ</i>?",
+   "explain": "Latin asks an alternative question with <i lang=\"grc\">utrum</i> and <i lang=\"grc\">an</i>.",
    "options": [
-    "<i>num … nōnne</i>",
-    "<i>cum … tum</i>",
-    "<i>et … et</i>",
-    "<i>utrum … an</i>"
+    "<i lang=\"grc\">num … nōnne</i>",
+    "<i lang=\"grc\">cum … tum</i>",
+    "<i lang=\"grc\">et … et</i>",
+    "<i lang=\"grc\">utrum … an</i>"
    ],
    "answer": 3
   },
@@ -799,8 +799,8 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "What does the optative without <i>ἄν</i> mark in <i>ὅτε ὁ βασιλεὺς ἔλθοι, πάντες ἀνίσταντο</i> (“whenever the king came, all stood up”)?",
-   "explain": "A temporal clause that depends on a past tense and refers to repeated action takes the optative without <i>ἄν</i>.",
+   "prompt": "What does the optative without <i lang=\"grc\">ἄν</i> mark in <i lang=\"grc\">ὅτε ὁ βασιλεὺς ἔλθοι, πάντες ἀνίσταντο</i> (“whenever the king came, all stood up”)?",
+   "explain": "A temporal clause that depends on a past tense and refers to repeated action takes the optative without <i lang=\"grc\">ἄν</i>.",
    "options": [
     "Repeated action in past time",
     "A wish for the future",

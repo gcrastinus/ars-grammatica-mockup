@@ -16,7 +16,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does -ment make?",
-   "explain": "<em>-ment</em> makes an adverb from an adjective. <em>Heureusement</em> is “happily,” and <em>lentement</em> is “slowly.” The ending does not name a person.",
+   "explain": "<em lang=\"fr\">-ment</em> makes an adverb from an adjective. <em lang=\"fr\">Heureusement</em> is “happily,” and <em lang=\"fr\">lentement</em> is “slowly.” The ending does not name a person.",
    "options": [
     "A noun for the person who acts",
     "An adverb",
@@ -32,8 +32,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the adverb that -ment makes from <em>fort</em>.",
-   "explain": "<em>Fort</em> ends in a consonant, so <em>-ment</em> is added to the feminine <em>forte</em>. The adverb is <em>fortement</em>, “strongly.”",
+   "prompt": "Write the adverb that -ment makes from <em lang=\"fr\">fort</em>.",
+   "explain": "<em lang=\"fr\">Fort</em> ends in a consonant, so <em lang=\"fr\">-ment</em> is added to the feminine <em lang=\"fr\">forte</em>. The adverb is <em lang=\"fr\">fortement</em>, “strongly.”",
    "answer": "fortement"
   },
   {
@@ -42,8 +42,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does <em>doucement</em> keep the <em>e</em> of the feminine <em>douce</em>?",
-   "explain": "<em>Doux</em> ends in a consonant, so the adverb is built on the feminine <em>douce</em>. <em>Doucement</em> is “gently.” <em>Poli</em> does not need that <em>e</em>, because it already ends in a vowel.",
+   "prompt": "Why does <em lang=\"fr\">doucement</em> keep the <em lang=\"fr\">e</em> of the feminine <em lang=\"fr\">douce</em>?",
+   "explain": "<em lang=\"fr\">Doux</em> ends in a consonant, so the adverb is built on the feminine <em lang=\"fr\">douce</em>. <em lang=\"fr\">Doucement</em> is “gently.” <em lang=\"fr\">Poli</em> does not need that <em lang=\"fr\">e</em>, because it already ends in a vowel.",
    "options": [
     "The masculine ends in a consonant",
     "The masculine ends in a vowel",
@@ -59,8 +59,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the adverb that -ment makes from <em>franc</em>.",
-   "explain": "<em>Franc</em> ends in a consonant, so the adverb uses the feminine <em>franche</em>. The adverb is <em>franchement</em>, “frankly.”",
+   "prompt": "Write the adverb that -ment makes from <em lang=\"fr\">franc</em>.",
+   "explain": "<em lang=\"fr\">Franc</em> ends in a consonant, so the adverb uses the feminine <em lang=\"fr\">franche</em>. The adverb is <em lang=\"fr\">franchement</em>, “frankly.”",
    "answer": "franchement"
   },
   {
@@ -69,13 +69,13 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "<em>Poli</em> already ends in a vowel. Which form takes -ment?",
-   "explain": "When the masculine already ends in a vowel, <em>-ment</em> is added to the masculine. <em>Poli</em> gives <em>poliment</em>, “politely,” not a feminine stem.",
+   "prompt": "<em lang=\"fr\">Poli</em> already ends in a vowel. Which form takes -ment?",
+   "explain": "When the masculine already ends in a vowel, <em lang=\"fr\">-ment</em> is added to the masculine. <em lang=\"fr\">Poli</em> gives <em lang=\"fr\">poliment</em>, “politely,” not a feminine stem.",
    "options": [
     "The feminine, as with a consonant stem",
-    "The masculine <em>poli</em>",
-    "A noun in <em>-eur</em>",
-    "The prefix <em>re-</em>"
+    "The masculine <em lang=\"fr\">poli</em>",
+    "A noun in <em lang=\"fr\">-eur</em>",
+    "The prefix <em lang=\"fr\">re-</em>"
    ],
    "answer": 1
   },
@@ -86,8 +86,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the adverb that -ment makes from <em>poli</em>.",
-   "explain": "<em>Poli</em>, “polite,” ends in a vowel, so <em>-ment</em> is added to the masculine. The adverb is <em>poliment</em>, “politely.”",
+   "prompt": "Write the adverb that -ment makes from <em lang=\"fr\">poli</em>.",
+   "explain": "<em lang=\"fr\">Poli</em>, “polite,” ends in a vowel, so <em lang=\"fr\">-ment</em> is added to the masculine. The adverb is <em lang=\"fr\">poliment</em>, “politely.”",
    "answer": "poliment"
   },
   {
@@ -97,7 +97,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Where is -ment added?",
-   "explain": "<em>-ment</em> is a suffix, added at the end of the adjective. <em>Re-</em> is the prefix, and it stands at the front.",
+   "explain": "<em lang=\"fr\">-ment</em> is a suffix, added at the end of the adjective. <em lang=\"fr\">Re-</em> is the prefix, and it stands at the front.",
    "options": [
     "At the front of the word",
     "At the end of the adjective",
@@ -113,12 +113,12 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which word is an adverb in -ment?",
-   "explain": "<em>Clairement</em> is the adverb “clearly.” <em>Claire</em> is the adjective, <em>nageur</em> names a person, and <em>relire</em> is a verb.",
+   "explain": "<em lang=\"fr\">Clairement</em> is the adverb “clearly.” <em lang=\"fr\">Claire</em> is the adjective, <em lang=\"fr\">nageur</em> names a person, and <em lang=\"fr\">relire</em> is a verb.",
    "options": [
-    "<em>Claire</em>",
-    "<em>Nageur</em>",
-    "<em>Relire</em>",
-    "<em>Clairement</em>"
+    "<em lang=\"fr\">Claire</em>",
+    "<em lang=\"fr\">Nageur</em>",
+    "<em lang=\"fr\">Relire</em>",
+    "<em lang=\"fr\">Clairement</em>"
    ],
    "answer": 3
   },
@@ -129,8 +129,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun in -eur made from <em>nager</em> (“to swim”).",
-   "explain": "<em>-eur</em> names the one who acts. From <em>nager</em> the noun is <em>nageur</em> (“swimmer”).",
+   "prompt": "Write the noun in -eur made from <em lang=\"fr\">nager</em> (“to swim”).",
+   "explain": "<em lang=\"fr\">-eur</em> names the one who acts. From <em lang=\"fr\">nager</em> the noun is <em lang=\"fr\">nageur</em> (“swimmer”).",
    "answer": "nageur"
   },
   {
@@ -139,12 +139,12 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <em>acheteur</em> name?",
-   "explain": "<em>Acheter</em> is “to buy,” and <em>acheteur</em> is the one who buys. <em>-tion</em> would name the act, not the person.",
+   "prompt": "What does <em lang=\"fr\">acheteur</em> name?",
+   "explain": "<em lang=\"fr\">Acheter</em> is “to buy,” and <em lang=\"fr\">acheteur</em> is the one who buys. <em lang=\"fr\">-tion</em> would name the act, not the person.",
    "options": [
     "The act of buying, or its result",
     "The one who buys",
-    "The adverb of <em>acheter</em>",
+    "The adverb of <em lang=\"fr\">acheter</em>",
     "Buying done a second time"
    ],
    "answer": 1
@@ -156,8 +156,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the feminine of <em>nageur</em> (“swimmer”).",
-   "explain": "The feminine beside <em>-eur</em> is <em>-euse</em>. <em>Nageur</em> gives <em>nageuse</em>.",
+   "prompt": "Write the feminine of <em lang=\"fr\">nageur</em> (“swimmer”).",
+   "explain": "The feminine beside <em lang=\"fr\">-eur</em> is <em lang=\"fr\">-euse</em>. <em lang=\"fr\">Nageur</em> gives <em lang=\"fr\">nageuse</em>.",
    "answer": "nageuse"
   },
   {
@@ -166,12 +166,12 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What do <em>traduction</em> (“translation”) and <em>invitation</em> (“invitation”) share?",
-   "explain": "Both are nouns in <em>-tion</em>. That ending names an action or its result. Neither noun is the person who acts.",
+   "prompt": "What do <em lang=\"fr\">traduction</em> (“translation”) and <em lang=\"fr\">invitation</em> (“invitation”) share?",
+   "explain": "Both are nouns in <em lang=\"fr\">-tion</em>. That ending names an action or its result. Neither noun is the person who acts.",
    "options": [
     "Both name the one who acts",
-    "Both are adverbs in <em>-ment</em>",
-    "The ending <em>-tion</em>",
+    "Both are adverbs in <em lang=\"fr\">-ment</em>",
+    "The ending <em lang=\"fr\">-tion</em>",
     "Both are the popular half of a doublet"
    ],
    "answer": 2
@@ -183,8 +183,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the feminine of <em>acheteur</em> (“buyer”).",
-   "explain": "<em>Acheteur</em> (“buyer”) has the feminine <em>acheteuse</em>, with <em>-euse</em>.",
+   "prompt": "Write the feminine of <em lang=\"fr\">acheteur</em> (“buyer”).",
+   "explain": "<em lang=\"fr\">Acheteur</em> (“buyer”) has the feminine <em lang=\"fr\">acheteuse</em>, with <em lang=\"fr\">-euse</em>.",
    "answer": "acheteuse"
   },
   {
@@ -194,7 +194,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does -eur name that -tion does not?",
-   "explain": "<em>-eur</em> names the person who does the act. <em>-tion</em> names the act or its result. <em>Nageur</em> is a person, and <em>traduction</em> is not.",
+   "explain": "<em lang=\"fr\">-eur</em> names the person who does the act. <em lang=\"fr\">-tion</em> names the act or its result. <em lang=\"fr\">Nageur</em> is a person, and <em lang=\"fr\">traduction</em> is not.",
    "options": [
     "An action or its result",
     "The person who acts",
@@ -210,8 +210,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the verb made from <em>lire</em> (“to read”) with the prefix re-.",
-   "explain": "<em>Lire</em> is “to read.” <em>Re-</em> marks that the act is done again, so the verb is <em>relire</em> (“to read again”).",
+   "prompt": "Write the verb made from <em lang=\"fr\">lire</em> (“to read”) with the prefix re-.",
+   "explain": "<em lang=\"fr\">Lire</em> is “to read.” <em lang=\"fr\">Re-</em> marks that the act is done again, so the verb is <em lang=\"fr\">relire</em> (“to read again”).",
    "answer": "relire"
   },
   {
@@ -220,13 +220,13 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does re- contribute in <em>revoir</em> (“to see again”)?",
-   "explain": "<em>Voir</em> is “to see,” and <em>revoir</em> is “to see again.” <em>Re-</em> marks that the act is done again. It does not make a feminine noun.",
+   "prompt": "What does re- contribute in <em lang=\"fr\">revoir</em> (“to see again”)?",
+   "explain": "<em lang=\"fr\">Voir</em> is “to see,” and <em lang=\"fr\">revoir</em> is “to see again.” <em lang=\"fr\">Re-</em> marks that the act is done again. It does not make a feminine noun.",
    "options": [
     "It names the person who sees",
-    "It makes the adverb of <em>voir</em>",
+    "It makes the adverb of <em lang=\"fr\">voir</em>",
     "That the act is done again",
-    "It is the learned spelling of <em>voir</em>"
+    "It is the learned spelling of <em lang=\"fr\">voir</em>"
    ],
    "answer": 2
   },
@@ -236,13 +236,13 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In the pair from Latin <em>parabola</em>, which word is the popular one?",
-   "explain": "<em>Parole</em> (“speech”) is the popular word, worn down by sound change. <em>Parabole</em> (“parable”) is the learned word and stays nearer the Latin spelling.",
+   "prompt": "In the pair from Latin <em lang=\"fr\">parabola</em>, which word is the popular one?",
+   "explain": "<em lang=\"fr\">Parole</em> (“speech”) is the popular word, worn down by sound change. <em lang=\"fr\">Parabole</em> (“parable”) is the learned word and stays nearer the Latin spelling.",
    "options": [
-    "<em>Parabole</em>",
-    "<em>Rigide</em>",
-    "<em>Parole</em>",
-    "<em>Numéro</em>"
+    "<em lang=\"fr\">Parabole</em>",
+    "<em lang=\"fr\">Rigide</em>",
+    "<em lang=\"fr\">Parole</em>",
+    "<em lang=\"fr\">Numéro</em>"
    ],
    "answer": 2
   },
@@ -252,13 +252,13 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word from Latin <em>rigidus</em> stays nearer the Latin spelling?",
-   "explain": "<em>Rigide</em> (“rigid”) is the learned word, borrowed again from Latin. <em>Roide</em> (“stiff”) is the popular word, worn down by sound change.",
+   "prompt": "Which word from Latin <em lang=\"fr\">rigidus</em> stays nearer the Latin spelling?",
+   "explain": "<em lang=\"fr\">Rigide</em> (“rigid”) is the learned word, borrowed again from Latin. <em lang=\"fr\">Roide</em> (“stiff”) is the popular word, worn down by sound change.",
    "options": [
-    "<em>Roide</em>",
-    "<em>Métier</em>",
-    "<em>Nombre</em>",
-    "<em>Rigide</em>"
+    "<em lang=\"fr\">Roide</em>",
+    "<em lang=\"fr\">Métier</em>",
+    "<em lang=\"fr\">Nombre</em>",
+    "<em lang=\"fr\">Rigide</em>"
    ],
    "answer": 3
   },
@@ -268,12 +268,12 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In <em>métier</em> and <em>ministère</em>, both from Latin <em>ministerium</em>, which was worn down by sound change?",
-   "explain": "<em>Métier</em> (“a trade”) is the popular word. <em>Ministère</em> (“a ministry”) is the learned word and stays nearer Latin <em>ministerium</em>.",
+   "prompt": "In <em lang=\"fr\">métier</em> and <em lang=\"fr\">ministère</em>, both from Latin <em lang=\"fr\">ministerium</em>, which was worn down by sound change?",
+   "explain": "<em lang=\"fr\">Métier</em> (“a trade”) is the popular word. <em lang=\"fr\">Ministère</em> (“a ministry”) is the learned word and stays nearer Latin <em lang=\"fr\">ministerium</em>.",
    "options": [
-    "<em>Ministère</em>",
-    "<em>Métier</em>",
-    "<em>Parabole</em>",
+    "<em lang=\"fr\">Ministère</em>",
+    "<em lang=\"fr\">Métier</em>",
+    "<em lang=\"fr\">Parabole</em>",
     "Both equally"
    ],
    "answer": 1
@@ -284,13 +284,13 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "deck": "lang.iv.fr/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word from Latin <em>numerus</em> is the learned one?",
-   "explain": "<em>Nombre</em> (“a number”) is the popular word. <em>Numéro</em> (“a number,” the learned form) is borrowed again and stays nearer the Latin spelling.",
+   "prompt": "Which word from Latin <em lang=\"fr\">numerus</em> is the learned one?",
+   "explain": "<em lang=\"fr\">Nombre</em> (“a number”) is the popular word. <em lang=\"fr\">Numéro</em> (“a number,” the learned form) is borrowed again and stays nearer the Latin spelling.",
    "options": [
-    "<em>Nombre</em>",
-    "<em>Parole</em>",
-    "<em>Roide</em>",
-    "<em>Numéro</em>"
+    "<em lang=\"fr\">Nombre</em>",
+    "<em lang=\"fr\">Parole</em>",
+    "<em lang=\"fr\">Roide</em>",
+    "<em lang=\"fr\">Numéro</em>"
    ],
    "answer": 3
   },
@@ -301,7 +301,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Why is the pair parole and parabole not a stem and a suffix, as clairement is?",
-   "explain": "A doublet is two arrivals of one Latin word, kept in the vocabulary. <em>Clairement</em> is still built by adding <em>-ment</em>. <em>Parabole</em> was not made by adding an ending to <em>parole</em>.",
+   "explain": "A doublet is two arrivals of one Latin word, kept in the vocabulary. <em lang=\"fr\">Clairement</em> is still built by adding <em lang=\"fr\">-ment</em>. <em lang=\"fr\">Parabole</em> was not made by adding an ending to <em lang=\"fr\">parole</em>.",
    "options": [
     "It is a history kept in the vocabulary",
     "Parole is formed from parabole by a suffix",
@@ -317,8 +317,8 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the verb made from <em>voir</em> (“to see”) with the prefix re-.",
-   "explain": "<em>Voir</em> is “to see.” With <em>re-</em> the verb is <em>revoir</em> (“to see again”).",
+   "prompt": "Write the verb made from <em lang=\"fr\">voir</em> (“to see”) with the prefix re-.",
+   "explain": "<em lang=\"fr\">Voir</em> is “to see.” With <em lang=\"fr\">re-</em> the verb is <em lang=\"fr\">revoir</em> (“to see again”).",
    "answer": "revoir"
   },
   {
@@ -328,12 +328,12 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which of these is a piece still used to build a word, not a doublet?",
-   "explain": "<em>Re-</em> is still added to mark that an act is done again. <em>Roide</em> and <em>rigide</em> are a doublet, a history kept in the vocabulary, and so are <em>nombre</em> and <em>numéro</em>.",
+   "explain": "<em lang=\"fr\">Re-</em> is still added to mark that an act is done again. <em lang=\"fr\">Roide</em> and <em lang=\"fr\">rigide</em> are a doublet, a history kept in the vocabulary, and so are <em lang=\"fr\">nombre</em> and <em lang=\"fr\">numéro</em>.",
    "options": [
-    "The pair <em>roide</em> and <em>rigide</em>",
-    "The pair <em>nombre</em> and <em>numéro</em>",
-    "The prefix <em>re-</em>",
-    "The Latin word <em>rigidus</em>"
+    "The pair <em lang=\"fr\">roide</em> and <em lang=\"fr\">rigide</em>",
+    "The pair <em lang=\"fr\">nombre</em> and <em lang=\"fr\">numéro</em>",
+    "The prefix <em lang=\"fr\">re-</em>",
+    "The Latin word <em lang=\"fr\">rigidus</em>"
    ],
    "answer": 2
   },
@@ -344,11 +344,11 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is true of the learned word in a doublet?",
-   "explain": "The learned word was borrowed again from Latin and stays nearer the Latin spelling. The popular word is the one that sound change wore down. The learned word is not an adverb in <em>-ment</em>.",
+   "explain": "The learned word was borrowed again from Latin and stays nearer the Latin spelling. The popular word is the one that sound change wore down. The learned word is not an adverb in <em lang=\"fr\">-ment</em>.",
    "options": [
     "It was worn down by sound change",
     "It was borrowed again",
-    "It is always an adverb in <em>-ment</em>",
+    "It is always an adverb in <em lang=\"fr\">-ment</em>",
     "It names the one who acts"
    ],
    "answer": 1

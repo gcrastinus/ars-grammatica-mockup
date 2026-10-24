@@ -15,8 +15,8 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>Freude</i> have?",
-   "explain": "<i>Freu-de</i>; <i>eu</i> is a diphthong.",
+   "prompt": "How many syllables does <i lang=\"de\">Freude</i> have?",
+   "explain": "<i lang=\"de\">Freu-de</i>; <i lang=\"de\">eu</i> is a diphthong.",
    "options": [
     "Three",
     "One",
@@ -31,8 +31,8 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>Zeitung</i> have?",
-   "explain": "<i>Zei-tung</i>.",
+   "prompt": "How many syllables does <i lang=\"de\">Zeitung</i> have?",
+   "explain": "<i lang=\"de\">Zei-tung</i>.",
    "options": [
     "Three",
     "One",
@@ -47,7 +47,7 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of <i>Boot</i> long or short?",
+   "prompt": "Is the vowel of <i lang=\"de\">Boot</i> long or short?",
    "explain": "A doubled vowel is long.",
    "options": [
     "Long, because it is doubled",
@@ -63,12 +63,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of <i>Stuhl</i> long or short?",
-   "explain": "The silent <i>h</i> marks a long vowel.",
+   "prompt": "Is the vowel of <i lang=\"de\">Stuhl</i> long or short?",
+   "explain": "The silent <i lang=\"de\">h</i> marks a long vowel.",
    "options": [
     "Short, because two consonants follow",
-    "Long, because of the silent <i>h</i>",
-    "Short, because <i>u</i> is short",
+    "Long, because of the silent <i lang=\"de\">h</i>",
+    "Short, because <i lang=\"de\">u</i> is short",
     "Long, because it is final"
    ],
    "answer": 1
@@ -79,12 +79,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of <i>Brief</i> long or short?",
-   "explain": "<i>Ie</i> writes a long <i>i</i>.",
+   "prompt": "Is the vowel of <i lang=\"de\">Brief</i> long or short?",
+   "explain": "<i lang=\"de\">Ie</i> writes a long <i lang=\"de\">i</i>.",
    "options": [
     "Short, because it is a diphthong",
-    "Short, because <i>f</i> follows",
-    "Long, because it is written <i>ie</i>",
+    "Short, because <i lang=\"de\">f</i> follows",
+    "Long, because it is written <i lang=\"de\">ie</i>",
     "It has two vowels"
    ],
    "answer": 2
@@ -95,12 +95,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of <i>Sonne</i> long or short?",
+   "prompt": "Is the vowel of <i lang=\"de\">Sonne</i> long or short?",
    "explain": "A doubled consonant marks a short vowel.",
    "options": [
     "Long, because the word has two syllables",
     "Long, because it is stressed",
-    "Short, because the word ends in <i>e</i>",
+    "Short, because the word ends in <i lang=\"de\">e</i>",
     "Short, because a doubled consonant follows"
    ],
    "answer": 3
@@ -111,8 +111,8 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Is the vowel of <i>Wasser</i> long or short?",
-   "explain": "<i>Ss</i> after it marks a short vowel.",
+   "prompt": "Is the vowel of <i lang=\"de\">Wasser</i> long or short?",
+   "explain": "<i lang=\"de\">Ss</i> after it marks a short vowel.",
    "options": [
     "Short",
     "Long",
@@ -127,11 +127,11 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>lesen</i> is stressed?",
+   "prompt": "Which syllable of <i lang=\"de\">lesen</i> is stressed?",
    "explain": "German stresses the first syllable of the stem.",
    "options": [
-    "<i>-sen</i>",
-    "<i>le-</i>",
+    "<i lang=\"de\">-sen</i>",
+    "<i lang=\"de\">le-</i>",
     "Both equally",
     "Neither"
    ],
@@ -143,12 +143,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>gelesen</i> is stressed?",
-   "explain": "<i>Ge-</i> is not part of the stem and is not stressed.",
+   "prompt": "Which syllable of <i lang=\"de\">gelesen</i> is stressed?",
+   "explain": "<i lang=\"de\">Ge-</i> is not part of the stem and is not stressed.",
    "options": [
-    "<i>ge-</i>",
-    "<i>-sen</i>",
-    "<i>-le-</i>",
+    "<i lang=\"de\">ge-</i>",
+    "<i lang=\"de\">-sen</i>",
+    "<i lang=\"de\">-le-</i>",
     "All three equally"
    ],
    "answer": 2
@@ -159,12 +159,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>bezahlen</i> is stressed?",
-   "explain": "<i>Be-</i> is an inseparable prefix and is never stressed.",
+   "prompt": "Which syllable of <i lang=\"de\">bezahlen</i> is stressed?",
+   "explain": "<i lang=\"de\">Be-</i> is an inseparable prefix and is never stressed.",
    "options": [
-    "<i>be-</i>",
-    "<i>-len</i>",
-    "<i>-zah-</i>",
+    "<i lang=\"de\">be-</i>",
+    "<i lang=\"de\">-len</i>",
+    "<i lang=\"de\">-zah-</i>",
     "All three equally"
    ],
    "answer": 2
@@ -175,12 +175,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>aufstehen</i> is stressed?",
+   "prompt": "Which syllable of <i lang=\"de\">aufstehen</i> is stressed?",
    "explain": "A separable prefix takes the stress.",
    "options": [
-    "<i>-ste-</i>",
-    "<i>auf-</i>",
-    "<i>-hen</i>",
+    "<i lang=\"de\">-ste-</i>",
+    "<i lang=\"de\">auf-</i>",
+    "<i lang=\"de\">-hen</i>",
     "None"
    ],
    "answer": 1
@@ -191,11 +191,11 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which part of <i>Kühlschrank</i> is stressed?",
+   "prompt": "Which part of <i lang=\"de\">Kühlschrank</i> is stressed?",
    "explain": "A compound is usually stressed on its first part.",
    "options": [
-    "The first, <i>Kühl-</i>",
-    "The second, <i>-schrank</i>",
+    "The first, <i lang=\"de\">Kühl-</i>",
+    "The second, <i lang=\"de\">-schrank</i>",
     "Both equally",
     "Neither"
    ],
@@ -207,13 +207,13 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>telefonieren</i> is stressed?",
-   "explain": "Verbs in <i>-ieren</i> are stressed on that ending.",
+   "prompt": "Which syllable of <i lang=\"de\">telefonieren</i> is stressed?",
+   "explain": "Verbs in <i lang=\"de\">-ieren</i> are stressed on that ending.",
    "options": [
-    "<i>te-</i>",
-    "<i>-le-</i>",
-    "<i>-ren</i>",
-    "<i>-nie-</i>"
+    "<i lang=\"de\">te-</i>",
+    "<i lang=\"de\">-le-</i>",
+    "<i lang=\"de\">-ren</i>",
+    "<i lang=\"de\">-nie-</i>"
    ],
    "answer": 3
   },
@@ -223,12 +223,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>Qualität</i> is stressed?",
-   "explain": "Nouns in <i>-ität</i> are stressed on the last syllable.",
+   "prompt": "Which syllable of <i lang=\"de\">Qualität</i> is stressed?",
+   "explain": "Nouns in <i lang=\"de\">-ität</i> are stressed on the last syllable.",
    "options": [
-    "The first, <i>Qua-</i>",
-    "The middle, <i>-li-</i>",
-    "The last, <i>-tät</i>",
+    "The first, <i lang=\"de\">Qua-</i>",
+    "The middle, <i lang=\"de\">-li-</i>",
+    "The last, <i lang=\"de\">-tät</i>",
     "None"
    ],
    "answer": 2
@@ -239,12 +239,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>Bücherei</i> is stressed?",
-   "explain": "Nouns in <i>-ei</i> are stressed on the last syllable.",
+   "prompt": "Which syllable of <i lang=\"de\">Bücherei</i> is stressed?",
+   "explain": "Nouns in <i lang=\"de\">-ei</i> are stressed on the last syllable.",
    "options": [
-    "The first, <i>Bü-</i>",
-    "The last, <i>-rei</i>",
-    "The middle, <i>-che-</i>",
+    "The first, <i lang=\"de\">Bü-</i>",
+    "The last, <i lang=\"de\">-rei</i>",
+    "The middle, <i lang=\"de\">-che-</i>",
     "None"
    ],
    "answer": 1
@@ -255,13 +255,13 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is the final <i>d</i> of <i>Kind</i> pronounced?",
-   "explain": "Final <i>b</i>, <i>d</i>, <i>g</i> are devoiced.",
+   "prompt": "How is the final <i lang=\"de\">d</i> of <i lang=\"de\">Kind</i> pronounced?",
+   "explain": "Final <i lang=\"de\">b</i>, <i lang=\"de\">d</i>, <i lang=\"de\">g</i> are devoiced.",
    "options": [
-    "As <i>t</i>",
-    "As <i>d</i>",
+    "As <i lang=\"de\">t</i>",
+    "As <i lang=\"de\">d</i>",
     "It is silent",
-    "As <i>s</i>"
+    "As <i lang=\"de\">s</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is the final <i>b</i> of <i>gelb</i> pronounced?",
-   "explain": "Final <i>b</i> is pronounced <i>p</i>.",
+   "prompt": "How is the final <i lang=\"de\">b</i> of <i lang=\"de\">gelb</i> pronounced?",
+   "explain": "Final <i lang=\"de\">b</i> is pronounced <i lang=\"de\">p</i>.",
    "options": [
-    "As <i>b</i>",
-    "As <i>f</i>",
+    "As <i lang=\"de\">b</i>",
+    "As <i lang=\"de\">f</i>",
     "It is silent",
-    "As <i>p</i>"
+    "As <i lang=\"de\">p</i>"
    ],
    "answer": 3
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is <i>Kind</i> spelled with <i>d</i>, though it ends in the sound <i>t</i>?",
+   "prompt": "Why is <i lang=\"de\">Kind</i> spelled with <i lang=\"de\">d</i>, though it ends in the sound <i lang=\"de\">t</i>?",
    "explain": "The spelling follows the forms in which a vowel follows.",
    "options": [
-    "The <i>d</i> is a foreign spelling",
-    "German never writes <i>t</i> at the end of a word",
-    "The other forms, such as <i>Kinder</i>, sound the <i>d</i>",
-    "The <i>d</i> marks a long vowel"
+    "The <i lang=\"de\">d</i> is a foreign spelling",
+    "German never writes <i lang=\"de\">t</i> at the end of a word",
+    "The other forms, such as <i lang=\"de\">Kinder</i>, sound the <i lang=\"de\">d</i>",
+    "The <i lang=\"de\">d</i> marks a long vowel"
    ],
    "answer": 2
   },
@@ -304,12 +304,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which prefix is never stressed?",
-   "explain": "<i>Er-</i> is inseparable.",
+   "explain": "<i lang=\"de\">Er-</i> is inseparable.",
    "options": [
-    "<i>auf-</i>",
-    "<i>er-</i>",
-    "<i>an-</i>",
-    "<i>mit-</i>"
+    "<i lang=\"de\">auf-</i>",
+    "<i lang=\"de\">er-</i>",
+    "<i lang=\"de\">an-</i>",
+    "<i lang=\"de\">mit-</i>"
    ],
    "answer": 1
   },
@@ -319,12 +319,12 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which syllable of <i>zerbrechen</i> is stressed?",
-   "explain": "<i>Zer-</i> is an inseparable prefix.",
+   "prompt": "Which syllable of <i lang=\"de\">zerbrechen</i> is stressed?",
+   "explain": "<i lang=\"de\">Zer-</i> is an inseparable prefix.",
    "options": [
-    "<i>zer-</i>",
-    "<i>-bre-</i>",
-    "<i>-chen</i>",
+    "<i lang=\"de\">zer-</i>",
+    "<i lang=\"de\">-bre-</i>",
+    "<i lang=\"de\">-chen</i>",
     "All three equally"
    ],
    "answer": 1
@@ -335,8 +335,8 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>heute</i> have?",
-   "explain": "<i>Heu-te</i>: the final <i>e</i> is sounded in German.",
+   "prompt": "How many syllables does <i lang=\"de\">heute</i> have?",
+   "explain": "<i lang=\"de\">Heu-te</i>: the final <i lang=\"de\">e</i> is sounded in German.",
    "options": [
     "Three",
     "One",
@@ -351,13 +351,13 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "deck": "lang.ii.de/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is the final <i>g</i> of <i>Weg</i> pronounced?",
-   "explain": "Final <i>g</i> is devoiced to <i>k</i>.",
+   "prompt": "How is the final <i lang=\"de\">g</i> of <i lang=\"de\">Weg</i> pronounced?",
+   "explain": "Final <i lang=\"de\">g</i> is devoiced to <i lang=\"de\">k</i>.",
    "options": [
-    "As <i>g</i>",
-    "As <i>ch</i> in every region",
+    "As <i lang=\"de\">g</i>",
+    "As <i lang=\"de\">ch</i> in every region",
     "It is silent",
-    "As <i>k</i>"
+    "As <i lang=\"de\">k</i>"
    ],
    "answer": 3
   }

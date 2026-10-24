@@ -15,8 +15,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>une longue nuit</em>, how many syllables does verse count?",
-   "explain": "u-ne-lon-gue-nuit: the mute <em>e</em> of <em>une</em> and of <em>longue</em> counts before a consonant, so the group has five syllables.",
+   "prompt": "In <em lang=\"fr\">une longue nuit</em>, how many syllables does verse count?",
+   "explain": "u-ne-lon-gue-nuit: the mute <em lang=\"fr\">e</em> of <em lang=\"fr\">une</em> and of <em lang=\"fr\">longue</em> counts before a consonant, so the group has five syllables.",
    "options": [
     "Five",
     "Three",
@@ -31,8 +31,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Counting <em>ruine</em> as three syllables, <em>ru-i-ne</em>, is…",
-   "explain": "<em>Diérèse</em> separates the vowels; <em>synérèse</em> joins them.",
+   "prompt": "Counting <em lang=\"fr\">ruine</em> as three syllables, <em lang=\"fr\">ru-i-ne</em>, is…",
+   "explain": "<em lang=\"fr\">Diérèse</em> separates the vowels; <em lang=\"fr\">synérèse</em> joins them.",
    "options": [
     "Diérèse",
     "Elision",
@@ -64,7 +64,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How does La Fontaine measure the lines of a fable?",
-   "explain": "His <em>vers mêlés</em>: rhymed lines of varied length.",
+   "explain": "His <em lang=\"fr\">vers mêlés</em>: rhymed lines of varied length.",
    "options": [
     "He mixes lines of different lengths",
     "He writes only alexandrines",
@@ -80,7 +80,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "A feminine rhyme ends in…",
-   "explain": "The name refers to the mute <em>e</em>, not to grammatical gender.",
+   "explain": "The name refers to the mute <em lang=\"fr\">e</em>, not to grammatical gender.",
    "options": [
     "A mute e",
     "A feminine noun",
@@ -115,7 +115,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "explain": "The only fixed stress falls on the last sounded syllable of a group, and so on the end of the line, where the rhyme is.",
    "options": [
     "On the first syllable of the line",
-    "On a mute <em>e</em> at the end of the line",
+    "On a mute <em lang=\"fr\">e</em> at the end of the line",
     "On the last sounded syllable",
     "On the caesura only, never on the rhyme"
    ],
@@ -127,8 +127,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>une île</em>, what happens to the mute <em>e</em> of <em>une</em>?",
-   "explain": "A mute <em>e</em> is elided before a vowel, so in <em>une île</em> the <em>e</em> of <em>une</em> is not counted.",
+   "prompt": "In <em lang=\"fr\">une île</em>, what happens to the mute <em lang=\"fr\">e</em> of <em lang=\"fr\">une</em>?",
+   "explain": "A mute <em lang=\"fr\">e</em> is elided before a vowel, so in <em lang=\"fr\">une île</em> the <em lang=\"fr\">e</em> of <em lang=\"fr\">une</em> is not counted.",
    "options": [
     "It is counted, because it ends the word",
     "It makes a feminine rhyme inside the phrase",
@@ -143,8 +143,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "A mute <em>e</em> at the end of the line is…",
-   "explain": "A mute <em>e</em> at the end of the line is not counted as a syllable. That ending is what makes a feminine rhyme. The <em>e</em> is counted only before a consonant inside the line.",
+   "prompt": "A mute <em lang=\"fr\">e</em> at the end of the line is…",
+   "explain": "A mute <em lang=\"fr\">e</em> at the end of the line is not counted as a syllable. That ending is what makes a feminine rhyme. The <em lang=\"fr\">e</em> is counted only before a consonant inside the line.",
    "options": [
     "Counted as the rhyme syllable",
     "Not counted",
@@ -159,13 +159,13 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Counting <em>ciel</em> (“sky”) as one syllable is…",
-   "explain": "<em>Synérèse</em> counts two vowels that stand side by side as one syllable, so <em>ciel</em> is one syllable. <em>Diérèse</em> counts them apart, as <em>lion</em> is two syllables in classical verse.",
+   "prompt": "Counting <em lang=\"fr\">ciel</em> (“sky”) as one syllable is…",
+   "explain": "<em lang=\"fr\">Synérèse</em> counts two vowels that stand side by side as one syllable, so <em lang=\"fr\">ciel</em> is one syllable. <em lang=\"fr\">Diérèse</em> counts them apart, as <em lang=\"fr\">lion</em> is two syllables in classical verse.",
    "options": [
     "A feminine rhyme",
     "Elision before a consonant",
     "The caesura after the sixth syllable",
-    "<em>Synérèse</em>"
+    "<em lang=\"fr\">Synérèse</em>"
    ],
    "answer": 3
   },
@@ -181,7 +181,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
     "Eight, with no fixed caesura",
     "Six, the line of Du Bellay’s hymn",
     "Twelve",
-    "Four, the short line of the <em>Chanson d’automne</em>"
+    "Four, the short line of the <em lang=\"fr\">Chanson d’automne</em>"
    ],
    "answer": 2
   },
@@ -192,10 +192,10 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is a hemistich in the classical alexandrine?",
-   "explain": "The caesura after the sixth syllable divides the line into two hemistiches, each of six syllables. <em>Le dessein en est pris</em> is one, and <em>je pars, cher Théramène</em> is the other.",
+   "explain": "The caesura after the sixth syllable divides the line into two hemistiches, each of six syllables. <em lang=\"fr\">Le dessein en est pris</em> is one, and <em lang=\"fr\">je pars, cher Théramène</em> is the other.",
    "options": [
     "One half of six syllables",
-    "The mute <em>e</em> at the end of the line",
+    "The mute <em lang=\"fr\">e</em> at the end of the line",
     "A rhyme of the pattern abba",
     "An octosyllable with a fixed caesura"
    ],
@@ -208,11 +208,11 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What must the sixth syllable of a classical alexandrine be?",
-   "explain": "The sixth syllable must be a stressed one, and it may not be a mute <em>e</em>. The caesura falls after that syllable.",
+   "explain": "The sixth syllable must be a stressed one, and it may not be a mute <em lang=\"fr\">e</em>. The caesura falls after that syllable.",
    "options": [
-    "A mute <em>e</em>",
+    "A mute <em lang=\"fr\">e</em>",
     "Unstressed, so the caesura can be ignored",
-    "Stressed, and not a mute <em>e</em>",
+    "Stressed, and not a mute <em lang=\"fr\">e</em>",
     "The first syllable of the next line"
    ],
    "answer": 2
@@ -228,7 +228,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "options": [
     "Twelve syllables and a caesura after the sixth",
     "Eight syllables, and no fixed caesura",
-    "Four syllables, like the <em>Chanson d’automne</em>",
+    "Four syllables, like the <em lang=\"fr\">Chanson d’automne</em>",
     "A count of stresses rather than of syllables"
    ],
    "answer": 1
@@ -255,8 +255,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In Baudelaire’s <em>Mon enfant, ma sœur, / Songe à la douceur</em>, how many syllables has each line?",
-   "explain": "mon-en-fant-ma-sœur has five syllables; in son-gea-la-dou-ceur the mute <em>e</em> of <em>songe</em> is elided before <em>à</em>, so this line also has five.",
+   "prompt": "In Baudelaire’s <em lang=\"fr\">Mon enfant, ma sœur, / Songe à la douceur</em>, how many syllables has each line?",
+   "explain": "mon-en-fant-ma-sœur has five syllables; in son-gea-la-dou-ceur the mute <em lang=\"fr\">e</em> of <em lang=\"fr\">songe</em> is elided before <em lang=\"fr\">à</em>, so this line also has five.",
    "options": [
     "Four",
     "Five",
@@ -271,8 +271,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "A masculine rhyme, such as <em>sœur</em> / <em>douceur</em>, ends on…",
-   "explain": "A masculine rhyme ends on a sounded syllable, here the <em>r</em> of <em>sœur</em> and <em>douceur</em>; a feminine rhyme ends on a mute <em>e</em>.",
+   "prompt": "A masculine rhyme, such as <em lang=\"fr\">sœur</em> / <em lang=\"fr\">douceur</em>, ends on…",
+   "explain": "A masculine rhyme ends on a sounded syllable, here the <em lang=\"fr\">r</em> of <em lang=\"fr\">sœur</em> and <em lang=\"fr\">douceur</em>; a feminine rhyme ends on a mute <em lang=\"fr\">e</em>.",
    "options": [
     "A mute e",
     "A feminine noun",
@@ -287,8 +287,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What are <em>rimes plates</em>?",
-   "explain": "<em>Rimes plates</em> are couplets, aabb. <em>Rimes croisées</em> are crossed, abab, and <em>rimes embrassées</em> are enclosed, abba.",
+   "prompt": "What are <em lang=\"fr\">rimes plates</em>?",
+   "explain": "<em lang=\"fr\">Rimes plates</em> are couplets, aabb. <em lang=\"fr\">Rimes croisées</em> are crossed, abab, and <em lang=\"fr\">rimes embrassées</em> are enclosed, abba.",
    "options": [
     "Couplets",
     "The pattern abab",
@@ -303,8 +303,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What pattern is <em>rimes croisées</em>?",
-   "explain": "<em>Rimes croisées</em> are crossed, abab. Couplets are <em>rimes plates</em>, and the enclosed pattern abba is <em>rimes embrassées</em>.",
+   "prompt": "What pattern is <em lang=\"fr\">rimes croisées</em>?",
+   "explain": "<em lang=\"fr\">Rimes croisées</em> are crossed, abab. Couplets are <em lang=\"fr\">rimes plates</em>, and the enclosed pattern abba is <em lang=\"fr\">rimes embrassées</em>.",
    "options": [
     "aabb, couplets",
     "abab",
@@ -319,8 +319,8 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "deck": "lang.ii.fr/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What pattern is <em>rimes embrassées</em>?",
-   "explain": "<em>Rimes embrassées</em> are enclosed, abba. Crossed rhymes, abab, are <em>rimes croisées</em>, and couplets are <em>rimes plates</em>.",
+   "prompt": "What pattern is <em lang=\"fr\">rimes embrassées</em>?",
+   "explain": "<em lang=\"fr\">Rimes embrassées</em> are enclosed, abba. Crossed rhymes, abab, are <em lang=\"fr\">rimes croisées</em>, and couplets are <em lang=\"fr\">rimes plates</em>.",
    "options": [
     "abab",
     "Couplets, aabb",
@@ -336,7 +336,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How do masculine and feminine rhymes follow one another in the usual scheme?",
-   "explain": "French verse alternates masculine rhymes, ending on a sounded vowel or consonant, with feminine rhymes, ending on a mute <em>e</em>. It does not keep one kind for the whole poem as a rule of this scheme.",
+   "explain": "French verse alternates masculine rhymes, ending on a sounded vowel or consonant, with feminine rhymes, ending on a mute <em lang=\"fr\">e</em>. It does not keep one kind for the whole poem as a rule of this scheme.",
    "options": [
     "They alternate",
     "Only masculine rhymes are allowed",

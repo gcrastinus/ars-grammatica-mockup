@@ -15,8 +15,8 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>θάλαττα</i> have?",
-   "explain": "<i>Θά-λατ-τα</i>: three vowels, three syllables.",
+   "prompt": "How many syllables does <i lang=\"grc\">θάλαττα</i> have?",
+   "explain": "<i lang=\"grc\">Θά-λατ-τα</i>: three vowels, three syllables.",
    "options": [
     "Three",
     "Two",
@@ -31,8 +31,8 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>βασιλεύς</i> have?",
-   "explain": "<i>Βα-σι-λεύς</i>; <i>ευ</i> is a diphthong, one syllable.",
+   "prompt": "How many syllables does <i lang=\"grc\">βασιλεύς</i> have?",
+   "explain": "<i lang=\"grc\">Βα-σι-λεύς</i>; <i lang=\"grc\">ευ</i> is a diphthong, one syllable.",
    "options": [
     "Four, since ευ is two vowels",
     "Three",
@@ -47,8 +47,8 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many syllables does <i>οἶκοι</i> have?",
-   "explain": "<i>Οἶ-κοι</i>: each <i>οι</i> is a diphthong.",
+   "prompt": "How many syllables does <i lang=\"grc\">οἶκοι</i> have?",
+   "explain": "<i lang=\"grc\">Οἶ-κοι</i>: each <i lang=\"grc\">οι</i> is a diphthong.",
    "options": [
     "Four, one for each vowel",
     "Three",
@@ -64,12 +64,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which vowels are always short?",
-   "explain": "<i>Η</i> and <i>ω</i> are always long; <i>α</i>, <i>ι</i>, <i>υ</i> may be either.",
+   "explain": "<i lang=\"grc\">Η</i> and <i lang=\"grc\">ω</i> are always long; <i lang=\"grc\">α</i>, <i lang=\"grc\">ι</i>, <i lang=\"grc\">υ</i> may be either.",
    "options": [
-    "<i>η</i> and <i>ω</i>",
-    "<i>α</i> and <i>ι</i>",
-    "<i>ι</i> and <i>υ</i>",
-    "<i>ε</i> and <i>ο</i>"
+    "<i lang=\"grc\">η</i> and <i lang=\"grc\">ω</i>",
+    "<i lang=\"grc\">α</i> and <i lang=\"grc\">ι</i>",
+    "<i lang=\"grc\">ι</i> and <i lang=\"grc\">υ</i>",
+    "<i lang=\"grc\">ε</i> and <i lang=\"grc\">ο</i>"
    ],
    "answer": 3
   },
@@ -79,11 +79,11 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the first syllable of <i>ἔργον</i> long?",
+   "prompt": "Why is the first syllable of <i lang=\"grc\">ἔργον</i> long?",
    "explain": "A short vowel before two consonants makes a long syllable.",
    "options": [
-    "By position: <i>ρ</i> and <i>γ</i> follow its vowel",
-    "By nature: <i>ε</i> is a long vowel",
+    "By position: <i lang=\"grc\">ρ</i> and <i lang=\"grc\">γ</i> follow its vowel",
+    "By nature: <i lang=\"grc\">ε</i> is a long vowel",
     "Because it bears the accent",
     "Because of the smooth breathing"
    ],
@@ -95,11 +95,11 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the first syllable of <i>δῆμος</i> long?",
-   "explain": "<i>Η</i> is always long.",
+   "prompt": "Why is the first syllable of <i lang=\"grc\">δῆμος</i> long?",
+   "explain": "<i lang=\"grc\">Η</i> is always long.",
    "options": [
     "Two consonants follow its vowel",
-    "Its vowel <i>η</i> is long by nature",
+    "Its vowel <i lang=\"grc\">η</i> is long by nature",
     "The circumflex makes it long",
     "It is the first syllable of the word"
    ],
@@ -111,13 +111,13 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which word begins with the sound <i>h</i>?",
-   "explain": "<i>Ἡμέρα</i> has the rough breathing.",
+   "prompt": "Which word begins with the sound <i lang=\"grc\">h</i>?",
+   "explain": "<i lang=\"grc\">Ἡμέρα</i> has the rough breathing.",
    "options": [
-    "<i>ἐλπίς</i>",
-    "<i>ἀρετή</i>",
-    "<i>ἡμέρα</i>",
-    "<i>οἶνος</i>"
+    "<i lang=\"grc\">ἐλπίς</i>",
+    "<i lang=\"grc\">ἀρετή</i>",
+    "<i lang=\"grc\">ἡμέρα</i>",
+    "<i lang=\"grc\">οἶνος</i>"
    ],
    "answer": 2
   },
@@ -128,7 +128,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Over which vowel of a diphthong at the start of a word is the breathing written?",
-   "explain": "<i>Οἶνος</i>, <i>αὐτός</i>: the breathing stands over the second vowel.",
+   "explain": "<i lang=\"grc\">Οἶνος</i>, <i lang=\"grc\">αὐτός</i>: the breathing stands over the second vowel.",
    "options": [
     "The first",
     "Both",
@@ -143,12 +143,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why may the accent of <i>φιλόσοφος</i> stand on the antepenult?",
+   "prompt": "Why may the accent of <i lang=\"grc\">φιλόσοφος</i> stand on the antepenult?",
    "explain": "The accent may stand on the antepenult only when the last syllable is short.",
    "options": [
     "The last syllable is short",
     "The penult is long",
-    "Every noun in <i>-ος</i> is accented there",
+    "Every noun in <i lang=\"grc\">-ος</i> is accented there",
     "It is a verb"
    ],
    "answer": 0
@@ -159,12 +159,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the accent stand in <i>θανάτου</i>, the genitive of <i>θάνατος</i>?",
+   "prompt": "Where does the accent stand in <i lang=\"grc\">θανάτου</i>, the genitive of <i lang=\"grc\">θάνατος</i>?",
    "explain": "The accent persists as far as the law of limitation allows.",
    "options": [
     "On the penult, because the last syllable is long",
     "On the antepenult, as in the nominative",
-    "On the last syllable, as the ending <i>-ου</i> requires",
+    "On the last syllable, as the ending <i lang=\"grc\">-ου</i> requires",
     "It has no accent"
    ],
    "answer": 0
@@ -175,7 +175,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why does <i>σῶμα</i> have a circumflex?",
+   "prompt": "Why does <i lang=\"grc\">σῶμα</i> have a circumflex?",
    "explain": "A long accented penult takes the circumflex before a short last syllable.",
    "options": [
     "Every neuter noun of the third declension has a circumflex",
@@ -191,7 +191,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the accent of <i>σώματος</i> an acute?",
+   "prompt": "Why is the accent of <i lang=\"grc\">σώματος</i> an acute?",
    "explain": "The circumflex stands only on the last two syllables.",
    "options": [
     "The genitive always has an acute",
@@ -207,7 +207,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the accent of <i>γράφομεν</i> stand?",
+   "prompt": "Where does the accent of <i lang=\"grc\">γράφομεν</i> stand?",
    "explain": "A verb’s accent is recessive, and the last syllable is short.",
    "options": [
     "On the penult, the syllable before the last",
@@ -223,8 +223,8 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the accent of <i>γράφω</i> on the penult and not further back?",
-   "explain": "The last syllable, <i>ω</i>, is long, so the accent cannot go further back in any case.",
+   "prompt": "Why is the accent of <i lang=\"grc\">γράφω</i> on the penult and not further back?",
+   "explain": "The last syllable, <i lang=\"grc\">ω</i>, is long, so the accent cannot go further back in any case.",
    "options": [
     "The word has only two syllables, and the last is long",
     "The verb is irregular",
@@ -239,8 +239,8 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "For the accent, how is the final <i>-αι</i> of <i>θάλατται</i> counted?",
-   "explain": "Final <i>αι</i> and <i>οι</i> count as short for the accent, except in the optative.",
+   "prompt": "For the accent, how is the final <i lang=\"grc\">-αι</i> of <i lang=\"grc\">θάλατται</i> counted?",
+   "explain": "Final <i lang=\"grc\">αι</i> and <i lang=\"grc\">οι</i> count as short for the accent, except in the optative.",
    "options": [
     "As long, since it is a diphthong",
     "As two syllables",
@@ -256,12 +256,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which of these forms may take movable nu?",
-   "explain": "The third person plural in <i>-σι</i> may take <i>ν</i>.",
+   "explain": "The third person plural in <i lang=\"grc\">-σι</i> may take <i lang=\"grc\">ν</i>.",
    "options": [
-    "<i>λέγει</i>",
-    "<i>λόγος</i>",
-    "<i>λέγουσι</i>",
-    "<i>λέγομεν</i>"
+    "<i lang=\"grc\">λέγει</i>",
+    "<i lang=\"grc\">λόγος</i>",
+    "<i lang=\"grc\">λέγουσι</i>",
+    "<i lang=\"grc\">λέγομεν</i>"
    ],
    "answer": 2
   },
@@ -272,12 +272,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which of these is enclitic?",
-   "explain": "The indefinite <i>που</i> has no accent of its own.",
+   "explain": "The indefinite <i lang=\"grc\">που</i> has no accent of its own.",
    "options": [
-    "<i>ποῦ</i>, “where?”",
-    "<i>που</i>, “somewhere”",
-    "<i>πόθεν</i>, “from where?”",
-    "<i>ὅπου</i>, “where,” relative"
+    "<i lang=\"grc\">ποῦ</i>, “where?”",
+    "<i lang=\"grc\">που</i>, “somewhere”",
+    "<i lang=\"grc\">πόθεν</i>, “from where?”",
+    "<i lang=\"grc\">ὅπου</i>, “where,” relative"
    ],
    "answer": 1
   },
@@ -288,12 +288,12 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which of these is proclitic, with no accent, leaning on the word after it?",
-   "explain": "<i>Ἐν</i>, <i>εἰς</i>, and <i>ἐκ</i> are proclitics.",
+   "explain": "<i lang=\"grc\">Ἐν</i>, <i lang=\"grc\">εἰς</i>, and <i lang=\"grc\">ἐκ</i> are proclitics.",
    "options": [
-    "<i>ἐν</i>",
-    "<i>ἐπί</i>",
-    "<i>ἀπό</i>",
-    "<i>περί</i>"
+    "<i lang=\"grc\">ἐν</i>",
+    "<i lang=\"grc\">ἐπί</i>",
+    "<i lang=\"grc\">ἀπό</i>",
+    "<i lang=\"grc\">περί</i>"
    ],
    "answer": 0
   },
@@ -319,11 +319,11 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is it <i>καλὸς ἀνήρ</i> but <i>ἀνὴρ καλός</i>?",
+   "prompt": "Why is it <i lang=\"grc\">καλὸς ἀνήρ</i> but <i lang=\"grc\">ἀνὴρ καλός</i>?",
    "explain": "The final acute is written grave before another word.",
    "options": [
     "The adjective has a grave only before nouns",
-    "<i>Ἀνήρ</i> changes its accent with the case",
+    "<i lang=\"grc\">Ἀνήρ</i> changes its accent with the case",
     "The grave marks emphasis",
     "An acute on the last syllable becomes grave when a word follows"
    ],
@@ -335,11 +335,11 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>ἐν δέ</i>, is the syllable <i>ἐν</i> long or short?",
-   "explain": "The <i>ν</i> and the <i>δ</i> of the next word make two consonants.",
+   "prompt": "In <i lang=\"grc\">ἐν δέ</i>, is the syllable <i lang=\"grc\">ἐν</i> long or short?",
+   "explain": "The <i lang=\"grc\">ν</i> and the <i lang=\"grc\">δ</i> of the next word make two consonants.",
    "options": [
     "Long by position",
-    "Short, since <i>ε</i> is short",
+    "Short, since <i lang=\"grc\">ε</i> is short",
     "Long by nature",
     "Not counted"
    ],
@@ -351,13 +351,13 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "deck": "lang.ii.grc/syllable-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the first syllable of <i>ἔξω</i> long?",
-   "explain": "<i>Ξ</i> counts as two consonants, <i>κσ</i>.",
+   "prompt": "Why is the first syllable of <i lang=\"grc\">ἔξω</i> long?",
+   "explain": "<i lang=\"grc\">Ξ</i> counts as two consonants, <i lang=\"grc\">κσ</i>.",
    "options": [
-    "<i>ε</i> is long before every consonant",
-    "<i>ξ</i> is a double consonant",
+    "<i lang=\"grc\">ε</i> is long before every consonant",
+    "<i lang=\"grc\">ξ</i> is a double consonant",
     "It bears the accent",
-    "<i>ω</i> lengthens it"
+    "<i lang=\"grc\">ω</i> lengthens it"
    ],
    "answer": 1
   }

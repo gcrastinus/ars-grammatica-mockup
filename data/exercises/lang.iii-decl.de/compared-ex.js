@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich besuche ___ Onkel.</i> (“I am visiting the uncle”).",
-   "explain": "<i>Onkel</i> is masculine and the direct object, so the article is accusative <i>den</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich besuche ___ Onkel.</i> (“I am visiting the uncle”).",
+   "explain": "<i lang=\"de\">Onkel</i> is masculine and the direct object, so the article is accusative <i lang=\"de\">den</i>.",
    "options": [
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 0
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie hilft ___ Nachbarin.</i> (“She helps the neighbor (a woman)”).",
-   "explain": "<i>Helfen</i> takes the dative, and the feminine dative article is <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie hilft ___ Nachbarin.</i> (“She helps the neighbor (a woman)”).",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, and the feminine dative article is <i lang=\"de\">der</i>.",
    "options": [
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 1
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>___ Fenster ist offen.</i> (“The window is open”).",
-   "explain": "<i>Fenster</i> is neuter, and the subject is nominative: <i>das</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">___ Fenster ist offen.</i> (“The window is open”).",
+   "explain": "<i lang=\"de\">Fenster</i> is neuter, and the subject is nominative: <i lang=\"de\">das</i>.",
    "options": [
-    "<i>Der</i>",
-    "<i>Die</i>",
-    "<i>Das</i>",
-    "<i>Den</i>"
+    "<i lang=\"de\">Der</i>",
+    "<i lang=\"de\">Die</i>",
+    "<i lang=\"de\">Das</i>",
+    "<i lang=\"de\">Den</i>"
    ],
    "answer": 2
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Das Auto ___ Lehrerin ist neu.</i> (“The teacher’s car is new”).",
-   "explain": "The feminine genitive article is <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Das Auto ___ Lehrerin ist neu.</i> (“The teacher’s car is new”).",
+   "explain": "The feminine genitive article is <i lang=\"de\">der</i>.",
    "options": [
-    "<i>des</i>",
-    "<i>die</i>",
-    "<i>dem</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 3
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wir sprechen mit ___ Kindern.</i> (“We are speaking with the children”).",
-   "explain": "<i>Mit</i> takes the dative, and the dative plural article is <i>den</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Wir sprechen mit ___ Kindern.</i> (“We are speaking with the children”).",
+   "explain": "<i lang=\"de\">Mit</i> takes the dative, and the dative plural article is <i lang=\"de\">den</i>.",
    "options": [
-    "<i>den</i>",
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which word must be written with a capital in German? <i>die ___ ist schön</i> (“the garden is beautiful”)",
+   "prompt": "Which word must be written with a capital in German? <i lang=\"de\">die ___ ist schön</i> (“the garden is beautiful”)",
    "explain": "German writes every noun with a capital; the article, the verb, and the adjective take a small letter (except at the beginning of a sentence).",
    "options": [
-    "<i>schön</i>, because it describes the noun",
-    "<i>Garten</i>, because it is a noun",
-    "<i>ist</i>, because it is the verb",
-    "<i>die</i>, because it begins the phrase"
+    "<i lang=\"de\">schön</i>, because it describes the noun",
+    "<i lang=\"de\">Garten</i>, because it is a noun",
+    "<i lang=\"de\">ist</i>, because it is the verb",
+    "<i lang=\"de\">die</i>, because it begins the phrase"
    ],
    "answer": 1
   },
@@ -111,7 +111,7 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <i>Wandern</i> capitalized in <i>Das Wandern macht müde</i> (“Hiking makes one tired”)?",
+   "prompt": "Why is <i lang=\"de\">Wandern</i> capitalized in <i lang=\"de\">Das Wandern macht müde</i> (“Hiking makes one tired”)?",
    "explain": "An infinitive used as a noun, here with the article, is written with a capital.",
    "options": [
     "It is the first verb of the sentence",
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "How does German show the case of <i>dem Arzt</i> (“to the doctor”)?",
-   "explain": "The article carries most of the case: <i>der</i>, <i>den</i>, <i>dem</i>, <i>des Arztes</i>.",
+   "prompt": "How does German show the case of <i lang=\"de\">dem Arzt</i> (“to the doctor”)?",
+   "explain": "The article carries most of the case: <i lang=\"de\">der</i>, <i lang=\"de\">den</i>, <i lang=\"de\">dem</i>, <i lang=\"de\">des Arztes</i>.",
    "options": [
-    "By an ending on <i>Arzt</i>",
+    "By an ending on <i lang=\"de\">Arzt</i>",
     "By the capital letter",
     "By the word order alone",
-    "By the article <i>dem</i>"
+    "By the article <i lang=\"de\">dem</i>"
    ],
    "answer": 3
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er wartet auf ___ Zug.</i> (“He is waiting for the train”).",
-   "explain": "<i>Warten auf</i> takes the accusative: <i>auf den Zug</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Er wartet auf ___ Zug.</i> (“He is waiting for the train”).",
+   "explain": "<i lang=\"de\">Warten auf</i> takes the accusative: <i lang=\"de\">auf den Zug</i>.",
    "options": [
-    "<i>dem</i>",
-    "<i>der</i>",
-    "<i>des</i>",
-    "<i>den</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">den</i>"
    ],
    "answer": 3
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wir wohnen in ___ Stadtmitte.</i> (“We live in the city center”).",
-   "explain": "<i>In</i> with the place where takes the dative, and the feminine dative is <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Wir wohnen in ___ Stadtmitte.</i> (“We live in the city center”).",
+   "explain": "<i lang=\"de\">In</i> with the place where takes the dative, and the feminine dative is <i lang=\"de\">der</i>.",
    "options": [
-    "<i>die</i>",
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie stellt die Vase auf ___ Tisch.</i> (“She puts the vase on the table”).",
-   "explain": "<i>Auf</i> with motion toward a place takes the accusative.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie stellt die Vase auf ___ Tisch.</i> (“She puts the vase on the table”).",
+   "explain": "<i lang=\"de\">Auf</i> with motion toward a place takes the accusative.",
    "options": [
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Vase steht auf ___ Tisch.</i> (“The vase stands on the table”).",
-   "explain": "<i>Auf</i> with the place where takes the dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Die Vase steht auf ___ Tisch.</i> (“The vase stands on the table”).",
+   "explain": "<i lang=\"de\">Auf</i> with the place where takes the dative.",
    "options": [
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 0
   },
@@ -207,8 +207,8 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <i>Gute</i> capitalized in <i>Wir wünschen dir alles Gute</i> (“We wish you all the best”)?",
-   "explain": "An adjective used as a noun, here after <i>alles</i>, is written with a capital.",
+   "prompt": "Why is <i lang=\"de\">Gute</i> capitalized in <i lang=\"de\">Wir wünschen dir alles Gute</i> (“We wish you all the best”)?",
+   "explain": "An adjective used as a noun, here after <i lang=\"de\">alles</i>, is written with a capital.",
    "options": [
     "It begins a clause",
     "It is a proper name",
@@ -224,12 +224,12 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence capitalizes the formal “you” correctly?",
-   "explain": "The formal <i>Sie</i> and its forms (<i>Ihnen</i>, <i>Ihr</i>) are capitalized; <i>mir</i> and the verb are not.",
+   "explain": "The formal <i lang=\"de\">Sie</i> and its forms (<i lang=\"de\">Ihnen</i>, <i lang=\"de\">Ihr</i>) are capitalized; <i lang=\"de\">mir</i> and the verb are not.",
    "options": [
-    "<i>Können sie mir helfen?</i> (meaning “you”)",
-    "<i>können Sie Mir helfen?</i>",
-    "<i>Können Sie mir helfen?</i>",
-    "<i>Können Sie Mir Helfen?</i>"
+    "<i lang=\"de\">Können sie mir helfen?</i> (meaning “you”)",
+    "<i lang=\"de\">können Sie Mir helfen?</i>",
+    "<i lang=\"de\">Können Sie mir helfen?</i>",
+    "<i lang=\"de\">Können Sie Mir Helfen?</i>"
    ],
    "answer": 2
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich gebe ___ Hund einen Knochen.</i> (“I give the dog a bone”).",
-   "explain": "The dog is the indirect object, so the article is dative <i>dem</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich gebe ___ Hund einen Knochen.</i> (“I give the dog a bone”).",
+   "explain": "The dog is the indirect object, so the article is dative <i lang=\"de\">dem</i>.",
    "options": [
-    "<i>den</i>",
-    "<i>dem</i>",
-    "<i>der</i>",
-    "<i>das</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">das</i>"
    ],
    "answer": 1
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Hast du ___ Schlüssel gefunden?</i> (“Have you found the key”).",
-   "explain": "<i>Schlüssel</i> is masculine and the direct object: <i>den</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Hast du ___ Schlüssel gefunden?</i> (“Have you found the key”).",
+   "explain": "<i lang=\"de\">Schlüssel</i> is masculine and the direct object: <i lang=\"de\">den</i>.",
    "options": [
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>",
-    "<i>die</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">die</i>"
    ],
    "answer": 0
   },
@@ -272,12 +272,12 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which spelling is correct?",
-   "explain": "The name of the language and a person named by nationality are nouns and take a capital; the adverb <i>gut</i> does not.",
+   "explain": "The name of the language and a person named by nationality are nouns and take a capital; the adverb <i lang=\"de\">gut</i> does not.",
    "options": [
-    "<i>Er spricht gut deutsch, aber er ist kein deutscher.</i>",
-    "<i>Er spricht gut Deutsch, aber er ist kein deutscher.</i>",
-    "<i>Er spricht gut Deutsch, aber er ist kein Deutscher.</i>",
-    "<i>Er spricht Gut Deutsch, aber er ist kein Deutscher.</i>"
+    "<i lang=\"de\">Er spricht gut deutsch, aber er ist kein deutscher.</i>",
+    "<i lang=\"de\">Er spricht gut Deutsch, aber er ist kein deutscher.</i>",
+    "<i lang=\"de\">Er spricht gut Deutsch, aber er ist kein Deutscher.</i>",
+    "<i lang=\"de\">Er spricht Gut Deutsch, aber er ist kein Deutscher.</i>"
    ],
    "answer": 2
   },
@@ -288,12 +288,12 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence is spelled correctly?",
-   "explain": "<i>Lesen</i> after <i>beim</i> (<i>bei dem</i>) is an infinitive used as a noun, and <i>Zeit</i> is a noun.",
+   "explain": "<i lang=\"de\">Lesen</i> after <i lang=\"de\">beim</i> (<i lang=\"de\">bei dem</i>) is an infinitive used as a noun, and <i lang=\"de\">Zeit</i> is a noun.",
    "options": [
-    "<i>Beim lesen vergisst er die Zeit.</i>",
-    "<i>Beim Lesen vergisst er die zeit.</i>",
-    "<i>beim lesen Vergisst er die Zeit.</i>",
-    "<i>Beim Lesen vergisst er die Zeit.</i>"
+    "<i lang=\"de\">Beim lesen vergisst er die Zeit.</i>",
+    "<i lang=\"de\">Beim Lesen vergisst er die zeit.</i>",
+    "<i lang=\"de\">beim lesen Vergisst er die Zeit.</i>",
+    "<i lang=\"de\">Beim Lesen vergisst er die Zeit.</i>"
    ],
    "answer": 3
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wegen ___ Regens blieben wir zu Hause.</i> (“Because of the rain we stayed at home”).",
-   "explain": "<i>Wegen</i> takes the genitive in written German: <i>wegen des Regens</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Wegen ___ Regens blieben wir zu Hause.</i> (“Because of the rain we stayed at home”).",
+   "explain": "<i lang=\"de\">Wegen</i> takes the genitive in written German: <i lang=\"de\">wegen des Regens</i>.",
    "options": [
-    "<i>des</i>",
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich kenne den Namen ___ Gasthauses.</i> (“I know the name of the inn”).",
-   "explain": "<i>Gasthaus</i> is neuter, and the genitive article is <i>des</i>, with <i>-es</i> on the noun.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich kenne den Namen ___ Gasthauses.</i> (“I know the name of the inn”).",
+   "explain": "<i lang=\"de\">Gasthaus</i> is neuter, and the genitive article is <i lang=\"de\">des</i>, with <i lang=\"de\">-es</i> on the noun.",
    "options": [
-    "<i>der</i>",
-    "<i>des</i>",
-    "<i>dem</i>",
-    "<i>den</i>"
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>"
    ],
    "answer": 1
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which word in <i>Er ist der Erste, der kommt</i> (“He is the first to come”) is an adjective used as a noun?",
-   "explain": "<i>Der Erste</i>, “the first one,” is an adjective used as a noun and so is capitalized.",
+   "prompt": "Which word in <i lang=\"de\">Er ist der Erste, der kommt</i> (“He is the first to come”) is an adjective used as a noun?",
+   "explain": "<i lang=\"de\">Der Erste</i>, “the first one,” is an adjective used as a noun and so is capitalized.",
    "options": [
-    "the second <i>der</i>",
-    "<i>kommt</i>",
-    "<i>Erste</i>",
-    "<i>Er</i>"
+    "the second <i lang=\"de\">der</i>",
+    "<i lang=\"de\">kommt</i>",
+    "<i lang=\"de\">Erste</i>",
+    "<i lang=\"de\">Er</i>"
    ],
    "answer": 2
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er dankt ___ Gästen.</i> (“He thanks the guests”).",
-   "explain": "<i>Danken</i> takes the dative, and the dative plural article is <i>den</i>, with <i>-n</i> on the noun.",
+   "prompt": "Choose the form: <i lang=\"de\">Er dankt ___ Gästen.</i> (“He thanks the guests”).",
+   "explain": "<i lang=\"de\">Danken</i> takes the dative, and the dative plural article is <i lang=\"de\">den</i>, with <i lang=\"de\">-n</i> on the noun.",
    "options": [
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>dem</i>",
-    "<i>den</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>"
    ],
    "answer": 3
   },
@@ -367,8 +367,8 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does the article show in <i>des Malers</i> that the English “the painter’s” shows by an ending alone?",
-   "explain": "<i>Des</i> is the masculine or neuter genitive, so the article shows both the case and the gender.",
+   "prompt": "What does the article show in <i lang=\"de\">des Malers</i> that the English “the painter’s” shows by an ending alone?",
+   "explain": "<i lang=\"de\">Des</i> is the masculine or neuter genitive, so the article shows both the case and the gender.",
    "options": [
     "The genitive, with the gender of the noun",
     "The plural number",
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Trotz ___ Kälte gingen sie hinaus.</i> (“In spite of the cold they went out”).",
-   "explain": "<i>Trotz</i> takes the genitive in written German, and the feminine genitive article is <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Trotz ___ Kälte gingen sie hinaus.</i> (“In spite of the cold they went out”).",
+   "explain": "<i lang=\"de\">Trotz</i> takes the genitive in written German, and the feminine genitive article is <i lang=\"de\">der</i>.",
    "options": [
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 1
   }

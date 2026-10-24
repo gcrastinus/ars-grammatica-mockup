@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>ante</em> (“before”) govern?",
-   "explain": "<em>Ante</em> takes the accusative: <em>ante lūcem</em>, “before dawn.”",
+   "prompt": "What case does <em lang=\"la\">ante</em> (“before”) govern?",
+   "explain": "<em lang=\"la\">Ante</em> takes the accusative: <em lang=\"la\">ante lūcem</em>, “before dawn.”",
    "options": [
     "Accusative",
     "Ablative",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>dē</em> (“concerning, down from”) govern?",
-   "explain": "<em>Dē</em> takes the ablative: <em>dē amīcitiā</em>, “on friendship.”",
+   "prompt": "What case does <em lang=\"la\">dē</em> (“concerning, down from”) govern?",
+   "explain": "<em lang=\"la\">Dē</em> takes the ablative: <em lang=\"la\">dē amīcitiā</em>, “on friendship.”",
    "options": [
     "Accusative",
     "Genitive",
@@ -47,8 +47,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>per</em> (“through”) govern?",
-   "explain": "<em>Per</em> takes the accusative: <em>per agrōs</em>.",
+   "prompt": "What case does <em lang=\"la\">per</em> (“through”) govern?",
+   "explain": "<em lang=\"la\">Per</em> takes the accusative: <em lang=\"la\">per agrōs</em>.",
    "options": [
     "Ablative",
     "Genitive",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>prō</em> (“on behalf of”) govern?",
-   "explain": "<em>Prō</em> takes the ablative: <em>prō patriā</em>, “for the fatherland.”",
+   "prompt": "What case does <em lang=\"la\">prō</em> (“on behalf of”) govern?",
+   "explain": "<em lang=\"la\">Prō</em> takes the ablative: <em lang=\"la\">prō patriā</em>, “for the fatherland.”",
    "options": [
     "Accusative",
     "Ablative",
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>ex ___</em> (“out of the water”).",
-   "explain": "<em>Ex</em> takes the ablative.",
+   "prompt": "Choose the form: <em lang=\"la\">ex ___</em> (“out of the water”).",
+   "explain": "<em lang=\"la\">Ex</em> takes the ablative.",
    "options": [
-    "<em>aquā</em>",
-    "<em>aquam</em>",
-    "<em>aquae</em>",
-    "<em>aqua</em>"
+    "<em lang=\"la\">aquā</em>",
+    "<em lang=\"la\">aquam</em>",
+    "<em lang=\"la\">aquae</em>",
+    "<em lang=\"la\">aqua</em>"
    ],
    "answer": 0
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>trāns ___</em> (“across the river”).",
-   "explain": "<em>Trāns</em> takes the accusative; a neuter accusative is the same as the nominative.",
+   "prompt": "Choose the form: <em lang=\"la\">trāns ___</em> (“across the river”).",
+   "explain": "<em lang=\"la\">Trāns</em> takes the accusative; a neuter accusative is the same as the nominative.",
    "options": [
-    "<em>flūmine</em>",
-    "<em>flūminis</em>",
-    "<em>flūminī</em>",
-    "<em>flūmen</em>"
+    "<em lang=\"la\">flūmine</em>",
+    "<em lang=\"la\">flūminis</em>",
+    "<em lang=\"la\">flūminī</em>",
+    "<em lang=\"la\">flūmen</em>"
    ],
    "answer": 3
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>cum ___</em> (“with friends”).",
-   "explain": "<em>Cum</em> takes the ablative.",
+   "prompt": "Choose the form: <em lang=\"la\">cum ___</em> (“with friends”).",
+   "explain": "<em lang=\"la\">Cum</em> takes the ablative.",
    "options": [
-    "<em>amīcōs</em>",
-    "<em>amīcōrum</em>",
-    "<em>amīcīs</em>",
-    "<em>amīcī</em>"
+    "<em lang=\"la\">amīcōs</em>",
+    "<em lang=\"la\">amīcōrum</em>",
+    "<em lang=\"la\">amīcīs</em>",
+    "<em lang=\"la\">amīcī</em>"
    ],
    "answer": 2
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>inter ___</em> (“among the trees”).",
-   "explain": "<em>Inter</em> takes the accusative.",
+   "prompt": "Choose the form: <em lang=\"la\">inter ___</em> (“among the trees”).",
+   "explain": "<em lang=\"la\">Inter</em> takes the accusative.",
    "options": [
-    "<em>arboribus</em>",
-    "<em>arborēs</em>",
-    "<em>arborum</em>",
-    "<em>arbore</em>"
+    "<em lang=\"la\">arboribus</em>",
+    "<em lang=\"la\">arborēs</em>",
+    "<em lang=\"la\">arborum</em>",
+    "<em lang=\"la\">arbore</em>"
    ],
    "answer": 1
   },
@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>apud</em> (“at the house of, among”) govern?",
-   "explain": "<em>Apud</em> takes the accusative: <em>apud Graecōs</em>, “among the Greeks.”",
+   "prompt": "What case does <em lang=\"la\">apud</em> (“at the house of, among”) govern?",
+   "explain": "<em lang=\"la\">Apud</em> takes the accusative: <em lang=\"la\">apud Graecōs</em>, “among the Greeks.”",
    "options": [
     "Accusative",
     "Ablative",
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case does <em>prae</em> (“in comparison with”) govern?",
-   "explain": "<em>Prae</em> takes the ablative.",
+   "prompt": "What case does <em lang=\"la\">prae</em> (“in comparison with”) govern?",
+   "explain": "<em lang=\"la\">Prae</em> takes the ablative.",
    "options": [
     "Accusative",
     "Genitive",
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>in ___ manet</em> (“he stays in the house”).",
-   "explain": "<em>In</em> with rest takes the ablative.",
+   "prompt": "Choose the form: <em lang=\"la\">in ___ manet</em> (“he stays in the house”).",
+   "explain": "<em lang=\"la\">In</em> with rest takes the ablative.",
    "options": [
-    "<em>vīllam</em>",
-    "<em>vīllā</em>",
-    "<em>vīllae</em>",
-    "<em>vīllās</em>"
+    "<em lang=\"la\">vīllam</em>",
+    "<em lang=\"la\">vīllā</em>",
+    "<em lang=\"la\">vīllae</em>",
+    "<em lang=\"la\">vīllās</em>"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>in ___ intrat</em> (“he enters into the house”).",
-   "explain": "<em>In</em> with motion into takes the accusative.",
+   "prompt": "Choose the form: <em lang=\"la\">in ___ intrat</em> (“he enters into the house”).",
+   "explain": "<em lang=\"la\">In</em> with motion into takes the accusative.",
    "options": [
-    "<em>vīllā</em>",
-    "<em>vīllae</em>",
-    "<em>vīllam</em>",
-    "<em>vīllīs</em>"
+    "<em lang=\"la\">vīllā</em>",
+    "<em lang=\"la\">vīllae</em>",
+    "<em lang=\"la\">vīllam</em>",
+    "<em lang=\"la\">vīllīs</em>"
    ],
    "answer": 2
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>sub ___ stābant</em> (“they stood beneath the wall”).",
-   "explain": "<em>Sub</em> with rest takes the ablative.",
+   "prompt": "Choose the form: <em lang=\"la\">sub ___ stābant</em> (“they stood beneath the wall”).",
+   "explain": "<em lang=\"la\">Sub</em> with rest takes the ablative.",
    "options": [
-    "<em>mūrum</em>",
-    "<em>mūrī</em>",
-    "<em>mūrōs</em>",
-    "<em>mūrō</em>"
+    "<em lang=\"la\">mūrum</em>",
+    "<em lang=\"la\">mūrī</em>",
+    "<em lang=\"la\">mūrōs</em>",
+    "<em lang=\"la\">mūrō</em>"
    ],
    "answer": 3
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>contrā ___</em> (“against the enemy”).",
-   "explain": "<em>Contrā</em> takes the accusative.",
+   "prompt": "Choose the form: <em lang=\"la\">contrā ___</em> (“against the enemy”).",
+   "explain": "<em lang=\"la\">Contrā</em> takes the accusative.",
    "options": [
-    "<em>hostēs</em>",
-    "<em>hostibus</em>",
-    "<em>hostium</em>",
-    "<em>hostī</em>"
+    "<em lang=\"la\">hostēs</em>",
+    "<em lang=\"la\">hostibus</em>",
+    "<em lang=\"la\">hostium</em>",
+    "<em lang=\"la\">hostī</em>"
    ],
    "answer": 0
   },
@@ -240,12 +240,12 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which preposition governs the ablative?",
-   "explain": "<em>Sine</em> takes the ablative; <em>ob</em>, <em>circum</em>, and <em>prope</em> take the accusative.",
+   "explain": "<em lang=\"la\">Sine</em> takes the ablative; <em lang=\"la\">ob</em>, <em lang=\"la\">circum</em>, and <em lang=\"la\">prope</em> take the accusative.",
    "options": [
-    "<em>ob</em>",
-    "<em>sine</em>",
-    "<em>circum</em>",
-    "<em>prope</em>"
+    "<em lang=\"la\">ob</em>",
+    "<em lang=\"la\">sine</em>",
+    "<em lang=\"la\">circum</em>",
+    "<em lang=\"la\">prope</em>"
    ],
    "answer": 1
   },
@@ -256,12 +256,12 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which preposition can govern either the accusative or the ablative?",
-   "explain": "<em>In</em> takes the ablative of rest and the accusative of motion into.",
+   "explain": "<em lang=\"la\">In</em> takes the ablative of rest and the accusative of motion into.",
    "options": [
-    "<em>ad</em>",
-    "<em>ex</em>",
-    "<em>in</em>",
-    "<em>per</em>"
+    "<em lang=\"la\">ad</em>",
+    "<em lang=\"la\">ex</em>",
+    "<em lang=\"la\">in</em>",
+    "<em lang=\"la\">per</em>"
    ],
    "answer": 2
   },
@@ -272,12 +272,12 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "How does Latin say “with us”?",
-   "explain": "<em>Cum</em> is joined to the end of the personal pronouns: <em>nōbīscum</em>.",
+   "explain": "<em lang=\"la\">Cum</em> is joined to the end of the personal pronouns: <em lang=\"la\">nōbīscum</em>.",
    "options": [
-    "<em>cum nōs</em>",
-    "<em>cum nōbīs</em> only",
-    "<em>nōscum</em>",
-    "<em>nōbīscum</em>"
+    "<em lang=\"la\">cum nōs</em>",
+    "<em lang=\"la\">cum nōbīs</em> only",
+    "<em lang=\"la\">nōscum</em>",
+    "<em lang=\"la\">nōbīscum</em>"
    ],
    "answer": 3
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>___ profectī sunt</em> (“they set out from Rome”).",
+   "prompt": "Choose the form: <em lang=\"la\">___ profectī sunt</em> (“they set out from Rome”).",
    "explain": "With the name of a city, the ablative alone shows the place from which.",
    "options": [
-    "<em>Rōmā</em>",
-    "<em>ā Rōmā</em>",
-    "<em>Rōmam</em>",
-    "<em>Rōmae</em>"
+    "<em lang=\"la\">Rōmā</em>",
+    "<em lang=\"la\">ā Rōmā</em>",
+    "<em lang=\"la\">Rōmam</em>",
+    "<em lang=\"la\">Rōmae</em>"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>___ habitat</em> (“he lives at Carthage”).",
-   "explain": "The place where, with the name of a city, is the locative; for a noun of the third declension it is in <em>-ī</em> (or <em>-e</em>).",
+   "prompt": "Choose the form: <em lang=\"la\">___ habitat</em> (“he lives at Carthage”).",
+   "explain": "The place where, with the name of a city, is the locative; for a noun of the third declension it is in <em lang=\"la\">-ī</em> (or <em lang=\"la\">-e</em>).",
    "options": [
-    "<em>in Carthāgine</em>",
-    "<em>Carthāginī</em>",
-    "<em>Carthāginem</em>",
-    "<em>ad Carthāginem</em>"
+    "<em lang=\"la\">in Carthāgine</em>",
+    "<em lang=\"la\">Carthāginī</em>",
+    "<em lang=\"la\">Carthāginem</em>",
+    "<em lang=\"la\">ad Carthāginem</em>"
    ],
    "answer": 1
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>___ redīre</em> (“to return home”).",
-   "explain": "<em>Domus</em> takes no preposition: the accusative alone for “home” with motion.",
+   "prompt": "Choose the form: <em lang=\"la\">___ redīre</em> (“to return home”).",
+   "explain": "<em lang=\"la\">Domus</em> takes no preposition: the accusative alone for “home” with motion.",
    "options": [
-    "<em>ad domum</em>",
-    "<em>domī</em>",
-    "<em>domum</em>",
-    "<em>domō</em>"
+    "<em lang=\"la\">ad domum</em>",
+    "<em lang=\"la\">domī</em>",
+    "<em lang=\"la\">domum</em>",
+    "<em lang=\"la\">domō</em>"
    ],
    "answer": 2
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>___ manēre</em> (“to stay in the country”).",
-   "explain": "<em>Rūs</em> has the locative <em>rūrī</em>.",
+   "prompt": "Choose the form: <em lang=\"la\">___ manēre</em> (“to stay in the country”).",
+   "explain": "<em lang=\"la\">Rūs</em> has the locative <em lang=\"la\">rūrī</em>.",
    "options": [
-    "<em>in rūre</em>",
-    "<em>rūs</em>",
-    "<em>rūrī</em>",
-    "<em>rūre</em>"
+    "<em lang=\"la\">in rūre</em>",
+    "<em lang=\"la\">rūs</em>",
+    "<em lang=\"la\">rūrī</em>",
+    "<em lang=\"la\">rūre</em>"
    ],
    "answer": 2
   },
@@ -351,7 +351,7 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <em>hostēs inter</em> show?",
+   "prompt": "What does <em lang=\"la\">hostēs inter</em> show?",
    "explain": "The preposition follows its noun: anastrophe.",
    "options": [
     "A preposition after its noun",
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <em>in ___ nāvigāvērunt</em> (“they sailed to Sicily”).",
-   "explain": "With the name of a country, Latin uses the preposition: <em>in Siciliam</em>.",
+   "prompt": "Choose the form: <em lang=\"la\">in ___ nāvigāvērunt</em> (“they sailed to Sicily”).",
+   "explain": "With the name of a country, Latin uses the preposition: <em lang=\"la\">in Siciliam</em>.",
    "options": [
-    "<em>Siciliam</em>",
-    "<em>Siciliā</em>",
-    "<em>Siciliae</em>",
-    "<em>Siciliī</em>"
+    "<em lang=\"la\">Siciliam</em>",
+    "<em lang=\"la\">Siciliā</em>",
+    "<em lang=\"la\">Siciliae</em>",
+    "<em lang=\"la\">Siciliī</em>"
    ],
    "answer": 0
   },
@@ -383,8 +383,8 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
    "deck": "lang.iii-indecl.la/prepositions-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>magnā cum cūrā</em> (“with great care”), where does the preposition stand?",
-   "explain": "A preposition often stands between an adjective and its noun, as <em>cum</em> does here.",
+   "prompt": "In <em lang=\"la\">magnā cum cūrā</em> (“with great care”), where does the preposition stand?",
+   "explain": "A preposition often stands between an adjective and its noun, as <em lang=\"la\">cum</em> does here.",
    "options": [
     "After the noun",
     "Before the adjective",

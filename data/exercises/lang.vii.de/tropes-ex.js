@@ -15,7 +15,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>ein Meer von Blumen</i> (“a sea of flowers”)?",
+   "prompt": "Which trope is <i lang=\"de\">ein Meer von Blumen</i> (“a sea of flowers”)?",
    "explain": "The many flowers are like a sea.",
    "options": [
     "Metonymy",
@@ -31,7 +31,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>ein Glas trinken</i> (“to drink a glass”)?",
+   "prompt": "Which trope is <i lang=\"de\">ein Glas trinken</i> (“to drink a glass”)?",
    "explain": "The glass is put for the drink.",
    "options": [
     "Metaphor",
@@ -47,7 +47,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>unter einem Dach wohnen</i> (“to live under one roof”)?",
+   "prompt": "Which trope is <i lang=\"de\">unter einem Dach wohnen</i> (“to live under one roof”)?",
    "explain": "The roof, a part, stands for the house.",
    "options": [
     "Antonomasia",
@@ -63,7 +63,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Someone says <i>Na, das ist ja schön!</i> (“Well, that is lovely!”) on finding the car broken down. Which trope is this?",
+   "prompt": "Someone says <i lang=\"de\">Na, das ist ja schön!</i> (“Well, that is lovely!”) on finding the car broken down. Which trope is this?",
    "explain": "The words mean the contrary.",
    "options": [
     "Irony",
@@ -80,7 +80,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme repeats a word at the head of successive members?",
-   "explain": "As in <i>Kennst du … Kennst du …</i>.",
+   "explain": "As in <i lang=\"de\">Kennst du … Kennst du …</i>.",
    "options": [
     "Chiasmus",
     "Antithesis",
@@ -96,7 +96,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme sets clauses side by side without conjunctions?",
-   "explain": "No <i>und</i> joins them.",
+   "explain": "No <i lang=\"de\">und</i> joins them.",
    "options": [
     "Antithesis",
     "Anaphora",
@@ -127,7 +127,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "The child in Goethe’s “Erlkönig” cries <i>Mein Vater, mein Vater</i>. What figure is the doubled phrase?",
+   "prompt": "The child in Goethe’s “Erlkönig” cries <i lang=\"de\">Mein Vater, mein Vater</i>. What figure is the doubled phrase?",
    "explain": "The same words are said again at once.",
    "options": [
     "Repetition at once, epizeuxis",
@@ -143,7 +143,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Wir leben nicht, um zu essen; wir essen, um zu leben</i>, which scheme orders the terms?",
+   "prompt": "In <i lang=\"de\">Wir leben nicht, um zu essen; wir essen, um zu leben</i>, which scheme orders the terms?",
    "explain": "Live, eat; eat, live.",
    "options": [
     "Anaphora",
@@ -159,7 +159,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Er kam, er redete, er überzeugte</i>, which scheme is used?",
+   "prompt": "In <i lang=\"de\">Er kam, er redete, er überzeugte</i>, which scheme is used?",
    "explain": "Three clauses, no conjunction.",
    "options": [
     "Antithesis",
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Jung an Jahren, alt an Weisheit</i> (“young in years, old in wisdom”), which scheme is used?",
+   "prompt": "In <i lang=\"de\">Jung an Jahren, alt an Weisheit</i> (“young in years, old in wisdom”), which scheme is used?",
    "explain": "Young and old in matching form.",
    "options": [
     "Polysyndeton",
@@ -191,7 +191,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>Berlin hat entschieden</i> (“Berlin has decided”) for the government?",
+   "prompt": "Which trope is <i lang=\"de\">Berlin hat entschieden</i> (“Berlin has decided”) for the government?",
    "explain": "The capital is put for the government.",
    "options": [
     "Metaphor",
@@ -207,7 +207,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>Schiller lesen</i> (“to read Schiller”) for reading his works?",
+   "prompt": "Which trope is <i lang=\"de\">Schiller lesen</i> (“to read Schiller”) for reading his works?",
    "explain": "The author is put for his works.",
    "options": [
     "Metonymy",
@@ -223,11 +223,11 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Why is <i>Das Leben ist ein Traum</i> (“Life is a dream”) not a simile?",
-   "explain": "A simile would say <i>wie ein Traum</i>, “like a dream.” Without the word of likeness it is a metaphor.",
+   "prompt": "Why is <i lang=\"de\">Das Leben ist ein Traum</i> (“Life is a dream”) not a simile?",
+   "explain": "A simile would say <i lang=\"de\">wie ein Traum</i>, “like a dream.” Without the word of likeness it is a metaphor.",
    "options": [
     "It is in the nominative, which never makes a figure",
-    "No word of likeness, such as <i>wie</i>, is stated",
+    "No word of likeness, such as <i lang=\"de\">wie</i>, is stated",
     "It names a feeling",
     "It is a question"
    ],
@@ -255,7 +255,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>kein Auge zutun</i> (“not to close an eye”) for not sleeping at all?",
+   "prompt": "Which trope is <i lang=\"de\">kein Auge zutun</i> (“not to close an eye”) for not sleeping at all?",
    "explain": "One eye stands for the whole act of sleeping.",
    "options": [
     "Antonomasia",
@@ -271,7 +271,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A teacher says of a lazy pupil, <i>Du bist mir ein fleißiger Schüler!</i> (“You are a hard-working pupil!”). Which trope is this?",
+   "prompt": "A teacher says of a lazy pupil, <i lang=\"de\">Du bist mir ein fleißiger Schüler!</i> (“You are a hard-working pupil!”). Which trope is this?",
    "explain": "He means the contrary.",
    "options": [
     "Irony",
@@ -287,7 +287,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>das Herz verlieren</i> (“to lose one’s heart”) for falling in love?",
+   "prompt": "Which trope is <i lang=\"de\">das Herz verlieren</i> (“to lose one’s heart”) for falling in love?",
    "explain": "Love is spoken of as losing a thing.",
    "options": [
     "Metonymy",
@@ -303,12 +303,12 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In the proverb <i>Viel Feind, viel Ehr</i> (“many foes, much honor”), which word is repeated?",
-   "explain": "<i>Viel</i> stands at the head of both members, and the repetition sets the foes against the honor.",
+   "prompt": "In the proverb <i lang=\"de\">Viel Feind, viel Ehr</i> (“many foes, much honor”), which word is repeated?",
+   "explain": "<i lang=\"de\">Viel</i> stands at the head of both members, and the repetition sets the foes against the honor.",
    "options": [
-    "<i>Feind</i>",
-    "<i>Ehr</i>",
-    "<i>viel</i>",
+    "<i lang=\"de\">Feind</i>",
+    "<i lang=\"de\">Ehr</i>",
+    "<i lang=\"de\">viel</i>",
     "None"
    ],
    "answer": 2
@@ -335,7 +335,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Die Axt im Haus erspart den Zimmermann</i> (“the axe in the house saves the carpenter,” Schiller, <i>Wilhelm Tell</i> III.1), what does the carpenter stand for?",
+   "prompt": "In <i lang=\"de\">Die Axt im Haus erspart den Zimmermann</i> (“the axe in the house saves the carpenter,” Schiller, <i lang=\"de\">Wilhelm Tell</i> III.1), what does the carpenter stand for?",
    "explain": "The man is put for what one pays him.",
    "options": [
     "A tree, by metaphor",
@@ -351,7 +351,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "deck": "lang.vii.de/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which scheme is <i>Morgen, morgen, nur nicht heute</i> (“tomorrow, tomorrow, only not today”)?",
+   "prompt": "Which scheme is <i lang=\"de\">Morgen, morgen, nur nicht heute</i> (“tomorrow, tomorrow, only not today”)?",
    "explain": "The word is said twice at once.",
    "options": [
     "Repetition at once, epizeuxis",

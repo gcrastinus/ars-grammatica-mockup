@@ -8,13 +8,13 @@ ARS.decks["lang.x.la/sallust"] = {
  "panels": [
   {
    "id": "text",
-   "title": "Sallust, <i>Bellum Catilinae</i> 5",
-   "body": "<p>L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>Translation: J. S. Watson.</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>"
+   "title": "Sallust, <i lang=\"la\">Bellum Catilinae</i> 5",
+   "body": "<p lang=\"la\">L. Catilina, nobili genere natus, fuit magna vi et animi et corporis sed ingenio malo pravoque.</p><p>Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.<br>Translation: J. S. Watson.</p><p><strong>Context.</strong> Sallust introduces Catiline with a short portrait before he tells of the conspiracy. The sentence describes him by his birth, his strength, and his nature.</p>"
   },
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Brevity.</strong> Sallust describes a man’s birth, strength, and nature in a single short sentence with one verb, <i>fuit</i>. His style is famous for compression.</p>\n<p><strong>The ablative of quality.</strong> <i>Magna vi … sed ingenio malo pravoque</i>: two ablatives of quality, set against each other with <i>sed</i>, give the contrast that the whole history will unfold.</p>\n<p><strong>The order of the portrait.</strong> Birth first, then strength of mind and body, then the evil nature: the sentence moves from what is given to what is chosen, and ends on the judgment.</p>\n<p><strong>Pairs within the members.</strong> <i>Et animi et corporis</i>, <i>malo pravoque</i>: each member contains a pair, which gives the short sentence its fullness.</p>"
+   "body": "<p><strong>Brevity.</strong> Sallust describes a man’s birth, strength, and nature in a single short sentence with one verb, <i lang=\"la\">fuit</i>. His style is famous for compression.</p>\n<p><strong>The ablative of quality.</strong> <i lang=\"la\">Magna vi … sed ingenio malo pravoque</i>: two ablatives of quality, set against each other with <i lang=\"la\">sed</i>, give the contrast that the whole history will unfold.</p>\n<p><strong>The order of the portrait.</strong> Birth first, then strength of mind and body, then the evil nature: the sentence moves from what is given to what is chosen, and ends on the judgment.</p>\n<p><strong>Pairs within the members.</strong> <i lang=\"la\">Et animi et corporis</i>, <i lang=\"la\">malo pravoque</i>: each member contains a pair, which gives the short sentence its fullness.</p>"
   }
  ],
  "models": true

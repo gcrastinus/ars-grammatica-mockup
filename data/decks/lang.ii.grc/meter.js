@@ -33,7 +33,7 @@ ARS.decks["lang.ii.grc/meter"] = {
        "Change the accent"
       ],
       "answer": 1,
-      "explain": "<em>Πρ</em>, <em>κλ</em> may fail to make position."
+      "explain": "<em lang=\"grc\">Πρ</em>, <em lang=\"grc\">κλ</em> may fail to make position."
      },
      {
       "prompt": "What do the written accents mark?",
@@ -52,7 +52,7 @@ ARS.decks["lang.ii.grc/meter"] = {
   {
    "id": "meter-2",
    "title": "The Dactylic Hexameter",
-   "body": "<p><strong>The dactylic hexameter.</strong> A line of the <em>Odyssey</em> (I.6) reads ἀλλ᾽ οὐδ᾽ ὣς ἑτάρους ἐρρύσατο, ἱέμενός περ (“but even so he did not save his comrades, though he longed to”). It is divided <em>ἀλλ᾽ οὐδ᾽ | ὣς ἑτά|ρους ἐρ|ρύσατο | ἱέμε|νός περ</em>: a spondee, a dactyl, a spondee, two dactyls, and a final foot of two syllables. The <strong>dactylic hexameter</strong> has six feet, each a dactyl (— ᴗ ᴗ) or a spondee (— —); the fifth is almost always a dactyl, and the sixth has two syllables. It is the meter of Homer and of Hesiod. A <strong>caesura</strong>, that is, a word end within a foot, usually falls inside the third foot, as here after ἑτάρους.</p>\n<p>A long vowel or diphthong at the end of a word is often shortened before a word that begins with a vowel; this is called <strong>epic correption</strong>.</p>\n<p>Virgil and Ovid write the same line in Latin. Homer’s Greek is older than Attic, so a form that fits the meter in Homer is not thereby the form taught in the Attic paradigms.</p>",
+   "body": "<p><strong>The dactylic hexameter.</strong> A line of the <em lang=\"grc\">Odyssey</em> (I.6) reads ἀλλ᾽ οὐδ᾽ ὣς ἑτάρους ἐρρύσατο, ἱέμενός περ (“but even so he did not save his comrades, though he longed to”). It is divided <em lang=\"grc\">ἀλλ᾽ οὐδ᾽ | ὣς ἑτά|ρους ἐρ|ρύσατο | ἱέμε|νός περ</em>: a spondee, a dactyl, a spondee, two dactyls, and a final foot of two syllables. The <strong>dactylic hexameter</strong> has six feet, each a dactyl (— ᴗ ᴗ) or a spondee (— —); the fifth is almost always a dactyl, and the sixth has two syllables. It is the meter of Homer and of Hesiod. A <strong>caesura</strong>, that is, a word end within a foot, usually falls inside the third foot, as here after ἑτάρους.</p>\n<p>A long vowel or diphthong at the end of a word is often shortened before a word that begins with a vowel; this is called <strong>epic correption</strong>.</p>\n<p>Virgil and Ovid write the same line in Latin. Homer’s Greek is older than Attic, so a form that fits the meter in Homer is not thereby the form taught in the Attic paradigms.</p>",
    "qp": {
     "id": "q-grc-me-meter-2",
     "variants": [
@@ -95,7 +95,7 @@ ARS.decks["lang.ii.grc/meter"] = {
   {
    "id": "meter-3",
    "title": "The Elegiac Couplet",
-   "body": "<p><strong>The elegiac couplet.</strong> The <strong>elegiac couplet</strong> is a hexameter followed by a <strong>pentameter</strong>, a line made of two halves of the pattern — ᴗ ᴗ — ᴗ ᴗ —, with a fixed word end between them; only the first half admits spondees. It is the meter of Greek epitaphs and epigrams, many of which are collected in the <em>Greek Anthology</em>.</p>",
+   "body": "<p><strong>The elegiac couplet.</strong> The <strong>elegiac couplet</strong> is a hexameter followed by a <strong>pentameter</strong>, a line made of two halves of the pattern — ᴗ ᴗ — ᴗ ᴗ —, with a fixed word end between them; only the first half admits spondees. It is the meter of Greek epitaphs and epigrams, many of which are collected in the <em lang=\"grc\">Greek Anthology</em>.</p>",
    "qp": {
     "id": "q-grc-me-meter-3",
     "variants": [
@@ -138,7 +138,7 @@ ARS.decks["lang.ii.grc/meter"] = {
   {
    "id": "meter-4",
    "title": "The Iambic Trimeter",
-   "body": "<p><strong>The iambic trimeter.</strong> Sophocles’ <em>Antigone</em> begins ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα (“O shared, own-sister head of Ismene,” that is, “Ismene, my own sister”). It is measured <em>ὦ κοι νὸν αὐ | τά δελ φον Ἰσ | μή νης κά ρα</em>: three groups of four syllables, each of the pattern x — ᴗ —, in which x stands for a syllable that may be long or short. This is the <strong>iambic trimeter</strong>, the spoken meter of tragedy and comedy, made of three <strong>metra</strong> (measures of two iambs), twelve positions in all. Tragedy resolves a long syllable into two shorts sparingly, whereas comedy does so freely.</p>",
+   "body": "<p><strong>The iambic trimeter.</strong> Sophocles’ <em lang=\"grc\">Antigone</em> begins ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα (“O shared, own-sister head of Ismene,” that is, “Ismene, my own sister”). It is measured <em lang=\"grc\">ὦ κοι νὸν αὐ | τά δελ φον Ἰσ | μή νης κά ρα</em>: three groups of four syllables, each of the pattern x — ᴗ —, in which x stands for a syllable that may be long or short. This is the <strong>iambic trimeter</strong>, the spoken meter of tragedy and comedy, made of three <strong>metra</strong> (measures of two iambs), twelve positions in all. Tragedy resolves a long syllable into two shorts sparingly, whereas comedy does so freely.</p>",
    "qp": {
     "id": "q-grc-me-meter-4",
     "variants": [

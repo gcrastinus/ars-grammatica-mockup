@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person singular, of <i>chanter</i> (with <i>que je</i>).",
-   "explain": "The stem of <i>ils chantent</i> with <i>-e</i>.",
+   "prompt": "Write the present subjunctive, first person singular, of <i lang=\"fr\">chanter</i> (with <i lang=\"fr\">que je</i>).",
+   "explain": "The stem of <i lang=\"fr\">ils chantent</i> with <i lang=\"fr\">-e</i>.",
    "accept": [
     "que je chante",
     "chante"
@@ -28,8 +28,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>répondre</i> (with <i>qu’il</i>).",
-   "explain": "The stem of <i>ils répondent</i> with <i>-e</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i lang=\"fr\">répondre</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The stem of <i lang=\"fr\">ils répondent</i> with <i lang=\"fr\">-e</i>.",
    "accept": [
     "qu’il réponde",
     "qu'il réponde",
@@ -42,8 +42,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>grandir</i> (with <i>qu’il</i>).",
-   "explain": "The stem of <i>ils grandissent</i> with <i>-e</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i lang=\"fr\">grandir</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The stem of <i lang=\"fr\">ils grandissent</i> with <i lang=\"fr\">-e</i>.",
    "accept": [
     "qu’il grandisse",
     "qu'il grandisse",
@@ -56,8 +56,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, second person singular, of <i>prendre</i> (with <i>que tu</i>).",
-   "explain": "The stem comes from <i>ils prennent</i>: <i>que tu prennes</i>.",
+   "prompt": "Write the present subjunctive, second person singular, of <i lang=\"fr\">prendre</i> (with <i lang=\"fr\">que tu</i>).",
+   "explain": "The stem comes from <i lang=\"fr\">ils prennent</i>: <i lang=\"fr\">que tu prennes</i>.",
    "accept": [
     "que tu prennes",
     "prennes"
@@ -69,8 +69,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person plural, of <i>boire</i> (with <i>que nous</i>).",
-   "explain": "The first and second persons plural take the stem of <i>nous buvons</i>: <i>que nous buvions</i>.",
+   "prompt": "Write the present subjunctive, first person plural, of <i lang=\"fr\">boire</i> (with <i lang=\"fr\">que nous</i>).",
+   "explain": "The first and second persons plural take the stem of <i lang=\"fr\">nous buvons</i>: <i lang=\"fr\">que nous buvions</i>.",
    "accept": [
     "que nous buvions",
     "buvions"
@@ -82,13 +82,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il faut que tu ___ ce soir</i> (“You must leave tonight”).",
-   "explain": "After <i>il faut que</i> the subjunctive is used: <i>que tu partes</i>, from <i>ils partent</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il faut que tu ___ ce soir</i> (“You must leave tonight”).",
+   "explain": "After <i lang=\"fr\">il faut que</i> the subjunctive is used: <i lang=\"fr\">que tu partes</i>, from <i lang=\"fr\">ils partent</i>.",
    "options": [
-    "<i>pars</i>",
-    "<i>partes</i>",
-    "<i>partiras</i>",
-    "<i>partais</i>"
+    "<i lang=\"fr\">pars</i>",
+    "<i lang=\"fr\">partes</i>",
+    "<i lang=\"fr\">partiras</i>",
+    "<i lang=\"fr\">partais</i>"
    ],
    "answer": 1
   },
@@ -98,13 +98,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je veux qu’il ___ la vérité</i> (“I want him to tell the truth”).",
-   "explain": "After <i>vouloir que</i> the subjunctive: <i>qu’il dise</i>, from <i>ils disent</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je veux qu’il ___ la vérité</i> (“I want him to tell the truth”).",
+   "explain": "After <i lang=\"fr\">vouloir que</i> the subjunctive: <i lang=\"fr\">qu’il dise</i>, from <i lang=\"fr\">ils disent</i>.",
    "options": [
-    "<i>dit</i>",
-    "<i>dira</i>",
-    "<i>dise</i>",
-    "<i>disait</i>"
+    "<i lang=\"fr\">dit</i>",
+    "<i lang=\"fr\">dira</i>",
+    "<i lang=\"fr\">dise</i>",
+    "<i lang=\"fr\">disait</i>"
    ],
    "answer": 2
   },
@@ -114,8 +114,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>recevoir</i> (with <i>qu’il</i>).",
-   "explain": "The stem comes from <i>ils reçoivent</i>: <i>qu’il reçoive</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i lang=\"fr\">recevoir</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The stem comes from <i lang=\"fr\">ils reçoivent</i>: <i lang=\"fr\">qu’il reçoive</i>.",
    "accept": [
     "qu’il reçoive",
     "qu'il reçoive",
@@ -128,8 +128,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person singular, of <i>devoir</i> (with <i>que je</i>).",
-   "explain": "The stem comes from <i>ils doivent</i>: <i>que je doive</i>.",
+   "prompt": "Write the present subjunctive, first person singular, of <i lang=\"fr\">devoir</i> (with <i lang=\"fr\">que je</i>).",
+   "explain": "The stem comes from <i lang=\"fr\">ils doivent</i>: <i lang=\"fr\">que je doive</i>.",
    "accept": [
     "que je doive",
     "doive"
@@ -141,8 +141,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person plural, of <i>voir</i> (with <i>que nous</i>).",
-   "explain": "The first and second persons plural take the stem of <i>nous voyons</i> with <i>-ions</i>: <i>que nous voyions</i>.",
+   "prompt": "Write the present subjunctive, first person plural, of <i lang=\"fr\">voir</i> (with <i lang=\"fr\">que nous</i>).",
+   "explain": "The first and second persons plural take the stem of <i lang=\"fr\">nous voyons</i> with <i lang=\"fr\">-ions</i>: <i lang=\"fr\">que nous voyions</i>.",
    "accept": [
     "que nous voyions",
     "voyions"
@@ -154,8 +154,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>pleuvoir</i> (with <i>qu’il</i>).",
-   "explain": "<i>Pleuvoir</i> has only the third person: <i>qu’il pleuve</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i lang=\"fr\">pleuvoir</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "<i lang=\"fr\">Pleuvoir</i> has only the third person: <i lang=\"fr\">qu’il pleuve</i>.",
    "accept": [
     "qu’il pleuve",
     "qu'il pleuve",
@@ -168,8 +168,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person plural, of <i>tenir</i> (with <i>qu’ils</i>).",
-   "explain": "<i>Tenir</i> keeps the stem of <i>ils tiennent</i> in the third person plural: <i>qu’ils tiennent</i>.",
+   "prompt": "Write the present subjunctive, third person plural, of <i lang=\"fr\">tenir</i> (with <i lang=\"fr\">qu’ils</i>).",
+   "explain": "<i lang=\"fr\">Tenir</i> keeps the stem of <i lang=\"fr\">ils tiennent</i> in the third person plural: <i lang=\"fr\">qu’ils tiennent</i>.",
    "accept": [
     "qu’ils tiennent",
     "qu'ils tiennent",
@@ -182,13 +182,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Bien qu’il ___ malade, il travaille</i> (“Although he is ill, he works”).",
-   "explain": "<i>Bien que</i> takes the subjunctive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Bien qu’il ___ malade, il travaille</i> (“Although he is ill, he works”).",
+   "explain": "<i lang=\"fr\">Bien que</i> takes the subjunctive.",
    "options": [
-    "<i>est</i>",
-    "<i>soit</i>",
-    "<i>sera</i>",
-    "<i>était</i>"
+    "<i lang=\"fr\">est</i>",
+    "<i lang=\"fr\">soit</i>",
+    "<i lang=\"fr\">sera</i>",
+    "<i lang=\"fr\">était</i>"
    ],
    "answer": 1
   },
@@ -198,13 +198,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>J’espère qu’il ___ demain</i> (“I hope he will come tomorrow”).",
-   "explain": "<i>Espérer</i> takes the indicative, here the future.",
+   "prompt": "Choose the form: <i lang=\"fr\">J’espère qu’il ___ demain</i> (“I hope he will come tomorrow”).",
+   "explain": "<i lang=\"fr\">Espérer</i> takes the indicative, here the future.",
    "options": [
-    "<i>viendra</i>",
-    "<i>vienne</i>",
-    "<i>vînt</i>",
-    "<i>soit venu</i>"
+    "<i lang=\"fr\">viendra</i>",
+    "<i lang=\"fr\">vienne</i>",
+    "<i lang=\"fr\">vînt</i>",
+    "<i lang=\"fr\">soit venu</i>"
    ],
    "answer": 0
   },
@@ -214,8 +214,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, third person singular, of <i>croire</i> (with <i>qu’il</i>).",
-   "explain": "The stem comes from <i>ils croient</i>: <i>qu’il croie</i>.",
+   "prompt": "Write the present subjunctive, third person singular, of <i lang=\"fr\">croire</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The stem comes from <i lang=\"fr\">ils croient</i>: <i lang=\"fr\">qu’il croie</i>.",
    "accept": [
     "qu’il croie",
     "qu'il croie",
@@ -231,10 +231,10 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "prompt": "Which form can be either the imparfait or the present subjunctive?",
    "explain": "In the first and second persons plural, the present subjunctive of most verbs is the same as the imparfait.",
    "options": [
-    "<i>je chante</i>",
-    "<i>ils chantent</i>",
-    "<i>nous chantions</i>",
-    "<i>tu chantais</i>"
+    "<i lang=\"fr\">je chante</i>",
+    "<i lang=\"fr\">ils chantent</i>",
+    "<i lang=\"fr\">nous chantions</i>",
+    "<i lang=\"fr\">tu chantais</i>"
    ],
    "answer": 2
   },
@@ -244,8 +244,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past subjunctive, third person singular, of <i>finir</i> (with <i>qu’il</i>).",
-   "explain": "The present subjunctive of <i>avoir</i> with the participle.",
+   "prompt": "Write the past subjunctive, third person singular, of <i lang=\"fr\">finir</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The present subjunctive of <i lang=\"fr\">avoir</i> with the participle.",
    "accept": [
     "qu’il ait fini",
     "qu'il ait fini",
@@ -258,8 +258,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the past subjunctive, third person plural feminine, of <i>partir</i> (with <i>qu’elles</i>).",
-   "explain": "<i>Partir</i> takes <i>être</i>, and the participle agrees with the subject: <i>qu’elles soient parties</i>.",
+   "prompt": "Write the past subjunctive, third person plural feminine, of <i lang=\"fr\">partir</i> (with <i lang=\"fr\">qu’elles</i>).",
+   "explain": "<i lang=\"fr\">Partir</i> takes <i lang=\"fr\">être</i>, and the participle agrees with the subject: <i lang=\"fr\">qu’elles soient parties</i>.",
    "accept": [
     "qu’elles soient parties",
     "qu'elles soient parties",
@@ -272,8 +272,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>qu’il chantât</i>?",
-   "explain": "The circumflex and the subjunctive ending mark the literary imperfect subjunctive; the passé simple is <i>il chanta</i>.",
+   "prompt": "What is <i lang=\"fr\">qu’il chantât</i>?",
+   "explain": "The circumflex and the subjunctive ending mark the literary imperfect subjunctive; the passé simple is <i lang=\"fr\">il chanta</i>.",
    "options": [
     "The passé simple",
     "The present subjunctive",
@@ -288,13 +288,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "How does ordinary modern French render the literary <i>Il voulait qu’elle partît</i>?",
+   "prompt": "How does ordinary modern French render the literary <i lang=\"fr\">Il voulait qu’elle partît</i>?",
    "explain": "Modern French uses the present subjunctive in place of the imperfect subjunctive.",
    "options": [
-    "<i>Il voulait qu’elle partait</i>",
-    "<i>Il voulait qu’elle partirait</i>",
-    "<i>Il voulait qu’elle est partie</i>",
-    "<i>Il voulait qu’elle parte</i>"
+    "<i lang=\"fr\">Il voulait qu’elle partait</i>",
+    "<i lang=\"fr\">Il voulait qu’elle partirait</i>",
+    "<i lang=\"fr\">Il voulait qu’elle est partie</i>",
+    "<i lang=\"fr\">Il voulait qu’elle parte</i>"
    ],
    "answer": 3
   },
@@ -304,8 +304,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the imperfect subjunctive, third person singular, of <i>faire</i> (with <i>qu’il</i>).",
-   "explain": "The imperfect subjunctive is built on the passé simple <i>il fit</i>, with a circumflex in the third person singular: <i>qu’il fît</i>.",
+   "prompt": "Write the imperfect subjunctive, third person singular, of <i lang=\"fr\">faire</i> (with <i lang=\"fr\">qu’il</i>).",
+   "explain": "The imperfect subjunctive is built on the passé simple <i lang=\"fr\">il fit</i>, with a circumflex in the third person singular: <i lang=\"fr\">qu’il fît</i>.",
    "accept": [
     "qu’il fît",
     "qu'il fît",
@@ -320,7 +320,7 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>il eût fallu partir</i> mean?",
+   "prompt": "What does <i lang=\"fr\">il eût fallu partir</i> mean?",
    "explain": "In literary French the pluperfect subjunctive can serve as a conditional past.",
    "options": [
     "“it was necessary to leave”",
@@ -336,8 +336,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the present subjunctive, first person singular, of <i>mourir</i> (with <i>que je</i>).",
-   "explain": "The stem comes from <i>ils meurent</i>: <i>que je meure</i>.",
+   "prompt": "Write the present subjunctive, first person singular, of <i lang=\"fr\">mourir</i> (with <i lang=\"fr\">que je</i>).",
+   "explain": "The stem comes from <i lang=\"fr\">ils meurent</i>: <i lang=\"fr\">que je meure</i>.",
    "accept": [
     "que je meure",
     "meure"
@@ -349,13 +349,13 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je suis content que vous ___ venus</i> (“I am glad you came”).",
-   "explain": "After an expression of feeling the subjunctive is used, here the past subjunctive <i>que vous soyez venus</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je suis content que vous ___ venus</i> (“I am glad you came”).",
+   "explain": "After an expression of feeling the subjunctive is used, here the past subjunctive <i lang=\"fr\">que vous soyez venus</i>.",
    "options": [
-    "<i>êtes</i>",
-    "<i>serez</i>",
-    "<i>étiez</i>",
-    "<i>soyez</i>"
+    "<i lang=\"fr\">êtes</i>",
+    "<i lang=\"fr\">serez</i>",
+    "<i lang=\"fr\">étiez</i>",
+    "<i lang=\"fr\">soyez</i>"
    ],
    "answer": 3
   }

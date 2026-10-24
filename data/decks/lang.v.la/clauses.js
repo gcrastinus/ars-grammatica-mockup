@@ -382,7 +382,7 @@ ARS.decks["lang.v.la/clauses"] = {
     "id": "q-la-auth-livy",
     "variants": [
      {
-      "prompt": "What kind of clause is marked in Latin <i>Dīcunt <b>urbem captam esse</b></i> (“they say that the city has been taken”)?",
+      "prompt": "What kind of clause is marked in Latin <i lang=\"la\">Dīcunt <b>urbem captam esse</b></i> (“they say that the city has been taken”)?",
       "options": [
        "A clause of purpose",
        "A clause of comparison",
@@ -393,7 +393,7 @@ ARS.decks["lang.v.la/clauses"] = {
       "explain": "The accusative and infinitive report what is said."
      },
      {
-      "prompt": "What kind of clause is marked in <i>Mīlitēs mīsit <b>ut urbem dēfenderent</b></i>?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\">Mīlitēs mīsit <b>ut urbem dēfenderent</b></i>?",
       "options": [
        "A clause of result",
        "A clause of purpose",
@@ -401,10 +401,10 @@ ARS.decks["lang.v.la/clauses"] = {
        "A causal clause"
       ],
       "answer": 1,
-      "explain": "<i>Ut</i> with the subjunctive after <i>mīsit</i> gives the end aimed at."
+      "explain": "<i lang=\"la\">Ut</i> with the subjunctive after <i lang=\"la\">mīsit</i> gives the end aimed at."
      },
      {
-      "prompt": "What kind of construction is <i>urbe captā</i> (“the city having been taken”)?",
+      "prompt": "What kind of construction is <i lang=\"la\">urbe captā</i> (“the city having been taken”)?",
       "options": [
        "An ablative absolute",
        "An indirect statement",
@@ -445,7 +445,7 @@ ARS.decks["lang.v.la/clauses"] = {
     "id": "q-la-auth-sall",
     "variants": [
      {
-      "prompt": "What kind of clause is marked in <i>Tantus erat timor <b>ut nēmō loquerētur</b></i> (“so great was the fear that no one spoke”)?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\">Tantus erat timor <b>ut nēmō loquerētur</b></i> (“so great was the fear that no one spoke”)?",
       "options": [
        "A clause of result",
        "A clause of purpose",
@@ -453,29 +453,29 @@ ARS.decks["lang.v.la/clauses"] = {
        "An indirect question"
       ],
       "answer": 0,
-      "explain": "<i>Tantus … ut</i> gives a consequence."
+      "explain": "<i lang=\"la\">Tantus … ut</i> gives a consequence."
      },
      {
-      "prompt": "What kind of clause is marked in <i><b>Cum Rōmam vēnisset</b>, amīcōs vīsit</i> (“when he had come to Rome, he visited his friends”)?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\"><b>Cum Rōmam vēnisset</b>, amīcōs vīsit</i> (“when he had come to Rome, he visited his friends”)?",
       "options": [
        "A clause of purpose",
        "An indirect question",
        "A clause of comparison",
-       "A temporal <i>cum</i> clause"
+       "A temporal <i lang=\"la\">cum</i> clause"
       ],
       "answer": 3,
-      "explain": "<i>Cum</i> with the subjunctive in narrative marks the time."
+      "explain": "<i lang=\"la\">Cum</i> with the subjunctive in narrative marks the time."
      },
      {
       "prompt": "Which word introduces a negative clause of purpose in Latin?",
       "options": [
-       "<i>ut nōn</i>",
-       "<i>nisi</i>",
-       "<i>nē</i>",
-       "<i>quod</i>"
+       "<i lang=\"la\">ut nōn</i>",
+       "<i lang=\"la\">nisi</i>",
+       "<i lang=\"la\">nē</i>",
+       "<i lang=\"la\">quod</i>"
       ],
       "answer": 2,
-      "explain": "A negative purpose takes <i>nē</i>."
+      "explain": "A negative purpose takes <i lang=\"la\">nē</i>."
      }
     ]
    }
@@ -503,7 +503,7 @@ ARS.decks["lang.v.la/clauses"] = {
     "id": "q-la-auth-tac",
     "variants": [
      {
-      "prompt": "What kind of clause is marked in <i>Rogāvit <b>quis vēnisset</b></i> (“he asked who had come”)?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\">Rogāvit <b>quis vēnisset</b></i> (“he asked who had come”)?",
       "options": [
        "An indirect question",
        "A clause of comparison",
@@ -514,7 +514,7 @@ ARS.decks["lang.v.la/clauses"] = {
       "explain": "After a verb of asking, the question word introduces the reported question."
      },
      {
-      "prompt": "What kind of clause is marked in <i><b>Quamquam fessī erant</b>, prōcessērunt</i> (“although they were tired, they advanced”)?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\"><b>Quamquam fessī erant</b>, prōcessērunt</i> (“although they were tired, they advanced”)?",
       "options": [
        "A causal clause",
        "A clause of result",
@@ -522,10 +522,10 @@ ARS.decks["lang.v.la/clauses"] = {
        "A concessive clause"
       ],
       "answer": 3,
-      "explain": "<i>Quamquam</i> grants a fact."
+      "explain": "<i lang=\"la\">Quamquam</i> grants a fact."
      },
      {
-      "prompt": "What kind of clause is marked in <i>Laudō puerum <b>quī vērum dīxit</b></i> (“I praise the boy who told the truth”)?",
+      "prompt": "What kind of clause is marked in <i lang=\"la\">Laudō puerum <b>quī vērum dīxit</b></i> (“I praise the boy who told the truth”)?",
       "options": [
        "A causal clause",
        "An indirect statement",
@@ -533,7 +533,7 @@ ARS.decks["lang.v.la/clauses"] = {
        "A clause of purpose"
       ],
       "answer": 2,
-      "explain": "The clause describes <i>puerum</i>."
+      "explain": "The clause describes <i lang=\"la\">puerum</i>."
      }
     ]
    }

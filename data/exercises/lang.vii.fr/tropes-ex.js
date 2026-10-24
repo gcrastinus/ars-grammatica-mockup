@@ -15,7 +15,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Ronsard writes, “Gather from today the roses of life” (<i>Cueillez dès aujourd’hui les roses de la vie</i>; <i>Sonnets pour Hélène</i> II.24). Which trope is “the roses of life”?",
+   "prompt": "Ronsard writes, “Gather from today the roses of life” (<i lang=\"fr\">Cueillez dès aujourd’hui les roses de la vie</i>; <i lang=\"fr\">Sonnets pour Hélène</i> II.24). Which trope is “the roses of life”?",
    "explain": "The joys of youth are like roses.",
    "options": [
     "Metonymy",
@@ -31,7 +31,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>la Couronne</i> (“the Crown”) for the king’s government?",
+   "prompt": "Which trope is <i lang=\"fr\">la Couronne</i> (“the Crown”) for the king’s government?",
    "explain": "The sign is put for what it signifies.",
    "options": [
     "Metaphor",
@@ -47,7 +47,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>avoir un toit</i> (“to have a roof”) for having a house?",
+   "prompt": "Which trope is <i lang=\"fr\">avoir un toit</i> (“to have a roof”) for having a house?",
    "explain": "The part is put for the whole.",
    "options": [
     "Synecdoche",
@@ -63,7 +63,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Someone says <i>Bravo !</i> to a man who has just broken a vase. Which trope is this?",
+   "prompt": "Someone says <i lang=\"fr\">Bravo !</i> to a man who has just broken a vase. Which trope is this?",
    "explain": "The word means the contrary.",
    "options": [
     "Metaphor",
@@ -80,7 +80,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme sets words side by side without conjunctions?",
-   "explain": "No <i>et</i> joins them.",
+   "explain": "No <i lang=\"fr\">et</i> joins them.",
    "options": [
     "Antithesis",
     "Anaphora",
@@ -96,7 +96,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme repeats a word at the head of successive members?",
-   "explain": "As Camille repeats <i>Rome</i>.",
+   "explain": "As Camille repeats <i lang=\"fr\">Rome</i>.",
    "options": [
     "Chiasmus",
     "Antithesis",
@@ -127,7 +127,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Hugo writes, <i>Waterloo ! Waterloo ! Waterloo ! morne plaine !</i> (“Waterloo! Waterloo! Waterloo! gloomy plain!”; “L’Expiation”). What figure is the threefold name?",
+   "prompt": "Hugo writes, <i lang=\"fr\">Waterloo ! Waterloo ! Waterloo ! morne plaine !</i> (“Waterloo! Waterloo! Waterloo! gloomy plain!”; “L’Expiation”). What figure is the threefold name?",
    "explain": "The same word is said again at once.",
    "options": [
     "Chiasmus",
@@ -143,7 +143,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Rodrigue speaks of “this dark light that falls from the stars” (<i>Cette obscure clarté qui tombe des étoiles</i>; <i>Le Cid</i> IV.3). What joins “dark” and “light”?",
+   "prompt": "Rodrigue speaks of “this dark light that falls from the stars” (<i lang=\"fr\">Cette obscure clarté qui tombe des étoiles</i>; <i lang=\"fr\">Le Cid</i> IV.3). What joins “dark” and “light”?",
    "explain": "Contraries joined in a single phrase make an oxymoron, a kind of antithesis.",
    "options": [
     "Anaphora",
@@ -159,7 +159,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Je travaille pour vivre, je ne vis pas pour travailler</i> (“I work to live, I do not live to work”), which scheme orders the terms?",
+   "prompt": "In <i lang=\"fr\">Je travaille pour vivre, je ne vis pas pour travailler</i> (“I work to live, I do not live to work”), which scheme orders the terms?",
    "explain": "Work, live; live, work.",
    "options": [
     "Anaphora",
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Il vint, il parla, il convainquit</i> (“he came, he spoke, he convinced”), which scheme is used?",
+   "prompt": "In <i lang=\"fr\">Il vint, il parla, il convainquit</i> (“he came, he spoke, he convinced”), which scheme is used?",
    "explain": "Three clauses with no conjunction.",
    "options": [
     "Antithesis",
@@ -191,7 +191,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Riche, il méprisait ; pauvre, il enviait</i> (“rich, he despised; poor, he envied”), which scheme is used?",
+   "prompt": "In <i lang=\"fr\">Riche, il méprisait ; pauvre, il enviait</i> (“rich, he despised; poor, he envied”), which scheme is used?",
    "explain": "Opposed ideas in matching form.",
    "options": [
     "Antithesis",
@@ -207,7 +207,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>la plume</i> (“the pen”) for the writer’s art?",
+   "prompt": "Which trope is <i lang=\"fr\">la plume</i> (“the pen”) for the writer’s art?",
    "explain": "The instrument is put for the art.",
    "options": [
     "Metaphor",
@@ -223,7 +223,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>Paris a voté</i> (“Paris has voted”) for its citizens?",
+   "prompt": "Which trope is <i lang=\"fr\">Paris a voté</i> (“Paris has voted”) for its citizens?",
    "explain": "The city is put for those who live in it.",
    "options": [
     "Metaphor",
@@ -239,7 +239,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Pascal writes, <i>Le cœur a ses raisons, que la raison ne connaît point</i>. What play on words joins the two uses of <i>raison</i>?",
+   "prompt": "Pascal writes, <i lang=\"fr\">Le cœur a ses raisons, que la raison ne connaît point</i>. What play on words joins the two uses of <i lang=\"fr\">raison</i>?",
    "explain": "The heart’s “reasons” and “reason” the faculty: one word in two senses.",
    "options": [
     "A metaphor of the heart as a reason",
@@ -258,7 +258,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "prompt": "Why is “Cueillez … les roses de la vie” not a simile?",
    "explain": "A simile would say “like roses.”",
    "options": [
-    "No word of likeness, such as <i>comme</i>, is stated",
+    "No word of likeness, such as <i lang=\"fr\">comme</i>, is stated",
     "It is an imperative",
     "It names a flower",
     "It has twelve syllables"
@@ -287,11 +287,11 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>adieu veau, vache, cochon, couvée</i> (La Fontaine, “La Laitière et le Pot au lait”), how are the four nouns joined?",
+   "prompt": "In <i lang=\"fr\">adieu veau, vache, cochon, couvée</i> (La Fontaine, “La Laitière et le Pot au lait”), how are the four nouns joined?",
    "explain": "The nouns stand side by side with no conjunction, and the list falls as quickly as the milkmaid’s hopes.",
    "options": [
-    "By <i>et</i> before the last",
-    "By <i>adieu</i> repeated",
+    "By <i lang=\"fr\">et</i> before the last",
+    "By <i lang=\"fr\">adieu</i> repeated",
     "By no conjunction: asyndeton",
     "By a relative pronoun"
    ],
@@ -303,7 +303,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>une voile à l’horizon</i> (“a sail on the horizon”) for a ship?",
+   "prompt": "Which trope is <i lang=\"fr\">une voile à l’horizon</i> (“a sail on the horizon”) for a ship?",
    "explain": "The sail is part of the ship.",
    "options": [
     "Antonomasia",
@@ -319,7 +319,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A critic writes of a dull play, <i>Quel chef-d’œuvre !</i> (“What a masterpiece!”). Which trope is this?",
+   "prompt": "A critic writes of a dull play, <i lang=\"fr\">Quel chef-d’œuvre !</i> (“What a masterpiece!”). Which trope is this?",
    "explain": "He means the contrary.",
    "options": [
     "Metaphor",
@@ -351,7 +351,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "deck": "lang.vii.fr/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>Partir, c’est mourir un peu</i> (“to leave is to die a little”), is <i>mourir</i> used in its proper sense?",
+   "prompt": "In <i lang=\"fr\">Partir, c’est mourir un peu</i> (“to leave is to die a little”), is <i lang=\"fr\">mourir</i> used in its proper sense?",
    "explain": "To leave is like dying a little.",
    "options": [
     "Yes; the traveler dies",

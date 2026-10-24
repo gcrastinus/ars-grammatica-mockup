@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>marcher</i>.",
-   "explain": "Verbs in <i>-er</i> take the <i>a</i>-endings: <i>il marcha</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">marcher</i>.",
+   "explain": "Verbs in <i lang=\"fr\">-er</i> take the <i lang=\"fr\">a</i>-endings: <i lang=\"fr\">il marcha</i>.",
    "accept": [
     "marcha"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person plural, of <i>marcher</i>.",
-   "explain": "The third person plural of the <i>a</i>-type ends in <i>-èrent</i>.",
+   "prompt": "Write the passé simple, third person plural, of <i lang=\"fr\">marcher</i>.",
+   "explain": "The third person plural of the <i lang=\"fr\">a</i>-type ends in <i lang=\"fr\">-èrent</i>.",
    "accept": [
     "marchèrent"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>choisir</i>.",
-   "explain": "Verbs of the second group take the <i>i</i>-endings: <i>il choisit</i>, the same spelling as the present.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">choisir</i>.",
+   "explain": "Verbs of the second group take the <i lang=\"fr\">i</i>-endings: <i lang=\"fr\">il choisit</i>, the same spelling as the present.",
    "accept": [
     "choisit"
    ]
@@ -51,8 +51,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>répondre</i>.",
-   "explain": "Most verbs in <i>-re</i> take the <i>i</i>-endings: <i>il répondit</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">répondre</i>.",
+   "explain": "Most verbs in <i lang=\"fr\">-re</i> take the <i lang=\"fr\">i</i>-endings: <i lang=\"fr\">il répondit</i>.",
    "accept": [
     "répondit"
    ]
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>ils eurent</i>?",
-   "explain": "<i>Avoir</i> takes the <i>u</i>-endings in the passé simple: <i>j’eus</i>, <i>ils eurent</i>.",
+   "prompt": "What is <i lang=\"fr\">ils eurent</i>?",
+   "explain": "<i lang=\"fr\">Avoir</i> takes the <i lang=\"fr\">u</i>-endings in the passé simple: <i lang=\"fr\">j’eus</i>, <i lang=\"fr\">ils eurent</i>.",
    "options": [
-    "The imparfait of <i>avoir</i>",
-    "The future of <i>avoir</i>",
-    "The passé simple of <i>avoir</i>",
-    "The present subjunctive of <i>avoir</i>"
+    "The imparfait of <i lang=\"fr\">avoir</i>",
+    "The future of <i lang=\"fr\">avoir</i>",
+    "The passé simple of <i lang=\"fr\">avoir</i>",
+    "The present subjunctive of <i lang=\"fr\">avoir</i>"
    ],
    "answer": 2
   },
@@ -79,8 +79,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>elle mourut</i> mean, in a narrative?",
-   "explain": "<i>Mourut</i> is the passé simple of <i>mourir</i>, the past of written narrative.",
+   "prompt": "What does <i lang=\"fr\">elle mourut</i> mean, in a narrative?",
+   "explain": "<i lang=\"fr\">Mourut</i> is the passé simple of <i lang=\"fr\">mourir</i>, the past of written narrative.",
    "options": [
     "“she was dying”",
     "“she will die”",
@@ -95,8 +95,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the plus-que-parfait, first person singular, of <i>finir</i>.",
-   "explain": "The imparfait of <i>avoir</i> with the participle: <i>j’avais fini</i>.",
+   "prompt": "Write the plus-que-parfait, first person singular, of <i lang=\"fr\">finir</i>.",
+   "explain": "The imparfait of <i lang=\"fr\">avoir</i> with the participle: <i lang=\"fr\">j’avais fini</i>.",
    "accept": [
     "j’avais fini",
     "j'avais fini",
@@ -109,8 +109,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the futur antérieur, third person singular, of <i>partir</i> (with <i>il</i>).",
-   "explain": "<i>Partir</i> takes <i>être</i>: the future of <i>être</i> with the participle.",
+   "prompt": "Write the futur antérieur, third person singular, of <i lang=\"fr\">partir</i> (with <i lang=\"fr\">il</i>).",
+   "explain": "<i lang=\"fr\">Partir</i> takes <i lang=\"fr\">être</i>: the future of <i lang=\"fr\">être</i> with the participle.",
    "accept": [
     "il sera parti",
     "sera parti"
@@ -122,8 +122,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What tense is <i>vous auriez compris</i>?",
-   "explain": "The conditional of <i>avoir</i> with the participle forms the conditionnel passé, “you would have understood.”",
+   "prompt": "What tense is <i lang=\"fr\">vous auriez compris</i>?",
+   "explain": "The conditional of <i lang=\"fr\">avoir</i> with the participle forms the conditionnel passé, “you would have understood.”",
    "options": [
     "The futur antérieur",
     "The plus-que-parfait",
@@ -138,8 +138,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What tense is <i>il eut terminé</i>?",
-   "explain": "The passé simple of <i>avoir</i> with the participle forms the passé antérieur.",
+   "prompt": "What tense is <i lang=\"fr\">il eut terminé</i>?",
+   "explain": "The passé simple of <i lang=\"fr\">avoir</i> with the participle forms the passé antérieur.",
    "options": [
     "The plus-que-parfait",
     "The passé composé",
@@ -154,8 +154,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>tenir</i>.",
-   "explain": "<i>Tenir</i> has its own passé simple, like <i>venir</i>: <i>il tint</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">tenir</i>.",
+   "explain": "<i lang=\"fr\">Tenir</i> has its own passé simple, like <i lang=\"fr\">venir</i>: <i lang=\"fr\">il tint</i>.",
    "accept": [
     "tint"
    ]
@@ -166,8 +166,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>savoir</i>.",
-   "explain": "<i>Savoir</i> takes the u-endings: <i>il sut</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">savoir</i>.",
+   "explain": "<i lang=\"fr\">Savoir</i> takes the u-endings: <i lang=\"fr\">il sut</i>.",
    "accept": [
     "sut"
    ]
@@ -178,13 +178,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the tense: <i>Quand il ___ son repas, il sortit</i> (“When he had finished his meal, he went out”).",
-   "explain": "After <i>quand</i>, with the passé simple <i>sortit</i>, written narrative uses the passé antérieur.",
+   "prompt": "Choose the tense: <i lang=\"fr\">Quand il ___ son repas, il sortit</i> (“When he had finished his meal, he went out”).",
+   "explain": "After <i lang=\"fr\">quand</i>, with the passé simple <i lang=\"fr\">sortit</i>, written narrative uses the passé antérieur.",
    "options": [
-    "<i>avait fini</i>",
-    "<i>a fini</i>",
-    "<i>aura fini</i>",
-    "<i>eut fini</i>"
+    "<i lang=\"fr\">avait fini</i>",
+    "<i lang=\"fr\">a fini</i>",
+    "<i lang=\"fr\">aura fini</i>",
+    "<i lang=\"fr\">eut fini</i>"
    ],
    "answer": 3
   },
@@ -194,13 +194,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the tense: <i>Si tu étais venu, tu ___</i> (“If you had come, you would have seen her”).",
+   "prompt": "Choose the tense: <i lang=\"fr\">Si tu étais venu, tu ___</i> (“If you had come, you would have seen her”).",
    "explain": "The main clause of an unreal condition about the past takes the conditionnel passé.",
    "options": [
-    "<i>l’avais vue</i>",
-    "<i>l’auras vue</i>",
-    "<i>l’aurais vue</i>",
-    "<i>l’aurait vue</i>"
+    "<i lang=\"fr\">l’avais vue</i>",
+    "<i lang=\"fr\">l’auras vue</i>",
+    "<i lang=\"fr\">l’aurais vue</i>",
+    "<i lang=\"fr\">l’aurait vue</i>"
    ],
    "answer": 2
   },
@@ -210,8 +210,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the plus-que-parfait, third person plural feminine, of <i>arriver</i> (with <i>elles</i>).",
-   "explain": "<i>Arriver</i> takes <i>être</i>, and the participle agrees with the subject.",
+   "prompt": "Write the plus-que-parfait, third person plural feminine, of <i lang=\"fr\">arriver</i> (with <i lang=\"fr\">elles</i>).",
+   "explain": "<i lang=\"fr\">Arriver</i> takes <i lang=\"fr\">être</i>, and the participle agrees with the subject.",
    "accept": [
     "elles étaient arrivées",
     "étaient arrivées"
@@ -223,7 +223,7 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>Il aura manqué le train</i> usually mean?",
+   "prompt": "What does <i lang=\"fr\">Il aura manqué le train</i> usually mean?",
    "explain": "The futur antérieur can state a probability about the past.",
    "options": [
     "“He must have missed the train.”",
@@ -239,8 +239,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, first person plural, of <i>lire</i>.",
-   "explain": "<i>Lire</i> takes the u-endings, with the circumflex in the first and second persons plural: <i>nous lûmes</i>.",
+   "prompt": "Write the passé simple, first person plural, of <i lang=\"fr\">lire</i>.",
+   "explain": "<i lang=\"fr\">Lire</i> takes the u-endings, with the circumflex in the first and second persons plural: <i lang=\"fr\">nous lûmes</i>.",
    "accept": [
     "lûmes",
     "lumes"
@@ -252,13 +252,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>nous allâmes</i>?",
-   "explain": "<i>Aller</i> takes the <i>a</i>-endings of the first group in the passé simple: <i>nous allâmes</i>.",
+   "prompt": "What is <i lang=\"fr\">nous allâmes</i>?",
+   "explain": "<i lang=\"fr\">Aller</i> takes the <i lang=\"fr\">a</i>-endings of the first group in the passé simple: <i lang=\"fr\">nous allâmes</i>.",
    "options": [
-    "The imparfait of <i>aller</i>",
-    "The present subjunctive of <i>aller</i>",
-    "The passé simple of <i>aller</i>",
-    "The future of <i>aller</i>"
+    "The imparfait of <i lang=\"fr\">aller</i>",
+    "The present subjunctive of <i lang=\"fr\">aller</i>",
+    "The passé simple of <i lang=\"fr\">aller</i>",
+    "The future of <i lang=\"fr\">aller</i>"
    ],
    "answer": 2
   },
@@ -268,13 +268,13 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In conversation, how would a speaker say the written <i>Ils entrèrent</i>?",
+   "prompt": "In conversation, how would a speaker say the written <i lang=\"fr\">Ils entrèrent</i>?",
    "explain": "In speech the passé composé takes the place of the passé simple.",
    "options": [
-    "<i>Ils entraient</i>",
-    "<i>Ils sont entrés</i>",
-    "<i>Ils étaient entrés</i>",
-    "<i>Ils entreront</i>"
+    "<i lang=\"fr\">Ils entraient</i>",
+    "<i lang=\"fr\">Ils sont entrés</i>",
+    "<i lang=\"fr\">Ils étaient entrés</i>",
+    "<i lang=\"fr\">Ils entreront</i>"
    ],
    "answer": 1
   },
@@ -284,8 +284,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the conditionnel passé, first person singular, of <i>partir</i> (with <i>je</i>).",
-   "explain": "<i>Partir</i> takes <i>être</i>, so the conditionnel passé is <i>je serais parti</i> (<i>partie</i> for a woman).",
+   "prompt": "Write the conditionnel passé, first person singular, of <i lang=\"fr\">partir</i> (with <i lang=\"fr\">je</i>).",
+   "explain": "<i lang=\"fr\">Partir</i> takes <i lang=\"fr\">être</i>, so the conditionnel passé is <i lang=\"fr\">je serais parti</i> (<i lang=\"fr\">partie</i> for a woman).",
    "accept": [
     "je serais parti",
     "je serais partie",
@@ -315,8 +315,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person plural, of <i>prendre</i>.",
-   "explain": "<i>Prendre</i> takes the <i>i</i>-endings on the stem <i>pr-</i>: <i>ils prirent</i>.",
+   "prompt": "Write the passé simple, third person plural, of <i lang=\"fr\">prendre</i>.",
+   "explain": "<i lang=\"fr\">Prendre</i> takes the <i lang=\"fr\">i</i>-endings on the stem <i lang=\"fr\">pr-</i>: <i lang=\"fr\">ils prirent</i>.",
    "accept": [
     "prirent"
    ]
@@ -327,12 +327,12 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>Nous étions déjà partis quand il arriva</i> show?",
-   "explain": "<i>Étions partis</i> is the plus-que-parfait: the leaving came before the arrival.",
+   "prompt": "What does <i lang=\"fr\">Nous étions déjà partis quand il arriva</i> show?",
+   "explain": "<i lang=\"fr\">Étions partis</i> is the plus-que-parfait: the leaving came before the arrival.",
    "options": [
     "The plus-que-parfait for an earlier action",
     "The futur antérieur for a probability about the past",
-    "The passé antérieur after <i>quand</i>",
+    "The passé antérieur after <i lang=\"fr\">quand</i>",
     "The conditionnel passé for an unreal result"
    ],
    "answer": 0
@@ -343,8 +343,8 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "deck": "lang.iii-decl.fr/tenses-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the passé simple, third person singular, of <i>faire</i>.",
-   "explain": "<i>Faire</i> has the passé simple <i>je fis, il fit</i>.",
+   "prompt": "Write the passé simple, third person singular, of <i lang=\"fr\">faire</i>.",
+   "explain": "<i lang=\"fr\">Faire</i> has the passé simple <i lang=\"fr\">je fis, il fit</i>.",
    "accept": [
     "fit"
    ]

@@ -31,7 +31,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In Greek, <i>τὸ φιλοσοφεῖν</i> is…",
+   "prompt": "In Greek, <i lang=\"grc\">τὸ φιλοσοφεῖν</i> is…",
    "explain": "The neuter article makes the infinitive a noun. Latin has no article, so it cannot do this. The phrase means “philosophizing.”",
    "options": [
     "An infinitive made a noun by the article",
@@ -94,7 +94,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<i>ἄνθρωπος</i> without the article means…",
+   "prompt": "<i lang=\"grc\">ἄνθρωπος</i> without the article means…",
    "explain": "Greek has no indefinite article; the bare noun is indefinite.",
    "options": [
     "“a man” or “man”",
@@ -110,7 +110,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<i>τὸ καλόν</i> means…",
+   "prompt": "<i lang=\"grc\">τὸ καλόν</i> means…",
    "explain": "The neuter article makes the adjective a noun.",
    "options": [
     "“the beautiful”",
@@ -126,7 +126,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "<i>λύσας</i>, “having loosed,” is…",
+   "prompt": "<i lang=\"grc\">λύσας</i>, “having loosed,” is…",
    "explain": "Latin has no active participle of the past in most verbs; Greek has the aorist.",
    "options": [
     "An aorist active participle, a form Latin lacks",
@@ -176,7 +176,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which articles does Greek have?",
-   "explain": "Greek has the definite article <i>ὁ, ἡ, τό</i>. It has no indefinite article. French and German have both.",
+   "explain": "Greek has the definite article <i lang=\"grc\">ὁ, ἡ, τό</i>. It has no indefinite article. French and German have both.",
    "options": [
     "An indefinite article and no definite one",
     "Both a definite and an indefinite article",
@@ -208,12 +208,12 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which pair shows a definite article and an indefinite article in German?",
-   "explain": "German has both. <i>der König</i> is definite, and <i>ein König</i> is indefinite. French has the same pair of kinds in <i>le roi</i> and <i>un roi</i>.",
+   "explain": "German has both. <i lang=\"grc\">der König</i> is definite, and <i lang=\"grc\">ein König</i> is indefinite. French has the same pair of kinds in <i lang=\"grc\">le roi</i> and <i lang=\"grc\">un roi</i>.",
    "options": [
-    "<i>der König</i> and <i>ein König</i>",
-    "<i>ὁ</i> and <i>ἡ</i>, two genders of one definite article",
-    "<i>τὸ καλόν</i> and <i>οἱ τότε</i>",
-    "<i>le roi</i> alone, with no second form"
+    "<i lang=\"grc\">der König</i> and <i lang=\"grc\">ein König</i>",
+    "<i lang=\"grc\">ὁ</i> and <i lang=\"grc\">ἡ</i>, two genders of one definite article",
+    "<i lang=\"grc\">τὸ καλόν</i> and <i lang=\"grc\">οἱ τότε</i>",
+    "<i lang=\"grc\">le roi</i> alone, with no second form"
    ],
    "answer": 0
   },
@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What can the Greek article do with an adverb?",
-   "explain": "The article can turn an adverb into a noun, as <i>οἱ τότε</i> means “the men of that time.” Latin has no article with which to do that.",
+   "explain": "The article can turn an adverb into a noun, as <i lang=\"grc\">οἱ τότε</i> means “the men of that time.” Latin has no article with which to do that.",
    "options": [
     "Nothing; an adverb cannot stand with the article",
     "Give it a past augment",
@@ -308,7 +308,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "options": [
     "With an indefinite article of its own",
     "A noun, a relative, or the adjective",
-    "With the same article <i>ὁ, ἡ, τό</i>",
+    "With the same article <i lang=\"grc\">ὁ, ἡ, τό</i>",
     "Only with a participle of the future"
    ],
    "answer": 1
@@ -319,7 +319,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What do <i>der gute Mann</i> and <i>ein guter Mann</i> show about the German adjective?",
+   "prompt": "What do <i lang=\"grc\">der gute Mann</i> and <i lang=\"grc\">ein guter Mann</i> show about the German adjective?",
    "explain": "The adjective changes its ending with the article before it. That agreement is why the adjective is filed with the noun.",
    "options": [
     "The adjective never changes",
@@ -335,8 +335,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>ὁ</b> στρατηγὸς λέγει.</i> (“The general speaks.”)",
-   "explain": "<i>Ὁ</i> is the article, which agrees with <i>στρατηγός</i>; the Greek list counts it as a part of its own.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ὁ</b> στρατηγὸς λέγει.</i> (“The general speaks.”)",
+   "explain": "<i lang=\"grc\">Ὁ</i> is the article, which agrees with <i lang=\"grc\">στρατηγός</i>; the Greek list counts it as a part of its own.",
    "options": [
     "pronoun",
     "article",
@@ -351,8 +351,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ <b>στρατηγὸς</b> λέγει.</i> (“The general speaks.”)",
-   "explain": "<i>Στρατηγός</i> names a person and is declined: a noun.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ <b>στρατηγὸς</b> λέγει.</i> (“The general speaks.”)",
+   "explain": "<i lang=\"grc\">Στρατηγός</i> names a person and is declined: a noun.",
    "options": [
     "article",
     "participle",
@@ -367,8 +367,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ στρατηγὸς <b>λέγει</b>.</i> (“The general speaks.”)",
-   "explain": "<i>Λέγει</i> has person, number, tense, mood, and voice: a verb.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>λέγει</b>.</i> (“The general speaks.”)",
+   "explain": "<i lang=\"grc\">Λέγει</i> has person, number, tense, mood, and voice: a verb.",
    "options": [
     "participle",
     "verb",
@@ -383,7 +383,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ <b>ἀγαθὸς</b> στρατηγὸς λέγει.</i> (“The good general speaks.”)",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ <b>ἀγαθὸς</b> στρατηγὸς λέγει.</i> (“The good general speaks.”)",
    "explain": "The Greek list, like Donatus, counts the adjective under the noun, because it takes the gender, number, and case of its noun.",
    "options": [
     "participle",
@@ -399,8 +399,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>ἡμεῖς</b> ἀκούομεν.</i> (“We listen.”)",
-   "explain": "<i>Ἡμεῖς</i> stands for the speakers without naming them: a pronoun.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ἡμεῖς</b> ἀκούομεν.</i> (“We listen.”)",
+   "explain": "<i lang=\"grc\">Ἡμεῖς</i> stands for the speakers without naming them: a pronoun.",
    "options": [
     "noun",
     "article",
@@ -415,8 +415,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ στρατηγὸς <b>λέγων</b> ἀπῆλθεν.</i> (“The general went away speaking.”)",
-   "explain": "<i>Λέγων</i> is declined like an adjective and has tense and voice like a verb: a participle.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>λέγων</b> ἀπῆλθεν.</i> (“The general went away speaking.”)",
+   "explain": "<i lang=\"grc\">Λέγων</i> is declined like an adjective and has tense and voice like a verb: a participle.",
    "options": [
     "participle",
     "verb",
@@ -431,8 +431,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>ἐκ</b> τῆς οἰκίας ἦλθεν.</i> (“He came out of the house.”)",
-   "explain": "<i>Ἐκ</i> governs the genitive <i>τῆς οἰκίας</i> and does not change: a preposition.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ἐκ</b> τῆς οἰκίας ἦλθεν.</i> (“He came out of the house.”)",
+   "explain": "<i lang=\"grc\">Ἐκ</i> governs the genitive <i lang=\"grc\">τῆς οἰκίας</i> and does not change: a preposition.",
    "options": [
     "preposition",
     "conjunction",
@@ -447,8 +447,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>καλῶς</b> λέγει.</i> (“He speaks well.”)",
-   "explain": "<i>Καλῶς</i> tells how he speaks: an adverb, formed from the adjective <i>καλός</i>.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>καλῶς</b> λέγει.</i> (“He speaks well.”)",
+   "explain": "<i lang=\"grc\">Καλῶς</i> tells how he speaks: an adverb, formed from the adjective <i lang=\"grc\">καλός</i>.",
    "options": [
     "adverb",
     "noun",
@@ -463,8 +463,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ στρατηγὸς <b>καὶ</b> οἱ στρατιῶται ἦλθον.</i> (“The general and the soldiers came.”)",
-   "explain": "<i>Καί</i> joins the two subjects: a conjunction.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>καὶ</b> οἱ στρατιῶται ἦλθον.</i> (“The general and the soldiers came.”)",
+   "explain": "<i lang=\"grc\">Καί</i> joins the two subjects: a conjunction.",
    "options": [
     "conjunction",
     "preposition",
@@ -479,8 +479,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i>ὁ μὲν λέγει, ὁ <b>δὲ</b> σιγᾷ.</i> (“One speaks, and the other is silent.”)",
-   "explain": "<i>Δέ</i> answers <i>μέν</i> and joins the two clauses; the Greek list counts it among the conjunctions.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ μὲν λέγει, ὁ <b>δὲ</b> σιγᾷ.</i> (“One speaks, and the other is silent.”)",
+   "explain": "<i lang=\"grc\">Δέ</i> answers <i lang=\"grc\">μέν</i> and joins the two clauses; the Greek list counts it among the conjunctions.",
    "options": [
     "adverb",
     "conjunction",
@@ -495,8 +495,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>φεῦ</b>, ἀπῆλθεν.</i> (“Alas, he has gone.”)",
-   "explain": "The Greek grammarians had no separate interjection; Dionysius Thrax counts a word like <i>φεῦ</i> among the adverbs. The Latin list makes it a part of its own.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b>, ἀπῆλθεν.</i> (“Alas, he has gone.”)",
+   "explain": "The Greek grammarians had no separate interjection; Dionysius Thrax counts a word like <i lang=\"grc\">φεῦ</i> among the adverbs. The Latin list makes it a part of its own.",
    "options": [
     "conjunction",
     "pronoun",
@@ -511,8 +511,8 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i><b>οὐ</b> λέγει.</i> (“He does not speak.”)",
-   "explain": "The negative <i>οὐ</i> belongs with the verb and does not change: an adverb.",
+   "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>οὐ</b> λέγει.</i> (“He does not speak.”)",
+   "explain": "The negative <i lang=\"grc\">οὐ</i> belongs with the verb and does not change: an adverb.",
    "options": [
     "conjunction",
     "preposition",

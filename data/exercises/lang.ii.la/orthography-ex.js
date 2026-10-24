@@ -15,7 +15,7 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How did the Romans write the vowel and the consonant in <i>ūnus</i> and <i>vīnum</i>?",
+   "prompt": "How did the Romans write the vowel and the consonant in <i lang=\"la\">ūnus</i> and <i lang=\"la\">vīnum</i>?",
    "explain": "The Romans had one letter for both.",
    "options": [
     "With two letters, U and V",
@@ -32,12 +32,12 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How do most modern editions print the consonant in “life”?",
-   "explain": "Most print <i>v</i> for the consonant.",
+   "explain": "Most print <i lang=\"la\">v</i> for the consonant.",
    "options": [
-    "<i>wita</i>",
-    "<i>fita</i>",
-    "<i>bita</i>",
-    "<i>vīta</i>"
+    "<i lang=\"la\">wita</i>",
+    "<i lang=\"la\">fita</i>",
+    "<i lang=\"la\">bita</i>",
+    "<i lang=\"la\">vīta</i>"
    ],
    "answer": 3
   },
@@ -48,12 +48,12 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which spelling would few modern editions print?",
-   "explain": "Few editions now print <i>j</i>.",
+   "explain": "Few editions now print <i lang=\"la\">j</i>.",
    "options": [
-    "<i>jūdex</i>",
-    "<i>iūdex</i>",
-    "<i>iudex</i>",
-    "<i>iūdicem</i>"
+    "<i lang=\"la\">jūdex</i>",
+    "<i lang=\"la\">iūdex</i>",
+    "<i lang=\"la\">iudex</i>",
+    "<i lang=\"la\">iūdicem</i>"
    ],
    "answer": 0
   },
@@ -64,12 +64,12 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which word has a diphthong?",
-   "explain": "<i>Oe</i> is a diphthong.",
+   "explain": "<i lang=\"la\">Oe</i> is a diphthong.",
    "options": [
-    "<i>via</i>",
-    "<i>poena</i>",
-    "<i>suus</i>",
-    "<i>meīs</i>"
+    "<i lang=\"la\">via</i>",
+    "<i lang=\"la\">poena</i>",
+    "<i lang=\"la\">suus</i>",
+    "<i lang=\"la\">meīs</i>"
    ],
    "answer": 1
   },
@@ -80,12 +80,12 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which of these words has a diphthong in its first syllable?",
-   "explain": "<i>Au</i> is a diphthong.",
+   "explain": "<i lang=\"la\">Au</i> is a diphthong.",
    "options": [
-    "<i>diēs</i>",
-    "<i>fuit</i>",
-    "<i>aurum</i>",
-    "<i>meum</i>"
+    "<i lang=\"la\">diēs</i>",
+    "<i lang=\"la\">fuit</i>",
+    "<i lang=\"la\">aurum</i>",
+    "<i lang=\"la\">meum</i>"
    ],
    "answer": 2
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>Q.</i> stand for before a Roman name?",
-   "explain": "<i>Q.</i> is <i>Quīntus</i>.",
+   "prompt": "What does <i lang=\"la\">Q.</i> stand for before a Roman name?",
+   "explain": "<i lang=\"la\">Q.</i> is <i lang=\"la\">Quīntus</i>.",
    "options": [
-    "<i>Quirīnus</i>",
-    "<i>Quaestor</i>",
-    "<i>Quī</i>",
-    "<i>Quīntus</i>"
+    "<i lang=\"la\">Quirīnus</i>",
+    "<i lang=\"la\">Quaestor</i>",
+    "<i lang=\"la\">Quī</i>",
+    "<i lang=\"la\">Quīntus</i>"
    ],
    "answer": 3
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>L.</i> stand for before a Roman name?",
-   "explain": "<i>L.</i> is <i>Lūcius</i>.",
+   "prompt": "What does <i lang=\"la\">L.</i> stand for before a Roman name?",
+   "explain": "<i lang=\"la\">L.</i> is <i lang=\"la\">Lūcius</i>.",
    "options": [
-    "<i>Lūcius</i>",
-    "<i>Laelius</i>",
-    "<i>Lēgātus</i>",
-    "<i>Līvius</i>"
+    "<i lang=\"la\">Lūcius</i>",
+    "<i lang=\"la\">Laelius</i>",
+    "<i lang=\"la\">Lēgātus</i>",
+    "<i lang=\"la\">Līvius</i>"
    ],
    "answer": 0
   },
@@ -127,11 +127,11 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Why is the first syllable of <i>peior</i> long?",
-   "explain": "The consonant <i>i</i> was pronounced double.",
+   "prompt": "Why is the first syllable of <i lang=\"la\">peior</i> long?",
+   "explain": "The consonant <i lang=\"la\">i</i> was pronounced double.",
    "options": [
     "Its vowel is long by nature",
-    "The consonant <i>i</i> between vowels makes it long",
+    "The consonant <i lang=\"la\">i</i> between vowels makes it long",
     "It is a diphthong",
     "It bears the accent"
    ],
@@ -143,11 +143,11 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the diaeresis in <i>Danaë</i> show?",
-   "explain": "It shows that <i>ae</i> is not a diphthong here.",
+   "prompt": "What does the diaeresis in <i lang=\"la\">Danaë</i> show?",
+   "explain": "It shows that <i lang=\"la\">ae</i> is not a diphthong here.",
    "options": [
     "The vowel is long",
-    "The word is Greek and the accent falls on <i>e</i>",
+    "The word is Greek and the accent falls on <i lang=\"la\">e</i>",
     "The two vowels are pronounced apart",
     "A letter has been dropped"
    ],
@@ -159,13 +159,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>Cn.</i> stand for?",
-   "explain": "C once stood for <i>g</i> as well.",
+   "prompt": "What does <i lang=\"la\">Cn.</i> stand for?",
+   "explain": "C once stood for <i lang=\"la\">g</i> as well.",
    "options": [
-    "<i>Cornēlius</i>",
-    "<i>Cnossus</i>",
-    "<i>Gnaeus</i>",
-    "<i>Consul</i>"
+    "<i lang=\"la\">Cornēlius</i>",
+    "<i lang=\"la\">Cnossus</i>",
+    "<i lang=\"la\">Gnaeus</i>",
+    "<i lang=\"la\">Consul</i>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>Ti.</i> stand for?",
-   "explain": "<i>Ti.</i> is <i>Tiberius</i>; <i>T.</i> is <i>Titus</i>.",
+   "prompt": "What does <i lang=\"la\">Ti.</i> stand for?",
+   "explain": "<i lang=\"la\">Ti.</i> is <i lang=\"la\">Tiberius</i>; <i lang=\"la\">T.</i> is <i lang=\"la\">Titus</i>.",
    "options": [
-    "<i>Titus</i>",
-    "<i>Tiberius</i>",
-    "<i>Tullius</i>",
-    "<i>Tribūnus</i>"
+    "<i lang=\"la\">Titus</i>",
+    "<i lang=\"la\">Tiberius</i>",
+    "<i lang=\"la\">Tullius</i>",
+    "<i lang=\"la\">Tribūnus</i>"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>C. Iūlius Caesar</i>, which name is the first name, the <i>praenōmen</i>?",
+   "prompt": "In <i lang=\"la\">C. Iūlius Caesar</i>, which name is the first name, the <i lang=\"la\">praenōmen</i>?",
    "explain": "The praenomen comes first and is abbreviated.",
    "options": [
-    "<i>Gāius</i>, written <i>C.</i>",
-    "<i>Iūlius</i>",
-    "<i>Caesar</i>",
-    "<i>Cornēlius</i>, written <i>C.</i>"
+    "<i lang=\"la\">Gāius</i>, written <i lang=\"la\">C.</i>",
+    "<i lang=\"la\">Iūlius</i>",
+    "<i lang=\"la\">Caesar</i>",
+    "<i lang=\"la\">Cornēlius</i>, written <i lang=\"la\">C.</i>"
    ],
    "answer": 0
   },
@@ -207,7 +207,7 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In an edition without macrons, how do we know whether <i>puella</i> is <i>puella</i> or <i>puellā</i>?",
+   "prompt": "In an edition without macrons, how do we know whether <i lang=\"la\">puella</i> is <i lang=\"la\">puella</i> or <i lang=\"la\">puellā</i>?",
    "explain": "The construction shows the case.",
    "options": [
     "From the accent mark",
@@ -239,13 +239,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Whose is the question mark in <i>quō vādis?</i> in a modern edition?",
+   "prompt": "Whose is the question mark in <i lang=\"la\">quō vādis?</i> in a modern edition?",
    "explain": "Ancient books had no question mark.",
    "options": [
     "The author’s",
     "The editor’s",
     "The Roman scribe’s",
-    "It belongs to the word <i>quō</i>"
+    "It belongs to the word <i lang=\"la\">quō</i>"
    ],
    "answer": 1
   },
@@ -258,10 +258,10 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "prompt": "Which would an edition usually print with a capital?",
    "explain": "Adjectives made from proper names take capitals.",
    "options": [
-    "<i>Rōmānus</i>, the adjective",
-    "<i>rēx</i>, “king”",
-    "<i>pater</i>, “father”",
-    "<i>bellum</i>, “war”"
+    "<i lang=\"la\">Rōmānus</i>, the adjective",
+    "<i lang=\"la\">rēx</i>, “king”",
+    "<i lang=\"la\">pater</i>, “father”",
+    "<i lang=\"la\">bellum</i>, “war”"
    ],
    "answer": 0
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "An edition prints <i>uirum</i>. How do we read it?",
-   "explain": "Some editions print <i>u</i> for both sounds.",
+   "prompt": "An edition prints <i lang=\"la\">uirum</i>. How do we read it?",
+   "explain": "Some editions print <i lang=\"la\">u</i> for both sounds.",
    "options": [
-    "As three vowels, <i>u-i-rum</i>",
-    "As <i>virum</i>, with a consonant <i>v</i>",
+    "As three vowels, <i lang=\"la\">u-i-rum</i>",
+    "As <i lang=\"la\">virum</i>, with a consonant <i lang=\"la\">v</i>",
     "As a Greek word",
-    "As a misprint for <i>verum</i>"
+    "As a misprint for <i lang=\"la\">verum</i>"
    ],
    "answer": 1
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>D.</i> stand for before a Roman name?",
-   "explain": "<i>D.</i> is <i>Decimus</i>.",
+   "prompt": "What does <i lang=\"la\">D.</i> stand for before a Roman name?",
+   "explain": "<i lang=\"la\">D.</i> is <i lang=\"la\">Decimus</i>.",
    "options": [
-    "<i>Deus</i>",
-    "<i>Decimus</i>",
-    "<i>Dīvus</i>",
-    "<i>Dominus</i>"
+    "<i lang=\"la\">Deus</i>",
+    "<i lang=\"la\">Decimus</i>",
+    "<i lang=\"la\">Dīvus</i>",
+    "<i lang=\"la\">Dominus</i>"
    ],
    "answer": 1
   },
@@ -335,12 +335,12 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is <i>œ</i> in older printing?",
-   "explain": "It is a ligature of <i>o</i> and <i>e</i>.",
+   "prompt": "What is <i lang=\"la\">œ</i> in older printing?",
+   "explain": "It is a ligature of <i lang=\"la\">o</i> and <i lang=\"la\">e</i>.",
    "options": [
-    "A long <i>o</i>",
+    "A long <i lang=\"la\">o</i>",
     "The Greek letter omega, written in Latin books",
-    "The diphthong <i>oe</i> written as one sign",
+    "The diphthong <i lang=\"la\">oe</i> written as one sign",
     "An abbreviation"
    ],
    "answer": 2
@@ -351,13 +351,13 @@ ARS.exercises["lang.ii.la/orthography-ex"] = {
    "deck": "lang.ii.la/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which word begins with a consonant <i>i</i>?",
-   "explain": "In <i>iam</i>, <i>i</i> is followed by a vowel and is a consonant.",
+   "prompt": "Which word begins with a consonant <i lang=\"la\">i</i>?",
+   "explain": "In <i lang=\"la\">iam</i>, <i lang=\"la\">i</i> is followed by a vowel and is a consonant.",
    "options": [
-    "<i>īra</i>",
-    "<i>inter</i>",
-    "<i>īnsula</i>",
-    "<i>iam</i>"
+    "<i lang=\"la\">īra</i>",
+    "<i lang=\"la\">inter</i>",
+    "<i lang=\"la\">īnsula</i>",
+    "<i lang=\"la\">iam</i>"
    ],
    "answer": 3
   }

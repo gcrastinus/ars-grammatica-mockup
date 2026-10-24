@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Le garçon ___ chante est mon frère.</i> (“The boy who is singing is my brother”).",
-   "explain": "The relative is the subject of <i>chante</i>: <i>qui</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Le garçon ___ chante est mon frère.</i> (“The boy who is singing is my brother”).",
+   "explain": "The relative is the subject of <i lang=\"fr\">chante</i>: <i lang=\"fr\">qui</i>.",
    "options": [
-    "<i>que</i>",
-    "<i>dont</i>",
-    "<i>où</i>",
-    "<i>qui</i>"
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">dont</i>",
+    "<i lang=\"fr\">où</i>",
+    "<i lang=\"fr\">qui</i>"
    ],
    "answer": 3
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Le film ___ nous avons vu était long.</i> (“The film that we saw was long”).",
-   "explain": "The relative is the direct object of <i>avons vu</i>: <i>que</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Le film ___ nous avons vu était long.</i> (“The film that we saw was long”).",
+   "explain": "The relative is the direct object of <i lang=\"fr\">avons vu</i>: <i lang=\"fr\">que</i>.",
    "options": [
-    "<i>qui</i>",
-    "<i>dont</i>",
-    "<i>que</i>",
-    "<i>où</i>"
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">dont</i>",
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">où</i>"
    ],
    "answer": 2
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Le village ___ je suis né est petit.</i> (“The village where I was born is small”).",
-   "explain": "For place, French uses <i>où</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Le village ___ je suis né est petit.</i> (“The village where I was born is small”).",
+   "explain": "For place, French uses <i lang=\"fr\">où</i>.",
    "options": [
-    "<i>que</i>",
-    "<i>où</i>",
-    "<i>qui</i>",
-    "<i>dont</i>"
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">où</i>",
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">dont</i>"
    ],
    "answer": 1
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ arbre est très vieux.</i> (“This tree is very old”).",
-   "explain": "<i>Arbre</i> is masculine and begins with a vowel, so <i>ce</i> becomes <i>cet</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ arbre est très vieux.</i> (“This tree is very old”).",
+   "explain": "<i lang=\"fr\">Arbre</i> is masculine and begins with a vowel, so <i lang=\"fr\">ce</i> becomes <i lang=\"fr\">cet</i>.",
    "options": [
-    "<i>Cet</i>",
-    "<i>Ce</i>",
-    "<i>Cette</i>",
-    "<i>Ces</i>"
+    "<i lang=\"fr\">Cet</i>",
+    "<i lang=\"fr\">Ce</i>",
+    "<i lang=\"fr\">Cette</i>",
+    "<i lang=\"fr\">Ces</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ chemise est neuve.</i> (“This shirt is new”).",
-   "explain": "<i>Chemise</i> is feminine: <i>cette</i>. <i>Celle</i> is the pronoun, which cannot stand before a noun.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ chemise est neuve.</i> (“This shirt is new”).",
+   "explain": "<i lang=\"fr\">Chemise</i> is feminine: <i lang=\"fr\">cette</i>. <i lang=\"fr\">Celle</i> is the pronoun, which cannot stand before a noun.",
    "options": [
-    "<i>Cet</i>",
-    "<i>Ce</i>",
-    "<i>Celle</i>",
-    "<i>Cette</i>"
+    "<i lang=\"fr\">Cet</i>",
+    "<i lang=\"fr\">Ce</i>",
+    "<i lang=\"fr\">Celle</i>",
+    "<i lang=\"fr\">Cette</i>"
    ],
    "answer": 3
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Paul a perdu ___ clés.</i> (“Paul has lost his keys”).",
-   "explain": "The possessive agrees with the things possessed, <i>clés</i>, plural: <i>ses</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Paul a perdu ___ clés.</i> (“Paul has lost his keys”).",
+   "explain": "The possessive agrees with the things possessed, <i lang=\"fr\">clés</i>, plural: <i lang=\"fr\">ses</i>.",
    "options": [
-    "<i>leurs</i>",
-    "<i>son</i>",
-    "<i>ses</i>",
-    "<i>sa</i>"
+    "<i lang=\"fr\">leurs</i>",
+    "<i lang=\"fr\">son</i>",
+    "<i lang=\"fr\">ses</i>",
+    "<i lang=\"fr\">sa</i>"
    ],
    "answer": 2
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Marie aime ___ frère.</i> (“Marie loves her brother”).",
-   "explain": "The possessive agrees with <i>frère</i>, masculine: <i>son</i>, even though the possessor is a woman.",
+   "prompt": "Choose the word: <i lang=\"fr\">Marie aime ___ frère.</i> (“Marie loves her brother”).",
+   "explain": "The possessive agrees with <i lang=\"fr\">frère</i>, masculine: <i lang=\"fr\">son</i>, even though the possessor is a woman.",
    "options": [
-    "<i>sa</i>",
-    "<i>son</i>",
-    "<i>ses</i>",
-    "<i>leur</i>"
+    "<i lang=\"fr\">sa</i>",
+    "<i lang=\"fr\">son</i>",
+    "<i lang=\"fr\">ses</i>",
+    "<i lang=\"fr\">leur</i>"
    ],
    "answer": 1
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ livre lis-tu?</i> (“Which book are you reading”).",
-   "explain": "Before a masculine noun, “which” is <i>quel</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ livre lis-tu?</i> (“Which book are you reading”).",
+   "explain": "Before a masculine noun, “which” is <i lang=\"fr\">quel</i>.",
    "options": [
-    "<i>Quel</i>",
-    "<i>Quelle</i>",
-    "<i>Lequel</i>",
-    "<i>Que</i>"
+    "<i lang=\"fr\">Quel</i>",
+    "<i lang=\"fr\">Quelle</i>",
+    "<i lang=\"fr\">Lequel</i>",
+    "<i lang=\"fr\">Que</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Voici l’ami ___ je t’ai parlé.</i> (“Here is the friend I spoke to you about”).",
-   "explain": "<i>Parler de</i>: the relative stands for <i>de</i> with the antecedent, so <i>dont</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Voici l’ami ___ je t’ai parlé.</i> (“Here is the friend I spoke to you about”).",
+   "explain": "<i lang=\"fr\">Parler de</i>: the relative stands for <i lang=\"fr\">de</i> with the antecedent, so <i lang=\"fr\">dont</i>.",
    "options": [
-    "<i>que</i>",
-    "<i>qui</i>",
-    "<i>lequel</i>",
-    "<i>dont</i>"
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">lequel</i>",
+    "<i lang=\"fr\">dont</i>"
    ],
    "answer": 3
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>La raison pour ___ il est parti reste obscure.</i> (“The reason for which he left remains obscure”).",
-   "explain": "After a preposition, a thing takes <i>lequel</i>, agreeing with <i>la raison</i>: <i>laquelle</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">La raison pour ___ il est parti reste obscure.</i> (“The reason for which he left remains obscure”).",
+   "explain": "After a preposition, a thing takes <i lang=\"fr\">lequel</i>, agreeing with <i lang=\"fr\">la raison</i>: <i lang=\"fr\">laquelle</i>.",
    "options": [
-    "<i>lequel</i>",
-    "<i>laquelle</i>",
-    "<i>qui</i>",
-    "<i>quoi</i>"
+    "<i lang=\"fr\">lequel</i>",
+    "<i lang=\"fr\">laquelle</i>",
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">quoi</i>"
    ],
    "answer": 1
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Le projet ___ il pense est ambitieux.</i> (“The plan he is thinking of is ambitious”).",
-   "explain": "<i>Penser à</i>: <i>à</i> with <i>lequel</i> contracts to <i>auquel</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Le projet ___ il pense est ambitieux.</i> (“The plan he is thinking of is ambitious”).",
+   "explain": "<i lang=\"fr\">Penser à</i>: <i lang=\"fr\">à</i> with <i lang=\"fr\">lequel</i> contracts to <i lang=\"fr\">auquel</i>.",
    "options": [
-    "<i>duquel</i>",
-    "<i>dont</i>",
-    "<i>auquel</i>",
-    "<i>que</i>"
+    "<i lang=\"fr\">duquel</i>",
+    "<i lang=\"fr\">dont</i>",
+    "<i lang=\"fr\">auquel</i>",
+    "<i lang=\"fr\">que</i>"
    ],
    "answer": 2
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Dis-moi ___ te fait peur.</i> (“Tell me what frightens you”).",
-   "explain": "Without an antecedent, “what” as subject is <i>ce qui</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Dis-moi ___ te fait peur.</i> (“Tell me what frightens you”).",
+   "explain": "Without an antecedent, “what” as subject is <i lang=\"fr\">ce qui</i>.",
    "options": [
-    "<i>ce que</i>",
-    "<i>qui</i>",
-    "<i>quoi</i>",
-    "<i>ce qui</i>"
+    "<i lang=\"fr\">ce que</i>",
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">quoi</i>",
+    "<i lang=\"fr\">ce qui</i>"
    ],
    "answer": 3
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Je ne comprends pas ___ tu dis.</i> (“I do not understand what you are saying”).",
-   "explain": "Without an antecedent, “what” as object is <i>ce que</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Je ne comprends pas ___ tu dis.</i> (“I do not understand what you are saying”).",
+   "explain": "Without an antecedent, “what” as object is <i lang=\"fr\">ce que</i>.",
    "options": [
-    "<i>ce que</i>",
-    "<i>ce qui</i>",
-    "<i>que</i>",
-    "<i>quoi</i>"
+    "<i lang=\"fr\">ce que</i>",
+    "<i lang=\"fr\">ce qui</i>",
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">quoi</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Ces gants sont ___ de mon père.</i> (“These gloves are my father’s”).",
-   "explain": "The pronoun agrees with <i>gants</i>, masculine plural, and is completed by <i>de</i>: <i>ceux</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Ces gants sont ___ de mon père.</i> (“These gloves are my father’s”).",
+   "explain": "The pronoun agrees with <i lang=\"fr\">gants</i>, masculine plural, and is completed by <i lang=\"fr\">de</i>: <i lang=\"fr\">ceux</i>.",
    "options": [
-    "<i>celui</i>",
-    "<i>ceux</i>",
-    "<i>celles</i>",
-    "<i>ces</i>"
+    "<i lang=\"fr\">celui</i>",
+    "<i lang=\"fr\">ceux</i>",
+    "<i lang=\"fr\">celles</i>",
+    "<i lang=\"fr\">ces</i>"
    ],
    "answer": 1
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Votre jardin est grand; ___ est petit.</i> (“Your garden is large; ours is small”).",
-   "explain": "The possessive pronoun takes the article and agrees with <i>jardin</i>: <i>le nôtre</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Votre jardin est grand; ___ est petit.</i> (“Your garden is large; ours is small”).",
+   "explain": "The possessive pronoun takes the article and agrees with <i lang=\"fr\">jardin</i>: <i lang=\"fr\">le nôtre</i>.",
    "options": [
-    "<i>notre</i>",
-    "<i>la nôtre</i>",
-    "<i>le nôtre</i>",
-    "<i>les nôtres</i>"
+    "<i lang=\"fr\">notre</i>",
+    "<i lang=\"fr\">la nôtre</i>",
+    "<i lang=\"fr\">le nôtre</i>",
+    "<i lang=\"fr\">les nôtres</i>"
    ],
    "answer": 2
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Il pense à ses parents; je pense ___.</i> (“He thinks of his parents; I think of mine”).",
-   "explain": "<i>À</i> with <i>les</i> contracts to <i>aux</i>, and <i>miens</i> agrees with <i>parents</i>, masculine plural.",
+   "prompt": "Choose the word: <i lang=\"fr\">Il pense à ses parents; je pense ___.</i> (“He thinks of his parents; I think of mine”).",
+   "explain": "<i lang=\"fr\">À</i> with <i lang=\"fr\">les</i> contracts to <i lang=\"fr\">aux</i>, and <i lang=\"fr\">miens</i> agrees with <i lang=\"fr\">parents</i>, masculine plural.",
    "options": [
-    "<i>à les miens</i>",
-    "<i>aux miennes</i>",
-    "<i>au mien</i>",
-    "<i>aux miens</i>"
+    "<i lang=\"fr\">à les miens</i>",
+    "<i lang=\"fr\">aux miennes</i>",
+    "<i lang=\"fr\">au mien</i>",
+    "<i lang=\"fr\">aux miens</i>"
    ],
    "answer": 3
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ de ces deux robes préfères-tu?</i> (“Which of these two dresses do you prefer”).",
-   "explain": "Standing alone, “which one” is the pronoun <i>lequel</i>, agreeing with <i>robes</i>: <i>laquelle</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ de ces deux robes préfères-tu?</i> (“Which of these two dresses do you prefer”).",
+   "explain": "Standing alone, “which one” is the pronoun <i lang=\"fr\">lequel</i>, agreeing with <i lang=\"fr\">robes</i>: <i lang=\"fr\">laquelle</i>.",
    "options": [
-    "<i>Laquelle</i>",
-    "<i>Quelle</i>",
-    "<i>Lequel</i>",
-    "<i>Lesquelles</i>"
+    "<i lang=\"fr\">Laquelle</i>",
+    "<i lang=\"fr\">Quelle</i>",
+    "<i lang=\"fr\">Lequel</i>",
+    "<i lang=\"fr\">Lesquelles</i>"
    ],
    "answer": 0
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>De ___ parles-tu?</i> (“What are you talking about”).",
-   "explain": "After a preposition, “what” is <i>quoi</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">De ___ parles-tu?</i> (“What are you talking about”).",
+   "explain": "After a preposition, “what” is <i lang=\"fr\">quoi</i>.",
    "options": [
-    "<i>que</i>",
-    "<i>quoi</i>",
-    "<i>quel</i>",
-    "<i>lequel</i>"
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">quoi</i>",
+    "<i lang=\"fr\">quel</i>",
+    "<i lang=\"fr\">lequel</i>"
    ],
    "answer": 1
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ cherches-tu?</i> (“Whom are you looking for”).",
-   "explain": "<i>Qui</i> asks about a person, as subject or object.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ cherches-tu?</i> (“Whom are you looking for”).",
+   "explain": "<i lang=\"fr\">Qui</i> asks about a person, as subject or object.",
    "options": [
-    "<i>Que</i>",
-    "<i>Quoi</i>",
-    "<i>Qui</i>",
-    "<i>Quel</i>"
+    "<i lang=\"fr\">Que</i>",
+    "<i lang=\"fr\">Quoi</i>",
+    "<i lang=\"fr\">Qui</i>",
+    "<i lang=\"fr\">Quel</i>"
    ],
    "answer": 2
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Je ne connais ___ dans cette ville.</i> (“I know no one in this town”).",
-   "explain": "“No one” is <i>personne</i>, with <i>ne</i>; <i>rien</i> is “nothing.”",
+   "prompt": "Choose the word: <i lang=\"fr\">Je ne connais ___ dans cette ville.</i> (“I know no one in this town”).",
+   "explain": "“No one” is <i lang=\"fr\">personne</i>, with <i lang=\"fr\">ne</i>; <i lang=\"fr\">rien</i> is “nothing.”",
    "options": [
-    "<i>rien</i>",
-    "<i>quelqu’un</i>",
-    "<i>personne</i>",
-    "<i>chacun</i>"
+    "<i lang=\"fr\">rien</i>",
+    "<i lang=\"fr\">quelqu’un</i>",
+    "<i lang=\"fr\">personne</i>",
+    "<i lang=\"fr\">chacun</i>"
    ],
    "answer": 2
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>___ a sa place.</i> (“Each one has his place”).",
-   "explain": "The pronoun “each one” is <i>chacun</i>; <i>chaque</i> is a determiner and needs a noun.",
+   "prompt": "Choose the word: <i lang=\"fr\">___ a sa place.</i> (“Each one has his place”).",
+   "explain": "The pronoun “each one” is <i lang=\"fr\">chacun</i>; <i lang=\"fr\">chaque</i> is a determiner and needs a noun.",
    "options": [
-    "<i>Chaque</i>",
-    "<i>Chacun</i>",
-    "<i>Tout</i>",
-    "<i>Quelque</i>"
+    "<i lang=\"fr\">Chaque</i>",
+    "<i lang=\"fr\">Chacun</i>",
+    "<i lang=\"fr\">Tout</i>",
+    "<i lang=\"fr\">Quelque</i>"
    ],
    "answer": 1
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>C’est une maison ___ le toit est rouge.</i> (“It is a house whose roof is red”).",
-   "explain": "<i>Le toit de la maison</i>: the relative stands for <i>de</i> with the antecedent, <i>dont</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">C’est une maison ___ le toit est rouge.</i> (“It is a house whose roof is red”).",
+   "explain": "<i lang=\"fr\">Le toit de la maison</i>: the relative stands for <i lang=\"fr\">de</i> with the antecedent, <i lang=\"fr\">dont</i>.",
    "options": [
-    "<i>dont</i>",
-    "<i>que</i>",
-    "<i>où</i>",
-    "<i>duquel</i>"
+    "<i lang=\"fr\">dont</i>",
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">où</i>",
+    "<i lang=\"fr\">duquel</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Prends ___-ci, pas celle-là.</i> (“Take this one, not that one”).",
-   "explain": "The pronoun answers <i>celle-là</i>, feminine: <i>celle-ci</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Prends ___-ci, pas celle-là.</i> (“Take this one, not that one”).",
+   "explain": "The pronoun answers <i lang=\"fr\">celle-là</i>, feminine: <i lang=\"fr\">celle-ci</i>.",
    "options": [
-    "<i>cette</i>",
-    "<i>celui</i>",
-    "<i>ceci</i>",
-    "<i>celle</i>"
+    "<i lang=\"fr\">cette</i>",
+    "<i lang=\"fr\">celui</i>",
+    "<i lang=\"fr\">ceci</i>",
+    "<i lang=\"fr\">celle</i>"
    ],
    "answer": 3
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i>Les enfants ___ je garde sont sages.</i> (“The children I look after are well behaved”).",
-   "explain": "The relative is the direct object of <i>garde</i>: <i>que</i>.",
+   "prompt": "Choose the word: <i lang=\"fr\">Les enfants ___ je garde sont sages.</i> (“The children I look after are well behaved”).",
+   "explain": "The relative is the direct object of <i lang=\"fr\">garde</i>: <i lang=\"fr\">que</i>.",
    "options": [
-    "<i>qui</i>",
-    "<i>dont</i>",
-    "<i>que</i>",
-    "<i>lesquels</i>"
+    "<i lang=\"fr\">qui</i>",
+    "<i lang=\"fr\">dont</i>",
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">lesquels</i>"
    ],
    "answer": 2
   }

@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il boit ___ lait.</i> (“He drinks some milk”).",
-   "explain": "An unmeasured amount of a masculine noun: the partitive <i>du</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il boit ___ lait.</i> (“He drinks some milk”).",
+   "explain": "An unmeasured amount of a masculine noun: the partitive <i lang=\"fr\">du</i>.",
    "options": [
-    "<i>de la</i>",
-    "<i>des</i>",
-    "<i>du</i>",
-    "<i>le</i>"
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">le</i>"
    ],
    "answer": 2
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle mange ___ soupe.</i> (“She is eating some soup”).",
-   "explain": "<i>Soupe</i> is feminine: the partitive <i>de la</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle mange ___ soupe.</i> (“She is eating some soup”).",
+   "explain": "<i lang=\"fr\">Soupe</i> is feminine: the partitive <i lang=\"fr\">de la</i>.",
    "options": [
-    "<i>du</i>",
-    "<i>des</i>",
-    "<i>la</i>",
-    "<i>de la</i>"
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">la</i>",
+    "<i lang=\"fr\">de la</i>"
    ],
    "answer": 3
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je voudrais ___ huile.</i> (“I would like some oil”).",
-   "explain": "Before a vowel the partitive is <i>de l’</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je voudrais ___ huile.</i> (“I would like some oil”).",
+   "explain": "Before a vowel the partitive is <i lang=\"fr\">de l’</i>.",
    "options": [
-    "<i>de l’</i>",
-    "<i>du</i>",
-    "<i>de la</i>",
-    "<i>des</i>"
+    "<i lang=\"fr\">de l’</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">des</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nous cueillons ___ fraises.</i> (“We are picking some strawberries”).",
-   "explain": "The plural partitive is <i>des</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Nous cueillons ___ fraises.</i> (“We are picking some strawberries”).",
+   "explain": "The plural partitive is <i lang=\"fr\">des</i>.",
    "options": [
-    "<i>du</i>",
-    "<i>des</i>",
-    "<i>de la</i>",
-    "<i>les</i>"
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">les</i>"
    ],
    "answer": 1
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je vais ___ marché.</i> (“I am going to the market”).",
-   "explain": "<i>À</i> with <i>le</i> becomes <i>au</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je vais ___ marché.</i> (“I am going to the market”).",
+   "explain": "<i lang=\"fr\">À</i> with <i lang=\"fr\">le</i> becomes <i lang=\"fr\">au</i>.",
    "options": [
-    "<i>à le</i>",
-    "<i>au</i>",
-    "<i>du</i>",
-    "<i>aux</i>"
+    "<i lang=\"fr\">à le</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">aux</i>"
    ],
    "answer": 1
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il parle ___ enfants.</i> (“He is speaking to the children”).",
-   "explain": "<i>À</i> with <i>les</i> becomes <i>aux</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il parle ___ enfants.</i> (“He is speaking to the children”).",
+   "explain": "<i lang=\"fr\">À</i> with <i lang=\"fr\">les</i> becomes <i lang=\"fr\">aux</i>.",
    "options": [
-    "<i>aux</i>",
-    "<i>à les</i>",
-    "<i>des</i>",
-    "<i>au</i>"
+    "<i lang=\"fr\">aux</i>",
+    "<i lang=\"fr\">à les</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">au</i>"
    ],
    "answer": 0
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>C’est le livre ___ professeur.</i> (“It is the teacher’s book”).",
-   "explain": "<i>De</i> with <i>le</i> becomes <i>du</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">C’est le livre ___ professeur.</i> (“It is the teacher’s book”).",
+   "explain": "<i lang=\"fr\">De</i> with <i lang=\"fr\">le</i> becomes <i lang=\"fr\">du</i>.",
    "options": [
-    "<i>de le</i>",
-    "<i>au</i>",
-    "<i>de la</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">de le</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 3
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle revient ___ école.</i> (“She is coming back from school”).",
-   "explain": "<i>De l’</i> does not contract.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle revient ___ école.</i> (“She is coming back from school”).",
+   "explain": "<i lang=\"fr\">De l’</i> does not contract.",
    "options": [
-    "<i>du</i>",
-    "<i>des</i>",
-    "<i>de l’</i>",
-    "<i>de la</i>"
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">de l’</i>",
+    "<i lang=\"fr\">de la</i>"
    ],
    "answer": 2
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je n’ai pas ___ voiture.</i> (“I don’t have a car”).",
-   "explain": "After a negative the indefinite article becomes <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je n’ai pas ___ voiture.</i> (“I don’t have a car”).",
+   "explain": "After a negative the indefinite article becomes <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>une</i>",
-    "<i>de</i>",
-    "<i>la</i>",
-    "<i>de la</i>"
+    "<i lang=\"fr\">une</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">la</i>",
+    "<i lang=\"fr\">de la</i>"
    ],
    "answer": 1
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il ne mange pas ___ viande.</i> (“He doesn’t eat meat”).",
-   "explain": "After a negative the partitive becomes <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il ne mange pas ___ viande.</i> (“He doesn’t eat meat”).",
+   "explain": "After a negative the partitive becomes <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>de</i>",
-    "<i>de la</i>",
-    "<i>la</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">la</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 0
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>un verre ___ eau</i> (“a glass of water”).",
-   "explain": "After a word of quantity, plain <i>de</i>, <i>d’</i> before a vowel.",
+   "prompt": "Choose the form: <i lang=\"fr\">un verre ___ eau</i> (“a glass of water”).",
+   "explain": "After a word of quantity, plain <i lang=\"fr\">de</i>, <i lang=\"fr\">d’</i> before a vowel.",
    "options": [
-    "<i>de l’</i>",
-    "<i>du</i>",
-    "<i>des</i>",
-    "<i>d’</i>"
+    "<i lang=\"fr\">de l’</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">d’</i>"
    ],
    "answer": 3
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle a beaucoup ___ patience.</i> (“She has a lot of patience”).",
-   "explain": "After <i>beaucoup</i>, plain <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle a beaucoup ___ patience.</i> (“She has a lot of patience”).",
+   "explain": "After <i lang=\"fr\">beaucoup</i>, plain <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>de la</i>",
-    "<i>de</i>",
-    "<i>la</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">de la</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">la</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 1
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je n’aime pas ___ poisson.</i> (“I don’t like fish”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Je n’aime pas ___ poisson.</i> (“I don’t like fish”).",
    "explain": "After a verb of liking, the definite article stays even after a negative.",
    "options": [
-    "<i>de</i>",
-    "<i>du</i>",
-    "<i>le</i>",
-    "<i>un</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">un</i>"
    ],
    "answer": 2
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ce n’est pas ___ sucre, c’est du sel.</i> (“That is not sugar, it is salt”).",
-   "explain": "After <i>être</i> the partitive stays: <i>ce n’est pas du sucre</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ce n’est pas ___ sucre, c’est du sel.</i> (“That is not sugar, it is salt”).",
+   "explain": "After <i lang=\"fr\">être</i> the partitive stays: <i lang=\"fr\">ce n’est pas du sucre</i>.",
    "options": [
-    "<i>de</i>",
-    "<i>le</i>",
-    "<i>des</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 3
   },
@@ -239,12 +239,12 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>la fin du film</i>, what is <i>du</i>?",
-   "explain": "“The end of the film”: <i>du</i> is the contraction of <i>de le</i>.",
+   "prompt": "In <i lang=\"fr\">la fin du film</i>, what is <i lang=\"fr\">du</i>?",
+   "explain": "“The end of the film”: <i lang=\"fr\">du</i> is the contraction of <i lang=\"fr\">de le</i>.",
    "options": [
-    "<i>de</i> with <i>le</i>, “of the”",
+    "<i lang=\"fr\">de</i> with <i lang=\"fr\">le</i>, “of the”",
     "the partitive, “some”",
-    "<i>à</i> with <i>le</i>",
+    "<i lang=\"fr\">à</i> with <i lang=\"fr\">le</i>",
     "the indefinite article, “a”"
    ],
    "answer": 0
@@ -255,12 +255,12 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>il achète du vin</i>, what is <i>du</i>?",
-   "explain": "“He buys wine”: an unmeasured amount, so <i>du</i> is partitive.",
+   "prompt": "In <i lang=\"fr\">il achète du vin</i>, what is <i lang=\"fr\">du</i>?",
+   "explain": "“He buys wine”: an unmeasured amount, so <i lang=\"fr\">du</i> is partitive.",
    "options": [
-    "<i>de</i> with <i>le</i>, “of the”",
+    "<i lang=\"fr\">de</i> with <i lang=\"fr\">le</i>, “of the”",
     "the partitive, “some”",
-    "<i>à</i> with <i>le</i>",
+    "<i lang=\"fr\">à</i> with <i lang=\"fr\">le</i>",
     "the definite article"
    ],
    "answer": 1
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Des pommes? J’___ veux trois.</i> (“Apples? I want three of them”).",
-   "explain": "<i>En</i> stands for <i>de</i> with what follows and keeps the number.",
+   "prompt": "Choose the form: <i lang=\"fr\">Des pommes? J’___ veux trois.</i> (“Apples? I want three of them”).",
+   "explain": "<i lang=\"fr\">En</i> stands for <i lang=\"fr\">de</i> with what follows and keeps the number.",
    "options": [
-    "<i>y</i>",
-    "<i>les</i>",
-    "<i>en</i>",
-    "<i>leur</i>"
+    "<i lang=\"fr\">y</i>",
+    "<i lang=\"fr\">les</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">leur</i>"
    ],
    "answer": 2
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Le musée? Nous ___ allons ce soir.</i> (“The museum? We are going there tonight”).",
-   "explain": "<i>Y</i> stands for <i>à</i> with a place.",
+   "prompt": "Choose the form: <i lang=\"fr\">Le musée? Nous ___ allons ce soir.</i> (“The museum? We are going there tonight”).",
+   "explain": "<i lang=\"fr\">Y</i> stands for <i lang=\"fr\">à</i> with a place.",
    "options": [
-    "<i>en</i>",
-    "<i>le</i>",
-    "<i>lui</i>",
-    "<i>y</i>"
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">lui</i>",
+    "<i lang=\"fr\">y</i>"
    ],
    "answer": 3
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ton projet? J’___ pense souvent.</i> (“Your plan? I often think about it”).",
-   "explain": "<i>Penser à</i> with a thing: <i>j’y pense</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ton projet? J’___ pense souvent.</i> (“Your plan? I often think about it”).",
+   "explain": "<i lang=\"fr\">Penser à</i> with a thing: <i lang=\"fr\">j’y pense</i>.",
    "options": [
-    "<i>y</i>",
-    "<i>en</i>",
-    "<i>le</i>",
-    "<i>lui</i>"
+    "<i lang=\"fr\">y</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">lui</i>"
    ],
    "answer": 0
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ta sœur? Je ___ parle souvent.</i> (“Your sister? I often speak to her”).",
-   "explain": "With a person, French uses <i>lui</i>, not <i>y</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ta sœur? Je ___ parle souvent.</i> (“Your sister? I often speak to her”).",
+   "explain": "With a person, French uses <i lang=\"fr\">lui</i>, not <i lang=\"fr\">y</i>.",
    "options": [
-    "<i>y</i>",
-    "<i>lui</i>",
-    "<i>en</i>",
-    "<i>la</i>"
+    "<i lang=\"fr\">y</i>",
+    "<i lang=\"fr\">lui</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">la</i>"
    ],
    "answer": 1
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ce livre? Il ___ parle sans cesse.</i> (“This book? He talks about it constantly”).",
-   "explain": "<i>Parler de</i> with a thing: <i>il en parle</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ce livre? Il ___ parle sans cesse.</i> (“This book? He talks about it constantly”).",
+   "explain": "<i lang=\"fr\">Parler de</i> with a thing: <i lang=\"fr\">il en parle</i>.",
    "options": [
-    "<i>y</i>",
-    "<i>le</i>",
-    "<i>en</i>",
-    "<i>lui</i>"
+    "<i lang=\"fr\">y</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">lui</i>"
    ],
    "answer": 2
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ce sont ___ vieux amis.</i> (“They are old friends”).",
-   "explain": "In careful writing, <i>des</i> becomes <i>de</i> before a plural adjective that precedes its noun.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ce sont ___ vieux amis.</i> (“They are old friends”).",
+   "explain": "In careful writing, <i lang=\"fr\">des</i> becomes <i lang=\"fr\">de</i> before a plural adjective that precedes its noun.",
    "options": [
-    "<i>des</i>",
-    "<i>les</i>",
-    "<i>de</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">les</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 2
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il a peur ___ chiens.</i> (“He is afraid of dogs”).",
-   "explain": "<i>Avoir peur de</i>, with <i>de</i> and <i>les</i> contracted.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il a peur ___ chiens.</i> (“He is afraid of dogs”).",
+   "explain": "<i lang=\"fr\">Avoir peur de</i>, with <i lang=\"fr\">de</i> and <i lang=\"fr\">les</i> contracted.",
    "options": [
-    "<i>de les</i>",
-    "<i>des</i>",
-    "<i>aux</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">de les</i>",
+    "<i lang=\"fr\">des</i>",
+    "<i lang=\"fr\">aux</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 1
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle n’a jamais ___ temps.</i> (“She never has time”).",
-   "explain": "After the negative <i>ne … jamais</i>, plain <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle n’a jamais ___ temps.</i> (“She never has time”).",
+   "explain": "After the negative <i lang=\"fr\">ne … jamais</i>, plain <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>de</i>",
-    "<i>du</i>",
-    "<i>le</i>",
-    "<i>des</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">le</i>",
+    "<i lang=\"fr\">des</i>"
    ],
    "answer": 0
   }

@@ -16,12 +16,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “two”?",
-   "explain": "English <i>t</i> answers to German <i>z</i>.",
+   "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">z</i>.",
    "options": [
-    "<i>twei</i>",
-    "<i>zwei</i>",
-    "<i>dwei</i>",
-    "<i>swei</i>"
+    "<i lang=\"de\">twei</i>",
+    "<i lang=\"de\">zwei</i>",
+    "<i lang=\"de\">dwei</i>",
+    "<i lang=\"de\">swei</i>"
    ],
    "answer": 1
   },
@@ -32,12 +32,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “penny”?",
-   "explain": "English <i>p</i> answers to German <i>pf</i>.",
+   "explain": "English <i lang=\"de\">p</i> answers to German <i lang=\"de\">pf</i>.",
    "options": [
-    "<i>Pfennig</i>",
-    "<i>Penning</i>",
-    "<i>Fennig</i>",
-    "<i>Pennig</i>"
+    "<i lang=\"de\">Pfennig</i>",
+    "<i lang=\"de\">Penning</i>",
+    "<i lang=\"de\">Fennig</i>",
+    "<i lang=\"de\">Pennig</i>"
    ],
    "answer": 0
   },
@@ -48,12 +48,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “dream”?",
-   "explain": "English <i>d</i> answers to German <i>t</i>.",
+   "explain": "English <i lang=\"de\">d</i> answers to German <i lang=\"de\">t</i>.",
    "options": [
-    "<i>Draum</i>",
-    "<i>Tram</i>",
-    "<i>Zraum</i>",
-    "<i>Traum</i>"
+    "<i lang=\"de\">Draum</i>",
+    "<i lang=\"de\">Tram</i>",
+    "<i lang=\"de\">Zraum</i>",
+    "<i lang=\"de\">Traum</i>"
    ],
    "answer": 3
   },
@@ -64,12 +64,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “thick”?",
-   "explain": "English <i>th</i> appears as German <i>d</i>.",
+   "explain": "English <i lang=\"de\">th</i> appears as German <i lang=\"de\">d</i>.",
    "options": [
-    "<i>tick</i>",
-    "<i>thick</i>",
-    "<i>dick</i>",
-    "<i>zick</i>"
+    "<i lang=\"de\">tick</i>",
+    "<i lang=\"de\">thick</i>",
+    "<i lang=\"de\">dick</i>",
+    "<i lang=\"de\">zick</i>"
    ],
    "answer": 2
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does German <i>Keller</i> (“cellar”) come?",
-   "explain": "<i>Keller</i> is one of the early words of building taken from the Romans: Latin <i>cellārium</i>.",
+   "prompt": "From which Latin word does German <i lang=\"de\">Keller</i> (“cellar”) come?",
+   "explain": "<i lang=\"de\">Keller</i> is one of the early words of building taken from the Romans: Latin <i lang=\"de\">cellārium</i>.",
    "options": [
-    "<i>caelum</i>",
-    "<i>cellārium</i>",
-    "<i>calceāmentum</i>",
-    "<i>calēre</i>"
+    "<i lang=\"de\">caelum</i>",
+    "<i lang=\"de\">cellārium</i>",
+    "<i lang=\"de\">calceāmentum</i>",
+    "<i lang=\"de\">calēre</i>"
    ],
    "answer": 1
   },
@@ -95,8 +95,8 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>also</i> mean in German?",
-   "explain": "German <i>also</i> means “so, therefore”; English “also” is <i>auch</i>.",
+   "prompt": "What does <i lang=\"de\">also</i> mean in German?",
+   "explain": "German <i lang=\"de\">also</i> means “so, therefore”; English “also” is <i lang=\"de\">auch</i>.",
    "options": [
     "“so, therefore”",
     "“also, too”",
@@ -112,12 +112,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “eat”?",
-   "explain": "English <i>t</i> answers to German <i>ss</i>.",
+   "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">ss</i>.",
    "options": [
-    "<i>eaten</i>",
-    "<i>etzen</i>",
-    "<i>ätten</i>",
-    "<i>essen</i>"
+    "<i lang=\"de\">eaten</i>",
+    "<i lang=\"de\">etzen</i>",
+    "<i lang=\"de\">ätten</i>",
+    "<i lang=\"de\">essen</i>"
    ],
    "answer": 3
   },
@@ -128,12 +128,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which German word is a Fremdwort, keeping its foreign form?",
-   "explain": "<i>Ingenieur</i> keeps its French spelling and sound, whereas the others were taken from Latin early and fully adapted.",
+   "explain": "<i lang=\"de\">Ingenieur</i> keeps its French spelling and sound, whereas the others were taken from Latin early and fully adapted.",
    "options": [
-    "<i>Fenster</i>",
-    "<i>Mauer</i>",
-    "<i>Ingenieur</i>",
-    "<i>Straße</i>"
+    "<i lang=\"de\">Fenster</i>",
+    "<i lang=\"de\">Mauer</i>",
+    "<i lang=\"de\">Ingenieur</i>",
+    "<i lang=\"de\">Straße</i>"
    ],
    "answer": 2
   },
@@ -144,12 +144,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “sleep”?",
-   "explain": "English <i>p</i> answers to German <i>f</i>.",
+   "explain": "English <i lang=\"de\">p</i> answers to German <i lang=\"de\">f</i>.",
    "options": [
-    "<i>schleppen</i>",
-    "<i>schlafen</i>",
-    "<i>schlüpfen</i>",
-    "<i>schlapp</i>"
+    "<i lang=\"de\">schleppen</i>",
+    "<i lang=\"de\">schlafen</i>",
+    "<i lang=\"de\">schlüpfen</i>",
+    "<i lang=\"de\">schlapp</i>"
    ],
    "answer": 1
   },
@@ -160,12 +160,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “heart”?",
-   "explain": "English <i>t</i> answers to German <i>z</i>.",
+   "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">z</i>.",
    "options": [
-    "<i>Hert</i>",
-    "<i>Herd</i>",
-    "<i>Harz</i>",
-    "<i>Herz</i>"
+    "<i lang=\"de\">Hert</i>",
+    "<i lang=\"de\">Herd</i>",
+    "<i lang=\"de\">Harz</i>",
+    "<i lang=\"de\">Herz</i>"
    ],
    "answer": 3
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Pforte</i> (“gate”) come?",
-   "explain": "<i>Pforte</i> comes from Latin <i>porta</i>; the early loan took part in the German change of p to pf.",
+   "prompt": "From which Latin word does <i lang=\"de\">Pforte</i> (“gate”) come?",
+   "explain": "<i lang=\"de\">Pforte</i> comes from Latin <i lang=\"de\">porta</i>; the early loan took part in the German change of p to pf.",
    "options": [
-    "<i>porta</i>",
-    "<i>portus</i>",
-    "<i>forum</i>",
-    "<i>fortis</i>"
+    "<i lang=\"de\">porta</i>",
+    "<i lang=\"de\">portus</i>",
+    "<i lang=\"de\">forum</i>",
+    "<i lang=\"de\">fortis</i>"
    ],
    "answer": 0
   },
@@ -192,12 +192,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “break”?",
-   "explain": "English <i>k</i> answers to German <i>ch</i>.",
+   "explain": "English <i lang=\"de\">k</i> answers to German <i lang=\"de\">ch</i>.",
    "options": [
-    "<i>breken</i>",
-    "<i>brechen</i>",
-    "<i>brecken</i>",
-    "<i>prechen</i>"
+    "<i lang=\"de\">breken</i>",
+    "<i lang=\"de\">brechen</i>",
+    "<i lang=\"de\">brecken</i>",
+    "<i lang=\"de\">prechen</i>"
    ],
    "answer": 1
   },
@@ -207,8 +207,8 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>Zimmer</i> mean, and what is its English cognate?",
-   "explain": "<i>Zimmer</i> first meant a building of wood; its English cognate “timber” kept the sense of wood, with English t for German z.",
+   "prompt": "What does <i lang=\"de\">Zimmer</i> mean, and what is its English cognate?",
+   "explain": "<i lang=\"de\">Zimmer</i> first meant a building of wood; its English cognate “timber” kept the sense of wood, with English t for German z.",
    "options": [
     "“room,” cognate of “simmer”",
     "“timber,” cognate of “room”",
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Ziegel</i> (“tile, brick”) come?",
-   "explain": "<i>Ziegel</i> comes from <i>tēgula</i>, one of the Roman words of building, with German z for Latin t.",
+   "prompt": "From which Latin word does <i lang=\"de\">Ziegel</i> (“tile, brick”) come?",
+   "explain": "<i lang=\"de\">Ziegel</i> comes from <i lang=\"de\">tēgula</i>, one of the Roman words of building, with German z for Latin t.",
    "options": [
-    "<i>tegō</i>",
-    "<i>tigris</i>",
-    "<i>tēla</i>",
-    "<i>tēgula</i>"
+    "<i lang=\"de\">tegō</i>",
+    "<i lang=\"de\">tigris</i>",
+    "<i lang=\"de\">tēla</i>",
+    "<i lang=\"de\">tēgula</i>"
    ],
    "answer": 3
   },
@@ -240,12 +240,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “thorn”?",
-   "explain": "English <i>th</i> appears as German <i>d</i>.",
+   "explain": "English <i lang=\"de\">th</i> appears as German <i lang=\"de\">d</i>.",
    "options": [
-    "<i>Dorn</i>",
-    "<i>Torn</i>",
-    "<i>Thorn</i>",
-    "<i>Zorn</i>"
+    "<i lang=\"de\">Dorn</i>",
+    "<i lang=\"de\">Torn</i>",
+    "<i lang=\"de\">Thorn</i>",
+    "<i lang=\"de\">Zorn</i>"
    ],
    "answer": 0
   },
@@ -255,8 +255,8 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>Ich werde Arzt</i> mean?",
-   "explain": "“To become” is <i>werden</i>; <i>bekommen</i> means “to receive.”",
+   "prompt": "What does <i lang=\"de\">Ich werde Arzt</i> mean?",
+   "explain": "“To become” is <i lang=\"de\">werden</i>; <i lang=\"de\">bekommen</i> means “to receive.”",
    "options": [
     "“I receive a doctor.”",
     "“I am becoming a doctor.”",
@@ -287,13 +287,13 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which Latin word does <i>Pflanze</i> (“plant”) come?",
-   "explain": "<i>Pflanze</i> comes from Latin <i>planta</i>, a garden word taken from the Romans, with pf for p.",
+   "prompt": "From which Latin word does <i lang=\"de\">Pflanze</i> (“plant”) come?",
+   "explain": "<i lang=\"de\">Pflanze</i> comes from Latin <i lang=\"de\">planta</i>, a garden word taken from the Romans, with pf for p.",
    "options": [
-    "<i>plānus</i>",
-    "<i>plantāre</i>",
-    "<i>flāre</i>",
-    "<i>planta</i>"
+    "<i lang=\"de\">plānus</i>",
+    "<i lang=\"de\">plantāre</i>",
+    "<i lang=\"de\">flāre</i>",
+    "<i lang=\"de\">planta</i>"
    ],
    "answer": 3
   },
@@ -303,8 +303,8 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is the English cognate of <i>Zeit</i> (“time”)?",
-   "explain": "English <i>t</i> answers to German <i>z</i>; “tide” once meant “time,” as in “Christmastide.”",
+   "prompt": "What is the English cognate of <i lang=\"de\">Zeit</i> (“time”)?",
+   "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">z</i>; “tide” once meant “time,” as in “Christmastide.”",
    "options": [
     "“tide”",
     "“zeit”",
@@ -320,12 +320,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which German word was borrowed from French?",
-   "explain": "<i>Onkel</i> is from French <i>oncle</i>; the others are native.",
+   "explain": "<i lang=\"de\">Onkel</i> is from French <i lang=\"de\">oncle</i>; the others are native.",
    "options": [
-    "<i>Onkel</i>",
-    "<i>Vater</i>",
-    "<i>Bruder</i>",
-    "<i>Sohn</i>"
+    "<i lang=\"de\">Onkel</i>",
+    "<i lang=\"de\">Vater</i>",
+    "<i lang=\"de\">Bruder</i>",
+    "<i lang=\"de\">Sohn</i>"
    ],
    "answer": 0
   },
@@ -335,8 +335,8 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "deck": "lang.iv.de/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does German <i>Pfeffer</i> have pf where Latin <i>piper</i> has p?",
-   "explain": "<i>Pfeffer</i> was taken from Latin before the second sound shift, so its p changed to pf like a native p.",
+   "prompt": "Why does German <i lang=\"de\">Pfeffer</i> have pf where Latin <i lang=\"de\">piper</i> has p?",
+   "explain": "<i lang=\"de\">Pfeffer</i> was taken from Latin before the second sound shift, so its p changed to pf like a native p.",
    "options": [
     "It came into German from French",
     "It is a Fremdwort that keeps its form",
@@ -352,12 +352,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “water”?",
-   "explain": "English <i>t</i> answers to German <i>ss</i>.",
+   "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">ss</i>.",
    "options": [
-    "<i>Water</i>",
-    "<i>Wazzer</i>",
-    "<i>Wasser</i>",
-    "<i>Watter</i>"
+    "<i lang=\"de\">Water</i>",
+    "<i lang=\"de\">Wazzer</i>",
+    "<i lang=\"de\">Wasser</i>",
+    "<i lang=\"de\">Watter</i>"
    ],
    "answer": 2
   },
@@ -368,12 +368,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which pair are cognates with different meanings?",
-   "explain": "<i>Tier</i>, “animal,” keeps the wide sense that “deer” narrowed; the others are borrowings or keep one meaning.",
+   "explain": "<i lang=\"de\">Tier</i>, “animal,” keeps the wide sense that “deer” narrowed; the others are borrowings or keep one meaning.",
    "options": [
-    "<i>Fenster</i> and “fenestration”",
-    "<i>Tier</i> and “deer”",
-    "<i>Wein</i> and “vine”",
-    "<i>Haus</i> and “house”"
+    "<i lang=\"de\">Fenster</i> and “fenestration”",
+    "<i lang=\"de\">Tier</i> and “deer”",
+    "<i lang=\"de\">Wein</i> and “vine”",
+    "<i lang=\"de\">Haus</i> and “house”"
    ],
    "answer": 1
   },
@@ -384,12 +384,12 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What is the German cognate of English “open”?",
-   "explain": "English <i>p</i> answers to German <i>f</i>.",
+   "explain": "English <i lang=\"de\">p</i> answers to German <i lang=\"de\">f</i>.",
    "options": [
-    "<i>offen</i>",
-    "<i>open</i>",
-    "<i>opfen</i>",
-    "<i>ufen</i>"
+    "<i lang=\"de\">offen</i>",
+    "<i lang=\"de\">open</i>",
+    "<i lang=\"de\">opfen</i>",
+    "<i lang=\"de\">ufen</i>"
    ],
    "answer": 0
   }

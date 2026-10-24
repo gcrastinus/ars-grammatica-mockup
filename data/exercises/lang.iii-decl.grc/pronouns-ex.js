@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative singular masculine of <i>ἐκεῖνος</i>.",
-   "explain": "<i>Ἐκεῖνος</i> is declined like <i>αὐτός</i>: dative <i>ἐκείνῳ</i>.",
+   "prompt": "Write the dative singular masculine of <i lang=\"grc\">ἐκεῖνος</i>.",
+   "explain": "<i lang=\"grc\">Ἐκεῖνος</i> is declined like <i lang=\"grc\">αὐτός</i>: dative <i lang=\"grc\">ἐκείνῳ</i>.",
    "accept": [
     "ἐκείνῳ"
    ],
@@ -28,8 +28,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative plural masculine of <i>ἐκεῖνος</i>.",
-   "explain": "<i>Ἐκεῖνος</i> is declined like <i>αὐτός</i>: <i>ἐκείνους</i>.",
+   "prompt": "Write the accusative plural masculine of <i lang=\"grc\">ἐκεῖνος</i>.",
+   "explain": "<i lang=\"grc\">Ἐκεῖνος</i> is declined like <i lang=\"grc\">αὐτός</i>: <i lang=\"grc\">ἐκείνους</i>.",
    "accept": [
     "ἐκείνους"
    ],
@@ -41,8 +41,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive plural of <i>ἐκεῖνος</i> (all genders).",
-   "explain": "The genitive plural is the same in all genders: <i>ἐκείνων</i>.",
+   "prompt": "Write the genitive plural of <i lang=\"grc\">ἐκεῖνος</i> (all genders).",
+   "explain": "The genitive plural is the same in all genders: <i lang=\"grc\">ἐκείνων</i>.",
    "accept": [
     "ἐκείνων"
    ],
@@ -54,8 +54,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ὁ αὐτὸς ποιητής</i> mean?",
-   "explain": "<i>Αὐτός</i> between the article and the noun means “the same.”",
+   "prompt": "What does <i lang=\"grc\">ὁ αὐτὸς ποιητής</i> mean?",
+   "explain": "<i lang=\"grc\">Αὐτός</i> between the article and the noun means “the same.”",
    "options": [
     "“the poet himself”",
     "“his poet”",
@@ -70,8 +70,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἡ μήτηρ αὐτή</i> mean?",
-   "explain": "<i>Αὐτή</i> outside the article and noun is intensive.",
+   "prompt": "What does <i lang=\"grc\">ἡ μήτηρ αὐτή</i> mean?",
+   "explain": "<i lang=\"grc\">Αὐτή</i> outside the article and noun is intensive.",
    "options": [
     "“the mother herself”",
     "“the same mother”",
@@ -86,8 +86,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>καλοῦμεν αὐτούς</i>, what does <i>αὐτούς</i> mean?",
-   "explain": "In the oblique cases, standing alone, <i>αὐτός</i> is the pronoun of the third person.",
+   "prompt": "In <i lang=\"grc\">καλοῦμεν αὐτούς</i>, what does <i lang=\"grc\">αὐτούς</i> mean?",
+   "explain": "In the oblique cases, standing alone, <i lang=\"grc\">αὐτός</i> is the pronoun of the third person.",
    "options": [
     "“themselves”",
     "“them”",
@@ -102,8 +102,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural neuter of <i>ὅδε</i>.",
-   "explain": "<i>Ὅδε</i> is the article with <i>-δε</i>: neuter plural <i>τά</i> gives <i>τάδε</i>.",
+   "prompt": "Write the nominative plural neuter of <i lang=\"grc\">ὅδε</i>.",
+   "explain": "<i lang=\"grc\">Ὅδε</i> is the article with <i lang=\"grc\">-δε</i>: neuter plural <i lang=\"grc\">τά</i> gives <i lang=\"grc\">τάδε</i>.",
    "accept": [
     "τάδε"
    ],
@@ -115,8 +115,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative singular masculine of <i>ὅδε</i>.",
-   "explain": "<i>Ὅδε</i> is the article with <i>-δε</i>: <i>τῷ</i> gives <i>τῷδε</i>.",
+   "prompt": "Write the dative singular masculine of <i lang=\"grc\">ὅδε</i>.",
+   "explain": "<i lang=\"grc\">Ὅδε</i> is the article with <i lang=\"grc\">-δε</i>: <i lang=\"grc\">τῷ</i> gives <i lang=\"grc\">τῷδε</i>.",
    "accept": [
     "τῷδε"
    ],
@@ -131,10 +131,10 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "prompt": "Which phrase means “this horse”?",
    "explain": "A demonstrative stands outside the article in the predicate position, and the noun keeps its article.",
    "options": [
-    "<i>οὗτος ὁ ἵππος</i>",
-    "<i>ὁ οὗτος ἵππος</i>",
-    "<i>οὗτος ἵππος</i>",
-    "<i>ὁ ἵππος ὁ οὗτος</i>"
+    "<i lang=\"grc\">οὗτος ὁ ἵππος</i>",
+    "<i lang=\"grc\">ὁ οὗτος ἵππος</i>",
+    "<i lang=\"grc\">οὗτος ἵππος</i>",
+    "<i lang=\"grc\">ὁ ἵππος ὁ οὗτος</i>"
    ],
    "answer": 0
   },
@@ -144,8 +144,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the relative that completes <i>ἡ πόλις ___ εἴδομεν</i> (“the city that we saw”).",
-   "explain": "The relative takes the gender and number of <i>πόλις</i> (feminine singular) and the accusative from its own clause: <i>ἥν</i>.",
+   "prompt": "Write the relative that completes <i lang=\"grc\">ἡ πόλις ___ εἴδομεν</i> (“the city that we saw”).",
+   "explain": "The relative takes the gender and number of <i lang=\"grc\">πόλις</i> (feminine singular) and the accusative from its own clause: <i lang=\"grc\">ἥν</i>.",
    "accept": [
     "ἥν"
    ],
@@ -157,13 +157,13 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the relative: <i>τὰ δῶρα ___ ἔπεμψας</i> (“the gifts that you sent”).",
-   "explain": "The antecedent is neuter plural, and the relative is the object of <i>ἔπεμψας</i>: <i>ἅ</i>.",
+   "prompt": "Choose the relative: <i lang=\"grc\">τὰ δῶρα ___ ἔπεμψας</i> (“the gifts that you sent”).",
+   "explain": "The antecedent is neuter plural, and the relative is the object of <i lang=\"grc\">ἔπεμψας</i>: <i lang=\"grc\">ἅ</i>.",
    "options": [
-    "<i>αἵ</i>",
-    "<i>οὕς</i>",
-    "<i>ὅ</i>",
-    "<i>ἅ</i>"
+    "<i lang=\"grc\">αἵ</i>",
+    "<i lang=\"grc\">οὕς</i>",
+    "<i lang=\"grc\">ὅ</i>",
+    "<i lang=\"grc\">ἅ</i>"
    ],
    "answer": 3
   },
@@ -173,11 +173,11 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>περὶ τῶν πραγμάτων ὧν λέγεις</i>, why is the relative genitive?",
-   "explain": "<i>Λέγεις</i> would take the accusative <i>ἅ</i>; the relative takes the genitive of <i>πραγμάτων</i> by attraction.",
+   "prompt": "In <i lang=\"grc\">περὶ τῶν πραγμάτων ὧν λέγεις</i>, why is the relative genitive?",
+   "explain": "<i lang=\"grc\">Λέγεις</i> would take the accusative <i lang=\"grc\">ἅ</i>; the relative takes the genitive of <i lang=\"grc\">πραγμάτων</i> by attraction.",
    "options": [
-    "<i>Λέγεις</i> takes the genitive",
-    "<i>Περί</i> governs it directly",
+    "<i lang=\"grc\">Λέγεις</i> takes the genitive",
+    "<i lang=\"grc\">Περί</i> governs it directly",
     "It is attracted into the case of its antecedent",
     "The relative is always genitive after a plural noun"
    ],
@@ -189,8 +189,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>τίς εἶ;</i> mean?",
-   "explain": "The accented <i>τίς</i> is the interrogative, “who?”",
+   "prompt": "What does <i lang=\"grc\">τίς εἶ;</i> mean?",
+   "explain": "The accented <i lang=\"grc\">τίς</i> is the interrogative, “who?”",
    "options": [
     "“You are someone.”",
     "“Who are you?”",
@@ -205,8 +205,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>εἶπέ τις</i> mean?",
-   "explain": "The enclitic <i>τις</i> is the indefinite “someone”; the interrogative <i>τίς</i> keeps its acute.",
+   "prompt": "What does <i lang=\"grc\">εἶπέ τις</i> mean?",
+   "explain": "The enclitic <i lang=\"grc\">τις</i> is the indefinite “someone”; the interrogative <i lang=\"grc\">τίς</i> keeps its acute.",
    "options": [
     "“Someone said.”",
     "“Who said?”",
@@ -221,8 +221,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative singular feminine of <i>αὐτός</i>.",
-   "explain": "<i>Αὐτός</i> is declined like <i>ἀγαθός</i>: feminine dative <i>αὐτῇ</i>.",
+   "prompt": "Write the dative singular feminine of <i lang=\"grc\">αὐτός</i>.",
+   "explain": "<i lang=\"grc\">Αὐτός</i> is declined like <i lang=\"grc\">ἀγαθός</i>: feminine dative <i lang=\"grc\">αὐτῇ</i>.",
    "accept": [
     "αὐτῇ"
    ],
@@ -235,12 +235,12 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which word means “of that (woman)”?",
-   "explain": "<i>Ἐκεῖνος, ἐκείνη, ἐκεῖνο</i> means “that,” with the feminine genitive <i>ἐκείνης</i>. <i>Ταύτης</i> and <i>τῆσδε</i> mean “of this.”",
+   "explain": "<i lang=\"grc\">Ἐκεῖνος, ἐκείνη, ἐκεῖνο</i> means “that,” with the feminine genitive <i lang=\"grc\">ἐκείνης</i>. <i lang=\"grc\">Ταύτης</i> and <i lang=\"grc\">τῆσδε</i> mean “of this.”",
    "options": [
-    "<i>ταύτης</i>",
-    "<i>τῆσδε</i>",
-    "<i>ἐκείνης</i>",
-    "<i>ἐκείνοις</i>"
+    "<i lang=\"grc\">ταύτης</i>",
+    "<i lang=\"grc\">τῆσδε</i>",
+    "<i lang=\"grc\">ἐκείνης</i>",
+    "<i lang=\"grc\">ἐκείνοις</i>"
    ],
    "answer": 2
   },
@@ -251,7 +251,7 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the accusative singular masculine of the reflexive of the first person (“myself”).",
-   "explain": "<i>Ἐμαυτοῦ, ἐμαυτῷ, ἐμαυτόν</i>: the reflexive has no nominative.",
+   "explain": "<i lang=\"grc\">Ἐμαυτοῦ, ἐμαυτῷ, ἐμαυτόν</i>: the reflexive has no nominative.",
    "accept": [
     "ἐμαυτόν"
    ],
@@ -263,8 +263,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἑαυτοὺς ἐπαίδευσαν</i> mean?",
-   "explain": "<i>Ἑαυτούς</i> is the reflexive, referring to the subject.",
+   "prompt": "What does <i lang=\"grc\">ἑαυτοὺς ἐπαίδευσαν</i> mean?",
+   "explain": "<i lang=\"grc\">Ἑαυτούς</i> is the reflexive, referring to the subject.",
    "options": [
     "“They educated themselves.”",
     "“They educated them.”",
@@ -279,13 +279,13 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is the genitive singular feminine of <i>ὅδε</i>?",
-   "explain": "<i>Ὅδε</i> is the article with <i>-δε</i>: <i>τῆς</i> gives <i>τῆσδε</i>.",
+   "prompt": "Which form is the genitive singular feminine of <i lang=\"grc\">ὅδε</i>?",
+   "explain": "<i lang=\"grc\">Ὅδε</i> is the article with <i lang=\"grc\">-δε</i>: <i lang=\"grc\">τῆς</i> gives <i lang=\"grc\">τῆσδε</i>.",
    "options": [
-    "<i>ἧσδε</i>",
-    "<i>τοῦδε</i>",
-    "<i>ταῖσδε</i>",
-    "<i>τῆσδε</i>"
+    "<i lang=\"grc\">ἧσδε</i>",
+    "<i lang=\"grc\">τοῦδε</i>",
+    "<i lang=\"grc\">ταῖσδε</i>",
+    "<i lang=\"grc\">τῆσδε</i>"
    ],
    "answer": 3
   },
@@ -295,12 +295,12 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>ἔδωκέ μοι τὸ βιβλίον</i>, why is the form <i>μοι</i> and not <i>ἐμοί</i>?",
-   "explain": "<i>Μοι</i> is the enclitic form, used without emphasis; <i>ἐμοί</i> would stress “to <i>me</i>.”",
+   "prompt": "In <i lang=\"grc\">ἔδωκέ μοι τὸ βιβλίον</i>, why is the form <i lang=\"grc\">μοι</i> and not <i lang=\"grc\">ἐμοί</i>?",
+   "explain": "<i lang=\"grc\">Μοι</i> is the enclitic form, used without emphasis; <i lang=\"grc\">ἐμοί</i> would stress “to <i lang=\"grc\">me</i>.”",
    "options": [
-    "<i>Μοι</i> is the accusative here",
-    "<i>Ἐμοί</i> is the plural form",
-    "<i>Μοι</i> follows a preposition",
+    "<i lang=\"grc\">Μοι</i> is the accusative here",
+    "<i lang=\"grc\">Ἐμοί</i> is the plural form",
+    "<i lang=\"grc\">Μοι</i> follows a preposition",
     "The pronoun is not emphatic"
    ],
    "answer": 3
@@ -311,8 +311,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative plural masculine of <i>ὅδε</i>.",
-   "explain": "<i>Ὅδε</i> is the article with <i>-δε</i>: <i>τούς</i> gives <i>τούσδε</i>.",
+   "prompt": "Write the accusative plural masculine of <i lang=\"grc\">ὅδε</i>.",
+   "explain": "<i lang=\"grc\">Ὅδε</i> is the article with <i lang=\"grc\">-δε</i>: <i lang=\"grc\">τούς</i> gives <i lang=\"grc\">τούσδε</i>.",
    "accept": [
     "τούσδε"
    ],
@@ -324,8 +324,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ὁ ἀνὴρ ὁ αὐτός</i> mean?",
-   "explain": "<i>Ὁ αὐτός</i> repeated after the noun with the article is still in the attributive position: “the same man.”",
+   "prompt": "What does <i lang=\"grc\">ὁ ἀνὴρ ὁ αὐτός</i> mean?",
+   "explain": "<i lang=\"grc\">Ὁ αὐτός</i> repeated after the noun with the article is still in the attributive position: “the same man.”",
    "options": [
     "“the man himself”",
     "“the same man”",
@@ -340,8 +340,8 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "deck": "lang.iii-decl.grc/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the relative that completes <i>οἱ φίλοι ___ πιστεύομεν</i> (“the friends whom we trust”).",
-   "explain": "<i>Πιστεύω</i> takes the dative, so the relative is masculine plural dative: <i>οἷς</i>.",
+   "prompt": "Write the relative that completes <i lang=\"grc\">οἱ φίλοι ___ πιστεύομεν</i> (“the friends whom we trust”).",
+   "explain": "<i lang=\"grc\">Πιστεύω</i> takes the dative, so the relative is masculine plural dative: <i lang=\"grc\">οἷς</i>.",
    "accept": [
     "οἷς"
    ],
@@ -354,12 +354,12 @@ ARS.exercises["lang.iii-decl.grc/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "How does Attic usually express an emphatic “he” as subject?",
-   "explain": "Attic has no ordinary nominative of the third person pronoun; for emphasis it uses a demonstrative. <i>Αὐτός</i> alone in the nominative means “he himself.”",
+   "explain": "Attic has no ordinary nominative of the third person pronoun; for emphasis it uses a demonstrative. <i lang=\"grc\">Αὐτός</i> alone in the nominative means “he himself.”",
    "options": [
-    "With the nominative <i>αὐτός</i> standing alone",
-    "With the enclitic <i>τις</i> after the verb",
-    "With the article <i>ὁ</i> alone",
-    "With a demonstrative, <i>οὗτος</i> or <i>ἐκεῖνος</i>"
+    "With the nominative <i lang=\"grc\">αὐτός</i> standing alone",
+    "With the enclitic <i lang=\"grc\">τις</i> after the verb",
+    "With the article <i lang=\"grc\">ὁ</i> alone",
+    "With a demonstrative, <i lang=\"grc\">οὗτος</i> or <i lang=\"grc\">ἐκεῖνος</i>"
    ],
    "answer": 3
   }

@@ -8,13 +8,13 @@ ARS.decks["lang.x.de/heine"] = {
  "panels": [
   {
    "id": "text",
-   "title": "Heine, <i>Buch der Lieder</i> “Du bist wie eine Blume” 1–4 · Three-beat iambic lines",
-   "body": "<p>Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You are like a flower,<br>so lovely and fair and pure;<br>I look at you, and melancholy<br>creeps into my heart.</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <i>anschauen</i> and <i>hineinschleichen</i>.</p>"
+   "title": "Heine, <i lang=\"de\">Buch der Lieder</i> “Du bist wie eine Blume” 1–4 · Three-beat iambic lines",
+   "body": "<p lang=\"de\">Du bist wie eine Blume,<br>So hold und schön und rein;<br>Ich schau’ dich an, und Wehmut<br>Schleicht mir ins Herz hinein.</p><p>You are like a flower,<br>so lovely and fair and pure;<br>I look at you, and melancholy<br>creeps into my heart.</p><p><strong>Context.</strong> This is one of Heine’s songs most often set to music. It has a separable verb in each half: <i lang=\"de\">anschauen</i> and <i lang=\"de\">hineinschleichen</i>.</p>"
   },
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>A simple comparison.</strong> <i>Du bist wie eine Blume</i>: the poem begins with the plainest form of comparison.</p>\n<p><strong>Three adjectives.</strong> <i>So hold und schön und rein</i>: the three predicate adjectives, joined by <i>und</i>, describe the beloved without ornament.</p>\n<p><strong>The turn to sadness.</strong> <i>und Wehmut / Schleicht mir ins Herz hinein</i>: the sight of beauty brings melancholy, and the poem turns in the middle of its first stanza.</p>\n<p><strong>Song.</strong> The short lines and simple words made this one of the poems most often set to music.</p>"
+   "body": "<p><strong>A simple comparison.</strong> <i lang=\"de\">Du bist wie eine Blume</i>: the poem begins with the plainest form of comparison.</p>\n<p><strong>Three adjectives.</strong> <i lang=\"de\">So hold und schön und rein</i>: the three predicate adjectives, joined by <i lang=\"de\">und</i>, describe the beloved without ornament.</p>\n<p><strong>The turn to sadness.</strong> <i lang=\"de\">und Wehmut / Schleicht mir ins Herz hinein</i>: the sight of beauty brings melancholy, and the poem turns in the middle of its first stanza.</p>\n<p><strong>Song.</strong> The short lines and simple words made this one of the poems most often set to music.</p>"
   }
  ],
  "models": true

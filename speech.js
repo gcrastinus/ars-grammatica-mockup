@@ -52,15 +52,57 @@
       .replace(/\s+([,.;:!?])/g, '$1')
       .trim();
   }
-  function pushText(parts, t){
-    t = normalizeText(t);
-    if (t) parts.push(t);
+
+  /* Languages. Explanatory text is read in English. Words, examples, and passages marked
+     with a lang attribute are read in that language's voice, switching mid-sentence. */
+  function normLang(code){
+    const c = String(code || '').toLowerCase().replace('_', '-');
+    if (!c) return 'en';
+    if (c === 'grc' || c === 'el' || c.indexOf('el-') === 0) return 'el';
+    const base = c.split('-')[0];
+    return ['en', 'la', 'es', 'de', 'fr'].indexOf(base) >= 0 ? base : 'en';
   }
-  function joinParts(parts){
-    const out = [];
-    parts.forEach(p => { if (out[out.length - 1] !== p) out.push(p); });
-    return out.join('. ').replace(/\.\s*\./g, '.').replace(/\s+/g, ' ').trim();
+
+  /* A collector of runs of text, each in one language. Text in the same block is joined
+     with a space; a new block (paragraph, line break, list item) is marked with a period. */
+  function makeCollector(){
+    const runs = [];
+    let brk = false;
+    let lastPart = null;
+    return {
+      runs,
+      text(t, lang){
+        t = normalizeText(t);
+        if (!t) return;
+        lang = normLang(lang);
+        const last = runs[runs.length - 1];
+        if (last && last.lang === lang){
+          last.text += (brk && !/[.!?;:,]$/.test(last.text) ? '. ' : ' ') + t;
+        } else {
+          if (last && brk && !/[.!?;:,]$/.test(last.text)) last.text += '.';
+          runs.push({ lang, text: t });
+        }
+        brk = false;
+      },
+      /* A whole block in one language; a block identical to the one before it is dropped. */
+      part(t, lang){
+        t = normalizeText(t);
+        if (!t || t === lastPart) return;
+        lastPart = t;
+        this.brk();
+        this.text(t, lang);
+        this.brk();
+      },
+      brk(){ if (runs.length) brk = true; }
+    };
   }
+  function finishRuns(runs){
+    return runs.map(r => ({ lang: r.lang, text: r.text.replace(/\.\s*\./g, '.').replace(/\s+([,.;:!?])/g, '$1').replace(/\s+/g, ' ').trim() }))
+      .filter(r => /[\p{L}\p{N}]/u.test(r.text));
+  }
+  function runsToText(runs){ return finishRuns(runs).map(r => r.text).join(' '); }
+
+  const INLINE = /^(EM|I|B|STRONG|SPAN|A|SUB|SUP|SMALL|U|MARK|ABBR|CITE|Q|CODE|S|DFN|VAR|BDI|BDO|LABEL|TIME|WBR)$/;
 
   function shouldSkip(el){
     if (!el || el.nodeType !== 1) return true;
@@ -85,31 +127,42 @@
         || el.classList.contains('si-home');
   }
 
-  function walk(el, parts, opts){
+  function langOf(el){
+    const host = el && el.closest ? el.closest('[lang]') : null;
+    const v = host ? host.getAttribute('lang') : '';
+    return (!host || host === document.documentElement) ? 'en' : v;
+  }
+  function walk(el, col, opts, lang){
     if (!el) return;
-    if (el.nodeType === 3){ pushText(parts, el.nodeValue); return; }
+    if (lang === undefined) lang = el.nodeType === 1 ? langOf(el) : (el.parentElement ? langOf(el.parentElement) : 'en');
+    if (el.nodeType === 3){ col.text(el.nodeValue, lang); return; }
     if (el.nodeType !== 1) return;
     if (shouldSkip(el)) return;
+    if (el.hasAttribute('lang')) lang = el.getAttribute('lang') || lang;
+    if (el.tagName === 'BR'){ col.brk(); return; }
     if (el.tagName === 'BUTTON'){
       if (opts && opts.skipButtons) return;
       if (el.classList.contains('btn')) return;
       const lab = normalizeText(el.textContent);
-      if (lab) pushText(parts, lab);
+      if (lab){ col.brk(); Array.from(el.childNodes).forEach(ch => walk(ch, col, opts, lang)); col.brk(); }
       return;
     }
     if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA'){
-      if (el.value) pushText(parts, el.value);
-      else if (el.getAttribute('placeholder')) pushText(parts, el.getAttribute('placeholder'));
+      if (el.value) col.part(el.value, lang);
+      else if (el.getAttribute('placeholder')) col.part(el.getAttribute('placeholder'), 'en');
       return;
     }
-    Array.from(el.childNodes).forEach(ch => walk(ch, parts, opts));
+    const block = !INLINE.test(el.tagName);
+    if (block) col.brk();
+    Array.from(el.childNodes).forEach(ch => walk(ch, col, opts, lang));
+    if (block) col.brk();
   }
 
   function collectHomeText(){
     const home = $('scr-home');
-    if (!home) return '';
-    const parts = [];
-    const add = t => pushText(parts, t);
+    if (!home) return [];
+    const col = makeCollector();
+    const add = t => col.part(t, 'en');
     const hdr = home.querySelector('header');
     if (hdr){
       const h1 = hdr.querySelector('h1');
@@ -140,26 +193,26 @@
             if (p) bits.push(normalizeText(p.innerText || p.textContent));
             if (bits.length) add(bits.join('. '));
           } else if (el.classList.contains('cumul-bar') || el.classList.contains('lang-bar')){
-            add(el.innerText || el.textContent);
+            walk(el, col, { skipButtons:false });
           }
         });
       });
     }
-    return joinParts(parts);
+    return col.runs;
   }
 
   function collectDeckText(){
-    const parts = [];
+    const col = makeCollector();
     const title = $('deck-title');
     const sub = $('deck-sub');
     /* The deck's title and subtitle are read only on its first card; after that, only the card itself. */
     const cnt = $('deck-count');
     const first = !cnt || /^Panel 1 of/.test(normalizeText(cnt.textContent));
-    if (first && title) pushText(parts, title.innerText || title.textContent);
-    if (first && sub) pushText(parts, sub.innerText || sub.textContent);
+    if (first && title) walk(title, col, { skipButtons:false });
+    if (first && sub) walk(sub, col, { skipButtons:false });
     const body = $('deck-body');
-    if (body) walk(body, parts, { skipButtons:false });
-    return joinParts(parts);
+    if (body) walk(body, col, { skipButtons:false });
+    return col.runs;
   }
 
   /* Exercises are not read aloud, except a question that carries a quoted passage:
@@ -173,43 +226,66 @@
       el.querySelector('br') || normalizeText(el.textContent).length >= 200);
   }
   function collectExText(){
-    const parts = [];
+    const col = makeCollector();
     const body = $('ex-body');
-    if (body && hasPassage(body)) walk(body, parts, { skipButtons:false });
-    return joinParts(parts);
+    if (body && hasPassage(body)) walk(body, col, { skipButtons:false });
+    return col.runs;
   }
 
-  function collectSpeakText(){
+  /* The screen as runs of text: [{ lang, text }], lang one of en, la, el, es, de, fr. */
+  function collectSpeakRuns(){
     const scr = document.querySelector('.screen.active');
-    if (!scr) return '';
-    if (scr.id === 'scr-home') return collectHomeText();
-    if (scr.id === 'scr-deck') return collectDeckText();
-    if (scr.id === 'scr-ex') return collectExText();
-    if (scr.id === 'scr-lang'){
-      const parts = [];
-      walk(scr, parts, { skipButtons:false });
-      return joinParts(parts);
-    }
-    if (scr.id === 'scr-done'){
-      const parts = [];
+    if (!scr) return [];
+    let runs = [];
+    if (scr.id === 'scr-home') runs = collectHomeText();
+    else if (scr.id === 'scr-deck') runs = collectDeckText();
+    else if (scr.id === 'scr-ex') runs = collectExText();
+    else if (scr.id === 'scr-lang'){
+      const col = makeCollector();
+      walk(scr, col, { skipButtons:false });
+      runs = col.runs;
+    } else if (scr.id === 'scr-done'){
+      const col = makeCollector();
       const card = scr.querySelector('.complete-card');
-      if (card) walk(card, parts, { skipButtons:true });
-      return joinParts(parts);
+      if (card) walk(card, col, { skipButtons:true });
+      runs = col.runs;
     }
-    return '';
+    return finishRuns(runs);
   }
+  function collectSpeakText(){ return collectSpeakRuns().map(r => r.text).join(' '); }
 
-  function pickVoice(){
-    try {
-      const voices = window.speechSynthesis.getVoices() || [];
-      const en = voices.filter(v => /^en(-|_)/i.test(v.lang));
-      const score = v => (/premium/i.test(v.name) ? 40 : 0) + (/enhanced/i.test(v.name) ? 30 : 0)
-        + (v.localService ? 20 : 0) + (/^(Ava|Zoe|Allison|Samantha|Evan|Tom|Susan|Daniel|Karen|Moira|Serena)\b/i.test(v.name) ? 10 : 0)
-        + (v.default ? 5 : 0) + (/^en(-|_)US/i.test(v.lang) ? 3 : 0) - (/google|eloquence|novelty|bells|bubbles|zarvox|whisper|bad news|good news|organ|trinoids|albert|jester|superstar|cellos|wobble|boing|bahh|fred|junior|ralph|kathy|grandma|grandpa|rocko|shelley|flo|eddy|reed|sandy/i.test(v.name) ? 50 : 0);
-      const best = en.sort((a, b) => score(b) - score(a))[0];
-      return best || voices[0] || null;
-    } catch (e) { return null; }
+  /* The best voice for a language. Each language has its own list of tags to try in order;
+     when none is installed, the English voice reads it. */
+  const VOICE_PREFS = {
+    en: [/^en-US$/i, /^en(-|$)/i],
+    es: [/^es-ES$/i, /^es(-|$)/i],
+    la: [/^la(-|$)/i, /^it-IT$/i, /^it(-|$)/i],
+    el: [/^el-GR$/i, /^el(-|$)/i],
+    de: [/^de-DE$/i, /^de(-|$)/i],
+    fr: [/^fr-FR$/i, /^fr(-|$)/i]
+  };
+  const NOVELTY = /eloquence|novelty|bells|bubbles|zarvox|whisper|bad news|good news|organ|trinoids|albert|jester|superstar|cellos|wobble|boing|bahh|fred|junior|ralph|kathy|grandma|grandpa|rocko|shelley|flo|eddy|reed|sandy/i;
+  function voiceScore(v, lang){
+    return (/premium/i.test(v.name) ? 40 : 0) + (/enhanced/i.test(v.name) ? 30 : 0)
+      + (v.localService ? 20 : 0) + (v.default ? 5 : 0)
+      + (lang === 'en' && /^(Ava|Zoe|Allison|Samantha|Evan|Tom|Susan|Daniel|Karen|Moira|Serena)\b/i.test(v.name) ? 10 : 0)
+      - (lang === 'en' && /google/i.test(v.name) ? 50 : 0)
+      - (NOVELTY.test(v.name) ? 50 : 0);
   }
+  function voiceTag(v){ return String(v.lang || '').replace('_', '-'); }
+  function pickVoiceFor(lang, voices){
+    lang = normLang(lang);
+    if (!voices){ try { voices = window.speechSynthesis.getVoices() || []; } catch (e) { voices = []; } }
+    const prefs = VOICE_PREFS[lang] || VOICE_PREFS.en;
+    for (const re of prefs){
+      const c = voices.filter(v => re.test(voiceTag(v)));
+      if (c.length) return c.sort((a, b) => voiceScore(b, lang) - voiceScore(a, lang))[0];
+    }
+    if (lang !== 'en') return pickVoiceFor('en', voices);
+    return voices[0] || null;
+  }
+  window.__arsSpeechRuns = collectSpeakRuns;
+  window.__arsPickVoice = pickVoiceFor;
 
   function chunkText(text){
     const max = 280;
@@ -228,34 +304,48 @@
     return chunks.length ? chunks : [text];
   }
 
-  function speakChunks(chunks){
-    queue = chunks.slice();
+  /* segs: [{ lang, text }]. Each is spoken in turn with its language's voice, at the chosen speed. */
+  function speakSegments(segs){
+    queue = segs.slice();
     setSpeakingUI(true);
-    const voice = pickVoice();
+    const voices = {};
+    const voiceOf = lang => (lang in voices) ? voices[lang] : (voices[lang] = pickVoiceFor(lang));
     function next(){
       if (!speaking) return;
       if (!queue.length){ setSpeakingUI(false); return; }
-      const u = new SpeechSynthesisUtterance(queue.shift());
-      if (voice) u.voice = voice;
+      const seg = queue.shift();
+      const u = new SpeechSynthesisUtterance(seg.text);
+      const voice = voiceOf(seg.lang);
+      if (voice){ try { u.voice = voice; u.lang = voice.lang; } catch (e) {} }
       u.rate = currentRate();
       u.pitch = 1;
       u.onend = next;
-      u.onerror = () => { setSpeakingUI(false); };
+      u.onerror = ev => {
+        const why = ev && ev.error;
+        if (!speaking || why === 'interrupted' || why === 'canceled') { setSpeakingUI(false); return; }
+        next();   /* a voice that fails on one segment does not end the reading */
+      };
       try { window.speechSynthesis.speak(u); }
       catch (e) { setSpeakingUI(false); }
     }
     try { window.speechSynthesis.cancel(); } catch (e) {}
     setTimeout(next, 40);
   }
+  function segmentRuns(runs){
+    const out = [];
+    runs.forEach(r => chunkText(r.text).forEach(t => out.push({ lang: r.lang, text: t })));
+    return out;
+  }
+  window.__arsSpeechSegments = () => segmentRuns(collectSpeakRuns());
 
   function startSpeak(){
-    const text = collectSpeakText();
-    if (!text){
+    const runs = collectSpeakRuns();
+    if (!runs.length){
       const scr = document.querySelector('.screen.active');
-      speakChunks([scr && scr.id === 'scr-ex' ? 'Exercises are read aloud only when a question quotes a passage.' : 'There is nothing to read on this screen.']);
+      speakSegments([{ lang:'en', text: scr && scr.id === 'scr-ex' ? 'Exercises are read aloud only when a question quotes a passage.' : 'There is nothing to read on this screen.' }]);
       return;
     }
-    speakChunks(chunkText(text));
+    speakSegments(segmentRuns(runs));
   }
 
   btn.addEventListener('click', () => {

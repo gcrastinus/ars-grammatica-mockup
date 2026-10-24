@@ -15,8 +15,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is <i>der Gartenzaun</i>?",
-   "explain": "Read from the end: a <i>Zaun</i> of the garden.",
+   "prompt": "What is <i lang=\"de\">der Gartenzaun</i>?",
+   "explain": "Read from the end: a <i lang=\"de\">Zaun</i> of the garden.",
    "options": [
     "the fenced garden",
     "a garden for fences",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What gender is <i>Tischlampe</i>, from <i>der Tisch</i> and <i>die Lampe</i>?",
-   "explain": "The last noun gives the gender: <i>die Tischlampe</i>.",
+   "prompt": "What gender is <i lang=\"de\">Tischlampe</i>, from <i lang=\"de\">der Tisch</i> and <i lang=\"de\">die Lampe</i>?",
+   "explain": "The last noun gives the gender: <i lang=\"de\">die Tischlampe</i>.",
    "options": [
     "Masculine",
     "Neuter",
@@ -47,12 +47,12 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which linking element stands in <i>Kinderbuch</i>?",
-   "explain": "<i>Kind-er-buch</i>.",
+   "prompt": "Which linking element stands in <i lang=\"de\">Kinderbuch</i>?",
+   "explain": "<i lang=\"de\">Kind-er-buch</i>.",
    "options": [
-    "<i>-er-</i>",
-    "<i>-s-</i>",
-    "<i>-en-</i>",
+    "<i lang=\"de\">-er-</i>",
+    "<i lang=\"de\">-s-</i>",
+    "<i lang=\"de\">-en-</i>",
     "none"
    ],
    "answer": 0
@@ -63,12 +63,12 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which linking element stands in <i>Blumenvase</i>?",
-   "explain": "<i>Blume-n-vase</i>.",
+   "prompt": "Which linking element stands in <i lang=\"de\">Blumenvase</i>?",
+   "explain": "<i lang=\"de\">Blume-n-vase</i>.",
    "options": [
-    "<i>-s-</i>",
-    "<i>-n-</i>",
-    "<i>-er-</i>",
+    "<i lang=\"de\">-s-</i>",
+    "<i lang=\"de\">-n-</i>",
+    "<i lang=\"de\">-er-</i>",
     "none"
    ],
    "answer": 1
@@ -79,8 +79,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>pechschwarz</i> mean?",
-   "explain": "<i>Pech</i> (“pitch”) and <i>schwarz</i> (“black”) make a compound adjective: as black as pitch.",
+   "prompt": "What does <i lang=\"de\">pechschwarz</i> mean?",
+   "explain": "<i lang=\"de\">Pech</i> (“pitch”) and <i lang=\"de\">schwarz</i> (“black”) make a compound adjective: as black as pitch.",
    "options": [
     "“very dark blue”",
     "“dirty black”",
@@ -95,8 +95,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is a <i>Spielplatz</i>?",
-   "explain": "The first part is the stem of <i>spielen</i> (“to play”), and the compound is a <i>Platz</i>, a place: a place for playing.",
+   "prompt": "What is a <i lang=\"de\">Spielplatz</i>?",
+   "explain": "The first part is the stem of <i lang=\"de\">spielen</i> (“to play”), and the compound is a <i lang=\"de\">Platz</i>, a place: a place for playing.",
    "options": [
     "a game board",
     "a player’s seat",
@@ -111,8 +111,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the compound of <i>Sonne</i> and <i>Brille</i> that means sunglasses.",
-   "explain": "<i>Sonne</i> takes the linking <i>-n-</i>: <i>Sonnenbrille</i>.",
+   "prompt": "Write the compound of <i lang=\"de\">Sonne</i> and <i lang=\"de\">Brille</i> that means sunglasses.",
+   "explain": "<i lang=\"de\">Sonne</i> takes the linking <i lang=\"de\">-n-</i>: <i lang=\"de\">Sonnenbrille</i>.",
    "accept": [
     "Sonnenbrille"
    ]
@@ -123,8 +123,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the compound of <i>Hand</i> and <i>Schuh</i> that means a glove (a “hand-shoe”).",
-   "explain": "No linking element: <i>Handschuh</i>.",
+   "prompt": "Write the compound of <i lang=\"de\">Hand</i> and <i lang=\"de\">Schuh</i> that means a glove (a “hand-shoe”).",
+   "explain": "No linking element: <i lang=\"de\">Handschuh</i>.",
    "accept": [
     "Handschuh"
    ]
@@ -135,8 +135,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is <i>die Haustürklingel</i>?",
-   "explain": "Read from the end: a <i>Klingel</i> of the <i>Haustür</i>.",
+   "prompt": "What is <i lang=\"de\">die Haustürklingel</i>?",
+   "explain": "Read from the end: a <i lang=\"de\">Klingel</i> of the <i lang=\"de\">Haustür</i>.",
    "options": [
     "the house of the doorbell",
     "a bell for the house",
@@ -151,8 +151,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>bildschön</i> mean?",
-   "explain": "<i>Bild</i> (“picture”) only strengthens <i>schön</i>: “as beautiful as a picture,” very beautiful.",
+   "prompt": "What does <i lang=\"de\">bildschön</i> mean?",
+   "explain": "<i lang=\"de\">Bild</i> (“picture”) only strengthens <i lang=\"de\">schön</i>: “as beautiful as a picture,” very beautiful.",
    "options": [
     "“beautiful as a picture frame”",
     "“painted beautifully”",
@@ -167,8 +167,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>federleicht</i> mean?",
-   "explain": "<i>Feder</i> (“feather”) strengthens <i>leicht</i> (“light”): light as a feather.",
+   "prompt": "What does <i lang=\"de\">federleicht</i> mean?",
+   "explain": "<i lang=\"de\">Feder</i> (“feather”) strengthens <i lang=\"de\">leicht</i> (“light”): light as a feather.",
    "options": [
     "“lightly feathered”",
     "“light as a feather”",
@@ -183,13 +183,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which linking element stands in <i>Hundeleine</i> (“dog leash”)?",
-   "explain": "<i>Hund-e-leine</i>.",
+   "prompt": "Which linking element stands in <i lang=\"de\">Hundeleine</i> (“dog leash”)?",
+   "explain": "<i lang=\"de\">Hund-e-leine</i>.",
    "options": [
-    "<i>-e-</i>",
-    "<i>-s-</i>",
-    "<i>-n-</i>",
-    "<i>-er-</i>"
+    "<i lang=\"de\">-e-</i>",
+    "<i lang=\"de\">-s-</i>",
+    "<i lang=\"de\">-n-</i>",
+    "<i lang=\"de\">-er-</i>"
    ],
    "answer": 0
   },
@@ -199,8 +199,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is an <i>Esszimmer</i>?",
-   "explain": "The verb stem <i>ess-</i>, from <i>essen</i>, names the use.",
+   "prompt": "What is an <i lang=\"de\">Esszimmer</i>?",
+   "explain": "The verb stem <i lang=\"de\">ess-</i>, from <i lang=\"de\">essen</i>, names the use.",
    "options": [
     "a room that eats",
     "a kitchen",
@@ -215,8 +215,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the compound of <i>Schule</i> and <i>Tasche</i> that means a school bag.",
-   "explain": "The final <i>-e</i> of <i>Schule</i> is dropped: <i>Schultasche</i>.",
+   "prompt": "Write the compound of <i lang=\"de\">Schule</i> and <i lang=\"de\">Tasche</i> that means a school bag.",
+   "explain": "The final <i lang=\"de\">-e</i> of <i lang=\"de\">Schule</i> is dropped: <i lang=\"de\">Schultasche</i>.",
    "accept": [
     "Schultasche"
    ]
@@ -227,13 +227,13 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the correct ending: <i>ein eiskalt___ Wasser</i>.",
-   "explain": "The compound adjective takes the mixed ending after <i>ein</i> on its last part: neuter <i>-es</i>.",
+   "prompt": "Choose the correct ending: <i lang=\"de\">ein eiskalt___ Wasser</i>.",
+   "explain": "The compound adjective takes the mixed ending after <i lang=\"de\">ein</i> on its last part: neuter <i lang=\"de\">-es</i>.",
    "options": [
-    "<i>-e</i>",
-    "<i>-es</i>",
-    "<i>-er</i>",
-    "<i>-en</i>"
+    "<i lang=\"de\">-e</i>",
+    "<i lang=\"de\">-es</i>",
+    "<i lang=\"de\">-er</i>",
+    "<i lang=\"de\">-en</i>"
    ],
    "answer": 1
   },
@@ -243,8 +243,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is a <i>Wanderweg</i>?",
-   "explain": "<i>Wander-</i>, from <i>wandern</i>, names the use of the way.",
+   "prompt": "What is a <i lang=\"de\">Wanderweg</i>?",
+   "explain": "<i lang=\"de\">Wander-</i>, from <i lang=\"de\">wandern</i>, names the use of the way.",
    "options": [
     "a hiking trail",
     "a wanderer",
@@ -259,8 +259,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is <i>der Autobahnparkplatz</i>?",
-   "explain": "Read from the end: a <i>Parkplatz</i> of the <i>Autobahn</i>.",
+   "prompt": "What is <i lang=\"de\">der Autobahnparkplatz</i>?",
+   "explain": "Read from the end: a <i lang=\"de\">Parkplatz</i> of the <i lang=\"de\">Autobahn</i>.",
    "options": [
     "the freeway of the parking lot",
     "a car park for buses",
@@ -275,8 +275,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Does the <i>-er-</i> of <i>Hühnerei</i> (“hen’s egg”) mean several hens?",
-   "explain": "The linking <i>-er-</i> looks like the plural of <i>Huhn</i>, but in the compound it only joins the parts.",
+   "prompt": "Does the <i lang=\"de\">-er-</i> of <i lang=\"de\">Hühnerei</i> (“hen’s egg”) mean several hens?",
+   "explain": "The linking <i lang=\"de\">-er-</i> looks like the plural of <i lang=\"de\">Huhn</i>, but in the compound it only joins the parts.",
    "options": [
     "Yes; the egg comes from several hens",
     "Yes; it is the genitive plural",
@@ -291,8 +291,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What gender is <i>Fahrradschloss</i> (“bicycle lock”), from <i>das Fahrrad</i> and <i>das Schloss</i>?",
-   "explain": "The last noun gives the gender: <i>das Fahrradschloss</i>.",
+   "prompt": "What gender is <i lang=\"de\">Fahrradschloss</i> (“bicycle lock”), from <i lang=\"de\">das Fahrrad</i> and <i lang=\"de\">das Schloss</i>?",
+   "explain": "The last noun gives the gender: <i lang=\"de\">das Fahrradschloss</i>.",
    "options": [
     "Masculine",
     "Neuter",
@@ -307,8 +307,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>hellblau</i> mean?",
-   "explain": "<i>Hell-</i> gives the shade.",
+   "prompt": "What does <i lang=\"de\">hellblau</i> mean?",
+   "explain": "<i lang=\"de\">Hell-</i> gives the shade.",
    "options": [
     "“bright and blue”",
     "“light blue”",
@@ -323,8 +323,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "form",
-   "prompt": "Write the compound of <i>Wort</i> and <i>Buch</i> that means a dictionary (a “word book”). Use the linking <i>-er-</i>.",
-   "explain": "<i>Wort</i> takes <i>-er-</i> with the umlaut of its plural: <i>Wörterbuch</i>.",
+   "prompt": "Write the compound of <i lang=\"de\">Wort</i> and <i lang=\"de\">Buch</i> that means a dictionary (a “word book”). Use the linking <i lang=\"de\">-er-</i>.",
+   "explain": "<i lang=\"de\">Wort</i> takes <i lang=\"de\">-er-</i> with the umlaut of its plural: <i lang=\"de\">Wörterbuch</i>.",
    "accept": [
     "Wörterbuch"
    ]
@@ -335,8 +335,8 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "deck": "lang.iv.de/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is a <i>Lesebrille</i>?",
-   "explain": "The verb stem <i>lese-</i> names the use.",
+   "prompt": "What is a <i lang=\"de\">Lesebrille</i>?",
+   "explain": "The verb stem <i lang=\"de\">lese-</i> names the use.",
    "options": [
     "glasses that read",
     "a reader",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "How does the English rendering of a long German compound usually run?",
-   "explain": "“The stop of the streetcar” for <i>Straßenbahnhaltestelle</i>.",
+   "explain": "“The stop of the streetcar” for <i lang=\"de\">Straßenbahnhaltestelle</i>.",
    "options": [
     "The other way, with “of” or “for”",
     "In the same order, word for word",
@@ -368,12 +368,12 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which compound has no linking element?",
-   "explain": "<i>Tisch</i> and <i>Bein</i> are joined directly.",
+   "explain": "<i lang=\"de\">Tisch</i> and <i lang=\"de\">Bein</i> are joined directly.",
    "options": [
-    "<i>Liebesbrief</i>",
-    "<i>Tischbein</i>",
-    "<i>Sonnenschein</i>",
-    "<i>Bilderbuch</i>"
+    "<i lang=\"de\">Liebesbrief</i>",
+    "<i lang=\"de\">Tischbein</i>",
+    "<i lang=\"de\">Sonnenschein</i>",
+    "<i lang=\"de\">Bilderbuch</i>"
    ],
    "answer": 1
   }

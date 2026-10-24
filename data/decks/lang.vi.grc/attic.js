@@ -9,25 +9,25 @@ ARS.decks["lang.vi.grc/attic"] = {
   {
    "id": "standard",
    "title": "Attic as the standard of prose",
-   "body": "<p>A student who has read Homer and Herodotus may write <i>χώρη</i> for “land” or <i>ποιέει</i> for “he makes.” These are real Greek forms, but they are not Attic: <i>χώρη</i> is Ionic, and Attic keeps <i>α</i> after <i>ε</i>, <i>ι</i>, and <i>ρ</i> (<i>χώρα</i>); <i>ποιέει</i> is uncontracted, and Attic contracts it to <i>ποιεῖ</i>. The Homeric genitive in <i>-οιο</i> (<i>ποταμοῖο</i>, “of the river”) and the dative plural in <i>-οισι</i> belong to epic verse.</p>\n<p>The Greek grammarians judged correct Greek, which they called <i>Ἑλληνισμός</i> (“correct Greek”), by the usage of the best writers, and the Stoics, as Diogenes Laertius reports, named it the first of the virtues of speech (<i>Lives</i> VII.59). For prose the standard became the Attic of the fifth and fourth centuries BC. So in a sentence of Attic prose a form of another dialect is a barbarism, though in its own author it is correct.</p>",
+   "body": "<p>A student who has read Homer and Herodotus may write <i lang=\"grc\">χώρη</i> for “land” or <i lang=\"grc\">ποιέει</i> for “he makes.” These are real Greek forms, but they are not Attic: <i lang=\"grc\">χώρη</i> is Ionic, and Attic keeps <i lang=\"grc\">α</i> after <i lang=\"grc\">ε</i>, <i lang=\"grc\">ι</i>, and <i lang=\"grc\">ρ</i> (<i lang=\"grc\">χώρα</i>); <i lang=\"grc\">ποιέει</i> is uncontracted, and Attic contracts it to <i lang=\"grc\">ποιεῖ</i>. The Homeric genitive in <i lang=\"grc\">-οιο</i> (<i lang=\"grc\">ποταμοῖο</i>, “of the river”) and the dative plural in <i lang=\"grc\">-οισι</i> belong to epic verse.</p>\n<p>The Greek grammarians judged correct Greek, which they called <i lang=\"grc\">Ἑλληνισμός</i> (“correct Greek”), by the usage of the best writers, and the Stoics, as Diogenes Laertius reports, named it the first of the virtues of speech (<i lang=\"grc\">Lives</i> VII.59). For prose the standard became the Attic of the fifth and fourth centuries BC. So in a sentence of Attic prose a form of another dialect is a barbarism, though in its own author it is correct.</p>",
    "qp": {
     "id": "q-grc-vi-std",
     "variants": [
      {
-      "prompt": "A student writing Attic prose writes <i>κώμη</i> for “village.” Is that an error?",
+      "prompt": "A student writing Attic prose writes <i lang=\"grc\">κώμη</i> for “village.” Is that an error?",
       "options": [
-       "Yes: Attic writes <i>κώμα</i>",
+       "Yes: Attic writes <i lang=\"grc\">κώμα</i>",
        "Yes: it is Ionic",
        "Yes: it is a solecism of gender",
-       "No: <i>κώμη</i> is the Attic form"
+       "No: <i lang=\"grc\">κώμη</i> is the Attic form"
       ],
       "answer": 3,
-      "explain": "Attic keeps <i>α</i> only after <i>ε</i>, <i>ι</i>, and <i>ρ</i>; after <i>μ</i> it has <i>η</i>, as Ionic does."
+      "explain": "Attic keeps <i lang=\"grc\">α</i> only after <i lang=\"grc\">ε</i>, <i lang=\"grc\">ι</i>, and <i lang=\"grc\">ρ</i>; after <i lang=\"grc\">μ</i> it has <i lang=\"grc\">η</i>, as Ionic does."
      },
      {
-      "prompt": "Why is <i>ποιέει</i> a barbarism in Attic prose?",
+      "prompt": "Why is <i lang=\"grc\">ποιέει</i> a barbarism in Attic prose?",
       "options": [
-       "Attic contracts it to <i>ποιεῖ</i>",
+       "Attic contracts it to <i lang=\"grc\">ποιεῖ</i>",
        "It is a poetic accent",
        "It joins two words",
        "It has the wrong augment"
@@ -52,20 +52,20 @@ ARS.decks["lang.vi.grc/attic"] = {
   {
    "id": "atticists",
    "title": "The Atticists and the common dialect",
-   "body": "<p>After the conquests of Alexander, a common dialect, the <i>κοινή</i>, became the Greek of the whole eastern Mediterranean. It grew out of Attic, but it changed many Attic forms: it wrote <i>γινώσκω</i> for Attic <i>γιγνώσκω</i> (“know”), and <i>πράσσω</i> for Attic <i>πράττω</i> (“do”), with the <i>σσ</i> of Ionic in place of the Attic <i>ττ</i>.</p>\n<p>In the first and second centuries AD a movement of writers and teachers, the Atticists, sought to write as the classical Athenians had written, and lexicographers such as Phrynichus compiled lists of words and forms that the best Attic authors did not use. By their standard, a form of the common dialect in a composition meant to be Attic was a barbarism, and a construction of the common dialect was a solecism.</p>",
+   "body": "<p>After the conquests of Alexander, a common dialect, the <i lang=\"grc\">κοινή</i>, became the Greek of the whole eastern Mediterranean. It grew out of Attic, but it changed many Attic forms: it wrote <i lang=\"grc\">γινώσκω</i> for Attic <i lang=\"grc\">γιγνώσκω</i> (“know”), and <i lang=\"grc\">πράσσω</i> for Attic <i lang=\"grc\">πράττω</i> (“do”), with the <i lang=\"grc\">σσ</i> of Ionic in place of the Attic <i lang=\"grc\">ττ</i>.</p>\n<p>In the first and second centuries AD a movement of writers and teachers, the Atticists, sought to write as the classical Athenians had written, and lexicographers such as Phrynichus compiled lists of words and forms that the best Attic authors did not use. By their standard, a form of the common dialect in a composition meant to be Attic was a barbarism, and a construction of the common dialect was a solecism.</p>",
    "qp": {
     "id": "q-grc-vi-att",
     "variants": [
      {
       "prompt": "Which is the Attic form of the verb “do”?",
       "options": [
-       "<i>πράσσω</i>",
-       "<i>πράττω</i>",
-       "<i>πράτω</i>",
-       "<i>πράζω</i>"
+       "<i lang=\"grc\">πράσσω</i>",
+       "<i lang=\"grc\">πράττω</i>",
+       "<i lang=\"grc\">πράτω</i>",
+       "<i lang=\"grc\">πράζω</i>"
       ],
       "answer": 1,
-      "explain": "Attic writes <i>ττ</i> where Ionic and the common dialect write <i>σσ</i>."
+      "explain": "Attic writes <i lang=\"grc\">ττ</i> where Ionic and the common dialect write <i lang=\"grc\">σσ</i>."
      },
      {
       "prompt": "What did the Atticists seek?",
@@ -79,7 +79,7 @@ ARS.decks["lang.vi.grc/attic"] = {
       "explain": "The Atticists took the classical Attic writers as their standard."
      },
      {
-      "prompt": "By the Atticists’ standard, what was <i>γινώσκω</i> in a composition meant to be Attic?",
+      "prompt": "By the Atticists’ standard, what was <i lang=\"grc\">γινώσκω</i> in a composition meant to be Attic?",
       "options": [
        "A solecism",
        "A metaplasm",
@@ -87,7 +87,7 @@ ARS.decks["lang.vi.grc/attic"] = {
        "A barbarism"
       ],
       "answer": 3,
-      "explain": "It is an error in one word, a form of the common dialect for Attic <i>γιγνώσκω</i>."
+      "explain": "It is an error in one word, a form of the common dialect for Attic <i lang=\"grc\">γιγνώσκω</i>."
      }
     ]
    }
@@ -95,20 +95,20 @@ ARS.decks["lang.vi.grc/attic"] = {
   {
    "id": "article-case",
    "title": "Article, case, and augment",
-   "body": "<p>The Greek article and its noun agree in gender, number, and case. <i>τὸν λόγος</i> joins an accusative article to a nominative noun, whereas the accusative is <i>τὸν λόγον</i>; and <i>ἡ δῶρον</i> joins a feminine article to a neuter noun, whereas the neuter article is <i>τό</i>. The article has these three genders:</p>\n<p><strong><i>ὁ</i></strong>, masculine (<i>ὁ λόγος</i>, “the word”)<br><strong><i>ἡ</i></strong>, feminine (<i>ἡ πόλις</i>, “the city”)<br><strong><i>τό</i></strong>, neuter (<i>τὸ δῶρον</i>, “the gift”)</p><p>A preposition requires a certain case, and the wrong case is a solecism, because the preposition and the form of the noun are both real. <i>ἐν</i> (“in”) takes the dative, as in <i>ἐν τῷ οἴκῳ</i> (“in the house”). <i>εἰς</i> (“into”) takes the accusative, as in <i>εἰς τὴν ἀγοράν</i> (“into the market”). <i>σύν</i> (“with”) takes the dative, as in <i>σὺν τῷ πατρί</i> (“with the father”). In Attic prose <i>μετά</i> meaning “with” takes the genitive, as in <i>μετὰ τῶν πολιτῶν</i> (“with the citizens”). With the dative, <i>μετά</i> is chiefly epic (Smyth §1691).</p><p>A wrong augment (the prefix that marks the past tenses of the indicative), however, is a barbarism, not a solecism, because the one verb form is not Attic. In a compound verb the augment stands between the preposition and the verb. The imperfect of <i>εἰσβάλλω</i> (“I throw into”) is <i>εἰσέβαλλον</i>, not <i>εἴσβαλλον</i> (Smyth §449).</p>",
+   "body": "<p>The Greek article and its noun agree in gender, number, and case. <i lang=\"grc\">τὸν λόγος</i> joins an accusative article to a nominative noun, whereas the accusative is <i lang=\"grc\">τὸν λόγον</i>; and <i lang=\"grc\">ἡ δῶρον</i> joins a feminine article to a neuter noun, whereas the neuter article is <i lang=\"grc\">τό</i>. The article has these three genders:</p>\n<p><strong><i lang=\"grc\">ὁ</i></strong>, masculine (<i lang=\"grc\">ὁ λόγος</i>, “the word”)<br><strong><i lang=\"grc\">ἡ</i></strong>, feminine (<i lang=\"grc\">ἡ πόλις</i>, “the city”)<br><strong><i lang=\"grc\">τό</i></strong>, neuter (<i lang=\"grc\">τὸ δῶρον</i>, “the gift”)</p><p>A preposition requires a certain case, and the wrong case is a solecism, because the preposition and the form of the noun are both real. <i lang=\"grc\">ἐν</i> (“in”) takes the dative, as in <i lang=\"grc\">ἐν τῷ οἴκῳ</i> (“in the house”). <i lang=\"grc\">εἰς</i> (“into”) takes the accusative, as in <i lang=\"grc\">εἰς τὴν ἀγοράν</i> (“into the market”). <i lang=\"grc\">σύν</i> (“with”) takes the dative, as in <i lang=\"grc\">σὺν τῷ πατρί</i> (“with the father”). In Attic prose <i lang=\"grc\">μετά</i> meaning “with” takes the genitive, as in <i lang=\"grc\">μετὰ τῶν πολιτῶν</i> (“with the citizens”). With the dative, <i lang=\"grc\">μετά</i> is chiefly epic (Smyth §1691).</p><p>A wrong augment (the prefix that marks the past tenses of the indicative), however, is a barbarism, not a solecism, because the one verb form is not Attic. In a compound verb the augment stands between the preposition and the verb. The imperfect of <i lang=\"grc\">εἰσβάλλω</i> (“I throw into”) is <i lang=\"grc\">εἰσέβαλλον</i>, not <i lang=\"grc\">εἴσβαλλον</i> (Smyth §449).</p>",
    "qp": {
     "id": "q-article-case",
     "variants": [
      {
       "prompt": "Choose the Attic phrase for “in the market.”",
       "options": [
-       "<i>ἐν τὴν ἀγοράν</i>",
-       "<i>ἐν τῇ ἀγορᾷ</i>",
-       "<i>εἰς τῇ ἀγορᾷ</i>",
-       "<i>ἐν ἡ ἀγορά</i>"
+       "<i lang=\"grc\">ἐν τὴν ἀγοράν</i>",
+       "<i lang=\"grc\">ἐν τῇ ἀγορᾷ</i>",
+       "<i lang=\"grc\">εἰς τῇ ἀγορᾷ</i>",
+       "<i lang=\"grc\">ἐν ἡ ἀγορά</i>"
       ],
       "answer": 1,
-      "explain": "<i>ἐν</i> takes the dative, as <i>ἐν τῷ οἴκῳ</i> does. <i>τῇ ἀγορᾷ</i> is the dative. <i>εἰς</i> would take the accusative <i>τὴν ἀγοράν</i>."
+      "explain": "<i lang=\"grc\">ἐν</i> takes the dative, as <i lang=\"grc\">ἐν τῷ οἴκῳ</i> does. <i lang=\"grc\">τῇ ἀγορᾷ</i> is the dative. <i lang=\"grc\">εἰς</i> would take the accusative <i lang=\"grc\">τὴν ἀγοράν</i>."
      },
      {
       "prompt": "Where does the augment of a compound verb stand?",
@@ -119,18 +119,18 @@ ARS.decks["lang.vi.grc/attic"] = {
        "After the stem, before the ending"
       ],
       "answer": 1,
-      "explain": "Smyth §449 places the augment between the preposition and the verb. <i>εἰσέβαλλον</i> is built that way. <i>εἴσβαλλον</i> puts the change on the front of the compound."
+      "explain": "Smyth §449 places the augment between the preposition and the verb. <i lang=\"grc\">εἰσέβαλλον</i> is built that way. <i lang=\"grc\">εἴσβαλλον</i> puts the change on the front of the compound."
      },
      {
-      "prompt": "What kind of error is <i>τὸ τιμή</i> for “the honor”?",
+      "prompt": "What kind of error is <i lang=\"grc\">τὸ τιμή</i> for “the honor”?",
       "options": [
-       "No error: <i>τιμή</i> is neuter",
-       "A barbarism: <i>τιμή</i> is not a Greek word",
+       "No error: <i lang=\"grc\">τιμή</i> is neuter",
+       "A barbarism: <i lang=\"grc\">τιμή</i> is not a Greek word",
        "A solecism of gender",
-       "A barbarism: <i>τό</i> is not an article"
+       "A barbarism: <i lang=\"grc\">τό</i> is not an article"
       ],
       "answer": 2,
-      "explain": "Both words are real. <i>τιμή</i> is feminine, so the article is <i>ἡ</i>. The genders do not match, as in <i>ἡ δῶρον</i>, which joins a feminine article to a neuter noun."
+      "explain": "Both words are real. <i lang=\"grc\">τιμή</i> is feminine, so the article is <i lang=\"grc\">ἡ</i>. The genders do not match, as in <i lang=\"grc\">ἡ δῶρον</i>, which joins a feminine article to a neuter noun."
      }
     ]
    }

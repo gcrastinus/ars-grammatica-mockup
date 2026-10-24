@@ -14,37 +14,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-article",
     "variants": [
      {
-      "prompt": "Which form of the article goes with <i>ψυχήν</i> (accusative singular, feminine)?",
+      "prompt": "Which form of the article goes with <i lang=\"grc\">ψυχήν</i> (accusative singular, feminine)?",
       "options": [
-       "<i>τόν</i>",
-       "<i>τῆς</i>",
-       "<i>τήν</i>",
-       "<i>τῇ</i>"
+       "<i lang=\"grc\">τόν</i>",
+       "<i lang=\"grc\">τῆς</i>",
+       "<i lang=\"grc\">τήν</i>",
+       "<i lang=\"grc\">τῇ</i>"
       ],
       "answer": 2,
-      "explain": "The feminine accusative singular is <i>τήν</i>."
+      "explain": "The feminine accusative singular is <i lang=\"grc\">τήν</i>."
      },
      {
-      "prompt": "Which form of the article goes with <i>λόγου</i> (genitive singular, masculine)?",
+      "prompt": "Which form of the article goes with <i lang=\"grc\">λόγου</i> (genitive singular, masculine)?",
       "options": [
-       "<i>τῷ</i>",
-       "<i>τοῦ</i>",
-       "<i>τῶν</i>",
-       "<i>τόν</i>"
+       "<i lang=\"grc\">τῷ</i>",
+       "<i lang=\"grc\">τοῦ</i>",
+       "<i lang=\"grc\">τῶν</i>",
+       "<i lang=\"grc\">τόν</i>"
       ],
       "answer": 1,
-      "explain": "The masculine genitive singular is <i>τοῦ</i>."
+      "explain": "The masculine genitive singular is <i lang=\"grc\">τοῦ</i>."
      },
      {
       "prompt": "Which form of the article is the neuter nominative plural?",
       "options": [
-       "<i>τά</i>",
-       "<i>τό</i>",
-       "<i>αἱ</i>",
-       "<i>οἱ</i>"
+       "<i lang=\"grc\">τά</i>",
+       "<i lang=\"grc\">τό</i>",
+       "<i lang=\"grc\">αἱ</i>",
+       "<i lang=\"grc\">οἱ</i>"
       ],
       "answer": 0,
-      "explain": "The neuter plural nominative and accusative is <i>τά</i>."
+      "explain": "The neuter plural nominative and accusative is <i lang=\"grc\">τά</i>."
      }
     ]
    }
@@ -57,37 +57,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-chora",
     "variants": [
      {
-      "prompt": "<i>οἰκίᾱ</i> (“house”) is declined like <i>χώρᾱ</i>. What is its genitive singular?",
+      "prompt": "<i lang=\"grc\">οἰκίᾱ</i> (“house”) is declined like <i lang=\"grc\">χώρᾱ</i>. What is its genitive singular?",
       "options": [
-       "<i>οἰκίης</i>",
-       "<i>οἰκίᾱς</i>",
-       "<i>οἰκίου</i>",
-       "<i>οἰκιῶν</i>"
+       "<i lang=\"grc\">οἰκίης</i>",
+       "<i lang=\"grc\">οἰκίᾱς</i>",
+       "<i lang=\"grc\">οἰκίου</i>",
+       "<i lang=\"grc\">οἰκιῶν</i>"
       ],
       "answer": 1,
-      "explain": "After <i>ε</i>, <i>ι</i>, or <i>ρ</i>, the first declension keeps long <i>ᾱ</i> in the singular: <i>οἰκίᾱς</i>."
+      "explain": "After <i lang=\"grc\">ε</i>, <i lang=\"grc\">ι</i>, or <i lang=\"grc\">ρ</i>, the first declension keeps long <i lang=\"grc\">ᾱ</i> in the singular: <i lang=\"grc\">οἰκίᾱς</i>."
      },
      {
-      "prompt": "What is the dative singular of <i>οἰκίᾱ</i>?",
+      "prompt": "What is the dative singular of <i lang=\"grc\">οἰκίᾱ</i>?",
       "options": [
-       "<i>οἰκίαι</i>",
-       "<i>οἰκίῃ</i>",
-       "<i>οἰκίᾳ</i>",
-       "<i>οἰκίαν</i>"
+       "<i lang=\"grc\">οἰκίαι</i>",
+       "<i lang=\"grc\">οἰκίῃ</i>",
+       "<i lang=\"grc\">οἰκίᾳ</i>",
+       "<i lang=\"grc\">οἰκίαν</i>"
       ],
       "answer": 2,
-      "explain": "The dative singular has the iota subscript: <i>οἰκίᾳ</i>."
+      "explain": "The dative singular has the iota subscript: <i lang=\"grc\">οἰκίᾳ</i>."
      },
      {
-      "prompt": "Why does <i>χώρᾱ</i> keep <i>ᾱ</i> in the genitive singular?",
+      "prompt": "Why does <i lang=\"grc\">χώρᾱ</i> keep <i lang=\"grc\">ᾱ</i> in the genitive singular?",
       "options": [
        "It is masculine",
        "It has a short ultima",
        "It is a neuter noun",
-       "Its <i>α</i> follows <i>ρ</i>"
+       "Its <i lang=\"grc\">α</i> follows <i lang=\"grc\">ρ</i>"
       ],
       "answer": 3,
-      "explain": "After <i>ε</i>, <i>ι</i>, or <i>ρ</i> the long <i>ᾱ</i> is kept; elsewhere Attic has <i>η</i>."
+      "explain": "After <i lang=\"grc\">ε</i>, <i lang=\"grc\">ι</i>, or <i lang=\"grc\">ρ</i> the long <i lang=\"grc\">ᾱ</i> is kept; elsewhere Attic has <i lang=\"grc\">η</i>."
      }
     ]
    }
@@ -100,37 +100,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-nike",
     "variants": [
      {
-      "prompt": "<i>ψυχή</i> (“soul”) is declined like <i>νῑ́κη</i>, but accented on the ultima. What is its genitive singular?",
+      "prompt": "<i lang=\"grc\">ψυχή</i> (“soul”) is declined like <i lang=\"grc\">νῑ́κη</i>, but accented on the ultima. What is its genitive singular?",
       "options": [
-       "<i>ψυχής</i>",
-       "<i>ψυχῆς</i>",
-       "<i>ψυχᾶς</i>",
-       "<i>ψυχοῦ</i>"
+       "<i lang=\"grc\">ψυχής</i>",
+       "<i lang=\"grc\">ψυχῆς</i>",
+       "<i lang=\"grc\">ψυχᾶς</i>",
+       "<i lang=\"grc\">ψυχοῦ</i>"
       ],
       "answer": 1,
-      "explain": "An oxytone of the first declension takes the circumflex in the genitive and dative: <i>ψυχῆς</i>, <i>ψυχῇ</i>."
+      "explain": "An oxytone of the first declension takes the circumflex in the genitive and dative: <i lang=\"grc\">ψυχῆς</i>, <i lang=\"grc\">ψυχῇ</i>."
      },
      {
-      "prompt": "What is the nominative plural of <i>ψυχή</i>?",
+      "prompt": "What is the nominative plural of <i lang=\"grc\">ψυχή</i>?",
       "options": [
-       "<i>ψυχῆς</i>",
-       "<i>ψυχοί</i>",
-       "<i>ψυχαί</i>",
-       "<i>ψυχά</i>"
+       "<i lang=\"grc\">ψυχῆς</i>",
+       "<i lang=\"grc\">ψυχοί</i>",
+       "<i lang=\"grc\">ψυχαί</i>",
+       "<i lang=\"grc\">ψυχά</i>"
       ],
       "answer": 2,
-      "explain": "The first declension has <i>-αι</i> in the nominative plural."
+      "explain": "The first declension has <i lang=\"grc\">-αι</i> in the nominative plural."
      },
      {
       "prompt": "What is the genitive plural of every first-declension noun?",
       "options": [
-       "<i>-ων</i> with the accent of the nominative",
-       "<i>-ου</i>",
-       "<i>-οις</i>",
-       "<i>-ῶν</i>"
+       "<i lang=\"grc\">-ων</i> with the accent of the nominative",
+       "<i lang=\"grc\">-ου</i>",
+       "<i lang=\"grc\">-οις</i>",
+       "<i lang=\"grc\">-ῶν</i>"
       ],
       "answer": 3,
-      "explain": "The first declension always has the circumflex on <i>-ῶν</i> in the genitive plural."
+      "explain": "The first declension always has the circumflex on <i lang=\"grc\">-ῶν</i> in the genitive plural."
      }
     ]
    }
@@ -163,37 +163,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-hippos",
     "variants": [
      {
-      "prompt": "<i>θεός</i> (“god”) is of the second declension. What is its genitive singular?",
+      "prompt": "<i lang=\"grc\">θεός</i> (“god”) is of the second declension. What is its genitive singular?",
       "options": [
-       "<i>θεός</i>",
-       "<i>θεοῦ</i>",
-       "<i>θεῷ</i>",
-       "<i>θεόν</i>"
+       "<i lang=\"grc\">θεός</i>",
+       "<i lang=\"grc\">θεοῦ</i>",
+       "<i lang=\"grc\">θεῷ</i>",
+       "<i lang=\"grc\">θεόν</i>"
       ],
       "answer": 1,
-      "explain": "The genitive singular of the second declension is <i>-ου</i>, with the circumflex on an oxytone: <i>θεοῦ</i>."
+      "explain": "The genitive singular of the second declension is <i lang=\"grc\">-ου</i>, with the circumflex on an oxytone: <i lang=\"grc\">θεοῦ</i>."
      },
      {
-      "prompt": "What is the accusative plural of <i>ποταμός</i> (“river”)?",
+      "prompt": "What is the accusative plural of <i lang=\"grc\">ποταμός</i> (“river”)?",
       "options": [
-       "<i>ποταμοί</i>",
-       "<i>ποταμοῖς</i>",
-       "<i>ποταμούς</i>",
-       "<i>ποταμῶν</i>"
+       "<i lang=\"grc\">ποταμοί</i>",
+       "<i lang=\"grc\">ποταμοῖς</i>",
+       "<i lang=\"grc\">ποταμούς</i>",
+       "<i lang=\"grc\">ποταμῶν</i>"
       ],
       "answer": 2,
-      "explain": "The accusative plural of the second declension ends in <i>-ους</i>."
+      "explain": "The accusative plural of the second declension ends in <i lang=\"grc\">-ους</i>."
      },
      {
-      "prompt": "What is the vocative singular of <i>ἀδελφός</i> (“brother”)?",
+      "prompt": "What is the vocative singular of <i lang=\"grc\">ἀδελφός</i> (“brother”)?",
       "options": [
-       "<i>ἀδελφέ</i>",
-       "<i>ἀδελφός</i>",
-       "<i>ἀδελφοῦ</i>",
-       "<i>ἄδελφε</i>"
+       "<i lang=\"grc\">ἀδελφέ</i>",
+       "<i lang=\"grc\">ἀδελφός</i>",
+       "<i lang=\"grc\">ἀδελφοῦ</i>",
+       "<i lang=\"grc\">ἄδελφε</i>"
       ],
       "answer": 3,
-      "explain": "The vocative is in <i>-ε</i>, and <i>ἀδελφός</i> is one of the nouns that draw the accent back in the vocative: <i>ἄδελφε</i>."
+      "explain": "The vocative is in <i lang=\"grc\">-ε</i>, and <i lang=\"grc\">ἀδελφός</i> is one of the nouns that draw the accent back in the vocative: <i lang=\"grc\">ἄδελφε</i>."
      }
     ]
    }
@@ -216,15 +216,15 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-doron",
     "variants": [
      {
-      "prompt": "What is the genitive plural of <i>τέκνον</i> (“child”)?",
+      "prompt": "What is the genitive plural of <i lang=\"grc\">τέκνον</i> (“child”)?",
       "options": [
-       "<i>τέκνων</i>",
-       "<i>τέκνα</i>",
-       "<i>τέκνοις</i>",
-       "<i>τέκνου</i>"
+       "<i lang=\"grc\">τέκνων</i>",
+       "<i lang=\"grc\">τέκνα</i>",
+       "<i lang=\"grc\">τέκνοις</i>",
+       "<i lang=\"grc\">τέκνου</i>"
       ],
       "answer": 0,
-      "explain": "The genitive plural of the second declension is <i>-ων</i>."
+      "explain": "The genitive plural of the second declension is <i lang=\"grc\">-ων</i>."
      },
      {
       "prompt": "Which forms of a neuter noun are always alike?",
@@ -238,15 +238,15 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
       "explain": "A neuter has one form for the nominative, accusative, and vocative in each number."
      },
      {
-      "prompt": "What is the accusative plural of <i>τέκνον</i>?",
+      "prompt": "What is the accusative plural of <i lang=\"grc\">τέκνον</i>?",
       "options": [
-       "<i>τέκνους</i>",
-       "<i>τέκνας</i>",
-       "<i>τέκνα</i>",
-       "<i>τέκνον</i>"
+       "<i lang=\"grc\">τέκνους</i>",
+       "<i lang=\"grc\">τέκνας</i>",
+       "<i lang=\"grc\">τέκνα</i>",
+       "<i lang=\"grc\">τέκνον</i>"
       ],
       "answer": 2,
-      "explain": "A neuter plural nominative and accusative ends in <i>-α</i>."
+      "explain": "A neuter plural nominative and accusative ends in <i lang=\"grc\">-α</i>."
      }
     ]
    }
@@ -269,37 +269,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-soma",
     "variants": [
      {
-      "prompt": "<i>πρᾶγμα, πρᾱ́γματος, τό</i> (“deed”): what is the dative plural?",
+      "prompt": "<i lang=\"grc\">πρᾶγμα, πρᾱ́γματος, τό</i> (“deed”): what is the dative plural?",
       "options": [
-       "<i>πρᾱ́γμασι(ν)</i>",
-       "<i>πρᾱγμάτοις</i>",
-       "<i>πρᾱ́γματι</i>",
-       "<i>πρᾱγμάτων</i>"
+       "<i lang=\"grc\">πρᾱ́γμασι(ν)</i>",
+       "<i lang=\"grc\">πρᾱγμάτοις</i>",
+       "<i lang=\"grc\">πρᾱ́γματι</i>",
+       "<i lang=\"grc\">πρᾱγμάτων</i>"
       ],
       "answer": 0,
-      "explain": "In the dative plural the <i>τ</i> of the stem is lost before <i>-σι</i>: <i>πρᾱ́γμασι(ν)</i>."
+      "explain": "In the dative plural the <i lang=\"grc\">τ</i> of the stem is lost before <i lang=\"grc\">-σι</i>: <i lang=\"grc\">πρᾱ́γμασι(ν)</i>."
      },
      {
-      "prompt": "What is the nominative plural of <i>στόμα</i> (“mouth”)?",
+      "prompt": "What is the nominative plural of <i lang=\"grc\">στόμα</i> (“mouth”)?",
       "options": [
-       "<i>στόμαι</i>",
-       "<i>στομάτων</i>",
-       "<i>στόμα</i>",
-       "<i>στόματα</i>"
+       "<i lang=\"grc\">στόμαι</i>",
+       "<i lang=\"grc\">στομάτων</i>",
+       "<i lang=\"grc\">στόμα</i>",
+       "<i lang=\"grc\">στόματα</i>"
       ],
       "answer": 3,
-      "explain": "A neuter of the third declension has <i>-α</i> on the stem in the plural: <i>στόματα</i>."
+      "explain": "A neuter of the third declension has <i lang=\"grc\">-α</i> on the stem in the plural: <i lang=\"grc\">στόματα</i>."
      },
      {
-      "prompt": "Where is the stem of <i>σῶμα</i> seen?",
+      "prompt": "Where is the stem of <i lang=\"grc\">σῶμα</i> seen?",
       "options": [
-       "In the nominative <i>σῶμα</i>",
-       "In the dative plural <i>σώμασι</i>",
-       "In the genitive <i>σώματος</i>",
-       "In the article <i>τό</i>"
+       "In the nominative <i lang=\"grc\">σῶμα</i>",
+       "In the dative plural <i lang=\"grc\">σώμασι</i>",
+       "In the genitive <i lang=\"grc\">σώματος</i>",
+       "In the article <i lang=\"grc\">τό</i>"
       ],
       "answer": 2,
-      "explain": "As in Latin, the genitive singular shows the stem: <i>σώματ-ος</i>."
+      "explain": "As in Latin, the genitive singular shows the stem: <i lang=\"grc\">σώματ-ος</i>."
      }
     ]
    }
@@ -312,37 +312,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-polis",
     "variants": [
      {
-      "prompt": "<i>δύναμις</i> (“power”) is declined like <i>πόλις</i>. What is its genitive singular?",
+      "prompt": "<i lang=\"grc\">δύναμις</i> (“power”) is declined like <i lang=\"grc\">πόλις</i>. What is its genitive singular?",
       "options": [
-       "<i>δυνάμιος</i>",
-       "<i>δυνάμεος</i>",
-       "<i>δυνάμιδος</i>",
-       "<i>δυνάμεως</i>"
+       "<i lang=\"grc\">δυνάμιος</i>",
+       "<i lang=\"grc\">δυνάμεος</i>",
+       "<i lang=\"grc\">δυνάμιδος</i>",
+       "<i lang=\"grc\">δυνάμεως</i>"
       ],
       "answer": 3,
-      "explain": "Nouns in <i>-ις</i> of this kind have the genitive in <i>-εως</i> in Attic."
+      "explain": "Nouns in <i lang=\"grc\">-ις</i> of this kind have the genitive in <i lang=\"grc\">-εως</i> in Attic."
      },
      {
-      "prompt": "What is the accusative singular of <i>τάξις</i> (“order”)?",
+      "prompt": "What is the accusative singular of <i lang=\"grc\">τάξις</i> (“order”)?",
       "options": [
-       "<i>τάξιν</i>",
-       "<i>τάξεα</i>",
-       "<i>τάξιδα</i>",
-       "<i>τάξεως</i>"
+       "<i lang=\"grc\">τάξιν</i>",
+       "<i lang=\"grc\">τάξεα</i>",
+       "<i lang=\"grc\">τάξιδα</i>",
+       "<i lang=\"grc\">τάξεως</i>"
       ],
       "answer": 0,
-      "explain": "The accusative singular is <i>-ιν</i>, like <i>πόλιν</i>."
+      "explain": "The accusative singular is <i lang=\"grc\">-ιν</i>, like <i lang=\"grc\">πόλιν</i>."
      },
      {
-      "prompt": "What is the nominative plural of <i>πόλις</i>?",
+      "prompt": "What is the nominative plural of <i lang=\"grc\">πόλις</i>?",
       "options": [
-       "<i>πόλιες</i>",
-       "<i>πόλεις</i>",
-       "<i>πόλεως</i>",
-       "<i>πόλιδες</i>"
+       "<i lang=\"grc\">πόλιες</i>",
+       "<i lang=\"grc\">πόλεις</i>",
+       "<i lang=\"grc\">πόλεως</i>",
+       "<i lang=\"grc\">πόλιδες</i>"
       ],
       "answer": 1,
-      "explain": "The nominative plural is contracted: <i>πόλεις</i>, the same form as the accusative plural."
+      "explain": "The nominative plural is contracted: <i lang=\"grc\">πόλεις</i>, the same form as the accusative plural."
      }
     ]
    }
@@ -355,37 +355,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-basileus",
     "variants": [
      {
-      "prompt": "<i>ἱππεύς</i> (“horseman”) is declined like <i>βασιλεύς</i>. What is its genitive singular?",
+      "prompt": "<i lang=\"grc\">ἱππεύς</i> (“horseman”) is declined like <i lang=\"grc\">βασιλεύς</i>. What is its genitive singular?",
       "options": [
-       "<i>ἱππεῦς</i>",
-       "<i>ἱππέος</i>",
-       "<i>ἱππέως</i>",
-       "<i>ἱππεύου</i>"
+       "<i lang=\"grc\">ἱππεῦς</i>",
+       "<i lang=\"grc\">ἱππέος</i>",
+       "<i lang=\"grc\">ἱππέως</i>",
+       "<i lang=\"grc\">ἱππεύου</i>"
       ],
       "answer": 2,
-      "explain": "Nouns in <i>-εύς</i> have the genitive singular in <i>-έως</i>."
+      "explain": "Nouns in <i lang=\"grc\">-εύς</i> have the genitive singular in <i lang=\"grc\">-έως</i>."
      },
      {
-      "prompt": "What is the vocative singular of <i>βασιλεύς</i>?",
+      "prompt": "What is the vocative singular of <i lang=\"grc\">βασιλεύς</i>?",
       "options": [
-       "<i>βασιλεύ</i>",
-       "<i>βασιλεῦ</i>",
-       "<i>βασιλέα</i>",
-       "<i>βασιλεύς</i>"
+       "<i lang=\"grc\">βασιλεύ</i>",
+       "<i lang=\"grc\">βασιλεῦ</i>",
+       "<i lang=\"grc\">βασιλέα</i>",
+       "<i lang=\"grc\">βασιλεύς</i>"
       ],
       "answer": 1,
-      "explain": "The vocative of nouns in <i>-εύς</i> is in <i>-εῦ</i>."
+      "explain": "The vocative of nouns in <i lang=\"grc\">-εύς</i> is in <i lang=\"grc\">-εῦ</i>."
      },
      {
-      "prompt": "What is the nominative plural of <i>ἱππεύς</i>?",
+      "prompt": "What is the nominative plural of <i lang=\"grc\">ἱππεύς</i>?",
       "options": [
-       "<i>ἱππῆς</i> or <i>ἱππεῖς</i>",
-       "<i>ἱππεύοι</i>",
-       "<i>ἱππέᾱς</i>",
-       "<i>ἱππέων</i>"
+       "<i lang=\"grc\">ἱππῆς</i> or <i lang=\"grc\">ἱππεῖς</i>",
+       "<i lang=\"grc\">ἱππεύοι</i>",
+       "<i lang=\"grc\">ἱππέᾱς</i>",
+       "<i lang=\"grc\">ἱππέων</i>"
       ],
       "answer": 0,
-      "explain": "The nominative plural of nouns in <i>-εύς</i> is <i>-ῆς</i> in older Attic and <i>-εῖς</i> later."
+      "explain": "The nominative plural of nouns in <i lang=\"grc\">-εύς</i> is <i lang=\"grc\">-ῆς</i> in older Attic and <i lang=\"grc\">-εῖς</i> later."
      }
     ]
    }
@@ -398,37 +398,37 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-agathos",
     "variants": [
      {
-      "prompt": "Which form of <i>καλός</i> agrees with <i>τὴν ψυχήν</i>?",
+      "prompt": "Which form of <i lang=\"grc\">καλός</i> agrees with <i lang=\"grc\">τὴν ψυχήν</i>?",
       "options": [
-       "<i>καλόν</i>",
-       "<i>καλήν</i>",
-       "<i>καλῆς</i>",
-       "<i>καλάν</i>"
+       "<i lang=\"grc\">καλόν</i>",
+       "<i lang=\"grc\">καλήν</i>",
+       "<i lang=\"grc\">καλῆς</i>",
+       "<i lang=\"grc\">καλάν</i>"
       ],
       "answer": 1,
-      "explain": "The adjective agrees in gender, number, and case: feminine accusative singular <i>καλήν</i>."
+      "explain": "The adjective agrees in gender, number, and case: feminine accusative singular <i lang=\"grc\">καλήν</i>."
      },
      {
-      "prompt": "What is the neuter nominative plural of <i>καλός</i>?",
+      "prompt": "What is the neuter nominative plural of <i lang=\"grc\">καλός</i>?",
       "options": [
-       "<i>καλοί</i>",
-       "<i>καλαί</i>",
-       "<i>καλά</i>",
-       "<i>καλῶν</i>"
+       "<i lang=\"grc\">καλοί</i>",
+       "<i lang=\"grc\">καλαί</i>",
+       "<i lang=\"grc\">καλά</i>",
+       "<i lang=\"grc\">καλῶν</i>"
       ],
       "answer": 2,
-      "explain": "The neuter plural nominative ends in <i>-α</i>: <i>καλά</i>."
+      "explain": "The neuter plural nominative ends in <i lang=\"grc\">-α</i>: <i lang=\"grc\">καλά</i>."
      },
      {
-      "prompt": "What is the masculine vocative singular of <i>καλός</i>?",
+      "prompt": "What is the masculine vocative singular of <i lang=\"grc\">καλός</i>?",
       "options": [
-       "<i>καλός</i>",
-       "<i>καλοῦ</i>",
-       "<i>καλή</i>",
-       "<i>καλέ</i>"
+       "<i lang=\"grc\">καλός</i>",
+       "<i lang=\"grc\">καλοῦ</i>",
+       "<i lang=\"grc\">καλή</i>",
+       "<i lang=\"grc\">καλέ</i>"
       ],
       "answer": 3,
-      "explain": "The masculine vocative follows the second declension: <i>καλέ</i>."
+      "explain": "The masculine vocative follows the second declension: <i lang=\"grc\">καλέ</i>."
      }
     ]
    }
@@ -461,29 +461,29 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
     "id": "q-grc-par-alethes",
     "variants": [
      {
-      "prompt": "<i>σαφής, σαφές</i> (“clear”) is declined like <i>ἀληθής</i>. What is its neuter nominative singular?",
+      "prompt": "<i lang=\"grc\">σαφής, σαφές</i> (“clear”) is declined like <i lang=\"grc\">ἀληθής</i>. What is its neuter nominative singular?",
       "options": [
-       "<i>σαφές</i>",
-       "<i>σαφόν</i>",
-       "<i>σαφῆ</i>",
-       "<i>σαφής</i>"
+       "<i lang=\"grc\">σαφές</i>",
+       "<i lang=\"grc\">σαφόν</i>",
+       "<i lang=\"grc\">σαφῆ</i>",
+       "<i lang=\"grc\">σαφής</i>"
       ],
       "answer": 0,
-      "explain": "Adjectives of this kind have one form for the masculine and feminine and the neuter in <i>-ές</i>."
+      "explain": "Adjectives of this kind have one form for the masculine and feminine and the neuter in <i lang=\"grc\">-ές</i>."
      },
      {
-      "prompt": "What is the genitive singular of <i>σαφής</i>?",
+      "prompt": "What is the genitive singular of <i lang=\"grc\">σαφής</i>?",
       "options": [
-       "<i>σαφέος</i>",
-       "<i>σαφῆς</i>",
-       "<i>σαφοῦ</i>",
-       "<i>σαφοῦς</i>"
+       "<i lang=\"grc\">σαφέος</i>",
+       "<i lang=\"grc\">σαφῆς</i>",
+       "<i lang=\"grc\">σαφοῦ</i>",
+       "<i lang=\"grc\">σαφοῦς</i>"
       ],
       "answer": 3,
-      "explain": "The stem <i>σαφεσ-</i> loses its <i>σ</i> between vowels and contracts: <i>σαφέος</i>, <i>σαφοῦς</i>."
+      "explain": "The stem <i lang=\"grc\">σαφεσ-</i> loses its <i lang=\"grc\">σ</i> between vowels and contracts: <i lang=\"grc\">σαφέος</i>, <i lang=\"grc\">σαφοῦς</i>."
      },
      {
-      "prompt": "How many sets of endings has <i>ἀληθής</i>?",
+      "prompt": "How many sets of endings has <i lang=\"grc\">ἀληθής</i>?",
       "options": [
        "Three, one for each gender",
        "One for all three genders",
@@ -491,7 +491,7 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
        "Four, counting the dual"
       ],
       "answer": 2,
-      "explain": "<i>Ἀληθής</i> is an adjective of two endings."
+      "explain": "<i lang=\"grc\">Ἀληθής</i> is an adjective of two endings."
      }
     ]
    }
@@ -499,42 +499,42 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
   {
    "id": "paradigms-23",
    "title": "λῡ́ω",
-   "body": "<p><strong>λῡ́ω</strong> (“I loose”), Smyth §383</p><p><i>Active</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th> <th>Imperfect</th> <th>Future</th> <th>Aorist</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">λῡ́ω</td> <td class=\"f\">ἔλῡον</td> <td class=\"f\">λῡ́σω</td> <td class=\"f\">ἔλῡσα</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">λῡ́εις</td> <td class=\"f\">ἔλῡες</td> <td class=\"f\">λῡ́σεις</td> <td class=\"f\">ἔλῡσας</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">λῡ́ει</td> <td class=\"f\">ἔλῡε</td> <td class=\"f\">λῡ́σει</td> <td class=\"f\">ἔλῡσε</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">λῡ́ετον</td> <td class=\"f\">ἐλῡ́ετον</td> <td class=\"f\">λῡ́σετον</td> <td class=\"f\">ἐλῡ́σατον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">λῡ́ετον</td> <td class=\"f\">ἐλῡέτην</td> <td class=\"f\">λῡ́σετον</td> <td class=\"f\">ἐλῡσάτην</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">λῡ́ομεν</td> <td class=\"f\">ἐλῡ́ομεν</td> <td class=\"f\">λῡ́σομεν</td> <td class=\"f\">ἐλῡ́σαμεν</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">λῡ́ετε</td> <td class=\"f\">ἐλῡ́ετε</td> <td class=\"f\">λῡ́σετε</td> <td class=\"f\">ἐλῡ́σατε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">λῡ́ουσι</td> <td class=\"f\">ἔλῡον</td> <td class=\"f\">λῡ́σουσι</td> <td class=\"f\">ἔλῡσαν</td></tr>\n</table></div><p><i>Middle and passive</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">λῡ́ομαι</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">λῡ́ῃ or λῡ́ει</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">λῡ́εται</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">λῡ́εσθον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">λῡ́εσθον</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">λῡόμεθα</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">λῡ́εσθε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">λῡ́ονται</td></tr>\n</table></div>",
+   "body": "<p><strong>λῡ́ω</strong> (“I loose”), Smyth §383</p><p><i lang=\"grc\">Active</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th> <th>Imperfect</th> <th>Future</th> <th>Aorist</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">λῡ́ω</td> <td class=\"f\">ἔλῡον</td> <td class=\"f\">λῡ́σω</td> <td class=\"f\">ἔλῡσα</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">λῡ́εις</td> <td class=\"f\">ἔλῡες</td> <td class=\"f\">λῡ́σεις</td> <td class=\"f\">ἔλῡσας</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">λῡ́ει</td> <td class=\"f\">ἔλῡε</td> <td class=\"f\">λῡ́σει</td> <td class=\"f\">ἔλῡσε</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">λῡ́ετον</td> <td class=\"f\">ἐλῡ́ετον</td> <td class=\"f\">λῡ́σετον</td> <td class=\"f\">ἐλῡ́σατον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">λῡ́ετον</td> <td class=\"f\">ἐλῡέτην</td> <td class=\"f\">λῡ́σετον</td> <td class=\"f\">ἐλῡσάτην</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">λῡ́ομεν</td> <td class=\"f\">ἐλῡ́ομεν</td> <td class=\"f\">λῡ́σομεν</td> <td class=\"f\">ἐλῡ́σαμεν</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">λῡ́ετε</td> <td class=\"f\">ἐλῡ́ετε</td> <td class=\"f\">λῡ́σετε</td> <td class=\"f\">ἐλῡ́σατε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">λῡ́ουσι</td> <td class=\"f\">ἔλῡον</td> <td class=\"f\">λῡ́σουσι</td> <td class=\"f\">ἔλῡσαν</td></tr>\n</table></div><p><i lang=\"grc\">Middle and passive</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">λῡ́ομαι</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">λῡ́ῃ or λῡ́ει</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">λῡ́εται</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">λῡ́εσθον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">λῡ́εσθον</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">λῡόμεθα</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">λῡ́εσθε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">λῡ́ονται</td></tr>\n</table></div>",
    "qp": {
     "id": "q-grc-par-luo",
     "variants": [
      {
-      "prompt": "<i>θηρεύω</i> (“hunt”) is conjugated like <i>λῡ́ω</i>. What is its third person plural imperfect active?",
+      "prompt": "<i lang=\"grc\">θηρεύω</i> (“hunt”) is conjugated like <i lang=\"grc\">λῡ́ω</i>. What is its third person plural imperfect active?",
       "options": [
-       "<i>ἐθήρευον</i>",
-       "<i>ἐθήρευσαν</i>",
-       "<i>θηρεύουσι</i>",
-       "<i>ἐθηρεύετε</i>"
+       "<i lang=\"grc\">ἐθήρευον</i>",
+       "<i lang=\"grc\">ἐθήρευσαν</i>",
+       "<i lang=\"grc\">θηρεύουσι</i>",
+       "<i lang=\"grc\">ἐθηρεύετε</i>"
       ],
       "answer": 0,
-      "explain": "The imperfect has <i>-ον</i> in the third person plural, like <i>ἔλῡον</i>."
+      "explain": "The imperfect has <i lang=\"grc\">-ον</i> in the third person plural, like <i lang=\"grc\">ἔλῡον</i>."
      },
      {
-      "prompt": "What is the first person plural future active of <i>θηρεύω</i>?",
+      "prompt": "What is the first person plural future active of <i lang=\"grc\">θηρεύω</i>?",
       "options": [
-       "<i>ἐθηρεύσαμεν</i>",
-       "<i>θηρεύομεν</i>",
-       "<i>θηρεύσαμεν</i>",
-       "<i>θηρεύσομεν</i>"
+       "<i lang=\"grc\">ἐθηρεύσαμεν</i>",
+       "<i lang=\"grc\">θηρεύομεν</i>",
+       "<i lang=\"grc\">θηρεύσαμεν</i>",
+       "<i lang=\"grc\">θηρεύσομεν</i>"
       ],
       "answer": 3,
-      "explain": "The future adds <i>σ</i> to the present endings: <i>θηρεύσομεν</i>."
+      "explain": "The future adds <i lang=\"grc\">σ</i> to the present endings: <i lang=\"grc\">θηρεύσομεν</i>."
      },
      {
-      "prompt": "Which form of <i>θηρεύω</i> is the present middle, third person plural?",
+      "prompt": "Which form of <i lang=\"grc\">θηρεύω</i> is the present middle, third person plural?",
       "options": [
-       "<i>θηρεύουσι</i>",
-       "<i>ἐθηρεύοντο</i>",
-       "<i>θηρεύονται</i>",
-       "<i>θηρεύσονται</i>"
+       "<i lang=\"grc\">θηρεύουσι</i>",
+       "<i lang=\"grc\">ἐθηρεύοντο</i>",
+       "<i lang=\"grc\">θηρεύονται</i>",
+       "<i lang=\"grc\">θηρεύσονται</i>"
       ],
       "answer": 2,
-      "explain": "The present middle has <i>-ονται</i>, like <i>λῡ́ονται</i>."
+      "explain": "The present middle has <i lang=\"grc\">-ονται</i>, like <i lang=\"grc\">λῡ́ονται</i>."
      }
     ]
    }
@@ -542,42 +542,42 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
   {
    "id": "paradigms-24",
    "title": "εἰμί",
-   "body": "<p><strong>εἰμί</strong> (“I am”), Smyth §768</p><p><i>Active</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th> <th>Imperfect</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">εἰμί</td> <td class=\"f\">ἦ or ἦν</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">εἶ</td> <td class=\"f\">ἦσθα</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">ἐστί</td> <td class=\"f\">ἦν</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">ἐστόν</td> <td class=\"f\">ἤστον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">ἐστόν</td> <td class=\"f\">ἤστην</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">ἐσμέν</td> <td class=\"f\">ἦμεν</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">ἐστέ</td> <td class=\"f\">ἦτε or ἦστε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">εἰσί</td> <td class=\"f\">ἦσαν</td></tr>\n</table></div><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Future, middle in form</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">ἔσομαι</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">ἔσῃ or ἔσει</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">ἔσται</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">ἔσεσθον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">ἔσεσθον</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">ἐσόμεθα</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">ἔσεσθε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">ἔσονται</td></tr>\n</table></div>",
+   "body": "<p><strong>εἰμί</strong> (“I am”), Smyth §768</p><p><i lang=\"grc\">Active</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Present</th> <th>Imperfect</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">εἰμί</td> <td class=\"f\">ἦ or ἦν</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">εἶ</td> <td class=\"f\">ἦσθα</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">ἐστί</td> <td class=\"f\">ἦν</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">ἐστόν</td> <td class=\"f\">ἤστον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">ἐστόν</td> <td class=\"f\">ἤστην</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">ἐσμέν</td> <td class=\"f\">ἦμεν</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">ἐστέ</td> <td class=\"f\">ἦτε or ἦστε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">εἰσί</td> <td class=\"f\">ἦσαν</td></tr>\n</table></div><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Future, middle in form</th></tr>\n<tr><td>1st singular</td> <td class=\"f\">ἔσομαι</td></tr>\n<tr><td>2nd singular</td> <td class=\"f\">ἔσῃ or ἔσει</td></tr>\n<tr><td>3rd singular</td> <td class=\"f\">ἔσται</td></tr>\n<tr><td>2nd dual</td> <td class=\"f\">ἔσεσθον</td></tr>\n<tr><td>3rd dual</td> <td class=\"f\">ἔσεσθον</td></tr>\n<tr><td>1st plural</td> <td class=\"f\">ἐσόμεθα</td></tr>\n<tr><td>2nd plural</td> <td class=\"f\">ἔσεσθε</td></tr>\n<tr><td>3rd plural</td> <td class=\"f\">ἔσονται</td></tr>\n</table></div>",
    "qp": {
     "id": "q-grc-par-eimi",
     "variants": [
      {
-      "prompt": "What is the first person plural present of <i>εἰμί</i>?",
+      "prompt": "What is the first person plural present of <i lang=\"grc\">εἰμί</i>?",
       "options": [
-       "<i>ἐσμέν</i>",
-       "<i>ἦμεν</i>",
-       "<i>ἐσόμεθα</i>",
-       "<i>ἐστέ</i>"
+       "<i lang=\"grc\">ἐσμέν</i>",
+       "<i lang=\"grc\">ἦμεν</i>",
+       "<i lang=\"grc\">ἐσόμεθα</i>",
+       "<i lang=\"grc\">ἐστέ</i>"
       ],
       "answer": 0,
-      "explain": "<i>Εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</i>."
+      "explain": "<i lang=\"grc\">Εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</i>."
      },
      {
-      "prompt": "In what form is the future of <i>εἰμί</i>?",
+      "prompt": "In what form is the future of <i lang=\"grc\">εἰμί</i>?",
       "options": [
-       "Active, <i>ἔσω</i>",
-       "Passive, <i>ἐσθήσομαι</i>",
+       "Active, <i lang=\"grc\">ἔσω</i>",
+       "Passive, <i lang=\"grc\">ἐσθήσομαι</i>",
        "It has no future",
-       "Middle, <i>ἔσομαι</i>"
+       "Middle, <i lang=\"grc\">ἔσομαι</i>"
       ],
       "answer": 3,
-      "explain": "The future of <i>εἰμί</i> is middle in form: <i>ἔσομαι</i>."
+      "explain": "The future of <i lang=\"grc\">εἰμί</i> is middle in form: <i lang=\"grc\">ἔσομαι</i>."
      },
      {
-      "prompt": "What is the second person singular imperfect of <i>εἰμί</i>?",
+      "prompt": "What is the second person singular imperfect of <i lang=\"grc\">εἰμί</i>?",
       "options": [
-       "<i>ἦς</i>",
-       "<i>εἶ</i>",
-       "<i>ἦσθα</i>",
-       "<i>ἦτε</i>"
+       "<i lang=\"grc\">ἦς</i>",
+       "<i lang=\"grc\">εἶ</i>",
+       "<i lang=\"grc\">ἦσθα</i>",
+       "<i lang=\"grc\">ἦτε</i>"
       ],
       "answer": 2,
-      "explain": "The imperfect is <i>ἦ</i> or <i>ἦν</i>, <i>ἦσθα</i>, <i>ἦν</i>; <i>εἶ</i> is present."
+      "explain": "The imperfect is <i lang=\"grc\">ἦ</i> or <i lang=\"grc\">ἦν</i>, <i lang=\"grc\">ἦσθα</i>, <i lang=\"grc\">ἦν</i>; <i lang=\"grc\">εἶ</i> is present."
      }
     ]
    }

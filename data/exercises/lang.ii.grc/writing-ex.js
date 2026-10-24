@@ -15,8 +15,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>λόγος</i> in Latin letters.",
-   "explain": "<i>Λ</i> = l, <i>ο</i> = o, <i>γ</i> = g, <i>ς</i> = s.",
+   "prompt": "Write <i lang=\"grc\">λόγος</i> in Latin letters.",
+   "explain": "<i lang=\"grc\">Λ</i> = l, <i lang=\"grc\">ο</i> = o, <i lang=\"grc\">γ</i> = g, <i lang=\"grc\">ς</i> = s.",
    "accept": [
     "logos"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>θέατρον</i> in Latin letters.",
-   "explain": "<i>Θ</i> is written th.",
+   "prompt": "Write <i lang=\"grc\">θέατρον</i> in Latin letters.",
+   "explain": "<i lang=\"grc\">Θ</i> is written th.",
    "accept": [
     "theatron"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>χάος</i> in Latin letters.",
-   "explain": "<i>Χ</i> is written ch.",
+   "prompt": "Write <i lang=\"grc\">χάος</i> in Latin letters.",
+   "explain": "<i lang=\"grc\">Χ</i> is written ch.",
    "accept": [
     "chaos",
     "khaos"
@@ -52,8 +52,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>ψυχή</i> in Latin letters.",
-   "explain": "<i>Ψ</i> = ps, <i>υ</i> = y, <i>χ</i> = ch, <i>η</i> = ē.",
+   "prompt": "Write <i lang=\"grc\">ψυχή</i> in Latin letters.",
+   "explain": "<i lang=\"grc\">Ψ</i> = ps, <i lang=\"grc\">υ</i> = y, <i lang=\"grc\">χ</i> = ch, <i lang=\"grc\">η</i> = ē.",
    "accept": [
     "psychē",
     "psyche",
@@ -69,7 +69,7 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "section": "ii",
    "type": "form",
    "prompt": "Write the word “delta” in Greek letters.",
-   "explain": "<i>Δέλτα</i>.",
+   "explain": "<i lang=\"grc\">Δέλτα</i>.",
    "accept": [
     "δελτα",
     "δέλτα"
@@ -81,8 +81,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write the word “drama” in Greek letters (it is spelled <i>d-r-a-m-a</i>).",
-   "explain": "<i>Δρᾶμα</i>.",
+   "prompt": "Write the word “drama” in Greek letters (it is spelled <i lang=\"grc\">d-r-a-m-a</i>).",
+   "explain": "<i lang=\"grc\">Δρᾶμα</i>.",
    "accept": [
     "δραμα",
     "δρᾶμα"
@@ -94,13 +94,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which form of sigma ends <i>λόγος</i>?",
-   "explain": "<i>Σ</i> is written at the end of a word.",
+   "prompt": "Which form of sigma ends <i lang=\"grc\">λόγος</i>?",
+   "explain": "<i lang=\"grc\">Σ</i> is written at the end of a word.",
    "options": [
-    "<i>σ</i>",
-    "<i>Σ</i>",
-    "<i>ς</i>",
-    "<i>ζ</i>"
+    "<i lang=\"grc\">σ</i>",
+    "<i lang=\"grc\">Σ</i>",
+    "<i lang=\"grc\">ς</i>",
+    "<i lang=\"grc\">ζ</i>"
    ],
    "answer": 2
   },
@@ -110,8 +110,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is the name of the letter <i>η</i>?",
-   "explain": "<i>Η</i> is eta, a long <i>e</i>.",
+   "prompt": "What is the name of the letter <i lang=\"grc\">η</i>?",
+   "explain": "<i lang=\"grc\">Η</i> is eta, a long <i lang=\"grc\">e</i>.",
    "options": [
     "Epsilon",
     "Iota",
@@ -126,13 +126,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is <i>γγ</i> pronounced in <i>ἄγγελος</i>?",
-   "explain": "Gamma before gamma is pronounced <i>n</i>: Latin <i>angelus</i>.",
+   "prompt": "How is <i lang=\"grc\">γγ</i> pronounced in <i lang=\"grc\">ἄγγελος</i>?",
+   "explain": "Gamma before gamma is pronounced <i lang=\"grc\">n</i>: Latin <i lang=\"grc\">angelus</i>.",
    "options": [
-    "As <i>ng</i>",
-    "As <i>gg</i>",
-    "As <i>j</i>",
-    "As <i>k</i>"
+    "As <i lang=\"grc\">ng</i>",
+    "As <i lang=\"grc\">gg</i>",
+    "As <i lang=\"grc\">j</i>",
+    "As <i lang=\"grc\">k</i>"
    ],
    "answer": 0
   },
@@ -143,12 +143,12 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which word has a rough breathing over its first vowel?",
-   "explain": "<i>Ἵππος</i> begins with an <i>h</i> sound.",
+   "explain": "<i lang=\"grc\">Ἵππος</i> begins with an <i lang=\"grc\">h</i> sound.",
    "options": [
-    "<i>ἵππος</i>",
-    "<i>ἄνθρωπος</i>",
-    "<i>ἐγώ</i>",
-    "<i>οὐρανός</i>"
+    "<i lang=\"grc\">ἵππος</i>",
+    "<i lang=\"grc\">ἄνθρωπος</i>",
+    "<i lang=\"grc\">ἐγώ</i>",
+    "<i lang=\"grc\">οὐρανός</i>"
    ],
    "answer": 0
   },
@@ -158,13 +158,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where is the breathing written on <i>οἶνος</i>?",
+   "prompt": "Where is the breathing written on <i lang=\"grc\">οἶνος</i>?",
    "explain": "On a diphthong, over the second vowel; under a circumflex.",
    "options": [
-    "Over the <i>ο</i>",
+    "Over the <i lang=\"grc\">ο</i>",
     "After the word",
     "There is none",
-    "Under the circumflex, over the <i>ι</i>"
+    "Under the circumflex, over the <i lang=\"grc\">ι</i>"
    ],
    "answer": 3
   },
@@ -175,12 +175,12 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which form shows an iota subscript?",
-   "explain": "<i>Τῇ</i> has the small iota under <i>η</i>.",
+   "explain": "<i lang=\"grc\">Τῇ</i> has the small iota under <i lang=\"grc\">η</i>.",
    "options": [
-    "<i>τήν</i>",
-    "<i>τῆς</i>",
-    "<i>τῇ</i>",
-    "<i>ταί</i>"
+    "<i lang=\"grc\">τήν</i>",
+    "<i lang=\"grc\">τῆς</i>",
+    "<i lang=\"grc\">τῇ</i>",
+    "<i lang=\"grc\">ταί</i>"
    ],
    "answer": 2
   },
@@ -190,11 +190,11 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is the iota written with a capital letter, as in the capital of <i>ᾠδή</i>?",
+   "prompt": "How is the iota written with a capital letter, as in the capital of <i lang=\"grc\">ᾠδή</i>?",
    "explain": "With a capital the iota is adscript.",
    "options": [
     "Under the letter, as with small letters",
-    "Beside the letter: <i>Ωι</i>",
+    "Beside the letter: <i lang=\"grc\">Ωι</i>",
     "Over the letter",
     "It is left out"
    ],
@@ -206,8 +206,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>ῥήτωρ</i> in Latin letters.",
-   "explain": "Initial <i>ῥ</i> is written rh.",
+   "prompt": "Write <i lang=\"grc\">ῥήτωρ</i> in Latin letters.",
+   "explain": "Initial <i lang=\"grc\">ῥ</i> is written rh.",
    "accept": [
     "rhētōr",
     "rhetor",
@@ -221,7 +221,7 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does <i>τί θέλεις;</i> end with?",
+   "prompt": "What does <i lang=\"grc\">τί θέλεις;</i> end with?",
    "explain": "The Greek question mark looks like the English semicolon.",
    "options": [
     "A semicolon",
@@ -237,7 +237,7 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the raised dot in <i>ἐνίκησαν· ἀπῆλθον δέ</i> mark?",
+   "prompt": "What does the raised dot in <i lang=\"grc\">ἐνίκησαν· ἀπῆλθον δέ</i> mark?",
    "explain": "The raised dot does the work of the colon and the semicolon.",
    "options": [
     "The end of a question, as the Greek semicolon does",
@@ -253,8 +253,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the apostrophe in <i>δι’ ὀλίγου</i> mark?",
-   "explain": "<i>Διά</i> has lost its final <i>α</i>.",
+   "prompt": "What does the apostrophe in <i lang=\"grc\">δι’ ὀλίγου</i> mark?",
+   "explain": "<i lang=\"grc\">Διά</i> has lost its final <i lang=\"grc\">α</i>.",
    "options": [
     "A rough breathing",
     "An elided vowel",
@@ -269,13 +269,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the diaeresis in <i>ἀΐδιος</i> show?",
-   "explain": "Without it, <i>αι</i> would be a diphthong.",
+   "prompt": "What does the diaeresis in <i lang=\"grc\">ἀΐδιος</i> show?",
+   "explain": "Without it, <i lang=\"grc\">αι</i> would be a diphthong.",
    "options": [
-    "<i>α</i> and <i>ι</i> are pronounced apart",
-    "The <i>ι</i> is subscript",
+    "<i lang=\"grc\">α</i> and <i lang=\"grc\">ι</i> are pronounced apart",
+    "The <i lang=\"grc\">ι</i> is subscript",
     "The vowel is long",
-    "The accent has moved to the <i>ι</i>"
+    "The accent has moved to the <i lang=\"grc\">ι</i>"
    ],
    "answer": 0
   },
@@ -285,8 +285,8 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "form",
-   "prompt": "Write <i>σφαῖρα</i> in Latin letters.",
-   "explain": "<i>Σφ</i> = sph; Latin writes <i>sphaera</i>.",
+   "prompt": "Write <i lang=\"grc\">σφαῖρα</i> in Latin letters.",
+   "explain": "<i lang=\"grc\">Σφ</i> = sph; Latin writes <i lang=\"grc\">sphaera</i>.",
    "accept": [
     "sphaira",
     "sphaera"
@@ -299,7 +299,7 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "section": "ii",
    "type": "form",
    "prompt": "Write the word “kosmos” in Greek letters.",
-   "explain": "<i>Κόσμος</i>, with final <i>ς</i>.",
+   "explain": "<i lang=\"grc\">Κόσμος</i>, with final <i lang=\"grc\">ς</i>.",
    "accept": [
     "κοσμος",
     "κόσμος"
@@ -311,13 +311,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How does Latin spell Greek <i>κ</i> in borrowed words?",
-   "explain": "<i>Κύκλος</i> gives Latin <i>cyclus</i>.",
+   "prompt": "How does Latin spell Greek <i lang=\"grc\">κ</i> in borrowed words?",
+   "explain": "<i lang=\"grc\">Κύκλος</i> gives Latin <i lang=\"grc\">cyclus</i>.",
    "options": [
-    "With <i>c</i>",
-    "With <i>k</i>, as English often does",
-    "With <i>q</i>",
-    "With <i>ch</i>"
+    "With <i lang=\"grc\">c</i>",
+    "With <i lang=\"grc\">k</i>, as English often does",
+    "With <i lang=\"grc\">q</i>",
+    "With <i lang=\"grc\">ch</i>"
    ],
    "answer": 0
   },
@@ -327,13 +327,13 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "deck": "lang.ii.grc/writing-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How does Latin spell Greek <i>υ</i> in borrowed words?",
-   "explain": "<i>Μῦθος</i> gives Latin <i>mythus</i>.",
+   "prompt": "How does Latin spell Greek <i lang=\"grc\">υ</i> in borrowed words?",
+   "explain": "<i lang=\"grc\">Μῦθος</i> gives Latin <i lang=\"grc\">mythus</i>.",
    "options": [
-    "With <i>u</i>, as in diphthongs",
-    "With <i>y</i>",
-    "With <i>i</i>",
-    "With <i>v</i>"
+    "With <i lang=\"grc\">u</i>, as in diphthongs",
+    "With <i lang=\"grc\">y</i>",
+    "With <i lang=\"grc\">i</i>",
+    "With <i lang=\"grc\">v</i>"
    ],
    "answer": 1
   }

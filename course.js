@@ -63,16 +63,21 @@ const LANGS = [
   { code:'en', name:'English' },
   { code:'la', name:'Latin' },
   { code:'grc', name:'Greek', native:'Ἑλληνική' },
-  { code:'fr', name:'French' },
-  { code:'de', name:'German' }
+  { code:'es', name:'Spanish', hidden:true },   /* hidden until its content is written (Phase 1 on) */
+  { code:'de', name:'German' },
+  { code:'fr', name:'French' }
 ];
+/* A hidden language shows only in preview: course.html?preview=es (several: ?preview=es,xx). */
+const PREVIEW_LANGS = (() => { try { return (new URLSearchParams(location.search).get('preview') || '').split(',').map(x => x.trim()).filter(Boolean); } catch (e) { return []; } })();
+const langShown = L => !L.hidden || PREVIEW_LANGS.indexOf(L.code) >= 0;
 /* Letters an English keyboard does not have, shown under a typed answer in that language. */
 const LETTER_KEYS = {
   grc:'αβγδεζηθικλμνξοπρσςτυφχψω',
-  fr:'éèêàâçëïîôùûœ',
-  de:'äöüß'
+  es:'áéíóúüñ¿¡',
+  de:'äöüß',
+  fr:'éèêàâçëïîôùûœ'
 };
-const LETTER_KEY_LABEL = { grc:'Greek letters', fr:'French letters', de:'German letters' };
+const LETTER_KEY_LABEL = { grc:'Greek letters', es:'Spanish letters', de:'German letters', fr:'French letters' };
 const LANG_BARS = {
   'prelim': { section:'prelim', title:'An Overview', direct:'overview' },
   'ii': { section:'ii', title:'The Matter of Speech' },
@@ -219,7 +224,7 @@ function langBar(bar){
   el.appendChild(h);
   const row = document.createElement('div');
   row.className = 'lang-btns';
-  LANGS.forEach(L => {
+  LANGS.filter(langShown).forEach(L => {
     const screen = langRecord(bar.id, L.code);
     const b = document.createElement('button');
     b.type = 'button';
@@ -462,6 +467,8 @@ function foldBase(s, item){
   }
   /* German keeps its umlaut (U+0308), so "Bucher" is not taken for "B\u00fccher"; ue for \u00fc is still accepted. */
   const keepUmlaut = exerciseLang(item) === 'de';
+  /* Spanish keeps every written accent and the tilde of ñ: "cantó" is not "canto", and "año" is not "ano". */
+  if (exerciseLang(item) === 'es') return t.normalize('NFC');
   t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' || (keepUmlaut && m === '\u0308') ? m : '')).normalize('NFC');
   return t;
 }

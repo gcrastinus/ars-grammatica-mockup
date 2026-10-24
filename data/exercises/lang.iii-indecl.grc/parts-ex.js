@@ -15,7 +15,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ ἄνθρωπος <b>σοφῶς</b> γράφει</i> (“The man writes wisely”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ ἄνθρωπος <b>σοφῶς</b> γράφει</i> (“The man writes wisely”)",
    "explain": "σοφῶς tells how he writes. An adverb in -ως keeps one form (§343, §345).",
    "options": [
     "adverb",
@@ -31,7 +31,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ βασιλεὺς <b>κακῶς</b> ἄρχει τῶν ἀνθρώπων</i> (“The king rules the men badly”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ βασιλεὺς <b>κακῶς</b> ἄρχει τῶν ἀνθρώπων</i> (“The king rules the men badly”)",
    "explain": "κακῶς tells how he rules. Smyth prints κακῶς, and the gloss there is ill (§343).",
    "options": [
     "adverb",
@@ -47,7 +47,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i><b>ἐν</b> τῇ χώρᾳ γράφει</i> (“He writes in the land”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\"><b>ἐν</b> τῇ χώρᾳ γράφει</i> (“He writes in the land”)",
    "explain": "ἐν stands before the noun and puts χώρᾳ in the dative (§1687).",
    "options": [
     "preposition",
@@ -63,7 +63,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>πέμπει τὸν ἵππον <b>εἰς</b> τὴν χώρᾱν</i> (“He sends the horse into the land”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">πέμπει τὸν ἵππον <b>εἰς</b> τὴν χώρᾱν</i> (“He sends the horse into the land”)",
    "explain": "εἰς stands before the noun and puts χώρᾱν in the accusative (§1686).",
    "options": [
     "preposition",
@@ -79,7 +79,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ φύλαξ <b>ἐκ</b> τῆς πόλεως πέμπει τὸ δῶρον</i> (“The watchman sends the gift out of the city”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ φύλαξ <b>ἐκ</b> τῆς πόλεως πέμπει τὸ δῶρον</i> (“The watchman sends the gift out of the city”)",
    "explain": "ἐκ stands before the noun and puts πόλεως in the genitive (§1688).",
    "options": [
     "preposition",
@@ -95,7 +95,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ ἄνθρωπος <b>καὶ</b> ὁ κριτὴς λῡ́ουσι τὸν ἵππον</i> (“The man and the judge loose the horse”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ ἄνθρωπος <b>καὶ</b> ὁ κριτὴς λῡ́ουσι τὸν ἵππον</i> (“The man and the judge loose the horse”)",
    "explain": "καί joins the man and the judge. In this sentence it is a conjunction (§2868).",
    "options": [
     "conjunction",
@@ -111,7 +111,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ ἄνθρωπος λῡ́ει τὸν ἵππον, <b>ἀλλὰ</b> ὁ κριτὴς γράφει</i> (“The man looses the horse, but the judge writes”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ ἄνθρωπος λῡ́ει τὸν ἵππον, <b>ἀλλὰ</b> ὁ κριτὴς γράφει</i> (“The man looses the horse, but the judge writes”)",
    "explain": "ἀλλά joins the two statements, and the second is set against the first (§2775).",
    "options": [
     "conjunction",
@@ -127,7 +127,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>ὁ <b>γὰρ</b> ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“For the man looses the horse”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ <b>γὰρ</b> ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“For the man looses the horse”)",
    "explain": "γάρ means for, and it is a causal conjunction. It stands after the first word (§2803, §2810).",
    "options": [
     "conjunction",
@@ -143,7 +143,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i><b>φεῦ</b>, ὁ ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“Alas, the man looses the horse”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b>, ὁ ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“Alas, the man looses the horse”)",
    "explain": "φεῦ is a cry of grief. It neither names a thing nor joins a statement (§1407, §904).",
    "options": [
     "interjection",
@@ -159,7 +159,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i><b>φεῦ</b> τοῦ ἀνθρώπου</i> (“Alas for the man”)",
+   "prompt": "What part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b> τοῦ ἀνθρώπου</i> (“Alas for the man”)",
    "explain": "φεῦ is a cry, and the genitive gives the cause. Smyth prints φεῦ τοῦ ἀνδρός (§1407).",
    "options": [
     "interjection",
@@ -175,8 +175,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ὁ μὲν … ὁ δέ</i> mean?",
-   "explain": "With the article, <i>μέν</i> and <i>δέ</i> mark the two sides: “the one … the other.”",
+   "prompt": "What does <i lang=\"grc\">ὁ μὲν … ὁ δέ</i> mean?",
+   "explain": "With the article, <i lang=\"grc\">μέν</i> and <i lang=\"grc\">δέ</i> mark the two sides: “the one … the other.”",
    "options": [
     "“both … and”",
     "“the one … the other”",
@@ -192,12 +192,12 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which negative goes with a statement of fact in the indicative?",
-   "explain": "<i>Οὐ</i> denies a fact.",
+   "explain": "<i lang=\"grc\">Οὐ</i> denies a fact.",
    "options": [
-    "<i>μή</i>",
-    "<i>μηδέ</i>",
-    "<i>οὐ</i>",
-    "<i>μηδείς</i>"
+    "<i lang=\"grc\">μή</i>",
+    "<i lang=\"grc\">μηδέ</i>",
+    "<i lang=\"grc\">οὐ</i>",
+    "<i lang=\"grc\">μηδείς</i>"
    ],
    "answer": 2
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the adverb formed from <i>σαφής</i> (“clear”), genitive plural <i>σαφῶν</i>?",
-   "explain": "Replace <i>-ων</i> with <i>-ως</i>: <i>σαφῶς</i>, “clearly.”",
+   "prompt": "What is the adverb formed from <i lang=\"grc\">σαφής</i> (“clear”), genitive plural <i lang=\"grc\">σαφῶν</i>?",
+   "explain": "Replace <i lang=\"grc\">-ων</i> with <i lang=\"grc\">-ως</i>: <i lang=\"grc\">σαφῶς</i>, “clearly.”",
    "options": [
-    "<i>σαφές</i>",
-    "<i>σαφείᾳ</i>",
-    "<i>σαφοῦς</i>",
-    "<i>σαφῶς</i>"
+    "<i lang=\"grc\">σαφές</i>",
+    "<i lang=\"grc\">σαφείᾳ</i>",
+    "<i lang=\"grc\">σαφοῦς</i>",
+    "<i lang=\"grc\">σαφῶς</i>"
    ],
    "answer": 3
   },
@@ -223,8 +223,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Where does <i>οὖν</i> stand?",
-   "explain": "<i>Οὖν</i> is postpositive.",
+   "prompt": "Where does <i lang=\"grc\">οὖν</i> stand?",
+   "explain": "<i lang=\"grc\">Οὖν</i> is postpositive.",
    "options": [
     "Usually second in its clause",
     "Always first",
@@ -240,12 +240,12 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence uses the negative correctly in a prohibition?",
-   "explain": "A prohibition takes <i>μή</i>.",
+   "explain": "A prohibition takes <i lang=\"grc\">μή</i>.",
    "options": [
-    "<i>οὐ ψεύδου.</i>",
-    "<i>μὴ ψεύδου.</i> (“Do not lie.”)",
-    "<i>οὐκ ψεύδου.</i>",
-    "<i>οὐχ ψεύδου.</i>"
+    "<i lang=\"grc\">οὐ ψεύδου.</i>",
+    "<i lang=\"grc\">μὴ ψεύδου.</i> (“Do not lie.”)",
+    "<i lang=\"grc\">οὐκ ψεύδου.</i>",
+    "<i lang=\"grc\">οὐχ ψεύδου.</i>"
    ],
    "answer": 1
   },
@@ -255,8 +255,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>λέγοι ἄν τις</i> mean?",
-   "explain": "<i>Ἄν</i> with the optative says what would or might happen.",
+   "prompt": "What does <i lang=\"grc\">λέγοι ἄν τις</i> mean?",
+   "explain": "<i lang=\"grc\">Ἄν</i> with the optative says what would or might happen.",
    "options": [
     "“someone said”",
     "“may someone say”",
@@ -271,8 +271,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἐγώ γε</i> mean?",
-   "explain": "<i>Γε</i> limits or emphasizes: “I at any rate.”",
+   "prompt": "What does <i lang=\"grc\">ἐγώ γε</i> mean?",
+   "explain": "<i lang=\"grc\">Γε</i> limits or emphasizes: “I at any rate.”",
    "options": [
     "“and I”",
     "“not I”",
@@ -287,8 +287,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What answer does <i>ἆρα μή</i> expect?",
-   "explain": "<i>Ἆρα μή</i>, like <i>μή</i> and Latin <i>num</i>, expects “no.”",
+   "prompt": "What answer does <i lang=\"grc\">ἆρα μή</i> expect?",
+   "explain": "<i lang=\"grc\">Ἆρα μή</i>, like <i lang=\"grc\">μή</i> and Latin <i lang=\"grc\">num</i>, expects “no.”",
    "options": [
     "“No”",
     "“Yes”",
@@ -303,8 +303,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἦλθεν ἄν</i> express?",
-   "explain": "<i>Ἄν</i> with a past tense of the indicative marks what is unreal: “he would have come.”",
+   "prompt": "What does <i lang=\"grc\">ἦλθεν ἄν</i> express?",
+   "explain": "<i lang=\"grc\">Ἄν</i> with a past tense of the indicative marks what is unreal: “he would have come.”",
    "options": [
     "What happened in fact",
     "What would have happened, but did not",
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is it <i>μὴ ἐλθών</i> (“if he does not come”), and not <i>οὐκ ἐλθών</i>?",
-   "explain": "A participle with the force of a condition takes <i>μή</i>.",
+   "prompt": "Why is it <i lang=\"grc\">μὴ ἐλθών</i> (“if he does not come”), and not <i lang=\"grc\">οὐκ ἐλθών</i>?",
+   "explain": "A participle with the force of a condition takes <i lang=\"grc\">μή</i>.",
    "options": [
-    "Participles always take <i>μή</i>",
-    "<i>Οὐκ</i> cannot stand before a vowel",
+    "Participles always take <i lang=\"grc\">μή</i>",
+    "<i lang=\"grc\">Οὐκ</i> cannot stand before a vowel",
     "The participle has the force of a condition",
-    "<i>Ἐλθών</i> is an imperative"
+    "<i lang=\"grc\">Ἐλθών</i> is an imperative"
    ],
    "answer": 2
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is the comparative of the adverb <i>ταχέως</i>?",
-   "explain": "The comparative adverb is the neuter singular of the comparative adjective <i>θάττων</i>: <i>θᾶττον</i>.",
+   "prompt": "What is the comparative of the adverb <i lang=\"grc\">ταχέως</i>?",
+   "explain": "The comparative adverb is the neuter singular of the comparative adjective <i lang=\"grc\">θάττων</i>: <i lang=\"grc\">θᾶττον</i>.",
    "options": [
-    "<i>ταχύτερος</i>",
-    "<i>τάχιστα</i>",
-    "<i>θᾶττον</i>",
-    "<i>ταχυτέρως</i>"
+    "<i lang=\"grc\">ταχύτερος</i>",
+    "<i lang=\"grc\">τάχιστα</i>",
+    "<i lang=\"grc\">θᾶττον</i>",
+    "<i lang=\"grc\">ταχυτέρως</i>"
    ],
    "answer": 2
   },
@@ -351,8 +351,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>οὐ φεύγει ἀλλὰ μάχεται</i> mean?",
-   "explain": "<i>Ἀλλά</i> after a negative marks a strong contrast.",
+   "prompt": "What does <i lang=\"grc\">οὐ φεύγει ἀλλὰ μάχεται</i> mean?",
+   "explain": "<i lang=\"grc\">Ἀλλά</i> after a negative marks a strong contrast.",
    "options": [
     "“He flees and fights.”",
     "“He does not flee but fights.”",
@@ -367,12 +367,12 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>δι’</i> in <i>δι’ ὀλίγου</i>?",
-   "explain": "<i>Διά</i> drops its <i>α</i> before the vowel of <i>ὀλίγου</i>.",
+   "prompt": "What is <i lang=\"grc\">δι’</i> in <i lang=\"grc\">δι’ ὀλίγου</i>?",
+   "explain": "<i lang=\"grc\">Διά</i> drops its <i lang=\"grc\">α</i> before the vowel of <i lang=\"grc\">ὀλίγου</i>.",
    "options": [
-    "<i>διά</i>, elided before a vowel",
-    "<i>δέ</i>, elided",
-    "<i>δή</i>, elided",
+    "<i lang=\"grc\">διά</i>, elided before a vowel",
+    "<i lang=\"grc\">δέ</i>, elided",
+    "<i lang=\"grc\">δή</i>, elided",
     "a prefix of a verb"
    ],
    "answer": 0
@@ -383,7 +383,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>οὐκ εἶπεν οὐδέν</i> mean?",
+   "prompt": "What does <i lang=\"grc\">οὐκ εἶπεν οὐδέν</i> mean?",
    "explain": "A compound negative after a simple negative strengthens the denial.",
    "options": [
     "“He said something.”",

@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative singular masculine of <em>iste</em>.",
-   "explain": "<em>Iste</em> is declined like <em>ille</em>: <em>istum</em>.",
+   "prompt": "Write the accusative singular masculine of <em lang=\"la\">iste</em>.",
+   "explain": "<em lang=\"la\">Iste</em> is declined like <em lang=\"la\">ille</em>: <em lang=\"la\">istum</em>.",
    "accept": [
     "istum"
    ],
@@ -28,8 +28,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive singular of <em>iste</em> (any gender).",
-   "explain": "Like <em>ille</em>, <em>iste</em> has the genitive singular in <em>-īus</em>: <em>istīus</em>.",
+   "prompt": "Write the genitive singular of <em lang=\"la\">iste</em> (any gender).",
+   "explain": "Like <em lang=\"la\">ille</em>, <em lang=\"la\">iste</em> has the genitive singular in <em lang=\"la\">-īus</em>: <em lang=\"la\">istīus</em>.",
    "accept": [
     "istīus",
     "istius"
@@ -42,8 +42,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative singular of <em>sōlus</em> (any gender).",
-   "explain": "<em>Sōlus</em> is one of the nine adjectives with the dative singular in <em>-ī</em>: <em>sōlī</em>.",
+   "prompt": "Write the dative singular of <em lang=\"la\">sōlus</em> (any gender).",
+   "explain": "<em lang=\"la\">Sōlus</em> is one of the nine adjectives with the dative singular in <em lang=\"la\">-ī</em>: <em lang=\"la\">sōlī</em>.",
    "accept": [
     "sōlī",
     "soli"
@@ -56,8 +56,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural feminine of <em>iste</em>.",
-   "explain": "<em>Iste</em> is declined like <em>ille</em>: <em>istae</em>.",
+   "prompt": "Write the nominative plural feminine of <em lang=\"la\">iste</em>.",
+   "explain": "<em lang=\"la\">Iste</em> is declined like <em lang=\"la\">ille</em>: <em lang=\"la\">istae</em>.",
    "accept": [
     "istae"
    ],
@@ -69,13 +69,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>istīs</em>?",
-   "explain": "Like <em>illīs</em>, <em>istīs</em> serves for the dative and the ablative plural of all genders.",
+   "prompt": "What is <em lang=\"la\">istīs</em>?",
+   "explain": "Like <em lang=\"la\">illīs</em>, <em lang=\"la\">istīs</em> serves for the dative and the ablative plural of all genders.",
    "options": [
-    "Genitive singular of <em>iste</em>",
-    "Accusative plural of <em>iste</em>",
-    "Dative or ablative plural of <em>iste</em>",
-    "Nominative plural of <em>iste</em>"
+    "Genitive singular of <em lang=\"la\">iste</em>",
+    "Accusative plural of <em lang=\"la\">iste</em>",
+    "Dative or ablative plural of <em lang=\"la\">iste</em>",
+    "Nominative plural of <em lang=\"la\">iste</em>"
    ],
    "answer": 2
   },
@@ -85,8 +85,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Iūlia sē in speculō spectat</em>, whom does Julia look at?",
-   "explain": "<em>Sē</em> is the reflexive: it refers to the subject of its own clause, Julia.",
+   "prompt": "In <em lang=\"la\">Iūlia sē in speculō spectat</em>, whom does Julia look at?",
+   "explain": "<em lang=\"la\">Sē</em> is the reflexive: it refers to the subject of its own clause, Julia.",
    "options": [
     "Another woman",
     "Her mother",
@@ -101,8 +101,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the relative that completes <em>urbs in ___ habitāmus</em> (“the city in which we live”).",
-   "explain": "The relative takes the gender and number of <em>urbs</em> (feminine singular) and its case from <em>in</em>, which here takes the ablative: <em>quā</em>.",
+   "prompt": "Write the relative that completes <em lang=\"la\">urbs in ___ habitāmus</em> (“the city in which we live”).",
+   "explain": "The relative takes the gender and number of <em lang=\"la\">urbs</em> (feminine singular) and its case from <em lang=\"la\">in</em>, which here takes the ablative: <em lang=\"la\">quā</em>.",
    "accept": [
     "quā",
     "qua"
@@ -115,13 +115,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form is the dative singular of <em>iste</em>?",
-   "explain": "<em>Iste</em> has the dative singular in <em>-ī</em>, like <em>ille</em>: <em>istī</em>.",
+   "prompt": "Which form is the dative singular of <em lang=\"la\">iste</em>?",
+   "explain": "<em lang=\"la\">Iste</em> has the dative singular in <em lang=\"la\">-ī</em>, like <em lang=\"la\">ille</em>: <em lang=\"la\">istī</em>.",
    "options": [
-    "<em>istō</em>",
-    "<em>istī</em>",
-    "<em>istīus</em>",
-    "<em>istum</em>"
+    "<em lang=\"la\">istō</em>",
+    "<em lang=\"la\">istī</em>",
+    "<em lang=\"la\">istīus</em>",
+    "<em lang=\"la\">istum</em>"
    ],
    "answer": 1
   },
@@ -131,8 +131,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative plural feminine of <em>ipse</em>.",
-   "explain": "<em>Ipse</em> is declined like <em>ille</em> in the plural: <em>ipsās</em>.",
+   "prompt": "Write the accusative plural feminine of <em lang=\"la\">ipse</em>.",
+   "explain": "<em lang=\"la\">Ipse</em> is declined like <em lang=\"la\">ille</em> in the plural: <em lang=\"la\">ipsās</em>.",
    "accept": [
     "ipsās",
     "ipsas"
@@ -145,8 +145,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the relative that completes <em>virī ___ fīliōs vīdimus</em> (“the men whose sons we saw”).",
-   "explain": "The relative takes the gender and number of <em>virī</em> (masculine plural) and the genitive from its own clause: <em>quōrum</em>.",
+   "prompt": "Write the relative that completes <em lang=\"la\">virī ___ fīliōs vīdimus</em> (“the men whose sons we saw”).",
+   "explain": "The relative takes the gender and number of <em lang=\"la\">virī</em> (masculine plural) and the genitive from its own clause: <em lang=\"la\">quōrum</em>.",
    "accept": [
     "quōrum",
     "quorum"
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative plural of <em>ipse</em>.",
-   "explain": "The dative plural of <em>ipse</em> is <em>ipsīs</em>, as that of <em>ille</em> is <em>illīs</em>.",
+   "prompt": "Write the dative plural of <em lang=\"la\">ipse</em>.",
+   "explain": "The dative plural of <em lang=\"la\">ipse</em> is <em lang=\"la\">ipsīs</em>, as that of <em lang=\"la\">ille</em> is <em lang=\"la\">illīs</em>.",
    "accept": [
     "ipsīs",
     "ipsis"
@@ -173,13 +173,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the relative: <em>urbs ___ vīdimus</em> (“the city that we saw”).",
-   "explain": "The relative is feminine singular, like <em>urbs</em>, and accusative as the object of <em>vīdimus</em>: <em>quam</em>.",
+   "prompt": "Choose the relative: <em lang=\"la\">urbs ___ vīdimus</em> (“the city that we saw”).",
+   "explain": "The relative is feminine singular, like <em lang=\"la\">urbs</em>, and accusative as the object of <em lang=\"la\">vīdimus</em>: <em lang=\"la\">quam</em>.",
    "options": [
-    "<em>quam</em>",
-    "<em>quae</em>",
-    "<em>quem</em>",
-    "<em>quā</em>"
+    "<em lang=\"la\">quam</em>",
+    "<em lang=\"la\">quae</em>",
+    "<em lang=\"la\">quem</em>",
+    "<em lang=\"la\">quā</em>"
    ],
    "answer": 0
   },
@@ -189,13 +189,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the relative: <em>librī ___ lēgī</em> (“the books that I read”).",
-   "explain": "The antecedent <em>librī</em> is masculine plural, and the relative is the object of <em>lēgī</em>: <em>quōs</em>.",
+   "prompt": "Choose the relative: <em lang=\"la\">librī ___ lēgī</em> (“the books that I read”).",
+   "explain": "The antecedent <em lang=\"la\">librī</em> is masculine plural, and the relative is the object of <em lang=\"la\">lēgī</em>: <em lang=\"la\">quōs</em>.",
    "options": [
-    "<em>quī</em>",
-    "<em>quae</em>",
-    "<em>quās</em>",
-    "<em>quōs</em>"
+    "<em lang=\"la\">quī</em>",
+    "<em lang=\"la\">quae</em>",
+    "<em lang=\"la\">quās</em>",
+    "<em lang=\"la\">quōs</em>"
    ],
    "answer": 3
   },
@@ -205,8 +205,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>Mārcus librum eius legit</em>, whose book does Marcus read?",
-   "explain": "<em>Eius</em> refers to someone other than the subject; Marcus’s own book would be <em>suum librum</em>.",
+   "prompt": "In <em lang=\"la\">Mārcus librum eius legit</em>, whose book does Marcus read?",
+   "explain": "<em lang=\"la\">Eius</em> refers to someone other than the subject; Marcus’s own book would be <em lang=\"la\">suum librum</em>.",
    "options": [
     "His own",
     "Nobody’s",
@@ -222,12 +222,12 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the phrase that means “mindful of you” (said to several).",
-   "explain": "The objective genitive of <em>vōs</em> is <em>vestrī</em>; <em>vestrum</em> names a whole of which a part is taken.",
+   "explain": "The objective genitive of <em lang=\"la\">vōs</em> is <em lang=\"la\">vestrī</em>; <em lang=\"la\">vestrum</em> names a whole of which a part is taken.",
    "options": [
-    "<em>memor vestrum</em>",
-    "<em>memor vestrī</em>",
-    "<em>memor vōbīs</em>",
-    "<em>memor vestra</em>"
+    "<em lang=\"la\">memor vestrum</em>",
+    "<em lang=\"la\">memor vestrī</em>",
+    "<em lang=\"la\">memor vōbīs</em>",
+    "<em lang=\"la\">memor vestra</em>"
    ],
    "answer": 1
   },
@@ -237,8 +237,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the dative singular of <em>tōtus</em> (any gender).",
-   "explain": "<em>Tōtus</em> is one of the nine adjectives with the dative singular in <em>-ī</em> in all genders.",
+   "prompt": "Write the dative singular of <em lang=\"la\">tōtus</em> (any gender).",
+   "explain": "<em lang=\"la\">Tōtus</em> is one of the nine adjectives with the dative singular in <em lang=\"la\">-ī</em> in all genders.",
    "accept": [
     "tōtī",
     "toti"
@@ -251,13 +251,13 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <em>ipsōrum</em>?",
-   "explain": "<em>Ipsōrum</em> is the genitive plural of <em>ipse</em>, masculine or neuter.",
+   "prompt": "What is <em lang=\"la\">ipsōrum</em>?",
+   "explain": "<em lang=\"la\">Ipsōrum</em> is the genitive plural of <em lang=\"la\">ipse</em>, masculine or neuter.",
    "options": [
-    "Genitive singular of <em>ipse</em>",
-    "Accusative plural of <em>ipse</em>",
-    "Dative plural of <em>ipse</em>",
-    "Genitive plural masculine or neuter of <em>ipse</em>"
+    "Genitive singular of <em lang=\"la\">ipse</em>",
+    "Accusative plural of <em lang=\"la\">ipse</em>",
+    "Dative plural of <em lang=\"la\">ipse</em>",
+    "Genitive plural masculine or neuter of <em lang=\"la\">ipse</em>"
    ],
    "answer": 3
   },
@@ -268,12 +268,12 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the interrogative: “___ vēnit?” (“Who came?”)",
-   "explain": "Used alone as a pronoun, the interrogative is <em>quis</em>. <em>Quī</em> is the relative or the interrogative adjective (“which man?”).",
+   "explain": "Used alone as a pronoun, the interrogative is <em lang=\"la\">quis</em>. <em lang=\"la\">Quī</em> is the relative or the interrogative adjective (“which man?”).",
    "options": [
-    "<em>Quī</em>",
-    "<em>Quod</em>",
-    "<em>Quis</em>",
-    "<em>Cuius</em>"
+    "<em lang=\"la\">Quī</em>",
+    "<em lang=\"la\">Quod</em>",
+    "<em lang=\"la\">Quis</em>",
+    "<em lang=\"la\">Cuius</em>"
    ],
    "answer": 2
   },
@@ -284,12 +284,12 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the interrogative adjective: “___ librum legis?” (“Which book are you reading?”)",
-   "explain": "The interrogative adjective has the forms of the relative and agrees with <em>librum</em>: masculine accusative <em>quem</em>.",
+   "explain": "The interrogative adjective has the forms of the relative and agrees with <em lang=\"la\">librum</em>: masculine accusative <em lang=\"la\">quem</em>.",
    "options": [
-    "<em>Quid</em>",
-    "<em>Quem</em>",
-    "<em>Quis</em>",
-    "<em>Quod</em>"
+    "<em lang=\"la\">Quid</em>",
+    "<em lang=\"la\">Quem</em>",
+    "<em lang=\"la\">Quis</em>",
+    "<em lang=\"la\">Quod</em>"
    ],
    "answer": 1
   },
@@ -299,8 +299,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the genitive singular of <em>neuter</em> (“neither”), any gender.",
-   "explain": "<em>Neuter</em> is one of the nine adjectives with the genitive singular in <em>-īus</em>: <em>neutrīus</em>.",
+   "prompt": "Write the genitive singular of <em lang=\"la\">neuter</em> (“neither”), any gender.",
+   "explain": "<em lang=\"la\">Neuter</em> is one of the nine adjectives with the genitive singular in <em lang=\"la\">-īus</em>: <em lang=\"la\">neutrīus</em>.",
    "accept": [
     "neutrīus",
     "neutrius"
@@ -313,8 +313,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>multī vestrum</em>, why is the genitive <em>vestrum</em>?",
-   "explain": "<em>Vestrum</em> names the whole of which a part is taken: “many of you.”",
+   "prompt": "In <em lang=\"la\">multī vestrum</em>, why is the genitive <em lang=\"la\">vestrum</em>?",
+   "explain": "<em lang=\"la\">Vestrum</em> names the whole of which a part is taken: “many of you.”",
    "options": [
     "It is the objective genitive",
     "It shows possession",
@@ -329,8 +329,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the accusative plural neuter of <em>iste</em>.",
-   "explain": "<em>Iste</em> is declined like <em>ille</em>: neuter plural <em>ista</em>.",
+   "prompt": "Write the accusative plural neuter of <em lang=\"la\">iste</em>.",
+   "explain": "<em lang=\"la\">Iste</em> is declined like <em lang=\"la\">ille</em>: neuter plural <em lang=\"la\">ista</em>.",
    "accept": [
     "ista"
    ],
@@ -343,12 +343,12 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which is correct for “to that woman”?",
-   "explain": "The dative singular of <em>ille</em> is <em>illī</em> in all genders, unlike the dative <em>fēminae</em> of the noun.",
+   "explain": "The dative singular of <em lang=\"la\">ille</em> is <em lang=\"la\">illī</em> in all genders, unlike the dative <em lang=\"la\">fēminae</em> of the noun.",
    "options": [
-    "<em>illī fēminae</em>",
-    "<em>illae fēminae</em>",
-    "<em>illā fēminae</em>",
-    "<em>illam fēminae</em>"
+    "<em lang=\"la\">illī fēminae</em>",
+    "<em lang=\"la\">illae fēminae</em>",
+    "<em lang=\"la\">illā fēminae</em>",
+    "<em lang=\"la\">illam fēminae</em>"
    ],
    "answer": 0
   },
@@ -358,8 +358,8 @@ ARS.exercises["lang.iii-decl.la/pronouns-ex"] = {
    "deck": "lang.iii-decl.la/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <em>mīlitēs sibi cibum parant</em> (“the soldiers prepare food for themselves”), what is <em>sibi</em>?",
-   "explain": "<em>Sibi</em> is the dative of the reflexive, referring to the subject <em>mīlitēs</em>.",
+   "prompt": "In <em lang=\"la\">mīlitēs sibi cibum parant</em> (“the soldiers prepare food for themselves”), what is <em lang=\"la\">sibi</em>?",
+   "explain": "<em lang=\"la\">Sibi</em> is the dative of the reflexive, referring to the subject <em lang=\"la\">mīlitēs</em>.",
    "options": [
     "The ablative of the reflexive",
     "The dative of the reflexive",

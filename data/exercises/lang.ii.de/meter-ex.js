@@ -31,8 +31,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "<em>Es eifre jeder seiner unbestochnen</em> (Lessing, <em>Nathan der Weise</em> III.7) has eleven syllables because…",
-   "explain": "The line is iambic with five beats (es EI-fre JE-der SEI-ner UN-be-STOCH-nen), and the unstressed <em>-nen</em> after the fifth beat is a feminine ending, as in the blank verse of German drama.",
+   "prompt": "<em lang=\"de\">Es eifre jeder seiner unbestochnen</em> (Lessing, <em lang=\"de\">Nathan der Weise</em> III.7) has eleven syllables because…",
+   "explain": "The line is iambic with five beats (es EI-fre JE-der SEI-ner UN-be-STOCH-nen), and the unstressed <em lang=\"de\">-nen</em> after the fifth beat is a feminine ending, as in the blank verse of German drama.",
    "options": [
     "It has a feminine ending, one unstressed syllable after the fifth beat",
     "It is a hexameter",
@@ -47,7 +47,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>Steht die Form, aus Lehm gebrannt</em> (Schiller, “Das Lied von der Glocke”), on what does the line end?",
+   "prompt": "In <em lang=\"de\">Steht die Form, aus Lehm gebrannt</em> (Schiller, “Das Lied von der Glocke”), on what does the line end?",
    "explain": "STEHT die FORM aus LEHM ge-BRANNT: the line is trochaic, and its last foot keeps only its stressed syllable.",
    "options": [
     "A stressed syllable: it is trochaic",
@@ -63,7 +63,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>Es ist der Vater mit seinem Kind</em> (Goethe, “Erlkönig,” line 2), between the beats there are…",
+   "prompt": "In <em lang=\"de\">Es ist der Vater mit seinem Kind</em> (Goethe, “Erlkönig,” line 2), between the beats there are…",
    "explain": "es IST der VA-ter mit SEI-nem KIND: the ballad line keeps four beats and lets one or two unstressed syllables fall between them.",
    "options": [
     "One or two unstressed syllables",
@@ -95,8 +95,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the stress fall in <em>Arbeit</em>?",
-   "explain": "<em>Arbeit</em> is stressed on its first syllable, <em>AR-beit</em>, and the beat of the line must fall there.",
+   "prompt": "Where does the stress fall in <em lang=\"de\">Arbeit</em>?",
+   "explain": "<em lang=\"de\">Arbeit</em> is stressed on its first syllable, <em lang=\"de\">AR-beit</em>, and the beat of the line must fall there.",
    "options": [
     "On the first syllable",
     "On the second syllable",
@@ -111,8 +111,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the stress fall in <em>Verstand</em>?",
-   "explain": "The prefix <em>ver-</em> is unstressed, so <em>Verstand</em> is stressed on its second syllable, <em>ver-STAND</em>.",
+   "prompt": "Where does the stress fall in <em lang=\"de\">Verstand</em>?",
+   "explain": "The prefix <em lang=\"de\">ver-</em> is unstressed, so <em lang=\"de\">Verstand</em> is stressed on its second syllable, <em lang=\"de\">ver-STAND</em>.",
    "options": [
     "On the first syllable",
     "On the second syllable",
@@ -144,7 +144,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many beats does an iambic pentameter have?",
-   "explain": "An iambic pentameter has five beats. The dedication of <em>Faust</em> is written in that line.",
+   "explain": "An iambic pentameter has five beats. The dedication of <em lang=\"de\">Faust</em> is written in that line.",
    "options": [
     "Five",
     "Four, as in the ballad line",
@@ -159,7 +159,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>wir gehn</em>, the beat falls on <em>gehn</em>. What foot is that?",
+   "prompt": "In <em lang=\"de\">wir gehn</em>, the beat falls on <em lang=\"de\">gehn</em>. What foot is that?",
    "explain": "An unstressed syllable is followed by a stressed one. That foot is an iamb.",
    "options": [
     "An iamb",
@@ -175,7 +175,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <em>Frisch, Gesellen! seid zur Hand</em> (Schiller, “Das Lied von der Glocke”), the last foot keeps only its stressed syllable. What does that foot lack?",
+   "prompt": "In <em lang=\"de\">Frisch, Gesellen! seid zur Hand</em> (Schiller, “Das Lied von der Glocke”), the last foot keeps only its stressed syllable. What does that foot lack?",
    "explain": "FRISCH ge-SEL-len SEID zur HAND: the trochaic line ends on a stress, and the last foot lacks its unstressed syllable.",
    "options": [
     "Its stressed syllable",
@@ -191,7 +191,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How many beats does <em>Er hat den Knaben wohl in dem Arm</em> (Goethe, “Erlkönig,” line 3) have?",
+   "prompt": "How many beats does <em lang=\"de\">Er hat den Knaben wohl in dem Arm</em> (Goethe, “Erlkönig,” line 3) have?",
    "explain": "er HAT den KNA-ben WOHL in dem ARM: four beats, as in the other lines of the ballad.",
    "options": [
     "Three",
@@ -211,8 +211,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "explain": "Heine’s songs in this stanza use three beats in a line, with one or two unstressed syllables between the beats.",
    "options": [
     "Five, because the line is a pentameter",
-    "Four, the count of <em>Wer reitet so spät</em>",
-    "Eight, the longer line of <em>Ein feste Burg</em>",
+    "Four, the count of <em lang=\"de\">Wer reitet so spät</em>",
+    "Eight, the longer line of <em lang=\"de\">Ein feste Burg</em>",
     "Three"
    ],
    "answer": 3
@@ -239,7 +239,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "<em>O Haupt voll Blut und Wunden, / Voll Schmerz und voller Hohn</em> (Paul Gerhardt) alternates iambic lines of which syllable counts?",
+   "prompt": "<em lang=\"de\">O Haupt voll Blut und Wunden, / Voll Schmerz und voller Hohn</em> (Paul Gerhardt) alternates iambic lines of which syllable counts?",
    "explain": "o HAUPT voll BLUT und WUN-den has seven syllables, with a feminine ending; voll SCHMERZ und VOL-ler HOHN has six. Hymn books record such a stanza as 76 76.",
    "options": [
     "Five and eleven",
@@ -255,10 +255,10 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the hymn label <em>76 76</em> record?",
-   "explain": "Hymnals name a meter by the syllable counts of the lines. <em>76 76</em> records lines of seven and six syllables in turn.",
+   "prompt": "What does the hymn label <em lang=\"de\">76 76</em> record?",
+   "explain": "Hymnals name a meter by the syllable counts of the lines. <em lang=\"de\">76 76</em> records lines of seven and six syllables in turn.",
    "options": [
-    "The stresses inside <em>Arbeit</em> and <em>Verstand</em>",
+    "The stresses inside <em lang=\"de\">Arbeit</em> and <em lang=\"de\">Verstand</em>",
     "A rhyme pattern of abab",
     "The number of beats in a ballad, which is four",
     "The syllable counts of the lines"
@@ -271,7 +271,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Lessing wrote <em>Nathan der Weise</em> in the unrhymed line of classical German drama. What line is it?",
+   "prompt": "Lessing wrote <em lang=\"de\">Nathan der Weise</em> in the unrhymed line of classical German drama. What line is it?",
    "explain": "The line of classical German drama is unrhymed iambic pentameter, as in the English blank verse that it imitates.",
    "options": [
     "A trochaic line of four beats",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which order of syllables is an iamb?",
-   "explain": "An iamb is an unstressed syllable followed by a stressed syllable, as in <em>ihr NAHT</em>.",
+   "explain": "An iamb is an unstressed syllable followed by a stressed syllable, as in <em lang=\"de\">ihr NAHT</em>.",
    "options": [
     "Stressed, then unstressed",
     "Unstressed, then stressed",
@@ -320,9 +320,9 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which order of syllables is a trochee?",
-   "explain": "A trochee is a stressed syllable followed by an unstressed syllable. <em>Sah ein</em> begins in that order.",
+   "explain": "A trochee is a stressed syllable followed by an unstressed syllable. <em lang=\"de\">Sah ein</em> begins in that order.",
    "options": [
-    "Unstressed, then stressed, as in <em>ihr naht</em>",
+    "Unstressed, then stressed, as in <em lang=\"de\">ihr naht</em>",
     "Two unstressed syllables between beats",
     "Stressed, then unstressed",
     "A counted line of seven syllables with no stress"

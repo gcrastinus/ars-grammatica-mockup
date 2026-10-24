@@ -16,12 +16,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “the house is old”?",
-   "explain": "The noun <i>Haus</i> is capitalized.",
+   "explain": "The noun <i lang=\"de\">Haus</i> is capitalized.",
    "options": [
-    "<i>Das haus ist alt.</i>",
-    "<i>das Haus ist Alt.</i>",
-    "<i>Das Haus ist alt.</i>",
-    "<i>Das Haus Ist alt.</i>"
+    "<i lang=\"de\">Das haus ist alt.</i>",
+    "<i lang=\"de\">das Haus ist Alt.</i>",
+    "<i lang=\"de\">Das Haus ist alt.</i>",
+    "<i lang=\"de\">Das Haus Ist alt.</i>"
    ],
    "answer": 2
   },
@@ -32,12 +32,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “in the morning”?",
-   "explain": "<i>Morgen</i> here is a noun.",
+   "explain": "<i lang=\"de\">Morgen</i> here is a noun.",
    "options": [
-    "<i>am morgen</i>",
-    "<i>Am Morgen</i>, in the middle of a sentence",
-    "<i>AM Morgen</i>",
-    "<i>am Morgen</i>"
+    "<i lang=\"de\">am morgen</i>",
+    "<i lang=\"de\">Am Morgen</i>, in the middle of a sentence",
+    "<i lang=\"de\">AM Morgen</i>",
+    "<i lang=\"de\">am Morgen</i>"
    ],
    "answer": 3
   },
@@ -50,10 +50,10 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "prompt": "Which is correct for “the good” (as a noun)?",
    "explain": "An adjective used as a noun is capitalized.",
    "options": [
-    "<i>das Gute</i>",
-    "<i>das gute</i>",
-    "<i>Das gute</i>",
-    "<i>das GUTE</i>"
+    "<i lang=\"de\">das Gute</i>",
+    "<i lang=\"de\">das gute</i>",
+    "<i lang=\"de\">Das gute</i>",
+    "<i lang=\"de\">das GUTE</i>"
    ],
    "answer": 0
   },
@@ -64,12 +64,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “Thank you” (polite)?",
-   "explain": "The polite <i>Ihnen</i> is capitalized.",
+   "explain": "The polite <i lang=\"de\">Ihnen</i> is capitalized.",
    "options": [
-    "<i>Ich danke ihnen.</i>",
-    "<i>Ich danke Ihnen.</i>",
-    "<i>ich danke Ihnen.</i>",
-    "<i>Ich Danke Ihnen.</i>"
+    "<i lang=\"de\">Ich danke ihnen.</i>",
+    "<i lang=\"de\">Ich danke Ihnen.</i>",
+    "<i lang=\"de\">ich danke Ihnen.</i>",
+    "<i lang=\"de\">Ich Danke Ihnen.</i>"
    ],
    "answer": 1
   },
@@ -82,10 +82,10 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "prompt": "Which is correct for “an English song”?",
    "explain": "Adjectives of nationality are small.",
    "options": [
-    "<i>ein Englisches Lied</i>",
-    "<i>ein englisches lied</i>",
-    "<i>ein englisches Lied</i>",
-    "<i>Ein Englisches lied</i>"
+    "<i lang=\"de\">ein Englisches Lied</i>",
+    "<i lang=\"de\">ein englisches lied</i>",
+    "<i lang=\"de\">ein englisches Lied</i>",
+    "<i lang=\"de\">Ein Englisches lied</i>"
    ],
    "answer": 2
   },
@@ -96,12 +96,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “big” (the vowel is long)?",
-   "explain": "After a long vowel, <i>ß</i>.",
+   "explain": "After a long vowel, <i lang=\"de\">ß</i>.",
    "options": [
-    "<i>gross</i>, in Germany",
-    "<i>gros</i>",
-    "<i>groos</i>",
-    "<i>groß</i>"
+    "<i lang=\"de\">gross</i>, in Germany",
+    "<i lang=\"de\">gros</i>",
+    "<i lang=\"de\">groos</i>",
+    "<i lang=\"de\">groß</i>"
    ],
    "answer": 3
   },
@@ -112,12 +112,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “water”?",
-   "explain": "After a short vowel, <i>ss</i>; and the noun is capitalized.",
+   "explain": "After a short vowel, <i lang=\"de\">ss</i>; and the noun is capitalized.",
    "options": [
-    "<i>Wasser</i>",
-    "<i>Waßer</i>",
-    "<i>Waser</i>",
-    "<i>wasser</i>"
+    "<i lang=\"de\">Wasser</i>",
+    "<i lang=\"de\">Waßer</i>",
+    "<i lang=\"de\">Waser</i>",
+    "<i lang=\"de\">wasser</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which is correct for “white” (the diphthong <i>ei</i>)?",
-   "explain": "After a diphthong, <i>ß</i>.",
+   "prompt": "Which is correct for “white” (the diphthong <i lang=\"de\">ei</i>)?",
+   "explain": "After a diphthong, <i lang=\"de\">ß</i>.",
    "options": [
-    "<i>weiss</i>, in Germany",
-    "<i>weiß</i>",
-    "<i>weis</i>",
-    "<i>weisß</i>"
+    "<i lang=\"de\">weiss</i>, in Germany",
+    "<i lang=\"de\">weiß</i>",
+    "<i lang=\"de\">weis</i>",
+    "<i lang=\"de\">weisß</i>"
    ],
    "answer": 1
   },
@@ -144,12 +144,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “lock” (castle), whose vowel is short?",
-   "explain": "After a short vowel, <i>ss</i>.",
+   "explain": "After a short vowel, <i lang=\"de\">ss</i>.",
    "options": [
-    "<i>Schloß</i>",
-    "<i>Schlos</i>",
-    "<i>Schloss</i>",
-    "<i>schloss</i>"
+    "<i lang=\"de\">Schloß</i>",
+    "<i lang=\"de\">Schlos</i>",
+    "<i lang=\"de\">Schloss</i>",
+    "<i lang=\"de\">schloss</i>"
    ],
    "answer": 2
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which completes <i>Das ist das Buch, ______ ich lese</i>?",
-   "explain": "The relative pronoun is <i>das</i>.",
+   "prompt": "Which completes <i lang=\"de\">Das ist das Buch, ______ ich lese</i>?",
+   "explain": "The relative pronoun is <i lang=\"de\">das</i>.",
    "options": [
-    "<i>dass</i>",
-    "<i>daß</i>",
-    "<i>das</i>",
-    "<i>dás</i>"
+    "<i lang=\"de\">dass</i>",
+    "<i lang=\"de\">daß</i>",
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">dás</i>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which completes <i>Ich weiß, ______ du müde bist</i>?",
-   "explain": "The conjunction is <i>dass</i>.",
+   "prompt": "Which completes <i lang=\"de\">Ich weiß, ______ du müde bist</i>?",
+   "explain": "The conjunction is <i lang=\"de\">dass</i>.",
    "options": [
-    "<i>das</i>",
-    "<i>dass</i>",
-    "<i>daß</i>, in the current spelling",
-    "<i>des</i>"
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">dass</i>",
+    "<i lang=\"de\">daß</i>, in the current spelling",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is <i>Gruß</i> (“greeting”) written in capital letters?",
-   "explain": "In capitals <i>ß</i> is <i>SS</i>, or the capital <i>ẞ</i>.",
+   "prompt": "How is <i lang=\"de\">Gruß</i> (“greeting”) written in capital letters?",
+   "explain": "In capitals <i lang=\"de\">ß</i> is <i lang=\"de\">SS</i>, or the capital <i lang=\"de\">ẞ</i>.",
    "options": [
-    "<i>GRUSS</i> or <i>GRUẞ</i>",
-    "<i>GRUß</i> only",
-    "<i>GRUS</i>",
-    "<i>GRUSZ</i>"
+    "<i lang=\"de\">GRUSS</i> or <i lang=\"de\">GRUẞ</i>",
+    "<i lang=\"de\">GRUß</i> only",
+    "<i lang=\"de\">GRUS</i>",
+    "<i lang=\"de\">GRUSZ</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How is <i>Straße</i> written in Switzerland?",
-   "explain": "Swiss spelling writes <i>ss</i> in every case.",
+   "prompt": "How is <i lang=\"de\">Straße</i> written in Switzerland?",
+   "explain": "Swiss spelling writes <i lang=\"de\">ss</i> in every case.",
    "options": [
-    "<i>Straße</i>",
-    "<i>Strase</i>",
-    "<i>Strazze</i>",
-    "<i>Strasse</i>"
+    "<i lang=\"de\">Straße</i>",
+    "<i lang=\"de\">Strase</i>",
+    "<i lang=\"de\">Strazze</i>",
+    "<i lang=\"de\">Strasse</i>"
    ],
    "answer": 3
   },
@@ -223,8 +223,8 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Are <i>Bar</i> and <i>Bär</i> the same word?",
-   "explain": "<i>Bar</i> is “bar,” <i>Bär</i> “bear.”",
+   "prompt": "Are <i lang=\"de\">Bar</i> and <i lang=\"de\">Bär</i> the same word?",
+   "explain": "<i lang=\"de\">Bar</i> is “bar,” <i lang=\"de\">Bär</i> “bear.”",
    "options": [
     "Yes; the umlaut is only an ornament",
     "Yes, in the plural",
@@ -239,13 +239,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How may <i>Köln</i> be written where the umlaut cannot be printed?",
-   "explain": "<i>Ö</i> may be written <i>oe</i>.",
+   "prompt": "How may <i lang=\"de\">Köln</i> be written where the umlaut cannot be printed?",
+   "explain": "<i lang=\"de\">Ö</i> may be written <i lang=\"de\">oe</i>.",
    "options": [
-    "<i>Koln</i>",
-    "<i>Koeln</i>",
-    "<i>Köhln</i>",
-    "<i>Kolln</i>"
+    "<i lang=\"de\">Koln</i>",
+    "<i lang=\"de\">Koeln</i>",
+    "<i lang=\"de\">Köhln</i>",
+    "<i lang=\"de\">Kolln</i>"
    ],
    "answer": 1
   },
@@ -258,10 +258,10 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "prompt": "Which is correctly punctuated with its relative clause?",
    "explain": "A relative clause is set off by commas on both sides.",
    "options": [
-    "<i>Der Mann, der dort steht, ist mein Vater.</i>",
-    "<i>Der Mann der dort steht ist mein Vater.</i>",
-    "<i>Der Mann, der dort steht ist mein Vater.</i>",
-    "<i>Der Mann der dort steht, ist mein Vater.</i>"
+    "<i lang=\"de\">Der Mann, der dort steht, ist mein Vater.</i>",
+    "<i lang=\"de\">Der Mann der dort steht ist mein Vater.</i>",
+    "<i lang=\"de\">Der Mann, der dort steht ist mein Vater.</i>",
+    "<i lang=\"de\">Der Mann der dort steht, ist mein Vater.</i>"
    ],
    "answer": 0
   },
@@ -272,12 +272,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correctly punctuated with its infinitive group?",
-   "explain": "An infinitive group with <i>ohne</i> is set off.",
+   "explain": "An infinitive group with <i lang=\"de\">ohne</i> is set off.",
    "options": [
-    "<i>Sie ging ohne, ein Wort zu sagen.</i>",
-    "<i>Sie, ging ohne ein Wort zu sagen.</i>",
-    "<i>Sie ging ohne ein Wort, zu sagen.</i>",
-    "<i>Sie ging, ohne ein Wort zu sagen.</i>"
+    "<i lang=\"de\">Sie ging ohne, ein Wort zu sagen.</i>",
+    "<i lang=\"de\">Sie, ging ohne ein Wort zu sagen.</i>",
+    "<i lang=\"de\">Sie ging ohne ein Wort, zu sagen.</i>",
+    "<i lang=\"de\">Sie ging, ohne ein Wort zu sagen.</i>"
    ],
    "answer": 3
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which is correctly punctuated with its clause beginning with <i>ob</i>?",
-   "explain": "A comma stands before the subordinate clause with <i>ob</i>.",
+   "prompt": "Which is correctly punctuated with its clause beginning with <i lang=\"de\">ob</i>?",
+   "explain": "A comma stands before the subordinate clause with <i lang=\"de\">ob</i>.",
    "options": [
-    "<i>Er fragt ob sie kommt.</i>",
-    "<i>Er fragt ob, sie kommt.</i>",
-    "<i>Er fragt, ob sie kommt.</i>",
-    "<i>Er, fragt ob sie kommt.</i>"
+    "<i lang=\"de\">Er fragt ob sie kommt.</i>",
+    "<i lang=\"de\">Er fragt ob, sie kommt.</i>",
+    "<i lang=\"de\">Er fragt, ob sie kommt.</i>",
+    "<i lang=\"de\">Er, fragt ob sie kommt.</i>"
    ],
    "answer": 2
   },
@@ -306,10 +306,10 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "prompt": "Which way are German quotation marks usually written?",
    "explain": "Low at the start, high at the end.",
    "options": [
-    "<i>“Guten Tag!”</i>",
-    "<i>„Guten Tag!“</i>",
-    "<i>«Guten Tag!»</i>",
-    "<i>‘Guten Tag!’</i>"
+    "<i lang=\"de\">“Guten Tag!”</i>",
+    "<i lang=\"de\">„Guten Tag!“</i>",
+    "<i lang=\"de\">«Guten Tag!»</i>",
+    "<i lang=\"de\">‘Guten Tag!’</i>"
    ],
    "answer": 1
   },
@@ -322,10 +322,10 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "prompt": "Which is correct for “while swimming”?",
    "explain": "The verb used as a noun is capitalized.",
    "options": [
-    "<i>beim schwimmen</i>",
-    "<i>beim Schwimmen</i>",
-    "<i>Beim schwimmen</i>",
-    "<i>beim SCHWIMMEN</i>"
+    "<i lang=\"de\">beim schwimmen</i>",
+    "<i lang=\"de\">beim Schwimmen</i>",
+    "<i lang=\"de\">Beim schwimmen</i>",
+    "<i lang=\"de\">beim SCHWIMMEN</i>"
    ],
    "answer": 1
   },
@@ -336,12 +336,12 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “I believe they are coming”?",
-   "explain": "<i>Sie</i> with a capital would be the polite “you”; “they” is <i>sie</i>.",
+   "explain": "<i lang=\"de\">Sie</i> with a capital would be the polite “you”; “they” is <i lang=\"de\">sie</i>.",
    "options": [
-    "<i>Ich glaube, Sie kommen.</i>",
-    "<i>ich glaube, sie kommen.</i>",
-    "<i>Ich glaube, sie kommen.</i>",
-    "<i>Ich glaube sie Kommen.</i>"
+    "<i lang=\"de\">Ich glaube, Sie kommen.</i>",
+    "<i lang=\"de\">ich glaube, sie kommen.</i>",
+    "<i lang=\"de\">Ich glaube, sie kommen.</i>",
+    "<i lang=\"de\">Ich glaube sie Kommen.</i>"
    ],
    "answer": 2
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "deck": "lang.ii.de/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Which is correct for “to eat” (the vowel of <i>ess</i> is short)?",
-   "explain": "After a short vowel, <i>ss</i>; the verb is small.",
+   "prompt": "Which is correct for “to eat” (the vowel of <i lang=\"de\">ess</i> is short)?",
+   "explain": "After a short vowel, <i lang=\"de\">ss</i>; the verb is small.",
    "options": [
-    "<i>eßen</i>",
-    "<i>esen</i>",
-    "<i>Essen</i>, as a verb",
-    "<i>essen</i>"
+    "<i lang=\"de\">eßen</i>",
+    "<i lang=\"de\">esen</i>",
+    "<i lang=\"de\">Essen</i>, as a verb",
+    "<i lang=\"de\">essen</i>"
    ],
    "answer": 3
   }

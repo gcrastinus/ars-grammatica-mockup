@@ -15,12 +15,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>problème</em>?",
-   "explain": "<em>Problème</em> is masculine, and the article is <em>le</em>. A final <em>e</em> does not make this noun feminine.",
+   "prompt": "What gender is <em lang=\"fr\">problème</em>?",
+   "explain": "<em lang=\"fr\">Problème</em> is masculine, and the article is <em lang=\"fr\">le</em>. A final <em lang=\"fr\">e</em> does not make this noun feminine.",
    "options": [
-    "Feminine, because it ends in <em>e</em>",
+    "Feminine, because it ends in <em lang=\"fr\">e</em>",
     "Masculine",
-    "Feminine, like <em>la mer</em>",
+    "Feminine, like <em lang=\"fr\">la mer</em>",
     "No gender, because it is a problem"
    ],
    "answer": 1
@@ -31,13 +31,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>mer</em>?",
-   "explain": "<em>Mer</em>, “sea,” is feminine, and the article is <em>la</em>. It does not take <em>le</em>.",
+   "prompt": "What gender is <em lang=\"fr\">mer</em>?",
+   "explain": "<em lang=\"fr\">Mer</em>, “sea,” is feminine, and the article is <em lang=\"fr\">la</em>. It does not take <em lang=\"fr\">le</em>.",
    "options": [
-    "Masculine, like <em>le problème</em>",
+    "Masculine, like <em lang=\"fr\">le problème</em>",
     "Masculine, because it is short",
     "Feminine",
-    "The same gender as <em>le musée</em>"
+    "The same gender as <em lang=\"fr\">le musée</em>"
    ],
    "answer": 2
   },
@@ -47,12 +47,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>Elle est allée</em>, why does the participle end in <em>-ée</em>?",
-   "explain": "The auxiliary is <em>être</em>, so the participle agrees with the subject. <em>Elle</em> is feminine singular, and the participle is <em>allée</em>.",
+   "prompt": "In <em lang=\"fr\">Elle est allée</em>, why does the participle end in <em lang=\"fr\">-ée</em>?",
+   "explain": "The auxiliary is <em lang=\"fr\">être</em>, so the participle agrees with the subject. <em lang=\"fr\">Elle</em> is feminine singular, and the participle is <em lang=\"fr\">allée</em>.",
    "options": [
-    "<em>Avoir</em> agrees with a following object",
+    "<em lang=\"fr\">Avoir</em> agrees with a following object",
     "The participle does not agree",
-    "<em>Être</em>: it agrees with the subject <em>elle</em>",
+    "<em lang=\"fr\">Être</em>: it agrees with the subject <em lang=\"fr\">elle</em>",
     "The ending marks the partitive"
    ],
    "answer": 2
@@ -63,13 +63,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>Elles sont parties</em>, what does <em>parties</em> agree with?",
-   "explain": "<em>Sont</em> is from <em>être</em>, so the participle agrees with the subject. <em>Elles</em> is feminine plural, and the participle is <em>parties</em>.",
+   "prompt": "In <em lang=\"fr\">Elles sont parties</em>, what does <em lang=\"fr\">parties</em> agree with?",
+   "explain": "<em lang=\"fr\">Sont</em> is from <em lang=\"fr\">être</em>, so the participle agrees with the subject. <em lang=\"fr\">Elles</em> is feminine plural, and the participle is <em lang=\"fr\">parties</em>.",
    "options": [
-    "The subject <em>elles</em>, because the auxiliary is <em>être</em>",
+    "The subject <em lang=\"fr\">elles</em>, because the auxiliary is <em lang=\"fr\">être</em>",
     "A direct object that follows the verb",
-    "The word <em>sont</em> alone, with no noun or pronoun",
-    "Nothing: <em>être</em> blocks agreement"
+    "The word <em lang=\"fr\">sont</em> alone, with no noun or pronoun",
+    "Nothing: <em lang=\"fr\">être</em> blocks agreement"
    ],
    "answer": 0
   },
@@ -80,12 +80,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “has,” not “to”?",
-   "explain": "<em>A</em> without an accent means “has,” as in <em>il a dû</em>, “he had to.” <em>À</em> with the accent means “to.”",
+   "explain": "<em lang=\"fr\">A</em> without an accent means “has,” as in <em lang=\"fr\">il a dû</em>, “he had to.” <em lang=\"fr\">À</em> with the accent means “to.”",
    "options": [
-    "<em>à</em>",
-    "<em>où</em>",
-    "<em>a</em>",
-    "<em>ou</em>"
+    "<em lang=\"fr\">à</em>",
+    "<em lang=\"fr\">où</em>",
+    "<em lang=\"fr\">a</em>",
+    "<em lang=\"fr\">ou</em>"
    ],
    "answer": 2
   },
@@ -96,12 +96,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “to,” not “has”?",
-   "explain": "<em>À</em> means “to.” <em>A</em> means “has.” The accent is the difference, so the choice has to show it.",
+   "explain": "<em lang=\"fr\">À</em> means “to.” <em lang=\"fr\">A</em> means “has.” The accent is the difference, so the choice has to show it.",
    "options": [
-    "<em>a</em>",
-    "<em>ou</em>",
-    "<em>dû</em>",
-    "<em>à</em>"
+    "<em lang=\"fr\">a</em>",
+    "<em lang=\"fr\">ou</em>",
+    "<em lang=\"fr\">dû</em>",
+    "<em lang=\"fr\">à</em>"
    ],
    "answer": 3
   },
@@ -111,12 +111,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What is <em>du pain</em>?",
-   "explain": "<em>Du pain</em> is the partitive, “some bread,” an unmeasured amount. It is not the negation, which would be <em>pas de pain</em>.",
+   "prompt": "What is <em lang=\"fr\">du pain</em>?",
+   "explain": "<em lang=\"fr\">Du pain</em> is the partitive, “some bread,” an unmeasured amount. It is not the negation, which would be <em lang=\"fr\">pas de pain</em>.",
    "options": [
     "Some bread, the partitive",
     "“Not any bread,” the form after a negation",
-    "“Much bread,” the form after <em>beaucoup</em>",
+    "“Much bread,” the form after <em lang=\"fr\">beaucoup</em>",
     "“Good friends,” with an adjective before the noun"
    ],
    "answer": 0
@@ -127,13 +127,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Why is the phrase <em>pas de pain</em>, not <em>pas du pain</em>?",
-   "explain": "After a negation the partitive <em>du</em> becomes <em>de</em>. <em>Pas de pain</em> is “not any bread.” <em>Du pain</em> is the positive partitive.",
+   "prompt": "Why is the phrase <em lang=\"fr\">pas de pain</em>, not <em lang=\"fr\">pas du pain</em>?",
+   "explain": "After a negation the partitive <em lang=\"fr\">du</em> becomes <em lang=\"fr\">de</em>. <em lang=\"fr\">Pas de pain</em> is “not any bread.” <em lang=\"fr\">Du pain</em> is the positive partitive.",
    "options": [
-    "<em>De</em> is required after a negation",
-    "<em>Du</em> is required after a negation",
-    "An adjective stands before <em>pain</em>",
-    "<em>Pain</em> is feminine and takes <em>de la</em>"
+    "<em lang=\"fr\">De</em> is required after a negation",
+    "<em lang=\"fr\">Du</em> is required after a negation",
+    "An adjective stands before <em lang=\"fr\">pain</em>",
+    "<em lang=\"fr\">Pain</em> is feminine and takes <em lang=\"fr\">de la</em>"
    ],
    "answer": 0
   },
@@ -143,11 +143,11 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>musée</em>?",
-   "explain": "<em>Musée</em>, “museum,” is masculine, and the article is <em>le</em>. The ending <em>-ée</em> does not make it feminine.",
+   "prompt": "What gender is <em lang=\"fr\">musée</em>?",
+   "explain": "<em lang=\"fr\">Musée</em>, “museum,” is masculine, and the article is <em lang=\"fr\">le</em>. The ending <em lang=\"fr\">-ée</em> does not make it feminine.",
    "options": [
-    "Feminine, because of <em>-ée</em>",
-    "Feminine, like <em>la table</em>",
+    "Feminine, because of <em lang=\"fr\">-ée</em>",
+    "Feminine, like <em lang=\"fr\">la table</em>",
     "Masculine",
     "Plural, because of the article"
    ],
@@ -159,12 +159,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What gender is <em>table</em>?",
-   "explain": "<em>Table</em> is feminine, and the article is <em>la</em>. <em>Le table</em> would be the wrong article.",
+   "prompt": "What gender is <em lang=\"fr\">table</em>?",
+   "explain": "<em lang=\"fr\">Table</em> is feminine, and the article is <em lang=\"fr\">la</em>. <em lang=\"fr\">Le table</em> would be the wrong article.",
    "options": [
-    "Masculine, like <em>le musée</em>",
+    "Masculine, like <em lang=\"fr\">le musée</em>",
     "Feminine",
-    "Masculine, like <em>le problème</em>",
+    "Masculine, like <em lang=\"fr\">le problème</em>",
     "No article is allowed"
    ],
    "answer": 1
@@ -175,13 +175,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>Les pommes que j’ai achetées</em>, why is the participle <em>achetées</em>?",
-   "explain": "The auxiliary is <em>avoir</em>. The participle agrees with a direct object that precedes it. <em>Les pommes</em> is feminine plural, so the participle is <em>achetées</em>.",
+   "prompt": "In <em lang=\"fr\">Les pommes que j’ai achetées</em>, why is the participle <em lang=\"fr\">achetées</em>?",
+   "explain": "The auxiliary is <em lang=\"fr\">avoir</em>. The participle agrees with a direct object that precedes it. <em lang=\"fr\">Les pommes</em> is feminine plural, so the participle is <em lang=\"fr\">achetées</em>.",
    "options": [
-    "<em>Être</em> makes it agree with <em>j’</em>",
+    "<em lang=\"fr\">Être</em> makes it agree with <em lang=\"fr\">j’</em>",
     "The direct object follows, so there is no agreement",
-    "It agrees with the preceding direct object <em>pommes</em>",
-    "The circumflex of <em>dû</em> has been added"
+    "It agrees with the preceding direct object <em lang=\"fr\">pommes</em>",
+    "The circumflex of <em lang=\"fr\">dû</em> has been added"
    ],
    "answer": 2
   },
@@ -191,12 +191,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>Elle a mangé les pommes</em>, why is there no agreement on <em>mangé</em>?",
-   "explain": "The auxiliary is <em>avoir</em>, and the direct object <em>les pommes</em> follows the verb. Agreement with a direct object of <em>avoir</em> happens only when that object precedes.",
+   "prompt": "In <em lang=\"fr\">Elle a mangé les pommes</em>, why is there no agreement on <em lang=\"fr\">mangé</em>?",
+   "explain": "The auxiliary is <em lang=\"fr\">avoir</em>, and the direct object <em lang=\"fr\">les pommes</em> follows the verb. Agreement with a direct object of <em lang=\"fr\">avoir</em> happens only when that object precedes.",
    "options": [
     "The direct object follows the verb",
-    "The auxiliary is <em>être</em>, and the subject is plural",
-    "<em>Pommes</em> is masculine singular",
+    "The auxiliary is <em lang=\"fr\">être</em>, and the subject is plural",
+    "<em lang=\"fr\">Pommes</em> is masculine singular",
     "A negation has removed the ending"
    ],
    "answer": 0
@@ -208,12 +208,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “or,” not “where”?",
-   "explain": "<em>Ou</em> without an accent means “or.” <em>Où</em> means “where.” The accent is the whole difference.",
+   "explain": "<em lang=\"fr\">Ou</em> without an accent means “or.” <em lang=\"fr\">Où</em> means “where.” The accent is the whole difference.",
    "options": [
-    "<em>où</em>",
-    "<em>à</em>",
-    "<em>a</em>",
-    "<em>ou</em>"
+    "<em lang=\"fr\">où</em>",
+    "<em lang=\"fr\">à</em>",
+    "<em lang=\"fr\">a</em>",
+    "<em lang=\"fr\">ou</em>"
    ],
    "answer": 3
   },
@@ -224,12 +224,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “where,” not “or”?",
-   "explain": "<em>Où</em> means “where.” <em>Ou</em> means “or.” A typed answer would lose the accent, so the choice has to show it.",
+   "explain": "<em lang=\"fr\">Où</em> means “where.” <em lang=\"fr\">Ou</em> means “or.” A typed answer would lose the accent, so the choice has to show it.",
    "options": [
-    "<em>ou</em>",
-    "<em>où</em>",
-    "<em>a</em>",
-    "<em>à</em>"
+    "<em lang=\"fr\">ou</em>",
+    "<em lang=\"fr\">où</em>",
+    "<em lang=\"fr\">a</em>",
+    "<em lang=\"fr\">à</em>"
    ],
    "answer": 1
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>il a dû</em>, “he had to,” what is <em>dû</em>?",
-   "explain": "<em>Dû</em> is the past participle of <em>devoir</em>. The circumflex keeps it apart from the partitive <em>du</em>. <em>A</em> here means “has.”",
+   "prompt": "In <em lang=\"fr\">il a dû</em>, “he had to,” what is <em lang=\"fr\">dû</em>?",
+   "explain": "<em lang=\"fr\">Dû</em> is the past participle of <em lang=\"fr\">devoir</em>. The circumflex keeps it apart from the partitive <em lang=\"fr\">du</em>. <em lang=\"fr\">A</em> here means “has.”",
    "options": [
     "The partitive, “some”",
     "The word “to”",
-    "The past participle of <em>devoir</em>",
-    "The feminine of <em>table</em>"
+    "The past participle of <em lang=\"fr\">devoir</em>",
+    "The feminine of <em lang=\"fr\">table</em>"
    ],
    "answer": 2
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Why does <em>beaucoup de pain</em> use <em>de</em>, not <em>du</em>?",
-   "explain": "After <em>beaucoup</em> the form is <em>de</em>, not the partitive <em>du</em>. <em>Beaucoup de pain</em> is “much bread,” or “a great deal of bread.”",
+   "prompt": "Why does <em lang=\"fr\">beaucoup de pain</em> use <em lang=\"fr\">de</em>, not <em lang=\"fr\">du</em>?",
+   "explain": "After <em lang=\"fr\">beaucoup</em> the form is <em lang=\"fr\">de</em>, not the partitive <em lang=\"fr\">du</em>. <em lang=\"fr\">Beaucoup de pain</em> is “much bread,” or “a great deal of bread.”",
    "options": [
-    "<em>Beaucoup</em> is a negation",
-    "<em>De</em> follows <em>beaucoup</em>",
+    "<em lang=\"fr\">Beaucoup</em> is a negation",
+    "<em lang=\"fr\">De</em> follows <em lang=\"fr\">beaucoup</em>",
     "The noun is feminine",
-    "An adjective stands before <em>pain</em>"
+    "An adjective stands before <em lang=\"fr\">pain</em>"
    ],
    "answer": 1
   },
@@ -272,12 +272,12 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which noun is feminine?",
-   "explain": "<em>La mer</em> is feminine. <em>Le problème</em> and <em>le musée</em> are masculine, even though each ends in <em>e</em> or <em>-ée</em>.",
+   "explain": "<em lang=\"fr\">La mer</em> is feminine. <em lang=\"fr\">Le problème</em> and <em lang=\"fr\">le musée</em> are masculine, even though each ends in <em lang=\"fr\">e</em> or <em lang=\"fr\">-ée</em>.",
    "options": [
-    "<em>problème</em>",
-    "<em>musée</em>",
-    "<em>mer</em>",
-    "<em>pain</em>"
+    "<em lang=\"fr\">problème</em>",
+    "<em lang=\"fr\">musée</em>",
+    "<em lang=\"fr\">mer</em>",
+    "<em lang=\"fr\">pain</em>"
    ],
    "answer": 2
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Which noun takes <em>le</em>, not <em>la</em>?",
-   "explain": "<em>Musée</em> is masculine, so the article is <em>le</em>. <em>Table</em> and <em>mer</em> take <em>la</em>.",
+   "prompt": "Which noun takes <em lang=\"fr\">le</em>, not <em lang=\"fr\">la</em>?",
+   "explain": "<em lang=\"fr\">Musée</em> is masculine, so the article is <em lang=\"fr\">le</em>. <em lang=\"fr\">Table</em> and <em lang=\"fr\">mer</em> take <em lang=\"fr\">la</em>.",
    "options": [
-    "<em>table</em>",
-    "<em>mer</em>",
-    "<em>pommes</em>",
-    "<em>musée</em>"
+    "<em lang=\"fr\">table</em>",
+    "<em lang=\"fr\">mer</em>",
+    "<em lang=\"fr\">pommes</em>",
+    "<em lang=\"fr\">musée</em>"
    ],
    "answer": 3
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "When does a past participle with <em>être</em> agree?",
-   "explain": "With <em>être</em> the participle agrees with the subject, as in <em>Elle est allée</em> and <em>Elles sont parties</em>. It does not wait for a preceding direct object. That rule belongs to <em>avoir</em>.",
+   "prompt": "When does a past participle with <em lang=\"fr\">être</em> agree?",
+   "explain": "With <em lang=\"fr\">être</em> the participle agrees with the subject, as in <em lang=\"fr\">Elle est allée</em> and <em lang=\"fr\">Elles sont parties</em>. It does not wait for a preceding direct object. That rule belongs to <em lang=\"fr\">avoir</em>.",
    "options": [
     "With a direct object that follows",
     "With the subject",
     "Never",
-    "Only when the object is <em>pain</em>"
+    "Only when the object is <em lang=\"fr\">pain</em>"
    ],
    "answer": 1
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "When does a past participle with <em>avoir</em> agree?",
-   "explain": "With <em>avoir</em> the participle agrees with a direct object that precedes it, as in <em>Les pommes que j’ai achetées</em>. If the object follows, as in <em>Elle a mangé les pommes</em>, there is no agreement.",
+   "prompt": "When does a past participle with <em lang=\"fr\">avoir</em> agree?",
+   "explain": "With <em lang=\"fr\">avoir</em> the participle agrees with a direct object that precedes it, as in <em lang=\"fr\">Les pommes que j’ai achetées</em>. If the object follows, as in <em lang=\"fr\">Elle a mangé les pommes</em>, there is no agreement.",
    "options": [
-    "With the subject, as with <em>être</em>",
+    "With the subject, as with <em lang=\"fr\">être</em>",
     "With a preceding direct object",
     "With every noun in the sentence",
-    "Whenever the auxiliary is <em>a</em> and the object follows"
+    "Whenever the auxiliary is <em lang=\"fr\">a</em> and the object follows"
    ],
    "answer": 1
   },
@@ -335,8 +335,8 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "In <em>il a dû</em>, what does <em>a</em> mean?",
-   "explain": "<em>A</em> means “has.” <em>À</em> would mean “to,” and it is not the word in <em>il a dû</em>. <em>Dû</em> is the participle of <em>devoir</em>.",
+   "prompt": "In <em lang=\"fr\">il a dû</em>, what does <em lang=\"fr\">a</em> mean?",
+   "explain": "<em lang=\"fr\">A</em> means “has.” <em lang=\"fr\">À</em> would mean “to,” and it is not the word in <em lang=\"fr\">il a dû</em>. <em lang=\"fr\">Dû</em> is the participle of <em lang=\"fr\">devoir</em>.",
    "options": [
     "“To”",
     "“Where”",
@@ -351,13 +351,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "How does <em>dû</em> in <em>il a dû</em> differ from partitive <em>du</em>?",
-   "explain": "<em>Dû</em> is the participle of <em>devoir</em>, and it keeps the circumflex. Partitive <em>du</em>, as in <em>du pain</em>, has no circumflex and means “some.”",
+   "prompt": "How does <em lang=\"fr\">dû</em> in <em lang=\"fr\">il a dû</em> differ from partitive <em lang=\"fr\">du</em>?",
+   "explain": "<em lang=\"fr\">Dû</em> is the participle of <em lang=\"fr\">devoir</em>, and it keeps the circumflex. Partitive <em lang=\"fr\">du</em>, as in <em lang=\"fr\">du pain</em>, has no circumflex and means “some.”",
    "options": [
-    "<em>Dû</em> is the participle of <em>devoir</em>; <em>du</em> is the partitive",
-    "<em>Dû</em> means “some bread”",
+    "<em lang=\"fr\">Dû</em> is the participle of <em lang=\"fr\">devoir</em>; <em lang=\"fr\">du</em> is the partitive",
+    "<em lang=\"fr\">Dû</em> means “some bread”",
     "They are the same word",
-    "<em>Du</em> is the participle of <em>devoir</em> and means “some,” while <em>dû</em> means “to”"
+    "<em lang=\"fr\">Du</em> is the participle of <em lang=\"fr\">devoir</em> and means “some,” while <em lang=\"fr\">dû</em> means “to”"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Why is the phrase <em>de bons amis</em>, not <em>des bons amis</em>?",
-   "explain": "When an adjective precedes a plural noun, the form is <em>de</em>, not <em>des</em>. <em>De bons amis</em> is that pattern. <em>Des amis</em> is the plural without a preceding adjective.",
+   "prompt": "Why is the phrase <em lang=\"fr\">de bons amis</em>, not <em lang=\"fr\">des bons amis</em>?",
+   "explain": "When an adjective precedes a plural noun, the form is <em lang=\"fr\">de</em>, not <em lang=\"fr\">des</em>. <em lang=\"fr\">De bons amis</em> is that pattern. <em lang=\"fr\">Des amis</em> is the plural without a preceding adjective.",
    "options": [
-    "A negation requires <em>de</em>",
+    "A negation requires <em lang=\"fr\">de</em>",
     "An adjective precedes the noun",
-    "<em>Amis</em> is feminine singular",
-    "<em>Beaucoup</em> stands in front of the noun"
+    "<em lang=\"fr\">Amis</em> is feminine singular",
+    "<em lang=\"fr\">Beaucoup</em> stands in front of the noun"
    ],
    "answer": 1
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "deck": "lang.vi.fr/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What is <em>des amis</em>?",
-   "explain": "<em>Des amis</em> is “some friends,” the plural indefinite, or the plural partitive when no adjective precedes. It is not the form used in <em>de bons amis</em>, where an adjective comes first.",
+   "prompt": "What is <em lang=\"fr\">des amis</em>?",
+   "explain": "<em lang=\"fr\">Des amis</em> is “some friends,” the plural indefinite, or the plural partitive when no adjective precedes. It is not the form used in <em lang=\"fr\">de bons amis</em>, where an adjective comes first.",
    "options": [
     "“Not any friends,” after a negation",
     "“Some friends”",
     "The masculine singular article",
-    "The participle of <em>devoir</em>"
+    "The participle of <em lang=\"fr\">devoir</em>"
    ],
    "answer": 1
   }

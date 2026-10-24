@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Das Geschenk ist für ___ Großvater.</i> (“The present is for the grandfather”).",
-   "explain": "<i>Für</i> takes the accusative.",
+   "prompt": "Choose the form: <i lang=\"de\">Das Geschenk ist für ___ Großvater.</i> (“The present is for the grandfather”).",
+   "explain": "<i lang=\"de\">Für</i> takes the accusative.",
    "options": [
-    "<i>dem</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 2
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie geht ohne ___ Mantel.</i> (“She goes without her coat”).",
-   "explain": "<i>Ohne</i> takes the accusative; <i>Mantel</i> is masculine.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie geht ohne ___ Mantel.</i> (“She goes without her coat”).",
+   "explain": "<i lang=\"de\">Ohne</i> takes the accusative; <i lang=\"de\">Mantel</i> is masculine.",
    "options": [
-    "<i>ihrem</i>",
-    "<i>ihres</i>",
-    "<i>ihr</i>",
-    "<i>ihren</i>"
+    "<i lang=\"de\">ihrem</i>",
+    "<i lang=\"de\">ihres</i>",
+    "<i lang=\"de\">ihr</i>",
+    "<i lang=\"de\">ihren</i>"
    ],
    "answer": 3
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wir laufen durch ___ Wald.</i> (“We run through the forest”).",
-   "explain": "<i>Durch</i> takes the accusative.",
+   "prompt": "Choose the form: <i lang=\"de\">Wir laufen durch ___ Wald.</i> (“We run through the forest”).",
+   "explain": "<i lang=\"de\">Durch</i> takes the accusative.",
    "options": [
-    "<i>den</i>",
-    "<i>dem</i>",
-    "<i>des</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 0
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er kommt aus ___ Küche.</i> (“He comes out of the kitchen”).",
-   "explain": "<i>Aus</i> takes the dative; feminine <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Er kommt aus ___ Küche.</i> (“He comes out of the kitchen”).",
+   "explain": "<i lang=\"de\">Aus</i> takes the dative; feminine <i lang=\"de\">der</i>.",
    "options": [
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 1
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich fahre mit ___ Bus.</i> (“I am going by bus”).",
-   "explain": "<i>Mit</i> takes the dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich fahre mit ___ Bus.</i> (“I am going by bus”).",
+   "explain": "<i lang=\"de\">Mit</i> takes the dative.",
    "options": [
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 2
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie wohnt bei ___ Tante.</i> (“She lives with her aunt”).",
-   "explain": "<i>Bei</i> takes the dative; feminine <i>ihrer</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie wohnt bei ___ Tante.</i> (“She lives with her aunt”).",
+   "explain": "<i lang=\"de\">Bei</i> takes the dative; feminine <i lang=\"de\">ihrer</i>.",
    "options": [
-    "<i>ihre</i>",
-    "<i>ihren</i>",
-    "<i>ihres</i>",
-    "<i>ihrer</i>"
+    "<i lang=\"de\">ihre</i>",
+    "<i lang=\"de\">ihren</i>",
+    "<i lang=\"de\">ihres</i>",
+    "<i lang=\"de\">ihrer</i>"
    ],
    "answer": 3
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nach ___ Konzert gingen wir essen.</i> (“After the concert we went to eat”).",
-   "explain": "<i>Nach</i> takes the dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Nach ___ Konzert gingen wir essen.</i> (“After the concert we went to eat”).",
+   "explain": "<i lang=\"de\">Nach</i> takes the dative.",
    "options": [
-    "<i>dem</i>",
-    "<i>das</i>",
-    "<i>den</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Während ___ Reise las sie viel.</i> (“During the journey she read a lot”).",
-   "explain": "<i>Während</i> takes the genitive in written German; feminine <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Während ___ Reise las sie viel.</i> (“During the journey she read a lot”).",
+   "explain": "<i lang=\"de\">Während</i> takes the genitive in written German; feminine <i lang=\"de\">der</i>.",
    "options": [
-    "<i>die</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 1
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Katze schläft unter ___ Tisch.</i> (“The cat sleeps under the table”).",
-   "explain": "Position (<i>wo?</i>): the dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Die Katze schläft unter ___ Tisch.</i> (“The cat sleeps under the table”).",
+   "explain": "Position (<i lang=\"de\">wo?</i>): the dative.",
    "options": [
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>",
-    "<i>das</i>"
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">das</i>"
    ],
    "answer": 2
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Katze läuft unter ___ Tisch.</i> (“The cat runs under the table”).",
-   "explain": "Movement to a place (<i>wohin?</i>): the accusative.",
+   "prompt": "Choose the form: <i lang=\"de\">Die Katze läuft unter ___ Tisch.</i> (“The cat runs under the table”).",
+   "explain": "Movement to a place (<i lang=\"de\">wohin?</i>): the accusative.",
    "options": [
-    "<i>dem</i>",
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>das</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">das</i>"
    ],
    "answer": 2
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Katze sitzt unter ___ Bett.</i> (“The cat is sitting under the bed”).",
-   "explain": "<i>Sitzen</i> names a position: dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Die Katze sitzt unter ___ Bett.</i> (“The cat is sitting under the bed”).",
+   "explain": "<i lang=\"de\">Sitzen</i> names a position: dative.",
    "options": [
-    "<i>das</i>",
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 1
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Katze läuft unter ___ Bett.</i> (“The cat runs under the bed”).",
+   "prompt": "Choose the form: <i lang=\"de\">Die Katze läuft unter ___ Bett.</i> (“The cat runs under the bed”).",
    "explain": "Movement to a place under the bed: accusative.",
    "options": [
-    "<i>das</i>",
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>des</i>"
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>"
    ],
    "answer": 0
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er stellt die Lampe neben ___ Sofa.</i> (“He puts the lamp next to the sofa”).",
-   "explain": "<i>Stellen</i> names a movement: accusative.",
+   "prompt": "Choose the form: <i lang=\"de\">Er stellt die Lampe neben ___ Sofa.</i> (“He puts the lamp next to the sofa”).",
+   "explain": "<i lang=\"de\">Stellen</i> names a movement: accusative.",
    "options": [
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>das</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">das</i>"
    ],
    "answer": 3
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Lampe steht neben ___ Sofa.</i> (“The lamp stands next to the sofa”).",
-   "explain": "<i>Stehen</i> names a position: dative.",
+   "prompt": "Choose the form: <i lang=\"de\">Die Lampe steht neben ___ Sofa.</i> (“The lamp stands next to the sofa”).",
+   "explain": "<i lang=\"de\">Stehen</i> names a position: dative.",
    "options": [
-    "<i>das</i>",
-    "<i>den</i>",
-    "<i>dem</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 2
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Zwischen ___ Häusern ist ein Garten.</i> (“Between the houses is a garden”).",
-   "explain": "Position: the dative plural <i>den</i>, with <i>-n</i> on the noun.",
+   "prompt": "Choose the form: <i lang=\"de\">Zwischen ___ Häusern ist ein Garten.</i> (“Between the houses is a garden”).",
+   "explain": "Position: the dative plural <i lang=\"de\">den</i>, with <i lang=\"de\">-n</i> on the noun.",
    "options": [
-    "<i>die</i>",
-    "<i>den</i>",
-    "<i>der</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 1
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er wartet vor ___ Tür.</i> (“He is waiting in front of the door”).",
-   "explain": "Position: the feminine dative <i>der</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Er wartet vor ___ Tür.</i> (“He is waiting in front of the door”).",
+   "explain": "Position: the feminine dative <i lang=\"de\">der</i>.",
    "options": [
-    "<i>der</i>",
-    "<i>die</i>",
-    "<i>den</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wir gehen heute ___ Theater.</i> (“We are going to the theater today”).",
-   "explain": "Movement into: <i>in das</i>, contracted to <i>ins</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Wir gehen heute ___ Theater.</i> (“We are going to the theater today”).",
+   "explain": "Movement into: <i lang=\"de\">in das</i>, contracted to <i lang=\"de\">ins</i>.",
    "options": [
-    "<i>im</i>",
-    "<i>in dem</i>",
-    "<i>zur</i>",
-    "<i>ins</i>"
+    "<i lang=\"de\">im</i>",
+    "<i lang=\"de\">in dem</i>",
+    "<i lang=\"de\">zur</i>",
+    "<i lang=\"de\">ins</i>"
    ],
    "answer": 3
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er wohnt ___ dritten Stock.</i> (“He lives on the third floor”).",
-   "explain": "Position: <i>in dem</i>, contracted to <i>im</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Er wohnt ___ dritten Stock.</i> (“He lives on the third floor”).",
+   "explain": "Position: <i lang=\"de\">in dem</i>, contracted to <i lang=\"de\">im</i>.",
    "options": [
-    "<i>ins</i>",
-    "<i>in den</i>",
-    "<i>im</i>",
-    "<i>ans</i>"
+    "<i lang=\"de\">ins</i>",
+    "<i lang=\"de\">in den</i>",
+    "<i lang=\"de\">im</i>",
+    "<i lang=\"de\">ans</i>"
    ],
    "answer": 2
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich gehe ___ Bäckerei.</i> (“I am going to the bakery”).",
-   "explain": "<i>Zu</i> takes the dative; feminine <i>der</i> contracts to <i>zur</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich gehe ___ Bäckerei.</i> (“I am going to the bakery”).",
+   "explain": "<i lang=\"de\">Zu</i> takes the dative; feminine <i lang=\"de\">der</i> contracts to <i lang=\"de\">zur</i>.",
    "options": [
-    "<i>zum</i>",
-    "<i>zur</i>",
-    "<i>zu die</i>",
-    "<i>zu den</i>"
+    "<i lang=\"de\">zum</i>",
+    "<i lang=\"de\">zur</i>",
+    "<i lang=\"de\">zu die</i>",
+    "<i lang=\"de\">zu den</i>"
    ],
    "answer": 1
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie kommt gerade ___ Arzt.</i> (“She is just coming from the doctor’s”).",
-   "explain": "<i>Von</i> takes the dative; <i>von dem</i> becomes <i>vom</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie kommt gerade ___ Arzt.</i> (“She is just coming from the doctor’s”).",
+   "explain": "<i lang=\"de\">Von</i> takes the dative; <i lang=\"de\">von dem</i> becomes <i lang=\"de\">vom</i>.",
    "options": [
-    "<i>von den</i>",
-    "<i>vom</i>",
-    "<i>von die</i>",
-    "<i>zum</i>"
+    "<i lang=\"de\">von den</i>",
+    "<i lang=\"de\">vom</i>",
+    "<i lang=\"de\">von die</i>",
+    "<i lang=\"de\">zum</i>"
    ],
    "answer": 1
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Trotz ___ Regens spielten sie weiter.</i> (“In spite of the rain they played on”).",
-   "explain": "<i>Trotz</i> takes the genitive in written German.",
+   "prompt": "Choose the form: <i lang=\"de\">Trotz ___ Regens spielten sie weiter.</i> (“In spite of the rain they played on”).",
+   "explain": "<i lang=\"de\">Trotz</i> takes the genitive in written German.",
    "options": [
-    "<i>dem</i>",
-    "<i>den</i>",
-    "<i>des</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">des</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 2
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Das Flugzeug fliegt über ___ Stadt.</i> (“The plane flies over the city”).",
+   "prompt": "Choose the form: <i lang=\"de\">Das Flugzeug fliegt über ___ Stadt.</i> (“The plane flies over the city”).",
    "explain": "Movement across, toward and over the city: accusative.",
    "options": [
-    "<i>der</i>",
-    "<i>den</i>",
-    "<i>dem</i>",
-    "<i>die</i>"
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">die</i>"
    ],
    "answer": 3
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Die Wolken hängen über ___ Stadt.</i> (“The clouds hang over the city”).",
+   "prompt": "Choose the form: <i lang=\"de\">Die Wolken hängen über ___ Stadt.</i> (“The clouds hang over the city”).",
    "explain": "Position: dative.",
    "options": [
-    "<i>der</i>",
-    "<i>die</i>",
-    "<i>den</i>",
-    "<i>dem</i>"
+    "<i lang=\"de\">der</i>",
+    "<i lang=\"de\">die</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">dem</i>"
    ],
    "answer": 0
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "deck": "lang.iii-indecl.de/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er setzt sich an ___ Fenster.</i> (“He sits down at the window”).",
-   "explain": "<i>Sich setzen</i> names a movement: accusative <i>an das</i> (or <i>ans</i>).",
+   "prompt": "Choose the form: <i lang=\"de\">Er setzt sich an ___ Fenster.</i> (“He sits down at the window”).",
+   "explain": "<i lang=\"de\">Sich setzen</i> names a movement: accusative <i lang=\"de\">an das</i> (or <i lang=\"de\">ans</i>).",
    "options": [
-    "<i>dem</i>",
-    "<i>das</i>",
-    "<i>den</i>",
-    "<i>der</i>"
+    "<i lang=\"de\">dem</i>",
+    "<i lang=\"de\">das</i>",
+    "<i lang=\"de\">den</i>",
+    "<i lang=\"de\">der</i>"
    ],
    "answer": 1
   }

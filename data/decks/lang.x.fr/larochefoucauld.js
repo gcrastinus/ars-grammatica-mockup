@@ -8,8 +8,8 @@ ARS.decks["lang.x.fr/larochefoucauld"] = {
  "panels": [
   {
    "id": "text",
-   "title": "La Rochefoucauld, <em>Maximes</em> 218",
-   "body": "<p>L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>Translation: J. W. Willis Bund and J. Hain Friswell.</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>"
+   "title": "La Rochefoucauld, <em lang=\"fr\">Maximes</em> 218",
+   "body": "<p lang=\"fr\">L’hypocrisie est un hommage que le vice rend à la vertu.</p><p>Hypocrisy is the homage vice pays to virtue.<br>Translation: J. W. Willis Bund and J. Hain Friswell.</p><p><strong>Context.</strong> La Rochefoucauld’s maxims are single sentences on self-love and the virtues. This one turns hypocrisy into a kind of tribute.</p>"
   },
   {
    "id": "style",

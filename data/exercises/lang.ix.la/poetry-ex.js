@@ -15,13 +15,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>virumque</em> is joined to <em>arma</em> how?",
-   "explain": "Both accusatives are objects of <em>cano</em>. <em>-que</em> joins them as companions, and neither depends on the other.",
+   "prompt": "<em lang=\"la\">virumque</em> is joined to <em lang=\"la\">arma</em> how?",
+   "explain": "Both accusatives are objects of <em lang=\"la\">cano</em>. <em lang=\"la\">-que</em> joins them as companions, and neither depends on the other.",
    "options": [
-    "By <em>-que</em>: two objects of <em>cano</em>, side by side",
-    "As a relative clause, since <em>virum</em> is taken up by <em>qui</em>",
-    "By hypotaxis, as if <em>ut</em> were understood before <em>virum</em>",
-    "As a nominative, since <em>-que</em> changes the case of <em>virum</em>"
+    "By <em lang=\"la\">-que</em>: two objects of <em lang=\"la\">cano</em>, side by side",
+    "As a relative clause, since <em lang=\"la\">virum</em> is taken up by <em lang=\"la\">qui</em>",
+    "By hypotaxis, as if <em lang=\"la\">ut</em> were understood before <em lang=\"la\">virum</em>",
+    "As a nominative, since <em lang=\"la\">-que</em> changes the case of <em lang=\"la\">virum</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -32,13 +32,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>qui … venit</em> depends on…",
-   "explain": "The relative takes up the man. Its own verb is <em>venit</em>, so <em>qui</em> is nominative.",
+   "prompt": "<em lang=\"la\">qui … venit</em> depends on…",
+   "explain": "The relative takes up the man. Its own verb is <em lang=\"la\">venit</em>, so <em lang=\"la\">qui</em> is nominative.",
    "options": [
-    "<em>virum</em>",
-    "<em>arma</em>, the first object",
-    "<em>litora</em>, the shores he reached",
-    "<em>cano</em>, as the thing sung"
+    "<em lang=\"la\">virum</em>",
+    "<em lang=\"la\">arma</em>, the first object",
+    "<em lang=\"la\">litora</em>, the shores he reached",
+    "<em lang=\"la\">cano</em>, as the thing sung"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -49,12 +49,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Italiam</em> with <em>venit</em> is…",
-   "explain": "Prose would say <em>in Italiam</em>; poetry often gives the place to which in the bare accusative. without a preposition",
+   "prompt": "<em lang=\"la\">Italiam</em> with <em lang=\"la\">venit</em> is…",
+   "explain": "Prose would say <em lang=\"la\">in Italiam</em>; poetry often gives the place to which in the bare accusative. without a preposition",
    "options": [
     "An accusative of the place to which",
-    "The direct object of <em>cano</em>",
-    "A nominative, the subject of <em>venit</em>",
+    "The direct object of <em lang=\"la\">cano</em>",
+    "A nominative, the subject of <em lang=\"la\">venit</em>",
     "An ablative of place where"
    ],
    "answer": 0,
@@ -66,13 +66,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "How does <em>dum conderet</em> depend?",
-   "explain": "<em>Dum</em> with the subjunctive marks an end anticipated: until he should found a city.",
+   "prompt": "How does <em lang=\"la\">dum conderet</em> depend?",
+   "explain": "<em lang=\"la\">Dum</em> with the subjunctive marks an end anticipated: until he should found a city.",
    "options": [
-    "Hypotaxis: <em>dum</em> with the subjunctive",
-    "Parataxis: <em>dum</em> joins a second, equal fact",
-    "Hypotaxis of cause: <em>dum</em> means “because”",
-    "No dependence, since <em>conderet</em> has its own subject"
+    "Hypotaxis: <em lang=\"la\">dum</em> with the subjunctive",
+    "Parataxis: <em lang=\"la\">dum</em> joins a second, equal fact",
+    "Hypotaxis of cause: <em lang=\"la\">dum</em> means “because”",
+    "No dependence, since <em lang=\"la\">conderet</em> has its own subject"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -83,12 +83,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>impulerit</em> is subjunctive because…",
-   "explain": "<em>Memora</em> governs <em>quo … quidve … impulerit</em>, and a reported question takes the subjunctive.",
+   "prompt": "<em lang=\"la\">impulerit</em> is subjunctive because…",
+   "explain": "<em lang=\"la\">Memora</em> governs <em lang=\"la\">quo … quidve … impulerit</em>, and a reported question takes the subjunctive.",
    "options": [
-    "It is an indirect question after <em>memora</em>",
+    "It is an indirect question after <em lang=\"la\">memora</em>",
     "It is a purpose clause, telling why the Muse is asked",
-    "It is a result clause following <em>tot</em>, “so many”",
+    "It is a result clause following <em lang=\"la\">tot</em>, “so many”",
     "Poetic license lets the subjunctive stand for the indicative"
    ],
    "answer": 0,
@@ -100,12 +100,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>Tantaene animis caelestibus irae?</em></p> <em>Tantaene … irae?</em> is…",
-   "explain": "<em>-ne</em> marks a new question, and <em>sunt</em> is understood. It does not depend on <em>memora</em>.",
+   "prompt": "<p><em lang=\"la\">Tantaene animis caelestibus irae?</em></p> <em lang=\"la\">Tantaene … irae?</em> is…",
+   "explain": "<em lang=\"la\">-ne</em> marks a new question, and <em lang=\"la\">sunt</em> is understood. It does not depend on <em lang=\"la\">memora</em>.",
    "options": [
     "An independent question beside the invocation",
-    "A relative clause taking up <em>virum</em>",
-    "A purpose clause depending on <em>impulerit</em>",
+    "A relative clause taking up <em lang=\"la\">virum</em>",
+    "A purpose clause depending on <em lang=\"la\">impulerit</em>",
     "An incomplete clause, since no verb can be supplied"
    ],
    "answer": 0,
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>parabam</em> is…",
+   "prompt": "<em lang=\"la\">parabam</em> is…",
    "explain": "The imperfect presents the action as going on, and here as intended but not completed, because Cupid interfered. “I was preparing,” a plan not carried out",
    "options": [
     "Imperfect",
@@ -134,12 +134,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>materia conveniente</em> is…",
+   "prompt": "<em lang=\"la\">materia conveniente</em> is…",
    "explain": "A noun and a participle in the ablative give a circumstance: with the matter suited to the meters. the matter being suited",
    "options": [
     "An ablative absolute",
-    "The subject of <em>edere</em>",
-    "A dative with <em>modis</em>",
+    "The subject of <em lang=\"la\">edere</em>",
+    "A dative with <em lang=\"la\">modis</em>",
     "An ablative of comparison"
    ],
    "answer": 0,
@@ -151,12 +151,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>modis</em> is…",
-   "explain": "<em>Convenio</em>, “suit,” takes the dative of the thing suited. suited to the meters",
+   "prompt": "<em lang=\"la\">modis</em> is…",
+   "explain": "<em lang=\"la\">Convenio</em>, “suit,” takes the dative of the thing suited. suited to the meters",
    "options": [
-    "Dative with <em>conveniente</em>",
+    "Dative with <em lang=\"la\">conveniente</em>",
     "Ablative of means: by the meters",
-    "Accusative plural, the object of <em>edere</em>",
+    "Accusative plural, the object of <em lang=\"la\">edere</em>",
     "Genitive singular"
    ],
    "answer": 0,
@@ -168,13 +168,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>risisse Cupido</em></p> How does <em>risisse</em> stand?",
-   "explain": "With <em>dicitur</em>, Latin makes the person the subject and puts the action in the infinitive. The perfect infinitive marks a past act. Cupid is said to have laughed",
+   "prompt": "<p><em lang=\"la\">risisse Cupido</em></p> How does <em lang=\"la\">risisse</em> stand?",
+   "explain": "With <em lang=\"la\">dicitur</em>, Latin makes the person the subject and puts the action in the infinitive. The perfect infinitive marks a past act. Cupid is said to have laughed",
    "options": [
-    "As an infinitive with <em>dicitur</em>",
+    "As an infinitive with <em lang=\"la\">dicitur</em>",
     "As a historical infinitive",
     "As an infinitive of purpose",
-    "As the subject of <em>erat</em>"
+    "As the subject of <em lang=\"la\">erat</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-12"
@@ -185,13 +185,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>unum</em> agrees with…",
-   "explain": "Both are accusative masculine singular: <em>unum … pedem</em>, one foot. Poetry often divides an adjective from its noun.",
+   "prompt": "<em lang=\"la\">unum</em> agrees with…",
+   "explain": "Both are accusative masculine singular: <em lang=\"la\">unum … pedem</em>, one foot. Poetry often divides an adjective from its noun.",
    "options": [
-    "<em>pedem</em>",
-    "<em>Cupido</em>",
-    "<em>versus</em>",
-    "<em>inferior</em>"
+    "<em lang=\"la\">pedem</em>",
+    "<em lang=\"la\">Cupido</em>",
+    "<em lang=\"la\">versus</em>",
+    "<em lang=\"la\">inferior</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-12"
@@ -202,13 +202,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>volemus</em> is…",
-   "explain": "<em>Volemus</em> is the present subjunctive, first person plural, and it urges an action that includes the speaker: let us fly.",
+   "prompt": "<em lang=\"la\">volemus</em> is…",
+   "explain": "<em lang=\"la\">Volemus</em> is the present subjunctive, first person plural, and it urges an action that includes the speaker: let us fly.",
    "options": [
     "A future indicative: we shall fly",
     "An imperative plural addressed to Catullus",
     "A hortatory subjunctive",
-    "A complementary infinitive depending on <em>avet</em>, as if the wish to fly completed that verb"
+    "A complementary infinitive depending on <em lang=\"la\">avet</em>, as if the wish to fly completed that verb"
    ],
    "answer": 2,
    "passageRef": "poetry-18"
@@ -219,13 +219,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>egelidos</em> agrees with…",
-   "explain": "<em>Egelidos</em>, “mild,” is accusative plural, like <em>tepores</em>, the object of <em>refert</em>. <em>Ver</em>, “spring,” is the subject.",
+   "prompt": "<em lang=\"la\">egelidos</em> agrees with…",
+   "explain": "<em lang=\"la\">Egelidos</em>, “mild,” is accusative plural, like <em lang=\"la\">tepores</em>, the object of <em lang=\"la\">refert</em>. <em lang=\"la\">Ver</em>, “spring,” is the subject.",
    "options": [
-    "<em>ver</em>, because an adjective of the weather agrees with the season",
-    "<em>tepores</em>",
-    "<em>auris</em>, the breezes",
-    "<em>campi</em>, the fields"
+    "<em lang=\"la\">ver</em>, because an adjective of the weather agrees with the season",
+    "<em lang=\"la\">tepores</em>",
+    "<em lang=\"la\">auris</em>, the breezes",
+    "<em lang=\"la\">campi</em>, the fields"
    ],
    "answer": 1,
    "passageRef": "poetry-18"
@@ -236,8 +236,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Asiae</em> with <em>urbes</em> is…",
-   "explain": "<em>Asiae</em>, “of Asia,” is a possessive genitive depending on <em>urbes</em>, “cities.”",
+   "prompt": "<em lang=\"la\">Asiae</em> with <em lang=\"la\">urbes</em> is…",
+   "explain": "<em lang=\"la\">Asiae</em>, “of Asia,” is a possessive genitive depending on <em lang=\"la\">urbes</em>, “cities.”",
    "options": [
     "A genitive of value, the price set on the cities",
     "A dative of advantage",
@@ -253,13 +253,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>vagari</em> is…",
-   "explain": "<em>Avet</em>, “longs,” is completed by the infinitive <em>vagari</em>, “to wander.”",
+   "prompt": "<em lang=\"la\">vagari</em> is…",
+   "explain": "<em lang=\"la\">Avet</em>, “longs,” is completed by the infinitive <em lang=\"la\">vagari</em>, “to wander.”",
    "options": [
-    "A complementary infinitive with <em>avet</em>",
-    "A gerundive of obligation, with <em>mens</em> as the person who must wander",
-    "The subject of <em>avet</em>",
-    "A supine of purpose after <em>refert</em>"
+    "A complementary infinitive with <em lang=\"la\">avet</em>",
+    "A gerundive of obligation, with <em lang=\"la\">mens</em> as the person who must wander",
+    "The subject of <em lang=\"la\">avet</em>",
+    "A supine of purpose after <em lang=\"la\">refert</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-18"
@@ -270,13 +270,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>studio</em> is…",
-   "explain": "<em>Studio</em>, “with eagerness,” is an ablative of cause with <em>vigescunt</em>: the feet grow lively from eagerness.",
+   "prompt": "<em lang=\"la\">studio</em> is…",
+   "explain": "<em lang=\"la\">Studio</em>, “with eagerness,” is an ablative of cause with <em lang=\"la\">vigescunt</em>: the feet grow lively from eagerness.",
    "options": [
     "A dative of purpose, the end for which the feet grow lively",
-    "An ablative absolute, with <em>laeti</em> as its participle",
+    "An ablative absolute, with <em lang=\"la\">laeti</em> as its participle",
     "An ablative of cause",
-    "The subject of <em>vigescunt</em>"
+    "The subject of <em lang=\"la\">vigescunt</em>"
    ],
    "answer": 2,
    "passageRef": "poetry-18"
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>integer vitae</em>: what is <em>vitae</em>?",
+   "prompt": "<em lang=\"la\">integer vitae</em>: what is <em lang=\"la\">vitae</em>?",
    "explain": "Poetry uses the genitive with an adjective to tell in what respect the adjective holds: upright of life. whole in life",
    "options": [
     "A genitive telling in what respect",
@@ -304,8 +304,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>eget</em> governs…",
-   "explain": "<em>Egeo</em>, “need,” takes the ablative of what is needed (and sometimes the genitive).",
+   "prompt": "<em lang=\"la\">eget</em> governs…",
+   "explain": "<em lang=\"la\">Egeo</em>, “need,” takes the ablative of what is needed (and sometimes the genitive).",
    "options": [
     "The ablative",
     "The accusative",
@@ -321,12 +321,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Fusce</em> is…",
-   "explain": "A noun of the second declension in <em>-us</em> has a vocative in <em>-e</em>. Fuscus, the friend addressed",
+   "prompt": "<em lang=\"la\">Fusce</em> is…",
+   "explain": "A noun of the second declension in <em lang=\"la\">-us</em> has a vocative in <em lang=\"la\">-e</em>. Fuscus, the friend addressed",
    "options": [
     "Vocative",
     "Ablative: by Fuscus",
-    "Nominative: the subject of <em>eget</em>",
+    "Nominative: the subject of <em lang=\"la\">eget</em>",
     "Genitive: of Fuscus"
    ],
    "answer": 0,
@@ -338,8 +338,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Syrtis</em> is…",
-   "explain": "Some third-declension nouns have an accusative plural in <em>-is</em>; <em>aestuosas</em>, agreeing with it, shows the case.",
+   "prompt": "<em lang=\"la\">Syrtis</em> is…",
+   "explain": "Some third-declension nouns have an accusative plural in <em lang=\"la\">-is</em>; <em lang=\"la\">aestuosas</em>, agreeing with it, shows the case.",
    "options": [
     "Accusative plural",
     "Genitive singular",
@@ -355,8 +355,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>facturus</em> is…",
-   "explain": "The ending <em>-urus</em> marks the future active participle, here agreeing with the understood man. about to make",
+   "prompt": "<em lang=\"la\">facturus</em> is…",
+   "explain": "The ending <em lang=\"la\">-urus</em> marks the future active participle, here agreeing with the understood man. about to make",
    "options": [
     "A future active participle",
     "A perfect passive participle",
@@ -372,11 +372,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>Aeterne</em></p> <em>aeterne … conditor</em> is…",
-   "explain": "<em>Aeterne</em> is the vocative of <em>aeternus</em>, and <em>conditor</em> has the same form in the vocative as in the nominative.",
+   "prompt": "<p><em lang=\"la\">Aeterne</em></p> <em lang=\"la\">aeterne … conditor</em> is…",
+   "explain": "<em lang=\"la\">Aeterne</em> is the vocative of <em lang=\"la\">aeternus</em>, and <em lang=\"la\">conditor</em> has the same form in the vocative as in the nominative.",
    "options": [
     "Vocative: God is addressed",
-    "Nominative: the subject of <em>regis</em>",
+    "Nominative: the subject of <em lang=\"la\">regis</em>",
     "Ablative: by the eternal maker",
     "Genitive"
    ],
@@ -389,13 +389,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>qui regis</em></p> Why is <em>regis</em> in the second person?",
+   "prompt": "<p><em lang=\"la\">qui regis</em></p> Why is <em lang=\"la\">regis</em> in the second person?",
    "explain": "A relative takes the person of its antecedent, and the antecedent is God, addressed as “you.”",
    "options": [
-    "Its subject <em>qui</em> takes up the one addressed",
+    "Its subject <em lang=\"la\">qui</em> takes up the one addressed",
     "Because it is an imperative",
-    "Because <em>qui</em> is always second person",
-    "Because it agrees with <em>noctem</em>"
+    "Because <em lang=\"la\">qui</em> is always second person",
+    "Because it agrees with <em lang=\"la\">noctem</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-33"
@@ -406,11 +406,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em>Ut alleves</em></p> <em>ut alleves</em> is…",
-   "explain": "<em>Ut</em> with the subjunctive gives the end for which the times are given: that you may lighten weariness.",
+   "prompt": "<p><em lang=\"la\">Ut alleves</em></p> <em lang=\"la\">ut alleves</em> is…",
+   "explain": "<em lang=\"la\">Ut</em> with the subjunctive gives the end for which the times are given: that you may lighten weariness.",
    "options": [
     "A clause of purpose",
-    "A clause of result after <em>tempora</em>",
+    "A clause of result after <em lang=\"la\">tempora</em>",
     "An indirect question",
     "A clause of time: as you lighten"
    ],
@@ -423,8 +423,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>viantibus</em> is…",
-   "explain": "<em>Viantes</em>, “those on the road,” is a participle used as a noun, and the dative tells for whom the herald is a light. for travelers in the dative",
+   "prompt": "<em lang=\"la\">viantibus</em> is…",
+   "explain": "<em lang=\"la\">Viantes</em>, “those on the road,” is a participle used as a noun, and the dative tells for whom the herald is a light. for travelers in the dative",
    "options": [
     "A present participle",
     "An ablative absolute",
@@ -440,13 +440,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>segregans</em> agrees with…",
-   "explain": "<em>Segregans</em> is nominative singular and describes the herald, the subject of <em>sonat</em>.",
+   "prompt": "<em lang=\"la\">segregans</em> agrees with…",
+   "explain": "<em lang=\"la\">Segregans</em> is nominative singular and describes the herald, the subject of <em lang=\"la\">sonat</em>.",
    "options": [
-    "<em>praeco</em>",
-    "<em>nocte</em>",
-    "<em>noctem</em>",
-    "<em>lux</em> alone"
+    "<em lang=\"la\">praeco</em>",
+    "<em lang=\"la\">nocte</em>",
+    "<em lang=\"la\">noctem</em>",
+    "<em lang=\"la\">lux</em> alone"
    ],
    "answer": 0,
    "passageRef": "poetry-33"
@@ -457,11 +457,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Aeneadum</em> is…",
-   "explain": "The first declension has an older genitive plural in <em>-um</em>, kept in poetry for some names: <em>Aeneadum</em>, of the sons of Aeneas.",
+   "prompt": "<em lang=\"la\">Aeneadum</em> is…",
+   "explain": "The first declension has an older genitive plural in <em lang=\"la\">-um</em>, kept in poetry for some names: <em lang=\"la\">Aeneadum</em>, of the sons of Aeneas.",
    "options": [
     "A genitive plural",
-    "An accusative singular, the object of <em>genetrix</em>",
+    "An accusative singular, the object of <em lang=\"la\">genetrix</em>",
     "A nominative plural, the subject of the sentence",
     "An ablative of origin"
    ],
@@ -474,13 +474,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>labentia</em> agrees with…",
-   "explain": "<em>Labentia</em> is neuter plural accusative, like <em>signa</em>: the gliding signs of heaven.",
+   "prompt": "<em lang=\"la\">labentia</em> agrees with…",
+   "explain": "<em lang=\"la\">Labentia</em> is neuter plural accusative, like <em lang=\"la\">signa</em>: the gliding signs of heaven.",
    "options": [
-    "<em>signa</em>",
-    "<em>Venus</em>",
-    "<em>caeli</em>",
-    "<em>voluptas</em>"
+    "<em lang=\"la\">signa</em>",
+    "<em lang=\"la\">Venus</em>",
+    "<em lang=\"la\">caeli</em>",
+    "<em lang=\"la\">voluptas</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-42"
@@ -491,13 +491,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Why is <em>concelebras</em> in the second person?",
+   "prompt": "Why is <em lang=\"la\">concelebras</em> in the second person?",
    "explain": "A relative takes the person of its antecedent, and here the antecedent is the goddess spoken to.",
    "options": [
-    "Its subject <em>quae</em> takes up Venus",
-    "Because <em>mare</em> is its subject",
+    "Its subject <em lang=\"la\">quae</em> takes up Venus",
+    "Because <em lang=\"la\">mare</em> is its subject",
     "Because it is an imperative",
-    "Because <em>quae</em> is always second person"
+    "Because <em lang=\"la\">quae</em> is always second person"
    ],
    "answer": 0,
    "passageRef": "poetry-42"
@@ -508,12 +508,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>per te quoniam … concipitur</em> is…",
-   "explain": "<em>Quoniam</em>, “since,” gives the reason as a fact, and so it takes the indicative. Poetry often puts the conjunction after the first words.",
+   "prompt": "<em lang=\"la\">per te quoniam … concipitur</em> is…",
+   "explain": "<em lang=\"la\">Quoniam</em>, “since,” gives the reason as a fact, and so it takes the indicative. Poetry often puts the conjunction after the first words.",
    "options": [
     "A clause of cause with the indicative",
     "A clause of purpose with the subjunctive",
-    "A relative clause taking up <em>terras</em>",
+    "A relative clause taking up <em lang=\"la\">terras</em>",
     "A condition contrary to fact"
    ],
    "answer": 0,
@@ -525,13 +525,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>exortum</em> agrees with…",
-   "explain": "<em>Exortum</em> is neuter singular nominative, like <em>genus</em>: the race, having arisen, visits the light of the sun.",
+   "prompt": "<em lang=\"la\">exortum</em> agrees with…",
+   "explain": "<em lang=\"la\">Exortum</em> is neuter singular nominative, like <em lang=\"la\">genus</em>: the race, having arisen, visits the light of the sun.",
    "options": [
-    "<em>genus</em>",
-    "<em>lumina</em>",
-    "<em>solis</em>",
-    "<em>te</em>"
+    "<em lang=\"la\">genus</em>",
+    "<em lang=\"la\">lumina</em>",
+    "<em lang=\"la\">solis</em>",
+    "<em lang=\"la\">te</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-42"
@@ -542,13 +542,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>bellice</em> agrees with…",
-   "explain": "<em>Bellice</em>, “warlike,” is vocative and agrees with <em>Mars</em>, the god addressed.",
+   "prompt": "<em lang=\"la\">bellice</em> agrees with…",
+   "explain": "<em lang=\"la\">Bellice</em>, “warlike,” is vocative and agrees with <em lang=\"la\">Mars</em>, the god addressed.",
    "options": [
-    "<em>clipeo</em>",
-    "<em>Mars</em>",
-    "<em>hasta</em>",
-    "<em>poetae</em>, the poet who is asked what he has to do with the god"
+    "<em lang=\"la\">clipeo</em>",
+    "<em lang=\"la\">Mars</em>",
+    "<em lang=\"la\">hasta</em>",
+    "<em lang=\"la\">poetae</em>, the poet who is asked what he has to do with the god"
    ],
    "answer": 1,
    "passageRef": "poetry-50"
@@ -559,11 +559,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>casside</em> is…",
-   "explain": "<em>Solve</em>, “loose,” takes <em>comas</em>, “hair,” as its object, and <em>casside</em>, “from the helmet,” is the ablative of separation.",
+   "prompt": "<em lang=\"la\">casside</em> is…",
+   "explain": "<em lang=\"la\">Solve</em>, “loose,” takes <em lang=\"la\">comas</em>, “hair,” as its object, and <em lang=\"la\">casside</em>, “from the helmet,” is the ablative of separation.",
    "options": [
     "An ablative of means, the helmet by which the hair is loosed",
-    "The object of <em>solve</em>",
+    "The object of <em lang=\"la\">solve</em>",
     "An ablative of separation",
     "A dative of the person from whom the hair is taken"
    ],
@@ -576,13 +576,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>nitidas</em> agrees with…",
-   "explain": "<em>Nitidas</em>, “shining,” is accusative plural, like <em>comas</em>, and the two are divided around <em>casside solve</em>.",
+   "prompt": "<em lang=\"la\">nitidas</em> agrees with…",
+   "explain": "<em lang=\"la\">Nitidas</em>, “shining,” is accusative plural, like <em lang=\"la\">comas</em>, and the two are divided around <em lang=\"la\">casside solve</em>.",
    "options": [
-    "<em>comas</em>",
-    "<em>casside</em>",
-    "<em>Mars</em>",
-    "<em>comas</em> and <em>casside</em> together, since both stand beside the adjective"
+    "<em lang=\"la\">comas</em>",
+    "<em lang=\"la\">casside</em>",
+    "<em lang=\"la\">Mars</em>",
+    "<em lang=\"la\">comas</em> and <em lang=\"la\">casside</em> together, since both stand beside the adjective"
    ],
    "answer": 0,
    "passageRef": "poetry-50"
@@ -593,12 +593,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>poetae</em> in <em>quid sit cum Marte poetae</em> is…",
-   "explain": "<em>Quid sit</em> is an indirect question after <em>roges</em>. <em>Poetae</em> is a dative of reference: what a poet has to do with Mars.",
+   "prompt": "<em lang=\"la\">poetae</em> in <em lang=\"la\">quid sit cum Marte poetae</em> is…",
+   "explain": "<em lang=\"la\">Quid sit</em> is an indirect question after <em lang=\"la\">roges</em>. <em lang=\"la\">Poetae</em> is a dative of reference: what a poet has to do with Mars.",
    "options": [
-    "The subject of <em>roges</em>, as if the poet asked in the nominative",
-    "A possessive genitive with <em>quid</em>",
-    "An ablative of accompaniment, depending on <em>cum</em>",
+    "The subject of <em lang=\"la\">roges</em>, as if the poet asked in the nominative",
+    "A possessive genitive with <em lang=\"la\">quid</em>",
+    "An ablative of accompaniment, depending on <em lang=\"la\">cum</em>",
     "A dative of reference"
    ],
    "answer": 3,
@@ -610,11 +610,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>depositis clipeo et hasta</em> is…",
-   "explain": "<em>Clipeo</em> and <em>hasta</em>, with the participle <em>depositis</em>, “having been laid aside,” stand in the ablative as a circumstance. The participle is plural because it belongs to both nouns.",
+   "prompt": "<em lang=\"la\">depositis clipeo et hasta</em> is…",
+   "explain": "<em lang=\"la\">Clipeo</em> and <em lang=\"la\">hasta</em>, with the participle <em lang=\"la\">depositis</em>, “having been laid aside,” stand in the ablative as a circumstance. The participle is plural because it belongs to both nouns.",
    "options": [
     "An ablative absolute",
-    "The object of <em>ades</em>",
+    "The object of <em lang=\"la\">ades</em>",
     "A dative of the person concerned",
     "An ablative of means, the weapons with which Mars is asked to be present"
    ],
@@ -627,12 +627,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Sabidi</em> is…",
-   "explain": "A name in <em>-ius</em> has its vocative in <em>-i</em>, and the man is spoken to. Sabidius, the man addressed",
+   "prompt": "<em lang=\"la\">Sabidi</em> is…",
+   "explain": "A name in <em lang=\"la\">-ius</em> has its vocative in <em lang=\"la\">-i</em>, and the man is spoken to. Sabidius, the man addressed",
    "options": [
     "Vocative",
     "Genitive: of Sabidius",
-    "Nominative: the subject of <em>amo</em>",
+    "Nominative: the subject of <em lang=\"la\">amo</em>",
     "Dative: to Sabidius"
    ],
    "answer": 0,
@@ -644,12 +644,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>dicere</em> depends on…",
-   "explain": "<em>Possum</em> is completed by an infinitive: I am able to say.",
+   "prompt": "<em lang=\"la\">dicere</em> depends on…",
+   "explain": "<em lang=\"la\">Possum</em> is completed by an infinitive: I am able to say.",
    "options": [
-    "<em>possum</em>",
-    "<em>amo</em>, as its object",
-    "<em>quare</em>, as a clause of purpose",
+    "<em lang=\"la\">possum</em>",
+    "<em lang=\"la\">amo</em>, as its object",
+    "<em lang=\"la\">quare</em>, as a clause of purpose",
     "Nothing: it is a historical infinitive"
    ],
    "answer": 0,
@@ -661,8 +661,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>quare</em> here means…",
-   "explain": "<em>Quare</em> can ask why or say therefore. After <em>dicere</em> it asks the reason, as in an indirect question.",
+   "prompt": "<em lang=\"la\">quare</em> here means…",
+   "explain": "<em lang=\"la\">Quare</em> can ask why or say therefore. After <em lang=\"la\">dicere</em> it asks the reason, as in an indirect question.",
    "options": [
     "“Why”: it asks the reason",
     "“Therefore”: it draws a conclusion",
@@ -678,13 +678,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>hoc</em> refers to…",
-   "explain": "<em>Hoc</em> points ahead to what he can say, and the line ends with it.",
+   "prompt": "<em lang=\"la\">hoc</em> refers to…",
+   "explain": "<em lang=\"la\">Hoc</em> points ahead to what he can say, and the line ends with it.",
    "options": [
-    "The words that follow: <em>non amo te</em>",
+    "The words that follow: <em lang=\"la\">non amo te</em>",
     "Sabidius",
     "The poem as a whole",
-    "The reason, <em>quare</em>"
+    "The reason, <em lang=\"la\">quare</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-56"
@@ -695,11 +695,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>tantum</em> is…",
-   "explain": "With <em>possum dicere</em>, <em>tantum</em> limits the verb: this only I can say.",
+   "prompt": "<em lang=\"la\">tantum</em> is…",
+   "explain": "With <em lang=\"la\">possum dicere</em>, <em lang=\"la\">tantum</em> limits the verb: this only I can say.",
    "options": [
     "An adverb: only",
-    "An adjective agreeing with <em>hoc</em>: so great",
+    "An adjective agreeing with <em lang=\"la\">hoc</em>: so great",
     "A noun: so much",
     "A conjunction"
    ],
@@ -712,8 +712,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>orandum est</em> says…",
-   "explain": "The gerundive with <em>est</em>, used without a subject, expresses obligation: there must be praying.",
+   "prompt": "<em lang=\"la\">orandum est</em> says…",
+   "explain": "The gerundive with <em lang=\"la\">est</em>, used without a subject, expresses obligation: there must be praying.",
    "options": [
     "What must be done: one must pray",
     "What has been done: one has prayed",
@@ -729,11 +729,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ut sit mens sana</em> is…",
-   "explain": "Verbs of asking and praying take <em>ut</em> with the subjunctive for the thing asked.",
+   "prompt": "<em lang=\"la\">ut sit mens sana</em> is…",
+   "explain": "Verbs of asking and praying take <em lang=\"la\">ut</em> with the subjunctive for the thing asked.",
    "options": [
-    "A clause with <em>ut</em> and the subjunctive",
-    "A clause of result after <em>orandum</em>",
+    "A clause with <em lang=\"la\">ut</em> and the subjunctive",
+    "A clause of result after <em lang=\"la\">orandum</em>",
     "A clause of time: as there is",
     "A clause of comparison: just as there is"
    ],
@@ -746,10 +746,10 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>posce</em> is…",
-   "explain": "The present imperative singular of the third conjugation ends in <em>-e</em>: <em>posce</em>, ask.",
+   "prompt": "<em lang=\"la\">posce</em> is…",
+   "explain": "The present imperative singular of the third conjugation ends in <em lang=\"la\">-e</em>: <em lang=\"la\">posce</em>, ask.",
    "options": [
-    "The imperative singular of <em>posco</em>: ask for",
+    "The imperative singular of <em lang=\"la\">posco</em>: ask for",
     "A present indicative",
     "A present subjunctive",
     "An infinitive"
@@ -763,13 +763,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>terrore</em> is in the ablative because…",
-   "explain": "Verbs of lacking take the ablative of the thing lacked: <em>terrore carentem</em>, lacking fear.",
+   "prompt": "<em lang=\"la\">terrore</em> is in the ablative because…",
+   "explain": "Verbs of lacking take the ablative of the thing lacked: <em lang=\"la\">terrore carentem</em>, lacking fear.",
    "options": [
-    "<em>Careo</em>, “lack,” takes the ablative",
-    "It is an ablative absolute with <em>mortis</em>",
+    "<em lang=\"la\">Careo</em>, “lack,” takes the ablative",
+    "It is an ablative absolute with <em lang=\"la\">mortis</em>",
     "It is an ablative of comparison",
-    "It is the object of <em>posce</em>"
+    "It is the object of <em lang=\"la\">posce</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-62"
@@ -780,12 +780,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ponat</em> is subjunctive because…",
+   "prompt": "<em lang=\"la\">ponat</em> is subjunctive because…",
    "explain": "A relative clause of characteristic takes the subjunctive: a mind such as would count long life the least of gifts.",
    "options": [
     "Its relative clause says what kind of mind is meant",
     "It is an indirect question",
-    "It depends on <em>orandum est</em> as a purpose clause",
+    "It depends on <em lang=\"la\">orandum est</em> as a purpose clause",
     "It is a wish"
    ],
    "answer": 0,
@@ -797,11 +797,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>prodeunt</em> is plural because…",
-   "explain": "<em>Vexilla</em>, the banners, is neuter plural, and the verb agrees with its subject in number.",
+   "prompt": "<em lang=\"la\">prodeunt</em> is plural because…",
+   "explain": "<em lang=\"la\">Vexilla</em>, the banners, is neuter plural, and the verb agrees with its subject in number.",
    "options": [
-    "Its subject is <em>vexilla</em>",
-    "Its subject is <em>regis</em>",
+    "Its subject is <em lang=\"la\">vexilla</em>",
+    "Its subject is <em lang=\"la\">regis</em>",
     "It is an impersonal verb",
     "Hymns use the plural for the singular"
    ],
@@ -814,13 +814,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>quo</em> agrees with…",
-   "explain": "<em>Quo … patibulo</em> is ablative singular: on which gibbet. The relative stands first and its noun last.",
+   "prompt": "<em lang=\"la\">quo</em> agrees with…",
+   "explain": "<em lang=\"la\">Quo … patibulo</em> is ablative singular: on which gibbet. The relative stands first and its noun last.",
    "options": [
-    "<em>patibulo</em>",
-    "<em>conditor</em>",
-    "<em>carne</em>",
-    "<em>mysterium</em>"
+    "<em lang=\"la\">patibulo</em>",
+    "<em lang=\"la\">conditor</em>",
+    "<em lang=\"la\">carne</em>",
+    "<em lang=\"la\">mysterium</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -831,13 +831,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>carnis</em> depends on…",
-   "explain": "<em>Carnis</em> is genitive, the thing made, and <em>conditor</em> is the maker. <em>Carne</em>, in the ablative, says that he hung in the flesh. the maker of flesh",
+   "prompt": "<em lang=\"la\">carnis</em> depends on…",
+   "explain": "<em lang=\"la\">Carnis</em> is genitive, the thing made, and <em lang=\"la\">conditor</em> is the maker. <em lang=\"la\">Carne</em>, in the ablative, says that he hung in the flesh. the maker of flesh",
    "options": [
-    "<em>conditor</em>",
-    "<em>carne</em>",
-    "<em>patibulo</em>",
-    "<em>suspensus est</em>"
+    "<em lang=\"la\">conditor</em>",
+    "<em lang=\"la\">carne</em>",
+    "<em lang=\"la\">patibulo</em>",
+    "<em lang=\"la\">suspensus est</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-68"
@@ -848,13 +848,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>vulneratus</em> agrees with…",
-   "explain": "<em>Vulneratus</em> is masculine singular nominative, and it describes the same subject as <em>suspensus est</em>. the maker who hung on the cross",
+   "prompt": "<em lang=\"la\">vulneratus</em> agrees with…",
+   "explain": "<em lang=\"la\">Vulneratus</em> is masculine singular nominative, and it describes the same subject as <em lang=\"la\">suspensus est</em>. the maker who hung on the cross",
    "options": [
     "The understood subject",
-    "<em>mucrone</em>",
-    "<em>lanceae</em>",
-    "<em>nos</em>"
+    "<em lang=\"la\">mucrone</em>",
+    "<em lang=\"la\">lanceae</em>",
+    "<em lang=\"la\">nos</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-68"
@@ -865,8 +865,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ut nos lavaret</em> is…",
-   "explain": "<em>Ut</em> with the subjunctive gives the end for which the blood flowed, and the imperfect follows the past <em>manavit</em>.",
+   "prompt": "<em lang=\"la\">ut nos lavaret</em> is…",
+   "explain": "<em lang=\"la\">Ut</em> with the subjunctive gives the end for which the blood flowed, and the imperfect follows the past <em lang=\"la\">manavit</em>.",
    "options": [
     "A clause of purpose",
     "A clause of result",
@@ -882,13 +882,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>crimine</em> is…",
-   "explain": "With a verb of washing or freeing, the ablative gives that from which: to wash us from guilt. <em>Nos</em> is the object.",
+   "prompt": "<em lang=\"la\">crimine</em> is…",
+   "explain": "With a verb of washing or freeing, the ablative gives that from which: to wash us from guilt. <em lang=\"la\">Nos</em> is the object.",
    "options": [
     "An ablative of separation",
     "An ablative of means: by guilt",
     "A dative: for guilt",
-    "The object of <em>lavaret</em>"
+    "The object of <em lang=\"la\">lavaret</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-68"
@@ -899,13 +899,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em>Arma virumque cano</em>, what does <em>cano</em> govern?<br><br>“Arms, and the man I sing, who, forc’d by fate, And haughty Juno’s unrelenting hate, Expell’d and exil’d, left the Trojan shore.”<br>(<em>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
-   "explain": "<em>Cano</em> takes both objects, and <em>-que</em> joins <em>virum</em> to <em>arma</em>. The order is poetic; the government is ordinary.",
+   "prompt": "In <em lang=\"la\">Arma virumque cano</em>, what does <em lang=\"la\">cano</em> govern?<br><br>“Arms, and the man I sing, who, forc’d by fate, And haughty Juno’s unrelenting hate, Expell’d and exil’d, left the Trojan shore.”<br>(<em lang=\"la\">Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
+   "explain": "<em lang=\"la\">Cano</em> takes both objects, and <em lang=\"la\">-que</em> joins <em lang=\"la\">virum</em> to <em lang=\"la\">arma</em>. The order is poetic; the government is ordinary.",
    "options": [
-    "Two accusatives, <em>arma</em> and <em>virum</em>, joined by <em>-que</em>",
-    "Only <em>arma</em>; <em>virum</em> is the subject of <em>venit</em>",
+    "Two accusatives, <em lang=\"la\">arma</em> and <em lang=\"la\">virum</em>, joined by <em lang=\"la\">-que</em>",
+    "Only <em lang=\"la\">arma</em>; <em lang=\"la\">virum</em> is the subject of <em lang=\"la\">venit</em>",
     "A dative of advantage, “for the man”",
-    "Nothing, since <em>cano</em> has no object here"
+    "Nothing, since <em lang=\"la\">cano</em> has no object here"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -916,13 +916,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "On which word does <em>qui</em> depend?<br><br>“Arms I sing and the man who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em>Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
-   "explain": "The relative takes up <em>virum</em>, the man just named. Its own verb is <em>venit</em>, so <em>qui</em> is nominative, the subject of <em>venit</em>, and not an accusative with <em>cano</em>.",
+   "prompt": "On which word does <em lang=\"la\">qui</em> depend?<br><br>“Arms I sing and the man who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em lang=\"la\">Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
+   "explain": "The relative takes up <em lang=\"la\">virum</em>, the man just named. Its own verb is <em lang=\"la\">venit</em>, so <em lang=\"la\">qui</em> is nominative, the subject of <em lang=\"la\">venit</em>, and not an accusative with <em lang=\"la\">cano</em>.",
    "options": [
-    "<em>virum</em>, the man just named",
-    "<em>arma</em>, the first object of <em>cano</em>",
-    "<em>cano</em>, as its object",
-    "<em>litora</em>, the shores he reached"
+    "<em lang=\"la\">virum</em>, the man just named",
+    "<em lang=\"la\">arma</em>, the first object of <em lang=\"la\">cano</em>",
+    "<em lang=\"la\">cano</em>, as its object",
+    "<em lang=\"la\">litora</em>, the shores he reached"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -933,11 +933,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>ob iram</em> with <em>memorem Iunonis</em>: how does it stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
-   "explain": "<em>Ob</em> takes the accusative, and the phrase gives the cause of <em>iactatus</em>. There is no second verb, so the question of parataxis or hypotaxis does not arise.",
+   "prompt": "<em lang=\"la\">ob iram</em> with <em lang=\"la\">memorem Iunonis</em>: how does it stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em lang=\"la\">multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "explain": "<em lang=\"la\">Ob</em> takes the accusative, and the phrase gives the cause of <em lang=\"la\">iactatus</em>. There is no second verb, so the question of parataxis or hypotaxis does not arise.",
    "options": [
-    "As a phrase, not a clause: <em>ob</em> governs <em>iram</em> and gives the cause",
-    "As a clause of cause, with <em>iram</em> the subject of an understood verb",
+    "As a phrase, not a clause: <em lang=\"la\">ob</em> governs <em lang=\"la\">iram</em> and gives the cause",
+    "As a clause of cause, with <em lang=\"la\">iram</em> the subject of an understood verb",
     "As a relative clause, taking up the man",
     "As a second main clause beside the tossing"
    ],
@@ -950,13 +950,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em>quo numine laeso</em> and <em>impulerit</em>, what is the construction after <em>memora</em>?<br><br>“O Muse! the causes and the crimes relate; What goddess was provok’d, and whence her hate; For what offence the Queen of Heav’n began To persecute so brave, so just a man; Involv’d his anxious life in endless cares, Expos’d to wants, and hurried into wars!”<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
-   "explain": "<em>Memora</em> governs the questions <em>quo … quidve … impulerit</em>. <em>Impulerit</em> is subjunctive because the question is reported; it is not an independent verb.",
+   "prompt": "In <em lang=\"la\">quo numine laeso</em> and <em lang=\"la\">impulerit</em>, what is the construction after <em lang=\"la\">memora</em>?<br><br>“O Muse! the causes and the crimes relate; What goddess was provok’d, and whence her hate; For what offence the Queen of Heav’n began To persecute so brave, so just a man; Involv’d his anxious life in endless cares, Expos’d to wants, and hurried into wars!”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "explain": "<em lang=\"la\">Memora</em> governs the questions <em lang=\"la\">quo … quidve … impulerit</em>. <em lang=\"la\">Impulerit</em> is subjunctive because the question is reported; it is not an independent verb.",
    "options": [
-    "Indirect questions that depend on <em>memora</em>",
+    "Indirect questions that depend on <em lang=\"la\">memora</em>",
     "Two direct questions to the Muse, standing side by side",
     "Purpose clauses telling why the Muse should speak",
-    "A result clause after <em>tot</em>"
+    "A result clause after <em lang=\"la\">tot</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -967,12 +967,12 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The colon <em>Tantaene animis caelestibus irae?</em> stands how in the period?<br><br>“Can heav’nly minds such high resentment show, Or exercise their spite in human woe?”<br>(<em>impulerit. Tantaene animis caelestibus irae?</em>)",
-   "explain": "<em>-ne</em> marks a question to be answered yes or no, and <em>sunt</em> is understood. It does not depend on <em>memora</em>: after the reported questions, a new question stands by itself.",
+   "prompt": "The colon <em lang=\"la\">Tantaene animis caelestibus irae?</em> stands how in the period?<br><br>“Can heav’nly minds such high resentment show, Or exercise their spite in human woe?”<br>(<em lang=\"la\">impulerit. Tantaene animis caelestibus irae?</em>)",
+   "explain": "<em lang=\"la\">-ne</em> marks a question to be answered yes or no, and <em lang=\"la\">sunt</em> is understood. It does not depend on <em lang=\"la\">memora</em>: after the reported questions, a new question stands by itself.",
    "options": [
     "As an independent question beside the invocation",
-    "As a purpose clause depending on <em>impulerit</em> just before it",
-    "As a relative clause taking up <em>virum</em>",
+    "As a purpose clause depending on <em lang=\"la\">impulerit</em> just before it",
+    "As a relative clause taking up <em lang=\"la\">virum</em>",
     "As incomplete, having no verb"
    ],
    "answer": 0,
@@ -984,11 +984,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>fato profugus</em>: what work is <em>fato</em> doing?<br><br>“who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em>Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
-   "explain": "<em>Fato</em> is ablative and names the cause of his exile. <em>Italiam</em> and <em>litora</em> are accusatives of the goal with <em>venit</em>, without a preposition, as is usual in verse.",
+   "prompt": "<em lang=\"la\">fato profugus</em>: what work is <em lang=\"la\">fato</em> doing?<br><br>“who first from the coasts of Troy, exiled by fate, came to Italy and Lavinian shores; …”<br>(<em lang=\"la\">Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, …</em>)",
+   "explain": "<em lang=\"la\">Fato</em> is ablative and names the cause of his exile. <em lang=\"la\">Italiam</em> and <em lang=\"la\">litora</em> are accusatives of the goal with <em lang=\"la\">venit</em>, without a preposition, as is usual in verse.",
    "options": [
-    "Ablative of cause: an exile <em>by</em> fate",
-    "Accusative of the place to which he came, with <em>venit</em>",
+    "Ablative of cause: an exile <em lang=\"la\">by</em> fate",
+    "Accusative of the place to which he came, with <em lang=\"la\">venit</em>",
     "Dative of advantage: an exile “for” fate’s sake",
     "Nominative, in apposition"
    ],
@@ -1001,13 +1001,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>et terris … et alto</em>: how do these words stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
-   "explain": "<em>Terris</em> and <em>alto</em> (“the deep”) are ablatives telling where he was tossed. Verse often leaves out the <em>in</em> that prose would write. <em>Et … et</em> joins them as companions.",
+   "prompt": "<em lang=\"la\">et terris … et alto</em>: how do these words stand?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em lang=\"la\">multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "explain": "<em lang=\"la\">Terris</em> and <em lang=\"la\">alto</em> (“the deep”) are ablatives telling where he was tossed. Verse often leaves out the <em lang=\"la\">in</em> that prose would write. <em lang=\"la\">Et … et</em> joins them as companions.",
    "options": [
     "As ablatives of place where, without a preposition",
     "As datives of advantage: for the lands and for the sea",
-    "As accusatives of the goal, with <em>iactatus</em>",
-    "As genitives depending on <em>multum</em>"
+    "As accusatives of the goal, with <em lang=\"la\">iactatus</em>",
+    "As genitives depending on <em lang=\"la\">multum</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1018,13 +1018,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>vi superum</em>: what form is <em>superum</em>?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
-   "explain": "The old genitive plural in <em>-um</em> stands for <em>-orum</em>, as in <em>deum</em> for <em>deorum</em> in line 9. <em>Vi superum</em> is “by the force of the gods above.”",
+   "prompt": "<em lang=\"la\">vi superum</em>: what form is <em lang=\"la\">superum</em>?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em lang=\"la\">multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "explain": "The old genitive plural in <em lang=\"la\">-um</em> stands for <em lang=\"la\">-orum</em>, as in <em lang=\"la\">deum</em> for <em lang=\"la\">deorum</em> in line 9. <em lang=\"la\">Vi superum</em> is “by the force of the gods above.”",
    "options": [
-    "Genitive plural, for <em>superorum</em>: of the gods above",
-    "Accusative singular, the object of <em>vi</em>",
+    "Genitive plural, for <em lang=\"la\">superorum</em>: of the gods above",
+    "Accusative singular, the object of <em lang=\"la\">vi</em>",
     "Nominative plural, the subject of the clause",
-    "Ablative singular, agreeing with <em>vi</em>"
+    "Ablative singular, agreeing with <em lang=\"la\">vi</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1035,13 +1035,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>saevae memorem Iunonis ob iram</em>: with which word does <em>memorem</em> agree?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em>multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
-   "explain": "<em>Memorem</em> is accusative singular, and so it agrees with <em>iram</em>, the object of <em>ob</em>. <em>Saevae</em> agrees with <em>Iunonis</em>. The two adjectives are interlaced with the two nouns, a common order in verse.",
+   "prompt": "<em lang=\"la\">saevae memorem Iunonis ob iram</em>: with which word does <em lang=\"la\">memorem</em> agree?<br><br>“much buffeted on sea and land by violence from above, through cruel Juno’s unforgiving wrath, …”<br>(<em lang=\"la\">multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;</em>)",
+   "explain": "<em lang=\"la\">Memorem</em> is accusative singular, and so it agrees with <em lang=\"la\">iram</em>, the object of <em lang=\"la\">ob</em>. <em lang=\"la\">Saevae</em> agrees with <em lang=\"la\">Iunonis</em>. The two adjectives are interlaced with the two nouns, a common order in verse.",
    "options": [
-    "<em>iram</em>: Juno’s unforgetting wrath",
-    "<em>Iunonis</em>: the mindful Juno",
-    "<em>saevae</em>: the cruel and mindful one",
-    "<em>ille</em>: he, remembering"
+    "<em lang=\"la\">iram</em>: Juno’s unforgetting wrath",
+    "<em lang=\"la\">Iunonis</em>: the mindful Juno",
+    "<em lang=\"la\">saevae</em>: the cruel and mindful one",
+    "<em lang=\"la\">ille</em>: he, remembering"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1052,13 +1052,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>genus unde Latinum</em>: what does <em>unde</em> introduce?<br><br>“having suffered much in war too, until he should found a city and bring his gods to Latium, whence came the Latin race, the Alban fathers, and the walls of lofty Rome.”<br>(<em>multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.</em>)",
-   "explain": "<em>Unde</em> is a relative adverb, “whence,” taking up the man (or his founding). The verb is understood: from him the Latin race, the Alban fathers, and the walls of Rome. The order <em>genus unde</em> puts the relative second, as verse often does.",
+   "prompt": "<em lang=\"la\">genus unde Latinum</em>: what does <em lang=\"la\">unde</em> introduce?<br><br>“having suffered much in war too, until he should found a city and bring his gods to Latium, whence came the Latin race, the Alban fathers, and the walls of lofty Rome.”<br>(<em lang=\"la\">multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.</em>)",
+   "explain": "<em lang=\"la\">Unde</em> is a relative adverb, “whence,” taking up the man (or his founding). The verb is understood: from him the Latin race, the Alban fathers, and the walls of Rome. The order <em lang=\"la\">genus unde</em> puts the relative second, as verse often does.",
    "options": [
     "A relative clause, with its verb understood",
-    "A purpose clause, depending on <em>conderet</em>",
-    "An indirect question, depending on <em>memora</em>",
-    "A second main clause, whose verb is <em>inferret</em>"
+    "A purpose clause, depending on <em lang=\"la\">conderet</em>",
+    "An indirect question, depending on <em lang=\"la\">memora</em>",
+    "A second main clause, whose verb is <em lang=\"la\">inferret</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1069,11 +1069,11 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>Musa</em>: what case?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "prompt": "<em lang=\"la\">Musa</em>: what case?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
    "explain": "The poet calls on the Muse. In the first declension the vocative has the same form as the nominative, so the use in the sentence decides the case.",
    "options": [
     "Vocative: the Muse is addressed",
-    "Nominative: the subject of <em>memora</em>",
+    "Nominative: the subject of <em lang=\"la\">memora</em>",
     "Ablative: by the Muse",
     "Genitive: of the Muse"
    ],
@@ -1086,8 +1086,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>memora</em>: what form?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
-   "explain": "<em>Memora</em> is the imperative of <em>memorare</em>, addressed to the Muse. The indicative would be <em>memorat</em>, the infinitive <em>memorare</em>.",
+   "prompt": "<em lang=\"la\">memora</em>: what form?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "explain": "<em lang=\"la\">Memora</em> is the imperative of <em lang=\"la\">memorare</em>, addressed to the Muse. The indicative would be <em lang=\"la\">memorat</em>, the infinitive <em lang=\"la\">memorare</em>.",
    "options": [
     "Imperative singular: “tell”",
     "Present indicative: “she tells”",
@@ -1103,13 +1103,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>quo numine laeso</em>: what construction?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
-   "explain": "A noun and a participle in the ablative stand apart as a circumstance: “what divinity having been offended,” that is, for what offence to her divine will. The interrogative <em>quo</em> makes it one of the reported questions.",
+   "prompt": "<em lang=\"la\">quo numine laeso</em>: what construction?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "explain": "A noun and a participle in the ablative stand apart as a circumstance: “what divinity having been offended,” that is, for what offence to her divine will. The interrogative <em lang=\"la\">quo</em> makes it one of the reported questions.",
    "options": [
     "An ablative absolute, made into a question",
     "An ablative of means, “by what offended god”",
     "A dative of the person offended",
-    "A relative clause taking up <em>causas</em>"
+    "A relative clause taking up <em lang=\"la\">causas</em>"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1120,13 +1120,13 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What governs the infinitives <em>volvere</em> and <em>adire</em>?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em>Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
-   "explain": "<em>Impello</em>, “drive, compel,” here takes the infinitives <em>volvere</em> and <em>adire</em>, as verse allows; prose would write <em>ut</em> with the subjunctive. <em>Virum</em> is the one driven.",
+   "prompt": "What governs the infinitives <em lang=\"la\">volvere</em> and <em lang=\"la\">adire</em>?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "explain": "<em lang=\"la\">Impello</em>, “drive, compel,” here takes the infinitives <em lang=\"la\">volvere</em> and <em lang=\"la\">adire</em>, as verse allows; prose would write <em lang=\"la\">ut</em> with the subjunctive. <em lang=\"la\">Virum</em> is the one driven.",
    "options": [
-    "<em>impulerit</em>: she drove him",
-    "<em>memora</em>: tell me to pass through",
-    "<em>dolens</em>: grieving to pass through",
-    "<em>insignem</em>: famous for passing through"
+    "<em lang=\"la\">impulerit</em>: she drove him",
+    "<em lang=\"la\">memora</em>: tell me to pass through",
+    "<em lang=\"la\">dolens</em>: grieving to pass through",
+    "<em lang=\"la\">insignem</em>: famous for passing through"
    ],
    "answer": 0,
    "passageRef": "poetry-1"
@@ -1137,8 +1137,8 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em>animis caelestibus</em>: what work does the case do?<br><br>“Is there such wrath in heavenly spirits?”<br>(<em>impulerit. Tantaene animis caelestibus irae?</em>)",
-   "explain": "With <em>sunt</em> understood, the dative names the possessor: “are there such angers to heavenly minds?” The subject is <em>irae</em>, and <em>tantaene</em> carries the question.",
+   "prompt": "<em lang=\"la\">animis caelestibus</em>: what work does the case do?<br><br>“Is there such wrath in heavenly spirits?”<br>(<em lang=\"la\">impulerit. Tantaene animis caelestibus irae?</em>)",
+   "explain": "With <em lang=\"la\">sunt</em> understood, the dative names the possessor: “are there such angers to heavenly minds?” The subject is <em lang=\"la\">irae</em>, and <em lang=\"la\">tantaene</em> carries the question.",
    "options": [
     "Dative of possession",
     "Ablative of means: by heavenly spirits",

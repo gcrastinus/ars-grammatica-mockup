@@ -15,13 +15,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle parle avec ___.</i> (“She is speaking with me”).",
-   "explain": "After a preposition, the stressed form <i>moi</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle parle avec ___.</i> (“She is speaking with me”).",
+   "explain": "After a preposition, the stressed form <i lang=\"fr\">moi</i>.",
    "options": [
-    "<i>me</i>",
-    "<i>je</i>",
-    "<i>mon</i>",
-    "<i>moi</i>"
+    "<i lang=\"fr\">me</i>",
+    "<i lang=\"fr\">je</i>",
+    "<i lang=\"fr\">mon</i>",
+    "<i lang=\"fr\">moi</i>"
    ],
    "answer": 3
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nous habitons ___ Rome.</i> (“We live in Rome”).",
-   "explain": "With a city, <i>à</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Nous habitons ___ Rome.</i> (“We live in Rome”).",
+   "explain": "With a city, <i lang=\"fr\">à</i>.",
    "options": [
-    "<i>en</i>",
-    "<i>au</i>",
-    "<i>à</i>",
-    "<i>dans</i>"
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">dans</i>"
    ],
    "answer": 2
   },
@@ -47,13 +47,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ils voyagent ___ Allemagne.</i> (“They are traveling in Germany”).",
-   "explain": "<i>Allemagne</i> is a feminine country: <i>en</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ils voyagent ___ Allemagne.</i> (“They are traveling in Germany”).",
+   "explain": "<i lang=\"fr\">Allemagne</i> is a feminine country: <i lang=\"fr\">en</i>.",
    "options": [
-    "<i>au</i>",
-    "<i>en</i>",
-    "<i>à</i>",
-    "<i>aux</i>"
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">aux</i>"
    ],
    "answer": 1
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle travaille ___ Brésil.</i> (“She works in Brazil”).",
-   "explain": "<i>Brésil</i> is masculine: <i>au</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle travaille ___ Brésil.</i> (“She works in Brazil”).",
+   "explain": "<i lang=\"fr\">Brésil</i> is masculine: <i lang=\"fr\">au</i>.",
    "options": [
-    "<i>au</i>",
-    "<i>en</i>",
-    "<i>à</i>",
-    "<i>aux</i>"
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">aux</i>"
    ],
    "answer": 0
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>un sac ___ dos</i> (“a backpack, a bag for the back”).",
-   "explain": "<i>À</i> marks the use.",
+   "prompt": "Choose the form: <i lang=\"fr\">un sac ___ dos</i> (“a backpack, a bag for the back”).",
+   "explain": "<i lang=\"fr\">À</i> marks the use.",
    "options": [
-    "<i>de</i>",
-    "<i>en</i>",
-    "<i>du</i>",
-    "<i>à</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">à</i>"
    ],
    "answer": 3
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>une bouteille ___ vin</i> (“a bottle of wine”).",
-   "explain": "<i>De</i> marks the content.",
+   "prompt": "Choose the form: <i lang=\"fr\">une bouteille ___ vin</i> (“a bottle of wine”).",
+   "explain": "<i lang=\"fr\">De</i> marks the content.",
    "options": [
-    "<i>à</i>",
-    "<i>du</i>",
-    "<i>de</i>",
-    "<i>en</i>"
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">en</i>"
    ],
    "answer": 2
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il vient ___ Marseille.</i> (“He comes from Marseille”).",
-   "explain": "With a city, “from” is <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il vient ___ Marseille.</i> (“He comes from Marseille”).",
+   "explain": "With a city, “from” is <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>à</i>",
-    "<i>de</i>",
-    "<i>en</i>",
-    "<i>du</i>"
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">du</i>"
    ],
    "answer": 1
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Le chat dort ___ la boîte.</i> (“The cat is sleeping inside the box”).",
-   "explain": "<i>Dans</i> means “inside” a closed space.",
+   "prompt": "Choose the form: <i lang=\"fr\">Le chat dort ___ la boîte.</i> (“The cat is sleeping inside the box”).",
+   "explain": "<i lang=\"fr\">Dans</i> means “inside” a closed space.",
    "options": [
-    "<i>dans</i>",
-    "<i>en</i>",
-    "<i>à</i>",
-    "<i>chez</i>"
+    "<i lang=\"fr\">dans</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">chez</i>"
    ],
    "answer": 0
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle a réussi ___ convaincre son père.</i> (“She managed to convince her father”).",
-   "explain": "<i>Réussir</i> takes <i>à</i> before an infinitive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle a réussi ___ convaincre son père.</i> (“She managed to convince her father”).",
+   "explain": "<i lang=\"fr\">Réussir</i> takes <i lang=\"fr\">à</i> before an infinitive.",
    "options": [
-    "<i>de</i>",
+    "<i lang=\"fr\">de</i>",
     "no preposition",
-    "<i>pour</i>",
-    "<i>à</i>"
+    "<i lang=\"fr\">pour</i>",
+    "<i lang=\"fr\">à</i>"
    ],
    "answer": 3
   },
@@ -159,13 +159,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il a refusé ___ répondre.</i> (“He refused to answer”).",
-   "explain": "<i>Refuser</i> takes <i>de</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il a refusé ___ répondre.</i> (“He refused to answer”).",
+   "explain": "<i lang=\"fr\">Refuser</i> takes <i lang=\"fr\">de</i>.",
    "options": [
-    "<i>à</i>",
-    "<i>de</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">de</i>",
     "no preposition",
-    "<i>en</i>"
+    "<i lang=\"fr\">en</i>"
    ],
    "answer": 1
   },
@@ -175,13 +175,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nous voulons ___ partir tôt.</i> (“We want to leave early”).",
-   "explain": "<i>Vouloir</i> takes the infinitive directly.",
+   "prompt": "Choose the form: <i lang=\"fr\">Nous voulons ___ partir tôt.</i> (“We want to leave early”).",
+   "explain": "<i lang=\"fr\">Vouloir</i> takes the infinitive directly.",
    "options": [
-    "<i>à</i>",
-    "<i>de</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">de</i>",
     "no preposition",
-    "<i>pour</i>"
+    "<i lang=\"fr\">pour</i>"
    ],
    "answer": 2
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ils vont ___ États-Unis.</i> (“They are going to the United States”).",
-   "explain": "A plural name takes <i>aux</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ils vont ___ États-Unis.</i> (“They are going to the United States”).",
+   "explain": "A plural name takes <i lang=\"fr\">aux</i>.",
    "options": [
-    "<i>en</i>",
-    "<i>au</i>",
-    "<i>à</i>",
-    "<i>aux</i>"
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">aux</i>"
    ],
    "answer": 3
   },
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je dîne ___ mes amis ce soir.</i> (“I am having dinner at my friends’ tonight”).",
-   "explain": "<i>Chez</i> means “at the house of.”",
+   "prompt": "Choose the form: <i lang=\"fr\">Je dîne ___ mes amis ce soir.</i> (“I am having dinner at my friends’ tonight”).",
+   "explain": "<i lang=\"fr\">Chez</i> means “at the house of.”",
    "options": [
-    "<i>chez</i>",
-    "<i>à</i>",
-    "<i>dans</i>",
-    "<i>en</i>"
+    "<i lang=\"fr\">chez</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">dans</i>",
+    "<i lang=\"fr\">en</i>"
    ],
    "answer": 0
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il est parti sans ___ au revoir.</i> (“He left without saying goodbye”).",
-   "explain": "After <i>sans</i>, the infinitive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il est parti sans ___ au revoir.</i> (“He left without saying goodbye”).",
+   "explain": "After <i lang=\"fr\">sans</i>, the infinitive.",
    "options": [
-    "<i>disant</i>",
-    "<i>dire</i>",
-    "<i>dit</i>",
-    "<i>de dire</i>"
+    "<i lang=\"fr\">disant</i>",
+    "<i lang=\"fr\">dire</i>",
+    "<i lang=\"fr\">dit</i>",
+    "<i lang=\"fr\">de dire</i>"
    ],
    "answer": 1
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Lave-toi les mains avant ___ manger.</i> (“Wash your hands before eating”).",
-   "explain": "<i>Avant</i> takes <i>de</i> before an infinitive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Lave-toi les mains avant ___ manger.</i> (“Wash your hands before eating”).",
+   "explain": "<i lang=\"fr\">Avant</i> takes <i lang=\"fr\">de</i> before an infinitive.",
    "options": [
-    "<i>à</i>",
+    "<i lang=\"fr\">à</i>",
     "no preposition",
-    "<i>de</i>",
-    "<i>en</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">en</i>"
    ],
    "answer": 2
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle est morte ___ froid.</i> (“She died of the cold”).",
-   "explain": "<i>De</i> marks the cause: <i>mourir de froid</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle est morte ___ froid.</i> (“She died of the cold”).",
+   "explain": "<i lang=\"fr\">De</i> marks the cause: <i lang=\"fr\">mourir de froid</i>.",
    "options": [
-    "<i>à</i>",
-    "<i>par</i>",
-    "<i>en</i>",
-    "<i>de</i>"
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">par</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">de</i>"
    ],
    "answer": 3
   },
@@ -271,12 +271,12 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle tient ___ son jardin.</i> (“She is attached to her garden”).",
-   "explain": "<i>Tenir à</i> means “to be attached to, to value.”",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle tient ___ son jardin.</i> (“She is attached to her garden”).",
+   "explain": "<i lang=\"fr\">Tenir à</i> means “to be attached to, to value.”",
    "options": [
-    "<i>à</i>",
-    "<i>de</i>",
-    "<i>en</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">en</i>",
     "no preposition"
    ],
    "answer": 0
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je ___ écris chaque semaine.</i> (“I write to her every week”).",
-   "explain": "With most verbs, <i>à</i> with a person becomes the indirect object pronoun.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je ___ écris chaque semaine.</i> (“I write to her every week”).",
+   "explain": "With most verbs, <i lang=\"fr\">à</i> with a person becomes the indirect object pronoun.",
    "options": [
-    "<i>la</i>",
-    "<i>lui</i>",
-    "<i>elle</i>",
-    "<i>y</i>"
+    "<i lang=\"fr\">la</i>",
+    "<i lang=\"fr\">lui</i>",
+    "<i lang=\"fr\">elle</i>",
+    "<i lang=\"fr\">y</i>"
    ],
    "answer": 1
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il s’est assis derrière ___.</i> (“He sat down behind them”).",
-   "explain": "After a preposition, the stressed form <i>eux</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il s’est assis derrière ___.</i> (“He sat down behind them”).",
+   "explain": "After a preposition, the stressed form <i lang=\"fr\">eux</i>.",
    "options": [
-    "<i>les</i>",
-    "<i>leur</i>",
-    "<i>eux</i>",
-    "<i>ils</i>"
+    "<i lang=\"fr\">les</i>",
+    "<i lang=\"fr\">leur</i>",
+    "<i lang=\"fr\">eux</i>",
+    "<i lang=\"fr\">ils</i>"
    ],
    "answer": 2
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle apprend le français ___ lisant des journaux.</i> (“She is learning French by reading newspapers”).",
-   "explain": "<i>En</i> takes the present participle: the gérondif.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle apprend le français ___ lisant des journaux.</i> (“She is learning French by reading newspapers”).",
+   "explain": "<i lang=\"fr\">En</i> takes the present participle: the gérondif.",
    "options": [
-    "<i>par</i>",
-    "<i>pour</i>",
-    "<i>en</i>",
-    "<i>sans</i>"
+    "<i lang=\"fr\">par</i>",
+    "<i lang=\"fr\">pour</i>",
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">sans</i>"
    ],
    "answer": 2
   },
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nous arrivons ___ Japon demain.</i> (“We arrive in Japan tomorrow”).",
-   "explain": "<i>Japon</i> is masculine: <i>au</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Nous arrivons ___ Japon demain.</i> (“We arrive in Japan tomorrow”).",
+   "explain": "<i lang=\"fr\">Japon</i> is masculine: <i lang=\"fr\">au</i>.",
    "options": [
-    "<i>en</i>",
-    "<i>au</i>",
-    "<i>à</i>",
-    "<i>dans</i>"
+    "<i lang=\"fr\">en</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">à</i>",
+    "<i lang=\"fr\">dans</i>"
    ],
    "answer": 1
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il a besoin ___ dormir.</i> (“He needs to sleep”).",
-   "explain": "<i>Avoir besoin de</i> before an infinitive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Il a besoin ___ dormir.</i> (“He needs to sleep”).",
+   "explain": "<i lang=\"fr\">Avoir besoin de</i> before an infinitive.",
    "options": [
-    "<i>de</i>",
-    "<i>à</i>",
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">à</i>",
     "no preposition",
-    "<i>pour</i>"
+    "<i lang=\"fr\">pour</i>"
    ],
    "answer": 0
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Elle hésite ___ répondre.</i> (“She hesitates to answer”).",
-   "explain": "<i>Hésiter</i> takes <i>à</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Elle hésite ___ répondre.</i> (“She hesitates to answer”).",
+   "explain": "<i lang=\"fr\">Hésiter</i> takes <i lang=\"fr\">à</i>.",
    "options": [
-    "<i>de</i>",
+    "<i lang=\"fr\">de</i>",
     "no preposition",
-    "<i>pour</i>",
-    "<i>à</i>"
+    "<i lang=\"fr\">pour</i>",
+    "<i lang=\"fr\">à</i>"
    ],
    "answer": 3
   },
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "deck": "lang.iii-indecl.fr/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ils reviennent ___ Mexique.</i> (“They are coming back from Mexico”).",
-   "explain": "<i>Mexique</i> is masculine, so “from” is <i>du</i>.",
+   "prompt": "Choose the form: <i lang=\"fr\">Ils reviennent ___ Mexique.</i> (“They are coming back from Mexico”).",
+   "explain": "<i lang=\"fr\">Mexique</i> is masculine, so “from” is <i lang=\"fr\">du</i>.",
    "options": [
-    "<i>de</i>",
-    "<i>au</i>",
-    "<i>du</i>",
-    "<i>en</i>"
+    "<i lang=\"fr\">de</i>",
+    "<i lang=\"fr\">au</i>",
+    "<i lang=\"fr\">du</i>",
+    "<i lang=\"fr\">en</i>"
    ],
    "answer": 2
   }

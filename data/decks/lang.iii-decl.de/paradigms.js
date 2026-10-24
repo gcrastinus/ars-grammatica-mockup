@@ -9,42 +9,42 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
   {
    "id": "paradigms-1",
    "title": "der, die, das; ein, eine",
-   "body": "<p><strong>der, die, das; ein, eine</strong> (“the”; “a”)</p><p><i>Definite</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">der</td> <td class=\"f\">die</td> <td class=\"f\">das</td> <td class=\"f\">die</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">den</td> <td class=\"f\">die</td> <td class=\"f\">das</td> <td class=\"f\">die</td></tr>\n<tr><td>Dative</td> <td class=\"f\">dem</td> <td class=\"f\">der</td> <td class=\"f\">dem</td> <td class=\"f\">den</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">des</td> <td class=\"f\">der</td> <td class=\"f\">des</td> <td class=\"f\">der</td></tr>\n</table></div><p><i>Indefinite</i> (no plural)</p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">ein</td> <td class=\"f\">eine</td> <td class=\"f\">ein</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">einen</td> <td class=\"f\">eine</td> <td class=\"f\">ein</td></tr>\n<tr><td>Dative</td> <td class=\"f\">einem</td> <td class=\"f\">einer</td> <td class=\"f\">einem</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">eines</td> <td class=\"f\">einer</td> <td class=\"f\">eines</td></tr>\n</table></div>",
+   "body": "<p><strong>der, die, das; ein, eine</strong> (“the”; “a”)</p><p><i lang=\"de\">Definite</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">der</td> <td class=\"f\">die</td> <td class=\"f\">das</td> <td class=\"f\">die</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">den</td> <td class=\"f\">die</td> <td class=\"f\">das</td> <td class=\"f\">die</td></tr>\n<tr><td>Dative</td> <td class=\"f\">dem</td> <td class=\"f\">der</td> <td class=\"f\">dem</td> <td class=\"f\">den</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">des</td> <td class=\"f\">der</td> <td class=\"f\">des</td> <td class=\"f\">der</td></tr>\n</table></div><p><i lang=\"de\">Indefinite</i> (no plural)</p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">ein</td> <td class=\"f\">eine</td> <td class=\"f\">ein</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">einen</td> <td class=\"f\">eine</td> <td class=\"f\">ein</td></tr>\n<tr><td>Dative</td> <td class=\"f\">einem</td> <td class=\"f\">einer</td> <td class=\"f\">einem</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">eines</td> <td class=\"f\">einer</td> <td class=\"f\">eines</td></tr>\n</table></div>",
    "qp": {
     "id": "q-de-par-article",
     "variants": [
      {
-      "prompt": "What is the genitive of <i>die</i> (feminine singular)?",
+      "prompt": "What is the genitive of <i lang=\"de\">die</i> (feminine singular)?",
       "options": [
-       "<i>des</i>",
-       "<i>der</i>",
-       "<i>die</i>",
-       "<i>den</i>"
+       "<i lang=\"de\">des</i>",
+       "<i lang=\"de\">der</i>",
+       "<i lang=\"de\">die</i>",
+       "<i lang=\"de\">den</i>"
       ],
       "answer": 1,
-      "explain": "The feminine genitive and dative are both <i>der</i>."
+      "explain": "The feminine genitive and dative are both <i lang=\"de\">der</i>."
      },
      {
-      "prompt": "What is the dative of <i>eine</i>?",
+      "prompt": "What is the dative of <i lang=\"de\">eine</i>?",
       "options": [
-       "<i>einem</i>",
-       "<i>eine</i>",
-       "<i>einer</i>",
-       "<i>eines</i>"
+       "<i lang=\"de\">einem</i>",
+       "<i lang=\"de\">eine</i>",
+       "<i lang=\"de\">einer</i>",
+       "<i lang=\"de\">eines</i>"
       ],
       "answer": 2,
-      "explain": "The feminine dative of the indefinite article is <i>einer</i>."
+      "explain": "The feminine dative of the indefinite article is <i lang=\"de\">einer</i>."
      },
      {
-      "prompt": "What is the masculine genitive of <i>ein</i>?",
+      "prompt": "What is the masculine genitive of <i lang=\"de\">ein</i>?",
       "options": [
-       "<i>einer</i>",
-       "<i>einem</i>",
-       "<i>einen</i>",
-       "<i>eines</i>"
+       "<i lang=\"de\">einer</i>",
+       "<i lang=\"de\">einem</i>",
+       "<i lang=\"de\">einen</i>",
+       "<i lang=\"de\">eines</i>"
       ],
       "answer": 3,
-      "explain": "<i>Eines</i> is the masculine and neuter genitive."
+      "explain": "<i lang=\"de\">Eines</i> is the masculine and neuter genitive."
      }
     ]
    }
@@ -102,37 +102,37 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
     "id": "q-de-par-mensch",
     "variants": [
      {
-      "prompt": "What is the genitive singular of <i>der Junge</i> (“boy,” weak)?",
+      "prompt": "What is the genitive singular of <i lang=\"de\">der Junge</i> (“boy,” weak)?",
       "options": [
-       "<i>des Junges</i>",
-       "<i>des Junge</i>",
-       "<i>der Jungen</i>",
-       "<i>des Jungen</i>"
+       "<i lang=\"de\">des Junges</i>",
+       "<i lang=\"de\">des Junge</i>",
+       "<i lang=\"de\">der Jungen</i>",
+       "<i lang=\"de\">des Jungen</i>"
       ],
       "answer": 3,
-      "explain": "A weak noun adds <i>-n</i> in every case but the nominative singular."
+      "explain": "A weak noun adds <i lang=\"de\">-n</i> in every case but the nominative singular."
      },
      {
-      "prompt": "What is the nominative plural of <i>der Mensch</i>?",
+      "prompt": "What is the nominative plural of <i lang=\"de\">der Mensch</i>?",
       "options": [
-       "<i>die Menschen</i>",
-       "<i>die Mensche</i>",
-       "<i>die Menscher</i>",
-       "<i>die Mensch</i>"
+       "<i lang=\"de\">die Menschen</i>",
+       "<i lang=\"de\">die Mensche</i>",
+       "<i lang=\"de\">die Menscher</i>",
+       "<i lang=\"de\">die Mensch</i>"
       ],
       "answer": 0,
-      "explain": "The weak noun has <i>-en</i> in every case of the plural."
+      "explain": "The weak noun has <i lang=\"de\">-en</i> in every case of the plural."
      },
      {
-      "prompt": "What is the accusative singular of <i>der Präsident</i> (weak)?",
+      "prompt": "What is the accusative singular of <i lang=\"de\">der Präsident</i> (weak)?",
       "options": [
-       "<i>den Präsident</i>",
-       "<i>den Präsidenten</i>",
-       "<i>dem Präsident</i>",
-       "<i>den Präsidents</i>"
+       "<i lang=\"de\">den Präsident</i>",
+       "<i lang=\"de\">den Präsidenten</i>",
+       "<i lang=\"de\">dem Präsident</i>",
+       "<i lang=\"de\">den Präsidents</i>"
       ],
       "answer": 1,
-      "explain": "<i>Präsident</i> is weak: <i>den Präsidenten</i>."
+      "explain": "<i lang=\"de\">Präsident</i> is weak: <i lang=\"de\">den Präsidenten</i>."
      }
     ]
    }
@@ -145,42 +145,42 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
   {
    "id": "paradigms-13",
    "title": "gut",
-   "body": "<p><strong>gut</strong> (“good”)</p><p><i>Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">guter</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">gute</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">gute</td></tr>\n<tr><td>Dative</td> <td class=\"f\">gutem</td> <td class=\"f\">guter</td> <td class=\"f\">gutem</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guter</td> <td class=\"f\">guten</td> <td class=\"f\">guter</td></tr>\n</table></div><p><i>Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">guten</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">guten</td></tr>\n<tr><td>Dative</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n</table></div><p><i>Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">guter</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">guten</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">guten</td></tr>\n<tr><td>Dative</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n</table></div>",
+   "body": "<p><strong>gut</strong> (“good”)</p><p><i lang=\"de\">Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">guter</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">gute</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">gute</td></tr>\n<tr><td>Dative</td> <td class=\"f\">gutem</td> <td class=\"f\">guter</td> <td class=\"f\">gutem</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guter</td> <td class=\"f\">guten</td> <td class=\"f\">guter</td></tr>\n</table></div><p><i lang=\"de\">Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">guten</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gute</td> <td class=\"f\">guten</td></tr>\n<tr><td>Dative</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n</table></div><p><i lang=\"de\">Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">guter</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">guten</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">guten</td> <td class=\"f\">gute</td> <td class=\"f\">gutes</td> <td class=\"f\">guten</td></tr>\n<tr><td>Dative</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td> <td class=\"f\">guten</td></tr>\n</table></div>",
    "qp": {
     "id": "q-de-par-gut",
     "variants": [
      {
-      "prompt": "Choose the form: <i>mit ___ Wein</i> (“with good wine,” no article).",
+      "prompt": "Choose the form: <i lang=\"de\">mit ___ Wein</i> (“with good wine,” no article).",
       "options": [
-       "<i>guten</i>",
-       "<i>guter</i>",
-       "<i>gutes</i>",
-       "<i>gutem</i>"
+       "<i lang=\"de\">guten</i>",
+       "<i lang=\"de\">guter</i>",
+       "<i lang=\"de\">gutes</i>",
+       "<i lang=\"de\">gutem</i>"
       ],
       "answer": 3,
-      "explain": "With no article, the adjective takes the strong ending; masculine dative <i>-em</i>."
+      "explain": "With no article, the adjective takes the strong ending; masculine dative <i lang=\"de\">-em</i>."
      },
      {
-      "prompt": "Choose the form: <i>die ___ Kinder</i> (“the good children”).",
+      "prompt": "Choose the form: <i lang=\"de\">die ___ Kinder</i> (“the good children”).",
       "options": [
-       "<i>guten</i>",
-       "<i>gute</i>",
-       "<i>guter</i>",
-       "<i>gutes</i>"
+       "<i lang=\"de\">guten</i>",
+       "<i lang=\"de\">gute</i>",
+       "<i lang=\"de\">guter</i>",
+       "<i lang=\"de\">gutes</i>"
       ],
       "answer": 0,
-      "explain": "After <i>die</i> in the plural, the weak ending is <i>-en</i>."
+      "explain": "After <i lang=\"de\">die</i> in the plural, the weak ending is <i lang=\"de\">-en</i>."
      },
      {
-      "prompt": "Choose the form: <i>kein ___ Mann</i> (“no good man”).",
+      "prompt": "Choose the form: <i lang=\"de\">kein ___ Mann</i> (“no good man”).",
       "options": [
-       "<i>gute</i>",
-       "<i>guter</i>",
-       "<i>guten</i>",
-       "<i>gutes</i>"
+       "<i lang=\"de\">gute</i>",
+       "<i lang=\"de\">guter</i>",
+       "<i lang=\"de\">guten</i>",
+       "<i lang=\"de\">gutes</i>"
       ],
       "answer": 1,
-      "explain": "After <i>kein</i>, the mixed ending of the masculine nominative is <i>-er</i>."
+      "explain": "After <i lang=\"de\">kein</i>, the mixed ending of the masculine nominative is <i lang=\"de\">-er</i>."
      }
     ]
    }
@@ -188,12 +188,12 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
   {
    "id": "paradigms-14",
    "title": "klein",
-   "body": "<p><strong>klein</strong> (“small”)</p><p><i>Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleine</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleine</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinem</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleinem</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleiner</td></tr>\n</table></div><p><i>Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n</table></div><p><i>Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n</table></div>"
+   "body": "<p><strong>klein</strong> (“small”)</p><p><i lang=\"de\">Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleine</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleine</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinem</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleinem</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleiner</td></tr>\n</table></div><p><i lang=\"de\">Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleine</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n</table></div><p><i lang=\"de\">Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">kleiner</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleine</td> <td class=\"f\">kleines</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td> <td class=\"f\">kleinen</td></tr>\n</table></div>"
   },
   {
    "id": "paradigms-15",
    "title": "groß",
-   "body": "<p><strong>groß</strong> (“great, large”)</p><p><i>Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">großer</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">große</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">große</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großem</td> <td class=\"f\">großer</td> <td class=\"f\">großem</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großer</td> <td class=\"f\">großen</td> <td class=\"f\">großer</td></tr>\n</table></div><p><i>Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">großen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">großen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n</table></div><p><i>Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">großer</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">großen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">großen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n</table></div>"
+   "body": "<p><strong>groß</strong> (“great, large”)</p><p><i lang=\"de\">Strong endings (no article)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">großer</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">große</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">große</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großem</td> <td class=\"f\">großer</td> <td class=\"f\">großem</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großer</td> <td class=\"f\">großen</td> <td class=\"f\">großer</td></tr>\n</table></div><p><i lang=\"de\">Weak endings (after der, die, das)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">großen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">große</td> <td class=\"f\">großen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n</table></div><p><i lang=\"de\">Mixed endings (after ein, kein, mein)</i></p><div class=\"para-wrap\"><table class=\"para\">\n<tr><th></th> <th>Masculine</th> <th>Feminine</th> <th>Neuter</th> <th>Plural</th></tr>\n<tr><td>Nominative</td> <td class=\"f\">großer</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">großen</td></tr>\n<tr><td>Accusative</td> <td class=\"f\">großen</td> <td class=\"f\">große</td> <td class=\"f\">großes</td> <td class=\"f\">großen</td></tr>\n<tr><td>Dative</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n<tr><td>Genitive</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td> <td class=\"f\">großen</td></tr>\n</table></div>"
   },
   {
    "id": "paradigms-16",
@@ -203,37 +203,37 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
     "id": "q-de-par-pronouns",
     "variants": [
      {
-      "prompt": "What is the dative of <i>du</i>?",
+      "prompt": "What is the dative of <i lang=\"de\">du</i>?",
       "options": [
-       "<i>dich</i>",
-       "<i>dir</i>",
-       "<i>dein</i>",
-       "<i>du</i>"
+       "<i lang=\"de\">dich</i>",
+       "<i lang=\"de\">dir</i>",
+       "<i lang=\"de\">dein</i>",
+       "<i lang=\"de\">du</i>"
       ],
       "answer": 1,
-      "explain": "<i>Du, dich, dir</i>: the dative is <i>dir</i>."
+      "explain": "<i lang=\"de\">Du, dich, dir</i>: the dative is <i lang=\"de\">dir</i>."
      },
      {
-      "prompt": "What is the accusative of <i>er</i>?",
+      "prompt": "What is the accusative of <i lang=\"de\">er</i>?",
       "options": [
-       "<i>ihm</i>",
-       "<i>sein</i>",
-       "<i>ihn</i>",
-       "<i>er</i>"
+       "<i lang=\"de\">ihm</i>",
+       "<i lang=\"de\">sein</i>",
+       "<i lang=\"de\">ihn</i>",
+       "<i lang=\"de\">er</i>"
       ],
       "answer": 2,
-      "explain": "<i>Er, ihn, ihm</i>."
+      "explain": "<i lang=\"de\">Er, ihn, ihm</i>."
      },
      {
-      "prompt": "What is the dative of <i>sie</i> (“they”)?",
+      "prompt": "What is the dative of <i lang=\"de\">sie</i> (“they”)?",
       "options": [
-       "<i>sie</i>",
-       "<i>ihr</i>",
-       "<i>ihm</i>",
-       "<i>ihnen</i>"
+       "<i lang=\"de\">sie</i>",
+       "<i lang=\"de\">ihr</i>",
+       "<i lang=\"de\">ihm</i>",
+       "<i lang=\"de\">ihnen</i>"
       ],
       "answer": 3,
-      "explain": "The dative plural of the third person is <i>ihnen</i>."
+      "explain": "The dative plural of the third person is <i lang=\"de\">ihnen</i>."
      }
     ]
    }
@@ -256,37 +256,37 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
     "id": "q-de-par-werden",
     "variants": [
      {
-      "prompt": "What is the third person singular present of <i>werden</i>?",
+      "prompt": "What is the third person singular present of <i lang=\"de\">werden</i>?",
       "options": [
-       "<i>wird</i>",
-       "<i>werdet</i>",
-       "<i>wirst</i>",
-       "<i>wurde</i>"
+       "<i lang=\"de\">wird</i>",
+       "<i lang=\"de\">werdet</i>",
+       "<i lang=\"de\">wirst</i>",
+       "<i lang=\"de\">wurde</i>"
       ],
       "answer": 0,
-      "explain": "<i>Ich werde, du wirst, er wird</i>."
+      "explain": "<i lang=\"de\">Ich werde, du wirst, er wird</i>."
      },
      {
-      "prompt": "What is the Perfekt of <i>werden</i> as a full verb, third person singular?",
+      "prompt": "What is the Perfekt of <i lang=\"de\">werden</i> as a full verb, third person singular?",
       "options": [
-       "<i>hat geworden</i>",
-       "<i>ist worden</i>",
-       "<i>hat gewurden</i>",
-       "<i>ist geworden</i>"
+       "<i lang=\"de\">hat geworden</i>",
+       "<i lang=\"de\">ist worden</i>",
+       "<i lang=\"de\">hat gewurden</i>",
+       "<i lang=\"de\">ist geworden</i>"
       ],
       "answer": 3,
-      "explain": "As a full verb, “to become,” <i>werden</i> takes <i>sein</i> and the participle <i>geworden</i>."
+      "explain": "As a full verb, “to become,” <i lang=\"de\">werden</i> takes <i lang=\"de\">sein</i> and the participle <i lang=\"de\">geworden</i>."
      },
      {
-      "prompt": "What is the second person plural present of <i>werden</i>?",
+      "prompt": "What is the second person plural present of <i lang=\"de\">werden</i>?",
       "options": [
-       "<i>werden</i>",
-       "<i>wirst</i>",
-       "<i>werdet</i>",
-       "<i>würdet</i>"
+       "<i lang=\"de\">werden</i>",
+       "<i lang=\"de\">wirst</i>",
+       "<i lang=\"de\">werdet</i>",
+       "<i lang=\"de\">würdet</i>"
       ],
       "answer": 2,
-      "explain": "<i>Ihr werdet</i>; <i>würdet</i> is the Konjunktiv II."
+      "explain": "<i lang=\"de\">Ihr werdet</i>; <i lang=\"de\">würdet</i> is the Konjunktiv II."
      }
     ]
    }
@@ -304,37 +304,37 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
     "id": "q-de-par-sprechen",
     "variants": [
      {
-      "prompt": "What is the Präteritum, first person plural, of <i>sprechen</i>?",
+      "prompt": "What is the Präteritum, first person plural, of <i lang=\"de\">sprechen</i>?",
       "options": [
-       "<i>sprechten</i>",
-       "<i>sprichen</i>",
-       "<i>gesprochen</i>",
-       "<i>sprachen</i>"
+       "<i lang=\"de\">sprechten</i>",
+       "<i lang=\"de\">sprichen</i>",
+       "<i lang=\"de\">gesprochen</i>",
+       "<i lang=\"de\">sprachen</i>"
       ],
       "answer": 3,
-      "explain": "<i>Sprechen, sprach, gesprochen</i>: <i>wir sprachen</i>."
+      "explain": "<i lang=\"de\">Sprechen, sprach, gesprochen</i>: <i lang=\"de\">wir sprachen</i>."
      },
      {
-      "prompt": "What is the second person singular present of <i>sprechen</i>?",
+      "prompt": "What is the second person singular present of <i lang=\"de\">sprechen</i>?",
       "options": [
-       "<i>sprichst</i>",
-       "<i>sprechst</i>",
-       "<i>sprachst</i>",
-       "<i>spricht</i>"
+       "<i lang=\"de\">sprichst</i>",
+       "<i lang=\"de\">sprechst</i>",
+       "<i lang=\"de\">sprachst</i>",
+       "<i lang=\"de\">spricht</i>"
       ],
       "answer": 0,
-      "explain": "<i>Sprechen</i> changes <i>e</i> to <i>i</i>: <i>du sprichst</i>."
+      "explain": "<i lang=\"de\">Sprechen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">i</i>: <i lang=\"de\">du sprichst</i>."
      },
      {
-      "prompt": "What is the Konjunktiv II, first person singular, of <i>sprechen</i>?",
+      "prompt": "What is the Konjunktiv II, first person singular, of <i lang=\"de\">sprechen</i>?",
       "options": [
-       "<i>spreche</i>",
-       "<i>spräche</i>",
-       "<i>sprach</i>",
-       "<i>sprache</i>"
+       "<i lang=\"de\">spreche</i>",
+       "<i lang=\"de\">spräche</i>",
+       "<i lang=\"de\">sprach</i>",
+       "<i lang=\"de\">sprache</i>"
       ],
       "answer": 1,
-      "explain": "<i>Sprach</i> with umlaut and <i>-e</i>: <i>spräche</i>."
+      "explain": "<i lang=\"de\">Sprach</i> with umlaut and <i lang=\"de\">-e</i>: <i lang=\"de\">spräche</i>."
      }
     ]
    }

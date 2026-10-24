@@ -95,13 +95,13 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>μῆνιν ἄειδε θεά</i> (<i>Iliad</i> I.1), why is the first syllable long?",
-   "explain": "<i>Η</i> is always long.",
+   "prompt": "In <i lang=\"grc\">μῆνιν ἄειδε θεά</i> (<i lang=\"grc\">Iliad</i> I.1), why is the first syllable long?",
+   "explain": "<i lang=\"grc\">Η</i> is always long.",
    "options": [
-    "By position: <i>ν</i> and <i>ν</i> follow",
+    "By position: <i lang=\"grc\">ν</i> and <i lang=\"grc\">ν</i> follow",
     "Because of the circumflex",
     "It is short",
-    "By nature: its vowel <i>η</i> is long"
+    "By nature: its vowel <i lang=\"grc\">η</i> is long"
    ],
    "answer": 3
   },
@@ -111,11 +111,11 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>ἄνδρα μοι ἔννεπε</i> (<i>Odyssey</i> I.1), why is <i>ἄν</i> long?",
+   "prompt": "In <i lang=\"grc\">ἄνδρα μοι ἔννεπε</i> (<i lang=\"grc\">Odyssey</i> I.1), why is <i lang=\"grc\">ἄν</i> long?",
    "explain": "A short vowel before two consonants makes a long syllable.",
    "options": [
-    "By position: <i>ν</i> and <i>δ</i> follow",
-    "By nature: <i>α</i> is always long",
+    "By position: <i lang=\"grc\">ν</i> and <i lang=\"grc\">δ</i> follow",
+    "By nature: <i lang=\"grc\">α</i> is always long",
     "Because of the accent",
     "Because of the breathing"
    ],
@@ -127,8 +127,8 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Scan <i>ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλά</i> (<i>Odyssey</i> I.1). What are the first five feet?",
-   "explain": "<i>Ἄνδρα μοι | ἔννεπε | μοῦσα πο|λύτροπον | ὃς μάλα | πολλά</i>.",
+   "prompt": "Scan <i lang=\"grc\">ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλά</i> (<i lang=\"grc\">Odyssey</i> I.1). What are the first five feet?",
+   "explain": "<i lang=\"grc\">Ἄνδρα μοι | ἔννεπε | μοῦσα πο|λύτροπον | ὃς μάλα | πολλά</i>.",
    "options": [
     "DSDDD",
     "DDDDD",
@@ -143,8 +143,8 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Scan <i>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος</i> (<i>Iliad</i> I.1). What are the first five feet?",
-   "explain": "<i>Μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</i>.",
+   "prompt": "Scan <i lang=\"grc\">μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος</i> (<i lang=\"grc\">Iliad</i> I.1). What are the first five feet?",
+   "explain": "<i lang=\"grc\">Μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</i>.",
    "options": [
     "DDDDD",
     "SDSDD",
@@ -159,7 +159,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>Πηληϊάδεω</i>, <i>-εω</i> is pronounced as one syllable. What is this called?",
+   "prompt": "In <i lang=\"grc\">Πηληϊάδεω</i>, <i lang=\"grc\">-εω</i> is pronounced as one syllable. What is this called?",
    "explain": "Two vowels run together into one syllable without being written as one.",
    "options": [
     "Elision",
@@ -175,8 +175,8 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Scan <i>οὐλομένην, ἣ μυρί’ Ἀχαιοῖς ἄλγε’ ἔθηκε</i> (<i>Iliad</i> I.2). What are the first five feet?",
-   "explain": "<i>Οὐλομέ|νην ἣ | μυρί’ Ἀ|χαιοῖς | ἄλγε’ ἔ|θηκε</i>.",
+   "prompt": "Scan <i lang=\"grc\">οὐλομένην, ἣ μυρί’ Ἀχαιοῖς ἄλγε’ ἔθηκε</i> (<i lang=\"grc\">Iliad</i> I.2). What are the first five feet?",
+   "explain": "<i lang=\"grc\">Οὐλομέ|νην ἣ | μυρί’ Ἀ|χαιοῖς | ἄλγε’ ἔ|θηκε</i>.",
    "options": [
     "DDDSD",
     "DSDSD",
@@ -191,8 +191,8 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What does the mark in <i>μυρί’</i> and <i>ἄλγε’</i> show?",
-   "explain": "The final <i>α</i> and <i>ε</i> are elided before the next vowel.",
+   "prompt": "What does the mark in <i lang=\"grc\">μυρί’</i> and <i lang=\"grc\">ἄλγε’</i> show?",
+   "explain": "The final <i lang=\"grc\">α</i> and <i lang=\"grc\">ε</i> are elided before the next vowel.",
    "options": [
     "A final vowel elided before a vowel",
     "A letter dropped from the middle of the word",
@@ -207,10 +207,10 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>ἄνδρα μοι ἔννεπε</i>, why is <i>μοι</i> short before <i>ἔ-</i>?",
+   "prompt": "In <i lang=\"grc\">ἄνδρα μοι ἔννεπε</i>, why is <i lang=\"grc\">μοι</i> short before <i lang=\"grc\">ἔ-</i>?",
    "explain": "A long final vowel or diphthong is often shortened before a vowel.",
    "options": [
-    "<i>Οι</i> is always short",
+    "<i lang=\"grc\">Οι</i> is always short",
     "It is elided",
     "It is enclitic, so it has no quantity of its own",
     "Epic correption: a final diphthong shortens before a vowel"
@@ -223,12 +223,12 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Where does the caesura fall in <i>Odyssey</i> I.1?",
+   "prompt": "Where does the caesura fall in <i lang=\"grc\">Odyssey</i> I.1?",
    "explain": "The word end after the second syllable of the third foot is the caesura.",
    "options": [
-    "After <i>ἄνδρα</i>, inside the first foot",
-    "After <i>ὃς</i>, inside the fifth foot",
-    "After <i>μοῦσα</i>, inside the third foot",
+    "After <i lang=\"grc\">ἄνδρα</i>, inside the first foot",
+    "After <i lang=\"grc\">ὃς</i>, inside the fifth foot",
+    "After <i lang=\"grc\">μοῦσα</i>, inside the third foot",
     "There is none"
    ],
    "answer": 2
@@ -271,7 +271,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>Odyssey</i> I.1, which foot does <i>πολλά</i> fill?",
+   "prompt": "In <i lang=\"grc\">Odyssey</i> I.1, which foot does <i lang=\"grc\">πολλά</i> fill?",
    "explain": "It is the last foot of two syllables.",
    "options": [
     "The fifth",
@@ -287,8 +287,8 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>ὃς μάλα</i> (<i>Odyssey</i> I.1), what foot do these words make?",
-   "explain": "<i>Ὃς</i> is long by position before <i>μ</i>, and <i>μά-λα</i> are short.",
+   "prompt": "In <i lang=\"grc\">ὃς μάλα</i> (<i lang=\"grc\">Odyssey</i> I.1), what foot do these words make?",
+   "explain": "<i lang=\"grc\">Ὃς</i> is long by position before <i lang=\"grc\">μ</i>, and <i lang=\"grc\">μά-λα</i> are short.",
    "options": [
     "A spondee",
     "An iamb",
@@ -319,7 +319,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How may a short vowel before a mute and a liquid, as in <i>πατρός</i>, be counted?",
+   "prompt": "How may a short vowel before a mute and a liquid, as in <i lang=\"grc\">πατρός</i>, be counted?",
    "explain": "A mute and a liquid may or may not make position.",
    "options": [
     "Always long",
@@ -335,12 +335,12 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "deck": "lang.ii.grc/hexameter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In <i>οὐλομένην, ἣ</i>, why is <i>νην</i> long?",
-   "explain": "<i>Η</i> is long; the spondee is <i>νην ἣ</i>.",
+   "prompt": "In <i lang=\"grc\">οὐλομένην, ἣ</i>, why is <i lang=\"grc\">νην</i> long?",
+   "explain": "<i lang=\"grc\">Η</i> is long; the spondee is <i lang=\"grc\">νην ἣ</i>.",
    "options": [
-    "By position only, before the <i>ἣ</i> that follows",
+    "By position only, before the <i lang=\"grc\">ἣ</i> that follows",
     "It is elided",
-    "By nature: its vowel <i>η</i> is long",
+    "By nature: its vowel <i lang=\"grc\">η</i> is long",
     "It is short"
    ],
    "answer": 2

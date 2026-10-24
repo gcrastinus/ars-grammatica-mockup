@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Hund (“dog”)</i>.",
-   "explain": "<i>Hund</i> takes <i>-e</i> without umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Hund (“dog”)</i>.",
+   "explain": "<i lang=\"de\">Hund</i> takes <i lang=\"de\">-e</i> without umlaut.",
    "accept": [
     "Hunde"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Lampe (“lamp”)</i>.",
-   "explain": "A feminine noun in <i>-e</i> takes <i>-n</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Lampe (“lamp”)</i>.",
+   "explain": "A feminine noun in <i lang=\"de\">-e</i> takes <i lang=\"de\">-n</i>.",
    "accept": [
     "Lampen"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Kind (“child”)</i>.",
-   "explain": "<i>Kind</i> takes <i>-er</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Kind (“child”)</i>.",
+   "explain": "<i lang=\"de\">Kind</i> takes <i lang=\"de\">-er</i>.",
    "accept": [
     "Kinder"
    ]
@@ -51,8 +51,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Lehrer (“teacher”)</i>.",
-   "explain": "A masculine noun in <i>-er</i> usually takes no ending.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Lehrer (“teacher”)</i>.",
+   "explain": "A masculine noun in <i lang=\"de\">-er</i> usually takes no ending.",
    "accept": [
     "Lehrer"
    ]
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Auto (“car”)</i>.",
-   "explain": "A short word in <i>-o</i> takes <i>-s</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Auto (“car”)</i>.",
+   "explain": "A short word in <i lang=\"de\">-o</i> takes <i lang=\"de\">-s</i>.",
    "accept": [
     "Autos"
    ]
@@ -75,8 +75,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Zeitung (“newspaper”)</i>.",
-   "explain": "Feminine nouns in <i>-ung</i> take <i>-en</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Zeitung (“newspaper”)</i>.",
+   "explain": "Feminine nouns in <i lang=\"de\">-ung</i> take <i lang=\"de\">-en</i>.",
    "accept": [
     "Zeitungen"
    ]
@@ -87,8 +87,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Stuhl (“chair”)</i>.",
-   "explain": "<i>Stuhl</i> takes <i>-e</i> with umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Stuhl (“chair”)</i>.",
+   "explain": "<i lang=\"de\">Stuhl</i> takes <i lang=\"de\">-e</i> with umlaut.",
    "accept": [
     "Stühle"
    ]
@@ -99,8 +99,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Mädchen (“girl”)</i>.",
-   "explain": "Nouns in <i>-chen</i> take no ending.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Mädchen (“girl”)</i>.",
+   "explain": "Nouns in <i lang=\"de\">-chen</i> take no ending.",
    "accept": [
     "Mädchen"
    ]
@@ -111,8 +111,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Hand (“hand”)</i>.",
-   "explain": "<i>Hand</i> takes <i>-e</i> with umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Hand (“hand”)</i>.",
+   "explain": "<i lang=\"de\">Hand</i> takes <i lang=\"de\">-e</i> with umlaut.",
    "accept": [
     "Hände"
    ]
@@ -123,8 +123,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Dorf (“village”)</i>.",
-   "explain": "<i>Dorf</i> takes <i>-er</i> with umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Dorf (“village”)</i>.",
+   "explain": "<i lang=\"de\">Dorf</i> takes <i lang=\"de\">-er</i> with umlaut.",
    "accept": [
     "Dörfer"
    ]
@@ -135,8 +135,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Vogel (“bird”)</i>.",
-   "explain": "<i>Vogel</i> takes no ending but the umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Vogel (“bird”)</i>.",
+   "explain": "<i lang=\"de\">Vogel</i> takes no ending but the umlaut.",
    "accept": [
     "Vögel"
    ]
@@ -147,8 +147,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Lehrerin (“teacher,” feminine)</i>.",
-   "explain": "Nouns in <i>-in</i> double the <i>n</i> and add <i>-en</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Lehrerin (“teacher,” feminine)</i>.",
+   "explain": "Nouns in <i lang=\"de\">-in</i> double the <i lang=\"de\">n</i> and add <i lang=\"de\">-en</i>.",
    "accept": [
     "Lehrerinnen"
    ]
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Tür (“door”)</i>.",
-   "explain": "<i>Tür</i> takes <i>-en</i>; the umlaut is already in the singular.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Tür (“door”)</i>.",
+   "explain": "<i lang=\"de\">Tür</i> takes <i lang=\"de\">-en</i>; the umlaut is already in the singular.",
    "accept": [
     "Türen"
    ]
@@ -171,8 +171,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Hotel (“hotel”)</i>.",
-   "explain": "Many borrowed words take <i>-s</i>.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Hotel (“hotel”)</i>.",
+   "explain": "Many borrowed words take <i lang=\"de\">-s</i>.",
    "accept": [
     "Hotels"
    ]
@@ -184,11 +184,11 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which plural never takes the umlaut?",
-   "explain": "<i>Blumen</i>, <i>Staaten</i>: the plural in <i>-(e)n</i> keeps the vowel unchanged.",
+   "explain": "<i lang=\"de\">Blumen</i>, <i lang=\"de\">Staaten</i>: the plural in <i lang=\"de\">-(e)n</i> keeps the vowel unchanged.",
    "options": [
-    "The plural in <i>-(e)n</i>",
-    "The plural in <i>-e</i>",
-    "The plural in <i>-er</i>",
+    "The plural in <i lang=\"de\">-(e)n</i>",
+    "The plural in <i lang=\"de\">-e</i>",
+    "The plural in <i lang=\"de\">-er</i>",
     "The plural with no ending"
    ],
    "answer": 0
@@ -199,13 +199,13 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>mit den ___</i> (“with the birds”).",
-   "explain": "The dative plural adds <i>-n</i> to <i>Vögel</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">mit den ___</i> (“with the birds”).",
+   "explain": "The dative plural adds <i lang=\"de\">-n</i> to <i lang=\"de\">Vögel</i>.",
    "options": [
-    "<i>Vögel</i>",
-    "<i>Vögeln</i>",
-    "<i>Vogeln</i>",
-    "<i>Vögels</i>"
+    "<i lang=\"de\">Vögel</i>",
+    "<i lang=\"de\">Vögeln</i>",
+    "<i lang=\"de\">Vogeln</i>",
+    "<i lang=\"de\">Vögels</i>"
    ],
    "answer": 1
   },
@@ -215,8 +215,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>die Mutter (“mother”)</i>.",
-   "explain": "<i>Mutter</i> takes no ending but the umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">die Mutter (“mother”)</i>.",
+   "explain": "<i lang=\"de\">Mutter</i> takes no ending but the umlaut.",
    "accept": [
     "Mütter"
    ]
@@ -227,8 +227,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Wald (“forest”)</i>.",
-   "explain": "<i>Wald</i> takes <i>-er</i> with umlaut.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Wald (“forest”)</i>.",
+   "explain": "<i lang=\"de\">Wald</i> takes <i lang=\"de\">-er</i> with umlaut.",
    "accept": [
     "Wälder"
    ]
@@ -239,8 +239,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Staat (“state”)</i>.",
-   "explain": "<i>Staat</i> takes <i>-en</i>, though it is masculine.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Staat (“state”)</i>.",
+   "explain": "<i lang=\"de\">Staat</i> takes <i lang=\"de\">-en</i>, though it is masculine.",
    "accept": [
     "Staaten"
    ]
@@ -251,8 +251,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>das Zimmer (“room”)</i>.",
-   "explain": "A neuter noun in <i>-er</i> takes no ending.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">das Zimmer (“room”)</i>.",
+   "explain": "A neuter noun in <i lang=\"de\">-er</i> takes no ending.",
    "accept": [
     "Zimmer"
    ]
@@ -263,13 +263,13 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>in den ___</i> (“in the villages”).",
-   "explain": "The dative plural adds <i>-n</i> to <i>Dörfer</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">in den ___</i> (“in the villages”).",
+   "explain": "The dative plural adds <i lang=\"de\">-n</i> to <i lang=\"de\">Dörfer</i>.",
    "options": [
-    "<i>Dörfer</i>",
-    "<i>Dorfen</i>",
-    "<i>Dörfen</i>",
-    "<i>Dörfern</i>"
+    "<i lang=\"de\">Dörfer</i>",
+    "<i lang=\"de\">Dorfen</i>",
+    "<i lang=\"de\">Dörfen</i>",
+    "<i lang=\"de\">Dörfern</i>"
    ],
    "answer": 3
   },
@@ -279,13 +279,13 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>aus den ___</i> (“out of the cars”).",
-   "explain": "A plural in <i>-s</i> takes no <i>-n</i> in the dative.",
+   "prompt": "Choose the form: <i lang=\"de\">aus den ___</i> (“out of the cars”).",
+   "explain": "A plural in <i lang=\"de\">-s</i> takes no <i lang=\"de\">-n</i> in the dative.",
    "options": [
-    "<i>Autosn</i>",
-    "<i>Autoen</i>",
-    "<i>Autos</i>",
-    "<i>Auton</i>"
+    "<i lang=\"de\">Autosn</i>",
+    "<i lang=\"de\">Autoen</i>",
+    "<i lang=\"de\">Autos</i>",
+    "<i lang=\"de\">Auton</i>"
    ],
    "answer": 2
   },
@@ -296,11 +296,11 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which plural do most feminine nouns take?",
-   "explain": "<i>Die Straße, die Straßen</i>; <i>die Zeitung, die Zeitungen</i>.",
+   "explain": "<i lang=\"de\">Die Straße, die Straßen</i>; <i lang=\"de\">die Zeitung, die Zeitungen</i>.",
    "options": [
-    "<i>-er</i>",
-    "<i>-(e)n</i>",
-    "<i>-e</i> with umlaut",
+    "<i lang=\"de\">-er</i>",
+    "<i lang=\"de\">-(e)n</i>",
+    "<i lang=\"de\">-e</i> with umlaut",
     "No ending at all"
    ],
    "answer": 1
@@ -311,8 +311,8 @@ ARS.exercises["lang.iii-decl.de/plurals-ex"] = {
    "deck": "lang.iii-decl.de/plurals-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the nominative plural of <i>der Kollege (“colleague,” weak)</i>.",
-   "explain": "A weak masculine noun takes <i>-n</i> or <i>-en</i> in the plural.",
+   "prompt": "Write the nominative plural of <i lang=\"de\">der Kollege (“colleague,” weak)</i>.",
+   "explain": "A weak masculine noun takes <i lang=\"de\">-n</i> or <i lang=\"de\">-en</i> in the plural.",
    "accept": [
     "Kollegen"
    ]

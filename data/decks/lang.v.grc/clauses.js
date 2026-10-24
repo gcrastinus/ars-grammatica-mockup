@@ -9,12 +9,12 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "relative",
    "title": "Relative and causal clauses",
-   "body": "<p>A relative clause, introduced by <i>ὅς</i>, <i>ἥ</i>, <i>ὅ</i>, describes a noun of the main clause, as we have seen: <i>ἡ γυνὴ ἣν ὁρῶμεν</i> (“the woman whom we see”). A causal clause is introduced by <i>ὅτι</i> or <i>διότι</i> (“because”) and has the indicative, since it states a fact; its negative is <i>οὐ</i>: <i>χαίρει ὅτι νικᾷ</i> (“he rejoices because he is winning”). A temporal clause is introduced by <i>ὅτε</i> (“when”) or <i>ἐπεί</i> (“when,” “since”): <i>ἐπεὶ ἦλθεν, ἐδείπνησεν</i> (“when he had come, he dined”).</p>",
+   "body": "<p>A relative clause, introduced by <i lang=\"grc\">ὅς</i>, <i lang=\"grc\">ἥ</i>, <i lang=\"grc\">ὅ</i>, describes a noun of the main clause, as we have seen: <i lang=\"grc\">ἡ γυνὴ ἣν ὁρῶμεν</i> (“the woman whom we see”). A causal clause is introduced by <i lang=\"grc\">ὅτι</i> or <i lang=\"grc\">διότι</i> (“because”) and has the indicative, since it states a fact; its negative is <i lang=\"grc\">οὐ</i>: <i lang=\"grc\">χαίρει ὅτι νικᾷ</i> (“he rejoices because he is winning”). A temporal clause is introduced by <i lang=\"grc\">ὅτε</i> (“when”) or <i lang=\"grc\">ἐπεί</i> (“when,” “since”): <i lang=\"grc\">ἐπεὶ ἦλθεν, ἐδείπνησεν</i> (“when he had come, he dined”).</p>",
    "qp": {
     "id": "q-grc-cls-rel",
     "variants": [
      {
-      "prompt": "What mood does a causal clause with <i>ὅτι</i> usually have?",
+      "prompt": "What mood does a causal clause with <i lang=\"grc\">ὅτι</i> usually have?",
       "options": [
        "The indicative",
        "The subjunctive",
@@ -25,7 +25,7 @@ ARS.decks["lang.v.grc/clauses"] = {
       "explain": "A causal clause states a fact, so it has the indicative."
      },
      {
-      "prompt": "What does <i>ἐπεί</i> introduce in <i>ἐπεὶ ἐνίκησαν, ἀπῆλθον</i>?",
+      "prompt": "What does <i lang=\"grc\">ἐπεί</i> introduce in <i lang=\"grc\">ἐπεὶ ἐνίκησαν, ἀπῆλθον</i>?",
       "options": [
        "A condition: “if they had won”",
        "A purpose: “in order that they might win”",
@@ -33,18 +33,18 @@ ARS.decks["lang.v.grc/clauses"] = {
        "A temporal clause: “when they had won”"
       ],
       "answer": 3,
-      "explain": "<i>Ἐπεί</i> introduces a temporal clause."
+      "explain": "<i lang=\"grc\">Ἐπεί</i> introduces a temporal clause."
      },
      {
       "prompt": "Which negative goes with a causal clause in the indicative?",
       "options": [
-       "<i>μή</i>",
-       "<i>μηδέ</i>",
-       "<i>οὐ</i>",
-       "<i>μὴ οὐ</i>"
+       "<i lang=\"grc\">μή</i>",
+       "<i lang=\"grc\">μηδέ</i>",
+       "<i lang=\"grc\">οὐ</i>",
+       "<i lang=\"grc\">μὴ οὐ</i>"
       ],
       "answer": 2,
-      "explain": "A statement of fact takes <i>οὐ</i>."
+      "explain": "A statement of fact takes <i lang=\"grc\">οὐ</i>."
      }
     ]
    }
@@ -52,12 +52,12 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "conditions",
    "title": "Conditions",
-   "body": "<p>Greek distinguishes the kinds of condition more finely than English does, by the mood of the if-clause and by the particle <i>ἄν</i> in the main clause. The negative of the if-clause is always <i>μή</i>.</p>\n<div class=\"para-wrap\"><table class=\"para\">\n<tr><th>Kind</th> <th>If-clause</th> <th>Main clause</th></tr>\n<tr><td>Simple</td> <td><i>εἰ</i> with the indicative</td> <td>indicative</td></tr>\n<tr><td>Future more vivid</td> <td><i>ἐάν</i> with the subjunctive</td> <td>future indicative</td></tr>\n<tr><td>Future less vivid</td> <td><i>εἰ</i> with the optative</td> <td>optative with <i>ἄν</i></td></tr>\n<tr><td>Contrary to fact, present</td> <td><i>εἰ</i> with the imperfect</td> <td>imperfect with <i>ἄν</i></td></tr>\n<tr><td>Contrary to fact, past</td> <td><i>εἰ</i> with the aorist</td> <td>aorist with <i>ἄν</i></td></tr>\n</table></div>\n<p><i>εἰ τοῦτο λέγει, ἀληθῆ λέγει</i> (“if he says this, he speaks the truth”) is simple. <i>ἐὰν ἔλθῃ, ὄψεται τὸν πατέρα</i> (“if he comes, he will see his father”) is future more vivid, and <i>εἰ ἔλθοι, ἴδοι ἂν τὸν πατέρα</i> (“if he should come, he would see his father”) future less vivid. <i>εἰ ἐνταῦθα ἦν, ἑώρα ἂν τὸν πατέρα</i> (“if he were here, he would see his father”) is contrary to fact in the present, and <i>εἰ ἦλθεν, εἶδεν ἂν τὸν πατέρα</i> (“if he had come, he would have seen his father”) contrary to fact in the past.</p>",
+   "body": "<p>Greek distinguishes the kinds of condition more finely than English does, by the mood of the if-clause and by the particle <i lang=\"grc\">ἄν</i> in the main clause. The negative of the if-clause is always <i lang=\"grc\">μή</i>.</p>\n<div class=\"para-wrap\"><table class=\"para\">\n<tr><th>Kind</th> <th>If-clause</th> <th>Main clause</th></tr>\n<tr><td>Simple</td> <td><i lang=\"grc\">εἰ</i> with the indicative</td> <td>indicative</td></tr>\n<tr><td>Future more vivid</td> <td><i lang=\"grc\">ἐάν</i> with the subjunctive</td> <td>future indicative</td></tr>\n<tr><td>Future less vivid</td> <td><i lang=\"grc\">εἰ</i> with the optative</td> <td>optative with <i lang=\"grc\">ἄν</i></td></tr>\n<tr><td>Contrary to fact, present</td> <td><i lang=\"grc\">εἰ</i> with the imperfect</td> <td>imperfect with <i lang=\"grc\">ἄν</i></td></tr>\n<tr><td>Contrary to fact, past</td> <td><i lang=\"grc\">εἰ</i> with the aorist</td> <td>aorist with <i lang=\"grc\">ἄν</i></td></tr>\n</table></div>\n<p><i lang=\"grc\">εἰ τοῦτο λέγει, ἀληθῆ λέγει</i> (“if he says this, he speaks the truth”) is simple. <i lang=\"grc\">ἐὰν ἔλθῃ, ὄψεται τὸν πατέρα</i> (“if he comes, he will see his father”) is future more vivid, and <i lang=\"grc\">εἰ ἔλθοι, ἴδοι ἂν τὸν πατέρα</i> (“if he should come, he would see his father”) future less vivid. <i lang=\"grc\">εἰ ἐνταῦθα ἦν, ἑώρα ἂν τὸν πατέρα</i> (“if he were here, he would see his father”) is contrary to fact in the present, and <i lang=\"grc\">εἰ ἦλθεν, εἶδεν ἂν τὸν πατέρα</i> (“if he had come, he would have seen his father”) contrary to fact in the past.</p>",
    "qp": {
     "id": "q-grc-cls-cond",
     "variants": [
      {
-      "prompt": "What kind of condition is <i>ἐὰν μένῃς, μαθήσῃ</i> (“if you stay, you will learn”)?",
+      "prompt": "What kind of condition is <i lang=\"grc\">ἐὰν μένῃς, μαθήσῃ</i> (“if you stay, you will learn”)?",
       "options": [
        "Future less vivid",
        "Future more vivid",
@@ -65,10 +65,10 @@ ARS.decks["lang.v.grc/clauses"] = {
        "Simple past"
       ],
       "answer": 1,
-      "explain": "<i>Ἐάν</i> with the subjunctive and a future in the main clause is future more vivid."
+      "explain": "<i lang=\"grc\">Ἐάν</i> with the subjunctive and a future in the main clause is future more vivid."
      },
      {
-      "prompt": "What does <i>ἄν</i> with the aorist indicative mark in a main clause?",
+      "prompt": "What does <i lang=\"grc\">ἄν</i> with the aorist indicative mark in a main clause?",
       "options": [
        "What will certainly happen in the future",
        "What happened in fact",
@@ -76,18 +76,18 @@ ARS.decks["lang.v.grc/clauses"] = {
        "A wish for the future"
       ],
       "answer": 2,
-      "explain": "The aorist with <i>ἄν</i> gives the main clause of a past condition contrary to fact."
+      "explain": "The aorist with <i lang=\"grc\">ἄν</i> gives the main clause of a past condition contrary to fact."
      },
      {
       "prompt": "Which negative stands in an if-clause?",
       "options": [
-       "<i>οὐ</i>",
-       "<i>οὐκ</i>",
-       "<i>οὐδέ</i>",
-       "<i>μή</i>"
+       "<i lang=\"grc\">οὐ</i>",
+       "<i lang=\"grc\">οὐκ</i>",
+       "<i lang=\"grc\">οὐδέ</i>",
+       "<i lang=\"grc\">μή</i>"
       ],
       "answer": 3,
-      "explain": "The negative of the if-clause is always <i>μή</i>."
+      "explain": "The negative of the if-clause is always <i lang=\"grc\">μή</i>."
      }
     ]
    }
@@ -95,25 +95,25 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "indirect",
    "title": "Indirect discourse",
-   "body": "<p>Greek reports what someone said or thought in three ways. After <i>λέγω</i> and many other verbs, <i>ὅτι</i> or <i>ὡς</i> (“that”) introduces a clause with the mood and tense of the original words: <i>λέγει ὅτι ὁ παῖς γράφει</i> (“he says that the boy is writing”). After a past tense, the verb may change to the optative of the same tense: <i>εἶπεν ὅτι ὁ παῖς γράφοι</i> (“he said that the boy was writing”).</p>\n<p>After <i>φημί</i> (“say”), <i>νομίζω</i> (“think”), and <i>οἴομαι</i> (“suppose”), the report is an infinitive with its subject in the accusative: <i>φησὶ τὸν παῖδα γράφειν</i> (“he says that the boy is writing”). When the subject of the infinitive is the same as the subject of the main verb, it is not expressed, and a word in agreement with it is nominative: <i>φησὶ σοφὸς εἶναι</i> (“he says that he himself is wise”). After verbs of knowing and perceiving, such as <i>οἶδα</i> (“know”) and <i>ὁρῶ</i> (“see”), the report is a participle: <i>οἶδα τὸν παῖδα γράφοντα</i> (“I know that the boy is writing”). In each construction the tense of the original is kept.</p>",
+   "body": "<p>Greek reports what someone said or thought in three ways. After <i lang=\"grc\">λέγω</i> and many other verbs, <i lang=\"grc\">ὅτι</i> or <i lang=\"grc\">ὡς</i> (“that”) introduces a clause with the mood and tense of the original words: <i lang=\"grc\">λέγει ὅτι ὁ παῖς γράφει</i> (“he says that the boy is writing”). After a past tense, the verb may change to the optative of the same tense: <i lang=\"grc\">εἶπεν ὅτι ὁ παῖς γράφοι</i> (“he said that the boy was writing”).</p>\n<p>After <i lang=\"grc\">φημί</i> (“say”), <i lang=\"grc\">νομίζω</i> (“think”), and <i lang=\"grc\">οἴομαι</i> (“suppose”), the report is an infinitive with its subject in the accusative: <i lang=\"grc\">φησὶ τὸν παῖδα γράφειν</i> (“he says that the boy is writing”). When the subject of the infinitive is the same as the subject of the main verb, it is not expressed, and a word in agreement with it is nominative: <i lang=\"grc\">φησὶ σοφὸς εἶναι</i> (“he says that he himself is wise”). After verbs of knowing and perceiving, such as <i lang=\"grc\">οἶδα</i> (“know”) and <i lang=\"grc\">ὁρῶ</i> (“see”), the report is a participle: <i lang=\"grc\">οἶδα τὸν παῖδα γράφοντα</i> (“I know that the boy is writing”). In each construction the tense of the original is kept.</p>",
    "qp": {
     "id": "q-grc-cls-ind",
     "variants": [
      {
-      "prompt": "Which form completes <i>νομίζει τοὺς Ἕλληνας ______</i> (“he thinks that the Greeks are winning”)?",
+      "prompt": "Which form completes <i lang=\"grc\">νομίζει τοὺς Ἕλληνας ______</i> (“he thinks that the Greeks are winning”)?",
       "options": [
-       "<i>νικῶσι</i>",
-       "<i>νικῶντες</i>",
-       "<i>νικᾶν</i>",
-       "<i>νικῴη</i>"
+       "<i lang=\"grc\">νικῶσι</i>",
+       "<i lang=\"grc\">νικῶντες</i>",
+       "<i lang=\"grc\">νικᾶν</i>",
+       "<i lang=\"grc\">νικῴη</i>"
       ],
       "answer": 2,
-      "explain": "<i>Νομίζω</i> takes the infinitive with its subject in the accusative."
+      "explain": "<i lang=\"grc\">Νομίζω</i> takes the infinitive with its subject in the accusative."
      },
      {
-      "prompt": "In <i>φησὶ πλούσιος εἶναι</i>, why is <i>πλούσιος</i> nominative?",
+      "prompt": "In <i lang=\"grc\">φησὶ πλούσιος εἶναι</i>, why is <i lang=\"grc\">πλούσιος</i> nominative?",
       "options": [
-       "It is the object of <i>φησί</i>",
+       "It is the object of <i lang=\"grc\">φησί</i>",
        "The subject of the infinitive is the speaker himself",
        "It agrees with an understood accusative subject",
        "Infinitives always take the nominative"
@@ -122,12 +122,12 @@ ARS.decks["lang.v.grc/clauses"] = {
       "explain": "When the subject of the infinitive is the subject of the main verb, it is omitted, and a word agreeing with it is nominative."
      },
      {
-      "prompt": "What construction follows <i>ὁρῶ</i> (“I see”) in indirect discourse?",
+      "prompt": "What construction follows <i lang=\"grc\">ὁρῶ</i> (“I see”) in indirect discourse?",
       "options": [
        "A participle",
-       "<i>ἵνα</i> with the subjunctive",
-       "<i>ὥστε</i> with the infinitive",
-       "<i>εἰ</i> with the optative"
+       "<i lang=\"grc\">ἵνα</i> with the subjunctive",
+       "<i lang=\"grc\">ὥστε</i> with the infinitive",
+       "<i lang=\"grc\">εἰ</i> with the optative"
       ],
       "answer": 0,
       "explain": "Verbs of knowing and perceiving take the participle."
@@ -138,7 +138,7 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "absolute",
    "title": "The genitive absolute",
-   "body": "<p>Latin uses the ablative absolute for a noun and participle that are not part of the main construction; Greek, which has no ablative, uses the genitive. <i>τοῦ ἡλίου δύνοντος, οἱ στρατιῶται ἀπῆλθον</i> means “when the sun was setting, the soldiers went away.” The phrase is absolute, that is, “loosed” from the main clause: the sun is neither the subject nor the object of <i>ἀπῆλθον</i>.</p>\n<p>The genitive absolute can express the time, the cause, a condition, or a concession: <i>πολλῶν παρόντων, οὐδεὶς ἐφθέγξατο</i> (“though many were present, no one spoke”). It is used only when the noun is not part of the main clause; when it is, the participle simply agrees with it: <i>οἱ στρατιῶται ἀπιόντες ᾖδον</i> (“the soldiers sang as they went away”).</p>",
+   "body": "<p>Latin uses the ablative absolute for a noun and participle that are not part of the main construction; Greek, which has no ablative, uses the genitive. <i lang=\"grc\">τοῦ ἡλίου δύνοντος, οἱ στρατιῶται ἀπῆλθον</i> means “when the sun was setting, the soldiers went away.” The phrase is absolute, that is, “loosed” from the main clause: the sun is neither the subject nor the object of <i lang=\"grc\">ἀπῆλθον</i>.</p>\n<p>The genitive absolute can express the time, the cause, a condition, or a concession: <i lang=\"grc\">πολλῶν παρόντων, οὐδεὶς ἐφθέγξατο</i> (“though many were present, no one spoke”). It is used only when the noun is not part of the main clause; when it is, the participle simply agrees with it: <i lang=\"grc\">οἱ στρατιῶται ἀπιόντες ᾖδον</i> (“the soldiers sang as they went away”).</p>",
    "qp": {
     "id": "q-grc-cls-abs",
     "variants": [
@@ -156,20 +156,20 @@ ARS.decks["lang.v.grc/clauses"] = {
      {
       "prompt": "Which phrase is a genitive absolute?",
       "options": [
-       "<i>τοῦ πολέμου ὄντος</i>",
-       "<i>τὸν πόλεμον ὄντα</i>",
-       "<i>τοῖς πολέμοις οὖσι</i>",
-       "<i>τῷ πολέμῳ ὄντι</i>"
+       "<i lang=\"grc\">τοῦ πολέμου ὄντος</i>",
+       "<i lang=\"grc\">τὸν πόλεμον ὄντα</i>",
+       "<i lang=\"grc\">τοῖς πολέμοις οὖσι</i>",
+       "<i lang=\"grc\">τῷ πολέμῳ ὄντι</i>"
       ],
       "answer": 0,
       "explain": "Noun and participle both stand in the genitive."
      },
      {
-      "prompt": "Why is there no genitive absolute in <i>οἱ ναῦται πλέοντες ᾖδον</i>?",
+      "prompt": "Why is there no genitive absolute in <i lang=\"grc\">οἱ ναῦται πλέοντες ᾖδον</i>?",
       "options": [
        "The participle is in the present tense, not the aorist",
        "The sailors are the subject of the main verb",
-       "<i>Ναῦται</i> is a first declension noun",
+       "<i lang=\"grc\">Ναῦται</i> is a first declension noun",
        "The sentence has no participle"
       ],
       "answer": 1,
@@ -181,12 +181,12 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "time",
    "title": "Temporal clauses",
-   "body": "<p>A temporal clause tells when the action of the main verb takes place. It is introduced by <i>ἐπεί</i> or <i>ἐπειδή</i> (“when,” “after”), <i>ὅτε</i> (“when”), <i>ἕως</i> (“while,” “until”), or <i>πρίν</i> (“before,” “until”). When the clause refers to one definite act in past time, it takes the indicative, as in English: <i>ἐπειδὴ ἀφίκοντο, ἐδείπνουν</i> (“when they arrived, they dined”).</p>\n<p>When the clause refers to an indefinite future time, or to what happens again and again in present time, the conjunction takes <i>ἄν</i> and the verb is in the subjunctive. <i>Ἄν</i> combines with the conjunction: <i>ὅτε</i> with <i>ἄν</i> becomes <i>ὅταν</i>, and <i>ἐπειδή</i> with <i>ἄν</i> becomes <i>ἐπειδάν</i>. So <i>ὅταν ἔλθῃ, ὄψεσθε αὐτόν</i> means “when he comes, you will see him,” and <i>μενοῦμεν ἕως ἂν ἔλθῃ</i> means “we shall wait until he comes.” When the same kind of clause depends on a past tense and refers to what happened again and again, it takes the optative without <i>ἄν</i>: <i>ὅτε ἔλθοι</i> means “whenever he came.”</p>\n<p><i>Πρίν</i> takes the infinitive when the main clause is affirmative, and then it means “before”: <i>ἀπῆλθον πρὶν ἐκεῖνον ἐλθεῖν</i> (“they went away before he came”). When the main clause is negative, <i>πρίν</i> means “until” and takes a finite verb, as the other temporal conjunctions do: <i>οὐκ ἀπῆλθον πρὶν ἐκεῖνος ἦλθεν</i> (“they did not go away until he came”).</p>",
+   "body": "<p>A temporal clause tells when the action of the main verb takes place. It is introduced by <i lang=\"grc\">ἐπεί</i> or <i lang=\"grc\">ἐπειδή</i> (“when,” “after”), <i lang=\"grc\">ὅτε</i> (“when”), <i lang=\"grc\">ἕως</i> (“while,” “until”), or <i lang=\"grc\">πρίν</i> (“before,” “until”). When the clause refers to one definite act in past time, it takes the indicative, as in English: <i lang=\"grc\">ἐπειδὴ ἀφίκοντο, ἐδείπνουν</i> (“when they arrived, they dined”).</p>\n<p>When the clause refers to an indefinite future time, or to what happens again and again in present time, the conjunction takes <i lang=\"grc\">ἄν</i> and the verb is in the subjunctive. <i lang=\"grc\">Ἄν</i> combines with the conjunction: <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i> becomes <i lang=\"grc\">ὅταν</i>, and <i lang=\"grc\">ἐπειδή</i> with <i lang=\"grc\">ἄν</i> becomes <i lang=\"grc\">ἐπειδάν</i>. So <i lang=\"grc\">ὅταν ἔλθῃ, ὄψεσθε αὐτόν</i> means “when he comes, you will see him,” and <i lang=\"grc\">μενοῦμεν ἕως ἂν ἔλθῃ</i> means “we shall wait until he comes.” When the same kind of clause depends on a past tense and refers to what happened again and again, it takes the optative without <i lang=\"grc\">ἄν</i>: <i lang=\"grc\">ὅτε ἔλθοι</i> means “whenever he came.”</p>\n<p><i lang=\"grc\">Πρίν</i> takes the infinitive when the main clause is affirmative, and then it means “before”: <i lang=\"grc\">ἀπῆλθον πρὶν ἐκεῖνον ἐλθεῖν</i> (“they went away before he came”). When the main clause is negative, <i lang=\"grc\">πρίν</i> means “until” and takes a finite verb, as the other temporal conjunctions do: <i lang=\"grc\">οὐκ ἀπῆλθον πρὶν ἐκεῖνος ἦλθεν</i> (“they did not go away until he came”).</p>",
    "qp": {
     "id": "q-grc-clauses-time",
     "variants": [
      {
-      "prompt": "Which mood follows <i>ὅταν</i>?",
+      "prompt": "Which mood follows <i lang=\"grc\">ὅταν</i>?",
       "options": [
        "The subjunctive",
        "The optative",
@@ -194,10 +194,10 @@ ARS.decks["lang.v.grc/clauses"] = {
        "The infinitive"
       ],
       "answer": 0,
-      "explain": "<i>Ὅταν</i> is <i>ὅτε</i> with <i>ἄν</i>, and <i>ἄν</i> in a temporal clause goes with the subjunctive."
+      "explain": "<i lang=\"grc\">Ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>, and <i lang=\"grc\">ἄν</i> in a temporal clause goes with the subjunctive."
      },
      {
-      "prompt": "What does <i>πρίν</i> with the infinitive mean after an affirmative main clause?",
+      "prompt": "What does <i lang=\"grc\">πρίν</i> with the infinitive mean after an affirmative main clause?",
       "options": [
        "“Until”",
        "“After”",
@@ -205,7 +205,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "“Before”"
       ],
       "answer": 3,
-      "explain": "After an affirmative clause <i>πρίν</i> takes the infinitive and means “before.”"
+      "explain": "After an affirmative clause <i lang=\"grc\">πρίν</i> takes the infinitive and means “before.”"
      },
      {
       "prompt": "When does a temporal clause take the indicative?",
@@ -224,12 +224,12 @@ ARS.decks["lang.v.grc/clauses"] = {
   {
    "id": "alternative",
    "title": "Alternative questions",
-   "body": "<p>An alternative question offers two possibilities and asks which is true. Greek introduces it with <i>πότερον</i> (or <i>πότερα</i>) and puts <i>ἤ</i> (“or”) before the second member: <i>πότερον μένεις ἢ ἀπέρχῃ;</i> (“are you staying or going away?”). <i>Πότερον</i> is not translated; it marks the question as alternative, as <i>utrum</i> does in Latin, and <i>ἤ</i> answers to Latin <i>an</i>.</p>\n<p>An indirect alternative question is introduced by <i>πότερον … ἤ</i> or by <i>εἰ … ἤ</i>. After a primary tense it keeps the mood of the direct question. After a secondary tense its verb may be changed to the optative: <i>ἠρόμην πότερον μένοι ἢ ἀπέρχοιτο</i> (“I asked whether he was staying or going away”).</p>",
+   "body": "<p>An alternative question offers two possibilities and asks which is true. Greek introduces it with <i lang=\"grc\">πότερον</i> (or <i lang=\"grc\">πότερα</i>) and puts <i lang=\"grc\">ἤ</i> (“or”) before the second member: <i lang=\"grc\">πότερον μένεις ἢ ἀπέρχῃ;</i> (“are you staying or going away?”). <i lang=\"grc\">Πότερον</i> is not translated; it marks the question as alternative, as <i lang=\"grc\">utrum</i> does in Latin, and <i lang=\"grc\">ἤ</i> answers to Latin <i lang=\"grc\">an</i>.</p>\n<p>An indirect alternative question is introduced by <i lang=\"grc\">πότερον … ἤ</i> or by <i lang=\"grc\">εἰ … ἤ</i>. After a primary tense it keeps the mood of the direct question. After a secondary tense its verb may be changed to the optative: <i lang=\"grc\">ἠρόμην πότερον μένοι ἢ ἀπέρχοιτο</i> (“I asked whether he was staying or going away”).</p>",
    "qp": {
     "id": "q-grc-clauses-alternative",
     "variants": [
      {
-      "prompt": "What does <i>πότερον</i> mark?",
+      "prompt": "What does <i lang=\"grc\">πότερον</i> mark?",
       "options": [
        "An alternative question",
        "A clause of purpose",
@@ -237,15 +237,15 @@ ARS.decks["lang.v.grc/clauses"] = {
        "A wish"
       ],
       "answer": 0,
-      "explain": "<i>Πότερον … ἤ</i> asks which of two things is true."
+      "explain": "<i lang=\"grc\">Πότερον … ἤ</i> asks which of two things is true."
      },
      {
-      "prompt": "Which Latin word answers to <i>πότερον</i>?",
+      "prompt": "Which Latin word answers to <i lang=\"grc\">πότερον</i>?",
       "options": [
-       "<i>num</i>",
-       "<i>nōnne</i>",
-       "<i>quamquam</i>",
-       "<i>utrum</i>"
+       "<i lang=\"grc\">num</i>",
+       "<i lang=\"grc\">nōnne</i>",
+       "<i lang=\"grc\">quamquam</i>",
+       "<i lang=\"grc\">utrum</i>"
       ],
       "answer": 3,
       "explain": "Both mark the question as alternative and are not translated."

@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>κελεύω</i>.",
-   "explain": "A verb beginning with a single consonant repeats it with <i>ε</i>, and the first perfect adds <i>κα</i>: <i>κε-κέλευ-κα</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i lang=\"grc\">κελεύω</i>.",
+   "explain": "A verb beginning with a single consonant repeats it with <i lang=\"grc\">ε</i>, and the first perfect adds <i lang=\"grc\">κα</i>: <i lang=\"grc\">κε-κέλευ-κα</i>.",
    "accept": [
     "κεκέλευκα"
    ],
@@ -28,8 +28,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>φυτεύω</i> (“I plant”).",
-   "explain": "An aspirate is repeated by the smooth consonant: <i>φ</i> by <i>π</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i lang=\"grc\">φυτεύω</i> (“I plant”).",
+   "explain": "An aspirate is repeated by the smooth consonant: <i lang=\"grc\">φ</i> by <i lang=\"grc\">π</i>.",
    "accept": [
     "πεφύτευκα"
    ],
@@ -41,8 +41,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>ὁρμάω</i> (“I set in motion”).",
-   "explain": "A verb beginning with a vowel lengthens it, and the <i>α</i> of the stem is lengthened to <i>η</i>: <i>ὥρμηκα</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i lang=\"grc\">ὁρμάω</i> (“I set in motion”).",
+   "explain": "A verb beginning with a vowel lengthens it, and the <i lang=\"grc\">α</i> of the stem is lengthened to <i lang=\"grc\">η</i>: <i lang=\"grc\">ὥρμηκα</i>.",
    "accept": [
     "ὥρμηκα"
    ],
@@ -54,8 +54,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, third person singular, of <i>βουλεύω</i>.",
-   "explain": "The perfect reduplicates the first consonant with ε and adds κ: <i>βεβούλευκε(ν)</i>.",
+   "prompt": "Write the perfect active, third person singular, of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The perfect reduplicates the first consonant with ε and adds κ: <i lang=\"grc\">βεβούλευκε(ν)</i>.",
    "accept": [
     "βεβούλευκε",
     "βεβούλευκεν"
@@ -68,8 +68,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "How is <i>ἀπόλωλε</i> best translated?",
-   "explain": "The perfect <i>ἀπόλωλα</i> states the result that remains: “I am ruined, I am lost.”",
+   "prompt": "How is <i lang=\"grc\">ἀπόλωλε</i> best translated?",
+   "explain": "The perfect <i lang=\"grc\">ἀπόλωλα</i> states the result that remains: “I am ruined, I am lost.”",
    "options": [
     "“He is ruined.”",
     "“He ruined.”",
@@ -89,8 +89,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "options": [
     "The augment",
     "Reduplication",
-    "The ending <i>-σα</i>",
-    "The sign <i>-θη-</i>"
+    "The ending <i lang=\"grc\">-σα</i>",
+    "The sign <i lang=\"grc\">-θη-</i>"
    ],
    "answer": 1
   },
@@ -100,8 +100,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>πιστεύω</i>.",
-   "explain": "The perfect reduplicates π with ε and adds κα: <i>πεπίστευκα</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i lang=\"grc\">πιστεύω</i>.",
+   "explain": "The perfect reduplicates π with ε and adds κα: <i lang=\"grc\">πεπίστευκα</i>.",
    "accept": [
     "πεπίστευκα"
    ],
@@ -114,12 +114,12 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which is a first perfect?",
-   "explain": "A first perfect has <i>κ</i>; the others are second perfects.",
+   "explain": "A first perfect has <i lang=\"grc\">κ</i>; the others are second perfects.",
    "options": [
-    "<i>γέγραφα</i>",
-    "<i>λέλοιπα</i>",
-    "<i>πεπόμφαμεν</i>",
-    "<i>πεπαίδευκα</i>"
+    "<i lang=\"grc\">γέγραφα</i>",
+    "<i lang=\"grc\">λέλοιπα</i>",
+    "<i lang=\"grc\">πεπόμφαμεν</i>",
+    "<i lang=\"grc\">πεπαίδευκα</i>"
    ],
    "answer": 3
   },
@@ -129,8 +129,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive, first person singular, of <i>παιδεύω</i>.",
-   "explain": "The perfect middle adds <i>-μαι</i> to the reduplicated stem.",
+   "prompt": "Write the perfect middle and passive, first person singular, of <i lang=\"grc\">παιδεύω</i>.",
+   "explain": "The perfect middle adds <i lang=\"grc\">-μαι</i> to the reduplicated stem.",
    "accept": [
     "πεπαίδευμαι"
    ],
@@ -142,8 +142,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive, third person plural, of <i>βουλεύω</i>.",
-   "explain": "The perfect middle and passive adds the endings directly to the reduplicated stem: <i>βεβούλευνται</i>.",
+   "prompt": "Write the perfect middle and passive, third person plural, of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The perfect middle and passive adds the endings directly to the reduplicated stem: <i lang=\"grc\">βεβούλευνται</i>.",
    "accept": [
     "βεβούλευνται"
    ],
@@ -155,8 +155,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active infinitive of <i>βουλεύω</i>.",
-   "explain": "The perfect active infinitive ends in <i>-κέναι</i>: <i>βεβουλευκέναι</i>.",
+   "prompt": "Write the perfect active infinitive of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The perfect active infinitive ends in <i lang=\"grc\">-κέναι</i>: <i lang=\"grc\">βεβουλευκέναι</i>.",
    "accept": [
     "βεβουλευκέναι"
    ],
@@ -168,8 +168,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive infinitive of <i>βουλεύω</i>.",
-   "explain": "The perfect middle and passive infinitive ends in <i>-σθαι</i>, with the accent on the syllable before it: <i>βεβουλεῦσθαι</i>.",
+   "prompt": "Write the perfect middle and passive infinitive of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The perfect middle and passive infinitive ends in <i lang=\"grc\">-σθαι</i>, with the accent on the syllable before it: <i lang=\"grc\">βεβουλεῦσθαι</i>.",
    "accept": [
     "βεβουλεῦσθαι"
    ],
@@ -181,8 +181,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>ἐπεπαιδεύκεσαν</i> mean?",
-   "explain": "The augment, the reduplication, and <i>-κεσαν</i> mark the pluperfect, third person plural.",
+   "prompt": "What does <i lang=\"grc\">ἐπεπαιδεύκεσαν</i> mean?",
+   "explain": "The augment, the reduplication, and <i lang=\"grc\">-κεσαν</i> mark the pluperfect, third person plural.",
    "options": [
     "“they have educated”",
     "“they had educated”",
@@ -197,8 +197,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the pluperfect active, third person singular, of <i>βουλεύω</i>.",
-   "explain": "The pluperfect adds the augment to the reduplicated stem: <i>ἐβεβουλεύκει</i>.",
+   "prompt": "Write the pluperfect active, third person singular, of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The pluperfect adds the augment to the reduplicated stem: <i lang=\"grc\">ἐβεβουλεύκει</i>.",
    "accept": [
     "ἐβεβουλεύκει"
    ],
@@ -210,13 +210,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>κέκλοφα</i> come from?",
-   "explain": "<i>Κέκλοφα</i> reduplicates κ and changes the stem vowel to ο: the second perfect of <i>κλέπτω</i>.",
+   "prompt": "What does <i lang=\"grc\">κέκλοφα</i> come from?",
+   "explain": "<i lang=\"grc\">Κέκλοφα</i> reduplicates κ and changes the stem vowel to ο: the second perfect of <i lang=\"grc\">κλέπτω</i>.",
    "options": [
-    "<i>καλέω</i>, “I call”",
-    "<i>κλαίω</i>, “I weep”",
-    "<i>κλίνω</i>, “I lean”",
-    "<i>κλέπτω</i>, “I steal”"
+    "<i lang=\"grc\">καλέω</i>, “I call”",
+    "<i lang=\"grc\">κλαίω</i>, “I weep”",
+    "<i lang=\"grc\">κλίνω</i>, “I lean”",
+    "<i lang=\"grc\">κλέπτω</i>, “I steal”"
    ],
    "answer": 3
   },
@@ -226,8 +226,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>κέκτημαι</i> mean?",
-   "explain": "<i>Κέκτημαι</i>, “I have acquired,” is used as a present: “I possess.”",
+   "prompt": "What does <i lang=\"grc\">κέκτημαι</i> mean?",
+   "explain": "<i lang=\"grc\">Κέκτημαι</i>, “I have acquired,” is used as a present: “I possess.”",
    "options": [
     "“I acquired”",
     "“I am acquiring”",
@@ -242,8 +242,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect middle and passive participle, masculine nominative singular, of <i>παιδεύω</i>.",
-   "explain": "The perfect middle participle ends in <i>-μένος</i>.",
+   "prompt": "Write the perfect middle and passive participle, masculine nominative singular, of <i lang=\"grc\">παιδεύω</i>.",
+   "explain": "The perfect middle participle ends in <i lang=\"grc\">-μένος</i>.",
    "accept": [
     "πεπαιδευμένος"
    ],
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What is <i>λέλεκται</i>?",
-   "explain": "<i>Λέλεκται</i>, “it has been said,” is the perfect middle or passive of <i>λέγω</i>.",
+   "prompt": "What is <i lang=\"grc\">λέλεκται</i>?",
+   "explain": "<i lang=\"grc\">Λέλεκται</i>, “it has been said,” is the perfect middle or passive of <i lang=\"grc\">λέγω</i>.",
    "options": [
-    "Perfect middle or passive of <i>λέγω</i>",
-    "Present middle or passive of <i>λέγω</i>",
-    "Aorist passive of <i>λέγω</i>",
-    "Pluperfect active of <i>λέγω</i>"
+    "Perfect middle or passive of <i lang=\"grc\">λέγω</i>",
+    "Present middle or passive of <i lang=\"grc\">λέγω</i>",
+    "Aorist passive of <i lang=\"grc\">λέγω</i>",
+    "Pluperfect active of <i lang=\"grc\">λέγω</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "How does Greek say “they have been sent” from <i>πέμπω</i>, whose stem ends in a consonant?",
-   "explain": "With a consonant stem the third person plural is made with the participle and <i>εἰσί</i>. <i>Ἐπέμφθησαν</i> is the aorist passive, and <i>πεπόμφᾱσι</i> the perfect active.",
+   "prompt": "How does Greek say “they have been sent” from <i lang=\"grc\">πέμπω</i>, whose stem ends in a consonant?",
+   "explain": "With a consonant stem the third person plural is made with the participle and <i lang=\"grc\">εἰσί</i>. <i lang=\"grc\">Ἐπέμφθησαν</i> is the aorist passive, and <i lang=\"grc\">πεπόμφᾱσι</i> the perfect active.",
    "options": [
-    "<i>πέπεμπνται</i>",
-    "<i>ἐπέμφθησαν</i>",
-    "<i>πεπομφότες εἰσί</i>",
-    "<i>πεπεμμένοι εἰσί</i>"
+    "<i lang=\"grc\">πέπεμπνται</i>",
+    "<i lang=\"grc\">ἐπέμφθησαν</i>",
+    "<i lang=\"grc\">πεπομφότες εἰσί</i>",
+    "<i lang=\"grc\">πεπεμμένοι εἰσί</i>"
    ],
    "answer": 3
   },
@@ -287,8 +287,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active, first person singular, of <i>ποιέω</i>.",
-   "explain": "A contract verb lengthens its vowel before κ: <i>πεποίηκα</i>.",
+   "prompt": "Write the perfect active, first person singular, of <i lang=\"grc\">ποιέω</i>.",
+   "explain": "A contract verb lengthens its vowel before κ: <i lang=\"grc\">πεποίηκα</i>.",
    "accept": [
     "πεποίηκα"
    ],
@@ -316,7 +316,7 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "In <i>ὁ πεπαιδευμένος</i>, what is the sense?",
+   "prompt": "In <i lang=\"grc\">ὁ πεπαιδευμένος</i>, what is the sense?",
    "explain": "The perfect middle and passive participle with the article: “the one who has been educated.”",
    "options": [
     "“the man who is educating”",
@@ -332,8 +332,8 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "deck": "lang.iii-decl.grc/perfect-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the perfect active participle, masculine nominative singular, of <i>βουλεύω</i>.",
-   "explain": "The perfect active participle ends in <i>-κώς</i>: <i>βεβουλευκώς</i>.",
+   "prompt": "Write the perfect active participle, masculine nominative singular, of <i lang=\"grc\">βουλεύω</i>.",
+   "explain": "The perfect active participle ends in <i lang=\"grc\">-κώς</i>: <i lang=\"grc\">βεβουλευκώς</i>.",
    "accept": [
     "βεβουλευκώς"
    ],
@@ -346,12 +346,12 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which verb has a perfect best translated by an English present?",
-   "explain": "<i>Ἕστηκα</i>, “I have taken my stand,” means “I stand.”",
+   "explain": "<i lang=\"grc\">Ἕστηκα</i>, “I have taken my stand,” means “I stand.”",
    "options": [
-    "<i>λέλυκα</i>",
-    "<i>γέγραφα</i>",
-    "<i>πεποίηκα</i>",
-    "<i>ἕστηκα</i>"
+    "<i lang=\"grc\">λέλυκα</i>",
+    "<i lang=\"grc\">γέγραφα</i>",
+    "<i lang=\"grc\">πεποίηκα</i>",
+    "<i lang=\"grc\">ἕστηκα</i>"
    ],
    "answer": 3
   }

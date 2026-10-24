@@ -14,37 +14,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-article",
     "variants": [
      {
-      "prompt": "Choose the article: <i>___ heures</i> (“the hours”).",
+      "prompt": "Choose the article: <i lang=\"fr\">___ heures</i> (“the hours”).",
       "options": [
-       "<i>l’</i>",
-       "<i>la</i>",
-       "<i>les</i>",
-       "<i>des</i>"
+       "<i lang=\"fr\">l’</i>",
+       "<i lang=\"fr\">la</i>",
+       "<i lang=\"fr\">les</i>",
+       "<i lang=\"fr\">des</i>"
       ],
       "answer": 2,
-      "explain": "<i>Les</i> serves for both genders in the plural; <i>l’</i> is used only in the singular."
+      "explain": "<i lang=\"fr\">Les</i> serves for both genders in the plural; <i lang=\"fr\">l’</i> is used only in the singular."
      },
      {
-      "prompt": "Choose the form: <i>Il parle ___ professeur</i> (“He speaks to the teacher”).",
+      "prompt": "Choose the form: <i lang=\"fr\">Il parle ___ professeur</i> (“He speaks to the teacher”).",
       "options": [
-       "<i>à le</i>",
-       "<i>au</i>",
-       "<i>du</i>",
-       "<i>aux</i>"
+       "<i lang=\"fr\">à le</i>",
+       "<i lang=\"fr\">au</i>",
+       "<i lang=\"fr\">du</i>",
+       "<i lang=\"fr\">aux</i>"
       ],
       "answer": 1,
-      "explain": "<i>À</i> with <i>le</i> contracts to <i>au</i>."
+      "explain": "<i lang=\"fr\">À</i> with <i lang=\"fr\">le</i> contracts to <i lang=\"fr\">au</i>."
      },
      {
       "prompt": "Which phrases remain two words?",
       "options": [
-       "<i>à la</i> and <i>de la</i>",
-       "<i>au</i> and <i>du</i>",
-       "<i>aux</i> and <i>des</i>",
-       "<i>à le</i> and <i>de le</i>"
+       "<i lang=\"fr\">à la</i> and <i lang=\"fr\">de la</i>",
+       "<i lang=\"fr\">au</i> and <i lang=\"fr\">du</i>",
+       "<i lang=\"fr\">aux</i> and <i lang=\"fr\">des</i>",
+       "<i lang=\"fr\">à le</i> and <i lang=\"fr\">de le</i>"
       ],
       "answer": 0,
-      "explain": "Only <i>le</i> and <i>les</i> contract with <i>à</i> and <i>de</i>."
+      "explain": "Only <i lang=\"fr\">le</i> and <i lang=\"fr\">les</i> contract with <i lang=\"fr\">à</i> and <i lang=\"fr\">de</i>."
      }
     ]
    }
@@ -57,37 +57,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-nouns",
     "variants": [
      {
-      "prompt": "What is the plural of <i>hôpital</i>?",
+      "prompt": "What is the plural of <i lang=\"fr\">hôpital</i>?",
       "options": [
-       "<i>hôpitals</i>",
-       "<i>hôpitaux</i>",
-       "<i>hôpitales</i>",
-       "<i>hôpitau</i>"
+       "<i lang=\"fr\">hôpitals</i>",
+       "<i lang=\"fr\">hôpitaux</i>",
+       "<i lang=\"fr\">hôpitales</i>",
+       "<i lang=\"fr\">hôpitau</i>"
       ],
       "answer": 1,
-      "explain": "Like <i>cheval</i>, most nouns in <i>-al</i> have <i>-aux</i>."
+      "explain": "Like <i lang=\"fr\">cheval</i>, most nouns in <i lang=\"fr\">-al</i> have <i lang=\"fr\">-aux</i>."
      },
      {
-      "prompt": "What is the plural of <i>gâteau</i>?",
+      "prompt": "What is the plural of <i lang=\"fr\">gâteau</i>?",
       "options": [
-       "<i>gâteaus</i>",
-       "<i>gâteals</i>",
-       "<i>gâteaux</i>",
-       "<i>gâteau</i>"
+       "<i lang=\"fr\">gâteaus</i>",
+       "<i lang=\"fr\">gâteals</i>",
+       "<i lang=\"fr\">gâteaux</i>",
+       "<i lang=\"fr\">gâteau</i>"
       ],
       "answer": 2,
-      "explain": "Like <i>cadeau</i>, nouns in <i>-eau</i> take <i>-x</i>."
+      "explain": "Like <i lang=\"fr\">cadeau</i>, nouns in <i lang=\"fr\">-eau</i> take <i lang=\"fr\">-x</i>."
      },
      {
-      "prompt": "What is the feminine of <i>voisin</i> (“neighbor”)?",
+      "prompt": "What is the feminine of <i lang=\"fr\">voisin</i> (“neighbor”)?",
       "options": [
-       "<i>voisinne</i>",
-       "<i>voisinesse</i>",
-       "<i>voisin</i>",
-       "<i>voisine</i>"
+       "<i lang=\"fr\">voisinne</i>",
+       "<i lang=\"fr\">voisinesse</i>",
+       "<i lang=\"fr\">voisin</i>",
+       "<i lang=\"fr\">voisine</i>"
       ],
       "answer": 3,
-      "explain": "Like <i>ami</i>, <i>amie</i>, the feminine adds <i>-e</i>."
+      "explain": "Like <i lang=\"fr\">ami</i>, <i lang=\"fr\">amie</i>, the feminine adds <i lang=\"fr\">-e</i>."
      }
     ]
    }
@@ -100,37 +100,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-adjectives",
     "variants": [
      {
-      "prompt": "What is the feminine singular of <i>dangereux</i> (“dangerous”)?",
+      "prompt": "What is the feminine singular of <i lang=\"fr\">dangereux</i> (“dangerous”)?",
       "options": [
-       "<i>dangereuse</i>",
-       "<i>dangereuxe</i>",
-       "<i>dangereuses</i>",
-       "<i>dangereux</i>"
+       "<i lang=\"fr\">dangereuse</i>",
+       "<i lang=\"fr\">dangereuxe</i>",
+       "<i lang=\"fr\">dangereuses</i>",
+       "<i lang=\"fr\">dangereux</i>"
       ],
       "answer": 0,
-      "explain": "Adjectives in <i>-eux</i> have the feminine in <i>-euse</i>."
+      "explain": "Adjectives in <i lang=\"fr\">-eux</i> have the feminine in <i lang=\"fr\">-euse</i>."
      },
      {
-      "prompt": "Which form of <i>vieux</i> stands before a masculine noun beginning with a vowel?",
+      "prompt": "Which form of <i lang=\"fr\">vieux</i> stands before a masculine noun beginning with a vowel?",
       "options": [
-       "<i>vieux</i>",
-       "<i>vieille</i>",
-       "<i>vielle</i>",
-       "<i>vieil</i>"
+       "<i lang=\"fr\">vieux</i>",
+       "<i lang=\"fr\">vieille</i>",
+       "<i lang=\"fr\">vielle</i>",
+       "<i lang=\"fr\">vieil</i>"
       ],
       "answer": 3,
-      "explain": "<i>Un vieil homme</i>: before a vowel, <i>vieux</i> becomes <i>vieil</i>."
+      "explain": "<i lang=\"fr\">Un vieil homme</i>: before a vowel, <i lang=\"fr\">vieux</i> becomes <i lang=\"fr\">vieil</i>."
      },
      {
-      "prompt": "What is the masculine plural of <i>beau</i>?",
+      "prompt": "What is the masculine plural of <i lang=\"fr\">beau</i>?",
       "options": [
-       "<i>beaus</i>",
-       "<i>bels</i>",
-       "<i>beaux</i>",
-       "<i>belles</i>"
+       "<i lang=\"fr\">beaus</i>",
+       "<i lang=\"fr\">bels</i>",
+       "<i lang=\"fr\">beaux</i>",
+       "<i lang=\"fr\">belles</i>"
       ],
       "answer": 2,
-      "explain": "<i>Beau</i> has <i>-x</i> in the masculine plural."
+      "explain": "<i lang=\"fr\">Beau</i> has <i lang=\"fr\">-x</i> in the masculine plural."
      }
     ]
    }
@@ -148,37 +148,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-etre",
     "variants": [
      {
-      "prompt": "What is the third person plural present of <i>être</i>?",
+      "prompt": "What is the third person plural present of <i lang=\"fr\">être</i>?",
       "options": [
-       "<i>sont</i>",
-       "<i>ont</i>",
-       "<i>sommes</i>",
-       "<i>étaient</i>"
+       "<i lang=\"fr\">sont</i>",
+       "<i lang=\"fr\">ont</i>",
+       "<i lang=\"fr\">sommes</i>",
+       "<i lang=\"fr\">étaient</i>"
       ],
       "answer": 0,
-      "explain": "<i>Ils sont</i>; <i>ils ont</i> is <i>avoir</i>."
+      "explain": "<i lang=\"fr\">Ils sont</i>; <i lang=\"fr\">ils ont</i> is <i lang=\"fr\">avoir</i>."
      },
      {
-      "prompt": "What is the imparfait, third person singular, of <i>être</i>?",
+      "prompt": "What is the imparfait, third person singular, of <i lang=\"fr\">être</i>?",
       "options": [
-       "<i>sera</i>",
-       "<i>est</i>",
-       "<i>soit</i>",
-       "<i>était</i>"
+       "<i lang=\"fr\">sera</i>",
+       "<i lang=\"fr\">est</i>",
+       "<i lang=\"fr\">soit</i>",
+       "<i lang=\"fr\">était</i>"
       ],
       "answer": 3,
-      "explain": "<i>Être</i> has the imparfait stem <i>ét-</i>: <i>il était</i>."
+      "explain": "<i lang=\"fr\">Être</i> has the imparfait stem <i lang=\"fr\">ét-</i>: <i lang=\"fr\">il était</i>."
      },
      {
-      "prompt": "What is the passé composé of <i>être</i>, first person singular?",
+      "prompt": "What is the passé composé of <i lang=\"fr\">être</i>, first person singular?",
       "options": [
-       "<i>je suis été</i>",
-       "<i>j’étais</i>",
-       "<i>j’ai été</i>",
-       "<i>je fus</i>"
+       "<i lang=\"fr\">je suis été</i>",
+       "<i lang=\"fr\">j’étais</i>",
+       "<i lang=\"fr\">j’ai été</i>",
+       "<i lang=\"fr\">je fus</i>"
       ],
       "answer": 2,
-      "explain": "<i>Être</i> itself takes <i>avoir</i>."
+      "explain": "<i lang=\"fr\">Être</i> itself takes <i lang=\"fr\">avoir</i>."
      }
     ]
    }
@@ -191,37 +191,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-avoir",
     "variants": [
      {
-      "prompt": "What is the second person singular present of <i>avoir</i>?",
+      "prompt": "What is the second person singular present of <i lang=\"fr\">avoir</i>?",
       "options": [
-       "<i>a</i>",
-       "<i>es</i>",
-       "<i>avez</i>",
-       "<i>as</i>"
+       "<i lang=\"fr\">a</i>",
+       "<i lang=\"fr\">es</i>",
+       "<i lang=\"fr\">avez</i>",
+       "<i lang=\"fr\">as</i>"
       ],
       "answer": 3,
-      "explain": "<i>J’ai, tu as, il a</i>."
+      "explain": "<i lang=\"fr\">J’ai, tu as, il a</i>."
      },
      {
-      "prompt": "What is the future, third person plural, of <i>avoir</i>?",
+      "prompt": "What is the future, third person plural, of <i lang=\"fr\">avoir</i>?",
       "options": [
-       "<i>auront</i>",
-       "<i>avront</i>",
-       "<i>ont</i>",
-       "<i>auraient</i>"
+       "<i lang=\"fr\">auront</i>",
+       "<i lang=\"fr\">avront</i>",
+       "<i lang=\"fr\">ont</i>",
+       "<i lang=\"fr\">auraient</i>"
       ],
       "answer": 0,
-      "explain": "The future stem of <i>avoir</i> is <i>aur-</i>."
+      "explain": "The future stem of <i lang=\"fr\">avoir</i> is <i lang=\"fr\">aur-</i>."
      },
      {
-      "prompt": "What is the past participle of <i>avoir</i>?",
+      "prompt": "What is the past participle of <i lang=\"fr\">avoir</i>?",
       "options": [
-       "<i>avé</i>",
-       "<i>eu</i>",
-       "<i>avu</i>",
-       "<i>été</i>"
+       "<i lang=\"fr\">avé</i>",
+       "<i lang=\"fr\">eu</i>",
+       "<i lang=\"fr\">avu</i>",
+       "<i lang=\"fr\">été</i>"
       ],
       "answer": 1,
-      "explain": "<i>Avoir</i> has the participle <i>eu</i>: <i>j’ai eu</i>."
+      "explain": "<i lang=\"fr\">Avoir</i> has the participle <i lang=\"fr\">eu</i>: <i lang=\"fr\">j’ai eu</i>."
      }
     ]
    }
@@ -249,37 +249,37 @@ ARS.decks["lang.iii-decl.fr/paradigms"] = {
     "id": "q-fr-par-aller",
     "variants": [
      {
-      "prompt": "What is the first person plural present of <i>aller</i>?",
+      "prompt": "What is the first person plural present of <i lang=\"fr\">aller</i>?",
       "options": [
-       "<i>allons</i>",
-       "<i>vont</i>",
-       "<i>allez</i>",
-       "<i>irons</i>"
+       "<i lang=\"fr\">allons</i>",
+       "<i lang=\"fr\">vont</i>",
+       "<i lang=\"fr\">allez</i>",
+       "<i lang=\"fr\">irons</i>"
       ],
       "answer": 0,
-      "explain": "<i>Aller</i> uses three stems: <i>je vais</i>, <i>nous allons</i>, <i>j’irai</i>."
+      "explain": "<i lang=\"fr\">Aller</i> uses three stems: <i lang=\"fr\">je vais</i>, <i lang=\"fr\">nous allons</i>, <i lang=\"fr\">j’irai</i>."
      },
      {
-      "prompt": "What is the future stem of <i>aller</i>?",
+      "prompt": "What is the future stem of <i lang=\"fr\">aller</i>?",
       "options": [
-       "<i>aller-</i>",
-       "<i>va-</i>",
-       "<i>all-</i>",
-       "<i>ir-</i>"
+       "<i lang=\"fr\">aller-</i>",
+       "<i lang=\"fr\">va-</i>",
+       "<i lang=\"fr\">all-</i>",
+       "<i lang=\"fr\">ir-</i>"
       ],
       "answer": 3,
-      "explain": "<i>J’irai</i>, <i>tu iras</i>."
+      "explain": "<i lang=\"fr\">J’irai</i>, <i lang=\"fr\">tu iras</i>."
      },
      {
-      "prompt": "Which auxiliary does <i>aller</i> take?",
+      "prompt": "Which auxiliary does <i lang=\"fr\">aller</i> take?",
       "options": [
-       "<i>avoir</i>",
-       "<i>faire</i>",
-       "<i>être</i>",
-       "<i>venir</i>"
+       "<i lang=\"fr\">avoir</i>",
+       "<i lang=\"fr\">faire</i>",
+       "<i lang=\"fr\">être</i>",
+       "<i lang=\"fr\">venir</i>"
       ],
       "answer": 2,
-      "explain": "<i>Je suis allé</i>."
+      "explain": "<i lang=\"fr\">Je suis allé</i>."
      }
     ]
    }

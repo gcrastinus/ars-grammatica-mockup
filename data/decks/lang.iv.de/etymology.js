@@ -9,42 +9,42 @@ ARS.decks["lang.iv.de/etymology"] = {
   {
    "id": "shift",
    "title": "German and English: the second sound shift",
-   "body": "<p>German and English are sister languages, both Germanic, and many of their oldest words are cognates: <i>Hand</i> and “hand,” <i>Haus</i> and “house,” <i>gut</i> and “good.” But German went through a further change of its consonants, which English did not, called the second (or High German) sound shift, and it explains most of the differences: English <i>t</i> answers to German <i>z</i> or <i>ss</i> (“ten,” <i>zehn</i>; “tongue,” <i>Zunge</i>; “water,” <i>Wasser</i>), English <i>p</i> to German <i>pf</i> or <i>f</i> (“pound,” <i>Pfund</i>; “apple,” <i>Apfel</i>; “ship,” <i>Schiff</i>), English <i>k</i> to German <i>ch</i> (“make,” <i>machen</i>; “book,” <i>Buch</i>), and English <i>d</i> to German <i>t</i> (“day,” <i>Tag</i>; “daughter,” <i>Tochter</i>). English <i>th</i>, which German lost, appears as <i>d</i>: “thank,” <i>danken</i>; “thing,” <i>Ding</i>.</p>",
+   "body": "<p>German and English are sister languages, both Germanic, and many of their oldest words are cognates: <i lang=\"de\">Hand</i> and “hand,” <i lang=\"de\">Haus</i> and “house,” <i lang=\"de\">gut</i> and “good.” But German went through a further change of its consonants, which English did not, called the second (or High German) sound shift, and it explains most of the differences: English <i lang=\"de\">t</i> answers to German <i lang=\"de\">z</i> or <i lang=\"de\">ss</i> (“ten,” <i lang=\"de\">zehn</i>; “tongue,” <i lang=\"de\">Zunge</i>; “water,” <i lang=\"de\">Wasser</i>), English <i lang=\"de\">p</i> to German <i lang=\"de\">pf</i> or <i lang=\"de\">f</i> (“pound,” <i lang=\"de\">Pfund</i>; “apple,” <i lang=\"de\">Apfel</i>; “ship,” <i lang=\"de\">Schiff</i>), English <i lang=\"de\">k</i> to German <i lang=\"de\">ch</i> (“make,” <i lang=\"de\">machen</i>; “book,” <i lang=\"de\">Buch</i>), and English <i lang=\"de\">d</i> to German <i lang=\"de\">t</i> (“day,” <i lang=\"de\">Tag</i>; “daughter,” <i lang=\"de\">Tochter</i>). English <i lang=\"de\">th</i>, which German lost, appears as <i lang=\"de\">d</i>: “thank,” <i lang=\"de\">danken</i>; “thing,” <i lang=\"de\">Ding</i>.</p>",
    "qp": {
     "id": "q-de-ety-shift",
     "variants": [
      {
       "prompt": "What is the German cognate of English “salt”?",
       "options": [
-       "<i>Salz</i>",
-       "<i>Salt</i>",
-       "<i>Salf</i>",
-       "<i>Sald</i>"
+       "<i lang=\"de\">Salz</i>",
+       "<i lang=\"de\">Salt</i>",
+       "<i lang=\"de\">Salf</i>",
+       "<i lang=\"de\">Sald</i>"
       ],
       "answer": 0,
-      "explain": "English <i>t</i> answers to German <i>z</i>."
+      "explain": "English <i lang=\"de\">t</i> answers to German <i lang=\"de\">z</i>."
      },
      {
       "prompt": "What is the German cognate of English “deep”?",
       "options": [
-       "<i>dief</i>",
-       "<i>tiep</i>",
-       "<i>diep</i>",
-       "<i>tief</i>"
+       "<i lang=\"de\">dief</i>",
+       "<i lang=\"de\">tiep</i>",
+       "<i lang=\"de\">diep</i>",
+       "<i lang=\"de\">tief</i>"
       ],
       "answer": 3,
-      "explain": "English <i>d</i> answers to German <i>t</i>, and <i>p</i> to <i>f</i>."
+      "explain": "English <i lang=\"de\">d</i> answers to German <i lang=\"de\">t</i>, and <i lang=\"de\">p</i> to <i lang=\"de\">f</i>."
      },
      {
       "prompt": "What is the German cognate of English “three”?",
       "options": [
-       "<i>trei</i>",
-       "<i>threi</i>",
-       "<i>drei</i>",
-       "<i>zrei</i>"
+       "<i lang=\"de\">trei</i>",
+       "<i lang=\"de\">threi</i>",
+       "<i lang=\"de\">drei</i>",
+       "<i lang=\"de\">zrei</i>"
       ],
       "answer": 2,
-      "explain": "English <i>th</i> appears as German <i>d</i>."
+      "explain": "English <i lang=\"de\">th</i> appears as German <i lang=\"de\">d</i>."
      }
     ]
    }
@@ -52,23 +52,23 @@ ARS.decks["lang.iv.de/etymology"] = {
   {
    "id": "loans",
    "title": "Words from Latin and French",
-   "body": "<p>German took words from Latin in three waves. From the Romans themselves, along the Rhine and the Danube, came words of building, trade, and the garden, so early and so fully absorbed that they look German: <i>Mauer</i> (“wall,” <i>mūrus</i>), <i>Fenster</i> (<i>fenestra</i>), <i>Straße</i> (<i>strāta</i>), <i>Wein</i> (<i>vīnum</i>), <i>Kirsche</i> (<i>cerasus</i>). From the church and the monastery schools came <i>Schule</i> (<i>schola</i>), <i>schreiben</i> (<i>scrībere</i>), <i>Tafel</i> (<i>tabula</i>), and <i>Kloster</i> (<i>claustrum</i>). And in later centuries came words of learning and of polite life, from Latin and French, which often keep their foreign form: <i>Universität</i>, <i>Restaurant</i>, <i>Onkel</i>, <i>Tante</i>. German grammars distinguish the <i>Lehnwort</i> (“loanword”), fully adapted to German sound and spelling, from the <i>Fremdwort</i> (“foreign word”), which keeps its foreign form.</p>",
+   "body": "<p>German took words from Latin in three waves. From the Romans themselves, along the Rhine and the Danube, came words of building, trade, and the garden, so early and so fully absorbed that they look German: <i lang=\"de\">Mauer</i> (“wall,” <i lang=\"de\">mūrus</i>), <i lang=\"de\">Fenster</i> (<i lang=\"de\">fenestra</i>), <i lang=\"de\">Straße</i> (<i lang=\"de\">strāta</i>), <i lang=\"de\">Wein</i> (<i lang=\"de\">vīnum</i>), <i lang=\"de\">Kirsche</i> (<i lang=\"de\">cerasus</i>). From the church and the monastery schools came <i lang=\"de\">Schule</i> (<i lang=\"de\">schola</i>), <i lang=\"de\">schreiben</i> (<i lang=\"de\">scrībere</i>), <i lang=\"de\">Tafel</i> (<i lang=\"de\">tabula</i>), and <i lang=\"de\">Kloster</i> (<i lang=\"de\">claustrum</i>). And in later centuries came words of learning and of polite life, from Latin and French, which often keep their foreign form: <i lang=\"de\">Universität</i>, <i lang=\"de\">Restaurant</i>, <i lang=\"de\">Onkel</i>, <i lang=\"de\">Tante</i>. German grammars distinguish the <i lang=\"de\">Lehnwort</i> (“loanword”), fully adapted to German sound and spelling, from the <i lang=\"de\">Fremdwort</i> (“foreign word”), which keeps its foreign form.</p>",
    "qp": {
     "id": "q-de-ety-loans",
     "variants": [
      {
-      "prompt": "From which Latin word does <i>Ziegel</i> (“brick”) come?",
+      "prompt": "From which Latin word does <i lang=\"de\">Ziegel</i> (“brick”) come?",
       "options": [
-       "<i>signum</i>",
-       "<i>cēra</i>",
-       "<i>sigillum</i>",
-       "<i>tēgula</i>"
+       "<i lang=\"de\">signum</i>",
+       "<i lang=\"de\">cēra</i>",
+       "<i lang=\"de\">sigillum</i>",
+       "<i lang=\"de\">tēgula</i>"
       ],
       "answer": 3,
-      "explain": "A Roman word of building, adapted early: <i>tēgula</i>, <i>Ziegel</i>."
+      "explain": "A Roman word of building, adapted early: <i lang=\"de\">tēgula</i>, <i lang=\"de\">Ziegel</i>."
      },
      {
-      "prompt": "What is a <i>Lehnwort</i>?",
+      "prompt": "What is a <i lang=\"de\">Lehnwort</i>?",
       "options": [
        "A loanword adapted to German",
        "A word that keeps its foreign form",
@@ -76,18 +76,18 @@ ARS.decks["lang.iv.de/etymology"] = {
        "A word lent to English"
       ],
       "answer": 0,
-      "explain": "<i>Fenster</i> is a <i>Lehnwort</i>; <i>Restaurant</i> is a <i>Fremdwort</i>."
+      "explain": "<i lang=\"de\">Fenster</i> is a <i lang=\"de\">Lehnwort</i>; <i lang=\"de\">Restaurant</i> is a <i lang=\"de\">Fremdwort</i>."
      },
      {
       "prompt": "Which word came into German from Latin through the church schools?",
       "options": [
-       "<i>Mauer</i>",
-       "<i>schreiben</i>",
-       "<i>Restaurant</i>",
-       "<i>Haus</i>"
+       "<i lang=\"de\">Mauer</i>",
+       "<i lang=\"de\">schreiben</i>",
+       "<i lang=\"de\">Restaurant</i>",
+       "<i lang=\"de\">Haus</i>"
       ],
       "answer": 1,
-      "explain": "<i>Scrībere</i> came with the monastery schools; <i>Haus</i> is native."
+      "explain": "<i lang=\"de\">Scrībere</i> came with the monastery schools; <i lang=\"de\">Haus</i> is native."
      }
     ]
    }
@@ -95,12 +95,12 @@ ARS.decks["lang.iv.de/etymology"] = {
   {
    "id": "false-friends",
    "title": "Cognates that drifted apart",
-   "body": "<p>Some German and English words are cognates but have come to mean different things, and a reader must not take the English sense for the German. <i>Bekommen</i> means “to receive,” not “to become” (which is <i>werden</i>). <i>Gift</i> means “poison” (both words are from the verb “to give,” as a dose is given). <i>Tier</i> means any animal, the old sense that English “deer” has narrowed, as we have seen. <i>Zaun</i> is a fence, whereas its cognate “town” was first a fenced place. And <i>Knecht</i> (“servant,” “farmhand”) is the cognate of English “knight,” which rose in standing while the German word did not.</p>",
+   "body": "<p>Some German and English words are cognates but have come to mean different things, and a reader must not take the English sense for the German. <i lang=\"de\">Bekommen</i> means “to receive,” not “to become” (which is <i lang=\"de\">werden</i>). <i lang=\"de\">Gift</i> means “poison” (both words are from the verb “to give,” as a dose is given). <i lang=\"de\">Tier</i> means any animal, the old sense that English “deer” has narrowed, as we have seen. <i lang=\"de\">Zaun</i> is a fence, whereas its cognate “town” was first a fenced place. And <i lang=\"de\">Knecht</i> (“servant,” “farmhand”) is the cognate of English “knight,” which rose in standing while the German word did not.</p>",
    "qp": {
     "id": "q-de-ety-false",
     "variants": [
      {
-      "prompt": "What does <i>Ich bekomme einen Brief</i> mean?",
+      "prompt": "What does <i lang=\"de\">Ich bekomme einen Brief</i> mean?",
       "options": [
        "“I become a letter.”",
        "“I write a letter.”",
@@ -108,10 +108,10 @@ ARS.decks["lang.iv.de/etymology"] = {
        "“I receive a letter.”"
       ],
       "answer": 3,
-      "explain": "<i>Bekommen</i> means “to receive.”"
+      "explain": "<i lang=\"de\">Bekommen</i> means “to receive.”"
      },
      {
-      "prompt": "What does German <i>Tier</i> mean?",
+      "prompt": "What does German <i lang=\"de\">Tier</i> mean?",
       "options": [
        "“animal”",
        "“deer”",
@@ -119,10 +119,10 @@ ARS.decks["lang.iv.de/etymology"] = {
        "“tired”"
       ],
       "answer": 0,
-      "explain": "<i>Tier</i> keeps the old wide sense that English “deer” has narrowed."
+      "explain": "<i lang=\"de\">Tier</i> keeps the old wide sense that English “deer” has narrowed."
      },
      {
-      "prompt": "What is the English cognate of <i>Zaun</i> (“fence”)?",
+      "prompt": "What is the English cognate of <i lang=\"de\">Zaun</i> (“fence”)?",
       "options": [
        "“zone”",
        "“town”",

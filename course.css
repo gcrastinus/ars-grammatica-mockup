@@ -322,6 +322,7 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
   border:1px solid color-mix(in srgb, var(--lang) 55%, var(--line));
 }
 .ex-keys.lang-grc{--lang:#1e3a5f}
+.ex-keys.lang-es{--lang:#a0661c}
 .ex-keys.lang-fr{--lang:#6b4e2e}
 .ex-keys.lang-de{--lang:#3a4550}
 .ex-key:hover,
@@ -329,6 +330,7 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 .ex-key:focus-visible{outline:2px solid var(--lang); outline-offset:1px}
 .ex-key:disabled{opacity:.4; cursor:default}
 body.dark .ex-keys.lang-grc{--lang:#2a5080}
+body.dark .ex-keys.lang-es{--lang:#b5792c}
 body.dark .ex-keys.lang-fr{--lang:#7a5a36}
 body.dark .ex-keys.lang-de{--lang:#4a5560}
 body.dark .ex-key{
@@ -410,6 +412,7 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
 .lang-bar .lang-btn.lang-en{--lang:#3e5c49}
 .lang-bar .lang-btn.lang-la{--lang:#7b2d26}
 .lang-bar .lang-btn.lang-grc{--lang:#1e3a5f}
+.lang-bar .lang-btn.lang-es{--lang:#a0661c}
 .lang-bar .lang-btn.lang-fr{--lang:#6b4e2e}
 .lang-bar .lang-btn.lang-de{--lang:#3a4550}
 .lang-bar .lang-btn:hover,
@@ -442,16 +445,19 @@ body.dark .ex-key:focus-visible{background:color-mix(in srgb, var(--lang) 68%, v
 .lang-en{background:#3e5c49}
 .lang-la{background:#7b2d26}
 .lang-grc{background:#1e3a5f}
+.lang-es{background:#a0661c}
 .lang-fr{background:#6b4e2e}
 .lang-de{background:#3a4550}
 body.dark .lang-en{background:#2c4a3a}
 body.dark .lang-la{background:#8a3a32}
 body.dark .lang-grc{background:#2a5080}
+body.dark .lang-es{background:#b5792c}
 body.dark .lang-fr{background:#7a5a36}
 body.dark .lang-de{background:#4a5560}
 body.dark .lang-bar .lang-btn.lang-en{--lang:#2c4a3a}
 body.dark .lang-bar .lang-btn.lang-la{--lang:#8a3a32}
 body.dark .lang-bar .lang-btn.lang-grc{--lang:#2a5080}
+body.dark .lang-bar .lang-btn.lang-es{--lang:#b5792c}
 body.dark .lang-bar .lang-btn.lang-fr{--lang:#7a5a36}
 body.dark .lang-bar .lang-btn.lang-de{--lang:#4a5560}
 body.dark .lang-bar .lang-btn{
@@ -697,6 +703,7 @@ body{font-size:17px}
 .lang-bar .lang-btn.lang-en{--lang:#3e5c49}
 .lang-bar .lang-btn.lang-la{--lang:#7b2d26}
 .lang-bar .lang-btn.lang-grc{--lang:#1e3a5f}
+.lang-bar .lang-btn.lang-es{--lang:#a0661c}
 .lang-bar .lang-btn.lang-fr{--lang:#6b4e2e}
 .lang-bar .lang-btn.lang-de{--lang:#3a4550}
 .lang-bar .lang-btn:hover,
@@ -712,6 +719,7 @@ body{font-size:17px}
 body.dark .lang-bar .lang-btn.lang-en{--lang:#2c4a3a}
 body.dark .lang-bar .lang-btn.lang-la{--lang:#8a3a32}
 body.dark .lang-bar .lang-btn.lang-grc{--lang:#2a5080}
+body.dark .lang-bar .lang-btn.lang-es{--lang:#b5792c}
 body.dark .lang-bar .lang-btn.lang-fr{--lang:#7a5a36}
 body.dark .lang-bar .lang-btn.lang-de{--lang:#4a5560}
 body.dark .lang-bar .lang-btn{

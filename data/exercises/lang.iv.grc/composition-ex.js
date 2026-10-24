@@ -15,8 +15,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>φιλόπατρις</i> mean?",
-   "explain": "A governing compound: <i>φιλ-</i> acts on <i>πατρίς</i>.",
+   "prompt": "What does <i lang=\"grc\">φιλόπατρις</i> mean?",
+   "explain": "A governing compound: <i lang=\"grc\">φιλ-</i> acts on <i lang=\"grc\">πατρίς</i>.",
    "options": [
     "“loving one’s country”",
     "“a country of friends”",
@@ -31,12 +31,12 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What vowel joins <i>θεο-</i> and <i>λόγος</i> in <i>θεολόγος</i>?",
-   "explain": "Greek joins its compounds with <i>-ο-</i>.",
+   "prompt": "What vowel joins <i lang=\"grc\">θεο-</i> and <i lang=\"grc\">λόγος</i> in <i lang=\"grc\">θεολόγος</i>?",
+   "explain": "Greek joins its compounds with <i lang=\"grc\">-ο-</i>.",
    "options": [
-    "<i>-ι-</i>",
-    "<i>-ο-</i>",
-    "<i>-α-</i>",
+    "<i lang=\"grc\">-ι-</i>",
+    "<i lang=\"grc\">-ο-</i>",
+    "<i lang=\"grc\">-α-</i>",
     "none"
    ],
    "answer": 1
@@ -47,8 +47,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>μικρόκοσμος</i> (“small world”)?",
-   "explain": "The first part describes the second: a <i>κόσμος</i> that is <i>μικρός</i>, “small.”",
+   "prompt": "What kind of compound is <i lang=\"grc\">μικρόκοσμος</i> (“small world”)?",
+   "explain": "The first part describes the second: a <i lang=\"grc\">κόσμος</i> that is <i lang=\"grc\">μικρός</i>, “small.”",
    "options": [
     "Possessive",
     "Governing",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>ἀνα-</i> mean in <i>ἀνατέλλω</i> (“I rise,” of the sun)?",
-   "explain": "<i>Ἀνα-</i> means “up”: the sun rises up.",
+   "prompt": "What does <i lang=\"grc\">ἀνα-</i> mean in <i lang=\"grc\">ἀνατέλλω</i> (“I rise,” of the sun)?",
+   "explain": "<i lang=\"grc\">Ἀνα-</i> means “up”: the sun rises up.",
    "options": [
     "“down”",
     "“through”",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>συν-</i> mean in <i>συλλέγω</i> (“I collect”)?",
-   "explain": "<i>Συν-</i> (here <i>συλ-</i> before <i>λ</i>) means “together.”",
+   "prompt": "What does <i lang=\"grc\">συν-</i> mean in <i lang=\"grc\">συλλέγω</i> (“I collect”)?",
+   "explain": "<i lang=\"grc\">Συν-</i> (here <i lang=\"grc\">συλ-</i> before <i lang=\"grc\">λ</i>) means “together.”",
    "options": [
     "“together”",
     "“apart”",
@@ -96,7 +96,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What do the parts of “hippopotamus” mean?",
-   "explain": "<i>Ἵππος ποτάμιος</i>, “horse of the river.”",
+   "explain": "<i lang=\"grc\">Ἵππος ποτάμιος</i>, “horse of the river.”",
    "options": [
     "“horse of the sea”",
     "“river horse”",
@@ -111,8 +111,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>τετράπους</i> mean?",
-   "explain": "The numeral <i>τετρα-</i> stands first and <i>πούς</i> (“foot”) second: “four-footed.”",
+   "prompt": "What does <i lang=\"grc\">τετράπους</i> mean?",
+   "explain": "The numeral <i lang=\"grc\">τετρα-</i> stands first and <i lang=\"grc\">πούς</i> (“foot”) second: “four-footed.”",
    "options": [
     "“four times”",
     "“a fourth part”",
@@ -130,10 +130,10 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "prompt": "Which compound is possessive?",
    "explain": "The swift-footed man has swift feet; the whole describes one who has what the parts name.",
    "options": [
-    "<i>νομοθέτης</i> (“law-giver”)",
-    "<i>ἀκρόπολις</i> (“upper city”)",
-    "<i>ψυχοπομπός</i> (“conductor of souls”)",
-    "<i>ταχύπους</i> (“swift-footed”)"
+    "<i lang=\"grc\">νομοθέτης</i> (“law-giver”)",
+    "<i lang=\"grc\">ἀκρόπολις</i> (“upper city”)",
+    "<i lang=\"grc\">ψυχοπομπός</i> (“conductor of souls”)",
+    "<i lang=\"grc\">ταχύπους</i> (“swift-footed”)"
    ],
    "answer": 3
   },
@@ -143,8 +143,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>δημαγωγός</i> mean, read from its parts?",
-   "explain": "<i>Δῆμος</i>, “people,” and <i>ἀγωγός</i>, “leading”: a governing compound.",
+   "prompt": "What does <i lang=\"grc\">δημαγωγός</i> mean, read from its parts?",
+   "explain": "<i lang=\"grc\">Δῆμος</i>, “people,” and <i lang=\"grc\">ἀγωγός</i>, “leading”: a governing compound.",
    "options": [
     "“leader of the people”",
     "“one led by the people”",
@@ -159,13 +159,13 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why is it <i>χειρουργός</i> and not <i>χειροουργός</i>?",
-   "explain": "Before the vowel of <i>-ουργός</i>, the <i>-ο-</i> is dropped.",
+   "prompt": "Why is it <i lang=\"grc\">χειρουργός</i> and not <i lang=\"grc\">χειροουργός</i>?",
+   "explain": "Before the vowel of <i lang=\"grc\">-ουργός</i>, the <i lang=\"grc\">-ο-</i> is dropped.",
    "options": [
     "The joining vowel drops before a vowel",
-    "<i>Χειρ-</i> never takes a joining vowel at all",
+    "<i lang=\"grc\">Χειρ-</i> never takes a joining vowel at all",
     "The word is borrowed from Latin",
-    "<i>Ἔργον</i> is a verb"
+    "<i lang=\"grc\">Ἔργον</i> is a verb"
    ],
    "answer": 0
   },
@@ -175,8 +175,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>κατα-</i> add in <i>καταλύω</i>?",
-   "explain": "<i>Κατα-</i> often carries the action through to its end.",
+   "prompt": "What does <i lang=\"grc\">κατα-</i> add in <i lang=\"grc\">καταλύω</i>?",
+   "explain": "<i lang=\"grc\">Κατα-</i> often carries the action through to its end.",
    "options": [
     "Repetition: “I loose again”",
     "Motion up: “I loose upward”",
@@ -191,8 +191,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>διαλέγομαι</i> come to mean, from “pick out between”?",
-   "explain": "<i>Δια-</i> gives the sense of exchange between two, and <i>διαλέγομαι</i> means “I talk with,” whence “dialogue.”",
+   "prompt": "What does <i lang=\"grc\">διαλέγομαι</i> come to mean, from “pick out between”?",
+   "explain": "<i lang=\"grc\">Δια-</i> gives the sense of exchange between two, and <i lang=\"grc\">διαλέγομαι</i> means “I talk with,” whence “dialogue.”",
    "options": [
     "“I choose apart”",
     "“I read through”",
@@ -208,7 +208,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What do the parts of “chrysanthemum” mean?",
-   "explain": "<i>Χρυσός</i> and <i>ἄνθεμον</i>.",
+   "explain": "<i lang=\"grc\">Χρυσός</i> and <i lang=\"grc\">ἄνθεμον</i>.",
    "options": [
     "“golden” and “anthem”",
     "“gold” and “flower”",
@@ -223,7 +223,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>λευκώλενος</i> (“white-armed,” said of Hera)?",
+   "prompt": "What kind of compound is <i lang=\"grc\">λευκώλενος</i> (“white-armed,” said of Hera)?",
    "explain": "The whole describes someone who has what the parts name: white arms.",
    "options": [
     "Possessive",
@@ -239,8 +239,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>προλέγω</i> mean?",
-   "explain": "<i>Προ-</i>, “before.”",
+   "prompt": "What does <i lang=\"grc\">προλέγω</i> mean?",
+   "explain": "<i lang=\"grc\">Προ-</i>, “before.”",
    "options": [
     "“I say again”",
     "“I say down”",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “dinosaur” mean literally?",
-   "explain": "<i>Δεινός</i>, “terrible,” and <i>σαῦρος</i>, “lizard,” a modern coinage.",
+   "explain": "<i lang=\"grc\">Δεινός</i>, “terrible,” and <i lang=\"grc\">σαῦρος</i>, “lizard,” a modern coinage.",
    "options": [
     "“great beast”",
     "“ancient lizard”",
@@ -271,7 +271,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What kind of compound is <i>ἱππόδαμος</i> (“horse-taming”)?",
+   "prompt": "What kind of compound is <i lang=\"grc\">ἱππόδαμος</i> (“horse-taming”)?",
    "explain": "One part acts on the other as a verb on its object: one who tames horses.",
    "options": [
     "Possessive",
@@ -287,8 +287,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>ἀποδημέω</i> mean, from <i>ἀπο-</i> and <i>δῆμος</i>?",
-   "explain": "<i>Ἀπο-</i>, “away,” from one’s people.",
+   "prompt": "What does <i lang=\"grc\">ἀποδημέω</i> mean, from <i lang=\"grc\">ἀπο-</i> and <i lang=\"grc\">δῆμος</i>?",
+   "explain": "<i lang=\"grc\">Ἀπο-</i>, “away,” from one’s people.",
    "options": [
     "“I am abroad”",
     "“I lead the people”",
@@ -303,8 +303,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the Greek joining vowel <i>-o-</i>?",
-   "explain": "<i>Φιλ-ό-σοφος</i>; in “philanthropy” the vowel is dropped before <i>a</i>.",
+   "prompt": "Which English word keeps the Greek joining vowel <i lang=\"grc\">-o-</i>?",
+   "explain": "<i lang=\"grc\">Φιλ-ό-σοφος</i>; in “philanthropy” the vowel is dropped before <i lang=\"grc\">a</i>.",
    "options": [
     "“philanthropy”",
     "“anarchy”",
@@ -320,7 +320,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “oxygen” mean, as it was coined?",
-   "explain": "<i>Ὀξύς</i>, “sharp,” “acid,” and <i>-γενής</i>, “producing,” a modern coinage.",
+   "explain": "<i lang=\"grc\">Ὀξύς</i>, “sharp,” “acid,” and <i lang=\"grc\">-γενής</i>, “producing,” a modern coinage.",
    "options": [
     "“sharp air”",
     "“air of life”",
@@ -336,12 +336,12 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which compound is determinative?",
-   "explain": "<i>Μέσος</i>, “middle,” describes <i>ἡμέρα</i>, “day.”",
+   "explain": "<i lang=\"grc\">Μέσος</i>, “middle,” describes <i lang=\"grc\">ἡμέρα</i>, “day.”",
    "options": [
-    "<i>μεσημβρία</i> (“midday”)",
-    "<i>μεγαλόψυχος</i> (“great-souled”)",
-    "<i>φιλόσοφος</i> (“wisdom-loving”)",
-    "<i>ταχύπους</i> (“swift-footed”)"
+    "<i lang=\"grc\">μεσημβρία</i> (“midday”)",
+    "<i lang=\"grc\">μεγαλόψυχος</i> (“great-souled”)",
+    "<i lang=\"grc\">φιλόσοφος</i> (“wisdom-loving”)",
+    "<i lang=\"grc\">ταχύπους</i> (“swift-footed”)"
    ],
    "answer": 0
   },
@@ -351,8 +351,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>ὑπο-</i> add in <i>ὑποτάσσω</i> (“I arrange”)?",
-   "explain": "<i>Ὑπο-</i>, “under.”",
+   "prompt": "What does <i lang=\"grc\">ὑπο-</i> add in <i lang=\"grc\">ὑποτάσσω</i> (“I arrange”)?",
+   "explain": "<i lang=\"grc\">Ὑπο-</i>, “under.”",
    "options": [
     "“over”: “I place over”",
     "“under”: “I subject”",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “orthography” mean, read from its parts?",
-   "explain": "<i>Ὀρθός</i> and <i>-γραφία</i>.",
+   "explain": "<i lang=\"grc\">Ὀρθός</i> and <i lang=\"grc\">-γραφία</i>.",
    "options": [
     "“straight drawing”",
     "“correct speech”",
@@ -383,8 +383,8 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "deck": "lang.iv.grc/composition-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does <i>εἰσ-</i> mean in <i>εἰσβάλλω</i>?",
-   "explain": "<i>Εἰσ-</i>, “into.”",
+   "prompt": "What does <i lang=\"grc\">εἰσ-</i> mean in <i lang=\"grc\">εἰσβάλλω</i>?",
+   "explain": "<i lang=\"grc\">Εἰσ-</i>, “into.”",
    "options": [
     "“out”: “I throw out”",
     "“around”: “I surround”",

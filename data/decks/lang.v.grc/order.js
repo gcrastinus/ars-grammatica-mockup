@@ -14,18 +14,18 @@ ARS.decks["lang.v.grc/order"] = {
     "id": "q-grc-order-obj",
     "variants": [
      {
-      "prompt": "In <i>τὸν ἀδελφὸν ὁρᾷ ἡ μήτηρ</i>, which word is the subject?",
+      "prompt": "In <i lang=\"grc\">τὸν ἀδελφὸν ὁρᾷ ἡ μήτηρ</i>, which word is the subject?",
       "options": [
-       "<i>ἀδελφόν</i>",
-       "<i>ὁρᾷ</i>",
-       "<i>μήτηρ</i>",
-       "<i>τόν</i>"
+       "<i lang=\"grc\">ἀδελφόν</i>",
+       "<i lang=\"grc\">ὁρᾷ</i>",
+       "<i lang=\"grc\">μήτηρ</i>",
+       "<i lang=\"grc\">τόν</i>"
       ],
       "answer": 2,
-      "explain": "<i>Μήτηρ</i> is nominative; <i>ἀδελφόν</i> is accusative, the object, though it stands first."
+      "explain": "<i lang=\"grc\">Μήτηρ</i> is nominative; <i lang=\"grc\">ἀδελφόν</i> is accusative, the object, though it stands first."
      },
      {
-      "prompt": "Which case does <i>ἄρχω</i> (“rule”) govern?",
+      "prompt": "Which case does <i lang=\"grc\">ἄρχω</i> (“rule”) govern?",
       "options": [
        "The accusative",
        "The genitive",
@@ -33,7 +33,7 @@ ARS.decks["lang.v.grc/order"] = {
        "The nominative"
       ],
       "answer": 1,
-      "explain": "The case of the object belongs to the meaning of the verb: <i>ἄρχω</i> takes the genitive."
+      "explain": "The case of the object belongs to the meaning of the verb: <i lang=\"grc\">ἄρχω</i> takes the genitive."
      },
      {
       "prompt": "What shows the object of a Greek verb?",
@@ -57,7 +57,7 @@ ARS.decks["lang.v.grc/order"] = {
     "id": "q-grc-order-pos",
     "variants": [
      {
-      "prompt": "What does <i>ἡ οἰκία μεγάλη</i> mean?",
+      "prompt": "What does <i lang=\"grc\">ἡ οἰκία μεγάλη</i> mean?",
       "options": [
        "“the large house”",
        "“the house is large”",
@@ -70,16 +70,16 @@ ARS.decks["lang.v.grc/order"] = {
      {
       "prompt": "Which phrase means “the beautiful city”?",
       "options": [
-       "<i>ἡ πόλις καλή</i>",
-       "<i>καλὴ ἡ πόλις</i>",
-       "<i>ἡ πόλις ἡ καλή</i>",
-       "<i>πόλις ἡ καλή ἐστι</i>"
+       "<i lang=\"grc\">ἡ πόλις καλή</i>",
+       "<i lang=\"grc\">καλὴ ἡ πόλις</i>",
+       "<i lang=\"grc\">ἡ πόλις ἡ καλή</i>",
+       "<i lang=\"grc\">πόλις ἡ καλή ἐστι</i>"
       ],
       "answer": 2,
       "explain": "With a repeated article the adjective is attributive."
      },
      {
-      "prompt": "Where does <i>γάρ</i> stand in its clause?",
+      "prompt": "Where does <i lang=\"grc\">γάρ</i> stand in its clause?",
       "options": [
        "Always first",
        "Always last",
@@ -87,7 +87,7 @@ ARS.decks["lang.v.grc/order"] = {
        "Usually second"
       ],
       "answer": 3,
-      "explain": "<i>Γάρ</i> is postpositive: it never stands first."
+      "explain": "<i lang=\"grc\">Γάρ</i> is postpositive: it never stands first."
      }
     ]
    }
@@ -95,20 +95,20 @@ ARS.decks["lang.v.grc/order"] = {
   {
    "id": "dependence",
    "title": "Dependence in a Greek sentence",
-   "body": "<p>In <i>ἀνὴρ ἀγαθὸς ταχέως τρέχει</i> (“a good man runs swiftly”) there are three constructions, as in the Latin sentences we have analyzed: <i>ἀγαθός</i> depends on <i>ἀνήρ</i>, <i>τρέχει</i> depends on <i>ἀνήρ</i>, and <i>ταχέως</i> depends on <i>τρέχει</i>. Because the endings show these dependences, the words may be placed apart without changing them: in <i>ἀγαθὸς ταχέως τρέχει ἀνήρ</i>, <i>ἀγαθός</i> still depends on <i>ἀνήρ</i>, since both are masculine, singular, and nominative.</p>\n<p>So the analysis of a Greek sentence asks first what the endings show, and then what the order adds. The order may give emphasis to a word, but it does not decide which word depends on which.</p>",
+   "body": "<p>In <i lang=\"grc\">ἀνὴρ ἀγαθὸς ταχέως τρέχει</i> (“a good man runs swiftly”) there are three constructions, as in the Latin sentences we have analyzed: <i lang=\"grc\">ἀγαθός</i> depends on <i lang=\"grc\">ἀνήρ</i>, <i lang=\"grc\">τρέχει</i> depends on <i lang=\"grc\">ἀνήρ</i>, and <i lang=\"grc\">ταχέως</i> depends on <i lang=\"grc\">τρέχει</i>. Because the endings show these dependences, the words may be placed apart without changing them: in <i lang=\"grc\">ἀγαθὸς ταχέως τρέχει ἀνήρ</i>, <i lang=\"grc\">ἀγαθός</i> still depends on <i lang=\"grc\">ἀνήρ</i>, since both are masculine, singular, and nominative.</p>\n<p>So the analysis of a Greek sentence asks first what the endings show, and then what the order adds. The order may give emphasis to a word, but it does not decide which word depends on which.</p>",
    "qp": {
     "id": "q-grc-order-dep",
     "variants": [
      {
-      "prompt": "In <i>τὸν ἵππον τὸν μέγαν ὁ παῖς ὁρᾷ</i> (“the boy sees the big horse”), on which word does <i>μέγαν</i> depend?",
+      "prompt": "In <i lang=\"grc\">τὸν ἵππον τὸν μέγαν ὁ παῖς ὁρᾷ</i> (“the boy sees the big horse”), on which word does <i lang=\"grc\">μέγαν</i> depend?",
       "options": [
-       "<i>παῖς</i>",
-       "<i>ὁρᾷ</i>",
-       "<i>ἵππον</i>",
+       "<i lang=\"grc\">παῖς</i>",
+       "<i lang=\"grc\">ὁρᾷ</i>",
+       "<i lang=\"grc\">ἵππον</i>",
        "on no word"
       ],
       "answer": 2,
-      "explain": "<i>Μέγαν</i> is masculine, singular, and accusative, as <i>ἵππον</i> is."
+      "explain": "<i lang=\"grc\">Μέγαν</i> is masculine, singular, and accusative, as <i lang=\"grc\">ἵππον</i> is."
      },
      {
       "prompt": "What shows the dependences in a Greek sentence?",
@@ -122,10 +122,10 @@ ARS.decks["lang.v.grc/order"] = {
       "explain": "The endings show the dependences; the order adds emphasis."
      },
      {
-      "prompt": "In <i>ταχέως τρέχει</i>, which word depends on which?",
+      "prompt": "In <i lang=\"grc\">ταχέως τρέχει</i>, which word depends on which?",
       "options": [
-       "<i>ταχέως</i> depends on <i>τρέχει</i>",
-       "<i>τρέχει</i> depends on <i>ταχέως</i>",
+       "<i lang=\"grc\">ταχέως</i> depends on <i lang=\"grc\">τρέχει</i>",
+       "<i lang=\"grc\">τρέχει</i> depends on <i lang=\"grc\">ταχέως</i>",
        "Neither depends on the other",
        "Both depend on the article"
       ],

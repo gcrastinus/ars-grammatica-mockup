@@ -31,7 +31,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“The Hare and the Tortoise” opens with a maxim: “To win a race, the swiftness of a dart<br>Availeth not without a timely start” (<em>Rien ne sert de courir ; il faut partir à point</em>). The hare delays, and the tortoise wins. What does that trial show about the maxim?",
+   "prompt": "“The Hare and the Tortoise” opens with a maxim: “To win a race, the swiftness of a dart<br>Availeth not without a timely start” (<em lang=\"fr\">Rien ne sert de courir ; il faut partir à point</em>). The hare delays, and the tortoise wins. What does that trial show about the maxim?",
    "explain": "The maxim says that swiftness does not win a race without a timely start. The hare delays, and the tortoise wins. The trial shows that a timely start prevails.",
    "options": [
     "That swiftness alone is enough",
@@ -63,11 +63,11 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>Elle se hâte avec lenteur</em> has eight syllables, and <em>Rien ne sert de courir ; il faut partir à point</em> has twelve. What differs?",
+   "prompt": "<em lang=\"fr\">Elle se hâte avec lenteur</em> has eight syllables, and <em lang=\"fr\">Rien ne sert de courir ; il faut partir à point</em> has twelve. What differs?",
    "explain": "The lines differ in measure, the number of syllables. That difference does not by itself change the signification of any word.",
    "options": [
     "The measure",
-    "The proper sense of <em>hâte</em>",
+    "The proper sense of <em lang=\"fr\">hâte</em>",
     "The tense of the verbs",
     "Whether the fable is in prose"
    ],
@@ -95,7 +95,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em>Elle se hâte avec lenteur</em> and <em>Rien ne sert de courir ; il faut partir à point</em> are both literal, one of eight syllables and one of twelve. What is the difference?",
+   "prompt": "<em lang=\"fr\">Elle se hâte avec lenteur</em> and <em lang=\"fr\">Rien ne sert de courir ; il faut partir à point</em> are both literal, one of eight syllables and one of twelve. What is the difference?",
    "explain": "The words stay literal, so there is no trope. The difference is the measure. It is not a maxim, a metaphor, or an antithesis.",
    "options": [
     "A metaphor",
@@ -143,7 +143,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Oenone speaks of Phaedra’s remaining days: “while yet the torch of life / Holds out, and can be fann’d into a flame” (<em>Tandis que de vos jours, prêts à se consumer, / Le flambeau dure encore, et peut se rallumer</em>). Why is “torch” (<em>flambeau</em>) a metaphor?",
+   "prompt": "Oenone speaks of Phaedra’s remaining days: “while yet the torch of life / Holds out, and can be fann’d into a flame” (<em lang=\"fr\">Tandis que de vos jours, prêts à se consumer, / Le flambeau dure encore, et peut se rallumer</em>). Why is “torch” (<em lang=\"fr\">flambeau</em>) a metaphor?",
    "explain": "The days are not a torch. The remaining life is spoken of by that likeness. A metaphor carries a word from its proper signification to a likeness.",
    "options": [
     "The days are a torch in the proper sense",
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Would the metaphor of the torch (<em>le flambeau</em>) for Phaedra’s remaining days remain if the line were printed as prose?",
+   "prompt": "Would the metaphor of the torch (<em lang=\"fr\">le flambeau</em>) for Phaedra’s remaining days remain if the line were printed as prose?",
    "explain": "The metaphor is the likeness, a torch used of the life that remains. The likeness does not depend on the line’s being verse. The measure is a separate fact.",
    "options": [
     "No. A metaphor exists only in twelve syllables",
@@ -271,7 +271,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Phaedra says, “Thanks be to Heav'n, my hands are free from stain. / Would that my soul were innocent as they!” (<em>Grâces au ciel, mes mains ne sont point criminelles. / Plût aux dieux que mon cœur fût innocent comme elles!</em>). Do “hands” and “soul” keep their proper sense?",
+   "prompt": "Phaedra says, “Thanks be to Heav'n, my hands are free from stain. / Would that my soul were innocent as they!” (<em lang=\"fr\">Grâces au ciel, mes mains ne sont point criminelles. / Plût aux dieux que mon cœur fût innocent comme elles!</em>). Do “hands” and “soul” keep their proper sense?",
    "explain": "They keep it. Stainless hands are set against a soul that is not innocent. The figure is that opposition, not a new likeness for either word.",
    "options": [
     "No. “Hands” means the hare",

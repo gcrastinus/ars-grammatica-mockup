@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi parle <b>bien</b>.</i> (“The king speaks well”)",
-   "explain": "<i>Bien</i> tells how he speaks. The adverb keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi parle <b>bien</b>.</i> (“The king speaks well”)",
+   "explain": "<i lang=\"fr\">Bien</i> tells how he speaks. The adverb keeps one form.",
    "options": [
     "adverb",
     "preposition",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Il vient <b>souvent</b>.</i> (“He comes often”)",
-   "explain": "<i>Souvent</i> tells how often he comes. The adverb keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Il vient <b>souvent</b>.</i> (“He comes often”)",
+   "explain": "<i lang=\"fr\">Souvent</i> tells how often he comes. The adverb keeps one form.",
    "options": [
     "adverb",
     "preposition",
@@ -47,8 +47,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Il va <b>dans</b> la ville.</i> (“He goes into the city”)",
-   "explain": "<i>Dans</i> stands before the noun and marks the place. The noun itself does not change.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Il va <b>dans</b> la ville.</i> (“He goes into the city”)",
+   "explain": "<i lang=\"fr\">Dans</i> stands before the noun and marks the place. The noun itself does not change.",
    "options": [
     "preposition",
     "adverb",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Elle parle <b>avec</b> le roi.</i> (“She speaks with the king”)",
-   "explain": "<i>Avec</i> stands before the noun and marks the company. The noun itself does not change.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Elle parle <b>avec</b> le roi.</i> (“She speaks with the king”)",
+   "explain": "<i lang=\"fr\">Avec</i> stands before the noun and marks the company. The noun itself does not change.",
    "options": [
     "preposition",
     "adverb",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi <b>et</b> la femme parlent.</i> (“The king and the woman speak”)",
-   "explain": "<i>Et</i> joins the two nouns. The verb is plural because the subject is the two of them.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi <b>et</b> la femme parlent.</i> (“The king and the woman speak”)",
+   "explain": "<i lang=\"fr\">Et</i> joins the two nouns. The verb is plural because the subject is the two of them.",
    "options": [
     "conjunction",
     "adverb",
@@ -95,8 +95,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi parle, <b>mais</b> la femme finit.</i> (“The king speaks, but the woman finishes”)",
-   "explain": "<i>Mais</i> joins the two statements and marks the contrast.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi parle, <b>mais</b> la femme finit.</i> (“The king speaks, but the woman finishes”)",
+   "explain": "<i lang=\"fr\">Mais</i> joins the two statements and marks the contrast.",
    "options": [
     "conjunction",
     "adverb",
@@ -111,8 +111,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i><b>Hélas</b>, le roi vient.</i> (“Alas, the king is coming”)",
-   "explain": "<i>Hélas</i> is a cry, and it keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\"><b>Hélas</b>, le roi vient.</i> (“Alas, the king is coming”)",
+   "explain": "<i lang=\"fr\">Hélas</i> is a cry, and it keeps one form.",
    "options": [
     "interjection",
     "adverb",
@@ -127,8 +127,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi vient <b>ici</b>.</i> (“The king is coming here”)",
-   "explain": "<i>Ici</i> tells where he is coming. The adverb keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi vient <b>ici</b>.</i> (“The king is coming here”)",
+   "explain": "<i lang=\"fr\">Ici</i> tells where he is coming. The adverb keeps one form.",
    "options": [
     "preposition",
     "adverb",
@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Elle parle <b>sans</b> le roi.</i> (“She speaks without the king”)",
-   "explain": "<i>Sans</i> stands before the noun and marks the lack of company. The noun itself does not change.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Elle parle <b>sans</b> le roi.</i> (“She speaks without the king”)",
+   "explain": "<i lang=\"fr\">Sans</i> stands before the noun and marks the lack of company. The noun itself does not change.",
    "options": [
     "adverb",
     "conjunction",
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi <b>ou</b> la femme vient.</i> (“The king or the woman is coming”)",
-   "explain": "<i>Ou</i> joins the two nouns and marks the choice of one of them.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi <b>ou</b> la femme vient.</i> (“The king or the woman is coming”)",
+   "explain": "<i lang=\"fr\">Ou</i> joins the two nouns and marks the choice of one of them.",
    "options": [
     "adverb",
     "preposition",
@@ -175,8 +175,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Il finit, <b>car</b> elle parle.</i> (“He finishes, for she is speaking”)",
-   "explain": "<i>Car</i> joins the two statements and gives the reason.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Il finit, <b>car</b> elle parle.</i> (“He finishes, for she is speaking”)",
+   "explain": "<i lang=\"fr\">Car</i> joins the two statements and gives the reason.",
    "options": [
     "adverb",
     "conjunction",
@@ -191,8 +191,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>La femme parle <b>toujours</b>.</i> (“The woman always speaks”)",
-   "explain": "<i>Toujours</i> tells that the speaking goes on at every time. The adverb keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">La femme parle <b>toujours</b>.</i> (“The woman always speaks”)",
+   "explain": "<i lang=\"fr\">Toujours</i> tells that the speaking goes on at every time. The adverb keeps one form.",
    "options": [
     "preposition",
     "conjunction",
@@ -207,8 +207,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Il a <b>déjà</b> fini.</i> (“He has already finished”)",
-   "explain": "<i>Déjà</i> tells that the finishing is already done. The adverb keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Il a <b>déjà</b> fini.</i> (“He has already finished”)",
+   "explain": "<i lang=\"fr\">Déjà</i> tells that the finishing is already done. The adverb keeps one form.",
    "options": [
     "preposition",
     "conjunction",
@@ -223,8 +223,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Le roi va <b>sous</b> le pont.</i> (“The king goes under the bridge”)",
-   "explain": "<i>Sous</i> stands before the noun and marks the place under it. The noun itself does not change.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Le roi va <b>sous</b> le pont.</i> (“The king goes under the bridge”)",
+   "explain": "<i lang=\"fr\">Sous</i> stands before the noun and marks the place under it. The noun itself does not change.",
    "options": [
     "adverb",
     "preposition",
@@ -239,8 +239,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Elle vient <b>chez</b> le roi.</i> (“She comes to the king’s house”)",
-   "explain": "<i>Chez</i> stands before the noun and marks whose house is meant. The noun itself does not change.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Elle vient <b>chez</b> le roi.</i> (“She comes to the king’s house”)",
+   "explain": "<i lang=\"fr\">Chez</i> stands before the noun and marks whose house is meant. The noun itself does not change.",
    "options": [
     "adverb",
     "conjunction",
@@ -255,8 +255,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Il parle, <b>donc</b> elle écoute.</i> (“He speaks, so she listens”)",
-   "explain": "<i>Donc</i> joins the two statements and marks the second as following from the first.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Il parle, <b>donc</b> elle écoute.</i> (“He speaks, so she listens”)",
+   "explain": "<i lang=\"fr\">Donc</i> joins the two statements and marks the second as following from the first.",
    "options": [
     "adverb",
     "preposition",
@@ -271,8 +271,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i>Ni le roi <b>ni</b> la femme ne vient.</i> (“Neither the king nor the woman is coming”)",
-   "explain": "<i>Ni</i> joins the two nouns and marks that both are shut out. It is a conjunction.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\">Ni le roi <b>ni</b> la femme ne vient.</i> (“Neither the king nor the woman is coming”)",
+   "explain": "<i lang=\"fr\">Ni</i> joins the two nouns and marks that both are shut out. It is a conjunction.",
    "options": [
     "adverb",
     "conjunction",
@@ -287,8 +287,8 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i><b>Ouf</b>, le roi finit.</i> (“Ouf, the king is finishing”)",
-   "explain": "<i>Ouf</i> is a cry, and it keeps one form.",
+   "prompt": "What part of speech is the marked word? <i lang=\"fr\"><b>Ouf</b>, le roi finit.</i> (“Ouf, the king is finishing”)",
+   "explain": "<i lang=\"fr\">Ouf</i> is a cry, and it keeps one form.",
    "options": [
     "adverb",
     "preposition",
@@ -303,13 +303,13 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Il ne mange ___ de viande.</i> (“He no longer eats meat”).",
-   "explain": "<i>Ne … plus</i> means “no longer.”",
+   "prompt": "Choose the form: <i lang=\"fr\">Il ne mange ___ de viande.</i> (“He no longer eats meat”).",
+   "explain": "<i lang=\"fr\">Ne … plus</i> means “no longer.”",
    "options": [
-    "<i>pas</i>",
-    "<i>jamais</i>",
-    "<i>que</i>",
-    "<i>plus</i>"
+    "<i lang=\"fr\">pas</i>",
+    "<i lang=\"fr\">jamais</i>",
+    "<i lang=\"fr\">que</i>",
+    "<i lang=\"fr\">plus</i>"
    ],
    "answer": 3
   },
@@ -319,13 +319,13 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Je n’ai vu ___.</i> (“I saw no one”).",
-   "explain": "<i>Personne</i> follows the participle in a compound tense.",
+   "prompt": "Choose the form: <i lang=\"fr\">Je n’ai vu ___.</i> (“I saw no one”).",
+   "explain": "<i lang=\"fr\">Personne</i> follows the participle in a compound tense.",
    "options": [
-    "<i>rien</i>",
-    "<i>pas</i>",
-    "<i>personne</i>",
-    "<i>jamais</i>"
+    "<i lang=\"fr\">rien</i>",
+    "<i lang=\"fr\">pas</i>",
+    "<i lang=\"fr\">personne</i>",
+    "<i lang=\"fr\">jamais</i>"
    ],
    "answer": 2
   },
@@ -338,10 +338,10 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "prompt": "Which sentence places the adverb as French usually does?",
    "explain": "A French adverb usually follows the verb.",
    "options": [
-    "<i>Elle bien chante.</i>",
-    "<i>Elle chante bien.</i>",
-    "<i>Bien elle chante toujours bien.</i>",
-    "<i>Elle chante a bien.</i>"
+    "<i lang=\"fr\">Elle bien chante.</i>",
+    "<i lang=\"fr\">Elle chante bien.</i>",
+    "<i lang=\"fr\">Bien elle chante toujours bien.</i>",
+    "<i lang=\"fr\">Elle chante a bien.</i>"
    ],
    "answer": 1
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.fr/parts-ex"] = {
    "deck": "lang.iii-indecl.fr/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Bien qu’il ___ tard, nous sortons.</i> (“Although it is late, we are going out”).",
-   "explain": "<i>Bien que</i> takes the subjunctive.",
+   "prompt": "Choose the form: <i lang=\"fr\">Bien qu’il ___ tard, nous sortons.</i> (“Although it is late, we are going out”).",
+   "explain": "<i lang=\"fr\">Bien que</i> takes the subjunctive.",
    "options": [
-    "<i>soit</i>",
-    "<i>est</i>",
-    "<i>sera</i>",
-    "<i>était</i>"
+    "<i lang=\"fr\">soit</i>",
+    "<i lang=\"fr\">est</i>",
+    "<i lang=\"fr\">sera</i>",
+    "<i lang=\"fr\">était</i>"
    ],
    "answer": 0
   }

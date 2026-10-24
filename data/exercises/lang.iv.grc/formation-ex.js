@@ -16,12 +16,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which ending names the doer?",
-   "explain": "The suffix <em>-της</em> names the person who does the act, as in <em>αὐλητής</em> (“flute-player”) and <em>μαθητής</em> (“a learner”).",
+   "explain": "The suffix <em lang=\"grc\">-της</em> names the person who does the act, as in <em lang=\"grc\">αὐλητής</em> (“flute-player”) and <em lang=\"grc\">μαθητής</em> (“a learner”).",
    "options": [
-    "<em>-της</em>",
-    "<em>-σις</em>",
-    "<em>-μα</em>",
-    "The prefix <em>ἀ-</em>"
+    "<em lang=\"grc\">-της</em>",
+    "<em lang=\"grc\">-σις</em>",
+    "<em lang=\"grc\">-μα</em>",
+    "The prefix <em lang=\"grc\">ἀ-</em>"
    ],
    "answer": 0
   },
@@ -32,12 +32,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which ending names the thing produced?",
-   "explain": "The suffix <em>-μα</em> names the thing produced, as <em>κίνημα</em> is a movement and <em>κέλευμα</em> is a command given.",
+   "explain": "The suffix <em lang=\"grc\">-μα</em> names the thing produced, as <em lang=\"grc\">κίνημα</em> is a movement and <em lang=\"grc\">κέλευμα</em> is a command given.",
    "options": [
-    "<em>-σις</em>",
-    "<em>-μα</em>",
-    "<em>-της</em>",
-    "<em>ἀ-</em>"
+    "<em lang=\"grc\">-σις</em>",
+    "<em lang=\"grc\">-μα</em>",
+    "<em lang=\"grc\">-της</em>",
+    "<em lang=\"grc\">ἀ-</em>"
    ],
    "answer": 1
   },
@@ -48,8 +48,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun of the act in <em>-σις</em> from <em>κινέω</em> (“I move”). The noun is built on the stem <em>κινη-</em>.",
-   "explain": "The suffix <em>-σις</em> names the action. On the stem <em>κινη-</em> the noun is <em>κίνησις</em> (“motion”).",
+   "prompt": "Write the noun of the act in <em lang=\"grc\">-σις</em> from <em lang=\"grc\">κινέω</em> (“I move”). The noun is built on the stem <em lang=\"grc\">κινη-</em>.",
+   "explain": "The suffix <em lang=\"grc\">-σις</em> names the action. On the stem <em lang=\"grc\">κινη-</em> the noun is <em lang=\"grc\">κίνησις</em> (“motion”).",
    "answer": "κίνησις"
   },
   {
@@ -59,8 +59,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun of the thing produced in <em>-μα</em> from <em>κινέω</em> (“I move”). The noun is built on the stem <em>κινη-</em>.",
-   "explain": "The suffix <em>-μα</em> names the thing produced. On the stem <em>κινη-</em> the noun is <em>κίνημα</em> (“a movement”).",
+   "prompt": "Write the noun of the thing produced in <em lang=\"grc\">-μα</em> from <em lang=\"grc\">κινέω</em> (“I move”). The noun is built on the stem <em lang=\"grc\">κινη-</em>.",
+   "explain": "The suffix <em lang=\"grc\">-μα</em> names the thing produced. On the stem <em lang=\"grc\">κινη-</em> the noun is <em lang=\"grc\">κίνημα</em> (“a movement”).",
    "answer": "κίνημα"
   },
   {
@@ -69,8 +69,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "“A shipwright” and “a ship-builder” are both given for <em>ναυπηγός</em>. How many Greek nouns is that?",
-   "explain": "<em>ναυπηγός</em> is one noun. “A shipwright” and “a ship-builder” are two English glosses of it.",
+   "prompt": "“A shipwright” and “a ship-builder” are both given for <em lang=\"grc\">ναυπηγός</em>. How many Greek nouns is that?",
+   "explain": "<em lang=\"grc\">ναυπηγός</em> is one noun. “A shipwright” and “a ship-builder” are two English glosses of it.",
    "options": [
     "Two nouns, one for each English gloss",
     "A compound and a separate phrase",
@@ -86,12 +86,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "A suffix is added at the end of a stem. Which of these is a suffix?",
-   "explain": "<em>-σις</em> stands at the end and names the action. <em>ἀ-</em> is a prefix. The personal ending <em>-ω</em> marks the verb, and it is not one of the noun-forming suffixes.",
+   "explain": "<em lang=\"grc\">-σις</em> stands at the end and names the action. <em lang=\"grc\">ἀ-</em> is a prefix. The personal ending <em lang=\"grc\">-ω</em> marks the verb, and it is not one of the noun-forming suffixes.",
    "options": [
-    "The personal ending <em>-ω</em>",
-    "The privative <em>ἀ-</em>",
+    "The personal ending <em lang=\"grc\">-ω</em>",
+    "The privative <em lang=\"grc\">ἀ-</em>",
     "The first stem of a compound",
-    "<em>-σις</em>"
+    "<em lang=\"grc\">-σις</em>"
    ],
    "answer": 3
   },
@@ -102,8 +102,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun of the doer in <em>-της</em> from <em>αὐλέω</em> (“I play the flute”). The noun is built on the stem <em>αὐλη-</em>.",
-   "explain": "The suffix <em>-της</em> names the doer. On the stem <em>αὐλη-</em> the noun is <em>αὐλητής</em> (“flute-player”).",
+   "prompt": "Write the noun of the doer in <em lang=\"grc\">-της</em> from <em lang=\"grc\">αὐλέω</em> (“I play the flute”). The noun is built on the stem <em lang=\"grc\">αὐλη-</em>.",
+   "explain": "The suffix <em lang=\"grc\">-της</em> names the doer. On the stem <em lang=\"grc\">αὐλη-</em> the noun is <em lang=\"grc\">αὐλητής</em> (“flute-player”).",
    "answer": "αὐλητής"
   },
   {
@@ -113,12 +113,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "“A baker,” “baking,” and “a loaf” divide one act. Which Greek suffix matches the thing produced?",
-   "explain": "<em>-μα</em> names the thing produced, as <em>κίνημα</em> is “a movement.” The act takes <em>-σις</em>, and the doer takes <em>-της</em>.",
+   "explain": "<em lang=\"grc\">-μα</em> names the thing produced, as <em lang=\"grc\">κίνημα</em> is “a movement.” The act takes <em lang=\"grc\">-σις</em>, and the doer takes <em lang=\"grc\">-της</em>.",
    "options": [
-    "<em>-μα</em>",
-    "<em>-σις</em>",
-    "<em>-της</em>",
-    "<em>ἀ-</em>"
+    "<em lang=\"grc\">-μα</em>",
+    "<em lang=\"grc\">-σις</em>",
+    "<em lang=\"grc\">-της</em>",
+    "<em lang=\"grc\">ἀ-</em>"
    ],
    "answer": 0
   },
@@ -129,12 +129,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "The alpha privative meets a stem that begins with a vowel. Which shape is written?",
-   "explain": "Before a vowel the prefix is <em>ἀν-</em>, as in <em>ἀνόσιος</em> (“unholy”), from <em>ὅσιος</em> (“holy”). Before a consonant it is <em>ἀ-</em>.",
+   "explain": "Before a vowel the prefix is <em lang=\"grc\">ἀν-</em>, as in <em lang=\"grc\">ἀνόσιος</em> (“unholy”), from <em lang=\"grc\">ὅσιος</em> (“holy”). Before a consonant it is <em lang=\"grc\">ἀ-</em>.",
    "options": [
-    "<em>ἀ-</em>, with no <em>ν</em>",
-    "<em>ἀμ-</em>, before a labial",
-    "<em>ἀν-</em>",
-    "The augment <em>ε</em> before the stem"
+    "<em lang=\"grc\">ἀ-</em>, with no <em lang=\"grc\">ν</em>",
+    "<em lang=\"grc\">ἀμ-</em>, before a labial",
+    "<em lang=\"grc\">ἀν-</em>",
+    "The augment <em lang=\"grc\">ε</em> before the stem"
    ],
    "answer": 2
   },
@@ -145,8 +145,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "<em>ὅσιος</em> means “holy,” and the stem begins with a vowel. Write the privative adjective “unholy.” The prefix before a vowel is <em>ἀν-</em>.",
-   "explain": "The stem begins with a vowel, so the privative prefix is <em>ἀν-</em>. The form is <em>ἀνόσιος</em>.",
+   "prompt": "<em lang=\"grc\">ὅσιος</em> means “holy,” and the stem begins with a vowel. Write the privative adjective “unholy.” The prefix before a vowel is <em lang=\"grc\">ἀν-</em>.",
+   "explain": "The stem begins with a vowel, so the privative prefix is <em lang=\"grc\">ἀν-</em>. The form is <em lang=\"grc\">ἀνόσιος</em>.",
    "answer": "ἀνόσιος"
   },
   {
@@ -155,8 +155,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In both glosses of <em>ἄτιμος</em>, “unhonored” and “without civic rights,” what does <em>ἀ-</em> contribute?",
-   "explain": "The prefix is the denial in both glosses. “Honor” and “civic rights” belong to the stem <em>τιμή</em>, not to two different prefixes.",
+   "prompt": "In both glosses of <em lang=\"grc\">ἄτιμος</em>, “unhonored” and “without civic rights,” what does <em lang=\"grc\">ἀ-</em> contribute?",
+   "explain": "The prefix is the denial in both glosses. “Honor” and “civic rights” belong to the stem <em lang=\"grc\">τιμή</em>, not to two different prefixes.",
    "options": [
     "A different prefix in each gloss",
     "The name of a doer",
@@ -171,11 +171,11 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is the <em>ν</em> of <em>ἀν-</em>?",
-   "explain": "The <em>ν</em> is written when the privative prefix stands before a vowel. It is part of that prefix, not the vowel of the stem and not a nominal suffix.",
+   "prompt": "What is the <em lang=\"grc\">ν</em> of <em lang=\"grc\">ἀν-</em>?",
+   "explain": "The <em lang=\"grc\">ν</em> is written when the privative prefix stands before a vowel. It is part of that prefix, not the vowel of the stem and not a nominal suffix.",
    "options": [
-    "The suffix <em>-σις</em>",
-    "Part of <em>ἀν-</em>",
+    "The suffix <em lang=\"grc\">-σις</em>",
+    "Part of <em lang=\"grc\">ἀν-</em>",
     "The vowel that follows the prefix",
     "The second stem of a compound noun"
    ],
@@ -187,11 +187,11 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "<em>γεωργός</em> is one Greek word. What does the gloss “land-worker” make visible?",
+   "prompt": "<em lang=\"grc\">γεωργός</em> is one Greek word. What does the gloss “land-worker” make visible?",
    "explain": "“Farmer” gives the meaning of the whole word. “Land-worker” shows the two stems that the one word joins.",
    "options": [
     "A change of tense",
-    "The privative <em>ἀν-</em>",
+    "The privative <em lang=\"grc\">ἀν-</em>",
     "An augment between prefix and verb",
     "The two stems"
    ],
@@ -203,13 +203,13 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "<em>γεωργός</em> means “farmer” (“land-worker”). How is that word built?",
-   "explain": "<em>γεωργός</em> is a compound of two stems. It is not a noun in <em>-σις</em> and not a privative adjective.",
+   "prompt": "<em lang=\"grc\">γεωργός</em> means “farmer” (“land-worker”). How is that word built?",
+   "explain": "<em lang=\"grc\">γεωργός</em> is a compound of two stems. It is not a noun in <em lang=\"grc\">-σις</em> and not a privative adjective.",
    "options": [
-    "With the suffix <em>-σις</em>",
+    "With the suffix <em lang=\"grc\">-σις</em>",
     "Two stems joined",
-    "With the privative <em>ἀν-</em>",
-    "As a past tense of <em>κινέω</em>"
+    "With the privative <em lang=\"grc\">ἀν-</em>",
+    "As a past tense of <em lang=\"grc\">κινέω</em>"
    ],
    "answer": 1
   },
@@ -220,7 +220,7 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "In the English compound “house-painter,” which word narrows the kind?",
-   "explain": "The first word narrows the kind, and the second often names it. “House” narrows “painter,” as the first stem of <em>γεωργός</em> narrows “worker.”",
+   "explain": "The first word narrows the kind, and the second often names it. “House” narrows “painter,” as the first stem of <em lang=\"grc\">γεωργός</em> narrows “worker.”",
    "options": [
     "“House”",
     "“Painter”",
@@ -236,12 +236,12 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which of these words joins two stems?",
-   "explain": "<em>ναυπηγός</em> joins two stems and means “ship-builder.” <em>ἄκαρπος</em> and <em>ἀνόσιος</em> take the privative prefix, and <em>κίνησις</em> is a noun in <em>-σις</em>.",
+   "explain": "<em lang=\"grc\">ναυπηγός</em> joins two stems and means “ship-builder.” <em lang=\"grc\">ἄκαρπος</em> and <em lang=\"grc\">ἀνόσιος</em> take the privative prefix, and <em lang=\"grc\">κίνησις</em> is a noun in <em lang=\"grc\">-σις</em>.",
    "options": [
-    "<em>ἄκαρπος</em>",
-    "<em>κίνησις</em>",
-    "<em>ναυπηγός</em>",
-    "<em>ἀνόσιος</em>"
+    "<em lang=\"grc\">ἄκαρπος</em>",
+    "<em lang=\"grc\">κίνησις</em>",
+    "<em lang=\"grc\">ναυπηγός</em>",
+    "<em lang=\"grc\">ἀνόσιος</em>"
    ],
    "answer": 2
   },
@@ -252,8 +252,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the aorist of <em>ἀπογράφω</em> (“I copy”). The aorist of <em>γράφω</em> is <em>ἔγραψα</em>, and the augment stands between the prefix and the verb.",
-   "explain": "The augment stands between the prefix and the verb. The aorist is <em>ἀπέγραψα</em>.",
+   "prompt": "Write the aorist of <em lang=\"grc\">ἀπογράφω</em> (“I copy”). The aorist of <em lang=\"grc\">γράφω</em> is <em lang=\"grc\">ἔγραψα</em>, and the augment stands between the prefix and the verb.",
+   "explain": "The augment stands between the prefix and the verb. The aorist is <em lang=\"grc\">ἀπέγραψα</em>.",
    "answer": "ἀπέγραψα"
   },
   {
@@ -263,8 +263,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the imperfect of <em>ἀπογράφω</em> (“I copy”). The imperfect of <em>γράφω</em> is <em>ἔγραφον</em>, and the augment stands between the prefix and the verb.",
-   "explain": "The imperfect places the same augment between the prefix and the verb. The form is <em>ἀπέγραφον</em>.",
+   "prompt": "Write the imperfect of <em lang=\"grc\">ἀπογράφω</em> (“I copy”). The imperfect of <em lang=\"grc\">γράφω</em> is <em lang=\"grc\">ἔγραφον</em>, and the augment stands between the prefix and the verb.",
+   "explain": "The imperfect places the same augment between the prefix and the verb. The form is <em lang=\"grc\">ἀπέγραφον</em>.",
    "answer": "ἀπέγραφον"
   },
   {
@@ -274,8 +274,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the aorist of <em>ἐκπέμπω</em> (“I send out”). The aorist of <em>πέμπω</em> is <em>ἔπεμψα</em>. Before the vowel of the augment, <em>ἐκ</em> is written <em>ἐξ</em>.",
-   "explain": "The augment stands between the prefix and the verb, and <em>ἐκ</em> is written <em>ἐξ</em> before that vowel. The aorist is <em>ἐξέπεμψα</em>.",
+   "prompt": "Write the aorist of <em lang=\"grc\">ἐκπέμπω</em> (“I send out”). The aorist of <em lang=\"grc\">πέμπω</em> is <em lang=\"grc\">ἔπεμψα</em>. Before the vowel of the augment, <em lang=\"grc\">ἐκ</em> is written <em lang=\"grc\">ἐξ</em>.",
+   "explain": "The augment stands between the prefix and the verb, and <em lang=\"grc\">ἐκ</em> is written <em lang=\"grc\">ἐξ</em> before that vowel. The aorist is <em lang=\"grc\">ἐξέπεμψα</em>.",
    "answer": "ἐξέπεμψα"
   },
   {
@@ -285,8 +285,8 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the aorist of <em>συμβουλεύω</em> (“I advise”). The aorist of <em>βουλεύω</em> is <em>ἐβούλευσα</em>. Before the vowel of the augment the prefix shows <em>ν</em>.",
-   "explain": "The augment stands between the prefix and the verb, and the prefix shows <em>ν</em> before that vowel. The aorist is <em>συνεβούλευσα</em>.",
+   "prompt": "Write the aorist of <em lang=\"grc\">συμβουλεύω</em> (“I advise”). The aorist of <em lang=\"grc\">βουλεύω</em> is <em lang=\"grc\">ἐβούλευσα</em>. Before the vowel of the augment the prefix shows <em lang=\"grc\">ν</em>.",
+   "explain": "The augment stands between the prefix and the verb, and the prefix shows <em lang=\"grc\">ν</em> before that vowel. The aorist is <em lang=\"grc\">συνεβούλευσα</em>.",
    "answer": "συνεβούλευσα"
   },
   {
@@ -296,7 +296,7 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "In a compound verb, where does the augment stand?",
-   "explain": "The augment <em>ε</em> stands between the prefix and the verb, as in <em>ἀπέγραψα</em>, <em>ἐξέπεμψα</em>, and <em>συνεβούλευσα</em>. The prefix itself is not augmented.",
+   "explain": "The augment <em lang=\"grc\">ε</em> stands between the prefix and the verb, as in <em lang=\"grc\">ἀπέγραψα</em>, <em lang=\"grc\">ἐξέπεμψα</em>, and <em lang=\"grc\">συνεβούλευσα</em>. The prefix itself is not augmented.",
    "options": [
     "On the prefix, in place of its vowel",
     "Between the prefix and the verb",
@@ -311,13 +311,13 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which aorist writes the prefix <em>ἐκ</em> as <em>ἐξ</em> before the augment?",
-   "explain": "Before the vowel of the augment, <em>ἐκ</em> is written <em>ἐξ</em>. That aorist is <em>ἐξέπεμψα</em>, from <em>ἐκπέμπω</em>.",
+   "prompt": "Which aorist writes the prefix <em lang=\"grc\">ἐκ</em> as <em lang=\"grc\">ἐξ</em> before the augment?",
+   "explain": "Before the vowel of the augment, <em lang=\"grc\">ἐκ</em> is written <em lang=\"grc\">ἐξ</em>. That aorist is <em lang=\"grc\">ἐξέπεμψα</em>, from <em lang=\"grc\">ἐκπέμπω</em>.",
    "options": [
-    "<em>ἐξέπεμψα</em>",
-    "<em>ἀπέγραψα</em>",
-    "<em>συνεβούλευσα</em>",
-    "<em>κίνημα</em>"
+    "<em lang=\"grc\">ἐξέπεμψα</em>",
+    "<em lang=\"grc\">ἀπέγραψα</em>",
+    "<em lang=\"grc\">συνεβούλευσα</em>",
+    "<em lang=\"grc\">κίνημα</em>"
    ],
    "answer": 0
   },
@@ -327,13 +327,13 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "<em>συμβουλεύω</em> writes <em>μ</em> before <em>β</em>. What does the prefix show in the aorist <em>συνεβούλευσα</em>, before the augment?",
-   "explain": "The present writes <em>μ</em> before <em>β</em>. Before the vowel of the augment the same prefix shows <em>ν</em>, in <em>συνεβούλευσα</em>.",
+   "prompt": "<em lang=\"grc\">συμβουλεύω</em> writes <em lang=\"grc\">μ</em> before <em lang=\"grc\">β</em>. What does the prefix show in the aorist <em lang=\"grc\">συνεβούλευσα</em>, before the augment?",
+   "explain": "The present writes <em lang=\"grc\">μ</em> before <em lang=\"grc\">β</em>. Before the vowel of the augment the same prefix shows <em lang=\"grc\">ν</em>, in <em lang=\"grc\">συνεβούλευσα</em>.",
    "options": [
-    "<em>μ</em>, as in the present",
-    "The privative <em>ἀν-</em>",
-    "<em>β</em>, doubled before the <em>ε</em>",
-    "<em>ν</em>"
+    "<em lang=\"grc\">μ</em>, as in the present",
+    "The privative <em lang=\"grc\">ἀν-</em>",
+    "<em lang=\"grc\">β</em>, doubled before the <em lang=\"grc\">ε</em>",
+    "<em lang=\"grc\">ν</em>"
    ],
    "answer": 3
   },
@@ -343,10 +343,10 @@ ARS.exercises["lang.iv.grc/formation-ex"] = {
    "deck": "lang.iv.grc/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In English “sent out,” the past is marked on “sent,” not on “out.” What corresponds to this in <em>ἐξέπεμψα</em>?",
-   "explain": "The prefix stays in the past of <em>ἀπογράφω</em> and of <em>ἐκπέμπω</em>. The augment <em>ε</em> stands between the prefix and the verb, and the prefix itself is not augmented.",
+   "prompt": "In English “sent out,” the past is marked on “sent,” not on “out.” What corresponds to this in <em lang=\"grc\">ἐξέπεμψα</em>?",
+   "explain": "The prefix stays in the past of <em lang=\"grc\">ἀπογράφω</em> and of <em lang=\"grc\">ἐκπέμπω</em>. The augment <em lang=\"grc\">ε</em> stands between the prefix and the verb, and the prefix itself is not augmented.",
    "options": [
-    "The prefix stays, and <em>ε</em> stands between it and the verb",
+    "The prefix stays, and <em lang=\"grc\">ε</em> stands between it and the verb",
     "The prefix is dropped in the past tense",
     "The prefix itself takes the augment",
     "The augment stands at the end of the verb"

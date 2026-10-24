@@ -15,7 +15,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is <i>ἔπεα πτερόεντα</i> (“winged words”)?",
+   "prompt": "Which trope is <i lang=\"grc\">ἔπεα πτερόεντα</i> (“winged words”)?",
    "explain": "Words fly as birds do: a likeness.",
    "options": [
     "Metonymy",
@@ -31,7 +31,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Homer says the meat was held over “Hephaestus” (<i>ὑπείρεχον Ἡφαίστοιο</i>; <i>Iliad</i> II.426), meaning the fire. Which trope is this?",
+   "prompt": "Homer says the meat was held over “Hephaestus” (<i lang=\"grc\">ὑπείρεχον Ἡφαίστοιο</i>; <i lang=\"grc\">Iliad</i> II.426), meaning the fire. Which trope is this?",
    "explain": "The god of fire is put for fire.",
    "options": [
     "Metaphor",
@@ -47,7 +47,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is “ships” called “sails” (<i>ἱστία</i> for <i>νῆες</i>)?",
+   "prompt": "Which trope is “ships” called “sails” (<i lang=\"grc\">ἱστία</i> for <i lang=\"grc\">νῆες</i>)?",
    "explain": "The part, the sail, is put for the whole ship.",
    "options": [
     "Synecdoche",
@@ -63,7 +63,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Someone says <i>καλῶς γε</i> (“splendid!”) to a man who has just lost a battle. Which trope is this?",
+   "prompt": "Someone says <i lang=\"grc\">καλῶς γε</i> (“splendid!”) to a man who has just lost a battle. Which trope is this?",
    "explain": "The words mean the contrary of what is said.",
    "options": [
     "Metaphor",
@@ -80,7 +80,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme repeats a word at the head of successive clauses?",
-   "explain": "As Homer’s <i>Νιρεύς</i> lines do.",
+   "explain": "As Homer’s <i lang=\"grc\">Νιρεύς</i> lines do.",
    "options": [
     "Chiasmus",
     "Antithesis",
@@ -96,7 +96,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme sets members side by side without conjunctions?",
-   "explain": "No <i>καί</i> joins them.",
+   "explain": "No <i lang=\"grc\">καί</i> joins them.",
    "options": [
     "Antithesis",
     "Anaphora",
@@ -127,7 +127,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Pericles says the Athenians “love beauty with economy and love wisdom without softness” (<i>φιλοκαλοῦμέν τε γὰρ μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας</i>; Thucydides II.40). Which scheme is chiefly at work?",
+   "prompt": "Pericles says the Athenians “love beauty with economy and love wisdom without softness” (<i lang=\"grc\">φιλοκαλοῦμέν τε γὰρ μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας</i>; Thucydides II.40). Which scheme is chiefly at work?",
    "explain": "Two matching members, each with an opposed qualification.",
    "options": [
     "Polysyndeton",
@@ -143,8 +143,8 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which scheme is <i>λέγει, πράττει, νικᾷ</i> (“he speaks, he acts, he wins”), with no conjunction?",
-   "explain": "The three verbs stand without <i>καί</i>.",
+   "prompt": "Which scheme is <i lang=\"grc\">λέγει, πράττει, νικᾷ</i> (“he speaks, he acts, he wins”), with no conjunction?",
+   "explain": "The three verbs stand without <i lang=\"grc\">καί</i>.",
    "options": [
     "Antithesis",
     "Anaphora",
@@ -159,7 +159,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>ὁ λόγος ἔργον, τὸ ἔργον λόγος</i> (“the word a deed, the deed a word”), which scheme repeats the terms in reverse order?",
+   "prompt": "In <i lang=\"grc\">ὁ λόγος ἔργον, τὸ ἔργον λόγος</i> (“the word a deed, the deed a word”), which scheme repeats the terms in reverse order?",
    "explain": "Word, deed; deed, word.",
    "options": [
     "Anaphora",
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>πολλοὶ μὲν … πολλοὶ δὲ … πολλοὶ δέ</i> (“many … many … many”) at the head of three clauses, which scheme is used?",
+   "prompt": "In <i lang=\"grc\">πολλοὶ μὲν … πολλοὶ δὲ … πολλοὶ δέ</i> (“many … many … many”) at the head of three clauses, which scheme is used?",
    "explain": "The same word heads each member.",
    "options": [
     "Chiasmus",
@@ -191,7 +191,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Hesiod says “half is more than the whole” (<i>πλέον ἥμισυ παντός</i>; <i>Works and Days</i> 40). Is this a metaphor?",
+   "prompt": "Hesiod says “half is more than the whole” (<i lang=\"grc\">πλέον ἥμισυ παντός</i>; <i lang=\"grc\">Works and Days</i> 40). Is this a metaphor?",
    "explain": "The saying is a paradox: an unjust whole is worth less than a just half.",
    "options": [
     "No; the words keep their sense in a paradox",
@@ -207,7 +207,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope is “the bronze” (<i>ὁ χαλκός</i>) said for “the spear”?",
+   "prompt": "Which trope is “the bronze” (<i lang=\"grc\">ὁ χαλκός</i>) said for “the spear”?",
    "explain": "The material is put for the thing made of it.",
    "options": [
     "Metaphor",
@@ -239,7 +239,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Socrates says at his trial, “The unexamined life is not worth living for a man” (<i>ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ</i>; <i>Apology</i> 38a). Which device is this?",
+   "prompt": "Socrates says at his trial, “The unexamined life is not worth living for a man” (<i lang=\"grc\">ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ</i>; <i lang=\"grc\">Apology</i> 38a). Which device is this?",
    "explain": "It states a general truth; no word is carried over.",
    "options": [
     "A metaphor of the examined life",
@@ -271,7 +271,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Socrates calls himself a gadfly given to the city (<i>Apology</i> 30e). Which trope is this?",
+   "prompt": "Socrates calls himself a gadfly given to the city (<i lang=\"grc\">Apology</i> 30e). Which trope is this?",
    "explain": "He is like a gadfly that stings a horse awake.",
    "options": [
     "Metonymy",
@@ -287,7 +287,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A man says <i>ὡς σοφὸς εἶ</i> (“how wise you are!”) to someone who has just said something foolish. Which trope is this?",
+   "prompt": "A man says <i lang=\"grc\">ὡς σοφὸς εἶ</i> (“how wise you are!”) to someone who has just said something foolish. Which trope is this?",
    "explain": "He says the contrary of what he means, so the trope is irony.",
    "options": [
     "Metaphor",
@@ -303,7 +303,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In <i>οὐ ζῶμεν ἵνα ἐσθίωμεν, ἀλλ’ ἐσθίομεν ἵνα ζῶμεν</i> (“we do not live in order to eat, but eat in order to live”), which scheme orders the terms?",
+   "prompt": "In <i lang=\"grc\">οὐ ζῶμεν ἵνα ἐσθίωμεν, ἀλλ’ ἐσθίομεν ἵνα ζῶμεν</i> (“we do not live in order to eat, but eat in order to live”), which scheme orders the terms?",
    "explain": "Live, eat; eat, live.",
    "options": [
     "Anaphora",
@@ -335,7 +335,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope calls Agamemnon “the lord of men” in place of his name (<i>ἄναξ ἀνδρῶν</i>)?",
+   "prompt": "Which trope calls Agamemnon “the lord of men” in place of his name (<i lang=\"grc\">ἄναξ ἀνδρῶν</i>)?",
    "explain": "A title is put for the proper name.",
    "options": [
     "Metonymy",

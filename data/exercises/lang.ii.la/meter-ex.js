@@ -13,7 +13,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A1",
    "set": "A",
    "type": "identify",
-   "prompt": "With its long vowels marked, <i>Quid faciat laetās segetēs, quō sīdere terram</i> (Virgil, <i>Georgics</i> I.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "With its long vowels marked, <i lang=\"la\">Quid faciat laetās segetēs, quō sīdere terram</i> (Virgil, <i lang=\"la\">Georgics</i> I.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "quid",
     "fa",
@@ -42,7 +42,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     13,
     14
    ],
-   "explain": "Five syllables are long by nature: <i>lae</i> (a diphthong), <i>tās</i>, <i>tēs</i>, <i>quō</i>, and <i>sī</i>. Three are long by position: <i>quid</i>, whose <i>d</i> is followed by the <i>f</i> of <i>faciat</i>; <i>at</i>, whose <i>t</i> is followed by the <i>l</i> of <i>laetās</i>; and <i>ter</i>, before the double <i>r</i>. The last syllable, <i>ram</i>, closes the line. The others are short: <i>ci</i> stands before a vowel, and <i>fa</i>, <i>se</i>, <i>ge</i>, <i>de</i>, and <i>re</i> are open and have short vowels.",
+   "explain": "Five syllables are long by nature: <i lang=\"la\">lae</i> (a diphthong), <i lang=\"la\">tās</i>, <i lang=\"la\">tēs</i>, <i lang=\"la\">quō</i>, and <i lang=\"la\">sī</i>. Three are long by position: <i lang=\"la\">quid</i>, whose <i lang=\"la\">d</i> is followed by the <i lang=\"la\">f</i> of <i lang=\"la\">faciat</i>; <i lang=\"la\">at</i>, whose <i lang=\"la\">t</i> is followed by the <i lang=\"la\">l</i> of <i lang=\"la\">laetās</i>; and <i lang=\"la\">ter</i>, before the double <i lang=\"la\">r</i>. The last syllable, <i lang=\"la\">ram</i>, closes the line. The others are short: <i lang=\"la\">ci</i> stands before a vowel, and <i lang=\"la\">fa</i>, <i lang=\"la\">se</i>, <i lang=\"la\">ge</i>, <i lang=\"la\">de</i>, and <i lang=\"la\">re</i> are open and have short vowels.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -50,15 +50,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A2",
    "set": "A",
    "type": "mc",
-   "prompt": "In the same line, <i>quid faciat laetās</i>, why is the last syllable of <i>faciat</i> long?",
+   "prompt": "In the same line, <i lang=\"la\">quid faciat laetās</i>, why is the last syllable of <i lang=\"la\">faciat</i> long?",
    "options": [
-    "Its <i>a</i> is long by nature",
-    "Its <i>t</i> is followed by the <i>l</i> of <i>laetās</i>",
+    "Its <i lang=\"la\">a</i> is long by nature",
+    "Its <i lang=\"la\">t</i> is followed by the <i lang=\"la\">l</i> of <i lang=\"la\">laetās</i>",
     "It is the last syllable of a verb",
-    "It stands before the diphthong <i>ae</i> of <i>laetās</i>"
+    "It stands before the diphthong <i lang=\"la\">ae</i> of <i lang=\"la\">laetās</i>"
    ],
    "answer": 1,
-   "explain": "The <i>a</i> of <i>faciat</i> is short, but the <i>t</i> that ends the word and the <i>l</i> that begins <i>laetās</i> are two consonants, so the syllable is closed and long by position. The diphthong belongs to the next syllable and does not lengthen this one.",
+   "explain": "The <i lang=\"la\">a</i> of <i lang=\"la\">faciat</i> is short, but the <i lang=\"la\">t</i> that ends the word and the <i lang=\"la\">l</i> that begins <i lang=\"la\">laetās</i> are two consonants, so the syllable is closed and long by position. The diphthong belongs to the next syllable and does not lengthen this one.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -66,7 +66,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A3",
    "set": "A",
    "type": "mc",
-   "prompt": "Scanned, the same line is <i>quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</i>. Which of the first five feet are spondees?",
+   "prompt": "Scanned, the same line is <i lang=\"la\">quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</i>. Which of the first five feet are spondees?",
    "options": [
     "The first and third",
     "The second, fourth, and fifth",
@@ -74,7 +74,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "The first and fifth"
    ],
    "answer": 2,
-   "explain": "<i>at lae</i> and <i>tēs quō</i> are each two long syllables, so the second and fourth feet are spondees. The first, third, and fifth feet (<i>quid fa-ci</i>, <i>tās se-ge</i>, <i>sī-de-re</i>) are each a long syllable and two short ones, that is, dactyls.",
+   "explain": "<i lang=\"la\">at lae</i> and <i lang=\"la\">tēs quō</i> are each two long syllables, so the second and fourth feet are spondees. The first, third, and fifth feet (<i lang=\"la\">quid fa-ci</i>, <i lang=\"la\">tās se-ge</i>, <i lang=\"la\">sī-de-re</i>) are each a long syllable and two short ones, that is, dactyls.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -82,15 +82,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A4",
    "set": "A",
    "type": "mc",
-   "prompt": "In verse the first syllable of <i>cuius</i> (“whose”) is long, although its <i>u</i> is short. Why?",
+   "prompt": "In verse the first syllable of <i lang=\"la\">cuius</i> (“whose”) is long, although its <i lang=\"la\">u</i> is short. Why?",
    "options": [
-    "A mute and a liquid follow its <i>u</i>",
+    "A mute and a liquid follow its <i lang=\"la\">u</i>",
     "A vowel standing before another vowel is long",
-    "Its <i>u</i> is followed by a consonant <i>i</i>",
+    "Its <i lang=\"la\">u</i> is followed by a consonant <i lang=\"la\">i</i>",
     "The accent of the word falls on it"
    ],
    "answer": 2,
-   "explain": "The <i>i</i> of <i>cuius</i> is a consonant standing between two vowels, so the word is pronounced as if it were written <i>cui-ius</i>, and its first syllable is long, although its <i>u</i> is short. A vowel before another vowel is short, not long, and no mute or liquid follows the <i>u</i>.",
+   "explain": "The <i lang=\"la\">i</i> of <i lang=\"la\">cuius</i> is a consonant standing between two vowels, so the word is pronounced as if it were written <i lang=\"la\">cui-ius</i>, and its first syllable is long, although its <i lang=\"la\">u</i> is short. A vowel before another vowel is short, not long, and no mute or liquid follows the <i lang=\"la\">u</i>.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -98,7 +98,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A5",
    "set": "A",
    "type": "mc",
-   "prompt": "What is the meter of this line of Catullus? <i>Iām vēr ēgelidōs refert tepōrēs</i> (<i>Carmina</i> 46.1)",
+   "prompt": "What is the meter of this line of Catullus? <i lang=\"la\">Iām vēr ēgelidōs refert tepōrēs</i> (<i lang=\"la\">Carmina</i> 46.1)",
    "options": [
     "Dactylic hexameter",
     "Hendecasyllable",
@@ -106,7 +106,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "Pentameter"
    ],
    "answer": 1,
-   "explain": "The line has eleven syllables and no elision: <i>Iām vēr ē-ge-li-dōs re-fert te-pō-rēs</i>, in the pattern – – – ∪ ∪ – ∪ – ∪ – –, which is the hendecasyllable. A line of the sapphic stanza also has eleven syllables, but it begins – ∪ –.",
+   "explain": "The line has eleven syllables and no elision: <i lang=\"la\">Iām vēr ē-ge-li-dōs re-fert te-pō-rēs</i>, in the pattern – – – ∪ ∪ – ∪ – ∪ – –, which is the hendecasyllable. A line of the sapphic stanza also has eleven syllables, but it begins – ∪ –.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -116,12 +116,12 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "type": "sort",
    "prompt": "Sort each word by the foot it forms. Every long vowel is marked.",
    "entries": [
-    "<i>fēmina</i> (“woman”)",
-    "<i>littera</i> (“letter”)",
-    "<i>fāmā</i> (“by report”)",
-    "<i>deō</i> (“to the god”)",
-    "<i>causa</i> (“cause”)",
-    "<i>lūna</i> (“moon”)"
+    "<i lang=\"la\">fēmina</i> (“woman”)",
+    "<i lang=\"la\">littera</i> (“letter”)",
+    "<i lang=\"la\">fāmā</i> (“by report”)",
+    "<i lang=\"la\">deō</i> (“to the god”)",
+    "<i lang=\"la\">causa</i> (“cause”)",
+    "<i lang=\"la\">lūna</i> (“moon”)"
    ],
    "bins": [
     "Dactyl",
@@ -137,7 +137,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     3,
     3
    ],
-   "explain": "<i>fē-mi-na</i> and <i>lit-te-ra</i> are each a long syllable and two short ones (dactyls); the first syllable of <i>littera</i> is long by position. <i>fā-mā</i> is two long syllables (a spondee). In <i>de-ō</i> the <i>e</i> stands before a vowel and is short, so the word is a short and a long syllable (an iamb). <i>cau-sa</i> and <i>lū-na</i> are each a long and a short syllable (trochees).",
+   "explain": "<i lang=\"la\">fē-mi-na</i> and <i lang=\"la\">lit-te-ra</i> are each a long syllable and two short ones (dactyls); the first syllable of <i lang=\"la\">littera</i> is long by position. <i lang=\"la\">fā-mā</i> is two long syllables (a spondee). In <i lang=\"la\">de-ō</i> the <i lang=\"la\">e</i> stands before a vowel and is short, so the word is a short and a long syllable (an iamb). <i lang=\"la\">cau-sa</i> and <i lang=\"la\">lū-na</i> are each a long and a short syllable (trochees).",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -145,7 +145,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:mn4",
    "set": "A",
    "type": "mc",
-   "prompt": "What is the meter of this line of Horace? <i>Integer vītae scelerisque pūrus</i> (<i>Odes</i> I.22.1)",
+   "prompt": "What is the meter of this line of Horace? <i lang=\"la\">Integer vītae scelerisque pūrus</i> (<i lang=\"la\">Odes</i> I.22.1)",
    "options": [
     "Hendecasyllable",
     "Dactylic hexameter",
@@ -153,7 +153,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "Line of the sapphic stanza"
    ],
    "answer": 3,
-   "explain": "The line has eleven syllables in the pattern – ∪ – – – ∪ ∪ – ∪ – –: <i>in-te-ger vī-tae sce-le-ris-que pū-rus</i>. That is the line of the sapphic stanza. The hendecasyllable also has eleven syllables, but it begins – – –.",
+   "explain": "The line has eleven syllables in the pattern – ∪ – – – ∪ ∪ – ∪ – –: <i lang=\"la\">in-te-ger vī-tae sce-le-ris-que pū-rus</i>. That is the line of the sapphic stanza. The hendecasyllable also has eleven syllables, but it begins – – –.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -225,9 +225,9 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B1",
    "set": "B",
    "type": "count",
-   "prompt": "How many syllables does this line count in the meter? <i>Conticuēre omnēs intentīque ōra tenēbant</i> (Virgil, <i>Aeneid</i> II.1). Type a number.",
+   "prompt": "How many syllables does this line count in the meter? <i lang=\"la\">Conticuēre omnēs intentīque ōra tenēbant</i> (Virgil, <i lang=\"la\">Aeneid</i> II.1). Type a number.",
    "answer": 14,
-   "explain": "The line has sixteen written syllables. The final <i>e</i> of <i>conticuēre</i> is elided before <i>omnēs</i>, and the final <i>e</i> of <i>intentīque</i> before <i>ōra</i>, so fourteen syllables count in the meter.",
+   "explain": "The line has sixteen written syllables. The final <i lang=\"la\">e</i> of <i lang=\"la\">conticuēre</i> is elided before <i lang=\"la\">omnēs</i>, and the final <i lang=\"la\">e</i> of <i lang=\"la\">intentīque</i> before <i lang=\"la\">ōra</i>, so fourteen syllables count in the meter.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -235,7 +235,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B2",
    "set": "B",
    "type": "identify",
-   "prompt": "After its two elisions, <i>Conticuēre omnēs intentīque ōra tenēbant</i> is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "After its two elisions, <i lang=\"la\">Conticuēre omnēs intentīque ōra tenēbant</i> is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "con",
     "ti",
@@ -264,7 +264,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     12,
     13
    ],
-   "explain": "<i>con</i>, <i>in</i>, and <i>ten</i> are long by position before <i>n</i> and <i>t</i>, and <i>rom</i> before <i>m</i> and <i>n</i>; <i>ē</i>, <i>nēs</i>, <i>tī</i>, <i>quō</i>, and <i>nē</i> are long by nature; and <i>bant</i> closes the line. <i>ti</i> and <i>cu</i> are short because their vowels stand before other vowels, and <i>ra</i> and <i>te</i> are open and have short vowels.",
+   "explain": "<i lang=\"la\">con</i>, <i lang=\"la\">in</i>, and <i lang=\"la\">ten</i> are long by position before <i lang=\"la\">n</i> and <i lang=\"la\">t</i>, and <i lang=\"la\">rom</i> before <i lang=\"la\">m</i> and <i lang=\"la\">n</i>; <i lang=\"la\">ē</i>, <i lang=\"la\">nēs</i>, <i lang=\"la\">tī</i>, <i lang=\"la\">quō</i>, and <i lang=\"la\">nē</i> are long by nature; and <i lang=\"la\">bant</i> closes the line. <i lang=\"la\">ti</i> and <i lang=\"la\">cu</i> are short because their vowels stand before other vowels, and <i lang=\"la\">ra</i> and <i lang=\"la\">te</i> are open and have short vowels.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -272,7 +272,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B3",
    "set": "B",
    "type": "mc",
-   "prompt": "Scanned, the same line is <i>con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</i>. Which of the first five feet are dactyls?",
+   "prompt": "Scanned, the same line is <i lang=\"la\">con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</i>. Which of the first five feet are dactyls?",
    "options": [
     "The first, third, and fifth",
     "The first and fifth",
@@ -280,7 +280,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "The first, fourth, and fifth"
    ],
    "answer": 1,
-   "explain": "<i>con-ti-cu</i> and <i>quō-ra-te</i> are each a long syllable and two short ones, so the first and fifth feet are dactyls. The second, third, and fourth feet (<i>ē-rom</i>, <i>nēs in</i>, <i>ten-tī</i>) are each two long syllables, that is, spondees.",
+   "explain": "<i lang=\"la\">con-ti-cu</i> and <i lang=\"la\">quō-ra-te</i> are each a long syllable and two short ones, so the first and fifth feet are dactyls. The second, third, and fourth feet (<i lang=\"la\">ē-rom</i>, <i lang=\"la\">nēs in</i>, <i lang=\"la\">ten-tī</i>) are each two long syllables, that is, spondees.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -288,15 +288,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B4",
    "set": "B",
    "type": "mc",
-   "prompt": "In Horace’s line <i>nōn eget Maurīs iaculīs neque arcū</i> (<i>Odes</i> I.22.2), why is the syllable <i>get</i> long?",
+   "prompt": "In Horace’s line <i lang=\"la\">nōn eget Maurīs iaculīs neque arcū</i> (<i lang=\"la\">Odes</i> I.22.2), why is the syllable <i lang=\"la\">get</i> long?",
    "options": [
-    "Its <i>e</i> is long by nature",
-    "It stands before the diphthong <i>au</i> of <i>Maurīs</i>",
+    "Its <i lang=\"la\">e</i> is long by nature",
+    "It stands before the diphthong <i lang=\"la\">au</i> of <i lang=\"la\">Maurīs</i>",
     "It is followed by a mute and a liquid",
-    "Its <i>t</i> is followed by the <i>M</i> of <i>Maurīs</i>"
+    "Its <i lang=\"la\">t</i> is followed by the <i lang=\"la\">M</i> of <i lang=\"la\">Maurīs</i>"
    ],
    "answer": 3,
-   "explain": "The <i>e</i> of <i>eget</i> is short, but the final <i>t</i> and the <i>M</i> of <i>Maurīs</i> are two consonants, so the syllable is closed and long by position. The diphthong <i>au</i> belongs to the next syllable and does not lengthen this one.",
+   "explain": "The <i lang=\"la\">e</i> of <i lang=\"la\">eget</i> is short, but the final <i lang=\"la\">t</i> and the <i lang=\"la\">M</i> of <i lang=\"la\">Maurīs</i> are two consonants, so the syllable is closed and long by position. The diphthong <i lang=\"la\">au</i> belongs to the next syllable and does not lengthen this one.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -304,7 +304,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:mn5",
    "set": "B",
    "type": "mc",
-   "prompt": "What is the meter of this short line, which closes a stanza of Horace? <i>Fusce, pharetra</i> (<i>Odes</i> I.22.4)",
+   "prompt": "What is the meter of this short line, which closes a stanza of Horace? <i lang=\"la\">Fusce, pharetra</i> (<i lang=\"la\">Odes</i> I.22.4)",
    "options": [
     "Iambic dimeter",
     "Pentameter",
@@ -320,7 +320,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B6",
    "set": "B",
    "type": "identify",
-   "prompt": "<i>Fusce, pharetra</i> follows the pattern – ∪ ∪ – –, and to fit it Horace measures one common syllable long. Click that syllable.",
+   "prompt": "<i lang=\"la\">Fusce, pharetra</i> follows the pattern – ∪ ∪ – –, and to fit it Horace measures one common syllable long. Click that syllable.",
    "tokens": [
     "fus",
     "ce",
@@ -329,7 +329,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "tra"
    ],
    "answer": 3,
-   "explain": "The <i>e</i> of <i>pharetra</i> is short and is followed by the mute <i>t</i> and the liquid <i>r</i>, so the syllable is common. The fourth place of the adonean must be long, so Horace divides the two consonants, <i>ret-ra</i>, and measures <i>re</i> long.",
+   "explain": "The <i lang=\"la\">e</i> of <i lang=\"la\">pharetra</i> is short and is followed by the mute <i lang=\"la\">t</i> and the liquid <i lang=\"la\">r</i>, so the syllable is common. The fourth place of the adonean must be long, so Horace divides the two consonants, <i lang=\"la\">ret-ra</i>, and measures <i lang=\"la\">re</i> long.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -337,7 +337,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B7",
    "set": "B",
    "type": "mc",
-   "prompt": "The last line of Virgil’s first <i>Eclogue</i>, with its long vowels marked, is <i>maiōrēsque cadunt altīs dē montibus umbrae</i>, scanned <i>mai-iō | rēs-que ca | dunt al | tīs dē | mon-ti-bus | um-brae</i>. What foot is the first?",
+   "prompt": "The last line of Virgil’s first <i lang=\"la\">Eclogue</i>, with its long vowels marked, is <i lang=\"la\">maiōrēsque cadunt altīs dē montibus umbrae</i>, scanned <i lang=\"la\">mai-iō | rēs-que ca | dunt al | tīs dē | mon-ti-bus | um-brae</i>. What foot is the first?",
    "options": [
     "A dactyl",
     "A spondee",
@@ -345,7 +345,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "An anapest"
    ],
    "answer": 1,
-   "explain": "The first syllable, <i>mai</i>, is long, because a consonant <i>i</i> follows its vowel and the word is pronounced as if it were written <i>mai-iōrēsque</i>; <i>iō</i> is long by nature; two long syllables make a spondee.",
+   "explain": "The first syllable, <i lang=\"la\">mai</i>, is long, because a consonant <i lang=\"la\">i</i> follows its vowel and the word is pronounced as if it were written <i lang=\"la\">mai-iōrēsque</i>; <i lang=\"la\">iō</i> is long by nature; two long syllables make a spondee.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -433,7 +433,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C1",
    "set": "C",
    "type": "identify",
-   "prompt": "With its long vowels marked, <i>Multās per gentēs et multa per aequora vectus</i> (Catullus 101.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
+   "prompt": "With its long vowels marked, <i lang=\"la\">Multās per gentēs et multa per aequora vectus</i> (Catullus 101.1) is divided into the syllables below. Click every long syllable, counting the last syllable of the line as long, and then press Check.",
    "tokens": [
     "Mul",
     "tās",
@@ -462,7 +462,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     12,
     13
    ],
-   "explain": "The <i>ā</i> of <i>tās</i> and the <i>ē</i> of <i>tēs</i> are long by nature, and <i>ae</i> is a diphthong. <i>Mul</i>, the first <i>per</i>, <i>gen</i>, <i>et</i>, <i>mul</i>, and <i>vec</i> are long by position, and <i>tus</i> is counted long as the last syllable of the line. The feet are <i>Mul-tās | per gen- | tēs et | mul-ta per | ae-quo-ra | vec-tus</i>: three spondees, two dactyls, and a spondee.",
+   "explain": "The <i lang=\"la\">ā</i> of <i lang=\"la\">tās</i> and the <i lang=\"la\">ē</i> of <i lang=\"la\">tēs</i> are long by nature, and <i lang=\"la\">ae</i> is a diphthong. <i lang=\"la\">Mul</i>, the first <i lang=\"la\">per</i>, <i lang=\"la\">gen</i>, <i lang=\"la\">et</i>, <i lang=\"la\">mul</i>, and <i lang=\"la\">vec</i> are long by position, and <i lang=\"la\">tus</i> is counted long as the last syllable of the line. The feet are <i lang=\"la\">Mul-tās | per gen- | tēs et | mul-ta per | ae-quo-ra | vec-tus</i>: three spondees, two dactyls, and a spondee.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -470,15 +470,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C2",
    "set": "C",
    "type": "mc",
-   "prompt": "In <i>multa per aequora</i>, why is the second <i>per</i> short?",
+   "prompt": "In <i lang=\"la\">multa per aequora</i>, why is the second <i lang=\"la\">per</i> short?",
    "options": [
-    "Its <i>e</i> is elided before <i>aequora</i>",
+    "Its <i lang=\"la\">e</i> is elided before <i lang=\"la\">aequora</i>",
     "A word of one syllable is short in verse",
-    "Its <i>r</i> is followed by a vowel, so the syllable is open",
-    "Its <i>e</i> is short, and a short vowel never makes a long syllable"
+    "Its <i lang=\"la\">r</i> is followed by a vowel, so the syllable is open",
+    "Its <i lang=\"la\">e</i> is short, and a short vowel never makes a long syllable"
    ],
    "answer": 2,
-   "explain": "The <i>r</i> of this <i>per</i> stands before <i>aequora</i>, which begins with a vowel, so only one consonant follows the short <i>e</i>. The <i>r</i> goes with the next vowel, and the syllable is open and short. A final consonant does not by itself make the syllable long. Elision affects only a final vowel or a final vowel followed by <i>m</i>.",
+   "explain": "The <i lang=\"la\">r</i> of this <i lang=\"la\">per</i> stands before <i lang=\"la\">aequora</i>, which begins with a vowel, so only one consonant follows the short <i lang=\"la\">e</i>. The <i lang=\"la\">r</i> goes with the next vowel, and the syllable is open and short. A final consonant does not by itself make the syllable long. Elision affects only a final vowel or a final vowel followed by <i lang=\"la\">m</i>.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -486,7 +486,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C3",
    "set": "C",
    "type": "mc",
-   "prompt": "What is the meter of this line of Catullus? <i>heu miser indignē frāter adēmpte mihī</i> (<i>Carmina</i> 101.6)",
+   "prompt": "What is the meter of this line of Catullus? <i lang=\"la\">heu miser indignē frāter adēmpte mihī</i> (<i lang=\"la\">Carmina</i> 101.6)",
    "options": [
     "Dactylic hexameter, because the line has six feet and no break in the middle",
     "Hendecasyllable",
@@ -494,7 +494,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "Line of the sapphic stanza"
    ],
    "answer": 2,
-   "explain": "The line falls into two halves with a break after <i>gnē</i>, the last syllable of <i>indignē</i>: <i>heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>. Two halves of two and a half feet make the pentameter. The first half has a spondee in its second foot, <i>in-di</i>. There is no elision.",
+   "explain": "The line falls into two halves with a break after <i lang=\"la\">gnē</i>, the last syllable of <i lang=\"la\">indignē</i>: <i lang=\"la\">heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>. Two halves of two and a half feet make the pentameter. The first half has a spondee in its second foot, <i lang=\"la\">in-di</i>. There is no elision.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -502,15 +502,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C4",
    "set": "C",
    "type": "mc",
-   "prompt": "In the same pentameter, <i>heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i>gnē</i>, the syllable before the break, long?",
+   "prompt": "In the same pentameter, <i lang=\"la\">heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i lang=\"la\">gnē</i>, the syllable before the break, long?",
    "options": [
     "A syllable before the break is long whatever its letters",
-    "It is elided before <i>frater</i>",
-    "Its <i>e</i> is long by nature",
+    "It is elided before <i lang=\"la\">frater</i>",
+    "Its <i lang=\"la\">e</i> is long by nature",
     "It is followed by a mute and a liquid inside the word"
    ],
    "answer": 2,
-   "explain": "The <i>ē</i> of <i>indignē</i> is long by nature, so <i>gnē</i> is long. The pentameter requires a long syllable before the break, but the length comes from the word. The syllable is not elided, because <i>frater</i> begins with a consonant.",
+   "explain": "The <i lang=\"la\">ē</i> of <i lang=\"la\">indignē</i> is long by nature, so <i lang=\"la\">gnē</i> is long. The pentameter requires a long syllable before the break, but the length comes from the word. The syllable is not elided, because <i lang=\"la\">frater</i> begins with a consonant.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -518,9 +518,9 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C5",
    "set": "C",
    "type": "count",
-   "prompt": "How many syllables does this line count in the meter? <i>quandoquidem fortūna mihī tētē abstulit ipsum</i> (Catullus 101.5). Type a number.",
+   "prompt": "How many syllables does this line count in the meter? <i lang=\"la\">quandoquidem fortūna mihī tētē abstulit ipsum</i> (Catullus 101.5). Type a number.",
    "answer": 15,
-   "explain": "The line has sixteen written syllables. The second <i>ē</i> of <i>tētē</i> is elided before <i>abstulit</i>, so fifteen syllables count, and the line is a hexameter: <i>quan-do-qui | dem-for | tū-na-mi | hī-tē | t(ē) abs-tu-lit | ip-sum</i>.",
+   "explain": "The line has sixteen written syllables. The second <i lang=\"la\">ē</i> of <i lang=\"la\">tētē</i> is elided before <i lang=\"la\">abstulit</i>, so fifteen syllables count, and the line is a hexameter: <i lang=\"la\">quan-do-qui | dem-for | tū-na-mi | hī-tē | t(ē) abs-tu-lit | ip-sum</i>.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -528,15 +528,15 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C6",
    "set": "C",
    "type": "mc",
-   "prompt": "Which vowel is elided in <i>adveniō hās miserās, frāter, ad īnferiās</i> (Catullus 101.2)?",
+   "prompt": "Which vowel is elided in <i lang=\"la\">adveniō hās miserās, frāter, ad īnferiās</i> (Catullus 101.2)?",
    "options": [
-    "The <i>a</i> of <i>hās</i>",
-    "A vowel of <i>miserās</i>",
-    "None, because <i>h</i> prevents elision",
-    "The final <i>ō</i> of <i>adveniō</i>"
+    "The <i lang=\"la\">a</i> of <i lang=\"la\">hās</i>",
+    "A vowel of <i lang=\"la\">miserās</i>",
+    "None, because <i lang=\"la\">h</i> prevents elision",
+    "The final <i lang=\"la\">ō</i> of <i lang=\"la\">adveniō</i>"
    ],
    "answer": 3,
-   "explain": "The final <i>ō</i> of <i>adveniō</i> stands before <i>hās</i>, and <i>h</i> does not prevent elision, so the <i>ō</i> is elided: <i>ad-ve-ni-(ō) hās</i>. The <i>i</i> before that <i>ō</i> is short, because a vowel before another vowel is short. No vowel of <i>miserās</i> stands before a vowel.",
+   "explain": "The final <i lang=\"la\">ō</i> of <i lang=\"la\">adveniō</i> stands before <i lang=\"la\">hās</i>, and <i lang=\"la\">h</i> does not prevent elision, so the <i lang=\"la\">ō</i> is elided: <i lang=\"la\">ad-ve-ni-(ō) hās</i>. The <i lang=\"la\">i</i> before that <i lang=\"la\">ō</i> is short, because a vowel before another vowel is short. No vowel of <i lang=\"la\">miserās</i> stands before a vowel.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -544,7 +544,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C7",
    "set": "C",
    "type": "mc",
-   "prompt": "Ambrose’s evening hymn begins <i>Deus creātor omnium</i> (“God, creator of all things”). Its syllables are <i>de-us cre-ā-to-rom-ni-um</i>. What foot does each pair of syllables form?",
+   "prompt": "Ambrose’s evening hymn begins <i lang=\"la\">Deus creātor omnium</i> (“God, creator of all things”). Its syllables are <i lang=\"la\">de-us cre-ā-to-rom-ni-um</i>. What foot does each pair of syllables form?",
    "options": [
     "A trochee",
     "A spondee",
@@ -552,7 +552,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "An anapest"
    ],
    "answer": 2,
-   "explain": "Each pair is a short syllable and a long one. <i>de</i> is short before a vowel, and <i>us</i> is long by position before <i>c</i> and <i>r</i>; <i>cre</i> is short before a vowel, and <i>ā</i> is long by nature; <i>to</i> is short because the <i>r</i> of <i>creātor</i> goes with the <i>o</i> of <i>omnium</i>, and <i>rom</i> is long before <i>m</i> and <i>n</i>; <i>ni</i> is short before a vowel, and <i>um</i> closes the line. So the line is four iambs, the iambic dimeter of the hymns.",
+   "explain": "Each pair is a short syllable and a long one. <i lang=\"la\">de</i> is short before a vowel, and <i lang=\"la\">us</i> is long by position before <i lang=\"la\">c</i> and <i lang=\"la\">r</i>; <i lang=\"la\">cre</i> is short before a vowel, and <i lang=\"la\">ā</i> is long by nature; <i>to</i> is short because the <i lang=\"la\">r</i> of <i lang=\"la\">creātor</i> goes with the <i lang=\"la\">o</i> of <i lang=\"la\">omnium</i>, and <i lang=\"la\">rom</i> is long before <i lang=\"la\">m</i> and <i lang=\"la\">n</i>; <i lang=\"la\">ni</i> is short before a vowel, and <i lang=\"la\">um</i> closes the line. So the line is four iambs, the iambic dimeter of the hymns.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },

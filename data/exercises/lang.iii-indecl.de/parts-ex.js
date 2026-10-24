@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Sie kommt <b>morgen</b>.</i> (“She is coming tomorrow.”)",
-   "explain": "<i>Morgen</i> tells when: an adverb.",
+   "prompt": "What is the marked word? <i lang=\"de\">Sie kommt <b>morgen</b>.</i> (“She is coming tomorrow.”)",
+   "explain": "<i lang=\"de\">Morgen</i> tells when: an adverb.",
    "options": [
     "A preposition",
     "A coordinating conjunction",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Er geht <b>über</b> die Brücke.</i> (“He walks over the bridge.”)",
-   "explain": "<i>Über</i> governs <i>die Brücke</i>: a preposition.",
+   "prompt": "What is the marked word? <i lang=\"de\">Er geht <b>über</b> die Brücke.</i> (“He walks over the bridge.”)",
+   "explain": "<i lang=\"de\">Über</i> governs <i lang=\"de\">die Brücke</i>: a preposition.",
    "options": [
     "An adverb",
     "A separable prefix",
@@ -47,8 +47,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Brot <b>und</b> Butter</i> (“bread and butter”)",
-   "explain": "<i>Und</i> joins two words of equal rank.",
+   "prompt": "What is the marked word? <i lang=\"de\">Brot <b>und</b> Butter</i> (“bread and butter”)",
+   "explain": "<i lang=\"de\">Und</i> joins two words of equal rank.",
    "options": [
     "A coordinating conjunction",
     "A subordinating conjunction",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Ich bleibe, <b>weil</b> es regnet.</i> (“I am staying because it is raining.”)",
-   "explain": "<i>Weil</i> introduces a dependent clause and sends the verb to the end.",
+   "prompt": "What is the marked word? <i lang=\"de\">Ich bleibe, <b>weil</b> es regnet.</i> (“I am staying because it is raining.”)",
+   "explain": "<i lang=\"de\">Weil</i> introduces a dependent clause and sends the verb to the end.",
    "options": [
     "A coordinating conjunction",
     "A subordinating conjunction",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i><b>Ach</b>, das ist schade!</i> (“Oh, that is a pity!”)",
-   "explain": "<i>Ach</i> expresses a feeling: an interjection.",
+   "prompt": "What is the marked word? <i lang=\"de\"><b>Ach</b>, das ist schade!</i> (“Oh, that is a pity!”)",
+   "explain": "<i lang=\"de\">Ach</i> expresses a feeling: an interjection.",
    "options": [
     "An adverb",
     "A modal particle",
@@ -95,8 +95,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Wir kaufen morgen <b>ein</b>.</i> (“We are going shopping tomorrow.”)",
-   "explain": "<i>Ein</i> belongs to <i>einkaufen</i> and goes to the end of the main clause.",
+   "prompt": "What is the marked word? <i lang=\"de\">Wir kaufen morgen <b>ein</b>.</i> (“We are going shopping tomorrow.”)",
+   "explain": "<i lang=\"de\">Ein</i> belongs to <i lang=\"de\">einkaufen</i> and goes to the end of the main clause.",
    "options": [
     "A preposition",
     "A separable prefix",
@@ -111,13 +111,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich glaube, dass sie heute ___.</i> (“I believe that she is coming today”).",
-   "explain": "<i>Dass</i> sends the finite verb to the end of its clause.",
+   "prompt": "Choose the form: <i lang=\"de\">Ich glaube, dass sie heute ___.</i> (“I believe that she is coming today”).",
+   "explain": "<i lang=\"de\">Dass</i> sends the finite verb to the end of its clause.",
    "options": [
-    "<i>kommt</i>",
-    "<i>kommt sie</i>",
-    "<i>sie kommt</i>",
-    "<i>kommen</i>"
+    "<i lang=\"de\">kommt</i>",
+    "<i lang=\"de\">kommt sie</i>",
+    "<i lang=\"de\">sie kommt</i>",
+    "<i lang=\"de\">kommen</i>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er ist müde, ___ er hat schlecht geschlafen.</i> (“He is tired, for he slept badly”).",
-   "explain": "<i>Denn</i> is coordinating and keeps the order of the next clause; <i>weil</i> would send the verb to the end.",
+   "prompt": "Choose the form: <i lang=\"de\">Er ist müde, ___ er hat schlecht geschlafen.</i> (“He is tired, for he slept badly”).",
+   "explain": "<i lang=\"de\">Denn</i> is coordinating and keeps the order of the next clause; <i lang=\"de\">weil</i> would send the verb to the end.",
    "options": [
-    "<i>weil</i>",
-    "<i>dass</i>",
-    "<i>obwohl</i>",
-    "<i>denn</i>"
+    "<i lang=\"de\">weil</i>",
+    "<i lang=\"de\">dass</i>",
+    "<i lang=\"de\">obwohl</i>",
+    "<i lang=\"de\">denn</i>"
    ],
    "answer": 3
   },
@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Komm <b>doch</b> herein!</i> (“Do come in!”)",
-   "explain": "<i>Doch</i> urges gently here: a modal particle.",
+   "prompt": "What is the marked word? <i lang=\"de\">Komm <b>doch</b> herein!</i> (“Do come in!”)",
+   "explain": "<i lang=\"de\">Doch</i> urges gently here: a modal particle.",
    "options": [
     "A coordinating conjunction",
     "An adverb",
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Was ist <b>denn</b> los?</i> (“What on earth is the matter?”)",
-   "explain": "In a question, <i>denn</i> is a modal particle showing interest.",
+   "prompt": "What is the marked word? <i lang=\"de\">Was ist <b>denn</b> los?</i> (“What on earth is the matter?”)",
+   "explain": "In a question, <i lang=\"de\">denn</i> is a modal particle showing interest.",
    "options": [
     "A coordinating conjunction",
     "A modal particle",
@@ -175,8 +175,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Wir warten, <b>bis</b> er kommt.</i> (“We are waiting until he comes.”)",
-   "explain": "Here <i>bis</i> introduces a clause with its own verb: a subordinating conjunction. In <i>bis Montag</i> it would be a preposition.",
+   "prompt": "What is the marked word? <i lang=\"de\">Wir warten, <b>bis</b> er kommt.</i> (“We are waiting until he comes.”)",
+   "explain": "Here <i lang=\"de\">bis</i> introduces a clause with its own verb: a subordinating conjunction. In <i lang=\"de\">bis Montag</i> it would be a preposition.",
    "options": [
     "A subordinating conjunction",
     "A preposition",
@@ -191,8 +191,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Ich arbeite <b>bis</b> Montag.</i> (“I am working until Monday.”)",
-   "explain": "Before a noun, <i>bis</i> is a preposition.",
+   "prompt": "What is the marked word? <i lang=\"de\">Ich arbeite <b>bis</b> Montag.</i> (“I am working until Monday.”)",
+   "explain": "Before a noun, <i lang=\"de\">bis</i> is a preposition.",
    "options": [
     "A subordinating conjunction",
     "An adverb",
@@ -207,13 +207,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Das ist nicht mein Hut, ___ deiner.</i> (“That is not my hat but yours”).",
-   "explain": "After a negative, <i>sondern</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Das ist nicht mein Hut, ___ deiner.</i> (“That is not my hat but yours”).",
+   "explain": "After a negative, <i lang=\"de\">sondern</i>.",
    "options": [
-    "<i>aber</i>",
-    "<i>oder</i>",
-    "<i>sondern</i>",
-    "<i>denn</i>"
+    "<i lang=\"de\">aber</i>",
+    "<i lang=\"de\">oder</i>",
+    "<i lang=\"de\">sondern</i>",
+    "<i lang=\"de\">denn</i>"
    ],
    "answer": 2
   },
@@ -223,13 +223,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er fragt, ___ du mitkommst.</i> (“He asks whether you are coming along”).",
-   "explain": "“Whether” is <i>ob</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Er fragt, ___ du mitkommst.</i> (“He asks whether you are coming along”).",
+   "explain": "“Whether” is <i lang=\"de\">ob</i>.",
    "options": [
-    "<i>wenn</i>",
-    "<i>ob</i>",
-    "<i>dass</i>",
-    "<i>als</i>"
+    "<i lang=\"de\">wenn</i>",
+    "<i lang=\"de\">ob</i>",
+    "<i lang=\"de\">dass</i>",
+    "<i lang=\"de\">als</i>"
    ],
    "answer": 1
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>___ ich ein Kind war, wohnten wir in Bonn.</i> (“When I was a child, we lived in Bonn”).",
-   "explain": "For one period or event in the past, <i>als</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">___ ich ein Kind war, wohnten wir in Bonn.</i> (“When I was a child, we lived in Bonn”).",
+   "explain": "For one period or event in the past, <i lang=\"de\">als</i>.",
    "options": [
-    "<i>Wenn</i>",
-    "<i>Wann</i>",
-    "<i>Ob</i>",
-    "<i>Als</i>"
+    "<i lang=\"de\">Wenn</i>",
+    "<i lang=\"de\">Wann</i>",
+    "<i lang=\"de\">Ob</i>",
+    "<i lang=\"de\">Als</i>"
    ],
    "answer": 3
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Er hat das Paket ___.</i> (“He has picked up the parcel”).",
-   "explain": "The participle of a separable verb puts <i>ge-</i> between the prefix and the stem.",
+   "prompt": "Choose the form: <i lang=\"de\">Er hat das Paket ___.</i> (“He has picked up the parcel”).",
+   "explain": "The participle of a separable verb puts <i lang=\"de\">ge-</i> between the prefix and the stem.",
    "options": [
-    "<i>abgeholt</i>",
-    "<i>geabholt</i>",
-    "<i>abholte</i>",
-    "<i>abgeholen</i>"
+    "<i lang=\"de\">abgeholt</i>",
+    "<i lang=\"de\">geabholt</i>",
+    "<i lang=\"de\">abholte</i>",
+    "<i lang=\"de\">abgeholen</i>"
    ],
    "answer": 0
   },
@@ -271,13 +271,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Es war kalt; deshalb ___ wir zu Hause.</i> (“It was cold; therefore we stayed at home”).",
-   "explain": "<i>Deshalb</i> in first place puts the verb second, before the subject.",
+   "prompt": "Choose the form: <i lang=\"de\">Es war kalt; deshalb ___ wir zu Hause.</i> (“It was cold; therefore we stayed at home”).",
+   "explain": "<i lang=\"de\">Deshalb</i> in first place puts the verb second, before the subject.",
    "options": [
-    "<i>wir blieben</i>",
-    "<i>blieben</i>",
-    "<i>bleiben</i>",
-    "<i>geblieben</i>"
+    "<i lang=\"de\">wir blieben</i>",
+    "<i lang=\"de\">blieben</i>",
+    "<i lang=\"de\">bleiben</i>",
+    "<i lang=\"de\">geblieben</i>"
    ],
    "answer": 1
   },
@@ -287,13 +287,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Sie hat versprochen, früh ___.</i> (“She promised to get up early”).",
-   "explain": "<i>Zu</i> stands between the separable prefix and the stem.",
+   "prompt": "Choose the form: <i lang=\"de\">Sie hat versprochen, früh ___.</i> (“She promised to get up early”).",
+   "explain": "<i lang=\"de\">Zu</i> stands between the separable prefix and the stem.",
    "options": [
-    "<i>zu aufstehen</i>",
-    "<i>aufstehen zu</i>",
-    "<i>aufzustehen</i>",
-    "<i>aufgestanden</i>"
+    "<i lang=\"de\">zu aufstehen</i>",
+    "<i lang=\"de\">aufstehen zu</i>",
+    "<i lang=\"de\">aufzustehen</i>",
+    "<i lang=\"de\">aufgestanden</i>"
    ],
    "answer": 2
   },
@@ -304,12 +304,12 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence is correct? (“He does not understand the question.”)",
-   "explain": "<i>Ver-</i> is inseparable, so <i>verstehen</i> is never split and takes no <i>ge-</i>.",
+   "explain": "<i lang=\"de\">Ver-</i> is inseparable, so <i lang=\"de\">verstehen</i> is never split and takes no <i lang=\"de\">ge-</i>.",
    "options": [
-    "<i>Er steht die Frage nicht ver.</i>",
-    "<i>Er hat die Frage geverstanden.</i>",
-    "<i>Er stehe die Frage nicht ver.</i>",
-    "<i>Er versteht die Frage nicht.</i>"
+    "<i lang=\"de\">Er steht die Frage nicht ver.</i>",
+    "<i lang=\"de\">Er hat die Frage geverstanden.</i>",
+    "<i lang=\"de\">Er stehe die Frage nicht ver.</i>",
+    "<i lang=\"de\">Er versteht die Frage nicht.</i>"
    ],
    "answer": 3
   },
@@ -319,8 +319,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Das ist <b>ja</b> schön.</i> (“Well, that is lovely.”)",
-   "explain": "Unstressed in the middle of the clause, <i>ja</i> is a modal particle.",
+   "prompt": "What is the marked word? <i lang=\"de\">Das ist <b>ja</b> schön.</i> (“Well, that is lovely.”)",
+   "explain": "Unstressed in the middle of the clause, <i lang=\"de\">ja</i> is a modal particle.",
    "options": [
     "A modal particle",
     "An interjection",
@@ -335,13 +335,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Obwohl es spät ___, arbeitet er weiter.</i> (“Although it is late, he keeps working”).",
-   "explain": "<i>Obwohl</i> sends the finite verb to the end.",
+   "prompt": "Choose the form: <i lang=\"de\">Obwohl es spät ___, arbeitet er weiter.</i> (“Although it is late, he keeps working”).",
+   "explain": "<i lang=\"de\">Obwohl</i> sends the finite verb to the end.",
    "options": [
-    "<i>ist es</i>",
-    "<i>ist</i>",
-    "<i>sei</i>",
-    "<i>war es</i>"
+    "<i lang=\"de\">ist es</i>",
+    "<i lang=\"de\">ist</i>",
+    "<i lang=\"de\">sei</i>",
+    "<i lang=\"de\">war es</i>"
    ],
    "answer": 1
   },
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Ich weiß nicht, wann der Film ___.</i> (“I don’t know when the film begins”).",
+   "prompt": "Choose the form: <i lang=\"de\">Ich weiß nicht, wann der Film ___.</i> (“I don’t know when the film begins”).",
    "explain": "In a dependent clause the separable verb is joined again at the end.",
    "options": [
-    "<i>fängt an</i>",
-    "<i>fängt … an</i>",
-    "<i>anfängt</i>",
-    "<i>anfangen</i>"
+    "<i lang=\"de\">fängt an</i>",
+    "<i lang=\"de\">fängt … an</i>",
+    "<i lang=\"de\">anfängt</i>",
+    "<i lang=\"de\">anfangen</i>"
    ],
    "answer": 2
   },
@@ -367,8 +367,8 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "What is the marked word? <i>Er ist <b>eben</b> müde.</i> (“He is simply tired.”)",
-   "explain": "<i>Eben</i> marks what cannot be helped: a modal particle.",
+   "prompt": "What is the marked word? <i lang=\"de\">Er ist <b>eben</b> müde.</i> (“He is simply tired.”)",
+   "explain": "<i lang=\"de\">Eben</i> marks what cannot be helped: a modal particle.",
    "options": [
     "An adverb",
     "A coordinating conjunction",
@@ -383,13 +383,13 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "deck": "lang.iii-indecl.de/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Nachdem er gegessen ___, ging er spazieren.</i> (“After he had eaten, he went for a walk”).",
-   "explain": "<i>Nachdem</i> sends the finite verb to the end; <i>essen</i> takes <i>haben</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Nachdem er gegessen ___, ging er spazieren.</i> (“After he had eaten, he went for a walk”).",
+   "explain": "<i lang=\"de\">Nachdem</i> sends the finite verb to the end; <i lang=\"de\">essen</i> takes <i lang=\"de\">haben</i>.",
    "options": [
-    "<i>hatte</i>",
-    "<i>hat</i>",
-    "<i>hatte er</i>",
-    "<i>war</i>"
+    "<i lang=\"de\">hatte</i>",
+    "<i lang=\"de\">hat</i>",
+    "<i lang=\"de\">hatte er</i>",
+    "<i lang=\"de\">war</i>"
    ],
    "answer": 0
   }

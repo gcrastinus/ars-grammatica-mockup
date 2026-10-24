@@ -16,8 +16,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun in <em>-tor</em> made from <em>audiō</em> (“to hear”).",
-   "explain": "The suffix <em>-tor</em> names the doer. From <em>audiō</em> the noun is <em>audītor</em>, the one who hears.",
+   "prompt": "Write the noun in <em lang=\"la\">-tor</em> made from <em lang=\"la\">audiō</em> (“to hear”).",
+   "explain": "The suffix <em lang=\"la\">-tor</em> names the doer. From <em lang=\"la\">audiō</em> the noun is <em lang=\"la\">audītor</em>, the one who hears.",
    "answer": "audītor"
   },
   {
@@ -27,8 +27,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun in <em>-tiō</em> made from <em>legō</em> (“to read”).",
-   "explain": "The suffix <em>-tiō</em> names the action. From <em>legō</em> the noun is <em>lēctiō</em>, a reading.",
+   "prompt": "Write the noun in <em lang=\"la\">-tiō</em> made from <em lang=\"la\">legō</em> (“to read”).",
+   "explain": "The suffix <em lang=\"la\">-tiō</em> names the action. From <em lang=\"la\">legō</em> the noun is <em lang=\"la\">lēctiō</em>, a reading.",
    "answer": "lēctiō"
   },
   {
@@ -38,8 +38,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun of quality that <em>-tās</em> makes from <em>aequus</em> (“even”).",
-   "explain": "The suffix <em>-tās</em> makes a noun of quality from an adjective. From <em>aequus</em> the noun is <em>aequitās</em>, evenness.",
+   "prompt": "Write the noun of quality that <em lang=\"la\">-tās</em> makes from <em lang=\"la\">aequus</em> (“even”).",
+   "explain": "The suffix <em lang=\"la\">-tās</em> makes a noun of quality from an adjective. From <em lang=\"la\">aequus</em> the noun is <em lang=\"la\">aequitās</em>, evenness.",
    "answer": "aequitās"
   },
   {
@@ -49,8 +49,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the noun that <em>-tūdō</em> makes from <em>longus</em> (“long”).",
-   "explain": "The suffix <em>-tūdō</em> makes a noun of quality. From <em>longus</em> the noun is <em>longitūdō</em>, length.",
+   "prompt": "Write the noun that <em lang=\"la\">-tūdō</em> makes from <em lang=\"la\">longus</em> (“long”).",
+   "explain": "The suffix <em lang=\"la\">-tūdō</em> makes a noun of quality. From <em lang=\"la\">longus</em> the noun is <em lang=\"la\">longitūdō</em>, length.",
    "answer": "longitūdō"
   },
   {
@@ -60,8 +60,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the adjective made from <em>studium</em> (“zeal”) that means full of zeal.",
-   "explain": "The suffix <em>-ōsus</em> means full of. From <em>studium</em> the adjective is <em>studiōsus</em>.",
+   "prompt": "Write the adjective made from <em lang=\"la\">studium</em> (“zeal”) that means full of zeal.",
+   "explain": "The suffix <em lang=\"la\">-ōsus</em> means full of. From <em lang=\"la\">studium</em> the adjective is <em lang=\"la\">studiōsus</em>.",
    "answer": "studiōsus"
   },
   {
@@ -70,8 +70,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the declension of <em>missiō</em> (“a sending”).",
-   "explain": "A noun in <em>-tiō</em> belongs to the third declension. <em>missiō</em>, from <em>mittō</em>, is such a noun. The genitive singular of that declension ends in <em>-is</em>.",
+   "prompt": "Choose the declension of <em lang=\"la\">missiō</em> (“a sending”).",
+   "explain": "A noun in <em lang=\"la\">-tiō</em> belongs to the third declension. <em lang=\"la\">missiō</em>, from <em lang=\"la\">mittō</em>, is such a noun. The genitive singular of that declension ends in <em lang=\"la\">-is</em>.",
    "options": [
     "The first",
     "The second",
@@ -86,13 +86,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the suffix that makes the noun of quality from <em>fortis</em> (“brave”).",
-   "explain": "The noun of quality from <em>fortis</em> is <em>fortitūdō</em>, made with <em>-tūdō</em>. <em>-tās</em> is the other suffix of quality. <em>-ōsus</em> means full of, and <em>-ilis</em> is the suffix of <em>facilis</em>.",
+   "prompt": "Choose the suffix that makes the noun of quality from <em lang=\"la\">fortis</em> (“brave”).",
+   "explain": "The noun of quality from <em lang=\"la\">fortis</em> is <em lang=\"la\">fortitūdō</em>, made with <em lang=\"la\">-tūdō</em>. <em lang=\"la\">-tās</em> is the other suffix of quality. <em lang=\"la\">-ōsus</em> means full of, and <em lang=\"la\">-ilis</em> is the suffix of <em lang=\"la\">facilis</em>.",
    "options": [
-    "<em>-tās</em>",
-    "<em>-ōsus</em>",
-    "<em>-tūdō</em>",
-    "<em>-ilis</em>"
+    "<em lang=\"la\">-tās</em>",
+    "<em lang=\"la\">-ōsus</em>",
+    "<em lang=\"la\">-tūdō</em>",
+    "<em lang=\"la\">-ilis</em>"
    ],
    "answer": 2
   },
@@ -102,13 +102,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose what a short <em>a</em> becomes in a compound when it stands before two consonants.",
-   "explain": "Allen and Greenough state that a short <em>a</em> is weakened to <em>e</em> before two consonants, and to <em>i</em> before one consonant. <em>ae</em> becomes <em>ī</em>, which is a different change.",
+   "prompt": "Choose what a short <em lang=\"la\">a</em> becomes in a compound when it stands before two consonants.",
+   "explain": "Allen and Greenough state that a short <em lang=\"la\">a</em> is weakened to <em lang=\"la\">e</em> before two consonants, and to <em lang=\"la\">i</em> before one consonant. <em lang=\"la\">ae</em> becomes <em lang=\"la\">ī</em>, which is a different change.",
    "options": [
-    "<em>i</em>",
-    "<em>e</em>",
-    "<em>ī</em>",
-    "<em>ū</em>"
+    "<em lang=\"la\">i</em>",
+    "<em lang=\"la\">e</em>",
+    "<em lang=\"la\">ī</em>",
+    "<em lang=\"la\">ū</em>"
    ],
    "answer": 1
   },
@@ -119,8 +119,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>re-</em> and <em>premō</em> (“to press”).",
-   "explain": "<em>re-</em> joined to <em>premō</em> is written <em>reprimō</em>. The short <em>e</em> appears as <em>i</em>, and the compound means to press back.",
+   "prompt": "Write the compound of <em lang=\"la\">re-</em> and <em lang=\"la\">premō</em> (“to press”).",
+   "explain": "<em lang=\"la\">re-</em> joined to <em lang=\"la\">premō</em> is written <em lang=\"la\">reprimō</em>. The short <em lang=\"la\">e</em> appears as <em lang=\"la\">i</em>, and the compound means to press back.",
    "answer": "reprimō"
   },
   {
@@ -130,8 +130,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>re-</em> and <em>quaerō</em> (“to seek”).",
-   "explain": "<em>re-</em> joined to <em>quaerō</em> is <em>requīrō</em>. The diphthong <em>ae</em> becomes <em>ī</em>.",
+   "prompt": "Write the compound of <em lang=\"la\">re-</em> and <em lang=\"la\">quaerō</em> (“to seek”).",
+   "explain": "<em lang=\"la\">re-</em> joined to <em lang=\"la\">quaerō</em> is <em lang=\"la\">requīrō</em>. The diphthong <em lang=\"la\">ae</em> becomes <em lang=\"la\">ī</em>.",
    "answer": "requīrō"
   },
   {
@@ -141,8 +141,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>ad</em> (“to”) and <em>emō</em> (“to take”).",
-   "explain": "<em>ad</em> joined to <em>emō</em> is <em>adimō</em>. The short <em>e</em> appears as <em>i</em>, as the <em>e</em> of <em>teneō</em> appears as <em>i</em> in <em>contineō</em>. The compound means to take away.",
+   "prompt": "Write the compound of <em lang=\"la\">ad</em> (“to”) and <em lang=\"la\">emō</em> (“to take”).",
+   "explain": "<em lang=\"la\">ad</em> joined to <em lang=\"la\">emō</em> is <em lang=\"la\">adimō</em>. The short <em lang=\"la\">e</em> appears as <em lang=\"la\">i</em>, as the <em lang=\"la\">e</em> of <em lang=\"la\">teneō</em> appears as <em lang=\"la\">i</em> in <em lang=\"la\">contineō</em>. The compound means to take away.",
    "answer": "adimō"
   },
   {
@@ -152,8 +152,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>ad</em> and <em>currō</em> (“to run”).",
-   "explain": "<em>ad</em> joined to <em>currō</em> is written <em>accurrō</em>. The <em>d</em> is assimilated to <em>c</em>, and the compound means to run to.",
+   "prompt": "Write the compound of <em lang=\"la\">ad</em> and <em lang=\"la\">currō</em> (“to run”).",
+   "explain": "<em lang=\"la\">ad</em> joined to <em lang=\"la\">currō</em> is written <em lang=\"la\">accurrō</em>. The <em lang=\"la\">d</em> is assimilated to <em lang=\"la\">c</em>, and the compound means to run to.",
    "answer": "accurrō"
   },
   {
@@ -162,13 +162,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the change that <em>premō</em> shows in <em>reprimō</em>.",
-   "explain": "<em>premō</em> has a short <em>e</em>, and in <em>reprimō</em> that <em>e</em> appears as <em>i</em>. The word does not show <em>ae</em> becoming <em>ī</em>, or a short <em>a</em> becoming <em>e</em> before two consonants.",
+   "prompt": "Choose the change that <em lang=\"la\">premō</em> shows in <em lang=\"la\">reprimō</em>.",
+   "explain": "<em lang=\"la\">premō</em> has a short <em lang=\"la\">e</em>, and in <em lang=\"la\">reprimō</em> that <em lang=\"la\">e</em> appears as <em lang=\"la\">i</em>. The word does not show <em lang=\"la\">ae</em> becoming <em lang=\"la\">ī</em>, or a short <em lang=\"la\">a</em> becoming <em lang=\"la\">e</em> before two consonants.",
    "options": [
-    "Short <em>e</em> appears as <em>i</em>",
-    "Short <em>a</em> becomes <em>e</em> before two consonants",
-    "<em>ae</em> becomes <em>ī</em> in the compound",
-    "<em>au</em> appears as <em>ū</em>"
+    "Short <em lang=\"la\">e</em> appears as <em lang=\"la\">i</em>",
+    "Short <em lang=\"la\">a</em> becomes <em lang=\"la\">e</em> before two consonants",
+    "<em lang=\"la\">ae</em> becomes <em lang=\"la\">ī</em> in the compound",
+    "<em lang=\"la\">au</em> appears as <em lang=\"la\">ū</em>"
    ],
    "answer": 0
   },
@@ -178,13 +178,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose why <em>ad</em> joined to <em>currō</em> is written <em>accurrō</em>.",
-   "explain": "Before <em>c</em>, the <em>d</em> of <em>ad</em> becomes <em>c</em>. <em>accurrō</em> therefore begins with <em>acc-</em>. The vowel of <em>currō</em> is not the change this question asks about.",
+   "prompt": "Choose why <em lang=\"la\">ad</em> joined to <em lang=\"la\">currō</em> is written <em lang=\"la\">accurrō</em>.",
+   "explain": "Before <em lang=\"la\">c</em>, the <em lang=\"la\">d</em> of <em lang=\"la\">ad</em> becomes <em lang=\"la\">c</em>. <em lang=\"la\">accurrō</em> therefore begins with <em lang=\"la\">acc-</em>. The vowel of <em lang=\"la\">currō</em> is not the change this question asks about.",
    "options": [
-    "<em>ae</em> has become <em>ī</em>",
-    "The <em>n</em> of <em>con</em> has become <em>r</em>",
-    "The <em>d</em> of <em>ad</em> has become <em>c</em>",
-    "The <em>s</em> of <em>dis-</em> has been assimilated to <em>f</em>"
+    "<em lang=\"la\">ae</em> has become <em lang=\"la\">ī</em>",
+    "The <em lang=\"la\">n</em> of <em lang=\"la\">con</em> has become <em lang=\"la\">r</em>",
+    "The <em lang=\"la\">d</em> of <em lang=\"la\">ad</em> has become <em lang=\"la\">c</em>",
+    "The <em lang=\"la\">s</em> of <em lang=\"la\">dis-</em> has been assimilated to <em lang=\"la\">f</em>"
    ],
    "answer": 2
   },
@@ -194,13 +194,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the simple verb in the compound <em>requīrō</em>.",
-   "explain": "<em>requīrō</em> is <em>re-</em> joined to <em>quaerō</em>, and <em>ae</em> has become <em>ī</em>. <em>premō</em>, <em>emō</em>, and <em>capiō</em> are the simple verbs of other compounds.",
+   "prompt": "Choose the simple verb in the compound <em lang=\"la\">requīrō</em>.",
+   "explain": "<em lang=\"la\">requīrō</em> is <em lang=\"la\">re-</em> joined to <em lang=\"la\">quaerō</em>, and <em lang=\"la\">ae</em> has become <em lang=\"la\">ī</em>. <em lang=\"la\">premō</em>, <em lang=\"la\">emō</em>, and <em lang=\"la\">capiō</em> are the simple verbs of other compounds.",
    "options": [
-    "<em>premō</em>",
-    "<em>capiō</em>",
-    "<em>quaerō</em>",
-    "<em>emō</em>"
+    "<em lang=\"la\">premō</em>",
+    "<em lang=\"la\">capiō</em>",
+    "<em lang=\"la\">quaerō</em>",
+    "<em lang=\"la\">emō</em>"
    ],
    "answer": 2
   },
@@ -210,8 +210,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "In <em>acceptus</em>, the participle of <em>accipiō</em>, the short a of <em>captus</em> stands before two consonants. Choose the vowel that it becomes.",
-   "explain": "Short a before two consonants becomes e in a compound: <em>captus</em>, <em>acceptus</em>.",
+   "prompt": "In <em lang=\"la\">acceptus</em>, the participle of <em lang=\"la\">accipiō</em>, the short a of <em lang=\"la\">captus</em> stands before two consonants. Choose the vowel that it becomes.",
+   "explain": "Short a before two consonants becomes e in a compound: <em lang=\"la\">captus</em>, <em lang=\"la\">acceptus</em>.",
    "options": [
     "i",
     "e",
@@ -227,8 +227,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>con</em> and <em>ruō</em> (“to rush”).",
-   "explain": "<em>con</em> joined to <em>ruō</em> is written <em>corruō</em>. The <em>n</em> becomes <em>r</em>, and the compound means to fall in a heap.",
+   "prompt": "Write the compound of <em lang=\"la\">con</em> and <em lang=\"la\">ruō</em> (“to rush”).",
+   "explain": "<em lang=\"la\">con</em> joined to <em lang=\"la\">ruō</em> is written <em lang=\"la\">corruō</em>. The <em lang=\"la\">n</em> becomes <em lang=\"la\">r</em>, and the compound means to fall in a heap.",
    "answer": "corruō"
   },
   {
@@ -238,8 +238,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>dis-</em> and <em>ferō</em> (“to carry”).",
-   "explain": "<em>dis-</em> joined to <em>ferō</em> is written <em>differō</em>. Allen and Greenough list <em>differō</em> among the compounds of <em>ferō</em>, and the <em>s</em> is assimilated to <em>f</em>.",
+   "prompt": "Write the compound of <em lang=\"la\">dis-</em> and <em lang=\"la\">ferō</em> (“to carry”).",
+   "explain": "<em lang=\"la\">dis-</em> joined to <em lang=\"la\">ferō</em> is written <em lang=\"la\">differō</em>. Allen and Greenough list <em lang=\"la\">differō</em> among the compounds of <em lang=\"la\">ferō</em>, and the <em lang=\"la\">s</em> is assimilated to <em lang=\"la\">f</em>.",
    "answer": "differō"
   },
   {
@@ -249,8 +249,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the compound of <em>re-</em> and <em>capiō</em> (“to take”).",
-   "explain": "Short a before one consonant becomes i: <em>capiō</em>, <em>recipiō</em>.",
+   "prompt": "Write the compound of <em lang=\"la\">re-</em> and <em lang=\"la\">capiō</em> (“to take”).",
+   "explain": "Short a before one consonant becomes i: <em lang=\"la\">capiō</em>, <em lang=\"la\">recipiō</em>.",
    "answer": "reficiō",
    "accept": [
     "recipiō",
@@ -264,8 +264,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "section": "iv",
    "type": "form",
    "macrons": false,
-   "prompt": "Write the participle of <em>recipiō</em> in which the short a of <em>captus</em> stands before two consonants and becomes e.",
-   "explain": "Before two consonants the a becomes e: <em>captus</em>, <em>receptus</em>.",
+   "prompt": "Write the participle of <em lang=\"la\">recipiō</em> in which the short a of <em lang=\"la\">captus</em> stands before two consonants and becomes e.",
+   "explain": "Before two consonants the a becomes e: <em lang=\"la\">captus</em>, <em lang=\"la\">receptus</em>.",
    "answer": "affectus",
    "accept": [
     "receptus"
@@ -277,8 +277,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the meaning of <em>accurrō</em>, read from <em>ad</em> (“to”) and <em>currō</em> (“to run”).",
-   "explain": "<em>ad</em> means to, and <em>currō</em> means to run, so <em>accurrō</em> means to run to. Pressing back, taking away, and falling in a heap are the meanings of other compounds.",
+   "prompt": "Choose the meaning of <em lang=\"la\">accurrō</em>, read from <em lang=\"la\">ad</em> (“to”) and <em lang=\"la\">currō</em> (“to run”).",
+   "explain": "<em lang=\"la\">ad</em> means to, and <em lang=\"la\">currō</em> means to run, so <em lang=\"la\">accurrō</em> means to run to. Pressing back, taking away, and falling in a heap are the meanings of other compounds.",
    "options": [
     "To fall in a heap",
     "To run to",
@@ -293,13 +293,13 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the simple verb in the compound <em>corruō</em> (“to fall in a heap”).",
-   "explain": "<em>corruō</em> is <em>con</em> joined to <em>ruō</em> (“to rush”), and the <em>n</em> has become <em>r</em>. <em>premō</em>, <em>quaerō</em>, and <em>emō</em> are the simple verbs of other compounds.",
+   "prompt": "Choose the simple verb in the compound <em lang=\"la\">corruō</em> (“to fall in a heap”).",
+   "explain": "<em lang=\"la\">corruō</em> is <em lang=\"la\">con</em> joined to <em lang=\"la\">ruō</em> (“to rush”), and the <em lang=\"la\">n</em> has become <em lang=\"la\">r</em>. <em lang=\"la\">premō</em>, <em lang=\"la\">quaerō</em>, and <em lang=\"la\">emō</em> are the simple verbs of other compounds.",
    "options": [
-    "<em>premō</em>",
-    "<em>ruō</em>",
-    "<em>quaerō</em>",
-    "<em>emō</em>"
+    "<em lang=\"la\">premō</em>",
+    "<em lang=\"la\">ruō</em>",
+    "<em lang=\"la\">quaerō</em>",
+    "<em lang=\"la\">emō</em>"
    ],
    "answer": 1
   },
@@ -309,8 +309,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the sense of <em>dis-</em> in <em>differō</em>.",
-   "explain": "<em>dis-</em> means apart. Allen and Greenough’s example of that sense is <em>discēdere</em> (“to depart”). <em>differō</em> is <em>dis-</em> joined to <em>ferō</em>, so the prefix has that same sense.",
+   "prompt": "Choose the sense of <em lang=\"la\">dis-</em> in <em lang=\"la\">differō</em>.",
+   "explain": "<em lang=\"la\">dis-</em> means apart. Allen and Greenough’s example of that sense is <em lang=\"la\">discēdere</em> (“to depart”). <em lang=\"la\">differō</em> is <em lang=\"la\">dis-</em> joined to <em lang=\"la\">ferō</em>, so the prefix has that same sense.",
    "options": [
     "Under",
     "Apart",
@@ -325,8 +325,8 @@ ARS.exercises["lang.iv.la/formation-ex"] = {
    "deck": "lang.iv.la/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the meaning of <em>reprimō</em>, read from <em>re-</em> (“back”) and <em>premō</em> (“to press”).",
-   "explain": "<em>re-</em> means back, and <em>premō</em> means to press, so <em>reprimō</em> means to press back. Seeking again, taking away, and running to are the meanings of other compounds.",
+   "prompt": "Choose the meaning of <em lang=\"la\">reprimō</em>, read from <em lang=\"la\">re-</em> (“back”) and <em lang=\"la\">premō</em> (“to press”).",
+   "explain": "<em lang=\"la\">re-</em> means back, and <em lang=\"la\">premō</em> means to press, so <em lang=\"la\">reprimō</em> means to press back. Seeking again, taking away, and running to are the meanings of other compounds.",
    "options": [
     "To seek a thing again",
     "To take a thing away",

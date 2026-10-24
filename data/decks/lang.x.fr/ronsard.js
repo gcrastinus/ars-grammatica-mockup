@@ -8,13 +8,13 @@ ARS.decks["lang.x.fr/ronsard"] = {
  "panels": [
   {
    "id": "text",
-   "title": "Ronsard, <i>Sonnets pour Hélène</i> II.24.1–4 · Alexandrine",
-   "body": "<p>Quand vous serez bien vieille, au soir, à la chandelle,<br>Assise auprès du feu, dévidant et filant,<br>Direz, chantant mes vers, en vous émerveillant :<br>Ronsard me célébrait du temps que j’étais belle.</p><p>When you are very old, in the evening, by the candle,<br>seated near the fire, winding and spinning,<br>you will say, singing my verses, marveling:<br>“Ronsard praised me in the days when I was beautiful.”</p><p><strong>Context.</strong> Ronsard imagines the woman he loves grown old, remembering that a poet once praised her. The poem is a sonnet in alexandrines.</p>"
+   "title": "Ronsard, <i lang=\"fr\">Sonnets pour Hélène</i> II.24.1–4 · Alexandrine",
+   "body": "<p lang=\"fr\">Quand vous serez bien vieille, au soir, à la chandelle,<br>Assise auprès du feu, dévidant et filant,<br>Direz, chantant mes vers, en vous émerveillant :<br>Ronsard me célébrait du temps que j’étais belle.</p><p>When you are very old, in the evening, by the candle,<br>seated near the fire, winding and spinning,<br>you will say, singing my verses, marveling:<br>“Ronsard praised me in the days when I was beautiful.”</p><p><strong>Context.</strong> Ronsard imagines the woman he loves grown old, remembering that a poet once praised her. The poem is a sonnet in alexandrines.</p>"
   },
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The future seen from now.</strong> <i>Quand vous serez bien vieille</i>: the poet imagines the beloved grown old, and the poem is spoken from the present to the future.</p>\n<p><strong>The scene in participles.</strong> <i>Assise auprès du feu, dévidant et filant</i>: the participles paint the old woman by the fire.</p>\n<p><strong>The poet’s name in her mouth.</strong> <i>Ronsard me célébrait</i>: the poem ends with the beloved quoting the poet, so his name is remembered through her.</p>\n<p><strong>The argument of the poem.</strong> The sonnet uses the picture of old age to urge the beloved to love now, a theme the Latin poets called <i>carpe diem</i>.</p>"
+   "body": "<p><strong>The future seen from now.</strong> <i lang=\"fr\">Quand vous serez bien vieille</i>: the poet imagines the beloved grown old, and the poem is spoken from the present to the future.</p>\n<p><strong>The scene in participles.</strong> <i lang=\"fr\">Assise auprès du feu, dévidant et filant</i>: the participles paint the old woman by the fire.</p>\n<p><strong>The poet’s name in her mouth.</strong> <i lang=\"fr\">Ronsard me célébrait</i>: the poem ends with the beloved quoting the poet, so his name is remembered through her.</p>\n<p><strong>The argument of the poem.</strong> The sonnet uses the picture of old age to urge the beloved to love now, a theme the Latin poets called <i lang=\"fr\">carpe diem</i>.</p>"
   }
  ],
  "models": true

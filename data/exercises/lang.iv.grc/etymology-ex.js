@@ -15,7 +15,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the native cognate of <i>πούς, ποδός</i> (“foot”)?",
+   "prompt": "Which English word is the native cognate of <i lang=\"grc\">πούς, ποδός</i> (“foot”)?",
    "explain": "“Foot” is inherited, with English f for Greek π; “podium” and “pedal” were borrowed.",
    "options": [
     "“podium”",
@@ -31,13 +31,13 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word is the cognate of <i>δύο</i> (“two”)?",
-   "explain": "<i>Δύο</i>, <i>duo</i>, and “two” are one word in three languages.",
+   "prompt": "Which Latin word is the cognate of <i lang=\"grc\">δύο</i> (“two”)?",
+   "explain": "<i lang=\"grc\">Δύο</i>, <i lang=\"grc\">duo</i>, and “two” are one word in three languages.",
    "options": [
-    "<i>dux</i>",
-    "<i>dōnum</i>",
-    "<i>duo</i>",
-    "<i>domus</i>"
+    "<i lang=\"grc\">dux</i>",
+    "<i lang=\"grc\">dōnum</i>",
+    "<i lang=\"grc\">duo</i>",
+    "<i lang=\"grc\">domus</i>"
    ],
    "answer": 2
   },
@@ -47,8 +47,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What did <i>ὑποκριτής</i> first mean?",
-   "explain": "The <i>ὑποκριτής</i> was an actor on the stage, and only later one who plays a false part, a hypocrite.",
+   "prompt": "What did <i lang=\"grc\">ὑποκριτής</i> first mean?",
+   "explain": "The <i lang=\"grc\">ὑποκριτής</i> was an actor on the stage, and only later one who plays a false part, a hypocrite.",
    "options": [
     "“a liar”",
     "“an actor”",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word was borrowed from Greek <i>κύων, κυνός</i> (“dog”)?",
-   "explain": "“Cynic” comes from <i>κυνικός</i>, “dog-like”; “hound” is the native cognate, and “canine” and “kennel” come from Latin.",
+   "prompt": "Which English word was borrowed from Greek <i lang=\"grc\">κύων, κυνός</i> (“dog”)?",
+   "explain": "“Cynic” comes from <i lang=\"grc\">κυνικός</i>, “dog-like”; “hound” is the native cognate, and “canine” and “kennel” come from Latin.",
    "options": [
     "“cynic”",
     "“hound”",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What did <i>ἀθλητής</i> first mean?",
-   "explain": "<i>Ἀθλητής</i> is from <i>ἆθλον</i> (“prize”): one who contends for a prize.",
+   "prompt": "What did <i lang=\"grc\">ἀθλητής</i> first mean?",
+   "explain": "<i lang=\"grc\">Ἀθλητής</i> is from <i lang=\"grc\">ἆθλον</i> (“prize”): one who contends for a prize.",
    "options": [
     "a strong man",
     "a soldier in training",
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word is the cognate of <i>ἕρπω</i> (“I creep”)?",
-   "explain": "Greek turned an initial s into the rough breathing: <i>ἕρπω</i>, Latin <i>serpō</i>.",
+   "prompt": "Which Latin word is the cognate of <i lang=\"grc\">ἕρπω</i> (“I creep”)?",
+   "explain": "Greek turned an initial s into the rough breathing: <i lang=\"grc\">ἕρπω</i>, Latin <i lang=\"grc\">serpō</i>.",
    "options": [
-    "<i>rēpō</i>",
-    "<i>herba</i>",
-    "<i>serpō</i>",
-    "<i>carpō</i>"
+    "<i lang=\"grc\">rēpō</i>",
+    "<i lang=\"grc\">herba</i>",
+    "<i lang=\"grc\">serpō</i>",
+    "<i lang=\"grc\">carpō</i>"
    ],
    "answer": 2
   },
@@ -111,7 +111,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the cognate of <i>μήτηρ</i>?",
+   "prompt": "Which English word is the cognate of <i lang=\"grc\">μήτηρ</i>?",
    "explain": "“Mother” is inherited; “maternal” was borrowed from Latin.",
    "options": [
     "“matter”",
@@ -128,12 +128,12 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What sound did the digamma write?",
-   "explain": "The digamma (<i>ϝ</i>) wrote the sound of <i>w</i>.",
+   "explain": "The digamma (<i lang=\"grc\">ϝ</i>) wrote the sound of <i lang=\"grc\">w</i>.",
    "options": [
-    "<i>w</i>",
-    "<i>g</i>",
-    "<i>f</i>",
-    "<i>h</i>"
+    "<i lang=\"grc\">w</i>",
+    "<i lang=\"grc\">g</i>",
+    "<i lang=\"grc\">f</i>",
+    "<i lang=\"grc\">h</i>"
    ],
    "answer": 0
   },
@@ -143,8 +143,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does <i>ὕς</i> (“pig”) have a rough breathing where Latin <i>sūs</i> has s?",
-   "explain": "Greek often has the rough breathing where Latin and English keep an initial s: <i>ὕς</i>, <i>sūs</i>, “sow.”",
+   "prompt": "Why does <i lang=\"grc\">ὕς</i> (“pig”) have a rough breathing where Latin <i lang=\"grc\">sūs</i> has s?",
+   "explain": "Greek often has the rough breathing where Latin and English keep an initial s: <i lang=\"grc\">ὕς</i>, <i lang=\"grc\">sūs</i>, “sow.”",
    "options": [
     "Latin added an s",
     "The words are not related",
@@ -159,13 +159,13 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word is the cognate of <i>οἶνος</i>, once <i>ϝοῖνος</i>?",
-   "explain": "The lost digamma answers to Latin v: <i>ϝοῖνος</i>, <i>vīnum</i>, English “wine.”",
+   "prompt": "Which Latin word is the cognate of <i lang=\"grc\">οἶνος</i>, once <i lang=\"grc\">ϝοῖνος</i>?",
+   "explain": "The lost digamma answers to Latin v: <i lang=\"grc\">ϝοῖνος</i>, <i lang=\"grc\">vīnum</i>, English “wine.”",
    "options": [
-    "<i>ūnus</i>",
-    "<i>vīnum</i>",
-    "<i>vīnea</i>",
-    "<i>nōnus</i>"
+    "<i lang=\"grc\">ūnus</i>",
+    "<i lang=\"grc\">vīnum</i>",
+    "<i lang=\"grc\">vīnea</i>",
+    "<i lang=\"grc\">nōnus</i>"
    ],
    "answer": 1
   },
@@ -175,8 +175,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word comes from <i>κόσμος</i> by borrowing?",
-   "explain": "“Cosmetic” comes from <i>κοσμητικός</i>, “skilled in adorning,” from <i>κόσμος</i>, “order, ornament.”",
+   "prompt": "Which English word comes from <i lang=\"grc\">κόσμος</i> by borrowing?",
+   "explain": "“Cosmetic” comes from <i lang=\"grc\">κοσμητικός</i>, “skilled in adorning,” from <i lang=\"grc\">κόσμος</i>, “order, ornament.”",
    "options": [
     "“custom”",
     "“costume”",
@@ -191,8 +191,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What did <i>κωμῳδία</i> first name?",
-   "explain": "<i>Κωμῳδία</i> joins <i>κῶμος</i> (“revel”) and <i>ᾠδή</i> (“song”).",
+   "prompt": "What did <i lang=\"grc\">κωμῳδία</i> first name?",
+   "explain": "<i lang=\"grc\">Κωμῳδία</i> joins <i lang=\"grc\">κῶμος</i> (“revel”) and <i lang=\"grc\">ᾠδή</i> (“song”).",
    "options": [
     "a funny speech",
     "a play about kings",
@@ -207,7 +207,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the cognate of <i>γένος</i>?",
+   "prompt": "Which English word is the cognate of <i lang=\"grc\">γένος</i>?",
    "explain": "“Kin” is inherited, with English k for Greek γ; “gene,” “genus,” and “generous” were borrowed.",
    "options": [
     "“kin”",
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word is the cognate of <i>ἀγρός</i> (“field”)?",
-   "explain": "<i>Ἀγρός</i>, <i>ager</i>, and English “acre” are one word.",
+   "prompt": "Which Latin word is the cognate of <i lang=\"grc\">ἀγρός</i> (“field”)?",
+   "explain": "<i lang=\"grc\">Ἀγρός</i>, <i lang=\"grc\">ager</i>, and English “acre” are one word.",
    "options": [
-    "<i>agō</i>",
-    "<i>ager</i>",
-    "<i>acer</i>",
-    "<i>arō</i>"
+    "<i lang=\"grc\">agō</i>",
+    "<i lang=\"grc\">ager</i>",
+    "<i lang=\"grc\">acer</i>",
+    "<i lang=\"grc\">arō</i>"
    ],
    "answer": 1
   },
@@ -240,7 +240,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does the history of “idiot” show?",
-   "explain": "<i>Ἰδιώτης</i> was a private person before it was a fool.",
+   "explain": "<i lang=\"grc\">Ἰδιώτης</i> was a private person before it was a fool.",
    "options": [
     "A word always keeps its first meaning",
     "“Idiot” is a native English word",
@@ -255,8 +255,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is borrowed from Greek <i>ὕδωρ</i> (“water”)?",
-   "explain": "“Hydrant” is built on <i>ὕδωρ</i>; “water,” “wet,” and “otter” are native English words of the same family.",
+   "prompt": "Which English word is borrowed from Greek <i lang=\"grc\">ὕδωρ</i> (“water”)?",
+   "explain": "“Hydrant” is built on <i lang=\"grc\">ὕδωρ</i>; “water,” “wet,” and “otter” are native English words of the same family.",
    "options": [
     "“water”",
     "“wet”",
@@ -272,7 +272,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What explains some irregularities in Homer’s meter?",
-   "explain": "A word that once began with <i>w</i> can still make a syllable long or prevent elision.",
+   "explain": "A word that once began with <i lang=\"grc\">w</i> can still make a syllable long or prevent elision.",
    "options": [
     "The lost digamma",
     "The rough breathing",
@@ -290,10 +290,10 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "prompt": "Which pair are cognates, not a word and its borrowing?",
    "explain": "“Bear” is inherited; the others were borrowed from Greek.",
    "options": [
-    "Greek <i>φέρω</i> and English “-phore”",
-    "Greek <i>φέρω</i> and English “bear”",
-    "Greek <i>ζυγόν</i> and English “zygote”",
-    "Greek <i>ὄνομα</i> and English “anonymous”"
+    "Greek <i lang=\"grc\">φέρω</i> and English “-phore”",
+    "Greek <i lang=\"grc\">φέρω</i> and English “bear”",
+    "Greek <i lang=\"grc\">ζυγόν</i> and English “zygote”",
+    "Greek <i lang=\"grc\">ὄνομα</i> and English “anonymous”"
    ],
    "answer": 1
   },
@@ -303,13 +303,13 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Greek word is the cognate of Latin <i>nox</i> (“night”)?",
-   "explain": "<i>Νύξ</i>, Latin <i>nox</i>, <i>noctis</i>, and English “night” are one word.",
+   "prompt": "Which Greek word is the cognate of Latin <i lang=\"grc\">nox</i> (“night”)?",
+   "explain": "<i lang=\"grc\">Νύξ</i>, Latin <i lang=\"grc\">nox</i>, <i lang=\"grc\">noctis</i>, and English “night” are one word.",
    "options": [
-    "<i>νόος</i>",
-    "<i>νόσος</i>",
-    "<i>νύξ</i>",
-    "<i>νῆσος</i>"
+    "<i lang=\"grc\">νόος</i>",
+    "<i lang=\"grc\">νόσος</i>",
+    "<i lang=\"grc\">νύξ</i>",
+    "<i lang=\"grc\">νῆσος</i>"
    ],
    "answer": 2
   },
@@ -319,8 +319,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What did <i>σοφιστής</i> first mean?",
-   "explain": "A <i>σοφιστής</i> was first anyone wise or skilled; the bad sense came later.",
+   "prompt": "What did <i lang=\"grc\">σοφιστής</i> first mean?",
+   "explain": "A <i lang=\"grc\">σοφιστής</i> was first anyone wise or skilled; the bad sense came later.",
    "options": [
     "a deceiver in argument",
     "a teacher of children",
@@ -335,8 +335,8 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does the Greek <i>ἁ-</i> of <i>ἅλς</i> (“salt”) appear as s in English “salt”?",
-   "explain": "Greek turned the initial s into the rough breathing, whereas English and Latin (<i>sāl</i>) kept it.",
+   "prompt": "Why does the Greek <i lang=\"grc\">ἁ-</i> of <i lang=\"grc\">ἅλς</i> (“salt”) appear as s in English “salt”?",
+   "explain": "Greek turned the initial s into the rough breathing, whereas English and Latin (<i lang=\"grc\">sāl</i>) kept it.",
    "options": [
     "English borrowed the word from Latin",
     "English kept the old s",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “semaphore” mean, read from its parts?",
-   "explain": "<i>Σῆμα</i>, “sign,” and <i>-φόρος</i>, “bearing.”",
+   "explain": "<i lang=\"grc\">Σῆμα</i>, “sign,” and <i lang=\"grc\">-φόρος</i>, “bearing.”",
    "options": [
     "“half-carrier”",
     "“signal light”",
@@ -383,7 +383,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "deck": "lang.iv.grc/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the native cognate of Latin <i>ager</i> and Greek <i>ἀγρός</i>?",
+   "prompt": "Which English word is the native cognate of Latin <i lang=\"grc\">ager</i> and Greek <i lang=\"grc\">ἀγρός</i>?",
    "explain": "“Acre” is inherited, with English k (written c) for Latin and Greek g; the others were borrowed.",
    "options": [
     "“agrarian”",

@@ -9,12 +9,12 @@ ARS.decks["lang.vii.grc/tropes"] = {
   {
    "id": "tropes",
    "title": "Four tropes",
-   "body": "<p>A trope, as we have seen, carries a word from its proper signification to another. Greek poetry is full of tropes that became fixed phrases, and the four chief kinds can be seen in Homer and Plato:</p>\n<p><strong>Metaphor</strong>: a word used for something it resembles: “rosy-fingered Dawn” (<i>ῥοδοδάκτυλος Ἠώς</i>; <i>Odyssey</i> II.1), where the fingers of the dawn are the first rays of light<br>\n<strong>Metonymy</strong>: a name put for something closely connected with it: “Enyalius is impartial, and slays the slayer” (<i>ξυνὸς Ἐνυάλιος, καί τε κτανέοντα κατέκτα</i>; <i>Iliad</i> XVIII.309), where the war god’s name stands for war<br>\n<strong>Synecdoche</strong>: the part put for the whole: Penelope longs for “such a head” (<i>τοίην γὰρ κεφαλὴν ποθέω</i>; <i>Odyssey</i> I.343), that is, for so dear a person<br>\n<strong>Irony</strong>: saying the contrary of what is meant, or less than is meant: Thrasymachus calls Socrates’ professed ignorance “that habitual irony of Socrates” (<i>αὕτη ’κείνη ἡ εἰωθυῖα εἰρωνεία Σωκράτους</i>; <i>Republic</i> 337a)</p>\n<p>The Greek word <i>εἰρωνεία</i> first meant a pretense of knowing less than one knows, and Plato’s Socrates gave the word its fame.</p>",
+   "body": "<p>A trope, as we have seen, carries a word from its proper signification to another. Greek poetry is full of tropes that became fixed phrases, and the four chief kinds can be seen in Homer and Plato:</p>\n<p><strong>Metaphor</strong>: a word used for something it resembles: “rosy-fingered Dawn” (<i lang=\"grc\">ῥοδοδάκτυλος Ἠώς</i>; <i lang=\"grc\">Odyssey</i> II.1), where the fingers of the dawn are the first rays of light<br>\n<strong>Metonymy</strong>: a name put for something closely connected with it: “Enyalius is impartial, and slays the slayer” (<i lang=\"grc\">ξυνὸς Ἐνυάλιος, καί τε κτανέοντα κατέκτα</i>; <i lang=\"grc\">Iliad</i> XVIII.309), where the war god’s name stands for war<br>\n<strong>Synecdoche</strong>: the part put for the whole: Penelope longs for “such a head” (<i lang=\"grc\">τοίην γὰρ κεφαλὴν ποθέω</i>; <i lang=\"grc\">Odyssey</i> I.343), that is, for so dear a person<br>\n<strong>Irony</strong>: saying the contrary of what is meant, or less than is meant: Thrasymachus calls Socrates’ professed ignorance “that habitual irony of Socrates” (<i lang=\"grc\">αὕτη ’κείνη ἡ εἰωθυῖα εἰρωνεία Σωκράτους</i>; <i lang=\"grc\">Republic</i> 337a)</p>\n<p>The Greek word <i lang=\"grc\">εἰρωνεία</i> first meant a pretense of knowing less than one knows, and Plato’s Socrates gave the word its fame.</p>",
    "qp": {
     "id": "q-grc-trope",
     "variants": [
      {
-      "prompt": "What trope is <i>ἔπεα πτερόεντα</i>, “winged words”?",
+      "prompt": "What trope is <i lang=\"grc\">ἔπεα πτερόεντα</i>, “winged words”?",
       "options": [
        "Metonymy, a name for something connected",
        "Synecdoche",
@@ -36,7 +36,7 @@ ARS.decks["lang.vii.grc/tropes"] = {
       "explain": "The god is closely connected with war, not like it."
      },
      {
-      "prompt": "What did <i>εἰρωνεία</i> first mean?",
+      "prompt": "What did <i lang=\"grc\">εἰρωνεία</i> first mean?",
       "options": [
        "A pretense of knowing less than one knows",
        "A word carried over by likeness",
@@ -52,7 +52,7 @@ ARS.decks["lang.vii.grc/tropes"] = {
   {
    "id": "schemes",
    "title": "Four schemes",
-   "body": "<p>A scheme, or figure of words, arranges words that keep their proper sense. Four of the commonest are:</p>\n<p><strong>Anaphora</strong>: the same word at the head of successive members: Homer repeats the name of a minor hero three times, <i>Νιρεὺς … Νιρεὺς … Νιρεύς</i> (<i>Iliad</i> II.671–673), to give him a fame he lacks in battle<br>\n<strong>Chiasmus</strong>: two members whose terms are repeated in reverse order: “the sabbath was made for man, and not man for the sabbath” (<i>τὸ σάββατον διὰ τὸν ἄνθρωπον ἐγένετο καὶ οὐχ ὁ ἄνθρωπος διὰ τὸ σάββατον</i>; Mark 2:27)<br>\n<strong>Antithesis</strong>: opposed ideas in matching form: Antigone says, “I was not born to join in hating, but in loving” (<i>οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν</i>; Sophocles, <i>Antigone</i> 523)<br>\n<strong>Asyndeton</strong>: members set side by side without conjunctions: Caesar’s report, as Plutarch gives it in Greek, “I came, I saw, I conquered” (<i>ἦλθον, εἶδον, ἐνίκησα</i>; <i>Caesar</i> 50)</p>",
+   "body": "<p>A scheme, or figure of words, arranges words that keep their proper sense. Four of the commonest are:</p>\n<p><strong>Anaphora</strong>: the same word at the head of successive members: Homer repeats the name of a minor hero three times, <i lang=\"grc\">Νιρεὺς … Νιρεὺς … Νιρεύς</i> (<i lang=\"grc\">Iliad</i> II.671–673), to give him a fame he lacks in battle<br>\n<strong>Chiasmus</strong>: two members whose terms are repeated in reverse order: “the sabbath was made for man, and not man for the sabbath” (<i lang=\"grc\">τὸ σάββατον διὰ τὸν ἄνθρωπον ἐγένετο καὶ οὐχ ὁ ἄνθρωπος διὰ τὸ σάββατον</i>; Mark 2:27)<br>\n<strong>Antithesis</strong>: opposed ideas in matching form: Antigone says, “I was not born to join in hating, but in loving” (<i lang=\"grc\">οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν</i>; Sophocles, <i lang=\"grc\">Antigone</i> 523)<br>\n<strong>Asyndeton</strong>: members set side by side without conjunctions: Caesar’s report, as Plutarch gives it in Greek, “I came, I saw, I conquered” (<i lang=\"grc\">ἦλθον, εἶδον, ἐνίκησα</i>; <i lang=\"grc\">Caesar</i> 50)</p>",
    "qp": {
     "id": "q-grc-scheme",
     "variants": [
@@ -65,10 +65,10 @@ ARS.decks["lang.vii.grc/tropes"] = {
        "Antithesis"
       ],
       "answer": 1,
-      "explain": "The name comes from the letter <i>χ</i>, crossed."
+      "explain": "The name comes from the letter <i lang=\"grc\">χ</i>, crossed."
      },
      {
-      "prompt": "In <i>οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν</i>, what is set against what?",
+      "prompt": "In <i lang=\"grc\">οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν</i>, what is set against what?",
       "options": [
        "Birth and death, by metonymy",
        "Two persons",
@@ -87,7 +87,7 @@ ARS.decks["lang.vii.grc/tropes"] = {
        "The conjunctions"
       ],
       "answer": 3,
-      "explain": "<i>Ἦλθον, εἶδον, ἐνίκησα.</i>"
+      "explain": "<i lang=\"grc\">Ἦλθον, εἶδον, ἐνίκησα.</i>"
      }
     ]
    }

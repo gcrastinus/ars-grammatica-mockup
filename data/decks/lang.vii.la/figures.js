@@ -9,7 +9,7 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "figures-1",
    "title": "Figures of words",
-   "body": "<p>We have seen in Section VII that a figure arranges words that keep their proper sense in an unusual way. Donatus’s examples are Latin, and many of them come from Virgil. The line <i>Acamasque Thoasque / Pelidesque Neoptolemus</i> (“and Acamas and Thoas and Neoptolemus, the descendant of Peleus”), which we saw in Section VII, has more conjunctions than are needed, and this is <strong>polysyndeton</strong>. In <i>torrere parant flammis et frangere saxo</i> (“they prepare to parch [the grain] with fire and to grind it with stone”), the later action is said first, and this is <strong>hysterologia</strong>. And in Ennius’s <i>saxo cere comminuit brum</i> (“he shattered the brain with a stone”), the word <i>cerebrum</i> is cut in two by another word, and this is <strong>tmesis</strong>.</p>",
+   "body": "<p>We have seen in Section VII that a figure arranges words that keep their proper sense in an unusual way. Donatus’s examples are Latin, and many of them come from Virgil. The line <i lang=\"la\">Acamasque Thoasque / Pelidesque Neoptolemus</i> (“and Acamas and Thoas and Neoptolemus, the descendant of Peleus”), which we saw in Section VII, has more conjunctions than are needed, and this is <strong>polysyndeton</strong>. In <i lang=\"la\">torrere parant flammis et frangere saxo</i> (“they prepare to parch [the grain] with fire and to grind it with stone”), the later action is said first, and this is <strong>hysterologia</strong>. And in Ennius’s <i lang=\"la\">saxo cere comminuit brum</i> (“he shattered the brain with a stone”), the word <i lang=\"la\">cerebrum</i> is cut in two by another word, and this is <strong>tmesis</strong>.</p>",
    "qp": {
     "id": "q-la-fig-1",
     "variants": [
@@ -22,7 +22,7 @@ ARS.decks["lang.vii.la/figures"] = {
        "Metaphor"
       ],
       "answer": 1,
-      "explain": "<i>Poly-</i>, “many.”"
+      "explain": "<i lang=\"la\">Poly-</i>, “many.”"
      },
      {
       "prompt": "Do the words of a figure keep their proper sense?",
@@ -52,7 +52,7 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "figures-2",
    "title": "Tropes",
-   "body": "<p>A trope, by contrast, carries a word from its proper signification to another. Donatus’s Latin examples include <i>Ceres</i> (the goddess of grain) put for bread and <i>Liber</i> (the god of wine) put for wine, in <i>sine Cerere et Libero friget Venus</i> (“without Ceres and Liber, Venus grows cold,” that is, without food and wine love cools), which is <strong>metonymy</strong>; <i>Anchisiades</i> (“the son of Anchises”) put for Aeneas, which is <strong>antonomasia</strong>; two lines of Virgil on Aurora leaving the bed of Tithonus, put for “it was dawn,” which is <strong>periphrasis</strong>; and <i>clangor tubarum</i> (“the blare of trumpets”), which we saw in Section VII, a name made from the sound, which is <strong>onomatopoeia</strong>.</p>\n<p>Servius, a Roman grammarian of about AD 400 who commented on Virgil line by line, names the same figures and tropes where they occur, and so a schoolboy reading the <i>Aeneid</i> learned Donatus’s list from Virgil’s own lines.</p>",
+   "body": "<p>A trope, by contrast, carries a word from its proper signification to another. Donatus’s Latin examples include <i lang=\"la\">Ceres</i> (the goddess of grain) put for bread and <i lang=\"la\">Liber</i> (the god of wine) put for wine, in <i lang=\"la\">sine Cerere et Libero friget Venus</i> (“without Ceres and Liber, Venus grows cold,” that is, without food and wine love cools), which is <strong>metonymy</strong>; <i lang=\"la\">Anchisiades</i> (“the son of Anchises”) put for Aeneas, which is <strong>antonomasia</strong>; two lines of Virgil on Aurora leaving the bed of Tithonus, put for “it was dawn,” which is <strong>periphrasis</strong>; and <i lang=\"la\">clangor tubarum</i> (“the blare of trumpets”), which we saw in Section VII, a name made from the sound, which is <strong>onomatopoeia</strong>.</p>\n<p>Servius, a Roman grammarian of about AD 400 who commented on Virgil line by line, names the same figures and tropes where they occur, and so a schoolboy reading the <i lang=\"la\">Aeneid</i> learned Donatus’s list from Virgil’s own lines.</p>",
    "qp": {
     "id": "q-la-fig-2",
     "variants": [
@@ -76,7 +76,7 @@ ARS.decks["lang.vii.la/figures"] = {
        "A description put for a proper name"
       ],
       "answer": 3,
-      "explain": "As <i>Anchīsiadēs</i> for Aeneas."
+      "explain": "As <i lang=\"la\">Anchīsiadēs</i> for Aeneas."
      },
      {
       "prompt": "Who named the figures and tropes line by line in Virgil?",
@@ -95,12 +95,12 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "tropes-authors",
    "title": "Three more tropes in the authors",
-   "body": "<p>Besides metonymy and antonomasia, the authors supply the other chief tropes:</p>\n<p><strong>Metaphor</strong>: Mercury “flies through the great air on the oarage of his wings” (<i>volat ille per aëra magnum / rēmigiō ālārum</i>; Virgil, <i>Aeneid</i> I.300–301), where the beating wings are called rowing<br>\n<strong>Synecdoche</strong>: Venus tells Aeneas that “your sterns and the youth of your people” have reached the harbor (<i>puppēsque tuae pūbēsque tuōrum</i>; <i>Aeneid</i> I.399), where the stern, a part, stands for the ship<br>\n<strong>Irony</strong>: saying the contrary of what is meant, as if one said <i>Ō fortem virum!</i> (“O brave man!”) of a man who has fled</p>",
+   "body": "<p>Besides metonymy and antonomasia, the authors supply the other chief tropes:</p>\n<p><strong>Metaphor</strong>: Mercury “flies through the great air on the oarage of his wings” (<i lang=\"la\">volat ille per aëra magnum / rēmigiō ālārum</i>; Virgil, <i lang=\"la\">Aeneid</i> I.300–301), where the beating wings are called rowing<br>\n<strong>Synecdoche</strong>: Venus tells Aeneas that “your sterns and the youth of your people” have reached the harbor (<i lang=\"la\">puppēsque tuae pūbēsque tuōrum</i>; <i lang=\"la\">Aeneid</i> I.399), where the stern, a part, stands for the ship<br>\n<strong>Irony</strong>: saying the contrary of what is meant, as if one said <i lang=\"la\">Ō fortem virum!</i> (“O brave man!”) of a man who has fled</p>",
    "qp": {
     "id": "q-la-fig-3",
     "variants": [
      {
-      "prompt": "What trope is <i>rēmigium ālārum</i>, “the oarage of wings”?",
+      "prompt": "What trope is <i lang=\"la\">rēmigium ālārum</i>, “the oarage of wings”?",
       "options": [
        "Synecdoche, the part for the whole",
        "Metonymy",
@@ -111,7 +111,7 @@ ARS.decks["lang.vii.la/figures"] = {
       "explain": "Flying is like rowing."
      },
      {
-      "prompt": "What trope is <i>puppēs</i>, “sterns,” for ships?",
+      "prompt": "What trope is <i lang=\"la\">puppēs</i>, “sterns,” for ships?",
       "options": [
        "Synecdoche",
        "Metaphor, from a likeness",
@@ -122,7 +122,7 @@ ARS.decks["lang.vii.la/figures"] = {
       "explain": "The part stands for the whole."
      },
      {
-      "prompt": "What trope is <i>Ō fortem virum!</i> said of a coward?",
+      "prompt": "What trope is <i lang=\"la\">Ō fortem virum!</i> said of a coward?",
       "options": [
        "Hyperbole, enlarging his courage",
        "Irony",
@@ -138,12 +138,12 @@ ARS.decks["lang.vii.la/figures"] = {
   {
    "id": "schemes-authors",
    "title": "Four schemes in the authors",
-   "body": "<p>The schemes can be seen in Cicero, Seneca, and the handbooks:</p>\n<p><strong>Anaphora</strong>: Cicero opens his attack on Catiline, <i>nihilne tē nocturnum praesidium Palātī, nihil urbis vigiliae, nihil timor populī …</i> (“have neither the night watch on the Palatine, nor the patrols of the city, nor the fear of the people … moved you?”; <i>In Catilīnam</i> I.1)<br>\n<strong>Chiasmus</strong>: the <i>Rhetorica ad Herennium</i> gives “you must eat to live, not live to eat” (<i>esse oportet, ut vīvās, nōn vīvere, ut edis</i>; IV.39)<br>\n<strong>Antithesis</strong>: Seneca complains that “we learn not for life but for school” (<i>nōn vītae sed scholae discimus</i>; <i>Epistulae</i> 106.12)<br>\n<strong>Asyndeton</strong>: Cicero says of Catiline’s flight, <i>abiit, excessit, ēvāsit, ērūpit</i> (“he has gone, he has left, he has escaped, he has broken out”; <i>In Catilīnam</i> II.1)</p>",
+   "body": "<p>The schemes can be seen in Cicero, Seneca, and the handbooks:</p>\n<p><strong>Anaphora</strong>: Cicero opens his attack on Catiline, <i lang=\"la\">nihilne tē nocturnum praesidium Palātī, nihil urbis vigiliae, nihil timor populī …</i> (“have neither the night watch on the Palatine, nor the patrols of the city, nor the fear of the people … moved you?”; <i lang=\"la\">In Catilīnam</i> I.1)<br>\n<strong>Chiasmus</strong>: the <i lang=\"la\">Rhetorica ad Herennium</i> gives “you must eat to live, not live to eat” (<i lang=\"la\">esse oportet, ut vīvās, nōn vīvere, ut edis</i>; IV.39)<br>\n<strong>Antithesis</strong>: Seneca complains that “we learn not for life but for school” (<i lang=\"la\">nōn vītae sed scholae discimus</i>; <i lang=\"la\">Epistulae</i> 106.12)<br>\n<strong>Asyndeton</strong>: Cicero says of Catiline’s flight, <i lang=\"la\">abiit, excessit, ēvāsit, ērūpit</i> (“he has gone, he has left, he has escaped, he has broken out”; <i lang=\"la\">In Catilīnam</i> II.1)</p>",
    "qp": {
     "id": "q-la-fig-4",
     "variants": [
      {
-      "prompt": "Which scheme repeats <i>nihil</i> at the head of each member?",
+      "prompt": "Which scheme repeats <i lang=\"la\">nihil</i> at the head of each member?",
       "options": [
        "Chiasmus, reversing the terms",
        "Asyndeton",
@@ -154,7 +154,7 @@ ARS.decks["lang.vii.la/figures"] = {
       "explain": "The same word heads each member."
      },
      {
-      "prompt": "In <i>abiit, excessit, ēvāsit, ērūpit</i>, what is left out?",
+      "prompt": "In <i lang=\"la\">abiit, excessit, ēvāsit, ērūpit</i>, what is left out?",
       "options": [
        "The verbs",
        "The conjunctions",
@@ -162,10 +162,10 @@ ARS.decks["lang.vii.la/figures"] = {
        "Nothing"
       ],
       "answer": 1,
-      "explain": "Four verbs, no <i>et</i>: asyndeton."
+      "explain": "Four verbs, no <i lang=\"la\">et</i>: asyndeton."
      },
      {
-      "prompt": "In <i>esse ut vīvās, nōn vīvere, ut edis</i>, how are the verbs ordered?",
+      "prompt": "In <i lang=\"la\">esse ut vīvās, nōn vīvere, ut edis</i>, how are the verbs ordered?",
       "options": [
        "Reversed in the second member",
        "The same in both members",

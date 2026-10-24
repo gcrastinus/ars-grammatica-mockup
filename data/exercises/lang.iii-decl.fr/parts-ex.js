@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>La</b> voisine chante.</i> (“The neighbor sings.”)",
-   "explain": "<i>La</i> is the definite article, which the French grammars count among the determiners.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>La</b> voisine chante.</i> (“The neighbor sings.”)",
+   "explain": "<i lang=\"fr\">La</i> is the definite article, which the French grammars count among the determiners.",
    "options": [
     "pronoun",
     "adjective",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>La <b>voisine</b> chante.</i> (“The neighbor sings.”)",
-   "explain": "<i>Voisine</i> names a person: a noun, feminine singular.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">La <b>voisine</b> chante.</i> (“The neighbor sings.”)",
+   "explain": "<i lang=\"fr\">Voisine</i> names a person: a noun, feminine singular.",
    "options": [
     "adjective",
     "noun",
@@ -47,8 +47,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>La voisine <b>chante</b>.</i> (“The neighbor sings.”)",
-   "explain": "<i>Chante</i> has person, number, tense, and mood: a verb.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">La voisine <b>chante</b>.</i> (“The neighbor sings.”)",
+   "explain": "<i lang=\"fr\">Chante</i> has person, number, tense, and mood: a verb.",
    "options": [
     "noun",
     "adverb",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>Une <b>vieille</b> voisine chante.</i> (“An old neighbor sings.”)",
-   "explain": "<i>Vieille</i> agrees with <i>voisine</i> and says what sort: an adjective.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">Une <b>vieille</b> voisine chante.</i> (“An old neighbor sings.”)",
+   "explain": "<i lang=\"fr\">Vieille</i> agrees with <i lang=\"fr\">voisine</i> and says what sort: an adjective.",
    "options": [
     "noun",
     "adjective",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i>Elle chante <b>bien</b>.</i> (“She sings well.”)",
-   "explain": "<i>Bien</i> is an adverb and never changes its form.",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\">Elle chante <b>bien</b>.</i> (“She sings well.”)",
+   "explain": "<i lang=\"fr\">Bien</i> is an adverb and never changes its form.",
    "options": [
     "Variable: it can change form",
     "Invariable: it never changes"
@@ -93,8 +93,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i>Les <b>voisines</b> chantent.</i> (“The neighbors sing.”)",
-   "explain": "<i>Voisines</i> is a noun in the plural; nouns change for number.",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\">Les <b>voisines</b> chantent.</i> (“The neighbors sing.”)",
+   "explain": "<i lang=\"fr\">Voisines</i> is a noun in the plural; nouns change for number.",
    "options": [
     "Invariable: it never changes",
     "Variable: it can change form"
@@ -107,8 +107,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i>Il marche <b>vers</b> la gare.</i> (“He walks toward the station.”)",
-   "explain": "<i>Vers</i> is a preposition and keeps one form.",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\">Il marche <b>vers</b> la gare.</i> (“He walks toward the station.”)",
+   "explain": "<i lang=\"fr\">Vers</i> is a preposition and keeps one form.",
    "options": [
     "Invariable: it never changes",
     "Variable: it can change form"
@@ -121,8 +121,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Nous</b> chantons.</i> (“We sing.”)",
-   "explain": "<i>Nous</i> stands for the speakers: a pronoun.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>Nous</b> chantons.</i> (“We sing.”)",
+   "explain": "<i lang=\"fr\">Nous</i> stands for the speakers: a pronoun.",
    "options": [
     "determiner",
     "noun",
@@ -137,8 +137,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>Le facteur <b>la</b> salue.</i> (“The mailman greets her.”)",
-   "explain": "Here <i>la</i> stands for a person and is the object of <i>salue</i>, so it is a pronoun, not the article.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">Le facteur <b>la</b> salue.</i> (“The mailman greets her.”)",
+   "explain": "Here <i lang=\"fr\">la</i> stands for a person and is the object of <i lang=\"fr\">salue</i>, so it is a pronoun, not the article.",
    "options": [
     "determiner",
     "noun",
@@ -153,8 +153,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>Elle part <b>sans</b> son frère.</i> (“She leaves without her brother.”)",
-   "explain": "<i>Sans</i> governs <i>son frère</i>: a preposition.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">Elle part <b>sans</b> son frère.</i> (“She leaves without her brother.”)",
+   "explain": "<i lang=\"fr\">Sans</i> governs <i lang=\"fr\">son frère</i>: a preposition.",
    "options": [
     "conjunction",
     "preposition",
@@ -169,8 +169,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>Le père <b>et</b> la fille arrivent.</i> (“The father and the daughter arrive.”)",
-   "explain": "<i>Et</i> joins the two subjects: a conjunction.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">Le père <b>et</b> la fille arrivent.</i> (“The father and the daughter arrive.”)",
+   "explain": "<i lang=\"fr\">Et</i> joins the two subjects: a conjunction.",
    "options": [
     "preposition",
     "adverb",
@@ -185,8 +185,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Mon</b> frère arrive.</i> (“My brother is arriving.”)",
-   "explain": "<i>Mon</i> stands before a noun and shows possession: a possessive determiner.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>Mon</b> frère arrive.</i> (“My brother is arriving.”)",
+   "explain": "<i lang=\"fr\">Mon</i> stands before a noun and shows possession: a possessive determiner.",
    "options": [
     "determiner",
     "pronoun",
@@ -201,8 +201,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i>Il pleut, <b>mais</b> nous sortons.</i> (“It is raining, but we are going out.”)",
-   "explain": "<i>Mais</i> is a conjunction and never changes.",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\">Il pleut, <b>mais</b> nous sortons.</i> (“It is raining, but we are going out.”)",
+   "explain": "<i lang=\"fr\">Mais</i> is a conjunction and never changes.",
    "options": [
     "Variable: it can change form",
     "Invariable: it never changes"
@@ -215,8 +215,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i><b>Elles</b> arrivent.</i> (“They arrive.”)",
-   "explain": "<i>Elles</i> is a pronoun, which changes for person, number, gender, and use (<i>elle</i>, <i>elles</i>, <i>les</i>, <i>leur</i>).",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\"><b>Elles</b> arrivent.</i> (“They arrive.”)",
+   "explain": "<i lang=\"fr\">Elles</i> is a pronoun, which changes for person, number, gender, and use (<i lang=\"fr\">elle</i>, <i lang=\"fr\">elles</i>, <i lang=\"fr\">les</i>, <i lang=\"fr\">leur</i>).",
    "options": [
     "Invariable: it never changes",
     "Variable: it can change form"
@@ -229,8 +229,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Hélas</b>, il est parti.</i> (“Alas, he has left.”)",
-   "explain": "<i>Hélas</i> expresses a feeling: an interjection.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>Hélas</b>, il est parti.</i> (“Alas, he has left.”)",
+   "explain": "<i lang=\"fr\">Hélas</i> expresses a feeling: an interjection.",
    "options": [
     "interjection",
     "adverb",
@@ -245,8 +245,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>La lettre est <b>arrivée</b>.</i> (“The letter has arrived.”)",
-   "explain": "<i>Arrivée</i> is the past participle, which the French grammars count as a form of the verb; with <i>être</i> it agrees with <i>lettre</i>.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">La lettre est <b>arrivée</b>.</i> (“The letter has arrived.”)",
+   "explain": "<i lang=\"fr\">Arrivée</i> is the past participle, which the French grammars count as a form of the verb; with <i lang=\"fr\">être</i> it agrees with <i lang=\"fr\">lettre</i>.",
    "options": [
     "verb",
     "adjective",
@@ -261,8 +261,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Chantant</b> toujours, elle travaille.</i> (“Always singing, she works.”)",
-   "explain": "<i>Chantant</i> is the present participle, a form of the verb in the French grammar.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>Chantant</b> toujours, elle travaille.</i> (“Always singing, she works.”)",
+   "explain": "<i lang=\"fr\">Chantant</i> is the present participle, a form of the verb in the French grammar.",
    "options": [
     "adjective",
     "verb",
@@ -277,8 +277,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i>Il vient <b>souvent</b>.</i> (“He comes often.”)",
-   "explain": "<i>Souvent</i> tells when or how often: an adverb.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\">Il vient <b>souvent</b>.</i> (“He comes often.”)",
+   "explain": "<i lang=\"fr\">Souvent</i> tells when or how often: an adverb.",
    "options": [
     "adjective",
     "conjunction",
@@ -293,8 +293,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "Is the marked word variable or invariable? <i>Elle est <b>contente</b>.</i> (“She is glad.”)",
-   "explain": "<i>Contente</i> is an adjective agreeing with <i>elle</i>; adjectives change for gender and number.",
+   "prompt": "Is the marked word variable or invariable? <i lang=\"fr\">Elle est <b>contente</b>.</i> (“She is glad.”)",
+   "explain": "<i lang=\"fr\">Contente</i> is an adjective agreeing with <i lang=\"fr\">elle</i>; adjectives change for gender and number.",
    "options": [
     "Variable: it can change form",
     "Invariable: it never changes"
@@ -307,8 +307,8 @@ ARS.exercises["lang.iii-decl.fr/parts-ex"] = {
    "deck": "lang.iii-decl.fr/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which class of the French grammar does the marked word belong? <i><b>Celui</b>-ci est à moi.</i> (“This one is mine.”)",
-   "explain": "<i>Celui</i> stands alone in place of a noun: a demonstrative pronoun. Before a noun, <i>ce</i> would be a determiner.",
+   "prompt": "To which class of the French grammar does the marked word belong? <i lang=\"fr\"><b>Celui</b>-ci est à moi.</i> (“This one is mine.”)",
+   "explain": "<i lang=\"fr\">Celui</i> stands alone in place of a noun: a demonstrative pronoun. Before a noun, <i lang=\"fr\">ce</i> would be a determiner.",
    "options": [
     "determiner",
     "adjective",

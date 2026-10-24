@@ -15,13 +15,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <i>caballus</i>, by the change of <i>c</i> before <i>a</i>?",
-   "explain": "<i>C</i> before <i>a</i> became <i>ch</i>.",
+   "prompt": "Which French word comes from Latin <i lang=\"fr\">caballus</i>, by the change of <i lang=\"fr\">c</i> before <i lang=\"fr\">a</i>?",
+   "explain": "<i lang=\"fr\">C</i> before <i lang=\"fr\">a</i> became <i lang=\"fr\">ch</i>.",
    "options": [
-    "<i>cavale</i>",
-    "<i>caballe</i>",
-    "<i>cheval</i>",
-    "<i>chevreuil</i>"
+    "<i lang=\"fr\">cavale</i>",
+    "<i lang=\"fr\">caballe</i>",
+    "<i lang=\"fr\">cheval</i>",
+    "<i lang=\"fr\">chevreuil</i>"
    ],
    "answer": 2
   },
@@ -31,13 +31,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does the circumflex in <i>hôte</i> (“host”) mark?",
-   "explain": "Compare English “host,” which keeps the <i>s</i>.",
+   "prompt": "What does the circumflex in <i lang=\"fr\">hôte</i> (“host”) mark?",
+   "explain": "Compare English “host,” which keeps the <i lang=\"fr\">s</i>.",
    "options": [
     "A long Greek vowel",
-    "A lost <i>c</i>",
+    "A lost <i lang=\"fr\">c</i>",
     "A stressed syllable",
-    "A lost <i>s</i>"
+    "A lost <i lang=\"fr\">s</i>"
    ],
    "answer": 3
   },
@@ -47,8 +47,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which language did French take <i>gagner</i> (“to win, to earn”)?",
-   "explain": "<i>Gagner</i> comes from a Frankish verb, one of the Germanic words the Franks left in French.",
+   "prompt": "From which language did French take <i lang=\"fr\">gagner</i> (“to win, to earn”)?",
+   "explain": "<i lang=\"fr\">Gagner</i> comes from a Frankish verb, one of the Germanic words the Franks left in French.",
    "options": [
     "Frankish",
     "Latin",
@@ -63,8 +63,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the s that French <i>côte</i> (“coast”) has lost?",
-   "explain": "Old French <i>coste</i> lost its s before t, and the circumflex marks the place; English “coast” keeps it.",
+   "prompt": "Which English word keeps the s that French <i lang=\"fr\">côte</i> (“coast”) has lost?",
+   "explain": "Old French <i lang=\"fr\">coste</i> lost its s before t, and the circumflex marks the place; English “coast” keeps it.",
    "options": [
     "“cost”",
     "“coast”",
@@ -79,8 +79,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which language did French take <i>le sandwich</i>?",
-   "explain": "<i>Le sandwich</i> is one of the words French has taken from English in modern times.",
+   "prompt": "From which language did French take <i lang=\"fr\">le sandwich</i>?",
+   "explain": "<i lang=\"fr\">Le sandwich</i> is one of the words French has taken from English in modern times.",
    "options": [
     "Italian",
     "Frankish",
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <i>cattus</i> (“cat”)?",
-   "explain": "Latin c before a became ch: <i>cattus</i>, <i>chat</i>.",
+   "prompt": "Which French word comes from Latin <i lang=\"fr\">cattus</i> (“cat”)?",
+   "explain": "Latin c before a became ch: <i lang=\"fr\">cattus</i>, <i lang=\"fr\">chat</i>.",
    "options": [
-    "<i>cas</i>",
-    "<i>quatre</i>",
-    "<i>cadre</i>",
-    "<i>chat</i>"
+    "<i lang=\"fr\">cas</i>",
+    "<i lang=\"fr\">quatre</i>",
+    "<i lang=\"fr\">cadre</i>",
+    "<i lang=\"fr\">chat</i>"
    ],
    "answer": 3
   },
@@ -111,13 +111,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why is it <i>le héros</i> and not <i>l’héros</i>?",
-   "explain": "<i>Héros</i> has an aspirated <i>h</i> that prevents elision.",
+   "prompt": "Why is it <i lang=\"fr\">le héros</i> and not <i lang=\"fr\">l’héros</i>?",
+   "explain": "<i lang=\"fr\">Héros</i> has an aspirated <i lang=\"fr\">h</i> that prevents elision.",
    "options": [
-    "Its <i>h</i> prevents elision",
-    "<i>Héros</i> is feminine",
+    "Its <i lang=\"fr\">h</i> prevents elision",
+    "<i lang=\"fr\">Héros</i> is feminine",
     "French never elides before a vowel",
-    "<i>Héros</i> is plural"
+    "<i lang=\"fr\">Héros</i> is plural"
    ],
    "answer": 0
   },
@@ -127,10 +127,10 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What happened to Latin <i>s</i> before a consonant in French?",
-   "explain": "<i>Testa</i>, <i>tête</i>; <i>īnsula</i>, <i>île</i>.",
+   "prompt": "What happened to Latin <i lang=\"fr\">s</i> before a consonant in French?",
+   "explain": "<i lang=\"fr\">Testa</i>, <i lang=\"fr\">tête</i>; <i lang=\"fr\">īnsula</i>, <i lang=\"fr\">île</i>.",
    "options": [
-    "It became <i>z</i>",
+    "It became <i lang=\"fr\">z</i>",
     "It was lost",
     "It doubled",
     "It stayed unchanged"
@@ -144,12 +144,12 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which French word came from Italian in the Renaissance?",
-   "explain": "<i>Soldat</i> is from Italian <i>soldato</i>.",
+   "explain": "<i lang=\"fr\">Soldat</i> is from Italian <i lang=\"fr\">soldato</i>.",
    "options": [
-    "<i>guerre</i>",
-    "<i>blanc</i>",
-    "<i>soldat</i>",
-    "<i>sucre</i>"
+    "<i lang=\"fr\">guerre</i>",
+    "<i lang=\"fr\">blanc</i>",
+    "<i lang=\"fr\">soldat</i>",
+    "<i lang=\"fr\">sucre</i>"
    ],
    "answer": 2
   },
@@ -159,8 +159,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which language did French take <i>zéro</i>, by way of Italian?",
-   "explain": "<i>Zéro</i> came from Arabic through Italian <i>zero</i>.",
+   "prompt": "From which language did French take <i lang=\"fr\">zéro</i>, by way of Italian?",
+   "explain": "<i lang=\"fr\">Zéro</i> came from Arabic through Italian <i lang=\"fr\">zero</i>.",
    "options": [
     "Greek",
     "Frankish",
@@ -175,7 +175,7 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does English say “warrant” where French says <i>garantie</i>?",
+   "prompt": "Why does English say “warrant” where French says <i lang=\"fr\">garantie</i>?",
    "explain": "Both go back to a Frankish word; the Norman French of England kept the w, and Parisian French changed it to g.",
    "options": [
     "English took the word from Latin",
@@ -191,13 +191,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <i>carrus</i> (“wagon”)?",
-   "explain": "Latin c before a became ch: <i>carrus</i>, <i>char</i>.",
+   "prompt": "Which French word comes from Latin <i lang=\"fr\">carrus</i> (“wagon”)?",
+   "explain": "Latin c before a became ch: <i lang=\"fr\">carrus</i>, <i lang=\"fr\">char</i>.",
    "options": [
-    "<i>char</i>",
-    "<i>car</i>",
-    "<i>carré</i>",
-    "<i>chair</i>"
+    "<i lang=\"fr\">char</i>",
+    "<i lang=\"fr\">car</i>",
+    "<i lang=\"fr\">carré</i>",
+    "<i lang=\"fr\">chair</i>"
    ],
    "answer": 0
   },
@@ -207,7 +207,7 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What English word helps to read the circumflex in <i>pâte</i> (“dough”)?",
+   "prompt": "What English word helps to read the circumflex in <i lang=\"fr\">pâte</i> (“dough”)?",
    "explain": "The circumflex marks a lost s, which English “paste” keeps.",
    "options": [
     "“pate”",
@@ -223,13 +223,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <i>sūdāre</i> (“to sweat”)?",
-   "explain": "The consonant between vowels was lost: <i>sūdāre</i>, <i>suer</i>.",
+   "prompt": "Which French word comes from Latin <i lang=\"fr\">sūdāre</i> (“to sweat”)?",
+   "explain": "The consonant between vowels was lost: <i lang=\"fr\">sūdāre</i>, <i lang=\"fr\">suer</i>.",
    "options": [
-    "<i>sauter</i>",
-    "<i>sûr</i>",
-    "<i>suer</i>",
-    "<i>souder</i>"
+    "<i lang=\"fr\">sauter</i>",
+    "<i lang=\"fr\">sûr</i>",
+    "<i lang=\"fr\">suer</i>",
+    "<i lang=\"fr\">souder</i>"
    ],
    "answer": 2
   },
@@ -239,13 +239,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Frankish and keeps the aspirated <i>h</i>?",
-   "explain": "<i>Haïr</i> is Frankish, with an aspirated <i>h</i>: <i>je le hais</i>. The others come from Latin and have a mute <i>h</i>.",
+   "prompt": "Which French word comes from Frankish and keeps the aspirated <i lang=\"fr\">h</i>?",
+   "explain": "<i lang=\"fr\">Haïr</i> is Frankish, with an aspirated <i lang=\"fr\">h</i>: <i lang=\"fr\">je le hais</i>. The others come from Latin and have a mute <i lang=\"fr\">h</i>.",
    "options": [
-    "<i>heure</i> (“hour”)",
-    "<i>haïr</i> (“to hate”)",
-    "<i>homme</i> (“man”)",
-    "<i>herbe</i> (“grass, herb”)"
+    "<i lang=\"fr\">heure</i> (“hour”)",
+    "<i lang=\"fr\">haïr</i> (“to hate”)",
+    "<i lang=\"fr\">homme</i> (“man”)",
+    "<i lang=\"fr\">herbe</i> (“grass, herb”)"
    ],
    "answer": 1
   },
@@ -255,13 +255,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <i>calidus</i> (“hot”)?",
-   "explain": "Latin c before a became ch, and the unstressed syllables fell away: <i>calidum</i>, <i>chaud</i>.",
+   "prompt": "Which French word comes from Latin <i lang=\"fr\">calidus</i> (“hot”)?",
+   "explain": "Latin c before a became ch, and the unstressed syllables fell away: <i lang=\"fr\">calidum</i>, <i lang=\"fr\">chaud</i>.",
    "options": [
-    "<i>chaud</i>",
-    "<i>calme</i>",
-    "<i>chaise</i>",
-    "<i>caillou</i>"
+    "<i lang=\"fr\">chaud</i>",
+    "<i lang=\"fr\">calme</i>",
+    "<i lang=\"fr\">chaise</i>",
+    "<i lang=\"fr\">caillou</i>"
    ],
    "answer": 0
   },
@@ -271,8 +271,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the s that French <i>épître</i> lost?",
-   "explain": "French <i>épître</i> lost the s of Latin <i>epistula</i>, and English “epistle” keeps it.",
+   "prompt": "Which English word keeps the s that French <i lang=\"fr\">épître</i> lost?",
+   "explain": "French <i lang=\"fr\">épître</i> lost the s of Latin <i lang=\"fr\">epistula</i>, and English “epistle” keeps it.",
    "options": [
     "“epitaph”",
     "“episode”",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "From which people does France take its name?",
-   "explain": "<i>France</i>, the land of the Franks.",
+   "explain": "<i lang=\"fr\">France</i>, the land of the Franks.",
    "options": [
     "The Gauls, a Celtic people",
     "The Romans",
@@ -320,12 +320,12 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which French word did not come from Latin?",
-   "explain": "<i>Blanc</i> is Frankish; Latin had <i>albus</i>.",
+   "explain": "<i lang=\"fr\">Blanc</i> is Frankish; Latin had <i lang=\"fr\">albus</i>.",
    "options": [
-    "<i>vie</i>",
-    "<i>blanc</i>",
-    "<i>tête</i>",
-    "<i>chanter</i>"
+    "<i lang=\"fr\">vie</i>",
+    "<i lang=\"fr\">blanc</i>",
+    "<i lang=\"fr\">tête</i>",
+    "<i lang=\"fr\">chanter</i>"
    ],
    "answer": 1
   },
@@ -335,8 +335,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the s of French <i>honnête</i>?",
-   "explain": "French <i>honnête</i> lost the s of Latin <i>honestus</i>; English “honest” keeps it.",
+   "prompt": "Which English word keeps the s of French <i lang=\"fr\">honnête</i>?",
+   "explain": "French <i lang=\"fr\">honnête</i> lost the s of Latin <i lang=\"fr\">honestus</i>; English “honest” keeps it.",
    "options": [
     "“honor”",
     "“honey”",
@@ -351,8 +351,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "From which language did French take <i>sirop</i> (“syrup”), by way of medieval Latin?",
-   "explain": "<i>Sirop</i> comes from Arabic <i>sharāb</i> (“drink”) through medieval Latin.",
+   "prompt": "From which language did French take <i lang=\"fr\">sirop</i> (“syrup”), by way of medieval Latin?",
+   "explain": "<i lang=\"fr\">Sirop</i> comes from Arabic <i lang=\"fr\">sharāb</i> (“drink”) through medieval Latin.",
    "options": [
     "Greek",
     "Frankish",
@@ -367,8 +367,8 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does English “guard” have <i>gu</i> but “ward” has <i>w</i>?",
-   "explain": "“Ward” is native; “guard” was borrowed from French <i>garde</i>, itself from Frankish.",
+   "prompt": "Why does English “guard” have <i lang=\"fr\">gu</i> but “ward” has <i lang=\"fr\">w</i>?",
+   "explain": "“Ward” is native; “guard” was borrowed from French <i lang=\"fr\">garde</i>, itself from Frankish.",
    "options": [
     "“Guard” came from French",
     "Both came from Latin",
@@ -383,13 +383,13 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "deck": "lang.iv.fr/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word kept the Latin t that <i>père</i>, from <i>pater</i>, lost?",
-   "explain": "<i>Père</i> was worn down in speech, whereas the learned <i>paternel</i> was taken from Latin <i>paternus</i> and keeps the t.",
+   "prompt": "Which French word kept the Latin t that <i lang=\"fr\">père</i>, from <i lang=\"fr\">pater</i>, lost?",
+   "explain": "<i lang=\"fr\">Père</i> was worn down in speech, whereas the learned <i lang=\"fr\">paternel</i> was taken from Latin <i lang=\"fr\">paternus</i> and keeps the t.",
    "options": [
-    "<i>parrain</i>, a popular word",
-    "<i>paternel</i>, a learned word",
-    "<i>patrie</i>, a popular word",
-    "<i>pèlerin</i>, a popular word"
+    "<i lang=\"fr\">parrain</i>, a popular word",
+    "<i lang=\"fr\">paternel</i>, a learned word",
+    "<i lang=\"fr\">patrie</i>, a popular word",
+    "<i lang=\"fr\">pèlerin</i>, a popular word"
    ],
    "answer": 1
   }

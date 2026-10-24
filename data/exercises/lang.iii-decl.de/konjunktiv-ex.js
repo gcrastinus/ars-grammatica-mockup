@@ -15,8 +15,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, third person singular, of <i>laufen</i>.",
-   "explain": "The Konjunktiv I is formed from the stem of the infinitive and never takes the vowel change of the indicative (<i>er läuft</i>): <i>er laufe</i>.",
+   "prompt": "Write the Konjunktiv I, third person singular, of <i lang=\"de\">laufen</i>.",
+   "explain": "The Konjunktiv I is formed from the stem of the infinitive and never takes the vowel change of the indicative (<i lang=\"de\">er läuft</i>): <i lang=\"de\">er laufe</i>.",
    "accept": [
     "laufe"
    ]
@@ -27,8 +27,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, third person singular, of <i>sprechen</i>.",
-   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i>er spricht</i>): <i>er spreche</i>.",
+   "prompt": "Write the Konjunktiv I, third person singular, of <i lang=\"de\">sprechen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i lang=\"de\">er spricht</i>): <i lang=\"de\">er spreche</i>.",
    "accept": [
     "spreche"
    ]
@@ -39,8 +39,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, third person singular, of <i>dürfen</i>.",
-   "explain": "The Konjunktiv I keeps the stem of the infinitive and adds <i>-e</i>: <i>er dürfe</i>, against the indicative <i>er darf</i>.",
+   "prompt": "Write the Konjunktiv I, third person singular, of <i lang=\"de\">dürfen</i>.",
+   "explain": "The Konjunktiv I keeps the stem of the infinitive and adds <i lang=\"de\">-e</i>: <i lang=\"de\">er dürfe</i>, against the indicative <i lang=\"de\">er darf</i>.",
    "accept": [
     "dürfe"
    ]
@@ -51,8 +51,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>geben</i>.",
-   "explain": "The Konjunktiv II is built on the Präteritum <i>gab</i>, with <i>-e</i> and the umlaut: <i>gäbe</i>.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">geben</i>.",
+   "explain": "The Konjunktiv II is built on the Präteritum <i lang=\"de\">gab</i>, with <i lang=\"de\">-e</i> and the umlaut: <i lang=\"de\">gäbe</i>.",
    "accept": [
     "gäbe"
    ]
@@ -63,8 +63,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>finden</i>.",
-   "explain": "The Präteritum <i>fand</i> takes <i>-e</i> and the umlaut: <i>fände</i>.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">finden</i>.",
+   "explain": "The Präteritum <i lang=\"de\">fand</i> takes <i lang=\"de\">-e</i> and the umlaut: <i lang=\"de\">fände</i>.",
    "accept": [
     "fände"
    ]
@@ -75,8 +75,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, third person singular, of <i>lesen</i>.",
-   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i>er liest</i>): <i>er lese</i>.",
+   "prompt": "Write the Konjunktiv I, third person singular, of <i lang=\"de\">lesen</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive (indicative <i lang=\"de\">er liest</i>): <i lang=\"de\">er lese</i>.",
    "accept": [
     "lese"
    ]
@@ -87,13 +87,13 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form for reported speech: <i>Sie sagt, sie ___ müde</i> (“She says she is tired”).",
+   "prompt": "Choose the form for reported speech: <i lang=\"de\">Sie sagt, sie ___ müde</i> (“She says she is tired”).",
    "explain": "Reported speech in written German uses the Konjunktiv I.",
    "options": [
-    "<i>sei</i>",
-    "<i>ist</i>",
-    "<i>wäre</i>",
-    "<i>seie</i>"
+    "<i lang=\"de\">sei</i>",
+    "<i lang=\"de\">ist</i>",
+    "<i lang=\"de\">wäre</i>",
+    "<i lang=\"de\">seie</i>"
    ],
    "answer": 0
   },
@@ -103,8 +103,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What tense is <i>wir hatten gewartet</i>?",
-   "explain": "The Präteritum of <i>haben</i> with the participle: “we had waited.” The Konjunktiv II past would be <i>wir hätten gewartet</i>.",
+   "prompt": "What tense is <i lang=\"de\">wir hatten gewartet</i>?",
+   "explain": "The Präteritum of <i lang=\"de\">haben</i> with the participle: “we had waited.” The Konjunktiv II past would be <i lang=\"de\">wir hätten gewartet</i>.",
    "options": [
     "The Perfekt",
     "The Plusquamperfekt",
@@ -119,8 +119,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>liegen</i>.",
-   "explain": "The Präteritum <i>lag</i> takes <i>-e</i> and the umlaut: <i>läge</i>.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">liegen</i>.",
+   "explain": "The Präteritum <i lang=\"de\">lag</i> takes <i lang=\"de\">-e</i> and the umlaut: <i lang=\"de\">läge</i>.",
    "accept": [
     "läge"
    ]
@@ -131,8 +131,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>tragen</i>.",
-   "explain": "The Präteritum <i>trug</i> takes <i>-e</i> and the umlaut: <i>trüge</i>; in speech <i>würde tragen</i> is more usual.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">tragen</i>.",
+   "explain": "The Präteritum <i lang=\"de\">trug</i> takes <i lang=\"de\">-e</i> and the umlaut: <i lang=\"de\">trüge</i>; in speech <i lang=\"de\">würde tragen</i> is more usual.",
    "accept": [
     "trüge"
    ]
@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, third person singular, of <i>müssen</i>.",
-   "explain": "The Konjunktiv I keeps the stem of the infinitive: <i>er müsse</i>, against the indicative <i>er muss</i>.",
+   "prompt": "Write the Konjunktiv I, third person singular, of <i lang=\"de\">müssen</i>.",
+   "explain": "The Konjunktiv I keeps the stem of the infinitive: <i lang=\"de\">er müsse</i>, against the indicative <i lang=\"de\">er muss</i>.",
    "accept": [
     "müsse"
    ]
@@ -155,13 +155,13 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why does reported speech use <i>sie kämen</i> in <i>Sie sagten, sie kämen morgen</i>?",
+   "prompt": "Why does reported speech use <i lang=\"de\">sie kämen</i> in <i lang=\"de\">Sie sagten, sie kämen morgen</i>?",
    "explain": "Where the Konjunktiv I cannot be told from the indicative, the Konjunktiv II takes its place.",
    "options": [
     "Its Konjunktiv I looks like the indicative",
-    "<i>Kommen</i> has no Konjunktiv I",
+    "<i lang=\"de\">Kommen</i> has no Konjunktiv I",
     "The report is about the past",
-    "<i>Kämen</i> is the Konjunktiv I"
+    "<i lang=\"de\">Kämen</i> is the Konjunktiv I"
    ],
    "answer": 0
   },
@@ -171,13 +171,13 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wenn ich mehr Geld ___, würde ich reisen</i> (“If I had more money, I would travel”).",
+   "prompt": "Choose the form: <i lang=\"de\">Wenn ich mehr Geld ___, würde ich reisen</i> (“If I had more money, I would travel”).",
    "explain": "A condition contrary to fact takes the Konjunktiv II.",
    "options": [
-    "<i>habe</i>",
-    "<i>hatte</i>",
-    "<i>haben</i>",
-    "<i>hätte</i>"
+    "<i lang=\"de\">habe</i>",
+    "<i lang=\"de\">hatte</i>",
+    "<i lang=\"de\">haben</i>",
+    "<i lang=\"de\">hätte</i>"
    ],
    "answer": 3
   },
@@ -188,12 +188,12 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "How does present-day German usually say “I would swim”?",
-   "explain": "The old Konjunktiv II <i>schwömme</i> sounds stiff, so German usually uses <i>würde</i> with the infinitive.",
+   "explain": "The old Konjunktiv II <i lang=\"de\">schwömme</i> sounds stiff, so German usually uses <i lang=\"de\">würde</i> with the infinitive.",
    "options": [
-    "<i>ich schwömme</i>",
-    "<i>ich schwimme</i>",
-    "<i>ich würde schwimmen</i>",
-    "<i>ich hätte geschwommen</i>"
+    "<i lang=\"de\">ich schwömme</i>",
+    "<i lang=\"de\">ich schwimme</i>",
+    "<i lang=\"de\">ich würde schwimmen</i>",
+    "<i lang=\"de\">ich hätte geschwommen</i>"
    ],
    "answer": 2
   },
@@ -203,8 +203,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Plusquamperfekt, third person singular, of <i>kommen</i> (with <i>er</i>).",
-   "explain": "A verb of motion forms the Plusquamperfekt with the Präteritum of <i>sein</i>: <i>er war gekommen</i>.",
+   "prompt": "Write the Plusquamperfekt, third person singular, of <i lang=\"de\">kommen</i> (with <i lang=\"de\">er</i>).",
+   "explain": "A verb of motion forms the Plusquamperfekt with the Präteritum of <i lang=\"de\">sein</i>: <i lang=\"de\">er war gekommen</i>.",
    "accept": [
     "er war gekommen",
     "war gekommen"
@@ -216,8 +216,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Futur II, third person singular, of <i>ankommen</i> (with <i>sie</i>).",
-   "explain": "<i>Werden</i> with the perfect infinitive: <i>angekommen sein</i>.",
+   "prompt": "Write the Futur II, third person singular, of <i lang=\"de\">ankommen</i> (with <i lang=\"de\">sie</i>).",
+   "explain": "<i lang=\"de\">Werden</i> with the perfect infinitive: <i lang=\"de\">angekommen sein</i>.",
    "accept": [
     "sie wird angekommen sein",
     "wird angekommen sein"
@@ -229,13 +229,13 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i>Wenn er gekommen ___, hätten wir uns gefreut</i> (“If he had come, we would have been glad”).",
-   "explain": "<i>Kommen</i> takes <i>sein</i>, so the past Konjunktiv II is <i>wäre gekommen</i>.",
+   "prompt": "Choose the form: <i lang=\"de\">Wenn er gekommen ___, hätten wir uns gefreut</i> (“If he had come, we would have been glad”).",
+   "explain": "<i lang=\"de\">Kommen</i> takes <i lang=\"de\">sein</i>, so the past Konjunktiv II is <i lang=\"de\">wäre gekommen</i>.",
    "options": [
-    "<i>hätte</i>",
-    "<i>war</i>",
-    "<i>sei</i>",
-    "<i>wäre</i>"
+    "<i lang=\"de\">hätte</i>",
+    "<i lang=\"de\">war</i>",
+    "<i lang=\"de\">sei</i>",
+    "<i lang=\"de\">wäre</i>"
    ],
    "answer": 3
   },
@@ -245,7 +245,7 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>Er wird es vergessen haben</i> usually mean?",
+   "prompt": "What does <i lang=\"de\">Er wird es vergessen haben</i> usually mean?",
    "explain": "The Futur II often states a probability about the past.",
    "options": [
     "“He will surely forget it tomorrow.”",
@@ -261,8 +261,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>wissen</i>.",
-   "explain": "<i>Wusste</i> with umlaut: <i>wüsste</i>.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">wissen</i>.",
+   "explain": "<i lang=\"de\">Wusste</i> with umlaut: <i lang=\"de\">wüsste</i>.",
    "accept": [
     "wüsste",
     "wuesste"
@@ -274,8 +274,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv II, third person singular, of <i>bringen</i>.",
-   "explain": "<i>Brachte</i> with umlaut: <i>brächte</i>.",
+   "prompt": "Write the Konjunktiv II, third person singular, of <i lang=\"de\">bringen</i>.",
+   "explain": "<i lang=\"de\">Brachte</i> with umlaut: <i lang=\"de\">brächte</i>.",
    "accept": [
     "brächte"
    ]
@@ -287,12 +287,12 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which sentence reports speech in the Konjunktiv I?",
-   "explain": "<i>Habe … erhalten</i> is the past Konjunktiv I, used for reported speech.",
+   "explain": "<i lang=\"de\">Habe … erhalten</i> is the past Konjunktiv I, used for reported speech.",
    "options": [
-    "<i>Er sagte, er hat den Brief erhalten.</i>",
-    "<i>Er sagte, er hatte den Brief erhalten.</i>",
-    "<i>Er sagte, er habe den Brief erhalten.</i>",
-    "<i>Er sagte, er würde den Brief erhalten haben.</i>"
+    "<i lang=\"de\">Er sagte, er hat den Brief erhalten.</i>",
+    "<i lang=\"de\">Er sagte, er hatte den Brief erhalten.</i>",
+    "<i lang=\"de\">Er sagte, er habe den Brief erhalten.</i>",
+    "<i lang=\"de\">Er sagte, er würde den Brief erhalten haben.</i>"
    ],
    "answer": 2
   },
@@ -302,8 +302,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does <i>Nachdem sie gegessen hatte, ging sie aus</i> show?",
-   "explain": "<i>Hatte gegessen</i> is the Plusquamperfekt: the eating came before the going out.",
+   "prompt": "What does <i lang=\"de\">Nachdem sie gegessen hatte, ging sie aus</i> show?",
+   "explain": "<i lang=\"de\">Hatte gegessen</i> is the Plusquamperfekt: the eating came before the going out.",
    "options": [
     "The Futur II for a probability about the past",
     "The Konjunktiv II for an unreal condition",
@@ -318,8 +318,8 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "Write the Konjunktiv I, second person singular, of <i>gehen</i>.",
-   "explain": "The Konjunktiv I adds <i>-est</i> to the stem of the infinitive: <i>du gehest</i>.",
+   "prompt": "Write the Konjunktiv I, second person singular, of <i lang=\"de\">gehen</i>.",
+   "explain": "The Konjunktiv I adds <i lang=\"de\">-est</i> to the stem of the infinitive: <i lang=\"de\">du gehest</i>.",
    "accept": [
     "gehest"
    ]
@@ -330,10 +330,10 @@ ARS.exercises["lang.iii-decl.de/konjunktiv-ex"] = {
    "deck": "lang.iii-decl.de/konjunktiv-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Why is <i>er machte</i> rarely used as a Konjunktiv II?",
-   "explain": "For a weak verb the Konjunktiv II has the same form as the Präteritum, so <i>würde machen</i> is clearer.",
+   "prompt": "Why is <i lang=\"de\">er machte</i> rarely used as a Konjunktiv II?",
+   "explain": "For a weak verb the Konjunktiv II has the same form as the Präteritum, so <i lang=\"de\">würde machen</i> is clearer.",
    "options": [
-    "<i>Machen</i> has no Konjunktiv II",
+    "<i lang=\"de\">Machen</i> has no Konjunktiv II",
     "It looks like the Präteritum",
     "It is the Konjunktiv I",
     "It is used only in older poetry"

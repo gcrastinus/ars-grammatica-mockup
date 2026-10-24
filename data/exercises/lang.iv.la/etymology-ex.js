@@ -15,8 +15,8 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word is the native cognate of Latin <em>pater</em>?",
-   "explain": "English “father” is inherited, cognate with <em>pater</em>; “paternal,” “patron,” and “pattern” were borrowed from Latin.",
+   "prompt": "Which English word is the native cognate of Latin <em lang=\"la\">pater</em>?",
+   "explain": "English “father” is inherited, cognate with <em lang=\"la\">pater</em>; “paternal,” “patron,” and “pattern” were borrowed from Latin.",
    "options": [
     "“paternal”",
     "“father”",
@@ -31,8 +31,8 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word was borrowed from Latin <em>māter</em>?",
-   "explain": "“Maternal” comes from Latin <em>māternus</em>; “mother” is the native cognate.",
+   "prompt": "Which English word was borrowed from Latin <em lang=\"la\">māter</em>?",
+   "explain": "“Maternal” comes from Latin <em lang=\"la\">māternus</em>; “mother” is the native cognate.",
    "options": [
     "“maternal”",
     "“mother”",
@@ -48,12 +48,12 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Latin word came from Greek?",
-   "explain": "<em>Philosophia</em>, “love of wisdom,” is Greek; the others are native Latin.",
+   "explain": "<em lang=\"la\">Philosophia</em>, “love of wisdom,” is Greek; the others are native Latin.",
    "options": [
-    "<em>sapientia</em>",
-    "<em>prūdentia</em>",
-    "<em>intellegentia</em>",
-    "<em>philosophia</em>"
+    "<em lang=\"la\">sapientia</em>",
+    "<em lang=\"la\">prūdentia</em>",
+    "<em lang=\"la\">intellegentia</em>",
+    "<em lang=\"la\">philosophia</em>"
    ],
    "answer": 3
   },
@@ -63,13 +63,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "How does Latin write Greek <em>χ</em>?",
-   "explain": "<em>Χάος</em> became <em>chaos</em>.",
+   "prompt": "How does Latin write Greek <em lang=\"la\">χ</em>?",
+   "explain": "<em lang=\"la\">Χάος</em> became <em lang=\"la\">chaos</em>.",
    "options": [
-    "<em>c</em>",
-    "<em>x</em>",
-    "<em>ch</em>",
-    "<em>kh</em>"
+    "<em lang=\"la\">c</em>",
+    "<em lang=\"la\">x</em>",
+    "<em lang=\"la\">ch</em>",
+    "<em lang=\"la\">kh</em>"
    ],
    "answer": 2
   },
@@ -79,13 +79,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which French word comes from Latin <em>bucca</em> (“cheek,” in common speech “mouth”)?",
-   "explain": "Spoken Latin used <em>bucca</em> for “mouth,” and it became French <em>bouche</em>.",
+   "prompt": "Which French word comes from Latin <em lang=\"la\">bucca</em> (“cheek,” in common speech “mouth”)?",
+   "explain": "Spoken Latin used <em lang=\"la\">bucca</em> for “mouth,” and it became French <em lang=\"la\">bouche</em>.",
    "options": [
-    "<em>bouc</em>",
-    "<em>bouche</em>",
-    "<em>bec</em>",
-    "<em>bouchon</em>"
+    "<em lang=\"la\">bouc</em>",
+    "<em lang=\"la\">bouche</em>",
+    "<em lang=\"la\">bec</em>",
+    "<em lang=\"la\">bouchon</em>"
    ],
    "answer": 1
   },
@@ -95,13 +95,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word did Latin take from Greek <em>ὄργανον</em> (“tool”)?",
-   "explain": "Latin wrote <em>ὄργανον</em> with its own letters as <em>organum</em>.",
+   "prompt": "Which Latin word did Latin take from Greek <em lang=\"la\">ὄργανον</em> (“tool”)?",
+   "explain": "Latin wrote <em lang=\"la\">ὄργανον</em> with its own letters as <em lang=\"la\">organum</em>.",
    "options": [
-    "<em>organum</em>",
-    "<em>ōrdō</em>",
-    "<em>ōra</em>",
-    "<em>orbis</em>"
+    "<em lang=\"la\">organum</em>",
+    "<em lang=\"la\">ōrdō</em>",
+    "<em lang=\"la\">ōra</em>",
+    "<em lang=\"la\">orbis</em>"
    ],
    "answer": 0
   },
@@ -127,13 +127,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "How does Latin write Greek <em>υ</em>?",
-   "explain": "<em>Κύκλωψ</em> became <em>Cyclōps</em>.",
+   "prompt": "How does Latin write Greek <em lang=\"la\">υ</em>?",
+   "explain": "<em lang=\"la\">Κύκλωψ</em> became <em lang=\"la\">Cyclōps</em>.",
    "options": [
-    "<em>u</em>",
-    "<em>i</em>",
-    "<em>y</em>",
-    "<em>v</em>"
+    "<em lang=\"la\">u</em>",
+    "<em lang=\"la\">i</em>",
+    "<em lang=\"la\">y</em>",
+    "<em lang=\"la\">v</em>"
    ],
    "answer": 2
   },
@@ -143,13 +143,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which spoken Latin word is the ancestor of French <em>tête</em> (“head”)?",
-   "explain": "Spoken Latin used <em>testa</em> (“pot, shell”) for the head, and it became <em>tête</em>; the literary <em>caput</em> survives in “capital.”",
+   "prompt": "Which spoken Latin word is the ancestor of French <em lang=\"la\">tête</em> (“head”)?",
+   "explain": "Spoken Latin used <em lang=\"la\">testa</em> (“pot, shell”) for the head, and it became <em lang=\"la\">tête</em>; the literary <em lang=\"la\">caput</em> survives in “capital.”",
    "options": [
-    "<em>caput</em>",
-    "<em>testa</em>",
-    "<em>tēctum</em>",
-    "<em>textus</em>"
+    "<em lang=\"la\">caput</em>",
+    "<em lang=\"la\">testa</em>",
+    "<em lang=\"la\">tēctum</em>",
+    "<em lang=\"la\">textus</em>"
    ],
    "answer": 1
   },
@@ -159,8 +159,8 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word keeps the literary Latin <em>ōs, ōris</em> (“mouth”)?",
-   "explain": "“Oral” comes from <em>ōs, ōris</em>, “mouth”; “oration” and “oracle” come from <em>ōrāre</em>, “to speak.”",
+   "prompt": "Which English word keeps the literary Latin <em lang=\"la\">ōs, ōris</em> (“mouth”)?",
+   "explain": "“Oral” comes from <em lang=\"la\">ōs, ōris</em>, “mouth”; “oration” and “oracle” come from <em lang=\"la\">ōrāre</em>, “to speak.”",
    "options": [
     "“oration”",
     "“orient”",
@@ -175,13 +175,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "How does Latin write Greek <em>αι</em>?",
-   "explain": "<em>Αἰθήρ</em> became <em>aethēr</em>.",
+   "prompt": "How does Latin write Greek <em lang=\"la\">αι</em>?",
+   "explain": "<em lang=\"la\">Αἰθήρ</em> became <em lang=\"la\">aethēr</em>.",
    "options": [
-    "<em>ae</em>",
-    "<em>ai</em>",
-    "<em>e</em>",
-    "<em>oe</em>"
+    "<em lang=\"la\">ae</em>",
+    "<em lang=\"la\">ai</em>",
+    "<em lang=\"la\">e</em>",
+    "<em lang=\"la\">oe</em>"
    ],
    "answer": 0
   },
@@ -191,13 +191,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "How does Latin write the Greek name <em>Οἰδίπους</em>?",
-   "explain": "Greek <em>οι</em> becomes <em>oe</em>, and <em>ου</em> becomes <em>ū</em>.",
+   "prompt": "How does Latin write the Greek name <em lang=\"la\">Οἰδίπους</em>?",
+   "explain": "Greek <em lang=\"la\">οι</em> becomes <em lang=\"la\">oe</em>, and <em lang=\"la\">ου</em> becomes <em lang=\"la\">ū</em>.",
    "options": [
-    "<em>Oidipous</em>",
-    "<em>Oedipūs</em>",
-    "<em>Aedipus</em>",
-    "<em>Edipus</em>"
+    "<em lang=\"la\">Oidipous</em>",
+    "<em lang=\"la\">Oedipūs</em>",
+    "<em lang=\"la\">Aedipus</em>",
+    "<em lang=\"la\">Edipus</em>"
    ],
    "answer": 1
   },
@@ -223,8 +223,8 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which English word came into English through French from Latin <em>caput</em>?",
-   "explain": "“Chief” came through Old French <em>chef</em>; the others were taken from Latin books.",
+   "prompt": "Which English word came into English through French from Latin <em lang=\"la\">caput</em>?",
+   "explain": "“Chief” came through Old French <em lang=\"la\">chef</em>; the others were taken from Latin books.",
    "options": [
     "“capital”",
     "“decapitate”",
@@ -239,7 +239,7 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which word is the native English cognate of Latin <em>vidēre</em> (“to see”)?",
+   "prompt": "Which word is the native English cognate of Latin <em lang=\"la\">vidēre</em> (“to see”)?",
    "explain": "“Wit” descends from the same root; “video,” “vision,” and “evident” are borrowings.",
    "options": [
     "“wit”",
@@ -255,13 +255,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Latin word did Latin take from Greek <em>κωμῳδία</em>?",
-   "explain": "Latin wrote the Greek ω as ō and the diphthong οι as oe: <em>cōmoedia</em>.",
+   "prompt": "Which Latin word did Latin take from Greek <em lang=\"la\">κωμῳδία</em>?",
+   "explain": "Latin wrote the Greek ω as ō and the diphthong οι as oe: <em lang=\"la\">cōmoedia</em>.",
    "options": [
-    "<em>cōmitia</em>",
-    "<em>cōmoedia</em>",
-    "<em>commodum</em>",
-    "<em>cōmis</em>"
+    "<em lang=\"la\">cōmitia</em>",
+    "<em lang=\"la\">cōmoedia</em>",
+    "<em lang=\"la\">commodum</em>",
+    "<em lang=\"la\">cōmis</em>"
    ],
    "answer": 1
   },
@@ -287,11 +287,11 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does English “oral” differ in its root from French <em>bouche</em>?",
-   "explain": "“Oral” keeps the literary <em>ōs</em>, whereas <em>bouche</em> comes from the spoken <em>bucca</em>.",
+   "prompt": "Why does English “oral” differ in its root from French <em lang=\"la\">bouche</em>?",
+   "explain": "“Oral” keeps the literary <em lang=\"la\">ōs</em>, whereas <em lang=\"la\">bouche</em> comes from the spoken <em lang=\"la\">bucca</em>.",
    "options": [
     "“Oral” came through French",
-    "<em>Bouche</em> is a Germanic word",
+    "<em lang=\"la\">Bouche</em> is a Germanic word",
     "English lost the b of the word",
     "They come from two Latin words for “mouth”"
    ],
@@ -303,13 +303,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Greek letter does Latin write <em>ph</em>?",
-   "explain": "<em>Φ</em> becomes <em>ph</em>, as in <em>philosophia</em>.",
+   "prompt": "Which Greek letter does Latin write <em lang=\"la\">ph</em>?",
+   "explain": "<em lang=\"la\">Φ</em> becomes <em lang=\"la\">ph</em>, as in <em lang=\"la\">philosophia</em>.",
    "options": [
-    "<em>φ</em>",
-    "<em>π</em>",
-    "<em>ψ</em>",
-    "<em>θ</em>"
+    "<em lang=\"la\">φ</em>",
+    "<em lang=\"la\">π</em>",
+    "<em lang=\"la\">ψ</em>",
+    "<em lang=\"la\">θ</em>"
    ],
    "answer": 0
   },
@@ -320,7 +320,7 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which pair is a doublet in English from one Latin word?",
-   "explain": "Both come from <em>caput</em> by different routes; the other pairs are cognate and borrowing.",
+   "explain": "Both come from <em lang=\"la\">caput</em> by different routes; the other pairs are cognate and borrowing.",
    "options": [
     "“chapter” and “capital”",
     "“brother” and “fraternal”",
@@ -335,7 +335,7 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What does Latin <em>mūsculus</em> mean literally?",
+   "prompt": "What does Latin <em lang=\"la\">mūsculus</em> mean literally?",
    "explain": "The muscle was thought to look like a little mouse under the skin.",
    "options": [
     "“little muse”",
@@ -352,12 +352,12 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Latin word is native, not borrowed from Greek?",
-   "explain": "<em>Ager</em> (“field”) is a native Latin word, cognate with Greek <em>ἀγρός</em> and English “acre.”",
+   "explain": "<em lang=\"la\">Ager</em> (“field”) is a native Latin word, cognate with Greek <em lang=\"la\">ἀγρός</em> and English “acre.”",
    "options": [
-    "<em>theātrum</em>",
-    "<em>machina</em>",
-    "<em>ager</em>",
-    "<em>poēta</em>"
+    "<em lang=\"la\">theātrum</em>",
+    "<em lang=\"la\">machina</em>",
+    "<em lang=\"la\">ager</em>",
+    "<em lang=\"la\">poēta</em>"
    ],
    "answer": 2
   },
@@ -367,13 +367,13 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which Italian word, like French <em>bouche</em>, comes from <em>bucca</em>?",
-   "explain": "Italian <em>bocca</em> (“mouth”) comes from spoken Latin <em>bucca</em>, as French <em>bouche</em> does.",
+   "prompt": "Which Italian word, like French <em lang=\"la\">bouche</em>, comes from <em lang=\"la\">bucca</em>?",
+   "explain": "Italian <em lang=\"la\">bocca</em> (“mouth”) comes from spoken Latin <em lang=\"la\">bucca</em>, as French <em lang=\"la\">bouche</em> does.",
    "options": [
-    "<em>bosco</em>",
-    "<em>bocca</em>",
-    "<em>becco</em>",
-    "<em>boccia</em>"
+    "<em lang=\"la\">bosco</em>",
+    "<em lang=\"la\">bocca</em>",
+    "<em lang=\"la\">becco</em>",
+    "<em lang=\"la\">boccia</em>"
    ],
    "answer": 1
   },
@@ -383,10 +383,10 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "deck": "lang.iv.la/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does English spell “rhythm” with <em>rh</em> and <em>y</em>?",
-   "explain": "Greek <em>ῥυθμός</em> became Latin <em>rhythmus</em>, and English followed.",
+   "prompt": "Why does English spell “rhythm” with <em lang=\"la\">rh</em> and <em lang=\"la\">y</em>?",
+   "explain": "Greek <em lang=\"la\">ῥυθμός</em> became Latin <em lang=\"la\">rhythmus</em>, and English followed.",
    "options": [
-    "Latin wrote Greek <em>ῥ</em> as <em>rh</em> and <em>υ</em> as <em>y</em>",
+    "Latin wrote Greek <em lang=\"la\">ῥ</em> as <em lang=\"la\">rh</em> and <em lang=\"la\">υ</em> as <em lang=\"la\">y</em>",
     "English invented the spelling",
     "The word came from French without change",
     "It keeps the Greek letters themselves"

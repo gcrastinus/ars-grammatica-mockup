@@ -9,23 +9,23 @@ ARS.decks["lang.iii-decl.de/parts"] = {
   {
    "id": "classes",
    "title": "The classes of words",
-   "body": "<p>In <i>der alte Fischer fährt heute hinaus</i> (“the old fisherman is going out today”), <i>der</i>, <i>alte</i>, <i>Fischer</i>, and <i>fährt</i> change their form with case, number, or person (<i>die alten Fischer fahren</i>), whereas <i>heute</i> and <i>hinaus</i> never change. German grammars divide the parts of speech in just this way, into <strong>declinable</strong> words (<i>flektierbare Wörter</i>), which change their form, and <strong>indeclinable</strong> words (<i>nicht flektierbare Wörter</i>), which do not, the same division that Donatus makes between the declinable and the indeclinable parts.</p>\n<p>The declinable words are the verb (<i>Verb</i>), the noun (<i>Substantiv</i> or <i>Nomen</i>), the article (<i>Artikel</i>), the adjective (<i>Adjektiv</i>), and the pronoun (<i>Pronomen</i>). The indeclinable words are the adverb (<i>Adverb</i>), the preposition (<i>Präposition</i>), the conjunction (<i>Konjunktion</i>), the interjection (<i>Interjektion</i>), and the small words that the grammars call particles (<i>Partikeln</i>), such as <i>doch</i>, <i>ja</i>, and <i>mal</i>.</p>",
+   "body": "<p>In <i lang=\"de\">der alte Fischer fährt heute hinaus</i> (“the old fisherman is going out today”), <i lang=\"de\">der</i>, <i lang=\"de\">alte</i>, <i lang=\"de\">Fischer</i>, and <i lang=\"de\">fährt</i> change their form with case, number, or person (<i lang=\"de\">die alten Fischer fahren</i>), whereas <i lang=\"de\">heute</i> and <i lang=\"de\">hinaus</i> never change. German grammars divide the parts of speech in just this way, into <strong>declinable</strong> words (<i lang=\"de\">flektierbare Wörter</i>), which change their form, and <strong>indeclinable</strong> words (<i lang=\"de\">nicht flektierbare Wörter</i>), which do not, the same division that Donatus makes between the declinable and the indeclinable parts.</p>\n<p>The declinable words are the verb (<i lang=\"de\">Verb</i>), the noun (<i lang=\"de\">Substantiv</i> or <i lang=\"de\">Nomen</i>), the article (<i lang=\"de\">Artikel</i>), the adjective (<i lang=\"de\">Adjektiv</i>), and the pronoun (<i lang=\"de\">Pronomen</i>). The indeclinable words are the adverb (<i lang=\"de\">Adverb</i>), the preposition (<i lang=\"de\">Präposition</i>), the conjunction (<i lang=\"de\">Konjunktion</i>), the interjection (<i lang=\"de\">Interjektion</i>), and the small words that the grammars call particles (<i lang=\"de\">Partikeln</i>), such as <i lang=\"de\">doch</i>, <i lang=\"de\">ja</i>, and <i lang=\"de\">mal</i>.</p>",
    "qp": {
     "id": "q-de-classes",
     "variants": [
      {
       "prompt": "Which German word is indeclinable?",
       "options": [
-       "<i>kleine</i> (“small”)",
-       "<i>gestern</i> (“yesterday”)",
-       "<i>läuft</i> (“runs”)",
-       "<i>ihnen</i> (“to them”)"
+       "<i lang=\"de\">kleine</i> (“small”)",
+       "<i lang=\"de\">gestern</i> (“yesterday”)",
+       "<i lang=\"de\">läuft</i> (“runs”)",
+       "<i lang=\"de\">ihnen</i> (“to them”)"
       ],
       "answer": 1,
-      "explain": "<i>Gestern</i> is an adverb and never changes; the others are an adjective, a verb, and an article."
+      "explain": "<i lang=\"de\">Gestern</i> is an adverb and never changes; the others are an adjective, a verb, and an article."
      },
      {
-      "prompt": "What do the German grammars call the small indeclinable words such as <i>doch</i> and <i>mal</i>?",
+      "prompt": "What do the German grammars call the small indeclinable words such as <i lang=\"de\">doch</i> and <i lang=\"de\">mal</i>?",
       "options": [
        "Articles",
        "Prefixes",
@@ -33,7 +33,7 @@ ARS.decks["lang.iii-decl.de/parts"] = {
        "Interjections"
       ],
       "answer": 2,
-      "explain": "They are the <i>Partikeln</i>, which belong with the indeclinable words."
+      "explain": "They are the <i lang=\"de\">Partikeln</i>, which belong with the indeclinable words."
      },
      {
       "prompt": "Which division of Donatus answers to the German declinable and indeclinable words?",
@@ -52,12 +52,12 @@ ARS.decks["lang.iii-decl.de/parts"] = {
   {
    "id": "compared",
    "title": "The German list and the Latin list",
-   "body": "<p>The German list differs from Donatus’s in three places. First, German has the article, which Latin lacks. Second, the German grammars count the adjective as a part of its own, whereas Donatus counts it under the noun. Third, the participle is a form of the verb (<i>gesprochen</i>, <i>sprechend</i>), as in the modern grammars of English and French. In one respect German is closer to Latin than English or French is: the article, the adjective, the pronoun, and some nouns still change their form for four cases.</p>",
+   "body": "<p>The German list differs from Donatus’s in three places. First, German has the article, which Latin lacks. Second, the German grammars count the adjective as a part of its own, whereas Donatus counts it under the noun. Third, the participle is a form of the verb (<i lang=\"de\">gesprochen</i>, <i lang=\"de\">sprechend</i>), as in the modern grammars of English and French. In one respect German is closer to Latin than English or French is: the article, the adjective, the pronoun, and some nouns still change their form for four cases.</p>",
    "qp": {
     "id": "q-de-compared",
     "variants": [
      {
-      "prompt": "Where do the German grammars put the participle <i>gesprochen</i>?",
+      "prompt": "Where do the German grammars put the participle <i lang=\"de\">gesprochen</i>?",
       "options": [
        "As a part of its own",
        "Under the adjective",
