@@ -953,7 +953,7 @@ function renderItem(){
   const box = document.createElement('div'); box.className = 'q-box qp ex-item';
   box.innerHTML = `<div class="qp-label"><span>${again ? 'Asked again' : 'Question'}</span><span class="qp-form">${again ? '' : `${run.k + 1} of ${run.n}`}</span></div>
     ${it.passage ? `<div class="ex-passage">${it.passage}${it.passageSrc ? `<div class="ex-passage-src">${it.passageSrc}</div>` : ''}${it.passageTr ? `<div class="ex-passage-tr">${it.passageTr}</div>` : ''}</div>` : ''}
-    <div class="q-prompt">${it.prompt}</div><div class="opts"></div><div class="fb"></div>`;
+    <div class="q-prompt directions">${it.prompt}</div><div class="opts"></div><div class="fb"></div>`;
   const opts = box.querySelector('.opts');
   const done = (ok, given, right) => finishItem(box, it, ok, given, right);
   if (it.type === 'mc' || it.type === 'mc-marked'){
@@ -1077,8 +1077,8 @@ function finishItem(box, it, ok, given, right){
   const fb = box.querySelector('.fb');
   fb.innerHTML = `<div class="feedback ${ok ? 'good' : 'bad'}"><span class="verdict">${ok ? 'Correct.' : 'Incorrect.'}</span> ` +
     compare + (diff ? diff + '<br>' : '') + alsoHtml + (ok ? mine : (beside || copyWrong ? '' : `${mine}${right != null ? `The correct answer is: ${right}.` : 'The correct answers are marked above.'}<br>`)) + `${it.explain}` +
-    (it.why ? `<div class="ex-why"><div class="q-prompt">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
-      <p class="ex-hint" data-act="why-hint">Write at least a few words first.</p>
+    (it.why ? `<div class="ex-why"><div class="q-prompt directions">${it.why.prompt}</div><textarea rows="2" aria-label="Your reason"></textarea>
+      <p class="ex-hint directions" data-act="why-hint">Write at least a few words first.</p>
       <div><button class="btn" type="button" data-act="model" disabled>Show the model answer</button></div><div class="ex-model" hidden>${it.why.model}</div></div>` : '') +
     `<div><button class="btn primary" type="button" data-act="next">Next →</button></div></div>`;
   const mb = fb.querySelector('[data-act="model"]');
@@ -1216,7 +1216,7 @@ function renderQP(qp){
   const s = qpState(qp), v = qp.variants[s.v];
   const box = document.createElement('div'); box.className = 'q-box qp';
   box.innerHTML = `<div class="qp-label"><span>Question</span><span class="qp-form">Form ${FORMS[s.v]}</span></div>
-    <div class="q-prompt">${v.prompt}</div><div class="opts"></div><div class="fb"></div>`;
+    <div class="q-prompt directions">${v.prompt}</div><div class="opts"></div><div class="fb"></div>`;
   const opts = box.querySelector('.opts');
   // Options are shown in a shuffled order, fixed for this variant during this opening of the deck and reshuffled on
   // the next opening (Timothy, 17 Oct 2026). k is always the option's index in the data, so the answer key follows

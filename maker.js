@@ -178,7 +178,7 @@ async function pickDoctrine(exIds, n){
 
 /* ---------- one question on paper, and its key ---------- */
 function paperOf(it){
-  const out = { instr: '', stem: `<div class="q-prompt">${it.prompt || ''}</div>`, body: '', key: '', explain: it.explain || '' };
+  const out = { instr: '', stem: `<div class="q-prompt directions">${it.prompt || ''}</div>`, body: '', key: '', explain: it.explain || '' };
   const t = it.type || (it.options ? 'mc' : '');
   if (t === 'mc' || t === 'mc-marked' || t === 'passage-mc'){
     const order = shuffle(it.options.map((_, k) => k));
@@ -205,7 +205,7 @@ function paperOf(it){
     out.key = (acc[0] || '') + (also.length ? ` <span class="kalso">Also accepted: ${also.join('; ')}.</span>` : '');
   } else if (t === 'copy'){
     out.instr = 'Copy the passage word for word on the lines.';
-    out.stem = `<div class="q-prompt">${it.prompt || ''}</div><div class="qz-passage">${it.text || ''}</div>`;
+    out.stem = `<div class="q-prompt directions">${it.prompt || ''}</div><div class="qz-passage">${it.text || ''}</div>`;
     out.body = '<div class="work tall"></div>';
     out.key = 'A copy that matches the passage word for word.';
   } else if (t === 'mark'){
@@ -242,7 +242,7 @@ function renderPaper(entries, head){
       lastPassage = plain(passage);
     }
     if (!passage) lastPassage = '';
-    qs += `<li class="qitem"><div class="qsetline">${e.doctrine ? 'Doctrine · ' : ''}${e.setTitle}</div>${p.instr ? `<div class="qinstr">${p.instr}</div>` : ''}<div class="qstem">${p.stem}</div>${p.body}</li>`;
+    qs += `<li class="qitem"><div class="qsetline">${e.doctrine ? 'Doctrine · ' : ''}${e.setTitle}</div>${p.instr ? `<div class="qinstr directions">${p.instr}</div>` : ''}<div class="qstem">${p.stem}</div>${p.body}</li>`;
     keys += `<li class="keyitem"><div class="kset">${e.doctrine ? 'Doctrine · ' : ''}${e.setTitle}</div><div class="ka"><b>${p.key || ''}</b></div>${p.explain ? `<div class="kx">${p.explain}</div>` : ''}</li>`;
   });
   qs += '</ol>';

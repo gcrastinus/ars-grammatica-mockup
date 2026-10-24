@@ -79,7 +79,7 @@
       <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true">Free Practice</button>
       <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
     </div>
-    <div id="guided-note" class="guided-note"></div>
+    <div id="guided-note" class="guided-note directions"></div>
     <p id="gp-storage" class="lock-note" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
     <div id="recite-due" class="recite-due" hidden></div>
     <div id="review-due" class="review-due" hidden></div>
@@ -103,7 +103,7 @@
       <button class="btn" id="deck-prev">← Back</button>
       <button class="btn primary" id="deck-next">Next →</button>
     </div>
-    <div class="deck-hint" id="deck-hint"></div>
+    <div class="deck-hint directions" id="deck-hint"></div>
   </div>
 
   <div class="screen" id="scr-lang">
@@ -175,7 +175,7 @@
       </div>
       <div class="deck-title">Quiz Maker</div>
       <div class="deck-sub">A printable quiz with an answer key, drawn from the written exercises of the course and of the particular languages.</div>
-      <details class="maker-help">
+      <details class="maker-help directions">
         <summary>How to make a quiz</summary>
         <p>Choose the sets to draw from. For each set, choose Set A, B, or C, or any set, and the number of questions to take from it. The questions keep the order in which they are stored, from easier to harder, and no question appears twice. The Latin sets that are drawn fresh give new questions each time.</p>
         <p>Turn on doctrine questions to add questions on the teaching of the decks behind the chosen sets. Then make the quiz, read it over, and print it or save it as a PDF. The answer key prints on a separate page.</p>
@@ -230,7 +230,7 @@
       <h2 id="recite-heading">Recitation Tablet</h2>
       <button type="button" class="btn" id="recite-close">Close</button>
     </div>
-    <details class="recite-desc" id="recite-desc" open>
+    <details class="recite-desc directions" id="recite-desc" open>
       <summary>What is recitation?</summary>
       <div class="recite-desc-body">
         <p>One of the oldest and best-proven ways to study is to read a section of a book, or study a topic, in one sitting, then close your notes and write down everything you remember, in as much detail as you can. This is called "recitation," and this tablet lets you do it.</p>
@@ -250,7 +250,7 @@
       <button type="button" class="btn" id="recite-print" hidden>Print</button>
       <button type="button" class="btn" id="recite-new" hidden>Start a new recitation</button>
     </div>
-    <p class="recite-note" id="recite-note" hidden>Write a fuller recitation to see the full one.</p>
+    <p class="recite-note directions" id="recite-note" hidden>Write a fuller recitation to see the full one.</p>
     <div class="recite-columns" id="recite-columns">
       <textarea id="recite-text" class="recite-text" aria-label="Recitation" spellcheck="true" disabled></textarea>
       <div id="recite-full" class="recite-full" hidden></div>
