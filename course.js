@@ -224,7 +224,7 @@ function langBar(bar){
   el.appendChild(h);
   const row = document.createElement('div');
   row.className = 'lang-btns';
-  LANGS.filter(langShown).forEach(L => {
+  LANGS.filter(L => langShown(L) && (!L.hidden || (ARS.languages || {})['lang.' + bar.id + '.' + L.code])).forEach(L => {
     const screen = langRecord(bar.id, L.code);
     const b = document.createElement('button');
     b.type = 'button';
