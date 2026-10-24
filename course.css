@@ -911,3 +911,8 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
   .lp-lvl .lp-name{min-width:0; flex-basis:100%}
   .lp-lvl .lp-lock{padding-left:0}
 }
+
+/* Oct 24: home study and exercise buttons hover a shade lighter in dark mode, as in Ars Logica. */
+body.dark #scr-home .set-card:not(.soon):hover,
+body.dark #scr-home .cumul-bar:hover,
+body.dark #scr-home .set-card .ex-link:hover{background:color-mix(in srgb, var(--ink) 10%, var(--paper))}
