@@ -1123,7 +1123,7 @@ function renderSummary(){
   const box = document.createElement('div'); box.className = 'q-box qp';
   const finished = run.set ? ((run.level ? 'Level ' + ROMAN[run.level] + ', ' : '') + 'Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
   box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
-    <div class="q-prompt">${right} of ${ids.length} answered correctly the first time.</div>` + gnote +
+    <div class="q-prompt directions">${right} of ${ids.length} answered correctly the first time.</div>` + gnote +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
     `<div><button class="btn primary" type="button">Back to the course</button></div>`;
   box.querySelector('button').onclick = () => {

@@ -472,7 +472,7 @@ function finishToday(r, before, res, right, n, missed){
     if (r.first[id]) up[b] = (up[b] || 0) + 1; else down.push(id);
   });
   const plural = k => k + (k === 1 ? ' item' : ' items');
-  let h = '<p class="q-prompt">' + right + ' of ' + n + ' answered correctly the first time.</p>';
+  let h = '<p class="q-prompt directions">' + right + ' of ' + n + ' answered correctly the first time.</p>';
   const lines = [];
   Object.keys(up).sort().forEach(b => lines.push('Moved up to box ' + b + ' (back in ' + days[b - 1] + (days[b - 1] === 1 ? ' day' : ' days') + '): ' + plural(up[b]) + '.'));
   if (down.length) lines.push('Returned to box 1 (back in ' + days[0] + ' day): ' + plural(down.length) + '.');
