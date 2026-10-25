@@ -1,5 +1,5 @@
 /* Quiz Maker check, evaluated in the page by test/browser-check.js --maker.
-   1. On a page loaded at course.html#maker, checks that the Quiz Maker screen is open, chooses one main set and one set per language (a fresh Latin set among them),
+   1. On a page loaded at index.html#maker, checks that the Quiz Maker screen is open, chooses one main set and one set per language (a fresh Latin set among them),
       turns on two doctrine questions, makes the quiz through the buttons, and checks that every
       question rendered with a stem and that the key has one entry per question, none empty.
    2. Renders every item of every exercise the maker lists through ArsMaker.paperOf and checks

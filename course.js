@@ -67,7 +67,7 @@ const LANGS = [
   { code:'de', name:'German' },
   { code:'fr', name:'French' }
 ];
-/* A hidden language shows only in preview: course.html?preview=es (several: ?preview=es,xx). */
+/* A hidden language shows only in preview: index.html?preview=es (several: ?preview=es,xx). */
 const PREVIEW_LANGS = (() => { try { return (new URLSearchParams(location.search).get('preview') || '').split(',').map(x => x.trim()).filter(Boolean); } catch (e) { return []; } })();
 const langShown = L => !L.hidden || PREVIEW_LANGS.indexOf(L.code) >= 0;
 /* Letters an English keyboard does not have, shown under a typed answer in that language. */
@@ -160,7 +160,7 @@ function show(scr){
   else concealReciteNudge();
 }
 
-/* The one ornament: the four-point star defined in course.html. */
+/* The one ornament: the four-point star defined in index.html. */
 const STAR = '<svg class="orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>';
 
 /* ---------- home: all 71 buttons in order ---------- */

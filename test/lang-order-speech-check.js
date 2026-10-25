@@ -34,9 +34,9 @@ const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarv
   const bust = 'v=' + Date.now();
   for (const dark of [false, true]){
     const tag = dark ? '[dark] ' : '[light] ';
-    await b.goto('course.html?' + bust);
+    await b.goto('index.html?' + bust);
     await b.evaluate(`localStorage.clear(); localStorage.setItem('arsGrammaticaCourse', JSON.stringify({ dark:${dark}, decks:{} })); true`);
-    await b.goto('course.html?' + bust);
+    await b.goto('index.html?' + bust);
     await b.evaluate(`setDark(${dark}); buildHome(); true`);
     const order = await b.evaluate(`[...document.querySelector('.lang-bar .lang-btns').children].map(x => x.textContent.trim()).join(',')`);
     check(order === 'English,Latin,Greek,German,French', tag + 'bar order without preview: ' + order);
@@ -46,7 +46,7 @@ const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarv
     check(await b.evaluate(`!![...document.querySelectorAll('#qz-langs label')].find(l => l.querySelector('[value=es]') && l.hidden)`), tag + 'Spanish maker checkbox hidden');
     check(await b.evaluate(`[...document.querySelectorAll('#qz-langs input')].map(i => i.value).join(',')`) === 'main,en,la,grc,es,de,fr', tag + 'maker checkbox order');
 
-    await b.goto('course.html?preview=es&' + bust);
+    await b.goto('index.html?preview=es&' + bust);
     await b.evaluate(`setDark(${dark}); buildHome(); true`);
     const porder = await b.evaluate(`[...document.querySelector('.lang-bar .lang-btns').children].map(x => x.textContent.trim()).join(',')`);
     check(porder === 'English,Latin,Greek,Spanish,German,French', tag + 'bar order with ?preview=es: ' + porder);
@@ -72,7 +72,7 @@ const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarv
 
   /* reader */
   await b.send('Page.addScriptToEvaluateOnNewDocument', { source: FAKE.replace('VOICES', JSON.stringify(ALL)) });
-  await b.goto('course.html?' + bust);
+  await b.goto('index.html?' + bust);
   const pick = l => b.evaluate(`(window.__arsPickVoice(${JSON.stringify(l)}) || {}).name`);
   for (const [l, want] of [['en','Samantha'],['es','Mónica'],['la','Alice'],['grc','Melina'],['el','Melina'],['de','Anna'],['fr','Thomas'],['xx','Samantha']])
     check(await pick(l) === want, `voice for ${l}: ${await pick(l)}`);

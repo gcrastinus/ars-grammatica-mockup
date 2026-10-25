@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Opens course.html in headless Chrome and checks the particular-languages layer as a student sees it:
+/* Opens index.html in headless Chrome and checks the particular-languages layer as a student sees it:
    every language screen, every tile and "Exercise →" button on it, every panel of every language deck
    (with its question point), and the first items of every language exercise, A, B, and C. With --maker
    it also builds a Quiz Maker paper from one main set and one set per language (see test/maker-check.js).
@@ -63,7 +63,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await send('Runtime.enable'); await send('Log.enable'); await send('Page.enable');
   /* window.alert would block the page; record it as an error instead. */
   await send('Page.addScriptToEvaluateOnNewDocument', { source: 'window.alert = m => console.error("alert: " + m);' });
-  await send('Page.navigate', { url: `http://127.0.0.1:${port}/course.html` });
+  await send('Page.navigate', { url: `http://127.0.0.1:${port}/` });
   await sleep(1500);
 
   const report = await evaluate(`(async () => {
@@ -129,7 +129,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   if (MAKER){
     const src = fs.readFileSync(path.join(__dirname, 'maker-check.js'), 'utf8');
     /* A fresh load of #maker: after the many hash changes above, Chrome throttles navigation. */
-    await send('Page.navigate', { url: `http://127.0.0.1:${port}/course.html#maker` });
+    await send('Page.navigate', { url: `http://127.0.0.1:${port}/#maker` });
     await sleep(1500);
     makerReport = await evaluate(src);
   }

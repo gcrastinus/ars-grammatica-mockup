@@ -27,7 +27,7 @@ const ROOT = path.resolve(__dirname, '..');
   })();` });
   const day = async n => { await ev(`window.__off = ${n}; sessionStorage.setItem('off', ${n})`); };
   await b.size(1100, 900);
-  await b.goto('course.html');
+  await b.goto('index.html');
   for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
   await ev(`window.confirm = () => true`);
 
@@ -184,14 +184,14 @@ const ROOT = path.resolve(__dirname, '..');
     'ii.ex.syllable':{ state:'mastered', seen:20, correct:20, history:[{date:'2026-01-01', correct:true, item:'x'}], mhist:[{date:'2026-01-02', correct:true, item:'y'}], passedOn:'2026-01-01', masteredOn:'2026-01-02' },
     'ii.ex.quantity':{ state:'passed', seen:10, correct:10, history:[{date:'2026-01-01', correct:true, item:'z'}], mhist:[], passedOn:'2026-01-01', masteredOn:null },
     'iii.ex.parts':{ state:'learning', seen:3, correct:3, history:[{date:'2026-01-03', correct:true, item:'prt-A01'}], mhist:[], passedOn:null, masteredOn:null } } }))`);
-  await b.goto('course.html');
+  await b.goto('index.html');
   for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
   check('migration: a schema 1 record is read', await ev(`GP.stateOf('ii.ex.syllable') === 'mastered' && GP.stateOf('ii.ex.quantity') === 'passed' && GP.stateOf('iii.ex.parts') === 'learning'`));
   await sitting('ii.ex.quantity', { level: 2 });
   check('migration: the next write stores schema 2, old answers at Level I', await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); return o.schemaVersion === 2 && o.sets['ii.ex.syllable'].history[0].level === 1 && o.sets['ii.ex.syllable'].mhist[0].level === 1 && o.sets['iii.ex.parts'].history[0].level === 1 && o.sets['ii.ex.syllable'].masteredOn === '2026-01-02'; })()`));
   check('migration: GP.migrate leaves schema 2 alone', await ev(`GP.migrate({schemaVersion:2, sets:{a:{history:[{level:3}]}}}).sets.a.history[0].level === 3`));
   await ev(`localStorage.setItem('ars-grammatica-guided', ${JSON.stringify(saved)})`);
-  await b.goto('course.html');
+  await b.goto('index.html');
   for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
   await ev(`window.confirm = () => true`);
   /* 12. layout: no sideways scrolling on the new screens, light and dark, desktop and phone */
