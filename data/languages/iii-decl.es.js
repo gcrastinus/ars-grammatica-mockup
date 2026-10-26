@@ -87,6 +87,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "desc": "24 questions."
   },
   {
+   "id": "lang.iii-decl.es/participle",
+   "kind": "study",
+   "built": true,
+   "title": "The Infinitive, the Gerund, and the Participle",
+   "desc": "The three non-personal forms of the Spanish verb, the irregular participles, and the agreement of the participle."
+  },
+  {
+   "id": "lang.iii-decl.es/participle-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "The Infinitive, the Gerund, and the Participle",
+   "desc": "24 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
