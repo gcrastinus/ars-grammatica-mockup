@@ -1,0 +1,19 @@
+SOURCE FILE: passages of Miguel de Cervantes quoted in lang.ix.es/prose (Don Quijote, Part I, chapter 1, the first two sentences; Part I, chapter 8, the first speech of Don Quixote at the windmills)
+WORK: Miguel de Cervantes Saavedra (1547-1616), El ingenioso hidalgo don Quijote de la Mancha, Part I (1605). The author died in 1616 and the work was first published in 1605.
+EDITION OF THE SPANISH: Obras de Miguel de Cervantes Saavedra, Biblioteca de autores españoles, vol. 1, ordenada é ilustrada por D. Buenaventura Carlos Aribau, tercera edición (Madrid: M. Rivadeneyra, 1864). Aribau died in 1862. The edition prints the text in the spelling of the nineteenth century (the Spanish Academy's, of its time).
+TEXT READ: the Internet Archive item bibliotecadeauto01madruoft. Chapter 1: leaf 315 = printed page 17, read from the page image (enlarged crop of the first paragraph). Chapter 8: leaf 327 = printed page 269, read from the page image (enlarged crops of the first paragraph). The machine reading of the text was not used for the quotation. The printed book could not be compared (batch B14).
+ENGLISH: John Ormsby, translation of Don Quixote (1885), as printed in Project Gutenberg #996 (Part I, chapter I and chapter VIII). Real published translation.
+
+### Spanish, I.1 (printed page 17, first paragraph)
+En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no há mucho tiempo que vivia un hidalgo de los de lanza en astillero, adarga antigua, rocin flaco y galgo corredor. Una olla de algo mas vaca que carnero, salpicon las mas noches, duelos y quebrantos los sábados, lantejas los viérnes, algun palomino de añadidura los domingos, consumian las tres partes de su hacienda.
+
+### English (Ormsby, I.1)
+In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing. An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made away with three-quarters of his income.
+[Matched sentence for sentence: two Spanish sentences, two English sentences.]
+
+### Spanish, I.8 (printed page 269, first paragraph; the edition prints no quotation marks and no dialogue dash)
+En esto descubrieron treinta ó cuarenta molinos de viento que hay en aquel campo; y así como D. Quijote los vió, dijo á su escudero: La ventura va guiando nuestras cosas mejor de lo que acertáramos á desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta ó pocos mas desaforados gigantes con quien pienso hacer batalla y quitarles á todos las vidas, con cuyos despojos comenzarémos á enriquecer; que esta es buena guerra, y es gran servicio de Dios quitar tan mala simiente de sobre la faz de la tierra.
+
+### English (Ormsby, I.8)
+At this point they came in sight of thirty or forty windmills that there are on that plain, and as soon as Don Quixote saw them he said to his squire, “Fortune is arranging matters for us better than we could have shaped our desires ourselves, for look there, friend Sancho Panza, where thirty or more monstrous giants present themselves, all of whom I mean to engage in battle and slay, and with whose spoils we shall begin to make our fortunes; for this is righteous warfare, and it is God’s good service to sweep so evil a breed from off the face of the earth.”
+[Matched: one long Spanish sentence, one English sentence; the English renders «mejor de lo que acertáramos á desear» freely ("better than we could have shaped our desires ourselves") and «ves allí» as the imperative "look there".]

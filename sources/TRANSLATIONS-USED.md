@@ -460,3 +460,15 @@ Sentences made up for the course (the example sentences of Sections III and V, t
 | Góngora, *Soledades* (dedication, lines 1 to 4; *Soledad primera*, lines 1 to 6) | verse | The course's own plain English (verse, as allowed on 25 Oct 2026; every word is rendered), stated in the deck's Sources note | lang.vii.es/figures (`figures-1`, `figures-4`) |
 | Quevedo, sonnet "Represéntase la brevedad de lo que se vive" | lines 9 to 11 | The course's own plain English (verse), stated in the Sources note | lang.vii.es/figures (`figures-2`) |
 | Góngora, sonnet "Mientras por competir con tu cabello" | lines 1 to 3 and 14 | The course's own plain English (verse), stated in the Sources note | lang.vii.es/tropes |
+
+## Spanish, Section IX, prose (B9, 26 Oct 2026)
+
+| Work | Passage | Translator / edition | Deck / panel |
+|---|---|---|---|
+| Cervantes, *Don Quijote* | Part I, chapter 1, the first two sentences | John Ormsby (1885), as printed in Project Gutenberg #996. Real published translation, quoted sentence for sentence | lang.ix.es/prose (`prose-1`) |
+| *La vida de Lazarillo de Tormes* | Tratado I, the first three sentences | Clements R. Markham, *The Life of Lazarillo de Tormes: His Fortunes and Adversities* (London: A. and C. Black, 1908), read from the page images. Real published translation, quoted as printed (the English divides the third Spanish sentence into three and uses its own forms of the names) | lang.ix.es/prose (`prose-7`) |
+| Santa Teresa, *Libro de la vida* | ch. 1, the first two sentences | David Lewis, *The Life of St. Teresa of Jesus* (1870), third edition enlarged with additions by Fr. Benedict Zimmerman (London: Thomas Baker, 1904), ch. I, section 1. Real published translation (the English divides the first Spanish sentence into three) | lang.ix.es/prose (`prose-12`) |
+| Cervantes, *Don Quijote* | Part I, chapter 8, the first speech at the windmills | John Ormsby (1885), Project Gutenberg #996. Real published translation (free in «mejor de lo que acertáramos á desear») | lang.ix.es/prose (`prose-17`) |
+| Gracián, *Oráculo manual* | aphorism 1 | Joseph Jacobs, *The Art of Worldly Wisdom* (London: Macmillan, 1892), aphorism i. Real published translation; free in rendering «el ser persona en el mayor» ("especially the art of making one's way in the world") and in making the first clause a heading | lang.ix.es/prose (`prose-22`) |
+| (Quevedo, *La vida del Buscón*, I.1, dropped) | | A published English version exists (Captain John Stevens, 1707, as revised in 1798 and reprinted in *Pablo de Segovia, the Spanish Sharper*, London, 1892, with an essay by H. E. Watts), but no edition with modernized spelling was found; the passage was replaced by *Don Quijote* I.8 | |
+

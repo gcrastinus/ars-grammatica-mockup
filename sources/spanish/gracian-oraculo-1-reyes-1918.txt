@@ -1,0 +1,12 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Baltasar Gracián, Oráculo manual y arte de prudencia, aphorism 1)
+WORK: Baltasar Gracián (1601-1658), Oráculo manual y arte de prudencia (Huesca, 1647). The author died in 1658 and the work was first published in 1647.
+EDITION OF THE SPANISH: Baltasar Gracián, Tratados: El héroe, El discreto, El oráculo, edición y prólogo de Alfonso Reyes (Biblioteca Calleja, segunda serie; Madrid: Casa Editorial Calleja, 1918). The editor's note on the Oráculo says: "Según el texto de Amsterdam, 1659." The edition prints modern spelling; it has no statement of its rules of spelling that the course could find. Reyes died in 1959 (B14).
+TEXT READ: the Internet Archive item tratadoselhroeel00grac, leaf 187 = printed page 185, read from the page image. The printed book could not be compared (batch B14).
+ENGLISH: Joseph Jacobs, The Art of Worldly Wisdom: A Pocket Oracle (London: Macmillan, 1892), aphorism i (page 1 of the text), read from the page image (Internet Archive item artworldlywisdo01jacogoog, leaf 82). Real published translation. Jacobs died 1916.
+
+### Spanish
+Todo está ya en su punto y el ser persona en el mayor; más se requiere hoy para un sabio que antiguamente para siete, y más es menester para tratar con un solo hombre en estos tiempos, que con todo un pueblo en los pasados.
+
+### English (Jacobs; the first clause is set in italics as the heading of the aphorism)
+Everything is at its Acme; especially the art of making one's way in the world. There is more required nowadays to make a single wise man than formerly to make Seven Sages, and more is needed nowadays to deal with a single person than was required with a whole people in former times.
+[Matching: one Spanish sentence (with a semicolon), two English sentences. The English renders "el ser persona en el mayor" freely, and "sabio" and "siete" as "wise man" and "Seven Sages".]
