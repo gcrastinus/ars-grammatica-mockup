@@ -10,7 +10,7 @@
   if (!document.getElementById('scr-maker').classList.contains('active')) out.problems.push('maker: #maker did not open the screen');
   const rows = [...document.querySelectorAll('#qz-sets .qz-row')];
   const pick = [rows.find(r => r.dataset.id === 'v.ex.agreement')];
-  ['en', 'la', 'grc', 'de', 'fr'].forEach(code => {
+  ['en', 'la', 'grc', 'es', 'de', 'fr'].forEach(code => {
     const want = code === 'la' ? 'lang.iii-decl.la/noun-ex' : null;
     pick.push(rows.find(r => want ? r.dataset.id === want : r.dataset.id.indexOf('.' + code + '/') > 0));
   });
