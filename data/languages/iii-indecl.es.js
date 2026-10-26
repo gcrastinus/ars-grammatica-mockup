@@ -21,6 +21,21 @@ ARS.languages["lang.iii-indecl.es"] = {
    "title": "Spanish Prepositions",
    "desc": "24 questions.",
    "exFor": "lang.iii-indecl.es/prepositions"
+  },
+  {
+   "id": "lang.iii-indecl.es/invariable",
+   "kind": "study",
+   "built": true,
+   "title": "Adverbs, Negation, Conjunctions, and Interjections in Spanish",
+   "desc": "The adverb and its suffix -mente, negation and the negative words, and the conjunctions and interjections."
+  },
+  {
+   "id": "lang.iii-indecl.es/parts-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Adverbs, Negation, Conjunctions, and Interjections in Spanish",
+   "desc": "22 questions.",
+   "exFor": "lang.iii-indecl.es/invariable"
   }
  ]
 };
