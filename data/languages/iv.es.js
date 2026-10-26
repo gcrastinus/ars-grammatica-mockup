@@ -20,6 +20,20 @@ ARS.languages["lang.iv.es"] = {
    "built": true,
    "title": "Word Formation in Spanish",
    "desc": "24 questions."
+  },
+  {
+   "id": "lang.iv.es/composition",
+   "kind": "study",
+   "built": true,
+   "title": "Compounds in Spanish",
+   "desc": "The kinds of compound, verb and noun compounds, parasynthetic verbs, and learned elements."
+  },
+  {
+   "id": "lang.iv.es/composition-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Compounds in Spanish",
+   "desc": "24 questions."
   }
  ]
 };
