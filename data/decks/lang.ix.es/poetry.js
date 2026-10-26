@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -72,7 +72,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   {
    "id": "poetry-6",
    "title": "The spelling of these older prints",
-   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p>"
+   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p><p>The 1891 print of Bécquer’s <i lang=\"es\">Rimas</i> still writes the accent on the preposition <i lang=\"es\">á</i>, in <i lang=\"es\">á colgar</i> and in <i lang=\"es\">á sus cristales</i>.</p>"
   },
   {
    "id": "poetry-7",
@@ -262,6 +262,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-21",
    "title": "Gather the fruit",
    "body": "<p><i lang=\"es\">Coged de vuestra alegre primavera el dulce fruto.</i> <i lang=\"es\">Coged</i> is the command to <i lang=\"es\">vosotros</i>. <i lang=\"es\">Primavera</i> is the spring, and <i lang=\"es\">fruto</i> is the fruit of it. <i lang=\"es\">Antes que el tiempo ayrado cubra de nieve la hermosa cumbre.</i> <i lang=\"es\">Antes que</i> is “before.” <i lang=\"es\">Ayrado</i> agrees with <i lang=\"es\">tiempo</i>. <i lang=\"es\">Cubra</i> is the present subjunctive of <i lang=\"es\">cubrir</i>, after <i lang=\"es\">antes que</i>. <i lang=\"es\">Cumbre</i> is the summit.</p><p><i lang=\"es\">Marchitará la rosa el viento elado.</i> <i lang=\"es\">Marchitará</i> is the future of <i lang=\"es\">marchitar</i>, “will wither.” The subject is <i lang=\"es\">el viento elado</i>, the frozen wind, and <i lang=\"es\">elado</i> agrees with <i lang=\"es\">viento</i>. <i lang=\"es\">Todo lo mudará la edad ligera.</i> <i lang=\"es\">Mudará</i> is the future of <i lang=\"es\">mudar</i>, “will change,” and the subject is <i lang=\"es\">la edad ligera</i>, the swift age. <i lang=\"es\">Por no hacer mudanza en su costumbre</i>: <i lang=\"es\">mudanza</i> is “change,” and <i lang=\"es\">costumbre</i> is “custom.” The age changes everything else, and its own custom is not to change.</p>"
+  },
+  {
+   "id": "poetry-22",
+   "title": "Bécquer, Rima LIII · Hendecasyllable",
+   "body": "<p lang=\"es\">VOLVERÁN las oscuras golondrinas<br>En tu balcón sus nidos á colgar,<br>Y, otra vez, con el ala á sus cristales<br>Jugando llamarán;</p><p>The dark swallows will return<br>to hang their nests on your balcony,<br>and, once again, with the wing against your windowpanes,<br>playing, they will call;</p><p><strong>Context.</strong> Gustavo Adolfo Bécquer was born in Seville in 1836 and died in Madrid in 1870. This is the opening stanza of Rima LIII, in the <i lang=\"es\">Rimas</i>. Three lines have eleven syllables, and the fourth has seven. The even lines assonate in <i lang=\"es\">á</i>: <i lang=\"es\">colgar</i> with <i lang=\"es\">llamarán</i>. Both of those words are stressed on the last syllable. The odd lines do not rhyme.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-22",
+    "variants": [
+     {
+      "prompt": "What is <i lang=\"es\">volverán</i>?",
+      "options": [
+       "They will return",
+       "A command: do return",
+       "A past: they returned",
+       "The noun for a swallow"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Volverán</i> is the future of <i lang=\"es\">volver</i>. The swallows will come back."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">á colgar</i> give in this line?",
+      "options": [
+       "The purpose: to hang",
+       "A past of <i lang=\"es\">colgar</i>",
+       "The name of the balcony",
+       "A plural of <i lang=\"es\">nido</i>"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Á</i> with the infinitive gives the purpose. The nests are there to be hung."
+     },
+     {
+      "prompt": "What do <i lang=\"es\">colgar</i> and <i lang=\"es\">llamarán</i> share?",
+      "options": [
+       "Assonance on <i lang=\"es\">a</i>",
+       "A full rhyme in <i lang=\"es\">ar</i>",
+       "Assonance on <i lang=\"es\">e</i>",
+       "No rhyme is heard"
+      ],
+      "answer": 0,
+      "explain": "Both are stressed on <i lang=\"es\">a</i>, and no vowel follows that stress. The rhyme is assonance."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-23",
+   "title": "Eleven, and a line of seven",
+   "body": "<p><i lang=\"es\">Volverán las oscuras golondrinas</i> has no synalepha. The consonant of <i lang=\"es\">las</i> keeps <i lang=\"es\">oscuras</i> apart. The syllables are <i lang=\"es\">Vol</i>, <i lang=\"es\">ve</i>, <i lang=\"es\">rán</i>, <i lang=\"es\">las</i>, <i lang=\"es\">os</i>, <i lang=\"es\">cu</i>, <i lang=\"es\">ras</i>, <i lang=\"es\">go</i>, <i lang=\"es\">lon</i>, <i lang=\"es\">dri</i>, <i lang=\"es\">nas</i>. That is eleven, and <i lang=\"es\">golondrinas</i> is stressed on the next to last syllable, so nothing is added.</p><p><i lang=\"es\">En tu balcón sus nidos á colgar</i> is <i lang=\"es\">En</i>, <i lang=\"es\">tu</i>, <i lang=\"es\">bal</i>, <i lang=\"es\">cón</i>, <i lang=\"es\">sus</i>, <i lang=\"es\">ni</i>, <i lang=\"es\">dos</i>, <i lang=\"es\">á</i>, <i lang=\"es\">col</i>, <i lang=\"es\">gar</i>. The consonant of <i lang=\"es\">nidos</i> keeps <i lang=\"es\">á</i> from joining. <i lang=\"es\">Colgar</i> is stressed on the last syllable, so the ten syllables count as eleven.</p><p><i lang=\"es\">Jugando llamarán</i> is <i lang=\"es\">Ju</i>, <i lang=\"es\">gan</i>, <i lang=\"es\">do</i>, <i lang=\"es\">lla</i>, <i lang=\"es\">ma</i>, <i lang=\"es\">rán</i>, and one more because <i lang=\"es\">llamarán</i> is stressed at the end. The line counts seven. <i lang=\"es\">Y, otra vez, con el ala á sus cristales</i> meets in three places, <i lang=\"es\">Y</i> with <i lang=\"es\">otra</i>, <i lang=\"es\">el</i> with <i lang=\"es\">ala</i>, and <i lang=\"es\">ala</i> with <i lang=\"es\">á</i>. If all three meetings join, the line has ten syllables. It has eleven only if <i lang=\"es\">ala</i> and <i lang=\"es\">á</i> stay apart. The accent on <i lang=\"es\">á</i> marks the preposition, and the preposition is unstressed in speech. The count of eleven for this one line rests on the pattern of the stanza.</p>"
+  },
+  {
+   "id": "poetry-24",
+   "title": "The dark swallows",
+   "body": "<p><i lang=\"es\">Volverán las oscuras golondrinas.</i> <i lang=\"es\">Volverán</i> is the future of <i lang=\"es\">volver</i>, and its subject is <i lang=\"es\">las golondrinas</i>. <i lang=\"es\">Oscuras</i> agrees with <i lang=\"es\">golondrinas</i>: the swallows are dark. <i lang=\"es\">En tu balcón sus nidos á colgar.</i> <i lang=\"es\">Balcón</i> is the balcony. <i lang=\"es\">Nidos</i> is the plural of <i lang=\"es\">nido</i>, “nest.” <i lang=\"es\">Á colgar</i> is “to hang,” and it gives what the birds will do with the nests.</p>"
+  },
+  {
+   "id": "poetry-25",
+   "title": "The wing and the window",
+   "body": "<p><i lang=\"es\">Y, otra vez, con el ala á sus cristales jugando llamarán.</i> <i lang=\"es\">Otra vez</i> is “once again.” <i lang=\"es\">Ala</i> is “wing,” singular, for the wing that strikes the glass. <i lang=\"es\">Cristales</i> are the windowpanes. <i lang=\"es\">Á sus cristales</i> is “at your windowpanes.” <i lang=\"es\">Jugando</i> is the gerund of <i lang=\"es\">jugar</i>, “playing.” <i lang=\"es\">Llamarán</i> is the future of <i lang=\"es\">llamar</i>, “they will call,” and the subject is the swallows.</p>"
+  },
+  {
+   "id": "poetry-26",
+   "title": "The accent on the preposition",
+   "body": "<p>The print writes <i lang=\"es\">á</i> twice in this stanza, before <i lang=\"es\">colgar</i> and before <i lang=\"es\">sus</i>. That accent marks the preposition, so that the eye can tell it from other words of the same letters. It does not put a stress on the preposition. In the count of <i lang=\"es\">nidos á colgar</i>, the <i lang=\"es\">s</i> of <i lang=\"es\">nidos</i> already keeps the words apart, and the accent changes nothing in the syllables.</p>"
   }
  ]
 };
