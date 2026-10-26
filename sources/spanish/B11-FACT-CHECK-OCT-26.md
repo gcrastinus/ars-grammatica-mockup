@@ -66,3 +66,21 @@ Section X (plan section 4.3) names Cervantes's prologue to Part I of *Don Quijot
 - The text of Bernal Díaz is of Vedia's edition and has not been compared with the printing of 1632; whether a better-attested modernizing edition is needed is for Timothy to decide in B14.
 - The English of Maudslay translates the text of Genaro García, so its differences from Vedia's text (no *casas de*, the end of the passage) are not translator's choices.
 - No statement of the Manual was found on *parecer a* (*parecia á las casas*), so the note describes the construction and leaves it unexplained.
+
+## `prose-ex` (commit 2): 60 items
+
+`data/exercises/lang.ix.es/prose-ex.js`: 60 multiple-choice items, 20 in each of sets A, B, and C (item *n* goes to set A, B, or C in turn), four items to each of the 15 passages, each with `passageRef` set to the opening panel of its passage (`prose-1`, `prose-7`, `prose-12`, `prose-17`, `prose-22`, `prose-27`, `prose-32`, `prose-37`, `prose-42`, `prose-47`, `prose-52`, `prose-56`, `prose-61`, `prose-65`, `prose-69`). The exercise is paired with its deck by the name `prose-ex` and its screen item in `data/languages/ix.es.js` ("60 questions."); the file loads on demand, so no script tag is needed. The correct option is the longest in 5 of 20 items in A, 5 in B, and 4 in C (the audit allows 6).
+
+Every item asks about a point that the notes of the passage already state and cite, and the explanation of each item repeats the citation, so the checks above (and those of `B9-FACT-CHECK-OCT-26.md` and `B10-FACT-CHECK-OCT-26.md` for passages 1 to 10) cover them. The points in which an item goes beyond a cited statement:
+
+| Item | Statement | Verdict |
+|---|---|---|
+| prose-1, `n1` | in *no há mucho tiempo que vivia un hidalgo* the subject of *vivia* is *un hidalgo* | Reading of the sentence, as in the note of `prose-3` |
+| prose-1, `n3` | *consumian* is plural because its subject is the list of dishes | Reading of the sentence, as in the note of `prose-5` |
+| prose-7, `n5` | *sepa* is the present subjunctive used as a polite command | As in the note of `prose-8`; the Manual's §16.2.1 and §16.7 are cited there for the third person |
+| prose-17, `n14` | impersonal *haber* takes a direct object, and the singular is recommended | MANUAL §41.4.3a (checked in this batch's reading: "Se recomienda la variante en singular") |
+| prose-17, `n14` (option) | the form *mejor de lo que* with a clause as second term | As in the note of `prose-19`; the Manual paragraph on *de lo que* was not read in B11: B14 |
+| prose-22, `n19` | *solo* in *un solo hombre* is an adjective meaning "single" | As in the note of `prose-26` |
+| prose-47, `n36` | genitive of the whole after *nihil* | Allen and Greenough §346, as in the note of `prose-48` |
+| prose-65, `n55` | *de suerte que* gives a consequence | INFERENCE (see the table above): the Manual lists *de modo que*, *así que*, *conque* |
+| prose-69, `n59` | *fué* has an accent that today's rule does not write on a word of one syllable | `lang.ii.es/orthography` (the course's own card) |

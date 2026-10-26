@@ -13,6 +13,13 @@ ARS.languages["lang.ix.es"] = {
    "built": true,
    "title": "Spanish Prose",
    "desc": "Fifteen passages of Spanish prose, from Cervantes to Unamuno, read part by part."
+  },
+  {
+   "id": "lang.ix.es/prose-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Spanish Prose",
+   "desc": "60 questions."
   }
  ]
 };
