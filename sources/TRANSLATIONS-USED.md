@@ -443,3 +443,11 @@ The English models (lang.x.en) are English texts and need no translation.
 | Schiller, *Wilhelm Tell* | III.1 | lang.vii.de/tropes-ex | the course’s own |
 
 Sentences made up for the course (the example sentences of Sections III and V, the marking sentences in lang.v.grc, fr, and de cited-ex, and the clause examples added on 21 Oct 2026) are the course's own and are not quotations.
+
+### Section IX, Spanish verse (the course’s own)
+
+The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rendering made for the course. It is not a published translation, and no translator is named in the deck. The Sources note of the deck says so.
+
+| Work | Passage | Deck | Translation |
+|---|---|---|---|
+| Anonymous, *Romance del prisionero* | Wolf and Hofmann, *Primavera y flor de romances*, vol. 2 (1856), no. 114 | lang.ix.es/poetry | the course’s own |

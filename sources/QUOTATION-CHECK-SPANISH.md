@@ -23,3 +23,9 @@ Quotes no passage. The example words are the course's own, and the facts are in 
 | `lang.iii-decl.es/subjunctive` | No passage is quoted. *Sea cual fuere* and *Adonde fueres, haz lo que vieres* are the Manual's own examples of survivals of the future subjunctive (quoted there from the proverb) | same | Found |
 | `lang.iii-decl.es/participle` | No passage is quoted. *No sabiendo ella qué decir* is the Manual's example (§27.1.1b), extended by the course with *calló* | same | Found (the OCR hyphenates *sa-biendo*) |
 | `lang.iii-decl.es/irregular` | No passage is quoted | same | Not applicable |
+
+## Section IX, poetry (B12)
+
+| Deck | Quoted text | Saved text | Result |
+|---|---|---|---|
+| `lang.ix.es/poetry` | *Romance del prisionero*, Wolf and Hofmann no. 114 (twelve lines), and the first line of no. 114a, which the spelling panel quotes in order not to mix the two copies | `sources/spanish/romance-prisionero.txt` | Read from a rendering of the printed page (PDF pages 26–27 of Internet Archive `primaverayflorde02wolf`). Accents and the unaccented *dia* and *galardon* kept as printed |
