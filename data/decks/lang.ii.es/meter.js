@@ -52,7 +52,7 @@ ARS.decks["lang.ii.es/meter"] = {
   {
    "id": "meter-2",
    "title": "Synalepha",
-   "body": "<p><strong>Synalepha.</strong> When a word ends in a vowel and the next begins with a vowel, the two vowels are said together in one syllable of the meter. This joining is called synalepha, in Spanish <i lang=\"es\">sinalefa</i>. Because <i lang=\"es\">h</i> is silent, it does not stop it: in Machado’s <i lang=\"es\">se hace camino al andar</i> the vowels of <i lang=\"es\">se hace</i> are joined, and those of <i lang=\"es\">camino al</i>, so the line counts <i lang=\"es\">se ha-ce-ca-mi-no al-an-dar</i> as seven syllables, and eight with the final stress of <i lang=\"es\">andar</i>. A consonant between the words prevents synalepha: <i lang=\"es\">las oscuras</i> keeps both its syllables.</p>",
+   "body": "<p><strong>Synalepha.</strong> When a word ends in a vowel and the next begins with a vowel, the two vowels are said together in one syllable of the meter. This joining is called synalepha, in Spanish <i lang=\"es\">sinalefa</i>. Because <i lang=\"es\">h</i> is silent, it does not stop it: in Machado’s <i lang=\"es\">se hace camino al andar</i> the vowels of <i lang=\"es\">se hace</i> are joined, and those of <i lang=\"es\">camino al</i>, so the line has seven syllables, in order <i lang=\"es\">seha</i>, <i lang=\"es\">ce</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">mi</i>, <i lang=\"es\">noa</i>, <i lang=\"es\">lan</i>, <i lang=\"es\">dar</i>, and it counts as eight with the final stress of <i lang=\"es\">andar</i>. A consonant between the words prevents synalepha: <i lang=\"es\">las oscuras</i> keeps both its syllables.</p>",
    "qp": {
     "id": "q-es-meter-2",
     "variants": [
