@@ -1,0 +1,595 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B5 (Section IV: formation, composition, etymology) and by the one sentence on the personal a added to lang.iii-indecl.es/prepositions
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy, item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, fetched 26 Oct 2026. The text is machine-read; line breaks and stray spaces are not the book's, and the printed book could not be compared (batch B14). The paragraph number is the Manual's own. A paragraph that the extraction could not find under its label is marked NOT FOUND and was read at the line named in B5-FACT-CHECK-OCT-26.md.
+
+### Manual §1.3.2b (OCR line 332)
+1.3.2b Las voces derivadas constan de una raíz y un afijo. La raíz aporta el 
+significado léxico, y los afijos agregan informaciones de diverso tipo. Se reconocen 
+tres procesos en la derivación: la sufijaciÓn, la prefijación y la parasíntesis. Así, 
+la palabra mar-ino contiene un afijo pospuesto o sufijo. Este término se usa más en la 
+morfología derivativa; en la flexiva se prefiere el nombre de desinencia, sobre todo 
+para los afijos flexivos del verbo. Estos segmentos aportan informaciones sobre el 
+tiempo, el aspecto, el número, la persona o el modo. La vocal temática es un seg- 
+mento flexivo sin repercusión semántica, pero que distingue las tres conjugaciones 
+(amar, temer, partir). Los morfemas antepuestos a la base léxica se denominan 
+prefijos (im-posible, re-educar). El lugar de la prefijación dentro de la formación de 
+palabras ha oscilado tradicionalmente. Mientras que en los estudios clásicos era más 
+común ubicarla en la composición, en la actualidad se la sitúa de forma mayoritaria 
+en la derivación. 
+
+### Manual §1.3.2c (OCR line 346)
+1.3.2c Tradicionalmente se ha denominado parasíntesis al procedimiento 
+de formación de palabras que participa de la derivación y la composición. Son, 
+pues, formas parasintéticas centrocampista, cuentacorrentista o quinceañero. Como 
+la prefijación se asimilaba tradicionalmente a la composición, también se consideran 
+1.3.2d 
+Partes de la gramática. Unidades de análisis 
+8 
+parasintéticos los verbos que contienen un afijo discontinuo, formado por prefijo 
+y sufijo, como a-...-ar y en-...-ecer, entre los que se puede situar un adjetivo ( aclarar , 
+atontar, engrandecer, entristecer ) o un sustantivo ( abotonar , amontonar, apoltronará. 
+
+### Manual §1.3.4c (OCR line 458)
+1.3.4c Se denomina suplencia o supleciÓn la sustitución de una base por otra de 
+igual significado, y a menudo de su mismo origen. El fenómeno es muy habitual en las 
+alternancias entre las bases cultas, heredadas generalmente del latín, y las bases 
+patrimoniales, propias del español. Son bases supletivas acu- ( acuoso ) para agua; 
+digit- (digital) para dedo; lact- (lactosa) para leche; fil- (filial) para hijo, etc. En la flexión 
+poseen raíces supletivas verbos como ir (iré / fui/ voy) o ser (seré / fuimos / eras). 
+
+### Manual §5.1.1a (OCR line None)
+NOT FOUND
+
+### Manual §5.2.1a (OCR line 17433)
+5.2.1 a El sufijo -ción da lugar a gran número de nombres de acción. De origen 
+culto, coexiste con el patrimonial -zón (quemazón) y con las variantes -ión (con- 
+fesión) y -sión (inclusión). Los derivados en -ción son femeninos y proceden de 
+verbos de las tres conjugaciones, aunque los de la segunda constituyen el grupo 
+menos numeroso. En los derivados actuales, el sufijo se adjunta al tema verbal, es 
+decir, al formado por la raíz y la vocal temática, que en estos casos es la carac- 
+terística de los temas de participio: consumar > consum-a-ción (como en consu- 
+mado); demoler > demol-i-ción (como en demolido); consumir > consum-i-ción 
+(como en consumido). 
+
+### Manual §5.2.1b (OCR line 17443)
+5.2.1 b Los derivados en -ción muestran numerosas irregularidades, resultado de 
+la confluencia entre las formas heredadas del latín o del español antiguo (muchas 
+veces sin relación con verbos existentes en la actualidad) y las formaciones nuevas. 
+Aquí solo se mencionarán las que ofrecen mayor número de ejemplos, con la adver- 
+tencia de que en cada caso pueden existir excepciones. Las principales irregularida- 
+des afectan a derivados de verbos con las siguientes terminaciones: 
+-cibir: forman derivados en -cepción como concepción, percepción, recepción. 
+-decir: por lo general, forman derivados en -dicción, como en la propia voz dicción 
+(< decir) o en contradicción, predicción. 
+-ducir: forman derivados en -ducción, como conducción, deducción, producción, reduc- 
+ción, traducción. 
+-ecer: muestran haplología sistemática. No se dice, pues, *aparecición, sino aparición. 
+-egir, -igir, -eger: varios de ellos forman derivados en -ección, como en elegir > elección. 
+A este grupo pertenecen corrección, dirección, rección, protección. 
+-poner: forman derivados en -posición, como composición, disposición, exposición, impo- 
+sición. 
+-scribir: forman derivados en -scripción, como descripción, inscripción, prescripción, 
+transcripción. 
+-solver: forman derivados en -solución, como en absolución, disolución, resolución. 
+5.2.1c 
+
+### Manual §5.2.1c (OCR line 17505)
+5.2.1c En relación con las irregularidades anteriores es necesario advertir que 
+muchas de ellas no lo son si se adopta un punto de vista histórico, desde el que los 
+derivados se interpretan como cultismos que calcan formaciones latinas. Para el 
+análisis de estas formas en la morfología sincrónica se necesita recurrir a bases 
+supletivas o a procesos fonológicos diversos. Así, para la raíz recib-, de recibir, se 
+postula la base supletiva recep-, que explica recepción, mientras que para suscri- 
+bir > suscripción se piensa en el ensordecimiento de la consonante final /b/> /p/; 
+para conducir > conducción en la velarización y oclusivizaciÓn de /s/~/0/ > /k/; para 
+absorber (> absorción, en lugar de *absorbciórí) en la reducción de un grupo conso- 
+nántico no articulable, etc. 
+
+### Manual §5.2.1d (OCR line 17516)
+5.2.1 d Como se ha señalado, el sufijo -ción presenta, además de la variante ver- 
+nácula -zón, las variantes -ión ( rebelar > rebelión) y -sión (percutir > percusión). La dis- 
+tinción entre las dos últimas no es inmediata. En efecto, la segmentación [remis][ión] 
+tiene, frente a [remi][sión], la ventaja de que contiene una base léxica supletiva para el 
+verbo remitir (remis-) que aparece en remiso, remisible, remisivo, etc. El mismo razona- 
+miento se aplica a otros muchos casos similares. En cambio, el verbo percutir forma los 
+derivados percutido, percutióle o percutor, lo que hace pensar que la segmentación más 
+adecuada de percusión es [percu] [sión], con posible elisión de la-í- final de la base verbal 
+para evitar una secuencia -ts- (*percutsión), que el español tiende a rechazar. Cuando 
+en el texto se habla de la terminación -sión, no se toma partido en esta cuestión. 
+
+### Manual §5.2.2a (OCR line 17648)
+5.2.2a El sufijo -miento es, junto a -ción, uno de los más productivos del español. 
+Ha dado lugar, por tanto, a un gran número de neologismos. Muchos son generales, 
+pero algunos están reducidos a ciertas zonas: abatatamiento, arratonamiento, 
+desbielamiento, enchinamiento, profesamiento, etc. Aparece sobre todo con bases 
+verbales de la primera conjugación (alumbramiento, alzamiento, casamiento), aunque 
+también se registran ejemplos de la segunda (acogimiento, crecimiento, movimiento) 
+y de la tercera (fingimiento, rendimiento, seguimiento). Se adjunta al tema verbal, 
+constituido por la raíz y la vocal temática que, como en el caso de -ción (§ 5.2.1a), 
+105 
+Nombres de acción y efecto 
+5.2.2d 
+es la del participio. Las irregularidades a las que da lugar este sufijo son mucho más 
+escasas que las descritas para -ción y sus variantes. Ello se debe a que la mayor parte 
+de las formaciones en -miento han sido creadas en diversos estadios del español, 
+mientras que son mucho más numerosas las formaciones en -ción que entraron en 
+español procedentes del latín. 
+
+### Manual §6.1.1a (OCR line 18317)
+6.1.1a El sufijo -dad es uno de los más productivos para obtener sustantivos de 
+cualidad a partir de adjetivos, como en malo > maldad. Muchos de los derivados ya lo 
+eran en latín (como sucede, por ejemplo, con benignidad o dificultad), pero de acuer- 
+do con los presupuestos de la morfología sincrónica (§ 1 .3.3) se consideran derivados 
+en español, puesto que los hablantes los relacionan con los adjetivos correspondien- 
+tes (benigno o difícil en estos ejemplos). Desde esta perspectiva, el sufijo -dad pre- 
+senta cuatro variantes: -edad (seco > sequedad), -idad (ameno > amenidad), -dad 
+(malo > maldad) y -tad (leal > lealtad). 
+
+### Manual §6.1.1b (OCR line 18326)
+6.1 .1 b La variante -edad no da lugar hoy a derivados nuevos. Forma parte de una 
+serie de nombres formados sobre adjetivos bisílabos, como brevedad, falsedad, nove- 
+dad, obviedad, seriedad, soledad, terquedad, viudedad, etc. La terminación típica de 
+los adjetivos de más de dos sílabas que reciben este sufijo es -io/ -ia: arbitrariedad, 
+contrariedad, notoriedad, obligatoriedad, precariedad. Se prefieren complementarie- 
+dad a complementaridad, solidaridad a solidariedad y subsidiariedad a subsidiaridad. 
+
+### Manual §6.2.1a (OCR line 18638)
+6.2.1a Se forman numerosos sustantivos a partir de verbos mediante el sufijo 
+-dor/ -dora. Muchos son también adjetivos, como en una observadora -gente obser- 
+vadora; un trabajador -un hombre trabajador; la vendedora -la fiebre vendedora, 
+123 
+Nombres de persona, instrumento y lugar 
+6.2.1f 
+mientras que otros solo se suelen usar como nombres: agricultora, enterrador, esti- 
+bador, pescadora. Para los femeninos en -triz, véase el § 2.1.4d. 
+
+### Manual §6.2.2a (OCR line 18797)
+6.2.2a El sufijo -dero/ -dera permite formar nombres de agente ( panadero , tejede- 
+ra), de instrumento ( colgadero , regadera) y de lugar (fregadero , tostadero), si bien 
+ha ido decayendo a lo largo de la historia del español en todas sus interpretaciones. 
+Los que expresan agente tienen base nominal, con la excepción de los que muestran 
+la variante -ndero: barrer > barrendero; curar > curandera; guisar > guisandero. 
+
+### Manual §6.2.3a (OCR line 18893)
+6.2.3a Los sustantivos formados con -ista, buena parte de los cuales se usan 
+también como adjetivos, designan personas. Se trata de un sufijo muy productivo 
+que forma derivados a partir de nombres comunes, pero también propios (castrista, 
+franquista, peronista), e incluso sobre locuciones nominales ( cuenta corriente > cuen- 
+tacorrentista; centro del campo > centrocampista). También se registran formaciones 
+en -ista a partir de otras combinaciones léxicas, como la locución a corto plazo y la 
+expresión mil euros, que dan lugar a los derivados que se subrayan en los textos si- 
+guientes: Los diferentes datos macroeconómicos que se vayan conociendo asumirán 
+gran protagonismo, lo que debe ser aprovechado por los cortoplacistas (Economista 
+13/3/2007); Porque conforme va cumpliendo años, el mileurista se va cargando de 
+amargura (País [Esp.] 23/10/2005). 
+
+### Manual §7.2.2a (OCR line 19494)
+7.2.2a Suelen analizarse con las construcciones superlativas los sufijos -ísimo/ -ísima 
+y -érrimo/ -érrima. No obstante, como se explica en el § 45.5.1 a, las palabras resultantes, 
+llamadas superlativos absolutos, no presentan en el español actual las propiedades 
+que caracterizan sintácticamente a los demás superlativos, sino que se comportan 
+como ADJETIVOS DE GRADO EXTREMO O ELATIVOS (§13.2.3). 
+
+### Manual §7.6.1a (OCR line None)
+NOT FOUND
+
+### Manual §8.1.1a (OCR line None)
+NOT FOUND
+
+### Manual §8.2.3b (OCR line 20465)
+8.2.3b Un grupo muy numeroso de verbos derivados presenta una estructura 
+parasintética que consiste en la aplicación simultánea de un prefijo y un sufijo, 
+como en a-tont-ar, en-sombr-ecer. En estos casos la base léxica no forma palabra con 
+el sufijo (no existen *tontar ni *sombrecer) ni con el prefijo (tampoco existe el adje- 
+tivo *atonto ni el sustantivo *ensombrá). En consecuencia, no son casos de parasín- 
+tesis, sino solo de prefijación (por lo que se estudian en el § 1 1 .2.1 d), re-considerar, ya 
+que existe considerar, o des-enterrar, derivado de enterrar. Los esquemas parasinté- 
+ticos fundamentales son los siguientes: 
+a-A-ar (aclarar) 
+a-ADV-ar (acercar) 
+a-N-ar (abotonar) 
+a-N-ear (apedrear) 
+a-N-ecer (anochecer) 
+a-N-izar (aterrizar) 
+en- A-ar (ensuciar) 
+en- A-ecer (entristecer) 
+en-N-ar (embotellar) 
+en-N-ear (enseñorear) 
+en-N-ecer (ensombrecer) 
+en-N-izar (encolerizar) 
+des-N-ar (descabezar) 
+re-N-ar (reciclar) 
+re- A-ar (refinar) 
+
+### Manual §8.3.3a (OCR line 20765)
+8.3.3a Las pautas a-A-ar y a-N-ar dan lugar a un gran número de formas 
+parasintéticas en español, algunas ya existentes en latín y otras de creación roman- 
+ce. Muchas de ellas son de uso generalizado, pero otras presentan una extensión 
+más restringida. Se ajustan al esquema a-A-ar (barato > abaratar), más vivo en el espa- 
+ñol americano que en el europeo, verbos como ablandar, achicar, aclarar, afear, 
+aflojar, agrandar, agravar, ahondar, alargar, allanar, anular, aproximar, asegurar, 
+atontar. Responden al esquema a-N-ar ( peste > apestar) los verbos abanderar, abarro- 
+tar, acaudillar, amadrinar, apadrinar, apayasar, avasallar, avecinar, entre muchos 
+otros. Este esquema ha dado lugar, además, a participios parasintéticos que se usan 
+como adjetivos sin que ello presuponga la existencia del paradigma verbal corres- 
+pondiente. Así, a los adjetivos afrutado, anaranjado y atigrado se asigna el esquema 
+a-N-ado porque no suponen necesariamente la existencia de los verbos *afrutar(se), 
+*anaranjar(se) y *atigrar(se). 
+
+### Manual §9.1.1a (OCR line 21043)
+9.1.1a Se llaman apreciativos los sufijos que se añaden para expresar la 
+valoración afectiva que se hace de las personas o las cosas. Así, los sustantivos ami- 
+gúete, blancuzco, blandengue, casita, feúcho, fortunón, listillo, pelín, sombrerazo, tipe- 
+jo transmiten connotaciones subjetivas (atenuación, encarecimiento, cercanía, 
+ponderación, cortesía, ironía o menosprecio, entre otras) ausentes en amigo, blanco, 
+blando, casa, etc. Junto con tal valor connotativo, los sufijos apreciativos pueden 
+expresar también alguna cualidad objetiva, generalmente un tamaño mayor (como 
+en manchón) o menor (como en jardincito) que el designado por el referente de la 
+base nominal. La derivación apreciativa se considerará aquí un proceso derivativo, 
+en lugar de flexivo. Aun así, comparte con la flexión su carácter productivo y su re- 
+gularidad, por lo que, salvo casos particulares de lexicalización, es excluida de los 
+diccionarios (§ 9.1.4a). Su afinidad con la flexión se manifiesta también en que no 
+altera la categoría de la base, como se explica en el § 9.1.2a, y en que los afijos apre- 
+ciativos pueden seguir a otros sufijos en la derivación, como en Lo que ya sabíamos; 
+otra sublev acioncita militar (Galdós, Prohibido ). Por el contrario, estos afijos solo 
+aparecen seguidos de los que denotan plural ( cas-ita-s ). Por otra parte, la sufijación apre- 
+ciativa puede dar lugar a significados especiales de la base, propiedad que no aportan 
+los sufijos flexivos. Las nociones semánticas que aportan los sufijos apreciativos 
+tienen, además, carácter léxico, más que gramatical. 
+
+### Manual §9.3.1a (OCR line 21413)
+9.3.1 a Es aumentativo en patadón, simplón, donde intensifica la noción denota- 
+da por la base, pero no lo es en los nombres de persona que proceden de verbos 
+(abusona, criticón, dormilón), como se señaló en el § 9.1.2a, en los que denotan golpe 
+o movimiento brusco (bajón, empujón, estirón) ni en los adjetivos que designan ca- 
+rencia, como rabón ‘sin rabo’. Tampoco se consideran propiamente aumentativos, 
+aunque conservan algunas características de ese significado, las voces en -ón/ -ona 
+que están ya lexicalizadas y designan, por tanto, una noción distinta de la que corres- 
+ponde a su base en lugar de la misma aumentada o ponderada: almohadón, cinturón, 
+colchón, jarrón, salón. En algunos casos, el término lexicalizado designa incluso 
+entidades de tamaño inferior, como ocurre con los nombres de las crías de ciertos 
+animales (anadón, ansarón, perdigón) o con sustantivos como callejón, ratón, tapón, etc. 
+
+### Manual §10.1.1a (OCR line 21586)
+10.1.1a La prefijación es un proceso morfológico por el que se antepone un 
+morfema, llamado prefijo, a una palabra ya formada ( des-hecho , in- dependiente, 
+pre-disponer) o a un tema latino o griego (§ 11.8.2a), como en a-morfo, in-erte, 
+pró-fugo. Además de por esta propiedad, estrictamente posicional, los prefijos se ca- 
+racterizan por otros rasgos que los diferencian de los sufijos y que serán analizados 
+en este capítulo. 
+
+### Manual §10.5.2a (OCR line 22087)
+1 0.5.2a No son comunes en español los prefijos que aportan información sobre el 
+aspecto léxico (§ 23.2). Constituye una excepción el prefijo re- en su significado de repe- 
+tición (iterativo), cuando modifica a predicados télicos o delimitados (§ 23.2.1 b), 
+10.5.2b 
+La prefijación 
+182 
+como en reactivar el consumo, readmitir a los despedidos, reanimar a los heridos. El 
+valor del prefijo es terminativo o perfectivo con los verbos que designan acciones 
+que desembocan en cambios de estado, como rematar, remeter o retocar. Puede 
+aportar asimismo un sentido intensivo, como en refreír (‘freír en exceso’, además 
+de ‘freír de nuevo’). 
+
+### Manual §10.8.1a (OCR line 22383)
+1 0.8.1 a El prefijo in- presenta las variantes i-, ante bases que comienzan por /l/ y 
+/r/ (ilícito, irreal, irresponsable), e im-, delante de /b/ y /p/ (imbatible, impensable). 
+Este prefijo forma numerosos adjetivos que constituyen las voces antónimas de las 
+bases correspondientes, como imposible, impropio, impuro, inactivo, incapaz, incrédu- 
+lo, indigno, indócil, inoportuno, inútil o inválido. Se aplica, en cambio, solo a algunos 
+187 
+Prefijos negativos 
+10.8.2a 
+verbos (incomunicar, incumplir, insubordinar ) y a unos pocos sustantivos (inacción, 
+impiedad). Es frecuente derivar verbos de adjetivos que contienen el prefijo in-, como 
+en intranquilo > intranquilizar. A este grupo pertenecen los verbos impacientar, impor- 
+tunar, incomodar, inmortalizar, inquietar o inutilizar, entre otros. También se forman 
+algunos nombres a partir de adjetivos prefijados, como incapacidad (incapaz > incapa- 
+cidad), indignidad o inquietud. Como antes, la segmentación determina en buena me- 
+dida la interpretación semántica que corresponde a estas formas: inutil-izar ‘hacer 
+inútil’ o ‘convertir en inútil’; indign-idad ‘cualidad de indigno’. 
+
+### Manual §10.8.2a (OCR line 22437)
+10.8.2a Con este prefijo se crean numerosos nombres derivados que denotan ac- 
+ciones, situaciones o propiedades opuestas a las expresadas por sus bases nomina- 
+les, como desacuerdo, desdicha, deshonor, despropósito o desvergüenza. En otros 
+sustantivos, el prefijo se interpreta con sentido privativo: desaseo, desempleo, desme- 
+sura, desobediencia, desorden. El prefijo des- se combina también con bases adjetiva- 
+les vinculadas a los participios (desafecto, descompuesto, descontento, desprevenido, 
+desusado ), pero solo se aplica a unos pocos adjetivos que carecen de tal vinculación, 
+como desaprensivo, descortés, deshonesto, desigual, desleal, desobediente o desparejo. 
+Los esquemas parasintéticos des-N-ado y des-A-ado dan lugar a muchos derivados 
+adjetivales: desalmado, desbravado, descarado, desganado, despiadado. 
+10.8.2b 
+La prefijación 
+188 
+
+### Manual §11.1.1a (OCR line 22596)
+1 1.1.1a Se llama composición el proceso morfológico por el que dos o más pa- 
+labras forman conjuntamente una palabra compuesta o compuesto, como en 
+lava + ropas > lavarropas o en verde + blanco > verdiblanco. Para evitar las numerosas 
+dificultades que presenta el concepto de ‘palabra’ (§ 1.3.5b), algunos autores prefie- 
+ren definir el compuesto como aquella forma que contiene más de una raíz en su 
+interior. Son, pues, compuestos las voces altoaragonés, limpiacristales, sabelotodo, 
+sacapuntas y hombre lobo, en la última de las cuales no se integran gráficamente los 
+dos componentes. 
+
+### Manual §11.1.2a (OCR line 22631)
+1 1.1.2a Se suelen distinguir tres tipos fundamentales de compuestos: los com- 
+puestos PROPIOS O UNIVERBALES, los COMPUESTOS SINTAGMÁTICOS y los COMPUES- 
+TOS sintácticos. Los componentes de los primeros se integran en una única 
+palabra ortográfica y, por lo general, en un único grupo tónico: agridulce, drogode- 
+pendiente, maniatar, maxilofacial, rojinegro, sabelotodo, sacapuntas, sopicaldo. Cuan- 
+do uno de los dos segmentos, casi siempre el primero, está acortado, se obtienen 
+los llamados compuestos acronímicos, como en cantante + autor > cantautor 
+(§ 1.3.4d). Los compuestos univerbales no llevan tilde en el primer segmento, de 
+modo que se escribe acidorresistente, en lugar de ácidorresistente. Los compues- 
+tos del segundo tipo se forman yuxtaponiendo palabras que mantienen su propia 
+independencia gráfica y acentual, unas veces separadas con guión intermedio 
+( árabe-israelí , político-económico, teórico-prácticoj y otras sin él ( cabeza rapada, 
+casa biblioteca, cocina comedor, problema clave, tren bala, villa miseria ). El tercer 
+grupo es polémico. Aunque ha sido defendido por algunos autores, las expresio- 
+nes que corresponderían a este parecen constituir unidades de la fraseología 
+más que propiamente de la morfología. Así pues, piezas léxicas como caballo (o 
+caballito ) de batalla (‘asunto recurrente’), media naranja (‘persona que se compe- 
+netra bien con otra afectivamente’), mesa redonda (‘debate’) u ojo de buey (‘cla- 
+raboya’) se considerarán aquí locuciones nominales (§ 12.6.2) en lugar de 
+compuestos sintácticos. 
+
+### Manual §11.3.1a (OCR line None)
+NOT FOUND
+
+### Manual §11.4.1a (OCR line None)
+NOT FOUND
+
+### Manual §11.5.1a (OCR line 23049)
+1 1.5.1a La relación gramatical que caracteriza la mayor parte de los compuestos 
+del tipo N-A suele ser atributiva, ya que el adjetivo designa una propiedad de nom- 
+bre que constituye el núcleo de la construcción, como en aguamarina, aguardiente, 
+camposanto, caradura, hierbabuena, malvarrosa, mandoble, montepío, Nochebuena. Con 
+el adjetivo en la primera posición (A-N) se crean altavoz, buenandanza, buenaventu- 
+ra, extremaunción, malformación, malhumor, malnutrición, medialuna, medianoche, 
+purasangre o vanagloria, entre otros. Se distinguen por su grafía aguafuerte (‘disolución 
+de ácido nítrico’) y aguafuerte (‘estampa’). Se prefiere guardiamarina a guardia ma- 
+rina como nombre que designa a una persona. También se prefiere la grafía guardiaci- 
+vil para designar un individuo (un guardiacivil) —aunque se admite guardia civil—, y 
+Guardia Civil para referirse a la institución. Se obtienen asimismo derivados adjeti- 
+vales a partir de compuestos del tipo A-N, como grancanario (de Gran Canaria) o 
+altoaragonés (de Alto Aragón), entre otros. 
+
+### Manual §11.6.1a (OCR line None)
+NOT FOUND
+
+### Manual §11.8.1a (OCR line None)
+NOT FOUND
+
+### Manual §34.3.1a (OCR line 49552)
+34.3.1 a Aparece sistemáticamente la preposición a ante los pronombres persona- 
+les tónicos en construcciones de doblado o de duplicación pronominal, como se 
+recordó en el § 34.2.2a. También la llevan los pronombres indefinidos que denotan 
+personas, como en No obligaremos {a nadie ~*nadie}. No obstante, uno, alguien y al- 
+guno aparecen también sin ella cuando son complementos de ciertos verbos, sobre 
+todo de percepción y de sentido prospectivo (ver, buscar, querer, necesitar, etc.): 
+659 
+El complemento directo preposicional 
+
+### Manual §5.1.1, deverbal, denominal, and deadjectival nouns, OCR lines 17314 to 17350
+5.1.1 Definición y tipos 
+Se llama derivación nominal la que permite derivar sustantivos de otras cate- 
+gorías. Teniendo en cuenta la base de la que se obtienen, los derivados nomina- 
+les se agrupan en tres apartados: los sustantivos deverbales (V > N) se 
+forman a partir de verbos ( compra , dormitorio, juramento); los denomínales 
+(N > N), a partir de nombres ( basurero , pelotazo, profesorado ); los deadjeti- 
+vales (A > N), a partir de adjetivos (bobada, justicia, vejez). Si se atiende, en cam- 
+bio, al significado de la nominalización, se distinguen tradicionalmente los 
+nombres de acción, que designan la acción expresada por el verbo y a menudo 
+también su efecto (compra, traducción), y los nombres de cualidad (amabili- 
+dad, belleza), que expresan cualidades, estados y otras propiedades, inherentes 
+o accidentales, de las personas o las cosas. Los primeros suelen ser sustantivos 
+deverbales, y los segundos, deadjetivales. Se añaden a estos dos grandes gru- 
+pos los nombres de agente, instrumento y lugar, que pueden ser deverbales o 
+denominales. 
+5.1.2 Consideraciones semánticas 
+Los grupos semánticos establecidos en el apartado anterior deben completarse con 
+algunas precisiones: 
+5.1.2a Ante todo, los paradigmas se extienden. Así, el de los nombres de cua- 
+lidad puede dar cabida también a los de condición o estatus (ciudadanía) y a los 
+de empleo o actividad (notariado, albañilería) , entre otros. Del mismo modo, la 
+clase de los nombres de acción se interpreta en sentido amplio, lo que permite 
+extenderla, por ejemplo, a ciertos sustantivos derivados que poseen bases nomi- 
+nales. El marco general expuesto prevé tipos de derivados que lexicalizan deter- 
+minados participantes en la noción designada por el verbo, como los de agente, 
+el instrumento o el lugar, pero también pueden lexicalizarse otros como el 
+5.1.2b 
+La derivación nominal (I). Nombres de acción y efecto 
+
+### Manual §7.6.1, the suffix -mente, OCR lines 20250 to 20278
+7.6.1 El sufijo -mente: entre la derivación y la composición 
+De entre los elementos usados en latín para formar expresiones adverbiales, el que 
+triunfó en las lenguas romances fue mente, ablativo de mens, mentís, que significaba 
+‘mente, pensamiento’ y también ‘ánimo, intención'. A pesar de que -mente se suele 
+considerar un sufijo con el significado ‘de manera’ (lealmente ‘de manera leal’), man- 
+tiene algunas de las propiedades que tuvo como unidad léxica independiente, por lo 
+que se asimila en parte a los elementos compositivos de la lengua actual. Así, la base 
+léxica sobre la que -mente incide mantiene un acento secundario: l[é]ntam[é]nte, no 
+*lentam[é]nte, frente a lentit[ü]d, no *Z[é]ut;t[ú]íf. Por otra parte, cuando un adverbio en 
+-mente está cuantificado (muy lentamente), el cuantificador se agrupa semánticamente 
+con el adjetivo y deja fuera al segmento -mente: muy lentamente significa, en efecto, 
+‘de manera muy lenta’, en lugar de ‘muy de manera lenta’. Por otra parte, es femenino 
+7.6.2 
+La derivación adjetival y adverbial 
+150 
+el género de las bases a las que -mente se agrega, consecuencia natural del género del 
+sustantivo mente: tranquila-mente. Por último, -mente tiende a elidirse en los grupos 
+coordinados (lisa-0 y llanamente), así como en las comparaciones de igualdad y 
+desigualdad: Cumplió sus gustos tan torpe como públicamente, en menoscabo de la 
+autoridad del rey (Cervantes, Persiles ); Dijo que el Presidente ha ejercido un liderazgo 
+
+### Manual §8.1.1, the concept of verbal derivation, OCR lines 20325 to 20345
+8.1.1 Concepto de derivación verbal 
+Se entiende por derivación verbal la que permite formar nuevos verbos a partir 
+de otras categorías, por lo general —aunque no exclusivamente— sustantivos y 
+adjetivos: batalla > batallar; claro > clarificar. En este capítulo se usará un concepto 
+amplio de derivación que incluye no solo los procedimientos de formación de pa- 
+labras por medio de afijos simples (como en almidon-ar), sino también los que 
+recurren simultáneamente a un prefijo y a un sufijo, procedimiento denominado 
+parasíntesis (§ 1.3.2c). Así, para obtener a-boton-ar se añade a botón el afijo 
+discontinuo a-...-ar. 
+8.1.2 Sincronía y diacronía en la derivación verbal 
+8.1.2a La derivación verbal, como la que corresponde a otras categorías, puede 
+analizarse desde el punto de vista sincrónico o desde el diacrónico . Como se ex- 
+plica en los § 1.3.3, 5.1.3 y 7.1.1, mientras que en el diacrónico se tienen en cuenta la 
+etimología y los procesos históricos que condicionan la evolución de las palabras, el 
+análisis sincrónico se apoya fundamentalmente en la existencia de relaciones entre 
+la base y el derivado que se suponen presentes en la conciencia lingüística de los 
+hablantes. Desde la morfología sincrónica se considera, por ejemplo, que remediar 
+
+### Manual §11.3, compounds of two nouns, OCR lines 22913 to 22940
+11.3 Compuestos de doble sustantivo 
+1 1.3.1 Compuestos N-/-N, N-N y N+N no atributivos 
+Una larga serie de compuestos propios combina dos sustantivos, sea con vocal de 
+enlace (N-í-N: carricoche, coliflor, sopicaldo) o sin ella (N-N: telaraña). Los que 
+197 
+Compuestos de doble adjetivo 
+11.4.1 
+presentan la vocal de enlace suelen ser coordinativos, y los que no la llevan, subordina- 
+tivos. La mayor parte de estos últimos presenta el núcleo a la izquierda ( bocacalle , ‘boca 
+de la calle’, telaraña, ‘tela de araña’), complementado por el segundo elemento. Mues- 
+tran el núcleo a la derecha compuestos como autocine y cineclub, que designan, res- 
+pectivamente, cierto tipo de cine y de club. También lo presentan otras formaciones 
+cuyo núcleo es un sustantivo deverbal. Su primer segmento corresponde a su com- 
+plemento o modificador, como en drogodependencia, narcotráfico, radiotransmisor, 
+televidente, vasoconstrictor y otros semejantes. Así, radiotransmisor designa un trans- 
+misor de radio; drogodependencia significa ‘dependencia de la droga’, etc. El plural 
+de los compuestos propios se forma sobre el segundo segmento, sea el núcleo (ma- 
+drepatrias) o no ( telarañas ), como en una palabra simple. En cambio, los compuestos 
+sintagmáticos flexionan su núcleo, pero suelen mantener invariable el otro segmen- 
+
+### Manual §11.4, compounds of two adjectives, OCR lines 22971 to 22995
+11.4 Compuestos de doble adjetivo 
+11.4.1 Compuestos A-i- A 
+Se forman en español compuestos adjetivales combinando dos adjetivos, sea con 
+vocal de enlace (agridulce) o sin ella (sociocultural, sordomudo). La pauta más 
+11.4.2a 
+La composición 
+198 
+productiva entre los primeros es la que combina dos adjetivos de color: albice- 
+leste, aurinegro, blanquiazul, rojinegro. Estos compuestos no suelen designar 
+colores intermedios, sino superpuestos de manera contigua o en patrones alter- 
+nantes. Por el contrario, los compuestos coordinativos agridulce, anchicorto, 
+tontiloco, etc., suelen referirse a cierta propiedad resultante de mezclar o com- 
+binar otras dos. 
+
+### Manual §11.6, compounds of verb and noun, OCR lines 23124 to 23175
+11.6 Compuestos de verbo y nombre 
+El esquema V-N es el más productivo de entre los que dan lugar a compuestos pro- 
+pios en todo el sistema morfológico del español. Se forman de acuerdo con esta pauta 
+gran número de compuestos nominales que designan agentes o instrumentos, entre 
+otras nociones, menos sistemáticas, que se mencionarán seguidamente. 
+1 1.6.1 Estructura morfológica de los compuestos V-N 
+Es polémica la cuestión de si estos compuestos tienen o no núcleo. Se asimilan a los 
+endocéntricos en que son altamente productivos y en que poseen, en su mayoría, un 
+significado transparente. Sin embargo, los compuestos V-N son sustantivos, pero se 
+forman a partir de verbos. Su significado es parcialmente predecible en función del 
+de sus componentes. Así, el sustantivo salvamanteles no designa un tipo de mantel, 
+ni tampoco la acción designada por el verbo salvar, sino un instrumento particular 
+cuya función se relaciona con dicho verbo. Como en los compuestos exocéntricos, su 
+género y su número son independientes de los que presenta el sustantivo que contie- 
+nen. Así, aunque botas sea un nombre en plural, el compuesto limpiabotas puede ser 
+interpretado como plural o singular. Igualmente, aunque voz sea un sustantivo 
+femenino, portavoz se usa tanto en masculino como en femenino. Los compuestos 
+V-N manifiestan la vocal temática idéntica a la del presente de indicativo: lavarro- 
+pas, rompeolas, abrebotellas. Los pocos compuestos de base imperativa no pertene- 
+cen a la clase V-N (hazmerreír, tentetieso: § 1 1.7.2c). 
+1 1.6.2 Características léxicas de los compuestos V-N 
+1 1.6.2a La mayor parte de los compuestos verbonominales se construye con ver- 
+bos transitivos de acción, como cortar ( cortapuros ), guardar (guardacoches ), pintar 
+201 
+Otras pautas de composición menos productivas 
+11.7.1a 
+( pintalabios ), o bien con verbos que pueden funcionar como intransitivos o como 
+transitivos (hierveleches, rompeolas). La pauta más productiva es la que presenta en 
+el segundo componente el sustantivo que corresponde al objeto directo del verbo 
+transitivo: aparcacoch.es, giradiscos, pasatiempo, quitaesmalte, soplamocos (‘cierto 
+golpe’) o tapabocas. Unos pocos compuestos verbonominales se forman con sustan- 
+tivos que se interpretan como complementos de régimen. Así, los sustantivos barros, 
+brisa y polvo(s) no designan en guardabarros (también salvabarros y guardafango en 
+algunos países), guardabrisa y guardapolvo(s) aquello que se guarda o se protege, 
+sino aquello de lo que se protege alguna cosa. Son muy escasos los compuestos que, 
+como vuelapié o vuelapluma, contienen sustantivos que podrían interpretarse como 
+sujetos de los verbos correspondientes. 
+
+### Manual §11.8, neoclassical composition (learned compositional bases), OCR lines 23282 to 23330
+11.8 La composición neoclásica 
+1 1.8.1 Bases compositivas cultas. Definición 
+Se forma un gran número de compuestos nominales y adjetivales con diversas voces 
+o raíces de origen latino y griego, llamadas bases compositivas cultas. Las si- 
+guientes ejemplifican una parte de ese extenso paradigma: 
+-algia ‘dolor’; biblio- ‘libro’: -cida ‘que mata’; clepto- ‘robar’; cosmo- o -cosmo ‘universo’; 
+-erada ‘poder’; cromo- o -cromo ‘color’; crono- o -crono ‘tiempo’; -dromo ‘estadio’; etno- 
+‘raza’; -fobo ‘que siente repulsión’; fono- o -fono ‘sonido’; -forme ‘en forma de’; foto- o -foto 
+‘luz’; gastro- ‘estómago’; geno- o -geno ‘engendrador’; geo- o -geo ‘tierra’; grafo- o -grafo 
+‘que escribe o describe’; -grama ‘escrito’; hagio- ‘santo’; logo- o -logo ‘experto’; neuro- ‘ner- 
+vio’; -teca ‘lugar en que se guarda algo’; xeno- o -xeno ‘extranjero’; xilo- o -xilo ‘madera’. 
+1 1.8.2 Naturaleza de las bases compositivas cultas 
+1 1.8.2a Algunas unidades léxicas grecolatinas, como homo-, constituyen siem- 
+pre el primer componente de la palabra y se asimilan, por su comportamiento for- 
+mal, a los prefijos (§ 10.1.1c). Es especial, en cambio, el estatuto morfológico de 
+otras voces del mismo origen, ya que se considera que son exponente de una uni- 
+dad morfológica distinta, llamada generalmente elemento compositivo o tema 
+neoclásico, que se halla a medio camino entre un afijo y una forma libre. Muchas 
+de estas unidades ocupan la posición inicial de la palabra, pero no se asimilan a los 
+prefijos porque pueden dar lugar a nuevas voces en combinación con un afijo, como 
+en crón-ico, étn-ico, hídr-ico. Han sido llamadas cuasiprefijos, pseudoprefijos y falsos 
+prefijos. Por otra parte, los segmentos -algia, -arca o -fugo, entre otros que aparecen 
+siempre en segunda posición, también pueden formar palabras en combinación 
+con diversos prefijos y sufijos: an-alg-ésico, an-arqu-ista, pró-fugo, etc. Los elemen- 
+tos compositivos se pueden unir a voces patrimoniales españolas, como en argenti- 
+nófilo, bolígrafo, fiotocomposición, geoestacionario, mensáfono, musicólogo y otras 
+muchas. Algunas de ellas, como cine (o cinema ), cromo, euro, foto, moto, se usan 
+como sustantivos. 
+1 1.8.2b Mientras que los afijos aparecen en posición inicial o en posición final de 
+la palabra, muchas bases compositivas cultas ocupan una u otra en diversos com- 
+puestos. Así, filo aparece a la izquierda en filoamericano y a la derecha en cinefilo. 
+Existen incluso palabras formadas por los mismos elementos compositivos en orden 
+distinto y con significado no coincidente: filólogo- logófilo; fonograma -gramófono; 
+logotipo -tipólogo, entre otras. 
+1 1.8.2c La relación que mantienen los temas neoclásicos con la unidad sobre la 
+que inciden suele ser argumental. Así, una geóloga es una ‘experta en las ciencias de 
+la tierra’, un fotófiobo es ‘alguien que teme la luz’ y un dipsómano (del gr. dípsa ‘sed’) 
+es un ‘adicto al alcohol’. Estas relaciones, por las que un segmento actúa como com- 
+plemento argumental del núcleo, se establecen típicamente en el interior de los 
+compuestos, pero no son frecuentes entre una base y los afijos que la acompañan. 
+
+### Manual §9.3 (the augmentative -ón; lexicalized forms colchón, jarrón, salón; nouns of sudden action agarrón, empujón, jalón, resbalón), OCR lines 18080 to 18088 and 21412 to 21442
+5.2.7e El sufijo -ón forma sustantivos derivados de verbos, prácticamente to- 
+dos de la primera conjugación. No debe confundirse con el sufijo aumentativo 
+-ón/ -ona, que se aplica generalmente a bases nominales, como en espadón y casona 
+(§ 9.3.1). Los derivados de verbos en -ón suelen designar acciones impetuosas o re- 
+pentinas: agarrón, empujón, jalón, resbalón. El sufijo -ón también se adjunta a nom- 
+bres y forma derivados que denotan golpes dados con una parte del cuerpo o 
+recibidos en ella, como guantón, manotón, morrón (‘golpe en los morros’), pechu- 
+gón, pescozón. 
+
+### (continued) OCR lines 21412 to 21442
+9.3.1 a Es aumentativo en patadón, simplón, donde intensifica la noción denota- 
+da por la base, pero no lo es en los nombres de persona que proceden de verbos 
+(abusona, criticón, dormilón), como se señaló en el § 9.1.2a, en los que denotan golpe 
+o movimiento brusco (bajón, empujón, estirón) ni en los adjetivos que designan ca- 
+rencia, como rabón ‘sin rabo’. Tampoco se consideran propiamente aumentativos, 
+aunque conservan algunas características de ese significado, las voces en -ón/ -ona 
+que están ya lexicalizadas y designan, por tanto, una noción distinta de la que corres- 
+ponde a su base en lugar de la misma aumentada o ponderada: almohadón, cinturón, 
+colchón, jarrón, salón. En algunos casos, el término lexicalizado designa incluso 
+entidades de tamaño inferior, como ocurre con los nombres de las crías de ciertos 
+animales (anadón, ansarón, perdigón) o con sustantivos como callejón, ratón, tapón, etc. 
+9.3.1 b La ponderación expresada por el aumentativo puede transmitir connota- 
+ciones positivas, como en fortunón, memorión, notición, peliculón, pero también 
+9.3.1c 
+La derivación apreciativa 
+170 
+despectivas, como en las voces que denotan partes del cuerpo más grandes de lo 
+normal: barrigón, cabezón, cejón, narizón, orejón, panzón, tripón, aveces con variante 
+femenina en -a ( cabezona , narizona). Muchas de estas palabras también se aplican, 
+como adjetivos o sustantivos, a las personas que destacan por la prominencia de la 
+parte del cuerpo a la que se alude. En estos últimos casos, el sufijo -ón/ -ona no es 

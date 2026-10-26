@@ -1,0 +1,246 @@
+SOURCE FILE: entries of the Academy's dictionary used by the Spanish batch B5 (Section IV, etymology and word formation) for every etymology and every gloss that the cards and exercises state
+WORK: Real Academia Española, Diccionario de la lengua española, 23rd ed., Edición del Tricentenario (Madrid: Espasa, 2014).
+TEXT READ: the Internet Archive copy, item real-academia-espanola-diccionario-de-la-lengua-espanola, plain-text (OCR) file, fetched 26 Oct 2026. The Academy's website (dle.rae.es) refuses automated access, so the live edition could not be consulted. The OCR is machine-read: Greek letters are garbled (so no Greek form is printed in the course), and some characters are wrong. The printed book could not be compared (batch B14). Each entry is cut at 360 characters; the etymology is the parenthesis at the head.
+
+### hijo
+hijo, ja. (Del lat. filius. + Escr. con may. inicial en acep. 9). m. y f. 1. Persona o animal respecto de sus padres. 1 2. Persona respecto del país, provincia o pueblo de que es natural. 1 3. Persona que ha tomado el hábito religioso, con
+
+### filial
+filial. (Del lat. filialis). adj. 1. Perteneciente o relativo al hijo. 1 2. Dicho de una entidad: Que depende de otra principal. U. t. c. s. f. 
+
+### dedo
+dedo. (Del lat. digitus). m. 1. Cada uno de los cinco apéndices articulados en que terminan la mano y el pie del hombre y, en el mismo o menor número, de muchos animales. 1 2. Medida de longitud, duodécima parte del palmo, que
+
+### digital
+digital. (Del lat. digitalis). adj. 1. Perteneciente o relativo a los dedos. II 2. Referente a los números dígitos. 11 3. Dicho de un aparato o de un sistema: Que presenta información, especialmente una medida, mediante el uso de señales
+
+### leche
+leche. (Del lat. lac, lactis). f. 1. Líquido blanco que segregan las mamas de las hembras de los mamíferos para alimento de sus crías. 1 2. leche de algunos animales que se emplea como alimento de las personas. 1 3. Jugo blanco
+
+### lácteo
+lácteo, a. (Del lat. lacteus). adj. 1. Perteneciente o relativo a la leche. 11 2. Parecido a la leche. 1 3. Dicho de un producto alimenticio: Derivado de la
+
+### fiesta
+fiesta. (Del lat. festa, pl. de festum). f. 1. Día en que, por disposición legal, no se
+
+### festivo
+festivo, va. (Del lat. festivus). adj. 1. Perteneciente o relativo a la fiesta. Preparativos festivos. 1 2. Dicho de un período de tiempo: Señalado oficialmente para el descanso por celebrarse una fiesta solemne, por oposición
+
+### hierro
+hierro. (Del lat. ferrum). m. 1. Elemento químico metálico, de núm. atóm. 26, de color negro lustroso o gris azulado, dúctil, maleable, muy tenaz, abundante en la corteza terrestre, que entra en la composición de sustancias importantes
+
+### férreo
+férreo, a. (Del lat. ferreus). adj. 1. De hierro o que tiene sus propiedades. 1 2. Duro, tenaz. > línea -, vía -. 
+
+### estrecho
+estrecho, cha. (Del lat. strictus). adj. 1. Que tiene poca anchura. 1 2. Ajustado,
+
+### estricto
+estricto, ta. (Del lat. strictus, part. pas. de stringére “apretar, comprimir”). adj.  
+
+### librar
+librar. (Del lat. liberare). tr. 1. Sacar o preservar a alguien de un trabajo, mal o
+
+### liberar
+liberar. (Del lat. liberare). tr. 1. Hacer que alguien o algo quede libre de lo que lo sometía u oprimía. Liberaron las ciudades del sur. 1 2. Eximir a alguien de una obligación. 1 3. Desprender, producir o secretar algo. 1 4. Eliminar las
+
+### palabra
+palabra. (Del lat. parabóla “comparación”, en lat. tardío “proverbio”, “parábola”, y este del gr. apapoAí parabolé). f. 1. Unidad lingúística, dotada generalmente de significado, que se separa de las demás mediante pausas potenciales en la
+
+### parábola
+parábola. (Del lat. parabóla, y este del gr. napafoaAñ paraboleé). f. 1. Narración de un suceso fingido de que se deduce, por comparación o semejanza, una verdad importante o una enseñanza moral. 1 2. Geom. Curva abierta cuyos
+
+### ojo
+ojo. (Del lat. ocúlus). m. 1. Órgano de la vista en el hombre y en los animales. 1 2. Parte visible del ojo en la cara. 13. Agujero que tiene la aguja para que entre el hilo. 1 4. Abertura o agujero que atraviesa de parte a parte alguna cosa. Il 5.
+
+### ocular
+ocular. (Del lat. tardío ocularis). adj. 1. Perteneciente o relativo a los ojos. 1 2. Que se hace por medio de los ojos. e m. 3. Ópt. Sistema de lentes que, a fin de ampliar la imagen real dada por el objetivo, se coloca en el extremo de un
+
+### lengua
+lengua. (Del lat. lingua). f. 1. Órgano muscular situado en la cavidad de la boca de los vertebrados y que sirve para gustación, para deglutir y para modular los sonidos que les son propios. 1 2. Sistema de comunicación verbal y casi
+
+### lingual
+lingual. (Del lat. mediev. lingualis, y este der. del lat. lingua lengua”). adj. 1. Perteneciente o relativo a la lengua. 1 2. Fon. Dicho de una consonante: apical (1 que se articula con el ápice de la lengua). U. t. c. s. f. > amígdala -.
+
+### boca
+boca. (Del lat. bucca, voz de or. celta; cf. galo boc[c]a). f. 1. En una persona o en un animal, abertura anterior del tubo digestivo, situada en la cabeza y que da entrada a la cavidad por donde conecta con el aparato respiratorio. 11 2.
+
+### bucal
+bucal. (Der. del lat. bucca *boca”). adj. Perteneciente o relativo a la boca.  
+
+### cabello
+cabello. (Del lat. capillus). m. 1. Conjunto de los pelos de la cabeza. 11 2. Cada uno de los pelos de la cabeza. o pl. 3. Barbas de la mazorca del maíz. M — de
+
+### capilar
+capilar. (Del lat. capillaris, de capillus “cabello”). adj. 1. Perteneciente o relativo al cabello. 12. Dicho de un tubo: Muy estrecho, como el cabello. U. t. Cc. s. m. 13. Fís. Dicho de un fenómeno: Producido por capilaridad. e m. 4. Cada
+
+### hostigar
+hostigar. (Del lat. fustigare). tr. 1. Dar golpes con una fusta, un látigo u otro instrumento, para hacer mover, juntar o dispersar. 1 2. Molestar a alguien o burlarse de él insistentemente. 1 3. Incitar con insistencia a alguien para que
+
+### fustigar
+fustigar. (Del lat. tardío fustigare). tr. 1. Golpear con una fusta a una persona o a un animal. U. t. en sent. fig. La lluvia fustigaba los cristales. 1 2. Vituperar, censurar con dureza algo o a alguien. Fustigó abiertamente sus ideas.
+
+### jarabe
+jarabe. (Del ár. hisp. saráb, y este del ár. clás. sarab “bebida”). m. 1. Bebida que se hace cociendo azúcar en agua hasta que se espesa, añadiéndole zumos refrescantes o sustancias medicinales. 1 2. Bebida excesivamente dulce. 11 3.
+
+### albañil
+albañil. (Del ár. hisp. albanní, y este del ár. clás. banna”; cf. port. alvanel). m. y  
+
+### naranja
+naranja. (Del ár. hisp. naranja, este del ár. narang, este del persa narang, y este del sánscr. naranga). f. 1. Fruto del naranjo, de forma globosa, de seis a ocho centímetros de diámetro, corteza rugosa, de color entre rojo y amarillo, como
+
+### aduana
+aduana. (Del ár. hisp. addiwán, este del ár. clás. diwán, y este del pelvi dewan “archivo”). f. 1. Oficina pública, establecida generalmente en las costas y fronteras, donde se controla el movimiento de mercancías sujetas a arancel, y
+
+### algodón
+algodón. (Del ár. hisp. alqutún, y este del ár. clás. quen). m. 1. Planta vivaz de la familia de las malváceas, con tallos verdes al principio y rojos al tiempo de florecer, hojas alternas casi acorazonadas y de cinco lóbulos, flores amarillas
+
+### almacén
+almacén. (Del ár. hisp. almahzán, y este del ár. clás. mahzan). m. 1. Edificio o local donde se depositan géneros de cualquier especie, generalmente
+
+### taza
+taza. (Del ár. hisp. tássa, este del ár. tassah o ár. clás. tast, y este del persa tast “cuenco”). f. 1. Vasija pequeña, por lo común de loza o de metal y con asa, empleada generalmente para tomar líquidos. 1 2. Cantidad que cabe en una
+
+### alcohol
+alcohol. (Del ár. hisp. kuhúl, y este del ár. clás. kuh!). m. 1. Quím. Cada uno de los compuestos orgánicos que contienen el grupo hidroxilo unido a un radical alifático o a alguno de sus derivados. 1 2. por antonom. alcohol etílico. 1 3.
+
+### tarea
+tarea. (Del ár. taríha, y este de la raíz del ár. clás. ftrhj “echar”). f. 1. Obra o
+
+### cátedra
+cátedra. (Del lat. cathédra, y este del gr. ka0é6pa kathédra “asiento”). f. 1. Empleo y ejercicio del catedrático. 1 2. Facultad o materia particular que enseña un catedrático. 13. Asiento elevado, desde donde el maestro da lección
+
+### poema
+poema. (Del lat. poema, y este del gr. moínua poíema). m. 1. Obra poética normalmente en verso. 2. Tradicionalmente, obra poética de alguna extensión. Poema épico, dramático. M — en prosa. m. Composición literaria en prosa que
+
+### historia
+historia. (Del lat. historia, y este del gr. iotopía historía). f. 1. Narración y exposición de los acontecimientos pasados y dignos de memoria, sean públicos o privados. 1 2. Disciplina que estudia y narra cronológicamente los
+
+### idea
+idea. (Del lat. idéa “imagen, forma, apariencia”, y este del gr. i6éa idéa). f. 1. Primero y más obvio de los actos del entendimiento, que se limita al simple conocimiento de algo. 11 2. Imagen o representación que del objeto percibido
+
+### escuela
+escuela. (Del lat. schola, y este del gr. oxoAí scholé; propiamente “ocio”, “tiempo libre”). f. 1. Establecimiento público donde se da a los niños la instrucción primaria. 1 2. Establecimiento o institución donde se dan o se
+
+### tragedia
+tragedia. (Del lat. tragoedia, y este del gr. tpaywóía tragoidía). f. 1. En la Grecia antigua, género teatral en verso que, con ayuda de un coro y varios actores, desarrolla temas de la antigua épica centrados en el sufrimiento, la
+
+### planeta
+planeta. (Del lat. planeta, y este del gr. mhavíftnc planétes; propiamente “errante”). m. 1. Cuerpo celeste sin luz propia que gira en una órbita elíptica alrededor de una estrella, en particular los que giran alrededor del Sol:
+
+### banco
+banco. (Del fr. ant. bank, y este del germ. *banki). m. 1. Asiento, con respaldo o sin él, en que pueden sentarse dos o más personas. 1 2. Madero grueso escuadrado que se coloca horizontalmente sobre cuatro pies y sirve de mesa
+
+### sopa
+sopa. (Del germ. *súppa). f. 1. Plato compuesto de un caldo y uno o más ingredientes sólidos cocidos en él. Sopa de fideos, de verduras, de pescado. 1 2. Plato compuesto de rebanadas de pan empapadas en un líquido alimenticio.
+
+### yelmo
+yelmo. (Del germ. *hélm ; cf. a. al. ant. e ingl. ant. hélm). m. Pieza de la  
+
+### tregua
+tregua. (Del gót. triggwa “tratado”). f. 1. Cese temporal de hostilidades. 1 2. Interrupción, descanso. M dar -. loc. verb. 1. Dicho del dolor u otra cosa penosa: Aliviarse por algún tiempo. 12. Dicho de una cosa: Dar tiempo. Il dar -
+
+### ganso
+ganso, sa. (Del gót. *gans; cf. a. al. ant. gans, neerl. medio gans, ingl. ant. gós). m. y f. 1. Ave palmípeda migratoria del orden de las anseriformes, semejante al pato pero de mayor tamaño, con plumaje básicamente gris, y pico
+
+### tomate
+tomate. (Del náhuatl tomat!). m. 1. Baya roja, fruto de la tomatera, de superficie lisa y brillante, en cuya pulpa hay numerosas semillas algo aplastadas y
+
+### maíz
+maíz. (Del taíno mahís). m. 1. Planta de la familia de las gramíneas, con el tallo grueso, de uno a tres metros de altura, según las especies, hojas largas, planas y puntiagudas, flores masculinas en racimos terminales y las femeninas en
+
+### canoa
+canoa. (De or. taíno). f. 1. Embarcación de remo muy estrecha, ordinariamente de una pieza, sin quilla y sin diferencia de forma entre proa y popa. 11 2. Bote muy ligero que llevaban algunos buques, generalmente para uso del capitán o
+
+### hamaca
+hamaca. (Del taíno hamaca). f. 1. Red alargada, gruesa y clara, por lo común de pita, la cual, asegurada por las extremidades en dos árboles, estacas O escarpias, queda pendiente en el aire, y sirve de cama y columpio, o bien se
+
+### huracán
+huracán. (Voz taína). m. 1. Viento muy impetuoso y temible que, a modo de torbellino, gira en grandes círculos, cuyo diámetro crece a medida que avanza apartándose de las zonas de calma tropicales, donde suele tener origen. 1 2.
+
+### chicle
+chicle. (Del náhuatl tzictli). m. 1. Pastilla masticable aromatizada, que no se traga, de textura semejante a la goma. 11 2. Gomorresina que fluye del tronco del chicozapote al hacer en este incisiones, que se mastica y que en algunos
+
+### camposanto
+camposanto. (Tb. campo santo). m. cementerio (1! terreno destinado a enterrar cadáveres). 
+
+### aguafiestas
+aguafiestas. (De aguar y fiesta). m. y f. Persona que turba cualquier diversión o regocijo. U. t. c. adj. 
+
+### cubrecama
+cubrecama. (Tb. cubrecamas). m. colcha.  
+
+### coliflor
+coliflor. (De col y flor). f. Variedad de col que al entallecerse echa una pella  
+
+### embarcar
+embarcar. (De en- y barco). tr. 1. Introducir personas, objetos, animales, etc., en una embarcación, tren, avión u otro medio de transporte. 11 2. Mar. Destinar a alguien a un buque. 113. Hacer que alguien intervenga en una empresa difícil
+
+### enjaular
+enjaular. (Conjug. c. causar). tr. 1. Encerrar o poner dentro de una jaula a una persona o animal. 11 2. coloq. Meter en la cárcel a alguien. 
+
+### bocacalle
+bocacalle. (De boca y calle). f. 1. Entrada o embocadura de una calle. 1 2. Calle secundaria que afluye a otra. 
+
+### altiplano
+altiplano. (De alti- y plano). m. altiplanicie.  
+
+### gastro-
+gastro-. (Tb. gastr- en algunas voces. + Del gr. yaotpo- gastro-, de yaotñp, yaotpóc gaster, gastrós). elem. compos. Significa “estómago”, “zona ventral”. Gastrointestinal, gastroscopia, gástrico, gastritis.
+
+### neuro-
+neuro-. (Del gr. vevpo- neuro-). elem. compos. Significa “nervio” o “sistema nervioso”. Neurotomía, neurobiología. 
+
+### xilo-
+xilo-. (Del gr. Zv2o - xylo-). elem. compos. Significa “madera”. Xilófago.  
+
+### cosmo-
+cosmo-. (Del gr. kóonoc kósmos). elem. compos. Significa “mundo, universo”. Cosmorama, Cosmozoico. 
+
+### cromo-
+cromo-. (Del gr. xpúua chróma). elem. compos. Significa “color”. Cromosfera,
+
+### xeno-
+xeno-. (Del gr. ¿evo - xeno- “extranjero”, “extraño”). elem. compos. Significa “extranjero”. Xenofobia. 
+
+### foto-
+foto-. (Del gr. pwto - phóto-, de la raíz de púc, pwrtóc phós, photós “luz1”). elem.
+
+### geo-
+geo-. (Del gr. yew- geo-, de la raíz de yñ gé “tierra”). elem. compos. Significa “tierra? o “la Tierra”. 
+
+### crono-
+crono-. (Del gr xpovo- chrono-). elem. compos. Significa “tiempo?. Cronómetro, cronología. 
+
+### biblio-
+biblio-. (Del gr. fBigaro- biblio-). elem. compos. Significa “libro”. Bibliófilo,
+
+### -algia
+-algia. (Del lat. cient. -algia, y este del gr. -aadyía -algía, de la raíz de úayoc álgos). elem. compos. Significa “dolor”. Gastralgia, neuralgia. 
+
+### biblioteca
+biblioteca. (Del lat. bibliotheca, y este del gr. Pighro0%xm bibliothéke). f. 1. Institución cuya finalidad consiste en la adquisición, conservación, estudio y exposición de libros y documentos. 1 2. Lugar donde se tiene considerable
+
+### -ción
+-Ción. (Del lat. -tio, -ónis). suf. 1. Forma sustantivos deverbales que expresan… (OCR line 110942; the headword is capitalized in the OCR)
+
+### -miento
+-miento. (Del lat. -mentum). suf. En los sustantivos deverbales, suele significar “acción y efecto”. Toma las formas -amiento e -imiento. Debilitamiento,
+
+### -dad
+-dad. (Del lat. -tas, -átis). suf. Significa “cualidad” en sustantivos abstractos  
+
+### -dor
+-dor, ra. (Del lat. -tor, -oris). suf. 1. Forma adjetivos y sustantivos deverbales.  
+
+### -ero
+-ero, ra. (Del lat. -arius). suf. 1. En sustantivos, indica oficio, ocupación, profesión o cargo. Ingeniero, jornalero, librero. 1 2. Forma derivados que designan utensilios o muebles. Billetero, perchero, llavero. 13. Significa lugar
+
+### -ista
+-ista. (Del lat. -ista, suf. que designa oficio o profesión, y este del gr. -i0tñc - istés). suf. 1. Forma adjetivos que habitualmente se sustantivan, y suelen significar “partidario de? o “inclinado a” lo que expresa la misma raíz con el
+
+### -mente
+-mente. (Del lat. mente, abl. de mens, mentis “inteligencial”, *propósito”). elem.
+
+### -ito
+-ito3, ta. (Del lat. vulg. *-ittus). suf. Tiene valor diminutivo o afectivo. Ramita,  

@@ -1,0 +1,70 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B5 for the Latin comparisons on the cards of lang.iv.es
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, fetched 26 Oct 2026. Machine-read text; section numbers are the grammar's own.
+
+### §236 (OCR line 17111)
+236.  Nouns  of  Agency  properly  denote  the  agent  or  doer  of  an 
+action.  But  they  include  many  words  in  which  the  idea  of  agency 
+has  entirely  faded  out,  and  also  many  words  used  as  adjectives. 
+a*  Nouns  denoting  the  agent  or  doer  of  an  action  are  formed  from  roots 
+or  verb -stems  by  means  of  the  suffixes  — ■ 
+-tor  (-sor),  M. ;  -trix,  f. 
+can-tor,  can-trix,  singer  ;  can-ere  (root  can),  to  sing. 
+vic-tor,  vic-trix,  conqueror  (victorious) ;  vinc-ere  (vie),  to  conquer. 
+ton-sor    (for   ftond-tor),    tons-trix    (for 
+
+### §241 (OCR line 17312)
+241.  Abstract  Nouns,  mostly  from  adjective-stems,  rarely  from 
+noun-stems,  are  formed  by  means  of  the  secondary  feminine  suf- 
+fixes— 
+-ia  (-ies),  -tia  (-ties),  -tas,  -tus,  -txido 
+audac-ia,  boldness;  audax,  bold. 
+pauper-ies,  poverty  ;  pauper,  poor. 
+tristi-tia,  sadness;  tristis,  sad. 
+segni-ties,  laziness;  segnis,  lazy. 
+
+### §243 (OCR line 17454)
+243.  Diminutive  Adjectives  are  usually  confined  to  one  gen- 
+der, that  of  the  primitive,  and  are  used  as  Diminutive  Nouns. 
+They  are  formed  by  means  of  the  suffixes  — 
+-ulus  (-a,  -urn),  -olus   (after  a  vowel),  -cuius,  -ellus,  -illus 
+riv-ulus,  a  streamlet;  rivus,  a  brook. 
+gladi-olus,  a  small  sword;  gladius,  a  sword. 
+fili-olus,  a  little  son ;  filius,  a  son. 
+fili-ola,  a  little  daughter  ;  filia,  a  daughter. 
+
+### §264 (OCR line 18293)
+264.  A  Compound  Word  is  one  whose  stem  is  made  up  of  two 
+or  more  simple  stems. 
+a.  A  final  stem-vowel  of  the  first  member  of  the  compound  usually  dis- 
+appears before  a  vowel,  and  usually  takes  the  form  of  i  before  a  consonant. 
+Only  the  second  member  receives  inflection.1 
+b.  Only  noun-stems  can  be  thus  compounded.  A  preposition,  however, 
+often  becomes  attached  to  a  verb. 
+265.  New  stems  are  formed  by  Composition  in  three  ways :  — 
+1.  The  second  part  is  simply  added  to  the  first :  — 
+
+### §265 (OCR line 18303)
+265.  New  stems  are  formed  by  Composition  in  three  ways :  — 
+1.  The  second  part  is  simply  added  to  the  first :  — 
+su-ove-taurilia  (sus,  ovis,  taurus),  the  sacrifice  of  a  swine,  a  sheep,  and  a  bull 
+(cf.  §  255.  a). 
+septen-decim  (septem,  decern),  seventeen. 
+2.  The  first  part  modifies  the  second  as  an  adjective  or  adverb 
+(Determinative  Compounds)  :  — 
+lati-fundium  (latus,  fundus),  a  large  landed  estate. 
+omni-potens  (omnis,  potens),  omnipotent 
+
+### §267 (OCR line 18381)
+267.  Many  syntactic  compounds  are  formed  by  prefixing  a 
+Particle  to  some  other  part  of  speech. 
+a.  Prepositions  are  often  prefixed  to  Verbs.     In  these  compounds  the 
+prepositions  retain  their  original  adverbial  sense  :  — 
+a,  ab,  away  ;  a-mittere,  to  send  away. 
+ad,  to,  towards  :  af-ferre  (ad-fer5),  to  bring. 
+ante,  before  :  ante-ferre,  to  prefer ;  ante-cellere,  to  excel. 
+circum,  around:  circum-munire,  to  fortify  completely. 
+com-,  con-  (cum),  together  or  forcibly:  con-ferre,  to  bring  together;  col- 
+locare,  to  set  firm. 
+de,  down,  utterly:  de-spicere,  despise;  de-struere,  destroy 
+e,  ex,  out:  ef-ferre  (ec-fer5),  to  carry  forth,  uplift. 
