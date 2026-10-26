@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/orthography"] = {
  "id": "lang.ii.es/orthography",
  "title": "Spanish Spelling: Letters, Sounds, and Punctuation",
  "sub": "The Spanish alphabet, how the sounds are spelled in Spain, the inverted question and exclamation marks, capitals, and older spellings",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Rafael Lapesa, <i lang=\"la\">Historia de la lengua española</i>",
+ "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Rafael Lapesa, <i lang=\"es\">Historia de la lengua española</i>",
  "panels": [
   {
    "id": "letters",
