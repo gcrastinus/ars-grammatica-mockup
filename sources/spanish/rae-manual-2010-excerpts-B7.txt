@@ -2636,3 +2636,584 @@ Bastos, Vigilia).
 47.7.1 b Tanto así como y eso que encabezan prótasis concesivas pospuestas. La 
 conjunción concesiva así (distinta del adverbio así) se construye siempre con sub- 
 juntivo, y por lo general introduce un predicado de significación hiperbólica, como 
+
+
+##### order
+
+### Manual §13.6.1a to 13.6.3 (OCR lines 26046 to 26200)
+1 3.6 Posición del adjetivo en el grupo nominal 
+
+1 3.6.1 Factores que influyen en la posición del adjetivo 
+
+A diferencia de muchas lenguas en las que el adjetivo ocupa una posición fija en el 
+grupo nominal, la posición del adjetivo en él es variable en español. Se examinarán 
+resumidamente a continuación los principales factores que la condicionan. 
+
+1 3.6.1 a Clase de los adjetivos. La posición posnominal es la no marcada, ya 
+que es la más natural en la mayor parte de los registros y con varias clases de adjeti- 
+vos. Ocupan la posición posnominal los adjetivos restrictivos, sean calificativos, 
+relaciónales o descriptivos; en la antepuesta suelen ubicarse los no restrictivos, sean 
+epítetos o adverbiales (§ 1 3.4.2c), así como los que se asimilan a los determinantes y 
+cuantificadores (§ 13.4.3). Los explicativos ocupan la posición posnominal, al igual 
+que el inciso en el que se insertan. Los adjetivos pospuestos pueden intercalarse 
+entre el nombre y su complemento, como en dos ramos bellísimos de rosas amarillas, 
+su fe ciega en la victoria, la llegada imprevista de su hijo. Estas construcciones se ana- 
+lizan en el § 1 2.8.2a. 
+
+1 3.6.1 b Estructura del grupo adjetival. Se pueden anteponer al sustantivo 
+los grupos adjetivales formados por un adjetivo con un modificador de grado (su 
+muy digno discípulo, tan respetables personas ) o por adjetivos coordinados (un có- 
+modo y lujoso coche j, pero no se anteponen los que se construyen con complemento: 
+*un fácil de arreglar problema, *un fácil problema de arreglar, *su suave piel al tacto. 
+Se registran algunas excepciones, como el primer entrenador en ganar tres veces el 
+campeonato, donde el ordinal primer(o) se asimila a los superlativos (§ 45.5.2d). En 
+general, los grupos adjetivales formados con superlativos y comparativos pueden 
+fragmentarse, como en Nadie en la Europa de agosto de 1914 tenia la sensación de que 
+se había desatado la más terrible guerra que conocieron los tiempos en el continente 
+( Vanguardia [Esp.] 21/5/1994). 
+
+13.6.1c Interpretación específica o inespecífica del grupo nominal. Los 
+adjetivos calificativos posnominales son compatibles con ambas interpretaciones. 
+Así, en Todos los estudiantes de la clase habían leído una novela famosa son posibles 
+tanto la lectura multiplicativa (‘una cada uno’, interpretación inespecífica) como la 
+que hace referencia a una única novela, común para todos (interpretación específica). 
+
+
+13.6.2 
+
+
+El adjetivo y el grupo adjetival 
+
+
+256 
+
+
+Esta última, de ámbito mayor, es la única posible en la variante con el adjetivo an- 
+tepuesto (... habían leído una famosa novela). También es la única que se admite en las 
+expresiones nominales indefinidas que contienen adjetivos elativos (§ 13.2.3), apa- 
+rezcan antepuestos o pospuestos: un día maravilloso, una interesantísima película, 
+un libro espléndido. 
+
+
+1 3.6.2 Alternancias relativas a la posición del adjetivo 
+
+Solo suelen admitir variación en el orden los adjetivos graduables (árboles frondo- 
+sos~frondosos árboles), algunos adjetivos numerales (el cuarto capítulo~el capítulo 
+cuarto) y varios que pueden adquirir sentido adverbial, como se vio en el § 1 3.2.4c (el 
+ganador seguro ~ el seguro ganador; un problema falso ~ un falso problema; un conflic- 
+to nuevo~un nuevo conflicto). La alternancia de posición puede ir acompañada de 
+diferencias semánticas, y a menudo también de un cambio de categoría. 
+
+13.6.2a Cambios en el significado del adjetivo. Los adjetivos de fuerte conte- 
+nido descriptivo, sobre todo físico o material, se resisten a la anteposición (uñas 
+postizas, obra apócrifa, saludo matutino). Aun así, se anteponen con facilidad algu- 
+nos de los que admiten sentidos figurados, puesto que pueden interpretarse 
+evaluativamente. Tal comportamiento está en la base de alternancias como las 
+siguientes: 
+
+nubarrones negros (‘oscuros’) -negros nubarrones (‘ominosos’); hombre grande (‘cor- 
+pulento’) ~ gran hombre (‘de gran relevancia’); personaje alto (‘de elevada estatura’) -alto 
+personaje (‘importante’); delincuente vulgar (‘grosero’) -vulgar delincuente (‘común’); 
+país pobre (‘de escasos recursos’) -pobre país (‘desdichado’). 
+
+Los adjetivos que poseen inherentemente sentido valorativo o afectivo se anteponen 
+o posponen con igual naturalidad: espesos nubarrones -nubarrones espesos; un en- 
+trañable amigo~un amigo entrañable; un importante cargo~un cargo importante. Lo 
+mismo sucede con los elativos: un inolvidable concierto~un concierto inolvidable. Se 
+anteponen muchos adjetivos calificativos con forma participial, como en su ator- 
+mentada existencia, la esperada reforma, nuestro recordado benefactor, pero no se 
+anteponen los participios que se interpretan como derivados verbales (el dinero re- 
+cibido~*el recibido dinero). 
+
+1 3.6.2b RecategorizaciÓn de los adjetivos relaciónales (posnominales) como 
+calificativos (prenominales). Este proceso depende en buena medida de la natu- 
+raleza del sustantivo modificado, como se pone de manifiesto en estos pares: 
+
+una obra dramática~un dramático final; un acto político-una poco política respuesta; un 
+poeta trágico~su trágico destino; una sanción económica-una muy económica solución. 
+
+Constituyen un caso particular de este proceso de recategorización los adjetivos 
+gentilicios que acompañan a ciertos nombres propios, puesto que pueden usarse 
+como epítetos en posición antepuesta: la (muy) madrileña calle de Alcalá, la (muy) 
+porteña avenida Corrientes. 
+
+
+257 
+
+
+Posición del adjetivo en el grupo nominal 
+
+
+13.6.3 
+
+
+1 3.6.2c Alternancia entre la lectura restrictiva (en posición posnominal) y la 
+de sentido adverbial (en la prenominal). Se da en muchos de los adjetivos llamados 
+intersectivos (§ 13.2.4): 
+
+un amigo viejo (‘anciano’) ~un viejo amigo (‘que lo es desde hace tiempo’); una respuesta 
+falsa (‘no ajustada a la verdad’) - una falsa respuesta (‘que lo es falsamente’); un negocio 
+simple (‘no complejo’) ~un simple negocio (‘que no es otra cosa, que lo es simplemente’); 
+un testimonio verdadero (‘veraz, cierto’)~un verdadero testimonio (‘que lo es verdadera- 
+mente’). 
+
+13.6.2d Alternancia entre adjetivos de interpretación calificativa (posición 
+posnominal) y con valor de determinante o cuantificador (prenominal). Ilus- 
+tran esta alternancia los pares siguientes: 
+
+esperanza cierta (‘segura’) ~ cierta esperanza (‘alguna’); improperios semejantes (‘simila- 
+res’) ~semejantes improperios (‘tales’); expresiones dichas (‘proferidas’) -dichas expresio- 
+nes (‘esas’); acepciones diferentes (‘no iguales ’)~diferentes acepciones (‘varias’); familias 
+numerosas (‘de muchos miembros’) -numerosas familias (‘muchas’); cuestiones determi- 
+nadas (‘establecidas’)~defermmadas cuestiones (‘algunas’). 
+
+1 3.6.2e Valor irónico de algunos adjetivos antepuestos. Un grupo reducido de 
+adjetivos, entre los que están bonito, bueno, lindo, menudo y valiente, se caracterizan 
+por ocupar la posición prenominal en contextos exclamativos, en los que se asimi- 
+lan a los adjetivos de grado extremo o elativos. En tales contextos, dichos adjetivos 
+pueden adquirir un efecto irónico. Reciben, por tanto, un sentido marcadamente 
+distinto, incluso opuesto, al que expresan literalmente: ¡En {bonito -lindo} lío te has 
+metido!; ¡Menudo problema tenemos!; ¡Valiente amigo te has echado! (§ 45.4.1c). Pue- 
+den adquirir efectos irónicos similares los adjetivos antepuestos bendito, dichoso o 
+famoso, entre otros, en contextos no necesariamente exclamativos. Contrastan así tu 
+dichoso programa de televisión (‘enfadoso, molesto’) y un día dichoso (‘feliz, placen- 
+tero’). 
+
+
+1 3.6.3 Concurrencia de varios adjetivos 
+
+Cuando en un grupo nominal aparecen dos o más adjetivos, estos se presentan en 
+tres tipos de combinaciones: 
+
+A. Preceden al sustantivo: su primera gran obra, un raro sexto sentido; 
+
+B. Siguen al sustantivo: un apoyo popular unánime , una mesa negra rectangular ; 
+
+C. Uno o más se anteponen y los demás se posponen: la primera gran novela 
+policiaca norteamericana, nuestros posibles futuros socios comerciales extranjeros. 
+
+Los adjetivos separados de un sustantivo por otro adjetivo no inciden directamente 
+sobre el nombre en ninguna de estas pautas, sino sobre el segmento formado por el 
+sustantivo y el adjetivo adyacente: una [novedosa [campaña publicitaria]]; el [[apoyo 
+popular] unánime]; un [raro [sexto sentido]]. Se exceptúan las construcciones en las 
+
+### Manual §16.4.2a, 16.4.2b (OCR lines 29397 to 29440)
+1 6.4.2 Posición de los pronombres átonos en relación con el verbo 
+
+16.4.2a Los pronombres átonos aparecen enclíticos (es decir, pospuestos al 
+verbo), cuando se adjuntan a los infinitivos (comprarlo), los gerundios (comprán- 
+dolo) y los imperativos afirmativos (cómpralo tú, cómpralo vos). La colocación es 
+la misma con las formas de imperativo afirmativo que coinciden con las de sub- 
+juntivo (cómprelo usted). Están fuertemente desprestigiadas secuencias como Me 
+lo explique usted (por Explíquemelo usted); Se sienten ustedes; Se callen todos, que 
+se registran en la lengua popular de España. Los pronombres átonos se antepo- 
+nen al resto de las formas personales del verbo en el español general de hoy: le 
+contestó, las vio, se fue, no se lo digas. La distribución de formas proclíticas y en- 
+clíticas fue distinta en otras etapas de la lengua. Aún se usan ocasionalmente en 
+la lengua escrita, y a veces en los registros más formales de la expresión oral, ver- 
+bos conjugados con pronombres enclíticos, aunque suelen percibirse como arcai- 
+zantes: ¿Qué quedará del pundonor familiar? Los vestigios, contestóle Capitolina a 
+Farnesia (Fuentes, Cristóbal); Al cabo mi hermana motilona ofrecióle unos cuan- 
+tos higos (Fernández Santos, Extramuros). 
+
+
+16.4.2b 
+
+
+El pronombre personal 
+
+
+312 
+
+
+1 6.4.2b Los pronombres átonos se combinan entre sí y forman a menudo GRUPOS 
+o conglomerados ( se lo, me las, te los, se me la, etc.). Estos grupos se colocan ante- 
+puestos o pospuestos al verbo en las mismas condiciones que cuando aparece un 
+solo pronombre (§ 1 6.4.2a): Se lo daré ; Traigo esto para dárselo; Dáselo; No se lo des. 
+El orden de los pronombres en el interior de estos conglomerados es estricto. Obe- 
+dece a las siguientes condiciones: 
+
+A. La forma se, en cualquiera de sus valores gramaticales, precede a los demás pro- 
+nombres átonos del grupo. 
+
+B. Los demás pronombres se agrupan de acuerdo con la escala 2. a > 1. a > 3. a . Es decir, 
+los pronombres de segunda persona preceden a los de primera, y estos a los de tercera. 
+
+C. Los pronombres de dativo preceden a los de acusativo, salvo que ninguno de los 
+dos distinga morfológicamente estos casos. 
+
+
+### Manual §16.4.3a to 16.4.3d (OCR lines 29493 to 29585)
+1 6.4.3 Posición de los pronombres átonos en estructuras complejas 
+
+1 6.4.3a En las perífrasis verbales, los infinitivos y los gerundios que las forman 
+pueden construirse también con pronombres átonos. Así ocurre, por ejemplo, en 
+Debo hacerlo; Estoy esperándote; Tengo que decírselo; Sigo pensándomelo. Como 
+las perífrasis equivalen a un núcleo verbal, aunque complejo (§ 28.1.1.), admiten que 
+los pronombres precedan al auxiliar sin variación perceptible en el significado: Lo 
+debo hacer ; Te estoy esperando; Se lo tengo que decir; Me lo sigo pensando. Son escasas 
+las perífrasis en las que se rechaza o se restringe la anteposición. Están entre ellas las 
+que contienen verbos pronominales (Se puso a escribirlo, no *Se lo puso a escribir) o 
+las impersonales con haber (Hay que terminarlo pronto). Se recomienda evitar la 
+variante Lo hay que terminar pronto, que se registra en ciertas variedades del norte y el 
+centro de España. Se consideran también incorrectas las construcciones, propias de 
+la lengua descuidada, en las que el mismo pronombre aparece a la vez como enclítico 
+y como proclítico: *se debe respetarse cualquier opinión; *se lo tengo que decírselo. 
+
+1 6.4.3b Las perífrasis verbales pueden encadenarse, de modo que el infinitivo o el 
+gerundio de la primera es a la vez auxiliar de la segunda, como en No voy a poder 
+leerlo o en Estaba empezando a hacerlo (§ 28.2.1 d). En estos casos el pronombre puede 
+aparecer pospuesto a la última forma, como en los ejemplos anteriores, a la interme- 
+dia (No voy a poderlo leer), o bien anteponerse a la primera (No lo voy a poder 
+leer). He aquí ejemplos de dos de las posibilidades: Si el año que viene o el otro... va a 
+tener que entregármelo, me lo entrega hoy y se gana los intereses (Sánchez, F., Gringa); 
+Es demasiado, no lo voy a poder soportar (Martín Gaite, Nubosidad). Serían igual- 
+mente posibles las variantes Va a tenérmelo que entregar ~ Me lo va a tener que 
+entregar, en el primero, y iVo voy a poderlo soportar ~ No voy a poder soportarlo, en el 
+segundo. 
+
+1 6.4.3c El infinitivo que acompaña a otros verbos no constituye perífrasis con 
+ellos, sino que forma parte de una subordinada sustantiva. Aun así, la unión es lo 
+suficientemente estrecha como para que se extiendan a estas construcciones las al- 
+ternancias descritas en los apartados anteriores. Dichas alternancias se ven favore- 
+cidas por la interpretación prospectiva del infinitivo. Se da esta, por ejemplo, en No 
+se lo pienso preguntar (donde expresa posterioridad), pero no en Lo creí tener arre- 
+glado —secuencia menos natural que Creí tenerlo arreglado—, con infinitivo que 
+denota simultaneidad. El infinitivo de perfecto suele dificultar la anteposición (Espero 
+haberlas resuelto, no Las espero haber resuelto, raramente documentada). También 
+la impiden las subordinadas de sujeto (Conviene decírselo > *Se lo conviene decir), así 
+como la presencia de ciertos elementos interpuestos, como la negación (Desea no 
+verla más > *La desea no ver más). Los gerundios permiten adelantar los pronombres 
+cuando forman perífrasis, no en caso contrario. Se dice, en efecto, Salió haciendo 
+
+
+16.4.3d 
+
+
+El pronombre personal 
+
+
+314 
+
+
+eses > Salió haciéndolas, pero no *Las salió haciendo. Resulta normal, en cambio, Si- 
+guió haciéndolas > Las siguió haciendo, con la perífrasis « seguir + gerundio». 
+
+1 6.4.3d Los grupos de pronombres átonos no se separan cuando se anteponen. 
+Es normal, en efecto, la anteposición del grupo selo que se muestra en Debes 
+decír[selo] > [Se lo] debes decir, pero la proclisis no afecta únicamente a una parte 
+del conglomerado: *Le debes decirlo; *Me suele traerlo. Nótese que oraciones 
+como Le enseñó a decirlo; Me hizo devolverlo; Te oí cantarla, en las que los dos 
+pronombres átonos aparecen separados, no son semejantes a las anteriores, ya que 
+cada uno de los pronombres complementa a un verbo distinto. Ello no impide, sin 
+embargo, que el pronombre que complementa al primer verbo (casi siempre un 
+predicado de causación, influencia o percepción) forme un conglomerado antepues- 
+to junto con el pronombre que modifica al verbo subordinado: Se lo enseñó a 
+decir, Me lo hizo devolver, Te la oí cantar. Los conglomerados así formados están 
+sujetos a las condiciones mencionadas en el § 1 6.4.2b. Así, en Se le enseñó a decirlo 
+no podría anteponerse el pronombre lo. La secuencia resultante *Se le lo enseñó a 
+decir infringe la condición E, en virtud de la cual le debería pasar a se, mientras 
+que *Se lo le enseñó a decir incumple la condición C, ya que el acusativo no prece- 
+de al dativo. 
+
+16.4.3e A pesar de ser numerosas, se ha observado que las condiciones del 
+§ 16.4.2b no son enteramente suficientes en las construcciones complejas. Para evi- 
+tar procesos como Se obligó (a sí mismo) a decírselo > *Se se lo obligó a decir, es nece- 
+sario agregar una condición que impida las secuencias de dos pronombres átonos 
+idénticos, aun cuando aporten informaciones gramaticales diferentes. Para evitar 
+procesos como Me hizo devolvérselo > *Se me lo hizo devolver, es preciso excluir las 
+secuencias de dos pronombres átonos que posean el mismo caso, sea cual sea el 
+verbo al que modifiquen. De esta forma, en el ejemplo propuesto no podría interpre- 
+tarse me como acusativo, porque lo ya presenta este caso. 
+
+1 6.4.3f Algunos verbos de influencia presentan una restricción de animacidad, 
+ya que admiten la anteposición de pronombres átonos de acusativo cuando se re- 
+fieren a cosas, pero la rechazan cuando designan personas. Así, resulta natural la 
+anteposición en No le permitieron comprarla > No se la permitieron comprar; Me 
+obligaron a escribirlo > Me lo obligaron a escribir, donde la y lo se refieren a cosas. 
+Son agramaticales, en cambio, *No me la permitieron saludar; *Me lo obligaron a 
+contratar, oraciones en las que los acusativos se refieren a personas. De hecho, si 
+lo contratado es un seguro, en lugar de un individuo, la última oración pasaría a ser 
+aceptable. 
+
+16.4.3g La anteposición de los pronombres átonos es unidireccional, es decir, 
+
+### Manual §33.3.1f (OCR lines 48744 to 48752)
+de número y persona. 
+
+33.3.1Í La capacidad de una lengua para admitir sujetos tácitos está estre- 
+chamente relacionada con la riqueza morfológica de su flexión verbal. Se ha observado, 
+por otra parte, que las lenguas que admiten sujetos tácitos suelen admitir también 
+sujetos posverbales, como en Llamó María. En el español antillano, en el de otras 
+partes del Caribe, así como en el hablado en las islas Canarias y en el occidente de 
+Andalucía (España), es mayor proporcionalmente la presencia de sujetos expresos 
+en contextos en los que en otras variedades son frecuentes los tácitos: Yo no pude 
+
+### Manual §40.1.1a to 40.1.2d (OCR lines 54710 to 54834)
+40.1 Introducción. Información conocida e información nueva 
+
+40.1.1 Funciones informativas. Definición y distinciones 
+
+40.1.1a Como se explica en el § 1.6.1b, las funciones sintácticas (sujeto, com- 
+plemento directo...) y las semánticas (agente, paciente, instrumento...) especifi- 
+can el papel gramatical que cada segmento desempeña en la oración. Las 
+funciones informativas permiten valorar la aportación de tales segmentos al 
+discurso, es decir, determinar si el contenido que aportan se interpreta como in- 
+formación nueva o se da por conocido; si forma parte o no de un conjunto de op- 
+ciones; si se pone de relieve mediante algún recurso gramatical o, por el contrario, 
+se mantiene como trasfondo del discurso. Las siguientes oraciones difieren en la 
+manera en que se expresan tales contenidos (los paréntesis indican que el sujeto 
+se puede omitir): 
+
+(Ella) no aceptaría nunca esas condiciones; (Ella) no aceptaría esas condiciones nunca; 
+Esas condiciones, (ella) no las aceptaría nunca; Ella, esas condiciones no las aceptaría nun- 
+ca; Esas condiciones nunca las aceptaría (ella); Nunca aceptaría (ella) esas condiciones; 
+Esas condiciones son las que (ella) no aceptaría nunca; Esas condiciones son las que nunca 
+aceptaría (ella); Esas condiciones no serían nunca aceptadas por ella. 
+
+De manera análoga, con las voces yo, eso, dije, lo y ayer se obtienen varias secuencias 
+entre las que existen diferencias de significado notables: Yo dije eso ayer; Dije eso 
+ayer; Eso dije yo ayer; Eso dije ayer; Eso, lo dije ayer; Eso, yo lo dije ayer; Yo, eso lo 
+dije ayer; Ayer dije yo eso y Ayer dije eso, entre otras. Como se ve, estas variantes es- 
+tán en función de la posición sintáctica de las palabras que se mencionan, pero 
+también de la presencia o ausencia de algunas de ellas. 
+
+40.1.1 b Existe no poca variedad en los términos que designan las funciones in- 
+formativas. Se llama tradicionalmente información conocida o temática (tam- 
+bién TEMA, SOPORTE, APOYO, APOYATURA, FONDO O FONDO COMÚN) la que Se da por 
+
+
+40.1.2a 
+
+
+Las funciones informativas 
+
+
+754 
+
+
+consabida, tanto si ha sido presentada expresamente como si no es así, y expresa 
+aquello sobre lo que versa el enunciado. Se suele denominar, en cambio, informa- 
+ción NUEVA O REMÁTICA (también REMA, APORTE, FIGURA O COMENTARIO) la que Se 
+proporciona como relevante en alguna situación discursiva para completar la infor- 
+mación temática. El tema constituye, por tanto, la base sobre la que se apoya la informa- 
+ción que se presenta como nueva. Así, los enunciados En 1945 terminó la Segun- 
+da Guerra Mundial y La Segunda Guerra Mundial terminó en 1945 contienen las 
+mismas palabras y hablan de lo mismo, pero no aportan idéntica información: en el 
+primero se afirma algo acerca de un año; en el segundo, en cambio, se dice algo sobre 
+una guerra. El orden de palabras indica que en 1945 aporta información temática 
+en el primer enunciado, pero remática en el segundo. De forma parecida, las oracio- 
+nes activas y las pasivas presentan informaciones similares, pero enfocadas desde 
+diferentes puntos de vista: mientras que la oración activa Los diputados aprobaron 
+la ley de la reforma sanitaria dice algo acerca de ciertas personas, la variante pasivaia 
+ley de la reforma sanitaria fue aprobada por los diputados habla acerca de una ley. 
+
+
+40.1.2 Propiedades de la información temática y de la información 
+remática 
+
+40.1 .2a Como se explica en la sección anterior, la información temática deno- 
+ta la materia sobre la que se dice algo. Tal información no siempre ha sido mostrada, 
+anticipada o introducida en el texto de forma explícita, pero el hablante la presenta 
+como supuesta o como si fuera conocida efectivamente por el oyente. La informa- 
+ción temática tiende a elidirse o a sustituirse por un pronombre. Así, a la pre- 
+gunta ¿A quién ha llamado Luisa? podrá responderse A su mamá, donde se aporta 
+únicamente la información remática. Sin embargo, también son posibles otras res- 
+puestas que incluyen elementos temáticos: Ha llamado a su mamá o Luisa ha llama- 
+do a su mamá. De manera similar, la pregunta ¿Has visto a José últimamente? podría 
+contestarse con la expresión Lo vi ayer. En este caso no se elide el tema (José), pero 
+se presenta en la forma de un pronombre personal (lo). 
+
+40.1.2b Mientras que la información temática tiende a elidirse y a pronominali- 
+zarse, la de naturaleza remática no se omite y se sitúa generalmente en POSICIÓN 
+final. Está marcada, además, por ciertas propiedades acentuales. Así, una res- 
+puesta natural a la pregunta ¿Quién ha llamado? sería Ha llamado tu hermano. No lo 
+sería, en cambio, Tu hermano ha llamado, salvo que tu hermano se marque con pro- 
+minencia tonal. Solo las palabras tónicas pueden ser remas. De este modo, a la 
+pregunta ¿A quién le gustó la película? se podría responder Me gustó a mí, con un 
+elemento tónico ubicado al final del enunciado, pero no se respondería Me gustó, ya 
+que los pronombres átonos (en este caso me) no son remáticos. 
+
+40.1.2c Como se ve, la estructura informativa de las oraciones ha de ser validada 
+
+por el contexto en el que se insertan. Por lo general, los grupos nominales definidos 
+en posición preverbal tienden a ser interpretados como información temática, pues- 
+to que se vinculan con algún referente conocido o ya presentado, como en El coche 
+frena mal en las curvas. De manera análoga, el sujeto de la oración Las angiospermas 
+tienen los carpelos en forma de ovarios puede ser temático si esa expresión se usa en 
+
+
+755 
+
+
+El concepto de tópico 
+
+
+40.2.2a 
+
+
+una clase sobre las angiospermas. Sin embargo, si la misma oración se emplea sin 
+haber hecho antes mención de tal clase de plantas, toda ella —y no solo su sujeto- 
+constituiría la información nueva. 
+
+40.1 .2d El contexto previo o la situación presentada en el discurso anterior son 
+igualmente necesarios para determinar el segmento que ha de interpretarse como 
+información nueva. Así, en la oración Clara [le regaló a su hijo un libro de cuentos el 
+día de su cumpleaños] puede aportar información nueva el segmento subrayado (so- 
+bre todo si, en relación con el libro ya mencionado, se indica con qué motivo se hizo 
+el regalo), el segmento marcado entre corchetes (como respuesta a la pregunta ¿Qué 
+hizo Clara?) o bien toda la secuencia —incluido el sujeto—, en ausencia de un con- 
+texto previo. Los segmentos restantes (Clara, a su hijo, un libro de cuentos) también 
+podrían constituir información remática, pero para ello deberían marcarse con 
+acento enfático, ya que no ocupan la posición final de la oración. Si la estructura in- 
+formativa de una secuencia no es validada por el contexto en el que se inserta (en el 
+sentido de ‘interpretada en función de la información que este aporta o que permite 
+interpretar como supuesta’), puede resultar inapropiada discursivamente, aun- 
+que sea una oración gramatical. Así, la secuencia Lo prefiero es inapropiada como 
+respuesta a la pregunta ¿Prefieres un libro o una pelota?, ya que, aunque se identifica 
+de forma correcta en ella el referente del pronombre lo (es decir, un libro), la res- 
+puesta presenta indebidamente un pronombre átono como información remática. 
+
+
+
+### Manual §40.3.2a to 40.3.3c (OCR lines 55058 to 55137)
+40.3.2 Foco presentativo y foco contrastivo 
+
+40.3.2a Se reconocen habitualmente dos clases de focos: el foco presentativo 
+(también llamado foco informativo o foco amplio) y el foco contrastivo. Son 
+presentativos los focos que coinciden con toda la información que se suministra, 
+como los que proporcionan la respuesta a las preguntas. Así, la expresión un libro de 
+cuentos se interpreta como foco presentativo si esa secuencia constituye la respuesta 
+a la pregunta ¿Qué le regaló Clara a su hijo?; el segmento subrayado lo es asimismo 
+en “¿Qué ves?” “Veo una barca” (Torrente Ballester, Saga). Este tipo de foco no ex- 
+cluye opciones alternativas a la que el hablante elige. Así, el que identifica como foco 
+la expresión subrayada en Ayer vi a tu hermano Pepe no da a entender que ese día 
+no vio a ninguna otra persona. Por el contrario, el foco contrastivo exige identificar 
+de forma exhaustiva los elementos a los que se quiere hacer referencia entre un 
+conjunto de entidades, unas veces presentadas de manera explícita en el discurso 
+previo, y otras muchas simplemente supuestas o sobrentendidas. El contraste con 
+otro elemento es explícito en No quiero esta camisa, sino aquella otra, o en Estoy muy 
+lleno. No me traiga cabrito, sino unos frijoles (Ibargüengoitia, Atentado), pero queda 
+implícito en La música que le gusta a mi hijo es esta, o en el grupo nominal el lugar al 
+que sí me gustaría ir. 
+
+40.3.2b Un mismo foco puede ser presentativo unas veces (El autogiro lo inventó 
+Juan de la Cierva como respuesta a ¿Quién inventó el autogiro?) y contrastivo otras 
+(la misma oración cuando se contrapone a un enunciado previo como El autogiro lo 
+inventó un ingeniero alemán). Aunque los dos tipos de focos aportan información 
+nueva, solo el contrastivo rechaza además cierta información previa para ocupar su 
+lugar. También en las copulativas enfáticas (§ 40.5) el foco es muchas veces con- 
+trastivo, como en De este libro es del que me han estado hablando todo el mes (donde 
+se rechaza que se trate de otro libro) o en Así fue que ocurrió el accidente. 
+
+
+40.3.3 Características sintácticas de los focos 
+
+40.3.3a En la focalización se adelanta el foco al principio de la oración. La pre- 
+sencia o ausencia de la duplicación pronominal es el rasgo fundamental que dife- 
+rencia las estructuras de topicalización de las de focalización. Se distinguen, por 
+ejemplo, Eso digo yo y Eso lo digo yo, en que el pronombre eso es el foco de la primera, 
+que admite paráfrasis con una copulativa enfática (Eso es lo que digo yo), mientras que 
+es el tópico de la segunda, equivalente a En cuanto a eso, lo digo yo. 
+
+
+40.3.3b 
+
+
+Las funciones informativas 
+
+
+760 
+
+
+40.3.3b Los focos nominales antepuestos se suelen pronunciar con acento enfá- 
+tico, aunque de intensidad variable. Frente a lo que sucede con los tópicos, no van 
+separados por pausa del segmento al que preceden: Demasiado vino diría yo que 
+has tomado; Algo deberíamos regalarle a tu primo; el que eso piense. Como mues- 
+tran las dos primeras oraciones, se forman de manera natural con expresiones no 
+definidas, a diferencia de lo que suele ser normal con los tópicos: *Algo, me lo dijo 
+Juan ayer. Por otra parte, los focos presentan resistencia a anteponerse en las ora- 
+ciones negativas ( *Eso no dije yo; *Vino no toma él nunca, sino coñac), mientras que 
+los tópicos admiten la negación con naturalidad ( Eso no lo dije yo; El vino no lo 
+toma él nunca). 
+
+40.3.3c Cuando el foco se adelanta al principio de la oración, el sujeto aparece en 
+posición posverbal. Se obtienen así los contrastes siguientes: 
+
+Eso mismo pensaba yo hacer esta tarde ~Eso mismo pensaba hacer yo esta tarde ~Eso 
+
+mismo pensaba hacer esta tarde yo ~ *Eso mismo yo pensaba hacer estar tarde. 
+
+La anteposición enfática es un proceso muy cercano a la interrogación o a la excla- 
+mación desde el punto de vista sintáctico y semántico. En efecto, al igual que los fo- 
+cos, también las palabras interrogativas y los grupos que forman se sitúan al principio 
+de la oración, representan información nueva en la pregunta y no admiten segmen- 
+tos entre ellos y el verbo (¿Qué pensará Pedro? ~*¿Qué Pedro pensará?). Se exceptúa 
+el español hablado en parte del área caribeña, en el que resulta natural la anteposi- 
+ción (¿Qué tú crees?: § 42.3.3c), pero también los sujetos pronominales en los tópicos 
+no contrastivos (§ 40.2.3Í). Interrogativos y focos pueden, por otra parte, aparecer 
+fuera de la oración a la que pertenecen. Así, el interrogativo qué en ¿Qué crees tú que 
+haría? y el foco eso mismo en Eso mismo creo yo que haría son complementos del 
+verbo hacer, no de creer. 
+
+
+
+### Manual §48.1.2b to 48.1.4a (OCR lines 64233 to 64290)
+el último admite también usos adjetivales, como en No aportó ninguna idea. 
+
+48.1.2b Pertenecen a la clase de los adverbios no, nunca, jamás, tampoco y nada. 
+Son adverbios temporales nunca, contrapartida negativa de siempre, así como el más 
+enfático jamás, que proviene de la unión de dos palabras positivas (ya y más), por lo 
+que su significado original es ‘no en lo sucesivo’. Con estas y otras expresiones nega- 
+tivas se forman combinaciones redundantes, pero correctas, como las que se subra- 
+yan a continuación: Nunca jamás la debiste obligar (Vilalta, Mujer); No quiero ver a 
+Lucía jamás en mi vida (Bain, Dolor). 
+
+48.1 .2c El adverbio nada presenta la multiplicidad de valores propia de los cuan- 
+
+tificadores adverbiales (§ 30.3.2). Expresa, en efecto, intensidad en El autor no pro- 
+fundiza nada en ese asunto; medida en No te costaría nada ayudarme; frecuencia 
+en No voy nada al cine, etc. También puede modificar a un adjetivo o un adverbio, 
+asimilándose a los cuantificadores de grado, como en nada fácil, nada lejos. En el 
+español coloquial rioplatense, andino y de otros países americanos, nada se usa tam- 
+bién en contextos enfáticos en los que significa ‘en absoluto’ o ‘de ningún modo’, 
+como en Tanto prometer venir y al final no vino nada; No me lo dijiste nada. Este uso 
+se acerca al de la locución adverbial para nada, que va ganando terreno en el español 
+general: En eso no creo para nada (Chavarría, Rojo); Mara caminaba con celeridad sin 
+ocuparse para nada de mí que iba detrás de ella (García Morales, Lógica). 
+
+48.1. 2d Son negativas las conjunciones ni y sino (§ 48.2.1 b y 48.6.1) y, aunque en 
+
+un sentido distinto, la preposición sin y las locuciones preposicionales en vez de 
+y en lugar de (§ 48.5.2Í), así como algunas interjecciones restringidas geográficamen- 
+te (§ 48.8.2c). 
+
+
+48.1.3 Contextos sintácticos de las palabras negativas 
+
+La forma y la interpretación de las oraciones negativas están determinadas tanto por 
+las propiedades léxicas de las palabras negativas que contienen como por la posición 
+que esos elementos ocupan y por las relaciones que entre ellos se establecen. 
+
+48.1.3a Los indefinidos negativos (nada, nadie, ninguno, etc.) y otras expresiones 
+que se les asimilan exigen un elemento negativo delante del verbo cuando aparecen 
+en posición posverbal: No vino nadie; Sofia no dijo nada a nadie en ningún momento; 
+Nadie movió un dedo por mí. En todos estos casos se interpreta una sola negación, de 
+forma que las unidades subrayadas establecen una suerte de concordancia con la 
+palabra negativa que precede al verbo. La expresión negativa preverbal no es optati- 
+va (*Vino nadie). Las voces que requieren alguna negación con la que concordar re- 
+ciben el nombre de términos de polaridad negativa (marcados con trazo 
+continuo en los ejemplos que siguen); los elementos negativos que los posibilitan 
+se denominan inductores o activadores de la negación (marcados con trazo 
+
+
+925 
+
+
+Introducción. Conceptos fundamentales 
+
+
+48.1.4c 
+
+
+discontinuo). A este paradigma pertenecen el adverbio no, la preposición sin (sin ver 

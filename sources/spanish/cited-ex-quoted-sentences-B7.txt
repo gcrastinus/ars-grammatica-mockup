@@ -1,0 +1,58 @@
+SOURCE FILE: quoted sentences of the marking and word-order exercise lang.v.es/cited-ex (Spanish batch B7)
+
+Spanish texts and the published English translations were read as machine-read transcriptions of Project Gutenberg, fetched 26 Oct 2026. Each sentence below was found letter for letter in the file named (line breaks and the margin numbers of the school edition removed). Second check of the Spanish: the Spanish Wikisource text (es.wikisource.org, La barraca, chapters I, II, IV, VIII, and Doña Perfecta, chapter I) was read on 26 Oct 2026; for La barraca the eight sentences are identical there; for Doña Perfecta the Wikisource text has the same words with older accentuation (preguntoles, aquel), so the sentence is quoted as the named edition prints it.
+
+SPANISH EDITIONS
+1. Vicente Blasco Ibáñez, La barraca (first published Valencia, 1898), in Obras completas de V. Blasco Ibáñez: the edition transcribed in Project Gutenberg eBook #14944 (Michael Ciesielski, Chuck Greif, and the Online Distributed Proofreading Team). The transcription does not state the publisher or the year of the print. Author died 1928; first published 1898.
+2. Benito Pérez Galdós, Doña Perfecta (first published Madrid, 1876): Doña Perfecta, with an introduction and notes by A. R. Marsh and a vocabulary by Steven T. Byington (Boston: Ginn and Company, The Athenaeum Press), Project Gutenberg eBook #15725. The editor states that the novel is printed exactly as in the eighth Spanish edition (Madrid, 1896), with the accentuation conformed to the Academy's dictionary. Author died 1920; first published 1876.
+
+ENGLISH TRANSLATIONS
+1. The Cabin (La barraca), translated by Francis Haffkine Snow and Beatrice M. Mekota, with an introduction by John Garrett Underhill (New York: Alfred A. Knopf, 1917; the file has the printing of 1919), Project Gutenberg eBook #38165.
+2. Doña Perfecta, translated by Mary J. Serrano, Project Gutenberg eBook #2462 (the file does not state the publisher or the year).
+
+SENTENCES
+La barraca, ch. I
+  ES: Desperezóse la inmensa vega bajo el resplandor azulado del amanecer, ancha faja de luz que asomaba por la parte del Mediterráneo.
+  EN: The vast plain stretched out under the blue splendour of dawn, a broad sash of light which appeared in the direction of the sea.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. I
+  ES: Despertaba la huerta, y sus bostezos eran cada vez más ruidosos.
+  EN: The _huerta_ was awaking, and its yawnings were growing ever noisier.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. I
+  ES: Un perrillo sucio y jadeante cerraba la marcha.
+  EN: A little dog, dirty and panting, brought up the rear.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. II
+  ES: Él, que no había llorado nunca, gimoteó como un niño.
+  EN: He, who had never wept, now sobbed like a child.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. II
+  ES: Aquellas paredes las había levantado su abuelo y las renovaba él todos los años.
+  EN: These walls had been raised by his grandfather and renovated by himself through all these years.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. IV
+  ES: Con este tribunal no jugaba nadie.
+  EN: Nobody played with this tribunal.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. IV
+  ES: Nunca como entonces comprendió Batiste la carga que pesaba sobre sus espaldas.
+  EN: Never until then did Batiste comprehend the load which was weighing upon his shoulders.
+  found in the Spanish file: True; found in the English file: True
+
+La barraca, ch. VIII
+  ES: No las odiaba, pero tampoco sentía gratitud.
+  EN: He did not hate them, but neither did he feel gratitude.
+  found in the Spanish file: True; found in the English file: True
+
+Doña Perfecta, ch. I
+  ES: El único viajero de primera que en el tren venía bajó apresuradamente, y dirigiéndose a los empleados, preguntóles si aquél era el apeadero de Villahorrenda.
+  EN: The only first-class passenger on the train alighted quickly, and addressing a group of the employes asked them if this was the Villahorrenda station.
+  found in the Spanish file: True; found in the English file: True
+

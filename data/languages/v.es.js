@@ -81,6 +81,21 @@ ARS.languages["lang.v.es"] = {
    "title": "Clauses in Spanish",
    "desc": "49 questions.",
    "exFor": "lang.v.es/clauses"
+  },
+  {
+   "id": "lang.v.es/order",
+   "kind": "study",
+   "built": true,
+   "title": "Word Order in Spanish",
+   "desc": "The order of subject, verb, and object, the place of the pronoun and of negation, the adjective before and after the noun, and dependence."
+  },
+  {
+   "id": "lang.v.es/cited-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Word Order, Negation, and Dependence in Spanish",
+   "desc": "30 questions, nine of them marking the dependences.",
+   "exFor": "lang.v.es/order"
   }
  ]
 };

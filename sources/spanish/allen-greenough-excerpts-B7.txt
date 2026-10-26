@@ -690,3 +690,157 @@ in  the  Direct:  as,  —  ne  perturbarentur  (B.  G.  vii.  29),  do  not  (h
 [Direct:  nolite  perturbari.     But  sometimes  nollet  is  found  in  Indirect  Discourse.] 
 
 Conditions  in  Indirect  Discourse 
+
+
+##### order
+
+### A&G §325 to §327 (OCR lines 20985 to 21048)
+325.  In  the  use  of  the  Negative  Particles,  the  following  points 
+are  to  be  observed :  — 
+
+326.  Two  negatives  are  equivalent  to  an  affirmative :  — 
+
+nemd  n5n  audiet,  every  one  will  hear  (nobody  will  not  hear). 
+n5n  possum  non  confiteri  (Fam.  ix.  14.  1),  I  must  confess. 
+ut  .  .  .  ne  non  timere  quidem  sine  aliquo  timore  possluius  (Mil.  2),  so  that  we 
+cannot  even  be  relieved  of  fear  without  some  fear. 
+
+a.  Many  compounds  or  phrases  of  which  non  is  the  first  part  express 
+an  indefinite  affirmative  :  — 
+
+non  nullus,  some;  non  nulll  (=aliqul),  some  few. 
+non  nihil  (=aliquid),  something. 
+non  nemo  (=  aliquot),  sundry  persons. 
+non  numquam  (=  aliquo  tiens),  sometimes. 
+
+b.  Two  negatives  of  which  the  second  is  non  (belonging  to  the 
+predicate)  express  a  universal  affirmative  :  — 
+
+nemo  non,  nullus  non,  nobody  [does]  not,  i.e.  everybody  [does].     [Cf.  non 
+
+nemo,  not  nobody,  i.e.  somebody.] 
+nihil  non,  everything.     [Cf.  non  nihil,  something. ,] 
+numquam  non,  never  not,  i.e.  always.     [Cf.  non  numquam,  sometimes.] 
+
+c.  A  statement  is  often  made  emphatic  by  denying  its  contrary 
+(Litotes,  §  641) :  — 
+
+non  semel  (  =  saepissime),  often  enough  (not  once  only). 
+
+non  haec  sine  numine  dlvom  eveniunt  (Aen.  ii.  777),  these  things  do  not 
+
+occur  without  the  will  of  the  gods. 
+haec  non  nimis  exqulro  (Att.  vii.  18.  3),  not  very  much,  i.e.  very  little. 
+Note.  —  Compare  non  nullus,  non  nemo,  etc.,  in  a  above. 
+
+1  That  is,  they  do  not  stand  first  in  their  clause. 
+
+2  For  a  list  of  Negative  Particles,  see  §  217.  e. 
+
+
+204  SYNTAX:   PARTICLES  [§§327-329 
+
+327.  A  general  negation  is  not  destroyed  — 
+
+1.  By  a  following  ne  .  .  .  quidem,  not  even,  or  non  modo,  not  only :  — 
+numquam  tu  non  modo  otiuin,  sed  ne  bellum  quidem  nisi  nefarium  concuplstl 
+
+(Cat.  i.  25),  not  only  have  you  never  desired  repose,  but  you  have  never 
+desired  any  war  except  one  which  was  infamous. 
+
+2.  By  succeeding  negatives  each  introducing  a  separate  subordi- 
+nate member :  — 
+
+eaque  nesciebant  nee  ubi  nee  qualia  essent  (Tusc.  iii.  4),  they  knew  not  where 
+or  of  what  kind  these  things  were. 
+
+3.  By  neque  introducing  a  coordinate  member  :  — 
+
+nequeo  satis  mlrari  neque  conicere  (Ter.  Eun.  547),  I  cannot  wonder  enough 
+nor  conjecture. 
+
+
+### A&G §596 to §597 (OCR lines 33270 to 33300)
+596.  As  in  other  languages,  the  Subject  tends  to  stand  first,  the 
+
+Predicate  last.     Thus, — 
+
+Pausanias  Lacedaemonius  magnus  homo  sed  varius  in  omni  genere  vitae  fuit 
+(Nep.  Paus.  1),  Pausanias  the  Lacedaemonian  was  a  great  man,  but  in- 
+consistent in  the  whole  course  of  his  life. 
+
+Note.  —  This  happens  because,  from  the  speaker's  ordinary  point  of  view,  the  sub- 
+ject of  his  discourse  is  the  most  important  thing  in  it,  as  singled  out  from  all  other 
+things  to  be  spoken  of. 
+
+a.  There  is  in  Latin,  however,  a  special  tendency  to  place  the  verb  itself 
+last  of  all,  after  all  its  modifiers.  But  many  writers  purposely  avoid  the 
+monotony  of  this  arrangement  by  putting  the  verb  last  but  one,  followed 
+by  some  single  word  of  the  predicate. 
+
+597.  In  connected  discourse  the  word  most  prominent  in  the 
+speaker's  mind  comes  first,  and  so  on  in  order  of  prominence. 
+
+This  relative  prominence  corresponds  to  that  indicated  in  Eng- 
+lish by  a  graduated  stress  of  voice  (usually  called  emphasis). 
+
+a*  The  difference  in  emphasis  expressed  by  difference  in  order  of  words 
+is  illustrated  in  the  following  passages  :  — 
+
+apud  Xenophontem  autem  moriens  Cyrus  m&ior  haec  dicit  (Cat.  M.  79),  in 
+
+Xenophon  too,  on  his  death-bed  Cyrus  the  elder  utters  these  words. 
+Cyrus  quidem  haec  moriens ;  nos,  si  placet,  nostra  videamus  (id.  82),  Cyrus, 
+to  be  sure,  utters  these  words  on  his  death-bed  ;  let  us,  if  you  please,  con- 
+
+### A&G §598 (OCR lines 33496 to 33545)
+598.  The  main  rules  for  the  Order  of  Words  are  as  follows :  — 
+
+a*  In  any  phrase  the  determining  and  most  significant  word  comes 
+first :  — 
+
+1.  Adjective  and  Noun  :  — 
+
+omnis  homines  decet,  every  man  ought  (opposed  to  some  who  do  not). 
+
+Lucius  Catillna  nobili  genere  natus  fuit,  magna,  vl  et  animi  et  corporis, 
+sed  ingenio  malo  pravoque  (Sail.  Cat.  5),  Lucius  Catiline  was  born  of  a 
+noble  family,  with  great  force  of  mind  and  body,  but  with  a  nature 
+that  was  evil  and  depraved.  [Here  the  adjectives  in  the  first  part  are 
+the  emphatic  and  important  words,  no  antithesis  between  the  nouns 
+being  as  yet  thought  of ;  but  in  the  second  branch  the  noun  is  meant 
+to  be  opposed  to  those  before  mentioned,  and  immediately  takes  the 
+prominent  place,  as  is  seen  by  the  natural  English  emphasis,  thus  mak- 
+ing a  chiasmus.1] 
+
+2.  Word  with  modifying  case  :  — 
+
+quid  magis  Epaminondam,  ThebanSrum  imperatorem,  quam  victoriae  The- 
+banorum  consulere  decuit  (In v.  i.  69),  what  should  Epaminondas,  com- 
+mander of  the  Thebans,  have  aimed  at  more  than  the  victory  of  the 
+Thebans  f 
+
+lacrima  nihil  citius  arescit  (id.  i.  109),  nothing  dries  quicker  than  a  tear. 
+
+nemo  fere  laudis  cupidus  (De  Or.  i.  14),  hardly  any  one  desirous  of  glory 
+(cf.  Manil.  7,  avidi  laudis,  eager  for  glory). 
+
+b*  Numeral  adjectives,  adjectives  of  quantity,  demonstrative,  relative, 
+and  interrogative  pronouns  and  adverbs,  tend  to  precede  the  word  or  words 
+to  which  they  belong :  — 
+
+cum  aliqua  perturbatione  (Off.  i.  137),  with  some  disturbance. 
+
+hoc  uno  praestamus  (De  Or.  i.  32),  in  this  one  thing  we  excel. 
+
+ceterae  fere  artes,  the  other  arts. 
+
+Note.  —  This  happens  because  such  words  are  usually  emphatic;  but  often  the 
+words  connected  with  them  are  more  so,  and  in  such  cases  the  pronouns  etc.  yield  the 
+emphatic  place :  — 
+
+causa  aliqua  (De  Or.  i.  250),  some  case. 
+
+stilus  ille  tuus  (id.  i.  257),  that  well-known  style  of  yours  (in  an  antithesis;  see 
+
+passage).     [Ille  is  idiomatic  in  this  sense  and  position.] 
