@@ -15,7 +15,7 @@ ARS.exercises["lang.iii-indecl.es/govern-ex"] = {
    "deck": "lang.iii-indecl.es/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Esperamos ___ la directora.</i> (“We are waiting for the director”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Visitamos ___ la directora.</i> (“We are visiting the director”)",
    "explain": "A direct object that names a person takes <i lang=\"es\">a</i>.",
    "options": [
     "<i lang=\"es\">a</i>",
@@ -47,7 +47,7 @@ ARS.exercises["lang.iii-indecl.es/govern-ex"] = {
    "deck": "lang.iii-indecl.es/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">No vi ___ nadie en la calle.</i> (“I saw no one in the street”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">No esperaba ___ nadie.</i> (“I was not expecting anyone”)",
    "explain": "<i lang=\"es\">Nadie</i> names persons, so the direct object takes <i lang=\"es\">a</i>.",
    "options": [
     "<i lang=\"es\">de</i>",
