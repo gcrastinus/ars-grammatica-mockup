@@ -1,0 +1,23 @@
+SOURCE FILE: Garcilaso de la Vega, Soneto XXIII, quoted in lang.ix.es/poetry
+WORK: Obras de Garcilaso de la Vega, ilustradas con notas. Segunda edición. Madrid: En la Imprenta de Sancha, 1817. Title page read from the scan (Internet Archive obrasdegarcilas00goog, PDF page 9). The title page names no annotator. Garcilaso died in 1536. The book was printed in 1817.
+TEXT READ: Internet Archive obrasdegarcilas00goog, PDF page 208 (printed page 170). Read from the page image on 26 Oct 2026, then again from line crops of the same image. Nothing was altered except the one letter noted below.
+
+The t of “presto” is broken in the scan: a tight crop of that word shows a gap in the letter, and one optical reading gives “pres:o.” The letter is read as t, and the word is quoted as “presto.”
+
+Commas sit close to the preceding word. The colons after “serena,” “desordena,” and “elado” are printed with a space before them, and that space is kept.
+
+### Soneto XXIII (printed page 170)
+En tanto que de rosa y azucena
+Se muestra la color en vuestro gesto
+Y que vuestro mirar ardiente honesto,
+Con clara luz la tempestad serena :
+Y en tanto que el cabello, que en la vena
+Del oro se escogió, con vuelo presto
+Por el hermoso cuello blanco enhiesto
+El viento mueve, esparce y desordena :
+Coged de vuestra alegre primavera
+El dulce fruto, antes que el tiempo ayrado
+Cubra de nieve la hermosa cumbre,
+Marchitará la rosa el viento elado :
+Todo lo mudará la edad ligera,
+Por no hacer mudanza en su costumbre.

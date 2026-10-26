@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -72,7 +72,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   {
    "id": "poetry-6",
    "title": "The spelling of these older prints",
-   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p>"
+   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p>"
   },
   {
    "id": "poetry-7",
@@ -199,6 +199,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-16",
    "title": "The harpsichord and the flower",
    "body": "<p><i lang=\"es\">Está mudo el teclado de su clave sonoro.</i> <i lang=\"es\">Mudo</i> is “mute,” and it agrees with <i lang=\"es\">teclado</i>. <i lang=\"es\">Clave</i> is the harpsichord, a masculine noun, and <i lang=\"es\">sonoro</i> agrees with <i lang=\"es\">clave</i>. <i lang=\"es\">Y en un vaso olvidada se desmaya una flor.</i> <i lang=\"es\">Vaso</i> is the vase. <i lang=\"es\">Olvidada</i> is feminine, so it agrees with <i lang=\"es\">flor</i>. <i lang=\"es\">Se desmaya</i> is “faints.” The flower, forgotten in the vase, faints.</p>"
+  },
+  {
+   "id": "poetry-17",
+   "title": "Garcilaso, Sonnet XXIII · Hendecasyllable",
+   "body": "<p lang=\"es\">En tanto que de rosa y azucena<br>Se muestra la color en vuestro gesto<br>Y que vuestro mirar ardiente honesto,<br>Con clara luz la tempestad serena :<br>Y en tanto que el cabello, que en la vena<br>Del oro se escogió, con vuelo presto<br>Por el hermoso cuello blanco enhiesto<br>El viento mueve, esparce y desordena :<br>Coged de vuestra alegre primavera<br>El dulce fruto, antes que el tiempo ayrado<br>Cubra de nieve la hermosa cumbre,<br>Marchitará la rosa el viento elado :<br>Todo lo mudará la edad ligera,<br>Por no hacer mudanza en su costumbre.</p><p>So long as, of rose and lily,<br>the color shows in your face,<br>and your burning, modest gaze,<br>with a clear light, calms the storm:<br>and so long as the hair, which in the vein<br>of gold was chosen, with a swift flight,<br>along the fair white upright neck,<br>the wind moves, scatters, and disorders:<br>gather from your glad spring<br>the sweet fruit, before the angry season<br>covers the fair summit with snow.<br>The frozen wind will wither the rose;<br>the swift age will change all of it,<br>for it makes no change in its custom.</p><p><strong>Context.</strong> Garcilaso de la Vega, a poet of Toledo, died in 1536. Sonnet XXIII is fourteen lines of eleven syllables, the hendecasyllable that he and Juan Boscán brought from Italy. The rhyme is consonant. In the first eight lines, <i lang=\"es\">azucena</i> rhymes with <i lang=\"es\">serena</i> and <i lang=\"es\">vena</i> and <i lang=\"es\">desordena</i>, and <i lang=\"es\">gesto</i> rhymes with <i lang=\"es\">honesto</i>, <i lang=\"es\">presto</i>, and <i lang=\"es\">enhiesto</i>. In the last six, <i lang=\"es\">primavera</i> rhymes with <i lang=\"es\">ligera</i>, <i lang=\"es\">ayrado</i> with <i lang=\"es\">elado</i>, and <i lang=\"es\">cumbre</i> with <i lang=\"es\">costumbre</i>.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-17",
+    "variants": [
+     {
+      "prompt": "What is <i lang=\"es\">coged</i>?",
+      "options": [
+       "A <i lang=\"es\">vosotros</i> command: gather",
+       "A preterite: you all gathered",
+       "A noun meaning the fruit",
+       "The present form “I gather”"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Coged</i> is the command to <i lang=\"es\">vosotros</i> of <i lang=\"es\">coger</i>. The line tells the person addressed to gather the fruit."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">gesto</i> mean in <i lang=\"es\">en vuestro gesto</i>?",
+      "options": [
+       "The face",
+       "A nod of the hand",
+       "The lily bed",
+       "The gold of the hair"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Gesto</i> here is the face. The color of rose and lily shows in it."
+     },
+     {
+      "prompt": "What is <i lang=\"es\">ayrado</i> in this print?",
+      "options": [
+       "An old spelling of “angry”",
+       "The name of a wind",
+       "A white lily",
+       "The fruit of spring"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Ayrado</i> is the older spelling of <i lang=\"es\">airado</i>, “angry.” It rhymes with <i lang=\"es\">elado</i>."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-18",
+   "title": "Eleven syllables, rose and lily",
+   "body": "<p>Each line of the sonnet is a hendecasyllable, a line of eleven syllables. The line ends on a word stressed on the next to last syllable, so nothing is added and nothing is taken away.</p><p><i lang=\"es\">En tanto que de rosa y azucena</i> is counted here. <i lang=\"es\">En</i>, <i lang=\"es\">tan</i>, <i lang=\"es\">to</i>, <i lang=\"es\">que</i>, <i lang=\"es\">de</i>, <i lang=\"es\">ro</i>, <i lang=\"es\">sa</i>, then the <i lang=\"es\">y</i> with the first vowel of <i lang=\"es\">azucena</i>, then <i lang=\"es\">zu</i>, <i lang=\"es\">ce</i>, <i lang=\"es\">na</i>. That is eleven. The stress of <i lang=\"es\">rosa</i> falls on <i lang=\"es\">ro</i>, the sixth syllable, and the stress of <i lang=\"es\">azucena</i> falls on <i lang=\"es\">ce</i>, the tenth. Felipe Robles Dégano says that the conjunction <i lang=\"es\">y</i>, standing between two vowels, joins the vowel after it, and does not join both the vowel before it and the vowel after it at once. If the <i lang=\"es\">y</i> joined <i lang=\"es\">rosa</i> instead, the line would still have eleven syllables. The place of the join rests on that one book.</p><p><i lang=\"es\">Se muestra la color en vuestro gesto</i> has no synalepha. <i lang=\"es\">Se</i>, <i lang=\"es\">mues</i>, <i lang=\"es\">tra</i>, <i lang=\"es\">la</i>, <i lang=\"es\">co</i>, <i lang=\"es\">lor</i>, <i lang=\"es\">en</i>, <i lang=\"es\">vues</i>, <i lang=\"es\">tro</i>, <i lang=\"es\">ges</i>, <i lang=\"es\">to</i>. The vowels <i lang=\"es\">ue</i> in <i lang=\"es\">muestra</i> and in <i lang=\"es\">vuestro</i> are a diphthong, one syllable. <i lang=\"es\">Color</i> is stressed on <i lang=\"es\">lor</i>, the sixth syllable. <i lang=\"es\">Gesto</i> is stressed on <i lang=\"es\">ges</i>, the tenth.</p>"
+  },
+  {
+   "id": "poetry-19",
+   "title": "So long as the color shows",
+   "body": "<p><i lang=\"es\">En tanto que</i> means “so long as.” The sentence runs on until <i lang=\"es\">coged</i>: so long as the color shows, and so long as the wind moves the hair, gather the fruit. <i lang=\"es\">Se muestra</i> is “shows,” from <i lang=\"es\">mostrar</i>. In this print <i lang=\"es\">color</i> is feminine: <i lang=\"es\">la color</i>. <i lang=\"es\">Gesto</i> is the face. <i lang=\"es\">Vuestro</i> agrees with it.</p><p><i lang=\"es\">Mirar</i> here is the gaze, a noun. <i lang=\"es\">Ardiente</i> is “burning,” and <i lang=\"es\">honesto</i> is “modest.” Both agree with <i lang=\"es\">mirar</i>. <i lang=\"es\">Serena</i> is the present of <i lang=\"es\">serenar</i>, “calms.” The gaze, with a clear light, calms the storm.</p>"
+  },
+  {
+   "id": "poetry-20",
+   "title": "The hair, and the wind",
+   "body": "<p><i lang=\"es\">Y en tanto que el cabello, que en la vena del oro se escogió.</i> <i lang=\"es\">Cabello</i> is the hair. <i lang=\"es\">Que</i> refers to it. <i lang=\"es\">Vena</i> is a vein of the mine, and <i lang=\"es\">del oro</i> is “of gold.” <i lang=\"es\">Se escogió</i> is the preterite of <i lang=\"es\">escoger</i>: the hair was chosen there. <i lang=\"es\">Con vuelo presto</i> is “with a swift flight.” <i lang=\"es\">Por el hermoso cuello blanco enhiesto</i>: <i lang=\"es\">cuello</i> is the neck, <i lang=\"es\">blanco</i> agrees with it, and <i lang=\"es\">enhiesto</i> is “upright.”</p><p><i lang=\"es\">El viento mueve, esparce y desordena.</i> The wind is the subject of the three verbs. <i lang=\"es\">Mueve</i> is “moves,” <i lang=\"es\">esparce</i> is “scatters,” and <i lang=\"es\">desordena</i> is “disorders.” The thing moved is the hair.</p>"
+  },
+  {
+   "id": "poetry-21",
+   "title": "Gather the fruit",
+   "body": "<p><i lang=\"es\">Coged de vuestra alegre primavera el dulce fruto.</i> <i lang=\"es\">Coged</i> is the command to <i lang=\"es\">vosotros</i>. <i lang=\"es\">Primavera</i> is the spring, and <i lang=\"es\">fruto</i> is the fruit of it. <i lang=\"es\">Antes que el tiempo ayrado cubra de nieve la hermosa cumbre.</i> <i lang=\"es\">Antes que</i> is “before.” <i lang=\"es\">Ayrado</i> agrees with <i lang=\"es\">tiempo</i>. <i lang=\"es\">Cubra</i> is the present subjunctive of <i lang=\"es\">cubrir</i>, after <i lang=\"es\">antes que</i>. <i lang=\"es\">Cumbre</i> is the summit.</p><p><i lang=\"es\">Marchitará la rosa el viento elado.</i> <i lang=\"es\">Marchitará</i> is the future of <i lang=\"es\">marchitar</i>, “will wither.” The subject is <i lang=\"es\">el viento elado</i>, the frozen wind, and <i lang=\"es\">elado</i> agrees with <i lang=\"es\">viento</i>. <i lang=\"es\">Todo lo mudará la edad ligera.</i> <i lang=\"es\">Mudará</i> is the future of <i lang=\"es\">mudar</i>, “will change,” and the subject is <i lang=\"es\">la edad ligera</i>, the swift age. <i lang=\"es\">Por no hacer mudanza en su costumbre</i>: <i lang=\"es\">mudanza</i> is “change,” and <i lang=\"es\">costumbre</i> is “custom.” The age changes everything else, and its own custom is not to change.</p>"
   }
  ]
 };

@@ -453,3 +453,4 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | Anonymous, *Romance del prisionero* | Wolf and Hofmann, *Primavera y flor de romances*, vol. 2 (1856), no. 114 | lang.ix.es/poetry | the course’s own |
 | Jorge Manrique, *Coplas* | stanza 1, Antonio López, Barcelona, Colección Diamante, vol. 114 | lang.ix.es/poetry | the course’s own |
 | Rubén Darío, “Sonatina” | first stanza, *Prosas profanas* (Buenos Aires, 1896) | lang.ix.es/poetry | the course’s own |
+| Garcilaso de la Vega, Soneto XXIII | whole sonnet, *Obras*, Madrid, Sancha, 1817 | lang.ix.es/poetry | the course’s own |
