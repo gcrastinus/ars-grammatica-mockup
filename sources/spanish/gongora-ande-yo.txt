@@ -1,0 +1,8 @@
+SOURCE FILE: Luis de Góngora, opening of the letrilla “Ande yo caliente,” quoted in lang.ix.es/poetry
+WORK: Poesías de D. Luis de Góngora y Argote. Madrid, 1820. Internet Archive poesiasdedluisd00estagoog records the publisher as the Imprenta Nacional and names Pedro Estala with the book. Estala died in 1815. The lines below were read from the page, not from the catalog.
+TEXT READ: PDF pages 75–76 of that copy, printed pages 49–50. The three lines quoted were read from crops of the page image on 26 Oct 2026, and they agree with a second crop of the same opening. The print heads the poem “OTRA.” It prints “Ande,” with no accent on the A. Later lines of the same stanza (the words for “days” and “tender”) were not clear enough on the scan to quote, and they are not quoted.
+
+### Opening (printed page 49)
+Ande yo caliente,
+Y ríase la gente.
+Traten otros del gobierno,

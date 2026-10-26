@@ -455,3 +455,4 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | Rubén Darío, “Sonatina” | first stanza, *Prosas profanas* (Buenos Aires, 1896) | lang.ix.es/poetry | the course’s own |
 | Garcilaso de la Vega, Soneto XXIII | whole sonnet, *Obras*, Madrid, Sancha, 1817 | lang.ix.es/poetry | the course’s own |
 | Gustavo Adolfo Bécquer, Rima LIII | first stanza, *Rimas* (San Francisco, 1891) | lang.ix.es/poetry | the course’s own |
+| Luis de Góngora, “Ande yo caliente” | refrain and the following line, *Poesías* (Madrid, 1820) | lang.ix.es/poetry | the course’s own |

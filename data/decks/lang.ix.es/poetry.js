@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Luis de Góngora, <i lang=\"es\">Poesías</i> (Madrid, 1820), for the opening of the letrilla that begins <i lang=\"es\">Ande yo caliente</i>. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -72,7 +72,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   {
    "id": "poetry-6",
    "title": "The spelling of these older prints",
-   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p><p>The 1891 print of Bécquer’s <i lang=\"es\">Rimas</i> still writes the accent on the preposition <i lang=\"es\">á</i>, in <i lang=\"es\">á colgar</i> and in <i lang=\"es\">á sus cristales</i>.</p>"
+   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p><p>The 1891 print of Bécquer’s <i lang=\"es\">Rimas</i> still writes the accent on the preposition <i lang=\"es\">á</i>, in <i lang=\"es\">á colgar</i> and in <i lang=\"es\">á sus cristales</i>.</p><p>The Madrid print of Góngora, of 1820, writes <i lang=\"es\">Ande</i> with no accent, and <i lang=\"es\">ríase</i> with the accent on the <i lang=\"es\">i</i>.</p>"
   },
   {
    "id": "poetry-7",
@@ -325,6 +325,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-26",
    "title": "The accent on the preposition",
    "body": "<p>The print writes <i lang=\"es\">á</i> twice in this stanza, before <i lang=\"es\">colgar</i> and before <i lang=\"es\">sus</i>. That accent marks the preposition, so that the eye can tell it from other words of the same letters. It does not put a stress on the preposition. In the count of <i lang=\"es\">nidos á colgar</i>, the <i lang=\"es\">s</i> of <i lang=\"es\">nidos</i> already keeps the words apart, and the accent changes nothing in the syllables.</p>"
+  },
+  {
+   "id": "poetry-27",
+   "title": "Góngora, Ande yo caliente · Letrilla",
+   "body": "<p lang=\"es\">Ande yo caliente,<br>Y ríase la gente.<br>Traten otros del gobierno,</p><p>Let me go warm,<br>and let the people laugh.<br>Let others treat of government,</p><p><strong>Context.</strong> Luis de Góngora, a poet of Córdoba, died in 1627. The 1820 print gives this poem no title of its own. It marks it “OTRA,” after another letrilla. The two short lines are the refrain, and the second of them returns through the poem. <i lang=\"es\">Ande yo caliente</i> has six syllables. <i lang=\"es\">Traten otros del gobierno</i> has eight.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-27",
+    "variants": [
+     {
+      "prompt": "What is <i lang=\"es\">ande</i> in <i lang=\"es\">ande yo</i>?",
+      "options": [
+       "A wish: let me go",
+       "A past: I went along",
+       "A noun for the road",
+       "The infinitive of <i lang=\"es\">andar</i>"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Ande</i> is the present subjunctive of <i lang=\"es\">andar</i>. The clause is a wish."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">ríase</i> ask for?",
+      "options": [
+       "That the people laugh",
+       "That the fire be lit",
+       "A past: they laughed",
+       "A name for the court"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Ría</i> is the present subjunctive of <i lang=\"es\">reír</i>, with <i lang=\"es\">se</i>. The wish is that the people laugh."
+     },
+     {
+      "prompt": "Whom does <i lang=\"es\">caliente</i> describe?",
+      "options": [
+       "The speaker",
+       "The cold month",
+       "The people’s joke",
+       "A plate of butter"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Caliente</i> agrees with <i lang=\"es\">yo</i>. The speaker asks to go about warm."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-28",
+   "title": "Six syllables, and a line of eight",
+   "body": "<p><i lang=\"es\">Ande yo caliente</i> is <i lang=\"es\">An</i>, <i lang=\"es\">de</i>, <i lang=\"es\">yo</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">lien</i>, <i lang=\"es\">te</i>. The vowels <i lang=\"es\">ie</i> in <i lang=\"es\">caliente</i> are a diphthong, one syllable. The stress is on <i lang=\"es\">lien</i>, the next to last, so the line counts six.</p><p><i lang=\"es\">Y ríase la gente</i> divides <i lang=\"es\">ríase</i> as <i lang=\"es\">rí</i>, <i lang=\"es\">a</i>, <i lang=\"es\">se</i>, because the accented <i lang=\"es\">í</i> keeps the vowels apart inside the word. If <i lang=\"es\">Y</i> is a syllable of its own, the line has seven. It has six, and matches the line before it, only if <i lang=\"es\">Y</i> joins <i lang=\"es\">rí</i>. Felipe Robles Dégano says that an unstressed vowel may join a stressed vowel, and that the rhythm may also keep them apart. The count of six for this line rests on the matching refrain and on that account.</p><p><i lang=\"es\">Traten otros del gobierno</i> has no synalepha. <i lang=\"es\">Tra</i>, <i lang=\"es\">ten</i>, <i lang=\"es\">o</i>, <i lang=\"es\">tros</i>, <i lang=\"es\">del</i>, <i lang=\"es\">go</i>, <i lang=\"es\">bier</i>, <i lang=\"es\">no</i>. The vowels <i lang=\"es\">ie</i> in <i lang=\"es\">gobierno</i> are a diphthong. The stress is on <i lang=\"es\">bier</i>, the next to last, so the line counts eight. <i lang=\"es\">Gobierno</i> rhymes with nothing in these three lines. The rhyme of the refrain is <i lang=\"es\">caliente</i> with <i lang=\"es\">gente</i>, a consonant rhyme.</p>"
+  },
+  {
+   "id": "poetry-29",
+   "title": "Let me go warm",
+   "body": "<p><i lang=\"es\">Ande yo caliente.</i> <i lang=\"es\">Ande</i> is the present subjunctive of <i lang=\"es\">andar</i>, and <i lang=\"es\">yo</i> is its subject. The clause is a wish. <i lang=\"es\">Caliente</i> agrees with <i lang=\"es\">yo</i>: warm. The print writes no accent on <i lang=\"es\">Ande</i>.</p>"
+  },
+  {
+   "id": "poetry-30",
+   "title": "Let the people laugh",
+   "body": "<p><i lang=\"es\">Y ríase la gente.</i> <i lang=\"es\">Ría</i> is the present subjunctive of <i lang=\"es\">reír</i>, “to laugh,” and <i lang=\"es\">se</i> is joined to it. The subject is <i lang=\"es\">la gente</i>. The wish is that people may laugh. The accent on the <i lang=\"es\">í</i> marks the stressed vowel, and it keeps <i lang=\"es\">rí</i> and <i lang=\"es\">a</i> in two syllables.</p>"
+  },
+  {
+   "id": "poetry-31",
+   "title": "Let others treat of government",
+   "body": "<p><i lang=\"es\">Traten otros del gobierno.</i> <i lang=\"es\">Traten</i> is the present subjunctive of <i lang=\"es\">tratar</i>, and the subject is <i lang=\"es\">otros</i>, “other people.” <i lang=\"es\">Del gobierno</i> is “of the government.” The wish leaves government to them. The speaker’s own wish is the refrain: to go warm, and to let the people laugh.</p>"
   }
  ]
 };
