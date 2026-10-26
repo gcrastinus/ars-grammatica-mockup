@@ -36,6 +36,20 @@ ARS.languages["lang.iii-indecl.es"] = {
    "title": "Adverbs, Negation, Conjunctions, and Interjections in Spanish",
    "desc": "22 questions.",
    "exFor": "lang.iii-indecl.es/invariable"
+  },
+  {
+   "id": "lang.iii-indecl.es/compared",
+   "kind": "study",
+   "built": true,
+   "title": "Spanish Compared with Latin",
+   "desc": "The prepositions in place of the cases, the partitive that Spanish lacks, ser and estar beside esse, and the second person."
+  },
+  {
+   "id": "lang.iii-indecl.es/compared-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Spanish Compared with Latin",
+   "desc": "24 questions."
   }
  ]
 };
