@@ -734,15 +734,15 @@ ARS.exercises["lang.v.es/more-ex"] = {
    "deck": "lang.v.es/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Until which year did the Academy's grammar itself recommend the leísmo of masculine persons?",
-   "explain": "The Manual says that it was the form recommended until the fourth edition of the grammar, of 1796.",
+   "prompt": "Which kind of leísmo is <i lang=\"es\">A la doctora le contrataron el año pasado</i> (“The doctor was hired last year”)?",
+   "explain": "<i lang=\"es\">Le</i> is the direct object, and it stands for <i lang=\"es\">la doctora</i>, a feminine noun that names a person.",
    "options": [
-    "1931",
-    "1973",
-    "1796",
-    "2010"
+    "The leísmo of masculine persons",
+    "The leísmo of feminine persons",
+    "The leísmo of things",
+    "The leísmo of courtesy"
    ],
-   "answer": 2
+   "answer": 1
   },
   {
    "id": "lang.v.es/more-ex:esmorem47",

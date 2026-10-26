@@ -120,3 +120,18 @@ The plan's five topics (the personal *a*, verbs with a preposition, the indirect
 | Impersonal sentences and impersonal se | In the passive the noun is the subject and agrees; in the impersonal the verb is singular and a definite person as object keeps *a*; the two tend to divide the field in European Spanish and some American varieties; the mixed forms are incorrect (*Se premiaron a los mejores alumnos* for *Se premió a los mejores alumnos*); the division is not perfect (*Se firmará* or *se firmarán los acuerdos*) | MANUAL §41.6.3a, b, d, e | Verified. The mixed form and its correction are the Manual's own; *Se firmará*/*se firmarán los acuerdos* is the Manual's pair. *Se publicaron los resultados* and *Se felicitó a los ganadores* are the course's examples |
 | Impersonal sentences and impersonal se | Latin impersonal passive: *pugnātur*, *ventum est*, from the original reflexive meaning, the action regarded as accomplishing itself | A&G §208 d and Note | Verified. Macron added in *pugnātur* (B14). "A pronoun and a verb in the active," the comparison with Spanish *se*, is the course's own remark (inference) |
 | Exercise (impersonal) | *chispear* as a weather verb; *Hubo un accidente*; *parcitur mihi* | MANUAL §41.4.2a (*Empieza a chispear*), §41.4.3a; A&G §208 d | Verified. The sentences are the course's |
+
+## Addendum, 26 Oct 2026 (after Timothy's answers on B6): `government` in four panels
+
+The deck now has four panels: the personal *a*; the prepositions that verbs govern; the indirect object, *gustar* and verbs of feeling; *leísmo*. The unchanged statements keep their verdicts above. New or changed statements:
+
+| Card | Statement | Source | Verdict |
+|---|---|---|---|
+| Prepositions that verbs govern | The choice of preposition is usually motivated by meaning and history but is not predictable; *sacar de* (place of origin) and *dirigirse a* (direction) fit the meaning; *colaborar con* repeats the prefix | MANUAL §36.1.1b, §36.1.1c | Verified |
+| Prepositions that verbs govern | Several prepositions are possible after verbs of direction: *viajar {a, hacia, hasta} algún sitio* | MANUAL §36.1.1d | Verified. The Manual's own example |
+| Prepositions that verbs govern | Some speakers use *enfrentarse contra los enemigos*; the educated language prefers *enfrentarse a los enemigos* | MANUAL §36.1.1c | Verified |
+| Prepositions that verbs govern | The qp *la colaboración con la universidad*: nouns from verbs keep the government | MANUAL §36.1.1a, §36.1.1c | Verified. The phrase is the course's |
+| Leísmo | The three Spanish phrases of the Academy are quoted as before and now carry plain English glosses written by the course (Timothy's decision of 26 Oct 2026); the glosses are not a published translation | MANUAL §16.5.1b, c | Verified for the Spanish; glosses are the course's own (list in B14) |
+| Leísmo | The dates (the fourth edition of the grammar, 1796) and the remarks on medieval and classical texts and on esteemed writers were cut from the card, together with the exercise item on the year. The date 1931 remains in the first panel (the names of places, Granada) | MANUAL §34.3.1, §16.5.1 | The 1796 date is no longer printed |
+| Leísmo | Verbs such as *ayudar*, *molestar*, *obligar* are constructed by some with the dative and by others with the accusative | MANUAL §16.5.1 | Verified |
+| Exercise | *A la doctora le contrataron el año pasado* is a leísmo of feminine persons | MANUAL §16.5.1 | Course's example, rule verified |
