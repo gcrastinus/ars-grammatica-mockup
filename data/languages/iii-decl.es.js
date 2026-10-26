@@ -101,6 +101,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "desc": "24 questions."
   },
   {
+   "id": "lang.iii-decl.es/irregular",
+   "kind": "study",
+   "built": true,
+   "title": "Irregular Verbs",
+   "desc": "Changes of the stem vowel, the strong preterites, irregular futures, verbs in -go, and changes of spelling."
+  },
+  {
+   "id": "lang.iii-decl.es/irregular-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Irregular Verbs",
+   "desc": "24 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
