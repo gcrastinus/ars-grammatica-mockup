@@ -95,7 +95,7 @@ ARS.decks["lang.v.es/order"] = {
   {
    "id": "order-3",
    "title": "The adjective before and after the noun",
-   "body": "<p>In English the adjective stands before the noun, “a red apple,” and cannot follow it, but in Spanish its place varies. The place after the noun is the ordinary one, and the adjectives that restrict the noun, such as those of color, material, or nationality, stand there: <i lang=\"es\">una manzana roja</i>. An adjective stands before the noun when it does not restrict it, as when it only describes or evaluates, as in <i lang=\"es\">la deliciosa fruta</i>, and so do the adjectives that act as determiners or quantifiers (Manual 13.6). Adjectives of physical description resist the place before the noun, and those that admit a figurative sense move easily, with a change of meaning: <i lang=\"es\">un país pobre</i> is a country of scarce resources and <i lang=\"es\">un pobre país</i> one that is unfortunate; <i lang=\"es\">un amigo viejo</i> is an elderly friend and <i lang=\"es\">un viejo amigo</i> one of long standing; <i lang=\"es\">una esperanza cierta</i> is a sure hope and <i lang=\"es\">cierta esperanza</i> some hope (Manual 13.6.2).</p><p>Coordinated adjectives can stand before the noun, <i lang=\"es\">un cómodo y lujoso coche</i>, but an adjective with a complement cannot (Manual 13.6.1). The adjective depends on its noun wherever it stands, as the article does, and the verb depends on its subject and on its object. In <i lang=\"es\">Los vecinos compraron una casa vieja</i>, <i lang=\"es\">Los</i> depends on <i lang=\"es\">vecinos</i>, <i lang=\"es\">vieja</i> and <i lang=\"es\">una</i> on <i lang=\"es\">casa</i>, and <i lang=\"es\">compraron</i> on <i lang=\"es\">vecinos</i> and on <i lang=\"es\">casa</i>.</p><p>In Latin the determining and most significant word of a phrase comes first, so that the adjective may precede or follow the noun, according to which of the two is emphatic; the numerals, the adjectives of quantity, and the demonstratives tend to precede (Allen and Greenough §598).</p>",
+   "body": "<p>In English the adjective stands before the noun, “a red apple,” and cannot follow it, but in Spanish its place varies. The place after the noun is the ordinary one, and the adjectives that restrict the noun, such as those of color, material, or nationality, stand there: <i lang=\"es\">una manzana roja</i>. An adjective stands before the noun when it does not restrict it, as when it only describes or evaluates, as in <i lang=\"es\">la deliciosa fruta</i>, and so do the adjectives that act as determiners or quantifiers (Manual 13.6). Adjectives of physical description resist the place before the noun, and those that admit a figurative sense move easily, with a change of meaning: <i lang=\"es\">un país pobre</i> is a country of scarce resources and <i lang=\"es\">un pobre país</i> one that is unfortunate; <i lang=\"es\">un amigo viejo</i> is an elderly friend and <i lang=\"es\">un viejo amigo</i> one of long standing; <i lang=\"es\">una esperanza cierta</i> is a sure hope and <i lang=\"es\">cierta esperanza</i> some hope (Manual 13.6.2).</p><p>Coordinated adjectives can stand before the noun, <i lang=\"es\">un cómodo y lujoso coche</i>, but an adjective with a complement cannot (Manual 13.6.1).</p><p>In Latin the determining and most significant word of a phrase comes first, so that the adjective may precede or follow the noun, according to which of the two is emphatic; the numerals, the adjectives of quantity, and the demonstratives tend to precede (Allen and Greenough §598).</p>",
    "qp": {
     "id": "q-es-ord-adj",
     "variants": [
@@ -111,15 +111,15 @@ ARS.decks["lang.v.es/order"] = {
       "explain": "Placed before the noun, <i lang=\"es\">viejo</i> is evaluative and means \"of long standing\"; placed after it, <i lang=\"es\">viejo</i> describes age."
      },
      {
-      "prompt": "On which word does <i lang=\"es\">roja</i> depend in <i lang=\"es\">una manzana roja</i>?",
+      "prompt": "Which of these adjectives usually stands before the noun?",
       "options": [
-       "<i lang=\"es\">una</i>",
-       "<i lang=\"es\">roja</i> depends on nothing",
-       "The verb of the sentence",
-       "<i lang=\"es\">manzana</i>"
+       "An adjective of nationality, such as <i lang=\"es\">francés</i>",
+       "An adjective of material, such as <i lang=\"es\">de madera</i>",
+       "An adjective that only describes or evaluates, such as <i lang=\"es\">hermoso</i>",
+       "An adjective of shape, such as <i lang=\"es\">cuadrado</i>"
       ],
-      "answer": 3,
-      "explain": "The adjective depends on its noun wherever it stands."
+      "answer": 2,
+      "explain": "An adjective that does not restrict the noun, but only describes or evaluates it, stands before it, whereas the restrictive adjectives stand after it."
      },
      {
       "prompt": "Which adjective stands after the noun by preference?",
@@ -131,6 +131,49 @@ ARS.decks["lang.v.es/order"] = {
       ],
       "answer": 1,
       "explain": "Restrictive adjectives, such as those of color, stand after the noun."
+     }
+    ]
+   }
+  },
+  {
+   "id": "order-4",
+   "title": "Dependence in a Spanish sentence",
+   "body": "<p>A construction is words joined to one another so that one depends on another. The course marks a dependence with an arrow that runs from the word that depends to the word on which it depends. In <i lang=\"es\">Los vecinos compraron una casa vieja</i> (“The neighbors bought an old house”), the article <i lang=\"es\">Los</i> depends on <i lang=\"es\">vecinos</i>, and <i lang=\"es\">una</i> and <i lang=\"es\">vieja</i> depend on <i lang=\"es\">casa</i>. The verb depends on its subject and on its object, so that <i lang=\"es\">compraron</i> depends on <i lang=\"es\">vecinos</i> and on <i lang=\"es\">casa</i>. The adjective depends on its noun wherever it stands, before the noun or after it, as the article does.</p><p>The same convention covers the other words of a sentence. An adverb and the negative <i lang=\"es\">no</i> depend on the verb. A preposition depends on the verb, and the noun after the preposition depends on the preposition. A relative pronoun depends on its antecedent, and the verb of the relative clause depends on the relative pronoun. The order of the words does not change the dependence: in <i lang=\"es\">Llegó mi tía</i> (“My aunt arrived”) the verb still depends on its subject, though the subject follows it.</p><p>Spanish shows many dependences by the form of the words, since the adjective agrees with its noun and the verb with its subject, and so it can vary the order of the words more than English can.</p>",
+   "qp": {
+    "id": "q-es-ord-dep",
+    "variants": [
+     {
+      "prompt": "On which word does <i lang=\"es\">roja</i> depend in <i lang=\"es\">una manzana roja</i>?",
+      "options": [
+       "<i lang=\"es\">una</i>",
+       "<i lang=\"es\">roja</i> depends on nothing",
+       "The verb of the sentence",
+       "<i lang=\"es\">manzana</i>"
+      ],
+      "answer": 3,
+      "explain": "The adjective depends on its noun wherever it stands."
+     },
+     {
+      "prompt": "On which word does the noun after a preposition depend?",
+      "options": [
+       "The preposition",
+       "The subject",
+       "The article of the noun",
+       "The adjective"
+      ],
+      "answer": 0,
+      "explain": "The noun that follows a preposition depends on the preposition, and the preposition depends on the verb."
+     },
+     {
+      "prompt": "In <i lang=\"es\">Llegó mi tía</i>, on which word does <i lang=\"es\">Llegó</i> depend?",
+      "options": [
+       "<i lang=\"es\">mi</i>",
+       "On no word",
+       "<i lang=\"es\">tía</i>",
+       "<i lang=\"es\">tía</i> and <i lang=\"es\">mi</i> both"
+      ],
+      "answer": 2,
+      "explain": "The verb depends on its subject, though the subject follows it."
      }
     ]
    }
