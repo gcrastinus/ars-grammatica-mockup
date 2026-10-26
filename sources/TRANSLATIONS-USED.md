@@ -458,3 +458,4 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | Luis de Góngora, “Ande yo caliente” | refrain and the following line, *Poesías* (Madrid, 1820) | lang.ix.es/poetry | the course’s own |
 | San Juan de la Cruz, “Noche oscura” | stanzas 1 and 2, *Obras*, tomo 3 (Toledo, 1914) | lang.ix.es/poetry | the course’s own |
 | Federico García Lorca, “Romance de la luna, luna” | opening, through *Huye luna, luna, luna*, *Primer romancero gitano* (Madrid, 1928) | lang.ix.es/poetry | the course’s own |
+| José de Espronceda, *Canción del pirata* | opening sixteen lines and the refrain, *Poesías* (Madrid, Yenes, 1840) | lang.ix.es/poetry | the course’s own |
