@@ -114,7 +114,7 @@ ARS.decks["lang.v.es/order"] = {
       "prompt": "Which of these adjectives usually stands before the noun?",
       "options": [
        "An adjective of nationality, such as <i lang=\"es\">francés</i>",
-       "An adjective of material, such as <i lang=\"es\">de madera</i>",
+       "An adjective of material, such as <i lang=\"es\">metálico</i>",
        "An adjective that only describes or evaluates, such as <i lang=\"es\">hermoso</i>",
        "An adjective of shape, such as <i lang=\"es\">cuadrado</i>"
       ],
@@ -138,7 +138,7 @@ ARS.decks["lang.v.es/order"] = {
   {
    "id": "order-4",
    "title": "Dependence in a Spanish sentence",
-   "body": "<p>A construction is words joined to one another so that one depends on another. The course marks a dependence with an arrow that runs from the word that depends to the word on which it depends. In <i lang=\"es\">Los vecinos compraron una casa vieja</i> (“The neighbors bought an old house”), the article <i lang=\"es\">Los</i> depends on <i lang=\"es\">vecinos</i>, and <i lang=\"es\">una</i> and <i lang=\"es\">vieja</i> depend on <i lang=\"es\">casa</i>. The verb depends on its subject and on its object, so that <i lang=\"es\">compraron</i> depends on <i lang=\"es\">vecinos</i> and on <i lang=\"es\">casa</i>. The adjective depends on its noun wherever it stands, before the noun or after it, as the article does.</p><p>The same convention covers the other words of a sentence. An adverb and the negative <i lang=\"es\">no</i> depend on the verb. A preposition depends on the verb, and the noun after the preposition depends on the preposition. A relative pronoun depends on its antecedent, and the verb of the relative clause depends on the relative pronoun. The order of the words does not change the dependence: in <i lang=\"es\">Llegó mi tía</i> (“My aunt arrived”) the verb still depends on its subject, though the subject follows it.</p><p>Spanish shows many dependences by the form of the words, since the adjective agrees with its noun and the verb with its subject, and so it can vary the order of the words more than English can.</p>",
+   "body": "<p>In “The neighbors bought an old house,” the verb “bought” depends on “neighbors,” its subject, and on “house,” its object, and the adjective “old” depends on “house.” A construction is words joined so that one depends on another. In <i lang=\"es\">Los vecinos compraron una casa vieja</i>, the article <i lang=\"es\">Los</i> depends on <i lang=\"es\">vecinos</i>, and <i lang=\"es\">una</i> and <i lang=\"es\">vieja</i> depend on <i lang=\"es\">casa</i>. The verb depends on its subject and on its object, so that <i lang=\"es\">compraron</i> depends on <i lang=\"es\">vecinos</i> and on <i lang=\"es\">casa</i>. The adjective depends on its noun wherever it stands, before the noun or after it, as the article does.</p><p>The same dependences hold for the other words of a sentence. An adverb and the negative <i lang=\"es\">no</i> depend on the verb. A preposition depends on the verb, and the noun after the preposition depends on the preposition. A relative pronoun depends on its antecedent, and the verb of the relative clause depends on the relative pronoun. The order of the words does not change the dependence: in <i lang=\"es\">Volvió el médico</i> (“The doctor returned”) the verb still depends on its subject, though the subject follows it.</p><p>Spanish shows many dependences by the form of the words, since the adjective agrees with its noun and the verb with its subject, and so it can vary the order of the words more than English can.</p>",
    "qp": {
     "id": "q-es-ord-dep",
     "variants": [
@@ -165,12 +165,12 @@ ARS.decks["lang.v.es/order"] = {
       "explain": "The noun that follows a preposition depends on the preposition, and the preposition depends on the verb."
      },
      {
-      "prompt": "In <i lang=\"es\">Llegó mi tía</i>, on which word does <i lang=\"es\">Llegó</i> depend?",
+      "prompt": "In <i lang=\"es\">Volvió el médico</i>, on which word does <i lang=\"es\">Volvió</i> depend?",
       "options": [
-       "<i lang=\"es\">mi</i>",
+       "<i lang=\"es\">el</i>",
        "On no word",
-       "<i lang=\"es\">tía</i>",
-       "<i lang=\"es\">tía</i> and <i lang=\"es\">mi</i> both"
+       "<i lang=\"es\">médico</i>",
+       "<i lang=\"es\">médico</i> and <i lang=\"es\">el</i> both"
       ],
       "answer": 2,
       "explain": "The verb depends on its subject, though the subject follows it."
