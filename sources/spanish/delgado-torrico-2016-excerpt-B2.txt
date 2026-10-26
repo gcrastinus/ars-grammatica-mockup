@@ -1,0 +1,154 @@
+SOURCE FILE: excerpt of a secondary source on the Academy's classes of words, used by the Spanish batch B2 (lang.iii-decl.es/parts)
+WORK: Antonio Delgado Torrico, "¿Determinante o pronombre? Las clases transversales en la Nueva gramática de la lengua española de la RAE," marcoELE. Revista de Didáctica Español Lengua Extranjera, monografías marcoELE 22 (2016), pp. 32 to 43. Open access.
+URL: https://www.redalyc.org/journal/921/92153510005/92153510005.pdf (fetched 26 Oct 2026; text extracted from the PDF)
+USE: secondary. The article quotes the Academy's 2011 *Nueva gramática básica de la lengua española*, pp. 6 and 7, for the list of the nine classes (sustantivo, adjetivo, determinante, pronombre, verbo, adverbio, preposición, conjunción, interjección), and reports that the Academy's grammar of 1771 and its 1973 *Esbozo* kept the noun and the adjective together as the noun. The *Nueva gramática básica* itself was not read. The part of the article reproduced here is its first section.
+
+1. LAS CATEGORÍAS GRAMATICALES A TRAVÉS DE LOS TIEMPOS 
+ 
+A lo largo de la historia gramatical del mundo, se han denominado de diversas maneras 
+los tipos de palabras: desde las “partes de la oración” más tradicionales hasta “clases de 
+palabras”, “categorías gramaticales” o “clases sintácticas”. La Gramática las define como 
+los paradigmas que las palabras forman “en función de sus propiedades combinatorias 
+fundamentales y de las informaciones morfológicas que aceptan” (RAE, 2009, p. 43). Se 
+E 
+ 
+monografías marcoELE. ISSN 1885-2211 / núm. 22, 2016 
+CUESTIONES DE GRAMÁTICA PARA ESPECIALISTAS NO NATIVOS DE ESPAÑOL 
+ 
+ 
+ 33 
+atiende, pues, a propiedades sintácticas (combinatorias) y morfológicas. En la definición 
+que da en la versión más divulgativa de esta gramática, la Nueva gramática básica de la 
+lengua española, añade el factor semántico como otro elemento que hay que tener en 
+cuenta: “son los paradigmas o los conjuntos en los que se agrupan las palabras de 
+acuerdo con sus propiedades morfológicas, sintácticas y semánticas” (RAE, 2011, p. 6). 
+Ahora bien, ¿cuáles son los tipos de palabras, los “pa radigmas” que nos podemos 
+encontrar? Delimitar las clases de palabras ha sido una preocupación constante en 
+nuestra historia gramatical. Ya Antonio de Nebrija, en 1492, se hacía esta misma 
+pregunta y, ante la ausencia de precedentes, echó mano de las gramá ticas latinas y 
+griegas, lo que determinaría nuestra manera de acercarnos a la morfología hasta casi 
+nuestros días. 
+ 
+Los griegos común mente distinguen ocho partes de la oración: nombre, pronombre, artículo, verbo, 
+participio, preposición, adverbio, conjunción. Los latinos no tienen artículo, mas distinguen la 
+interjección del adverbio, τ assí, hazen otras ocho partes de la oración: nombre, pronombre, verbo, 
+participio, preposición, adverbio, conjunción, interjección. Nos otros, con los griegos, no 
+distinguiremos la interjección del adverbio, τ añadiremos con el artículo el gerundio, el cual no tienen 
+los griegos, τ el nombre participial infinito, el cual no tienen los griegos ni latinos. Assí que serán por 
+todas, diez partes de la oración en el castellano: nombre, pronombre, artículo, verbo, participio, 
+gerundio, nombre participial infinito, preposición, adverbio, conjunción. (Nebrija, 1492, pp. 234-235) 
+ 
+Esta clasificación se mantuvo casi idéntica (excepto en lo referente a las formas verbales 
+no personales) hasta la gramática de Alarcos en 1994. Tanto la primera gramática de la 
+RAE (1771) como el Esbozo, ya de 1973, seguían agrupando a los sustantivos y adjetivos 
+dentro de la categoría de “nombre”, y a los determinantes y pronombres dentro de la de 
+“pronombre”. Así, la primera Gramática de la lengua castellana (1771) distinguía nueve 
+partes de la oración: nombre, pronombre, artículo, verbo, participio, adverbio, 
+preposición, conjunción e interjección. 
+ 
+Por su parte, el Esbozo de una nueva gramática de la lengua española (1973) en su parte 
+de morfología dedica varios epígrafes al nombre (que puede ser nombre sustantivo o 
+nombre adjetivo), al pronombre (que también puede ser pronombre sustantivo o 
+pronombre adjetivo, con el que agrupa también al artículo), al verbo y a las preposiciones. 
+Menciona, además, las conjunciones, los adverbios y las interjecciones, pero no les dedica 
+un epígrafe propio, tal vez por el hecho de ser solo un esbozo de una gramática más 
+completa que había de venir. 
+ 
+Alarcos, en su gramática de 1994 (que iba a ser académica, pero que quedó finalmente 
+en personal) habla de cuatro unidades del enunciado independientes (sustantivo, 
+adjetivo, verbo y adverbio), a las que luego añade la interjección que constituye por sí sola 
+un enunciado. Los pronombres son, en realidad, un tipo especial de sustantivos, y el 
+artículo es un mero accidente del sustantivo como el género y el número. Por primera vez 
+en una gramática auspiciada por la RAE se separan definitivamente el sustantivo y el 
+adjetivo (después de solo… 502 años, si nos remontamos a Nebrija), así como el 
+determinante y el pronombre. De estos dos matrimonios rotos surge otro, el del adjetivo, 
+que incluye ahora los adjetivos calificativos y los adjetivos determinativos. Esta 
+ 
+monografías marcoELE. ISSN 1885-2211 / núm. 22, 2016 
+CUESTIONES DE GRAMÁTICA PARA ESPECIALISTAS NO NATIVOS DE ESPAÑOL 
+ 
+ 
+ 34 
+nomenclatura aún persiste en muchos libros de texto, aunque está condenada a 
+desaparecer tras la Nueva gramática de la RAE. 
+ 
+En la gramática que nos ocupa, la Nueva gramática de 2009, se afirma lo siguiente: 
+ 
+En la actualidad son muchos los autores que reconocen entre las clases sintácticas de 
+palabras el artículo (el, un), el sustantivo (aire, prudencia), el adjetivo (limpio, literario), el 
+pronombre (tú, quien), el verbo (ser, hablar), el adverbio (lejos, abiertamente), la preposición 
+(de, durante), la conjunción (y, aunque) y la interjección (eh, vaya). (RAE, 2009, p. 43) 
+ 
+Un poco más adelante incluye a los artículos en una clase más general: 
+ 
+Suele aceptarse hoy que los artículos, los demostrativos y los posesivos constituyen la clase 
+gramatical de los determinantes o determinativos. Si se interpreta este término en un 
+sentido amplio, de forma que dé cabida a otras unidades que legitiman a los sustantivos 
+como argumentos de un predicado, la clase de determinantes se amplía para dar cabida a 
+los cuantificadores prenominales (alguna, tres, muchos, etc.). (RAE, 2009, p. 49) 
+ 
+Por lo tanto, nos quedamos con esta clasificación, que es la que explicita en su Gramática 
+básica y, en definitiva, la que busca asentarse en el conocimiento general que los 
+hispanohablantes tienen de la gramática de su lengua: 
+ 
+En la actualidad se reconocen las siguientes [clases de palabr as]: el sustantivo (piedra, 
+bondad), el adjetivo (fértil, digital), el determinante (el, un, mi, algún), el pronombre (tú, 
+alguien), el verbo (vivir, estar), el adverbio (antes, bien), la preposición (con, desde), la 
+conjunción (pero, pues) y la interjección (caramba, oh). (RAE, 2011, pp. 6-7) 
+ 
+En el siguiente cuadro se puede ver un resumen de la evolución de la clasificación de los 
+tipos de palabras desde 1492 hasta 2009: 
+ 
+GRAMÁTICA 
+DE NEBRIJA 
+(1492) 
+1ª GRAMÁTICA DE LA 
+RAE (1771) 
+ESBOZO DE LA RAE 
+(1973) 
+GRAMÁTICA 
+DE ALARCOS (1994) 
+NUEVA 
+GRAMÁTICA 
+DE LA RAE 
+(2009) 
+partes de la oración clases de palabras o unidades del enunciado clases sintácticas 
+NOMBRE NOMBRE 
+nombre 
+sustantivo NOMBRE 
+nombre 
+sustantivo SUSTANTIVO SUSTANTIVO 
+nombre 
+adjetivo 
+nombre 
+adjetivo 
+ADJETIVO 
+adjetivo 
+calificativo ADJETIVO 
+ARTÍCULO ARTÍCULO 
+PRONOMBRE 
+artículo adjetivo 
+determinativo DETERMINANTE 
+PRONOMBRE PRONOMBRE 
+pronombre 
+adjetivo 
+pronombre 
+sustantivo sustantivo PRONOMBRE 
+VERBO 
+VERBO VERBO VERBO VERBO 
+GERUNDIO 
+NOMBRE 
+PARTICIPIAL 
+INFINITO 
+PARTICIPIO PARTICIPIO 
+PREPOSICIÓN PREPOSICIÓN PREPOSICIÓN preposición PREPOSICIÓN 
+ 
+monografías marcoELE. ISSN 1885-2211 / núm. 22, 2016 
+CUESTIONES DE GRAMÁTICA PARA ESPECIALISTAS NO NATIVOS DE ESPAÑOL 
+ 
+ 
+ 35 
+CONJUNCIÓN CONJUNCIÓN CONJUNCIÓN conjunción CONJUNCIÓN 
+ADVERBIO ADVERBIO ADVERBIO ADVERBIO ADVERBIO INTERJECCIÓN INTERJECCIÓN INTERJECCIÓN INTERJECCIÓN 
+ 
+

@@ -53,3 +53,16 @@ Not verified, and not guessed:
 | paradigms-5 to 12 | The twelve verbs | MANUAL §4.9, see `B2-VERB-TABLES-CHECK.md` | Verified, with the limits stated there |
 
 Not verified: the Academy lists some forms of the table of the pronouns that the deck leaves out (*ello*, *vos*, *sí* in the plural, and the neuter forms); the omission is deliberate (Spain only; *ello* is neuter).
+
+## `parts` (2 panels) and `parts-ex` (20 items)
+
+| Card | Statement | Source | Verdict |
+|---|---|---|---|
+| classes | The Academy divides words into variable (noun, article, adjective, pronoun, verb) and invariable (preposition, conjunction, interjection, adverb) | MANUAL §1.4.1c | Verified |
+| classes | The Manual lists the article, noun, adjective, pronoun, verb, adverb, preposition, conjunction, interjection; the articles, demonstratives, and possessives form the determiners | MANUAL §1.4.1a, §1.4.2b | Verified |
+| classes | The Academy's shorter grammar of 2011 lists the determiner (with the noun, adjective, pronoun, verb, adverb, preposition, conjunction, interjection) in the place of the article | *Nueva gramática básica* (2011), pp. 6 and 7, quoted by Delgado Torrico (`delgado-torrico-2016-excerpt-B2.txt`) | **Secondary only.** The *Nueva gramática básica* was not read. Flagged for B14 |
+| classes | Donatus's division into declinable and indeclinable parts | The course's own Section III deck on the parts of speech (Donatus, *Ars minor*) | Not re-checked against Donatus in this batch |
+| compared | Spanish has nine classes where Donatus has eight; the article; the adjective apart from the noun; the participle among the non-personal forms of the verb | MANUAL §1.4.1a, §4.1.3a; the course's Section III deck on the parts of speech for Donatus's eight | Verified (Donatus's list as in the course's deck) |
+| compared | The Academy's older grammars (1771, 1973) counted noun and adjective together as the noun, and the grammar of 2009 separates them | Delgado Torrico 2016, section 1 (reports on Nebrija, the grammars of 1771 and 1973, and Alarcos 1994) | **Secondary only.** The grammars of 1771 and 1973 were not read. Flagged for B14 |
+
+The exercise `parts-ex` marks words in six invented sentences. The classes of the marked words (*mi*, *esta*, *nuestros* as determiners; *me*, *yo* as pronouns; *y*, *pero* as conjunctions; *ay* as an interjection) follow the Manual's lists (§1.4.1a, §1.4.2b).

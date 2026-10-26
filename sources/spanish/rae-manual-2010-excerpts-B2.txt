@@ -813,3 +813,76 @@ contener (tener [64])
 detener (tener [64])
 mantener ( tener [64])
 obtener (tener [64])
+
+### Manual §1.4.1 to §1.4.2b, the classes of words (OCR lines 520 to 604, with the scan's page breaks)
+1.4 Unidades sintácticas: las clases de palabras 
+1.4.1 Criterios de clasificación 
+1.4.1a Las clases de palabras son los paradigmas (en el sentido de series 
+o repertorios) que estas forman en función de sus propiedades combinatorias y de 
+las informaciones morfológicas que aceptan. En la actualidad se suelen reconocer 
+11 
+Unidades sintácticas: las clases de palabras 
+1.4.2a 
+entre las clases sintácticas de palabras el artículo (el, un), el sustantivo (aire, pruden- 
+cia), el adjetivo (limpio, literario), el pronombre (tú, quien), el verbo (ser, hablar), el 
+adverbio (lejos, abiertamente), la preposición (de, durante), la conjunción (y, aunque) 
+y la interjección (eh, caramba). 
+1.4.1 b Algunas clases o subclases de palabras aportan informaciones grama- 
+ticales, es decir, significaciones abstractas determinadas por la gramática misma, 
+como la referencia, la pluralidad o las marcas sintácticas de función. Así ocurre con 
+los artículos, con los pronombres, y también con algunos adverbios (allí, aquí, así...), 
+preposiciones (a, de, con...), conjunciones (y, pero...) y verbos (ser, haber...). En cam- 
+bio, los sustantivos, los adjetivos y la mayor parte de los verbos y de los adverbios 
+proporcionan informaciones léxicas. 
+1.4.1c Atendiendo a su capacidad flexiva, las palabras se dividen en varia- 
+bles, las que admiten algún tipo de flexión, e invariables. Son variables los artícu- 
+los, los adjetivos, los pronombres, los sustantivos y los verbos. Son invariables las 
+preposiciones, las conjunciones, las interjecciones y los adverbios. Las particulari- 
+dades morfológicas de algunas palabras dan lugar a numerosas subclases. Por ejem- 
+plo, los sustantivos admiten flexión de número (casa/ casas) y a veces de género 
+(muchacho/ muchacha), pero algunos sustantivos de persona (pianista, turista) no 
+tienen variación de género, y otros nombres (crisis, lunes) no la tienen de número. 
+1.4.2 Clases transversales 
+Algunas de las propiedades que permiten clasificar las palabras en clases sintácticas 
+constituyen rasgos cruzados, es decir, particularidades que acercan clases sintác- 
+ticas pertenecientes a grupos distintos, y explican diversos aspectos de su funciona- 
+miento y de su significación. De estas agrupaciones transversales se hablará en 
+los apartados siguientes. 
+1.4.2a En la tradición gramatical hispánica los indefinidos y los numerales se 
+analizaban como una clase de adjetivos, en tanto que modifican a los sustantivos 
+(alguna oportunidad, tres árboles, varios aciertos, todo cuerpo, sin duda alguna, 
+¿Cuántos gorriones viste?), pero también como una clase de pronombres, en cuanto 
+que pueden subsistir sin los sustantivos y desempeñar las mismas funciones sintác- 
+ticas que ellos (No me queda ninguna; Llegaron todos; Alguno habrá; ¿Cuántos viste?; 
+He leído tres). Entre los indefinidos, se suele reconocer un tercer grupo, el de los 
+adverbios (viajar poco, estudiar mucho un asunto). Actualmente es de uso general en 
+la lingüística contemporánea el concepto transversal de cuantificador (§ 19.3.2), 
+en el sentido de ‘categoría gramatical que expresa cantidad, número o grado’. Los 
+cuantificadores pueden ser elementos adverbiales (La película no me gustó nada), 
+pronominales (Hoy he preparado poco, refiriéndose al café) o adjetivales (Te quedan 
+algunos días). También los demostrativos pertenecen a más de una clase gramati- 
+cal: pueden ser adjetivales (Quiero este libro) y pronominales (Quiero este). Para evi- 
+tar la duplicación de las clasificaciones de demostrativos, indefinidos y numerales, 
+cabe postular elementos nulos o tácitos para los usos pronominales: Quiero este 0; 
+este 0 de aquí; muchos 0 que no habían recibido la noticia; tres 0 de mi pueblo. 
+1.4.2b 
+Partes de la gramática. Unidades de análisis 
+12 
+1.4.2 b Los posesivos coinciden con los artículos y los demostrativos en cuanto 
+que concuerdan con los nombres (mis amigos, cosas suyas ) y ocupan a veces el lugar 
+de aquellos, como en {mi~esta~la} casa; por otra parte, aportan informaciones 
+características de los pronombres personales, como los rasgos de persona: mío = de mí. 
+Los demostrativos y los posesivos constituyen, junto con los artículos, la clase trans- 
+versal de los determinantes o determinativos. En un sentido amplio, la clase de 
+determinante abarca también a los cuantificadores prenominales, puesto que tam- 
+bién estos convierten al sustantivo en una expresión referencial y lo legitiman como 
+
+### Manual §4.1.3a (OCR line 2522)
+4.1 .3a El infinitivo (capítulo 26), el gerundio (§ 27.1 -4) y el participio (§ 27.5) son 
+formas verbales que no admiten los segmentos PN (lo que se refleja en el nombre 
+tradicional de formas no personales del verbo) y TM. Con la raíz y la vocal temá- 
+tica se construye el tema de infinitivo (ama-, teme-, partí-), al que se agrega el mor- 
+fema -r. La vocal temática no se altera en la formación de gerundios y participios de 
+la primera conjugación (am-a-ndo, am-a-do), pero toma la forma del diptongo -ie- en los 
+gerundios de la segunda y la tercera (tem-ie-ndo, part-ie-ndo). Los participios de la 
+segunda se asimilan a los de la tercera en la vocal temática -i- (tem-i-do, part-i-do). 
