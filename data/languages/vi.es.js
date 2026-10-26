@@ -21,6 +21,21 @@ ARS.languages["lang.vi.es"] = {
    "title": "Barbarism and Solecism in Spanish",
    "desc": "21 questions.",
    "exFor": "lang.vi.es/errors"
+  },
+  {
+   "id": "lang.vi.es/usage",
+   "kind": "study",
+   "built": true,
+   "title": "Common Questions of Usage in Spanish",
+   "desc": "The norm and the Academy, regional variety, and the loanword."
+  },
+  {
+   "id": "lang.vi.es/errors-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Common Questions of Usage in Spanish",
+   "desc": "24 questions.",
+   "exFor": "lang.vi.es/usage"
   }
  ]
 };
