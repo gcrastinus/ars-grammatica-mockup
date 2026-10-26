@@ -269,3 +269,424 @@ Present  ama,  love  thou  amate,  love  ye
 Future     amato,  thou  shalt  love         amatote,  ye  shall  love 
 amato,  he  shall  love  amantS,  they  shall  love 
 
+
+
+##### clauses
+
+### A&G §512 (OCR lines 28710 to 28722)
+512.  A  complete  Conditional  Sentence  consists  of  two  clauses, 
+the  Protasis  and  the  Apodosis. 
+
+The  clause  containing  the  condition  is  called  the  Protasis  ; 
+the  clause  containing  the  conclusion  is  called  the  Apodosis  :  — 
+
+si  qui  exire  volunt  [protasis],  conlvere  possum  [apodosis]  (Cat.  ii.  27),  if 
+
+any  luish  to  depart,  I  can  keep  my  eyes  shut. 
+si  est  in  exsilio  [protasis],  quid  amplius  postulatis  [apodosis]  (Lig.  13),  if 
+
+he  is  in  exile,  what  more  do  you  ask  f 
+
+
+### A&G §527 (OCR lines 29701 to 29800)
+527.  The  Particles  of  Concession  (meaning  although,  granting 
+that)  are  quamvis,  ut,  licet,  etsi,  tametsi,  etiam  si,  quamquam,  and  cum. 
+
+Some  of  these  take  the  Subjunctive,  others  the  Indicative,  ac- 
+cording to  the  nature  of  the  clause  which  each  introduces. 
+
+a.  Quamvis  and  ut  take  the  Subjunctive  :  — 
+
+quamvis  ipsi  infantes  sint,  tamen  .  .  .  (Or.  76),  however  incapable  of  speaking 
+
+they  themselves  may  be,  yet,  etc. 
+quamvis  sceleratl  ill!  fuissent  (De  Or.  i.  2.30),  however  guilty  they  might  have 
+
+been. 
+quamvis  comis  in  aniicls  tuendis  fuerit  (Fin.  ii.  80),  amiable  as  he  may  have 
+
+been  in  keeping  his  friends. 
+ut  neminem  alium  rogasset  (Mil.  46),  even  if  he  had  asked  no  other. 
+ut  enim  non  emcias  quod  vis,  tamen  mors  ut  malum  non  sit  efficies  (Tusc.  i. 
+
+16),  for  even  if  you  do  not  accomplish  what  you  wish,  still  you  will  prove 
+
+that  death  is  not  an  evil. 
+ut  rationem  Plato  niillam  adferret  (id.  i.  49),  though  Plato  adduced  no  reasons. 
+
+Note.  —  Quamvis  means  literally  as  much  as  you  will.  Thus  in  the  first  example 
+above,  let  them  be  as  incapable  as  you  will,  still,  etc.  The  subjunctive  with  quamvis 
+is  hortatory,  like  that  with  ne  (§  440) ;  that  with  ut  (ut  non)  is  of  uncertain  origin. 
+
+b.  Licet,  although,  takes  the  Present  or  Perfect  Subjunctive :  — 
+licet  omnes  mihi  terrorgs  periculaque  impendeant  (Rose.  Am.  31),  though  att 
+
+terrors  and  perils  should  menace  me. 
+
+
+§  527]  CONCESSIVE   CLAUSES  339 
+
+Note.  —  Licet  is  properly  a  verb  in  the  present  tense,  meaning  it  is  granted.  Hence 
+the  subjunctive  is  by  the  sequence  of  tenses  limited  to  the  Present  and  Perfect.  The 
+con3essive  clause  with  licet  is  hortatory  in  origin,  but  may  be  regarded  as  a  substan- 
+tive clause  serving  as  the  subject  of  the  impersonal  verb  (§  565.  n.1). 
+
+c.  Etsi,  etiam  si,  tametsi,  even  if,  take  the  same  constructions  as  si 
+(see  §  514)  :  — 
+
+etsi  abest  maturitas,  tamen  non  est  inutile  (Fam.  vi.  18.  4),  though  ripeness 
+
+of  age  is  wanting,  yet  it  is  not  useless,  etc. 
+etsi  numquam  dubium  fuit,  tamen  perspicio  (id.  v.  19),  although  it  has  never 
+
+been  doubtful,  yet  I  perceive,  etc. 
+etsi  statueram  (id.  v.  5),  though  I  had  determined. 
+etsi  nihil  aliud  abstulissetis,  tamen  contentos  vos  esse  oportebat  (Sull.  90), 
+
+even  if  you  had  taken  away  nothing  else,  you  ought  to  have  been  satisfied. 
+etiam  si  quod  scrlbas  non  habebis,  scribito  tamen  (Fam.  xvi.  26),  even  if  you 
+
+[shall]  have  nothing  to  write,  still  write. 
+sed  ea  tametsi  vos  parvl  pendebatis  (Sail.  Cat.  52.  9),  but  although  you  regarded 
+
+those  things  as  of  small  account. 
+
+Note  1.  — Tametsi  with  the  subjunctive  is  very  rare. 
+
+Note  2. — A  protasis  with  si  often  has  a  concessive  force:  as,  —  ego,  si  essent  ini- 
+mi^itiae  mihi  cum  C.  Caesare,  tamen  hoc  tempore  rei  publicae  consulere  .  .  .  deberem 
+(Prov.  Cons.  47),  as  for  me,  even  if  I  had  private  quarrels  with  Csesar,  it  would  still 
+be  my  duty  to  serve  the  best  interests  of  the  state  at  this  crisis. 
+
+d.  Quamquam,  although,  introduces  an  admitted  fact  and  takes  the 
+Indicative  :  — 
+
+omnibus  —  quamquam  ruit  ipse  suls  cladibus — pest  em  denuntiat  (Phil.  xiv. 
+8),  though  he  is  breaking  down  under  his  disasters,  still  he  threatens  all 
+with  destruction. 
+
+Note.  — Quamquam  more  commonly  means  and  yet,  introducing  a  new  proposition 
+in  the  indicative :  as,  —  quamquam  haec  quidem  iam  tolerabilia  videbantur,  etsi,  etc. 
+(Mil.  76),  and  yet  these,  in  truths  seemed  now  bearable,  though,  etc. 
+
+e.  The  poets  and  later  writers  frequently  use  quamvis  and  quam- 
+quam like  etsi,  connecting  them  with  the  Indicative  or  the  Subjunc- 
+tive, according  to  the  nature  of  the  condition :  — 
+
+quamquam  moveretur  (Liv.  xxxvi.  34),  although  he  was  moved. 
+
+Pollio  amat  nostram,  quamvis  est  riistica,  musam  (Eel.  iii.  84),  Polllo  loves 
+
+my  muse,  though  she  is  rustic. 
+quamvis  perveneras  (Liv.  ii.  40),  though  you  had  come. 
+
+f.  Ut,  as,  with  the  Indicative,  may  be  equivalent  to  a  concession : 
+verum  ut  errare  potuisti,  sic  decipi  te  n5n  potuisse  quis  non  videt  (Fam.  x. 
+
+20.  2),  suppose  you  could  have  been  mistaken,  who  does  not  see  that  you 
+cannot  have  been  deceived  in  this  way  f 
+
+For  cum  concessive,  see  §  549 ;  for  qui  concessive,  see  §  535.  e.  For  concession  ex- 
+pressed by  the  Hortatory  Subjunctive  (negative  ne),  see  §  440. 
+
+
+### A&G §531 (OCR lines 29862 to 29925)
+531.  Final  Clauses  take  the  Subjunctive  introduced  by  ut  (uti), 
+negative  ne  (ut  ne),  or  by  a  Relative  Pronoun  or  Adverb:  — 
+
+
+§531]  CLAUSES   OF   PURPOSE  341 
+
+1.  Pure  Clauses  of  Purpose,  with  ut  (uti)  or  ne  (ut  ne),  express  the 
+purpose  of  the  main  verb  in  the  form  of  a  modifying  clause:  — 
+
+ab  aratro  abduxerunt  Cincinnatuni,  ut  dictator  esset  (Fin.  ii.  12),  they  brought 
+Cincinnatus  from  the  plough  that  he  might  be  dictator. 
+
+ut  sint  auxilio  suis,  subsistunt  (B.  C.  i.  80),  they  halt  in  order  to  support  (be 
+an  aid  to)  their  own  men, 
+
+ne  milites  oppidum  inrumperent,  portas  obstruit  (id.  i.  27),  he  barricaded  the 
+gates,  in  order  that  the  soldiers  might  not  break  into  the  town. 
+
+scalas  pararl  iubet,  ne  quam  facultatem  dimittat  (id.  i.  28),  he  orders  scaling- 
+ladders  to  be  got  ready,  in  order  not  to  let  slip  any  opportunity. 
+
+ut  ne  sit  impune  (Mil.  31),  that  it  be  not  vnth  impunity. 
+
+Note  1.  —  Sometimes  the  conjunction  has  a  correlative  (ideo,  idcirco,  eo  consilio,  etc) 
+in  the  main  clause  (cf .  §  561.  a) :  — 
+
+legum  idcirco  servi  sumus,  ut  liber*  simus  (Clu.  146),  for  this  reason  we  are  subject 
+
+to  the  laws,  that  we  may  be  free. 
+copias  transduxit  eo  cdnsilio,  ut  castellum  expugnaret  (cf.  B.  G.  ii.  9),  he  led  the 
+troops  across  with  this  design  —  to  storm  the  fort. 
+Note  2.  —  Ut  n5n  sometimes  occurs  in  clauses  of  purpose  when  non  belongs  to  some 
+particular  word :  as, — ut  plura  non  dicam  (Manil.  44),  to  avoid  unnecessary  talk. 
+
+2.  Kelative  Clauses  of  Purpose  are  introduced  by  the  relative  pro- 
+noun qui  or  a  relative  adverb  (ubi,  unde,  quo,  etc.).  The  antecedent 
+is  expressed  or  implied  in  the  main  clause:  — 
+
+mittitur  L.  Decidius  Saxa  qui  loci  naturam  perspiciat  (B.  C.  i.  66),  Lucius 
+
+Decidius  Saxa  is  sent  to  examine  the  ground  (who  should  examine,  etc.). 
+scribebat  orationes  quas  alii  dicerent  (Brut.  206),  he  wrote  speeches  for  other 
+
+men  to  deliver. 
+eo  exstlncto  fore  unde  discerem  neminem  (Cat.  M.  12),  that  when  he  was  dead 
+
+there  would  be  nobody  from  whom  (whence)  I  could  learn. 
+huic  ne  ubi  consisteret  quidem  contra  te  locum  rellquistl  (Quinct.  73),  you 
+
+have  left  him  no  ground  even  to  make  a  stand  against  you. 
+habebam  qud  confugerem  (Fam.  iv.  6.  2),  I  had  [a  retreat]  whither  I  might  flee. 
+
+Note.  —  In  this  construction  qui  =  ut  is  (etc.),  ubi  =  ut  ibi,  and  so  on  (§  537.  2). 
+
+a.  The  ablative  quo  (=  ut  eo)  is  used  as  a  conjunction  in  final 
+clauses  which  contain  a  comparative :  — 
+
+comprimere  eorum  audaciam,   quo  facilius  ceterorum   animi  frangerentur 
+(Fam.  xv.  4.  10),  to  repress  their  audacity,  that  the  spirit  of  the  others 
+might  be  broken  more  easily  (by  which  the  more  easily), 
+libertate  usus  est,  quo  impunius  dicax  esset  (Quinct.  11),  he  took  advantage 
+of  liberty,  that  he  might  bluster  with  more  impunity. 
+
+Note.  —  Occasionally  quo  introduces  a  final  clause  that  does  not  contain  a  compara- 
+
+### A&G §537 (OCR lines 30220 to 30250)
+537.  Clauses  of  Result  take  the  Subjunctive  introduced  by  ut,  so 
+that  (negative,  ut  non),  or  by  a  relative  pronoun  or  relative  adverb. 
+
+1.  Pure  Clauses  of  Result,  with  ut  or  ut  non,  express  the  result  of 
+the  main  verb  in  the  form  of  a  modifying  clause :  — 
+
+tanta  vis  probitatis  est  ut  earn  in  hoste  diligamus  (Lael.  29),  so  great  is  the 
+
+power  of  goodness  that  we  love  it  even  in  an  enemy. 
+pugnatur  acriter  ad  novissimum  agmen,  adeo  ut  paene  terga  convertant 
+
+(B.  C.  i.  80),  there  is  sharp  fighting  in  the  rear,  so  (to  such  a  degree)  that 
+
+they  almost  take  flight. 
+multa  rumor  adfingebat,  ut  paene  bellum  confectum  videretur  (id.  i.  53), 
+
+rumor  added  many  false  reports,  so  that  the  war  seemed  almost  ended. 
+
+2.  Relative  Clauses  of  Result  are  introduced  by  the  relative  pro- 
+noun qui  or  a  relative  adverb  (ubi,  unde,  quo,  etc.).  The  antecedent  is 
+expressed  or  implied  in  the  main  clause. 
+
+The  Relative  in  this  construction  is  equivalent  to  ut  with  the  corre- 
+sponding demonstrative :  —  qui  =  ut  is  (etc.),  ubi  =  ut  ibi,  and  so  on  : 
+nam  est  innocentia  affectio  talis  animi  quae  noceat  neminl  (Tusc.  iii.  16),  for 
+
+innocence  is  such  a  quality  of  mind  as  to  do  harm  to  no  one. 
+sunt  aliae  causae  quae  plane  efficiant  (Top.  59),  there  are  other  causes  such  as 
+
+to  bring  to  pass. 
+nulla  est  celeritas  quae  possit  cum  animi  celeritate  contendere  (Tusc.  i.  43), 
+
+### A&G §540 (OCR lines 30374 to 30392)
+540.  The  Causal  Particles  quod  and  quia  take  the  Indicative, 
+when  the  reason  is  given  on  the  authority  of  the  writer  or 
+speaker;  the  Subjunctive,  when  the  reason  is  given  on  the 
+authority  of  another:  — 
+
+1.  Indicative  :  — 
+cum  tibi  agam  gratias  quod  me  vlvere  coegisti  (Att.  iii,  3),  when  I  m,ay  thank 
+
+you  that  you  have  forced  me  to  live. 
+cur  igitur  pacem  nolo  ?  quia  turpis  est  (Phil.  vii.  9),  why  then  do  I  not  wish 
+
+for  peace  f    Because  it  is  disgraceful. 
+ita  fit  ut  adsint  propterea  quod  officium  sequuntur,  taceant  autem  quia  peri- 
+
+culum  vltant  (Rose.  Am.  1),  so  it  happens  that  they  attend  because  they 
+
+follow  duty,  but  are  silent  because  they  seek  to  avoid  danger. 
+
+
+
+### A&G §543 (OCR lines 30532 to 30548)
+543.  The  particles  postquam  (posteaquam),  ubi,  ut  (ut  primum,  ut 
+semel),  simul  atque  (simul  ac,  or  simul  alone),  take  the  Indicative 
+(usually  in  the  perfect  or  the  historical  present) :  — 
+
+milites  postquam  victoriam  adept!  sunt,  nihil  reliqui  victis  fecere  (Sail.  Cat.  11), 
+
+v)hen  the  soldiers  had  won  the  victory,  they  left  nothing  to  the  vanquished. 
+posteaquam  forum  attigisti,  nihil  fecisti  nisi,  etc.  (Fam.  xv.  16.  3),  since  you 
+
+came  to  the  forum,  you  have  done  nothing  except,  etc. 
+ubi  omnis  idem  sentire  intellexit,  posterum  diem  ptignae  constituit  (B.  G. 
+
+iii.  23),  when  he  understood  that  all  agreed  (thought  the  same  thing),  he 
+
+appointed  the  next  day  for  the  battle. 
+Catillna,  ubi  eos  convenisse  videt,  secedit  (Sail.  Cat.  20),  when  Catiline  sees 
+
+
+### A&G §549 (OCR lines 30774 to 30790)
+549.  Cum  causal  or  concessive  takes  the  Subjunctive :  — 
+
+id  difficile  non  est,  cum  tan  turn  equitatu  valeamus  (B.  C.  iii.  86),  this  is  not 
+difficult  since  we  are  so  strong  in  cavalry.     [Causal.] 
+
+cum  solitudo  Insidiarum  et  metfis  plena  sit,  ratio  ipsa  monet  amicitias  com- 
+parare  (Fin.  i.  66),  since  solitude  is  full  of  treachery  and  fear,  reason  it- 
+self prompts  us  to  contract  friendships.     [Causal.] 
+
+cum  prlml  ordines  concidissent,  tamen  acerrime  reliqui  resistebant  (B.  G. 
+vii.  62),  though  the  first  ranks  had  fallen,  still  the  others  resisted  vigor- 
+ously.    [Concessive.] 
+
+brevi  spatio  legiones  numero  hominum  expleverat,  cum  initiS  non  amplius 
+duSbus  milibus  habuisset  (Sail.  Cat.  56),  in  a  short  time  he  had  filled 
+out  the  legions  with  their  complement  of  men,  though  at  the  start  he  had 
+not  had  more  than  two  thousand.     [Concessive.] 
+
+### A&G §551 (OCR lines 30849 to 30870)
+551.  Antequam  and  priusquam  take  sometimes  the  Indicative, 
+sometimes  the  Subjunctive. 
+
+
+356  SYNTAX  :    TEMPORAL  CLAUSES  [§  551 
+
+a.  With  antequam  or  priusquam  the  Perfect  Indicative  states  a 
+fact  in  past  time :  — 
+
+antequam  tuas  legi  litteras,  hominem  Ire  cupiebam  (Att.  ii.  7.  2),  before  I 
+
+read  your  letter,  I  wished  the  man  to  go. 
+neque  ante  dimisit  eum  quam  fidem  dedit  adulescens  (Liv.  xxxix.  10),  and 
+
+she  did  not  let  the  young  man  go  till  he  pledged  his  faith. 
+neque  prius  fugere  dSstiterunt  quam  ad  flunien  pervenerunt  (B.  G.  i.  53),  nor 
+
+did  they  stop  running  until  they  reached  the  river. 
+
+Note.  —  The  Perfect  Indicative  in  this  construction  is  regular  when  the  main 
+clause  is  negative  and  the  main  verb  is  in  an  historical  tense.  The  Imperfect  Indicative 
+is  rare;  the  Pluperfect  Indicative,  very  rare.  The  Perfect  Subjunctive  is  rare  and 
+
+### A&G §553 (OCR lines 30928 to 30950)
+553.  Dum  and  quoad,  until,  take  the  Present  or  Imperfect  Sub- 
+junctive in  temporal  clauses  implying  intention  or  expectancy  :  — 
+
+exspectas  fortasse  dum  dicat  (Tusc.  ii.  17),  you  are  waiting  perhaps  for  him 
+to  say  (until  he  say).     [Dum  is  especially  common  after  exspecto.] 
+
+dum  reliquae  naves  convenirent,  ad  horam  nonam  exspectavit  (B.  G.  iv.  23), 
+he  waited  till  the  ninth  hour  for  the  rest  of  the  ships  to  join  him. 
+
+comitia  dilata  [sunt]  dum  lex  ferretur  (Att.  iv.  17.  3),  the  election  was  post- 
+poned until  a  law  should  be  passed. 
+
+an  id  exspectamus,  quoad  ne  vestigium  quidem  Asiae  civitatum  atque  urbium 
+relinquatur  (Phil.  xi.  25),  shall  we  wait  for  this  until  not  a  trace  is  left  of 
+the  states  and  cities  of  Asia  f 
+
+Epaminondas  exercebatur  plurimum  luctando  ad  eum  finem  quoad  stans 
+complect!  posset  atque  contendere  (Nep.  Epam.  2),  Epaminondas  trained 
+himself  in  wrestling  so  far  as  to  be  able  (until  he  should  be  able)  to  grapple 
+standing  and  fight  (in  that  way). 
+
+Note  1.  —  Donee  is  similarly  used  in  poetry  and  later  Latin:  as?  — et  duxit  longe 
+donee  curvata  coirent  inter  se  capita  (Aen.  xi.  860),  and  drew  it  (the  bow)  until  the 
+
+### A&G §574 (OCR lines 31826 to 31845)
+574.  An  Indirect  Question  takes  its  verb  in  the  Subjunctive : 
+
+quid  ipse  sentiam  exponam  (Div.  i.  10),  I  will  explain  what  I  think.  [Direct: 
+quid  sentiS  ?] 
+
+id  possetne  fieri  consuluit  (id.  i.  32),  he  consulted  whether  it  could  be  done. 
+[Direct:  potestne?] 
+
+quam  sis  audax  oranes  intellegere  potuerunt  (Rose.  Am.  87),  all  could  under- 
+stand how  bold  you  are.     [Direct :  quam  es  audax  !] 
+
+doleam  necne  doleam  nihil  interest  (Tusc.  ii.  29),  it  is  of  no  account  whether  I 
+suffer  or  not.     [Double  question.] 
+
+quaesivi  a  Catillna  in  conventu  apud  M.  Laecam  fuisset  necne  (Cat.  ii.  13),  I 
+asked  Catiline  whether  he  had  been  at  the  meeting  at  Marcus  Lceca's  or 
+not.     [Double  question.] 
+
+rogat  me  quid  sentiam,  he  asks  me  what  I  think.  [Cf.  rogat  me  sententiam,  he 
+asks  me  my  opinion.'] 
+
+### A&G §578 (OCR lines 32037 to 32056)
+578.  A  Direct  Quotation  gives  the  exact  words  of  the  original 
+speaker  or  writer  (Ordtio  Be  eta). 
+
+An  Indirect  Quotation  adapts  the  words  of  the  speaker  or 
+writer  to  the  construction  of  the  sentence  in  which  they  are 
+quoted  (Ordtio  Obllqua). 
+
+Note.  —  The  term  Indirect  Discourse  (ordtio  obllqua)  is  used  in  two  senses.  In 
+the  wider  sense  it  includes  all  clauses  —  of  whatever  kind  —  which  express  the  words 
+or  thought  of  any  person  indirectly,  that  is,  in  a  form  different  from  that  in  which  the 
+person  said  the  words  or  conceived  the  thought.  In  the  narrower  sense  the  term  Indi- 
+rect Discourse  is  restricted  to  those  cases  in  which  some  complete  proposition  is  cited 
+in  the  form  of  an  Indirect  Quotation,  which  may  be  extended  to  a  narrative  or  an 
+address  of  any  length,  as  in  the  speeches  reported  by  Caesar  and  Livy.  In  this  book 
+the  term  is  used  in  the  restricted  sense. 
+
+
+Formal  Indirect  Discourse 
+
+579.  Verbs  and  other  expressions  of  knowing,  thinking,  telli7ig, 
+
+### A&G §580 (OCR lines 32063 to 32085)
+580.  In  Indirect  Discourse  the  main  clause  of  a  Declaratory- 
+Sentence  is  put  in  the  Infinitive  with  Subject  Accusative.  All 
+subordinate  clauses  take  the  Subjunctive :  — 
+
+scio  me  paene  incredibilem  rem  polliceri  (B.  C.  iii.  86),  I  know  that  I  am 
+promising  an  almost  incredible  thing.     [Direct :  polliceor.] 
+
+non  arbitror  te  ita  sentire  (Fam.  x.  26.  2),  I  do  not  suppose  that  you  feel 
+thus.     [Direct:  sentis.] 
+
+spero  me  liberatum  [esse]  de  nietti  (Tusc.  ii.  67),  I  trust  I  have  been  freed 
+from  fear.     [Direct :  liberatus  sum.  ] 
+
+1  Such  are :  (1)  knowing,  scio,  cognosco,  compertum  habeo,  etc. ;  (2)  thinking,  puto, 
+existimo,  arbitror,  etc. ;  (3)  telling,  dico,  nuntio,  refero,  polliceor,  promitto,  certiorem  facio, 
+etc. ;  (4)  perceiving,  sentio,  comperiS,  video,  audi5,  etc.  So  in  general  any  word  that 
+denotes  thought  or  mental  and  visual  perception  or  their  expression  may  govern  the 
+Indirect  Discourse. 
+
+
+§580]  INDIBECT  DISCOURSE  375 
+
+[dicit]  esse  non  nullos  quorum  auctoritas  plurimum  valeat  (B.  G.  i.  17),  he 
+
+### A&G §588 (OCR lines 32486 to 32508)
+588.  All  Imperative  forms  of  speech  take  the  Subjunctive  in 
+
+Indirect  Discourse :  — 
+
+remimsceretur  veteris  incommodl  (B.  G.  i.  13),  remember  (said  he)  the  ancient 
+
+disaster.     [Direct:  remimscere.] 
+finein  faciat  (id.  i.  20),  let  him  make  an  end.     [Direct:  fac] 
+ferrent  opem,  adiuvarent  (Liv.  ii.  6),  let  them  bring  aid,  let  them  help. 
+
+a.  This  rule  applies  not  only  to  the  Imperative  of  the  direct  dis- 
+course, but  to  the  Hortatory  and  the  Optative  Subjunctive  as  well. 
+
+Note  1.  —  Though  these  subjunctives  stand  for  independent  clauses  of  the  direct 
+discourse,  they  follow  the  rule  for  the -sequence  of  tenses,  being  in  fact  dependent  on 
+the  verb  of  saying  etc.  (cf.  §§  483,  585). 
+
+Note  2.  —  A  Prohibition  in  the  Indirect  Discourse  is  regularly  expressed  by  ne  with 
+the  present  or  imperfect  subjunctive,  even  when  noli  with  the  infinitive  would  be  used 
+in  the  Direct:  as,  —  ne  perturbarentur  (B.  G.  vii.  29),  do  not  (he  said)  be  troubled. 
+[Direct:  nolite  perturbari.     But  sometimes  nollet  is  found  in  Indirect  Discourse.] 
+
+Conditions  in  Indirect  Discourse 

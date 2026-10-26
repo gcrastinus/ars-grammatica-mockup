@@ -934,3 +934,1705 @@ a + infinitivo» (§ 28.3.3b): Si llega a enterarse tu mamá, nos castigan a los
 terpretación irreal se suele determinar contextualmente. Así, el período condicional 
 
 
+
+
+##### clauses
+
+### Manual §24.3.3a to 24.3.3f (OCR lines 39110 to 39193)
+24.3.3a Las oraciones de relativo no están sujetas a la concordancia de tiempos 
+como lo están las subordinadas sustantivas, puesto que las situaciones contenidas en 
+ellas dependen más de las propiedades referenciales del grupo nominal que las contie- 
+ne que de las restricciones sintácticas del sistema temporal. En los ejemplos si- 
+guientes el verbo de la oración de relativo no se orienta temporalmente respecto del 
+tiempo denotado por el verbo de la oración principal: Conoceré próximamente al 
+profesor que escribió todos estos trabajos; Hace un año se fue a vivir a la casa que había 
+comprado de joven. Por la misma razón, es lógico que tampoco se den las interpreta- 
+ciones de doble acceso: en Le presenté hace diez años a la chica con la que está casado, 
+no existe vínculo temporal entre las dos situaciones, como tampoco se da en Imaginé 
+el regalo que me {traerás ~ traerías}. 
+
+24.3.3b Constituyen una excepción las subordinadas de significación temporal 
+introducidas por cuando y mientras, y también las oraciones que se subordinan a los 
+adverbios antes y después. En efecto, el tiempo que se elija para el verbo llegar en el 
+esquema Arturo escribió la carta {cuando ~ mientras ~ antes de que ~ después de que} 
+Clara llegar estará en función del pretérito escribió. Así pues, antes, después y mien- 
+tras se asimilan a los predicados restrictivos (§ 24.3.1 d) en el sentido de que imponen 
+restricciones temporales a sus complementos. 
+
+24.3.3c Se explica en los § 31.6.2a-d que la partícula mientras posee propiedades 
+en común con las conjunciones subordinantes y con los adverbios relativos en sus 
+usos temporales. Expresa relaciones de simultaneidad, como en Luego nos despe- 
+díamos con esos besos de lado que le caen al aire mientras uno se roza las mejillas 
+(Mastretta, Vida). Además de con canto, se dan estas relaciones con cantaba y he 
+cantado. Mientras es asimismo compatible con las relaciones de inclusión. Así, 
+los pretéritos perfectos simples manifiestan sucesos inscritos en la situación deno- 
+tada por estaba en Encendió la luz y abrió la puerta mientras yo me estaba vistiendo 
+todavía (Cabrera Infante, Habana). Como mientras rechaza los futuros y los condi- 
+cionales en su interpretación temporal, la referencia a situaciones prospectivas se 
+
+
+471 
+
+
+La concordancia de tiempos 
+
+
+24.3.3Í 
+
+
+expresa con las pautas «mientras tenga, daré»; «mientras tuviera, daría», y sus 
+correspondientes variantes con tiempos compuestos: No permitirá que se le escapen 
+las cotizaciones de la divisa mientras tenga dólares para impedirlo (Universal [Ven.] 
+9/7/1996). Si el predicado es télico en esta pauta, mientras tiene el valor de una con- 
+junción condicional: Mientras llegues a tiempo, nadie te pondrá problemas. 
+
+24.3.3d Los adverbios antes y después se construyen con complementos preposi- 
+cionales introducidos por la preposición de (antes de que, después de que), pero dan 
+también lugar a las conjunciones subordinantes antes que y después que. La primera 
+se construye con subjuntivo; la segunda admite los dos modos (§ 25.5.1 c). Si VI per- 
+tenece a la esfera del presente, las secuencias temporales características de antes 
+se ajustan a la pauta «antes (de) que + cante o haya cantado»: Te visitaré antes de 
+que seas abogado; Saldrá antes de que la función {termine ~ haya terminado}. Si VI 
+corresponde, en cambio, a la esfera del pasado, el esquema es «antes (de) que + can- 
+tara o hubiera cantado»: Decidieron comprarlo antes de que juera derruido 
+(Glantz, Rastro); No lo quemes, podrían sorprenderte antes de que hubiera ardido por 
+completo (Chacón, Voz). Se registra en estas construcciones el uso de cante 
+por cantara, sobre todo en algunas variedades del español hablado en las áreas 
+andina y rioplatense (§ 24.1 .1 e). No obstante, se recomienda en ellas el uso del imper- 
+fecto de subjuntivo. 
+
+24.3.3e Después (de) que admite dos combinaciones. Se construye con presente o 
+pretérito perfecto si VI pertenece a la esfera del presente: ¿Y si viene después que yo 
+me vaya? (Galdós, Episodios). En cambio, si VI pertenece a la esfera del pasado, se 
+construye con pretéritos, con alternancia entre las formas simples y las compuestas: 
+Yo la entiendo porque algo de eso me estaba pasando poco después de que usted vino 
+(Mutis, Maqroll); Fue despedido después de que hubiese remitido cartas a diarios bar- 
+celoneses alusivas (País [Esp.] 5/8/1977). 
+
+24.3.3Í V2 marca en todas estas construcciones el inicio de la situación que des- 
+cribe VI, por lo que modifica de forma característica a predicados atélicos. Resulta, 
+en efecto, mucho más natural la primera opción que la segunda en pares como {Es- 
+tuve muy ocupado~Tuve un accidente} desde que llegué a la ciudad. En esta misma 
+construcción he cantado admite en VI la interpretación llamada de experiencia 
+(§ 23.4.2d), como en He tenido solo un accidente desde que llegué a la ciudad o conti- 
+nuo: He vivido aquí desde que me casé. La preposición hasta marca el límite final de 
+la situación que se describe y, en consecuencia, V2 denota siempre posterioridad 
+en relación con VI. Al igual que después, requiere predicados atélicos en VI, como en 
+Trabajó en su oficina hasta que dieron las dos o en Tú te escondes hasta que abran 
+(Trigo, Jarrapellejos). La omisión de la negación en secuencias como Llegó a su ofi- 
+cina hasta que dieron las dos se examina en el § 48.7.2a. 
+
+
+
+### Manual §25.4.1, 25.4.2i, 25.4.2j (OCR lines 39740 to 39760)
+25.4.1 Características generales 
+
+Los contextos de inducción modal en las oraciones de relativo son algo más laxos 
+que los que caracterizan a las subordinadas sustantivas, y poseen mayor comple- 
+jidad. Mientras que en las subordinadas sustantivas es habitual que se elija úni- 
+camente uno de los dos modos, como en Necesitaba que el libro {* tenía ~ tuviera} 
+fotos, lo normal en las subordinadas de relativo es que sean posibles ambos, aunque 
+con significado distinto, como en Necesitaba un libro que {tenía~ tuviera} fotos. 
+La alternancia se da en las oraciones de relativo especificativas o restrictivas. Las 
+explicativas o apositivas, como Los documentos secretos, que estaban debidamente 
+protegidos, no sufrieron daño alguno, no admiten el subjuntivo porque no forman 
+parte, en sentido estricto, del grupo nominal (§ 44.3.2f), de forma que el subjunti- 
+vo aparecería en ellas sin inductor. No son excepción secuencias como Cuando ya 
+desesperaba de encontrar partenaire y había entrado de lleno en crisis económica, 
+mi madre, que en paz descanse, acudió en mi auxilio (Vila-Matas, Suicidios), ya que 
+el subjuntivo de las oraciones desiderativas (§ 42.2.4) puede aparecer sin subordi- 
+nación. Se explican a continuación las principales distinciones semánticas que 
+intervienen en la elección del modo en las oraciones de relativo especificativas. 
+
+25.4.1a Los grupos nominales se dividen tradicionalmente en definidos o 
+indefinidos (§ 14.1.1) en función del determinante que los encabece. El indicativo 
+
+### Manual §25.4.2c to 25.4.2j (OCR lines 39925 to 40075)
+que traen las cajas negras (Donoso, Pájaro). 
+
+25.4.2d Al igual que en las oraciones sustantivas, el subjuntivo de las de relativo 
+no es inducido únicamente por predicados, sino también por la negación, sea a tra- 
+vés del adverbio no, sea mediante indefinidos negativos, como se comprueba en No 
+guardó nada que fuera comprometedor (frente a *Guardó algo que fuera compromete- 
+dor) o en nadie que yo conozca, en ningún lugar que haya visitado, nada que le baje la 
+fiebre, con las escasas excepciones de los contextos genéricos (§ 25.4.1 d, e). Inducen 
+igualmente el subjuntivo —aunque, como en otros casos, no de forma obligatoria— 
+los predicados que expresan negación u oposición, como en Se oponen radicalmente 
+a una modificación de la ley que recorte sus prerrogativas o en Le había aconsejado que 
+[...] evitara proponer una legislación que fuera a producir unos resultados no auténti- 
+cos (Tusell, Historia). También lo inducen las preposiciones y locuciones preposi- 
+cionales que transmiten esos mismos significados: No puede uno ir de España a 
+Inglaterra sin llevar a los amigos alguna chuchería que tenga color local (Galdós, For- 
+tunata); No crea usted que me voy a llevar esto sin formalizar un documento que auto- 
+rice los derechos de usted (Ortega Munilla, Cleopatra). En muchos contextos se 
+asimilan a los inductores negativos el indefinido poco y el adverbio solo: Cuenta con 
+{pocos~*algunos~*muchos} que lo respeten; Hay pocos que sepan de eso (‘No hay 
+prácticamente nadie que sepa de eso’). Repárese, en el mismo sentido, en que Solo 
+tiene un amigo que sea verdaderamente inteligente contrasta marcadamente con *Tiene 
+un amigo que sea verdaderamente inteligente, sin inductor modal. 
+
+25.4.2e Induce igualmente el subjuntivo la interrogación en las oraciones de re- 
+lativo dependientes de los indefinidos alguien, algo, alguna cosa: ¿Encontraste a al- 
+guien que te echara una mano?; ¿Hay algo más que desee usted añadir? También actúa 
+como inductor el imperativo en oraciones como Dile algo que le guste; Quédate con 
+ella y Dame lo que te parezca (Marsé, Teresa). 
+
+
+25.4.2f Favorecen asimismo el subjuntivo en las subordinadas de relativo ciertas 
+expresiones comparativas, sobre todo de igualdad. Se asimilan a esta pauta los ver- 
+bos parecer y semejar: 
+
+
+25.4.2g 
+
+
+El verbo (III). El modo 
+
+
+486 
+
+
+Vallejo era sombrío tan solo externamente, como un hombre que hubiera estado en 
+la penumbra (Neruda, Confieso); El Café, antes de media hora, quedará vacío. Igual que 
+un hombre al que se le hubiera borrado de repente la memoria (Cela, Colmena); [...] ya 
+que, en verdad, la altura semejaba un suelo que ella viera desde el techo (Lúea Tena, 
+Renglones). 
+
+Como en otros muchos casos, el indicativo es posible en estos contextos si se desea 
+hacer referencia a seres particulares. Las expresiones superlativas, por su parte, in- 
+ducen con frecuencia el subjuntivo en las oraciones de relativo que contienen, sobre 
+todo en la lengua literaria. En la conversación informal predomina, en cambio, el 
+indicativo: El mejor asado criollo que yo {he ~hay a} probado. 
+
+25.4.2g En general, los contextos definidos ofrecen más restricciones al empleo 
+del subjuntivo que los indefinidos en las oraciones de relativo, como se comprueba 
+en No encontré {un~*al} vigilante que tuviera las llaves de la oficina. Sin embargo, en 
+los contextos prospectivos y en los genéricos, el subjuntivo resulta más claramente 
+compatible con los grupos nominales definidos: Le daré la cantidad que me pida; 
+Memorizaría en una semana el texto que me correspondiera; Buscan al médico que sea 
+capaz de curarla. 
+
+25.4.2h Se registran ciertos contextos en los que el subjuntivo de las relativas 
+carece de un inductor propio contiguo a él, de forma que es inducido por otro sub- 
+juntivo. Se trata de casos de inducción mediata o a distancia, semejantes a los ya 
+vistos para las subordinadas sustantivas (§ 25.3.5e). Por ejemplo, en Elegirán a una 
+persona que sepa lenguas que ellos desconozcan (en alternancia con el indicativo, que 
+no requiere inductor), el modo de desconozcan está inducido por el de sepa, que a su 
+vez lo está por el futuro elegirán. 
+
+25.4.2Í Si bien la ausencia de un inductor apropiado provoca a menudo el recha- 
+zo del subjuntivo en las oraciones de relativo, estos usos sin inductor aparente se 
+admiten en las oraciones de relativo que adquieren un sentido final, por tanto, 
+prospectivo, como en Le hicimos un torniquete que detuviera la sangre o en La mu- 
+nicipalidad ha construido dos nuevos parques en los que se paseen los vecinos. Cabría 
+pensar, no obstante, que el sentido de finalidad procede de un auxiliar modal encu- 
+bierto (como si se dijera en el primer ejemplo ‘... que le pudiera detener la sangre’), 
+ya que estos auxiliares son inductores del subjuntivo (§ 25.4.2c). Este valor final se 
+reconoce también en las relativas de infinitivo (§ 46.1.2b), restringidas igualmente a 
+los contextos en que se sobrentiende el verbo modal poder, como en un libro con el 
+que entretenerme (‘con el cual poder entretenerme’) o en un pozo del que sacar agua 
+(‘del cual poder sacar agua’). De hecho, cuando no es posible suponer este verbo 
+modal, la relativa de infinitivo resulta forzada o anómala: *Esta es una nota de pie de 
+página de la que prescindir. 
+
+25.4.2j Los adverbios relativos cuando, donde y como forman oraciones de re- 
+lativo (§ 22.5). El modo se elige en ellas a través de mecanismos semejantes a los 
+analizados en esta sección. Así, el subjuntivo está inducido por el futuro tanto en 
+El que quiera medrar en política tendrá que empezar haciendo una escabechina 
+(Mundo [Esp.] 10/11/1994) como en Cuando quiera deshacerme de él no me darán 
+
+
+487 
+
+
+Elección del modo con las partículas 
+
+
+25.5.1b 
+
+
+más de quinientos ases. El imperativo induce de forma análoga el subjuntivo en 
+Llámame cuando puedas y en Hazlo como te parezca. El subjuntivo también puede 
+ser inducido por la interrogación, como puede verse en ¿Existe acaso un lugar 
+donde no se den esos problemas? Sobre la construcción « cuando + futuro», véase 
+el § 23.7.1c. 
+
+
+25.5 Elección del modo con las partículas 
+
+25.5.1 Elección del modo con las conjunciones subordinantes 
+
+Muchas conjunciones subordinantes introducen contextos de alternancia mo- 
+dal, pero son también numerosas las que fuerzan la aparición de un único modo, sea 
+indicativo o subjuntivo, en función de su significado. 
+
+25.5.1a La conjunción condicional si se construye con indicativo y con algunos 
+tiempos de subjuntivo: cantara, hubiera o hubiese cantado y cantare, este último 
+prácticamente desaparecido (§ 47.4.1 d). En cambio, fuerzan la aparición del subjuntivo 
+las restantes conjunciones y locuciones conjuntivas condicionales (como, con tal (de) que, 
+a condición de que, a no ser que, a menos que, etc.), como se ejemplifica a continuación: 
+
+Tú, Carlitos, como vea yo que estás averiguando quién es la más rica del pueblo, te doy 
+una patada en donde te deje soltero para toda la vida (Fernán Gómez, Viajé); Con tal de 
+que no sea de verdad una cosa grave (Rulfo, Pedro Páramo); Daría una gratificación 
+de diez mil soles a su madre a condición de que el muchacho fuera cura (Vargas Llosa, Tía); 
+Era absolutamente necesario esperar, a no ser que quisiera volverme loco (Benítez, 
+Caballo); Él sabe que esa atención no durará, a menos que diga algo inteligente (Quesa- 
+da, Banana). 
+
+Cuando al significado durativo añaden el condicional, se construyen también con 
+subjuntivo mientras, siempre que, siempre y cuando: Mientras haga bien su trabajo, 
+no habrá problemas; Estoy dispuesto a ir, siempre que me avise a tiempo; Sufriendo se 
+entienden las personas, siempre y cuando no sea el sufrimiento agudo, sino crónico 
+(Pombo, Metro). 
+
+25.5.1 b Las partículas salvo y excepto se suelen situar hoy entre las conjunciones 
+subordinantes (§ 31.6.3) y pueden construirse con término oracional (salvo que..., 
+excepto que...). Introducen alguna excepción a la generalización establecida en 
+el contexto anterior o posterior a ellas, entorno que suele determinar el modo de la 
+subordinada sustantiva con la que se construyen. Así, se elige el indicativo en Miedo 
+de que no sé nada de ti, excepto que me puedes perder (Millás, Desorden) porque la 
+subordinada depende del verbo saber. Ambas conjunciones se usan en subjuntivo 
+cuando tienen el sentido de ‘a menos que’: Ahora no hay mucha demanda, señorita, 
+salvo que usted quiera trabajar fuera de Madrid (Cela, San Camilo); No se puede llevar a 
+cabo la detención de este sujeto, excepto que sea en casos muy especiales (Siglo 29/5/2001), 
+pero también cuando admiten paráfrasis en las que se niega el contenido de las pro- 
+posiciones que introducen: Confesó todo, salvo que hubiera matado al mayordomo 
+(es decir, ‘No confesó que hubiera matado al mayordomo’). 
+
+### Manual §25.5.1a to 25.5.1f (OCR lines 40082 to 40222)
+
+
+488 
+
+
+25.5.1 C Entre las partículas temporales, el adverbio relativo cuando (§ 25.4.2j), la 
+conjunción mientras (en el sentido de ‘durante el tiempo en que’) y las locuciones con- 
+juntivas siempre que, una vez que y luego que admiten ambos modos, pero rechazan el 
+futuro de indicativo y el condicional: No tendrás problema mientras {*vivirás~vivas} 
+allí; Le dijo que no tendría problemas cuando {*viviría -viviera } allí. Alternan así el in- 
+dicativo en Luego que salió de la cárcel fue a ver a su esposa (Fernández Lizardi, Peri- 
+quillo ) y el subjuntivo en Luego que salga, le daré las buenas noches y me marcharé 
+(Galdós, Episodios ). Al igual que en otros casos, el subjuntivo requiere un inductor 
+modal de valor prospectivo, como el imperativo: Respóndeme siempre que puedas 
+(Gala, Invitados ) o el futuro: Una vez que sean aceptados, ya no correrá usted ningún 
+peligro (Mármol, Amalia). De modo similar se comportan a medida que, conforme y 
+según: Conforme vayas repitiendo las palabras que yo diga, te irás quedando dormida 
+(Rulfo, Pedro Páramo). Las subordinadas que complementan al adverbio antes se 
+construyen siempre con subjuntivo: antes de que {* amanece ~ amanezca}, pero en las 
+temporales con después alternan los dos modos. Si se alude a una situación futura se 
+usa el subjuntivo, mientras que si se describen hechos presentes o pretéritos es posible 
+también el indicativo, sin diferencia apreciable de significado entre ambas variantes. 
+En estos contextos es más frecuente el indicativo en el español americano: Los caliés 
+se llevaron a Manuel esta madrugada, poco después de que saliste de allá (Vargas Llosa, 
+Fiesta). El subjuntivo, también registrado en América, es la opción mayoritaria en 
+el español europeo: Más de un siglo después de que mi bisabuelo juera abandonado en la 
+inclusa, conserva intacto el dolor de la injuria (Muñoz Molina, Jinete). 
+
+25.5.1 d Entre las conjunciones que encabezan las oraciones concesivas (§ 47.6), 
+eligen indicativo a sabiendas de que, y eso que, si bien y con lo que. Se construyen con 
+subjuntivo así ( así me lo pidas de rodillas), mal que ( mal que me pese) y a riesgo de que. 
+El subjuntivo es también el modo más frecuente en las construcciones discontinuas 
+por mucho... que, por muy... que y por más... que ( por muchos libros que lea, por muy 
+alto que sea, por más lejos que esté). Aceptan ambos modos aunque y las locuciones 
+preposicionales pese aya pesar de. Las diferencias en la elección del modo en 
+las prótasis concesivas dependen del tipo al que pertenezcan. Las prótasis hipotéticas 
+equivalentes a ‘en el supuesto de que’ se construyen con subjuntivo ( Aunque insistas 
+no te hará caso), mientras que las factuales, referidas a hechos que se dan por cier- 
+tos, admiten también el indicativo: Aunque lo {intento ~ intente} todos los días, nunca 
+consigo hablar con él. El subjuntivo de las prótasis factuales es de carácter temático o 
+bien polémico. El temático (§ 25.3.3c) indica que la información introducida con 
+aunque, pese a que o a pesar de que se interpreta como parte del trasfondo infor- 
+mativo, es decir, de lo que se da por conocido o por experimentado: Las autoridades 
+sanitarias del país han aprendido, aunque suene obvio, dos lecciones muy importantes 
+(Proceso [Méx.] 14/7/1996); La acción sucedería pura y exclusivamente adentro, a pe- 
+sar de que figuren el gordo Valverdey los chinos (Pitol, Juegos). El subjuntivo llamado 
+polémico (§ 25.3.5b) se usa en las réplicas, como en Bueno, pues aunque no te guste..., 
+que reproducen alguna afirmación previa para contradecirla o desestimarla, al igual 
+que No es que me guste y otras construcciones similares. En cambio, las prótasis 
+construidas con «aunque + indicativo» tienen valor asertivo. Transmiten, pues, 
+información presuntamente no conocida, como en Porque Daniel, aunque parecía desear 
+que lo creyeran como todos, era muy diferente (Rivarola, Yvypora). Se dan más detalles 
+en los § 40.1.1b y 47.6.3. 
+
+
+489 
+
+
+Elección del modo con las partículas 
+
+
+25.5.1Í 
+
+
+25.5.1 e Muchas de las construcciones consecutivas (§ 45.6) muestran alternan- 
+cias modales. Con los grupos sintácticos consecutivos intensivos, como Son tan fuer- 
+tes que no se los puede derrotar, el verbo aparece habitualmente en indicativo, pero 
+es posible también el subjuntivo, inducido por un elemento externo, como la nega- 
+ción (No son tan fuertes que no se los pueda derrotar), la interrogación (¿Tan fuertes 
+son que no se les pueda derrotar?) o los elementos que introducen contextos prospec- 
+tivos: los imperativos (Esfuércense tanto que nadie les haya de llamar la atención) y la 
+preposición para (para que haya tantos globos que cubran el cielo). Las locuciones 
+conjuntivas (§ 31.6.1 e) deforma que —es decir, ‘de (una) forma (tal) que’—, de manera 
+que y de modo que actúan por sí mismas como inductores del subjuntivo en la llama- 
+da interpretación consecutivo-final. Así, en Está presentando el informe de ma- 
+nera (tal) que todos queden satisfechos, la locución de manera que indica una forma 
+particular en la que se hace algo, orientada hacia la consecución de cierto objetivo. 
+En cambio, en su uso ilativo (§ 46.8.1 y 46.8.4a) estas locuciones encabezan una 
+estructura, separada del predicado principal por una pausa, que adquiere un sentido 
+parafraseable como ‘y como consecuencia de ello’. El modo característico de estos 
+contextos es el indicativo: Ni su padrastro ni su madre llegaban nunca antes de las 
+diez, deforma que su casa era un territorio libre (Etxebarria, Beatriz). No obstante, 
+cuando la interpretación final alcanza a estas construcciones puede aparecer el sub- 
+juntivo: Este le respondió a Coster con una carta [...] de modo que pudiese enseñarla a 
+las autoridades (Volpi, Klingsor). Entre las restantes conjunciones y locuciones con- 
+juntivas ilativas, de ahí que admite los dos modos, aunque con claro predominio del 
+subjuntivo: Y de ahí que el cambio consista en que la fe se vuelva y se desplace ahora 
+hacia la materialidad de la palabra (Sánchez Ferlosio, Homilía). Las demás (conque, 
+luego, así que, etc.) se construyen con indicativo. 
+
+25.5.1f Las conjunciones y las locuciones conjuntivas causales (§ 46.2) intro- 
+ducen el indicativo en ausencia de algún elemento externo que induzca el subjun- 
+tivo: Estoy aquí porque me {han~*hayan} llamado; Saldremos mañana, ya que no 
+{queda~*quede} nada que hacer ; Como {estoy ~*esté} resfriado, me abrigo bien la 
+garganta; Y como quiera que lo único que hoy tenemos en España es ignorancia y 
+orgullo, no se puede pedir más perfecta representación de lo que somos (Ganivet, 
+Trabajos). Aunque este último texto respeta la grafía original, hoy se recomienda 
+escribir comoquiera que, en lugar de como quiera que. Las oraciones introducidas por 
+la conjunción porque se construyen con subjuntivo cuando se hallan bajo el ámbito 
+de la negación: 
+
+Mi papá es un preso pero no porque haya matado o robado o llegado tarde a la escue- 
+la (Benedetti, Primavera)-, No es porque sea mi hijo, pero él vale mucho y merece otra 
+cosa (Buero, Escalera); [...] pero no porque yo haya decidido acompañarla o ni siquiera 
+porque tenga la costumbre de hacerlo (Marías, J., Corazón). 
+
+El subjuntivo asegura en estas construcciones que el contenido negado es el que 
+aporta la subordinada causal, incluso cuando aparece antepuesta, como en Porque 
+sea la Navidad no vamos a tirar la casa por la ventana; Porque él se crea un ídolo 
+no hemos de adorarlo. En cambio, con indicativo se niega el verbo principal. Así pues, 
+en No habló con él porque estaba enojada, se dice que la causa por la que alguien no 
+habló con otra persona fue su enojo; en cambio, en No habló con él porque estuviera 
+
+
+25.5.2a 
+
+
+El verbo (III). El modo 
+
+
+490 
+
+
+enojada se da a entender que la conversación se produjo, y se añade que no fue por 
+causa del enojo, sino por otra razón que no se menciona. 
+
+
+25.5.2 Elección del modo con preposiciones, adverbios 
+e interjecciones 
+
+25.5.2a Se construyen en subjuntivo las subordinadas sustantivas que ejercen la 
+función de término de las preposiciones sin y para: Lo hizo sin que su madre se 
+diera cuenta; La invitó para que viera que aún la quería, y también de a y por cuando 
+expresan finalidad (§ 46.1.1b y 46.5.2), como en La juventud debe luchar por que la 
+libertad sea una realidad ( Hora 19/7/2000). También introducen subjuntivo nume- 
+rosas locuciones preposicionales, como a costa de, a efectos de, a fin de, a instancias 
+de, a tiempo de, al abrigo de, al margen de, con miras a, con visos de, en contra de, en 
+detrimento de, en espera de, en lugar de, en orden a, en perjuicio de, en prevención de, 
+en vez de, en vísperas de y so pena de. Muchas de estas locuciones se refieren a situa- 
+ciones futuras, en especial a lo que se desea alcanzar o prevenir, así como a diversas 
+situaciones no experimentadas. De este modo, la proximidad entre en prevención 
+
+### Manual §25.5.2a to 25.5.2d (OCR lines 40222 to 40290)
+situaciones no experimentadas. De este modo, la proximidad entre en prevención 
+de y para que no pone de manifiesto contenidos negativos similares. Con hasta y desde 
+se elige el subjuntivo en el entorno de los predicados de sentido prospectivo (Has 
+de trabajar hasta que te canses). El subjuntivo con desde es raro fuera de la correlación 
+desde... hasta..., como en Quiero que trabajes desde que yo me vaya hasta que vuelva. 
+
+25.5.2b Los adverbios encima y además admiten subordinadas sustantivas como 
+complemento preposicional, normalmente en indicativo: Encima de que se trata de 
+una misión difícil, Scavino me tiene entre ojos (Vargas Llosa, Pantaleón); Pero Don 
+Diego había perdido la serenidad, y la inteligencia se le extraviaba, además de que las 
+argucias del escribano lo habían aligerado de sus mezquinos ahorros (Mujica Lainez, 
+Escarabajo). La misma pauta se extiende a después cuando equivale a encima, como 
+en Uno de los periodistas peruanos residentes en Quito le había tachado de agente del 
+Gobierno “después de que le dimos todo tipo de facilidades para que realizase su trabajo” 
+(Mundo [Esp.] 10/2/1995). Para el modo en los usos temporales de después véase 
+el § 25.5.1c. 
+
+25.5.2c Los adverbios de duda y de posibilidad, como quizá(s), tal vez, acaso, a 
+{lo~la} mejor, posiblemente, probablemente, seguramente se caracterizan por inducir 
+indicativo o subjuntivo dentro de su propia oración. El subjuntivo puede aparecer 
+en estas construcciones si el adverbio precede al verbo y no está separado de él por 
+una pausa. Así, junto a Quizá {oyó~oyera} la conversación, se obtiene {Oyó~*oyera} 
+quizás la conversación; del mismo modo, Posiblemente {es~sea} lo mejor contrasta con 
+{Es~*sea}, posiblemente, lo mejor; y Probablemente {vendrá~venga} se opone a Pro- 
+bablemente, {vendrá~*venga}. Cuando ambos modos son posibles, la elección depen- 
+de en gran medida de la manera en que se interprete la estructura informativa de la 
+oración. Se suele preferir el subjuntivo si la información introducida no es focal o no 
+se presenta como nueva (§ 40.3). Así, la información que aporta el sujeto de la subor- 
+dinada en Tal vez sea cierto que la naturaleza pone en marcha sus propios mecanismos 
+de supervivencia (Regás, Azul) se presenta como si fuera compartida por el oyente, a 
+diferencia de lo que sucedería con el indicativo (Tal vez es cierto...). Expresan asi- 
+
+
+491 
+
+
+Elección del modo con las partículas 
+
+
+25.5.2d 
+
+
+mismo duda o posibilidad la locución adverbial capaz (que), usada en casi todos los 
+países americanos. Se suele construir con indicativo: Y capaz que no se va (Hayen, 
+Calle), pero no rechaza el subjuntivo: Ojo que estos datos capaz que no sean exactos 
+( Clarín 21/10/1987). La locución puede que (solo semilexicalizada en algunos países 
+americanos: § 28.2.1 b) se construye siempre con subjuntivo, como en Tú ríete, puede 
+que estés hablando con un genio (Landero, Juegos). El adverbio de duda igual, propio 
+de la lengua coloquial de varios países, se usa solo con indicativo: Claro que igual 
+no me veían, porque los fantasmas pueden ver pero a ellos no se les ve (Martín Gaite, 
+Nubosidad). 
+
+25.5.2d Las interjecciones que se construyen con oraciones subordinadas suelen 
+hacerlo solo con uno de los dos modos, por tanto sin alternancia. A partir de la es- 
+tructura «ser una lástima que + subjuntivo» se crea la interjección lástima, que se 
+construye con el mismo modo: ¡Lástima que de este poema tan en la cuerda del autor 
+no queden más que rasguños sueltos! (Menéndez Pelayo, Heterodoxos). Lo mismo 
+ocurre con ojalá (que), considerado por unos adverbio y por otros interjección: Ojalá 
+todo salga bien (Rulfo, Pedro Páramo); Ojalá que Hugo no acabe haciendo una de las 
+suyas (Guelbenzu, Río). Así se asimila a las interjecciones, por lo que induce el sub- 
+juntivo en oraciones como Así te mueras, cabrón (Trapiello, Amigos). Las expresio- 
+nes adverbiales por fin, finalmente, al fin y otras similares favorecen a veces el 
+subjuntivo en las subordinadas relativas cuando se usan en contextos exclamativos, 
+como muestra el contraste entre Por fin dices algo que tenga sentido (en alternancia 
+con el indicativo) y *Dices algo que tenga sentido. 
+
+
+
+26 El verbo (IV). Las formas 
+
+### Manual §43.4.1a to 43.4.2 (OCR lines 59210 to 59287)
+43.4 Discurso directo y discurso indirecto 
+
+43.4.1 Caracterización 
+
+43.4.1a Se llama discurso directo al que reproduce de forma literal palabras 
+o pensamientos. Suele aparecer con un verbo introductor que ocupa diversas posi- 
+ciones. Cuando el verbo sigue a la oración que expresa el contenido citado, el sujeto 
+aparece pospuesto a él, como se aprecia en los ejemplos siguientes: 
+
+¡Kus-Kus, por Dios, pero si todavía no es la hora, lo tengo todo sin hacer, todavía estoy 
+sin arreglarme...! —exclamó tía Eugenia (Pombo, Héroe); En algo tenías que acertar 
+—opinó Emilia—, después de media vida de lociones y potingues (Diez, Fuente). 
+
+43.4.1 b En el discurso indirecto se reproducen las palabras de otro adaptán- 
+dolas al sistema de referencias deícticas del hablante. Así, el fragmento en discurso 
+directo Elsa dijo: “Mi hermana está aquí” puede pasar al discurso indirecto en la 
+forma Elsa dijo que su hermana estaba allí. En los dos tipos de discurso es posible 
+introducir fragmentos sintácticos menores que la oración, como en Ella respondió: 
+“A las cuatro” o en Me contestó que bueno ( Mundo [Esp.] 21/9/1995). 
+
+
+43.4.1c 
+
+
+Oraciones subordinadas sustantivas 
+
+
+834 
+
+
+43.4.1c Algunos gramáticos denominan interrogativas indirectas propias a 
+las que trasladan el discurso directo. Su característica sintáctica más notable es que 
+están introducidas por la conjunción que. Así, la oración Le preguntó que cuándo 
+llegaba el tren se corresponde con Le preguntó: “¿Cuándo llega el tren?”. En estos 
+casos la conjunción que es potestativa con preguntar, pero es forzosa con los demás 
+verbos de lengua que introducen el estilo directo (decir, gritar, chillar, susurrar) si se 
+quiere indicar que lo que se transmite es una pregunta. En efecto, en la oración Le 
+dijo cuántos habían asistido al concierto se dice que alguien comunicó a otra persona 
+el número de asistentes, mientras que en Le dijo que cuántos habían asistido al 
+concierto se dice que alguien formuló cierta pregunta. Se rechaza la conjunción con 
+los verbos que no introducen el discurso directo, aunque sean verbos de lengua, 
+como en Elsa nos contó {por qué~*que por qué} había fracasado el proyecto. La 
+variante con que es compartida también por las interrogativas totales (Le preguntó 
+que si hacía frío), por las interrogativas que dependen de ciertos sustantivos (No 
+hacía más que repetir la pregunta de que cuándo le tocaba a él) y por las exclamativas 
+indirectas, como se vio en el apartado precedente: No es imposible que él replicara que 
+qué preparación tenía ella para sustituir a la Castell (Lúea Tena, Renglones). 
+
+
+43.4.2 Relaciones entre el estilo directo y el indirecto 
+
+El discurso indirecto está sujeto a cierta indeterminación, puesto que el receptor 
+no siempre es capaz de reconstruir a través de él las palabras pronunciadas en el 
+discurso directo correspondiente. Ello se debe a que quien las transmite puede aten- 
+der más a los contenidos expresados que a literalidad del mensaje. Así, el que tras- 
+lada al discurso indirecto un enunciado relativo a Cervantes, puede usar el término 
+el autor del Quijote como expresión propia, por tanto no presente literalmente en el 
+texto que se reproduce. La indeterminación se debe también a un segundo factor 
+(introducido en el § 43.4.1 b): mientras que en el estilo directo el discurso se estructura 
+en torno al narrador, es decir, al emisor de las palabras que se trasmiten, en el indirec- 
+to se estructura en torno al hablante. Esta diferencia da lugar a cambios en los centros 
+deÍcticos (§ 17.1.1) si el narrador y el hablante no comparten el mismo espacio y el 
+mismo tiempo. Puede alterarse, en primer lugar, la deixis personal que reflejan los 
+pronombres personales, los posesivos o el verbo. Así, a “Preséntame a tu novia” le 
+corresponde Dice que le presente a mi novia. El cambio puede afectar, igualmente, a 
+la deixis espacial (marcada con demostrativos, ciertos verbos como ir/ venir, lle- 
+var/ traer): “Lleva esa caja” > Me ha dicho que traiga esta caja. En cuanto a la deixis 
+temporal, la alternancia se produce en determinados adverbios, adjuntos tempora- 
+les y, sobre todo, en los tiempos verbales, de acuerdo con sus respectivos valores 
+(§ 24.3.1c y 24.3.2). En consecuencia, a la oración “Pablo fue ayer a la capital y tiene 
+que volver mañana” corresponde en el discurso directo Dijo que Pablo había ido el 
+día anterior a la capital y que tenía que volver al día siguiente. 
+
+
+44 Oraciones subordinadas 
+de relativo 
+
+
+
+### Manual §44.1.1a, 44.1.1b (OCR lines 59300 to 59340)
+44.1 Características fundamentales de las oraciones de relativo 
+
+44.1.1 Pronombres, adverbios y determinantes relativos 
+
+44.1 .1 a Se denominan oraciones subordinadas de relativo (también oraciones 
+
+relativas o simplemente relativas) las encabezadas por un pronombre, adverbio 
+o determinante relativo, o bien por los grupos sintácticos que estas voces forman. En 
+el primero de los dos ejemplos siguientes, la subordinada de relativo aparece enca- 
+bezada por el pronombre relativo que; en el segundo, por el grupo preposicional con 
+la cual, que contiene un pronombre relativo: 
+
+Le pregunté quién le había contado la historia que contaba en el libro (Cercas, Soldados ); El 
+universo sería demasiado aburrido sin una mujer con la cual compartirlo (Volpi, Klingsor). 
+
+44.1.1b Como se explica en el § 22.1.1c, los pronombres relativos del español son 
+que, quien y cuanto (el último también usado como adverbio y como determinante: 
+cuantos deseos tenga), a los que se agregan las formas creadas con el relativo cual y el 
+artículo determinado (el cual/ la cual/ lo cual/ las cuales/ los cuales). El relativo que 
+no posee flexión; el pronombre quien se flexiona en número (quien/ quienes), mien- 
+tras que cuanto lo hace en género y número (cuanto/ cuanta/ cuantos/ cuantas: 
+§ 22.1.1b). Son asimismo relativos el determinante posesivo cuyo (§ 22.4.1), que se 
+flexiona en género y en número (cuyo/ cuya/ cuyos/ cuyas), y los adverbios donde, 
+adonde, como y cuando (§ 22.5.1-4), además del citado cuanto (Duerme cuanto quie- 
+ras). En los ejemplos que siguen se subrayan los relativos y se encierran entre 
+corchetes las oraciones subordinadas relativas: 
+
+Solo se acercó a socorrerlo una nodriza [que todavía empuñaba el biberón en una mano] 
+(Martínez Estrada, Cabeza); El hombre [para quien cada suelo es como el suyo propio] ya 
+
+
+44.1.2a 
+
+
+Oraciones subordinadas de relativo 
+
+
+836 
+
+
+es fuerte, pero solo es de imitar el hombre [para quien el mundo entero es como un 
+
+### Manual §44.1.4a to 44.1.4c (OCR lines 59467 to 59505)
+44.1.4 Clases de oraciones relativas 
+
+44.1.4a Las oraciones de relativo pueden estar introducidas por un relativo sim- 
+ple o bien por uno complejo, de acuerdo con la caracterización que de ellos se ha 
+hecho en el § 44.1.3. En las introducidas por un relativo complejo es frecuente que 
+este vaya precedido de preposición, razón por la cual las oraciones de este tipo se 
+denominan a veces relativas preposicionales. Se profundizará más en estas dis- 
+tinciones en el § 44.2. 
+
+44.1.4b Las subordinadas de relativo admiten dos variantes que dependen de la 
+forma en que la oración ejerce su función modificadora. Así, en Los documentos que 
+se salvaron del incendio serán fundamentales en el juicio aparece una relativa espe- 
+cificativa o restrictiva, mientras que la subrayada en Los documentos, que se sal- 
+varon del incendio, serán fundamentales en el juicio es una relativa explicativa, 
+también llamada apositiva o incidental. La diferencia esencial entre ambas radica 
+en que las primeras precisan la denotación del grupo nominal del que forman parte, 
+de modo que en el ejemplo propuesto con oración especificativa se expresa que no 
+todos los documentos serán fundamentales, sino solo los que se salvaron del incen- 
+dio. Las explicativas agregan, en cambio, cierta información, pero no restringen la 
+denotación del grupo nominal: en el ejemplo mencionado con oración explicativa se 
+entiende que todos los documentos serán fundamentales y que todos los documen- 
+tos se salvaron del incendio. Ambas se caracterizan, además, por rasgos entonativos 
+diferentes y por otras propiedades que se analizarán en el § 44.3. Las relativas libres 
+y semilibres (§ 44.1.2c, d) constituyen una subclase de las especificativas. Así, la ora- 
+ción subrayada en el examen para [los que deseen mejorar la calificación] es una rela- 
+tiva especificativa, integrada en la relativa semilibre que está encerrada entre 
+corchetes y que constituye un grupo nominal. 
+
+44.1 .4c Las relativas que tienen antecedente expreso ejercen una función similar 
+a la de los demás modificadores del sustantivo. Así, la oración subrayada en una his- 
+toria que muy bien puede no haber ocurrido desempeña la misma función que los 
+modificadores subrayados en una historia imaginaria o una historia de ficción. Por 
+este motivo, en la tradición gramatical se ha denominado a estas oraciones subordi- 
+nadas adjetivas. Aun así, entre los adjetivos y las subordinadas de relativo existen 
+diferencias en cuanto a su posición sintáctica (solo posnominal en las segundas), 
+y también en lo relativo a las funciones que pueden ejercer. En efecto, las subordi- 
+nadas con antecedente expreso no ejercen la función de atributo en las oraciones 
+copulativas: Los niños parecían {débiles ~ *que estaban débiles}, pero en ciertas 
+
+
+### Manual §44.3.2a to 44.3.2i (OCR lines 59927 to 60046)
+44.3.2 Diferencias semánticas y sintácticas entre relativas 
+especificativas y explicativas 
+
+44.3.2a Las relativas especificativas son modificadores que precisan la denota- 
+ción del grupo nominal del que forman parte, mientras que las explicativas son 
+modificadores que se agregan a modo de incisos y son menos dependientes de su 
+antecedente que las primeras. Como consecuencia de ello, se pueden omitir a menudo 
+sin que resulten afectadas las condiciones de verdad del resto del enunciado. Así, si 
+es verdadero el enunciado Ayer solo salió un tren, que transportaba mineral, también 
+lo será Ayer solo salió un tren. En cambio, la supresión de la relativa especificativa 
+en la oración Ayer solo salió un tren que transportaba mineral altera las condiciones 
+de verdad del enunciado, ya que este es compatible con una situación en la que se 
+haya producido en la misma fecha la salida de otros trenes, siempre que no transpor- 
+taran mineral. 
+
+44.3.2b A la vista del distinto nivel de incidencia de los dos tipos de relativas, se 
+suelen diferenciar los antecedentes de unas y otras: en el caso de las explicativas, el 
+antecedente está constituido por todo el grupo nominal precedente, mientras que 
+el de las especificativas incluye el núcleo y sus complementos, pero no los determi- 
+nantes y los cuantificadores. La relativa restrictiva queda, pues, bajo el ámbito de los 
+cuantificadores numerales, mientras que la explicativa queda fuera de él. Esta di- 
+ferencia sintáctica tiene consecuencias semánticas. En efecto, cuando se dice Al 
+acto asistieron cuatro embajadores que representaban a los países de la Unión Eu- 
+ropea, no se está afirmando que el número de embajadores presentes en el acto fuera 
+cuatro, sino que ese número corresponde al de los que representaban a la Unión 
+Europea. Por el contrario, con una subordinada explicativa, Al acto asistieron cuatro 
+embajadores, que representaban a los países de la Unión Europea, se indicaría que 
+fueron solo cuatro los embajadores presentes en el acto, a lo que se añade que todos 
+ellos pertenecían a los países de la Unión Europea. 
+
+44.3.2c Las oraciones especificativas son incompatibles con los pronombres 
+personales (*ella que tiene 23 años) y con los nombres propios ( *Mónica que tiene 
+23 años), puesto que ambas unidades coinciden en designar de manera unívoca enti- 
+dades individuales. No son excepciones secuencias como Tú que estás ahí, como se 
+vio en el § 44.3.1c. Los nombres propios construidos con artículo se asimilan a los 
+comunes, como se vio en los § 1 2.5.2c, d, por lo que es esperable que admitan las re- 
+lativas especificativas: el Octavio Paz que más me gusta, una Isabel que sorprendió a 
+todos, la Argentina que ganó la copa del mundo de fútbol en 1978. En el español 
+europeo y en el de algunos países americanos las relativas especificativas son incom- 
+patibles con los posesivos prenominales: *su prima que vive en Buenos Aires (frente 
+a su prima, que vive en Buenos Aires, con explicativa). Véase también, en relación 
+con esta construcción, el § 18.2.1c. 
+
+44.3. 2d Solo las relativas explicativas admiten antecedentes oracionales. Es- 
+tas oraciones incorporan el contenido de la oración principal para convertirlo en 
+argumento o adjunto de la subordinada. Los relativos que introducen esta subclase 
+de relativas son el pronombre que, los pronombres complejos lo cual y lo que, así 
+como el adverbio relativo como: 
+
+
+847 
+
+
+Diferencias entre relativas especificativas y explicativas 44.3.2h 
+
+
+Doña Matilde disparó sobre mí una descarga cerrada de preguntas acerca de las particu- 
+laridades de mi viaje y de las tierras que había visto, a lo que yo contesté [...] (Fernández 
+Lizardi, Quijotitá); Me lo agradecía de antemano, dándome unos besos pegajosos, lo cual 
+me ahogaba de asco y de sorpresa (Mujica Lainez, Escarabajo ); La novia tuvo que pres- 
+cindir de algunas cosas, que fue lo que creó cierto desasosiego entre los invitados de la 
+vieja guardia y rabia casi explícita en mamá Inés (Moreno-Durán, Diana). 
+
+44.3. 2e Las relativas especificativas y explicativas se diferencian en su comporta- 
+miento con los relativos complejos formados con que y cual (§ 44.1.3) y con los pro- 
+nombres quien y quienes. Como se explicó en la introducción al § 44.2.3, las relativas 
+especificativas admiten estos relativos solo si están precedidos de preposición, como 
+en el abogado con quien trabaja, la pared contra la cual chocó, la reunión de la que te 
+hablé, pero los rechazan cuando aparecen sin ella. Las explicativas pueden formarse, 
+en cambio, con los relativos cual y quien sin preposición: La soledad y el silencio de 
+aquel sitio aumentaron la zozobra que se había apoderado de Nata, quien llegó a hacer 
+dúo a la paloma con un lamento ahogado (Acevedo, Nativa); Fundó en 1954 la religión 
+conocida con el nombre de Church ofScientology (Iglesia de la Ciencia), la cual, a pesar 
+de ser muy controvertida, en pocos años se convirtió en un negocio multimillonario 
+( Tiempo [Col] 2/1/1990). 
+
+44.3. 2f Las relativas especificativas pueden construirse con el verbo en infinitivo, 
+
+como en Busco una persona en la {que ~ cual} confiar, o en subjuntivo, como en Hace 
+tiempo que no veo una película que me guste de verdad (se subraya en ambos casos el 
+elemento externo a la oración que induce la presencia del subjuntivo o el infinitivo: 
+§ 24.4.2). Al constituir incisos oracionales, las explicativas quedan fuera del ámbito 
+de tales inductores y se construyen en indicativo, a menos que el inductor del sub- 
+juntivo sea interno a la oración de relativo, como ocurre en Bien lo comprenderá 
+cuando le pasen las tristezas, que ojalá sea pronto (Galdós, Fortunata ), o en Solo podía 
+oponerle mi afán por comprender, participando a la cabeza neutral, casi siempre au- 
+sente, del muchacho Seoane, que tal vez fuera mi hijo (Onetti, Viento). Cabe añadir las 
+fórmulas modales desiderativas, que se forman con subjuntivo no inducido ni selec- 
+cionado por otra expresión: Este, mi señor don Merlín, que Dios guarde y San Jorge, 
+es mi mandado (Cunqueiro, Merlín). 
+
+44.3. 2g En México y varios países centroamericanos se usa mismo que con el sen- 
+tido de el cual en las relativas explicativas, como en Llegaron a su casayle encontraron 
+cierta cantidad de droga, misma que utilizaba para vender a expendios pequeños. Esta 
+construcción no se considera recomendable en la expresión cuidada. 
+
+44.3. 2h En los registros formales se antepone a veces el atributo de las relativas 
+explicativas, como el que se subraya en [...] predicó un famosísimo orador en las exe- 
+quias de don Antonio Campillo, párroco que fue de cierta iglesia (Isla, Fray Gerundio). 
+El sustantivo antepuesto carece de determinante (fiel párroco que fue...) y el verbo de 
+la subordinada presenta marcas gramaticales de aspecto perfectivo. Menores res- 
+tricciones sintácticas presentan los grupos nominales apositivos, como en Rosendo 
+Peláez, médico forense que vivió muchos años en Badajoz, o las construcciones de 
+sentido causal: El muchachito se retorcía, pequeño como era, como una víbora (Rulfo, 
+Pedro Páramo). 
+
+
+44.3.2Í 
+
+
+Oraciones subordinadas de relativo 
+
+
+848 
+
+
+44.3. 2i La lengua tiende a rechazar la acumulación de relativas especificativas no 
+
+coordinadas referidas a un mismo antecedente, como en *el libro que leí que me en- 
+cantó. Esta disposición resulta menos forzada si las relativas son explicativas: Aquel 
+
+### Manual §45.6.1a to 45.6.2c (OCR lines 61443 to 61540)
+45.6 Las construcciones consecutivas 
+45.6.1 Características generales 
+
+45.6.1 a Se llaman consecutivas ponderativas (o simplemente consecutivas) 
+las construcciones formadas por los determinantes cuantificativos tanto/ tan- 
+ta/ tantos/ tantas (o la forma apocopada tan), así como por los determinantes CUA- 
+lificativos tal/ tales, seguidos de una oración subordinada encabezada por la 
+conjunción que. Aceptan asimismo otras variantes, menos frecuentes, que se descri- 
+ben en los apartados siguientes. En las construcciones consecutivas ponderativas se 
+expresa el hecho de que cierto número, cierta cantidad o cierto grado alcanzan un 
+rango o un nivel extremo, de forma que se obtiene como consecuencia el estado de 
+cosas, también extremo, denotado por la oración subordinada: 
+
+Hacían tanto ruido que tuvimos que llamar a la policía; Tan felices se sentían que no se daban 
+cuenta de que todos los miraban; A tal extremo llegaba su generosidad que apenas pensaba 
+en sí mismo; Se acuesta tan tarde y madruga tanto que confunde los días con las noches. 
+
+La distribución de los cuantificadores en las construcciones consecutivas es análoga 
+a la de los correspondientes cuantificadores comparativos (§ 45.1.1c): tantos años, 
+tantas oportunidades, tanto frío, tanta paciencia, tanto loco por aquí, tan caro, tan 
+deprisa o Se cansa tanto que... El demostrativo tal, que no se usa en las construccio- 
+nes comparativas, admite variación de número (tal/ tales), pero no de género. No 
+son equivalentes tanto y tal cuando acompañan a sustantivos contables. La equiva- 
+lencia se da a veces, en cambio, con los sustantivos no contables: tanta alegría ~ tal 
+alegría; tanta rapidez ~ tal rapidez ; tanto calor ~ tal calor. 
+
+45.6.1 b Los determinantes ponderativos encabezan un grupo cuantificativo 
+(tanto y sus variantes) o cualificativo (tal/ tales), como en tan interesante, tantos 
+desvelos, tan lejos, tales obras, en tal medida. El grupo puede quedar reducido al 
+cuantificador, como en Tanto se esforzó que lo consiguió. En el habla conversacional 
+se omite en ocasiones todo el grupo cuantificativo, como en Está que trina (‘... tan 
+enojado...’); Baila que llama la atención (‘... tan bien...’). En el español coloquial de 
+muchos países se utilizan asimismo en esta pauta grupos cuantificativos construidos 
+con «de + adjetivo» sin determinante: Figúrese cómo estará de loco que dice que vio 
+toda la ciudad tumbada por tierra (Asturias, Presidente). 
+
+45.6.1 c Se emplea el indefinido un, más frecuentemente que tal, en los registros 
+informales, como en Hace un frío que pela. No obstante, ambos determinantes son 
+
+
+875 
+
+
+Las construcciones consecutivas 
+
+
+45.6.2c 
+
+
+compatibles, como en Se armó un revuelo tal que... También el cuantificador cada 
+puede introducir complementos consecutivos, como en Daba cada grito que temblaban 
+los cristales. En el habla coloquial se obtienen construcciones consecutivas con la 
+pauta «de un + adjetivo»: Es de un mal gusto que asusta. Otras construcciones consecu- 
+tivas se pueden formar con la conjunción si y el futuro de conjetura (Si será caradura 
+que no piensa devolverme el auto: § 23.7.2), y también con grupos cuantificativos 
+con que, cuánto y otras palabras interrogativas - exclamativas, como en ¡Qué tomaría, que 
+se pasó la noche vomitando! o ¿Dónde diablos estará que no hay forma de encontrarlo? 
+
+
+45.6.2 Las consecutivas suspendidas. Otras construcciones consecutivas 
+
+45.6.2a En las consecutivas suspendidas, características del habla coloquial, la 
+oración subordinada encabezada por que se omite y se suple con la entonación (pun- 
+tos suspensivos en la escritura), como en Dice tales disparates...; Tengo tanto traba- 
+jo...; Se trata con cada tipejo...; Estás de (un) susceptible... o como en —Escoba —dijo 
+Talita, recogiendo seis barajas de un saque. —Usted tiene una suerte... (Cortázar, Ra- 
+yuelo). Las construcciones que se ajustan a la pauta «de + grupo nominal» son raras 
+sin suspensión: Tienen de dinero... 
+
+45.6.2b Se suelen llamar causales - consecutivas las oraciones encabezadas 
+por la expresión de tanto, seguida de varios grupos sintácticos. Estas construcciones 
+pueden incluir las conjunciones que o como. En tal caso se antepone a la conjunción 
+un grupo cuantificativo formado por el cuantificador tanto, como en Costaba reco- 
+nocerlos de tanto plomo que les metieron (Quintero, E., Danza) o en Ya no le puedo ni 
+ver, de tanto como me lo metéis por las narices (Martín Caite, Visillos). Se forma una 
+variante de esta estructura sin conjunción subordinante, como en Del sueño, no se 
+tenía en pie. El adjetivo puro se construye con las preposiciones ay de, y precede a 
+infinitivos y grupos nominales o adjetivales en esta pauta causal - consecutiva: El 
+vestido se caía a trozos depuro viejo; A puro gritar, se quedaron sin voz. Se crean otras 
+expresiones similares con a fuerza de y a base de. 
+
+45.6.2c Las construcciones encabezadas por para y como para se asimilan fre- 
+cuentemente a las subordinadas consecutivas. El cuantificador tanto alterna en ellas 
+con demasiado, suficiente, suficientemente y bastante: No estoy tan sordo como para 
+no oírte; Es demasiado irresponsable como para que le podamos asignar esa tarea ; 
+Tiene suficientes conocimientos como para hacerse cargo de la dirección. Estas cons- 
+trucciones aceptan paráfrasis formadas con consecutivas. Así, el segundo de estos 
+ejemplos equivale aproximadamente a ‘Es tan irresponsable que no le podemos 
+asignar esta tarea’. Algunos gramáticos entienden, sin embargo, que esta proximidad 
+conceptual no convierte en consecutivas las estructuras examinadas. 
+
+
+
+46 Construcciones causales, 
+finales e ilativas 
+
+
+46.1 Introducción. Causa y finalidad 
+
+### Manual §46.1 to 46.2.2b (OCR lines 61557 to 61700)
+46.1 Introducción. Causa y finalidad 
+
+En los tres tipos de construcciones que se analizan en este capítulo se expresan varias 
+relaciones de causa-efecto. La oración subrayada en Se quedaron en casa porque hacía 
+frío se denomina causal, pues expresa la causa cuyo efecto manifiesta la oración 
+principal; la que se marca en Hacía frío, así que se quedaron en casa se denomina ila- 
+tiva y expresa la consecuencia de lo que se afirma en la oración principal; la que se 
+destaca en Se quedaron en casa para no pasar frío introduce el propósito o la finalidad 
+de quedarse en casa, y es, por tanto, una oración final. Las tres construcciones tie- 
+nen propiedades en común, pero las semejanzas entre causales y finales son especial- 
+mente notorias. 
+
+
+46.1.1 Las nociones de ‘causa’ y ‘finalidad’ 
+
+46.1 .1 a Entre los tipos de causas que la tradición filosófica distingue está la causa 
+
+final, que corresponde en la gramática a las oraciones finales. El ejemplo propuesto 
+Se quedaron en casa para no pasar frío ilustra el vínculo que existe entre las nociones 
+de ‘causa’ y ‘finalidad’. En efecto, para no pasar frío expresa la finalidad de la situa- 
+ción consistente en quedarse en casa, pero a la vez el propósito de no pasar frío es la 
+CAUSA de tal situación. Prototípicamente, la información que aportan las subordina- 
+das causales es anterior al estado de cosas designado por el verbo subordinante, esto 
+es, tiene carácter retrospectivo. En cambio, el contenido manifestado por las 
+construcciones finales es prototípicamente prospectivo, es decir, posterior al que 
+expresa el verbo de la oración principal. 
+
+
+46.1.1b 
+
+
+Construcciones causales, finales e ilativas 
+
+
+878 
+
+
+46.1.1b La proximidad entre las ideas de ‘causa’ y de ‘finalidad’ tiene reflejo grama- 
+
+tical, ya que ciertas preguntas formuladas con por qué se pueden contestar con expre- 
+siones encabezadas por para, y viceversa: —¿Por qué repites siempre lo mismo? —Para 
+que me hagan caso de una vez. Por otra parte, causales y finales se coordinan entre sí, 
+como en Les fue franqueado el paso hacia Lisboa, “porque llevaban documentación 
+argentina y para que no perdiesen los pasajes que tenían para viajar ese mismo día a 
+Buenos Aires” (País [Esp.] 1/11/1980). Además, las construcciones con por y porque, 
+típicamente causales, pueden tener valor final, como en Habla en voz baja por no moles- 
+tar o en El anís lo acepto, porque no diga usted que es un desaire (Fernán Gómez, Viajé). 
+
+
+46.1.2 La expresión de la causa y la finalidad 
+
+46.1.2a Las llamadas en la tradición oraciones subordinadas causales (La pe- 
+lícula no obtuvo el premio porque la crítica la atacó demasiado), junto con determina- 
+dos grupos preposicionales (Murió por sobredosis; Se sintió más tranquila gracias a 
+tu presencia), constituyen la manifestación gramatical más característica del con- 
+cepto de ‘causa’. Del mismo modo, las expresiones prototípicas de la idea de ‘finali- 
+dad’ son las llamadas oraciones subordinadas finales (Leía un rato antes de 
+dormir para que le viniera el sueño), así como los grupos preposicionales con para 
+(un nuevo parque para el disfrute de los ciudadanos). 
+
+46.1.2b Los conceptos de ‘causa’ y ‘finalidad’ se expresan o se infieren a menudo 
+por otros medios. Así, tienen valor causal la relativa subrayada en El ministro, que era 
+nuevo en el cargo, no entendió bien la situación, el primer miembro de la coordinación 
+Era de noche y no se veían las huellas y las oraciones subrayadas en Cuando él lo dice, 
+estudiado lo tiene (Alvarado, Cartas I); Si hemos llegado hasta aquí, bien puedo quedar- 
+me hasta el final (Mendoza, Ciudad) o Muerto el perro, se acabó la rabia. Los conteni- 
+dos causales pueden manifestarse también a través de verbos como acarrear en Esta 
+desorganización nos va a acarrear serios problemas. Tienen valor final, por su parte, 
+las relativas de infinitivo (un lugar donde dormir), así como los complementos de ver- 
+bos como destinar, de sustantivos como proyecto o de adjetivos como dispuesto (a). 
+
+
+46.2 Locuciones causales y finales: problemas de segmentación 
+y análisis 
+
+46.2.1 Porque y para que 
+
+46.2.1 a Suele entenderse en la tradición gramatical que porque y para que, intro- 
+ductores prototípicos de las oraciones causales y finales respectivamente, son dos 
+conjunciones o dos locuciones conjuntivas. Desde este punto de vista, las secuencias 
+porque era muy valiente y para que estés más cómoda constituyen oraciones subordi- 
+nadas, segmentables en la forma [porque] [era muy valiente] y [para que] [esté más 
+cómoda], 
+
+46.2.1 b Cabe también pensar que porque era muy valiente o para que estés más 
+cómoda son grupos preposicionales formados por una preposición —por o para— y 
+
+
+879 
+
+
+Locuciones causales y finales: segmentación y análisis 
+
+
+46.2.2b 
+
+
+una oración subordinada sustantiva introducida por que, lo que da lugar a las seg- 
+mentaciones [por ] [que era muy valiente] y [para] [que estés más cómoda]. Un ar- 
+gumento a favor de esta última segmentación es que el lugar de la subordinada 
+sustantiva puede ser ocupado por un grupo nominal o por un pronombre: por su 
+valentía, por eso, para su comodidad, para eso. Incluso es posible la combinación de 
+ambos tipos de construcción: Permanecí inmutable por desidia y porque no me 
+preocupaba si de verdad tenía o no razón (Delgado, Mirada). Un argumento en contra 
+es, en cambio, la dificultad de coordinar la subordinada sustantiva con otra semejante: 
+*Se hará porque tú lo quieres y que los demás están de acuerdo. Este tipo de coordina- 
+ción se obtiene algo más fácilmente con la preposición para, como en Una trampa 
+para que nunca dejemos de empujar y que todo siga igual (Bucay, Recuentos ), pero no 
+es tampoco común en los textos. En las secciones que siguen se mantendrá el térmi- 
+no tradicional ORACIÓN subordinada para designar estas construcciones, aunque se 
+aceptará la doble segmentación que permite asignar a secuencias como porque 
+era un cobarde la estructura «conjunción subordinante + oración» o bien la estruc- 
+tura «preposición + oración subordinada sustantiva». 
+
+
+46.2.2 Otras locuciones de valor causal y final 
+
+46.2.2a Con la pauta «preposición + sustantivo + de» se forma un buen número de 
+locuciones preposicionales causales: a causa de, a fuerza de, con motivo de, en razón 
+de, en virtud de, en vista de, por causa de, por razón de. La locución por culpa de im- 
+plica un efecto negativo o desfavorable, a diferencia de la también locución preposi- 
+cional causal gracias a, que supone la valoración contraria. Las locuciones causales 
+y finales se construyen con grupo nominal o con oración de infinitivo, pero muchas 
+pueden combinarse también con una oración de verbo en forma personal, precedida 
+de la conjunción que: a causa de {la llamada~que lo llamaron}. En tales casos cabe 
+interpretar, como en el caso de porque, que se forman locuciones conjuntivas (por 
+tanto, [a causa de que] [lo llamaron]), o bien que el término de la locución preposicio- 
+nal es una subordinada sustantiva (por tanto, [a causa de] [que lo llamaron]). Véase 
+el §46.2.1. 
+
+46.2.2b La doble interpretación puede extenderse a las locuciones de valor final 
+que se ajustan al esquema «preposición + sustantivo + preposición» (con la adición 
+de que si el verbo está en forma personal): a efecto(s) de (que), a fin de (que), al obje- 
+to de (que), con ánimo de (que), con (el) objeto de (que), con intención de (que), con 
+miras a (que), con vistas a (que), en orden a (que). Aun así, el hecho de que la conjun- 
+ción que forme parte muchas veces del segmento sustituible por un pronombre (en 
+orden a que... > en orden a ello) favorece el análisis que asigna ese segmento a la su- 
+bordinada sustantiva, en lugar de a una locución conjuntiva. Aunque se documen- 
+tan en el lenguaje periodístico, no se han incorporado a la lengua culta general a 
+objeto de (que), a virtud de (que), con vista a (que), en vistas a (que). Algunos de estos 
+grupos sintácticos, sobre todo los construidos con la preposición con y los sustanti- 
+vos propósito, deseo, fin, idea y otros similares precedidos de artículo, no están lexi- 
+calizados del todo, por lo que no se asimilan enteramente a las locuciones. Prueba 
+de ello es que admiten el artículo, pueden ser sustituidos por demostrativos ( con el 
+
+### Manual §46.4.1a to 46.4.2c (OCR lines 61866 to 61946)
+46.4.1 Causales del enunciado y causales de la enunciación 
+
+46.4.1 a Las dos secuencias que siguen presentan pautas entonativas diferentes, 
+pero también corresponden a tipos oracionales distintos: Llueve porque esta zona 
+está cerca de la montaña; Llueve, porque la gente lleva paraguas. En el primer ejem- 
+plo puede entenderse que la cercanía de la montaña produce, o al menos favorece, el 
+hecho de que llueva. Por el contrario, la presencia de los paraguas en la segunda no 
+se interpreta como causa de la lluvia, sino como causa de que el hablante infiera, y 
+por tanto comunique, que está lloviendo. La primera oración contiene una subordi- 
+nada causal que corresponde al enunciado (modifica al verbo llover), mientras que 
+la segunda corresponde a la enunciación, más exactamente a un verbo de lengua o 
+de juicio, que no está explícito y que expresa el hecho mismo de emitir esas palabras 
+o el de llegar a la conclusión que se presenta. Una paráfrasis aproximada de la última 
+secuencia podría ser (Digo que) llueve porque la gente lleva paraguas. Las causales de 
+la enunciación son siempre externas al predicado. 
+
+46.4.1 b Así pues, con las causales de la enunciación no se justifica el hecho que se 
+aduce, sino el acto verbal que lo expresa, así como la deducción que realiza el ha- 
+blante. Caben, no obstante, otras interpretaciones. Con el contenido manifestado 
+por la oración causal puede justificarse una amenaza (Cuando yo sea jefe de estudios, 
+
+
+883 
+
+
+Construcciones causales externas al predicado 
+
+
+46.4.2c 
+
+
+esto se va a acabar, porque ya está bien), una petición ( Acércame la sal, que no ¡lego), 
+una pregunta (¿Hace frío? Porque os veo muy abrigados) o un deseo: Hay gringos que 
+en este pueblo no han llegado y ojalá no lleguen porque lo compran todo de una sola vez 
+(Morón, Gallo). 
+
+46.4.1c Las causales de la enunciación suelen ir introducidas por la conjunción 
+porque, pero son posibles otras conjunciones, como se ve en los ejemplos siguientes: 
+
+Ya que Fermín está en su dormitorio, puede usted usar mi habitación (Ruiz Zafón, Som- 
+bra); Puesto que todo es así, puedes morir en cualquier momento con grandiosa futili- 
+dad (Umbral, Mortal); Tampoco estaba cerca, pues no respondía al grito ansioso de 
+Adán (Alegre, Locas). 
+
+46.4.2 Causales explicativas 
+
+46.4.2a Como las causales de la enunciación, son externas al predicado verbal 
+las llamadas oraciones causales explicativas. En estas construcciones, general- 
+mente precedidas de una pausa (y de la coma que la representa), se justifica por 
+qué se considera correcto o adecuado lo expresado en la principal: Había que de- 
+jar las conclusiones de la reunión para el día siguiente, pues aún faltaban datos 
+importantes. Las causales explicativas constituyen recursos argumentativos en 
+los que se omite un supuesto implícito. La premisa implícita en el ejemplo citado 
+es, aproximadamente, ‘Si faltan datos importantes en un asunto, no es apropiado 
+establecer conclusiones definitivas’. Otras veces lo justificado es el uso de un 
+término o de una denominación, como en Si se tratara de votar el proyecto origi- 
+nal, dirigido a la pesca incipiente y a la de investigación, yo diría: estoy dispuesto. 
+Porque tales eran los términos de texto inicial (Senado [Chile] 2/4/1996), o en 
+Miguel, pues así se llamaba el chico, tenía un año menos que yo (García Morales, Sur). 
+Se ha defendido que las causales de la enunciación, tratadas en el § 46.4.1, consti- 
+tuyen un tipo de explicativas, puesto que explican o justifican por qué se emite 
+determinado enunciado. 
+
+46.4.2b Las causales explicativas se construyen con las conjunciones o locucio- 
+nes conjuntivas como, comoquiera que (no se recomienda hoy la grafía como quiera 
+que), dado (que), desde el momento en que, en cuanto que, en la medida en que, en 
+tanto en cuanto, en vista de (que), habida cuenta de (que), pues, puesto que, que, 
+supuesto que, toda vez que, visto (que), ya que, etc. También la conjunción porque puede 
+tener uso explicativo, como en Eso en ella no tiene mérito, porque es linda (Ocampo, V., 
+Testimonios), donde porque alterna con pues y con muchas de las locuciones citadas. 
+Pueden formar también causales explicativas las locuciones conjuntivas como que y 
+cuanto más que. 
+
+46.4.2c Las causales explicativas pueden ir antepuestas (Ya que somos cuatro, 
+podríamos jugar al parchís) o pospuestas (Suéltame, que me haces daño; No vieron 
+huella alguna, pues era de noche). En las primeras el hablante aporta información 
+temática (§ 40.1) y, por tanto, conocida, o al menos presentada retóricamente como 
+si lo fuera; en las segundas, en cambio, la información se muestra o se introduce 
+
+
+46.4.2d 
+
+### Manual §46.7.1 to 46.7.2b (OCR lines 62277 to 62409)
+46.7.1 Relaciones de correferencia en las oraciones finales y causales 
+
+Las oraciones finales se construyen con el verbo en infinitivo o en subjuntivo. Como 
+regla general, se emplea el infinitivo cuando las finales son concertadas. Se han 
+llamado tradicionalmente así aquellas en las que el sujeto, por lo general tácito, del 
+infinitivo es correferente con el del verbo principal (Elena lo llamó para disculparse). 
+No obstante, no es este el único tipo de correferencia, como se verá en los apartados 
+que siguen. Por otro lado, es habitual que el infinitivo se refiera a un tiempo poste- 
+rior al expresado por el verbo principal. 
+
+46.7.1a Cuando la final es concertada, el infinitivo constituye la única opción 
+(con las escasas excepciones a las que se refiere el apartado siguiente). Pueden com- 
+pararse en este sentido las oraciones Viaja para distraerse y Viaja para que se distrai- 
+ga. Forma parte del significado de la primera el que la persona que viaja sea la misma 
+que se distrae; en la segunda, en cambio, se habla de personas diferentes. 
+
+46.7.1 b Cuando la oración principal es pasiva, la final se puede construir con sub- 
+juntivo aunque haya correferencia de sujetos, como en Pablo Vicario fue eximido 
+para que se quedara al frente de la familia (García Márquez, Crónica), pero se forman 
+también pasivas en las que el sujeto de la oración final es correferente con el comple- 
+mento agente. El verbo de la oración final se construye entonces en infinitivo: La 
+entrevista fue publicada por la prensa para sorprender a la oposición. El verbo puede 
+aparecer también en forma personal, aunque haya correferencia de sujetos, en otros 
+
+
+46.7.1c 
+
+
+Construcciones causales, finales e ilativas 
+
+
+890 
+
+
+casos. Sucede así cuando la oración principal es imperativa ( Lee este libro para que 
+te convenzas), si el sujeto de la oración principal no se interpreta como agente (Se 
+dejan las setas en una cazuela con agua toda la noche para que se hidraten), con cier- 
+tos predicados modales en la oración final ( Deberá poner más empeño en su trabajo 
+para que sea capaz de superar una materia tan complicada), cuando se trata de una 
+final de la enunciación (No actuaste bien, para que lo sepas: vé ase el § 46.6.1) o en los 
+casos en los que se da una correferencia parcial de sujetos: Fuimos a que nuestros 
+hijos compraran ropa de verano. 
+
+46.7.1 C En otras oraciones finales de infinitivo se establece la relación de correfe- 
+rencia entre el sujeto tácito de este y el objeto directo, el indirecto o el complemento 
+regido del verbo principal. Así, el pronombre le proporciona la referencia del suje- 
+to tácito de cocinar en Le gusta cocinar. A esta misma pauta corresponden los ejemplos 
+siguientes: Me contrataron para escribir un artículo sobre la Bestia (Allende, Ciudad); 
+Le dieron permiso para asistir al baile ; También confía en Faryd para cuidar los tres 
+palos (Clarín 20/2/1997). La alternancia entre el infinitivo y el verbo finito es mucho 
+más frecuente en esta pauta que cuando la correferencia afecta a los sujetos: Me 
+contrataron para que escribiera un artículo breve; Le dieron permiso para que asistiera 
+al baile. 
+
+46.7.1 d No es habitual que los infinitivos de valor final se construyan con sujeto 
+expreso, y menos aún si este no es correferente con ninguno de los argumentos del 
+verbo principal. Se rechazan, en efecto, oraciones como *Hice todo lo que pude para 
+conseguir Alberto trabajo. No obstante, se admite ocasionalmente esta pauta cuando 
+el sujeto de la subordinada tiene carácter focal o introduce un contraste con el del 
+verbo principal: 
+
+Qué bonita esa camisa, quitátela vos para ponérmela yo (Ramírez, Bailé); Grace le hizo 
+una seña para que se instalara en aquella graciosa hondonada, invitándolo después a que 
+siguiese cavando, para descender ella también al pequeño abismo rosa (Lezama, Paradi- 
+só); Sagrario, dormida, [...] preguntó cuánto faltaba para recibir nosotros a Pablo (García 
+Hortelano, Mary Tribuné). 
+
+En el español hablado en el área caribeña se documentan infinitivos finales con su- 
+jeto expreso, incluso no correferente. A diferencia de lo que es habitual en las demás 
+áreas, puede aparecer antepuesto, como en ¿Qué sería bueno hacer para yo entender 
+eso?; Cállate para yo oír el ruido. 
+
+46.7.1 e El sujeto de las oraciones finales con el verbo en infinitivo recibe a veces 
+una interpretación inespecífica (‘alguien no determinado’) o genérica (‘la gente, 
+cualquiera’). Estas interpretaciones se pueden obtener en las finales concertadas, 
+como en Anoche lo llamaron para preguntarle si podía venir hoy jueves (Salvador 
+Caja, Eje), y también en las no concertadas: Nunca es tarde para preguntar (Vargas 
+Llosa, Casa); Esta es la llave para arrancar el motor. 
+
+46.7.1 f Las causales de sujeto correferente con uno de los argumentos del pre- 
+
+dicado principal (causales concertadas) admiten la construcción con infinitivo. 
+Se da, en efecto, la correferencia de sujetos en Resbalé y me caí por ir leyendo (es 
+
+
+891 
+
+
+Construcciones ilativas 
+
+
+46.8.1 
+
+
+decir, entre el sujeto de resbalé y el de ir). Además, el sujeto del infinitivo puede ser 
+correferente con el objeto directo, como en La contrataron por ser la más joven; 
+con el indirecto, como en Eso te pasa por no callarte; y con el complemento de ré- 
+gimen, como en Alguien se rió de ella por llegar así a la oficina (Fuentes, Cristóbal). 
+A diferencia de lo que sucede en las finales (§ 46.7.1a), la correferencia de sujetos 
+no suele forzar la aparición del infinitivo (Me caí por ir leyendo alterna con Me caí 
+porque iba leyendo), salvo en las arguméntales: Estoy loco por {comprarme ~*que yo 
+me compre} una bicicleta. Mientras que los infinitivos finales se interpretan referidos 
+a un tiempo posterior a la situación denotada por el verbo principal, los causales 
+pueden referirse a un tiempo coincidente con ella (La contrataron por ser la 
+más joven) o a un tiempo anterior. En este último caso se dan con frecuencia alter- 
+nancias entre el infinitivo simple y el compuesto sin que el significado de la ora- 
+ción se altere: La multaron por {pasarse ~ haberse pasado} un semáforo. Se analizan 
+estas estructuras en el § 26.3.1 c. 
+
+
+46.7.2 El modo en las construcciones causales 
+
+46.7.2a Las oraciones causales solo se construyen con subjuntivo en contextos 
+muy restringidos. De hecho, la combinación «porque + subjuntivo», como en 
+Señora, dispuesto estoy a dar toda mi sangre, porque pueda ceñirse la corona 
+(Valle-Inclán, Sonata), suele tener sentido final, en lugar de causal. También se cons- 
+truyen con subjuntivo los complementos de régimen introducidos con por que 
+cuando la palabra de la que dependen selecciona dicho modo, como en Está loco 
+por que venga su novia, frente a Tales animales se caracterizan por que carecen 
+de estómago. 
+
+46.7.2b Fuera de los casos mencionados, las construcciones causales solo apare- 
+cen con subjuntivo cuando este viene inducido por algún elemento modalizador 
+externo a la oración causal, como el adverbio de duda en Quizá porque no sepa vestir de 
+otra manera (Torrente Ballester, Gozos), o por ciertos recursos que presentan como 
+foco la causa, como la negación en No porque sean muertos de nacimiento son menos 
+muertos (Ayala, Usurpadores), la interrogativa de ¿Te lo crees porque él lo diga?, la 
+desiderativa de ¡Ojalá trabajes siempre porque te guste tu trabajo!, o la concesiva que 
+aparece en ¡Aunque solo sea porque no le extrañe a mi madre el silencio tan de pronto! 
+(Trigo, Honor). 
+
+
+46.8 Construcciones ilativas 
+
+### Manual §46.8.4a (OCR lines 62553 to 62570)
+46.8.4 Conjunciones y locuciones conjuntivas de carácter ilativo 
+
+46.8.4a Con escasas excepciones, como luego o conque, casi todas las partículas 
+que introducen oraciones ilativas son locuciones conjuntivas. La pauta «de + sustan- 
+tivo + que» da lugar a las locuciones deforma que, de modo que, de manera que, de 
+suerte que, esta última más propia de la lengua escrita. Se usa por manera que en al- 
+gunos países americanos. Todas estas partículas se construyen con indicativo cuan- 
+do tienen un valor estrictamente ilativo: Las Fuerzas Armadas no han reclamado en 
+ningún momento que se les confiara la tarea de enjuiciar y sancionar a los delincuentes, 
+de manera que estos permanecerán sometidos al fuero regular de la justicia civil (Var- 
+gas Llosa, Pantaleórí). Construidas con subjuntivo, adquieren valor consecutivo 
+(más exactamente consecutivo-final: § 45.6.1 y 46.8.1), ya que cuantifican a los 
+sustantivos modo, manera, forma. Se obtienen así alternancias como Escríbelo de {tal 
+manera ~ manera ~ una manera tal} que todo el mundo lo entienda. A esta misma pau- 
+ta corresponde el texto siguiente: Respiró recio dos veces: primero hacia afuera, para 
+sosegarse, luego hacia dentro, de modo que no tuviera que respirar más mientras estu- 
+viera encarando (Aparicio, César). 
+
+
+### Manual §47.1.1a to 47.1.1d (OCR lines 62693 to 62770)
+
+El superior le prometió que si se conducía como un hombre, le haría ese favor (Borges, 
+Brodié); Era graduado en cánones por Osuna, pero aunque lo fuera por Salamanca, se- 
+gún opinión de muchos, no dejara de ser loco (Cervantes, Quijote II). 
+
+47.1 .1 a Condicionales y c oncesivas se caracterizan por la relativa complejidad de su 
+
+estructura formal y también por la heterogeneidad, y a veces sutileza, de los significados 
+que expresan. La conjunción subordinante identifica el tipo de la subordinada que enca- 
+beza, como muestra el contraste entre el período condicional Si lloviera, iría al cine y el 
+concesivo Aunque lloviera, iría al cine. La elección de la conjunción si indica en el primer 
+caso una asociación «causa - efecto» entre la acción de llover y la de ir al cine. En el 
+
+
+47.1.1b 
+
+
+Construcciones condicionales y concesivas 
+
+
+898 
+
+
+período concesivo, aunque indica que la lluvia no es, frente a lo esperado, un impedimento 
+efectivo para llevar a cabo esa acción. En este capítulo se tratarán conjuntamente las 
+construcciones condicionales y las concesivas porque son numerosas las características 
+formales y semánticas que comparten. En los primeros apartados se analizarán sus simi- 
+litudes y diferencias; luego se examinará cada construcción por separado. 
+
+47.1.1b Las oraciones condicionales no constituyen aserciones o declaraciones, 
+en cuanto que no se afirma en ellas el contenido de la prótasis ni el de la apódosis, 
+sino que se establece una relación de implicación entre ambas. La prótasis puede 
+expresar la causa hipotética que conduce a un resultado (Si se lo explican bien, lo 
+entiende), o la premisa de la que se parte para llegar a cierta conclusión (Si lo entien- 
+de, está claro que se lo explicaron bien). En las oraciones concesivas no se da esta re- 
+lación causal, pero se contraría en ellas un supuesto que se puede formular con una 
+condicional. Así, en la oración Aunque se lo explicaron muy bien, no lo entendió se con- 
+traría la expectativa que se infiere de la condicional Si algo se explica bien, se entiende. 
+
+47.1.1 c El carácter hipotético de un estado de cosas está en relación inversa con su 
+probabilidad: cuanto menos probable sea su verificación efectiva, más hipotético resul- 
+ta. Esta propiedad se expresa en parte a través del tiempo y el modo del verbo de la 
+prótasis (§47.4 y 47. 6. 3), pero también a través de la apódosis. Así, en Si tengo tiempo, voy 
+a leer esta novela, la realización del contenido de la apódosis se presenta como probable, 
+mientras que en Si tuviera tiempo, leería la novela, el hablante expresa una actitud más 
+dubitativa en relación con la futura realización de lo que la apódosis comunica. El con- 
+texto contribuye poderosamente a determinar el grado de probabilidad que el hablante 
+asigne a esa realización, ya que las inferencias relativas a la expectación se cancelan con 
+facilidad: Si tengo tiempo, voy a leer esa novela, pero me parece que no voy a tenerlo. 
+
+47.1.1 d El análisis de las correlaciones de modo y tiempo pone de manifiesto que la 
+pauta que permite interpretar las oraciones condicionales es proporcionada por el pe- 
+ríodo en su conjunto. Así, algunos tiempos compuestos, en particular la forma {hubie- 
+ra'' hubiese} cantado, pueden reducir —y hasta cancelar— el valor hipotético de la 
+prótasis condicional, como en Si hubiera sido el asesino, se habrían encontrado sus huellas 
+digitales. Estas oraciones se denominan tradicionalmente irreales. En la actualidad 
+reciben los nombres de contrafactuales, contrafácticas o contraf activas por- 
+que implican que el hablante da por cierta la situación contraria a la que expresan la pró- 
+tasis y la apódosis. Así pues, del ejemplo propuesto Si hubiera sido el asesino, se habrían 
+encontrado sus huellas digitales se deduce ‘No era el asesino’ y ‘No se encontraron sus hue- 
+llas digitales’. Se suelen caracterizar los períodos contrafácticos como condicionales 
+cerradas en cuanto que la verificación de las situaciones presentadas está únicamente en 
+función de la correlación de tiempos y modos y del carácter afirmativo o negativo de la 
+prótasis. Frente a ellas, se dice que las demás condicionales son abiertas, ya que su verifi- 
+cación depende de que tengan o no lugar ciertos sucesos o se den ciertos estados de cosas. 
+
+
+47.1.2 Principales características sintácticas de estos períodos 
+
+47.1.2a Las subordinadas condicionales y concesivas han sido clasificadas tradi- 
+cionalmente entre las llamadas subordinadas adverbiales impropias (§ 1.7.3c), 
+
+
+899 
+
+
+Características generales de las condicionales y concesivas 47.1 .2c 
+
+
+### Manual §47.4.1d (OCR lines 63513 to 63545)
+47.4.1 d En las prótasis condicionales se admiten los tiempos simples canta, can- 
+taba y cantara -cantase, y también los compuestos respectivos: ha cantado, 
+había cantado y {hubiera -hubiese} cantado, pero el español actual rechaza en 
+ellas las formas cantará, cantare, cantaría y los compuestos correspondientes 
+habrá cantado, hubiere cantado y habría cantado. En las encabezadas por si 
+tampoco son posibles cante, haya cantado, formas que pueden aparecer con otros 
+nexos condicionales. Aunque en el español contemporáneo se rechaza el futuro en 
+la prótasis de la condicional, se usa la perífrasis «ir a + infinitivo» (§ 28.3.1 a, b), espe- 
+cialmente cuando se retoma un enunciado previo para confirmarlo, cuestionarlo o 
+sacar conclusiones relativas a posibles acciones futuras: Si vamos a hacer algo, mejor 
+será que lo hagamos ya. Apenas se emplea en el español de hoy el futuro del subjun- 
+tivo si tuviere (§ 24.1.3), que en la lengua antigua se usaba en las prótasis como re- 
+fuerzo del carácter hipotético de la condición expresada: Si lo que digo fizieredes, 
+saldredes de cativo (Cid). Esta forma ha caído hoy en desuso en prácticamente todas 
+las regiones, excepto en algunas poblaciones rurales de las islas Canarias y del área 
+caribeña. Sin embargo, es característico del lenguaje jurídico y administrativo, como 
+
+
+47.4.1 e 
+
+
+Construcciones condicionales y concesivas 
+
+
+912 
+
+
+en Si el funcionario incurriere en delito de cohecho..., y también se emplea en fórmulas 
+rituales como Si así no lo hiciereis, Dios y la patria os lo demanden. 
+
+47.4.1 e No han pasado a la lengua culta del español general las prótasis introdu- 
+cidas por Si tendría, pese a que esta forma está libre de la ambigüedad que carac- 
+teriza a cantara ~ cantase, puesto que recibe siempre interpretación prospectiva. 
+
+### Manual §47.5.1a to 47.5.2b (OCR lines 63620 to 63790)
+malmente a sus apódosis, en las cuales se garantiza enfáticamente una consecuen- 
+cia, muchas veces no deseable, en relación con alguna situación futura. Suelen 
+expresar ciertos valores ilocutivos, entre los que están la amenaza, la advertencia, la 
+promesa firme o el vaticinio: Como vuelvas a poner las manos encima de la niña te 
+mando al otro mundo (Alonso Santos, Estanquera ). Aunque son más frecuentes 
+cuando introducen expectativas desfavorables, pueden anticipar también deseos ve- 
+hementes: Como vuelva a salir un ocho, nos hacemos ricos. 
+
+47.5.1b Introducen requisitos más fuertes o más específicos que los expresados 
+por la conjunción si las locuciones conjuntivas llamadas requisitivas, que se cons- 
+truyen con subjuntivo y son parafraseables por solo si, como a condición de (que), con 
+tal (de) (que), siempre que, siempre y cuando, y también las exceptivas, entre las que 
+figuran a menos que, a no ser que, como no sea que, etc. A ellas podrían añadirse, 
+excepto que y salvo que. Sin embargo, existen dudas de que estas dos últimas expre- 
+siones constituyan propiamente segmentos sintácticos (§ 31.6.3). Estos dos grupos 
+de conjunciones se oponen entre sí por la polaridad que expresa la apódosis. Así, 
+Aceptará el contrato a condición de que le aseguren un porcentaje de las ventas (con 
+apódosis afirmativa) se corresponde con No aceptará el contrato a menos que le ase- 
+guren un porcentaje de las ventas (con apódosis negativa). 
+
+47.5.1c Seguida de subjuntivo, la locución siempre que suele encabezar prótasis 
+pospuestas a las apódosis, e introduce, como otras locuciones conjuntivas de su mis- 
+mo grupo, un requisito que debe satisfacerse para cumplir cierto estado de cosas 
+considerado posible, factible o deseable, como en Los perros de Viena pueden hacer 
+lo que quieran siempre que sigan siendo perros aunque muchos perros ya no parecen 
+serlo (Carrión, I., Danubio ). Las expectativas generalmente favorables que se suscitan 
+con siempre que se contraponen a las opciones normalmente desfavorables que, como 
+se ha visto, se asocian con «como + subjuntivo». Presenta características similares 
+
+
+47.5.1 d 
+
+
+Construcciones condicionales y concesivas 
+
+
+914 
+
+
+«mientras (que) + subjuntivo»: Mientras te esfuerces por mejorar, contarás con nues- 
+tro apoyo (§ 31.6.2a-d). El significado condicional del adverbio relativo cuando se 
+obtiene sobre todo en las oraciones genéricas, como en Cuando un perro mueve el 
+rabo, está contento (§ 22.5.3c). Las locuciones con tal de (que) y con tal que plantean 
+un requisito que se presenta como el mínimo suficiente para lograr el efecto desea- 
+ble descrito en la apódosis: Con tal que vm. no me escriba en la novísima Ortografía, 
+todo se lo perdono (Moratín, Epistolario). 
+
+47.5.1 d Se forman locuciones conjuntivas condicionales con un grupo restringi- 
+do de sustantivos: en caso de (que), en el supuesto de (que), a condición de (que), a 
+cambio de (que), etc. El contenido léxico de estos nombres no se ha perdido total- 
+mente en estas unidades lexicalizadas o semilexicalizadas, que pueden conservar en 
+mayor o menor grado sus propiedades gramaticales. Por ejemplo, el sustantivo caso 
+admite artículo (en el caso de que acepten), y ciertos adjetivos modales (eventual, hi- 
+potético, improbable, probable, supuesto), así como una larga serie de complementos 
+sustantivos sin artículo que expresan contingencias: en caso de (verdadera) duda, 
+de necesidad (extrema), de enfermedad, de urgencia, de ataque, de accidente, de incen- 
+dio, etc. Un comportamiento similar presenta el sustantivo supuesto, a diferencia de 
+los sustantivos condición y cambio. 
+
+47.5.1 e No se consideran correctas las variantes queístas de las locuciones con- 
+juntivas formadas con caso y condición: con la condición que, en caso que. Es algo más 
+frecuente, sobre todo en el español americano, la variante dequeísta a menos de que. 
+Aun así, se recomienda usar en su lugar a menos que. Se han extendido, en cambio, en 
+la lengua culta con tal de que y con tal que, que se consideran igualmente correctas. 
+
+
+47.5.2 Otras construcciones condicionales 
+
+Algunos modificadores adverbiales, llamados a veces adjuntos libres (§ 39.2.2d), 
+no modifican al predicado verbal, sino que —situados generalmente en posición ini- 
+cial de tópicos, a la manera de las cláusulas absolutas— introducen significados aná- 
+logos a los que caracterizan las subordinadas condicionales. 
+
+47.5.2a El complemento subrayado en No te comportarías así en tu casa especifica 
+el lugar que corresponde a la acción de comportarse, pero en la variante En tu casa, no 
+te comportarías así, el mismo complemento introduce un marco situacional, es decir, 
+un contexto al que se restringe el estado de cosas que a continuación se describe, de 
+manera similar a como lo haría una cláusula de gerundio (estando en tu casa) o una 
+prótasis condicional (si estuvieras en tu casa). Los grupos preposicionales encabezados 
+por con o sin, casi siempre antepuestos, presentan muy a menudo significado condicio- 
+nal en este mismo sentido restrictivo: Con los niños haciendo ruido por toda la casa, me 
+será imposible estudiar el informe; Sin su colaboración, este libro hubiera sido imposible. 
+
+47.5.2b Forman prótasis condicionales antepuestas los esquemas «de + infinitivo» 
+y «a + infinitivo». El primero, de gran vitalidad en la lengua actual, aparece en expre- 
+siones como De venir, vendría a las cinco; De haberlo sabido, te habría avisado; a veces 
+con el sujeto del infinitivo expreso: De ser ello cierto... Las prótasis con «a + infinitivo» 
+
+
+915 
+
+
+Construcciones concesivas 
+
+
+47.6.1 b 
+
+
+pertenecen al español clásico, como en A ser yo para saberlo decir, se podía hacer un 
+gran libro (Santa Teresa, Caminó), pero subsisten en algunas expresiones fosilizadas, 
+como a decir verdad, a juzgar por las apariencias, así como en la locución exceptiva a 
+no ser que. Se construya con a o con de, el infinitivo no alterna en estas construccio- 
+nes con grupos nominales ni con pronombres. Así, en De haberlo sabido, te habría- 
+mos avisado, no cabe la sustitución *De ello, te habríamos avisado. Algunos gramáticos 
+entienden que, en estos contextos, de y a funcionan como conjunciones subordinan- 
+tes, a pesar de que introducen infinitivos. 
+
+47.5.2c Sin ser estrictamente oraciones condicionales, reciben interpretación 
+condicional un gran número de participios en las construcciones absolutas (§ 27.5.2b y 
+47.1.5c). Como en el resto de las prótasis que carecen de formas con flexión modal 
+y temporal, la interpretación condicional depende de que el verbo de la apódosis 
+describa una situación futura, como en Desalojado el edificio, no tendrán dónde 
+esconderse. También los gerundios antepuestos topicalizados y seguidos de pausa se 
+interpretan a menudo en sentido condicional: Viniendo tu mujer, seremos cinco. El 
+gerundio de algunos verbos que denotan pensamiento, argumentación o creencias, 
+como admitiendo, considerando, dando por sentado, haciendo de cuenta, poniendo el 
+caso, reconociendo, suponiendo, está semigramaticalizado y admite con naturalidad 
+paráfrasis con oraciones condicionales. 
+
+47.5. 2d Se asimila a las prótasis condicionales la expresión lexicalizada yo que 
+
+construida con grupos nominales (yo que tu hermanó) y con pronombres (yo que tú, 
+yo que vos, yo que usted), como en Yo que tú me volvía (Muñoz Molina, Jinete). En las 
+apódosis se admiten tiempos simples y compuestos: Yo que tú se lo {diría -habría 
+dicho -hubiera dicho} (en la lengua coloquial, también decía y había dicho). En algu- 
+nas variedades del español europeo se construyen estas prótasis con la preposición 
+de (yo de ti, yo de usted), opción que no se recomienda. 
+
+
+47.6 Construcciones concesivas 
+
+47.6.1 Características generales 
+
+47.6.1a El período concesivo encierra un razonamiento en el que la prótasis y la 
+apódosis apuntan a conclusiones opuestas. En efecto, una y otra están argumentati- 
+vamente encontradas en Aunque estaba muy cansada por el viaje, impartió una confe- 
+rencia magnífica. La prótasis introduce una situación de contraexpectativa (‘Si 
+alguien está cansado, su trabajo no será magnífico’), por tanto una condición ineficaz 
+o un obstáculo salvable, de forma que no se altera la realización de lo indicado en la 
+apódosis. El esquema Aunque A, B admite a menudo la paráfrasis A, pero B: Esta- 
+ba muy cansada por el viaje, pero impartió una conferencia magnífica. Sin embargo, las 
+construcciones coordinadas se diferencian de las subordinadas en que no admiten la 
+conjunción en la posición inicial de la secuencia (§ 31.6.3e). 
+
+47.6.1 b La incompatibilidad entre los dos miembros del período concesivo se esta- 
+blece en función de preferencias que se suponen conocidas o habituales, pero también 
+simplemente acordes con el sentido común. En Aunque llueva, saldré a pasear, la lluvia se 
+
+
+47.6.1c 
+
+
+Construcciones condicionales y concesivas 
+
+
+916 
+
+
+presenta como un obstáculo o como una posible objeción que justificaría la cancelación 
+del paseo, por cuanto se supone que no es normal salir a pasear si está lloviendo. La 
+expectativa resulta así rechazada, pues la situación representada en la prótasis se con- 
+sidera condición o causa insuficiente para la realización del suceso denotado en la apó- 
+dosis, que se interpreta como proposición verdadera. 
+
+47.6.1 c Las oraciones concesivas formadas con aunque son unidades descompo- 
+nibles sintácticamente (§ 31.6.1b). La segmentación de esta conjunción en un ad- 
+verbio escalar más la conjunción que, como en aun [que lo supiera], explica el 
+concepto de concesión como noción derivada de la de escalaridad. En una escala 
+graduada de condiciones se marca el miembro final, que es el menos previsible o más 
+claramente contrario a las expectativas naturales. Así, en Aunque te quedes sin dormir, 
+has de preparar bien este examen, el elemento extremo subrayado indica que resultan 
+
+### Manual §47.6.1a to 47.6.3a (OCR lines 63800 to 63940)
+reconocerlo, tanto nos agrada a los mujeriegos (Vallejo-Nágera, Yo). 
+
+47.6.1 e Cornos se vio en el § 47.1.3, las construcciones concesivas carecen de las 
+propiedades nominales de las condicionales, así como de las propiedades anafóricas 
+de sus prótasis. Aunque no existen equivalentes de las copulativas condicionales en- 
+fáticas (§ 47.3.2), se forman períodos concesivos con oraciones copulativas en las que 
+el atributo del verbo ser en subjuntivo se interpreta como información focal: Lo in- 
+vitaré, aunque solo sea por cortesía. Estas prótasis concesivas pospuestas son análo- 
+gas discursivamente a las causales explicativas (§ 46.4.2). Expresan un valor 
+mínimo, en el sentido de un último argumento o una última razón dirigidos al fin 
+que se persigue. La apódosis expresa en todos estos casos algún contenido prospec- 
+tivo, sea a través de un futuro, un imperativo, una perífrasis modal ( Habría que invi- 
+tarlo, aunque solo fuera porque...) u otro recurso similar. 
+
+47.6.1 f En posición pospuesta y con el verbo en indicativo, puede neutralizarse la 
+
+diferencia entre las prótasis concesivas y las adversativas, de forma que la conjun- 
+ción subordinante aunque pasa a interpretarse como coordinante cercana a pero. 
+Este uso adversativo de aunque ha sido llamado restrictivo. Las coordinadas 
+adversativas introducidas por aunque exigen pausa antes de la conjunción, como en 
+Respondió segura a todas las preguntas, aunque ( =pero ) quedó la sensación de que 
+ocultaba información. Aun así, los usos adversativos de aunque no coinciden exacta- 
+mente con los de pero. Esta última conjunción puede ir seguida de oraciones interro- 
+gativas o imperativas ( Pueden jugar aquí, niños, pero después ordenen la sala), que 
+aunque suele rechazar (*Es un hermoso día, aunque quedémonos en casa). La distancia 
+entre ambas se acorta cuando sigue a aunque un segmento menor que la oración, 
+como muestra la siguiente alternancia: Respondió a todas las preguntas, {aunque- 
+pero} no con la misma seguridad. La conjunción aunque, usada con valor restrictivo, 
+
+
+917 
+
+
+Construcciones concesivas 
+
+
+47.6.3a 
+
+
+se construye a veces con gerundio, como en Finalmente ha progresado, aunque 
+trabajando mucho. 
+
+
+47.6.2 Concesivas del enunciado y de la enunciación 
+
+Al igual que en las condicionales, y también en las causales y en las finales, la rela- 
+ción entre prótasis y apódosis puede establecerse en el plano del enunciado o bien 
+en el de la enunciación. Las prótasis concesivas que corresponden al plano de la 
+enunciación constituyen, como en las condicionales, dos grupos: las epistémicas y 
+las ilocutivas. 
+
+47.6.2a En las concesivas epistémicas se niega la relación entre una premisa y 
+una conclusión. Unas veces se hace partiendo de la prótasis para llegar a una apódo- 
+sis factual (Aunque debe de haber llovido, las calles no están mojadas; Aunque ya debe 
+de haber llegado, todavía no me ha llamado ), pero otras el proceso adquiere el sentido 
+contrario (Aunque las calles no estén mojadas, debe de haber llovido; Aunque todavía 
+no me haya llamado, ya habrá llegado al hotel). 
+
+47.6.2b En las concesivas ilocutivas, la contraposición se establece entre 
+la ejecución efectiva del acto de habla —explícito o implícito— que se describe en la 
+apódosis y las expectativas en sentido contrario que se obtienen de la prótasis: Aunque 
+no conozco la fuente, te juro que dijeron que se suspendían las negociaciones (con el 
+realizativo explícito te juro); Los sindicatos exigen una negociación, aunque quizás no 
+sea esta la palabra más apropiada (con el predicado realizativo sobrentendido). 
+También son ilocutivas las que se limitan a plantear una condición de pertinencia 
+para la enunciación de la apódosis, como en Aunque no necesites dinero, hay un cajero 
+automático en la esquina. 
+
+
+47.6.3 Tiempo y modo en las oraciones concesivas 
+
+47.6.3a Tomando como criterio la veracidad de las situaciones designadas en el pe- 
+ríodo concesivo, se distinguen las prótasis hipotéticas y las factuales. En las pri- 
+meras, en las que aunque equivale aproximadamente a (aun) en el supuesto de que, 
+se introduce una situación en el momento actual y se afirma que el hecho de que se 
+haga efectiva no impedirá algún otro estado de cosas, como sucede en el refrán Aun- 
+que la mona se vista de seda, mona se queda. Las prótasis hipotéticas se construyen en 
+subjuntivo. Por el contrario, las prótasis factuales, que suelen admitir paráfrasis con 
+a pesar de que, designan situaciones presentes o futuras que se dan por ciertas en el 
+momento actual o en el futuro. El verbo puede reflejarlas en indicativo, como en 
+Aunque vive en esta ciudad desde hace treinta años, mantiene el mismo apartamento 
+que alquiló al llegar, o bien en subjuntivo: Aunque seas tan joven, tienes bastante ex- 
+periencia. Algunos esquemas temporales de las condicionales tienen correlatos en 
+las oraciones concesivas: 
+
+Aunque tiene, dará: Aunque se lo explican, no lo entenderá. 
+
+Aunque tiene, da: Aunque se lo explican, no lo entiende. 
+
+
+47.6.3b 
+
+
+Construcciones condicionales y concesivas 
+
+
+918 
+
+
+Aunque (tuviera ~ tuviese}, daría: Aunque se lo {explicaran ~ explicasen}, no lo enten- 
+dería. 
+
+Aunque (hubiera ~ hubiese} tenido, habría dado: Aunque se lo {hubieran ~ hubiesen} 
+explicado, no lo habría entendido. 
+
+47.6.3b Se explicó en el apartado precedente la diferencia fundamental que existe 
+entre las prótasis llamadas hipotéticas y las denominadas factuales. La información 
+expresada en las prótasis concesivas factuales se da por cierta. Así, cualquiera que sea 
+la apódosis que siga a la prótasis Aunque había llamado cinco veces..., esta oración 
+implica que esas cinco llamadas se habían realizado. La forma cantara~ cantase, 
+característica de las prótasis del llamado período potencial (§ 47.4.1 b), designa un 
+estado actual ( aunque ahora tuvieras derecho a estar aquí) o bien uno futuro ( aunque 
+mañana te compraras esta casa), concebido como menos probable que con el presen- 
+te de subjuntivo. Cuando designan un estado actual, el contenido de estas prótasis 
+podría no ser contrario a los hechos. Así, el período Aunque lo supiera no te lo diría no 
+implica necesariamente ‘No lo sé’, pero el contexto favorece a menudo tal interpreta- 
+ción contrafáctica. El período irreal concesivo se construye de forma característica 
+con las formas {hubiera ~ hubiese} cantado en la prótasis e implica la falsedad de 
+lo expresado en esta, como en las condicionales, pero generalmente también la certe- 
+za de lo afirmado en la apódosis, a diferencia de aquellas. Así, la prótasis del período 
+Aunque me lo hubieras advertido, habría ido mantiene su valor de negación implícita 
+(por tanto, ‘No me lo advertiste’), pero la certeza de la apódosis queda indeterminada (por 
+tanto, ‘Fui’ o ‘No fui’). Las prótasis concesivas presentan menos restricciones tempo- 
+rales que las condicionales, ya que admiten incluso las formas cantaré y cantaría: 
+Aunque lo {dice ~ dijo ~ decía ~dirá~ diría}... y, en el subjuntivo, las formas cante y 
+haya cantado. El presente de subjuntivo es ambiguo entre la interpretación actual, 
+sea habitual o momentánea, y la prospectiva. Así pues, podría decirse Aunque esté 
+ahora borracho, mañana acudirá puntual a la oficina, y también Aunque esté mañana 
+borracho, no lo estará el día del examen. 
+
+47.6.3c Las formas cante y haya cantado pueden referirse a hechos cuya certe- 
+za consta, además de presentar el valor hipotético característico de las concesivas 
+con subjuntivo. En efecto, la interpretación factual del subjuntivo es característica 
+de los contextos en que se introduce una información compartida para cuestionarla 
+como argumento pertinente en alguna generalización, como en Aunque el hombre 
+sea un animal racional, su razón brilla demasiado a menudo por su ausencia. También 
+se da esta interpretación cuando se desea desestimar alguna objeción presentada o 
+sugerida en el discurso previo, como en —Pero si has dicho lo contrario. —Bueno, 
+pues, aunque lo haya dicho, he cambiado de opinión. Este uso del subjuntivo, de natura- 
+leza temática, se ha denominado polémico (§ 25.3.5b). 
+
+
+### Manual §47.7.1a (OCR lines 63956 to 63975)
+47.7.2a 
+
+
+47.7.1 Conjunciones y locuciones conjuntivas 
+
+47.7.1 a El adverbio bien forma parte de dos locuciones que se construyen con 
+indicativo: bien que, de escaso uso en el español contemporáneo, y si bien, de uso 
+general en la lengua culta: El argumento general no es complejo, si bien la conclu- 
+sión es monstruosa (Borges, Ficciones ). También el adverbio mal queda integrado 
+en algunas locuciones concesivas, entre las que es reseñable «mal que + pesar (en 
+subjuntivo)», como en mal que le pese o en mal que pesara a las autoridades. No ha 
+pasado al español culto la expresión manque, característica de la lengua popular: 
+¡ Viva er Beti manque pierda! ( País [Esp.] 21/6/1977). Las concesivas introducidas 
+por aun cuando se construyen con indicativo y subjuntivo: Va a seguir adelante, aun 
+cuando tenga que llegar él solo con todos los tripulantes colgados de los palos (Roa 
+Bastos, Vigilia). 
+
+47.7.1 b Tanto así como y eso que encabezan prótasis concesivas pospuestas. La 
+conjunción concesiva así (distinta del adverbio así) se construye siempre con sub- 
+juntivo, y por lo general introduce un predicado de significación hiperbólica, como 

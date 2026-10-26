@@ -66,6 +66,21 @@ ARS.languages["lang.v.es"] = {
    "title": "Mood in Spanish",
    "desc": "32 questions.",
    "exFor": "lang.v.es/mood"
+  },
+  {
+   "id": "lang.v.es/clauses",
+   "kind": "study",
+   "built": true,
+   "title": "Clauses in Spanish",
+   "desc": "The relative clause, the clauses of cause and purpose, of time, of consequence, of condition and concession, and indirect discourse."
+  },
+  {
+   "id": "lang.v.es/clause-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Clauses in Spanish",
+   "desc": "49 questions.",
+   "exFor": "lang.v.es/clauses"
   }
  ]
 };
