@@ -59,6 +59,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "desc": "24 questions."
   },
   {
+   "id": "lang.iii-decl.es/tenses",
+   "kind": "study",
+   "built": true,
+   "title": "The Compound and Other Tenses",
+   "desc": "The preterite and the imperfect in narration, the present perfect and the compound tenses, and the future and the conditional."
+  },
+  {
+   "id": "lang.iii-decl.es/tenses-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "The Compound and Other Tenses",
+   "desc": "24 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
