@@ -1,0 +1,470 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B6 (Section V: agreement)
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy, item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, fetched 26 Oct 2026. The text is machine-read; line breaks, hyphenation, and stray spaces are not the book's, and the printed book could not be compared (batch B14). The paragraph number is the Manual's own; the OCR line numbers refer to the plain-text file.
+
+
+##### agreement
+
+### Manual §2.1.1a, 2.1.1b (OCR lines 1090 to 1121)
+2.1.1 El género de los sustantivos y la concordancia 
+
+2.1.1a Es el género una propiedad gramatical de los sustantivos y de algunos 
+pronombres que incide en la concordancia con los determinantes, los cuantificadores 
+(a veces asimilados a ellos) y los adjetivos o los participios. Las categorías que mani- 
+fiestan género gramatical reproducen los rasgos de género de los sustantivos o de los 
+pronombres, como se observa en estos ejemplos: 
+
+la [artículo femenino] mesa [sustantivo femenino] pequeña [adjetivo femenino]; Ella 
+[pronombre femenino] es muy simpática [adjetivo femenino]; este [demostrativo mascu- 
+lino] cuarto [numeral masculino] capítulo [sustantivo masculino]; Los [artículo masculino] 
+libros [sustantivo masculino] eran suyos [posesivo masculino]. 
+
+2 .1 .1 b Los adj etivos concuerdan en género y número con el sustantivo, tanto si son 
+
+modificadores ( ojos melancólicos, las tranquilas tardes sanjuaninas ) como si son atri- 
+butos o predicativos ( Los invitados estaban callados; Lo creíamos tímido ), incluso 
+cuando el sujeto está tácito: Comieron callados; Era muy tímido (§ 1 6.2.1 g y 33.3.1 d). 
+Los rasgos de género y número de los adjetivos y de otros modificadores del sustan- 
+tivo carecen de interpretación semántica y constituyen únicamente marcas de 
+
+CONCORDANCIA. 
+
+2.1.1c No existe discordancia de género en secuencias como el alma dormida 
+o el agua embalsada. El artículo femenino presenta la variante el, que precede a los 
+sustantivos que comienzan con /a/ tónica. En las mismas condiciones, también el 
+artículo indeterminado un y los cuantificadores algún y ningún pueden combi- 
+narse con sustantivos femeninos: {un ~ algún ~ ningún} arma. Tal asimilación con 
+el masculino se extiende a veces indebidamente a otros determinantes y adjetivos 
+que preceden al sustantivo. Se trata de usos frecuentes pero incorrectos, que se 
+recomienda evitar: este hacha, ese acta, el otro ave, todo el hambre, poco agua, el 
+
+
+### Manual §4.1.3b (OCR lines 2530 to 2556)
+gerundios de la segunda y la tercera (tem-ie-ndo, part-ie-ndo). Los participios de la 
+segunda se asimilan a los de la tercera en la vocal temática -i- (tem-i-do, part-i-do). 
+
+4.1.3b Desde el punto de vista de su estructura léxica, las formas personales y 
+las no personales pueden ser simples (cantábamos, escribiendo) y compuestas 
+(habíamos cantado, habiendo escrito). Las formas compuestas se construyen con el 
+
+
+51 
+
+
+Distribución de los morfemas flexivos 
+
+
+4.2.1b 
+
+
+verbo auxiliar haber y el participio del verbo correspondiente, que es el auxiliado 
+o principal. El auxiliar haber aporta el valor retrospectivo y perfectivo, además de 
+la información gramatical de TM y PN en todas las formas personales del verbo. El 
+participio, en cambio, determina su estructura argumental (§ 1.6.1c), por tanto la 
+naturaleza de su sujeto y de sus posibles complementos. Si bien estas formas poseen 
+muchas propiedades comunes con las perífrasis verbales (§ 28.1. 3g), se interpretan 
+generalmente como unidades morfológicas. El participio que contienen es invaria- 
+ble en género y número, cualquiera que sea el sujeto ( Beatriz ha cantado muy bien; 
+Los niños han cantado muy bien) o el objeto directo: Han cantado muy bien {la can- 
+ción ~ las canciones}. 
+
+### Manual §13.3 (neuter agreement), 13.3.1a, 13.3.1b (OCR lines 25327 to 25358)
+
+1 3.3 Propiedades morfológicas del adjetivo y sus repercusiones 
+sintácticas 
+
+13.3.1 Rasgos flexivos del adjetivo 
+
+Concuerda el adjetivo en género y número con el sustantivo sobre el que incide o del 
+que se predica, independientemente de su función sintáctica: Sus ojos melancólicos 
+y profundos se entrecerraban; Añoraba las tranquilas tardes soleadas sanjuaninas; La 
+tarde estaba soleada ; Comieron callados; Se sabía agraciada. Como no existe flexión 
+propia del género neutro en español, la concordancia en neutro es indistinguible 
+de la concordancia en masculino (§ 2.1.2b): {Esto~Este} es necesario; Es preciso em- 
+plear protección solar; Era obvio que su ambición le servía de impulso (Mujica Lainez, 
+Escarabajo). 
+
+1 3.3.1 a La flexión del adjetivo se limita a reproducir los rasgos de género y núme- 
+ro del sustantivo. Así, el plural del adjetivo altas en paredes altas constituye una mar- 
+ca de concordancia, mientras que el de altas y altos en altas médicas o altos en el 
+camino tiene contenido semántico, puesto que se trata de sustantivos. En estos últi- 
+mos casos el plural es, por tanto, informativo. Aun así, el plural condiciona en el 
+primer caso la interpretación de ciertos adjetivos de acuerdo con el tipo de sustantivo 
+(contable o no contable) del que se predican. Se oponen de esta manera abundante 
+pelo (‘nutrido, copioso’) y abundantes lágrimas (‘muchas, numerosas’); un cons- 
+tante temor (‘un estado persistente’) y sus constantes rezongos (‘eventos reiterados’). 
+
+1 3.3.1 b Los adjetivos calificativos coordinados concuerdan necesariamente con 
+el sustantivo: se dice dos novelas largas o dos novelas cortas, pero no *dos novelas 
+larga y corta. No obstante, dos adjetivos de relación o dos ordinales en singular coor- 
+dinados pueden aportar conjuntamente rasgos de plural, con los que el sustantivo 
+concuerda, como en las políticas agraria y pesquera del gobierno, mis abuelas paterna 
+y materna, los capítulos primero y segundo (§ 31.3.3e). 
+
+
+### Manual §16.2.1f (OCR lines 28823 to 28830)
+16.2/lf En cuanto al género, tienen formas distintas para masculino y femenino 
+nosotros/ nosotras, vosotros/ vosotras, él/ ella, ellos/ellas, lo/la, los/las. Solo el 
+pronombre ello muestra una forma específica para el neutro. Su antecedente más 
+característico es una oración: Dice que crearán nuevas industrias y que se beneficiarán 
+con ello miles de personas; Yo quisiera poder amarle sin que me obligase a ello nin- 
+guna consideración (Castro, R., Flavió). Sin embargo, también admite como antece- 
+dente nombres abstractos, a menudo deverbales, que se interpretan como eventos o 
+se refieren a situaciones o estados de cosas que es habitual representar mediante 
+
+### Manual §16.3.1c (OCR lines 29321 to 29335)
+16.3.1c Los elementos correferentes suelen concordar en sus rasgos morfológi- 
+cos, pero los grupos nominales construidos con demostrativos, indefinidos o artícu- 
+los con sustantivos tácitos pueden variar en número: De todas tus novelas, solo me 
+gusta esta; Tienes muchos discos de jazz, así que podrías prestarme alguno; Los herma- 
+nos de Marta y el de Luis. La concordancia de género se mantiene, sin embargo, en 
+estos casos: El hermano de Marta y {el ~ *la} de Luis. Es frecuente, por otra parte, que 
+los pronombres y sus antecedentes no concuerden en los rasgos de definitud. Así, 
+en Cuando tiene una idea la repite una y otra vez, el pronombre definido la es corre- 
+ferente con el grupo indefinido una idea. Es asimismo frecuente que un pronombre 
+tenga por antecedente un grupo nominal que designa un conjunto de individuos, y 
+que no se refiera a ese conjunto como tal grupo de individuos, sino a cada uno de sus 
+miembros. Así, la expresión su hijo no designa a un individuo particular en la inter- 
+pretación más natural de la oración Todos los padres querían que su hijo fuera pre- 
+miado, sino al hijo que a cada padre le corresponde. En estos casos, los pronombres 
+personales se comportan como variables vinculadas o ligadas con los antece- 
+
+### Manual §27.5.3c (the first lines) (OCR lines 42030 to 42040)
+27.5.3c Los participios de los verbos inacusativos (§ 41.3.2), también llamados 
+a veces cuasideponentes, se comportan en buena medida como los de los transiti- 
+vos. Aparecen como modificadores nominales {El niño nacido a mediodía es extranjero), 
+como atributos (El árbol está florecido) y como predicativos, sea en construcciones 
+absolutas ( Llegado el momento, actuaremos como corresponda) o fuera de ellas (La vi 
+crecida). Estos participios expresan generalmente resultados de procesos, pero no 
+implican la existencia de un agente. En consecuencia, son incompatibles con los ele- 
+mentos que lo requieren, como ciertos adverbios o las oraciones finales (§ 27.5.3a). 
+Cuando se registran, como arcaísmos, construidos con el verbo ser ( Cuando sea lle- 
+gado el momento), no forman oraciones pasivas, sino tiempos compuestos. Es con- 
+trovertida la cuestión de si todos los verbos que expresan cambio de estado o de 
+
+### Manual §27.5.4a (OCR lines 42114 to 42127)
+27.5.4a Además de la flexión de género y número, muchos participios comparten 
+con los adjetivos un buen número de estructuras sintácticas por el hecho de ser am- 
+bos elementos predicativos: unos y otros pueden ser modificadores del nombre, 
+como en la variedad de petróleo más {vendida- cara}; atributos en las oraciones co- 
+pulativas, como en Estaba {roto -nuevo} (> lo estaba, en ambos casos; recuérdese el 
+§ 27.5.3a, al final), o complementos predicativos: Acabó {arrepentido -loco}; Halla- 
+ron {escrita -insuficiente} su dimisión. Participios y adjetivos aparecen también en 
+las construcciones preposicionales en las que se admiten complementos predica- 
+tivos: con las botas {puestas - sucias}. Los participios comparten, asimismo, con 
+algunos adjetivos la capacidad de formar oraciones absolutas: una vez {llena- 
+do-lleno} el recipiente. Los verbos semicopulativos se construyen con participios 
+y con ciertos adjetivos, en las condiciones restrictivas que se analizan en los § 38.1-3: 
+Quedó {destruido -blanco}. 
+
+
+### Manual §28.1.3f (OCR lines 42641 to 42650)
+
+28.1. 3f Los tiempos compuestos fueron en su origen perífrasis verbales, y como 
+
+tales los siguen considerando algunos gramáticos. En la tradición, sin embargo, se ha 
+venido asignando los tiempos compuestos y las perífrasis a dos clases distintas, en ra- 
+zón sobre todo del diverso grado de integración entre sus componentes. En primer lu- 
+gar, los tiempos compuestos rechazan la concordancia con los participios, a diferencia 
+de las perífrasis: Las {tengo ~*he} escritas. En segundo lugar, algunas perífrasis impo- 
+nen restricciones semánticas a los predicados y a los sujetos con los que se forman 
+(§ 28.1 .2f y 28.1 ,3a), mientras que los tiempos compuestos pueden construirse con cual- 
+
+### Manual §28.5.3a, 28.5.3b (OCR lines 43826 to 43850)
+28.5.3a «Tener + participio». La mayor parte de los participios que forman perí- 
+frasis con tener expresan realizaciones (es decir, procesos con fin natural: 
+§ 23.2.1a, b), lo que explica contrastes como Te {hemos ~*tenemos} esperado mucho 
+tiempo. Se distinguen dos usos de esta perífrasis: en el primero se expresa la conse- 
+cución de un evento o el término de un estado de cosas, como en Pasóse la mañana 
+en aderezar lo necesario, y a la tarde ya yo tenía alquilado mi caballito (Quevedo, Bus- 
+cón); en el segundo, más propio de la lengua coloquial, se presenta la acción como 
+frecuentativa, como ocurre en Lo tengo recorrido muchas veces, o en el texto siguien- 
+te, puesto en boca de un barbero: Trataba bien a la gente que tenía. Ahora, eso sí, con 
+distancia, como era él; pero también generosamente. Yo lo tengo afeitado la mar de 
+veces (Sánchez Ferlosio, Jarama). Como se ve, el participio concuerda en ambos ca- 
+sos con el complemento directo. Existe, sin embargo, otra variante dialectal, que no 
+ha pasado a los registros formales, en la que el participio es invariable (Tengo hecho 
+algunas cosas). El verbo tener se acerca en ella a los auxiliares de los verbos 
+compuestos, como sucede en portugués. 
+
+28.5.3b «Tener + participio» conserva del auxiliar tener la idea de posesión, per- 
+manencia o mantenimiento (y, a veces, también ubicación). Se perciben estos signi- 
+ficados al comparar Había terminado la carrera con Tenía terminada la carrera, ya 
+que se la presencia de tener confiere a la segunda oración cierta valoración positiva. 
+Admiten la perífrasis sin dificultad los verbos que expresan diversas formas de 
+mantener o conservar algo, como en tener algo {anotado, aprendido, apuntado, copiado, 
+memorizado, recogido, recopilado, reseñado}; o de juntar cosas o personas, a veces 
+asociando esas nociones con las de cuidado o conservación, como en tener reunida a 
+la familia; tener acumulado mucho poder; tener {almacenado ~ amontonado ~archiva- 
+
+### Manual §31.3.1b (OCR lines 46852 to 46858)
+3 1 .3 .1 b El resultado de coordinar dos o más grupos nominales mediante una con- 
+junción copulativa es un grupo sintáctico que tiene las propiedades de una expre- 
+sión nominal con rasgos de plural, lo que se manifiesta en la concordancia con verbos 
+y adjetivos: Laura y Claudia juegan juntas. También se revela esta propiedad en la 
+relación anafórica o catafórica con los pronombres: Ni a su hijo ni al mío les gustan 
+las películas de terror; Necesitaba tanto un sillón de ruedas como una mesa de reunio- 
+nes con los que amueblar su oficina. 
+
+### Manual §33.4 (introduction) (OCR lines 48901 to 48910)
+33.4 La concordancia entre sujeto y verbo 
+
+Los rasgos de número y persona que poseen los verbos conjugados constituyen el 
+reflejo gramatical de los de su sujeto: Yo [1. a persona, singular] canto [1. a persona, 
+singular]; Ellas [3. a persona, plural] cantan [3. a persona, plural]. Se suele suponer en 
+la actualidad que los sujetos tácitos o nulos (§ 33.3) poseen igualmente rasgos de 
+número y persona, como en 0 [3. a persona, plural] estaban [3. a persona, plural] con- 
+tentas. También poseen rasgos de género que permiten la concordancia con adjeti- 
+vos y participios (0... contentas ). 
+
+
+### Manual §33.4.1d (OCR lines 48966 to 48974)
+33.4.1 d En contextos de coordinación de sujetos, las personas gramaticales se 
+atienen ala jerarquía 1. a > 2. a > 3. a . Cuando se coordinan varios pronombres de perso- 
+na distinta en un grupo sintáctico en función de sujeto, el verbo manifiesta la persona 
+gramatical que corresponde al pronombre que aparece más a la izquierda en dicha 
+jerarquía, como en Lo {haremos (l. a )~*haréis (2. a )} tú (2. a ) y yo (1. a ), en Lo {hare- 
+mos ~ *harán} él y yo; Lo haréis tú y ellos, en las zonas en que se usa vosotros, o en Lo 
+harán tú y él, en las zonas en que no se usa (§ 1 6.7.1 i). 
+
+
+
+### Manual §33.4.2a to 33.4.2c (OCR lines 48975 to 49037)
+33.4.2 La concordancia de número: sujetos coordinados 
+
+33.4.2a Los grupos nominales coordinados mediante la conjunción y que desem- 
+peñan la función de sujeto concuerdan con el verbo en plural: La computadora y la 
+impresora se {estropearon ~ *estropeó} esta mañana. Sin embargo, se registran nume- 
+rosos casos de concordancia en singular en los textos antiguos y, en menor medida, 
+también en la lengua actual, tanto con sujetos preverbales como posverbales: 
+
+Lo confirmó Cardenio, don Fernando y sus camaradas (Cervantes, Quijote I); Toda su 
+derrota y su desgracia tuvo ese sentido (Diez, Expediente ); [...] marca del hombre supe- 
+rior encerrado en unas ensoñaciones también superiores, de las que nace el arte y la 
+poesía (Ynduráin, Clasicismo ). 
+
+Se ha observado en muchas ocasiones que las variantes en singular se registran so- 
+bre todo cuando las dos ideas que se asocian se identifican en la conciencia lingüís- 
+tica del hablante como si designaran una sola entidad compleja, como en los dos 
+
+
+33.4.2b 
+
+
+El sujeto 
+
+
+648 
+
+
+últimos ejemplos del grupo anterior. Predomina el singular cuando los sustantivos que 
+integran el grupo nominal comparten un determinante, puesto que se interpreta 
+que denotan propiedades del mismo individuo: El abogado y finquero estaría en 
+poder de sus plagiarios desde el jueves ( Siglo Veintiuno 17/3/1997) o El alimento y 
+hospedaje será así (Hora 23/1/1997). Con los grupos nominales pospuestos construidos 
+sin determinante se dan las dos opciones: Le {faltaba ~ faltaban} tiempo y paciencia; 
+si se anteponen, la opción en singular es extraña. Los sujetos coordinados formados 
+por la expresión conjuntiva discontinua «tanto A como B» concuerdan en plural: 
+Tanto Eva Girón como Leo Mistral demoraron más de la cuenta sus planes secretos 
+para matar a Umbrosa (Armas Marcelo, Madrid ). 
+
+33.4.2b La concordancia se establece en singular con los sujetos coordinados por 
+la conjunción disyuntiva o cuando une dos expresiones que se refieren a una única 
+entidad: El colibrí o pájaro mosca vive en las selvas amazónicas. En cambio, predomi- 
+na la concordancia en plural cuando las expresiones coordinadas designan entidades 
+distintas y aparecen en posición preverbal: No le permitía, cruel, salirse del marco 
+de lo que su rostro o su estatura parecían anunciar (Panero, Lugar); La lluvia o la nieve 
+tenían formas (Gándara, Distancia). En posición posverbal es frecuente el singular: 
+Nada nos importaba el castigo o la muerte (Fernández Santos, Extramuros), que tam- 
+bién aparece incluso en posición preverbal, en la llamada interpretación inclusiva 
+de la disyunción (§ 31.4.1a), sobre todo en contextos genéricos (Un niño o una niña 
+de quince años suele saber más informática que sus padres). Singular y plural alternan 
+en la variante «o A o B» (§ 3 1 .4): La prensa especializada asegura que o el argentino o 
+el suizo {ganará ~ ganarán} el torneo. 
+
+33.4.2c Los grupos nominales coordinados mediante la conjunción ni adoptan la 
+forma «ni A ni B» en posición preverbal y exigen la concordancia en plural en la ma- 
+yor parte de los casos: Ni ella ni su hija sabían que a Santiago Nasar lo estaban esperan- 
+do para matarlo (García Márquez, Crónica); También vigilaba a Angela, aunque ni 
+ella ni tu tío Antonio parecieron darse cuenta (Chirbes, Letra). La posición posverbal 
+admite también el singular, ya sea en el esquema «A ni B» o en la variante «ni A ni B»: 
+No llegó la fruta ni la verdura; Ya no existe ni la conciencia, ni el pecado, ni la Ley 
+Divina, ni el premio o castigo eternos, ni las realidades sobrenaturales (Razón [Esp.j 
+17/6/2003). Si uno de los elementos coordinados presenta rasgos de primera o 
+segunda persona, se exige el plural: No tenemos compostura ni ella ni yo. 
+
+
+### Manual §33.4.3a (and the opening of 33.4.3b) (OCR lines 49058 to 49120)
+33.4.3a 
+
+
+y que el otro se quede o en Me tocó padecer y luchar, amar y cantar (Neruda, Con- 
+fieso). 
+
+33.4.2e Cuando aparecen un sustantivo o un grupo nominal en función de sujeto 
+preverbal, seguido de un inciso encabezado por además de, así como, como, con, 
+junto a, junto con, la concordancia con el verbo se establece mayoritariamente 
+en singular: Fermín, junto con la madre, la arrastra hacia ajuera (Gámbaro, Malasan- 
+gré); El Alfolí, junto con las salinas, ha sido declarado recientemente bien cultural 
+de interés nacional ( Vanguardia [Esp.j 3/6/1996). Se registra ocasionalmente la variante 
+en plural, pero se considera menos recomendable. 
+
+33.4.2f En varias áreas del español americano es frecuente la llamada construc- 
+ción comitativa. En ella, un verbo en primera persona del plural aparece con un 
+sujeto tácito —con los rasgos de 1. a persona, singular— y un grupo preposicional in- 
+troducido por la preposición con, como en Con María fuimos al cine (con el sentido 
+de ‘María y yo fuimos al cine’); Estuvimos hablando de ello con tu papá (‘Tu papá y yo 
+estuvimos hablando de ello’); Al margen de eso, con Cardoen somos amigos desde ni- 
+ños ( Caras 13/10/1997). Estas oraciones admiten también la interpretación, común a 
+todos los hispanohablantes, en la que la preposición con introduce un complemento 
+circunstancial de compañía: ‘Otra persona y yo fuimos al cine acompañados por María’, 
+‘Otra persona y yo estuvimos hablando de ello con tu papá’. 
+
+
+33.4.3 La concordancia de número: nombres de grupo 
+en (as construcciones pseudopartitivas 
+
+33.4.3a Los grupos nominales pseudopartitivos en los que aparece un sustantivo 
+cuantificador de grupo, como conjunto, grupo, montón, puñado, ristra, serie, 
+sinfín, etc. (§ 19.6.2d), pueden concordar con el verbo en singular o en plural 
+cuando actúan como sujeto, con independencia de su posición: Un numeroso gru- 
+po de manifestantes {recorrió ~ recorrieron} las principales avenidas de la capital. 
+La doble concordancia se explica tradicionalmente en función de la estructura 
+sintáctica de estos grupos nominales. La concordancia en singular entre grupo y 
+recorrió se interpreta como señal de que el sustantivo grupo se considera núcleo 
+de la construcción nominal, de forma que de manifestante es su complemento. En 
+la variante en plural se da la llamada concordancia AD sensum. Se explica por la 
+naturaleza cuantificativa de la expresión un grupo, que desencadena la concor- 
+dancia del verbo con el sustantivo manifestantes. El fenómeno puede verse tam- 
+bién como una consecuencia de la clasificación gramatical de los sustantivos. Así, 
+el sustantivo ejército concierta en singular en Un ejército de moscas, obligadas a 
+abandonar sus posiciones sobre la mesa, se dispersó en retirada por toda la cocina 
+(Dou, Luna), pero en plural en Un ejército de dibujantes, empleados y mecánicos 
+invadieron las tabernas de cadetes y campesinos (Barea, Forja). Puede pensarse 
+que en el primer caso se interpreta como sustantivo colectivo, sin valor cuanti- 
+ficativo, mientras que en el segundo se interpreta como nombre cuantificativo 
+(§ 1 2.4). La segunda opción le permite compartir paradigma con mayoría, cente- 
+nar, montón o el mismo sustantivo grupo. La primera interpretación es la única 
+posible cuando estos sustantivos presentan un determinante definido. En tales 
+
+
+33.4.3b 
+
+
+El sujeto 
+
+
+650 
+
+
+casos, la concordancia solo se da en singular: Quiso dar un paso, pero el grupo de dan- 
+
+### Manual §34.2 (introduction), 34.2.1 (OCR lines 49421 to 49433)
+34.2 Sustitutos pronominales del complemento directo 
+
+34.2.1 Condiciones de la sustitución 
+
+En casi todos los análisis tradicionales se destaca la posibilidad de que el comple- 
+mento directo pueda sustituirse por un pronombre átono acusativo de tercera per- 
+sona (Jo, la, los, las), como en No pienso leer este libro > No pienso leerlo o en Dame la 
+mano > Dámela. Si se trata de oraciones sustantivas, el pronombre presenta género 
+neutro, como en Me prometiste que vendrías > Me lo prometiste. Aunque la sustitu- 
+ción por tales pronombres es útil como recurso identificatorio, no siempre permite 
+reconocer de forma automática el complemento directo, ya que está condicionada 
+por los rasgos gramaticales que compartan el complemento directo y su sustituto, 
+como se verá a continuación. 
+
+### Manual §34.2.2a (OCR lines 49521 to 49533)
+34.2.2a Lo habitual es que el complemento directo pronominal y su antecedente 
+pertenezcan a oraciones distintas, como en Habían grabado lo menos diez conversa- 
+ciones mías con los de Cahuide, Carlitos —dijo Santiago—, Bermúdez se las había 
+hecho escuchar (Vargas Llosa, Conversación). Ocupan una posición preoracional en 
+las construcciones dislocadas (§ 1 6.6.2a y 40.2.3), como A Enrique lo detuvieron 
+unos días (Bryce Echenique, Martín Romaña). En este caso, el pronombre tiene por 
+antecedente la expresión a ella, que ocupa una posición temática o de tópico, ya 
+que introduce cierta información sobre la que versa el resto de la oración. La dupli- 
+cación pronominal ( a ella ... la) es obligatoria en estas construcciones. La fuerzan 
+igualmente, en el español actual, los pronombres personales tónicos pospuestos al 
+verbo que ejercen la función de objeto directo (§ 1 6.6.1 b). Se obtienen así contrastes 
+como La vi a ella~*Vi a ella~La vi. 
+
+
+### Manual §35.2.3h (OCR lines 50683 to 50692)
+35.2.3h En las construcciones reduplicadas, los pronombres átonos concuerdan 
+con los tónicos o con el grupo nominal al que se refieren. Sin embargo, es frecuente 
+emplear el dativo le en correspondencia con un grupo preposicional construido con 
+sustantivos en plural: Y poco a poco voy cogiendo complejo de que soy la que sobro... 
+De que te sobro a ti, y le sobro a mis padres y a todos (Martínez Mediero, Juana); Me 
+compra manises para que le dé a los monos (Benedetti, Primavera). Esta discordancia 
+se registra en todas las áreas lingüísticas, sobre todo en la lengua oral. Se recomienda, 
+no obstante, evitarla en los registros formales. 
+
+
+
+### Manual §37.4.1a, 37.4.1b (OCR lines 52482 to 52518)
+37.4.1 Concordancia del atributo y de los pronombres sustitutos 
+
+37.4.1 a Los atributos adjetivales de las oraciones copulativas concuerdan en género 
+y número con el sujeto. Los nominales lo hacen cuando los sustantivos presentan 
+
+
+711 
+
+
+Concordancia del atributo 
+
+
+37.4.2b 
+
+
+flexión de género o forman parte de oposiciones heteronímicas ( Ernestina es su 
+hija ; Su mamá es doña Luisa j, pero no en caso contrario (Esa cicatriz es un recuer- 
+do de la guerra; La reunión fue un fracaso). Las mismas condiciones se extienden a 
+las oraciones no copulativas: El pasajero sonrió complacido; Azucena se convirtió 
+enjugadora; No veo claras sus intenciones; La tenían por un portento; Víctima de un 
+cáncer terminal, murió solo a la edad de sesenta años. Se construyen en masculino 
+singular los complementos predicativos adjetivales de los verbos impersonales 
+que denotan fenómenos atmosféricos: Picadito de la piel, como si le hubiera llovido 
+fresquito (Hayen, Calle); El día siguiente es domingo y amanece despejado y lumino- 
+so (Marsé, Embrujo). 
+
+37.4.1 b Los grupos sintácticos atributivos no presentan rasgos del género neutro, 
+ya que ni los nombres ni los adjetivos los manifiestan en español. Aun así, como se 
+explicó en el § 37.1.2a, este es el género que muestran sus sustitutos pronominales, 
+personales (lo), demostrativos (eso) o interrogativos (qué). No existe, por tanto con- 
+cordancia de género entre lo (neutro) y traviesa (femenino) en Su mamá dice que es 
+muy traviesa, pero su papá dice que no lo es. Se ha registrado la alternancia entre el 
+neutro y los otros dos géneros en algunas oraciones copulativas de atributo nominal 
+formadas con el verbo parecer, como en A primera vista, esa conclusión parece una 
+paradoja, pero deja de {parecérnosla-parecérnoslo} cuando la examinamos más de 
+cerca, pero se prefiere la segunda opción. 
+
+
+### Manual §41.1.1b (OCR lines 55780 to 55805)
+41.1.1 b En latín se distinguían las formas activas (amo) de las pasivas (amor) 
+mediante afijos flexivos, pero en los verbos deponentes, a un verbo de forma 
+pasiva le correspondía una construcción de significado activo (hortári ‘exhor- 
+tar’, venári ‘cazar’, loqui ‘hablar’) y viceversa (veníre ‘ser vendido’, vapulare ‘ser 
+azotado’, exuláre ‘ser desterrado’). La pasiva sintética (o morfológica) del 
+latín se diferencia de la pasiva perifrástica (o de participio) de las lenguas 
+románicas en que esta última se expresa mediante una construcción sintáctica 
+formada con el verbo ser más el participio de pasado de un verbo transitivo, 
+como en Soy amado; Somos amadas; Serán estudiados; Ha sido deportado; Habrán 
+sido analizadas. Los participios, como los atributos de las oraciones copulativas, 
+
+
+41.1.2a 
+
+
+Oraciones activas, pasivas, impersonales y medias 
+
+
+774 
+
+
+concuerdan en género y número con el sujeto en estas construcciones, a diferen- 
+cia de los participios que forman parte de los tiempos compuestos: He {ama- 
+do ~*amada}. Como la voz es un exponente morfológico de la diátesis, no es 
+enteramente correcto hablar de voz pasiva en español, ya que esta forma de diáte- 
+sis se manifiesta con recursos sintácticos. Se prefiere generalmente, por esta 
+

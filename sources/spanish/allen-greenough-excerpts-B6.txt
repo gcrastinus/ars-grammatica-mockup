@@ -1,0 +1,198 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B6 (Section V: agreement)
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, fetched 26 Oct 2026. Machine-read text: the macrons of the printed book are lost, and section numbers are the grammar's own.
+
+
+##### agreement
+
+### A&G §280 (OCR lines 18785 to 18808)
+280.  A  word  is  said  to  agree  with  another  when  it  is  required 
+by  usage  to  be  in  the  same  Gender,  Number,  Case,  or  Person. 
+
+The  following  are  the  general  forms  of  agreement,  sometimes 
+called  the  Four  Concords :  — 
+
+1.  The  agreement  of  the  Noun  in  Apposition  or  as  Predicate 
+(§§  281-284). 
+
+2.  The  agreement  of  the  Adjective  with  its  Noun  (§  286). 
+
+3.  The  agreement  of  the  Eelative  with  its  Antecedent  (§  305). 
+
+4.  The  agreement  of  the  Finite  Verb  with  its  Subject  (§  316). 
+a.  A  word  sometimes  takes  the  gender  or  number,  not  of  the  word 
+
+with  which  it  should  regularly  agree,  but  of  some  other  word  implied 
+in  that  word. 
+
+This  use  is  called  Synesis,  or  constructio  ad  sensum  (construction 
+according  to  sense). 
+
+AGREEMENT   OF  NOUNS 
+
+
+### A&G §286 (OCR lines 18956 to 18975)
+286.  Adjectives,  Adjective  Pronouns,  and  Participles  agree 
+with  their  nouns  in  Gender,  Number,  and  Case :  — 
+vir  fortis,  a  brave  man. 
+ilia  mulier,  that  woman. 
+urbium  magnarum,  of  great  cities. 
+cum  ducentis  militibus,  with  two  hundred  soldiers. 
+imperator  victus  est,  the  general  was  beaten. 
+secutae  sunt  tempestates,  storms  followed. 
+
+Note.  —  All  rules  for  the  agreement  of  adjectives  apply  also  to  adjective  pronouns 
+and  to  participles. 
+
+a.  With  two  or  more  nouns  the  adjective  is  regularly  plural,  but 
+often  agrees  with  the  nearest  (especially  when  attributive)  :  — 
+
+Nlsus  et  Euryalus  primi  (Aen.  v.  294),  JSfisus  and  Euryalus  first. 
+Caesaris  omni  et  gratia  et  opibus  fraor  (Fam.  i.  9.  21),  I  enjoy  all  Coesar'sfo.vor 
+and  resources. 
+
+Note.  —  An  adjective  referring  to  two  nouns  connected  by  the  preposition  cum  is 
+
+### A&G §305 (OCR lines 19835 to 19845)
+305.  A  Relative  agrees  with  its  Antecedent  in  Grender  and 
+Number;  but  its  Case  depends  on  its  construction  in  the  clause 
+in  which  it  stands  :  — 
+
+ea  dies  quam  constituerat  venit  (B.  G.  i.  8),  that  day  which  he  had  appointed 
+
+came. 
+pontem  qui  erat  ad  Genavani  iubet  rescind!  (id.  i.  7),  he  orders  the  bridge 
+
+which  was  near  Geneva  to  be  cut  down. 
+Aduatuci,  de  quibus  supra  diximus,  domum  reverterunt  (id.  ii.  29),  the 
+
+### A&G §316 and 317 (a, d) (OCR lines 20333 to 20460)
+316.  A  Finite  Verb  agrees  with  its  Subject  in  Number  and  Per- 
+son: — 
+
+ego  statuo,  I  resolve.  senatus  decrevit,  the  senate  ordered. 
+
+silent  leges  inter  anna  (Mil.  11),  the  laws  are  dumb  in  time  of  war. 
+
+Note.  —  In  verb-forms  containing  a  participle,  the  participle  agrees  with  the  sub- 
+ject in  gender  and  number  (§  286):  — 
+
+oratio  est  habita,  the  plea  ivas  delivered.        bellum  exortum  est,  a  war  arose. 
+
+a.  A  verb  having  a  relative  as  its  subject  takes  the  person  of  the 
+expressed  or  implied  antecedent :  — ■ 
+
+adsum  qui  feci  (Aen.  ix.  427),  here  am  I  who  did  it. 
+
+tu,  qui  scis,  omnem  dlligentiam  adhibebis  (Att.  v.  2.  3),  you,  who  know, 
+
+will  use  all  diligence. 
+videte  quam  despiciamur  omnes  qui  sumus  e  municipiis  (Phil.  iii.  15),  see 
+
+how  all  of  us  oire  scorned  who  are  from  the  free  towns. 
+
+h.  A  verb  sometimes  agrees  in  number  (and  a  participle  in  the  verb- 
+form  in  number  and  gender)  with  an  appositive  or  predicate  noun  :  — 
+
+amantium  irae  amoris  integratio  est  (Ter.  And.  555),  the  quarrels  of  lovers 
+
+are  the  renewal  of  love. 
+non  omnis  error  stultitia  dicenda  est  (Div.  ii.  90),  not  every  error  should  be 
+
+called  folly. 
+Corinthus  lumen  Graeciae  exstmctum  est  (ef.  Manil.  11),  Corinth,  the  light 
+
+of  Greece,  is  put  out. 
+
+Double  or  Collective  Subject 
+
+317.  Two  or  more  Singular  Subjects  take  a  verb  in  the  Plural: 
+
+pater  et  avus  mortui  sunt,  his  father  and  grandfather  are  dead. 
+
+Note.  —  So  rarely  (by  synesis,  §  280.  a)  when  to  a  singular  subject  is  attached  an 
+ablative  with  cum:  as,  —  dux  cum  aliquot  prmcipibus  capiuntur  (Liv.  xxi.  60),  the 
+general  and  several  leading  men  are  taken. 
+
+a.  When  subjects  are  of  different  persons,  the  verb  is  usually  in 
+the  first  person  rather  than  the  second,  and  in  the  second  rather  than 
+the  third :  — 
+
+si  tu  et  Tullia  valetis  ego  et  Cicero  valemus  (Fam.  xiv.  5),  if  you  and  Tullia 
+are  well,  Cicero  and  I  are  well.  [Notice  that  the  first  person  is  also 
+first  in  order,  not  last,  as  by  courtesy  in  English.] 
+
+Note.  —  In  case  of  different  genders  a  participle  in  a  verb-form  follows  the  rule  for 
+predicate  adjectives  (see  §  287.  2-4). 
+
+
+194  SYNTAX:    VERBS  [§317 
+
+b.  If  the  subjects  are  connected  by  disjunctives  (§  223.  a),  or  if 
+they  are  considered  as  a  single  whole,  the  verb  is  usually  singular :  — 
+
+quern  neque  fides  neque  ius  iurandum  neque  ilium  misericordia  repressit 
+
+(Ter.  Ad.  306),  not  faith,  nor  oath,  nay,  nor  mercy,  checked  him. 
+senatus  populusque  Romanus  intellegit  (Fain.  v.  8),  the  Roman  senate  and 
+
+people  understand.     [But,  neque  Caesar  neque  ego  habit!  essemus  (id. 
+
+xi.  20),  neither  Coesar  nor  I  should  have  been  considered.'] 
+fama  et  vita  innocentis  defenditur  (Rose.  Am.  15),  the  reputation  and  life  of  an 
+
+innocent  man  are  defended. 
+est  in  eo  virtus  et  probitas  et  summum  officium  summaque  observantia  (Fam. 
+
+xiii.  28  a.  2),  in  him  are  to  be  found  worth,  uprightness,  the  highest  sense 
+
+of  duty,  and  the  greatest  devotion. 
+
+Note.  —  So  almost  always  when  the  subjects  are  abstract  nouns. 
+
+c.  When  a  verb  belongs  to  two  or  more  subjects  separately,  it  often 
+agrees  with  one  and  is  understood  with  the  others  :  — 
+
+intercedit  M.  Antonius  Q.  Cassius  tribuni  plebis  (B.  C.  i.  2),  Mark  Antony 
+and  Quintus  Cassius,  tribunes  of  the  people,  interpose. 
+
+hoc  mihi  et  PeripateticI  et  vetus  Academia  concedit  (Acad.  ii.  113),  this  both 
+the  Peripatetic  philosophers  and  the  Old  Academy  grant  me. 
+
+d.  A  collective  noun  commonly  takes  a  verb  in  the  singular ;  but 
+the  plural  is  often  found  with  collective  nouns  when  individuals  are 
+thought  of  (§  280.  a) :  — 
+
+(1)  senatus  haec  intellegit  (Cat.  i.  2),  the  senate  is  aware  of  this. 
+
+ad  hlberna  exercitus  redit  (Liv.  xxi.  22),  the  army  returns  to  winter-quarters. 
+plebes  apatribus  secessit  (Sail.  Cat.  33),  the  plebs  seceded  from  the  patricians. 
+
+(2)  pars  praedas  agebant  (lug.  32),  apart  brought  in  booty. 
+
+cum  tanta  multitudo  lapides  conicerent  (B.  G.  ii.  6),  when  such  a  crowd  were 
+throwing  stones. 
+
+Note  1.  —  The  point  of  view  may  change  in  the  course  of  a  sentence :  as,  —  equita- 
+tum  omnem  .  .  .  quern  habebat  praemittit,  qui  videant  (B.  G.  i.  15X  he  sent  ahead  all 
+the  cavalry  he  had,  to  see  (who  should  see). 
+
+Note  2.  —  The  singular  of  a  noun  regularly  denoting  an  individual  is  sometimes 
+used  collectively  to  denote  a  group :  as,  Poenus,  the  Carthaginians;  miles,  the  soldiery; 
+eques,  the  cavalry. 
+
+e.  Quisque,  each,  and  unus  quisque,  every  single  one,  have  very  often 
+a  plural  verb,  but  may  be  considered  as  in  partitive  apposition  with  a 
+plural  subject  implied  (cf.  §  282.  a) :  — 
+
+sibi  quisque  habeant  quod  suum  est  (PL  Cure.  180),  let  every  one  keep  his 
+own  (let  them  keep  every  man  his  own). 
+
+Note.  — So  also  uterque,  each  (of  two),  and  the  reciprocal  phrases  alius  .  .  .  alium, 
+alter  .  .  .  alterum  (§  315.  a) . 
+
+
+§§  318,  319J  OMISSION   OE  SUBJECT   OR  VERB  195 
+
+Omission  of  Subject  or  Verb 
+
