@@ -45,6 +45,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "desc": "20 questions."
   },
   {
+   "id": "lang.iii-decl.es/pronouns",
+   "kind": "study",
+   "built": true,
+   "title": "The Spanish Pronoun",
+   "desc": "The relative, demonstrative, possessive, interrogative, and indefinite pronouns."
+  },
+  {
+   "id": "lang.iii-decl.es/pronouns-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "The Spanish Pronoun",
+   "desc": "24 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
