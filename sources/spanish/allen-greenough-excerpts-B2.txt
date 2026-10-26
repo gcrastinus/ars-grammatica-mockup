@@ -1,0 +1,28 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B2 for the Latin comparisons on the cards of lang.iii-decl.es/accidents
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, https://archive.org/download/allengreenoughsn01alle/allengreenoughsn01alle_djvu.txt , fetched 26 Oct 2026.
+NOTE: machine-read text; double spaces come from the scan. Section numbers are the grammar's own.
+
+### §41, note a (the first declension)
+a.  The  Latin  has  no  article ;  hence  stella  may  mean  a  star,  the  star,  or 
+simply  star. 
+
+### §153 and §154 (voices and moods)
+153.  The  inflection  of  the  Verb  is  called  its  Conjugation. 
+Voice,  Mood,  Tense,  Person,  Number 
+154.  Through  its  conjugation  the  Verb  expresses  Voice,  Mood, 
+a.  The  Voices  are  two :  Active  and  Passive.
+b*  The  Moods  are  four :  Indicative,  Subjunctive,  Imperative,  and  In- 
+finitive.1 
+Note. — The  Indicative,  Subjunctive,  and  Imperative  are  called  Finite  Moods  in 
+distinction  from  the  Infinitive. 
+
+### §171 (the four conjugations)
+The  Four  Conjugations 
+171.  Verbs  are  classed  in  Four  Regular  Conjugations,  distin- 
+guished by  the  stem-vowel  which  appears  before  -re  in  the  Present 
+
+### §318, a (the subject pronoun)
+318.  The  Subject  of  the  Verb  is  sometimes  omitted  :  — 
+a.  A  Personal  pronoun,  as  subject,  is  usually  omitted  unless  em- 
+phatic :  — 

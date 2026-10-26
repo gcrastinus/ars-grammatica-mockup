@@ -1,0 +1,677 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B2 (Section III, declinable parts: lang.iii-decl.es/accidents)
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy "RAE Manual De La Nueva Gramática De La Lengua Española", item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, https://archive.org/download/RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola/ , fetched 26 Oct 2026.
+NOTE: the text is machine-read (OCR). Hyphenation at line ends and some stray spaces in section numbers ("1 .3.1 b") come from the scan, not from the book. The paragraphs are given as the OCR prints them; they are evidence for the facts stated on the cards, and no sentence of this file is quoted on a card. The Academy's own website (rae.es) refuses automated access, so the printed book could not be compared page by page; a check against the printed book is on the B14 list.
+Only short paragraphs are kept here. The paragraph number is the Manual's own (section number plus letter).
+
+### Manual §1.3.1b (OCR line 276)
+1 .3.1 b Diversas relaciones sintácticas se ponen de manifiesto en gran número de 
+lenguas por la flexión de CASO, pero en español esta ha quedado reducida al paradig- 
+ma de los pronombres personales. Así, el pronombre yo aparece en el caso recto 
+o nominativo, que corresponde típicamente al sujeto; el pronombre mí (caso obli- 
+cuo) está restringido a los contextos preposicionales: detrás de mí, acordarse de mí, 
+para mí. Cuando es complemento directo, adopta la forma de acusativo me, y si es 
+complemento indirecto aparece en la variante de dativo, que coincide con la de 
+acusativo en el pronombre de primera persona del singular, pero no en otros: Lo leí; 
+Le entregué las llaves. 
+
+### Manual §2.1.1b (OCR line 1103)
+2 .1 .1 b Los adj etivos concuerdan en género y número con el sustantivo, tanto si son 
+modificadores ( ojos melancólicos, las tranquilas tardes sanjuaninas ) como si son atri- 
+butos o predicativos ( Los invitados estaban callados; Lo creíamos tímido ), incluso 
+cuando el sujeto está tácito: Comieron callados; Era muy tímido (§ 1 6.2.1 g y 33.3.1 d). 
+Los rasgos de género y número de los adjetivos y de otros modificadores del sustan- 
+tivo carecen de interpretación semántica y constituyen únicamente marcas de 
+CONCORDANCIA. 
+
+### Manual §2.1.1c (OCR line 1113)
+2.1.1c No existe discordancia de género en secuencias como el alma dormida 
+o el agua embalsada. El artículo femenino presenta la variante el, que precede a los 
+sustantivos que comienzan con /a/ tónica. En las mismas condiciones, también el 
+artículo indeterminado un y los cuantificadores algún y ningún pueden combi- 
+narse con sustantivos femeninos: {un ~ algún ~ ningún} arma. Tal asimilación con 
+el masculino se extiende a veces indebidamente a otros determinantes y adjetivos 
+que preceden al sustantivo. Se trata de usos frecuentes pero incorrectos, que se 
+recomienda evitar: este hacha, ese acta, el otro ave, todo el hambre, poco agua, el 
+2.1.2a 
+El género 
+24 
+primer área, el mismo arma, aquel aula, en lugar de las variantes correctas esta 
+hacha, esa acta, la otra ave, toda el hambre, poca agua, la primera área, la misma 
+arma, aquella aula. 
+
+### Manual §2.1.2a (OCR line 1139)
+2.1.2a Atendiendo al género, los sustantivos se clasifican en masculinos y 
+femeninos. Con muchos sustantivos que designan seres animados, el género sirve 
+para diferenciar el sexo del referente (gato/ gata; niño/ niña; presidente / presidenta; 
+alcalde/ alcaldesa). En el resto de los casos, el género de los sustantivos es una pro- 
+piedad gramatical inherente, sin conexión con el sexo. Su terminación no siempre 
+pone de manifiesto el género que les corresponde: por ejemplo, césped y pared son, 
+respectivamente, masculino y femenino, como indican los elementos subrayados en 
+el césped húmedo y la pared blanca. 
+
+### Manual §2.1.2b (OCR line 1148)
+2.1.2b Los sustantivos no tienen género neutro en español. Solo lo tienen los 
+demostrativos (esto, eso, aquello), los cuantificadores (tanto, cuanto, mucho, poco), el 
+artículo lo y los pronombres personales ello y lo (§ 14.5.1a, 1 6.2.1 f, 17.2.5 y 19.2.1). 
+El género en que aparecen los adjetivos y otros modificadores de estos elementos 
+neutros no se diferencia morfológicamente del masculino: 
+Sé que hay en mí mucho bueno y mucho malo (Gómez Avellaneda, Autobiografía ); Pues 
+yo te digo que eso es imbécil y monstruoso (Baroja, Aurora)-, Todo ello era falso, como 
+luego se demostró (Semprún, Federico Sánchez); Esto es solamente cierto para las guerras 
+de conquista (Madero, Sucesión). 
+También son neutros los pronombres que se refieren a las oraciones: —¿Dijo que lla- 
+maría? —No, no dijo eso; A dónde fueron a parar no lo supe (Barnet, Gallego). Más 
+que un tercer género del español equiparable a los otros dos, el neutro es el exponen- 
+te de una clase gramatical de palabras que designan ciertas nociones abstractas 
+(§ 14.5.3a). 
+
+### Manual §2.1.3a (OCR line 1194)
+2.1.3a El masculino es en español el género no marcado, y el femenino, el mar- 
+cado. En la designación de personas y animales, los sustantivos de género masculino 
+se emplean para referirse a los individuos de ese sexo, pero también para designar 
+a toda la especie, sin distinción de sexos, sea en singular o en plural. Así, están com- 
+prendidas las mujeres en Un estudiante universitario tiene que esforzarse mucho hoy 
+en día para trabajar y estudiar a la vez o en Los hombres prehistóricos se vestían con 
+pieles de animales. Se abarca asimismo a las osas en El oso es un animal plantígrado o 
+En los bosques quedan pocos osos. Estos casos corresponden al USO genérico del mascu- 
+lino. Sin embargo, razones extralingüísticas o contextúales pueden dar a entender 
+que se habla solo de varones, como en el número de mexicanos que han sido ordenados 
+sacerdotes en los últimos diez años, o en Los hombres solo dicen mentiras (Delibes, 
+Ratas). 
+
+### Manual §3.1.1b (OCR line 1743)
+3.1.1b Algunas palabras pertenecientes al sistema gramatical del español care- 
+cen de plural. Así ocurre con las que poseen género neutro: ello, esto, eso, aquello, qué 
+(en ¿Qué quieres?), nada, lo (en lo bueno y en Pretendía asistir, pero no lo permitie- 
+ron), y también con algunos cuantificadores no neutros, como alguien, nadie o cada. 
+Otros, en cambio, como varios, cambian notablemente de sentido usados en singular 
+(vario). Existen, por otra parte, pronombres (que, se) que no presentan rasgos visi- 
+bles de número ni de género. Con todo, se piensa que estas informaciones están pre- 
+sentes de forma abstracta en dichas palabras. En efecto, el sujeto de la oración 
+subrayada en las habitaciones que estaban vacías es la forma que, de manera que di- 
+cho pronombre transmite el plural a estaban y a vacías. Para los nombres que se usan 
+solo en singular o solo en plural, véase el § 3.3. 
+
+### Manual §3.1.2a (OCR line 1805)
+3.1.2a Los nombres terminados en vocal átona y en -Á, -É, -ó tónicas hacen 
+el plural en -s: casas, calles, yanquis, libros, tribus, sofás, cafés, platos. Añaden también 
+-s las voces agudas terminadas en diptongo, como bonsáis. Las terminadas en -í, -ú 
+tónicas tienden a admitir las dos variantes de plural. Se dice, pues, al(h)elíes o al(h) 
+elís, bisturíes o bisturís, esquíes o esquís, jabalíes ojabalís, maniquíes o maniquís, rubíes 
+o rubís; bambúes o bambús, gurúes o gurús, tabúes o tabús. No obstante, se percibe 
+cierta tendencia, variable según los países, a valorar como más cultas las variantes en 
+-es, sobre todo con gentilicios y nombres de etnias: ceutíes, guaraníes, israelíes, hin- 
+dúes. Como excepción se registran algunos términos, en su mayoría coloquiales o 
+procedentes de otras lenguas, que forman su plural únicamente en -ís: benjuís, cañís, 
+gachís, gilís, pirulís, popurrís, recibís. Deben evitarse las formas populares de los plu- 
+rales mamases, papases (por mamas, papás), cacahueses o cacahués (por cacahuates o 
+cacahuetes), cafeses (por cafés), manises (por manís o maníes), entre otros. Existe 
+también fluctuación en el plural de algunos monosílabos acabados en vocal, cuya ma- 
+37 
+El plural de los compuestos. Otros plurales 
+3.2.1a 
+yor parte lo forma en -s: fes, pies (no pieses), pros, tés. Los plurales recomendados para 
+los nombres de las vocales son aes, es, íes, oes, úes. El de cu (nombre de la consonante q) 
+es cus, aunque en algunos países americanos se prefiere cúes; el de ka (nombre de 
+la letra k) es kas, no kaes, y el de i griega ( y ), íes griegas. Para yo, no y sí se recomiendan 
+y oes, noes y síes respectivamente, aun cuando se han registrado otras variantes. 
+
+### Manual §3.1.2b (OCR line 1836)
+3.1.2b Los nombres acabados en las consonantes -l, -n, -r, -d, -z, -j hacen el 
+plural en -es: cónsules, mieles, leones, caracteres (con cambio de acento), tutores, pare- 
+des, peces (con paso de la z a c delante de e), relojes. Se comportan de manera especial 
+los sustantivos esdrújulos acabados en consonante, que o bien desplazan el acento, 
+como especímenes, regímenes, o bien permanecen invariables, según se observa en 
+algunos términos filológicos de origen griego: el asíndeton / los asíndeton; el polisín- 
+deton/los polisíndeton. No sigue esta regla hipérbaton, cuyo plural es hipérbatos 
+(más recomendable que hipérbatons o hipérbatones ). 
+
+### Manual §3.1.2c (OCR line 1845)
+3.1.2c Los nombres terminados en -s, -x que son agudos o monosílabos hacen 
+también el plural en -es (autobuses, compases, reveses, toses, boxes, faxes), pero per- 
+manecen invariables los restantes: las dosis, las síntesis, las tesis, los lunes, los tórax, 
+los clímax, los bíceps, los fórceps. Se añaden algunos acabados en -as que, aunque 
+construidos sobre una forma plural, se emplean sin variación para singular y plural: 
+boceras ‘jactancioso(s)’, gilipollas ‘tonto(s)’, manitas ‘habilidoso(s)’, cercanías 
+‘tren(es) de cercanías’. Siguen la regla general y toman -es para el plural los nombres 
+terminados en -Y: ayes, bueyes, convoyes, leyes, reyes, con la excepción de algunos 
+sustantivos no totalmente castellanizados: jerséis (o yerseis). El plural más frecuente 
+de guirigay es guirigáis, pero se documenta también la otra opción: [...] el cencerro, la 
+hamaca y el ordeño, las guitarras, los potros y las hembras, lágrimas en velorios, guiri- 
+gayes en las fiestas, y la cabalidad en todo (Asturias, Papa). 
+
+### Manual §4.1.3b (OCR line 2533)
+4.1.3b Desde el punto de vista de su estructura léxica, las formas personales y 
+las no personales pueden ser simples (cantábamos, escribiendo) y compuestas 
+(habíamos cantado, habiendo escrito). Las formas compuestas se construyen con el 
+51 
+Distribución de los morfemas flexivos 
+4.2.1b 
+verbo auxiliar haber y el participio del verbo correspondiente, que es el auxiliado 
+o principal. El auxiliar haber aporta el valor retrospectivo y perfectivo, además de 
+la información gramatical de TM y PN en todas las formas personales del verbo. El 
+participio, en cambio, determina su estructura argumental (§ 1.6.1c), por tanto la 
+naturaleza de su sujeto y de sus posibles complementos. Si bien estas formas poseen 
+muchas propiedades comunes con las perífrasis verbales (§ 28.1. 3g), se interpretan 
+generalmente como unidades morfológicas. El participio que contienen es invaria- 
+ble en género y número, cualquiera que sea el sujeto ( Beatriz ha cantado muy bien; 
+Los niños han cantado muy bien) o el objeto directo: Han cantado muy bien {la can- 
+ción ~ las canciones}. 
+
+### Manual §4.2.2a (OCR line 2642)
+4.2.2a En el tema de presente, el segmento TM es nulo (0) en el presente de indi- 
+cativo (cánt-a-0-rí) y también en el imperativo cant-á-0-d, salvo en la primera perso- 
+na del singular del presente de indicativo, en la que es -o: cánt-0-o-0. En el presente de 
+subjuntivo es -e- o -é- en la primera conjugación (ám-0-e-n; am-0-é- mos), y 
+-a- o -á- en las otras dos: tém-0-a-n, párt-0-a-s; tem-0-á-s, part-0-á-mos. 
+
+### Manual §4.2.2c (OCR line 2658)
+4.2.2c El tema de futuro se reconoce en el futuro de indicativo (amaré) y en el 
+condicional (amaría). Las formas de estos tiempos provienen de la gramaticaliza- 
+ción de una perífrasis verbal formada por el infinitivo y el auxiliar haber (§ 23.7.1 a y 
+53 
+Distribución de los morfemas flexivos 
+4.2.3b 
+
+### Manual §4.2.3a (OCR line 2680)
+4.2.3a El segmento PN reproduce en el verbo los rasgos de persona y número 
+del sujeto. La primera persona hace referencia al hablante o a los hablantes, la se- 
+gunda, al oyente o a los oyentes, y la tercera, a las personas o cosas de las que se habla 
+(§ 1 6.2.1 a). Los grupos nominales concuerdan con el verbo en tercera persona (El sol 
+sale por el este), pero los que aparecen en plural y designan personas pueden hacerlo 
+también en la primera y en la segunda, como en Los padres no siempre sabemos lo que 
+es bueno para los hijos (§ 33.4.1c). El uso de ciertas fórmulas de tratamiento para 
+aludir al oyente explica la concordancia en tercera persona: vuestra merced > usted 
+(§ 33.4.1 a). El valor etimológico plural de vos explica la concordancia con formas de 
+segunda persona del plural o derivadas de ellas: tenéis > tenés. 
+
+### Manual §4.7.2a (OCR line 3584)
+4.7.2a En el verbo ser (v. T.C., n.° 61) cabe distinguir una serie de raíces alter- 
+nantes, como s- en soy, somos, sois / sos (voseante), son, sé (imperativo) o sido, y 
+es- o e- en es. Sin embargo, la segmentación flexiva solo proporciona paradigmas 
+claramente reconocibles en el imperfecto, con raíz er- (era, eras...), así como en 
+las formas del tema de pretérito, con raíz fu-: fui, fuiste; fueras, fueres. Las formas 
+del tema de futuro se conjugan de manera regular a partir de la raíz se- del infi- 
+nitivo. 
+
+### Manual §4.7.2b (OCR line 3592)
+4.7.2b El verbo ir (v. T.C., n.° 38) presenta tres raíces. La raíz latina i- originaria 
+se ha conservado en todos los tiempos del tema de futuro: el infinitivo ir, el futuro 
+y el condicional (iré, iría); en las formas no personales del tema de pretérito: el 
+gerundio yendo, el participio ido, y en el imperfecto de indicativo iba, ibas. También 
+se ha conservado en el imperativo plural id. Las demás formas del tema de presente se 
+construyen con la raíz v-: el presente de subjuntivo (vaya, vayas...), que no es etimo- 
+lógico, sino analógico (haya, hayas...), y las formas de imperativo ve (tú) y vayan 
+(ustedes). Presentan la raíz fu- el resto de los tiempos del tema de pretérito: perfec- 
+to simple (fui, fuiste, fue), imperfecto de subjuntivo (fuera o fuese), futuro de sub- 
+juntivo (fuere). Las formas de imperativo del verbo pronominal irse son vete (tú), 
+váyanse (ustedes) e idos (vosotros). Esta última se limita al español europeo, pero en 
+la lengua oral es ampliamente mayoritaria la variante iros. El imperativo de ir care- 
+ce de forma propia de voseo, aunque se registran las formas i e ite en los usos popu- 
+lares del noroeste argentino. En su lugar se usa el imperativo de andar (anda) o el 
+de andarse (andaté). La forma vayamos de la 1. a persona del plural del presente de 
+subjuntivo concurre con la etimológica vamos, idéntica a la de indicativo. La pre- 
+sencia del pronombre enclítico en ¡Vámonos! demuestra su integración en el impe- 
+rativo (§ 42.2.1 b). 
+4.7.2c 
+La flexión verbal 
+68 
+
+### Manual §13.3.2a (OCR line 25379)
+13.3.2a Los adjetivos del grupo A tienen flexión de género y número: oso par- 
+do/osa parda/osos pardos/osas pardas. La flexión de género femenino aparece 
+marcada en este grupo casi exclusivamente por el sufijo -a (alta, guapa, cordobesa, 
+española), pero en los adjetivos acabados en -or alternan a menudo las variantes en 
+-ora y en -iz, como en fuerza {motor a -motriz}; planta {automotora- automotriz}; 
+máquina {locomotora-locomotriz}. Se recomienda evitar el uso del adjetivo femeni- 
+no en impulso motriz y taller automotriz, puesto que impulso y taller son masculinos 
+(impulso motor, taller automotor). 
+
+### Manual §13.3.2c (OCR line 25402)
+13.3.2c Los adjetivos del grupo B tienen flexión de número pero no de género, 
+como en posible {candidato -candidato}; posibles {candidatos -candidatos}. Este gru- 
+po está formado por los adjetivos terminados en -i, -í, -a, -ú (cursi, baladí, tunecí, 
+marroquí, ácrata, agrícola, azteca, belga, hipócrita, hindú, zulú), por muchos de los 
+terminados en -e (bilingüe, culpable, inerme, leve, triste, verde) y muchos, aunque no 
+todos, de los que terminan en las consonantes -z, -r, -l, -s (audaz, feliz, inferior, polar, 
+fundamental, útil, cortés). 
+
+### Manual §13.3.2d (OCR line 25410)
+1 3.3.2d Pertenecen al grupo C los adjetivos invariables, como los no agudos ter- 
+minados en -s: isósceles y gratis; los formados sobre la pauta anti-N o contra- N: an- 
+tiarrugas, antitabaco, contraincendio(s), y los plurales inherentes asimilables a los 
+adjetivos, como contreras, finolis, frescales, guaperas, manitas, rubiales, vivales. Tam- 
+poco varían ciertos préstamos que se usan como adjetivos ( unisex o gaga) ni los ad- 
+jetivos que se obtienen por procesos de acortamiento, como en músicas tecno, 
+aunque algunos de estos últimos oscilan: un poco {depre-depres}; películas {por- 
+no~pornos} (§ 3.2.3b). 
+245 
+El adjetivo y otras clases de palabras 
+13.4.1 
+
+### Manual §13.3.3a (OCR line 25431)
+1 3.3.3a Delante de un sustantivo singular pierden la vocal final las formas mascu- 
+linas bueno y malo ( buen comienzo, mal pronóstico) y los numerales ordinales prime- 
+ro y tercero, a los que se asimila el adjetivo postrero (§ 21.3.1 c): primer actor, tercer 
+capítulo, postrer homenaje. El adjetivo grande se apocopa en gran ante sustantivos 
+singulares de los dos géneros: un gran hombre~una gran mujer, incluso cuando se 
+interpone otro adjetivo: un gran primer plano, el gran último acto de esta ópera. No 
+se apocopa, sin embargo, en las construcciones superlativas, en las exclamativas con 
+cuán ni en la coordinación con otro adjetivo: 
+¡De cuán grande felizidad gozan! (Valdés, J., Comentario ); Permitió que lo enterraran, 
+pero no de cualquier modo, sino con los honores reservados al más grande benefactor de 
+Macondo (García Márquez, Cien años); [...] el grande pero abúlico rey Moctezuma 
+(Fuentes, Naranjo). 
+
+### Manual §13.6.1a (OCR line 26054)
+1 3.6.1 a Clase de los adjetivos. La posición posnominal es la no marcada, ya 
+que es la más natural en la mayor parte de los registros y con varias clases de adjeti- 
+vos. Ocupan la posición posnominal los adjetivos restrictivos, sean calificativos, 
+relaciónales o descriptivos; en la antepuesta suelen ubicarse los no restrictivos, sean 
+epítetos o adverbiales (§ 1 3.4.2c), así como los que se asimilan a los determinantes y 
+cuantificadores (§ 13.4.3). Los explicativos ocupan la posición posnominal, al igual 
+que el inciso en el que se insertan. Los adjetivos pospuestos pueden intercalarse 
+entre el nombre y su complemento, como en dos ramos bellísimos de rosas amarillas, 
+su fe ciega en la victoria, la llegada imprevista de su hijo. Estas construcciones se ana- 
+lizan en el § 1 2.8.2a. 
+
+### Manual §14.1.1b (OCR line 26475)
+1 4.1 .1 b El latín clásico carecía de artículos. La presencia generalizada del artículo 
+en las lenguas románicas se debe a varios procesos de gramaticalización que, en el 
+caso del artículo determinado, afectaron al demostrativo ille/illa/illud. Esta es la 
+misma forma que dio origen en español al pronombre personal de tercera persona y, 
+14.1.1c 
+El artículo (I). Clases de artículos 
+264 
+con la adición de un refuerzo deíctico, también al demostrativo aquel. La evolución del 
+demostrativo al artículo implica el debilitamiento fonético y la pérdida del valor deíc- 
+tico originario de aquel. Las formas resultantes de este proceso son idóneas para de- 
+signar seres que no están presentes en el contexto enunciativo, como muestra el 
+contraste entre Hoy he recibido la carta y Hoy he recibido esta carta. A su vez, el ar- 
+tículo indeterminado, procedente del numeral unus/ una/ unum, perdió la noción 
+numérica propia de este, la cardinalidad (§ 15.1.4a). Como consecuencia, se de- 
+sarrollaron formas de plural en el paradigma (unos/ unas), independientes ya de la 
+información numeral originaria. Aparte de la información flexiva que contienen sus 
+desinencias, las dos clases de artículos solo aportan rasgos de definitud o indefinitud. 
+Se expresa así la posibilidad o la imposibilidad de individualizar lo designado por el 
+artículo y presentarlo como previamente conocido por el oyente. Para algunos gra- 
+máticos, el artículo indeterminado no es un verdadero artículo, sino un cuantificador 
+indefinido o numeral. Se analiza brevemente esta controversia en el § 1 5.1 .2. 
+
+### Manual §14.2.2a (OCR line 26640)
+14.2.2a El femenino singular presenta dos variantes (o alomorfos): una, de 
+distribución muy reducida, coincide fonológicamente con el masculino singular (el, 
+un) y solo se usa ante sustantivos femeninos cuyo primer fonema es una /a/ tónica 
+(en la escritura a- o ha-, lleven tilde o no): el agua, un alma , un área, el habla, un ha- 
+cha, un hada; la otra es la variante no marcada, que se emplea en todos los demás 
+contextos: la mesa, una casa. 
+
+### Manual §14.2.2b (OCR line 26647)
+14.2.2b Las variantes femeninas el y un proceden de la fusión fonética de la vocal 
+final de la antigua forma ela y el artículo una con la primera vocal de los sustantivos 
+que comienzan por /a/ tónica (ela alma > el alma; ela hada > el hada; una águila > un 
+águila). Estas formas van seguidas inmediatamente por el sustantivo, no por un ad- 
+jetivo u otro elemento interpuesto. No se dice, por tanto, *el alta cima, *el alta socie- 
+dad ni *un agria respuesta, sino la alta cima, la alta sociedad, una agria respuesta. Es 
+correcto, en cambio, el alta médica, porque en este caso alta es sustantivo. A su vez, 
+la elipsis del núcleo nominal no da lugar a la aparición de la variante el en estos ca- 
+sos: se dice, en efecto, El ansia de placeres es tan perjudicial como la de dinero, y no 
+... tan perjudicial como el de dinero. 
+
+### Manual §14.2.3 (OCR line 26717)
+14.2.3 Las formas contractas al, del 
+Las formas contractas o amalgamadas aly del, llamadas también conglomerados 
+(§ 1.3.5b), resultan de la combinación del artículo el (masculino o femenino) con las 
+preposiciones a y de, con la correspondiente fusión de las vocales en contacto: el 
+ascenso al puerto, la salida del concierto, la entrada al aula, el vuelo del águila. Se evi- 
+ta la contracción en los siguientes casos: 
+
+### Manual §15.6.2a (OCR line 28362)
+1 5.6.2a Sujeto preverbal. Esta es la posición más resistente a los grupos nomi- 
+nales escuetos (no se dice, en efecto, *Turistas llegaron a la ciudad). Aun así, la admi- 
+ten en algunos casos: 
+A. Cuando toda la información que transmite la oración es remática (§ 40.3), como 
+en el encabezamiento de las noticias y en el lenguaje telegráfico de los titulares de 
+prensa: Alcalde desobedece una sentencia (ABC 18/4/1787); Pánico causa falsa alar- 
+ma de maremoto (Mercurio [Chile] 18/1/2005). 
+B. Cuando el sujeto preverbal es un foco contrastivo (§ 40.3.2), como en Agua le falta 
+a este país (Viñas, Lisandro), o en las construcciones relativas de relieve: Ignorancia es 
+lo que son tus leyes (Martín Recuerda, Engañao). 
+C. Cuando contienen los modificadores así o como ese (Gente como esa no merece 
+consideración). También cuando el sujeto constituye una enumeración de conjuntos 
+inespecíficos, muchas veces coordinados: Choferes y ladrones compartían la misma 
+cabina (Nación [Arg.] 3/7/1992). 
+297 
+La ausencia del artículo: grupos nominales sin determinante 1 5.6.2e 
+D. En el lenguaje formular de refranes, sentencias, máximas o proverbios. Estos gru- 
+pos nominales posee interpretación genérica y designan generalmente arquetipos 
+(§ 1 5.6.1 e): Flores contentan, pero no alimentan; Secreto entre tres ya no lo es; Boca 
+amarga no escupe miel. 
+
+### Manual §15.6.2c (OCR line 28405)
+15.6.2c Los grupos nominales escuetos pueden ejercer también la función 
+de atributo (Luis es médico; Está de gerente) en todas sus variedades, entre ellas la de 
+complemento predicativo (Aquí a la alcachofa la llaman alcaucil ); aparecen tam- 
+bién en las aposiciones explicativas ( Estambul , ciudad maravillosa). Son particu- 
+larmente frecuentes en estos casos los sustantivos que denotan profesiones, cargos 
+o funciones: Es maestro; Aspira a ministro; Con él de portero, mejorarán los resulta- 
+dos; Fue coronado rey en 1775. 
+
+### Manual §16.2.1a (OCR line 28718)
+1 6.2.1 a La expresión persona gramatical tiene dos interpretaciones. Puede alu- 
+dir a las personas del discurso, en el sentido de los participantes en el acto verbal: 
+el que habla (primera persona), aquel a quien se habla (segunda persona) y 
+aquel o aquello de lo que se habla (tercera persona). En un segundo sentido, el 
+término persona puede referirse a los rasgos de la flexión verbal correspon- 
+dientes al sujeto. Así, se dice que cantamos es un verbo en primera persona, mien- 
+tras que canta o llueve están conjugados en tercera. Lo normal es que la persona 
+gramatical, en el segundo de los sentidos, coincida con la persona del discurso (pri- 
+mer sentido), como en yo cant-o, ellas bail-an, pero no siempre sucede así. El 
+pronombre usted representa la muestra más notable de esta divergencia, puesto que 
+corresponde a la segunda persona del discurso, en tanto designa al interlocutor, 
+pero concuerda en tercera persona con la flexión verbal ( Usted lo sabe). Ello se debe 
+a que usted procede del grupo nominal vuestra merced, y tiene, por tanto, origen 
+sustantivo. Los grupos nominales concuerdan, en efecto, con el verbo en tercera 
+persona: Los álamos bordeaban el paseo. También adoptan las formas de terce- 
+ra persona los pronombres de acusativo y de dativo que corresponden a usted/ uste- 
+des, como en No le conviene a usted o A ustedes no las vieron allí. Lo hacen asimismo 
+con los pronombres en caso oblicuo, como en Usted lo quiere todo para sí. Lo dicho 
+se aplica a otras formas de tratamiento, como su excelencia, su ilustrísima, su seño- 
+ría, su alteza, etc. Se considera incorrecta la concordancia del pronombre usted/ uste- 
+des con la segunda persona del verbo. Se registra esta concordancia, como en 
+Ustedes vais, en el occidente de Andalucía (España). También se recomienda evitar 
+expresiones como Dime usted, documentada en zonas rurales de México y el Perú, 
+además de en el occidente de España. 
+
+### Manual §16.2.1c (OCR line 28777)
+16.2.1c Las formas conmigo, contigo, consigo se asimilan tradicionalmente a los 
+pronombres personales. No lo son, sin embargo, en sentido estricto, ya que contienen 
+en la misma palabra la preposición con, lo que las asemeja a los grupos preposiciona- 
+les. Estas formas conglomeradas se coordinan con otros grupos preposicionales (No 
+sé si irme contigo o con él) e incluso pueden coordinarse entre sí los dos términos de 
+la preposición, como en Te quiero tanto, Andrés, que estoy dispuesta a dormir contigo 
+y tu pareja sensacional (Chávez, Batallador). 
+
+### Manual §16.2.1d (OCR line 28785)
+1 6.2.1 d Se explicó en el § 1.3.1 b que los pronombres personales mantienen distin- 
+ciones de caso. Este criterio permite discriminar los cuatro grupos que aparecen en la 
+tabla. Respecto de ellos deben hacerse dos advertencias. La primera es que varios 
+pronombres coinciden en su forma cuando aparecen en nominativo y cuando presen- 
+tan el caso preposicional. Son nosotros, nosotras, vosotros, vosotras, vos, usted, uste- 
+des, él, ella, ello, ellos y ellas. La segunda es que las formas me, te, se, nos, os son 
+comunes para el acusativo (Ella te lava) y para el dativo (Ella te lava la ropa); en cam- 
+bio lo, la, los, las son propias solo del acusativo, y le, les, únicamente del dativo. No 
+obstante, el español actual muestra a este respecto una considerable variación, que se 
+estudia en el § 1 6.5. 
+
+### Manual §16.2.1e (OCR line 28796)
+1 6.2.1 e Las formas en nominativo pueden ejercer la función de sujeto: Yo tengo 
+mucho que decir (Usigli, Gesticulador), pero también aparecer en contextos no ora- 
+cionales, por ejemplo el pie de una fotografía. Las formas de dativo funcionan típica- 
+mente como complementos indirectos y las de acusativo como complementos 
+directos. El pronombre lo (pero no la, los, las) puede también ser atributo: Fue una 
+persona influyente, pero ya no lo es. Los pronombres en caso oblicuo solo aparecen 
+precedidos de preposición, como en de mí, sin ti, para sí. Como se acaba de recordar, 
+las formas conmigo, contigo, consigo llevan la preposición con incorporada (§ 1 6.2.1 c). 
+La aparición de las variantes de nominativo tras entre (entre tú y yo y no *entre ti y 
+mí) pone de manifiesto que el caso preposicional de los pronombres no se extiende 
+(en la lengua actual) al grupo coordinado que constituyen: *para ti y mí. No hay, 
+pues, coordinación de pronombres, sino de grupos preposicionales, en para ti y para 
+mí. Se considera incorrecto —y se recomienda evitar— el uso de las formas de nomina- 
+tivo tras otras preposiciones, como en ¡Pobre de yo!; Decímelo a yo, mijito; No se 
+quiso venir con yo, y otras secuencias similares documentadas en las hablas rurales 
+de ciertas zonas, tanto de América como de España. 
+303 
+Formas de los pronombres personales 
+
+### Manual §16.4.1a (OCR line 29370)
+1 6.4.1 a En el § 1 6.2.1 1 se vio que los pronombres personales pueden ser tónicos 
+o átonos. Como se recordará, son átonos me, te, se, le, les, la, las, lo, los, nos, os, y 
+tónicos los restantes. Al carecer de acento, los pronombres átonos se apoyan fonéti- 
+camente en el verbo contiguo, por lo que se llaman también pronombres clíticos. 
+Son enclíticos los que siguen al verbo ( leerlo , dándosela), y proclíticos los que lo 
+preceden (lo leí; se la dieron). 
+
+### Manual §16.4.2a (OCR line 29399)
+16.4.2a Los pronombres átonos aparecen enclíticos (es decir, pospuestos al 
+verbo), cuando se adjuntan a los infinitivos (comprarlo), los gerundios (comprán- 
+dolo) y los imperativos afirmativos (cómpralo tú, cómpralo vos). La colocación es 
+la misma con las formas de imperativo afirmativo que coinciden con las de sub- 
+juntivo (cómprelo usted). Están fuertemente desprestigiadas secuencias como Me 
+lo explique usted (por Explíquemelo usted); Se sienten ustedes; Se callen todos, que 
+se registran en la lengua popular de España. Los pronombres átonos se antepo- 
+nen al resto de las formas personales del verbo en el español general de hoy: le 
+contestó, las vio, se fue, no se lo digas. La distribución de formas proclíticas y en- 
+clíticas fue distinta en otras etapas de la lengua. Aún se usan ocasionalmente en 
+la lengua escrita, y a veces en los registros más formales de la expresión oral, ver- 
+bos conjugados con pronombres enclíticos, aunque suelen percibirse como arcai- 
+zantes: ¿Qué quedará del pundonor familiar? Los vestigios, contestóle Capitolina a 
+Farnesia (Fuentes, Cristóbal); Al cabo mi hermana motilona ofrecióle unos cuan- 
+tos higos (Fernández Santos, Extramuros). 
+16.4.2b 
+El pronombre personal 
+312 
+
+### Manual §16.4.2b (OCR line 29425)
+1 6.4.2b Los pronombres átonos se combinan entre sí y forman a menudo GRUPOS 
+o conglomerados ( se lo, me las, te los, se me la, etc.). Estos grupos se colocan ante- 
+puestos o pospuestos al verbo en las mismas condiciones que cuando aparece un 
+solo pronombre (§ 1 6.4.2a): Se lo daré ; Traigo esto para dárselo; Dáselo; No se lo des. 
+El orden de los pronombres en el interior de estos conglomerados es estricto. Obe- 
+dece a las siguientes condiciones: 
+A. La forma se, en cualquiera de sus valores gramaticales, precede a los demás pro- 
+nombres átonos del grupo. 
+B. Los demás pronombres se agrupan de acuerdo con la escala 2. a > 1. a > 3. a . Es decir, 
+los pronombres de segunda persona preceden a los de primera, y estos a los de tercera. 
+C. Los pronombres de dativo preceden a los de acusativo, salvo que ninguno de los 
+dos distinga morfológicamente estos casos. 
+D. Los pronombres átonos reflexivos preceden a los no reflexivos. A estos efectos se 
+consideran también reflexivos los que caracterizan a los verbos pronominales. 
+E. En presencia de los pronombres de acusativo, los de dativo adquieren la forma 
+invariable se si ambos presentan rasgos de tercera persona. 
+Las condiciones están ordenadas jerárquicamente, de modo que cada una de ellas 
+tiene preferencia sobre las siguientes. De acuerdo con A, se rechazan en la lengua 
+culta secuencias como Me se cayó por Se me cayó; Te se va a derretir el helado por Se 
+te va a derretir el helado, que a veces se oyen en el habla popular, aunque no en todos 
+los países. Los conglomerados de tres pronombres átonos son más frecuentes en el 
+español americano (especialmente en el de México y Centroamérica) que en el europeo. 
+Repárese en que expresiones como Se me lo llevaron respetan AyB, puesto que se es 
+el primer pronombre, de acuerdo con A, y me (1. a persona) precede a lo (3. a persona), 
+
+### Manual §16.4.2e (OCR line 29473)
+16.4.2e La condición E es necesaria para prever Se lo dije, en lugar de *Le lo dije. 
+En el § 35.2.1 b se vuelve sobre este proceso (le > sé), muy temprano en la historia del 
+313 
+Los pronombres átonos: naturaleza y posición 
+16.4.3c 
+español. El hecho de que el pronombre se que sustituye a le/ les no haga explícitos los 
+rasgos de número ayuda a entender que en la lengua oral se pase a menudo esa marca 
+al pronombre acusativo que lo sigue, especialmente si es neutro: Se los dije por Se lo 
+dije (‘a ellos’, ‘a ellas’ o ‘a ustedes’). Sobre estas construcciones, frecuentes en muchos 
+países americanos, véase el § 35.2.1 c. 
+
+### Manual §16.4.3a (OCR line 29495)
+1 6.4.3a En las perífrasis verbales, los infinitivos y los gerundios que las forman 
+pueden construirse también con pronombres átonos. Así ocurre, por ejemplo, en 
+Debo hacerlo; Estoy esperándote; Tengo que decírselo; Sigo pensándomelo. Como 
+las perífrasis equivalen a un núcleo verbal, aunque complejo (§ 28.1.1.), admiten que 
+los pronombres precedan al auxiliar sin variación perceptible en el significado: Lo 
+debo hacer ; Te estoy esperando; Se lo tengo que decir; Me lo sigo pensando. Son escasas 
+las perífrasis en las que se rechaza o se restringe la anteposición. Están entre ellas las 
+que contienen verbos pronominales (Se puso a escribirlo, no *Se lo puso a escribir) o 
+las impersonales con haber (Hay que terminarlo pronto). Se recomienda evitar la 
+variante Lo hay que terminar pronto, que se registra en ciertas variedades del norte y el 
+centro de España. Se consideran también incorrectas las construcciones, propias de 
+la lengua descuidada, en las que el mismo pronombre aparece a la vez como enclítico 
+y como proclítico: *se debe respetarse cualquier opinión; *se lo tengo que decírselo. 
+
+### Manual §16.7.1i (OCR line 30101)
+1 6.7.1 i El pronombre vos dirigido a varias personas acabó siendo sustituido por 
+vosotros/ vosotras, hoy constituido en el tratamiento de confianza que corresponde 
+en plural al trato de tú. No se consolidó, sin embargo, vosotros en América ni en 
+algunas zonas de España (la mayor parte de Canarias y Andalucía occidental), donde 
+se usa ustedes en el trato de confianza y en el de respeto. La pérdida de uso de voso- 
+tros llevó consigo la de os y la de vuestro/ vuestra. 
+
+### Manual §19.3.1d (OCR line 32744)
+1 9.3.1 d Los cuantificadores masculinos alguno, ninguno adoptan las formas apo- 
+copadas algún, ningún cuando aparecen delante de los nombres a los que modifican. 
+Las formas femeninas no se apocopan, salvo si preceden inmediatamente a sustanti- 
+vos que empiezan por /a/ tónica (algún arma). En tales casos se prefieren en la len- 
+gua actual las variantes apocopadas, pero no se consideran incorrectas las formas sin 
+apocopar (alguna arma): 
+No le faltaría a alguna gente deseos de que los sudafricanos lanzaran algún arma nuclear 
+( Granma Internacional 11/1996); ¡Y si muero, ningún alma tendrá piedad de mí! (Savater, 
+Etica); Su labor empezaba más atrás, podía consistir en la creación de la necesidad de 
+ese documento en alguna área a la que él tuviera acceso indirecto (Gopegui, Real); 
+Ponen tan baja la mirada que ninguna alma distinguida se puede contentar con lo que 
+ofrecen (Maeztu, Quijote). 
+La apócope de las formas femeninas que comienzan por /a/ tónica (algún arma, 
+ningún águila) no se produce si se interpone alguna palabra entre el cuantificador 
+y el sustantivo: {Ninguna ~*Ningún} posible arma homicida. 
+
+### Manual §21.3.1c (OCR line 34896)
+21.3.1 C Las formas masculinas primero, tercero y postrero adoptan en el español 
+actual las variantes apocopadas primer, tercer y postrer cuando aparecen delante 
+del nombre, como en el primer día del año, el tercer episodio o en Olga hizo un pos- 
+trer intento de mostrarse indiferente (Collyer, Habitante). Lo mismo ocurre en los 
+ordinales compuestos de los que primero y tercero forman parte: decimoprimer día, 
+vigesimotercer capítulo. Las abreviaturas correspondientes a las formas apocopa- 
+das son l. er , 3. er , 23. er , etc. La variante apocopada alterna con la no apocopada cuando 
+sigue otro adjetivo coordinado, sea ordinal o no. Ambas opciones se consideran 
+
+### Manual §23.1.3c (OCR line 36824)
+23.1.3c El aspecto morfológico se expresa a través de las desinencias verba- 
+les. Es el que se tiene en cuenta en la tradición gramatical para dividir los tiempos 
+en perfectos e imperfectos, si bien en la actualidad es más frecuente hablar de 
+tiempos perfectivos y tiempos imperfectivos. El aspecto perfectivo (también 
+aoristo para algunos autores) focaliza las situaciones en su conjunto, de principio a 
+fin, y las presenta como completas o acabadas, como en Vimos la película. Se excep- 
+túa la variedad denominada incoativa o ingresiva, que focaliza solo el inicio de la 
+situación, como en Vimos la película a las nueve (‘Empezamos a verla a esa hora’). 
+Expresan aspecto perfectivo canté, había cantado y habré cantado. Las formas 
+imperfectivas canto y cantaba presentan la acción en su transcurso, sin referencia 
+a su inicio o a su fin, como en Arturo leía una novela, por oposición a Arturo leyó una 
+431 
+El aspecto léxico o modo de acción 
+23.2.1a 
+novela. Cantaré y cantaría pueden ser tiempos perfectivos en unos contextos (El 
+próximo número de nuestra revista saldrá el 17 de julio) e imperfectivos en otros 
+(Todos viviremos mejor). Junto al aspecto imperfectivo y el perfectivo, distinguen 
+algunos autores el llamado aspecto perfecto, que otros consideran una variedad 
+del perfectivo. El aspecto perfecto alude a cierto estado de cosas que resulta de un 
+proceso previo. Así, El director ya se ha marchado (... ya se marchó en ciertas áreas) 
+implica ‘El director ya no está aquí’, de forma que el ya no estar aquí el director es el 
+estado resultante de la acción previa de marcharse. El llamado aspecto prospectivo 
+
+### Manual §33.3.3a (OCR line 48854)
+33.3.3a Cuando el sujeto es un pronombre personal, reitera la información que 
+proporciona la desinencia verbal. Sin embargo, aporta a menudo énfasis (sea o no 
+contrastivo) o algún otro tipo de relieve informativo que, por su naturaleza átona, las 
+desinencias no pueden proporcionar. Así, a la pregunta ¿Llamó Jaime? puede res- 
+ponderse No, llamé yo, o también No, YO llamé, donde el sujeto se interpreta como 
+FOCO contrastivo (§ 40.3.2); las mayúsculas del segundo ejemplo representan el 
+acento enfático con que se pronuncian los sujetos interpretados como focos. No 
+constituiría, en cambio, una respuesta apropiada la oración No, llamé, puesto que el 
+sujeto tácito no puede recibir tal interpretación. 
+
+### Manual §37.5.1a (OCR line 52579)
+37.5.1 a Una primera distinción se basa en la suposición de que el verbo ser se com- 
+bina con atributos que designan características permanentes de los sujetos, mientras 
+que estar lo hace con atributos que indican propiedades transitorias, y por ello ac- 
+cidentales. Se piensa hoy que esta diferenciación, que se remonta a algunos tratados 
+clásicos, presenta dificultades. Por un lado, los predicados nominales se combinan con 
+ser aun cuando designen propiedades transitorias: Angel es estudiante de tercero de 
+Farmacia; Ana es profesora suplente en esta escuela; El conserje fue muy amable conmi- 
+go esta mañana (aquí en alternancia con estar). Por otro lado, fúera de las oraciones 
+pasivas, los participios se combinan con estar aunque indiquen propiedades no suje- 
+tas a alteración: Está muerto; Estaba transplantado del riñón. 
+
+### Manual §37.5.1b (OCR line 52590)
+37.5.1 b La oposición entre ser y estar se ha interpretado más recientemente como 
+una de las manifestaciones del aspecto léxico (§ 23.2). Así, la oración El muchacho es 
+alto no describe exactamente un estado permanente del muchacho, sino más bien 
+una propiedad que se le atribuye como característica suya, mientras que El mucha- 
+cho está alto pone de manifiesto más bien que el que habla percibe en el citado mu- 
+chacho un cambio en relación con su recuerdo o con sus expectativas, es decir, un 
+estado diferente del que conocía o esperaba. Un contraste similar opone Es muy 
+joven a Está muy joven. Los atributos introducidos por estar, entre los que figuran los 
+participios y los adjetivos que proceden de los antiguos participios truncos (agotado, 
+limpio, maduro, muerto, seco: § 1 3.2.5b y 27.5.4b) se interpretan con un sentido resul- 
+tativo, es decir, como resultado de un cambio de estado. 
+713 
+El atributo en las oraciones copulativas con ser y estar 
+37.5.3a 
+
+### Manual §37.5.2a (OCR line 52628)
+37.5.2a El verbo ser no se usa ya en la lengua común con el sentido de ‘existir’, 
+como en Aquí fue Troya; [...] los pocos sabios que en el mundo han sido (León, Poesía); 
+Primero fueron los ríos, los ríos arteriales (Neruda, Canto). El verbo latino stare, del 
+que procede estar, significaba ‘estar de pie’ o ‘estar situado’, interpretaciones que 
+se registran en los primeros testimonios de su uso en español. En la lengua actual se 
+construyen con estar los atributos de las oraciones en las que se especifica el lugar 
+que ocupa alguien o algo: El jefe está en la oficina; El problema está en el carburador; 
+¿Dónde estás? Es polémica la cuestión de si estas oraciones son verdaderamente co- 
+pulativas. Si bien no admiten pronombres neutros (Está en la oficina > *Lo está), el 
+verbo estar no parece seleccionar dos argumentos (el jefe y en la oficina), sino que 
+constituye más bien un nexo que vincula un individuo con un estado episódico o 
+circunstancial. Si se analizan como complementos predicativos los grupos prepo- 
+sicionales de sentido locativo, como en El jefe te quiere en su oficina de inmediato o en 
+Vi las llaves en el cenicero (§ 37.2. 3e), es apropiado suponer que son atributos en las 
+oraciones copulativas mencionadas. 
+
+### Manual §37.5.2b (OCR line 52644)
+37.5.2b Los atributos locativos se combinan con el auxiliar ser cuando el sujeto de- 
+nota acciones o sucesos (¿Dónde es el concierto?; La reunión no es aquí o La conferencia 
+es en el auditorio), pero no en los demás casos: El ponente de la conferencia {está~*es} 
+en el auditorio. Aun así, en la lengua conversacional se usa a veces ser con atributos 
+locativos cuando se identifica un lugar: No es muy lejos; Es aquí mismo; La cocina es por 
+allí. Otros atributos expresan igualmente localización temporal, como en Ya es vier- 
+nes; La función es a las seis (Martínez, Evita). Se construyen también con ser diversas 
+expresiones atributivas introducidas por una preposición elegida por el sujeto, como 
+en El viaje será desde Lima hasta Callao o El paseo fue por la playa. En estos casos el 
+verbo ser se asimila a los llamados verbos de apoyo o vicarios (§ 1 .5.2e). 
+
+### Manual §41.1.1b (OCR line 55780)
+41.1.1 b En latín se distinguían las formas activas (amo) de las pasivas (amor) 
+mediante afijos flexivos, pero en los verbos deponentes, a un verbo de forma 
+pasiva le correspondía una construcción de significado activo (hortári ‘exhor- 
+tar’, venári ‘cazar’, loqui ‘hablar’) y viceversa (veníre ‘ser vendido’, vapulare ‘ser 
+azotado’, exuláre ‘ser desterrado’). La pasiva sintética (o morfológica) del 
+latín se diferencia de la pasiva perifrástica (o de participio) de las lenguas 
+románicas en que esta última se expresa mediante una construcción sintáctica 
+formada con el verbo ser más el participio de pasado de un verbo transitivo, 
+como en Soy amado; Somos amadas; Serán estudiados; Ha sido deportado; Habrán 
+sido analizadas. Los participios, como los atributos de las oraciones copulativas, 
+41.1.2a 
+Oraciones activas, pasivas, impersonales y medias 
+774 
+concuerdan en género y número con el sujeto en estas construcciones, a diferen- 
+cia de los participios que forman parte de los tiempos compuestos: He {ama- 
+do ~*amada}. Como la voz es un exponente morfológico de la diátesis, no es 
+enteramente correcto hablar de voz pasiva en español, ya que esta forma de diáte- 
+sis se manifiesta con recursos sintácticos. Se prefiere generalmente, por esta 
+razón, hablar de construcciones pasivas, término que resalta la naturaleza 
+sintáctica de tales secuencias. 
+
+### Manual §41.5.1b (OCR line 56331)
+41.5.1 b El se no paradigmático aparece en oraciones en las que la forma se no al- 
+terna con los pronombres átonos correspondientes a otras personas. Este uso de la 
+forma se es característico de dos construcciones: la pasiva refleja o pasiva con se, 
+como en Las noticias se recibieron ayer (es decir, ‘fueron recibidas’), donde el sujeto 
+las noticias concuerda en número con recibieron, y la impersonal refleja o imper- 
+sonal con se, como en Se vive bien siendo estudiante, con el verbo siempre en singu- 
+lar. En ambas estructuras se oculta un argumento verbal. Así, en las oraciones No se le 
+trató bien (impersonal refleja) y Se revisaron todas las tuberías (pasiva refleja) 
+se presenta un estado de cosas en el que se menciona cierta acción y también la en- 
+tidad que la recibe, pero no se especifica el agente que la lleva a cabo. Sobre el uso de 
+se como sustituto de le (Se lo contó), véase el § 35.2.1 b. 
+
+### Manual §42.2.1c (OCR line 57112)
+42.2.1 c Las formas exclusivas del imperativo, es decir, las que no comparte con el 
+subjuntivo, no admiten la negación: *No ven; *No sal. Los plurales del tipo No venid; 
+No salid se atestiguan ocasionalmente en España, como en Atended al tiempo y no 
+quered perder el rocín y las manzanas (Estébanez Calderón, Escenas), pero se consi- 
+deran hoy incorrectos. Las formas de imperativo se sustituyen en todos estos casos 
+por las de subjuntivo: No vengas; No salgáis. Las correspondientes a usted/ ustedes 
