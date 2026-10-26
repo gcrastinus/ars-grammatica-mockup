@@ -12,7 +12,14 @@ ARS.languages["lang.ix.es"] = {
    "kind": "study",
    "built": true,
    "title": "Spanish Poetry",
-   "desc": "Spanish verse, read part by part."
+   "desc": "Ten passages of Spanish verse, read part by part."
+  },
+  {
+   "id": "lang.ix.es/poetry-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Spanish Poetry",
+   "desc": "43 questions."
   }
  ]
 };
