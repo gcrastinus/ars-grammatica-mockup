@@ -137,8 +137,8 @@ ARS.decks["lang.v.es/mood"] = {
   },
   {
    "id": "mood-4",
-   "title": "Sequence of tenses and the clauses with si",
-   "body": "<p>In English the tense of a dependent verb follows the tense of the main verb: “She says that she is tired” but “She said that she was tired.” Spanish does the same, and the tradition calls the correspondence the sequence of tenses (Latin <i lang=\"la\">cōnsecūtiō temporum</i>). The Academy calls the main verb V1 and the dependent verb V2, and it distinguishes three relations: V2 may be earlier than V1, later, or simultaneous (Manual 24.3.1). The subjunctive has only four tenses, and so they must serve for all three relations.</p><p>The Academy divides the tenses into two spheres. The sphere of the present contains the present, the future, and the future perfect, and every other tense belongs to the sphere of the past, except that the present perfect belongs to the one or the other, according to the clause (Manual 24.3.2). The tense of V2 depends on the sphere of V1 and on the relation:</p><p><strong>Main verb in the sphere of the present</strong>: <i lang=\"es\">Creo que Ana está en casa</i>, <i lang=\"es\">Creo que Ana ha llegado</i>, <i lang=\"es\">Creo que Ana llegará mañana</i>; <i lang=\"es\">Dudo que Ana esté en casa</i>, <i lang=\"es\">Dudo que Ana haya llegado</i>, <i lang=\"es\">Dudo que Ana llegue mañana</i>.<br><strong>Main verb in the sphere of the past</strong>: <i lang=\"es\">Creía que Ana estaba en casa</i>, <i lang=\"es\">Creía que Ana había llegado</i>, <i lang=\"es\">Creía que Ana llegaría al día siguiente</i>; <i lang=\"es\">Dudaba que Ana estuviera en casa</i>, <i lang=\"es\">Dudaba que Ana hubiera llegado</i>, <i lang=\"es\">Dudaba que Ana llegara al día siguiente</i>.</p><p>A present form can follow a verb of the past when the situation still holds at the time of speaking: <i lang=\"es\">El director anunció que la biblioteca abre los domingos</i> (Manual 24.3.2).</p><p>A condition with <i lang=\"es\">si</i> has three patterns, which the Academy calls real, potential, and unreal (Manual 47.4.1):</p><p><strong>Real</strong>, with the indicative in the clause with <i lang=\"es\">si</i>: <i lang=\"es\">Si encuentro el libro, te lo presto</i>.<br><strong>Potential</strong>, with the imperfect subjunctive in the clause with <i lang=\"es\">si</i> and the conditional in the main clause: <i lang=\"es\">Si encontrara el libro, te lo prestaría</i>.<br><strong>Unreal</strong> or contrary to fact, with the pluperfect subjunctive in the clause with <i lang=\"es\">si</i> and the conditional perfect (or the pluperfect subjunctive) in the main clause: <i lang=\"es\">Si hubiera encontrado el libro, te lo habría prestado</i>, which implies that the book was not found (Manual 47.4.2).</p><p>The potential clause is ambiguous in time, since <i lang=\"es\">Si viviera aquí</i> can refer to the present or to the future (Manual 47.4.1). In general Spanish the clause with <i lang=\"es\">si</i> takes neither the future, nor the conditional, nor the present subjunctive (Manual 47.4.1). Latin distinguishes simple conditions, future conditions, and conditions contrary to fact, and it keeps a future after <i lang=\"la\">sī</i>: <i lang=\"la\">sī aderit, bene erit</i> (“if he is here, it will be well”), where Spanish uses the present, <i lang=\"es\">Si viene mañana, todo irá bien</i>. Latin <i lang=\"la\">sī adesset, bene esset</i> and <i lang=\"la\">sī adfuisset, bene fuisset</i> correspond to the Spanish potential and unreal patterns (Allen and Greenough §514).</p>",
+   "title": "Sequence of tenses",
+   "body": "<p>In English the tense of a dependent verb follows the tense of the main verb: “She says that she is tired” but “She said that she was tired.” Spanish does the same, and the tradition calls the correspondence the sequence of tenses (Latin <i lang=\"la\">cōnsecūtiō temporum</i>). The Academy calls the main verb V1 and the dependent verb V2, and it distinguishes three relations: V2 may be earlier than V1, later, or simultaneous (Manual 24.3.1). The subjunctive has only four tenses, and so they must serve for all three relations.</p><p>The Academy divides the tenses into two spheres. The sphere of the present contains the present, the future, and the future perfect, and every other tense belongs to the sphere of the past, except that the present perfect belongs to the one or the other, according to the clause (Manual 24.3.2). The tense of V2 depends on the sphere of V1 and on the relation:</p><p><strong>Main verb in the sphere of the present</strong>: <i lang=\"es\">Creo que Ana está en casa</i>, <i lang=\"es\">Creo que Ana ha llegado</i>, <i lang=\"es\">Creo que Ana llegará mañana</i>; <i lang=\"es\">Dudo que Ana esté en casa</i>, <i lang=\"es\">Dudo que Ana haya llegado</i>, <i lang=\"es\">Dudo que Ana llegue mañana</i>.<br><strong>Main verb in the sphere of the past</strong>: <i lang=\"es\">Creía que Ana estaba en casa</i>, <i lang=\"es\">Creía que Ana había llegado</i>, <i lang=\"es\">Creía que Ana llegaría al día siguiente</i>; <i lang=\"es\">Dudaba que Ana estuviera en casa</i>, <i lang=\"es\">Dudaba que Ana hubiera llegado</i>, <i lang=\"es\">Dudaba que Ana llegara al día siguiente</i>.</p><p>A present form can follow a verb of the past when the situation still holds at the time of speaking: <i lang=\"es\">El director anunció que la biblioteca abre los domingos</i>. The Academy calls this <strong>double access</strong>, because the dependent verb is oriented both to the moment of speaking and to the time of the main verb (Manual 24.3.2).</p>",
    "qp": {
     "id": "q-es-mood-seq",
     "variants": [
@@ -152,6 +152,49 @@ ARS.decks["lang.v.es/mood"] = {
       ],
       "answer": 3,
       "explain": "A main verb of the past calls for the conditional in the dependent clause for a later event."
+     },
+     {
+      "prompt": "Which tense belongs to the sphere of the past?",
+      "options": [
+       "The future",
+       "The future perfect",
+       "The conditional",
+       "The present"
+      ],
+      "answer": 2,
+      "explain": "The sphere of the present contains the present, the future, and the future perfect, and the conditional belongs to the sphere of the past."
+     },
+     {
+      "prompt": "When can a present form follow a verb of the past?",
+      "options": [
+       "When the dependent verb is in the subjunctive",
+       "When the situation still holds at the time of speaking",
+       "When the main verb is in the preterite",
+       "When the dependent event is later than the main verb"
+      ],
+      "answer": 1,
+      "explain": "A present form can follow a verb of the past when the situation still holds at the time of speaking."
+     }
+    ]
+   }
+  },
+  {
+   "id": "mood-5",
+   "title": "The clauses with si",
+   "body": "<p>A condition with <i lang=\"es\">si</i> has three patterns, which the Academy calls real, potential, and unreal (Manual 47.4.1):</p><p><strong>Real</strong>, with the indicative in the clause with <i lang=\"es\">si</i>: <i lang=\"es\">Si encuentro el libro, te lo presto</i>. This pattern also states promises and commitments, as in <i lang=\"es\">Si me llaman, voy</i> (Manual 47.4.1).<br><strong>Potential</strong>, with the imperfect subjunctive in the clause with <i lang=\"es\">si</i> and the conditional in the main clause: <i lang=\"es\">Si encontrara el libro, te lo prestaría</i>.<br><strong>Unreal</strong> or contrary to fact, with the pluperfect subjunctive in the clause with <i lang=\"es\">si</i> and the conditional perfect (or the pluperfect subjunctive) in the main clause: <i lang=\"es\">Si hubiera encontrado el libro, te lo habría prestado</i>, which implies that the book was not found (Manual 47.4.2).</p><p>The potential clause is ambiguous in time, since <i lang=\"es\">Si viviera aquí</i> can refer to the present or to the future (Manual 47.4.1). In general Spanish the clause with <i lang=\"es\">si</i> takes neither the future, nor the conditional, nor the present subjunctive (Manual 47.4.1). Latin distinguishes simple conditions, future conditions, and conditions contrary to fact, and it keeps a future after <i lang=\"la\">sī</i>: <i lang=\"la\">sī aderit, bene erit</i> (“if he is here, it will be well”), where Spanish uses the present, <i lang=\"es\">Si viene mañana, todo irá bien</i>. Latin <i lang=\"la\">sī adesset, bene esset</i> and <i lang=\"la\">sī adfuisset, bene fuisset</i> correspond to the Spanish potential and unreal patterns (Allen and Greenough §514).</p>",
+   "qp": {
+    "id": "q-es-mood-si",
+    "variants": [
+     {
+      "prompt": "Which verb form in the clause with <i lang=\"es\">si</i> makes a condition real?",
+      "options": [
+       "The imperfect subjunctive",
+       "The pluperfect subjunctive",
+       "The indicative",
+       "The conditional"
+      ],
+      "answer": 2,
+      "explain": "A real condition has the indicative in the clause with si."
      },
      {
       "prompt": "Which pattern is the unreal condition?",
