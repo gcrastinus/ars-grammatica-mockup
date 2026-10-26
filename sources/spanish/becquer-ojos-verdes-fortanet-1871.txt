@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Gustavo Adolfo Bécquer, "Los ojos verdes", the first two sentences)
+WORK: Gustavo Adolfo Bécquer (1836-1870), "Los ojos verdes", a legend. The author died in 1870. First published in El Contemporáneo, 15 December 1861 (given by two sources found by a web search: the first chapter of the Alianza edition and a school reading guide).
+EDITION OF THE SPANISH: Obras de Gustavo A. Bécquer, tomo 1 (Madrid: Imprenta de T. Fortanet, 1871), p. 35, the first page of "Los ojos verdes". Read from the page image of the Internet Archive item AU405 (a copy of the library of the University of Seville), leaf 74. The machine reading of the text layer has accents that the page does not have (it reads ocasión); the course follows the page image: tenia, ocasion, luégo, á, título. The printed book could not be compared with another copy (batch B14).
+ENGLISH: Cornelia Frances Bates and Katharine Lee Bates, Romantic Legends of Spain (New York: Thomas Y. Crowell, 1909), "The Emerald Eyes", p. 25, read from the page image (Internet Archive item romanticlegendso00bcrich, leaf 63; also Project Gutenberg #50044). Real published translation. Cornelia F. Bates died in 1908; Katharine Lee Bates died in 1929.
+
+### Spanish
+Hace mucho tiempo que tenia ganas de escribir cualquier cosa con este título. Hoy, que se me ha presentado ocasion, lo he puesto con letras grandes en la primera cuartilla de papel, y luégo he dejado á capricho volar la pluma.
+
+### English (Bates and Bates)
+For a long time I have desired to write something with this title. Now that the opportunity has come, I have inscribed it in capital letters at the top of the page and have let my pen run at will.
+[Matching: two Spanish sentences, two English sentences. The English is free in "have desired" (tenia ganas), "something" (cualquier cosa), "at the top of the page" (en la primera cuartilla de papel), "opportunity" (ocasion).]

@@ -12,7 +12,7 @@ ARS.languages["lang.ix.es"] = {
    "kind": "study",
    "built": true,
    "title": "Spanish Prose",
-   "desc": "Five passages of Spanish prose, from Cervantes to Gracián, read part by part."
+   "desc": "Ten passages of Spanish prose, from Cervantes to Unamuno, read part by part."
   }
  ]
 };

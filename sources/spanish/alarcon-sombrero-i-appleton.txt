@@ -1,0 +1,13 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Pedro A. de Alarcón, El sombrero de tres picos, chapter I, the first three sentences)
+WORK: Pedro Antonio de Alarcón (1833-1891), El sombrero de tres picos. The author died in 1891; the dedication in the edition is dated July 1874 ("Julio de 1874"), and the book was published in 1874.
+EDITION OF THE SPANISH: El sombrero de tres picos: historia verdadera de un sucedido que anda en romances escrita ahora tal y como pasó (New York: D. Appleton y Compañía; the title page has no date; the Archive's record of the copy, item elsombrerode00alar, gives Madrid, Medina y Navarro, 1874), chapter I, "De cuándo sucedió la cosa", p. 17. Read from the page image, leaf 19. The edition prints sólo, ó, Siglo, Jefe, and the dash after "vencida." The text of the Rivadeneyra edition of 1901 (item elsombrerodetr1901alar) has the same first words. The printed book could not be compared with another copy (batch B14).
+ENGLISH: Jacob S. Fassett, Jr., The Three-Cornered Hat (New York: Alfred A. Knopf, 1918), chapter I, "Concerning the Date of the Occurrence", p. 23, read from the page image (Internet Archive item threecorneredhat00alaruoft, leaf 27). Real published translation. The English is free (see below).
+
+### Spanish
+Comenzaba este largo Siglo, que ya va de vencida.—No se sabe fijamente el año: sólo consta que era después del de 4 y antes del de 8. Reinaba, pues, todavía en España Don Carlos IV de Borbón; por la gracia de Dios, según las monedas, y por olvido ó gracia especial de Bonaparte, según los boletines franceses.
+(In the edition "por la gracia de Dios," is in italics.)
+
+### English (Fassett)
+It was toward the beginning of the long century which is now drawing to a close. We do not know the exact year: we can only be certain that it was after 1804, and before 1808. Don Carlos IV still reigned in Spain — by the grace of God, according to the coins, and by the forgetfulness or especial grace of Bonaparte, according to the French bulletins.
+(In the English "by the grace of God," is in italics; the first word is printed "IT" in capitals.)
+[Matching: three Spanish sentences, three English sentences. The English is free in "It was toward the beginning" (Comenzaba), "1804" and "1808" (del de 4, del de 8), "We do not know" (No se sabe), and it leaves out "pues" and "de Borbón".]

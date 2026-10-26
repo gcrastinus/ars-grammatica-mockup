@@ -1,0 +1,12 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Miguel de Unamuno, Del sentimiento trágico de la vida, chapter I, the first four sentences)
+WORK: Miguel de Unamuno (1864-1936), Del sentimiento trágico de la vida en los hombres y en los pueblos. The author died in 1936. Published in Madrid by Renacimiento in 1912 (some catalogues give 1913; a web search found both: the library of Deusto and Wikisource give 1912, other catalogues and English Wikipedia 1913).
+EDITION OF THE SPANISH: Del sentimiento trágico de la vida (Madrid: Renacimiento, Sociedad Anónima Editorial, Calle de Pontejos, núm. 3; the title page has no date; the Archive's record of the copy, item delsentimientotr00unam_0, gives 1912), chapter I, "El hombre de carne y hueso", read from the page image, leaf 7. The spelling is modern; the Latin is in italics; the punctuation is as printed (a comma after "adjetivo simple" is damaged in the scan but is a comma). The printed book could not be compared with another copy (batch B14).
+ENGLISH: J. E. Crawford Flitch, Tragic Sense of Life (London: Macmillan, 1921), chapter I, "The Man of Flesh and Bone", read from the page image (Internet Archive item thetragicsenseof00unamuoft, leaf 41; also Project Gutenberg #14636). Real published translation. The dash in "substantive—man" is as printed.
+
+### Spanish
+Homo sum; nihil humani a me alienum puto, dijo el cómico latino. Y yo diría más bien, nullum hominem a me alienum puto; soy hombre, a ningún otro hombre estimo extraño. Porque el adjetivo humanus me es tan sospechoso como su sustantivo abstracto humanitas, la humanidad. Ni lo humano ni la humanidad, ni el adjetivo simple, ni el adjetivo sustantivado, sino el sustantivo concreto: el hombre.
+(In the edition the Latin is in italics.)
+
+### English (Flitch)
+Homo sum; nihil humani a me alienum puto, said the Latin playwright. And I would rather say, Nullum hominem a me alienum puto: I am a man; no other man do I deem a stranger. For to me the adjective humanus is no less suspect than its abstract substantive humanitas, humanity. Neither "the human" nor "humanity," neither the simple adjective nor the substantivized adjective, but the concrete substantive—man.
+[Matching: four Spanish sentences, four English sentences (the English joins the colon and the semicolon differently: "Nullum hominem a me alienum puto: I am a man; no other man do I deem a stranger" for "nullum hominem a me alienum puto; soy hombre, a ningún otro hombre estimo extraño").]

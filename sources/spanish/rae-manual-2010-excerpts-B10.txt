@@ -1,0 +1,380 @@
+SOURCE FILE: excerpts of the Academy's Nueva gramática de la lengua española: Manual (2010) used in the notes of lang.ix.es/prose, passages 6 to 10 (B10).
+READ IN: the machine-read text of the Internet Archive (item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola), not compared with the printed book (B14). The OCR has errors (for example the paragraph number 28.4.2f is read as 28.4.2Í). Section numbers are the Manual's own.
+
+=== §12.7.4g (lines 24564-24568 of the text file)
+12.7.4g La alternancia «A B»~«A de B» se extiende a algunos nombres tempora- 
+les, en especial al sustantivo año (el año 1923 ~ el año de 1923). No se aplica a mes (el 
+mes de mayo) ni a día (el día lunes). La alternancia se da en este último entre la cons- 
+trucción «A B» (el día martes) y la no apositiva (el martes). La primera se registra en 
+muchos países americanos, a menudo en alternancia con la segunda, que es la única 
+
+=== §13.6.1a (lines 26054-26062 of the text file)
+1 3.6.1 a Clase de los adjetivos. La posición posnominal es la no marcada, ya 
+que es la más natural en la mayor parte de los registros y con varias clases de adjeti- 
+vos. Ocupan la posición posnominal los adjetivos restrictivos, sean calificativos, 
+relaciónales o descriptivos; en la antepuesta suelen ubicarse los no restrictivos, sean 
+epítetos o adverbiales (§ 1 3.4.2c), así como los que se asimilan a los determinantes y 
+cuantificadores (§ 13.4.3). Los explicativos ocupan la posición posnominal, al igual 
+que el inciso en el que se insertan. Los adjetivos pospuestos pueden intercalarse 
+entre el nombre y su complemento, como en dos ramos bellísimos de rosas amarillas, 
+su fe ciega en la victoria, la llegada imprevista de su hijo. Estas construcciones se ana- 
+
+=== §13.6.2a (lines 26109-26121 of the text file)
+13.6.2a Cambios en el significado del adjetivo. Los adjetivos de fuerte conte- 
+nido descriptivo, sobre todo físico o material, se resisten a la anteposición (uñas 
+postizas, obra apócrifa, saludo matutino). Aun así, se anteponen con facilidad algu- 
+nos de los que admiten sentidos figurados, puesto que pueden interpretarse 
+evaluativamente. Tal comportamiento está en la base de alternancias como las 
+siguientes: 
+nubarrones negros (‘oscuros’) -negros nubarrones (‘ominosos’); hombre grande (‘cor- 
+pulento’) ~ gran hombre (‘de gran relevancia’); personaje alto (‘de elevada estatura’) -alto 
+personaje (‘importante’); delincuente vulgar (‘grosero’) -vulgar delincuente (‘común’); 
+país pobre (‘de escasos recursos’) -pobre país (‘desdichado’). 
+Los adjetivos que poseen inherentemente sentido valorativo o afectivo se anteponen 
+
+=== §14.4.2b-c (el tren de París y el de Milán) (lines 27168-27184 of the text file)
+El artículo neutro lo 
+14.5.1b 
+yo) o grupos preposicionales (un tren a París y otro a Barcelona). La preposición ca- 
+racterística de las construcciones con grupo preposicional y sustantivo elidido es de: 
+el tren de París y el de Milán (pero no *el tren hacia París y el hacia Milán). Se docu- 
+mentan algunos casos con las preposiciones con y sin: [...] una y otra historia, la con 
+tufo y la sin él (Donoso, Casa), así como ciertas expresiones lexicalizadas, como los 
+sin tierra. 
+14.4.2c El determinante de los grupos nominales con sustantivo tácito aporta 
+los rasgos necesarios para remitir al sustantivo antecedente: los poemas de Cernuda 
+
+=== §14.5.1a-b (lines 27196-27222 of the text file)
+ñal de que la información que aporta el número está integrada en la sintaxis del 
+español más claramente que la relativa al género. 
+1 4.5 El artículo neutro lo 
+14.5.1 Interpretación semántica 
+1 4.5.1 a Al igual que los pronombres personales (ello, lo), los demostrativos (esto, 
+eso, aquello) y los indefinidos (algo, nada), el artículo definido presenta una única 
+forma neutra (lo). A diferencia de las demás variantes del artículo determinado, 
+la forma lo no presenta variación de número. Tampoco se combina con sustantivos, 
+ya que no existen en español los nombres neutros. 
+14.5.1 b El artículo neutro forma dos clases de construcciones que muestran di- 
+ferencias sintácticas y semánticas considerables. Conviene, en efecto, distinguir 
+dos tipos de lo: el que se ha llamado referencial o individuativo (en el sentido 
+de que selecciona un elemento individual al que se hace referencia) y el llamado 
+CUANTIFICATIVO o enfático. El primero encabeza grupos nominales que expresan 
+entidades no animadas definidas, como las que se subrayan en Veo que te gusta lo 
+bueno; Lo que quiero es un vaso de vino (§ 40.5.2a); Cada hombre, en suma, sabe que 
+tiene que escoger entre lo justo y lo injusto (Vitier, Sol). El segundo tipo de lo (lo 
+enfático) se suele interpretar como un cuantificador de grado de adjetivos o ad- 
+verbios. Aparece seguido de una subordinada introducida por la forma que (véase el 
+§ 42.4.5a para su interpretación gramatical), como en ¡Lo raro que es este hombre!; 
+Estaba asombrada de lo fácil que resultaba el trabajo, o en ¿Te das cuenta de lo bien 
+que suena la música y de lo brillantes que son las baldosas? (Martín Caite, Nubosi- 
+
+=== §15.6.2b (lines 28392-28402 of the text file)
+15.6.2b Sujeto posverbal. Los grupos nominales escuetos aparecen de sujetos 
+posverbales sobre todo con predicados que se construyen con sujetos no agentivos, 
+como los de las pasivas (Aquí se reparan relojes; Han sido avistadas ballenas a cien 
+millas ) o con verbos inacusativos (§ 41.3), a menudo en oraciones presentativas 
+( Llegaron turistas), o en las que informan que algo acaece o sobreviene (Ocurrieron 
+accidentes). Son raros, en cambio, con los verbos intransitivos puros (§ 41.3.1a), 
+salvo en las construcciones que expresan localización: Por todas partes estallaban 
+geranios (Díaz, Neruda); Como patas de araña gigante saltaban chorros de agua 
+barrosa por sobre las rocas (Jodorowsky, Pájaro). Tampoco son frecuentes los grupos 
+nominales escuetos construidos como sujetos pospuestos a verbos transitivos. 
+Aun así, la tematización del complemento directo favorece su aparición: Muchas de 
+
+=== §16.2.2a (end) (lines 28958-28962 of the text file)
+un egoísta y quiere todos los juguetes para él, pero no la adquieren los marcados en 
+Elvira te cuida mucho o Compraste varios juguetes para él. Se asimilan a los reflexivos 
+los pronombres que aparecen con los verbos pronominales (me arrepiento, te adentras, 
+se digna, nos referimos...), aunque no desempeñen ninguna función sintáctica. 
+
+=== §16.6.1e (lines 29915-29920 of the text file)
+1 6.6.1 e Los pronombres no personales se comportan como los nombres a efectos 
+de la duplicación. Así pues, no se da esta en No vieron a nadie; Admiten a cualquiera; 
+¿A quién vieron? El pronombre uno se asimila unas veces a los personales ( cosas que 
+le dan a uno vergüenza ), y entonces la duplicación es obligatoria ( *cosas que dan a 
+uno vergüenza), pero se comporta otras como un pronombre cuantificativo, y en ese 
+caso no se da la duplicación, o bien no es obligatoria: Te acercas a los empleados y 
+
+=== §20.3.1d (lines 34072-34080 of the text file)
+resistencia a aparecer en contextos factuales en los que se habla de sucesos 
+efectivamente acaecidos. Este cuantificador aparece de forma característica en 
+contextos modalizados. Los entornos apropiados para cualquiera son similares 
+a los que se describieron en el § 20.2.2e para alguno: los de sentido prospectivo en 
+general (Aparecerá en cualquier momento; Haría cualquier cosa por ella; Léete 
+cualquier libro de estos; cuando te dé cualquier consejo; antes de decir cualquier 
+insensatez), la prótasis de las oraciones condicionales (si surge cualquier problema), 
+los auxiliares modales (Puede ocurrir en cualquier momento) y los contextos habi- 
+tuales y genéricos (Aparecía por allí con cualquier pretexto; Cualquier niño de diez 
+
+=== §21.3.1e (lines 34942-34949 of the text file)
+21.3.1 e Los números romanos se leen como ordinales hasta el IX inclusive aplicados 
+a los nombres de reyes y papas: Fernando VI (sexto); Pío IX (noveno o nono); Enri- 
+que VIII (octavo), aunque también en otros usos. A partir del X se leen generalmente 
+como cardinales: Juan XXIII (veintitrés); Luis XV (quince); Benedicto XVI (dieciséis). 
+Para el X se dice décimo en América, pero existe alternancia en España, como en Al- 
+fonso X (diez o décimo). No se escribe letra volada con los números romanos, por lo que 
+se considera incorrecto Napoleón III o . 
+
+=== §23.4.1a (lines 37270-37281 of the text file)
+23.4.1a He cantado es un antepresente en la terminología de Andrés Bello. 
+Este término expresa la anterioridad de la situación denotada con respecto a un 
+punto de referencia situado en el presente, lo que lo caracteriza como tiempo 
+relativo. Así pues, en la llamada interpretación de antepresente, he cantado 
+se usa para hacer referencia a ciertas situaciones pretéritas, sean puntuales o dura- 
+tivas. Estas situaciones tienen lugar en un intervalo que se abre en un punto ines- 
+pecífico del pasado y se prolonga hasta el momento de la enunciación y lo incluye 
+(propiedad que recoge también la denominación ahora extendido: § 23.3.1a, b). 
+Como consecuencia, las situaciones son evaluadas o medidas desde el momento 
+del habla. 
+
+=== §23.6.1a-b (lines 37595-37620 of the text file)
+23.6.1 a Es controvertida tradicionalmente la cuestión de si es pertinente o no la 
+información aspectual en la caracterización del imperfecto (cantaba). Se entenderá 
+aquí que el significado del pretérito imperfecto se compone de un rasgo temporal, 
+pues expresa tiempo pasado, y también de uno aspectual, dado que posee aspecto 
+imperfecto (§ 23.1.3c, d). Como el imperfecto es un tiempo relativo (§ 23.1.2c), la infor- 
+mación temporal que denota es referencial o anafórica. 
+23.6.1 b Cantaba comparte con canté y he cantado su significado temporal: los 
+tres se refieren a una situación anterior al momento del habla. Al igual que canté y 
+23.6.1 c El verbo (I). El aspecto léxico. Los tiempos del indicativo 
+444 
+a diferencia de he cantado (§ 23.5.2), cantaba sitúa los hechos pretéritos sin rela- 
+ción con el momento del habla. Se opone, en cambio, a canté y he cantado —con la 
+cautela que debe observarse respecto de la interpretación de antepresente continuo 
+(§ 23.4.2f)— en que es un tiempo verbal imperfectivo; es decir, presenta las situacio- 
+nes en su curso, enfocando su desarrollo interno sin aludir a su comienzo ni a su fi- 
+nal. Aun así, ha de tenerse en cuenta que la interpretación que recibe el pretérito 
+imperfecto está en función del aspecto léxico del predicado con el que se construye. 
+En efecto, no hay desarrollo interno en El libro costaba tres euros (con verbo de esta- 
+do), ni en en el momento en el que yo recibía la noticia (con predicado de consecución 
+
+=== §23.8.1f (lines 37998-38009 of the text file)
+23.8.1 f Se consideran variantes del condicional de conjetura el llamado condi- 
+cional de rumor, propio del lenguaje periodístico: La nota daba a entender que el 
+presidente estaría dispuesto a negociar, es decir, ‘seguramente estaba’. El condicional 
+denominado de atenuación, que se emplea en alternancia con el presente: {Conven- 
+dría -Conviene} salir pronto, es decir, ‘seguramente conviene’. El condicional de 
+modestia o de cortesía, paralelo al imperfecto de este mismo nombre (§ 23.6.2c), 
+451 
+
+=== §24.2.4a-d (lines 38784-38840 of the text file)
+24.2.4a En la construcción oracional (Hace dos días que llegó) el verbo hacer, 
+igualmente impersonal, es el verbo principal de una oración independiente, y su sig- 
+nificado está próximo al de transcurrir o cumplirse. Su naturaleza verbal explica que 
+pueda ser modificado por adjuntos temporales: Hoy hace dos días que llegó; Mañana 
+hará un año de su boda. El grupo nominal temporal (dos días, en este ejemplo) es, 
+465 
+La concordancia de tiempos 
+24.3.1a 
+como en la construcción adverbial, el complemento directo de hacer, pero ahora tiene 
+significado cuantitativo, por lo que se interroga con cuánto, como en ¿Cuánto hace que 
+viste a Emilia?, y no con cuándo, a diferencia de lo que ocurría con aquella (§ 24.2.3b). 
+24.2.4b Con la construcción oracional se denota un intervalo. Se señala su inicio 
+como el punto a partir del cual se realiza el cómputo temporal característico de las 
+construcciones con hacer (§ 24.2.3c). Este punto inicial del cómputo es designado 
+por el tercer componente de la construcción. Se puede identificar a través de alguna 
+de las pautas siguientes: el grupo preposicional «de + grupo nominal», como en Hace 
+dos años de su muerte; el grupo preposicional «desde + grupo nominal u oración su- 
+bordinada», como en Hace dos años desde su muerte ~ desde que murió; una oración 
+subordinada: Hace dos años que murió. 
+24.2.4c El grupo nominal de la primera de estas tres pautas —más común que la 
+segunda— contiene un sustantivo eventivo: ... de su muerte, ... de la batalla, ... de 
+la última final ganada. La variante oracional de la segunda pauta no se extiende, en 
+cambio, a la primera, al menos en la lengua actual: *Hace dos años de que murió. 
+Cuando aparece una forma verbal atélica en la oración subordinada, se elige la ter- 
+cera variante ( Hace años que vive en Buenos Aires ) en lugar de la segunda. Resultan 
+forzadas, en efecto, oraciones como Hace años desde que vive en Buenos Aires, que 
+solo se documentan de manera ocasional. A pesar de esta asimetría, el verbo de la 
+subordinada denota en los dos casos el origen del cómputo temporal. Así, la forma 
+vivo en Recién hará cinco años que vivo de lo que escribo (Mundo [Esp.] 8/8/1996) 
+designa el punto en el que alguien comienza a vivir de cierta forma. Las construcciones 
+con «que + predicado atélico» denotan, pues, un intervalo, pero a la vez identifican 
+su inicio. De hecho, admiten paráfrasis con «llevar + gerundio» («tener + gerundio» 
+en algunos países): Solo llevo trabajando aquí dos semanas. 
+24.2.4d En la lengua antigua se usaba con mucha frecuencia haber en lugar de 
+hacer, tanto en la construcción adverbial como en la oracional: Todas las correccio- 
+nes [...] ha mucho tiempo que las hice antes que ninguno (Herrera, Comentarios). Este 
+uso se documenta en el español actual, restringido temporalmente al presente, sobre 
+todo en ciertas fórmulas corteses y en el registro literario. Así, en el área antillana, 
+México, parte de Centroamérica y España, no son raras expresiones como las subra- 
+yadas en Mucho tiempo ha que no nos vemos; Me dijo un alba de la primavera / Yo 
+florecí en tu corazón sombrío / Ha muchos años, caminante viejo (Machado, Soleda- 
+des); Ha cuarenta años que me he ocupado en no dormir (Leñero, Noche). Es también 
+impersonal la construcción «ir para + grupo nominal», como en Pobrecita, no debe- 
+ría hablar así, que va para cuatro años que se murió (Grandes, Aires). 
+
+=== §26.2.1b (lines 40406-40418 of the text file)
+26.2.1 b Los infinitivos nominales descritos son especialmente frecuentes con 
+verbos inacusativos (§ 41.3). En cuanto a su significado, destacan los de movimiento, 
+y muy especialmente los que expresan acción continua, repetida o en curso, por 
+lo que se acompañan muchas veces de adjetivos como constante, continuo, frecuente, 
+incesante y otros similares. También abundan en la construcción nominal los infini- 
+tivos que denotan acaecimiento, surgimiento, aparición o desaparición (casi siem- 
+pre inacusativos), así como manifestaciones sonoras de carácter persistente. He 
+aquí algunos ejemplos de estos grupos: 
+Aquí tienes a un hombre que se aguantó todo el sitio de Bilbao a pie firme, padeciendo 
+aquellas terribles hambres, hijo, y el continuo caer de bombas (Galdós, Episodios); Ha- 
+llando así tan inmediatos el aparecer de la Chanson y las palabras de Malmesbury, sos- 
+pecha si estas pudieron ser añadidas (Menéndez Pidal, Poesía); [...] una breve pincelada 
+
+=== §27.3.1a (lines 41705-41715 of the text file)
+27.3.1 a El contenido expresado por el gerundio simple se interpreta habitualmen- 
+te como simultáneo con la acción o el proceso al que se refiere el verbo principal, ya 
+se trate de sucesos pasados, presentes o futuros, como se ve en Llegaban cantando; 
+Llegan cantando; Llegarán cantando, o en Me quedé sentado en la silla mirando el de- 
+sierto por la ventana (Allende, Casa). La oración de gerundio puede denotar también 
+cierta situación en curso en el interior de la cual tiene lugar un suceso, como en Bus- 
+cando los lentes encontré la factura del dentista. 
+27.3.1b 
+
+=== §27.3.2a (lines 41760-41775 of the text file)
+27.3.2 Otras interpretaciones del gerundio 
+A la relación temporal expresada por el gerundio se unen con frecuencia otros con- 
+tenidos. No siempre es sencillo determinar su significado, sobre todo porque las 
+interpretaciones del gerundio se solapan o traslapan a menudo, o incluso se acumu- 
+lan. En los apartados que siguen se exponen los más habituales. 
+27.3.2a Se ha señalado repetidamente en la tradición gramatical que los gerundios 
+se asimilan con mucha frecuencia a los adverbios de modo o manera, en el sentido de 
+que especifican la forma en la que se lleva a cabo la acción o el proceso al que se refiere 
+el verbo principal, como en Abrió la puerta introduciendo una tarjeta por la ranura. Sin 
+519 
+
+=== §27.4 (first lines) (lines 41825-41835 of the text file)
+27.4 El sujeto del gerundio 
+El gerundio verbal coincide con el infinitivo en que se construye a menudo con 
+sujeto tácito, como en Esperanza salió de casa dando un portazo. Menos frecuente 
+es que el gerundio se construya con un sujeto expreso, como en Todas estas cosas 
+27.4.1a 
+El verbo (V). Las formas no personales 
+
+=== §28.4.2f (lines 43479-43490 of the text file)
+28.4.2Í La perífrasis «ir + gerundio» es particularmente apropiada para expresar 
+cambios graduales, a menudo acompañada de adverbios y conjunciones (o locucio- 
+nes de ambos tipos) que los resaltan. Es el caso de la locución mencionada poco a 
+poco, pero también de gradualmente, sucesivamente, a medida que, además de otras 
+expresiones similares que indican progresión: 
+Había contemplado alguna vez los prolegómenos, les provocaba y les insultaba, iba sol- 
+tando cuerda poco a poco, hasta que ellos entraban al trapo (Grandes, Edades); Gradual- 
+mente, lo fue acostumbrando a la realidad (Borges, Ficciones); En la capilla del depósito 
+no cabe un alfiler, a medida que avanza la mañana va llegando más gente (Cela, San Ca- 
+milo); Adriana se fue agotando más y más, en medio de los cirios sofocantes y de las le- 
+tanías (Mujica Lainez, Bomarzo). 
+
+=== §29.2.2c (lines 44031-44040 of the text file)
+29.2.2c La preposición según significa aproximadamente ‘conforme a’ o ‘de 
+acuerdo con’ (según la ley), pero también ‘en función de’ o ‘dependiendo de’ (según 
+quién venga). En relación con las demás preposiciones, posee varios rasgos pecu- 
+liares. En efecto, es la única preposición tónica del español, rechaza el caso obli- 
+cuo (según tú, no *según tí) y no admite la alternancia entre grupos nominales y 
+subordinadas sustantivas que suelen admitir otras preposiciones. Junto a alter- 
+nancias como sin la ayuda ~ sin que llegue la ayuda, no se obtienen otras del tipo de 
+según la ley ~*según que dice la ley. Cuando según introduce oraciones de verbo 
+finito, no puede considerarse preposición: según dice la ley (cf. *sin lo sabe Iván; 
+*para ahorremos, etc.). Algunos gramáticos consideran conjuntivo este uso de 
+
+=== §31.5.2a (lines 47357-47365 of the text file)
+31.5.2 Otras conjunciones adversativas 
+3 1 .5.2a La conjunción adversativa sino exige alguna negación, explícita o implíci- 
+ta, en la primera parte de la secuencia. La información que introduce contrasta con 
+el elemento de la oración anterior al que afecta directamente la negación. Este ele- 
+mento resulta reemplazado o sustituido por el término de la conjunción: Lo que tú 
+necesitas no es un productor, sino un inversionista (Salazar, Selva). El elemento reem- 
+plazado puede quedar implícito, como en No quiero sino tu confianza (es decir, ‘nada, 
+sino tu confianza’) o en Yo no nací sino para quereros (Garcilaso, Poesías). En este 
+
+=== §35.3.2b (lines 50873-50880 of the text file)
+35.3.2b La noción opuesta a la de ‘aproximación’ es la de separación. Los verbos 
+que expresan esta noción (alejarse, apartarse, escaparse, soltarse, etc.) se construyen 
+con el llamado dativo de origen o procedencia, que alterna también con comple- 
+mentos de régimen: apartársele ~ apartarse de él. Admiten asimismo esta pauta algu- 
+nos verbos que expresan oposición (Se te opuso~Se opuso a ti; Se nos enfrentó~Se 
+enfrentó a nosotros), admisión o juicio (No le acepto nada~No acepto nada de usted) 
+y demanda (Le solicitó autorización ~ Solicitó autorización del director). 
+
+=== §35.4.1a-b (lines 50928-50950 of the text file)
+35.4.1 a Se llaman tradicionalmente dativos de interés o complementos indirec- 
+tos de interés los complementos indirectos no arguméntales que denotan la per- 
+sona o la cosa que resulta beneficiada o perjudicada por la acción verbal. Así, el 
+verbo describir posee dos argumentos que designan, respectivamente, el agente de la 
+acción y el objeto de la descripción. No obstante, ese verbo aparece con tres partici- 
+pantes en el ejemplo Un empleado del banco le describió a Clarín a uno de los asaltan- 
+tes (Clarín 16/9/1997). El tercer participante, designado por el complemento 
+indirecto, es el beneficiario de la acción. El dativo de interés puede referirse también 
+a quien resulta perjudicado por ella, como en Te hizo un verdadero estropicio. La 
+existencia de esta doble interpretación ha llevado a acuñar términos como dativo 
+de daño o provecho, dativo benefactivo o malefactivo, entre otros similares. 
+35.4.1 b El dativo simpatético o posesivo se interpreta como un complemento 
+indirecto de posesión. En efecto, el español expresa a menudo el poseedor mediante 
+pronombres átonos de dativo en concurrencia con frases nominales que expresan la 
+cosa poseída y que se construyen con determinante (§ 14.3.5 y 18.3.3a), como en Se 
+le hincharon los pies; Se te nubló la vista; Se me torció el tobillo (también Me torcí el 
+tobillo), en lugar de Se hincharon sus pies; Se nubló tu vista; Se torció mi tobillo. Esos 
+grupos nominales, que designan muy frecuentemente partes del cuerpo, suelen ejer- 
+cer la función de sujeto, pero también pueden desempeñar la de objeto directo, 
+como en el ejemplo mencionado Me torcí el tobillo o en El perro le mordió la pierna. 
+
+=== §41.3.1a (lines 55999-56008 of the text file)
+41.3.1a El español posee algunos verbos inacusativos (llamados a veces semide- 
+ponentes), como caer, entrar, llegar, morir, nacer, que poseen propiedades en co- 
+mún con los verbos deponentes latinos. Estos verbos expresan generalmente 
+procesos de presencia, aparición o acaecimiento, pero también de cambio de estado. 
+Constituyen una clase peculiar dentro de los intransitivos, ya que algunas de sus 
+propiedades, en particular las relativas a la interpretación de sus participios, los 
+aproximan en ocasiones a los transitivos y los distinguen de los intransitivos llama- 
+dos PUROS o inergativos, como chirriar, estornudar, sonreír, vociferar. 
+41.3.1b Los tiempos compuestos de los verbos inacusativos se construían en la 
+
+=== §41.6.1a (lines 56429-56437 of the text file)
+41.6.1 a Desde los orígenes del idioma alternan en español las pasivas perifrásticas 
+(§ 41.2) y las pasivas reflejas (también pasivas con se o pasivas impersonales) 
+construidas con la forma se: La agresión no fue denunciada ~La agresión no se denunció. 
+En unas y otras el verbo transitivo ha de concordar con el sujeto paciente en número y 
+persona. Ambas construcciones son estructuras intransitivas que admiten sujetos pa- 
+cientes posverbales sin determinante, en la posición característica de los complemen- 
+tos directos: Se han abierto nuevas vías de comunicación; Se sigue importando petróleo 
+en grandes cantidades; Algunos sacaron las pistolas y se escucharon disparos (Casares, 
+Dios). Las pasivas reflejas son más frecuentes que las perifrásticas, tanto en la lengua 
+
+=== §45.2.1a-b (lines 60516-60540 of the text file)
+tivo, núcleo de la comparación, expresión diferencial y complemento comparativo. 
+Se describen en los apartados que siguen. 
+45.2.1 a Considérese la oración El árbol era mucho más alto que la casa. Como se 
+explicó en el § 45.1 .2a, la NOCIÓN comparada especifica la naturaleza, siempre cuan- 
+titativa, de lo que se compara. En el ejemplo propuesto, la noción comparada es el 
+‘grado de altura’. El primer término de la comparación es el elemento que desig- 
+na la entidad que se pone en relación con otra (el árbol, en este ejemplo). El segundo 
+término de la comparación es el segmento que designa la entidad en relación con 
+la cual se compara algo o alguien (la casa, en este caso). El cuantificador compa- 
+rativo (más) encabeza el grupo cuantificativo (más alto). El elemento sobre el 
+que ese cuantificador incide (alto) es el núcleo de la comparación. El adverbio 
+mucho constituye, en el ejemplo propuesto, la expresión diferencial, ya que pro- 
+porciona la diferencia entre las dos medidas que se comparan. El segundo término 
+de la comparación (la casa) está incrustado en el grupo que constituye el comple- 
+mento comparativo: que la casa. 
+45.2.1 b El complemento comparativo lo es en realidad del cuantificador compa- 
+rativo, que siempre lo precede (más... que... ), o bien del grupo cuantificativo que este 
+constituye (más alto... que...). En el ejemplo propuesto, el grupo cuantificativo y el 
+complemento comparativo forman un segmento sintáctico (más alto que la casa), 
+pero este segmento no se crea necesariamente en todas las construcciones compa- 
+rativas, como se comprobará en los apartados que siguen. Los componentes de la 
+comparación pueden estar constituidos por unidades coordinadas. Así, es posi- 
+ble coordinar dos complementos comparativos (más estrecha que esta calle y que 
+
+=== §45.3.1a (lines 61045-61060 of the text file)
+45.3.1a Los componentes de las construcciones comparativas de igualdad son 
+análogos a los reconocidos en las de desigualdad. Así, en la oraciónEl árbol es tan alto 
+como la casa se distinguen el primer término de la comparación (el árbol), el segundo 
+término (la casa), el grupo cuantificativo comparativo (tan alto), el núcleo 
+(alto) y el complemento comparativo (como la casa). La noción comparada es, 
+una vez más, el grado de altura. Como en las comparativas de desigualdad, la noción 
+comparada puede aludir a un número de individuos que componen dos grupos (Acu- 
+den tantos turistas en primavera como en otoño) o a la cantidad que corresponde a 
+alguna magnitud que participa en dos estados de cosas (Supone tanto trabajo corregir 
+una mala traducción como hacerla de nuevo). Por la propia naturaleza de su conteni- 
+do, se descarta la expresión de una magnitud diferencial (§ 45.2.1a y 45.2.2): *El 
+árbol es dos metros tan alto como la casa. Se admiten, por el contrario, modificadores 
+adverbiales que denoten aproximación o apreciación gradativa: Gadea es casi tan ru- 
+bia como Elia; El sofá tiene, por lo menos, tantos años como la mesa. En el habla formal 
+se sustituye ocasionalmente como por cuanto: Y que mientras tanto me pusieran tan- 
+tas inyecciones cuantas ventanas había en la casa (Bryce Echenique, Martín Romaña). 
+

@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Fernán Caballero, La Gaviota, chapter I, the first two sentences)
+WORK: Fernán Caballero (Cecilia Böhl de Faber, 1796-1877), La Gaviota. The author died in 1877. The novel appeared in installments in the Madrid newspaper El Heraldo in 1849 (a Spanish study found by a web search gives 9 March to 14 July 1849) and in book form in the 1850s (a review gives a first book of 1855, Palma; the edition quoted is the book of 1856).
+EDITION OF THE SPANISH: La Gaviota: novela original de costumbres españolas, tomo 1 (Madrid: Mellado, 1856), chapter I, p. 3. Read from the page image of the Internet Archive item lagaviotanovelao01caba, leaf 41. The edition prints the spelling of its time: aun mas parda y mas húmeda (no accent on mas), and the name of the ship in italics (Royal Sovereign). The course quotes it as printed. The printed book could not be compared (batch B14).
+ENGLISH: J. Leander Starr, La Gaviota: A Spanish Novel (New York: John Bradburn, 1864), chapter I (the first sentence read from the page image, Internet Archive item lagaviotaspanish00cabarich, leaf 15; the second sentence read in Project Gutenberg #48698, which was proofread from the same scan). Real published translation. The translator's dates are not known to the course; the book is of 1864 and in the public domain in the United States.
+
+### Spanish
+En noviembre del año de 1836, el paquete de vapor Royal Sovereign se alejaba de las costas nebulosas de Falmouth, azotando las olas con sus brazos, y desplegando sus velas pardas y húmedas en la neblina, aun mas parda y mas húmeda que ellas. El interior del buque presentaba el triste espectáculo del principio de un viaje marítimo.
+
+### English (Starr)
+In November, in the year 1836, the steamer "Royal Sovereign" took her departure from the foggy coast of Falmouth, lashing the waves with her paddle-wheels, and spreading her sails, gray and wet, in the mist still grayer and more wet than they. The interior of the hull presented the uncheerful spectacle of the commencement of a sea voyage.
+[Matching: two Spanish sentences, two English sentences. The English is free in "coast" (costas), "paddle-wheels" (brazos), "took her departure" (se alejaba), "hull" (buque), and leaves out "paquete de vapor" and "de la neblina" differently.]
