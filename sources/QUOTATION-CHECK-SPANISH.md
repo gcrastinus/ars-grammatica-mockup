@@ -13,3 +13,13 @@ Quotes no passage. The example words are the course's own, and the facts are in 
 | `lang.iii-decl.es/accidents` | No passage is quoted. Example sentences from the Academy's *Manual* (listed in `sources/spanish/B2-FACT-CHECK-OCT-26.md`) are used as examples, not as quotations of a passage. | `sources/spanish/rae-manual-2010-excerpts-B2.txt` | Each example found in the machine-read text. Not compared with the printed book |
 | `lang.iii-decl.es/paradigms` | No passage is quoted. The tables give forms, checked against the Academy's model tables (`sources/spanish/B2-VERB-TABLES-CHECK.md`). | `sources/spanish/wiktionary-conjugation-tables-B2.txt`, `sources/spanish/rae-manual-2010-excerpts-B2.txt` | Forms checked; the Academy's printed book not compared |
 | `lang.iii-decl.es/parts` | No passage is quoted. The list of classes is the Academy's, given in the course's own words. | `sources/spanish/rae-manual-2010-excerpts-B2.txt`, `sources/spanish/delgado-torrico-2016-excerpt-B2.txt` | The list in the Manual verified; the 2011 list known only through a secondary source |
+
+## Section III, declinable, second half (B3)
+
+| Deck | Quoted text | Saved text | Result |
+|---|---|---|---|
+| `lang.iii-decl.es/pronouns` | No passage is quoted. Example sentences from the Manual (*Mi tío, quien vive...* is the course's own; *¿Cuándo vienes? ~ cuando vienes*, *No vino nadie ~ Nadie vino* are the Manual's) | `sources/spanish/rae-manual-2010-excerpts-B3.txt` | Each Manual example found in the machine-read text. Not compared with the printed book |
+| `lang.iii-decl.es/tenses` | No passage is quoted. Manual examples: *Su madre estaba enferma*, *Los sábados bailaban hasta el amanecer*, *Serían las diez*, *Tendrá frío* (from *Su merced tendrá frío*), *Desearía hablar con ...* (from *Desearía hablar con el doctor*) | same | Found, except that the course shortens or changes two of them, as the fact-check file states |
+| `lang.iii-decl.es/subjunctive` | No passage is quoted. *Sea cual fuere* and *Adonde fueres, haz lo que vieres* are the Manual's own examples of survivals of the future subjunctive (quoted there from the proverb) | same | Found |
+| `lang.iii-decl.es/participle` | No passage is quoted. *No sabiendo ella qué decir* is the Manual's example (§27.1.1b), extended by the course with *calló* | same | Found (the OCR hyphenates *sa-biendo*) |
+| `lang.iii-decl.es/irregular` | No passage is quoted | same | Not applicable |

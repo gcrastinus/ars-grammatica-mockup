@@ -1,0 +1,905 @@
+SOURCE FILE: the conjugation tables of further Spanish verbs, as the English Wiktionary prints them (batch B3)
+WORK: Wiktionary contributors, Spanish conjugation tables on the entries listed below (English Wiktionary, "Spanish" section, "Conjugation"). Text available under the Creative Commons Attribution-ShareAlike License.
+URL: https://en.wiktionary.org/wiki/<verb> ; the tables were read through the MediaWiki parse API on 26 Oct 2026.
+USE: a secondary source, used only to read the tables in clean form. The forms used on cards and in exercises were compared with the Academy's model tables or derived from them (see B3-VERB-FORMS-CHECK.md). The tables carry forms of Latin American voseo (for example "hablás"); the course does not use them. The twelve verbs of batch B2 are in wiktionary-conjugation-tables-B2.txt.
+
+### actuar
+infinitive | actuar
+gerund | actuando
+past participle |  | masculine | feminine
+singular | actuado | actuada
+plural | actuados | actuadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | actúo | actúas / actuás | actúa | actuamos | actuáis | actúan
+imperfect | actuaba | actuabas | actuaba | actuábamos | actuabais | actuaban
+preterite | actué | actuaste | actuó | actuamos | actuasteis | actuaron
+future | actuaré | actuarás | actuará | actuaremos | actuaréis | actuarán
+conditional | actuaría | actuarías | actuaría | actuaríamos | actuaríais | actuarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | actúe | actúes / actués | actúe | actuemos | actuéis | actúen
+imperfect / (ra) | actuara | actuaras | actuara | actuáramos | actuarais | actuaran
+imperfect / (se) | actuase | actuases | actuase | actuásemos | actuaseis | actuasen
+future | actuare | actuares | actuare | actuáremos | actuareis | actuaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | actúa / actuá | actúe | actuemos | actuad | actúen
+negative |  | no actúes | no actúe | no actuemos | no actuéis | no actúen
+
+### andar
+infinitive | andar
+gerund | andando
+past participle |  | masculine | feminine
+singular | andado | andada
+plural | andados | andadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | ando | andas / andás | anda | andamos | andáis | andan
+imperfect | andaba | andabas | andaba | andábamos | andabais | andaban
+preterite | anduve | anduviste | anduvo | anduvimos | anduvisteis | anduvieron
+future | andaré | andarás | andará | andaremos | andaréis | andarán
+conditional | andaría | andarías | andaría | andaríamos | andaríais | andarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | ande | andes / andés | ande | andemos | andéis | anden
+imperfect / (ra) | anduviera | anduvieras | anduviera | anduviéramos | anduvierais | anduvieran
+imperfect / (se) | anduviese | anduvieses | anduviese | anduviésemos | anduvieseis | anduviesen
+future | anduviere | anduvieres | anduviere | anduviéremos | anduviereis | anduvieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | anda / andá | ande | andemos | andad | anden
+negative |  | no andes | no ande | no andemos | no andéis | no anden
+
+### caber
+infinitive | caber
+gerund | cabiendo
+past participle |  | masculine | feminine
+singular | cabido | cabida
+plural | cabidos | cabidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | quepo | cabes / cabés | cabe | cabemos | cabéis | caben
+imperfect | cabía | cabías | cabía | cabíamos | cabíais | cabían
+preterite | cupe | cupiste | cupo | cupimos | cupisteis | cupieron
+future | cabré | cabrás | cabrá | cabremos | cabréis | cabrán
+conditional | cabría | cabrías | cabría | cabríamos | cabríais | cabrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | quepa | quepas / quepás | quepa | quepamos | quepáis | quepan
+imperfect / (ra) | cupiera | cupieras | cupiera | cupiéramos | cupierais | cupieran
+imperfect / (se) | cupiese | cupieses | cupiese | cupiésemos | cupieseis | cupiesen
+future | cupiere | cupieres | cupiere | cupiéremos | cupiereis | cupieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | cabe / cabé | quepa | quepamos | cabed | quepan
+negative |  | no quepas | no quepa | no quepamos | no quepáis | no quepan
+
+### caer
+infinitive | caer
+gerund | cayendo
+past participle |  | masculine | feminine
+singular | caído | caída
+plural | caídos | caídas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | caigo | caes / caés | cae | caemos | caéis | caen
+imperfect | caía | caías | caía | caíamos | caíais | caían
+preterite | caí | caíste | cayó | caímos | caísteis | cayeron
+future | caeré | caerás | caerá | caeremos | caeréis | caerán
+conditional | caería | caerías | caería | caeríamos | caeríais | caerían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | caiga | caigas / caigás | caiga | caigamos | caigáis | caigan
+imperfect / (ra) | cayera | cayeras | cayera | cayéramos | cayerais | cayeran
+imperfect / (se) | cayese | cayeses | cayese | cayésemos | cayeseis | cayesen
+future | cayere | cayeres | cayere | cayéremos | cayereis | cayeren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | cae / caé | caiga | caigamos | caed | caigan
+negative |  | no caigas | no caiga | no caigamos | no caigáis | no caigan
+
+### cerrar
+infinitive | cerrar
+gerund | cerrando
+past participle |  | masculine | feminine
+singular | cerrado | cerrada
+plural | cerrados | cerradas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | cierro | cierras / cerrás | cierra | cerramos | cerráis | cierran
+imperfect | cerraba | cerrabas | cerraba | cerrábamos | cerrabais | cerraban
+preterite | cerré | cerraste | cerró | cerramos | cerrasteis | cerraron
+future | cerraré | cerrarás | cerrará | cerraremos | cerraréis | cerrarán
+conditional | cerraría | cerrarías | cerraría | cerraríamos | cerraríais | cerrarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | cierre | cierres / cerrés | cierre | cerremos | cerréis | cierren
+imperfect / (ra) | cerrara | cerraras | cerrara | cerráramos | cerrarais | cerraran
+imperfect / (se) | cerrase | cerrases | cerrase | cerrásemos | cerraseis | cerrasen
+future | cerrare | cerrares | cerrare | cerráremos | cerrareis | cerraren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | cierra / cerrá | cierre | cerremos | cerrad | cierren
+negative |  | no cierres | no cierre | no cerremos | no cerréis | no cierren
+
+### conducir
+infinitive | conducir
+gerund | conduciendo
+past participle |  | masculine | feminine
+singular | conducido | conducida
+plural | conducidos | conducidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | conduzco | conduces / conducís | conduce | conducimos | conducís | conducen
+imperfect | conducía | conducías | conducía | conducíamos | conducíais | conducían
+preterite | conduje | condujiste | condujo | condujimos | condujisteis | condujeron
+future | conduciré | conducirás | conducirá | conduciremos | conduciréis | conducirán
+conditional | conduciría | conducirías | conduciría | conduciríamos | conduciríais | conducirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | conduzca | conduzcas / conduzcás | conduzca | conduzcamos | conduzcáis | conduzcan
+imperfect / (ra) | condujera | condujeras | condujera | condujéramos | condujerais | condujeran
+imperfect / (se) | condujese | condujeses | condujese | condujésemos | condujeseis | condujesen
+future | condujere | condujeres | condujere | condujéremos | condujereis | condujeren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | conduce / conducí | conduzca | conduzcamos | conducid | conduzcan
+negative |  | no conduzcas | no conduzca | no conduzcamos | no conduzcáis | no conduzcan
+
+### conocer
+infinitive | conocer
+gerund | conociendo
+past participle |  | masculine | feminine
+singular | conocido | conocida
+plural | conocidos | conocidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | conozco | conoces / conocés | conoce | conocemos | conocéis | conocen
+imperfect | conocía | conocías | conocía | conocíamos | conocíais | conocían
+preterite | conocí | conociste | conoció | conocimos | conocisteis | conocieron
+future | conoceré | conocerás | conocerá | conoceremos | conoceréis | conocerán
+conditional | conocería | conocerías | conocería | conoceríamos | conoceríais | conocerían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | conozca | conozcas / conozcás | conozca | conozcamos | conozcáis | conozcan
+imperfect / (ra) | conociera | conocieras | conociera | conociéramos | conocierais | conocieran
+imperfect / (se) | conociese | conocieses | conociese | conociésemos | conocieseis | conociesen
+future | conociere | conocieres | conociere | conociéremos | conociereis | conocieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | conoce / conocé | conozca | conozcamos | conoced | conozcan
+negative |  | no conozcas | no conozca | no conozcamos | no conozcáis | no conozcan
+
+### construir
+infinitive | construir
+gerund | construyendo
+past participle |  | masculine | feminine
+singular | construido | construida
+plural | construidos | construidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | construyo | construyes / construís | construye | construimos | construís | construyen
+imperfect | construía | construías | construía | construíamos | construíais | construían
+preterite | construí | construiste | construyó | construimos | construisteis | construyeron
+future | construiré | construirás | construirá | construiremos | construiréis | construirán
+conditional | construiría | construirías | construiría | construiríamos | construiríais | construirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | construya | construyas / construyás | construya | construyamos | construyáis | construyan
+imperfect / (ra) | construyera | construyeras | construyera | construyéramos | construyerais | construyeran
+imperfect / (se) | construyese | construyeses | construyese | construyésemos | construyeseis | construyesen
+future | construyere | construyeres | construyere | construyéremos | construyereis | construyeren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | construye / construí | construya | construyamos | construid | construyan
+negative |  | no construyas | no construya | no construyamos | no construyáis | no construyan
+
+### contar
+infinitive | contar
+gerund | contando
+past participle |  | masculine | feminine
+singular | contado | contada
+plural | contados | contadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | cuento | cuentas / contás | cuenta | contamos | contáis | cuentan
+imperfect | contaba | contabas | contaba | contábamos | contabais | contaban
+preterite | conté | contaste | contó | contamos | contasteis | contaron
+future | contaré | contarás | contará | contaremos | contaréis | contarán
+conditional | contaría | contarías | contaría | contaríamos | contaríais | contarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | cuente | cuentes / contés | cuente | contemos | contéis | cuenten
+imperfect / (ra) | contara | contaras | contara | contáramos | contarais | contaran
+imperfect / (se) | contase | contases | contase | contásemos | contaseis | contasen
+future | contare | contares | contare | contáremos | contareis | contaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | cuenta / contá | cuente | contemos | contad | cuenten
+negative |  | no cuentes | no cuente | no contemos | no contéis | no cuenten
+
+### correr
+infinitive | correr
+gerund | corriendo
+past participle |  | masculine | feminine
+singular | corrido | corrida
+plural | corridos | corridas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | corro | corres / corrés | corre | corremos | corréis | corren
+imperfect | corría | corrías | corría | corríamos | corríais | corrían
+preterite | corrí | corriste | corrió | corrimos | corristeis | corrieron
+future | correré | correrás | correrá | correremos | correréis | correrán
+conditional | correría | correrías | correría | correríamos | correríais | correrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | corra | corras / corrás | corra | corramos | corráis | corran
+imperfect / (ra) | corriera | corrieras | corriera | corriéramos | corrierais | corrieran
+imperfect / (se) | corriese | corrieses | corriese | corriésemos | corrieseis | corriesen
+future | corriere | corrieres | corriere | corriéremos | corriereis | corrieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | corre / corré | corra | corramos | corred | corran
+negative |  | no corras | no corra | no corramos | no corráis | no corran
+
+### dar
+infinitive | dar
+gerund | dando
+past participle |  | masculine | feminine
+singular | dado | dada
+plural | dados | dadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | doy | das | da | damos | dais | dan
+imperfect | daba | dabas | daba | dábamos | dabais | daban
+preterite | di | diste | dio | dimos | disteis | dieron
+future | daré | darás | dará | daremos | daréis | darán
+conditional | daría | darías | daría | daríamos | daríais | darían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | dé | des | dé | demos | deis | den
+imperfect / (ra) | diera | dieras | diera | diéramos | dierais | dieran
+imperfect / (se) | diese | dieses | diese | diésemos | dieseis | diesen
+future | diere | dieres | diere | diéremos | diereis | dieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | da | dé | demos | dad | den
+negative |  | no des | no dé | no demos | no deis | no den
+
+### dirigir
+infinitive | dirigir
+gerund | dirigiendo
+past participle |  | masculine | feminine
+singular | dirigido | dirigida
+plural | dirigidos | dirigidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | dirijo | diriges / dirigís | dirige | dirigimos | dirigís | dirigen
+imperfect | dirigía | dirigías | dirigía | dirigíamos | dirigíais | dirigían
+preterite | dirigí | dirigiste | dirigió | dirigimos | dirigisteis | dirigieron
+future | dirigiré | dirigirás | dirigirá | dirigiremos | dirigiréis | dirigirán
+conditional | dirigiría | dirigirías | dirigiría | dirigiríamos | dirigiríais | dirigirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | dirija | dirijas / dirijás | dirija | dirijamos | dirijáis | dirijan
+imperfect / (ra) | dirigiera | dirigieras | dirigiera | dirigiéramos | dirigierais | dirigieran
+imperfect / (se) | dirigiese | dirigieses | dirigiese | dirigiésemos | dirigieseis | dirigiesen
+future | dirigiere | dirigieres | dirigiere | dirigiéremos | dirigiereis | dirigieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | dirige / dirigí | dirija | dirijamos | dirigid | dirijan
+negative |  | no dirijas | no dirija | no dirijamos | no dirijáis | no dirijan
+
+### dormir
+infinitive | dormir
+gerund | durmiendo
+past participle |  | masculine | feminine
+singular | dormido | dormida
+plural | dormidos | dormidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | duermo | duermes / dormís | duerme | dormimos | dormís | duermen
+imperfect | dormía | dormías | dormía | dormíamos | dormíais | dormían
+preterite | dormí | dormiste | durmió | dormimos | dormisteis | durmieron
+future | dormiré | dormirás | dormirá | dormiremos | dormiréis | dormirán
+conditional | dormiría | dormirías | dormiría | dormiríamos | dormiríais | dormirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | duerma | duermas / durmás | duerma | durmamos | durmáis | duerman
+imperfect / (ra) | durmiera | durmieras | durmiera | durmiéramos | durmierais | durmieran
+imperfect / (se) | durmiese | durmieses | durmiese | durmiésemos | durmieseis | durmiesen
+future | durmiere | durmieres | durmiere | durmiéremos | durmiereis | durmieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | duerme / dormí | duerma | durmamos | dormid | duerman
+negative |  | no duermas | no duerma | no durmamos | no durmáis | no duerman
+
+### empezar
+infinitive | empezar
+gerund | empezando
+past participle |  | masculine | feminine
+singular | empezado | empezada
+plural | empezados | empezadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | empiezo | empiezas / empezás | empieza | empezamos | empezáis | empiezan
+imperfect | empezaba | empezabas | empezaba | empezábamos | empezabais | empezaban
+preterite | empecé | empezaste | empezó | empezamos | empezasteis | empezaron
+future | empezaré | empezarás | empezará | empezaremos | empezaréis | empezarán
+conditional | empezaría | empezarías | empezaría | empezaríamos | empezaríais | empezarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | empiece | empieces / empecés | empiece | empecemos | empecéis | empiecen
+imperfect / (ra) | empezara | empezaras | empezara | empezáramos | empezarais | empezaran
+imperfect / (se) | empezase | empezases | empezase | empezásemos | empezaseis | empezasen
+future | empezare | empezares | empezare | empezáremos | empezareis | empezaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | empieza / empezá | empiece | empecemos | empezad | empiecen
+negative |  | no empieces | no empiece | no empecemos | no empecéis | no empiecen
+
+### enviar
+infinitive | enviar
+gerund | enviando
+past participle |  | masculine | feminine
+singular | enviado | enviada
+plural | enviados | enviadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | envío | envías / enviás | envía | enviamos | enviáis | envían
+imperfect | enviaba | enviabas | enviaba | enviábamos | enviabais | enviaban
+preterite | envié | enviaste | envió | enviamos | enviasteis | enviaron
+future | enviaré | enviarás | enviará | enviaremos | enviaréis | enviarán
+conditional | enviaría | enviarías | enviaría | enviaríamos | enviaríais | enviarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | envíe | envíes / enviés | envíe | enviemos | enviéis | envíen
+imperfect / (ra) | enviara | enviaras | enviara | enviáramos | enviarais | enviaran
+imperfect / (se) | enviase | enviases | enviase | enviásemos | enviaseis | enviasen
+future | enviare | enviares | enviare | enviáremos | enviareis | enviaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | envía / enviá | envíe | enviemos | enviad | envíen
+negative |  | no envíes | no envíe | no enviemos | no enviéis | no envíen
+
+### escribir
+infinitive | escribir
+gerund | escribiendo
+past participle |  | masculine | feminine
+singular | escrito, escripto | escrita, escripta
+plural | escritos, escriptos | escritas, escriptas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | escribo | escribes / escribís | escribe | escribimos | escribís | escriben
+imperfect | escribía | escribías | escribía | escribíamos | escribíais | escribían
+preterite | escribí | escribiste | escribió | escribimos | escribisteis | escribieron
+future | escribiré | escribirás | escribirá | escribiremos | escribiréis | escribirán
+conditional | escribiría | escribirías | escribiría | escribiríamos | escribiríais | escribirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | escriba | escribas / escribás | escriba | escribamos | escribáis | escriban
+imperfect / (ra) | escribiera | escribieras | escribiera | escribiéramos | escribierais | escribieran
+imperfect / (se) | escribiese | escribieses | escribiese | escribiésemos | escribieseis | escribiesen
+future | escribiere | escribieres | escribiere | escribiéremos | escribiereis | escribieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | escribe / escribí | escriba | escribamos | escribid | escriban
+negative |  | no escribas | no escriba | no escribamos | no escribáis | no escriban
+
+### estudiar
+infinitive | estudiar
+gerund | estudiando
+past participle |  | masculine | feminine
+singular | estudiado | estudiada
+plural | estudiados | estudiadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | estudio | estudias / estudiás | estudia | estudiamos | estudiáis | estudian
+imperfect | estudiaba | estudiabas | estudiaba | estudiábamos | estudiabais | estudiaban
+preterite | estudié | estudiaste | estudió | estudiamos | estudiasteis | estudiaron
+future | estudiaré | estudiarás | estudiará | estudiaremos | estudiaréis | estudiarán
+conditional | estudiaría | estudiarías | estudiaría | estudiaríamos | estudiaríais | estudiarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | estudie | estudies / estudiés | estudie | estudiemos | estudiéis | estudien
+imperfect / (ra) | estudiara | estudiaras | estudiara | estudiáramos | estudiarais | estudiaran
+imperfect / (se) | estudiase | estudiases | estudiase | estudiásemos | estudiaseis | estudiasen
+future | estudiare | estudiares | estudiare | estudiáremos | estudiareis | estudiaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | estudia / estudiá | estudie | estudiemos | estudiad | estudien
+negative |  | no estudies | no estudie | no estudiemos | no estudiéis | no estudien
+
+### jugar
+infinitive | jugar
+gerund | jugando
+past participle |  | masculine | feminine
+singular | jugado | jugada
+plural | jugados | jugadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | juego | juegas / jugás | juega | jugamos | jugáis | juegan
+imperfect | jugaba | jugabas | jugaba | jugábamos | jugabais | jugaban
+preterite | jugué | jugaste | jugó | jugamos | jugasteis | jugaron
+future | jugaré | jugarás | jugará | jugaremos | jugaréis | jugarán
+conditional | jugaría | jugarías | jugaría | jugaríamos | jugaríais | jugarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | juegue | juegues / jugués | juegue | juguemos | juguéis | jueguen
+imperfect / (ra) | jugara | jugaras | jugara | jugáramos | jugarais | jugaran
+imperfect / (se) | jugase | jugases | jugase | jugásemos | jugaseis | jugasen
+future | jugare | jugares | jugare | jugáremos | jugareis | jugaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | juega / jugá | juegue | juguemos | jugad | jueguen
+negative |  | no juegues | no juegue | no juguemos | no juguéis | no jueguen
+
+### leer
+infinitive | leer
+gerund | leyendo
+past participle |  | masculine | feminine
+singular | leído | leída
+plural | leídos | leídas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | leo | lees / leés | lee | leemos | leéis | leen
+imperfect | leía | leías | leía | leíamos | leíais | leían
+preterite | leí | leíste | leyó | leímos | leísteis | leyeron
+future | leeré | leerás | leerá | leeremos | leeréis | leerán
+conditional | leería | leerías | leería | leeríamos | leeríais | leerían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | lea | leas / leás | lea | leamos | leáis | lean
+imperfect / (ra) | leyera | leyeras | leyera | leyéramos | leyerais | leyeran
+imperfect / (se) | leyese | leyeses | leyese | leyésemos | leyeseis | leyesen
+future | leyere | leyeres | leyere | leyéremos | leyereis | leyeren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | lee / leé | lea | leamos | leed | lean
+negative |  | no leas | no lea | no leamos | no leáis | no lean
+
+### mentir
+infinitive | mentir
+gerund | mintiendo
+past participle |  | masculine | feminine
+singular | mentido | mentida
+plural | mentidos | mentidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | miento | mientes / mentís | miente | mentimos | mentís | mienten
+imperfect | mentía | mentías | mentía | mentíamos | mentíais | mentían
+preterite | mentí | mentiste | mintió | mentimos | mentisteis | mintieron
+future | mentiré | mentirás | mentirá | mentiremos | mentiréis | mentirán
+conditional | mentiría | mentirías | mentiría | mentiríamos | mentiríais | mentirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | mienta | mientas / mintás | mienta | mintamos | mintáis | mientan
+imperfect / (ra) | mintiera | mintieras | mintiera | mintiéramos | mintierais | mintieran
+imperfect / (se) | mintiese | mintieses | mintiese | mintiésemos | mintieseis | mintiesen
+future | mintiere | mintieres | mintiere | mintiéremos | mintiereis | mintieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | miente / mentí | mienta | mintamos | mentid | mientan
+negative |  | no mientas | no mienta | no mintamos | no mintáis | no mientan
+
+### morir
+infinitive | morir
+gerund | muriendo
+past participle |  | masculine | feminine
+singular | muerto | muerta
+plural | muertos | muertas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | muero | mueres / morís | muere | morimos | morís | mueren
+imperfect | moría | morías | moría | moríamos | moríais | morían
+preterite | morí | moriste | murió | morimos | moristeis | murieron
+future | moriré | morirás | morirá | moriremos | moriréis | morirán
+conditional | moriría | morirías | moriría | moriríamos | moriríais | morirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | muera | mueras / murás | muera | muramos | muráis | mueran
+imperfect / (ra) | muriera | murieras | muriera | muriéramos | murierais | murieran
+imperfect / (se) | muriese | murieses | muriese | muriésemos | murieseis | muriesen
+future | muriere | murieres | muriere | muriéremos | muriereis | murieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | muere / morí | muera | muramos | morid | mueran
+negative |  | no mueras | no muera | no muramos | no muráis | no mueran
+
+### mover
+infinitive | mover
+gerund | moviendo
+past participle |  | masculine | feminine
+singular | movido | movida
+plural | movidos | movidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | muevo | mueves / movés | mueve | movemos | movéis | mueven
+imperfect | movía | movías | movía | movíamos | movíais | movían
+preterite | moví | moviste | movió | movimos | movisteis | movieron
+future | moveré | moverás | moverá | moveremos | moveréis | moverán
+conditional | movería | moverías | movería | moveríamos | moveríais | moverían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | mueva | muevas / movás | mueva | movamos | mováis | muevan
+imperfect / (ra) | moviera | movieras | moviera | moviéramos | movierais | movieran
+imperfect / (se) | moviese | movieses | moviese | moviésemos | movieseis | moviesen
+future | moviere | movieres | moviere | moviéremos | moviereis | movieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | mueve / mové | mueva | movamos | moved | muevan
+negative |  | no muevas | no mueva | no movamos | no mováis | no muevan
+
+### pagar
+infinitive | pagar
+gerund | pagando
+past participle |  | masculine | feminine
+singular | pagado, pago | pagada, paga
+plural | pagados, pagos | pagadas, pagas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pago | pagas / pagás | paga | pagamos | pagáis | pagan
+imperfect | pagaba | pagabas | pagaba | pagábamos | pagabais | pagaban
+preterite | pagué | pagaste | pagó | pagamos | pagasteis | pagaron
+future | pagaré | pagarás | pagará | pagaremos | pagaréis | pagarán
+conditional | pagaría | pagarías | pagaría | pagaríamos | pagaríais | pagarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pague | pagues / pagués | pague | paguemos | paguéis | paguen
+imperfect / (ra) | pagara | pagaras | pagara | pagáramos | pagarais | pagaran
+imperfect / (se) | pagase | pagases | pagase | pagásemos | pagaseis | pagasen
+future | pagare | pagares | pagare | pagáremos | pagareis | pagaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | paga / pagá | pague | paguemos | pagad | paguen
+negative |  | no pagues | no pague | no paguemos | no paguéis | no paguen
+
+### pedir
+infinitive | pedir
+gerund | pidiendo
+past participle |  | masculine | feminine
+singular | pedido | pedida
+plural | pedidos | pedidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pido | pides / pedís | pide | pedimos | pedís | piden
+imperfect | pedía | pedías | pedía | pedíamos | pedíais | pedían
+preterite | pedí | pediste | pidió | pedimos | pedisteis | pidieron
+future | pediré | pedirás | pedirá | pediremos | pediréis | pedirán
+conditional | pediría | pedirías | pediría | pediríamos | pediríais | pedirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pida | pidas / pidás | pida | pidamos | pidáis | pidan
+imperfect / (ra) | pidiera | pidieras | pidiera | pidiéramos | pidierais | pidieran
+imperfect / (se) | pidiese | pidieses | pidiese | pidiésemos | pidieseis | pidiesen
+future | pidiere | pidieres | pidiere | pidiéremos | pidiereis | pidieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | pide / pedí | pida | pidamos | pedid | pidan
+negative |  | no pidas | no pida | no pidamos | no pidáis | no pidan
+
+### pensar
+infinitive | pensar
+gerund | pensando
+past participle |  | masculine | feminine
+singular | pensado | pensada
+plural | pensados | pensadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pienso | piensas / pensás | piensa | pensamos | pensáis | piensan
+imperfect | pensaba | pensabas | pensaba | pensábamos | pensabais | pensaban
+preterite | pensé | pensaste | pensó | pensamos | pensasteis | pensaron
+future | pensaré | pensarás | pensará | pensaremos | pensaréis | pensarán
+conditional | pensaría | pensarías | pensaría | pensaríamos | pensaríais | pensarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | piense | pienses / pensés | piense | pensemos | penséis | piensen
+imperfect / (ra) | pensara | pensaras | pensara | pensáramos | pensarais | pensaran
+imperfect / (se) | pensase | pensases | pensase | pensásemos | pensaseis | pensasen
+future | pensare | pensares | pensare | pensáremos | pensareis | pensaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | piensa / pensá | piense | pensemos | pensad | piensen
+negative |  | no pienses | no piense | no pensemos | no penséis | no piensen
+
+### poner
+infinitive | poner
+gerund | poniendo
+past participle |  | masculine | feminine
+singular | puesto | puesta
+plural | puestos | puestas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | pongo | pones / ponés | pone | ponemos | ponéis | ponen
+imperfect | ponía | ponías | ponía | poníamos | poníais | ponían
+preterite | puse | pusiste | puso | pusimos | pusisteis | pusieron
+future | pondré | pondrás | pondrá | pondremos | pondréis | pondrán
+conditional | pondría | pondrías | pondría | pondríamos | pondríais | pondrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | ponga | pongas / pongás | ponga | pongamos | pongáis | pongan
+imperfect / (ra) | pusiera | pusieras | pusiera | pusiéramos | pusierais | pusieran
+imperfect / (se) | pusiese | pusieses | pusiese | pusiésemos | pusieseis | pusiesen
+future | pusiere | pusieres | pusiere | pusiéremos | pusiereis | pusieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | pon / poné | ponga | pongamos | poned | pongan
+negative |  | no pongas | no ponga | no pongamos | no pongáis | no pongan
+
+### querer
+infinitive | querer
+gerund | queriendo
+past participle |  | masculine | feminine
+singular | querido | querida
+plural | queridos | queridas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | quiero | quieres / querés | quiere | queremos | queréis | quieren
+imperfect | quería | querías | quería | queríamos | queríais | querían
+preterite | quise | quisiste | quiso | quisimos | quisisteis | quisieron
+future | querré | querrás | querrá | querremos | querréis | querrán
+conditional | querría | querrías | querría | querríamos | querríais | querrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | quiera | quieras / querás | quiera | queramos | queráis | quieran
+imperfect / (ra) | quisiera | quisieras | quisiera | quisiéramos | quisierais | quisieran
+imperfect / (se) | quisiese | quisieses | quisiese | quisiésemos | quisieseis | quisiesen
+future | quisiere | quisieres | quisiere | quisiéremos | quisiereis | quisieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | quiere / queré | quiera | queramos | quered | quieran
+negative |  | no quieras | no quiera | no queramos | no queráis | no quieran
+
+### repetir
+infinitive | repetir
+gerund | repitiendo
+past participle |  | masculine | feminine
+singular | repetido | repetida
+plural | repetidos | repetidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | repito | repites / repetís | repite | repetimos | repetís | repiten
+imperfect | repetía | repetías | repetía | repetíamos | repetíais | repetían
+preterite | repetí | repetiste | repitió | repetimos | repetisteis | repitieron
+future | repetiré | repetirás | repetirá | repetiremos | repetiréis | repetirán
+conditional | repetiría | repetirías | repetiría | repetiríamos | repetiríais | repetirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | repita | repitas / repitás | repita | repitamos | repitáis | repitan
+imperfect / (ra) | repitiera | repitieras | repitiera | repitiéramos | repitierais | repitieran
+imperfect / (se) | repitiese | repitieses | repitiese | repitiésemos | repitieseis | repitiesen
+future | repitiere | repitieres | repitiere | repitiéremos | repitiereis | repitieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | repite / repetí | repita | repitamos | repetid | repitan
+negative |  | no repitas | no repita | no repitamos | no repitáis | no repitan
+
+### sacar
+infinitive | sacar
+gerund | sacando
+past participle |  | masculine | feminine
+singular | sacado | sacada
+plural | sacados | sacadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | saco | sacas / sacás | saca | sacamos | sacáis | sacan
+imperfect | sacaba | sacabas | sacaba | sacábamos | sacabais | sacaban
+preterite | saqué | sacaste | sacó | sacamos | sacasteis | sacaron
+future | sacaré | sacarás | sacará | sacaremos | sacaréis | sacarán
+conditional | sacaría | sacarías | sacaría | sacaríamos | sacaríais | sacarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | saque | saques / saqués | saque | saquemos | saquéis | saquen
+imperfect / (ra) | sacara | sacaras | sacara | sacáramos | sacarais | sacaran
+imperfect / (se) | sacase | sacases | sacase | sacásemos | sacaseis | sacasen
+future | sacare | sacares | sacare | sacáremos | sacareis | sacaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | saca / sacá | saque | saquemos | sacad | saquen
+negative |  | no saques | no saque | no saquemos | no saquéis | no saquen
+
+### salir
+infinitive | salir
+gerund | saliendo
+past participle |  | masculine | feminine
+singular | salido | salida
+plural | salidos | salidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | salgo | sales / salís | sale | salimos | salís | salen
+imperfect | salía | salías | salía | salíamos | salíais | salían
+preterite | salí | saliste | salió | salimos | salisteis | salieron
+future | saldré | saldrás | saldrá | saldremos | saldréis | saldrán
+conditional | saldría | saldrías | saldría | saldríamos | saldríais | saldrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | salga | salgas / salgás | salga | salgamos | salgáis | salgan
+imperfect / (ra) | saliera | salieras | saliera | saliéramos | salierais | salieran
+imperfect / (se) | saliese | salieses | saliese | saliésemos | salieseis | saliesen
+future | saliere | salieres | saliere | saliéremos | saliereis | salieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | sal / salí | salga | salgamos | salid | salgan
+negative |  | no salgas | no salga | no salgamos | no salgáis | no salgan
+
+### sentir
+infinitive | sentir
+gerund | sintiendo
+past participle |  | masculine | feminine
+singular | sentido | sentida
+plural | sentidos | sentidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | siento | sientes / sentís | siente | sentimos | sentís | sienten
+imperfect | sentía | sentías | sentía | sentíamos | sentíais | sentían
+preterite | sentí | sentiste | sintió | sentimos | sentisteis | sintieron
+future | sentiré | sentirás | sentirá | sentiremos | sentiréis | sentirán
+conditional | sentiría | sentirías | sentiría | sentiríamos | sentiríais | sentirían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | sienta | sientas / sintás | sienta | sintamos | sintáis | sientan
+imperfect / (ra) | sintiera | sintieras | sintiera | sintiéramos | sintierais | sintieran
+imperfect / (se) | sintiese | sintieses | sintiese | sintiésemos | sintieseis | sintiesen
+future | sintiere | sintieres | sintiere | sintiéremos | sintiereis | sintieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | siente / sentí | sienta | sintamos | sentid | sientan
+negative |  | no sientas | no sienta | no sintamos | no sintáis | no sientan
+
+### trabajar
+infinitive | trabajar
+gerund | trabajando
+past participle |  | masculine | feminine
+singular | trabajado | trabajada
+plural | trabajados | trabajadas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | trabajo | trabajas / trabajás | trabaja | trabajamos | trabajáis | trabajan
+imperfect | trabajaba | trabajabas | trabajaba | trabajábamos | trabajabais | trabajaban
+preterite | trabajé | trabajaste | trabajó | trabajamos | trabajasteis | trabajaron
+future | trabajaré | trabajarás | trabajará | trabajaremos | trabajaréis | trabajarán
+conditional | trabajaría | trabajarías | trabajaría | trabajaríamos | trabajaríais | trabajarían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | trabaje | trabajes / trabajés | trabaje | trabajemos | trabajéis | trabajen
+imperfect / (ra) | trabajara | trabajaras | trabajara | trabajáramos | trabajarais | trabajaran
+imperfect / (se) | trabajase | trabajases | trabajase | trabajásemos | trabajaseis | trabajasen
+future | trabajare | trabajares | trabajare | trabajáremos | trabajareis | trabajaren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | trabaja / trabajá | trabaje | trabajemos | trabajad | trabajen
+negative |  | no trabajes | no trabaje | no trabajemos | no trabajéis | no trabajen
+
+### traer
+infinitive | traer
+gerund | trayendo
+past participle |  | masculine | feminine
+singular | traído | traída
+plural | traídos | traídas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | traigo | traes / traés | trae | traemos | traéis | traen
+imperfect | traía | traías | traía | traíamos | traíais | traían
+preterite | traje | trajiste | trajo | trajimos | trajisteis | trajeron
+future | traeré | traerás | traerá | traeremos | traeréis | traerán
+conditional | traería | traerías | traería | traeríamos | traeríais | traerían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | traiga | traigas / traigás | traiga | traigamos | traigáis | traigan
+imperfect / (ra) | trajera | trajeras | trajera | trajéramos | trajerais | trajeran
+imperfect / (se) | trajese | trajeses | trajese | trajésemos | trajeseis | trajesen
+future | trajere | trajeres | trajere | trajéremos | trajereis | trajeren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | trae / traé | traiga | traigamos | traed | traigan
+negative |  | no traigas | no traiga | no traigamos | no traigáis | no traigan
+
+### venir
+infinitive | venir
+gerund | viniendo
+past participle |  | masculine | feminine
+singular | venido | venida
+plural | venidos | venidas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | vengo | vienes / venís | viene | venimos | venís | vienen
+imperfect | venía | venías | venía | veníamos | veníais | venían
+preterite | vine | viniste | vino | vinimos | vinisteis | vinieron
+future | vendré | vendrás | vendrá | vendremos | vendréis | vendrán
+conditional | vendría | vendrías | vendría | vendríamos | vendríais | vendrían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | venga | vengas / vengás | venga | vengamos | vengáis | vengan
+imperfect / (ra) | viniera | vinieras | viniera | viniéramos | vinierais | vinieran
+imperfect / (se) | viniese | vinieses | viniese | viniésemos | vinieseis | viniesen
+future | viniere | vinieres | viniere | viniéremos | viniereis | vinieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | ven / vení | venga | vengamos | venid | vengan
+negative |  | no vengas | no venga | no vengamos | no vengáis | no vengan
+
+### ver
+infinitive | ver
+gerund | viendo
+past participle |  | masculine | feminine
+singular | visto | vista
+plural | vistos | vistas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | veo | ves | ve | vemos | veis | ven
+imperfect | veía | veías | veía | veíamos | veíais | veían
+preterite | vi | viste | vio | vimos | visteis | vieron
+future | veré | verás | verá | veremos | veréis | verán
+conditional | vería | verías | vería | veríamos | veríais | verían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | vea | veas / veás | vea | veamos | veáis | vean
+imperfect / (ra) | viera | vieras | viera | viéramos | vierais | vieran
+imperfect / (se) | viese | vieses | viese | viésemos | vieseis | viesen
+future | viere | vieres | viere | viéremos | viereis | vieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | ve | vea | veamos | ved | vean
+negative |  | no veas | no vea | no veamos | no veáis | no vean
+
+### volver
+infinitive | volver
+gerund | volviendo
+past participle |  | masculine | feminine
+singular | vuelto | vuelta
+plural | vueltos | vueltas
+ | singular | plural
+1st person | 2nd person | 3rd person | 1st person | 2nd person | 3rd person
+indicative |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | vuelvo | vuelves / volvés | vuelve | volvemos | volvéis | vuelven
+imperfect | volvía | volvías | volvía | volvíamos | volvíais | volvían
+preterite | volví | volviste | volvió | volvimos | volvisteis | volvieron
+future | volveré | volverás | volverá | volveremos | volveréis | volverán
+conditional | volvería | volverías | volvería | volveríamos | volveríais | volverían
+
+subjunctive |  | yo | tú / vos | él/ella/ello / usted | nosotros / nosotras | vosotros / vosotras | ellos/ellas / ustedes
+present | vuelva | vuelvas / volvás | vuelva | volvamos | volváis | vuelvan
+imperfect / (ra) | volviera | volvieras | volviera | volviéramos | volvierais | volvieran
+imperfect / (se) | volviese | volvieses | volviese | volviésemos | volvieseis | volviesen
+future | volviere | volvieres | volviere | volviéremos | volviereis | volvieren
+
+imperative |  | — | tú / vos | usted | nosotros / nosotras | vosotros / vosotras | ustedes
+affirmative |  | vuelve / volvé | vuelva | volvamos | volved | vuelvan
+negative |  | no vuelvas | no vuelva | no volvamos | no volváis | no vuelvan
+
