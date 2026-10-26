@@ -21,6 +21,21 @@ ARS.languages["lang.vii.es"] = {
    "title": "Figures in Góngora, Quevedo, and Cervantes",
    "desc": "21 questions.",
    "exFor": "lang.vii.es/figures"
+  },
+  {
+   "id": "lang.vii.es/tropes",
+   "kind": "study",
+   "built": true,
+   "title": "Tropes and Schemes in Spanish",
+   "desc": "Metaphor, metonymy, synecdoche, and irony, and anaphora, chiasmus, and antithesis."
+  },
+  {
+   "id": "lang.vii.es/tropes-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Tropes and Schemes in Spanish",
+   "desc": "22 questions.",
+   "exFor": "lang.vii.es/tropes"
   }
  ]
 };

@@ -74,3 +74,18 @@ Sources: the passages are saved under `sources/spanish/` (`gongora-soledad-prime
 | A change of line length | The plain-order sense of the first four lines | The course's own reading of the syntax | Course's own; B14 |
 | A change of line length | A change of line length is not a trope | The course's account of tropes (`lang.vii.en/tropes`), as in `lang.vii.fr/figures` | Recalled |
 | Exercise | The sentences, proverbs, and lines of the exercise (*Quien mucho abarca, poco aprieta*; *Al que madruga, Dios le ayuda*; the lines counted for syllables) | The course's own sentences; the proverbs are in common use | Course's own; the syllable counts are by the rules of `lang.ii.es/meter` (no line of the exercise has a vowel-to-vowel junction) |
+
+## `tropes`
+
+| Card | Statement | Source | Verdict |
+|---|---|---|---|
+| Four tropes | The Academy defines metaphor as the transfer of the literal sense of a word to a figurative one *en virtud de una comparación tácita*; its examples are *las perlas del rocío*, *la primavera de la vida* | DLE *metáfora* | Verified (*la primavera de la vida* is used in the exercise) |
+| Four tropes | Góngora's sonnet, lines 1 and 2, with *oro bruñido* as the hair; *bruñir*, "to give luster or shine to a metal"; *relumbrar*, "to give a lively light" | `gongora-soledad-primera-bae32.txt` (printed page 432); DLE *bruñir*, 1; *relumbrar* | Verified (the text against the page image). That *oro bruñido* is in apposition to *cabello* is the course's reading of the punctuation of the edition |
+| Four tropes | Metonymy (*Leo a Cervantes*), synecdoche (*cinco bocas*), irony (*¡Qué elegancia!*) | The course's own sentences; the definitions follow `lang.vii.en/tropes` | Course's own |
+| Four tropes | The Academy's first sense of *ironía* is *burla fina y disimulada* | DLE *ironía*, 1 | Verified |
+| Three schemes | The Academy's third sense of *anáfora* in rhetoric is repetition (*empleo de palabras o conceptos repetidos*) | DLE *anáfora*, 3 | Verified |
+| Three schemes | Sonnet XLIV: *Mientras* at the head of line 3; the last line repeats *en* five times; *menosprecio*, "little esteem" | `gongora-soledad-primera-bae32.txt`; DLE *menosprecio*, 1 | Verified against the page image |
+| Three schemes | Chiasmus: *disposición en órdenes inversos de los miembros de dos secuencias consecutivas*; the example *se dilata el corazón y el espíritu se satisface* | DLE *quiasmo* | Verified |
+| Three schemes | Antithesis: the example *te amo porque me odias* | DLE *antítesis*, 3 | Verified |
+| Three schemes | The English sayings ("Not a penny, not a friend, not a hope"; "Ask not what your country can do for you; ask what you can do for your country") | Ordinary English; the second is Kennedy's inaugural | Not sourced in the course |
+| Exercise | Twenty-two items on sentences of the course's own; *la primavera de la vida* (DLE), *Calla el que sabe y el que ignora habla*, and the others | The course's own sentences, built on the Academy's definitions | Course's own; B14 (native reader) |
