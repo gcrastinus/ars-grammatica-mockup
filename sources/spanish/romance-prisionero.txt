@@ -1,0 +1,23 @@
+SOURCE FILE: Romance del prisionero, the text quoted in lang.ix.es/poetry
+WORK: Fernando José Wolf and Conrado Hofmann, Primavera y flor de romances, o Colección de los más viejos y más populares romances castellanos, tomo segundo (Berlín: en casa de A. Asher y Comp., 1856), pages 16–17. Number 114, “(El prisionero.)”, from the Cancionero general, edition of 1511, folio 136, as Wolf and Hofmann cite it. The second copy on the same page, number 114a, is recorded here only so that it is not mixed into the quotation.
+TEXT READ: Internet Archive item primaverayflorde02wolf, the PDF primaverayflorde02wolf.pdf, PDF pages 26–27 (printed pages 16–17). The lines below were read from a rendering of the printed page on 26 Oct 2026, not from the OCR file alone. Wolf died in 1866 and Hofmann in 1890. The book was published in 1856.
+The spelling is the 1856 print, including accents and the words left without an accent. Nothing was altered.
+
+### Number 114 (printed page 16)
+Que por mayo era, por mayo,
+cuando los grandes calores,
+cuando los enamorados
+van servir á sus amores,
+sino yo, triste mezquino,
+que yago en estas prisiones,
+que ni sé cuándo es de dia,
+ni ménos cuándo es de noche
+sino por una avecilla
+que me cantaba al albor:
+matómela un ballestero;
+¡déle Dios mal galardon!
+
+Cancionero gen. ed. de 1511. fol. 136.
+
+### Number 114a, first line only (same page; not quoted as the poem)
+Por el mes era de mayo

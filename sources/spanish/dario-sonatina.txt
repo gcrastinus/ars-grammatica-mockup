@@ -1,0 +1,11 @@
+SOURCE FILE: Rubén Darío, “Sonatina,” first stanza, quoted in lang.ix.es/poetry
+WORK: Rubén Darío, Prosas profanas y otros poemas (Buenos Aires: Imprenta de Pablo E. Coni é Hijos, 680, Calle Perú, 680, 1896). The princeps. Darío died in 1916.
+TEXT READ: Internet Archive item prosasprofanasyo00daro, PDF page 45. Read from a rendering of the printed page on 26 Oct 2026. The first stanza only is quoted. Nothing was altered. The three dots after “triste” are the three dots of the print.
+
+### First stanza (PDF page 45)
+La princesa está triste... ¿qué tendrá la princesa?
+Los suspiros se escapan de su boca de fresa,
+Que ha perdido la risa, que ha perdido el color.
+La princesa está pálida en su silla de oro,
+Está mudo el teclado de su clave sonoro;
+Y en un vaso olvidada se desmaya una flor.

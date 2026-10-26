@@ -1,0 +1,14 @@
+SOURCE FILE: Federico García Lorca, “Romance de la luna, luna,” opening, quoted in lang.ix.es/poetry
+WORK: Primer romancero gitano. Madrid: Revista de Occidente, 1928. The copyright page of Internet Archive romancerogitano_202401 reads “COPYRIGHT BY REVISTA DE OCCIDENTE MADRID, 1928.” Lorca died in 1936. The poem is the first in the book, printed page 9. This poem replaces Antonio Machado’s “Caminante, son tus huellas,” which is not quoted: no printing of that poem from before 1931 could be opened, and the usual later reprints are outside the cutoff.
+TEXT READ: PDF page 11 of that copy. Two renderings, one of the page and one a crop through “Huye luna, luna, luna,” agree. The lines after “Huye” were read only once and are not quoted. The print has “mira mira” with no comma, and “Huye luna, luna, luna.” with no inverted exclamation mark. Nothing was altered.
+
+### Opening (printed page 9)
+La luna vino a la fragua
+con su polisón de nardos.
+El niño la mira mira.
+El niño la está mirando.
+En el aire conmovido
+mueve la luna sus brazos
+y enseña, lúbrica y pura,
+sus senos de duro estaño.
+Huye luna, luna, luna.

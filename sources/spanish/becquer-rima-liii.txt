@@ -1,0 +1,9 @@
+SOURCE FILE: Gustavo Adolfo Bécquer, Rima LIII, first stanza, quoted in lang.ix.es/poetry
+WORK: Rimas de Gustavo Adolfo Bécquer. Novísima edición americana. San Francisco de California: The History Company, libreros editores, 1891. Title page read by optical recognition of PDF page 11 of Internet Archive rimas01bcgoog. The preface is signed “Los editores,” San Francisco de California, September 1890, and says the text was collated word by word and line by line with the original. The editors are not named. Bécquer was born in Seville in 1836 and died in Madrid in 1870.
+TEXT READ: the same PDF, book page 60 (PDF page 70). The first stanza only is quoted. Read from a page rendering, from an optical reading of that page, and from a tighter crop of the stanza, on 26 Oct 2026. The three readings agree. Nothing was altered. The first word is printed in capitals, with a large initial.
+
+### First stanza (book page 60)
+VOLVERÁN las oscuras golondrinas
+En tu balcón sus nidos á colgar,
+Y, otra vez, con el ala á sus cristales
+Jugando llamarán;

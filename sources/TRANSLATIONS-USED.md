@@ -487,3 +487,19 @@ Sentences made up for the course (the example sentences of Sections III and V, t
 | (Fray Luis de León, *De los nombres de Cristo*, dropped) | | The only English translation known is the Paulist Press edition of 1984, under copyright; replaced by Bernal Díaz | |
 | (Pardo Bazán, *Los pazos de Ulloa*, dropped) | | No public-domain English translation found; replaced by her *El cisne de Vilamorta* | |
 | (Ganivet, *Idearium español*, dropped) | | The only English translation is of 1946, under copyright; replaced by Blasco Ibáñez's *Sangre y arena* | |
+### Section IX, Spanish verse (the course’s own)
+
+The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rendering made for the course. It is not a published translation, and no translator is named in the deck. The Sources note of the deck says so.
+
+| Work | Passage | Deck | Translation |
+|---|---|---|---|
+| Anonymous, *Romance del prisionero* | Wolf and Hofmann, *Primavera y flor de romances*, vol. 2 (1856), no. 114 | lang.ix.es/poetry | the course’s own |
+| Jorge Manrique, *Coplas* | stanza 1, Antonio López, Barcelona, Colección Diamante, vol. 114 | lang.ix.es/poetry | the course’s own |
+| Rubén Darío, “Sonatina” | first stanza, *Prosas profanas* (Buenos Aires, 1896) | lang.ix.es/poetry | the course’s own |
+| Garcilaso de la Vega, Soneto XXIII | whole sonnet, *Obras*, Madrid, Sancha, 1817 | lang.ix.es/poetry | the course’s own |
+| Gustavo Adolfo Bécquer, Rima LIII | first stanza, *Rimas* (San Francisco, 1891) | lang.ix.es/poetry | the course’s own |
+| Luis de Góngora, “Ande yo caliente” | refrain and the following line, *Poesías* (Madrid, 1820) | lang.ix.es/poetry | the course’s own |
+| San Juan de la Cruz, “Noche oscura” | stanzas 1 and 2, *Obras*, tomo 3 (Toledo, 1914) | lang.ix.es/poetry | the course’s own |
+| Federico García Lorca, “Romance de la luna, luna” | opening, through *Huye luna, luna, luna*, *Primer romancero gitano* (Madrid, 1928) | lang.ix.es/poetry | the course’s own |
+| José de Espronceda, *Canción del pirata* | opening sixteen lines and the refrain, *Poesías* (Madrid, Yenes, 1840) | lang.ix.es/poetry | the course’s own |
+| Francisco de Quevedo, “Amor constante más allá de la muerte” | whole sonnet, *Obras*, poesías, tomo tercero (Madrid, Rivadeneyra, 1877) | lang.ix.es/poetry | the course’s own |

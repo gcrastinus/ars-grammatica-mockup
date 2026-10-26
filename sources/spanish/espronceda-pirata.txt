@@ -1,0 +1,37 @@
+SOURCE FILE: José de Espronceda, Canción del pirata, opening and refrain, quoted in lang.ix.es/poetry
+WORK: Poesías de D. José de Espronceda. Madrid: Imprenta de Yenes, calle de Segovia, núm. 6, 1840. Internet Archive poesiasdejosedee00espr (Boston Public Library; the local copy is /tmp/es-pdf/espr1840.pdf). Espronceda died in 1842. The title page, which was read, names the printer and the year. The catalog of this copy names José García de Villalta as editor. He was born in Seville in 1801 and died in Athens in 1846, so the edition is inside the cutoff. His name was not read off the title page.
+TEXT READ: PDF page 123 (the opening) and PDF page 124 (the refrain), from line crops of the page render, checked against an optical reading of the same crops. Nothing was altered.
+The heading on the page is CANCION DEL PIRATA, with no accent on the O.
+Temido is set in italic.
+bergantin, confin, and capitan have no written accent. The i of each has a dot.
+rïela has a diaeresis (two dots), not an acute accent.
+vé, á, allá, and única have acute accents. The slope of the accent on á was read from the ink: the top of the mark lies to the right.
+There is no comma after mar in “sino vuela,” none after llaman, and none after conocido. There is no period after movimiento.
+The refrain stands later in the song. It is not the next stanza. The print uses « at the opening of the refrain and » at the start of the continued lines, and » after mar.
+The lines between the opening and the refrain were not quoted.
+
+### Opening (PDF page 123)
+Con diez cañones por banda,
+Viento en popa, á toda vela,
+No corta el mar sino vuela
+Un velero bergantin:
+Bajel pirata que llaman
+Por su bravura el Temido,
+En todo el mar conocido
+Del uno al otro confin.
+La luna en el mar rïela,
+En la lona gime el viento,
+Y alza en blando movimiento
+Olas de plata y azul;
+Y vé el capitan pirata,
+Cantando alegre en la popa,
+Asia á un lado, al otro Europa,
+Y allá á su frente Stambul (1).
+
+Note on the same page: (1) Nombre que dan los turcos á Constantinopla.
+
+### Refrain (PDF page 124)
+«Que es mi barco mi tesoro,
+»Que es mi Dios la libertad,
+»Mi ley la fuerza y el viento,
+»Mi única patria la mar.»

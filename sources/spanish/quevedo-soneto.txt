@@ -1,0 +1,24 @@
+SOURCE FILE: Francisco de Quevedo, sonnet beginning "Cerrar podrá mis ojos," quoted in lang.ix.es/poetry
+WORK: Biblioteca de Autores Españoles, tomo 69. Obras de don Francisco de Quevedo Villegas. Poesías. Colección ordenada y corregida por don Florencio Janer. Tomo tercero. Madrid: M. Rivadeneyra, 1877. Internet Archive bibliotecadeauto69madruoft (the local copy is /tmp/es-pdf/quevedo-bae69.pdf). Quevedo died at Villanueva de los Infantes in 1645. The title page, which was read, names Janer, Rivadeneyra, Madrid, and 1877. The advertencia, which was read, says that Janer died while he was finishing the volume, and it is dated Madrid, 25 de Setiembre de 1877, and signed Adolfo Rivadeneyra. Janer’s death is therefore before that date, and inside the cutoff. A later critical text was not used.
+TEXT READ: PDF page 110, printed page 78, right column, poem 281, SONETO XXXI. The heading on the page is "Amor constante más allá de la muerte." The heading is named in the prose of the card and is not inside the verse block. Nothing in the fourteen lines was altered. The footnote under the rule, "(1) La piedra Iman," belongs with the magnet-stone sonnet earlier on the page and is not quoted.
+
+The print writes x in Dexará and dexarán. dexarán is plural. The futures podrá, Dexará, dexarán, tendrá, and serán carry an acute accent, and Médulas carries one. There is no accent on llevare, dia, mia, ardia, fria, afan, prision, or on mas where it means "but."
+"Hora ," has a space before the comma. "lisonjera ;" and "ardia ;" and "cuidado ;" have a space before the semicolon. The semicolon after cuidado was read from the ink (a dot above a comma), and the text layer of the page has the same mark.
+The mark after sentido descends below the letters and tapers. It is quoted as a comma. The text layer of the same page reads a period there. "enamorado." ends with a period.
+"la agua" is kept. The article is la.
+
+### Sonnet (PDF page 110, printed page 78)
+Cerrar podrá mis ojos la postrera
+Sombra, que me llevare el blanco dia;
+Y podrá desatar esta alma mia
+Hora , á su afan ansioso lisonjera ;
+Mas no de esotra parte en la ribera
+Dexará la memoria en donde ardia ;
+Nadar sabe mi llama la agua fria,
+Y perder el respeto á ley severa;
+Alma, á quien todo un Dios prisión ha sido,
+Venas, que humor á tanto fuego han dado,
+Médulas, que han gloriosamente ardido,
+Su cuerpo dexarán, no su cuidado ;
+Serán ceniza, mas tendrá sentido,
+Polvo serán, mas polvo enamorado.
