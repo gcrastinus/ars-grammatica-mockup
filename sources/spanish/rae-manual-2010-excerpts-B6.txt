@@ -1186,3 +1186,532 @@ dudar de la respuesta ).
 
 
 
+
+##### voice
+
+### Manual §41.1.1a to 41.1.2c (OCR lines 55764 to 55860)
+41.1 Introducción. Oraciones activas y pasivas 
+
+41.1.1 Diátesis y voz 
+
+41.1.1a Recibe el nombre de diátesis cada una de las estructuras gramaticales 
+que permiten expresar los argumentos de un verbo y presentarlos de maneras diver- 
+sas (recuérdese el § 1 .6.1 c para el concepto de argumento). Se denominan voces las 
+manifestaciones morfológicas y sintácticas de la diátesis, en particular las que la ex- 
+presan a través de determinadas formas de la flexión verbal. Se distinguen tradicio- 
+nalmente la voz activa, que vincula las funciones de sujeto y agente (o, en general, 
+de ‘participante activo’ en un proceso), y la voz pasiva, que relaciona las de sujeto y 
+paciente. En la voz media del griego y de otras lenguas el sujeto corresponde al par- 
+ticipante que experimenta un proceso que no trasciende a otra entidad. El término 
+voz media se ha aplicado también a las lenguas románicas, incluido el español, en el 
+sentido que se explicará en el § 41.7. 
+
+41.1.1 b En latín se distinguían las formas activas (amo) de las pasivas (amor) 
+mediante afijos flexivos, pero en los verbos deponentes, a un verbo de forma 
+pasiva le correspondía una construcción de significado activo (hortári ‘exhor- 
+tar’, venári ‘cazar’, loqui ‘hablar’) y viceversa (veníre ‘ser vendido’, vapulare ‘ser 
+azotado’, exuláre ‘ser desterrado’). La pasiva sintética (o morfológica) del 
+latín se diferencia de la pasiva perifrástica (o de participio) de las lenguas 
+románicas en que esta última se expresa mediante una construcción sintáctica 
+formada con el verbo ser más el participio de pasado de un verbo transitivo, 
+como en Soy amado; Somos amadas; Serán estudiados; Ha sido deportado; Habrán 
+sido analizadas. Los participios, como los atributos de las oraciones copulativas, 
+
+
+41.1.2a 
+
+
+Oraciones activas, pasivas, impersonales y medias 
+
+
+774 
+
+
+concuerdan en género y número con el sujeto en estas construcciones, a diferen- 
+cia de los participios que forman parte de los tiempos compuestos: He {ama- 
+do ~*amada}. Como la voz es un exponente morfológico de la diátesis, no es 
+enteramente correcto hablar de voz pasiva en español, ya que esta forma de diáte- 
+sis se manifiesta con recursos sintácticos. Se prefiere generalmente, por esta 
+razón, hablar de construcciones pasivas, término que resalta la naturaleza 
+sintáctica de tales secuencias. 
+
+
+41.1.2 Funciones sintácticas y funciones semánticas: agente y paciente 
+
+41.1.2a Las pasivas perifrásticas se forman con verbos transitivos. El paciente de 
+la acción expresada, correspondiente al complemento directo en la oración activa, 
+pasa a ser el sujeto de la oración pasiva. El ejemplo clásico César venció a Pompeyo 
+constituye una oración activa porque la primera de sus funciones semánticas (el 
+agente: César) ocupa la función sintáctica de sujeto, mientras que la segunda fun- 
+ción semántica (el paciente: Pompeyo) contrae la función sintáctica de complemen- 
+to directo. La oración pasiva Pompeyo fue vencido por César presenta una distribución 
+diferente de funciones sintácticas y semánticas: el paciente es ahora el sujeto, por lo 
+que concuerda en número y persona con el verbo. De todos modos, en la tradición 
+gramatical de las lenguas romances se ha venido manteniendo una interpretación 
+amplia de los conceptos de voz activa y oración activa, que se extendió incluso a las 
+secuencias en las que el sujeto no es propiamente agente, como en La muchacha 
+padecía una extraña enfermedad; El reo recibió la sentencia sin inmutarse; Este éxito 
+merece una cena. Lo mismo sucede con las oraciones pasivas, en el sentido de que no 
+siempre se expresan en ellas acciones ni intervienen en su estructura verdaderos 
+agentes, como pone de manifiesto el ejemplo, también clásico, Los hombres son ama- 
+dos por Dios. 
+
+41.1.2b Las oraciones pasivas expresan el mismo contenido que las activas 
+correspondientes. Aun así, no son siempre apropiadas en los mismos contextos, ya que 
+las funciones informativas no se distribuyen en ellas de igual manera (§ 40.1.1 b). De 
+este modo, se prefieren las pasivas de participio a las oraciones activas cuando se 
+desea destacar al paciente o cuando se procura mantener al agente en un segundo 
+plano: El escritor ha sido galardonado en múltiples ocasiones; En la carretera México- 
+Toluca, un individuo fue atropellado en el momento en que cruzaba esta vía (Excélsior 
+6/1/1997); El referido proyecto de Ley fue aprobado la pasada semana por la Cámara 
+de Diputados ( Tiempos 23/1/1997). 
+
+41.1.2c El contenido informativo de las oraciones activas y pasivas puede diferir 
+en construcciones que contienen dos o más cuantificadores (§ 19.7.1a), ya que su 
+ámbito puede ser diferente. Es ambigua, en efecto, la oración activa Todos los estu- 
+diantes habían analizado dos novelas del siglo xix, porque puede entenderse que 
+cada estudiante analizó dos novelas distintas ( todos > dos: § 1 9.7), o bien que las dos 
+novelas de las que se habla son las mismas para todos (dos > todos). En cambio, la 
+correspondiente oración pasiva Dos novelas del siglo xix habían sido analizadas por 
+todos los estudiantes no es ambigua, puesto que se obtiene únicamente la segunda 
+lectura. 
+
+
+775 
+
+
+La pasiva perifrástica 
+
+
+41.2.1c 
+
+
+41.2 La pasiva perifrástica 
+
+### Manual §41.2.1a to 41.2.1c (OCR lines 55862 to 55925)
+41.2.1 Restricciones sintácticas y semánticas de las pasivas perifrásticas 
+
+41.2.1a Los complementos directos de las oraciones activas que pasan a sujetos 
+de las pasivas han de estar expresos. No se forman, por tanto, oraciones pasivas a 
+partir de objetos directos tácitos, como los de los usos absolutos de los verbos tran- 
+sitivos (§ 34.5). Así, no son posibles las oraciones pasivas a partir de otras activas en 
+Este chico escribe bien > *Es escrito bien (por este chico) o Por las noches leo un rato > 
+*Por las noches es leído (por mí) un rato. Se recomienda evitar las oraciones pasivas 
+formadas a partir de complementos indirectos, como las que, por influencia del in- 
+glés, se registran ocasionalmente en el español conversacional hablado en los Es- 
+tados Unidos: Todos los estudiantes fueron dados varias oportunidades. Con todo, esta 
+pauta se extiende al verbo preguntar en algunas variedades de la lengua escrita. Se 
+atestigua, en efecto, este verbo usado con sujeto de persona en oraciones como Min- 
+tió al ser preguntado por su domicilio. 
+
+41.2.1b Igual que en las oraciones activas, no son frecuentes en las pasivas los 
+sujetos formados por nombres comunes sin artículo u otro determinante en posi- 
+ción preverbal. Sin embargo, como en las oraciones activas correspondientes, los 
+modificadores del sustantivo pueden aportar la información determinativa de la que 
+este carece, lo que explica contrastes como {*Coches~Coches así} no habían sido vis- 
+tos nunca en la ciudad. Los sujetos posverbales sin determinante están menos res- 
+tringidos (No fueron encontrados supervivientes ), al igual que sucede en las oraciones 
+activas. Tampoco suelen formarse oraciones pasivas cuando el complemento direc- 
+to designa entidades que no son externas al referente del sujeto, sino que le pertene- 
+cen. No se forma, pues, la oración pasiva de la transitiva El muchacho dobló la 
+espalda. Por la misma razón, en Los ojos fueron cerrados por Maite se entiende que la 
+persona de la que se habla cerró los ojos de otra persona. Suelen rechazar asimismo 
+las oraciones pasivas los verbos de acusativo interno, o complemento cognado 
+(§ 34.6.1), como Nuestros padres vivieron una vida sacrificada, así como los que se 
+construyen con complemento directo argumental de medida (costar, demorar, du- 
+rar, medir, pesar, tardar, valer, etc.: § 34.2.1c), si bien algunos de ellos admiten la 
+pasiva refleja. La irregularidad de la oración pasiva *Veinte kilos son pesados por 
+el saco (con el verbo de estado o propiedad pesar) contrasta con la naturalidad de El 
+saco fue pesado por el molinero, donde pesar es verbo de acción. 
+
+41.2.1c Las oraciones pasivas suelen resultar muy forzadas, cuando no imposi- 
+bles, con otros verbos de estado (Sabe la lección; Teme el fracaso; Oye música; Esto 
+implica admitir la otra premisa), dado que carecen de verdadero agente (§ 41.1.2a). 
+No obstante, algunos las admiten, incluso con complemento agente, como en Un 
+gobernante que era a la vez temido y respetado por sus súbditos; Gran riesgo es, mi 
+señor don Martín, que os adelantéis hacia lo que no es conocido por vuesa merced (Roa 
+Bastos, Vigilia). Acepta también la pasiva el verbo tener cuando se interpreta como 
+verbo de juicio, como en Es tenido por uno de los mejores escritores del siglo, no así 
+cuando constituye propiamente un verbo de posesión (Tenía tres casas). Se ha 
+comprobado que los verbos transitivos que designan procesos o acciones sin límite o sin 
+estado resultante suelen mostrar resistencia a las oraciones pasivas. Así, el verbo ver 
+
+
+41.2.2a 
+
+
+Oraciones activas, pasivas, impersonales y medias 
+
+
+776 
+
+
+tiende a rechazarla cuando denota percepción en sentido estricto ( Estoy viendo la 
+calle), pero no cuando su significado se acerca al de examinar, contemplar o recorrer 
+con la vista: El asunto será visto en la reunión de mañana; La película ha sido vista por 
+un millón de espectadores. 
+
+
+41.2.2 Pasivas en perífrasis verbales 
+
+### Manual §41.4.1, 41.4.2a, 41.4.2b (OCR lines 56054 to 56108)
+41.4 Las oraciones impersonales. Impersonales no reflejas 
+41.4.1 El concepto de oración impersonal 
+
+Se denomina tradicionalmente oración impersonal la que no lleva sujeto expreso 
+ni lo posee sobrentendido. No obstante, la ausencia de sujeto es una noción sintácti- 
+ca que ha recibido varias interpretaciones. Así, en la oración Está lloviendo no se 
+oculta ningún sujeto, ya que la acción de llover no se predica de entidad alguna. Este 
+verbo es impersonal léxico, al igual que los predicados de las oraciones Nieva ; 
+Hace calor; Ya es de día o Habrá buena cosecha. La ausencia del argumento corres- 
+pondiente al sujeto está determinada en todos estos casos por la naturaleza semán- 
+tica de tales predicados. En cambio, en Se duerme mejor cuando no hace calor la 
+acción de dormir se predica de alguna entidad genérica, y lo mismo sucede en Dicen 
+que vuelve el buen tiempo, con la flexión de tercera persona de plural. En la tradición 
+se consideran también impersonales estas oraciones. Puede mantenerse este análi- 
+sis siempre que se delimiten los diversos sentidos en que cabe usar el término imper- 
+sonal. Algunos gramáticos prefieren, sin embargo, evitarlo, ya que entienden que se 
+le otorgan demasiados significados. 
+
+
+41.4.2 Impersonales con verbos referidos a fenómenos atmosféricos 
+
+41.4.2a Los verbos impersonales léxicos más característicos son los que denotan 
+fenómenos atmosféricos o climáticos, como llover o nevar. Estos verbos no seleccio- 
+nan un sujeto argumental. La tercera persona que el verbo muestra en español 
+(Llueve; Nevaba; Granizará) corresponde a ciertos pronombres expletivos o es- 
+purios (es decir, sin contenido léxico) en algunas lenguas (fr. Il pleut; ingl. It rains; al. Es 
+regnet). Los mismos rasgos de tercera persona están presentes en las perífrasis verba- 
+les que se forman con estos verbos: Empieza a chispear; Ya está oscureciendo. El verbo 
+amenazar, generalmente no auxiliar, se asimila a los auxiliares en estas construccio- 
+nes, como en Departiendo [...] de si amenazaba llover porque el cielo se había encapotado 
+
+
+779 
+
+
+Las oraciones impersonales. Impersonales no reflejas 
+
+
+41.4.3c 
+
+
+(Pardo Bazán, Pazos), lo mismo que querer o prometer en Quiere llover o en Promete 
+hacer buen tiempo (§ 28.1. 3d). 
+
+41.4.2b Algunos de los verbos mencionados en el apartado anterior admiten usos 
+personales. Así, el verbo amanecer puede construirse con sujetos de persona, y a 
+veces de cosa, en el sentido de ‘aparecer o estar en un lugar, una condición o un es- 
+tado al nacer la luz del día’: Amanecí / con dolor en ambas piernas (Calderón, Alcalde). 
+Este mismo uso se percibe en la expresión Buenos días, ¿cómo amaneció usted?, en la 
+que se pregunta por el estado del interlocutor por la mañana. Algunos de estos ver- 
+bos admiten usos figurados construidos con sujeto, como en Truenan incesantemen- 
+te los cañones; Escamparon las dudas que lo atormentaban; Relampaguean sus ojos 
+verdes; Le llovieron críticas, elogios, insultos, ofertas, etc. 
+
+
+
+### Manual §41.4.3a (OCR lines 56111 to 56130)
+41.4.3a El verbo haber se usa como impersonal en español, tanto si se refiere a la 
+presencia de fenómenos naturales como si no es así: Hay {truenos -relámpa- 
+gos~viento~rocío}; Sigue habiendo problemas; Si hubiera la menor posibilidad. Al ser 
+impersonal transitivo, haber no concuerda con su argumento, que desempeña la fun- 
+ción de complemento directo. Aun así, los hablantes de amplias áreas del español, 
+tanto europeo como americano, establecen la concordancia con el grupo nominal, lo 
+que indica que ese argumento se interpreta como sujeto en esas variedades. Se reco- 
+mienda la variante en singular en estas construcciones, por tanto la primera opción 
+en {Había -Habían} suficientes pruebas para incriminarlos ; {Hubo -Hubieron} difi- 
+cultades añadidas; {Debe-Deben} de haber problemas. Se ha observado estadísti- 
+camente que la concordancia es menos frecuente con el pretérito perfecto simple 
+( hubieron ) que con los demás tiempos verbales. Las oraciones que presentan concor- 
+dancia de persona con haber, como Habernos pocos o Habernos tímidos que temblamos 
+de miedo ante el público, fuertemente estigmatizadas en el español europeo, resultan 
+habituales en la lengua conversacional de algunos países de América (especialmente 
+en las áreas centroamericana y andina), pero son menos aceptadas en otras zonas. 
+
+41 .4.3b El verbo hacer participa en construcciones impersonales asociadas con el 
+tiempo atmosférico ( Hace sol) o con el cronológico ( Hace años). Las primeras se 
+forman con adjetivos, como en Hace {bueno -malo- oscuro -claro}, y con sustantivos 
+
+### Manual §41.5.1a to 41.5.3c (OCR lines 56307 to 56424)
+41.5 Impersonales con se o impersonales reflejas 
+
+41.5.1 Tipos de se 
+
+41.5.1a La forma se encierra un gran número de valores gramaticales y aparece 
+en estructuras sintácticas muy diversas, por lo que resulta una de las piezas más 
+complejas de la sintaxis española. Se distinguen básicamente dos tipos: el se para- 
+digmático y el se no paradigmático. El primero es propio de las oraciones en las 
+que la forma se alterna con los pronombres átonos correspondientes a otras perso- 
+nas. Es lo que sucede cuando se es un pronombre reflexivo (Se cuida poco; Me lo 
+puse: § 16.2.2); recíproco (Se adoran; Os entendéis: § 16.2.3); es parte de un verbo 
+pronominal (Yo me canso; Tú te cansas; El se cansa, etc.: § 41.7), o es un dativo no ar- 
+gumental (Se lo terminó; Te lo comiste: § 41.7.2b). 
+
+
+783 
+
+
+Impersonales con se o impersonales reflejas 
+
+
+41.5.2c 
+
+
+41.5.1 b El se no paradigmático aparece en oraciones en las que la forma se no al- 
+terna con los pronombres átonos correspondientes a otras personas. Este uso de la 
+forma se es característico de dos construcciones: la pasiva refleja o pasiva con se, 
+como en Las noticias se recibieron ayer (es decir, ‘fueron recibidas’), donde el sujeto 
+las noticias concuerda en número con recibieron, y la impersonal refleja o imper- 
+sonal con se, como en Se vive bien siendo estudiante, con el verbo siempre en singu- 
+lar. En ambas estructuras se oculta un argumento verbal. Así, en las oraciones No se le 
+trató bien (impersonal refleja) y Se revisaron todas las tuberías (pasiva refleja) 
+se presenta un estado de cosas en el que se menciona cierta acción y también la en- 
+tidad que la recibe, pero no se especifica el agente que la lleva a cabo. Sobre el uso de 
+se como sustituto de le (Se lo contó), véase el § 35.2.1 b. 
+
+
+41.5.2 Propiedades morfológicas y sintácticas del se impersonal 
+
+41.5.2a Las oraciones impersonales reflejas contienen la forma pronominal 
+se y un verbo en singular. Este puede ser intransitivo, como en Allí se discute de gran- 
+des cosas (Landero, Juegos), o transitivo, como en En mi casa siempre se les llamó 
+drogas a las deudas (Pacheco, Batallas). Las impersonales reflejas transitivas están 
+restringidas, sin embargo, por algunos factores gramaticales (§ 41.6.3b-f). 
+
+41.5.2b LosRASGOSMORFOLÓGicosdese corresponden en las impersonales refle- 
+jas a la tercera persona del singular. Estos rasgos se manifiestan en la concordancia 
+con el verbo: Se [tercera persona] habla [tercera persona] de política, así como en la 
+concordancia con los reflexivos a través de la flexión verbal: Si se está satisfecho consi- 
+go mismo, se es feliz. Los adjetivos que se predican del sujeto tácito de las impersonales 
+reflejas aparecen en masculino o en femenino, pero siempre en singular: Nunca se 
+está {seguro -segura} en esa empresa ; Cuando se nace {honrado -honrada} se evitan 
+ciertas tentaciones. El pronombre se de las impersonales reflejas encierra gramati- 
+calmente algunas de las informaciones semánticas que corresponden a los sujetos. 
+No ocupa la posición sintáctica de los sujetos preverbales porque es una forma 
+átona o clítica. Como tal, y a diferencia de los sujetos nominales, se integra mor- 
+fofonológicamente en el verbo en posición proclítica o enclítica (§ 16.4.1), lo que 
+explica que no vaya seguido de adverbios: No se come~*Se no come; Nunca se está 
+satisfecho~*Se nunca está satisfecho; Se trabajó ayer~*Se ayer trabajó. 
+
+41.5.2c Las impersonales reflejas requieren la concordancia con el verbo en ter- 
+cera persona del singular, que en las perífrasis de infinitivo se expresa en el auxi- 
+liar: Aquí no se puede trabajar bien. Son anómalas, por tanto, las construcciones en 
+las que no puede expresarse dicha concordancia, como aquellas en las que un infi- 
+nito no forma parte de una perífrasis, ya que carece de flexión: *Es importante 
+trabajarse cómodamente. Se exceptúan de esta incompatibilidad entre el se imper- 
+sonal y los infinitivos las oraciones adverbiales de infinitivo que admiten sujetos 
+léxicos, como lo muestra el siguiente par de construcciones temporales: al salir el 
+sol-al hablarse de ello, y este otro de condicionales: de haberlo sabido yo~de haber- 
+se confiado más en las posibilidades del equipo. En contextos similares son posibles 
+también los gerundios: Trabajándose en ello lo suficiente, se podrá cumplir con los 
+plazos estipulados. 
+
+
+41.5.3a 
+
+
+Oraciones activas, pasivas, impersonales y medias 
+
+
+784 
+
+
+41.5.3 Interpretación de las oraciones impersonales con se 
+
+41.5.3a Desde el punto de vista semántico, las construcciones impersonales con se 
+suelen dividirse en dos grupos: las genéricas o medioimpersonales y las existen- 
+CIALES o episódicas. Las primeras se construyen en tiempos imperfectivos (§ 23.1 .3c) 
+y admiten paráfrasis formadas con sujetos como la gente, uno y otras expresiones 
+análogas, como en De eso no se debe hablar; Todos los domingos por la mañana se acu- 
+día a misa, o en Nena, solo se vive una vez (Delibes, Mario); Ahora en verano se duerme 
+bien en cualquier parte (Sánchez Ferlosio, Jarama). Las impersonales existenciales o 
+episódicas admiten, por el contrario, tiempos perfectivos: No se volvió sobre ese asunto. 
+El hablante suele tener presente en ellas al agente, que no puede o no quiere identificar: 
+Sé que se habló de ello, pero no sabría decir quién lo mencionó; Se le recibió y se le atendió 
+con toda cortesía; Recordó el comentario de su madre cuando se habló de aquello (Pitol, 
+Juegos). Las existenciales no se forman con verbos copulativos: Allí se {era~*fue} feliz 
+ni aparecen en las oraciones pasivas: cuando se {es~*fue} detenido por la policía. 
+
+41.5.3b En las oraciones impersonales con se queda velado el participante activo 
+(Se trabaja) o pasivo (Si se es golpeado) en algún estado de cosas. Ese sujeto tácito se 
+interpreta como un argumento del verbo referido a personas. No admiten imperso- 
+nales reflejas, por tanto, los verbos que rechazan los sujetos de persona (como llover, 
+ocurrir, rielar o transcurrir), de modo que si se construyen oraciones como Se ladra 
+o Se gruñe, será para describir comportamientos humanos, no animales. Las imper- 
+sonales con se son también incompatibles con las oraciones de verbo pronominal 
+(Uno se arrepiente~*Se se arrepiente) por la constricción que impide la presencia de 
+dos pronombres átonos idénticos en cualquier estructura sintáctica (§ 16.4.3e). 
+
+41.5.3c Las impersonales con se pueden incluir o excluir al hablante. Así, el que 
+dice Se trabaja mucho en esta ojicina puede estar o no entre los que trabajan en ella. 
+Se diferencian en este punto de las impersonales de sujeto tácito en tercera persona 
+de plural (Trabajan mucho en esta ojicina), que excluyen al que habla. En este senti- 
+do, las impersonales con se se aproximan a las oraciones construidas con el pronom- 
+bre uno, que pueden también incluir al hablante, como en Increíble, me dije, por 
+donde uno va se encuentra con latinoamericanos (Bryce Echenique, Martín Romaña). 
+
+
+
+### Manual §41.6.1a to 41.6.1e (OCR lines 56427 to 56494)
+41.6.1 Características fundamentales 
+
+41.6.1 a Desde los orígenes del idioma alternan en español las pasivas perifrásticas 
+(§ 41.2) y las pasivas reflejas (también pasivas con se o pasivas impersonales) 
+construidas con la forma se: La agresión no fue denunciada ~La agresión no se denunció. 
+En unas y otras el verbo transitivo ha de concordar con el sujeto paciente en número y 
+persona. Ambas construcciones son estructuras intransitivas que admiten sujetos pa- 
+cientes posverbales sin determinante, en la posición característica de los complemen- 
+tos directos: Se han abierto nuevas vías de comunicación; Se sigue importando petróleo 
+en grandes cantidades; Algunos sacaron las pistolas y se escucharon disparos (Casares, 
+Dios). Las pasivas reflejas son más frecuentes que las perifrásticas, tanto en la lengua 
+
+
+785 
+
+
+La pasiva refleja 
+
+
+41.6.2a 
+
+
+oral como en la escrita, y especialmente en las oraciones que establecen juicios de 
+naturaleza genérica o expresan instrucciones sobre la forma de proceder. Las pasivas 
+reflejas constituyen a veces la única opción natural en este tipo de enunciados, como 
+en El rebozado se hace (no es hecho ) con huevo y pan rallado; No se obtienen (en lugar 
+de son obtenidos) buenos resultados cuando se trabaja precipitadamente. 
+
+41.6.1 b Las pasivas reflejas pueden tener como sujeto oraciones sustantivas, tan- 
+to declarativas (Se dice que habrá pronto elecciones; Se decidió que se le daría el pre- 
+mio), como interrogativas indirectas (Ya se ha descubierto cómo entró el ladrón en la 
+casa). En ambos casos las oraciones pueden ser también de infinitivo: Se prohíbe fu- 
+mar; Se decidió premiarla; No se sabe cómo salir del paso. 
+
+41.6.1c Los morfemas de género y número del participio son suficientes en las 
+pasivas perifrásticas para identificar el sujeto paciente tácito, incluso con sujetos en 
+infinitivo (Era necesario ser ayudado). Por el contrario, el se característico de la pasi- 
+va refleja requiere rasgos flexivos en el verbo. No se interpreta, pues, como pasiva 
+refleja, sino como recíproca o reflexiva, la subordinada de infinitivo subrayada en 
+Era necesario ayudarse. Al igual que en las impersonales reflejas (§ 41.5.2c), admiten 
+el se pasivo reflejo las mismas construcciones de infinitivo que aceptan sujetos léxi- 
+cos: De solucionarse el problema...; Al avistarse el buque...; Por no venderse bien esta 
+remesa..., etc. 
+
+41 .6.1 d Las pasivas reflejas muestran mayor resistencia a aceptar complementos 
+
+agentes que las pasivas de participio. Los suelen rechazar cuando se construyen con 
+expresiones definidas que designan individuos (El problema económico se solucionó 
+por el ministro), pero los admiten con mayor frecuencia con expresiones que desig- 
+nan instituciones, estamentos o conjuntos de individuos, como en ... por las autori- 
+dades; ...por el ministerio; ...por la gente, o en Si es menester, entibiaré con anticipación 
+la lista, para que se examine por el Clero y Comunidades religiosas de la Península 
+(Moratín, Epistolario). Estas construcciones son especialmente abundantes en la 
+prosa jurídica y en la administrativa. 
+
+41 .6.1 e Como se vio en el § 41 .6.1 a, suelen usarse pasivas reflejas (en lugar de pe- 
+
+rifrásticas) para describir situaciones genéricas, como en La mezcla se pone a cocer a 
+fuego lento o en una película que se soporta con esfuerzo. Las llamadas construccio- 
+nes mediopasivas o cuasipasivas son una subclase de las pasivas reflejas que des- 
+criben propiedades que caracterizan a los seres de los que se habla. Expresan a 
+menudo la facilidad o dificultad con la que se lleva a cabo cierta acción, como en Este 
+tipo de pelo se moldea con dificultad o un auto pequeño que se estaciona fácilmente. 
+Admiten asimismo paráfrasis con verbos modales, como en ¿No sabes que eso no se 
+hace? (‘no debe hacerse’); No puedes comparar la lata de sardinas que tiene Fernando 
+con un Galaxie, que casi se maneja [= ‘se puede manejar’] solo (Ibargüengoitia, Crímenes). 
+
+
+
+### Manual §41.6.3a to 41.6.3e (OCR lines 56551 to 56640)
+41.6.3 Semejanzas y diferencias entre pasivas reflejas e impersonales 
+reflejas 
+
+41.6.3a Las pasivas reflejas y las impersonales con se son estructuras sintácticas 
+en las que se suele ocultar un argumento (§ 41.5.1b). Las pasivas reflejas contienen 
+un grupo nominal expreso o tácito —el sujeto paciente— que concuerda con el ver- 
+bo: El problema se planteó bien. En cambio, las impersonales carecen de un segmento 
+
+
+787 
+
+
+La pasiva refleja 
+
+
+41.6.3e 
+
+
+nominal susceptible de concordar con el verbo: Se trabajó poco en el problema. Estas 
+estructuras pueden llegar a construirse con los mismos verbos, siempre que los tran- 
+sitivos admitan usos intransitivos, como muestra el contraste entre Se disparaba in- 
+cesantemente la munición (pasiva) y Se disparaba incesantemente contra el enemigo 
+(impersonal). Sin embargo, son posibles las impersonales reflejas con verbos transi- 
+tivos, como se verá en los apartados siguientes. 
+
+41.6.3b En el español europeo y en algunas variantes del español americano las pa- 
+sivas y las impersonales presentan cierta tendencia a la distribución complemen- 
+taria, puesto que cada una de estas clases de oraciones se usa en estructuras sintácticas 
+en las que se rechaza la otra. Aun así, la distribución complementaria es imperfecta en 
+el español andino, chileno y rioplatense, como se explicará más adelante. Los grupos 
+nominales definidos que designan personas se construyen con a cuando son comple- 
+mentos directos, como Saludaron a los dos maestros. Estas expresiones no aparecen 
+como sujetos de las pasivas reflejas ( *Se saludaron los dos maestros, agramatical en su 
+acepción pasiva, no como oración recíproca), pero pueden ser complementos directos de 
+las impersonales con se: Se saludó a los dos maestros. Al contrario, los complementos 
+directos que se construyen sin a (Atendieron las protestas ) no funcionan normalmente, 
+en varias área lingüísticas, como complementos directos de las impersonales, pero 
+resultan naturales como sujetos de las pasivas reflejas: Se atendieron las protestas. Son, 
+pues, normales los siguientes contrastes: 
+
+Se atendieron las protestas (pasiva refleja) ~Se atendió a los que protestaban (impersonal 
+refleja); Se valora el trabajo- Se valora a los trabajadores; Se aprobó el concurso~Se apro- 
+bó a los concursantes; Se respetan lasjiestas~Se respeta a los festejantes. 
+
+41.6.3c Los complementos directos de persona construidos en plural y sin artícu- 
+lo en las oraciones activas pueden pasar a sujetos pacientes de las pasivas reflejas, ya 
+que no está presente la preposición a en las correspondientes variantes activas: Con- 
+trataron excelentes jugadores; Es difícil encontrar personas así; Están buscando 
+analistas de sistemas. Resultan, pues, naturales oraciones como En la prensa periódica 
+se necesitan hombres expeditos, no refinados (Palacio Valdés, Novelista ) y Otra 
+cosa es cuando se tienen hijos (Delgado, Mirada ). Lo mismo ocurre con los sujetos 
+pacientes de las pasivas reflejas que se refieren a cargos, puestos y otros atributos de 
+quien los ejerce, como en Todavía se tiene que nombrar el nuevo embajador en el 
+Perú o en Ahora se elegirán los representantes sindicales. 
+
+41.6.3d Los cruces entre las dos construcciones reflejas en las oraciones que lle- 
+van complementos introducidos por la preposición a dan lugar a estructuras híbri- 
+das incorrectas, como Se premiaron a los mejores alumnos; Se buscan a los culpables, 
+en lugar de Se premió a los mejores alumnos; Se busca a los culpables. Esta incorrec- 
+ción es especialmente frecuente en las oraciones de relativo (una convocatoria de la 
+que se han excluido injustamente a varios solicitantes) y con verbos de denomina- 
+ción y de juicio: Se llaman askenazis a los judíos que proceden del centro y el este de 
+Europa. 
+
+41.6.3e La distribución complementaria a la que se hizo referencia en el § 41.6.3b 
+es imperfecta, sobre todo porque las pasivas reflejas y las impersonales pueden 
+
+
+41.6.3Í 
+
+
+Oraciones activas, pasivas, impersonales y medias 
+
+
+788 
+
+
+alternar con los mismos verbos y los mismos grupos nominales. Se obtienen así pares 
+como Se {firmarán~firmará} los acuerdos en los próximos días; esas luces que se 
+{ve~ven} a lo lejos; las consignas contra el gobierno que se {coreaba~ coreaban} en la 
+manifestación. La opción en singular (impersonal refleja) es algo más común, propor- 
+cionalmente, en el español americano que en el europeo, pero se registra en ambos. 
+En el español del Río de la Plata, Chile y los países andinos, y —menos frecuentemen- 
+te— también en el de otras variedades del español americano, las impersonales reflejas 
+con objeto directo de cosa no rechazan los pronombres átonos. Alternan así, hablan- 
+do de ciertos documentos, Se los firmará en los próximos días (impersonal con se) y Se 
+firmarán en los próximos días (pasiva con se de sujeto tácito). 
+
+41.6.3Í La alternancia entre pasivas reflejas e impersonales no está únicamente 
+en función de los factores geográficos mencionados, sino que puede presentar dife- 
+

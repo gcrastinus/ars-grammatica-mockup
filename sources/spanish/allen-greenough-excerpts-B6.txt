@@ -387,3 +387,128 @@ huic  legiSni  Caesar  confldebat  maxime  (B.  G.  i.  40.  15),  in  this  leg
 trusted  most 
 
 
+
+##### voice
+
+### A&G §156 a (and the note) (OCR lines 9590 to 9608)
+156.  The  Active  and  Passive  Voices  in  Latin  generally  cor- 
+respond to  the  active  and  passive  in  English ;  but  — 
+
+a.  The  passive  voice  often  has  a  reflexive  meaning  :  — 
+
+ferrd  accingor,  I  gird  myself  with  my  sword, 
+Turnus  vertitur,  Turnus  turns  (himself), 
+induitur  vestem,  he  puts  on  his  (own)  clothes. 
+
+Note.  — This  use  corresponds  very  nearly  to  the  Greek  Middle  voice,  and  is  doubt- 
+less a  survival  of  the  original  meaning  of  the  passive  (p.  76,  footnote  2). 
+
+b.  Many  verbs  are  passive  in  form,  but  active  or  reflexive  in  meaning. 
+These  are  called  Deponents  (§  190): 1  as,  hortor,  /  exhort;  sequor,  I  follow. 
+
+c.  Some  verbs  with  active  meaning  have  the  passive  form  in  the  perfect 
+tenses ;  these  are  called  Semi-Deponents  :  as,  audeo,  audere,  ausus  sum,  dare. 
+
+Moods 
+
+### A&G §208 (a, d and the notes) (OCR lines 15263 to 15330)
+208.  Impersonal  Verbs  may  be  classified  as  follows:  — 
+
+a.  Verbs  expressing  the  operations  of  nature  and  the  time  of  day :  — 
+vesperascit  (inceptive,  §  263.  1),  it  grows  late.  ningit,  it  snows. 
+luciscit  hoc,  it  is  getting  light.                                     fulgurat,  it  lightens. 
+grandinat,  it  hails.                                                        tonat,  it  thunders. 
+pluit,  it  rains.                                                             rSrat,  the  dew  falls. 
+
+Note.  —  In  these  no  subject  is  distinctly  thought  of.  Sometimes,  however,  the  verb 
+is  used  personally  with  the  name  of  a  divinity  as  the  subject :  as,  Iuppiter  tonat,  Jupiter 
+thunders.  In  poetry  other  subjects  are  occasionally  used:  as,  fundae  saxa  pluunt,  the 
+slings  rain  stones. 
+
+b.  Verbs  of  feeling,  where  the  person  who  is  the  proper  subject  becomes 
+the  object,  as  being  himself  affected  by  the  feeling  expressed  in  the  verb 
+(§354.6):  — 
+
+miseret,  it  grieves.  paenitet  (poenitet),  it  repents. 
+
+piget,  it  disgusts.  pudet,  it  shames. 
+
+taedet,  it  wearies. 
+
+miseret  me,  I  pity  (it  distresses  me) ;  pudet  me,  I  am  ashamed. 
+
+Note.  —  Such  verbs  often  have  also  a  passive  form :  as,  misereor,  I  pity  (am  moved 
+to  pity) ;  and  occasionally  other  parts:  as,  paeniturus  (as  from  fpaenio),  paenitendus, 
+pudendus,  pertaesum  est,  pigitum  est. 
+
+c.  Verbs  which  have  a  phrase  or  clause  as  their  subject  (cf.  §§  454, 
+569.2):  — 
+
+accidit,  contingit,  evenit,  obtingit,  obvenit,  fit,  it  happens. 
+
+libet,  it  pleases.  delectat,  iuvat,  it  delights. 
+
+licet,  it  is  permitted.  oportet,  it  is  fitting,  ought. 
+
+certum  est,  it  is  resolved.  necesse  est,  it  is  needful. 
+
+constat,  it  is  clear.  praestat,  it  is  better. 
+
+placet,  it  seems  good  (pleases).  interest,  refert,  it  concerns. 
+
+videtur,  it  seems,  seems  good.  vacat,  there  is  leisure. 
+
+decet,  it  is  becoming.  restat,  superest,  it  remains. 
+
+Note. — Many  of  these  verbs  may  be  used  personally;  as,  vac5,  I  have  leisure. 
+Libet  and  licet  have  also  the  passive  forms  libitum  (licitum)  est  etc.  The  participles 
+libens  and  licens  are  used  as  adjectives. 
+
+d*  The  passive  of  intransitive  verbs  is  very  often  used  impersonally  (see 
+synopsis  in  §  207):  — 
+
+ventum  est,  they  came  (there  was  coming). 
+
+pugnatur,  there  is  fighting  (it  is  fought). 
+
+Itur,  some  one  goes  (it  is  gone). 
+
+parcitur  mini,  I  am  spared  (it  is  spared  to  me,  see  §  372). 
+
+Note.  —  The  impersonal  use  of  the  passive  proceeds  from  its  original  reflexive  (or 
+middle)  meaning,  the  action  being  regarded  as  accomplishing  itself  (compare  the 
+French  cela  sefait). 
+
+
+
+### A&G §275 (OCR lines 18662 to 18675)
+275.  When  a  transitive  verb  is  changed  from  the  Active  to  the 
+Passive  voice,  the  Direct  Object  becomes  the  Subject  and  is  put 
+in  the  Nominative  case  :  — 
+
+Active :     pater  filium  vocat,  the  father  calls  his  son. 
+Passive :  films  a  patre  vocatur,  the  son  is  called  by  his  father. 
+Active :     lunam  et  stellas  videmus,  we  see  the  moon  and  the  stars. 
+Passive :  luna  et  stellae  videntur,  the  moon  and  stars  are  seen  (appear). 
+
+Modification 
+
+276.  A  Subject  or  a  Predicate  may  be  modified  by  a  single  word, 
+or  by  a  group  of  words  (a phrase  or  a  clause). 
+
+
+### A&G §405 (OCR lines 24238 to 24250)
+405.  The  Voluntary  Agent  after  a  passive  verb  is  expressed  by 
+the  Ablative  with  aorab:  — 
+
+laudatur  ab  his,  culpatur  ab  illis  (Hor.  S.  i.  2.  11),  he  is  praised  by  these, 
+
+blamed  by  those. 
+ab  anim5  tuo  quidquid  agitur  id  agitur  a  te  (Tusc.  i.  52),  whatever  is  done  by 
+
+your  soul  is  done  by  yourself. 
+a  filiis  in  indicium  vocatus  est  (Cat.  M.  22),  he  was  brought  to  trial  by  his  sons. 
+cum  a  cuncto  consessu.  plausus  esset  multiplex  datus  (id.  64),  when  great 
+
+applause  had  been  given  by  the  whole  audience. 
+

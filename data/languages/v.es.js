@@ -36,6 +36,21 @@ ARS.languages["lang.v.es"] = {
    "title": "Government in Spanish",
    "desc": "52 questions.",
    "exFor": "lang.v.es/government"
+  },
+  {
+   "id": "lang.v.es/voice",
+   "kind": "study",
+   "built": true,
+   "title": "Voice in Spanish",
+   "desc": "The active and the passive with ser, the reflexive passive with se, and the impersonal sentences."
+  },
+  {
+   "id": "lang.v.es/voice-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Voice in Spanish",
+   "desc": "24 questions.",
+   "exFor": "lang.v.es/voice"
   }
  ]
 };
