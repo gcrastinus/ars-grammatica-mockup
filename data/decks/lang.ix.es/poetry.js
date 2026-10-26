@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -136,6 +136,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-11",
    "title": "Any time past",
    "body": "<p><i lang=\"es\">Cómo, á nuestro parecer, cualquiera tiempo pasado fué mejor.</i> <i lang=\"es\">Parecer</i> here is “thinking, opinion,” not the verb “to seem” by itself: <i lang=\"es\">á nuestro parecer</i> is “to our thinking.” <i lang=\"es\">Cualquiera</i> is “any,” with <i lang=\"es\">tiempo</i>. <i lang=\"es\">Pasado</i> agrees with <i lang=\"es\">tiempo</i>. <i lang=\"es\">Fué</i> is the preterite of <i lang=\"es\">ser</i>, “was.” The edition writes the accent on <i lang=\"es\">fué</i>. The claim is that any time already past was better than the time in which one stands.</p>"
+  },
+  {
+   "id": "poetry-12",
+   "title": "Darío, Sonatina · Alexandrine",
+   "body": "<p lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?<br>Los suspiros se escapan de su boca de fresa,<br>Que ha perdido la risa, que ha perdido el color.<br>La princesa está pálida en su silla de oro,<br>Está mudo el teclado de su clave sonoro;<br>Y en un vaso olvidada se desmaya una flor.</p><p>The princess is sad... what ails the princess?<br>The sighs escape from her strawberry mouth,<br>for she has lost her laughter, for she has lost her color.<br>The princess is pale in her chair of gold,<br>mute is the keyboard of her sonorous harpsichord;<br>and, forgotten, a flower faints in a vase.</p><p><strong>Context.</strong> Rubén Darío was born in Metapa, Nicaragua, in 1867, and died in León in 1916. “Sonatina” is in <i lang=\"es\">Prosas profanas y otros poemas</i>, printed at Buenos Aires in 1896. The line is an alexandrine, of fourteen syllables, divided into two halves of seven. The rhyme is consonant: <i lang=\"es\">princesa</i> with <i lang=\"es\">fresa</i>, <i lang=\"es\">color</i> with <i lang=\"es\">flor</i>, and <i lang=\"es\">oro</i> with <i lang=\"es\">sonoro</i>.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-12",
+    "variants": [
+     {
+      "prompt": "What does <i lang=\"es\">¿qué tendrá la princesa?</i> ask?",
+      "options": [
+       "What ails her",
+       "What her name is",
+       "Where the ship is",
+       "Who owns the chair"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Tendrá</i> is the future of <i lang=\"es\">tener</i>. The question is what is the matter with her."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">sonoro</i> agree with?",
+      "options": [
+       "The harpsichord",
+       "The keyboard itself",
+       "The sad princess",
+       "The forgotten flower"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Clave</i>, the harpsichord, is masculine, and <i lang=\"es\">sonoro</i> agrees with it."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">olvidada</i> agree with?",
+      "options": [
+       "The flower",
+       "The vase",
+       "The sigh",
+       "The chair of gold"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Olvidada</i> is feminine, and it agrees with <i lang=\"es\">una flor</i>. The flower is forgotten."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-13",
+   "title": "Two halves of seven",
+   "body": "<p>An alexandrine has fourteen syllables, in two halves of seven. Each half is counted as a line of seven, and the count begins again after the pause. <i lang=\"es\">La princesa está triste</i> is the first half of the first line, and it counts seven, with synalepha in <i lang=\"es\">princesa está</i>.</p><p>The second line is counted here. <i lang=\"es\">Los suspiros se escapan</i> joins <i lang=\"es\">se</i> and <i lang=\"es\">escapan</i>: <i lang=\"es\">Los</i>, <i lang=\"es\">sus</i>, <i lang=\"es\">pi</i>, <i lang=\"es\">ros</i>, <i lang=\"es\">sees</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">pan</i>. That is seven, and the stress of <i lang=\"es\">escapan</i> is on the next to last syllable. <i lang=\"es\">De su boca de fresa</i> has no synalepha: <i lang=\"es\">de</i>, <i lang=\"es\">su</i>, <i lang=\"es\">bo</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">de</i>, <i lang=\"es\">fre</i>, <i lang=\"es\">sa</i>. The second half of the first line, <i lang=\"es\">qué tendrá la princesa</i>, is likewise seven, with no synalepha: <i lang=\"es\">qué</i>, <i lang=\"es\">ten</i>, <i lang=\"es\">drá</i>, <i lang=\"es\">la</i>, <i lang=\"es\">prin</i>, <i lang=\"es\">ce</i>, <i lang=\"es\">sa</i>.</p><p><i lang=\"es\">Color</i> and <i lang=\"es\">flor</i> are stressed on the last syllable, so each of those halves counts one more than the syllables written up to the stress. The rhyme of those two lines is the vowel <i lang=\"es\">o</i> with the consonant that follows it. <i lang=\"es\">Oro</i> and <i lang=\"es\">sonoro</i> rhyme in <i lang=\"es\">oro</i>, a full consonant rhyme.</p>"
+  },
+  {
+   "id": "poetry-14",
+   "title": "What ails the princess",
+   "body": "<p><i lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?</i> <i lang=\"es\">Está</i> is the present of <i lang=\"es\">estar</i>. The three dots leave the sadness unfinished, and the question follows. <i lang=\"es\">Tendrá</i> is the future of <i lang=\"es\">tener</i>. The question asks what is the matter with her. <i lang=\"es\">Qué</i> is that trouble.</p>"
+  },
+  {
+   "id": "poetry-15",
+   "title": "The mouth of strawberry",
+   "body": "<p><i lang=\"es\">Los suspiros se escapan de su boca de fresa.</i> <i lang=\"es\">Se escapan</i> is “escape,” a reflexive of <i lang=\"es\">escapar</i>. <i lang=\"es\">De</i> gives the place they leave. <i lang=\"es\">Boca de fresa</i> is “a mouth of strawberry”: <i lang=\"es\">de fresa</i> names the kind of mouth, as a color or a taste would. <i lang=\"es\">Que ha perdido la risa, que ha perdido el color.</i> <i lang=\"es\">Ha perdido</i> is the present perfect of <i lang=\"es\">perder</i>. <i lang=\"es\">Que</i> refers to the princess. She has lost her laughter and her color.</p>"
+  },
+  {
+   "id": "poetry-16",
+   "title": "The harpsichord and the flower",
+   "body": "<p><i lang=\"es\">Está mudo el teclado de su clave sonoro.</i> <i lang=\"es\">Mudo</i> is “mute,” and it agrees with <i lang=\"es\">teclado</i>. <i lang=\"es\">Clave</i> is the harpsichord, a masculine noun, and <i lang=\"es\">sonoro</i> agrees with <i lang=\"es\">clave</i>. <i lang=\"es\">Y en un vaso olvidada se desmaya una flor.</i> <i lang=\"es\">Vaso</i> is the vase. <i lang=\"es\">Olvidada</i> is feminine, so it agrees with <i lang=\"es\">flor</i>. <i lang=\"es\">Se desmaya</i> is “faints.” The flower, forgotten in the vase, faints.</p>"
   }
  ]
 };
