@@ -34,6 +34,20 @@ ARS.languages["lang.iv.es"] = {
    "built": true,
    "title": "Compounds in Spanish",
    "desc": "24 questions."
+  },
+  {
+   "id": "lang.iv.es/etymology",
+   "kind": "study",
+   "built": true,
+   "title": "Etymology in Spanish",
+   "desc": "Inherited and learned words, and words from Arabic, Greek, the Germanic languages, and the Americas."
+  },
+  {
+   "id": "lang.iv.es/etymology-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Etymology in Spanish",
+   "desc": "24 questions."
   }
  ]
 };
