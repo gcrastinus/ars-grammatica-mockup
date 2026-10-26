@@ -73,6 +73,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "desc": "24 questions."
   },
   {
+   "id": "lang.iii-decl.es/subjunctive",
+   "kind": "study",
+   "built": true,
+   "title": "The Forms of the Spanish Subjunctive",
+   "desc": "The present, imperfect, perfect, and pluperfect subjunctive."
+  },
+  {
+   "id": "lang.iii-decl.es/subjunctive-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "The Forms of the Spanish Subjunctive",
+   "desc": "24 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
