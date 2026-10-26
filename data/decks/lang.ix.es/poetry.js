@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Luis de Góngora, <i lang=\"es\">Poesías</i> (Madrid, 1820), for the opening of the letrilla that begins <i lang=\"es\">Ande yo caliente</i>. San Juan de la Cruz, <i lang=\"es\">Obras</i>, tomo tercero (Toledo, Viuda e Hijos de J. Peláez, 1914), edited by Padre Gerardo de San Juan de la Cruz, for the first two stanzas of the poem that begins <i lang=\"es\">En una noche oscura</i>. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Luis de Góngora, <i lang=\"es\">Poesías</i> (Madrid, 1820), for the opening of the letrilla that begins <i lang=\"es\">Ande yo caliente</i>. San Juan de la Cruz, <i lang=\"es\">Obras</i>, tomo tercero (Toledo, Viuda e Hijos de J. Peláez, 1914), edited by Padre Gerardo de San Juan de la Cruz, for the first two stanzas of the poem that begins <i lang=\"es\">En una noche oscura</i>. Federico García Lorca, <i lang=\"es\">Primer romancero gitano</i> (Madrid, Revista de Occidente, 1928), for the opening of “Romance de la luna, luna.” Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -451,6 +451,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-36",
    "title": "The secret ladder",
    "body": "<p><i lang=\"es\">A oscuras, y segura, por la secreta escala disfrazada.</i> <i lang=\"es\">A oscuras</i> is “in the dark.” <i lang=\"es\">Segura</i> is “safe,” and it agrees with the speaker. <i lang=\"es\">Escala</i> is the ladder, and <i lang=\"es\">secreta</i> agrees with it. <i lang=\"es\">Disfrazada</i> is “disguised,” and it too agrees with the speaker. <i lang=\"es\">A oscuras, y en celada.</i> <i lang=\"es\">Celada</i> is a hiding, an ambush. The same two lines of the refrain return: <i lang=\"es\">¡Oh dichosa ventura!</i> and <i lang=\"es\">Estando ya mi casa sosegada.</i></p>"
+  },
+  {
+   "id": "poetry-37",
+   "title": "Lorca, Romance of the moon · Octosyllable",
+   "body": "<p lang=\"es\">La luna vino a la fragua<br>con su polisón de nardos.<br>El niño la mira mira.<br>El niño la está mirando.<br>En el aire conmovido<br>mueve la luna sus brazos<br>y enseña, lúbrica y pura,<br>sus senos de duro estaño.<br>Huye luna, luna, luna.</p><p>The moon came to the forge<br>with her bustle of tuberoses.<br>The child looks at her, looks.<br>The child is looking at her.<br>In the stirred air<br>the moon moves her arms<br>and shows, lustful and pure,<br>her breasts of hard tin.<br>Flee, moon, moon, moon.</p><p><strong>Context.</strong> Federico García Lorca, of Granada, published this romance in 1928, in <i lang=\"es\">Primer romancero gitano</i>, and died in 1936. The line is the octosyllable, the line of eight syllables. The even lines assonate in <i lang=\"es\">a</i> and <i lang=\"es\">o</i>: <i lang=\"es\">nardos</i>, <i lang=\"es\">mirando</i>, <i lang=\"es\">brazos</i>, <i lang=\"es\">estaño</i>. Each of those words is stressed on the next to last syllable. The odd lines do not rhyme. The print writes <i lang=\"es\">mira mira</i> with no comma, and <i lang=\"es\">Huye luna, luna, luna</i> with no inverted exclamation mark.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-37",
+    "variants": [
+     {
+      "prompt": "What is <i lang=\"es\">vino</i> in <i lang=\"es\">la luna vino</i>?",
+      "options": [
+       "She came",
+       "The noun for wine",
+       "A command: come",
+       "She will come"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Vino</i> is the preterite of <i lang=\"es\">venir</i>. The moon came."
+     },
+     {
+      "prompt": "What does the print do between the two words <i lang=\"es\">mira</i>?",
+      "options": [
+       "No mark",
+       "It writes a comma",
+       "It writes a colon",
+       "It writes <i lang=\"es\">y</i>"
+      ],
+      "answer": 0,
+      "explain": "The line is <i lang=\"es\">El niño la mira mira</i>, with the verb twice and no comma."
+     },
+     {
+      "prompt": "What do <i lang=\"es\">nardos</i> and <i lang=\"es\">estaño</i> share?",
+      "options": [
+       "Assonance in <i lang=\"es\">a-o</i>",
+       "A full rhyme in <i lang=\"es\">os</i>",
+       "Assonance in <i lang=\"es\">e-a</i>",
+       "No rhyme at all"
+      ],
+      "answer": 0,
+      "explain": "Both are stressed on <i lang=\"es\">a</i>, and <i lang=\"es\">o</i> follows. The rhyme is assonance."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-38",
+   "title": "Eight syllables, assonance in a-o",
+   "body": "<p><i lang=\"es\">La luna vino a la fragua</i> joins <i lang=\"es\">vino</i> and <i lang=\"es\">a</i>. <i lang=\"es\">La</i>, <i lang=\"es\">lu</i>, <i lang=\"es\">na</i>, <i lang=\"es\">vi</i>, <i lang=\"es\">noa</i>, <i lang=\"es\">la</i>, <i lang=\"es\">fra</i>, <i lang=\"es\">gua</i>. That is eight. <i lang=\"es\">Fragua</i> is stressed on the next to last syllable.</p><p><i lang=\"es\">Con su polisón de nardos</i> has no synalepha. <i lang=\"es\">Con</i>, <i lang=\"es\">su</i>, <i lang=\"es\">po</i>, <i lang=\"es\">li</i>, <i lang=\"es\">són</i>, <i lang=\"es\">de</i>, <i lang=\"es\">nar</i>, <i lang=\"es\">dos</i>. Eight. <i lang=\"es\">Nardos</i> is stressed on <i lang=\"es\">nar</i>.</p><p><i lang=\"es\">El niño la mira mira</i> has no synalepha. <i lang=\"es\">El</i>, <i lang=\"es\">ni</i>, <i lang=\"es\">ño</i>, <i lang=\"es\">la</i>, <i lang=\"es\">mi</i>, <i lang=\"es\">ra</i>, <i lang=\"es\">mi</i>, <i lang=\"es\">ra</i>. Eight. The assonance of the even lines is the stressed <i lang=\"es\">a</i> and the <i lang=\"es\">o</i> that follows it, in <i lang=\"es\">nardos</i>, <i lang=\"es\">mirando</i>, <i lang=\"es\">brazos</i>, and <i lang=\"es\">estaño</i>.</p><p><i lang=\"es\">En el aire conmovido</i> counts <i lang=\"es\">aire</i> as two syllables, <i lang=\"es\">ai</i> and <i lang=\"es\">re</i>, the ordinary diphthong. <i lang=\"es\">En</i>, <i lang=\"es\">el</i>, <i lang=\"es\">ai</i>, <i lang=\"es\">re</i>, <i lang=\"es\">con</i>, <i lang=\"es\">mo</i>, <i lang=\"es\">vi</i>, <i lang=\"es\">do</i>. Eight. If <i lang=\"es\">ai</i> were two syllables, the line would have nine. The count of eight rests on the diphthong.</p>"
+  },
+  {
+   "id": "poetry-39",
+   "title": "The moon came to the forge",
+   "body": "<p><i lang=\"es\">La luna vino a la fragua con su polisón de nardos.</i> <i lang=\"es\">Vino</i> is the preterite of <i lang=\"es\">venir</i>, and the subject is <i lang=\"es\">la luna</i>. <i lang=\"es\">Fragua</i> is the forge. <i lang=\"es\">Polisón</i> is a bustle, the frame of a skirt. <i lang=\"es\">Nardos</i> are tuberoses. She came to the forge wearing them.</p>"
+  },
+  {
+   "id": "poetry-40",
+   "title": "The child looks, and looks",
+   "body": "<p><i lang=\"es\">El niño la mira mira. El niño la está mirando.</i> <i lang=\"es\">Mira</i> is the present of <i lang=\"es\">mirar</i>, and the print sets the verb twice, with no comma. <i lang=\"es\">La</i> is the moon. <i lang=\"es\">Está mirando</i> is the present of <i lang=\"es\">estar</i> with the gerund of <i lang=\"es\">mirar</i>: he is looking. The second line says again, in another form, what the first line says.</p>"
+  },
+  {
+   "id": "poetry-41",
+   "title": "Flee, moon",
+   "body": "<p><i lang=\"es\">En el aire conmovido mueve la luna sus brazos y enseña, lúbrica y pura, sus senos de duro estaño.</i> <i lang=\"es\">Conmovido</i> agrees with <i lang=\"es\">aire</i>: the air is stirred. <i lang=\"es\">Mueve</i> is the present of <i lang=\"es\">mover</i>, and the subject is <i lang=\"es\">la luna</i>. <i lang=\"es\">Enseña</i> is the present of <i lang=\"es\">enseñar</i>, “shows.” <i lang=\"es\">Lúbrica</i> is “lustful,” and <i lang=\"es\">pura</i> is “pure.” Both agree with the moon. <i lang=\"es\">Senos</i> are breasts, and <i lang=\"es\">estaño</i> is tin. <i lang=\"es\">Huye luna, luna, luna.</i> <i lang=\"es\">Huye</i> is the command to <i lang=\"es\">tú</i> of <i lang=\"es\">huir</i>, “flee.” The command is spoken to the moon, three times named, and the print gives no inverted exclamation mark.</p>"
   }
  ]
 };
