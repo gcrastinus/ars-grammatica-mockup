@@ -31,6 +31,20 @@ ARS.languages["lang.iii-decl.es"] = {
    "exFor": "lang.iii-decl.es/paradigms"
   },
   {
+   "id": "lang.iii-decl.es/parts",
+   "kind": "study",
+   "built": true,
+   "title": "Variable and Invariable Words",
+   "desc": "The parts of speech of the Spanish grammar, set beside the eight of Donatus."
+  },
+  {
+   "id": "lang.iii-decl.es/parts-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Variable and Invariable Words",
+   "desc": "20 questions."
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,
