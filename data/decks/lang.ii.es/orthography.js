@@ -47,7 +47,8 @@ ARS.decks["lang.ii.es/orthography"] = {
       "explain": "The second <i lang=\"es\">n</i> became the mark above the first."
      }
     ]
-   }
+   },
+   "src": "The origin of ñ (a doubled nn written short) rests on one secondary source, Spanish Wikipedia, \"Ñ\" (see sources/spanish/B1-FACT-CHECK-OCT-25.md). To be checked against the Academy's Ortografía (2010) in batch B14. Timothy, 26 Oct 2026."
   },
   {
    "id": "sounds",
