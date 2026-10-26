@@ -1,0 +1,936 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B7 (Section V: mood, clauses, order)
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy, item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, fetched 26 Oct 2026. The text is machine-read; line breaks, hyphenation, and stray spaces are not the book's, and the printed book could not be compared (batch B14). The paragraph number is the Manual's own; the OCR line numbers refer to the plain-text file.
+
+
+
+##### mood
+
+### Manual §25.1.1a to 25.1.1c (OCR lines 39209 to 39262)
+25.1 Introducción. El concepto de modo 
+
+25.1.1 Modo y modalidad 
+
+25.1 .1 a El modo constituye una de las manifestaciones de la modalidad, como se 
+explica en el capítulo 42. De acuerdo con la tradición, el modo revela la actitud del 
+hablante ante la información suministrada, es decir, su punto de vista sobre el con- 
+tenido de lo que se presenta o se describe. Se suele reconocer hoy, sin embargo, que 
+aun siendo útil, el concepto de ‘actitud’ es impreciso. También son útiles —se piensa—, 
+pero tal vez demasiado abarcadoras si se han de aplicar a todos los contextos sintác- 
+ticos, las oposiciones semánticas que se han establecido para explicar la diferencia 
+entre el indicativo y el subjuntivo: certeza/incertidumbre, realidad / virtualidad o 
+irrealidad, actualidad / no actualidad, compromiso del hablante con la veracidad de 
+lo que afirma /ausencia de aserción. Así, en ciertos contextos sintácticos que dejan 
+en suspenso la veracidad de la información proposicional se prefiere el indicativo, a 
+diferencia de lo que sería de esperar, como sucede en Depende de si hace o no buen 
+tiempo; Cabría pensar que el Gobierno oculta algo; Quiero suponer que has obtenido 
+una buena calificación. Por otro lado, se expresan hechos considerados reales (en el 
+sentido de no hipotéticos) en oraciones con verbo en subjuntivo, como en No me 
+gusta que se porte así; Siento mucho que te hayas roto el brazo; Le dieron el pre- 
+mio aunque no se lo mereciera, entre otras muchas similares. En este capítulo se ana- 
+lizará la naturaleza de la flexión modal del verbo como categoría de la gramática, así 
+como los factores que la determinan contextualmente. 
+
+25.1.1b La categoría del modo se caracteriza por presentar una amplia gama de 
+valores gramaticales. En efecto, se usa para establecer ciertos actos verbales, como 
+muestra el contraste entre No se molesta, que describe un estado de cosas, y No se 
+moleste, que constituye una petición. También se emplea para determinar el grado 
+de compromiso del hablante con lo que afirma (Sé que escribe frente a Dudo que es- 
+criba), y para marcar obligadamente el régimen que corresponde a las oraciones que 
+complementan a determinados predicados, como en Sé que {escribe ~*escriba} o Me 
+
+
+25.1.1c 
+
+
+El verbo (III). El modo 
+
+
+474 
+
+
+pide que le {*escribo~ escriba}. Con el modo se indica también la (in)especificidad 
+del grupo nominal indefinido (§ 25.4.1a): un diccionario que me {resulta~resulte} útil, 
+así como el ámbito de la negación y, por tanto, también su foco (§ 25.3.5a, 25.5.1 f y 
+48.2.1b): No aceptó el trabajo porque le {hicieron~hicieran} otra oferta económica. 
+Estos factores presentan características gramaticales muy diferentes que con difi- 
+cultad podría abarcar un solo concepto, sea el de ‘actitud’ u otro distinto. 
+
+25.1.1c Es polémica la cuestión de si el modo es una categoría informativa. Lo 
+es, en efecto, cuando existe alternancia modal, como indica la diferencia de significa- 
+do entre las dos opciones que se presentan en lo que tú {digas~dices} o en aunque no 
+{estoy ~esté} de acuerdo. Es menos clara la respuesta en los casos en que el modo está 
+regido sin posibilidad de alternancia: Le pedí que me {escribiera~*escribía}. Aun así, 
+
+### Manual §25.1.2, 25.1.2b (OCR lines 39263 to 39300)
+el régimen constituye una forma de compatibilidad o de congruencia semántica. 
+En Deseo que me escriba, el estado de cosas inexistente que la oración de subjuntivo 
+designa está en consonancia con la naturaleza irreal, no factual y generalmente pros- 
+pectiva que caracteriza lo que se desea. 
+
+
+25.1.2 Los modos del verbo español 
+
+En su sentido estricto, los modos representan paradigmas flexivos, aun cuando sean 
+a veces defectivos o incompletos, o puedan coincidir con elementos de otros para- 
+digmas. Este criterio permite delimitar en español tres modos: imperativo, indica- 
+tivo y subjuntivo. 
+
+25.1.2a El imperativo ha sido considerado una variante del subjuntivo indepen- 
+diente o no regido, pero varios argumentos indican que constituye un paradigma 
+modal diferenciado. Así, si bien algunas formas del imperativo tienen corresponden- 
+cia en el subjuntivo, como Venga usted aquí inmediatamente, otras son exclusivas de 
+ese modo (sal, ven, ten, vamos, salid o salíj. Las oraciones que presentan ambos modos 
+se distinguen también en la posición del sujeto y de los pronombres átonos, así como 
+en el comportamiento de la negación. El imperativo, por otra parte, no aparece en 
+contextos de subordinación, debido a que otorga fuerza ilocutiva de orden, peti- 
+ción o ruego al enunciado. Se estudia, por ello, en el § 42.2. 
+
+25.1.2b Los llamados usos modalizados de los tiempos no se consideran aquí 
+modos distintos, aunque tales usos de los tiempos verbales conllevan rasgos de natura- 
+leza modal. Por ejemplo, el llamado futuro de conjetura se interpreta como presente 
+de incertidumbre: Serán las tres de la tarde equivale, de manera aproximada, a ‘Son 
+probablemente las tres de la tarde’ (§ 23.7.2). El condicional (§ 23.8.1 d) presenta un 
+uso semejante en Serían las tres de la tarde (‘Eran probablemente las tres de la tar- 
+de’), y también puede expresar cortesía (¿Tendría usted cambio de mil pesos?), ade- 
+más de otros contenidos modales. Se considera, sin embargo, que estos tiempos 
+siguen perteneciendo al indicativo y no constituyen modos distintos. 
+
+25.1 .2c La flexión de modo está asociada estrechamente a la de tiempo, número y 
+persona. Los tiempos del subjuntivo carecen de algunas de las distinciones morfológicas 
+propias de los del indicativo. Así, el pretérito del subjuntivo cantara o cantase 
+
+
+
+### Manual §25.2.1, 25.2.2, 25.2.2a (OCR lines 39338 to 39400)
+25.2.1 Contextos de modo independiente 
+
+Las oraciones no subordinadas se construyen generalmente en indicativo, por lo que 
+este se considera el modo no seleccionado (o modo por defecto): Hoy es lunes; 
+Isabel está cansada; Las elecciones se presentan reñidas. En cambio, el subjuntivo 
+independiente está muy restringido. Aparece en oraciones desiderativas (§ 42.2.4), 
+a veces lexicalizadas o semilexicalizadas (Que te vaya bien; Que te diviertas; Que todo 
+sea para bien; Maldito seas; En gloria esté; El cielo te oiga), así como en algunos 
+auxiliares modales (§ 28.2.2) en que alternan las formas en -ra de subjuntivo pudiera, 
+quisiera o debiera con las del condicional: {Pudiera ~ Podría} ser que estuviera 
+equivocado; {Quisier a ~ Querría} pedirte un favor; {Debiera~ Debería} estar allí a las 
+ocho. La alternancia se extiende a otros verbos en las formas compuestas correspon- 
+dientes: Me {hubiera~ habría} gustado participar. 
+
+
+25.2.2 Contextos de modo dependiente 
+
+Los principales contextos de modo dependiente son las oraciones subordinadas, 
+sean sustantivas (Me alegra que estés aquí) o adjetivas ( Leeré todo lo que escribas). 
+Este capítulo no contiene ninguna sección dedicada al modo en las subordinadas 
+
+
+25.2.2a 
+
+
+El verbo (III). El modo 
+
+
+476 
+
+
+adverbiales, concepto que hoy resulta sumamente polémico (§ 1 .7.3c), pero en la sec- 
+ción § 25.5 se analizará el modo en los contextos introducidos por ciertas partículas. 
+
+25.2.2a Como se ha dicho, el modo dependiente está determinado por algún in- 
+ductor. A lo largo del capítulo se marcarán los inductores con trazo discontinuo y se 
+señalarán con subrayado continuo las formas verbales que contienen la flexión mo- 
+dal inducida, como en Desea que la dejemos en paz. Algunos inductores modales son 
+elementos predicativos (§ 25.3.1 y 25.3.2), especialmente verbos: Ya veo que no 
+{está~*esté} usted bien; adjetivos: Estoy cansado de que todo le {*parece~ parezca} 
+mal; sustantivos: Tiene la sensación de que no la {comprenden~*comprendan}, y 
+algunos adverbios: antes de que {*sabe~sepa} el resultado; Me parece bien que {*prac- 
+tica~practique} más. A estos inductores cabe agregar un buen número de partículas, 
+sobre todo preposiciones: sin que la muchacha {*tenía~ tuviera} conocimiento de ello; 
+para que {*estás~ estés} contenta, y conjunciones o locuciones conjuntivas: en vez 
+de que nos {*llama~llame} usted; a fin de que se {*recupera~recupere} pronto. El de- 
+nominado subjuntivo de polaridad (§ 25.3.5a-d) es inducido por la negación 
+(§ 48.6.6 y 48.7.3): No veo que aprecies mi explicación, que contrasta con Veo que 
+{aprecias~*aprecies} mi explicación ; o por la interrogación: ¿Ves algo que te guste?; 
+¿Observaste que dijera algo nuevo? En determinados contextos también la excla- 
+mación puede actuar como inductor: ¡Quién estuviera allí para verlo! En las oracio- 
+nes desiderativas son inductores los adverbios exclamativos ojalá (¡Ojalá llegue a 
+tiempo /) y así (¡Así se muera!}. 
+
+25.2.2b Inducen también el modo subjuntivo los contextos intensionales, es 
+decir, los subordinados a los verbos buscar, necesitar y otros similares (§ 25.4.2a), 
+como en Busco un diccionario que me sirva, frente a Tengo un diccionario que me 
+{sirve~*sirva}. Muchos de estos entornos son prospectivos. También lo son el impera- 
+tivo (Dile algo que le gusté) o el futuro (Te arrepentirás de lo que digas). Son asimismo 
+inductores modales los contextos genéricos (El que no tiene quien le ayude...; La 
+gente se compra cosas que sean útiles), así como el gerundio de los verbos que expre- 
+san estados hipotéticos, como aceptar, admitir, imaginar, suponer: Y eso suponiendo 
+que este último señor no atienda jamás sus propias necesidades (Dolina, Angel). 
+
+### Manual §25.3.1, 25.3.2 (OCR lines 39428 to 39500)
+25.3.1 Contextos que imponen el modo indicativo 
+
+Seleccionan el modo indicativo en la subordinada sustantiva las clases de predica- 
+dos (generalmente verbos, pero también nombres y adjetivos) que expresan, funda- 
+mentalmente, las siguientes nociones: 
+
+Acaecimiento: acontecer, ocurrir, suceder, etc. 
+
+Lengua o comunicación: afirmar, aludir (a), apuntar, asegurar, comentar, conversar 
+(sobre), decir, describir, gritar, hablar (de), indicar, mencionar, pregonar, repetir, reve- 
+lar, señalar, sostener, sugerir, venir (con) y otros muchos similares. 
+
+Entendimiento: aprender, averiguar, convencer (de), creer, enterarse (de), estar al tanto 
+(de), leer, olvidar, saber; enterado, seguro; convencimiento, impresión, noticia. 
+Percepción, sea sensorial o intelectiva: advertir, caer en la cuenta (de), encontrarse 
+(con), mirar, notar, observar, oír, percibir, recordar, reparar (en), tropezar (con), ver. 
+Certeza: cierto, claro, de cajón, evidente, obvio, palmario, patente, seguro. 
+
+Pertenecen a estos grupos los predicados subrayados con línea discontinua en los 
+siguientes ejemplos: 
+
+Pero ocurría que Damián no tenía “causa” (Posse, Pasión); Sacó la cabeza por la ventana y 
+gritó que el general Vela la esperaba (Belli, Mujer); Saltaba a la vista que mi habitación había 
+sido registrada por el FBI (Benítez, Caballo); También ella ha observado que la voz grave 
+sosiega al chiquillo (Sampedro, Sonrisa); Es evidente que él fía y ella no (Onetti, Viento). 
+
+Algunos de estos predicados admiten una doble interpretación. Así, advertir o recordar 
+expresan percepción en unos contextos (Advirtió que la venían siguiendo; Recuer- 
+do que le gustaba pasear en bicicleta) y comunicación en otros, cuando llevan com- 
+plemento indirecto (Le advierto que no toleraremos otro error semejante; Te recuerdo 
+que la cena es a las ocho). 
+
+25.3.2 Contextos que imponen el modo subjuntivo 
+
+Las nociones semánticas fundamentales que permiten agrupar los predicados (sean 
+o no verbos) que inducen el subjuntivo en sus complementos son las siguientes: 
+
+Voluntad, intención e influencia: Y, sobre todo, procuraba que nunca le faltase una 
+pelota ante los pies (Aguilera Malta, Pelota); Era partidario de que se alejaran de prisa 
+de los alrededores del colegio (Colinas, Año); Nicolás y el duque de Naxos me azuzaban 
+y urgían que reclamase (Mujica Lainez, Bomarzo); La solicitud será que se mantenga a 
+Guatemala ubicado en el renglón 21 por un año más ( Siglo Veintiuno 17/3/1997). 
+Oposición: Nada debemos objetar a que dos hombres se maten el uno al otro si el honor los 
+empuja a ello (Pérez -Reverte, Maestro); La negativa paterna a que ella viniera sola al 
+cine [...] (Cabrera Infante, Habana); No opuso resistencia a que desabotonase la cha- 
+queta de su pijama (García Hortelano, Mary Tribune). 
+
+Causa: ¿También tiene Espartero la culpa de que llueva? (Galdós, Episodios); Eso hizo que 
+al llegar a Delhi me sintiera mejor (Puértolas, Noche); Ello provocó que a centenares de 
+buenos científicos les resultase imposible volver a la vida académica (Volpi, Klingsor). 
+
+
+25.3.3 
+
+
+El verbo (III). El modo 
+
+
+478 
+
+
+Consecución: El Gaviero consiguió que prosiguieran el camino (Mutis, Maqroll); Lo- 
+graréis que nos dejen sin comer (Martín Recuerda, Arrecogías). 
+
+Dirección o inclinación: Esto demuestra que hay una tendencia a que crezca la parti- 
+cipación de los ciudadanos (Prensa [Nic.] 7/1/2002); Ahora bien, ocurre que la mayor 
+escasez de recursos ha conducido a que se seleccionen con mayor cuidado los proyectos 
+científicos (Sánchez Ron, Ciencia). 
+
+Afección: Alba perdió el temor de que su madre la abandonara (Allende, Casa); Entonces 
+me entró miedo de que nos viera alguien (Cabrera Infante, Tigres); Había tenido la es- 
+peranza de que al entrar, Felipe estuviera de lado (Belli, Mujer); Te da pena que alguien 
+sufra por tu muerte (Puig, Beso). Con un subgrupo numeroso de estos predicados las 
+
+### Manual §25.3.3, 25.3.3a, 25.3.3b (OCR lines 39535 to 39600)
+25.3.3 Alternancias modales en las subordinadas sustantivas 
+
+Las alternancias modales son los pares de contextos en los que un mismo predi- 
+cado admite indicativo y subjuntivo. Son especialmente interesantes porque permi- 
+ten comparar en detalle las diferencias de forma y de significación asociadas con 
+cada modo. 
+
+
+479 
+
+
+El modo en las subordinadas sustantivas 
+
+
+25.3.3b 
+
+
+25.3.3a Las alternancias modales se deben en algunos casos a la existencia de distin- 
+
+tos sentidos entre los predicados inductores. Por ejemplo, cuando sentir se usa como 
+verbo de percepción (con un significado similar al del verbo notar ) se construye con 
+indicativo, como en Solo después sentí que él también me había herido (Borges, Brodié). 
+Elige, en cambio, el subjuntivo cuando expresa una reacción afectiva; en tal caso equi- 
+vale a lamentar: Siento que esto no pueda decirse en otra forma (Neruda, Canto). 
+
+25.3.3b Se dan otras veces ciertos deslizamientos de sentido entre las clases semán- 
+ticas de predicados, así como variaciones en la estructura informativa de la oración. En 
+efecto, con el indicativo el hablante acentúa el valor informativo de la subordinada. No 
+presenta, pues, su contenido como ordenado, enjuiciado, valorado, etc., en función del 
+significado del predicado principal, al contrario de lo que ocurre con el subjuntivo. 
+Entre los deslizamientos de sentido más notables están los siguientes: 
+
+Comunicación > influencia: Con indicativo, los verbos de este grupo transmiten 
+estados de cosas que se tienen por ciertos, mientras que con subjuntivo introdu- 
+cen peticiones, órdenes, sugerencias y otras formas de solicitar o requerir de al- 
+guien alguna actuación: Le dijo que {actuaba ~ actuara} de buena fe. 
+
+Pensamiento > intención: Con el indicativo, el contenido de la oración subordinada 
+manifiesta lo que se cree o se piensa: Yo pensaba que tenía tiempo de escapar (Hernán- 
+dez, F., Nadie); con el subjuntivo, por el contrario, expresa una toma de postura o una de- 
+cisión: Inicialmente estaba pensado que participaran los dos equipos sevillanos con un 
+tercer rival (Razón [Esp.] 2/9/2002). Podría vincularse también a este proceso la alter- 
+nancia modal con los verbos confiar (en) y esperar, visible por ejemplo en Espero que 
+tendremos el gusto de verlo otra vez (Quiroga, H., Amor), frente a Espero que vuelva 
+(Martín Caite, Visillos). Cabe pensar en estos casos en una traslación semántica desde la 
+afirmación de lo que se cree o se presenta como cierto, aunque sea en el futuro, hasta 
+la expresión de un sentimiento de esperanza, que constituye una noción intencional. 
+
+Entendimiento > estimación o empatía: Cuando los predicados de estas clases se 
+construyen con indicativo, introducen contenidos aseverados, percibidos como ver- 
+daderos o presentados como nuevos en algún fragmento del discurso, como en Com- 
+prendí que estaba equivocada (‘Lo supe’, ‘Me di cuenta de ello’). Con el subjuntivo, a 
+la vez que se expresa aquiescencia o aceptación, se intenta poner de manifiesto 
+que la situación descrita en la subordinada forma parte del trasfondo informativo que el 
+hablante y el oyente comparten, o bien que el emisor desea presentarla como tal (uso 
+temático: § 25.5.1 d): Comprendo que estés molesto conmigo (‘Lo admito’, ‘Lo justifico’). 
+
+Percepción > intención o voluntad: La elección del modo (con verbos como ver, 
+mirar o imaginar) está en función de que predomine en estos predicados el sentido 
+inactivo (‘recibir información relativa a lo que sucede’) o se imponga en ellos el in- 
+tencional (‘poner voluntad, esmero o diligencia en alguna cosa’). Se percibe esta 
+diferencia en el contraste entre Siempre veía que cada cosa estaba en su lugar (‘per- 
+cibía, le parecía’) y Siempre veía que cada cosa estuviera en su lugar (‘procuraba’). 
+
+Aserción > justificación: En El maestro te ha explicado que las cosas no son como 
+tú pensabas, el verbo explicar, con sujeto de persona, se asimila a un verbo de len- 
+
+### Manual §25.3.5a, 25.3.5b (OCR lines 39656 to 39700)
+25.3.5 La negación en las subordinadas sustantivas 
+y la inducción modal a distancia 
+
+25.3.5a La negación puede actuar como un inductor del subjuntivo A distancia, 
+es decir, desde la oración que contiene el predicado principal, como en No es obvio 
+que lo acepte; Nunca pensó que fuera a visitar su país o en Nada demuestra que sea 
+
+
+481 
+
+
+El modo en las subordinadas sustantivas 
+
+
+25.3.5e 
+
+
+Klingsor (Volpi, Klingsor ). Nótese que los verbos subrayados pasarán a indicativo si se 
+suprime la negación. El subjuntivo constituye un indicio de que la negación toma 
+bajo su alcance la oración subordinada. En efecto, en No oí que me estuvieran llaman- 
+do por teléfono, con el verbo en subjuntivo, el hablante pone en entredicho la veraci- 
+dad del complemento. La negación afecta, en consecuencia, más propiamente a 
+estuvieran que a oí. En cambio, en la secuencia No oí que me estaban llamando por 
+teléfono, con el verbo en indicativo, el hablante acepta la situación descrita por la 
+oración subordinada, como si se dijera ‘Me estaban llamando, pero yo no lo oí’. Se 
+deduce de esta diferencia que el subjuntivo sea la única opción en secuencias como 
+No creo que me estén llamando o No sabemos que tengan problemas económicos. Si se 
+usara el indicativo se incurriría en una contradicción lógica, en cuanto que el ha- 
+blante aceptaría en la subordinada lo que da por falso en la principal. Confirma que la 
+negación tiene alcance sobre la oración subordinada en la variante con el subjuntivo 
+el hecho de que puedan aparecer tras él términos de polaridad negativa (§ 48.1 .3a 
+y 48.6.6), que se rechazan en las correspondientes oraciones de indicativo: No sabía 
+que {*tenía~ tuviera} que traer nada; No me han informado (de) que {*está~ esté} enfer- 
+mo nadie; No me pareció que {*estaba~ estuviera} mal ninguno de los ejercicios. 
+
+25.3.5b Además de con los verbos de percepción o de pensamiento y creencia, la 
+negación induce el subjuntivo con los de lengua. Con estos predicados se admiten de 
+manera natural las construcciones contrastivas que se suelen rechazar en otros ca- 
+sos: No dije que lo supiera, sino que lo podía averiguar; Yo no digo que la Regenta tome 
+varas, sino que Alvaro quiere ponérselas (Clarín, Regenta). Se ha llamado polémico 
+al subjuntivo que aparece en estas construcciones, puesto que da a entender que se 
+refuta un contenido afirmado previamente: San Pancracio: Yo no dije que fuera 
+malo el dibujo, dije que no me gustaba (Ibargüengoitia, Atentado). 
+
+25.3.5c Es raro que la negación dé lugar a alternancias opuestas a las menciona- 
+
+### Manual §25.4.1a (OCR lines 39759 to 39770)
+25.4.1a Los grupos nominales se dividen tradicionalmente en definidos o 
+indefinidos (§ 14.1.1) en función del determinante que los encabece. El indicativo 
+suele favorecer la interpretación específica del grupo nominal, mientras que el sub- 
+juntivo introduce la inespecífica. Como consecuencia de esa diferencia, la alter- 
+nancia modal es plenamente significativa en un diccionario que me {sirve~ sirva}. 
+La primera opción alude a cierto diccionario conocido por el que habla, mientras 
+que la segunda hace referencia a un hipotético diccionario que cumpla la condición que 
+la subordinada de relativo introduce. Solo la segunda es compatible con el cuantifi- 
+cador de indistinción cualquiera (§ 20.3.1): un diccionario que me sirva, cualquiera 
+que sea. 
+
+25.4.1 b Los conceptos de ‘definitud’ e ‘inespecificidad’ no son necesariamente 
+
+### Manual §25.4.2a (OCR lines 39861 to 39880)
+25.4.2a El verbo buscar, introducido en el párrafo anterior, pertenece a los predi- 
+cados denominados generalmente intensionales, que se caracterizan por crear los 
+contextos llamados opacos. Estos contextos poseen la capacidad de dejar en sus- 
+penso la referencia de los grupos nominales (§ 1 5.5.3b). Pertenecen al grupo de buscar 
+otros muchos predicados de naturaleza prospectiva, como demandar, desear, nece- 
+sitar, pedir, perseguir, preferir, pretender, proponerse, querer, requerir, solicitar; los 
+sustantivos y adjetivos que se relacionan morfológica y semánticamente con 
+estos verbos ( necesidad , preferible...); las locuciones que expresan significados pare- 
+cidos, como en demanda de, y también la preposición para. Todos estos elementos y 
+otros similares propician la interpretación inespecífica de los grupos nominales e 
+inducen el subjuntivo en las oraciones de relativo (sin excluir por ello el indicativo, 
+que no requiere inductor): 
+
+Necesito una persona que lleve mis libros (Blest, Martín Rivas ); Se propuso elaborar una 
+teoría que sirviera de puente entre los detalles de la neurofisiología y las concepciones 
+molares de la psicología (Pinillos, Psicología ); Prefería los melodramas que abundasen 
+en gritos desgarradores (Marechal, Buenosayres ); Después de infinitas gestiones en 
+demanda de un lector que supiera francés [...] (Sawa, Iluminaciones ); Se firmó un tratado 
+con los Estados Unidos para hacer un canal que abriera en dos la cintura de América 
+(Mastretta, Mal). 
+
+### Manual §23.8.1a to 23.8.1d (OCR lines 37931 to 37990)
+23.8.1a El condicional simple designa una situación posterior a otra pretérita, 
+por lo que ha sido caracterizado como un “futuro del pasado” (pospretérito en el 
+sistema de Andrés Bello). Es, pues, un tiempo relativo y presenta puntos de contacto 
+tanto con el futuro como con el pretérito imperfecto. Los vínculos con cantaba se 
+examinarán en el § 23.8.2. Comparte su etimología con cantaré, pues se forma 
+sobre la misma perífrasis romance («infinitivo + haber»; amar + hía > amaría), y por 
+tanto el significado de posterioridad. Se diferencian fundamentalmente cantaré y 
+cantaría en que el segundo lleva implícita la idea de que existen ciertas circunstan- 
+cias que dificultan el cumplimiento o la verificación del contenido de la oración, 
+como en En 2012 cumpliría 60 años. 
+
+23.8.1 b Al igual que cantaré, la forma cantaría es incompatible con las prótasis 
+condicionales en el español general. No obstante, en algunas variedades del español 
+conversacional de Chile, las áreas rioplatense y andina, el sur de Colombia y el norte 
+de España se registran usos de si llovería pronto por si lloviera pronto. Esta pauta no se 
+ha integrado en la lengua culta, por lo que se recomienda evitarla. No debe confundirse 
+este uso con la interpretación de cita, en la que se admite la conjunción si en las 
+prótasis condicionales: —Me gustaría decírselo, pero no me atrevo a hacerlo. —Pues si te 
+
+
+23.8.1 c El verbo (I). El aspecto léxico. Los tiempos del indicativo 
+
+
+450 
+
+
+gustaría decírselo, debes llamarla. Se recomienda igualmente evitar el uso, documenta- 
+do en algunas de las áreas lingüísticas recién mencionadas, de cantaría por cantara 
+en las construcciones finales y en las oraciones temporales. Se aconseja, por tanto, 
+evitar el condicional en secuencias como para que sería más cómodo o Se lo diría cuan- 
+do tendría ocasión, y usar en su lugar las formas correctas para que fuese más cómodo o 
+... cuando tuviera ocasión. 
+
+23.8.1c La pauta «cuando tendría» es correcta en los mismos supuestos en que 
+lo es su equivalente con futuro (§ 23.7.1c), es decir, en las construcciones de relieve 
+( Sería entonces cuando lograría sus mayores éxitos ) y en las relativas temporales 
+apositivas: Por este tiempo se esperaba su visita para dentro de quince días, cuando 
+celebraría la fiesta del patrón del pueblo (Cáceres, Humus). La construcción «aunque 
++ condicional» es incorrecta en las prótasis concesivas en correlación con otro con- 
+dicional: Aunque {*tendria~ tuviera} la plata, no te la prestaría, pero es gramatical 
+con significado adversativo: [...] aunque también sería más exacto decir que él creía 
+que se había mantenido alejada (Sábato, Héroes ). 
+
+23.8.1 d El condicional de conjetura (también llamado de probabilidad y 
+epistémico) se diferencia del futuro del mismo tipo (§ 23.7.2) en que se refiere al 
+pasado en lugar de al presente. Admite paráfrasis similares con el verbo en pretérito 
+imperfecto. Así, Serían las diez equivale a ‘Probablemente eran las diez’, y Tendría 
+entonces treinta años a ‘Podía tener entonces treinta años’. Como el futuro de conje- 
+tura, el condicional equivalente puede aparecer en las oraciones adversativas de in- 
+terpretación concesiva: Muy bondadoso sería, pero bien podía ser absolutamente 
+imaginario (Collyer, Pájaros ). También se usa en combinación con un adverbio de 
+probabilidad, como en Seguramente estaría cansado, subordinado a un verbo de su- 
+posición: Me imaginé que tendría las manos con un cigarrillo del que no se tragaría el 
+humo (Marías, J., Corazón), así como en las oraciones exclamativas de sentido con- 
+secutivo encabezadas por si y pronunciadas con entonación suspendida: Si estaría 
+cansado que se durmió haciendo el examen. 
+
+23.8.1 e El condicional de conjetura, pero no el futuro, admite paráfrasis con el 
+verbo poder en su interpretación epistémica o impersonal (§ 28.2.2Í): No recuerdo 
+cuánto me {costaría- pudo costar}; Pero ¡quién me mandaría [‘pudo mandar’] a mí 
+
+### Manual §24.3.1a to 24.3.1c (OCR lines 38846 to 38880)
+24.3.1a Se llama tradicionalmente concordancia temporal (lat. consecutio 
+tempórum) a la correspondencia que se establece entre dos formas verbales, una 
+
+
+24.3.1 b El verbo (II). El modo subjuntivo. Adjuntos temporales 
+
+
+466 
+
+
+de las cuales (en adelante, VI) aparece en una oración principal, y la otra (en ade- 
+lante, V2), en una oración subordinada. Esta relación de dependencia temporal es 
+característica, en efecto, de las oraciones subordinadas, puesto que los tiempos 
+absolutos orientan sus relaciones respecto del momento del habla, como se expli- 
+có en el capítulo precedente. En efecto, el verbo fue se orienta en relación con el 
+momento de la enunciación en Pedro fue al cine el miércoles, donde el miércoles 
+designa el miércoles anterior al día en que se habla. Ese mismo verbo se orienta, 
+en cambio, en relación con contarán en Sus amigos contarán [VI] el domingo que 
+Pedro fue (ha ido en algunos países) [V2] al cine el miércoles. Así pues, el miérco- 
+les del que ahora se habla no es el anterior al momento en que esas palabras se 
+pronuncian, sino el miércoles anterior al domingo. Este hecho pone de manifies- 
+to que los contextos de subordinación inhiben o dejan en suspenso el rasgo 
+más característico de los tiempos simples: su vínculo deíctico con el momento 
+del habla. Así pues, el predicado de la oración principal (contarán, en este ejemplo) 
+pasa a inducir o a imponer sus propias coordenadas temporales en todos estos 
+contextos. 
+
+24.3.1 b Aunque la concordancia de tiempos está estrechamente ligada con la 
+traslación del discurso directo al indirecto (§ 43.4), constituye un fenómeno de ma- 
+yor alcance que este, pues se da también en contextos en los que no existe corres- 
+pondencia entre ambos tipos de discurso, como en Rosa creyó que podía irse para 
+regresar al juicio (Nuevo Día [P. Rico] 23/10/1997), que contrasta con *Rosa creyó: 
+“Podré irme para regresar al juicio”. La traslación del discurso directo al indirecto 
+requiere que determinados adverbios orientados deícticamente se reorienten para 
+evitar correspondencias inadecuadas, como en Dijo que llegaría ayer < *Dijo: “Llegaré 
+
+### Manual §24.3.2a to 24.3.2e (OCR lines 38991 to 39100)
+24.3.2a La discordancia temporal que muestra la oración Me gusta que {ha- 
+yas ~ *hubieras} venido no se explica a partir de los factores léxicos recién examina- 
+dos. Por el contrario, pone de manifiesto que regulan también la concordancia de 
+tiempos ciertos factores propiamente sintácticos. Suele aceptarse hoy que el con- 
+cepto apropiado para dar cabida a tales restricciones sintácticas es el de esfera 
+temporal (§ 23.1.2c), es decir, el paradigma de tiempos que poseen en común una 
+misma orientación. La esfera del presente abarca el presente, el futuro y el futuro 
+perfecto. Los demás tiempos verbales pertenecen a la esfera del pasado. La forma 
+he cantado —o bien canté en algunos países: § 23.4.1b— es irregular, ya que se 
+agrupa en unos contextos con los tiempos de la esfera del presente y en otros con los 
+de la esfera del pasado. El futuro y el condicional de conjetura, tanto en la forma 
+simple como en la compuesta (§ 23.7.2, 23.8.1 d y 23.9.3), denotan el tiempo que les 
+corresponde en este uso modalizado, de manera que el futuro de conjetura equivale 
+a un presente, y el condicional a un pretérito imperfecto. Los tiempos del subjuntivo 
+pueden aparecer en función de la correspondencia descrita en la tabla del § 24.1.1a. 
+
+24.3.2b Si V2 se orienta en relación con VI, pueden obtenerse tres relaciones: an- 
+terioridad, posterioridad y simultaneidad. Se analizará primero la relación de 
+anterioridad. Si VI pertenece en estos casos a la esfera del presente, se admiten en 
+V2 las formas cantaba, he cantado, canté y había cantado, así como las corres- 
+pondientes al modo subjuntivo: Está comprobado que había cometido fraude; Aducirá 
+que no tenía tiempo; El testigo negará en el juicio que haya visto alguna vez al 
+acusado. Si VI pertenece a la esfera del pasado, V2 aparece en pretérito pluscuam- 
+perfecto de forma característica, como en Y yo sabía que ella había aceptado también 
+atenciones de más de uno (Cabrera Infante, Habana ); Estaba admirada de que su 
+nombre hubiese podido surgir así, de pronto (Carpentier, Siglo); pero también en pre- 
+térito perfecto simple: Afirmó que Panamá se perdió para Colombia por culpa del 
+clericalismo (Suárez, Sueños); Mi viperino archiduque aseguró que Elisabeth mejoró 
+(Moix, A. M., Vals). 
+
+24.3.2c La relación de posterioridad en V2 se obtiene de forma característica 
+con el futuro simple si VI pertenece a la esfera del presente, como en Creo que 
+vendrá o en Te asegurarán que te solucionarán el problema (donde el solucionar es 
+posterior al asegurar), además de con el futuro compuesto, como en Te dirá que 
+
+
+469 
+
+
+La concordancia de tiempos 
+
+
+24.3.2Í 
+
+
+mañana lo habrá terminado. Se añaden, como antes, las formas correspondientes 
+del subjuntivo cante y haya cantado: Le pedirá que lo solucione ~ haya soluciona- 
+do cuando llegue. Si VI pertenece a la esfera del pasado, la interpretación de pos- 
+terioridad se obtiene prototípicamente en V2 con el condicional, sea simple 
+( Pensaba que llegaría a tiempo ) o compuesto (Me prometió que el martes siguiente 
+habría terminado el trabajo ), pero también con cantara y hubiera cantado: 
+Confiaban en que {llegara ~ hubiera llegado} la noticia al final de la semana. Cabe 
+añadir cantaba en los supuestos en los que alterna con cantaría (§ 23.8.2b): Me 
+aseguró que {venía ~ vendría}. 
+
+24.3.2d La relación de simultaneidad en V2 es paralela a las anteriores. Si VI 
+está en un tiempo de la esfera del presente, aparecen en V2 las formas canto (Te 
+dirán que te aprecian mucho), cante (Le gusta que vivan cerca ) y el futuro de conje- 
+tura (Supongo que conocerás a Luis), que equivale a un presente. Si VI pertenece a la 
+esfera del pasado, la forma característica en V2 es cantaba, que se analiza como un 
+presente del pasado en el § 23.6.1 d, como en Me parecía que tenías razón. A este para- 
+digma corresponden también cantara (Le gustaba que la oficina fuera espaciosa) y 
+el condicional de conjetura (Dedujimos que estaría informada de todo). En Negó [pre- 
+dicado puntual] que estuviese enojada [predicado durativo] la relación de simulta- 
+neidad lo es de inclusión, mientras que en Le gustaba [predicado durativo] que la 
+habitación tuviera [predicado durativo] mucha luz las dos situaciones son coinciden- 
+tes. Se examina también esta cuestión en el § 24.2.2c. 
+
+24.3.2e Se denomina doble acceso (también doble anclaje o doble orien- 
+tación temporal) a la doble dependencia temporal que muestra V2 en ciertos 
+contextos de subordinación, es decir, al hecho de que V2 puede estar orientado 
+desde el momento del habla, a la vez que en función del tiempo expresado por VI. 
+En efecto, en la oración El jefe comunicó el martes pasado que Pedro está trabajando 
+estos días en un nuevo proyecto se informa de una situación que se halla en curso en 
+el momento del habla, pero también de un estado de cosas que ya se daba cuando 
+fue comunicado por el jefe. Así pues, la situación descrita se orienta respecto de 
+dos puntos. La interpretación de doble acceso se bloquea cuando la situación 
+designada por V2 no puede extenderse hasta el tiempo designado por VI, ya sea 
+por factores extralingüísticos, como en Nos explicó hace unos {meses ~*años} que 
+Clara está embarazada, como propiamente gramaticales. En efecto, en Usted había 
+aludido hace {unas semanas ~*v arios lustros} a que la crisis económica de este año 
+es leve, se produce un choque entre los adjuntos temporales de este año y unos 
+lustros. 
+
+24.3. 2f La extensión del tiempo marcado por V2 al de VI da lugar a una serie de 
+inferencias. Así, se implica —pero no se expresa literalmente— que cierta crisis 
+dura ya muchos meses en Confirmó hace ya muchos meses que la actual crisis econó- 
+mica es difícil. La extensión temporal de V2 a VI explica que esta pauta sea caracterís- 
+tica de las verdades tenidas por universales: Copérnico probó que la Tierra gira 
+alrededor del Sol (§ 23.3.1c). La situación puede prolongarse más allá del momen- 
+to del habla, como en Me pidió que {fuera ~ vaya} a la fiesta, donde el empleo de 
+vaya implica que la fiesta de la que se habla no ha tenido lugar o no ha terminado. 
+La extensión temporal de V2 a VI es infrecuente con creer, pensar, suponer y otros 
+
+
+24.3.2g El verbo (II). El modo subjuntivo. Adjuntos temporales 
+
+
+470 
+
+
+verbos de actitud preposicional: Creí que {estabas ~*estás} enfermo. No lo es con 
+saber: {Supe ~ *Creí} que estás enfermo, lo que confirma que el análisis de estas asime- 
+trías ha de depender de las propiedades semánticas de los predicados que se 
+oponen. 
+
+24.3.2g Se considera asimismo una variante de los esquemas de doble acceso la 
+pauta en la que cantaba expresa anterioridad con respecto a VI, como en La prensa 
+confirmó que la empresa se oponía a la venta, donde la acción de oponerse es anterior 
+a la confirmación, pero se da también en el momento temporal designado por VI 
+
+### Manual §42.2.1a to 42.2.1g (OCR lines 57078 to 57210)
+42.2.1a La expresión Tranquilízate constituye un enunciado imperativo, por 
+tanto un acto verbal con el que se solicita algo. Los enunciados imperativos se cons- 
+truyen de forma característica con un verbo en modo imperativo. Desde el punto 
+de vista morfológico, este se caracteriza por presentar un paradigma defectivo cons- 
+tituido fundamentalmente por formas de segunda persona. Así, por ejemplo, el im- 
+perativo del verbo venir consta de las siguientes formas: 
+
+Singular: ven~vení (en las zonas voseantes), venga (usted). 
+
+Plural: venid (usada en parte de España), vengan (ustedes), vengamos. 
+
+Como se comprueba en esta relación, las formas ven, vení y venid son exclusivas 
+del modo imperativo, mientras que las otras tres son compartidas por el imperativo 
+y el subjuntivo. Para los detalles sobre la flexión del imperativo, véase el capítulo 4 y 
+las tablas de la conjugación en él incluidas. 
+
+42.2.1 b No existe pleno acuerdo sobre la cuestión de si las formas compartidas 
+a las que se acaba de aludir pertenecen únicamente al modo subjuntivo o corres- 
+ponden también al paradigma del imperativo. En cuanto a las formas de primera 
+persona del plural, solo podrían ser consideradas de imperativo aquellas que in- 
+cluyen al oyente en su referencia, como sucede en los siguientes textos: 
+
+Vámonos, Villier, aunque tengamos que separarnos tú y yo, salgamos de aquí y dejémos- 
+la que repose (Nieva, Zorra); Si me invitaste a entrar, veámoslo todo (Donoso, Elefantes); 
+¡Tranquilícense todos y vayámonos a dormir [...]! (Sastre, Viaje). 
+
+A favor de integrar las formas compartidas en el imperativo está el hecho de que los 
+pronombres átonos se posponen a los imperativos (Díganle la verdad), pero se an- 
+teponen a las formas del subjuntivo (para que le digan la verdad). Es igualmente po- 
+lémico si deben considerarse en el paradigma del modo imperativo los verbos que se 
+subrayan en Pase Vuestra Majestad; No se preocupe la señora marquesa; Véase el 
+párrafo siguiente; ¡Que lo cuelguen!; No lo permita Dios. Se volverá sobre esta cues- 
+tión en el § 42.2.4. 
+
+42.2.1 c Las formas exclusivas del imperativo, es decir, las que no comparte con el 
+subjuntivo, no admiten la negación: *No ven; *No sal. Los plurales del tipo No venid; 
+No salid se atestiguan ocasionalmente en España, como en Atended al tiempo y no 
+quered perder el rocín y las manzanas (Estébanez Calderón, Escenas), pero se consi- 
+deran hoy incorrectos. Las formas de imperativo se sustituyen en todos estos casos 
+por las de subjuntivo: No vengas; No salgáis. Las correspondientes a usted/ ustedes 
+
+
+42.2.1 d 
+
+
+La modalidad 
+
+
+798 
+
+
+pueden ir negadas porque coinciden con las del subjuntivo: ¡No me molesten, déjenme 
+tranquila! (O’Donnell, Vincent). 
+
+42.2.1 d En la lengua coloquial son relativamente comunes los infinitivos usados 
+como imperativos, pero se recomienda evitar este uso en la expresión cuidada. Se tra- 
+ta de enunciados como ¡Venir a echarme una mano!, en lugar de ¡Venid a echarme una 
+mano!; ¡Darle lo que os pida!, en lugar de ¡Dadle lo que os pida!; Sentaros (o Sentarse), 
+en lugar de Sentaos (o Siéntense). También se recomienda evitar en la expresión cuida- 
+da el uso de infinitivos negados con el valor de los imperativos negativos: No hablar de 
+eso ahora; No venir más por aquí. La alternancia entre las formas de imperativo y las 
+de infinitivo se produce en todo el mundo hispánico tanto en carteles y rótulos (No 
+fumar; Salir antes de entrar; No tocar, peligro de muerte) como en las instrucciones de 
+los textos escolares (Ordenar alfabéticamente las siguientes palabras). Fuera de estos 
+usos se recomienda evitar el infinitivo en los registros formales. 
+
+42.2.1 e Como se hace notar en los § 16.4.2a y 42.2.1 b, las formas verbales afirmativas 
+del modo imperativo presentan los pronombres pospuestos: Pónmelo; Sacadlas. La nor- 
+ma se aplica igualmente a las formas de primera de plural (Digámosle la verdad) y a las 
+correspondientes a usted/ ustedes. Se recomienda usar, por tanto, expresiones como 
+Póngame un kilo de manzanas; Repítamelo; Siéntense, en lugar de Me ponga un kilo de 
+manzanas; Me lo repita; Se sienten, puesto que estas últimas variantes están despresti- 
+giadas. Las formas del subjuntivo que se usan en las versiones negativas (§ 42.2.1c) se 
+construyen con pronombres proclíticos en lugar de con enclíticos: No se lo digas. Aunque 
+el imperativo admite la posposición simultánea de varios pronombres, esta resulta 
+menos natural si uno de ellos es un dativo ético (§ 35.4.2). Se dice, pues, No te caigas y 
+Cáete, pero, frente a No te me caigas, se evita la variante con enclítico Cáeteme. 
+
+42.2.1f La posposición de los pronombres en el imperativo puede dar lugar a al- 
+teraciones morfofonológicas, además de gráficas. Se ejemplifican los principales 
+cambios con los verbos callarse y decir: 
+
+Callad + os: desaparece -d (callaos). No se recomiendan en los registros formales las va- 
+riantes con -r propias de la lengua coloquial: Silencio. Callaros (Arrabal, Cementerio). 
+
+Callemos + nos: desaparece la primera -s (callémonos). Se documentan ocasio- 
+nalmente las variantes que no eliden dicha consonante (callémosnos, pongámosnos), 
+pero se consideran incorrectas. 
+
+Digamos + se: desaparece -s en la escritura (digámoselo), no siempre en la pronuncia- 
+ción. No se debe, pues, escribir digámosselo. 
+
+42.2.1g Se cuestiona si debe reconocerse o no un tiempo presente (o más senci- 
+llamente, un tiempo verbal) en el paradigma del imperativo (dime, ven). La signifi- 
+cación de estas formas es siempre prospectiva, es decir, apunta al futuro. No 
+obstante, en el español coloquial europeo se usan infinitivos compuestos con valor 
+realizativo, como en los textos que siguen: 
+
+—Vimos la vía y el pesebre y pensamos... —Pues no haber pensado, les replicaron (Men- 
+doza, Ciudad); Cakmiña: Pues de lo malo lo menos, que el sábado pasado te pusiste en 
+
+
+799 
+
+
+Los enunciados imperativos 
+
+
+42.2.2c 
+
+
+lucimiento con los cuatro ramajos que trajiste. Susa: Haberlos traído tú en vez de tanto 
+soltar quejas, Carmiñina (Lázaro, Humo); [...] No haber venido, hombre (García Horte- 
+lano, Mary Tribuné). 
+
+Estos infinitivos compuestos constituyen, en efecto, actos verbales, pero los enun- 
+ciados en los que aparecen no son propiamente imperativos. Se usan como recrimi- 
+naciones dirigidas al oyente una vez que se ha puesto de manifiesto que se obtiene 
+algún perjuicio por no haber adoptado la conducta adecuada. Como consecuencia 
+de esta interpretación, no se usan al comienzo del discurso. Son, por otra parte, 
+construcciones contrafácticas, ya que presuponen que tuvo lugar en el pasado el 
+estado de cosas contrario al que expresan: ¡No haberte ido! implica, en efecto, ‘Te 
+fuiste’, y ¡Haberos preocupado! implica ‘No os preocupasteis’. En el español americano 
+es más común el pluscuamperfecto de subjuntivo que el infinitivo compuesto 
+con este valor: ¡Hubieras venido!; ¡Lo hubieras traído!; ¡No lo hubieran hecho! Esa opción 
+es también la que muestran muchos textos del español europeo y la que se usaba en 
+la lengua clásica (§ 24.1. 2g). 
+
+
+42.2.2 Propiedades sintácticas y semánticas de los enunciados 
+con verbo en imperativo 
+
+42.2.2a El sujeto del imperativo no designa la persona que emite la orden, conse- 
+
+### Manual §42.2.2a to 42.2.2d (OCR lines 57210 to 57270)
+42.2.2a El sujeto del imperativo no designa la persona que emite la orden, conse- 
+jo, petición, etc., sino la que los recibe: Ten paciencia (tú); Salgan de ahí (ustedes). 
+Como ocurre con otras formas verbales (§ 33.3.1), la presencia del sujeto no expreso 
+se manifiesta en el hecho de que sirve como antecedente de los reflexivos (Piensa 
+[tú] más en ti mismo), como referente del sujeto tácito de los infinitivos (Pase [usted] 
+sin llamar [usted]) o como la función sintáctica a la que se orienta un predicativo 
+( Hágase [usted] donante de sangre). 
+
+42.2.2b Cuando el sujeto del imperativo está expreso tiende a situarse tras él: 
+Pase usted. De hecho, cuando aparece delante suele interpretarse como vocativo si 
+está separado por una pausa (Tú, quédate aquí). En ausencia de pausa, tiende a in- 
+terpretarse como TÓPICO (Tú quédate aquí). Las expresiones vocativas pueden po- 
+seer rasgos de tercera persona, y no han de concordar necesariamente con el verbo. 
+No ejercen, pues, la función de sujeto las que se subrayan en Vamos, señor guardián 
+de los infiernos, deje hablar a estos hombres (Sastre, Viaje) o en Dame, Alberto, tu 
+opinión (con verbo en segunda persona del singular). 
+
+42.2.2c Aunque los sujetos de los imperativos son pronombres personales en la 
+mayor parte de los casos, pueden interpretarse como sujetos nominales las expre- 
+siones de tratamiento y otras que se asimilan a ellas, como en Siéntense Sus Señorías; 
+Pase la señora marquesa, así como los sujetos de las oraciones pasivas reflejas: Véase 
+el capítulo tercero. No obstante, aunque estos enunciados constituyen sin duda actos 
+verbales, es controvertida la cuestión de si contienen o no auténticos imperativos, 
+como se explica en el § 42.2.4. En cuanto a los pronombres tú, vos, vosotros y voso- 
+tras, reciben comúnmente una interpretación contrastiva o discriminativa 
+cuando se usan como sujetos del imperativo. La expresión Siéntate tú, se usaría, por 
+tanto, para señalar a un oyente entre varios. Los pronombres usted y ustedes no están 
+
+
+42.2.2d 
+
+
+La modalidad 
+
+
+800 
+
+
+sujetos a esa interpretación contrastiva en el español europeo, pero la muestran en 
+mayor medida en el americano. 
+
+42.2.2d Al igual que otras manifestaciones de las modalidades de la enunciación, 
+el imperativo no admite la subordinación. Compárese Dice que viene o Dice quién 
+viene con *Dice que ven. Tampoco tolera con facilidad el imperativo la anteposición 
+de adverbios y grupos preposicionales. En efecto, resultan naturales las secuencias 
+Aquí me senté o Con esto me arreglo, pero no lo son *Aquí siéntate o *Con esto arré- 
+glate. En cambio, estas expresiones pueden aparecer antepuestas si se interpretan 
+como tópicos preoracionales marcados por una pausa separadora: Aquí, siéntate; 
+Con esto, arréglate. 
+
+42.2.2e Con las oraciones de verbo en imperativo se solicitan típicamente com- 
+portamientos sujetos a la voluntad de los individuos, es decir, acciones u omisiones 
+sobre las que el referente del sujeto del imperativo pueda ejercer cierto control. Esa 
+es la razón por la que muchos de los predicados que designan estados o propiedades 
+tienden a rechazar los imperativos. Así sucede con caber, ser alto, ser calvo, tener 
+frío, yacer, etc. Algunos predicados de este grupo admiten los imperativos en las 
+oraciones en las que se solicitan o se requieren comportamientos y otras formas de 
+actuar sujetas a control, como en Sé valiente; Sean sinceros o en Sé bueno, déjame 
+dormir en tu cuarto (Marsé, Muchacha); Pónganse bien arrogantes,/ tengan coraje y 
+firmeza (Jardiel, Angelina). No es raro, por otra parte, que los predicados estativos 
+adquieran, construidos en imperativo, un sentido incoativo o inceptivo. Es el caso 
+
+### Manual §47.4.1a to 47.4.2a (OCR lines 63460 to 63590)
+47.4 Tiempo y modo en las oraciones condicionales 
+
+47.4.1 Esquemas de tiempos y modos de los períodos condicionales 
+
+47.4.1 a La información temporal y modal que aportan condicionales y concesivas 
+
+es de cierta complejidad, no solo por la variedad de los esquemas que se admiten, 
+sino también por la intersección de los valores semánticos que se expresan en esas 
+correlaciones. A diferencia de otros tipos de subordinadas, los rasgos modales y tempo- 
+rales de estas prótasis no están regidos por ningún elemento de la oración principal, 
+
+
+911 
+
+
+Tiempo y modo en las oraciones condicionales 
+
+
+47.4.1 d 
+
+
+sino que son interdependientes: los de la subordinada ponen de manifiesto la actitud 
+del hablante en relación con la posibilidad, probabilidad o irrealidad de la situación 
+supuesta; los de la principal indican la modalidad de la oración y están a menudo en 
+correlación con los anteriores. En esta sección se representarán abreviadamente los 
+esquemas que corresponden a los períodos condicionales usando, a manera de co- 
+modines, los tiempos y modos de los verbos tener y dar. 
+
+47.4.1 b Se llama real al período que se forma con prótasis en indicativo, en tiem- 
+po presente o pasado, y se ajusta a las pautas Si tiene, da o Si tuvo, dio. Se denomina 
+potencial al período que se ajusta al esquema Si {tuviera ~ tuviese}, daría, que 
+contiene imperfecto de subjuntivo en la prótasis y condicional simple en la apódosis. 
+Finalmente, el período irreal es el que corresponde a la pauta Si {hubiera~ hubie- 
+se} tenido, {hubiera-hubiese-habría} dado. No obstante, como se verá en el 
+§ 47.4.2, otros esquemas pueden expresar también la irrealidad. 
+
+47.4.1 c En el período real se expresan hechos que se tienen por verdaderos o 
+por esperables, como en Si se lo explican, lo entiende. También corresponden a él los 
+períodos condicionales que introducen compromisos y promesas, como en Si me 
+llaman, voy. Al rechazar el español las combinaciones *si tendrá y *si tenga, el 
+presente de si tiene es ambiguo, ya que puede designar usos actuales, habituales 
+y prospectivos (§ 23.3), sobre todo si el verbo es de estado. Así, la prótasis si vives 
+aquí puede hacer referencia a un estado de cosas presente o a uno futuro. En el 
+período potencial (Si {tuviera- tuviese}, daría), las formas tuviera- tuviese 
+de las prótasis presentan la misma ambigüedad que se acaba de describir para el 
+presente. Así pues, no es posible saber fuera de contexto si la expresión si viviera 
+aquí designa una situación actual o una situación futura. Cuando aluden a hechos 
+presentes las prótasis de este período implican normalmente que no se da el estado 
+de cosas que describen, como en Si yo fuera más joven..., que implica ‘No soy más 
+joven’. Esta interpretación irreal o contrafáctica no es automática en el esquema 
+Si {tuviera -tuviese}, daría, pero es casi inevitable en Si {tuviera- tuviese}, 
+{habría-hubiera-hubiese} dado. 
+
+47.4.1 d En las prótasis condicionales se admiten los tiempos simples canta, can- 
+taba y cantara -cantase, y también los compuestos respectivos: ha cantado, 
+había cantado y {hubiera -hubiese} cantado, pero el español actual rechaza en 
+ellas las formas cantará, cantare, cantaría y los compuestos correspondientes 
+habrá cantado, hubiere cantado y habría cantado. En las encabezadas por si 
+tampoco son posibles cante, haya cantado, formas que pueden aparecer con otros 
+nexos condicionales. Aunque en el español contemporáneo se rechaza el futuro en 
+la prótasis de la condicional, se usa la perífrasis «ir a + infinitivo» (§ 28.3.1 a, b), espe- 
+cialmente cuando se retoma un enunciado previo para confirmarlo, cuestionarlo o 
+sacar conclusiones relativas a posibles acciones futuras: Si vamos a hacer algo, mejor 
+será que lo hagamos ya. Apenas se emplea en el español de hoy el futuro del subjun- 
+tivo si tuviere (§ 24.1.3), que en la lengua antigua se usaba en las prótasis como re- 
+fuerzo del carácter hipotético de la condición expresada: Si lo que digo fizieredes, 
+saldredes de cativo (Cid). Esta forma ha caído hoy en desuso en prácticamente todas 
+las regiones, excepto en algunas poblaciones rurales de las islas Canarias y del área 
+caribeña. Sin embargo, es característico del lenguaje jurídico y administrativo, como 
+
+
+47.4.1 e 
+
+
+Construcciones condicionales y concesivas 
+
+
+912 
+
+
+en Si el funcionario incurriere en delito de cohecho..., y también se emplea en fórmulas 
+rituales como Si así no lo hiciereis, Dios y la patria os lo demanden. 
+
+47.4.1 e No han pasado a la lengua culta del español general las prótasis introdu- 
+cidas por Si tendría, pese a que esta forma está libre de la ambigüedad que carac- 
+teriza a cantara ~ cantase, puesto que recibe siempre interpretación prospectiva. 
+Se registra en la lengua popular de algunos países americanos y, con un uso algo 
+más extendido, en algunas regiones del norte de España. No se consideran correc- 
+tas secuencias como Si tendría que volver a elegir, elegiría lo mismo, que se reco- 
+mienda evitar. Esta pauta es válida, sin embargo, aunque poco frecuente, cuando se 
+usa para reproducir palabras recién pronunciadas por el interlocutor, como en —Yo 
+eso tendría muy claro cómo hacerlo. —Pues si lo tendrías tan claro, todavía estás a 
+tiempo (interpretación de cita: § 23.8.1b). No son, en cambio, excepciones las 
+oraciones exclamativas de entonación suspendida (§ 47.1. 4d), puesto que es dudoso 
+que se trate propiamente de condicionales: Si estaría cansado que se durmió toman- 
+do el examen. La combinación si cantaría no es tampoco anómala en el llamado 
+uso expletivo de si, como en Apenas si llegarían a la media docena, donde puede 
+eliminarse la conjunción sin que ello afecte al sentido. 
+
+47.4.1 f En las correlaciones SiX,Y no se tienen en cuenta las estructuras en las que 
+
+el tiempo o el modo de la apódosis están determinados por algún elemento indepen- 
+diente de la prótasis, como los adverbios que se subrayan en Si me lo explican, {tal 
+vez ~ acaso ~ ojalá} lo aprenda. Si el período condicional no está subordinado a otro 
+verbo (como lo está, por ejemplo, en Decidí que iría si tenía ocasión), los tiempos del 
+indicativo se orientan directamente en relación con el presente de la enunciación: son 
+tiempos deícticos o absolutos (§ 23.1 .2c). La inclusión del período condicional en el 
+discurso indirecto va acompañada de la predecible transposición temporal (§ 24.3). 
+
+
+47.4.2 La interpretación contrafáctica 
+
+47.4.2a El llamado período irreal, asociado con la inferencia contrafáctica, de- 
+signa situaciones que contradicen algún estado de cosas, como en Si no lo hubiera 
+dicho... (que implica ‘Lo dijo’) o en Si lo hubiera dicho... (que implica ‘No lo dijo’). 
+Suele corresponderse con el esquema Si (hubiera ~ hubiese} tenido, (ha- 
+bría ~ hubiera ~ hubiese} dado, pero también los esquemas del período potencial 
+pueden tener interpretación irreal. La forma (hubiera ~ hubiese} cantado siem- 
+pre se refiere al pasado, sin la ambigüedad temporal de cantara ~ cantase. 
+
+47.4.2b En la lengua conversacional pueden también recibir interpretación con- 
+trafáctica otros esquemas: Si (hubiera ~ hubiese} tenido, daba: Si se lo hubiera 
+contado a alguien, seguro que se reía de mí; Si tengo, (hubiera~ hubiese} dado: 
+¿Qué hubiera pasado si Martín no llega a tiempo? (Casona, Dama); Si tenía, daba: Si 
+lo pedía, me lo daban (en el sentido no iterativo, equivalente slSí lo hubiera pedido me lo 
+habrían dado), y también Si tiene, da, como en Si lo sé, no vengo (que implica 
+‘No lo sabía y vine’). Es particularmente frecuente en este esquema la perífrasis «llegar 
+a + infinitivo» (§ 28.3.3b): Si llega a enterarse tu mamá, nos castigan a los dos. La in- 
+terpretación irreal se suele determinar contextualmente. Así, el período condicional 
+
+

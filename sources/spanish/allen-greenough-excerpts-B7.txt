@@ -1,0 +1,271 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B7 (Section V: mood, clauses, order)
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, fetched 26 Oct 2026. Machine-read text: the macrons of the printed book are lost, and section numbers are the grammar's own.
+
+
+
+##### mood
+
+### A&G §157 (OCR lines 9610 to 9660)
+157.  The  Moods  are  used  as  follows :  — 
+
+a.  The  Indicative  Mood  is  used  for  most  direct  assertions  and  interroga- 
+tions: as, — valesne?     valeo,  are  you  well?     I  am  well. 
+
+b,  The  Subjunctive  Mood  has  many  idiomatic  uses,  as  in  commands,  condi- 
+tions, and  various  dependent  clauses.  It  is  often  translated  by  the  English 
+Indicative;  frequently  by  means  of  the  auxiliaries  may,  might,  would,  should;2 
+sometimes  by  the  (rare)  Subjunctive  ;  sometimes  by  the  Infinitive ;  and 
+often  by  the  Imperative,  especially  in  prohibitions.  A  few  characteristic 
+examples  of  its  use  are  the  following :  — 
+
+eamus,  let  us  go ;  ne  abeat,  let  him  not  depart. 
+
+adsum  ut  videam,  I  am  here  to  see  (that  I  may  see). 
+
+tu  ne  quaesieris,  do  not  thou  inquire. 
+
+beatus  sis,  may  you  be  blessed. 
+
+quid  morer,  ivhy  should  I  delay  ? 
+
+nescio  quid  scribam,  I  know  not  what  to  write. 
+
+si  moneam,  audiat,  if  I  should  warn,  he  would  hear. 
+
+1  That  is,  verbs  which  have  laid  aside  (deponere)  the  passive  meaning. 
+
+2  The  Latin  uses  the  subjunctive  in  many  cases  where  we  use  the  indicative;  and 
+we  use  a  colorless  auxiliary  in  many  cases  where  the  Latin  employs  a  separate  verb 
+with  more  definite  meaning.  Thus,  I  may  write  is  often  not  scribam  (subjunctive),  but 
+licet  mihi  scribere  ;  I  can  write  is  possum  scribere  ;  I  would  write  is  scribam,  scriberem, 
+or  scribere  velim  (vcllem) ;  Ishoiddiorite,  (if,  etc.),  scriberem  (si)  .  .  .,  or  (implying  duty) 
+oportet  me  scribere. 
+
+
+74  CONJUGATION   OE  THE  VERB  [§§  157,  158 
+
+c.  The  Imperative  is  used  for  exhortation,  entreaty,  or  command ;  but  the 
+Subjunctive  is  often  used  instead  (§§  439,  450) :  — 
+
+liber  esto,  he  shall  be  free. 
+
+ne  ossa  legitd,  do  not  gather  the  bones. 
+
+d.  The  Infinitive  is  used  chiefly  as  an  indeclinable  noun,  as  the  subject 
+or  complement  of  another  verb  (§§  452, 456.  n.).  In  special  constructions  it 
+takes  the  place  of  the  Indicative,  and  may  be  translated  by  that  mood  in 
+English  (see  Indirect  Discourse,  §  580  ff.). 
+
+Note.  — For  the  Syntax  of  the  Moods,  see  §  436  ff. 
+
+### A&G §438 (OCR lines 25894 to 25925)
+438.  The  Subjunctive  in  general  expresses  the  verbal  idea  with 
+some  modification1  such  as  is  expressed  in  English  by  auxiliaries, 
+by  the  infinitive,  or  by  the  rare  subjunctive  (§  157.  b). 
+
+a.  The  Subjunctive  is  used  independently  to  express  — 
+
+1.  An  Exhortation  or  Command  (Hortatory  Subjunctive:  §  439). 
+
+2.  A  Concession  (Concessive  Subjunctive:  §440). 
+
+3.  A  Wish  (Optative  Subjunctive :   §  441). 
+
+4.  A  Question  of  Doubt  etc.  (Deliberative  Subjunctive :  §  444). 
+
+5.  A  Possibility  or  Contingency  (Potential  Subjunctive  :  §  446). 
+For  the  special  idiomatic  uses  of  the  Subjunctive  in  Apodosis,  see  §  514. 
+
+b.  The  Subjunctive  is  used  in  dependent  clauses  to  express  — 
+
+1.  Condition:  future  or  contrary  to  fact  (§§  516.  b,  c,  517)0 
+
+2.  Purpose  (Final,  §  531). 
+
+3.  Characteristic  (§  535). 
+
+4.  Result  (Consecutive,  §  537). 
+
+5.  Time  (Temporal,  §  546). 
+
+6.  Indirect  Question  (§  574). 
+
+c.  The  Subjunctive  is  also  used  with  Conditional  Particles  of  Com. 
+
+### A&G §449 (OCR lines 26260 to 26290)
+449.  The  Future  Imperative  is  used  in  commands,  etc.,  where 
+there  is  a  distinct  reference  to  future  time  :  — 
+
+1.  In  connection  with  some  adverb  or  other  expression  that  indi- 
+cates at  what  time  in  the  future  the  action  of  the  imperative  shall  take 
+place.  So  especially  with  a  future,  a  future  perfect  indicative,  or 
+(in  poetry  and  early  Latin)  with  a  present  imperative :  — 
+
+eras  petito,  dabitur  (PL  Merc.  769),  ask  to-morrovj  [and]  it  shall  be  given. 
+cum  valetudini  consulueris,  turn  consulit5  navigation!  (Fam.  xvi.  4.  3),  when 
+
+you  have  attended  to  your  health,  then  look  to  your  sailing. 
+Phyllida  mitte  mini,  meus  est  natalis,  Iolla ;  cum  f aciam  vitula  pr5  f rfigibus, 
+
+ipse  venitd  (Eel.  iii.  76),  send  Phyllis  to  me,  it  is  my  birthday,  Iollas; 
+
+when  I  [shall]  sacrifice  a  heifer  for  the  harvest,  come  yourself. 
+die  quibus  in  terris,  etc.,  et  Phyllida  solus  habetd  (id.  iii.  107),  tell  in  what 
+
+lands,  etc. ,  and  have  Phyllis  for  yourself. 
+
+2.  In  general  directions  serving  for  all  time,  as  Precepts,  Statutes, 
+and  Wills :  — 
+
+is  iuris  civllis  eustos  esto  (Legg.  iii.  8),  let  him  (the  praetor)  be  the  guardian 
+
+of  civil  right. 
+Borea  rlante,  ne  arato,  semen  ne  iacito  (Plin.  H.  N.  xviii.  334),  when  the  north 
+
+wind  blows,  plough  not  nor  sow  your  seed. 
+
+
+### A&G §450 (OCR lines 26328 to 26350)
+450.  Prohibition  is  regularly  expressed  in  classic  prose  (1)  by 
+noli  with  the  Infinitive,  (2)  by  cave  with  the  Present  Subjunctive, 
+or  (3)  by  ne  with  the  Perfect  Subjunctive  :  — 1 
+
+(1)  noli  putare  (Lig.  33),  do  not  suppose  (be  unwilling  to  suppose), 
+noli  impudens  esse  (Fam.  xii.  30.  1),  don't  be  shameless. 
+
+nolite  cogere  socios  (Verr.  ii.  1.  82),  do  not  compel  the  allies. 
+
+(2)  cave  putes  (Att.  vii.  20),  don't  suppose  (take  care  lest  you  suppose), 
+cave  Ignoscas  (Lig.  14),  do  not  pardon. 
+
+cave  festines  (Fam.  xvi.  12.  6),  do  not  be  in  haste. 
+
+(3)  ne  necesse  habueris  (Att.  xvi.  2.  5),  do  not  regard  it  as  necessary. 
+ne  sis  admiratus  (Fam.  vii.  18.  3),  do  not  be  surprised. 
+
+hoc  facito;  hoc  ne  feceris  (Div.  ii.  127),  thoushalt  do  this,  thou  shalt  not  do  that. 
+
+ne  Apellae  quidem  dixeris  (Fam.  vii.  25.  2),  do  not  tell  Apella  even. 
+
+ne  vos  quidem  mortem  timueritis  (Tusc.  i.  98),  nor  must  you  fear  death. 
+
+
+### A&G §514 (OCR lines 28783 to 28860)
+514.  The  principal  or  typical  forms  of  Conditional  Sentences 
+may  be  exhibited  as  follows :  — 
+
+PARTICULAR   CONDITIONS 
+
+A.  Simple  Conditions  (nothing  implied  as  to  fulfilment) 
+
+i.  Present  Time 
+
+Present  Indicative  in  both  clauses:  — 
+si  adest,  bene  est,  if  he  is  [now]  here,  it  is  well. 
+
+2.  Past  Time 
+
+Imperfect  or  Perfect  Indicative  in  both  clauses:  — 
+si  aderat,  bene  erat,  if  he  was  [then]  here,  it  vms  well. 
+si  adfuit,  bene  fuit,  if  he  has  been  [was]  here,  it  has  been  [was]  well. 
+
+B.   Future  Conditions  (as  yet  unfulfilled) 
+i.  More  Vivid 
+
+a.  Future  Indicative  in  both  clauses :  — 
+
+si  aderit,  bene  erit,  if  he  is  (shall  be)  here,  it  will  be  well. 
+
+b.  Future  Perfect  Indicative  in  protasis,  Future  Indicative  in 
+apodosis :  — 
+
+si  adfuerit,  bene  erit,  if  he  is  (shall  have  been)  here,  it  will  [then]  be  well. 
+
+
+S£4  SYNTAX  :    CONDITIONAL   SENTENCES  [§  614 
+
+2.  Less  Vivid 
+
+a.  Present  Subjunctive  in  both  clauses:  — 
+
+si  adsit,  bene  sit,  if  he  should  be  (or  were  to  be)  here,  it  would  be  well. 
+
+b.  Perfect  Subjunctive  in  protasis,  Present  Subjunctive  in  apod- 
+
+osis: — 
+
+si  adfuerit,  bene  sit,  if  he  should  be  (should  have  been)  here,  it  would  [then] 
+be  well. 
+
+0.   Conditions  Contrary  to  Fact 
+
+i.  Present  Time 
+
+Imperfect  Subjunctive  in  both  clauses:  — 
+si  adesset,  bene  esset,  if  he  were  [now]  here,  it  would  be  well  (but  he  is  not  here). 
+
+2.  Past  Time 
+
+Pluperfect  Subjunctive  in  both  clauses:  — 
+si  adfuisset,  bene  fuisset,  if  he  had  [then]  been  here,  it  would  have  been  loell 
+(but  he  was  not  here). 
+
+Note.  —  The  use  of  tenses  in  Protasis  is  very  loose  in  English.  Thus  if  he  is 
+alive  now  is  a  present  condition,  to  be  expressed  in  Latin  by  the  Present  Indicative ; 
+if  he  is  alive  next  year  is  a  future  condition,  expressed  in  Latin  by  the  Future 
+Indicative.  Again,  if  he  were  here  now  is  a  present  condition  contrary  to  fact, 
+and  would  be  expressed  by  the  Imperfect  Subjunctive ;  if  he  were  to  see  me  thus 
+is  a  future  condition  less  vivid,  to  be  expressed  by  the  Present  Subjunctive ;  and  so 
+too,  if  you  advised  him,  he  would  attend  may  be  future  less  vivid.1 
+
+D.    GENERAL  CONDITIONS 
+
+General  Conditions  do  not  usually  differ  in  form  from  Particular 
+Conditions  {A,  B,  and  C),  but  are  sometimes  distinguished  in  the 
+cases  following :  — 
+
+I.  Present  General  Condition  (Indefinite  Time) 
+
+a.  Present  Subjunctive  second  person  singular  (Indefinite  Subject) 
+in  protasis,  Present  Indicative  in  apodosis: — 
+
+
+### A&G §580 (OCR lines 32066 to 32085)
+
+scio  me  paene  incredibilem  rem  polliceri  (B.  C.  iii.  86),  I  know  that  I  am 
+promising  an  almost  incredible  thing.     [Direct :  polliceor.] 
+
+non  arbitror  te  ita  sentire  (Fam.  x.  26.  2),  I  do  not  suppose  that  you  feel 
+thus.     [Direct:  sentis.] 
+
+spero  me  liberatum  [esse]  de  nietti  (Tusc.  ii.  67),  I  trust  I  have  been  freed 
+from  fear.     [Direct :  liberatus  sum.  ] 
+
+1  Such  are :  (1)  knowing,  scio,  cognosco,  compertum  habeo,  etc. ;  (2)  thinking,  puto, 
+existimo,  arbitror,  etc. ;  (3)  telling,  dico,  nuntio,  refero,  polliceor,  promitto,  certiorem  facio, 
+etc. ;  (4)  perceiving,  sentio,  comperiS,  video,  audi5,  etc.  So  in  general  any  word  that 
+denotes  thought  or  mental  and  visual  perception  or  their  expression  may  govern  the 
+Indirect  Discourse. 
+
+
+§580]  INDIBECT  DISCOURSE  375 
+
+[dicit]  esse  non  nullos  quorum  auctoritas  plurimum  valeat  (B.  G.  i.  17),  he 
+
+### A&G §184 (imperative of amo) (OCR lines 11670 to 11684)
+
+Singular  Plural 
+
+amavero,  /  shall  have  loved  amaverimus,  we  shall  have  loved 
+
+amaveris,  you  will  have  loved  amaveritis,  you  will  have  loved 
+
+amaverit,  he  will  have  loved  amaverint,  they  will  have  loved 
+
+IMPERATIVE 
+Present  ama,  love  thou  amate,  love  ye 
+
+Future     amato,  thou  shalt  love         amatote,  ye  shall  love 
+amato,  he  shall  love  amantS,  they  shall  love 
+

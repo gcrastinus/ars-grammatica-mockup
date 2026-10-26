@@ -51,6 +51,21 @@ ARS.languages["lang.v.es"] = {
    "title": "Voice in Spanish",
    "desc": "24 questions.",
    "exFor": "lang.v.es/voice"
+  },
+  {
+   "id": "lang.v.es/mood",
+   "kind": "study",
+   "built": true,
+   "title": "Mood in Spanish",
+   "desc": "The indicative and the subjunctive, the conditional, the imperative, the sequence of tenses, and the clauses with si."
+  },
+  {
+   "id": "lang.v.es/mood-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Mood in Spanish",
+   "desc": "32 questions.",
+   "exFor": "lang.v.es/mood"
   }
  ]
 };
