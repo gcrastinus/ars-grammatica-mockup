@@ -1,0 +1,193 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B4 for the Latin comparisons on the cards of lang.iii-indecl.es
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, fetched 26 Oct 2026. Machine-read text; double spaces come from the scan. Section numbers are the grammar's own.
+
+### §143 (ego and tu), lines 8264 to 8345
+143.  Ego  and  tu  are  declined  as  follows :  — 
+First 
+Person 
+Singular 
+Plural 
+Nom. 
+ego,  / 
+nos,  ice 
+Gen. 
+mei,  of  me 
+nostrum,  nostri, 
+of  us 
+Dat. 
+mihi  (mi),  to  me 
+nobis,  to  us 
+Ace. 
+me,  me 
+nos,  us 
+Abl. 
+me,  by  me 
+nobis,  by  us 
+Second 
+Person 
+Nom. 
+tu,  thou  or  you 
+vos,  ye  or  you 
+Gen. 
+tui,  of  thee  or  you 
+vestrum,  vestri ; 
+vostrum  (-tri) 
+Dat. 
+tibi 
+vobis 
+Ace. 
+te 
+vos 
+Abl. 
+te 
+vobis 
+a.  The  plural  nos  is  often  used  for  the  singular  ego ;  the  plural  v5s  is 
+never  so  used  for  the  singular  tu. 
+
+### §213 and §214 (particles; adverbs from adjectives), lines 15920 to 15945
+213.  Adverbs,  Prepositions,  Conjunctions,  and  Interjections 
+are  called  Particles. 
+In  their  origin  Adverbs,  Prepositions,  and  Conjunctions  are 
+either  (1)  case-forms,  actual  or  extinct,  or  (2)  compounds  and 
+phrases. 
+Particles  cannot  always  be  distinctly  classified,  for  many  adverbs  are 
+used  also  as  prepositions  and  many  as  conjunctions  (§§  219  and  222). 
+ADVERBS 
+Derivation  of  Adverbs 
+214.  Adverbs  are  regularly  formed  from  Adjectives  as  follows : 
+a*  From  adjectives  of  the  first  and  second  declensions  by  changing  the 
+characteristic  vowel  of  the  stem  to  -e  :  as,  care,  dearly,  from  carus,  dear  (stem 
+caro-) ;  amice,  like  a  friend,  from  amicus,  friendly  (stem  amico-). 
+Note.  —  The  ending  -e  is  a  relic  of  an  old  ablative  in  -ed  (cf.  §  43.  n.  1). 
+b.  From  adjectives  of  the  third  declension  by  adding  -ter  to  the  stem. 
+Stems  in  nt-  (nom.  -ns)  lose  the  t-.     All  others  are  treated  as  i-stems  :  — 
+fortiter,  bravely,  from  fortis  (stem  forti-),  brave. 
+
+### §219 and §220 (the prepositions), lines 16275 to 16345
+219.  Prepositions  were  not  originally  distinguished  from  Adverbs  in  form  or  mean- 
+ing, but  have  become  specialized  in  use.  They  developed  comparatively  late  in  the 
+history  of  language.  In  the  early  stages  of  language  development  the  cases  alone 
+were  sufficient  to  indicate  the  sense,  but,  as  the  force  of  the  case-endings  weakened, 
+adverbs  were  used  for  greater  precision  (ef .  §  338) .  These  adverbs,  from  their  habitual 
+association  with  particular  cases,  became  Prepositions ;  but  many  retained  also  their 
+independent  function  as  adverbs. 
+Most  prepositions  are  true  case-forms :  as,  the  comparative  ablatives  extra,  infra,  supra 
+(for  textera,  finfera,  fsupera),  and  the  accusatives  circum,  coram,  cum  (cf .  §  215 ) .  Circiter 
+is  an  adverbial  formation  from  circum  (cf.  §  214.  b.  n.)  ;  praeter  is  the  comparative  of 
+prae,  propter  of  prope.1  Of  the  remainder,  versus  is  a  petrified  nominative  (participle 
+of  verto) ;  adversus  is  a  compound  of  versus ;  trans  is  probably  an  old  present  participle 
+(cf.  in-tra-re) ;  while  the  origin  of  the  brief  forms  ab,  ad,  de,  ex,  ob,  is  obscure  and 
+doubtful. 
+220.  Prepositions  are  regularly  used  either  with  the  Accusa- 
+tive or  with  the  Ablative. 
+a.  The  following  prepositions  are  used  with  the  Accusative  :  — 
+ad,  to.  circiter,  about.  intra,  inside. 
+adversus,  against.  cis,  citra,  this  side.  iuxta,  near. 
+adversum,  towards.  contra,  against.  ob,  on  account  of. 
+ante,  before.  erga,  towards.  penes,  in  the  power  of. 
+apud,  at,  near.  extra,  outside.  per,  through. 
+circa,  around.  infra,  below.  pone,  behind. 
+circum,  around.  inter,  among.  post,  after. 
+1  The  case-form  of  these  prepositions  in  -ter  is  doubtful. 
+§§  220,  221]  PREPOSITIONS  131 
+praeter,  beyond.  secundum,  next  to.         ultra,  on  the  further  side. 
+prope,  near.  supra,  above.  versus^  towards. 
+propter,  on  account  of.        trans,  across. 
+b*  The  following  prepositions  are  used  with  the  Ablative  :  —  1 
+a,  ab,  abs,  away  from,  by.  e,  ex,  out  of. 
+absque,  without,  but  for.  prae,  in  comparison  with. 
+coram,  in  presence  of.  pro,  in  front  of,  for. 
+cum,  with.  sine,  without. 
+de,  from.  tenus,  up  to,  as  far  as. 
+c.  The  following  may  be  used  with  either  the  Accusative  or  the  Abla- 
+tive, but  with  a  difference  in  meaning  :  — 
+in,  into,  in.  sub,  under. 
+subter,  beneath.  super,  above. 
+In  and  sub,  when  followed  by  the  accusative,  indicate  motion  to,  when  by 
+the  ablative,  rest  in,  a  place : 
+venit  in  aedis,  he  came  into  the  house ;  erat  in  aedibus,  he  was  in  the  house. 
+disciplina  in  Britannia  reperta  atque  inde  in  Galliam  translata  esse  existi- 
+matur,  the  system  is  thought  to  have  been  discovered  in  Great  Britain  and 
+thence  brought  over  to  Gaul. 
+
+### §223 and §224 (the conjunctions), lines 16708 to 16760
+222.  Conjunctions,  like  prepositions  (cf.  §  219),  are  closely  related  to  adverbs,  and 
+are  either  petrified  cases  of  nouns,  pronouns,  and  adjectives,  or  obscured  phrases:  as, 
+quod,  an  old  accusative ;  duln,  probably  an  old  accusative  (cf .  turn,  cum) ;  vero,  an  old 
+neuter  ablative  of  verus;  nihildrainus,  none  the  less;  proinde,  lit.  forward  from  there. 
+Most  conjunctions  are  connected  with  pronominal  adverbs,  which  cannot  always  be  re- 
+ferred to  their  original  case-forms. 
+223.  Conjunctions  connect  words,  phrases,  or  sentences.  They 
+are  of  two  classes,  Coordinate  and  Subordinate :  — 
+a.  Coordinate,  connecting  coordinate  or  similar  constructions  (see  §  278. 
+2.  a).     These  are:  — 
+1.  Copulative  or  disjunctive,  implying  a  connection  or  separation  of  thought 
+as  well  as  of  words :  as,  et,  and;  aut,  or;  neque,  nor. 
+2.  Adversative,  implying  a  connection  of  words,  but  a  contrast  in  thought : 
+W5,  sed,  but. 
+3.  Causal,  introducing  a  cause  or  reason  :  as,  nam,  for. 
+4.  Illative,  denoting  an  inference  :  as,  igitur,  therefore. 
+b.  Subordinate,  connecting  a  subordinate  or  independent  clause  with 
+that  on  which  it  depends  (see  §  278.  2.  b).     These  are  :  — 
+1.  Conditional,  denoting  a  condition  or  hypothesis :  as,  si,  if;  nisi,  unless. 
+2.  Comparative,  implying  comparison  as  well  as  condition :  as,  ac  si,  as  if. 
+3.  Concessive,  denoting  a  concession  or  admission :  as,  quamquam,  although 
+(lit.  however  much  it  may  be  true  that,  etc.). 
+4.  Temporal :  as,  postquam,  after. 
+5.  Consecutive,  expressing  result :  as,  ut,  so  that. 
+6.  Final,  expressing  purpose  :  as,  ut,  in  order  that;  ne,  that  not. 
+7.  Causal,  expressing  cause :  as,  quia,  because. 
+224.  Conjunctions  are  more  numerous  and  more  accurately 
+distinguished  in  Latin  than  in  English.  The  following  list 
+includes  the  common  conjunctions  1  and  conjunctive  phrases  :  — 
+Coordinate 
+i 
+a.  Copulative  and  Disjunctive 
+et,  -que,  atque  (ac),  and. 
+et  .  .  .  et ;  et  .  .  .  -que  (atque);  -que  .  .  .  et ;  -que  .  .  .  -que  (poetical),  both  .  .  .  and. 
+
+### §225 and §226 (the interjections), lines 16862 to 16872
+225.  Some  Interjections  are  mere  natural  exclamations  of  feeling;  others  are 
+derived  from  inflected  parts  of  speech,  e.g.  the  imperatives  em,  lo  (probably  for  erne, 
+take);  age,  come,  etc.  Names  of  deities  occur  in  hercle,  pol  (from  Pollux),  etc.  Many- 
+Latin  interjections  are  borrowed  from  the  Greek,  as  euge,  euhoe,  etc. 
+226.  The  following  list  comprises  most  of  the  Interjections  in 
+common  use :  — 
+6,  en,  ecce,  ehem,  papae,  van  (of  astonishment). 
+io,  evae,  evoe,  euhoe  (of  joy). 
+
+### §170 and §284 (sum as the copula)
+170.  The  verb  sum,  be,  is  both  irregular  and  defective,  having 
+no  gerund  or  supine,  and  no  participle  but  the  future. 
+284.  A  Predicate  Noun  or  Adjective  after  the  copula  sum  or  & 
+copulative  verb  is  in  the  same  case  as  the  Subject :  — 
+pacis  semper  auctor  ful  (Lig.  28),  I  have  always  been  an  adviser  of  peace. 
+quae  pertinacia  quibusdam,  eadem  aliis  constantia  viderl  potest  (Marc.  31), 
+what  may  seem  obstinacy  to  some,  may  seem  to  others  consistency. 
+eius  mortis  sedetis  ult5res  (Mil.  79),  you  sit  as  avengers  of  his  death. 
+habeatur  vir  egregius  Paulus  (Cat.  iv.  21),  let  Paulus  be  regarded  as  an 
+
+### §346 (the partitive genitive)
+Partitive  Genitive 
+346.  Words  denoting  a  Part  are  followed  by  the  Genitive  of 
+the  Whole  to  which  the  part  belongs. 
+a.  Partitive  words,  followed  by  the  genitive,  are  — 
+1.  Nouns  or  Pronouns  (cf.  also  3  below)  :  — 
+pars  militum,  part  of  the  soldiers,     quis  nostrum,  which  of  us? 
+nihil  erat  reliqui,  there  was  nothing  left. 
+nemo  eorum  (B.  G.  vii.  66),  not  a  man  of  them. 
+magnam  partem  eorum  interfecerunt  (id.  ii.  23),  they  killed  a  large  part  of  them. 
+
+### §409 (the ablative of means) and §412 (the ablative of manner)
+409.  The  Ablative  is  used  to  denote  the  means  or  instrument 
+of  an  action :  — 
+certantes  pugnis,  calcibus,  unguibus,  morsu  denique  (Tusc.  v.  77),  fighting 
+with  fists,  heels,  nails,  and  even  teeth. 
+412.  The  Manner  of  an  action  is  denoted  by  the  Ablative ;  usu- 
+ally with  cum,  unless  a  limiting  adjective  is  used  with  the  noun : 
+cum  celeritate  venit,  he  came  with  speed.     But,  — 
+summa  celeritate  venit,  he  came  with  the  greatest  speed. 
+quid  refert  qua  me  ratione  cogatis  (Lael.  26),  what  difference  does  it  make  in 
+what  way  you  compel  me  ? 
+a.  But  cum  is  often  used  even  when  the  ablative  has  a  limiting 

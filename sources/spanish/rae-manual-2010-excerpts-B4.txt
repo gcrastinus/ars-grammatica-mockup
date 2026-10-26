@@ -1,0 +1,699 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B4 (Section III, indeclinable: prepositions, invariable, compared)
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy, item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, fetched 26 Oct 2026. The same cautions as in the files of B2 and B3: the text is machine-read, line breaks and stray spaces in section numbers are not the book's, and the printed book could not be compared. The Academy's website (rae.es) refuses automated access.
+Only short paragraphs are kept. The paragraph number is the Manual's own.
+
+### Manual §29.1.1a (OCR line 43906)
+29.1.1a Las preposiciones son palabras invariables y casi siempre átonas que se 
+caracterizan por introducir un complemento, que en la tradición gramatical hispá- 
+nica se denomina término (§ 1.6.2c). Así, en el ejemplo con una pequeña ayuda, el 
+término de la preposición con es una pequeña ayuda, y en contra los enemigos, el tér- 
+mino es los enemigos. 
+
+### Manual §29.1.1b (OCR line 43912)
+29.1.1b El término de la preposición es muy frecuentemente un grupo nomi- 
+nal, como en los ejemplos anteriores, pero también pueden serlo los grupos adje- 
+tivales (desde muy pequeño, pasar por excesivamente tonto), los adverbiales (hasta 
+aquí mismo, desde detrás de la puerta) e incluso los preposicionales en las condi- 
+ciones que se examinarán más adelante (§ 29.5.3): Salió de entre unos matorrales; 
+Andaba por entre las mesas. Pueden serlo asimismo las subordinadas sustantivas 
+en sus diversos tipos (§ 43.2.4): la noticia de que se había producido una explosión, 
+la razón de cambiar de trabajo, la incertidumbre de si estará vivo o no, preocupado 
+por cómo fueran a ir las cosas, y también las oraciones de relativo sin antecedente 
+expreso, que se asimilan a los grupos nominales (§ 44.4.1a): Háblame de lo que te 
+preocupa. 
+
+### Manual §29.1.1c (OCR line 43924)
+29.1 .1 C La preposición impone restricciones formales a su término. Así, este ocu- 
+pa la posición contigua a la preposición, de modo que no puede adelantarse sin que 
+esta lo acompañe. Se dice, por tanto, ¿De qué estás hablando? y no *¿ Qué estás hablan- 
+do de? Por su parte, los pronombres personales adoptan el caso llamado oblicuo o 
+preposicional cuando funcionan como términos de preposición: para mí (no *para 
+yo), sin ti, de sí. 
+29.1.2a 
+
+### Manual §29.2.2c (OCR line 44031)
+29.2.2c La preposición según significa aproximadamente ‘conforme a’ o ‘de 
+acuerdo con’ (según la ley), pero también ‘en función de’ o ‘dependiendo de’ (según 
+quién venga). En relación con las demás preposiciones, posee varios rasgos pecu- 
+liares. En efecto, es la única preposición tónica del español, rechaza el caso obli- 
+cuo (según tú, no *según tí) y no admite la alternancia entre grupos nominales y 
+subordinadas sustantivas que suelen admitir otras preposiciones. Junto a alter- 
+nancias como sin la ayuda ~ sin que llegue la ayuda, no se obtienen otras del tipo de 
+según la ley ~*según que dice la ley. Cuando según introduce oraciones de verbo 
+finito, no puede considerarse preposición: según dice la ley (cf. *sin lo sabe Iván; 
+*para ahorremos, etc.). Algunos gramáticos consideran conjuntivo este uso de 
+según, pero otros entienden, como se hará aquí, que corresponde más bien al para- 
+digma de los adverbios relativos (§ 22.5), al igual que como en como dice la ley. La 
+partícula según se comporta como otras preposiciones en otros aspectos; por 
+ejemplo en su capacidad para introducir interrogativas indirectas (según quién sea 
+enviado) y formar grupos relativos: Tengo firmado un convenio con mis primos 
+según el cual me comprometo a entregarles cuatro quintas partes de la herencia 
+(Ibargüengoitia, Crímenes). 
+29.2.2d 
+La preposición y el grupo preposicional 
+560 
+
+### Manual §29.4.3a (OCR line 44371)
+29.4.3a La preposición a introduce complementos de destino (Voy a Murcia), 
+de término o límite (No llega ajinal de mes; Sal al balcón) y de localización, en al- 
+ternancia con en (Lo detuvieron a la puerta de su domicilio; Estamos a la mesa). Estos 
+complementos de ubicación suelen añadir el rasgo de ‘dirección’ u ‘orientación’, 
+muy visible en La casa da al Norte o en para abrirse al mundo. La ubicación puede ser 
+temporal: Llegó a las tres; Se iba a dormir a la caída del sol; Estamos a mayo; Estába- 
+mos a jueves (las dos últimas, solo en algunos países). La preposición a forma asimismo 
+grupos que expresan finalidad (Vengo a que me ayudes: § 46.5.2), distribución, a 
+menudo en concurrencia con por (cuatro viajes al año, tres veces a la semana, libros 
+a tres euros) o manera, sobre todo en determinadas locuciones adjetivas o adverbia- 
+les (cocinar a fuego lento, callos a la madrileña, a gritos, a tientas, a ciegas). Es, junto 
+con de, la preposición que posee usos más claramente gramaticales, como el encabe- 
+zar complementos indirectos o ciertos complementos directos (§ 34.3). 
+
+### Manual §29.4.3d (OCR line 44419)
+29.4.3d La preposición con introduce complementos de compañía, como en 
+A veces paseaba con él, sentido que se distingue del de colaboración o acción conjun- 
+ta: Escribió un libro con él. En su sentido instrumental, con puede designar un uten- 
+silio (con un martillo), pero también el medio, material o inmaterial, empleado en 
+la consecución de algo (con agua, con habilidad, con paciencia), las cualidades que 
+alguien o algo posee (habitación con vistas) o la manera en que se lleva a cabo un 
+proceso (Lo escuchaban con sorpresa ; Come con gula). Combinada con el infinitivo, 
+forma parte de construcciones que indican concesión (Con ser tan inteligente, no 
+parece que entienda lo que sucede: § 47.7.2c), pero también condición (Se cree que con 
+estudiar una hora al día todo está resuelto). El sentido condicional está presente 
+asimismo en construcciones con verbo en forma personal: Solo con que, tiempo atrás, 
+hubiera prestado atención al comentario casual de Inés y aclarado aquel desfase de 
+años de servicio, el caso habría avanzado un trecho enorme (Giménez Bartlett, Ser- 
+pientes), e incluso con grupos nominales (Con una mujer en el cargo, la institución 
+funcionará mejor). Este sentido se convierte en causal si el contexto no es prospec- 
+tivo: Con un obispo enfermo, y enfermo como este, iba pudriéndose la diócesis (Miró, 
+Obispo). 
+
+### Manual §29.4.3f (OCR line 44452)
+29.4.3f La preposición de introduce complementos de origen espacial. Este 
+uso acerca esta preposición a desde, como la estación {de ~ desde} la que sale el tren. 
+Está más restringida para introducir complementos que expresan el origen temporal 
+de algo: Estaremos con ustedes {desde el jueves- a partir del jueves ~*del jueves}, 
+567 
+Significado de preposiciones y locuciones preposicionales 29.4.3g 
+exceptuados los contextos de correlación de preposiciones (§ 29.5.2), como en del 
+jueves al sábado, del jueves en adelante. Esta preposición presenta otros muchos sen- 
+tidos, ya que es, junto con a, la que posee más usos como elemento gramatical, por 
+oposición a los propiamente léxicos. Es la preposición española que corresponde a 
+los complementos de genitivo latinos, y la que introduce el mayor número de com- 
+plementos de nombres, adjetivos o adverbios (§ 36.4.3), sean arguméntales o no, 
+además de los que poseen carácter apositivo (la ciudad de Sevilla, el tonto de Juan, 
+una maravilla de edificio: § 12.7.5). Algunos de los complementos introducidos por 
+esta preposición pueden interpretarse como agentes (la decisión del ministro, la sali- 
+da del tren) o como pacientes (el cuidado de los ancianos, la lectura del libro); otros 
+designan el poseedor de algo (la casa de mis abuelos), el todo del que se señala una 
+parte (la rama del árbol, los pies de la cama), lo que se caracteriza por cierta propie- 
+dad (el precio de la vivienda, la edad de la luna, el color del mar), la propiedad misma 
+atribuida (hombre de valor), el contenido que caracteriza a algo (libro de Física), la 
+materia de la que está hecho (mesa de mármol), el destino que se le da o el propósito 
+que alberga (tablero de ajedrez, traje de cóctel), su causa o su razón de ser (fiebre del 
+heno). Véase también, en relación con estas cuestiones, los § 1 2.7.2 y 1 2.7.3. Más raro 
+es que de introduzca complementos circunstanciales, con la excepción de los que 
+
+### Manual §29.4.3g (OCR line 44489)
+29.4.3g La preposición desde introduce el punto de origen, de arranque o de 
+partida de un proceso o una situación. Comparte este valor con a partir de y con 
+de (§ 29.4.3Í), aunque no siempre son intercambiables: la tradición filosófica desde 
+Aristóteles; los descubrimientos realizados a partir de diversos estudios experimenta- 
+les; Partieron del muelle sur. También marca la referencia a partir de la cual se esta- 
+blece una medida (la distancia a la capital desde aquí) o el lugar desde el que se 
+percibe algo (Se ve el mar desde su casa). Además de cierto espacio, el término de 
+esta preposición puede designar una unidad temporal (desde hoy, desde el verano), 
+un suceso (desde la guerra) o la causa de algo, interpretada como su origen: Creo que 
+[esta frase] solo puede ser pronunciada desde la ignorancia o desde la pereza (Alsius, 
+Dudas). Ya solo se documentan excepcionalmente con desde en el español general 
+grupos nominales cuantificados como el subrayado en [...] donde quedó la 
+madre-augur / que desde cuatro siglos llama, / en toda noche de los Andes (Mistral, Deso- 
+lación). Los grupos encabezados por desde no se suelen combinar con predicados 
+puntuales. No obstante, en ciertas variedades del español americano son comunes 
+expresiones enfáticas como Trajo la plata desde el lunes, que significa aproxima- 
+damente ‘Trajo la plata el lunes, y ha transcurrido ya tiempo desde entonces’. Cuando 
+se construye con oraciones subordinadas, el término de la preposición desde designa 
+un punto temporal (desde que te vi > desde entonces). Como esta noción es expresada 
+por las subordinadas sustantivas, se ha supuesto que tales oraciones constituyen 
+relativas sin antecedente expreso. A favor de este análisis está la alternancia desde que 
+te vi~desde cuando te vi, analizada en el § 22.5.3d. En algunas zonas se atestigua el 
+uso de desde que por ‘en cuanto’, con indicativo y con subjuntivo, como en el siguiente 
+29.4.3h 
+La preposición y el grupo preposicional 
+
+### Manual §29.4.3h (OCR line 44526)
+29.4.3h La preposición en es la más característica para expresar ubicación, sea 
+esta espacial (en la mesa, en el cajón, en la pared, en la puerta) o temporal (en verano, 
+en el primer trimestre, en 1976). Como otras preposiciones, puede alternar el valor de 
+ubicación con el de término de un movimiento o resultado de un proceso: en- 
+trar en la ciudad, penetrar en los tejidos, convertirse en polvo, acabar en desastre. 
+Cuando la preposición en introduce sustantivos temporales, adquiere varios signifi- 
+cados: puede localizar el momento o el período en que se localiza el suceso o el estado 
+del que se habla (los éxitos alcanzados en el primer trimestre del año); el lapso en el inte- 
+rior del cual se da la situación descrita, en alternancia con a lo largo de, como en 
+Llegó a tener diez hijos en ocho años (Campoamor, Poemas ); el tiempo que tarda 
+en alcanzarse o en terminarse la situación que expresa el predicado principal, como en 
+Este se intranquiliza y llama a los amigos de su hijo y en veinticuatro horas me empie- 
+zan a “intranquilizar” a mí (Leguina, Nombre). Se recomienda usar dentro de o al 
+cabo de cuando lo que se expresa no es el tiempo que se emplea en una acción, sino 
+el transcurrido hasta que esta se inicia, como en Te llamaré dentro de (mejor que en) 
+una hora. La preposición en forma, además, grupos de naturaleza predicativa que 
+expresan el estado en que se encuentra algo o alguien: en alemán (El libro está en 
+alemán), en monedas de diez centavos (Quiero el cambio en monedas de diez centavos), 
+en pantalones, en perfectas condiciones, en putrefacción. Se consideran incorrectos 
+los usos de en por de ante ciertos complementos del nombre, que se extienden en 
+algunos países por influencia del inglés: la figura en la página 10 por la figura de la 
+página 10; Me encanta la casa en la esquina por Me encanta la casa de la esquina, etc. 
+29.4.3Í La preposición entre expresa la localización por medio de límites 
+en una dimensión espacial (entre Bogotá y Cartagena), temporal (entre abril y julio) 
+o de otro tipo (un tono entre irónico y socarrón), siempre con las restricciones de 
+pluralidad que se señalaron en el § 29.4.2c. En la lengua popular de algunos países 
+americanos se registran usos de entre por dentro de con sentido temporal (como en 
+Entre un mes volveré a visitarte) que se recomienda evitar. Esta equivalencia puede 
+tener también sentido espacial, como en entre el cajón ‘dentro del cajón’ (§ 29.4.2c). 
+
+### Manual §29.4.3k (OCR line 44579)
+29.4.3k La preposición hasta expresa el límite de una acción, un proceso o una 
+situación: Llegó hasta el muelle y dio la vuelta; Estuve allí hasta las doce; Trabajaban 
+hasta el agotamiento. Los grupos encabezados por hasta son compatibles con predi- 
+cados puntuales cuando se habla de límites espaciales ( Llegó hasta la puerta ), pero 
+no —en el español mayoritario— si tienen sentido temporal ( *Llegó hasta la una). Se 
+exceptúan las secuencias que expresan una multiplicación de sucesos, como en 
+Estuvo llegando gente hasta la una. En México y parte de Centroamérica no se percibe 
+contradicción entre estos complementos preposicionales y los predicados que deno- 
+tan acciones puntuales porque se suple una negación ( Llegó hasta la una, ‘No llegó 
+hasta la una’: § 48.2.3). También es característico de estos países el uso de hasta ade- 
+lante o hasta atrás en el sentido de ‘lo más adelante posible’ y ‘lo más atrás posible’, 
+respectivamente, como en Fui a sentarme hasta atrás (Mastretta, Vida). Hasta pre- 
+senta puntos en común con los adverbios, pero sin perder la idea de límite que carac- 
+teriza su significado, en secuencias como Podía permitirse el lujo de repartir hasta 
+diez mil ducados anuales de limosna (Domínguez Ortiz, Clases ), donde encabeza un 
+complemento directo. Este uso es similar al de la locución alrededor de en Tiene 
+alrededor de cincuenta años (Fernán Gómez, Bicicletas ). El interés sintáctico de estas 
+locuciones radica en que parecen no alterar la estructura nominal de los comple- 
+mentos del verbo, sin dejar de constituir por ello unidades preposicionales. Como 
+desde, hasta puede construirse con complemento oracional (desde que vino hasta 
+que se fué). Sin embargo, mientras que desde no se suele combinar con infinitivos, 
+excepto en las correlaciones con hasta, esta última preposición los admite fácilmente, 
+sobre todo en construcciones de interpretación causal o consecutiva. En efecto, 
+en Fueron encerrándose en sí mismos hasta vivir como una sola persona que repetía 
+mecánicamente la rutina de todos los días (Soriano, León) se sugiere que ciertas per- 
+sonas alcanzan cierta situación límite como consecuencia de un proceso que avanza 
+en esa dirección. 
+
+### Manual §29.4.3m (OCR line 44623)
+29.4.3m La preposición por encabeza complementos de lugar que expresan el 
+trayecto o el curso de un movimiento (Paseaban por el centro de la callé), así como 
+la ubicación aproximada de algo (Viven por el barrio norte; No veo nada por aquí). 
+En los complementos temporales, por denota también ubicación aproximada, mientras 
+29.4.3n 
+La preposición y el grupo preposicional 
+570 
+que para expresa tiempo preciso en el futuro: Si no llueve {para - por} la primavera, 
+habrá sequía en verano. Se ha criticado en ocasiones como posible anglicismo el uso, 
+más frecuente en el español americano, de por en lugar de durante ante grupos cuan- 
+titativos de sentido temporal, como en Estaré aquí por tres meses. No obstante, este 
+valor se documenta ampliamente en la lengua antigua: Mandó por siete días tod’ el 
+mundo andar (Berceo, Loores ); Nosotras somos buenas por dos meses (Delicado, Lo- 
+zana). Es característico de por encabezar los complementos causales formados 
+con grupos nominales y adjetivales, así como con oraciones subordinadas: Está 
+cerrado por vacaciones; Lo regañaron por perezoso y por hablar con sus compañeras. 
+Aunque este sentido causal se considera hoy propio de por, por oposición al sentido 
+final de para, ambas preposiciones proceden de una forma iberorrománica común, 
+lo que explica que por siga manteniendo su originario valor causal y final y que sean 
+intercambiables en diversos contextos, como en Me río {por~para} no llorar. Véase 
+también el § 46.1.1 b. 
+
+### Manual §29.4.3n (OCR line 44653)
+29.4.3n La preposición por introduce el complemento agente, tanto de los par- 
+ticipios (El manifiesto fue firmado por numerosas personalidades: § 41.2.3) como de 
+ciertos sustantivos (el rechazo de la propuesta por todos los grupos: § 12.8.2c). Los 
+grupos que esta preposición toma como término adquieren otros valores. Indican 
+aquello a favor de lo cual se actúa ( trabajar por la paz); los medios o los recursos 
+empleados en alguna acción (Habían tomado la sede por la fuerza); la vía por la que 
+se recibe o se envía algo (por teléfono, por correo aéreo); la cantidad por la que se 
+vende o se compra alguna cosa (Lo había adquirido por muy poco dinero); la persona 
+o cosa que sustituye a otra o por la que esta se cambia (Iré yo por él; Lo cambió por un 
+plato de comida), y también lo que se busca o se persigue, sobre todo con ciertos 
+verbos de movimiento (ir por leña, venir por el dinero). Las construcciones del tipo 
+«sustantivo + por + sustantivo», formadas con sustantivos contables en singular 
+(casa por casa, pieza por pieza), se usan para expresar que la acción significada por el 
+predicado se aplica individualmente y de manera consecutiva a todos los miembros 
+de un conjunto, como en Se hizo una requisa más drástica que la anterior, casa por 
+casa, y esta vez se llevaron hasta las herramientas de labranza (García Márquez, Cien 
+años). En estas construcciones alterna a menudo con la preposición a: uno {a~por} 
+uno; libro {a~por} libro. En el § 38.5.3a se estudian los predicativos introducidos por 
+la preposición por (tomarlo por tonto); en el § 28.3.2a, la construcción «estar por + in- 
+finitivo»; en el § 47.7.2d, las combinaciones del tipo por fuerte que sea. 
+29.4.3ñ La preposición sin expresa privación o carencia. Además de un grupo 
+nominal (Lo hizo sin ninguna ayuda), puede tener por término una subordinada sus- 
+tantiva, como se explicó en el § 29.4.2a: Actúan sin que su padre lo sepa y sin pensar en 
+las consecuencias. Muchos grupos preposicionales formados con la preposición sin y 
+un grupo nominal sin determinante alternan con adjetivos y participios: Lo prefiero 
+{sin cafeína ~ descafeinado}; estudiantes {sin trabajo -desocupados}. La noción de 
+carencia, inherente a su significado, le permite también alternar con la preposición con 
+y expresar valores opuestos a ella, en especial los de compañía y colaboración (tra- 
+bajar {con- sin} ayudantes), instrumento (comer {con -sin} cuchara ), posesión o 
+
+### Manual §34.3.1a (OCR line 49552)
+34.3.1 a Aparece sistemáticamente la preposición a ante los pronombres persona- 
+les tónicos en construcciones de doblado o de duplicación pronominal, como se 
+recordó en el § 34.2.2a. También la llevan los pronombres indefinidos que denotan 
+personas, como en No obligaremos {a nadie ~*nadie}. No obstante, uno, alguien y al- 
+guno aparecen también sin ella cuando son complementos de ciertos verbos, sobre 
+todo de percepción y de sentido prospectivo (ver, buscar, querer, necesitar, etc.): 
+659 
+El complemento directo preposicional 
+
+### Manual §34.3.1b (OCR line 49579)
+34.3.1b La preposición a es obligada con los nombres propios de personas y de 
+animales: Cuando, de vuelta del cortijo, fui a ver a Platero, me lo encontré mustio 
+y doloroso (Jiménez, Platero). Cuando los nombres propios de persona se usan 
+metonímicamente, suelen mantener la preposición, como en los casos en que se 
+habla del autor para hacer referencia a su obra: traducir a Platón, interpretar a 
+Haydn, leer a Cervantes. La pierden, en cambio, si se usan como comunes para desig- 
+nar la obra de algún artista particular, como en Vendieron ese Picasso (en lugar de a 
+ese Picasso) por cien mil dólares. Los nombres comunes referidos a animales se asimi- 
+lan a los de persona en muchos contextos, especialmente si se trata de animales do- 
+mésticos: Y así como quien regresa al hogar y no encuentra a su gato y lo busca con 
+angustia por las calles del barrio [...] (Jodorowsky, Pájaro). Hoy son poco frecuentes 
+los topónimos introducidos por preposición, como En nuestra excursión visitare- 
+mos a Sevilla, opción que recomendaba la Gramática académica de 1931, frente a la 
+preferencia actual por ... visitaremos Sevilla. 
+
+### Manual §26.5.4a (OCR line 41199)
+26.5.4a La partícula al en la pauta «al + infinitivo» (al leer el libro) procede de la 
+primitiva unión de preposición y artículo. No obstante, hoy parece comportarse 
+como conjunción en este contexto, ya que no introduce grupos nominales ni 
+pronombres. Las construcciones formadas con «al + infinitivo» pueden tener, según el 
+contexto, sentido causal o temporal. Se prefiere la interpretación causal con verbos 
+de estado (Al ser el hermano mayor, se encargó de todo), con predicados negados (Al 
+no recibir noticias suyas, lo tuvo por muerto), o cuando el infinitivo aparece en su 
+forma compuesta (Al haberlo entendido así, ya no dijo nada). En cambio, los adver- 
+bios focales, como exactamente o justo, favorecen el sentido temporal: exactamente 
+al sonar el reloj, justo al cruzar la calle. Tal interpretación es la única posible en las 
+variantes «a(l) poco de + infinitivo» y «nada más + infinitivo», la segunda, caracterís- 
+tica del español europeo: Salió para el hospital { a(l ) poco de~nada más} recibir la 
+noticia. Lo mismo sucede con a {las dos horas ~ los tres días ~ el rato ~ el año} de llegar 
+a la ciudad y construcciones afines. El infinitivo admite sujeto expreso en todos estos 
+casos: Al ser Julio el hermano mayor, ...; Justo al cruzar Marta la calle, ...; Al salir el 
+sol, ..., de acuerdo con lo señalado en el § 26.4.2a. 
+
+### Manual §30.1.1a (OCR line 44929)
+30.1.1a El adverbio es una clase de palabras invariable que se caracteriza por 
+dos factores: uno morfológico, la ausencia de flexión, y otro sintáctico, la capaci- 
+dad de establecer una relación de modificación con grupos sintácticos corres- 
+pondientes a distintas categorías. En efecto, los adverbios modifican a los verbos 
+(pasear por la calle tranquilamente), a los adjetivos (sumamente satisfecho de los re- 
+sultados) y también a otros adverbios (irremediablemente lejos de su patria). Ciertos 
+adverbios pueden incidir sobre grupos nominales (incluso tus hijos), pronominales 
+(casi todos, solo tú) o preposicionales (prácticamente sin esfuerzo), así como modifi- 
+car oraciones (Probablemente son ya las cuatro). Se llaman locuciones adverbia- 
+les las unidades léxicas que están constituidas por varias palabras y ejercen las 
+funciones sintácticas que corresponden a los adverbios, como de repente o sin duda. 
+
+### Manual §30.4.1a (OCR line 45297)
+30.4.1a Los adverbios de lugar se agrupan en dos clases fundamentales: los ad- 
+verbios demostrativos (aquí, ahí, allí, acá, allá, acullá), que se estudian en el § 1 7.4, 
+y los llamados adverbios de relación locativa. Estos adverbios, que se distribu- 
+yen en parejas de antónimos, se dividen, a su vez, en dos grupos: 
+A B 
+delante/ detrás adelante/ atrás 
+encima/debajo arriba/abajo 
+dentro/fuera adentro/ afuera 
+
+### Manual §48.1.2b (OCR line 64235)
+48.1.2b Pertenecen a la clase de los adverbios no, nunca, jamás, tampoco y nada. 
+Son adverbios temporales nunca, contrapartida negativa de siempre, así como el más 
+enfático jamás, que proviene de la unión de dos palabras positivas (ya y más), por lo 
+que su significado original es ‘no en lo sucesivo’. Con estas y otras expresiones nega- 
+tivas se forman combinaciones redundantes, pero correctas, como las que se subra- 
+yan a continuación: Nunca jamás la debiste obligar (Vilalta, Mujer); No quiero ver a 
+Lucía jamás en mi vida (Bain, Dolor). 
+
+### Manual §48.1.3a (OCR line 64269)
+48.1.3a Los indefinidos negativos (nada, nadie, ninguno, etc.) y otras expresiones 
+que se les asimilan exigen un elemento negativo delante del verbo cuando aparecen 
+en posición posverbal: No vino nadie; Sofia no dijo nada a nadie en ningún momento; 
+Nadie movió un dedo por mí. En todos estos casos se interpreta una sola negación, de 
+forma que las unidades subrayadas establecen una suerte de concordancia con la 
+palabra negativa que precede al verbo. La expresión negativa preverbal no es optati- 
+va (*Vino nadie). Las voces que requieren alguna negación con la que concordar re- 
+ciben el nombre de términos de polaridad negativa (marcados con trazo 
+continuo en los ejemplos que siguen); los elementos negativos que los posibilitan 
+se denominan inductores o activadores de la negación (marcados con trazo 
+925 
+Introducción. Conceptos fundamentales 
+48.1.4c 
+discontinuo). A este paradigma pertenecen el adverbio no, la preposición sin (sin ver 
+a nadie), la interrogación retórica QCómo iba yo a decirle nada?), las expresiones 
+comparativas (antes que ningún otro), y también algunos predicados de sentido ne- 
+gativo: Rechazó participar en ninguna conspiración. Se tratarán más detalladamente 
+los inductores en el § 48.5 y los términos de polaridad negativa en el § 48.6. 
+
+### Manual §48.1.3b (OCR line 64296)
+48.1.3b La negación preverbal que los indefinidos negativos exigen cuando 
+ocupan posiciones posverbales (No vino nadie ~ *Vino nadie), la rechazan, sin em- 
+bargo, en posición preverbal en el español general actual (*Nadie no vino). Se 
+obtiene así la llamada alternancia negativa: No vino nadie~Nadie vino; No le 
+interesa a ninguno ~ A ninguno le interesa. Se dan más detalles sobre esta alter- 
+nancia en § 48.3. 
+
+### Manual §48.1.4a (OCR line 64316)
+48.1.4a Los infinitivos pueden ser negados con el adverbio no en las oraciones 
+subordinadas: Prefiero no hablar de eso (Peri Rossi, Solitario); Figueras se disculpó 
+por no haber comparecido a la cita anterior y por no disponer tampoco de mucho 
+tiempo en esta (Cercas, Soldados). Entre las excepciones, cabe destacar las oraciones 
+dependientes de verbos de percepción, como en si lo ves {salir ~*no salir), y las 
+construcciones con «al + infinitivo» de sentido temporal: Me encontré con él al 
+{llegar ~*no llegar} a casa. 
+
+### Manual §48.3.1a (OCR line 64454)
+48.3.1 a Como se señaló en el § 48.1.3a, los indefinidos negativos (nada, nadie, nin- 
+guno, etc.) y algunas otras palabras que expresan negación se usan en posición posver- 
+bal cuando el verbo va precedido de otra palabra negativa (N ovino nadie), y en posición 
+48.3.1b 
+La negación 
+928 
+preverbal en caso contrario ( Nadie vino). Las dos variantes de esta alternancia ne- 
+gativa expresan el mismo significado, pero no son intercambiables en el discurso. 
+
+### Manual §48.3.1b (OCR line 64471)
+48.3.1b La primera variante ( No vino nadie) se produce porque, como ya se ha 
+señalado, la sintaxis del español incorpora una forma de concordancia que afecta 
+a las palabras negativas en ciertos contextos. En efecto, en Tuvo mala suerte porque 
+ahí no le pasa nunca nada a nadie (Cela, Cruz), nunca, nada y nadie caen bajo el efec- 
+to del adverbio no y concuerdan con él como manifestación formal de esta relación. 
+Asimismo, aunque la oración contiene cuatro palabras negativas, no se expresan en 
+realidad cuatro negaciones si se entiende que las tres últimas son palabras negativas 
+concordantes. 
+
+### Manual §48.6.4a (OCR line 65008)
+48.6.4a El adverbio tampoco es un término de polaridad negativa que tiene valor 
+aditivo porque agrega cierta información negativa a alguna otra igualmente negati- 
+va (Si tú no vas, yo tampoco voy), que puede quedar tácita y deducirse del discurso 
+previo. Al igual que otros adverbios de foco como también, incluso o solo (§ 40.4.4 
+y 40.4.5), tampoco puede incidir directamente sobre grupos sintácticos verbales (Él 
+tampoco habló con ella) y nominales o pronominales (Tampoco ella habló con él). Del 
+segmento sobre el que incide tampoco se deduce qué otros elementos, expresos o 
+sobrentendidos, se niegan en el discurso: así, de Tampoco Julio compró el pan se de- 
+duce que hubo una o varias personas que no compraron ese u otro pan. 
+
+### Manual §31.3.1a (OCR line 46836)
+31.3.1a La conjunción copulativa más característica es y. Esta conjunción toma la 
+forma e cuando precede a palabras que empiezan por i- o hi- (Fernando e Isabel; madre 
+e hija), salvo cuando constituyen el comienzo de un diptongo: matas y hierbas (no ma- 
+tas e hierbas). La conjunción y puede coordinar grupos sintácticos considerablemente 
+distintos. Cuando los elementos coordinados son varios, suele preceder solo al último, 
+como en Escribe, pinta y dibuja, pero se interpreta entre todos los miembros la misma 
+relación gramatical. Si en los casos de coordinación múltiple se omite la conjunción, se 
+produce asíndoton. Se trata de una forma de yuxtaposición que a menudo deja la 
+enumeración en suspenso. Es recurso frecuente en la lengua literaria, como en Acude, 
+corre, vuela, / traspasa el alta sierra, ocupa el llano (León, Poesía), pero también se re- 
+gistra en el habla cotidiana: Sales por la noche los viernes, los sábados, los domingos... 
+¿Cuándo estudias, hijo? Se llama polisíndeton la figura retórica que consiste en repetir 
+la conjunción ante cada miembro coordinado. Es un recurso enfático, particularmente 
+frecuente en la lengua literaria: Y luego el director, y el iluminador, y el escenógrafo. Y un 
+ambiguo jovenzuelo que no me saca los ojos de encima [...] (Benedetti, Orilla). 
+
+### Manual §31.5.2a (OCR line 47359)
+3 1 .5.2a La conjunción adversativa sino exige alguna negación, explícita o implíci- 
+ta, en la primera parte de la secuencia. La información que introduce contrasta con 
+el elemento de la oración anterior al que afecta directamente la negación. Este ele- 
+mento resulta reemplazado o sustituido por el término de la conjunción: Lo que tú 
+necesitas no es un productor, sino un inversionista (Salazar, Selva). El elemento reem- 
+plazado puede quedar implícito, como en No quiero sino tu confianza (es decir, ‘nada, 
+sino tu confianza’) o en Yo no nací sino para quereros (Garcilaso, Poesías). En este 
+uso alternan sino y más que. 
+
+### Manual §31.5.2b (OCR line 47368)
+31.5.2b El grupo conjuntivo que forma sino se puede construir de diversas for- 
+mas. En efecto, el término de dicha conjunción puede ser un nombre o un grupo 
+nominal (... sino tu amigo), un grupo adjetival (... sino muy difícil), un grupo adverbial 
+(... sino lentamente), un grupo preposicional (... sino desde su casa) y también una 
+oración subordinada, sea con verbo en forma personal (... sino que vayas), de infini- 
+tivo (... sino hablar con él) o de gerundio (... sino estando en su casa). En la lengua 
+antigua se admitían también los verbos y los grupos verbales en este paradigma, in- 
+cluidos los imperativos: No corta el mar, sino vuela / un velero bergantín (Espronce- 
+da, Obra poética); No me socorra ni ayude, sino déjeme con mi desgracia (Cervantes, 
+Quijote I). Se trata de usos poco frecuentes en la lengua actual, aunque todavía se 
+registran en algunas zonas, entre ellas la rioplatense (No come, sino devora). En la 
+lengua general se prefiere emplear en estos casos sino que: No come, sino que devora. 
+
+### Manual §32.1.1a (OCR line 47724)
+32.1.1a La interjección es una clase de palabras que se especializa en la forma- 
+ción de enunciados exclamativos (§ 42.4). Con la interjección se comunican senti- 
+mientos e impresiones, se ponen de manifiesto diversas reacciones afectivas o se 
+induce a la acción. Asimismo, algunas constituyen fórmulas que codifican verbal- 
+mente determinados comportamientos sociales convencionales, como los saludos y 
+despedidas, las felicitaciones o los agradecimientos. Son interjecciones adiós, ay, 
+epa, olé, uf o vaya, entre otras. Por su elementalidad, muchas de ellas se han inter- 
+pretado a veces como voces naturales. Aun así, están codificadas y poseen, como 
+otros signos lingüísticos, propiedades fonéticas, morfológicas y sintácticas. 
+
+### Manual §32.1.2a (OCR line 47762)
+32.1.2a A diferencia de los sustantivos, los adjetivos y otras categorías, las inter- 
+jecciones no modifican ni determinan a las demás clases de palabras ni se predican 
+de ellas, sino que forman enunciados bien por sí solas: ¡Ay!; ¡Caramba!; ¡ Epa !; 
+¡Adiós!; ¡Vaya!, o bien concatenadas, manteniendo la independencia significativa 
+de cada una de ellas: ¡Ah, caramba!; ¡Eh, cuidado!; ¡Epa, che!; ¡Hala, venga!, o itera- 
+das, más frecuentemente duplicadas. Es habitual que adquieran en este uso valo- 
+res significativos singulares: ¡Bueno, bueno!; ¡Vaya, vaya!; ¡Ya, ya! 
+
+### Manual §19.6.1a (OCR line 33080)
+1 9.6.1 a La coda partitiva denota en estas construcciones la totalidad de un con- 
+junto dado, del que se selecciona la parte señalada por el cuantificador. Por ejemplo, 
+del conjunto denotado por la expresión esos huevos se eligen doce en la construcción 
+partitiva doce de esos huevos. El grupo nominal de la coda es siempre definido (la 
+mayor parte de {los ~ *unos} portugueses). Su núcleo suele aparecer en plural, pero se 
+registran también en esa posición sustantivos colectivos o no contables en singular; 
+es decir, sustantivos que expresan léxicamente la noción de ‘pluralidad’, como en El 
+dos por ciento de la población no sabe quién es el Presidente de la República (Serra- 
+no, M., Vida); Oyendo semejante novedad, acudieron hacia ella mucha de la gente que 
+en la plaza habitaba (Timoneda, Patrañuelo). Se rechazan en esta pauta los grupos 
+nominales encabezados por los cuantificadores fuertes, aunque sean definidos: 
+*muchos de todos los estudiantes. Si el cuantificador presenta variación de género, 
+este viene determinado por el sustantivo que aparece en la coda, como en muy pocas 
+de las iniciativas presentadas. No se da necesariamente en estas construcciones la 
+concordancia de número: alguno de los presentes. 
+
+### Manual §19.6.2a (OCR line 33209)
+19.6.2a Las construcciones pseudopartitivas se ajustan a la estructura general 
+«expresión cuantificativa + de + grupo nominal escueto». La expresión cuantificati- 
+va puede ser un sustantivo (o un grupo nominal) cuantificativo (§ 1 2.4.1), como en un 
+centenar de libros, un grupo de turistas, montones de cartas, gran cantidad de gente, o 
+bien un cuantificador indefinido, como en algo de pan, un poco de agua. El segundo 
+elemento, o coda pseudopartitiva, está constituido por un grupo nominal escueto (es 
+decir, sin determinantes ni cuantificadores: § 1 5.6), y, por tanto, no definido, como en 
+un montón de harina, cientos de manifestantes, una docena de huevos. Esta propiedad 
+produce una clara diferencia de significado entre partitivas y pseudopartitivas. En 
+efecto, una docena de huevos o un montón de harina (construcciones pseudopartiti- 
+vas) expresan un significado similiar al de doce huevos o mucha harina; en cambio, 
+
+### Manual §37.5.1a (OCR line 52579)
+37.5.1 a Una primera distinción se basa en la suposición de que el verbo ser se com- 
+bina con atributos que designan características permanentes de los sujetos, mientras 
+que estar lo hace con atributos que indican propiedades transitorias, y por ello ac- 
+cidentales. Se piensa hoy que esta diferenciación, que se remonta a algunos tratados 
+clásicos, presenta dificultades. Por un lado, los predicados nominales se combinan con 
+ser aun cuando designen propiedades transitorias: Angel es estudiante de tercero de 
+Farmacia; Ana es profesora suplente en esta escuela; El conserje fue muy amable conmi- 
+go esta mañana (aquí en alternancia con estar). Por otro lado, fúera de las oraciones 
+pasivas, los participios se combinan con estar aunque indiquen propiedades no suje- 
+tas a alteración: Está muerto; Estaba transplantado del riñón. 
+
+### Manual §37.5.2a (OCR line 52628)
+37.5.2a El verbo ser no se usa ya en la lengua común con el sentido de ‘existir’, 
+como en Aquí fue Troya; [...] los pocos sabios que en el mundo han sido (León, Poesía); 
+Primero fueron los ríos, los ríos arteriales (Neruda, Canto). El verbo latino stare, del 
+que procede estar, significaba ‘estar de pie’ o ‘estar situado’, interpretaciones que 
+se registran en los primeros testimonios de su uso en español. En la lengua actual se 
+construyen con estar los atributos de las oraciones en las que se especifica el lugar 
+que ocupa alguien o algo: El jefe está en la oficina; El problema está en el carburador; 
+¿Dónde estás? Es polémica la cuestión de si estas oraciones son verdaderamente co- 
+pulativas. Si bien no admiten pronombres neutros (Está en la oficina > *Lo está), el 
+verbo estar no parece seleccionar dos argumentos (el jefe y en la oficina), sino que 
+constituye más bien un nexo que vincula un individuo con un estado episódico o 
+circunstancial. Si se analizan como complementos predicativos los grupos prepo- 
+sicionales de sentido locativo, como en El jefe te quiere en su oficina de inmediato o en 
+Vi las llaves en el cenicero (§ 37.2. 3e), es apropiado suponer que son atributos en las 
+oraciones copulativas mencionadas. 
+
+### Manual §4.3.2a (OCR line 2840)
+4.3.2a Se llama voseo el uso del pronombre vos como forma de tratamiento di- 
+rigida a un solo interlocutor, así como el empleo de las varias desinencias que refle- 
+jan los rasgos gramaticales de este pronombre en la flexión verbal. Estas variantes 
+flexivas proceden históricamente de las correspondientes a la 2. a persona del plural. 
+El voseo desapareció casi por completo en el español europeo entre el siglo xvn y 
+comienzos del xvm, si bien persiste en el voseo reverencial que se dirige a muy 
+altas autoridades en contextos sumamente formales ( Vos sabéis, Señor, que...). En 
+amplias regiones de América el voseo continúa siendo hoy un rasgo característico 
+del español hablado para expresar trato de confianza (§ 1 6.7.2a). 
+
+### Manual §29.1.1a, §29.2.1 (the inventory of the prepositions), OCR lines 43971 to 43978
+29.2 Las preposiciones del español 
+29.2.1 Inventario de preposiciones 
+Las preposiciones forman una clase gramatical cerrada. Sin embargo, el inventario 
+que de ellas se hace no siempre coincide en las diversas gramáticas, ya que algunas 
+preposiciones son de escaso uso, otras han ingresado no hace mucho en este pa- 
+radigma y otras, finalmente, poseen solo algunas de las propiedades que caracteri- 
+
+### Manual §29.4.3l, para and por (the end of §29.4.3l, the sentence on the indirect object), OCR lines 44607 to 44622
+29.4.31 La preposición para expresa destino en el sentido físico y también en 
+el figurado. En el primero introduce complementos que expresan el límite de un 
+movimiento, como en Voy para mi casa o Ya viene para acá, y también el límite tem- 
+poral prospectivo en el que se supone que algo sucederá, como en Lo tendré prepa- 
+rado para el martes. El más característico de sus sentidos figurados es el de finalidad 
+o propósito (Salí para despejarme: § 46.5.1), que puede usarse discursivamente para 
+justificar o matizar un aserto: Para ser justos, esto no es del todo cierto. Cercanos a los 
+de destino están también los sentidos de utilidad o servicio (tiempo para descan- 
+sar, pastillas para la garganta, cuadernos para pintar, lectura para el viajé), orien- 
+tación (Estudia para médico) y destinatario (Lo compré para ella). Con los 
+cuantificadores mucho (o muy), demasiado, suficiente o bastante, expresos o tácitos, 
+introduce complementos en los que se supedita cierta situación a expectativas que 
+no se alcanzan o que se sobrepasan, como en Está (muy) alto para su edad o en Es 
+(demasiado) tarde para ir a cenar (§ 20.4.1 a y 46.5.1 b). Como se explica en el § 35.1.1 b, 
+esta preposición no introduce los complementos indirectos. 
+
+### Manual §7.6.1, the suffix -mente, OCR lines 20250 to 20278
+7.6.1 El sufijo -mente: entre la derivación y la composición 
+De entre los elementos usados en latín para formar expresiones adverbiales, el que 
+triunfó en las lenguas romances fue mente, ablativo de mens, mentís, que significaba 
+‘mente, pensamiento’ y también ‘ánimo, intención'. A pesar de que -mente se suele 
+considerar un sufijo con el significado ‘de manera’ (lealmente ‘de manera leal’), man- 
+tiene algunas de las propiedades que tuvo como unidad léxica independiente, por lo 
+que se asimila en parte a los elementos compositivos de la lengua actual. Así, la base 
+léxica sobre la que -mente incide mantiene un acento secundario: l[é]ntam[é]nte, no 
+*lentam[é]nte, frente a lentit[ü]d, no *Z[é]ut;t[ú]íf. Por otra parte, cuando un adverbio en 
+-mente está cuantificado (muy lentamente), el cuantificador se agrupa semánticamente 
+con el adjetivo y deja fuera al segmento -mente: muy lentamente significa, en efecto, 
+‘de manera muy lenta’, en lugar de ‘muy de manera lenta’. Por otra parte, es femenino 
+7.6.2 
+La derivación adjetival y adverbial 
+150 
+el género de las bases a las que -mente se agrega, consecuencia natural del género del 
+sustantivo mente: tranquila-mente. Por último, -mente tiende a elidirse en los grupos 
+coordinados (lisa-0 y llanamente), así como en las comparaciones de igualdad y 
+desigualdad: Cumplió sus gustos tan torpe como públicamente, en menoscabo de la 
+autoridad del rey (Cervantes, Persiles ); Dijo que el Presidente ha ejercido un liderazgo 
+
+### Manual §30.5.1, adverbs of time, OCR lines 30.5 (44416 to 44440)
+30.5 Adverbios de tiempo 
+30.5.1 Subclases de adverbios de tiempo 
+Los adverbios de tiempo y las locuciones adverbiales temporales se suelen clasificar 
+con dos criterios: uno gramatical (o, más propiamente, sintáctico) y otro semántico. 
+Desde el primer punto de vista, los adverbios temporales pueden ser demostrati- 
+vos (ahora, ayer, hoy, mañana: § 17.4), relativos (cuando, cuandoquiera: § 22.5 y 
+22.6), interrogativos y exclamativos (cuándo: § 22.5) y cuantificativos (siem- 
+pre, a menudo, a veces: § 1 9.4.1 b). Desde el punto de vista semántico, se suelen reco- 
+nocer los siguientes grupos: 
+1. Referenciales: hoy, ahora, mañana, ayer, anoche, anteayer (o antes de ayer), an- 
+teanoche; actualmente, antiguamente, recientemente, posteriormente, previamente; 
+30.5.2a 
+El adverbio y el grupo adverbial 
+584 
+
+### Manual §31.1.1 and §31.1.2a, the coordinating conjunctions, OCR lines 46530 to 46548
+31.1 El concepto de conjunción. Conjunciones coordinantes 
+y subordinantes 
+31.1.1 Definición y clases de conjunciones 
+Las conjunciones constituyen una clase de palabras invariables y generalmente áto- 
+nas que relacionan entre sí vocablos, grupos sintácticos u oraciones, unas veces 
+equiparándolos y otras jerarquizándolos y haciéndolos depender unos de otros. Las 
+que los enlazan sin establecer prelación entre ellos se denominan conjunciones 
+coordinantes; las que los vinculan marcando entre ellos diversas relaciones de de- 
+pendencia reciben el nombre de conjunciones subordinantes. 
+31.1.2 Las conjunciones coordinantes 
+31.1.2a Las conjunciones coordinantes enlazan oraciones y palabras o grupos 
+sintácticos que pertenecen a casi todas las clases de palabras. Se dividen en dos tipos: 
+simples y compuestas (las segundas se denominan también discontinuas o corre- 
+lativas). Las simples pueden ser copulativas (y, su variante e, ni), disyuntivas (o, su 
+
+### Manual §31.4 (o and u), OCR lines 47146 to 47152
+31.4 La coordinación disyuntiva 
+La conjunción disyuntiva o denota la existencia de dos o más opciones. Puede usarse como 
+conjunción simple («A o B») o como conjunción doble o discontinua («o A o B»j. 
+La conjunción o presenta la variante u cuando la palabra siguiente comienza por o- o 
+por ho-, como en siete u ocho, pensión u hotel. Sin embargo, si se usa como conjun- 
+ción discontinua y el primero de los sustantivos coordinados comienza por o- u ho-, 
+
+### Manual §31.6.1, the subordinating conjunctions, OCR lines 47388 to 47400
+31.6 Las conjunciones subordinantes 
+31.6.1 Conjunciones subordinantes y locuciones conjuntivas 
+La mayor parte de las conjunciones subordinantes son en realidad locuciones con- 
+juntivas, y constan, por tanto, de más de una palabra. Aunque algunas responden a 
+otros esquemas (por ejemplo, siempre y cuando), buena parte de ellas se forman me- 
+diante la conjunción que combinada con preposiciones, adverbios, grupos nomina- 
+les u otras categorías. Se exponen a continuación las pautas más frecuentes. 
+31.6.1a «Preposición + que». Esta pauta corresponde a porque y para que. Era 
+habitual en la tradición reinterpretar como conjunciones subordinantes casi todas 
+
+### Manual §26.5, the infinitive after prepositions (antes de llegar, después de salir), OCR line 41062 and the line before
+de hacer bien el examen) o pasiva (El museo es digno de ver ‘de ser visto’: § 26.3.2). Las 
+subordinadas sustantivas de infinitivo aparecen asimismo en los complementos prepo- 
+sicionales de ciertos adverbios: antes de llegar, después de salir de casa, luego de oír 
+sus pretensiones, además de haberte esperado, aparte de trabajar muy poco, encima de 
+aguantarlo. Cabe pensar que se asimilan a los grupos preposicionales algunas 
+
+### Manual §19.6.1 and §19.6.2, partitive and pseudopartitive, OCR lines 33073 to 33078 and 33207 to 33216
+19.6.1 Los cuantificadores en las estructuras partitivas 
+Las construcciones partitivas están formadas por un cuantificador al que se asocia 
+un grupo nominal definido introducido por la preposición de, que se denomina com- 
+plemento partitivo o coda partitiva, como en muchas de sus ideas, la mayor par- 
+te de los portugueses, un kilo de estas papas. 
+
+### Manual §19.6.2, OCR lines 33207 to 33216
+19.6.2 Los cuantificadores en las estructuras pseudopartitivas 
+19.6.2a Las construcciones pseudopartitivas se ajustan a la estructura general 
+«expresión cuantificativa + de + grupo nominal escueto». La expresión cuantificati- 
+va puede ser un sustantivo (o un grupo nominal) cuantificativo (§ 1 2.4.1), como en un 
+centenar de libros, un grupo de turistas, montones de cartas, gran cantidad de gente, o 
+bien un cuantificador indefinido, como en algo de pan, un poco de agua. El segundo 
+elemento, o coda pseudopartitiva, está constituido por un grupo nominal escueto (es 
+decir, sin determinantes ni cuantificadores: § 1 5.6), y, por tanto, no definido, como en 
+un montón de harina, cientos de manifestantes, una docena de huevos. Esta propiedad 
+
+### Manual §16.7.1i, vosotros and ustedes; §4.3.2a, voseo, OCR lines 30101 to 30108 and 2838 to 2848
+1 6.7.1 i El pronombre vos dirigido a varias personas acabó siendo sustituido por 
+vosotros/ vosotras, hoy constituido en el tratamiento de confianza que corresponde 
+en plural al trato de tú. No se consolidó, sin embargo, vosotros en América ni en 
+algunas zonas de España (la mayor parte de Canarias y Andalucía occidental), donde 
+se usa ustedes en el trato de confianza y en el de respeto. La pérdida de uso de voso- 
+tros llevó consigo la de os y la de vuestro/ vuestra. 
+1 6.7.1 j Es un rasgo común de las lenguas romances el usar grupos nominales 
+
+### Manual §4.3.2a, voseo, OCR lines 2838 to 2848
+4.3.2 Las variantes del voseo 
+4.3.2a Se llama voseo el uso del pronombre vos como forma de tratamiento di- 
+rigida a un solo interlocutor, así como el empleo de las varias desinencias que refle- 
+jan los rasgos gramaticales de este pronombre en la flexión verbal. Estas variantes 
+flexivas proceden históricamente de las correspondientes a la 2. a persona del plural. 
+El voseo desapareció casi por completo en el español europeo entre el siglo xvn y 
+comienzos del xvm, si bien persiste en el voseo reverencial que se dirige a muy 
+altas autoridades en contextos sumamente formales ( Vos sabéis, Señor, que...). En 
+amplias regiones de América el voseo continúa siendo hoy un rasgo característico 
+del español hablado para expresar trato de confianza (§ 1 6.7.2a). 
+
+### Manual §14.2.1, the paradigm of the articles, OCR lines 26583 to 26632
+14.2 Formas de los artículos 
+14.2.1 El paradigma de los artículos 
+Las formas del artículo son las siguientes: 
+Artículo determinado 
+Artículo indeterminado 
+En singular: 
+Masculino: el (el libro) 
+Femenino: la (la mesa ) 
+En singular: 
+Masculino: un (un libro) 
+Femenino: una (una mesa) 
+el (el águila) 
+un (un águila) 
+Neutro: lo (lo bueno) 
+En plural: 
+Masculino: los (los libros) 
+Femenino: las (las mesas) 
+En plural: 
+Masculino: unos (unos libros) 
+Femenino: unas (unas mesas) 
+14.2.2a 
+El artículo (I). Clases de artículos 

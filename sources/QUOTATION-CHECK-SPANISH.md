@@ -23,3 +23,11 @@ Quotes no passage. The example words are the course's own, and the facts are in 
 | `lang.iii-decl.es/subjunctive` | No passage is quoted. *Sea cual fuere* and *Adonde fueres, haz lo que vieres* are the Manual's own examples of survivals of the future subjunctive (quoted there from the proverb) | same | Found |
 | `lang.iii-decl.es/participle` | No passage is quoted. *No sabiendo ella qué decir* is the Manual's example (§27.1.1b), extended by the course with *calló* | same | Found (the OCR hyphenates *sa-biendo*) |
 | `lang.iii-decl.es/irregular` | No passage is quoted | same | Not applicable |
+
+## Section III, indeclinable (B4)
+
+| Deck | Quoted text | Saved text | Result |
+|---|---|---|---|
+| `lang.iii-indecl.es/prepositions` | No passage is quoted. Manual examples used: *Partieron del muelle sur*, *desde el verano*, *Se ve el mar desde su casa*, *Estuve allí hasta las doce*, *Llegó hasta la puerta*, *Me río por no llorar* and *Me río para no llorar*, *del jueves al sábado* | `sources/spanish/rae-manual-2010-excerpts-B4.txt` | Each found in the machine-read text. Not compared with the printed book |
+| `lang.iii-indecl.es/invariable` | No passage is quoted. Manual examples used: *Nunca jamás la debiste obligar*, *lisa y llanamente* | same | Found |
+| `lang.iii-indecl.es/compared` | No passage is quoted. Manual examples used: *Vos sabéis, Señor*, *Aquí fue Troya*, *doce de esos huevos*, *una docena de huevos*; the Latin examples (*liber magistrī*, *cum amīcō*, *Pater medicus est*) are the course's own, and *pars mīlitum* is A&G's | same; `sources/spanish/allen-greenough-excerpts-B4.txt` | Found |
