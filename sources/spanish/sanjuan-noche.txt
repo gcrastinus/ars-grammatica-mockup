@@ -1,0 +1,15 @@
+SOURCE FILE: San Juan de la Cruz, “Noche oscura,” stanzas 1 and 2, quoted in lang.ix.es/poetry
+WORK: Obras del místico doctor San Juan de la Cruz, edición crítica del Padre Gerardo de San Juan de la Cruz, tomo tercero. Toledo: Imprenta, Librería y Encuadernación de Viuda e Hijos de J. Peláez, 1914. The title page of Internet Archive obrasdelmisticod03john is set in a type the optical reading garbles, but it gives “TOLEDO-1914” and the printer’s name. A license in the same volume, dated at Rome 21 November 1913, names Fray Gerardo de San Juan de la Cruz and this third volume. Gerardo (Saturnino Martín Castilla) was born in 1878 and died at Toledo on 5 January 1922. San Juan de la Cruz died in 1591.
+TEXT READ: PDF page 191 of that copy. The text layer and a rendering of the page agree on the two stanzas below. The blackletter heading above the poem was not clear enough to quote, and it is not quoted. Nothing in the two stanzas was altered.
+
+### Stanzas 1 and 2
+1. — En una noche oscura
+Con ansias en amores inflamada,
+¡Oh dichosa ventura!
+Salí sin ser notada,
+Estando ya mi casa sosegada.
+2.—A oscuras, y segura
+Por la secreta escala disfrazada,
+¡Oh dichosa ventura!
+A oscuras, y en celada,
+Estando ya mi casa sosegada.

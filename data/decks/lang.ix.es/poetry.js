@@ -4,7 +4,7 @@ ARS.decks["lang.ix.es/poetry"] = {
  "id": "lang.ix.es/poetry",
  "title": "Spanish Poetry",
  "sub": "Spanish verse, read part by part",
- "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Luis de Góngora, <i lang=\"es\">Poesías</i> (Madrid, 1820), for the opening of the letrilla that begins <i lang=\"es\">Ande yo caliente</i>. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
+ "sources": "Fernando José Wolf and Conrado Hofmann, <i lang=\"es\">Primavera y flor de romances</i>, vol. 2 (Berlin, A. Asher y Comp., 1856), for the ballad; Jorge Manrique, <i lang=\"es\">Poesías</i> (Barcelona, Antonio López, Colección Diamante, vol. 114), for the first stanza of the <i lang=\"es\">Coplas</i>. Both prints modernize the spelling, and the lines are given as those editions print them. The prologue of the Manrique volume says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it. Garcilaso de la Vega, <i lang=\"es\">Obras</i>, ilustradas con notas, second edition (Madrid, Imprenta de Sancha, 1817), for Sonnet XXIII. Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco, The History Company, 1891), for the first stanza of Rima LIII. The editors’ preface says that the text was collated with the original. Luis de Góngora, <i lang=\"es\">Poesías</i> (Madrid, 1820), for the opening of the letrilla that begins <i lang=\"es\">Ande yo caliente</i>. San Juan de la Cruz, <i lang=\"es\">Obras</i>, tomo tercero (Toledo, Viuda e Hijos de J. Peláez, 1914), edited by Padre Gerardo de San Juan de la Cruz, for the first two stanzas of the poem that begins <i lang=\"es\">En una noche oscura</i>. Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires, Imprenta de Pablo E. Coni é Hijos, 1896), for the first stanza of “Sonatina.” Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables and for the old practice in assonance. The English of the verse is the course’s own plain rendering, line by line.",
  "panels": [
   {
    "id": "poetry-1",
@@ -72,7 +72,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   {
    "id": "poetry-6",
    "title": "The spelling of these older prints",
-   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p><p>The 1891 print of Bécquer’s <i lang=\"es\">Rimas</i> still writes the accent on the preposition <i lang=\"es\">á</i>, in <i lang=\"es\">á colgar</i> and in <i lang=\"es\">á sus cristales</i>.</p><p>The Madrid print of Góngora, of 1820, writes <i lang=\"es\">Ande</i> with no accent, and <i lang=\"es\">ríase</i> with the accent on the <i lang=\"es\">i</i>.</p>"
+   "body": "<p>The prisoner’s ballad was copied in the <i lang=\"es\">Cancionero general</i> of 1511. The lines that begin <i lang=\"es\">Que por mayo era, por mayo</i> are not that copy. They are the print of Wolf and Hofmann (Berlin, 1856), which writes a later spelling and keeps some old forms. On those lines the print does three things:</p><p><strong>Accents it writes.</strong> <i lang=\"es\">á</i>, <i lang=\"es\">sé</i>, <i lang=\"es\">cuándo</i>, <i lang=\"es\">ménos</i>, <i lang=\"es\">matómela</i>, and <i lang=\"es\">déle</i>.<br><strong>Accents it does not write.</strong> <i lang=\"es\">dia</i> and <i lang=\"es\">galardon</i>, which a later spelling accents.<br><strong>Old forms it keeps.</strong> <i lang=\"es\">yago</i>, and <i lang=\"es\">van servir</i> with no <i lang=\"es\">a</i> before the infinitive.</p><p>An editor who modernizes the spelling does not add a word, drop a word, or exchange one copy for another. Wolf and Hofmann print a second copy of the same ballad on the same page. Its first line is <i lang=\"es\">Por el mes era de mayo</i>. The ballad in this deck is only the copy they number 114.</p><p>Jorge Manrique’s stanza, in the Barcelona edition of Antonio López, is the same kind of print. It writes <i lang=\"es\">cómo</i>, <i lang=\"es\">cuán</i>, <i lang=\"es\">después</i>, <i lang=\"es\">á</i>, and <i lang=\"es\">fué</i>. The accent on <i lang=\"es\">á</i> and on <i lang=\"es\">fué</i> is the nineteenth-century spelling of those words. The prologue says that the edition adopts modern orthography and keeps an old form only when the line or the rhyme requires it.</p><p>Garcilaso’s sonnet is taken from the second edition of his <i lang=\"es\">Obras</i>, printed at Madrid by Sancha in 1817. That print writes the accents of <i lang=\"es\">escogió</i>, <i lang=\"es\">Marchitará</i>, and <i lang=\"es\">mudará</i>. It keeps two old spellings that the rhyme uses: <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>, and <i lang=\"es\">elado</i>, where a later spelling has <i lang=\"es\">helado</i>.</p><p>The 1891 print of Bécquer’s <i lang=\"es\">Rimas</i> still writes the accent on the preposition <i lang=\"es\">á</i>, in <i lang=\"es\">á colgar</i> and in <i lang=\"es\">á sus cristales</i>.</p><p>The Madrid print of Góngora, of 1820, writes <i lang=\"es\">Ande</i> with no accent, and <i lang=\"es\">ríase</i> with the accent on the <i lang=\"es\">i</i>.</p><p>The Toledo print of San Juan, of 1914, writes a later spelling. In the stanzas quoted here it has <i lang=\"es\">¡Oh</i> with no accent on the <i lang=\"es\">o</i>, and <i lang=\"es\">A oscuras</i> with no accent on the preposition.</p>"
   },
   {
    "id": "poetry-7",
@@ -388,6 +388,69 @@ ARS.decks["lang.ix.es/poetry"] = {
    "id": "poetry-31",
    "title": "Let others treat of government",
    "body": "<p><i lang=\"es\">Traten otros del gobierno.</i> <i lang=\"es\">Traten</i> is the present subjunctive of <i lang=\"es\">tratar</i>, and the subject is <i lang=\"es\">otros</i>, “other people.” <i lang=\"es\">Del gobierno</i> is “of the government.” The wish leaves government to them. The speaker’s own wish is the refrain: to go warm, and to let the people laugh.</p>"
+  },
+  {
+   "id": "poetry-32",
+   "title": "San Juan, Dark night · The lira",
+   "body": "<p lang=\"es\">1. — En una noche oscura<br>Con ansias en amores inflamada,<br>¡Oh dichosa ventura!<br>Salí sin ser notada,<br>Estando ya mi casa sosegada.<br>2.—A oscuras, y segura<br>Por la secreta escala disfrazada,<br>¡Oh dichosa ventura!<br>A oscuras, y en celada,<br>Estando ya mi casa sosegada.</p><p>On a dark night,<br>with longing, inflamed in love,<br>oh happy fortune!<br>I went out without being noticed,<br>my house being already quiet.<br>In the dark, and safe,<br>by the secret ladder, disguised,<br>oh happy fortune!<br>in the dark, and in hiding,<br>my house being already quiet.</p><p><strong>Context.</strong> San Juan de la Cruz, a Carmelite, was born at Fontiveros and died at Úbeda in 1591. In the Toledo edition of 1914 this poem stands first among the poems, and the print numbers the stanzas. The stanza is a lira. Its five lines run seven syllables, eleven, seven, seven, and eleven. <i lang=\"es\">Oscura</i> rhymes with <i lang=\"es\">ventura</i> and with <i lang=\"es\">segura</i>. <i lang=\"es\">Inflamada</i> rhymes with <i lang=\"es\">notada</i>, <i lang=\"es\">sosegada</i>, <i lang=\"es\">disfrazada</i>, and <i lang=\"es\">celada</i>. The rhyme is consonant.</p>",
+   "qp": {
+    "id": "q-es-ixv-poetry-32",
+    "variants": [
+     {
+      "prompt": "Whom does <i lang=\"es\">inflamada</i> describe?",
+      "options": [
+       "The speaker",
+       "The dark night",
+       "The secret ladder",
+       "The quiet house"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Inflamada</i> is feminine, and it agrees with the speaker, who goes out. The night and the house have their own adjectives."
+     },
+     {
+      "prompt": "What is <i lang=\"es\">salí</i>?",
+      "options": [
+       "I went out",
+       "A command: go out",
+       "The noun for a way out",
+       "They will go out"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Salí</i> is the preterite of <i lang=\"es\">salir</i>. The speaker went out."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">sosegada</i> agree with?",
+      "options": [
+       "The house",
+       "The fortune",
+       "The longing",
+       "The ladder"
+      ],
+      "answer": 0,
+      "explain": "<i lang=\"es\">Sosegada</i> is feminine and agrees with <i lang=\"es\">casa</i>. The house was already quiet."
+     }
+    ]
+   }
+  },
+  {
+   "id": "poetry-33",
+   "title": "Seven, eleven, seven, seven, eleven",
+   "body": "<p>A lira has five lines. The first, third, and fourth have seven syllables. The second and the fifth have eleven. In the first stanza the seven-syllable lines rhyme together in <i lang=\"es\">ura</i>, and the fourth line rhymes with the two lines of eleven, in <i lang=\"es\">ada</i>.</p><p><i lang=\"es\">En una noche oscura</i> joins <i lang=\"es\">noche</i> and <i lang=\"es\">oscura</i>. <i lang=\"es\">En</i>, <i lang=\"es\">u</i>, <i lang=\"es\">na</i>, <i lang=\"es\">no</i>, <i lang=\"es\">cheos</i>, <i lang=\"es\">cu</i>, <i lang=\"es\">ra</i>. That is seven, and <i lang=\"es\">oscura</i> is stressed on the next to last syllable.</p><p><i lang=\"es\">Con ansias en amores inflamada</i> has no synalepha. <i lang=\"es\">Con</i>, <i lang=\"es\">an</i>, <i lang=\"es\">sias</i>, <i lang=\"es\">en</i>, <i lang=\"es\">a</i>, <i lang=\"es\">mo</i>, <i lang=\"es\">res</i>, <i lang=\"es\">in</i>, <i lang=\"es\">fla</i>, <i lang=\"es\">ma</i>, <i lang=\"es\">da</i>. The vowels <i lang=\"es\">ia</i> in <i lang=\"es\">ansias</i> are a diphthong. That is eleven. The stress of <i lang=\"es\">amores</i> falls on <i lang=\"es\">mo</i>, the sixth syllable, and the stress of <i lang=\"es\">inflamada</i> falls on <i lang=\"es\">ma</i>, the tenth.</p><p><i lang=\"es\">Estando ya mi casa sosegada</i> counts <i lang=\"es\">ya</i> as one syllable, and does not join it to <i lang=\"es\">estando</i>. On that count the line has eleven: <i lang=\"es\">Es</i>, <i lang=\"es\">tan</i>, <i lang=\"es\">do</i>, <i lang=\"es\">ya</i>, <i lang=\"es\">mi</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">sa</i>, <i lang=\"es\">so</i>, <i lang=\"es\">se</i>, <i lang=\"es\">ga</i>, <i lang=\"es\">da</i>. If <i lang=\"es\">ya</i> joined <i lang=\"es\">estando</i>, the line would have ten, and this place in the lira would be short. The count of eleven for this line rests on keeping <i lang=\"es\">ya</i> apart, which is what the stanza’s pattern requires.</p>"
+  },
+  {
+   "id": "poetry-34",
+   "title": "On a dark night",
+   "body": "<p><i lang=\"es\">En una noche oscura, con ansias en amores inflamada.</i> <i lang=\"es\">Ansias</i> are longings. <i lang=\"es\">En amores</i> is “in love.” <i lang=\"es\">Inflamada</i> is the participle of <i lang=\"es\">inflamar</i>, “inflamed,” and it is feminine, so it agrees with the speaker. <i lang=\"es\">Oscura</i> is the adjective of the night. <i lang=\"es\">¡Oh dichosa ventura!</i> <i lang=\"es\">Ventura</i> is “fortune,” and <i lang=\"es\">dichosa</i> agrees with it.</p>"
+  },
+  {
+   "id": "poetry-35",
+   "title": "I went out unnoticed",
+   "body": "<p><i lang=\"es\">Salí sin ser notada, estando ya mi casa sosegada.</i> <i lang=\"es\">Salí</i> is the preterite of <i lang=\"es\">salir</i>. <i lang=\"es\">Notada</i> is the participle of <i lang=\"es\">notar</i>, “noticed,” and it agrees with the speaker. <i lang=\"es\">Estando</i> is the gerund of <i lang=\"es\">estar</i>. <i lang=\"es\">Sosegada</i> agrees with <i lang=\"es\">casa</i>: the house was quiet. <i lang=\"es\">Ya</i> is “already.”</p>"
+  },
+  {
+   "id": "poetry-36",
+   "title": "The secret ladder",
+   "body": "<p><i lang=\"es\">A oscuras, y segura, por la secreta escala disfrazada.</i> <i lang=\"es\">A oscuras</i> is “in the dark.” <i lang=\"es\">Segura</i> is “safe,” and it agrees with the speaker. <i lang=\"es\">Escala</i> is the ladder, and <i lang=\"es\">secreta</i> agrees with it. <i lang=\"es\">Disfrazada</i> is “disguised,” and it too agrees with the speaker. <i lang=\"es\">A oscuras, y en celada.</i> <i lang=\"es\">Celada</i> is a hiding, an ambush. The same two lines of the refrain return: <i lang=\"es\">¡Oh dichosa ventura!</i> and <i lang=\"es\">Estando ya mi casa sosegada.</i></p>"
   }
  ]
 };
