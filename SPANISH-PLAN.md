@@ -94,7 +94,7 @@ Batch B1 re-checks this work: the dates and rules on the "older" and "reform" ca
 
 | Deck (slug) | Content | Panels (with question points) | Exercise | Items |
 |---|---|---|---|---|
-| `accidents` | What Spanish has and where it differs from Latin: gender (masculine and feminine; the neuter only in *lo*, *esto*, *eso*, *aquello*); number; no case on the noun; the article and its absence; *el agua*; adjective agreement and apocope (*buen*, *gran*); person and number of the verb; tenses and moods; the three conjugations; voice; the reflexive; *ser* and *estar*; *tú*, *vosotros*, *usted*, *ustedes*; clitic pronouns | 20 (13) | `fill-ex` | 50 mc |
+| `accidents` (built in B2) | What Spanish has and where it differs from Latin: gender (masculine and feminine; the neuter only in *lo*, *esto*, *eso*, *aquello*); number; no case on the noun; the article and its absence; *el agua*; adjective agreement and apocope (*buen*, *gran*); person and number of the verb; tenses and moods; the three conjugations; voice; the reflexive; *ser* and *estar*; *tú*, *vosotros*, *usted*, *ustedes*; clitic pronouns | 20 (14) | `fill-ex` | 50 mc |
 | `paradigms` | Articles with *al* and *del*; fifteen nouns; six adjectives; pronoun tables; verbs: *hablar*, *comer*, *vivir*, *ser*, *estar*, *haber*, *tener*, *ir*, *hacer*, *decir*, *poder*, *saber*, in the simple tenses | 12 (6) | `paradigms-ex` | 24 form |
 | `parts` | The parts of speech of the Spanish school grammar (RAE: nine classes) set beside the eight of the tradition | 2 (2) | `parts-ex` | 20 mc-marked |
 | `pronouns` | Personal (subject, clitic, prepositional), reflexive, relative, demonstrative, possessive, interrogative, indefinite | 4 (4) | `pronouns-ex` | 24 mc |
@@ -102,7 +102,7 @@ Batch B1 re-checks this work: the dates and rules on the "older" and "reform" ca
 | `subjunctive` | Present, imperfect (*-ra* and *-se*), perfect, pluperfect; forms and the stem rule | 3 (3) | `subjunctive-ex` | 24 (form 15, mc 9) |
 | `participle` | Participle, gerund, infinitive; irregular participles; agreement of the participle | 4 (4) | `participle-ex` | 24 (form 4, mc 20) |
 | `irregular` (Spanish only; the counterpart of German `strong`) | Stem changes (*e* to *ie*, *o* to *ue*, *e* to *i*), irregular preterites, irregular futures, verbs with *-go*, spelling changes (*c*/*qu*, *g*/*gu*, *z*/*c*) | 4 (4) | `irregular-ex` | 24 (form 18, mc 6) |
-| **Subtotal** | | **52 (39)** | | **214** |
+| **Subtotal** | | **52 (40)** | | **214** |
 
 Pairing: `accidents` has `ex=lang.iii-decl.es/fill-ex` (as in French); the others by `exFor`. Screen file `data/languages/iii-decl.es.js`.
 
@@ -275,7 +275,7 @@ Both depend on the answer to open question 1.
 | **B11** | IX prose, passages 11 to 15 (drilled) and `prose-ex` (60 items) | about 24 panels; 60 items | B10 done |
 | **B12** | IX poetry, 10 poems with scansion (section 4.2), and `poetry-ex` (43 items); create `ix.es.js`. Large: split into B12a (poems 1 to 5) and B12b (poems 6 to 10 and `poetry-ex`) if needed | about 50 panels; 43 items | B11 done |
 | **B13** | X: eight model decks; create `x.es.js` | 8 decks (16 panels) | B12 done |
-| **B14** | Whole-language pass: full audit (`--verbose`), `browser-check` and `--maker`, a read of every Spanish deck for the style guide, a check that no exercise item asks a card's own example in the same respect, option balance, a count of items against section 2, TRANSLATIONS-USED and quotation check complete | no new content | B13 done; Timothy's review of a sample (his decision) |
+| **B14** | Whole-language pass: full audit (`--verbose`), `browser-check` and `--maker`, a read of every Spanish deck for the style guide, a check that no exercise item asks a card's own example in the same respect, option balance, a count of items against section 2, TRANSLATIONS-USED and quotation check complete. **Also, from Timothy's answers of 26 Oct 2026:** (1) confirm the rule that the names of languages are written in lowercase (the card in `lang.ii.es/orthography` and its example *hablo español*) against the Academy's own text, if its site can be read; (2) check the Preliminary overview (`lang.prelim.es/overview`) and the statements of `lang.ii.es/meter` against Navarro Tomás, *Métrica española*, or another named source; (3) the origin of *ñ* (card `letters`, whose `src` note records that it rests on one source, Spanish Wikipedia) against the Academy's *Ortografía* (2010); (4) compare the machine-read text of the Academy's *Manual* used in B2 with the printed book, and read the *Nueva gramática básica* (2011) and the grammars of 1771 and 1973 for the `parts` deck; (5) if a source for the date when *e* and *u* lost the accent is found, add it to the older-spelling card (the card now gives 1911 for *a* only) | no new content | B13 done; Timothy's review of a sample (his decision) |
 | **B15** | **The switch** (one commit, last): see below | about 10 lines changed | B14 clean and Timothy's go-ahead |
 
 **B15, the final switch.** One commit, titled `Spanish on`:
@@ -305,6 +305,8 @@ Rolling back is a single revert of this commit. Switching is a single final comm
 8. One final switch (B15), only when all ten screens exist.
 9. Copyright cutoff as stated: author died before 1946 and first published before 1931.
 10. Quiz Maker and recitations as the plan has them. Nothing else wanted.
+
+**Follow-up answers, 26 Oct 2026 (the B2 brief).** (1) Apply the one-line fix in `maker.js` so that a hidden language is skipped in the Quiz Maker unless `?preview=es` is on, as the first commit of B2, with a test that fails without it: done (413c72f, test `test/maker-hidden-check.js`). (2) Keep the lowercase language-names card and its example; confirm the rule against the Academy's text in B14. (3) Keep the card that gives 1911 only for the accent on *a*; add *e* and *u* if a source is found. (4) Add to B14 the check of the Preliminary overview and the meter statements against Navarro Tomás, and note on the *ñ* card that its origin rests on one source: done (`src` note on the card; B14 row). (5) Leave `STYLE_GUIDE.md`, `ars-grammatica-pending-changes.md`, and `previews/` untracked.
 
 The original questions follow, as asked.
 
@@ -336,3 +338,22 @@ Findings left for Timothy (not changed, because B1 may change no app file but th
 2. Not verified: the names of languages in lowercase (needs an Academy text); the date when *e* and *u* lost the accent; the origin of ñ is checked in a secondary source only; the meter statements are not checked against Navarro Tomás; the Preliminary overview (`lang.prelim.es/overview`) was not checked in B1 and still needs a fact check (add to B14 at the latest).
 
 START FROM: B2. Last commit of Spanish work: see `git log --oneline` (the commits titled "Spanish ii: orthography", "Spanish ii: meter", "Spanish B1: ..."). Nothing is half done. Spanish is still hidden; `?preview=es` shows it. B2 is III declinable, first half: `accidents`, `paradigms`, `parts` with `fill-ex`, `paradigms-ex`, `parts-ex`, and the new screen file `data/languages/iii-decl.es.js` (plus its `<script>` tag in index.html, in the es position between grc and fr, line 277 area).
+
+### B2 done (26 Oct 2026)
+
+What was done (commits in order, each with the audit, `browser-check` for `lang.iii-decl.es`, `--maker`, and `lang-order-speech-check` run before it):
+- `413c72f` The Quiz Maker skips a hidden language unless `?preview=es` is on (the fix in `maker.js:buildSetList`, the new test `test/maker-hidden-check.js`, and `browser-check --maker` now opens the maker twice, without and with the preview). The test fails without the fix (3 Spanish sets listed) and passes with it.
+- `db4614b` the Lapesa title in the `lang.ii.es/orthography` sources line was tagged as Latin; now Spanish.
+- `8dcaca3` Spanish iii-decl: accidents. 20 panels, 14 question points; `fill-ex`, 50 multiple-choice items (A 17, B 17, C 16); the screen file `data/languages/iii-decl.es.js` and its `<script>` tag in `index.html` (between Greek and French).
+- `84ffb75` Spanish iii-decl: paradigms. 12 panels (articles, 15 nouns, 6 adjectives, the personal pronouns, 12 verbs in 6 tenses), 6 question points; `paradigms-ex`, 24 typed items (A 8, B 8, C 8).
+- `2a5daea` correction of a citation in the verb-table check.
+- `d5d7757` Spanish iii-decl: parts. 2 panels, 2 question points; `parts-ex`, 20 marked-word items.
+- The `src` note on the *ñ* card and the B14 additions (this commit).
+
+Sources saved under `sources/spanish/`: `B2-FACT-CHECK-OCT-26.md` (every statement of the cards against the Academy's *Manual* by paragraph, with the verdict), `B2-VERB-TABLES-CHECK.md`, `rae-manual-2010-excerpts-B2.txt`, `allen-greenough-excerpts-B2.txt`, `wiktionary-conjugation-tables-B2.txt`, `delgado-torrico-2016-excerpt-B2.txt`; `sources/QUOTATION-CHECK-SPANISH.md` begun. No passage is quoted in any B2 deck, so `TRANSLATIONS-USED.md` has nothing to add.
+
+The Academy's website still refuses automated access. The *Manual* was read as a machine-read text on the Internet Archive. This is the main source of B2 and could not be compared with the printed book (B14).
+
+Findings left for Timothy: see the report of this run.
+
+START FROM: B3. Last commit of Spanish work: see `git log --oneline` (the commits titled "Spanish iii-decl: ..."). Nothing is half done. Spanish is still hidden. B3 is III declinable, second half: `pronouns`, `tenses`, `subjunctive`, `participle`, `irregular`, each with its exercise (`pronouns-ex`, `tenses-ex`, `subjunctive-ex`, `participle-ex`, `irregular-ex`), added to `data/languages/iii-decl.es.js` (the screen file exists; add each deck and exercise before `fill-ex`, with the tile counts, and keep `fill-ex` last; a helper that does this is not in the repository, so edit the file directly or write one). Methods that worked in B2: the Academy's *Manual* (Internet Archive item `RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola`, the plain-text file) for every grammatical statement, citing its paragraph numbers; Allen and Greenough (item `allengreenoughsn01alle`) for the Latin comparisons; the Manual's verb tables (section 4.9) for every verb form. Examples already used in the Spanish layer: check them with a search of `data/` before using them again (the overview and `lang.ii.es` use *libro*, *casa*, *puerta*, *hablo*, *hablamos*, *he hablado*, *hablaré*; B2 used *cantar*, *trabajar*, *beber*, *correr*, *escribir*, *subir*, *estudiar*, *obtener*, *detener* for fresh forms).
