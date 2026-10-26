@@ -196,3 +196,194 @@ alter  .  .  .  alterum  (§  315.  a) .
 
 Omission  of  Subject  or  Verb 
 
+
+##### government
+
+### A&G §146 (the paradigm of ille) (OCR lines 8660 to 8750)
+
+ille,  that 
+
+
+Singular 
+
+Plural 
+
+M. 
+
+F. 
+
+N. 
+
+M. 
+
+f. 
+
+N. 
+
+Nom. 
+
+ille 
+
+ilia 
+
+illud 
+
+illl 
+
+illae 
+
+ilia 
+
+Gen. 
+
+illius 
+
+illius 
+
+illius 
+
+illorum 
+
+illarum 
+
+illorum 
+
+Dat. 
+
+ill! 
+
+illl 
+
+illl 
+
+illls 
+
+illis 
+
+illis 
+
+Ace. 
+
+ilium 
+
+illam 
+
+illud 
+
+illos 
+
+illas 
+
+ilia 
+
+Abl. 
+
+ill5 
+
+ilia 
+
+illo 
+
+mis 
+
+illis 
+
+illis 
+
+Iste,  ista,  istud,  that  (yonder),  is  declined  like  ille. 
+
+### A&G §274 (OCR lines 18619 to 18661)
+274.  The  person  or  thing  immediately  affected  by  the  action  of 
+a  verb  is  called  the  Direct  Object. 
+
+A  person  or  thing  indirectly  affected  by  the  action  of  a  verb 
+is  called  the  Indirect  Object. 
+
+Only  transitive  verbs  can  have  a  Direct  Object ;  but  an  Indirect 
+Object  may  be  used  with  both  transitive  and  intransitive  verbs 
+(§§  362,  366):  — 
+
+pater  vocat  f ilium  (direct  object),  the  father  calls  his  son. 
+
+mini  (ind.  obj.)  agrum  (dir.  obj.)  ostendit,  he  showed  me  afield. 
+
+mini  (ind.  obj.)  placet,  it  is  pleasing  to  me. 
+
+Note.  —  The  distinction  between  transitive  and  intransitive  verbs  is  not  a  fixed  dis- 
+tinction, for  most  transitive  verbs  may  be  used  intransitively,  and  many  verbs  usually 
+intransitive  may  take  a  direct  object  and  so  become  transitive  (§  388.  a). 
+
+a.  With  certain  verbs,  the  Genitive,  Dative,  or  Ablative  is  used 
+where  the  English,  from  a  difference  in  meaning,  requires  the  direct 
+object  (Objective)  :  — 
+
+hominem  video,  I  see  the  man  (Accusative). 
+
+hominl  servio,  I  serve  the  man  (Dative,  see  §  367). 
+
+hominis  misereor,  I  pity  the  man  (Genitive,  see  §  354.  a). 
+
+homine  amico  utor,  I  treat  the  man  as  a  friend  (Ablative,  see  §  410). 
+
+
+166  SYNTAX:    THE   SENTENCE  [§§274-277 
+
+b.  Many  verbs  transitive  in  Latin  are  rendered  into  English  by 
+an  intransitive  verb  with,  a  preposition:  — 
+petit  aprum,  he  aims  at  the  boar. 
+laudem  affectat,  he  strives  after  praise. 
+curat  valetudinem,  he  takes  care  of  his  health. 
+meum  casum  doluerunt,  they  grieved  at  my  misfortune. 
+ridet  nostram  amentiam  (Quinct.  55),  he  laughs  at  our  stupidity. 
+
+
+### A&G §362 (OCR lines 22423 to 22440)
+362.  The  Dative  of  the  Indirect  Object  with  the  Accusative 
+of  the  Direct  may  be  used  with  any  transitive  verb  whose  mean- 
+ing allows  (see  §  274) :  — 
+
+do  tibi  librum,  I  give  you  a  book. 
+
+illud  tibi  affirm  5  (Fam.  i.  7.  5),  this  I  assure  you. 
+
+conimendo  tibi  eius  omnia  negotia  (id.  i.  3),  I  put  all  his  affairs  in  your  hands 
+
+(commit  them  to  you), 
+dabis  profecto  misericordiae  quod  iracundiae  negavistl  (Deiot.  40),  you  will 
+
+surely  grant  to  mercy  what  you  refused  to  wrath. 
+litteras  a  te  mihi  stator  tuus  reddidit  (Fam.  ii.  17),  your  messenger  delivered 
+
+to  me  a  letter  from  you. 
+
+
+### A&G §367 (OCR lines 22598 to 22625)
+367.  Many  verbs  signifying  to  favor,  help,  please,  trust,  and 
+
+their  contraries ;  also  to  believe,  persuade,  command,  obey,  serve, 
+
+resist,  envy,  threaten,  pardon,  and  spare,1  take  the  Dative :  — 
+
+ctir  mihi  invides,  why  do  you  envy  me  f 
+
+mihi  parcit  atque  ignoseit,  he  spares  and  pardons  me. 
+
+Ign5sce  patrio  doldri  (Li v.  iii.  48),  excuse  a  father's  grief. 
+
+subvenl  patriae,  opitulare  conlegae  (Fam.  x.  10-  2),  come  to  the  aid  of  your 
+
+country,  help  your  colleague. 
+mihi  nSn  displicet  (Clu.  144),  it  does  not  displease  me. 
+non  omnibus  servio  (Att.  xiii.  49),  I  am  not  a  servant  to  every  man. 
+non  parcam  operae  (Fam.  xiii.  27),  I  will  spare  no  pains. 
+sic  mihi  persuasi  (Cat.  M.  78),  so  I  have  persuaded  myself. 
+mihi  Fabius  debebit  ignoscere  si  minus  eius  famae  parcere  videbor  quam  antea 
+
+consului  (Tull.  3),  Fabius  will  have  to  pardon  me  if  I  seem  to  spare  his 
+
+reputation  less  than  I  have  heretofore  regarded  it. 
+huic  legiSni  Caesar  confldebat  maxime  (B.  G.  i.  40.  15),  in  this  legion  Ccesar 
+
+trusted  most 
+
+

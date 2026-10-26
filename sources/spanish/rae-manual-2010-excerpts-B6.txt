@@ -468,3 +468,721 @@ do ~*amada}. Como la voz es un exponente morfológico de la diátesis, no es
 enteramente correcto hablar de voz pasiva en español, ya que esta forma de diáte- 
 sis se manifiesta con recursos sintácticos. Se prefiere generalmente, por esta 
 
+
+##### government
+
+### Manual §16.5 (introduction), 16.5.1a to 16.5.1d (OCR lines 29620 to 29726)
+1 6.5 Variación formal en los pronombres átonos de tercera 
+persona: leísmo, laísmo y loísmo 
+
+Como se vio en el § 1 6.2.1 d, las formas átonas me, te, se, nos, os son comunes al acu- 
+sativo y al dativo. La distinción entre ambos casos se daba en latín, pero solo se mantu- 
+vo en las formas de tercera persona, que presentan lo, la, los, las para el acusativo 
+y le, les para el dativo. No obstante, comenzó ya en latín, y prosigue en romance, la 
+tendencia a la confusión también entre estas formas. Se denomina leísmo al uso de 
+las formas de dativo le, les en lugar de las de acusativo, como en Le mataron; Les 
+contrataron. El laísmo consiste en emplear las formas femeninas de acusativo por 
+las de dativo (La dije que esperara), mientras que en el loísmo son las formas mascu- 
+linas de acusativo las que sustituyen a las de dativo (Los dije que no se movieran de 
+aquí). Repárese en que los tres fenómenos afectan a la forma de los pronombres, no 
+a su función, de modo que el pronombre la, por ejemplo, ejerce la función de objeto 
+indirecto en La duelen las muelas. 
+
+
+16.5.1 El leísmo 
+
+1 6.5.1 a Suelen distinguirse tres tipos de leísmo: 
+
+A. Leísmo de persona masculino: uso del pronombre le como acusativo con sus- 
+tantivos masculinos de persona: A Mario le premiaron en el colegio. 
+
+B. Leísmo de persona femenino: uso del pronombre le como acusativo con sustan- 
+tivos femeninos de persona: A Laura le premiaron en el colegio. 
+
+C. Leísmo de cosa: uso del pronombre le como acusativo con sustantivos de cosa: Te 
+devuelvo el libro porque ya le he leído. 
+
+Lina variante de los tipos A y B es el llamado leísmo de cortesía, que consiste en 
+limitar el leísmo a los usos en que le concuerda con la forma usted, como en Le saludo 
+atentamente; Le atenderé muy gustosamente. Esta forma de leísmo se ha atestiguado 
+
+
+16.5.1b 
+
+
+El pronombre personal 
+
+
+316 
+
+
+en hablantes que no practican otras formas de leísmo. En los apartados que siguen no 
+se analizará el origen del leísmo ni se intentará tampoco explicar las razones de la 
+distribución histórica, geográfica o social de cada uno de los tipos de leísmo descritos, 
+sino que se caracterizará someramente su naturaleza gramatical, así como la valora- 
+ción social que recibe. 
+
+1 6.5.1 b El leísmo de persona masculino (tipo A) es el más frecuente, tanto en el 
+español antiguo como en el moderno. Aparece profusamente en los textos medieva- 
+les y clásicos, y era incluso la forma recomendada por la Real Academia Española 
+hasta la cuarta edición de su gramática (1796). Mientras que en plural es menos fre- 
+cuente, y no se recomienda, puede documentarse en singular en un gran número de 
+escritores prestigiosos y no se considera incorrecto. Es considerablemente más 
+frecuente en los textos españoles que en los americanos, pero no está ausente de 
+estos últimos, como muestran los ejemplos siguientes: 
+
+Le ayudó a levantarse y el muchacho le miró casi airado (Núñez, E., Insurgente); Noso- 
+tros aislamos al hombre del Universo, él le liga totalmente, le hace solidario (Vallejo, 
+Trilce); Pero también deseamos que se conozca por qué sus hijos le admirábamos ( Hoy 
+25/1/1983); Y así le vimos de nuevo con el capote y la franela, en lances artísticos y pases 
+emotivos (Nacional 19/1/1997). 
+
+16.5.1c El leísmo de persona femenino (tipo B) está mucho menos extendido, 
+carece de prestigio y se considera incorrecto. Era hasta hace poco relativamente fre- 
+cuente en el norte de España, y aparece también de manera ocasional en los textos 
+de escritores vascos: Mi madre iba, pero iba a hurtadillas, sin decírmelo, y se ponía 
+detrás de la columna, donde yo no le viera (Unamuno, Tula). Se considera asimismo 
+incorrecto el leísmo de cosa (tipo C), tanto en singular, más frecuente (El cuadro aún 
+no le he colgado), como en plural (Los cuadros aún no les he colgado). 
+
+16.5.1d La valoración del leísmo está en función de las alternancias entre 
+dativo Y acusativo. En efecto, unos hablantes construyen ciertos verbos (nota- 
+blemente, ayudar, creer, escuchar y obedecer, pero no solo estos) con objeto directo, 
+mientras que otros lo hacen con objeto indirecto. Los primeros perciben como leístas 
+expresiones como ayudarles o creerles, que resultan naturales para los segundos. Las 
+diferencias a las que dan lugar estos verbos, algunos de los cuales ya admitían dativo 
+en latín, suelen estar sujetas a variación geográfica. Por ejemplo, en la mayor parte de 
+los países americanos se construye creer con complemento indirecto de persona 
+(creer a María > creerle), pero con complemento directo de cosa (creer una histo- 
+ria > creerla); ¿O sea que tú le crees a la vieja? —le preguntó Paloma—. ¿Tú sí le crees? 
+(Bayly, Días). Se rechazan en esos países, por consiguiente, oraciones como María no 
+fue creída (que resulta natural en España), pero son normales otras como Las ideas de 
+María no fueron creídas. Se atestiguan en muchas áreas hispanohablantes alternan- 
+cias como A mi hermana solo {le~la} obedecen cuando se enoja o A ella no {le~la} 
+pude escuchar. Las alternancias entre complementos de persona e indirectos de cosa 
+tienen otras consecuencias sintácticas. De hecho, cuando se construyen con comple- 
+mento de persona, algunos de estos verbos no muestran en el español general ciertas 
+propiedades características de los verbos transitivos. Suelen rechazar las pasivas re- 
+flejas: No se obedecen {muchas leyes ~*muchos jueces}, así como las construcciones 
+
+
+317 
+
+
+Leísmo, laísmo y loísmo 
+
+
+1 6.5.1 g 
+
+
+con infinitivos de interpretación pasiva (§ 26.3.2). Resultan, en efecto, mucho más na- 
+turales leyes imposibles de obedecer, afirmaciones difíciles de creer que madres imposi- 
+bles de obedecer, personas difíciles de creer. 
+
+
+### Manual §16.5.1e to 16.5.1h (and the end of the paragraph) (OCR lines 29727 to 29811)
+1 6.5.1 e Favorece la alternancia del dativo con el acusativo la presencia de un 
+complemento predicativo del objeto directo. El uso del dativo con el verbo llamar 
+seguido de complemento predicativo predominó en la lengua clásica y se extendió a 
+los complementos de cosa, incluso femeninos: ¡ Qué diabro, a la bodega/ le llaman 
+cantina acá! (Torres Naharro, Tinellaria'). En el español actual (sin excluir el de 
+América, en el que es infrecuente el leísmo), sigue siendo común el dativo en estas 
+construcciones. No es, pues, censurable su uso en las siguientes secuencias: Dos mi- 
+nutos después, dejada la estación de este nombre, se enfrenta a la Casa del Altillo, como 
+le llaman los caminantes (Obligado, Tradiciones j; Les llaman “graffitis”, señor (Leñe- 
+ro, Noche). La influencia de un complemento predicativo nominal se percibe tam- 
+bién con otros verbos que, siendo transitivos, se registran construidos con dativo 
+cuando el predicativo está presente: 
+
+Le tenían por prudente, discreto y maduro (Roa Bastos, Vigilia); Se tuvo que enfrentar, 
+de visita por un barrio protestante del Este de Belfast, a un grupo de unionistas encoleri- 
+zados que le tacharon de traidor (País [Col.] 14/10/1997); Cuando Ramfis tenía cuatro 
+años de edad, le nombré coronel del Ejército (Vázquez Montalbán, Galíndez ). 
+
+Pueden considerarse predicativos los infinitivos que se construyen con verbos de 
+percepción o causación (§ 26.5.1), por lo que favorecen también el dativo: No le habéis 
+oído llorar (Pineda, Diálogos); Miraron hacia el salón y le vieron atravesar en dirección 
+a la biblioteca (Mendoza, Verdad). Como en otros casos, el leísmo de tipo A es aquí 
+menos frecuente en plural (Les nombraron alcaldes) y también lo es el de tipo B, que, 
+como se señaló, carece de prestigio (A María le nombraron delegada provincial). 
+
+1 6.5.1 f Las construcciones impersonales con se favorecen igualmente el uso del 
+
+dativo, hoy mayoritario en este contexto en el mundo hispánico. No obstante, re- 
+sulta menos habitual con el femenino, salvo en México y Centroamérica. Está más 
+restringida su extensión con nombres de cosa. He aquí algunos ejemplos de estas 
+pautas: 
+
+Y sobre todo se le ve deseoso de encontrar ayuda y colaboración (Uslar Pietri, Ofició); Su 
+viuda —si es que aún vivía— y sus hijos habían desaparecido durante la guerra, y no se 
+les pudo avisar de aquella pérdida (Caso, Pesó); A sus 66 años, María Estela Martínez 
+—se le conoció públicamente como “Isabelita Perón”— compareció por primera vez ante 
+la justicia (Proceso [Méx.] 9/2/1997); A Bello, por cierto, se le vincula por su trabajo en 
+inteligencia con el asesor Vladimiro Montesinos (Caretas 10/4/1997). 
+
+1 6.5.1 g Los verbos aburrir, agradar, cansar, divertir, fascinar, impresionar, moles- 
+tar, preocupar y otros análogos designan procesos que afectan al ánimo y se interpre- 
+tan como reacciones emotivas. Pueden construirse con dativo o acusativo, a veces 
+con repercusiones en el significado. En efecto, se percibe cierta tendencia a usar el 
+acusativo cuando el pronombre se refiere a un paciente sobre el que se ejerce alguna 
+acción, voluntaria o no, como en Siento molestarla, señora (Marsé, Rabos); Mario se 
+
+
+1 6.5.1 h 
+
+
+El pronombre personal 
+
+
+318 
+
+
+dispuso a maniobrar sus barras para impresionarla con la destreza de sus muñecas 
+(Skármeta, Cartero ). Se incrementa proporcionalmente el uso del dativo (aunque al- 
+ternando de manera visible con el acusativo en gran parte de América) cuando no es 
+una persona, sino una causa externa, la que provoca que alguien experimente la sen- 
+sación o la reacción de que se habla. Son habituales en este caso los sujetos formados 
+por nombres de acción y subordinadas sustantivas: 
+
+Debe de ser que le afectó el soroche (Bayly, Días)-, Le molestaba tener que dialogar con 
+un mocoso de igual a igual (Mendoza, Ciudad)-, Le alegraba ver que ya se encontraba 
+repuesta (Dou, Luna). 
+
+1 6.5.1 h Los verbos de influencia, como animar, autorizar, convencer, forzar, inci- 
+tar, obligar, etc., se construyen con un complemento directo y uno preposicional (La 
+invitaron a una cena; Lo animaron a asistir al bailé). Muestran también la alternancia 
+«dativo ~ acusativo», sobre todo con pronombres en masculino. A estos verbos se 
+asimilan los causativos hacer y dejar (§ 26.5.1 e). Se reproducen a continuación algu- 
+nos textos que muestran esta alternancia: 
+
+A empujones, lo obligaron a arrodillarse y, de inmediato, lo encapucharon (García, A., 
+Mundo); Sus preocupaciones sobre los asuntos eternos y definitivos le obligan a la justi- 
+cia y a la bondad (Arrom, Certidumbre); Allí lo convencería de que fuese pronto a Golfi- 
+to, donde lo aguardaban con desesperación (Aguilera Malta, Pelota); Hasta que un alto 
+empleado de la Compañía que iba en el tren no se acercó al maquinista a convencerle de 
+que tenía presión, no salimos (Azaña, Carta); Juan Pérez los dejó discutir, acalorarse, 
+justificarse (Donoso, Casa); Las autoridades fronterizas no les dejaban pasar hacia 
+México (Chavarría, Rojo). 
+
+Se percibe también la alternancia «dativo ~ acusativo» con atender y telefonear. 
+
+
+### Manual §33.2.2a (OCR lines 48616 to 48626)
+
+33.2.2a Con algunos verbos se producen alternancias de construcción entre el 
+sujeto y los complementos preposicionales (sean de régimen o adjuntos) sin que las 
+funciones semánticas se alteren. En efecto, el verbo gustar se construye según la 
+pauta gustarle a alguien [complemento indirecto] algo [sujeto], como en Nos gusta- 
+ría utilizar otros métodos (ABC 28/5/1989), pero también en la variante gustar al- 
+guien [sujeto] de algo [complemento de régimen], característica de los registros 
+formales: Barda no gustaba de insistir cuando sugería algún asunto desagradable en la 
+memoria de sus amigos (Satué, Desierto). El verbo ir aparece en pares como irle a 
+alguien [complemento indirecto] bien el negocio [sujeto] ~irle a alguien [comple- 
+mento indirecto] bien en el negocio [complemento circunstancial], donde la segunda 
+
+### Manual §34.3.1, 34.3.1a to 34.3.1d (OCR lines 49539 to 49618)
+34.3 El complemento directo preposicional 
+
+34.3.1 Complementos de persona y de cosa personificada. 
+
+Tendencias generales 
+
+El complemento directo puede ir encabezado por la preposición a. Esta aparece de 
+forma característica cuando el complemento directo nominal designa una o varias 
+personas (He visto a tu hermano), pero no suele aparecer cuando designa cosas (He 
+visto tu paraguas). Existen, sin embargo, numerosos casos de vacilación, y también 
+de alternancia, unas veces con cambios de sentido apreciables y otras con solo una 
+leve diferencia de significado. 
+
+34.3.1 a Aparece sistemáticamente la preposición a ante los pronombres persona- 
+les tónicos en construcciones de doblado o de duplicación pronominal, como se 
+recordó en el § 34.2.2a. También la llevan los pronombres indefinidos que denotan 
+personas, como en No obligaremos {a nadie ~*nadie}. No obstante, uno, alguien y al- 
+guno aparecen también sin ella cuando son complementos de ciertos verbos, sobre 
+todo de percepción y de sentido prospectivo (ver, buscar, querer, necesitar, etc.): 
+
+
+659 
+
+
+El complemento directo preposicional 
+
+
+34.3.1 d 
+
+
+Quería saber si habían visto alguien mientras él dormía (Vargas Llosa, Casa); Aureliano 
+Segundo quitó el candado buscando alguien con quien conversar (García Márquez, 
+Cien años). Exigen la preposición los interrogativos, los exclamativos y los relativos 
+que denotan personas: ¿A quién buscan ustedes ? ~ *¿Quién buscan ustedes?; Solo po- 
+demos medir el dolor por la pérdida de alguien a quien amamos o conocimos (País 
+[Esp.] 9/1/1997). No constituyen excepción oraciones como No encuentro quien me 
+ayude, puesto que el segmento que desempeña aquí la función de complemento di- 
+recto es la relativa sin antecedente expreso (quien me ayudé), no el pronombre rela- 
+tivo quien. 
+
+34.3.1b La preposición a es obligada con los nombres propios de personas y de 
+animales: Cuando, de vuelta del cortijo, fui a ver a Platero, me lo encontré mustio 
+y doloroso (Jiménez, Platero). Cuando los nombres propios de persona se usan 
+metonímicamente, suelen mantener la preposición, como en los casos en que se 
+habla del autor para hacer referencia a su obra: traducir a Platón, interpretar a 
+Haydn, leer a Cervantes. La pierden, en cambio, si se usan como comunes para desig- 
+nar la obra de algún artista particular, como en Vendieron ese Picasso (en lugar de a 
+ese Picasso) por cien mil dólares. Los nombres comunes referidos a animales se asimi- 
+lan a los de persona en muchos contextos, especialmente si se trata de animales do- 
+mésticos: Y así como quien regresa al hogar y no encuentra a su gato y lo busca con 
+angustia por las calles del barrio [...] (Jodorowsky, Pájaro). Hoy son poco frecuentes 
+los topónimos introducidos por preposición, como En nuestra excursión visitare- 
+mos a Sevilla, opción que recomendaba la Gramática académica de 1931, frente a la 
+preferencia actual por ... visitaremos Sevilla. 
+
+34.3.1 c Requieren la presencia de la preposición los nombres que designan cosas 
+personificadas, como en: [...] comenzando en seguida a lanzar unos gemidos sordos 
+como llamando a la muerte (Panero, Lugar) o en Durante varios minutos era como si 
+abrazase a un árbol o a una roca (Delibes, Mario). Los procesos de personificación 
+son más frecuentes con los predicados que se construyen de forma característica con 
+objetos directos de persona, como en los ejemplos anteriores, y también en adorar al 
+sol (‘darle culto’) o en ¿Cómo no iba a odiar al otoño? (Clarín 22/3/1979), entre otros 
+muchos semejantes. Suelen personificarse asimismo, y por tanto construirse con 
+preposición, los nombres de empresas, corporaciones, instituciones y, en general, 
+agrupaciones de personas que se asimilan en este uso a los nombres colectivos, 
+como colegio, compañía, consejo, junta, sindicato: Si yo defiendo a una empresa tildaré 
+como primer argumento que los otros defienden a la empresa contraria (Tiempos 
+5/9/2000). 
+
+34.3.1 d Los nombres de persona se usan a veces sin preposición en la función de 
+objeto directo cuando designan tipos de individuos. Así ocurre en causar heridos, 
+producir licenciados u ocasionar muertos. Se registran incluso grupos nominales de- 
+finidos en esta pauta, como en Mitrione prefería los borrachitos a los presos políticos 
+(Chavarría, Rojo) o en [...] antes de llevar los niños a la escuela (Santiago, Sueño). Si 
+bien estas oraciones admiten variantes con la preposición, no se admitiría, en cam- 
+bio, *... antes de llevar su hijo a la escuela, con objeto directo no compatible con la 
+interpretación de tipo. En la misma línea, los verbos elegir, designar, votar, nombrar 
+y otros similares admiten alternancias entre la presencia de preposición, cuando el 
+
+
+
+### Manual §34.3.2b to 34.3.3f (OCR lines 49648 to 49775)
+34.3.2b Se dan numerosas alternancias de presencia y ausencia de preposición 
+con los grupos nominales de persona formados con el artículo indefinido o cuantifica- 
+dores, como en Buscaba {un amigo~aun amigo} o en Vi {muchos políticos ~ a muchos 
+políticos}. Esta alternancia se explica tradicionalmente de acuerdo con la distinción 
+entre la interpretación específica y la inespecífica de los grupos nominales, es decir, 
+según hagan o no referencia a individuos identificables o reconocibles. El peso de 
+este factor no es, sin embargo, decisivo. Así, en la oración Usted no necesita a un ci- 
+rujano sino a un confesor (Rojas, C., Hidalgo) no se habla de individuos particulares, 
+sino más bien de cualquier persona que cumpla la condición de ‘ser cirujano’ o la de 
+‘ser confesor’. Tampoco los contrastes del tipo Mató {un león ~ a un león} en su últi- 
+mo viaje a Africa o Vimos {tres policías ~ a tres policías} en la esquina parecen radicar 
+en la posible identificación de los referentes. Parece, pues, conveniente tener en 
+cuenta otros factores, en especial la clase semántica del verbo transitivo implicado 
+en cada caso. Se considera brevemente esta cuestión en los apartados que siguen. 
+
+
+34.3.3 El complemento directo preposicional y las clases semánticas 
+de verbos 
+
+Los verbos transitivos pueden dividirse en tres grupos según introduzcan o no la 
+preposición a cuando se construyen con complementos directos de persona: 
+
+A. Verbos que exigen la preposición 
+
+B. Verbos que rechazan la preposición 
+
+C. Verbos compatibles con la preposición 
+
+
+661 
+
+
+El complemento directo preposicional 
+
+
+34.3. 3d 
+
+
+34.3.3a Entre los verbos del grupo A destacan los que alternan los objetos direc- 
+tos con los indirectos. Se obtienen así contrastes como Teníamos que ayudar ^mu- 
+chos ~ a muchos} enfermos (frente a atender, que es compatible con las dos opciones); 
+Obedecemos {* demasiados ~ a demasiados} gobernantes; Sirvió {*varios~a varios} re- 
+yes; un periodista famoso por insultar {*los~a los} políticos. También requieren la 
+presencia de la preposición los verbos de afección: Esas películas asustan ^mu- 
+chos ~ a muchos} espectadores; supuestos éxitos diplomáticos que impresionan {*muy 
+pocos ~ a muy pocos}. 
+
+34.3.3b Al grupo B, el más reducido, corresponden los verbos de causación, como 
+en La crisis producirá {miles~*a miles} de desocupados. Cabe también integrar en 
+este grupo, aunque con mayores restricciones, verbos como pedir, demandar o solici- 
+tar en ciertos contextos: Habían pedido {más ~ *a más} jueces, pero la Administración 
+no los proporcionaba, frente a Habíamos pedido {este juez ~ a este juez} en particular. 
+Se incluyen asimismo en el grupo B los predicados existenciales haber y tener, que 
+están sujetos al llamado efecto de definitud (§ 1 5.3.2). No se dice, en efecto, *Hay 
+a muchas personas interesadas ni *Julián tuvo a un solo hijo. Sin embargo, tener ad- 
+mite la preposición cuando significa ‘dar a luz’ ( cuando Ana tuvo a su tercer hijo), en 
+las construcciones presentativas como Aquí tenemos a la autoridad sanitaria (Gimé- 
+nez Bartlett, Serpientes ), y también cuando se construye con complementos predica- 
+tivos: Y es cierto que tener a un hijo en las guerrillas podía suponer una condena a 
+muerte para un padre (Ortiz-Armengol, Aviraneta ). 
+
+34.3.3c El grupo C es el más polémico de los tres porque la presencia de la prepo- 
+sición depende de factores sintácticos, semánticos y discursivos estrechamente rela- 
+cionados. Los casos más nítidos son los que cabe asociar con acepciones distintas de 
+los verbos, como en distinguir un hombre (‘percibirlo’) y distinguir a un hombre (‘per- 
+cibirlo’, pero también ‘honrarlo’), o en abandonar una ciudad (‘dejarla, salir de ella’) 
+y abandonar a una ciudad (‘dejarla en el abandono, descuidarla’). Asimismo, en Co- 
+nozco varios dentistas en la ciudad, se da a entender que el que habla sabe de su 
+existencia, mientras que en Conozco a varios dentistas en la ciudad se sugiere rela- 
+ción o trato personal con ellos. 
+
+34.3.3d Otras distinciones que se establecen en el grupo C son semánticas, pero 
+no puede decirse que sean léxicas, en el sentido de que no representan informacio- 
+nes que podrían reflejar los diccionarios. Es el caso de los llamados verbos inten- 
+SIONALES (§ 15.5.3b, 25.2.2b y 25.4.2a), casi todos de naturaleza prospectiva. La 
+ausencia de la preposición favorece con ellos la interpretación de tipo o clase ( Buscó 
+las personas adecuadas; Necesito el mejor abogado), pero su presencia induce la in- 
+terpretación en la que se habla de individuos particulares ( Buscó a las personas ade- 
+cuadas; Necesito al mejor abogado). En otros casos, como los ya citados Mató {un 
+león- a un león} en su último viaje a Africa o Vimos {tres policías - a tres policías} en 
+la esquina, la presencia de la preposición se ha interpretado como una invitación a 
+individualizar a las personas, los animales o las cosas de que se habla o a aportar más in- 
+formación sobre ellos. También se ha señalado que en oraciones como Es difícil 
+parar (a) un tren en marcha, en atacar (a) los aviones o en bombardear (a) las ciuda- 
+des costeras, la elección de la preposición acentúa el proceso de personificación —y, 
+por tanto, el grado de animacidad que se atribuye a esos seres—, mientras que, si se 
+
+
+34.3.3e El complemento directo. Transitividad e intransitividad 
+
+
+662 
+
+
+evita, se entiende que se habla de cosas materiales sin capacidad de acción. Al efecto 
+de personificación o de animicidad se ha atribuido también la elevada frecuencia 
+con que la preposición aparece ante nombres no personales en las construcciones de 
+complemento predicativo, como mirando a las nubes pasar o El mar lejano, el mar 
+entero, murmuró mi padre viendo a las naves de Pacífica alejarse sin ellos (Fuentes, 
+Cristóbal). 
+
+34.3. 3e Se suele denominar uso distintivo de la preposición a ante objeto 
+directo no personal al empleo de la preposición para marcar esta función sintáctica 
+por oposición a otras, notablemente el sujeto, pero también otros complementos del 
+verbo. Los predicados en los que se reconoce este valor de modo característico 
+expresan acciones o situaciones que involucran a varios participantes (no animados 
+en casi todos los casos), por lo que la preposición se convierte en un recurso grama- 
+tical que permite distinguir entre ellos. Así ocurre con acompañar (a) la música, con- 
+tener (a) los polos magnéticos, modificar (a)l primer verbo, comparar (a) la universidad 
+con una empresa. Por la misma razón (es decir, porque se alude a la presencia de más 
+participantes), es común la variante con a en las comparaciones: Lo temo como al 
+fuego; Detesto los domingos, incluso más que (a) los lunes; Conozco a Raúl como a la 
+palma de mi mano (Mendizábal, Cumpleaños). 
+
+34.3.3f Algunos verbos pueden tener complementos directos e indirectos de per- 
+sona simultáneamente. Es posible, en efecto, recomendar (o presentar, enviar, entre- 
+gar, etc.) a una persona (OD) a otra (OI). Son infrecuentes estas construcciones 
+cuando los dos complementos están representados por nombres propios. En estos 
+casos la preceptiva recomendaba tradicionalmente evitar la preposición ante el ob- 
+jeto directo ( Presentó Luisa a Marta), pero ha acabado imponiéndose la opción que 
+la contiene, tanto con los nombres propios como con los comunes: Fue él quien le 
+presentó a mi madre a Nicolás Blanch (Ribera, Sangre). 
+
+
+34.4 La transitividad y la interpretación del complemento directo 
+
+34.4.1 El concepto de transitividad 
+
+
+### Manual §35.1.1a, 35.1.1b (OCR lines 50262 to 50285)
+35.1 .1 a Se llama complemento indirecto u objeto indirecto la función sintác- 
+
+tica desempeñada por los pronombres átonos de dativo, así como por los grupos 
+preposicionales encabezados por la preposición a que pueden ser reemplazados por 
+un pronombre de dativo ( Jacinto pidió a su esposa las llaves > Le pidió las llaves), 
+aunque también pueden concurrir con él: Al Rey le han gustado las capillas que ha 
+visto (Lázaro Carreter, Crónica). Este último caso ilustra las llamadas construccio- 
+nes de doblado (o de duplicación) del pronombre Átono. No se entiende que el 
+verbo posea en ellas dos complementos indirectos, sino que uno reproduce el otro, o 
+bien que ambos forman un segmento discontinuo (Al Rey... le). Desde el punto de 
+vista semántico, los complementos indirectos designan el receptor, el destinatario, 
+el experimentador, el beneficiario y otros participantes en una acción, un proceso 
+o una situación. 
+
+35.1.1b En algunas gramáticas tradicionales se consideraban también comple- 
+mentos indirectos los encabezados por la preposición para cuando introducen el 
+destinatario de alguna acción. En la actualidad se piensa que no lo son, ya que no 
+admiten la sustitución por pronombres dativos. No son equivalentes, por tanto, Le 
+dio un regalo a su amigayLe dio un regalopara su amiga. Los grupos preposicionales 
+con para son, además, compatibles con los complementos indirectos, como se ve en 
+el ejemplo anterior y en Le entrega la carta para el Rey y le ordena que no acuda a 
+Villa Giralda (Anson, Don Juan), donde se comprueba que el pronombre dativo le y 
+el grupo preposicional pura el Rey tienen referentes distintos. 
+
+
+### Manual §35.2.1a (OCR lines 50392 to 50400)
+35.2.1a Los pronombres que desempeñan la función de complemento indirecto 
+pueden ser Átonos o tónicos. Los átonos presentan el caso dativo. Poseen formas 
+características para la tercera persona (le, les), pero no se distinguen de los pronom- 
+bres acusativos en las demás (me, te, nos, os, se). Los tónicos aparecen en caso prepo- 
+sicional u oblicuo (§ 16.2) precedidos de la preposición a: mí, ti, vos, usted, él, ella, 
+nosotros, nosotras, vosotros, vosotras, ustedes, ellos, ellas, sí. Como se explica en el 
+§ 35.2.3b, en el español actual aparecen reduplicados mediante un pronombre átono: 
+Me lo dijeron a mí~ *Lo dijeron a mí. 
+
+
+### Manual §35.2.3a to 35.2.3e (OCR lines 50588 to 50660)
+35.2.3a Es habitual en español que los complementos indirectos formen cons- 
+trucciones llamadas de doblado o de duplicación. El grupo preposicional que 
+
+
+677 
+
+
+Constitución del complemento indirecto 
+
+
+35.2.3e 
+
+
+ejerce la función de complemento indirecto aparece reproducido en ellas mediante 
+un pronombre átono de dativo, como en Les gusta a ellas; Les gusta a las muchachas. 
+La duplicación del complemento indirecto es obligada en algunos casos, mientras 
+que en otros resulta opcional. 
+
+35.2.3b Al igual que sucede con los complementos directos (§ 34.2.2a), la duplica- 
+ción es obligatoria si el grupo preposicional se forma con pronombres personales 
+tónicos. Se obtienen así contrastes como Di el dinero a los muchachos ~*Di el dinero 
+a ellos; Entregó los documentos aljefe~*Entregó los documentos a él. También es obli- 
+gatoria en las construcciones de tópico inicial, que se denominan dislocadas 
+(§ 40.2.3). Se diferencia, pues, marcadamente (Les) lanzó ayer un buen sermón a sus 
+hijos, donde podría omitirse el pronombre les, de A sus hijos, les lanzó ayer un buen 
+sermón, donde no se omite si se desea mantener la estructura sintáctica. En cambio, el 
+pronombre puede o no aparecer en las construcciones de FOCO inicial (§ 40.3.3a-c): 
+¡A poca gente (le) habrá dado don Luis tantas oportunidades como a ti! En muchos 
+casos, la ausencia de duplicación se asocia con un registro más elevado: Dio la noticia 
+a su marido ~ Le dio la noticia a su marido. 
+
+35.2.3c Intervienen otros factores en la presencia o ausencia de duplicación. Así, 
+predomina la ausencia del pronombre dativo en las construcciones con comple- 
+mentos indirectos que se interpretan como destinatarios de una acción: Entregaron 
+a Alex un canasto (Allende, Ciudad ). El pronombre átono raramente se omite, en 
+cambio, con los que se interpretan como experimentadores, como se aprecia en el 
+contraste {Le duelen ~*Duelen} las muelas a Inés, salvo la excepción de los 
+grupos verbales formados con verbos de apoyo: Esas películas {dan~le dan} miedo 
+al niño. 
+
+35.2.3d En los casos de alternancia opcional, la elección puede tener consecuen- 
+cias semánticas. Se ha observado que la presencia del pronombre invita a interpretar 
+la completitud del evento, y también que contribuye a que se interprete que la si- 
+tuación descrita afecta en mayor medida al destinatario o implica algún cambio de 
+estado en él. Así, es esperable la ausencia de doblado en De estudiante enseñó inglés a 
+los inmigrantes latinos ( Nuevo Herald 30/6/1997), puesto que se describe en esa ora- 
+ción cierta actividad de alguien, sin que sea pertinente si los inmigrantes latinos 
+aprendieron o no inglés. La presencia del pronombre átono (les enseñó inglés...) daría 
+a entender, por el contrario, que ese aprendizaje se produjo. Se percibe también un 
+cambio de significado cuando se elimina el pronombre en los complementos indirec- 
+tos de dirección o destino. Así, en Acerqué la silla a Marisa se entiende que se mueve 
+una silla hacia la posición que ocupa cierta persona, mientras que en Le acerqué la silla 
+a Marisa puede entenderse igualmente que se hace algo en provecho de esa persona 
+(dativo de interés), sin que se conozca el destino del movimiento que se menciona. 
+
+35.2.3e Cuando los complementos indirectos designan al que experimenta algo, 
+es más fácil prescindir del pronombre átono si aquel está representado por el cuan- 
+tificador todos o por cuantificadores indefinidos, como en Esas medidas no (les) gus- 
+tan a todos; La subida de intereses no (le) sorprendió a nadie; El ruido nocturno (le) 
+molesta a mucha gente. Algo similar ocurre con las oraciones genéricas. Exceptuada 
+la lengua literaria, no resultan hoy naturales oraciones como La novela interesó 
+
+
+35.2.3Í 
+
+
+El complemento indirecto 
+
+
+678 
+
+
+mucho a Fernando, sin duplicación. Es común, en cambio, en todos los registros la 
+
+### Manual §35.3.1b (OCR lines 50720 to 50733)
+35.3.1 b Desde el punto de vista semántico, los complementos arguméntales se 
+pueden clasificar con dos criterios estrechamente interrelacionados: la interpreta- 
+ción del complemento y la clase semántica a la que corresponde el verbo al que 
+complementan. De acuerdo con el primer criterio, se distinguen cinco tipos funda- 
+mentales de complementos indirectos arguméntales: los que designan el destina- 
+tario de una acción o un proceso, como en Le entregaron el dinero; los que designan 
+el depositario de cierta experiencia, sea o no sensorial (experimentador o experi- 
+mentante), como en Le gustaba madrugar; los que expresan el punto de origen 
+de una acción o un movimiento, como en Se nos apartó (en alternancia con Se apartó de 
+nosotros ); los que denotan el término de esas acciones, como en Le fue a su mamá 
+con el cuento, y los que expresan la ubicación (en el sentido de ‘lugar en donde’, por 
+oposición a ‘lugar adonde’ o ‘lugar de donde’) de alguna cosa, como en Le puso flores 
+a la mesa. 
+
+
+### Manual §35.3.1g, 35.3.1h (OCR lines 50779 to 50810)
+35.3.1 g Son también arguméntales los complementos indirectos de los verbos de 
+afección (llamados a veces psicológicos) que designan muy diversas inclinacio- 
+nes o reacciones de tipo sensorial o anímico: Le picaba la barba (País [Esp.] 2/6/1987); 
+Ya sin la compañía de la princesa, el destartalado desamparo de la quinta me agobiaba 
+terriblemente (Mutis, MaqrolT). Pertenecen a este grupo, entre otros, los verbos 
+aburrir, agradar, alegrar, asombrar, asustar, atraer, cansar, complacer, desagradar, 
+disgustar, divertir, doler, encantar, entristecer, entusiasmar, extrañar, gustar, herir, 
+interesar, irritar, molestar, ofender, pesar, preocupar, sorprender. El complemento in- 
+directo de los verbos de afección designa el individuo que experimenta algo, mientras 
+que en el esquema sintáctico más común, la causa de la sensación o el sentimiento 
+suscitado está representada por el sujeto: Le [complemento indirecto] encantaban 
+los boleros [sujeto]. 
+
+35.3.1 h Se ha resaltado en muchas ocasiones que los complementos indirectos de 
+los verbos de afección tienen ciertas propiedades en común con los sujetos. El para- 
+lelismo no se basa únicamente en la existencia de pares como Me admira tu 
+valor ~ Admiro tu valor o como lo que me apetece~lo que apetezco, sino también en 
+otros aspectos de la sintaxis. Así, por ejemplo, el sujeto de la oración principal pro- 
+porciona en un gran número de casos el antecedente del sujeto tácito del infiniti- 
+vo subordinado, como en Lulú prefiere 0 nadar en el mar (donde se marca con el 
+signo 0 el sujeto tácito del infinitivo y se subrayan los elementos correferentes). Los 
+complementos indirectos de los verbos de afección ejercen ese mismo papel sintác- 
+tico, a pesar de que no son sujetos: A Lulú le gusta 0 nadar en el mar. El modo 
+subjuntivo proporciona otro de esos puntos de contacto. En efecto, el sujeto del ver- 
+bo principal y el del subordinado no son correferentes en oraciones como Norberto 
+desea que regrese. Se obtiene el mismo resultado en A Norberto le agrada que regrese, 
+pero en este caso los elementos que no pueden correferir son el complemento 
+indirecto de la oración principal y el sujeto tácito de la subordinada. Existen otros 
+puntos de contacto, similares a estos, entre los complementos indirectos de los ver- 
+bos de afección y los sujetos de otros predicados. 
+
+35.3.1 i Se construyen también con complementos indirectos arguméntales los 
+
+### Manual §36.1.1a to 36.1.1f (OCR lines 51073 to 51156)
+36.1 .1 a El COMPLEMENTO DE REGIMEN (o DE RÉGIMEN PREPOSICIONAL) eS la fun- 
+ción sintáctica que desempeñan los grupos preposicionales arguméntales, es decir, 
+aquellos exigidos semánticamente por los predicados: 
+
+
+Los segmentos subrayados son los complementos de régimen de un verbo, un sus- 
+tantivo y un adjetivo, respectivamente. Como se puede apreciar, a diferencia de otras 
+funciones sintácticas (complemento directo, sujeto), los complementos de régimen 
+pueden estar seleccionados por sustantivos ( dependencia , traducción) y por adjetivos 
+( dependiente , traducible). Estos paradigmas se obtienen a menudo cuando las voces 
+proceden de verbos, de forma que heredan el régimen preposicional de estos (las 
+preposiciones de y a en nuestros ejemplos), como se explicó en los capítulos 1, 6 y 7. 
+
+36.1.1b La elección de la preposición con la que se introduce el complemento de 
+régimen suele estar motivada por factores semánticos además de por razones históri- 
+cas, lo que no significa que sea predecible: optar por, depender de, pensar en, disfrutar 
+de, recurrir a, etc. Dos predicados relativamente próximos en su significado pueden 
+manifestar regímenes distintos: confiar selecciona en (en su uso intransitivo), pero 
+fiarse elige de; repercutir se construye con en o sobre, pero afectar elige a; extenderse 
+selecciona también a (o hasta), pero abarcar pide objeto directo. 
+
+36.1.1 C La preposición seleccionada y la palabra que la selecciona manifiestan 
+a veces significados muy próximos, lo que produce cierto grado de redundancia. 
+
+
+depender de sus amigos 
+dependencia de sus amigos 
+dependiente de sus amigos 
+
+
+traducir al español 
+traducción al español 
+traducible al español 
+
+
+36.1 .Id 
+
+
+El complemento de régimen preposicional 
+
+
+686 
+
+
+Así, resulta natural que el verbo sacar seleccione la preposición de, que denota 
+‘lugar de origen’, o que dirigirse elija a, como otros verbos de dirección. La proxi- 
+midad semántica se refleja en algunos casos en que las preposiciones reproducen 
+el prefijo que contiene el predicado que las rige (§ 1 0.6.3b): interponerse (o interpo- 
+sición) entre, desligarse de, colaborar (o colaboración) con. Algunos hablantes llevan 
+más lejos esta redundancia cuando usan construcciones como enfrentarse contra 
+los enemigos o el acoso contra la prensa en lugar de las formas preferidas por la 
+lengua culta enfrentarse a los enemigos y el acoso a la prensa. 
+
+36.1 .1 d Algunos predicados eligen una única preposición ( disentir de, renuncia a, 
+carente de, propenso a), mientras que otros son compatibles con varias. Esta compa- 
+tibilidad múltiple es frecuente con predicados que introducen complementos que 
+denotan ‘materia’ o ‘asunto’ (hablar {de - sobre - acerca de - a propósito de} la política), 
+‘destino’ y ‘dirección’ (viajar {a -hacia -hasta} algún sitio) y ‘destinatario’ (su actitud 
+{con -para con - hacia -ante- respecto de} la gente). 
+
+36.1.1 e Como ocurre con los demás complementos, unas veces es necesario que 
+los de régimen estén presentes (ciudadanos carentes de recursos; Cuidaba de su madre; 
+Ya sabía de tu aversión a la informática) y otras pueden quedar sobrentendidos: No 
+te empeñes; Su dependencia es alarmante; Siempre fue una persona fiel. Así pues, aun- 
+que el complemento quede implícito, en el primer ejemplo se pide al interlocutor que 
+no se empeñe en alguna acción que se supone ya conocida para él, y por ello fácil- 
+mente recuperable a partir del contexto previo. En los otros ejemplos se habla de la 
+dependencia de algo y de la fidelidad de alguien a determinadas personas o cosas, 
+respectivamente. 
+
+36.1 .1f Los complementos de régimen de los verbos son compatibles con el com- 
+plemento directo (Llenó el vaso de agua; Ayúdame a bajar del coche; Lo invitaremos 
+a almorzar). En tales casos puede quedar implícito el complemento de régimen (Lle- 
+nó el vaso; Ayúdame; Lo invitaremos) o el complemento directo (Amenazó con dimi- 
+tir; Alguien debió haber avisado del peligro). Unos pocos verbos seleccionan dos 
+complementos de régimen, como comprometerse (a algo con alguien) o coincidir (con 
+alguien en algo). La mayor parte de los verbos con doble complemento de régimen 
+denotan movimiento o transferencia desde un punto de partida a un término (ir, 
+viajar, traducir). Los pares de preposiciones elegidas suelen ser desde... hasta... o de... 
+a... (§ 29.5.2), que a veces se han analizado como un único complemento de estruc- 
+tura compleja: En esa ocasión conoció a una pareja de sabios que viajaban de Chile a 
+Lima, por tierra (Vargas Llosa, Tía). 
+
+
+
+### Manual §36.1.2d (OCR lines 51208 to 51222)
+36.1. 2d El complemento de régimen alterna con el sujeto tanto en las construccio- 
+
+nes pronominales como en las no pronominales. Por lo general, los verbos pronomi- 
+nales se construyen solo con complemento de régimen (arrepentirse de, inmiscuirse 
+en, referirse a), pero unos pocos también admiten alternativamente complemento 
+directo o complemento de régimen: encontrarse a alguien -encontrarse con alguien; 
+tropezarse a alguien -tropezarse con alguien; quedarse algo - quedarse con algo. La 
+alternancia es más frecuente, sin embargo, entre la variante pronominal y la no prono- 
+minal del mismo verbo: en un gran número de casos se obtienen diferencias se- 
+mánticas muy marcadas (empeñar algo - empeñarse en algo; fijar algo -fijarse en 
+algo; negar algo -negarse a algo; despedir a alguien - despedirse de alguien); en otras 
+alternancias, en cambio, la diferencia de significados es más sutil (olvidar un nom- 
+bre-olvidarse de un nombre; admirar su inteligencia -admirarse de su inteligencia; 
+lamentar el error -lamentarse del error). 
+
+
+### Manual §36.3 (OCR lines 51371 to 51397)
+36.3 Alternancias preposicionales 
+
+Como se vio en el § 36.1.1 b, la selección de la preposición está relacionada con la 
+clase semántica a la que pertenezcan los predicados que requieren complementos 
+de régimen. También se explicó (§ 36.1 .Id) que muchos predicados pueden intro- 
+ducir dichos complementos con más de una preposición. Estas alternancias 
+preposicionales conllevan unas veces un cambio notable en el significado, y 
+otras solo una leve modificación o, incluso, no afectan al sentido. Así, el verbo acabar 
+selecciona de, por, con y en con complementos diferentes y con significados 
+muy diversos. También expresan significados distintos empezar por (‘realizar una 
+acción antes que otras’) y empezar a (‘dar comienzo a una acción’), así como acer- 
+tar a y acertar con, atreverse a y atreverse con, optar a y optar por, participar de y 
+participar en, tratar de y tratar con, entre otros muchos pares análogos. Entre las 
+alternancias en las que no se observan cambios semánticos notables cabe señalar 
+las siguientes: 
+
+a -hacia (mirar); a -hasta ( acercarse ); de -por ( avergonzarse ); a -de (distinto); a -en 
+
+(entrar); a - con (unir); a -para (ofrecerse); por -para (esforzarse). 
+
+La alternancia depende en ocasiones de la categoría gramatical que sigue a la prepo- 
+sición. Así, se prefieren atreverse a y (no) dudar en cuando la preposición intro- 
+duce un infinitivo (atreverse a hacer el examen; no dudar en responder ), pero 
+atreverse con y dudar de si precede a grupos nominales (atreverse con el examen ; 
+dudar de la respuesta ). 
+
+
+

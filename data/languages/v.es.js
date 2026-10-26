@@ -21,6 +21,21 @@ ARS.languages["lang.v.es"] = {
    "title": "Agreement in Spanish",
    "desc": "28 questions.",
    "exFor": "lang.v.es/agreement"
+  },
+  {
+   "id": "lang.v.es/government",
+   "kind": "study",
+   "built": true,
+   "title": "Government in Spanish",
+   "desc": "The personal a, the prepositions that verbs govern, the indirect object, gustar and verbs like it, and leísmo."
+  },
+  {
+   "id": "lang.v.es/more-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Government in Spanish",
+   "desc": "52 questions.",
+   "exFor": "lang.v.es/government"
   }
  ]
 };
