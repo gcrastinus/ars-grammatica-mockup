@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Emilia Pardo Bazán, El cisne de Vilamorta, chapter I, the first three sentences)
+WORK: Emilia Pardo Bazán (1851-1921), El cisne de Vilamorta (1885). The author died in 1921.
+EDITION OF THE SPANISH: El cisne de Vilamorta (Madrid: F. Fé, 1885), chapter I, read from the page image (Internet Archive item elcisnedevilamo00degoog, leaf 15). The edition prints the spelling of its own time (á, fué). The space before the semicolon after "invierno" is that of the page. Not compared with another copy (B14).
+ENGLISH: Mary J. Serrano, The Swan of Vilamorta (New York: Cassell Publishing Company, 1891), Project Gutenberg ebook #54105. Public-domain translation.
+
+### Spanish
+Allá detrás del pinar, el sol poniente extendía una zona de fuego, sobre la cual se destacaban, semejantes á columnas de bronce, los troncos de los pinos. El sendero era barrancoso, dando señales de haber sido devastado por las arroyadas del invierno ; á trechos lo hacían menos practicable piedras sueltas, que parecían muelas fuera de sus alveolos. La tristeza del crepúsculo comenzaba á velar el paisaje: poco á poco fué apagándose la incandescencia del ocaso, y la luna, blanca y redonda, ascendió por el cielo, donde ya el lucero resplandecía.
+
+### English (Serrano)
+Behind the pine grove the setting sun had left a zone of fire against which the trunks of the pine trees stood out like bronze columns. The path was rugged and uneven, giving evidence of the ravages wrought by the winter rains; at intervals loose stones, looking like teeth detached from the gum, rendered it still more impracticable. The melancholy shades of twilight were beginning to envelop the landscape; little by little the sunset glow faded away and the moon, round and silvery, mounted in the heavens, where the evening star was already shining.
+[Matching: three Spanish sentences, three English sentences. The English is free in "had left" for extendía, "teeth" and "the gum" for muelas and alveolos, and "the ravages wrought by the winter rains" for devastado por las arroyadas.]

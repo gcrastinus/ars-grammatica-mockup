@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Vicente Blasco Ibáñez, Sangre y arena, chapter I, the first paragraph)
+WORK: Vicente Blasco Ibáñez (1867-1928), Sangre y arena (1908). The author died in 1928.
+EDITION OF THE SPANISH: Sangre y arena (Valencia: F. Sempere y Compañía, 1908), chapter I, read from the page image (Internet Archive item sangreyarenanov00blas, leaf 11). The words divided at the end of lines ("co-dos", "ma-nos") are joined. This text differs from the Gutenberg text of 1919: it prints "fué", "café, negro y espeso", and "á los huéspedes, que poco á poco ocupaban el comedor". Not compared with another copy (B14).
+ENGLISH: Mrs. W. A. Gillespie, Blood and Sand (New York: E. P. Dutton & Co., first printed March 1919), Project Gutenberg ebook #54222, which reproduces the Grosset & Dunlap printing by arrangement with Dutton (copyright 1919, 1922). Published in the United States before 1931. NOTE: the date given in the working notes, 1911, is wrong; the Archive's record of the Dutton book says "First printing ... March, 1919".
+
+### Spanish
+Como en todos los días de corrida, Juan Gallardo almorzó temprano. Un pedazo de carne asada fué su único plato. Vino, ni probarlo: la botella permaneció intacta ante él. Había que conservarse sereno. Bebió dos tazas de café, negro y espeso, y encendió un cigarro enorme, quedando con los codos en la mesa y la mandíbula apoyada en las manos, mirando con ojos soñolientos á los huéspedes, que poco á poco ocupaban el comedor.
+
+### English (Gillespie)
+Juan Gallardo breakfasted early as was his custom on the days of a bull-fight. A little roast meat was his only dish. Wine he did not touch, and the bottle remained unopened before him. He had to keep himself steady. He drank two cups of strong black coffee and then, lighting an enormous cigar, sat with his elbows resting on the table and his chin on his hands, watching with drowsy eyes the customers who, little by little, began to fill the dining-room.
+[Matching: six Spanish sentences, six English sentences. The English is free in "as was his custom" (moved from the start), "strong black coffee", "his chin" (la mandíbula), and "customers" (huéspedes).]

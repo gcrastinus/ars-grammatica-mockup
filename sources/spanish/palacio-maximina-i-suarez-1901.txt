@@ -1,0 +1,12 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Armando Palacio Valdés, Maximina, chapter I, the three sentences of narration after the first dialogue)
+WORK: Armando Palacio Valdés (1853-1938), Maximina (1887). The author died in 1938.
+EDITION OF THE SPANISH: Obras completas de D. Armando Palacio Valdés, tomo VI, Maximina (Madrid: Librería de Victoriano Suárez, 1901), in the transcription of Project Gutenberg, ebook #40810 (released 20 September 2012). NO SCAN WAS FOUND, so the text was not compared with the printed book (B14). The transcription prints the preposition "á" with an accent and "Sólo" with one.
+ENGLISH: Nathan Haskell Dole, Maximina (New York: Thomas Y. Crowell & Co., 1888), Project Gutenberg ebook #33244 (produced from scanned images of the Google Print project). Public-domain translation. The Spanish was read in the Gutenberg text at the lines that begin "Era la hora del oscurecer."
+
+### Spanish
+Era la hora del oscurecer. Las sombras amontonadas en el fondo de la bahía subían ya á lo alto de las montañas. En los pocos buques anclados la tripulación se ocupaba en la carga y descarga, y sus gritos y el chirrido de las maquinillas era lo único que turbaba la paz de aquel recinto.
+(In the transcription the passage follows a short dialogue and is divided into paragraphs; the three sentences are the first paragraph of narration of chapter I.)
+
+### English (Dole)
+It was the twilight hour: the shadows clustering in the recesses of the bay had already crept far up on the mountains. On the few vessels at anchor the hands were busy loading and unloading their cargoes, and their shouts and the creaking of windlasses were the only sounds that disturbed the peacefulness of the place.
+[Matching: three Spanish sentences, two English sentences: Dole joins the first two with a colon. "recinto" is "the place"; the plural "were" for the singular "era".]

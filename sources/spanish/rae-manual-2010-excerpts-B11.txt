@@ -1,0 +1,575 @@
+SOURCE FILE: excerpts of the Academy's Nueva gramática de la lengua española: Manual (2010) used in the notes of lang.ix.es/prose, passages 11 to 15 (B11).
+READ IN: the machine-read text of the Internet Archive (item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola), not compared with the printed book (B14). The OCR has errors (a paragraph letter f is sometimes read as Í; for example 24.3.3f is read '24.3.3Í'). Section numbers are the Manual's own. Paragraphs already excerpted in earlier files (§23.4.1, §23.6.1, §24.2.4, §13.6.1a) are in rae-manual-2010-excerpts-B10.txt.
+
+=== §33.4.2a (lines 48977-48992 of the text file)
+33.4.2a Los grupos nominales coordinados mediante la conjunción y que desem-
+peñan la función de sujeto concuerdan con el verbo en plural: La computadora y la
+impresora se {estropearon ~ *estropeó} esta mañana. Sin embargo, se registran nume-
+rosos casos de concordancia en singular en los textos antiguos y, en menor medida,
+también en la lengua actual, tanto con sujetos preverbales como posverbales:
+
+Lo confirmó Cardenio, don Fernando y sus camaradas (Cervantes, Quijote I); Toda su
+derrota y su desgracia tuvo ese sentido (Diez, Expediente ); [...] marca del hombre supe-
+rior encerrado en unas ensoñaciones también superiores, de las que nace el arte y la
+poesía (Ynduráin, Clasicismo ).
+
+Se ha observado en muchas ocasiones que las variantes en singular se registran so-
+bre todo cuando las dos ideas que se asocian se identifican en la conciencia lingüís-
+tica del hablante como si designaran una sola entidad compleja, como en los dos
+
+
+
+=== §41.4.3c, d (impersonal ser with time) (lines 56136-56168 of the text file)
+41 .4.3c Con los verbos copulativos ser y estar se forman predicados impersonales
+con los que se describen situaciones que aluden tanto al tiempo atmosférico ( Está
+oscuro; Estuvo nublado todo el día) como al cronológico: Despertó de pronto —aún era
+de noche— con la impresión de que alguien yacía a su lado (Carpentier, Siglo). Estas
+oraciones impersonales contienen atributos adverbiales: Era muy temprano; Aún
+es pronto; Cuando llegué al colegio, pensé que era tarde (Ocampo, Cornelia), o nominales:
+Era noche cerrada (no se dice *Era noche, pero sí Era medianoche o Era de noche);
+
+
+41.4.3d
+
+
+Oraciones activas, pasivas, impersonales y medias
+
+
+780
+
+
+Era media mañana (también Era de mañana, pero no *Era mañana). Las expresiones
+subrayadas en Ya es primavera; Eran los primeros días de agosto; Ahora son las fies-
+tas; Pronto serán las vacaciones se suelen considerar atributos que atraen la con-
+cordancia verbal. Desde este punto de vista se trata, por tanto, de oraciones
+impersonales. Véase, no obstante, el § 37.4.2.
+
+41 .4.3d Se percibe variación en la concordancia de número en las oraciones en las
+que se expresa la hora. Se recomiendan en estos casos las variantes concordadas Ya
+son las siete; Ya es la una, frente a las variantes impersonales, como Ya es las siete.
+Alternan, sin embargo, ¿Qué hora es?, opción general en el mundo hispánico, y ¿Qué
+horas son?, propia del registro conversacional de algunas áreas, tanto del español
+europeo como del americano. No son impersonales las oraciones en las que el verbo
+dar (con el significado de ‘sonar’) concuerda con el sustantivo que designa la hora:
+Han dado las dos.
+
+
+=== §41.4.5a (lines 56279-56292 of the text file)
+41.4.5a Se forman en español oraciones impersonales (en el sentido amplio de
+impersonal mencionado en el § 41.4.1) con verbos conjugados en la tercera persona
+de plural. En estas oraciones se interpreta un sujeto tácito que alude siempre a per-
+sonas. Recibe interpretación inespecífica, que puede ser existencial, como en
+Llaman a la puerta (‘Alguien no determinado llama a la puerta’), pero también hacer
+referencia a conjuntos más amplios de individuos, con un significado próximo al
+genérico: Aquí atienden muy bien a los turistas; Dicen que va a llover (es decir, ‘La
+gente dice que va a llover’). La flexión de tercera persona puede representar asimis-
+mo un sujeto tácito de interpretación específica. Su antecedente es mis amigos en
+Mis amigos están al llegar: si llaman a la puerta, ábreles enseguida. En estos contex-
+tos, al contrario que en los anteriores, alternan los pronombres personales y los su-
+jetos tácitos ( Ellos llaman a la puerta; El dice que va a llover ), tal como se vio en
+el § 33.3.3. La interpretación genérica puede darse también con la primera persona
+del plural (En México cenamos más tarde que en muchos países ) y con la segunda del
+
+=== §26.2.1a (lines 40370-40391 of the text file)
+26.2.1a Los infinitivos nominales de naturaleza sintáctica son, como se
+acaba de señalar, verbos que ocasionalmente se construyen como grupos nominales.
+Así, en la secuenciaEl ladrar continuo de los perros resultaba molesto, el infinitivo se
+comporta como un sustantivo, en lugar de como un verbo. El carácter nominal de la
+construcción se pone de manifiesto en el complemento subjetivo encabezado por
+la preposición de (de los perros) y en el modificador adjetivo continuo, así como en la
+posibilidad de que la construcción admita una oración de relativo (el continuo ladrar
+de los perros que tanto te molesta). Por el contrario, si ladrar fuera verbo, la construc-
+ción adoptaría la forma el ladrar continuamente los perros. A diferencia de la ante-
+rior, esta variante admite la forma compuesta, lo que da lugar a contrastes como el
+haber ladrado continuamente los perros ~ *el continuo haber ladrado de los perros. En
+cuanto al artículo el, es compatible con las dos construcciones de infinitivo, la nominal
+y la verbal, como lo es también con las subordinadas sustantivas de verbo finito: Me
+inquietaba el que ella lo supiera. Por el contrario, las combinaciones con demostrativos
+y posesivos son características de la construcción nominal. Los infinitivos nomina-
+les a los que se alude son más frecuentes en la lengua antigua que en la contemporá-
+nea, pero están presentes en ambas:
+
+Dixo doña Endrina: “Callad ese predicar, / que ya esse parlero me coidó engañar” (Arci-
+preste Hita, Buen Amor); El voluminoso dominico, con el anónimo de manifiesto, fue a ver a
+don Restituto y doña Basilisa, que, en su sentir, también habían padecido una pequeña viola-
+ción (Pérez Ayala, Belarmino); Se ve el ponerse del sol (Jiménez, Platero); Taine vendrá a
+
+=== §14.5.1c (lo referencial) (lines 27235-27256 of the text file)
+1 4.5.1 C El lo referencial encabeza un grupo sintáctico de carácter pronominal
+en las construcciones «lo + adjetivo» e impone el género neutro a las expresiones
+con las que puede concordar. Por el contrario, el lo enfático es un cuantificador que
+mantiene el género del adjetivo sobre el que incide, lo que da lugar a contrastes de
+concordancia opuestos, como son los siguientes:
+
+lo {extraño ~*extraña} de la situación; lo {*extraño ~ extraña} que era la situación ; lo {ab-
+surdo ~*absurdas} de sus ocurrencias; lo {*absurdo ~ absurdas} que resultaban sus
+ocurrencias.
+
+Como el género neutro no es apropiado para hacer referencia a las personas, las
+expresiones definidas denotadas por el lo referencial son siempre inanimadas, como
+se pone de manifiesto en el contraste entre el alto y lo alto. El primero de estos gru-
+pos podría designar un objeto material o un lugar, además de una persona, pero el
+segundo se refiere a una parte de una cosa (como en lo alto de la montaña, ‘la parte
+superior de esta’). Esta interpretación del artículo neutro es compatible en las no-
+ciones abstractas, como en lo mejor de Luis, ‘su cualidad más destacada’. En los apar-
+tados que siguen se analizarán algunas propiedades del lo referencial. Las del
+enfático se estudian en el § 42.4.5, en lugar de en el presente capítulo, puesto que
+este valor de lo representa un caso particular entre los usos enfáticos del artículo
+característicos de las oraciones exclamativas.
+
+
+=== §27.5.1b, c (lines 41921-41940 of the text file)
+27.5.1b El participio se diferencia del gerundio y del infinitivo en que posee
+flexión de género y número (traducido/ traducida/ traducidos/ traducidas) en todos
+sus usos, con la única excepción de los tiempos compuestos, formados con el auxi-
+liar haber (§ 23.1.2b): María ha publicado su tesis. Por esta razón se suele hablar en
+los tiempos compuestos de participio pasado o de participio de perfecto, pero
+no de participio pasivo. También se distingue el participio del infinitivo y del
+gerundio en que no tiene forma compuesta: haber destruido -habiendo destrui-
+do-cabido destruido. En el español general de hoy, el participio rechaza los
+pronombres clíticos, asimismo a diferencia del infinitivo y el gerundio: *Una vez en-
+tregádole el premio al ganador, se dio por terminado el acto.
+
+27.5.1 c No existen en el español actual participios de presente, abundantes en
+
+el español antiguo (§ 7A.2): ¿Viste mi seruidor,/ —le dixo Dios estonge— si atal o me-
+jor / commo mi sieruo Job, [sinple] e derechero,/ temiente a Mí mucho, de mal non
+particionero? (López Ayala, Rimado). Quedan, sin embargo, algunos restos de su
+antiguo valor verbal, como el adjetivo distante, cuyo complemento cuantitativo en
+secuencias como un aeropuerto distante 60 kilómetros de la ciudad no es propio de un
+adjetivo. Véase también el § 7.4.2b.
+
+
+=== §27.5.4a (lines 42112-42127 of the text file)
+27.5.4 Semejanzas entre participio y adjetivo
+
+27.5.4a Además de la flexión de género y número, muchos participios comparten
+con los adjetivos un buen número de estructuras sintácticas por el hecho de ser am-
+bos elementos predicativos: unos y otros pueden ser modificadores del nombre,
+como en la variedad de petróleo más {vendida- cara}; atributos en las oraciones co-
+pulativas, como en Estaba {roto -nuevo} (> lo estaba, en ambos casos; recuérdese el
+§ 27.5.3a, al final), o complementos predicativos: Acabó {arrepentido -loco}; Halla-
+ron {escrita -insuficiente} su dimisión. Participios y adjetivos aparecen también en
+las construcciones preposicionales en las que se admiten complementos predica-
+tivos: con las botas {puestas - sucias}. Los participios comparten, asimismo, con
+algunos adjetivos la capacidad de formar oraciones absolutas: una vez {llena-
+do-lleno} el recipiente. Los verbos semicopulativos se construyen con participios
+y con ciertos adjetivos, en las condiciones restrictivas que se analizan en los § 38.1-3:
+Quedó {destruido -blanco}.
+
+
+=== §40.5.3d (lines 55666-55677 of the text file)
+40.5.3d La persona y el número del verbo ser. Los pronombres de primera
+y segunda persona, en función de focos de las copulativas enfáticas, imponen siempre
+sus rasgos de número y persona al verbo ser : Soy yo el que...; Eres tú quien...; Nosotros
+somos los que... Los demás focos imponen al verbo ser estos mismos rasgos en posi-
+ción posverbal. La concordancia de número se extiende al relativo: Eran estos pape-
+les los que me hacían más falta; Es más dinero lo que tenemos que pedirle. Se observan
+alternancias en la concordancia con los relativos neutros. Las muestra, en efecto, el
+verbo copulativo cuando aparece seguido por un foco con rasgos de plural, como en
+Lo único que compré {es ~ son} estos libros. En cambio, si el foco aparece al comienzo,
+aunque se construya en plural, predomina el singular en el verbo: Discos de jazz es lo
+que oye ahora; Estos libros es lo único que compré, preferible a ... son lo único que
+compré.
+
+=== §24.3.3e, f (desde que, hasta) (lines 39172-39190 of the text file)
+24.3.3e Después (de) que admite dos combinaciones. Se construye con presente o
+pretérito perfecto si VI pertenece a la esfera del presente: ¿Y si viene después que yo
+me vaya? (Galdós, Episodios). En cambio, si VI pertenece a la esfera del pasado, se
+construye con pretéritos, con alternancia entre las formas simples y las compuestas:
+Yo la entiendo porque algo de eso me estaba pasando poco después de que usted vino
+(Mutis, Maqroll); Fue despedido después de que hubiese remitido cartas a diarios bar-
+celoneses alusivas (País [Esp.] 5/8/1977).
+
+24.3.3Í V2 marca en todas estas construcciones el inicio de la situación que des-
+cribe VI, por lo que modifica de forma característica a predicados atélicos. Resulta,
+en efecto, mucho más natural la primera opción que la segunda en pares como {Es-
+tuve muy ocupado~Tuve un accidente} desde que llegué a la ciudad. En esta misma
+construcción he cantado admite en VI la interpretación llamada de experiencia
+(§ 23.4.2d), como en He tenido solo un accidente desde que llegué a la ciudad o conti-
+nuo: He vivido aquí desde que me casé. La preposición hasta marca el límite final de
+la situación que se describe y, en consecuencia, V2 denota siempre posterioridad
+en relación con VI. Al igual que después, requiere predicados atélicos en VI, como en
+Trabajó en su oficina hasta que dieron las dos o en Tú te escondes hasta que abran
+(Trigo, Jarrapellejos). La omisión de la negación en secuencias como Llegó a su ofi-
+
+=== §38.2.5a, b (lines 53081-53108 of the text file)
+38.2.5 El verbo quedar(se)
+
+38.2.5a Quedar(se) se elige por defecto para designar procesos que desembocan en
+estados transitorios, expresados por predicados que se construyen con estar. Se dis-
+tinguen dos valores de quedar(sé): como verbo de cambio de estado (El cuarto (se)
+quedó vacío; (Se) quedó dormido), y como verbo de permanencia: Me quedé sentado;
+(Se) quedó despierto (§38.3.1).
+
+38.2.5b La primera interpretación de quedar(se) es propia de los adjetivos que
+expresan estados carenciales (calvo, ciego, cojo, huérfano, mudo, paralítico, solo,
+soltero, sordo, vacío, viudo), pero también de los que designan ausencia de acción
+
+
+723
+
+
+Los verbos semicopulativos de cambio
+
+
+38.2.6b
+
+
+( cortado , inmóvil, quieto, rígido, tieso ) u otros estados anímicos transitorios, a menu-
+do causados por alguna impresión: absorto, atónito, boquiabierto, estupefacto, frío,
+patidifuso, perplejo, preocupado, sorprendido. Este verbo semicopulativo se compor-
+ta como la variante intransitiva de dejar, como se ve en el par El accidente lo dejó
+ciego~(Se) quedó ciego por el accidente. En los siguientes ejemplos se subraya la for-
+ma se con trazo discontinuo solo cuando puede omitirse:
+
+=== §38.3.1a, b (lines 53247-53268 of the text file)
+38.3.1 Verbos que expresan permanencia, persistencia o continuidad
+
+38.3.1a El grupo 2 del § 38.1.2 corresponde a los verbos semicopulativos que
+expresan permanencia, persistencia o continuidad de un estado de cosas,
+como andar, conservarse, continuar, ir, mantenerse, permanecer y seguir, pero también
+quedar(se) en su segunda interpretación (§ 38.2.5a): El profesor permaneció en silen-
+cio; Luisa continúa enferma; Nos quedamos callados todo el tiempo que duró la pelícu-
+la. Estos verbos se usan más frecuentemente en los tiempos imperfectivos y rechazan
+las perífrasis progresivas. Ello permite contrastar el verbo de movimiento andar,
+que las acepta, como en {Andaba~Iba andando} por la calle, con el semicopulativo
+andar, que tiende a rechazarlas: {Andaba ~*Iba andando} preocupado desde hacía
+muchos meses. Los verbos permanecer y seguir, llamados a veces continuativos,
+presuponen la existencia de una fase anterior al evento que se describe, como en
+Samuel seguía triste, que implica ‘Samuel estaba triste en cierto intervalo anterior’.
+Por el contrario, andar denota la permanencia de un estado de cosas, pero no entra-
+ña fases anteriores: Anda {delicado ~ enamorado ~ preocupada}.
+
+38.3.1 b Los verbos conservarse y mantenerse introducen a menudo atributos que
+expresan situaciones consideradas normales por el que habla, al menos cuando se
+combinan con adjetivos evaluativos. Resultan, pues, más naturales con ellos los ad-
+jetivos cuerdo, delgado, derecho, fiel, impasible, sereno o sobrio que sus contrarios.
+Estos verbos admiten paráfrasis aproximadas con seguir, permanecer y continuar,
+
+=== §25.3.2 (valoración) (lines 39460-39500 of the text file)
+25.3.2 Contextos que imponen el modo subjuntivo
+
+Las nociones semánticas fundamentales que permiten agrupar los predicados (sean
+o no verbos) que inducen el subjuntivo en sus complementos son las siguientes:
+
+Voluntad, intención e influencia: Y, sobre todo, procuraba que nunca le faltase una
+pelota ante los pies (Aguilera Malta, Pelota); Era partidario de que se alejaran de prisa
+de los alrededores del colegio (Colinas, Año); Nicolás y el duque de Naxos me azuzaban
+y urgían que reclamase (Mujica Lainez, Bomarzo); La solicitud será que se mantenga a
+Guatemala ubicado en el renglón 21 por un año más ( Siglo Veintiuno 17/3/1997).
+Oposición: Nada debemos objetar a que dos hombres se maten el uno al otro si el honor los
+empuja a ello (Pérez -Reverte, Maestro); La negativa paterna a que ella viniera sola al
+cine [...] (Cabrera Infante, Habana); No opuso resistencia a que desabotonase la cha-
+queta de su pijama (García Hortelano, Mary Tribune).
+
+Causa: ¿También tiene Espartero la culpa de que llueva? (Galdós, Episodios); Eso hizo que
+al llegar a Delhi me sintiera mejor (Puértolas, Noche); Ello provocó que a centenares de
+buenos científicos les resultase imposible volver a la vida académica (Volpi, Klingsor).
+
+
+25.3.3
+
+
+El verbo (III). El modo
+
+
+478
+
+
+Consecución: El Gaviero consiguió que prosiguieran el camino (Mutis, Maqroll); Lo-
+graréis que nos dejen sin comer (Martín Recuerda, Arrecogías).
+
+Dirección o inclinación: Esto demuestra que hay una tendencia a que crezca la parti-
+cipación de los ciudadanos (Prensa [Nic.] 7/1/2002); Ahora bien, ocurre que la mayor
+escasez de recursos ha conducido a que se seleccionen con mayor cuidado los proyectos
+científicos (Sánchez Ron, Ciencia).
+
+Afección: Alba perdió el temor de que su madre la abandonara (Allende, Casa); Entonces
+me entró miedo de que nos viera alguien (Cabrera Infante, Tigres); Había tenido la es-
+peranza de que al entrar, Felipe estuviera de lado (Belli, Mujer); Te da pena que alguien
+sufra por tu muerte (Puig, Beso). Con un subgrupo numeroso de estos predicados las
+
+=== §25.3.4 (lines 39644-39654 of the text file)
+25.3.4 El modo en las interrogativas indirectas
+
+El modo de las interrogativas indirectas es normalmente el indicativo. Sin embargo,
+puede aparecer el subjuntivo cuando está inducido por los predicados que expresan
+dependencia y también por los que denotan indiferencia: Eso depende de qué día
+fijemos; Indistintamente de cuál sea el candidato que obtenga la plaza [...] (País [Esp.]
+2/2/1999); «¡Para lo que me importa ya cuál haya de ser mi destino!», dijo Esteban
+(Carpentier, Siglo). En muchas zonas del español americano (especialmente en
+México, Centroamérica y las áreas caribeña y andina), es normal usar el subjuntivo
+en expresiones como No sé si te guste esta comida.
+
+
+=== §43.3.1a (lines 58966-58990 of the text file)
+43.3.1 Las interrogativas indirectas
+
+43.3.1a Se llaman tradicionalmente interrogativas indirectas las subordi-
+nadas sustantivas encabezadas por los pronombres, determinantes o adverbios in-
+terrogativos (o por los grupos sintácticos que forman), o bien por la conjunción
+subordinante si. Son interrogativas indirectas todas las oraciones subrayadas
+en Pregúntale si quiere venir con nosotros; No sé qué hacer; Depende de con quién
+tengamos que ir; Averiguaremos quién envió la carta; Está pendiente de a qué hora
+empieza el partido. Sin embargo, solo la primera de ellas remite formalmente a una
+interrogativa directa, como muestra su equivalente en estilo directo Pregúntale:
+¿ Quieres venir con nosotros? El término interrogativa indirecta no se toma, pues, en
+sentido literal, puesto que solo algunas de ellas reproducen el discurso directo. Las
+interrogativas indirectas implican o evocan algún tipo de elección, de acuerdo con
+lo dicho en el § 43.1.2a. Así pues, no se pregunta nada en la oración Todo depende de
+dónde esté el documento, pero se expresa en ella que algo está en función de la opción
+que resulte ser cierta. Las interrogativas indirectas pueden ser totales o parciales.
+Las primeras están encabezadas por la conjunción interrogativa si (No sé si suce-
+dió); las segundas, también llamadas pronominales, lo están por los pronombres
+y determinantes interrogativos (quién, qué, cuál, cuánto o sus variantes de género y
+número), por los adverbios interrogativos (cómo, dónde, adonde, cuánto, cuándo)
+o por los grupos sintácticos que estas palabras constituyen: para qué autor, cuánto
+café, desde dónde. Las interrogativas indirectas parciales implican siempre la espe-
+cificación de un determinado elemento nominal. Estos son, entre otros, la persona
+en quién, el momento o el período en cuándo, la manera en cómo, el lugar en dónde,
+la cantidad o el número en cuánto, etc.
+
+=== §28.2.2d (lines 42942-42952 of the text file)
+28 . 2 . 2 d «Haber que + infinitivo». Expresa también obligación, como en Hay
+que apurarse. Esta perífrasis, siempre radical o personal, es considerada predicado
+complejo no perifrástico por algunos autores. El verbo auxiliado se predica en ella
+de grupos nominales cuyos referentes están dotados de intención o voluntad. A esta
+restricción cabe atribuir contrastes como {Tiene~*Hay} que llover más. Se reco-
+mienda evitar en esta construcción la anteposición de los pronombres átonos. Se
+prefiere, pues, Había que comprarlo a. Lo había que comprar. También se recomienda usar
+en ella los verbos pronominales con enclíticos de tercera persona ( Hay que mar-
+charse) y evitar los de primera persona de plural ( Hay que marcharnos). Más que
+obligación en sentido estricto, la perífrasis indica en ciertos contextos que el hablan-
+te acepta como inevitable la situación que se expresa: Ya es imposible guardar esto
+
+=== §28.3.2b (lines 43199-43212 of the text file)
+28.3.2b Perífrasis de fase inicial o incoativas: «empezar a + infinitivo»,
+«comenzar A + infinitivo» y «ponerse A + infinitivo». Como casi todas las perí-
+frasis de fase, las mencionadas se aplican a eventos que tienen duración (Empezó a
+llover; Comienzan a escribir; Se ponía a cantar), ya que no tendría sentido concebir la
+fase inicial o final de un proceso puntual. No obstante, la duración de un evento se
+obtiene muy a menudo de forma composicional (§ 23.2.2), es decir, mediante el
+concurso del verbo y sus argumentos. No es, pues, de extrañar que la anomalía que
+se percibe en oraciones como *Eva empezó a llegar a la estación o *Dejé de despertarme
+ayer contraste con la naturalidad de otras como La gente empezó a llegar a la estación
+o Dejé de despertarme por las noches. Ello se debe a que los grupos nominales formados
+con plurales, nombres colectivos y sustantivos no contables multiplican la denotación
+del predicado dando lugar a una serie de eventos que se interpretan conjuntamente
+como un predicado durativo.
+
+
+=== §28.4.2d, f (lines 43446-43458 of the text file)
+28.4.2d «Ir + gerundio». La noción aspectual que introduce esta perífrasis no es
+solo progresiva, como en «estar + gerundio», sino también acumulativa o incre-
+mental, ya que expresa la idea de que el proceso en cuestión se realiza en etapas
+sucesivas, de forma que cada una se suma o se acumula a la anterior hasta alcanzar
+un determinado límite final:
+
+
+549
+
+
+Perífrasis de gerundio
+
+
+
+=== §28.4.2f (lines 43479-43486 of the text file)
+28.4.2Í La perífrasis «ir + gerundio» es particularmente apropiada para expresar
+cambios graduales, a menudo acompañada de adverbios y conjunciones (o locucio-
+nes de ambos tipos) que los resaltan. Es el caso de la locución mencionada poco a
+poco, pero también de gradualmente, sucesivamente, a medida que, además de otras
+expresiones similares que indican progresión:
+
+Había contemplado alguna vez los prolegómenos, les provocaba y les insultaba, iba sol-
+tando cuerda poco a poco, hasta que ellos entraban al trapo (Grandes, Edades); Gradual-
+
+=== §44.2.1a (lines 59598-59614 of the text file)
+44.2.1 Las relativas preposicionales
+
+44.2.1 a Las relativas preposicionales son subordinadas de relativo introduci-
+das por grupos relativos preposicionales. Están introducidas por un relativo com-
+plejo (el que, la cual, etc.: § 44.1 .3), que constituye el término de la preposición. En los
+ejemplos que siguen se marcan estas relativas entre corchetes, se identifica su ante-
+cedente con subrayado discontinuo y se señala el grupo preposicional relativo que
+las encabeza con subrayado continuo:
+
+Me imagino que Cristo, conducido por el Demonio a la cumbre de una montaña [desde
+la que le exhibe todas las tentaciones del mundo], sabía muy bien: primero, que era el
+Demonio el que lo conducía [...] (Fuentes, Región); Esta es la razón [por la cual toda in-
+terpretación de un acto de conducta va más allá de toda evidencia] (Castilla, Psiquiatría 1);
+[...] como si le diera más vergüenza la visión de la prenda íntima que la del cuerpo
+derribado y semidesnudo [con el que la prenda había estado en contacto hasta hacía
+muy poco] (Marías, J., Corazón).
+
+
+=== §44.3.1c (lines 59909-59916 of the text file)
+44.3.1c Las relativas explicativas forman un grupo fónico propio, como impone
+su naturaleza parentética. Esta particularidad prosódica se refleja en la escritura por
+medio de signos de puntuación (comas o, más esporádicamente, rayas o paréntesis)
+que separan la subordinada de su antecedente. Sin embargo, cuando siguen a algunos
+pronombres personales, no van precedidas de pausa (coma en la escritura), como en
+tú que estás ahí o en Las mujeres de este país, se lo digo yo que he visto mundo, son
+unas mojigatas (Ruiz Zafón, Sombra).
+
+
+=== §44.3.2a (lines 59930-59942 of the text file)
+44.3.2a Las relativas especificativas son modificadores que precisan la denota-
+ción del grupo nominal del que forman parte, mientras que las explicativas son
+modificadores que se agregan a modo de incisos y son menos dependientes de su
+antecedente que las primeras. Como consecuencia de ello, se pueden omitir a menudo
+sin que resulten afectadas las condiciones de verdad del resto del enunciado. Así, si
+es verdadero el enunciado Ayer solo salió un tren, que transportaba mineral, también
+lo será Ayer solo salió un tren. En cambio, la supresión de la relativa especificativa
+en la oración Ayer solo salió un tren que transportaba mineral altera las condiciones
+de verdad del enunciado, ya que este es compatible con una situación en la que se
+haya producido en la misma fecha la salida de otros trenes, siempre que no transpor-
+taran mineral.
+
+44.3.2b A la vista del distinto nivel de incidencia de los dos tipos de relativas, se
+
+=== §27.2.1d (lines 41511-41517 of the text file)
+27.2.1 d Los gerundios predicativos pueden predicarse del sujeto del verbo princi-
+pal: El permaneció contemplando a los niños con mirada absorta, hasta que los ojos se le
+humedecieron y se los secó (García Márquez, Cien años), o del complemento directo:
+Hoy ve sus pobres hijos huyendo de sus lares (Machado, Campos). Son infrecuentes, pero
+no imposibles, los gerundios predicativos referidos a un complemento de régimen,
+como en A veces pienso en él jumándose un enorme puro en su sillón de orejas.
+
+
+=== §27.4.1a (lines 41845-41864 of the text file)
+27.4.1 Gerundios con sujeto tácito
+
+27.4.1a Cuando el gerundio tiene sujeto tácito se interpreta que la acción, el
+estado o el proceso que el gerundio expresa se atribuyen a alguna entidad, gene-
+ralmente ya mencionada. Suele ser la denotada por el sujeto del verbo principal, como
+en Me entretuve ordenando papeles o en El conserje, creyendo que la bolsa estaba
+vacía, la dejó allí. Así pues, el conserje es en el segundo ejemplo el sujeto de dejó, pero
+también el antecedente del sujeto tácito de creyendo. Otras veces, el antecedente del
+sujeto tácito del gerundio es el complemento indirecto del verbo principal, sobre
+todo con ciertos verbos de pensamiento y afección psíquica, como en Se le ocurrió la
+solución paseando; Se te saltaban las lágrimas abrazándola. En las pasivas e imperso-
+nales es frecuente que sea el agente (expreso o sobrentendido) el que proporciona
+dicho antecedente: Una radiación que fue descubierta por Curie investigando otros
+problemas; Solo se descubrirá al ladrón tendiéndole una trampa. El antecedente del
+sujeto tácito del gerundio puede aparecer, finalmente, en el discurso previo ( Depende
+de las lámparas. Siendo buenas, no hay problema ) o bien debe recuperarse median-
+te inferencias diversas ( Moviendo así el brazo, el tratamiento no va a servir). Sobre el
+complemento directo como antecedente del sujeto del gerundio o del infinitivo,
+véase el § 26.5.1 .
+
+
+=== §20.1.2c (lines 33551-33563 of the text file)
+20.1 .2c Los sustantivos no contables concretos que siguen a todo se reinterpretan
+
+como contables. De este modo, en Toda madera presenta imperfecciones se entiende
+‘todo tipo o especie de madera’. No suelen adquirir, en cambio, tal reinterpretación
+muchos sustantivos no contables abstractos, en particular los que denotan afectos,
+sentimientos y cualidades. Con estas construcciones se expresa que la propiedad en
+cuestión se manifiesta en el grado más alto posible. Muchas de ellas van precedidas
+de la preposición con, como en los ejemplos siguientes:
+
+Pretende con toda seriedad que recibas a su señor en tu santuario (Valera, Juanita);
+Góngora siguió con toda humildad el parecer de su sabio amigo (Alonso, D., Poesía);
+Tomasito entró de repente con toda naturalidad en el zaguán de una casa y el chofer y yo
+lo seguimos de cerca (Mutis, MaqroU).
+
+=== §23.7.1b (lines 37845-37857 of the text file)
+23.7.1 b Con el futuro no se expresan únicamente sucesos venideros. La segunda
+persona contribuye a que los enunciados que lo contienen se puedan interpretar
+como órdenes, como en Se lo devolverás; No matarás, o como peticiones o solicitu-
+des: Estas notas, Manolo, escritas por mí, que no estoy fuerte en ortografía, las pondrá
+usted en limpio (Galdós, Episodios). También pueden interpretarse como recomenda-
+ciones (Un calmante te sentará bien), como amenazas (No te librarás) o como adver-
+tencias (Te harás daño). Con la primera persona los enunciados expresan más
+claramente promesas o compromisos: Llegaremos; Se lo diré. La tercera persona es
+frecuente en las instrucciones: El trabajador avisará en caso de avería (es decir, ‘de-
+berá avisar’). La construcción «imperativo + y + futuro» se interpreta como los
+períodos condicionales: Pórtate bien y te daré un premio; es decir, ‘Si te portas bien,
+te daré un premio’. Si la conjunción es disyuntiva, se puede interpretar una nega-
+ción en la prótasis: Sujétate o te caerás (‘Si no te sujetas, te caerás’).
+
+=== §46.8.1 (lines 62410-62432 of the text file)
+46.8.1 Caracterización
+
+Mediante las construcciones ilativas (también llamadas continuativas) se in-
+troduce una consecuencia como derivación natural de lo que el hablante ha expre-
+sado con anterioridad. El adjetivo ilativo se deriva del sustantivo ilación, que el
+DRAE define como ‘trabazón razonable y ordenada de las partes de un discurso’.
+He aquí algunos ejemplos de construcciones ilativas (se subrayan las partículas
+introductorias):
+
+
+46.8.2a
+
+
+Construcciones causales, finales e ilativas
+
+
+892
+
+
+Naturalmente, había que tomar un café, de modo que me arruinó la siesta sabatina (Be-
+nedetti, Tregua); Me hubiera gustado que viniera, pero vive muy ocupado, así que me
+encomendó a mí ver las posibilidades para la casa (Belli, Mujer); Estoy esperando a que
+todo esté más sereno para hablar yo con papá, conque no conviene que se enfaden tam-
+
+=== §3.2.3a (lines 2040-2049 of the text file)
+3.2.3a Las abreviaturas creadas por apócope o truncamiento (es decir, las
+que proceden de palabras que han quedado reducidas a sus letras primeras) aña-
+den -s como regla general: arts., págs., vols. Constituyen excepción cent, (centavo
+o centésimo) y cént. (céntimo), cuyo plural es cts. Cuando se originan por síncopa o
+contracción, las abreviaturas pueden terminar en vocal o en consonante, y en
+ambos casos se aplican las normas generales (Excmos., Dres., Grales.). Como ex-
+cepción, el plural de Ud. o Vd. es Uds. o Vds. Las abreviaturas que se forman a
+partir de la letra inicial de una o de varias palabras manifiestan el plural dupli-
+cando estas, como cuenta (c./ cc.), nota (n./ nn.), página (p./ pp.), siglo y siguien-
+te (s./ ss.) o tomo (t./ tt.). También se usa la duplicación de letras para abreviar
+
+=== §35.4.1b (lines 50941-50952 of the text file)
+35.4.1 b El dativo simpatético o posesivo se interpreta como un complemento
+indirecto de posesión. En efecto, el español expresa a menudo el poseedor mediante
+pronombres átonos de dativo en concurrencia con frases nominales que expresan la
+cosa poseída y que se construyen con determinante (§ 14.3.5 y 18.3.3a), como en Se
+le hincharon los pies; Se te nubló la vista; Se me torció el tobillo (también Me torcí el
+tobillo), en lugar de Se hincharon sus pies; Se nubló tu vista; Se torció mi tobillo. Esos
+grupos nominales, que designan muy frecuentemente partes del cuerpo, suelen ejer-
+cer la función de sujeto, pero también pueden desempeñar la de objeto directo,
+como en el ejemplo mencionado Me torcí el tobillo o en El perro le mordió la pierna.
+
+
+683
+
+=== §34.3.1 (lines 49541-49550 of the text file)
+34.3.1 Complementos de persona y de cosa personificada.
+
+Tendencias generales
+
+El complemento directo puede ir encabezado por la preposición a. Esta aparece de
+forma característica cuando el complemento directo nominal designa una o varias
+personas (He visto a tu hermano), pero no suele aparecer cuando designa cosas (He
+visto tu paraguas). Existen, sin embargo, numerosos casos de vacilación, y también
+de alternancia, unas veces con cambios de sentido apreciables y otras con solo una
+leve diferencia de significado.
+
+=== §13.3.2b (lines 25388-25399 of the text file)
+13.3.2b Al igual que los determinantes, los adjetivos de dos terminaciones cum-
+plen una función diacrítica al poner de manifiesto el género y el número de los sus-
+tantivos (sean comunes o propios) y los pronombres que carecen de marcas explícitas,
+como en lunes {negro-negros}; crisis {violenta-violentas}; estudiantes {destaca-
+dos-destacadas}; el testigo decisivo~la testigo decisiva; el gracioso René~la graciosa
+René; los legendarios Grimm; las misteriosas Gentilleschi; o en Anda usted algo {despis-
+tado -despistada}; Nos vieron {juntos -juntas}; Contestó muy {seguro-segura}. El ad-
+jetivo atributivo puede variar en género y número en las oraciones impersonales de
+sujeto genérico, como en Hay que ser más {generoso -generosa- generosos -genero-
+sas}. En las impersonales con se solo se acepta el número singular, pero son posibles
+tanto el masculino como el femenino: Cuando se es nulo lo mejor es estarse quieto y no
+andar embrollando el mundo con inútiles pantomimas (Chávez, Batallador); Además,
+
+=== §32.5.2j (lines 48261-48266 of the text file)
+mongo (las dos últimas, voces malsonantes usadas en la Argentina), nanay, nel (en
+México), ni modo, qué capaz (en el área caribeña), qué va, quita (o quita ya), venga ya,
+y qué más. En este grupo son numerosos los sustantivos y los grupos nominales
+inmovilizados como interjecciones: (un) cuerno, (un) huevo (malsonante), un rábano,
+(unas) narices, naranjas (también naranjas de la China). Es de señalar el esquema
+«ni + infinitivo», como en ¡Ah, no, de eso ni hablar! (Alonso Santos, Estanquera).

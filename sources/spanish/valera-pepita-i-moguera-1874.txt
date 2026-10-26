@@ -1,0 +1,13 @@
+SOURCE FILE: passage quoted in lang.ix.es/prose (Juan Valera, Pepita Jiménez, the first letter: the date, the salutation, and the first three sentences)
+WORK: Juan Valera (1824-1905), Pepita Jiménez (1874). The author died in 1905.
+EDITION OF THE SPANISH: Pepita Jiménez (Madrid: Imprenta de Moguera, 1874), first edition, read from the page image (Internet Archive item pepitajimene00vale, leaf 17). The edition prints the spelling of its own time ("tio", "dias", and "despues" without accents; "á"). The machine text of the Archive has "después"; the page image (read at higher resolution) has no accent on "despues", and the course prints it as the page does. Not compared with another copy (B14).
+ENGLISH: Pepita Ximenez, by Juan Valera (New York: D. Appleton and Company, 1886), Project Gutenberg ebook #30236. The title page names no translator; the translation is attributed to Mary J. Serrano (the course says "Appleton translation of 1886 (attributed to Mary J. Serrano)"). Public-domain translation. The Gutenberg text prints the date as "March 22d." and the salutation in capitals.
+
+### Spanish
+22 de Marzo.
+Querido tio y venerado maestro: Hace cuatro dias que llegué con toda felicidad á este lugar de mi nacimiento, donde he hallado bien de salud á mi padre, al señor vicario y á los amigos y parientes. El contento de verlos y de hablar con ellos, despues de tantos años de ausencia, me ha embargado el ánimo y me ha robado el tiempo, de suerte que hasta ahora no he podido escribir á Vd. Vd. me lo perdonará.
+
+### English (Appleton, 1886)
+March 22d.
+DEAR UNCLE AND VENERABLE MASTER: Four days ago I arrived in safety at this my native village, where I found my father, the reverend vicar, our friends and relations all in good health. The happiness of seeing them and conversing with them has so completely occupied my time and thoughts, that I have not been able to write to you until now. You will pardon me for this.
+[Matching: the English leaves out "despues de tantos años de ausencia"; it is free in "in safety" (con toda felicidad) and "the reverend vicar" (el señor vicario).]

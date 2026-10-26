@@ -3,8 +3,8 @@ ARS.decks = ARS.decks || {};
 ARS.decks["lang.ix.es/prose"] = {
  "id": "lang.ix.es/prose",
  "title": "Spanish Prose",
- "sub": "Ten passages of Spanish prose, from Cervantes to Unamuno, read part by part",
- "sources": "Miguel de Cervantes, <i lang=\"es\">Obras</i>, ed. Buenaventura Carlos Aribau (Biblioteca de autores españoles 1, 3rd ed., Madrid: Rivadeneyra, 1864), for <i lang=\"es\">Don Quijote</i> I.1 and I.8; <i lang=\"es\">La vida de Lazarillo de Tormes</i>, ed. H. J. Chaytor (Manchester: Manchester University Press, 1922); Santa Teresa de Jesús, <i lang=\"es\">Obras escogidas</i>, with an introduction by Rafael Mesa y López (London and Paris: Thomas Nelson and Sons, 1912), <i lang=\"es\">Libro de su vida</i>; Baltasar Gracián, <i lang=\"es\">Tratados</i>, ed. Alfonso Reyes (Madrid: Casa Editorial Calleja, 1918), <i lang=\"es\">Oráculo manual</i>; each of these editions prints its text in modern spelling, and the course quotes each as printed; the spelling of 1605 is read in <i lang=\"es\">El ingenioso hidalgo Don Quixote de la Mancha</i> (Madrid: Juan de la Cuesta, 1605); the English is that of John Ormsby for <i lang=\"es\">Don Quixote</i> (1885), Clements R. Markham for <i lang=\"es\">Lazarillo</i> (London: A. and C. Black, 1908), David Lewis for the Life of St. Teresa (1870; third edition, London: Thomas Baker, 1904), and Joseph Jacobs for the <i lang=\"es\">Oráculo manual</i> (The Art of Worldly Wisdom, London: Macmillan, 1892); for passages 6 to 10: Fernán Caballero, <i lang=\"es\">La Gaviota: novela original de costumbres españolas</i>, vol. 1 (Madrid: Mellado, 1856); Gustavo A. Bécquer, <i lang=\"es\">Obras</i>, vol. 1 (Madrid: Imprenta de T. Fortanet, 1871), for “Los ojos verdes”; Pedro A. de Alarcón, <i lang=\"es\">El sombrero de tres picos</i> (New York: D. Appleton y Compañía, undated); Benito Pérez Galdós, <i lang=\"es\">Marianela</i>, seventh edition (Madrid: Imprenta de La Guirnalda, 1888); Miguel de Unamuno, <i lang=\"es\">Del sentimiento trágico de la vida</i> (Madrid: Renacimiento, Sociedad Anónima Editorial, undated); the first four of these editions print the spelling of their own time, with its accents and capital letters, the Unamuno is in modern spelling, and the course quotes each as printed; the English is that of J. Leander Starr for <i lang=\"es\">La Gaviota</i> (New York: John Bradburn, 1864), Cornelia Frances Bates and Katharine Lee Bates for <i lang=\"es\">Romantic Legends of Spain</i> (New York: Thomas Y. Crowell, 1909), Jacob S. Fassett, Jr., for <i lang=\"es\">El sombrero de tres picos</i> (The Three-Cornered Hat, New York: Alfred A. Knopf, 1918), Clara Bell for <i lang=\"es\">Marianela</i> (New York: William S. Gottsberger, 1883), and J. E. Crawford Flitch for Unamuno (Tragic Sense of Life, London: Macmillan, 1921); the First Folio of 1623 (<i>Mr. William Shakespeares Comedies, Histories, &amp; Tragedies</i>, London: Isaac Jaggard and Edward Blount), first page of <i>Julius Caesar</i>; Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Nueva gramática de la lengua española: Manual</i> (2010); Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005); Allen and Greenough, <i>New Latin Grammar</i>",
+ "sub": "Fifteen passages of Spanish prose, from Cervantes to Unamuno, read part by part",
+ "sources": "Miguel de Cervantes, <i lang=\"es\">Obras</i>, ed. Buenaventura Carlos Aribau (Biblioteca de autores españoles 1, 3rd ed., Madrid: Rivadeneyra, 1864), for <i lang=\"es\">Don Quijote</i> I.1 and I.8; <i lang=\"es\">La vida de Lazarillo de Tormes</i>, ed. H. J. Chaytor (Manchester: Manchester University Press, 1922); Santa Teresa de Jesús, <i lang=\"es\">Obras escogidas</i>, with an introduction by Rafael Mesa y López (London and Paris: Thomas Nelson and Sons, 1912), <i lang=\"es\">Libro de su vida</i>; Baltasar Gracián, <i lang=\"es\">Tratados</i>, ed. Alfonso Reyes (Madrid: Casa Editorial Calleja, 1918), <i lang=\"es\">Oráculo manual</i>; each of these editions prints its text in modern spelling, and the course quotes each as printed; the spelling of 1605 is read in <i lang=\"es\">El ingenioso hidalgo Don Quixote de la Mancha</i> (Madrid: Juan de la Cuesta, 1605); the English is that of John Ormsby for <i lang=\"es\">Don Quixote</i> (1885), Clements R. Markham for <i lang=\"es\">Lazarillo</i> (London: A. and C. Black, 1908), David Lewis for the Life of St. Teresa (1870; third edition, London: Thomas Baker, 1904), and Joseph Jacobs for the <i lang=\"es\">Oráculo manual</i> (The Art of Worldly Wisdom, London: Macmillan, 1892); for passages 6 to 10: Fernán Caballero, <i lang=\"es\">La Gaviota: novela original de costumbres españolas</i>, vol. 1 (Madrid: Mellado, 1856); Gustavo A. Bécquer, <i lang=\"es\">Obras</i>, vol. 1 (Madrid: Imprenta de T. Fortanet, 1871), for “Los ojos verdes”; Pedro A. de Alarcón, <i lang=\"es\">El sombrero de tres picos</i> (New York: D. Appleton y Compañía, undated); Benito Pérez Galdós, <i lang=\"es\">Marianela</i>, seventh edition (Madrid: Imprenta de La Guirnalda, 1888); Miguel de Unamuno, <i lang=\"es\">Del sentimiento trágico de la vida</i> (Madrid: Renacimiento, Sociedad Anónima Editorial, undated); the first four of these editions print the spelling of their own time, with its accents and capital letters, the Unamuno is in modern spelling, and the course quotes each as printed; the English is that of J. Leander Starr for <i lang=\"es\">La Gaviota</i> (New York: John Bradburn, 1864), Cornelia Frances Bates and Katharine Lee Bates for <i lang=\"es\">Romantic Legends of Spain</i> (New York: Thomas Y. Crowell, 1909), Jacob S. Fassett, Jr., for <i lang=\"es\">El sombrero de tres picos</i> (The Three-Cornered Hat, New York: Alfred A. Knopf, 1918), Clara Bell for <i lang=\"es\">Marianela</i> (New York: William S. Gottsberger, 1883), and J. E. Crawford Flitch for Unamuno (Tragic Sense of Life, London: Macmillan, 1921); for passages 11 to 15: Armando Palacio Valdés, <i lang=\"es\">Maximina</i>, volume 6 of his <i lang=\"es\">Obras completas</i> (Madrid: Librería de Victoriano Suárez, 1901), in the transcription of Project Gutenberg, which was not compared with a scan; Bernal Díaz del Castillo, <i lang=\"es\">Historia verdadera de la conquista de la Nueva España</i>, in <i lang=\"es\">Historiadores primitivos de Indias</i>, ed. Enrique de Vedia, volume 2 (Biblioteca de autores españoles 26; Madrid: Imprenta y Estereotipia de M. Rivadeneyra, 1853), whose spelling is that of the nineteenth century; the edition does not say that it modernizes the spelling, the passage was not compared with the printing of 1632, a mark on the page between <i lang=\"es\">nivel</i> and <i lang=\"es\">cómo</i> is not reproduced, and the course quotes the text as printed; Emilia Pardo Bazán, <i lang=\"es\">El cisne de Vilamorta</i> (Madrid: F. Fé, 1885); Juan Valera, <i lang=\"es\">Pepita Jiménez</i> (Madrid: Imprenta de Moguera, 1874), first edition; Vicente Blasco Ibáñez, <i lang=\"es\">Sangre y arena</i> (Valencia: F. Sempere y Compañía, 1908); the editions of Pardo Bazán, Valera, and Blasco Ibáñez print the spelling of their own time, with its accents, and the course quotes each as printed; the English is that of Nathan Haskell Dole for <i lang=\"es\">Maximina</i> (New York: Thomas Y. Crowell, 1888), A. P. Maudslay for Bernal Díaz (<i>The True History of the Conquest of New Spain</i>, volume 2, London: Hakluyt Society, 1910, an edition of the Hakluyt Society), Mary J. Serrano for <i lang=\"es\">El cisne de Vilamorta</i> (<i>The Swan of Vilamorta</i>, New York: Cassell Publishing Company, 1891), the Appleton translation of 1886 (attributed to Mary J. Serrano) for <i lang=\"es\">Pepita Jiménez</i> (<i>Pepita Ximenez</i>, New York: D. Appleton and Company), and Mrs. W. A. Gillespie for <i lang=\"es\">Sangre y arena</i> (<i>Blood and Sand</i>, New York: E. P. Dutton, 1919); the First Folio of 1623 (<i>Mr. William Shakespeares Comedies, Histories, &amp; Tragedies</i>, London: Isaac Jaggard and Edward Blount), first page of <i>Julius Caesar</i>; Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Nueva gramática de la lengua española: Manual</i> (2010); Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005); Allen and Greenough, <i>New Latin Grammar</i>",
  "panels": [
   {
    "id": "prose-1",
@@ -678,6 +678,339 @@ ARS.decks["lang.ix.es/prose"] = {
    "id": "prose-51",
    "title": "<i lang=\"es\">Lo humano</i>, <i lang=\"es\">ni … ni</i>, and <i lang=\"es\">sino</i>",
    "body": "<p>The last sentence has no verb. It is a series of negated noun phrases, <i lang=\"es\">Ni lo humano ni la humanidad, ni el adjetivo simple, ni el adjetivo sustantivado</i>, followed by the phrase that replaces them, introduced by <i lang=\"es\">sino</i>: <i lang=\"es\">sino el sustantivo concreto: el hombre</i>. The Academy says that the adversative conjunction <i lang=\"es\">sino</i> requires a negation, explicit or implicit, in what precedes (<i>Manual</i> §31.5.2), and the negation here is the repeated <i lang=\"es\">ni</i>. The colon introduces the apposition <i lang=\"es\">el hombre</i>, the word itself that names the concrete man.</p><p>The phrase <i lang=\"es\">lo humano</i> is the neuter article <i lang=\"es\">lo</i> with an adjective. Spanish has no neuter nouns, and so <i lang=\"es\">lo</i> with an adjective forms a noun phrase that names in general what the adjective describes, as in the Academy's example <i lang=\"es\">entre lo justo y lo injusto</i> (<i>Manual</i> §14.5.1). The phrase <i lang=\"es\">el adjetivo sustantivado</i> (“the substantivized adjective”) names this process, an adjective used as a noun. Unamuno thus uses the terms of the grammarian to say what he refuses, an adjective turned into a noun and an abstract noun, and what he wants, the concrete noun <i lang=\"es\">hombre</i>.</p>"
+  },
+  {
+   "id": "prose-52",
+   "title": "Palacio Valdés, <i>Maximina</i>, chapter I",
+   "body": "<p lang=\"es\">Era la hora del oscurecer. Las sombras amontonadas en el fondo de la bahía subían ya á lo alto de las montañas. En los pocos buques anclados la tripulación se ocupaba en la carga y descarga, y sus gritos y el chirrido de las maquinillas era lo único que turbaba la paz de aquel recinto.</p><p>It was the twilight hour: the shadows clustering in the recesses of the bay had already crept far up on the mountains. On the few vessels at anchor the hands were busy loading and unloading their cargoes, and their shouts and the creaking of windlasses were the only sounds that disturbed the peacefulness of the place.</p><p><strong>Context.</strong> Armando Palacio Valdés (1853–1938) published <i lang=\"es\">Maximina</i> in 1887. The novel begins with a short dialogue between Miguel, who has just arrived at Pasajes by train, and the boatwoman Úrsula, who rows him across the harbor toward the house of his bride, Maximina. These are the first three sentences of narration that follow the dialogue. The English of Nathan Haskell Dole joins the first two Spanish sentences into one with a colon, gives <i lang=\"es\">recinto</i> (“an enclosed place”) as “the place,” and makes the singular verb of the last sentence plural, “were.” The Spanish is that of the edition named in the Sources, which prints the preposition <i lang=\"es\">á</i> with an accent and <i lang=\"es\">Sólo</i> with one.</p>",
+   "qp": {
+    "id": "q-es-ixp-11",
+    "variants": [
+     {
+      "prompt": "Which statement about the verb of a sentence with two subjects joined by <i lang=\"es\">y</i> is correct?",
+      "options": [
+       "It is usually plural, but a singular verb occurs, especially when the two ideas form one entity",
+       "It is singular whenever the two subjects follow the verb, and plural when they precede it",
+       "It agrees with the nearer subject alone, whether that subject is singular or plural",
+       "It is plural in every case, and a singular verb is always an error of agreement"
+      ],
+      "answer": 0,
+      "explain": "The Academy says that subjects joined by <i lang=\"es\">y</i> agree with a plural verb, as in <i lang=\"es\">La computadora y la impresora se estropearon</i>, but that a singular verb is found in old texts and, less often, in present-day Spanish, especially when the two ideas are taken to designate one complex entity (<i>Manual</i> §33.4.2a)."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">lo alto de la montaña</i> mean?",
+      "options": [
+       "The upper part of the mountain",
+       "The tall person on the mountain",
+       "The mountain, which is high",
+       "The height of the mountain in feet"
+      ],
+      "answer": 0,
+      "explain": "The neuter article <i lang=\"es\">lo</i> with an adjective refers to a part of a thing or to an abstract notion, and the Academy contrasts <i lang=\"es\">el alto</i>, which can name a person or an object, with <i lang=\"es\">lo alto</i>, the upper part (<i>Manual</i> §14.5.1c)."
+     },
+     {
+      "prompt": "In <i lang=\"es\">el ladrar continuo de los perros</i> (“the continual barking of the dogs”), how does the infinitive <i lang=\"es\">ladrar</i> behave?",
+      "options": [
+       "Like a noun, with an adjective and a phrase with <i lang=\"es\">de</i> that names its subject",
+       "Like a verb, with its subject placed after it and an adverb to modify it",
+       "Like a gerund that tells in what manner the dogs bark",
+       "Like a participle that agrees with <i lang=\"es\">perros</i> in gender and number"
+      ],
+      "answer": 0,
+      "explain": "The Academy calls this a nominal infinitive: it takes the article, an adjective (<i lang=\"es\">continuo</i>), and a complement with <i lang=\"es\">de</i> that names the subject, as a noun does (<i>Manual</i> §26.2.1a)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-53",
+   "title": "<i>Era la hora del oscurecer</i>",
+   "body": "<p>The first sentence has the imperfect of <i lang=\"es\">ser</i> and a noun phrase as its predicate, <i lang=\"es\">la hora del oscurecer</i> (“the hour of dusk”). The Academy says that <i lang=\"es\">ser</i> and <i lang=\"es\">estar</i> form impersonal predicates that tell the time of day, as in <i lang=\"es\">Era muy temprano</i> and <i lang=\"es\">Aún es pronto</i>, and that with a noun the speaker says <i lang=\"es\">Era noche cerrada</i>, <i lang=\"es\">Era de noche</i>, or <i lang=\"es\">Era medianoche</i>, but not <i lang=\"es\">Era noche</i> (<i>Manual</i> §41.4.3c). The sentence of Palacio Valdés belongs with these: it names the time at which the scene is set, and the English “It was the twilight hour” does the same.</p><p>The noun of the phrase is an infinitive with the article, <i lang=\"es\">el oscurecer</i>, <i lang=\"es\">del</i> is the contraction of <i lang=\"es\">de</i> and <i lang=\"es\">el</i>. The Academy says that such nominal infinitives behave as nouns, as in <i lang=\"es\">el ladrar continuo de los perros</i>, that they are more frequent in the older language than in the present one, and that they occur in both (<i>Manual</i> §26.2.1a). Here <i lang=\"es\">oscurecer</i> is “the growing dark,” and the English renders the whole phrase with the noun “twilight.”</p>"
+  },
+  {
+   "id": "prose-54",
+   "title": "The participle and <i>lo alto de</i>",
+   "body": "<p>In the second sentence the subject is <i lang=\"es\">las sombras amontonadas en el fondo de la bahía</i>. The participle <i lang=\"es\">amontonadas</i> modifies the noun and agrees with it in gender and number. The Academy says that participles share with adjectives the ability to modify a noun, as in <i lang=\"es\">la variedad de petróleo más vendida</i> (<i>Manual</i> §27.5.4a), and that the participle has endings of gender and number in all its uses except the compound tenses (<i>Manual</i> §27.5.1b). The imperfect <i lang=\"es\">subían</i> presents the movement of the shadows in its course, without its beginning or end (<i>Manual</i> §23.6.1), and <i lang=\"es\">ya</i> (“already”) says that the movement has gone some way.</p><p>The phrase <i lang=\"es\">á lo alto de las montañas</i> is the neuter article with an adjective. The Academy says that <i lang=\"es\">lo alto</i> refers to a part of a thing, as in <i lang=\"es\">lo alto de la montaña</i> (“the upper part of the mountain”), and that this differs from <i lang=\"es\">el alto</i>, which can name a person or an object (<i>Manual</i> §14.5.1c). The English “far up on the mountains” gives the sense of “the upper parts.” The preposition <i lang=\"es\">á</i> is printed with an accent, as the Academy wrote it until 1911.</p>"
+  },
+  {
+   "id": "prose-55",
+   "title": "Two subjects and a singular verb",
+   "body": "<p>The last sentence has a subject made of two noun phrases, <i lang=\"es\">sus gritos y el chirrido de las maquinillas</i>, and its verb is singular, <i lang=\"es\">era</i>. The Academy says that subjects joined by <i lang=\"es\">y</i> usually take a plural verb, but that a singular verb is found in many old texts and, less often, in the present language, especially when the two ideas are taken as one entity (<i>Manual</i> §33.4.2a). The shouts and the creaking can be taken together as the noise of the harbor, and the translator treats them as two things and writes “were.” The Academy's example with the same verb, <i lang=\"es\">Estos libros es lo único que compré</i>, in which a plural term stands first and the singular <i lang=\"es\">es</i> follows, shows that the singular is common when the plural term precedes (<i>Manual</i> §40.5.3d).</p><p>The predicate <i lang=\"es\">lo único que turbaba la paz de aquel recinto</i> is the neuter article with the adjective <i lang=\"es\">único</i> and a relative clause: “the only thing that disturbed the peace of that place.” The English “the only sounds that” makes it plural, to agree with its own plural subject. The demonstrative <i lang=\"es\">aquel</i> points to the harbor that the whole description has set before us, and <i lang=\"es\">recinto</i> names it as an enclosed space.</p>"
+  },
+  {
+   "id": "prose-56",
+   "title": "Bernal Díaz del Castillo, <i>Verdadera historia</i>",
+   "body": "<p lang=\"es\">y otro dia por la mañana llegamos á la calzada ancha, íbamos camino de Iztapalapa; y desde que vimos tantas ciudades y villas pobladas en el agua, y en tierra firme otras grandes poblaciones, y aquella calzada tan derecha por nivel cómo iba á Méjico, nos quedamos admirados, y deciamos que parecia á las casas de encantamento que cuentan en el libro de Amadís, por las grandes torres y cues y edificios que tenian dentro en el agua, y todas de cal y canto; y aun algunos de nuestros soldados decian que si aquello que veian si era entre sueños. Y no es de maravillar que yo aquí lo escriba desta manera, porque hay que ponderar mucho en ello, que no sé cómo lo cuente, ver cosas nunca oidas ni vistas y aun soñadas, como vimos.</p><p>The next day, in the morning, we arrived at a broad Causeway and continued our march towards Iztapalapa, and when we saw so many cities and villages built in the water and other great towns on dry land and that straight and level causeway going towards Mexico, we were amazed and said that it was like the enchantments they tell of in the legend of Amadis, on account of the great towers and cues and buildings rising from the water, and all built of masonry. And some of our soldiers even asked whether the things that we saw were not a dream? It is not to be wondered at that I here write it down in this manner, for there is so much to think over that I do not know how to describe it, seeing things as we did that had never been heard of or seen before, not even dreamed about.</p><p><strong>Context.</strong> Bernal Díaz del Castillo was a soldier in the army of Cortés. He wrote his <i lang=\"es\">Historia verdadera de la conquista de la Nueva España</i> as an old man in Guatemala, and it was first printed in Madrid in 1632. In this passage the army, on its march toward Mexico (Tenochtitlan), comes out on the causeway that crosses the lake toward Iztapalapa and sees the cities in the water. The English is that of A. P. Maudslay, who translated from the edition of Genaro García, made from the manuscript, and so it has no equivalent of <i lang=\"es\">casas de</i> and it ends “not even dreamed about,” where the Spanish ends <i lang=\"es\">como vimos</i>. The English is printed here without the number of its footnote after “Causeway.” The Spanish is printed in the spelling of the edition named in the Sources, which is that of the nineteenth century and not that of the author.</p>",
+   "qp": {
+    "id": "q-es-ixp-12",
+    "variants": [
+     {
+      "prompt": "What does <i lang=\"es\">desde que me casé</i> mark in <i lang=\"es\">He vivido aquí desde que me casé</i> (“I have lived here since I married”)?",
+      "options": [
+       "The point at which the situation of the main verb came to an end",
+       "The reason that explains why the situation of the main verb exists",
+       "The point at which the situation of the main verb began",
+       "A condition on which the situation of the main verb depends"
+      ],
+      "answer": 2,
+      "explain": "The Academy says that the clause with <i lang=\"es\">desde que</i> marks the beginning of the situation described by the other verb, and that in this construction the present perfect admits a continuing reading, as in <i lang=\"es\">He vivido aquí desde que me casé</i> (<i>Manual</i> §24.3.3f)."
+     },
+     {
+      "prompt": "Which description of <i lang=\"es\">quedarse</i> in <i lang=\"es\">Nos quedamos atónitos</i> (“We were left astonished”) is correct?",
+      "options": [
+       "A copulative verb, the same as <i lang=\"es\">ser</i> in meaning, with an attribute that names a lasting quality",
+       "A verb of motion that takes a complement of place and a participle that agrees with the subject",
+       "A passive auxiliary that is followed by a participle and an agent with <i lang=\"es\">por</i>",
+       "A semicopulative verb with an attribute that names a transitory state caused by an impression"
+      ],
+      "answer": 3,
+      "explain": "The Academy describes <i lang=\"es\">quedar(se)</i> as a semicopulative verb that designates processes ending in transitory states, and it lists among its adjectives those of states of mind caused by an impression, such as <i lang=\"es\">atónito</i>, <i lang=\"es\">perplejo</i>, and <i lang=\"es\">sorprendido</i> (<i>Manual</i> §38.2.5a, b)."
+     },
+     {
+      "prompt": "Why is the verb of <i lang=\"es\">Fue una suerte que aceptara</i> (“It was a stroke of luck that he accepted”) in the subjunctive?",
+      "options": [
+       "The event of <i lang=\"es\">aceptara</i> lies in the future, and the future requires the subjunctive",
+       "The sentence is a question, and questions take the subjunctive in the clause",
+       "The main predicate expresses an evaluation, which induces the subjunctive",
+       "The subject of <i lang=\"es\">aceptara</i> is plural, and plural subjects take the subjunctive"
+      ],
+      "answer": 2,
+      "explain": "Among the notions that induce the subjunctive the Academy lists evaluation, with the example <i lang=\"es\">Fue una suerte que aceptara efectuarlo</i> (<i>Manual</i> §25.3.2)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-57",
+   "title": "The text and its spelling",
+   "body": "<p>Bernal Díaz wrote his book as an old man, and it was first printed in Madrid in 1632. Enrique de Vedia, the editor of the edition quoted, says in his introduction that the printings of 1632 were not made from the author's manuscript, nor from a copy duly authorized, but from a copy that had belonged to a counselor, and he calls the book as we have it defective. The edition is that of the <i>Biblioteca de autores españoles</i>, volume 26, and it is of the nineteenth century. It does not say that it modernizes the spelling, and the passage has not been compared with the printing of 1632. The course therefore quotes the passage as the edition prints it, and what we read is the spelling of the nineteenth century.</p><p>That spelling differs from today's in four respects. First, the edition omits the accent that today's rule writes on the stressed weak vowel of a hiatus: it prints <i lang=\"es\">dia</i>, <i lang=\"es\">deciamos</i>, <i lang=\"es\">parecia</i>, <i lang=\"es\">tenian</i>, <i lang=\"es\">decian</i>, <i lang=\"es\">veian</i>, and <i lang=\"es\">oidas</i> where we write <i lang=\"es\">día</i>, <i lang=\"es\">decíamos</i>, <i lang=\"es\">parecía</i>, <i lang=\"es\">tenían</i>, <i lang=\"es\">decían</i>, <i lang=\"es\">veían</i>, and <i lang=\"es\">oídas</i>. Second, it writes the preposition <i lang=\"es\">á</i> with an accent, which the Academy dropped in 1911. Third, it prints <i lang=\"es\">Méjico</i> where we write <i lang=\"es\">México</i>, and the Ortografía of 1999 recommends <i lang=\"es\">México</i>. Fourth, it prints <i lang=\"es\">desta</i> for <i lang=\"es\">de esta</i>. One more difference is not a matter of spelling: <i lang=\"es\">encantamento</i> is an older form of the word, now <i lang=\"es\">encantamiento</i>, and an editor who modernizes spelling leaves such a form as it is.</p>",
+   "qp": {
+    "id": "q-es-ixp-spelling-2",
+    "variants": [
+     {
+      "prompt": "Which form of the passage shows an accent that today's rule requires and the edition omits?",
+      "options": [
+       "<i lang=\"es\">cómo</i>, printed with an accent that today's rule also requires",
+       "<i lang=\"es\">Amadís</i>, printed with an accent that today's rule also requires",
+       "<i lang=\"es\">oidas</i>, printed without an accent (today <i lang=\"es\">oídas</i>)",
+       "<i lang=\"es\">mañana</i>, printed without an accent that today's rule does not require"
+      ],
+      "answer": 2,
+      "explain": "The stressed <i lang=\"es\">í</i> of a hiatus is written with an accent today, and the edition prints <i lang=\"es\">oidas</i> without it. <i lang=\"es\">Cómo</i> and <i lang=\"es\">Amadís</i> carry accents that today's rule also requires, and <i lang=\"es\">mañana</i> needs none."
+     },
+     {
+      "prompt": "What do <i lang=\"es\">Méjico</i> in the passage and <i lang=\"es\">México</i> today show?",
+      "options": [
+       "Two different cities whose names are spelled alike except for one letter",
+       "Two different pronunciations of the same name, one with <i lang=\"es\">j</i> and one with <i lang=\"es\">ks</i>",
+       "The same word, written with the older and the present letter for the sound of <i lang=\"es\">j</i>",
+       "A printer's error in the edition, which the Academy has since corrected"
+      ],
+      "answer": 2,
+      "explain": "The letter <i lang=\"es\">x</i> once wrote the sound now written <i lang=\"es\">j</i>. The name kept the <i lang=\"es\">x</i> in the spelling <i lang=\"es\">México</i>, which is still pronounced with the sound of <i lang=\"es\">j</i>, and the Ortografía of 1999 recommends it over <i lang=\"es\">Méjico</i>."
+     },
+     {
+      "prompt": "Which pair is not a difference of spelling?",
+      "options": [
+       "<i lang=\"es\">dia</i> and <i lang=\"es\">día</i>, where today's rule writes an accent on the stressed vowel",
+       "<i lang=\"es\">Méjico</i> and <i lang=\"es\">México</i>, where the letter for the sound of <i lang=\"es\">j</i> differs",
+       "<i lang=\"es\">á</i> and <i lang=\"es\">a</i>, where the Academy dropped an accent in 1911",
+       "<i lang=\"es\">encantamento</i> and <i lang=\"es\">encantamiento</i>, where a vowel differs inside the word"
+      ],
+      "answer": 3,
+      "explain": "The difference between <i lang=\"es\">encantamento</i> and <i lang=\"es\">encantamiento</i> is in the form of the word, which an editor does not change when he modernizes spelling. The other pairs differ only in accents or letters."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-58",
+   "title": "<i>Desde que</i> and <i>nos quedamos admirados</i>",
+   "body": "<p>The sentence is long, and its main verbs are <i lang=\"es\">nos quedamos</i> and <i lang=\"es\">deciamos</i>. The clause <i lang=\"es\">desde que vimos tantas ciudades y villas</i> tells from what moment the astonishment dates. The Academy says that a clause with <i lang=\"es\">desde que</i> marks the beginning of the situation that the other verb describes, as in <i lang=\"es\">He vivido aquí desde que me casé</i> (<i>Manual</i> §24.3.3f). The soldiers saw the cities, and from that point they were astonished.</p><p>The phrase <i lang=\"es\">nos quedamos admirados</i> has <i lang=\"es\">quedarse</i> with a participle that works as an adjective and agrees with the subject <i lang=\"es\">nos</i> in the plural. The Academy describes <i lang=\"es\">quedar(se)</i> as a semicopulative verb that designates processes ending in transitory states, and it lists among the adjectives that go with it those of states of mind caused by an impression, such as <i lang=\"es\">atónito</i>, <i lang=\"es\">perplejo</i>, and <i lang=\"es\">sorprendido</i> (<i>Manual</i> §38.2.5a, b). The English “we were amazed” gives the state and leaves out the verb of becoming.</p>"
+  },
+  {
+   "id": "prose-59",
+   "title": "<i>Parecia á</i>, <i>cuentan</i>, and <i>que si</i>",
+   "body": "<p>The soldiers said <i lang=\"es\">que parecia á las casas de encantamento que cuentan en el libro de Amadís</i>, “that it was like the enchantments they tell of in the legend of Amadis.” The verb <i lang=\"es\">parecia</i> is followed by the preposition <i lang=\"es\">á</i> and the noun phrase it governs, and the English renders the whole as “was like.” The relative clause <i lang=\"es\">que cuentan en el libro de Amadís</i> has its verb in the third person plural with no subject expressed. The Academy says that such verbs form impersonal sentences with an unspecific subject that always refers to persons, as in <i lang=\"es\">Dicen que va a llover</i> (<i>Manual</i> §41.4.5a), and the English “they tell of” does the same. The book is <i lang=\"es\">Amadís de Gaula</i>, a romance of chivalry.</p><p>The last clause of the sentence is <i lang=\"es\">decian que si aquello que veian si era entre sueños</i>. The Academy says that a total indirect question is introduced by the conjunction <i lang=\"es\">si</i>, as in <i lang=\"es\">No sé si sucedió</i> (<i>Manual</i> §43.3.1a), and here the question is “whether what they saw was a dream.” The word <i lang=\"es\">si</i> stands twice, before the relative clause <i lang=\"es\">que veian</i> and after it, and the English has “whether” once. The Spanish uses <i lang=\"es\">entre sueños</i> (“among dreams”) where the English has the singular “a dream.”</p>"
+  },
+  {
+   "id": "prose-60",
+   "title": "<i>No es de maravillar que</i>, <i>hay que</i>, and <i>cómo lo cuente</i>",
+   "body": "<p>The last sentence begins <i lang=\"es\">Y no es de maravillar que yo aquí lo escriba desta manera</i>. The verb <i lang=\"es\">escriba</i> is in the subjunctive, because the main predicate expresses an evaluation of what follows. Among the notions that induce the subjunctive the Academy lists evaluation, with the example <i lang=\"es\">Fue una suerte que aceptara efectuarlo</i> (<i>Manual</i> §25.3.2). The English “It is not to be wondered at that I here write it down” has the plain form of the verb. The neuter <i lang=\"es\">lo</i> stands for what has been described, and <i lang=\"es\">desta manera</i> is <i lang=\"es\">de esta manera</i>.</p><p>The reason follows: <i lang=\"es\">porque hay que ponderar mucho en ello</i>. The construction <i lang=\"es\">haber que</i> with an infinitive expresses obligation or need, as in <i lang=\"es\">Hay que apurarse</i> (<i>Manual</i> §28.2.2d). The next clause, <i lang=\"es\">que no sé cómo lo cuente</i>, has an indirect question introduced by the interrogative adverb <i lang=\"es\">cómo</i>, and its verb is the subjunctive <i lang=\"es\">cuente</i>. The Academy says that the mood of indirect questions is normally the indicative, although the subjunctive can appear after predicates of dependence or indifference, and that in many areas of American Spanish it is normal in expressions such as <i lang=\"es\">No sé si te guste esta comida</i> (<i>Manual</i> §25.3.4). The sentence ends with <i lang=\"es\">ver cosas nunca oidas ni vistas y aun soñadas</i>: the participles agree with <i lang=\"es\">cosas</i> and are joined by <i lang=\"es\">ni</i> and <i lang=\"es\">y aun</i>, and the English gives the infinitive <i lang=\"es\">ver</i> as “seeing.”</p>"
+  },
+  {
+   "id": "prose-61",
+   "title": "Pardo Bazán, <i>El cisne de Vilamorta</i>, chapter I",
+   "body": "<p lang=\"es\">Allá detrás del pinar, el sol poniente extendía una zona de fuego, sobre la cual se destacaban, semejantes á columnas de bronce, los troncos de los pinos. El sendero era barrancoso, dando señales de haber sido devastado por las arroyadas del invierno ; á trechos lo hacían menos practicable piedras sueltas, que parecían muelas fuera de sus alveolos. La tristeza del crepúsculo comenzaba á velar el paisaje: poco á poco fué apagándose la incandescencia del ocaso, y la luna, blanca y redonda, ascendió por el cielo, donde ya el lucero resplandecía.</p><p>Behind the pine grove the setting sun had left a zone of fire against which the trunks of the pine trees stood out like bronze columns. The path was rugged and uneven, giving evidence of the ravages wrought by the winter rains; at intervals loose stones, looking like teeth detached from the gum, rendered it still more impracticable. The melancholy shades of twilight were beginning to envelop the landscape; little by little the sunset glow faded away and the moon, round and silvery, mounted in the heavens, where the evening star was already shining.</p><p><strong>Context.</strong> Emilia Pardo Bazán (1851–1921) published <i lang=\"es\">El cisne de Vilamorta</i> in 1885. These are the first three sentences of the novel, a description of a landscape at sunset that precedes the entrance of a man who is seen descending the path. The English of Mary J. Serrano is free in several places: it renders <i lang=\"es\">muelas</i> (“molars”) as “teeth” and <i lang=\"es\">alveolos</i> (“sockets”) as “the gum,” and gives <i lang=\"es\">devastado por las arroyadas</i> as “the ravages wrought by the winter rains.” The space before the semicolon is that of the page. The Spanish is printed in the spelling of the edition named in the Sources, which writes <i lang=\"es\">á</i> and <i lang=\"es\">fué</i> with accents.</p>",
+   "qp": {
+    "id": "q-es-ixp-13",
+    "variants": [
+     {
+      "prompt": "In <i lang=\"es\">la razón por la cual</i> (“the reason for which”), what is <i lang=\"es\">la cual</i>?",
+      "options": [
+       "A conjunction that joins two sentences and has no function inside either of them",
+       "An interrogative pronoun that asks for a reason and begins a question",
+       "A complex relative that is the term of the preposition <i lang=\"es\">por</i>",
+       "A demonstrative that points to a noun that follows it in the sentence"
+      ],
+      "answer": 2,
+      "explain": "The Academy says that prepositional relative clauses are introduced by a complex relative (<i lang=\"es\">el que</i>, <i lang=\"es\">la cual</i>) that is the term of the preposition, as in <i lang=\"es\">por la cual</i> and <i lang=\"es\">desde la que</i> (<i>Manual</i> §44.2.1a)."
+     },
+     {
+      "prompt": "In <i lang=\"es\">El conserje, creyendo que la bolsa estaba vacía, la dejó allí</i> (“The porter, believing that the bag was empty, left it there”), who is the subject of <i lang=\"es\">creyendo</i>?",
+      "options": [
+       "The bag, which is the object of the main verb",
+       "The porter, who is the subject of the main verb",
+       "A person who is not named anywhere in the sentence",
+       "The speaker, who is telling the sentence to us"
+      ],
+      "answer": 1,
+      "explain": "A gerund with no subject expressed usually has as its subject the subject of the main verb. The Academy's own example is this sentence, in which <i lang=\"es\">el conserje</i> is the subject of <i lang=\"es\">dejó</i> and also the antecedent of the unexpressed subject of <i lang=\"es\">creyendo</i> (<i>Manual</i> §27.4.1a)."
+     },
+     {
+      "prompt": "What does <i lang=\"es\">ir + gerundio</i> add to <i lang=\"es\">estar + gerundio</i> in <i lang=\"es\">iba soltando cuerda poco a poco</i> (“he kept letting out line little by little”)?",
+      "options": [
+       "That the process has already ended and its result is now complete",
+       "That the process is about to begin but has not yet begun at all",
+       "That the process is repeated every day in the same way as before",
+       "That the process takes place in stages, each added to the one before"
+      ],
+      "answer": 3,
+      "explain": "The Academy says that the aspect of <i lang=\"es\">ir + gerundio</i> is not only progressive, as in <i lang=\"es\">estar + gerundio</i>, but also cumulative: the process takes place in successive stages, each added to the previous one (<i>Manual</i> §28.4.2d)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-62",
+   "title": "<i>Sobre la cual</i> and <i>el sol poniente</i>",
+   "body": "<p>The first sentence has a relative clause that begins with a preposition: <i lang=\"es\">una zona de fuego, sobre la cual se destacaban ... los troncos de los pinos</i>. The Academy says that a prepositional relative is introduced by a complex relative, such as <i lang=\"es\">el que</i> or <i lang=\"es\">la cual</i>, that is the term of the preposition (<i>Manual</i> §44.2.1a). Here <i lang=\"es\">la cual</i> stands for <i lang=\"es\">una zona de fuego</i>, and the English gives “against which.” The verb <i lang=\"es\">se destacaban</i> stands before its subject <i lang=\"es\">los troncos de los pinos</i>, and the phrase <i lang=\"es\">semejantes á columnas de bronce</i> is an adjective with its complement; it agrees with the plural subject and is set off by commas.</p><p>The phrase <i lang=\"es\">el sol poniente</i> has the word <i lang=\"es\">poniente</i>, which is formed from <i lang=\"es\">poner</i> (here <i lang=\"es\">ponerse</i>, “to set”) with the ending of the old present participle. The Academy says that Spanish no longer has present participles as verb forms, though they were abundant in the older language, and that a few survive as adjectives, such as <i lang=\"es\">distante</i> (<i>Manual</i> §27.5.1c). The English renders <i lang=\"es\">el sol poniente</i> as “the setting sun,” with the English present participle.</p>"
+  },
+  {
+   "id": "prose-63",
+   "title": "The gerund, the stones, and the explicative relative",
+   "body": "<p>The second sentence begins <i lang=\"es\">El sendero era barrancoso, dando señales de haber sido devastado por las arroyadas del invierno</i>. The gerund <i lang=\"es\">dando</i> has no subject expressed, and its subject is the subject of the main verb, <i lang=\"es\">el sendero</i>, as the Academy says is usual (<i>Manual</i> §27.4.1a). The infinitive <i lang=\"es\">haber sido devastado</i> is the compound passive infinitive, and the agent is the phrase <i lang=\"es\">por las arroyadas del invierno</i>. The English “giving evidence of the ravages wrought by the winter rains” makes the passive into a noun.</p><p>After the semicolon the sentence is <i lang=\"es\">á trechos lo hacían menos practicable piedras sueltas, que parecían muelas fuera de sus alveolos</i>. The subject, <i lang=\"es\">piedras sueltas</i>, stands after the verb, and the verb <i lang=\"es\">hacían</i> is plural to agree with it. The pronoun <i lang=\"es\">lo</i> stands for <i lang=\"es\">el sendero</i> and is the object of <i lang=\"es\">hacían</i>, and <i lang=\"es\">menos practicable</i> says what the stones made of the path. The relative clause <i lang=\"es\">que parecían muelas fuera de sus alveolos</i> is set off by a comma. The Academy says that explicative relatives are added as parenthetical comments and can often be omitted without affecting the truth of the rest of the sentence (<i>Manual</i> §44.3.2a), and this clause could be omitted in the same way.</p>"
+  },
+  {
+   "id": "prose-64",
+   "title": "<i>Comenzaba á velar</i> and <i>fué apagándose</i>",
+   "body": "<p>The third sentence begins <i lang=\"es\">La tristeza del crepúsculo comenzaba á velar el paisaje</i>. The construction <i lang=\"es\">comenzar a</i> with an infinitive is one of the phase periphrases that mark the beginning of an event, and the Academy says that these apply to events that have duration, as in <i lang=\"es\">Empezó a llover</i> (<i>Manual</i> §28.3.2b). The imperfect <i lang=\"es\">comenzaba</i> is the English “were beginning.” The verb <i lang=\"es\">velar</i> (“to veil”) is used of the twilight that covers the landscape.</p><p>The next clause is <i lang=\"es\">poco á poco fué apagándose la incandescencia del ocaso</i>. The construction <i lang=\"es\">ir + gerundio</i> expresses a process that takes place in successive stages, and the Academy says that it is especially suited to gradual change, often with <i lang=\"es\">poco a poco</i> (<i>Manual</i> §28.4.2d, f). The auxiliary is the preterite <i lang=\"es\">fué</i> (written <i lang=\"es\">fue</i> today), the pronoun <i lang=\"es\">se</i> is attached to the gerund, and the subject <i lang=\"es\">la incandescencia del ocaso</i> follows. The last clause, <i lang=\"es\">la luna, blanca y redonda, ascendió por el cielo, donde ya el lucero resplandecía</i>, has the relative adverb <i lang=\"es\">donde</i> with the antecedent <i lang=\"es\">el cielo</i> after a comma, and the imperfect <i lang=\"es\">resplandecía</i> presents the shining of the star in its course (<i>Manual</i> §23.6.1), which the English gives with “was already shining.”</p>"
+  },
+  {
+   "id": "prose-65",
+   "title": "Valera, <i>Pepita Jiménez</i>, the first letter",
+   "body": "<p lang=\"es\">22 de Marzo.</p><p lang=\"es\">Querido tio y venerado maestro: Hace cuatro dias que llegué con toda felicidad á este lugar de mi nacimiento, donde he hallado bien de salud á mi padre, al señor vicario y á los amigos y parientes. El contento de verlos y de hablar con ellos, despues de tantos años de ausencia, me ha embargado el ánimo y me ha robado el tiempo, de suerte que hasta ahora no he podido escribir á Vd. Vd. me lo perdonará.</p><p>March 22d.</p><p>DEAR UNCLE AND VENERABLE MASTER: Four days ago I arrived in safety at this my native village, where I found my father, the reverend vicar, our friends and relations all in good health. The happiness of seeing them and conversing with them has so completely occupied my time and thoughts, that I have not been able to write to you until now. You will pardon me for this.</p><p><strong>Context.</strong> Juan Valera (1824–1905) published <i lang=\"es\">Pepita Jiménez</i> in 1874. The novel opens with the letters of a young man, Luis de Vargas, who is preparing for the priesthood and has come home from the seminary to his native village. In this first letter he writes to the man whom he addresses as his uncle and master. The English is that of the Appleton edition of 1886, which spells the title <i lang=\"es\">Pepita Ximenez</i> and names no translator on its title page; it is attributed to Mary J. Serrano. The English leaves out <i lang=\"es\">despues de tantos años de ausencia</i> (“after so many years of absence”), renders <i lang=\"es\">con toda felicidad</i> as “in safety,” and has “the reverend vicar” for <i lang=\"es\">el señor vicario</i>. The Spanish is printed in the spelling of the edition named in the Sources, which prints <i lang=\"es\">tio</i>, <i lang=\"es\">dias</i>, and <i lang=\"es\">despues</i> without accents and <i lang=\"es\">á</i> with one.</p>",
+   "qp": {
+    "id": "q-es-ixp-14",
+    "variants": [
+     {
+      "prompt": "What does <i lang=\"es\">con toda</i> with an abstract noun, as in <i lang=\"es\">con toda seriedad</i> (“in all seriousness”), express?",
+      "options": [
+       "That the quality is present only in part and is not complete",
+       "That the quality belongs to everyone who is present in the scene",
+       "That the quality is present in the highest degree possible",
+       "That the quality is present at all times and in every place"
+      ],
+      "answer": 2,
+      "explain": "The Academy says that with these constructions <i lang=\"es\">todo</i> and an abstract noun express that the property is manifested to the highest degree possible, and many of them are preceded by <i lang=\"es\">con</i>, as in <i lang=\"es\">con toda seriedad</i> and <i lang=\"es\">con toda humildad</i> (<i>Manual</i> §20.1.2c)."
+     },
+     {
+      "prompt": "Which verb form refers to an interval that begins at an unspecified point in the past and extends to the moment of speaking, including it?",
+      "options": [
+       "<i lang=\"es\">canté</i>, the preterite, which names a completed event",
+       "<i lang=\"es\">cantaba</i>, the imperfect, which describes a past situation",
+       "<i lang=\"es\">he cantado</i>, the present perfect",
+       "<i lang=\"es\">cantaré</i>, the future, which looks ahead to a later time"
+      ],
+      "answer": 2,
+      "explain": "The Academy says that the present perfect refers to an interval that begins at an unspecified past point and extends to the moment of speaking, and that this is the use of central and southern European Spanish (<i>Manual</i> §23.4.1a, b)."
+     },
+     {
+      "prompt": "What does the future express in <i lang=\"es\">Estas notas las pondrá usted en limpio</i> (“You will put these notes into a clean copy”), as the Academy reads it?",
+      "options": [
+       "A prediction about an event that lies far in the future",
+       "A request, addressed to the person spoken to",
+       "A guess about what is happening at the moment of speaking",
+       "A habit of the person who is spoken to in the sentence"
+      ],
+      "answer": 1,
+      "explain": "The Academy says that the future with the second person can be read as an order or as a request, and it gives this sentence of Galdós among its examples of requests (<i>Manual</i> §23.7.1b)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-66",
+   "title": "<i>Hace cuatro dias que llegué</i> and <i>con toda felicidad</i>",
+   "body": "<p>The first sentence begins <i lang=\"es\">Hace cuatro dias que llegué</i>. The verb <i lang=\"es\">hacer</i> is impersonal here, close in sense to “elapse,” and the time phrase <i lang=\"es\">cuatro dias</i> is its direct object. The clause with <i lang=\"es\">que</i> names the event from which the time is counted (<i>Manual</i> §24.2.4a, b). The English gives it as “Four days ago I arrived.” The phrase <i lang=\"es\">con toda felicidad</i> has <i lang=\"es\">todo</i> and an abstract noun. The Academy says that such phrases express that the quality is present in the highest degree possible, and its examples include <i lang=\"es\">con toda seriedad</i>, taken from Valera's novel <i lang=\"es\">Juanita la Larga</i> (<i>Manual</i> §20.1.2c). The English “in safety” gives the sense and leaves out the degree.</p><p>The relative clause is <i lang=\"es\">donde he hallado bien de salud á mi padre, al señor vicario y á los amigos y parientes</i>. The adverb <i lang=\"es\">donde</i> has <i lang=\"es\">lugar</i> as its antecedent. The three objects of <i lang=\"es\">he hallado</i> are persons, and each has the preposition <i lang=\"es\">a</i> (<i lang=\"es\">al</i> is <i lang=\"es\">a</i> and <i lang=\"es\">el</i>). The Academy says that the preposition appears characteristically when the direct object designates a person, as in <i lang=\"es\">He visto a tu hermano</i>, and not when it designates a thing (<i>Manual</i> §34.3.1). The phrase <i lang=\"es\">bien de salud</i> (“well in health”) says how the writer found them, and the English gives it as “all in good health.”</p>"
+  },
+  {
+   "id": "prose-67",
+   "title": "The present perfect and <i>hasta ahora</i>",
+   "body": "<p>The letter has one verb in the preterite, <i lang=\"es\">llegué</i>, which names the arrival, and four in the present perfect: <i lang=\"es\">he hallado</i>, <i lang=\"es\">me ha embargado</i>, <i lang=\"es\">me ha robado</i>, and <i lang=\"es\">no he podido</i>. The Academy says that the present perfect refers to an interval that begins at an unspecified past point and extends to the moment of speaking and includes it, and that this is the use of central and southern European Spanish (<i>Manual</i> §23.4.1a, b). The interval here is the four days since the arrival, up to the day of the letter. The phrase <i lang=\"es\">hasta ahora</i> gives the limit: the Academy says that <i lang=\"es\">hasta</i> marks the final limit of the situation that is described (<i>Manual</i> §24.3.3f).</p><p>The subject of the second sentence is <i lang=\"es\">El contento de verlos y de hablar con ellos</i>, a noun with two infinitives, each with <i lang=\"es\">de</i>, and the phrase <i lang=\"es\">despues de tantos años de ausencia</i> is inserted before the verb. In <i lang=\"es\">verlos</i> the pronoun <i lang=\"es\">los</i> is attached to the infinitive. The pronoun <i lang=\"es\">me</i> in <i lang=\"es\">me ha embargado el ánimo</i> and <i lang=\"es\">me ha robado el tiempo</i> names the possessor of <i lang=\"es\">el ánimo</i> and <i lang=\"es\">el tiempo</i>. The Academy says that Spanish often expresses the possessor with a dative pronoun together with a noun phrase that has a determiner, as in <i lang=\"es\">Se me torció el tobillo</i> and <i lang=\"es\">Me torcí el tobillo</i>, where English has “my ankle” (<i>Manual</i> §35.4.1b). The English joins the two verbs into “has so completely occupied my time and thoughts.”</p>"
+  },
+  {
+   "id": "prose-68",
+   "title": "<i>De suerte que</i> and <i>Vd.</i>",
+   "body": "<p>The clause <i lang=\"es\">de suerte que hasta ahora no he podido escribir á Vd.</i> gives a consequence of what came before. The Academy describes the conjunctions <i lang=\"es\">de modo que</i>, <i lang=\"es\">así que</i>, and <i lang=\"es\">conque</i> as introducing a consequence as the natural result of what the speaker has said (<i>Manual</i> §46.8.1), and <i lang=\"es\">de suerte que</i> introduces a consequence in the same way. The English has “so completely occupied ..., that I have not been able,” which puts the result in a clause with “that.”</p><p>The abbreviation <i lang=\"es\">Vd.</i> stands for <i lang=\"es\">usted</i>, and the Academy gives <i lang=\"es\">Ud.</i> and <i lang=\"es\">Vd.</i> as the abbreviations, with the plurals <i lang=\"es\">Uds.</i> and <i lang=\"es\">Vds.</i> (<i>Manual</i> §3.2.3a). The nephew writes to his uncle with the form of respect, and so the verb is in the third person: <i lang=\"es\">Vd. me lo perdonará</i>. The future here is the future of request, as in <i lang=\"es\">las pondrá usted en limpio</i> (<i>Manual</i> §23.7.1b), and it expresses the writer's confidence that the uncle will grant it. The pronoun <i lang=\"es\">lo</i> stands for the delay in writing, and <i lang=\"es\">me</i> is the person pardoned. The English “You will pardon me for this” has the same future.</p>"
+  },
+  {
+   "id": "prose-69",
+   "title": "Blasco Ibáñez, <i>Sangre y arena</i>, chapter I",
+   "body": "<p lang=\"es\">Como en todos los días de corrida, Juan Gallardo almorzó temprano. Un pedazo de carne asada fué su único plato. Vino, ni probarlo: la botella permaneció intacta ante él. Había que conservarse sereno. Bebió dos tazas de café, negro y espeso, y encendió un cigarro enorme, quedando con los codos en la mesa y la mandíbula apoyada en las manos, mirando con ojos soñolientos á los huéspedes, que poco á poco ocupaban el comedor.</p><p>Juan Gallardo breakfasted early as was his custom on the days of a bull-fight. A little roast meat was his only dish. Wine he did not touch, and the bottle remained unopened before him. He had to keep himself steady. He drank two cups of strong black coffee and then, lighting an enormous cigar, sat with his elbows resting on the table and his chin on his hands, watching with drowsy eyes the customers who, little by little, began to fill the dining-room.</p><p><strong>Context.</strong> Vicente Blasco Ibáñez (1867–1928) published <i lang=\"es\">Sangre y arena</i> in 1908. This is the first paragraph of the novel. It shows the bullfighter Juan Gallardo at breakfast in a hotel in Madrid on the morning of a fight. The English of Mrs. W. A. Gillespie is free in several places: it moves the first clause to the end of the first sentence, renders <i lang=\"es\">negro y espeso</i> (“black and thick”) as “strong black coffee,” gives <i lang=\"es\">la mandíbula</i> (“the jaw”) as “his chin,” and has “customers” for <i lang=\"es\">huéspedes</i> (“guests”). The Spanish is printed in the spelling of the edition named in the Sources, which writes <i lang=\"es\">fué</i> and <i lang=\"es\">á</i> with accents.</p>",
+   "qp": {
+    "id": "q-es-ixp-15",
+    "variants": [
+     {
+      "prompt": "Which description of <i lang=\"es\">conservarse</i> in <i lang=\"es\">Se conserva sereno</i> (“He keeps calm”) is correct?",
+      "options": [
+       "A passive auxiliary that takes a participle and an agent with <i lang=\"es\">por</i>",
+       "A verb of change that means becoming calm after a time of agitation",
+       "A semicopulative verb of permanence, whose attribute names a normal situation",
+       "A reflexive verb that means saving oneself from some harm"
+      ],
+      "answer": 2,
+      "explain": "The Academy lists <i lang=\"es\">conservarse</i> among the semicopulative verbs that express permanence or continuity of a state, and says that it often introduces attributes that express situations the speaker considers normal, such as <i lang=\"es\">sereno</i> (<i>Manual</i> §38.3.1a, b)."
+     },
+     {
+      "prompt": "Which statement about the adjective in <i lang=\"es\">Hay que ser más generoso</i> is correct?",
+      "options": [
+       "It must be masculine singular, because the verb <i lang=\"es\">hay</i> is singular and invariable",
+       "It is an adverb here, and so it does not vary in gender or number",
+       "It agrees with <i lang=\"es\">más</i> in gender and number, as an adjective agrees with its noun",
+       "It can also be <i lang=\"es\">generosa</i>, <i lang=\"es\">generosos</i>, or <i lang=\"es\">generosas</i>, since the subject is generic"
+      ],
+      "answer": 3,
+      "explain": "The Academy says that the attributive adjective can vary in gender and number in impersonal sentences with a generic subject, and gives <i lang=\"es\">Hay que ser más {generoso ~ generosa ~ generosos ~ generosas}</i> (<i>Manual</i> §13.3.2b)."
+     },
+     {
+      "prompt": "What marks the clause <i lang=\"es\">que transportaba mineral</i> in <i lang=\"es\">Ayer solo salió un tren, que transportaba mineral</i> (“Yesterday only one train left, which carried ore”)?",
+      "options": [
+       "It limits the noun to the trains that carried ore and to no other trains",
+       "It tells what the train did before it left on its journey",
+       "It is a parenthetical comment that can be omitted without changing the rest",
+       "It is the subject of <i lang=\"es\">salió</i>, and <i lang=\"es\">un tren</i> is its object"
+      ],
+      "answer": 2,
+      "explain": "The Academy says that explicative relatives are added as parenthetical comments and can often be omitted without affecting the truth of the rest of the sentence. The Academy's contrast is that without the comma the relative restricts the noun to the trains that carried ore (<i>Manual</i> §44.3.2a)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prose-70",
+   "title": "<i>Como en todos los días de corrida</i> and <i>fué su único plato</i>",
+   "body": "<p>The first sentence begins with a comparison that gives the custom: <i lang=\"es\">Como en todos los días de corrida</i> (“as on all the days of a bullfight”). The word <i lang=\"es\">corrida</i> is the bullfight, and the phrase <i lang=\"es\">días de corrida</i> names the days on which one takes place. The English moves the clause to the end of the sentence and makes it “as was his custom.” The verb <i lang=\"es\">almorzó</i> is the preterite, the single event that the sentence reports, and the English renders it “breakfasted,” which suits <i lang=\"es\">temprano</i> (“early”) and the morning of the fight.</p><p>The second sentence is <i lang=\"es\">Un pedazo de carne asada fué su único plato</i>. The participle <i lang=\"es\">asada</i> modifies <i lang=\"es\">carne</i> and agrees with it, and the predicate <i lang=\"es\">su único plato</i> follows the verb <i lang=\"es\">ser</i>. The edition prints <i lang=\"es\">fué</i> with an accent. In books printed before the Academy's norms of 1952, binding from 1959, the verb forms of one syllable often carry an accent, and <i lang=\"es\">fué</i> is now written <i lang=\"es\">fue</i>. The English “A little roast meat was his only dish” gives <i lang=\"es\">un pedazo</i> (“a piece”) as “a little.”</p>"
+  },
+  {
+   "id": "prose-71",
+   "title": "<i>Vino, ni probarlo</i> and <i>conservarse sereno</i>",
+   "body": "<p>The third sentence is <i lang=\"es\">Vino, ni probarlo: la botella permaneció intacta ante él</i>. The first part has no verb: the noun <i lang=\"es\">vino</i> is set first and followed by <i lang=\"es\">ni probarlo</i> (“not even to taste it”). The Academy notes the scheme <i lang=\"es\">ni + infinitivo</i> among the interjections that express negation, rejection, or opposition, as in <i lang=\"es\">de eso ni hablar</i> (<i>Manual</i> §32.5.2j). After the colon the sentence says what happened to the bottle. The verb <i lang=\"es\">permanecer</i> is a semicopulative verb of permanence, and its attribute <i lang=\"es\">intacta</i> agrees with <i lang=\"es\">la botella</i> (<i>Manual</i> §38.3.1a). The English “Wine he did not touch” and “remained unopened” give both parts, though <i lang=\"es\">intacta</i> (“untouched”) is not “unopened.”</p><p>The fourth sentence is <i lang=\"es\">Había que conservarse sereno</i>. The construction <i lang=\"es\">haber que</i> with an infinitive expresses obligation or need, and the Academy recommends that pronominal verbs take the pronoun as an enclitic with it, as in <i lang=\"es\">Hay que marcharse</i> (<i>Manual</i> §28.2.2d). The verb <i lang=\"es\">conservarse</i> is again a semicopulative verb of permanence. The Academy says that it often introduces attributes that express situations the speaker considers normal, and it lists <i lang=\"es\">sereno</i> among the adjectives that go with it (<i>Manual</i> §38.3.1b). In an impersonal sentence with a generic subject the adjective can vary in gender and number (<i>Manual</i> §13.3.2b), and here it is masculine singular, like Gallardo. The English “He had to keep himself steady” renders <i lang=\"es\">había que</i> with “had to.”</p>"
+  },
+  {
+   "id": "prose-72",
+   "title": "The last sentence: two gerunds and a relative clause",
+   "body": "<p>The last sentence has two noun phrases after <i lang=\"es\">Bebió</i> and <i lang=\"es\">encendió</i>. The adjectives of <i lang=\"es\">dos tazas de café, negro y espeso</i> stand after the noun and are set off by commas. The Academy says that explicative adjectives occupy the position after the noun, as the parenthetical phrase in which they stand does (<i>Manual</i> §13.6.1a). Then come two gerunds, <i lang=\"es\">quedando</i> and <i lang=\"es\">mirando</i>, whose subject is Gallardo, the subject of the main verbs, as the Academy says is usual (<i>Manual</i> §27.4.1a). The English turns the first into “sat” and the second into “watching.”</p><p>The phrase <i lang=\"es\">con los codos en la mesa y la mandíbula apoyada en las manos</i> has the preposition <i lang=\"es\">con</i> and two noun phrases, the second with the participle <i lang=\"es\">apoyada</i>, which agrees with <i lang=\"es\">la mandíbula</i>. The Academy says that participles and adjectives appear in prepositional constructions that admit predicative complements, as in <i lang=\"es\">con las botas {puestas ~ sucias}</i> (<i>Manual</i> §27.5.4a). The phrase <i lang=\"es\">á los huéspedes</i> has the personal <i lang=\"es\">a</i>, because the direct object of <i lang=\"es\">mirando</i> designates persons (<i>Manual</i> §34.3.1). The clause <i lang=\"es\">que poco á poco ocupaban el comedor</i> is an explicative relative, set off by a comma (<i>Manual</i> §44.3.2a), and the imperfect <i lang=\"es\">ocupaban</i> with <i lang=\"es\">poco á poco</i> shows the guests arriving one by one, which the English gives as “began to fill.”</p>"
   }
  ]
 };
