@@ -1,0 +1,19 @@
+SOURCE FILE: Jorge Manrique, Coplas, stanza 1, quoted in lang.ix.es/poetry
+WORK: Jorge Manrique, Poesías (Barcelona: Antonio López, editor, Librería Española, Rambla del Centro 20; Colección Diamante, tomo 114). The title page names no year. Internet Archive item poesas00manr dates the book 1900. A bookplate in the copy records Professor Milton A. Buchanan, 1906–1946. The prologue is signed A. R. The archive record and a bookseller’s description call the writer of the prologue A. Riera. His dates were not found.
+TEXT READ: the PDF poesas00manr.pdf, PDF page 19 (the first stanza). Read from a rendering of the printed page on 26 Oct 2026. The prologue on PDF pages 11–14 says that the edition adopts modern orthography and prosody and keeps an old form only when the harmony of the line or the rhyme requires it. That sentence was read from the PDF text layer, which on those pages is clear, and was not compared letter by letter with a rendering.
+The stanza is printed with the accents below. Nothing was altered.
+COPYRIGHT: Manrique died in 1479. The book is from about 1900, before 1931. The editor’s death date was not found, so the clearance of the editorial text is not closed. Henry Wadsworth Longfellow’s bilingual edition (a copy dated 1878, Internet Archive coplasdemanrique00manr; Longfellow died in 1882) prints a different Spanish text of the same stanza, with fewer accents. It was not quoted.
+
+### Stanza 1 (PDF page 19)
+Recuerde el alma dormida,
+avive el seso y despierte
+contemplando
+cómo se pasa la vida,
+cómo se viene la muerte
+tan callando;
+cuán presto se va el placer,
+cómo después de acordado
+da dolor;
+cómo, á nuestro parecer,
+cualquiera tiempo pasado
+fué mejor.

@@ -29,3 +29,4 @@ Quotes no passage. The example words are the course's own, and the facts are in 
 | Deck | Quoted text | Saved text | Result |
 |---|---|---|---|
 | `lang.ix.es/poetry` | *Romance del prisionero*, Wolf and Hofmann no. 114 (twelve lines), and the first line of no. 114a, which the spelling panel quotes in order not to mix the two copies | `sources/spanish/romance-prisionero.txt` | Read from a rendering of the printed page (PDF pages 26–27 of Internet Archive `primaverayflorde02wolf`). Accents and the unaccented *dia* and *galardon* kept as printed |
+| `lang.ix.es/poetry` | Jorge Manrique, *Coplas*, stanza 1 (twelve lines) | `sources/spanish/manrique-coplas-1.txt` | Read from a rendering of PDF page 19 of Internet Archive `poesas00manr` (Antonio López, Barcelona, Colección Diamante, vol. 114). The editor’s death date was not found |
