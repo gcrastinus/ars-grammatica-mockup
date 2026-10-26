@@ -16,6 +16,21 @@ ARS.languages["lang.iii-decl.es"] = {
    "ex": "lang.iii-decl.es/fill-ex"
   },
   {
+   "id": "lang.iii-decl.es/paradigms",
+   "kind": "study",
+   "built": true,
+   "title": "Spanish Paradigms",
+   "desc": "The article, the noun, the adjective, the pronoun, and twelve verbs."
+  },
+  {
+   "id": "lang.iii-decl.es/paradigms-ex",
+   "kind": "exercise",
+   "built": true,
+   "title": "Spanish Paradigms",
+   "desc": "24 questions.",
+   "exFor": "lang.iii-decl.es/paradigms"
+  },
+  {
    "id": "lang.iii-decl.es/fill-ex",
    "kind": "exercise",
    "built": true,

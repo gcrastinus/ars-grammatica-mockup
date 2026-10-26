@@ -41,3 +41,15 @@ Examples taken from the Manual (not passages): *El lobo es un animal carnívoro*
 Not verified, and not guessed:
 1. The Latin remarks that go beyond A&G §41, §154, §171, §318: that classical Latin has no conditional mood (A&G lists four moods) is supported; that <i>tū</i> and <i>vōs</i> carry no respect is not checked.
 2. Whether the Academy's printed book words §3.1.1b and §2.1.2b as the OCR does (the scan has a few stray spaces).
+
+## `paradigms` (12 panels) and `paradigms-ex` (24 items)
+
+| Card | Statement | Source | Verdict |
+|---|---|---|---|
+| paradigms-1 | The article paradigm, including *el* and *un* before a stressed *a*, the neuter *lo*, and the contractions *al* and *del* | MANUAL §14.2.1, §14.2.2a, §14.2.3 | Verified |
+| paradigms-2 | The plurals of fifteen nouns (*hermano*, *hermana*, *hombre*, *madre*, *cuaderno*, *flor*, *reloj*, *voz*, *corazón*, *razón*, *jueves*, *tesis*, *té*, *ley*, *rey*) | MANUAL §3.1.2a, b, c (rules for *-s*, *-es*, *z* to *c*, invariable nouns in unstressed *-s*, *tés*, *leyes*, *reyes*, *relojes*, *tesis*) | Verified by the rules. The forms *cuadernos*, *hermanos*, *madres*, *corazones* are regular and not printed in the Manual as examples |
+| paradigms-3 | Six adjectives by gender and number; *gran* before a singular noun | MANUAL §13.3.2a, c (*español, española*; *-or*, *-ora*), §13.3.3a | Verified. The plural of *feliz* (*felices*) follows §3.1.2b |
+| paradigms-4 | The personal pronouns by case | MANUAL §16.2.1 (the table of the personal pronouns, lines 28518 to 28700 of the OCR text, saved in the excerpts file) | Verified |
+| paradigms-5 to 12 | The twelve verbs | MANUAL §4.9, see `B2-VERB-TABLES-CHECK.md` | Verified, with the limits stated there |
+
+Not verified: the Academy lists some forms of the table of the pronouns that the deck leaves out (*ello*, *vos*, *sí* in the plural, and the neuter forms); the omission is deliberate (Spain only; *ello* is neuter).

@@ -11,3 +11,4 @@ Quotes no passage. The example words are the course's own, and the facts are in 
 | Deck | Quoted text | Saved text | Result |
 |---|---|---|---|
 | `lang.iii-decl.es/accidents` | No passage is quoted. Example sentences from the Academy's *Manual* (listed in `sources/spanish/B2-FACT-CHECK-OCT-26.md`) are used as examples, not as quotations of a passage. | `sources/spanish/rae-manual-2010-excerpts-B2.txt` | Each example found in the machine-read text. Not compared with the printed book |
+| `lang.iii-decl.es/paradigms` | No passage is quoted. The tables give forms, checked against the Academy's model tables (`sources/spanish/B2-VERB-TABLES-CHECK.md`). | `sources/spanish/wiktionary-conjugation-tables-B2.txt`, `sources/spanish/rae-manual-2010-excerpts-B2.txt` | Forms checked; the Academy's printed book not compared |
