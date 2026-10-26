@@ -793,3 +793,23 @@ Las columnas de este cuadro representan la persona gramatical. Las filas re-
 presentan, en cambio, las variantes de los pronombres que se establecen en 
 301 
 Formas de los pronombres personales 
+
+### Manual §4.6.2a (OCR line 3468)
+4.6.2a Los participios irregulares o fuertes coinciden con los pretéritos análo- 
+gos en ser formas heredadas del latín y en presentar el acento en la raíz. Constituyen 
+un repertorio limitado, aunque las variantes se extienden a sus derivados: abierto, 
+de abrir; absuelto, de absolver; cubierto, de cubrir; dicho, de decir (pero son regu- 
+lares los participios de bendecir y maldecir; las formas maldito y bendito se usan casi 
+siempre como adjetivos); escrito, de escribir (con la terminación -pto en lugar de -to 
+en los derivados inscripto, circunscripto, descripto, prescripto, que se emplean en el 
+español hablado en la Argentina, el Uruguay y el Paraguay); hecho, de hacer (pero 
+satisfecho de satisfacer); muerto, de morir; puesto, de poner; roto, de romper (el 
+participio regular rompido estaba muy extendido en la lengua medieval y en la clási- 
+ca); visto, de ver; vuelto, de volver. 
+
+### Manual, index of verbs with their model (OCR lines 16442, 16660, 16731, 17011, 17049: abstener, contener, detener, mantener, obtener, each marked "tener [64]")
+abstener ( tener [64])
+contener (tener [64])
+detener (tener [64])
+mantener ( tener [64])
+obtener (tener [64])
