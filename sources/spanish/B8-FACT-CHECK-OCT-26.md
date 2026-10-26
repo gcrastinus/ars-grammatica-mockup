@@ -47,3 +47,30 @@ How to read the verdicts. "Verified" means that the statement, or the rule that 
 | The loanword | The plural of *club* is *clubs* or *clubes*, both valid; the plural of *web* is *webs*; *airbag* has the plural *airbags* | DPD *club*; *web* 2; *airbag* | Verified |
 | The loanword | *fútbol* (most of the Spanish-speaking world) and *futbol* (Mexico and Central America) are both valid | DPD *fútbol* 1 | Verified (see the note on the edition above) |
 | Exercise | The differences of use depend on mode, situation, and social level; the gradation of judgments; the databank; contact with other languages; the Andean *lo*; *casa* and *caza* (seseo) and *calló* and *cayó* (yeísmo) as pairs of words that sound alike | DPD "Qué es"; *loísmo* 6a | Verified. The two pairs of words are the course's examples of the rules of the entries *seseo* and *yeísmo* |
+
+## `figures`
+
+Sources: the passages are saved under `sources/spanish/` (`gongora-soledad-primera-bae32.txt`, `quevedo-soneto-53-bae69.txt`, `cervantes-quijote-ii-23-hartzenbusch-1863.txt`), each read from the page image of the Internet Archive scan of the named edition. DLE is the Academy's *Diccionario de la lengua española* (23rd ed., 2014), read in the machine-read text of the Internet Archive (item real-academia-espanola-diccionario-de-la-lengua-espanola; the OCR is imperfect and the printed book was not compared).
+
+| Card | Statement | Source | Verdict |
+|---|---|---|---|
+| Hyperbaton in Góngora | Six lines of *Soledad primera* (1 to 6) as printed in the BAE edition of 1854, with *estacion* unaccented; the subject *el mentido robador de Europa* in line 2 and its verb *pace* in line 6 | `gongora-soledad-primera-bae32.txt` (printed page 463) | Verified against the page image |
+| Hyperbaton in Góngora | *mentido*: "false" (*Falso o no verdadero*); *pace*, from *pacer*: said of cattle, "to eat in the fields" | DLE *mentido, da*, 1; *pacer*, 1 | Verified |
+| Hyperbaton in Góngora | The "false abductor of Europa" is Jupiter in the shape of a bull | General knowledge of the myth of Europa; not sourced in the course | Inference (the course's gloss; the edition's own notes do not state it); B14 |
+| Hyperbaton in Góngora | The course's plain order *el mentido robador de Europa pace estrellas en campos de zafiro*; the English renderings of the six lines | The course's own (verse; allowed by Timothy, 25 Oct 2026); every word is rendered | Course's own |
+| Hyperbaton in Góngora | The verb ending shows that its subject is third person singular, so the subject can be held across the insertion | MANUAL, `lang.v.es/order` (free order) | Recalled from an earlier deck |
+| Antithesis in Quevedo | Lines 9 to 11 of the sonnet "Represéntase la brevedad de lo que se vive" as printed in the BAE edition of 1877; the comma after *fué* in line 9 | `quevedo-soneto-53-bae69.txt` (printed page 18) | Verified against the page image (the machine reading gives a period there) |
+| Antithesis in Quevedo | The Academy defines antithesis (rhetoric) as the opposition of a word or phrase to another of contrary meaning | DLE *antítesis*, 3 | Verified |
+| Antithesis in Quevedo | *punto* is "instant, moment"; *cansado* means "that causes tiredness" | DLE *punto*, 25; *cansado, da*, 3 | Verified |
+| Antithesis in Quevedo | The English rendering of the three lines; the remark that the third line makes the verb forms into nouns | The course's own | Course's own; the grammar of *un fué, un será, un es* is the course's reading |
+| The proverb in Cervantes | *refrán*: "pointed and sententious saying in common use" | DLE *refrán* | Verified |
+| The proverb in Cervantes | The passage of *Don Quijote* II.23 (Sancho's answer after the cave of Montesinos) as printed by Hartzenbusch (1863), page 224, with *miéntras*; the English of Ormsby for the same sentence | `cervantes-quijote-ii-23-hartzenbusch-1863.txt`; Gutenberg #996, Part II, chapter XXIII | Verified: the Spanish against the page image, the English against the Gutenberg text; the two agree sentence for sentence |
+| The proverb in Cervantes | The setting (Don Quijote says that he neither ate nor slept in three days, and that the enchanted do not sleep) | Ormsby's text, Part II, chapter XXIII | Verified |
+| The proverb in Cervantes | What an editor may change (spelling, accents, punctuation) and may not (words and their order); the Academy no longer prescribes *miéntras* with an accent | The course's own statement of editorial practice; DLE *mientras* (no accent) | One source / inference; B14 |
+| A change of line length | Four lines of the dedication of the *Soledades* (printed page 463) | `gongora-soledad-primera-bae32.txt` | Verified against the page image |
+| A change of line length | The syllable counts 11, 11, 7, 11, with the union of *de un* in line 1; line 5 of *Soledad primera* has seven | The course's own count, by the rules of `lang.ii.es/meter` (synalepha) | Course's own; to be checked against Navarro Tomás in B14 (as for `lang.ii.es/meter`) |
+| A change of line length | The *silva*: a metrical combination, not strophic, in which heptasyllables and hendecasyllables alternate freely | DLE *silva*, 2 | Verified |
+| A change of line length | *errante*: "that goes from one place to another with no fixed seat" | DLE *errante*, 1 | Verified |
+| A change of line length | The plain-order sense of the first four lines | The course's own reading of the syntax | Course's own; B14 |
+| A change of line length | A change of line length is not a trope | The course's account of tropes (`lang.vii.en/tropes`), as in `lang.vii.fr/figures` | Recalled |
+| Exercise | The sentences, proverbs, and lines of the exercise (*Quien mucho abarca, poco aprieta*; *Al que madruga, Dios le ayuda*; the lines counted for syllables) | The course's own sentences; the proverbs are in common use | Course's own; the syllable counts are by the rules of `lang.ii.es/meter` (no line of the exercise has a vowel-to-vowel junction) |

@@ -1,0 +1,37 @@
+SOURCE FILE: passages of Luis de Góngora quoted in lang.vii.es/figures (Soledad primera, lines 1 to 6; the dedication of the Soledades, lines 1 to 4) and in lang.vii.es/tropes (Sonnet XLIV)
+WORK: Luis de Góngora y Argote (1561-1627), Soledades and Sonetos, printed in the seventeenth century. The author died in 1627 and the works were first published long before 1931.
+EDITION: Poetas líricos de los siglos XVI y XVII, colección ordenada por don Adolfo de Castro, tomo primero (Biblioteca de autores españoles, vol. 32; Madrid: M. Rivadeneyra, 1854). Adolfo de Castro died in 1898. The edition prints the text in the spelling of the nineteenth century (modernized): accents, "z", "ñ", and so on, and a capital at the head of each line.
+TEXT READ: the Internet Archive item poetaslricosde32cast. The plain-text file was used to find the passages, and the letters, accents, and marks of every quoted line were read from the page images of the item (leaf 503 = printed page 463, and leaf 472 = printed page 432), because the machine reading of the text is faulty. The printed book could not be compared (batch B14).
+
+### Soledades, dedication "Al excelentísimo señor Duque de Béjar", lines 1 to 4 (printed page 463)
+Pasos de un peregrino son errante
+Cuantos me dictó versos dulce musa,
+En soledad confusa
+Perdidos unos, otros inspirados (38).
+[The number in parentheses is the editor's note mark and is not quoted.]
+
+### Soledad primera, lines 1 to 6 (printed page 463)
+Era del año la estacion florida
+En que el mentido robador de Europa
+Media luna las armas de su frente,
+Y el sol todos los rayos de su pelo,
+Luciente honor del cielo
+En campos de zafiro pace estrellas,
+[The edition prints "estacion" without the accent. Line 5 has no mark at its end.]
+
+### Sonnet XLIV, "Mientras por competir con tu cabello" (printed page 432)
+Mientras por competir con tu cabello,
+Oro bruñido, el sol relumbra en vano;
+Mientras con menosprecio en medio el llano
+Mira á tu blanca frente el lilio bello;
+Mientras á cada labio, por cogello,
+Siguen mas ojos que al clavel temprano,
+Y mientras triunfa con desden lozano
+Del luciente marfil tu gentil cuello;
+Goza cuello, cabello, labio y frente,
+Antes que lo que fué en tu edad dorada
+Oro, lilio, clavel, marfil luciente (13),
+No solo en plata ó viola truncada
+Se vuelva, mas tú y ello juntamente
+En tierra, en humo, en polvo, en sombra, en nada.
+[Quoted in the course: lines 1, 2, 3, and 14 only. "desden" and "mas" are printed without an accent.]

@@ -1,0 +1,12 @@
+SOURCE FILE: passage of Miguel de Cervantes quoted in lang.vii.es/figures (Don Quijote, Part II, chapter 23, the proverb of Sancho)
+WORK: Miguel de Cervantes Saavedra (1547-1616), El ingenioso hidalgo don Quijote de la Mancha, Part II (1615). The author died in 1616 and the work was first published in 1615.
+EDITION OF THE SPANISH: El ingenioso hidalgo don Quijote de la Mancha, compuesto por Miguel de Cervantes Saavedra, edición corregida con especial estudio de la primera, por D. J. E. Hartzenbusch (imprint "Argamasilla de Alba, Imprenta de don Manuel Rivadeneyra," 1863). Hartzenbusch died in 1880. The edition prints the text in the spelling of the nineteenth century.
+TEXT READ: the Internet Archive item bub_gb_sVS1wK0bDn0C (Google scan), leaf 240 = printed page 224. The words and marks were read from the page image. The printed book could not be compared (batch B14).
+ENGLISH: John Ormsby, translation of Don Quixote (1885), as printed in Project Gutenberg #996 (David Widger), Part II, chapter XXIII.
+
+### Spanish (printed page 224)
+—Aquí encaja bien el refrán, dijo Sancho, de «dime con quién andas, decirte he quién eres»: ándase vuesa merced con encantados, ayunos y vigilantes; mirad si es mucho que ni coma ni duerma miéntras con ellos anduviere.
+[The course quotes the passage without the dialogue dash.]
+
+### English (Ormsby)
+"The proverb, 'Tell me what company thou keepest and I'll tell thee what thou art,' is to the point here," said Sancho; "your worship keeps company with enchanted people that are always fasting and watching; what wonder is it, then, that you neither eat nor sleep while you are with them?"

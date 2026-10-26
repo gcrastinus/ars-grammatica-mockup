@@ -451,3 +451,12 @@ Sentences made up for the course (the example sentences of Sections III and V, t
 | Blasco Ibáñez, *La barraca* | ch. I (two sentences and the dog), ch. II (two), ch. IV (two), ch. VIII (one) | *The Cabin (La barraca)*, trans. Francis Haffkine Snow and Beatrice M. Mekota, introduction by John Garrett Underhill (New York: Alfred A. Knopf, 1917; Gutenberg #38165 has the printing of 1919). Real published translation, quoted sentence for sentence | lang.v.es/cited-ex (explanations of eswf1 to eswf13) |
 | Pérez Galdós, *Doña Perfecta* | ch. I, the sentence on the first-class passenger | Mary J. Serrano (Gutenberg #2462; publisher and year not stated in the file). Real published translation | lang.v.es/cited-ex (eswf14) |
 | Allen and Greenough, *New Latin Grammar* | §§ 157, 449, 450, 512, 514, 527, 531, 537, 540, 543, 551, 553, 574, 580, 588 | The grammar's own English renderings of its Latin examples (1903) | lang.v.es/mood, clauses, order |
+
+## Spanish, Sections VI and VII (B8, 26 Oct 2026)
+
+| Work | Passage | Translator / edition | Deck / panel |
+|---|---|---|---|
+| Cervantes, *Don Quijote* | Part II, chapter 23, the answer of Sancho (the proverb) | John Ormsby (1885), as printed in Project Gutenberg #996. Real published translation, quoted sentence for sentence | lang.vii.es/figures (`figures-3`) |
+| Góngora, *Soledades* (dedication, lines 1 to 4; *Soledad primera*, lines 1 to 6) | verse | The course's own plain English (verse, as allowed on 25 Oct 2026; every word is rendered), stated in the deck's Sources note | lang.vii.es/figures (`figures-1`, `figures-4`) |
+| Quevedo, sonnet "Represéntase la brevedad de lo que se vive" | lines 9 to 11 | The course's own plain English (verse), stated in the Sources note | lang.vii.es/figures (`figures-2`) |
+| Góngora, sonnet "Mientras por competir con tu cabello" | lines 1 to 3 and 14 | The course's own plain English (verse), stated in the Sources note | lang.vii.es/tropes |

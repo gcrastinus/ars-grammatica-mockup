@@ -1,0 +1,23 @@
+SOURCE FILE: passage of Francisco de Quevedo quoted in lang.vii.es/figures (the sonnet "Represéntase la brevedad de lo que se vive, y cuán nada parece lo que se vivió", lines 9 to 11)
+WORK: Francisco de Quevedo y Villegas (1580-1645), poem 53 of the poetry in the volume below (printed in the Parnaso español, 1648). The author died in 1645 and the work was first published in 1648.
+EDITION: Obras de don Francisco de Quevedo Villegas, tomo tercero (Poesías), edición de don Florencio Janer (Biblioteca de autores españoles, vol. 69; Madrid: M. Rivadeneyra, 1877). Janer died in 1877. The edition prints the text in the spelling of the nineteenth century.
+TEXT READ: the Internet Archive item bibliotecadeauto69madruoft, leaf 52 = printed page 18. The marks were read from the page image (the machine reading takes the comma after "fué" in line 9 for a period). The printed book could not be compared (batch B14).
+
+53.
+Represéntase la brevedad de lo que se vive, y cuán nada parece lo que se vivió (4).
+SONETO.
+¡ Há de la vida ! ¿Nadie me responde?
+Aquí de los antaños que he vivido ;
+La fortuna mis tiempos ha mordido,
+Las horas mi locura las esconde (5).
+¡ Que sin poder saber cómo ni á dónde,
+La salud y la edad se hayan huido !
+Falta la vida, asiste lo vivido,
+Y no hay calamidad que no me ronde.
+Ayer se fué, mañana no ha llegado,
+Hoy se está yendo sin parar un punto,
+Soy un fué, y un será y un es cansado.
+En el hoy, y mañana, y ayer, junto
+Pañales y mortaja , y he quedado
+Presentes sucesiones de difunto.
+[Quoted in the course: lines 9 to 11, and the title in part. The print sets a space before some commas ("mortaja , y"); the course does not reproduce that spacing.]
