@@ -1,0 +1,185 @@
+SOURCE FILE: excerpts of Allen and Greenough used by the Spanish batch B3 for the Latin comparisons on the cards of lang.iii-decl.es/pronouns, tenses, subjunctive, and participle
+WORK: Joseph Henry Allen and James Bradstreet Greenough, Allen and Greenough's New Latin Grammar for Schools and Colleges, founded on comparative grammar (Boston: Ginn, 1903).
+TEXT READ: Internet Archive item allengreenoughsn01alle, plain-text (OCR) file, https://archive.org/download/allengreenoughsn01alle/allengreenoughsn01alle_djvu.txt , fetched 26 Oct 2026. Machine-read text; double spaces and some letters come from the scan. Section numbers are the grammar's own.
+
+### §158 (the participles), lines 9663 to 9696 of the text
+158.  The  Participles  are  used  as  follows :  — 
+a.  The  Present  Participle  (ending  in  -ns)  has  commonly  the  same 
+meaning  and  use  as  the  English  participle  in  -ing ;  as,  vocans,  call- 
+ing ;  legentes,  reading.     (Por  its  inflection,  see  egens,  §  118.) 
+h.  The  Puture  Participle  (ending  in  -urus)  is  oftenest  used  to  ex- 
+press what  is  likely  or  about  to  happen:  as,  recturus,  about  to  rule; 
+audlturus,  about  to  hear. 
+Note.  — With  the  tenses  of  esse,  to  be,  it  forms  the  First  Periphrastic  Conjugation 
+(see  §  195) :  as,  urbs  est  casura,  the  city  is  about  to  fall ;  mansurus  eram,  I  was  going 
+to  stay. 
+c.  The  Perfect  Participle  (ending  in  -tus,  -sus)  has  two  uses :  — 
+1.  It  is  sometimes  equivalent  to  the  English  perfect  passive  participle : 
+as,  tectus,  sheltered  ;  acceptus,  accepted ;  ictus,  having  been  struck ;  and  often 
+has  simply  an  adjective  meaning :  as,  acceptus,  acceptable. 
+2.  It  is  used  with  the  verb  to  be  (esse)  to  form  certain  tenses  of  the  pas 
+sive :  as,  vocatus  est,  he  ivas  (has  been)  called. 
+Note. — There  is  no  Perfect  Active  or  Present  Passive  Participle  in  Latin.  For 
+substitutes  see  §§  492,  493. 
+d.  The  Gerundive  (ending  in  -ndus),  has  two  uses :  — 
+1.  It  is  often  used  as  an  adjective  implying  obligation,  necessity,  or 
+propriety  (ought  or  must)  :   as,  audiendus  est,  he  must  be  heard. 
+Note.  — When  thus  used  with  the  tenses  of  the  verb  to  be  (esse)  it  forms  the  Second 
+Periphrastic  Conjugation:  deligendus  erat,  he  ought  to  have  been  chosen  (§  196). 
+
+### §162 (the tenses of the subjunctive)
+162.  The  Tenses  of  the  Subjunctive  are  chiefly  used  in  depend- 
+ent clauses,  following  the  rule  for  the  Sequence  of  Tenses ;  but 
+have  also  special  idiomatic  uses  (see  Syntax). 
+
+### §184 (the first conjugation, active voice: indicative and subjunctive, infinitive, participles, gerund), lines 11560 to 11700
+INDICATIVE 
+Present 
+SUBJUNCTIVE 
+amo,1  /  love,  am  loving, 
+do  love 
+amem2 
+amas,  thou  lovest  (you  love) 
+ames 
+amat,  he  (she,  it)  loves 
+amet 
+amamus,  we  love 
+amemus 
+amatis,  you  love 
+ametis 
+amant,  they  love 
+Imperfect 
+ament 
+amabam,  /  loved,  was  loving,  did  love 
+amarem 
+amabas,  you  loved 
+amares 
+amabat,  he  loved 
+amaret 
+amabamus,  we  loved 
+amaremus 
+amabatis,  you  loved 
+amaretis 
+amabant,  they  loved 
+amarent 
+Future 
+amabo,  /  shall  love 
+amabis,  you  will  love 
+amabit,  he  will  love 
+amabimus,  we  shall  love 
+amabitis,  you  will  love 
+amabunt,  they  will  love 
+1  The  stem-vowel  a-  is  lost  before  -o,  and  in  the  Present  Subjunctive  becomes  e-. 
+2  The  translation  of  the  Subjunctive  varies  widely  according  to  the  construction. 
+Hence  no  translation  of  this  mood  is  given  in  the  paradigms. 
+§  184]  FIRST   CONJUGATION  93 
+INDICATIVE  SUBJUNCTIVE 
+Perfect 
+amavi,  /  loved,  have  loved  amaverim 
+amavisti,  you  loved  araaveris 
+amavit,  he  loved  amaverit 
+amavimus,  we  loved  amaverimus 
+amavistis,  you  loved  amaveritis 
+amaverunt  (-ere),  they  loved  arnaverint 
+Pluperfect 
+amaveram,  /  had  loved  amavissem 
+amaveras,  you  had  loved  amavisses 
+am  aver  at,  he  had  loved  amavisset 
+araaveramus,  we  had  loved  amavissemus 
+amaveratis,  you  had  loved  amavissetis 
+amaverant,  they  had  loved  amavissent 
+Future  Perfect 
+Singular  Plural 
+amavero,  /  shall  have  loved  amaverimus,  we  shall  have  loved 
+amaveris,  you  will  have  loved  amaveritis,  you  will  have  loved 
+amaverit,  he  will  have  loved  amaverint,  they  will  have  loved 
+IMPERATIVE 
+Present  ama,  love  thou  amate,  love  ye 
+Future     amato,  thou  shalt  love         amatote,  ye  shall  love 
+amato,  he  shall  love  amantS,  they  shall  love 
+INFINITIVE 
+Present  amare,  to  love 
+Perfect  amavisse  or  amasse,  to  have  loved 
+Future    amaturus  esse,  to  be  about  to  love 
+PARTICIPLES 
+Present  amans,  -antis,  loving 
+Future     amaturus,  -a,  -um,  about  to  love 
+GERUND 
+Genitive  amandi,  of  loving  Accusative    amandum,  loving 
+Dative      amando,  for  loving  Ablative       amando,  by  loving 
+SUPINE 
+
+### §297 (hic, ille, iste, is)
+[for  id  .  .  .  quod]  (Lael.  18),  they  explain  that  [thing]  to  be  wisdom  which 
+no  man  ever  yet  attained. 
+297.  The  main  uses  of  hie,  ille,  iste,  and  is  are  the  following:  — 
+a.  Hie  is  used  of  what  is  near  the  speaker  (in  time,  place,  or 
+thought).     It  is  hence  called  the  demonstrative  of  the  first  person. 
+It  is  sometimes  used  of  the  speaker  himself ;  sometimes  for  "  the 
+latter"  of  two  persons  or  things  mentioned  in  speech  or  writing; 
+more  rarely  for  "  the  former,"  when  that,  though  more  remote  on  the 
+written  page,  is  nearer  the  speaker  in  time,  place,  or  thought.  Often 
+it  refers  to  that  which  has  just  been  mentioned. 
+178  SYNTAX:    PRONOUNS  [§§297,298 
+b.  Ille  is  used  of  what  is  remote  (in  time,  etc.) ;  and  is  hence  called 
+the  demonstrative  of  the  third  person. 
+It  is  sometimes  used  to  mean  "  the  former  " ;  also  (usually  follow- 
+ing its  noun)  of  what  is  famous  or  well-known ;  often  (especially  the 
+neuter  illud)  to  mean  "  the  following." 
+c.  Iste  is  used  of  what  is  between  the  two  others  in  remoteness : 
+often  in  allusion  to  the  person  addressed, — hence  called  the  demon- 
+strative  of  the  second  person. 
+It  especially  refers  to  one's  opponent  (in  court,  etc.),  and  fre- 
+quently implies  antagonism  or  contempt. 
+
+### §302 (the possessive pronouns) and the note on suus
+302.  The  Possessive  Pronouns  are  derivative  adjectives,  which 
+take  the  gender,  number,  and  case  of  the  noun  to  which  they 
+belong,  not  those  of  the  possessor :  — 
+haec  ornamenta  sunt  mea  (Yal.  iv.  4),  these  are  my  jewels,     [mea  is  neuter 
+These  are  really  adjectives  of  the  First  and  Second  Declensions,  and  are 
+so  declined  (see  §§  110-112).  But  meus  has  regularly  mi  (rarely  meus)  in 
+the  vocative  singular  masculine. 
+Note. — Suus  is  used  only  as  a  reflexive,  referring  to  the  subject.  For  a  possessive 
+pronoun  of  the  third  person  not  referring  to  the  subject,  the  genitive  of  a  demonstrative 
+must  be  used.  Thus,  patrem  suum  occidit,  he  killed  his  (own)  father ;  but  patrem  eius 
+
+### §305 (the relative agrees with its antecedent)
+305.  A  Relative  agrees  with  its  Antecedent  in  Grender  and 
+Number;  but  its  Case  depends  on  its  construction  in  the  clause 
+in  which  it  stands  :  — 
+
+### §326 (two negatives)
+326.  Two  negatives  are  equivalent  to  an  affirmative :  — 
+nemd  n5n  audiet,  every  one  will  hear  (nobody  will  not  hear). 
+n5n  possum  non  confiteri  (Fam.  ix.  14.  1),  I  must  confess. 
+ut  .  .  .  ne  non  timere  quidem  sine  aliquo  timore  possluius  (Mil.  2),  so  that  we 
+cannot  even  be  relieved  of  fear  without  some  fear. 
+
+### §419 (the ablative absolute)
+419.  A  noun  or  pronoun,  with  a  participle  in  agreement,  may 
+be  put  in  the  Ablative  to  define  the  time  or  circumstarices  of  an 
+action.     This  construction  is  called  the  Ablative  Absolute: — x 
+Caesar,  acceptis  litteris,  nuntium  mittit  (B.  G.  v.  46),  having  received  the 
+
+### §470 (the imperfect) and §473 (the perfect)
+470.  The  Imperfect  denotes  an  action  or  a  state  as  continued 
+or  repeated  in  past  time :  — 
+hunc  audiebant  antea  (Manil.  13),  they  used  to  hear  of  him  before. 
+[S5crat6s]  ita  censebat  itaque  disseruit  (Tusc.  i.  72),  Socrates  thought  so  (habit- 
+ually), and  so  he  spoke  (then), 
+prudens  esse  putabatur  (Lael.  6),  he  was  (generally)  thought  wise.     [The  per- 
+fect would  refer  to  some  particular  case,  and  not  to  a  state  of  things.] 
+iamque  rubescebat  Aur5ra  (Aen.  iii.  521),  and  now  the  dawn  was  blushing. 
+ara  vetus  stabat  (Ov.  M.  vi.  326),  an  old  altar  stood  there. 
+Note.  —  The  Imperfect  is  a  descriptive  tense  and  denotes  an  action  conceived  as 
+in  progress  or  a  state  of  things  as  actually  observed.    Hence  in  many  verbs  it  does 
+not  differ  in  meaning  from  the  Perfect.    Thus  rex  erat  and  rex  fuit  may  often  be  used 
+indifferently ;  but  the  former  describes  the  condition  while  the  latter  only  states  it. 
+The  English  is  less  exact  in  distinguishing  these  two  modes  of  statement.    Hence  the 
+473.  The  Perfect  denotes  an  action  either  as  now  completed 
+(Perfect  Definite),  or  as  having  taken  place  at  some  undefined  point 
+of  past  time  (Historical  or  Aoristic  Perfect). 
+The  Perfect  Definite  corresponds  in  general  to  the  English  Perfect 
+with  have;  the  Historical  Perfect  to  the  English  Preterite  (or  Past) : 
+(1)  ut  ego  feci,  qui  Graecas  litteras  senex  didici  (Cat.  M.  26),  as  I  have  done, 

@@ -1,0 +1,1331 @@
+SOURCE FILE: excerpts of the Academy's grammar used by the Spanish batch B3 (Section III, declinable, second half: pronouns, tenses, subjunctive, participle, irregular)
+WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Nueva gramática de la lengua española: Manual (Madrid: Espasa, 2010).
+TEXT READ: the Internet Archive copy, item RAEManualDeLaNuevaGramaticaDeLaLenguaEspanola, plain-text (OCR) file, fetched 26 Oct 2026. The same copy and the same cautions as in rae-manual-2010-excerpts-B2.txt: the text is machine-read, the scan's line breaks and stray spaces are not the book's, and the printed book could not be compared. The Academy's website (rae.es) refuses automated access.
+Only short paragraphs are kept. The paragraph number is the Manual's own.
+
+### Manual §2.1.2b (OCR line 1148)
+2.1.2b Los sustantivos no tienen género neutro en español. Solo lo tienen los 
+demostrativos (esto, eso, aquello), los cuantificadores (tanto, cuanto, mucho, poco), el 
+artículo lo y los pronombres personales ello y lo (§ 14.5.1a, 1 6.2.1 f, 17.2.5 y 19.2.1). 
+El género en que aparecen los adjetivos y otros modificadores de estos elementos 
+neutros no se diferencia morfológicamente del masculino: 
+Sé que hay en mí mucho bueno y mucho malo (Gómez Avellaneda, Autobiografía ); Pues 
+yo te digo que eso es imbécil y monstruoso (Baroja, Aurora)-, Todo ello era falso, como 
+luego se demostró (Semprún, Federico Sánchez); Esto es solamente cierto para las guerras 
+de conquista (Madero, Sucesión). 
+También son neutros los pronombres que se refieren a las oraciones: —¿Dijo que lla- 
+maría? —No, no dijo eso; A dónde fueron a parar no lo supe (Barnet, Gallego). Más 
+que un tercer género del español equiparable a los otros dos, el neutro es el exponen- 
+te de una clase gramatical de palabras que designan ciertas nociones abstractas 
+(§ 14.5.3a). 
+
+### Manual §4.2.1d (OCR line 2626)
+4.2.1 d Las formas construidas a partir del tema de pretérito —el perfecto sim- 
+ple, los imperfectos, el futuro de subjuntivo, el participio y el gerundio— obedecen a 
+la pauta am-á-, {tem-~part-}-í-/-ié-. En la primera conjugación, el tema es amá-, 
+con la VT -á-, excepto en amé y amó. En la segunda y la tercera conjugaciones, el 
+segmento VT es un diptongo (-ié-) en todas las formas del subjuntivo ( temiera , par- 
+tiera ), así como en la tercera del plural del pretérito perfecto simple (temieron, 
+partieron), y en el gerundio: temiendo, partiendo. Presenta, en cambio, la forma -í- en 
+tres formas del perfecto simple (temiste, temimos, temisteis), en el pretérito imper- 
+fecto (partía) y en el participio: temido, partido. En el tema de futuro se agrupan el 
+futuro de indicativo, el condicional y el infinitivo. Las formas de estos tiempos com- 
+parten un mismo tema: ama-, teme-, partí-, y el acento recae en ellas a la derecha de 
+la vocal temática (salvo en el infinitivo): am-a-ré-mos; tem-e-ré-is; part-i-ría-mos. 
+
+### Manual §4.2.2b (OCR line 2648)
+4.2.2b En el tema de pretérito, los paradigmas de VT, TM y PN son considera- 
+blemente regulares, salvo en el pretérito perfecto simple, cuya desinencia de TM 
+presenta variación: am-0-é-0, tem-0-í-0, part-0-í-0; am-á-ste-0, tem-í-ste-0, part-í-ste-0; 
+am-0-ó-0, tem-0-ió-0, part-0-ió-0; am-á-0-mos, tem-í-0-mos, part-í-0-mos; am-á-ste-is, 
+tem-í-ste-is, part-í-ste-is; am-á-ro-n, tem-ié-ro-n, part-ié-ro-n. El segmento TM es 
+sistemáticamente -ba- en el imperfecto de indicativo de la primera conjugación, 
+pero presenta la forma -a- en las otras dos: tem-í-a-s, part-í-a-n. En las tres conjuga- 
+ciones coinciden las dos variantes del imperfecto de subjuntivo (-ra- y -se-) y la for- 
+ma del futuro de subjuntivo (-re-). 
+
+### Manual §4.4.1a (OCR line 2997)
+4.4.1 a Son irregulares los verbos cuya conjugación no se ajusta a los paradigmas de 
+amar, temer, partir (§ 4.3). No se considerarán irregularidades morfológicas las varian- 
+tes ortográficas que obedecen a ciertas reglas de aplicación sistemática en la lengua, 
+como en los pares hice~hizo (en lugar de *hize ); sigo ~ sigue; dirigimos ~ dirijamos o 
+saco ~ saque. Por el contraído, en esta gramática se recogerán entre los modelos de verbos 
+irregulares los verbos vocálicos, que se analizan en esta misma sección, ya que la posi- 
+ción que en ellos ocupa el acento no es predecible a partir de los principios generales 
+descritos en el § 4.3.3 (evacúo ~ evacuó), o bien porque el segmento vocálico en el que 
+termina su raíz sufre mutaciones en ciertos contextos (leído~leyó; construido ~ construyó). 
+
+### Manual §4.4.2b (OCR line 3058)
+4.4.2b Los verbos vocálicos de diptongo variable se dividen en varios 
+grupos. El más numeroso es el de los verbos terminados en -iar y en -uar. En la pro- 
+nunciación de la mayoría de los hablantes, los segmentos /i/ y /u/ forman parte en 
+estos casos de un diptongo cuando no reciben el acento, como en des.via.ré.mos, 
+ac.tua.ré.mos, pero aparecen en hiato cuando lo reciben en dicha vocal, como en 
+des.ví.o, ac.tú.o. Sin embargo, se reconoce una diferencia geográfica en su silabeo. 
+En México, en Centroamérica y en parte de las áreas caribeña y andina se prefieren 
+generalmente las variantes con diptongo (des.viá.mos, ac.tuá.mos, ac.tuár), mientras 
+que en las demás áreas hispanohablantes es más común el hiato (des.vi.á.mos, 
+ac.tu.á.mos, ac.tu.ár). Pertenecen a este paradigma de verbos en -iar, que tienen 
+como modelo el verbo enviar (v. T.C., n.° 32), los siguientes, entre otros: 
+59 
+Verbos irregulares (I). Definición y tipos 
+4.4.2f 
+aliar, amnistiar, ampliar, arriar, ataviar, autografiar, averiar, cariar, chirriar, confiar, 
+contrariar, criar, desafiar, descarriar, desvariar, desviar, enfriar, espiar, extasiar(se), ex- 
+traviar, fiar, fotografiar, guiar, liar, malcriar, piar, porfiar, reenviar, resfriar, rociar, 
+vaciar, variar. 
+Entre los terminados en -uar, que se conjugan como actuar (v. T.C., n .°5), figuran 
+estos: 
+
+### Manual §4.4.2d (OCR line 3100)
+4.4. 2d Tienen diptongo no sistemático los verbos que terminan en -u.ír o -uir. 
+Cuando sigue una consonante a la secuencia /ui/ átona, predomina el diptongo 
+(cons.trui.ré.mos), pero es posible el hiato en las áreas lingüísticas que admiten este 
+tipo de silabeo (§ 4.4.2b): cons.tru.i.ré.mos. El hiato es sistemático en el imperfecto 
+( cons.tru.í.an ), pero alterna con el diptongo, en función de las diferencias geográ- 
+ficas señaladas, en las demás formas en que el acento recae sobre la /i/: cons.truí, 
+cons.truí.mos ; cons.tru.í, cons.tru.í.mos. En el presente de indicativo y subjuntivo se 
+produce la epéntesis de -i- ( construyo , construya), pero en otras formas del paradigma 
+se consonantiza la -i- de la VT ( construyera , construyendo). 
+
+### Manual §4.4.2e (OCR line 3111)
+4.4. 2e El verbo oír (y. T.C., n.° 44) y sus derivados dan lugar a alternancias de si- 
+labeo similares, como en oí.mos~o.í.mos, pero cuando la secuencia /oi/ va seguida 
+por una vocal distinta de i, se obtiene una /g/ epentética (oigo, no *oyo), o bien una 
+consonante palatal (oyes, no *oies). Admiten igualmente las dos pautas diferentes de 
+silabeo los numerosos verbos regulares terminados en -ear, como ba.lan.ceár o 
+ba.lan.ce.ár y los pocos en -oar (croar, incoar y loar). Son, en cambio, irregulares los 
+grupos de verbos vocálicos siguientes: los terminados en -e.ér (creer, leer, poseer, 
+proveer y sobreseer), cuyo tema de pretérito termina en -ey- en algunas formas 
+(creyó, leyó, poseyó, sobreseyó); los que terminan en -o.ér: roer (v.T.C., n.° 53) y corroer, 
+que presentan tres variantes en la primera persona del singular del presente, sea de 
+indicativo o de subjuntivo —la regular roo y roa y las irregulares roigo y roiga, royo y 
+roya, infrecuentes actualmente—; así como los terminados en -a.ér (caer: § 4.5.1 d) 
+y en -e.ír (reír, sonreír o freír: § 4.4.3h). 
+
+### Manual §4.4.3a (OCR line 3176)
+4.4.3a Se mencionan a continuación las alternancias que dan lugar a irregularidades 
+vocálicas en la flexión verbal. La segunda variante de cada uno de los pares se elige en las 
+raíces tónicas del tema de presente; se escoge otra variante en todos los demás casos: 
+/e/~/ié/: acertar - acierto; entender -entiendo; discernir - discierno, junto a acertamos, 
+entenderemos, discernía; 
+/o/~/ué/: contar - cuento; mover -muevo, junto a contaban, movemos; 
+/i/ ~ fié/: adquirir -adquiero, junto a adquirimos; 
+/u/~/ué/: jugar -juego, junto a jugamos; 
+/e/~/í/: pedir -pido, junto apedimos. 
+Las alternancias átonas /e/~/i/, como en sentir ~ sintió, y /o/~/u/, como en dor- 
+mir -durmió, se presentan en las terceras personas del pretérito perfecto simple y en 
+las formas correspondientes del tema de pretérito: durmiera, durmiese, durmiere, dur- 
+miendo; sintiera, sintiese, sintiere, sintiendo. Unas y otras afectan a la 1. a y 2. a personas 
+61 
+Verbos irregulares (I). Definición y tipos 
+4.4. 3e 
+
+### Manual §4.4.3b (OCR line 3209)
+4.4.3b Se produce la diptongación que muestra la alternancia /e/~ /ié/ en todas 
+las formas del singular y en la 3. a persona del plural del presente de indicativo y de 
+subjuntivo, así como en la 2. a persona del singular del imperativo no voseante. Afecta 
+a verbos de la primera conjugación, como acertar (v. T.C., n.° 4), acrecentar, cegar, 
+despertar, empezar, encomendar, ensangrentar, escarmentar, manifestar, mentar, 
+merendar, recomendar, regar, restregar, reventar, tropezar. Muchos de los verbos 
+que pertenecen a este grupo poseen compuestos y derivados, o bien diversas varian- 
+tes que se forman con su misma base, como cerrar > encerrar, descerrar, entrecerrar; 
+negar > denegar, renegar; pensar > repensar; plegar > desplegar, replegar. 
+
+### Manual §4.4.3e (OCR line 3242)
+4.4. 3e La alternancia /o/ ~ /ué/ también se da con los verbos de las tres conjuga- 
+ciones: contar ~ cuento (v. T.C., n.° 25); mover ~muevo; dormir ~ duermo (en el último 
+caso se añaden otras irregularidades: § 4.4.3a). Pertenecen al paradigma de contar 
+los verbos acordar, almorzar, aprobar, atronar, avergonzar, colgar, contar, costar, de- 
+gollar, denostar, descollar, desollar, encontrar, forzar, mostrar, poblar, probar, rodar, 
+sonar, soñar, volar, volcar, a los que se agregan muchos compuestos, derivados y 
+variantes parasintéticas, como comprobar, concordar, demostrar, desaprobar, descol- 
+gar, descontar, disonar, esforzarse, recordar, repoblar, resonar, sobrevolar. Al modelo 
+de mover (y. T.C., n.° 42), de la segunda conjugación, pertenecen los verbos termina- 
+dos en -oler (demoler, doler, moler), -olver (absolver, desenvolver, devolver, disolver, 
+envolver, resolver, revolver, volver), -ocer (cocer, escocer), -orcer (torcer, contorcerse, 
+destorcer) y -over (conmover, llover, promover). 
+4.4.3Í 
+La flexión verbal 
+62 
+4.4.3Í Algunos verbos poseen alternancia de diptongación /o/ ~ /ué/ en el infi- 
+nitivo, como amoblar ~ amueblar; enclocar ~encluecar; desosar ~ deshuesar. Estas 
+variantes se distinguen a menudo por su distribución geográfica. En otros casos la 
+alternancia en la diptongación de las formas verbales depende de su etimología y de 
+su significado. Así, diptonga apostar en el sentido de ‘arriesgar’ (Apuesto mil pesos), 
+pero no en el de ‘situar algo o situarse en cierta posición’ (se apostan); acostarse (‘echarse, 
+tenderse’: se acuestan) ~ acostarse (‘acercarse a la costa’: se acostarí); asolar 
+
+### Manual §4.4.3g (OCR line 3274)
+4.4.3g La variante diptongada de los pares /i/~ fié/ y /u/~ /ué/ se obtiene en las 
+formas del singular y en la 3. a persona del plural del presente de indicativo y de sub- 
+juntivo, y en la 2. a del singular del imperativo no voseante. La primera alternancia 
+afecta solo a los verbos adquirir (v. T.C., n.° 7) e inquirir (adquiero ~ adquirimos; 
+inquieres ~ inquirirán); la segunda, solo a las formas de raíz tónica del verbo jugar 
+(v.T.C., n.° 39): juegas ~ jugaban. 
+
+### Manual §4.4.3h (OCR line 3281)
+4.4.3h El cierre vocálico /e/ ~ /i/ se produce en las mismas formas tónicas de la 
+alternancia anterior, como ilustran las formas irregulares del verbo pedir (v. T.C., n.° 46), 
+así como los verbos terminados en -edir (despedir, impedir, medir), -egir (corregir, 
+elegir, regir), -eguir (conseguir, perseguir, seguir), -eñir (ceñir, reñir, teñir) y otros: 
+competir, concebir, derretir, gemir, henchir, rendir, repetir, vestir. Esta alternancia se 
+extiende también a todos los verbos terminados en -eír, esto es, desleír, engreírse, 
+freír, reír y sonreír (v. T.C., n.° 62): río, ríen, pero reímos, reís. 
+4.4.3Í Algunos verbos están sometidos a más de una alternancia. Así, el verbo 
+sentir (v. T.C., n.° 60) manifiesta la alternancia /e/ ~ fié/ (como en sentimos ~ siento), 
+pero presenta, además, el cierre vocálico /e/ ~ /i/ en el gerundio (sintiendo), en la 1. a 
+y 2. a personas del plural del presente de subjuntivo (sintamos, sintáis), en dos formas 
+del pretérito perfecto simple (sintió, sintieron) y en las formas relacionadas del sub- 
+juntivo (sintiera, sintiese, sintiere). Al mismo grupo pertenecen los verbos termina- 
+dos en -entir, como mentir > miente ~ mintió; -erir, como preferir > prefiero ~ prefirió; 
+y -ertir, como advertir > advierto ~ advirtió. En las mismas formas los verbos dormir 
+(v. T.C., n.° 30) y morir están sujetos a la alternancia /o/~/ué/, así como al cierre 
+/o/~/u/. Los verbos poder (v.T.C., n.° 48) y querer (v.T.C., n.° 54) también presentan 
+alternancias de diptongación y cierre vocálico (poder ~ puedo ~ pude; querer~quie- 
+ro~ quise), además de otras anomalías: pretérito fuerte (púde; quise: § 4.6.1a) y futuro 
+y condicional irregulares (podré , podría; querré, querría: § 4.5.2). 
+
+### Manual §4.4.3i (OCR line 3289)
+4.4.3Í Algunos verbos están sometidos a más de una alternancia. Así, el verbo 
+sentir (v. T.C., n.° 60) manifiesta la alternancia /e/ ~ fié/ (como en sentimos ~ siento), 
+pero presenta, además, el cierre vocálico /e/ ~ /i/ en el gerundio (sintiendo), en la 1. a 
+y 2. a personas del plural del presente de subjuntivo (sintamos, sintáis), en dos formas 
+del pretérito perfecto simple (sintió, sintieron) y en las formas relacionadas del sub- 
+juntivo (sintiera, sintiese, sintiere). Al mismo grupo pertenecen los verbos termina- 
+dos en -entir, como mentir > miente ~ mintió; -erir, como preferir > prefiero ~ prefirió; 
+y -ertir, como advertir > advierto ~ advirtió. En las mismas formas los verbos dormir 
+(v. T.C., n.° 30) y morir están sujetos a la alternancia /o/~/ué/, así como al cierre 
+/o/~/u/. Los verbos poder (v.T.C., n.° 48) y querer (v.T.C., n.° 54) también presentan 
+alternancias de diptongación y cierre vocálico (poder ~ puedo ~ pude; querer~quie- 
+ro~ quise), además de otras anomalías: pretérito fuerte (púde; quise: § 4.6.1a) y futuro 
+y condicional irregulares (podré , podría; querré, querría: § 4.5.2). 
+
+### Manual §4.5.1a (OCR line 3310)
+4.5.1a En los verbos terminados en -ecer se produce la epéntesis de /k/ en la 
+1. a persona del singular del presente de indicativo y en todo el subjuntivo, según el mo- 
+delo del verbo agradecer (v. T.C., n.° 8): agradezco, agradezcas, etc. No pertenecen a 
+este grupo los verbos mecer y remecer (mezo, no *mezco; remezo, no *remezco), pero 
+63 
+Verbos irregulares (II). Irregularidades consonánticas 
+4.5.3a 
+sí muchos parasintéticos (§ 8.2.3b), como anochecer, atardecer, enloquecer, enmohe- 
+cer, ensombrecer. 
+
+### Manual §4.5.1b (OCR line 3328)
+4.5.1 b La irregularidad descrita se extiende a lucir (v. T.C., n.°41) y a sus com- 
+puestos, y también a los verbos terminados en -ducir, que siguen el modelo de 
+conducir (v.T.C., n.° 23), como deducir, inducir, introducir, producir, reconducir, reducir, 
+reproducir, seducir, traducir. Estos últimos verbos tienen pretérito fuerte (conduje, 
+condujera: § 4.6.1a). 
+
+### Manual §4.5.1c (OCR line 3334)
+4.5.1 C La epéntesis de /g/en la 1. a persona del singular del presente de indicativo 
+y en todo el presente de subjuntivo, como en salir ~ salgo; valer -valgamos, afecta 
+a una serie de verbos cuya raíz termina en -l (salir: v. T.C., n.° 59; valer: v. T.C., n.° 66), 
+-n (poner: v. T.C., n.° 49; tener: v. T.C., n.° 64; venir: v. T.C., n.° 67), -s (asir: v.T.C., n.° 13) 
+e -i (oír: v.T.C., n.° 44), así como a sus derivados. En el caso de los verbos tener y venir, 
+esta irregularidad concurre con la variación vocálica /e/~ fié/ (§ 4.4.3): alternan así 
+tengo, tengas con tienes, tiene, tienen; vengo, vengamos con viene, vienes, vienen. Es- 
+tos verbos, y otros como poner, presentan, además, un pretérito perfecto simple 
+fuerte (puse , tuve, vine j; futuro y condicional irregulares (pondré, tendré, vendré; 
+pondría, tendría, vendría ) y apócope de la vocal temática en la forma singular del 
+imperativo (pon , ten, veri). 
+
+### Manual §4.5.1d (OCR line 3346)
+4.5.1 d Los verbos vocálicos caer (v.T.C., n.° 19) y traer (v.T.C., n.° 65), así como sus 
+respectivos derivados, presentan epéntesis de /ig/ en las formas tónicas del tema de 
+presente: caigo, contraigo, distraigas, recaiga. El verbo traer tiene, además, pretérito 
+fuerte: traje, contrajese, distrajera, extrajere (§ 4.6.1). La epéntesis de /ig/ afecta asi- 
+mismo a una de las variantes de los verbos raer (raigo, raiga) y roer (roigo; roigas: 
+§ 4.4. 2e). 
+
+### Manual §4.5.2 (OCR line 3353)
+4.5.2 Irregularidades que comprenden fenómenos de síncopa 
+y epéntesis 
+Las irregularidades que afectan a las formas del tema de futuro —futuro imperfecto 
+de indicativo y condicional— se caracterizan por la reducción de la VT, a veces 
+con alguna alteración adicional. Así, en los verbos caber, haber, poder, querer y saber se 
+pierde la VT y se silabea el resultado en un grupo consonántico: sabré (no *saberé), 
+cabré, habré, querré, podré. En los verbos poner, salir, tener, valer, venir y sus deriva- 
+dos, el grupo consonántico resultante de la pérdida de la vocal temática (*ponré, 
+*salré) se resolvió mediante la epéntesis de /d/: pon.dré, saldré, ten.dré, valdré, ven.dré. 
+Con hacer y decir se produce la reducción adicional del último segmento consonán- 
+tico de la raíz: ha.ré (no *haceré), diré (no *deciré), este último también con cierre de 
+la vocal de la raíz /e/ > /i/. 
+
+### Manual §4.5.3a (OCR line 3370)
+4.5.3a La alternancia /s/-/0/~/g/ afecta a la 1. a persona del singular del pre- 
+sente de indicativo y a todo el presente de subjuntivo del verbo hacer (v. T.C., n.° 37) 
+4.5.3b 
+La flexión verbal 
+64 
+y del verbo decir (v. T.C., n.° 27). Se dice, pues, hago, haga, hagas, hagamos, pero haces, 
+hacemos, hacéis; y digo, diga, digas, formas en las que se da, además, el cierre vocálico 
+/e/ ~ /i/. Este cierre se produce en todos los tiempos (dije, dijimos, dirás, dirías), sal- 
+vo en los casos en los que la sílaba siguiente contiene /i/ tónica: decimos, decían, etc. 
+
+### Manual §4.5.3c (OCR line 3398)
+4.5.3c La alternancia /ab/~ /ep/ afecta a caber (V. T.C., n.° 1 8), que se conjuga con 
+la segunda variante en el presente de indicativo y subjuntivo (quepo, quepa, quepas). 
+Afecta también a saber (V. T.C., n.° 58), que presenta dicha variante solo en el subjun- 
+tivo (sepa, sepas). Los verbos caber y saber presentan además pretérito fuerte 
+(§ 4.6.1 a, b) y formas irregulares de futuro y condicional (§ 4.5.2). 
+
+### Manual §4.6.1a (OCR line 3412)
+4.6.1a Las formas de los pretéritos fuertes que presentan algunos verbos se 
+caracterizan por irregularidades vocálicas y consonánticas en el pretérito perfecto 
+simple. Esos paradigmas, heredados del latín (con muy escasas excepciones, como 
+anduve y tuve), se identifican por el hecho de que las formas correspondientes a la 1. a 
+y a la 3. a persona del singular poseen acento en la raíz: cupe, cupo; dije, dijo; tuve, 
+tuvo. Frente a ellos, los pretéritos regulares se han denominado tradicionalmente 
+pretéritos débiles porque presentan el acento en la desinencia (tem-í), no en la 
+raíz. También son irregulares las desinencias -o de la 3. a persona del singular (quiso, 
+pudo) y -e de la 1. a (quise, pude), ambas átonas. En las demás formas de estos pretéri- 
+tos, el acento recae en la vocal temática, que es siempre -i- para la 2. a persona del 
+singular y la 1. a y 2. a del plural (anduv-i-ste, anduv-i-mos, anduv-i-steis), pero es -le- 
+para la 3. a del plural (anduvieron, hicieron, quisieron). El diptongo se reduce a -e- en 
+conducir, decir, traer y sus derivados: condujeron, dijeron, trajeron, sustrajeron. No 
+obstante, en el habla popular y rural de algunas zonas se registran también las for- 
+mas incorrectas condujieras, dijieron, trajieron. 
+
+### Manual §4.6.1b (OCR line 3428)
+4.6.1 b En muchos pretéritos fuertes, aunque no en todos, se altera la vocal de la 
+raíz que recibe el acento. Tienen perfecto fuerte los siguientes verbos y sus deri- 
+vados, que se ordenan de acuerdo con la vocal de la raíz: 
+Vocal /a/: traer > trajo, pero trujo como variante de algunas áreas rurales. 
+Vocal /i/: decir > dijo; hacer > hizo; querer > quiso; venir > vino. 
+65 
+Verbos irregulares (III). Pretéritos y participios irregulares 4.6.2b 
+Vocal /u/: andar > anduvo; caber > cupo; estar > estuvo; haber > hubo; placer > plugo; po- 
+der > pudo; poner > puso; saber > supo; tener > tuvo. 
+El verbo placer es regular en el pretérito (plací, placiste, plació), pero presenta la 
+variante fuerte plugo para la 3. a persona del singular. Está limitada a registros muy 
+formales y se usa a veces con intención arcaizante: Le plugo elegir el departamento de 
+los novios (Miró, Sigüenza). Al grupo de pretéritos fuertes con vocal /u/ en la raíz 
+cabe añadir los verbos terminados en -ducir, como condujo, redujo, tradujo, etc. Estas 
+formas se diferencian de las demás en que mantienen la -u- de su infinitivo. 
+
+### Manual §4.6.1c (OCR line 3453)
+4.6.1c Los verbos ir (v.T.C., n.° 38) y ser (v.T.C., n.° 61) presentan idénticas formas 
+de pretérito (fui, fuiste, fue.. i). Las de los verbos dar y ver son aparentemente simila- 
+res en el pretérito (di, diste, dio, ... dieron; vi, viste, vio, ... vieron). Sin embargo, la raíz 
+de dar (v. T.C., n.° 26) en todas sus formas es el fonema /d/ (d-ar), por lo que el acento 
+se manifiesta en la primera vocal de las formas flexivas del tema de presente. Si bien 
+ver (y. T.C., n.° 68) se asemeja a dar en el tema de pretérito por la reducción irregular 
+de la /e/ radical, su raíz es ve-, por lo que se asemeja en su conjugación a verbos 
+como leer o creer. Esta similitud se pone de manifiesto en las formas de 1. a persona 
+del singular del presente de indicativo y las del presente de subjuntivo, y también en 
+formas anómalas como preveemos o preveyeron, atestiguadas en la lengua oral de 
+muchos países, en lugar de las variantes preferidas prevemos, previeron. 
+
+### Manual §4.6.2a (OCR line 3468)
+4.6.2a Los participios irregulares o fuertes coinciden con los pretéritos análo- 
+gos en ser formas heredadas del latín y en presentar el acento en la raíz. Constituyen 
+un repertorio limitado, aunque las variantes se extienden a sus derivados: abierto, 
+de abrir; absuelto, de absolver; cubierto, de cubrir; dicho, de decir (pero son regu- 
+lares los participios de bendecir y maldecir; las formas maldito y bendito se usan casi 
+siempre como adjetivos); escrito, de escribir (con la terminación -pto en lugar de -to 
+en los derivados inscripto, circunscripto, descripto, prescripto, que se emplean en el 
+español hablado en la Argentina, el Uruguay y el Paraguay); hecho, de hacer (pero 
+satisfecho de satisfacer); muerto, de morir; puesto, de poner; roto, de romper (el 
+participio regular rompido estaba muy extendido en la lengua medieval y en la clási- 
+ca); visto, de ver; vuelto, de volver. 
+
+### Manual §4.6.2b (OCR line 3480)
+4.6.2b Los participios regulares de los verbos elegir, freír, imprimir, prender 
+(‘arrestar, detener’), proveer y algunos otros concurren a veces con los irregulares, aunque 
+con notables diferencias en su extensión y en su uso. Los irregulares (electo, frito, 
+impreso, preso, provisto) suelen ser más frecuentes que los regulares (elegido, freí- 
+do, imprimido, prendido, proveído) como modificadores nominales (un libro impreso en 
+papel barato) y como atributos o complementos predicativos (El libro está impreso 
+en papel barato). En los tiempos compuestos se suelen imponer las formas regulares, 
+pero se documentan alternancias, como las que se muestran a continuación: 
+En total se han imprimido 35 000 carteles ( Mundo [Esp.] 11/11/1996); Habían impreso 
+en su lugar billetes de a cien (García Márquez, Amor); Jamaica ha proveído a Cuba de 
+4.6.2c 
+La flexión verbal 
+66 
+muchas cosas (Ortiz, Contrapunteo ); De haberse provisto Mrs. Dolly del galán im- 
+prescindible para la excursión, [...] (Mujica Lainez, Escarabajo ); Se añade la manteca 
+de cerdo en que se han freído los chorizos (Pardo Bazán, Cocina ); Le he frito también 
+un par de huevos (Olmo, Pablo Iglesias ); Y no solo eso: has elegido al candidato 
+(Mendoza, Verdad); El Congreso designado por él mismo lo había electo Presidente por 
+siete años más (Nogales, Memorias ); La Policía se había enterado, y los había prendido a 
+los tres (Baroja, Vuelta); ¿Han preso a ese desgraciado? —interrumpió el viejo lleno de 
+
+### Manual §4.6.2c (OCR line 3512)
+4.6.2c Existe considerable variación geográfica en estas preferencias. Alternan 
+en muchos países han freído y han frito. En el español americano es algo más marca- 
+da que en el europeo la preferencia por han impreso en lugar de han imprimido. En 
+casi todas las áreas hispanohablantes suele ser más frecuente han elegido que han 
+electo, pero el participio irregular es común en América en las pasivas perifrásticas: 
+Días después, el general Tomás Martínez fue electo presidente de Nicaragua ( Prensa 
+[Nic.] 31/12/2001). Es de uso general el adjetivo preso (poco usado ya como partici- 
+pio), que también se emplea en las pasivas, pero se prefiere el participio regular 
+prendido en los tiempos compuestos. Los antiguos participios abstracto (de abs- 
+traer), bienquisto (de bienquerer) y malquisto (de malquerer), concluso (de concluir), 
+convicto (de convencer), espeso (de expender), incluso (de incluir; también usado 
+como adverbio, véase el § 40.4.4), incurso (de incurrir), nato (de nacer), poseso (de 
+poseer), sepulto (de sepultar) han desaparecido o se emplean solo como adjetivos. No 
+aparecen, por tanto, en los tiempos compuestos ni en las oraciones pasivas: una inves- 
+tigación conclusa; *Han concluso la investigación; *La investigación fue conclusa ayer. 
+
+### Manual §17.2.1a (OCR line 30366)
+1 7. 2 .1 a Los demostrativos son palabras tónicas. Sus formas actuales se exponen a 
+continuación: 
+1. Demostrativos con flexión 
+MASCULINO 
+FEMENINO 
+NEUTRO 
+MASCULINO 
+FEMENINO 
+SINGULAR 
+SINGULAR 
+PLURAL 
+PLURAL 
+este 
+esta 
+
+### Manual §17.2.3a (OCR line 30492)
+17.2.3a Los demostrativos permiten realizar divisiones en el espacio (o, más 
+exactamente, en la distancia) que separa el hablante del referente. Las divisiones 
+establecidas son unas veces ternarias (este ~ ese ~ aquel; aquí ~ ahí ~ allí) y otras bina- 
+rias (acá ~ allá; ahora ~ entonces). Es marcada, sin embargo, la tendencia que se per- 
+cibe a reducir las series ternarias a binarias. En la interpretación clásica, los 
+demostrativos este (y sus variantes de género y número) y aquí denotan proximidad 
+con el hablante; ese (y sus variantes) y ahí denotan proximidad con el oyente, y aquel 
+(y sus variantes) y allí expresan lejanía respecto de ambos. Algunos análisis actuales 
+postulan, en cambio, una oposición entre este, que denota cercanía al hablante, y 
+aquel, que indica lejanía. El demostrativo ese sería el elemento no marcado que pue- 
+de tomar ambos valores y que se usa en situaciones en las que la relación de proxi- 
+midad no es relevante. En algunos países americanos se reducen las series ternarias 
+a las binarias de otra manera: el demostrativo aquel queda reservado para los usos 
+literarios o para la deixis evocadora a la que se hace referencia en el § 17.2.3d, de 
+forma que la deixis ostensiva se lleva a efecto con los demostrativos este y ese (y sus 
+variantes morfológicas). Se diría, pues, en esas variedades Mira (o Mira) esa casita 
+en lo alto del cerro en lugar de ... aquella casita. Es característica del español ameri- 
+cano la expresión en ese entonces, que muestra esta misma tendencia: Sonreía poco en 
+ese entonces (Serrano, M., Vida). Alterna en el español americano con en aquel 
+entonces, que es la única variante conocida en el europeo. Sobre la pareja acá~allá, 
+véase el § 17.4.2b. 
+331 
+Caracterización de los demostrativos 
+17.2.3e 
+
+### Manual §18.1.2a (OCR line 31264)
+1 8.1 .2a Posición en el grupo nominal. Los posesivos pueden ser prenominales 
+o posnominales. Las formas prenominales monosilábicas (mi, tu, su y sus plurales), 
+
+### Manual §18.1.2b (OCR line 31284)
+1 8.1.2b Persona designada. Como se explicó en el § 18.1.1, los posesivos, a dife- 
+rencia de los artículos o los demostrativos, poseen rasgos de persona, que coinciden 
+con los del poseedor al que se refieren. Así, pueden clasificarse en posesivos de pri- 
+mera (mi, mío, nuestro...), segunda (tu, tuyo, vuestro...) y tercera persona (su, suyo, 
+cuyo...), con sus variantes de género y número. Las formas su o suyo (y sus variantes) 
+pertenecen al paradigma de la tercera persona, pero también al de la segunda del 
+discurso cuando corresponden a usted, ustedes: con el permiso de usted > con su per- 
+miso (frente a con el permiso de él > con su permiso). La interpretación de su/ suyo 
+que corresponde a la segunda persona del discurso es la predominante en el español 
+americano. Para las otras, que atañen a la tercera persona, se prefiere emplear de él, 
+de ella, de ellos, de ellas: No pudiera asegurártelo, aunque he sido un buen lector de él 
+(Ramírez, Alba); El Ministro añadió que la situación de ella será resuelta en un plazo 
+de ocho a quince días (Nación [C. Rica] 7/1/199 7). 
+
+### Manual §18.1.2c (OCR line 31298)
+1 8.1.2c Género. En español, los posesivos concuerdan en género y número con 
+el sustantivo que designa la cosa poseída, en lugar de hacerlo con el nombre que 
+designa al poseedor: nuestro trabajo, vuestros deseos, esta amiga tuya. Todos los po- 
+sesivos posnominales presentan variación de género y número. Los prenominales 
+mi, tu, su y sus plurales no poseen rasgos exclusivos de género, por lo que son com- 
+patibles con sustantivos masculinos o femeninos: mis libros, mi casa, tu trabajo, tus 
+obras, su domicilio, sus actitudes. Los demás posesivos prenominales presentan va- 
+riación de género: nuestro/ nuestra; vuestro/ vuestra ; cuyo/ cuya. 
+
+### Manual §19.3.1b (OCR line 32697)
+1 9 . 3 .1 b Ofrecen una forma única, sin variantes formales, los cuantificadores cada, 
+más, menos, algo, nada, alguien, nadie, si bien su comportamiento morfológico no es 
+uniforme. En efecto, cada, más y menos pueden acompañar a sustantivos masculinos 
+o femeninos en singular, y más y menos también inciden sobre plurales, pero la con- 
+cordancia no se refleja en su forma, que se mantiene invariable: Cada cosa es distin- 
+ta; Había más productos baratos que caros. Por su parte, los neutros algo y nada 
+tienen género inherente y fuerzan, como las demás formas neutras, la concordancia 
+en masculino singular: Nada humano me es ajeno; Dame algo más barato. Con al- 
+guien y nadie predomina en los textos la concordancia en masculino, pero se docu- 
+mentan también las combinaciones con femenino, que se consideran igualmente 
+correctas: 
+Le sonó como una demostración de celos, indigna de alguien tan lista como su abuela 
+(Allende, Ciudad); Hay que hacer que no haya nadie más bella que ellas (Wolff, Alamos); 
+Esta mujer, de nombre Sorbst, era sabida, en efecto, como alguien dotada de una provo- 
+cativa virilidad (Panero, Lugar). 
+359 
+Clases de cuantificadores 
+19.3.1e 
+Son invariables los cuantificadores adverbiales. No obstante, en diversas zonas (y 
+con frecuencia más alta en el español americano que en el europeo), el cuantificador 
+
+### Manual §22.1.1a (OCR line 35218)
+22.1.1 a Desde el punto de vista prosódico, los relativos se distinguen por ser vo- 
+ces átonas, mientras que los interrogativos y exclamativos son palabras tónicas, tanto 
+22.1.1b 
+Relativos, interrogativos y exclamativos 
+406 
+en las oraciones directas como en las correspondientes indirectas. Se obtienen contras- 
+tes como ¿Cuándo vienes? ~ cuando vienes; ¡Cómo me gusta! ~ como me gusta. Es tónico, 
+sin embargo, el relativo cual (§ 22.3.3a). También lo es quien en cada quien o en quien 
+más quien menos, pero en estas expresiones no es propiamente relativo, sino indefinido 
+(§ 22.3.1c). Los relativos que se construyen en las relativas libres o sin antecedente 
+expreso (§ 44.4.1) con los verbos tener y haber (No tiene dónde caerse muerto; No tengo 
+quien me ayude; No hay quien pueda con él: § 22.3.1c) pueden ser tónicos o átonos. Los 
+tónicos se tildan, pero los átonos pueden dejarse sin tilde. En el Río de la Plata es tónico, 
+pero no lleva acento gráfico, el relativo el que en secuencias como [...] declaraciones se- 
+gún las que no había ninguna evidencia de que Irán fuese responsable (Página 23/7/2002). 
+
+### Manual §22.3.1a (OCR line 35596)
+22.3.1 a En la lengua actual, el relativo quien se refiere a las personas, pero también 
+a ciertas cosas personificadas. Dicho proceso de personificación afecta a menudo a 
+grupos nominales que designan instituciones y otras agrupaciones de individuos, 
+como en Propusieron la compra del proyecto a la empresa nipona, quien aceptó de bue- 
+na gana (País [Esp.] 2/9/2004) o en Se trata de una entidad asesora del Ministerio, de 
+quien depende y a quien propondrá medidas y rendirá cuentas (País [Ur.] 4/10/2001). 
+Aun así, en los registros formales tiende a evitarse el pronombre quien en estos casos, 
+y es más frecuente elegir que, o bien el que/la que o el cual/la cual. Se recomienda, 
+pues, que aceptó de buena gana en el primer ejemplo, y del que depende (y al que 
+propondrá) en el segundo. La relación sintáctica entre quien y un sustantivo no perso- 
+nal es más habitual en los textos —y también menos marcada— si se produce en una 
+perífrasis de relativo o construcción de relieve (§ 40.5). En estas construccio- 
+nes la subordinada no forma segmento sintáctico con la palabra relativa, como en El 
+canal será quien dicte la pauta de la programación, no los anunciantes (Universal [Ven.] 
+6/11/1996) o en Y es el mar quien ganará la partida al final (Roa Bastos, Vigilia), donde 
+se atribuyen al mar atributos o capacidades superiores. Es frecuente asimismo el uso 
+personificado de los nombres de ciertos animales: Se había sentado en su antiguo sitio 
+del sofá, tras sacudir enérgicamente el almohadón reluciente de pelillos y de siestas del 
+gato, quien por cierto había desaparecido (Pombo, Héroe). 
+
+### Manual §22.3.1b (OCR line 35617)
+22.3.1 b El pronombre quien puede ejercer diversas funciones sintácticas, como la 
+de complemento directo (la mujer a quien ama), indirecto (el pariente lejano a quien 
+22.3.1c 
+Relativos, interrogativos y exclamativos 
+412 
+donó toda su fortuna) o término de preposición en los complementos de régimen 
+y en los adjuntos (el abogado en quien confiaba; el amigo con quien paseaba). Rechaza, 
+en cambio, la de sujeto en las relativas especificativas: el escritor {* quien ~ que} trató 
+largamente esa cuestión, pero no en las explicativas: El escritor, {quien ~ que} trató lar- 
+gamente esa cuestión, declaró que... La irregularidad de quien en el primer caso se 
+suele atribuir a la coincidencia de los rasgos del relativo y los de su antecedente 
+—concretamente, el de persona y el de número— en una posición contigua dentro 
+del mismo grupo sintáctico. El pronombre relativo quien alterna con «artículo deter- 
+minado + que» tanto cuando encabeza una relativa libre, como en Esto es para {el 
+que ~ quien} lo quiera, como cuando pertenece a relativas con antecedente externo a 
+ellas. En este caso también alterna con la pauta «artículo determinado + cual»: gente 
+de {quien~la que~la cual} no puede uno fiarse, según se explica en el § 44.2.3. 
+
+### Manual §22.4.1a (OCR line 35844)
+22.4.1 a Al igual que los demás determinantes flexionados, cuyo concuerda con el 
+sustantivo sobre el que incide, que designa la entidad poseída, pero no con su ante- 
+cedente, que designa el poseedor: El fiscal alza ante el Tribunal el libro cuyos pliegos 
+se doblan entre sí cargados de rasgos apretados y menudos (Fernández Santos, Extramu- 
+ros); ¿Qué hacer con esa plata, a cuyo breve radio de alcance, por lo demás, estaba 
+limitado todo su poder adquisitivo en el lapso de un mes? (Aira, Varamo). Como los 
+demás posesivos, el relativo cuyo no concuerda en plural con los sustantivos coordi- 
+nados, sino en singular con el más próximo: {cuy a~*cuyas} perspicacia e inteligencia. 
+
+### Manual §23.1.3d (OCR line 36856)
+23.1. 3d Suelen distinguirse tres modalidades del aspecto imperfectivo: progresi- 
+va, iterativa o cíclica y continua. La variedad progresiva enfoca un punto o un in- 
+tervalo del desarrollo de la acción, como en Recuerdo que yo te miraba. Ello da lugar 
+a las alternancias canto -estoy cantando, cantaba -estaba cantando, que se 
+examinarán en los § 23.3.1a y 23.6.3b. Con la variedad llamada iterativa o cíclica 
+se hace referencia a una serie abierta de situaciones que se repiten a lo largo de cier- 
+to intervalo, como en Maite se {levanta - levantaba} muy temprano, donde se entiende 
+‘diariamente’, ‘a menudo’. Repárese en que se levantaba no alterna aquí con se estaba 
+levantando. La interpretación iterativa de los sucesos se puede obtener con recursos 
+distintos de la morfología verbal. Así, si se omite la locución adverbial de frecuencia 
+subrayada en Revivió con frecuencia la escena del columpio (Landero, Juegos), se ob- 
+tiene la lectura de evento único. 
+
+### Manual §23.4.1a (OCR line 37260)
+23.4.1 a El verbo (I). El aspecto léxico. Los tiempos del indicativo 
+438 
+
+### Manual §23.4.1b (OCR line 37282)
+23.4.1 b El pretérito perfecto compuesto admite además una segunda interpre- 
+tación, la llamada interpretación perfectiva o de aoristo, como en Ha muer- 
+to hace dos meses (uso característico del español boliviano, pero presente también 
+en otras variedades), donde ha muerto adquiere el significado que corresponde a 
+murió. La interpretación de antepresente de he cantado se registra en la zona 
+central y meridional del español europeo, en el costeño peruano, en el andino 
+boliviano y colombiano, en el noroeste de la Argentina (desde Tucumán hasta 
+la frontera con Bolivia), en la región central de este país (especialmente en el 
+noroeste de Córdoba) y, con mayores restricciones, también en Cuba y otras zonas 
+del área antillana. En México, muchos de los países centroamericanos y varios de 
+los del área caribeña, entre los que está Venezuela, el perfecto simple (canté) se 
+usa para referirse a acciones acabadas en el pasado, como en Hoy estuvo más tran- 
+quilo ( Excélsior 21/1/1997), mientras que el pretérito perfecto compuesto se re- 
+serva para referirse a acciones o situaciones que continúan, o siguen abiertas, en 
+el presente: Siempre he vivido aquí (‘Sigo viviendo aquí’); María no ha ¡legado 
+(es decir, ‘Se espera que llegue’). En Chile, en gran parte de la Argentina (con 
+las excepciones reseñadas arriba) y, en España, en el noroeste y las Islas Ca- 
+narias, canté sustituye a he cantado en este uso, y a veces también en las demás 
+interpretaciones. 
+
+### Manual §23.6.3a (OCR line 37772)
+23.6.3a Como se vio en los apartados precedentes, cantaba es un tiempo aspec- 
+tualmente imperfectivo, por lo que es admitido por predicados atélicos (Julián traba- 
+jaba de camarero; Su madre estaba enferma). A los predicados de consecución o logro 
+447 
+El futuro simple (cantaré) 
+23.7.1a 
+no les otorga la duración interna de la que carecen, sino que, para cumplir con el 
+requisito de ausencia de delimitación que cantaba requiere, reciben otras interpre- 
+taciones, como la llamada cíclica, iterativa o habitual, común a otros predi- 
+cados télicos: Todos los días {se acostaba temprano~ se comía una manzana}. Se 
+designan igualmente situaciones cíclicas a través de las construcciones que se ejem- 
+plifican en las siguientes oraciones: 
+El médico entraba y salía; Si alguno intentaba romper la armonía impuesta, se le organi- 
+zaba un consejo de honor (Boadella, Memorias); La niebla surgía de la laguna y del río 
+Ocros todas las mañanas (Alegría, Mundo); [...] en la ventana del comedor donde de niño 
+desayunaba con su madre (Asturias, Presidente). 
+
+### Manual §23.6.3b (OCR line 37798)
+23.6.3b En la llamada interpretación narrativa del imperfecto se presenta un 
+hecho acaecido de naturaleza puntual, generalmente como desenlace de otras accio- 
+nes introducidas secuencialmente: Apretujó mi mano con su mano sudorosa y a los 
+dos días moría (Gómez Serna, Automoribundia). Con el imperfecto de conato, 
+característico asimismo de los predicados télicos, se expresa lo inminente de alguna 
+acción télica situada en el pasado, de cuyo resultado no se informa, como en {Sa- 
+lía ~Iba a salir} cuando de pronto sonó el teléfono, con el llamado cuando inverso 
+(§ 24.2.2e). El imperfecto progresivo presenta la situación en su desarrollo, foca- 
+lizando un único punto del mismo, como en Tom y los dos mecánicos llegaban a bordo 
+en aquel momento (Regás, Azul), por lo que admite con igual facilidad que el de co- 
+nato el cuando inverso: Se dirigía firmemente hacia la silla de los chales, cuando de 
+pronto escuchó los aplausos (Bryce Echenique, Julius ). 
+
+### Manual §23.6.3c (OCR line 37811)
+23.6.3c En razón también de sus propiedades aspectuales, y en contraste asimis- 
+mo con el pretérito simple, el imperfecto rechaza los complementos temporales de 
+delimitación, salvo si se hace referencia a una situación cíclica: Luis estudiaba du- 
+rante tres horas todos los días; Los sábados bailaban hasta el amanecer. En la mayor 
+parte de los casos se admite cantaba y se rechaza canté en las perífrasis «soler + 
+infinitivo» (§ 28.3.1c) y «llevar + gerundio» (§ 28.4.3a); con los predicados parecer y 
+dar la impresión de algo, ambos sin complemento indirecto expreso o tácito; con el 
+grupo verbal tener {pinta ~ aspecto} de algo; con las locuciones adverbiales por mo- 
+mentos, por días, por meses, así como con las partículas conforme y según: Conforme 
+pasaban las semanas. Los verbos modales admiten las dos formas, pero con cambios 
+notables de significado (§ 28.2.1 e, f). 
+
+### Manual §23.7.2a (OCR line 37874)
+23.7.2a Se llama futuro de conjetura, futuro de probabilidad o futuro 
+epistémico el que introduce alguna suposición del hablante relativa al presente. 
+Las paráfrasis que admite se forman con adverbios de probabilidad o de duda, en 
+ambos casos con un verbo en presente. Admite también paráfrasis con verbos modales. 
+Todo ello pone de manifiesto su significado modal, a la vez que su valor temporal. En 
+efecto, Serán las ocho significa aproximadamente (en uno de sus sentidos) ‘Proba- 
+blemente son las ocho’ o ‘Deben de ser las ocho’. De manera análoga, Su Merced 
+tendrá frío (Donoso, Casa) equivale a ‘Probablemente, su Merced tiene frío’. El 
+futuro de conjetura es característico de los predicados atélicos (es decir, estados y 
+actividades: § 23.1.3, 23.2.2 b): Luis trabajará ahora en la empresa de su padre; En este 
+momento leerá el periódico. Los adverbios temporales permiten determinar si el fu- 
+turo expresa o no conjetura: {Ahora- Mañana} estará en las Bahamas. 
+
+### Manual §23.8.1a (OCR line 37931)
+23.8.1a El condicional simple designa una situación posterior a otra pretérita, 
+por lo que ha sido caracterizado como un “futuro del pasado” (pospretérito en el 
+sistema de Andrés Bello). Es, pues, un tiempo relativo y presenta puntos de contacto 
+tanto con el futuro como con el pretérito imperfecto. Los vínculos con cantaba se 
+examinarán en el § 23.8.2. Comparte su etimología con cantaré, pues se forma 
+sobre la misma perífrasis romance («infinitivo + haber»; amar + hía > amaría), y por 
+tanto el significado de posterioridad. Se diferencian fundamentalmente cantaré y 
+cantaría en que el segundo lleva implícita la idea de que existen ciertas circunstan- 
+cias que dificultan el cumplimiento o la verificación del contenido de la oración, 
+como en En 2012 cumpliría 60 años. 
+
+### Manual §23.8.1b (OCR line 37942)
+23.8.1 b Al igual que cantaré, la forma cantaría es incompatible con las prótasis 
+condicionales en el español general. No obstante, en algunas variedades del español 
+conversacional de Chile, las áreas rioplatense y andina, el sur de Colombia y el norte 
+de España se registran usos de si llovería pronto por si lloviera pronto. Esta pauta no se 
+ha integrado en la lengua culta, por lo que se recomienda evitarla. No debe confundirse 
+este uso con la interpretación de cita, en la que se admite la conjunción si en las 
+prótasis condicionales: —Me gustaría decírselo, pero no me atrevo a hacerlo. —Pues si te 
+
+### Manual §23.8.1d (OCR line 37974)
+23.8.1 d El condicional de conjetura (también llamado de probabilidad y 
+epistémico) se diferencia del futuro del mismo tipo (§ 23.7.2) en que se refiere al 
+pasado en lugar de al presente. Admite paráfrasis similares con el verbo en pretérito 
+imperfecto. Así, Serían las diez equivale a ‘Probablemente eran las diez’, y Tendría 
+entonces treinta años a ‘Podía tener entonces treinta años’. Como el futuro de conje- 
+tura, el condicional equivalente puede aparecer en las oraciones adversativas de in- 
+terpretación concesiva: Muy bondadoso sería, pero bien podía ser absolutamente 
+imaginario (Collyer, Pájaros ). También se usa en combinación con un adverbio de 
+probabilidad, como en Seguramente estaría cansado, subordinado a un verbo de su- 
+posición: Me imaginé que tendría las manos con un cigarrillo del que no se tragaría el 
+humo (Marías, J., Corazón), así como en las oraciones exclamativas de sentido con- 
+secutivo encabezadas por si y pronunciadas con entonación suspendida: Si estaría 
+cansado que se durmió haciendo el examen. 
+
+### Manual §23.8.2a (OCR line 38022)
+23.8.2a La relación entre cantaría y cantaba es estrecha. Desde el punto de 
+vista morfológico, el primer tiempo se forma con el pretérito imperfecto del verbo 
+haber; desde el semántico, los dos son tiempos relativos del pasado. En cuanto tiem- 
+po relativo, cantaría requiere que el estado de cosas que se sitúa temporalmente se 
+vincule, de forma expresa o tácita, con situaciones no actuales, sean pretéritas (Me 
+dijo que vendría ) o hipotéticas, es decir, consideradas posibles: Me encantaría viajar 
+a la Patagonia. Desde el punto de vista temporal, la situación que se localiza respec- 
+to del momento de la enunciación queda indeterminada, por lo que puede ser an- 
+terior, posterior o simultánea: Hace un mes dijo que llamaría {ayer - mañana - hoy}. 
+
+### Manual §23.9.1a (OCR line 38053)
+23.9.1 a El pretérito pluscuamperfecto es un tiempo pasado aspectualmente per- 
+fectivo. Designa, pues, una situación anterior al momento del habla, además de 
+concluida. La propiedad de ser un tiempo relativo se manifiesta en que expresa 
+anterioridad respecto de alguna situación, igualmente pasada, que puede mencio- 
+narse o no. En los dos ejemplos que siguen se subraya con trazo discontinuo la si- 
+tuación que se toma como punto de orientación, de manera que el levantarse es 
+anterior a la visión en la primera oración, y en la segunda la anterioridad de la aper- 
+tura de las ventanas se mide respecto del acto de entrar: Yo te vi allí. Te habías le- 
+vantado (Bolaño, 2666); Caminé entre las coronas y entré en la sala. Alguien había 
+abierto las ventanas para que se ventilara el lugar (Ibargüengoitia, Crímenes). Sin 
+embargo, no siempre es sencillo localizar el tiempo del pasado que se toma como 
+
+### Manual §23.9.2a (OCR line 38099)
+23.9.2a Hube cantado denota una situación pasada y anterior a otra igualmente 
+pretérita, como se muestra en Algunos invitados se marcharon cuando hubo termina- 
+do la cena. La salida de los invitados es precedida aquí por la terminación de la cena. 
+Su empleo está restringido hoy a los registros más cuidados de la lengua escrita. En la 
+lengua medieval presentaba la misma distribución que en la actual, pero se podía 
+también emplear con el valor de un pretérito perfecto simple, de modo que en [...] de 
+todo conducho bien los ovo bastidos {Cid), los ovo bastidos equivale a los abasteció. Este 
+uso, que se registra ocasionalmente en textos contemporáneos (y algo más en el espa- 
+ñol europeo que en el americano), posee cierto grado de redundancia, puesto que la 
+anterioridad se marca doblemente, mediante haber y la desinencia del pretérito. 
+
+### Manual §23.9.2b (OCR line 38110)
+23.9.2b Hube cantado se combina únicamente con verbos télicos y aparece in- 
+troducido por alguna de las siguientes expresiones adverbiales y conjuntivas, siem- 
+pre en alternancia con CANTÉ: apenas, así que, cuando, después (de) que, en cuanto, 
+enseguida que, luego que, nada más, no bien, no más, tan pronto como y una vez (que). 
+A este paradigma se puede añadir hasta que, como en No nos despedimos hasta que 
+Carpentier hubo terminado de contar su historia (Celorio, Contraconquista), y en la 
+lengua clásica, también ya que, que admitía la interpretación ‘una vez que’: Y ya que 
+lo hubieron comido todo [...] (Quevedo, Buscón). Se ha defendido que la noción de 
+‘inmediatez’ representa el significado de las partículas que suelen introducir esta 
+forma verbal (apenas, no bien, etc.) más que un rasgo de su propio significado. 
+453 
+Tiempos compuestos 
+23.9.3c 
+
+### Manual §24.1.1a (OCR line 38194)
+24.1 .1 a El español establece menos distinciones temporales en el modo subjun- 
+tivo que en el indicativo. Así, los nueve tiempos del modo indicativo (capítulo 23 ) 
+se reducen a cuatro en el modo subjuntivo en virtud de otros tantos procesos de 
+neutralización. El primero es canto - cantaré > cante y muestra la neutraliza- 
+ción de un presente y un futuro. El segundo es he cantado - habré cantado > haya 
+cantado. Afecta, por tanto, a los tiempos compuestos paralelos a los tiempos 
+simples anteriores, ya que —como se señala en el § 23 . 4 . 2 — he cantado puede 
+funcionar sintácticamente como presente perfecto, a pesar de que se lo clasifica 
+tradicionalmente entre los pretéritos. La tercera neutralización es canté -can- 
+taba - cantaría > cantara o cantase. Se aplica, pues, a dos pretéritos y al 
+condicional (pospretérito en la terminología de Andrés Bello). La cuarta y última 
+neutralización es había cantado - habría cantado > {hubiera- hubiese} can- 
+tado. Como puede verse, este proceso afecta a algunos pretéritos de anterioridad: 
+ante(co)pretérito y antepospretérito en el sistema de Andrés Bello. En el cuadro 
+siguiente se muestran, de manera más resumida, las diferentes correspondencias 
+entre las formas temporales del modo indicativo y las del modo subjuntivo. Se pre- 
+sentan los tiempos en oraciones subordinadas para facilitar la correspondencia de 
+las formas indicativas con las subjuntivas. 
+
+### Manual §24.1.2a (OCR line 38365)
+24.1.2a El pretérito imperfecto posee dos formas: cantara y cantase. Es el 
+tiempo más complejo del modo subjuntivo, tanto por los contextos sintácticos en los 
+que se usa como por la variedad de los significados que expresa. La variante en -ra 
+(cantara) procede del pluscuamperfecto de indicativo latino (amavéram ‘había 
+amado’), mientras que la variante en -se (cantase) deriva del pluscuamperfecto 
+de subjuntivo (amavissem ‘hubiera amado’), forma que sustituyó a su vez al preté- 
+rito imperfecto de subjuntivo originario amárem. En el español americano se ha 
+observado una preferencia marcada por cantara, pero las formas en -se se registran 
+también ampliamente en la lengua escrita: ¿Debía hacer algo para que se retirase? 
+(Aguilera Malta, Pelota); Durante todo el tiempo que estuviesen allí, todos se llama- 
+rían por números (Belli, Mujer). En el español europeo la alternancia es hoy prácti- 
+camente libre. 
+
+### Manual §24.1.2b (OCR line 38378)
+24.1.2b Son escasos los contextos sintácticos que excluyen una de las dos formas 
+en favor de la otra. Así, no alterna cantara con cantase cuando lo hace con cantaría. 
+Es el caso del verbo poder: {Podría- Pudiera ~*Pudiese} ser como dices, y tam- 
+bién de otros verbos modales: querer, deber, parecer: Esta es una película que no 
+{querría- quisiera ~*quisiese} perderme. Fuera de estos contextos, la alternancia 
+cantara ~ cantaría es rara: Me parece que te {vendría - *viniera} bien descansar un 
+poco. La pauta «si tuviera, diera» es característica de la lengua clásica —en la que 
+
+### Manual §24.1.3a (OCR line 38487)
+24.1.3a El futuro simple de subjuntivo (cantare) procede del latín, aunque 
+su etimología es hoy discutida. Se ejemplifica su uso en la lengua antigua y clásica a 
+continuación: 
+Si lo que digo fiziéredes saldredes de cativo (Cid); Quien otra cosa me dijere, yo me ma- 
+taré con él (Lazarillo); Si por ventura vierdes aquel que yo más quiero / decilde que ado- 
+lezco, peno y muero (San Juan de la Cruz, Cántico). 
+Cantare comenzó a perder su vitalidad a partir del siglo xiv. Hoy ha caído en 
+desuso en la lengua oral de todas las áreas lingüísticas y ha sido reemplazado por 
+cantara, pero también por cante. Se registra, en cambio, como rasgo arcaizante, 
+en textos jurídicos y administrativos: Quedarán prohibidas las prácticas de precios 
+que tuvieren por objeto asegurar a determinados usuarios una posición privilegiada 
+
+### Manual §26.1.1 (OCR line 40307)
+26.1.1 El infinitivo entre las formas no personales del verbo 
+Se denominan formas no personales del verbo (también no conjugadas, no 
+finitas, derivados verbales o verboides) el infinitivo (amar), el gerundio (amando) 
+y el participio (amado). Las tres tienen en común una morfología especial, pues- 
+to que carecen de la flexión de persona, de tiempo y de modo y, salvo el participio, 
+también de número. Como se señala en el § 4.1.3a, las marcas formales que caracte- 
+rizan al infinitivo, gerundio y participio de los verbos regulares son, respectivamen- 
+te, -r, -ndo y -do (da/ dos/ das) precedidas, en todos los casos, por la vocal temática 
+propia de cada una de las conjugaciones. El infinitivo y el gerundio admiten formas 
+compuestas (haber cantado y habiendo cantado, respectivamente), de las que carece 
+el participio. Entre el infinitivo, el gerundio y el participio existen, por otra parte, 
+diferencias aspectuales: el participio tiene valor perfectivo y el gerundio, durativo, 
+mientras que el infinitivo es neutro a este respecto, salvo en su forma compuesta. En 
+efecto, la expresión queso elaborado en Zamora alude a un queso que ya ha experi- 
+mentado el proceso que elaborar indica; elaborando queso en Zamora remite al pro- 
+ceso en curso, y elaborar queso en Zamora no aporta información acerca de si el 
+proceso está en curso, ya ha sucedido o aún ha de tener lugar. 
+
+### Manual §27.1.1a (OCR line 41333)
+27.1.1a El gerundio se caracteriza formalmente por la desinencia -ndo, adjuntada 
+a la raíz verbal a través de la vocal temática -a- en la primera conjugación ( am-a-ndo ), 
+y del diptongo -ie- en la segunda y en la tercera ( tem-ie-ndo , part-ie-ndo). Al igual 
+que el infinitivo, el gerundio puede ser simple (saliendo) o compuesto (habiendo 
+salido), este también llamado de perfecto. En ambas formas el gerundio carece de 
+marcas de número, persona, tiempo y modo, por lo que su interpretación depende 
+de factores externos al grupo verbal que encabeza. Así, en Isabel ganó un premio 
+en el colegio escribiendo versos se interpreta que la acción de escribir versos se atribu- 
+ye a Isabel, que esta acción es anterior a la de ganar el premio y que escribiendo versos 
+indica el modo de ganar el premio del que se habla. En otros contextos se obtienen in- 
+terpretaciones diferentes, como se verá en las páginas que siguen. 
+
+### Manual §27.1.1b (OCR line 41345)
+27.1.1 b Mientras que el infinitivo puede ser nominal o verbal (§ 26.1.2), el gerundio 
+se construye habitualmente como verbo. En cuanto tal, admite sujetos expresos (No sa- 
+biendo ella qué decir) o tácitos, como en el ejemplo propuesto Isabel ganó un premio en 
+el colegio escribiendo versos (§ 27.4). Puede, asimismo, recibir los complementos que 
+corresponden al verbo, sean directos (leyéndolo), indirectos (hablándole así), de régi- 
+men (refiriéndose a su trabajo), circunstanciales (caminando por la callé) o atributos 
+(estando dormido). Al igual que sucede con el infinitivo, cuando los complementos son 
+pronombres personales átonos, aparecen en la lengua actual como enclíticos (mirándo- 
+la), en lugar de como proclíticos (cf. *la mirando). Pueden construirse en gerundio las 
+pasivas reflejas (No habiéndose terminado a tiempo el trabajo, se aplazó la reunión), 
+aunque generalmente se rechazan las impersonales con se (§ 41.5.2). 
+27.1.1c 
+El verbo (V). Las formas no personales 
+512 
+
+### Manual §27.5.1a (OCR line 41911)
+27.5.1 a El participio pasivo, pasado o de perfecto es la tercera forma no per- 
+sonal del verbo. En el § 4.6.2 se señala que, además de las formas regulares de los 
+participios (amado, temido, partido), existen otras irregulares, sean del español 
+general, como abierto, dicho, escrito, impreso, visto, o estén restringidas geográfi- 
+camente, como descripto, inscripto, propias del área rioplatense. Forman una serie 
+limitada los verbos que admiten tanto participios regulares como irregulares (freí- 
+do- frito; imprimido -impreso), aunque no siempre en los mismos contextos. Se 
+estudian todas estas particularidades en los § 4.6.2b, c. 
+
+### Manual §27.5.1b (OCR line 41921)
+27.5.1b El participio se diferencia del gerundio y del infinitivo en que posee 
+flexión de género y número (traducido/ traducida/ traducidos/ traducidas) en todos 
+sus usos, con la única excepción de los tiempos compuestos, formados con el auxi- 
+liar haber (§ 23.1.2b): María ha publicado su tesis. Por esta razón se suele hablar en 
+los tiempos compuestos de participio pasado o de participio de perfecto, pero 
+no de participio pasivo. También se distingue el participio del infinitivo y del 
+gerundio en que no tiene forma compuesta: haber destruido -habiendo destrui- 
+do-cabido destruido. En el español general de hoy, el participio rechaza los 
+pronombres clíticos, asimismo a diferencia del infinitivo y el gerundio: *Una vez en- 
+tregádole el premio al ganador, se dio por terminado el acto. 
+
+### Manual §27.5.1c (OCR line 41932)
+27.5.1 c No existen en el español actual participios de presente, abundantes en 
+el español antiguo (§ 7A.2): ¿Viste mi seruidor,/ —le dixo Dios estonge— si atal o me- 
+jor / commo mi sieruo Job, [sinple] e derechero,/ temiente a Mí mucho, de mal non 
+particionero? (López Ayala, Rimado). Quedan, sin embargo, algunos restos de su 
+antiguo valor verbal, como el adjetivo distante, cuyo complemento cuantitativo en 
+secuencias como un aeropuerto distante 60 kilómetros de la ciudad no es propio de un 
+adjetivo. Véase también el § 7.4.2b. 
+
+### Manual §27.5.2b (OCR line 41971)
+27.5.2b Como en el gerundio, al contenido aspectual y temporal del que se habla 
+en los apartados anteriores pueden unirse otros, sobre todo en las construcciones 
+absolutas, como se explica en el § 38.6.2. Se obtiene la interpretación causal 
+en Destrozado como estaba, lo mejor era que se metiera en la cama; la condicional en 
+Hechas así las cosas, nadie podrá decir nada; la concesiva en Herido el capitán y 
+diezmada la tropa, pudieron, sin embargo, regresar al campamento. Raramente se da 
+este último valor en ausencia de marcas explícitas, como la locución sin embargo del 
+ejemplo propuesto. 
+
+### Manual §48.1 (negative words after the verb), OCR lines 64268 to 64302
+48.1.3a Los indefinidos negativos (nada, nadie, ninguno, etc.) y otras expresiones 
+que se les asimilan exigen un elemento negativo delante del verbo cuando aparecen 
+en posición posverbal: No vino nadie; Sofia no dijo nada a nadie en ningún momento; 
+Nadie movió un dedo por mí. En todos estos casos se interpreta una sola negación, de 
+forma que las unidades subrayadas establecen una suerte de concordancia con la 
+palabra negativa que precede al verbo. La expresión negativa preverbal no es optati- 
+va (*Vino nadie). Las voces que requieren alguna negación con la que concordar re- 
+ciben el nombre de términos de polaridad negativa (marcados con trazo 
+continuo en los ejemplos que siguen); los elementos negativos que los posibilitan 
+se denominan inductores o activadores de la negación (marcados con trazo 
+925 
+Introducción. Conceptos fundamentales 
+48.1.4c 
+discontinuo). A este paradigma pertenecen el adverbio no, la preposición sin (sin ver 
+a nadie), la interrogación retórica QCómo iba yo a decirle nada?), las expresiones 
+comparativas (antes que ningún otro), y también algunos predicados de sentido ne- 
+gativo: Rechazó participar en ninguna conspiración. Se tratarán más detalladamente 
+los inductores en el § 48.5 y los términos de polaridad negativa en el § 48.6. 
+48.1.3b La negación preverbal que los indefinidos negativos exigen cuando 
+ocupan posiciones posverbales (No vino nadie ~ *Vino nadie), la rechazan, sin em- 
+bargo, en posición preverbal en el español general actual (*Nadie no vino). Se 
+obtiene así la llamada alternancia negativa: No vino nadie~Nadie vino; No le 
+interesa a ninguno ~ A ninguno le interesa. Se dan más detalles sobre esta alter- 
+nancia en § 48.3. 
+
+### Manual §22.1.1c, the table of the relatives, interrogatives, and exclamatives (OCR lines 35283 to 35330)
+cuando, como, donde, adonde, 
+cuándo, cómo, dónde, 
+verbal 
+cuanto 
+adonde, cuánto 
+3. Determinantes (I) 
+«artículo + cual » 
+qué, cuál 
+4. Determinantes (II) 
+cuyo 
+ant. cúyo 
+5. Cuantificadores del grupo nominal 
+cuanto 
+cuánto 
+6. Cuantificadores del grupo adjetival 
+y adverbial 
+cuan, cuanto 
+cuán, cuánto, qué 
+407 
+Características fundamentales 
+22.1/lf 
+He aquí algunos ejemplos de los grupos mencionados: 
+
+### Manual §24.1.1a, the table of the four tenses of the subjunctive (OCR lines 38189 to 38262)
+24.1 Los tiempos del modo subjuntivo 
+24.1.1 Características generales. El presente (cante) y el pretérito 
+perfecto compuesto (haya cantado) 
+24.1 .1 a El español establece menos distinciones temporales en el modo subjun- 
+tivo que en el indicativo. Así, los nueve tiempos del modo indicativo (capítulo 23 ) 
+se reducen a cuatro en el modo subjuntivo en virtud de otros tantos procesos de 
+neutralización. El primero es canto - cantaré > cante y muestra la neutraliza- 
+ción de un presente y un futuro. El segundo es he cantado - habré cantado > haya 
+cantado. Afecta, por tanto, a los tiempos compuestos paralelos a los tiempos 
+simples anteriores, ya que —como se señala en el § 23 . 4 . 2 — he cantado puede 
+funcionar sintácticamente como presente perfecto, a pesar de que se lo clasifica 
+tradicionalmente entre los pretéritos. La tercera neutralización es canté -can- 
+taba - cantaría > cantara o cantase. Se aplica, pues, a dos pretéritos y al 
+condicional (pospretérito en la terminología de Andrés Bello). La cuarta y última 
+neutralización es había cantado - habría cantado > {hubiera- hubiese} can- 
+tado. Como puede verse, este proceso afecta a algunos pretéritos de anterioridad: 
+ante(co)pretérito y antepospretérito en el sistema de Andrés Bello. En el cuadro 
+siguiente se muestran, de manera más resumida, las diferentes correspondencias 
+entre las formas temporales del modo indicativo y las del modo subjuntivo. Se pre- 
+sentan los tiempos en oraciones subordinadas para facilitar la correspondencia de 
+las formas indicativas con las subjuntivas. 
+24.1.1 b El verbo (II). El modo subjuntivo. Adjuntos temporales 
+456 
+INDICATIVO 
+SUBJUNTIVO 
+presente 
+Creo que Arturo viene 
+presente 
+No creo que Arturo 
+venga 
+futuro simple 
+Creo que Arturo 
+vendrá 
+pretérito perfecto 
+compuesto 
+Creo que Arturo ha 
+venido 
+pretérito perfecto 
+compuesto 
+No creo que Arturo 
+haya venido 
+futuro compuesto 
+Creo que Arturo 
+habrá venido 
+pretérito perfecto 
+simple 
+Creí que Arturo llegó 
+pretérito imperfecto 
+
+### Index of verbs, entries that map to a model (OCR lines 16400 to 17320; the verbs used in B3 are among them)
+acertar (verbo modelo [4])
+acontecer (agradecer [8];
+acordar (contar [25])
+acrecentar (acertar [4])
+acrecer (agradecer [8])
+actuar (verbo modelo [5])
+adeudar (verbo modelo [6])
+adherir (sentir [60])
+adolecer (agradecer [8])
+adormecer (agradecer [8])
+adquirir (verbo modelo [7])
+aducir (conducir [23])
+advertir (sentir [60])
+agradecer (verbo modelo [8])
+aislar (verbo modelo [9])
+alentar (acertar [4])
+almorzar (contar [25])
+amanecer (agradecer [8])
+amoblar (contar [25])
+amortecer (agradecer [8])
+andar (verbo modelo [10])
+anochecer (agradecer [8])
+anunciar (verbo modelo [11])
+apacentar (acertar [4])
+aparecer (agradecer [8])
+apetecer (agradecer [8])
+aplaudir (verbo modelo [12])
+apretar (acertar [4])
+aprobar (contar [25])
+arrendar (acertar [4])
+arrepentirse (sentir [60])
+ascender (entender [31])
+asentar (acertar [4])
+asentir (sentir [60])
+aserrar (acertar [4])
+asir (verbo modelo [13])
+atardecer (agradecer [8])
+atender (entender [31])
+atener (tener [64])
+atraer (traer [65])
+atravesar (acertar [4])
+atronar (contar [25])
+aunar (verbo modelo [14])
+aventar (acertar [4])
+avergonzar (contar [25])
+averiguar (verbo modelo [15])
+bailar (verbo modelo [16])
+bendecir (verbo modelo [17])
+caber (verbo modelo [18])
+caer (verbo modelo [19])
+calentar (acertar [4])
+carecer (agradecer [8])
+causar (verbo modelo [20])
+cegar (acertar [4])
+ceñir (verbo modelo [21])
+cerner (entender [31])
+cerrar (acertar [4])
+cimentar (acertar [4] o reg.)
+cocer (mover [42])
+coitar (verbo modelo [22])
+colegir (pedir [46])
+colgar (contar [25])
+comenzar (acertar [4])
+compadecer (agradecer [8])
+comparecer (agradecer [8])
+competir (pedir [46])
+complacer (agradecer [8])
+componer (poner [49])
+comprobar (contar [25])
+concebir (pedir [46])
+concertar (acertar [4])
+concordar (contar [25])
+condescender (entender [31])
+conducir (verbo modelo [23])
+conferir (sentir [60])
+confesar (acertar [4])
+conmover (mover [42])
+conocer (agradecer [8])
+conseguir (pedir [46])
+consentir (sentir [60])
+consolar (contar [25])
+construir (verbo modelo [24])
+contar (verbo modelo [25])
+contender (entender [31])
+contener (tener [64])
+contraer (traer [65])
+controvertir (sentir [60])
+convalecer (agradecer [8])
+convertir (sentir [60])
+corregir (pedir [46])
+costar (contar [25])
+crecer (agradecer [8])
+dar (verbo modelo [26])
+decir (verbo modelo [27])
+deducir (conducir [23])
+defender (entender [31])
+degollar (contar [25])
+demoler (mover [42])
+demostrar (contar [25])
+denostar (contar [25])
+dentar (acertar [4])
+derretir (pedir [46])
+descafeinar (verbo modelo
+descender (entender [31])
+descollar (contar [25])
+desconcertar (acertar [4])
+desfallecer (agradecer [8])
+desherbar (acertar [4])
+desmedirse (pedir [46])
+desolar (contar [25])
+desollar (contar [25])
+desosar (contar [25])
+despedir (pedir [46])
+despertar (acertar [4])
+desterrar (acertar [4])
+desvanecer (agradecer [8])
+detener (tener [64])
+devolver (mover [42]; part.
+diferir (sentir [60])
+digerir (sentir [60])
+discernir (verbo modelo [29])
+disentir (sentir [60])
+disolver (mover [42]; part.
+distender (entender [31])
+distraer (traer [65])
+divertir (sentir [60])
+doler (mover [42])
+dormir (verbo modelo [30])
+elegir (pedir [46]; part. irreg.
+embellecer (agradecer [8])
+embestir (pedir [46])
+emblanquecer (agradecer [8])
+embrutecer (agradecer [8])
+emparentar (acertar [4]
+empedrar (acertar [4])
+empezar (acertar [4])
+empobrecer (agradecer [8])
+enaltecer (agradecer [8])
+enardecer (agradecer [8])
+encanecer (agradecer [8])
+encender (entender [31])
+encerrar (acertar [4])
+encomendar (acertar [4])
+encontrar (contar [25])
+endurecer (agradecer [8])
+enflaquecer (agradecer [8])
+enfurecer (agradecer [8])
+engrandecer (agradecer [8])
+engrosar (contar [25] o reg.)
+enloquecer (agradecer [8])
+enmendar (acertar [4])
+enmohecer (agradecer [8])
+enmudecer (agradecer [8])
+enmugrecer (agradecer [8])
+entender (verbo modelo [31])
+envanecer (agradecer [8])
+envejecer (agradecer [8])
+envestir (pedir [46])
+enviar (verbo modelo [32])
+envolver (mover [42]; part.
+equivaler (valer [66])
+erguir (verbo modelo [33])
+errar (verbo modelo [34])
+escarmentar (acertar [4])
+escarnecer (agradecer [8])
+esclarecer (agradecer [8])
+escocer (mover [42])
+esforzar (contar [25])
+establecer (agradecer [8])
+estar (verbo modelo [35])
+estremecer (agradecer [8])
+expedir (pedir [46])
+extender (entender [31])
+extraer (traer [65])
+fallecer (agradecer [8])
+favorecer (agradecer [8])
+fenecer (agradecer [8])
+florecer (agradecer [8])
+fortalecer (agradecer [8])
+forzar (contar [25])
+fregar (acertar [4])
+gemir (pedir [46])
+gobernar (acertar [4])
+guarecer (agradecer [8])
+guarnecer (agradecer [8])
+haber (verbo modelo [36])
+hacendar (acertar [4])
+hacer (verbo modelo [37])
+heder (entender [31])
+helar (acertar [4])
+henchir (pedir [46])
+hender (entender [31])
+herir (sentir [60])
+herrar (acertar [4])
+hervir (sentir [60])
+holgar (contar [25])
+hollar (contar [25])
+humedecer (agradecer [8])
+impedir (pedir [46])
+incensar (acertar [4])
+inducir (conducir [23])
+inferir (sentir [60])
+ingerir (sentir [60])
+injerir (sentir [60])
+interferir (sentir [60])
+introducir (conducir [23])
+invertir (sentir [60])
+investir (pedir [46])
+ir (verbo modelo [38])
+jugar (verbo modelo [39])
+languidecer (agradecer [8])
+leer (verbo modelo [40])
+llover (mover [42])
+lucir (verbo modelo [41])
+manifestar (acertar [4])
+medir (pedir [46])
+melar (acertar [4])
+mentar (acertar [4])
+mentir (sentir [60])
+merecer (agradecer [8])
+merendar (acertar [4])
+moler (mover [42])
+morder (mover [42])
+morir (dormir [30]; part. irreg.
+mostrar (contar [25])
+mover (verbo modelo [42])
+mullir (verbo modelo [43])
+nacer (agradecer [8])
+negar (acertar [4])
+nevar (acertar [4])
+obedecer (agradecer [8])
+obscurecer (agradecer [8])
+obtener (tener [64])
+ofrecer (agradecer [8])
+oír (verbo modelo [44])
+oler (verbo modelo [45])
+oscurecer (agradecer [8])
+pacer (agradecer [8])
+padecer (agradecer [8])
+palidecer (agradecer [8])
+parecer (agradecer [8])
+pedir (verbo modelo [46])
+peinar (verbo modelo [47])
+pensar (acertar [4])
+perder (entender [31])
+perecer (agradecer [8])
+permanecer (agradecer [8])
+perseguir (pedir [46])
+pertenecer (agradecer [8])
+pervertir (sentir [60])
+placer (agradecer [8]; § 4.6.1 b)
+plegar (acertar [4])
+poblar (contar [25])
+poder (verbo modelo [48])
+podrir (verbo modelo [53])
+poner (verbo modelo [49])
+predecir (verbo modelo [50])
+preferir (sentir [60])
+presentir (sentir [60])
+prevalecer (agradecer [8])
+probar (contar [25])
+producir (conducir [23])
+proferir (sentir [60])
+prohibir (verbo modelo [51])
+prohijar (verbo modelo [52])
+promover (mover [42])
+pudrir (verbo modelo [53])
+quebrar (acertar [4])
+querer (verbo modelo [54])
+recomendar (acertar [4])
+recordar (contar [25])
+recostar (contar [25])
+recrudecer (agradecer [8])
+reducir (conducir [23])
+referir (sentir [60])
+reforzar (contar [25])
+regar (acertar [4])
+regimentar (acertar [4] o reg.)
+regir (pedir [46])
+rehusar (verbo modelo [55])
+rejuvenecer (agradecer [8])
+remendar (acertar [4])
+rendir (pedir [46])
+renegar (acertar [4])
+renovar (contar [25])
+repetir (pedir [46])
+reprobar (contar [25])
+requebrar (acertar [4])
+requerir (sentir [60])
+resentirse (sentir [60])
+resollar (contar [25])
+resolver (mover [42]; part.
+resonar (contar [25])
+resplandecer (agradecer [8])
+restregar (acertar [4])
+reunir (verbo modelo [56])
+reventar (acertar [4])
+robustecer (agradecer [8])
+rodar (contar [25])
+roer (verbo modelo [57])
+rogar (contar [25])
+saber (verbo modelo [58])
+salir (verbo modelo [59])
+satisfacer (hacer [37]; impers.
+seducir (conducir [23])
+segar (acertar [4])
+sembrar (acertar [4])
+sentar (acertar [4])
+sentir (verbo modelo [60])
+ser (verbo modelo [61])
+serrar (acertar [4])
+servir (pedir [46])
+solar (contar [25])
+soldar (contar [25])
+soler (mover [42]; defect.,
+soltar (contar [25])
+sonar (contar [25])
+sonreír (verbo modelo [62])
+soñar (contar [25])
+sosegar (acertar [4])
+sostener (tener [64])
+soterrar (acertar [4] o reg.)
+sugerir (sentir [60])
+suponer (poner [49])
+sustraer (traer [65])
+tañer (verbo modelo [63])
+temblar (acertar [4])
+templar (acertar [4] o reg.)
+tender (entender [31])
+tener (verbo modelo [64])
+tentar (acertar [4])
+torcer (mover [42])
+tostar (contar [25])
+traducir (conducir [23])
+traer (verbo modelo [65])
+tra(n)scender (entender [31])
+tra(n)sferir (sentir [60])
+trasegar (acertar [4])
+trastrocar (contar [25])
+travestir (pedir [46])
+trocar (contar [25] o reg.)
+tronar (contar [25])
+tropezar (acertar [4])
+valer (verbo modelo [66])
+venir (verbo modelo [67])
+ver (verbo modelo [68])
+verter (entender [31])
+vestir (pedir [46])
+volar (contar [25])
+volcar (contar [25])
+volver (mover [42]; part. irreg.
+yacer (verbo modelo [69])
+zaherir (sentir [60])
+
+### Manual §2.5.2 (masculine nouns that are not persons; the substantivized infinitives), OCR lines 1698 to 1712
+2.5.2 Nombres comunes no personales 
+Son masculinos los nombres de los días, los meses, los años y los siglos: un lunes 
+aciago, eneros lluviosos, el 98, el (siglo) xv, como también los de los puntos cardi- 
+nales, los vientos (el siroco, pero la tramontana), los números (el cuatro), los metales (el 
+cinc, pero la plata), los idiomas (el ruso), los vinos (el moscatel, pero la manzanilla), 
+los colores (el azul), las notas musicales (el re) y los nombres de moneda (el dólar, el 
+bolívar, el quetzal, el euro), a menos que terminen en -a (la peseta, la libra). También 
+son masculinos los infinitivos sustantivados (su andar pausado) y, en general, todas 
+las unidades léxicas que se sustantivan por razones metalingüísticas, como un quiero 
+y no puedo; un sí reticente; el “que” sobrante en el texto; los pros y los contras. Por su 
+parte, son femeninos los nombres de las letras del alfabeto (la eme) y los de las horas 
+(las cuatro). 
