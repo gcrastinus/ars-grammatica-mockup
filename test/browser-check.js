@@ -128,10 +128,16 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   let makerReport = null;
   if (MAKER){
     const src = fs.readFileSync(path.join(__dirname, 'maker-check.js'), 'utf8');
-    /* A fresh load of #maker: after the many hash changes above, Chrome throttles navigation. */
+    /* A fresh load of #maker: after the many hash changes above, Chrome throttles navigation.
+       First without ?preview=es (a hidden language must not be listed), then with it (all six languages). */
     await send('Page.navigate', { url: `http://127.0.0.1:${port}/index.html#maker` });
     await sleep(1500);
+    const hidden = await evaluate(fs.readFileSync(path.join(__dirname, 'maker-hidden-check.js'), 'utf8'));
+    await send('Page.navigate', { url: `http://127.0.0.1:${port}/index.html?preview=es#maker` });
+    await sleep(1500);
     makerReport = await evaluate(src);
+    makerReport.summary += ' ' + hidden.summary;
+    makerReport.problems.push(...hidden.problems);
   }
   ws.close(); chrome.kill(); srv.close();
   try { fs.rmSync(prof, { recursive: true, force: true }); } catch (e) {}

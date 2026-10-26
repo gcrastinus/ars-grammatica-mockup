@@ -68,7 +68,7 @@ function allSets(){
 function buildSetList(){
   const box = document.getElementById('qz-sets');
   const secF = document.getElementById('qz-sec').value;
-  const langs = new Set([...document.querySelectorAll('#qz-langs input:checked')].map(x => x.value));
+  const langs = new Set([...document.querySelectorAll('#qz-langs input:checked')].filter(x => !x.parentElement.hidden).map(x => x.value));
   const keep = new Map([...box.querySelectorAll('.qz-row')].map(r => [r.dataset.id, {
     on: r.querySelector('input[type=checkbox]').checked,
     n: r.querySelector('.qz-n').value,
