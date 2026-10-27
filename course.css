@@ -924,3 +924,29 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
 body.dark #scr-home .set-card:not(.soon):hover,
 body.dark #scr-home .cumul-bar:hover,
 body.dark #scr-home .set-card .ex-link:hover{background:color-mix(in srgb, var(--ink) 10%, var(--paper))}
+
+/* ---------- the course level, the path, and the language (levels.js) ----------
+   Large type, real buttons, the selected one shown by a filled background and a check mark as well as color,
+   and a thick focus outline that shows in both themes. One tab stop per row; the arrow keys move within it. */
+.choice-block{margin:18px auto 0; text-align:center}
+.choice-label{font-family:var(--text); font-size:18px; color:var(--ink-soft); margin-bottom:8px; letter-spacing:.02em}
+.choice-row{display:flex; justify-content:center; flex-wrap:wrap; gap:8px}
+.choice-btn, .diff-btn.path-btn{
+  min-height:52px; height:auto; min-width:0; padding:8px 18px; font-family:var(--text); font-size:19px; line-height:1.2;
+  border:2px solid var(--frame); background:var(--card); color:var(--ink); border-radius:0; cursor:pointer;
+  display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:none
+}
+.choice-btn:hover, .diff-btn.path-btn:hover{border-color:var(--wine)}
+.choice-btn.sel, .diff-btn.path-btn.sel{background:var(--wine); border-color:var(--wine); color:var(--sel-text); font-weight:700}
+.choice-tick{display:inline-block; min-width:1em; font-weight:700}
+.diff-btn.path-btn::before{content:''; display:inline-block; min-width:1em; font-weight:700}
+.diff-btn.path-btn.sel::before{content:'✓'}
+.choice-btn:focus-visible, .diff-btn.path-btn:focus-visible{outline:4px solid var(--ink); outline-offset:3px; z-index:3; position:relative}
+.path-row{margin-top:18px}
+.path-row .path-btn + .path-btn{margin-left:0}
+.level-desc{max-width:36em; margin:10px auto 0; font-size:17px; min-height:0}
+.review-other{font-size:16px; text-align:center; margin:6px auto 0; max-width:34em}
+@media (max-width:560px){
+  .choice-btn, .diff-btn.path-btn{flex:1 1 40%; padding:8px 10px; font-size:18px}
+  .diff-btn.path-btn{min-width:0}
+}
