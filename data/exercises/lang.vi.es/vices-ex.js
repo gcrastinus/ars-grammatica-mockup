@@ -208,7 +208,7 @@ ARS.exercises["lang.vi.es/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which statement about loísmo does the Academy make?",
-   "explain": "Loísmo has always been very rare in written Spanish, and today it is found only in texts of a marked dialectal character. It did not pass to the Spanish of America.",
+   "explain": "Loísmo has always been very rare in written Spanish, and today it is found only in texts of a marked dialectal character.",
    "options": [
     "It is the most widespread of the three errors in writing",
     "It is admitted for masculine persons",

@@ -423,13 +423,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">El blanco dia</i> lets the line count eleven only if…",
-   "explain": "<i lang=\"es\">Dia</i> is two syllables, <i lang=\"es\">di</i> and <i lang=\"es\">a</i>, because a stressed weak vowel beside another vowel makes two syllables (Robles Dégano, §9), and the print writes no accent on it. If it were one syllable, the line would have ten. The count of eleven rests on that division.",
+   "prompt": "How is <i lang=\"es\">dia</i> divided in <i lang=\"es\">el blanco dia</i>?",
+   "explain": "<i lang=\"es\">Dia</i> is two syllables, <i lang=\"es\">di</i> and <i lang=\"es\">a</i>, because a stressed weak vowel beside another vowel makes two syllables (Robles Dégano, §9), and the print writes no accent on it. The stress falls on <i lang=\"es\">di</i>.",
    "options": [
-    "<i lang=\"es\">Dia</i> is two syllables",
-    "<i lang=\"es\">Dia</i> is one syllable",
-    "The comma adds a syllable",
-    "<i lang=\"es\">Sombra</i> loses one"
+    "Two syllables, <i lang=\"es\">di-a</i>, stressed on <i lang=\"es\">di</i>",
+    "One syllable, <i lang=\"es\">dia</i>, stressed on <i lang=\"es\">a</i>",
+    "Two syllables, <i lang=\"es\">di-a</i>, stressed on <i lang=\"es\">a</i>",
+    "One syllable, joined to <i lang=\"es\">blanco</i>"
    ],
    "answer": 0,
    "passageRef": "poetry-47"
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Bergantin</i> counts as eight because…",
+   "prompt": "<i lang=\"es\">Un velero bergantin</i> counts as eight because…",
    "explain": "Seven syllables are written, and the stress is on <i lang=\"es\">tin</i>, so the line counts one more. The print writes no accent.",
    "options": [
     "The stress adds one",

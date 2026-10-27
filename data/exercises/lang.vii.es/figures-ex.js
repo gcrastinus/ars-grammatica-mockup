@@ -32,12 +32,12 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which sentence shows hyperbaton?",
-   "explain": "In the first sentence a long insertion separates the subject <i lang=\"es\">el río</i> from its verb <i lang=\"es\">llegó</i>. In <i lang=\"es\">Llegó el río</i> the order is inverted, but nothing separates the words.",
+   "explain": "In <i lang=\"es\">Del árbol cubría la sombra el camino</i> the phrase <i lang=\"es\">del árbol</i> is separated by the verb from the noun it belongs to, <i lang=\"es\">la sombra</i>, as in Góngora's <i lang=\"es\">Era del año la estacion florida</i>. In the other sentences <i lang=\"es\">la sombra del árbol</i> stands together, whatever the order of subject and verb.",
    "options": [
-    "<i lang=\"es\">El río bajó crecido de la sierra y llegó al valle</i>",
-    "<i lang=\"es\">Llegó crecido al valle el río de la sierra</i>",
-    "<i lang=\"es\">El río, que bajó crecido de la sierra, llegó al valle</i>",
-    "<i lang=\"es\">De la sierra, tras la lluvia, llegó crecido el río</i>"
+    "<i lang=\"es\">La sombra del árbol cubría el camino</i>",
+    "<i lang=\"es\">Cubría el camino la sombra del árbol</i>",
+    "<i lang=\"es\">Del árbol cubría la sombra el camino</i>",
+    "<i lang=\"es\">El camino estaba cubierto por la sombra del árbol</i>"
    ],
    "answer": 2
   },
@@ -160,7 +160,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which line sets two opposed ideas in matching halves?",
-   "explain": "<i lang=\"es\">El rico</i> is set against <i lang=\"es\">el pobre</i>, and <i lang=\"es\">su oro</i> against <i lang=\"es\">su paciencia</i>.",
+   "explain": "<i lang=\"es\">El rico</i> is set against <i lang=\"es\">el pobre</i>, and <i lang=\"es\">oro</i> against <i lang=\"es\">paciencia</i>.",
    "options": [
     "<i lang=\"es\">Tiene el rico su oro y su casa en la ciudad</i>",
     "<i lang=\"es\">Tiene el rico, en su casa grande, mucho oro</i>",

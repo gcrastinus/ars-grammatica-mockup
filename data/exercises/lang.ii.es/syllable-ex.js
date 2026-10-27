@@ -211,7 +211,7 @@ ARS.exercises["lang.ii.es/syllable-ex"] = {
    "options": [
     "<i lang=\"es\">Tú</i> is “you,” and <i lang=\"es\">tu</i> is “your”",
     "The first word of a question is accented",
-    "The second is unstressed",
+    "The second is a plural form",
     "Both may be written either way"
    ],
    "answer": 0,

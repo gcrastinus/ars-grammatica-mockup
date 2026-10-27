@@ -467,7 +467,7 @@ ARS.exercises["lang.v.es/mood-ex"] = {
    "explain": "The unreal pattern has the conditional perfect in the main clause.",
    "options": [
     "<i lang=\"es\">habríamos podido</i>",
-    "<i lang=\"es\">podríamos</i>",
+    "<i lang=\"es\">podemos</i>",
     "<i lang=\"es\">podremos</i>",
     "<i lang=\"es\">pudimos</i>"
    ],

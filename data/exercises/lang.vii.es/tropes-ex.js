@@ -112,7 +112,7 @@ ARS.exercises["lang.vii.es/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which sentence shows chiasmus?",
-   "explain": "In the first sentence the first half has verb and subject, and the second has subject and verb. In the other sentences the two halves follow the same order.",
+   "explain": "In <i lang=\"es\">Calla el que sabe y el que ignora habla</i> the first half has verb and subject, and the second has subject and verb. In <i lang=\"es\">Calla el que sabe y habla el que ignora</i> and <i lang=\"es\">El que sabe calla y el que ignora habla</i> the two halves follow the same order.",
    "options": [
     "<i lang=\"es\">Calla el que sabe y habla el que ignora</i>",
     "<i lang=\"es\">El que sabe calla y el que ignora habla</i>",
@@ -191,7 +191,7 @@ ARS.exercises["lang.vii.es/tropes-ex"] = {
    "deck": "lang.vii.es/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "After a poor performance a critic writes <i lang=\"es\">Una obra maestra de la torpeza</i> (“A masterpiece of clumsiness”). Which trope, if the critic does not admire it?",
+   "prompt": "After a poor performance a critic writes <i lang=\"es\">¡Una obra maestra!</i> (“A masterpiece!”). Which trope, if the critic does not admire it?",
    "explain": "The praise is meant as the contrary, so the trope is irony.",
    "options": [
     "Metaphor",

@@ -291,7 +291,7 @@ ARS.exercises["lang.iii-decl.es/subjunctive-ex"] = {
    "deck": "lang.iii-decl.es/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From which form of the indicative is the present subjunctive built?",
+   "prompt": "From which form of the indicative is the present subjunctive built?",
    "explain": "<i lang=\"es\">Hablo</i> gives <i lang=\"es\">hable</i>; the irregular first person is kept, as in <i lang=\"es\">tengo</i>, <i lang=\"es\">tenga</i>.",
    "options": [
     "The infinitive",

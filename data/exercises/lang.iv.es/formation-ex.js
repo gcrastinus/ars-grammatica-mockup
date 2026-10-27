@@ -111,7 +111,7 @@ ARS.exercises["lang.iv.es/formation-ex"] = {
    "deck": "lang.iv.es/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From which class of word is <i lang=\"es\">dormitorio</i> formed?",
+   "prompt": "From which class of word is <i lang=\"es\">dormitorio</i> formed?",
    "explain": "The noun is formed from a verb: it is a deverbal noun.",
    "options": [
     "A verb, <i lang=\"es\">dormir</i>",
@@ -127,7 +127,7 @@ ARS.exercises["lang.iv.es/formation-ex"] = {
    "deck": "lang.iv.es/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From which class of word is <i lang=\"es\">pelotazo</i> formed?",
+   "prompt": "From which class of word is <i lang=\"es\">pelotazo</i> formed?",
    "explain": "The noun is formed from a noun: it is a denominal noun.",
    "options": [
     "A verb",
@@ -143,7 +143,7 @@ ARS.exercises["lang.iv.es/formation-ex"] = {
    "deck": "lang.iv.es/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From which class of word is <i lang=\"es\">justicia</i> formed?",
+   "prompt": "From which class of word is <i lang=\"es\">justicia</i> formed?",
    "explain": "The noun is formed from an adjective: it is a deadjectival noun.",
    "options": [
     "A verb in <i lang=\"es\">-ar</i>",

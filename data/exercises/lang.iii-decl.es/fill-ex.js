@@ -160,9 +160,9 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"es\">Vi ___ aula vacía.</i> (“I saw an empty classroom”)",
-   "explain": "<i lang=\"es\">Aula</i> is feminine and begins with a stressed <i lang=\"es\">a</i>, so the indefinite article is <i lang=\"es\">un</i>, and <i lang=\"es\">vacía</i> shows the gender.",
+   "explain": "<i lang=\"es\">Aula</i> is feminine and begins with a stressed <i lang=\"es\">a</i>, so the form of the indefinite article normally used before it is <i lang=\"es\">un</i>, and <i lang=\"es\">vacía</i> shows the gender.",
    "options": [
-    "<i lang=\"es\">una</i>",
+    "<i lang=\"es\">uno</i>",
     "<i lang=\"es\">un</i>",
     "<i lang=\"es\">unos</i>",
     "<i lang=\"es\">el</i>"
@@ -479,7 +479,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Nosotros ___ cada mañana.</i> (<i lang=\"es\">correr</i>, “to run”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Nosotros ___ cada mañana.</i> (“We run every morning”; <i lang=\"es\">correr</i>)",
    "explain": "The second conjugation has <i lang=\"es\">-emos</i> in the first person plural of the present; <i lang=\"es\">corrimos</i> is the preterite.",
    "options": [
     "<i lang=\"es\">corrimos</i>",
@@ -575,7 +575,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Dijo que ___ a las cinco.</i> (<i lang=\"es\">volver</i>, “to come back”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Dijo que ___ a las cinco.</i> (“He said that he would come back at five”; <i lang=\"es\">volver</i>)",
    "explain": "The conditional gives the future as seen from the past: <i lang=\"es\">volvería</i>.",
    "options": [
     "<i lang=\"es\">volvió</i>",
@@ -591,7 +591,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Ustedes ___ la carta mañana.</i> (<i lang=\"es\">escribir</i>, “to write”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Ustedes ___ la carta mañana.</i> (“You will write the letter tomorrow”; <i lang=\"es\">escribir</i>)",
    "explain": "The future adds <i lang=\"es\">-án</i> to the whole infinitive in the third person plural.",
    "options": [
     "<i lang=\"es\">escribían</i>",

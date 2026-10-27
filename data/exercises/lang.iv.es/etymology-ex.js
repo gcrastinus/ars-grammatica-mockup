@@ -15,7 +15,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">aduana</i> (“customs house”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">aduana</i> (“customs house”)?",
    "explain": "The entry gives the Arabic of Spain, and behind it Classical Arabic and Persian.",
    "options": [
     "Arabic",
@@ -31,7 +31,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">algodón</i> (“cotton”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">algodón</i> (“cotton”)?",
    "explain": "The entry gives the Arabic of Spain.",
    "options": [
     "Nahuatl",
@@ -47,7 +47,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">almacén</i> (“warehouse”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">almacén</i> (“warehouse”)?",
    "explain": "The entry gives the Arabic of Spain.",
    "options": [
     "Taíno",
@@ -63,7 +63,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: Behind the Arabic source of <i lang=\"es\">taza</i> (“cup”), which language does the dictionary name?",
+   "prompt": "Behind the Arabic source of <i lang=\"es\">taza</i> (“cup”), which language does the dictionary name?",
    "explain": "The entry gives the Arabic of Spain, then Arabic, and then Persian.",
    "options": [
     "Sanskrit",
@@ -79,7 +79,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">alcohol</i>?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">alcohol</i>?",
    "explain": "The entry gives the Arabic of Spain, and behind it Classical Arabic.",
    "options": [
     "Greek",
@@ -95,7 +95,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">tarea</i> (“task”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">tarea</i> (“task”)?",
    "explain": "The entry gives an Arabic word.",
    "options": [
     "Arabic",
@@ -175,7 +175,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what kind of language does the dictionary derive <i lang=\"es\">yelmo</i> (“helmet”)?",
+   "prompt": "From what kind of language does the dictionary derive <i lang=\"es\">yelmo</i> (“helmet”)?",
    "explain": "The entry gives a Germanic word that is reconstructed.",
    "options": [
     "Germanic",
@@ -191,7 +191,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">tregua</i> (“truce”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">tregua</i> (“truce”)?",
    "explain": "The entry gives the Gothic word, which meant “treaty.”",
    "options": [
     "Arabic",
@@ -207,7 +207,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">ganso</i> (“goose”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">ganso</i> (“goose”)?",
    "explain": "The entry gives a reconstructed Gothic word.",
    "options": [
     "Arabic",
@@ -223,7 +223,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">hamaca</i> (“hammock”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">hamaca</i> (“hammock”)?",
    "explain": "The entry gives Taíno.",
    "options": [
     "Nahuatl",
@@ -239,7 +239,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">canoa</i> (“canoe”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">canoa</i> (“canoe”)?",
    "explain": "The entry gives a Taíno origin.",
    "options": [
     "Nahuatl",
@@ -255,7 +255,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">huracán</i> (“hurricane”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">huracán</i> (“hurricane”)?",
    "explain": "The entry calls it a Taíno word.",
    "options": [
     "Taíno",
@@ -271,7 +271,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: From what language does the dictionary derive <i lang=\"es\">chicle</i> (“chewing gum”)?",
+   "prompt": "From what language does the dictionary derive <i lang=\"es\">chicle</i> (“chewing gum”)?",
    "explain": "The entry gives Nahuatl.",
    "options": [
     "Nahuatl",

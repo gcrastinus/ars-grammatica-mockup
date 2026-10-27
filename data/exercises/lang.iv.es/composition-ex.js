@@ -149,7 +149,7 @@ ARS.exercises["lang.iv.es/composition-ex"] = {
     "<i lang=\"es\">lavafrutas</i>",
     "<i lang=\"es\">portalámparas</i>",
     "<i lang=\"es\">matasanos</i>",
-    "<i lang=\"es\">quitamanchas</i>"
+    "<i lang=\"es\">abrelatas</i>"
    ],
    "answer": 2
   },

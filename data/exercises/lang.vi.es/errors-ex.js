@@ -352,11 +352,11 @@ ARS.exercises["lang.vi.es/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these features is accepted in the cultured norm?",
-   "explain": "Seseo enjoys full acceptance in the cultured norm. Laísmo, loísmo, and <i lang=\"es\">haiga</i> are not accepted.",
+   "explain": "Seseo enjoys full acceptance in the cultured norm. Laísmo, dequeísmo, and <i lang=\"es\">haiga</i> are not accepted.",
    "options": [
     "The seseo of America",
     "The laísmo of Castile",
-    "The loísmo of the Andes",
+    "The dequeísmo of <i lang=\"es\">pienso de que</i>",
     "The form <i lang=\"es\">haiga</i> of popular speech"
    ],
    "answer": 0

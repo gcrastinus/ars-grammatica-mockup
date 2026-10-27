@@ -351,7 +351,7 @@ ARS.exercises["lang.iii-decl.es/participle-ex"] = {
    "deck": "lang.iii-decl.es/participle-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Mientras ___ (destruir, ellos) el muro, cayó polvo.</i> (“While they were tearing down the wall, dust fell”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Estaban ___ (destruir) el muro cuando cayó polvo.</i> (“They were tearing down the wall when dust fell”)",
    "explain": "After a vowel the <i lang=\"es\">i</i> of the ending becomes <i lang=\"es\">y</i>.",
    "options": [
     "<i lang=\"es\">destruiendo</i>",

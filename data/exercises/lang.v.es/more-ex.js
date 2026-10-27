@@ -561,8 +561,8 @@ ARS.exercises["lang.v.es/more-ex"] = {
    "prompt": "In <i lang=\"es\">Nos complace la noticia</i>, whom does the pronoun <i lang=\"es\">nos</i> name?",
    "explain": "The indirect object names the one who feels, and the subject <i lang=\"es\">la noticia</i> names the cause.",
    "options": [
-    "The one who worries",
-    "The cause of the worry",
+    "The one who is pleased",
+    "The cause of the pleasure",
     "The subject of the verb",
     "The direct object"
    ],
@@ -591,7 +591,7 @@ ARS.exercises["lang.v.es/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which sentence shows leísmo?",
-   "explain": "In the first sentence <i lang=\"es\">le</i> is the direct object of <i lang=\"es\">ver</i>. In <i lang=\"es\">Le dieron las gracias</i> it is an indirect object, the ordinary use of the dative.",
+   "explain": "In <i lang=\"es\">Le vieron salir del banco</i> <i lang=\"es\">le</i> is the direct object of <i lang=\"es\">ver</i>. In <i lang=\"es\">Le dieron las gracias</i> it is an indirect object, the ordinary use of the dative.",
    "options": [
     "<i lang=\"es\">Le dieron las gracias a Juan</i>",
     "<i lang=\"es\">Le vieron salir del banco</i> (“They saw him leave the bank”)",

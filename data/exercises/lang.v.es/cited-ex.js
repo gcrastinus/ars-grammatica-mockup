@@ -307,7 +307,7 @@ ARS.exercises["lang.v.es/cited-ex"] = {
    "explain": "A question word comes first, and the verb comes before the subject.",
    "options": [
     "<i lang=\"es\">¿Cuándo el tren llega?</i>",
-    "<i lang=\"es\">¿El tren cuándo llega?</i>",
+    "<i lang=\"es\">¿El cuándo tren llega?</i>",
     "<i lang=\"es\">¿Llega cuándo el tren?</i>",
     "<i lang=\"es\">¿Cuándo llega el tren?</i>"
    ],

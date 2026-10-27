@@ -85,7 +85,7 @@ ARS.exercises["lang.v.es/clause-ex"] = {
     "<i lang=\"es\">vive</i>",
     "<i lang=\"es\">viva</i>",
     "<i lang=\"es\">viviera</i>",
-    "<i lang=\"es\">vivirá</i>"
+    "<i lang=\"es\">viviese</i>"
    ],
    "answer": 0
   },
@@ -689,7 +689,7 @@ ARS.exercises["lang.v.es/clause-ex"] = {
    "explain": "The future becomes the conditional after a verb of the past.",
    "options": [
     "<i lang=\"es\">compró</i>",
-    "<i lang=\"es\">compraba</i>",
+    "<i lang=\"es\">compre</i>",
     "<i lang=\"es\">compraría</i>",
     "<i lang=\"es\">comprara</i>"
    ],

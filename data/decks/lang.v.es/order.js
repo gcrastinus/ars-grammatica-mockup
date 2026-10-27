@@ -40,7 +40,7 @@ ARS.decks["lang.v.es/order"] = {
       "options": [
        "<i lang=\"es\">¿Dónde tu hermana vive?</i>",
        "<i lang=\"es\">¿Dónde vive tu hermana?</i>",
-       "<i lang=\"es\">¿Tu hermana dónde vive?</i>",
+       "<i lang=\"es\">¿Tu dónde hermana vive?</i>",
        "<i lang=\"es\">¿Vive dónde tu hermana?</i>"
       ],
       "answer": 1,

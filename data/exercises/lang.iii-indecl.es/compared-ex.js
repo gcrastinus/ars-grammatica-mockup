@@ -112,9 +112,9 @@ ARS.exercises["lang.iii-indecl.es/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "How does Spanish say “I want some bread”?",
-   "explain": "Spanish has no partitive article.",
+   "explain": "Spanish has no partitive article, and the noun without an article says “some bread.”",
    "options": [
-    "<i lang=\"es\">Quiero del pan.</i>",
+    "<i lang=\"es\">Quiero el pan.</i>",
     "<i lang=\"es\">Quiero de pan.</i>",
     "<i lang=\"es\">Quiero unos panes.</i>",
     "<i lang=\"es\">Quiero pan.</i>"
