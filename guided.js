@@ -42,19 +42,21 @@ const GPC = {
 };
 
 /* ---------------- the path, built from data/structure.js ----------------
-   Built for the course level and the language in force (levels.js): only the decks and exercise sets open at the
-   level count, and the chosen language's decks and exercise sets of each section are steps of that section, after the
-   general ones. Its exercise sets are required, like the general ones (Timothy, 27 Oct 2026). Rebuilt when the
-   level, the language, or the path changes. */
+   Built for the course level and the languages in force (levels.js): only the decks and exercise sets open at the
+   level count, and the chosen languages' decks and exercise sets of each section are steps of that section, after the
+   general ones, in the course's order of languages. Their exercise sets are required, like the general ones
+   (Timothy, 27 Oct 2026). Rebuilt when the level, the languages, or the path changes. A language dropped and chosen
+   again keeps its place, since every record is kept by exercise and by level. */
 const plain = t => String(t == null ? '' : t).replace(/<[^>]*>/g, '');
 const isOptional = id => GPC.OPTIONAL.indexOf(id) >= 0;
 const TIERS = [], PREREQS = {}, INFO = {}, SETS = [], REQUIRED = [];
 const CLx = () => ARS.CL;
 function langStepsOf(sec){
-  const code = CLx().lang();
+  const codes = CLx().langs(), at = sc => codes.indexOf(sc.code);
   const sets = [], cards = [];
   Object.keys(ARS.languages || {}).map(k => ARS.languages[k])
-    .filter(sc => sc && sc.section === sec.id && sc.code === code && sc.bar !== 'prelim')
+    .filter(sc => sc && sc.section === sec.id && at(sc) >= 0 && sc.bar !== 'prelim')
+    .sort((a, b) => at(a) - at(b))
     .forEach(sc => {
       CLx().screenItems(sc).forEach(it => {
         if (!it.built || it.kind !== 'study') return;
@@ -183,11 +185,7 @@ function setPath(p){
   reflectPath();
   buildHome();
 }
-function reflectPath(){
-  const sel = $('path-select');   /* the Path drop-down on the home page */
-  if (sel) sel.value = guided() ? 'guided' : 'practice';
-  notice();
-}
+function reflectPath(){ notice(); }   /* the Path menu on the home page is drawn by levels.js */
 
 /* ---------------- set states and gating ---------------- */
 /* A set without stages is passed (and confirmed) once, at every course level. A set with stages is passed at a
@@ -710,7 +708,7 @@ function renderPanel(){
         + bs.days.slice(0, 7).map(o => '<div class="gp-agenda-row"><span>' + niceDate(o.date) + '</span><span>' + o.n + (o.n === 1 ? ' item' : ' items') + '</span></div>').join('') + '</div>';
     }
   }
-  h += '<div class="section-label">The Path: ' + esc2(ARS.CL.names[lvKey()]) + (guided() ? ', ' + esc2((LANGS.find(L => L.code === ARS.CL.lang()) || { name:'' }).name) : '') + '</div>';
+  h += '<div class="section-label">The Path: ' + esc2(ARS.CL.names[lvKey()]) + (guided() ? ', ' + esc2(ARS.CL.listNames(ARS.CL.langs())) : '') + '</div>';
   TIERS.forEach(t => {
     h += '<div class="gp-tier">' + esc2(sectionName(t)) + ' · ' + esc2(t.name) + '</div><div class="gp-ladder">';
     t.sets.forEach(s => {
@@ -822,7 +820,6 @@ function poolFlags(){
 }
 
 /* ---------------- wiring and first paint ---------------- */
-if ($('path-select')) $('path-select').addEventListener('change', e => setPath(e.target.value === 'guided' ? 'guided' : 'practice'));
 if ($('prog-back')) $('prog-back').onclick = backHome;
 if ($('gx-back')) $('gx-back').onclick = backHome;
 if ($('prog-export')) $('prog-export').onclick = exportProgress;

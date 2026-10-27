@@ -49,7 +49,7 @@ const ROOT = path.resolve(__dirname, '..');
   const st = id => ev(`GP.stateOf(${JSON.stringify(id)})`);
 
   /* 1. Free Practice is the default; nothing opens or records */
-  check('default is Free Practice', await ev(`!GP.isGuided() && document.getElementById('path-select').value === 'practice'`));
+  check('default is Free Practice', await ev(`!GP.isGuided() && document.getElementById('path-btn').textContent.trim().startsWith('Free Practice')`));
   check('free: no guided record key', await ev(`localStorage.getItem('ars-grammatica-guided') === null`));
   await sitting('ii.ex.quantity', { level: 2 });
   check('free: exercise runs without the gate', await ev(`run && run.ex && run.ex.id === 'ii.ex.quantity'`));
@@ -58,7 +58,7 @@ const ROOT = path.resolve(__dirname, '..');
   check('free: item boxes still recorded as before', boxesFree > 0, boxesFree);
 
   /* 2. Guided: gating. Section I has no exercise set, so finishing its study cards opens Section II. */
-  await ev(`(s => { s.value = 'guided'; s.dispatchEvent(new Event('change')); })(document.getElementById('path-select'))`);
+  await ev(`(() => { document.getElementById('path-btn').click(); document.getElementById('path-opt-guided').click(); return true; })()`);
   check('guided: Section II sets are locked', await st('ii.ex.syllable') === 'locked' && await st('ii.ex.quantity') === 'locked');
   check('guided: lock note names the study cards', await ev(`[...document.querySelectorAll('.lock-note')].some(n => /study cards of Section I are finished/.test(n.textContent))`));
   await ev(`openEx('ii.ex.syllable')`); await b.sleep(400);
@@ -135,13 +135,13 @@ const ROOT = path.resolve(__dirname, '..');
   check('levels: the mastery sitting is ten from Level IV', await ev(`run.mode === 'mastery' && run.n === 10 && run.queue.every(it => it.level === 4)`));
   check('levels: mastery from Level IV masters the exercise', await st('iii.ex.parts') === 'mastered');
   /* Free Practice: every level open, its own chosen level */
-  await ev(`(s => { s.value = 'practice'; s.dispatchEvent(new Event('change')); })(document.getElementById('path-select'))`);
+  await ev(`(() => { document.getElementById('path-btn').click(); document.getElementById('path-opt-practice').click(); return true; })()`);
   const gpBefore = await ev(`localStorage.getItem('ars-grammatica-guided')`);
   await ev(`openEx('iii.ex.parts')`); await b.sleep(400);
   check('levels: Free Practice opens every level', await ev(`document.querySelectorAll('#gx-body .lp-lvl').length === 4 && [...document.querySelectorAll('#gx-body .lp-lvl')].every(x => !x.disabled)`));
   await ev(`document.querySelector('#gx-body .lp-lvl[data-level="2"]').click()`); await b.sleep(300);
   check('levels: Free Practice keeps its own level, apart from the Guided one', await ev(`exState('iii.ex.parts').level === 2 && JSON.parse(localStorage.getItem('ars-grammatica-guided')).sets['iii.ex.parts'].level === 3`) && await ev(`localStorage.getItem('ars-grammatica-guided')`) === gpBefore);
-  await ev(`(s => { s.value = 'guided'; s.dispatchEvent(new Event('change')); })(document.getElementById('path-select'))`);
+  await ev(`(() => { document.getElementById('path-btn').click(); document.getElementById('path-opt-guided').click(); return true; })()`);
 
   /* 7. section reviews wait, and never gate */
   check('section review waits for the exercises', (await ev(`GP.recallState('ii.review').key`)) === 'wait');
@@ -163,11 +163,11 @@ const ROOT = path.resolve(__dirname, '..');
 
   /* 9. Free Practice leaves the guided record alone */
   await ev(`document.getElementById('scr-ex').classList.remove('active'); document.getElementById('scr-home').classList.add('active')`);
-  await ev(`(s => { s.value = 'practice'; s.dispatchEvent(new Event('change')); })(document.getElementById('path-select'))`);
+  await ev(`(() => { document.getElementById('path-btn').click(); document.getElementById('path-opt-practice').click(); return true; })()`);
   const before = await ev(`localStorage.getItem('ars-grammatica-guided')`);
   await sitting('ii.ex.quantity', { level: 2 });
   check('free practice writes nothing to the guided record', await ev(`localStorage.getItem('ars-grammatica-guided')`) === before);
-  await ev(`(s => { s.value = 'guided'; s.dispatchEvent(new Event('change')); })(document.getElementById('path-select'))`);
+  await ev(`(() => { document.getElementById('path-btn').click(); document.getElementById('path-opt-guided').click(); return true; })()`);
 
   /* 10. re-read before writing: a change made elsewhere survives the next answer */
   await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); o.sets['zz.other.tab'] = {state:'learning', seen:1, correct:1, history:[], mhist:[], passedOn:null, masteredOn:null}; localStorage.setItem('ars-grammatica-guided', JSON.stringify(o)); })()`);

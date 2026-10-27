@@ -922,27 +922,72 @@ body.dark #scr-home .set-card:not(.soon):hover,
 body.dark #scr-home .cumul-bar:hover,
 body.dark #scr-home .set-card .ex-link:hover{background:color-mix(in srgb, var(--ink) 10%, var(--paper))}
 
-/* ---------- the course level, the path, and the language (levels.js, guided.js) ----------
-   Three native drop-downs on one line under the opening paragraph, each with its label above it; on a narrow
-   screen they wrap onto separate lines at full size. At least 48 px high, 19 px type, a 4 px focus outline that
-   shows in both themes. The arrow is drawn in the wrapper so that it takes the theme's ink. */
-.choice-bar{display:flex; justify-content:center; align-items:flex-end; flex-wrap:wrap; gap:14px 18px; margin:22px auto 0}
-.choice-field{display:flex; flex-direction:column; align-items:stretch; text-align:left}
-.choice-label{font-family:var(--text); font-size:18px; color:var(--ink-soft); margin:0 0 6px 2px; letter-spacing:.02em}
-.select-wrap{position:relative}
-.select-wrap::after{content:'▾'; position:absolute; right:14px; top:50%; transform:translateY(-50%); color:var(--ink); font-size:20px; pointer-events:none}
-.choice-select{
-  -webkit-appearance:none; appearance:none; min-height:52px; min-width:11.5em; padding:8px 44px 8px 14px;
-  font-family:var(--text); font-size:19px; line-height:1.2; color:var(--ink); background:transparent;
-  border:2px solid var(--frame); border-radius:0; cursor:pointer
+/* ---------- the course level, the path, and the language (levels.js) ----------
+   Under the opening paragraph, a thin rule, then a centered column (32em) of three rows separated by thin rules. Each
+   row has the label and one sentence on the left and its menu on the right (11.5em wide, at least 44 px high, 18 px
+   type); on a narrow phone the row stacks and the menu takes the full width. The menus are buttons that open lists in
+   the course's own type and colors: the card's background, the frame's border, a quiet shadow, rows of at least 44 px;
+   the chosen item has a check and a gentle tint of the page's ink, never a colored fill. Focus outlines are 3 px. */
+.choice-rule{border:0; border-top:1px solid var(--line); max-width:32em; margin:30px auto 0}
+.choice-rows{max-width:32em; margin:0 auto; font-size:17px}
+.choice-row{display:flex; align-items:center; gap:14px 22px; padding:16px 0; border-top:1px solid var(--line)}
+.choice-row:first-child{border-top:0}
+.choice-text{flex:1; min-width:0; text-align:left}
+.choice-label{font-family:var(--display); font-size:21px; line-height:1.2; color:var(--wine); margin:0 0 4px}
+.choice-expl{font-size:17px; line-height:1.4; color:var(--ink-soft); margin:0}
+.choice-menu{position:relative; flex:none; width:11.5em; font-size:18px}
+.choice-btn{
+  display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; min-height:44px;
+  padding:6px 12px; font-family:var(--text); font-size:18px; line-height:1.2; text-align:left;
+  color:var(--ink); background:transparent; border:2px solid var(--frame); border-radius:0; cursor:pointer
 }
-.choice-select:hover{border-color:var(--ink-soft)}
-.choice-select:focus-visible, .choice-select:focus{outline:4px solid var(--ink); outline-offset:3px}
-.choice-select option{background:var(--card); color:var(--ink)}
+.choice-btn:hover{border-color:var(--ink-soft)}
+.choice-btn:focus-visible, .choice-btn:focus{outline:3px solid var(--ink); outline-offset:3px}
+.choice-btn-text{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.choice-caret{flex:none; font-size:18px; line-height:1; color:var(--ink)}
+.choice-btn[aria-expanded="true"] .choice-caret{transform:rotate(180deg)}
+.choice-list{
+  position:absolute; z-index:40; top:calc(100% + 4px); right:0; min-width:100%; width:max-content; max-width:min(18em, 92vw);
+  max-height:min(60vh, 22em); overflow:auto; margin:0; padding:4px 0; list-style:none;
+  background:var(--card); color:var(--ink); border:1px solid var(--frame); border-radius:0;
+  box-shadow:0 6px 18px rgba(43,33,24,.14)
+}
+body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
+.choice-list[hidden]{display:none}
+.choice-list:focus{outline:none}
+.choice-list [role="option"]{
+  display:flex; align-items:center; gap:10px; min-height:44px; padding:6px 14px 6px 10px;
+  font-family:var(--text); font-size:18px; line-height:1.25; cursor:pointer; user-select:none
+}
+.choice-list [role="option"].is-on{background:color-mix(in srgb, var(--ink) 7%, var(--card))}
+.choice-list [role="option"].is-active{outline:3px solid var(--ink); outline-offset:-3px}
+.choice-mark{flex:none; width:1.1em; text-align:center; color:var(--ink)}
+.choice-list.is-multi .choice-mark{
+  width:20px; height:20px; border:2px solid var(--ink-soft); display:inline-flex; align-items:center; justify-content:center;
+  font-size:15px; line-height:1
+}
+.choice-list.is-multi .is-on .choice-mark{border-color:var(--ink)}
 .level-desc{max-width:36em; margin:12px auto 0; font-size:17px; text-align:center}
 .lang-all-note{max-width:36em; margin:6px auto 0; font-size:17px; text-align:center}
 .review-other{font-size:16px; text-align:center; margin:6px auto 0; max-width:34em}
+#lang-shown-note, #lang-fallback-note{margin-top:6px}
+.levels-help{max-width:32em; margin:20px auto 0; border:1px solid var(--line); border-left:3px solid var(--frame); background:var(--card); color:var(--ink)}
+.levels-help summary{
+  cursor:pointer; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:12px;
+  min-height:44px; padding:8px 14px; font-family:var(--display); font-size:18px; color:var(--wine)
+}
+.levels-help summary::-webkit-details-marker{display:none}
+.levels-help summary::after{content:"▾"; font-size:15px; line-height:1; transition:transform .15s}
+.levels-help:not([open]) summary::after{transform:rotate(-90deg)}
+.levels-help summary:focus-visible{outline:3px solid var(--ink); outline-offset:2px}
+.levels-help-body{padding:4px 16px 12px}
+.levels-help-body p{font-size:17px; line-height:1.5; margin:0 0 10px; text-align:left}
+.levels-help-body p:last-child{margin-bottom:0}
+.levels-help-body strong{font-weight:600; color:var(--ink)}
+.levels-help-body a{color:var(--wine)}
 @media (max-width:560px){
-  .choice-bar{flex-direction:column; align-items:stretch}
-  .choice-select{width:100%}
+  .choice-row{flex-direction:column; align-items:stretch}
+  .choice-menu{width:100%}
+  .choice-list{left:0; right:0; width:auto; max-width:none}
+}
 }

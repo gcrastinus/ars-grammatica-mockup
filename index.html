@@ -75,27 +75,48 @@
     <div class="intro-note">
       <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the errors and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, Spanish, German, and French where they show something distinctive.
     </div>
-    <div class="choice-bar">
-      <div class="choice-field">
-        <label class="choice-label" for="level-select">Level</label>
-        <div class="select-wrap"><select id="level-select" class="choice-select"></select></div>
+    <hr class="choice-rule">
+    <div class="choice-rows">
+      <div class="choice-row">
+        <div class="choice-text">
+          <div class="choice-label" id="level-label">Level</div>
+          <p class="choice-expl" id="level-expl">How much of the course to study. Each level adds to the one before it, from the basics to the whole course.</p>
+        </div>
+        <div class="choice-menu" id="level-menu"></div>
       </div>
-      <div class="choice-field">
-        <label class="choice-label" for="path-select">Path</label>
-        <div class="select-wrap"><select id="path-select" class="choice-select">
-          <option value="practice">Free Practice</option>
-          <option value="guided">Guided Path</option>
-        </select></div>
+      <div class="choice-row">
+        <div class="choice-text">
+          <div class="choice-label" id="path-label">Path</div>
+          <p class="choice-expl" id="path-expl">Free Practice opens any exercise you like. The Guided Path takes the exercises in order, tells you when each is passed, and brings them back for review.</p>
+        </div>
+        <div class="choice-menu" id="path-menu"></div>
       </div>
-      <div class="choice-field">
-        <label class="choice-label" for="lang-select">Language</label>
-        <div class="select-wrap"><select id="lang-select" class="choice-select"></select></div>
+      <div class="choice-row">
+        <div class="choice-text">
+          <div class="choice-label" id="lang-label">Language</div>
+          <p class="choice-expl" id="lang-expl">English and Latin run through the course. Add Greek, Spanish, German, or French as you wish, one or several.</p>
+        </div>
+        <div class="choice-menu" id="lang-menu"></div>
       </div>
     </div>
     <p class="level-desc directions" id="level-desc"></p>
     <p class="lang-all-note directions" id="lang-all-note" hidden>Every language’s material for this level is shown.</p>
+    <p class="lang-all-note directions" id="lang-shown-note" hidden></p>
+    <p class="lang-all-note directions" id="lang-fallback-note" hidden>All languages is not offered on the Guided Path, so English is chosen.</p>
     <div id="guided-note" class="guided-note directions"></div>
     <p id="gp-storage" class="lock-note directions" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
+    <details class="levels-help" id="levels-help">
+      <summary>How the Levels and the Guided Path Work</summary>
+      <div class="levels-help-body">
+        <p><strong>Where to begin.</strong> Begin with the first section, What Is Grammar?, and go on in order. Most sections have studies, which are short sets of cards to read slowly, and exercises that test what the studies teach. Read a study before its exercises.</p>
+        <p><strong>The levels of the course.</strong> A level chooses how much of the course you see. Essentials gives the basics, Proficient a full school grammar, Mastered the higher doctrine of the grammarians, and Comprehensive the whole course. Moving up adds material and takes none away, and your record is kept at every level. But a higher level can open further stages of an exercise, and the exercise may then have to be passed or confirmed again at those stages.</p>
+        <p><strong>The Guided Path.</strong> The Guided Path opens the exercises in the order of the sections, judges when each is passed and confirmed, and brings them back for review. It keeps its record only once tracking is turned on under Progress &amp; Review. Each level keeps its own place, so you can change level and come back to where you were. On the Guided Path, the exercises of every language you have chosen are required.</p>
+        <p><strong>In an exercise.</strong> Some exercises have stages, from Stage I up to Stage IV at most, and each stage is more demanding than the last. On the Guided Path, an exercise is passed when nine of your last ten answers are correct, on at least two different days; in an exercise with stages, only the answers at the stage required for a pass, or a higher one, count. A passed exercise is confirmed ★ at a Confirmation sitting on a later day, with nine of ten questions correct. The questions you answer return for review on a widening schedule, from one day to thirty days, and a missed question returns the next day.</p>
+        <p><strong>Progress and review.</strong> On the Guided Path, Progress &amp; Review shows what to learn next and what is due for review. Your record is kept only in this browser. Use “Export progress” there to keep a copy.</p>
+        <p><strong>Also.</strong> The Recitation Tablet, at the top left, is for reciting a whole subject in your own words and checking it against the full recitation. For instructors, a link at the foot of the page builds a printable quiz with an answer key.</p>
+        <p>For a general introduction to the classical liberal arts and the trivium, see <a href="https://studiuminstitute.org/trivium/"><em>Preface to the Trivium</em></a>.</p>
+      </div>
+    </details>
     <div id="recite-due" class="recite-due" hidden></div>
     <div id="review-due" class="review-due" hidden></div>
     <div id="home-acts"></div>

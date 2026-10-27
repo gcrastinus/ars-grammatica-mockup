@@ -3,18 +3,25 @@
      node test/course-levels-check.js [--base=https://...] [--shots=/path/to/dir]
    1. A first visit opens on Essentials, Free Practice, and English.
    2. Every deck, exercise set, and review in the course has a line in data/tiers.js (or follows its deck).
-   3. For each level and each language (and All languages), the home page and every language screen show exactly
+   3. For each level and each language (and All languages, and two sets of several languages), the home page and every language screen show exactly
       the decks, exercises, and reviews whose level is at or below the level chosen, computed here from
       data/tiers.js alone; reviews give only the questions on open decks, staged sets only the open stages,
       and the reading collections only the open passages.
    4. Switching Essentials to Mastered and back keeps every record and the Guided Path step, and the
       Free Practice place.
    5. An old course record (from before the levels) and an old Guided record still load, unchanged.
-   6. The saved level, path, and language come back on the next visit.
-   7. The three drop-downs (Level, Path, Language) sit on one line under the opening paragraph, labeled, large,
-      reachable by Tab, worked by the arrow keys, with a focus outline; on a phone they wrap at full size. The
-      page opens at the top; going back to a level brings the last tile opened there into view.
-   8. No console errors.
+   6. The saved level, path, and set of languages come back on the next visit; a record saved with one language
+      (before several could be chosen) loads as that language. On the Guided Path several languages are required
+      together, a language dropped and chosen again keeps its place, and All languages falls back to English with a line.
+   7. Under the opening paragraph, a thin rule and a centered column of three explained rows (Level, Path, Language),
+      each with its label and sentence on the left and its menu on the right; on a phone each row stacks. The menus are
+      custom lists in the course's type and colors (light and dark), worked by the keyboard (Enter, Space, the arrows,
+      Home, End, a letter, Escape, Tab) with a 3 px focus outline and the listbox roles; the Language menu takes
+      several languages by its rules, and its button names the choice. The page opens at the top; going back to a
+      level brings the last tile opened there into view.
+   8. The box "How the Levels and the Guided Path Work" is closed, opens from the keyboard, and has 17 px text; the
+      page never says "mastery level" or "How to Proceed."
+   9. No console errors.
    It also prints the size of each level for each language. Exit code 1 on any failed check or page error. */
 'use strict';
 const path = require('path');
@@ -45,10 +52,10 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   await ev(`window.confirm = () => true`);
 
   /* 1. first visit */
-  const shown = id => `(s => s.options[s.selectedIndex].textContent)(document.getElementById('${id}'))`;
-  check('first visit: Essentials is shown in the Level drop-down', await ev(`${shown('level-select')} === 'Essentials' && ARS.CL.current() === 'essentials'`));
-  check('first visit: Free Practice is shown in the Path drop-down', await ev(`!GP.isGuided() && ${shown('path-select')} === 'Free Practice'`));
-  check('first visit: English is shown in the Language drop-down', await ev(`${shown('lang-select')} === 'English' && ARS.CL.lang() === 'en'`));
+  const shown = id => `document.querySelector('#${id} .choice-btn-text').textContent`;
+  check('first visit: Essentials is shown on the Level menu', await ev(`${shown('level-btn')} === 'Essentials' && ARS.CL.current() === 'essentials'`));
+  check('first visit: Free Practice is shown on the Path menu', await ev(`!GP.isGuided() && ${shown('path-btn')} === 'Free Practice'`));
+  check('first visit: English is shown on the Language menu', await ev(`${shown('lang-btn')} === 'English' && ARS.CL.langs().join() === 'en'`));
   check('first visit: the page opens at the top', await ev(`window.scrollY === 0`));
 
   /* 2. every item has a level (data/tiers.js), or follows its deck */
@@ -82,8 +89,8 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   let mismatches = [];
   for (let li = 0; li < LEVELS.length; li++){
     const lv = LEVELS[li];
-    for (const lang of LANGS.concat(['all'])){
-      await ev(`ARS.CL.setLevel('${lv}'); ARS.CL.setLang('${lang}'); true`);
+    for (const lang of LANGS.concat(['all', 'en+la', 'fr+grc+de'])){
+      await ev(`ARS.CL.setLevel('${lv}'); ARS.CL.setLangs(${JSON.stringify(lang.split('+'))}); true`);
       const got = await ev(`(() => ({
         tiles: [...document.querySelectorAll('#home-acts .set-card')].map(c => c.dataset.id),
         exlinks: [...document.querySelectorAll('#home-acts .set-card')].filter(c => c.querySelector('.ex-link')).map(c => c.dataset.id),
@@ -93,7 +100,9 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
       const wantEx = expectAll.main.filter(x => x.k <= li && x.ex).map(x => x.id);
       if (JSON.stringify(got.tiles) !== JSON.stringify(wantTiles)) mismatches.push(`${lv}/${lang} home tiles: got ${got.tiles.length}, want ${wantTiles.length}`);
       if (JSON.stringify(got.exlinks) !== JSON.stringify(wantEx)) mismatches.push(`${lv}/${lang} home Exercise buttons`);
-      const langs = lang === 'all' ? LANGS : [lang];
+      const langs = lang === 'all' ? LANGS : lang.split('+');
+      /* the buttons of each bar keep the course's order of languages */
+      if (got.bars.some(x => { const c = x.screens.map(sid => LANGS.indexOf(sid.split('.').pop())); return c.some((v, i) => i && v < c[i - 1]); })) mismatches.push(`${lv}/${lang} language order`);
       /* the bars: one button per language with something open at the level */
       const wantScreens = {};
       Object.entries(expectAll.screens).forEach(([sid, sc]) => { if (langs.includes(sc.code) && sc.tiles.some(t => t.k <= li)) (wantScreens[sc.bar] = wantScreens[sc.bar] || []).push(sid); });
@@ -111,7 +120,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
       }
     }
   }
-  check('each level shows exactly its decks, exercises, and reviews, for every language and All languages', mismatches.length === 0, mismatches.slice(0, 6).join('; '));
+  check('each level shows exactly its decks, exercises, and reviews, for every language, All languages, and several languages, in the course\'s order', mismatches.length === 0, mismatches.slice(0, 6).join('; '));
 
   /* 3b. inside the sets: reviews, stages, passages */
   const inner = await ev(`(async () => {
@@ -209,20 +218,46 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('back at Essentials: the pass is kept', await ev(`GP.stateOf('ii.ex.syllable')`) === 'passed');
   check('back at Essentials: the Guided step last opened there is kept and in view', await ev(`(ARS.CL.place() || {}).step === 'lang.ii.la/syllable-ex' && !!document.activeElement.closest('[data-langbar="ii"]')`));
   check('back at Essentials: every record is as it was', await ev(`JSON.stringify({ decks:courseStore().decks, ex:courseStore().ex, boxes:courseStore().boxes, gp:localStorage.getItem('ars-grammatica-guided') })`) === before);
-  check('the Guided Path offers no All languages in the Language drop-down', await ev(`[...document.getElementById('lang-select').options].length === 6 && ![...document.getElementById('lang-select').options].some(x => x.value === 'all')`));
+  const optVals = id => `[...document.querySelectorAll('#${id} [role="option"]')].map(o => o.dataset.value)`;
+  check('the Guided Path offers no All languages on the Language menu', await ev(`${optVals('lang-list')}.join() === 'en,la,grc,es,de,fr'`), await ev(`${optVals('lang-list')}.join()`));
+  /* several languages on the Guided Path: the exercise sets of each are required, in the course's order */
+  const reqOf = async codes => ev(`(() => { ARS.CL.setLangs(${JSON.stringify(codes)}); return GP.tiers.find(t => t.key === 'ii').required; })()`);
+  const rEn = await reqOf(['en']), rLa = await reqOf(['la']), rBoth = await reqOf(['la', 'en']);
+  const general = rLa.filter(id => id.indexOf('lang.') !== 0);
+  check('Guided, English and Latin: the sets of both languages are required, English first', JSON.stringify(rBoth) === JSON.stringify(general.concat(rEn.filter(id => id.indexOf('lang.') === 0), rLa.filter(id => id.indexOf('lang.') === 0))) && rBoth.some(id => /^lang\.ii\.en\//.test(id)) && rBoth.some(id => /^lang\.ii\.la\//.test(id)), rBoth.join(','));
+  check('Guided, English and Latin: the path heading names both languages', await ev(`(() => { GP.openProgress(); const t = document.getElementById('scr-prog').textContent; document.getElementById('prog-back').click(); return /The Path: Essentials, English and Latin/.test(t); })()`));
+  await day(2); await sitting('lang.ii.la/syllable-ex'); await day(3); await sitting('lang.ii.la/syllable-ex'); await ev(`goHome()`);
+  check('Guided: the Latin syllable set is passed with English and Latin chosen', await ev(`GP.stateOf('lang.ii.la/syllable-ex')`) === 'passed');
+  await ev(`ARS.CL.toggleLang('la'); true`);
+  const dropped = await ev(`({ langs:ARS.CL.langs().join(), req:GP.tiers.find(t => t.key === 'ii').required.join() })`);
+  await ev(`ARS.CL.toggleLang('la'); true`);
+  check('Guided: Latin dropped leaves only English required, and chosen again keeps its pass', dropped.langs === 'en' && !/lang\.ii\.la/.test(dropped.req) && await ev(`ARS.CL.langs().join() === 'en,la' && GP.stateOf('lang.ii.la/syllable-ex') === 'passed' && GP.tiers.find(t => t.key === 'ii').required.includes('lang.ii.la/syllable-ex')`), JSON.stringify(dropped));
+  await day(0);
   check('Guided: the star state is called Confirmed', await ev(`GP.config && typeof GP.stateOf === 'function'`) && !(await ev(`/★ Mastered/.test(document.body.textContent)`)));
 
   /* 6. the choices come back on the next visit */
-  await ev(`ARS.CL.setLevel('proficient'); ARS.CL.setLang('grc'); true`);
+  await ev(`ARS.CL.setLevel('proficient'); ARS.CL.setLangs(['grc', 'la']); true`);
   await ev(`openDeck('ii.voice')`); await b.sleep(500); await ev(`goHome(); window.scrollTo(0, 400); true`);   /* a place kept at Proficient */
   await b.goto('index.html'); await ready();
-  check('reload: Proficient, Guided Path, and Greek come back', await ev(`ARS.CL.current() === 'proficient' && GP.isGuided() && ARS.CL.lang() === 'grc' && ${shown('level-select')} === 'Proficient' && ${shown('lang-select')} === 'Greek' && ${shown('path-select')} === 'Guided Path'`));
+  check('reload: Proficient, Guided Path, and Latin and Greek come back', await ev(`ARS.CL.current() === 'proficient' && GP.isGuided() && ARS.CL.langs().join() === 'la,grc' && ${shown('level-btn')} === 'Proficient' && ${shown('lang-btn')} === 'Latin, Greek' && ${shown('path-btn')} === 'Guided Path'`));
   check('reload: the page opens at the top, though a place is kept at this level', await ev(`window.scrollY === 0 && !!ARS.CL.place() && document.activeElement === document.body`));
   await ev(`GP.setPath('practice'); ARS.CL.setLang('all'); true`);
   await b.goto('index.html'); await ready();
   check('reload: Free Practice with All languages comes back', await ev(`!GP.isGuided() && ARS.CL.lang() === 'all'`));
   await ev(`GP.setPath('guided')`);
-  check('choosing the Guided Path with All languages takes the last single language', await ev(`ARS.CL.lang() === 'grc' && ARS.CL.view().lang === 'grc'`));
+  check('choosing the Guided Path with All languages takes English, and a line says so', await ev(`ARS.CL.langs().join() === 'en' && ARS.CL.view().langs.join() === 'en' && ${shown('lang-btn')} === 'English' && !document.getElementById('lang-fallback-note').hidden && document.getElementById('lang-fallback-note').textContent === 'All languages is not offered on the Guided Path, so English is chosen.'`));
+  await ev(`ARS.CL.toggleLang('grc'); true`);
+  check('the fallback line goes once a language is chosen', await ev(`document.getElementById('lang-fallback-note').hidden && ARS.CL.langs().join() === 'en,grc'`));
+  /* a set of three in Free Practice comes back, with its line */
+  await ev(`GP.setPath('practice'); ARS.CL.setLangs(['fr', 'en', 'grc']); true`);
+  await b.goto('index.html'); await ready();
+  check('reload: English, Greek, and French come back as "3 languages," with the line "Shown: English, Greek, and French."', await ev(`ARS.CL.langs().join() === 'en,grc,fr' && ${shown('lang-btn')} === '3 languages' && !document.getElementById('lang-shown-note').hidden && document.getElementById('lang-shown-note').textContent === 'Shown: English, Greek, and French.'`), await ev(`document.getElementById('lang-shown-note').textContent`));
+  /* a record saved with one language, before several could be chosen */
+  const ONE = { dark:false, decks:{}, ex:{}, boxes:{}, view:{ level:'proficient', lang:'grc', lastLang:'grc' } };
+  await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(ONE))}); true`);
+  await b.goto('index.html'); await ready(); await b.sleep(300);
+  check('a record saved with one language loads as that language', await ev(`ARS.CL.current() === 'proficient' && ARS.CL.langs().join() === 'grc' && ${shown('lang-btn')} === 'Greek' && document.getElementById('lang-shown-note').hidden`));
+  check('a record saved with one language is not changed by loading it', await ev(`(v => v.lang === 'grc' && v.lastLang === 'grc' && v.level === 'proficient' && !('langs' in v))(JSON.parse(localStorage.getItem('ars-grammatica-course-v2')).view || {})`));
 
   /* 5. an old record, from before the levels, loads unchanged */
   const OLD = { dark:false, decks:{ 'i.sign':{ opens:2, done:true, doneAt:1761000000000 }, 'iii.parts':{ opens:1, done:true, doneAt:1761100000000 }, 'lang.ix.la/prose':{ opens:1, done:true, doneAt:1761200000000 }, 'xi.modern':{ opens:1, done:true, doneAt:1761300000000 } },
@@ -244,81 +279,172 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('old record: a reading collection finished whole shows done at Comprehensive', await ev(`(() => { openLang('lang.ix.la'); const c = document.querySelector('#lang-grid .set-card[data-id="lang.ix.la/prose"] .begin'); const r = !!c && c.classList.contains('is-done'); leaveLang(); return r; })()`));
   check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="xi.modern"] .begin.is-done')`));
 
-  /* 7. the drop-downs: one line under the opening paragraph, labeled, large, keyboard, focus */
-  await ev(`GP.setPath('practice'); ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
+  /* 7. the rows and the menus */
+  await ev(`GP.setPath('practice'); ARS.CL.setLevel('essentials'); ARS.CL.setLang('en'); window.scrollTo(0, 0); true`);
   await b.send('Emulation.setFocusEmulationEnabled', { enabled:true });   /* a headless window has no focus of its own, so :focus would never apply */
-  const dd = await ev(`(() => {
-    const ids = ['level-select', 'path-select', 'lang-select'];
-    const els = ids.map(id => document.getElementById(id));
+  const EXPL = {
+    level:'How much of the course to study. Each level adds to the one before it, from the basics to the whole course.',
+    path:'Free Practice opens any exercise you like. The Guided Path takes the exercises in order, tells you when each is passed, and brings them back for review.',
+    lang:'English and Latin run through the course. Add Greek, Spanish, German, or French as you wish, one or several.'
+  };
+  const lay = await ev(`(() => {
+    const keys = ['level', 'path', 'lang'], px = v => parseFloat(v);
+    const probe = document.createElement('div'); probe.style.color = 'var(--wine)'; document.body.appendChild(probe); const wine = getComputedStyle(probe).color; probe.remove();
+    const intro = document.querySelector('.intro-note'), rule = intro.nextElementSibling, col = rule.nextElementSibling;
+    const rows = [...col.querySelectorAll('.choice-row')];
+    const main = intro.getBoundingClientRect(), c = col.getBoundingClientRect();
     return {
-      native: els.every(e => e && e.tagName === 'SELECT'),
-      labels: ids.map(id => (document.querySelector('label[for="' + id + '"]') || {}).textContent),
-      labelAbove: ids.every(id => { const l = document.querySelector('label[for="' + id + '"]').getBoundingClientRect(), e = document.getElementById(id).getBoundingClientRect(); return l.bottom <= e.top + 1; }),
-      tops: els.map(e => Math.round(e.getBoundingClientRect().top)),
-      lefts: els.map(e => Math.round(e.getBoundingClientRect().left)),
-      sizes: els.map(e => [e.getBoundingClientRect().height, parseFloat(getComputedStyle(e).fontSize)]),
-      afterIntro: document.querySelector('.intro-note').nextElementSibling.classList.contains('choice-bar'),
-      descAfter: document.querySelector('.choice-bar').nextElementSibling.id === 'level-desc',
-      levels: [...document.getElementById('level-select').options].map(o => o.textContent),
-      langs: [...document.getElementById('lang-select').options].map(o => o.textContent)
+      rule: rule.tagName === 'HR' && px(getComputedStyle(rule).borderTopWidth) <= 1.5 && rule.getBoundingClientRect().top - main.bottom >= 12,
+      colClass: col.className, rows: rows.length,
+      colWidth: c.width, colEm: c.width / px(getComputedStyle(col).fontSize), centered: Math.abs((c.left + c.right) / 2 - (main.left + main.right) / 2) < 2, narrower: c.width < main.width,
+      rowRules: rows.slice(1).every(r => px(getComputedStyle(r).borderTopWidth) > 0 && px(getComputedStyle(r).borderTopWidth) <= 1.5),
+      items: keys.map((k, i) => {
+        const row = rows[i], lab = document.getElementById(k + '-label'), ex = document.getElementById(k + '-expl'), btn = document.getElementById(k + '-btn');
+        const lr = lab.getBoundingClientRect(), br = btn.getBoundingClientRect(), rr = row.getBoundingClientRect(), ls = getComputedStyle(lab), bs = getComputedStyle(btn);
+        return { inRow: row.contains(lab) && row.contains(ex) && row.contains(btn), label: lab.textContent, expl: ex.textContent, explPx: px(getComputedStyle(ex).fontSize),
+          display: /Caslon Display/.test(ls.fontFamily), accent: ls.color === wine,
+          leftRight: lr.right <= br.left, rightEdge: Math.abs(br.right - rr.right) < 1.5, width: br.width, widthEm: br.width / px(bs.fontSize), h: br.height, f: px(bs.fontSize),
+          tag: btn.tagName, popup: btn.getAttribute('aria-haspopup'), expanded: btn.getAttribute('aria-expanded'), labelled: btn.getAttribute('aria-labelledby') };
+      }),
+      after: [col.nextElementSibling.id, col.nextElementSibling.nextElementSibling.id],
+      native: document.querySelectorAll('#scr-home select').length
     };
   })()`);
-  check('drop-downs: three native selects labeled Level, Path, and Language, the labels above them', dd.native && dd.labels.join(',') === 'Level,Path,Language' && dd.labelAbove, JSON.stringify(dd.labels));
-  check('drop-downs: directly under the opening paragraph, in the order Level, Path, Language, on one line', dd.afterIntro && dd.tops[0] === dd.tops[1] && dd.tops[1] === dd.tops[2] && dd.lefts[0] < dd.lefts[1] && dd.lefts[1] < dd.lefts[2], JSON.stringify(dd.tops));
-  check('drop-downs: at least 48 px high with type of at least 18 px', dd.sizes.every(([h, f]) => h >= 48 && f >= 18), JSON.stringify(dd.sizes));
-  check('drop-downs: the four levels, and the six languages with All languages', dd.levels.join(',') === 'Essentials,Proficient,Mastered,Comprehensive' && dd.langs.length === 7 && dd.langs[6] === 'All languages', dd.langs.join(','));
-  check('drop-downs: the level\'s description is one sentence below the row', dd.descAfter && await ev(`(t => /^[^.]*\\.$/.test(t.replace(/\\.\\.\\./g, '')) && t.startsWith('The essentials of grammar'))(document.getElementById('level-desc').textContent)`));
+  check('layout: a thin rule after a little space under the opening paragraph, then the column of rows', lay.rule && /choice-rows/.test(lay.colClass) && lay.rows === 3, JSON.stringify([lay.rule, lay.colClass, lay.rows]));
+  check('layout: the column is narrower than the main text, about 32em, and centered', lay.narrower && lay.centered && lay.colEm > 30 && lay.colEm <= 32.5, lay.colWidth + ' px, ' + lay.colEm.toFixed(1) + ' em');
+  check('layout: the rows are separated by thin rules', lay.rowRules);
+  check('layout: the rows are Level, Path, Language, each with its own sentence', lay.items.map(x => x.label).join() === 'Level,Path,Language' && lay.items.every((x, i) => x.inRow && x.expl === EXPL[['level', 'path', 'lang'][i]]), JSON.stringify(lay.items.map(x => x.expl)));
+  check('layout: the labels in the display type and the accent color; the sentences at least 17 px', lay.items.every(x => x.display && x.accent && x.explPx >= 17), JSON.stringify(lay.items.map(x => [x.display, x.accent, x.explPx])));
+  check('layout: each menu on the right, at the right edge, about 11.5em wide', lay.items.every(x => x.leftRight && x.rightEdge && x.widthEm > 11 && x.widthEm < 12), JSON.stringify(lay.items.map(x => [x.leftRight, x.rightEdge, x.widthEm.toFixed(2)])));
+  check('menus: at least 44 px high and smaller than the old 52 px drop-downs, with type of at least 18 px', lay.items.every(x => x.h >= 44 && x.h <= 46 && x.f >= 18), JSON.stringify(lay.items.map(x => [x.h, x.f])));
+  check('menus: buttons that open lists, with no native select on the page', lay.native === 0 && lay.items.every(x => x.tag === 'BUTTON' && x.popup === 'listbox' && x.expanded === 'false' && /-label /.test(x.labelled)));
+  check('layout: the level\'s description and the notes follow the rows', lay.after[0] === 'level-desc' && lay.after[1] === 'lang-all-note', lay.after.join());
+  check('layout: the level\'s description is one sentence', await ev(`(t => /^[^.]*\\.$/.test(t) && t.startsWith('The essentials of grammar'))(document.getElementById('level-desc').textContent)`));
   await ev(`ARS.CL.setLevel('proficient'); window.scrollTo(0, 0); true`);
-  check('drop-downs: the Proficient description names the common errors', await ev(`/the rest of construction, the common errors, the tropes/.test(document.getElementById('level-desc').textContent)`));
-  /* All languages at every level in Free Practice, with its line under the drop-downs */
+  check('layout: the Proficient description names the common errors', await ev(`/the rest of construction, the common errors, the tropes/.test(document.getElementById('level-desc').textContent)`));
+  await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
+
+  /* the keyboard */
+  const KEYS = { ArrowDown:[40, 'ArrowDown'], ArrowUp:[38, 'ArrowUp'], Tab:[9, 'Tab'], Enter:[13, 'Enter'], Escape:[27, 'Escape'], Home:[36, 'Home'], End:[35, 'End'], ' ':[32, 'Space'] };
+  const key = async k => {
+    const [vk, code] = KEYS[k] || [k.toUpperCase().charCodeAt(0), 'Key' + k.toUpperCase()];
+    const text = k.length === 1 ? { text:k } : k === 'Enter' ? { text:'\r' } : {};
+    await b.send('Input.dispatchKeyEvent', Object.assign({ type:'keyDown', key:k, code, windowsVirtualKeyCode:vk }, text));
+    await b.send('Input.dispatchKeyEvent', { type:'keyUp', key:k, code, windowsVirtualKeyCode:vk });
+    await b.sleep(150);
+  };
+  const st = k => ev(`(() => { const l = document.getElementById('${k}-list'), a = document.getElementById(l.getAttribute('aria-activedescendant') || 'x');
+    return { open:!l.hidden, expanded:document.getElementById('${k}-btn').getAttribute('aria-expanded'), focus:document.activeElement.id, active:a ? a.dataset.value : '' }; })()`);
+  await ev(`document.getElementById('level-btn').focus(); true`);
+  check('menus: a focus outline of at least 3 px on the button', await ev(`(() => { const cs = getComputedStyle(document.activeElement); return document.activeElement.id === 'level-btn' && cs.outlineStyle !== 'none' && parseFloat(cs.outlineWidth) >= 3; })()`));
+  await key('Enter');
+  let k1 = await st('level');
+  check('keyboard: Enter opens the list on the chosen item, with the focus in the list', k1.open && k1.expanded === 'true' && k1.focus === 'level-list' && k1.active === 'essentials', JSON.stringify(k1));
+  await key('ArrowDown'); const k2 = await st('level');
+  await key('End'); const k3 = await st('level');
+  await key('Home'); const k4 = await st('level');
+  check('keyboard: the down arrow moves, End and Home jump', k2.active === 'proficient' && k3.active === 'comprehensive' && k4.active === 'essentials', [k2.active, k3.active, k4.active].join());
+  check('keyboard: the item under the cursor has an outline of at least 3 px', await ev(`(() => { const o = document.querySelector('#level-list .is-active'); const cs = getComputedStyle(o); return parseFloat(cs.outlineWidth) >= 3 && cs.outlineStyle !== 'none'; })()`));
+  await key('m'); const k5 = await st('level');
+  check('keyboard: typing "m" jumps to Mastered', k5.active === 'mastered', k5.active);
+  await key('Enter'); const k6 = await st('level');
+  check('keyboard: Enter chooses it, closes the list, and returns the focus to the button', await ev(`ARS.CL.current()`) === 'mastered' && !k6.open && k6.expanded === 'false' && k6.focus === 'level-btn' && await ev(`${shown('level-btn')} === 'Mastered'`), JSON.stringify(k6));
+  await key(' '); const k7 = await st('level');
+  await key('ArrowUp'); await key('Escape'); const k8 = await st('level');
+  check('keyboard: Space opens the list; Escape closes it without a change and returns to the button', k7.open && k7.active === 'mastered' && !k8.open && k8.focus === 'level-btn' && await ev(`ARS.CL.current()`) === 'mastered', JSON.stringify([k7, k8]));
+  await key('ArrowDown'); await key('Tab'); const k9 = await st('level');
+  check('keyboard: Tab closes the list and moves on to the Path menu', !k9.open && k9.focus === 'path-btn', JSON.stringify(k9));
+  await key('Tab');
+  check('keyboard: Tab goes from Path to Language', await ev(`document.activeElement.id`) === 'lang-btn');
+  await ev(`document.getElementById('level-btn').focus(); true`);
+  await key('c'); const k10 = await st('level'); await key('Escape');
+  check('keyboard: a letter on the closed button opens the list at the matching item', k10.open && k10.active === 'comprehensive', JSON.stringify(k10));
+  await ev(`ARS.CL.setLevel('essentials'); true`);
+  /* the Language menu by keyboard: several languages; Enter and Space check and uncheck and keep the list open */
+  await ev(`document.getElementById('lang-btn').focus(); true`);
+  await key('ArrowDown'); await key('ArrowDown'); await key('Enter');
+  const m1 = await ev(`({ langs:ARS.CL.langs().join(), open:!document.getElementById('lang-list').hidden, focus:document.activeElement.id, multi:document.getElementById('lang-list').getAttribute('aria-multiselectable'),
+    sel:[...document.querySelectorAll('#lang-list [role="option"]')].filter(o => o.getAttribute('aria-selected') === 'true').map(o => o.dataset.value).join(), btn:${shown('lang-btn')} })`);
+  check('Language by keyboard: Enter checks Latin beside English; the list stays open and announces both', m1.langs === 'en,la' && m1.open && m1.focus === 'lang-list' && m1.multi === 'true' && m1.sel === 'en,la' && m1.btn === 'English, Latin', JSON.stringify(m1));
+  await key('g'); await key(' ');
+  check('Language by keyboard: "g" and Space check Greek; the button says "3 languages"', await ev(`ARS.CL.langs().join() === 'en,la,grc' && ${shown('lang-btn')} === '3 languages'`), await ev(`ARS.CL.langs().join()`));
+  await key('Escape');
+  check('Language by keyboard: Escape closes the list and returns to the button', await ev(`document.getElementById('lang-list').hidden && document.activeElement.id === 'lang-btn'`));
+
+  /* the rules of the Language menu, worked by clicking the items */
+  const tick = v => ev(`(() => { const btn = document.getElementById('lang-btn'); if (document.getElementById('lang-list').hidden) btn.click(); document.getElementById('lang-opt-${v}').click(); return ARS.CL.langs().join(); })()`);
+  await ev(`ARS.CL.setLang('en'); true`);
+  check('rule: unchecking the last language does nothing', await tick('en') === 'en');
+  check('rule: a second language is added beside the first', await tick('fr') === 'en,fr' && await ev(`document.getElementById('lang-shown-note').textContent === 'Shown: English and French.' && !document.getElementById('lang-shown-note').hidden`));
+  check('rule: All languages clears every language', await tick('all') === 'all' && await ev(`${shown('lang-btn')} === 'All languages' && document.getElementById('lang-shown-note').hidden && !document.getElementById('lang-all-note').hidden && document.querySelectorAll('#lang-list [aria-selected="true"]').length === 1`));
+  check('rule: unchecking All languages, the last choice, does nothing', await tick('all') === 'all');
+  check('rule: a language clears All languages', await tick('de') === 'de' && await ev(`document.getElementById('lang-all-note').hidden && document.querySelector('#lang-opt-all').getAttribute('aria-selected') === 'false'`));
+  await tick('es'); await tick('la'); await tick('grc'); await tick('en');
+  check('rule: five languages are listed in the course\'s order in the line under the rows', await ev(`document.getElementById('lang-shown-note').textContent === 'Shown: English, Latin, Greek, Spanish, and German.' && ${shown('lang-btn')} === '5 languages'`), await ev(`document.getElementById('lang-shown-note').textContent`));
+  check('rule: unchecking one of several removes it', await tick('es') === 'en,la,grc,de');
+  await ev(`ARS.CL.closeMenu(); true`);
+  /* All languages at every level in Free Practice, with its line */
   const allRows = [];
   for (const lv of LEVELS){
     allRows.push(await ev(`(() => { ARS.CL.setLevel('${lv}'); ARS.CL.setLang('all'); const n = document.getElementById('lang-all-note');
-      const r = { lv:'${lv}', option:[...document.getElementById('lang-select').options].some(o => o.value === 'all'), chosen:document.getElementById('lang-select').value === 'all',
+      const r = { lv:'${lv}', option:!!document.getElementById('lang-opt-all'), chosen:document.getElementById('lang-opt-all').getAttribute('aria-selected') === 'true',
         note:!n.hidden && n.textContent === 'Every language’s material for this level is shown.' };
       ARS.CL.setLang('en'); r.hiddenAfter = n.hidden; return r; })()`));
   }
   check('All languages: offered and chosen at every level in Free Practice', allRows.every(r => r.option && r.chosen), JSON.stringify(allRows));
-  check('All languages: the line under the drop-downs shows with it, and only with it', allRows.every(r => r.note && r.hiddenAfter), JSON.stringify(allRows));
-  /* quiet styling: a plain frame, the page's text color, no colored fill, in both themes */
+  check('All languages: its line shows with it, and only with it', allRows.every(r => r.note && r.hiddenAfter), JSON.stringify(allRows));
+  await ev(`ARS.CL.setLevel('essentials'); true`);
+
+  /* the styling of the buttons and the open lists, in both themes */
+  const chroma = c => { const n = (c.match(/[\d.]+/g) || []).map(Number); const v = /^color\(/.test(c) ? n.slice(0, 3).map(x => x * 255) : n.slice(0, 3); return Math.max(...v) - Math.min(...v); };
   for (const dark of [false, true]){
     await ev(`setDark(${dark})`); await b.sleep(700);   /* the page's colors change over 0.25 s */
-    const q = await ev(`(() => { const b = getComputedStyle(document.body); return ['level-select', 'path-select', 'lang-select'].map(id => { const cs = getComputedStyle(document.getElementById(id)); return [cs.backgroundColor, cs.color === b.color]; }); })()`);
-    check('drop-downs ' + (dark ? 'dark' : 'light') + ': no colored fill, the page\'s text color', q.every(([bg, ink]) => bg === 'rgba(0, 0, 0, 0)' && ink), JSON.stringify(q));
+    const q = await ev(`(() => {
+      const body = getComputedStyle(document.body), probe = document.createElement('div'); document.body.appendChild(probe);
+      const tok = n => { probe.style.color = 'var(--' + n + ')'; return getComputedStyle(probe).color; };
+      const card = tok('card'), frame = tok('frame'), wine = tok('wine'), sage = tok('sage'); probe.remove();
+      const btns = ['level', 'path', 'lang'].map(k => { const cs = getComputedStyle(document.getElementById(k + '-btn')); return [cs.backgroundColor, cs.color === body.color, /Caslon Text/.test(cs.fontFamily)]; });
+      document.getElementById('path-btn').click();
+      const list = document.getElementById('path-list'), ls = getComputedStyle(list);
+      const opts = [...list.querySelectorAll('[role="option"]')].map(o => { const r = o.getBoundingClientRect(), cs = getComputedStyle(o); return { h:r.height, f:parseFloat(cs.fontSize), bg:cs.backgroundColor, on:o.getAttribute('aria-selected') === 'true', mark:o.querySelector('.choice-mark').textContent, font:/Caslon Text/.test(cs.fontFamily) }; });
+      const out = { btns, card, frame, wine, sage, listBg:ls.backgroundColor, listBorder:ls.borderTopColor, listBorderW:parseFloat(ls.borderTopWidth), shadow:ls.boxShadow, opts };
+      ARS.CL.closeMenu(); return out;
+    })()`);
+    const th = dark ? 'dark' : 'light';
+    check('menus ' + th + ': the buttons have no colored fill, the page\'s text color, and Caslon type', q.btns.every(([bg, ink, font]) => bg === 'rgba(0, 0, 0, 0)' && ink && font), JSON.stringify(q.btns));
+    check('menus ' + th + ': the open list has the card background, the frame border, and a quiet shadow', q.listBg === q.card && q.listBorder === q.frame && q.listBorderW >= 1 && q.shadow !== 'none' && /0\.[1-4]\d*\)/.test(q.shadow), JSON.stringify([q.listBg, q.card, q.listBorder, q.frame, q.shadow]));
+    check('menus ' + th + ': rows of at least 44 px with Caslon type of at least 18 px', q.opts.every(o => o.h >= 44 && o.f >= 18 && o.font), JSON.stringify(q.opts));
+    const on = q.opts.find(o => o.on), off = q.opts.find(o => !o.on);
+    check('menus ' + th + ': the chosen item has a check and a gentle tint, not a colored fill', on && on.mark === '✓' && off.mark === '' && on.bg !== off.bg && on.bg !== q.wine && on.bg !== q.sage && chroma(on.bg) <= chroma(q.card) + 12, JSON.stringify([on, off]));
   }
   await ev(`setDark(false)`);
-  await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
-  const key = async (k, extra) => {
-    const vk = { ArrowDown:40, ArrowUp:38, Tab:9, Enter:13, m:77 }[k];
-    await b.send('Input.dispatchKeyEvent', Object.assign({ type:'keyDown', key:k, code:k, windowsVirtualKeyCode:vk }, extra || {}));
-    await b.send('Input.dispatchKeyEvent', { type:'keyUp', key:k, code:k, windowsVirtualKeyCode:vk });
-    await b.sleep(250);
-  };
-  await ev(`document.getElementById('level-select').focus(); true`);
-  check('drop-downs: a visible focus outline of at least 3 px', await ev(`(() => { const cs = getComputedStyle(document.activeElement); return document.activeElement.id === 'level-select' && cs.outlineStyle !== 'none' && parseFloat(cs.outlineWidth) >= 3; })()`));
-  await key('Tab');
-  const t1 = await ev(`document.activeElement.id`);
-  await key('Tab');
-  const t2 = await ev(`document.activeElement.id`);
-  check('drop-downs: Tab goes from Level to Path to Language', t1 === 'path-select' && t2 === 'lang-select', t1 + ' ' + t2);
-  /* The keyboard on a closed native select: typing a letter chooses the matching option on every platform.
-     The arrow keys are the browser's own: on Windows and Linux they change the option in place; on macOS they open
-     the list, where the arrows and Enter choose. Headless Chrome on macOS draws no list, so only the first case
-     can be driven here; it is tried, and the result is printed. */
-  await ev(`document.getElementById('level-select').focus(); true`);
-  await key('m', { text:'m' });
-  check('drop-downs: typing "m" on the focused Level drop-down chooses Mastered', await ev(`ARS.CL.current() === 'mastered' && document.getElementById('level-select').value === 'mastered'`), await ev(`ARS.CL.current()`));
-  await ev(`ARS.CL.setLevel('essentials'); document.getElementById('level-select').focus(); true`);
-  await key('ArrowDown');
-  const arrow = await ev(`ARS.CL.current()`);
-  console.log(arrow === 'proficient' ? 'Arrow keys: the down arrow chose Proficient in place.' : 'Arrow keys: the down arrow did not change the option in place (on macOS it opens the native list, which headless Chrome does not draw).');
+
+  /* 8. the closed box */
+  const box = await ev(`(() => {
+    const d = document.getElementById('levels-help'), sm = d.querySelector('summary');
+    const prev = [...document.querySelectorAll('#scr-home > *')], i = prev.indexOf(d);
+    return { tag:d.tagName, open:d.open, title:sm.textContent, after:prev.indexOf(document.getElementById('level-desc')) < i && prev.indexOf(document.querySelector('.choice-rows')) < i,
+      fonts:[...d.querySelectorAll('.levels-help-body p')].map(p => parseFloat(getComputedStyle(p).fontSize)), link:(d.querySelector('a[href="https://studiuminstitute.org/trivium/"]') || {}).textContent || '' };
+  })()`);
+  check('box: closed by default, titled "How the Levels and the Guided Path Work," below the rows and notes', box.tag === 'DETAILS' && !box.open && box.title === 'How the Levels and the Guided Path Work' && box.after, JSON.stringify(box));
+  check('box: body text of at least 17 px, and the link to Preface to the Trivium', box.fonts.length >= 6 && box.fonts.every(f => f >= 17) && box.link === 'Preface to the Trivium', JSON.stringify(box.fonts));
+  await ev(`document.querySelector('#levels-help summary').focus(); true`);
+  await key('Enter');
+  check('box: opens from the keyboard, with a focus outline of at least 3 px', await ev(`document.getElementById('levels-help').open && parseFloat(getComputedStyle(document.activeElement).outlineWidth) >= 3`));
+  await key('Enter');
+  check('box: closes again from the keyboard', await ev(`!document.getElementById('levels-help').open`));
+  check('the page never says "mastery level" or "How to Proceed"', await ev(`!/mastery levels?|how to proceed/i.test(document.body.textContent)`));
+  check('the box keeps the stages of an exercise apart from the levels of the course', await ev(`(t => /Stage I up to Stage IV/.test(t) && !/Level I\\b|Level IV/.test(t))(document.getElementById('levels-help').textContent)`));
+
   await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
   for (const w of [1100, 390]) {
     await b.size(w, 900); await b.sleep(250);
     check('no sideways scrolling at ' + w + ' px', await ev(`document.documentElement.scrollWidth <= window.innerWidth`));
     if (w === 390) {
-      const ph = await ev(`['level-select', 'path-select', 'lang-select'].map(id => { const e = document.getElementById(id), r = e.getBoundingClientRect(); return [Math.round(r.top), r.height, parseFloat(getComputedStyle(e).fontSize)]; })`);
-      check('drop-downs at 390 px: on separate lines, not shrunk', ph[0][0] < ph[1][0] && ph[1][0] < ph[2][0] && ph.every(([, h, f]) => h >= 48 && f >= 18), JSON.stringify(ph));
+      const ph = await ev(`['level', 'path', 'lang'].map(k => { const e = document.getElementById(k + '-btn'), r = e.getBoundingClientRect(), x = document.getElementById(k + '-expl').getBoundingClientRect(), row = e.closest('.choice-row').getBoundingClientRect(); return [x.bottom <= r.top + 1, Math.abs(r.width - row.width) < 1.5, r.height, parseFloat(getComputedStyle(e).fontSize)]; })`);
+      check('at 390 px: each row stacks, the sentence above a full-width menu, not shrunk', ph.every(([below, full, h, f]) => below && full && h >= 44 && f >= 18), JSON.stringify(ph));
+      const pl = await ev(`(() => { document.getElementById('lang-btn').click(); const l = document.getElementById('lang-list').getBoundingClientRect(), bt = document.getElementById('lang-btn').getBoundingClientRect(); ARS.CL.closeMenu(); return [Math.abs(l.left - bt.left) < 1.5 && Math.abs(l.right - bt.right) < 1.5, l.top >= bt.bottom]; })()`);
+      check('at 390 px: the list opens full width under its button', pl[0] && pl[1], JSON.stringify(pl));
     }
     if (SHOTS) for (const dark of [false, true]) { await ev(`setDark(${dark}); window.scrollTo(0, 0)`); await b.sleep(250); await b.shot(path.join(SHOTS, `levels-${w}-${dark ? 'dark' : 'light'}.png`)); }
   }
