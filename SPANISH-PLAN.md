@@ -559,3 +559,8 @@ Done: the Sources notes (IX prose, IX poetry, the X decks) carry the rights sent
 
 START FROM: B14, continued (waiting for Timothy's choice of the Quevedo sonnet, of the ballad (keep or swap), and of the Bernal Díaz replacement; then the items of section 18 that need printed books). Do not start B15 until he says go.
 
+
+### B14, fourth part (27 Oct 2026)
+Done: Quevedo swapped to *Miré los muros* (Fernández-Guerra 1907, p. 405); ballad kept; Bernal Díaz replaced by Santa Teresa, *Vida* 29 (Mesa y López 1912, Lewis 1904); "subordinate clause" course-wide (own commit); Donatus source line corrected in `iii.parts`. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 19.
+Still waiting on Timothy: whether to correct the Donatus statement in `lang.iii-decl.de/parts` and `lang.iii-decl.fr/parts` and the phrase in `lang.iii-decl.la/cases-ex`; the items on the Needs list.
+START FROM: B14, continued (the Needs list; Timothy's decision on the German and French Donatus statements). Do not start B15 until he says go.
