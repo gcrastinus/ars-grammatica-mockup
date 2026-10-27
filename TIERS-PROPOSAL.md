@@ -636,3 +636,28 @@ The design is workable. These are the problems to settle before Step 2:
 8. **The passages.** Keep the split of the IX reading collections by position (first 3 prose and first 2 poems at Proficient, first 8 and 5 at Mastered), or choose particular passages for Proficient? Recommendation: by position for now.
 9. **Language sets on the Guided Path.** Should the chosen language's exercise sets be required for opening the next section (so that Essentials in Latin cannot be finished without the Latin), or only offered as steps that do not gate? Recommendation: required, since the purpose of a language's Essentials is an essentials grammar of that language.
 10. **Placements to check.** The less obvious choices are listed with their reasons in sections 4 and 5: Prelim (Definition alone in Essentials), Quantity and Accent and Punctuation at Proficient, Feet and Meter at Mastered, Figure and Species at Proficient, Analysis of Passages at Mastered, Imitation at Comprehensive, German word order at Essentials, Spanish Compared with Latin at Mastered. Any change is one line in the assignment table and changes no file of the course.
+
+## 12. Timothy's answers (27 Oct 2026) and what was built
+
+1. A course-wide language selector below Free Practice / Guided Path, with the six languages and "All languages" (Free Practice only); with one language chosen, each section's bar opens that language's screen directly. **Built.**
+2. A first visit opens on Essentials, Free Practice, and English; the Guided Path always has a language. **Built.**
+3. Rule 3 as written: Essentials gets Stage I only, and each higher level opens one more stage. **Built.**
+4. The in-set levels are called "Stage I, II, III, IV" on screen; no data field changed. **Built.**
+5. The level keeps the name "Mastered"; the Guided Path star state is renamed "★ Confirmed" (with the "confirmation sitting"). **Built.**
+6. Imposition stays in Proficient. 7. English Common Errors stays in Essentials. 8. The IX reading collections are split by position, each deck's passage lists on one line of `data/tiers.js`. 9. The chosen language's exercise sets are required on the Guided Path. **Built.**
+10. Placements accepted, except Precepts and Interpretation (`prelim.methodice`), moved to Essentials. Problems 4–8 of section 9 accepted as recommended. **Built.**
+
+**Correction to section 6.** Spanish prose has 14 passages, not 16: two of its question points ("The text and its spelling") are inside passages, not at their start. The passage lists in `data/tiers.js` are therefore taken from the passages the exercises name (`passageRef`), not from the question points.
+
+**Essentials with Precepts and Interpretation**, as the course now counts it (test/course-levels-check.js; the general course plus one language):
+
+| Language | Decks | Cards | Exercise sets and reviews | Stored items |
+|---|---|---|---|---|
+| English | 36 | 279 | 32 | 1,224 |
+| Latin | 32 | 245 | 29 (3 generated) | 631 |
+| Greek | 31 | 275 | 28 | 706 |
+| Spanish | 31 | 260 | 28 | 658 |
+| German | 35 | 278 | 32 | 787 |
+| French | 31 | 257 | 28 | 658 |
+
+The general course alone in Essentials is now 21 decks and 194 cards (from 20 and 188). The other levels are as in section 3, except Spanish at Proficient (67 decks, 530 cards, 1,773 items) and Mastered (96, 777, 2,531), after the passage correction.

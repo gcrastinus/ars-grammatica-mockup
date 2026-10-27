@@ -1002,3 +1002,10 @@ One commit per deck (git log, "card pass against the final style list"). Doctrin
 
 - **New card `iii.reasons/word-thing`, "From the word, from the thing"** (after the three-modes card, before not-the-meaning): the active mode of signifying comes from the word, the passive from the thing; Timothy's wording, entered without change, with the question point `q-word-thing` (three variants) and four new lines in the deck's recitation, after "A thing is what it is whether anyone understands it or not…".
 - **`lang.iii-decl.grc/accidents`, middle voice card:** the last sentence "Latin has no middle voice." → "Latin has no middle voice of its own, though some passive forms have a middle sense: *lavor* can mean “I wash myself.”"
+
+## BH. Log: the four course levels (27 Oct 2026, Timothy's decisions; built by Claude)
+
+- **Decisions** (answers to TIERS-PROPOSAL.md, recorded in its section 12): four nested levels, Essentials, Proficient, Mastered, Comprehensive; a language selector with "All languages" in Free Practice only; a first visit on Essentials, Free Practice, and English; Stage I only in Essentials, one more stage at each higher level; the in-set levels called "Stage I, II, III, IV" on screen; the Guided star state renamed "★ Confirmed"; Precepts and Interpretation moved to Essentials, because the formula for grammar includes the interpretation of the great authors; the chosen language's exercise sets required on the Guided Path.
+- **Where the levels are.** `data/tiers.js`, one line per deck, review, or language deck; a deck is moved by changing the word on its line. Exercise sets follow their deck. The passage lists of the IX reading collections are one line per deck.
+- **Student-facing wording added** (levels.js): the four level descriptions under the level selector; "Stage" for the in-set levels; "Confirmed," "confirmation sitting," "Next to confirm"; "N review items are due at other levels or in other languages."
+
