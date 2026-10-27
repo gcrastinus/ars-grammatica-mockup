@@ -95,7 +95,7 @@ ARS.decks["lang.iii-indecl.fr/invariable"] = {
   {
    "id": "conjunctions",
    "title": "Coordinating and subordinating conjunctions",
-   "body": "<p>French schoolchildren learn the coordinating conjunctions with the sentence <i lang=\"fr\">Mais où est donc Ornicar?</i>, which holds <i lang=\"fr\">mais</i> (“but”), <i lang=\"fr\">ou</i> (“or”), <i lang=\"fr\">et</i> (“and”), <i lang=\"fr\">donc</i> (“therefore”), <i>or</i> (“now,” “yet”), <i lang=\"fr\">ni</i> (“nor”), and <i lang=\"fr\">car</i> (“for”). They join words or clauses of equal rank. The subordinating conjunctions join a dependent clause: <i lang=\"fr\">que</i> (“that”), <i lang=\"fr\">quand</i> and <i lang=\"fr\">lorsque</i> (“when”), <i lang=\"fr\">si</i> (“if”), <i lang=\"fr\">comme</i> (“as,” “since”), <i lang=\"fr\">parce que</i> (“because”), <i lang=\"fr\">puisque</i> (“since”). Some subordinating conjunctions take the subjunctive, as we have seen: <i lang=\"fr\">bien que</i> and <i lang=\"fr\">quoique</i> (“although”), <i lang=\"fr\">pour que</i> and <i lang=\"fr\">afin que</i> (“so that”), <i lang=\"fr\">avant que</i> (“before”), <i lang=\"fr\">jusqu’à ce que</i> (“until”), <i lang=\"fr\">à moins que</i> (“unless”); whereas <i lang=\"fr\">après que</i> takes the indicative in careful usage.</p>",
+   "body": "<p>French schoolchildren learn the coordinating conjunctions with the sentence <i lang=\"fr\">Mais où est donc Ornicar?</i>, which holds <i lang=\"fr\">mais</i> (“but”), <i lang=\"fr\">ou</i> (“or”), <i lang=\"fr\">et</i> (“and”), <i lang=\"fr\">donc</i> (“therefore”), <i>or</i> (“now,” “yet”), <i lang=\"fr\">ni</i> (“nor”), and <i lang=\"fr\">car</i> (“for”). They join words or clauses of equal rank. The subordinating conjunctions join a subordinate clause: <i lang=\"fr\">que</i> (“that”), <i lang=\"fr\">quand</i> and <i lang=\"fr\">lorsque</i> (“when”), <i lang=\"fr\">si</i> (“if”), <i lang=\"fr\">comme</i> (“as,” “since”), <i lang=\"fr\">parce que</i> (“because”), <i lang=\"fr\">puisque</i> (“since”). Some subordinating conjunctions take the subjunctive, as we have seen: <i lang=\"fr\">bien que</i> and <i lang=\"fr\">quoique</i> (“although”), <i lang=\"fr\">pour que</i> and <i lang=\"fr\">afin que</i> (“so that”), <i lang=\"fr\">avant que</i> (“before”), <i lang=\"fr\">jusqu’à ce que</i> (“until”), <i lang=\"fr\">à moins que</i> (“unless”); whereas <i lang=\"fr\">après que</i> takes the indicative in careful usage.</p>",
    "qp": {
     "id": "q-fr-conjunctions",
     "variants": [
@@ -108,7 +108,7 @@ ARS.decks["lang.iii-indecl.fr/invariable"] = {
        "<i lang=\"fr\">car</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"fr\">Car</i> (“for”) is one of the coordinating conjunctions; the others introduce dependent clauses."
+      "explain": "<i lang=\"fr\">Car</i> (“for”) is one of the coordinating conjunctions; the others introduce subordinate clauses."
      },
      {
       "prompt": "Choose the form: <i lang=\"fr\">Je reste jusqu’à ce qu’il ___</i> (“I am staying until he comes”).",

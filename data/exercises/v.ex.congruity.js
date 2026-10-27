@@ -358,7 +358,7 @@ ARS.exercises['v.ex.congruity'] = {
     "Yes, because subject and verb agree"
    ],
    "answer": 0,
-   "explain": "The words fit, but <i>sī</i> (“if”) leaves the sense unfinished, so the hearer expects a main clause. A dependent clause can be well formed and still not complete by itself."
+   "explain": "The words fit, but <i>sī</i> (“if”) leaves the sense unfinished, so the hearer expects a main clause. A subordinate clause can be well formed and still not complete by itself."
   },
   {
    "id": "cg-C03",

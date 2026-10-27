@@ -64,7 +64,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "What is the marked word? <i lang=\"de\">Ich bleibe, <b>weil</b> es regnet.</i> (“I am staying because it is raining.”)",
-   "explain": "<i lang=\"de\">Weil</i> introduces a dependent clause and sends the verb to the end.",
+   "explain": "<i lang=\"de\">Weil</i> introduces a subordinate clause and sends the verb to the end.",
    "options": [
     "A coordinating conjunction",
     "A subordinating conjunction",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Ich weiß nicht, wann der Film ___.</i> (“I don’t know when the film begins”).",
-   "explain": "In a dependent clause the separable verb is joined again at the end.",
+   "explain": "In a subordinate clause the separable verb is joined again at the end.",
    "options": [
     "<i lang=\"de\">fängt an</i>",
     "<i lang=\"de\">fängt … an</i>",

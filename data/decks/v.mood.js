@@ -12,7 +12,7 @@ ARS.decks['v.mood'] = {
   recitation: [
     `Mood and voice are accidents of the verb, but they are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another.`,
     `The voice of a verb decides which word is its subject and how the doer of the action is expressed.`,
-    `The mood of a verb often shows whether its clause is independent or dependent, and what kind of dependent clause it is.`,
+    `The mood of a verb often shows whether its clause is independent or dependent, and what kind of subordinate clause it is.`,
     `Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged.`,
     `In a passive sentence the one who receives the action becomes the subject, and the doer may be named or left out.`,
     `When the doer is a person, Latin expresses it by <i>ā</i> or <i>ab</i> with the ablative, the <strong>ablative of agent</strong>; when the means is a thing, Latin uses the ablative without a preposition, the <strong>ablative of means</strong>.`,
@@ -28,7 +28,7 @@ ARS.decks['v.mood'] = {
     `After a verb of saying, thinking, knowing, or perceiving, Latin usually puts the subject of what is reported in the accusative and its verb in the infinitive; this construction, the <strong>accusative and infinitive</strong>, is the regular form of indirect statement.`,
     `English uses a clause with “that” instead, though it has a similar construction after some verbs.`,
     `The tense of the infinitive shows time relative to the main verb: the present infinitive the same time, the perfect infinitive an earlier time, and the future infinitive a later time.`,
-    `Latin uses a participle where English often uses a dependent clause or a second verb.`,
+    `Latin uses a participle where English often uses a subordinate clause or a second verb.`,
     `The participle shows time relative to the main verb, and it can take the place of a temporal, causal, conditional, or concessive clause, the sense deciding which.`,
     `So a single Latin participle often contains a relation between two actions that English must express with a conjunction, and the reader must supply the conjunction from the sense.`,
     `Where English uses a gerund with an object, Latin usually uses the gerundive agreeing with the noun, a passive participle signifying what is to be done.`,
@@ -43,7 +43,7 @@ ARS.decks['v.mood'] = {
     `English expresses all of these with auxiliary verbs, and the independent subjunctive is one of the chief means by which Latin marks sentences that command, ask, and pray as well as state.`,
     `The verbs of clauses with <i>cum</i>, of clauses of purpose and result, and of indirect questions are in the subjunctive.`,
     `In such clauses the tense of the subjunctive depends on the tense of the main verb, according to the <strong>sequence of tenses</strong>.`,
-    `After a present or future main verb the dependent clause has the present (or perfect) subjunctive; after a past main verb it has the imperfect (or pluperfect) subjunctive.`,
+    `After a present or future main verb the subordinate clause has the present (or perfect) subjunctive; after a past main verb it has the imperfect (or pluperfect) subjunctive.`,
     `So the tense of the dependent verb depends on the main verb, as its mood depends on the kind of clause; English shows a similar sequence in “may” and “might.”`,
     `English expresses most of these constructions without special forms of the verb: auxiliary verbs or the infinitive where Latin has the subjunctive, a clause with “that” where Latin has the accusative and infinitive, and a clause with a conjunction where Latin has a participle or an ablative absolute.`,
     `So a translation between the two languages often changes the construction but keeps the meaning, and what remains the same is the relation of dependence that the construction expresses.`
@@ -52,8 +52,8 @@ ARS.decks['v.mood'] = {
 
 { id: 'intro',
   title: 'Mood and voice as relations of construction',
-  body: `<p>“The storm damaged the bridge” and “The bridge was damaged by the storm” report the same event, but the change of voice changes which word is the subject and how the cause is expressed. So mood and voice, which we studied in Section III as accidents of the verb, are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another. The voice of a verb decides which word is its subject and how the doer of the action is expressed. The mood of a verb often shows whether its clause is independent or dependent, and what kind of dependent clause it is.</p>
-<p>Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged (<i>Institutiones grammaticae</i> XVIII). We will study the passive and its agent, the infinitive and the participle in construction, and the subjunctive in independent and dependent clauses.</p>`,
+  body: `<p>“The storm damaged the bridge” and “The bridge was damaged by the storm” report the same event, but the change of voice changes which word is the subject and how the cause is expressed. So mood and voice, which we studied in Section III as accidents of the verb, are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another. The voice of a verb decides which word is its subject and how the doer of the action is expressed. The mood of a verb often shows whether its clause is independent or dependent, and what kind of subordinate clause it is.</p>
+<p>Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged (<i>Institutiones grammaticae</i> XVIII). We will study the passive and its agent, the infinitive and the participle in construction, and the subjunctive in independent and subordinate clauses.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> XVIII, in paraphrase.` },
 
 { id: 'agent',
@@ -110,7 +110,7 @@ ARS.decks['v.mood'] = {
 
 { id: 'participle',
   title: 'The participle in construction',
-  body: `<p><i>Hostēs castra capta dīripuērunt</i>, literally “the enemy plundered the captured camp,” is often best rendered “the enemy captured the camp and plundered it,” or “after capturing the camp, the enemy plundered it.” So Latin uses a participle where English often uses a dependent clause or a second verb. The participle, as we saw in Section III, shows time relative to the main verb, and the ablative absolute stands apart from the construction of the main clause.</p>
+  body: `<p><i>Hostēs castra capta dīripuērunt</i>, literally “the enemy plundered the captured camp,” is often best rendered “the enemy captured the camp and plundered it,” or “after capturing the camp, the enemy plundered it.” So Latin uses a participle where English often uses a subordinate clause or a second verb. The participle, as we saw in Section III, shows time relative to the main verb, and the ablative absolute stands apart from the construction of the main clause.</p>
 <p>The participle can thus take the place of a temporal, causal, conditional, or concessive clause, and the sense decides which. <i>Rēx, perīculum timēns, fūgit</i>, “the king, fearing danger, fled,” may mean “because he feared danger.” So a single Latin participle often contains a relation between two actions that English must express with a conjunction, and the reader must supply the conjunction from the sense.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 496, in paraphrase.` },
 
@@ -142,20 +142,20 @@ ARS.decks['v.mood'] = {
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 439–447.` },
 
 { id: 'dependent-subjunctive',
-  title: 'The subjunctive in dependent clauses and the sequence of tenses',
-  body: `<p>In <i>cum rēx mīlitēs vocāret, vēnērunt</i>, “when the king called the soldiers, they came,” the verb of the clause with <i>cum</i> is in the subjunctive, as are the verbs of clauses of purpose and result and of indirect questions, as we have seen. In such clauses the tense of the subjunctive depends on the tense of the main verb, according to a rule called the <strong>sequence of tenses</strong>. After a present or future main verb, the dependent clause has the present (or perfect) subjunctive; after a past main verb, it has the imperfect (or pluperfect) subjunctive.</p>
+  title: 'The subjunctive in subordinate clauses and the sequence of tenses',
+  body: `<p>In <i>cum rēx mīlitēs vocāret, vēnērunt</i>, “when the king called the soldiers, they came,” the verb of the clause with <i>cum</i> is in the subjunctive, as are the verbs of clauses of purpose and result and of indirect questions, as we have seen. In such clauses the tense of the subjunctive depends on the tense of the main verb, according to a rule called the <strong>sequence of tenses</strong>. After a present or future main verb, the subordinate clause has the present (or perfect) subjunctive; after a past main verb, it has the imperfect (or pluperfect) subjunctive.</p>
 <p>So <i>pater fīlium mittit ut rēgem videat</i>, “the father sends his son so that he may see the king,” has the present subjunctive after the present <i>mittit</i>; and <i>pater fīlium mīsit ut rēgem vidēret</i>, “the father sent his son so that he might see the king,” has the imperfect after the perfect <i>mīsit</i>. English shows a similar sequence in “may” and “might.” The tense of the dependent verb therefore depends on the main verb, as its mood depends on the kind of clause.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 482–485, 546.`,
   qp: { id: 'q-dependent-subjunctive', variants: [
     { prompt: `In Latin <i>dux mīlitēs mīsit ut pontem dēfenderent</i> (“the general sent the soldiers to defend the bridge”), why is <i>dēfenderent</i> imperfect?`,
       options: [`Because the main verb is past`, `Because the defending was never finished`, `Because it is a result clause`, `Because <i>ut</i> always takes the imperfect`],
       answer: 0,
-      explain: `By the sequence of tenses, a past main verb, here the perfect <i>mīsit</i>, takes the imperfect subjunctive in the dependent clause.` },
+      explain: `By the sequence of tenses, a past main verb, here the perfect <i>mīsit</i>, takes the imperfect subjunctive in the subordinate clause.` },
     { prompt: `Which tense of the subjunctive follows a present main verb in a Latin purpose clause?`,
       options: [`The imperfect`, `The present`, `The pluperfect`, `The future`],
       answer: 1,
-      explain: `After a present or future main verb, the dependent clause has the present (or perfect) subjunctive, as in <i>mittit ut videat</i>.` },
-    { prompt: `In Latin <i>rogat quid faciās</i> (“he asks what you are doing”), what kind of dependent clause is <i>quid faciās</i>?`,
+      explain: `After a present or future main verb, the subordinate clause has the present (or perfect) subjunctive, as in <i>mittit ut videat</i>.` },
+    { prompt: `In Latin <i>rogat quid faciās</i> (“he asks what you are doing”), what kind of subordinate clause is <i>quid faciās</i>?`,
       options: [`A purpose clause`, `A result clause`, `An indirect question`, `A relative clause`],
       answer: 2,
       explain: `<i>Quid faciās</i> reports a question after the verb of asking <i>rogat</i>, so it is an indirect question, with its verb in the subjunctive.` }

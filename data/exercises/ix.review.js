@@ -100,7 +100,7 @@ ARS.exercises['ix.review'] = {
     "It is in the past tense"
    ],
    "answer": 1,
-   "explain": "“Lifted” is the verb of the independent clause, and the dependent clause “When the bell rang” and the other words depend on it. “Rang” comes first in the sentence but belongs to the dependent clause."
+   "explain": "“Lifted” is the verb of the independent clause, and the subordinate clause “When the bell rang” and the other words depend on it. “Rang” comes first in the sentence but belongs to the subordinate clause."
   },
   {
    "id": "rix-A05",

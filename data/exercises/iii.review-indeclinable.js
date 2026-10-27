@@ -210,7 +210,7 @@ ARS.exercises['iii.review-indeclinable'] = {
     "Subordinating"
    ],
    "answer": 3,
-   "explain": "“Because” joins the dependent clause “because it was snowing,” which cannot stand by itself, to the clause on which it depends, so it is a subordinating conjunction."
+   "explain": "“Because” joins the subordinate clause “because it was snowing,” which cannot stand by itself, to the clause on which it depends, so it is a subordinating conjunction."
   },
   {
    "id": "ri-A12",
@@ -630,7 +630,7 @@ ARS.exercises['iii.review-indeclinable'] = {
     "“or”"
    ],
    "answer": 0,
-   "explain": "“Although” joins a dependent clause to the clause on which it depends. “And,” “but,” and “or” are coordinating conjunctions, which join words or clauses of equal rank."
+   "explain": "“Although” joins a subordinate clause to the clause on which it depends. “And,” “but,” and “or” are coordinating conjunctions, which join words or clauses of equal rank."
   },
   {
    "id": "ri-C10",
@@ -675,7 +675,7 @@ ARS.exercises['iii.review-indeclinable'] = {
     "A relative pronoun"
    ],
    "answer": 2,
-   "explain": "“When” joins the dependent clause “when the kettle boils” to the main clause and tells the time, so it is a subordinating conjunction. It asks no question here."
+   "explain": "“When” joins the subordinate clause “when the kettle boils” to the main clause and tells the time, so it is a subordinating conjunction. It asks no question here."
   },
   {
    "id": "ri-C13",

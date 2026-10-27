@@ -9,7 +9,7 @@ ARS.decks["lang.ii.en/punctuation"] = {
   {
    "id": "comma",
    "title": "The comma between clauses and after an opening clause",
-   "body": "<p>English joins two independent clauses, each of which could stand as a sentence, in one of three ways: with a comma and a coordinating conjunction (“and,” “but,” “or,” “nor,” “for,” “so,” “yet”), with a semicolon, or by making them two sentences. So we write “The train was late, but the meeting began on time,” or “The train was late; the meeting began on time.” Two independent clauses joined by a comma alone, as in “The train was late, the meeting began on time,” make an error that the handbooks call a comma splice. Two clauses run together with no mark at all make a run-on sentence (also called a fused sentence).</p>\n<p>A dependent clause or a long phrase placed before the main clause is usually followed by a comma, which shows where the main clause begins: “Although the hall was full, nobody spoke.” “After a long and difficult winter, the farmers planted early.” When the dependent clause follows the main clause, no comma is needed unless the clause adds a contrast: “Nobody spoke because the hall was full.”</p>",
+   "body": "<p>English joins two independent clauses, each of which could stand as a sentence, in one of three ways: with a comma and a coordinating conjunction (“and,” “but,” “or,” “nor,” “for,” “so,” “yet”), with a semicolon, or by making them two sentences. So we write “The train was late, but the meeting began on time,” or “The train was late; the meeting began on time.” Two independent clauses joined by a comma alone, as in “The train was late, the meeting began on time,” make an error that the handbooks call a comma splice. Two clauses run together with no mark at all make a run-on sentence (also called a fused sentence).</p>\n<p>A subordinate clause or a long phrase placed before the main clause is usually followed by a comma, which shows where the main clause begins: “Although the hall was full, nobody spoke.” “After a long and difficult winter, the farmers planted early.” When the subordinate clause follows the main clause, no comma is needed unless the clause adds a contrast: “Nobody spoke because the hall was full.”</p>",
    "qp": {
     "id": "q-en-punct-comma",
     "variants": [
@@ -44,7 +44,7 @@ ARS.decks["lang.ii.en/punctuation"] = {
        "After “rises”"
       ],
       "answer": 3,
-      "explain": "The comma follows the opening dependent clause and shows where the main clause begins."
+      "explain": "The comma follows the opening subordinate clause and shows where the main clause begins."
      }
     ]
    }

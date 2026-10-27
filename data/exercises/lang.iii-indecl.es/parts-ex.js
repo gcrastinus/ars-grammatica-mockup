@@ -256,7 +256,7 @@ ARS.exercises["lang.iii-indecl.es/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <i lang=\"es\">Dijo <b>que</b> vendría.</i> (“He said that he would come.”)",
-   "explain": "<i lang=\"es\">Que</i> introduces the dependent clause.",
+   "explain": "<i lang=\"es\">Que</i> introduces the subordinate clause.",
    "options": [
     "conjunction",
     "adverb",

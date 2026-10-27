@@ -43,7 +43,7 @@ ARS.decks['v.order'] = {
     `Languages in which the verb comes before the object usually have prepositions, and languages in which the verb comes after the object usually have <strong>postpositions</strong>, placed after the noun.`,
     `Greenberg stated such regularities as universals, for example that languages whose usual order is VSO always have prepositions.`,
     `Latin is mixed, with a usual SOV order but prepositions and a few postpositions in fixed phrases, so the facts of order come in bundles, but the bundles are tendencies, not rules without exception.`,
-    `In a German main clause the finite verb stands in the second place, whatever comes first, but in a dependent clause it goes to the end, so German order distinguishes main and dependent clauses.`,
+    `In a German main clause the finite verb stands in the second place, whatever comes first, but in a subordinate clause it goes to the end, so German order distinguishes main and subordinate clauses.`,
     `French usually has SVO order, but a pronoun object stands before the verb, so French order depends on the part of speech of the object.`,
     `In each language the order of words is a part of its grammar, and it must be learned as the endings of Latin must be learned.`,
     `In English order shows the construction, so a change of order is a change of meaning; in Latin the endings show the construction, so order can give emphasis, separate words for effect, and follow the rhythm of the sentence.`,
@@ -180,7 +180,7 @@ ARS.decks['v.order'] = {
 
 { id: 'german-french',
   title: 'Order in German and French',
-  body: `<p>German and French show two other ways in which order carries construction. In a German main clause the finite verb stands in the second place, whatever comes first: <i>Ich lese heute das Buch</i> (“I am reading the book today”) and <i>Heute lese ich das Buch</i> (“Today I am reading the book”). But in a dependent clause the finite verb goes to the end: <i>Ich weiß, dass er heute das Buch liest</i> (“I know that he is reading the book today”). So German order distinguishes main and dependent clauses.</p>
+  body: `<p>German and French show two other ways in which order carries construction. In a German main clause the finite verb stands in the second place, whatever comes first: <i>Ich lese heute das Buch</i> (“I am reading the book today”) and <i>Heute lese ich das Buch</i> (“Today I am reading the book”). But in a subordinate clause the finite verb goes to the end: <i>Ich weiß, dass er heute das Buch liest</i> (“I know that he is reading the book today”). So German order distinguishes main and subordinate clauses.</p>
 <p>French usually has SVO order like English, but a pronoun object stands before the verb: <i>Je vois le livre</i> (“I see the book”), but <i>Je le vois</i> (“I see it”). So the order in French depends on the part of speech of the object. In each language the order of words is a part of its grammar, and it must be learned as the endings of Latin must be learned.</p>`,
   src: `Duden, <i>Die Grammatik</i>; standard French grammars; both in paraphrase.` },
 

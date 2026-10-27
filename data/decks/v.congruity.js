@@ -26,7 +26,7 @@ ARS.decks['v.congruity'] = {
     `A construction is <strong>complete</strong> when it produces a complete sense in the mind of the hearer, so that the hearer has been told something and waits for nothing more.`,
     `A construction can be congruous but incomplete (“the old bridge”), or congruous and complete, as a sentence is.`,
     `Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so.`,
-    `A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a dependent clause can be well formed and still not be complete by itself.`,
+    `A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a subordinate clause can be well formed and still not be complete by itself.`,
     `Of any group of words we may make one of three judgments: incongruous (the parts do not fit with one another, so the construction fails); congruous but incomplete (the parts fit, but the sense is not yet complete); and congruous and complete.`,
     `Incongruity is a failure of fit and incompleteness is a failure to finish, so they are two different ways in which a group of words can fall short of a sentence.`,
     `An incongruous construction is a solecism, an error in the arrangement of words, whereas an incomplete construction is not an error at all if it is used as a part of a larger sentence.`,
@@ -86,7 +86,7 @@ ARS.decks['v.congruity'] = {
 { id: 'completeness',
   title: 'Completeness',
   body: `<p>When someone says “the old bridge” and stops, the hearer waits for something more; when someone says “The old bridge stands,” the hearer has been told something and waits for nothing. A construction is <strong>complete</strong> when it produces a complete sense in the mind of the hearer in this way. So “the old bridge” is congruous but incomplete, whereas “The old bridge stands” is congruous and complete. Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so (<i>Grammatica speculativa</i>, on completeness).</p>
-<p>A construction can have a subject and a verb and still be incomplete. “If the guard sleeps” is congruous, but the word “if” leaves the sense unfinished, because the hearer expects something to follow. Latin <i>sī custōs dormit</i> is incomplete for the same reason. So a dependent clause can be well formed and still not be complete by itself, a point we will consider again with the clause, later in this section of the course.</p>`,
+<p>A construction can have a subject and a verb and still be incomplete. “If the guard sleeps” is congruous, but the word “if” leaves the sense unfinished, because the hearer expects something to follow. Latin <i>sī custōs dormit</i> is incomplete for the same reason. So a subordinate clause can be well formed and still not be complete by itself, a point we will consider again with the clause, later in this section of the course.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i>, on completeness (Bursill-Hall), in paraphrase.`,
   qp: { id: 'q-completeness', variants: [
     { prompt: `Is “the white horse” complete?`,

@@ -48,7 +48,7 @@ ARS.exercises["lang.iii-indecl.en/usage-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "What is the marked word? “We left early <b>because</b> it was late.”",
-   "explain": "“Because” joins the dependent clause “it was late” and gives the reason.",
+   "explain": "“Because” joins the subordinate clause “it was late” and gives the reason.",
    "options": [
     "A coordinating conjunction",
     "A preposition, before its object",
@@ -128,7 +128,7 @@ ARS.exercises["lang.iii-indecl.en/usage-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which word is a coordinating conjunction?",
-   "explain": "“Nor” joins elements of equal rank; the others introduce dependent clauses.",
+   "explain": "“Nor” joins elements of equal rank; the others introduce subordinate clauses.",
    "options": [
     "“since”",
     "“unless”",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.en/usage-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "What is the marked word? “I will go <b>unless</b> it snows.”",
-   "explain": "“Unless” introduces the dependent clause of condition.",
+   "explain": "“Unless” introduces the subordinate clause of condition.",
    "options": [
     "A coordinating conjunction",
     "A subordinating conjunction",

@@ -178,7 +178,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Although the night was dark.”",
-   "explain": "“Although” opens a concessive clause, a dependent clause. Nothing follows to say what was done although the night was dark. A concessive clause cannot stand as the whole sentence.",
+   "explain": "“Although” opens a concessive clause, a subordinate clause. Nothing follows to say what was done although the night was dark. A concessive clause cannot stand as the whole sentence.",
    "options": [
     "A sentence fragment",
     "A run-on sentence",
@@ -273,7 +273,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
     "A error in the spelling or form of one word",
     "Two clauses joined by a comma alone",
     "A modifier whose noun is missing",
-    "A dependent clause written as a whole sentence"
+    "A subordinate clause written as a whole sentence"
    ],
    "answer": 0
   },
@@ -428,7 +428,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “Because the road was icy.”",
-   "explain": "“Because” opens a dependent clause, and nothing is written for it to depend on. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
+   "explain": "“Because” opens a subordinate clause, and nothing is written for it to depend on. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
    "options": [
     "A sentence fragment",
     "A run-on sentence",
@@ -500,7 +500,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which of these does the sentence show? “After the rain had stopped.”",
-   "explain": "“After” opens a dependent clause of time. The sentence never says what followed the rain. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
+   "explain": "“After” opens a subordinate clause of time. The sentence never says what followed the rain. A fragment does not finish the sentence. The words may be ordinary. The error is that the sense is not complete.",
    "options": [
     "A sentence fragment",
     "A run-on sentence",

@@ -336,7 +336,7 @@ ARS.exercises['iii.ex.verb-1'] = {
     "Three, adding the conditional"
    ],
    "answer": 0,
-   "explain": "Modern grammars count one mood, the subjunctive, which expresses wishes, commands, possibilities, and many kinds of dependent clause. Donatus kept the Greek distinction because Greek has separate optative forms.",
+   "explain": "Modern grammars count one mood, the subjunctive, which expresses wishes, commands, possibilities, and many kinds of subordinate clause. Donatus kept the Greek distinction because Greek has separate optative forms.",
    "level": 1
   },
   {

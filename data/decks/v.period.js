@@ -27,7 +27,7 @@ ARS.decks['v.period'] = {
     `Aristotle insists that the period must be completed with the sense and not stop short, because a pause where the words seem complete leads the hearer to take the first part as complete.`,
     `So the period joins the two conditions of a good construction: every member must be congruous, and the whole must be complete, but the completeness is deliberately withheld until the last member.`,
     `This is why a Latin period often places its main verb last, since the verb completes the construction and the sense at the same moment.`,
-    `The first half of a period, which the rhetoricians call the <strong>protasis</strong> (Greek, “stretching forward”), may contain several dependent clauses, such as conditions.`,
+    `The first half of a period, which the rhetoricians call the <strong>protasis</strong> (Greek, “stretching forward”), may contain several subordinate clauses, such as conditions.`,
     `The second half, the <strong>apodosis</strong> (Greek, “giving back”), is the main clause.`,
     `The sense is held in suspense through the protasis, because the hearer does not know what follows until the main clause, whose verb may stand last.`,
     `So the analysis of a period applies all the doctrine of construction: the clauses and their dependences, agreement and government within each, and the order that holds the main verb to the end.`,

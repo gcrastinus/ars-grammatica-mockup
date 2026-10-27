@@ -156,7 +156,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "options": [
     "It is a yes-or-no question",
     "It is an imperative",
-    "It is a dependent clause",
+    "It is a subordinate clause",
     "The subject is left out"
    ],
    "answer": 0,
@@ -207,7 +207,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "options": [
     "Something else stands first",
     "It is a question",
-    "It is a dependent clause",
+    "It is a subordinate clause",
     "It is an imperative"
    ],
    "answer": 0,
@@ -339,7 +339,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Why does <em lang=\"de\">gab</em> stand last?",
-   "explain": "Verb last marks the dependent clause, and the rhyme with <em lang=\"de\">Grab</em> falls there too.",
+   "explain": "Verb last marks the subordinate clause, and the rhyme with <em lang=\"de\">Grab</em> falls there too.",
    "options": [
     "It closes the relative clause",
     "For the rhyme only",
@@ -373,7 +373,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"de\">stillest</em> is at the end of its line because…",
-   "explain": "Dependent clauses put the finite verb last.",
+   "explain": "Subordinate clauses put the finite verb last.",
    "options": [
     "It is the verb of a relative clause",
     "It is an infinitive",

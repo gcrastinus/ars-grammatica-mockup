@@ -45,7 +45,7 @@ ARS.exercises['ix.ex.passages'] = {
     "After “Though”"
    ],
    "answer": 1,
-   "explain": "The verse is one sentence whose “Though” clause runs to “charity”; the main clause, “I am become as sounding brass,” begins after it. The strongest pause falls where the dependent clause ends and the main clause begins.",
+   "explain": "The verse is one sentence whose “Though” clause runs to “charity”; the main clause, “I am become as sounding brass,” begins after it. The strongest pause falls where the subordinate clause ends and the main clause begins.",
    "task": "reading",
    "lang": "en",
    "passage": "<sup>13:1</sup> Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal. <sup>13:2</sup> And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing. <sup>13:3</sup> And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing. <sup>13:4</sup> Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, <sup>13:5</sup> Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; <sup>13:6</sup> Rejoiceth not in iniquity, but rejoiceth in the truth; <sup>13:7</sup> Beareth all things, believeth all things, hopeth all things, endureth all things.",
@@ -254,7 +254,7 @@ ARS.exercises['ix.ex.passages'] = {
     "At “in your prayers”"
    ],
    "answer": 0,
-   "explain": "“To His care commending you” is a participial phrase, and “as I hope in your prayers you will commend me” is a dependent clause. The main clause is “I bid you an affectionate farewell.”",
+   "explain": "“To His care commending you” is a participial phrase, and “as I hope in your prayers you will commend me” is a subordinate clause. The main clause is “I bid you an affectionate farewell.”",
    "task": "reading",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
@@ -1195,7 +1195,7 @@ ARS.exercises['ix.ex.passages'] = {
     "At “to which the Laws”"
    ],
    "answer": 1,
-   "explain": "“When … entitle them” is a long dependent clause; the main clause is “a decent respect to the opinions of mankind requires that they should declare the causes.”",
+   "explain": "“When … entitle them” is a long subordinate clause; the main clause is “a decent respect to the opinions of mankind requires that they should declare the causes.”",
    "task": "reading",
    "lang": "en",
    "passage": "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.",
@@ -1268,10 +1268,10 @@ ARS.exercises['ix.ex.passages'] = {
     "It is short and complete",
     "The sense is held to the end",
     "It ends with a question",
-    "It has no dependent clauses"
+    "It has no subordinate clauses"
    ],
    "answer": 1,
-   "explain": "The long dependent clause is held in suspense until the main clause completes the sense at the end, as a period does.",
+   "explain": "The long subordinate clause is held in suspense until the main clause completes the sense at the end, as a period does.",
    "task": "judging",
    "lang": "en",
    "passage": "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the Powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.",

@@ -544,7 +544,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "In the diagram of “We left when the bell rang.”, what is written on the dotted line?",
-   "explain": "The connecting word of a dependent clause is written on the dotted line.",
+   "explain": "The connecting word of a subordinate clause is written on the dotted line.",
    "options": [
     "“rang”",
     "“bell”",
@@ -672,7 +672,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "In the diagram of “She smiled as the music began.”, what does the lower base hold?",
-   "explain": "The dependent clause has its own subject and finite verb, and they stand on the lower base with their own crossing line.",
+   "explain": "The subordinate clause has its own subject and finite verb, and they stand on the lower base with their own crossing line.",
    "options": [
     "“as the music,” as a phrase",
     "“smiled,” repeated",

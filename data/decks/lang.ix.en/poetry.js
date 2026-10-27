@@ -324,7 +324,7 @@ ARS.decks["lang.ix.en/poetry"] = {
   {
    "id": "poetry-26",
    "title": "A clause of time",
-   "body": "<p>“When all at once I saw a crowd”: “When” begins a dependent clause, and “a crowd” is the object of “saw.”</p>"
+   "body": "<p>“When all at once I saw a crowd”: “When” begins a subordinate clause, and “a crowd” is the object of “saw.”</p>"
   },
   {
    "id": "poetry-27",

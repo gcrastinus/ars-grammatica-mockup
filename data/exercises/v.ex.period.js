@@ -146,7 +146,7 @@ ARS.exercises['v.ex.period'] = {
     "After the storm had passed, we left the city.",
     "After the storm had passed we left the city."
    ],
-   "explain": "Moving the dependent clause to the front holds the sense in suspense until the main clause, “we left the city,” completes it.",
+   "explain": "Moving the subordinate clause to the front holds the sense in suspense until the main clause, “we left the city,” completes it.",
    "level": 2
   },
   {
@@ -284,7 +284,7 @@ ARS.exercises['v.ex.period'] = {
     "Because the river had flooded, the army retreated.",
     "Because the river had flooded the army retreated."
    ],
-   "explain": "With the dependent clause first, the sense waits for “the army retreated,” which completes it.",
+   "explain": "With the subordinate clause first, the sense waits for “the army retreated,” which completes it.",
    "level": 2
   },
   {
@@ -294,7 +294,7 @@ ARS.exercises['v.ex.period'] = {
    "type": "mc",
    "prompt": "Why is a long English period often harder to follow than a Latin one?",
    "options": [
-    "English has no dependent clauses",
+    "English has no subordinate clauses",
     "English sentences cannot be long",
     "English lacks endings to show the construction",
     "English has no way to subordinate one clause to another"
@@ -361,7 +361,7 @@ ARS.exercises['v.ex.period'] = {
     0,
     1
    ],
-   "explain": "In each period the dependent clauses that hold the sense in suspense make the protasis, and the main clause that completes it is the apodosis.",
+   "explain": "In each period the subordinate clauses that hold the sense in suspense make the protasis, and the main clause that completes it is the apodosis.",
    "level": 1
   },
   {
@@ -379,7 +379,7 @@ ARS.exercises['v.ex.period'] = {
     "<i>rediit</i>"
    ],
    "answer": 5,
-   "explain": "<i>Postquam</i> and <i>quī</i> introduce dependent clauses, and <i>rediit</i>, the verb of <i>victor</i>, stands last and completes the period.",
+   "explain": "<i>Postquam</i> and <i>quī</i> introduce subordinate clauses, and <i>rediit</i>, the verb of <i>victor</i>, stands last and completes the period.",
    "level": 2
   },
   {
@@ -585,7 +585,7 @@ ARS.exercises['v.ex.period'] = {
     "Periodic: the main verb is “Brought”"
    ],
    "answer": 0,
-   "explain": "Everything before “Sing” depends on it, so the sense is held in suspense until the main verb arrives. “Brought” belongs to a dependent clause.",
+   "explain": "Everything before “Sing” depends on it, so the sense is held in suspense until the main verb arrives. “Brought” belongs to a subordinate clause.",
    "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost)"
   },
   {

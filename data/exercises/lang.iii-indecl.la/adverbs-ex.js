@@ -200,7 +200,7 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which conjunction is subordinating?",
-   "explain": "<em lang=\"la\">Quamquam</em> (“although”) introduces a dependent clause.",
+   "explain": "<em lang=\"la\">Quamquam</em> (“although”) introduces a subordinate clause.",
    "options": [
     "<em lang=\"la\">atque</em>",
     "<em lang=\"la\">sed</em>",

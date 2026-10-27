@@ -19,7 +19,7 @@ ARS.decks['iii.conjunction'] = {
     `So the power of a conjunction is the logical relation it signifies between the things it joins, and the reader who knows that relation understands how the thought proceeds.`,
     `Modern grammars divide the conjunctions by the kind of joining rather than by its meaning.`,
     `<strong>Coordinating</strong> conjunctions join words or clauses of equal rank, so that neither depends on the other, and each clause could stand as a sentence by itself.`,
-    `<strong>Subordinating</strong> conjunctions join a dependent clause to the clause on which it depends, and the dependent clause cannot stand by itself.`,
+    `<strong>Subordinating</strong> conjunctions join a subordinate clause to the clause on which it depends, and the subordinate clause cannot stand by itself.`,
     `The two divisions do not conflict: a causal conjunction in Donatus’s sense, such as “if,” is a subordinating conjunction in the modern sense.`,
     `Conjunctions differ in their position, and Donatus calls this accident <strong>order</strong>: some are placed before the word they join, some after it, and some either way.`,
     `Latin conjunctions placed after the first word of their clause are called <strong>postpositive</strong>, and English has a few words that behave in a similar way (“however”).`,
@@ -65,7 +65,7 @@ ARS.decks['iii.conjunction'] = {
 { id: 'coordinating',
   title: 'Coordinating and subordinating conjunctions',
   body: `<p>Modern grammars divide the conjunctions differently, by the kind of joining rather than by its meaning. <strong>Coordinating</strong> conjunctions join words or clauses of equal rank, so that neither depends on the other: “and,” “but,” “or,” “nor,” Latin <i>et</i>, <i>sed</i>, <i>aut</i>. In “The snow melted, and the river rose,” each clause could stand as a sentence by itself.</p>
-<p><strong>Subordinating</strong> conjunctions join a dependent clause to the clause on which it depends: “because,” “if,” “when,” “although,” “that,” Latin <i>quia</i>, <i>sī</i>, <i>cum</i>, <i>ut</i>. In “The river rose because the snow melted,” the clause “because the snow melted” cannot stand by itself; it tells why the river rose. The two divisions do not conflict: a causal conjunction in Donatus’s sense, such as “if,” is a subordinating conjunction in the modern sense. We will study the joining of clauses in Section V.</p>`,
+<p><strong>Subordinating</strong> conjunctions join a subordinate clause to the clause on which it depends: “because,” “if,” “when,” “although,” “that,” Latin <i>quia</i>, <i>sī</i>, <i>cum</i>, <i>ut</i>. In “The river rose because the snow melted,” the clause “because the snow melted” cannot stand by itself; it tells why the river rose. The two divisions do not conflict: a causal conjunction in Donatus’s sense, such as “if,” is a subordinating conjunction in the modern sense. We will study the joining of clauses in Section V.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 223–224, in paraphrase.` },
 
 { id: 'order',

@@ -324,7 +324,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "prompt": "<p>“When all at once”</p> “When all at once I saw a crowd” is…",
    "explain": "“When” subordinates it to “I wandered.”",
    "options": [
-    "A dependent clause of time",
+    "A subordinate clause of time",
     "The main clause",
     "A relative clause describing “a crowd”",
     "An indirect question"
@@ -665,7 +665,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "explain": "“Though” governs only “much is taken.”",
    "options": [
     "The main clause",
-    "A dependent clause",
+    "A subordinate clause",
     "A relative clause",
     "An infinitive phrase"
    ],
@@ -701,7 +701,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
     "Placed first for emphasis",
     "The subject of “are”",
     "A question",
-    "A dependent clause of time"
+    "A subordinate clause of time"
    ],
    "answer": 0,
    "passageRef": "poetry-51"

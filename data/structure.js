@@ -89,7 +89,7 @@ ARS.structure = [
    { id:'v.dependence', kind:'study-ex', built:true, title:'Dependence', desc:'The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>).' },
    { id:'v.order', kind:'study-ex', built:true, title:'Order (<i>ordo</i>)', desc:'Natural and artificial order, word order in English and in Latin, and the basic orders that typology classifies.' },
    { id:'v.phrase', kind:'study-ex', built:true, title:'The Phrase', desc:'Groups of words that act as one part of speech.' },
-   { id:'v.clause', kind:'study-ex', built:true, title:'The Clause', desc:'Subject and predicate, and independent and dependent clauses.' },
+   { id:'v.clause', kind:'study-ex', built:true, title:'The Clause', desc:'Subject and predicate, and independent and subordinate clauses.' },
    { id:'v.period', kind:'study-ex', built:true, title:'The Period', desc:'The sentence of many members.' },
    { id:'v.mood', kind:'study-ex', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.' },
    { id:'v.figures', kind:'study-ex', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },

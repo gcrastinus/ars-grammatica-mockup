@@ -208,7 +208,7 @@ ARS.exercises["lang.v.es/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which verb form completes <i lang=\"es\">Mi hermano suponía que el examen ___ difícil</i> (“My brother supposed that the exam would be difficult”)?",
-   "explain": "The main verb is in the past, so the future of the dependent clause becomes the conditional.",
+   "explain": "The main verb is in the past, so the future of the subordinate clause becomes the conditional.",
    "options": [
     "<i lang=\"es\">será</i>",
     "<i lang=\"es\">fue</i>",

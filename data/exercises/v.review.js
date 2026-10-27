@@ -226,7 +226,7 @@ ARS.exercises['v.review'] = {
     "“The game was postponed because the field was flooded.”"
    ],
    "answer": 3,
-   "explain": "A complex sentence has a main clause and at least one dependent clause; here “because the field was flooded” depends on the main clause. The first distractor joins two independent clauses, so it is compound; the others are simple sentences."
+   "explain": "A complex sentence has a main clause and at least one subordinate clause; here “because the field was flooded” depends on the main clause. The first distractor joins two independent clauses, so it is compound; the others are simple sentences."
   },
   {
    "id": "rv-A11",

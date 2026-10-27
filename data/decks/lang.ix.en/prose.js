@@ -52,7 +52,7 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-2",
    "title": "A clause of time, held first",
-   "body": "<p>“When in the Course of human events, it becomes necessary”: The sentence opens with a dependent clause introduced by “when.” Its subject, “it,” looks forward to the infinitives that follow: it becomes necessary to dissolve and to assume. The main clause does not come until much later.</p>"
+   "body": "<p>“When in the Course of human events, it becomes necessary”: The sentence opens with a subordinate clause introduced by “when.” Its subject, “it,” looks forward to the infinitives that follow: it becomes necessary to dissolve and to assume. The main clause does not come until much later.</p>"
   },
   {
    "id": "prose-3",
@@ -208,7 +208,7 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-18",
    "title": "A clause of time",
-   "body": "<p>“since I waited in your outward rooms, or was repulsed from your door”: “Since” begins a dependent clause of time, with two verbs joined by “or”: I waited, or was repulsed.</p>"
+   "body": "<p>“since I waited in your outward rooms, or was repulsed from your door”: “Since” begins a subordinate clause of time, with two verbs joined by “or”: I waited, or was repulsed.</p>"
   },
   {
    "id": "prose-19",
@@ -281,7 +281,7 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-25",
    "title": "The main clause and a clause of time",
-   "body": "<p>“It is now sixteen or seventeen years since I saw the queen of France”: “It is now sixteen or seventeen years” is the main clause, and “since I saw the queen of France” is a dependent clause of time.</p>"
+   "body": "<p>“It is now sixteen or seventeen years since I saw the queen of France”: “It is now sixteen or seventeen years” is the main clause, and “since I saw the queen of France” is a subordinate clause of time.</p>"
   },
   {
    "id": "prose-26",
@@ -520,7 +520,7 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-50",
    "title": "A clause of time",
-   "body": "<p>“when he had by himself purged our sins”: “When” introduces a dependent clause in the past perfect: the purging came first.</p>"
+   "body": "<p>“when he had by himself purged our sins”: “When” introduces a subordinate clause in the past perfect: the purging came first.</p>"
   },
   {
    "id": "prose-51",
@@ -724,7 +724,7 @@ ARS.decks["lang.ix.en/prose"] = {
   {
    "id": "prose-68",
    "title": "A clause of manner",
-   "body": "<p>“as God gives us to see the right”: “As” introduces a dependent clause that limits “firmness in the right”: as far as God lets us see it.</p>"
+   "body": "<p>“as God gives us to see the right”: “As” introduces a subordinate clause that limits “firmness in the right”: as far as God lets us see it.</p>"
   },
   {
    "id": "prose-69",

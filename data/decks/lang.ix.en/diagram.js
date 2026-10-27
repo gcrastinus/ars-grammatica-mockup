@@ -180,7 +180,7 @@ ARS.decks["lang.ix.en/diagram"] = {
   },
   {
    "id": "diagram-5",
-   "title": "One dependent clause",
+   "title": "One subordinate clause",
    "body": "<p>An adverb clause or an adjective clause is drawn on a <strong>lower base</strong> (a lower main line), and a dotted line joins it to the word it depends on, with the connecting word written on that dotted line. An adverb clause hangs from the verb, and an adjective clause hangs from the noun. A period as long as one of Gibbon’s can be diagrammed, but then the diagram is too complicated to help.</p>\n<p><svg class=\"rk\" width=\"209\" viewBox=\"0 0 155 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Birds sing when dawn comes\"><line x1=\"18.0\" y1=\"48.0\" x2=\"127.0\" y2=\"48.0\"/><line x1=\"78.0\" y1=\"22.0\" x2=\"78.0\" y2=\"62.0\"/><line x1=\"102.5\" y1=\"48.0\" x2=\"26.0\" y2=\"130.0\" stroke-dasharray=\"3 3\"/><line x1=\"18.0\" y1=\"130.0\" x2=\"132.0\" y2=\"130.0\"/><line x1=\"67.0\" y1=\"108.0\" x2=\"67.0\" y2=\"142.0\"/><text x=\"48.0\" y=\"40.0\" text-anchor=\"middle\">Birds</text><text x=\"102.5\" y=\"40.0\" text-anchor=\"middle\">sing</text><text x=\"72.3\" y=\"83.0\" text-anchor=\"middle\">when</text><text x=\"42.5\" y=\"122.0\" text-anchor=\"middle\">dawn</text><text x=\"95.5\" y=\"122.0\" text-anchor=\"middle\">comes</text></svg></p>\n<p>A noun clause used as an object stands on a stilt in the object slot, above the main line. The joining word is written on the stilt.</p>\n<p><svg class=\"rk\" width=\"359\" viewBox=\"0 -49 266 121\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"I know that he came\"><line x1=\"18.0\" y1=\"48.0\" x2=\"107.0\" y2=\"48.0\"/><line x1=\"56.0\" y1=\"22.0\" x2=\"56.0\" y2=\"62.0\"/><line x1=\"107.0\" y1=\"-24.0\" x2=\"107.0\" y2=\"48.0\"/><line x1=\"107.0\" y1=\"-24.0\" x2=\"214.0\" y2=\"-24.0\"/><line x1=\"145.0\" y1=\"-46.0\" x2=\"145.0\" y2=\"-14.0\"/><text x=\"37.0\" y=\"40.0\" text-anchor=\"middle\">I</text><text x=\"80.5\" y=\"40.0\" text-anchor=\"middle\">know</text><text x=\"129.0\" y=\"12.0\" text-anchor=\"middle\">that</text><text x=\"126.0\" y=\"-32.0\" text-anchor=\"middle\">he</text><text x=\"169.5\" y=\"-32.0\" text-anchor=\"middle\">came</text></svg></p>\n<p>The lower line is a clause because it has its own subject and its own finite verb. A prepositional phrase never gets a lower base (a lower main line) of that kind, because it has no finite verb.</p>",
    "qp": {
     "id": "q-en-dg-diagram-5",
@@ -197,7 +197,7 @@ ARS.decks["lang.ix.en/diagram"] = {
       "explain": "An adverb clause hangs from the verb on a lower base."
      },
      {
-      "prompt": "Where is the connecting word of a dependent clause written?",
+      "prompt": "Where is the connecting word of a subordinate clause written?",
       "options": [
        "On the main line, before the subject of the main clause",
        "Below the clause",

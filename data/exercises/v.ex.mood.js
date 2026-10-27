@@ -301,7 +301,7 @@ ARS.exercises['v.ex.mood'] = {
     "The perfect indicative"
    ],
    "answer": 0,
-   "explain": "<i>Mīsit</i> is past, so by the sequence of tenses the dependent clause has the imperfect subjunctive: <i>mīsit ut vidēret</i>.",
+   "explain": "<i>Mīsit</i> is past, so by the sequence of tenses the subordinate clause has the imperfect subjunctive: <i>mīsit ut vidēret</i>.",
    "level": 1
   },
   {

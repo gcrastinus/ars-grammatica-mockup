@@ -103,7 +103,7 @@ ARS.decks['x.composition'] = {
       answer: 0,
       explain: `“Cold” and “damp” are adjectives, but “smelled of smoke” is a verb phrase. A parallel series has members of one kind: “cold, damp, and smoky.”` },
     { prompt: `In “not only in the city but also in the country,” what do the two members share?`,
-      options: [`Each is a dependent clause`, `Each is an adverb of place`, `Each is a noun with its article`, `Each is a prepositional phrase`],
+      options: [`Each is a subordinate clause`, `Each is an adverb of place`, `Each is a noun with its article`, `Each is a prepositional phrase`],
       answer: 3,
       explain: `The correlative pair “not only … but also” joins two members of the same construction, here two prepositional phrases, “in the city” and “in the country.”` }
   ] } },

@@ -84,9 +84,9 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"de\">dass sie durch Fragen belästigt wird</em></p> Why does <em lang=\"de\">wird</em> stand at the end?",
-   "explain": "In a dependent clause the finite verb stands last.",
+   "explain": "In a subordinate clause the finite verb stands last.",
    "options": [
-    "<em lang=\"de\">dass</em> begins a dependent clause, and the verb goes to the end",
+    "<em lang=\"de\">dass</em> begins a subordinate clause, and the verb goes to the end",
     "<em lang=\"de\">Wird</em> is always last",
     "It is a question",
     "It is an infinitive"
@@ -446,7 +446,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "The participle closes the clause",
     "It belongs to the next clause, as its first word",
     "It is an adjective",
-    "It is a dependent clause"
+    "It is a subordinate clause"
    ],
    "answer": 0,
    "passageRef": "prose-34"
@@ -492,7 +492,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"de\">verließ er</em>: why does the verb come first in its clause?",
-   "explain": "A dependent clause in front counts as the first element; the verb follows.",
+   "explain": "A subordinate clause in front counts as the first element; the verb follows.",
    "options": [
     "The <em lang=\"de\">als</em> clause holds the first place",
     "It is a question",
@@ -973,7 +973,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
     "It is a yes-or-no question",
     "It follows <em lang=\"de\">wie</em>, which sends the verb first",
     "It is a command",
-    "It is a dependent clause"
+    "It is a subordinate clause"
    ],
    "answer": 0,
    "passageRef": "prose-77"

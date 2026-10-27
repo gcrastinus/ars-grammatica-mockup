@@ -9,7 +9,7 @@ ARS.decks["lang.v.en/clause"] = {
   {
    "id": "clause-1",
    "title": "The clause, recalled",
-   "body": "<p>We have seen in Section V that a <strong>clause</strong> is a group of words with its own subject and finite verb. An <strong>independent clause</strong> can stand as a sentence, whereas a <strong>dependent</strong> (or <strong>subordinate</strong>) clause depends on another clause. A dependent clause is used as a noun, as an adjective, or as an adverb, and it is named by that use, not by the word that opens it. A sentence is <strong>simple</strong>, <strong>compound</strong>, <strong>complex</strong>, or <strong>compound-complex</strong> according to the clauses it contains.</p>",
+   "body": "<p>We have seen in Section V that a <strong>clause</strong> is a group of words with its own subject and finite verb. An <strong>independent clause</strong> can stand as a sentence, whereas a <strong>dependent</strong> (or <strong>subordinate</strong>) clause depends on another clause. A subordinate clause is used as a noun, as an adjective, or as an adverb, and it is named by that use, not by the word that opens it. A sentence is <strong>simple</strong>, <strong>compound</strong>, <strong>complex</strong>, or <strong>compound-complex</strong> according to the clauses it contains.</p>",
    "qp": {
     "id": "q-en-cls-1",
     "variants": [
@@ -33,10 +33,10 @@ ARS.decks["lang.v.en/clause"] = {
        "Compound-complex"
       ],
       "answer": 0,
-      "explain": "It has one independent clause and one dependent clause."
+      "explain": "It has one independent clause and one subordinate clause."
      },
      {
-      "prompt": "How is a dependent clause named?",
+      "prompt": "How is a subordinate clause named?",
       "options": [
        "By its first word only",
        "By its use in the sentence",
@@ -44,7 +44,7 @@ ARS.decks["lang.v.en/clause"] = {
        "By its position in the sentence"
       ],
       "answer": 1,
-      "explain": "A dependent clause is named by its use."
+      "explain": "A subordinate clause is named by its use."
      }
     ]
    }
@@ -52,7 +52,7 @@ ARS.decks["lang.v.en/clause"] = {
   {
    "id": "clause-2",
    "title": "Naming the clauses and the kind of sentence",
-   "body": "<p>To classify a sentence, we find each finite verb with its subject, count the independent clauses, and note whether any clause depends on another.</p>\n<p>“The old ferry crossed the river at dawn with a load of sheep” has one finite verb, “crossed,” so it is a simple sentence, however long it is; “at dawn” and “with a load of sheep” are phrases. In “No one knew who had built the bridge,” the clause “who had built the bridge” is the object of “knew,” so it is a noun clause, and the sentence is complex. In “The farmer whose barn burned rebuilt it in a month,” the clause “whose barn burned” tells which farmer is meant, so it is an adjective clause, and the sentence is again complex.</p>\n<p>Burke’s “That of sophisters, economists, and calculators has succeeded; and the glory of Europe is extinguished forever” has two independent clauses and no dependent clause, so it is compound. “When the music stopped, the doors opened, and the children ran out” has two independent clauses, “the doors opened” and “the children ran out,” and one adverb clause, “when the music stopped,” which tells when; so it is compound-complex.</p>",
+   "body": "<p>To classify a sentence, we find each finite verb with its subject, count the independent clauses, and note whether any clause depends on another.</p>\n<p>“The old ferry crossed the river at dawn with a load of sheep” has one finite verb, “crossed,” so it is a simple sentence, however long it is; “at dawn” and “with a load of sheep” are phrases. In “No one knew who had built the bridge,” the clause “who had built the bridge” is the object of “knew,” so it is a noun clause, and the sentence is complex. In “The farmer whose barn burned rebuilt it in a month,” the clause “whose barn burned” tells which farmer is meant, so it is an adjective clause, and the sentence is again complex.</p>\n<p>Burke’s “That of sophisters, economists, and calculators has succeeded; and the glory of Europe is extinguished forever” has two independent clauses and no subordinate clause, so it is compound. “When the music stopped, the doors opened, and the children ran out” has two independent clauses, “the doors opened” and “the children ran out,” and one adverb clause, “when the music stopped,” which tells when; so it is compound-complex.</p>",
    "qp": {
     "id": "q-en-cls-2",
     "variants": [
@@ -65,7 +65,7 @@ ARS.decks["lang.v.en/clause"] = {
        "Compound-complex"
       ],
       "answer": 2,
-      "explain": "It has two independent clauses and no dependent clause."
+      "explain": "It has two independent clauses and no subordinate clause."
      },
      {
       "prompt": "In “I know that he is honest,” what is “that he is honest”?",
@@ -130,7 +130,7 @@ ARS.decks["lang.v.en/clause"] = {
        "Complex"
       ],
       "answer": 3,
-      "explain": "It has one independent clause and one dependent relative clause."
+      "explain": "It has one independent clause and one subordinate relative clause."
      }
     ]
    }

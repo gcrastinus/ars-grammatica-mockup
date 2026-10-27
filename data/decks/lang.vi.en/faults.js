@@ -95,7 +95,7 @@ ARS.decks["lang.vi.en/faults"] = {
   {
    "id": "faults-3",
    "title": "Fragment, run-on, comma splice",
-   "body": "<p>A <strong>fragment</strong> is a group of words written as if it were a sentence, though it is not one. Usually it lacks a finite verb, or it is a dependent clause standing alone, as in “Because the bridge had washed away.” This clause depends on another, but there is no other clause for it to depend on. Priscian requires that a sentence show a complete sense, and a fragment fails that requirement; so a fragment may be congruous in its parts and still be incomplete.</p>\n<p>A <strong>run-on</strong> sentence joins two independent clauses with no mark of punctuation and no conjunction: “The fire went out the room grew cold.” A <strong>comma splice</strong> joins them with a comma alone: “The fire went out, the room grew cold.” Both are solecisms, because the clauses are not correctly joined. English requires a period, a semicolon, or a coordinating conjunction such as “and,” “but,” or “or”: “The fire went out, and the room grew cold.”</p>\n<p>A semicolon between two independent clauses is also correct, as in “The harvest was late; the barns stood empty.” The comma splice, then, is the use of a comma where a semicolon or a conjunction is needed.</p>",
+   "body": "<p>A <strong>fragment</strong> is a group of words written as if it were a sentence, though it is not one. Usually it lacks a finite verb, or it is a subordinate clause standing alone, as in “Because the bridge had washed away.” This clause depends on another, but there is no other clause for it to depend on. Priscian requires that a sentence show a complete sense, and a fragment fails that requirement; so a fragment may be congruous in its parts and still be incomplete.</p>\n<p>A <strong>run-on</strong> sentence joins two independent clauses with no mark of punctuation and no conjunction: “The fire went out the room grew cold.” A <strong>comma splice</strong> joins them with a comma alone: “The fire went out, the room grew cold.” Both are solecisms, because the clauses are not correctly joined. English requires a period, a semicolon, or a coordinating conjunction such as “and,” “but,” or “or”: “The fire went out, and the room grew cold.”</p>\n<p>A semicolon between two independent clauses is also correct, as in “The harvest was late; the barns stood empty.” The comma splice, then, is the use of a comma where a semicolon or a conjunction is needed.</p>",
    "qp": {
     "id": "q-en-vi-3",
     "variants": [
@@ -124,7 +124,7 @@ ARS.decks["lang.vi.en/faults"] = {
      {
       "prompt": "Why is “Although the road was long” a fragment?",
       "options": [
-       "It is a dependent clause standing alone",
+       "It is a subordinate clause standing alone",
        "It has no subject",
        "It has no verb",
        "It is a run-on sentence"

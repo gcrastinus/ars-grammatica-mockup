@@ -151,7 +151,7 @@ ARS.decks["lang.v.es/mood"] = {
        "<i lang=\"es\">Pensaba que el barco zarparía</i>"
       ],
       "answer": 3,
-      "explain": "A main verb of the past calls for the conditional in the dependent clause for a later event."
+      "explain": "A main verb of the past calls for the conditional in the subordinate clause for a later event."
      },
      {
       "prompt": "Which tense belongs to the sphere of the past?",

@@ -110,7 +110,7 @@ ARS.exercises['v.ex.order'] = {
     "German"
    ],
    "answer": 3,
-   "explain": "In a German main clause the finite verb stands second: <i>Heute lese ich</i>, not <i>Heute ich lese</i>. In a dependent clause it goes to the end."
+   "explain": "In a German main clause the finite verb stands second: <i>Heute lese ich</i>, not <i>Heute ich lese</i>. In a subordinate clause it goes to the end."
   },
   {
    "id": "or-A05",
@@ -235,7 +235,7 @@ ARS.exercises['v.ex.order'] = {
    "set": "B",
    "deck": "v.order",
    "type": "mc",
-   "prompt": "Where does the finite verb stand in a German dependent clause?",
+   "prompt": "Where does the finite verb stand in a German subordinate clause?",
    "options": [
     "At the end",
     "In the second place",
@@ -243,7 +243,7 @@ ARS.exercises['v.ex.order'] = {
     "Before the subject"
    ],
    "answer": 0,
-   "explain": "In a German dependent clause the finite verb goes to the end, as in <i>dass er das Buch liest</i>; in a main clause it stands second."
+   "explain": "In a German subordinate clause the finite verb goes to the end, as in <i>dass er das Buch liest</i>; in a main clause it stands second."
   },
   {
    "id": "or-B05",

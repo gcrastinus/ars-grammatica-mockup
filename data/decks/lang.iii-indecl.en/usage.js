@@ -95,7 +95,7 @@ ARS.decks["lang.iii-indecl.en/usage"] = {
   {
    "id": "conjunctions",
    "title": "The kinds of conjunction",
-   "body": "<p>“Bread and cheese,” “tired but happy,” “now or never”: a <strong>coordinating conjunction</strong> joins words, phrases, or clauses of equal rank. The usual ones are “and,” “but,” “or,” “nor,” “for,” “so,” and “yet.” <strong>Correlative conjunctions</strong> go in pairs: “both … and,” “either … or,” “neither … nor,” “not only … but also,” “whether … or”; careful usage puts the same kind of word after each member (“either by land or by sea,” not “either by land or the sea”). A <strong>subordinating conjunction</strong> joins a dependent clause to the clause it depends on and shows how it depends: “because,” “since,” “although,” “if,” “unless,” “when,” “while,” “until,” “that,” “whether.” So in “We stayed because it rained,” “because” makes the clause “it rained” give the reason for the staying.</p>",
+   "body": "<p>“Bread and cheese,” “tired but happy,” “now or never”: a <strong>coordinating conjunction</strong> joins words, phrases, or clauses of equal rank. The usual ones are “and,” “but,” “or,” “nor,” “for,” “so,” and “yet.” <strong>Correlative conjunctions</strong> go in pairs: “both … and,” “either … or,” “neither … nor,” “not only … but also,” “whether … or”; careful usage puts the same kind of word after each member (“either by land or by sea,” not “either by land or the sea”). A <strong>subordinating conjunction</strong> joins a subordinate clause to the clause it depends on and shows how it depends: “because,” “since,” “although,” “if,” “unless,” “when,” “while,” “until,” “that,” “whether.” So in “We stayed because it rained,” “because” makes the clause “it rained” give the reason for the staying.</p>",
    "qp": {
     "id": "q-en-conjunctions",
     "variants": [
@@ -108,7 +108,7 @@ ARS.decks["lang.iii-indecl.en/usage"] = {
        "It is a preposition here"
       ],
       "answer": 2,
-      "explain": "“Until” joins the dependent clause “the bus came” and shows time."
+      "explain": "“Until” joins the subordinate clause “the bus came” and shows time."
      },
      {
       "prompt": "Which sentence uses the correlatives as careful usage prefers?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-indecl.en/usage"] = {
        "“unless”"
       ],
       "answer": 0,
-      "explain": "“Yet” (“but”) joins elements of equal rank; the others introduce dependent clauses."
+      "explain": "“Yet” (“but”) joins elements of equal rank; the others introduce subordinate clauses."
      }
     ]
    }
@@ -157,7 +157,7 @@ ARS.decks["lang.iii-indecl.en/usage"] = {
       "prompt": "Why is “however” an adverb and not a conjunction?",
       "options": [
        "It joins words of equal rank",
-       "It introduces a dependent clause",
+       "It introduces a subordinate clause",
        "It can move within its clause",
        "It has no meaning of its own"
       ],

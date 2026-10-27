@@ -28,7 +28,7 @@ ARS.exercises['v.ex.clause'] = {
    ]
   }
  ],
- "skill": "Name a dependent clause by its use and an adverb clause by what it tells; find the subject, the predicate, and the pattern; classify a sentence as simple, compound, complex, or compound-complex; combine sentences with a relative.",
+ "skill": "Name a subordinate clause by its use and an adverb clause by what it tells; find the subject, the predicate, and the pattern; classify a sentence as simple, compound, complex, or compound-complex; combine sentences with a relative.",
  "types": [
   "sort",
   "identify",
@@ -84,7 +84,7 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "explain": "A subordinate clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
    "level": 1
   },
   {
@@ -92,7 +92,7 @@ ARS.exercises['v.ex.clause'] = {
    "set": "A",
    "deck": "v.clause",
    "type": "identify",
-   "prompt": "“The hikers rested where the path divided.” Click the dependent clause.",
+   "prompt": "“The hikers rested where the path divided.” Click the subordinate clause.",
    "tokens": [
     "The hikers",
     "rested",
@@ -180,7 +180,7 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 3,
-   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a dependent clause. Two independent clauses with a dependent one make a compound-complex sentence.",
+   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a subordinate clause. Two independent clauses with a dependent one make a compound-complex sentence.",
    "level": 1
   },
   {
@@ -238,7 +238,7 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "explain": "A subordinate clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
    "level": 1
   },
   {
@@ -246,7 +246,7 @@ ARS.exercises['v.ex.clause'] = {
    "set": "B",
    "deck": "v.clause",
    "type": "identify",
-   "prompt": "“The man who repaired the clock refused payment.” Click the dependent clause.",
+   "prompt": "“The man who repaired the clock refused payment.” Click the subordinate clause.",
    "tokens": [
     "The man",
     "who repaired the clock",
@@ -317,7 +317,7 @@ ARS.exercises['v.ex.clause'] = {
     0,
     2
    ],
-   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause.",
+   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one subordinate clause; a compound-complex sentence at least two independent clauses and at least one subordinate clause. Phrases, however many, do not add a clause.",
    "level": 1
   },
   {
@@ -354,7 +354,7 @@ ARS.exercises['v.ex.clause'] = {
    "set": "B",
    "deck": "v.clause",
    "type": "mc",
-   "prompt": "In “Even though the tickets were expensive, they went,” is the dependent clause a condition or a concession?",
+   "prompt": "In “Even though the tickets were expensive, they went,” is the subordinate clause a condition or a concession?",
    "options": [
     "A condition",
     "A purpose",
@@ -392,7 +392,7 @@ ARS.exercises['v.ex.clause'] = {
     1,
     2
    ],
-   "explain": "A dependent clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
+   "explain": "A subordinate clause is named by its use: a noun clause is a subject or an object; an adjective clause depends on a noun and tells which one; an adverb clause depends on a verb and tells when, where, why, or under what condition.",
    "level": 1
   },
   {
@@ -469,7 +469,7 @@ ARS.exercises['v.ex.clause'] = {
     0,
     2
    ],
-   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one dependent clause; a compound-complex sentence at least two independent clauses and at least one dependent clause. Phrases, however many, do not add a clause.",
+   "explain": "A simple sentence has one clause; a compound sentence two or more independent clauses; a complex sentence one independent clause and at least one subordinate clause; a compound-complex sentence at least two independent clauses and at least one subordinate clause. Phrases, however many, do not add a clause.",
    "level": 1
   },
   {
@@ -485,7 +485,7 @@ ARS.exercises['v.ex.clause'] = {
     "The period"
    ],
    "answer": 1,
-   "explain": "Parataxis (Greek, “placing beside”) joins clauses of equal rank; hypotaxis (“placing under”) joins a dependent clause to a main clause.",
+   "explain": "Parataxis (Greek, “placing beside”) joins clauses of equal rank; hypotaxis (“placing under”) joins a subordinate clause to a main clause.",
    "level": 1
   },
   {
@@ -523,7 +523,7 @@ ARS.exercises['v.ex.clause'] = {
    "level": 2,
    "deck": "v.clause",
    "type": "identify",
-   "prompt": "(Psalm 121:1, King James Version.) Click the dependent clause.",
+   "prompt": "(Psalm 121:1, King James Version.) Click the subordinate clause.",
    "answer": 1,
    "explain": "“From whence cometh my help” has its own verb and subject but depends on “hills”; it tells which hills.",
    "tokens": [
@@ -538,7 +538,7 @@ ARS.exercises['v.ex.clause'] = {
    "level": 2,
    "deck": "v.clause",
    "type": "identify",
-   "prompt": "(Matthew 5:14, King James Version.) Click the dependent clause.",
+   "prompt": "(Matthew 5:14, King James Version.) Click the subordinate clause.",
    "answer": 1,
    "explain": "“That is set on an hill” is an adjective clause depending on “city.”",
    "tokens": [
@@ -554,7 +554,7 @@ ARS.exercises['v.ex.clause'] = {
    "level": 2,
    "deck": "v.clause",
    "type": "identify",
-   "prompt": "(Acts 2:2, King James Version.) Click the dependent clause.",
+   "prompt": "(Acts 2:2, King James Version.) Click the subordinate clause.",
    "answer": 2,
    "explain": "“Where they were sitting” depends on “house” and tells which house. The other two parts are independent clauses joined by “and.”",
    "tokens": [
@@ -593,7 +593,7 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 1,
-   "explain": "Two independent clauses joined by “and,” with no dependent clause: a compound sentence.",
+   "explain": "Two independent clauses joined by “and,” with no subordinate clause: a compound sentence.",
    "source": "Mark 4:39, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   },
   {
@@ -610,7 +610,7 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 3,
-   "explain": "Two independent clauses, “some seeds fell” and “the fowls came and devoured,” and one dependent clause, “when he sowed”: compound-complex.",
+   "explain": "Two independent clauses, “some seeds fell” and “the fowls came and devoured,” and one subordinate clause, “when he sowed”: compound-complex.",
    "source": "Matthew 13:4, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   },
   {
@@ -627,7 +627,7 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 2,
-   "explain": "One independent clause and one dependent clause, “from whence cometh my help”: a complex sentence.",
+   "explain": "One independent clause and one subordinate clause, “from whence cometh my help”: a complex sentence.",
    "source": "Psalm 121:1, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   },
   {

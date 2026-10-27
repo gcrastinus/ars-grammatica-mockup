@@ -101,7 +101,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ξυνέγραψε</em></p> What is the main verb?",
-   "explain": "<em lang=\"grc\">Ἐπολέμησαν</em> belongs to a dependent clause, and the others are a participle and an infinitive.",
+   "explain": "<em lang=\"grc\">Ἐπολέμησαν</em> belongs to a subordinate clause, and the others are a participle and an infinitive.",
    "options": [
     "<em lang=\"grc\">ξυνέγραψε</em>, “wrote up”",
     "<em lang=\"grc\">ἐπολέμησαν</em>",
@@ -594,7 +594,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">δῆλον</em></p> What is the main clause?",
-   "explain": "The other verbs belong to dependent clauses or to the parenthesis. “it is clear”",
+   "explain": "The other verbs belong to subordinate clauses or to the parenthesis. “it is clear”",
    "options": [
     "<em lang=\"grc\">δῆλον</em>",
     "<em lang=\"grc\">ὁρῶμεν</em>",

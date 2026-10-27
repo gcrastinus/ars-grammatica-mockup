@@ -28,7 +28,7 @@ ARS.decks['vi.solecism'] = {
     `The study of agreement and government is therefore also the study of how to avoid solecisms, since each rule marks a place where a solecism can occur.`,
     `The remedy for a solecism is to restore the construction that the rule requires.`,
     `English handbooks name several errors of construction that are not errors of accident but of arrangement.`,
-    `A <strong>sentence fragment</strong> presents a dependent clause or a phrase as a sentence.`,
+    `A <strong>sentence fragment</strong> presents a subordinate clause or a phrase as a sentence.`,
     `A <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark.`,
     `A <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on.`,
     `An <strong>unclear pronoun</strong> has no clear antecedent.`,
@@ -94,7 +94,7 @@ ARS.decks['vi.solecism'] = {
 { id: 'english',
   title: 'Common errors of construction in English',
   body: `<p>English handbooks name several errors of construction that are not errors of accident but of arrangement:</p>
-<p>a <strong>sentence fragment</strong> presents a dependent clause or a phrase as a sentence: “Because the gate was shut.”;<br>a <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark: “The gate was shut, we went home”;<br>a <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on: “Walking into the room, the lamp fell over”;<br>an <strong>unclear pronoun</strong>, as we saw in Section III, has no clear antecedent: “When the vase struck the shelf, it cracked.”</p>
+<p>a <strong>sentence fragment</strong> presents a subordinate clause or a phrase as a sentence: “Because the gate was shut.”;<br>a <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark: “The gate was shut, we went home”;<br>a <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on: “Walking into the room, the lamp fell over”;<br>an <strong>unclear pronoun</strong>, as we saw in Section III, has no clear antecedent: “When the vase struck the shelf, it cracked.”</p>
 <p>Each of these is a failure of the relations studied in Section V. The fragment fails in completeness, the run-on in the joining of clauses, the dangling modifier in dependence, and the unclear pronoun in the reference that agreement presupposes.</p>`,
   src: `Standard English handbooks, in paraphrase.`,
   qp: { id: 'q-english', variants: [
@@ -109,7 +109,7 @@ ARS.decks['vi.solecism'] = {
     { prompt: `How is the fragment “Since the shop had closed.” best corrected?`,
       options: [`By adding a comma`, `By changing “had” to “has”`, `By joining it to a main clause`, `By removing “the”`],
       answer: 2,
-      explain: `The words are a dependent clause presented as a sentence, so they fail in completeness. Joined to a main clause they are complete: “Since the shop had closed, we went home.”` }
+      explain: `The words are a subordinate clause presented as a sentence, so they fail in completeness. Joined to a main clause they are complete: “Since the shop had closed, we went home.”` }
   ]} },
 
 { id: 'figure',

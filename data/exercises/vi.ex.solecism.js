@@ -358,7 +358,7 @@ ARS.exercises['vi.ex.solecism'] = {
     "When the ferry docked, the passengers landed.",
     "When the ferry docked the passengers landed."
    ],
-   "explain": "Two independent clauses are run together with no conjunction or mark. A conjunction, a semicolon, or a dependent clause corrects it."
+   "explain": "Two independent clauses are run together with no conjunction or mark. A conjunction, a semicolon, or a subordinate clause corrects it."
   },
   {
    "id": "sl-C04",
@@ -388,7 +388,7 @@ ARS.exercises['vi.ex.solecism'] = {
     "A solecism of number"
    ],
    "answer": 0,
-   "explain": "It is a dependent clause presented as a sentence, so it fails in completeness: a sentence fragment. Joined to a main clause it is correct."
+   "explain": "It is a subordinate clause presented as a sentence, so it fails in completeness: a sentence fragment. Joined to a main clause it is correct."
   },
   {
    "id": "sl-C06",

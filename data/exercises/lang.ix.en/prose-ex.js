@@ -18,7 +18,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“When in the Course of human events”</p> The clause beginning with “when” is…",
    "explain": "“When” subordinates the clause, and the main clause, “a decent respect … requires,” comes after it. which the main clause follows",
    "options": [
-    "A dependent clause of time",
+    "A subordinate clause of time",
     "The main clause of the sentence",
     "A relative clause describing “events”",
     "A noun clause, the subject of “requires”"
@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“requires”</p> What is the main verb of the first sentence?",
-   "explain": "“Becomes” and “entitle” belong to dependent clauses, and “dissolve” is an infinitive. The main clause is “a decent respect … requires.”",
+   "explain": "“Becomes” and “entitle” belong to subordinate clauses, and “dissolve” is an infinitive. The main clause is “a decent respect … requires.”",
    "options": [
     "“Requires,” with “a decent respect” as its subject",
     "“Becomes,” with “it” as its subject",
@@ -104,7 +104,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "explain": "It has no verb of its own, so it is a phrase, and it tells when.",
    "options": [
     "A prepositional phrase of time",
-    "A dependent clause of time",
+    "A subordinate clause of time",
     "The subject of the sentence, placed first for emphasis",
     "A noun clause"
    ],
@@ -256,7 +256,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“since I saw”</p> “Since I saw the queen of France” is…",
    "explain": "“Since” subordinates the clause, and the main clause is “it is now sixteen or seventeen years.”",
    "options": [
-    "A dependent clause of time",
+    "A subordinate clause of time",
     "The main clause",
     "A relative clause describing “years”",
     "A noun clause"
@@ -902,7 +902,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“when they see”</p> “When they see the streets” is…",
    "explain": "“When” subordinates the clause to “it is a melancholy object.”",
    "options": [
-    "A dependent clause of time",
+    "A subordinate clause of time",
     "A relative clause",
     "An indirect question",
     "The main clause"
@@ -1021,7 +1021,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "prompt": "<p>“because I wished”</p> “Because I wished to live deliberately” is…",
    "explain": "“Because” subordinates the clause and gives the reason.",
    "options": [
-    "A dependent clause of cause",
+    "A subordinate clause of cause",
     "The main clause",
     "A relative clause",
     "A clause of purpose, telling why he went"

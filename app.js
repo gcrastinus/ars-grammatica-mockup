@@ -67,7 +67,7 @@ const ACTS = [
    ['Dependence','The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>).',{an:1}],
    ['Order (<i>ordo</i>)','Natural and artificial order, and what word order does in English and in Latin.',{an:1}],
    ['The Phrase','Groups of words that act as one part of speech.',{an:1}],
-   ['The Clause','Subject and predicate; independent and dependent clauses.',{an:1}],
+   ['The Clause','Subject and predicate; independent and subordinate clauses.',{an:1}],
    ['The Period','The rounded sentence of many members (Quintilian, Demetrius).',{an:1}],
    ['Mood and Voice in Construction','The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.',{an:1}],
    ['Figures of Construction','Ellipsis, zeugma, syllepsis, and the other departures from regular construction.',{an:1}]]},

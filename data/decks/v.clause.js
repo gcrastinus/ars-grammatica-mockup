@@ -1,19 +1,19 @@
 /* V.7 The Clause [v.clause]
    Plan (ITEM-LIST.md): 10 panels, 5 question points, 2 of them short analysis questions.
    Live material drawn on: DECKS.ensent (subject and predicate, the six patterns), DECKS.encl (clause, three works of a
-   dependent clause, four kinds of sentence, a longer period), DECKS.clauses (kinds of clause, purpose and result, indirect
+   subordinate clause, four kinds of sentence, a longer period), DECKS.clauses (kinds of clause, purpose and result, indirect
    speech), DECKS.endiag (the diagram). */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['v.clause'] = {
   id: 'v.clause',
   title: 'The Clause',
-  sub: 'Subject and predicate, and independent and dependent clauses',
+  sub: 'Subject and predicate, and independent and subordinate clauses',
   sources: `Priscian, <i>Institutiones grammaticae</i> XVII–XVIII; Reed and Kellogg, <i>Higher Lessons in English</i> (1877); Allen and Greenough, <i>New Latin Grammar</i>; the Bible, King James Version.`,
   recitation: [
     `A <strong>clause</strong> is a group of words that has its own subject and finite verb.`,
-    `Clauses that can stand as a sentence by themselves are called <strong>independent</strong> (or main) clauses; clauses that cannot, because they depend on another clause, are called <strong>dependent</strong> or <strong>subordinate</strong> clauses, two names that mean the same thing.`,
-    `A dependent clause is congruous but incomplete; it depends on a word in another clause and is used as a single part of speech: a noun, an adjective, or an adverb.`,
+    `Clauses that can stand as a sentence by themselves are called <strong>independent</strong> (or main) clauses; clauses that cannot, because they depend on another clause, are called <strong>subordinate</strong> clauses.`,
+    `A subordinate clause is congruous but incomplete; it depends on a word in another clause and is used as a single part of speech: a noun, an adjective, or an adverb.`,
     `Every clause has a subject and a predicate.`,
     `The <strong>simple subject</strong> is the noun or pronoun itself, and the <strong>complete subject</strong> is that word with all the words that depend on it.`,
     `The <strong>simple predicate</strong> is the finite verb, and the <strong>complete predicate</strong> is the verb with all the words that depend on it.`,
@@ -21,37 +21,37 @@ ARS.decks['v.clause'] = {
     `The patterns are these: subject and verb; subject, verb, and direct object; subject, verb, indirect object, and direct object; subject, linking verb, and predicate noun; subject, linking verb, and predicate adjective; and subject, verb, direct object, and objective complement.`,
     `A <strong>linking verb</strong>, such as “be,” “seem,” or “become,” joins the subject to a word that renames or describes it, rather than carrying an action to an object.`,
     `These patterns correspond to the valency of the verb, since each verb requires a certain number of words to complete it, and the patterns show what those words are.`,
-    `A dependent clause used as a noun, that is, as the subject, the object, or the complement of a verb, is called a <strong>noun clause</strong> (older grammars call it a substantive clause).`,
+    `A subordinate clause used as a noun, that is, as the subject, the object, or the complement of a verb, is called a <strong>noun clause</strong> (older grammars call it a substantive clause).`,
     `A noun clause after a verb of saying, thinking, or knowing reports what was said or thought, and this report is called <strong>indirect speech</strong> (<i>ōrātiō oblīqua</i>).`,
     `English uses a clause with “that” for indirect speech, whereas Latin usually uses the accusative and the infinitive.`,
     `The report of a question is an <strong>indirect question</strong>, and in Latin its verb is in the subjunctive.`,
     `An <strong>adjective clause</strong>, also called a <strong>relative clause</strong>, depends on a noun and tells which one or what kind; it usually begins with a relative pronoun, “who,” “which,” or “that.”`,
-    `The relative clause joins two constructions, because the relative belongs by its gender and number to the main clause and by its case to the dependent clause.`,
+    `The relative clause joins two constructions, because the relative belongs by its gender and number to the main clause and by its case to the subordinate clause.`,
     `An <strong>adverb clause</strong> depends on a verb, an adjective, or another clause and tells when, where, why, how, under what condition, or in spite of what.`,
     `The principal kinds of adverb clause are named by what they tell: <strong>temporal</strong> (when), <strong>causal</strong> (why), <strong>conditional</strong> (under what condition), <strong>concessive</strong> (in spite of what), <strong>purpose</strong> (the end aimed at), and <strong>result</strong> (what followed).`,
     `A condition grants a case, and the main clause holds only in that case; a concession grants the case and holds that the main clause is true all the same.`,
-    `English marks the kinds of dependent clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.`,
+    `English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.`,
     `In Latin a clause of purpose and a clause of result both begin with <i>ut</i> and take the subjunctive, but a purpose clause is negated by <i>nē</i> and a result clause by <i>ut nōn</i>, and a result clause is usually prepared by a word of degree in the main clause.`,
     `So the question to ask of a clause with <i>ut</i> is whether it states what was aimed at or what followed.`,
     `The subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another.`,
     `Sentences are classed by the clauses they contain.`,
-    `A <strong>simple</strong> sentence has one independent clause and no dependent clause, however long it is.`,
+    `A <strong>simple</strong> sentence has one independent clause and no subordinate clause, however long it is.`,
     `A <strong>compound</strong> sentence has two or more independent clauses.`,
-    `A <strong>complex</strong> sentence has one independent clause and at least one dependent clause.`,
-    `A <strong>compound-complex</strong> sentence has at least two independent clauses and at least one dependent clause.`,
-    `The joining of clauses of equal rank, side by side, is called <strong>parataxis</strong> (Greek, “placing beside”); the joining of a dependent clause to a main clause is called <strong>hypotaxis</strong> (Greek, “placing under”).`,
+    `A <strong>complex</strong> sentence has one independent clause and at least one subordinate clause.`,
+    `A <strong>compound-complex</strong> sentence has at least two independent clauses and at least one subordinate clause.`,
+    `The joining of clauses of equal rank, side by side, is called <strong>parataxis</strong> (Greek, “placing beside”); the joining of a subordinate clause to a main clause is called <strong>hypotaxis</strong> (Greek, “placing under”).`,
     `Latin prose, especially Cicero’s, favors hypotaxis, and its long sentences of many clauses are studied as the period.`,
-    `In a Reed and Kellogg diagram a dependent clause is drawn on a base (main line) of its own below the main line and joined by a dotted line to the word on which it depends.`,
+    `In a Reed and Kellogg diagram a subordinate clause is drawn on a base (main line) of its own below the main line and joined by a dotted line to the word on which it depends.`,
     `An adjective clause is joined to its noun, an adverb clause to the word it modifies with the conjunction on the dotted line, and a noun clause used as an object is set on a support (a stilt) in the place of the object.`,
-    `The analysis of a sentence finds the independent clause and its pattern, then each dependent clause and the word on which it depends, then the phrases and single words that depend within each clause.`,
-    `A sentence with only one independent clause is complex, not compound, however many dependent clauses it has.`
+    `The analysis of a sentence finds the independent clause and its pattern, then each subordinate clause and the word on which it depends, then the phrases and single words that depend within each clause.`,
+    `A sentence with only one independent clause is complex, not compound, however many subordinate clauses it has.`
   ],
   panels: [
 
 { id: 'what-clause',
   title: 'What is a clause?',
-  body: `<p>The sentence “The bell rang when the gate shut” contains two groups of words, each with its own subject and verb: “The bell rang” and “when the gate shut.” The first could stand as a sentence by itself, but the second could not. A <strong>clause</strong> is a group of words that has its own subject and finite verb. Some clauses can stand as a sentence by themselves; they are called <strong>independent</strong> (or main) clauses. Others cannot, because they depend on another clause; they are called <strong>dependent</strong> or <strong>subordinate</strong> clauses. The two names, dependent and subordinate, are both in ordinary use and mean the same thing.</p>
-<p>So in “The bell rang when the gate shut,” “The bell rang” is an independent clause, and “when the gate shut” is a dependent clause, because it has a subject (“the gate”) and a verb (“shut”) but cannot stand alone; we saw that such a clause is congruous but incomplete. A dependent clause depends on a word in another clause, as a word or a phrase does, and it is used as a single part of speech: a noun, an adjective, or an adverb.</p>`,
+  body: `<p>The sentence “The bell rang when the gate shut” contains two groups of words, each with its own subject and verb: “The bell rang” and “when the gate shut.” The first could stand as a sentence by itself, but the second could not. A <strong>clause</strong> is a group of words that has its own subject and finite verb. Some clauses can stand as a sentence by themselves; they are called <strong>independent</strong> (or main) clauses. Others cannot, because they depend on another clause; they are called <strong>subordinate</strong> (or <strong>dependent</strong>) clauses. The two names, subordinate and dependent, are both in ordinary use and mean the same thing.</p>
+<p>So in “The bell rang when the gate shut,” “The bell rang” is an independent clause, and “when the gate shut” is a subordinate clause, because it has a subject (“the gate”) and a verb (“shut”) but cannot stand alone; we saw that such a clause is congruous but incomplete. A subordinate clause depends on a word in another clause, as a word or a phrase does, and it is used as a single part of speech: a noun, an adjective, or an adverb.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 278; Reed and Kellogg, <i>Higher Lessons in English</i>, in paraphrase.` },
 
 { id: 'subject-predicate',
@@ -83,14 +83,14 @@ ARS.decks['v.clause'] = {
 
 { id: 'noun-clauses',
   title: 'Noun clauses',
-  body: `<p>In “Every schoolboy knows the story,” the noun “story” is the object of “knows.” A whole clause can stand in the place of such a noun. Macaulay writes, “Every schoolboy knows who imprisoned Montezuma, and who strangled Atahualpa” (“Lord Clive”), and each clause beginning with “who” is the object of “knows,” just as “the story” is. In “That he came is certain,” the clause “that he came” is the subject. A dependent clause used in this way as a noun, that is, as the subject, the object, or the complement of a verb, is called a <strong>noun clause</strong> (older grammars call it a substantive clause).</p>
+  body: `<p>In “Every schoolboy knows the story,” the noun “story” is the object of “knows.” A whole clause can stand in the place of such a noun. Macaulay writes, “Every schoolboy knows who imprisoned Montezuma, and who strangled Atahualpa” (“Lord Clive”), and each clause beginning with “who” is the object of “knows,” just as “the story” is. In “That he came is certain,” the clause “that he came” is the subject. A subordinate clause used in this way as a noun, that is, as the subject, the object, or the complement of a verb, is called a <strong>noun clause</strong> (older grammars call it a substantive clause).</p>
 <p>A noun clause after a verb of saying, thinking, or knowing reports what was said or thought, and this report is called <strong>indirect speech</strong> (<i>ōrātiō oblīqua</i>). English uses a clause with “that”: “He said that the road was safe.” Latin usually uses the accusative and the infinitive instead of a clause: <i>dīxit viam tūtam esse</i>, literally “he said the road to be safe.” If the report is of a question, it is an <strong>indirect question</strong>: “He asked whether the road was safe,” <i>rogāvit num via tūta esset</i>, with the verb in the subjunctive.</p>`,
   src: `Macaulay, “Lord Clive” (1840); Allen and Greenough, <i>New Latin Grammar</i> §§ 574–581.` },
 
 { id: 'adjective-clauses',
   title: 'Adjective clauses',
   body: `<p>In “the sailor who rescued us,” the clause “who rescued us” tells which sailor is meant, as an adjective does in “the brave sailor.” An <strong>adjective clause</strong>, also called a <strong>relative clause</strong>, depends on a noun and tells which one or what kind. It usually begins with a relative pronoun, “who,” “which,” or “that,” which refers to the noun. Milton writes, “They also serve who only stand and waite” (Sonnet XIX), where the clause “who only stand and waite” depends on “they” and tells which people serve.</p>
-<p>We saw that the Latin relative pronoun agrees with its antecedent in gender and number and takes its case from its own clause: <i>liber quem lēgī</i>, “the book that I read.” The relative clause therefore joins two constructions: the relative belongs by its gender and number to the main clause and by its case to the dependent clause.</p>`,
+<p>We saw that the Latin relative pronoun agrees with its antecedent in gender and number and takes its case from its own clause: <i>liber quem lēgī</i>, “the book that I read.” The relative clause therefore joins two constructions: the relative belongs by its gender and number to the main clause and by its case to the subordinate clause.</p>`,
   src: `Milton, Sonnet XIX (1673 spelling); Johnson, <i>Rasselas</i>, ch. 11; Allen and Greenough, <i>New Latin Grammar</i> §§ 303–308.`,
   qp: { id: 'q-adjective-clauses', variants: [
     { prompt: `In “The farmer whose dog barked apologized,” on which noun does the relative clause depend?`,
@@ -130,25 +130,25 @@ ARS.decks['v.clause'] = {
 
 { id: 'latin-mood',
   title: 'How Latin marks the kinds of clause',
-  body: `<p>English marks the kinds of dependent clause chiefly by the conjunction or relative word that begins them. Latin marks many of them by the mood of the verb as well. A clause of purpose and a clause of result both begin with <i>ut</i> and both take the subjunctive, but they differ in their negative and in the words that prepare for them: a purpose clause is negated by <i>nē</i> (<i>nē vidēret</i>, “so that he might not see”), and a result clause by <i>ut nōn</i>, and a result clause is usually prepared by a word of degree such as <i>tam</i> (“so”) or <i>tantus</i> (“so great”) in the main clause.</p>
+  body: `<p>English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them. Latin marks many of them by the mood of the verb as well. A clause of purpose and a clause of result both begin with <i>ut</i> and both take the subjunctive, but they differ in their negative and in the words that prepare for them: a purpose clause is negated by <i>nē</i> (<i>nē vidēret</i>, “so that he might not see”), and a result clause by <i>ut nōn</i>, and a result clause is usually prepared by a word of degree such as <i>tam</i> (“so”) or <i>tantus</i> (“so great”) in the main clause.</p>
 <p>So the question to ask of a clause with <i>ut</i> is whether it states what was aimed at or what followed. We saw that the modists explain mood as the inclination of the mind toward what is said; here the subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another. We will see more of mood in construction later in this section.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> §§ 531–538, in paraphrase.` },
 
 { id: 'kinds-of-sentence',
   title: 'Simple, compound, and complex sentences',
   body: `<p>Some sentences contain a single clause, and others contain several, which may be of equal rank or one dependent on another. Sentences are therefore classed by the clauses they contain:</p>
-<p>a <strong>simple</strong> sentence has one independent clause and no dependent clause: “Studies serve for delight, for ornament, and for ability” (Bacon, “Of Studies”), which is long but has only one finite verb;<br>a <strong>compound</strong> sentence has two or more independent clauses: “Cowards die many times before their deaths; / The valiant never taste of death but once” (Shakespeare, <i>Julius Caesar</i> II.2);<br>a <strong>complex</strong> sentence has one independent clause and at least one dependent clause: “When the sun rose, the birds began to sing”;<br>a <strong>compound-complex</strong> sentence has at least two independent clauses and at least one dependent clause: “The river rose, and the farmers who lived near it fled.”</p>
-<p>The joining of clauses of equal rank, side by side, is called <strong>parataxis</strong> (Greek, “placing beside”); the joining of a dependent clause to a main clause is called <strong>hypotaxis</strong> (Greek, “placing under”). Latin prose, especially Cicero’s, favors hypotaxis, and we will study its long sentences of many clauses as the period.</p>`,
+<p>a <strong>simple</strong> sentence has one independent clause and no subordinate clause: “Studies serve for delight, for ornament, and for ability” (Bacon, “Of Studies”), which is long but has only one finite verb;<br>a <strong>compound</strong> sentence has two or more independent clauses: “Cowards die many times before their deaths; / The valiant never taste of death but once” (Shakespeare, <i>Julius Caesar</i> II.2);<br>a <strong>complex</strong> sentence has one independent clause and at least one subordinate clause: “When the sun rose, the birds began to sing”;<br>a <strong>compound-complex</strong> sentence has at least two independent clauses and at least one subordinate clause: “The river rose, and the farmers who lived near it fled.”</p>
+<p>The joining of clauses of equal rank, side by side, is called <strong>parataxis</strong> (Greek, “placing beside”); the joining of a subordinate clause to a main clause is called <strong>hypotaxis</strong> (Greek, “placing under”). Latin prose, especially Cicero’s, favors hypotaxis, and we will study its long sentences of many clauses as the period.</p>`,
   src: `Bacon, “Of Studies”; Shakespeare, <i>Julius Caesar</i> II.2; Reed and Kellogg, <i>Higher Lessons in English</i>, in paraphrase.`,
   qp: { id: 'q-kinds-of-sentence', variants: [
     { prompt: `What kind of sentence is “The wind dropped, and the boats returned”?`,
       options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
       answer: 1,
-      explain: `It has two independent clauses joined by “and,” each able to stand alone, and no dependent clause, so it is compound.` },
+      explain: `It has two independent clauses joined by “and,” each able to stand alone, and no subordinate clause, so it is compound.` },
     { prompt: `What kind of sentence is “The boats returned after the wind dropped”?`,
       options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
       answer: 2,
-      explain: `“The boats returned” is independent, and “after the wind dropped” is a dependent clause with its own subject and verb, telling when. One independent and one dependent clause make a complex sentence.` },
+      explain: `“The boats returned” is independent, and “after the wind dropped” is a subordinate clause with its own subject and verb, telling when. One independent and one subordinate clause make a complex sentence.` },
     { prompt: `What kind of sentence is “The boats with red sails returned to the harbor at dusk”?`,
       options: [`Simple`, `Compound`, `Complex`, `Compound-complex`],
       answer: 0,
@@ -157,21 +157,21 @@ ARS.decks['v.clause'] = {
 
 { id: 'diagram',
   title: 'Clauses in a diagram',
-  body: `<p>A dependent clause can also be shown in a diagram, where it is drawn as a small sentence of its own attached to the word on which it depends. Reed and Kellogg draw a dependent clause on a base (main line) of its own, below the main line of the sentence, and join it to the word on which it depends by a dotted line. An adjective clause is joined to its noun; an adverb clause to the verb or other word it modifies, with the conjunction written on the dotted line; and a noun clause used as an object is set up on a support, called a stilt, in the place of the object.</p>
-<p>So in “The tree that fell in the storm blocked the road,” the clause “that fell in the storm” is drawn on its own line, with a dotted line from “that” to “tree.” The diagram shows at a glance that the sentence has one independent clause and one dependent clause, and on which word the dependent clause depends.</p>`,
+  body: `<p>A subordinate clause can also be shown in a diagram, where it is drawn as a small sentence of its own attached to the word on which it depends. Reed and Kellogg draw a subordinate clause on a base (main line) of its own, below the main line of the sentence, and join it to the word on which it depends by a dotted line. An adjective clause is joined to its noun; an adverb clause to the verb or other word it modifies, with the conjunction written on the dotted line; and a noun clause used as an object is set up on a support, called a stilt, in the place of the object.</p>
+<p>So in “The tree that fell in the storm blocked the road,” the clause “that fell in the storm” is drawn on its own line, with a dotted line from “that” to “tree.” The diagram shows at a glance that the sentence has one independent clause and one subordinate clause, and on which word the subordinate clause depends.</p>`,
   src: `Reed and Kellogg, <i>Higher Lessons in English</i> (1877), on the diagram of clauses, in paraphrase.` },
 
 { id: 'johnson',
   title: 'Analyzing a sentence of Johnson',
   body: `<p>Johnson has Imlac say: “Human life is everywhere a state in which much is to be endured and little to be enjoyed” (<i>Rasselas</i>, ch. 11). The independent clause is “Human life is everywhere a state,” with the pattern of subject, linking verb, and predicate noun. The clause “in which much is to be endured and little to be enjoyed” depends on “state,” so it is an adjective clause. Within it, “and” joins “much is to be endured” to “little to be enjoyed,” where “is” is understood.</p>
-<p>The whole sentence is complex, not compound, because it has only one independent clause. This is the kind of analysis that every sentence admits: we find the independent clause and its pattern, then each dependent clause and the word on which it depends, then the phrases and single words that depend within each clause.</p>`,
+<p>The whole sentence is complex, not compound, because it has only one independent clause. This is the kind of analysis that every sentence admits: we find the independent clause and its pattern, then each subordinate clause and the word on which it depends, then the phrases and single words that depend within each clause.</p>`,
   src: `Johnson, <i>Rasselas</i>, ch. 11.`,
   qp: { id: 'q-johnson', variants: [
     { prompt: `In “The house where I was born still stands,” what is the independent clause?`,
       options: [`“The house … still stands”`, `“where I was born”`, `“I was born,” with its own subject and verb`, `There is none`],
       answer: 0,
       explain: `“The house still stands” can stand alone; “where I was born” depends on “house” and tells which house.` },
-    { prompt: `In “The road that leads to the coast is narrow,” on which word does the dependent clause depend?`,
+    { prompt: `In “The road that leads to the coast is narrow,” on which word does the subordinate clause depend?`,
       options: [`“road”`, `“leads”`, `“coast”`, `“narrow”`],
       answer: 0,
       explain: `“That leads to the coast” tells which road, so it is an adjective clause depending on “road.”` },

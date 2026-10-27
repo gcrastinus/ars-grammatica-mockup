@@ -562,7 +562,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“when”"
       ],
       "answer": 2,
-      "explain": "It begins a dependent clause of concession."
+      "explain": "It begins a subordinate clause of concession."
      },
      {
       "prompt": "Where does the modal <em lang=\"de\">kann</em> stand in the <em lang=\"de\">wiewohl</em> clause?",
@@ -591,7 +591,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-49",
    "title": "A concession",
-   "body": "<p><em lang=\"de\">wiewohl der Mensch allein sie</em>: <em lang=\"de\">Wiewohl</em>, “although,” begins a dependent clause, and <em lang=\"de\">sie</em> refers to the truth.</p>"
+   "body": "<p><em lang=\"de\">wiewohl der Mensch allein sie</em>: <em lang=\"de\">Wiewohl</em>, “although,” begins a subordinate clause, and <em lang=\"de\">sie</em> refers to the truth.</p>"
   },
   {
    "id": "prose-50",

@@ -309,7 +309,7 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Ich weiß nicht, ob ich kommen ___.</i> (“I don’t know whether I can come”).",
-   "explain": "In a dependent clause the finite modal goes to the end, after the infinitive: <i lang=\"de\">kommen kann</i>.",
+   "explain": "In a subordinate clause the finite modal goes to the end, after the infinitive: <i lang=\"de\">kommen kann</i>.",
    "options": [
     "<i lang=\"de\">kann</i>",
     "<i lang=\"de\">können</i>",

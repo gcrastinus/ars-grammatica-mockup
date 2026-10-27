@@ -84,7 +84,7 @@ ARS.exercises["lang.ii.en/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Where does the comma belong in “When the bell rang the children ran out”?",
-   "explain": "The opening dependent clause ends with “rang,” and the comma shows where the main clause begins.",
+   "explain": "The opening subordinate clause ends with “rang,” and the comma shows where the main clause begins.",
    "options": [
     "After “rang”",
     "After “bell”",

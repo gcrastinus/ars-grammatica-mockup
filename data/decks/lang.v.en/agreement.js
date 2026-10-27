@@ -95,7 +95,7 @@ ARS.decks["lang.v.en/agreement"] = {
   {
    "id": "congruity",
    "title": "Congruity and completeness in English",
-   "body": "<p>The three judgments of a construction apply to English as to Latin. “The keys is lost” is incongruous, because the plural subject and the singular verb do not fit. A phrase such as “the broken gate,” or a dependent clause such as “when the guests arrive,” is congruous but incomplete; written by itself as though it were a sentence, it is the error called a sentence fragment. “The guests arrived” is congruous and complete.</p>\n<p>An English sentence needs a subject and a finite verb, but the subject of a command is understood rather than written: “Shut the gate” is complete, with “you” understood as its subject.</p>",
+   "body": "<p>The three judgments of a construction apply to English as to Latin. “The keys is lost” is incongruous, because the plural subject and the singular verb do not fit. A phrase such as “the broken gate,” or a subordinate clause such as “when the guests arrive,” is congruous but incomplete; written by itself as though it were a sentence, it is the error called a sentence fragment. “The guests arrived” is congruous and complete.</p>\n<p>An English sentence needs a subject and a finite verb, but the subject of a command is understood rather than written: “Shut the gate” is complete, with “you” understood as its subject.</p>",
    "qp": {
     "id": "q-en-agr-cong",
     "variants": [
@@ -108,7 +108,7 @@ ARS.decks["lang.v.en/agreement"] = {
        "Congruous but incomplete"
       ],
       "answer": 3,
-      "explain": "It is a dependent clause, and it waits for a main clause."
+      "explain": "It is a subordinate clause, and it waits for a main clause."
      },
      {
       "prompt": "How does “The flowers needs water” stand?",

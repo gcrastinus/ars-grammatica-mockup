@@ -353,7 +353,7 @@ ARS.exercises['vi.review'] = {
    "accept": [
     "We stayed inside because the storm was coming."
    ],
-   "explain": "“Because the storm was coming” is a dependent clause and cannot stand as a sentence. Joined to the main clause, it is complete."
+   "explain": "“Because the storm was coming” is a subordinate clause and cannot stand as a sentence. Joined to the main clause, it is complete."
   },
   {
    "id": "rvi-B10",
@@ -543,7 +543,7 @@ ARS.exercises['vi.review'] = {
     "“When the tide was high, the boats sailed.”"
    ],
    "answer": 1,
-   "explain": "“Whenever the tide was high” is a dependent clause presented as a sentence, so it fails in completeness. The other three are complete sentences."
+   "explain": "“Whenever the tide was high” is a subordinate clause presented as a sentence, so it fails in completeness. The other three are complete sentences."
   },
   {
    "id": "rvi-C09",
