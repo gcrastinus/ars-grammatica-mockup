@@ -240,6 +240,8 @@ function renderControls(){
     fill(lg, opts, lang());
     if (!lg.dataset.wired){ lg.addEventListener('change', () => setLang(lg.value)); lg.dataset.wired = '1'; }
   }
+  const allNote = document.getElementById('lang-all-note');
+  if (allNote) allNote.hidden = lang() !== 'all';
 }
 
 ARS.CL = {

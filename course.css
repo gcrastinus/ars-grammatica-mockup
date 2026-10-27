@@ -928,13 +928,14 @@ body.dark #scr-home .set-card .ex-link:hover{background:color-mix(in srgb, var(-
 .select-wrap::after{content:'▾'; position:absolute; right:14px; top:50%; transform:translateY(-50%); color:var(--ink); font-size:20px; pointer-events:none}
 .choice-select{
   -webkit-appearance:none; appearance:none; min-height:52px; min-width:11.5em; padding:8px 44px 8px 14px;
-  font-family:var(--text); font-size:19px; line-height:1.2; color:var(--ink); background:var(--card);
+  font-family:var(--text); font-size:19px; line-height:1.2; color:var(--ink); background:transparent;
   border:2px solid var(--frame); border-radius:0; cursor:pointer
 }
-.choice-select:hover{border-color:var(--wine)}
+.choice-select:hover{border-color:var(--ink-soft)}
 .choice-select:focus-visible, .choice-select:focus{outline:4px solid var(--ink); outline-offset:3px}
 .choice-select option{background:var(--card); color:var(--ink)}
 .level-desc{max-width:36em; margin:12px auto 0; font-size:17px; text-align:center}
+.lang-all-note{max-width:36em; margin:6px auto 0; font-size:17px; text-align:center}
 .review-other{font-size:16px; text-align:center; margin:6px auto 0; max-width:34em}
 @media (max-width:560px){
   .choice-bar{flex-direction:column; align-items:stretch}

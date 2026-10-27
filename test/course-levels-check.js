@@ -270,6 +270,23 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('drop-downs: the level\'s description is one sentence below the row', dd.descAfter && await ev(`(t => /^[^.]*\\.$/.test(t.replace(/\\.\\.\\./g, '')) && t.startsWith('The essentials of grammar'))(document.getElementById('level-desc').textContent)`));
   await ev(`ARS.CL.setLevel('proficient'); window.scrollTo(0, 0); true`);
   check('drop-downs: the Proficient description names the common errors', await ev(`/the rest of construction, the common errors, the tropes/.test(document.getElementById('level-desc').textContent)`));
+  /* All languages at every level in Free Practice, with its line under the drop-downs */
+  const allRows = [];
+  for (const lv of LEVELS){
+    allRows.push(await ev(`(() => { ARS.CL.setLevel('${lv}'); ARS.CL.setLang('all'); const n = document.getElementById('lang-all-note');
+      const r = { lv:'${lv}', option:[...document.getElementById('lang-select').options].some(o => o.value === 'all'), chosen:document.getElementById('lang-select').value === 'all',
+        note:!n.hidden && n.textContent === 'Every language’s material for this level is shown.' };
+      ARS.CL.setLang('en'); r.hiddenAfter = n.hidden; return r; })()`));
+  }
+  check('All languages: offered and chosen at every level in Free Practice', allRows.every(r => r.option && r.chosen), JSON.stringify(allRows));
+  check('All languages: the line under the drop-downs shows with it, and only with it', allRows.every(r => r.note && r.hiddenAfter), JSON.stringify(allRows));
+  /* quiet styling: a plain frame, the page's text color, no colored fill, in both themes */
+  for (const dark of [false, true]){
+    await ev(`setDark(${dark})`); await b.sleep(700);   /* the page's colors change over 0.25 s */
+    const q = await ev(`(() => { const b = getComputedStyle(document.body); return ['level-select', 'path-select', 'lang-select'].map(id => { const cs = getComputedStyle(document.getElementById(id)); return [cs.backgroundColor, cs.color === b.color]; }); })()`);
+    check('drop-downs ' + (dark ? 'dark' : 'light') + ': no colored fill, the page\'s text color', q.every(([bg, ink]) => bg === 'rgba(0, 0, 0, 0)' && ink), JSON.stringify(q));
+  }
+  await ev(`setDark(false)`);
   await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
   const key = async (k, extra) => {
     const vk = { ArrowDown:40, ArrowUp:38, Tab:9, Enter:13, m:77 }[k];
