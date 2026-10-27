@@ -763,15 +763,15 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What does <i lang=\"es\">le</i> stand for in <i lang=\"es\">Veíale en las manos un dardo</i>?",
-   "explain": "The pronoun is the direct object of <i lang=\"es\">veía</i> and stands for the angel, a masculine person (<i>Manual</i> §16.5.1b).",
+   "prompt": "What is the subject of <i lang=\"es\">cuentan</i> in <i lang=\"es\">las casas de encantamento que cuentan en el libro de Amadís</i>?",
+   "explain": "The Academy says that verbs in the third person plural form impersonal sentences with an unspecific subject that refers to persons, as in <i lang=\"es\">Dicen que va a llover</i> (<i>Manual</i> §41.4.5a).",
    "options": [
-    "The angel, who is the person seen",
-    "The spear, which is held in the hands",
-    "The heart, which the spear pierces",
-    "The writer, who sees the vision"
+    "<i lang=\"es\">el libro</i>, the noun that follows the verb",
+    "<i lang=\"es\">las casas</i>, the antecedent of the relative",
+    "<i lang=\"es\">Amadís</i>, the name that ends the phrase",
+    "An unspecific “they,” shown only by the ending of the verb"
    ],
-   "answer": 0,
+   "answer": 3,
    "passageRef": "prose-56"
   },
   {
@@ -780,15 +780,15 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What does <i lang=\"es\">las</i> stand for in <i lang=\"es\">al sacarle me parecía las llevaba consigo</i>?",
-   "explain": "<i lang=\"es\">Las</i> is feminine plural and stands for <i lang=\"es\">las entrañas</i>, which the spear seemed to pierce. It is the direct object of <i lang=\"es\">llevaba</i>.",
+   "prompt": "What do the words <i lang=\"es\">que si</i> introduce in <i lang=\"es\">decian que si aquello que veian si era entre sueños</i>?",
+   "explain": "The Academy says that a total indirect question is introduced by <i lang=\"es\">si</i>, as in <i lang=\"es\">No sé si sucedió</i> (<i>Manual</i> §43.3.1a). The English has “asked whether.”",
    "options": [
-    "<i lang=\"es\">Las manos</i>, the hands of the angel",
-    "<i lang=\"es\">Las entrañas</i>, the entrails",
-    "<i lang=\"es\">Algunas veces</i>, “at times”",
-    "Nothing: it is part of the verb <i lang=\"es\">llevaba</i>"
+    "A condition that begins with “if”",
+    "A wish that begins with “would that”",
+    "An indirect question that asks “whether,”",
+    "A comparison that begins with “as if”"
    ],
-   "answer": 1,
+   "answer": 2,
    "passageRef": "prose-56"
   },
   {
@@ -797,13 +797,13 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What is <i lang=\"es\">consigo</i> in <i lang=\"es\">las llevaba consigo</i>?",
-   "explain": "The Academy lists <i lang=\"es\">consigo</i> among the inherently reflexive pronouns, and it observes that the form contains the preposition <i lang=\"es\">con</i> (<i>Manual</i> §16.2.2a and §16.2.1c).",
+   "prompt": "What is <i lang=\"es\">desta</i> in <i lang=\"es\">desta manera</i>?",
+   "explain": "The edition prints the older contraction <i lang=\"es\">desta</i> for <i lang=\"es\">de esta</i>, which today is written as two words.",
    "options": [
-    "A verb of the third person singular",
-    "The pronoun that follows <i lang=\"es\">con</i> and refers to the subject, “with himself”",
-    "An adverb of place that means “here”",
-    "A noun that means “agreement”"
+    "A pronoun that means “of that one,” and it refers back to a noun of the sentence",
+    "The contraction of <i lang=\"es\">de esta</i>, today written in two words",
+    "A verb of the third person singular, and <i lang=\"es\">manera</i> is its direct object",
+    "A preposition that means “from here,” and it governs <i lang=\"es\">manera</i> as its term"
    ],
    "answer": 1,
    "passageRef": "prose-56"
@@ -814,15 +814,15 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "With which word do <i lang=\"es\">toda</i> and <i lang=\"es\">abrasada</i> agree in <i lang=\"es\">me dejaba toda abrasada</i>?",
-   "explain": "The words are feminine singular and agree with <i lang=\"es\">me</i>, which stands for the writer, as <i lang=\"es\">buena</i> did in the first chapter.",
+   "prompt": "With which word do the participles <i lang=\"es\">oidas</i>, <i lang=\"es\">vistas</i>, and <i lang=\"es\">soñadas</i> agree?",
+   "explain": "The participles modify <i lang=\"es\">cosas</i> and are feminine plural. They are joined by <i lang=\"es\">ni</i> and <i lang=\"es\">y aun</i>.",
    "options": [
-    "<i lang=\"es\">Amor</i>, the noun that follows",
-    "<i lang=\"es\">Dios</i>, the name that ends the sentence",
-    "<i lang=\"es\">Dardo</i>, the noun of the first sentence",
-    "<i lang=\"es\">Me</i>, which stands for the writer, a woman"
+    "<i lang=\"es\">cosas</i>, in gender and number",
+    "<i lang=\"es\">ver</i>, the infinitive that begins the phrase",
+    "<i lang=\"es\">soldados</i>, the noun of the earlier clause",
+    "<i lang=\"es\">sueños</i>, the noun that stands nearest before"
    ],
-   "answer": 3,
+   "answer": 0,
    "passageRef": "prose-56"
   },
   {

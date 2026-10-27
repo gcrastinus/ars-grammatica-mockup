@@ -233,3 +233,14 @@ As section 14, with these additions and changes:
 ## Cervantes prologue dropped from `lang.x.es` (27 Oct 2026)
 
 Timothy's decision: no passage from an edition not shown to modernize. No replacement from a different author with a verified modernizing edition was found quickly, so the deck `lang.x.es/cervantes` was removed (deck file, the item in `data/languages/x.es.js`, the rows of the quotation check and of TRANSLATIONS-USED). The source files remain for the record. `lang.x.es` now has seven model decks. The Gracián deck (Reyes 1918, no statement of modernization found) is in the same position and is left for Timothy's decision.
+
+## Modernization rule withdrawn; texts restored (27 Oct 2026)
+
+Timothy's instruction: restore everything dropped or changed because of the rule that every pre-1800 quotation must come from an edition shown to modernize. Done:
+
+- **Cervantes prologue (`lang.x.es/cervantes`).** Deck, item in `data/languages/x.es.js`, and the rows of the quotation check and of TRANSLATIONS-USED restored. Text kept as the edition of Rodríguez Marín (1911), already read; a note at the top of the first panel says that the spelling is as printed in that edition. `lang.x.es` has eight model decks again.
+- **Garcilaso XXIII (IX poetry).** Back to the Sancha edition of 1817 (line 4 "Con clara luz la tempestad serena"; *ayrado*, *elado*). Cards, question point, exercise items, Sources note, quotation check restored; the source file of the 1911 text is removed.
+- **Quevedo (IX poetry).** Back to *Cerrar podrá mis ojos*, Janer 1877 (`sources/spanish/quevedo-soneto.txt`), with its cards, question point, exercise items, quotation check and TRANSLATIONS row; the file for *Miré los muros* is removed.
+- **Bernal Díaz (IX prose).** Back to the Vedia text (BAE 26, 1853), with its cards, including the card on the text and its spelling, exercise items, quotation check and TRANSLATIONS row; the file for Teresa, *Vida* ch. 29, is removed.
+- **Left as it is:** Cervantes I.1 and I.8 in IX prose stay with Rodríguez Marín (1911); the Sources notes say honestly, edition by edition, which state a modernizing policy and which do not.
+- **Still open:** the Gracián deck (Reyes 1918) was never changed.
