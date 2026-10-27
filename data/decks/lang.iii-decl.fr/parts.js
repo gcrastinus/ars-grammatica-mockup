@@ -4,12 +4,12 @@ ARS.decks["lang.iii-decl.fr/parts"] = {
  "id": "lang.iii-decl.fr/parts",
  "title": "Variable and Invariable Words in French",
  "sub": "The parts of speech of the French school grammar, set beside the eight of Donatus",
- "sources": "Lawless; Larousse; Le Conjugueur; Maurice Grevisse, <i>Le Bon Usage</i>; Donatus, <i>Ars minor</i>",
+ "sources": "Lawless; Larousse; Le Conjugueur; Maurice Grevisse, <i>Le Bon Usage</i>; Donatus, <i>Ars minor</i> and <i>Ars maior</i> (Keil, <i>Grammatici Latini</i> IV); Servius, commentary on Donatus (the same volume)",
  "panels": [
   {
    "id": "classes",
    "title": "The classes of words",
-   "body": "<p>In <i lang=\"fr\">le petit garçon chante bien</i> (“the little boy sings well”), the words <i lang=\"fr\">le</i>, <i lang=\"fr\">petit</i>, <i lang=\"fr\">garçon</i>, and <i lang=\"fr\">chante</i> change their form with gender, number, or person (<i lang=\"fr\">la petite fille</i>, <i lang=\"fr\">les petits garçons chantent</i>), whereas <i lang=\"fr\">bien</i> never changes. French school grammars divide the words of the language in just this way, into <strong>variable words</strong> (<i lang=\"fr\">mots variables</i>), which change their form, and <strong>invariable words</strong> (<i lang=\"fr\">mots invariables</i>), which do not. This is the same division that Donatus makes between the declinable and the indeclinable parts of speech.</p>\n<p>The French grammars usually count nine classes: five variable, the noun (<i lang=\"fr\">nom</i>), the determiner (<i lang=\"fr\">déterminant</i>, which includes the article), the adjective (<i lang=\"fr\">adjectif</i>), the pronoun (<i lang=\"fr\">pronom</i>), and the verb (<i lang=\"fr\">verbe</i>); and four invariable, the adverb (<i lang=\"fr\">adverbe</i>), the preposition (<i lang=\"fr\">préposition</i>), the conjunction (<i lang=\"fr\">conjonction</i>), and the interjection (<i lang=\"fr\">interjection</i>).</p>",
+   "body": "<p>In <i lang=\"fr\">le petit garçon chante bien</i> (“the little boy sings well”), the words <i lang=\"fr\">le</i>, <i lang=\"fr\">petit</i>, <i lang=\"fr\">garçon</i>, and <i lang=\"fr\">chante</i> change their form with gender, number, or person (<i lang=\"fr\">la petite fille</i>, <i lang=\"fr\">les petits garçons chantent</i>), whereas <i lang=\"fr\">bien</i> never changes. French school grammars divide the words of the language in just this way, into <strong>variable words</strong> (<i lang=\"fr\">mots variables</i>), which change their form, and <strong>invariable words</strong> (<i lang=\"fr\">mots invariables</i>), which do not. Latin grammar draws a similar line among the eight parts of speech. Donatus says that, of the eight, three are inflected by the six cases, the noun, the pronoun, and the participle (<i>Ars maior</i> II), and a late ancient commentary on Donatus adds that the verb is inflected by tenses and that the other four parts are not inflected (Servius, commentary on the <i>Ars</i> of Donatus, in Keil, <i>Grammatici Latini</i> IV, p. 428).</p>\n<p>The French grammars usually count nine classes: five variable, the noun (<i lang=\"fr\">nom</i>), the determiner (<i lang=\"fr\">déterminant</i>, which includes the article), the adjective (<i lang=\"fr\">adjectif</i>), the pronoun (<i lang=\"fr\">pronom</i>), and the verb (<i lang=\"fr\">verbe</i>); and four invariable, the adverb (<i lang=\"fr\">adverbe</i>), the preposition (<i lang=\"fr\">préposition</i>), the conjunction (<i lang=\"fr\">conjonction</i>), and the interjection (<i lang=\"fr\">interjection</i>).</p>",
    "qp": {
     "id": "q-fr-classes",
     "variants": [
@@ -36,15 +36,15 @@ ARS.decks["lang.iii-decl.fr/parts"] = {
       "explain": "The French school grammar puts the article with the possessive and demonstrative determiners in one variable class, the <i lang=\"fr\">déterminant</i>."
      },
      {
-      "prompt": "Which of Donatus’s divisions answers to the French variable and invariable words?",
+      "prompt": "Which four of Donatus’s eight parts of speech are not inflected, as the French invariable words are not?",
       "options": [
-       "The declinable and the indeclinable parts",
-       "The noun and the verb",
-       "Proper and common nouns",
-       "Simple and compound words"
+       "The adverb, preposition, conjunction, and interjection",
+       "The noun, pronoun, verb, and participle",
+       "The noun, verb, adverb, and conjunction",
+       "The pronoun, participle, preposition, and interjection"
       ],
       "answer": 0,
-      "explain": "Donatus divides the parts of speech into those that are declined (changed in form) and those that are not, as the French grammars divide the variable and the invariable words."
+      "explain": "The adverb, preposition, conjunction, and interjection are not inflected in Latin, as the French invariable words are not; the noun, pronoun, verb, and participle are inflected, by case or by tense."
      }
     ]
    }

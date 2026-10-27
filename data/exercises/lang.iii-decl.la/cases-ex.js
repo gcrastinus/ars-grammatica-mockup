@@ -320,7 +320,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "Is the marked word declinable or indeclinable, and what part of speech is it? <em lang=\"la\">Puer <b>currit</b>.</em>",
-   "explain": "<em lang=\"la\">Currit</em> is a verb, which changes its ending for person, number, tense, mood, and voice (<em lang=\"la\">currō, currit, currēbat</em>), so it is declinable in Donatus’s sense, that is, it is inflected.",
+   "explain": "<em lang=\"la\">Currit</em> is a verb, which changes its ending for person, number, tense, mood, and voice (<em lang=\"la\">currō, currit, currēbat</em>), so it is inflected, which is what “declinable” means here.",
    "options": [
     "Declinable: a noun",
     "Declinable: a verb",
