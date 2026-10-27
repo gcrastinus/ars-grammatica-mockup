@@ -1,0 +1,22 @@
+SOURCE FILE: passages of Miguel de Cervantes quoted in lang.ix.es/prose (Don Quijote, Part I, chapter 1, the first two sentences; Part I, chapter 8, the first speech of Don Quixote at the windmills). B14 (27 Oct 2026): replaces the Aribau text of 1864, kept in cervantes-quijote-i-1-and-i-8-bae1-1864.txt for the record.
+WORK: Miguel de Cervantes Saavedra (1547-1616), El ingenioso hidalgo don Quijote de la Mancha, Part I (1605). The author died in 1616 and the work was first published in 1605.
+EDITION OF THE SPANISH: El ingenioso hidalgo Don Quijote de la Mancha, ed. Francisco Rodríguez Marín, Clásicos Castellanos, vol. 1 (Madrid: Ediciones de "La Lectura," 1911). The editor died in 1943; the edition is of 1911. Its preface states no rule of spelling; the text is in the Academy's spelling of 1911 (see the card "The text and its spelling" in lang.x.es/cervantes).
+TEXT READ: Internet Archive item donquijotedelama01cerv. Chapter 1: printed pages 47 (first sentence up to "astillero,"), 48 (adarga antigua, rocín flaco y galgo corredor.), 49 and 50 (second sentence), read from the page images n66, n67, n68, n69. Chapter 8: printed page 189, read from the page image n208.
+ENGLISH: John Ormsby, translation of Don Quixote (1885), as printed in Project Gutenberg #996. Real published translation (unchanged).
+
+### Spanish, I.1 (printed pages 47 to 50)
+En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda.
+
+### Spanish, I.8 (printed page 189, first paragraph)
+En esto, descubrieron treinta ó cuarenta molinos de viento que hay en aquel campo, y así como don Quijote los vió, dijo á su escudero: —La ventura va guiando nuestras cosas mejor de lo que acertáramos á desear; porque ves allí, amigo Sancho Panza, dónde se descubren treinta, ó pocos más, desaforados gigantes, con quien pienso hacer batalla y quitarles á todos las vidas, con cuyos despojos comenzaremos á enriquecer; que ésta es buena guerra, y es gran servicio de Dios quitar tan mala simiente de sobre la faz de la tierra.
+
+### English (Ormsby, I.1)
+In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing. An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made away with three-quarters of his income.
+[Matched sentence for sentence: two Spanish sentences, two English sentences.]
+
+### Spanish, I.8 (printed page 269, first paragraph; the edition prints no quotation marks and no dialogue dash)
+En esto descubrieron treinta ó cuarenta molinos de viento que hay en aquel campo; y así como D. Quijote los vió, dijo á su escudero: La ventura va guiando nuestras cosas mejor de lo que acertáramos á desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta ó pocos mas desaforados gigantes con quien pienso hacer batalla y quitarles á todos las vidas, con cuyos despojos comenzarémos á enriquecer; que esta es buena guerra, y es gran servicio de Dios quitar tan mala simiente de sobre la faz de la tierra.
+
+### English (Ormsby, I.8)
+At this point they came in sight of thirty or forty windmills that there are on that plain, and as soon as Don Quixote saw them he said to his squire, “Fortune is arranging matters for us better than we could have shaped our desires ourselves, for look there, friend Sancho Panza, where thirty or more monstrous giants present themselves, all of whom I mean to engage in battle and slay, and with whose spoils we shall begin to make our fortunes; for this is righteous warfare, and it is God’s good service to sweep so evil a breed from off the face of the earth.”
+[Matched: one long Spanish sentence, one English sentence; the English renders «mejor de lo que acertáramos á desear» freely ("better than we could have shaped our desires ourselves") and «ves allí» as the imperative "look there".]

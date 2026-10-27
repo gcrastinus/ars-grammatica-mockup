@@ -32,13 +32,13 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <i lang=\"es\">no há mucho tiempo que vivia un hidalgo</i>, what is the subject of <i lang=\"es\">vivia</i>?",
-   "explain": "A new subject often follows its verb in Spanish. The verb <i lang=\"es\">há</i> is impersonal and counts the time, but <i lang=\"es\">vivia</i> has its own subject, <i lang=\"es\">un hidalgo</i>.",
+   "prompt": "In <i lang=\"es\">no ha mucho tiempo que vivía un hidalgo</i>, what is the subject of <i lang=\"es\">vivía</i>?",
+   "explain": "A new subject often follows its verb in Spanish. The verb <i lang=\"es\">ha</i> is impersonal and counts the time, but <i lang=\"es\">vivía</i> has its own subject, <i lang=\"es\">un hidalgo</i>.",
    "options": [
     "<i lang=\"es\">tiempo</i>, the noun that precedes the verb",
     "<i lang=\"es\">la Mancha</i>, the place named in the first clause",
     "<i lang=\"es\">un hidalgo</i>, which stands after the verb",
-    "No subject is understood, because <i lang=\"es\">vivia</i> is impersonal"
+    "No subject is understood, because <i lang=\"es\">vivía</i> is impersonal"
    ],
    "answer": 2,
    "passageRef": "prose-1"
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the second sentence, why is <i lang=\"es\">consumian</i> plural?",
+   "prompt": "In the second sentence, why is <i lang=\"es\">consumían</i> plural?",
    "explain": "The subject, a list of dishes, comes before the verb, and the verb is held back to the end. Nothing follows it that could be its subject: <i lang=\"es\">las tres partes de su hacienda</i> is the object.",
    "options": [
     "Its subject is the whole list of dishes, which is plural",
