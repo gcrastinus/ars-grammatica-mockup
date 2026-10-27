@@ -227,7 +227,7 @@ ARS.exercises["lang.iv.es/composition-ex"] = {
    "explain": "The Latin compound puts the object first and the verbal element second.",
    "options": [
     "<i lang=\"la\">lāti-fundium</i>",
-    "<i lang=\"la\">omni-potens</i>",
+    "<i lang=\"la\">magn-animus</i>",
     "<i lang=\"la\">agri-cola</i>",
     "<i lang=\"la\">septen-decim</i>"
    ],

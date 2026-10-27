@@ -414,13 +414,13 @@ ARS.exercises["lang.v.es/more-ex"] = {
    "deck": "lang.v.es/more-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "How many persons are named in <i lang=\"es\">Le compró flores para su madre</i>?",
+   "prompt": "Do <i lang=\"es\">le</i> and <i lang=\"es\">para su madre</i> refer to the same person in <i lang=\"es\">Le compró flores para su madre</i>?",
    "explain": "A phrase with <i lang=\"es\">para</i> can stand with an indirect object, and the two have different referents.",
    "options": [
-    "One: the pronoun and the phrase name the same person",
-    "Two: the pronoun and the phrase with <i lang=\"es\">para</i> name different persons",
-    "Three: the buyer, the pronoun, and the phrase",
-    "None: the sentence has no indirect object"
+    "Yes: the pronoun and the phrase name the same person",
+    "No: the pronoun and the phrase with <i lang=\"es\">para</i> name different persons",
+    "Yes, because a phrase with <i lang=\"es\">para</i> always repeats the pronoun",
+    "The question does not arise, because the sentence has no indirect object"
    ],
    "answer": 1
   },

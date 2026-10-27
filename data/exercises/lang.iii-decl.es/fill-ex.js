@@ -527,7 +527,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Cuando éramos pequeños, ___ en la calle.</i> (<i lang=\"es\">jugar</i>, “to play”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Cuando éramos pequeños, ___ en la calle.</i> (“When we were small, we used to play in the street”; <i lang=\"es\">jugar</i>)",
    "explain": "The imperfect says that something used to happen: <i lang=\"es\">jugábamos</i>.",
    "options": [
     "<i lang=\"es\">jugábamos</i>",
