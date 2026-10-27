@@ -101,7 +101,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<i lang=\"es\">Recuerde</i> is…",
-   "explain": "<i lang=\"es\">Recuerde</i> is the present subjunctive of <i lang=\"es\">recordar</i>. The stanza opens with a wish that the soul remember.",
+   "explain": "<i lang=\"es\">Recuerde</i> is the present subjunctive of <i lang=\"es\">recordar</i>, which here also has its old sense “to wake.” The stanza opens with a wish that the soul wake and remember.",
    "options": [
     "Subjunctive",
     "A past indicative",
@@ -202,8 +202,8 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Coged</i> tells them to…",
-   "explain": "<i lang=\"es\">Coged</i> is the command to <i lang=\"es\">vosotros</i>, from <i lang=\"es\">coger</i>.",
+   "prompt": "<i lang=\"es\">Coged</i> tells the lady to…",
+   "explain": "<i lang=\"es\">Coged</i> is the imperative of the second person plural, from <i lang=\"es\">coger</i>. The sonnet addresses one lady with the respectful <i lang=\"es\">vos</i>, which takes the plural forms of the verb.",
    "options": [
     "Gather",
     "Remember",
@@ -253,13 +253,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Con el ala á sus cristales</i> has eleven syllables only if…",
-   "explain": "If <i lang=\"es\">ala</i> and <i lang=\"es\">á</i> join, with the other two meetings, the line has ten syllables. It has eleven only if those two stay apart. The count of that one line rests on the pattern of the stanza.",
+   "prompt": "<i lang=\"es\">Y, otra vez, con el ala á sus cristales</i> has eleven syllables because…",
+   "explain": "<i lang=\"es\">Y</i> joins <i lang=\"es\">otra</i>, and the last <i lang=\"es\">a</i> of <i lang=\"es\">ala</i> joins <i lang=\"es\">á</i>. <i lang=\"es\">El</i> ends in a consonant, so it cannot join <i lang=\"es\">ala</i>. With the two synalephas the line has eleven syllables; with none it would have thirteen.",
    "options": [
-    "They stay apart",
-    "Every meeting joins",
-    "The accent adds a syllable",
-    "The commas are counted"
+    "<i lang=\"es\">Y</i> joins <i lang=\"es\">otra</i>, and <i lang=\"es\">ala</i> joins <i lang=\"es\">á</i>",
+    "<i lang=\"es\">El</i> joins <i lang=\"es\">ala</i>",
+    "Every vowel stays apart",
+    "The accent on <i lang=\"es\">á</i> adds a syllable"
    ],
    "answer": 0,
    "passageRef": "poetry-22"
@@ -525,13 +525,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Y ríase la gente</i> has six syllables only if…",
-   "explain": "<i lang=\"es\">Ríase</i> divides <i lang=\"es\">rí</i>, <i lang=\"es\">a</i>, <i lang=\"es\">se</i>. The line has six syllables only if <i lang=\"es\">Y</i> joins <i lang=\"es\">rí</i>. Otherwise it has seven.",
+   "prompt": "How many syllables does <i lang=\"es\">Y ríase la gente</i> have?",
+   "explain": "<i lang=\"es\">Y</i>, <i lang=\"es\">rí</i>, <i lang=\"es\">a</i>, <i lang=\"es\">se</i>, <i lang=\"es\">la</i>, <i lang=\"es\">gen</i>, <i lang=\"es\">te</i>: seven. The <i lang=\"es\">r</i> keeps <i lang=\"es\">Y</i> apart from <i lang=\"es\">rí</i>, and the accent on <i lang=\"es\">í</i> keeps <i lang=\"es\">rí</i> and <i lang=\"es\">a</i> in two syllables. The refrain pairs this line of seven with a line of six.",
    "options": [
-    "<i lang=\"es\">Y</i> joins <i lang=\"es\">rí</i>",
-    "<i lang=\"es\">Ríase</i> is one syllable",
-    "<i lang=\"es\">Gente</i> adds two",
-    "The line is an octosyllable"
+    "Seven",
+    "Six",
+    "Eight",
+    "Five"
    ],
    "answer": 0,
    "passageRef": "poetry-27"

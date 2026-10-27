@@ -203,7 +203,7 @@ ARS.exercises["lang.ii.es/meter-ex"] = {
    "deck": "lang.ii.es/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Who brought the line of eleven syllables into Spanish?",
+   "prompt": "Who established the line of eleven syllables in Spanish?",
    "options": [
     "Cervantes and Lope",
     "Boscán and Garcilaso",
@@ -211,7 +211,7 @@ ARS.exercises["lang.ii.es/meter-ex"] = {
     "Lorca and Machado"
    ],
    "answer": 1,
-   "explain": "In the sixteenth century, from Italy."
+   "explain": "Boscán and Garcilaso established it in the sixteenth century, from Italian poetry, after the fifteenth-century sonnets of the Marqués de Santillana."
   },
   {
    "id": "lang.ii.es/meter-ex:C2",

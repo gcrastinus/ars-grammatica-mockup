@@ -95,7 +95,7 @@ ARS.decks["lang.iv.es/etymology"] = {
   {
    "id": "etymology-3",
    "title": "Words from Germanic and American languages",
-   "body": "<p>A few Spanish words come from the Germanic languages. <i lang=\"es\">Banco</i> (“bench” and “bank”) is derived from Old French <i lang=\"fr\">bank</i>, which comes from a Germanic word; <i lang=\"es\">sopa</i> (“soup”) comes directly from a Germanic word.</p><p>Spanish also took words from the languages of the Americas. <i lang=\"es\">Tomate</i> (“tomato”) comes from Nahuatl, and <i lang=\"es\">maíz</i> (“corn”) from Taíno. The dictionary names the source language in each entry.</p>",
+   "body": "<p>A few Spanish words come from the Germanic languages. <i lang=\"es\">Banco</i> (“bench” and “bank”) is derived from Old French <i lang=\"fr\">banc</i>, which comes from a Germanic word; <i lang=\"es\">sopa</i> (“soup”) comes directly from a Germanic word.</p><p>Spanish also took words from the languages of the Americas. <i lang=\"es\">Tomate</i> (“tomato”) comes from Nahuatl, and <i lang=\"es\">maíz</i> (“corn”) from Taíno. The dictionary names the source language in each entry.</p>",
    "qp": {
     "id": "q-es-ety-germanic",
     "variants": [

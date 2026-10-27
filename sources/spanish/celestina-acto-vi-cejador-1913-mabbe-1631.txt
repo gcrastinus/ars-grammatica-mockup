@@ -1,0 +1,13 @@
+SOURCE FILE: passage of the Celestina quoted in lang.vii.es/figures (Act VI, Celestina's proverbs to Calisto), replacing Don Quijote II.23 (Timothy, 27 Oct 2026)
+WORK: Fernando de Rojas, Comedia (later Tragicomedia) de Calisto y Melibea, called La Celestina. First known edition Burgos, 1499.
+EDITION OF THE SPANISH: Fernando de Rojas, La Celestina, I, edición y notas de Julio Cejador y Frauca (Clásicos Castellanos 20; Madrid: Ediciones de «La Lectura», 1913). The introduction (p. IV-V) says that the edition reproduces the Vigo reprint (1900) of the Valencia edition of 1514 and the Burgos edition of 1499, the latter "con toda fidelidad" in roman type, corrected only for manifest errata, with what the later text adds in italic type. The passage below is wholly in roman type. The edition keeps the old letters (vna, alcança, Çamora, esso, haurías) and prints accents (refrán, haré, ganó; mas without one).
+TEXT READ: Internet Archive item 30081001750748, leaf 263 = printed page 220, lines 13 to 18. Read letter for letter from the page image.
+ENGLISH: James Mabbe, Celestina or the Tragicke-Comedy of Calisto and Melibea, Englished from the Spanish of Fernando de Rojas, anno 1631, with an introduction by James Fitzmaurice-Kelly (London: David Nutt, 1894). Internet Archive item celestinaortrag00kelgoog, leaf 160 = printed page 118. Read letter for letter from the page image. The quotation stops before Mabbe's added sentence "No more was Rome built in one day; nor Troy ruined in a yeere," which has no counterpart in the Spanish.
+
+### Spanish (printed page 220)
+CEL.—Refrán viejo es: quien menos procura, alcança mas bien. Pero yo te haré procurando conseguir lo que siendo negligente no haurías. Consuélate, señor, que en vna hora no se ganó Çamora; pero no por esso desconfiaron los combatientes.
+[The course quotes the speech without the speaker's name and the dash.]
+
+### English (Mabbe, printed page 118)
+CELEST. It is an old Proverbe; He that labours least, often-times gets most. But I will make thee by thy labouring, to obtaine that which by being negligent, thou shouldst never atchieve. For Zamora was not wonne in an houre; yet did not her besiegers for all this despaire. No more was Rome built in one day; nor Troy ruined in a yeere.
+[The course quotes through "despaire."]

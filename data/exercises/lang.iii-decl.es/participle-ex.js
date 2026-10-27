@@ -272,7 +272,7 @@ ARS.exercises["lang.iii-decl.es/participle-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which pair are both correct participles of <i lang=\"es\">freír</i> (“to fry”)?",
-   "explain": "The Academy gives both, and the regular form is the usual one in the compound tenses.",
+   "explain": "The Academy gives both, and both are used in the compound tenses; <i lang=\"es\">frito</i> is the more common.",
    "options": [
     "<i lang=\"es\">freído</i> and <i lang=\"es\">fritado</i>",
     "<i lang=\"es\">frito</i> and <i lang=\"es\">friado</i>",

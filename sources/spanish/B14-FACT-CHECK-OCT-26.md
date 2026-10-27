@@ -244,3 +244,7 @@ Timothy's instruction: restore everything dropped or changed because of the rule
 - **Bernal Díaz (IX prose).** Back to the Vedia text (BAE 26, 1853), with its cards, including the card on the text and its spelling, exercise items, quotation check and TRANSLATIONS row; the file for Teresa, *Vida* ch. 29, is removed.
 - **Left as it is:** Cervantes I.1 and I.8 in IX prose stay with Rodríguez Marín (1911); the Sources notes say honestly, edition by edition, which state a modernizing policy and which do not.
 - **Still open:** the Gracián deck (Reyes 1918) was never changed.
+
+## B14 closing note (27 Oct 2026)
+- Timothy asked that the glosses of *honesto* and *humor* be checked against the clean text of the RAE's NTLLE. The NTLLE (webfrl.rae.es) returns 403 (Cloudflare) to automated requests, so it could not be read. Per Timothy's instruction, only what can be read is cited: the *Diccionario de autoridades* clause on *honesto* (whose key word *modesto* was restored from a garbled scan) was removed from the card in `lang.ix.es/poetry`; the *DLE* glosses of *honesto* and *humor* remain. The Autoridades readings above are kept here only as a record and are not cited in the course.
+- Overview: the dates 1741 and 1951 are already out; 1713 and the motto *Limpia, fija y da esplendor* remain on Autoridades vol. I.
