@@ -186,7 +186,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "In that line, <i lang=\"es\">y</i> joins…",
-   "explain": "Felipe Robles Dégano says (§99, page 86) that a conjunction between two vowels almost always joins the second vowel, and his examples include <i lang=\"es\">y</i>. The place of the join rests on that one book. Either join still gives eleven.",
+   "explain": "Felipe Robles Dégano says (§99, page 86) that a conjunction between two vowels almost always joins the second vowel, and his examples include <i lang=\"es\">y</i>. Either join still gives eleven.",
    "options": [
     "The vowel after it",
     "Both vowels at once",
@@ -424,7 +424,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<i lang=\"es\">El blanco dia</i> lets the line count eleven only if…",
-   "explain": "<i lang=\"es\">Dia</i> is two syllables, <i lang=\"es\">di</i> and <i lang=\"es\">a</i>, and the print writes no accent on it. If it were one syllable, the line would have ten. The count of eleven rests on that division.",
+   "explain": "<i lang=\"es\">Dia</i> is two syllables, <i lang=\"es\">di</i> and <i lang=\"es\">a</i>, because a stressed weak vowel beside another vowel makes two syllables (Robles Dégano, §9), and the print writes no accent on it. If it were one syllable, the line would have ten. The count of eleven rests on that division.",
    "options": [
     "<i lang=\"es\">Dia</i> is two syllables",
     "<i lang=\"es\">Dia</i> is one syllable",

@@ -1,6 +1,6 @@
 SOURCE FILE: entries of the Academy's dictionary of doubts used by the Spanish batch B8 (Section VI, errors and usage)
 WORK: Real Academia Española and Asociación de Academias de la Lengua Española, Diccionario panhispánico de dudas (DPD), 1st ed. (Madrid: Santillana, 2005), in the electronic version of the Academy.
-TEXT READ: the Academy's website (www.rae.es/dpd) refuses automated access, so each entry was read in the copy kept by the Internet Archive (Wayback Machine); the address of each copy is given above the entry. The pages carry the text of the 2005 edition; the entry "fútbol" was captured in the provisional online text of the second edition (consulted 16/11/2023), and its text on the pronunciations is the one used. The text is not compared with the printed book (batch B14). The entries are cut where noted. Spanish quotations in the cards are short phrases taken from these entries.
+TEXT READ: the Academy's website (www.rae.es/dpd) refuses automated access, so each entry was read in the copy kept by the Internet Archive (Wayback Machine); the address of each copy is given above the entry. The pages carry the text of the 2005 edition; the entry "fútbol" was captured in the provisional online text of the second edition (consulted 16/11/2023), and its text on the pronunciations is the one used. The entries are cut where noted. Spanish quotations in the cards are short phrases taken from these entries.
 
 ### haber
 https://web.archive.org/web/2022/https://www.rae.es/dpd/haber

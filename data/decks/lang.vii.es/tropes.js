@@ -4,7 +4,7 @@ ARS.decks["lang.vii.es/tropes"] = {
  "id": "lang.vii.es/tropes",
  "title": "Tropes and Schemes in Spanish",
  "sub": "Metaphor, metonymy, synecdoche, and irony, and anaphora, chiasmus, and antithesis.",
- "sources": "Luis de Góngora, a sonnet, in <i lang=\"es\">Poetas líricos de los siglos XVI y XVII</i>, vol. 1, ed. Adolfo de Castro (Biblioteca de autores españoles 32, Madrid: Rivadeneyra, 1854), which gives the text of the seventeenth century in the spelling of the nineteenth, modern in its letters, though it states no rule of spelling; the English of the verse is the course's own plain translation; Real Academia Española, <i lang=\"es\">Diccionario de la lengua española</i>, the entries <i lang=\"es\">metáfora</i>, <i lang=\"es\">ironía</i>, <i lang=\"es\">anáfora</i>, <i lang=\"es\">quiasmo</i>, and <i lang=\"es\">antítesis</i>; the other Spanish sentences are the course's own",
+ "sources": "Luis de Góngora, a sonnet, in <i lang=\"es\">Poetas líricos de los siglos XVI y XVII</i>, vol. 1, ed. Adolfo de Castro (Biblioteca de autores españoles 32, Madrid: Rivadeneyra, 1854), which gives the text of the seventeenth century in the spelling of the nineteenth, modern in its letters; the English of the verse is the course's own plain translation; Real Academia Española, <i lang=\"es\">Diccionario de la lengua española</i>, the entries <i lang=\"es\">metáfora</i>, <i lang=\"es\">ironía</i>, <i lang=\"es\">anáfora</i>, <i lang=\"es\">quiasmo</i>, and <i lang=\"es\">antítesis</i>; the other Spanish sentences are the course's own",
  "panels": [
   {
    "id": "tropes-1",

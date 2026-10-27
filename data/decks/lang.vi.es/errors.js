@@ -4,7 +4,7 @@ ARS.decks["lang.vi.es/errors"] = {
  "id": "lang.vi.es/errors",
  "title": "Barbarism and Solecism in Spanish",
  "sub": "An error in one Spanish word, and an error in the joining of real Spanish words.",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005), entries <i lang=\"es\">haber</i>, <i lang=\"es\">fútbol</i>, <i lang=\"es\">dequeísmo</i>, <i lang=\"es\">queísmo</i>, <i lang=\"es\">leísmo</i>, <i lang=\"es\">laísmo</i>, and <i lang=\"es\">loísmo</i>; <i lang=\"es\">Nueva gramática de la lengua española: Manual</i> (2010), section 16.5; Donatus, <i>Ars maior</i> III.1–2",
+ "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005), entries <i lang=\"es\">haber</i>, <i lang=\"es\">dequeísmo</i>, <i lang=\"es\">queísmo</i>, <i lang=\"es\">leísmo</i>, <i lang=\"es\">laísmo</i>, and <i lang=\"es\">loísmo</i>, and, in the second edition (provisional version, online), <i lang=\"es\">fútbol</i>; <i lang=\"es\">Nueva gramática de la lengua española: Manual</i> (2010), section 16.5; Donatus, <i>Ars maior</i> III.1–2",
  "panels": [
   {
    "id": "errors-1",

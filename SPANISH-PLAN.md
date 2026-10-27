@@ -557,19 +557,49 @@ Timothy's answers: (1) swap the Quevedo sonnet "Cerrar podrá" for one printed i
 
 Done: the Sources notes (IX prose, IX poetry, the X decks) carry the rights sentence; the ballad edition (Wolf and Hofmann) was found to state its modernizing policy in the introduction of volume 1, page VII, so no swap is needed unless Timothy chooses another ballad; candidates for the Quevedo sonnet and for the Bernal Díaz passage are in `B14-FACT-CHECK-OCT-26.md`, section 16, and are awaiting his choice; the whole-language read (step c) and the feasible items of step (d) are in section 17 (one wrong statement about Donatus corrected; the origin of *ñ* sourced; the 1771 grammar and the 2011 shorter grammar read; the claim on the Arabic article corrected; the optional card on sixteenth-century spellings not built for lack of a source). The remaining items need printed books, see section 18.
 
-START FROM: B14, continued (waiting for Timothy's choice of the Quevedo sonnet, of the ballad (keep or swap), and of the Bernal Díaz replacement; then the items of section 18 that need printed books). Do not start B15 until he says go.
+SUPERSEDED, see "B14 closed": START FROM: B14, continued (waiting for Timothy's choice of the Quevedo sonnet, of the ballad (keep or swap), and of the Bernal Díaz replacement; then the items of section 18 that need printed books). Do not start B15 until he says go.
 
 
 ### B14, fourth part (27 Oct 2026)
 Done: Quevedo swapped to *Miré los muros* (Fernández-Guerra 1907, p. 405); ballad kept; Bernal Díaz replaced by Santa Teresa, *Vida* 29 (Mesa y López 1912, Lewis 1904); "subordinate clause" course-wide (own commit); Donatus source line corrected in `iii.parts`. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 19.
 Still waiting on Timothy: whether to correct the Donatus statement in `lang.iii-decl.de/parts` and `lang.iii-decl.fr/parts` and the phrase in `lang.iii-decl.la/cases-ex`; the items on the Needs list.
-START FROM: B14, continued (the Needs list; Timothy's decision on the German and French Donatus statements). Do not start B15 until he says go.
+SUPERSEDED, see "B14 closed": START FROM: B14, continued (the Needs list; Timothy's decision on the German and French Donatus statements). Do not start B15 until he says go.
 
 ### B14, fifth part (27 Oct 2026)
 Done: Donatus statement corrected in the German and French parts decks and one Latin phrase; "dependent" with clauses changed to "subordinate"; macrons of 55 Latin words checked (two corrected); Robles §99 and §91 cited; meter, overview, orthography and syllable decks limited to what was read. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 20.
 Timothy (27 Oct): the printed books cannot be supplied; "Spanish on" is not to wait for them.
-START FROM: B14 is complete as far as the sources allow. Wait for Timothy to say go; then B15 ("Spanish on").
+SUPERSEDED, see "B14 closed": START FROM: B14 is complete as far as the sources allow. Wait for Timothy to say go; then B15 ("Spanish on").
 
 ### B15 (27 Oct 2026): Spanish on
 Done in one commit, not pushed. Steps 1 to 7 as written (the line numbers of steps 5 were stale; the language lists in `app.js` for II.6 and IX, in `data/structure.js` for ii.meter, and in the course description of `index.html` now name Spanish). Step 4 also meant dropping the maker-hidden check from `browser-check --maker` and deleting `test/maker-hidden-check.js`. Step 7: ten screen files; `browser-check` reports 60 screens. Step 8: lang-audit, browser-check --maker, lang-order-speech-check, guided-check and levels-check all pass. Rolling back is a single revert of the commit.
 
+
+### B14 closed (27 Oct 2026)
+
+Timothy's instructions of 27 Oct: the printed books will not be supplied (*Métrica española*, the *Ortografía* chapter, the printed *Manual*); no Sources note or card may say that something was "not compared with the printed book" or "machine-read"; each note names only the sources that support its claims; where a claim could be checked only in a book we lack, it is cut or softened; the list of unverified items is kept here and nowhere students see.
+
+**Done in this closing batch.**
+- Sources notes and cards cleaned of every statement of non-comparison: `lang.ii.es/meter`, `orthography` (the `src` note too), `syllable`, `lang.prelim.es/overview` (its Academy statements now rest on the *Diccionario de autoridades*, the grammar of 1771, Morales's presentation of the *Ortografía* of 2010, and the Instituto Cervantes yearbook; the dates 1741 and 1951 were cut, and "about five hundred million" became "more than five hundred million"), `lang.ix.es/poetry`, `lang.ix.es/prose` (and the card `prose-57`), `lang.vii.es/figures` and `tropes`, `lang.x.es/becquer` and `dario`. `lang.vi.es/errors` and `usage` now name the entry *fútbol* as read in the second edition of the DPD (provisional version, online).
+- Garcilaso, *presto* (20.6): the only copy of the Sancha edition of 1817 online is `obrasdegarcilas00goog`; no second copy exists on the Internet Archive, and Google Books and HathiTrust could not be searched from here. The Garcilaso of 1821 and the Navarro Tomás of 1911 print *presto*; the 1817 text stays, quoted with *presto*. Recorded in the fact check (section 12) and the quotation check.
+- Chaytor: 1922 everywhere (the Internet Archive catalog also gives 1922); no other date was found in the records or the decks.
+- Autoridades: found on the Internet Archive (tomo IV, 1734, `bub_gb_mHMTMwW5nAQC`). *Honesto*: "modesto y virtuoso" (read in the optical text, which garbles *modesto*); *humor*: "cuerpo líquido y fluido." The *honesto* card now cites it beside the DLE.
+- DPD *fútbol*: the 2005 text could not be reached (the Academy's site refuses automated access; the earliest Wayback captures found carry the second edition, provisional version). The statements about *fúlbol*, *fúrbol*, *fóbal* stay, and the Sources notes say which text was read.
+- Robles Dégano (items that carry exercise questions): §92 (pages 82 to 83) supports the oxytone assonance of *albor* and *galardon* and the added *e* of the old ballads; §9 supports the two syllables of *dia* (a stressed weak vowel beside another vowel); §99 (page 86) supports the joins of *y*, *Y* before *rí*, and *Mi* before *ú*; §91 supports *aire*. No passage was found for the individual cases of Bécquer's *ala á* and San Juan's *ya*; the cards and items say that those counts rest on the pattern of the stanza, which is what they do.
+- Audit (`lang-audit --verbose`): 0 failures; the warnings in Spanish are the dialogue dashes of four quoted passages and the British "Honour" of Markham's English, all quoted as printed. `browser-check --maker`: 60 screens, 223 decks, 1768 panels, 168 exercises, 5352 items rendered, no problems.
+
+**Unverified items (kept here only).** These rest on sources we have, but could not be checked against the books named, which will not be supplied:
+1. Syllable counts of the ten poems and of the X verse models: the course's own count by the rules of the meter card and Robles Dégano; not checked against Navarro Tomás, *Métrica española*.
+2. The *Ortografía* of 2010: read only through Morales's presentation; the cards on letters and punctuation rest on it and on the 1999 *Ortografía*, the 1952 norms, and Casares.
+3. `lang.prelim.es/overview`: dates, peoples, and the history of the language not compared with Lapesa or Penny; the founding of the Academy in 1713 rests on the first volume of *Autoridades*.
+4. The *Manual* (2010): the 205 section numbers cited were read in a machine text of the book, not the printed one.
+5. The statement on the adjective that rests on the grammar of 1973, through Delgado Torrico (2016).
+6. The Latin examples of Allen and Greenough: macrons checked against Wiktionary, not the printed book.
+7. The DLE (23rd ed.) glosses and etymologies were read in an optical text.
+8. The course's own Spanish sentences were checked against the Academy's rules, not against a corpus or a native reader.
+9. The Gutenberg transcriptions (Palacio Valdés, *La barraca*, *Doña Perfecta*) were not compared with a scan.
+10. The date when *e* and *u* lost the accent in the older-spelling card (the card gives 1911 for *a* only).
+11. Bécquer's *ala á* and San Juan's *ya*: no word-level statement in Robles.
+12. The DPD entry *fútbol* in the 2005 text; the Instituto Cervantes figure for speakers is taken from press reports of the 2025 yearbook.
+13. Donatus, *Ars maior* II and Keil IV, p. 428: pages read in an optical text of the volume.
+
+START FROM: B14 is closed and B15 ("Spanish on") is done; both are committed. Hold. Timothy decides whether to begin the revision of Sections II–XI (CLAUDE.md, "Current stage").

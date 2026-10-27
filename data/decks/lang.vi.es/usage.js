@@ -4,7 +4,7 @@ ARS.decks["lang.vi.es/usage"] = {
  "id": "lang.vi.es/usage",
  "title": "Common Questions of Usage in Spanish",
  "sub": "The norm and the Academy, regional variety, and the loanword.",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005), the introduction (“Qué es”), the note on loanwords (“Tratamiento de los extranjerismos”), and the entries <i lang=\"es\">seseo</i>, <i lang=\"es\">yeísmo</i>, <i lang=\"es\">voseo</i>, <i lang=\"es\">web</i>, <i lang=\"es\">club</i>, and <i lang=\"es\">fútbol</i>",
+ "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Diccionario panhispánico de dudas</i> (2005), the introduction (“Qué es”), the note on loanwords (“Tratamiento de los extranjerismos”), and the entries <i lang=\"es\">seseo</i>, <i lang=\"es\">yeísmo</i>, <i lang=\"es\">voseo</i>, <i lang=\"es\">web</i>, <i lang=\"es\">club</i>, and, in the second edition (provisional version, online), <i lang=\"es\">fútbol</i>",
  "panels": [
   {
    "id": "usage-1",

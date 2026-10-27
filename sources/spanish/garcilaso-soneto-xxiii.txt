@@ -2,7 +2,7 @@ SOURCE FILE: Garcilaso de la Vega, Soneto XXIII, quoted in lang.ix.es/poetry
 WORK: Obras de Garcilaso de la Vega, ilustradas con notas. Segunda edición. Madrid: En la Imprenta de Sancha, 1817. Title page read from the scan (Internet Archive obrasdegarcilas00goog, PDF page 9). The title page names no annotator. Garcilaso died in 1536. The book was printed in 1817.
 TEXT READ: Internet Archive obrasdegarcilas00goog, PDF page 208 (printed page 170). Read from the page image on 26 Oct 2026, then again from line crops of the same image. Nothing was altered except the one letter noted below.
 
-The t of “presto” is broken in the scan: a tight crop of that word shows a gap in the letter, and one optical reading gives “pres:o.” The letter is read as t, and the word is quoted as “presto.”
+The t of “presto” is broken in the scan: a tight crop of that word shows a gap in the letter, and one optical reading gives “pres:o.” The letter is read as t, and the word is quoted as “presto.” The 1821 edition (obrasdegarcilas02vegagoog) and the Navarro Tomás text of 1911 print “presto” plainly; no second copy of the 1817 edition was found online.
 
 Commas sit close to the preceding word. The colons after “serena,” “desordena,” and “elado” are printed with a space before them, and that space is kept.
 

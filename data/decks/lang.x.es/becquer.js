@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/becquer"] = {
  "id": "lang.x.es/becquer",
  "title": "Bécquer’s Rima XXI",
  "sub": "A model passage, with points of style and composition",
- "sources": "Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco: The History Company, 1891), whose preface, signed “Los editores,” says that the text was collated with the original; the first line has a low mark after <i lang=\"es\">dices</i> that is read as a comma; the translation is the course’s own plain rendering, line by line; the syllable counts of the points of style (11, 11, 11, 7) are the course’s own count by the rules of the meter card, not yet compared with Navarro Tomás, <i lang=\"es\">Métrica española</i>.",
+ "sources": "Gustavo Adolfo Bécquer, <i lang=\"es\">Rimas</i>, novísima edición americana (San Francisco: The History Company, 1891), whose preface, signed “Los editores,” says that the text was collated with the original; the first line has a low mark after <i lang=\"es\">dices</i> that is read as a comma; the translation is the course’s own plain rendering, line by line; the syllable counts of the points of style (11, 11, 11, 7) are the course’s own count by the rules of the meter card.",
  "panels": [
   {
    "id": "text",

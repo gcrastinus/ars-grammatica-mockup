@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/orthography"] = {
  "id": "lang.ii.es/orthography",
  "title": "Spanish Spelling: Letters, Sounds, and Punctuation",
  "sub": "The Spanish alphabet, how the sounds are spelled in Spain, the inverted question and exclamation marks, capitals, and older spellings",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Julio Casares, “Las ‘Nuevas Normas de Prosodia y Ortografía’,” <i lang=\"es\">Boletín de la Real Academia Española</i> 38 (1958). The <i lang=\"es\">Ortografía</i> of 2010 was read through the presentation of Amparo Morales for the Academies (2011), not in the book itself",
+ "sources": "Amparo Morales, presentation of the <i lang=\"es\">Ortografía de la lengua española</i> of 2010 for the Academies (2011); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Julio Casares, “Las ‘Nuevas Normas de Prosodia y Ortografía’,” <i lang=\"es\">Boletín de la Real Academia Española</i> 38 (1958)",
  "panels": [
   {
    "id": "letters",
@@ -48,7 +48,7 @@ ARS.decks["lang.ii.es/orthography"] = {
      }
     ]
    },
-   "src": "The origin of ñ (a doubled nn written short) is stated by the Academy’s Diccionario panhispánico de dudas (2005), entry ñ, 2: «El castellano medieval escogió el dígrafo nn, que se solía representar abreviadamente mediante una sola n con una rayita más o menos ondulada encima; así surgió la ñ» (read on 27 Oct 2026 in the Wayback Machine copy of rae.es/dpd/ñ; B14). The Ortografía of 2010 itself was not read. Timothy, 26 Oct 2026."
+   "src": "The origin of ñ (a doubled nn written short) is stated by the Academy’s Diccionario panhispánico de dudas (2005), entry ñ, 2: «El castellano medieval escogió el dígrafo nn, que se solía representar abreviadamente mediante una sola n con una rayita más o menos ondulada encima; así surgió la ñ»"
   },
   {
    "id": "sounds",

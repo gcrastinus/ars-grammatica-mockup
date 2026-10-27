@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/meter"] = {
  "id": "lang.ii.es/meter",
  "title": "Spanish Meter",
  "sub": "Counting syllables to the last stress, synalepha, the line of eight syllables, the line of eleven, and rhyme",
- "sources": "Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables, synalepha, assonance, and the alexandrine; Tomás Navarro Tomás, introduction to <i lang=\"es\">Garcilaso, Obras</i> (Clásicos Castellanos; Madrid, 1911), p. XIII. The lines are counted by the course. Navarro Tomás, <i lang=\"es\">Métrica española</i>, and the Academy’s <i lang=\"es\">Ortografía</i> of 2010 were not read",
+ "sources": "Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables, synalepha, assonance, and the alexandrine; Tomás Navarro Tomás, introduction to <i lang=\"es\">Garcilaso, Obras</i> (Clásicos Castellanos; Madrid, 1911), p. XIII. The lines are counted by the course",
  "panels": [
   {
    "id": "meter-1",
