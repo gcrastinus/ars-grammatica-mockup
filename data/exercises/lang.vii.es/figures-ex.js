@@ -32,7 +32,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which sentence shows hyperbaton?",
-   "explain": "In <i lang=\"es\">Del árbol cubría la sombra el camino</i> the phrase <i lang=\"es\">del árbol</i> is separated by the verb from the noun it belongs to, <i lang=\"es\">la sombra</i>, as in Góngora's <i lang=\"es\">Era del año la estacion florida</i>. In the other sentences <i lang=\"es\">la sombra del árbol</i> stands together, whatever the order of subject and verb.",
+   "explain": "In <i lang=\"es\">Del árbol cubría la sombra el camino</i> the phrase <i lang=\"es\">del árbol</i> is separated by the verb from the noun it belongs to, <i lang=\"es\">la sombra</i>, as in Góngora's <i lang=\"es\">Era del año la estación florida</i>. In the other sentences <i lang=\"es\">la sombra del árbol</i> stands together, whatever the order of subject and verb.",
    "options": [
     "<i lang=\"es\">La sombra del árbol cubría el camino</i>",
     "<i lang=\"es\">Cubría el camino la sombra del árbol</i>",
