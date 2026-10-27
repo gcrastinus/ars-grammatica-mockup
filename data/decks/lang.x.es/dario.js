@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/dario"] = {
  "id": "lang.x.es/dario",
  "title": "Darío’s Sonatina",
  "sub": "A model passage, with points of style and composition",
- "sources": "Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires: Imprenta de Pablo E. Coni é Hijos, 1896), whose first printing is quoted as printed (the print has a space before the question mark of the third line); the translation is the course’s own plain rendering, line by line.",
+ "sources": "Rubén Darío, <i lang=\"es\">Prosas profanas y otros poemas</i> (Buenos Aires: Imprenta de Pablo E. Coni é Hijos, 1896), whose first printing is quoted as printed (the print has a space before the question mark of the third line); the translation is the course’s own plain rendering, line by line; the count of fourteen syllables in every line and the rhyme AABCCB are the course’s own count by the rules of the meter card, not yet compared with Navarro Tomás, <i lang=\"es\">Métrica española</i>.",
  "panels": [
   {
    "id": "text",

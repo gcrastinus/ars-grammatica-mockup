@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/gracian"] = {
  "id": "lang.x.es/gracian",
  "title": "Gracián on Suspense",
  "sub": "A model passage, with points of style and composition",
- "sources": "Baltasar Gracián, <i lang=\"es\">Tratados</i>, ed. Alfonso Reyes (Madrid: Casa Editorial Calleja, 1918), <i lang=\"es\">Oráculo manual</i>, which prints modern spelling and says that it follows the text of Amsterdam, 1659; the English is that of Joseph Jacobs, <i>The Art of Worldly Wisdom</i> (London: Macmillan, 1892).",
+ "sources": "Baltasar Gracián, <i lang=\"es\">Tratados</i>, ed. Alfonso Reyes (Madrid: Casa Editorial Calleja, 1918), <i lang=\"es\">Oráculo manual</i>, which prints modern spelling but states no rule of spelling, and says in a note that it follows the text of Amsterdam, 1659; the English is that of Joseph Jacobs, <i>The Art of Worldly Wisdom</i> (London: Macmillan, 1892).",
  "panels": [
   {
    "id": "text",
