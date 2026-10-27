@@ -1,0 +1,24 @@
+SOURCE FILE: sonnet quoted in lang.ix.es/poetry (Francisco de Quevedo, "Miré los muros de la patria mía," fourteen lines)
+WORK: Francisco de Quevedo y Villegas (1580-1645). The author died in 1645.
+EDITION: Obras completas de don Francisco de Quevedo Villegas, edición crítica, ordenada é ilustrada por D. Aureliano Fernández-Guerra y Orbe, de la Real Academia Española, con notas y adiciones de D. Marcelino Menéndez y Pelayo, de la misma Academia. Tomo tercero y segundo de las Poesías. Sevilla: Sociedad de Bibliófilos Andaluces, Imp. de Francisco de P. Díaz, 1907. Fernández-Guerra died in 1894 and Menéndez y Pelayo in 1912. First published 1907: public domain in the United States.
+TEXT READ: Internet Archive item obrascompletasd03orbegoog, leaf n422 = printed page 405 (poem 80, under the heading "ENSEÑA / COMO TODAS LAS COSAS AVISAN DE LA MUERTE"), read from the page image (27 Oct 2026). The title page was read from the machine text. The printed book could not be compared (B14).
+SPELLING: The print writes the accent on the í of mía, valentía, bebía, día and on Miré, Salíme, Entré, sentí, hurtó, hallé, habitación, báculo, más. The poems on the same page print Á and Ó with the accent (the spelling before 1911); the sonnet has neither. The volume states no rule of spelling (searched the machine text for moderniz-, grafía, acentua-, escritura, ortogr-). Three notes in the volume say that Janer, the earlier editor, modernized the language ("modernizando el habla," "modernizando el lenguaje"); they say nothing of the spelling of this edition. The course quotes the text as printed and says in the Sources note that the letters are modern and that no rule is stated.
+ENGLISH: the course's own plain rendering of the verse, line by line, stated in the Sources note. Every word is given.
+Lines begin with a capital letter in the print; the course keeps that.
+Printed punctuation: a comma after mía, desmoronados, cansados, desatados, ganados, amancillada, espada; a period after valentía, día, fuerte, muerte; a semicolon after casa (line 9) and despojos; none after bebía and ojos; "Salíme al campo;" has a semicolon.
+
+### Sonnet (printed page 405)
+Miré los muros de la patria mía,
+Si un tiempo fuertes, ya desmoronados,
+De la carrera de la edad cansados,
+Por quien caduca ya su valentía.
+Salíme al campo; vi que el sol bebía
+Los arroyos del hielo desatados,
+Y del monte quejosos los ganados,
+Que con sombras hurtó su luz al día.
+Entré en mi casa; vi que, amancillada,
+De anciana habitación era despojos;
+Mi báculo, más corvo y menos fuerte.
+Vencida de la edad sentí mi espada,
+Y no hallé cosa en que poner los ojos
+Que no fuese recuerdo de la muerte.

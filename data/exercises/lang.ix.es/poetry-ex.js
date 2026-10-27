@@ -423,13 +423,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">El blanco dia</i> lets the line count eleven only if…",
-   "explain": "<i lang=\"es\">Dia</i> is two syllables, <i lang=\"es\">di</i> and <i lang=\"es\">a</i>, and the print writes no accent on it. If it were one syllable, the line would have ten. The count of eleven rests on that division.",
+   "prompt": "In <i lang=\"es\">la patria mía</i>, <i lang=\"es\">mía</i> is…",
+   "explain": "The written accent on the <i lang=\"es\">í</i> keeps the two vowels apart, so <i lang=\"es\">mía</i> is <i lang=\"es\">mí</i> and <i lang=\"es\">a</i>, a hiatus. The stress falls on <i lang=\"es\">mí</i>.",
    "options": [
-    "<i lang=\"es\">Dia</i> is two syllables",
-    "<i lang=\"es\">Dia</i> is one syllable",
-    "The comma adds a syllable",
-    "<i lang=\"es\">Sombra</i> loses one"
+    "Two syllables, with a hiatus",
+    "One syllable, with a diphthong",
+    "Three syllables",
+    "One syllable that joins the next word"
    ],
    "answer": 0,
    "passageRef": "poetry-47"
@@ -440,13 +440,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Dexarán</i> in this print is…",
-   "explain": "<i lang=\"es\">Dexarán</i> is the future of <i lang=\"es\">dexar</i>, and it is plural. The soul, the veins, and the marrows will leave the body.",
+   "prompt": "How many syllables does <i lang=\"es\">valentía</i> have?",
+   "explain": "<i lang=\"es\">Va</i>, <i lang=\"es\">len</i>, <i lang=\"es\">tí</i>, <i lang=\"es\">a</i>: the accent on the <i lang=\"es\">í</i> makes a hiatus, so there are four syllables.",
    "options": [
-    "Plural",
-    "Singular",
-    "A participle",
-    "A command"
+    "Four",
+    "Three",
+    "Five",
+    "Two"
    ],
    "answer": 0,
    "passageRef": "poetry-47"
@@ -457,13 +457,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Mas</i> before <i lang=\"es\">tendrá</i> means…",
-   "explain": "<i lang=\"es\">Mas</i> with no accent is “but.” They will be ash, but it will have feeling.",
+   "prompt": "In <i lang=\"es\">Salíme al campo</i>, the syllables <i lang=\"es\">me</i> and <i lang=\"es\">al</i> count as…",
+   "explain": "The <i lang=\"es\">e</i> of <i lang=\"es\">me</i> joins the <i lang=\"es\">a</i> of <i lang=\"es\">al</i>, so the two count as one syllable, <i lang=\"es\">meal</i>.",
    "options": [
-    "But",
-    "More",
-    "A hand",
-    "Never"
+    "One syllable",
+    "Two syllables",
+    "Three syllables",
+    "No syllable"
    ],
    "answer": 0,
    "passageRef": "poetry-47"
@@ -474,13 +474,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <i lang=\"es\">Cerrar podrá mis ojos la postrera</i>, the sixth syllable is…",
-   "explain": "The syllables are <i lang=\"es\">Ce</i>, <i lang=\"es\">rrar</i>, <i lang=\"es\">po</i>, <i lang=\"es\">drá</i>, <i lang=\"es\">mis</i>, <i lang=\"es\">o</i>. No two vowels meet. The stress of <i lang=\"es\">ojos</i> falls on that <i lang=\"es\">o</i>.",
+   "prompt": "In <i lang=\"es\">Miré los muros de la patria mía</i>, the tenth syllable is…",
+   "explain": "The syllables are <i lang=\"es\">Mi</i>, <i lang=\"es\">ré</i>, <i lang=\"es\">los</i>, <i lang=\"es\">mu</i>, <i lang=\"es\">ros</i>, <i lang=\"es\">de</i>, <i lang=\"es\">la</i>, <i lang=\"es\">pa</i>, <i lang=\"es\">tria</i>, <i lang=\"es\">mí</i>, <i lang=\"es\">a</i>. The tenth is <i lang=\"es\">mí</i>, and one syllable follows, so the line counts eleven.",
    "options": [
-    "<i lang=\"es\">O</i> of <i lang=\"es\">ojos</i>",
-    "<i lang=\"es\">A</i> of <i lang=\"es\">cerrar</i>",
-    "<i lang=\"es\">E</i> of <i lang=\"es\">postrera</i>",
-    "<i lang=\"es\">O</i> of <i lang=\"es\">podrá</i>"
+    "<i lang=\"es\">Mí</i> of <i lang=\"es\">mía</i>",
+    "<i lang=\"es\">Tria</i> of <i lang=\"es\">patria</i>",
+    "<i lang=\"es\">A</i> of <i lang=\"es\">mía</i>",
+    "<i lang=\"es\">Pa</i> of <i lang=\"es\">patria</i>"
    ],
    "answer": 0,
    "passageRef": "poetry-47"
@@ -491,13 +491,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of <i lang=\"es\">podrá desatar</i> is…",
-   "explain": "<i lang=\"es\">Hora</i> is the subject, an hour, and <i lang=\"es\">lisonjera</i> agrees with it. The hour will be able to untie the soul.",
+   "prompt": "<i lang=\"es\">Desmoronados</i> agrees with…",
+   "explain": "<i lang=\"es\">Desmoronados</i> is masculine plural and agrees with <i lang=\"es\">muros</i>, as <i lang=\"es\">fuertes</i> and <i lang=\"es\">cansados</i> do.",
    "options": [
-    "<i lang=\"es\">Hora</i>",
-    "<i lang=\"es\">Alma</i>",
-    "<i lang=\"es\">Sombra</i>",
-    "<i lang=\"es\">Memoria</i>"
+    "<i lang=\"es\">Muros</i>",
+    "<i lang=\"es\">Patria</i>",
+    "<i lang=\"es\">Tiempo</i>",
+    "<i lang=\"es\">Edad</i>"
    ],
    "answer": 0,
    "passageRef": "poetry-47"

@@ -502,7 +502,7 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | San Juan de la Cruz, “Noche oscura” | stanzas 1 and 2, *Obras*, tomo 3 (Toledo, 1914) | lang.ix.es/poetry | the course’s own |
 | Federico García Lorca, “Romance de la luna, luna” | opening, through *Huye luna, luna, luna*, *Primer romancero gitano* (Madrid, 1928) | lang.ix.es/poetry | the course’s own |
 | José de Espronceda, *Canción del pirata* | opening sixteen lines and the refrain, *Poesías* (Madrid, Yenes, 1840) | lang.ix.es/poetry | the course’s own |
-| Francisco de Quevedo, “Amor constante más allá de la muerte” | whole sonnet, *Obras*, poesías, tomo tercero (Madrid, Rivadeneyra, 1877) | lang.ix.es/poetry | the course’s own |
+| Francisco de Quevedo, “Miré los muros de la patria mía” | whole sonnet, *Obras completas*, tomo 3 (Seville, Sociedad de Bibliófilos Andaluces, 1907), p. 405 | lang.ix.es/poetry | the course’s own (verse), stated in the Sources note; every word given |
 
 ### Section X, Spanish (read-only models)
 
