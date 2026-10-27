@@ -165,3 +165,45 @@ CLAUDE.md rule 8 stands: an English word mentioned as a word takes double quotat
 
 - **Ballad.** The first pass of B14 said that Wolf and Hofmann state no policy. That was wrong: the statement is in the introduction to volume 1 (page VII; Internet Archive `primaverayflorde01wolf`, leaf n14), and Menéndez y Pelayo reprints it in the second edition (*Antología de poetas líricos castellanos*, vol. VIII, "Primavera y flor de romances," tomo I, Madrid, 1899, Biblioteca Clásica 208; `antologadepoeta01pelagoog`), where the prisoner's ballad is no. 114 on page 229. Wolf and Hofmann: "Se entiende, que hemos adoptado la ortografía, puntuación y acentuación según ahora se usan, conservando solamente la ortografía de los originales, cuando señala al mismo tiempo una diferencia etimológica." The Sources note and the spelling card of IX poetry were corrected.
 - **Rights, by Timothy's rule of 27 Oct.** The rule that counts is the author of the passage and the date of first publication of the edition. The Sources notes of the five X decks, of IX prose and of IX poetry now say that the text is that of the edition of its year, public domain in the United States, and that only the passage is quoted. The Chaytor edition in the course is that of 1922 (Manchester University Press; the preface says "orthography, accentuation, and punctuation have been modernised"); Timothy wrote 1918, which does not match the copy read.
+
+## 16. Candidates shown to Timothy (27 Oct 2026); nothing switched until he chooses
+
+**Quevedo, replacing "Cerrar podrá" (IX poetry).** Edition: Fernández-Guerra y Orbe, with notes and additions by Menéndez y Pelayo, *Obras completas de don Francisco de Quevedo Villegas, edición crítica* (Seville: Sociedad de Bibliófilos Andaluces). Both editors died before 1946 (1894 and 1912). The edition states no rule of spelling in the pages read (searched: *ortograf*, *moderniz*, *grafía*, *acentu*); it prints modern letters (*invidia*, *incendios*, *ansí*; accent on *á* and *ó* of its time). Its footnotes say that Janer "modernizó el habla," that is, the edition itself keeps the words of the original.
+
+| First line | Teaches | Where |
+|---|---|---|
+| *Miré los muros de la patria mía* | Hendecasyllable; hiatus in *-ía* words at the line end (*mía*, *valentía*, *bebía*, *día*), the same point as *dia* and *mia* in the old sonnet; the preterite in a series (*miré*, *salí*, *vi*, *entré*, *sentí*) | tomo 3 of the *Obras* (poesías, tomo 2), Seville, 1907, p. 405 |
+| *Retirado en la paz de estos desiertos* ("Desde la Torre") | Hendecasyllable; synalepha (*ojos á los muertos*, *Ó enmiendan*); the figure of conversing with the dead | same volume, p. 427 |
+| *Buscas en Roma á Roma ¡oh peregrino!* ("A Roma sepultada en sus ruinas") | Hendecasyllable; synalepha and the interjection *oh*; repetition of a word in two senses | tomo 2 (poesías, tomo 1), Seville, 1903, p. 273 |
+
+Recommendation: *Miré los muros*, since it teaches the same hiatus point as the sonnet it replaces. The volume that contains "Cerrar podrá" was not found on the Internet Archive.
+
+**Ballad.** The prisoner's ballad needs no swap (section 15): the edition of Wolf and Hofmann states its policy of modernizing. If Timothy prefers another ballad of the same collection, in the second edition by Menéndez y Pelayo (*Antología de poetas líricos castellanos*, vol. VIII, Madrid, 1899; the editors' statement of policy is reprinted in its *Advertencia*): no. 78 *Abenámar, Abenámar, moro de la morería* (border ballad, p. 161), no. 153 *¡Quién hubiese tal ventura* (the Count Arnaldos), p. 270, and no. 114a *Por el mes era de mayo* (the second version of the same ballad, p. 229). All three carry the same policy statement as no. 114.
+
+**Bernal Díaz, replaced by prose in an edition that states modernization (IX prose).**
+
+| Candidate | Spanish edition and statement | English | Passage |
+|---|---|---|---|
+| *Lazarillo de Tormes*, Tratado primero, the stone bull ("Salimos de Salamanca ... pensar como me sepa valer") | Chaytor, Manchester University Press, 1922, p. 4 to 5; preface: "The orthography, accentuation, and punctuation have been modernised." Already the edition of two passages of the course | Clements R. Markham, *The Life of Lazarillo de Tormes* (London: A. and C. Black, 1908), pages 11 and 12; the English follows the Spanish sentence by sentence | about 200 words; teaches the preterite series and the direct speech in guillemets, which the deck lacks |
+| Santa Teresa, *Libro de la vida*, chapter 29, sections 16 and 17 (the angel with the golden spear) | Mesa y López, Nelson, 1912, pp. 202 to 203; the introduction says that the edition does not reproduce the saint's spelling | David Lewis (1870), third edition, London: Thomas Baker, 1904, pp. 255 to 256 | about 250 words; teaches the imperfect and the preterite in description, the relative clause |
+
+Recommendation: the *Lazarillo* passage (the translation is nearer to the Spanish, and the edition is the one the course already cites). The 2010 transcription of Bernal Díaz is not cited.
+
+## 17. B14 items done in this part
+
+- (c) Whole-language read of Sections I to X, by programs and by reading of the cards: terms unified (*weak pronoun* to *unstressed pronoun*, one *simple past* to *preterite* in an option, *noun group* to *noun phrase*, *weak form* to *unstressed form*); the course's own list of the *dependent* and *subordinate clause*, which both occur in every language of the course, left as it is; five duplicates between a question point and an exercise item replaced (`lang.iii-indecl.es/compared-ex`, three items, in different respects); one *you* of address in an exercise prompt (`lang.ii.es/orthography-ex`); the statement on *sólo* in IX prose reconciled with the spelling of 2010 in `lang.ii.es`; "the Academy's spelling of 1911" corrected where the Rodríguez Marín edition prints *á* (which the Academy dropped in 1911); the dates of the accents on *á* (1911) and *fué* (1952, binding from 1959) made consistent between X and II; 828 exercise items and 426 question-point variants checked for answer keys and options (no errors found; 24 items with a low overlap between explanation and key were read and are right); every `passageRef` of IX exists.
+- (3) *ñ*: stated by the *DPD* (2005), entry *ñ* (see the `src` note of the card).
+- (4), (7) The 1771 grammar of the Academy was read (Internet Archive `gramticadelale00real`): the preface says that the parts of speech are nine and the adjective is "nombre adjetivo" (Part I, chapter III, article III). The *Nueva gramática básica* (2011) was read (`nueva-gramatica-basica-de-la-lengua-espanola`, chapter I): it lists the nine classes with the determiner in the place of the article and divides them into variable (determiners, adjectives, pronouns, nouns, verbs) and invariable (adverbs, prepositions, conjunctions, interjections). The *Esbozo* of 1973 is a restricted (borrowable) copy and was not used; the statement on 1973 still rests on Delgado Torrico (2016).
+- (8) Donatus: **a statement of the `parts` deck was wrong and was corrected.** Donatus does not divide the eight parts into declinable and indeclinable. In the *Ars maior* II he says that of the eight, three are inflected by the six cases (noun, pronoun, participle) (Keil, *Grammatici Latini* IV, p. 372 to 373; read in the Internet Archive item `bub_gb_77dGAAAAcAAJ`). The division into three inflected by case, one by tense and four not declined is in the late ancient commentary printed in the same volume under the name of Servius (Sergius), p. 428. The deck now says so.
+- (13) The Arabic article: the DLE (23rd ed., OCR) was counted: 915 headwords of the form "(Del ár. ...)", of which 477 begin with *a-* and 300 with *al-*. The claim "some four thousand words" is not supported by the DLE and was replaced by the count.
+- The optional card on sixteenth-century spellings was **not built**: the Academy's *DPD* entry *x* (§ 3 and 4) supports the medieval *x* and is already used; for *ç*, *ss*, *u/v* and *y* no Academy text was found (the *DPD* entry *ç* is not in the web archive). Lapesa's *Historia de la lengua española* or the *Ortografía* of 2010 is needed.
+- Items (9) to (19) rest on the machine-read *Manual*, the DLE read in OCR, and page images; their comparison with printed copies is on the list below.
+
+## 18. Needs Timothy or a printed copy (final list of this part)
+
+As section 14, with these additions and changes:
+- Allen and Greenough, printed book: the macrons of the Latin examples of the decks B6 and B7 (items 14, 15), about thirty examples.
+- Lapesa, *Historia de la lengua española*, or the *Ortografía* of 2010: sixteenth-century spellings (*ç*, *ss*, *u/v*, *y*); the date when *e* and *u* lost the accent (item 5).
+- The *Esbozo* of 1973 (restricted copy): for the statement on the adjective.
+- Autoridades (the *Diccionario de autoridades*, 1726 to 1739): not found on the Internet Archive; the *DLE* is the source cited for *humor* and *honesto*.
+- The page of *Ars maior* II in a printed Donatus, to confirm the Keil reference (the OCR of the volume was read).
