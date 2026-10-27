@@ -101,7 +101,7 @@ ARS.exercises['v.ex.period'] = {
     "<i>rediērunt</i>"
    ],
    "answer": 4,
-   "explain": "The clauses with <i>cum</i> and <i>quī</i> are dependent, and the subject <i>mīlitēs</i> waits for its verb. <i>Rediērunt</i>, standing last, completes the construction and the sense.",
+   "explain": "The clauses with <i>cum</i> and <i>quī</i> are subordinate, and the subject <i>mīlitēs</i> waits for its verb. <i>Rediērunt</i>, standing last, completes the construction and the sense.",
    "level": 2
   },
   {
@@ -611,7 +611,7 @@ ARS.exercises['v.ex.period'] = {
    "type": "identify",
    "prompt": "(Jane Austen, <i>Pride and Prejudice</i>, chapter 1. The British spelling is Austen’s.) Click the protasis.",
    "answer": 0,
-   "explain": "The clause with “however” is dependent and holds the sense in suspense; the main clause, “this truth is so well fixed,” answers it.",
+   "explain": "The clause with “however” is subordinate and holds the sense in suspense; the main clause, “this truth is so well fixed,” answers it.",
    "tokens": [
     "However little known the feelings or views of such a man may be on his first entering a neighbourhood,",
     "this truth is so well fixed in the minds of the surrounding families,",
@@ -692,7 +692,7 @@ ARS.exercises['v.ex.period'] = {
    "type": "identify",
    "prompt": "(Matthew 7:24, King James Version.) Click the main clause.",
    "answer": 1,
-   "explain": "“I will liken him” is the main clause; the “whosoever” clause before it and the “which” clause after it are dependent.",
+   "explain": "“I will liken him” is the main clause; the “whosoever” clause before it and the “which” clause after it are subordinate.",
    "tokens": [
     "Therefore whosoever heareth these sayings of mine, and doeth them,",
     "I will liken him unto a wise man,",

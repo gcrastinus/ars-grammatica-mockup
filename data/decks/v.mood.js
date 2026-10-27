@@ -12,7 +12,7 @@ ARS.decks['v.mood'] = {
   recitation: [
     `Mood and voice are accidents of the verb, but they are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another.`,
     `The voice of a verb decides which word is its subject and how the doer of the action is expressed.`,
-    `The mood of a verb often shows whether its clause is independent or dependent, and what kind of subordinate clause it is.`,
+    `The mood of a verb often shows whether its clause is independent or subordinate, and what kind of subordinate clause it is.`,
     `Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged.`,
     `In a passive sentence the one who receives the action becomes the subject, and the doer may be named or left out.`,
     `When the doer is a person, Latin expresses it by <i>ā</i> or <i>ab</i> with the ablative, the <strong>ablative of agent</strong>; when the means is a thing, Latin uses the ablative without a preposition, the <strong>ablative of means</strong>.`,
@@ -52,7 +52,7 @@ ARS.decks['v.mood'] = {
 
 { id: 'intro',
   title: 'Mood and voice as relations of construction',
-  body: `<p>“The storm damaged the bridge” and “The bridge was damaged by the storm” report the same event, but the change of voice changes which word is the subject and how the cause is expressed. So mood and voice, which we studied in Section III as accidents of the verb, are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another. The voice of a verb decides which word is its subject and how the doer of the action is expressed. The mood of a verb often shows whether its clause is independent or dependent, and what kind of subordinate clause it is.</p>
+  body: `<p>“The storm damaged the bridge” and “The bridge was damaged by the storm” report the same event, but the change of voice changes which word is the subject and how the cause is expressed. So mood and voice, which we studied in Section III as accidents of the verb, are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another. The voice of a verb decides which word is its subject and how the doer of the action is expressed. The mood of a verb often shows whether its clause is independent or subordinate, and what kind of subordinate clause it is.</p>
 <p>Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged (<i>Institutiones grammaticae</i> XVIII). We will study the passive and its agent, the infinitive and the participle in construction, and the subjunctive in independent and subordinate clauses.</p>`,
   src: `Priscian, <i>Institutiones grammaticae</i> XVIII, in paraphrase.` },
 

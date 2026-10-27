@@ -192,7 +192,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What is the marked clause? They also serve <span class=\"target\">who only stand and waite</span>.",
-   "explain": "The clause tells which “they.” “Who” is the subject of “stand.” The spelling “waite” is the spelling of Milton’s text. The clause is dependent, and the sentence is complex. (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
+   "explain": "The clause tells which “they.” “Who” is the subject of “stand.” The spelling “waite” is the spelling of Milton’s text. The clause is subordinate, and the sentence is complex. (John Milton, Sonnet 19, from the “Poems” of 1673, in Beeching’s edition (Oxford, 1900))",
    "options": [
     "Adjective clause",
     "Independent clause",
@@ -1008,7 +1008,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? For loan oft loses both itself and friend; And borrowing dulls the edge of husbandry.",
-   "explain": "The semicolon joins two independent clauses. “For” at the head of the first clause is coordinating in this course, so that clause is not dependent. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "The semicolon joins two independent clauses. “For” at the head of the first clause is coordinating in this course, so that clause is not subordinate. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1360,7 +1360,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "The main clause is “It is a truth.” The “that”-clause stands in apposition to “truth” and is dependent. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "The main clause is “It is a truth.” The “that”-clause stands in apposition to “truth” and is subordinate. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1392,7 +1392,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Train up a child in the way he should go: and when he is old, he will not depart from it.",
-   "explain": "“Train up a child” and “he will not depart from it” are two independent clauses, so the sentence is at least compound. “He should go” and “when he is old” are dependent. Two independents and a subordinate clause make the sentence compound-complex. A compound-complex sentence has at least two independent clauses and at least one subordinate clause. (The King James Version (the Oxford text of 1769), Proverbs 22:6)",
+   "explain": "“Train up a child” and “he will not depart from it” are two independent clauses, so the sentence is at least compound. “He should go” and “when he is old” are subordinate. Two independents and a subordinate clause make the sentence compound-complex. A compound-complex sentence has at least two independent clauses and at least one subordinate clause. (The King James Version (the Oxford text of 1769), Proverbs 22:6)",
    "options": [
     "Compound-complex sentence",
     "Simple sentence",

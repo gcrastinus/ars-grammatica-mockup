@@ -180,7 +180,7 @@ ARS.exercises['v.ex.clause'] = {
     "Compound-complex"
    ],
    "answer": 3,
-   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a subordinate clause. Two independent clauses with a dependent one make a compound-complex sentence.",
+   "explain": "“The candle guttered” and “the room grew dark” are independent clauses, and “when the wind rose” is a subordinate clause. Two independent clauses with a subordinate one make a compound-complex sentence.",
    "level": 1
   },
   {

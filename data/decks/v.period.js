@@ -85,7 +85,7 @@ ARS.decks['v.period'] = {
     { prompt: `In Latin <i>cum hostēs appropinquārent, cīvēs, quamquam territī erant, portās clausērunt</i> (“when the enemy were approaching, the citizens, though they were frightened, shut the gates”), where does the sense become complete?`,
       options: [`At <i>appropinquārent</i>`, `At <i>territī erant</i>`, `At <i>cīvēs</i>`, `At <i>clausērunt</i>`],
       answer: 3,
-      explain: `The clauses with <i>cum</i> and <i>quamquam</i> are dependent, and the subject <i>cīvēs</i> waits for its verb. Only <i>clausērunt</i>, standing last, completes the construction and the sense at the same moment.` },
+      explain: `The clauses with <i>cum</i> and <i>quamquam</i> are subordinate, and the subject <i>cīvēs</i> waits for its verb. Only <i>clausērunt</i>, standing last, completes the construction and the sense at the same moment.` },
     { prompt: `Which two conditions of a good construction does the period join?`,
       options: [`Rhyme and meter in the last member`, `Congruity and completeness`, `Truth and falsity`, `Order and emphasis`],
       answer: 1,

@@ -227,7 +227,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: “Because the lamp was lit”",
-   "explain": "The clause is well formed inside itself. “Because” marks it as dependent, so the sense is not complete until a main clause is added.",
+   "explain": "The clause is well formed inside itself. “Because” marks it as subordinate, so the sense is not complete until a main clause is added.",
    "options": [
     "Congruous but incomplete: the sense is unfinished",
     "Congruous and complete: the sense is now finished",
