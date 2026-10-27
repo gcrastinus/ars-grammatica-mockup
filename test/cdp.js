@@ -8,23 +8,26 @@ const { spawn } = require('child_process'); const http=require('http'), fs=requi
 const TYPES={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.svg':'image/svg+xml'};
 exports.launch = async function(root, opts){
   opts=opts||{};
+  const errors=[];
   let base=opts.base;
   let srv=null;
   if(!base){
     srv=await new Promise(res=>{const s=http.createServer((req,rsp)=>{const p=path.join(root,decodeURIComponent(req.url.split('?')[0]));
       if(!p.startsWith(root)||!fs.existsSync(p)||fs.statSync(p).isDirectory()){rsp.writeHead(404);rsp.end();return;}
-      rsp.writeHead(200,{'Content-Type':TYPES[path.extname(p)]||'application/octet-stream'});fs.createReadStream(p).pipe(rsp);});
+      /* a read error (e.g. a file being synced by Dropbox) is answered with 500 and reported, not left to crash the check */
+      const st=fs.createReadStream(p);st.on('error',e=>{errors.push('server: could not read '+path.relative(root,p)+' ('+e.code+')');if(!rsp.headersSent)rsp.writeHead(500);rsp.end();});
+      st.on('open',()=>{rsp.writeHead(200,{'Content-Type':TYPES[path.extname(p)]||'application/octet-stream'});st.pipe(rsp);});});
       s.listen(0,'127.0.0.1',()=>res(s));});
     base='http://127.0.0.1:'+srv.address().port;
   }
   const prof=fs.mkdtempSync(path.join(os.tmpdir(),'ag-chrome-'));
   const chrome=spawn(process.env.CHROME||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',['--headless=new','--disable-gpu','--no-first-run','--remote-debugging-port=0','--user-data-dir='+prof,'about:blank'],{stdio:['ignore','ignore','pipe']});
   let wsUrl='';
-  await new Promise((res,rej)=>{chrome.stderr.on('data',d=>{const m=String(d).match(/ws:\/\/[^\s]+/);if(m&&!wsUrl){wsUrl=m[0];res();}});setTimeout(()=>rej(new Error('no chrome')),15000);});
+  await new Promise((res,rej)=>{chrome.on('error',e=>rej(new Error('Chrome could not be started: '+e.message)));chrome.stderr.on('data',d=>{const m=String(d).match(/ws:\/\/[^\s]+/);if(m&&!wsUrl){wsUrl=m[0];res();}});setTimeout(()=>rej(new Error('no chrome')),15000);});
   const ver=await (await fetch(wsUrl.replace(/^ws/,'http').replace(/\/devtools\/browser\/.*/,'/json/new?about:blank'),{method:'PUT'})).json();
   const ws=new WebSocket(ver.webSocketDebuggerUrl); await new Promise(r=>ws.addEventListener('open',r));
-  let seq=0; const pending={}; const errors=[];
-  ws.addEventListener('message',ev=>{const m=JSON.parse(ev.data);
+  let seq=0; const pending={};
+  ws.addEventListener('message',ev=>{let m;try{m=JSON.parse(ev.data);}catch(e){errors.push('devtools: unreadable message');return;}
     if(m.id&&pending[m.id]){pending[m.id](m);delete pending[m.id];}
     if(m.method==='Runtime.exceptionThrown')errors.push('exception: '+(m.params.exceptionDetails.exception&&m.params.exceptionDetails.exception.description||m.params.exceptionDetails.text));
     if(m.method==='Runtime.consoleAPICalled'&&m.params.type==='error')errors.push('console: '+m.params.args.map(a=>a.value||a.description).join(' '));

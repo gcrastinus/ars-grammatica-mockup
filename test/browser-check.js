@@ -19,13 +19,21 @@ const MAKER = process.argv.includes('--maker');
 const CHROME = process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.svg': 'image/svg+xml' };
 
+/* A file that cannot be read when the page asks for it (for example while Dropbox is syncing it, between the
+   existence test and the read) is answered with 500 and listed as a problem. Unhandled, that read error crashed
+   the whole check with a bare Node error (27 Oct 2026). */
+const serveErrors = [];
 function serve(){
   return new Promise(res => {
     const srv = http.createServer((req, rsp) => {
-      const p = path.join(ROOT, decodeURIComponent(req.url.split('?')[0]));
-      if (!p.startsWith(ROOT) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { rsp.writeHead(404); rsp.end(); return; }
-      rsp.writeHead(200, { 'Content-Type': TYPES[path.extname(p)] || 'application/octet-stream' });
-      fs.createReadStream(p).pipe(rsp);
+      let p;
+      try {
+        p = path.join(ROOT, decodeURIComponent(req.url.split('?')[0]));
+        if (!p.startsWith(ROOT) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { rsp.writeHead(404); rsp.end(); return; }
+      } catch (e) { serveErrors.push('server: ' + req.url + ' (' + e.code + ')'); rsp.writeHead(500); rsp.end(); return; }
+      const st = fs.createReadStream(p);
+      st.on('error', e => { serveErrors.push('server: could not read ' + path.relative(ROOT, p) + ' (' + e.code + ')'); if (!rsp.headersSent) rsp.writeHead(500); rsp.end(); });
+      st.on('open', () => { rsp.writeHead(200, { 'Content-Type': TYPES[path.extname(p)] || 'application/octet-stream' }); st.pipe(rsp); });
     });
     srv.listen(0, '127.0.0.1', () => res(srv));
   });
@@ -40,6 +48,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     '--user-data-dir=' + prof, 'about:blank'], { stdio: ['ignore', 'ignore', 'pipe'] });
   let wsUrl = '';
   await new Promise((res, rej) => {
+    chrome.on('error', e => rej(new Error('Chrome could not be started: ' + e.message)));
     chrome.stderr.on('data', d => { const m = String(d).match(/ws:\/\/[^\s]+/); if (m && !wsUrl) { wsUrl = m[0]; res(); } });
     setTimeout(() => rej(new Error('Chrome did not start')), 15000);
   });
@@ -48,7 +57,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await new Promise(r => ws.addEventListener('open', r));
   let seq = 0; const pending = {}; const errors = [];
   ws.addEventListener('message', ev => {
-    const m = JSON.parse(ev.data);
+    let m;
+    try { m = JSON.parse(ev.data); } catch (e) { errors.push('devtools: unreadable message'); return; }
     if (m.id && pending[m.id]) { pending[m.id](m); delete pending[m.id]; }
     if (m.method === 'Runtime.exceptionThrown') errors.push('exception: ' + (m.params.exceptionDetails.exception && m.params.exceptionDetails.exception.description || m.params.exceptionDetails.text));
     if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') errors.push('console: ' + m.params.args.map(a => a.value || a.description).join(' '));
@@ -138,7 +148,11 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   ws.close(); chrome.kill(); srv.close();
   try { fs.rmSync(prof, { recursive: true, force: true }); } catch (e) {}
   console.log(`Screens ${report.screens}, decks ${report.decks}, panels ${report.panels}, exercises ${report.exercises}, items rendered ${report.items}.`);
-  const problems = report.problems.concat(errors);
+  /* A web font that Google Fonts did not deliver is a failure of the network, not of the course (seen 27 Oct 2026:
+     net::ERR_FAILED on fonts.googleapis.com during the Quiz Maker part). It is printed as a note, not counted. */
+  const external = e => /https:\/\/fonts\.(googleapis|gstatic)\.com\//.test(e);
+  errors.filter(external).forEach(e => console.log('  NOTE (network, not counted)  ' + e));
+  const problems = report.problems.concat(errors.filter(e => !external(e)), serveErrors);
   if (makerReport){
     console.log('Quiz Maker: ' + makerReport.summary);
     problems.push(...makerReport.problems);
@@ -147,3 +161,5 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   console.log(problems.length ? problems.length + ' problems.' : 'No problems.');
   process.exit(problems.length ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });
+/* Anything else that escapes is a fault of this check, not of the course: say so instead of a bare Node error. */
+process.on('uncaughtException', e => { console.error('The check itself failed (not the course): ' + (e && e.stack || e)); process.exit(2); });
