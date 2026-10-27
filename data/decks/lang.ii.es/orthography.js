@@ -48,7 +48,7 @@ ARS.decks["lang.ii.es/orthography"] = {
      }
     ]
    },
-   "src": "The origin of ñ (a doubled nn written short) rests on one secondary source, Spanish Wikipedia, \"Ñ\" (see sources/spanish/B1-FACT-CHECK-OCT-25.md). To be checked against the Academy's Ortografía (2010) in batch B14. Timothy, 26 Oct 2026."
+   "src": "The origin of ñ (a doubled nn written short) is stated by the Academy’s Diccionario panhispánico de dudas (2005), entry ñ, 2: «El castellano medieval escogió el dígrafo nn, que se solía representar abreviadamente mediante una sola n con una rayita más o menos ondulada encima; así surgió la ñ» (read on 27 Oct 2026 in the Wayback Machine copy of rae.es/dpd/ñ; B14). The Ortografía of 2010 itself was not read. Timothy, 26 Oct 2026."
   },
   {
    "id": "sounds",
