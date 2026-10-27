@@ -540,4 +540,16 @@ Done in this batch: the Cervantes prologue (above); item (1) of the B14 row (low
 
 Not done: see `B14-FACT-CHECK-OCT-26.md`, sections 6 and 7 ("Needs Timothy or a printed copy"; "Not yet done"), including items (2) to (22) that need a printed book, the Robles Dégano comparison, the citations of *humor* and *honesto*, the whole-language read of Sections I to X for terms and answer keys, and the optional card on sixteenth-century spellings.
 
-START FROM: B14, continued (the work above is committed; B14 is not closed). Do not start B15 until the rows of "Not yet done" are finished or Timothy has decided them, and until the passages marked "no statement found" are replaced or accepted by Timothy.
+### B14, second part (27 Oct 2026), after Timothy's answers to the report
+
+Timothy's answers, recorded and carried out:
+
+1. The Cervantes prologue from Rodríguez Marín (Clásicos Castellanos, 1911) is accepted; the Sources note and the card keep saying that his preface states no rule of spelling and that the edition follows the Academy's spelling.
+2. Cervantes I.1 and I.8 in IX prose now come from Rodríguez Marín (pages 47 to 50 and 189). Changed: the passage text of panels `prose-1` and `prose-17`, the context sentences of both, the card `prose-3` (*ha*, *vivía*), `prose-4` (*rocín*), `prose-5` (*consumían*), `prose-6` (the spelling card), `prose-18`, `prose-20` (*dónde*, *más*), `prose-21` (*comenzaremos*, *ésta*), the Sources note, and two exercise items of `lang.ix.es/prose-ex` (`n1`: *no ha mucho tiempo que vivía*; `n3`: *consumían*). Item `n12` (*vió*) is unchanged because the new edition also prints *vió*.
+3. Principle: keep a passage where the edition visibly uses modern spelling even if it states no rule, and say so in the Sources note; swap where the edition keeps old spelling. Garcilaso XXIII now comes from Navarro Tomás (Clásicos Castellanos, 1911, p. 231), which states a modernizing policy; line 4 reads *enciende el corazón y lo refrena*. Changed: the poem and its English, the context, cards `poetry-6`, `poetry-18`, `poetry-19`, `poetry-21`, the question point of `poetry-17` (*airado*), exercise item `n12` of `lang.ix.es/poetry-ex`, the Sources note. Góngora, San Juan, Gracián, Hartzenbusch and the Quevedo of VII: the Sources notes now say that the edition's spelling is modern and that it states no rule. Left for Timothy's decision (section 8 of `B14-FACT-CHECK-OCT-26.md`): Quevedo "Cerrar podrá" (Janer keeps *x*), the ballad (Wolf and Hofmann keep *yago*, *dia*), Bernal Díaz (Vedia keeps nineteenth-century spelling; no modernizing edition found).
+4. The five readings of the Manual were reworded to what the Manual supports (section 10 of the fact-check file); nothing was cut.
+5. Mentioned words: CLAUDE.md rule 8 confirmed; Spanish words in the new Cervantes card are in italics.
+6. B14 continues. Done in the second part: steps (a) and the first of (b) (Robles §99 and *rielar*, *presto*, the citations of *humor* and *honesto*). Not done: the other six counts of the Robles list, the whole-language read of Sections I to X (step c), and the rest of items (2) to (22) (step d), the optional card on sixteenth-century spellings, the rights review of the editors (first pass in section 13 of the fact-check file: Navarro Tomás died in 1979 and does not meet the course's cutoff for the editor).
+
+START FROM: B14, continued (steps (c) and (d) of Timothy's order of 27 Oct 2026, and the three passages of section 8 marked for his decision). Do not start B15 until those are done or decided.
+

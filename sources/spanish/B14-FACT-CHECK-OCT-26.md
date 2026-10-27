@@ -85,3 +85,77 @@ The style and grammar readings of the other Spanish decks were checked in B2 to 
 ## 7. Not yet done in this batch
 
 The comparison of the Robles Dégano counts and of *presto* with a second copy; the citations of *humor* and *honesto*; the checks of the DLE glosses of items 12 to 19; the read of every Spanish deck for consistency (item D of the second prompt); the count of the poetry deck and exercise against French and German; the optional card on sixteenth-century spellings; the full-language audit reading beyond the automated audits.
+
+# Second part of B14 (27 Oct 2026), after Timothy's answers
+
+## 8. One list of every pre-1800 passage, its edition, and what the edition says about spelling
+
+"Visibly modern" means that the passage as printed shows no old letters (no *x* for *j*, no *ç*, no *ayrado*), though accents are those of the edition's own time.
+
+| Passage | Edition | What it says or shows | Status |
+|---|---|---|---|
+| Lazarillo (IX prose, X) | Chaytor, 1922 | STATES that orthography, accentuation and punctuation are modernized | Keep |
+| Santa Teresa (IX prose, X) | Mesa y López, 1912 | STATES that it does not reproduce her spelling | Keep |
+| Manrique (IX poetry) | Antonio López, Colección Diamante | STATES modern orthography, old form kept only for line or rhyme | Keep |
+| Garcilaso XXIII (IX poetry) | Navarro Tomás, Clásicos Castellanos, 1911, p. 231 (new) | STATES (pp. XIX and XX): modernizes what affects only the writing. Line 4 reads "enciende el corazón y lo refrena" | Switched (was Sancha 1817, which kept ayrado, elado) |
+| Cervantes, prologue (X) | Rodríguez Marín, 1911 | States no rule; visibly modern (1911 Academy spelling); a note shows he otherwise follows the Academy | Keep, as Timothy decided |
+| Cervantes I.1 and I.8 (IX prose) | Rodríguez Marín, 1911, pp. 47 to 50 and 189 (new) | Same as above | Switched (was Aribau 1864) |
+| Gracián (IX prose, X) | Reyes, 1918 | States no rule; prints modern spelling | Keep; said plainly in both Sources notes |
+| Góngora (VII, IX) | Castro, BAE 32, 1854; Madrid, 1820 | States no rule; modern in letters in the passages used | Keep; said plainly in the Sources notes of VII figures, VII tropes and IX poetry |
+| San Juan (IX poetry) | Toledo, 1914 | States no rule; modern spelling | Keep; said plainly |
+| Cervantes II.23 (VII) | Hartzenbusch, 1863 | States no rule; modern in letters (*miéntras* with the accent of its time) | Keep; said plainly in VII figures |
+| Quevedo (VII) | Janer, BAE 69, 1877 | States no rule; the passage used shows modern letters (*Ayer se fué*) | Keep; said plainly in VII figures |
+| **Quevedo, "Cerrar podrá" (IX poetry)** | Janer 1877 | Keeps *x* (*Dexará*, *dexarán*); no statement | **FOR TIMOTHY'S DECISION** |
+| **Romance del prisionero (IX poetry)** | Wolf and Hofmann, 1856 | Keeps *yago*, *van servir*, *dia*, *galardon* | **FOR TIMOTHY'S DECISION** |
+| **Bernal Díaz (IX prose)** | Vedia, BAE 26, 1853 | Nineteenth-century spelling (*dia*, *deciamos*, *Méjico*, *desta*); no statement | **FOR TIMOTHY'S DECISION** |
+
+### What was read to look for a modernizing edition
+
+- **Quevedo.** Fernández-Guerra y Orbe and Menéndez y Pelayo, *Obras completas* (Sociedad de Bibliófilos Andaluces, Seville, 1897 to 1907; Internet Archive `obrascompletasd03quev`, `obrascompletasde03quev` and others; the editor died in 1894 and Menéndez y Pelayo in 1912). The volume of poems read (tomo 3, 1907) is printed in modern spelling in the editors' text, but the sonnet "Cerrar podrá mis ojos" is not in the volumes found on the Internet Archive (searched for *llevare*, *Cerrar podrá*, *polvo enamorado*), and no statement of a modernizing rule was found. So this edition cannot be named for the sonnet.
+- **Ballad.** Durán, *Romancero general* (BAE 10 and 16, 1849 to 1851; Internet Archive `romancerogenera06durgoog`, `romancerogenera01durgoog`) prints the ballad with *yago* and *dia*, so it does not modernize either. Menéndez Pidal, *Flor nueva de romances viejos* (1928), the usual modernizing anthology, is not on the Internet Archive in a public copy, and its editor died in 1968.
+- **Bernal Díaz.** Genaro García, 1904 (`historiaverdade04castgoog`; he died in 1920): his preface says that he reproduces the original "sin introducir la más leve variante, ni aún de simple ortografía," so it is the opposite of a modernizing edition (it prints *deziamos*, *paregia*, *hera*). The Internet Archive item dated 1900 (`historia-verdadera-de-la-conquista-de-la-nueva-espana-bernal-diaz-del-castillo`) is a digital transcription of 2010 (Biblioteca Virtual Universal) with no named editor, so it cannot be cited as an edition.
+- **Recommendation for the three.** For each, swap the passage for one from a source that already states modernization (the candidates are in section 9) or accept the edition as an exception, said plainly in the Sources note, which the Sources note already does.
+
+## 9. Candidates for a swap, if Timothy chooses to swap
+
+- Quevedo: another sonnet of Quevedo from the Sociedad de Bibliófilos Andaluces volume (modern in letters), if the volume that contains it is found; otherwise a poem by Lope de Vega or Góngora from a volume that states modernization (Clásicos Castellanos).
+- Ballad: a ballad in the Manrique volume's prologue style, or the "Romance del conde Arnaldos" and similar ballads in Menéndez Pelayo's *Antología* (Menéndez Pelayo died in 1912; the *Antología* is on the Internet Archive and is not read in this pass).
+- Bernal Díaz: a passage of another sixteenth-century prose in a modernizing edition already in the course (for example *Libro de la vida* of Teresa, Mesa y López), or Bernal Díaz in Maudslay's English with the Spanish of an edition that states modernization, if one is found.
+
+## 10. The five readings of the Manual (Timothy's decision 4)
+
+| Reading | Manual | Result and change |
+|---|---|---|
+| Expressed *yo* (Lazarillo) | §33.3.3a: an expressed subject pronoun gives emphasis, often contrastive (*No, YO llamé*) | Supported. The card now says that the emphasis is contrastive |
+| *ni … ni* (Gracián) | §31.3.2e: the discontinuous copulative conjunction *ni … ni*, joining two elements | Supported. The card now names the conjunction and says that it joins and denies the two phrases |
+| *dígase* (Galdós) | §42.2.4a and b: exhortative utterances with enclitic pronouns (*Véase el párrafo siguiente*); the mood (imperative or subjunctive) is disputed | The card no longer calls it "*se* and the subjunctive"; it says that it is an exhortative form with *se* attached after the verb, like *véase*, and that the mood is disputed |
+| Adjective + *de* + noun (*ancho de espaldas*, Galdós) | §36.4.3f: complements with *de* introduced by adjectives, denoting the part of the body or the faculty to which a property is limited (*ancho de caderas*, *fino de oído*) | Supported. The card now says that the phrase with *de* names what the quality is limited to |
+| *Muy honesto en gran manera* without a verb (Teresa) | §42.1.1h (non-sentential utterances, *enunciados no oracionales*); §38.6.3c (verbless predications with a subject) | The card now says that it is an utterance and not a sentence in the strict sense, with the father as understood subject, and no longer says that *era* is understood |
+
+## 11. Mentioned words (decision 5)
+
+CLAUDE.md rule 8 stands: an English word mentioned as a word takes double quotation marks; a Spanish or other foreign word takes italics. In the new Cervantes card the Spanish words (*viuia*, *lança*, *rozin*, *hazienda*, *harriero*, *decía*, *discreción*, *opinión*, *mía*, *fué*, *á*, *D. Quijote*, *contra lo que ella practica*) were changed from quotation marks to italics. The letters *h*, *j* and *x*, which are neither English nor Spanish words, stay in quotation marks.
+
+## 12. Items of the Robles Dégano comparison (20.4) and the two glosses (20.13, 20.14)
+
+- **Garcilaso's *y*.** Robles Dégano, *Ortología clásica* (1905), §99, page 86 (read from the page image n97 of `ortologaclsi00robluoft`): "Las vocales débiles átonas, y las conjunciones e y o nunca pueden contraerse con la vocal precedente y siguiente á la vez; pero sí con una de ellas. Las conjunciones entre dos vocales se unen casi siempre con la segunda." The examples include *y* (*por su ley | y rey | es bien perdida*). The card and the exercise item now say "almost always" and give the section and page.
+- ***rïela* (Espronceda).** Robles, §339 and §647 (read from the optical reading): *rielar* (*rielo, rielas*) is a hiatus, not a diphthong. Supported.
+- **Not located in this pass:** oxytone assonance of *albor* and *galardon*; Bécquer's *ala* and *á*; Góngora's *Y* before *rí*; San Juan's *ya*; Lorca's *aire*; Espronceda's *Mi* before stressed *ú*; Quevedo's *dia* as two syllables. They stay on the list for a read of the printed book or a further pass.
+- **Garcilaso's *presto* (20.6).** The Navarro Tomás edition prints *presto* plainly (page image n258), so the broken *t* of the 1817 scan is settled, and the 1817 text is no longer used.
+- ***humor*.** Real Academia Española, *DLE* (23rd ed., 2014), *humor*, sense 6: "Cada uno de los líquidos de un organismo vivo." The card now cites it.
+- ***honesto*.** *DLE*, *honesto, ta*, sense 2: "Recatado, pudoroso." The course's "modest" fits it; the card now cites it. Autoridades was not found on the Internet Archive.
+
+## 13. Rights of the editors (item 17), first pass
+
+- Chaytor (1922; he died in 1953), Mesa y López (1912), Reyes (1918; he died in 1959), Rodríguez Marín (1911; he died in 1943), Navarro Tomás (1911; he died in 1979). All the editions were published before 1931, so they are in the public domain in the United States. By the course's rule (author died before 1946 and work first published before 1931) the editors that fail the first test are Chaytor, Reyes, and Navarro Tomás. Navarro Tomás is new in this batch. For Timothy's decision.
+
+## 14. Needs Timothy or a printed copy (revised)
+
+1. Navarro Tomás, *Métrica española*: the passages on the hendecasyllable, the octosyllable, the alexandrine and the lira, on synalepha, hiatus and diaeresis, and on assonance in oxytone words. The exact pages depend on the edition and cannot be given without the book; ask for the index entries *endecasílabo*, *octosílabo*, *alejandrino*, *sinalefa*, *hiato*, *diéresis*, *asonancia* and the page of the passage on a line ending in a stressed syllable. They bear on the counts of `lang.ii.es/meter`, `lang.ix.es/poetry` (all ten poems), and `lang.x.es/becquer` and `dario`.
+2. Robles Dégano, *Ortología clásica*, printed book: the seven counts listed in section 12 as not located.
+3. The Academy's *Ortografía de la lengua española* (2010), the chapter on the history of the letters, for the origin of *ñ* (card `letters`).
+4. The printed *Manual de la nueva gramática* (2010), to compare every section number read from the machine-read text (items 4, 6, 10 of the row).
+5. The *Nueva gramática básica* (2011), the Academy's grammars of 1771 and 1973, and Donatus, for the statements of the `parts` deck.
+6. A modernizing edition (or a decision) for Quevedo, "Cerrar podrá"; the ballad; and Bernal Díaz (section 8).
+7. For every passage, a comparison with a printed copy of its edition (the passages were read from page images).
+8. Autoridades, for the older sense of *honesto* and *humor* (the *DLE* is the source cited now).

@@ -186,7 +186,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "In that line, <i lang=\"es\">y</i> joins…",
-   "explain": "Felipe Robles Dégano says that the conjunction <i lang=\"es\">y</i>, standing between two vowels, joins the vowel after it. The place of the join rests on that one book. Either join still gives eleven.",
+   "explain": "Felipe Robles Dégano says (§99, page 86) that a conjunction between two vowels almost always joins the second vowel, and his examples include <i lang=\"es\">y</i>. The place of the join rests on that one book. Either join still gives eleven.",
    "options": [
     "The vowel after it",
     "Both vowels at once",
