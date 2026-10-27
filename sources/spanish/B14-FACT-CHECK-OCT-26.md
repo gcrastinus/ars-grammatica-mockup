@@ -106,7 +106,7 @@ The comparison of the Robles Dégano counts and of *presto* with a second copy; 
 | Cervantes II.23 (VII) | Hartzenbusch, 1863 | States no rule; modern in letters (*miéntras* with the accent of its time) | Keep; said plainly in VII figures |
 | Quevedo (VII) | Janer, BAE 69, 1877 | States no rule; the passage used shows modern letters (*Ayer se fué*) | Keep; said plainly in VII figures |
 | **Quevedo, "Cerrar podrá" (IX poetry)** | Janer 1877 | Keeps *x* (*Dexará*, *dexarán*); no statement | **FOR TIMOTHY'S DECISION** |
-| **Romance del prisionero (IX poetry)** | Wolf and Hofmann, 1856 | Keeps *yago*, *van servir*, *dia*, *galardon* | **FOR TIMOTHY'S DECISION** |
+| Romance del prisionero (IX poetry) | Wolf and Hofmann, 1856 | STATES (introduction to vol. 1, page VII, found 27 Oct 2026; the first pass searched vol. 2 only): the editors adopted the spelling, punctuation and accentuation of their day, keeping the spelling of the originals only where it marks an etymological difference. So *yago* is kept as an older form and *dia*, *galardon* carry the accentuation of 1856 | CORRECTED: no swap is needed; Timothy to confirm or choose another ballad of the same edition |
 | **Bernal Díaz (IX prose)** | Vedia, BAE 26, 1853 | Nineteenth-century spelling (*dia*, *deciamos*, *Méjico*, *desta*); no statement | **FOR TIMOTHY'S DECISION** |
 
 ### What was read to look for a modernizing edition
@@ -159,3 +159,9 @@ CLAUDE.md rule 8 stands: an English word mentioned as a word takes double quotat
 6. A modernizing edition (or a decision) for Quevedo, "Cerrar podrá"; the ballad; and Bernal Díaz (section 8).
 7. For every passage, a comparison with a printed copy of its edition (the passages were read from page images).
 8. Autoridades, for the older sense of *honesto* and *humor* (the *DLE* is the source cited now).
+
+
+## 15. Corrections and candidates of 27 Oct 2026 (second answers)
+
+- **Ballad.** The first pass of B14 said that Wolf and Hofmann state no policy. That was wrong: the statement is in the introduction to volume 1 (page VII; Internet Archive `primaverayflorde01wolf`, leaf n14), and Menéndez y Pelayo reprints it in the second edition (*Antología de poetas líricos castellanos*, vol. VIII, "Primavera y flor de romances," tomo I, Madrid, 1899, Biblioteca Clásica 208; `antologadepoeta01pelagoog`), where the prisoner's ballad is no. 114 on page 229. Wolf and Hofmann: "Se entiende, que hemos adoptado la ortografía, puntuación y acentuación según ahora se usan, conservando solamente la ortografía de los originales, cuando señala al mismo tiempo una diferencia etimológica." The Sources note and the spelling card of IX poetry were corrected.
+- **Rights, by Timothy's rule of 27 Oct.** The rule that counts is the author of the passage and the date of first publication of the edition. The Sources notes of the five X decks, of IX prose and of IX poetry now say that the text is that of the edition of its year, public domain in the United States, and that only the passage is quoted. The Chaytor edition in the course is that of 1922 (Manchester University Press; the preface says "orthography, accentuation, and punctuation have been modernised"); Timothy wrote 1918, which does not match the copy read.

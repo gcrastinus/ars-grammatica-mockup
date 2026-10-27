@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/cervantes"] = {
  "id": "lang.x.es/cervantes",
  "title": "Cervantes to the Reader",
  "sub": "A model passage, with points of style and composition",
- "sources": "Miguel de Cervantes, <i lang=\"es\">El ingenioso hidalgo Don Quijote de la Mancha</i>, ed. Francisco Rodríguez Marín (Clásicos Castellanos; Madrid: Ediciones de “La Lectura,” 1911), volume 1, page 25, the last paragraph of the prologue to Part I; the edition follows the first edition of 1605 for the text and prints it in the Academy’s spelling of 1911, though its preface states no rule of spelling (see the card on the text and its spelling); the English is that of John Ormsby, <i>Don Quixote</i> (1885), “The Author’s Preface.”",
+ "sources": "Miguel de Cervantes, <i lang=\"es\">El ingenioso hidalgo Don Quijote de la Mancha</i>, ed. Francisco Rodríguez Marín (Clásicos Castellanos; Madrid: Ediciones de “La Lectura,” 1911), volume 1, page 25, the last paragraph of the prologue to Part I; the edition follows the first edition of 1605 for the text and prints it in the Academy’s spelling of 1911, though its preface states no rule of spelling (see the card on the text and its spelling); the English is that of John Ormsby, <i>Don Quixote</i> (1885), “The Author’s Preface.”. The Spanish is the text of the edition of 1911, public domain in the United States; only the passage is quoted from it, with short citations of its preface and a note.",
  "panels": [
   {
    "id": "text",

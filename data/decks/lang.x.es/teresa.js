@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/teresa"] = {
  "id": "lang.x.es/teresa",
  "title": "Saint Teresa on Her Father",
  "sub": "A model passage, with points of style and composition",
- "sources": "Santa Teresa de Jesús, <i lang=\"es\">Obras escogidas</i>, with an introduction by Rafael Mesa y López (London and Paris: Thomas Nelson and Sons, 1912), <i lang=\"es\">Libro de su vida</i>, whose introduction says that the edition does not reproduce the saint’s spelling; the English is that of David Lewis, <i>The Life of St. Teresa of Jesus</i> (3rd ed., London: Thomas Baker, 1904).",
+ "sources": "Santa Teresa de Jesús, <i lang=\"es\">Obras escogidas</i>, with an introduction by Rafael Mesa y López (London and Paris: Thomas Nelson and Sons, 1912), <i lang=\"es\">Libro de su vida</i>, whose introduction says that the edition does not reproduce the saint’s spelling; the English is that of David Lewis, <i>The Life of St. Teresa of Jesus</i> (3rd ed., London: Thomas Baker, 1904). The Spanish is the text of the edition of 1912, public domain in the United States; only the passage is quoted from it, with a short citation of its introduction.",
  "panels": [
   {
    "id": "text",

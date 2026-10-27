@@ -4,7 +4,7 @@ ARS.decks["lang.x.es/lazarillo"] = {
  "id": "lang.x.es/lazarillo",
  "title": "Lazarillo and His Little Brother",
  "sub": "A model passage, with points of style and composition",
- "sources": "<i lang=\"es\">La vida de Lazarillo de Tormes</i>, ed. H. J. Chaytor (Manchester: Manchester University Press, 1922), whose preface says that the orthography, accentuation, and punctuation have been modernised; the English is that of Clements R. Markham, <i>The Life of Lazarillo de Tormes</i> (London: A. and C. Black, 1908), whose sentence begins with “but” because it follows a reply that Markham renders differently from the Spanish, so the quotation begins at that word.",
+ "sources": "<i lang=\"es\">La vida de Lazarillo de Tormes</i>, ed. H. J. Chaytor (Manchester: Manchester University Press, 1922), whose preface says that the orthography, accentuation, and punctuation have been modernised; the English is that of Clements R. Markham, <i>The Life of Lazarillo de Tormes</i> (London: A. and C. Black, 1908), whose sentence begins with “but” because it follows a reply that Markham renders differently from the Spanish, so the quotation begins at that word. The Spanish is the text of the edition of 1922, public domain in the United States; only the passage is quoted from it, with a short citation of its preface.",
  "panels": [
   {
    "id": "text",
