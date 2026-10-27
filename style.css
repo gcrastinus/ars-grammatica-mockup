@@ -27,21 +27,21 @@ html{
   min-height:100%;
   background:#f6f0e1;
   color-scheme:light;
-  scrollbar-color:#d3c29c #e6dcc2;
-  scrollbar-width:thin;
+  scrollbar-color:#8a6d3b #e6dcc2;
+  scrollbar-width:auto;
 }
 html:has(body.dark){
   background:#1a2636;
   color-scheme:dark;
-  scrollbar-color:#34465f #0f1a29;
+  scrollbar-color:#7d93b4 #0f1a29;
 }
-::-webkit-scrollbar{width:12px; height:12px}
-::-webkit-scrollbar-track{background:#e6dcc2}
-::-webkit-scrollbar-thumb{background:#d3c29c; border-radius:0; border:3px solid #e6dcc2}
+::-webkit-scrollbar{width:20px; height:20px}
+::-webkit-scrollbar-track{background:#e6dcc2; border-left:1px solid #b89f6d}
+::-webkit-scrollbar-thumb{background:#8a6d3b; border-radius:0; border:3px solid #e6dcc2}
 ::-webkit-scrollbar-thumb:hover{background:#5a4a38}
-html:has(body.dark)::-webkit-scrollbar-track{background:#0f1a29}
-html:has(body.dark)::-webkit-scrollbar-thumb{background:#34465f; border-color:#0f1a29}
-html:has(body.dark)::-webkit-scrollbar-thumb:hover{background:#5a6a84}
+html:has(body.dark)::-webkit-scrollbar-track{background:#0f1a29; border-left-color:#34465f}
+html:has(body.dark)::-webkit-scrollbar-thumb{background:#7d93b4; border-color:#0f1a29}
+html:has(body.dark)::-webkit-scrollbar-thumb:hover{background:#a9bcd8}
 body{
   font-family:var(--text);
   font-variant-numeric:oldstyle-nums;
