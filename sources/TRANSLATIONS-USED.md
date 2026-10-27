@@ -508,7 +508,6 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 
 | Passage | Translator and edition | Deck | Status |
 |---|---|---|---|
-| Cervantes, *Don Quijote* I, Prólogo | John Ormsby (1885), “The Author’s Preface” | lang.x.es/cervantes | published |
 | Santa Teresa, *Libro de la vida* I | David Lewis, 3rd ed. (London: Baker, 1904) | lang.x.es/teresa | published |
 | *Lazarillo de Tormes*, Tratado primero | Clements R. Markham (London: A. and C. Black, 1908) | lang.x.es/lazarillo | published |
 | Gracián, *Oráculo manual* 3 | Joseph Jacobs (London: Macmillan, 1892) | lang.x.es/gracian | published |
