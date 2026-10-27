@@ -7,6 +7,13 @@ ARS.languages["lang.x.es"] = {
  "section": "x",
  "items": [
   {
+   "id": "lang.x.es/cervantes",
+   "kind": "models",
+   "built": true,
+   "title": "Cervantes to the Reader",
+   "desc": "Cervantes, Don Quijote I, Prólogo."
+  },
+  {
    "id": "lang.x.es/teresa",
    "kind": "models",
    "built": true,
