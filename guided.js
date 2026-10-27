@@ -184,10 +184,8 @@ function setPath(p){
   buildHome();
 }
 function reflectPath(){
-  const g = guided();
-  const f = $('path-free'), gb = $('path-guided');
-  if (f){ f.classList.toggle('sel', !g); f.setAttribute('aria-pressed', String(!g)); }
-  if (gb){ gb.classList.toggle('sel', g); gb.setAttribute('aria-pressed', String(g)); }
+  const sel = $('path-select');   /* the Path drop-down on the home page */
+  if (sel) sel.value = guided() ? 'guided' : 'practice';
   notice();
 }
 
@@ -824,8 +822,7 @@ function poolFlags(){
 }
 
 /* ---------------- wiring and first paint ---------------- */
-if ($('path-free')) $('path-free').onclick = () => setPath('practice');
-if ($('path-guided')) $('path-guided').onclick = () => setPath('guided');
+if ($('path-select')) $('path-select').addEventListener('change', e => setPath(e.target.value === 'guided' ? 'guided' : 'practice'));
 if ($('prog-back')) $('prog-back').onclick = backHome;
 if ($('gx-back')) $('gx-back').onclick = backHome;
 if ($('prog-export')) $('prog-export').onclick = exportProgress;
@@ -837,7 +834,7 @@ if ($('prog-import-file')) $('prog-import-file').onchange = ev => {
 };
 
 window.GP = {
-  isGuided:guided, isLocked:locked, intercept, pickLevel, migrate, onAnswer, summaryNote, runMastery, decorateTile, decorateSection,
+  isGuided:guided, setPath, isLocked:locked, intercept, pickLevel, migrate, onAnswer, summaryNote, runMastery, decorateTile, decorateSection,
   homeNote, openProgress, startToday, rebuild,
   /* for checks and for the instructor's report */
   config:GPC, tiers:TIERS, prereqs:PREREQS, info:INFO, sets:SETS, stateOf, recallState, nextLearning, poolFlags,

@@ -75,19 +75,24 @@
     <div class="intro-note">
       <strong>Grammar is the art of speaking and writing correctly.</strong> The course follows the order of the art: the definition and parts of grammar, the sign and the word, the matter of speech, the parts of speech, construction, the errors and figures of speech, and the reading and writing of the authors. English and Latin are used throughout, with Greek, Spanish, German, and French where they show something distinctive.
     </div>
-    <div class="choice-block">
-      <div class="choice-label" id="level-label">Level</div>
-      <div class="choice-row level-row" id="level-row" role="group" aria-labelledby="level-label"></div>
-      <p class="level-desc directions" id="level-desc"></p>
+    <div class="choice-bar">
+      <div class="choice-field">
+        <label class="choice-label" for="level-select">Level</label>
+        <div class="select-wrap"><select id="level-select" class="choice-select"></select></div>
+      </div>
+      <div class="choice-field">
+        <label class="choice-label" for="path-select">Path</label>
+        <div class="select-wrap"><select id="path-select" class="choice-select">
+          <option value="practice">Free Practice</option>
+          <option value="guided">Guided Path</option>
+        </select></div>
+      </div>
+      <div class="choice-field">
+        <label class="choice-label" for="lang-select">Language</label>
+        <div class="select-wrap"><select id="lang-select" class="choice-select"></select></div>
+      </div>
     </div>
-    <div class="diff-row path-row choice-row" role="group" aria-label="Choose a path">
-      <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true">Free Practice</button>
-      <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
-    </div>
-    <div class="choice-block">
-      <div class="choice-label" id="lang-label">Language</div>
-      <div class="choice-row lang-row" id="lang-row" role="group" aria-labelledby="lang-label"></div>
-    </div>
+    <p class="level-desc directions" id="level-desc"></p>
     <div id="guided-note" class="guided-note directions"></div>
     <p id="gp-storage" class="lock-note directions" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
     <div id="recite-due" class="recite-due" hidden></div>

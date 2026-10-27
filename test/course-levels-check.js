@@ -11,7 +11,9 @@
       Free Practice place.
    5. An old course record (from before the levels) and an old Guided record still load, unchanged.
    6. The saved level, path, and language come back on the next visit.
-   7. The selectors are large, reachable by keyboard, move with the arrow keys, and show a focus outline.
+   7. The three drop-downs (Level, Path, Language) sit on one line under the opening paragraph, labeled, large,
+      reachable by Tab, worked by the arrow keys, with a focus outline; on a phone they wrap at full size. The
+      page opens at the top; going back to a level brings the last tile opened there into view.
    8. No console errors.
    It also prints the size of each level for each language. Exit code 1 on any failed check or page error. */
 'use strict';
@@ -43,10 +45,11 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   await ev(`window.confirm = () => true`);
 
   /* 1. first visit */
-  check('first visit: Essentials is selected', await ev(`document.querySelector('#level-row .sel').textContent.includes('Essentials') && ARS.CL.current() === 'essentials'`));
-  check('first visit: Free Practice is selected', await ev(`!GP.isGuided() && document.getElementById('path-free').getAttribute('aria-pressed') === 'true'`));
-  check('first visit: English is selected', await ev(`document.querySelector('#lang-row .sel').textContent.includes('English') && ARS.CL.lang() === 'en'`));
-  check('first visit: exactly one selected button in each row', await ev(`['level-row','lang-row'].every(id => document.querySelectorAll('#' + id + ' [aria-pressed="true"]').length === 1)`));
+  const shown = id => `(s => s.options[s.selectedIndex].textContent)(document.getElementById('${id}'))`;
+  check('first visit: Essentials is shown in the Level drop-down', await ev(`${shown('level-select')} === 'Essentials' && ARS.CL.current() === 'essentials'`));
+  check('first visit: Free Practice is shown in the Path drop-down', await ev(`!GP.isGuided() && ${shown('path-select')} === 'Free Practice'`));
+  check('first visit: English is shown in the Language drop-down', await ev(`${shown('lang-select')} === 'English' && ARS.CL.lang() === 'en'`));
+  check('first visit: the page opens at the top', await ev(`window.scrollY === 0`));
 
   /* 2. every item has a level (data/tiers.js), or follows its deck */
   const missing = await ev(`(() => {
@@ -179,7 +182,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   await ev(`ARS.CL.setLevel('mastered'); true`); await b.sleep(300);
   check('Free Practice: back at Mastered the tile last opened there has the focus', await ev(`document.activeElement && document.activeElement.dataset && document.activeElement.dataset.id === 'ii.meter'`));
   await ev(`ARS.CL.setLevel('essentials'); true`);
-  await ev(`document.getElementById('path-guided').click()`);
+  await ev(`GP.setPath('guided')`);
   await ev(`GP.openProgress(); document.getElementById('gp-track').click(); document.getElementById('prog-back').click()`);
   await ev(`courseStore().decks['i.sign'] = { opens:1, done:true, doneAt:Date.now() }; save(); buildHome()`);
   check('Guided, Essentials, Latin: the Latin sets of Section II are required', await ev(`GP.tiers.find(t => t.key === 'ii').required.join(',') === 'ii.ex.syllable,lang.ii.la/syllable-ex'`), await ev(`GP.tiers.find(t => t.key === 'ii').required.join(',')`));
@@ -206,17 +209,19 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('back at Essentials: the pass is kept', await ev(`GP.stateOf('ii.ex.syllable')`) === 'passed');
   check('back at Essentials: the Guided step last opened there is kept and in view', await ev(`(ARS.CL.place() || {}).step === 'lang.ii.la/syllable-ex' && !!document.activeElement.closest('[data-langbar="ii"]')`));
   check('back at Essentials: every record is as it was', await ev(`JSON.stringify({ decks:courseStore().decks, ex:courseStore().ex, boxes:courseStore().boxes, gp:localStorage.getItem('ars-grammatica-guided') })`) === before);
-  check('the Guided Path offers no All languages button', await ev(`![...document.querySelectorAll('#lang-row button')].some(x => /All languages/.test(x.textContent))`));
+  check('the Guided Path offers no All languages in the Language drop-down', await ev(`[...document.getElementById('lang-select').options].length === 6 && ![...document.getElementById('lang-select').options].some(x => x.value === 'all')`));
   check('Guided: the star state is called Confirmed', await ev(`GP.config && typeof GP.stateOf === 'function'`) && !(await ev(`/★ Mastered/.test(document.body.textContent)`)));
 
   /* 6. the choices come back on the next visit */
   await ev(`ARS.CL.setLevel('proficient'); ARS.CL.setLang('grc'); true`);
+  await ev(`openDeck('ii.voice')`); await b.sleep(500); await ev(`goHome(); window.scrollTo(0, 400); true`);   /* a place kept at Proficient */
   await b.goto('index.html'); await ready();
-  check('reload: Proficient, Guided Path, and Greek come back', await ev(`ARS.CL.current() === 'proficient' && GP.isGuided() && ARS.CL.lang() === 'grc' && document.querySelector('#level-row .sel').textContent.includes('Proficient') && document.querySelector('#lang-row .sel').textContent.includes('Greek') && document.getElementById('path-guided').getAttribute('aria-pressed') === 'true'`));
-  await ev(`document.getElementById('path-free').click(); ARS.CL.setLang('all'); true`);
+  check('reload: Proficient, Guided Path, and Greek come back', await ev(`ARS.CL.current() === 'proficient' && GP.isGuided() && ARS.CL.lang() === 'grc' && ${shown('level-select')} === 'Proficient' && ${shown('lang-select')} === 'Greek' && ${shown('path-select')} === 'Guided Path'`));
+  check('reload: the page opens at the top, though a place is kept at this level', await ev(`window.scrollY === 0 && !!ARS.CL.place() && document.activeElement === document.body`));
+  await ev(`GP.setPath('practice'); ARS.CL.setLang('all'); true`);
   await b.goto('index.html'); await ready();
   check('reload: Free Practice with All languages comes back', await ev(`!GP.isGuided() && ARS.CL.lang() === 'all'`));
-  await ev(`document.getElementById('path-guided').click()`);
+  await ev(`GP.setPath('guided')`);
   check('choosing the Guided Path with All languages takes the last single language', await ev(`ARS.CL.lang() === 'grc' && ARS.CL.view().lang === 'grc'`));
 
   /* 5. an old record, from before the levels, loads unchanged */
@@ -239,28 +244,68 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('old record: a reading collection finished whole shows done at Comprehensive', await ev(`(() => { openLang('lang.ix.la'); const c = document.querySelector('#lang-grid .set-card[data-id="lang.ix.la/prose"] .begin'); const r = !!c && c.classList.contains('is-done'); leaveLang(); return r; })()`));
   check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="xi.modern"] .begin.is-done')`));
 
-  /* 7. the selectors: large, keyboard, focus */
-  await ev(`ARS.CL.setLevel('essentials'); true`);
-  const sz = await ev(`[...document.querySelectorAll('#level-row button, .path-row button, #lang-row button')].map(x => { const r = x.getBoundingClientRect(), cs = getComputedStyle(x); return [r.height, parseFloat(cs.fontSize)]; })`);
-  check('selectors: every button at least 48 px high with type of at least 18 px', sz.length >= 12 && sz.every(([h, f]) => h >= 48 && f >= 18), JSON.stringify(sz.slice(0, 3)));
-  check('selectors: one tab stop per row', await ev(`['#level-row', '.path-row', '#lang-row'].every(s => [...document.querySelectorAll(s + ' button')].filter(x => x.tabIndex === 0).length === 1)`));
-  await ev(`document.querySelector('#level-row .sel').focus(); true`);
-  const key = async k => {
-    const vk = { ArrowRight:39, ArrowLeft:37, Tab:9, Enter:13 }[k];
-    await b.send('Input.dispatchKeyEvent', Object.assign({ type:'keyDown', key:k, code:k, windowsVirtualKeyCode:vk }, k === 'Enter' ? { text:'\r' } : {}));
+  /* 7. the drop-downs: one line under the opening paragraph, labeled, large, keyboard, focus */
+  await ev(`GP.setPath('practice'); ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
+  await b.send('Emulation.setFocusEmulationEnabled', { enabled:true });   /* a headless window has no focus of its own, so :focus would never apply */
+  const dd = await ev(`(() => {
+    const ids = ['level-select', 'path-select', 'lang-select'];
+    const els = ids.map(id => document.getElementById(id));
+    return {
+      native: els.every(e => e && e.tagName === 'SELECT'),
+      labels: ids.map(id => (document.querySelector('label[for="' + id + '"]') || {}).textContent),
+      labelAbove: ids.every(id => { const l = document.querySelector('label[for="' + id + '"]').getBoundingClientRect(), e = document.getElementById(id).getBoundingClientRect(); return l.bottom <= e.top + 1; }),
+      tops: els.map(e => Math.round(e.getBoundingClientRect().top)),
+      lefts: els.map(e => Math.round(e.getBoundingClientRect().left)),
+      sizes: els.map(e => [e.getBoundingClientRect().height, parseFloat(getComputedStyle(e).fontSize)]),
+      afterIntro: document.querySelector('.intro-note').nextElementSibling.classList.contains('choice-bar'),
+      descAfter: document.querySelector('.choice-bar').nextElementSibling.id === 'level-desc',
+      levels: [...document.getElementById('level-select').options].map(o => o.textContent),
+      langs: [...document.getElementById('lang-select').options].map(o => o.textContent)
+    };
+  })()`);
+  check('drop-downs: three native selects labeled Level, Path, and Language, the labels above them', dd.native && dd.labels.join(',') === 'Level,Path,Language' && dd.labelAbove, JSON.stringify(dd.labels));
+  check('drop-downs: directly under the opening paragraph, in the order Level, Path, Language, on one line', dd.afterIntro && dd.tops[0] === dd.tops[1] && dd.tops[1] === dd.tops[2] && dd.lefts[0] < dd.lefts[1] && dd.lefts[1] < dd.lefts[2], JSON.stringify(dd.tops));
+  check('drop-downs: at least 48 px high with type of at least 18 px', dd.sizes.every(([h, f]) => h >= 48 && f >= 18), JSON.stringify(dd.sizes));
+  check('drop-downs: the four levels, and the six languages with All languages', dd.levels.join(',') === 'Essentials,Proficient,Mastered,Comprehensive' && dd.langs.length === 7 && dd.langs[6] === 'All languages', dd.langs.join(','));
+  check('drop-downs: the level\'s description is one sentence below the row', dd.descAfter && await ev(`(t => /^[^.]*\\.$/.test(t.replace(/\\.\\.\\./g, '')) && t.startsWith('The essentials of grammar'))(document.getElementById('level-desc').textContent)`));
+  await ev(`ARS.CL.setLevel('proficient'); window.scrollTo(0, 0); true`);
+  check('drop-downs: the Proficient description names the common errors', await ev(`/the rest of construction, the common errors, the tropes/.test(document.getElementById('level-desc').textContent)`));
+  await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
+  const key = async (k, extra) => {
+    const vk = { ArrowDown:40, ArrowUp:38, Tab:9, Enter:13, m:77 }[k];
+    await b.send('Input.dispatchKeyEvent', Object.assign({ type:'keyDown', key:k, code:k, windowsVirtualKeyCode:vk }, extra || {}));
     await b.send('Input.dispatchKeyEvent', { type:'keyUp', key:k, code:k, windowsVirtualKeyCode:vk });
-    await b.sleep(200);
+    await b.sleep(250);
   };
-  await key('ArrowRight');
-  check('selectors: the right arrow moves to Proficient', await ev(`document.activeElement.textContent.includes('Proficient')`));
-  await key('Enter');
-  check('selectors: Enter chooses it, and the focus stays on it', await ev(`ARS.CL.current() === 'proficient' && document.activeElement.textContent.includes('Proficient')`));
-  check('selectors: a visible focus outline of at least 3 px', await ev(`(() => { const cs = getComputedStyle(document.activeElement); return cs.outlineStyle !== 'none' && parseFloat(cs.outlineWidth) >= 3; })()`));
+  await ev(`document.getElementById('level-select').focus(); true`);
+  check('drop-downs: a visible focus outline of at least 3 px', await ev(`(() => { const cs = getComputedStyle(document.activeElement); return document.activeElement.id === 'level-select' && cs.outlineStyle !== 'none' && parseFloat(cs.outlineWidth) >= 3; })()`));
+  await key('Tab');
+  const t1 = await ev(`document.activeElement.id`);
+  await key('Tab');
+  const t2 = await ev(`document.activeElement.id`);
+  check('drop-downs: Tab goes from Level to Path to Language', t1 === 'path-select' && t2 === 'lang-select', t1 + ' ' + t2);
+  /* The keyboard on a closed native select: typing a letter chooses the matching option on every platform.
+     The arrow keys are the browser's own: on Windows and Linux they change the option in place; on macOS they open
+     the list, where the arrows and Enter choose. Headless Chrome on macOS draws no list, so only the first case
+     can be driven here; it is tried, and the result is printed. */
+  await ev(`document.getElementById('level-select').focus(); true`);
+  await key('m', { text:'m' });
+  check('drop-downs: typing "m" on the focused Level drop-down chooses Mastered', await ev(`ARS.CL.current() === 'mastered' && document.getElementById('level-select').value === 'mastered'`), await ev(`ARS.CL.current()`));
+  await ev(`ARS.CL.setLevel('essentials'); document.getElementById('level-select').focus(); true`);
+  await key('ArrowDown');
+  const arrow = await ev(`ARS.CL.current()`);
+  console.log(arrow === 'proficient' ? 'Arrow keys: the down arrow chose Proficient in place.' : 'Arrow keys: the down arrow did not change the option in place (on macOS it opens the native list, which headless Chrome does not draw).');
+  await ev(`ARS.CL.setLevel('essentials'); window.scrollTo(0, 0); true`);
   for (const w of [1100, 390]) {
-    await b.size(w, 900); await b.sleep(200);
+    await b.size(w, 900); await b.sleep(250);
     check('no sideways scrolling at ' + w + ' px', await ev(`document.documentElement.scrollWidth <= window.innerWidth`));
+    if (w === 390) {
+      const ph = await ev(`['level-select', 'path-select', 'lang-select'].map(id => { const e = document.getElementById(id), r = e.getBoundingClientRect(); return [Math.round(r.top), r.height, parseFloat(getComputedStyle(e).fontSize)]; })`);
+      check('drop-downs at 390 px: on separate lines, not shrunk', ph[0][0] < ph[1][0] && ph[1][0] < ph[2][0] && ph.every(([, h, f]) => h >= 48 && f >= 18), JSON.stringify(ph));
+    }
     if (SHOTS) for (const dark of [false, true]) { await ev(`setDark(${dark}); window.scrollTo(0, 0)`); await b.sleep(250); await b.shot(path.join(SHOTS, `levels-${w}-${dark ? 'dark' : 'light'}.png`)); }
   }
+  await b.size(1100, 900);
   await ev(`setDark(false)`);
 
   /* sizes */

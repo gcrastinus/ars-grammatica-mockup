@@ -23,7 +23,7 @@ const TOP = ORDER.length - 1;
 const LANG_CODES = ['en', 'la', 'grc', 'es', 'de', 'fr'];
 const DESC = {
   essentials: 'The essentials of grammar: the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the language chosen.',
-  proficient: 'A full school grammar: Essentials, with voice, quantity and accent, word formation, the rest of construction, the errors, the tropes, and the first reading passages.',
+  proficient: 'A full school grammar: Essentials, with voice, quantity and accent, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
   mastered: 'Proficient, with the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
   comprehensive: 'The whole course, with the other classical traditions and modern linguistics, Imitation, and every reading passage.'
 };
@@ -213,66 +213,34 @@ function changed(restore){
 }
 
 /* ---------------- the selectors ----------------
-   Rows of real buttons, aria-pressed, a check mark as well as color on the selected one, and the arrow keys
-   moving within a row (one tab stop per row). */
-function rowKeys(row){
-  row.addEventListener('keydown', e => {
-    const keys = { ArrowRight:1, ArrowDown:1, ArrowLeft:-1, ArrowUp:-1, Home:'home', End:'end' };
-    if (!(e.key in keys)) return;
-    const bs = [...row.querySelectorAll('button:not([hidden]):not([disabled])')];
-    const i = bs.indexOf(document.activeElement);
-    if (i < 0) return;
-    e.preventDefault();
-    const k = keys[e.key];
-    const j = k === 'home' ? 0 : k === 'end' ? bs.length - 1 : (i + k + bs.length) % bs.length;
-    bs[j].focus();
-  });
-}
-function choiceButton(label, on, fn, cls){
-  const b = document.createElement('button');
-  b.type = 'button';
-  b.className = 'choice-btn' + (cls ? ' ' + cls : '') + (on ? ' sel' : '');
-  b.setAttribute('aria-pressed', String(on));
-  b.innerHTML = '<span class="choice-tick" aria-hidden="true">' + (on ? '✓' : '') + '</span><span class="choice-name"></span>';
-  b.querySelector('.choice-name').textContent = label;
-  b.tabIndex = on ? 0 : -1;
-  b.addEventListener('click', fn);
-  return b;
+   Three native drop-downs on one line (Timothy, 27 Oct 2026): Level, Path (in guided.js), Language. A native select
+   gives the platform's own keyboard use (the arrow keys, type-ahead) and is read by screen readers with its label.
+   On the Guided Path the Language list has no "All languages." */
+function fill(sel, opts, value){
+  const want = opts.map(o => o.value + '|' + o.label).join(',');
+  if (sel.dataset.opts !== want){
+    sel.replaceChildren(...opts.map(o => { const op = document.createElement('option'); op.value = o.value; op.textContent = o.label; return op; }));
+    sel.dataset.opts = want;
+  }
+  sel.value = value;
 }
 function renderControls(){
-  const lvRow = document.getElementById('level-row');
-  if (lvRow){
-    lvRow.replaceChildren();
-    ORDER.forEach(k => lvRow.appendChild(choiceButton(T.names[k], k === current(), () => { setLevel(k); focusSel('level-row'); }, 'level-btn')));
-    if (!lvRow.dataset.keys){ rowKeys(lvRow); lvRow.dataset.keys = '1'; }
+  const lv = document.getElementById('level-select');
+  if (lv){
+    fill(lv, ORDER.map(k => ({ value:k, label:T.names[k] })), current());
+    if (!lv.dataset.wired){ lv.addEventListener('change', () => setLevel(lv.value)); lv.dataset.wired = '1'; }
   }
   const d = document.getElementById('level-desc');
   if (d) d.textContent = DESC[current()] || '';
-  const lgRow = document.getElementById('lang-row');
-  if (lgRow){
-    lgRow.replaceChildren();
-    const g = guidedNow(), l = lang();
+  const lg = document.getElementById('lang-select');
+  if (lg){
     const names = (typeof LANGS !== 'undefined' ? LANGS : []).filter(L => !L.hidden || (typeof PREVIEW_LANGS !== 'undefined' && PREVIEW_LANGS.indexOf(L.code) >= 0));
-    names.forEach(L => lgRow.appendChild(choiceButton(L.name, l === L.code, () => { setLang(L.code); focusSel('lang-row'); }, 'lang-choice lang-' + L.code)));
-    if (!g) lgRow.appendChild(choiceButton('All languages', l === 'all', () => { setLang('all'); focusSel('lang-row'); }, 'lang-choice lang-all'));
-    if (!lgRow.dataset.keys){ rowKeys(lgRow); lgRow.dataset.keys = '1'; }
-  }
-  const pr = document.querySelector('.path-row');
-  if (pr && !pr.dataset.keys){
-    rowKeys(pr); pr.dataset.keys = '1';
-  }
-  if (pr){
-    const g = guidedNow();
-    pr.querySelectorAll('.path-btn').forEach(b => { const on = b.id === (g ? 'path-guided' : 'path-free'); b.tabIndex = on ? 0 : -1; });
+    const opts = names.map(L => ({ value:L.code, label:L.name }));
+    if (!guidedNow()) opts.push({ value:'all', label:'All languages' });
+    fill(lg, opts, lang());
+    if (!lg.dataset.wired){ lg.addEventListener('change', () => setLang(lg.value)); lg.dataset.wired = '1'; }
   }
 }
-function focusSel(rowId){
-  const b = document.querySelector('#' + rowId + ' .choice-btn.sel');
-  if (b) b.focus({ preventScroll:true });
-}
-
-/* On opening the course with no deck or exercise in the address, return to the place left at this level. */
-window.addEventListener('load', () => { if (!location.hash) setTimeout(restorePlace, 0); });
 
 ARS.CL = {
   order:ORDER, names:T.names, codes:LANG_CODES,

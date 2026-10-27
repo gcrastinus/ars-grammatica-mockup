@@ -835,12 +835,6 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
 
 /* Guided Path (guided.js): the path toggle, lock notes and states, an exercise's own screen, and the
    Progress & Review screen. Same frames, hover, and type as the rest of the course. */
-.path-row{margin:22px 0 4px; gap:0}
-.diff-btn.path-btn{width:auto; min-width:150px; height:44px; padding:0 22px; font-size:16px; font-family:var(--text); border-radius:0}
-.path-row .path-btn + .path-btn{margin-left:-1px}
-.path-row .path-btn{position:relative}
-.path-row .path-btn.sel,.path-row .path-btn:hover,.path-row .path-btn:focus-visible{z-index:1}
-.path-row .path-btn.sel{z-index:2}
 .guided-note{max-width:34em; margin:14px auto 0; text-align:center}
 .guided-note[hidden]{display:none}
 .gp-line{font-style:italic; color:var(--ink-soft); font-size:16px; line-height:1.5; margin:0}
@@ -912,8 +906,6 @@ body.dark .lang-bar .lang-btn{--rubric:#d07a68}
 .lp-lvl .lp-lock{flex-basis:100%; font-size:13.5px; font-style:italic; line-height:1.4; padding-left:90px; color:var(--ink-soft)}
 .q-prompt b{overflow-wrap:anywhere}
 @media (max-width:560px){
-  .diff-btn.path-btn{min-width:0; flex:1 1 0; padding:0 12px}
-  .path-row{flex-wrap:nowrap}
   .set-card .ex-state{font-size:11px}
   .gp-box{padding:14px 16px}
   .lp-lvl .lp-name{min-width:0; flex-basis:100%}
@@ -925,33 +917,26 @@ body.dark #scr-home .set-card:not(.soon):hover,
 body.dark #scr-home .cumul-bar:hover,
 body.dark #scr-home .set-card .ex-link:hover{background:color-mix(in srgb, var(--ink) 10%, var(--paper))}
 
-/* ---------- the course level, the path, and the language (levels.js) ----------
-   Large type, real buttons, the selected one shown by a filled background and a check mark as well as color,
-   and a thick focus outline that shows in both themes. One tab stop per row; the arrow keys move within it. */
-.choice-block{margin:18px auto 0; text-align:center}
-.choice-label{font-family:var(--text); font-size:18px; color:var(--ink-soft); margin-bottom:8px; letter-spacing:.02em}
-.choice-row{display:flex; justify-content:center; flex-wrap:wrap; gap:8px}
-.choice-btn, .diff-btn.path-btn{
-  position:relative; min-height:52px; height:auto; min-width:0; padding:8px 2.1em; font-family:var(--text); font-size:19px; line-height:1.2;
-  border:2px solid var(--frame); background:var(--card); color:var(--ink); border-radius:0; cursor:pointer;
-  display:inline-flex; align-items:center; justify-content:center; box-shadow:none
+/* ---------- the course level, the path, and the language (levels.js, guided.js) ----------
+   Three native drop-downs on one line under the opening paragraph, each with its label above it; on a narrow
+   screen they wrap onto separate lines at full size. At least 48 px high, 19 px type, a 4 px focus outline that
+   shows in both themes. The arrow is drawn in the wrapper so that it takes the theme's ink. */
+.choice-bar{display:flex; justify-content:center; align-items:flex-end; flex-wrap:wrap; gap:14px 18px; margin:22px auto 0}
+.choice-field{display:flex; flex-direction:column; align-items:stretch; text-align:left}
+.choice-label{font-family:var(--text); font-size:18px; color:var(--ink-soft); margin:0 0 6px 2px; letter-spacing:.02em}
+.select-wrap{position:relative}
+.select-wrap::after{content:'▾'; position:absolute; right:14px; top:50%; transform:translateY(-50%); color:var(--ink); font-size:20px; pointer-events:none}
+.choice-select{
+  -webkit-appearance:none; appearance:none; min-height:52px; min-width:11.5em; padding:8px 44px 8px 14px;
+  font-family:var(--text); font-size:19px; line-height:1.2; color:var(--ink); background:var(--card);
+  border:2px solid var(--frame); border-radius:0; cursor:pointer
 }
-.level-row, .lang-row{display:grid; justify-content:center; gap:8px}
-.level-row{grid-template-columns:repeat(2, minmax(0, 13em))}
-.lang-row{grid-template-columns:repeat(3, minmax(0, 11em))}
-.choice-btn:hover, .diff-btn.path-btn:hover{border-color:var(--wine)}
-.choice-btn.sel, .diff-btn.path-btn.sel{background:var(--wine); border-color:var(--wine); color:var(--sel-text); font-weight:700}
-.choice-tick, .diff-btn.path-btn::before{position:absolute; left:.75em; top:50%; transform:translateY(-50%); font-weight:700}
-.diff-btn.path-btn::before{content:''}
-.diff-btn.path-btn.sel::before{content:'✓'}
-.choice-btn:focus-visible, .diff-btn.path-btn:focus-visible{outline:4px solid var(--ink); outline-offset:3px; z-index:3; position:relative}
-.path-row{margin-top:18px}
-.path-row .path-btn + .path-btn{margin-left:0}
-.level-desc{max-width:36em; margin:10px auto 0; font-size:17px; min-height:0}
+.choice-select:hover{border-color:var(--wine)}
+.choice-select:focus-visible, .choice-select:focus{outline:4px solid var(--ink); outline-offset:3px}
+.choice-select option{background:var(--card); color:var(--ink)}
+.level-desc{max-width:36em; margin:12px auto 0; font-size:17px; text-align:center}
 .review-other{font-size:16px; text-align:center; margin:6px auto 0; max-width:34em}
 @media (max-width:560px){
-  .choice-btn, .diff-btn.path-btn{flex:1 1 40%; padding:8px 1.7em; font-size:18px}
-  .choice-tick, .diff-btn.path-btn::before{left:.5em}
-  .lang-row{grid-template-columns:repeat(2, minmax(0, 1fr))}
-  .level-row{grid-template-columns:repeat(2, minmax(0, 1fr))}
+  .choice-bar{flex-direction:column; align-items:stretch}
+  .choice-select{width:100%}
 }
