@@ -997,3 +997,8 @@ One commit per deck (git log, "card pass against the final style list"). Doctrin
 - **Rules applied throughout.** American spelling outside quotations; one italic tag per file; commas and periods inside closing quotation marks in the course's own text (376 places); English term first with the Latin name once in parentheses; "Correct" and "Incorrect"; no pointers to the previous or next deck; no item that re-asks a card's own example in the same respect where the audit found one (Latin figures, German and French meter); the correct option the longest in no more than a third of any set.
 - **Translations.** The course's own renderings are marked in each deck's Sources note and listed in sources/TRANSLATIONS-USED.md ("Languages layer, 19–21 Oct 2026").
 - **Conflict for Timothy.** AK (18 Oct) says "Section X: no particular-languages bar." The brief of 20 Oct asked for one, and it was built (decision 1 in the report).
+
+## Timothy's edits of 26 Oct 2026 (Section III reasons; Greek middle voice)
+
+- **New card `iii.reasons/word-thing`, "From the word, from the thing"** (after the three-modes card, before not-the-meaning): the active mode of signifying comes from the word, the passive from the thing; Timothy's wording, entered without change, with the question point `q-word-thing` (three variants) and four new lines in the deck's recitation, after "A thing is what it is whether anyone understands it or not…".
+- **`lang.iii-decl.grc/accidents`, middle voice card:** the last sentence "Latin has no middle voice." → "Latin has no middle voice of its own, though some passive forms have a middle sense: *lavor* can mean “I wash myself.”"

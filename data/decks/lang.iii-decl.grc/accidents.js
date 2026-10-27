@@ -335,7 +335,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
   {
    "id": "accidents-13",
    "title": "The middle",
-   "body": "<p>Greek has a <strong>middle voice</strong> beside the active and the passive, and in the middle voice the subject acts on itself or for itself. So <i lang=\"grc\">παύει</i> means “he stops” someone else, whereas <i lang=\"grc\">παύεται</i> means “he ceases”; <i lang=\"grc\">λῡ́ει</i> means “he looses” someone else, whereas <i lang=\"grc\">λῡ́εται</i> means “he ransoms” him, that is, he looses him for himself. Latin has no middle voice.</p>",
+   "body": "<p>Greek has a <strong>middle voice</strong> beside the active and the passive, and in the middle voice the subject acts on itself or for itself. So <i lang=\"grc\">παύει</i> means “he stops” someone else, whereas <i lang=\"grc\">παύεται</i> means “he ceases”; <i lang=\"grc\">λῡ́ει</i> means “he looses” someone else, whereas <i lang=\"grc\">λῡ́εται</i> means “he ransoms” him, that is, he looses him for himself. Latin has no middle voice of its own, though some passive forms have a middle sense: <i lang=\"la\">lavor</i> can mean “I wash myself.”</p>",
    "qp": {
     "id": "q-grc-acc-middle",
     "variants": [

@@ -21,6 +21,10 @@ ARS.decks['iii.reasons'] = {
     `The modists name three ways in which a thing can be considered: <strong>the mode of being</strong> (<i>modus essendi</i>), the way the thing is in itself; <strong>the mode of understanding</strong> (<i>modus intelligendi</i>), the way the mind grasps it; and <strong>the mode of signifying</strong> (<i>modus significandi</i>), the way a word signifies it.`,
     `The order is fixed: the mode of understanding is taken from the mode of being, and the mode of signifying from the mode of understanding, just as words signify things by means of concepts.`,
     `A thing is what it is whether anyone understands it or not, but a word cannot signify anything unless someone understands what it is imposed for.`,
+    `Thomas of Erfurt divides the mode of signifying into the active and the passive modes.`,
+    `The active mode of signifying (modus significandi activus) comes from the word: it is a property of the word, given to it by the intellect, by which the word signifies a property of the thing.`,
+    `The passive mode of signifying (modus significandi passivus) comes from the thing: it is the property of the thing as the word signifies it, and it has nothing to do with the passive voice of a verb.`,
+    `The two are one in form and differ in what they are found in: the active mode is in the word as in its subject, and the passive mode is in the thing.`,
     `The mode of signifying is not the meaning: two words can signify the same thing and still be different parts of speech, because they signify it in different modes (“hope” and “hopes”).`,
     `The modists’ own example is a group of Latin words that all signify pain, a noun, a verb, a participle, and an interjection: the thing signified is one, but the modes of signifying are four.`,
     `So the part of speech of a word is decided not by what it signifies but by how it signifies.`,
@@ -88,6 +92,26 @@ ARS.decks['iii.reasons'] = {
       options: [`The mode of being`, `The mode of understanding`, `The mode of signifying`, `The mode of imposition`],
       answer: 1,
       explain: `The way the mind grasps a thing is the mode of understanding. The falling as it really happens is the mode of being, and the way a word such as “falls” signifies it is the mode of signifying. The modists name no “mode of imposition.”` }
+  ]} },
+
+{ id: 'word-thing',
+  title: 'From the word, from the thing',
+  body: `<p>Thomas of Erfurt divides the mode of signifying into the active and the passive modes. The <strong>active mode of signifying</strong> (<i>modus significandi activus</i>) is the mode that comes from the word. It is a property of the word, given to it by the intellect, by which the word signifies a property of the thing, so that “horse” signifies its thing as at rest and “runs” signifies it as under way. The <strong>passive mode of signifying</strong> (<i>modus significandi passivus</i>) is the mode that comes from the thing: it is the property of the thing as the word signifies it. (“Passive” here has nothing to do with the passive voice of a verb.)</p>
+<p>The two are one in form and differ in what they are found in. The active mode is in the word as in its subject, and the passive mode is in the thing. A word has its mode only because the intellect gave it one when the word was imposed, that is, assigned to signify.</p>`,
+  src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase.`,
+  qp: { id: 'q-word-thing', variants: [
+    { prompt: `According to Thomas of Erfurt, in what is the active mode of signifying found?`,
+      options: [`In the word, as in its subject`, `In the thing signified`, `In the sound, as bare sound`, `In the mind alone`],
+      answer: 0,
+      explain: `The active mode is a property of the word, given to it by the intellect, by which the word signifies a property of the thing. It is in the word as in its subject.` },
+    { prompt: `What is the passive mode of signifying?`,
+      options: [`The mode of a verb in the passive voice`, `The property of the thing as the word signifies it`, `The mode of a word said of a thing`, `The mode the mind takes from the thing`],
+      answer: 1,
+      explain: `The passive mode comes from the thing: it is the property of the thing as the word signifies it. It has nothing to do with the passive voice of a verb.` },
+    { prompt: `Why does a word have an active mode of signifying?`,
+      options: [`Because its sound has one by nature`, `Because the thing signified names itself`, `Because the intellect gave it one when the word was imposed`, `Because each language fixes it by decree`],
+      answer: 2,
+      explain: `A word has its mode only because the intellect gave it one when the word was imposed, that is, assigned to signify.` }
   ]} },
 
 { id: 'not-the-meaning',
