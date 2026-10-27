@@ -1,0 +1,21 @@
+SOURCE FILE: passage quoted in lang.x.es/dario (Rubén Darío, “Sonatina,” third stanza (six lines))
+WORK: Rubén Darío, Prosas profanas y otros poemas (Buenos Aires: Imprenta de Pablo E. Coni é Hijos, 1896), the princeps, as in lang.ix.es/poetry. Darío died in 1916. “Sonatina” is dated Tigre Hotel, December 1894.
+TEXT READ: Internet Archive item prosasprofanasyo00daro, PDF page 46 = printed page 24, read from the page image and compared with the Archive’s machine reading (26 Oct 2026). The first line is printed with ¿ and ó in lower case, the next lines with Ó; the print has a space before the question mark of the third line (luz ?), which the course prints without the space. The stanza is the third of the poem (the first is quoted in lang.ix.es/poetry; the second is on pages 23 and 24).
+TRANSLATION: the course’s own plain rendering, line by line.
+METER (the course’s count, by the rules of lang.ii.es/meter, with synalepha): every line has 14 syllables (lines 1, 2, 4, 5 paroxytone; lines 3 and 6, ending in luz and Ormuz, oxytone). Rhyme AABCCB.
+
+### Spanish
+¿Piensa acaso en el príncipe de Golconda ó de China,
+Ó en el que ha detenido su carroza argentina
+Para ver de sus ojos la dulzura de luz?
+Ó en el rey de las Islas de las Rosas fragantes,
+Ó en el que es soberano de los claros diamantes,
+Ó en el dueño orgulloso de las perlas de Ormuz?
+
+### English
+Does she think perhaps of the prince of Golconda or of China,
+or of the one who has stopped his silver carriage
+to see the sweetness of light in her eyes?
+or of the king of the Isles of the Fragrant Roses,
+or of him who is sovereign of the bright diamonds,
+or of the proud owner of the pearls of Ormuz?

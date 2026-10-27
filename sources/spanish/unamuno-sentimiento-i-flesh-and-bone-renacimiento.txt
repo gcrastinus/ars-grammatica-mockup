@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.x.es/unamuno (Miguel de Unamuno, Del sentimiento trágico de la vida, chapter I, the two sentences that follow the four of lang.ix.es/prose)
+WORK: Miguel de Unamuno (1864-1936), Del sentimiento trágico de la vida (1912).
+EDITION OF THE SPANISH: Del sentimiento trágico de la vida (Madrid: Renacimiento, Sociedad Anónima Editorial; undated title page; the Archive’s record gives 1912), the same edition as lang.ix.es/prose; modern spelling.
+TEXT READ: Internet Archive item delsentimientotr00unam_0, leaf 8 = printed page 6, read from the page image (26 Oct 2026). The printed book could not be compared (B14).
+ENGLISH: J. E. Crawford Flitch, Tragic Sense of Life (London: Macmillan, 1921), chapter I, as printed in Project Gutenberg #14636 (the first sentences of lang.ix.es/prose were read from the Archive’s page image of the same book). Real published translation. The Gutenberg text prints the dash as --; the course prints a dash, as in lang.ix.es/prose.
+
+### Spanish
+El nuestro es el otro, el de carne y hueso; yo, tú, lector mío; aquel otro de más allá, cuantos pesamos sobre la tierra. Y este hombre concreto, de carne y hueso, es el sujeto y el supremo objeto a la vez de toda filosofía, quiéranlo o no ciertos sedicentes filósofos.
+
+### English
+The man we have to do with is the man of flesh and bone—I, you, reader of mine, the other man yonder, all of us who walk solidly on the earth. And this concrete man, this man of flesh and bone, is at once the subject and the supreme object of all philosophy, whether certain self-styled philosophers like it or not.

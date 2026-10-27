@@ -503,3 +503,16 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | Federico García Lorca, “Romance de la luna, luna” | opening, through *Huye luna, luna, luna*, *Primer romancero gitano* (Madrid, 1928) | lang.ix.es/poetry | the course’s own |
 | José de Espronceda, *Canción del pirata* | opening sixteen lines and the refrain, *Poesías* (Madrid, Yenes, 1840) | lang.ix.es/poetry | the course’s own |
 | Francisco de Quevedo, “Amor constante más allá de la muerte” | whole sonnet, *Obras*, poesías, tomo tercero (Madrid, Rivadeneyra, 1877) | lang.ix.es/poetry | the course’s own |
+
+### Section X, Spanish (read-only models)
+
+| Passage | Translator and edition | Deck | Status |
+|---|---|---|---|
+| Cervantes, *Don Quijote* I, Prólogo | John Ormsby (1885), “The Author’s Preface” | lang.x.es/cervantes | published |
+| Santa Teresa, *Libro de la vida* I | David Lewis, 3rd ed. (London: Baker, 1904) | lang.x.es/teresa | published |
+| *Lazarillo de Tormes*, Tratado primero | Clements R. Markham (London: A. and C. Black, 1908) | lang.x.es/lazarillo | published |
+| Gracián, *Oráculo manual* 3 | Joseph Jacobs (London: Macmillan, 1892) | lang.x.es/gracian | published |
+| Galdós, *Marianela* I | Clara Bell (New York: Gottsberger, 1883) | lang.x.es/galdos | published |
+| Unamuno, *Del sentimiento trágico* I | J. E. Crawford Flitch (London: Macmillan, 1921) | lang.x.es/unamuno | published |
+| Bécquer, Rima XXI | the course’s own plain rendering, line by line | lang.x.es/becquer | the course’s own |
+| Darío, “Sonatina,” third stanza | the course’s own plain rendering, line by line | lang.x.es/dario | the course’s own |

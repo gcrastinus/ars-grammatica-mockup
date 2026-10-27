@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.x.es/teresa (Santa Teresa de Jesús, Libro de la vida, chapter 1, the passage on her father (three sentences))
+WORK: Santa Teresa de Jesús (1515-1582), Libro de la vida. Died 1582.
+EDITION OF THE SPANISH: Obras escogidas de la Santa Madre Teresa de Jesús, introducción por Rafael Mesa y López (London etc.: Thomas Nelson and Sons, 1912), the same edition as lang.ix.es/prose. The introduction says that the edition does not reproduce the saint’s spelling.
+TEXT READ: Internet Archive item obrasescogidasde00tere_0, leaf 22 = printed page 6, read from the page image (26 Oct 2026). The passage begins in the middle of the paragraph, at Era mi padre hombre de mucha caridad. The print has a space before the semicolons; the course prints none. The printed book could not be compared (B14).
+ENGLISH: David Lewis, The Life of St. Teresa of Jesus (3rd ed., London: Thomas Baker, 1904), chapter I, section 1, pages 2 and 3, read from the page images (item lifeofteresajesu00tereuoft, leaves 56 and 57). The print has a space before the semicolons and the colon; the course prints none. Real published translation. Lewis renders Muy honesto en gran manera as “his life was most pure” and joins the last two Spanish sentences into one.
+
+### Spanish
+Era mi padre hombre de mucha caridad con los pobres y piedad con los enfermos, y aun con los criados; tanta, que jamás se pudo acabar con él tuviese esclavos, porque los había gran piedad; y estando una vez en casa una de un su hermano, la regalaba como á sus hijos; decía, que de que no era libre no podía sufrir de piedad. Era de gran verdad, jamás nadie le oyó jurar ni murmurar. Muy honesto en gran manera.
+
+### English
+My father was a man of great charity towards the poor, and compassion for the sick, and also for servants; so much so, that he never could be persuaded to keep slaves, for he pitied them so much: and a slave belonging to one of his brothers being once in his house, was treated by him with as much tenderness as his own children. He used to say that he could not endure the pain of seeing that she was not free. He was a man of great truthfulness; nobody ever heard him swear or speak ill of any one; his life was most pure.

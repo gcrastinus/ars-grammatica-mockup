@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.x.es/galdos (Benito Pérez Galdós, Marianela, chapter I, the second paragraph, first sentence)
+WORK: Benito Pérez Galdós (1843-1920), Marianela (1878). Died 1920.
+EDITION OF THE SPANISH: Marianela, séptima edición (Madrid: Imprenta de La Guirnalda, 1888), the same edition as lang.ix.es/prose, which prints á for a; the course quotes it as printed.
+TEXT READ: Internet Archive item marianela00prez, leaf 13, the page that begins the book, read from the page image (26 Oct 2026; the copy has pen marks over some letters). The printed book could not be compared (B14).
+ENGLISH: Clara Bell, Marianela (New York: William S. Gottsberger, 1883), chapter I, as printed in Project Gutenberg #48818 (the Archive’s page image was read in the earlier batch for the first paragraph and not for this sentence). Real published translation. The Gutenberg text prints the dashes as --; the course prints dashes. Bell’s rendering is free in places (“as good a soul as you may meet with anywhere” for excelente persona por do quiera que se le mirara).
+
+### Spanish
+Era un hombre de mediana edad, de complexión recia, de buena talla, ancho de espaldas, resuelto de ademanes, firme de andadura, basto de facciones, de mirar osado y vivo, ligero á pesar de su regular obesidad, y (dígase de una vez, aunque sea prematuro) excelente persona por do quiera que se le mirara.
+
+### English
+Our traveller was a man of middle age, strongly built, tall and broad-shouldered; his movements were brisk and resolute, his step firm, his manner somewhat rugged, his eye bold and bright; his pace was nimble, considering that he was decidedly stout, and he was—the reader may at once be told, though somewhat prematurely—as good a soul as you may meet with anywhere.

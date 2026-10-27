@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.x.es/lazarillo (La vida de Lazarillo de Tormes, Tratado primero, the sentence on the little brother)
+WORK: La vida de Lazarillo de Tormes (anonymous; 1554).
+EDITION OF THE SPANISH: ed. H. J. Chaytor (Manchester University Press, 1922), the same edition as lang.ix.es/prose; its preface says that orthography, accentuation, and punctuation have been modernised.
+TEXT READ: Internet Archive item lavidadelazarill00chay, leaf 37 = printed page 3, read from the page image (26 Oct 2026). The print has spaces inside the guillemets and after the inverted exclamation mark (« ¡ cuántos ... mismos ! »); the course prints them closed.
+ENGLISH: Clements R. Markham, The Life of Lazarillo de Tormes (London: A. and C. Black, 1908), page 7, read from the page image (item lifeoflazarillod00markiala, leaf 47). Real published translation. The English sentence begins with “but” in the print (“To this he replied laughing; but I noticed ...”), because Markham leaves out the father’s reply; the quotation begins at “but” and has the lowercase initial of the print. Markham’s rendering of the quotation is free: “How many there are in the world who run from others because they do not see themselves in them” for ¡Cuántos debe de haber en el mundo que huyen de otros, porque no se ven a sí mismos!
+
+### Spanish
+Yo, aunque bien muchacho, noté aquella palabra de mi hermanico, y dije entre mí: «¡Cuántos debe de haber en el mundo que huyen de otros, porque no se ven a sí mismos!»
+
+### English
+but I noticed the words of my little brother, and, though so young, I said to myself, “How many there are in the world who run from others because they do not see themselves in them.”

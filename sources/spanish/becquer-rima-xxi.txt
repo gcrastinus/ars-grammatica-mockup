@@ -1,0 +1,17 @@
+SOURCE FILE: passage quoted in lang.x.es/becquer (Gustavo Adolfo Bécquer, Rimas, Rima XXI (the whole poem, four lines))
+WORK: Rimas de Gustavo Adolfo Bécquer. Novísima edición americana (San Francisco de California: The History Company, 1891), the same edition as lang.ix.es/poetry; the preface is signed “Los editores” and says that the text was collated word by word and line by line with the original. Bécquer died in 1870.
+TEXT READ: Internet Archive item rimas01bcgoog, PDF page 50, book page 41, read from the page image and from an enlargement of the first line (26 Oct 2026), and compared with the Archive’s machine reading (which has a period before mientras). The print has a low mark after dices with no space before mientras, which is read here as a comma; a small speck after clavas is not reproduced. The print has “Poesía . . . . eres tú.” with spaced dots; the course prints four dots without spaces. The print has a drop initial Q (QUÉ in capitals). The printed book could not be compared (B14).
+TRANSLATION: the course’s own plain rendering, line by line (rule of 25 Oct 2026 for verse). Pupila is rendered “pupil.”
+METER (the course’s count, by the rules of lang.ii.es/meter, with synalepha): 11, 11, 11, 7 (line 4: Po-e-sí-a e-res tú, with synalepha across the dots). Assonance in the even lines: azul, tú.
+
+### Spanish
+¿Qué es poesía? dices, mientras clavas
+En mi pupila tu pupila azul;
+¿Qué es poesía? ¿Y tú me lo preguntas?
+Poesía.... eres tú.
+
+### English
+What is poetry? you say, while you fix
+your blue pupil on my pupil;
+What is poetry? And you ask me?
+Poetry.... is you.

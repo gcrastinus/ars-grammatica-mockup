@@ -1,0 +1,11 @@
+SOURCE FILE: passage quoted in lang.x.es/gracian (Baltasar Gracián, Oráculo manual, aphorism 3 (heading and first two sentences))
+WORK: Baltasar Gracián (1601-1658), Oráculo manual y arte de prudencia (1647). Died 1658.
+EDITION OF THE SPANISH: Tratados, ed. Alfonso Reyes (Madrid: Casa Editorial Calleja, 1918), the same edition as lang.ix.es/prose; the editor’s note says that it follows the text of Amsterdam, 1659; modern spelling.
+TEXT READ: Internet Archive item tratadoselhroeel00grac, leaf 187 = printed page 185, read from the page image (26 Oct 2026). The aphorism begins at the bottom of that page. The heading is in italics in the print.
+ENGLISH: Joseph Jacobs, The Art of Worldly Wisdom (London: Macmillan, 1892), aphorism iii, page 2, read from the page image (item artworldlywisdo01jacogoog, leaf 83). Real published translation. Jacobs’s heading is “Keep Matters for a Time in Suspense.” His renderings are free (“heightens the value of your achievements” for es estimación de los aciertos). The number 3 is Jacobs’s and follows the order of the print (Todo está ya en su punto; Genio y ingenio; Llevar sus cosas con suspensión).
+
+### Spanish
+Llevar sus cosas con suspensión. La admiración de la novedad es estimación de los aciertos. El jugar a juego descubierto ni es de utilidad, ni de gusto.
+
+### English
+Keep Matters for a Time in Suspense. Admiration at their novelty heightens the value of your achievements. It is both useless and insipid to play with the cards on the table.
