@@ -1,3 +1,4 @@
+/* BROWSER-ONLY: injected into the page by test/browser-check.js --maker; under Node it fails with "document is not defined". Run it with: node test/browser-check.js --only=lang.ix.es --maker */
 /* Quiz Maker, hidden language, evaluated in the page by test/browser-check.js --maker.
    On index.html#maker opened WITHOUT ?preview=es, a hidden language (Spanish) must not appear in the
    Show filter and none of its sets may be listed, although its checkbox is checked in the markup. */

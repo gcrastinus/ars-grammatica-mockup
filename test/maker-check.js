@@ -1,3 +1,4 @@
+/* BROWSER-ONLY: injected into the page by test/browser-check.js --maker; under Node it fails with "document is not defined". Run it with: node test/browser-check.js --only=lang.ix.es --maker */
 /* Quiz Maker check, evaluated in the page by test/browser-check.js --maker.
    1. On a page loaded at index.html#maker, checks that the Quiz Maker screen is open, chooses one main set and one set per language (a fresh Latin set among them),
       turns on two doctrine questions, makes the quiz through the buttons, and checks that every
