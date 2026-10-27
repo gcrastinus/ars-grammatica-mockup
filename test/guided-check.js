@@ -15,7 +15,7 @@ const BASE = arg('base'), SHOTS = arg('shots');
 const ROOT = path.resolve(__dirname, '..');
 
 (async () => {
-  const b = await launch(ROOT, BASE ? { base: BASE } : {});
+  const b = await launch(ROOT, Object.assign(BASE ? { base: BASE } : {}, { view:{ level:'comprehensive', lang:'all' } }));
   const fails = [];
   let passes = 0;
   const check = (name, ok, extra) => { if (ok) passes++; else fails.push(name + (extra ? ' (' + extra + ')' : '')); };
@@ -88,7 +88,12 @@ const ROOT = path.resolve(__dirname, '..');
   await sitting('ii.ex.syllable');
   check('second day of right answers passes', await st('ii.ex.syllable') === 'passed');
   check('Section III still locked (quantity not passed)', await st('iii.ex.parts') === 'locked');
+  /* the Guided Path has a language (English here), whose Section II sets are required too (levels.js, Timothy 27 Oct 2026) */
+  const EN2 = await ev(`GP.tiers.find(t => t.key === 'ii').required.filter(id => id.indexOf('lang.') === 0)`);
+  check('guided: the English sets of Section II are required', EN2.length === 3 && EN2.every(id => /^lang\.ii\.en\//.test(id)), JSON.stringify(EN2));
+  for (const id of EN2) await sitting(id);
   await sitting('ii.ex.quantity', { level: 2 }); await day(2); await sitting('ii.ex.quantity', { level: 2 });
+  for (const id of EN2) await sitting(id);
   check('Section II passed opens Section III', await st('ii.ex.quantity') === 'passed' && await st('iii.ex.parts') === 'learning');
   check('optional set iii.ex.figure is not required for Section IV', await ev(`!GP.tiers[2].required.includes('iii.ex.figure') && GP.config.OPTIONAL.includes('iii.ex.figure')`));
   check('Section IV needs the study cards, not sets', await st('v.ex.congruity') === 'locked');
@@ -109,7 +114,7 @@ const ROOT = path.resolve(__dirname, '..');
   await ev(`openEx('iii.ex.parts')`); await b.sleep(500);
   check('levels: the picker shows on iii.ex.parts', await ev(`document.getElementById('scr-gx').classList.contains('active') && document.querySelectorAll('#gx-body .lp-lvl').length === 4`));
   check('levels: III and IV are locked before the pass, I and II open', await ev(`[...document.querySelectorAll('#gx-body .lp-lvl')].map(x => x.disabled ? 1 : 0).join('') === '0011'`));
-  check('levels: the lock note is one plain line', await ev(`document.querySelector('#gx-body .lp-lvl[data-level="3"] .lp-lock').textContent === 'Level III opens once this exercise is passed at Level II.'`));
+  check('levels: the lock note is one plain line', await ev(`document.querySelector('#gx-body .lp-lvl[data-level="3"] .lp-lock').textContent === 'Stage III opens once this exercise is passed at Stage II.'`));
   if (SHOTS) for (const [w, h] of [[1100, 900], [390, 844]]) { await b.size(w, h); for (const dark of [false, true]) { await ev(`setDark(${dark})`); await b.sleep(300); await b.shot(path.join(SHOTS, `picker-locked-${w}-${dark ? 'dark' : 'light'}.png`), true); } }
   await b.size(1100, 900); await ev(`setDark(false)`);
   await ev(`openEx('ii.ex.syllable')`); await b.sleep(400);
@@ -145,7 +150,9 @@ const ROOT = path.resolve(__dirname, '..');
   /* 8. Today's Review gathers due items and shows what moved */
   await ev(`(() => { ARS.structure.forEach(sec => sec.items.forEach(it => { if (/^(i|ii)\\./.test(it.id) && !/review/.test(it.kind)) courseStore().decks[it.id] = { opens:1, done:true, doneAt:Date.now() }; })); save(); })()`);
   await ev(`(() => { const bx = courseStore().boxes; let n = 0; for (const id in bx) { if (n++ < 12) bx[id].dueAt = Date.now() - 1000; } save(); })()`);
-  check('home names due items', await ev(`buildHome(), /review items are due today|review item is due today/.test(document.getElementById('guided-note').textContent)`));
+  /* the due count is made once the questions of the level are gathered (practice.js, refreshDue) */
+  await ev(`buildHome()`); await b.sleep(1500);
+  check('home names due items', await ev(`/review items are due today|review item is due today/.test(document.getElementById('guided-note').textContent)`));
   await ev(`GP.startToday()`); await b.sleep(800);
   const todayN = await ev(`run ? run.n : -1`);
   check('Today’s Review runs due items', todayN > 0, todayN);
@@ -186,7 +193,7 @@ const ROOT = path.resolve(__dirname, '..');
     'iii.ex.parts':{ state:'learning', seen:3, correct:3, history:[{date:'2026-01-03', correct:true, item:'prt-A01'}], mhist:[], passedOn:null, masteredOn:null } } }))`);
   await b.goto('index.html');
   for (let i = 0; i < 40 && !(await ev(`typeof GP !== 'undefined'`)); i++) await b.sleep(250);
-  check('migration: a schema 1 record is read', await ev(`GP.stateOf('ii.ex.syllable') === 'mastered' && GP.stateOf('ii.ex.quantity') === 'passed' && GP.stateOf('iii.ex.parts') === 'learning'`));
+  check('migration: a schema 1 record is read', await ev(`GP.stateOf('ii.ex.syllable') === 'mastered' && GP.stateOf('ii.ex.quantity') === 'passed' && ['learning', 'locked'].includes(GP.stateOf('iii.ex.parts'))`));   /* locked: the English sets of II are not in this record */
   await sitting('ii.ex.quantity', { level: 2 });
   check('migration: the next write stores schema 2, old answers at Level I', await ev(`(() => { const o = JSON.parse(localStorage.getItem('ars-grammatica-guided')); return o.schemaVersion === 2 && o.sets['ii.ex.syllable'].history[0].level === 1 && o.sets['ii.ex.syllable'].mhist[0].level === 1 && o.sets['iii.ex.parts'].history[0].level === 1 && o.sets['ii.ex.syllable'].masteredOn === '2026-01-02'; })()`));
   check('migration: GP.migrate leaves schema 2 alone', await ev(`GP.migrate({schemaVersion:2, sets:{a:{history:[{level:3}]}}}).sets.a.history[0].level === 3`));

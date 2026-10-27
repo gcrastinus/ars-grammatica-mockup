@@ -41,22 +41,53 @@ const GPC = {
   OPTIONAL    : ['x.ex.imitation', 'iii.ex.figure']
 };
 
-/* ---------------- the path, built from data/structure.js ---------------- */
+/* ---------------- the path, built from data/structure.js ----------------
+   Built for the course level and the language in force (levels.js): only the decks and exercise sets open at the
+   level count, and the chosen language's decks and exercise sets of each section are steps of that section, after the
+   general ones. Its exercise sets are required, like the general ones (Timothy, 27 Oct 2026). Rebuilt when the
+   level, the language, or the path changes. */
 const plain = t => String(t == null ? '' : t).replace(/<[^>]*>/g, '');
 const isOptional = id => GPC.OPTIONAL.indexOf(id) >= 0;
-const TIERS = [], PREREQS = {}, INFO = {};
-(function build(){
+const TIERS = [], PREREQS = {}, INFO = {}, SETS = [], REQUIRED = [];
+const CLx = () => ARS.CL;
+function langStepsOf(sec){
+  const code = CLx().lang();
+  const sets = [], cards = [];
+  Object.keys(ARS.languages || {}).map(k => ARS.languages[k])
+    .filter(sc => sc && sc.section === sec.id && sc.code === code && sc.bar !== 'prelim')
+    .forEach(sc => {
+      CLx().screenItems(sc).forEach(it => {
+        if (!it.built || it.kind !== 'study') return;
+        cards.push(it.id);
+        const ex = ARS.deckEx && ARS.deckEx[it.id];
+        if (ex && !sets.some(s => s.id === ex)){
+          const exIt = (sc.items || []).find(x => x.id === ex);
+          sets.push({ id:ex, title:plain((exIt && exIt.title) || it.title), review:false });
+        }
+      });
+    });
+  return { sets, cards };
+}
+function rebuild(){
+  TIERS.length = 0; SETS.length = 0; REQUIRED.length = 0;
+  Object.keys(PREREQS).forEach(k => delete PREREQS[k]);
+  Object.keys(INFO).forEach(k => delete INFO[k]);
   (ARS.structure || []).forEach(sec => {
     if (!sec.roman) return;
     const sets = [], reviews = [];
     let batch = [];
     const cards = [];
     sec.items.forEach(it => {
+      if (!CLx().open(it.id)) return;
       if (it.kind === 'review'){ reviews.push({ id:it.id, title:plain(it.title), decks:batch }); batch = []; return; }
       const ex = ARS.deckEx && ARS.deckEx[it.id];
       if (ex && String(ex).indexOf('lang.') !== 0) sets.push({ id:ex, title:plain(it.title), review:false });
       if (it.built && !playerItem(it)){ batch.push(it.id); cards.push(it.id); }
     });
+    const lx = langStepsOf(sec);
+    lx.sets.forEach(s => sets.push(s));
+    lx.cards.forEach(c => cards.push(c));
+    if (!sets.length && !cards.length && !reviews.length) return;
     const required = sets.filter(s => !isOptional(s.id)).map(s => s.id);
     TIERS.push({ key:sec.id, roman:sec.roman, name:sec.name, sets:sets, reviews:reviews, required:required, cards:cards });
   });
@@ -68,10 +99,10 @@ const TIERS = [], PREREQS = {}, INFO = {};
     });
     t.reviews.forEach(r => { INFO[r.id] = { kind:'review', tier:t, title:r.title, decks:r.decks }; });
   });
-})();
-const SETS = [];
-TIERS.forEach(t => t.sets.forEach(s => SETS.push({ id:s.id, title:s.title, tier:t })));
-const REQUIRED = SETS.filter(s => !isOptional(s.id));
+  TIERS.forEach(t => t.sets.forEach(s => SETS.push({ id:s.id, title:s.title, tier:t })));
+  SETS.filter(s => !isOptional(s.id)).forEach(s => REQUIRED.push(s));
+}
+rebuild();
 
 /* ---------------- storage, with in-memory fallback ---------------- */
 let storageOK = true;
@@ -148,6 +179,7 @@ function guided(){ return path === 'guided'; }
 function setPath(p){
   path = p;
   gpSet(GPC.PATH_KEY, p);
+  if (ARS.CL) ARS.CL.onPath(p);
   reflectPath();
   buildHome();
 }
@@ -160,8 +192,34 @@ function reflectPath(){
 }
 
 /* ---------------- set states and gating ---------------- */
-function everPassed(id){ const r = prog && prog.sets && prog.sets[id]; return !!(r && (r.passedOn || r.masteredOn)); }
-function everMastered(id){ const r = prog && prog.sets && prog.sets[id]; return !!(r && r.masteredOn); }
+/* A set without stages is passed (and confirmed) once, at every course level. A set with stages is passed at a
+   course level when it was passed there (passedAt[level]), or when its answers at the stages open there meet the
+   pass, or when the old pass (passedOn, at the set's own pass stage) lies within the stages open there. */
+function lvKey(){ return ARS.CL ? ARS.CL.current() : 'comprehensive'; }
+function capOf(id){ const L = lvOf(id); if (!L) return null; return Math.max(1, Math.min(L.top, ARS.CL ? ARS.CL.stageCap({ id:id, levels:L }) : L.top)); }
+function passLv(id){ const L = lvOf(id); return L ? Math.min(L.pass, capOf(id)) : 1; }
+function passedRec(r, id){
+  if (!r) return false;
+  const L = lvOf(id);
+  if (!L) return !!(r.passedOn || r.masteredOn);
+  const k = lvKey();
+  if ((r.passedAt && r.passedAt[k]) || (r.masteredAt && r.masteredAt[k])) return true;
+  if ((r.passedOn || r.masteredOn) && L.pass <= capOf(id)) return true;
+  return meetsPass({ history:r.history || [] }, id);
+}
+function masteredRec(r, id){
+  if (!r) return false;
+  const L = lvOf(id);
+  if (!L) return !!r.masteredOn;
+  if (r.masteredAt && r.masteredAt[lvKey()]) return true;
+  return !!(r.masteredOn && capOf(id) >= L.top);
+}
+function passDate(r, id){
+  const k = lvKey();
+  return (r.passedAt && r.passedAt[k]) || r.passedOn || null;
+}
+function everPassed(id){ return passedRec(prog && prog.sets && prog.sets[id], id); }
+function everMastered(id){ return masteredRec(prog && prog.sets && prog.sets[id], id); }
 /* A section is complete when its required exercise sets are passed; one with none, when its study cards are finished. */
 function tierDone(t){ return t.required.length ? t.required.every(everPassed) : t.cards.every(deckDoneAt); }
 function unlocked(id){
@@ -200,7 +258,7 @@ function lvOf(id){ return LEVELS[id] || null; }
 function lvl(h){ return (h && h.level) || 1; }
 function passList(id, r){
   const L = lvOf(id);
-  return L ? r.history.filter(h => lvl(h) >= L.pass) : r.history;
+  return L ? r.history.filter(h => lvl(h) >= passLv(id)) : r.history;
 }
 function meetsPass(r, id){
   const last = passList(id, r).slice(-GPC.PASS_WINDOW);
@@ -209,9 +267,10 @@ function meetsPass(r, id){
 }
 /* Mastery counts only sittings on a day after the first pass. */
 function meetsMastery(r, id){
-  if (!r.passedOn) return false;
+  const from = passDate(r, id);
+  if (!from) return false;
   const L = lvOf(id);
-  const q = r.mhist.filter(h => h.date > r.passedOn && (!L || lvl(h) >= L.top)).slice(-GPC.MASTERY_SITTING);
+  const q = r.mhist.filter(h => h.date > from && (!L || lvl(h) >= capOf(id))).slice(-GPC.MASTERY_SITTING);
   return q.length >= GPC.MASTERY_SITTING && q.filter(h => h.correct).length >= GPC.MASTERY_CORRECT;
 }
 const events = [];     /* what changed during the sitting now running, for its summary */
@@ -231,8 +290,17 @@ function onAnswer(run, it, correct){
     const list = run.mode === 'mastery' ? r.mhist : r.history;
     list.push(h);
     if (list.length > GPC.HISTORY_CAP) list.splice(0, list.length - GPC.HISTORY_CAP);
-    if (!r.passedOn && run.mode !== 'mastery' && meetsPass(r, id)){ r.passedOn = today(); passed = true; }
-    if (!r.masteredOn && run.mode === 'mastery' && meetsMastery(r, id)){ r.masteredOn = today(); mastered = true; }
+    const k = lvKey(), L = lvOf(id);
+    if (!passedRec(Object.assign({}, r, { history:[] }), id) && run.mode !== 'mastery' && meetsPass(r, id)){
+      r.passedAt = r.passedAt || {}; r.passedAt[k] = today();
+      if (!r.passedOn && (!L || passLv(id) >= L.pass)) r.passedOn = today();
+      passed = true;
+    }
+    if (!masteredRec(r, id) && run.mode === 'mastery' && meetsMastery(r, id)){
+      r.masteredAt = r.masteredAt || {}; r.masteredAt[k] = today();
+      if (!r.masteredOn && (!L || capOf(id) >= L.top)) r.masteredOn = today();
+      mastered = true;
+    }
     r.state = r.masteredOn ? 'mastered' : r.passedOn ? 'passed' : 'learning';
   });
   if (passed || mastered){
@@ -260,9 +328,9 @@ function summaryNote(run, right, n){
     const title = esc2(INFO[e.id].title);
     if (e.kind === 'passed'){
       const L = lvOf(e.id);
-      html += '<p><strong>' + title + ' is passed.</strong> ' + (L ? 'Every level is now open. ' : '') + 'It is mastered (★) by a second pass on a later day, in a sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Level ' + ROMAN[L.top] : 'the whole pool') + '.</p>';
+      html += '<p><strong>' + title + ' is passed.</strong> ' + (L && capOf(e.id) > passLv(e.id) ? 'Every stage open at this level is now open. ' : '') + 'It is confirmed (★) by a second pass on a later day, in a sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Stage ' + ROMAN[capOf(e.id)] : 'the whole pool') + '.</p>';
     } else {
-      html += '<p><strong>' + title + ' is mastered ★.</strong> Its questions now return in Today’s Review on their own schedule.</p>';
+      html += '<p><strong>' + title + ' is confirmed ★.</strong> Its questions now return in Today’s Review on their own schedule.</p>';
     }
     e.opened.forEach(k => {
       const t = TIERS.find(x => x.key === k);
@@ -282,13 +350,15 @@ function runMastery(ex){
   const st = exState(ex.id);
   st.visits = st.visits || 0;
   const L = ex.levels || null;
-  let pool = typeof ex.fresh === 'function' ? ex.fresh(GPC.MASTERY_SITTING * 2) : uniqueItems(ex);
-  if (L) pool = pool.filter(it => itemLevel(it) === L.top);
+  if (L) LEVELS[ex.id] = L;
+  const top = L ? capOf(ex.id) : 0;
+  let pool = typeof ex.fresh === 'function' ? ex.fresh(GPC.MASTERY_SITTING * 2) : ARS.CL.filterItems(ex, uniqueItems(ex));
+  if (L) pool = pool.filter(it => itemLevel(it) === top);
   const items = shuffled(pool.slice()).slice(0, GPC.MASTERY_SITTING);
   runQueue({
-    ex:ex, set:'', level:L ? L.top : 0, items:items, mode:'mastery', hash:'ex/' + ex.id,
-    kind:'Mastery sitting', title:ex.title,
-    sub:items.length + ' questions drawn from ' + (L ? 'the ' + pool.length + ' of Level ' + ROMAN[L.top] : 'the whole pool of ' + pool.length) + '. ' + GPC.MASTERY_CORRECT + ' must be correct. ' + (ex.instr || '')
+    ex:ex, set:'', level:top, items:items, mode:'mastery', hash:'ex/' + ex.id,
+    kind:'Confirmation sitting', title:ex.title,
+    sub:items.length + ' questions drawn from ' + (L ? 'the ' + pool.length + ' of Stage ' + ROMAN[top] : 'the whole pool of ' + pool.length) + '. ' + GPC.MASTERY_CORRECT + ' must be correct. ' + (ex.instr || '')
   });
 }
 
@@ -301,22 +371,26 @@ function btn(label, cls, fn, disabled){
 }
 function para(text, cls){ const p = document.createElement('p'); p.className = cls || 'q-instr'; p.textContent = text; return p; }
 function backHome(){ if (typeof clearHash === 'function') clearHash(); buildHome(); show('scr-home'); }
-/* ---------------- the level picker (sets with "levels"; modeled on Ars Rhetorica's) ----------------
-   Guided: the levels above the pass level open once the exercise is passed. Free Practice: every level is open,
-   and its chosen level is kept apart from the Guided one (course record, not the guided record). */
-function levelReached(id, L){ return everPassed(id) ? L.top : L.pass; }
+/* ---------------- the stage picker (sets with "levels"; modeled on Ars Rhetorica's level picker) ----------------
+   The data calls them levels; the screen calls them stages, since the course's levels are Essentials to Comprehensive.
+   Only the stages open at the course level are offered (ARS.CL.stageCap). Guided: the stages above the pass stage open
+   once the exercise is passed. Free Practice: every stage open at the course level, and its chosen stage is kept
+   apart from the Guided one (course record, not the guided record). */
+function levelReached(id, L){ LEVELS[id] = L; return everPassed(id) ? capOf(id) : passLv(id); }
 function levelList(ex, isGuided){
   const L = ex.levels, id = ex.id;
+  LEVELS[id] = L;
+  const cap = capOf(id);
   const box = document.createElement('div'); box.className = 'lp-list';
   const chosen = isGuided ? ((prog && prog.sets && prog.sets[id] && prog.sets[id].level) || 1) : (exState(id).level || 1);
-  const open = isGuided ? levelReached(id, L) : L.top;
-  for (let n = 1; n <= L.top; n++){
+  const open = isGuided ? levelReached(id, L) : cap;
+  for (let n = 1; n <= cap; n++){
     const shut = n > open;
     const b = document.createElement('button');
-    b.type = 'button'; b.className = 'btn lp-lvl' + (n === chosen ? ' lp-chosen' : '');
+    b.type = 'button'; b.className = 'btn lp-lvl' + (n === Math.min(chosen, cap) ? ' lp-chosen' : '');
     b.dataset.level = n;
-    b.innerHTML = '<span class="lp-num">Level ' + ROMAN[n] + '</span><span class="lp-name">' + esc2((L.names && L.names[n]) || '') + '</span>' +
-      (shut ? '<span class="lp-lock">Level ' + ROMAN[n] + ' opens once this exercise is passed at Level ' + ROMAN[L.pass] + '.</span>' : '');
+    b.innerHTML = '<span class="lp-num">Stage ' + ROMAN[n] + '</span><span class="lp-name">' + esc2((L.names && L.names[n]) || '') + '</span>' +
+      (shut ? '<span class="lp-lock">Stage ' + ROMAN[n] + ' opens once this exercise is passed at Stage ' + ROMAN[passLv(id)] + '.</span>' : '');
     if (shut) b.disabled = true;
     else b.onclick = () => {
       if (isGuided){ if (tracking()) mutate(p => { recOf(p, id).level = n; }); }
@@ -325,26 +399,32 @@ function levelList(ex, isGuided){
     };
     box.appendChild(b);
   }
+  if (cap < L.top){
+    const more = document.createElement('p'); more.className = 'lock-note';
+    more.textContent = (L.top - cap === 1 ? 'Stage ' + ROMAN[L.top] + ' belongs' : 'Stages ' + ROMAN[cap + 1] + ' to ' + ROMAN[L.top] + ' belong') + ' to a higher level of the course.';
+    box.appendChild(more);
+  }
   return box;
 }
 function pickLevel(ex){
   LEVELS[ex.id] = ex.levels;
   if (guided() && INFO[ex.id]) return showGx(ex.id);
+  if (capOf(ex.id) <= 1) return openEx(ex.id, { level:1 });
   $('gx-title').textContent = ex.title;
-  $('gx-sub').textContent = 'Free Practice · choose a level';
+  $('gx-sub').textContent = 'Free Practice · choose a stage';
   const body = $('gx-body'); body.innerHTML = '';
-  body.appendChild(para('Each level has its own sets, given in order. In Free Practice every level is open, and nothing is recorded for the Guided Path.'));
+  body.appendChild(para('Each stage has its own sets, given in order. In Free Practice every stage of this level is open, and nothing is recorded for the Guided Path.'));
   body.appendChild(levelList(ex, false));
   const acts = document.createElement('div'); acts.className = 'btn-row';
   acts.appendChild(btn('← Home', '', backHome));
   body.appendChild(acts);
   show('scr-gx');
 }
-/* Today's Review draws a leveled set's items only up to the level reached. */
+/* Today's Review draws a set's items only up to the stage reached, and never above the stages open at the level. */
 ARS.levelCap = function(ex){
   if (!ex || !ex.levels) return Infinity;
   LEVELS[ex.id] = ex.levels;
-  if (!guided()) return ex.levels.top;
+  if (!guided()) return capOf(ex.id);
   return levelReached(ex.id, ex.levels);
 };
 function intercept(id){
@@ -362,7 +442,7 @@ function showGx(id){
   loadEx(id).then(ex => ex, () => null).then(ex => {
     if (ex && ex.levels) LEVELS[id] = ex.levels;
     const L = ex && ex.levels;
-    const size = ex ? (typeof ex.fresh === 'function' ? null : (L ? uniqueItems(ex).filter(it => itemLevel(it) === L.top) : uniqueItems(ex)).length) : null;
+    const size = ex ? (typeof ex.fresh === 'function' ? null : (L ? ARS.CL.filterItems(ex, uniqueItems(ex)).filter(it => itemLevel(it) === capOf(id)) : ARS.CL.filterItems(ex, uniqueItems(ex))).length) : null;
     $('gx-title').textContent = info.title;
     $('gx-sub').textContent = sectionName(info.tier) + ' · ' + info.tier.name;
     const body = $('gx-body');
@@ -381,21 +461,22 @@ function showGx(id){
         body.appendChild(para('This exercise opens when ' + gateText(id) + '.'));
       } else if (st === 'learning'){
         body.appendChild(para(L
-          ? 'This exercise is passed when nine of the last ten answers at Level ' + ROMAN[L.pass] + ' or above are correct, on at least two different days. Each visit gives the next set of the level chosen.'
+          ? 'This exercise is passed when nine of the last ten answers at Stage ' + ROMAN[passLv(id)] + ' or above are correct, on at least two different days. Each visit gives the next set of the stage chosen.'
           : 'This exercise is passed when nine of the last ten answers are correct, on at least two different days. Each visit gives the next set in order.'));
         const q = recent(id);
-        if (tracking()) note.push(q.length ? q.filter(h => h.correct).length + ' of the last ' + q.length + ' answers' + (L ? ' at Level ' + ROMAN[L.pass] + ' or above' : '') + ' are correct.' : (L ? 'No answers at Level ' + ROMAN[L.pass] + ' or above are recorded yet.' : 'No answers are recorded yet.'));
+        if (tracking()) note.push(q.length ? q.filter(h => h.correct).length + ' of the last ' + q.length + ' answers' + (L ? ' at Stage ' + ROMAN[passLv(id)] + ' or above' : '') + ' are correct.' : (L ? 'No answers at Stage ' + ROMAN[passLv(id)] + ' or above are recorded yet.' : 'No answers are recorded yet.'));
         if (!L) acts.appendChild(btn('Begin a set', 'primary', start));
       } else if (st === 'passed'){
-        const wait = r.passedOn >= today();
-        body.appendChild(para('This exercise is passed. It is mastered (★) by passing it a second time on a later day, in one sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Level ' + ROMAN[L.top] : 'the whole pool') + (size ? ' of ' + size + ' questions' : '') + ', with ' + GPC.MASTERY_CORRECT + ' of the ' + GPC.MASTERY_SITTING + ' correct.'));
-        if (wait) note.push('The mastery sitting opens on ' + niceDate(addDays(1, r.passedOn)) + '.');
-        acts.appendChild(btn('Mastery sitting', 'primary', mastery, wait));
+        const pd = passDate(r, id) || today();
+        const wait = pd >= today();
+        body.appendChild(para('This exercise is passed. It is confirmed (★) by passing it a second time on a later day, in one sitting of ' + GPC.MASTERY_SITTING + ' questions drawn from ' + (L ? 'Stage ' + ROMAN[capOf(id)] : 'the whole pool') + (size ? ' of ' + size + ' questions' : '') + ', with ' + GPC.MASTERY_CORRECT + ' of the ' + GPC.MASTERY_SITTING + ' correct.'));
+        if (wait) note.push('The confirmation sitting opens on ' + niceDate(addDays(1, pd)) + '.');
+        acts.appendChild(btn('Confirmation sitting', 'primary', mastery, wait));
         if (!L) acts.appendChild(btn('Practice a set', '', start));
       } else {
-        body.appendChild(para('This exercise is mastered (★). Its questions return in Today’s Review on their own schedule. Any ' + (L ? 'level' : 'set') + ' may still be practiced here.'));
+        body.appendChild(para('This exercise is confirmed (★). Its questions return in Today’s Review on their own schedule. Any ' + (L ? 'stage' : 'set') + ' may still be practiced here.'));
         if (!L) acts.appendChild(btn('Practice a set', 'primary', start));
-        acts.appendChild(btn('Mastery sitting', '', mastery));
+        acts.appendChild(btn('Confirmation sitting', '', mastery));
       }
       if (L && st !== 'locked') body.appendChild(levelList(ex, true));
       if (!tracking() && st !== 'locked') note.push('Tracking is off, so these answers will not be recorded. Tracking is turned on under Progress & Review.');
@@ -410,7 +491,7 @@ function showGx(id){
 /* ---------------- the delayed content reviews (the section reviews) ---------------- */
 function deckDoneAt(d){
   const st = courseStore().decks && courseStore().decks[d];
-  return st && st.done ? (st.doneAt ? dateStr(new Date(st.doneAt)) : today()) : null;
+  return st && st.done && ARS.CL.deckDone(d) ? (st.doneAt ? dateStr(new Date(st.doneAt)) : today()) : null;
 }
 function recallState(id){
   const info = INFO[id];
@@ -420,7 +501,7 @@ function recallState(id){
   if (dates.some(d => !d)) return { key:'wait', text:'After the study cards are finished' };
   const t = info.tier;
   if (t.required.length && !t.required.every(everPassed)) return { key:'wait', text:'After the exercises of ' + sectionName(t) + ' are passed' };
-  const marks = dates.concat(t.required.map(x => { const r = prog.sets[x]; return r && (r.passedOn || r.masteredOn); })).filter(Boolean).sort();
+  const marks = dates.concat(t.required.map(x => { const r = prog.sets[x]; return r && (passDate(r, x) || r.masteredOn); })).filter(Boolean).sort();
   const from = marks.length ? marks[marks.length - 1] : today();
   const last = prog && prog.recall && prog.recall[id];
   const ready = addDays(GPC.RECALL_DELAY, from);
@@ -448,9 +529,9 @@ function nextLearning(){
 }
 function nextLine(){
   const learn = nextLearning();
-  if (!learn) return '<p>Every exercise on the path is mastered.</p>';
+  if (!learn) return '<p>Every exercise on the path is confirmed.</p>';
   if (learn.cards) return '<p>Finish the study cards of ' + esc2(sectionName(learn.tier)) + '.</p>';
-  return '<p>' + (everPassed(learn.id) ? 'The next exercise to master is ' : 'The next exercise to learn is ') + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
+  return '<p>' + (everPassed(learn.id) ? 'The next exercise to confirm is ' : 'The next exercise to learn is ') + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
 }
 function startToday(){
   ARS.gatherDue(GPC.TODAY_CAP).then(res => {
@@ -496,7 +577,7 @@ function finishToday(r, before, res, right, n, missed){
 function chipText(id){
   const st = stateOf(id);
   if (st === 'locked') return 'Locked';
-  if (st === 'mastered') return '★ Mastered';
+  if (st === 'mastered') return '★ Confirmed';
   if (st === 'passed') return 'Passed';
   const q = recent(id);
   return q.length ? 'Learning · ' + q.filter(h => h.correct).length + '/' + q.length : 'Learning';
@@ -551,17 +632,17 @@ function homeNote(){
   const row = document.createElement('div');
   row.className = 'btn-row';
   if (!guided()){
-    p.textContent = 'Every exercise is open. The Guided Path opens the exercises in the order of the sections, judges when each is passed and mastered, and gathers what is due for review.';
+    p.textContent = 'Every exercise of this level is open. The Guided Path opens the exercises of the level in the order of the sections, judges when each is passed and confirmed, and gathers what is due for review.';
   } else if (!tracking()){
-    p.textContent = 'The Guided Path opens the exercises in the order of the sections and judges when each is passed and mastered. It keeps its record only once tracking is turned on under Progress & Review.';
+    p.textContent = 'The Guided Path opens the exercises of the level in the order of the sections and judges when each is passed and confirmed. It keeps its record only once tracking is turned on under Progress & Review.';
   } else {
     const due = ARS.dueCount ? ARS.dueCount() : 0, learn = nextLearning(), rr = readyReviews();
     const bits = [];
     if (due) bits.push(due === 1 ? '1 review item is due today.' : due + ' review items are due today.');
     if (learn && learn.cards) bits.push('Finish the study cards of ' + sectionName(learn.tier) + '.');
-    else if (learn) bits.push((everPassed(learn.id) ? 'Next to master: ' : 'Next to learn: ') + learn.title + ' (' + sectionName(learn.tier) + ').');
+    else if (learn) bits.push((everPassed(learn.id) ? 'Next to confirm: ' : 'Next to learn: ') + learn.title + ' (' + sectionName(learn.tier) + ').');
     if (rr.length) bits.push((rr.length === 1 ? 'A review is ready: ' : 'Reviews are ready: ') + rr.map(id => INFO[id].title).join('; ') + '.');
-    if (!bits.length) bits.push('Nothing is due today, and every exercise on the path is mastered.');
+    if (!bits.length) bits.push('Nothing is due today, and every exercise on the path at this level is confirmed.');
     p.textContent = bits.join(' ');
     if (due) row.appendChild(btn('Start Today’s Review', 'primary', startToday));
     else if (learn && learn.cards && learn.deck) row.appendChild(btn('Open ' + sectionName(learn.tier), 'primary', () => openDeck(learn.deck)));
@@ -599,12 +680,12 @@ function renderPanel(){
   notice();
   let h = '';
   if (!guided()){
-    h += '<div class="gp-box"><p>This browser is on <strong>Free Practice</strong>: every exercise is open, and nothing is recorded for the Guided Path.</p>'
+    h += '<div class="gp-box"><p>This browser is on <strong>Free Practice</strong>: every exercise of the level is open, and nothing is recorded for the Guided Path.</p>'
       + '<div class="btn-row"><button class="btn" type="button" id="gp-use">Use the Guided Path</button></div></div>';
   }
   if (!tracking()){
     const had = !!prog;
-    h += '<div class="gp-box"><p><strong>Track progress on the Guided Path.</strong> The Guided Path keeps a private record of answers, stored only in this browser and never sent anywhere, so that it can open the exercises in order and judge when each is passed and mastered. '
+    h += '<div class="gp-box"><p><strong>Track progress on the Guided Path.</strong> The Guided Path keeps a private record of answers, stored only in this browser and never sent anywhere, so that it can open the exercises in order and judge when each is passed and confirmed. '
       + (had ? 'Tracking is paused; the earlier record is kept and will resume.' : 'No record is kept until tracking is turned on.') + '</p>'
       + '<div class="btn-row"><button class="btn primary" type="button" id="gp-track">' + (had ? 'Resume tracking' : 'Turn on tracking') + '</button></div></div>';
   } else {
@@ -618,7 +699,7 @@ function renderPanel(){
     h += '<div class="section-label">Today</div><div class="gp-today">';
     h += '<p>' + (bs.due ? (bs.due === 1 ? 'One review item is' : bs.due + ' review items are') + ' due. Today’s Review gathers up to ' + GPC.TODAY_CAP + ' of them, interleaved across the study cards and exercises.' : 'No review items are due today.') + '</p>';
     if (learn && learn.cards) h += '<p>Finish the study cards of ' + esc2(sectionName(learn.tier)) + '.</p>';
-    else if (learn) h += '<p>' + (everPassed(learn.id) ? 'Next to master' : 'Next to learn') + ': ' + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
+    else if (learn) h += '<p>' + (everPassed(learn.id) ? 'Next to confirm' : 'Next to learn') + ': ' + esc2(learn.title) + ' (' + esc2(sectionName(learn.tier)) + ').</p>';
     h += '<div class="btn-row">' + (bs.due ? '<button class="btn primary" type="button" id="gp-start">Start Today’s Review</button>' : '')
       + (learn && !learn.cards ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Begin: ' + esc2(learn.title) + '</button>' : '')
       + (learn && learn.cards && learn.deck ? '<button class="btn' + (bs.due ? '' : ' primary') + '" type="button" id="gp-learn">Open ' + esc2(sectionName(learn.tier)) + '</button>' : '') + '</div></div>';
@@ -631,17 +712,17 @@ function renderPanel(){
         + bs.days.slice(0, 7).map(o => '<div class="gp-agenda-row"><span>' + niceDate(o.date) + '</span><span>' + o.n + (o.n === 1 ? ' item' : ' items') + '</span></div>').join('') + '</div>';
     }
   }
-  h += '<div class="section-label">The Path</div>';
+  h += '<div class="section-label">The Path: ' + esc2(ARS.CL.names[lvKey()]) + (guided() ? ', ' + esc2((LANGS.find(L => L.code === ARS.CL.lang()) || { name:'' }).name) : '') + '</div>';
   TIERS.forEach(t => {
     h += '<div class="gp-tier">' + esc2(sectionName(t)) + ' · ' + esc2(t.name) + '</div><div class="gp-ladder">';
     t.sets.forEach(s => {
       const id = s.id, st = stateOf(id);
-      const chip = { locked:'Locked', learning:'Learning', passed:'Passed', mastered:'Mastered ★' }[st];
+      const chip = { locked:'Locked', learning:'Learning', passed:'Passed', mastered:'Confirmed ★' }[st];
       let detail = '';
       const r = prog && prog.sets && prog.sets[id];
       if (st === 'locked') detail = 'Opens when ' + gateText(id) + '.';
-      else if (st === 'mastered') detail = 'Mastered on ' + niceDate(r.masteredOn) + '.';
-      else if (st === 'passed') detail = 'Passed on ' + niceDate(r.passedOn) + '; mastery is a sitting of ' + GPC.MASTERY_SITTING + ' questions on a later day.';
+      else if (st === 'mastered') detail = 'Confirmed on ' + niceDate((r.masteredAt && r.masteredAt[lvKey()]) || r.masteredOn) + '.';
+      else if (st === 'passed') detail = 'Passed on ' + niceDate(passDate(r, id) || today()) + '; confirmation is a sitting of ' + GPC.MASTERY_SITTING + ' questions on a later day.';
       else if (tracking()){
         const q = recent(id);
         if (q.length) detail = q.filter(x => x.correct).length + ' of the last ' + q.length + ' answers are correct.';
@@ -757,11 +838,12 @@ if ($('prog-import-file')) $('prog-import-file').onchange = ev => {
 
 window.GP = {
   isGuided:guided, isLocked:locked, intercept, pickLevel, migrate, onAnswer, summaryNote, runMastery, decorateTile, decorateSection,
-  homeNote, openProgress, startToday,
+  homeNote, openProgress, startToday, rebuild,
   /* for checks and for the instructor's report */
   config:GPC, tiers:TIERS, prereqs:PREREQS, info:INFO, sets:SETS, stateOf, recallState, nextLearning, poolFlags,
   eraseAll(){ prog = null; gpRemove(GPC.STORAGE_KEY); }
 };
+rebuild();
 reflectPath();
 buildHome();
 /* learn which sets have levels, so the home chips count the right answers */
