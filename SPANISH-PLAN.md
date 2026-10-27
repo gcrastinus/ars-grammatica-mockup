@@ -569,3 +569,7 @@ START FROM: B14, continued (the Needs list; Timothy's decision on the German and
 Done: Donatus statement corrected in the German and French parts decks and one Latin phrase; "dependent" with clauses changed to "subordinate"; macrons of 55 Latin words checked (two corrected); Robles §99 and §91 cited; meter, overview, orthography and syllable decks limited to what was read. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 20.
 Timothy (27 Oct): the printed books cannot be supplied; "Spanish on" is not to wait for them.
 START FROM: B14 is complete as far as the sources allow. Wait for Timothy to say go; then B15 ("Spanish on").
+
+### B15 (27 Oct 2026): Spanish on
+Done in one commit, not pushed. Steps 1 to 7 as written (the line numbers of steps 5 were stale; the language lists in `app.js` for II.6 and IX, in `data/structure.js` for ii.meter, and in the course description of `index.html` now name Spanish). Step 4 also meant dropping the maker-hidden check from `browser-check --maker` and deleting `test/maker-hidden-check.js`. Step 7: ten screen files; `browser-check` reports 60 screens. Step 8: lang-audit, browser-check --maker, lang-order-speech-check, guided-check and levels-check all pass. Rolling back is a single revert of the commit.
+

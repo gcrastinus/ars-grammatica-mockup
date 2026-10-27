@@ -63,7 +63,7 @@ const LANGS = [
   { code:'en', name:'English' },
   { code:'la', name:'Latin' },
   { code:'grc', name:'Greek', native:'Ἑλληνική' },
-  { code:'es', name:'Spanish', hidden:true },   /* hidden until its content is written (Phase 1 on) */
+  { code:'es', name:'Spanish' },
   { code:'de', name:'German' },
   { code:'fr', name:'French' }
 ];

@@ -39,20 +39,14 @@ const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarv
     await b.goto('index.html?' + bust);
     await b.evaluate(`setDark(${dark}); buildHome(); true`);
     const order = await b.evaluate(`[...document.querySelector('.lang-bar .lang-btns').children].map(x => x.textContent.trim()).join(',')`);
-    check(order === 'English,Latin,Greek,German,French', tag + 'bar order without preview: ' + order);
-    const bars = await b.evaluate(`[...document.querySelectorAll('.lang-bar')].every(bar => bar.querySelectorAll('.lang-btn').length === 5 && !bar.querySelector('.lang-es'))`);
-    check(bars, tag + 'every bar has five buttons and no Spanish');
+    check(order === 'English,Latin,Greek,Spanish,German,French', tag + 'bar order: ' + order);
+    const bars = await b.evaluate(`(() => { const all = [...document.querySelectorAll('.lang-bar')]; return all.length > 0 && all.every(bar => [...bar.querySelectorAll('.lang-btn')].map(x => x.textContent.trim()).join(',') === 'English,Latin,Greek,Spanish,German,French'); })()`);
+    check(bars, tag + 'every bar has six buttons in order, Spanish included');
     check(await b.evaluate(`document.body.classList.contains('dark') === ${dark}`), tag + 'theme applied');
-    check(await b.evaluate(`!![...document.querySelectorAll('#qz-langs label')].find(l => l.querySelector('[value=es]') && l.hidden)`), tag + 'Spanish maker checkbox hidden');
-    check(await b.evaluate(`[...document.querySelectorAll('#qz-langs input')].map(i => i.value).join(',')`) === 'main,en,la,grc,es,de,fr', tag + 'maker checkbox order');
-
-    await b.goto('index.html?preview=es&' + bust);
-    await b.evaluate(`setDark(${dark}); buildHome(); true`);
-    const porder = await b.evaluate(`[...document.querySelector('.lang-bar .lang-btns').children].map(x => x.textContent.trim()).join(',')`);
-    check(porder === 'English,Latin,Greek,Spanish,German,French', tag + 'bar order with ?preview=es: ' + porder);
     const bg = await b.evaluate(`getComputedStyle(document.querySelector('.lang-btn.lang-es')).getPropertyValue('--lang').trim()`);
     check(bg === (dark ? '#b5792c' : '#a0661c'), tag + 'Spanish ochre ' + bg);
-    check(await b.evaluate(`!document.querySelector('#qz-langs input[value=es]').parentElement.hidden`), tag + 'Spanish maker checkbox shown in preview');
+    check(await b.evaluate(`[...document.querySelectorAll('#qz-langs input')].map(i => i.value).join(',')`) === 'main,en,la,grc,es,de,fr', tag + 'maker checkbox order');
+    check(await b.evaluate(`(() => { const l = [...document.querySelectorAll('#qz-langs label')].find(l => l.querySelector('[value=es]')); return !!l && !l.hidden; })()`), tag + 'Spanish maker checkbox visible');
   }
 
   /* grading */

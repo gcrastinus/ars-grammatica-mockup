@@ -10,12 +10,6 @@
 'use strict';
 const SECTION_ORDER = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi'];
 const LANG_ORDER = ['en', 'la', 'grc', 'es', 'de', 'fr'];
-/* Spanish's checkbox is hidden unless the page was opened with ?preview=es (see LANGS in course.js). */
-(() => { try {
-  if ((new URLSearchParams(location.search).get('preview') || '').split(',').indexOf('es') < 0) return;
-  const box = document.querySelector('#qz-langs input[value="es"]');
-  if (box && box.parentElement) box.parentElement.hidden = false;
-} catch (e) {} })();
 const LANG_NAME = { en:'English', la:'Latin', grc:'Greek', es:'Spanish', de:'German', fr:'French' };
 const BAR_ORDER = ['ii', 'iii-decl', 'iii-indecl', 'iv', 'v', 'vi', 'vii', 'ix'];
 const BAR_SECTION = { 'ii':'ii', 'iii-decl':'iii', 'iii-indecl':'iii', 'iv':'iv', 'v':'v', 'vi':'vi', 'vii':'vii', 'ix':'ix' };
