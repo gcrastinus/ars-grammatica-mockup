@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/orthography"] = {
  "id": "lang.ii.es/orthography",
  "title": "Spanish Spelling: Letters, Sounds, and Punctuation",
  "sub": "The Spanish alphabet, how the sounds are spelled in Spain, the inverted question and exclamation marks, capitals, and older spellings",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Rafael Lapesa, <i lang=\"es\">Historia de la lengua española</i>",
+ "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010); Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), <i lang=\"es\">Nuevas normas de prosodia y ortografía</i> (1952; binding from 1959), and <i lang=\"es\">Ortografía de la lengua castellana</i> (1815); Julio Casares, “Las ‘Nuevas Normas de Prosodia y Ortografía’,” <i lang=\"es\">Boletín de la Real Academia Española</i> 38 (1958). The <i lang=\"es\">Ortografía</i> of 2010 was read through the presentation of Amparo Morales for the Academies (2011), not in the book itself",
  "panels": [
   {
    "id": "letters",

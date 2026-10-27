@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/syllable"] = {
  "id": "lang.ii.es/syllable",
  "title": "Spanish Syllable and Stress",
  "sub": "How a Spanish word is divided, where the stress falls, and when the stress is written",
- "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010)",
+ "sources": "Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (1999), section 4.5, and the presentation of the <i lang=\"es\">Ortografía</i> of 2010 by Amparo Morales for the Academies (2011); the book of 2010 itself was not read",
  "panels": [
   {
    "id": "syllable-1",

@@ -4,7 +4,7 @@ ARS.decks["lang.ii.es/meter"] = {
  "id": "lang.ii.es/meter",
  "title": "Spanish Meter",
  "sub": "Counting syllables to the last stress, synalepha, the line of eight syllables, the line of eleven, and rhyme",
- "sources": "Tomás Navarro Tomás, <i lang=\"es\">Métrica española</i>; Real Academia Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010)",
+ "sources": "Felipe Robles Dégano, <i lang=\"es\">Ortología clásica de la lengua castellana</i> (1905), for the count of syllables, synalepha, assonance, and the alexandrine; Tomás Navarro Tomás, introduction to <i lang=\"es\">Garcilaso, Obras</i> (Clásicos Castellanos; Madrid, 1911), p. XIII. The lines are counted by the course. Navarro Tomás, <i lang=\"es\">Métrica española</i>, and the Academy’s <i lang=\"es\">Ortografía</i> of 2010 were not read",
  "panels": [
   {
    "id": "meter-1",
@@ -95,7 +95,7 @@ ARS.decks["lang.ii.es/meter"] = {
   {
    "id": "meter-3",
    "title": "The line of eight syllables",
-   "body": "<p><strong>The line of eight syllables.</strong> The <i lang=\"es\">octosílabo</i>, the line of eight syllables, is the native and most popular line of Spanish verse. It is the line of the <i lang=\"es\">romances</i>, the old ballads, which rhyme by assonance on every even line, as in the ballad of the prisoner: <i lang=\"es\">Que por mayo era, por mayo</i> (with synalepha in <i lang=\"es\">mayo era</i>). Lope de Vega, Lorca, and Machado wrote in it, as in Lorca’s <i lang=\"es\">Verde que te quiero verde. / Verde viento. Verdes ramas.</i></p>",
+   "body": "<p><strong>The line of eight syllables.</strong> The <i lang=\"es\">octosílabo</i> is the line of eight syllables. It is the line of the <i lang=\"es\">romances</i>, the old ballads, which rhyme by assonance on the even lines, as in the ballad of the prisoner: <i lang=\"es\">Que por mayo era, por mayo</i> (with synalepha in <i lang=\"es\">mayo era</i>). Lorca wrote in it, as in <i lang=\"es\">Verde que te quiero verde. / Verde viento. Verdes ramas.</i>, and so did Machado in <i lang=\"es\">se hace camino al andar</i>.</p>",
    "qp": {
     "id": "q-es-meter-3",
     "variants": [
@@ -122,7 +122,7 @@ ARS.decks["lang.ii.es/meter"] = {
       "explain": "<i lang=\"es\">Octo-</i> is Latin for “eight.”"
      },
      {
-      "prompt": "Which is the native line of the Spanish ballads?",
+      "prompt": "Which is the usual line of the Spanish ballads?",
       "options": [
        "The line of eight syllables",
        "The line of eleven syllables",
@@ -138,7 +138,7 @@ ARS.decks["lang.ii.es/meter"] = {
   {
    "id": "meter-4",
    "title": "The line of eleven syllables",
-   "body": "<p><strong>The line of eleven syllables.</strong> The <i lang=\"es\">endecasílabo</i>, the line of eleven syllables, came into Spanish from Italy in the sixteenth century, with the poets Juan Boscán and Garcilaso de la Vega. It is the line of the sonnet, fourteen lines of eleven syllables. The opening of Garcilaso’s first eclogue counts eleven: <i lang=\"es\">El-dul-ce-la-men-tar-de-dos-pas-to-res</i>. The <i lang=\"es\">alejandrino</i>, the line of fourteen syllables, is divided into two halves of seven; it was used in the Middle Ages and revived by Rubén Darío: <i lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?</i></p>",
+   "body": "<p><strong>The line of eleven syllables.</strong> The <i lang=\"es\">endecasílabo</i>, the line of eleven syllables, came into Spanish from Italian poetry in the sixteenth century. Tomás Navarro Tomás writes in the introduction to his edition of Garcilaso (Clásicos Castellanos, 1911, p. XIII) that Italian metrics, scarcely imported by Boscán, found in Garcilaso a happy defender, and he calls Acuña, Mendoza, and Boscán <i lang=\"es\">primeros adalides del verso endecasílabo</i>, “the first champions of the line of eleven syllables.” It is the line of the sonnet, fourteen lines of eleven syllables. The opening of Garcilaso’s first eclogue counts eleven: <i lang=\"es\">El-dul-ce-la-men-tar-de-dos-pas-to-res</i>. The <i lang=\"es\">alejandrino</i>, the line of fourteen syllables, is divided into two halves of seven, which Robles Dégano describes as two iambic heptasyllables; his first examples are lines of Berceo. Rubén Darío’s <i lang=\"es\">Sonatina</i> is written in it: <i lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?</i></p>",
    "qp": {
     "id": "q-es-meter-4",
     "variants": [
@@ -181,7 +181,7 @@ ARS.decks["lang.ii.es/meter"] = {
   {
    "id": "meter-5",
    "title": "Rhyme",
-   "body": "<p><strong>Rhyme.</strong> Spanish has two kinds of rhyme, both counted from the last stressed vowel of the line. In full rhyme, <i lang=\"es\">rima consonante</i>, every sound from that vowel on is the same: <i lang=\"es\">amores</i> and <i lang=\"es\">flores</i>, <i lang=\"es\">canción</i> and <i lang=\"es\">corazón</i>. In assonance, <i lang=\"es\">rima asonante</i>, only the vowels are the same: <i lang=\"es\">casa</i> and <i lang=\"es\">llama</i> share <i lang=\"es\">a</i> and <i lang=\"es\">a</i>, and <i lang=\"es\">vida</i> and <i lang=\"es\">fría</i> share <i lang=\"es\">i</i> and <i lang=\"es\">a</i>. Assonance is the rhyme of the ballads and of much popular verse.</p>",
+   "body": "<p><strong>Rhyme.</strong> Spanish has two kinds of rhyme, both counted from the last stressed vowel of the line. In full rhyme, <i lang=\"es\">rima consonante</i>, every sound from that vowel on is the same: <i lang=\"es\">amores</i> and <i lang=\"es\">flores</i>, <i lang=\"es\">canción</i> and <i lang=\"es\">corazón</i>. In assonance, <i lang=\"es\">rima asonante</i>, only the vowels are the same: <i lang=\"es\">casa</i> and <i lang=\"es\">llama</i> share <i lang=\"es\">a</i> and <i lang=\"es\">a</i>, and <i lang=\"es\">vida</i> and <i lang=\"es\">fría</i> share <i lang=\"es\">i</i> and <i lang=\"es\">a</i>. Assonance is the rhyme of the ballads.</p>",
    "qp": {
     "id": "q-es-meter-5",
     "variants": [

@@ -628,7 +628,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<i lang=\"es\">Mi única patria la mar</i> counts eight only if…",
-   "explain": "<i lang=\"es\">Mi</i> must join the stressed <i lang=\"es\">ú</i>. The count of that one line rests on the join, which the other lines of the refrain allow, and on the precept that an unstressed vowel before a stressed vowel may form one syllable (Robles Dégano, 1905).",
+   "explain": "<i lang=\"es\">Mi</i> must join the stressed <i lang=\"es\">ú</i>. The count of that one line rests on the join, which the other lines of the refrain allow, and on the rule that an unstressed weak vowel can join the vowel beside it (Robles Dégano, <i>Ortología clásica</i>, §99, page 86).",
    "options": [
     "<i lang=\"es\">Mi</i> joins <i lang=\"es\">ú</i>",
     "<i lang=\"es\">Única</i> loses its accent",

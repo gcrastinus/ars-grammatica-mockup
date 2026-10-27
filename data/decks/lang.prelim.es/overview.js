@@ -4,7 +4,7 @@ ARS.decks["lang.prelim.es/overview"] = {
  "id": "lang.prelim.es/overview",
  "title": "The Spanish Language",
  "sub": "How Spanish grew out of the Latin of Hispania, how Castilian became the standard, and what is distinctive about its grammar.",
- "sources": "Rafael Lapesa, <i lang=\"la\">Historia de la lengua española</i>; Ralph Penny, <i>A History of the Spanish Language</i>; Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010) and <i lang=\"es\">Nueva gramática de la lengua española</i> (2009)",
+ "sources": "Real Academia Española, <i lang=\"es\">Diccionario de la lengua española</i> (23rd ed., 2014), for the etymologies and the count of Arabic words; Real Academia Española and Asociación de Academias de la Lengua Española, <i lang=\"es\">Ortografía de la lengua española</i> (2010) and <i lang=\"es\">Nueva gramática de la lengua española</i> (2009), for the statements about the Academy’s work. The historical statements of the deck (dates, peoples, and the history of the Academy) have not been compared with Lapesa, <i lang=\"es\">Historia de la lengua española</i>, or Penny, <i>A History of the Spanish Language</i>, which were not read.",
  "panels": [
   {
    "id": "origin",
@@ -39,7 +39,7 @@ ARS.decks["lang.prelim.es/overview"] = {
   {
    "id": "tradition",
    "title": "The literary tradition",
-   "body": "<p>The Golden Age of Spanish literature, the sixteenth and seventeenth centuries, includes the poetry of Garcilaso de la Vega, who brought the Italian line of eleven syllables into Spanish, the mystical writings of Saint Teresa of Ávila and Saint John of the Cross, the <i lang=\"es\">Don Quijote</i> of Miguel de Cervantes (1605 and 1615), and the plays of Lope de Vega and Calderón de la Barca. Later writers include Gustavo Adolfo Bécquer in the nineteenth century, and Antonio Machado and Federico García Lorca in the twentieth.</p>\n<p>The old Spanish ballads, called <i lang=\"es\">romances</i>, were sung long before they were written down, and they are still known by heart in Spain and in the Americas. Their line of eight syllables is the native line of Spanish verse.</p>"
+   "body": "<p>The Golden Age of Spanish literature, the sixteenth and seventeenth centuries, includes the poetry of Garcilaso de la Vega, who wrote sonnets in the Italian line of eleven syllables, the mystical writings of Saint Teresa of Ávila and Saint John of the Cross, the <i lang=\"es\">Don Quijote</i> of Miguel de Cervantes (1605 and 1615), and the plays of Lope de Vega and Calderón de la Barca. Later writers include Gustavo Adolfo Bécquer in the nineteenth century, and Antonio Machado and Federico García Lorca in the twentieth.</p>\n<p>The old Spanish ballads, called <i lang=\"es\">romances</i>, were sung long before they were written down, and they are still known by heart in Spain and in the Americas. Their line is the line of eight syllables.</p>"
   }
  ],
  "overview": true
