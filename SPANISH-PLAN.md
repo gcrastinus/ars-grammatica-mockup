@@ -564,3 +564,8 @@ START FROM: B14, continued (waiting for Timothy's choice of the Quevedo sonnet, 
 Done: Quevedo swapped to *Miré los muros* (Fernández-Guerra 1907, p. 405); ballad kept; Bernal Díaz replaced by Santa Teresa, *Vida* 29 (Mesa y López 1912, Lewis 1904); "subordinate clause" course-wide (own commit); Donatus source line corrected in `iii.parts`. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 19.
 Still waiting on Timothy: whether to correct the Donatus statement in `lang.iii-decl.de/parts` and `lang.iii-decl.fr/parts` and the phrase in `lang.iii-decl.la/cases-ex`; the items on the Needs list.
 START FROM: B14, continued (the Needs list; Timothy's decision on the German and French Donatus statements). Do not start B15 until he says go.
+
+### B14, fifth part (27 Oct 2026)
+Done: Donatus statement corrected in the German and French parts decks and one Latin phrase; "dependent" with clauses changed to "subordinate"; macrons of 55 Latin words checked (two corrected); Robles §99 and §91 cited; meter, overview, orthography and syllable decks limited to what was read. Details: `sources/spanish/B14-FACT-CHECK-OCT-26.md`, section 20.
+Timothy (27 Oct): the printed books cannot be supplied; "Spanish on" is not to wait for them.
+START FROM: B14 is complete as far as the sources allow. Wait for Timothy to say go; then B15 ("Spanish on").
