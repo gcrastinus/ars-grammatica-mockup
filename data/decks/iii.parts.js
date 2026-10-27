@@ -198,7 +198,7 @@ ARS.decks['iii.parts'] = {
   title: 'Declinable and indeclinable parts',
   body: `<p>The eight parts fall into two groups. The noun, the pronoun, the verb, and the participle change their form to show their accidents: Latin <i>lūna</i>, <i>lūnae</i>, <i>lūnam</i>, or <i>cantō</i>, <i>cantās</i>, <i>cantat</i> (“I sing,” “you sing,” “he sings”). These are called the <strong>declinable</strong> parts, from the Latin <i>dēclīnāre</i>, “to turn aside,” because their forms turn away from the first form. The adverb, the preposition, the conjunction, and the interjection keep one form, and they are called the <strong>indeclinable</strong> parts. (Some adverbs have degrees of comparison, as “quickly” and “more quickly,” but they are not declined for case or time.)</p>
 <p>This division orders the study of the parts of speech in this section of the course: after the question why there are these eight parts, the declinable parts are studied with their accidents, and then the indeclinable parts.</p>`,
-  src: `Donatus, <i>Ars minor</i> and <i>Ars maior</i> II, in paraphrase.` }
+  src: `Donatus, <i>Ars maior</i> II, which says that three of the eight parts are inflected by the six cases; the division into three declined by case, one by tense, and four not declined is that of the late ancient commentary printed under the name of Servius (Sergius) in Keil, <i>Grammatici Latini</i> IV, p. 428, in paraphrase.` }
 
   ]
 };
