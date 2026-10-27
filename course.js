@@ -141,10 +141,10 @@ function langItemDone(it){
     return !!(st && st.done);
   }
   const st = store.decks[it.id];
-  return !!(st && st.done);
+  return !!(st && st.done) && CL().deckDone(it.id);
 }
 function langScreenDone(screen){
-  const items = (screen.items || []).filter(it => it.built && it.kind !== 'note');
+  const items = CL().screenItems(screen).filter(it => it.built && it.kind !== 'note');
   return items.length > 0 && items.every(langItemDone);
 }
 
@@ -163,10 +163,21 @@ function show(scr){
 /* The one ornament: the four-point star defined in index.html. */
 const STAR = '<svg class="orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>';
 
-/* ---------- home: all 71 buttons in order ---------- */
+/* ---------- home: the buttons of the level chosen, in order ----------
+   Only the decks, exercises, and reviews open at the level (levels.js, data/tiers.js) are shown. A section with
+   nothing open at the level is left out. A language bar keeps its place even when the tile it follows is not shown. */
+const CL = () => ARS.CL;
+function langBarHasItems(bar){
+  if (bar.direct) return LANGS.some(L => langShown(L) && CL().langShown(L.code) && CL().open(langId(bar.id, L.code) + '/' + bar.direct));
+  return LANGS.some(L => langShown(L) && CL().langShown(L.code) && CL().screenItems(langRecord(bar.id, L.code)).length > 0);
+}
 function buildHome(){
   const host = $('home-acts'); host.innerHTML = '';
+  if (CL()) CL().renderControls();
   ARS.structure.forEach(sec => {
+    const shown = sec.items.filter(it => CL().open(it.id));
+    const bars = (sec.langBars || []).filter(langBarHasItems);
+    if (!shown.length && !bars.length) return;
     const head = document.createElement('h2');
     if (sec.roman){
       head.className = 'act-label';
@@ -189,26 +200,31 @@ function buildHome(){
     gl.textContent = sec.gloss;
     host.appendChild(gl);
     let grid = document.createElement('div'); grid.className = 'home-grid'; host.appendChild(grid);
-    let sawReview = false;
+    let sawReview = false, group = '';
     const rule = cls => { const r = document.createElement('div'); r.className = 'sec-rule ' + cls; r.setAttribute('aria-hidden','true'); return r; };
     sec.items.forEach(it => {
-      if (it.kind === 'review' && !sawReview){ grid.appendChild(rule('sec-rule-main')); sawReview = true; }
-      if (it.group){
-        const g = document.createElement('div'); g.className = 'grp-label'; g.textContent = it.group; grid.appendChild(g);
+      if (it.group) group = it.group;
+      if (shown.indexOf(it) >= 0){
+        if (it.kind === 'review' && !sawReview){ grid.appendChild(rule('sec-rule-main')); sawReview = true; }
+        if (group){
+          const g = document.createElement('div'); g.className = 'grp-label'; g.textContent = group; grid.appendChild(g);
+          group = '';
+        }
+        grid.appendChild(makeTile(it));
       }
-      grid.appendChild(makeTile(it));
-      (sec.langBars || []).filter(b => b.after === it.id).forEach(b => grid.appendChild(langBar(b)));
+      bars.filter(b => b.after === it.id).forEach(b => grid.appendChild(langBar(b)));
     });
     if (sec.roman && typeof cumulativeBar === 'function'){
       grid.appendChild(rule(sawReview ? 'sec-rule-faint' : 'sec-rule-main'));
       grid.appendChild(cumulativeBar(sec));
-      (sec.langBars || []).filter(b => b.after === 'cumul').forEach(b => grid.appendChild(langBar(b)));
+      bars.filter(b => b.after === 'cumul').forEach(b => grid.appendChild(langBar(b)));
     }
     if (window.GP && GP.decorateSection) GP.decorateSection(sec, grid);
   });
   if (window.GP && GP.homeNote) GP.homeNote();
   if (typeof renderReciteReminder === 'function') renderReciteReminder();
   if (typeof renderReviewNotice === 'function') renderReviewNotice();
+  if (ARS.refreshDue) ARS.refreshDue();
 }
 
 /* A full-width bar of five language buttons. The buttons are the same on every bar.
@@ -224,7 +240,9 @@ function langBar(bar){
   el.appendChild(h);
   const row = document.createElement('div');
   row.className = 'lang-btns';
-  LANGS.filter(L => langShown(L) && (!L.hidden || (ARS.languages || {})['lang.' + bar.id + '.' + L.code])).forEach(L => {
+  /* Only the language chosen (or all six), and only a language with something open at the level. */
+  LANGS.filter(L => langShown(L) && (!L.hidden || (ARS.languages || {})['lang.' + bar.id + '.' + L.code])).filter(L => CL().langShown(L.code) &&
+    (bar.direct ? CL().open(langId(bar.id, L.code) + '/' + bar.direct) : CL().screenItems(langRecord(bar.id, L.code)).length > 0)).forEach(L => {
     const screen = langRecord(bar.id, L.code);
     const b = document.createElement('button');
     b.type = 'button';
@@ -259,7 +277,7 @@ function openLang(id){
   $('lang-note').textContent = 'Best taken after the section.';
   const grid = $('lang-grid');
   grid.innerHTML = '';
-  (screen.items || []).forEach(it => {
+  CL().screenItems(screen).forEach(it => {
     if (it && it.kind === 'exercise' && deckForExercise(it.id)) return;
     grid.appendChild(makeTile(it));
   });
@@ -297,7 +315,7 @@ function makeTile(it){
   const exDone = practiceTile && store.ex && store.ex[it.id] && store.ex[it.id].done;
   c.className = 'set-card ' + (it.built ? 'built' : 'soon') + (!it.built && plan ? ' has-plan' : '') + (it.kind === 'review' ? ' review-bar' : '');
   c.dataset.id = it.id;
-  const studied = it.built && !practiceTile && st && st.done;
+  const studied = it.built && !practiceTile && st && st.done && CL().deckDone(it.id);
   const finished = it.built && practiceTile && exDone && String(it.id).indexOf('lang.') === 0;
   const begin = it.built ? ((practiceTile || it.introFor) ? 'Begin →' : (it.kind === 'models' || it.kind === 'overview' ? 'Read →' : 'Study →')) : '';
   c.innerHTML = `${STAR}<span class="tile-main"><div class="kind">${KIND[it.kind] || ''}</div>
@@ -374,6 +392,7 @@ const TYPE_NAME = { 'mc':'multiple choice', 'mc-marked':'multiple choice on a ma
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 function openEx(id, opts){
   /* On the Guided Path an exercise opens through its own screen (guided.js); opts marks the call that comes from it. */
+  if (!opts) CL().remember(id);
   if (!opts && window.GP && GP.intercept && GP.intercept(id)) return;
   const homeOf = langScreenOf(id);
   if (homeOf) screenReturn = homeOf;
@@ -898,27 +917,35 @@ function itemsForSet(ex, set){
   if (shared.length) return shared;
   return [];
 }
-/* Levels: an item's "level" (none = Level I); a set with "levels" runs one level at a time. */
+/* Stages: an item's "level" (none = Stage I); a set with "levels" runs one stage at a time. The data keeps the name
+   "level"; the screen says "Stage," because the course's own levels are Essentials to Comprehensive (levels.js).
+   Only the stages open at the course level can be chosen (ARS.CL.stageCap), and a review or a passage set gives only
+   its questions on the decks and passages open at the level. */
 function itemLevel(it){ return (it && it.level) || 1; }
 const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
+/* the sets (A, B, C ...) that still have questions once the level's filter is applied */
+function formsWithItems(ex, items, forms){
+  return forms.filter(f => itemsForSet({ items:items }, f).length > 0);
+}
 function runEx(ex, opts){
   const st = exState(ex.id);
-  const level = ex.levels ? Math.max(1, Math.min(ex.levels.top, (opts && opts.level) || 1)) : 0;
+  const cap = Math.min(ex.levels ? ex.levels.top : 0, CL().stageCap(ex));
+  const level = ex.levels ? Math.max(1, Math.min(cap, (opts && opts.level) || 1)) : 0;
   if (level){
-    /* each level keeps its own place in the rotation of sets */
+    /* each stage keeps its own place in the rotation of sets */
     st.lvisits = st.lvisits || {};
     st.lvisits[level] = (st.lvisits[level] || 0) + 1;
     st.visits += 1;
     save();
-    const own = (ex.items || []).filter(x => itemLevel(x) === level);
+    const own = CL().filterItems(ex, (ex.items || []).filter(x => itemLevel(x) === level));
     const forms = [...new Set(own.map(x => x.set))].filter(x => x !== 'all').sort();
     const set = forms[(st.lvisits[level] - 1) % forms.length];
     const items = itemsForSet({ items:own }, set);
     runQueue({
       ex: ex, set: set, level: level, items: items, hash: 'ex/' + ex.id,
-      kind: 'Exercise · Level ' + ROMAN[level],
+      kind: 'Exercise · Stage ' + ROMAN[level],
       title: ex.title,
-      sub: `Level ${ROMAN[level]} · Set ${set} · ${items.length} questions. ${ex.instr || ''}`
+      sub: `Stage ${ROMAN[level]} · Set ${set} · ${items.length} questions. ${ex.instr || ''}`
     });
     return;
   }
@@ -934,9 +961,12 @@ function runEx(ex, opts){
     });
     return;
   }
-  const forms = ex.sets ? Object.keys(ex.sets) : FORMS;
+  const open = CL().filterItems(ex, ex.items || []);
+  const all = ex.sets ? Object.keys(ex.sets) : FORMS;
+  const live = formsWithItems(ex, open, all);
+  const forms = live.length ? live : all;
   const set = forms[(st.visits - 1) % forms.length];
-  const items = itemsForSet(ex, set);
+  const items = itemsForSet({ items:open }, set);
   runQueue({
     ex: ex, set: set, items: items, hash: 'ex/' + ex.id,
     kind: ex.kind === 'review' ? 'Section review' : 'Exercise',
@@ -1121,7 +1151,7 @@ function renderSummary(){
   const body = $('ex-body'); body.innerHTML = '';
   setExProgress();
   const box = document.createElement('div'); box.className = 'q-box qp';
-  const finished = run.set ? ((run.level ? 'Level ' + ROMAN[run.level] + ', ' : '') + 'Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
+  const finished = run.set ? ((run.level ? 'Stage ' + ROMAN[run.level] + ', ' : '') + 'Set ' + run.set + ' finished') : (run.ex ? 'Exercise finished' : 'Review finished');
   box.innerHTML = `<div class="qp-label"><span>${finished}</span></div>
     <div class="q-prompt directions">${right} of ${ids.length} answered correctly the first time.</div>` + gnote +
     (missed.length ? `<p>Missed (kept for later review):</p><ol>${missed.map(x => `<li>${x.prompt}</li>`).join('')}</ol>` : '') +
@@ -1146,6 +1176,10 @@ function openDeck(id){
     const start = (st.opens - 1) % 3;
     const spec = ARS.structure.flatMap(s => s.items).find(x => x.id === id);
     if (spec && spec.introFor) deck.introFor = spec.introFor;
+    /* a split deck (the reading collections of IX) shows only the passages open at the level */
+    const panels = CL().panelsOf(deck);
+    if (panels !== deck.panels) deck = Object.assign({}, deck, { panels:panels });
+    CL().remember(id);
     cur = { deck, i:0, start, qp:{} };
     location.hash = 'deck/' + id;
     $('deck-home').textContent = screenReturn ? '← Back' : '← All sections';
@@ -1266,6 +1300,7 @@ function nextPanel(){
   const first = !st.done;
   if (first) st.doneAt = Date.now();
   st.done = true;
+  CL().markPassages(cur.deck.id);
   if (first && String(cur.deck.id).indexOf('lang.') !== 0) noteReciteNudge(cur.deck.id, cur.deck.title);
   save();
   if (cur.deck.introFor){ openEx(cur.deck.introFor); return; }

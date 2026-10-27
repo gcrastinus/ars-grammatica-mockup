@@ -54,9 +54,10 @@ function langSets(){
   });
   return out;
 }
+/* Only the sets of the course level chosen on the home page (levels.js). */
 function allSets(){
   const rank = s => SECTION_ORDER.indexOf(s.section) * 10 + (s.lang ? 1 + LANG_ORDER.indexOf(s.lang) : 0);
-  return mainSets().concat(langSets()).map((s, k) => ({ s, k })).sort((a, b) => rank(a.s) - rank(b.s) || a.k - b.k).map(x => x.s);
+  return mainSets().concat(langSets()).filter(s => !ARS.CL || ARS.CL.open(s.id)).map((s, k) => ({ s, k })).sort((a, b) => rank(a.s) - rank(b.s) || a.k - b.k).map(x => x.s);
 }
 
 function buildSetList(){

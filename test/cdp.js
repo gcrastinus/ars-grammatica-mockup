@@ -1,6 +1,7 @@
 /* A small Chrome DevTools driver shared by the Guided Path checks (test/guided-check.js).
    launch(root) serves the repository on a free port (or, with { base: 'https://...' }, uses a live site)
-   and returns { goto, size, shot, evaluate, sleep, errors, close }. Needs Google Chrome (CHROME=/path
+   and returns { goto, size, shot, evaluate, sleep, errors, close }. opts.view sets the course level and
+   language the page opens on when none is stored. Needs Google Chrome (CHROME=/path
    overrides the macOS path) and Node 22 or later. */
 'use strict';
 const { spawn } = require('child_process'); const http=require('http'), fs=require('fs'), path=require('path'), os=require('os');
@@ -35,6 +36,9 @@ exports.launch = async function(root, opts){
     return r.result&&r.result.result?r.result.result.value:undefined;};
   await send('Runtime.enable');await send('Log.enable');await send('Page.enable');
   await send('Page.addScriptToEvaluateOnNewDocument',{source:'window.alert=m=>console.error("alert: "+m);'});
+  /* opts.view: the course level and language to open on when the stored record has none (levels.js), e.g.
+     { level:'comprehensive', lang:'all' } for the checks written for the whole course. */
+  if(opts.view)await send('Page.addScriptToEvaluateOnNewDocument',{source:`try{const k='ars-grammatica-course-v2';const o=JSON.parse(localStorage.getItem(k)||'{}');if(!o.view){o.view=${JSON.stringify(opts.view)};localStorage.setItem(k,JSON.stringify(o));}}catch(e){}`});
   return {base,send,evaluate,sleep,errors,
     async goto(p){await send('Page.navigate',{url:base+'/'+p});await sleep(1500);},
     async size(w,h){await send('Emulation.setDeviceMetricsOverride',{width:w,height:h,deviceScaleFactor:1,mobile:w<500});},

@@ -145,6 +145,7 @@
   ARS.cumulativeRangeLabel = cumulativeRangeLabel;
 
   if (typeof document === 'undefined' || typeof courseStore !== 'function') return;
+  const CL = root.ARS.CL || null;   /* the course level (levels.js): only its decks and questions are drawn */
 
   function sectionOfDeck(deckId){
     for (const sec of ARS.structure || []){
@@ -193,22 +194,57 @@
     return n === 1 ? '1 review item is due.' : n + ' review items are due.';
   }
 
+  /* Due items at the level and in the language chosen (levels.js), and due items elsewhere. Counting them needs the
+     questions themselves, so the count is made after the files load and the notices are painted again.
+     here: due in the level's pool; other: every other due item in the boxes (other levels, other languages). */
+  let dueCache = { here: 0, other: 0 };
+  let dueGen = 0;
+  function allDueCount(){
+    const boxes = courseStore().boxes || {}, now = Date.now();
+    return Object.keys(boxes).filter(id => boxes[id] && boxes[id].dueAt != null && boxes[id].dueAt <= now).length;
+  }
+  root.ARS.refreshDue = function () {
+    const gen = ++dueGen;
+    const far = furthestSection();
+    const done = here => {
+      if (gen !== dueGen) return;
+      const next = { here: here, other: Math.max(0, allDueCount() - here) };
+      const same = next.here === dueCache.here && next.other === dueCache.other;
+      dueCache = next;
+      if (same) return;
+      root.renderReviewNotice();
+      if (root.GP && root.GP.homeNote) root.GP.homeNote();
+    };
+    if (!far){ done(0); return; }
+    Promise.resolve(collectPool(far.id)).then(pool => {
+      const boxes = courseStore().boxes || {}, now = Date.now();
+      done(pool.filter(it => { const b = boxes[it.id]; return b && b.dueAt != null && b.dueAt <= now; }).length);
+    }).catch(() => {});
+  };
+
   root.renderReviewNotice = function () {
     const host = document.getElementById('review-due');
     if (!host) return;
-    /* On the Guided Path the due items are gathered into Today's Review (guided.js). */
-    if (root.GP && root.GP.isGuided && root.GP.isGuided()){ host.replaceChildren(); host.hidden = true; return; }
     const far = furthestSection();
-    const n = far ? dueInRange(far.id) : 0;
+    const n = far ? dueCache.here : 0, o = dueCache.other;
     host.replaceChildren();
-    if (!n){ host.hidden = true; return; }
-    host.hidden = false;
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.className = 'review-due-btn';
-    b.textContent = duePhrase(n);
-    b.addEventListener('click', () => startCumulative(far.id));
-    host.appendChild(b);
+    /* On the Guided Path the due items are gathered into Today's Review (guided.js). */
+    const guided = root.GP && root.GP.isGuided && root.GP.isGuided();
+    if (n && !guided){
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'review-due-btn';
+      b.textContent = duePhrase(n);
+      b.addEventListener('click', () => startCumulative(far.id));
+      host.appendChild(b);
+    }
+    if (o){
+      const p = document.createElement('p');
+      p.className = 'review-other directions';
+      p.textContent = (o === 1 ? '1 review item is' : o + ' review items are') + ' due at other levels or in other languages.';
+      host.appendChild(p);
+    }
+    host.hidden = !host.childNodes.length;
   };
 
   /* The last section that carries a roman numeral is the Final Review. */
@@ -226,8 +262,7 @@
   /* For the Guided Path's Today's Review: how many items are due, and the due items themselves,
      interleaved across decks, oldest first within a deck. total counts every due item in the pool. */
   root.ARS.dueCount = function () {
-    const far = furthestSection();
-    return far ? dueInRange(far.id) : 0;
+    return furthestSection() ? dueCache.here : 0;
   };
   root.ARS.gatherDue = function (limit) {
     const far = furthestSection();
@@ -347,6 +382,7 @@
     secs.forEach(sec => {
       const order = (ARS.structure || []).indexOf(sec);
       sec.items.forEach(it => {
+        if (CL && !CL.open(it.id)) return;
         if ((it.kind === 'study' || it.kind === 'study-ex') && it.built){
           const st = store.decks && store.decks[it.id];
           if (st && st.done) decks.push({ id: it.id, section: sec.id, sectionOrder: order, doneAt: st.doneAt || 0 });
@@ -356,7 +392,7 @@
           exIds.push(it.id);
         }
         const dx = ARS.deckEx && ARS.deckEx[it.id];
-        if (dx && hasPlan(dx) && exIds.indexOf(dx) < 0) exIds.push(dx);
+        if (dx && hasPlan(dx) && exIds.indexOf(dx) < 0 && (!CL || CL.open(dx))) exIds.push(dx);
       });
     });
     const deckLoads = decks.map(d => loadDeck(d.id).then(deck => ({ meta: d, deck: deck })).catch(() => null));
@@ -388,6 +424,7 @@
         const cap = (root.ARS.levelCap && ex.levels) ? root.ARS.levelCap(ex) : Infinity;
         ex.items.forEach(it => {
           if (!itemPlayable(it) || !done[it.deck] || seen.has(it.id)) return;
+          if (CL && !CL.itemOpen(ex, it)) return;
           if ((it.level || 1) > cap) return;   /* a leveled set: only up to the level reached */
           seen.add(it.id);
           const meta = done[it.deck];
@@ -402,13 +439,14 @@
   function collectLanguagePool(secs, pool, seen){
     const store = courseStore();
     const ids = new Set(secs.map(s => s.id));
-    const screens = Object.keys(ARS.languages || {}).map(k => ARS.languages[k]).filter(sc => sc && ids.has(sc.section));
+    const screens = Object.keys(ARS.languages || {}).map(k => ARS.languages[k]).filter(sc => sc && ids.has(sc.section) && (!CL || CL.langShown(sc.code)));
     const orderOf = {};
     (ARS.structure || []).forEach((sec, i) => { orderOf[sec.id] = i; });
     const loads = [];
     screens.forEach(sc => {
       (sc.items || []).forEach(it => {
         if (!it || !it.built) return;
+        if (CL && !CL.open(it.id)) return;
         if ((it.kind === 'study' || it.kind === 'study-ex')){
           const st = store.decks && store.decks[it.id];
           if (st && st.done) loads.push(loadDeck(it.id).then(deck => ({ kind:'deck', it:it, sc:sc, deck:deck, st:st })).catch(() => null));
@@ -426,7 +464,9 @@
         if (!row) return;
         const order = orderOf[row.sc.section] || 0;
         if (row.kind === 'deck' && row.deck){
+          const okPanels = CL ? new Set(CL.panelsOf(row.deck).map(p => p.id)) : null;
           (row.deck.panels || []).forEach((p, pi) => {
+            if (okPanels && !okPanels.has(p.id)) return;
             if (!p.qp || !p.qp.variants) return;
             p.qp.variants.forEach((v, vi) => {
               if (!v || !v.prompt || !Array.isArray(v.options) || typeof v.answer !== 'number') return;
@@ -449,6 +489,7 @@
           list.forEach(it => {
             const key = promptKey(it.prompt);
             if (!itemPlayable(it) || seen.has(it.id) || prompts.has(key)) return;
+            if (CL && !generated && !CL.itemOpen(row.ex, it)) return;
             seen.add(it.id);
             prompts.add(key);
             pool.push(copyItem(it, {

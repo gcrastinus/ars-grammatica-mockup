@@ -30,7 +30,7 @@ const ALL = [V('Samantha','en-US',{default:true}), V('Daniel','en-GB'), V('Móni
 const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarvox','en-US')];
 
 (async () => {
-  const b = await launch(path.resolve(__dirname, '..'), BASE ? { base: BASE } : {});
+  const b = await launch(path.resolve(__dirname, '..'), Object.assign(BASE ? { base: BASE } : {}, { view:{ level:'comprehensive', lang:'all' } }));
   const bust = 'v=' + Date.now();
   for (const dark of [false, true]){
     const tag = dark ? '[dark] ' : '[light] ';

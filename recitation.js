@@ -46,7 +46,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   /* A study deck, or one of the method decks that the course lists as an exercise (IX.1–IX.3, X.2)
      and marks with recite:true in data/structure.js. */
   function recitable(it){
-    return !!it && (it.kind === 'study' || it.kind === 'study-ex' || it.recite === true);
+    return !!it && (it.kind === 'study' || it.kind === 'study-ex' || it.recite === true) && (!ARS.CL || ARS.CL.open(it.id));
   }
 
   function sectionRecitation(sectionId){

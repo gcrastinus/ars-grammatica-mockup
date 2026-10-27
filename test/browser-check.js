@@ -63,6 +63,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   await send('Runtime.enable'); await send('Log.enable'); await send('Page.enable');
   /* window.alert would block the page; record it as an error instead. */
   await send('Page.addScriptToEvaluateOnNewDocument', { source: 'window.alert = m => console.error("alert: " + m);' });
+  /* the whole course, all languages (levels.js): this check opens every screen */
+  await send('Page.addScriptToEvaluateOnNewDocument', { source: `try{const k='ars-grammatica-course-v2';const o=JSON.parse(localStorage.getItem(k)||'{}');if(!o.view){o.view={level:'comprehensive',lang:'all'};localStorage.setItem(k,JSON.stringify(o));}}catch(e){}` });
   await send('Page.navigate', { url: `http://127.0.0.1:${port}/index.html` });
   await sleep(1500);
 
