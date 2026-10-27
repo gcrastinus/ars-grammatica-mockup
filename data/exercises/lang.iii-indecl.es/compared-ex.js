@@ -303,15 +303,15 @@ ARS.exercises["lang.iii-indecl.es/compared-ex"] = {
    "deck": "lang.iii-indecl.es/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What did the Latin <i lang=\"la\">vōs</i> denote?",
-   "explain": "Latin <i lang=\"la\">vōs</i> is the plural of <i lang=\"la\">tū</i>.",
+   "prompt": "Which Latin pronoun addressed one person familiarly?",
+   "explain": "Latin <i lang=\"la\">tū</i> is the pronoun for one person, and <i lang=\"la\">vōs</i> is its plural.",
    "options": [
-    "One person, familiar",
-    "One person, respectful",
-    "Several persons",
-    "The person speaking"
+    "<i lang=\"la\">tū</i>",
+    "<i lang=\"la\">vōs</i>",
+    "<i lang=\"la\">ego</i>",
+    "<i lang=\"la\">nōs</i>"
    ],
-   "answer": 2
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.es/compared-ex:escmp20",
@@ -319,15 +319,15 @@ ARS.exercises["lang.iii-indecl.es/compared-ex"] = {
    "deck": "lang.iii-indecl.es/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which pronoun is the familiar plural of Spain?",
-   "explain": "<i lang=\"es\">Ustedes</i> is the respectful plural.",
+   "prompt": "Which pronoun addresses several persons with respect?",
+   "explain": "<i lang=\"es\">Ustedes</i> is the respectful plural, and <i lang=\"es\">vosotros</i> is the familiar plural.",
    "options": [
     "<i lang=\"es\">ustedes</i>",
     "<i lang=\"es\">vosotros</i>",
-    "<i lang=\"es\">nosotros</i>",
-    "<i lang=\"es\">usted</i>"
+    "<i lang=\"es\">vos</i>",
+    "<i lang=\"es\">tú</i>"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.es/compared-ex:escmp21",
@@ -351,13 +351,13 @@ ARS.exercises["lang.iii-indecl.es/compared-ex"] = {
    "deck": "lang.iii-indecl.es/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What does the Academy say of <i lang=\"es\">vos</i> for one person in European Spanish?",
-   "explain": "It remains only in reverential address to high authorities, in very formal contexts.",
+   "prompt": "Which pronoun took over the plural use of the old <i lang=\"es\">vos</i> in Spanish of Spain?",
+   "explain": "<i lang=\"es\">Vos</i> was at first a plural, and <i lang=\"es\">vosotros</i> took over its plural use.",
    "options": [
-    "It disappeared between the seventeenth and the early eighteenth century",
-    "It is the ordinary familiar form",
-    "It is used with <i lang=\"es\">ustedes</i>",
-    "It was never used"
+    "<i lang=\"es\">vosotros</i>",
+    "<i lang=\"es\">ustedes</i>",
+    "<i lang=\"es\">tú</i>",
+    "<i lang=\"es\">nosotros</i>"
    ],
    "answer": 0
   },

@@ -240,7 +240,7 @@ ARS.exercises["lang.v.es/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which preposition does the Academy prefer in <i lang=\"es\">atreverse ___ hacer el examen</i>?",
-   "explain": "Before an infinitive the Academy prefers <i lang=\"es\">atreverse a</i>, and before a noun group <i lang=\"es\">atreverse con</i>.",
+   "explain": "Before an infinitive the Academy prefers <i lang=\"es\">atreverse a</i>, and before a noun phrase <i lang=\"es\">atreverse con</i>.",
    "options": [
     "<i lang=\"es\">con</i>",
     "<i lang=\"es\">de</i>",

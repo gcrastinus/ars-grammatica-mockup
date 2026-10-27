@@ -134,8 +134,8 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <i lang=\"es\">tomóla el parto y parióme allí</i>, where does present-day Spanish put the weak pronouns?",
-   "explain": "The Academy says that finite verbs with weak pronouns after them are still found occasionally in writing, but they are felt to be archaic (<i>Manual</i> §16.4.2).",
+   "prompt": "In <i lang=\"es\">tomóla el parto y parióme allí</i>, where does present-day Spanish put the unstressed pronouns?",
+   "explain": "The Academy says that finite verbs with unstressed pronouns after them are still found occasionally in writing, but they are felt to be archaic (<i>Manual</i> §16.4.2).",
    "options": [
     "Before the verbs: <i lang=\"es\">la tomó</i> and <i lang=\"es\">me parió</i>",
     "After the verbs, exactly as the text has them",
@@ -171,7 +171,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "prompt": "What does <i lang=\"es\">me bastara</i> mean in the sentence of Teresa?",
    "explain": "In the classical language the form in <i lang=\"es\">-ra</i>, which comes from the Latin pluperfect indicative, could have the value of the conditional, and Teresa writes <i lang=\"es\">me bastara</i> where we would write <i lang=\"es\">me bastaría</i> (<i>Manual</i> §24.1.2).",
    "options": [
-    "“It was enough for me,” a form in <i lang=\"es\">-ra</i> that is a simple past of the indicative",
+    "“It was enough for me,” a form in <i lang=\"es\">-ra</i> that is a preterite of the indicative",
     "“It is enough for me,” a form in <i lang=\"es\">-ra</i> that is a present of the indicative",
     "“It would be enough for me,” a form in <i lang=\"es\">-ra</i> with the value of the conditional",
     "“May it be enough for me,” a form in <i lang=\"es\">-ra</i> that expresses a wish for the future"
@@ -547,7 +547,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "options": [
     "<i lang=\"es\">según tú</i>, with the subject form",
     "<i lang=\"es\">según ti</i>, with the prepositional form",
-    "<i lang=\"es\">según te</i>, with the weak form",
+    "<i lang=\"es\">según te</i>, with the unstressed form",
     "<i lang=\"es\">según tuyo</i>, with the possessive"
    ],
    "answer": 0,

@@ -223,7 +223,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
    "deck": "lang.ii.es/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In an older book you read <i lang=\"es\">dió</i>. How is it written today?",
+   "prompt": "In an older book the form <i lang=\"es\">dió</i> is printed. How is it written today?",
    "options": [
     "<i lang=\"es\">dió</i>, unchanged",
     "<i lang=\"es\">díó</i>",
