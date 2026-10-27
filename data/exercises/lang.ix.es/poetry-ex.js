@@ -219,13 +219,13 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Ayrado</i> in this print is…",
-   "explain": "The 1817 print keeps <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>. The rhyme with <i lang=\"es\">elado</i> uses the old spelling.",
+   "prompt": "In <i lang=\"es\">antes que el tiempo airado</i>, <i lang=\"es\">airado</i> agrees with…",
+   "explain": "<i lang=\"es\">Airado</i>, “angry,” agrees with <i lang=\"es\">tiempo</i>, the masculine noun that stands before it. It rhymes with <i lang=\"es\">helado</i>.",
    "options": [
-    "An old spelling",
-    "A future verb",
-    "The name of a month",
-    "A plural noun"
+    "<i lang=\"es\">tiempo</i>",
+    "<i lang=\"es\">fruto</i>",
+    "<i lang=\"es\">primavera</i>",
+    "<i lang=\"es\">cumbre</i>"
    ],
    "answer": 0,
    "passageRef": "poetry-17"

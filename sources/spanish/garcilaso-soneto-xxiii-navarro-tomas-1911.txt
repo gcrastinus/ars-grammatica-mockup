@@ -1,0 +1,23 @@
+SOURCE FILE: Garcilaso de la Vega, Soneto XXIII, quoted in lang.ix.es/poetry (B14, 27 Oct 2026; replaces the text of Sancha, 1817, kept in garcilaso-soneto-xxiii.txt for the record)
+WORK: Garcilaso de la Vega (c. 1501-1536), Obras. The author died in 1536; the sonnet was first published in 1543.
+EDITION: Garcilaso, Obras, ed. Tomas Navarro Tomas, Clasicos Castellanos (Madrid: Ediciones de "La Lectura," 1911), printed page 231. Internet Archive item obra00vega, page image n258.
+STATEMENT ON SPELLING: introduction, pages XIX and XX: the text follows the one of Herrera's Anotaciones; the edition keeps the spellings of Herrera that have phonetic value (diño, vitoria, ...) and "se ha modernizado aquello que sólo afecta á la escritura."
+RIGHTS NOTE: the editor died in 1979. The edition is of 1911, so it is in the public domain in the United States; the course's own cutoff (author died before 1946) is not met by the editor. Flagged for Timothy's decision in the B14 report.
+DIFFERENCE FROM THE TEXT OF 1817: line 4 reads "enciende el corazón y lo refrena" (1817: "Con clara luz la tempestad serena"); "airado" and "helado" (1817: ayrado, elado); the punctuation differs.
+
+En tanto que de rosa y azucena
+se muestra la color en vuestro gesto,
+y que vuestro mirar ardiente, honesto,
+enciende el corazón y lo refrena;
+y en tanto que el cabello, que en la vena
+del oro se escogió, con vuelo presto,
+por el hermoso cuello blanco, enhiesto,
+el viento mueve, esparce y desordena;
+coged de vuestra alegre primavera
+el dulce fruto, antes que el tiempo airado
+cubra de nieve la hermosa cumbre.
+Marchitará la rosa el viento helado,
+todo lo mudará la edad ligera,
+por no hacer mudanza en su costumbre.
+
+The English is the course's own plain rendering, line by line.
