@@ -266,13 +266,13 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "deck": "lang.vii.grc/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Haemon stops after one picture: “Seest thou, beside the wintry torrent’s course, how the trees that yield to it save every twig, while the stiff-necked perish root and branch?” (<em lang=\"grc\">ὁρᾷς παρὰ ῥείθροισι χειμάρροις ὅσα δένδρων ὑπείκει, κλῶνας ὡς ἐκσῴζεται, τὰ δ᾽ ἀντιτείνοντ᾽ αὐτόπρεμν᾽ ἀπόλλυται</em>). What is it?",
-   "explain": "The likeness is stated, with “how” and with <em lang=\"grc\">ὡς</em>, so it is a simile. It is not yet extended, because the comparison is not kept through a further scene.",
+   "prompt": "Homer says of Apollo, coming down from Olympus, “his coming was like the night” (<em lang=\"grc\">ὃ δ᾽ ἤϊε νυκτὶ ἐοικώς</em>; <i>Iliad</i> I.47). The next line tells what Apollo does, and the night is not named again. What is it?",
+   "explain": "<em lang=\"grc\">Ἐοικώς</em> means “like,” and it states the likeness between Apollo’s coming and the night, so it is a simile. It is not extended, because the comparison is not kept through a further scene.",
    "options": [
-    "A metaphor, because no tree is named",
+    "A metaphor, because the night is said of a god",
     "A simile in one sentence",
     "An allegory in the stricter sense, with no word for “like”",
-    "A literal report of a flood"
+    "A literal report that night fell"
    ],
    "answer": 1
   },
