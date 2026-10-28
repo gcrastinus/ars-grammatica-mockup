@@ -977,6 +977,8 @@ body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
   font-size:15px; line-height:1
 }
 .choice-list.is-multi .is-on .choice-mark{border-color:var(--ink)}
+.choice-rule-end{margin:0 auto}
+.choice-rule-end + .level-desc{margin-top:24px}
 .level-desc{max-width:36em; margin:12px auto 0; font-size:17px; text-align:center}
 .lang-all-note{max-width:36em; margin:6px auto 0; font-size:17px; text-align:center}
 .review-other{font-size:16px; text-align:center; margin:6px auto 0; max-width:34em}
