@@ -1003,5 +1003,6 @@ body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
 
 /* "This course supplements wide reading and lots of writing" (28 Oct 2026): under the first paragraph on the home page. */
 .intro-note .intro-rule{border:0; border-top:1px solid var(--ink-soft); margin:22px 0 18px; height:0}
-.intro-note .intro-use{margin:0 0 10px; font-size:13px; line-height:1.55; color:var(--ink-soft)}
+.intro-note .intro-use{margin:0 0 10px; font-size:15px; line-height:1.55; color:var(--ink-soft)}
+.intro-note .intro-use + .intro-use{max-width:85%; margin-left:auto; margin-right:auto}
 .intro-note .intro-use-head{font-weight:700; font-family:inherit; color:var(--ink-soft)}
