@@ -47,7 +47,8 @@ body.dark .font-note{color:#978d74 !important}
 .font-note b{color:inherit !important; font-weight:700}
 /* the + button and its menu (it replaces the separate dark-mode button, which stays hidden for its logic) */
 #dark-toggle[hidden]{display:none !important}
-#set-btn{width:44px; height:44px; padding:0; border-radius:50%; border:1px solid var(--line); background:var(--card); color:var(--wine); font-size:28px; line-height:1; box-shadow:var(--shadow); transition:transform .15s; font-family:var(--std-text); font-weight:400; cursor:pointer; display:flex; align-items:center; justify-content:center}
+#set-btn{min-width:44px; padding:0 12px; border-radius:0; border:1px solid var(--frame); background:var(--paper); color:var(--ink); font-size:26px; line-height:1.2; box-shadow:none; transition:background-color .25s ease; font-family:var(--std-text); font-weight:400; cursor:pointer; display:flex; align-items:center; justify-content:center}
+#set-btn:hover, #set-btn[aria-expanded="true"]{background:var(--hover)}
 #set-btn:focus-visible, .set-menu button:focus-visible{outline:3px solid var(--ink); outline-offset:2px}
 .set-wrap{position:relative; display:flex}
 .set-menu{position:absolute; top:calc(100% + 6px); right:0; z-index:70; min-width:260px; max-width:calc(100vw - 24px); background:var(--card); border:1px solid var(--ink); padding:6px 0; color:var(--ink); font-family:var(--std-text) !important; font-size:18px; line-height:1.35; text-align:left}

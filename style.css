@@ -52,7 +52,7 @@ body{
 /* Top-right: play+speed unit, then dark alone at far right */
 .top-right-controls{
   position:fixed; top:14px; right:16px;
-  display:flex; align-items:center; gap:8px; z-index:50; background:var(--paper);
+  display:flex; align-items:center; gap:8px; z-index:50;
 }
 .top-right-controls #dark-toggle{
   position:static; top:auto; right:auto;
