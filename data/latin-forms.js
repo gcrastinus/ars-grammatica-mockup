@@ -146,6 +146,8 @@
     'plup.subj.act': ['issem', 'issēs', 'isset', 'issēmus', 'issētis', 'issent']
   };
 
+  /* Only the present imperative is drawn. noImp leaves it out for dīcō, dūcō, and faciō (dīc, dūc, fac) and for sciō,
+     which regularly uses the future scītō, scītōte instead (Allen and Greenough §449 a; Timothy, 28 Oct 2026). */
   const V_IMP = { '1': ['ā', 'āte'], '2': ['ē', 'ēte'], '3': ['e', 'ite'], '3io': ['e', 'ite'], '4': ['ī', 'īte'] };
 
   function latVerbForms(entry) {
@@ -272,7 +274,7 @@
     { lemma: 'fugiō, fugere, fūgī, fugitum', base: 'fug', perf: 'fūg', conj: '3io', gloss: 'to flee', noPass: true },
     { lemma: 'audiō, audīre, audīvī, audītum', base: 'aud', perf: 'audīv', conj: '4', gloss: 'to hear' },
     { lemma: 'veniō, venīre, vēnī, ventum', base: 'ven', perf: 'vēn', conj: '4', gloss: 'to come', noPass: true },
-    { lemma: 'sciō, scīre, scīvī, scītum', base: 'sc', perf: 'scīv', conj: '4', gloss: 'to know' },
+    { lemma: 'sciō, scīre, scīvī, scītum', base: 'sc', perf: 'scīv', conj: '4', gloss: 'to know', noImp: true },
     { lemma: 'mūniō, mūnīre, mūnīvī, mūnītum', base: 'mūn', perf: 'mūnīv', conj: '4', gloss: 'to fortify' },
     { lemma: 'sentiō, sentīre, sēnsī, sēnsum', base: 'sent', perf: 'sēns', conj: '4', gloss: 'to feel, perceive' }
   ];
