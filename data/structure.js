@@ -40,7 +40,7 @@ ARS.structure = [
    { id:'ii.quantity', kind:'study-ex', built:true, title:'Quantity and Accent', desc:'Long and short syllables, the Latin accent, and English stress.' },
    { id:'ii.punctuation', kind:'study', built:true, title:'Punctuation (<i>posituræ</i>)', desc:'The old marks of pause beside the modern ones.' },
    { id:'ii.meter', kind:'study', built:true, title:'Feet and Meter', desc:'Feet and verse in English and Latin, with Greek, Spanish, German, or French where they show something distinctive.' },
-   { id:'ii.review', kind:'review', title:'Section Review: The Matter of Speech', desc:'Forty-five questions on II.1 to II.6, in three fixed sets of fifteen.' }
+   { id:'ii.review', kind:'review', built:true, title:'Section Review: The Matter of Speech', desc:'Forty-five questions on II.1 to II.6, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'ii', after:'cumul', heading:'The grammars of the particular languages' }
@@ -58,12 +58,12 @@ ARS.structure = [
    { id:'iii.verb-1', kind:'study-ex', built:true, title:'The Verb I: Quality, Mood, and Voice', desc:'The forms and moods of the verb, and active, passive, neuter, and deponent verbs.' },
    { id:'iii.verb-2', kind:'study-ex', built:true, title:'The Verb II: Tense, Person, Number, and Conjugation', desc:'How does the verb mark time, aspect, and person, and how are verbs conjugated?' },
    { id:'iii.participle', kind:'study-ex', built:true, title:'The Participle', desc:'The part of speech that shares in the noun and the verb, and its accidents.' },
-   { id:'iii.review-declinable', kind:'review', title:'Section Review: The Word and the Declinable Parts', desc:'Forty-five questions on III.1 to III.10, in three fixed sets of fifteen.' },
+   { id:'iii.review-declinable', kind:'review', built:true, title:'Section Review: The Word and the Declinable Parts', desc:'Forty-five questions on III.1 to III.10, in three fixed sets of fifteen.' },
    { id:'iii.adverb', kind:'study', built:true, group:'The indeclinable parts', title:'The Adverb', desc:'The adverb and its accidents: signification, comparison, and figure.' },
    { id:'iii.preposition', kind:'study', built:true, title:'The Preposition', desc:'The preposition and its one accident, case, and its use in composition.' },
    { id:'iii.conjunction', kind:'study', built:true, title:'The Conjunction', desc:'The conjunction and its accidents: power, figure, and order.' },
    { id:'iii.interjection', kind:'study', built:true, title:'The Interjection', desc:'The part of speech that signifies a feeling of the mind.' },
-   { id:'iii.review-indeclinable', kind:'review', title:'Section Review: The Indeclinable Parts', desc:'Forty-five questions on III.11 to III.14, in three fixed sets of fifteen.' }
+   { id:'iii.review-indeclinable', kind:'review', built:true, title:'Section Review: The Indeclinable Parts', desc:'Forty-five questions on III.11 to III.14, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'iii-decl', after:'iii.review-declinable', heading:'The grammars of the particular languages' },
@@ -75,7 +75,7 @@ ARS.structure = [
    { id:'iv.derivation', kind:'study', built:true, title:'Derivation', desc:'How are new words made from old ones by endings and changes of form?' },
    { id:'iv.composition', kind:'study', built:true, title:'Composition', desc:'How are words joined to make compounds in English and Latin?' },
    { id:'iv.etymology', kind:'study', built:true, title:'Etymology', desc:'The origin of words, ancient and comparative, and the cautions it requires.' },
-   { id:'iv.review', kind:'review', title:'Section Review: Word Formation and Etymology', desc:'Thirty questions on IV.1 to IV.3, in three fixed sets of ten.' }
+   { id:'iv.review', kind:'review', built:true, title:'Section Review: Word Formation and Etymology', desc:'Thirty questions on IV.1 to IV.3, in three fixed sets of ten.' }
  ],
  langBars:[
    { id:'iv', after:'cumul', heading:'The grammars of the particular languages' }
@@ -93,7 +93,7 @@ ARS.structure = [
    { id:'v.period', kind:'study-ex', built:true, title:'The Period', desc:'The sentence of many members.' },
    { id:'v.mood', kind:'study-ex', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.' },
    { id:'v.figures', kind:'study-ex', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },
-   { id:'v.review', kind:'review', title:'Section Review: Construction', desc:'Forty-five questions on V.1 to V.10, in three fixed sets of fifteen.' }
+   { id:'v.review', kind:'review', built:true, title:'Section Review: Construction', desc:'Forty-five questions on V.1 to V.10, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'v', after:'cumul', heading:'The grammars of the particular languages' }
@@ -105,7 +105,7 @@ ARS.structure = [
    { id:'vi.barbarism', kind:'study-ex', built:true, title:'Barbarism', desc:'An error in a single word.' },
    { id:'vi.solecism', kind:'study-ex', built:true, title:'Solecism', desc:'An error in the arrangement of words.' },
    { id:'vi.metaplasm', kind:'study-ex', built:true, title:'Metaplasm', desc:'A change in a word permitted for meter or ornament.' },
-   { id:'vi.review', kind:'review', title:'Section Review: Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
+   { id:'vi.review', kind:'review', built:true, title:'Section Review: Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'vi', after:'cumul', heading:'The grammars of the particular languages' }
@@ -116,7 +116,7 @@ ARS.structure = [
    { id:'vii.literal', kind:'study-ex', built:true, title:'Literal and Figurative Sense', desc:'What does a word signify properly, and what does it signify by a figure?' },
    { id:'vii.schemata', kind:'study-ex', built:true, title:'Figures of Words (<i>schemata lexeos</i>)', desc:'Repetition, omission, and arrangement used for effect.' },
    { id:'vii.tropes', kind:'study-ex', built:true, title:'Tropes', desc:'Metaphor, metonymy, synecdoche, and the other changes of meaning.' },
-   { id:'vii.review', kind:'review', title:'Section Review: Figures', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
+   { id:'vii.review', kind:'review', built:true, title:'Section Review: Figures', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'vii', after:'cumul', heading:'The grammars of the particular languages' }
@@ -126,7 +126,7 @@ ARS.structure = [
    items:[
    { id:'viii.supposition', kind:'study-ex', built:true, title:'Supposition', desc:'Signification reviewed, and material, simple, and personal supposition.' },
    { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' },
-   { id:'viii.review', kind:'review', title:'Section Review: Signification and Supposition', desc:'Thirty questions on VIII.1 and VIII.2, in three fixed sets of ten.' }
+   { id:'viii.review', kind:'review', built:true, title:'Section Review: Signification and Supposition', desc:'Thirty questions on VIII.1 and VIII.2, in three fixed sets of ten.' }
  ]},
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',
@@ -134,7 +134,7 @@ ARS.structure = [
    { id:'ix.sentences', kind:'exercise', built:true, recite:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
    { id:'ix.passages', kind:'exercise', built:true, recite:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
    { id:'ix.marking', kind:'exercise', built:true, recite:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
-   { id:'ix.review', kind:'review', title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
+   { id:'ix.review', kind:'review', built:true, title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
  ],
  langBars:[
    { id:'ix', after:'cumul', heading:'The grammars of the particular languages' }
@@ -146,7 +146,7 @@ ARS.structure = [
    { id:'x.imitation', kind:'exercise', built:true, recite:true, introFor:'x.ex.imitation', title:'Imitation', desc:'Ten passages of English prose, copied word for word.' },
    { id:'x.translation', kind:'study', built:true, title:'Translation', desc:'Why is translation necessary, what is its history, and can translations be trusted?' },
    { id:'x.progymnasmata', kind:'study', built:true, title:'Classical Composition Exercises', desc:'The fourteen progymnasmata, why the fable comes first, and why they follow their order.' },
-   { id:'x.review', kind:'review', title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
+   { id:'x.review', kind:'review', built:true, title:'Section Review: Making', desc:'Forty-five questions on X.1 to X.4, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'x', after:'cumul', heading:'The grammars of the particular languages' }
@@ -156,6 +156,6 @@ ARS.structure = [
    items:[
    { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
    { id:'xi.modern', kind:'study', built:true, title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' },
-   { id:'xi.review', kind:'review', title:'Section Review: Other Traditions and Modern Grammar', desc:'Forty-five questions on XI.1 and XI.2, in three fixed sets of fifteen.' }
+   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions and Modern Grammar', desc:'Forty-five questions on XI.1 and XI.2, in three fixed sets of fifteen.' }
  ]}
 ];
