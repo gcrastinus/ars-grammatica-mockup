@@ -6,7 +6,7 @@ ARS.exercises["lang.iii-decl.fr/participle-ex"] = {
  "status": "written",
  "section": "III",
  "title": "The French Participle and Its Agreement",
- "instr": "Write the form asked for, or choose the answer. Accents need not be typed.",
+ "instr": "Write the form asked for, or choose the answer. Type every accent and the cedilla of <i lang=\"fr\">ç</i>.",
  "openedFrom": "",
  "items": [
   {

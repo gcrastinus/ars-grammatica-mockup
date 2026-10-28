@@ -55,7 +55,16 @@ const FEW = [V('Samantha','en-US',{default:true}), V('Paulina','es-MX'), V('Zarv
   check(await g('de', 'Bücher', 'Buecher') === true, 'de: Buecher accepted');
   check(await g('de', 'Bücher', 'Bucher') === false, 'de: Bucher refused');
   check(await g('de', 'Straße', 'Strasse') === true, 'de: Strasse accepted');
-  check(await g('fr', 'été', 'ete') === true, 'fr: accents still folded (unchanged)');
+  check(await g('fr', 'été', 'été') === true, 'fr: été accepted');
+  check(await g('fr', 'été', 'ete') === false, 'fr: ete for été refused');
+  check(await g('fr', 'répondit', 'repondit') === false, 'fr: repondit refused');
+  check(await g('fr', 'lûmes', 'lumes') === false, 'fr: circumflex kept');
+  check(await g('fr', 'reçoive', 'recoive') === false, 'fr: cedilla kept');
+  check(await g('fr', 'marchèrent', 'marchérent') === false, 'fr: wrong accent refused');
+  check(await g('fr', 'nageur', 'nageür') === false, 'fr: accent added where none is written refused');
+  check(await g('fr', 'Écrivons', 'écrivons ') === true, 'fr: case and spaces still folded');
+  check(await g('fr', 'été', 'e\u0301te\u0301') === true, 'fr: decomposed accent is the same letter');
+  check(await g('la', 'amō', 'amo') === false && await g('grc', 'λόγος', 'λογος') === true, 'la and grc unchanged');
   check(await g('es', 'año', 'año') === true, 'es: año accepted');
   check(await g('es', 'año', 'ano') === false, 'es: ano refused');
   check(await g('es', 'cantó', 'canto') === false, 'es: canto for cantó refused');

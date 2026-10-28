@@ -486,8 +486,9 @@ function foldBase(s, item){
   }
   /* German keeps its umlaut (U+0308), so "Bucher" is not taken for "B\u00fccher"; ue for \u00fc is still accepted. */
   const keepUmlaut = exerciseLang(item) === 'de';
-  /* Spanish keeps every written accent and the tilde of ñ: "cantó" is not "canto", and "año" is not "ano". */
-  if (exerciseLang(item) === 'es') return t.normalize('NFC');
+  /* Spanish keeps every written accent and the tilde of ñ: "cantó" is not "canto", and "año" is not "ano".
+     French keeps every accent, the diaeresis, and the cedilla (Timothy, 28 Oct 2026): "répondit" is not "repondit". */
+  if (exerciseLang(item) === 'es' || exerciseLang(item) === 'fr') return t.normalize('NFC');
   t = t.normalize('NFD').replace(/[\u0300-\u036f]/g, m => (m === '\u0304' || (keepUmlaut && m === '\u0308') ? m : '')).normalize('NFC');
   return t;
 }

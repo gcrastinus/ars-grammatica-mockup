@@ -6,7 +6,7 @@ ARS.exercises["lang.iv.fr/formation-ex"] = {
  "status": "written",
  "section": "IV",
  "title": "Word Formation in French",
- "instr": "Choose the answer, or write the word. Accents are not required, and capitals are not required.",
+ "instr": "Choose the answer, or write the word. Type every accent and the cedilla of <i lang=\"fr\">ç</i>; capitals are not required.",
  "openedFrom": "lang.iv.fr/formation",
  "items": [
   {

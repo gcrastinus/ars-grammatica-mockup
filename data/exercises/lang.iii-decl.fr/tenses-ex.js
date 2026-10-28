@@ -6,7 +6,7 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
  "status": "written",
  "section": "III",
  "title": "The Compound and Literary Tenses",
- "instr": "Write the form asked for, or choose the answer. Accents need not be typed.",
+ "instr": "Write the form asked for, or choose the answer. Type every accent and the cedilla of <i lang=\"fr\">ç</i>.",
  "openedFrom": "",
  "items": [
   {
