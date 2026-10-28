@@ -198,7 +198,7 @@ ARS.exercises["lang.iii-decl.la/participles-ex"] = {
     "<em lang=\"la\">Oriente</em> is the gerund",
     "The ablative in <em lang=\"la\">-ī</em> is plural"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.iii-decl.la/participles-ex:pt14",

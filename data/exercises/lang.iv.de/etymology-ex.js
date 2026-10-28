@@ -372,7 +372,7 @@ ARS.exercises["lang.iv.de/etymology-ex"] = {
    "options": [
     "<i lang=\"de\">Fenster</i> and “fenestration”",
     "<i lang=\"de\">Tier</i> and “deer”",
-    "<i lang=\"de\">Wein</i> and “vine”",
+    "<i lang=\"de\">Wein</i> and “wine”",
     "<i lang=\"de\">Haus</i> and “house”"
    ],
    "answer": 1

@@ -208,12 +208,12 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which pair shows a definite article and an indefinite article in German?",
-   "explain": "German has both. <i lang=\"grc\">der König</i> is definite, and <i lang=\"grc\">ein König</i> is indefinite. French has the same pair of kinds in <i lang=\"grc\">le roi</i> and <i lang=\"grc\">un roi</i>.",
+   "explain": "German has both. <i lang=\"de\">der König</i> is definite, and <i lang=\"de\">ein König</i> is indefinite. French has the same pair of kinds in <i lang=\"fr\">le roi</i> and <i lang=\"fr\">un roi</i>.",
    "options": [
-    "<i lang=\"grc\">der König</i> and <i lang=\"grc\">ein König</i>",
+    "<i lang=\"de\">der König</i> and <i lang=\"de\">ein König</i>",
     "<i lang=\"grc\">ὁ</i> and <i lang=\"grc\">ἡ</i>, two genders of one definite article",
     "<i lang=\"grc\">τὸ καλόν</i> and <i lang=\"grc\">οἱ τότε</i>",
-    "<i lang=\"grc\">le roi</i> alone, with no second form"
+    "<i lang=\"fr\">le roi</i> alone, with no second form"
    ],
    "answer": 0
   },
@@ -319,7 +319,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "deck": "lang.iii-decl.grc/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What do <i lang=\"grc\">der gute Mann</i> and <i lang=\"grc\">ein guter Mann</i> show about the German adjective?",
+   "prompt": "What do <i lang=\"de\">der gute Mann</i> and <i lang=\"de\">ein guter Mann</i> show about the German adjective?",
    "explain": "The adjective changes its ending with the article before it. That agreement is why the adjective is filed with the noun.",
    "options": [
     "The adjective never changes",

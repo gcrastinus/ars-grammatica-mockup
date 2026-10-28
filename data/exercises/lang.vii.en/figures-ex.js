@@ -514,7 +514,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "prompt": "Which scheme is “He came, he saw, he left” with no conjunction?",
    "explain": "The clauses stand without “and.”",
    "options": [
-    "Anaphora",
+    "Polysyndeton",
     "Chiasmus",
     "Antithesis",
     "Asyndeton"
@@ -532,15 +532,10 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "options": [
     "“did walk”",
     "“walked”",
-    [
-     "“did walk”",
-     "“walked”",
-     "“walks”",
-     "“walking”"
-    ],
-    "“walks”"
+    "“walks”",
+    "“walking”"
    ],
-   "answer": 2
+   "answer": 0
   },
   {
    "id": "lang.vii.en/figures-ex:e13",
@@ -552,16 +547,11 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "explain": "“Dost take” is “takest” with the helping verb.",
    "options": [
     "The periphrastic present with “do”",
-    [
-     "The periphrastic present with “do”",
-     "The past tense",
-     "The future",
-     "The imperative"
-    ],
     "The past tense",
-    "The future"
+    "The future",
+    "The imperative"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.vii.en/figures-ex:e14",
@@ -591,14 +581,9 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
     "Masculine",
     "Feminine",
     "Internal",
-    [
-     "Masculine",
-     "Feminine",
-     "Internal",
-     "No rhyme"
-    ]
+    "No rhyme"
    ],
-   "answer": 3
+   "answer": 0
   },
   {
    "id": "lang.vii.en/figures-ex:e16",

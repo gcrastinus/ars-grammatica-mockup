@@ -147,7 +147,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "explain": "Live, eat; eat, live.",
    "options": [
     "Anaphora",
-    "Antithesis",
+    "Polysyndeton",
     "Asyndeton",
     "Chiasmus"
    ],
@@ -164,7 +164,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "options": [
     "Antithesis",
     "Asyndeton",
-    "Anaphora",
+    "Polysyndeton",
     "Chiasmus"
    ],
    "answer": 1
@@ -341,7 +341,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
     "A tree, by metaphor",
     "The cost of hiring a carpenter, by metonymy",
     "The whole house, by synecdoche",
-    "Nothing; it is literal"
+    "A rival craftsman, by irony"
    ],
    "answer": 1
   },

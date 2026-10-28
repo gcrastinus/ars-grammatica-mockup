@@ -309,9 +309,7 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "accept": [
     "qu’il fît",
     "qu'il fît",
-    "fît",
-    "fit",
-    "qu'il fit"
+    "fît"
    ]
   },
   {

@@ -148,7 +148,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "options": [
     "Five",
     "Four, as in the ballad line",
-    "Three, as in Heine’s songs",
+    "Three, as in Heine’s “Die Lorelei”",
     "Eight, as in the longer hymn line"
    ],
    "answer": 0
@@ -207,8 +207,8 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "Heine’s songs use this free filling between beats. How many beats does a line have?",
-   "explain": "Heine’s songs in this stanza use three beats in a line, with one or two unstressed syllables between the beats.",
+   "prompt": "Heine’s “Die Lorelei” uses this free filling between beats (<em lang=\"de\">Ich weiß nicht, was soll es bedeuten</em>). How many beats does a line have?",
+   "explain": "The lines of “Die Lorelei” have three beats, with one or two unstressed syllables between the beats.",
    "options": [
     "Five, because the line is a pentameter",
     "Four, the count of <em lang=\"de\">Wer reitet so spät</em>",
@@ -223,7 +223,7 @@ ARS.exercises["lang.ii.de/meter-ex"] = {
    "deck": "lang.ii.de/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "How are Heine’s four-line stanzas rhymed?",
+   "prompt": "How are the four-line stanzas of Heine’s “Die Lorelei” rhymed?",
    "explain": "The four-line stanzas are rhymed abab.",
    "options": [
     "abab",

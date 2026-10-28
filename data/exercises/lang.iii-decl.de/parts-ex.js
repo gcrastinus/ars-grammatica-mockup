@@ -245,7 +245,7 @@ ARS.exercises["lang.iii-decl.de/parts-ex"] = {
    "deck": "lang.iii-decl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which part of speech does the marked word belong? <i lang=\"de\">Der Brief ist <b>angekommen</b>.</i> (“The letter has arrived.”)",
+   "prompt": "In the German grammars, to which part of speech does the marked word belong? <i lang=\"de\">Der Brief ist <b>angekommen</b>.</i> (“The letter has arrived.”)",
    "explain": "<i lang=\"de\">Angekommen</i> is the past participle, which the German grammars count as a form of the verb.",
    "options": [
     "adjective",
@@ -261,7 +261,7 @@ ARS.exercises["lang.iii-decl.de/parts-ex"] = {
    "deck": "lang.iii-decl.de/parts-ex",
    "section": "iii",
    "type": "mc-marked",
-   "prompt": "To which part of speech does the marked word belong? <i lang=\"de\"><b>Singend</b> ging sie nach Hause.</i> (“Singing, she went home.”)",
+   "prompt": "In the German grammars, to which part of speech does the marked word belong? <i lang=\"de\"><b>Singend</b> ging sie nach Hause.</i> (“Singing, she went home.”)",
    "explain": "<i lang=\"de\">Singend</i> is the present participle, a form of the verb.",
    "options": [
     "verb",

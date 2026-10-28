@@ -242,8 +242,7 @@ ARS.exercises["lang.iii-decl.fr/tenses-ex"] = {
    "prompt": "Write the passé simple, first person plural, of <i lang=\"fr\">lire</i>.",
    "explain": "<i lang=\"fr\">Lire</i> takes the u-endings, with the circumflex in the first and second persons plural: <i lang=\"fr\">nous lûmes</i>.",
    "accept": [
-    "lûmes",
-    "lumes"
+    "lûmes"
    ]
   },
   {

@@ -193,13 +193,13 @@ ARS.exercises["lang.iv.de/formation-ex"] = {
    "deck": "lang.iv.de/formation-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Why does <em lang=\"de\">sicher</em> make <em lang=\"de\">Sicherheit</em> rather than a noun in <em lang=\"de\">-keit</em>?",
-   "explain": "<em lang=\"de\">Sicher</em> ends in none of <em lang=\"de\">-ig</em>, <em lang=\"de\">-lich</em>, <em lang=\"de\">-bar</em>, and <em lang=\"de\">-sam</em>. The noun is therefore <em lang=\"de\">Sicherheit</em>, with <em lang=\"de\">-heit</em>.",
+   "prompt": "Which noun of quality does the adjective <em lang=\"de\">sicher</em> form?",
+   "explain": "The noun of the quality is <em lang=\"de\">Sicherheit</em>. <em lang=\"de\">-keit</em> is regular after <em lang=\"de\">-ig</em>, <em lang=\"de\">-lich</em>, <em lang=\"de\">-bar</em>, and <em lang=\"de\">-sam</em> (<em lang=\"de\">Ewigkeit</em>, <em lang=\"de\">Freundlichkeit</em>); after <em lang=\"de\">-er</em> both endings occur (<em lang=\"de\">Sicherheit</em>, <em lang=\"de\">Tapferkeit</em>), so the noun must be learned. <em lang=\"de\">Sicherung</em> names an act or a device, not the quality.",
    "options": [
-    "<em lang=\"de\">Sicher</em> ends in none of those four",
-    "<em lang=\"de\">Sicher</em> already ends in <em lang=\"de\">-lich</em>",
-    "The noun has to be masculine",
-    "<em lang=\"de\">Sicher</em> is a separable prefix"
+    "<em lang=\"de\">Sicherheit</em>",
+    "<em lang=\"de\">Sicherkeit</em>",
+    "<em lang=\"de\">Sicherung</em>",
+    "<em lang=\"de\">Sichernis</em>"
    ],
    "answer": 0
   },

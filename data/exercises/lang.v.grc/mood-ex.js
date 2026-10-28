@@ -288,11 +288,11 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">οἱ ἄνθρωποι οὕτως ἀγαθοί εἰσιν ὥστε τὸν ἵππον ______</i> (“The men are so good that they loose the horse”).",
-   "explain": "The clause states an actual result, so the verb is indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural (Smyth §2257, §383). <i lang=\"grc\">λῡ́οιεν</i> is optative, <i lang=\"grc\">λῡ́ειν</i> would be a natural result, and <i lang=\"grc\">λῡ́ωσι</i> is subjunctive.",
+   "explain": "The clause states an actual result, so the verb is indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural (Smyth §2257, §383). <i lang=\"grc\">λῡ́οιεν</i> is optative, <i lang=\"grc\">λῡ́ει</i> is singular, and <i lang=\"grc\">λῡ́ωσι</i> is subjunctive.",
    "options": [
     "<i lang=\"grc\">λῡ́ουσι</i>",
     "<i lang=\"grc\">λῡ́οιεν</i>",
-    "<i lang=\"grc\">λῡ́ειν</i>",
+    "<i lang=\"grc\">λῡ́ει</i>",
     "<i lang=\"grc\">λῡ́ωσι</i>"
    ],
    "answer": 0
@@ -383,8 +383,8 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "deck": "lang.v.grc/mood-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">φοβοῦμαι μὴ ὁ βασιλεὺς τὸν ἵππον ______</i> (“I fear that the king is loosing the horse”).",
-   "explain": "The fear is that the loosing is going on, so the present subjunctive stands after <i lang=\"grc\">φοβοῦμαι</i> (Smyth §2225, §383). <i lang=\"grc\">λῡ́ει</i> is indicative, and the optative is not the mood after a primary tense (Smyth §2227).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">φοβοῦμαι μὴ ὁ βασιλεὺς τὸν ἵππον ______</i> (“I fear that the king may loose the horse”).",
+   "explain": "The fear is about what may happen, so after the primary tense <i lang=\"grc\">φοβοῦμαι</i> the subjunctive stands (Smyth §2225, §383). <i lang=\"grc\">λῡ́ει</i>, the indicative, would be a fear about something that is in fact going on (Smyth §2233), and the optative is not the mood after a primary tense (Smyth §2227).",
    "options": [
     "<i lang=\"grc\">λῡ́ῃ</i>",
     "<i lang=\"grc\">λῡ́ει</i>",

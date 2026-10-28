@@ -431,7 +431,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "deck": "lang.v.grc/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς φησὶ ______ εἶναι</i> (“The judge says that he himself is good”).",
+   "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτής φησιν ______ εἶναι</i> (“The judge says that he himself is good”).",
    "explain": "The subject of the infinitive is the same as the subject of <i lang=\"grc\">φησί</i>, so it is omitted, and the adjective is nominative, written <i lang=\"grc\">ἀγαθὸς</i> before <i lang=\"grc\">εἶναι</i> (Smyth §1973, §2017 a, §154). <i lang=\"grc\">ἀγαθόν</i> would be the predicate of a different subject, in the accusative (Smyth §1975).",
    "options": [
     "<i lang=\"grc\">ἀγαθὸς</i>",

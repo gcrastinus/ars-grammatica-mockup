@@ -163,7 +163,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "explain": "Work, live; live, work.",
    "options": [
     "Anaphora",
-    "Antithesis",
+    "Polysyndeton",
     "Chiasmus",
     "Asyndeton"
    ],
@@ -180,7 +180,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "options": [
     "Antithesis",
     "Asyndeton",
-    "Anaphora",
+    "Polysyndeton",
     "Chiasmus"
    ],
    "answer": 1

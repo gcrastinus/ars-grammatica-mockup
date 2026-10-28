@@ -416,7 +416,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "deck": "lang.ii.en/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is the meter of this line? “Tiger, tiger, burning bright” (Blake, “The Tiger,” line 1)",
+   "prompt": "What is the meter of this line? “Tyger Tyger, burning bright” (Blake, “The Tyger,” line 1)",
    "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
    "options": [
     "Trochaic tetrameter",
@@ -433,7 +433,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "deck": "lang.ii.en/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is the meter of this line? “In the forests of the night,” (Blake, “The Tiger,” line 2)",
+   "prompt": "What is the meter of this line? “In the forests of the night,” (Blake, “The Tyger,” line 2)",
    "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
    "options": [
     "Trochaic tetrameter",

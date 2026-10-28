@@ -203,9 +203,9 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">suffit</em> is singular because…",
-   "explain": "When subjects follow one another as a gradation, each correcting the last, the verb agrees with the nearest. the second taking the place of the first",
+   "explain": "In <em lang=\"fr\">une vapeur, une goutte d’eau</em> the second subject takes the place of the first, as in a gradation, so the verb agrees with the nearer subject, <em lang=\"fr\">une goutte d’eau</em>, and is singular.",
    "options": [
-    "The two subjects name one thing",
+    "The subjects form a gradation, and the verb agrees with the last",
     "Only <em lang=\"fr\">une vapeur</em> is its subject",
     "French verbs do not agree in number",
     "<em lang=\"fr\">Une goutte d’eau</em> is its object"

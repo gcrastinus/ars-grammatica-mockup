@@ -175,7 +175,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "deck": "lang.vi.la/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Donatus cites <em lang=\"la\">Dardanus</em> for <em lang=\"la\">Dardanius</em> (<em lang=\"la\">Aeneid</em> IV.661). What substitution does he name?",
+   "prompt": "Donatus cites <em lang=\"la\">Dardanus</em> for <em lang=\"la\">Dardanius</em> (<em lang=\"la\">Aeneid</em> IV.662). What substitution does he name?",
    "explain": "Donatus says a proper noun has been put for the appellative: <em lang=\"la\">Dardanus</em> where he wants <em lang=\"la\">Dardanius</em>. He classes this solecism under the quality of the noun. In the poet he allows it as a figure.",
    "options": [
     "A proper noun for the appellative",

@@ -359,7 +359,7 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
     "A preposition used as an adverb",
     "A locative"
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "id": "lang.iii-indecl.la/prepositions-ex:gp22",

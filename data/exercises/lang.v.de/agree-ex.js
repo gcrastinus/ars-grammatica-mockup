@@ -375,10 +375,10 @@ ARS.exercises["lang.v.de/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Judge the phrase: <i lang=\"de\">ein alte Tisch</i>.",
-   "explain": "<i lang=\"de\">Tisch</i> is masculine, and after <i lang=\"de\">ein</i> the masculine nominative is <i lang=\"de\">alter</i>; <i lang=\"de\">alte</i> is the feminine form.",
+   "explain": "<i lang=\"de\">Tisch</i> is masculine, and after <i lang=\"de\">ein</i>, which has no ending of its own, the adjective takes the masculine ending: <i lang=\"de\">ein alter Tisch</i>. <i lang=\"de\">Alte</i> is the ending after <i lang=\"de\">der</i> (<i lang=\"de\">der alte Tisch</i>) or with a feminine noun (<i lang=\"de\">eine alte Frau</i>).",
    "options": [
     "Correct: the adjective agrees with its noun",
-    "Incorrect: the adjective does not agree in gender",
+    "Incorrect: the adjective lacks the masculine ending",
     "Incorrect: the adjective does not agree in number",
     "Incorrect: the adjective does not agree in case"
    ],

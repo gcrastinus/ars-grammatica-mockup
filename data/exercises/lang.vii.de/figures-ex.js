@@ -223,7 +223,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“O World, thy Maker’s throne to see” addresses the world, and “ye millions” in the same chorus sets the number beyond any crowd then present (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which pair of figures can stand in that one wording?",
+   "prompt": "“O World, thy Maker’s throne to see” addresses the world, and “ye millions” in the same chorus sets the number beyond any crowd then present (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>; Schiller, <em lang=\"de\">An die Freude</em>). Which pair of figures can stand in that one wording?",
    "explain": "The tests are separate. The world is addressed, and the millions go beyond the fact. The wording is both apostrophe and hyperbole.",
    "options": [
     "Apostrophe and hyperbole",
@@ -335,7 +335,7 @@ ARS.exercises["lang.vii.de/figures-ex"] = {
    "deck": "lang.vii.de/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“O World, thy Maker’s throne to see,” with “ye millions” in the same chorus (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>). Which two figures are in it?",
+   "prompt": "“O World, thy Maker’s throne to see,” with “ye millions” in the same chorus (<em lang=\"de\">Ihr stürzt nieder, Millionen? Ahnest du den Schöpfer, Welt?</em>; Schiller, <em lang=\"de\">An die Freude</em>). Which two figures are in it?",
    "explain": "The world is addressed, so the wording is apostrophe, and “ye millions” goes beyond the crowd then present, so the wording is also hyperbole.",
    "options": [
     "Apostrophe and hyperbole",

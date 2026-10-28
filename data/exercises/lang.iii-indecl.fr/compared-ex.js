@@ -351,7 +351,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Ce sont ___ vieux amis.</i> (“They are old friends”).",
+   "prompt": "Choose the form of careful writing: <i lang=\"fr\">Ce sont ___ vieux amis.</i> (“They are old friends”).",
    "explain": "In careful writing, <i lang=\"fr\">des</i> becomes <i lang=\"fr\">de</i> before a plural adjective that precedes its noun.",
    "options": [
     "<i lang=\"fr\">des</i>",

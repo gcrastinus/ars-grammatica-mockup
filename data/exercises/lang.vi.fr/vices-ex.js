@@ -285,8 +285,8 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "deck": "lang.vi.fr/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "What kind of error? <em lang=\"fr\">Je <b>allerai</b> demain.</em>",
-   "explain": "<em lang=\"fr\">Allerai</em> is not a form of <em lang=\"fr\">aller</em>. The future is <em lang=\"fr\">irai</em>, and before the vowel the subject is <em lang=\"fr\">j’</em>: <em lang=\"fr\">j’irai</em>. The error is in the verb.",
+   "prompt": "What kind of error? <em lang=\"fr\">J’<b>allerai</b> demain.</em>",
+   "explain": "<em lang=\"fr\">Allerai</em> is not a form of <em lang=\"fr\">aller</em>. The future is <em lang=\"fr\">irai</em>: <em lang=\"fr\">j’irai</em>. The error is in the verb.",
    "options": [
     "A barbarism",
     "A solecism: <em lang=\"fr\">demain</em> must stand first in the sentence",

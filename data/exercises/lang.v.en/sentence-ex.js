@@ -351,7 +351,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “Jesus wept..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “Jesus wept.”",
    "explain": "The pattern is S-V. “Jesus” is the subject, “wept” the verb, and the sense is finished. (The King James Version (the Oxford text of 1769), John 11:35)",
    "accept": [
     "S-V",
@@ -1828,7 +1828,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “The milk tastes sweet..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “The milk tastes sweet.”",
    "explain": "“Tastes” links, and “sweet” describes the milk. The linking verb is the copula. The word after it describes the subject, and a modern class calls it a predicate adjective.",
    "accept": [
     "S-LV-PA",
@@ -1841,7 +1841,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “The clerk sent the captain a chart..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “The clerk sent the captain a chart.”",
    "explain": "“Chart” is the direct object. “Captain” is the indirect object, the dative, with no preposition written. The indirect object is the one to whom or for whom, with no preposition written. The older grammar calls that office the dative, and the direct object the accusative.",
    "accept": [
     "S-V-IO-DO",
@@ -1854,7 +1854,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “They named the child John..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “They named the child John.”",
    "explain": "“Child” is the direct object and “John” the objective complement. The direct object is the accusative. The objective complement follows it and tells what the object is made or named. Latin often puts that complement in the accusative as well.",
    "accept": [
     "S-V-DO-OC",
@@ -1867,7 +1867,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “for God is love..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “for God is love.”",
    "explain": "“Is” links, and “love” renames God. The linking verb is the copula. The noun after it renames the subject and stands in the nominative with it, and a modern class calls it a predicate nominative. (The King James Version (the Oxford text of 1769), 1 John 4:8)",
    "accept": [
     "S-LV-PN",
@@ -1880,7 +1880,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “Bells ring at noon..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “Bells ring at noon.”",
    "explain": "“Bells ring” is complete. “At noon” is a phrase, not an object. A subject and a verb complete the sense. There is no accusative object, and the verb is not a copula with a complement.",
    "accept": [
     "S-V",
@@ -1893,7 +1893,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "deck": "lang.v.en/sentence-ex",
    "section": "v",
    "type": "form",
-   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “he leadeth me beside the still waters..”",
+   "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “he leadeth me beside the still waters.”",
    "explain": "“Me” is the direct object. “Beside the still waters” tells where. The direct object receives the action. In the older grammar that office is the accusative. (The King James Version (the Oxford text of 1769), Psalm 23:2)",
    "accept": [
     "S-V-DO",

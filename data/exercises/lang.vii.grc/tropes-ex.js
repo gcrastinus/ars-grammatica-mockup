@@ -271,15 +271,15 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Socrates calls himself a gadfly given to the city (<i lang=\"grc\">Apology</i> 30e). Which trope is this?",
-   "explain": "He is like a gadfly that stings a horse awake.",
+   "prompt": "Socrates says that the god has attached him to the city as a gadfly to a great horse (<i lang=\"grc\">ὥσπερ ἵππῳ μεγάλῳ … ὑπὸ μύωπός τινος</i>; <i>Apology</i> 30e). What is this?",
+   "explain": "The likeness is stated with <i lang=\"grc\">ὥσπερ</i> (“as”), so the passage is a simile, not a metaphor: no word is carried over from its proper signification without the likeness being stated.",
    "options": [
     "Metonymy",
     "Synecdoche",
-    "Irony",
-    "Metaphor"
+    "A simile, a likeness stated with <i lang=\"grc\">ὥσπερ</i>",
+    "A metaphor, a word carried over with no likeness stated"
    ],
-   "answer": 3
+   "answer": 2
   },
   {
    "id": "lang.vii.grc/tropes-ex:t18",
@@ -308,7 +308,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "options": [
     "Anaphora",
     "Chiasmus",
-    "Antithesis",
+    "Polysyndeton",
     "Asyndeton"
    ],
    "answer": 1
@@ -335,8 +335,8 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Which trope calls Agamemnon “the lord of men” in place of his name (<i lang=\"grc\">ἄναξ ἀνδρῶν</i>)?",
-   "explain": "A title is put for the proper name.",
+   "prompt": "Homer calls Agamemnon <i lang=\"grc\">Ἀτρεΐδης</i>, “the son of Atreus,” in place of his name (<i>Iliad</i> I.7). Which trope is this?",
+   "explain": "A patronymic is put for the proper name, as in Quintilian’s examples <i lang=\"la\">Tydides</i> and <i lang=\"la\">Pelides</i> (<i>Institutio oratoria</i> VIII.6.29).",
    "options": [
     "Metonymy",
     "Periphrasis",

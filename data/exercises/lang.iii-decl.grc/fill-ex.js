@@ -825,8 +825,8 @@ ARS.exercises["lang.iii-decl.grc/fill-ex"] = {
    "deck": "lang.iii-decl.grc/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What case is the marked word? <b>κριτὰ</b>, ἡ νῑ́κη ἀγαθή ἐστι",
-   "explain": "κριτά is the vocative of κριτής, and it is the person addressed (§222). Before the next word the acute is written as a grave (§154).",
+   "prompt": "What case is the marked word? <b>κριτά</b>, ἡ νῑ́κη ἀγαθή ἐστι",
+   "explain": "κριτά is the vocative of κριτής, and it is the person addressed (§222). A mark of punctuation follows it, so the acute is not changed to a grave (§154).",
    "options": [
     "Vocative",
     "Genitive",

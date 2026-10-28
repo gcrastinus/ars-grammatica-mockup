@@ -270,7 +270,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "prompt": "Which error is a barbarism rather than a solecism?",
    "explain": "A barbarism is an error in a single word. A comma splice, a dangling modifier, and a fragment are errors of the construction or of completeness, and they sit with the solecism or with an incomplete sentence, not with the barbarism.",
    "options": [
-    "A error in the spelling or form of one word",
+    "An error in the spelling or form of one word",
     "Two clauses joined by a comma alone",
     "A modifier whose noun is missing",
     "A subordinate clause written as a whole sentence"
@@ -2137,7 +2137,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "deck": "lang.vi.en/faults-ex",
    "section": "vi",
    "type": "form",
-   "prompt": "Rewrite the sentence so “fewer” or “less” matches the noun. Change only what must change. The sentence is “We need fewer sugar in the tea..”",
+   "prompt": "Rewrite the sentence so “fewer” or “less” matches the noun. Change only what must change. The sentence is “We need fewer sugar in the tea.”",
    "explain": "“Sugar” is a mass, so the word is “less.” “Fewer” wants a count noun.",
    "accept": [
     "We need less sugar in the tea."
@@ -2149,7 +2149,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "deck": "lang.vi.en/faults-ex",
    "section": "vi",
    "type": "form",
-   "prompt": "Rewrite the sentence so the three parts are parallel. Change only what must change. The sentence is “She likes to read, writing, and to walk..”",
+   "prompt": "Rewrite the sentence so the three parts are parallel. Change only what must change. The sentence is “She likes to read, writing, and to walk.”",
    "explain": "The series should be one form throughout. Three gerunds match. Three infinitives would also match: “to read, to write, and to walk.”",
    "accept": [
     "She likes reading, writing, and walking.",
@@ -2162,7 +2162,7 @@ ARS.exercises["lang.vi.en/faults-ex"] = {
    "deck": "lang.vi.en/faults-ex",
    "section": "vi",
    "type": "form",
-   "prompt": "Rewrite the sentence so the reader knows that Ann was angry. Change only what must change. The sentence is “When Ann met Ruth, she was angry..”",
+   "prompt": "Rewrite the sentence so the reader knows that Ann was angry. Change only what must change. The sentence is “When Ann met Ruth, she was angry.”",
    "explain": "“She” might be Ann or Ruth. The name “Ann” makes the antecedent clear. If Ruth were the angry one, the name would be “Ruth.”",
    "accept": [
     "When Ann met Ruth, Ann was angry."
