@@ -628,9 +628,9 @@ function homeNote(){
   const row = document.createElement('div');
   row.className = 'btn-row';
   if (!guided()){
-    p.textContent = 'Every exercise of this level is open. The Guided Path opens the exercises of the level in the order of the sections, judges when each is passed and confirmed, and gathers what is due for review.';
+    p.textContent = 'The Guided Path opens the exercises of the level in the order of the sections, judges when each is passed and confirmed, and gathers what is due for review.';
   } else if (!tracking()){
-    p.textContent = 'The Guided Path opens the exercises of the level in the order of the sections and judges when each is passed and confirmed. It keeps its record only once tracking is turned on under Progress & Review.';
+    p.textContent = 'The Guided Path keeps its record only once tracking is turned on under Progress & Review.';
   } else {
     const due = ARS.dueCount ? ARS.dueCount() : 0, learn = nextLearning(), rr = readyReviews();
     const bits = [];

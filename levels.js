@@ -221,14 +221,19 @@ function setLang(code){
   if (code !== 'all' && LANG_CODES.indexOf(code) < 0) return;
   setLangs([code]);
 }
-/* The rules of the Language menu: "All languages" clears the others, a language clears "All languages," and the last
-   one checked stays checked. */
+/* The rules of the Language menu: "All languages" clears the others, a language clears "All languages," the last
+   one checked stays checked, and on Free Practice checking every language turns into "All languages." */
 function toggleLang(code){
   const c = langs();
   if (code === 'all'){ if (c[0] !== 'all') setLangs(['all']); return; }
   if (LANG_CODES.indexOf(code) < 0) return;
   if (c[0] === 'all') setLangs([code]);
-  else if (c.indexOf(code) < 0) setLangs(c.concat([code]));
+  else if (c.indexOf(code) < 0){
+    const next = c.concat([code]);
+    /* every language checked one by one becomes "All languages" (Timothy, 28 Oct 2026); not on the Guided Path */
+    const every = langOptions().filter(o => o.value !== 'all').every(o => next.indexOf(o.value) >= 0);
+    setLangs(every && !guidedNow() ? ['all'] : next);
+  }
   else if (c.length > 1) setLangs(c.filter(x => x !== code));
 }
 /* The Guided Path does not take "All languages": English is chosen, and a line says so. */
@@ -397,31 +402,31 @@ function langText(){
   if (l.length === 2) return NAME_OF(l[0]) + ', ' + NAME_OF(l[1]);
   return l.length + ' languages';
 }
-/* The sentence at the left of each row describes the choice made in that row. */
+/* The sentence at the left of each row describes the choice made in that row: for the level, what it adds. */
 const LEVEL_EXPL = {
-  essentials: 'Essentials: the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the language chosen.',
-  proficient: 'Proficient: everything in Essentials, with voice, quantity and accent, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
-  mastered: 'Mastered: everything in Proficient, with the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
-  comprehensive: 'Comprehensive: the whole course, with the other classical traditions and modern linguistics, Imitation, and every reading passage.'
+  essentials: 'Essentials teaches the definition of grammar, the sign, the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the languages chosen.',
+  proficient: 'Proficient adds the tasks of the grammarian, the criteria of correct speech, voice, quantity and accent, punctuation, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
+  mastered: 'Mastered adds the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
+  comprehensive: 'Comprehensive adds the other classical traditions, modern linguistics, Imitation, and every reading passage, and so gives the whole course.'
 };
 const PATH_EXPL = {
-  practice: 'Free Practice: every exercise of this level is open, in any order, and none is judged as passed.',
-  guided: 'Guided Path: the exercises of this level open in the order of the sections, and each is judged passed and confirmed, with what is due for review gathered for you.'
+  practice: 'Free Practice opens every exercise of this level, in any order, and does not judge any exercise as passed.',
+  guided: 'The Guided Path opens the exercises of this level in the order of the sections, judges when each is passed and confirmed, and gathers what is due for review.'
 };
 const LANG_EXPL = {
   en: 'English is used throughout the course.',
   la: 'Latin is used throughout the course, alongside English.'
 };
 function langExplain(l){
-  if (l[0] === 'all') return 'All languages: the material of English, Latin, Greek, Spanish, German, and French is shown together, in the course’s usual order.';
+  if (l[0] === 'all') return 'The material of all six languages, English, Latin, Greek, Spanish, German, and French, is shown together, in the course’s usual order.';
   let t;
   if (l.length === 1){
     const n = NAME_OF(l[0]);
     t = LANG_EXPL[l[0]] || (n + ' is used where it shows something distinctive.');
   } else {
-    t = listNames(l) + ': the material of these languages is shown together, in the course’s usual order.';
+    t = 'The material of ' + listNames(l) + ' is shown together, in the course’s usual order.';
   }
-  if (guidedNow()) t += l.length === 1 ? ' On the Guided Path its exercises are required.' : ' On the Guided Path the exercises of each are required.';
+  if (guidedNow()) t += l.length === 1 ? ' On the Guided Path, the ' + NAME_OF(l[0]) + ' exercises are required.' : ' On the Guided Path, the exercises of each of these languages are required.';
   return t;
 }
 function explainChoices(l){
@@ -455,12 +460,14 @@ function renderControls(){
   if (d){ d.textContent = DESC[current()] || ''; d.hidden = true; }
   const l = langs();
   explainChoices(l);
+  /* The two notes under the rows ("Every language's material ..." and "Shown: ...") are kept but hidden: the Language
+     row's sentence now says the same (28 Oct 2026). */
   const allNote = document.getElementById('lang-all-note');
-  if (allNote) allNote.hidden = l[0] !== 'all';
+  if (allNote) allNote.hidden = true;
   const shownNote = document.getElementById('lang-shown-note');
   if (shownNote){
     const on = !guidedNow() && l[0] !== 'all' && l.length >= 2 && l.length <= 5;
-    shownNote.hidden = !on;
+    shownNote.hidden = true;
     shownNote.textContent = on ? 'Shown: ' + listNames(l) + '.' : '';
   }
   const fb = document.getElementById('lang-fallback-note');
