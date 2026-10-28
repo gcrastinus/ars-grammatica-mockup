@@ -224,7 +224,7 @@ ARS.exercises["lang.v.grc/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ ἄνθρωπος τὸν ἵππον ______ δύναται</i> (“The man is able to loose the horse”).",
-   "explain": "<i lang=\"grc\">δύναμαι</i> means be able, and the infinitive completes it (Smyth §2000). Smyth prints <i lang=\"grc\">δύναται</i> with an infinitive (§3007). <i lang=\"grc\">λῡ́ει</i> and <i lang=\"grc\">λῡ́ουσι</i> are finite, and <i lang=\"grc\">λῡ́ων</i> is a participle.",
+   "explain": "<i lang=\"grc\">δύναμαι</i> means be able, and the infinitive completes it (Smyth §2000). <i lang=\"grc\">λῡ́ει</i> and <i lang=\"grc\">λῡ́ουσι</i> are finite, and <i lang=\"grc\">λῡ́ων</i> is a participle.",
    "options": [
     "<i lang=\"grc\">λῡ́ειν</i>",
     "<i lang=\"grc\">λῡ́ει</i>",
