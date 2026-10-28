@@ -397,6 +397,39 @@ function langText(){
   if (l.length === 2) return NAME_OF(l[0]) + ', ' + NAME_OF(l[1]);
   return l.length + ' languages';
 }
+/* The sentence at the left of each row describes the choice made in that row. */
+const LEVEL_EXPL = {
+  essentials: 'Essentials: the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the language chosen.',
+  proficient: 'Proficient: everything in Essentials, with voice, quantity and accent, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
+  mastered: 'Mastered: everything in Proficient, with the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
+  comprehensive: 'Comprehensive: the whole course, with the other classical traditions and modern linguistics, Imitation, and every reading passage.'
+};
+const PATH_EXPL = {
+  practice: 'Free Practice: every exercise of this level is open, in any order, and none is judged as passed.',
+  guided: 'Guided Path: the exercises of this level open in the order of the sections, and each is judged passed and confirmed, with what is due for review gathered for you.'
+};
+const LANG_EXPL = {
+  en: 'English is used throughout the course.',
+  la: 'Latin is used throughout the course, alongside English.'
+};
+function langExplain(l){
+  if (l[0] === 'all') return 'All languages: the material of English, Latin, Greek, Spanish, German, and French is shown together, in the course’s usual order.';
+  let t;
+  if (l.length === 1){
+    const n = NAME_OF(l[0]);
+    t = LANG_EXPL[l[0]] || (n + ' is used where it shows something distinctive.');
+  } else {
+    t = listNames(l) + ': the material of these languages is shown together, in the course’s usual order.';
+  }
+  if (guidedNow()) t += l.length === 1 ? ' On the Guided Path its exercises are required.' : ' On the Guided Path the exercises of each are required.';
+  return t;
+}
+function explainChoices(l){
+  const set = (id, text) => { const e = document.getElementById(id); if (e && e.textContent !== text) e.textContent = text; };
+  if (LEVEL_EXPL[current()]) set('level-expl', LEVEL_EXPL[current()]);
+  set('path-expl', PATH_EXPL[guidedNow() ? 'guided' : 'practice']);
+  set('lang-expl', langExplain(l));
+}
 function renderControls(){
   if (!menus.level) makeMenu('level', {
     options: () => ORDER.map(k => ({ value:k, label:T.names[k] })),
@@ -419,8 +452,9 @@ function renderControls(){
   });
   Object.values(menus).forEach(drawMenu);
   const d = document.getElementById('level-desc');
-  if (d) d.textContent = DESC[current()] || '';
+  if (d){ d.textContent = DESC[current()] || ''; d.hidden = true; }
   const l = langs();
+  explainChoices(l);
   const allNote = document.getElementById('lang-all-note');
   if (allNote) allNote.hidden = l[0] !== 'all';
   const shownNote = document.getElementById('lang-shown-note');
