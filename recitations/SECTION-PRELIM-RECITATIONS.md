@@ -6,15 +6,15 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| The Definition of Grammar (`prelim.definition`) | 35 | 951 |
+| The Definition of Grammar (`prelim.definition`) | 35 | 971 |
 | The Tasks of the Grammarian (`prelim.offices`) | 24 | 646 |
 | Precepts and Interpretation (`prelim.methodice`) | 21 | 561 |
 | The Criteria of Correctness (`prelim.criteria`) | 30 | 733 |
-| **Preliminaries, whole section** | **110** | **2891** |
+| **Preliminaries, whole section** | **110** | **2911** |
 
 ## The Definition of Grammar (`prelim.definition`)
 
-1. Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly, and rhetoric the art of persuading well.
+1. Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly; and rhetoric is ordered to persuasion and truth, especially since the true and the just are by nature more powerful than their opposites (cf. Aristotle, *Rhetoric* I.1).
 2. Grammar comes first because logic considers statements, which are made of words, so the words must be correctly joined before anything can be asserted, denied, inferred, or communicated.
 3. Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said.
 4. There are also historical reasons for the order: Quintilian sends the boy to the grammarian before the teacher of rhetoric, and calls grammar the foundation of the whole building.

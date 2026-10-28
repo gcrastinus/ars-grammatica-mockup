@@ -2,7 +2,7 @@
    Copied from data/decks/prelim.definition.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
-    `Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly, and rhetoric the art of persuading well.`,
+    `Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly; and rhetoric is ordered to persuasion and truth, especially since the true and the just are by nature more powerful than their opposites (cf. Aristotle, <i>Rhetoric</i> I.1).`,
     `Grammar comes first because logic considers statements, which are made of words, so the words must be correctly joined before anything can be asserted, denied, inferred, or communicated.`,
     `Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said.`,
     `There are also historical reasons for the order: Quintilian sends the boy to the grammarian before the teacher of rhetoric, and calls grammar the foundation of the whole building.`,
