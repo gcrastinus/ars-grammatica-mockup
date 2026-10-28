@@ -13,6 +13,7 @@ window.ARS = window.ARS || {};
 ARS.structure = [
  { id:'prelim', roman:'', latin:'Quid sit grammatica', name:'What Is Grammar?',
    gloss:'The definition, the tasks, and the parts of the art, and the criteria of correct speech.',
+   note:'<strong>How to use this course.</strong> The material here is not a mass to be gotten through, and it is not the most important part of grammar. Studying and drilling rules, examples, and figures is valuable, but the art of grammar is learned mainly through wide reading and writing. Students therefore need not work through the panels for every language; they may choose the languages that serve their reading and leave the others for later.',
    langBars:[{ id:'prelim', after:'prelim.criteria', heading:'The particular languages: an overview of each', direct:'overview' }],
    items:[
    { id:'prelim.definition', kind:'study', built:true, title:'The Definition of Grammar', desc:'What is grammar, what does it treat, and why is it the first art of the trivium?' },

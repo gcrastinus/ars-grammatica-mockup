@@ -12,6 +12,10 @@
 .panel .eg-label{font-family:var(--display); font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--wine); margin-bottom:6px}
 .panel .eg ol{margin:0 0 0 22px; font-size:17.5px; line-height:1.5}
 .panel .eg li{margin:4px 0}
+/* "How to use this course" (28 Oct 2026): under the Preliminary section's gloss on the home page, and a line on the first card of each language overview. */
+.act-note{max-width:34em; margin:-14px auto 26px; padding:12px 16px; border:1px solid var(--line); border-radius:10px; font-size:15.5px; line-height:1.55; color:var(--ink-soft); text-align:left; overflow-wrap:break-word}
+.act-note strong{color:var(--ink); font-weight:600}
+.panel .use-note{margin-top:14px; padding-top:10px; border-top:1px dashed var(--line); font-size:15px; font-style:italic; color:var(--ink-soft)}
 .panel .psrc{margin-top:14px; padding-top:10px; border-top:1px dashed var(--line); font-size:15px; font-style:italic; color:var(--ink-soft)}
 .panel .psrc b{font-style:normal; font-family:var(--display); font-size:12px; letter-spacing:.12em; color:var(--wine); font-weight:400; text-transform:uppercase; margin-right:6px}
 

@@ -199,6 +199,8 @@ function buildHome(){
     gl.className = 'act-gloss';
     gl.textContent = sec.gloss;
     host.appendChild(gl);
+    // A note to the student under the gloss (the Preliminary section's "How to use this course", 28 Oct 2026).
+    if (sec.note){ const nt = document.createElement('p'); nt.className = 'act-note'; nt.innerHTML = sec.note; host.appendChild(nt); }
     let grid = document.createElement('div'); grid.className = 'home-grid'; host.appendChild(grid);
     let sawReview = false, group = '';
     const rule = cls => { const r = document.createElement('div'); r.className = 'sec-rule ' + cls; r.setAttribute('aria-hidden','true'); return r; };
