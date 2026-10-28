@@ -1008,3 +1008,6 @@ body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
 .intro-note .intro-use{margin:0 0 10px; font-size:15px; line-height:1.55; color:var(--ink-soft)}
 .intro-note .intro-use{max-width:85%; margin-left:auto; margin-right:auto}
 .intro-note .intro-use-head{font-weight:700; font-family:inherit; color:var(--ink-soft)}
+
+.intro-note .intro-preface{max-width:85%; margin:16px auto 0; border:1px solid var(--frame); background:var(--paper); padding:10px 18px; text-align:center; font-size:16px}
+.intro-note .intro-preface a{color:var(--wine); text-decoration:none; border-bottom:1px dotted var(--gold-soft)}
