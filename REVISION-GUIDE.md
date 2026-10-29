@@ -1009,3 +1009,7 @@ One commit per deck (git log, "card pass against the final style list"). Doctrin
 - **Where the levels are.** `data/tiers.js`, one line per deck, review, or language deck; a deck is moved by changing the word on its line. Exercise sets follow their deck. The passage lists of the IX reading collections are one line per deck.
 - **Student-facing wording added** (levels.js): the four level descriptions under the level selector; "Stage" for the in-set levels; "Confirmed," "confirmation sitting," "Next to confirm"; "N review items are due at other levels or in other languages."
 
+
+## BI. Log: approved changes from the card audit (29 Oct 2026, Timothy's decisions; applied by Claude)
+
+Source: notes/AUDIT-CARDS-2026-10-29.md, decisions 1–7, 12–14, part of 17, and the mechanical class of 19. Timothy's own wording controls in prelim.methodice ("agrees with the noun as inflected, that is, in gender, number, and case"), prelim.offices ("to the poets and prose writers, as Dionysius Thrax does"), and prelim.definition / art (the Dominican text of *Summa theologiae* I-II q. 57 a. 3 ad 3 restored and checked); the Farnsworth sentence kept. A sentence is complete when it expresses a complete thought (prelim.definition, v.congruity, lang.x.es/teresa). On hold: decisions 8–11, 15, 16, 18, 20, the rest of 17, the quotation restorations of 9, and the John of St. Thomas quotation (still unverified).
