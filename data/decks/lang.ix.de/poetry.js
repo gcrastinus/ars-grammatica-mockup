@@ -119,12 +119,12 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-8",
-   "title": "Hören with an infinitive",
+   "title": "<em lang=\"de\">Hören</em> with an infinitive",
    "body": "<p><em lang=\"de\">Ich hört’ ein Bächlein rauschen</em>: <em lang=\"de\">Hört’</em> is <em lang=\"de\">hörte</em> (“heard”), the past tense, with the final <em lang=\"de\">e</em> dropped for the meter. <em lang=\"de\">Ein Bächlein</em> (“a little brook”) is its object, and <em lang=\"de\">rauschen</em>, an infinitive at the end, says what the brook was doing.</p>"
   },
   {
    "id": "poetry-9",
-   "title": "A dative after aus",
+   "title": "A dative after <em lang=\"de\">aus</em>",
    "body": "<p><em lang=\"de\">Wohl aus dem Felsenquell</em>: <em lang=\"de\">Aus</em> (“out of”) always takes the dative, here <em lang=\"de\">dem Felsenquell</em>, “the rock spring.” <em lang=\"de\">Wohl</em>, “indeed,” adds little to the sense and fills out the line.</p>"
   },
   {
@@ -250,7 +250,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-19",
-   "title": "Helfen with the dative",
+   "title": "<em lang=\"de\">Helfen</em> with the dative",
    "body": "<p><em lang=\"de\">Er hilft uns frei aus aller Not</em>: <em lang=\"de\">Helfen</em> (“to help”) takes the dative, here <em lang=\"de\">uns</em> (“us”). <em lang=\"de\">Aus aller Not</em> (“out of all need”) is dative after <em lang=\"de\">aus</em>.</p>"
   },
   {
@@ -303,12 +303,12 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-22",
-   "title": "Es war",
+   "title": "<em lang=\"de\">Es war</em>",
    "body": "<p><em lang=\"de\">Es war ein König in Thule</em>: <em lang=\"de\">Es</em> fills the first place, so that the verb can stand second; the subject is <em lang=\"de\">ein König</em> (“there was a king in Thule”).</p>"
   },
   {
    "id": "poetry-23",
-   "title": "Bis an",
+   "title": "<em lang=\"de\">Bis an</em>",
    "body": "<p><em lang=\"de\">Gar treu bis an das Grab</em>: <em lang=\"de\">Bis an das Grab</em> means “right up to the grave,” with the accusative of motion toward.</p>"
   },
   {
@@ -381,7 +381,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-30",
-   "title": "A genitive after müde",
+   "title": "A genitive after <em lang=\"de\">müde</em>",
    "body": "<p><em lang=\"de\">Ach ich bin des Treibens müde</em>: In older German <em lang=\"de\">müde</em> (“tired”) takes the genitive, here <em lang=\"de\">des Treibens</em>, “of the bustle.”</p>"
   },
   {
@@ -444,7 +444,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-35",
-   "title": "Aber, and the subject repeated",
+   "title": "<em lang=\"de\">Aber</em>, and the subject repeated",
    "body": "<p><em lang=\"de\">Aber mein Herz, mein Herz,\nMein Herz hat seine Liebe</em>: <em lang=\"de\">Aber</em>, “but,” does not count for the order of the words, so the subject still comes first. The subject, <em lang=\"de\">mein Herz</em> (“my heart”), is said three times before the verb comes.</p>"
   },
   {
@@ -555,7 +555,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-42",
-   "title": "A comparison with wie",
+   "title": "A comparison with <em lang=\"de\">wie</em>",
    "body": "<p><em lang=\"de\">Du bist wie eine Blume</em>: <em lang=\"de\">Wie eine Blume</em> means “like a flower.” After <em lang=\"de\">wie</em> the noun takes the same case as what it is compared with, here the nominative.</p>"
   },
   {
@@ -623,7 +623,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   },
   {
    "id": "poetry-48",
-   "title": "Mit and the dative",
+   "title": "<em lang=\"de\">Mit</em> and the dative",
    "body": "<p><em lang=\"de\">Mit Herzen, Mund und Händen</em>: After <em lang=\"de\">mit</em> (“with”) all three nouns are dative: <em lang=\"de\">Herzen</em> is the dative singular of <em lang=\"de\">Herz</em> (“heart”), which declines irregularly (<em lang=\"de\">dem Herzen</em>); <em lang=\"de\">Mund</em> is dative singular without an ending, and <em lang=\"de\">Händen</em> (“hands”) is dative plural.</p>"
   },
   {

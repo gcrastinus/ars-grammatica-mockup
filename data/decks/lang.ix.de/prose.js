@@ -124,7 +124,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-9",
-   "title": "A clause with dass, and the passive",
+   "title": "A clause with <em lang=\"de\">dass</em>, and the passive",
    "body": "<p><em lang=\"de\">dass sie durch Fragen belästigt wird</em>: <em lang=\"de\">Dass</em> sends the verb to the end. <em lang=\"de\">Belästigt wird</em>, “is troubled,” is the passive with <em lang=\"de\">werden</em>, and <em lang=\"de\">durch</em> gives the means.</p>"
   },
   {
@@ -134,7 +134,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-11",
-   "title": "Denn: main clause order",
+   "title": "<em lang=\"de\">Denn</em>: main clause order",
    "body": "<p><em lang=\"de\">denn sie sind ihr durch die Natur der Vernunft selbst aufgegeben</em>: <em lang=\"de\">Denn</em>, “for,” does not move the verb, so <em lang=\"de\">sind</em> stays in second place. <em lang=\"de\">Ihr</em> is dative, so the sense is “set to it,” that is, to reason.</p>"
   },
   {
@@ -265,12 +265,12 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-22",
-   "title": "Dessen, and a main-clause order",
+   "title": "<em lang=\"de\">Dessen</em>, and a main-clause order",
    "body": "<p><em lang=\"de\">dessen Töchter waren alle schön</em>: <em lang=\"de\">Dessen</em>, “whose,” is the genitive relative. The tale keeps the verb second, <em lang=\"de\">waren</em>, in the free order of spoken narrative.</p>"
   },
   {
    "id": "prose-23",
-   "title": "So … dass",
+   "title": "<em lang=\"de\">So … dass</em>",
    "body": "<p><em lang=\"de\">so schön, dass die Sonne selber</em>: <em lang=\"de\">So schön, dass</em> means “so beautiful that,” and the result clause begins with <em lang=\"de\">dass</em>.</p>"
   },
   {
@@ -328,17 +328,17 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-27",
-   "title": "Es war einmal",
+   "title": "<em lang=\"de\">Es war einmal</em>",
    "body": "<p><em lang=\"de\">Es war einmal ein Müller</em>: <em lang=\"de\">Es</em> fills the first place, and the subject is <em lang=\"de\">ein Müller</em> (“a miller”). <em lang=\"de\">Einmal</em> means “once.”</p>"
   },
   {
    "id": "prose-28",
-   "title": "Der: relative or demonstrative?",
+   "title": "<em lang=\"de\">Der</em>: relative or demonstrative?",
    "body": "<p><em lang=\"de\">der war arm</em>: <em lang=\"de\">Der</em> could begin a relative clause, but the verb <em lang=\"de\">war</em> stays second, so it is a demonstrative: “he was poor.” The tale links plain clauses one after another.</p>"
   },
   {
    "id": "prose-29",
-   "title": "Aber",
+   "title": "<em lang=\"de\">Aber</em>",
    "body": "<p><em lang=\"de\">aber er hatte eine schöne Tochter</em>: <em lang=\"de\">Aber</em> does not move the verb. <em lang=\"de\">Eine schöne Tochter</em> is accusative feminine, with the same form as the nominative.</p>"
   },
   {
@@ -512,7 +512,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-41",
-   "title": "Als: a single past event",
+   "title": "<em lang=\"de\">Als</em>: a single past event",
    "body": "<p><em lang=\"de\">Als Zarathustra dreißig Jahr alt war</em>: <em lang=\"de\">Als</em>, “when,” is used for one past occasion, and it sends the verb to the end. In <em lang=\"de\">dreißig Jahr</em> (“thirty years”) the noun stays singular, as nouns of measure often do.</p>"
   },
   {
@@ -532,7 +532,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-45",
-   "title": "Müde with the genitive",
+   "title": "<em lang=\"de\">Müde</em> with the genitive",
    "body": "<p><em lang=\"de\">wurde dessen zehn Jahre nicht müde</em>: <em lang=\"de\">Einer Sache müde werden</em> means “to grow weary of a thing.” <em lang=\"de\">Dessen</em>, “of that,” is genitive, and <em lang=\"de\">zehn Jahre</em> (“for ten years”) is an accusative of time.</p>"
   },
   {
@@ -580,12 +580,12 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-47",
-   "title": "Dies",
+   "title": "<em lang=\"de\">Dies</em>",
    "body": "<p><em lang=\"de\">dies ist eine Wahrheit</em>: <em lang=\"de\">Dies</em>, “this,” sums up the quoted thesis. It stays neuter whatever the noun that follows.</p>"
   },
   {
    "id": "prose-48",
-   "title": "Welche, and present participles",
+   "title": "<em lang=\"de\">Welche</em>, and present participles",
    "body": "<p><em lang=\"de\">welche in Beziehung auf jedes lebende und erkennende Wesen gilt</em>: <em lang=\"de\">Welche</em> is a relative, like <em lang=\"de\">die</em>, standing for <em lang=\"de\">Wahrheit</em>; <em lang=\"de\">gilt</em> goes to the end. <em lang=\"de\">Lebende</em> and <em lang=\"de\">erkennende</em> are present participles used as adjectives: living and knowing.</p>"
   },
   {
@@ -711,7 +711,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-58",
-   "title": "Vor with the dative",
+   "title": "<em lang=\"de\">Vor</em> with the dative",
    "body": "<p><em lang=\"de\">Vor einem großen Walde</em>: <em lang=\"de\">Vor</em> (“before”), when it means place at rest, takes the dative, here <em lang=\"de\">einem großen Walde</em> (“a great forest”), with the older dative ending <em lang=\"de\">-e</em>.</p>"
   },
   {
@@ -721,7 +721,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-60",
-   "title": "Mit with the dative",
+   "title": "<em lang=\"de\">Mit</em> with the dative",
    "body": "<p><em lang=\"de\">mit seiner Frau und seinen zwei Kindern</em>: <em lang=\"de\">Mit</em> always takes the dative, here <em lang=\"de\">seiner Frau</em> (“his wife”) and <em lang=\"de\">seinen zwei Kindern</em> (“his two children”), with the dative plural <em lang=\"de\">-n</em>.</p>"
   },
   {
@@ -784,12 +784,12 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-65",
-   "title": "Es for the girl",
+   "title": "<em lang=\"de\">Es</em> for the girl",
    "body": "<p><em lang=\"de\">und es war so arm</em>: <em lang=\"de\">Es</em> agrees with <em lang=\"de\">Mädchen</em>, which is neuter (“and it was so poor”).</p>"
   },
   {
    "id": "prose-66",
-   "title": "Kein … mehr, and darin",
+   "title": "<em lang=\"de\">Kein … mehr</em>, and <em lang=\"de\">darin</em>",
    "body": "<p><em lang=\"de\">dass es kein Kämmerchen mehr hatte, darin zu wohnen</em>: <em lang=\"de\">Kein … mehr</em> means “no longer any.” <em lang=\"de\">Darin zu wohnen</em>, “to live in it,” is an infinitive with <em lang=\"de\">zu</em>, and <em lang=\"de\">darin</em> stands for <em lang=\"de\">in dem</em>.</p>"
   },
   {
@@ -905,12 +905,12 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-74",
-   "title": "Mit and the dative plural",
+   "title": "<em lang=\"de\">Mit</em> and the dative plural",
    "body": "<p><em lang=\"de\">mit anderen Mitteln</em>: <em lang=\"de\">Mitteln</em> (“means”) is dative plural with <em lang=\"de\">-n</em>, after <em lang=\"de\">mit</em>.</p>"
   },
   {
    "id": "prose-75",
-   "title": "Nicht bloß … sondern",
+   "title": "<em lang=\"de\">Nicht bloß … sondern</em>",
    "body": "<p><em lang=\"de\">dass der Krieg nicht bloß ein politischer Akt, sondern ein wahres politisches Instrument ist</em>: <em lang=\"de\">Nicht bloß … sondern</em> means “not merely … but.” After <em lang=\"de\">dass</em>, the verb <em lang=\"de\">ist</em> waits until the end.</p>"
   },
   {
@@ -978,7 +978,7 @@ ARS.decks["lang.ix.de/prose"] = {
   },
   {
    "id": "prose-81",
-   "title": "Sich verstehen auf",
+   "title": "<em lang=\"de\">Sich verstehen auf</em>",
    "body": "<p><em lang=\"de\">sich schlecht auf Weiber verstanden</em>: <em lang=\"de\">Sich auf etwas verstehen</em> means “to understand a thing, to be skilled in it.” <em lang=\"de\">Verstanden</em> is here the simple past plural, and it closes the <em lang=\"de\">dass</em> clause.</p>"
   }
  ]

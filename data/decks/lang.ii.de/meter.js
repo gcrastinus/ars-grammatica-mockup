@@ -8,7 +8,7 @@ ARS.decks["lang.ii.de/meter"] = {
  "panels": [
   {
    "id": "meter-1",
-   "title": "Stress in German Verse",
+   "title": "Stress in German verse",
    "body": "<p><strong>Stress in German verse.</strong> The German word <em lang=\"de\">Liebe</em> (“love”) is stressed on its first syllable, <em lang=\"de\">LIE-be</em>, and <em lang=\"de\">Gestalt</em> (“form”) on its second, <em lang=\"de\">Ge-STALT</em>. German meter, like English, is a pattern of <strong>stressed and unstressed</strong> syllables, and the beat of the line must fall where the word itself is stressed. Martin Opitz, a German poet of the seventeenth century, set out this rule in his <em lang=\"de\">Buch von der deutschen Poeterey</em> (1624), and German poets have followed it since. Most German words stress the first syllable of the stem, so German verse has many trochees.</p>",
    "qp": {
     "id": "q-de-me-meter-1",
@@ -51,7 +51,7 @@ ARS.decks["lang.ii.de/meter"] = {
   },
   {
    "id": "meter-2",
-   "title": "Iambic Lines",
+   "title": "Iambic lines",
    "body": "<p><strong>Iambic lines.</strong> The unrhymed iambic pentameter is the line of German classical drama, of Lessing, Schiller, and Goethe in the eighteenth century. Goethe wrote the dedication of <em lang=\"de\">Faust</em> in rhymed iambic pentameter, in stanzas of eight lines. Its first line is <em lang=\"de\">Ihr naht euch wieder, schwankende Gestalten</em> (“You draw near again, wavering forms”). With its stresses marked, it reads <em lang=\"de\">ihr NAHT euch WIE-der, SCHWAN-ken-DE ge-STAL-ten</em>: five iambs, and the last syllable is an extra unstressed one.</p>",
    "qp": {
     "id": "q-de-me-meter-2",
@@ -94,7 +94,7 @@ ARS.decks["lang.ii.de/meter"] = {
   },
   {
    "id": "meter-3",
-   "title": "Trochaic Lines",
+   "title": "Trochaic lines",
    "body": "<p><strong>Trochaic lines.</strong> Folk song and much of Goethe’s early verse are trochaic, as in <em lang=\"de\">Sah ein Knab ein Röslein stehn</em> (“A boy saw a little rose standing”), from his “Heidenröslein.” With its stresses marked, it reads <em lang=\"de\">SAH ein KNAB ein RÖS-lein STEHN</em>. As in English, the last foot often keeps only its stressed syllable.</p>",
    "qp": {
     "id": "q-de-me-meter-3",
@@ -137,7 +137,7 @@ ARS.decks["lang.ii.de/meter"] = {
   },
   {
    "id": "meter-4",
-   "title": "The Ballad Line and the Folk-song Stanza",
+   "title": "The ballad line and the folk-song stanza",
    "body": "<p><strong>The ballad line and the folk-song stanza.</strong> The German ballad counts its beats and lets one or two unstressed syllables fall between them. The first line of Goethe’s “Erlkönig,” <em lang=\"de\">Wer reitet so spät durch Nacht und Wind?</em> (“Who rides so late through night and wind?”), has four beats: <em lang=\"de\">wer REI-tet so SPÄT durch NACHT und WIND</em>. Heinrich Heine, in the nineteenth century, wrote many of his songs with three beats counted in this free way, in four-line stanzas rhymed <em lang=\"de\">abab</em>.</p>",
    "qp": {
     "id": "q-de-me-meter-4",

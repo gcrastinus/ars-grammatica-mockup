@@ -185,7 +185,7 @@ ARS.decks["lang.iii-indecl.en/parts"] = {
   },
   {
    "id": "parts-6",
-   "title": "Telling the Part by Its Use",
+   "title": "Telling the part by its use",
    "body": "<p>The word “that” is a pronoun in “That pleased him,” where it stands in for a noun; an adjective in “that book,” where it depends on a noun; and a conjunction in “I know that he arrived,” where it joins two clauses. So we do not ask what part of speech “that” always is, but what it is in the sentence before us.</p>\n<p>In the same way, “reading” names a thing in “Reading maketh a full man,” and so it is a noun there, of the kind called a <strong>gerund</strong> (a verb form used as a noun); in “the reading boy” the same form depends on a noun, and so it is a participle.</p>",
    "qp": {
     "id": "q-en-parts-telling",

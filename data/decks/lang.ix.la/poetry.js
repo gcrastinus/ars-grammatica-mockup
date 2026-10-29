@@ -159,7 +159,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-16",
-   "title": "The personal construction with dicitur",
+   "title": "The personal construction with <em lang=\"la\">dicitur</em>",
    "body": "<p><em lang=\"la\">risisse Cupido</em>: <em lang=\"la\">Cupido … dicitur</em>, “Cupid is said,” takes the infinitive <em lang=\"la\">risisse</em>, “to have laughed”: Latin makes the person the subject of <em lang=\"la\">dicitur</em>.</p>"
   },
   {
@@ -290,7 +290,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-27",
-   "title": "Egeo with the ablative",
+   "title": "<em lang=\"la\">Egeo</em> with the ablative",
    "body": "<p><em lang=\"la\">non eget Mauris iaculis neque arcu</em>: <em lang=\"la\">Eget</em>, “needs,” takes the ablative: <em lang=\"la\">Mauris iaculis</em>, Moorish javelins, and <em lang=\"la\">arcu</em>, a bow.</p>"
   },
   {
@@ -305,7 +305,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-30",
-   "title": "Sive … sive",
+   "title": "<em lang=\"la\">Sive … sive</em>",
    "body": "<p><em lang=\"la\">sive per Syrtis iter aestuosas</em>: <em lang=\"la\">Sive … sive</em> gives alternatives: whether through the Syrtes or through the Caucasus. <em lang=\"la\">Syrtis</em> is an accusative plural in <em lang=\"la\">-is</em>, and <em lang=\"la\">aestuosas</em> agrees with it; <em lang=\"la\">iter</em> is the object of <em lang=\"la\">facturus</em>.</p>"
   },
   {
@@ -675,7 +675,7 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-66",
-   "title": "Careo with the ablative",
+   "title": "<em lang=\"la\">Careo</em> with the ablative",
    "body": "<p><em lang=\"la\">mortis terrore carentem</em>: <em lang=\"la\">Carentem</em>, “lacking,” agrees with <em lang=\"la\">animum</em>, and <em lang=\"la\">careo</em> takes the ablative: <em lang=\"la\">terrore</em>. <em lang=\"la\">Mortis</em> depends on <em lang=\"la\">terrore</em>: fear of death.</p>"
   },
   {

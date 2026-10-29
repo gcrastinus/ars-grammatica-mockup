@@ -56,7 +56,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-3",
-   "title": "The pronoun en",
+   "title": "The pronoun <em lang=\"fr\">en</em>",
    "body": "<p><em lang=\"fr\">car chacun pense en être si bien pourvu</em>: <em lang=\"fr\">Car</em>, “for,” gives the reason. <em lang=\"fr\">Pense</em> takes the infinitive <em lang=\"fr\">être</em> directly, since the subject is the same: each thinks himself to be provided. <em lang=\"fr\">En</em> stands for <em lang=\"fr\">de bon sens</em>, so the sense is “provided with it.”</p>"
   },
   {
@@ -187,7 +187,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-14",
-   "title": "Ne … que",
+   "title": "<em lang=\"fr\">Ne … que</em>",
    "body": "<p><em lang=\"fr\">L’homme n’est qu’un roseau</em>: <em lang=\"fr\">Ne … que</em> means “only”: man is only a reed. It limits, and it is not a plain negative.</p>"
   },
   {
@@ -202,7 +202,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-17",
-   "title": "Il faut que with the subjunctive",
+   "title": "<em lang=\"fr\">Il faut que</em> with the subjunctive",
    "body": "<p><em lang=\"fr\">Il ne faut pas que l’univers entier s’arme pour l’écraser</em>: <em lang=\"fr\">Il ne faut pas que</em>, “it is not necessary that,” takes the subjunctive: <em lang=\"fr\">s’arme</em>. <em lang=\"fr\">Pour</em> with the infinitive gives the purpose, and <em lang=\"fr\">l’</em> stands for man.</p>"
   },
   {
@@ -255,7 +255,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-20",
-   "title": "C’est and the address",
+   "title": "<em lang=\"fr\">C’est</em> and the address",
    "body": "<p><em lang=\"fr\">C’est ici un livre de bonne foi, lecteur</em>: <em lang=\"fr\">C’est ici</em>, “this here is,” presents the book. <em lang=\"fr\">Lecteur</em>, without an article, is the person addressed.</p>"
   },
   {
@@ -270,7 +270,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-23",
-   "title": "Nul and ni",
+   "title": "<em lang=\"fr\">Nul</em> and <em lang=\"fr\">ni</em>",
    "body": "<p><em lang=\"fr\">Je n’y ai eu nulle considération de ton service ni de ma gloire</em>: <em lang=\"fr\">Ne … nulle</em>, “no … at all,” is a strong negative, and <em lang=\"fr\">ni</em> continues it: neither your service nor my glory.</p>"
   },
   {
@@ -318,7 +318,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-25",
-   "title": "Naître with être",
+   "title": "<em lang=\"fr\">Naître</em> with <em lang=\"fr\">être</em>",
    "body": "<p><em lang=\"fr\">L’homme est né libre</em>: <em lang=\"fr\">Est né</em> is the passé composé of <em lang=\"fr\">naître</em>, a verb that takes <em lang=\"fr\">être</em>. <em lang=\"fr\">Libre</em> is a predicate adjective, so the sense is “man is born free.”</p>"
   },
   {
@@ -328,12 +328,12 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-27",
-   "title": "Tel as a pronoun",
+   "title": "<em lang=\"fr\">Tel</em> as a pronoun",
    "body": "<p><em lang=\"fr\">Tel se croit le maître des autres</em>: <em lang=\"fr\">Tel</em>, used alone, means “such a one,” “a certain man.” <em lang=\"fr\">Se croit</em>, “believes himself,” takes <em lang=\"fr\">le maître</em> as predicate.</p>"
   },
   {
    "id": "prose-28",
-   "title": "Ne pas laisser de",
+   "title": "<em lang=\"fr\">Ne pas laisser de</em>",
    "body": "<p><em lang=\"fr\">qui ne laisse pas d’être plus esclave qu’eux</em>: The relative <em lang=\"fr\">qui</em> takes up <em lang=\"fr\">tel</em>, though it stands after the verb. <em lang=\"fr\">Ne pas laisser de</em> means “not to fail to,” that is, “still”: he is still more a slave than they.</p>"
   },
   {
@@ -512,12 +512,12 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-41",
-   "title": "C’était with a noun",
+   "title": "<em lang=\"fr\">C’était</em> with a noun",
    "body": "<p><em lang=\"fr\">C’était un vieillard d’environ soixante-quinze ans</em>: With a noun that has an article, French uses <em lang=\"fr\">c’était</em>, not <em lang=\"fr\">il était</em>. <em lang=\"fr\">D’environ</em>, “of about,” gives his age.</p>"
   },
   {
    "id": "prose-42",
-   "title": "Depuis with the imperfect",
+   "title": "<em lang=\"fr\">Depuis</em> with the imperfect",
    "body": "<p><em lang=\"fr\">il occupait le siège de Digne depuis 1806</em>: <em lang=\"fr\">Depuis</em>, “since,” with the imperfect says what had been going on up to that time and was still going on. English uses the pluperfect: he had occupied.</p>"
   },
   {
@@ -575,7 +575,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-46",
-   "title": "Ne … que",
+   "title": "<em lang=\"fr\">Ne … que</em>",
    "body": "<p><em lang=\"fr\">que sur l’utilité commune</em>: <em lang=\"fr\">Ne … que</em> means “only,” so the sense is that social distinctions can be founded only on the common good.</p>"
   },
   {
@@ -623,17 +623,17 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-48",
-   "title": "Il y a … que with the present",
+   "title": "<em lang=\"fr\">Il y a … que</em> with the present",
    "body": "<p><em lang=\"fr\">il y a plus de quarante ans que je dis de la prose</em>: <em lang=\"fr\">Il y a … que</em> with the present tense says how long something has been going on: for forty years I have been speaking. <em lang=\"fr\">De la prose</em> is the partitive.</p>"
   },
   {
    "id": "prose-49",
-   "title": "Sans que with the subjunctive",
+   "title": "<em lang=\"fr\">Sans que</em> with the subjunctive",
    "body": "<p><em lang=\"fr\">sans que j’en susse rien</em>: <em lang=\"fr\">Sans que</em> always takes the subjunctive. <em lang=\"fr\">Susse</em> is the imperfect subjunctive of <em lang=\"fr\">savoir</em>, and <em lang=\"fr\">en</em> stands for the fact.</p>"
   },
   {
    "id": "prose-50",
-   "title": "The superlative with du monde",
+   "title": "The superlative with <em lang=\"fr\">du monde</em>",
    "body": "<p><em lang=\"fr\">je vous suis le plus obligé du monde</em>: <em lang=\"fr\">Le plus obligé du monde</em>, “the most obliged in the world,” is a strong thanks. <em lang=\"fr\">Vous</em> is the indirect object: obliged to you.</p>"
   },
   {
@@ -691,7 +691,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-54",
-   "title": "The relative que",
+   "title": "The relative <em lang=\"fr\">que</em>",
    "body": "<p><em lang=\"fr\">que la raison ne connaît point</em>: <em lang=\"fr\">Que</em> is the object of <em lang=\"fr\">connaît</em>, and it stands for <em lang=\"fr\">raisons</em>. <em lang=\"fr\">Ne … point</em> is a strong negative.</p>"
   },
   {
@@ -807,7 +807,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-62",
-   "title": "The relative que",
+   "title": "The relative <em lang=\"fr\">que</em>",
    "body": "<p><em lang=\"fr\">que le vice rend</em>: <em lang=\"fr\">Que</em> is the object of <em lang=\"fr\">rend</em> and stands for <em lang=\"fr\">hommage</em>. <em lang=\"fr\">Le vice</em> is the subject.</p>"
   },
   {

@@ -51,7 +51,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-2",
-   "title": "En and the passive",
+   "title": "<em lang=\"fr\">En</em> and the passive",
    "body": "<p><em lang=\"fr\">Le dessein en est pris</em>: <em lang=\"fr\">Est pris</em>, “is taken,” is passive. <em lang=\"fr\">En</em>, “of it,” refers to what he is about to say, so the sense is “the plan for it is made.”</p>"
   },
   {
@@ -66,12 +66,12 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-5",
-   "title": "The relative dont",
+   "title": "The relative <em lang=\"fr\">dont</em>",
    "body": "<p><em lang=\"fr\">Dans le doute mortel dont je suis agité</em>: <em lang=\"fr\">Dont</em> stands for <em lang=\"fr\">de</em> with the relative, so the sense is “the mortal doubt by which I am shaken.” <em lang=\"fr\">Je suis agité</em> is passive, and <em lang=\"fr\">de</em> gives the agent.</p>"
   },
   {
    "id": "poetry-6",
-   "title": "Commencer à",
+   "title": "<em lang=\"fr\">Commencer à</em>",
    "body": "<p><em lang=\"fr\">Je commence à rougir de mon oisiveté</em>: <em lang=\"fr\">Commencer</em> takes <em lang=\"fr\">à</em> with the infinitive. <em lang=\"fr\">Rougir de</em>, “to blush for,” takes <em lang=\"fr\">de</em>.</p>"
   },
   {
@@ -192,7 +192,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-15",
-   "title": "The interrogative quel",
+   "title": "The interrogative <em lang=\"fr\">quel</em>",
    "body": "<p><em lang=\"fr\">Quelle est cette langueur\nQui pénètre mon cœur ?</em>: <em lang=\"fr\">Quelle</em> (“what”) agrees with <em lang=\"fr\">langueur</em>, which is feminine. <em lang=\"fr\">Qui</em> is the subject of <em lang=\"fr\">pénètre</em> (“pierces”).</p>"
   },
   {
@@ -318,17 +318,17 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-25",
-   "title": "Ne … que, and inversion",
+   "title": "<em lang=\"fr\">Ne … que</em>, and inversion",
    "body": "<p><em lang=\"fr\">N’ai-je donc tant vécu que pour cette infamie ?</em>: <em lang=\"fr\">Ne … que</em> means “only”: have I lived so long only for this disgrace? The subject <em lang=\"fr\">je</em> follows the verb because it is a question.</p>"
   },
   {
    "id": "poetry-26",
-   "title": "Être with a participle",
+   "title": "<em lang=\"fr\">Être</em> with a participle",
    "body": "<p><em lang=\"fr\">Et ne suis-je blanchi dans les travaux guerriers</em>: <em lang=\"fr\">Suis-je blanchi</em>, “have I grown white,” uses <em lang=\"fr\">être</em> with the participle of <em lang=\"fr\">blanchir</em>, describing a state.</p>"
   },
   {
    "id": "poetry-27",
-   "title": "The second ne … que, and an infinitive after voir",
+   "title": "The second <em lang=\"fr\">ne … que</em>, and an infinitive after <em lang=\"fr\">voir</em>",
    "body": "<p><em lang=\"fr\">Que pour voir en un jour flétrir tant de lauriers ?</em>: <em lang=\"fr\">Que pour voir</em> completes <em lang=\"fr\">ne … que</em> from the line above. After <em lang=\"fr\">voir</em> the infinitive <em lang=\"fr\">flétrir</em> comes before its subject <em lang=\"fr\">tant de lauriers</em>: to see so many laurels wither.</p>"
   },
   {
@@ -381,7 +381,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-30",
-   "title": "Tout autre que",
+   "title": "<em lang=\"fr\">Tout autre que</em>",
    "body": "<p><em lang=\"fr\">Tout autre que mon père</em>: <em lang=\"fr\">Tout autre que</em>, “anyone other than,” is the subject, so the sense is “anyone other than my father.”</p>"
   },
   {
@@ -570,7 +570,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-45",
-   "title": "Sentir with an infinitive",
+   "title": "<em lang=\"fr\">Sentir</em> with an infinitive",
    "body": "<p><em lang=\"fr\">Je sentis tout mon corps et transir et brûler</em>: After <em lang=\"fr\">sentis</em> the infinitives <em lang=\"fr\">transir</em> and <em lang=\"fr\">brûler</em> have <em lang=\"fr\">tout mon corps</em> as their subject: I felt my whole body both freeze and burn. <em lang=\"fr\">Et … et</em> means “both … and.”</p>"
   },
   {
@@ -628,12 +628,12 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-49",
-   "title": "Ni … ni",
+   "title": "<em lang=\"fr\">Ni … ni</em>",
    "body": "<p><em lang=\"fr\">Et qui n’est, chaque fois, ni tout à fait la même\nNi tout à fait une autre</em>: <em lang=\"fr\">Ne … ni … ni</em> denies both, so the sense is that she is neither quite the same nor quite another.</p>"
   },
   {
    "id": "poetry-50",
-   "title": "Two more verbs on qui",
+   "title": "Two more verbs on <em lang=\"fr\">qui</em>",
    "body": "<p><em lang=\"fr\">et m’aime et me comprend</em>: <em lang=\"fr\">M’aime</em> (“loves me”) and <em lang=\"fr\">me comprend</em> (“understands me”) still have <em lang=\"fr\">qui</em> as their subject, and the object pronoun stands before each verb.</p>"
   }
  ]

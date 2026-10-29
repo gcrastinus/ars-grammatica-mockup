@@ -71,7 +71,7 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-6",
-   "title": "Two causes joined by et … et",
+   "title": "Two causes joined by <em lang=\"la\">et … et</em>",
    "body": "<p><em lang=\"la\">et vetusti iure hospitii et quia pacis reddendaeque Helenae semper auctores fuerunt</em>: The first cause is a phrase in the ablative, “by the right of old guest-friendship”; the second is a clause with <em lang=\"la\">quia</em> and the indicative, “because they had always been advocates of peace and of giving Helen back.” <em lang=\"la\">Reddendae</em> is a gerundive agreeing with <em lang=\"la\">Helenae</em>, and both genitives depend on <em lang=\"la\">auctores</em>.</p>"
   },
   {
@@ -134,7 +134,7 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-11",
-   "title": "The ablative with abutor",
+   "title": "The ablative with <em lang=\"la\">abutor</em>",
    "body": "<p><em lang=\"la\">patientia nostra</em>: <em lang=\"la\">Abutor</em>, like <em lang=\"la\">utor</em>, governs the ablative, so the thing abused, <em lang=\"la\">patientia nostra</em>, is in the ablative.</p>"
   },
   {
@@ -207,7 +207,7 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-18",
-   "title": "Three verbs joined by vel … vel … vel",
+   "title": "Three verbs joined by <em lang=\"la\">vel … vel … vel</em>",
    "body": "<p><em lang=\"la\">ex urbe vel eiecimus vel emisimus vel ipsum egredientem verbis prosecuti sumus</em>: <em lang=\"la\">Vel … vel … vel</em> offers three alternatives: we drove him out, or let him go, or saw him off with words as he went of his own accord. <em lang=\"la\">Prosecuti sumus</em> is the perfect of a deponent verb, active in meaning, and <em lang=\"la\">ipsum egredientem</em> is its object.</p>"
   },
   {
@@ -338,7 +338,7 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-29",
-   "title": "Two genitives joined by et … et",
+   "title": "Two genitives joined by <em lang=\"la\">et … et</em>",
    "body": "<p><em lang=\"la\">consilium et profectionis et reversionis meae</em>: <em lang=\"la\">Consilium</em> is the object of <em lang=\"la\">exponam</em>, and the two genitives depend on it: the plan both of my departure and of my return.</p>"
   },
   {
@@ -454,7 +454,7 @@ ARS.decks["lang.ix.la/prose"] = {
   },
   {
    "id": "prose-37",
-   "title": "A cum clause with a reported statement",
+   "title": "A <em lang=\"la\">cum</em> clause with a reported statement",
    "body": "<p><em lang=\"la\">ubi cum de aliis rebus adsentiri se veteribus Gabinis diceret</em>: <em lang=\"la\">Ubi</em>, “there,” takes up the councils. <em lang=\"la\">Cum</em> with the imperfect subjunctive <em lang=\"la\">diceret</em> gives the circumstance: while he said. After <em lang=\"la\">diceret</em>, <em lang=\"la\">se adsentiri</em> is an accusative and infinitive, “that he agreed,” and <em lang=\"la\">veteribus Gabinis</em> is dative with <em lang=\"la\">adsentiri</em>.</p>"
   },
   {
