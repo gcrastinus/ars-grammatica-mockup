@@ -385,6 +385,10 @@
     return out;
   }
 
+  /* Forms left out of the parse items because Allen and Greenough also allows a reading the table
+     does not give, which would then be offered as a wrong answer: fīlī is also the genitive singular
+     (§49 b), and cīvī is also an ablative singular (§76). */
+  const NO_PARSE = { 'fīlius': ['fīlī'], 'cīvis': ['cīvī'] };
   function nounParseItem(entry, form, analyses, idPrefix) {
     const labels = analyses.map(nounLabel);
     const valid = {};
@@ -480,6 +484,7 @@
       const entry = rand(LAT_NOUNS);
       const map = groupForms(nounSlots(entry));
       const form = rand(Array.from(map.keys()));
+      if (NO_PARSE[entry.nom] && NO_PARSE[entry.nom].indexOf(form) >= 0) return null;
       const item = nounParseItem(entry, form, map.get(form), idPrefix);
       if (!item) return null;
       item._key = 'n:' + entry.nom + ':' + form;
@@ -835,19 +840,19 @@
     { w: 'magister', syll: ['ma', 'gis', 'ter'], div: 'ma-gis-ter', longPen: true, acc: 1, why: 'The penult ' + em('gis') + ' is long by position, since its vowel stands before two consonants.' },
     { w: 'porta', syll: ['por', 'ta'], div: 'por-ta', longPen: null, acc: 0, why: 'The two consonants are split, giving two syllables, and the first is accented.' },
     { w: 'pater', syll: ['pa', 'ter'], div: 'pa-ter', longPen: null, acc: 0, why: 'One consonant between vowels goes with the second vowel. There are two syllables, and the first is accented.' },
-    { w: 'agricola', syll: ['a', 'gri', 'co', 'la'], div: 'a-gri-co-la', longPen: false, acc: 1, why: 'There are four syllables. The penult ' + em('co') + ' is short, so the accent falls on the antepenult. The mute and liquid ' + em('gr') + ' stay with the following vowel.' },
+    { w: 'agricola', syll: ['a', 'gri', 'co', 'la'], div: 'a-gri-co-la', alt: 'ag-ri-co-la', longPen: false, acc: 1, why: 'There are four syllables. The penult ' + em('co') + ' is short, so the accent falls on the antepenult. The mute and liquid ' + em('gr') + ' stay with the following vowel.' },
     { w: 'cōnsul', syll: ['cōn', 'sul'], div: 'cōn-sul', longPen: null, acc: 0, why: 'The word has two syllables, so the first is accented. The ' + em('ns') + ' also makes that syllable long by position.' },
     { w: 'fortitūdō', syll: ['for', 'ti', 'tū', 'dō'], div: 'for-ti-tū-dō', longPen: true, acc: 2, why: 'There are four syllables, and the penult ' + em('tū') + ' is long by nature, so the accent falls on it.' },
     { w: 'hominēs', syll: ['ho', 'mi', 'nēs'], div: 'ho-mi-nēs', longPen: false, acc: 0, why: 'The penult ' + em('mi') + ' is short, so the accent falls on the antepenult. This is the nominative plural of ' + em('homō') + '.' },
     { w: 'ōrātor', syll: ['ō', 'rā', 'tor'], div: 'ō-rā-tor', longPen: true, acc: 1, why: 'The penult ' + em('rā') + ' is long by nature, so the accent falls on it.' },
     { w: 'aequitās', syll: ['ae', 'qui', 'tās'], div: 'ae-qui-tās', longPen: false, acc: 0, why: 'The penult ' + em('qui') + ' is short, so the accent falls on the antepenult. The long ultima does not take the accent.' },
     { w: 'officium', syll: ['of', 'fi', 'ci', 'um'], div: 'of-fi-ci-um', longPen: false, acc: 1, why: 'The penult ' + em('ci') + ' is short, because a vowel before a vowel is short, and the accent falls on the antepenult.' },
-    { w: 'tenebrae', syll: ['te', 'ne', 'brae'], div: 'te-ne-brae', longPen: false, acc: 0, why: 'The mute and liquid ' + em('br') + ' stay with the following vowel. The penult ' + em('ne') + ' is short, so the accent falls on the antepenult.' },
+    { w: 'tenebrae', syll: ['te', 'ne', 'brae'], div: 'te-ne-brae', alt: 'te-neb-rae', longPen: false, acc: 0, why: 'The mute and liquid ' + em('br') + ' stay with the following vowel. The penult ' + em('ne') + ' is short, so the accent falls on the antepenult.' },
     { w: 'rosaque', syll: ['ro', 'sa', 'que'], div: 'ro-sa-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last, even though that syllable is short. ' + em('Rosa') + ' is accented on ' + em('ro') + '; ' + em('rosaque') + ' is accented on ' + em('sa') + '.' },
     { w: 'fīlia', syll: ['fī', 'li', 'a'], div: 'fī-li-a', longPen: false, acc: 0, why: 'A vowel before a vowel is short, so the ' + em('i') + ' of the penult is short and the accent falls on the antepenult.' },
     { w: 'videō', syll: ['vi', 'de', 'ō'], div: 'vi-de-ō', longPen: false, acc: 0, why: 'The penult ' + em('de') + ' is short, because a vowel before a vowel is short, and the accent falls on the antepenult.' },
     { w: 'portaque', syll: ['por', 'ta', 'que'], div: 'por-ta-que', longPen: false, acc: 1, why: 'The enclitic ' + em('-que') + ' pulls the accent onto the syllable that stood last: ' + em('por-ta-que') + '.' },
-    { w: 'patris', syll: ['pa', 'tris'], div: 'pa-tris', longPen: null, acc: 0, why: 'The mute and liquid ' + em('tr') + ' may go with the following vowel, giving two syllables, and the first is accented. The ' + em('a') + ' need not be long by position.' }
+    { w: 'patris', syll: ['pa', 'tris'], div: 'pa-tris', alt: 'pat-ris', longPen: null, acc: 0, why: 'The mute and liquid ' + em('tr') + ' may go with the following vowel, giving two syllables, and the first is accented. The ' + em('a') + ' need not be long by position.' }
   ];
 
   const SYLL_RULES = [
@@ -951,9 +956,7 @@
       const it = take(w => w.longPen !== null);
       if (!it) { stressN += 1; continue; }
       const answer = it.longPen ? 0 : 1;
-      const options = it.longPen
-        ? ['Long', 'Short, so the accent falls back']
-        : ['Long, by nature or by position', 'Short'];
+      const options = ['Long', 'Short'];
       push({
         id: freshId(idPrefix), deck: idPrefix, section: 'ii', type: 'mc',
         prompt: 'Is the penult of ' + em(it.w) + ' long or short?',
@@ -968,6 +971,7 @@
         id: freshId(idPrefix), deck: idPrefix, section: 'ii', type: 'divide', macrons: false,
         prompt: 'Divide ' + em(it.w) + ' into syllables, with a hyphen between the syllables.',
         answer: it.div,
+        accept: it.alt ? [it.div, it.alt] : [it.div],
         explain: 'The division is ' + em(it.div) + '. ' + it.why
       });
     }
