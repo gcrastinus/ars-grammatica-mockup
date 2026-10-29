@@ -306,7 +306,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
           leftRight: lr.right <= br.left, rightEdge: Math.abs(br.right - rr.right) < 1.5, width: br.width, widthEm: br.width / px(bs.fontSize), h: br.height, f: px(bs.fontSize),
           tag: btn.tagName, popup: btn.getAttribute('aria-haspopup'), expanded: btn.getAttribute('aria-expanded'), labelled: btn.getAttribute('aria-labelledby') };
       }),
-      after: [col.nextElementSibling.id, col.nextElementSibling.nextElementSibling.id],
+      after: [col.nextElementSibling.className, col.nextElementSibling.nextElementSibling.id, col.nextElementSibling.nextElementSibling.nextElementSibling.id],
       native: document.querySelectorAll('#scr-home select').length
     };
   })()`);
@@ -318,7 +318,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('layout: each menu on the right, at the right edge, about 11.5em wide', lay.items.every(x => x.leftRight && x.rightEdge && x.widthEm > 11 && x.widthEm < 12), JSON.stringify(lay.items.map(x => [x.leftRight, x.rightEdge, x.widthEm.toFixed(2)])));
   check('menus: at least 44 px high and smaller than the old 52 px drop-downs, with type of at least 18 px', lay.items.every(x => x.h >= 44 && x.h <= 46 && x.f >= 18), JSON.stringify(lay.items.map(x => [x.h, x.f])));
   check('menus: buttons that open lists, with no native select on the page', lay.native === 0 && lay.items.every(x => x.tag === 'BUTTON' && x.popup === 'listbox' && x.expanded === 'false' && /-label /.test(x.labelled)));
-  check('layout: the level\'s description and the notes follow the rows', lay.after[0] === 'level-desc' && lay.after[1] === 'lang-all-note', lay.after.join());
+  check('layout: a closing rule, then the level\'s description and the notes, follow the rows', /choice-rule-end/.test(lay.after[0]) && lay.after[1] === 'level-desc' && lay.after[2] === 'lang-all-note', lay.after.join());
   check('layout: the level\'s description is one sentence', await ev(`(t => /^[^.]*\\.$/.test(t) && t.startsWith('The essentials of grammar'))(document.getElementById('level-desc').textContent)`));
   await ev(`ARS.CL.setLevel('proficient'); window.scrollTo(0, 0); true`);
   check('layout: the Proficient description names the common errors', await ev(`/the rest of construction, the common errors, the tropes/.test(document.getElementById('level-desc').textContent)`));
@@ -438,11 +438,11 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
     const d = document.getElementById('levels-help'), sm = d.querySelector('summary');
     const prev = [...document.querySelectorAll('#scr-home > *')], i = prev.indexOf(d);
     return { tag:d.tagName, open:d.open, title:sm.textContent, after:prev.indexOf(document.getElementById('level-desc')) < i && prev.indexOf(document.querySelector('.choice-rows')) < i,
-      fonts:[...d.querySelectorAll('.levels-help-body p')].map(p => parseFloat(getComputedStyle(p).fontSize)), link:(d.querySelector('a[href="https://studiuminstitute.org/trivium/"]') || {}).textContent || '' };
+      fonts:[...d.querySelectorAll('.levels-help-body p')].map(p => parseFloat(getComputedStyle(p).fontSize)), link:(document.querySelector('.intro-preface a[href="https://studiuminstitute.org/trivium/"]') || {}).textContent || '' };
   })()`);
   check('box: closed by default, titled "Using the Guided Path," below the rows and notes', box.tag === 'DETAILS' && !box.open && box.title === 'Using the Guided Path' && box.after, JSON.stringify(box));
   check('box: no paragraph on the levels, no quiz link, and nothing the menus already say', await ev(`(t => !/The levels of the course|A level chooses|printable quiz|opens the exercises in the order of the sections|exercises of every language you have chosen are required/.test(t) && /Your record is kept at every level\. But a higher level can open further stages/.test(t) && /Recitation Tablet/.test(t))(document.getElementById('levels-help').textContent)`));
-  check('box: body text of at least 17 px, and the link to Preface to the Trivium', box.fonts.length >= 6 && box.fonts.every(f => f >= 17) && box.link === 'Preface to the Trivium', JSON.stringify(box.fonts));
+  check('box: body text of at least 17 px; the link to Preface to the Trivium stands in the introduction', box.fonts.length >= 6 && box.fonts.every(f => f >= 17) && box.link === 'Preface to the Trivium', JSON.stringify(box.fonts));
   await ev(`document.querySelector('#levels-help summary').focus(); true`);
   await key('Enter');
   check('box: opens from the keyboard, with a focus outline of at least 3 px', await ev(`document.getElementById('levels-help').open && parseFloat(getComputedStyle(document.activeElement).outlineWidth) >= 3`));
