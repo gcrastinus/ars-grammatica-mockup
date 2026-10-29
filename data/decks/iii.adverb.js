@@ -25,7 +25,7 @@ ARS.decks['iii.adverb'] = {
     `Adverbs derived from adjectives of quality can be compared, as the adjectives are.`,
     `English compares most adverbs with “more” and “most”; a few short adverbs take “-er” and “-est”; and some are irregular.`,
     `In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>; adverbs from irregularly compared adjectives follow their adjectives.`,
-    `Adverbs that signify place, time, or negation cannot be compared, because what they signify does not admit more and less.`,
+    `Adverbs such as “here,” “now,” and “not” cannot be compared, because what they signify does not admit more and less; adverbs of time that do admit more and less, such as “soon,” are compared.`,
     `The adverb has <strong>figure</strong>: it is simple or compound.`,
     `Many Latin adverbs are compounds of a preposition and a case, and English has many compound adverbs, some written as one word and some as several.`,
     `A group of words that does the work of an adverb is called an <strong>adverbial phrase</strong>, and whole phrases and clauses can do the work of an adverb.`,
@@ -78,7 +78,7 @@ ARS.decks['iii.adverb'] = {
 { id: 'comparison',
   title: 'The comparison of adverbs',
   body: `<p>Adverbs derived from adjectives of quality can be compared, as the adjectives are. English compares most adverbs with “more” and “most”: “happily,” “more happily,” “most happily.” A few short adverbs take “-er” and “-est”: “fast,” “faster,” “fastest”; “soon,” “sooner,” “soonest.” And “badly,” “worse,” “worst” are irregular.</p>
-<p>In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>: <i>rēctē</i>, <i>rēctius</i>, <i>rēctissimē</i> (“rightly,” “more rightly,” “most rightly”); <i>ācriter</i>, <i>ācrius</i>, <i>ācerrimē</i> (“sharply,” “more sharply,” “most sharply”). As we have seen with the adjectives, irregular comparison takes its forms from different words, and the adverbs follow: <i>paulum</i>, <i>minus</i>, <i>minimē</i> (“a little,” “less,” “least”). In both languages, adverbs that signify place, time, or negation, such as “here,” “now,” and “not,” cannot be compared, for the same reason that some adjectives cannot: what they signify does not admit more and less.</p>`,
+<p>In Latin the comparative adverb has the form of the neuter singular of the comparative adjective, and the superlative ends in <i>-ē</i>: <i>rēctē</i>, <i>rēctius</i>, <i>rēctissimē</i> (“rightly,” “more rightly,” “most rightly”); <i>ācriter</i>, <i>ācrius</i>, <i>ācerrimē</i> (“sharply,” “more sharply,” “most sharply”). As we have seen with the adjectives, irregular comparison takes its forms from different words, and the adverbs follow: <i>paulum</i>, <i>minus</i>, <i>minimē</i> (“a little,” “less,” “least”). In both languages, adverbs such as “here,” “now,” and “not” cannot be compared, for the same reason that some adjectives cannot: what they signify does not admit more and less. Adverbs of time that do admit more and less are compared, as “soon,” “sooner,” “soonest,” and Latin <i>saepe</i>, <i>saepius</i>, <i>saepissimē</i> (“often”).</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 218, in paraphrase.` },
 
 { id: 'figure',

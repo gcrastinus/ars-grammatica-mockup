@@ -29,7 +29,7 @@ ARS.decks['viii.supposition'] = {
     `A term has <strong>material supposition</strong> when it stands for itself as a word, that is, for the sound or the written mark (“Dog is a noun”).`,
     `A term in material supposition is the word that is spoken about, and names of the second imposition, such as “noun,” are used to speak about such words.`,
     `Modern writing marks material supposition with quotation marks or italics; the medieval logicians had no such marks and distinguished it by the predicate, since only a word can be a noun or have letters.`,
-    `Ockham gives material supposition as the first of his three principal kinds, whereas Peter of Spain does not list it separately.`,
+    `Ockham counts material supposition among his three principal kinds, with personal and simple supposition, whereas Peter of Spain does not list it separately.`,
     `A term has <strong>simple supposition</strong> when it stands for the common nature or concept that it signifies, not for any individual (“Dog is a species of animal”).`,
     `The logicians disagreed about what a term in simple supposition stands for: Peter of Spain and William of Sherwood said the common nature, and Ockham, who denied common natures outside the mind, said the concept in the mind.`,
     `All agreed that in “Man is a species” the term “man” does not stand for any individual man.`,
@@ -115,7 +115,7 @@ ARS.decks['viii.supposition'] = {
 { id: 'material',
   title: 'Material supposition',
   body: `<p>When a teacher says “Dog is a noun,” no one thinks that some dog is a noun; the sentence is about the word. A term has <strong>material supposition</strong> when it stands for itself as a word, that is, for the sound or the written mark. In “Dog is a noun,” “dog” stands for the word “dog,” not for any dog; in “Dog has three letters,” it stands for the written word. As we have seen, names of the second imposition, such as “noun,” are used to speak about words, and a term in material supposition is the word that is spoken about.</p>
-<p>Modern writing marks material supposition with quotation marks or italics: “‘Dog’ is a noun,” or “<i>Dog</i> is a noun.” The medieval logicians had no such marks, and they distinguished material supposition by the predicate: only a word can be a noun or have three letters. William of Ockham, an English logician of the fourteenth century, gives material supposition as the first of his three principal kinds (<i>Summa logicae</i> I.64); Peter of Spain does not list it separately.</p>`,
+<p>Modern writing marks material supposition with quotation marks or italics: “‘Dog’ is a noun,” or “<i>Dog</i> is a noun.” The medieval logicians had no such marks, and they distinguished material supposition by the predicate: only a word can be a noun or have three letters. William of Ockham, an English logician of the fourteenth century, counts material supposition among his three principal kinds, with personal and simple supposition (<i>Summa logicae</i> I.64); Peter of Spain does not list it separately.</p>`,
   src: `Ockham, <i>Summa logicae</i> I.64 (Loux for reference); William of Sherwood, <i>Introductiones</i> V; both in paraphrase.` },
 
 { id: 'simple',

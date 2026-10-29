@@ -423,7 +423,7 @@ ARS.decks['xi.modern'] = {
 
 { id: 'minimalism',
   title: 'The minimalist program',
-  body: `<p>Every phrase, however long, can be built by joining two pieces at a time. Since the 1990s Chomsky has pursued what he calls the <strong>minimalist program</strong>, which seeks to reduce universal grammar to as few operations as possible. Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one: “the” and “door” into “the door,” and “opens” and “the door” into “the door opens.” Repeated Merge builds every structure of every language.</p>
+  body: `<p>Every phrase, however long, can be built by joining two pieces at a time. Since the 1990s Chomsky has pursued what he calls the <strong>minimalist program</strong>, which seeks to reduce universal grammar to as few operations as possible. Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one: “the” and “door” into “the door,” and “opens” and “the door” into “opens the door.” Repeated Merge builds every structure of every language.</p>
 <p>The idea that a sentence is built by joining two elements at a time recalls Thomas of Erfurt’s doctrine, which we studied in Section V, that every construction joins two words, one depending and one terminating, and that a sentence contains as many constructions as it has dependences. The modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.</p>`,
   src: `Chomsky, <i>The Minimalist Program</i> (1995), in paraphrase.` },
 

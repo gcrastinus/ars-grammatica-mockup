@@ -401,8 +401,8 @@ ARS.decks["lang.ix.en/poetry"] = {
   },
   {
    "id": "poetry-34",
-   "title": "Apposition",
-   "body": "<p>“The hand that mocked them, and the heart that fed”: These nouns stand outside the clause and name what survived: the sculptor’s hand that copied the passions and the king’s heart that fed them.</p>"
+   "title": "The objects of “survive”",
+   "body": "<p>“The hand that mocked them, and the heart that fed”: “Survive” here means “outlive,” and “the hand” and “the heart” are its objects. The passions are stamped on the stone and outlive the sculptor’s hand that copied (“mocked”) them and the king’s heart that fed them.</p>"
   },
   {
    "id": "poetry-35",

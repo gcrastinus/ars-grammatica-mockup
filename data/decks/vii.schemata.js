@@ -115,7 +115,7 @@ ARS.decks['vii.schemata'] = {
 { id: 'paromoeon',
   title: 'Paromoeon and schesis onomaton',
   body: `<p>Shakespeare’s Ariel sings, “Full fathom five thy father lies” (<i>The Tempest</i> I.2), and four of its six words begin with the same sound. Beginning several words with the same letter or sound is called <strong>paromoeon</strong> (Greek, “made alike”); in English it is usually called <strong>alliteration</strong>. Donatus’s example (he calls the figure <i>parhomoeon</i>) is a line of Ennius, addressed to the Sabine king Titus Tatius, in which every word begins with <i>t</i>: <i>o Tite tute Tati tibi tanta tyranne tulisti</i>.</p>
-<p>In “sun and moon, wind and wave, rock and tree,” nouns are set side by side without any verb. A series of nouns, often each with its adjective, set side by side without verbs or conjunctions is called <strong>schesis onomaton</strong> (Greek, “a holding of nouns”). Both figures arrange words for their sound or their accumulation rather than for any new construction, and both are common in poetry.</p>`,
+<p>In “the silent wood, the cold stream, the bare hill,” nouns, each with its adjective, are set side by side without any verb or conjunction. A series of nouns, often each with its adjective, set side by side without verbs or conjunctions is called <strong>schesis onomaton</strong> (Greek, “a holding of nouns”). Both figures arrange words for their sound or their accumulation rather than for any new construction, and both are common in poetry.</p>`,
   src: `Ennius, <i>Annales</i> 104 Skutsch (checked against the Tesserae text), as quoted by Donatus, <i>Ars maior</i> III.5; Shakespeare, <i>The Tempest</i> I.2.` },
 
 { id: 'endings',

@@ -124,7 +124,7 @@ ARS.decks['iv.etymology'] = {
 { id: 'layers',
   title: 'The layers of English vocabulary',
   body: `<p>English vocabulary has several layers, which etymology distinguishes. The core of the language, the most common words, is Germanic, inherited from Old English: “bread,” “wife,” “sleep,” “small,” “and,” “the.” After the Norman Conquest in 1066, English borrowed thousands of words from French, especially words of government, law, religion, and cooking: “court,” “judge,” “prayer,” “beef.” From the Renaissance onward it borrowed many words directly from Latin and Greek, especially learned and scientific words: “education,” “formula,” “spectrum.”</p>
-<p>Sometimes English has borrowed the same Latin word twice, once through French and once directly, and the two have different forms and meanings. Such pairs are called <strong>doublets</strong>: “chance” (through French) and “cadence” (from Latin), both from <i>cadentia</i>; “sure” and “secure,” both from <i>sēcūrus</i>; “frail” and “fragile,” both from <i>fragilis</i>.</p>`,
+<p>Sometimes English has borrowed the same Latin word twice, once through French and once directly, and the two have different forms and meanings. Such pairs are called <strong>doublets</strong>: “sever” (through French) and “separate” (from Latin), both from <i>sēparāre</i>; “sure” and “secure,” both from <i>sēcūrus</i>; “frail” and “fragile,” both from <i>fragilis</i>.</p>`,
   src: `Standard histories of English (e.g., Baugh and Cable), in paraphrase.` },
 
 { id: 'cautions',
