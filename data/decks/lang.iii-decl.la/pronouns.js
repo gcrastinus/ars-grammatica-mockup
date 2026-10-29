@@ -102,7 +102,7 @@ ARS.decks["lang.iii-decl.la/pronouns"] = {
      {
       "prompt": "What is the accusative singular masculine of <em lang=\"la\">īdem</em>?",
       "options": [
-       "<em lang=\"la\">eumdem</em>",
+       "<em lang=\"la\">eōsdem</em>",
        "<em lang=\"la\">īdem</em>",
        "<em lang=\"la\">eundem</em>",
        "<em lang=\"la\">eōdem</em>"

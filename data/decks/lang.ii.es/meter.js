@@ -130,7 +130,7 @@ ARS.decks["lang.ii.es/meter"] = {
        "The Latin hexameter"
       ],
       "answer": 0,
-      "explain": "The <i lang=\"es\">octosílabo</i> of the ballads."
+      "explain": "The ballads are written in the <i lang=\"es\">octosílabo</i>, the line of eight syllables."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.ii.es/meter"] = {
        "Twelve"
       ],
       "answer": 0,
-      "explain": "Fourteen lines of eleven syllables."
+      "explain": "A sonnet has fourteen lines of eleven syllables."
      },
      {
       "prompt": "How is the <i lang=\"es\">alejandrino</i> divided?",
@@ -173,7 +173,7 @@ ARS.decks["lang.ii.es/meter"] = {
        "It is not divided"
       ],
       "answer": 0,
-      "explain": "Fourteen syllables, seven and seven."
+      "explain": "The <i lang=\"es\">alejandrino</i> has fourteen syllables, in two halves of seven."
      }
     ]
    }

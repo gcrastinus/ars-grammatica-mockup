@@ -226,7 +226,7 @@ ARS.exercises['v.review'] = {
     "“The game was postponed because the field was flooded.”"
    ],
    "answer": 3,
-   "explain": "A complex sentence has a main clause and at least one subordinate clause; here “because the field was flooded” depends on the main clause. The first distractor joins two independent clauses, so it is compound; the others are simple sentences."
+   "explain": "A complex sentence has a main clause and at least one subordinate clause; here “because the field was flooded” depends on the main clause. “The game was postponed, and the field was badly flooded” joins two independent clauses, so it is compound; the other two are simple sentences."
   },
   {
    "id": "rv-A11",
@@ -449,7 +449,8 @@ ARS.exercises['v.review'] = {
    "prompt": "Join the two sentences into one complex sentence with “because,” keeping their words: “The bakery was shut. We bought no bread.”",
    "accept": [
     "We bought no bread because the bakery was shut.",
-    "Because the bakery was shut, we bought no bread."
+    "Because the bakery was shut, we bought no bread.",
+    "Because the bakery was shut we bought no bread."
    ],
    "explain": "“Because the bakery was shut” becomes an adverb clause that depends on the main clause “we bought no bread.”"
   },
@@ -579,7 +580,8 @@ ARS.exercises['v.review'] = {
    "type": "transform",
    "prompt": "The writer means that she eats fish on Fridays and on no other day. Rewrite the sentence so that “only” stands beside the words it determines: “She only eats fish on Fridays.”",
    "accept": [
-    "She eats fish only on Fridays."
+    "She eats fish only on Fridays.",
+    "She eats fish on Fridays only."
    ],
    "explain": "“Only” is meant to determine “on Fridays,” so it should stand beside that phrase. Before “eats” it seems to determine the verb."
   },

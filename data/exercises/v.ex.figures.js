@@ -140,18 +140,18 @@ ARS.exercises['v.ex.figures'] = {
    "options": [
     "Zeugma",
     "<i>Eclipsis</i>",
-    "Synthesis",
+    "Synesis",
     "Antiptosis"
    ],
    "answer": 1,
-   "explain": "Donatus calls it <i>eclipsis</i>, the medieval spelling of ellipsis, as in Virgil’s <i>haec secum</i>, where “she said” is lacking."
+   "explain": "Donatus calls it <i>eclipsis</i>, the Latin form of the Greek name, as in Virgil’s <i>haec secum</i>, where “she said” is lacking."
   },
   {
    "id": "fg-A07",
    "set": "A",
    "deck": "v.figures",
    "type": "mc",
-   "prompt": "Which English grammarian treated the figures of construction in the last book of his <i>De emendata structura Latini sermonis</i> (1524)?",
+   "prompt": "Which grammarian treated the figures of construction in the last book of his <i>De emendata structura Latini sermonis</i> (1524)?",
    "options": [
     "Donatus, in the <i>Ars maior</i>",
     "Priscian, in his last book",
@@ -229,7 +229,8 @@ ARS.exercises['v.ex.figures'] = {
    "type": "transform",
    "prompt": "Supply the omitted word: “My brother likes tea, and my sister coffee.”",
    "accept": [
-    "My brother likes tea, and my sister likes coffee."
+    "My brother likes tea, and my sister likes coffee.",
+    "My brother likes tea and my sister likes coffee."
    ],
    "explain": "“Likes” serves the second clause as well, and it can be supplied from the first: “my sister likes coffee.”"
   },
@@ -288,7 +289,7 @@ ARS.exercises['v.ex.figures'] = {
     "Because it always occurs in verse",
     "Because its nouns disagree in case",
     "Because it omits a verb",
-    "Grammar shows only equal nouns"
+    "Because the grammar shows two coordinate nouns"
    ],
    "answer": 3,
    "explain": "The grammar presents two coordinate nouns joined by “and”; only the sense shows that one of them really describes the other, as in “bowls and gold” for “golden bowls.”"
@@ -407,10 +408,10 @@ ARS.exercises['v.ex.figures'] = {
     "Syllepsis",
     "Zeugma",
     "Antiptosis",
-    "Synthesis"
+    "Synesis"
    ],
    "answer": 3,
-   "explain": "Agreement by the sense, which later grammarians name synthesis, as in “The crew are asleep.”"
+   "explain": "Agreement by the sense, which later grammarians name synesis, as in “The crew are asleep.”"
   },
   {
    "id": "fg-C07",

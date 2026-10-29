@@ -31,7 +31,7 @@ ARS.exercises["lang.vi.es/errors-ex"] = {
    "deck": "lang.vi.es/errors-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "Over what range do the Academy's normative judgments run?",
+   "prompt": "Over what range do the Academy’s normative judgments run?",
    "explain": "The judgments admit a wide gradation, and so a form may be censured as an error or merely recommended against.",
    "options": [
     "From the oldest forms of Spanish to the newest",

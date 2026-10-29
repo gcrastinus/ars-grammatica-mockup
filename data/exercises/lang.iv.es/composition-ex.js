@@ -32,7 +32,7 @@ ARS.exercises["lang.iv.es/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which of these words contains two roots?",
-   "explain": "It contains a verb and a noun; the others have one root.",
+   "explain": "<i lang=\"es\">Sacacorchos</i> contains a verb and a noun; the others have one root.",
    "options": [
     "<i lang=\"es\">abrevadero</i>",
     "<i lang=\"es\">castrista</i>",

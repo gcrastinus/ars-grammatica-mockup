@@ -175,7 +175,7 @@ ARS.exercises["lang.vi.es/vices-ex"] = {
    "deck": "lang.vi.es/vices-ex",
    "section": "vi",
    "type": "mc",
-   "prompt": "According to the Academy's test, what does the question <i lang=\"es\">¿Qué opinas?</i> show about <i lang=\"es\">Opino ___ que es tarde</i>?",
+   "prompt": "According to the Academy’s test, what does the question <i lang=\"es\">¿Qué opinas?</i> show about <i lang=\"es\">Opino ___ que es tarde</i>?",
    "explain": "If the question has no preposition, the statement has none either, so <i lang=\"es\">Opino que es tarde</i> is correct.",
    "options": [
     "That <i lang=\"es\">de</i> is needed, because the question has a verb",
@@ -224,10 +224,10 @@ ARS.exercises["lang.vi.es/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Where is laísmo found, according to the Academy?",
-   "explain": "The area of laísmo is chiefly the central and north-western zone of Castile. It did not pass to the Spanish of the Atlantic, that is, of the Canary Islands and America.",
+   "explain": "The area of laísmo is chiefly the central and northwestern zone of Castile. It did not pass to the Spanish of the Atlantic, that is, of the Canary Islands and America.",
    "options": [
     "In all the countries of Spanish America",
-    "In central and north-western Castile",
+    "In central and northwestern Castile",
     "In Andalusia and the Canary Islands",
     "Only in the written language of Spain"
    ],

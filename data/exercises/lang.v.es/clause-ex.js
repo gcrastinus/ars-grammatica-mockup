@@ -222,12 +222,12 @@ ARS.exercises["lang.v.es/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "When does the Latin <i lang=\"la\">quod</i>-clause of cause take the indicative?",
-   "explain": "The indicative states the reason as the speaker's own, and the subjunctive reports it on another's authority.",
+   "explain": "The indicative states the reason as the speaker’s own, and the subjunctive reports it on another’s authority.",
    "options": [
     "When the clause is negative",
     "When the main verb is in the future",
-    "When the reason is the speaker's own",
-    "When the reason is given on another person's authority"
+    "When the reason is the speaker’s own",
+    "When the reason is given on another person’s authority"
    ],
    "answer": 2
   },
@@ -526,7 +526,7 @@ ARS.exercises["lang.v.es/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which sentence states a requirement?",
-   "explain": "<i lang=\"es\">Con tal de que</i> introduces a requirement and takes the subjunctive.",
+   "explain": "<i lang=\"es\">Con tal que</i>, or <i lang=\"es\">con tal de que</i>, introduces a requirement and takes the subjunctive.",
    "options": [
     "<i lang=\"es\">Te lo doy porque siempre lo cuidas</i>",
     "<i lang=\"es\">Te lo doy aunque lo cuides poco</i>",
@@ -723,7 +723,7 @@ ARS.exercises["lang.v.es/clause-ex"] = {
     "The adverb <i lang=\"es\">mañana</i> cannot follow a verb of saying",
     "The conditional rejects adverbs of time",
     "The subjunctive requires a fixed date",
-    "The report uses the reporter's time"
+    "The report uses the reporter’s time"
    ],
    "answer": 3
   },
@@ -780,7 +780,7 @@ ARS.exercises["lang.v.es/clause-ex"] = {
    "deck": "lang.v.es/clause-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "Which sentence reports the command <i lang=\"es\">«Escríbeme»</i> said to the speaker's friend?",
+   "prompt": "Which sentence reports the command <i lang=\"es\">«Escríbeme»</i> said to the speaker’s friend?",
    "explain": "A reported command takes the subjunctive, and the pronoun is adapted.",
    "options": [
     "<i lang=\"es\">Dice que le escribe</i>",

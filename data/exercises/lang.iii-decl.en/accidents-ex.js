@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "“has walked” is in which tense or aspect?",
-   "explain": "“Have” with the past participle marks the perfect. the act complete",
+   "explain": "“Have” with the past participle marks the perfect, the act complete.",
    "options": [
     "Present perfect",
     "Past progressive",
@@ -208,7 +208,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "“was walking” shows which aspect?",
-   "explain": "“Be” with the “-ing” participle marks the progressive. the act going on",
+   "explain": "“Be” with the “-ing” participle marks the progressive, the act going on.",
    "options": [
     "Progressive",
     "Perfect: the act complete",
@@ -656,7 +656,7 @@ ARS.exercises["lang.iii-decl.en/accidents-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What are the tense and the mood of “lay” in “that a man lay down his life”? Greater love hath no man than this, that a man lay down his life for his friends.",
-   "explain": "The “that”-clause is a clause of purpose depending on “this,” and “lay” is subjunctive. It is present, and it is active: the man would lay down his life. “Lay” here means to put, and “his life” is the object. We name the mood. We do not rewrite the verse. (The King James Version (the Oxford text of 1769), John 15:13)",
+   "explain": "The “that”-clause is a clause of purpose depending on “this,” and “lay” is subjunctive. It is present, and it is active: the man would lay down his life. “Lay” here means to put, and “his life” is the object. (The King James Version (the Oxford text of 1769), John 15:13)",
    "options": [
     "Present subjunctive active",
     "Present indicative active",

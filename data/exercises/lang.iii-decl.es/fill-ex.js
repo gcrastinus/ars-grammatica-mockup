@@ -175,7 +175,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">¿Qué es ___?</i> (“What is this?”, said of something not yet named)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">¿Qué es ___?</i> (“What is this?” said of something not yet named)",
    "explain": "The neuter demonstrative <i lang=\"es\">esto</i> refers to something that is not named.",
    "options": [
     "<i lang=\"es\">esto</i>",
@@ -751,7 +751,7 @@ ARS.exercises["lang.iii-decl.es/fill-ex"] = {
    "deck": "lang.iii-decl.es/fill-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">La sopa ___ fría.</i> (“The soup has gone cold”)",
+   "prompt": "Choose the form that fills the blank: <i lang=\"es\">La sopa ___ fría.</i> (“The soup is cold”)",
    "explain": "<i lang=\"es\">Estar</i> presents a state that has resulted from a change.",
    "options": [
     "<i lang=\"es\">es</i>",

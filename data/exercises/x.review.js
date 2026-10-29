@@ -83,7 +83,7 @@ ARS.exercises['x.review'] = {
     "Order first, then the words, then the thoughts",
     "Words first, then the thoughts, then their order",
     "All three at once, quickly",
-    "Thoughts, then words, then order"
+    "Thoughts and words first, then their order"
    ],
    "answer": 3,
    "explain": "Quintilian says that we must select both thoughts and words and weigh them one by one, and then consider the order in which they should be placed (<i>Institutio oratoria</i> X.3.5)."
@@ -121,7 +121,8 @@ ARS.exercises['x.review'] = {
    "type": "transform",
    "prompt": "Imitate the construction of the model sentence, using “road,” “long,” “horse,” and “tireless”: “The river was wide, but the bridge was strong.”",
    "accept": [
-    "The road was long, but the horse was tireless."
+    "The road was long, but the horse was tireless.",
+    "The road was long but the horse was tireless."
    ],
    "explain": "The model joins two independent clauses with “but,” each with a subject, the verb “was,” and an adjective. The imitation keeps the construction and changes only the words."
   },
@@ -180,7 +181,15 @@ ARS.exercises['x.review'] = {
     "When the town had been taken, the enemies departed.",
     "When the town had been taken, the enemy departed.",
     "When the town was taken, the enemies departed.",
-    "When the town was taken, the enemy departed."
+    "When the town was taken, the enemy departed.",
+    "When the town had been captured the enemies departed.",
+    "When the town had been captured the enemy departed.",
+    "When the town was captured the enemies departed.",
+    "When the town was captured the enemy departed.",
+    "When the town had been taken the enemies departed.",
+    "When the town had been taken the enemy departed.",
+    "When the town was taken the enemies departed.",
+    "When the town was taken the enemy departed."
    ],
    "explain": "The ablative absolute is usually rendered in English by a clause; here a temporal clause with “when” expresses the relation in time."
   },
@@ -313,7 +322,8 @@ ARS.exercises['x.review'] = {
    "type": "transform",
    "prompt": "Imitate the construction of the model sentence, using “the ice,” “cracked,” “the skaters,” and “left the pond”: “After the frost lifted, the farmers sowed the wheat.”",
    "accept": [
-    "After the ice cracked, the skaters left the pond."
+    "After the ice cracked, the skaters left the pond.",
+    "After the ice cracked the skaters left the pond."
    ],
    "explain": "The model begins with a temporal clause introduced by “after,” followed by the main clause. The imitation keeps the construction and changes only the words."
   },
@@ -369,7 +379,11 @@ ARS.exercises['x.review'] = {
     "When the sun had risen, we set out.",
     "When the sun rose, we set out.",
     "When the sun had risen, we started out.",
-    "When the sun rose, we started out."
+    "When the sun rose, we started out.",
+    "When the sun had risen we set out.",
+    "When the sun rose we set out.",
+    "When the sun had risen we started out.",
+    "When the sun rose we started out."
    ],
    "explain": "The ablative absolute <i>sōle ortō</i> is rendered by a temporal clause, “when the sun had risen,” and <i>profectī sumus</i> by “we set out.”"
   },
@@ -581,7 +595,11 @@ ARS.exercises['x.review'] = {
     "Because the gate had been closed, the merchants waited.",
     "Because the gate was closed, the merchants waited.",
     "Because the gate had been shut, the merchants waited.",
-    "Because the gate was shut, the merchants waited."
+    "Because the gate was shut, the merchants waited.",
+    "Because the gate had been closed the merchants waited.",
+    "Because the gate was closed the merchants waited.",
+    "Because the gate had been shut the merchants waited.",
+    "Because the gate was shut the merchants waited."
    ],
    "explain": "The ablative absolute can express a cause as well as a time, and English renders the cause with a clause introduced by “because.”"
   },

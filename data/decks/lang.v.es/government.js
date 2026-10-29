@@ -36,7 +36,7 @@ ARS.decks["lang.v.es/government"] = {
       "explain": "With a verb of seeking, the <i lang=\"es\">a</i> points to a particular individual, and its absence looks to a type."
      },
      {
-      "prompt": "Which sentence follows the Academy's rule for a verb with two persons as objects, a direct object and an indirect object?",
+      "prompt": "Which sentence follows the Academy’s rule for a verb with two persons as objects, a direct object and an indirect object?",
       "options": [
        "<i lang=\"es\">Recomendó a Marta a su jefe</i>",
        "<i lang=\"es\">Recomendó Marta a su jefe</i>",

@@ -76,7 +76,7 @@ ARS.decks["lang.v.en/agreement"] = {
        "“Himself”"
       ],
       "answer": 2,
-      "explain": "The subject of a finite verb is in the nominative."
+      "explain": "The subject of a finite verb is in the subjective case."
      },
      {
       "prompt": "Which form completes “The officer ______ the mayor appointed resigned”?",

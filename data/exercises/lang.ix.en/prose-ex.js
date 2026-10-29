@@ -152,7 +152,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“had gradually cemented”</p> Why does Gibbon write “had cemented”?",
-   "explain": "“Had” with the past participle places one past action before another past time. the union was already made at the time described",
+   "explain": "“Had” with the past participle places one past action before another past time: the union was already made at the time described.",
    "options": [
     "It is the past perfect",
     "It is the passive voice",
@@ -169,7 +169,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“my Lord”</p> “My Lord” in the first sentence is…",
-   "explain": "The phrase names the person spoken to and has no grammatical work in the clause. outside the construction of the clause",
+   "explain": "The phrase names the person spoken to and has no grammatical work in the clause.",
    "options": [
     "A noun of address",
     "The subject of “have past”",
@@ -220,7 +220,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“without one act of assistance”</p> The three phrases after “without” are…",
-   "explain": "“Without” governs all three: one act, one word, one smile. built alike",
+   "explain": "“Without” governs all three: one act, one word, one smile, all built alike.",
    "options": [
     "Three objects of the one preposition",
     "Three subjects of “brought”",
@@ -509,7 +509,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“being”</p> “Being” and “upholding” are…",
-   "explain": "They describe “who” before its verb, “sat down,” arrives. the subject of “sat down”",
+   "explain": "They describe “who” before its verb, “sat down,” arrives. “Who” is the subject of “sat down.”",
    "options": [
     "Participles describing the Son",
     "Gerunds, objects of a preposition",
@@ -577,7 +577,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“For expert men”</p> “For” in “For expert men can execute” means…",
-   "explain": "Here “for” is a conjunction that introduces the reason for the claim before it. it gives a reason",
+   "explain": "Here “for” is a conjunction that introduces the reason for the claim before it.",
    "options": [
     "“Because”",
     "“On behalf of”",
@@ -662,7 +662,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "The clause beginning with “whether” is…",
-   "explain": "“Whether” reports a question: whether the nation can long endure. the object of “testing”",
+   "explain": "“Whether” reports a question: whether the nation can long endure. The clause is the object of “testing.”",
    "options": [
     "An indirect question",
     "A condition stating what must be true",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“God's image”</p> “God’s image” stands…",
+   "prompt": "<p>“God’s image”</p> “God’s image” stands…",
    "explain": "It renames the creature: a reasonable creature, that is, God’s image.",
    "options": [
     "In apposition to “a reasonable creature”",
@@ -917,7 +917,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“crowded”</p> “Crowded” describes…",
-   "explain": "The participle completes “see the streets … crowded with beggars.” and the doors",
+   "explain": "The participle completes “see the streets … crowded with beggars.”",
    "options": [
     "The streets",
     "“Those” who walk",
@@ -1002,7 +1002,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p>“I would sail about”</p> “I would sail about a little” is…",
-   "explain": "It says what he thought; English may leave out “that.” without “that”",
+   "explain": "It says what he thought; English may leave out “that.”",
    "options": [
     "A noun clause",
     "A relative clause",

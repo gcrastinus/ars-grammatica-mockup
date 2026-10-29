@@ -32,7 +32,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ βασιλεὺς <b>κακῶς</b> ἄρχει τῶν ἀνθρώπων</i> (“The king rules the men badly”)",
-   "explain": "κακῶς tells how he rules. Smyth prints κακῶς, and the gloss there is ill (§343).",
+   "explain": "<i lang=\"grc\">Κακῶς</i> (“badly”) tells how he rules.",
    "options": [
     "adverb",
     "preposition",
@@ -143,8 +143,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b>, ὁ ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“Alas, the man looses the horse”)",
-   "explain": "φεῦ is a cry of grief. It neither names a thing nor joins a statement (§1407, §904).",
+   "prompt": "In Smyth’s grammar, what part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b>, ὁ ἄνθρωπος τὸν ἵππον λῡ́ει</i> (“Alas, the man looses the horse”)",
+   "explain": "Smyth calls <i lang=\"grc\">φεῦ</i> an interjection, a cry of grief that neither names a thing nor joins a statement (§1407, §904); the Greek grammarians counted such words among the adverbs.",
    "options": [
     "interjection",
     "adverb",
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "deck": "lang.iii-indecl.grc/parts-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "What part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b> τοῦ ἀνθρώπου</i> (“Alas for the man”)",
-   "explain": "φεῦ is a cry, and the genitive gives the cause. Smyth prints φεῦ τοῦ ἀνδρός (§1407).",
+   "prompt": "In Smyth’s grammar, what part of speech is the marked word? <i lang=\"grc\"><b>φεῦ</b> τοῦ ἀνθρώπου</i> (“Alas for the man”)",
+   "explain": "Smyth calls <i lang=\"grc\">φεῦ</i> an interjection, a cry whose cause stands in the genitive (<i lang=\"grc\">φεῦ τοῦ ἀνδρός</i>, §1407); the Greek grammarians counted such words among the adverbs.",
    "options": [
     "interjection",
     "adverb",

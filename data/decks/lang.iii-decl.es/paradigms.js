@@ -220,7 +220,7 @@ ARS.decks["lang.iii-decl.es/paradigms"] = {
        "<i lang=\"es\">eres</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"es\">Estás</i>, with the written accent."
+      "explain": "The second person singular is <i lang=\"es\">estás</i>, with the written accent."
      },
      {
       "prompt": "Which two verbs have the same preterite forms (<i lang=\"es\">fui</i>, <i lang=\"es\">fuiste</i>, <i lang=\"es\">fue</i>)?",

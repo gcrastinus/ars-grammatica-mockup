@@ -76,7 +76,7 @@ ARS.decks["lang.vii.es/tropes"] = {
        "It reverses the order of two sequences"
       ],
       "answer": 3,
-      "explain": "In the Academy's example the first half has verb and subject, and the second has subject and verb."
+      "explain": "In the Academy’s example the first half has verb and subject, and the second has subject and verb."
      },
      {
       "prompt": "Why are these three figures schemes and not tropes?",

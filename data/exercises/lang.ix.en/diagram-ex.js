@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Wolves howl.”, where does “howl” go?",
+   "prompt": "In the diagram of “Wolves howl,” where does “howl” go?",
    "explain": "“Wolves” is the subject and “howl” the verb. The crossing line divides them, and the verb stands just after it.",
    "options": [
     "On the base line, just after the crossing line",
@@ -31,7 +31,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Farmers plant corn.”, which line stands just before “corn”?",
+   "prompt": "In the diagram of “Farmers plant corn,” which line stands just before “corn”?",
    "explain": "“Corn” is the direct object, so the line before it comes down onto the base and does not cross it.",
    "options": [
     "A line that crosses the base",
@@ -47,7 +47,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The lake is deep.”, which line stands just before “deep”?",
+   "prompt": "In the diagram of “The lake is deep,” which line stands just before “deep”?",
    "explain": "“Is” links, and “deep” describes the subject, so the line before it slants back toward the subject.",
    "options": [
     "A line that stops on the base",
@@ -63,7 +63,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The captain was a sailor.”, where does “sailor” go?",
+   "prompt": "In the diagram of “The captain was a sailor,” where does “sailor” go?",
    "explain": "“Sailor” renames the subject after the linking verb “was,” so it stands on the base after a slanted line.",
    "options": [
     "On the base line, after a line that stops on the base",
@@ -79,7 +79,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Clouds gather.”, which line divides “Clouds” from “gather”?",
+   "prompt": "In the diagram of “Clouds gather,” which line divides “Clouds” from “gather”?",
    "explain": "A vertical line that crosses the base divides the subject from the predicate.",
    "options": [
     "A line that crosses the base",
@@ -95,7 +95,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Young foxes play.”, where does “Young” go?",
+   "prompt": "In the diagram of “Young foxes play,” where does “Young” go?",
    "explain": "“Young” describes “foxes,” so it hangs on a slant under that word.",
    "options": [
     "On the base line, before the crossing line",
@@ -111,7 +111,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The train arrived late.”, where does “late” go?",
+   "prompt": "In the diagram of “The train arrived late,” where does “late” go?",
    "explain": "“Late” tells when the train arrived, so it modifies the verb and hangs under “arrived.”",
    "options": [
     "On a slant under “train”",
@@ -127,7 +127,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Mary wrote a poem.”, where does “a” go?",
+   "prompt": "In the diagram of “Mary wrote a poem,” where does “a” go?",
    "explain": "The article modifies the noun after it, so “a” hangs under “poem.”",
    "options": [
     "On a slant under “wrote”",
@@ -143,7 +143,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The bread smells fresh.”, which line stands just before “fresh”?",
+   "prompt": "In the diagram of “The bread smells fresh,” which line stands just before “fresh”?",
    "explain": "“Smells” links here, and “fresh” describes the bread, so the line before it slants back toward the subject.",
    "options": [
     "A line that slants back toward the subject",
@@ -159,7 +159,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Students read history.”, where does “history” go?",
+   "prompt": "In the diagram of “Students read history,” where does “history” go?",
    "explain": "“History” receives the action of “read,” so it is the direct object, on the base after a line that stops on the base.",
    "options": [
     "On the base line, after a line that stops on the base",
@@ -175,7 +175,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Students read history.”, where does “Students” go?",
+   "prompt": "In the diagram of “Students read history,” where does “Students” go?",
    "explain": "The subject stands first on the base line, before the crossing line.",
    "options": [
     "On the base line, after a line that stops on the base",
@@ -207,7 +207,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The nurse spoke quietly.”, where does “quietly” go?",
+   "prompt": "In the diagram of “The nurse spoke quietly,” where does “quietly” go?",
    "explain": "“Quietly” tells how the nurse spoke, so it hangs under the verb.",
    "options": [
     "On a slant under “nurse”",
@@ -223,7 +223,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The runners were tired.”, which line stands just before “tired”?",
+   "prompt": "In the diagram of “The runners were tired,” which line stands just before “tired”?",
    "explain": "“Were” links, and “tired” describes the runners, so the slant points back toward the subject.",
    "options": [
     "A line that slants back toward the subject",
@@ -239,7 +239,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Heavy rain fell.”, where does “rain” go?",
+   "prompt": "In the diagram of “Heavy rain fell,” where does “rain” go?",
    "explain": "“Rain” is the subject of “fell,” so it stands first on the base line.",
    "options": [
     "On the base line, just after the crossing line",
@@ -271,7 +271,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Ducks swim on the pond.”, where does “on” go?",
+   "prompt": "In the diagram of “Ducks swim on the pond,” where does “on” go?",
    "explain": "“On the pond” tells where the ducks swim, so the phrase hangs under the verb, with the preposition on the slant.",
    "options": [
     "On the base line after “swim”",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Ducks swim on the pond.”, where does “pond” go?",
+   "prompt": "In the diagram of “Ducks swim on the pond,” where does “pond” go?",
    "explain": "The object of the preposition stands on the short horizontal line at the bottom of the phrase.",
    "options": [
     "On a short horizontal line under the slant",
@@ -303,7 +303,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The man with the dog smiled.”, under which word does “with the dog” hang?",
+   "prompt": "In the diagram of “The man with the dog smiled,” under which word does “with the dog” hang?",
    "explain": "The phrase tells which man, so it modifies “man” and hangs under it.",
    "options": [
     "“smiled”",
@@ -319,7 +319,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Anna sent her brother a parcel.”, which word stays on the base after the verb?",
+   "prompt": "In the diagram of “Anna sent her brother a parcel,” which word stays on the base after the verb?",
    "explain": "“Parcel” is the direct object and stays on the base; the indirect object hangs below.",
    "options": [
     "“brother”",
@@ -335,7 +335,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Anna sent her brother a parcel.”, where does “brother” go?",
+   "prompt": "In the diagram of “Anna sent her brother a parcel,” where does “brother” go?",
    "explain": "An indirect object hangs under the verb like a prepositional phrase, with “(to)” on the slant when the preposition is not written.",
    "options": [
     "Under the verb, with “(to)” on the slant",
@@ -351,7 +351,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Oaks and pines grow here.”, how is the subject drawn?",
+   "prompt": "In the diagram of “Oaks and pines grow here,” how is the subject drawn?",
    "explain": "A compound subject is two short lines joined before the crossing line, with the conjunction on a dotted line between them.",
    "options": [
     "One line holding both words",
@@ -367,7 +367,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Oaks and pines grow here.”, where is “and” written?",
+   "prompt": "In the diagram of “Oaks and pines grow here,” where is “and” written?",
    "explain": "The conjunction of a compound part is written on the dotted line that joins the two parts.",
    "options": [
     "On the base line after “grow”",
@@ -383,7 +383,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The judge declared him innocent.”, where does “innocent” go?",
+   "prompt": "In the diagram of “The judge declared him innocent,” where does “innocent” go?",
    "explain": "“Innocent” describes the object “him,” so it is an objective complement: it follows the direct object, cut off by a slant.",
    "options": [
     "Under the verb, on a slant",
@@ -399,7 +399,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “We elected Ruth president.”, what cuts off “president”?",
+   "prompt": "In the diagram of “We elected Ruth president,” what cuts off “president”?",
    "explain": "An objective complement is cut off by the same slant as a subject complement, because it renames the object.",
    "options": [
     "A slant, as for a subject complement",
@@ -415,7 +415,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Grandfather told us a story.”, where does “us” go?",
+   "prompt": "In the diagram of “Grandfather told us a story,” where does “us” go?",
    "explain": "“Us” is the indirect object: it hangs under the verb, with “(to)” on the slant.",
    "options": [
     "On the base line after a line that stops on the base",
@@ -431,7 +431,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “A deer ran across the road.”, where does “across” go?",
+   "prompt": "In the diagram of “A deer ran across the road,” where does “across” go?",
    "explain": "“Across the road” tells where the deer ran, so the phrase hangs under the verb, with “across” on the slant.",
    "options": [
     "On the base line after “ran”",
@@ -447,7 +447,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “A deer ran across the road.”, where does “the” go?",
+   "prompt": "In the diagram of “A deer ran across the road,” where does “the” go?",
    "explain": "Inside the phrase, “the” modifies its noun and hangs under “road.”",
    "options": [
     "On a slant under “ran”",
@@ -463,7 +463,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The girls sang and danced.”, how is the predicate drawn?",
+   "prompt": "In the diagram of “The girls sang and danced,” how is the predicate drawn?",
    "explain": "A compound predicate is drawn like a compound subject, on the other side of the crossing line.",
    "options": [
     "Two short lines after the crossing line, joined by a dotted line",
@@ -479,7 +479,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The letter from Rome arrived.”, under which word does “from Rome” hang?",
+   "prompt": "In the diagram of “The letter from Rome arrived,” under which word does “from Rome” hang?",
    "explain": "The phrase tells which letter, so it modifies the noun and hangs under “letter.”",
    "options": [
     "“arrived”",
@@ -511,7 +511,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “They painted the fence green.”, where does “green” go?",
+   "prompt": "In the diagram of “They painted the fence green,” where does “green” go?",
    "explain": "“Green” tells what the fence was made, so it is an objective complement after the direct object.",
    "options": [
     "After the direct object, cut off by a slant",
@@ -527,7 +527,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “We left when the bell rang.”, where is “when the bell rang” drawn?",
+   "prompt": "In the diagram of “We left when the bell rang,” where is “when the bell rang” drawn?",
    "explain": "An adverb clause is drawn on a lower base and hangs from the verb by a dotted line.",
    "options": [
     "On the base line after “left”",
@@ -543,7 +543,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “We left when the bell rang.”, what is written on the dotted line?",
+   "prompt": "In the diagram of “We left when the bell rang,” what is written on the dotted line?",
    "explain": "The connecting word of a subordinate clause is written on the dotted line.",
    "options": [
     "“rang”",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The boy who won the race smiled.”, from which word does the clause hang?",
+   "prompt": "In the diagram of “The boy who won the race smiled,” from which word does the clause hang?",
    "explain": "An adjective clause hangs from the noun it describes, here “boy.”",
    "options": [
     "“smiled”",
@@ -575,7 +575,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “I believe that she is right.”, how is “that she is right” drawn?",
+   "prompt": "In the diagram of “I believe that she is right,” how is “that she is right” drawn?",
    "explain": "A noun clause used as an object stands on a stilt in the object place, above the main line.",
    "options": [
     "On a stilt in the object place, above the main line",
@@ -591,7 +591,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “I believe that she is right.”, where is “that” written?",
+   "prompt": "In the diagram of “I believe that she is right,” where is “that” written?",
    "explain": "The joining word of a noun clause is written on the stilt.",
    "options": [
     "On the main line before “believe”",
@@ -607,7 +607,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The dog barked because a stranger came.”, from which word does the clause hang?",
+   "prompt": "In the diagram of “The dog barked because a stranger came,” from which word does the clause hang?",
    "explain": "“Because a stranger came” tells why the dog barked, so it is an adverb clause and hangs from the verb.",
    "options": [
     "“dog”",
@@ -639,7 +639,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The book that you lent me is lost.”, from which word does “that you lent me” hang?",
+   "prompt": "In the diagram of “The book that you lent me is lost,” from which word does “that you lent me” hang?",
    "explain": "The clause tells which book, so it is an adjective clause and hangs from “book.”",
    "options": [
     "“lost”",
@@ -655,7 +655,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the lower base of “The book that you lent me is lost”, where does “that” stand?",
+   "prompt": "In the lower base of “The book that you lent me is lost,” where does “that” stand?",
    "explain": "Within its own clause the relative is marked like any noun: “that” is the object of “lent,” so it stands on the lower base after the line that stops on it.",
    "options": [
     "On the dotted line only",
@@ -671,7 +671,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “She smiled as the music began.”, what does the lower base hold?",
+   "prompt": "In the diagram of “She smiled as the music began,” what does the lower base hold?",
    "explain": "The subordinate clause has its own subject and finite verb, and they stand on the lower base with their own crossing line.",
    "options": [
     "“as the music,” as a phrase",
@@ -687,7 +687,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The hikers who reached the top rested.”, which word is on the main base after the crossing line?",
+   "prompt": "In the diagram of “The hikers who reached the top rested,” which word is on the main base after the crossing line?",
    "explain": "The main clause is “The hikers rested”; the relative clause goes on a lower base.",
    "options": [
     "“rested”",
@@ -703,7 +703,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “He said that the road was closed.”, what kind of clause stands on the stilt?",
+   "prompt": "In the diagram of “He said that the road was closed,” what kind of clause stands on the stilt?",
    "explain": "“That the road was closed” is what he said, the object of the verb, so it is a noun clause on a stilt.",
    "options": [
     "An adverb clause telling when",
@@ -719,7 +719,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Although it rained, we played.”, from which word does the clause hang?",
+   "prompt": "In the diagram of “Although it rained, we played,” from which word does the clause hang?",
    "explain": "“Although it rained” is an adverb clause, and an adverb clause hangs from the verb of the main clause.",
    "options": [
     "“we”",
@@ -751,7 +751,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “The town where I was born is small.”, from which word does the clause hang?",
+   "prompt": "In the diagram of “The town where I was born is small,” from which word does the clause hang?",
    "explain": "“Where I was born” tells which town, so it is an adjective clause and hangs from “town.”",
    "options": [
     "“town”",
@@ -767,7 +767,7 @@ ARS.exercises["lang.ix.en/diagram-ex"] = {
    "deck": "lang.ix.en/diagram-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the diagram of “Tell me what you saw.”, how is “what you saw” drawn?",
+   "prompt": "In the diagram of “Tell me what you saw,” how is “what you saw” drawn?",
    "explain": "“What you saw” is the direct object of “Tell,” a noun clause, so it stands on a stilt in the object place.",
    "options": [
     "On a lower base joined to “Tell”",

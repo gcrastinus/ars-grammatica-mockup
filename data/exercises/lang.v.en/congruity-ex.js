@@ -364,7 +364,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which form completes “______ and I painted the fence”?",
-   "explain": "The subject of a finite verb is in the nominative.",
+   "explain": "The subject of a finite verb is in the subjective case.",
    "options": [
     "“Him”",
     "“His”",
@@ -460,7 +460,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which form completes “Give the map to ______ is waiting at the door”?",
-   "explain": "The pronoun is the subject of “is waiting,” so it is nominative, though the whole clause is the object of “to.”",
+   "explain": "The pronoun is the subject of “is waiting,” so it is subjective, though the whole clause is the object of “to.”",
    "options": [
     "“whoever”",
     "“whomever”",

@@ -65,15 +65,15 @@ ARS.decks['x.composition'] = {
     { prompt: `“The wagon was old. The wagon rattled.” Which combination is correct and keeps the meaning?`,
       options: [`“The wagon was old, it rattled.”`, `“The old wagon rattled loudly.”`, `“The old wagon rattled.”`, `“The wagon, rattled, was old.”`],
       answer: 2,
-      explain: `The first sentence becomes an adjective, “old,” and the meaning is kept. Joining two independent clauses with a comma alone is a comma splice, adding “loudly” says more than the two sentences said, and the last version is not a correct construction.` },
+      explain: `The first sentence becomes an adjective, “old,” and the meaning is kept. Joining two independent clauses with a comma alone is a comma splice, adding “loudly” says more than the two sentences said, and “The wagon, rattled, was old” is not a correct construction.` },
     { prompt: `“Lucas paints. His sister paints.” Which combination is correct?`,
-      options: [`“Lucas and his sister paints.”`, `“Lucas and his sister paint.”`, `“Lucas paints, his sister paints.”`, `“Lucas, and his sister, paints.”`],
+      options: [`“Lucas and his sister paints.”`, `“Lucas and his sister paint.”`, `“Lucas paints, his sister paints.”`, `“Lucas paints and his sister paint.”`],
       answer: 1,
       explain: `The two sentences share their predicate, so they combine with a compound subject; a compound subject joined by “and” takes a plural verb, “paint.”` },
     { prompt: `“The mason cut the stone. She set it in the wall.” Which combination is correct?`,
       options: [`“The mason cut the stone and set it in the wall.”`, `“The mason cut the stone, she set it in the wall.”`, `“The mason and she cut the stone and the wall.”`, `“Cutting the stone, it was set in the wall.”`],
       answer: 0,
-      explain: `The two sentences share their subject, so they combine with a compound predicate. The second distractor is a comma splice, and the last leaves the participle dangling.` }
+      explain: `The two sentences share their subject, so they combine with a compound predicate. “The mason cut the stone, she set it in the wall” is a comma splice, and “Cutting the stone, it was set in the wall” leaves the participle dangling.` }
   ] } },
 
 { id: 'subordination',
@@ -129,7 +129,7 @@ ARS.decks['x.composition'] = {
     { prompt: `“The hailstorm ruined the orchard.” Which rewriting keeps the meaning and is correctly constructed?`,
       options: [`“The orchard was ruined by the hailstorm.”`, `“The orchard ruined the hailstorm.”`, `“The hailstorm was ruined by the orchard.”`, `“The orchard, the hailstorm ruined it, badly.”`],
       answer: 0,
-      explain: `The passive keeps the meaning and changes the subject. Exchanging subject and object reverses the meaning, and the last version is not a sentence.` },
+      explain: `The passive keeps the meaning and changes the subject. Exchanging subject and object reverses the meaning, and “The orchard, the hailstorm ruined it, badly” is not a sentence.` },
     { prompt: `“The orchard was ruined by the hailstorm” is a rewriting of “The hailstorm ruined the orchard.” What has been changed?`,
       options: [`The tense of the verb`, `The meaning of the sentence`, `The mood of the verb`, `The voice, and with it the subject`],
       answer: 3,

@@ -303,7 +303,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "Which of these Spanish words is a cultismo?",
+   "prompt": "Which of these Spanish words is a <i lang=\"es\">cultismo</i>?",
    "explain": "<i lang=\"es\">Bucal</i> is derived from the Latin <i lang=\"la\">bucca</i> and has kept its form; <i lang=\"es\">boca</i> comes from the same word through the sound changes of an inherited word.",
    "options": [
     "<i lang=\"es\">boca</i>",
@@ -367,7 +367,7 @@ ARS.exercises["lang.iv.es/etymology-ex"] = {
    "deck": "lang.iv.es/etymology-ex",
    "section": "iv",
    "type": "mc",
-   "prompt": "What is a cultismo?",
+   "prompt": "What is a <i lang=\"es\">cultismo</i>?",
    "explain": "This is the Academy’s distinction.",
    "options": [
     "A word that has followed the sound laws of the language",

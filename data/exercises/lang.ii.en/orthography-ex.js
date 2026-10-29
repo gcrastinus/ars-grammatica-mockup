@@ -115,7 +115,7 @@ ARS.exercises["lang.ii.en/orthography-ex"] = {
    "deck": "lang.ii.en/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In American usage, where does the question mark go in “Did she say “I am leaving”?”?",
+   "prompt": "In American usage, where does the question mark go in “Did she say ‘I am leaving’?”",
    "explain": "The whole sentence is the question, not the quotation, so the question mark goes outside.",
    "options": [
     "Inside the closing quotation mark",
@@ -199,7 +199,7 @@ ARS.exercises["lang.ii.en/orthography-ex"] = {
    "deck": "lang.ii.en/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In “My brother, who lives in Ohio, is a pilot”, what do the commas show?",
+   "prompt": "In “My brother, who lives in Ohio, is a pilot,” what do the commas show?",
    "explain": "The commas mark a nonrestrictive clause, which adds information about a brother already identified.",
    "options": [
     "The clause adds information",

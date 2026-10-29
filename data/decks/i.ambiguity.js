@@ -58,7 +58,7 @@ ARS.decks['i.ambiguity'] = {
       options: [`In the single word “gun”`, `In the single word “police”`, `In the arrangement of the words`, `There is no ambiguity`],
       answer: 2,
       explain: `No single word here has two meanings. The double sense lies in the arrangement, because “with the gun” can belong either to “shot” (the police used the gun) or to “the man” (the man had the gun).` },
-    { prompt: `Latin <i>musculus</i> can mean “little mouse” or “muscle.” What kind of ambiguity is this?`,
+    { prompt: `Latin <i>mūsculus</i> can mean “little mouse” or “muscle.” What kind of ambiguity is this?`,
       options: [`Ambiguity in a single word, which the Greeks call homonymy`, `Ambiguity in the arrangement of words`, `Ambiguity of punctuation`, `It is not ambiguity, because Latin words have only one meaning`],
       answer: 0,
       explain: `One sound has been imposed with two meanings, so the ambiguity lies in a single word. Quintilian calls this the case when “the same noun applies to a number of things or persons (the Greeks call this homonymy)” (VII.9.2).` }

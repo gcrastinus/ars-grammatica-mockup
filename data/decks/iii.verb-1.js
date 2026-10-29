@@ -127,7 +127,7 @@ ARS.decks['iii.verb-1'] = {
       answer: 1,
       explain: `<i>Docētur</i> has the passive ending <i>-tur</i> and means “he is taught”; the active <i>docet</i> means “he teaches.” A deponent also has a passive ending, but <i>doceō</i> has an active form, so <i>docētur</i> is a true passive.` },
     { prompt: `In “The boy was taught by his tutor,” how is the doer expressed?`,
-      options: [`By the subject, “the boy”`, `By the verb, “was taught”`, `By the phrase “by his uncle”`, `It is not expressed`],
+      options: [`By the subject, “the boy”`, `By the verb, “was taught”`, `By the phrase “by his tutor”`, `It is not expressed`],
       answer: 2,
       explain: `In the passive the one who receives the action becomes the subject, here “the boy.” The doer, if it is named, is expressed with “by,” here “by his tutor.”` },
     { prompt: `In a Latin passive sentence, how is the doer expressed when it is named?`,

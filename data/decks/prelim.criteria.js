@@ -55,10 +55,10 @@ ARS.decks['prelim.criteria'] = {
 <p><strong>Etymology</strong>, the study of the origin of words or phrases, does not always support reason, because the origin of a word does not always settle how it is used now. The origin of words or phrases here has two meanings: first, the causes that brought about the formation of the word and its use in past ages; and, second, the words or forms that are used to make up the given word or phrase, since what the parts are can partly determine what the whole is.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.1, I.6.4–5.`,
   qp: { id: 'q-reason', variants: [
-    { prompt: `A child says “goed” because the past tense of “walk” is “walked.” Which criterion is the child following?`,
+    { prompt: `A child says “bringed” because the past tense of “walk” is “walked.” Which criterion is the child following?`,
       options: [`Antiquity`, `Authority`, `Reason, by analogy`, `Etymology alone`],
       answer: 2,
-      explain: `The child compares a doubtful form with a certain one of the same kind, which is analogy, the chief support of reason. The form is nevertheless incorrect, because the agreed practice of educated speakers is “went.”` },
+      explain: `The child compares a doubtful form with a certain one of the same kind, which is analogy, the chief support of reason. The form is nevertheless incorrect, because the agreed practice of educated speakers is “brought.”` },
     { prompt: `What is analogy, as Quintilian defines it?`,
       options: [`The proof of the uncertain by reference to the certain`, `The use of words found in the oldest writers`, `The practice of the majority of speakers`, `The study of the origin of words`],
       answer: 0,

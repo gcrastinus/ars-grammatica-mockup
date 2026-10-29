@@ -15,7 +15,7 @@ ARS.decks['v.figures'] = {
     `The grammarians call such a departure, made for a reason, a <strong>figure</strong> (Latin <i>figūra</i>, Greek <i>schēma</i>), and a figure that concerns the construction of the sentence is called a <strong>figure of construction</strong>.`,
     `Donatus defines the solecism as an error in the construction of the parts of speech, made against the rule of the art of grammar, and adds that in prose it is called a solecism and in a poem a figure.`,
     `So the same arrangement of words may be an error or a figure, according to whether it is made by ignorance or for a reason that the authors accept.`,
-    `<strong>Ellipsis</strong> (Greek, “a falling short”; the medieval grammarians wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context.`,
+    `<strong>Ellipsis</strong> (Greek, “a falling short”; the Latin grammarians, Donatus among them, wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context.`,
     `Latin often omits the verb “to be”; Donatus names the omission <i>eclipsis</i>, the lack of a word that the sentence requires, and lists it among the faults of speech.`,
     `Ellipsis is the most common of the figures of construction, and ordinary speech uses it constantly.`,
     `Ellipsis does not make a sentence incomplete, because the construction is complete in the mind of the hearer, who supplies the omitted word from the context.`,
@@ -28,7 +28,7 @@ ARS.decks['v.figures'] = {
     `Donatus does not have a separate class of figures of construction; he counts zeugma and syllepsis among the figures of words (<i>schēmata lexeōs</i>), with figures of repetition and arrangement.`,
     `Later grammarians, especially in the Middle Ages and the Renaissance, gathered the figures that concern construction into a group of their own.`,
     `So the same figures can be studied as departures from the rules of construction and as figures of words; the division is one of viewpoint, not of things.`,
-    `Agreement by the sense, in which a collective noun takes a plural verb, is named by later grammarians the figure <strong>synthesis</strong>.`,
+    `Agreement by the sense, in which a collective noun takes a plural verb, is named by later grammarians the figure <strong>synesis</strong>.`,
     `Another figure puts one case in place of another, as when a noun is attracted into the case of a relative; the grammarians call this <strong>antiptosis</strong> (Greek, “a case falling for another case”).`,
     `Such figures show that authors sometimes let the construction follow the sense or the nearness of another word rather than the strict rule.`,
     `The grammarian’s task is to recognize the figure, to explain the regular construction from which it departs, and to show the reason for the departure.`,
@@ -54,7 +54,7 @@ ARS.decks['v.figures'] = {
 
 { id: 'ellipsis',
   title: 'Ellipsis',
-  body: `<p>When someone asks “Where are you going?” and the answer is “Home,” the hearer understands “I am going home,” although the words “I am going” were not said. <strong>Ellipsis</strong> (Greek, “a falling short”; the medieval grammarians wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context. Latin often omits the verb “to be”: Cicero writes <i>omnia praeclara, rara</i> (<i>Laelius</i> 79), which is rendered “everything splendid is rare,” where English must supply “is.” Donatus names the omission <i>eclipsis</i>, the lack of a word that the sentence requires, and lists it among the faults of speech (<i>vitia</i>), with Virgil’s <i>haec secum</i> (“these things with herself”), where “she said” is lacking (<i>Ars maior</i> III.3); later grammarians count it a figure when good authors use it for a reason.</p>
+  body: `<p>When someone asks “Where are you going?” and the answer is “Home,” the hearer understands “I am going home,” although the words “I am going” were not said. <strong>Ellipsis</strong> (Greek, “a falling short”; the Latin grammarians, Donatus among them, wrote <i>eclipsis</i>) is the omission of a word that is needed for the construction but is easily understood from the context. Latin often omits the verb “to be”: Cicero writes <i>omnia praeclara, rara</i> (<i>Laelius</i> 79), which is rendered “everything splendid is rare,” where English must supply “is.” Donatus names the omission <i>eclipsis</i>, the lack of a word that the sentence requires, and lists it among the faults of speech (<i>vitia</i>), with Virgil’s <i>haec secum</i> (“these things with herself”), where “she said” is lacking (<i>Ars maior</i> III.3); later grammarians count it a figure when good authors use it for a reason.</p>
 <p>Ellipsis is the most common of the figures of construction, and ordinary speech uses it constantly. The construction is complete in the mind of the hearer, because the omitted word is supplied from what has been said. So ellipsis does not make a sentence incomplete; it leaves to the hearer a word that the context already gives. Sometimes, instead, a word is expressed once and made to serve several clauses.</p>`,
   src: `Cicero, <i>Laelius</i> 79 (trans. W. A. Falconer; the Latin and English checked against the Perseus text); Donatus, <i>Ars maior</i> III.3; Allen and Greenough, <i>New Latin Grammar</i> § 640.`,
   qp: { id: 'q-ellipsis', variants: [
@@ -106,22 +106,22 @@ ARS.decks['v.figures'] = {
 
 { id: 'sense-case',
   title: 'Agreement by the sense, and one case for another',
-  body: `<p>In “The crew are asleep in their bunks,” the verb is plural, although “crew” is singular in form, because the members of the crew are thought of separately. We have seen that the grammarians call this agreement by the sense; later grammarians name it the figure <strong>synthesis</strong>. Another figure puts one case in place of another. In the <i>Aeneid</i> Dido offers the Trojans a share in Carthage with the words <i>urbem quam statuo vestra est</i> (I.573), which one translation renders “I build this city for your own.” In the Latin, <i>urbem</i> (“city”) is accusative, attracted into the case of the relative <i>quam</i> (“which”), although it is the subject of <i>est</i> (“is”) and should be nominative, <i>urbs</i>. Donatus gives this line as an example of one case put for another (<i>Ars maior</i> III.2). The grammarians call this <strong>antiptosis</strong> (Greek, “a case falling for another case”).</p>
+  body: `<p>In “The crew are asleep in their bunks,” the verb is plural, although “crew” is singular in form, because the members of the crew are thought of separately. We have seen that the grammarians call this agreement by the sense; later grammarians name it the figure <strong>synesis</strong>. Another figure puts one case in place of another. In the <i>Aeneid</i> Dido offers the Trojans a share in Carthage with the words <i>urbem quam statuo vestra est</i> (I.573), which one translation renders “I build this city for your own.” In the Latin, <i>urbem</i> (“city”) is accusative, attracted into the case of the relative <i>quam</i> (“which”), although it is the subject of <i>est</i> (“is”) and should be nominative, <i>urbs</i>. Donatus gives this line as an example of one case put for another (<i>Ars maior</i> III.2). The grammarians call this <strong>antiptosis</strong> (Greek, “a case falling for another case”).</p>
 <p>Such figures show that the authors sometimes let the construction follow the sense or the nearness of another word rather than the strict rule. The grammarian’s task is to recognize the figure, to explain the regular construction from which it departs, and to show the reason for the departure.</p>`,
   src: `Virgil, <i>Aeneid</i> I.573 (trans. T. C. Williams, checked against the Perseus text); Terence, <i>Eunuchus</i> 653 (Latin checked against the Latin Library text); Donatus, <i>Ars maior</i> III.2; Allen and Greenough, <i>New Latin Grammar</i> §§ 306, 317, in paraphrase.`,
   qp: { id: 'q-sense-case', variants: [
     { prompt: `What departure from regular construction does “The orchestra are tuning their instruments” show?`,
       options: [`Agreement by the sense`, `One case put for another, as in Dido’s line`, `Ellipsis of the verb`, `Hyperbaton`],
       answer: 0,
-      explain: `“Orchestra” is singular in form, but its members are thought of separately, so the verb and pronoun are plural. The regular construction would be “The orchestra is tuning its instruments.” Later grammarians call this figure synthesis.` },
+      explain: `“Orchestra” is singular in form, but its members are thought of separately, so the verb and pronoun are plural. The regular construction would be “The orchestra is tuning its instruments.” Later grammarians call this figure synesis.` },
     { prompt: `In Terence’s line <i>eunuchum quem dedisti nobis quas turbas dedit!</i> (<i>Eunuchus</i> 653; with its long vowels marked, <i>eunūchum quem dedistī nōbīs, quās turbās dedit!</i>) (“the eunuch whom you gave us, what disturbances he caused!”), why is <i>eunuchum</i> accusative, though in sense it is the subject of <i>dedit</i>?`,
       options: [`It is the object of <i>dedit</i>`, `It takes the case of <i>quem</i>`, `It is an ablative absolute`, `It is a barbarism of form`],
       answer: 1,
       explain: `<i>Eunuchum</i> takes the accusative of the relative <i>quem</i>, which is the object of <i>dedistī</i>, although as the subject of <i>dedit</i> it should be nominative, <i>eunuchus</i>. This is one case put for another, like Dido’s <i>urbem quam statuo</i>.` },
     { prompt: `What do the grammarians call the figure in which one case is put in place of another?`,
-      options: [`Synthesis`, `Anastrophe`, `Syllepsis`, `Antiptosis`],
+      options: [`Synesis`, `Anastrophe`, `Syllepsis`, `Antiptosis`],
       answer: 3,
-      explain: `Antiptosis (“a case falling for another case”) is the name for one case put for another; synthesis is agreement by the sense.` }
+      explain: `Antiptosis (“a case falling for another case”) is the name for one case put for another; synesis is agreement by the sense.` }
   ]} },
 
 { id: 'order-figures',

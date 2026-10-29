@@ -19,7 +19,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "explain": "<i lang=\"grc\">Πολύτροπον</i> is accusative masculine singular, as <i lang=\"grc\">ἄνδρα</i> is, at the far end of the line. “Tell me, Muse, of the man of many turns, who wandered very far.” (Homer, <i lang=\"grc\">Odyssey</i> 1.1–2)",
    "options": [
     "<i lang=\"grc\">ἄνδρα</i>",
-    "<i lang=\"grc\">Μοῦσα</i>",
+    "<i lang=\"grc\">μοῦσα</i>",
     "<i lang=\"grc\">μοι</i>",
     "<i lang=\"grc\">πολλὰ</i>"
    ],

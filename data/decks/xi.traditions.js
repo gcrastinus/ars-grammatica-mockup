@@ -380,7 +380,7 @@ ARS.decks['xi.traditions'] = {
       answer: 2,
       explain: `The well is the fixed point from which the water departs, so it is the source.` },
     { prompt: `Why is a kāraka not the same as a case ending?`,
-      options: [`It is always marked by one and the same ending`, `A role in the action, which various endings mark`, `It belongs to the noun alone and never to the action`, `It is a kind of compound word, not a relation`],
+      options: [`It is always marked by one and the same ending`, `It is a role in the action, which various endings mark`, `It belongs to the noun alone and never to the action`, `It is a kind of compound word, not a relation`],
       answer: 1,
       explain: `A kāraka is a role in the action signified by the verb. The endings mark the kārakas, but not one for one: the agent is marked differently in an active and a passive sentence.` }
   ] } },
@@ -616,7 +616,7 @@ ARS.decks['xi.traditions'] = {
       answer: 2,
       explain: `Menahem held that many Hebrew roots consist of one or two letters, because in many forms of the verb only one or two letters of the root appear.` },
     { prompt: `How did Judah Ḥayyūj settle the dispute over the root?`,
-      options: [`He showed that all roots have two letters`, `Roots have three consonants, some weak`, `He agreed with Menahem in every case`, `He abandoned the idea of a root`],
+      options: [`He showed that all roots have two letters`, `He showed that roots have three consonants, some of them weak`, `He agreed with Menahem in every case`, `He abandoned the idea of a root`],
       answer: 1,
       explain: `Ḥayyūj showed that Hebrew roots, like Arabic roots, consist regularly of three consonants, and that the letters which seem to disappear are weak letters that drop out or change by rule.` },
     { prompt: `What is a “weak” letter in Hebrew grammar?`,

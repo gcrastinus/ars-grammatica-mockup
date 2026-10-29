@@ -256,7 +256,7 @@ ARS.exercises["lang.iv.la/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Latin word did Latin take from Greek <em lang=\"la\">κωμῳδία</em>?",
-   "explain": "Latin wrote the Greek ω as ō and the diphthong οι as oe: <em lang=\"la\">cōmoedia</em>.",
+   "explain": "Latin wrote the Greek ω as ō and ῳ as oe: <em lang=\"la\">cōmoedia</em>.",
    "options": [
     "<em lang=\"la\">cōmitia</em>",
     "<em lang=\"la\">cōmoedia</em>",

@@ -53,7 +53,7 @@ ARS.exercises['iii.ex.noun-2'] = {
   "counts": {
    "1": 18,
    "2": 18,
-   "3": 13
+   "3": 11
   }
  },
  "limit": "Only the declensions shown in III.6; sentences use verbs only as glossed words. Latin forms are generated from the declension tables and checked exactly.",
@@ -668,40 +668,6 @@ ARS.exercises['iii.ex.noun-2'] = {
    "source": "Vergil, Aeneid, Book I, line 11; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
   },
   {
-   "id": "nn2-L3-06",
-   "set": "B",
-   "level": 3,
-   "deck": "iii.noun-2",
-   "type": "mc",
-   "prompt": "<i>Tantae mōlis erat Rōmānam condere gentem!</i> (“So great a labor it was to found the Roman race!”) (Vergil, Aeneid, Book I, line 33.) What case is <i>tantae mōlis</i>?",
-   "options": [
-    "Dative",
-    "Genitive, describing what the founding was",
-    "Ablative",
-    "Nominative"
-   ],
-   "answer": 1,
-   "explain": "<i>Mōlēs, mōlis</i> (“mass,” “toil”) is third declension; <i>mōlis</i> is genitive singular. The genitive with <i>erat</i> describes the founding: it was “of so great a toil.”",
-   "source": "Vergil, Aeneid, Book I, line 33; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
-  },
-  {
-   "id": "nn2-L3-07",
-   "set": "A",
-   "level": 3,
-   "deck": "iii.noun-2",
-   "type": "mc",
-   "prompt": "<i>Ō tempora, ō mōrēs!</i> (“Oh the times! Oh the manners!”) (Cicero, First Oration against Catiline, chapter 1.) What case are <i>tempora</i> and <i>mōrēs</i>?",
-   "options": [
-    "Vocative, because the times are addressed",
-    "Genitive plural",
-    "Accusative of exclamation",
-    "Ablative of time"
-   ],
-   "answer": 2,
-   "explain": "Cicero does not speak to the times; he exclaims at them. Latin puts the thing exclaimed at in the accusative. <i>Tempora</i> is neuter plural, <i>mōrēs</i> masculine plural.",
-   "source": "Cicero, First Oration against Catiline, chapter 1; text checked against Project Gutenberg eBook #226 (Cicero’s Orations)"
-  },
-  {
    "id": "nn2-L3-08",
    "set": "B",
    "level": 3,
@@ -759,7 +725,7 @@ ARS.exercises['iii.ex.noun-2'] = {
     "brothers’",
     "brothers'",
     "brethren’s",
-    "brethren's"
+    "brethren’s"
    ],
    "explain": "The plural is “brothers,” which already ends in “-s,” so the possessive adds only the apostrophe: “brothers’.” The older plural “brethren” takes “’s”: “brethren’s.”",
    "source": "Genesis 4:9, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"

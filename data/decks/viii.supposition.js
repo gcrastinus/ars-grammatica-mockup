@@ -103,7 +103,7 @@ ARS.decks['viii.supposition'] = {
       answer: 2,
       explain: `A word by itself has signification, which it has from its imposition, but supposition belongs only to a term used in a proposition. In a list nothing is said of “harbor,” so it stands for nothing.` },
     { prompt: `In “A harbor froze last winter,” what does “harbor” signify, and what does it stand for?`,
-      options: [`It signifies one harbor; it stands for the kind`, `Kind of place; one harbor`, `It signifies the word; it stands for the sound`, `It signifies nothing until it stands for something`],
+      options: [`It signifies one harbor; it stands for the kind`, `It signifies a kind of place; it stands for one harbor`, `It signifies the word; it stands for the sound`, `It signifies nothing until it stands for something`],
       answer: 1,
       explain: `The word signifies the same kind of place in every sentence; in this statement it stands for some one harbor that froze.` },
     { prompt: `Why does supposition belong chiefly to logic rather than to grammar?`,
@@ -218,7 +218,7 @@ ARS.decks['viii.supposition'] = {
       answer: 2,
       explain: `Only a word can have letters, so the predicate shows that “elm” stands for itself as a word.` },
     { prompt: `In “Some meadow is not green,” what supposition does “green” have, and why?`,
-      options: [`Determinate, because of “some”`, `Distributed by “not”`, `Merely confused, as a predicate`, `Discrete, because it is an adjective`],
+      options: [`Determinate, because of “some”`, `Confused and distributive, because of “not”`, `Merely confused, as a predicate`, `Discrete, because it is an adjective`],
       answer: 1,
       explain: `A negative sign distributes every term that follows it, so “green” stands for each green thing: the meadow is not this green thing, and not that one.` }
   ] } },

@@ -130,7 +130,7 @@ ARS.decks["lang.ii.es/syllable"] = {
        "<i lang=\"es\">grave</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"es\">Esdrújula</i>, like <i lang=\"es\">música</i>."
+      "explain": "A word stressed on the third from last syllable, like <i lang=\"es\">música</i>, is an <i lang=\"es\">esdrújula</i>."
      }
     ]
    }

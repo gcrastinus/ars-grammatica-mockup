@@ -222,7 +222,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "On St Thomas’s account, when Scripture speaks of God’s arm, the literal sense is…",
+   "prompt": "On St. Thomas’s account, when Scripture speaks of God’s arm, the literal sense is…",
    "explain": "The literal sense is not the figure itself but what is figured.",
    "options": [
     "What the figure signifies: his power to act",
@@ -431,9 +431,9 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "<em lang=\"la\">lucus</em>, a grove, said to be named because it is not lit (<em lang=\"la\">quod non luceat</em>), is Donatus’s example of…",
-   "explain": "Donatus: antiphrasis signifies by the contrary, as <em lang=\"la\">lucus</em> from not giving light, and <em lang=\"la\">bellum</em> from being anything but fine. a word that means the contrary of its source",
+   "explain": "Donatus: antiphrasis signifies by the contrary, as <em lang=\"la\">lucus</em> from not giving light, and <em lang=\"la\">bellum</em> from being anything but fine.",
    "options": [
-    "Antiphrasis",
+    "Antiphrasis: a word that means the contrary of its source",
     "Onomatopoeia: a name made from the sound",
     "Metonymy: the maker for the thing made",
     "Periphrasis: many words for one"
@@ -447,9 +447,9 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "<em lang=\"la\">nive candidior</em>, “whiter than snow,” and <em lang=\"la\">tardior testudine</em>, “slower than a tortoise,” are…",
-   "explain": "Donatus: hyperbole exceeds belief, to increase (<em lang=\"la\">nive candidior</em>) or to diminish (<em lang=\"la\">tardior testudine</em>). beyond belief, to increase or to diminish",
+   "explain": "Donatus: hyperbole exceeds belief, to increase (<em lang=\"la\">nive candidior</em>) or to diminish (<em lang=\"la\">tardior testudine</em>).",
    "options": [
-    "Hyperbole",
+    "Hyperbole: beyond belief, to increase or to diminish",
     "Metaphor: from the living to the lifeless",
     "Synecdoche: the part for the whole",
     "Irony: the contrary of what is said"
@@ -495,9 +495,9 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "<em lang=\"la\">post aliquot … aristas</em>, “after some ears of grain,” for “after some years” (Eclogues I.69), is…",
-   "explain": "Ears of grain stand for summers, and summers for years. Donatus gives this for metalepsis, which goes by degrees to what is meant. a step from one thing to another, by stages",
+   "explain": "Ears of grain stand for summers, and summers for years. Donatus gives this for metalepsis, which goes by degrees to what is meant.",
    "options": [
-    "Metalepsis",
+    "Metalepsis: a step from one thing to another, by stages",
     "Hyperbole: more than the truth",
     "Onomatopoeia: a name from a sound",
     "Antiphrasis: the contrary meaning"

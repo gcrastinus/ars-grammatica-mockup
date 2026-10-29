@@ -58,7 +58,7 @@ ARS.decks["lang.ii.es/orthography"] = {
     "id": "q-es-sounds",
     "variants": [
      {
-      "prompt": "Which letters write the <i lang=\"es\">k</i> sound before <i lang=\"es\">e</i> and <i lang=\"es\">i</i>?",
+      "prompt": "In native Spanish words, which letters write the <i lang=\"es\">k</i> sound before <i lang=\"es\">e</i> and <i lang=\"es\">i</i>?",
       "options": [
        "<i lang=\"es\">c</i>",
        "<i lang=\"es\">k</i>",
@@ -66,7 +66,7 @@ ARS.decks["lang.ii.es/orthography"] = {
        "<i lang=\"es\">qu</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"es\">Queso</i>, <i lang=\"es\">quiero</i>."
+      "explain": "<i lang=\"es\">Qu</i> writes the <i lang=\"es\">k</i> sound before <i lang=\"es\">e</i> and <i lang=\"es\">i</i>, as in <i lang=\"es\">queso</i> and <i lang=\"es\">quiero</i>."
      },
      {
       "prompt": "Why does <i lang=\"es\">cigüeña</i> (“stork”) have two dots over the <i lang=\"es\">u</i>?",
@@ -163,7 +163,7 @@ ARS.decks["lang.ii.es/orthography"] = {
        "<i lang=\"es\">fuè</i>"
       ],
       "answer": 0,
-      "explain": "A word of one syllable takes no accent."
+      "explain": "A word of one syllable takes no accent, unless the accent tells two words apart."
      },
      {
       "prompt": "Why is <i lang=\"es\">México</i> written with <i lang=\"es\">x</i>?",
@@ -206,7 +206,7 @@ ARS.decks["lang.ii.es/orthography"] = {
        "<i lang=\"es\">güion</i>"
       ],
       "answer": 0,
-      "explain": "Guion is counted as one syllable for the written accent, so it takes none."
+      "explain": "<i lang=\"es\">Guion</i> is counted as one syllable for the written accent, so it takes none."
      },
      {
       "prompt": "Which spelling of “3 or 4” follows the rules of 2010?",

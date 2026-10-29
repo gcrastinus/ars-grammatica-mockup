@@ -1057,7 +1057,7 @@ ARS.exercises['i.review'] = {
     "<i>mēnsa</i> (“table”)",
     "<i>aut</i> (“or”)",
     "<i>sine</i> (“without”)",
-    "<i>nisī</i> (“unless”)"
+    "<i>nisi</i> (“unless”)"
    ],
    "bins": [
     "Categorematic",
@@ -1069,7 +1069,7 @@ ARS.exercises['i.review'] = {
     1,
     1
    ],
-   "explain": "<i>Mēnsa</i> signifies something by itself, a piece of furniture. <i>Aut</i>, <i>sine</i>, and <i>nisī</i> signify only together with other words. <i>Aut</i> joins alternatives, <i>sine</i> means “without,” and <i>nisī</i> sets a condition."
+   "explain": "<i>Mēnsa</i> signifies something by itself, a piece of furniture. <i>Aut</i>, <i>sine</i>, and <i>nisi</i> signify only together with other words. <i>Aut</i> joins alternatives, <i>sine</i> means “without,” and <i>nisi</i> sets a condition."
   },
   {
    "id": "sv-con-2",
@@ -1583,7 +1583,7 @@ ARS.exercises['i.review'] = {
     "One word imposed with more than one meaning"
    ],
    "answer": 1,
-   "explain": "“Any one” (any single one of a group) and “anyone” (any person at all) differ only in whether the letters are read as one word or as two. Aristotle names ambiguities of this kind composition and division."
+   "explain": "“Any one” (any single one of a group) and “anyone” (any person at all) differ only in whether the letters are read as one word or as two."
   },
   {
    "id": "ri-C13",
@@ -1833,12 +1833,12 @@ ARS.exercises['i.review'] = {
    "prompt": "Which Latin word is categorematic?",
    "options": [
     "<i>omnis</i> (“every”)",
-    "<i>non</i> (“not”)",
-    "<i>si</i> (“if”)",
+    "<i>nōn</i> (“not”)",
+    "<i>sī</i> (“if”)",
     "<i>equus</i> (“horse”)"
    ],
    "answer": 3,
-   "explain": "<i>Equus</i> signifies something definite by itself, a kind of animal, and it can be what a sentence is about. <i>Omnis</i>, <i>non</i>, and <i>si</i> signify only with other words.",
+   "explain": "<i>Equus</i> signifies something definite by itself, a kind of animal, and it can be what a sentence is about. <i>Omnis</i>, <i>nōn</i>, and <i>sī</i> signify only with other words.",
    "type": "mc"
   },
   {
@@ -1989,8 +1989,8 @@ ARS.exercises['i.review'] = {
    "entries": [
     "A green lamp used by agreement to mean “go”",
     "The letters “SOS” used as a call for help",
-    "A handshake that a people uses for greeting",
-    "A black armband worn to show mourning"
+    "Smoke rising from a chimney",
+    "Ice on a pond in the morning"
    ],
    "bins": [
     "Natural sign",
@@ -1999,10 +1999,10 @@ ARS.exercises['i.review'] = {
    "answer": [
     1,
     1,
-    1,
-    1
+    0,
+    0
    ],
-   "explain": "A green lamp, the letters “SOS,” a handshake, and a black armband have their meaning from the custom of a people. Each signifies because someone means it to signify, so each is a conventional sign."
+   "explain": "A green lamp and the letters “SOS” have their meaning from the custom of a people: each signifies because someone means it to signify, so each is a conventional sign. Smoke and ice signify fire and cold by nature, whether or not anyone means them to, so each is a natural sign."
   },
   {
    "id": "ri-B03",

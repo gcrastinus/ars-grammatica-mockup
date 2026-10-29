@@ -336,7 +336,7 @@ ARS.exercises["lang.iii-indecl.es/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <i lang=\"es\"><b>Vaya</b>, se acabó el pan.</i> (“Well, the bread is gone.”)",
-   "explain": "<i lang=\"es\">Vaya</i> is an interjection.",
+   "explain": "<i lang=\"es\">Vaya</i>, a form of the verb <i lang=\"es\">ir</i> used by itself, expresses a feeling and is not joined to the other words, so it is an interjection.",
    "options": [
     "adverb",
     "interjection",

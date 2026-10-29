@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the subject. What case does that call for in Latin? The <b>farmer</b> praises the girl.",
-   "explain": "Nominative. the subject, that is, what the sentence is about and what a linking verb attaches to",
+   "explain": "The subject is in the nominative.",
    "options": [
     "Nominative",
     "Genitive",
@@ -34,7 +34,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the direct object. What case does that call for in Latin? The farmer praises the <b>girl</b>.",
-   "explain": "Accusative. the direct object, that is, what the action falls upon, and also motion toward",
+   "explain": "The direct object is in the accusative.",
    "options": [
     "Accusative",
     "Nominative",
@@ -52,7 +52,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the indirect object. What case does that call for in Latin? The queen gave the <b>sailor</b> a reward.",
-   "explain": "Dative. the one to whom or for whom the thing is done (English “to” or “for”)",
+   "explain": "The indirect object is in the dative.",
    "options": [
     "Dative",
     "Nominative",
@@ -70,7 +70,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the possessor. What case does that call for in Latin? This is the <b>king’s</b> horse.",
-   "explain": "Genitive. possession, and the whole of which something is a part (English “of”)",
+   "explain": "The possessor is in the genitive.",
    "options": [
     "Genitive",
     "Nominative",
@@ -88,7 +88,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the means or instrument. What case does that call for in Latin? He cut the rope with a <b>sword</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "The means is in the ablative.",
    "options": [
     "Ablative",
     "Nominative",
@@ -106,7 +106,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the one addressed. What case does that call for in Latin? <b>Master</b>, the ship has come in.",
-   "explain": "Vocative. the one addressed, called by name",
+   "explain": "The one addressed is in the vocative.",
    "options": [
     "Vocative",
     "Nominative",
@@ -124,7 +124,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the source (motion or separation from). What case does that call for in Latin? The soldiers came out of the <b>city</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "Motion from a place is shown by the ablative.",
    "options": [
     "Ablative",
     "Nominative",
@@ -142,7 +142,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is accompaniment. What case does that call for in Latin? The teacher walked with his <b>friend</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "Accompaniment is shown by the ablative, with <em lang=\"la\">cum</em>.",
    "options": [
     "Ablative",
     "Nominative",
@@ -160,7 +160,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the subject. What case does that call for in Latin? The <b>soldiers</b> held the wall.",
-   "explain": "Nominative. the subject, that is, what the sentence is about and what a linking verb attaches to",
+   "explain": "The subject is in the nominative.",
    "options": [
     "Nominative",
     "Genitive",
@@ -178,7 +178,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the direct object. What case does that call for in Latin? The boy carried the <b>book</b> home.",
-   "explain": "Accusative. the direct object, that is, what the action falls upon, and also motion toward",
+   "explain": "The direct object is in the accusative.",
    "options": [
     "Accusative",
     "Nominative",
@@ -196,7 +196,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the indirect object. What case does that call for in Latin? She told the <b>children</b> a story.",
-   "explain": "Dative. the one to whom or for whom the thing is done (English “to” or “for”)",
+   "explain": "The indirect object is in the dative.",
    "options": [
     "Dative",
     "Nominative",
@@ -214,7 +214,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the possessor. What case does that call for in Latin? The roof of the <b>temple</b> had fallen.",
-   "explain": "Genitive. possession, and the whole of which something is a part (English “of”)",
+   "explain": "The possessor is in the genitive.",
    "options": [
     "Genitive",
     "Nominative",
@@ -232,7 +232,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the means or instrument. What case does that call for in Latin? They opened the gate with a <b>key</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "The means is in the ablative.",
    "options": [
     "Ablative",
     "Nominative",
@@ -250,7 +250,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the one addressed. What case does that call for in Latin? <b>Friends</b>, hear me.",
-   "explain": "Vocative. the one addressed, called by name",
+   "explain": "The one addressed is in the vocative.",
    "options": [
     "Vocative",
     "Nominative",
@@ -268,7 +268,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is the source (motion or separation from). What case does that call for in Latin? The messenger rode from the <b>camp</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "Motion from a place is shown by the ablative.",
    "options": [
     "Ablative",
     "Nominative",
@@ -286,7 +286,7 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "The marked word is accompaniment. What case does that call for in Latin? He fought alongside his <b>brother</b>.",
-   "explain": "Ablative. means, manner, accompaniment, separation, and place where (English “by, with, from, in”)",
+   "explain": "Accompaniment is shown by the ablative, with <em lang=\"la\">cum</em>.",
    "options": [
     "Ablative",
     "Nominative",
@@ -488,6 +488,38 @@ ARS.exercises["lang.iii-decl.la/cases-ex"] = {
     "Indeclinable: a preposition"
    ],
    "answer": 3
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:cs16",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "<em lang=\"la\">Tantae mōlis erat Rōmānam condere gentem!</em> (“So great a labor it was to found the Roman race!”) (Virgil, <i>Aeneid</i> I.33.) What case is <em lang=\"la\">tantae mōlis</em>?",
+   "explain": "<em lang=\"la\">Mōlēs, mōlis</em> (“mass,” “toil”) is third declension; <em lang=\"la\">mōlis</em> is genitive singular. The genitive with <em lang=\"la\">erat</em> describes the founding: it was “of so great a toil.”",
+   "options": [
+    "Dative",
+    "Genitive, describing what the founding was",
+    "Ablative",
+    "Nominative"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "lang.iii-decl.la/cases-ex:cs17",
+   "set": "C",
+   "deck": "lang.iii-decl.la/cases-ex",
+   "section": "iii",
+   "type": "mc",
+   "prompt": "<em lang=\"la\">Ō tempora, ō mōrēs!</em> (“Oh the times! Oh the manners!”) (Cicero, <i>In Catilīnam</i> I.2.) What case are <em lang=\"la\">tempora</em> and <em lang=\"la\">mōrēs</em>?",
+   "explain": "Cicero does not speak to the times; he exclaims at them. Latin puts the thing exclaimed at in the accusative. <em lang=\"la\">Tempora</em> is neuter plural, <em lang=\"la\">mōrēs</em> masculine plural.",
+   "options": [
+    "Vocative, because the times are addressed",
+    "Genitive plural",
+    "Accusative of exclamation",
+    "Ablative of time"
+   ],
+   "answer": 2
   }
  ]
 };

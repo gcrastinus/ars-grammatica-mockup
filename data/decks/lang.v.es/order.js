@@ -108,7 +108,7 @@ ARS.decks["lang.v.es/order"] = {
        "The first is an elderly friend, and the second is one of long standing"
       ],
       "answer": 0,
-      "explain": "Placed before the noun, <i lang=\"es\">viejo</i> is evaluative and means \"of long standing\"; placed after it, <i lang=\"es\">viejo</i> describes age."
+      "explain": "Placed before the noun, <i lang=\"es\">viejo</i> is evaluative and means “of long standing”; placed after it, <i lang=\"es\">viejo</i> describes age."
      },
      {
       "prompt": "Which of these adjectives usually stands before the noun?",

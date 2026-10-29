@@ -25,7 +25,7 @@ ARS.decks["lang.vi.es/usage"] = {
       "explain": "The norm arises from accepted usage and is imposed on it, not by the decision of an authority, but because it assures a shared code."
      },
      {
-      "prompt": "Why does the Academy's dictionary seldom use only the words “correct” and “incorrect”?",
+      "prompt": "Why does the Academy’s dictionary seldom use only the words “correct” and “incorrect”?",
       "options": [
        "The norm is relative and changes",
        "The words are not found in Spanish",
@@ -36,7 +36,7 @@ ARS.decks["lang.vi.es/usage"] = {
       "explain": "The norm depends on the situation and on the time, and so the dictionary gives graded judgments, from the censure of an error to the recommendation of what is merely preferable."
      },
      {
-      "prompt": "A construction was condemned by grammarians in the past, and educated speakers now use it. What follows from the Academy's principle?",
+      "prompt": "A construction was condemned by grammarians in the past, and educated speakers now use it. What follows from the Academy’s principle?",
       "options": [
        "It may belong to the norm today",
        "It remains incorrect, because the norm never changes",

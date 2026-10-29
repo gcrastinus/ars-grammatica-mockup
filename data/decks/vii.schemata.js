@@ -165,7 +165,7 @@ ARS.decks['vii.schemata'] = {
       answer: 0,
       explain: `The plain construction would put “and” before “shut”; the series has no conjunction at all, so the figure is asyndeton (Donatus’s dialyton).` },
     { prompt: `“The farmer plowed, sowed, and reaped.” Which figure does the series show?`,
-      options: [`Polysyndeton`, `Asyndeton`, `Anaphora`, `Neither`],
+      options: [`Polysyndeton`, `Asyndeton`, `Anaphora`, `Neither polysyndeton nor asyndeton`],
       answer: 3,
       explain: `The series has one conjunction before the last member, which is the number the construction requires. So it is the plain construction, neither polysyndeton nor asyndeton.` }
   ] } },

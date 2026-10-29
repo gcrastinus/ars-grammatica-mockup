@@ -25,7 +25,7 @@ ARS.decks["lang.iv.es/etymology"] = {
       "explain": "<i lang=\"es\">Dedo</i> comes from <i lang=\"la\">digitus</i> and has changed in sound; the others have kept the Latin form."
      },
      {
-      "prompt": "Which Spanish word is a cultismo?",
+      "prompt": "Which Spanish word is a <i lang=\"es\">cultismo</i>?",
       "options": [
        "<i lang=\"es\">hierro</i>",
        "<i lang=\"es\">estrecho</i>",

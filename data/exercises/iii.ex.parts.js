@@ -561,7 +561,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 1,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“A grey <b>heron</b> stood in the shallows.” What part of speech is the marked word?",
+   "prompt": "“A gray <b>heron</b> stood in the shallows.” What part of speech is the marked word?",
    "options": [
     "Noun",
     "Adverb",
@@ -1025,7 +1025,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that <b>forbidden</b> tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that <b>forbidden</b> tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word?",
    "options": [
     "Verb",
     "Participle",
@@ -1034,7 +1034,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "“Forbidden” is formed from the verb “forbid” but is joined to the noun “tree,” as a noun is. It shares in both, so it is a participle.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-02",
@@ -1042,7 +1042,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree <b>whose</b> mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree <b>whose</b> mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word?",
    "options": [
     "Pronoun",
     "Conjunction",
@@ -1051,7 +1051,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Whose” stands in place of a noun already named and joins its clause to it, so it is a pronoun, a relative pronoun.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-03",
@@ -1059,7 +1059,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / <b>Brought</b> death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / <b>Brought</b> death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word?",
    "options": [
     "Participle",
     "Noun",
@@ -1068,7 +1068,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "“Brought” says what the taste did and signifies past time; it is the main word of its clause, so it is a verb.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-04",
@@ -1076,7 +1076,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, <b>till</b> one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, <b>till</b> one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word?",
    "options": [
     "Preposition",
     "Adverb",
@@ -1085,7 +1085,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 3,
    "explain": "“Till” joins a whole clause, “one greater Man / Restore us,” to what goes before, so here it is a conjunction.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-05",
@@ -1093,7 +1093,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / <b>Sing</b>, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / <b>Sing</b>, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word?",
    "options": [
     "Verb",
     "Noun",
@@ -1102,7 +1102,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Sing” bids the Muse to act; it is a verb in the imperative mood. The long period of six lines waits for this verb.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-06",
@@ -1110,7 +1110,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the <b>blissful</b> seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) In Donatus’s eight parts, what part of speech is the marked word?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the <b>blissful</b> seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) In Donatus’s eight parts, what part of speech is the marked word?",
    "options": [
     "Adverb",
     "Noun",
@@ -1119,7 +1119,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "Donatus counts the adjective as a kind of noun. “Blissful” names a quality of “seat,” so in the eight parts it is a noun.",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L3-07",
@@ -1314,7 +1314,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“It is a truth <b>universally</b> acknowledged, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, Pride and Prejudice, chapter 1.) What part of speech is the marked word?",
+   "prompt": "“It is a truth <b>universally</b> acknowledged, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) What part of speech is the marked word?",
    "options": [
     "Adverb",
     "Noun",
@@ -1323,7 +1323,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Universally” tells how the truth is acknowledged and is added to “acknowledged,” so it is an adverb.",
-   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342"
+   "source": "Jane Austen, <i>Pride and Prejudice</i>, chapter 1; text checked against Project Gutenberg eBook #1342"
   },
   {
    "id": "prt-L3-19",
@@ -1331,7 +1331,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“It is a truth universally <b>acknowledged</b>, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, Pride and Prejudice, chapter 1.) What part of speech is the marked word?",
+   "prompt": "“It is a truth universally <b>acknowledged</b>, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) What part of speech is the marked word?",
    "options": [
     "Verb",
     "Participle",
@@ -1340,7 +1340,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "“Acknowledged” comes from the verb “acknowledge” and is joined to “truth,” as a noun is. It is a participle.",
-   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342"
+   "source": "Jane Austen, <i>Pride and Prejudice</i>, chapter 1; text checked against Project Gutenberg eBook #1342"
   },
   {
    "id": "prt-L3-20",
@@ -1348,7 +1348,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid <b>me</b> down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word?",
+   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid <b>me</b> down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word?",
    "options": [
     "Noun",
     "Adverb",
@@ -1357,7 +1357,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "“Me” stands in place of the speaker’s name; “laid me down” means “lay down.” It is a pronoun.",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L3-21",
@@ -1365,7 +1365,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“<b>As</b> I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word?",
+   "prompt": "“<b>As</b> I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word?",
    "options": [
     "Preposition",
     "Adverb",
@@ -1374,7 +1374,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 3,
    "explain": "“As” joins the clause “I walked through the wilderness” to the main clause “I lighted on a certain place,” so it is a conjunction.",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L3-22",
@@ -1382,7 +1382,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 3,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man <b>clothed</b> with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word?",
+   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man <b>clothed</b> with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word?",
    "options": [
     "Participle",
     "Verb",
@@ -1391,7 +1391,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Clothed” comes from the verb “clothe” and is joined to “man,” as a noun is. It is a participle.",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L4-01",
@@ -1399,7 +1399,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that <b>forbidden</b> tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that <b>forbidden</b> tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Participle, joined to “fruit”",
     "Verb, with the subject “taste”",
@@ -1408,7 +1408,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "“Forbidden” is a participle, and it agrees with “tree”: “that forbidden tree.”",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L4-02",
@@ -1416,7 +1416,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / <b>Brought</b> death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / <b>Brought</b> death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Verb, with the subject “taste”",
     "Verb, with the subject “tree”",
@@ -1425,7 +1425,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Brought” is a verb. What brought death into the world? “Whose mortal taste,” so its subject is “taste.”",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L4-03",
@@ -1433,7 +1433,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / <b>Restore</b> us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / <b>Restore</b> us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Verb, with the subject “Muse”",
     "Noun, joined to “Eden”",
@@ -1442,7 +1442,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 3,
    "explain": "“Restore” is a verb, and its subject is “one greater Man”: “till one greater Man / Restore us.”",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L4-04",
@@ -1450,7 +1450,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / <b>Sing</b>, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / <b>Sing</b>, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Verb, with the subject “woe”",
     "Verb, addressed to the “Muse”",
@@ -1459,7 +1459,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "“Sing” is a verb in the imperative, and the one bidden to sing is the “Heavenly Muse.”",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L4-05",
@@ -1467,7 +1467,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose <b>mortal</b> taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, Paradise Lost, Book I, lines 1 to 6.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“Of Man’s first disobedience, and the fruit / Of that forbidden tree whose <b>mortal</b> taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse” (Milton, <i>Paradise Lost</i> I.1–6.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Noun, joined to “death”",
     "Adverb, added to “Brought”",
@@ -1476,7 +1476,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "In Donatus’s eight parts “mortal” is a noun (an adjective), and it agrees with “taste”: “whose mortal taste.”",
-   "source": "Milton, Paradise Lost, Book I, lines 1 to 6; text checked against Project Gutenberg eBook #26 (Paradise Lost), lines 1 to 6"
+   "source": "Milton, <i>Paradise Lost</i> I.1–6; text checked against Project Gutenberg eBook #26 (<i>Paradise Lost</i>), lines 1 to 6"
   },
   {
    "id": "prt-L4-06",
@@ -1569,7 +1569,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“It is a truth <b>universally</b> acknowledged, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, Pride and Prejudice, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“It is a truth <b>universally</b> acknowledged, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Adverb, added to “is”",
     "Adverb, added to “acknowledged”",
@@ -1578,7 +1578,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "“Universally” is an adverb, and it tells how the truth is acknowledged.",
-   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342"
+   "source": "Jane Austen, <i>Pride and Prejudice</i>, chapter 1; text checked against Project Gutenberg eBook #1342"
   },
   {
    "id": "prt-L4-12",
@@ -1586,7 +1586,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“It is a truth universally <b>acknowledged</b>, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, Pride and Prejudice, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“It is a truth universally <b>acknowledged</b>, that a single man in possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Participle, joined to “man”",
     "Verb, with the subject “It”",
@@ -1595,7 +1595,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "“Acknowledged” is a participle, and it agrees with “truth”: “a truth universally acknowledged.”",
-   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342"
+   "source": "Jane Austen, <i>Pride and Prejudice</i>, chapter 1; text checked against Project Gutenberg eBook #1342"
   },
   {
    "id": "prt-L4-13",
@@ -1603,7 +1603,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“It is a truth universally acknowledged, that a single man <b>in</b> possession of a good fortune must be in want of a wife.” (Jane Austen, Pride and Prejudice, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“It is a truth universally acknowledged, that a single man <b>in</b> possession of a good fortune must be in want of a wife.” (Jane Austen, <i>Pride and Prejudice</i>, chapter 1.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Preposition, governing “fortune”",
     "Adverb, added to “single”",
@@ -1612,7 +1612,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 3,
    "explain": "This first “in” is a preposition, and its object is “possession”; “of a good fortune” then depends on “possession.”",
-   "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342"
+   "source": "Jane Austen, <i>Pride and Prejudice</i>, chapter 1; text checked against Project Gutenberg eBook #1342"
   },
   {
    "id": "prt-L4-14",
@@ -1620,7 +1620,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid <b>me</b> down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid <b>me</b> down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Pronoun, the object of “laid”",
     "Pronoun, the subject of “laid”",
@@ -1629,7 +1629,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 0,
    "explain": "“Me” is a pronoun, and it is the object of “laid”: “I laid me down.” The subject is “I.”",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L4-15",
@@ -1637,7 +1637,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man <b>clothed</b> with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“As I walked through the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man <b>clothed</b> with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Participle, joined to “rags”",
     "Participle, joined to “man”",
@@ -1646,7 +1646,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 1,
    "explain": "“Clothed” is a participle, and it agrees with “man”: “a man clothed with rags.”",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L4-16",
@@ -1654,7 +1654,7 @@ ARS.exercises['iii.ex.parts'] = {
    "level": 4,
    "deck": "iii.parts",
    "type": "mc-marked",
-   "prompt": "“As I walked <b>through</b> the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, The Pilgrim’s Progress, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
+   "prompt": "“As I walked <b>through</b> the wilderness of this world, I lighted on a certain place where was a Den, and I laid me down in that place to sleep: and, as I slept, I dreamed a dream. I dreamed, and behold, I saw a man clothed with rags, standing in a certain place, with his face from his own house, a book in his hand, and a great burden upon his back.” (John Bunyan, <i>The Pilgrim’s Progress</i>, opening.) What part of speech is the marked word, and to what word is it joined in the construction?",
    "options": [
     "Preposition, governing “world”",
     "Adverb, added to “walked”",
@@ -1663,7 +1663,7 @@ ARS.exercises['iii.ex.parts'] = {
    ],
    "answer": 2,
    "explain": "“Through” is a preposition, and its object is “the wilderness”; “of this world” then depends on “wilderness.”",
-   "source": "John Bunyan, The Pilgrim’s Progress, opening; text checked against Project Gutenberg eBook #131"
+   "source": "John Bunyan, <i>The Pilgrim’s Progress</i>, opening; text checked against Project Gutenberg eBook #131"
   },
   {
    "id": "prt-L4-17",

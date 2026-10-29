@@ -32,7 +32,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which sentence shows hyperbaton?",
-   "explain": "In <i lang=\"es\">Del árbol cubría la sombra el camino</i> the phrase <i lang=\"es\">del árbol</i> is separated by the verb from the noun it belongs to, <i lang=\"es\">la sombra</i>, as in Góngora's <i lang=\"es\">Era del año la estación florida</i>. In the other sentences <i lang=\"es\">la sombra del árbol</i> stands together, whatever the order of subject and verb.",
+   "explain": "In <i lang=\"es\">Del árbol cubría la sombra el camino</i> the phrase <i lang=\"es\">del árbol</i> is separated by the verb from the noun it belongs to, <i lang=\"es\">la sombra</i>, as in Góngora’s <i lang=\"es\">Era del año la estación florida</i>. In the other sentences <i lang=\"es\">la sombra del árbol</i> stands together, whatever the order of subject and verb.",
    "options": [
     "<i lang=\"es\">La sombra del árbol cubría el camino</i>",
     "<i lang=\"es\">Cubría el camino la sombra del árbol</i>",
@@ -116,7 +116,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "options": [
     "It is a line of verse with eleven syllables",
     "It separates a subject from its verb",
-    "A short saying in common use",
+    "It is a short saying in common use",
     "It carries a word away from its proper sense"
    ],
    "answer": 2
@@ -128,7 +128,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "What does the reader do to understand a hyperbaton?",
-   "explain": "The figure is understood by comparing the poet's order with the regular order.",
+   "explain": "The figure is understood by comparing the poet’s order with the regular order.",
    "options": [
     "Counts the syllables of the line",
     "Restores the regular order",
@@ -175,7 +175,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "deck": "lang.vii.es/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A speaker answers a friend's complaint with a proverb. What does the proverb do?",
+   "prompt": "A speaker answers a friend’s complaint with a proverb. What does the proverb do?",
    "explain": "A proverb states a general truth, and the speaker applies it to the case in hand.",
    "options": [
     "It changes the meaning of one word",
@@ -292,7 +292,7 @@ ARS.exercises["lang.vii.es/figures-ex"] = {
    "options": [
     "It always uses a word in a wrong sense",
     "It is always found in prose",
-    "A departure made with art",
+    "It is a departure made with art",
     "It is an error of agreement"
    ],
    "answer": 2

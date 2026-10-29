@@ -453,7 +453,7 @@ ARS.exercises['vi.ex.usage'] = {
    "set": "C",
    "deck": "vi.usage",
    "type": "mc",
-   "prompt": "In which kind of error does the fault lie in the arrangement of words rather than in a single word?",
+   "prompt": "Which kind of error lies in the arrangement of words rather than in a single word?",
    "options": [
     "The barbarism",
     "The impropriety",

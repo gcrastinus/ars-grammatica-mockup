@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"de\">könnte gehalten werden</em> is…",
-   "explain": "<em lang=\"de\">Gehalten werden</em> is the passive infinitive, and <em lang=\"de\">könnte</em> is the past subjunctive of <em lang=\"de\">können</em>. could be held",
+   "explain": "<em lang=\"de\">Gehalten werden</em> is the passive infinitive, and <em lang=\"de\">könnte</em> is the Konjunktiv II of <em lang=\"de\">können</em>. could be held",
    "options": [
     "A subjunctive",
     "A future active",

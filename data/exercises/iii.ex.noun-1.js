@@ -67,7 +67,7 @@ ARS.exercises['iii.ex.noun-1'] = {
     "“city”"
    ],
    "answer": 0,
-   "explain": "“Carthage” names one particular city, so it is a proper noun. “Harbor,” “emperor,” and “city” each name any member of a kind, so they are common nouns.",
+   "explain": "“Carthage” names one particular city, so it is a proper noun. “Harbor,” “amphitheater,” and “city” each name any member of a kind, so they are common nouns.",
    "level": 1
   },
   {
@@ -590,8 +590,7 @@ ARS.exercises['iii.ex.noun-1'] = {
    "type": "form",
    "prompt": "<i>Arma virumque canō, Troiae quī prīmus ab ōrīs</i> (“Of arms I sing and the man who first from the shores of Troy …”). (Vergil, Aeneid, Book I, line 1.) <i>Prīmus</i> (“first”) is a superlative without a positive. Type its comparative, masculine nominative singular.",
    "accept": [
-    "prior",
-    "prīor"
+    "prior"
    ],
    "macrons": false,
    "explain": "The degrees are <i>prior</i> (“former,” “first of two”) and <i>prīmus</i> (“first”); the positive is lacking, and the preposition <i>prae</i> (“before”) stands behind them.",

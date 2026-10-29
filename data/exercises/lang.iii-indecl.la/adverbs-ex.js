@@ -98,7 +98,7 @@ ARS.exercises["lang.iii-indecl.la/adverbs-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which word is an adverb?",
-   "explain": "<em lang=\"la\">Saepe</em> (“often”) is an adverb; the others are a conjunction, a preposition, and a conjunction.",
+   "explain": "<em lang=\"la\">Saepe</em> (“often”) is an adverb; the others are a conjunction (<em lang=\"la\">sed</em>) and two prepositions (<em lang=\"la\">sine</em>, <em lang=\"la\">propter</em>).",
    "options": [
     "<em lang=\"la\">sed</em>",
     "<em lang=\"la\">sine</em>",

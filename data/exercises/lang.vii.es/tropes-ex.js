@@ -16,7 +16,7 @@ ARS.exercises["lang.vii.es/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which trope is <i lang=\"es\">la primavera de la vida</i> (“the spring of life”)?",
-   "explain": "Youth is called spring because of a likeness between them, and this is metaphor. The Academy's dictionary gives this phrase as its example.",
+   "explain": "Youth is called spring because of a likeness between them, and this is metaphor. The Academy’s dictionary gives this phrase as its example.",
    "options": [
     "Metonymy",
     "Metaphor",
@@ -131,7 +131,7 @@ ARS.exercises["lang.vii.es/tropes-ex"] = {
    "explain": "A trope carries a word away from its proper signification, whereas a scheme is a figure of arrangement.",
    "options": [
     "A trope is found only in prose; a scheme only in verse",
-    "A trope changes a word's sense; a scheme arranges words",
+    "A trope changes a word’s sense; a scheme arranges words",
     "A trope uses a verb; a scheme does not",
     "A trope repeats a word; a scheme never does"
    ],
@@ -354,7 +354,7 @@ ARS.exercises["lang.vii.es/tropes-ex"] = {
    "prompt": "Which statement about anaphora is correct?",
    "explain": "Anaphora arranges repeated words, and none is carried away from its proper sense.",
    "options": [
-    "A scheme: its words keep their sense",
+    "It is a scheme, and its words keep their sense",
     "It is a trope, and it changes the sense of a word",
     "It is a trope that uses a likeness",
     "It is a scheme that crosses the order of phrases"

@@ -87,7 +87,7 @@ ARS.decks["lang.v.es/clauses"] = {
        "<i lang=\"es\">Cerró porque no vendía nada</i>"
       ],
       "answer": 2,
-      "explain": "The light is not the cause of the person's being at home but the reason for saying so."
+      "explain": "The light is not the cause of the person’s being at home but the reason for saying so."
      }
     ]
    }
@@ -237,7 +237,7 @@ ARS.decks["lang.v.es/clauses"] = {
        "<i lang=\"es\">Dijo que vendría al otro día</i>"
       ],
       "answer": 3,
-      "explain": "The future becomes the conditional after a verb of the past, and <i lang=\"es\">mañana</i> becomes <i lang=\"es\">al día siguiente</i>."
+      "explain": "The future becomes the conditional after a verb of the past, and <i lang=\"es\">mañana</i> becomes <i lang=\"es\">al otro día</i> or <i lang=\"es\">al día siguiente</i>."
      },
      {
       "prompt": "What does <i lang=\"es\">que</i> before <i lang=\"es\">cuándo</i> show in <i lang=\"es\">Le dijo que cuándo llegaba el tren</i>?",

@@ -272,7 +272,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>nostra</i></i> depend? <i lang=\"la\">Quo usque tandem abutere, Catilina, patientia <b>nostra</b>?</i>",
-   "explain": "<i lang=\"la\">Nostra</i> is ablative feminine singular and adheres to <i lang=\"la\">patientia</i>. “How long, Catiline, will you abuse our patience?” (Cicerō, <i lang=\"la\">In Catilinam</i> I.1)",
+   "explain": "<i lang=\"la\">Nostra</i> is ablative feminine singular and adheres to <i lang=\"la\">patientia</i>. “How long, Catiline, will you abuse our patience?” (Cicero, <i lang=\"la\">In Catilinam</i> I.1)",
    "options": [
     "<i lang=\"la\">patientia</i>",
     "<i lang=\"la\">Catilina</i>",
@@ -384,7 +384,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>mutatas</i></i> depend? <i lang=\"la\">In nova fert animus <b>mutatas</b> dicere formas corpora.</i>",
-   "explain": "<i lang=\"la\">Mutatas</i> is accusative feminine plural and adheres to <i lang=\"la\">formas</i>; <i lang=\"la\">nova</i> goes with <i lang=\"la\">corpora</i>. “My mind moves mē to tell of forms changed into new bodies.” (Ovid, <i lang=\"la\">Metamorphoses</i> I.1–2)",
+   "explain": "<i lang=\"la\">Mutatas</i> is accusative feminine plural and adheres to <i lang=\"la\">formas</i>; <i lang=\"la\">nova</i> goes with <i lang=\"la\">corpora</i>. “My mind moves me to tell of forms changed into new bodies.” (Ovid, <i lang=\"la\">Metamorphoses</i> I.1–2)",
    "options": [
     "<i lang=\"la\">formas</i>",
     "<i lang=\"la\">corpora</i>",

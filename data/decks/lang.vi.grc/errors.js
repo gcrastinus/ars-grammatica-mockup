@@ -68,7 +68,7 @@ ARS.decks["lang.vi.grc/errors"] = {
       "explain": "<em lang=\"grc\">γράφει</em> is a real singular verb, and <em lang=\"grc\">νόμοι</em> is a real plural noun. The two do not agree in number. The third person plural is <em lang=\"grc\">γράφουσι</em>."
      },
      {
-      "prompt": "Why is the singular verb in <em lang=\"grc\">τὰ δῶρα ἐστίν</em> regular Attic?",
+      "prompt": "Why is the singular verb in <em lang=\"grc\">τὰ δῶρά ἐστιν</em> regular Attic?",
       "options": [
        "Because <em lang=\"grc\">δῶρα</em> is feminine singular",
        "A neuter plural takes a singular verb",

@@ -231,7 +231,7 @@ ARS.exercises['vi.review'] = {
    "accept": [
     "loved"
    ],
-   "explain": "“Lov’d” removes the vowel of the ending by syncope, so that the word has one syllable; in prose it is written “loved.”"
+   "explain": "“Lov’d” removes the vowel of the ending by syncope, to show that the ending is not sounded as a separate syllable; in prose it is written “loved.”"
   },
   {
    "id": "rvi-A15",
@@ -375,7 +375,7 @@ ARS.exercises['vi.review'] = {
    "set": "B",
    "deck": "vi.solecism",
    "type": "mc",
-   "prompt": "Formal prose prefers “Whom did you invite?” to “Who did you invite?” Why is the second called a solecism, not a barbarism?",
+   "prompt": "In formal prose, which requires “Whom did you invite?”, why is “Who did you invite?” judged a solecism and not a barbarism?",
    "options": [
     "“Who” is a misspelling of “whom”",
     "“Who” has a letter missing",
@@ -502,7 +502,7 @@ ARS.exercises['vi.review'] = {
    "options": [
     "Both by changing the order of the words",
     "The first by the right word; the second by its right form",
-    "Right form for one; right word for the other",
+    "The first by its right form; the second by the right word",
     "Neither can be corrected, only avoided"
    ],
    "answer": 2,

@@ -168,8 +168,7 @@ ARS.exercises['iii.ex.verb-1'] = {
    "accept": [
     "neuter",
     "neuter verb",
-    "a neuter verb",
-    "neutral"
+    "a neuter verb"
    ],
    "explain": "A verb that signifies neither doing nor undergoing is a neuter verb (from <i>neuter</i>, “neither”). Modern grammars call such a verb intransitive.",
    "level": 2

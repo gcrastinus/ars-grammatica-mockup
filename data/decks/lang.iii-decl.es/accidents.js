@@ -199,7 +199,7 @@ ARS.decks["lang.iii-decl.es/accidents"] = {
        "The order of the words alone"
       ],
       "answer": 1,
-      "explain": "<i lang=\"es\">La casa de mi tío</i>: the preposition <i lang=\"es\">de</i> and the noun, which does not change."
+      "explain": "In <i lang=\"es\">la casa de mi tío</i>, possession is shown by the preposition <i lang=\"es\">de</i>; the noun does not change."
      },
      {
       "prompt": "Which kind of word keeps a difference of form for the subject and the object?",
@@ -520,7 +520,7 @@ ARS.decks["lang.iii-decl.es/accidents"] = {
        "<i lang=\"es\">hemos comidos</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"es\">Haber</i> and the participle: the participle does not change."
+      "explain": "The compound tense is <i lang=\"es\">haber</i> and the participle, and the participle does not change."
      },
      {
       "prompt": "Choose the form: <i lang=\"es\">Ellas han ___ (bailar)</i> (“They have danced,” of women).",

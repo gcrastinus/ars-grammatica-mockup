@@ -311,7 +311,7 @@ ARS.exercises["lang.iii-decl.es/irregular-ex"] = {
    "deck": "lang.iii-decl.es/irregular-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which verb closes <i lang=\"es\">e</i> to <i lang=\"es\">ie</i> and to <i lang=\"es\">i</i> in different forms?",
+   "prompt": "Which verb changes <i lang=\"es\">e</i> to <i lang=\"es\">ie</i> in some forms and to <i lang=\"es\">i</i> in others?",
    "explain": "<i lang=\"es\">Sentir</i> has <i lang=\"es\">siento</i> and <i lang=\"es\">sintió</i>.",
    "options": [
     "<i lang=\"es\">sentir</i>",

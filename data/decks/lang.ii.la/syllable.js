@@ -36,7 +36,7 @@ ARS.decks["lang.ii.la/syllable"] = {
       "explain": "The penult <i lang=\"la\">mi</i> is short."
      },
      {
-      "prompt": "Why is the penult of <i lang=\"la\">filius</i> short?",
+      "prompt": "Why is the penult of <i lang=\"la\">fīlius</i> short?",
       "options": [
        "Its vowel is short by nature before two consonants",
        "It is a diphthong",
@@ -87,7 +87,7 @@ ARS.decks["lang.ii.la/syllable"] = {
        "It accents the syllable before it even if short"
       ],
       "answer": 3,
-      "explain": "<i lang=\"la\">Ne-MUS-que</i> has a short accented syllable."
+      "explain": "<i lang=\"la\">Ter-RA-que</i> has a short accented syllable."
      }
     ]
    }

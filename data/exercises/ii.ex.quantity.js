@@ -57,7 +57,7 @@ ARS.exercises['ii.ex.quantity'] = {
   "names": {
    "1": "Say why a syllable is long or short, and where the stress falls: choose the answer.",
    "2": "Click the long, short, or stressed syllable of a word.",
-   "3": "Click every long syllable in a line of Vergil."
+   "3": "Click every long syllable in a line of Virgil."
   },
   "counts": {
    "1": 38,
@@ -1327,7 +1327,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 1): <i>Arma virumque cano, Troiae qui primus ab oris</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.1): <i>Arma virumque cano, Troiae qui primus ab oris</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "Ar",
     "ma",
@@ -1357,7 +1357,7 @@ ARS.exercises['ii.ex.quantity'] = {
     14
    ],
    "explain": "The line scans as a dactylic hexameter: AR ma vi RUM que ca NŌ TRŌ IAE QUĪ PRĪ mus ab Ō RĪS (long syllables in capitals). <i>Ar</i> and <i>rum</i> are closed by two consonants (<i>rm</i>, <i>mq</i>). <i>Trō</i> is long, and <i>Troiae</i> is said <i>Troi-iae</i>, so its first syllable is closed as well. <i>Mus</i> and <i>ab</i> are short, because the next word begins with a vowel and the consonant passes to it.",
-   "source": "Vergil, Aeneid, Book I, line 1; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.1; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-02",
@@ -1366,7 +1366,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 4): <i>vi superum saevae memorem Iunonis ob iram</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.4): <i>vi superum saevae memorem Iunonis ob iram</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "vī",
     "su",
@@ -1396,7 +1396,7 @@ ARS.exercises['ii.ex.quantity'] = {
     14
    ],
    "explain": "The line scans as a dactylic hexameter: VĪ su pe RUM SAE VAE me mo REM IŪ NŌ nis ob Ī RAM (long syllables in capitals). <i>Rum</i> is closed by <i>m</i> and <i>s</i>; <i>rem</i> is closed because the <i>I</i> of <i>Iūnōnis</i> is a consonant. <i>Nis</i> and <i>ob</i> are short, because a vowel follows; <i>sae</i> and <i>vae</i> are diphthongs.",
-   "source": "Vergil, Aeneid, Book I, line 4; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.4; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-03",
@@ -1405,9 +1405,9 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 6): <i>inferretque deos Latio, genus unde Latinum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.6): <i>inferretque deos Latio, genus unde Latinum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
-    "in",
+    "īn",
     "fer",
     "ret",
     "que",
@@ -1434,8 +1434,8 @@ ARS.exercises['ii.ex.quantity'] = {
     14,
     15
    ],
-   "explain": "The line scans as a dactylic hexameter: IN FER RET que de ŌS La ti Ō ge nus UN de La TĪ NUM (long syllables in capitals). <i>In</i>, <i>fer</i>, <i>ret</i>, and <i>un</i> are closed by two consonants. <i>Que</i>, <i>de</i>, <i>La</i>, <i>ti</i>, <i>ge</i>, and <i>de</i> are open with short vowels; <i>nus</i> is short because <i>unde</i> begins with a vowel.",
-   "source": "Vergil, Aeneid, Book I, line 6; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "explain": "The line scans as a dactylic hexameter: ĪN FER RET que de ŌS La ti Ō ge nus UN de La TĪ NUM (long syllables in capitals). <i>Īn</i>, <i>fer</i>, <i>ret</i>, and <i>un</i> are closed by two consonants (and the <i>i</i> of <i>īn</i> is also long by nature, before <i>nf</i>). <i>Que</i>, <i>de</i>, <i>La</i>, <i>ti</i>, <i>ge</i>, and <i>de</i> are open with short vowels; <i>nus</i> is short because <i>unde</i> begins with a vowel.",
+   "source": "Virgil, <i>Aeneid</i> I.6; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-04",
@@ -1444,7 +1444,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 12): <i>Urbs antiqua fuit, Tyrii tenuere coloni</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.12): <i>Urbs antiqua fuit, Tyrii tenuere coloni</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "Urbs",
     "an",
@@ -1474,7 +1474,7 @@ ARS.exercises['ii.ex.quantity'] = {
     15
    ],
    "explain": "The line scans as a dactylic hexameter: URBS AN TĪ qua fu IT Ty ri Ī te nu Ē re co LŌ NĪ (long syllables in capitals). <i>Urbs</i> and <i>an</i> are closed by consonants; <i>it</i> is closed because <i>Tyriī</i> begins with a consonant. <i>Tenuēre</i> is the perfect in <i>-ēre</i>, with a long <i>ē</i>.",
-   "source": "Vergil, Aeneid, Book I, line 12; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.12; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-05",
@@ -1483,7 +1483,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 15): <i>quam Iuno fertur terris magis omnibus unam</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.15): <i>quam Iuno fertur terris magis omnibus unam</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "quam",
     "Iū",
@@ -1512,8 +1512,8 @@ ARS.exercises['ii.ex.quantity'] = {
     12,
     13
    ],
-   "explain": "The line scans as a dactylic hexameter: QUAM IŪ NŌ FER TUR TER RĪS ma gis OM ni bus Ū NAM (long syllables in capitals). <i>Quam</i> is closed because the <i>I</i> of <i>Iūnō</i> is a consonant; <i>fer</i>, <i>tur</i>, <i>ter</i>, and <i>om</i> are closed by two consonants. <i>Gis</i> and <i>bus</i> are short, because a vowel follows. The line opens with four long syllables, a slow spondaic movement.",
-   "source": "Vergil, Aeneid, Book I, line 15; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "explain": "The line scans as a dactylic hexameter: QUAM IŪ NŌ FER TUR TER RĪS ma gis OM ni bus Ū NAM (long syllables in capitals). <i>Quam</i> is closed because the <i>I</i> of <i>Iūnō</i> is a consonant; <i>fer</i>, <i>tur</i>, <i>ter</i>, and <i>om</i> are closed by two consonants. <i>Gis</i> and <i>bus</i> are short, because a vowel follows. The line opens with seven long syllables, three spondees and the first syllable of the fourth foot, a slow spondaic movement.",
+   "source": "Virgil, <i>Aeneid</i> I.15; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-06",
@@ -1522,7 +1522,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 20): <i>audierat, Tyrias olim quae verteret arces</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.20): <i>audierat, Tyrias olim quae verteret arces</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "au",
     "di",
@@ -1552,7 +1552,7 @@ ARS.exercises['ii.ex.quantity'] = {
     14
    ],
    "explain": "The line scans as a dactylic hexameter: AU di e RAT Ty ri ĀS Ō LIM QUAE VER te ret AR CĒS (long syllables in capitals). <i>Au</i> and <i>quae</i> are diphthongs. <i>Di</i> is short because a vowel follows it. <i>Rat</i>, <i>lim</i>, <i>ver</i>, and <i>ar</i> are closed by consonants; <i>ret</i> is short because <i>arcēs</i> begins with a vowel.",
-   "source": "Vergil, Aeneid, Book I, line 20; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.20; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-07",
@@ -1561,7 +1561,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 21): <i>hinc populum late regem belloque superbum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.21): <i>hinc populum late regem belloque superbum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "hinc",
     "po",
@@ -1591,7 +1591,7 @@ ARS.exercises['ii.ex.quantity'] = {
     13
    ],
    "explain": "The line scans as a dactylic hexameter: HINC po pu LUM LĀ TĒ RĒ GEM BEL LŌ que su PER BUM (long syllables in capitals). <i>Hinc</i>, <i>lum</i>, <i>gem</i>, <i>bel</i>, and <i>per</i> are closed by two consonants; <i>lātē</i> and <i>rēgem</i> have long vowels by nature.",
-   "source": "Vergil, Aeneid, Book I, line 21; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.21; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-08",
@@ -1600,7 +1600,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 23): <i>Id metuens, veterisque memor Saturnia belli</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.23): <i>Id metuens, veterisque memor Saturnia belli</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "Id",
     "me",
@@ -1630,7 +1630,7 @@ ARS.exercises['ii.ex.quantity'] = {
     15
    ],
    "explain": "The line scans as a dactylic hexameter: ID me tu ENS ve te RIS que me MOR SĀ TUR ni a BEL LĪ (long syllables in capitals). <i>Id</i>, <i>ens</i>, <i>ris</i>, <i>mor</i>, <i>tur</i>, and <i>bel</i> are closed by two consonants (<i>ris</i> by <i>s</i> and <i>qu</i>). <i>Tu</i>, <i>ni</i>, and <i>a</i> are short, because a vowel follows each.",
-   "source": "Vergil, Aeneid, Book I, line 23; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.23; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-09",
@@ -1639,11 +1639,11 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 29): <i>His accensa super, iactatos aequore toto</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.29): <i>His accensa super, iactatos aequore toto</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "Hīs",
     "ac",
-    "cen",
+    "cēn",
     "sa",
     "su",
     "per",
@@ -1668,8 +1668,8 @@ ARS.exercises['ii.ex.quantity'] = {
     12,
     13
    ],
-   "explain": "The line scans as a dactylic hexameter: HĪS AC CEN sa su PER IAC TĀ TŌS AE quo re TŌ TŌ (long syllables in capitals). <i>Ac</i>, <i>cen</i>, and <i>iac</i> are closed by two consonants; <i>per</i> is closed because the <i>i</i> of <i>iactātōs</i> is a consonant. <i>Ae</i> is a diphthong; <i>qu</i> counts as one consonant, so <i>quo</i> is open and short.",
-   "source": "Vergil, Aeneid, Book I, line 29; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "explain": "The line scans as a dactylic hexameter: HĪS AC CĒN sa su PER IAC TĀ TŌS AE quo re TŌ TŌ (long syllables in capitals). <i>Ac</i>, <i>cēn</i>, and <i>iac</i> are closed by two consonants (and the <i>e</i> of <i>cēn</i> is also long by nature, before <i>ns</i>); <i>per</i> is closed because the <i>i</i> of <i>iactātōs</i> is a consonant. <i>Ae</i> is a diphthong; <i>qu</i> counts as one consonant, so <i>quo</i> is open and short.",
+   "source": "Virgil, <i>Aeneid</i> I.29; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-10",
@@ -1678,7 +1678,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 31): <i>arcebat longe Latio, multosque per annos</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.31): <i>arcebat longe Latio, multosque per annos</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "ar",
     "cē",
@@ -1708,7 +1708,7 @@ ARS.exercises['ii.ex.quantity'] = {
     13
    ],
    "explain": "The line scans as a dactylic hexameter: AR CĒ BAT LON GĒ La ti Ō MUL TŌS que per AN NŌS (long syllables in capitals). <i>Ar</i>, <i>bat</i>, <i>lon</i>, <i>mul</i>, and <i>an</i> are closed by two consonants. <i>Per</i> is short, because <i>annōs</i> begins with a vowel.",
-   "source": "Vergil, Aeneid, Book I, line 31; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.31; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "qua-L3-11",
@@ -1717,7 +1717,7 @@ ARS.exercises['ii.ex.quantity'] = {
    "deck": "ii.quantity",
    "type": "identify",
    "lang": "la",
-   "prompt": "Click every long syllable in this line of Vergil (Aeneid, Book I, line 34): <i>Vix e conspectu Siculae telluris in altum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
+   "prompt": "Click every long syllable in this line of Virgil (<i>Aeneid</i> I.34): <i>Vix e conspectu Siculae telluris in altum</i>. Vowels long by nature are marked. No vowel is elided in the line, and the last syllable counts as long.",
    "tokens": [
     "Vix",
     "ē",
@@ -1747,7 +1747,7 @@ ARS.exercises['ii.ex.quantity'] = {
     13
    ],
    "explain": "The line scans as a dactylic hexameter: VIX Ē CŌN SPEC TŪ Si cu LAE TEL LŪ ris in AL TUM (long syllables in capitals). <i>Vix</i> is closed, since <i>x</i> counts as two consonants (<i>cs</i>); <i>cōn</i>, <i>spec</i>, <i>tel</i>, and <i>al</i> are closed as well. <i>Ris</i> and <i>in</i> are short, because a vowel follows each.",
-   "source": "Vergil, Aeneid, Book I, line 34; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.34; text checked against Project Gutenberg eBook #227"
   }
  ]
 };

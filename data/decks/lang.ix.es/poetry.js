@@ -227,7 +227,7 @@ ARS.decks["lang.ix.es/poetry"] = {
        "A plural of <i lang=\"es\">nido</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"es\">Á</i> with the infinitive gives the purpose. The nests are there to be hung."
+      "explain": "<i lang=\"es\">Á</i> with the infinitive gives the purpose: the swallows will return to hang their nests."
      },
      {
       "prompt": "What do <i lang=\"es\">colgar</i> and <i lang=\"es\">llamarán</i> share?",
@@ -285,7 +285,7 @@ ARS.decks["lang.ix.es/poetry"] = {
       "prompt": "What does <i lang=\"es\">sonoro</i> agree with?",
       "options": [
        "The harpsichord",
-       "The keyboard itself",
+       "The mouth of the princess",
        "The sad princess",
        "The forgotten flower"
       ],

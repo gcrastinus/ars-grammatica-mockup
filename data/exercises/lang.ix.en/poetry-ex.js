@@ -169,7 +169,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Why is “wind” plural with “herd”?",
-   "explain": "A collective noun may take a plural verb when its members are thought of one by one. here taken as many animals",
+   "explain": "A collective noun may take a plural verb when its members are thought of one by one. Here the herd is taken as many animals.",
    "options": [
     "“Herd” is a collective noun",
     "“Herd” is a plural noun in Gray’s English",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“May'st hear”</p> In “May’st hear the merry din,” what is left out?",
+   "prompt": "<p>“May’st hear”</p> In “May’st hear the merry din,” what is left out?",
    "explain": "“Mayst” is the second person singular, and its subject is understood.",
    "options": [
     "The subject “thou”",
@@ -424,7 +424,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "“read” in line 6 is…",
-   "explain": "The object, “those passions,” comes before it, and the sculptor did it long ago. the sculptor read those passions well",
+   "explain": "The object, “those passions,” comes before it, and the sculptor did it long ago: the sculptor read those passions well.",
    "options": [
     "Past tense",
     "Present tense",

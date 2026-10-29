@@ -48,7 +48,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Donatus counts this as a solecism. What has gone wrong? <em lang=\"la\"><b>apud</b> amicum eo</em>",
-   "explain": "Donatus gives <span class=\"lat\">apud amicum eo pro ad amicum</span>. <em lang=\"la\">Apud</em> means “at the house of,” place where; going toward a person needs <em lang=\"la\">ad</em>. Each word is good Latin, and the error is in the construction.",
+   "explain": "Donatus gives <i lang=\"la\">apud amicum eo pro ad amicum</span>. <em lang=\"la\">Apud</em> means “at the house of,” place where; going toward a person needs <em lang=\"la\">ad</em>. Each word is good Latin, and the error is in the construction.",
    "options": [
     "<em lang=\"la\">Apud</em> stands where <em lang=\"la\">ad</em> is needed",
     "A barbarism: <em lang=\"la\">eo</em> is not a Latin form",
@@ -64,7 +64,7 @@ ARS.exercises["lang.vi.la/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Donatus counts this as a solecism by the parts of speech. What has happened? <em lang=\"la\"><b>torvum</b>que repente clamat</em> (<em lang=\"la\">Aeneid</em> VII.399)",
-   "explain": "Donatus: <span class=\"lat\">torvumque repente clamat pro torve: nomen pro adverbio positum est</span>. A noun (here an adjective, filed under the noun) stands where an adverb is wanted. In a poet it is allowed as a figure.",
+   "explain": "Donatus: <i lang=\"la\">torvumque repente clamat pro torve: nomen pro adverbio positum est</span>. A noun (here an adjective, filed under the noun) stands where an adverb is wanted. In a poet it is allowed as a figure.",
    "options": [
     "Noun for adverb: <em lang=\"la\">torvum</em> for <em lang=\"la\">torve</em>",
     "A barbarism: <em lang=\"la\">torvum</em> is not a Latin word",

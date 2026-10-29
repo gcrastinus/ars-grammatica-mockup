@@ -22,7 +22,7 @@ ARS.decks["lang.v.en/sentence"] = {
        "“The rusty gate creaked.”"
       ],
       "answer": 3,
-      "explain": "Only the first has both a subject and a predicate and a complete sense."
+      "explain": "Only “The rusty gate creaked” has both a subject and a predicate and a complete sense."
      },
      {
       "prompt": "What does a sentence need?",

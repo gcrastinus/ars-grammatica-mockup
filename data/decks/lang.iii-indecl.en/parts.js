@@ -122,11 +122,11 @@ ARS.decks["lang.iii-indecl.en/parts"] = {
       "explain": "“Tired” tells what sort of traveler and depends on the noun."
      },
      {
-      "prompt": "Which word is a pronoun in “Everyone saw them”?",
+      "prompt": "Which word is a personal pronoun in “Everyone saw them”?",
       "options": [
        "“saw”",
        "“them”",
-       "“Everyone” only as a noun",
+       "“saw them” together",
        "None of the words"
       ],
       "answer": 1,

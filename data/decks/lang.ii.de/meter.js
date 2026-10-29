@@ -79,7 +79,7 @@ ARS.decks["lang.ii.de/meter"] = {
       "explain": "The line has five iambs and a feminine ending."
      },
      {
-      "prompt": "In what verse is the dedication of Faust written?",
+      "prompt": "In what verse is the dedication of <i>Faust</i> written?",
       "options": [
        "Rhymed iambic pentameter",
        "Unrhymed trochees",

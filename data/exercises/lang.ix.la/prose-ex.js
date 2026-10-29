@@ -305,7 +305,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">ante quam … dicam</em> depends on…",
-   "explain": "<em lang=\"la\">Ante quam … dicam</em> is a clause of time depending on <em lang=\"la\">exponam</em>. <em lang=\"la\">Dicam</em> is the subjunctive of an act anticipated. “before I speak, I will set out”",
+   "explain": "<em lang=\"la\">Ante quam … dicam</em> is a clause of time depending on <em lang=\"la\">exponam</em>. <em lang=\"la\">Dicam</em> is the subjunctive of an act anticipated.",
    "options": [
     "<em lang=\"la\">exponam</em>, the main verb",
     "<em lang=\"la\">arbitror</em>, as its object",
@@ -339,7 +339,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">exponam</em> here is…",
-   "explain": "<em lang=\"la\">Exponam</em> could be the future indicative or the present subjunctive, since the forms are the same in the first person singular. Here it is the main verb of a statement, so it is the future. “I will set out”",
+   "explain": "<em lang=\"la\">Exponam</em> could be the future indicative or the present subjunctive, since the forms are the same in the first person singular. Here it is the main verb of a statement, so it is the future.",
    "options": [
     "The future indicative, the main verb",
     "The present subjunctive of a purpose clause",
@@ -356,9 +356,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"la\">et profectionis et reversionis</em></p> The genitives <em lang=\"la\">profectionis</em> and <em lang=\"la\">reversionis</em> depend on…",
-   "explain": "The two genitives, joined by <em lang=\"la\">et … et</em>, depend on the noun <em lang=\"la\">consilium</em>, the object of <em lang=\"la\">exponam</em>. the plan of my departure and of my return",
+   "explain": "The two genitives, joined by <em lang=\"la\">et … et</em>, depend on the noun <em lang=\"la\">consilium</em>, the object of <em lang=\"la\">exponam</em>.",
    "options": [
-    "<em lang=\"la\">consilium</em>",
+    "<em lang=\"la\">consilium</em>: the plan of my departure and of my return",
     "<em lang=\"la\">exponam</em>, as its objects",
     "<em lang=\"la\">vobis</em>, as possessors",
     "<em lang=\"la\">tempore</em>, as genitives of time"
@@ -373,9 +373,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">nobili genere</em> with <em lang=\"la\">natus</em> is…",
-   "explain": "Verbs of being born and descended take the ablative of the stock or family: <em lang=\"la\">nobili genere natus</em>. born of a noble family",
+   "explain": "Verbs of being born and descended take the ablative of the stock or family: <em lang=\"la\">nobili genere natus</em>.",
    "options": [
-    "An ablative of origin",
+    "An ablative of origin: born of a noble family",
     "An ablative absolute: the family being noble",
     "A dative: born for a noble family",
     "An ablative of time: at a noble time"
@@ -407,9 +407,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"la\">et animi et corporis</em></p> <em lang=\"la\">animi</em> and <em lang=\"la\">corporis</em> depend on…",
-   "explain": "The genitives depend on the noun <em lang=\"la\">vi</em>, and <em lang=\"la\">et … et</em> joins them: great force both of mind and of body. the force of mind and of body",
+   "explain": "The genitives depend on the noun <em lang=\"la\">vi</em>, and <em lang=\"la\">et … et</em> joins them: great force both of mind and of body.",
    "options": [
-    "<em lang=\"la\">vi</em>",
+    "<em lang=\"la\">vi</em>: the force of mind and of body",
     "<em lang=\"la\">fuit</em>, as genitives of value",
     "<em lang=\"la\">genere</em>, as genitives of origin",
     "<em lang=\"la\">natus</em>, as the parents"
@@ -475,9 +475,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">adsentiri se</em> after <em lang=\"la\">diceret</em> is…",
-   "explain": "A verb of saying takes the reported statement in the accusative and infinitive, and <em lang=\"la\">se</em> refers to the subject of <em lang=\"la\">diceret</em>. “that he agreed”",
+   "explain": "A verb of saying takes the reported statement in the accusative and infinitive, and <em lang=\"la\">se</em> refers to the subject of <em lang=\"la\">diceret</em>.",
    "options": [
-    "An accusative and infinitive",
+    "An accusative and infinitive: “that he agreed”",
     "A historical infinitive with its subject",
     "A reflexive passive: “he was agreed with”",
     "An infinitive of purpose"
@@ -492,9 +492,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">nosset</em> is…",
-   "explain": "<em lang=\"la\">Novi</em>, “I have learned,” means “I know,” so the pluperfect means “he knew.” The subjunctive after <em lang=\"la\">quod</em> gives the reason as he stated it. “he knew”",
+   "explain": "<em lang=\"la\">Novi</em>, “I have learned,” means “I know,” so the pluperfect means “he knew.” The subjunctive after <em lang=\"la\">quod</em> gives the reason as he stated it.",
    "options": [
-    "The pluperfect subjunctive of <em lang=\"la\">nosco</em>",
+    "The pluperfect subjunctive of <em lang=\"la\">nosco</em>: “he knew”",
     "The present subjunctive of <em lang=\"la\">nosco</em>: “he may know”",
     "The imperfect indicative: “he was knowing”",
     "An infinitive: “to know”"
@@ -526,9 +526,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">ni unus vir fuisset</em> is…",
-   "explain": "<em lang=\"la\">Ni</em> with the pluperfect subjunctive states a condition that did not hold. <em lang=\"la\">Paene dedit</em>, “almost gave,” stands where a conclusion contrary to fact would stand. “almost gave” stands for “would have given”",
+   "explain": "<em lang=\"la\">Ni</em> with the pluperfect subjunctive states a condition that did not hold. <em lang=\"la\">Paene dedit</em>, “almost gave,” stands where a conclusion contrary to fact would stand.",
    "options": [
-    "A condition contrary to fact",
+    "A condition contrary to fact: “almost gave” stands for “would have given”",
     "A relative clause taking up <em lang=\"la\">pons</em>, the bridge",
     "A purpose clause depending on <em lang=\"la\">iter</em>",
     "A second main fact, set beside the first"
@@ -577,9 +577,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">fecisti</em> is…",
-   "explain": "The ending <em lang=\"la\">-isti</em> marks the second person singular of the perfect. Augustine addresses God throughout the book. “you made,” said to God",
+   "explain": "The ending <em lang=\"la\">-isti</em> marks the second person singular of the perfect. Augustine addresses God throughout the book.",
    "options": [
-    "Second person singular perfect",
+    "Second person singular perfect: “you made,” said to God",
     "First person singular perfect: “I made”",
     "Third person singular perfect: “he made”",
     "Second person plural perfect: “you all made”"
@@ -611,7 +611,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">donec requiescat</em> depends on…",
-   "explain": "<em lang=\"la\">Donec</em> with the subjunctive marks an end looked forward to. <em lang=\"la\">Et</em> joins the two main clauses, and <em lang=\"la\">donec</em> depends on the second. it bounds the restlessness in time",
+   "explain": "<em lang=\"la\">Donec</em> with the subjunctive marks an end looked forward to. <em lang=\"la\">Et</em> joins the two main clauses, and <em lang=\"la\">donec</em> depends on the second.",
    "options": [
     "<em lang=\"la\">inquietum est</em>",
     "<em lang=\"la\">fecisti</em>, as a purpose clause",
@@ -764,9 +764,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">in senatum</em>: what are the case and the sense?",
-   "explain": "With a verb of motion such as <em lang=\"la\">venit</em>, <em lang=\"la\">in</em> with the accusative gives the place into which. motion into the senate",
+   "explain": "With a verb of motion such as <em lang=\"la\">venit</em>, <em lang=\"la\">in</em> with the accusative gives the place into which.",
    "options": [
-    "Accusative with <em lang=\"la\">in</em>",
+    "Accusative with <em lang=\"la\">in</em>: motion into the senate",
     "Ablative: place where, in the senate",
     "Nominative: the senate comes",
     "Dative: for the senate"
@@ -832,9 +832,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">incipientem</em> agrees with…",
-   "explain": "<em lang=\"la\">Incipientem</em> is accusative, and the subject of an infinitive is accusative: for one beginning to speak to be afraid. one who is beginning",
+   "explain": "<em lang=\"la\">Incipientem</em> is accusative, and the subject of an infinitive is accusative: for one beginning to speak to be afraid.",
    "options": [
-    "The understood subject of <em lang=\"la\">timere</em>",
+    "The understood subject of <em lang=\"la\">timere</em>: one who is beginning",
     "<em lang=\"la\">viro</em>, the brave man",
     "<em lang=\"la\">iudices</em>, the judges",
     "<em lang=\"la\">turpe</em>, the shameful thing"
@@ -883,7 +883,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"la\">qui de rebus dubiis consultant</em></p> <em lang=\"la\">qui … consultant</em> depends on…",
-   "explain": "The relative takes up <em lang=\"la\">homines</em>, the subject of the infinitive. <em lang=\"la\">Decet</em> then governs <em lang=\"la\">vacuos esse</em>. a relative clause telling which men",
+   "explain": "The relative takes up <em lang=\"la\">homines</em>, the subject of the infinitive. <em lang=\"la\">Decet</em> then governs <em lang=\"la\">vacuos esse</em>.",
    "options": [
     "<em lang=\"la\">homines</em>",
     "<em lang=\"la\">patres conscripti</em>, the senators addressed",
@@ -900,9 +900,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">ab odio, amicitia, ira atque misericordia</em> is…",
-   "explain": "<em lang=\"la\">Vacuus</em> takes the ablative of what one is free from, here with <em lang=\"la\">ab</em>. free from these",
+   "explain": "<em lang=\"la\">Vacuus</em> takes the ablative of what one is free from, here with <em lang=\"la\">ab</em>.",
    "options": [
-    "An ablative of separation with <em lang=\"la\">vacuos</em>",
+    "An ablative of separation with <em lang=\"la\">vacuos</em>: free from these",
     "An ablative of agent: by hatred and the rest",
     "An ablative of cause: because of hatred",
     "An ablative of time"
@@ -1036,9 +1036,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">falsis nominibus</em> is…",
-   "explain": "The ablative with an adjective tells how the naming is done. by false names",
+   "explain": "The ablative with an adjective tells how the naming is done.",
    "options": [
-    "An ablative of manner",
+    "An ablative of manner: by false names",
     "A dative: for false names",
     "An ablative absolute",
     "The object of <em lang=\"la\">appellant</em>"
@@ -1053,9 +1053,9 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">imperium</em> stands as…",
-   "explain": "A verb of calling takes two accusatives, the thing named and the name: they call plundering empire. the name given to those actions",
+   "explain": "A verb of calling takes two accusatives, the thing named and the name: they call plundering empire.",
    "options": [
-    "The predicate accusative",
+    "The predicate accusative: the name given to those actions",
     "The subject of the sentence",
     "A genitive depending on <em lang=\"la\">nominibus</em>",
     "An ablative of means"

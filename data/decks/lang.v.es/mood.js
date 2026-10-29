@@ -70,10 +70,10 @@ ARS.decks["lang.v.es/mood"] = {
      {
       "prompt": "Which two forms of <i lang=\"es\">poder</i> alternate in the same use, according to the Academy?",
       "options": [
-       "<i lang=\"es\">Podía</i> and <i lang=\"es\">Pudiera</i>",
-       "<i lang=\"es\">Había podido</i> and <i lang=\"es\">Pudiera</i>",
-       "<i lang=\"es\">Pudo</i> and <i lang=\"es\">Podría</i>",
-       "<i lang=\"es\">Pudiera</i> and <i lang=\"es\">Podría</i>"
+       "<i lang=\"es\">podía</i> and <i lang=\"es\">pudiera</i>",
+       "<i lang=\"es\">había podido</i> and <i lang=\"es\">pudiera</i>",
+       "<i lang=\"es\">pudo</i> and <i lang=\"es\">podría</i>",
+       "<i lang=\"es\">pudiera</i> and <i lang=\"es\">podría</i>"
       ],
       "answer": 3,
       "explain": "With <i lang=\"es\">poder</i>, <i lang=\"es\">querer</i>, and <i lang=\"es\">deber</i>, the form in <i lang=\"es\">-ra</i> alternates with the conditional."
@@ -105,7 +105,7 @@ ARS.decks["lang.v.es/mood"] = {
        "<i lang=\"es\">No cantes tan alto</i>",
        "<i lang=\"es\">No canta tan alto</i>",
        "<i lang=\"es\">No cantad tan alto</i>",
-       "<i lang=\"es\">No canta tan alto, tú</i>"
+       "<i lang=\"es\">No cantas tan alto</i>"
       ],
       "answer": 0,
       "explain": "A negative command uses the subjunctive: <i lang=\"es\">No cantes</i>, not the form of the affirmative imperative."

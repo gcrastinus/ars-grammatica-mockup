@@ -16,9 +16,9 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What does English meter count?",
-   "explain": "English verse is accentual-syllabic: it counts beats and, in most meters, syllables too. with the unstressed ones arranged between them.",
+   "explain": "English verse is accentual-syllabic: it counts beats and, in most meters, syllables too.",
    "options": [
-    "Stressed syllables",
+    "Stressed syllables, with the unstressed ones arranged between them",
     "Long and short syllables, as Latin does.",
     "The letters in each line.",
     "Only the rhymes."
@@ -111,7 +111,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Rough winds do shake the darling buds of May,” (Shakespeare, Sonnet 18, line 3)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “And summer’s lease hath all too short a date:” (Shakespeare, Sonnet 18, line 4)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -145,7 +145,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Shall I compare thee to a summer’s day?” (Shakespeare, Sonnet 18, line 1)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -162,7 +162,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “That time of year thou mayst in me behold,” (Shakespeare, Sonnet 73, line 1)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -179,7 +179,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “When yellow leaves, or none, or few do hang” (Shakespeare, Sonnet 73, line 2)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -195,8 +195,8 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "deck": "lang.ii.en/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is the meter of this line? “Was this the face that launch'd a thousand ships,” (Marlowe, Doctor Faustus)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "prompt": "What is the meter of this line? “Was this the face that launch’d a thousand ships,” (Marlowe, Doctor Faustus)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -213,7 +213,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “To be, or not to be, that is the question:” (Shakespeare, Hamlet III.1)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -230,7 +230,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “A thing of beauty is a joy for ever:” (Keats, Endymion I.1)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -247,7 +247,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Its loveliness increases; it will never” (Keats, Endymion I.2)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -264,7 +264,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “They also serve who only stand and waite.” (Milton, Sonnet 19, line 14)",
-   "explain": "five feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has five feet, each an offbeat and then a beat: iambic pentameter.",
    "options": [
     "Iambic pentameter",
     "Iambic tetrameter",
@@ -281,7 +281,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “I wandered lonely as a Cloud” (Wordsworth, “I wandered lonely as a Cloud,” line 1)",
-   "explain": "four feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has four feet, each an offbeat and then a beat: iambic tetrameter.",
    "options": [
     "Iambic tetrameter",
     "Iambic pentameter",
@@ -297,8 +297,8 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "deck": "lang.ii.en/meter-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "What is the meter of this line? “That floats on high o'er Vales and Hills,” (Wordsworth, “I wandered lonely as a Cloud,” line 2)",
-   "explain": "four feet, each an offbeat and then a beat (iambs)",
+   "prompt": "What is the meter of this line? “That floats on high o’er Vales and Hills,” (Wordsworth, “I wandered lonely as a Cloud,” line 2)",
+   "explain": "The line has four feet, each an offbeat and then a beat: iambic tetrameter.",
    "options": [
     "Iambic tetrameter",
     "Iambic pentameter",
@@ -315,7 +315,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “When all at once I saw a crowd” (Wordsworth, “I wandered lonely as a Cloud,” line 3)",
-   "explain": "four feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has four feet, each an offbeat and then a beat: iambic tetrameter.",
    "options": [
     "Iambic tetrameter",
     "Iambic pentameter",
@@ -332,7 +332,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “A host of dancing Daffodills;” (Wordsworth, “I wandered lonely as a Cloud,” line 4)",
-   "explain": "four feet, each an offbeat and then a beat (iambs)",
+   "explain": "The line has four feet, each an offbeat and then a beat: iambic tetrameter.",
    "options": [
     "Iambic tetrameter",
     "Iambic pentameter",
@@ -349,7 +349,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “By the shores of Gitche Gumee,” (Longfellow, The Song of Hiawatha)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -366,7 +366,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “By the shining Big-Sea-Water,” (Longfellow, The Song of Hiawatha)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -383,7 +383,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Stood the wigwam of Nokomis,” (Longfellow, The Song of Hiawatha)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -400,7 +400,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Daughter of the Moon, Nokomis.” (Longfellow, The Song of Hiawatha)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -417,7 +417,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Tyger Tyger, burning bright” (Blake, “The Tyger,” line 1)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -434,7 +434,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “In the forests of the night,” (Blake, “The Tyger,” line 2)",
-   "explain": "four feet, each a beat and then an offbeat (trochees); the last foot may lack its offbeat",
+   "explain": "The line has four feet, each a beat and then an offbeat: trochaic tetrameter. The last foot may lack its offbeat.",
    "options": [
     "Trochaic tetrameter",
     "Iambic pentameter",
@@ -451,7 +451,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “The Assyrian came down like the wolf on the fold,” (Byron, “The Destruction of Sennacherib,” line 1)",
-   "explain": "four feet, each two offbeats and then a beat (anapests)",
+   "explain": "The line has four feet, each two offbeats and then a beat: anapestic tetrameter.",
    "options": [
     "Anapestic tetrameter",
     "Iambic pentameter",
@@ -468,7 +468,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “And his cohorts were gleaming in purple and gold;” (Byron, “The Destruction of Sennacherib,” line 2)",
-   "explain": "four feet, each two offbeats and then a beat (anapests)",
+   "explain": "The line has four feet, each two offbeats and then a beat: anapestic tetrameter.",
    "options": [
     "Anapestic tetrameter",
     "Iambic pentameter",
@@ -485,7 +485,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “And the sheen of their spears was like stars on the sea,” (Byron, “The Destruction of Sennacherib,” line 3)",
-   "explain": "four feet, each two offbeats and then a beat (anapests)",
+   "explain": "The line has four feet, each two offbeats and then a beat: anapestic tetrameter.",
    "options": [
     "Anapestic tetrameter",
     "Iambic pentameter",
@@ -502,7 +502,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “This is the forest primeval. The murmuring pines and the hemlocks,” (Longfellow, Evangeline, line 1)",
-   "explain": "six feet, each a beat and then two offbeats (dactyls), with a two-syllable foot in some places and at the end",
+   "explain": "The line has six feet, each a beat and then two offbeats: dactylic hexameter, with a two-syllable foot in some places and at the end.",
    "options": [
     "Dactylic hexameter",
     "Iambic pentameter",
@@ -519,7 +519,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Bearded with moss, and in garments green, indistinct in the twilight,” (Longfellow, Evangeline, line 2)",
-   "explain": "six feet, each a beat and then two offbeats (dactyls), with a two-syllable foot in some places and at the end",
+   "explain": "The line has six feet, each a beat and then two offbeats: dactylic hexameter, with a two-syllable foot in some places and at the end.",
    "options": [
     "Dactylic hexameter",
     "Iambic pentameter",
@@ -536,7 +536,7 @@ ARS.exercises["lang.ii.en/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What is the meter of this line? “Stand like Druids of eld, with voices sad and prophetic,” (Longfellow, Evangeline, line 3)",
-   "explain": "six feet, each a beat and then two offbeats (dactyls), with a two-syllable foot in some places and at the end",
+   "explain": "The line has six feet, each a beat and then two offbeats: dactylic hexameter, with a two-syllable foot in some places and at the end.",
    "options": [
     "Dactylic hexameter",
     "Iambic pentameter",

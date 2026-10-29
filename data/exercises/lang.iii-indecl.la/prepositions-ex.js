@@ -341,7 +341,7 @@ ARS.exercises["lang.iii-indecl.la/prepositions-ex"] = {
     "<em lang=\"la\">in rūre</em>",
     "<em lang=\"la\">rūs</em>",
     "<em lang=\"la\">rūrī</em>",
-    "<em lang=\"la\">rūre</em>"
+    "<em lang=\"la\">rūra</em>"
    ],
    "answer": 2
   },

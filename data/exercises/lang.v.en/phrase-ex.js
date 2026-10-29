@@ -339,7 +339,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The fault, dear Brutus, is not <span class=\"target\">in our stars</span>, But in ourselves, that we are underlings.",
-   "explain": "“In” takes “our stars” as its object. The phrase tells where the fault is not. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“In” takes “our stars” as its object. The phrase tells where the fault is not. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -764,7 +764,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? <span class=\"target\">Seeing the storm</span>, the sailors furled the sail.",
-   "explain": "“Seeing” depends on “the sailors,” the ones who saw. The phrase modifies the noun, so it is adjectival. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Seeing” depends on “the sailors,” the ones who saw. The phrase modifies the noun, so it is adjectival. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -781,7 +781,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? <span class=\"target\">Covered with dust</span>, the books sat on the shelf.",
-   "explain": "“Covered” depends on “the books.” The books are what the dust covered. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Covered” depends on “the books.” The books are what the dust covered. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -798,7 +798,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The child, <span class=\"target\">frightened by the noise</span>, cried.",
-   "explain": "“Frightened” depends on “child.” A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Frightened” depends on “child.” A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -815,7 +815,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? <span class=\"target\">Written in haste</span>, the note was hard to read.",
-   "explain": "“Written” depends on “note.” The note is what was written. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Written” depends on “note.” The note is what was written. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -849,7 +849,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The key is <span class=\"target\">under the mat</span>.",
-   "explain": "“Under” takes “the mat” as its object. The phrase tells where, so it is adverbial. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb.",
+   "explain": "“Under” takes “the mat” as its object. The phrase tells where, so it is adverbial. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb.",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -866,7 +866,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Ambition should be made <span class=\"target\">of sterner stuff</span>:",
-   "explain": "“Of” takes “stuff” as its object. The phrase tells what the ambition should be made of. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Of” takes “stuff” as its object. The phrase tells what the ambition should be made of. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (William Shakespeare, <em>Julius Caesar</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -883,7 +883,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Rejoice <span class=\"target\">in the Lord</span> alway: and again I say, Rejoice.",
-   "explain": "“In the Lord” tells where the rejoicing is set, so it is adverbial. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Philippians 4:4)",
+   "explain": "“In the Lord” tells where the rejoicing is set, so it is adverbial. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Philippians 4:4)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -934,7 +934,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The brave men, <span class=\"target\">living and dead</span>, who struggled here have consecrated it far above our power to add or detract.",
-   "explain": "“Living” depends on “men,” and “dead” is joined to it. The group modifies the noun and has no finite verb. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Abraham Lincoln, the Address at Gettysburg, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
+   "explain": "“Living” depends on “men,” and “dead” is joined to it. The group modifies the noun and has no finite verb. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own. (Abraham Lincoln, the Address at Gettysburg, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -968,7 +968,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? All we <span class=\"target\">like sheep</span> have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all.",
-   "explain": "“Like” takes “sheep” as its object. The phrase tells the manner of the going astray. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Isaiah 53:6)",
+   "explain": "“Like” takes “sheep” as its object. The phrase tells the manner of the going astray. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Isaiah 53:6)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1019,7 +1019,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Things <span class=\"target\">hoped for</span> still shape a life.",
-   "explain": "“Hoped” depends on “Things.” It is on the pattern of Hebrews 11:1, and it is not the verse. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Hoped” depends on “Things.” It is on the pattern of Hebrews 11:1, and it is not the verse. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1104,7 +1104,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? It is a truth <span class=\"target\">universally acknowledged</span>, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "“Acknowledged” depends on “truth.” The group modifies the noun, and it has no finite verb. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "“Acknowledged” depends on “truth.” The group modifies the noun, and it has no finite verb. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1121,7 +1121,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? He hath made every thing beautiful <span class=\"target\">in his time</span>: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.",
-   "explain": "“In his time” tells when, so it is adverbial. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:11)",
+   "explain": "“In his time” tells when, so it is adverbial. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:11)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1172,7 +1172,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? <span class=\"target\">To every thing</span> there is a season, and a time to every purpose under the heaven:",
-   "explain": "“To” here is a preposition, and “thing” is its object. It is not the “to” of an infinitive, because no verb follows it. The phrase tells the range of the season. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:1)",
+   "explain": "“To” here is a preposition, and “thing” is its object. It is not the “to” of an infinitive, because no verb follows it. The phrase tells the range of the season. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:1)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1189,7 +1189,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Train up a child <span class=\"target\">in the way</span> he should go: and when he is old, he will not depart from it.",
-   "explain": "The marked group begins with “in.” “He should go” is a following clause, and it is not part of the marked group. The group marked here is the preposition and its object. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Proverbs 22:6)",
+   "explain": "The marked group begins with “in.” “He should go” is a following clause, and it is not part of the marked group. The group marked here is the preposition and its object. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Proverbs 22:6)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1206,7 +1206,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? I can do all things <span class=\"target\">through Christ</span> which strengtheneth me.",
-   "explain": "“Through” takes “Christ” as its object and tells the means. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Philippians 4:13)",
+   "explain": "“Through” takes “Christ” as its object and tells the means. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Philippians 4:13)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1223,7 +1223,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Beloved, let us love one another: for love is <span class=\"target\">of God</span>; and every one that loveth is born of God, and knoweth God.",
-   "explain": "“Of God” tells what love is, and it stands after “is,” so it is adjectival. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), 1 John 4:7)",
+   "explain": "“Of God” tells what love is, and it stands after “is,” so it is adjectival. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), 1 John 4:7)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1240,7 +1240,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Pride goeth <span class=\"target\">before destruction</span>,",
-   "explain": "“Before” takes “destruction” as its object. This is the first member. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Proverbs 16:18)",
+   "explain": "“Before” takes “destruction” as its object. This is the first member. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Proverbs 16:18)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",
@@ -1376,7 +1376,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Of the blessings <span class=\"target\">set before you</span> make your choice, and be content.",
-   "explain": "“Set” depends on “blessings.” “Before you” belongs with the participle. The finite verbs are “make” and “be,” outside the group. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
+   "explain": "“Set” depends on “blessings.” “Before you” belongs with the participle. The finite verbs are “make” and “be,” outside the group. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1393,7 +1393,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? Fourscore and seven years ago our fathers brought forth upon this continent a new nation, <span class=\"target\">conceived in liberty</span>, and dedicated to the proposition that all men are created equal.",
-   "explain": "“Conceived” depends on “nation.” A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own. (Abraham Lincoln, the Address at Gettysburg, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
+   "explain": "“Conceived” depends on “nation.” A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own. (Abraham Lincoln, the Address at Gettysburg, as printed in Jasper L. McBrien, <em>America First</em> (1916))",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1410,7 +1410,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The letter, <span class=\"target\">written in a small hand</span>, was hard to read.",
-   "explain": "“Written” depends on “letter.” A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Written” depends on “letter.” A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1682,7 +1682,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? The boy, <span class=\"target\">running to the gate</span>, dropped his cap.",
-   "explain": "“Running” depends on “boy,” the one who ran. A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Running” depends on “boy,” the one who ran. A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1699,7 +1699,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? <span class=\"target\">Built of oak</span>, the chest lasted for years.",
-   "explain": "“Built” depends on “chest.” A participle depends on a noun. Donatus counts the <span class=\"lat\">participium</span> as a part of its own.",
+   "explain": "“Built” depends on “chest.” A participle depends on a noun. Donatus counts the <i lang=\"la\">participium</span> as a part of its own.",
    "options": [
     "Participial phrase",
     "Prepositional phrase",
@@ -1733,7 +1733,7 @@ ARS.exercises["lang.v.en/phrase-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of phrase is the marked group? To every thing there is a season, and a time to every purpose <span class=\"target\">under the heaven</span>:",
-   "explain": "“Under” takes “the heaven” as its object. The phrase tells the range of the purpose, so it modifies “purpose” and is adjectival. A preposition, Donatus’s <span class=\"lat\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:1)",
+   "explain": "“Under” takes “the heaven” as its object. The phrase tells the range of the purpose, so it modifies “purpose” and is adjectival. A preposition, Donatus’s <i lang=\"la\">praepositio</span>, takes an object and builds a phrase. A phrase has no finite verb. (The King James Version (the Oxford text of 1769), Ecclesiastes 3:1)",
    "options": [
     "Prepositional phrase",
     "Participial phrase",

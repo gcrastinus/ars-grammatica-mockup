@@ -33,7 +33,7 @@ ARS.decks["lang.ii.grc/writing"] = {
        "Before a consonant"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Σ</i> is the final form."
+      "explain": "Final sigma is written <i lang=\"grc\">ς</i>."
      },
      {
       "prompt": "How is <i lang=\"grc\">γ</i> pronounced in <i lang=\"grc\">ἄγκυρα</i>?",

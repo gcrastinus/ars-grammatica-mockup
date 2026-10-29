@@ -98,10 +98,10 @@ ARS.decks['i.consignification'] = {
 <p>Latin shows the same thing in <i>cursus</i> (“a running” or “a race”) and <i>currō</i> (“I run”). Both signify the same action; but <i>cursus</i> signifies it as a thing and so signifies without time, whereas <i>currō</i> signifies it as an action and so signifies with time. St. Thomas uses this very pair, in his commentary on Aristotle’s <i>De interpretatione</i>, to explain what it means for the verb to consignify time (<i>In Peri hermeneias</i> I, lect. 5).</p>`,
   src: `St. Thomas, <i>In Peri hermeneias</i> I, lect. 5, n. 7.`,
   qp: { id: 'q-with-time', variants: [
-    { prompt: `Latin <i>lusus</i> (“a playing”) and <i>ludo</i> (“I play”) signify the same action. Which of them consignifies time?`,
-      options: [`<i>Ludo</i>, because it signifies the action as an action, and motion is measured by time`, `<i>Lusus</i>, because it is the longer word`, `Both equally`, `Neither, because time is never signified by a word`],
+    { prompt: `Latin <i>lūsus</i> (“a playing”) and <i>lūdō</i> (“I play”) signify the same action. Which of them consignifies time?`,
+      options: [`<i>Lūdō</i>, because it signifies the action as an action, and motion is measured by time`, `<i>Lūsus</i>, because it is the longer word`, `Both equally`, `Neither, because time is never signified by a word`],
       answer: 0,
-      explain: `<i>Lusus</i> signifies the action as a thing, and so without time, whereas <i>ludo</i> signifies it as an action, and so with time. St. Thomas gives the reason with his own pair, <i>cursus</i> and <i>currō</i>: it belongs to motion to be measured by time.` },
+      explain: `<i>Lūsus</i> signifies the action as a thing, and so without time, whereas <i>lūdō</i> signifies it as an action, and so with time. St. Thomas gives the reason with his own pair, <i>cursus</i> and <i>currō</i>: it belongs to motion to be measured by time.` },
     { prompt: `In “His answer was prompt” and “He answers promptly,” which word consignifies time?`,
       options: [`“Answer,” because it names the action`, `“Prompt,” because it refers to time`, `“Answers,” because it signifies the action as happening now`, `Neither word`],
       answer: 2,
@@ -149,10 +149,10 @@ ARS.decks['i.consignification'] = {
       options: [`“Singing” in “Singing is good for the lungs”`, `“Song” in “The song was long”`, `“Sings” in “The lark sings”`, `“Tuneful” in “a tuneful lark”`],
       answer: 2,
       explain: `“Sings” signifies the singing as going on in the lark, by way of action or becoming; that is the verb’s mode of signifying. “Singing” in “Singing is good for the lungs” and “song” signify the singing by way of a thing, and “tuneful” signifies a quality belonging to the lark.` },
-    { prompt: `Latin <i>luctus</i> (“grief”) and <i>luget</i> (“he mourns”) signify the same sorrow. Why are they different parts of speech?`,
-      options: [`Because they signify the same thing in different modes of signifying, as a thing and as happening`, `Because they signify different things`, `Because <i>luctus</i> was imposed by nature and <i>luget</i> by agreement`, `Because <i>luget</i> is shorter`],
+    { prompt: `Latin <i>lūctus</i> (“grief”) and <i>lūget</i> (“he mourns”) signify the same sorrow. Why are they different parts of speech?`,
+      options: [`Because they signify the same thing in different modes of signifying, as a thing and as happening`, `Because they signify different things`, `Because <i>lūctus</i> was imposed by nature and <i>lūget</i> by agreement`, `Because <i>lūget</i> is shorter`],
       answer: 0,
-      explain: `A word is a noun or a verb not because of what it signifies or how it sounds, but because of how it signifies. <i>Luctus</i> signifies the sorrow by way of a thing, and <i>luget</i> by way of something happening.` }
+      explain: `A word is a noun or a verb not because of what it signifies or how it sounds, but because of how it signifies. <i>Lūctus</i> signifies the sorrow by way of a thing, and <i>lūget</i> by way of something happening.` }
   ]}},
 
 { id: 'priscian',

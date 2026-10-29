@@ -16,7 +16,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">μῆνιν</em> is…",
-   "explain": "The first word of the poem is its subject: sing the wrath.",
+   "explain": "The first word of the poem names its theme, and it is the object of <em lang=\"grc\">ἄειδε</em>: sing the wrath.",
    "options": [
     "Accusative",
     "Nominative",
@@ -67,9 +67,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">κύνεσσιν</em> is…",
-   "explain": "Homer has the dative plural ending <em lang=\"grc\">-εσσι</em>. for dogs",
+   "explain": "Homer has the dative plural ending <em lang=\"grc\">-εσσι</em>.",
    "options": [
-    "A Homeric dative plural",
+    "A Homeric dative plural: for dogs",
     "A genitive",
     "An Attic dative plural of <em lang=\"grc\">κύων</em>",
     "An accusative"
@@ -84,9 +84,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">διαστήτην</em> is in which number?",
-   "explain": "The ending <em lang=\"grc\">-την</em> marks the dual of a past tense. the two stood apart",
+   "explain": "The ending <em lang=\"grc\">-την</em> marks the dual of a past tense.",
    "options": [
-    "The dual",
+    "The dual: the two stood apart",
     "The singular",
     "The plural",
     "The neuter plural"
@@ -169,9 +169,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ὦ τέκνα</em> is…",
-   "explain": "<em lang=\"grc\">Ὦ</em> marks the address. the children addressed",
+   "explain": "<em lang=\"grc\">Ὦ</em> marks the address.",
    "options": [
-    "Vocative",
+    "Vocative: the children addressed",
     "Nominative subject",
     "Accusative object",
     "Genitive"
@@ -186,9 +186,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἐξεστεμμένοι</em> is…",
-   "explain": "The reduplication and <em lang=\"grc\">-μένοι</em> mark the perfect middle-passive participle. agreeing with the children",
+   "explain": "The reduplication and <em lang=\"grc\">-μένοι</em> mark the perfect middle-passive participle.",
    "options": [
-    "A perfect passive participle",
+    "A perfect passive participle: agreeing with the children",
     "A finite verb",
     "An infinitive",
     "An aorist active participle"
@@ -220,9 +220,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ὁμοῦ δὲ</em></p> <em lang=\"grc\">ὁμοῦ μὲν … ὁμοῦ δέ</em> means…",
-   "explain": "The repeated <em lang=\"grc\">ὁμοῦ</em> with <em lang=\"grc\">μὲν … δέ</em> links two things happening together. the two set side by side",
+   "explain": "The repeated <em lang=\"grc\">ὁμοῦ</em> with <em lang=\"grc\">μὲν … δέ</em> links two things happening together.",
    "options": [
-    "“At once … and at once”",
+    "“At once … and at once”: the two set side by side",
     "“Neither … nor”",
     "“Because … therefore”",
     "“If … then”"
@@ -237,9 +237,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">μοῦσαι</em> is…",
-   "explain": "The poet calls on them, as the imperatives show. the Muses addressed",
+   "explain": "The poet calls on them, as the imperatives show.",
    "options": [
-    "Vocative plural",
+    "Vocative plural: the Muses addressed",
     "Nominative subject",
     "Accusative",
     "Genitive"
@@ -271,9 +271,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ὅντε διὰ</em></p> In <em lang=\"grc\">ὅντε διά</em>, the preposition…",
-   "explain": "<em lang=\"grc\">Διά</em> with the accusative <em lang=\"grc\">ὅν</em>: on account of whom. as often in poetry",
+   "explain": "<em lang=\"grc\">Διά</em> with the accusative <em lang=\"grc\">ὅν</em>: on account of whom.",
    "options": [
-    "Follows its object",
+    "Follows its object: as often in poetry",
     "Governs the genitive",
     "Is an adverb",
     "Begins a new sentence"
@@ -322,9 +322,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ὅτι … κείμεθα</em> is…",
-   "explain": "After a verb of telling, <em lang=\"grc\">ὅτι</em> gives what is told. that we lie here",
+   "explain": "After a verb of telling, <em lang=\"grc\">ὅτι</em> gives what is told.",
    "options": [
-    "The content of the message",
+    "The content of the message: that we lie here",
     "A causal clause",
     "A relative clause",
     "A purpose clause"
@@ -492,9 +492,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">τμηθεῖσα</em> is…",
-   "explain": "The <em lang=\"grc\">-θ-</em> and the ending <em lang=\"grc\">-εῖσα</em> mark the aorist passive, feminine with <em lang=\"grc\">πεύκη</em>. having been cut",
+   "explain": "The <em lang=\"grc\">-θ-</em> and the ending <em lang=\"grc\">-εῖσα</em> mark the aorist passive, feminine with <em lang=\"grc\">πεύκη</em>.",
    "options": [
-    "An aorist passive participle",
+    "An aorist passive participle: having been cut",
     "An aorist active participle",
     "A present infinitive",
     "A future"
@@ -543,9 +543,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">τῶνδε … πόνων</em> is…",
-   "explain": "<em lang=\"grc\">Ἀπαλλαγή</em>, release, takes what one is released from in the genitive. from these toils",
+   "explain": "<em lang=\"grc\">Ἀπαλλαγή</em>, release, takes what one is released from in the genitive.",
    "options": [
-    "Genitive of separation",
+    "Genitive of separation: from these toils",
     "Genitive of possession",
     "Partitive genitive",
     "Genitive of time"
@@ -679,9 +679,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἔλαμπες</em> is…",
-   "explain": "The augment <em lang=\"grc\">ἐ-</em> and the present stem <em lang=\"grc\">λαμπ-</em> make the imperfect. you used to shine",
+   "explain": "The augment <em lang=\"grc\">ἐ-</em> and the present stem <em lang=\"grc\">λαμπ-</em> make the imperfect.",
    "options": [
-    "Imperfect",
+    "Imperfect: you used to shine",
     "Aorist: you shone once",
     "Present",
     "Future"
@@ -696,9 +696,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ζωοῖσιν</em> is…",
-   "explain": "Epic <em lang=\"grc\">-οισι(ν)</em> for Attic <em lang=\"grc\">-οις</em>. among the living",
+   "explain": "Epic <em lang=\"grc\">-οισι(ν)</em> for Attic <em lang=\"grc\">-οις</em>.",
    "options": [
-    "An epic dative plural",
+    "An epic dative plural: among the living",
     "An accusative",
     "An Attic dative plural of <em lang=\"grc\">ζῷον</em>",
     "A genitive singular"
@@ -713,9 +713,9 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">θανὼν</em></p> <em lang=\"grc\">θανών</em> is…",
-   "explain": "From the aorist <em lang=\"grc\">ἔθανον</em> of <em lang=\"grc\">θνῄσκω</em>. having died",
+   "explain": "From the aorist <em lang=\"grc\">ἔθανον</em> of <em lang=\"grc\">θνῄσκω</em>.",
    "options": [
-    "An aorist participle",
+    "An aorist participle: having died",
     "A present participle",
     "A future",
     "An infinitive"

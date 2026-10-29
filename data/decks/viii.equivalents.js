@@ -116,7 +116,7 @@ ARS.decks['viii.equivalents'] = {
     { prompt: `“All is not lost,” as English usually means it, says what?`,
       options: [`That nothing at all remains`, `That everything is lost`, `That nothing was ever lost`, `That not all is lost`],
       answer: 3,
-      explain: `English often puts “not” after “all” with the sense of “not all,” as in the proverb on the card. So the sentence means that not everything is lost, and some hope remains.` }
+      explain: `English often puts “not” after “all” with the sense of “not all,” as in the proverb “All that glitters is not gold.” So the sentence means that not everything is lost, and some hope remains.` }
   ] } },
 
 { id: 'four-forms',

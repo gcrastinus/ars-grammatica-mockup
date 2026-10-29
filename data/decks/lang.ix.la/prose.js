@@ -177,7 +177,7 @@ ARS.decks["lang.ix.la/prose"] = {
       "explain": "Cicero addresses the people in the vocative."
      },
      {
-      "prompt": "How many participles describe Catiline?",
+      "prompt": "How many participles describe Catiline before <em lang=\"la\">ex urbe</em>?",
       "options": [
        "Four",
        "Three, one for each verb at the end of the period",
@@ -185,7 +185,7 @@ ARS.decks["lang.ix.la/prose"] = {
        "One"
       ],
       "answer": 0,
-      "explain": "<em lang=\"la\">Furentem</em>, <em lang=\"la\">anhelantem</em>, <em lang=\"la\">molientem</em>, <em lang=\"la\">minitantem</em>."
+      "explain": "Before <em lang=\"la\">ex urbe</em> four participles describe him: <em lang=\"la\">furentem</em>, <em lang=\"la\">anhelantem</em>, <em lang=\"la\">molientem</em>, <em lang=\"la\">minitantem</em>."
      }
     ]
    }

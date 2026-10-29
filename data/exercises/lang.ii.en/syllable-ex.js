@@ -189,9 +189,9 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "In “They will permit it,” which syllable of “permit” is stressed?",
-   "explain": "The verb “permit” is stressed on the second syllable, and the noun, “a permit,” on the first. “perMIT”",
+   "explain": "The verb “permit” is stressed on the second syllable, and the noun, “a permit,” on the first.",
    "options": [
-    "The second",
+    "The second: “perMIT”",
     "The first: “PERmit”",
     "Both equally"
    ],
@@ -472,7 +472,7 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Why is the first “o” of “photography” a schwa, though it is a full vowel in “photograph”?",
-   "explain": "The stress of “photography” falls on “tog,” so the first syllable weakens: fə-ˈtä-grə-fē. and an unstressed vowel is often reduced",
+   "explain": "The stress of “photography” falls on “tog,” so the first syllable weakens: fə-ˈtä-grə-fē. An unstressed vowel is often reduced.",
    "options": [
     "In “photography” it is unstressed",
     "The suffix “-y” always makes a schwa",
@@ -536,7 +536,7 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "English speech is called stress-timed because…",
-   "explain": "In English, the beats fall on stressed syllables at roughly even intervals. That is why English meter counts stresses. and the weak ones are squeezed between them",
+   "explain": "In English, the beats fall on stressed syllables at roughly even intervals. That is why English meter counts stresses. The weak syllables are squeezed between them.",
    "options": [
     "The stressed syllables come at roughly even intervals",
     "Every syllable takes the same time",
@@ -568,7 +568,7 @@ ARS.exercises["lang.ii.en/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "What does English meter count, and what does Latin meter count?",
-   "explain": "English rhythm is made by stress, and Latin rhythm by the length of syllables. The Latin study that follows measures that length.",
+   "explain": "English rhythm is made by stress, and Latin rhythm by the length of syllables.",
    "options": [
     "English counts stressed beats; Latin counts long and short syllables",
     "Both count long and short syllables",

@@ -50,9 +50,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">Italiam</em> with <em lang=\"la\">venit</em> is…",
-   "explain": "Prose would say <em lang=\"la\">in Italiam</em>; poetry often gives the place to which in the bare accusative. without a preposition",
+   "explain": "Prose would say <em lang=\"la\">in Italiam</em>; poetry often gives the place to which in the bare accusative.",
    "options": [
-    "An accusative of the place to which",
+    "An accusative of the place to which: without a preposition",
     "The direct object of <em lang=\"la\">cano</em>",
     "A nominative, the subject of <em lang=\"la\">venit</em>",
     "An ablative of place where"
@@ -118,9 +118,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">parabam</em> is…",
-   "explain": "The imperfect presents the action as going on, and here as intended but not completed, because Cupid interfered. “I was preparing,” a plan not carried out",
+   "explain": "The imperfect presents the action as going on, and here as intended but not completed, because Cupid interfered.",
    "options": [
-    "Imperfect",
+    "Imperfect: “I was preparing,” a plan not carried out",
     "Perfect: “I prepared,” a finished act",
     "Present: “I prepare”",
     "Pluperfect: “I had prepared”"
@@ -135,9 +135,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">materia conveniente</em> is…",
-   "explain": "A noun and a participle in the ablative give a circumstance: with the matter suited to the meters. the matter being suited",
+   "explain": "A noun and a participle in the ablative give a circumstance: with the matter suited to the meters.",
    "options": [
-    "An ablative absolute",
+    "An ablative absolute: the matter being suited",
     "The subject of <em lang=\"la\">edere</em>",
     "A dative with <em lang=\"la\">modis</em>",
     "An ablative of comparison"
@@ -152,9 +152,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">modis</em> is…",
-   "explain": "<em lang=\"la\">Convenio</em>, “suit,” takes the dative of the thing suited. suited to the meters",
+   "explain": "<em lang=\"la\">Convenio</em>, “suit,” takes the dative of the thing suited.",
    "options": [
-    "Dative with <em lang=\"la\">conveniente</em>",
+    "Dative with <em lang=\"la\">conveniente</em>: suited to the meters",
     "Ablative of means: by the meters",
     "Accusative plural, the object of <em lang=\"la\">edere</em>",
     "Genitive singular"
@@ -169,9 +169,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"la\">risisse Cupido</em></p> How does <em lang=\"la\">risisse</em> stand?",
-   "explain": "With <em lang=\"la\">dicitur</em>, Latin makes the person the subject and puts the action in the infinitive. The perfect infinitive marks a past act. Cupid is said to have laughed",
+   "explain": "With <em lang=\"la\">dicitur</em>, Latin makes the person the subject and puts the action in the infinitive. The perfect infinitive marks a past act.",
    "options": [
-    "As an infinitive with <em lang=\"la\">dicitur</em>",
+    "As an infinitive with <em lang=\"la\">dicitur</em>: Cupid is said to have laughed",
     "As a historical infinitive",
     "As an infinitive of purpose",
     "As the subject of <em lang=\"la\">erat</em>"
@@ -288,9 +288,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">integer vitae</em>: what is <em lang=\"la\">vitae</em>?",
-   "explain": "Poetry uses the genitive with an adjective to tell in what respect the adjective holds: upright of life. whole in life",
+   "explain": "Poetry uses the genitive with an adjective to tell in what respect the adjective holds: upright of life.",
    "options": [
-    "A genitive telling in what respect",
+    "A genitive telling in what respect: whole in life",
     "A dative: whole for life",
     "A nominative plural",
     "A locative"
@@ -322,9 +322,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">Fusce</em> is…",
-   "explain": "A noun of the second declension in <em lang=\"la\">-us</em> has a vocative in <em lang=\"la\">-e</em>. Fuscus, the friend addressed",
+   "explain": "A noun of the second declension in <em lang=\"la\">-us</em> has a vocative in <em lang=\"la\">-e</em>.",
    "options": [
-    "Vocative",
+    "Vocative: Fuscus, the friend addressed",
     "Ablative: by Fuscus",
     "Nominative: the subject of <em lang=\"la\">eget</em>",
     "Genitive: of Fuscus"
@@ -356,9 +356,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">facturus</em> is…",
-   "explain": "The ending <em lang=\"la\">-urus</em> marks the future active participle, here agreeing with the understood man. about to make",
+   "explain": "The ending <em lang=\"la\">-urus</em> marks the future active participle, here agreeing with the understood man.",
    "options": [
-    "A future active participle",
+    "A future active participle: about to make",
     "A perfect passive participle",
     "A gerundive",
     "A present participle"
@@ -424,9 +424,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">viantibus</em> is…",
-   "explain": "<em lang=\"la\">Viantes</em>, “those on the road,” is a participle used as a noun, and the dative tells for whom the herald is a light. for travelers in the dative",
+   "explain": "<em lang=\"la\">Viantes</em>, “those on the road,” is a participle used as a noun, and the dative tells for whom the herald is a light.",
    "options": [
-    "A present participle",
+    "A present participle: for travelers in the dative",
     "An ablative absolute",
     "A nominative plural",
     "A future participle"
@@ -628,9 +628,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">Sabidi</em> is…",
-   "explain": "A name in <em lang=\"la\">-ius</em> has its vocative in <em lang=\"la\">-i</em>, and the man is spoken to. Sabidius, the man addressed",
+   "explain": "A name in <em lang=\"la\">-ius</em> has its vocative in <em lang=\"la\">-i</em>, and the man is spoken to.",
    "options": [
-    "Vocative",
+    "Vocative: Sabidius, the man addressed",
     "Genitive: of Sabidius",
     "Nominative: the subject of <em lang=\"la\">amo</em>",
     "Dative: to Sabidius"
@@ -832,9 +832,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">carnis</em> depends on…",
-   "explain": "<em lang=\"la\">Carnis</em> is genitive, the thing made, and <em lang=\"la\">conditor</em> is the maker. <em lang=\"la\">Carne</em>, in the ablative, says that he hung in the flesh. the maker of flesh",
+   "explain": "<em lang=\"la\">Carnis</em> is genitive, the thing made, and <em lang=\"la\">conditor</em> is the maker. <em lang=\"la\">Carne</em>, in the ablative, says that he hung in the flesh.",
    "options": [
-    "<em lang=\"la\">conditor</em>",
+    "<em lang=\"la\">conditor</em>: the maker of flesh",
     "<em lang=\"la\">carne</em>",
     "<em lang=\"la\">patibulo</em>",
     "<em lang=\"la\">suspensus est</em>"
@@ -849,9 +849,9 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">vulneratus</em> agrees with…",
-   "explain": "<em lang=\"la\">Vulneratus</em> is masculine singular nominative, and it describes the same subject as <em lang=\"la\">suspensus est</em>. the maker who hung on the cross",
+   "explain": "<em lang=\"la\">Vulneratus</em> is masculine singular nominative, and it describes the same subject as <em lang=\"la\">suspensus est</em>.",
    "options": [
-    "The understood subject",
+    "The understood subject: the maker who hung on the cross",
     "<em lang=\"la\">mucrone</em>",
     "<em lang=\"la\">lanceae</em>",
     "<em lang=\"la\">nos</em>"

@@ -235,7 +235,7 @@ ARS.exercises["lang.iii-decl.en/noun-ex"] = {
    "explain": "The possessive singular adds an apostrophe and “s”: “the teacher’s desk.”",
    "accept": [
     "teacher’s",
-    "teacher's"
+    "teacher’s"
    ]
   },
   {
@@ -261,7 +261,7 @@ ARS.exercises["lang.iii-decl.en/noun-ex"] = {
    "explain": "The plural “men” does not end in “-s,” so it takes an apostrophe and “s.”",
    "accept": [
     "men’s",
-    "men's"
+    "men’s"
    ]
   },
   {

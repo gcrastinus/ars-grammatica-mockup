@@ -309,7 +309,7 @@ ARS.exercises['vi.ex.metaplasm'] = {
    "type": "sort",
    "prompt": "Sort each Latin poetic form by its kind of change.",
    "entries": [
-    "<i>nāvita</i> for <i>nauta</i> (“sailor”)",
+    "<i>relliquiās</i> for <i>reliquiās</i> (“remnants”)",
     "<i>dīxe</i> for <i>dīxisse</i> (“to have said”)",
     "<i>optumus</i> for <i>optimus</i> (“best”)",
     "<i>dīcier</i> for <i>dīcī</i> (“to be said”)",
@@ -329,7 +329,7 @@ ARS.exercises['vi.ex.metaplasm'] = {
     1,
     2
    ],
-   "explain": "<i>Nāvita</i> and <i>dīcier</i> add (epenthesis and paragoge); <i>dīxe</i> and <i>nōsse</i> remove from the middle (syncope); <i>optumus</i> and <i>voster</i> put one letter in place of another (antithesis)."
+   "explain": "<i>Relliquiās</i> and <i>dīcier</i> add (epenthesis and paragoge); <i>dīxe</i> and <i>nōsse</i> remove from the middle (syncope); <i>optumus</i> and <i>voster</i> put one letter in place of another (antithesis)."
   },
   {
    "id": "mp-C02",

@@ -281,7 +281,7 @@ ARS.exercises["lang.v.de/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"de\">Der König sprechen.</i>",
-   "explain": "<i lang=\"de\">König</i> is singular. <i lang=\"de\">Sprechen</i> is the plural form, and the same spelling is the infinitive. Neither fits this subject. <i lang=\"de\">Sprechen</i> is a real form, and the fault is the join.",
+   "explain": "<i lang=\"de\">König</i> is singular. <i lang=\"de\">Sprechen</i> is the plural form, and the same spelling is the infinitive. Neither fits this subject. <i lang=\"de\">Sprechen</i> is a real form, and the error is in the construction.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Incongruous: the parts do not fit",
@@ -296,7 +296,7 @@ ARS.exercises["lang.v.de/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"de\">Das Frau sieht das Buch.</i>",
-   "explain": "<i lang=\"de\">Frau</i> is feminine and <i lang=\"de\">das</i> is neuter. The parts do not fit. Each word is a German form, and the fault is the join.",
+   "explain": "<i lang=\"de\">Frau</i> is feminine and <i lang=\"de\">das</i> is neuter. The parts do not fit. Each word is a German form, and the error is in the construction.",
    "options": [
     "Incongruous: the parts do not fit",
     "Congruous and complete: the sense is now finished",

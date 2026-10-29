@@ -165,7 +165,7 @@ ARS.decks["lang.v.es/agreement"] = {
       "explain": "Neuter <i lang=\"es\">lo</i> replaces an attribute whatever its gender, and so it has no gender agreement with <i lang=\"es\">ordenada</i>."
      },
      {
-      "prompt": "Which sentence follows the Academy's advice for formal registers?",
+      "prompt": "Which sentence follows the Academy’s advice for formal registers?",
       "options": [
        "<i lang=\"es\">Le expliqué el problema a los clientes</i>",
        "<i lang=\"es\">Los expliqué el problema a los clientes</i>",

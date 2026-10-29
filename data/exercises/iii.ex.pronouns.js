@@ -53,7 +53,7 @@ ARS.exercises['iii.ex.pronouns'] = {
    "3": 12
   }
  },
- "limit": "The pronoun's accidents, with noun accidents as already taught; no verb forms beyond glossed words.",
+ "limit": "The pronoun’s accidents, with noun accidents as already taught; no verb forms beyond glossed words.",
  "instr": "Choose the answer or type the word. Macrons are not tested in typed Latin answers.",
  "items": [
   {

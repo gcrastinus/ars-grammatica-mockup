@@ -31,7 +31,7 @@ ARS.exercises["lang.iii-indecl.es/govern-ex"] = {
    "deck": "lang.iii-indecl.es/govern-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form that fills the blank: <i lang=\"es\">Compré ___ pan para la cena.</i> (“I bought bread for supper”): which word fills the blank, if any?",
+   "prompt": "Which word fills the blank, if any? <i lang=\"es\">Compré ___ pan para la cena.</i> (“I bought bread for supper”)",
    "explain": "A direct object that names a thing takes no preposition.",
    "options": [
     "<i lang=\"es\">a</i>",

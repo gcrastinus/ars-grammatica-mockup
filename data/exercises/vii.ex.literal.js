@@ -277,7 +277,7 @@ ARS.exercises['vii.ex.literal'] = {
    "options": [
     "A hand of flesh and blood",
     "None at all",
-    "A hand",
+    "A gesture of blessing",
     "God’s power"
    ],
    "answer": 3,

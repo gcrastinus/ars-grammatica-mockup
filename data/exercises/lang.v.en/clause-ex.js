@@ -96,7 +96,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The king waited, and the queen departed.",
-   "explain": "Two independent clauses are joined by “and.” Nothing depends. This course will call that side-by-side arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “and.” Nothing depends. The grammarians call this side-by-side arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -112,7 +112,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? When the gate shut, the king departed.",
-   "explain": "One independent clause, “the king departed,” and one subordinate clause of time. A subordinate clause is hypotaxis, in the name this course will use later.",
+   "explain": "One independent clause, “the king departed,” and one subordinate clause of time. The grammarians call this dependent arrangement hypotaxis.",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -336,7 +336,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Fair is foul, and foul is fair:",
-   "explain": "Two independent clauses, each inverted, joined by “and.” Neither clause depends on the other. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (William Shakespeare, <em>Macbeth</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "Two independent clauses, each inverted, joined by “and.” Neither clause depends on the other. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (William Shakespeare, <em>Macbeth</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -656,7 +656,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The bell rang, and the class stood.",
-   "explain": "Two independent clauses are joined by “and.” Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “and.” Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -672,7 +672,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The soup was hot, but the bread was stale.",
-   "explain": "Two independent clauses are joined by “but.” A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “but.” A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -688,7 +688,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? She wrote the note; her brother posted it.",
-   "explain": "The semicolon joins two independent clauses. No clause depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "The semicolon joins two independent clauses. No clause depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -704,7 +704,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The wind rose, and the boats turned back.",
-   "explain": "Two independent clauses stand side by side, joined by “and.” A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses stand side by side, joined by “and.” A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -720,7 +720,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Blessed are the meek: for they shall inherit the earth.",
-   "explain": "“For” joins two independent clauses, “Blessed are the meek” and “they shall inherit the earth.” Here “for” is a coordinating conjunction, one of the joining words, not a subordinating one. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), Matthew 5:5)",
+   "explain": "“For” joins two independent clauses, “Blessed are the meek” and “they shall inherit the earth.” Here “for” is a coordinating conjunction, one of the joining words, not a subordinating one. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), Matthew 5:5)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -736,7 +736,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? When the bell rang, the class stood.",
-   "explain": "One independent clause, “the class stood,” and one subordinate clause of time. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis.",
+   "explain": "One independent clause, “the class stood,” and one subordinate clause of time. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis.",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -752,7 +752,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Because the road was icy, we walked.",
-   "explain": "One independent clause and one subordinate clause of cause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis.",
+   "explain": "One independent clause and one subordinate clause of cause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis.",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -768,7 +768,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Judge not, that ye be not judged.",
-   "explain": "“Judge not” is the independent clause, a command. “That ye be not judged” depends on it and tells the purpose. “Be” is subjunctive. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Matthew 7:1)",
+   "explain": "“Judge not” is the independent clause, a command. “That ye be not judged” depends on it and tells the purpose. “Be” is subjunctive. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Matthew 7:1)",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -784,7 +784,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? If God be for us, who can be against us?",
-   "explain": "“If God be for us” is a subordinate clause of condition, and “be” is subjunctive. “Who can be against us” is the independent clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Romans 8:31)",
+   "explain": "“If God be for us” is a subordinate clause of condition, and “be” is subjunctive. “Who can be against us” is the independent clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Romans 8:31)",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -800,7 +800,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? When I was a child, I spake as a child,",
-   "explain": "“When I was a child” depends on “I spake as a child.” One subordinate clause and one independent clause make the sentence complex. The question uses only this opening of the verse. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (The King James Version (the Oxford text of 1769), 1 Corinthians 13:11)",
+   "explain": "“When I was a child” depends on “I spake as a child.” One subordinate clause and one independent clause make the sentence complex. The question uses only this opening of the verse. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (The King James Version (the Oxford text of 1769), 1 Corinthians 13:11)",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1008,7 +1008,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? For loan oft loses both itself and friend; And borrowing dulls the edge of husbandry.",
-   "explain": "The semicolon joins two independent clauses. “For” at the head of the first clause is coordinating in this course, so that clause is not subordinate. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "The semicolon joins two independent clauses. “For” at the head of the first clause is coordinating, so that clause is not subordinate. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1024,7 +1024,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? And God called the light Day, and the darkness he called Night.",
-   "explain": "“And” joins two independent clauses. In the second, “the darkness” is the object set first, and “he” is the subject. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), Genesis 1:5)",
+   "explain": "“And” joins two independent clauses. In the second, “the darkness” is the object set first, and “he” is the subject. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), Genesis 1:5)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1040,7 +1040,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The LORD is my shepherd; I shall not want.",
-   "explain": "The semicolon joins two independent clauses, “The LORD is my shepherd” and “I shall not want.” Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), Psalm 23:1)",
+   "explain": "The semicolon joins two independent clauses, “The LORD is my shepherd” and “I shall not want.” Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), Psalm 23:1)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1056,7 +1056,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Kings will be tyrants from policy, when subjects are rebels from principle.",
-   "explain": "“When subjects are rebels from principle” depends on the first clause. One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Edmund Burke, in <em>The Works of the Right Honourable Edmund Burke</em>, vol. 3, as printed by Project Gutenberg (eBook 15679))",
+   "explain": "“When subjects are rebels from principle” depends on the first clause. One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (Edmund Burke, in <em>The Works of the Right Honourable Edmund Burke</em>, vol. 3, as printed by Project Gutenberg (eBook 15679))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1072,7 +1072,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? If I loved you less, I might be able to talk about it more.",
-   "explain": "“If I loved you less” depends on “I might be able to talk about it more.” One subordinate clause and one independent clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
+   "explain": "“If I loved you less” depends on “I might be able to talk about it more.” One subordinate clause and one independent clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (Jane Austen, <em>Emma</em> (1815), Volume III, Chapter XIII, as printed by Project Gutenberg (eBook 158))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1088,7 +1088,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? You must allow me to tell you how ardently I admire and love you.",
-   "explain": "“How ardently I admire and love you” is a noun clause, the object of “tell.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter XXXIV, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "“How ardently I admire and love you” is a noun clause, the object of “tell.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter XXXIV, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1296,7 +1296,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
-   "explain": "The colon joins two independent clauses. “But by me” is a phrase, not a subordinate clause. “The way, the truth, and the life” is a compound complement, not three clauses. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), John 14:6)",
+   "explain": "The colon joins two independent clauses. “But by me” is a phrase, not a subordinate clause. “The way, the truth, and the life” is a compound complement, not three clauses. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), John 14:6)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1312,7 +1312,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? Be not overcome of evil, but overcome evil with good.",
-   "explain": "Two commands, “Be not overcome of evil” and “overcome evil with good,” joined by “but.” Each can stand. Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), Romans 12:21)",
+   "explain": "Two commands, “Be not overcome of evil” and “overcome evil with good,” joined by “but.” Each can stand. Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), Romans 12:21)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1328,7 +1328,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The lamp was lit, but the room stayed dim.",
-   "explain": "Two independent clauses are joined by “but.” Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “but.” Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1344,7 +1344,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? There are more things in heaven and earth, Horatio, Than are dreamt of in your philosophy.",
-   "explain": "“Than are dreamt of in your philosophy” depends on “more.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
+   "explain": "“Than are dreamt of in your philosophy” depends on “more.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (William Shakespeare, <em>Hamlet</em> (modern-spelling text, Project Gutenberg eBook 100))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1360,7 +1360,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.",
-   "explain": "The main clause is “It is a truth.” The “that”-clause stands in apposition to “truth” and is subordinate. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
+   "explain": "The main clause is “It is a truth.” The “that”-clause stands in apposition to “truth” and is subordinate. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (Jane Austen, <em>Pride and Prejudice</em> (1813), Chapter I, as printed by Project Gutenberg (eBook 1342))",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1376,7 +1376,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? If the tide turns, the boat sails.",
-   "explain": "One independent clause, “the boat sails,” and one subordinate clause of condition. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis.",
+   "explain": "One independent clause, “the boat sails,” and one subordinate clause of condition. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis.",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1568,7 +1568,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? And the light shineth in darkness; and the darkness comprehended it not.",
-   "explain": "The semicolon and “and” join two independent clauses. “In darkness” and “it” do not open a subordinate clause. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis. (The King James Version (the Oxford text of 1769), John 1:5)",
+   "explain": "The semicolon and “and” join two independent clauses. “In darkness” and “it” do not open a subordinate clause. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis. (The King James Version (the Oxford text of 1769), John 1:5)",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1584,7 +1584,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? The wind fell, and the sails hung still.",
-   "explain": "Two independent clauses are joined by “and.” Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “and.” Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1600,7 +1600,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? She may take the early train, or she may wait.",
-   "explain": "Two independent clauses are joined by “or.” Nothing depends. A compound sentence joins independent clauses side by side. This course calls that arrangement parataxis.",
+   "explain": "Two independent clauses are joined by “or.” Nothing depends. A compound sentence joins independent clauses side by side. The grammarians call this arrangement parataxis.",
    "options": [
     "Compound sentence",
     "Simple sentence",
@@ -1616,7 +1616,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? It is not good that the man should be alone;",
-   "explain": "“That the man should be alone” is a noun clause, the subject in sense of what is not good, standing after “it.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Genesis 2:18)",
+   "explain": "“That the man should be alone” is a noun clause, the subject in sense of what is not good, standing after “it.” One independent clause and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Genesis 2:18)",
    "options": [
     "Complex sentence",
     "Simple sentence",
@@ -1632,7 +1632,7 @@ ARS.exercises["lang.v.en/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of sentence is this? choose you this day whom ye will serve;",
-   "explain": "“Whom ye will serve” is a noun clause, the object of “choose.” One command and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. This course calls the dependent arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Joshua 24:15)",
+   "explain": "“Whom ye will serve” is a noun clause, the object of “choose.” One command and one subordinate clause. A complex sentence has one independent clause and at least one subordinate clause. The grammarians call this arrangement hypotaxis. (The King James Version (the Oxford text of 1769), Joshua 24:15)",
    "options": [
     "Complex sentence",
     "Simple sentence",

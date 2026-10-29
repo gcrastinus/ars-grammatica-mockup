@@ -571,7 +571,7 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
      {
       "prompt": "What is the second person singular imperfect of <i lang=\"grc\">εἰμί</i>?",
       "options": [
-       "<i lang=\"grc\">ἦς</i>",
+       "<i lang=\"grc\">ἦμεν</i>",
        "<i lang=\"grc\">εἶ</i>",
        "<i lang=\"grc\">ἦσθα</i>",
        "<i lang=\"grc\">ἦτε</i>"

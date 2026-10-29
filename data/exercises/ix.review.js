@@ -230,7 +230,7 @@ ARS.exercises['ix.review'] = {
    "prompt": "<i>Lēgātus <b>epistulam</b> legit</i> (“The envoy reads the letter”). How do we know the case of the marked word?",
    "options": [
     "By its place at the end",
-    "Ending and construction",
+    "By its ending and its construction",
     "By its meaning alone",
     "By the English translation"
    ],
@@ -246,7 +246,7 @@ ARS.exercises['ix.review'] = {
    "options": [
     "Parsing is the least important step",
     "The parsing never changes",
-    "Use decides the parse",
+    "Because the use of a word decides its parse",
     "Only Latin words are parsed"
    ],
    "answer": 2,
@@ -381,11 +381,11 @@ ARS.exercises['ix.review'] = {
    "options": [
     "As many as it has nouns",
     "Always one",
-    "One per finite verb",
+    "Usually one for each finite verb",
     "As many as it has commas"
    ],
    "answer": 2,
-   "explain": "Each finite verb makes a clause, so counting the finite verbs gives the number of clauses; the first step finds them and the main verb."
+   "explain": "Each finite verb usually makes a clause (two verbs with one subject, a compound predicate, make one clause), so counting the finite verbs gives the number of clauses; the first step finds them and the main verb."
   },
   {
    "id": "rix-C04",
@@ -441,7 +441,7 @@ ARS.exercises['ix.review'] = {
    "options": [
     "From the largest parts to the smallest",
     "From the last line to the first",
-    "Smallest parts first",
+    "From the smallest parts to the largest",
     "In any order the reader likes"
    ],
    "answer": 2,
@@ -457,7 +457,7 @@ ARS.exercises['ix.review'] = {
     "He makes the verb depend on the subject",
     "He draws no arrow between them",
     "He makes both depend on the object",
-    "Subject depends on verb"
+    "He makes the subject depend on the verb"
    ],
    "answer": 3,
    "explain": "Tesnière makes the subject depend on the verb, whereas Thomas makes the verb depend on the subject; the marking drill follows Thomas."

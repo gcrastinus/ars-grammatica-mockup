@@ -14,7 +14,7 @@ ARS.decks["lang.vii.es/figures"] = {
     "id": "q-es-fig-hyper",
     "variants": [
      {
-      "prompt": "What makes the first six lines of Góngora's <i>Soledad primera</i> an example of hyperbaton?",
+      "prompt": "What makes the first six lines of Góngora’s <i>Soledad primera</i> an example of hyperbaton?",
       "options": [
        "A word is carried over to something it resembles",
        "Two opposed ideas stand in matching halves",
@@ -79,7 +79,7 @@ ARS.decks["lang.vii.es/figures"] = {
       "explain": "A trope changes the signification of a word. In an antithesis the words keep their proper sense, and the figure lies in the arrangement."
      },
      {
-      "prompt": "What does the Academy's dictionary say that antithesis is?",
+      "prompt": "What does the Academy’s dictionary say that antithesis is?",
       "options": [
        "Opposition of a word or phrase to its contrary",
        "The repetition of a word at the beginning of lines",
@@ -104,11 +104,11 @@ ARS.decks["lang.vii.es/figures"] = {
       "options": [
        "She invents a new saying",
        "She fits a general truth to the case in hand",
-       "She contradicts Calisto's account of Melibea's answer",
+       "She contradicts Calisto’s account of Melibea’s answer",
        "She repeats it to rhyme with the next line"
       ],
       "answer": 1,
-      "explain": "She applies the saying to Calisto's case: she will make him obtain by striving what he would not obtain by negligence, and, as the besiegers of Zamora did not despair, neither should he."
+      "explain": "She applies the saying to Calisto’s case: she will make him obtain by striving what he would not obtain by negligence, and, as the besiegers of Zamora did not despair, neither should he."
      },
      {
       "prompt": "What may an editor who modernizes the spelling change, and what must he leave?",
@@ -119,7 +119,7 @@ ARS.decks["lang.vii.es/figures"] = {
        "He may change nothing at all"
       ],
       "answer": 1,
-      "explain": "The words and their order are the author's. The spelling, the accents, and the punctuation are the editor's."
+      "explain": "The words and their order are the author’s. The spelling, the accents, and the punctuation are the editor’s."
      },
      {
       "prompt": "How does the Academy define a <i lang=\"es\">refrán</i>?",
@@ -168,7 +168,7 @@ ARS.decks["lang.vii.es/figures"] = {
       "prompt": "Why is a change of line length not a trope?",
       "options": [
        "Because short lines cannot have figures",
-       "Every word keeps its signification",
+       "Because every word keeps its signification",
        "Because it occurs only in prose",
        "Because it changes the order of words"
       ],

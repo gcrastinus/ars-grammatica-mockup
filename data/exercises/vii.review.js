@@ -50,7 +50,7 @@ ARS.exercises['vii.review'] = {
    "prompt": "How does Quintilian distinguish a trope from a figure?",
    "options": [
     "A trope is in poetry; a figure is in prose",
-    "Trope: sense; figure: arrangement",
+    "A trope changes the sense; a figure, the arrangement",
     "A trope uses one word; a figure uses many",
     "A trope is an error; a figure is a license"
    ],

@@ -298,7 +298,7 @@ ARS.exercises['v.ex.mood'] = {
     "The imperfect",
     "The present",
     "The future",
-    "The perfect indicative"
+    "The pluperfect"
    ],
    "answer": 0,
    "explain": "<i>Mīsit</i> is past, so by the sequence of tenses the subordinate clause has the imperfect subjunctive: <i>mīsit ut vidēret</i>.",
@@ -594,7 +594,7 @@ ARS.exercises['v.ex.mood'] = {
    "level": 2,
    "deck": "v.mood",
    "type": "identify",
-   "prompt": "(Vergil, <i>Aeneid</i> I.33: “of so great toil was it to found the Roman race.”) Click the infinitive that is the subject of <i>erat</i>.",
+   "prompt": "(Virgil, <i>Aeneid</i> I.33: “of so great toil was it to found the Roman race.”) Click the infinitive that is the subject of <i>erat</i>.",
    "explain": "<i>Romanam condere gentem</i> is the subject: “to found the Roman race was of so great toil.” An infinitive can be used as a noun.",
    "tokens": [
     "Tantae",
@@ -605,7 +605,7 @@ ARS.exercises['v.ex.mood'] = {
     "gentem!"
    ],
    "answer": 4,
-   "source": "Vergil, Aeneid, Book I, line 33; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.33; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "md-L2-05",
@@ -613,7 +613,7 @@ ARS.exercises['v.ex.mood'] = {
    "level": 2,
    "deck": "v.mood",
    "type": "identify",
-   "prompt": "(Vergil, <i>Aeneid</i> I.19 to 20: “but she had heard that a race was being drawn from Trojan blood.”) Click the subject of the infinitive.",
+   "prompt": "(Virgil, <i>Aeneid</i> I.19 to 20: “but she had heard that a race was being drawn from Trojan blood.”) Click the subject of the infinitive.",
    "explain": "After <i>audierat</i>, a verb of hearing, the statement goes into the accusative and infinitive: <i>progeniem duci</i>.",
    "tokens": [
     "Progeniem",
@@ -626,7 +626,7 @@ ARS.exercises['v.ex.mood'] = {
     "audierat,"
    ],
    "answer": 0,
-   "source": "Vergil, Aeneid, Book I, lines 19 to 20; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.19–20; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "md-L2-06",
@@ -634,7 +634,7 @@ ARS.exercises['v.ex.mood'] = {
    "level": 2,
    "deck": "v.mood",
    "type": "mc",
-   "prompt": "<i>Forsan et haec olim meminisse iuvabit</i> (Vergil, <i>Aeneid</i> I.203: “perhaps someday it will please us to remember even these things”). How is <i>meminisse</i> used?",
+   "prompt": "<i>Forsan et haec olim meminisse iuvabit</i> (Virgil, <i>Aeneid</i> I.203: “perhaps someday it will please us to remember even these things”). How is <i>meminisse</i> used?",
    "options": [
     "As the subject of <i>iuvabit</i>",
     "As a purpose clause",
@@ -643,7 +643,7 @@ ARS.exercises['v.ex.mood'] = {
    ],
    "answer": 0,
    "explain": "“To remember even these things will please”: the infinitive is the subject of the impersonal <i>iuvabit</i>.",
-   "source": "Vergil, Aeneid, Book I, line 203; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.203; text checked against Project Gutenberg eBook #227"
   },
   {
    "id": "md-L2-07",

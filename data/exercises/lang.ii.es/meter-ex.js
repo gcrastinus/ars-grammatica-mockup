@@ -243,7 +243,7 @@ ARS.exercises["lang.ii.es/meter-ex"] = {
     "Fourteen, in two halves of seven"
    ],
    "answer": 3,
-   "explain": "Seven and seven."
+   "explain": "The <i lang=\"es\">alejandrino</i> has two halves of seven syllables."
   },
   {
    "id": "lang.ii.es/meter-ex:C4",

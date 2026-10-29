@@ -265,7 +265,7 @@ ARS.exercises['v.ex.period'] = {
    "type": "mc",
    "prompt": "Why does a Latin period often place its main verb last?",
    "options": [
-    "It completes construction and sense together",
+    "Because it completes the construction and the sense together",
     "Because verbs are the shortest words",
     "Because Latin forbids a verb anywhere else in a sentence",
     "Because the last word must rhyme"
@@ -297,7 +297,7 @@ ARS.exercises['v.ex.period'] = {
     "English has no subordinate clauses",
     "English sentences cannot be long",
     "English lacks endings to show the construction",
-    "English has no way to subordinate one clause to another"
+    "English cannot place a verb at the end"
    ],
    "answer": 2,
    "explain": "Latin endings show which word belongs with which wherever it stands; English order is fixed and carries the construction, so a long suspended sentence is harder to hold together.",
@@ -596,8 +596,8 @@ ARS.exercises['v.ex.period'] = {
    "type": "mc",
    "prompt": "“Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.” (Psalm 1:1, King James Version.) Is it loose or periodic?",
    "options": [
-    "loose",
-    "periodic"
+    "Loose",
+    "Periodic"
    ],
    "answer": 0,
    "explain": "The main clause, “Blessed is the man,” comes first and is complete; the rest is added after it.",
@@ -662,11 +662,11 @@ ARS.exercises['v.ex.period'] = {
    "type": "mc",
    "prompt": "<i>Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt.</i> (Caesar, <i>De Bello Gallico</i> I.1.) Is it loose or periodic?",
    "options": [
-    "loose",
-    "periodic"
+    "Loose",
+    "Periodic"
    ],
    "answer": 0,
-   "explain": "The main clause, <i>Helvetii reliquos Gallos virtute praecedunt</i>, is complete at once; the reason and the circumstances are added after it.",
+   "explain": "The main clause, <i>Helvetii quoque reliquos Gallos virtute praecedunt</i>, is complete at once; the reason and the circumstances are added after it.",
    "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
   },
   {
@@ -677,8 +677,8 @@ ARS.exercises['v.ex.period'] = {
    "type": "mc",
    "prompt": "“And not many days after the younger son gathered all together, and took his journey into a far country, and there wasted his substance with riotous living.” (Luke 15:13, King James Version.) Is it loose or periodic?",
    "options": [
-    "loose",
-    "periodic"
+    "Loose",
+    "Periodic"
    ],
    "answer": 0,
    "explain": "The sense is complete after “gathered all together”; the rest is added with “and,” one action after another.",

@@ -191,7 +191,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "<i lang=\"es\">diría</i>, the conditional"
       ],
       "answer": 3,
-      "explain": "In the classical language the form in -ra could stand where the conditional stands today. The sentence means “If I knew it, I would tell you.”"
+      "explain": "In the classical language the form in <i lang=\"es\">-ra</i> could stand where the conditional stands today. The sentence means “If I knew it, I would tell you.”"
      },
      {
       "prompt": "In <i lang=\"es\">El tener amigos fieles es un bien</i> (“Having faithful friends is a good”), what is <i lang=\"es\">el tener amigos fieles</i>?",
@@ -328,7 +328,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "No one, because a gerund has no subject"
       ],
       "answer": 0,
-      "explain": "A gerund with no subject of its own has the subject of the main verb, as in the Academy's example <i lang=\"es\">Esperanza salió de casa dando un portazo</i> (<i>Manual</i> §27.4)."
+      "explain": "A gerund with no subject of its own has the subject of the main verb, as in the Academy’s example <i lang=\"es\">Esperanza salió de casa dando un portazo</i> (<i>Manual</i> §27.4)."
      },
      {
       "prompt": "In <i lang=\"es\">La torre era más alta que el castillo</i> (“The tower was taller than the castle”), which phrase is the second term of the comparison?",
@@ -435,7 +435,7 @@ ARS.decks["lang.ix.es/prose"] = {
     "id": "q-es-ixp-8",
     "variants": [
      {
-      "prompt": "In <i lang=\"es\">Este coche es más rápido que el de mi hermano</i> (“This car is faster than my brother's”), what does <i lang=\"es\">el</i> stand for?",
+      "prompt": "In <i lang=\"es\">Este coche es más rápido que el de mi hermano</i> (“This car is faster than my brother’s”), what does <i lang=\"es\">el</i> stand for?",
       "options": [
        "<i lang=\"es\">el coche</i>, the noun that is left out",
        "<i lang=\"es\">mi hermano</i>, the person named",
@@ -443,7 +443,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "Nothing, since <i lang=\"es\">el</i> here is a pronoun with no antecedent"
       ],
       "answer": 0,
-      "explain": "The article with a phrase with <i lang=\"es\">de</i> can stand for a noun that is left out, as in the Academy's example <i lang=\"es\">el tren de París y el de Milán</i> (<i>Manual</i> §14.4.2). Here the noun left out is <i lang=\"es\">coche</i>."
+      "explain": "The article with a phrase with <i lang=\"es\">de</i> can stand for a noun that is left out, as in the Academy’s example <i lang=\"es\">el tren de París y el de Milán</i> (<i>Manual</i> §14.4.2). Here the noun left out is <i lang=\"es\">coche</i>."
      },
      {
       "prompt": "In <i lang=\"es\">No se sabe el año</i> (“The year is not known”), why is the verb singular?",
@@ -569,7 +569,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "It marks the adjective as a comparative"
       ],
       "answer": 0,
-      "explain": "Spanish has no neuter nouns, and the neuter article <i lang=\"es\">lo</i> does not combine with nouns; with an adjective it forms a noun phrase, as in the Academy's example <i lang=\"es\">entre lo justo y lo injusto</i> (<i>Manual</i> §14.5.1)."
+      "explain": "Spanish has no neuter nouns, and the neuter article <i lang=\"es\">lo</i> does not combine with nouns; with an adjective it forms a noun phrase, as in the Academy’s example <i lang=\"es\">entre lo justo y lo injusto</i> (<i>Manual</i> §14.5.1)."
      },
      {
       "prompt": "Which conjunction completes <i lang=\"es\">No quiero té ___ café</i> (“I do not want tea but coffee”)?",
@@ -580,7 +580,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "<i lang=\"es\">si no</i>"
       ],
       "answer": 2,
-      "explain": "The adversative conjunction <i lang=\"es\">sino</i> requires a negation, explicit or implicit, in what precedes, and it replaces the negated element, as in the Academy's example <i lang=\"es\">lo que necesitas no es un productor, sino un inversionista</i> (<i>Manual</i> §31.5.2)."
+      "explain": "The adversative conjunction <i lang=\"es\">sino</i> requires a negation, explicit or implicit, in what precedes, and it replaces the negated element, as in the Academy’s example <i lang=\"es\">lo que necesitas no es un productor, sino un inversionista</i> (<i>Manual</i> §31.5.2)."
      },
      {
       "prompt": "In <i lang=\"es\">Yo diría que no es posible</i> (“I would say that it is not possible”), what does the conditional <i lang=\"es\">diría</i> do?",
@@ -720,20 +720,20 @@ ARS.decks["lang.ix.es/prose"] = {
   {
    "id": "prose-57",
    "title": "The text and its spelling",
-   "body": "<p>Bernal Díaz wrote his book as an old man, and it was first printed in Madrid in 1632. Enrique de Vedia, the editor of the edition quoted, says in his introduction that the printings of 1632 were not made from the author's manuscript, nor from a copy duly authorized, but from a copy that had belonged to a counselor, and he calls the book as we have it defective. The edition is that of the <i>Biblioteca de autores españoles</i>, volume 26, and it is of the nineteenth century. It does not say that it modernizes the spelling. The course therefore quotes the passage as the edition prints it, and what we read is the spelling of the nineteenth century.</p><p>That spelling differs from today's in four respects. First, the edition omits the accent that today's rule writes on the stressed weak vowel of a hiatus: it prints <i lang=\"es\">dia</i>, <i lang=\"es\">deciamos</i>, <i lang=\"es\">parecia</i>, <i lang=\"es\">tenian</i>, <i lang=\"es\">decian</i>, <i lang=\"es\">veian</i>, and <i lang=\"es\">oidas</i> where we write <i lang=\"es\">día</i>, <i lang=\"es\">decíamos</i>, <i lang=\"es\">parecía</i>, <i lang=\"es\">tenían</i>, <i lang=\"es\">decían</i>, <i lang=\"es\">veían</i>, and <i lang=\"es\">oídas</i>. Second, it writes the preposition <i lang=\"es\">á</i> with an accent, which the Academy dropped in 1911. Third, it prints <i lang=\"es\">Méjico</i> where we write <i lang=\"es\">México</i>, and the Ortografía of 1999 recommends <i lang=\"es\">México</i>. Fourth, it prints <i lang=\"es\">desta</i> for <i lang=\"es\">de esta</i>. One more difference is not a matter of spelling: <i lang=\"es\">encantamento</i> is an older form of the word, now <i lang=\"es\">encantamiento</i>, and an editor who modernizes spelling leaves such a form as it is.</p>",
+   "body": "<p>Bernal Díaz wrote his book as an old man, and it was first printed in Madrid in 1632. Enrique de Vedia, the editor of the edition quoted, says in his introduction that the printings of 1632 were not made from the author's manuscript, nor from a copy duly authorized, but from a copy that had belonged to a counselor, and he calls the book as we have it defective. The edition is that of the <i>Biblioteca de autores españoles</i>, volume 26, and it is of the nineteenth century. It does not say that it modernizes the spelling. The course therefore quotes the passage as the edition prints it, and what we read is the spelling of the nineteenth century.</p><p>That spelling differs from today's in four respects. First, the edition omits the accent that today's rule writes on the stressed weak vowel of a hiatus: it prints <i lang=\"es\">dia</i>, <i lang=\"es\">deciamos</i>, <i lang=\"es\">parecia</i>, <i lang=\"es\">tenian</i>, <i lang=\"es\">decian</i>, <i lang=\"es\">veian</i>, and <i lang=\"es\">oidas</i> where we write <i lang=\"es\">día</i>, <i lang=\"es\">decíamos</i>, <i lang=\"es\">parecía</i>, <i lang=\"es\">tenían</i>, <i lang=\"es\">decían</i>, <i lang=\"es\">veían</i>, and <i lang=\"es\">oídas</i>. Second, it writes the preposition <i lang=\"es\">á</i> with an accent, which the Academy dropped in 1911. Third, it prints <i lang=\"es\">Méjico</i> where we write <i lang=\"es\">México</i>, and the <i lang=\"es\">Ortografía</i> of 1999 recommends <i lang=\"es\">México</i>. Fourth, it prints <i lang=\"es\">desta</i> for <i lang=\"es\">de esta</i>. One more difference is not a matter of spelling: <i lang=\"es\">encantamento</i> is an older form of the word, now <i lang=\"es\">encantamiento</i>, and an editor who modernizes spelling leaves such a form as it is.</p>",
    "qp": {
     "id": "q-es-ixp-spelling-2",
     "variants": [
      {
-      "prompt": "Which form of the passage shows an accent that today's rule requires and the edition omits?",
+      "prompt": "Which form of the passage shows an accent that today’s rule requires and the edition omits?",
       "options": [
-       "<i lang=\"es\">cómo</i>, printed with an accent that today's rule also requires",
-       "<i lang=\"es\">Amadís</i>, printed with an accent that today's rule also requires",
+       "<i lang=\"es\">cómo</i>, printed with an accent that today’s rule also requires",
+       "<i lang=\"es\">Amadís</i>, printed with an accent that today’s rule also requires",
        "<i lang=\"es\">oidas</i>, printed without an accent (today <i lang=\"es\">oídas</i>)",
-       "<i lang=\"es\">mañana</i>, printed without an accent that today's rule does not require"
+       "<i lang=\"es\">mañana</i>, printed without an accent that today’s rule does not require"
       ],
       "answer": 2,
-      "explain": "The stressed <i lang=\"es\">í</i> of a hiatus is written with an accent today, and the edition prints <i lang=\"es\">oidas</i> without it. <i lang=\"es\">Cómo</i> and <i lang=\"es\">Amadís</i> carry accents that today's rule also requires, and <i lang=\"es\">mañana</i> needs none."
+      "explain": "The stressed <i lang=\"es\">í</i> of a hiatus is written with an accent today, and the edition prints <i lang=\"es\">oidas</i> without it. <i lang=\"es\">Cómo</i> and <i lang=\"es\">Amadís</i> carry accents that today’s rule also requires, and <i lang=\"es\">mañana</i> needs none."
      },
      {
       "prompt": "What do <i lang=\"es\">Méjico</i> in the passage and <i lang=\"es\">México</i> today show?",
@@ -741,15 +741,15 @@ ARS.decks["lang.ix.es/prose"] = {
        "Two different cities whose names are spelled alike except for one letter",
        "Two different pronunciations of the same name, one with <i lang=\"es\">j</i> and one with <i lang=\"es\">ks</i>",
        "The same word, written with the older and the present letter for the sound of <i lang=\"es\">j</i>",
-       "A printer's error in the edition, which the Academy has since corrected"
+       "A printer’s error in the edition, which the Academy has since corrected"
       ],
       "answer": 2,
-      "explain": "The letter <i lang=\"es\">x</i> once wrote the sound now written <i lang=\"es\">j</i>. The name kept the <i lang=\"es\">x</i> in the spelling <i lang=\"es\">México</i>, which is still pronounced with the sound of <i lang=\"es\">j</i>, and the Ortografía of 1999 recommends it over <i lang=\"es\">Méjico</i>."
+      "explain": "The letter <i lang=\"es\">x</i> once wrote the sound now written <i lang=\"es\">j</i>. The name kept the <i lang=\"es\">x</i> in the spelling <i lang=\"es\">México</i>, which is still pronounced with the sound of <i lang=\"es\">j</i>, and the <i lang=\"es\">Ortografía</i> of 1999 recommends it over <i lang=\"es\">Méjico</i>."
      },
      {
       "prompt": "Which pair is not a difference of spelling?",
       "options": [
-       "<i lang=\"es\">dia</i> and <i lang=\"es\">día</i>, where today's rule writes an accent on the stressed vowel",
+       "<i lang=\"es\">dia</i> and <i lang=\"es\">día</i>, where today’s rule writes an accent on the stressed vowel",
        "<i lang=\"es\">Méjico</i> and <i lang=\"es\">México</i>, where the letter for the sound of <i lang=\"es\">j</i> differs",
        "<i lang=\"es\">á</i> and <i lang=\"es\">a</i>, where the Academy dropped an accent in 1911",
        "<i lang=\"es\">encantamento</i> and <i lang=\"es\">encantamiento</i>, where a vowel differs inside the word"
@@ -802,7 +802,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "The speaker, who is telling the sentence to us"
       ],
       "answer": 1,
-      "explain": "A gerund with no subject expressed usually has as its subject the subject of the main verb. The Academy's own example is this sentence, in which <i lang=\"es\">el conserje</i> is the subject of <i lang=\"es\">dejó</i> and also the antecedent of the unexpressed subject of <i lang=\"es\">creyendo</i> (<i>Manual</i> §27.4.1a)."
+      "explain": "A gerund with no subject expressed usually has as its subject the subject of the main verb. The Academy’s own example is this sentence, in which <i lang=\"es\">el conserje</i> is the subject of <i lang=\"es\">dejó</i> and also the antecedent of the unexpressed subject of <i lang=\"es\">creyendo</i> (<i>Manual</i> §27.4.1a)."
      },
      {
       "prompt": "What does <i lang=\"es\">ir + gerundio</i> add to <i lang=\"es\">estar + gerundio</i> in <i lang=\"es\">iba soltando cuerda poco a poco</i> (“he kept letting out line little by little”)?",
@@ -929,7 +929,7 @@ ARS.decks["lang.ix.es/prose"] = {
        "It is the subject of <i lang=\"es\">salió</i>, and <i lang=\"es\">un tren</i> is its object"
       ],
       "answer": 2,
-      "explain": "The Academy says that explicative relatives are added as parenthetical comments and can often be omitted without affecting the truth of the rest of the sentence. The Academy's contrast is that without the comma the relative restricts the noun to the trains that carried ore (<i>Manual</i> §44.3.2a)."
+      "explain": "The Academy says that explicative relatives are added as parenthetical comments and can often be omitted without affecting the truth of the rest of the sentence. The Academy’s contrast is that without the comma the relative restricts the noun to the trains that carried ore (<i>Manual</i> §44.3.2a)."
      }
     ]
    }

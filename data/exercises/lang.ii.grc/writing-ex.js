@@ -95,7 +95,7 @@ ARS.exercises["lang.ii.grc/writing-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which form of sigma ends <i lang=\"grc\">λόγος</i>?",
-   "explain": "<i lang=\"grc\">Σ</i> is written at the end of a word.",
+   "explain": "Final sigma, <i lang=\"grc\">ς</i>, is written at the end of a word.",
    "options": [
     "<i lang=\"grc\">σ</i>",
     "<i lang=\"grc\">Σ</i>",

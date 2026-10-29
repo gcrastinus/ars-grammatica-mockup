@@ -48,7 +48,7 @@ ARS.exercises['iii.review-indeclinable'] = {
  "instr": "Choose the answer.",
  "items": [
   {
-   "id": "ri-A01",
+   "id": "rin-A01",
    "set": "A",
    "deck": "iii.adverb",
    "type": "mc",
@@ -63,7 +63,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Semper</i> tells when, so it is an adverb of time, like <i>nunc</i> (“now”) and <i>hodiē</i> (“today”)."
   },
   {
-   "id": "ri-A02",
+   "id": "rin-A02",
    "set": "A",
    "deck": "iii.adverb",
    "type": "mc",
@@ -78,7 +78,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Adjectives of the first and second declensions form adverbs in <i>-ē</i>, so the adverb is <i>līberē</i> (“freely”). The ending <i>-iter</i> belongs to adjectives of the third declension."
   },
   {
-   "id": "ri-A03",
+   "id": "rin-A03",
    "set": "A",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -93,7 +93,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Steadily” tells how the rain fell, so it is an adverb of manner, formed from the adjective “steady” with “-ly.” “All night” tells the time."
   },
   {
-   "id": "ri-A04",
+   "id": "rin-A04",
    "set": "A",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -108,7 +108,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Too” says how hot the soup is, so it determines the adjective. Adverbs determine adjectives and other adverbs as well as verbs."
   },
   {
-   "id": "ri-A05",
+   "id": "rin-A05",
    "set": "A",
    "deck": "iii.preposition",
    "type": "mc",
@@ -123,7 +123,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "With the ablative <i>sub</i> and <i>in</i> signify rest in a place; with the accusative they signify motion toward it."
   },
   {
-   "id": "ri-A06",
+   "id": "rin-A06",
    "set": "A",
    "deck": "iii.preposition",
    "type": "mc",
@@ -138,7 +138,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "In composition the last consonant of the prefix often changes to match the first consonant of the word: <i>in</i> becomes <i>im-</i> before <i>p</i>, as in “immortal.”"
   },
   {
-   "id": "ri-A07",
+   "id": "rin-A07",
    "set": "A",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -153,7 +153,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Ad</i> (“to,” “toward”) governs the accusative, as <i>castra</i> is here."
   },
   {
-   "id": "ri-A08",
+   "id": "rin-A08",
    "set": "A",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -168,7 +168,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "A preposition relates the noun after it to another word of the sentence; here “under” relates “the porch” to “hid.”"
   },
   {
-   "id": "ri-A09",
+   "id": "rin-A09",
    "set": "A",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -183,7 +183,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Or” offers a choice between the two, so it is disjunctive, as Latin <i>aut</i> and <i>vel</i> are."
   },
   {
-   "id": "ri-A10",
+   "id": "rin-A10",
    "set": "A",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -198,7 +198,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>-Que</i> is attached to the end of the second word, so the order of this conjunction differs from that of <i>et</i>, which stands before the word it joins."
   },
   {
-   "id": "ri-A11",
+   "id": "rin-A11",
    "set": "A",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -213,7 +213,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Because” joins the subordinate clause “because it was snowing,” which cannot stand by itself, to the clause on which it depends, so it is a subordinating conjunction."
   },
   {
-   "id": "ri-A12",
+   "id": "rin-A12",
    "set": "A",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -228,7 +228,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Either” is answered by “or,” and the pair “either … or” joins the two clauses, one member in each. Such pairs are correlative conjunctions."
   },
   {
-   "id": "ri-A13",
+   "id": "rin-A13",
    "set": "A",
    "deck": "iii.interjection",
    "type": "mc",
@@ -243,7 +243,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Donatus says that the Greeks joined these words to the adverbs, but the Latins did not, “because a verb does not immediately follow” them; Priscian adds that the interjection shows a feeling even without a verb."
   },
   {
-   "id": "ri-A14",
+   "id": "rin-A14",
    "set": "A",
    "deck": "iii.interjection",
    "type": "mc",
@@ -258,7 +258,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "A groan signifies by nature and is much the same everywhere, but an interjection has a form fixed by the custom of each language, so it signifies by imposition and is a word."
   },
   {
-   "id": "ri-A15",
+   "id": "rin-A15",
    "set": "A",
    "deck": "iii.interjection",
    "type": "mc-marked",
@@ -273,7 +273,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Aha” expresses the feeling of finding something out; it is thrown into the sentence without being constructed with the other words."
   },
   {
-   "id": "ri-B01",
+   "id": "rin-B01",
    "set": "B",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -288,7 +288,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Upstairs” tells where the children are playing, so it is an adverb of place."
   },
   {
-   "id": "ri-B02",
+   "id": "rin-B02",
    "set": "B",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -303,7 +303,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Sadly” does not say how the shop closed; it gives the speaker’s view of the whole statement. Adverbs can determine whole sentences in this way."
   },
   {
-   "id": "ri-B03",
+   "id": "rin-B03",
    "set": "B",
    "deck": "iii.adverb",
    "type": "mc",
@@ -318,7 +318,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Early” is a short adverb and takes “-er” in the comparative, with “y” changed to “i”: “She arrived earlier.” “Earliest” is the superlative."
   },
   {
-   "id": "ri-B04",
+   "id": "rin-B04",
    "set": "B",
    "deck": "iii.adverb",
    "type": "mc",
@@ -333,7 +333,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "The comparative adverb has the form of the neuter singular of the comparative adjective, so it is <i>fortius</i> (“more bravely”). <i>Fortior</i> is the masculine and feminine comparative adjective, and <i>fortissimus</i> the superlative adjective."
   },
   {
-   "id": "ri-B05",
+   "id": "rin-B05",
    "set": "B",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -348,7 +348,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Campum</i> is accusative, and <i>in</i> with the accusative signifies motion toward a place, so the horses ran into the field. With the ablative, <i>in campō</i>, they would be in it already."
   },
   {
-   "id": "ri-B06",
+   "id": "rin-B06",
    "set": "B",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -363,7 +363,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Ē</i> or <i>ex</i> (“out of”) governs the ablative, as <i>castrīs</i> is here. The form <i>ē</i> is used before consonants."
   },
   {
-   "id": "ri-B07",
+   "id": "rin-B07",
    "set": "B",
    "deck": "iii.preposition",
    "type": "mc",
@@ -378,7 +378,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "A preposition takes its object in the objective case, and “with” governs both “Ellen” and the pronoun, so the form is “me”; “with Ellen and I” is an error of case."
   },
   {
-   "id": "ri-B08",
+   "id": "rin-B08",
    "set": "B",
    "deck": "iii.preposition",
    "type": "mc",
@@ -393,7 +393,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "The <i>d</i> of <i>ad</i> becomes <i>t</i> to match the first consonant of <i>trahō</i>; this is assimilation. English “attract” keeps the assimilated form."
   },
   {
-   "id": "ri-B09",
+   "id": "rin-B09",
    "set": "B",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -408,7 +408,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“So” draws the second statement from the first as its consequence, so it is a rational conjunction, as <i>ergō</i> and <i>igitur</i> are."
   },
   {
-   "id": "ri-B10",
+   "id": "rin-B10",
    "set": "B",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -423,7 +423,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“That” introduces the clause “the ferry was late” and refers to nothing, so it is a conjunction. A relative “that” would refer to an antecedent."
   },
   {
-   "id": "ri-B11",
+   "id": "rin-B11",
    "set": "B",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -438,7 +438,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "The two members of a correlative pair should join words of the same kind; here “neither … nor” joins two adjectives. “Neither” is answered by “nor,” not “or.”"
   },
   {
-   "id": "ri-B12",
+   "id": "rin-B12",
    "set": "B",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -453,7 +453,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "A conjunction made of more than one word is compound in figure, as Latin <i>namque</i> and English “although” are. It is still one word of one part of speech."
   },
   {
-   "id": "ri-B13",
+   "id": "rin-B13",
    "set": "B",
    "deck": "iii.interjection",
    "type": "mc-marked",
@@ -468,7 +468,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Eek” expresses fright, as Latin <i>attat</i> does in Donatus’s list."
   },
   {
-   "id": "ri-B14",
+   "id": "rin-B14",
    "set": "B",
    "deck": "iii.interjection",
    "type": "mc-marked",
@@ -483,7 +483,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Wow” here expresses wonder at something astonishing, as Latin <i>papae</i> does."
   },
   {
-   "id": "ri-B15",
+   "id": "rin-B15",
    "set": "B",
    "deck": "iii.interjection",
    "type": "mc",
@@ -498,7 +498,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Ō</i> is often used with the vocative, the case of address, to address someone with feeling."
   },
   {
-   "id": "ri-C01",
+   "id": "rin-C01",
    "set": "C",
    "deck": "iii.adverb",
    "type": "mc",
@@ -513,7 +513,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Adverbs of place, time, or negation that do not admit more or less, such as “here,” cannot be compared. “More quietly,” “sooner,” and “more often” are all used."
   },
   {
-   "id": "ri-C02",
+   "id": "rin-C02",
    "set": "C",
    "deck": "iii.adverb",
    "type": "mc",
@@ -528,7 +528,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>Praetereā</i> is made of a preposition and a case, as many Latin adverbs are, so its figure is compound."
   },
   {
-   "id": "ri-C03",
+   "id": "rin-C03",
    "set": "C",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -543,7 +543,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Never” denies that the fox came back, so it is an adverb of negation, as Latin <i>nēquāquam</i> (“by no means”) is."
   },
   {
-   "id": "ri-C04",
+   "id": "rin-C04",
    "set": "C",
    "deck": "iii.adverb",
    "type": "mc-marked",
@@ -558,7 +558,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Here “weekly” determines the verb “trains” and tells how often, so it is an adverb. In “a weekly paper” the same word describes a noun and is an adjective; the use decides."
   },
   {
-   "id": "ri-C05",
+   "id": "rin-C05",
    "set": "C",
    "deck": "iii.preposition",
    "type": "mc",
@@ -573,7 +573,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Each Latin preposition requires a particular case in the word it governs, and Donatus gives the preposition this one accident."
   },
   {
-   "id": "ri-C06",
+   "id": "rin-C06",
    "set": "C",
    "deck": "iii.preposition",
    "type": "mc",
@@ -588,7 +588,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "<i>In templō</i> (ablative) means “in the temple,” and <i>in templum</i> (accusative) means “into the temple.” The other pairs differ only in number or in the form of the preposition."
   },
   {
-   "id": "ri-C07",
+   "id": "rin-C07",
    "set": "C",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -603,7 +603,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "The phrase “across the road” tells which house is meant, so the preposition relates “the road” to “house.”"
   },
   {
-   "id": "ri-C08",
+   "id": "rin-C08",
    "set": "C",
    "deck": "iii.preposition",
    "type": "mc-marked",
@@ -618,7 +618,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Some writers since the seventeenth century objected to it on the model of Latin, but the usage is long established in English and is found in its best writers."
   },
   {
-   "id": "ri-C09",
+   "id": "rin-C09",
    "set": "C",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -633,7 +633,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Although” joins a subordinate clause to the clause on which it depends. “And,” “but,” and “or” are coordinating conjunctions, which join words or clauses of equal rank."
   },
   {
-   "id": "ri-C10",
+   "id": "rin-C10",
    "set": "C",
    "deck": "iii.conjunction",
    "type": "mc",
@@ -648,7 +648,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“Therefore” draws the second statement from the first as a conclusion, so it is rational, as <i>ergō</i> and <i>igitur</i> are."
   },
   {
-   "id": "ri-C11",
+   "id": "rin-C11",
    "set": "C",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -663,7 +663,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Here “that” introduces the clause “that arrived today” and refers to its antecedent, “the letter,” so it is a relative pronoun. A conjunction “that” refers to nothing."
   },
   {
-   "id": "ri-C12",
+   "id": "rin-C12",
    "set": "C",
    "deck": "iii.conjunction",
    "type": "mc-marked",
@@ -678,7 +678,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "“When” joins the subordinate clause “when the kettle boils” to the main clause and tells the time, so it is a subordinating conjunction. It asks no question here."
   },
   {
-   "id": "ri-C13",
+   "id": "rin-C13",
    "set": "C",
    "deck": "iii.interjection",
    "type": "mc",
@@ -693,7 +693,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "Donatus gives the interjection one accident, signification: it signifies joy, grief, wonder, fear, or some similar feeling."
   },
   {
-   "id": "ri-C14",
+   "id": "rin-C14",
    "set": "C",
    "deck": "iii.interjection",
    "type": "mc",
@@ -708,7 +708,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "explain": "The Greek grammarians placed the interjection under the adverb; the Latin grammarians counted it as a part of its own."
   },
   {
-   "id": "ri-C15",
+   "id": "rin-C15",
    "set": "C",
    "deck": "iii.interjection",
    "type": "mc-marked",

@@ -810,7 +810,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the direct object.",
-   "explain": "“Note” receives the reading. The older grammar calls that office the accusative. “Today” tells when, and it is not an object.",
+   "explain": "“Note” receives the reading. The older grammar calls that use the accusative. “Today” tells when, and it is not an object.",
    "tokens": [
     "Ann",
     "read",
@@ -886,7 +886,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the indirect object.",
-   "explain": "“Tom” is the one to whom the book is given, with no preposition written. The older grammar calls that office the dative. “Book” is the direct object, the accusative.",
+   "explain": "“Tom” is the one to whom the book is given, with no preposition written. The older grammar calls that use the dative. “Book” is the direct object, the accusative.",
    "tokens": [
     "Mother",
     "gave",
@@ -1394,7 +1394,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does “Create in me a clean heart” follow?",
-   "explain": "“Heart” is the direct object, the thing to be created. “In me” is a prepositional phrase, not an indirect object, because the preposition is written. “Clean” describes “heart.” The direct object receives the action. In the older grammar that office is the accusative. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
+   "explain": "“Heart” is the direct object, the thing to be created. “In me” is a prepositional phrase, not an indirect object, because the preposition is written. “Clean” describes “heart.” The direct object receives the action. In the older grammar that use is the accusative. (The King James Version (the Oxford text of 1769), Psalm 51:10)",
    "options": [
     "S-V-DO",
     "S-V",
@@ -1412,7 +1412,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? She handed the sailor a rope.",
-   "explain": "“Rope” is the direct object, the thing handed. “Sailor” is the indirect object, the one to whom, with no preposition written. The indirect object is the one to whom or for whom, with no preposition written. The older grammar calls that office the dative, and the direct object the accusative.",
+   "explain": "“Rope” is the direct object, the thing handed. “Sailor” is the indirect object, the one to whom, with no preposition written. The indirect object is the one to whom or for whom, with no preposition written. The older grammar calls that use the dative, and the direct object the accusative.",
    "options": [
     "S-V-IO-DO",
     "S-V",
@@ -1506,7 +1506,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the indirect object.",
-   "explain": "“Sailor” is the one to whom the rope is handed. No preposition is written, so the office is the indirect object, the dative. “Rope” is the direct object.",
+   "explain": "“Sailor” is the one to whom the rope is handed. No preposition is written, so its use is the indirect object, the dative. “Rope” is the direct object.",
    "tokens": [
     "She",
     "handed",
@@ -1791,16 +1791,15 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "identify",
    "prompt": "Click the verb of the first command.",
-   "explain": "“Make” is the verb of the command, and “you” is understood with it in the full sentence. “Choice” is the direct object. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
+   "explain": "“Make” is the verb of the command, and its subject, “you,” is understood. “Choice” is the direct object. (Samuel Johnson, <em>The History of Rasselas</em>, chapter 29 (Cassell, 1889))",
    "tokens": [
-    "you",
     "make",
     "your",
     "choice,",
     "and"
    ],
    "answer": [
-    1
+    0
    ]
   },
   {
@@ -1842,7 +1841,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "form",
    "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “The clerk sent the captain a chart.”",
-   "explain": "“Chart” is the direct object. “Captain” is the indirect object, the dative, with no preposition written. The indirect object is the one to whom or for whom, with no preposition written. The older grammar calls that office the dative, and the direct object the accusative.",
+   "explain": "“Chart” is the direct object. “Captain” is the indirect object, the dative, with no preposition written. The indirect object is the one to whom or for whom, with no preposition written. The older grammar calls that use the dative, and the direct object the accusative.",
    "accept": [
     "S-V-IO-DO",
     "SVIODO"
@@ -1894,7 +1893,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "form",
    "prompt": "Write the pattern in the shorthand, with hyphens, as in S-V-DO. The sentence is “he leadeth me beside the still waters.”",
-   "explain": "“Me” is the direct object. “Beside the still waters” tells where. The direct object receives the action. In the older grammar that office is the accusative. (The King James Version (the Oxford text of 1769), Psalm 23:2)",
+   "explain": "“Me” is the direct object. “Beside the still waters” tells where. The direct object receives the action. In the older grammar that use is the accusative. (The King James Version (the Oxford text of 1769), Psalm 23:2)",
    "accept": [
     "S-V-DO",
     "SVDO"

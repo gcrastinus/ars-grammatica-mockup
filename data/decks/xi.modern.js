@@ -232,7 +232,7 @@ ARS.decks['xi.modern'] = {
   src: `Sir William Jones, “Third Anniversary Discourse” (1786), in paraphrase.`,
   qp: { id: 'q-jones', variants: [
     { prompt: `What did Sir William Jones observe about Sanskrit, Greek, and Latin?`,
-      options: [`That Sanskrit was descended from Latin`, `That Greek and Latin were unrelated`, `That Sanskrit had no grammar of its own at all`, `A likeness too strong to come by chance`],
+      options: [`That Sanskrit was descended from Latin`, `That Greek and Latin were unrelated`, `That Sanskrit had no grammar of its own at all`, `That their likeness was too strong to come by chance`],
       answer: 3,
       explain: `Jones said that Sanskrit bears to Greek and Latin a stronger likeness, in the roots of its verbs and in its grammatical forms, than could have come about by chance.` },
     { prompt: `What did Jones conclude from the likeness of the three languages?`,
@@ -366,7 +366,7 @@ ARS.decks['xi.modern'] = {
     { prompt: `Why is “Square silence drinks the morning” grammatical?`,
       options: [`It states something that is true`, `It has a clear sense that any reader grasps`, `It contains no verb and no subject`, `Its words are correctly constructed`],
       answer: 3,
-      explain: `The adjective agrees with its noun, the verb with its subject, and the verb has an object, so the sentence is correctly constructed, although it makes no sense.` },
+      explain: `The adjective modifies its noun, the verb agrees with its subject, and the verb has an object, so the sentence is correctly constructed, although it makes no sense.` },
     { prompt: `Why is “Square silence drinks the morning” meaningless?`,
       options: [`It has an error of construction in it`, `It lacks a subject`, `Its words cannot be joined in sense`, `Its verb is in the wrong tense`],
       answer: 2,
@@ -385,7 +385,7 @@ ARS.decks['xi.modern'] = {
 
 { id: 'transformations',
   title: 'Transformations',
-  body: `<p>The active “The child spilled the milk” and the passive “The milk was spilled by the child” express the same relations of doer and thing done in two forms. Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; a transformation derives the one form from the other. Questions, such as “Did the child spill the milk?”, and negations were also derived by transformations from simpler structures.</p>
+  body: `<p>The active “The child spilled the milk” and the passive “The milk was spilled by the child” express the same relations of doer and thing done in two forms. Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; a transformation derives the one form from the other. Questions, such as “Did the child spill the milk?” and negations were also derived by transformations from simpler structures.</p>
 <p>The classical grammarians had observed the same relations without this apparatus. We saw in Section III that the active and passive describe the same event with different subjects, and in Section VIII that the Port-Royal grammarians analyzed one sentence as a combination of simpler judgments. Chomsky’s transformations gave such observations a precise and general form.</p>`,
   src: `Chomsky, <i>Syntactic Structures</i>, ch. 5–7, in paraphrase.` },
 
@@ -567,7 +567,7 @@ ARS.decks['xi.modern'] = {
 <p>These three functions correspond in part to the older classifications. Bühler’s representation corresponds to Halliday’s ideational function, and his appeal to the hearer to the interpersonal; the textual function adds what the classical rhetoricians treated under the arrangement of words. So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.</p>`,
   src: `Halliday, <i>An Introduction to Functional Grammar</i>, ch. 2, in paraphrase; Bühler, <i>Sprachtheorie</i> (1934).`,
   qp: { id: 'q-halliday', variants: [
-    { prompt: `In the question “Did the gardener lock the gate?”, which function is served by its being a question?`,
+    { prompt: `In the question “Did the gardener lock the gate?” which function is served by its being a question?`,
       options: [`The interpersonal function`, `The ideational function`, `The textual function`, `None of the three functions`],
       answer: 0,
       explain: `Whether a clause states, asks, or commands establishes a relation between speaker and hearer, so it belongs to the interpersonal function.` },

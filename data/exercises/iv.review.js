@@ -486,7 +486,7 @@ ARS.exercises['iv.review'] = {
     "Only the meaning of the word",
     "A likeness of sound to another word",
     "Every sound, by regular sound laws",
-    "The opinion of the ancient grammarians"
+    "The opinion of the earlier grammarians"
    ],
    "answer": 2,
    "explain": "Because sound changes are regular, an etymology must account for every sound of the word by such laws, not by a mere likeness. This is why “foot” and <i>pēs</i> can be shown to be the same word."

@@ -468,7 +468,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "options": [
     "Chiasmus",
     "Antithesis",
-    "Asyndeton",
+    "Polysyndeton",
     "Anaphora"
    ],
    "answer": 3
@@ -483,7 +483,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "explain": "Small and giant, man and mankind, in matching form.",
    "options": [
     "Antithesis",
-    "Anaphora",
+    "Polysyndeton",
     "Chiasmus",
     "Asyndeton"
    ],
@@ -500,7 +500,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "options": [
     "Chiasmus",
     "Anaphora",
-    "Antithesis",
+    "Polysyndeton",
     "Asyndeton"
    ],
    "answer": 0

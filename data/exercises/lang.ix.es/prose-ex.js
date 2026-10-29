@@ -308,9 +308,9 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "explain": "A gerund with no subject of its own has as its subject the subject of the main verb, here <i lang=\"es\">el paquete de vapor</i>.",
    "options": [
     "The waves', since they are named next to it",
-    "The narrator's, since he is the one who writes",
-    "The ship's, the subject of the main verb",
-    "The coast's, since it is the place that is left"
+    "The narrator’s, since he is the one who writes",
+    "The ship’s, the subject of the main verb",
+    "The coast’s, since it is the place that is left"
    ],
    "answer": 2,
    "passageRef": "prose-27"
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Why would today's spelling write <i lang=\"es\">aún más</i> for <i lang=\"es\">aun mas</i> in this sentence?",
+   "prompt": "Why would today’s spelling write <i lang=\"es\">aún más</i> for <i lang=\"es\">aun mas</i> in this sentence?",
    "explain": "The adverb takes an accent when it can be replaced by <i lang=\"es\">todavía</i> (<i>DPD</i>, “tilde,” 3.2.4), and the quantifier is written <i lang=\"es\">más</i>.",
    "options": [
     "The word means “still” (<i lang=\"es\">todavía</i>), and <i lang=\"es\">más</i> is a quantifier, which takes an accent",
@@ -407,7 +407,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "The edition prints <i lang=\"es\">luégo</i>. How is the word written today?",
-   "explain": "The edition prints an accent that today's spelling does not write. It leaves marks off <i lang=\"es\">tenia</i> and <i lang=\"es\">ocasion</i> where today's spelling writes them, so its accents differ from ours in both directions.",
+   "explain": "The edition prints an accent that today’s spelling does not write. It leaves marks off <i lang=\"es\">tenia</i> and <i lang=\"es\">ocasion</i> where today’s spelling writes them, so its accents differ from ours in both directions.",
    "options": [
     "<i lang=\"es\">luego</i>, with no accent",
     "<i lang=\"es\">luégo</i>, as the edition prints it",
@@ -529,7 +529,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "explain": "Adjectives that do not restrict the noun, such as an epithet, usually go before the noun (<i>Manual</i> §13.6.1).",
    "options": [
     "Adjectives of color always stand before the noun in Spanish, whatever their sense",
-    "It is an epithet that gives the writer's picture and does not distinguish bosoms",
+    "It is an epithet that gives the writer’s picture and does not distinguish bosoms",
     "The noun <i lang=\"es\">seno</i> is feminine, and a feminine noun takes its adjective first",
     "The relative <i lang=\"es\">cuyo</i> requires the adjective to stand before the noun that it modifies"
    ],
@@ -545,10 +545,10 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "prompt": "What does the accent on <i lang=\"es\">qué</i> in <i lang=\"es\">á medida qué avanzaba</i> show?",
    "explain": "The relative or conjunction <i lang=\"es\">que</i> is written without an accent today. The edition prints an accent that its own time allowed.",
    "options": [
-    "An older accent that today's spelling does not write on this word",
+    "An older accent that today’s spelling does not write on this word",
     "An interrogative, since the clause is a question",
     "An exclamation, since the clause is an outcry",
-    "An accent that today's spelling also requires here"
+    "An accent that today’s spelling also requires here"
    ],
    "answer": 0,
    "passageRef": "prose-42"
@@ -717,7 +717,7 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "options": [
     "A condition that begins with “if”",
     "A wish that begins with “would that”",
-    "An indirect question that asks “whether,”",
+    "An indirect question that asks “whether”",
     "A comparison that begins with “as if”"
    ],
    "answer": 2,
@@ -950,11 +950,11 @@ ARS.exercises["lang.ix.es/prose-ex"] = {
    "deck": "lang.ix.es/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In what way does <i lang=\"es\">fué</i> differ from today's spelling?",
+   "prompt": "In what way does <i lang=\"es\">fué</i> differ from today’s spelling?",
    "explain": "The word is <i lang=\"es\">fue</i> today, without an accent. In books printed before the norms of 1952, binding from 1959, one-syllable verb forms often carry an accent.",
    "options": [
-    "It carries an accent that today's rule does not write on a monosyllable",
-    "It has a letter that today's spelling does not write, a double consonant",
+    "It carries an accent that today’s rule does not write on a monosyllable",
+    "It has a letter that today’s spelling does not write, a double consonant",
     "It is the preterite of <i lang=\"es\">ir</i> and not of <i lang=\"es\">ser</i>, which the accent shows",
     "It is an older tense of the indicative that has since been lost from the language"
    ],

@@ -75,7 +75,7 @@ ARS.decks['vii.tropes'] = {
   src: `Donatus, <i>Ars maior</i> III.6, in paraphrase; Quintilian, <i>Institutio oratoria</i> VIII.6.9 (trans. Butler; checked against the Perseus text).`,
   qp: { id: 'q-metaphor-kinds', variants: [
     { prompt: `“The old library was a gold mine of maps.” Which word is used as a metaphor, and for what?`,
-      options: [`“library,” for a building`, `“maps,” for charts of the sea`, `“gold mine,” rich source`, `“old,” for something valuable`],
+      options: [`“library,” for a building`, `“maps,” for charts of the sea`, `“gold mine,” for a rich source`, `“old,” for something valuable`],
       answer: 2,
       explain: `A gold mine properly signifies a mine from which gold is dug. It is carried over to the library because the library yields many valuable maps, as a mine yields gold.` },
     { prompt: `“Her laughter was music to the tired nurses.” What does “music” properly signify, and what carries it over?`,
@@ -107,7 +107,7 @@ ARS.decks['vii.tropes'] = {
   src: `Quintilian, <i>Institutio oratoria</i> VIII.6.23–27 (trans. Butler; checked against the Perseus text).`,
   qp: { id: 'q-metonymy', variants: [
     { prompt: `“Downing Street announced a new tax.” What does “Downing Street” stand for, and by what relation?`,
-      options: [`A street, by its proper signification`, `The tax, by cause for effect`, `The prime minister’s office`, `London, by part for whole`],
+      options: [`A street, by its proper signification`, `The tax, by cause for effect`, `The prime minister’s office, by place for the people in it`, `London, by part for whole`],
       answer: 2,
       explain: `The street on which the British prime minister lives is used for the office that works there. One name is used for another associated with it, not by likeness, so the trope is metonymy.` },
     { prompt: `“She drank the whole bottle.” What does “bottle” stand for, and by what relation?`,

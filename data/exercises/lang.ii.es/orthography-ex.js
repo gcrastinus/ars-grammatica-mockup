@@ -47,7 +47,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
    "deck": "lang.ii.es/orthography-ex",
    "section": "ii",
    "type": "mc",
-   "prompt": "In the standard Spanish of Spain, do caza (“hunt”) and casa (“house”) sound alike?",
+   "prompt": "In the standard Spanish of Spain, do <i lang=\"es\">caza</i> (“hunt”) and <i lang=\"es\">casa</i> (“house”) sound alike?",
    "options": [
     "Yes, always",
     "Yes, but only in the plural",
@@ -55,7 +55,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
     "No; the <i lang=\"es\">s</i> is silent"
    ],
    "answer": 2,
-   "explain": "Where the sounds are kept apart, as in the north, center, and east of Spain, z is the sound of “th” in “thin” and s is the sound of s."
+   "explain": "Where the sounds are kept apart, as in the north, center, and east of Spain, <i lang=\"es\">z</i> is the sound of “th” in “thin” and <i lang=\"es\">s</i> is the sound of “s.”"
   },
   {
    "id": "lang.ii.es/orthography-ex:A4",
@@ -231,7 +231,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
     "<i lang=\"es\">dio</i>"
    ],
    "answer": 3,
-   "explain": "Since the Academy’s norms of 1952, binding from 1959, the verb forms fue, fui, dio, and vio take no accent."
+   "explain": "Since the Academy’s norms of 1952, binding from 1959, the verb forms <i lang=\"es\">fue</i>, <i lang=\"es\">fui</i>, <i lang=\"es\">dio</i>, and <i lang=\"es\">vio</i> take no accent."
   },
   {
    "id": "lang.ii.es/orthography-ex:C2",
@@ -279,7 +279,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
     "<i lang=\"es\">güión</i>"
    ],
    "answer": 0,
-   "explain": "Guion is counted as one syllable for the written accent, and so takes none."
+   "explain": "<i lang=\"es\">Guion</i> is counted as one syllable for the written accent, and so takes none."
   },
   {
    "id": "lang.ii.es/orthography-ex:C5",
@@ -323,7 +323,7 @@ ARS.exercises["lang.ii.es/orthography-ex"] = {
     "<i lang=\"es\">ah</i>"
    ],
    "answer": 2,
-   "explain": "The Academy dropped the accent on the preposition a in 1911."
+   "explain": "The Academy dropped the accent on the preposition <i lang=\"es\">a</i> in 1911."
   },
   {
    "id": "lang.ii.es/orthography-ex:C8",

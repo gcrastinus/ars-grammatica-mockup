@@ -376,7 +376,7 @@ ARS.exercises['viii.review'] = {
    "options": [
     "Whether simple supposition exists",
     "Whether proper names have it",
-    "Nature or concept",
+    "Whether it stands for a nature or a concept",
     "Whether it belongs to verbs"
    ],
    "answer": 2,

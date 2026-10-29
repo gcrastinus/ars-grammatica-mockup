@@ -41,7 +41,7 @@ ARS.exercises['v.ex.order'] = {
   "C": 8
  },
  "limit": "Only what v.order teaches; no example from its cards.",
- "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
+ "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete. Macrons are not tested in typed Latin answers.",
  "items": [
   {
    "id": "or-A01",
@@ -92,9 +92,9 @@ ARS.exercises['v.ex.order'] = {
    "type": "transform",
    "prompt": "Put the Latin sentence into the natural order (subject, verb, object): <i>pecūniam mercātor numerat</i> (“the merchant counts the money”).",
    "accept": [
-    "mercātor numerat pecūniam",
-    "mercator numerat pecuniam"
+    "mercātor numerat pecūniam"
    ],
+   "macrons": false,
    "explain": "Construing puts the subject first, then the verb, then the object: <i>mercātor numerat pecūniam</i>. The meaning does not change, because the endings show the construction."
   },
   {
@@ -225,9 +225,9 @@ ARS.exercises['v.ex.order'] = {
    "type": "transform",
    "prompt": "Put the Latin sentence into the natural order (subject, verb, object): <i>carmen poēta recitat</i> (“the poet recites the poem”).",
    "accept": [
-    "poēta recitat carmen",
-    "poeta recitat carmen"
+    "poēta recitat carmen"
    ],
+   "macrons": false,
    "explain": "The subject <i>poēta</i> comes first, then the verb, then the object: <i>poēta recitat carmen</i>."
   },
   {
@@ -358,9 +358,9 @@ ARS.exercises['v.ex.order'] = {
    "type": "transform",
    "prompt": "Put the Latin sentence into the natural order (subject, verb, object): <i>leōnem vēnātor petit</i> (“the hunter attacks the lion”).",
    "accept": [
-    "vēnātor petit leōnem",
-    "venator petit leonem"
+    "vēnātor petit leōnem"
    ],
+   "macrons": false,
    "explain": "The subject <i>vēnātor</i> comes first, then the verb <i>petit</i>, then the object <i>leōnem</i>."
   },
   {

@@ -356,7 +356,9 @@ ARS.exercises['vi.ex.solecism'] = {
     "The ferry docked; the passengers landed.",
     "The ferry docked, so the passengers landed.",
     "When the ferry docked, the passengers landed.",
-    "When the ferry docked the passengers landed."
+    "When the ferry docked the passengers landed.",
+    "The ferry docked and the passengers landed.",
+    "The ferry docked. The passengers landed."
    ],
    "explain": "Two independent clauses are run together with no conjunction or mark. A conjunction, a semicolon, or a subordinate clause corrects it."
   },

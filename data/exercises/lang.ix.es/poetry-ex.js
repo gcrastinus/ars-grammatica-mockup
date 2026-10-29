@@ -325,7 +325,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "explain": "<i lang=\"es\">Clave</i>, the harpsichord, is masculine, and <i lang=\"es\">sonoro</i> agrees with it. The print writes no accent on <i lang=\"es\">clave</i>.",
    "options": [
     "<i lang=\"es\">Clave</i>",
-    "<i lang=\"es\">Teclado</i>",
+    "<i lang=\"es\">Boca</i>",
     "<i lang=\"es\">Princesa</i>",
     "<i lang=\"es\">Flor</i>"
    ],

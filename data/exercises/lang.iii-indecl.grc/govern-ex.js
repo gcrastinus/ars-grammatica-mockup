@@ -128,7 +128,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case does ἄρχω take for the people ruled? <i lang=\"grc\">ὁ βασιλεὺς ἄρχει τῶν <b>ἀνθρώπων</b></i>",
-   "explain": "A verb of ruling takes the genitive (§1370). Smyth's example is the infinitive ἄρχειν. The finite form ἄρχει has the thematic ending of §383.",
+   "explain": "A verb of ruling takes the genitive (§1370). Smyth’s example is the infinitive ἄρχειν. The finite form ἄρχει has the thematic ending of §383.",
    "options": [
     "Genitive",
     "Vocative",

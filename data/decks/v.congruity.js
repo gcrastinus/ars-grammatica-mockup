@@ -92,7 +92,7 @@ ARS.decks['v.congruity'] = {
     { prompt: `Is “the white horse” complete?`,
       options: [`No; nothing is said of it`, `Yes; it names a thing`, `No; its words do not fit`, `Yes; it has a noun`],
       answer: 0,
-      explain: `The words fit, so the construction is congruous, but the hearer waits for something to be said about the horse. Completeness requires at least a subject joined to a verb.` },
+      explain: `The words fit, so the construction is congruous, but the hearer waits for something to be said about the horse. A statement requires at least a subject joined to a verb.` },
     { prompt: `What does “If the white horse runs” lack?`,
       options: [`A verb`, `A main clause`, `A subject`, `Agreement of subject and verb`],
       answer: 1,

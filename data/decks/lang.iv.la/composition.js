@@ -18,8 +18,8 @@ ARS.decks["lang.iv.la/composition"] = {
       "options": [
        "<em lang=\"la\">signum</em> and <em lang=\"la\">ferō</em>",
        "<em lang=\"la\">signum</em> and <em lang=\"la\">faciō</em>",
-       "<em lang=\"la\">sīgnō</em> and <em lang=\"la\">fīō</em>",
-       "<em lang=\"la\">sīgnum</em> and <em lang=\"la\">fīnis</em>"
+       "<em lang=\"la\">signō</em> and <em lang=\"la\">fīō</em>",
+       "<em lang=\"la\">signum</em> and <em lang=\"la\">fīnis</em>"
       ],
       "answer": 0,
       "explain": "<em lang=\"la\">Sign-i-fer</em>: the standard, joined with <em lang=\"la\">-i-</em> to a form of <em lang=\"la\">ferō</em>, “I carry.”"

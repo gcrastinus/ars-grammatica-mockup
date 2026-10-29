@@ -61,7 +61,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Der <b>guter</b> König spricht.</em>",
-   "explain": "<em lang=\"de\">Der</em> and <em lang=\"de\">guter</em> are both real forms. After <em lang=\"de\">der</em> the adjective takes the weak ending, which is <em lang=\"de\">gute</em>. The error is the join.",
+   "explain": "<em lang=\"de\">Der</em> and <em lang=\"de\">guter</em> are both real forms. After <em lang=\"de\">der</em> the adjective takes the weak ending, which is <em lang=\"de\">gute</em>. The error is in the construction.",
    "options": [
     "A solecism: after <em lang=\"de\">der</em> the ending is <em lang=\"de\">-e</em>",
     "A barbarism: <em lang=\"de\">guter</em> is not a German ending",
@@ -76,7 +76,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Der Hund <b>sind</b> groß.</em>",
-   "explain": "<em lang=\"de\">Sind</em> is a real plural of <em lang=\"de\">sein</em>. The subject <em lang=\"de\">Hund</em> is singular, so the verb is <em lang=\"de\">ist</em>. <em lang=\"de\">Groß</em> is the ordinary predicate adjective. The error is the join.",
+   "explain": "<em lang=\"de\">Sind</em> is a real plural of <em lang=\"de\">sein</em>. The subject <em lang=\"de\">Hund</em> is singular, so the verb is <em lang=\"de\">ist</em>. <em lang=\"de\">Groß</em> is the ordinary predicate adjective. The error is in the construction.",
    "options": [
     "A barbarism: <em lang=\"de\">sind</em> is not a form of <em lang=\"de\">sein</em>",
     "A solecism of number",
@@ -166,7 +166,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Ich gebe <b>den</b> Mann das Buch.</em>",
-   "explain": "With <em lang=\"de\">geben</em>, the person is dative and the thing is accusative. <em lang=\"de\">Dem Mann</em> is the dative. <em lang=\"de\">Den Mann</em> is accusative, and <em lang=\"de\">das Buch</em> is already the accusative thing. The error is the join.",
+   "explain": "With <em lang=\"de\">geben</em>, the person is dative and the thing is accusative. <em lang=\"de\">Dem Mann</em> is the dative. <em lang=\"de\">Den Mann</em> is accusative, and <em lang=\"de\">das Buch</em> is already the accusative thing. The error is in the construction.",
    "options": [
     "A barbarism: <em lang=\"de\">gebe</em> is not a form of <em lang=\"de\">geben</em>",
     "A solecism: the person stands in the dative",
@@ -241,7 +241,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Der König sieht <b>den</b> Frau.</em>",
-   "explain": "<em lang=\"de\">Den</em> is a real masculine accusative, and <em lang=\"de\">Frau</em> is a real feminine noun. The accusative feminine is <em lang=\"de\">die</em>. The error is the join.",
+   "explain": "<em lang=\"de\">Den</em> is a real masculine accusative, and <em lang=\"de\">Frau</em> is a real feminine noun. The accusative feminine is <em lang=\"de\">die</em>. The error is in the construction.",
    "options": [
     "No error: <em lang=\"de\">den</em> is the feminine accusative",
     "A barbarism: <em lang=\"de\">Frau</em> is not a German word",
@@ -256,7 +256,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Die Frau kommt mit <b>den</b> König.</em>",
-   "explain": "<em lang=\"de\">Mit</em> and <em lang=\"de\">den</em> are both real forms. <em lang=\"de\">Mit</em> takes the dative, which is <em lang=\"de\">dem</em>. <em lang=\"de\">Den</em> is accusative. The error is the join.",
+   "explain": "<em lang=\"de\">Mit</em> and <em lang=\"de\">den</em> are both real forms. <em lang=\"de\">Mit</em> takes the dative, which is <em lang=\"de\">dem</em>. <em lang=\"de\">Den</em> is accusative. The error is in the construction.",
    "options": [
     "No error: <em lang=\"de\">mit</em> takes the accusative",
     "A solecism: <em lang=\"de\">mit</em> takes the dative",
@@ -271,7 +271,7 @@ ARS.exercises["lang.vi.de/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"de\">Die Frau <b>sehen</b> das Haus.</em>",
-   "explain": "<em lang=\"de\">Sehen</em> is a real plural form, and also the infinitive. The subject <em lang=\"de\">Frau</em> is third person singular, so the verb is <em lang=\"de\">sieht</em>. The error is the join.",
+   "explain": "<em lang=\"de\">Sehen</em> is a real plural form, and also the infinitive. The subject <em lang=\"de\">Frau</em> is third person singular, so the verb is <em lang=\"de\">sieht</em>. The error is in the construction.",
    "options": [
     "A barbarism: <em lang=\"de\">sehen</em> is not a form of the verb",
     "No error: a singular noun takes <em lang=\"de\">sehen</em>",

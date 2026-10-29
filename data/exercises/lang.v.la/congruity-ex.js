@@ -256,7 +256,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: <i lang=\"la\">Puella bonus est</i>.",
-   "explain": "<i lang=\"la\">Puella</i> is feminine and <i lang=\"la\">bonus</i> is masculine. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "explain": "<i lang=\"la\">Puella</i> is feminine and <i lang=\"la\">bonus</i> is masculine. The parts do not fit.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Congruous but incomplete: the sense is unfinished",
@@ -271,7 +271,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: <i lang=\"la\">Librī est magnus</i>.",
-   "explain": "<i lang=\"la\">Librī</i> is plural and <i lang=\"la\">est</i> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "explain": "<i lang=\"la\">Librī</i> is plural and <i lang=\"la\">est</i> is singular. The parts do not fit.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Congruous but incomplete: the sense is unfinished",
@@ -286,7 +286,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: <i lang=\"la\">Tū sum</i>.",
-   "explain": "<i lang=\"la\">Tū</i> is second person and <i lang=\"la\">sum</i> is first person. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "explain": "<i lang=\"la\">Tū</i> is second person and <i lang=\"la\">sum</i> is first person. The parts do not fit.",
    "options": [
     "Incongruous: the parts do not fit",
     "Congruous and complete: the sense is now finished",
@@ -301,7 +301,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: <i lang=\"la\">Mē currit</i>.",
-   "explain": "<i lang=\"la\">Mē</i> is the object form, and it stands where a subject is required. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "explain": "<i lang=\"la\">Mē</i> is the object form, and it stands where a subject is required. The parts do not fit.",
    "options": [
     "Incongruous: the parts do not fit",
     "Congruous and complete: the sense is now finished",
@@ -316,7 +316,7 @@ ARS.exercises["lang.v.la/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: <i lang=\"la\">Mīlitēs pugnat</i>.",
-   "explain": "<i lang=\"la\">Mīlitēs</i> is plural and <i lang=\"la\">pugnat</i> is singular. The parts do not fit. the parts do not fit with one another, so the construction fails",
+   "explain": "<i lang=\"la\">Mīlitēs</i> is plural and <i lang=\"la\">pugnat</i> is singular. The parts do not fit.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Incongruous: the parts do not fit",

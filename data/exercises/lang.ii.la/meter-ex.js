@@ -494,7 +494,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "Line of the sapphic stanza"
    ],
    "answer": 2,
-   "explain": "The line falls into two halves with a break after <i lang=\"la\">gnē</i>, the last syllable of <i lang=\"la\">indignē</i>: <i lang=\"la\">heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>. Two halves of two and a half feet make the pentameter. The first half has a spondee in its second foot, <i lang=\"la\">in-di</i>. There is no elision.",
+   "explain": "The line falls into two halves with a break after <i lang=\"la\">nē</i>, the last syllable of <i lang=\"la\">indignē</i>: <i lang=\"la\">heu-mi-ser | in-dig- | nē ‖ frā-ter ad | ēmp-te mi- | hī</i>. Two halves of two and a half feet make the pentameter. The first half has a spondee in its second foot, <i lang=\"la\">in-dig</i>. There is no elision.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },
@@ -502,7 +502,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C4",
    "set": "C",
    "type": "mc",
-   "prompt": "In the same pentameter, <i lang=\"la\">heu-mi-ser | in-di- | gnē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i lang=\"la\">gnē</i>, the syllable before the break, long?",
+   "prompt": "In the same pentameter, <i lang=\"la\">heu-mi-ser | in-dig- | nē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i lang=\"la\">nē</i>, the syllable before the break, long?",
    "options": [
     "A syllable before the break is long whatever its letters",
     "It is elided before <i lang=\"la\">frater</i>",
@@ -510,7 +510,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
     "It is followed by a mute and a liquid inside the word"
    ],
    "answer": 2,
-   "explain": "The <i lang=\"la\">ē</i> of <i lang=\"la\">indignē</i> is long by nature, so <i lang=\"la\">gnē</i> is long. The pentameter requires a long syllable before the break, but the length comes from the word. The syllable is not elided, because <i lang=\"la\">frater</i> begins with a consonant.",
+   "explain": "The <i lang=\"la\">ē</i> of <i lang=\"la\">indignē</i> is long by nature, so <i lang=\"la\">nē</i> is long. The pentameter requires a long syllable before the break, but the length comes from the word. The syllable is not elided, because <i lang=\"la\">frater</i> begins with a consonant.",
    "deck": "lang.ii.la/meter",
    "section": "ii"
   },

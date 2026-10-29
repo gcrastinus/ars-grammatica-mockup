@@ -311,7 +311,7 @@ ARS.exercises['xi.review'] = {
    "set": "B",
    "deck": "xi.traditions",
    "type": "mc",
-   "prompt": "Which two Sanskrit endings have no corresponding Latin case?",
+   "prompt": "Which two Sanskrit endings have no regular counterpart among the six Latin cases?",
    "options": [
     "The nominative and the accusative",
     "The genitive and the dative",

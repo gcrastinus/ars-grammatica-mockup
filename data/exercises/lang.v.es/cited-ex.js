@@ -245,7 +245,7 @@ ARS.exercises["lang.v.es/cited-ex"] = {
     "The subject, always",
     "The verb, always",
     "The object, if there is one",
-    "The word most prominent in the speaker's mind"
+    "The word most prominent in the speaker’s mind"
    ],
    "answer": 3
   },
@@ -258,7 +258,7 @@ ARS.exercises["lang.v.es/cited-ex"] = {
    "prompt": "Which sentence is the natural answer to <i lang=\"es\">¿Quién escribió esta carta?</i>",
    "explain": "The new information, the subject, comes last, and the pronoun <i lang=\"es\">la</i> stands for the known object.",
    "options": [
-    "<i lang=\"es\">Marta la escribió, creo</i>",
+    "<i lang=\"es\">Marta escribió la</i>",
     "<i lang=\"es\">La escribió Marta</i>",
     "<i lang=\"es\">La carta Marta</i>",
     "<i lang=\"es\">Escribió la carta Marta ella</i>"

@@ -404,7 +404,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "type": "mc",
    "prompt": "“He is a real Hercules,” said of a strong man. Which trope is this?",
    "options": [
-    "Metaphor",
+    "Metonymy",
     "Epithet",
     "Antonomasia",
     "Onomatopoeia"
@@ -559,7 +559,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "options": [
     "It puts a part for the whole",
     "It uses a word for something it resembles",
-    "Through a middle step",
+    "It passes through a middle step",
     "It enlarges the truth"
    ],
    "answer": 2,
@@ -575,7 +575,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "prompt": "“The Swan of Avon wrote for the Globe,” said of Shakespeare. Which trope is this?",
    "options": [
     "Epithet",
-    "Metaphor",
+    "Metonymy",
     "Periphrasis",
     "Antonomasia"
    ],
@@ -879,7 +879,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "level": 2,
    "deck": "vii.tropes",
    "type": "mc",
-   "prompt": "“In the sweat of thy face shalt thou eat bread” (Genesis 3:19, King James Version.) Which trope is this?",
+   "prompt": "In “In the sweat of thy face shalt thou eat bread” (Genesis 3:19, King James Version), which trope is the word “bread”?",
    "options": [
     "Metaphor",
     "Synecdoche",
@@ -897,7 +897,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "level": 2,
    "deck": "vii.tropes",
    "type": "mc",
-   "prompt": "“Give us this day our daily bread.” (Matthew 6:11, King James Version.) Which trope is this?",
+   "prompt": "In “Give us this day our daily bread” (Matthew 6:11, King James Version), which trope is the word “bread”?",
    "options": [
     "Synecdoche",
     "Metonymy",
@@ -915,7 +915,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "level": 2,
    "deck": "vii.tropes",
    "type": "mc",
-   "prompt": "“All flesh is grass” (Isaiah 40:6, King James Version.) Which trope is this?",
+   "prompt": "In “All flesh is grass” (Isaiah 40:6, King James Version), which trope is the word “flesh”?",
    "options": [
     "Metonymy",
     "Catachresis",
@@ -923,7 +923,7 @@ ARS.exercises['vii.ex.tropes'] = {
     "Epithet"
    ],
    "answer": 2,
-   "explain": "The question is about “flesh”: the matter of which men are made stands for all mankind, a part for the whole. That is synecdoche. (“Grass” is a metaphor in the same verse.)",
+   "explain": "The matter of which men are made stands for all mankind, a part for the whole. That is synecdoche. (“Grass” is a metaphor in the same verse.)",
    "trope": "synecdoche",
    "source": "Isaiah 40:6, King James Version; text checked against Project Gutenberg eBook #10 (King James Bible)"
   },
@@ -1059,7 +1059,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "level": 2,
    "deck": "vii.tropes",
    "type": "mc",
-   "prompt": "“Arma virumque cano” (Vergil, <i>Aeneid</i>, Book I, line 1.) Which trope is this?",
+   "prompt": "In <i>Arma virumque cano</i> (Virgil, <i>Aeneid</i> I.1), which trope is <i>arma</i>?",
    "options": [
     "Synecdoche",
     "Metonymy",
@@ -1069,7 +1069,7 @@ ARS.exercises['vii.ex.tropes'] = {
    "answer": 1,
    "explain": "<i>Arma</i>, “arms,” stands for war, the instrument for the thing done with it. The two are related by association, not likeness, so it is metonymy.",
    "trope": "metonymy",
-   "source": "Vergil, Aeneid, Book I, line 1; text checked against Project Gutenberg eBook #227 (Vergil, Aeneid)"
+   "source": "Virgil, <i>Aeneid</i> I.1; text checked against Project Gutenberg eBook #227"
   }
  ]
 };

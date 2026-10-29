@@ -85,10 +85,10 @@ ARS.decks['v.dependence'] = {
       options: [`“angler”`, `“catches”`, `“trout”`, `“The”`],
       answer: 0,
       explain: `“Patient” is an adjective and signifies a quality of the angler, so it depends on “angler.”` },
-    { prompt: `A sentence is complete when its dependences together produce a complete sense. Which construction must it contain at least?`,
+    { prompt: `A statement is complete when its dependences together produce a complete sense. Which construction must it contain at least?`,
       options: [`An adjective and a noun`, `An adverb and a verb`, `A subject and a verb`, `A preposition and a noun`],
       answer: 2,
-      explain: `Completeness requires at least the construction of a subject and a verb; a sentence without it, however many other constructions it has, does not yet say that anything is or is not so.` }
+      explain: `A complete statement requires at least the construction of a subject and a verb; a statement without it, however many other constructions it has, does not yet say that anything is or is not so.` }
   ]} },
 
 { id: 'transitive-intransitive',

@@ -44,7 +44,7 @@ ARS.decks["lang.iii-indecl.es/invariable"] = {
        "<i lang=\"es\">debajo</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"es\">Debajo</i> is the opposite of <i lang=\"es\">encima</i>."
+      "explain": "<i lang=\"es\">Debajo</i> tells where, like its opposite <i lang=\"es\">encima</i>; <i lang=\"es\">ayer</i> and <i lang=\"es\">siempre</i> are adverbs of time, and <i lang=\"es\">mucho</i> of quantity."
      }
     ]
    }

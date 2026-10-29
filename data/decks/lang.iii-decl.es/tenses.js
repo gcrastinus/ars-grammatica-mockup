@@ -57,7 +57,7 @@ ARS.decks["lang.iii-decl.es/tenses"] = {
     "id": "q-es-ten-compound",
     "variants": [
      {
-      "prompt": "Which form is the antepresente, a past that reaches the present?",
+      "prompt": "Which form is the <i lang=\"es\">antepresente</i>, a past that reaches the present?",
       "options": [
        "<i lang=\"es\">llegué</i>",
        "<i lang=\"es\">he llegado</i>",
