@@ -33,7 +33,7 @@ ARS.decks['prelim.definition'] = {
     `Speech is built in steps: the <strong>voice</strong>, the motion of air perceptible to hearing; the <strong>letter</strong>, the least part of the voice that can be written; the <strong>syllable</strong>, a sound pronounced in one utterance; the <strong>word</strong>, the least part of an expression that signifies; and the <strong>sentence</strong>, words arranged so that they express a complete thought.`,
     `Meaning begins at the word, not at the voice, the letter, or the syllable.`,
     `Truth and falsity begin only at the sentence, because only a sentence says something about something.`,
-    `Grammar studies speech as far as the sentence, and a sentence is complete when something is named and something is said of it.`,
+    `Grammar studies speech as far as the sentence, and a sentence is complete when it expresses a complete thought; in a statement, something is named and something is said of it.`,
     `A <strong>period</strong> is a sentence of several clauses that together express one complete thought, and grammar considers it because it is still one sentence.`,
     `A speech or a book is many sentences ordered to prove or to persuade, and the order of those sentences belongs to logic and rhetoric, so the proper end of grammar is the sentence, including the period.`,
     `Grammar asks whether a sentence is correctly formed, whereas logic asks whether what it says is true or follows from what we know, and either may hold without the other.`,
@@ -49,7 +49,7 @@ ARS.decks['prelim.definition'] = {
   panels: [
 
 { id: 'arts-of-speech',
-  title: 'Why did the ancients put grammar first?',
+  title: 'Why does the classical tradition put grammar first?',
   body: `<p>(If you are unfamiliar with the classical liberal arts and the trivium, please see this <a href="https://studiuminstitute.org/trivium/" target="_blank" rel="noopener">Preface to the Trivium</a>.)</p>
 <p>Grammar, logic, and rhetoric are the arts of speech: grammar is the art of speaking and writing correctly, logic the art of reasoning correctly; and rhetoric is ordered to persuasion and truth, especially since the true and the just are by nature more powerful than their opposites (cf. Aristotle, <i>Rhetoric</i> I.1). Logic considers statements, and a statement is made of words. So the words must be correctly joined before anything can be asserted or denied and before anything can follow from them or be communicated. Rhetoric directs a speech to an audience, but there is nothing to direct until something has been said. The classical tradition of philosophy gives these general reasons for the ordering of the disciplines.</p>
 <p>But there are also historical reasons for beginning this way. Quintilian, who taught rhetoric at Rome in the first century, sends the boy to the <i>grammaticus</i>, the grammarian, before he comes to the teacher of rhetoric. He warns that grammar is far more than its humble look suggests. It is the foundation of the whole building, and anyone who passes over it will find the higher studies falling in on themselves (<i>Institutio oratoria</i> I.4.5).</p>
@@ -85,9 +85,9 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'art',
   title: 'Why is grammar an art? And what makes it a liberal art?',
-  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as an argument or a well-constructed paragraph, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts whose products are made through bodily labor, which are in a way subordinate, “inasmuch as the body is subordinate to the soul, whereas an individual man, as regards his soul, is free,” which is <i>liber</i> in Latin.</p>
+  body: `<p>Grammar is first an <strong>art</strong>, that is, a habit of making something well, acquired by practice and directed by rules. The work that grammar makes is a correctly formed sentence. St. Thomas explains that even in matters of reason there are works to be made, such as the making of a syllogism, of a fitting speech, or of a calculation, and that the habits directed to such works are called arts; they are called <strong>liberal</strong> arts to distinguish them from the arts ordained to works done by the body, which are, in his words, “in a fashion, servile, inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [<i>liber</i>].”</p>
 <p>Grammar also seeks knowledge of <em>why</em> sentences are formed as they are and why the parts of speech are what they are. The tradition calls this part of the art speculative grammar. It is one art, not two, because the same art that makes correct sentences also asks for the reasons of what it makes.</p>`,
-  src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3, in paraphrase.` },
+  src: `St. Thomas, <i>Summa theologiae</i> I-II, q. 57, a. 3, ad 3, trans. Fathers of the English Dominican Province.` },
 
 { id: 'material',
   title: 'What is the material of grammar?',
@@ -118,7 +118,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'sentence-and-period',
   title: 'Why does grammar end at the sentence?',
-  body: `<p>Grammar studies speech as far as the sentence. A sentence is complete when something is named and something is said of it, as in “The sailor waits.” Several clauses may still express one complete thought; such a sentence is called a <strong>period</strong> (a sentence of several clauses that together express one complete thought), and grammar considers it because it is still one sentence. An example is “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version).</p>
+  body: `<p>Grammar studies speech as far as the sentence. A sentence is complete when it expresses a complete thought; in a statement, as in “The sailor waits,” something is named and something is said of it. Several clauses may still express one complete thought; such a sentence is called a <strong>period</strong> (a sentence of several clauses that together express one complete thought), and grammar considers it because it is still one sentence. An example is “Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” (Ecclesiastes 12:13, King James Version).</p>
 <p>A speech or a book is many sentences in a row, ordered to prove a point or to persuade. The order of those sentences belongs to logic and to rhetoric. So the proper end of grammar is the sentence, including the period.</p>`,
   src: `Ecclesiastes 12:13 (King James Version); Lincoln, Second Inaugural Address (1865).` },
 
@@ -150,7 +150,7 @@ ARS.decks['prelim.definition'] = {
 
 { id: 'first',
   title: 'Why does grammar come first?',
-  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). Here we use “literature” and “the teacher of literature” to translate Quintilian’s terms for grammar and the grammarian (<i>grammatica</i>, <i>grammaticus</i>).</p>
+  body: `<p>Boethius of Dacia calls grammar an introductory science: it is not a part of philosophy in the way that natural philosophy and mathematics are, but it is needed in order to learn them. Grammar is therefore studied before logic. Quintilian makes the same point about the study of oratory: “Unless the foundations of oratory are well and truly laid by the teaching of literature, the superstructure will collapse” (<i>Institutio oratoria</i> I.4.5). In this translation “literature” renders Quintilian’s <i>grammatica</i>, the art of grammar.</p>
 <p>The study of grammar therefore begins with its smallest parts, the voice and the letter, and proceeds to the word and the sentence.</p>`,
   src: `Boethius of Dacia, <i>Modi significandi</i> q. 3 (Godfrey of Fontaines’s abridgement), in paraphrase; Quintilian, <i>Institutio oratoria</i> I.4.5.` }
 

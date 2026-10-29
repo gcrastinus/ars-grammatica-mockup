@@ -11,8 +11,8 @@ ARS.decks['prelim.offices'] = {
     `Quintilian divides the profession of the grammarian into two parts, the art of speaking correctly and the interpretation of the poets, but says that there is more in them than appears.`,
     `Beneath the two parts lie several distinct tasks: writing is joined to speaking, correct reading comes before interpretation, and in each case criticism, that is, judging, has its own work.`,
     `The two broad parts of the profession are the evaluation and correction of speaking and the evaluation and correction of writing.`,
-    `The first task of the grammarian is to direct speaking and writing toward clarity and correctness, because writing and reading depend on the spoken language.`,
-    `The evaluation and correction of writing is the higher part, because language reaches its most elaborate and powerful forms in writing, and so written speech requires the most thorough study and criticism.`,
+    `The first part of the grammarian’s profession is to direct speaking and writing toward clarity and correctness, because writing and reading depend on the spoken language.`,
+    `The interpretation of the poets and of other writers is the higher part, because language reaches its most elaborate and powerful forms in writing, and so written speech requires the most thorough study and criticism.`,
     `This higher part studies literature, taken in a general sense to include everything thought to be especially well written.`,
     `Varro, as Diomedes reports, names four duties of grammar in this second sense: reading, explaining, correcting, and judging.`,
     `<strong>Reading</strong> (<i>lectio</i>) is reading a text aloud correctly.`,
@@ -30,7 +30,7 @@ ARS.decks['prelim.offices'] = {
     `Judging includes three things: deciding whether a line is genuine, whether a work belongs to the author whose name it bears, and which authors are to be taken as models and why.`,
     `Dionysius Thrax divides grammar into six parts: reading aloud with attention to accents and quantities; explaining the figures of speech in the poets; explaining rare words and stories; finding the origin of words (etymology); working out the regular patterns of forms (analogy); and the criticism of poems, the finest part of the art.`,
     `The six parts and the four tasks describe the same work: in both, reading comes first, and criticism, that is, judging, comes last and highest.`,
-    `Quintilian does not limit the grammarian to the poets, as Dionysius Thrax does, but holds that every kind of writer must be studied, for the vocabulary as well as the matter, because words acquire authority from their use by a particular author.`,
+    `Quintilian does not limit the grammarian to the poets and prose writers, as Dionysius Thrax does, but holds that every kind of writer must be studied, for the vocabulary as well as the matter, because words acquire authority from their use by a particular author.`,
     `Literary authors belong to grammar for two reasons: interpreting them is one of the two parts of the grammarian’s profession, and they show how words are used correctly, so that they give authority to the forms and constructions that grammar teaches.`,
   ],
   panels: [
@@ -43,7 +43,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'four-offices',
   title: 'The Four Tasks of the Grammarian',
-  body: `<p>We just saw that Quintilian divides the grammarian’s profession into two parts, correct speaking and the interpretation of the poets. Since writing and reading presume and depend on the spoken language and correctness in speaking, the first task of the grammarian is to direct our speaking and writing toward clarity and correctness. But the second part of the profession of the grammarian is the evaluation and correction of writing. This is the higher part because language reaches its most elaborate and powerful forms in writing; and, therefore, written speech requires the most detailed and thorough study and criticism. What this second part of the profession of the grammarian studies is literature, taken in a general sense to include everything thought to be especially well written.</p>
+  body: `<p>We just saw that Quintilian divides the grammarian’s profession into two parts, correct speaking and the interpretation of the poets. Since writing and reading presume and depend on the spoken language and correctness in speaking, the first part of the grammarian’s profession is to direct our speaking and writing toward clarity and correctness. The second part is the interpretation of the poets and of other writers. This is the higher part because language reaches its most elaborate and powerful forms in writing; and, therefore, written speech requires the most detailed and thorough study and criticism. What this second part of the profession of the grammarian studies is literature, taken in a general sense to include everything thought to be especially well written.</p>
 <p>Concerning grammar in this second way as the study of literature, Varro, as Diomedes reports (<i>Ars grammatica</i>, in Keil, <i>Grammatici Latini</i> I, p. 426), names four duties (<i>officia</i>) of grammar:</p>
 <p><strong>reading</strong> (<i>lectio</i>): reading a text aloud correctly;<br><strong>explaining</strong> (<i>enarratio</i>): explaining the words, the construction, and the matter of a text;<br><strong>correcting</strong> (<i>emendatio</i>): correcting what is corrupt in a text or incorrect in speech;<br><strong>judging</strong> (<i>iudicium</i>): weighing the merit of a poem or other writing (and, Quintilian adds, whether it is genuine).</p>
 <p>The list begins with reading and ends with judging for a reason: a text must be read before it can be explained, and it must be understood before it can be judged.</p>`,
@@ -52,14 +52,14 @@ ARS.decks['prelim.offices'] = {
 { id: 'reading',
   title: 'Reading (<i>lectio</i>)',
   body: `<p>Reading is the first task of the grammarian as teacher and critic of literature. Reading in this sense is the care that a reader should have for the text that he is reading out loud. (In our time, it is not customary to think of reading aloud as part of the study of literature but it clearly is, since if the text cannot be fluently read out loud then it will not be as easily understood.) Quintilian sets out what it requires: the reader must know “when the student should take breath, at what point he should introduce a pause into a line, where the sense ends or begins, when the voice should be raised or lowered.” He gives one rule for all of it: “to do all these things, one must understand what one reads” (<i>Institutio oratoria</i> I.8.1–2).</p>
-<p>So correct reading already requires grammatical knowledge. The reader must know the quantity and the accent of each word and see where each clause begins and ends. For example, Latin <i>malum</i> with a short <i>a</i> means “evil,” but <i>mālum</i> with a long <i>ā</i> means “apple,” and a reader who does not know the difference may say the wrong word. Again, in “The Lord is my shepherd; I shall not want” (Psalm 23:1, King James Version), the reader pauses at the semicolon, because two clauses meet there.</p>`,
+<p>So correct reading already requires grammatical knowledge. The reader must know the quantity and the accent of each word and see where each clause begins and ends. For example, Latin <i>levis</i> with a short <i>e</i> means “light,” but <i>lēvis</i> with a long <i>ē</i> means “smooth,” and a reader who does not know the difference may say the wrong word. Again, in “The Lord is my shepherd; I shall not want” (Psalm 23:1, King James Version), the reader pauses at the semicolon, because two clauses meet there.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.8.1–2; Psalm 23:1 (King James Version).` },
 
 { id: 'explaining',
   title: 'What does explaining (<i>enarratio</i>) cover?',
   body: `<p>Explaining or exposition of the text is the second task of the grammarian as teacher and critic of literature. In Quintilian’s description, the teacher “will ask his class after analysing a verse to give him the parts of speech and the peculiar features of the feet which it contains” (<i>Institutio oratoria</i> I.8.13). The teacher also explains words that are not in common use (I.8.15) and the stories to which the poets refer (I.8.18).</p>
-<p>Explaining, therefore, covers the parts of speech, the meter, the meaning of rare words, and the matter of the text. In “Remember now thy Creator” (Ecclesiastes 12:1, King James Version), for example, “Remember” is a verb, “now” an adverb, “thy” a pronoun, and “Creator” a noun; and in “nor the years draw nigh,” the rare word “nigh” means “near.”</p>`,
-  src: `Quintilian, <i>Institutio oratoria</i> I.8.13–18; Ecclesiastes 12:1 (King James Version).` },
+<p>Explaining, therefore, covers the parts of speech, the meter, the meaning of rare words, and the matter of the text. In “The flowers appear on the earth” (Song of Solomon 2:12, King James Version), for example, “flowers” is a noun, “appear” a verb, “on” a preposition, and “earth” a noun; and in “the voice of the turtle is heard in our land,” the rare word “turtle” means “turtledove.”</p>`,
+  src: `Quintilian, <i>Institutio oratoria</i> I.8.13–18; Song of Solomon 2:12 (King James Version).` },
 
 { id: 'correcting',
   title: 'Correcting (<i>emendatio</i>)',
@@ -95,7 +95,7 @@ ARS.decks['prelim.offices'] = {
 
 { id: 'authors',
   title: 'Why do literary authors in general belong to grammar?',
-  body: `<p>Quintilian does not limit the grammarian to the poets, as Dionysius Thrax does: “Nor is it sufficient to have read the poets only; every kind of writer must be carefully studied, not merely for the subject matter, but for the vocabulary; for words often acquire authority from their use by a particular author” (<i>Institutio oratoria</i> I.4.4).</p>
+  body: `<p>Quintilian does not limit the grammarian to the poets and prose writers, as Dionysius Thrax does: “Nor is it sufficient to have read the poets only; every kind of writer must be carefully studied, not merely for the subject matter, but for the vocabulary; for words often acquire authority from their use by a particular author” (<i>Institutio oratoria</i> I.4.4).</p>
 <p>So, literary authors belong to grammar for two reasons. First, interpreting them is one of the two parts of the grammarian’s profession. Second, in a more basic way, literary authors show how words are used correctly and their usages and styles and words often become the standard for writing and even speaking sometimes; so, these authors give authority to the forms and constructions that grammar teaches.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.4.4.`,
   qp: { id: 'q-authors', variants: [

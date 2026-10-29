@@ -131,7 +131,9 @@ Each pair is OLD (AI wording) → NEW (Timothy's wording or approved correction)
 
 Add new pairs here in the same form: OLD → NEW (source, date).
 
--
+- a Latin adjective agrees with its noun in what the noun’s inflections are → a Latin adjective agrees with the noun as inflected, that is, in gender, number, and case (prelim.methodice; Timothy, 29 Oct 2026)
+- Quintilian does not limit the grammarian to the poets, as Dionysius Thrax does → Quintilian does not limit the grammarian to the poets and prose writers, as Dionysius Thrax does (prelim.offices; Timothy, 29 Oct 2026)
+- such as an argument or a well-constructed paragraph … “inasmuch as the body is subordinate to the soul, whereas an individual man, as regards his soul, is free” → such as the making of a syllogism, of a fitting speech, or of a calculation … in his words, “in a fashion, servile, inasmuch as the body is in servile subjection to the soul, and man, as regards his soul, is free [<i>liber</i>]” (prelim.definition / art; the Dominican text restored; Timothy, 29 Oct 2026)
 
 ## Process
 

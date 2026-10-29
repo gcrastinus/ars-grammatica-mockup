@@ -100,7 +100,7 @@ ARS.decks['i.ambiguity'] = {
 { id: 'pronunciation',
   title: 'Ambiguity from pronunciation',
   body: `<p>Some written words are ambiguous only because the writing does not show how they are pronounced. “Desert,” stressed on the first syllable, is a dry land; stressed on the second, it means “to abandon.” “Lead” can be the metal or the verb “to lead,” and “wind” can be moving air or the verb “to wind” a clock. In speech these words are not ambiguous at all; only in writing does the reader have to decide from the rest of the sentence which word is meant.</p>
-<p>Latin has the same difficulty with the length of vowels. Quintilian notes that in a written document it may be doubtful whether a syllable is long or short (VII.9.13). Latin <i>malum</i> with a short <i>a</i> means “evil,” but <i>mālum</i> with a long <i>ā</i> means “apple,” and ordinary Latin writing usually did not mark the difference. Aristotle names this kind of ambiguity <strong>accent</strong>, because it depends on how a word is pronounced (<i>Sophistical Refutations</i> 4).</p>`,
+<p>Latin has the same difficulty with the length of vowels. Quintilian notes that in a written document it may be doubtful whether a syllable is long or short (VII.9.13). Latin <i>populus</i> with a short <i>o</i> means “people,” but <i>pōpulus</i> with a long <i>ō</i> means “poplar,” and ordinary Latin writing usually did not mark the difference. Aristotle names this kind of ambiguity <strong>accent</strong>, because it depends on how a word is pronounced (<i>Sophistical Refutations</i> 4).</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> VII.9.13; Aristotle, <i>Sophistical Refutations</i> 4.` },
 
 { id: 'remedies',
