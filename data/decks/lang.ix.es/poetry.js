@@ -202,7 +202,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   },
   {
    "id": "poetry-22",
-   "title": "Bécquer, Rima LIII · Hendecasyllable",
+   "title": "Bécquer, <em lang=\"es\">Rimas</em> LIII · Hendecasyllable",
    "body": "<p lang=\"es\">VOLVERÁN las oscuras golondrinas<br>En tu balcón sus nidos á colgar,<br>Y, otra vez, con el ala á sus cristales<br>Jugando llamarán;</p><p>The dark swallows will return<br>to hang their nests on your balcony,<br>and, once again, with the wing against your windowpanes,<br>playing, they will call;</p><p><strong>Context.</strong> Gustavo Adolfo Bécquer was born in Seville in 1836 and died in Madrid in 1870. This is the opening stanza of Rima LIII, in the <i lang=\"es\">Rimas</i>. Three lines have eleven syllables, and the fourth has seven. The even lines assonate in <i lang=\"es\">á</i>: <i lang=\"es\">colgar</i> with <i lang=\"es\">llamarán</i>. Both of those words are stressed on the last syllable. The odd lines do not rhyme.</p>",
    "qp": {
     "id": "q-es-ixv-poetry-22",
@@ -265,7 +265,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   },
   {
    "id": "poetry-12",
-   "title": "Darío, Sonatina · Alexandrine",
+   "title": "Darío, “Sonatina” · Alexandrine",
    "body": "<p lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?<br>Los suspiros se escapan de su boca de fresa,<br>Que ha perdido la risa, que ha perdido el color.<br>La princesa está pálida en su silla de oro,<br>Está mudo el teclado de su clave sonoro;<br>Y en un vaso olvidada se desmaya una flor.</p><p>The princess is sad... what ails the princess?<br>The sighs escape from her strawberry mouth,<br>for she has lost her laughter, for she has lost her color.<br>The princess is pale in her chair of gold,<br>mute is the keyboard of her sonorous harpsichord;<br>and, forgotten, a flower faints in a vase.</p><p><strong>Context.</strong> Rubén Darío was born in Metapa, Nicaragua, in 1867, and died in León in 1916. “Sonatina” is in <i lang=\"es\">Prosas profanas y otros poemas</i>, printed at Buenos Aires in 1896. The line is an alexandrine, of fourteen syllables, divided into two halves of seven. The rhyme is consonant: <i lang=\"es\">princesa</i> with <i lang=\"es\">fresa</i>, <i lang=\"es\">color</i> with <i lang=\"es\">flor</i>, and <i lang=\"es\">oro</i> with <i lang=\"es\">sonoro</i>.</p>",
    "qp": {
     "id": "q-es-ixv-poetry-12",
@@ -454,7 +454,7 @@ ARS.decks["lang.ix.es/poetry"] = {
   },
   {
    "id": "poetry-27",
-   "title": "Góngora, Ande yo caliente · Letrilla",
+   "title": "Góngora, “Ande yo caliente” · Letrilla",
    "body": "<p lang=\"es\">Ande yo caliente,<br>Y ríase la gente.<br>Traten otros del gobierno,</p><p>Let me go warm,<br>and let the people laugh.<br>Let others treat of government,</p><p><strong>Context.</strong> Luis de Góngora, a poet of Córdoba, died in 1627. The 1820 print gives this poem no title of its own. It marks it “OTRA,” after another letrilla. The two short lines are the refrain, and the second of them returns through the poem. <i lang=\"es\">Ande yo caliente</i> has six syllables, and <i lang=\"es\">Y ríase la gente</i> has seven. <i lang=\"es\">Traten otros del gobierno</i> has eight.</p>",
    "qp": {
     "id": "q-es-ixv-poetry-27",

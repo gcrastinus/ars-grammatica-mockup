@@ -555,7 +555,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   },
   {
    "id": "poetry-42",
-   "title": "Three verbs in the passé simple",
+   "title": "Three verbs in the <em lang=\"fr\">passé simple</em>",
    "body": "<p><em lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</em>: <em lang=\"fr\">Vis</em> (“saw”), <em lang=\"fr\">rougis</em> (“blushed”), and <em lang=\"fr\">pâlis</em> (“grew pale”) are three forms of the passé simple, each a single completed event, one after another. <em lang=\"fr\">Le</em> is the object of <em lang=\"fr\">vis</em>, placed before the verb.</p>"
   },
   {

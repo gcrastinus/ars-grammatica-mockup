@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/tacitus"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p>The figure is asyndeton. <i lang=\"la\">Auferre trucidare rapere</i>: three infinitives with no conjunction strike one after another. The absence of “and” makes the list harsher.</p>\n<p><i lang=\"la\">Ubi solitudinem faciunt, pacem appellant</i>: the sentence ends in a short antithesis between “desert” and “peace,” the kind of pointed close that Tacitus prefers.</p>\n<p>The object of <i lang=\"la\">appellant</i> in the first member is supplied from the end of the sentence. The compression is part of the force.</p>\n<p>Tacitus puts the sharpest judgment on Rome into the mouth of a British chief, so that the historian can report it without stating it in his own voice.</p>"
+   "body": "<p>The figure is asyndeton. <i lang=\"la\">Auferre trucidare rapere</i>: three infinitives with no conjunction strike one after another. The absence of “and” makes the list harsher.</p>\n<p><i lang=\"la\">Ubi solitudinem faciunt, pacem appellant</i>: the sentence ends in a short antithesis between “desert” and “peace,” the kind of pointed close that Tacitus prefers.</p>\n<p>The verb of the first member, <i lang=\"la\">appellant</i>, is supplied from the end of the sentence. The compression is part of the force.</p>\n<p>Tacitus puts the sharpest judgment on Rome into the mouth of a British chief, so that the historian can report it without stating it in his own voice.</p>"
   }
  ],
  "models": true

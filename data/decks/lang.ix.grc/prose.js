@@ -66,7 +66,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-5",
-   "title": "Μέν and δέ",
+   "title": "<em lang=\"grc\">Μέν</em> and <em lang=\"grc\">δέ</em>",
    "body": "<p><em lang=\"grc\">τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι ἀποδεχθέντα</em>: <em lang=\"grc\">Τὰ μὲν … τὰ δέ</em> divides the works into two groups, some by Greeks and some by barbarians. <em lang=\"grc\">Ἀποδεχθέντα</em>, an aorist passive participle, agrees with <em lang=\"grc\">ἔργα</em>, and the datives give the agents.</p>"
   },
   {
@@ -343,7 +343,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-30",
-   "title": "Μετά with the genitive",
+   "title": "<em lang=\"grc\">Μετά</em> with the genitive",
    "body": "<p><em lang=\"grc\">μετὰ Γλαύκωνος τοῦ Ἀρίστωνος</em>: <em lang=\"grc\">Μετά</em> with the genitive means “with.” <em lang=\"grc\">Τοῦ Ἀρίστωνος</em>, with “son” understood, names his father.</p>"
   },
   {
@@ -411,7 +411,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-36",
-   "title": "Μέν and δέ",
+   "title": "<em lang=\"grc\">Μέν</em> and <em lang=\"grc\">δέ</em>",
    "body": "<p><em lang=\"grc\">πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος</em>: <em lang=\"grc\">Μὲν … δέ</em> divides the two sons, the elder and the younger, with “was” understood.</p>"
   },
   {
@@ -852,12 +852,12 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-71",
-   "title": "Ἔχω with the infinitive",
+   "title": "<em lang=\"grc\">Ἔχω</em> with the infinitive",
    "body": "<p><em lang=\"grc\">ἔχεις μοι εἰπεῖν, ὦ Σώκρατες</em>: <em lang=\"grc\">Ἔχεις εἰπεῖν</em>, “are you able to say,” uses <em lang=\"grc\">ἔχω</em> with the infinitive in the sense of “can.”</p>"
   },
   {
    "id": "prose-72",
-   "title": "A question with ἆρα",
+   "title": "A question with <em lang=\"grc\">ἆρα</em>",
    "body": "<p><em lang=\"grc\">ἆρα διδακτὸν ἡ ἀρετή</em>: <em lang=\"grc\">Ἆρα</em> marks a question. <em lang=\"grc\">Διδακτόν</em>, neuter, is the predicate: is virtue a thing that can be taught?</p>"
   },
   {
@@ -920,7 +920,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-77",
-   "title": "A participle with ἄν",
+   "title": "A participle with <em lang=\"grc\">ἄν</em>",
    "body": "<p><em lang=\"grc\">ἐπισχὼν ἂν ἕως οἱ πλεῖστοι τῶν εἰωθότων γνώμην ἀπεφήναντο</em>: <em lang=\"grc\">Ἐπισχὼν ἄν</em>, a participle with <em lang=\"grc\">ἄν</em>, carries the force of the conclusion: I would have waited until most of the usual speakers had declared their opinion.</p>"
   },
   {
@@ -978,7 +978,7 @@ ARS.decks["lang.ix.grc/prose"] = {
   },
   {
    "id": "prose-81",
-   "title": "Ἐγένετο with a second verb",
+   "title": "<em lang=\"grc\">Ἐγένετο</em> with a second verb",
    "body": "<p><em lang=\"grc\">Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα</em>: <em lang=\"grc\">Ἐγένετο</em>, “it came to pass,” is followed by a second finite verb, <em lang=\"grc\">ἐξῆλθεν</em>, a way of telling that follows the Hebrew style of the Greek Old Testament.</p>"
   },
   {

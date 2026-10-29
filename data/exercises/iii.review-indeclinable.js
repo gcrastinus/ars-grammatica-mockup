@@ -367,7 +367,7 @@ ARS.exercises['iii.review-indeclinable'] = {
    "set": "B",
    "deck": "iii.preposition",
    "type": "mc",
-   "prompt": "Which sentence uses the pronoun in the case careful usage prefers after a preposition?",
+   "prompt": "Which sentence uses the pronoun in the correct case after a preposition?",
    "options": [
     "“The decision rests with Ellen and I.”",
     "“The decision rests with Ellen and me.”",
@@ -375,7 +375,7 @@ ARS.exercises['iii.review-indeclinable'] = {
     "“The decision rests with I and Ellen.”"
    ],
    "answer": 1,
-   "explain": "A preposition takes its object in the objective case, and “with” governs both “Ellen” and the pronoun, so the form is “me.”"
+   "explain": "A preposition takes its object in the objective case, and “with” governs both “Ellen” and the pronoun, so the form is “me”; “with Ellen and I” is an error of case."
   },
   {
    "id": "ri-B08",

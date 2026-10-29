@@ -114,7 +114,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-7",
-   "title": "The passé simple",
+   "title": "The <em lang=\"fr\">passé simple</em>",
    "body": "<p><em lang=\"fr\">Mais aussitôt après je pris garde que</em>: <em lang=\"fr\">Je pris garde</em>, “I took notice,” is the passé simple of <em lang=\"fr\">prendre</em>, the tense of a single past event in written narrative. It takes a clause with <em lang=\"fr\">que</em> as its object.</p>"
   },
   {
@@ -265,7 +265,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-22",
-   "title": "A reflexive verb in the passé composé",
+   "title": "A reflexive verb in the <em lang=\"fr\">passé composé</em>",
    "body": "<p><em lang=\"fr\">que je ne m’y suis proposé aucune fin que domestique et privée</em>: <em lang=\"fr\">Je me suis proposé</em>, “I set before myself,” is reflexive and so takes <em lang=\"fr\">être</em>. <em lang=\"fr\">Y</em> stands for the book: in it. <em lang=\"fr\">Ne … aucune fin que</em> means “no end but.”</p>"
   },
   {
@@ -449,7 +449,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-36",
-   "title": "The passé simple: the event",
+   "title": "The <em lang=\"fr\">passé simple</em>: the event",
    "body": "<p><em lang=\"fr\">quand le Proviseur entra</em>: <em lang=\"fr\">Entra</em>, passé simple, is the event that breaks in on the scene.</p>"
   },
   {
@@ -860,7 +860,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   },
   {
    "id": "prose-65",
-   "title": "The passé composé of a reflexive verb",
+   "title": "The <em lang=\"fr\">passé composé</em> of a reflexive verb",
    "body": "<p><em lang=\"fr\">Longtemps, je me suis couché de bonne heure</em>: <em lang=\"fr\">Je me suis couché</em> is the passé composé of <em lang=\"fr\">se coucher</em>, with <em lang=\"fr\">être</em>. With <em lang=\"fr\">longtemps</em> it sums up a long stretch of the past.</p>"
   },
   {

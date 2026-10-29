@@ -10,7 +10,7 @@ ARS.decks['prelim.offices'] = {
   recitation: [
     `Quintilian divides the profession of the grammarian into two parts, the art of speaking correctly and the interpretation of the poets, but says that there is more in them than appears.`,
     `Beneath the two parts lie several distinct tasks: writing is joined to speaking, correct reading comes before interpretation, and in each case criticism, that is, judging, has its own work.`,
-    `The two broad parts of the profession are the evaluation and correction of speaking and the evaluation and correction of writing.`,
+    `The two broad parts of the profession are correct speaking and writing, and the interpretation of the poets and other writers.`,
     `The first part of the grammarian’s profession is to direct speaking and writing toward clarity and correctness, because writing and reading depend on the spoken language.`,
     `The interpretation of the poets and of other writers is the higher part, because language reaches its most elaborate and powerful forms in writing, and so written speech requires the most thorough study and criticism.`,
     `This higher part studies literature, taken in a general sense to include everything thought to be especially well written.`,

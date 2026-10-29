@@ -217,7 +217,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
   },
   {
    "id": "poetry-20",
-   "title": "Μέν and δέ",
+   "title": "<em lang=\"grc\">Μέν</em> and <em lang=\"grc\">δέ</em>",
    "body": "<p><em lang=\"grc\">ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων</em>: <em lang=\"grc\">Ὁμοῦ μὲν … ὁμοῦ δέ</em> sets the incense beside the hymns and the groans, all at once.</p>"
   },
   {
