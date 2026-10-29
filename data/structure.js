@@ -39,7 +39,7 @@ ARS.structure = [
    { id:'ii.syllable', kind:'study-ex', built:true, title:'The Syllable', desc:'What is a syllable, and how are words divided into syllables in English and in Latin?' },
    { id:'ii.quantity', kind:'study-ex', built:true, title:'Quantity and Accent', desc:'Long and short syllables, the Latin accent, and English stress.' },
    { id:'ii.punctuation', kind:'study', built:true, title:'Punctuation (<i>posituræ</i>)', desc:'The old marks of pause beside the modern ones.' },
-   { id:'ii.meter', kind:'study', built:true, title:'Feet and Meter', desc:'Feet and verse in English and Latin, with Greek, Spanish, German, or French where they show something distinctive.' },
+   { id:'ii.meter', kind:'study', built:true, title:'Feet and Meter', desc:'Feet and verse in English and Latin, with Greek, German, or French where they show something distinctive.' },
    { id:'ii.review', kind:'review', built:true, title:'Section Review: The Matter of Speech', desc:'Forty-five questions on II.1 to II.6, in three fixed sets of fifteen.' }
  ],
  langBars:[
