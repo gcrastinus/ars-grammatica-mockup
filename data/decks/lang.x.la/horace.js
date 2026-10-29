@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/horace"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The subject described, not named.</strong> <i lang=\"la\">Integer vitae scelerisque purus</i>: the man is never named; he is defined by two adjectives, and the poem is about the kind of man, not a particular one.</p>\n<p><strong>The list of weapons.</strong> Javelins, bow, and quiver come one after another, each with its own adjective, and the fuller description of the quiver ends the list.</p>\n<p><strong>Alternatives of place.</strong> <i lang=\"la\">Sive … sive … vel</i>: the far places, the Syrtes, the Caucasus, and the Hydaspes, widen the claim to every part of the world.</p>\n<p><strong>Order in the sapphic stanza.</strong> The words are interlaced, as in <i lang=\"la\">venenatis gravida sagittis … pharetra</i>, so that the meter and the sense must be read together.</p>"
+   "body": "<p><i lang=\"la\">Integer vitae scelerisque purus</i>: the man is never named; he is defined by two adjectives, and the poem is about the kind of man, not a particular one.</p>\n<p>Javelins, bow, and quiver come one after another, each with its own adjective, and the fuller description of the quiver ends the list.</p>\n<p><i lang=\"la\">Sive … sive … vel</i>: the far places, the Syrtes, the Caucasus, and the Hydaspes, widen the claim to every part of the world.</p>\n<p>The words are interlaced, as in <i lang=\"la\">venenatis gravida sagittis … pharetra</i>, so that the meter and the sense must be read together.</p>"
   }
  ],
  "models": true

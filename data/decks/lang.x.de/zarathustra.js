@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/zarathustra"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The biblical manner.</strong> The sentences are joined by <i lang=\"de\">und</i> and tell events one after another, in the manner of the Luther Bible.</p>\n<p><strong>Archaic constructions.</strong> The genitive objects with <i lang=\"de\">genießen</i> and <i lang=\"de\">müde</i> are older than the German of Nietzsche’s day, and they give the prose a solemn tone.</p>\n<p><strong>A plain story for a strange book.</strong> The book begins as a simple narrative of a man who went into the mountains; its teaching comes later.</p>\n<p><strong>Time measured.</strong> Thirty years, ten years: the numbers mark the stages of a life, as in a legend.</p>"
+   "body": "<p>The sentences are joined by <i lang=\"de\">und</i> and tell events one after another, in the manner of the Luther Bible.</p>\n<p>The genitive objects with <i lang=\"de\">genießen</i> and <i lang=\"de\">müde</i> are older than the German of Nietzsche’s day, and they give the prose a solemn tone.</p>\n<p>The book begins as a simple narrative of a man who went into the mountains; its teaching comes later.</p>\n<p>Thirty years, ten years: the numbers mark the stages of a life, as in a legend.</p>"
   }
  ],
  "models": true

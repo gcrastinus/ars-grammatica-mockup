@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/heine"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>A simple comparison.</strong> <i lang=\"de\">Du bist wie eine Blume</i>: the poem begins with the plainest form of comparison.</p>\n<p><strong>Three adjectives.</strong> <i lang=\"de\">So hold und schön und rein</i>: the three predicate adjectives, joined by <i lang=\"de\">und</i>, describe the beloved without ornament.</p>\n<p><strong>The turn to sadness.</strong> <i lang=\"de\">und Wehmut / Schleicht mir ins Herz hinein</i>: the sight of beauty brings melancholy, and the poem turns in the middle of its first stanza.</p>\n<p><strong>Song.</strong> The short lines and simple words made this one of the poems most often set to music.</p>"
+   "body": "<p><i lang=\"de\">Du bist wie eine Blume</i>: the poem begins with the plainest form of comparison.</p>\n<p><i lang=\"de\">So hold und schön und rein</i>: the three predicate adjectives, joined by <i lang=\"de\">und</i>, describe the beloved without ornament.</p>\n<p><i lang=\"de\">und Wehmut / Schleicht mir ins Herz hinein</i>: the sight of beauty brings melancholy, and the poem turns in the middle of its first stanza.</p>\n<p>The short lines and simple words made this one of the poems most often set to music.</p>"
   }
  ],
  "models": true

@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/sallust"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Brevity.</strong> Sallust describes a man’s birth, strength, and nature in a single short sentence with one verb, <i lang=\"la\">fuit</i>. His style is famous for compression.</p>\n<p><strong>The ablative of quality.</strong> <i lang=\"la\">Magna vi … sed ingenio malo pravoque</i>: two ablatives of quality, set against each other with <i lang=\"la\">sed</i>, give the contrast that the whole history will unfold.</p>\n<p><strong>The order of the portrait.</strong> Birth first, then strength of mind and body, then the evil nature: the sentence moves from what is given to what is chosen, and ends on the judgment.</p>\n<p><strong>Pairs within the members.</strong> <i lang=\"la\">Et animi et corporis</i>, <i lang=\"la\">malo pravoque</i>: each member contains a pair, which gives the short sentence its fullness.</p>"
+   "body": "<p>Sallust describes a man’s birth, strength, and nature in a single short sentence with one verb, <i lang=\"la\">fuit</i>. His style is famous for compression.</p>\n<p><i lang=\"la\">Magna vi … sed ingenio malo pravoque</i>: two ablatives of quality, set against each other with <i lang=\"la\">sed</i>, give the contrast that the whole history will unfold.</p>\n<p>Birth first, then strength of mind and body, then the evil nature: the sentence moves from what is given to what is chosen, and ends on the judgment.</p>\n<p><i lang=\"la\">Et animi et corporis</i>, <i lang=\"la\">malo pravoque</i>: each member contains a pair, which gives the short sentence its fullness.</p>"
   }
  ],
  "models": true

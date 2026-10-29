@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/manifest"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The image.</strong> <i lang=\"de\">Ein Gespenst geht um in Europa</i>: the opening uses a figure, the specter, and states the subject through it.</p>\n<p><strong>The restatement after the dash.</strong> The second half names what the specter is, the specter of communism, so the image is explained at once.</p>\n<p><strong>The list in pairs.</strong> Pope and czar, Metternich and Guizot, French radicals and German police: the enemies are named in pairs, and the pairs join opposites in one alliance.</p>\n<p><strong>The verb at the end.</strong> The participle <i lang=\"de\">verbündet</i> closes the clause after a long middle, and the list follows outside the frame.</p>"
+   "body": "<p><i lang=\"de\">Ein Gespenst geht um in Europa</i>: the opening uses a figure, the specter, and states the subject through it.</p>\n<p>The second half names what the specter is, the specter of communism, so the image is explained at once.</p>\n<p>Pope and czar, Metternich and Guizot, French radicals and German police: the enemies are named in pairs, and the pairs join opposites in one alliance.</p>\n<p>The participle <i lang=\"de\">verbündet</i> closes the clause after a long middle, and the list follows outside the frame.</p>"
   }
  ],
  "models": true

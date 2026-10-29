@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/grimm"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The tale’s beginning.</strong> <i lang=\"de\">In den alten Zeiten, wo das Wünschen noch geholfen hat</i>: the tale begins in a time set apart from ours.</p>\n<p><strong>One sentence from the king to the sun.</strong> The single long sentence moves from the old days to a king, to his daughters, to the youngest, and to the sun. Each step narrows the view.</p>\n<p><strong>The spoken order.</strong> The tale keeps the free order of spoken narrative (<i lang=\"de\">dessen Töchter waren alle schön</i>), as the Grimms wished to keep the voice of the tellers.</p>\n<p><strong>Wonder without explanation.</strong> The sun itself is astonished at the girl’s beauty. The tale states the marvel plainly, as a fact.</p>"
+   "body": "<p><i lang=\"de\">In den alten Zeiten, wo das Wünschen noch geholfen hat</i>: the tale begins in a time set apart from ours.</p>\n<p>The single long sentence moves from the old days to a king, to his daughters, to the youngest, and to the sun. Each step narrows the view.</p>\n<p>The tale keeps the free order of spoken narrative (<i lang=\"de\">dessen Töchter waren alle schön</i>), as the Grimms wished to keep the voice of the tellers.</p>\n<p>The sun itself is astonished at the girl’s beauty. The tale states the marvel plainly, as a fact.</p>"
   }
  ],
  "models": true

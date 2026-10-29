@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/augustine"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Speech to God.</strong> Augustine writes in the second person, to God, throughout. The book is a prayer that the reader overhears.</p>\n<p><strong>The reason stated as fact.</strong> <i lang=\"la\">Quia fecisti nos ad te</i>: the indicative states the reason plainly. The doctrine of the whole book is given in five words.</p>\n<p><strong>Rest and restlessness.</strong> <i lang=\"la\">Inquietum … requiescat</i>: the adjective and the verb are built on the same root, and the sentence moves from the one to the other.</p>\n<p><strong>The end looked for.</strong> <i lang=\"la\">Donec requiescat in te</i>: the subjunctive marks an end hoped for, so the sentence ends in expectation, not in possession.</p>"
+   "body": "<p>Augustine writes in the second person, to God, throughout. The book is a prayer that the reader overhears.</p>\n<p><i lang=\"la\">Quia fecisti nos ad te</i>: the indicative states the reason plainly. The doctrine of the whole book is given in five words.</p>\n<p><i lang=\"la\">Inquietum … requiescat</i>: the adjective and the verb are built on the same root, and the sentence moves from the one to the other.</p>\n<p><i lang=\"la\">Donec requiescat in te</i>: the subjunctive marks an end hoped for, so the sentence ends in expectation, not in possession.</p>"
   }
  ],
  "models": true

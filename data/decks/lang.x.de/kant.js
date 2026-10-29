@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/kant"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The answer held to the end.</strong> The sentence names everything that is not good without qualification before it names the one thing that is: <i lang=\"de\">als allein ein guter Wille</i>. The delay gives the answer its weight.</p>\n<p><strong>The negative frame.</strong> <i lang=\"de\">Es ist … nichts …, was …</i>: the sentence begins with a denial, so the exception at the end stands out.</p>\n<p><strong>Qualification.</strong> <i lang=\"de\">Ja überhaupt auch außer derselben</i>: Kant widens the claim, in the world and even outside it, before he states it.</p>\n<p><strong>The philosopher’s period.</strong> The long period, with its verbs at the end of the relative clause, is typical of German philosophical prose.</p>"
+   "body": "<p>The sentence names everything that is not good without qualification before it names the one thing that is: <i lang=\"de\">als allein ein guter Wille</i>. The delay gives the answer its weight.</p>\n<p><i lang=\"de\">Es ist … nichts …, was …</i>: the sentence begins with a denial, so the exception at the end stands out.</p>\n<p><i lang=\"de\">Ja überhaupt auch außer derselben</i>: Kant widens the claim, in the world and even outside it, before he states it.</p>\n<p>The long period, with its verbs at the end of the relative clause, is typical of German philosophical prose.</p>"
   }
  ],
  "models": true

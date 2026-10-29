@@ -9,7 +9,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
   {
    "id": "syllable-1",
    "title": "The French syllable",
-   "body": "<p><strong>The French syllable.</strong> <i lang=\"fr\">Beau</i> (“beautiful”) has three vowel letters but one syllable, and <i lang=\"fr\">maison</i> (“house”) has two syllables, <i lang=\"fr\">mai-son</i>, because <i lang=\"fr\">eau</i>, <i lang=\"fr\">ou</i>, and <i lang=\"fr\">ai</i> each write a single vowel sound. A French syllable, like an English one, has one sounded vowel, and several written letters often make that one vowel. A final <i lang=\"fr\">e</i> that is not sounded, the mute <i lang=\"fr\">e</i> (<i lang=\"fr\">e muet</i>), does not make a syllable in ordinary speech, so <i lang=\"fr\">table</i> (“table”) is one syllable when it is spoken. In verse, however, the mute <i lang=\"fr\">e</i> is counted before a consonant and not before a vowel.</p>",
+   "body": "<p><i lang=\"fr\">Beau</i> (“beautiful”) has three vowel letters but one syllable, and <i lang=\"fr\">maison</i> (“house”) has two syllables, <i lang=\"fr\">mai-son</i>, because <i lang=\"fr\">eau</i>, <i lang=\"fr\">ou</i>, and <i lang=\"fr\">ai</i> each write a single vowel sound. A French syllable, like an English one, has one sounded vowel, and several written letters often make that one vowel. A final <i lang=\"fr\">e</i> that is not sounded, the mute <i lang=\"fr\">e</i> (<i lang=\"fr\">e muet</i>), does not make a syllable in ordinary speech, so <i lang=\"fr\">table</i> (“table”) is one syllable when it is spoken. In verse, however, the mute <i lang=\"fr\">e</i> is counted before a consonant and not before a vowel.</p>",
    "qp": {
     "id": "q-fr-sy-syllable-1",
     "variants": [
@@ -52,7 +52,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
   {
    "id": "syllable-2",
    "title": "Elision and liaison",
-   "body": "<p><strong>Elision and liaison.</strong> French writes <i lang=\"fr\">l’homme</i> (“the man”), not <i lang=\"fr\">le homme</i>; <i lang=\"fr\">j’ai</i> (“I have”), not <i lang=\"fr\">je ai</i>; and <i lang=\"fr\">qu’il</i> (“that he”), not <i lang=\"fr\">que il</i>. A few short words drop their final vowel before a word that begins with a vowel or a mute <i lang=\"fr\">h</i>, and the spelling shows the loss; this is <strong>elision</strong>. In <i lang=\"fr\">les amis</i> (“the friends”) the <i lang=\"fr\">s</i> of <i lang=\"fr\">les</i>, which is silent before a pause, is sounded as <i lang=\"fr\">z</i> and joined to the next word; this is <strong>liaison</strong>. A word that begins with an aspirated <i lang=\"fr\">h</i>, such as <i lang=\"fr\">héros</i> (“hero”), allows neither, so we say <i lang=\"fr\">le héros</i> and <i lang=\"fr\">les héros</i> with no <i lang=\"fr\">z</i>.</p>",
+   "body": "<p>French writes <i lang=\"fr\">l’homme</i> (“the man”), not <i lang=\"fr\">le homme</i>; <i lang=\"fr\">j’ai</i> (“I have”), not <i lang=\"fr\">je ai</i>; and <i lang=\"fr\">qu’il</i> (“that he”), not <i lang=\"fr\">que il</i>. A few short words drop their final vowel before a word that begins with a vowel or a mute <i lang=\"fr\">h</i>, and the spelling shows the loss; this is <strong>elision</strong>. In <i lang=\"fr\">les amis</i> (“the friends”) the <i lang=\"fr\">s</i> of <i lang=\"fr\">les</i>, which is silent before a pause, is sounded as <i lang=\"fr\">z</i> and joined to the next word; this is <strong>liaison</strong>. A word that begins with an aspirated <i lang=\"fr\">h</i>, such as <i lang=\"fr\">héros</i> (“hero”), allows neither, so we say <i lang=\"fr\">le héros</i> and <i lang=\"fr\">les héros</i> with no <i lang=\"fr\">z</i>.</p>",
    "qp": {
     "id": "q-fr-sy-syllable-2",
     "variants": [
@@ -95,7 +95,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
   {
    "id": "syllable-3",
    "title": "French stress",
-   "body": "<p><strong>French stress.</strong> <i lang=\"fr\">Parler</i> (“to speak”), said alone, is stressed on its last syllable, <i lang=\"fr\">-ler</i>, but in <i lang=\"fr\">parler au roi</i> (“to speak to the king”) the beat falls on <i lang=\"fr\">roi</i>. In French the beat falls on the last sounded syllable of the rhythmic group, which is often the end of a phrase rather than of each word. So French has no stress fixed within the word, and there is no penult to measure, as there is in Latin.</p>",
+   "body": "<p><i lang=\"fr\">Parler</i> (“to speak”), said alone, is stressed on its last syllable, <i lang=\"fr\">-ler</i>, but in <i lang=\"fr\">parler au roi</i> (“to speak to the king”) the beat falls on <i lang=\"fr\">roi</i>. In French the beat falls on the last sounded syllable of the rhythmic group, which is often the end of a phrase rather than of each word. So French has no stress fixed within the word, and there is no penult to measure, as there is in Latin.</p>",
    "qp": {
     "id": "q-fr-sy-syllable-3",
     "variants": [
@@ -138,7 +138,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
   {
    "id": "syllable-4",
    "title": "The accent marks are not stress",
-   "body": "<p><strong>The accent marks are not stress.</strong> The acute accent in <i lang=\"fr\">été</i> (“summer”) marks a closed <i lang=\"fr\">e</i>, and the grave accent in <i lang=\"fr\">mère</i> (“mother”) marks an open one; neither marks the beat. The grave accent on <i lang=\"fr\">à</i> (“to”) and <i lang=\"fr\">où</i> (“where”) distinguishes these words from <i lang=\"fr\">a</i> (“has”) and <i lang=\"fr\">ou</i> (“or”). The circumflex often stands where an <i lang=\"fr\">s</i> was once written, as in <i lang=\"fr\">forêt</i> beside English “forest.” So the written accents of French belong to the spelling, and they do not show where the stress falls.</p>",
+   "body": "<p>The acute accent in <i lang=\"fr\">été</i> (“summer”) marks a closed <i lang=\"fr\">e</i>, and the grave accent in <i lang=\"fr\">mère</i> (“mother”) marks an open one; neither marks the beat. The grave accent on <i lang=\"fr\">à</i> (“to”) and <i lang=\"fr\">où</i> (“where”) distinguishes these words from <i lang=\"fr\">a</i> (“has”) and <i lang=\"fr\">ou</i> (“or”). The circumflex often stands where an <i lang=\"fr\">s</i> was once written, as in <i lang=\"fr\">forêt</i> beside English “forest.” So the written accents of French belong to the spelling, and they do not show where the stress falls.</p>",
    "qp": {
     "id": "q-fr-sy-syllable-4",
     "variants": [
@@ -181,7 +181,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
   {
    "id": "syllable-5",
    "title": "The cedilla",
-   "body": "<p><strong>The cedilla.</strong> In <i lang=\"fr\">français</i> (“French”) and <i lang=\"fr\">leçon</i> (“lesson”) the <i lang=\"fr\">c</i> is pronounced <i lang=\"fr\">s</i>, although it stands before <i lang=\"fr\">a</i> or <i lang=\"fr\">o</i>, where a <i lang=\"fr\">c</i> is otherwise pronounced <i lang=\"fr\">k</i>. The mark under it, the <strong>cedilla</strong>, shows this sound before <i lang=\"fr\">a</i>, <i lang=\"fr\">o</i>, or <i lang=\"fr\">u</i>. French, then, uses the accents and the cedilla as parts of the written word, whereas Latin, as we print it, uses the macron only to mark quantity.</p>",
+   "body": "<p>In <i lang=\"fr\">français</i> (“French”) and <i lang=\"fr\">leçon</i> (“lesson”) the <i lang=\"fr\">c</i> is pronounced <i lang=\"fr\">s</i>, although it stands before <i lang=\"fr\">a</i> or <i lang=\"fr\">o</i>, where a <i lang=\"fr\">c</i> is otherwise pronounced <i lang=\"fr\">k</i>. The mark under it, the <strong>cedilla</strong>, shows this sound before <i lang=\"fr\">a</i>, <i lang=\"fr\">o</i>, or <i lang=\"fr\">u</i>. French, then, uses the accents and the cedilla as parts of the written word, whereas Latin, as we print it, uses the macron only to mark quantity.</p>",
    "qp": {
     "id": "q-fr-sy-syllable-5",
     "variants": [

@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/virgil"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The subject named first.</strong> <em lang=\"la\">Arma virumque cano</em>: the poem names its subject, war and the man, in its first three words, and puts the verb of singing after them.</p>\n<p><strong>The long relative clause.</strong> The man is described in a relative clause that runs over seven lines, from Troy to the walls of Rome. The sentence follows the whole course of the story.</p>\n<p><strong>The invocation after the subject.</strong> The Muse is called on only in the eighth line. Virgil states his subject first and then asks for its causes.</p>\n<p><strong>The closing question.</strong> <em lang=\"la\">Tantaene animis caelestibus irae?</em> ends the proem with a short question of wonder, set against the long sentences before it.</p>"
+   "body": "<p><em lang=\"la\">Arma virumque cano</em>: the poem names its subject, war and the man, in its first three words, and puts the verb of singing after them.</p>\n<p>The man is described in a relative clause that runs over seven lines, from Troy to the walls of Rome. The sentence follows the whole course of the story.</p>\n<p>The Muse is called on only in the eighth line. Virgil states his subject first and then asks for its causes.</p>\n<p><em lang=\"la\">Tantaene animis caelestibus irae?</em> ends the proem with a short question of wonder, set against the long sentences before it.</p>"
   }
  ],
  "models": true

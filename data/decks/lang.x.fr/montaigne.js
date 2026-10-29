@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/montaigne"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The familiar address.</strong> Montaigne speaks to the reader as <em lang=\"fr\">tu</em>, as one man to another, and so sets the tone of the whole book.</p>\n<p><strong>Disclaiming ambition.</strong> He says that he has had no thought of the reader’s service or of his own glory. The modesty is part of the art of the essay.</p>\n<p><strong>Short sentences.</strong> The note is written in short, plain sentences, unlike the long periods of the orators.</p>\n<p><strong>The book as a person.</strong> <em lang=\"fr\">Il t’avertit</em>: the book itself warns the reader, as if it could speak.</p>"
+   "body": "<p>Montaigne speaks to the reader as <em lang=\"fr\">tu</em>, as one man to another, and so sets the tone of the whole book.</p>\n<p>He says that he has had no thought of the reader’s service or of his own glory. The modesty is part of the art of the essay.</p>\n<p>The note is written in short, plain sentences, unlike the long periods of the orators.</p>\n<p><em lang=\"fr\">Il t’avertit</em>: the book itself warns the reader, as if it could speak.</p>"
   }
  ],
  "models": true

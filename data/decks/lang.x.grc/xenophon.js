@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/xenophon"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>A plain beginning.</strong> <em lang=\"grc\">Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο</em>: the history begins like a family record, with no preface.</p>\n<p><strong>The historical present.</strong> <em lang=\"grc\">Γίγνονται</em> brings the past event before the reader as if it were present.</p>\n<p><strong>Μέν and δέ for the two sons.</strong> The elder and the younger are set side by side in one short clause each, and the whole book will follow the rivalry of the two.</p>\n<p><strong>Clarity.</strong> Xenophon’s sentences are short and clear, and his Attic was long taken as a model for students for that reason.</p>"
+   "body": "<p><em lang=\"grc\">Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο</em>: the history begins like a family record, with no preface.</p>\n<p>The verb is a historical present. <em lang=\"grc\">Γίγνονται</em> brings the past event before the reader as if it were present.</p>\n<p>With <em lang=\"grc\">μέν</em> and <em lang=\"grc\">δέ</em>, the elder and the younger are set side by side in one short clause each, and the whole book will follow the rivalry of the two.</p>\n<p>Xenophon’s sentences are short and clear, and his Attic was long taken as a model for students for that reason.</p>"
   }
  ],
  "models": true

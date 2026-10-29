@@ -14,7 +14,7 @@ ARS.decks["lang.x.en/thoreau"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The main clause first, the reasons after.</strong> “I went to the woods” is stated plainly, and everything that follows explains why. The plain act is set against the long reason.</p>\n<p><strong>A series of infinitives.</strong> “To live deliberately, to front only the essential facts of life, and see …” Each infinitive names a part of the purpose, and the series grows longer as it goes.</p>\n<p><strong>The ending held back.</strong> The last member, “and not, when I came to die, discover that I had not lived,” sets a clause of time inside the infinitive and ends on the word “lived.” The sentence closes on its most serious thought.</p>\n<p><strong>Plain diction.</strong> Thoreau uses ordinary words (“woods,” “live,” “die”) for a philosophical claim. The style itself practices the simplicity that the book recommends.</p>"
+   "body": "<p>“I went to the woods” is stated plainly, and everything that follows explains why. The plain act is set against the long reason.</p>\n<p>“To live deliberately, to front only the essential facts of life, and see …” Each infinitive names a part of the purpose, and the series grows longer as it goes.</p>\n<p>The last member, “and not, when I came to die, discover that I had not lived,” sets a clause of time inside the infinitive and ends on the word “lived.” The sentence closes on its most serious thought.</p>\n<p>Thoreau uses ordinary words (“woods,” “live,” “die”) for a philosophical claim. The style itself practices the simplicity that the book recommends.</p>"
   }
  ],
  "models": true

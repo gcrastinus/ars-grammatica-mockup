@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/thucydides1"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The author as subject.</strong> <i lang=\"grc\">Θουκυδίδης Ἀθηναῖος ξυνέγραψε</i>: the historian names himself in the third person and states his act at once.</p>\n<p><strong>Participles for reasons.</strong> <i lang=\"grc\">Ἀρξάμενος … ἐλπίσας … τεκμαιρόμενος … ὁρῶν</i>: a chain of participles gives the time and the grounds of his judgment, all depending on the one main verb.</p>\n<p><strong>The claim of greatness.</strong> The war is called <i lang=\"grc\">μέγαν τε … καὶ ἀξιολογώτατον τῶν προγεγενημένων</i>, the greatest of all before it, and the rest of the sentence gives the evidence.</p>\n<p><strong>Compression.</strong> Thucydides packs into one sentence what another historian would give in several. His style is dense and demands slow reading.</p>"
+   "body": "<p><i lang=\"grc\">Θουκυδίδης Ἀθηναῖος ξυνέγραψε</i>: the historian names himself in the third person and states his act at once.</p>\n<p><i lang=\"grc\">Ἀρξάμενος … ἐλπίσας … τεκμαιρόμενος … ὁρῶν</i>: a chain of participles gives the time and the grounds of his judgment, all depending on the one main verb.</p>\n<p>The war is called <i lang=\"grc\">μέγαν τε … καὶ ἀξιολογώτατον τῶν προγεγενημένων</i>, the greatest of all before it, and the rest of the sentence gives the evidence.</p>\n<p>Thucydides packs into one sentence what another historian would give in several. His style is dense and demands slow reading.</p>"
   }
  ],
  "models": true

@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/herodotus"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The title as a sentence.</strong> The work begins by naming itself, its author, and its city: <i lang=\"grc\">Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε</i>. The verb is left out, so the opening has the brevity of an inscription.</p>\n<p><strong>The purpose in two members.</strong> <i lang=\"grc\">Ὡς μήτε … μήτε …</i>: the purpose is stated twice, once for the deeds of men and once for the great works, and each member ends with <i lang=\"grc\">γένηται</i>.</p>\n<p><strong>Greeks and barbarians.</strong> <i lang=\"grc\">Τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι</i> sets the two peoples side by side, the subject of the whole history.</p>\n<p><strong>The cause last.</strong> The last member, <i lang=\"grc\">δι’ ἣν αἰτίην ἐπολέμησαν ἀλλήλοισι</i>, names the question the work will answer: the cause of the war.</p>"
+   "body": "<p>The work begins by naming itself, its author, and its city: <i lang=\"grc\">Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε</i>. The verb is left out, so the opening has the brevity of an inscription.</p>\n<p><i lang=\"grc\">Ὡς μήτε … μήτε …</i>: the purpose is stated twice, once for the deeds of men and once for the great works, and each member ends with <i lang=\"grc\">γένηται</i>.</p>\n<p><i lang=\"grc\">Τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι</i> sets the two peoples side by side, the subject of the whole history.</p>\n<p>The last member, <i lang=\"grc\">δι’ ἣν αἰτίην ἐπολέμησαν ἀλλήλοισι</i>, names the question the work will answer: the cause of the war.</p>"
   }
  ],
  "models": true

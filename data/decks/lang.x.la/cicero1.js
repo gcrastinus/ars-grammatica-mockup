@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/cicero1"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Three questions without a preface.</strong> Cicero begins at once with three questions, each sharper than the last: how long, how long still, to what end. The absence of an introduction is itself the effect.</p>\n<p><strong>The name in the middle.</strong> The vocative <i lang=\"la\">Catilina</i> stands inside the first question, so that the accused man is named in the midst of the charge.</p>\n<p><strong>Variation in the asking.</strong> <i lang=\"la\">Quo usque</i>, <i lang=\"la\">quam diu</i>, and <i lang=\"la\">quem ad finem</i> ask nearly the same thing in three ways. The repetition with variation drives the point home.</p>\n<p><strong>The subject held to the end.</strong> In the third question the subject, <i lang=\"la\">audacia</i>, comes last, after its adjective and verb, so the period ends on the word for the man’s boldness.</p>"
+   "body": "<p>Cicero begins at once with three questions, each sharper than the last: how long, how long still, to what end. The absence of an introduction is itself the effect.</p>\n<p>The vocative <i lang=\"la\">Catilina</i> stands inside the first question, so that the accused man is named in the midst of the charge.</p>\n<p><i lang=\"la\">Quo usque</i>, <i lang=\"la\">quam diu</i>, and <i lang=\"la\">quem ad finem</i> ask nearly the same thing in three ways. The repetition with variation drives the point home.</p>\n<p>In the third question the subject, <i lang=\"la\">audacia</i>, comes last, after its adjective and verb, so the period ends on the word for the man’s boldness.</p>"
   }
  ],
  "models": true

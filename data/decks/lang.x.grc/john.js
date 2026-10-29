@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/john"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Short clauses joined by καί.</strong> The prologue is built of short clauses joined by <i lang=\"grc\">καί</i>, with few subordinate clauses. The simplicity gives it the sound of a solemn proclamation.</p>\n<p><strong>Repetition linking the clauses.</strong> Each clause takes up a word of the one before: <i lang=\"grc\">λόγος … λόγος</i>, <i lang=\"grc\">ζωή … ζωή</i>, <i lang=\"grc\">φῶς … φῶς</i>. The figure is called climax, a ladder of repeated words.</p>\n<p><strong>Positive and negative.</strong> <i lang=\"grc\">Πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν</i>: the same truth is stated affirmatively and then negatively.</p>\n<p><strong>Light and darkness.</strong> The passage ends with an antithesis, <i lang=\"grc\">τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει</i>, that the whole Gospel will develop.</p>"
+   "body": "<p>The prologue is built of short clauses joined by <i lang=\"grc\">καί</i>, with few subordinate clauses. The simplicity gives it the sound of a solemn proclamation.</p>\n<p>Each clause takes up a word of the one before: <i lang=\"grc\">λόγος … λόγος</i>, <i lang=\"grc\">ζωή … ζωή</i>, <i lang=\"grc\">φῶς … φῶς</i>. The figure is called climax, a ladder of repeated words.</p>\n<p><i lang=\"grc\">Πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν</i>: the same truth is stated affirmatively and then negatively.</p>\n<p>The passage ends with an antithesis, <i lang=\"grc\">τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει</i>, that the whole Gospel will develop.</p>"
   }
  ],
  "models": true

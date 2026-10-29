@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/nachtlied"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The address held back.</strong> The one addressed, <i lang=\"de\">Süßer Friede</i>, is named only in the seventh line, after four lines of relative clauses describing it.</p>\n<p><strong>The relative clauses in the second person.</strong> <i lang=\"de\">Der du von dem Himmel bist</i>: each clause speaks to peace as “you,” so the poem is a prayer from the first line.</p>\n<p><strong>The turn.</strong> <i lang=\"de\">Ach ich bin des Treibens müde!</i>: the speaker turns from describing peace to his own weariness.</p>\n<p><strong>Short lines.</strong> The trochaic lines of four and two beats give the poem the movement of a hymn.</p>"
+   "body": "<p>The one addressed, <i lang=\"de\">Süßer Friede</i>, is named only in the seventh line, after four lines of relative clauses describing it.</p>\n<p><i lang=\"de\">Der du von dem Himmel bist</i>: each clause speaks to peace as “you,” so the poem is a prayer from the first line.</p>\n<p><i lang=\"de\">Ach ich bin des Treibens müde!</i>: the speaker turns from describing peace to his own weariness.</p>\n<p>The trochaic lines of four and two beats give the poem the movement of a hymn.</p>"
   }
  ],
  "models": true

@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/kleist"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The subject put off.</strong> Place and time come first, and the subject, <i lang=\"de\">ein Rosshändler</i>, only then: the reader is placed in the scene before meeting the man.</p>\n<p><strong>Appositions.</strong> The man is named, then described as a schoolmaster’s son, then as one of the most upright and most terrible men of his time.</p>\n<p><strong>The paradox.</strong> <i lang=\"de\">Einer der rechtschaffensten zugleich und entsetzlichsten Menschen</i>: the two superlatives contradict each other, and the story will show how both are true.</p>\n<p><strong>The chronicle style.</strong> The opening imitates the manner of an old chronicle, with dates and places, and so gives the strange story the air of history.</p>"
+   "body": "<p>Place and time come first, and the subject, <i lang=\"de\">ein Rosshändler</i>, only then: the reader is placed in the scene before meeting the man.</p>\n<p>The man is named, then described as a schoolmaster’s son, then as one of the most upright and most terrible men of his time.</p>\n<p><i lang=\"de\">Einer der rechtschaffensten zugleich und entsetzlichsten Menschen</i>: the two superlatives contradict each other, and the story will show how both are true.</p>\n<p>The opening imitates the manner of an old chronicle, with dates and places, and so gives the strange story the air of history.</p>"
   }
  ],
  "models": true

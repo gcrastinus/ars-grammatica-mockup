@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/ronsard"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The future seen from now.</strong> <i lang=\"fr\">Quand vous serez bien vieille</i>: the poet imagines the beloved grown old, and the poem is spoken from the present to the future.</p>\n<p><strong>The scene in participles.</strong> <i lang=\"fr\">Assise auprès du feu, dévidant et filant</i>: the participles paint the old woman by the fire.</p>\n<p><strong>The poet’s name in her mouth.</strong> <i lang=\"fr\">Ronsard me célébrait</i>: the poem ends with the beloved quoting the poet, so his name is remembered through her.</p>\n<p><strong>The argument of the poem.</strong> The sonnet uses the picture of old age to urge the beloved to love now, a theme the Latin poets called <i lang=\"fr\">carpe diem</i>.</p>"
+   "body": "<p><i lang=\"fr\">Quand vous serez bien vieille</i>: the poet imagines the beloved grown old, and the poem is spoken from the present to the future.</p>\n<p><i lang=\"fr\">Assise auprès du feu, dévidant et filant</i>: the participles paint the old woman by the fire.</p>\n<p><i lang=\"fr\">Ronsard me célébrait</i>: the poem ends with the beloved quoting the poet, so his name is remembered through her.</p>\n<p>The sonnet uses the picture of old age to urge the beloved to love now, a theme the Latin poets called <i lang=\"fr\">carpe diem</i>.</p>"
   }
  ],
  "models": true

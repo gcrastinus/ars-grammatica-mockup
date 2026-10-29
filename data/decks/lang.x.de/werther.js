@@ -14,7 +14,7 @@ ARS.decks["lang.x.de/werther"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Exclamations.</strong> The letter begins with three exclamations, not with a statement, and so the novel opens in feeling.</p>\n<p><strong>The infinitive of feeling.</strong> <i lang=\"de\">Dich zu verlassen … und froh zu sein!</i>: the infinitives name the contradiction that Werther feels without making a statement of it.</p>\n<p><strong>The address to the friend.</strong> <i lang=\"de\">Bester Freund</i>: the novel is told in letters, and the friend is addressed as present.</p>\n<p><strong>Short phrases.</strong> The phrases are short and broken, as a man writes when he is moved.</p>"
+   "body": "<p>The letter begins with three exclamations, not with a statement, and so the novel opens in feeling.</p>\n<p><i lang=\"de\">Dich zu verlassen … und froh zu sein!</i>: the infinitives name the contradiction that Werther feels without making a statement of it.</p>\n<p><i lang=\"de\">Bester Freund</i>: the novel is told in letters, and the friend is addressed as present.</p>\n<p>The phrases are short and broken, as a man writes when he is moved.</p>"
   }
  ],
  "models": true

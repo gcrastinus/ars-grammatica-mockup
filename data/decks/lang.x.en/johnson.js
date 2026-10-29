@@ -14,7 +14,7 @@ ARS.decks["lang.x.en/johnson"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The long period of grievance.</strong> The first sentence gathers seven years into one period, from the waiting in the outer rooms to the verge of publication. Its length enacts the length of the labor it describes.</p>\n<p><strong>The closing series.</strong> The period ends with three phrases built alike, “one act of assistance, one word of encouragement, or one smile of favour,” each smaller than the last. The descending scale makes the lack complete.</p>\n<p><strong>The short reply.</strong> “Such treatment I did not expect, for I never had a Patron before.” After the long sentence, the short one, with its object placed first, turns the whole letter into a rebuke.</p>\n<p><strong>Restraint.</strong> Johnson never names his anger. He states facts in order and lets their arrangement carry the feeling, which is the more severe for being controlled.</p>"
+   "body": "<p>The first sentence gathers seven years into one period, from the waiting in the outer rooms to the verge of publication. Its length enacts the length of the labor it describes.</p>\n<p>The period ends with three phrases built alike, “one act of assistance, one word of encouragement, or one smile of favour,” each smaller than the last. The descending scale makes the lack complete.</p>\n<p>“Such treatment I did not expect, for I never had a Patron before.” After the long sentence, the short one, with its object placed first, turns the whole letter into a rebuke.</p>\n<p>Johnson never names his anger. He states facts in order and lets their arrangement carry the feeling, which is the more severe for being controlled.</p>"
   }
  ],
  "models": true

@@ -9,7 +9,7 @@ ARS.decks["lang.ii.de/syllable"] = {
   {
    "id": "syllable-1",
    "title": "The German syllable and vowel length",
-   "body": "<p><strong>The German syllable and vowel length.</strong> A German syllable, like an English one, has one vowel or diphthong at its center, and <i lang=\"de\">ei</i>, <i lang=\"de\">au</i>, <i lang=\"de\">eu</i>, and <i lang=\"de\">äu</i> are diphthongs, so <i lang=\"de\">Bau-er</i> (“farmer”) has two syllables. A German vowel is long or short, and the spelling usually shows which. A vowel is long when it is doubled, as in <i lang=\"de\">See</i> (“lake”); when it is followed by a silent <i lang=\"de\">h</i>, as in <i lang=\"de\">Sohn</i> (“son”); when it is written <i lang=\"de\">ie</i>, as in <i lang=\"de\">Liebe</i> (“love”); and usually when one consonant follows it, as in <i lang=\"de\">Tag</i> (“day”). A vowel before a doubled consonant is short, as in <i lang=\"de\">Mann</i> (“man”) and <i lang=\"de\">Bett</i> (“bed”).</p>",
+   "body": "<p>A German syllable, like an English one, has one vowel or diphthong at its center, and <i lang=\"de\">ei</i>, <i lang=\"de\">au</i>, <i lang=\"de\">eu</i>, and <i lang=\"de\">äu</i> are diphthongs, so <i lang=\"de\">Bau-er</i> (“farmer”) has two syllables. A German vowel is long or short, and the spelling usually shows which. A vowel is long when it is doubled, as in <i lang=\"de\">See</i> (“lake”); when it is followed by a silent <i lang=\"de\">h</i>, as in <i lang=\"de\">Sohn</i> (“son”); when it is written <i lang=\"de\">ie</i>, as in <i lang=\"de\">Liebe</i> (“love”); and usually when one consonant follows it, as in <i lang=\"de\">Tag</i> (“day”). A vowel before a doubled consonant is short, as in <i lang=\"de\">Mann</i> (“man”) and <i lang=\"de\">Bett</i> (“bed”).</p>",
    "qp": {
     "id": "q-de-sy-syllable-1",
     "variants": [
@@ -52,7 +52,7 @@ ARS.decks["lang.ii.de/syllable"] = {
   {
    "id": "syllable-2",
    "title": "German stress",
-   "body": "<p><strong>German stress.</strong> In <i lang=\"de\">SPRE-chen</i> (“to speak”) the stress falls on the first syllable, and in its participle <i lang=\"de\">ge-SPRO-chen</i> (“spoken”) it falls on the second, because <i lang=\"de\">ge-</i> is not part of the stem, the main part of the word without a prefix. German stresses the first syllable of the stem, so it does not follow the Latin law of the penult. The inseparable prefixes <i lang=\"de\">be-</i>, <i lang=\"de\">ge-</i>, <i lang=\"de\">er-</i>, <i lang=\"de\">ver-</i>, and <i lang=\"de\">zer-</i> are never stressed: <i lang=\"de\">ver-STE-hen</i> (“to understand”). A separable prefix, which stands apart from the verb in some forms, takes the stress: <i lang=\"de\">AN-kommen</i> (“to arrive”).</p>",
+   "body": "<p>In <i lang=\"de\">SPRE-chen</i> (“to speak”) the stress falls on the first syllable, and in its participle <i lang=\"de\">ge-SPRO-chen</i> (“spoken”) it falls on the second, because <i lang=\"de\">ge-</i> is not part of the stem, the main part of the word without a prefix. German stresses the first syllable of the stem, so it does not follow the Latin law of the penult. The inseparable prefixes <i lang=\"de\">be-</i>, <i lang=\"de\">ge-</i>, <i lang=\"de\">er-</i>, <i lang=\"de\">ver-</i>, and <i lang=\"de\">zer-</i> are never stressed: <i lang=\"de\">ver-STE-hen</i> (“to understand”). A separable prefix, which stands apart from the verb in some forms, takes the stress: <i lang=\"de\">AN-kommen</i> (“to arrive”).</p>",
    "qp": {
     "id": "q-de-sy-syllable-2",
     "variants": [
@@ -95,7 +95,7 @@ ARS.decks["lang.ii.de/syllable"] = {
   {
    "id": "syllable-3",
    "title": "Compounds and borrowed words",
-   "body": "<p><strong>Compounds and borrowed words.</strong> A compound is usually stressed on its first part: <i lang=\"de\">HAUS-tür</i> (“front door,” from <i lang=\"de\">Haus</i>, “house,” and <i lang=\"de\">Tür</i>, “door”), <i lang=\"de\">BAHN-hof</i> (“train station”). Many borrowed words keep a stress of their own: verbs in <i lang=\"de\">-ieren</i> are stressed on that ending, as in <i lang=\"de\">stu-DIE-ren</i> (“to study”), and nouns in <i lang=\"de\">-ität</i> and <i lang=\"de\">-ei</i> on the last syllable, as in <i lang=\"de\">U-ni-ver-si-TÄT</i> (“university”) and <i lang=\"de\">Bä-cke-REI</i> (“bakery”).</p>",
+   "body": "<p>A compound is usually stressed on its first part: <i lang=\"de\">HAUS-tür</i> (“front door,” from <i lang=\"de\">Haus</i>, “house,” and <i lang=\"de\">Tür</i>, “door”), <i lang=\"de\">BAHN-hof</i> (“train station”). Many borrowed words keep a stress of their own: verbs in <i lang=\"de\">-ieren</i> are stressed on that ending, as in <i lang=\"de\">stu-DIE-ren</i> (“to study”), and nouns in <i lang=\"de\">-ität</i> and <i lang=\"de\">-ei</i> on the last syllable, as in <i lang=\"de\">U-ni-ver-si-TÄT</i> (“university”) and <i lang=\"de\">Bä-cke-REI</i> (“bakery”).</p>",
    "qp": {
     "id": "q-de-sy-syllable-3",
     "variants": [
@@ -138,7 +138,7 @@ ARS.decks["lang.ii.de/syllable"] = {
   {
    "id": "syllable-4",
    "title": "Final devoicing",
-   "body": "<p><strong>Final devoicing.</strong> At the end of a word or a syllable, <i lang=\"de\">b</i>, <i lang=\"de\">d</i>, and <i lang=\"de\">g</i> are pronounced as <i lang=\"de\">p</i>, <i lang=\"de\">t</i>, and <i lang=\"de\">k</i>, although the spelling keeps <i lang=\"de\">b</i>, <i lang=\"de\">d</i>, and <i lang=\"de\">g</i>: <i lang=\"de\">Tag</i> ends with the sound <i lang=\"de\">k</i>, and <i lang=\"de\">Hund</i> (“dog”) with <i lang=\"de\">t</i>. The spelling follows the sound of the other forms of the word, in which a vowel follows the consonant: <i lang=\"de\">Tage</i> (“days”), <i lang=\"de\">Hunde</i> (“dogs”).</p>",
+   "body": "<p>At the end of a word or a syllable, <i lang=\"de\">b</i>, <i lang=\"de\">d</i>, and <i lang=\"de\">g</i> are pronounced as <i lang=\"de\">p</i>, <i lang=\"de\">t</i>, and <i lang=\"de\">k</i>, although the spelling keeps <i lang=\"de\">b</i>, <i lang=\"de\">d</i>, and <i lang=\"de\">g</i>: <i lang=\"de\">Tag</i> ends with the sound <i lang=\"de\">k</i>, and <i lang=\"de\">Hund</i> (“dog”) with <i lang=\"de\">t</i>. The spelling follows the sound of the other forms of the word, in which a vowel follows the consonant: <i lang=\"de\">Tage</i> (“days”), <i lang=\"de\">Hunde</i> (“dogs”).</p>",
    "qp": {
     "id": "q-de-sy-syllable-4",
     "variants": [

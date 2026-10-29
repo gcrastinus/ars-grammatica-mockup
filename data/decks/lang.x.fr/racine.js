@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/racine"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Three verbs in a line.</strong> <i lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</i>: three short verbs in the passé simple give three events in the space of a moment.</p>\n<p><strong>Events and states.</strong> The passé simple of the first lines gives way to the imperfect of states that lasted, <i lang=\"fr\">Mes yeux ne voyaient plus</i>.</p>\n<p><strong>Contraries.</strong> <i lang=\"fr\">et transir et brûler</i>: freezing and burning at once, the contrary signs of passion.</p>\n<p><strong>The regular alexandrine.</strong> The lines keep the pause in the middle and rhyme in pairs, and the strict form contains the violence of the feeling.</p>"
+   "body": "<p><i lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</i>: three short verbs in the passé simple give three events in the space of a moment.</p>\n<p>The passé simple of the first lines gives way to the imperfect of states that lasted, <i lang=\"fr\">Mes yeux ne voyaient plus</i>.</p>\n<p><i lang=\"fr\">et transir et brûler</i>: freezing and burning at once, the contrary signs of passion.</p>\n<p>The lines keep the pause in the middle and rhyme in pairs, and the strict form contains the violence of the feeling.</p>"
   }
  ],
  "models": true

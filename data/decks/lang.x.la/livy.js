@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/livy"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The period built on one verb.</strong> The whole sentence depends on <i lang=\"la\">satis constat</i>, and everything after it is reported in the accusative and infinitive. Livy begins his history not with a story but with what is agreed.</p>\n<p><strong>The circumstance first.</strong> <i lang=\"la\">Troia capta</i>, an ablative absolute, sets the scene in two words before the report begins.</p>\n<p><strong>Two causes joined as companions.</strong> <i lang=\"la\">Et vetusti iure hospitii et quia … auctores fuerunt</i> joins a phrase and a clause with <i lang=\"la\">et … et</i>. Livy varies the construction of the members while keeping their sense parallel.</p>\n<p><strong>The subject held to the end.</strong> <i lang=\"la\">Achivos</i> and the verb <i lang=\"la\">abstinuisse</i> come only at the end of the period, so the reader waits to learn who spared Aeneas and Antenor.</p>"
+   "body": "<p>The whole sentence depends on <i lang=\"la\">satis constat</i>, and everything after it is reported in the accusative and infinitive. Livy begins his history not with a story but with what is agreed.</p>\n<p><i lang=\"la\">Troia capta</i>, an ablative absolute, sets the scene in two words before the report begins.</p>\n<p><i lang=\"la\">Et vetusti iure hospitii et quia … auctores fuerunt</i> joins a phrase and a clause with <i lang=\"la\">et … et</i>. Livy varies the construction of the members while keeping their sense parallel.</p>\n<p><i lang=\"la\">Achivos</i> and the verb <i lang=\"la\">abstinuisse</i> come only at the end of the period, so the reader waits to learn who spared Aeneas and Antenor.</p>"
   }
  ],
  "models": true

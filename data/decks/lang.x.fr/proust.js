@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/proust"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The first sentence.</strong> <i lang=\"fr\">Longtemps, je me suis couché de bonne heure</i>: a plain sentence about a habit opens a very long book, and its tense sums up years in one statement.</p>\n<p><strong>From the passé composé to the imperfect.</strong> The second sentence moves into the imperfect, the tense of what used to happen, and the narrative settles into memory.</p>\n<p><strong>The half-waking state.</strong> The clauses of result and the words in quotation marks, <i lang=\"fr\">« Je m’endors »</i>, catch the moment between waking and sleep, the subject of the opening pages.</p>\n<p><strong>Length held in check.</strong> Proust is known for long sentences, but he begins with short ones, as if to lead the reader gently into the style.</p>"
+   "body": "<p><i lang=\"fr\">Longtemps, je me suis couché de bonne heure</i>: a plain sentence about a habit opens a very long book, and its tense sums up years in one statement.</p>\n<p>The second sentence moves into the imperfect, the tense of what used to happen, and the narrative settles into memory.</p>\n<p>The clauses of result and the words in quotation marks, <i lang=\"fr\">« Je m’endors »</i>, catch the moment between waking and sleep, the subject of the opening pages.</p>\n<p>Proust is known for long sentences, but he begins with short ones, as if to lead the reader gently into the style.</p>"
   }
  ],
  "models": true

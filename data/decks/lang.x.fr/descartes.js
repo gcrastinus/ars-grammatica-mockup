@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/descartes"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The general claim first.</strong> <i lang=\"fr\">Le bon sens est la chose du monde la mieux partagée</i>: the book begins with a maxim, and the rest of the sentence gives its reason.</p>\n<p><strong>Irony in the reason.</strong> The reason given, that everyone thinks himself well provided with good sense, is both a proof and a gentle mockery of human vanity.</p>\n<p><strong>Written in French.</strong> Descartes wrote the <i lang=\"fr\">Discours</i> in French so that readers without Latin could follow it, and his sentences are clear and measured, without the apparatus of the schools.</p>\n<p><strong>The result clause.</strong> <i lang=\"fr\">Si bien pourvu, que …</i>: the clause of result carries the argument to its conclusion within the same sentence.</p>"
+   "body": "<p><i lang=\"fr\">Le bon sens est la chose du monde la mieux partagée</i>: the book begins with a maxim, and the rest of the sentence gives its reason.</p>\n<p>The reason given, that everyone thinks himself well provided with good sense, is both a proof and a gentle mockery of human vanity.</p>\n<p>Descartes wrote the <i lang=\"fr\">Discours</i> in French so that readers without Latin could follow it, and his sentences are clear and measured, without the apparatus of the schools.</p>\n<p><i lang=\"fr\">Si bien pourvu, que …</i>: the clause of result carries the argument to its conclusion within the same sentence.</p>"
   }
  ],
  "models": true

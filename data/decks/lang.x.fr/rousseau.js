@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/rousseau"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>Antithesis.</strong> <i lang=\"fr\">L’homme est né libre, et partout il est dans les fers</i>: birth is set against the present state, freedom against chains.</p>\n<p><strong>Emphasis by order.</strong> <i lang=\"fr\">Partout</i> stands first in the second clause, so the universality of the chains is the stress of the sentence.</p>\n<p><strong>The paradox of the master.</strong> The second sentence turns the antithesis on the master himself, who is more a slave than those he rules.</p>\n<p><strong>The maxim.</strong> Both sentences are short and quotable, and the chapter that follows is an inquiry into them.</p>"
+   "body": "<p>The first sentence is an antithesis. <i lang=\"fr\">L’homme est né libre, et partout il est dans les fers</i>: birth is set against the present state, freedom against chains.</p>\n<p><i lang=\"fr\">Partout</i> stands first in the second clause, so the universality of the chains is the stress of the sentence.</p>\n<p>The second sentence turns the antithesis on the master himself, who is more a slave than those he rules.</p>\n<p>Both sentences are short and quotable, and the chapter that follows is an inquiry into them.</p>"
   }
  ],
  "models": true

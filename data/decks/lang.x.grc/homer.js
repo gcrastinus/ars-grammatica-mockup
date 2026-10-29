@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/homer"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The first word.</strong> <em lang=\"grc\">Μῆνιν</em>, “wrath,” is the first word of the poem, and the poem is about it. The object of the singing stands before the verb.</p>\n<p><strong>The relative clause of consequences.</strong> The wrath is described by what it did: it laid pains on the Achaeans, sent souls to Hades, and made the men a prey for dogs and birds. The consequences grow worse as the clause goes on.</p>\n<p><strong>The will of Zeus.</strong> <em lang=\"grc\">Διὸς δ’ ἐτελείετο βουλή</em>, a short clause in the imperfect, sets the human story inside the purpose of the god.</p>\n<p><strong>The two heroes named last.</strong> The proem ends by naming the two who quarreled, Agamemnon and Achilles, each with an epithet, so that the story can begin with them.</p>"
+   "body": "<p><em lang=\"grc\">Μῆνιν</em>, “wrath,” is the first word of the poem, and the poem is about it. The object of the singing stands before the verb.</p>\n<p>The wrath is described by what it did: it laid pains on the Achaeans, sent souls to Hades, and made the men a prey for dogs and birds. The consequences grow worse as the clause goes on.</p>\n<p><em lang=\"grc\">Διὸς δ’ ἐτελείετο βουλή</em>, a short clause in the imperfect, sets the human story inside the purpose of the god.</p>\n<p>The proem ends by naming the two who quarreled, Agamemnon and Achilles, each with an epithet, so that the story can begin with them.</p>"
   }
  ],
  "models": true

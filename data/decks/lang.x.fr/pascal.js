@@ -14,7 +14,7 @@ ARS.decks["lang.x.fr/pascal"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The image.</strong> <i lang=\"fr\">Un roseau pensant</i>: one image holds the whole thought, the weakness of the reed and the dignity of thought.</p>\n<p><strong>Short and long.</strong> The first sentence is short and balanced on <i lang=\"fr\">mais</i>; the second is longer and explains the weakness; the brevity of the whole gives it the force of a maxim.</p>\n<p><strong>Antithesis.</strong> The entire universe is set against a vapor and a drop of water: the greatest against the least.</p>\n<p><strong>Restraint.</strong> Pascal states the paradox without comment, and leaves the reader to feel its weight.</p>"
+   "body": "<p><i lang=\"fr\">Un roseau pensant</i>: one image holds the whole thought, the weakness of the reed and the dignity of thought.</p>\n<p>The first sentence is short and balanced on <i lang=\"fr\">mais</i>; the second is longer and explains the weakness; the brevity of the whole gives it the force of a maxim.</p>\n<p>By antithesis, the entire universe is set against a vapor and a drop of water: the greatest against the least.</p>\n<p>Pascal states the paradox without comment, and leaves the reader to feel its weight.</p>"
   }
  ],
  "models": true

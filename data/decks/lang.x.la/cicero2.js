@@ -14,7 +14,7 @@ ARS.decks["lang.x.la/cicero2"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The object named first.</strong> <i lang=\"la\">L. Catilinam</i> stands near the beginning, and the verbs are held to the end. The period is built around the man.</p>\n<p><strong>Four participles.</strong> <i lang=\"la\">Furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, … minitantem</i>: each participle has its own complement, and together they make a portrait in motion.</p>\n<p><strong>Three verbs offered as alternatives.</strong> <i lang=\"la\">Vel eiecimus vel emisimus vel … prosecuti sumus</i>: Cicero lets the hearers choose how to describe Catiline’s departure, and the choice itself is a kind of irony.</p>\n<p><strong>Address to the people.</strong> <i lang=\"la\">Quirites</i> marks a speech to the citizens, not to the senate, and the style is fuller and more vivid than in the senate.</p>"
+   "body": "<p><i lang=\"la\">L. Catilinam</i> stands near the beginning, and the verbs are held to the end. The period is built around the man.</p>\n<p><i lang=\"la\">Furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, … minitantem</i>: each participle has its own complement, and together they make a portrait in motion.</p>\n<p><i lang=\"la\">Vel eiecimus vel emisimus vel … prosecuti sumus</i>: Cicero lets the hearers choose how to describe Catiline’s departure, and the choice itself is a kind of irony.</p>\n<p><i lang=\"la\">Quirites</i> marks a speech to the citizens, not to the senate, and the style is fuller and more vivid than in the senate.</p>"
   }
  ],
  "models": true

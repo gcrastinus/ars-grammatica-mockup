@@ -14,7 +14,7 @@ ARS.decks["lang.x.grc/plato"] = {
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><strong>The plain opening.</strong> Socrates begins with an admission of ignorance, <i lang=\"grc\">οὐκ οἶδα</i>, about the effect of the accusers. The tone is conversational, not oratorical.</p>\n<p><strong>Μέν and δέ.</strong> What the jury felt is set against what Socrates himself felt: he almost forgot who he was.</p>\n<p><strong>Irony.</strong> <i lang=\"grc\">Οὕτω πιθανῶς ἔλεγον</i>: the praise of the accusers’ persuasiveness prepares the charge that follows, that they said nothing true.</p>\n<p><strong>The softening phrase.</strong> <i lang=\"grc\">Ὡς ἔπος εἰπεῖν</i>, “so to speak,” qualifies the strong <i lang=\"grc\">οὐδέν</i>. Socrates claims plain speech and practices it.</p>"
+   "body": "<p>Socrates begins with an admission of ignorance, <i lang=\"grc\">οὐκ οἶδα</i>, about the effect of the accusers. The tone is conversational, not oratorical.</p>\n<p>With <em lang=\"grc\">μέν</em> and <em lang=\"grc\">δέ</em>, what the jury felt is set against what Socrates himself felt: he almost forgot who he was.</p>\n<p>The passage is ironic. <i lang=\"grc\">Οὕτω πιθανῶς ἔλεγον</i>: the praise of the accusers’ persuasiveness prepares the charge that follows, that they said nothing true.</p>\n<p><i lang=\"grc\">Ὡς ἔπος εἰπεῖν</i>, “so to speak,” qualifies the strong <i lang=\"grc\">οὐδέν</i>. Socrates claims plain speech and practices it.</p>"
   }
  ],
  "models": true
