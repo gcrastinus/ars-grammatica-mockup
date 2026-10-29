@@ -114,7 +114,7 @@ Reasons for the less obvious choices:
 | **Preliminaries** | | | | |
 | `prelim.definition` | The Definition of Grammar | Essentials | 10 (3 q.p.) |  |
 | `prelim.offices` | The Tasks of the Grammarian | Proficient | 8 (2 q.p.) |  |
-| `prelim.methodice` | Precepts and Interpretation | Proficient | 6 (2 q.p.) |  |
+| `prelim.methodice` | Precepts and Interpretation | Essentials | 6 (2 q.p.) |  |
 | `prelim.criteria` | The Criteria of Correctness | Proficient | 8 (2 q.p.) |  |
 | **I** | | | | |
 | `i.sign` | Sign and Symbol | Essentials | 10 (3 q.p.) |  |
