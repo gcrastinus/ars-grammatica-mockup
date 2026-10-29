@@ -1,4 +1,4 @@
-/* Section Review: Errors [vi.review]  Section review opened from its own button, after VI.4. Written 45 items in three fixed sets. */
+/* Section Review: Correctness and Errors [vi.review]  Section review opened from its own button, after VI.4. Written 45 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vi.review'] = {
@@ -6,7 +6,7 @@ ARS.exercises['vi.review'] = {
  "kind": "review",
  "status": "written",
  "section": "VI",
- "title": "Section Review: Errors",
+ "title": "Section Review: Correctness and Errors",
  "openedFrom": "its own button, after VI.4",
  "covers": [
   {

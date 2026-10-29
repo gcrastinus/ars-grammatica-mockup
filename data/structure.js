@@ -35,7 +35,7 @@ ARS.structure = [
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',
    items:[
    { id:'ii.voice', kind:'study', built:true, title:'Voice (<i>vox</i>)', desc:'Voice as the motion of air perceptible to hearing, and articulate and inarticulate voice.' },
-   { id:'ii.letter', kind:'study', built:true, title:'The Letter and Orthography', desc:'The letter and its accidents (name, figure, and power), and how Latin is spelled and pronounced.' },
+   { id:'ii.letter', kind:'study', built:true, title:'The Letter and Orthography', desc:'The letter and its accidents (name, figure, and power), and the relation of spelling to sound in English and Latin.' },
    { id:'ii.syllable', kind:'study-ex', built:true, title:'The Syllable', desc:'What is a syllable, and how are words divided into syllables in English and in Latin?' },
    { id:'ii.quantity', kind:'study-ex', built:true, title:'Quantity and Accent', desc:'Long and short syllables, the Latin accent, and English stress.' },
    { id:'ii.punctuation', kind:'study', built:true, title:'Punctuation (<i>posituræ</i>)', desc:'The old marks of pause beside the modern ones.' },
@@ -105,7 +105,7 @@ ARS.structure = [
    { id:'vi.barbarism', kind:'study-ex', built:true, title:'Barbarism', desc:'An error in a single word.' },
    { id:'vi.solecism', kind:'study-ex', built:true, title:'Solecism', desc:'An error in the arrangement of words.' },
    { id:'vi.metaplasm', kind:'study-ex', built:true, title:'Metaplasm', desc:'A change in a word permitted for meter or ornament.' },
-   { id:'vi.review', kind:'review', built:true, title:'Section Review: Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
+   { id:'vi.review', kind:'review', built:true, title:'Section Review: Correctness and Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'vi', after:'cumul', heading:'The grammars of the particular languages' }
@@ -116,7 +116,7 @@ ARS.structure = [
    { id:'vii.literal', kind:'study-ex', built:true, title:'Literal and Figurative Sense', desc:'What does a word signify properly, and what does it signify by a figure?' },
    { id:'vii.schemata', kind:'study-ex', built:true, title:'Figures of Words (<i>schemata lexeos</i>)', desc:'Repetition, omission, and arrangement used for effect.' },
    { id:'vii.tropes', kind:'study-ex', built:true, title:'Tropes', desc:'Metaphor, metonymy, synecdoche, and the other changes of meaning.' },
-   { id:'vii.review', kind:'review', built:true, title:'Section Review: Figures', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
+   { id:'vii.review', kind:'review', built:true, title:'Section Review: Figures and Tropes', desc:'Forty-five questions on VII.1 to VII.3, in three fixed sets of fifteen.' }
  ],
  langBars:[
    { id:'vii', after:'cumul', heading:'The grammars of the particular languages' }
@@ -133,7 +133,7 @@ ARS.structure = [
    items:[
    { id:'ix.sentences', kind:'exercise', built:true, recite:true, title:'Analysis of Sentences', desc:'Parsing and construing whole sentences.' },
    { id:'ix.passages', kind:'exercise', built:true, recite:true, title:'Analysis of Passages', desc:'Reading, explaining, and judging passages of prose and poetry.' },
-   { id:'ix.marking', kind:'exercise', built:true, recite:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence whose analysis is stored.' },
+   { id:'ix.marking', kind:'exercise', built:true, recite:true, title:'Workshop and Marking', desc:'Marking every dependence in a sentence, and checking the marks against the analysis.' },
    { id:'ix.review', kind:'review', built:true, title:'Section Review: Analysis', desc:'Thirty questions on the method of IX.1 to IX.3, in three fixed sets of ten.' }
  ],
  langBars:[

@@ -117,7 +117,7 @@ ARS.decks['ii.syllable'] = {
 { id: 'latin-division-1',
   title: 'Dividing a Latin word: one consonant and two',
   body: `<p>When a single consonant stands between two vowels, it goes with the following vowel. So <i>rota</i> (“wheel”) is divided <i>ro-ta</i>, <i>lupus</i> (“wolf”) is <i>lu-pus</i>, and <i>amor</i> (“love”) is <i>a-mor</i>. In each case the syllable before the consonant is open. So Latin <i>habet</i> (“he has”) is divided <i>ha-bet</i>, whereas English “habit,” as we noted earlier, is divided “hab-it,” because in English a stressed short vowel does not end a syllable.</p>
-<p>When two consonants stand between two vowels, they are usually divided, the first going with the preceding vowel and the second with the following one. So <i>fortis</i> (“brave”) is <i>for-tis</i>, <i>magnus</i> (“great”) is <i>mag-nus</i>, and <i>mittō</i> (“I send”) is <i>mit-tō</i>. When three consonants stand together, usually the last goes with the following vowel, as in <i>sanc-tus</i> (“holy”). In each case the syllable before the consonants is closed.</p>`,
+<p>When two consonants stand between two vowels, they are usually divided, the first going with the preceding vowel and the second with the following one. So <i>fortis</i> (“brave”) is <i>for-tis</i>, <i>magnus</i> (“great”) is <i>mag-nus</i>, and <i>mittō</i> (“I send”) is <i>mit-tō</i>. When three consonants stand together, usually the last goes with the following vowel, as in <i>sānc-tus</i> (“holy”). In each case the syllable before the consonants is closed.</p>`,
   src: `Allen and Greenough, <i>New Latin Grammar</i> § 7; Allen, <i>Vox Latina</i>, in paraphrase.` },
 
 { id: 'latin-division-2',

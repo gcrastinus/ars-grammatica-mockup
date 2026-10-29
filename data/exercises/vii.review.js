@@ -1,4 +1,4 @@
-/* Section Review: Figures [vii.review]  Section review opened from its own button, after VII.3. Written 45 items in three fixed sets. */
+/* Section Review: Figures and Tropes [vii.review]  Section review opened from its own button, after VII.3. Written 45 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vii.review'] = {
@@ -6,7 +6,7 @@ ARS.exercises['vii.review'] = {
  "kind": "review",
  "status": "written",
  "section": "VII",
- "title": "Section Review: Figures",
+ "title": "Section Review: Figures and Tropes",
  "openedFrom": "its own button, after VII.3",
  "covers": [
   {
