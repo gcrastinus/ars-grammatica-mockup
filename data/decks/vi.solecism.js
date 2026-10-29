@@ -29,7 +29,7 @@ ARS.decks['vi.solecism'] = {
     `The remedy for a solecism is to restore the construction that the rule requires.`,
     `English handbooks name several errors of construction that are not errors of accident but of arrangement.`,
     `A <strong>sentence fragment</strong> presents a subordinate clause or a phrase as a sentence.`,
-    `A <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark.`,
+    `A <strong>comma splice</strong> joins two independent clauses with a comma alone, and a <strong>run-on</strong> (or fused) <strong>sentence</strong> joins them with no mark at all.`,
     `A <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on.`,
     `An <strong>unclear pronoun</strong> has no clear antecedent.`,
     `Each of these is a failure of the relations of construction: the fragment fails in completeness, the run-on in the joining of clauses, the dangling modifier in dependence, and the unclear pronoun in the reference that agreement presupposes.`,
@@ -94,7 +94,7 @@ ARS.decks['vi.solecism'] = {
 { id: 'english',
   title: 'Common errors of construction in English',
   body: `<p>English handbooks name several errors of construction that are not errors of accident but of arrangement:</p>
-<p>a <strong>sentence fragment</strong> presents a subordinate clause or a phrase as a sentence: “Because the gate was shut.”;<br>a <strong>run-on sentence</strong> or <strong>comma splice</strong> joins two independent clauses without a proper conjunction or mark: “The gate was shut, we went home”;<br>a <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on: “Walking into the room, the lamp fell over”;<br>an <strong>unclear pronoun</strong>, as we saw in Section III, has no clear antecedent: “When the vase struck the shelf, it cracked.”</p>
+<p>a <strong>sentence fragment</strong> presents a subordinate clause or a phrase as a sentence: “Because the gate was shut.”;<br>a <strong>comma splice</strong> joins two independent clauses with a comma alone: “The gate was shut, we went home”;<br>a <strong>run-on</strong> (or fused) <strong>sentence</strong> joins them with no mark at all: “The gate was shut we went home”;<br>a <strong>dangling modifier</strong> is a participial phrase with no word in the sentence to depend on: “Walking into the room, the lamp fell over”;<br>an <strong>unclear pronoun</strong>, as we saw in Section III, has no clear antecedent: “When the vase struck the shelf, it cracked.”</p>
 <p>Each of these is a failure of the relations studied in Section V. The fragment fails in completeness, the run-on in the joining of clauses, the dangling modifier in dependence, and the unclear pronoun in the reference that agreement presupposes.</p>`,
   src: `Standard English handbooks, in paraphrase.`,
   qp: { id: 'q-english', variants: [

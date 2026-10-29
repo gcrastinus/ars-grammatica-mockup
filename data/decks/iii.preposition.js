@@ -23,7 +23,7 @@ ARS.decks['iii.preposition'] = {
     `With the accusative they signify motion toward a place, and with the ablative rest in a place, a difference that English shows by two prepositions (“into” and “in”).`,
     `So case and preposition together signify a relation that neither signifies alone, which shows why the preposition’s one accident is case.`,
     `English prepositions are more numerous than Latin ones, because English uses them where Latin uses case endings: “of” for the genitive, “to” and “for” for the dative, and “by,” “with,” and “from” for the ablative.`,
-    `An English preposition takes its object in the objective case when the object is a pronoun, and careful usage prefers “for her and me” to “for her and I.”`,
+    `An English preposition takes its object in the objective case when the object is a pronoun, so “for her and me” is correct and “for her and I” is an error of case.`,
     `English also allows a preposition at the end of a clause; some writers since the seventeenth century have objected to this on the model of Latin, but the usage is long established in English and is found in its best writers.`,
     `Prepositions are used not only as separate words but in <strong>composition</strong>, that is, joined to the beginning of other words, where each changes the meaning.`,
     `This is why Donatus says that the preposition, placed before other parts of speech, completes, changes, or lessens their meaning.`,
@@ -78,7 +78,7 @@ ARS.decks['iii.preposition'] = {
 { id: 'english',
   title: 'English prepositions',
   body: `<p>English prepositions are more numerous than Latin ones, because English uses them where Latin uses case endings: “of” where Latin uses the genitive, “to” and “for” where Latin uses the dative, and “by,” “with,” and “from” where Latin uses the ablative. Common English prepositions are “at,” “by,” “for,” “from,” “in,” “into,” “of,” “on,” “to,” “with,” “between,” and “through.”</p>
-<p>An English preposition takes its object in the objective case when the object is a pronoun: “to him,” “with them,” and “for her and me,” which careful usage prefers to “for her and I.” English also allows a preposition at the end of a clause, as in “the house that I live in” or “What are you looking at?” Some writers on English since the seventeenth century have objected to this on the model of Latin, where the preposition is placed before its noun; but the usage is long established in English and is found in its best writers.</p>`,
+<p>An English preposition takes its object in the objective case when the object is a pronoun: “to him,” “with them,” and “for her and me,” not “for her and I,” which is an error of case. English also allows a preposition at the end of a clause, as in “the house that I live in” or “What are you looking at?” Some writers on English since the seventeenth century have objected to this on the model of Latin, where the preposition is placed before its noun; but the usage is long established in English and is found in its best writers.</p>`,
   src: `Standard English grammars, in paraphrase.` },
 
 { id: 'composition',

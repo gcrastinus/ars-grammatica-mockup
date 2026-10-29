@@ -780,7 +780,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-64",
    "title": "A dative of the one who suffers loss",
-   "body": "<p><em lang=\"de\">dem war Vater und Mutter gestorben</em>: <em lang=\"de\">Dem</em>, dative, takes up the girl, so the sense is “to whom father and mother had died.” <em lang=\"de\">War … gestorben</em> is the past perfect with <em lang=\"de\">sein</em>, as with verbs of change, and the singular <em lang=\"de\">war</em> treats the pair as one.</p>"
+   "body": "<p><em lang=\"de\">dem war Vater und Mutter gestorben</em>: <em lang=\"de\">Dem</em>, dative, takes up the girl. As in <em lang=\"de\">der war arm</em>, the verb stays second, so <em lang=\"de\">dem</em> is a demonstrative, and the sense is “to her father and mother had died.” <em lang=\"de\">War … gestorben</em> is the past perfect with <em lang=\"de\">sein</em>, as with verbs of change, and the singular <em lang=\"de\">war</em> treats the pair as one.</p>"
   },
   {
    "id": "prose-65",

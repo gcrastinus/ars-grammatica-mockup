@@ -387,7 +387,7 @@ ARS.decks['xi.traditions'] = {
 
 { id: 'sentence-example',
   title: 'A Sanskrit sentence',
-  body: `<p>The sentence <i>rāmaḥ vanaṃ gacchati</i>, “Rāma goes to the forest,” shows the kārakas at work. <i>Rāmaḥ</i> is the agent, marked by the first ending, which corresponds to our nominative; <i>vanam</i> (“forest”) is the object, the place he wishes to reach, marked by the second ending, which corresponds to our accusative; and <i>gacchati</i> is the verb, formed from the root <i>gam</i> with the ending of the third person singular present.</p>
+  body: `<p>The sentence <i>rāmo vanaṃ gacchati</i> (word by word, without sandhi, <i>rāmaḥ vanam gacchati</i>), “Rāma goes to the forest,” shows the kārakas at work. <i>Rāmaḥ</i> is the agent, marked by the first ending, which corresponds to our nominative; <i>vanam</i> (“forest”) is the object, the place he wishes to reach, marked by the second ending, which corresponds to our accusative; and <i>gacchati</i> is the verb, formed from the root <i>gam</i> with the ending of the third person singular present.</p>
 <p>Because the endings mark the roles, Sanskrit, like Latin, can change the order of the words without changing the sense. The Indian explanation of this freedom is the marking of the kārakas by endings; ours is the marking of construction by cases. The two accounts describe the same fact from different starting points: the Indian from the action and its factors, ours from the noun and its accidents.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i>, in paraphrase.` },
 

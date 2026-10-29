@@ -685,8 +685,8 @@ ARS.decks["lang.ix.la/poetry"] = {
   },
   {
    "id": "poetry-68",
-   "title": "Venantius Fortunatus, <em lang=\"la\">Vexilla regis</em> 1–8 · Iambic dimeter",
-   "body": "<p lang=\"la\">Vexilla regis prodeunt,<br>fulget crucis mysterium,<br>quo carne carnis conditor<br>suspensus est patibulo.<br>Quo vulneratus insuper<br>mucrone diro lanceae,<br>ut nos lavaret crimine,<br>manavit unda et sanguine.</p><p>The banners of the king go forth,<br>the mystery of the cross shines,<br>on which the maker of flesh, in the flesh,<br>was hung on the gibbet.<br>Where, wounded moreover<br>by the cruel point of the lance,<br>that he might wash us from sin,<br>he flowed with water and blood.</p><p><strong>Context.</strong> Venantius Fortunatus, a poet of sixth-century Gaul, wrote this hymn when a relic of the cross was brought to Poitiers. It was later sung in Passiontide. The meter is the iambic dimeter of the Ambrosian hymns.</p>",
+   "title": "Venantius Fortunatus, <em lang=\"la\">Vexilla regis</em>, stanzas 1 and 3 · Iambic dimeter",
+   "body": "<p lang=\"la\">Vexilla regis prodeunt,<br>fulget crucis mysterium,<br>quo carne carnis conditor<br>suspensus est patibulo.<br>Quo vulneratus insuper<br>mucrone diro lanceae,<br>ut nos lavaret crimine,<br>manavit unda et sanguine.</p><p>The banners of the king go forth,<br>the mystery of the cross shines,<br>on which the maker of flesh, in the flesh,<br>was hung on the gibbet.<br>Where, wounded moreover<br>by the cruel point of the lance,<br>that he might wash us from sin,<br>he flowed with water and blood.</p><p><strong>Context.</strong> Venantius Fortunatus, a poet of sixth-century Gaul, wrote this hymn when a relic of the cross was brought to Poitiers. It was later sung in Passiontide. The two stanzas given here are the first and third of Fortunatus’s hymn; the Roman Breviary sings them as the first and second. The meter is the iambic dimeter of the Ambrosian hymns.</p>",
    "qp": {
     "id": "q-la-ixv-poetry-68",
     "variants": [

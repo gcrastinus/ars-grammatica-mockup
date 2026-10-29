@@ -198,7 +198,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-16",
    "title": "Luther, <em lang=\"de\">Ein feste Burg ist unser Gott</em> 1–4 · Iambic, eight- and seven-syllable lines",
-   "body": "<p lang=\"de\">Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A mighty fortress is our God,<br>a good defense and weapons.<br>He helps us free out of all the need<br>that has now befallen us.</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the adjective after <em lang=\"de\">ein</em> has no ending, and the subordinate clause puts its helping verb before its participle.</p>",
+   "body": "<p lang=\"de\">Ein feste Burg ist unser Gott,<br>Ein gute Wehr und Waffen.<br>Er hilft uns frei aus aller Not,<br>Die uns jetzt hat betroffen.</p><p>A mighty fortress is our God,<br>a good defense and weapons.<br>He helps us free out of all the need<br>that has now befallen us.</p><p><strong>Context.</strong> This is Luther’s hymn. His German is older than ours, so the article <em lang=\"de\">ein</em> stands without the feminine ending of modern <em lang=\"de\">eine</em>, and the subordinate clause puts its helping verb before its participle.</p>",
    "qp": {
     "id": "q-de-ixv-poetry-16",
     "variants": [
@@ -576,7 +576,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-46",
    "title": "Rinkart, <em lang=\"de\">Nun danket alle Gott</em> 1–4 · Iambic trimeter, six and seven syllables",
-   "body": "<p lang=\"de\">Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now all of you give thanks to God<br>with hearts, mouth, and hands,<br>who does great things<br>to us and everywhere,</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>",
+   "body": "<p lang=\"de\">Nun danket alle Gott<br>Mit Herzen, Mund und Händen,<br>Der große Dinge tut<br>An uns und allen Enden,</p><p>Now all of you give thanks to God<br>with heart, mouth, and hands,<br>who does great things<br>to us and everywhere,</p><p><strong>Context.</strong> This is a hymn from the time of the Thirty Years’ War. Winkworth’s version is the one still sung in English.</p>",
    "qp": {
     "id": "q-de-ixv-poetry-46",
     "variants": [
@@ -624,7 +624,7 @@ ARS.decks["lang.ix.de/poetry"] = {
   {
    "id": "poetry-48",
    "title": "Mit and the dative",
-   "body": "<p><em lang=\"de\">Mit Herzen, Mund und Händen</em>: After <em lang=\"de\">mit</em> (“with”) all three nouns are dative: <em lang=\"de\">Herzen</em> is an older dative of <em lang=\"de\">Herz</em> (“heart”), and <em lang=\"de\">Händen</em> (“hands”) is dative plural.</p>"
+   "body": "<p><em lang=\"de\">Mit Herzen, Mund und Händen</em>: After <em lang=\"de\">mit</em> (“with”) all three nouns are dative: <em lang=\"de\">Herzen</em> is the dative singular of <em lang=\"de\">Herz</em> (“heart”), which declines irregularly (<em lang=\"de\">dem Herzen</em>); <em lang=\"de\">Mund</em> is dative singular without an ending, and <em lang=\"de\">Händen</em> (“hands”) is dative plural.</p>"
   },
   {
    "id": "poetry-49",
