@@ -320,7 +320,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Elle apprend le français ___ lisant des journaux.</i> (“She is learning French by reading newspapers”).",
-   "explain": "<i lang=\"fr\">En</i> takes the present participle: the gérondif.",
+   "explain": "<i lang=\"fr\">En</i> takes the present participle: the <i lang=\"fr\">gérondif</i>.",
    "options": [
     "<i lang=\"fr\">par</i>",
     "<i lang=\"fr\">pour</i>",

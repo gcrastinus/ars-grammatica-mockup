@@ -111,7 +111,7 @@ ARS.decks["lang.iii-indecl.fr/compared"] = {
       "explain": "“The garden gate”: <i lang=\"fr\">du</i> is the contraction of <i lang=\"fr\">de le</i>."
      },
      {
-      "prompt": "Choose the pronoun: <i lang=\"fr\">Tu as des frères? Oui, j’___ ai deux</i> (“Yes, I have two”).",
+      "prompt": "Choose the pronoun: <i lang=\"fr\">Tu as des frères ? Oui, j’___ ai deux</i> (“Yes, I have two”).",
       "options": [
        "<i lang=\"fr\">en</i>",
        "<i lang=\"fr\">y</i>",
@@ -122,7 +122,7 @@ ARS.decks["lang.iii-indecl.fr/compared"] = {
       "explain": "<i lang=\"fr\">En</i> stands for <i lang=\"fr\">de</i> with what follows, and keeps the number: <i lang=\"fr\">j’en ai deux</i>."
      },
      {
-      "prompt": "Choose the pronoun: <i lang=\"fr\">Tu vas à Lyon? Oui, j’___ vais demain</i>.",
+      "prompt": "Choose the pronoun: <i lang=\"fr\">Tu vas à Lyon ? Oui, j’___ vais demain</i>.",
       "options": [
        "<i lang=\"fr\">en</i>",
        "<i lang=\"fr\">y</i>",

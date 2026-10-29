@@ -96,7 +96,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
       "prompt": "What tense is <em lang=\"fr\">avait déclose</em>?",
       "options": [
        "Pluperfect",
-       "Passé composé, like <em lang=\"fr\">a perdu</em> after it",
+       "<i lang=\"fr\">Passé composé</i>, like <em lang=\"fr\">a perdu</em> after it",
        "Imperfect",
        "Future perfect"
       ],
@@ -421,7 +421,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
      {
       "prompt": "What tense are <em lang=\"fr\">célébrait</em> and <em lang=\"fr\">étais</em>?",
       "options": [
-       "Passé simple, of single events",
+       "<i lang=\"fr\">Passé simple</i>, of single events",
        "Imperfect",
        "Conditional",
        "Future"

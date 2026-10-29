@@ -95,7 +95,7 @@ ARS.decks["lang.iii-decl.fr/participle"] = {
   {
    "id": "avoir",
    "title": "Agreement with <i lang=\"fr\">avoir</i>",
-   "body": "<p>With <i lang=\"fr\">avoir</i>, the past participle does not agree with the subject: <i lang=\"fr\">elles ont chanté</i>. But it agrees with a direct object that stands before the verb. The direct object stands before the verb in three common cases: as an object pronoun (<i lang=\"fr\">ces chansons, je les ai chantées</i>), as the relative <i lang=\"fr\">que</i> (<i lang=\"fr\">les chansons que j’ai chantées</i>), and after <i lang=\"fr\">quel</i> or <i lang=\"fr\">combien de</i> in a question (<i lang=\"fr\">quelles chansons as-tu chantées?</i>). When the direct object follows the verb, there is no agreement: <i lang=\"fr\">j’ai chanté les chansons</i>.</p>\n<p>There is no agreement with <i lang=\"fr\">en</i>, which is not a direct object of definite gender: <i lang=\"fr\">des chansons, j’en ai chanté</i>. The rule is chiefly a rule of writing, since in most participles the agreement is silent, but it is heard in participles such as <i lang=\"fr\">écrite</i>, <i lang=\"fr\">prise</i>, <i lang=\"fr\">mise</i>, <i lang=\"fr\">faite</i>, and <i lang=\"fr\">ouverte</i>.</p>",
+   "body": "<p>With <i lang=\"fr\">avoir</i>, the past participle does not agree with the subject: <i lang=\"fr\">elles ont chanté</i>. But it agrees with a direct object that stands before the verb. The direct object stands before the verb in three common cases: as an object pronoun (<i lang=\"fr\">ces chansons, je les ai chantées</i>), as the relative <i lang=\"fr\">que</i> (<i lang=\"fr\">les chansons que j’ai chantées</i>), and after <i lang=\"fr\">quel</i> or <i lang=\"fr\">combien de</i> in a question (<i lang=\"fr\">quelles chansons as-tu chantées ?</i>). When the direct object follows the verb, there is no agreement: <i lang=\"fr\">j’ai chanté les chansons</i>.</p>\n<p>There is no agreement with <i lang=\"fr\">en</i>, which is not a direct object of definite gender: <i lang=\"fr\">des chansons, j’en ai chanté</i>. The rule is chiefly a rule of writing, since in most participles the agreement is silent, but it is heard in participles such as <i lang=\"fr\">écrite</i>, <i lang=\"fr\">prise</i>, <i lang=\"fr\">mise</i>, <i lang=\"fr\">faite</i>, and <i lang=\"fr\">ouverte</i>.</p>",
    "qp": {
     "id": "q-fr-ptc-avoir",
     "variants": [
@@ -125,7 +125,7 @@ ARS.decks["lang.iii-decl.fr/participle"] = {
       "prompt": "Why is there no agreement in <i lang=\"fr\">des pommes, j’en ai mangé</i>?",
       "options": [
        "The direct object follows the verb here",
-       "<i lang=\"fr\">Manger</i> takes <i lang=\"fr\">être</i> in the passé composé",
+       "<i lang=\"fr\">Manger</i> takes <i lang=\"fr\">être</i> in the <i lang=\"fr\">passé composé</i>",
        "Participles never agree when the auxiliary is <i lang=\"fr\">avoir</i>",
        "<i lang=\"fr\">En</i> is not a direct object of definite gender"
       ],
@@ -138,7 +138,7 @@ ARS.decks["lang.iii-decl.fr/participle"] = {
   {
    "id": "pronominal",
    "title": "Pronominal verbs and the present participle",
-   "body": "<p>Pronominal verbs take <i lang=\"fr\">être</i>, but their participle agrees with the reflexive pronoun when that pronoun is the direct object: <i lang=\"fr\">elle s’est lavée</i> (“she washed herself”). When the reflexive is an indirect object, there is no agreement: <i lang=\"fr\">elle s’est lavé les mains</i> (“she washed her hands,” literally “washed the hands for herself”), <i lang=\"fr\">ils se sont parlé</i> (“they spoke to each other,” since one speaks <i>to</i> someone).</p>\n<p>The present participle ends in <i lang=\"fr\">-ant</i> and does not change: <i lang=\"fr\">des enfants obéissant à leurs parents</i> (“children obeying their parents”). The same form used as a mere adjective, the verbal adjective, agrees like an adjective: <i lang=\"fr\">des enfants obéissants</i> (“obedient children”). With <i lang=\"fr\">en</i> it forms the <strong>gérondif</strong>, which tells how or when: <i lang=\"fr\">en chantant</i> (“while singing,” “by singing”).</p>",
+   "body": "<p>Pronominal verbs take <i lang=\"fr\">être</i>, but their participle agrees with the reflexive pronoun when that pronoun is the direct object: <i lang=\"fr\">elle s’est lavée</i> (“she washed herself”). When the reflexive is an indirect object, there is no agreement: <i lang=\"fr\">elle s’est lavé les mains</i> (“she washed her hands,” literally “washed the hands for herself”), <i lang=\"fr\">ils se sont parlé</i> (“they spoke to each other,” since one speaks <i>to</i> someone).</p>\n<p>The present participle ends in <i lang=\"fr\">-ant</i> and does not change: <i lang=\"fr\">des enfants obéissant à leurs parents</i> (“children obeying their parents”). The same form used as a mere adjective, the verbal adjective, agrees like an adjective: <i lang=\"fr\">des enfants obéissants</i> (“obedient children”). With <i lang=\"fr\">en</i> it forms the <strong><i lang=\"fr\">gérondif</i></strong>, which tells how or when: <i lang=\"fr\">en chantant</i> (“while singing,” “by singing”).</p>",
    "qp": {
     "id": "q-fr-ptc-pronominal",
     "variants": [
@@ -168,12 +168,12 @@ ARS.decks["lang.iii-decl.fr/participle"] = {
       "prompt": "What is <i lang=\"fr\">en marchant</i>?",
       "options": [
        "A verbal adjective",
-       "The gérondif, “while walking”",
+       "The <i lang=\"fr\">gérondif</i>, “while walking”",
        "The present participle agreeing with its noun",
        "The past participle"
       ],
       "answer": 1,
-      "explain": "<i lang=\"fr\">En</i> with the present participle forms the gérondif, which tells how or when."
+      "explain": "<i lang=\"fr\">En</i> with the present participle forms the <i lang=\"fr\">gérondif</i>, which tells how or when."
      }
     ]
    }

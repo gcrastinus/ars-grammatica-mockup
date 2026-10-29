@@ -240,7 +240,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Elle est heureuse parce qu’elle ______ gagné.</i> (“She is happy because she has won”).",
-   "explain": "After <i lang=\"fr\">parce que</i> the verb is in the indicative, and the passé composé of gagner is made with <i lang=\"fr\">avoir</i>: <i lang=\"fr\">elle a gagné</i>.",
+   "explain": "After <i lang=\"fr\">parce que</i> the verb is in the indicative, and the <i lang=\"fr\">passé composé</i> of gagner is made with <i lang=\"fr\">avoir</i>: <i lang=\"fr\">elle a gagné</i>.",
    "options": [
     "<i lang=\"fr\">a</i>",
     "<i lang=\"fr\">ait</i>",
@@ -256,7 +256,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si j’______ le livre, je le lirais.</i> (“If I had the book, I would read it”).",
-   "explain": "A condition that is not real is given by <i lang=\"fr\">si</i> with the imparfait, and the result is in the conditional. After <i lang=\"fr\">si</i> meaning if, French does not use the conditional.",
+   "explain": "A condition that is not real is given by <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>, and the result is in the conditional. After <i lang=\"fr\">si</i> meaning if, French does not use the conditional.",
    "options": [
     "<i lang=\"fr\">avais</i>",
     "<i lang=\"fr\">aurais</i>",
@@ -272,7 +272,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si j’avais le livre, je le ______.</i> (“If I had the book, I would read it”).",
-   "explain": "After <i lang=\"fr\">si</i> with the imparfait, the result is in the conditional: <i lang=\"fr\">je lirais</i>. <i lang=\"fr\">Lirai</i> is the future.",
+   "explain": "After <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>, the result is in the conditional: <i lang=\"fr\">je lirais</i>. <i lang=\"fr\">Lirai</i> is the future.",
    "options": [
     "<i lang=\"fr\">lirais</i>",
     "<i lang=\"fr\">lirai</i>",
@@ -288,7 +288,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">S’il ______ roi, il serait heureux.</i> (“If he were king, he would be happy”).",
-   "explain": "The condition is not real, so <i lang=\"fr\">si</i> takes the imparfait: <i lang=\"fr\">s’il était roi</i>. <i lang=\"fr\">Serait</i> is the conditional, which stands in the result.",
+   "explain": "The condition is not real, so <i lang=\"fr\">si</i> takes the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">s’il était roi</i>. <i lang=\"fr\">Serait</i> is the conditional, which stands in the result.",
    "options": [
     "<i lang=\"fr\">était</i>",
     "<i lang=\"fr\">serait</i>",
@@ -320,7 +320,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si tu viens, je ______ content.</i> (“If you come, I will be content”).",
-   "explain": "After <i lang=\"fr\">si</i> with the present, the result about the future is in the future: <i lang=\"fr\">je serai</i>. <i lang=\"fr\">Serais</i> is the conditional, which follows <i lang=\"fr\">si</i> with the imparfait.",
+   "explain": "After <i lang=\"fr\">si</i> with the present, the result about the future is in the future: <i lang=\"fr\">je serai</i>. <i lang=\"fr\">Serais</i> is the conditional, which follows <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>.",
    "options": [
     "<i lang=\"fr\">serai</i>",
     "<i lang=\"fr\">serais</i>",
@@ -336,7 +336,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si la reine parlait, le roi ______.</i> (“If the queen spoke, the king would listen”).",
-   "explain": "After <i lang=\"fr\">si</i> with the imparfait, the result is in the conditional: <i lang=\"fr\">le roi écouterait</i>.",
+   "explain": "After <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>, the result is in the conditional: <i lang=\"fr\">le roi écouterait</i>.",
    "options": [
     "<i lang=\"fr\">écouterait</i>",
     "<i lang=\"fr\">écoutera</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si nous ______ le temps, nous irions à Paris.</i> (“If we had the time, we would go to Paris”).",
-   "explain": "The condition is not real, so <i lang=\"fr\">si</i> takes the imparfait: <i lang=\"fr\">nous avions</i>. <i lang=\"fr\">Aurions</i> is the conditional.",
+   "explain": "The condition is not real, so <i lang=\"fr\">si</i> takes the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">nous avions</i>. <i lang=\"fr\">Aurions</i> is the conditional.",
    "options": [
     "<i lang=\"fr\">avions</i>",
     "<i lang=\"fr\">aurions</i>",
@@ -448,7 +448,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Elle sait que la reine ______ venue.</i> (“She knows that the queen has come”).",
-   "explain": "After <i lang=\"fr\">savoir que</i> the verb is in the indicative, and <i lang=\"fr\">venir</i> forms the passé composé with <i lang=\"fr\">être</i>: <i lang=\"fr\">la reine est venue</i>.",
+   "explain": "After <i lang=\"fr\">savoir que</i> the verb is in the indicative, and <i lang=\"fr\">venir</i> forms the <i lang=\"fr\">passé composé</i> with <i lang=\"fr\">être</i>: <i lang=\"fr\">la reine est venue</i>.",
    "options": [
     "<i lang=\"fr\">est</i>",
     "<i lang=\"fr\">a</i>",
@@ -496,7 +496,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">En ______, il apprend.</i> (“While reading, he learns”).",
-   "explain": "The gérondif is <i lang=\"fr\">en</i> with the present participle, and it says that two actions go on together: <i lang=\"fr\">en lisant</i>.",
+   "explain": "The <i lang=\"fr\">gérondif</i> is <i lang=\"fr\">en</i> with the present participle, and it says that two actions go on together: <i lang=\"fr\">en lisant</i>.",
    "options": [
     "<i lang=\"fr\">lisant</i>",
     "<i lang=\"fr\">lire</i>",
@@ -544,7 +544,7 @@ ARS.exercises["lang.v.fr/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">C’est en ______ qu’on réussit.</i> (“It is by working that one succeeds”).",
-   "explain": "The gérondif, <i lang=\"fr\">en</i> with the present participle, gives the means: <i lang=\"fr\">en travaillant</i>.",
+   "explain": "The <i lang=\"fr\">gérondif</i>, <i lang=\"fr\">en</i> with the present participle, gives the means: <i lang=\"fr\">en travaillant</i>.",
    "options": [
     "<i lang=\"fr\">travaillant</i>",
     "<i lang=\"fr\">travailler</i>",

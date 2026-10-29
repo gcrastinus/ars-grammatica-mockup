@@ -271,7 +271,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Des pommes? J’___ veux trois.</i> (“Apples? I want three of them”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Des pommes ? J’___ veux trois.</i> (“Apples? I want three of them”).",
    "explain": "<i lang=\"fr\">En</i> stands for <i lang=\"fr\">de</i> with what follows and keeps the number.",
    "options": [
     "<i lang=\"fr\">y</i>",
@@ -287,7 +287,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Le musée? Nous ___ allons ce soir.</i> (“The museum? We are going there tonight”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Le musée ? Nous ___ allons ce soir.</i> (“The museum? We are going there tonight”).",
    "explain": "<i lang=\"fr\">Y</i> stands for <i lang=\"fr\">à</i> with a place.",
    "options": [
     "<i lang=\"fr\">en</i>",
@@ -303,7 +303,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Ton projet? J’___ pense souvent.</i> (“Your plan? I often think about it”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Ton projet ? J’___ pense souvent.</i> (“Your plan? I often think about it”).",
    "explain": "<i lang=\"fr\">Penser à</i> with a thing: <i lang=\"fr\">j’y pense</i>.",
    "options": [
     "<i lang=\"fr\">y</i>",
@@ -319,7 +319,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Ta sœur? Je ___ parle souvent.</i> (“Your sister? I often speak to her”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Ta sœur ? Je ___ parle souvent.</i> (“Your sister? I often speak to her”).",
    "explain": "With a person, French uses <i lang=\"fr\">lui</i>, not <i lang=\"fr\">y</i>.",
    "options": [
     "<i lang=\"fr\">y</i>",
@@ -335,7 +335,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "deck": "lang.iii-indecl.fr/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: <i lang=\"fr\">Ce livre? Il ___ parle sans cesse.</i> (“This book? He talks about it constantly”).",
+   "prompt": "Choose the form: <i lang=\"fr\">Ce livre ? Il ___ parle sans cesse.</i> (“This book? He talks about it constantly”).",
    "explain": "<i lang=\"fr\">Parler de</i> with a thing: <i lang=\"fr\">il en parle</i>.",
    "options": [
     "<i lang=\"fr\">y</i>",

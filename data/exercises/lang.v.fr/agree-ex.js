@@ -64,7 +64,7 @@ ARS.exercises["lang.v.fr/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Judge the phrase: <i lang=\"fr\">vieil ami</i>.",
-   "explain": "<i lang=\"fr\">Ami</i> is masculine and singular, and it begins with a vowel. <i lang=\"fr\">Vieil</i> is the masculine singular of <i lang=\"fr\">vieux</i> used before a vowel, so the adjective agrees. Lawless requires that form. (<i lang=\"fr\">vieux</i>, “old”; <i lang=\"fr\">ami</i>, masculine, “friend”)",
+   "explain": "<i lang=\"fr\">Ami</i> is masculine and singular, and it begins with a vowel. <i lang=\"fr\">Vieil</i> is the masculine singular of <i lang=\"fr\">vieux</i> used before a vowel, so the adjective agrees. French requires that form. (<i lang=\"fr\">vieux</i>, “old”; <i lang=\"fr\">ami</i>, masculine, “friend”)",
    "options": [
     "Incorrect: the adjective does not agree in gender",
     "Incorrect: the adjective does not agree in number",
@@ -191,7 +191,7 @@ ARS.exercises["lang.v.fr/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"fr\">La femme a fini le livre.</i>",
-   "explain": "The parts fit, and the passé composé is a finite verb, so the sentence is complete. Whether she has in fact finished is not asked.",
+   "explain": "The parts fit, and the <i lang=\"fr\">passé composé</i> is a finite verb, so the sentence is complete. Whether she has in fact finished is not asked.",
    "options": [
     "Congruous but incomplete: the sense is not finished",
     "Incongruous: the parts do not fit with one another",
@@ -281,7 +281,7 @@ ARS.exercises["lang.v.fr/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"fr\">Le roi parlent.</i>",
-   "explain": "<i lang=\"fr\">Roi</i> is singular and <i lang=\"fr\">parlent</i> is plural. The parts do not fit. <i lang=\"fr\">Parlent</i> is a real form, and the fault is the join.",
+   "explain": "<i lang=\"fr\">Roi</i> is singular and <i lang=\"fr\">parlent</i> is plural. The parts do not fit. <i lang=\"fr\">Parlent</i> is a real form, and the error is in the construction.",
    "options": [
     "Congruous and complete: the parts fit and the sense is finished",
     "Congruous but incomplete: the sense is not finished",
@@ -296,7 +296,7 @@ ARS.exercises["lang.v.fr/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"fr\">Le femme parle.</i>",
-   "explain": "<i lang=\"fr\">Femme</i> is feminine and <i lang=\"fr\">le</i> is masculine. The parts do not fit. Each word is a French form, and the fault is the join.",
+   "explain": "<i lang=\"fr\">Femme</i> is feminine and <i lang=\"fr\">le</i> is masculine. The parts do not fit. Each word is a French form, and the error is in the construction.",
    "options": [
     "Incongruous: the parts do not fit with one another",
     "Congruous and complete: the parts fit and the sense is finished",

@@ -271,7 +271,7 @@ ARS.exercises["lang.vii.fr/figures-ex"] = {
    "deck": "lang.vii.fr/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Phaedra says, “Thanks be to Heav'n, my hands are free from stain. / Would that my soul were innocent as they!” (<em lang=\"fr\">Grâces au ciel, mes mains ne sont point criminelles. / Plût aux dieux que mon cœur fût innocent comme elles!</em>). Do “hands” and “soul” keep their proper sense?",
+   "prompt": "Phaedra says, “Thanks be to Heav’n, my hands are free from stain. / Would that my soul were innocent as they!” (<em lang=\"fr\">Grâces au ciel, mes mains ne sont point criminelles. / Plût aux dieux que mon cœur fût innocent comme elles !</em>). Do “hands” and “soul” keep their proper sense?",
    "explain": "They keep it. Stainless hands are set against a soul that is not innocent. The figure is that opposition, not a new likeness for either word.",
    "options": [
     "No. “Hands” means the hare",

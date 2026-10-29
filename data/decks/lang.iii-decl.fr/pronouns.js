@@ -22,7 +22,7 @@ ARS.decks["lang.iii-decl.fr/pronouns"] = {
        "<i lang=\"fr\">où</i>"
       ],
       "answer": 2,
-      "explain": "The relative is the direct object of <i lang=\"fr\">avons achetée</i>, so it is <i lang=\"fr\">que</i>. (The participle agrees with it, as we will see.)"
+      "explain": "The relative is the direct object of <i lang=\"fr\">avons achetée</i>, so it is <i lang=\"fr\">que</i>."
      },
      {
       "prompt": "Choose the relative: <i lang=\"fr\">l’auteur ___ j’aime les romans</i> (“the author whose novels I love”).",
@@ -138,12 +138,12 @@ ARS.decks["lang.iii-decl.fr/pronouns"] = {
   {
    "id": "interrogative-indefinite",
    "title": "Interrogatives and indefinites",
-   "body": "<p>“Who?” and “what?” are <i lang=\"fr\">qui?</i> and <i lang=\"fr\">que?</i> (or <i lang=\"fr\">quoi?</i> after a preposition and at the end of a phrase): <i lang=\"fr\">Qui vient?</i> (“Who is coming?”), <i lang=\"fr\">Que veux-tu?</i> (“What do you want?”), <i lang=\"fr\">À quoi penses-tu?</i> (“What are you thinking about?”). Spoken French often uses the longer forms <i lang=\"fr\">qui est-ce qui</i>, <i lang=\"fr\">qu’est-ce que</i>. “Which?” before a noun is the adjective <i lang=\"fr\">quel, quelle, quels, quelles</i>: <i lang=\"fr\">Quel livre?</i>; standing alone it is the pronoun <i lang=\"fr\">lequel</i>: <i lang=\"fr\">Lequel préfères-tu?</i> (“Which one do you prefer?”).</p>\n<p>The indefinite pronouns include <i lang=\"fr\">on</i> (“one,” “people,” and in speech “we”), <i lang=\"fr\">quelqu’un</i> (“someone”), <i lang=\"fr\">quelque chose</i> (“something”), <i lang=\"fr\">chacun</i> (“each one”), and the negatives <i lang=\"fr\">personne</i> (“no one”) and <i lang=\"fr\">rien</i> (“nothing”), which go with <i lang=\"fr\">ne</i>: <i lang=\"fr\">Je ne vois personne</i> (“I see no one”); <i lang=\"fr\">Rien n’est arrivé</i> (“Nothing happened”).</p>",
+   "body": "<p>“Who?” and “what?” are <i lang=\"fr\">qui ?</i> and <i lang=\"fr\">que ?</i> (or <i lang=\"fr\">quoi ?</i> after a preposition and at the end of a phrase): <i lang=\"fr\">Qui vient ?</i> (“Who is coming?”), <i lang=\"fr\">Que veux-tu ?</i> (“What do you want?”), <i lang=\"fr\">À quoi penses-tu ?</i> (“What are you thinking about?”). Spoken French often uses the longer forms <i lang=\"fr\">qui est-ce qui</i>, <i lang=\"fr\">qu’est-ce que</i>. “Which?” before a noun is the adjective <i lang=\"fr\">quel, quelle, quels, quelles</i>: <i lang=\"fr\">Quel livre ?</i>; standing alone it is the pronoun <i lang=\"fr\">lequel</i>: <i lang=\"fr\">Lequel préfères-tu ?</i> (“Which one do you prefer?”).</p>\n<p>The indefinite pronouns include <i lang=\"fr\">on</i> (“one,” “people,” and in speech “we”), <i lang=\"fr\">quelqu’un</i> (“someone”), <i lang=\"fr\">quelque chose</i> (“something”), <i lang=\"fr\">chacun</i> (“each one”), and the negatives <i lang=\"fr\">personne</i> (“no one”) and <i lang=\"fr\">rien</i> (“nothing”), which go with <i lang=\"fr\">ne</i>: <i lang=\"fr\">Je ne vois personne</i> (“I see no one”); <i lang=\"fr\">Rien n’est arrivé</i> (“Nothing happened”).</p>",
    "qp": {
     "id": "q-fr-interrogative",
     "variants": [
      {
-      "prompt": "Choose the word: <i lang=\"fr\">___ heure est-il?</i> (“What time is it?”).",
+      "prompt": "Choose the word: <i lang=\"fr\">___ heure est-il ?</i> (“What time is it?”).",
       "options": [
        "<i lang=\"fr\">Que</i>",
        "<i lang=\"fr\">Quelle</i>",
@@ -154,7 +154,7 @@ ARS.decks["lang.iii-decl.fr/pronouns"] = {
       "explain": "Before a noun, “which” or “what” is the adjective <i lang=\"fr\">quel</i>, agreeing with <i lang=\"fr\">heure</i> (feminine): <i lang=\"fr\">quelle</i>."
      },
      {
-      "prompt": "Choose the word: <i lang=\"fr\">Avec ___ écris-tu?</i> (“What are you writing with?”).",
+      "prompt": "Choose the word: <i lang=\"fr\">Avec ___ écris-tu ?</i> (“What are you writing with?”).",
       "options": [
        "<i lang=\"fr\">que</i>",
        "<i lang=\"fr\">quel</i>",

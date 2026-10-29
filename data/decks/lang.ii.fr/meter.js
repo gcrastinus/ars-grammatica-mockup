@@ -127,7 +127,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Villon’s",
        "Verlaine’s",
        "Corneille’s and Racine’s",
-       "Ronsard’s odes’"
+       "Ronsard’s"
       ],
       "answer": 2,
       "explain": "The line of classical tragedy."
@@ -173,7 +173,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "La Fontaine"
       ],
       "answer": 3,
-      "explain": "His fables use free verse of mixed lengths."
+      "explain": "His fables mix rhymed lines of different lengths (<i lang=\"fr\">vers mêlés</i>)."
      }
     ]
    }

@@ -272,7 +272,7 @@ ARS.exercises["lang.v.fr/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">La reine est ______.</i> (“The queen has come”).",
-   "explain": "<i lang=\"fr\">Venir</i> forms the passé composé with <i lang=\"fr\">être</i>, and then the participle agrees with the subject, here feminine singular: <i lang=\"fr\">venue</i>.",
+   "explain": "<i lang=\"fr\">Venir</i> forms the <i lang=\"fr\">passé composé</i> with <i lang=\"fr\">être</i>, and then the participle agrees with the subject, here feminine singular: <i lang=\"fr\">venue</i>.",
    "options": [
     "<i lang=\"fr\">venue</i>",
     "<i lang=\"fr\">venu</i>",
@@ -320,7 +320,7 @@ ARS.exercises["lang.v.fr/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">La reine a ______.</i> (“The queen has spoken”).",
-   "explain": "<i lang=\"fr\">Parler</i> forms the passé composé with <i lang=\"fr\">avoir</i>, and then the participle does not agree with the subject: <i lang=\"fr\">elle a parlé</i>.",
+   "explain": "<i lang=\"fr\">Parler</i> forms the <i lang=\"fr\">passé composé</i> with <i lang=\"fr\">avoir</i>, and then the participle does not agree with the subject: <i lang=\"fr\">elle a parlé</i>.",
    "options": [
     "<i lang=\"fr\">parlé</i>",
     "<i lang=\"fr\">parlée</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.v.fr/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">En ______ le livre, il apprend.</i> (“While reading the book, he learns”).",
-   "explain": "<i lang=\"fr\">En</i> with the present participle, the gérondif, says that two actions go on at the same time: <i lang=\"fr\">en lisant</i>.",
+   "explain": "<i lang=\"fr\">En</i> with the present participle, the <i lang=\"fr\">gérondif</i>, says that two actions go on at the same time: <i lang=\"fr\">en lisant</i>.",
    "options": [
     "<i lang=\"fr\">lisant</i>",
     "<i lang=\"fr\">lire</i>",

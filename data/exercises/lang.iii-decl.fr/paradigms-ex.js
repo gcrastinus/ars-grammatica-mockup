@@ -88,7 +88,7 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"fr\">fou, “mad”</i>. Write the feminine plural.",
-   "explain": "<i lang=\"fr\">Fou</i> has the feminine <i lang=\"fr\">folle</i> (and <i lang=\"fr\">fol</i> before a vowel), like <i lang=\"fr\">vieux</i>, <i lang=\"fr\">vieille</i>.",
+   "explain": "<i lang=\"fr\">Fou</i> has the feminine <i lang=\"fr\">folle</i> (and the masculine <i lang=\"fr\">fol</i> before a vowel), like <i lang=\"fr\">vieux</i>, <i lang=\"fr\">vieille</i>.",
    "accept": [
     "folles"
    ]
@@ -123,8 +123,8 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "deck": "lang.iii-decl.fr/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i lang=\"fr\">chanter, first group, “sing”</i>. Write the imparfait, third person singular.",
-   "explain": "The imparfait adds <i lang=\"fr\">-ait</i> to the stem of <i lang=\"fr\">nous chantons</i>.",
+   "prompt": "<i lang=\"fr\">chanter, first group, “sing”</i>. Write the <i lang=\"fr\">imparfait</i>, third person singular.",
+   "explain": "The <i lang=\"fr\">imparfait</i> adds <i lang=\"fr\">-ait</i> to the stem of <i lang=\"fr\">nous chantons</i>.",
    "accept": [
     "chantait"
    ]
@@ -147,7 +147,7 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "deck": "lang.iii-decl.fr/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i lang=\"fr\">chanter, first group, “sing”</i>. Write the passé composé, third person singular.",
+   "prompt": "<i lang=\"fr\">chanter, first group, “sing”</i>. Write the <i lang=\"fr\">passé composé</i>, third person singular.",
    "explain": "<i lang=\"fr\">Chanter</i> takes <i lang=\"fr\">avoir</i>: <i lang=\"fr\">il a chanté</i>.",
    "accept": [
     "a chanté"
@@ -159,8 +159,8 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "deck": "lang.iii-decl.fr/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i lang=\"fr\">choisir, second group, “choose”</i>. Write the imparfait, third person singular.",
-   "explain": "A verb of the second group keeps <i lang=\"fr\">-iss-</i> in the imparfait, like <i lang=\"fr\">finir</i>.",
+   "prompt": "<i lang=\"fr\">choisir, second group, “choose”</i>. Write the <i lang=\"fr\">imparfait</i>, third person singular.",
+   "explain": "A verb of the second group keeps <i lang=\"fr\">-iss-</i> in the <i lang=\"fr\">imparfait</i>, like <i lang=\"fr\">finir</i>.",
    "accept": [
     "choisissait"
    ]
@@ -248,7 +248,7 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "deck": "lang.iii-decl.fr/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i lang=\"fr\">partir, third group, “leave”</i>. Write the passé composé, third person singular feminine.",
+   "prompt": "<i lang=\"fr\">partir, third group, “leave”</i>. Write the <i lang=\"fr\">passé composé</i>, third person singular feminine.",
    "explain": "<i lang=\"fr\">Partir</i> takes <i lang=\"fr\">être</i>, and the participle agrees with the subject: <i lang=\"fr\">elle est partie</i>.",
    "accept": [
     "est partie"
@@ -272,7 +272,7 @@ ARS.exercises["lang.iii-decl.fr/paradigms-ex"] = {
    "deck": "lang.iii-decl.fr/paradigms-ex",
    "section": "iii",
    "type": "form",
-   "prompt": "<i lang=\"fr\">descendre, third group, “go down”</i>. Write the passé composé, third person plural feminine.",
+   "prompt": "<i lang=\"fr\">descendre, third group, “go down”</i>. Write the <i lang=\"fr\">passé composé</i>, third person plural feminine.",
    "explain": "<i lang=\"fr\">Descendre</i> takes <i lang=\"fr\">être</i>, and the participle agrees: <i lang=\"fr\">elles sont descendues</i>.",
    "accept": [
     "sont descendues"

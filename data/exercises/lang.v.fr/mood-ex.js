@@ -288,7 +288,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the conditional, first person singular, of <i lang=\"fr\">venir</i>.",
-   "explain": "The conditional takes the stem of the future, <i lang=\"fr\">viendr-</i>, and the endings of the imparfait: <i lang=\"fr\">je viendrais</i>.",
+   "explain": "The conditional takes the stem of the future, <i lang=\"fr\">viendr-</i>, and the endings of the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">je viendrais</i>.",
    "options": [
     "<i lang=\"fr\">viendrai</i>",
     "<i lang=\"fr\">venais</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the conditional, third person singular, of <i lang=\"fr\">voir</i>.",
-   "explain": "The conditional takes the stem of the future, <i lang=\"fr\">verr-</i>, and the endings of the imparfait: <i lang=\"fr\">il verrait</i>.",
+   "explain": "The conditional takes the stem of the future, <i lang=\"fr\">verr-</i>, and the endings of the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">il verrait</i>.",
    "options": [
     "<i lang=\"fr\">verrait</i>",
     "<i lang=\"fr\">verra</i>",
@@ -320,7 +320,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the conditional, first person plural, of <i lang=\"fr\">faire</i>.",
-   "explain": "The future stem of <i lang=\"fr\">faire</i> is fer-, and the conditional adds <i lang=\"fr\">-ions</i>: <i lang=\"fr\">nous ferions</i>. <i lang=\"fr\">Ferons</i> is the future, <i lang=\"fr\">faisions</i> the imparfait, and <i lang=\"fr\">fassions</i> the subjunctive.",
+   "explain": "The future stem of <i lang=\"fr\">faire</i> is fer-, and the conditional adds <i lang=\"fr\">-ions</i>: <i lang=\"fr\">nous ferions</i>. <i lang=\"fr\">Ferons</i> is the future, <i lang=\"fr\">faisions</i> the <i lang=\"fr\">imparfait</i>, and <i lang=\"fr\">fassions</i> the subjunctive.",
    "options": [
     "<i lang=\"fr\">ferions</i>",
     "<i lang=\"fr\">ferons</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Si j’étais riche, j’______ une maison.</i> (“If I were rich, I would buy a house”).",
-   "explain": "After <i lang=\"fr\">si</i> with the imparfait, the result is in the conditional: <i lang=\"fr\">j’achèterais</i>. <i lang=\"fr\">Achèterai</i> is the future.",
+   "explain": "After <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>, the result is in the conditional: <i lang=\"fr\">j’achèterais</i>. <i lang=\"fr\">Achèterai</i> is the future.",
    "options": [
     "<i lang=\"fr\">achèterais</i>",
     "<i lang=\"fr\">achèterai</i>",
@@ -384,7 +384,7 @@ ARS.exercises["lang.v.fr/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the conditional, third person plural, of <i lang=\"fr\">parler</i>.",
-   "explain": "The conditional of a verb in <i lang=\"fr\">-er</i> is the infinitive with the endings of the imparfait: <i lang=\"fr\">ils parleraient</i>.",
+   "explain": "The conditional of a verb in <i lang=\"fr\">-er</i> is the infinitive with the endings of the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">ils parleraient</i>.",
    "options": [
     "<i lang=\"fr\">parleraient</i>",
     "<i lang=\"fr\">parleront</i>",

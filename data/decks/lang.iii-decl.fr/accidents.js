@@ -333,7 +333,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "<i lang=\"fr\">sommes</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"fr\">Venir</i> takes <i lang=\"fr\">être</i> in the passé composé."
+      "explain": "<i lang=\"fr\">Venir</i> takes <i lang=\"fr\">être</i> in the <i lang=\"fr\">passé composé</i>."
      },
      {
       "prompt": "Choose the auxiliary: <i lang=\"fr\">Elle ___ mangé</i> (“She ate”).",
@@ -363,7 +363,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
   {
    "id": "accidents-11",
    "title": "The imparfait",
-   "body": "<p>The <strong>imparfait</strong> (“imperfect”) says that the action was going on in the past, or that it was habitual then, so <i lang=\"fr\">il parlait</i> means “he was speaking” or “he used to speak”; the <i lang=\"fr\">passé composé</i> does not by itself say either of these things. Its endings are <i lang=\"fr\">-ais</i>, <i lang=\"fr\">-ais</i>, <i lang=\"fr\">-ait</i>, <i lang=\"fr\">-ions</i>, <i lang=\"fr\">-iez</i>, <i lang=\"fr\">-aient</i>, added to the stem of the first person plural of the present without <i lang=\"fr\">-ons</i>. <i lang=\"fr\">Nous parlions</i> is the imparfait of <i lang=\"fr\">parler</i>, and it is also the present subjunctive, so the rest of the sentence shows which is meant.</p>",
+   "body": "<p>The <strong><i lang=\"fr\">imparfait</i></strong> (“imperfect”) says that the action was going on in the past, or that it was habitual then, so <i lang=\"fr\">il parlait</i> means “he was speaking” or “he used to speak”; the <i lang=\"fr\">passé composé</i> does not by itself say either of these things. Its endings are <i lang=\"fr\">-ais</i>, <i lang=\"fr\">-ais</i>, <i lang=\"fr\">-ait</i>, <i lang=\"fr\">-ions</i>, <i lang=\"fr\">-iez</i>, <i lang=\"fr\">-aient</i>, added to the stem of the first person plural of the present without <i lang=\"fr\">-ons</i>. <i lang=\"fr\">Nous parlions</i> is the <i lang=\"fr\">imparfait</i> of <i lang=\"fr\">parler</i>, and it is also the present subjunctive, so the rest of the sentence shows which is meant.</p>",
    "qp": {
     "id": "q-fr-acc-imparfait",
     "variants": [
@@ -376,10 +376,10 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "“he was working” or “he used to work”"
       ],
       "answer": 3,
-      "explain": "The imparfait presents an action as going on or habitual in the past."
+      "explain": "The <i lang=\"fr\">imparfait</i> presents an action as going on or habitual in the past."
      },
      {
-      "prompt": "From which form is the imparfait built?",
+      "prompt": "From which form is the <i lang=\"fr\">imparfait</i> built?",
       "options": [
        "The first person plural of the present without <i lang=\"fr\">-ons</i>",
        "The infinitive",
@@ -390,7 +390,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
       "explain": "<i lang=\"fr\">Nous finissons</i> gives <i lang=\"fr\">je finissais</i>."
      },
      {
-      "prompt": "What is the imparfait, first person singular, of <i lang=\"fr\">finir</i>?",
+      "prompt": "What is the <i lang=\"fr\">imparfait</i>, first person singular, of <i lang=\"fr\">finir</i>?",
       "options": [
        "<i lang=\"fr\">je finirais</i>",
        "<i lang=\"fr\">je finissais</i>",
@@ -464,7 +464,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
   {
    "id": "accidents-16",
    "title": "Aspect",
-   "body": "<p>French marks a difference of <strong>aspect</strong> in the past, that is, a difference in how the action is presented. The <i lang=\"fr\">passé composé</i>, and the <i lang=\"fr\">passé simple</i> of written narrative, present an action as complete, whereas the imparfait presents it as going on or repeated. <i lang=\"fr\">Il a lu le livre</i> means “he read the book,” and the reading is complete; <i lang=\"fr\">il lisait le livre</i> means “he was reading the book.” A sentence often sets the two side by side: <i lang=\"fr\">il lisait quand le roi est entré</i> (“he was reading when the king came in”). Latin makes the same distinction with the imperfect and the perfect.</p>",
+   "body": "<p>French marks a difference of <strong>aspect</strong> in the past, that is, a difference in how the action is presented. The <i lang=\"fr\">passé composé</i>, and the <i lang=\"fr\">passé simple</i> of written narrative, present an action as complete, whereas the <i lang=\"fr\">imparfait</i> presents it as going on or repeated. <i lang=\"fr\">Il a lu le livre</i> means “he read the book,” and the reading is complete; <i lang=\"fr\">il lisait le livre</i> means “he was reading the book.” A sentence often sets the two side by side: <i lang=\"fr\">il lisait quand le roi est entré</i> (“he was reading when the king came in”). Latin makes the same distinction with the imperfect and the perfect.</p>",
    "qp": {
     "id": "q-fr-acc-aspect",
     "variants": [
@@ -477,21 +477,21 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "<i lang=\"fr\">dort</i>"
       ],
       "answer": 2,
-      "explain": "The imparfait presents the sleeping as going on; the passé composé <i lang=\"fr\">a sonné</i> presents the ringing as a completed event."
+      "explain": "The <i lang=\"fr\">imparfait</i> presents the sleeping as going on; the <i lang=\"fr\">passé composé</i> <i lang=\"fr\">a sonné</i> presents the ringing as a completed event."
      },
      {
       "prompt": "Which French tense corresponds to the Latin imperfect in aspect?",
       "options": [
-       "The passé composé",
-       "The imparfait",
-       "The passé simple",
+       "The <i lang=\"fr\">passé composé</i>",
+       "The <i lang=\"fr\">imparfait</i>",
+       "The <i lang=\"fr\">passé simple</i>",
        "The future"
       ],
       "answer": 1,
       "explain": "Both present an action as going on or repeated in the past."
      },
      {
-      "prompt": "What does the passé composé present?",
+      "prompt": "What does the <i lang=\"fr\">passé composé</i> present?",
       "options": [
        "An action as complete",
        "An action as going on",
@@ -499,7 +499,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "An action as future"
       ],
       "answer": 0,
-      "explain": "The passé composé, like the passé simple of narrative, presents an action as complete."
+      "explain": "The <i lang=\"fr\">passé composé</i>, like the <i lang=\"fr\">passé simple</i> of narrative, presents an action as complete."
      }
     ]
    }
@@ -507,7 +507,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
   {
    "id": "accidents-17",
    "title": "Compound tenses and the passive",
-   "body": "<p>Many French tenses are formed with an auxiliary verb and the past participle. The <i lang=\"fr\">passé composé</i>, the plus-que-parfait (pluperfect), and the futur antérieur (future perfect) use <i lang=\"fr\">avoir</i> or <i lang=\"fr\">être</i>: <i lang=\"fr\">il a parlé</i> (“he has spoken”), <i lang=\"fr\">il avait parlé</i> (“he had spoken”), <i lang=\"fr\">il aura parlé</i> (“he will have spoken”). Most verbs take <i lang=\"fr\">avoir</i>, but a small set of verbs of motion or change of state, such as <i lang=\"fr\">aller</i>, <i lang=\"fr\">venir</i>, <i lang=\"fr\">arriver</i> (“to arrive”), <i lang=\"fr\">partir</i> (“to leave”), and <i lang=\"fr\">naître</i> (“to be born”), take <i lang=\"fr\">être</i>, and then the participle agrees with the subject: <i lang=\"fr\">elle est venue</i> (“she came”). The passive is formed with <i lang=\"fr\">être</i> and the past participle: <i lang=\"fr\">la lettre est écrite par le roi</i> (“the letter is written by the king”). The near future is formed with <i lang=\"fr\">aller</i> and the infinitive: <i lang=\"fr\">il va parler</i> (“he is going to speak”).</p>"
+   "body": "<p>Many French tenses are formed with an auxiliary verb and the past participle. The <i lang=\"fr\">passé composé</i>, the <i lang=\"fr\">plus-que-parfait</i> (pluperfect), and the <i lang=\"fr\">futur antérieur</i> (future perfect) use <i lang=\"fr\">avoir</i> or <i lang=\"fr\">être</i>: <i lang=\"fr\">il a parlé</i> (“he has spoken”), <i lang=\"fr\">il avait parlé</i> (“he had spoken”), <i lang=\"fr\">il aura parlé</i> (“he will have spoken”). Most verbs take <i lang=\"fr\">avoir</i>, but a small set of verbs of motion or change of state, such as <i lang=\"fr\">aller</i>, <i lang=\"fr\">venir</i>, <i lang=\"fr\">arriver</i> (“to arrive”), <i lang=\"fr\">partir</i> (“to leave”), and <i lang=\"fr\">naître</i> (“to be born”), take <i lang=\"fr\">être</i>, and then the participle agrees with the subject: <i lang=\"fr\">elle est venue</i> (“she came”). The passive is formed with <i lang=\"fr\">être</i> and the past participle: <i lang=\"fr\">la lettre est écrite par le roi</i> (“the letter is written by the king”). The near future is formed with <i lang=\"fr\">aller</i> and the infinitive: <i lang=\"fr\">il va parler</i> (“he is going to speak”).</p>"
   },
   {
    "id": "accidents-18",
@@ -560,7 +560,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
   {
    "id": "accidents-20",
    "title": "The conditional and the imperative",
-   "body": "<p>Beside the indicative and the subjunctive, French has the conditional and the imperative. The <strong>conditional</strong> is formed from the stem of the future and the endings of the imparfait: <i lang=\"fr\">je parlerais</i> (“I would speak”). It gives the result of a condition that is not real, after <i lang=\"fr\">si</i> (“if”) with the imparfait, as in <i lang=\"fr\">si j’avais le temps, je parlerais au roi</i> (“if I had the time, I would speak to the king”), and it softens a request, as in <i lang=\"fr\">je voudrais un livre</i> (“I would like a book”). The imperative has three forms and no subject pronoun: <i lang=\"fr\">parle</i>, <i lang=\"fr\">parlons</i>, <i lang=\"fr\">parlez</i> (“speak,” “let us speak,” “speak”). A verb in <i lang=\"fr\">-er</i> has no <i lang=\"fr\">-s</i> in the second person singular of the imperative.</p>",
+   "body": "<p>Beside the indicative and the subjunctive, French has the conditional and the imperative. The <strong>conditional</strong> is formed from the stem of the future and the endings of the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">je parlerais</i> (“I would speak”). It gives the result of a condition that is not real, after <i lang=\"fr\">si</i> (“if”) with the <i lang=\"fr\">imparfait</i>, as in <i lang=\"fr\">si j’avais le temps, je parlerais au roi</i> (“if I had the time, I would speak to the king”), and it softens a request, as in <i lang=\"fr\">je voudrais un livre</i> (“I would like a book”). The imperative has three forms and no subject pronoun: <i lang=\"fr\">parle</i>, <i lang=\"fr\">parlons</i>, <i lang=\"fr\">parlez</i> (“speak,” “let us speak,” “speak”). A verb in <i lang=\"fr\">-er</i> has no <i lang=\"fr\">-s</i> in the second person singular of the imperative.</p>",
    "qp": {
     "id": "q-fr-acc-conditional",
     "variants": [
@@ -573,7 +573,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "<i lang=\"fr\">je puisse</i>"
       ],
       "answer": 2,
-      "explain": "The conditional is the future stem <i lang=\"fr\">pourr-</i> with the endings of the imparfait."
+      "explain": "The conditional is the future stem <i lang=\"fr\">pourr-</i> with the endings of the <i lang=\"fr\">imparfait</i>."
      },
      {
       "prompt": "Choose the form: <i lang=\"fr\">Si j’étais riche, j’___ un bateau</i> (“If I were rich, I would buy a boat”).",
@@ -584,7 +584,7 @@ ARS.decks["lang.iii-decl.fr/accidents"] = {
        "<i lang=\"fr\">achète</i>"
       ],
       "answer": 1,
-      "explain": "After <i lang=\"fr\">si</i> with the imparfait, the result is in the conditional."
+      "explain": "After <i lang=\"fr\">si</i> with the <i lang=\"fr\">imparfait</i>, the result is in the conditional."
      },
      {
       "prompt": "What is the second person singular imperative of <i lang=\"fr\">chanter</i>?",

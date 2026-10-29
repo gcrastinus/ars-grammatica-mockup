@@ -151,7 +151,7 @@ ARS.decks["lang.v.fr/clauses"] = {
        "“in the reading room”"
       ],
       "answer": 2,
-      "explain": "The gerund tells what the subject was doing at the same time."
+      "explain": "The <i lang=\"fr\">gérondif</i> tells what the subject was doing at the same time."
      },
      {
       "prompt": "What does <i lang=\"fr\">ayant compris</i> express in <i lang=\"fr\">Ayant compris, il a souri</i>?",

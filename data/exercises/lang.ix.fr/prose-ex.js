@@ -84,12 +84,12 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">je pris garde</em> is in…",
-   "explain": "<em lang=\"fr\">Pris</em> is the passé simple of <em lang=\"fr\">prendre</em>, the tense of narrative events in written French. for a single past event",
+   "explain": "<em lang=\"fr\">Pris</em> is the <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">prendre</em>, the tense of narrative events in written French. for a single past event",
    "options": [
-    "The passé simple",
+    "The <i lang=\"fr\">passé simple</i>",
     "The imperfect, for what was going on",
     "The present, for what is always true",
-    "The passé composé of speech"
+    "The <i lang=\"fr\">passé composé</i> of speech"
    ],
    "answer": 0,
    "passageRef": "prose-6"
@@ -290,7 +290,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "prompt": "<em lang=\"fr\">est né</em> is…",
    "explain": "<em lang=\"fr\">Naître</em> is one of the verbs that form the compound past with <em lang=\"fr\">être</em>.",
    "options": [
-    "The passé composé of <em lang=\"fr\">naître</em>",
+    "The <i lang=\"fr\">passé composé</i> of <em lang=\"fr\">naître</em>",
     "A present passive: is borne",
     "An adjective with <em lang=\"fr\">est</em>",
     "An imperfect"
@@ -378,7 +378,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
     "Its subject <em lang=\"fr\">qui</em> stands for <em lang=\"fr\">les objets</em>",
     "<em lang=\"fr\">États-Unis</em> is plural",
     "<em lang=\"fr\">Mon attention</em> is its subject",
-    "Every passé composé is plural"
+    "Every <i lang=\"fr\">passé composé</i> is plural"
    ],
    "answer": 0,
    "passageRef": "prose-29"
@@ -424,7 +424,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">étions</em> is in the imperfect because…",
-   "explain": "The imperfect sets the background; the passé simple gives the event.",
+   "explain": "The imperfect sets the background; the <i lang=\"fr\">passé simple</i> gives the event.",
    "options": [
     "It describes the scene",
     "It is a single completed event",
@@ -441,9 +441,9 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">entra</em> is…",
-   "explain": "The ending <em lang=\"fr\">-a</em> in the third person singular marks the passé simple of the first conjugation.",
+   "explain": "The ending <em lang=\"fr\">-a</em> in the third person singular marks the <i lang=\"fr\">passé simple</i> of the first conjugation.",
    "options": [
-    "The passé simple of <em lang=\"fr\">entrer</em>",
+    "The <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">entrer</em>",
     "The imperfect of <em lang=\"fr\">entrer</em>",
     "The future of <em lang=\"fr\">entrer</em>",
     "A past participle"
@@ -631,7 +631,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "explain": "<em lang=\"fr\">Avoir</em> with the past participle, as an infinitive, puts the action before the main verb. having taught",
    "options": [
     "The past infinitive",
-    "The passé composé: I taught",
+    "The <i lang=\"fr\">passé composé</i>: I taught",
     "A present infinitive",
     "A past participle used alone"
    ],
@@ -699,8 +699,8 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "explain": "<em lang=\"fr\">Connaît</em> is the present: Pascal states something always true.",
    "options": [
     "The present",
-    "The passé simple",
-    "The imparfait",
+    "The <i lang=\"fr\">passé simple</i>",
+    "The <i lang=\"fr\">imparfait</i>",
     "The future"
    ],
    "answer": 0,
@@ -832,7 +832,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">je me suis couché</em> takes <em lang=\"fr\">suis</em> because…",
-   "explain": "Reflexive verbs form the passé composé with <em lang=\"fr\">être</em>.",
+   "explain": "Reflexive verbs form the <i lang=\"fr\">passé composé</i> with <em lang=\"fr\">être</em>.",
    "options": [
     "<em lang=\"fr\">Se coucher</em> is reflexive",
     "<em lang=\"fr\">Coucher</em> is a verb of motion",

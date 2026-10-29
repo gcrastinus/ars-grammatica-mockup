@@ -19,7 +19,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "explain": "<em lang=\"fr\">Prendre</em> forms its compound past with <em lang=\"fr\">avoir</em>, so <em lang=\"fr\">est pris</em> is the passive present: the plan is made.",
    "options": [
     "Passive: is taken",
-    "The passé composé of <em lang=\"fr\">prendre</em> with <em lang=\"fr\">être</em>",
+    "The <i lang=\"fr\">passé composé</i> of <em lang=\"fr\">prendre</em> with <em lang=\"fr\">être</em>",
     "An imperfect",
     "A reflexive verb"
    ],
@@ -118,9 +118,9 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"fr\">A point perdu</em></p> <em lang=\"fr\">a … perdu</em> is…",
-   "explain": "<em lang=\"fr\">A</em> with the participle <em lang=\"fr\">perdu</em> is the passé composé; its subject is <em lang=\"fr\">la rose</em>. has lost",
+   "explain": "<em lang=\"fr\">A</em> with the participle <em lang=\"fr\">perdu</em> is the <i lang=\"fr\">passé composé</i>; its subject is <em lang=\"fr\">la rose</em>. has lost",
    "options": [
-    "The passé composé",
+    "The <i lang=\"fr\">passé composé</i>",
     "The present: has",
     "The pluperfect: had lost",
     "A passive: is lost"
@@ -239,7 +239,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "prompt": "<em lang=\"fr\">a laissié</em> is…",
    "explain": "<em lang=\"fr\">Avoir</em> with the past participle; <em lang=\"fr\">laissié</em> is the old spelling of <em lang=\"fr\">laissé</em>. has left off",
    "options": [
-    "The passé composé",
+    "The <i lang=\"fr\">passé composé</i>",
     "The future: will leave",
     "The imperfect: was leaving",
     "The present: leaves"
@@ -509,7 +509,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">en vous émerveillant</em> is…",
-   "explain": "<em lang=\"fr\">En</em> with the participle in <em lang=\"fr\">-ant</em> is the gerund, saying how or while.",
+   "explain": "<em lang=\"fr\">En</em> with the participle in <em lang=\"fr\">-ant</em> is the <i lang=\"fr\">gérondif</i>, saying how or while.",
    "options": [
     "A gerund: while marveling",
     "A preposition with a noun",
@@ -611,9 +611,9 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"fr\">rougis</em> is…",
-   "explain": "The passé simple of <em lang=\"fr\">rougir</em>, a single completed event.",
+   "explain": "The <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">rougir</em>, a single completed event.",
    "options": [
-    "Passé simple: I blushed",
+    "<i lang=\"fr\">Passé simple</i>: I blushed",
     "Present: I blush",
     "Imperfect: I was blushing",
     "Past participle"
@@ -644,8 +644,8 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Why the imperfect <em lang=\"fr\">voyaient</em> and not the passé simple?",
-   "explain": "The imperfect gives the condition; the passé simple gives the events.",
+   "prompt": "Why the imperfect <em lang=\"fr\">voyaient</em> and not the <i lang=\"fr\">passé simple</i>?",
+   "explain": "The imperfect gives the condition; the <i lang=\"fr\">passé simple</i> gives the events.",
    "options": [
     "It describes a state",
     "It is a single completed event",

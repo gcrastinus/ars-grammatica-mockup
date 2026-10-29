@@ -228,8 +228,8 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "deck": "lang.iii-decl.fr/subjunctive-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which form can be either the imparfait or the present subjunctive?",
-   "explain": "In the first and second persons plural, the present subjunctive of most verbs is the same as the imparfait.",
+   "prompt": "Which form can be either the <i lang=\"fr\">imparfait</i> or the present subjunctive?",
+   "explain": "In the first and second persons plural, the present subjunctive of most verbs is the same as the <i lang=\"fr\">imparfait</i>.",
    "options": [
     "<i lang=\"fr\">je chante</i>",
     "<i lang=\"fr\">ils chantent</i>",
@@ -273,9 +273,9 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"fr\">qu’il chantât</i>?",
-   "explain": "The circumflex and the subjunctive ending mark the literary imperfect subjunctive; the passé simple is <i lang=\"fr\">il chanta</i>.",
+   "explain": "The circumflex and the subjunctive ending mark the literary imperfect subjunctive; the <i lang=\"fr\">passé simple</i> is <i lang=\"fr\">il chanta</i>.",
    "options": [
-    "The passé simple",
+    "The <i lang=\"fr\">passé simple</i>",
     "The present subjunctive",
     "The pluperfect subjunctive",
     "The imperfect subjunctive"
@@ -305,7 +305,7 @@ ARS.exercises["lang.iii-decl.fr/subjunctive-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the imperfect subjunctive, third person singular, of <i lang=\"fr\">faire</i> (with <i lang=\"fr\">qu’il</i>).",
-   "explain": "The imperfect subjunctive is built on the passé simple <i lang=\"fr\">il fit</i>, with a circumflex in the third person singular: <i lang=\"fr\">qu’il fît</i>.",
+   "explain": "The imperfect subjunctive is built on the <i lang=\"fr\">passé simple</i> <i lang=\"fr\">il fit</i>, with a circumflex in the third person singular: <i lang=\"fr\">qu’il fît</i>.",
    "accept": [
     "qu’il fît",
     "qu'il fît",

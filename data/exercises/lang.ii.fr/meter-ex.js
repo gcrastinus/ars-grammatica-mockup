@@ -82,7 +82,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "prompt": "A feminine rhyme ends in…",
    "explain": "The name refers to the mute <em lang=\"fr\">e</em>, not to grammatical gender.",
    "options": [
-    "A mute e",
+    "A mute <i lang=\"fr\">e</i>",
     "A feminine noun",
     "A stressed vowel",
     "A consonant"
@@ -133,7 +133,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
     "It is counted, because it ends the word",
     "It makes a feminine rhyme inside the phrase",
     "It is elided, and not counted",
-    "It is a dieresis, two syllables for one vowel"
+    "It is a diaeresis, which divides two vowels"
    ],
    "answer": 2
   },
@@ -274,7 +274,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "prompt": "A masculine rhyme, such as <em lang=\"fr\">sœur</em> / <em lang=\"fr\">douceur</em>, ends on…",
    "explain": "A masculine rhyme ends on a sounded syllable, here the <em lang=\"fr\">r</em> of <em lang=\"fr\">sœur</em> and <em lang=\"fr\">douceur</em>; a feminine rhyme ends on a mute <em lang=\"fr\">e</em>.",
    "options": [
-    "A mute e",
+    "A mute <i lang=\"fr\">e</i>",
     "A feminine noun",
     "A sounded vowel or consonant",
     "The caesura"

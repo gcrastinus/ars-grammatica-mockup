@@ -96,7 +96,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “to,” not “has”?",
-   "explain": "<em lang=\"fr\">À</em> means “to.” <em lang=\"fr\">A</em> means “has.” The accent is the difference, so the choice has to show it.",
+   "explain": "<em lang=\"fr\">À</em> means “to.” <em lang=\"fr\">A</em> means “has.” The accent is the only difference between the two words.",
    "options": [
     "<em lang=\"fr\">a</em>",
     "<em lang=\"fr\">ou</em>",
@@ -114,7 +114,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "prompt": "What is <em lang=\"fr\">du pain</em>?",
    "explain": "<em lang=\"fr\">Du pain</em> is the partitive, “some bread,” an unmeasured amount. It is not the negation, which would be <em lang=\"fr\">pas de pain</em>.",
    "options": [
-    "Some bread, the partitive",
+    "“Some bread,” the partitive",
     "“Not any bread,” the form after a negation",
     "“Much bread,” the form after <em lang=\"fr\">beaucoup</em>",
     "“Good friends,” with an adjective before the noun"
@@ -224,7 +224,7 @@ ARS.exercises["lang.vi.fr/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Which word means “where,” not “or”?",
-   "explain": "<em lang=\"fr\">Où</em> means “where.” <em lang=\"fr\">Ou</em> means “or.” A typed answer would lose the accent, so the choice has to show it.",
+   "explain": "<em lang=\"fr\">Où</em> means “where.” <em lang=\"fr\">Ou</em> means “or.” The accent is the only difference between the two words.",
    "options": [
     "<em lang=\"fr\">ou</em>",
     "<em lang=\"fr\">où</em>",

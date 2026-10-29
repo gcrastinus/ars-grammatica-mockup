@@ -400,7 +400,7 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Il ______ parlé au roi.</i> (“He spoke to the king”).",
-   "explain": "<i lang=\"fr\">Parler</i> forms the passé composé with <i lang=\"fr\">avoir</i>, and <i lang=\"fr\">il</i> takes a.",
+   "explain": "<i lang=\"fr\">Parler</i> forms the <i lang=\"fr\">passé composé</i> with <i lang=\"fr\">avoir</i>, and <i lang=\"fr\">il</i> takes a.",
    "options": [
     "<i lang=\"fr\">a</i>",
     "<i lang=\"fr\">est</i>",
@@ -416,7 +416,7 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Elle ______ venue hier.</i> (“She came yesterday”).",
-   "explain": "<i lang=\"fr\">Venir</i> forms the passé composé with <i lang=\"fr\">être</i>, and <i lang=\"fr\">elle</i> takes <i lang=\"fr\">est</i>.",
+   "explain": "<i lang=\"fr\">Venir</i> forms the <i lang=\"fr\">passé composé</i> with <i lang=\"fr\">être</i>, and <i lang=\"fr\">elle</i> takes <i lang=\"fr\">est</i>.",
    "options": [
     "<i lang=\"fr\">est</i>",
     "<i lang=\"fr\">a</i>",
@@ -432,7 +432,7 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Nous avons ______ la lettre.</i> (“We finished the letter”).",
-   "explain": "The passé composé is <i lang=\"fr\">avoir</i> with the past participle, and the participle of <i lang=\"fr\">finir</i> is <i lang=\"fr\">fini</i>.",
+   "explain": "The <i lang=\"fr\">passé composé</i> is <i lang=\"fr\">avoir</i> with the past participle, and the participle of <i lang=\"fr\">finir</i> is <i lang=\"fr\">fini</i>.",
    "options": [
     "<i lang=\"fr\">fini</i>",
     "<i lang=\"fr\">finissons</i>",
@@ -480,7 +480,7 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">La reine ______ quand le roi est entré.</i> (“The queen was speaking when the king came in”).",
-   "explain": "The imparfait presents the speaking as going on when the other action happened: <i lang=\"fr\">elle parlait</i>. A <i lang=\"fr\">parlé</i> would present it as a complete act.",
+   "explain": "The <i lang=\"fr\">imparfait</i> presents the speaking as going on when the other action happened: <i lang=\"fr\">elle parlait</i>. A <i lang=\"fr\">parlé</i> would present it as a complete act.",
    "options": [
     "<i lang=\"fr\">parlait</i>",
     "<i lang=\"fr\">a parlé</i>",
@@ -496,7 +496,7 @@ ARS.exercises["lang.iii-decl.fr/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"fr\">Il ______ le travail chaque jour.</i> (“He used to do the work every day”).",
-   "explain": "A habit in the past is given by the imparfait: <i lang=\"fr\">il faisait</i>.",
+   "explain": "A habit in the past is given by the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">il faisait</i>.",
    "options": [
     "<i lang=\"fr\">faisait</i>",
     "<i lang=\"fr\">a fait</i>",

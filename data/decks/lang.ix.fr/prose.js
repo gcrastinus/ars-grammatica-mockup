@@ -80,7 +80,7 @@ ARS.decks["lang.ix.fr/prose"] = {
       "prompt": "What tense are <em lang=\"fr\">voulais</em> and <em lang=\"fr\">était</em>?",
       "options": [
        "Imperfect",
-       "Passé simple, of single past events",
+       "<i lang=\"fr\">Passé simple</i>, of single past events",
        "Present",
        "Conditional"
       ],
@@ -431,9 +431,9 @@ ARS.decks["lang.ix.fr/prose"] = {
      {
       "prompt": "What tense is <em lang=\"fr\">portait</em>?",
       "options": [
-       "Passé simple, like <em lang=\"fr\">entra</em>",
+       "<i lang=\"fr\">Passé simple</i>, like <em lang=\"fr\">entra</em>",
        "Present",
-       "Passé composé",
+       "<i lang=\"fr\">Passé composé</i>",
        "Imperfect"
       ],
       "answer": 3,
@@ -542,7 +542,7 @@ ARS.decks["lang.ix.fr/prose"] = {
       "prompt": "What is <em lang=\"fr\">être fondées</em>?",
       "options": [
        "A passive infinitive",
-       "A passé composé with <em lang=\"fr\">être</em>",
+       "A <i lang=\"fr\">passé composé</i> with <em lang=\"fr\">être</em>",
        "A present participle",
        "A subjunctive"
       ],
@@ -823,7 +823,7 @@ ARS.decks["lang.ix.fr/prose"] = {
     "id": "q-fr-ixp-prose-64",
     "variants": [
      {
-      "prompt": "What does <em lang=\"fr\">longtemps</em> do with the passé composé in the first sentence?",
+      "prompt": "What does <em lang=\"fr\">longtemps</em> do with the <i lang=\"fr\">passé composé</i> in the first sentence?",
       "options": [
        "It sums up a long stretch of the past",
        "It marks a single moment in the past",

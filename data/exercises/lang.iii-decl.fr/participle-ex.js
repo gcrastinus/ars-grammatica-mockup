@@ -320,7 +320,7 @@ ARS.exercises["lang.iii-decl.fr/participle-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il lit ___.</i> (“He reads while eating”).",
-   "explain": "<i lang=\"fr\">En</i> with the present participle forms the gérondif.",
+   "explain": "<i lang=\"fr\">En</i> with the present participle forms the <i lang=\"fr\">gérondif</i>.",
    "options": [
     "<i lang=\"fr\">mangeant</i>",
     "<i lang=\"fr\">en ayant mangé</i>",

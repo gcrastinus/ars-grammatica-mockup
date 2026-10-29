@@ -76,7 +76,7 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"fr\"><b>Une</b> jardin est grand.</em>",
-   "explain": "<em lang=\"fr\">Jardin</em> (“garden”) is masculine. The article is <em lang=\"fr\">un</em>. <em lang=\"fr\">Une</em> is a real feminine article, and <em lang=\"fr\">grand</em> already agrees with the masculine noun. The error is the join.",
+   "explain": "<em lang=\"fr\">Jardin</em> (“garden”) is masculine. The article is <em lang=\"fr\">un</em>. <em lang=\"fr\">Une</em> is a real feminine article, and <em lang=\"fr\">grand</em> already agrees with the masculine noun. The error is in the construction.",
    "options": [
     "A barbarism: <em lang=\"fr\">jardin</em> is not a French word",
     "A solecism of gender",
@@ -151,7 +151,7 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"fr\">Elle parle avec <b>je</b>.</em>",
-   "explain": "<em lang=\"fr\">Je</em> is a real subject form, and <em lang=\"fr\">avec</em> is a real preposition. A preposition takes the stressed form, which is <em lang=\"fr\">moi</em>. The error is the join.",
+   "explain": "<em lang=\"fr\">Je</em> is a real subject form, and <em lang=\"fr\">avec</em> is a real preposition. A preposition takes the stressed form, which is <em lang=\"fr\">moi</em>. The error is in the construction.",
    "options": [
     "A solecism: <em lang=\"fr\">avec</em> takes <em lang=\"fr\">moi</em>",
     "A barbarism: <em lang=\"fr\">je</em> is not a French word",
@@ -181,7 +181,7 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"fr\">C’est <b>je</b>.</em>",
-   "explain": "<em lang=\"fr\">Je</em> is the subject form. After <em lang=\"fr\">c’est</em> the form is <em lang=\"fr\">moi</em>: <em lang=\"fr\">c’est moi</em>. Both words are real, and the join fails.",
+   "explain": "<em lang=\"fr\">Je</em> is the subject form. After <em lang=\"fr\">c’est</em> the form is <em lang=\"fr\">moi</em>: <em lang=\"fr\">c’est moi</em>. Both words are real, and the construction fails.",
    "options": [
     "No error: <em lang=\"fr\">c’est je</em> is the ordinary phrase",
     "A barbarism: <em lang=\"fr\">c’est</em> is not French",
@@ -256,7 +256,7 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"fr\">Un <b>beau</b> ami vient.</em>",
-   "explain": "<em lang=\"fr\">Beau</em> and <em lang=\"fr\">ami</em> are both real forms. Before a masculine singular noun that begins with a vowel, the form is <em lang=\"fr\">bel</em>. The error is the join.",
+   "explain": "<em lang=\"fr\">Beau</em> and <em lang=\"fr\">ami</em> are both real forms. Before a masculine singular noun that begins with a vowel, the form is <em lang=\"fr\">bel</em>. The error is in the construction.",
    "options": [
     "No error: <em lang=\"fr\">beau</em> is the form used before every masculine noun",
     "A solecism: the form is <em lang=\"fr\">bel</em>",
@@ -271,7 +271,7 @@ ARS.exercises["lang.vi.fr/vices-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error? <em lang=\"fr\">Elle parle <b>à le</b> professeur.</em>",
-   "explain": "<em lang=\"fr\">À</em> and <em lang=\"fr\">le</em> are real words, and they contract before a masculine singular noun: <em lang=\"fr\">au professeur</em>. The error is the join.",
+   "explain": "<em lang=\"fr\">À</em> and <em lang=\"fr\">le</em> are real words, and they contract before a masculine singular noun: <em lang=\"fr\">au professeur</em>. The error is in the construction.",
    "options": [
     "A barbarism: <em lang=\"fr\">professeur</em> is feminine",
     "No error: <em lang=\"fr\">à le</em> is the ordinary phrase",

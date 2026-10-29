@@ -9,7 +9,7 @@ ARS.decks["lang.v.fr/order"] = {
   {
    "id": "order-1",
    "title": "Word order",
-   "body": "<p>French nouns, like English nouns, have no endings that show whether they are the subject or the object, so French shows the subject and the object mainly by their place. The ordinary order is subject, verb, object: <i lang=\"fr\">le roi voit la reine</i> (“the king sees the queen”), and <i lang=\"fr\">la reine voit le roi</i> (“the queen sees the king”) says the reverse. An object pronoun, however, stands before the verb, whereas in English it follows the verb: <i lang=\"fr\">le roi la voit</i> (“the king sees her”). A question can put the subject pronoun after the verb: <i lang=\"fr\">voit-il la reine?</i> (“does he see the queen?”). Latin can change its order much more freely, because its endings show the case.</p>",
+   "body": "<p>French nouns, like English nouns, have no endings that show whether they are the subject or the object, so French shows the subject and the object mainly by their place. The ordinary order is subject, verb, object: <i lang=\"fr\">le roi voit la reine</i> (“the king sees the queen”), and <i lang=\"fr\">la reine voit le roi</i> (“the queen sees the king”) says the reverse. An object pronoun, however, stands before the verb, whereas in English it follows the verb: <i lang=\"fr\">le roi la voit</i> (“the king sees her”). A question can put the subject pronoun after the verb: <i lang=\"fr\">voit-il la reine ?</i> (“does he see the queen?”). Latin can change its order much more freely, because its endings show the case.</p>",
    "qp": {
     "id": "q-fr-order-order",
     "variants": [

@@ -119,7 +119,7 @@ ARS.decks["lang.v.fr/voice"] = {
        "“running”"
       ],
       "answer": 3,
-      "explain": "The gerund tells what the subject did at the same time: “he arrived running.”"
+      "explain": "The <i lang=\"fr\">gérondif</i> tells what the subject did at the same time: “he arrived running.”"
      },
      {
       "prompt": "Which sentence is correct for “she was born in May”?",

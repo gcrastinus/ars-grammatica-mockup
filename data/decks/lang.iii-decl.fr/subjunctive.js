@@ -9,7 +9,7 @@ ARS.decks["lang.iii-decl.fr/subjunctive"] = {
   {
    "id": "present",
    "title": "The present subjunctive",
-   "body": "<p>English says “It is necessary that he be ready,” using the form “be” where an ordinary statement would have “is.” French uses a separate set of forms, the subjunctive, far more often than English: <i lang=\"fr\">il faut qu’il soit prêt</i>. The present subjunctive of most verbs is formed from the stem of the third person plural of the present indicative, with the endings <i lang=\"fr\">-e</i>, <i lang=\"fr\">-es</i>, <i lang=\"fr\">-e</i>, <i lang=\"fr\">-ions</i>, <i lang=\"fr\">-iez</i>, <i lang=\"fr\">-ent</i>: <i lang=\"fr\">ils parlent</i>, <i lang=\"fr\">que je parle</i>; <i lang=\"fr\">ils finissent</i>, <i lang=\"fr\">que je finisse</i>; <i lang=\"fr\">ils vendent</i>, <i lang=\"fr\">que je vende</i>; <i lang=\"fr\">ils écrivent</i>, <i lang=\"fr\">que j’écrive</i>.</p>\n<p>Verbs whose stem changes in the present, such as <i lang=\"fr\">venir</i> (<i lang=\"fr\">ils viennent</i>, <i lang=\"fr\">nous venons</i>), keep both stems in the subjunctive: <i lang=\"fr\">que je vienne</i>, but <i lang=\"fr\">que nous venions</i>. In the first and second persons plural the present subjunctive of most verbs is the same as the imparfait: <i lang=\"fr\">que nous parlions</i>, <i lang=\"fr\">nous parlions</i>, and only the sentence shows which is meant.</p>",
+   "body": "<p>English says “It is necessary that he be ready,” using the form “be” where an ordinary statement would have “is.” French uses a separate set of forms, the subjunctive, far more often than English: <i lang=\"fr\">il faut qu’il soit prêt</i>. The present subjunctive of most verbs is formed from the stem of the third person plural of the present indicative, with the endings <i lang=\"fr\">-e</i>, <i lang=\"fr\">-es</i>, <i lang=\"fr\">-e</i>, <i lang=\"fr\">-ions</i>, <i lang=\"fr\">-iez</i>, <i lang=\"fr\">-ent</i>: <i lang=\"fr\">ils parlent</i>, <i lang=\"fr\">que je parle</i>; <i lang=\"fr\">ils finissent</i>, <i lang=\"fr\">que je finisse</i>; <i lang=\"fr\">ils vendent</i>, <i lang=\"fr\">que je vende</i>; <i lang=\"fr\">ils écrivent</i>, <i lang=\"fr\">que j’écrive</i>.</p>\n<p>Verbs whose stem changes in the present, such as <i lang=\"fr\">venir</i> (<i lang=\"fr\">ils viennent</i>, <i lang=\"fr\">nous venons</i>), keep both stems in the subjunctive: <i lang=\"fr\">que je vienne</i>, but <i lang=\"fr\">que nous venions</i>. In the first and second persons plural the present subjunctive of most verbs is the same as the <i lang=\"fr\">imparfait</i>: <i lang=\"fr\">que nous parlions</i>, <i lang=\"fr\">nous parlions</i>, and only the sentence shows which is meant.</p>",
    "qp": {
     "id": "q-fr-subj-present",
     "variants": [
@@ -102,13 +102,13 @@ ARS.decks["lang.iii-decl.fr/subjunctive"] = {
      {
       "prompt": "What is <i lang=\"fr\">qu’il fût</i>?",
       "options": [
-       "The passé simple of <i lang=\"fr\">être</i>",
+       "The <i lang=\"fr\">passé simple</i> of <i lang=\"fr\">être</i>",
        "The imperfect subjunctive of <i lang=\"fr\">être</i>",
        "The present subjunctive of <i lang=\"fr\">être</i>",
        "The future of <i lang=\"fr\">être</i>"
       ],
       "answer": 1,
-      "explain": "The circumflex marks the imperfect subjunctive, <i lang=\"fr\">qu’il fût</i>; the passé simple is <i lang=\"fr\">il fut</i>."
+      "explain": "The circumflex marks the imperfect subjunctive, <i lang=\"fr\">qu’il fût</i>; the <i lang=\"fr\">passé simple</i> is <i lang=\"fr\">il fut</i>."
      },
      {
       "prompt": "How does ordinary modern French render the literary <i lang=\"fr\">il fallait qu’il vînt</i>?",

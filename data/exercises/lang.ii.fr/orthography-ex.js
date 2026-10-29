@@ -320,7 +320,7 @@ ARS.exercises["lang.ii.fr/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "In a French novel, how is a change of speaker often marked?",
-   "explain": "The dash, or tiret, introduces each speech.",
+   "explain": "The dash, or <i lang=\"fr\">tiret</i>, introduces each speech.",
    "options": [
     "By a new chapter",
     "By parentheses",

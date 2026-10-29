@@ -127,7 +127,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">___ livre lis-tu?</i> (“Which book are you reading”).",
+   "prompt": "Choose the word: <i lang=\"fr\">___ livre lis-tu ?</i> (“Which book are you reading”).",
    "explain": "Before a masculine noun, “which” is <i lang=\"fr\">quel</i>.",
    "options": [
     "<i lang=\"fr\">Quel</i>",
@@ -239,7 +239,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">Votre jardin est grand; ___ est petit.</i> (“Your garden is large; ours is small”).",
+   "prompt": "Choose the word: <i lang=\"fr\">Votre jardin est grand ; ___ est petit.</i> (“Your garden is large; ours is small”).",
    "explain": "The possessive pronoun takes the article and agrees with <i lang=\"fr\">jardin</i>: <i lang=\"fr\">le nôtre</i>.",
    "options": [
     "<i lang=\"fr\">notre</i>",
@@ -255,7 +255,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">Il pense à ses parents; je pense ___.</i> (“He thinks of his parents; I think of mine”).",
+   "prompt": "Choose the word: <i lang=\"fr\">Il pense à ses parents ; je pense ___.</i> (“He thinks of his parents; I think of mine”).",
    "explain": "<i lang=\"fr\">À</i> with <i lang=\"fr\">les</i> contracts to <i lang=\"fr\">aux</i>, and <i lang=\"fr\">miens</i> agrees with <i lang=\"fr\">parents</i>, masculine plural.",
    "options": [
     "<i lang=\"fr\">à les miens</i>",
@@ -271,7 +271,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">___ de ces deux robes préfères-tu?</i> (“Which of these two dresses do you prefer”).",
+   "prompt": "Choose the word: <i lang=\"fr\">___ de ces deux robes préfères-tu ?</i> (“Which of these two dresses do you prefer”).",
    "explain": "Standing alone, “which one” is the pronoun <i lang=\"fr\">lequel</i>, agreeing with <i lang=\"fr\">robes</i>: <i lang=\"fr\">laquelle</i>.",
    "options": [
     "<i lang=\"fr\">Laquelle</i>",
@@ -287,7 +287,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">De ___ parles-tu?</i> (“What are you talking about”).",
+   "prompt": "Choose the word: <i lang=\"fr\">De ___ parles-tu ?</i> (“What are you talking about”).",
    "explain": "After a preposition, “what” is <i lang=\"fr\">quoi</i>.",
    "options": [
     "<i lang=\"fr\">que</i>",
@@ -303,7 +303,7 @@ ARS.exercises["lang.iii-decl.fr/pronouns-ex"] = {
    "deck": "lang.iii-decl.fr/pronouns-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the word: <i lang=\"fr\">___ cherches-tu?</i> (“Whom are you looking for”).",
+   "prompt": "Choose the word: <i lang=\"fr\">___ cherches-tu ?</i> (“Whom are you looking for”).",
    "explain": "<i lang=\"fr\">Qui</i> asks about a person, as subject or object.",
    "options": [
     "<i lang=\"fr\">Que</i>",
