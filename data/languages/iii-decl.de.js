@@ -91,7 +91,7 @@ ARS.languages["lang.iii-decl.de"] = {
    "kind": "study",
    "built": true,
    "title": "The German Modal Verbs",
-   "desc": "Their present, their past, and the double infinitive."
+   "desc": "<i lang=\"de\">Können</i>, <i lang=\"de\">müssen</i>, <i lang=\"de\">dürfen</i>, <i lang=\"de\">sollen</i>, <i lang=\"de\">wollen</i>, and <i lang=\"de\">mögen</i>: their present, their past, and the double infinitive."
   },
   {
    "id": "lang.iii-decl.de/modals-ex",

@@ -130,7 +130,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-10",
    "title": "The verb of the question",
-   "body": "<p><em lang=\"fr\">A point perdu cette vesprée</em>: <em lang=\"fr\">A … perdu</em>, passé composé, is the verb of the question: whether the rose has lost. <em lang=\"fr\">Point</em> without <em lang=\"fr\">ne</em> means “at all.” <em lang=\"fr\">Cette vesprée</em>, “this evening,” is an old word.</p>"
+   "body": "<p><em lang=\"fr\">A point perdu cette vesprée</em>: <em lang=\"fr\">A … perdu</em>, <em lang=\"fr\">passé composé</em>, is the verb of the question: whether the rose has lost. <em lang=\"fr\">Point</em> without <em lang=\"fr\">ne</em> means “at all.” <em lang=\"fr\">Cette vesprée</em>, “this evening,” is an old word.</p>"
   },
   {
    "id": "poetry-11",
@@ -251,7 +251,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-19",
    "title": "Subject, verb, object",
-   "body": "<p><em lang=\"fr\">Le temps a laissié son manteau</em>: <em lang=\"fr\">Le temps</em>, “the season” or “the weather,” is the subject. <em lang=\"fr\">A laissié</em> is the passé composé of <em lang=\"fr\">laisser</em>, “has left off,” and <em lang=\"fr\">son manteau</em> its object.</p>"
+   "body": "<p><em lang=\"fr\">Le temps a laissié son manteau</em>: <em lang=\"fr\">Le temps</em>, “the season” or “the weather,” is the subject. <em lang=\"fr\">A laissié</em> is the <em lang=\"fr\">passé composé</em> of <em lang=\"fr\">laisser</em>, “has left off,” and <em lang=\"fr\">son manteau</em> its object.</p>"
   },
   {
    "id": "poetry-20",
@@ -261,7 +261,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-21",
    "title": "A reflexive verb",
-   "body": "<p><em lang=\"fr\">Et s’est vestu de brouderie</em>: <em lang=\"fr\">S’est vestu</em>, “has clothed himself,” is the passé composé of the reflexive <em lang=\"fr\">se vêtir</em>, and so it takes <em lang=\"fr\">être</em>. <em lang=\"fr\">De brouderie</em>, “with embroidery,” tells what he wears.</p>"
+   "body": "<p><em lang=\"fr\">Et s’est vestu de brouderie</em>: <em lang=\"fr\">S’est vestu</em>, “has clothed himself,” is the <em lang=\"fr\">passé composé</em> of the reflexive <em lang=\"fr\">se vêtir</em>, and so it takes <em lang=\"fr\">être</em>. <em lang=\"fr\">De brouderie</em>, “with embroidery,” tells what he wears.</p>"
   },
   {
    "id": "poetry-22",
@@ -513,7 +513,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-41",
    "title": "Racine, <em lang=\"fr\">Phèdre</em> I.3.273–276 · Alexandrine",
-   "body": "<p lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I saw him, I blushed, I grew pale at the sight of him;<br>a trouble arose in my distraught soul;<br>my eyes no longer saw, I could not speak;<br>I felt my whole body both freeze and burn:</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The passé simple gives each event once and complete; the imperfect gives the states that lasted.</p>",
+   "body": "<p lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I saw him, I blushed, I grew pale at the sight of him;<br>a trouble arose in my distraught soul;<br>my eyes no longer saw, I could not speak;<br>I felt my whole body both freeze and burn:</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The <em lang=\"fr\">passé simple</em> gives each event once and complete; the imperfect gives the states that lasted.</p>",
    "qp": {
     "id": "q-fr-ixv-poetry-41",
     "variants": [
@@ -556,12 +556,12 @@ ARS.decks["lang.ix.fr/poetry"] = {
   {
    "id": "poetry-42",
    "title": "Three verbs in the <em lang=\"fr\">passé simple</em>",
-   "body": "<p><em lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</em>: <em lang=\"fr\">Vis</em> (“saw”), <em lang=\"fr\">rougis</em> (“blushed”), and <em lang=\"fr\">pâlis</em> (“grew pale”) are three forms of the passé simple, each a single completed event, one after another. <em lang=\"fr\">Le</em> is the object of <em lang=\"fr\">vis</em>, placed before the verb.</p>"
+   "body": "<p><em lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</em>: <em lang=\"fr\">Vis</em> (“saw”), <em lang=\"fr\">rougis</em> (“blushed”), and <em lang=\"fr\">pâlis</em> (“grew pale”) are three forms of the <em lang=\"fr\">passé simple</em>, each a single completed event, one after another. <em lang=\"fr\">Le</em> is the object of <em lang=\"fr\">vis</em>, placed before the verb.</p>"
   },
   {
    "id": "poetry-43",
    "title": "A reflexive verb",
-   "body": "<p><em lang=\"fr\">Un trouble s’éleva dans mon âme éperdue</em>: <em lang=\"fr\">S’éleva</em>, “arose,” is the passé simple of the reflexive <em lang=\"fr\">s’élever</em>. <em lang=\"fr\">Éperdue</em> is feminine to agree with <em lang=\"fr\">âme</em>.</p>"
+   "body": "<p><em lang=\"fr\">Un trouble s’éleva dans mon âme éperdue</em>: <em lang=\"fr\">S’éleva</em>, “arose,” is the <em lang=\"fr\">passé simple</em> of the reflexive <em lang=\"fr\">s’élever</em>. <em lang=\"fr\">Éperdue</em> is feminine to agree with <em lang=\"fr\">âme</em>.</p>"
   },
   {
    "id": "poetry-44",

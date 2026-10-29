@@ -68,7 +68,7 @@ ARS.languages["lang.iii-decl.en"] = {
    "kind": "study",
    "built": true,
    "title": "The Participle, the Gerund, and the Infinitive",
-   "desc": "Their forms, and how to tell the participle from the gerund."
+   "desc": "The forms of the English participle, gerund, and infinitive, and how to tell the participle from the gerund."
   },
   {
    "id": "lang.iii-decl.en/verbals-ex",

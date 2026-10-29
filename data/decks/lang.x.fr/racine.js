@@ -9,12 +9,12 @@ ARS.decks["lang.x.fr/racine"] = {
   {
    "id": "text",
    "title": "Racine, <i lang=\"fr\">Phèdre</i> I.3.273–276 · Alexandrine",
-   "body": "<p lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I saw him, I blushed, I grew pale at the sight of him;<br>a trouble arose in my distraught soul;<br>my eyes no longer saw, I could not speak;<br>I felt my whole body both freeze and burn:</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The passé simple gives each event once and complete; the imperfect gives the states that lasted.</p>"
+   "body": "<p lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue ;<br>Un trouble s’éleva dans mon âme éperdue ;<br>Mes yeux ne voyaient plus, je ne pouvais parler ;<br>Je sentis tout mon corps et transir et brûler :</p><p>I saw him, I blushed, I grew pale at the sight of him;<br>a trouble arose in my distraught soul;<br>my eyes no longer saw, I could not speak;<br>I felt my whole body both freeze and burn:</p><p><strong>Context.</strong> Phèdre tells Œnone how she first saw Hippolyte. The <em lang=\"fr\">passé simple</em> gives each event once and complete; the imperfect gives the states that lasted.</p>"
   },
   {
    "id": "style",
    "title": "Points of style and composition",
-   "body": "<p><i lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</i>: three short verbs in the passé simple give three events in the space of a moment.</p>\n<p>The passé simple of the first lines gives way to the imperfect of states that lasted, <i lang=\"fr\">Mes yeux ne voyaient plus</i>.</p>\n<p><i lang=\"fr\">et transir et brûler</i>: freezing and burning at once, the contrary signs of passion.</p>\n<p>The lines keep the pause in the middle and rhyme in pairs, and the strict form contains the violence of the feeling.</p>"
+   "body": "<p><i lang=\"fr\">Je le vis, je rougis, je pâlis à sa vue</i>: three short verbs in the <em lang=\"fr\">passé simple</em> give three events in the space of a moment.</p>\n<p>The <em lang=\"fr\">passé simple</em> of the first lines gives way to the imperfect of states that lasted, <i lang=\"fr\">Mes yeux ne voyaient plus</i>.</p>\n<p><i lang=\"fr\">et transir et brûler</i>: freezing and burning at once, the contrary signs of passion.</p>\n<p>The lines keep the pause in the middle and rhyme in pairs, and the strict form contains the violence of the feeling.</p>"
   }
  ],
  "models": true

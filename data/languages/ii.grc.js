@@ -55,7 +55,7 @@ ARS.languages["lang.ii.grc"] = {
    "kind": "study",
    "built": true,
    "title": "Greek Hexameter Lines",
-   "desc": "Sixteen stored lines, with the syllables and feet already marked."
+   "desc": "Sixteen lines of Homer, with their syllables and feet marked."
   },
   {
    "id": "lang.ii.grc/hexameter-ex",

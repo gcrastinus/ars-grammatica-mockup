@@ -12,7 +12,7 @@ ARS.languages["lang.iii-indecl.en"] = {
    "kind": "study",
    "built": true,
    "title": "The Eight Parts of Speech in English",
-   "desc": "The same art, in the list a modern class uses."
+   "desc": "The eight parts of speech as modern English grammars count them, beside the traditional names."
   },
   {
    "id": "lang.iii-indecl.en/parts-ex",

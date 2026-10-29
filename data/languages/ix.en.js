@@ -12,7 +12,7 @@ ARS.languages["lang.ix.en"] = {
    "kind": "study",
    "built": true,
    "title": "The Diagram",
-   "desc": "Reed and Kellogg’s picture, as much as helps."
+   "desc": "The Reed and Kellogg diagram of the sentence, and how much of it helps the analysis."
   },
   {
    "id": "lang.ix.en/diagram-ex",

@@ -72,7 +72,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-6",
    "title": "Descartes, <em lang=\"fr\">Discours de la méthode</em> IV",
-   "body": "<p lang=\"fr\">Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the passé simple of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em lang=\"fr\">il fallait que</em>.</p>",
+   "body": "<p lang=\"fr\">Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the <em lang=\"fr\">passé simple</em> of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em lang=\"fr\">il fallait que</em>.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-6",
     "variants": [
@@ -115,7 +115,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-7",
    "title": "The <em lang=\"fr\">passé simple</em>",
-   "body": "<p><em lang=\"fr\">Mais aussitôt après je pris garde que</em>: <em lang=\"fr\">Je pris garde</em>, “I took notice,” is the passé simple of <em lang=\"fr\">prendre</em>, the tense of a single past event in written narrative. It takes a clause with <em lang=\"fr\">que</em> as its object.</p>"
+   "body": "<p><em lang=\"fr\">Mais aussitôt après je pris garde que</em>: <em lang=\"fr\">Je pris garde</em>, “I took notice,” is the <em lang=\"fr\">passé simple</em> of <em lang=\"fr\">prendre</em>, the tense of a single past event in written narrative. It takes a clause with <em lang=\"fr\">que</em> as its object.</p>"
   },
   {
    "id": "prose-8",
@@ -140,7 +140,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-12",
    "title": "The main verb",
-   "body": "<p><em lang=\"fr\">je jugeai que je pouvais la recevoir sans scrupule</em>: <em lang=\"fr\">Je jugeai</em>, passé simple, is the main verb of the second sentence. <em lang=\"fr\">La</em> stands for <em lang=\"fr\">cette vérité</em>.</p>"
+   "body": "<p><em lang=\"fr\">je jugeai que je pouvais la recevoir sans scrupule</em>: <em lang=\"fr\">Je jugeai</em>, <em lang=\"fr\">passé simple</em>, is the main verb of the second sentence. <em lang=\"fr\">La</em> stands for <em lang=\"fr\">cette vérité</em>.</p>"
   },
   {
    "id": "prose-13",
@@ -319,7 +319,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-25",
    "title": "<em lang=\"fr\">Naître</em> with <em lang=\"fr\">être</em>",
-   "body": "<p><em lang=\"fr\">L’homme est né libre</em>: <em lang=\"fr\">Est né</em> is the passé composé of <em lang=\"fr\">naître</em>, a verb that takes <em lang=\"fr\">être</em>. <em lang=\"fr\">Libre</em> is a predicate adjective, so the sense is “man is born free.”</p>"
+   "body": "<p><em lang=\"fr\">L’homme est né libre</em>: <em lang=\"fr\">Est né</em> is the <em lang=\"fr\">passé composé</em> of <em lang=\"fr\">naître</em>, a verb that takes <em lang=\"fr\">être</em>. <em lang=\"fr\">Libre</em> is a predicate adjective, so the sense is “man is born free.”</p>"
   },
   {
    "id": "prose-26",
@@ -402,7 +402,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-34",
    "title": "Flaubert, <em lang=\"fr\">Madame Bovary</em> I.1",
-   "body": "<p lang=\"fr\">Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>Translation: Eleanor Marx-Aveling.</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the passé simple.</p>",
+   "body": "<p lang=\"fr\">Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>Translation: Eleanor Marx-Aveling.</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the <em lang=\"fr\">passé simple</em>.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-34",
     "variants": [
@@ -450,7 +450,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-36",
    "title": "The <em lang=\"fr\">passé simple</em>: the event",
-   "body": "<p><em lang=\"fr\">quand le Proviseur entra</em>: <em lang=\"fr\">Entra</em>, passé simple, is the event that breaks in on the scene.</p>"
+   "body": "<p><em lang=\"fr\">quand le Proviseur entra</em>: <em lang=\"fr\">Entra</em>, <em lang=\"fr\">passé simple</em>, is the event that breaks in on the scene.</p>"
   },
   {
    "id": "prose-37",
@@ -818,7 +818,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-64",
    "title": "Proust, <em lang=\"fr\">Du côté de chez Swann</em> I.1",
-   "body": "<p lang=\"fr\">Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>Translation: C. K. Scott Moncrieff.</p><p><strong>Context.</strong> These are the first sentences of <em lang=\"fr\">In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the passé composé of the first sentence gives way to the imperfect of what used to happen.</p>",
+   "body": "<p lang=\"fr\">Longtemps, je me suis couché de bonne heure. Parfois, à peine ma bougie éteinte, mes yeux se fermaient si vite que je n’avais pas le temps de me dire : « Je m’endors. »</p><p>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say “I’m going to sleep.”<br>Translation: C. K. Scott Moncrieff.</p><p><strong>Context.</strong> These are the first sentences of <em lang=\"fr\">In Search of Lost Time</em>. The narrator remembers the nights of his childhood, and the <em lang=\"fr\">passé composé</em> of the first sentence gives way to the imperfect of what used to happen.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-64",
     "variants": [
@@ -861,7 +861,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-65",
    "title": "The <em lang=\"fr\">passé composé</em> of a reflexive verb",
-   "body": "<p><em lang=\"fr\">Longtemps, je me suis couché de bonne heure</em>: <em lang=\"fr\">Je me suis couché</em> is the passé composé of <em lang=\"fr\">se coucher</em>, with <em lang=\"fr\">être</em>. With <em lang=\"fr\">longtemps</em> it sums up a long stretch of the past.</p>"
+   "body": "<p><em lang=\"fr\">Longtemps, je me suis couché de bonne heure</em>: <em lang=\"fr\">Je me suis couché</em> is the <em lang=\"fr\">passé composé</em> of <em lang=\"fr\">se coucher</em>, with <em lang=\"fr\">être</em>. With <em lang=\"fr\">longtemps</em> it sums up a long stretch of the past.</p>"
   },
   {
    "id": "prose-66",
