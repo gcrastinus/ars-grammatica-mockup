@@ -96,7 +96,7 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “big” (the vowel is long)?",
-   "explain": "After a long vowel, <i lang=\"de\">ß</i>.",
+   "explain": "After a long vowel German writes <i lang=\"de\">ß</i>.",
    "options": [
     "<i lang=\"de\">gross</i>, in Germany",
     "<i lang=\"de\">gros</i>",
@@ -112,7 +112,7 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “water”?",
-   "explain": "After a short vowel, <i lang=\"de\">ss</i>; and the noun is capitalized.",
+   "explain": "After a short vowel German writes <i lang=\"de\">ss</i>, and the noun is capitalized.",
    "options": [
     "<i lang=\"de\">Wasser</i>",
     "<i lang=\"de\">Waßer</i>",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “white” (the diphthong <i lang=\"de\">ei</i>)?",
-   "explain": "After a diphthong, <i lang=\"de\">ß</i>.",
+   "explain": "After a diphthong German writes <i lang=\"de\">ß</i>.",
    "options": [
     "<i lang=\"de\">weiss</i>, in Germany",
     "<i lang=\"de\">weiß</i>",
@@ -144,7 +144,7 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which is correct for “lock” (castle), whose vowel is short?",
-   "explain": "After a short vowel, <i lang=\"de\">ss</i>.",
+   "explain": "After a short vowel German writes <i lang=\"de\">ss</i>.",
    "options": [
     "<i lang=\"de\">Schloß</i>",
     "<i lang=\"de\">Schlos</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ii.de/orthography-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which way are German quotation marks usually written?",
-   "explain": "Low at the start, high at the end.",
+   "explain": "German quotation marks are low at the start and high at the end.",
    "options": [
     "<i lang=\"de\">“Guten Tag!”</i>",
     "<i lang=\"de\">„Guten Tag!“</i>",

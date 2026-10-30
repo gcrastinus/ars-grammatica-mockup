@@ -44,7 +44,7 @@ ARS.decks["lang.iii-indecl.de/prepositions"] = {
        "The genitive"
       ],
       "answer": 3,
-      "explain": "<i lang=\"de\">Während des Essens</i>, “during the meal.”"
+      "explain": "Written German uses the genitive after <i lang=\"de\">während</i>: <i lang=\"de\">während des Essens</i>, “during the meal.”"
      }
     ]
    }

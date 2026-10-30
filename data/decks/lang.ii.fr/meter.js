@@ -22,7 +22,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Words"
       ],
       "answer": 2,
-      "explain": "Not stresses and not quantities."
+      "explain": "French verse counts syllables, not stresses and not quantities."
      },
      {
       "prompt": "How many syllables does <em lang=\"fr\">petite fille</em> count in verse before a consonant?",
@@ -65,7 +65,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Counting two vowels as one syllable"
       ],
       "answer": 3,
-      "explain": "As in <em lang=\"fr\">pied</em>."
+      "explain": "In <em lang=\"fr\">pied</em> the two vowels count as one syllable."
      },
      {
       "prompt": "What is diaeresis in French verse?",
@@ -76,7 +76,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Moving the stress"
       ],
       "answer": 0,
-      "explain": "<em lang=\"fr\">Li-on</em> in classical verse."
+      "explain": "In classical verse <em lang=\"fr\">lion</em> counts two syllables, <em lang=\"fr\">li-on</em>."
      },
      {
       "prompt": "Who decides between synaeresis and diaeresis?",
@@ -108,7 +108,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Fourteen"
       ],
       "answer": 0,
-      "explain": "With a caesura after the sixth."
+      "explain": "The alexandrine has twelve syllables, with a caesura after the sixth."
      },
      {
       "prompt": "What is a hemistich?",
@@ -130,7 +130,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Ronsard’s"
       ],
       "answer": 2,
-      "explain": "The line of classical tragedy."
+      "explain": "The alexandrine is the line of classical tragedy."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "Boileau"
       ],
       "answer": 2,
-      "explain": "As in his “Chanson d’automne.”"
+      "explain": "Verlaine uses such lines in his “Chanson d’automne.”"
      },
      {
       "prompt": "Who mixes lines of different lengths in one fable?",
@@ -194,7 +194,7 @@ ARS.decks["lang.ii.fr/meter"] = {
        "A rhyme in the middle of a line"
       ],
       "answer": 2,
-      "explain": "<em lang=\"fr\">Belle</em> and <em lang=\"fr\">elle</em>."
+      "explain": "<em lang=\"fr\">Belle</em> and <em lang=\"fr\">elle</em> make a feminine rhyme."
      },
      {
       "prompt": "What are <em lang=\"fr\">rimes croisées</em>?",

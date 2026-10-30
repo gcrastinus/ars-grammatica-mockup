@@ -48,7 +48,7 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which linking element stands in <i lang=\"de\">Kinderbuch</i>?",
-   "explain": "<i lang=\"de\">Kind-er-buch</i>.",
+   "explain": "<i lang=\"de\">Kinderbuch</i> has the linking element <i lang=\"de\">-er-</i>: <i lang=\"de\">Kind-er-buch</i>.",
    "options": [
     "<i lang=\"de\">-er-</i>",
     "<i lang=\"de\">-s-</i>",
@@ -64,7 +64,7 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which linking element stands in <i lang=\"de\">Blumenvase</i>?",
-   "explain": "<i lang=\"de\">Blume-n-vase</i>.",
+   "explain": "<i lang=\"de\">Blumenvase</i> has the linking element <i lang=\"de\">-n-</i>: <i lang=\"de\">Blume-n-vase</i>.",
    "options": [
     "<i lang=\"de\">-s-</i>",
     "<i lang=\"de\">-n-</i>",
@@ -184,7 +184,7 @@ ARS.exercises["lang.iv.de/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which linking element stands in <i lang=\"de\">Hundeleine</i> (“dog leash”)?",
-   "explain": "<i lang=\"de\">Hund-e-leine</i>.",
+   "explain": "<i lang=\"de\">Hundeleine</i> has the linking element <i lang=\"de\">-e-</i>: <i lang=\"de\">Hund-e-leine</i>.",
    "options": [
     "<i lang=\"de\">-e-</i>",
     "<i lang=\"de\">-s-</i>",

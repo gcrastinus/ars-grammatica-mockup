@@ -151,7 +151,7 @@ ARS.decks["lang.iii-indecl.fr/prepositions"] = {
        "<i lang=\"fr\">lui</i>"
       ],
       "answer": 3,
-      "explain": "After a preposition, the stressed form <i lang=\"fr\">lui</i>."
+      "explain": "After a preposition French uses the stressed form <i lang=\"fr\">lui</i>."
      },
      {
       "prompt": "Choose the form: <i lang=\"fr\">Je pense souvent à ___</i> (“I often think of her”).",

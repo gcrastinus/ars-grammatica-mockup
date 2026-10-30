@@ -95,13 +95,13 @@ ARS.exercises["lang.iii-decl.de/compared-ex"] = {
    "deck": "lang.iii-decl.de/compared-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Which word must be written with a capital in German? <i lang=\"de\">die ___ ist schön</i> (“the garden is beautiful”)",
+   "prompt": "Which word must be written with a capital in German? <i lang=\"de\">der ___ ist schön</i> (“the garden is beautiful”)",
    "explain": "German writes every noun with a capital; the article, the verb, and the adjective take a small letter (except at the beginning of a sentence).",
    "options": [
     "<i lang=\"de\">schön</i>, because it describes the noun",
     "<i lang=\"de\">Garten</i>, because it is a noun",
     "<i lang=\"de\">ist</i>, because it is the verb",
-    "<i lang=\"de\">die</i>, because it begins the phrase"
+    "<i lang=\"de\">der</i>, because it begins the phrase"
    ],
    "answer": 1
   },

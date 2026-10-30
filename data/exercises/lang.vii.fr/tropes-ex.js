@@ -96,7 +96,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme repeats a word at the head of successive members?",
-   "explain": "As Camille repeats <i lang=\"fr\">Rome</i>.",
+   "explain": "Camille repeats <i lang=\"fr\">Rome</i> at the head of each member, which is anaphora.",
    "options": [
     "Chiasmus",
     "Antithesis",
@@ -112,7 +112,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme reverses the order of the terms in the second member?",
-   "explain": "A B, B A.",
+   "explain": "Chiasmus reverses the order: A B, then B A.",
    "options": [
     "Chiasmus",
     "Anaphora",
@@ -160,7 +160,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"fr\">Je travaille pour vivre, je ne vis pas pour travailler</i> (“I work to live, I do not live to work”), which scheme orders the terms?",
-   "explain": "Work, live; live, work.",
+   "explain": "The terms run work, live, then live, work, which is chiasmus.",
    "options": [
     "Anaphora",
     "Polysyndeton",
@@ -176,7 +176,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"fr\">Il vint, il parla, il convainquit</i> (“he came, he spoke, he convinced”), which scheme is used?",
-   "explain": "Three clauses with no conjunction.",
+   "explain": "The three clauses stand with no conjunction, which is asyndeton.",
    "options": [
     "Antithesis",
     "Asyndeton",
@@ -192,7 +192,7 @@ ARS.exercises["lang.vii.fr/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"fr\">Riche, il méprisait ; pauvre, il enviait</i> (“rich, he despised; poor, he envied”), which scheme is used?",
-   "explain": "Opposed ideas in matching form.",
+   "explain": "Opposed ideas stand in matching form, which is antithesis.",
    "options": [
     "Antithesis",
     "Polysyndeton",

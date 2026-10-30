@@ -96,7 +96,7 @@ ARS.exercises["lang.v.de/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ihm ______ geholfen.</i> (“He is being helped”).",
-   "explain": "Helfen takes the dative, so the passive has no subject in the nominative, and the verb stands in the third person singular: <i lang=\"de\">ihm wird geholfen</i>.",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, so the passive has no subject in the nominative, and the verb stands in the third person singular: <i lang=\"de\">ihm wird geholfen</i>.",
    "options": [
     "<i lang=\"de\">wird</i>",
     "<i lang=\"de\">werden</i>",
@@ -144,7 +144,7 @@ ARS.exercises["lang.v.de/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ich will das Buch ______.</i> (“I want to read the book”).",
-   "explain": "A modal verb such as wollen takes the infinitive without <i lang=\"de\">zu</i>, at the end of the clause.",
+   "explain": "A modal verb such as <i lang=\"de\">wollen</i> takes the infinitive without <i lang=\"de\">zu</i>, at the end of the clause.",
    "options": [
     "<i lang=\"de\">lesen</i>",
     "<i lang=\"de\">zu lesen</i>",
@@ -176,7 +176,7 @@ ARS.exercises["lang.v.de/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Sie versucht, das Buch zu ______.</i> (“She tries to understand the book”).",
-   "explain": "After versuchen the infinitive takes <i lang=\"de\">zu</i>, and it stands at the end of its clause: <i lang=\"de\">zu verstehen</i>.",
+   "explain": "After <i lang=\"de\">versuchen</i> the infinitive takes <i lang=\"de\">zu</i>, and it stands at the end of its clause: <i lang=\"de\">zu verstehen</i>.",
    "options": [
     "<i lang=\"de\">verstehen</i>",
     "<i lang=\"de\">versteht</i>",
@@ -224,7 +224,7 @@ ARS.exercises["lang.v.de/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ich höre den König ______.</i> (“I hear the king sing”).",
-   "explain": "Hören and <i lang=\"de\">sehen</i> take the infinitive without <i lang=\"de\">zu</i>: <i lang=\"de\">ich höre den König singen</i>.",
+   "explain": "<i lang=\"de\">Hören</i> and <i lang=\"de\">sehen</i> take the infinitive without <i lang=\"de\">zu</i>: <i lang=\"de\">ich höre den König singen</i>.",
    "options": [
     "<i lang=\"de\">singen</i>",
     "<i lang=\"de\">zu singen</i>",
@@ -256,7 +256,7 @@ ARS.exercises["lang.v.de/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er beginnt ______ schreiben.</i> (“He begins to write”).",
-   "explain": "Beginnen takes the infinitive with <i lang=\"de\">zu</i>: <i lang=\"de\">er beginnt zu schreiben</i>.",
+   "explain": "<i lang=\"de\">Beginnen</i> takes the infinitive with <i lang=\"de\">zu</i>: <i lang=\"de\">er beginnt zu schreiben</i>.",
    "options": [
     "<i lang=\"de\">zu</i>",
     "<i lang=\"de\">um</i>",

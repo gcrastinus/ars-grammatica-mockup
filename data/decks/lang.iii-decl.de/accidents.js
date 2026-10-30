@@ -70,7 +70,7 @@ ARS.decks["lang.iii-decl.de/accidents"] = {
        "Three"
       ],
       "answer": 0,
-      "explain": "Nominative, accusative, dative, and genitive."
+      "explain": "German has four cases: the nominative, accusative, dative, and genitive."
      },
      {
       "prompt": "What does the older German name <i lang=\"de\">Wemfall</i> mean?",
@@ -183,7 +183,7 @@ ARS.decks["lang.iii-decl.de/accidents"] = {
        "One"
       ],
       "answer": 0,
-      "explain": "Masculine, feminine, and neuter, as in Latin."
+      "explain": "German has three genders, the masculine, feminine, and neuter, as Latin does."
      }
     ]
    }

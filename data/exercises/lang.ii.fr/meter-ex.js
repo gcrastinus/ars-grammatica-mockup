@@ -48,7 +48,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Where is the caesura of the classical alexandrine?",
-   "explain": "Six and six: two hemistiches.",
+   "explain": "The caesura divides the alexandrine into two hemistiches of six syllables.",
    "options": [
     "After the sixth syllable",
     "After the fourth",
@@ -64,7 +64,7 @@ ARS.exercises["lang.ii.fr/meter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How does La Fontaine measure the lines of a fable?",
-   "explain": "His <em lang=\"fr\">vers mêlés</em>: rhymed lines of varied length.",
+   "explain": "His <em lang=\"fr\">vers mêlés</em> are rhymed lines of varied length.",
    "options": [
     "He mixes lines of different lengths",
     "He writes only alexandrines",

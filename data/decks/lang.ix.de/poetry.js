@@ -22,7 +22,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "A plural"
       ],
       "answer": 0,
-      "explain": "“Rest.”"
+      "explain": "<em lang=\"de\">Ruh’</em>, “rest,” is <em lang=\"de\">Ruhe</em> with the final <em lang=\"de\">e</em> dropped for the meter."
      },
      {
       "prompt": "What case is <em lang=\"de\">einen Hauch</em>?",
@@ -44,7 +44,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "A subjunctive"
       ],
       "answer": 2,
-      "explain": "“Wait.”"
+      "explain": "<em lang=\"de\">Warte</em>, “wait,” is the imperative singular."
      }
     ]
    }
@@ -90,7 +90,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "A subjunctive"
       ],
       "answer": 2,
-      "explain": "“Heard,” the past tense."
+      "explain": "<em lang=\"de\">Hört’</em>, “heard,” is the past tense <em lang=\"de\">hörte</em> with the final <em lang=\"de\">e</em> dropped."
      },
      {
       "prompt": "What does <em lang=\"de\">Wohl</em> add?",
@@ -101,7 +101,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "A question"
       ],
       "answer": 1,
-      "explain": "“Indeed.”"
+      "explain": "<em lang=\"de\">Wohl</em>, “indeed,” adds little to the sense and fills out the line."
      },
      {
       "prompt": "Why do <em lang=\"de\">frisch</em> and <em lang=\"de\">wunderhell</em> have no endings?",
@@ -153,7 +153,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "The present"
       ],
       "answer": 2,
-      "explain": "“Have you seen.”"
+      "explain": "<em lang=\"de\">Hast</em> with the participle <em lang=\"de\">gesehen</em> is the perfect: “have you seen.”"
      },
      {
       "prompt": "What is <em lang=\"de\">am</em> in <em lang=\"de\">am Meer</em>?",
@@ -164,7 +164,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "<em lang=\"de\">in dem</em>"
       ],
       "answer": 1,
-      "explain": "“By the.”"
+      "explain": "<em lang=\"de\">Am</em> is the contraction of <em lang=\"de\">an dem</em>: “by the.”"
      },
      {
       "prompt": "What is the subject of <em lang=\"de\">wehen</em>?",
@@ -175,7 +175,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "<em lang=\"de\">du</em>"
       ],
       "answer": 0,
-      "explain": "The clouds drift over it."
+      "explain": "<em lang=\"de\">Die Wolken</em> is the subject of <em lang=\"de\">wehen</em>: the clouds drift over it."
      }
     ]
    }
@@ -222,7 +222,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "The nominative"
       ],
       "answer": 1,
-      "explain": "<em lang=\"de\">Er hilft uns.</em>"
+      "explain": "<em lang=\"de\">Helfen</em> takes the dative, as in <em lang=\"de\">er hilft uns</em>."
      },
      {
       "prompt": "What does the relative <em lang=\"de\">die</em> take up?",
@@ -233,7 +233,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "<em lang=\"de\">uns</em>"
       ],
       "answer": 0,
-      "explain": "“The need that has now befallen us.”"
+      "explain": "The relative <em lang=\"de\">die</em> takes up <em lang=\"de\">Not</em>: “the need that has now befallen us.”"
      }
     ]
    }
@@ -285,7 +285,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "Accusative"
       ],
       "answer": 3,
-      "explain": "Motion toward: right up to the grave."
+      "explain": "<em lang=\"de\">Bis an</em> expresses motion toward, so it takes the accusative: right up to the grave."
      },
      {
       "prompt": "What is <em lang=\"de\">goldnen</em>?",
@@ -463,7 +463,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "A verb"
       ],
       "answer": 0,
-      "explain": "“Stands lonely.”"
+      "explain": "<em lang=\"de\">Einsam</em> is an adjective without ending, used as an adverb: “stands lonely.”"
      },
      {
       "prompt": "What is <em lang=\"de\">Höh’</em>?",
@@ -474,7 +474,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "<em lang=\"de\">Höhe</em>"
       ],
       "answer": 3,
-      "explain": "“A bare height.”"
+      "explain": "<em lang=\"de\">Höh’</em> is <em lang=\"de\">Höhe</em> with the final <em lang=\"de\">e</em> dropped: “a bare height.”"
      },
      {
       "prompt": "What is the subject of <em lang=\"de\">umhüllen</em>?",
@@ -526,7 +526,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "“when a flower”"
       ],
       "answer": 2,
-      "explain": "A comparison."
+      "explain": "<em lang=\"de\">Wie</em> with a noun makes a comparison: “like a flower.”"
      },
      {
       "prompt": "Why do <em lang=\"de\">hold</em>, <em lang=\"de\">schön</em>, and <em lang=\"de\">rein</em> have no endings?",
@@ -589,7 +589,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "The dative"
       ],
       "answer": 3,
-      "explain": "<em lang=\"de\">Danket … Gott.</em>"
+      "explain": "<em lang=\"de\">Danken</em> takes the dative, as in <em lang=\"de\">Danket … Gott</em>."
      },
      {
       "prompt": "What is <em lang=\"de\">Händen</em>?",
@@ -600,7 +600,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "Accusative singular"
       ],
       "answer": 0,
-      "explain": "After <em lang=\"de\">mit</em>."
+      "explain": "<em lang=\"de\">Händen</em> is dative plural because it follows <em lang=\"de\">mit</em>."
      },
      {
       "prompt": "What does <em lang=\"de\">An allen Enden</em> mean?",
@@ -611,7 +611,7 @@ ARS.decks["lang.ix.de/poetry"] = {
        "“to every end”"
       ],
       "answer": 1,
-      "explain": "Literally “at all ends.”"
+      "explain": "<em lang=\"de\">An allen Enden</em>, literally “at all ends,” means “everywhere.”"
      }
     ]
    }

@@ -76,7 +76,7 @@ ARS.decks["lang.vii.de/tropes"] = {
        "The adjective and the noun"
       ],
       "answer": 3,
-      "explain": "Noun, adjective; adjective, noun: chiasmus."
+      "explain": "The order noun, adjective is reversed to adjective, noun, which is chiasmus."
      },
      {
       "prompt": "What is set against what in Mephistopheles’ lines?",
@@ -87,7 +87,7 @@ ARS.decks["lang.vii.de/tropes"] = {
        "Two times"
       ],
       "answer": 2,
-      "explain": "<i lang=\"de\">Das Böse will … das Gute schafft.</i>"
+      "explain": "Mephistopheles sets willing evil against working good: <i lang=\"de\">das Böse will … das Gute schafft</i>."
      }
     ]
    }

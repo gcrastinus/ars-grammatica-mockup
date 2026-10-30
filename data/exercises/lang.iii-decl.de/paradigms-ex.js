@@ -124,7 +124,7 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"de\">sein, irregular, “be”</i>. Write the present, first person plural.",
-   "explain": "<i lang=\"de\">Ich bin, du bist, er ist, wir sind, ihr seid, sie sind</i>.",
+   "explain": "The first person plural is <i lang=\"de\">wir sind</i>: <i lang=\"de\">ich bin, du bist, er ist, wir sind, ihr seid, sie sind</i>.",
    "accept": [
     "sind"
    ]
@@ -148,7 +148,7 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"de\">haben, irregular, “have”</i>. Write the present, second person singular.",
-   "explain": "<i lang=\"de\">Ich habe, du hast, er hat</i>.",
+   "explain": "The second person singular is <i lang=\"de\">du hast</i>: <i lang=\"de\">ich habe, du hast, er hat</i>.",
    "accept": [
     "hast"
    ]
@@ -172,7 +172,7 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"de\">werden, irregular, “become”</i>. Write the present, second person singular.",
-   "explain": "<i lang=\"de\">Ich werde, du wirst, er wird</i>.",
+   "explain": "The second person singular is <i lang=\"de\">du wirst</i>: <i lang=\"de\">ich werde, du wirst, er wird</i>.",
    "accept": [
     "wirst"
    ]
@@ -232,7 +232,7 @@ ARS.exercises["lang.iii-decl.de/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"de\">finden, strong, “find”</i>. Write the Präteritum, third person singular.",
-   "explain": "<i lang=\"de\">Finden, fand, gefunden</i>.",
+   "explain": "<i lang=\"de\">Finden</i> is a strong verb, and its Präteritum is <i lang=\"de\">fand</i>: <i lang=\"de\">finden, fand, gefunden</i>.",
    "accept": [
     "fand"
    ]

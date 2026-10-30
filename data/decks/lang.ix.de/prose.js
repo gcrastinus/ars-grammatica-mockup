@@ -33,7 +33,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "<em lang=\"de\">nichts</em>"
       ],
       "answer": 1,
-      "explain": "“Possible to think.”"
+      "explain": "<em lang=\"de\">Zu denken</em> completes the adjective <em lang=\"de\">möglich</em>: “possible to think.”"
      },
      {
       "prompt": "What does <em lang=\"de\">was</em> take up?",
@@ -101,7 +101,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "The means"
       ],
       "answer": 3,
-      "explain": "Reason is troubled by questions."
+      "explain": "<em lang=\"de\">Durch</em> gives the means by which reason is troubled: by questions."
      },
      {
       "prompt": "What do the two relative clauses beginning with <em lang=\"de\">die</em> stand for?",
@@ -112,7 +112,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "<em lang=\"de\">Erkenntnisse</em>"
       ],
       "answer": 2,
-      "explain": "Questions which it cannot decline and cannot answer."
+      "explain": "Both relative clauses take up <em lang=\"de\">Fragen</em>: questions which it cannot decline and cannot answer."
      }
     ]
    }
@@ -158,7 +158,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "At the end"
       ],
       "answer": 3,
-      "explain": "<em lang=\"de\">Dass ich weg bin.</em>"
+      "explain": "After <em lang=\"de\">dass</em> the verb goes to the end: <em lang=\"de\">dass ich weg bin</em>."
      },
      {
       "prompt": "What kind of noun is <em lang=\"de\">Mensch</em>, which takes <em lang=\"de\">-en</em> in <em lang=\"de\">des Menschen</em>?",
@@ -180,7 +180,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "A question"
       ],
       "answer": 1,
-      "explain": "“To leave you!”"
+      "explain": "The infinitive stands alone as an exclamation: “to leave you!”"
      }
     ]
    }
@@ -237,7 +237,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "A verb in the present"
       ],
       "answer": 2,
-      "explain": "“Wishing.”"
+      "explain": "<em lang=\"de\">Das Wünschen</em>, “wishing,” is an infinitive made a noun, with the article and a capital."
      },
      {
       "prompt": "What does <em lang=\"de\">ihr</em> refer to in <em lang=\"de\">sie ihr ins Gesicht schien</em>?",
@@ -299,7 +299,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“once”"
       ],
       "answer": 3,
-      "explain": "“Once upon a time there was.”"
+      "explain": "<em lang=\"de\">Einmal</em> means “once”: <em lang=\"de\">es war einmal</em>, “once upon a time there was.”"
      },
      {
       "prompt": "Does <em lang=\"de\">aber</em> move the verb?",
@@ -357,7 +357,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "<em lang=\"de\">in dem</em>"
       ],
       "answer": 0,
-      "explain": "“On the.”"
+      "explain": "<em lang=\"de\">Am</em> is the contraction of <em lang=\"de\">an dem</em>: “on the.”"
      },
      {
       "prompt": "What does <em lang=\"de\">auf die Welt kommen</em> mean?",
@@ -368,7 +368,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“to be born”"
       ],
       "answer": 3,
-      "explain": "With the accusative of motion."
+      "explain": "<em lang=\"de\">Auf die Welt kommen</em>, with the accusative of motion, means “to be born.”"
      },
      {
       "prompt": "What old ending does <em lang=\"de\">Glockenschlage</em> keep?",
@@ -379,7 +379,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "The accusative <em lang=\"de\">-en</em>"
       ],
       "answer": 2,
-      "explain": "“With the stroke of the bell.”"
+      "explain": "<em lang=\"de\">Glockenschlage</em> keeps the old dative <em lang=\"de\">-e</em>: “with the stroke of the bell.”"
      }
     ]
    }
@@ -415,7 +415,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“to fall down”"
       ],
       "answer": 0,
-      "explain": "<em lang=\"de\">Ein Gespenst geht um.</em>"
+      "explain": "Said of ghosts, <em lang=\"de\">umgehen</em> means “to walk about”: <em lang=\"de\">ein Gespenst geht um</em>."
      },
      {
       "prompt": "What case does <em lang=\"de\">gegen</em> take?",
@@ -426,7 +426,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "The accusative"
       ],
       "answer": 3,
-      "explain": "<em lang=\"de\">Gegen dies Gespenst.</em>"
+      "explain": "<em lang=\"de\">Gegen</em> takes the accusative: <em lang=\"de\">gegen dies Gespenst</em>."
      },
      {
       "prompt": "What is <em lang=\"de\">Mächte</em>?",
@@ -437,7 +437,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "An adjective"
       ],
       "answer": 2,
-      "explain": "“Powers.”"
+      "explain": "<em lang=\"de\">Mächte</em>, “powers,” is the plural of <em lang=\"de\">Macht</em>, with umlaut and <em lang=\"de\">-e</em>."
      }
     ]
    }
@@ -494,7 +494,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "Nominative"
       ],
       "answer": 0,
-      "explain": "“The lake of his home.”"
+      "explain": "<em lang=\"de\">Seiner Heimat</em> is genitive: “the lake of his home.”"
      },
      {
       "prompt": "What does <em lang=\"de\">einer Sache müde werden</em> mean?",
@@ -505,7 +505,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“to become sleepy”"
       ],
       "answer": 1,
-      "explain": "<em lang=\"de\">Müde</em> takes the genitive."
+      "explain": "<em lang=\"de\">Müde</em> takes the genitive of the thing one grows weary of."
      }
     ]
    }
@@ -625,7 +625,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "Accusative"
       ],
       "answer": 2,
-      "explain": "“Of the Havel.”"
+      "explain": "<em lang=\"de\">Der Havel</em> is genitive feminine: “of the Havel.”"
      },
      {
       "prompt": "What does <em lang=\"de\">einer der</em> mean?",
@@ -636,7 +636,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“one of the”"
       ],
       "answer": 3,
-      "explain": "With the genitive plural."
+      "explain": "<em lang=\"de\">Einer der</em> is “one” with the genitive plural: “one of the.”"
      }
     ]
    }
@@ -704,7 +704,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "They follow the sex of the person"
       ],
       "answer": 1,
-      "explain": "<em lang=\"de\">Das Bübchen</em>, <em lang=\"de\">das Mädchen</em>."
+      "explain": "Nouns in <em lang=\"de\">-chen</em> are neuter: <em lang=\"de\">das Bübchen</em>, <em lang=\"de\">das Mädchen</em>."
      }
     ]
    }
@@ -756,7 +756,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“not yet”"
       ],
       "answer": 0,
-      "explain": "She no longer had any little room."
+      "explain": "<em lang=\"de\">Kein … mehr</em> means “no longer any”: she no longer had any little room."
      },
      {
       "prompt": "What does <em lang=\"de\">darin</em> stand for?",
@@ -767,7 +767,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "<em lang=\"de\">davon</em>"
       ],
       "answer": 1,
-      "explain": "“In it.”"
+      "explain": "<em lang=\"de\">Darin</em>, “in it,” stands for <em lang=\"de\">in dem</em>."
      }
     ]
    }
@@ -808,7 +808,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“was”"
       ],
       "answer": 0,
-      "explain": "<em lang=\"de\">Gott bleibt tot.</em>"
+      "explain": "<em lang=\"de\">Bleibt</em> means “remains”: <em lang=\"de\">Gott bleibt tot</em>."
      },
      {
       "prompt": "What is <em lang=\"de\">ihn</em>?",
@@ -819,7 +819,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "Accusative masculine, referring to God"
       ],
       "answer": 3,
-      "explain": "“Have killed him.”"
+      "explain": "<em lang=\"de\">Ihn</em> is the masculine accusative, the object of the verb, referring to God: “have killed him.”"
      },
      {
       "prompt": "What is <em lang=\"de\">uns</em> in <em lang=\"de\">Wie trösten wir uns</em>?",
@@ -830,7 +830,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "An indirect object only"
       ],
       "answer": 2,
-      "explain": "“How shall we comfort ourselves.”"
+      "explain": "<em lang=\"de\">Uns</em> refers back to the subject <em lang=\"de\">wir</em>, so it is reflexive: “how shall we comfort ourselves.”"
      }
     ]
    }
@@ -871,7 +871,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "A dative"
       ],
       "answer": 2,
-      "explain": "“A mere continuation.”"
+      "explain": "<em lang=\"de\">Eine bloße Fortsetzung</em> is joined to the subject by <em lang=\"de\">ist</em>, so it is the predicate nominative: “a mere continuation.”"
      },
      {
       "prompt": "What does <em lang=\"de\">nicht bloß … sondern</em> mean?",
@@ -882,7 +882,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“both … and”"
       ],
       "answer": 1,
-      "explain": "Not merely a political act but a real instrument."
+      "explain": "<em lang=\"de\">Nicht bloß … sondern</em> means “not merely … but”: not merely a political act but a real instrument."
      },
      {
       "prompt": "What is <em lang=\"de\">ein Durchführen</em>?",
@@ -893,7 +893,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "A plural noun"
       ],
       "answer": 0,
-      "explain": "“A carrying out.”"
+      "explain": "<em lang=\"de\">Ein Durchführen</em>, “a carrying out,” is an infinitive made a noun."
      }
     ]
    }
@@ -945,7 +945,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "An infinitive"
       ],
       "answer": 2,
-      "explain": "“Founded.”"
+      "explain": "<em lang=\"de\">Gegründet</em>, “founded,” is joined to the subject by <em lang=\"de\">ist</em>, so it is the predicate."
      },
      {
       "prompt": "What does <em lang=\"de\">sich auf etwas verstehen</em> mean?",
@@ -956,7 +956,7 @@ ARS.decks["lang.ix.de/prose"] = {
        "“to understand a thing, to be skilled in it”"
       ],
       "answer": 3,
-      "explain": "They understood women badly."
+      "explain": "<em lang=\"de\">Sich auf etwas verstehen</em> means “to be skilled in a thing”: they understood women badly."
      }
     ]
    }

@@ -65,7 +65,7 @@ ARS.decks["lang.iv.de/composition"] = {
        "none"
       ],
       "answer": 1,
-      "explain": "<i lang=\"de\">Bild-er-rahmen</i>."
+      "explain": "<i lang=\"de\">Bilderrahmen</i> has the linking element <i lang=\"de\">-er-</i>: <i lang=\"de\">Bild-er-rahmen</i>."
      },
      {
       "prompt": "Does the <i lang=\"de\">-n-</i> of <i lang=\"de\">Sonnenschein</i> mean that there are many suns?",

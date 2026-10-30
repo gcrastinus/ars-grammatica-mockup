@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-decl.de/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Du ______.</i> (“You (one friend) speak”).",
-   "explain": "<i lang=\"de\">Du</i> takes <i lang=\"de\">-st</i>, and <i lang=\"de\">sprechen</i> changes e to i: <i lang=\"de\">du sprichst</i>.",
+   "explain": "<i lang=\"de\">Du</i> takes <i lang=\"de\">-st</i>, and <i lang=\"de\">sprechen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">i</i>: <i lang=\"de\">du sprichst</i>.",
    "options": [
     "<i lang=\"de\">sprichst</i>",
     "<i lang=\"de\">spricht</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iii-decl.de/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er ______.</i> (“He gives”).",
-   "explain": "<i lang=\"de\">Er</i> takes <i lang=\"de\">-t</i>, and <i lang=\"de\">geben</i> changes e to i: <i lang=\"de\">er gibt</i>.",
+   "explain": "<i lang=\"de\">Er</i> takes <i lang=\"de\">-t</i>, and <i lang=\"de\">geben</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">i</i>: <i lang=\"de\">er gibt</i>.",
    "options": [
     "<i lang=\"de\">gibt</i>",
     "<i lang=\"de\">gebt</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-decl.de/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Sie ______ das Meer.</i> (“They see the sea”).",
-   "explain": "<i lang=\"de\">Sie</i>, they, is the third person plural, and its verb ends in <i lang=\"de\">-en</i>.",
+   "explain": "<i lang=\"de\">Sie</i>, “they,” is the third person plural, and its verb ends in <i lang=\"de\">-en</i>.",
    "options": [
     "<i lang=\"de\">sehen</i>",
     "<i lang=\"de\">sieht</i>",
@@ -592,7 +592,7 @@ ARS.exercises["lang.iii-decl.de/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der Zug kommt um acht ______.</i> (“The train arrives at eight”).",
-   "explain": "<i lang=\"de\">Ankommen</i> has a separable prefix, and in a main clause the prefix goes to the end: <i lang=\"de\">der Zug kommt um acht</i> an.",
+   "explain": "<i lang=\"de\">Ankommen</i> has a separable prefix, and in a main clause the prefix goes to the end: <i lang=\"de\">der Zug kommt um acht an</i>.",
    "options": [
     "<i lang=\"de\">an</i>",
     "<i lang=\"de\">auf</i>",

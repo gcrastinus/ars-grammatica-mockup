@@ -162,7 +162,7 @@ ARS.decks["lang.iii-decl.de/strong"] = {
        "<i lang=\"de\">gekannen</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"de\">Kennen, kannte, gekannt</i>."
+      "explain": "<i lang=\"de\">Kennen</i> is a mixed verb: <i lang=\"de\">kennen, kannte, gekannt</i>."
      },
      {
       "prompt": "What is the third person singular present of <i lang=\"de\">wissen</i>?",

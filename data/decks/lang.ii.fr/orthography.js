@@ -130,7 +130,7 @@ ARS.decks["lang.ii.fr/orthography"] = {
        "Guillemets, « … »"
       ],
       "answer": 3,
-      "explain": "Guillemets, with a space inside each mark."
+      "explain": "French quotations take guillemets, with a space inside each mark."
      }
     ]
    }

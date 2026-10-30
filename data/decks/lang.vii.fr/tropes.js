@@ -87,7 +87,7 @@ ARS.decks["lang.vii.fr/tropes"] = {
        "Danger and glory"
       ],
       "answer": 3,
-      "explain": "No danger, no glory: an antithesis."
+      "explain": "Danger is set against glory in matching halves, which is antithesis."
      }
     ]
    }

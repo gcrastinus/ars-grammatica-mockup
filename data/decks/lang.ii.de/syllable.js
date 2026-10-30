@@ -119,7 +119,7 @@ ARS.decks["lang.ii.de/syllable"] = {
        "On the prefix"
       ],
       "answer": 1,
-      "explain": "<i lang=\"de\">Ra-SIE-ren</i>."
+      "explain": "Verbs in <i lang=\"de\">-ieren</i> are stressed on <i lang=\"de\">-ie-</i>, as in <i lang=\"de\">ra-SIE-ren</i>."
      },
      {
       "prompt": "Where are nouns in <i lang=\"de\">-ei</i> stressed?",
@@ -130,7 +130,7 @@ ARS.decks["lang.ii.de/syllable"] = {
        "Nowhere"
       ],
       "answer": 0,
-      "explain": "<i lang=\"de\">Male-REI</i>."
+      "explain": "Nouns in <i lang=\"de\">-ei</i> are stressed on the ending, as in <i lang=\"de\">Male-REI</i>."
      }
     ]
    }

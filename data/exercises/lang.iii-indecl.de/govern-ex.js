@@ -144,7 +144,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Die Katze schläft unter ___ Tisch.</i> (“The cat sleeps under the table”).",
-   "explain": "Position (<i lang=\"de\">wo?</i>): the dative.",
+   "explain": "The cat is in a place (<i lang=\"de\">wo?</i>), so <i lang=\"de\">unter</i> takes the dative.",
    "options": [
     "<i lang=\"de\">den</i>",
     "<i lang=\"de\">der</i>",
@@ -160,7 +160,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Die Katze läuft unter ___ Tisch.</i> (“The cat runs under the table”).",
-   "explain": "Movement to a place (<i lang=\"de\">wohin?</i>): the accusative.",
+   "explain": "The cat moves to a place (<i lang=\"de\">wohin?</i>), so <i lang=\"de\">unter</i> takes the accusative.",
    "options": [
     "<i lang=\"de\">dem</i>",
     "<i lang=\"de\">der</i>",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Die Katze läuft unter ___ Bett.</i> (“The cat runs under the bed”).",
-   "explain": "Movement to a place under the bed: accusative.",
+   "explain": "The cat moves to a place under the bed, so <i lang=\"de\">unter</i> takes the accusative.",
    "options": [
     "<i lang=\"de\">das</i>",
     "<i lang=\"de\">dem</i>",
@@ -240,7 +240,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Zwischen ___ Häusern ist ein Garten.</i> (“Between the houses is a garden”).",
-   "explain": "Position: the dative plural <i lang=\"de\">den</i>, with <i lang=\"de\">-n</i> on the noun.",
+   "explain": "The garden is in a place, so <i lang=\"de\">zwischen</i> takes the dative plural <i lang=\"de\">den</i>, with <i lang=\"de\">-n</i> on the noun.",
    "options": [
     "<i lang=\"de\">die</i>",
     "<i lang=\"de\">den</i>",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Er wartet vor ___ Tür.</i> (“He is waiting in front of the door”).",
-   "explain": "Position: the feminine dative <i lang=\"de\">der</i>.",
+   "explain": "He waits in a place, so <i lang=\"de\">vor</i> takes the dative, feminine <i lang=\"de\">der</i>.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">die</i>",
@@ -272,7 +272,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Wir gehen heute ___ Theater.</i> (“We are going to the theater today”).",
-   "explain": "Movement into: <i lang=\"de\">in das</i>, contracted to <i lang=\"de\">ins</i>.",
+   "explain": "Movement into a place takes the accusative: <i lang=\"de\">in das</i>, contracted to <i lang=\"de\">ins</i>.",
    "options": [
     "<i lang=\"de\">im</i>",
     "<i lang=\"de\">in dem</i>",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Er wohnt ___ dritten Stock.</i> (“He lives on the third floor”).",
-   "explain": "Position: <i lang=\"de\">in dem</i>, contracted to <i lang=\"de\">im</i>.",
+   "explain": "Position in a place takes the dative: <i lang=\"de\">in dem</i>, contracted to <i lang=\"de\">im</i>.",
    "options": [
     "<i lang=\"de\">ins</i>",
     "<i lang=\"de\">in den</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Das Flugzeug fliegt über ___ Stadt.</i> (“The plane flies over the city”).",
-   "explain": "Movement across, toward and over the city: accusative.",
+   "explain": "The plane moves across the city, so <i lang=\"de\">über</i> takes the accusative.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">den</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.de/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Die Wolken hängen über ___ Stadt.</i> (“The clouds hang over the city”).",
-   "explain": "Position: dative.",
+   "explain": "The clouds are in a place, so <i lang=\"de\">über</i> takes the dative.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">die</i>",

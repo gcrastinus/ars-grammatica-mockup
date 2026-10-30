@@ -32,7 +32,7 @@ ARS.exercises["lang.ii.de/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"de\">Zeitung</i> have?",
-   "explain": "<i lang=\"de\">Zei-tung</i>.",
+   "explain": "<i lang=\"de\">Zeitung</i> has two syllables, <i lang=\"de\">Zei-tung</i>.",
    "options": [
     "Three",
     "One",

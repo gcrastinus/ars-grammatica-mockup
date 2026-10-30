@@ -76,7 +76,7 @@ ARS.decks["lang.iii-indecl.fr/compared"] = {
        "<i lang=\"fr\">de</i>"
       ],
       "answer": 3,
-      "explain": "After a word of quantity, plain <i lang=\"fr\">de</i>."
+      "explain": "After a word of quantity the partitive becomes plain <i lang=\"fr\">de</i>."
      },
      {
       "prompt": "Why does <i lang=\"fr\">Je n’aime pas le thé</i> keep <i lang=\"fr\">le</i>?",

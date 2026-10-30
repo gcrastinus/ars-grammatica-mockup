@@ -65,7 +65,7 @@ ARS.decks["lang.ii.de/orthography"] = {
        "<i lang=\"de\">Straßße</i>"
       ],
       "answer": 0,
-      "explain": "After a long vowel, <i lang=\"de\">ß</i>."
+      "explain": "After a long vowel German writes <i lang=\"de\">ß</i>."
      },
      {
       "prompt": "Which is correct for “kiss,” whose vowel is short?",
@@ -76,7 +76,7 @@ ARS.decks["lang.ii.de/orthography"] = {
        "<i lang=\"de\">Kuss</i>"
       ],
       "answer": 3,
-      "explain": "After a short vowel, <i lang=\"de\">ss</i>."
+      "explain": "After a short vowel German writes <i lang=\"de\">ss</i>."
      },
      {
       "prompt": "Which completes <i lang=\"de\">Er sagt, ______ er kommt</i>?",
@@ -130,7 +130,7 @@ ARS.decks["lang.ii.de/orthography"] = {
        "With dashes"
       ],
       "answer": 0,
-      "explain": "„So.“"
+      "explain": "German quotation marks are low at the start and high at the end: „So.“"
      }
     ]
    }

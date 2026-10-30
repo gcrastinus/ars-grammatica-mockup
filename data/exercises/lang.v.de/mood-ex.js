@@ -192,7 +192,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er tut so, als ______ er der König.</i> (“He acts as if he were the king”).",
-   "explain": "After <i lang=\"de\">als</i> in the sense of as if, the verb follows at once and stands in the Konjunktiv II: <i lang=\"de\">als wäre er der König</i>.",
+   "explain": "After <i lang=\"de\">als</i> in the sense of “as if,” the verb follows at once and stands in the Konjunktiv II: <i lang=\"de\">als wäre er der König</i>.",
    "options": [
     "<i lang=\"de\">wäre</i>",
     "<i lang=\"de\">ist</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the Konjunktiv I, third person singular, of <i lang=\"de\">sprechen</i>.",
-   "explain": "The Konjunktiv I keeps the vowel of the infinitive, without the change to i: <i lang=\"de\">er spreche</i>.",
+   "explain": "The Konjunktiv I keeps the vowel of the infinitive, without the change to <i lang=\"de\">i</i>: <i lang=\"de\">er spreche</i>.",
    "options": [
     "<i lang=\"de\">spreche</i>",
     "<i lang=\"de\">spricht</i>",
@@ -400,7 +400,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">______ das Buch!</i> (to one friend: “Read the book!”).",
-   "explain": "A strong verb that changes e to ie in the present also changes it in the imperative singular, and the imperative has no <i lang=\"de\">-st</i>: lies!",
+   "explain": "A strong verb that changes <i lang=\"de\">e</i> to <i lang=\"de\">ie</i> in the present also changes it in the imperative singular, and the imperative has no <i lang=\"de\">-st</i>: <i lang=\"de\">lies!</i>",
    "options": [
     "<i lang=\"de\">Lies</i>",
     "<i lang=\"de\">Lest</i>",
@@ -416,7 +416,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">______ mir das Buch!</i> (to one friend: “Give me the book!”).",
-   "explain": "The imperative singular of <i lang=\"de\">geben</i> is <i lang=\"de\">gib</i>, with the change of e to i.",
+   "explain": "The imperative singular of <i lang=\"de\">geben</i> is <i lang=\"de\">gib</i>, with the change of <i lang=\"de\">e</i> to <i lang=\"de\">i</i>.",
    "options": [
     "<i lang=\"de\">Gib</i>",
     "<i lang=\"de\">Gebt</i>",
@@ -464,7 +464,7 @@ ARS.exercises["lang.v.de/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">______ lauter!</i> (to one friend: “Speak louder!”).",
-   "explain": "The imperative singular of <i lang=\"de\">sprechen</i> is <i lang=\"de\">sprich</i>, with the change of e to i.",
+   "explain": "The imperative singular of <i lang=\"de\">sprechen</i> is <i lang=\"de\">sprich</i>, with the change of <i lang=\"de\">e</i> to <i lang=\"de\">i</i>.",
    "options": [
     "<i lang=\"de\">Sprich</i>",
     "<i lang=\"de\">Sprecht</i>",

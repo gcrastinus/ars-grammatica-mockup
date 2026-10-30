@@ -208,7 +208,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">Das ist nicht mein Hut, ___ deiner.</i> (“That is not my hat but yours”).",
-   "explain": "After a negative, <i lang=\"de\">sondern</i>.",
+   "explain": "After a negative, “but rather” is <i lang=\"de\">sondern</i>.",
    "options": [
     "<i lang=\"de\">aber</i>",
     "<i lang=\"de\">oder</i>",
@@ -240,7 +240,7 @@ ARS.exercises["lang.iii-indecl.de/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"de\">___ ich ein Kind war, wohnten wir in Bonn.</i> (“When I was a child, we lived in Bonn”).",
-   "explain": "For one period or event in the past, <i lang=\"de\">als</i>.",
+   "explain": "For one period or event in the past German uses <i lang=\"de\">als</i>.",
    "options": [
     "<i lang=\"de\">Wenn</i>",
     "<i lang=\"de\">Wann</i>",

@@ -16,7 +16,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Wir ______ das Buch.</i> (“We read the book”).",
-   "explain": "<i lang=\"de\">Wir</i> is the first person plural, and its verb ends in <i lang=\"de\">-en</i>: <i lang=\"de\">wir lesen</i>. <i lang=\"de\">Liest</i> is the second or third person singular, lest the second person plural, and <i lang=\"de\">lese</i> the first person singular.",
+   "explain": "<i lang=\"de\">Wir</i> is the first person plural, and its verb ends in <i lang=\"de\">-en</i>: <i lang=\"de\">wir lesen</i>. <i lang=\"de\">Liest</i> is the second or third person singular, <i lang=\"de\">lest</i> the second person plural, and <i lang=\"de\">lese</i> the first person singular.",
    "options": [
     "<i lang=\"de\">lesen</i>",
     "<i lang=\"de\">liest</i>",
@@ -32,7 +32,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Du ______ das Buch.</i> (“You (one friend) read the book”).",
-   "explain": "<i lang=\"de\">Du</i> is the second person singular, and <i lang=\"de\">lesen</i> changes e to ie in that person and the next: <i lang=\"de\">du liest</i>, <i lang=\"de\">er liest</i>. Lest is the second person plural.",
+   "explain": "<i lang=\"de\">Du</i> is the second person singular, and <i lang=\"de\">lesen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">ie</i> in that person and the next: <i lang=\"de\">du liest</i>, <i lang=\"de\">er liest</i>. <i lang=\"de\">Lest</i> is the second person plural.",
    "options": [
     "<i lang=\"de\">liest</i>",
     "<i lang=\"de\">lest</i>",
@@ -48,7 +48,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er ______ mit dem König.</i> (“He speaks with the king”).",
-   "explain": "<i lang=\"de\">Er</i> is the third person singular, and <i lang=\"de\">sprechen</i> changes e to i in the second and third persons singular: <i lang=\"de\">er spricht</i>. <i lang=\"de\">Sprecht</i> is the second person plural.",
+   "explain": "<i lang=\"de\">Er</i> is the third person singular, and <i lang=\"de\">sprechen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">i</i> in the second and third persons singular: <i lang=\"de\">er spricht</i>. <i lang=\"de\">Sprecht</i> is the second person plural.",
    "options": [
     "<i lang=\"de\">spricht</i>",
     "<i lang=\"de\">sprecht</i>",
@@ -128,7 +128,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der Freund ______ das Meer.</i> (“The friend sees the sea”).",
-   "explain": "<i lang=\"de\">Der Freund</i> is a third person singular subject, and <i lang=\"de\">sehen</i> changes e to ie in that person: <i lang=\"de\">er sieht</i>. <i lang=\"de\">Siehst</i> is the second person singular.",
+   "explain": "<i lang=\"de\">Der Freund</i> is a third person singular subject, and <i lang=\"de\">sehen</i> changes <i lang=\"de\">e</i> to <i lang=\"de\">ie</i> in that person: <i lang=\"de\">er sieht</i>. <i lang=\"de\">Siehst</i> is the second person singular.",
    "options": [
     "<i lang=\"de\">sieht</i>",
     "<i lang=\"de\">seht</i>",
@@ -208,7 +208,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der König hilft ______.</i> (“The king helps her”).",
-   "explain": "Helfen takes the dative, and the dative of <i lang=\"de\">sie</i>, she, is <i lang=\"de\">ihr</i>. <i lang=\"de\">Sie</i> would be the accusative, and <i lang=\"de\">ihnen</i> is plural.",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, and the dative of <i lang=\"de\">sie</i>, “she,” is <i lang=\"de\">ihr</i>. <i lang=\"de\">Sie</i> would be the accusative, and <i lang=\"de\">ihnen</i> is plural.",
    "options": [
     "<i lang=\"de\">ihr</i>",
     "<i lang=\"de\">sie</i>",
@@ -224,7 +224,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ich danke ______.</i> (“I thank you (one friend)”).",
-   "explain": "Danken takes the dative, and the dative of <i lang=\"de\">du</i> is <i lang=\"de\">dir</i>. <i lang=\"de\">Dich</i> is the accusative.",
+   "explain": "<i lang=\"de\">Danken</i> takes the dative, and the dative of <i lang=\"de\">du</i> is <i lang=\"de\">dir</i>. <i lang=\"de\">Dich</i> is the accusative.",
    "options": [
     "<i lang=\"de\">dir</i>",
     "<i lang=\"de\">dich</i>",
@@ -320,7 +320,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der König antwortet ______ Frau.</i> (“The king answers the woman”).",
-   "explain": "Antworten takes the dative of the person answered, and the feminine dative is <i lang=\"de\">der</i>.",
+   "explain": "<i lang=\"de\">Antworten</i> takes the dative of the person answered, and the feminine dative is <i lang=\"de\">der</i>.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">die</i>",
@@ -384,7 +384,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der König hilft ______ Freund.</i> (“The king helps the friend”).",
-   "explain": "Helfen takes the dative, so <i lang=\"de\">dem Freund</i>. <i lang=\"de\">Den</i> would be the accusative.",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, so <i lang=\"de\">dem Freund</i>. <i lang=\"de\">Den</i> would be the accusative.",
    "options": [
     "<i lang=\"de\">dem</i>",
     "<i lang=\"de\">den</i>",
@@ -576,7 +576,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ich helfe dem Mann und ______ Frau.</i> (“I help the man and the woman”).",
-   "explain": "Helfen takes the dative, and both nouns joined by <i lang=\"de\">und</i> are in that case, so <i lang=\"de\">der Frau</i>.",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, and both nouns joined by <i lang=\"de\">und</i> are in that case, so <i lang=\"de\">der Frau</i>.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">die</i>",
@@ -656,7 +656,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der König ist in ______ Stadt.</i> (“The king is in the city”).",
-   "explain": "In takes the dative for the place where, and the feminine dative is <i lang=\"de\">der</i>.",
+   "explain": "<i lang=\"de\">In</i> takes the dative for the place where, and the feminine dative is <i lang=\"de\">der</i>.",
    "options": [
     "<i lang=\"de\">der</i>",
     "<i lang=\"de\">die</i>",
@@ -672,7 +672,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der König geht in ______ Stadt.</i> (“The king goes into the city”).",
-   "explain": "In takes the accusative for the place to which, and the feminine accusative is <i lang=\"de\">die</i>.",
+   "explain": "<i lang=\"de\">In</i> takes the accusative for the place to which, and the feminine accusative is <i lang=\"de\">die</i>.",
    "options": [
     "<i lang=\"de\">die</i>",
     "<i lang=\"de\">der</i>",
@@ -688,7 +688,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Das Buch ist ______ Haus.</i> (“The book is in the house”).",
-   "explain": "The place where takes in with the dative, and in <i lang=\"de\">dem</i> contracts to <i lang=\"de\">im</i>.",
+   "explain": "The place where takes <i lang=\"de\">in</i> with the dative, and <i lang=\"de\">in dem</i> contracts to <i lang=\"de\">im</i>.",
    "options": [
     "<i lang=\"de\">im</i>",
     "<i lang=\"de\">ins</i>",
@@ -704,7 +704,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er geht ______ Haus.</i> (“He goes into the house”).",
-   "explain": "The place to which takes in with the accusative, and in <i lang=\"de\">das</i> contracts to <i lang=\"de\">ins</i>.",
+   "explain": "The place to which takes <i lang=\"de\">in</i> with the accusative, and <i lang=\"de\">in das</i> contracts to <i lang=\"de\">ins</i>.",
    "options": [
     "<i lang=\"de\">ins</i>",
     "<i lang=\"de\">im</i>",
@@ -768,7 +768,7 @@ ARS.exercises["lang.v.de/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Das Pferd steht im ______.</i> (“The horse stands in the garden”).",
-   "explain": "<i lang=\"de\">Im</i> is in with the dative, and the dative singular of <i lang=\"de\">Garten</i> has no ending. <i lang=\"de\">Gärten</i> is the plural, and <i lang=\"de\">Gartens</i> the genitive.",
+   "explain": "<i lang=\"de\">Im</i> is <i lang=\"de\">in</i> with the dative, and the dative singular of <i lang=\"de\">Garten</i> has no ending. <i lang=\"de\">Gärten</i> is the plural, and <i lang=\"de\">Gartens</i> the genitive.",
    "options": [
     "<i lang=\"de\">Garten</i>",
     "<i lang=\"de\">Gärten</i>",

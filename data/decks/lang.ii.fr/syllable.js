@@ -65,7 +65,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
        "Lengthening a vowel"
       ],
       "answer": 2,
-      "explain": "<i lang=\"fr\">L’arbre</i>, <i lang=\"fr\">j’arrive</i>."
+      "explain": "Elision drops the vowel, as in <i lang=\"fr\">l’arbre</i> and <i lang=\"fr\">j’arrive</i>."
      },
      {
       "prompt": "What is liaison?",
@@ -76,7 +76,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
        "A change of accent"
       ],
       "answer": 1,
-      "explain": "<i lang=\"fr\">Les_arbres</i> with <i lang=\"fr\">z</i>."
+      "explain": "In <i lang=\"fr\">les_arbres</i> the <i lang=\"fr\">s</i> is sounded <i lang=\"fr\">z</i> before the vowel."
      },
      {
       "prompt": "What does an aspirated <i lang=\"fr\">h</i> forbid?",
@@ -87,7 +87,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
        "The accent"
       ],
       "answer": 0,
-      "explain": "<i lang=\"fr\">Le hamac</i>, <i lang=\"fr\">les hamacs</i>."
+      "explain": "The <i lang=\"fr\">h</i> of <i lang=\"fr\">hamac</i> is aspirated, so French writes <i lang=\"fr\">le hamac</i> and says <i lang=\"fr\">les hamacs</i> without liaison."
      }
     ]
    }
@@ -119,7 +119,7 @@ ARS.decks["lang.ii.fr/syllable"] = {
        "<i lang=\"fr\">-té-</i>"
       ],
       "answer": 2,
-      "explain": "The last sounded syllable of the group."
+      "explain": "The beat falls on the last sounded syllable of the group, <i lang=\"fr\">-sant</i>."
      },
      {
       "prompt": "Is there a penult rule for French stress, as in Latin?",

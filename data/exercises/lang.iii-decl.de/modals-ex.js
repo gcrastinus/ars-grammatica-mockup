@@ -63,7 +63,7 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: Er ___ morgen leider nicht arbeiten. (“He cannot work tomorrow, unfortunately”).",
+   "prompt": "Choose the form: <i lang=\"de\">Er ___ morgen leider nicht arbeiten.</i> (“He cannot work tomorrow, unfortunately”).",
    "explain": "The third person singular of <i lang=\"de\">können</i> has no ending: <i lang=\"de\">er kann</i>.",
    "options": [
     "<i lang=\"de\">könnt</i>",
@@ -111,7 +111,7 @@ ARS.exercises["lang.iii-decl.de/modals-ex"] = {
    "deck": "lang.iii-decl.de/modals-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the form: Wir ___ zwei Zimmer, bitte. (“We would like two rooms, please”).",
+   "prompt": "Choose the form: <i lang=\"de\">Wir ___ zwei Zimmer, bitte.</i> (“We would like two rooms, please”).",
    "explain": "<i lang=\"de\">Möchte</i>, the Konjunktiv II of <i lang=\"de\">mögen</i>, serves as a polite present; with <i lang=\"de\">wir</i> it is <i lang=\"de\">möchten</i>.",
    "options": [
     "<i lang=\"de\">möchten</i>",

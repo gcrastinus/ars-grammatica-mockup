@@ -80,7 +80,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Which scheme repeats a word at the head of successive members?",
-   "explain": "As in <i lang=\"de\">Kennst du … Kennst du …</i>.",
+   "explain": "Mignon’s song repeats <i lang=\"de\">Kennst du</i> at the head of each member, which is anaphora.",
    "options": [
     "Chiasmus",
     "Antithesis",
@@ -144,7 +144,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"de\">Wir leben nicht, um zu essen; wir essen, um zu leben</i>, which scheme orders the terms?",
-   "explain": "Live, eat; eat, live.",
+   "explain": "The terms run live, eat, then eat, live, which is chiasmus.",
    "options": [
     "Anaphora",
     "Polysyndeton",
@@ -160,7 +160,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"de\">Er kam, er redete, er überzeugte</i>, which scheme is used?",
-   "explain": "Three clauses, no conjunction.",
+   "explain": "The three clauses stand with no conjunction, which is asyndeton.",
    "options": [
     "Antithesis",
     "Asyndeton",
@@ -176,7 +176,7 @@ ARS.exercises["lang.vii.de/tropes-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In <i lang=\"de\">Jung an Jahren, alt an Weisheit</i> (“young in years, old in wisdom”), which scheme is used?",
-   "explain": "Young and old in matching form.",
+   "explain": "<i lang=\"de\">Jung</i> is set against <i lang=\"de\">alt</i> in matching form, which is antithesis.",
    "options": [
     "Polysyndeton",
     "Anaphora",

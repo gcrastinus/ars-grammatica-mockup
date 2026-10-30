@@ -184,7 +184,7 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the auxiliary: Er ___ nach Hause gelaufen (“He ran home”).",
+   "prompt": "Choose the auxiliary: <i lang=\"de\">Er ___ nach Hause gelaufen</i> (“He ran home”).",
    "explain": "<i lang=\"de\">Laufen</i> is a verb of motion with no object, so its Perfekt takes <i lang=\"de\">sein</i>: <i lang=\"de\">er ist gelaufen</i>.",
    "options": [
     "<i lang=\"de\">hat</i>",
@@ -283,7 +283,7 @@ ARS.exercises["lang.iii-decl.de/strong-ex"] = {
    "deck": "lang.iii-decl.de/strong-ex",
    "section": "iii",
    "type": "mc",
-   "prompt": "Choose the auxiliary: Sie ___ das Pferd über das Feld geritten (“She rode the horse across the field”).",
+   "prompt": "Choose the auxiliary: <i lang=\"de\">Sie ___ das Pferd über das Feld geritten</i> (“She rode the horse across the field”).",
    "explain": "With a direct object, <i lang=\"de\">reiten</i> forms its Perfekt with <i lang=\"de\">haben</i>: <i lang=\"de\">sie hat das Pferd geritten</i>.",
    "options": [
     "<i lang=\"de\">ist</i>",

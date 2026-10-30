@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Elle parle avec ___.</i> (“She is speaking with me”).",
-   "explain": "After a preposition, the stressed form <i lang=\"fr\">moi</i>.",
+   "explain": "After a preposition French uses the stressed form <i lang=\"fr\">moi</i>.",
    "options": [
     "<i lang=\"fr\">me</i>",
     "<i lang=\"fr\">je</i>",
@@ -32,7 +32,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Nous habitons ___ Rome.</i> (“We live in Rome”).",
-   "explain": "With a city, <i lang=\"fr\">à</i>.",
+   "explain": "Before the name of a city French uses <i lang=\"fr\">à</i>.",
    "options": [
     "<i lang=\"fr\">en</i>",
     "<i lang=\"fr\">au</i>",
@@ -224,7 +224,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il est parti sans ___ au revoir.</i> (“He left without saying goodbye”).",
-   "explain": "After <i lang=\"fr\">sans</i>, the infinitive.",
+   "explain": "After <i lang=\"fr\">sans</i> French uses the infinitive.",
    "options": [
     "<i lang=\"fr\">disant</i>",
     "<i lang=\"fr\">dire</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il s’est assis derrière ___.</i> (“He sat down behind them”).",
-   "explain": "After a preposition, the stressed form <i lang=\"fr\">eux</i>.",
+   "explain": "After a preposition French uses the stressed form <i lang=\"fr\">eux</i>.",
    "options": [
     "<i lang=\"fr\">les</i>",
     "<i lang=\"fr\">leur</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-indecl.fr/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il a besoin ___ dormir.</i> (“He needs to sleep”).",
-   "explain": "<i lang=\"fr\">Avoir besoin de</i> before an infinitive.",
+   "explain": "<i lang=\"fr\">Avoir besoin</i> takes <i lang=\"fr\">de</i> before an infinitive.",
    "options": [
     "<i lang=\"fr\">de</i>",
     "<i lang=\"fr\">à</i>",

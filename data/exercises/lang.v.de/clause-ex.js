@@ -48,7 +48,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Der Mann, ______ ich helfe, ist mein Freund.</i> (“The man whom I help is my friend”).",
-   "explain": "Helfen takes the dative, so the relative is <i lang=\"de\">dem</i>.",
+   "explain": "<i lang=\"de\">Helfen</i> takes the dative, so the relative is <i lang=\"de\">dem</i>.",
    "options": [
     "<i lang=\"de\">dem</i>",
     "<i lang=\"de\">den</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Das Buch, ______ ich lese, ist lang.</i> (“The book that I read is long”).",
-   "explain": "The relative of a neuter noun <i lang=\"de\">in</i> the accusative is <i lang=\"de\">das</i>, with one s. <i lang=\"de\">Dass</i> is the conjunction that.",
+   "explain": "The relative of a neuter noun in the accusative is <i lang=\"de\">das</i>, with one <i lang=\"de\">s</i>. <i lang=\"de\">Dass</i> is the conjunction “that.”",
    "options": [
     "<i lang=\"de\">das</i>",
     "<i lang=\"de\">dass</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Er sagt, ______ der König krank ist.</i> (“He says that the king is ill”).",
-   "explain": "A reported statement can be introduced by <i lang=\"de\">dass</i>, with two s, and its verb goes to the end. <i lang=\"de\">Das</i> is the article or the relative.",
+   "explain": "A reported statement can be introduced by <i lang=\"de\">dass</i>, with two <i lang=\"de\">s</i>, and its verb goes to the end. <i lang=\"de\">Das</i> is the article or the relative.",
    "options": [
     "<i lang=\"de\">dass</i>",
     "<i lang=\"de\">das</i>",
@@ -416,7 +416,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Sie fragt, ______ er will.</i> (“She asks what he wants”).",
-   "explain": "The question is about the thing wanted, so was. <i lang=\"de\">Wer</i> asks about a person.",
+   "explain": "The question is about the thing wanted, so <i lang=\"de\">was</i>. <i lang=\"de\">Wer</i> asks about a person.",
    "options": [
     "<i lang=\"de\">was</i>",
     "<i lang=\"de\">wer</i>",
@@ -432,7 +432,7 @@ ARS.exercises["lang.v.de/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"de\">Ich glaube, dass sie recht ______.</i> (“I believe that she is right”).",
-   "explain": "After <i lang=\"de\">dass</i> the verb goes to the end, and <i lang=\"de\">sie</i>, she, takes <i lang=\"de\">hat</i>.",
+   "explain": "After <i lang=\"de\">dass</i> the verb goes to the end, and <i lang=\"de\">sie</i>, “she,” takes <i lang=\"de\">hat</i>.",
    "options": [
     "<i lang=\"de\">hat</i>",
     "<i lang=\"de\">haben</i>",

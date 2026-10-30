@@ -32,7 +32,7 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What kind of compound is <i lang=\"fr\">casse-noix</i> (“nutcracker,” “break-nut”)?",
-   "explain": "<i lang=\"fr\">Casse</i>, “breaks,” and <i lang=\"fr\">noix</i>, “nut.”",
+   "explain": "The compound joins <i lang=\"fr\">casse</i>, “breaks,” and <i lang=\"fr\">noix</i>, “nut.”",
    "options": [
     "A verb joined to its object",
     "Two nouns joined by a hyphen",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iv.fr/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"fr\">mésentente</i> mean, from <i lang=\"fr\">entente</i> (“understanding”)?",
-   "explain": "<i lang=\"fr\">Més-</i>, “badly,” before a vowel.",
+   "explain": "The prefix is <i lang=\"fr\">més-</i>, “badly,” the form used before a vowel.",
    "options": [
     "“good understanding”",
     "“misunderstanding”",

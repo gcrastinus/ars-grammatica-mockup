@@ -48,7 +48,7 @@ ARS.exercises["lang.ii.fr/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"fr\">aujourd’hui</i> have?",
-   "explain": "<i lang=\"fr\">Au-jour-d’hui</i>.",
+   "explain": "<i lang=\"fr\">Aujourd’hui</i> has three syllables, <i lang=\"fr\">au-jour-d’hui</i>.",
    "options": [
     "Four",
     "Two",
@@ -96,7 +96,7 @@ ARS.exercises["lang.ii.fr/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"fr\">chanson</i> have?",
-   "explain": "<i lang=\"fr\">Chan-son</i>.",
+   "explain": "<i lang=\"fr\">Chanson</i> has two syllables, <i lang=\"fr\">chan-son</i>.",
    "options": [
     "Two",
     "Three",

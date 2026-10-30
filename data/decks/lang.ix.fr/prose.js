@@ -33,7 +33,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "It is a question"
       ],
       "answer": 2,
-      "explain": "Each thinks himself to be provided."
+      "explain": "The subject of <em lang=\"fr\">pense</em> and of <em lang=\"fr\">être</em> is the same, so the infinitive follows directly: each thinks himself to be provided."
      },
      {
       "prompt": "What does <em lang=\"fr\">à contenter</em> complete?",
@@ -44,7 +44,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "<em lang=\"fr\">difficiles</em>"
       ],
       "answer": 3,
-      "explain": "Difficult to satisfy."
+      "explain": "<em lang=\"fr\">À contenter</em> completes the adjective: “difficult to satisfy.”"
      }
     ]
    }
@@ -158,7 +158,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "<em lang=\"fr\">une vapeur</em>"
       ],
       "answer": 2,
-      "explain": "The superlative describes the reed."
+      "explain": "The superlative phrase is set beside <em lang=\"fr\">un roseau</em> and describes the reed."
      },
      {
       "prompt": "What does <em lang=\"fr\">pour</em> with the infinitive give in <em lang=\"fr\">pour l’écraser</em>?",
@@ -169,7 +169,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The time"
       ],
       "answer": 1,
-      "explain": "To crush him."
+      "explain": "<em lang=\"fr\">Pour</em> with the infinitive gives the purpose: “to crush him.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">l’</em> stand for in <em lang=\"fr\">pour l’écraser</em>?",
@@ -226,7 +226,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "It gives a reason"
       ],
       "answer": 0,
-      "explain": "“This here is an honest book.”"
+      "explain": "<em lang=\"fr\">C’est ici</em> presents the book: “this here is an honest book.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">y</em> stand for in <em lang=\"fr\">je ne m’y suis proposé</em>?",
@@ -248,7 +248,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "A comparison"
       ],
       "answer": 2,
-      "explain": "Neither your service nor my glory."
+      "explain": "<em lang=\"fr\">Ni</em> continues the negative already begun: neither your service nor my glory."
      }
     ]
    }
@@ -289,7 +289,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The subject"
       ],
       "answer": 0,
-      "explain": "Man is born free."
+      "explain": "<em lang=\"fr\">Libre</em> is said of the subject through the verb, so it is a predicate adjective: man is born free."
      },
      {
       "prompt": "Why does <em lang=\"fr\">partout</em> stand first?",
@@ -300,7 +300,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "For emphasis"
       ],
       "answer": 3,
-      "explain": "“Everywhere he is in chains.”"
+      "explain": "<em lang=\"fr\">Partout</em> stands first for emphasis: “everywhere he is in chains.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">Tel</em> mean, used alone?",
@@ -311,7 +311,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "“none”"
       ],
       "answer": 2,
-      "explain": "<em lang=\"fr\">Tel se croit le maître des autres.</em>"
+      "explain": "Used alone, <em lang=\"fr\">tel</em> means “such a one”: <em lang=\"fr\">Tel se croit le maître des autres</em>."
      }
     ]
    }
@@ -374,7 +374,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "<em lang=\"fr\">les objets</em>"
       ],
       "answer": 1,
-      "explain": "<em lang=\"fr\">Aucun n’a plus vivement frappé mes regards.</em>"
+      "explain": "<em lang=\"fr\">Aucun</em> is the subject of the main verb: <em lang=\"fr\">Aucun n’a plus vivement frappé mes regards</em>."
      }
     ]
    }
@@ -415,7 +415,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The time"
       ],
       "answer": 1,
-      "explain": "Followed by a new boy."
+      "explain": "After the participle <em lang=\"fr\">suivi</em>, <em lang=\"fr\">de</em> gives the agent: “followed by a new boy.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">qui portait</em> describe?",
@@ -426,7 +426,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "<em lang=\"fr\">nous</em>"
       ],
       "answer": 2,
-      "explain": "The school servant carried a desk."
+      "explain": "<em lang=\"fr\">Qui portait</em> describes the school servant, who carried a desk."
      },
      {
       "prompt": "What tense is <em lang=\"fr\">portait</em>?",
@@ -437,7 +437,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "Imperfect"
       ],
       "answer": 3,
-      "explain": "It describes him."
+      "explain": "The imperfect describes him as he was at that moment."
      }
     ]
    }
@@ -478,7 +478,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "“toward”"
       ],
       "answer": 2,
-      "explain": "An old man of about seventy-five."
+      "explain": "<em lang=\"fr\">D’environ</em> means “of about”: an old man of about seventy-five."
      },
      {
       "prompt": "What does <em lang=\"fr\">depuis</em> with the imperfect say?",
@@ -536,7 +536,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "Two"
       ],
       "answer": 3,
-      "explain": "<em lang=\"fr\">Naissent</em> and <em lang=\"fr\">demeurent</em>."
+      "explain": "Two verbs, <em lang=\"fr\">naissent</em> and <em lang=\"fr\">demeurent</em>, share the subject."
      },
      {
       "prompt": "What is <em lang=\"fr\">être fondées</em>?",
@@ -547,7 +547,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "A subjunctive"
       ],
       "answer": 0,
-      "explain": "After <em lang=\"fr\">peuvent</em>."
+      "explain": "<em lang=\"fr\">Être fondées</em> is the passive infinitive that follows <em lang=\"fr\">peuvent</em>."
      },
      {
       "prompt": "What does <em lang=\"fr\">ne … que</em> mean?",
@@ -558,7 +558,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "“never”"
       ],
       "answer": 1,
-      "explain": "Only on the common good."
+      "explain": "<em lang=\"fr\">Ne … que</em> means “only”: only on the common good."
      }
     ]
    }
@@ -594,7 +594,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The partitive"
       ],
       "answer": 3,
-      "explain": "Some prose."
+      "explain": "<em lang=\"fr\">De la</em> before a mass noun is the partitive: “some prose.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">Il y a … que</em> with the present say?",
@@ -605,7 +605,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "What will happen"
       ],
       "answer": 0,
-      "explain": "For forty years I have been speaking prose."
+      "explain": "<em lang=\"fr\">Il y a … que</em> with the present says how long something has been going on: for forty years I have been speaking prose."
      },
      {
       "prompt": "What is <em lang=\"fr\">vous</em> in <em lang=\"fr\">je vous suis le plus obligé</em>?",
@@ -616,7 +616,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "A reflexive"
       ],
       "answer": 1,
-      "explain": "Obliged to you."
+      "explain": "<em lang=\"fr\">Vous</em> is the indirect object of <em lang=\"fr\">obligé</em>: “obliged to you.”"
      }
     ]
    }
@@ -715,7 +715,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "<em lang=\"fr\">ces</em>"
       ],
       "answer": 1,
-      "explain": "The eternal silence."
+      "explain": "<em lang=\"fr\">Éternel</em> is masculine singular, agreeing with <em lang=\"fr\">silence</em>: “the eternal silence.”"
      },
      {
       "prompt": "Where does the object pronoun <em lang=\"fr\">m’</em> stand?",
@@ -726,7 +726,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "Before the subject"
       ],
       "answer": 2,
-      "explain": "<em lang=\"fr\">M’effraie.</em>"
+      "explain": "The object pronoun stands before the verb: <em lang=\"fr\">m’effraie</em>."
      },
      {
       "prompt": "What does <em lang=\"fr\">ces</em> point to?",
@@ -737,7 +737,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The spaces"
       ],
       "answer": 3,
-      "explain": "“These spaces.”"
+      "explain": "<em lang=\"fr\">Ces</em> points to the spaces just named: “these spaces.”"
      }
     ]
    }
@@ -784,7 +784,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The predicate"
       ],
       "answer": 3,
-      "explain": "Hypocrisy is a homage."
+      "explain": "<em lang=\"fr\">Un hommage</em> is joined to the subject by <em lang=\"fr\">est</em>, so it is the predicate: hypocrisy is a homage."
      },
      {
       "prompt": "What is <em lang=\"fr\">le vice</em>?",
@@ -795,7 +795,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The predicate"
       ],
       "answer": 2,
-      "explain": "Vice pays the homage."
+      "explain": "<em lang=\"fr\">Le vice</em> is the subject of <em lang=\"fr\">rend</em>: vice pays the homage."
      }
     ]
    }
@@ -831,7 +831,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "It asks a question"
       ],
       "answer": 0,
-      "explain": "“For a long time I went to bed early.”"
+      "explain": "With the <em lang=\"fr\">passé composé</em>, <em lang=\"fr\">longtemps</em> sums up a long stretch of the past: “for a long time I went to bed early.”"
      },
      {
       "prompt": "What does <em lang=\"fr\">si vite que</em> give?",
@@ -842,7 +842,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "The result"
       ],
       "answer": 3,
-      "explain": "So quickly that I did not have time."
+      "explain": "<em lang=\"fr\">Si vite que</em> gives the result: so quickly that I did not have time."
      },
      {
       "prompt": "What is <em lang=\"fr\">me</em> in <em lang=\"fr\">de me dire</em>?",
@@ -853,7 +853,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "A reflexive of the passive"
       ],
       "answer": 2,
-      "explain": "To say to myself."
+      "explain": "<em lang=\"fr\">Me</em> is the indirect object of <em lang=\"fr\">dire</em>: “to say to myself.”"
      }
     ]
    }
@@ -894,7 +894,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "A reason taken as known"
       ],
       "answer": 3,
-      "explain": "“Since.”"
+      "explain": "<em lang=\"fr\">Puisque</em>, “since,” gives a reason that the hearer is taken to know already."
      },
      {
       "prompt": "What does <em lang=\"fr\">donc</em> do?",
@@ -905,7 +905,7 @@ ARS.decks["lang.ix.fr/prose"] = {
        "It sets up a contrast"
       ],
       "answer": 0,
-      "explain": "“Then,” “therefore.”"
+      "explain": "<em lang=\"fr\">Donc</em>, “then” or “therefore,” draws the conclusion from what comes before."
      },
      {
       "prompt": "What is the subject of <em lang=\"fr\">restent</em>?",

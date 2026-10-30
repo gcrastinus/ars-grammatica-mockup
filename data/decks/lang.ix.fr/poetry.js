@@ -22,7 +22,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "A habit"
       ],
       "answer": 1,
-      "explain": "“I am leaving.”"
+      "explain": "The present <em lang=\"fr\">je pars</em> states what is already decided: “I am leaving.”"
      },
      {
       "prompt": "Why is the pronoun not repeated before <em lang=\"fr\">quitte</em>?",
@@ -33,7 +33,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "Its subject is <em lang=\"fr\">Théramène</em>"
       ],
       "answer": 2,
-      "explain": "Two verbs share one subject."
+      "explain": "The two verbs share one subject, so <em lang=\"fr\">je</em> is not repeated."
      },
      {
       "prompt": "What does <em lang=\"fr\">rougir de</em> take?",
@@ -44,7 +44,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "<em lang=\"fr\">de</em>"
       ],
       "answer": 3,
-      "explain": "To blush for."
+      "explain": "<em lang=\"fr\">Rougir</em> takes <em lang=\"fr\">de</em> for the cause: “to blush for.”"
      }
     ]
    }
@@ -90,7 +90,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "The address"
       ],
       "answer": 3,
-      "explain": "“Darling.”"
+      "explain": "<em lang=\"fr\">Mignonne</em>, “darling,” is the person spoken to, so it is the address."
      },
      {
       "prompt": "What tense is <em lang=\"fr\">avait déclose</em>?",
@@ -112,7 +112,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "“soon”"
       ],
       "answer": 1,
-      "explain": "Whether the rose has at all lost its folds."
+      "explain": "Without <em lang=\"fr\">ne</em>, <em lang=\"fr\">point</em> keeps its older sense “at all”: whether the rose has at all lost its folds."
      }
     ]
    }
@@ -153,7 +153,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "A clause of time"
       ],
       "answer": 1,
-      "explain": "As it rains on the town."
+      "explain": "<em lang=\"fr\">Comme</em> sets the weeping of the heart beside the rain: “as it rains on the town.”"
      },
      {
       "prompt": "What is the subject of <em lang=\"fr\">pénètre</em>?",
@@ -175,7 +175,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "An exclamation"
       ],
       "answer": 3,
-      "explain": "“O sweet sound of the rain.”"
+      "explain": "<em lang=\"fr\">Ô</em> with a noun makes an exclamation: “O sweet sound of the rain.”"
      }
     ]
    }
@@ -221,7 +221,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "<em lang=\"fr\">son manteau</em>"
       ],
       "answer": 3,
-      "explain": "The season has left off his cloak."
+      "explain": "<em lang=\"fr\">Son manteau</em> is what the season has left off, so it is the object."
      },
      {
       "prompt": "What is the modern spelling of <em lang=\"fr\">cler</em>?",
@@ -243,7 +243,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "Where he went"
       ],
       "answer": 1,
-      "explain": "“With embroidery.”"
+      "explain": "<em lang=\"fr\">De brouderie</em>, “with embroidery,” tells what he is dressed in."
      }
     ]
    }
@@ -295,7 +295,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "A question with <em lang=\"fr\">que</em>"
       ],
       "answer": 2,
-      "explain": "Only to see."
+      "explain": "<em lang=\"fr\">Que</em> completes the <em lang=\"fr\">ne</em> of the line above: “only to see.”"
      },
      {
       "prompt": "What is the subject of <em lang=\"fr\">flétrir</em>?",
@@ -347,7 +347,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "An apposition"
       ],
       "answer": 0,
-      "explain": "Don Diègue speaks to his son."
+      "explain": "Don Diègue speaks to his son, so <em lang=\"fr\">Rodrigue</em> is the address."
      },
      {
       "prompt": "What does <em lang=\"fr\">L’</em> stand for in <em lang=\"fr\">L’éprouverait</em>?",
@@ -358,7 +358,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "The courage"
       ],
       "answer": 3,
-      "explain": "Any other would find out the courage."
+      "explain": "<em lang=\"fr\">L’</em> stands for the courage: any other would put it to the test."
      },
      {
       "prompt": "How is the alexandrine divided here?",
@@ -405,7 +405,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "A past participle in the feminine"
       ],
       "answer": 3,
-      "explain": "“Seated.”"
+      "explain": "<em lang=\"fr\">Assise</em>, “seated,” is a past participle with the feminine <em lang=\"fr\">-e</em>, agreeing with the speaker."
      },
      {
       "prompt": "What does <em lang=\"fr\">du temps que</em> mean?",
@@ -427,7 +427,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "Future"
       ],
       "answer": 1,
-      "explain": "Of a time that lasted."
+      "explain": "The imperfect describes a state that lasted over a period of time."
      }
     ]
    }
@@ -479,7 +479,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "How they fly"
       ],
       "answer": 3,
-      "explain": "“With passing wing.”"
+      "explain": "<em lang=\"fr\">D’aile passagère</em>, “with passing wing,” tells how they fly."
      },
      {
       "prompt": "Where does the object of <em lang=\"fr\">ébranlez</em> stand?",
@@ -490,7 +490,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "It is understood"
       ],
       "answer": 2,
-      "explain": "<em lang=\"fr\">L’ombrageuse verdure … ébranlez.</em>"
+      "explain": "The object comes first in the clause and the verb last: <em lang=\"fr\">L’ombrageuse verdure … ébranlez</em>."
      }
     ]
    }
@@ -537,7 +537,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "“nothing”"
       ],
       "answer": 2,
-      "explain": "My eyes no longer saw."
+      "explain": "<em lang=\"fr\">Ne … plus</em> means “no longer”: my eyes no longer saw."
      },
      {
       "prompt": "What does <em lang=\"fr\">Et … et</em> mean in <em lang=\"fr\">et transir et brûler</em>?",
@@ -548,7 +548,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "“both … and”"
       ],
       "answer": 3,
-      "explain": "Both freeze and burn."
+      "explain": "<em lang=\"fr\">Et … et</em> joins the two verbs as “both … and”: both freeze and burn."
      }
     ]
    }
@@ -600,7 +600,7 @@ ARS.decks["lang.ix.fr/poetry"] = {
        "The object relative"
       ],
       "answer": 3,
-      "explain": "Whom I love."
+      "explain": "<em lang=\"fr\">Que</em> is the object of <em lang=\"fr\">j’aime</em>: “whom I love.”"
      },
      {
       "prompt": "What is the subject of <em lang=\"fr\">m’aime et me comprend</em> in the last line?",

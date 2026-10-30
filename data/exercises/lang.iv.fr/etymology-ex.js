@@ -128,7 +128,7 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What happened to Latin <i lang=\"fr\">s</i> before a consonant in French?",
-   "explain": "<i lang=\"fr\">Testa</i>, <i lang=\"fr\">tête</i>; <i lang=\"fr\">īnsula</i>, <i lang=\"fr\">île</i>.",
+   "explain": "Latin <i lang=\"fr\">s</i> before a consonant was lost: <i lang=\"fr\">testa</i> became <i lang=\"fr\">tête</i>, and <i lang=\"fr\">īnsula</i> became <i lang=\"fr\">île</i>.",
    "options": [
     "It became <i lang=\"fr\">z</i>",
     "It was lost",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iv.fr/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "From which people does France take its name?",
-   "explain": "<i lang=\"fr\">France</i>, the land of the Franks.",
+   "explain": "<i lang=\"fr\">France</i> is the land of the Franks.",
    "options": [
     "The Gauls, a Celtic people",
     "The Romans",

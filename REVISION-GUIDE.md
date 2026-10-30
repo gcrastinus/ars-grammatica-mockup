@@ -1017,3 +1017,12 @@ Source: notes/AUDIT-CARDS-2026-10-29.md, decisions 1–7, 12–14, part of 17, a
 ## BJ. Log: approved changes from the exercise audit (29 Oct 2026, Timothy's decisions; applied by Grok Bot)
 
 Source: notes/AUDIT-EXERCISES-2026-10-29.md, decisions 1, 5–10, 12, 15, 16, 18–20, part of 4, and most of the mechanical findings for English, Latin, Greek, and Spanish, with part of French and German. Latin parse questions no longer offer impossible readings (decision 12, data/latin-forms.js). French tense names, *gérondif*, and the *avoir*/*être* table heads are italic (decision 15); French examples take a space before ?, !, and ; (decision 16; lang.ii.fr/orthography-ex keeps its unspaced distractors on purpose). Straight apostrophes inside quotations are now ’ (decision 20). notes/GUIDED-POOLS-UNDER-40.md regenerated; x.ex.imitation stays at ten (decision 19). *leísmo* stays roman; *sòlo* and *sóllo* stay (decision 18). On hold: decisions 2, 3, 11, 13, 14, 17, the Keats item wc12, and the remaining French and German mechanical findings.
+
+## BK. Log: second pass on the exercise audit (29 Oct 2026, Timothy's decisions; applied by Grok Bot)
+
+Source: notes/AUDIT-EXERCISES-2026-10-29.md, the mechanical findings left on hold in BJ.
+
+- **French and German fragments made sentences** (rule 3): the explanations in lang.ii.fr and lang.ii.de (meter, orthography, syllable decks and exercises), lang.iii-decl.de (accidents, paradigms, strong, paradigms-ex), lang.iii-indecl.fr and .de (compared, govern, parts, prepositions), lang.iv.fr and .de (composition, etymology), and lang.vii.fr and .de (tropes) now state the reason in a full sentence, in the report's wording where it gave one.
+- **Section IX question points in French and German:** the explanations of lang.ix.fr/poetry, lang.ix.fr/prose, lang.ix.de/poetry, and lang.ix.de/prose that were only glosses or fragments now name the reason for the key (93 explanations).
+- **German mention marks:** German words cited as words are now in German italics in modals-ex, strong-ex, fill-ex (lang.iii-decl.de) and in more-ex, voice-ex, clause-ex, and mood-ex (lang.v.de); English glosses there are in quotation marks.
+- **compared-ex a2 (German):** *die ___ ist schön* → *der ___ ist schön* and the option "*die*, because it begins the phrase" → "*der*, …" (*Garten* is masculine).

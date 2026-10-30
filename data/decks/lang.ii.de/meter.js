@@ -22,7 +22,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Stressed and unstressed syllables"
       ],
       "answer": 3,
-      "explain": "Like English meter."
+      "explain": "German meter, like English meter, is a pattern of stressed and unstressed syllables."
      },
      {
       "prompt": "Who set out the rule that the beat must fall where the word is stressed?",
@@ -33,7 +33,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Friedrich Gottlieb Klopstock"
       ],
       "answer": 0,
-      "explain": "In his <em lang=\"de\">Buch von der deutschen Poeterey</em> (1624)."
+      "explain": "Opitz set out the rule in his <em lang=\"de\">Buch von der deutschen Poeterey</em> (1624)."
      },
      {
       "prompt": "Why does German verse have many trochees?",
@@ -65,7 +65,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "The hexameter"
       ],
       "answer": 2,
-      "explain": "The line of Lessing, Schiller, and Goethe."
+      "explain": "Unrhymed iambic pentameter is the line of Lessing, Schiller, and Goethe."
      },
      {
       "prompt": "What is the extra syllable at the end of <em lang=\"de\">ge-STAL-ten</em>?",
@@ -87,7 +87,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Hexameters"
       ],
       "answer": 0,
-      "explain": "In stanzas of eight lines."
+      "explain": "The dedication is written in rhymed iambic pentameter, in stanzas of eight lines."
      }
     ]
    }
@@ -108,7 +108,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Five"
       ],
       "answer": 1,
-      "explain": "<em lang=\"de\">SAH ein KNAB ein RÖS-lein STEHN</em>."
+      "explain": "The line has four beats: <em lang=\"de\">SAH ein KNAB ein RÖS-lein STEHN</em>."
      },
      {
       "prompt": "What does the last foot of a German trochaic line often keep?",
@@ -119,7 +119,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "A rhyme in the middle"
       ],
       "answer": 2,
-      "explain": "As in English."
+      "explain": "As in English, the last foot of a trochaic line often keeps only its stressed syllable."
      },
      {
       "prompt": "Which kind of verse is typically trochaic?",
@@ -130,7 +130,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Folk song"
       ],
       "answer": 3,
-      "explain": "And much of Goethe’s early verse."
+      "explain": "Folk song is typically trochaic, and so is much of Goethe’s early verse."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Four"
       ],
       "answer": 3,
-      "explain": "<em lang=\"de\">wer REI-tet so SPÄT durch NACHT und WIND</em>."
+      "explain": "The line has four beats: <em lang=\"de\">wer REI-tet so SPÄT durch NACHT und WIND</em>."
      },
      {
       "prompt": "How did Heine often rhyme his four-line stanzas?",
@@ -173,7 +173,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "aaaa"
       ],
       "answer": 2,
-      "explain": "With lines of three beats."
+      "explain": "Heine often rhymed his four-line stanzas abab, with lines of three beats."
      }
     ]
    }
@@ -205,7 +205,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "Rhymes"
       ],
       "answer": 0,
-      "explain": "Lines of eight and seven syllables."
+      "explain": "The figures count syllables: the lines have eight and seven syllables in turn."
      },
      {
       "prompt": "What must an English translation of a hymn keep to be sung to the same tune?",
@@ -216,7 +216,7 @@ ARS.decks["lang.ii.de/meter"] = {
        "The number of stanzas only"
       ],
       "answer": 1,
-      "explain": "As Carlyle and Winkworth did."
+      "explain": "The translation must keep the counts of syllables, as Carlyle and Winkworth did."
      }
     ]
    }

@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il boit ___ lait.</i> (“He drinks some milk”).",
-   "explain": "An unmeasured amount of a masculine noun: the partitive <i lang=\"fr\">du</i>.",
+   "explain": "An unmeasured amount of a masculine noun takes the partitive <i lang=\"fr\">du</i>.",
    "options": [
     "<i lang=\"fr\">de la</i>",
     "<i lang=\"fr\">des</i>",
@@ -176,7 +176,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">un verre ___ eau</i> (“a glass of water”).",
-   "explain": "After a word of quantity, plain <i lang=\"fr\">de</i>, <i lang=\"fr\">d’</i> before a vowel.",
+   "explain": "After a word of quantity the partitive becomes plain <i lang=\"fr\">de</i>, <i lang=\"fr\">d’</i> before a vowel.",
    "options": [
     "<i lang=\"fr\">de l’</i>",
     "<i lang=\"fr\">du</i>",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Elle a beaucoup ___ patience.</i> (“She has a lot of patience”).",
-   "explain": "After <i lang=\"fr\">beaucoup</i>, plain <i lang=\"fr\">de</i>.",
+   "explain": "After <i lang=\"fr\">beaucoup</i> the partitive becomes plain <i lang=\"fr\">de</i>.",
    "options": [
     "<i lang=\"fr\">de la</i>",
     "<i lang=\"fr\">de</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Il a peur ___ chiens.</i> (“He is afraid of dogs”).",
-   "explain": "<i lang=\"fr\">Avoir peur de</i>, with <i lang=\"fr\">de</i> and <i lang=\"fr\">les</i> contracted.",
+   "explain": "<i lang=\"fr\">Avoir peur</i> takes <i lang=\"fr\">de</i>, and <i lang=\"fr\">de</i> with <i lang=\"fr\">les</i> contracts to <i lang=\"fr\">des</i>.",
    "options": [
     "<i lang=\"fr\">de les</i>",
     "<i lang=\"fr\">des</i>",
@@ -384,7 +384,7 @@ ARS.exercises["lang.iii-indecl.fr/compared-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"fr\">Elle n’a jamais ___ temps.</i> (“She never has time”).",
-   "explain": "After the negative <i lang=\"fr\">ne … jamais</i>, plain <i lang=\"fr\">de</i>.",
+   "explain": "After the negative <i lang=\"fr\">ne … jamais</i> the partitive becomes plain <i lang=\"fr\">de</i>.",
    "options": [
     "<i lang=\"fr\">de</i>",
     "<i lang=\"fr\">du</i>",

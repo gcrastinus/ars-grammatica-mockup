@@ -222,7 +222,7 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
        "<i lang=\"de\">er</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"de\">Er, ihn, ihm</i>."
+      "explain": "The accusative of <i lang=\"de\">er</i> is <i lang=\"de\">ihn</i>: <i lang=\"de\">er, ihn, ihm</i>."
      },
      {
       "prompt": "What is the dative of <i lang=\"de\">sie</i> (“they”)?",
@@ -264,7 +264,7 @@ ARS.decks["lang.iii-decl.de/paradigms"] = {
        "<i lang=\"de\">wurde</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"de\">Ich werde, du wirst, er wird</i>."
+      "explain": "The third person singular is <i lang=\"de\">wird</i>: <i lang=\"de\">ich werde, du wirst, er wird</i>."
      },
      {
       "prompt": "What is the Perfekt of <i lang=\"de\">werden</i> as a full verb, third person singular?",
