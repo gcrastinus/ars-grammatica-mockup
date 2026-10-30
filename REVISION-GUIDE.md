@@ -1031,3 +1031,9 @@ Source: notes/AUDIT-EXERCISES-2026-10-29.md, the mechanical findings left on hol
 - Batch B, decision 14: accent, enclitic, and movable-ν notes removed from 16 Greek clause, mood, voice, and "more" explanations (lang.v.grc mood-ex, clause-ex, voice-ex, more-ex), with their Smyth numbers (§134, §136, §154, §183). Notes kept where the question turns on the form itself (οὐ/οὐκ/οὐχ, ἐκ/ἐξ, the long pronoun first in the clause).
 - Batch B, decision 13: 302 Greek-layer explanations (decks and exercises) that opened on a capitalized Greek form now open with an English noun ("The word", "The words", "The phrase", "The prefix", "The letter", "The vowels", "In contraction," etc.) and give the Greek form in its own lowercase. Proper names (Ἄρηος, Ὄλυμπον, Ἀργοῦς, Ἀθηναῖος) and the scanned Iliad line keep their capitals. ix.grc prose-ex (ὦ item): stray trailing words made into "here the address to the jury."
 - Batch C: lang.v.en/workshop-ex wc12, Keats's disputed "still" ("Ode on a Grecian Urn") replaced with Shakespeare, Sonnet 18, line 2: the first "more" determines "lovely" (options "lovely", "art", "thou", "temperate").
+
+## BL. Log: third pass on the exercise audit (29 Oct 2026, Timothy's decisions 17, 2, 3, 11; applied by Grok Bot)
+
+Source: notes/AUDIT-EXERCISES-2026-10-29.md, section 6. Exercise cache tag 20261029i, course.js 20261029j.
+
+- Decision 17, lang.ix.la/prose-ex: 50 prompts that were stems ending in an ellipsis ("*Troia capta* is…") are now full questions in the form of the deck's question points ("What construction is *Troia capta*?"). Options, keys, and explanations unchanged. (The items that end on a quoted passage closing in an ellipsis, lp2–lp8, were already questions.)

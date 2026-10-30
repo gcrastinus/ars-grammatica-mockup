@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Troia capta</em> is…",
+   "prompt": "What construction is <em lang=\"la\">Troia capta</em>?",
    "explain": "A noun and a participle in the ablative, standing apart from the rest as a circumstance, make an ablative absolute: Troy having been taken. <em lang=\"la\">Satis constat</em> then governs the infinitives <em lang=\"la\">saevitum esse</em> and <em lang=\"la\">abstinuisse</em>.",
    "options": [
     "An ablative absolute: a circumstance on which the period depends",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">patientia nostra</em> after <em lang=\"la\">abutere</em> is…",
+   "prompt": "In what case is <em lang=\"la\">patientia nostra</em> after <em lang=\"la\">abutere</em>?",
    "explain": "<em lang=\"la\">Abutor</em>, like <em lang=\"la\">utor</em>, takes the ablative. The vocative <em lang=\"la\">Catilina</em> is address, not the object.",
    "options": [
     "Ablative: <em lang=\"la\">abutor</em> governs the ablative",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">effrenata</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">effrenata</em> agree?",
    "explain": "<em lang=\"la\">Effrenata</em> is nominative feminine singular and agrees with <em lang=\"la\">audacia</em>, which Cicero holds back to the end of the question. <em lang=\"la\">Sese</em> and <em lang=\"la\">finem</em> are accusative.",
    "options": [
     "<em lang=\"la\">audacia</em>",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem</em></p> The four participles agree with…",
+   "prompt": "<p><em lang=\"la\">furentem audacia, scelus anhelantem, pestem patriae nefarie molientem, vobis atque huic urbi ferro flammaque minitantem</em></p> With what do the four participles agree?",
    "explain": "The four participles are accusative singular and agree with <em lang=\"la\">Catilinam</em>, the object of <em lang=\"la\">eiecimus</em>, <em lang=\"la\">emisimus</em>, and <em lang=\"la\">prosecuti sumus</em>.",
    "options": [
     "<em lang=\"la\">Catilinam</em>, the object of the verbs of driving out",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">prosecuti sumus</em> is…",
+   "prompt": "What form is <em lang=\"la\">prosecuti sumus</em>?",
    "explain": "<em lang=\"la\">Prosequor</em> is deponent, so its perfect, passive in form, is active in meaning, and <em lang=\"la\">ipsum egredientem</em> is its object.",
    "options": [
     "The perfect of a deponent verb",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">quod erat optandum maxime</em></p> The two <em lang=\"la\">quod</em> clauses depend on…",
+   "prompt": "<p><em lang=\"la\">quod erat optandum maxime</em></p> On what do the two <em lang=\"la\">quod</em> clauses depend?",
    "explain": "<em lang=\"la\">Quod</em> here is the relative, “that which,” and both clauses are taken up by <em lang=\"la\">id</em>, the subject of <em lang=\"la\">videtur</em>.",
    "options": [
     "<em lang=\"la\">id</em>: they are relative clauses naming what was given",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">optandum</em> is…",
+   "prompt": "What form is <em lang=\"la\">optandum</em>?",
    "explain": "With <em lang=\"la\">erat</em>, the gerundive says what was to be done: <em lang=\"la\">quod erat optandum</em>, “what was to be wished.”",
    "options": [
     "A gerundive: “to be wished”",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">sedandam</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">sedandam</em> agree?",
    "explain": "One gerundive serves both feminine nouns joined by <em lang=\"la\">-que</em>, and it agrees in form with the nearer one: <em lang=\"la\">ad invidiam … infamiamque … sedandam</em>, “toward quieting the ill will and the ill repute.”",
    "options": [
     "<em lang=\"la\">infamiam</em>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ante quam … dicam</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">ante quam … dicam</em> depend?",
    "explain": "<em lang=\"la\">Ante quam … dicam</em> is a clause of time depending on <em lang=\"la\">exponam</em>. <em lang=\"la\">Dicam</em> is the subjunctive of an act anticipated.",
    "options": [
     "<em lang=\"la\">exponam</em>, the main verb",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">dicenda</em> (with <em lang=\"la\">esse</em> understood) says…",
+   "prompt": "What does <em lang=\"la\">dicenda</em> (with <em lang=\"la\">esse</em> understood) say?",
    "explain": "The gerundive with <em lang=\"la\">esse</em> expresses what must be done: <em lang=\"la\">quae dicenda (esse) arbitror</em>, “which I think must be said.”",
    "options": [
     "What must be said: a gerundive of obligation",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">exponam</em> here is…",
+   "prompt": "What is <em lang=\"la\">exponam</em> here?",
    "explain": "<em lang=\"la\">Exponam</em> could be the future indicative or the present subjunctive, since the forms are the same in the first person singular. Here it is the main verb of a statement, so it is the future.",
    "options": [
     "The future indicative, the main verb",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">et profectionis et reversionis</em></p> The genitives <em lang=\"la\">profectionis</em> and <em lang=\"la\">reversionis</em> depend on…",
+   "prompt": "<p><em lang=\"la\">et profectionis et reversionis</em></p> On what do the genitives <em lang=\"la\">profectionis</em> and <em lang=\"la\">reversionis</em> depend?",
    "explain": "The two genitives, joined by <em lang=\"la\">et … et</em>, depend on the noun <em lang=\"la\">consilium</em>, the object of <em lang=\"la\">exponam</em>.",
    "options": [
     "<em lang=\"la\">consilium</em>: the plan of my departure and of my return",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nobili genere</em> with <em lang=\"la\">natus</em> is…",
+   "prompt": "What construction is <em lang=\"la\">nobili genere</em> with <em lang=\"la\">natus</em>?",
    "explain": "Verbs of being born and descended take the ablative of the stock or family: <em lang=\"la\">nobili genere natus</em>.",
    "options": [
     "An ablative of origin: born of a noble family",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">magna vi … ingenio malo</em> are…",
+   "prompt": "What are <em lang=\"la\">magna vi … ingenio malo</em>?",
    "explain": "A noun with an adjective in the ablative can describe a person: he was of great force, of an evil nature. <em lang=\"la\">Sed</em> joins the second such ablative to the first under <em lang=\"la\">fuit</em>.",
    "options": [
     "Ablatives of quality, said of Catiline with <em lang=\"la\">fuit</em>",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">et animi et corporis</em></p> <em lang=\"la\">animi</em> and <em lang=\"la\">corporis</em> depend on…",
+   "prompt": "<p><em lang=\"la\">et animi et corporis</em></p> On what do <em lang=\"la\">animi</em> and <em lang=\"la\">corporis</em> depend?",
    "explain": "The genitives depend on the noun <em lang=\"la\">vi</em>, and <em lang=\"la\">et … et</em> joins them: great force both of mind and of body.",
    "options": [
     "<em lang=\"la\">vi</em>: the force of mind and of body",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">adhiberi</em>, and later <em lang=\"la\">esse</em> and <em lang=\"la\">adsumere</em>, are…",
+   "prompt": "What are <em lang=\"la\">adhiberi</em>, and later <em lang=\"la\">esse</em> and <em lang=\"la\">adsumere</em>?",
    "explain": "Livy tells the story here with historical infinitives: an infinitive standing in narrative for a past finite verb, with its subject in the nominative (<em lang=\"la\">ipse</em>).",
    "options": [
     "Historical infinitives, standing for past finite verbs",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">cum … diceret</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">cum … diceret</em>?",
    "explain": "<em lang=\"la\">Cum</em> with the imperfect subjunctive in narrative gives the circumstances of the main action: while he was saying.",
    "options": [
     "A clause of time and circumstance",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">adsentiri se</em> after <em lang=\"la\">diceret</em> is…",
+   "prompt": "What construction is <em lang=\"la\">adsentiri se</em> after <em lang=\"la\">diceret</em>?",
    "explain": "A verb of saying takes the reported statement in the accusative and infinitive, and <em lang=\"la\">se</em> refers to the subject of <em lang=\"la\">diceret</em>.",
    "options": [
     "An accusative and infinitive: “that he agreed”",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nosset</em> is…",
+   "prompt": "What form is <em lang=\"la\">nosset</em>?",
    "explain": "<em lang=\"la\">Novi</em>, “I have learned,” means “I know,” so the pluperfect means “he knew.” The subjunctive after <em lang=\"la\">quod</em> gives the reason as he stated it.",
    "options": [
     "The pluperfect subjunctive of <em lang=\"la\">nosco</em>: “he knew”",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">hostibus</em> is…",
+   "prompt": "What case is <em lang=\"la\">hostibus</em>?",
    "explain": "<em lang=\"la\">Dedit</em> takes the thing given, <em lang=\"la\">iter</em>, in the accusative and the receiver, <em lang=\"la\">hostibus</em>, in the dative.",
    "options": [
     "Dative",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ni unus vir fuisset</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">ni unus vir fuisset</em>?",
    "explain": "<em lang=\"la\">Ni</em> with the pluperfect subjunctive states a condition that did not hold. <em lang=\"la\">Paene dedit</em>, “almost gave,” stands where a conclusion contrary to fact would stand.",
    "options": [
     "A condition contrary to fact: “almost gave” stands for “would have given”",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Horatius Cocles</em> stands…",
+   "prompt": "How does <em lang=\"la\">Horatius Cocles</em> stand?",
    "explain": "The name is in the nominative, like <em lang=\"la\">vir</em>, and it tells who the one man was.",
    "options": [
     "In apposition to <em lang=\"la\">vir</em>",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">illo die</em> is…",
+   "prompt": "What construction is <em lang=\"la\">illo die</em>?",
    "explain": "The ablative of a word of time, without a preposition, tells when something happened.",
    "options": [
     "An ablative of time: on that day",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">fecisti</em> is…",
+   "prompt": "What form is <em lang=\"la\">fecisti</em>?",
    "explain": "The ending <em lang=\"la\">-isti</em> marks the second person singular of the perfect. Augustine addresses God throughout the book.",
    "options": [
     "Second person singular perfect: “you made,” said to God",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">inquietum</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">inquietum</em> agree?",
    "explain": "<em lang=\"la\">Cor</em> is a neuter noun, and the predicate adjective with <em lang=\"la\">est</em> agrees with it: <em lang=\"la\">inquietum est cor nostrum</em>.",
    "options": [
     "<em lang=\"la\">cor</em>, which is neuter",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">donec requiescat</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">donec requiescat</em> depend?",
    "explain": "<em lang=\"la\">Donec</em> with the subjunctive marks an end looked forward to. <em lang=\"la\">Et</em> joins the two main clauses, and <em lang=\"la\">donec</em> depends on the second.",
    "options": [
     "<em lang=\"la\">inquietum est</em>, the second main clause",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">dum … reputarem</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">dum … reputarem</em> depend?",
    "explain": "<em lang=\"la\">Dum … reputarem … signarem</em> is a clause of time, with the subjunctive as later Latin often has it with <em lang=\"la\">dum</em>. The main clause is <em lang=\"la\">uisa est mulier</em>.",
    "options": [
     "<em lang=\"la\">uisa est</em>",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">tacitus</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">tacitus</em> agree?",
    "explain": "<em lang=\"la\">Tacitus ipse</em> is nominative masculine singular and describes the speaker, the subject of <em lang=\"la\">reputarem</em>.",
    "options": [
     "The understood subject of <em lang=\"la\">reputarem</em>, “I”",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">stili officio</em> is…",
+   "prompt": "What construction is <em lang=\"la\">stili officio</em>?",
    "explain": "The ablative without a preposition gives the means by which the complaint was marked. <em lang=\"la\">Stili</em> is genitive, depending on <em lang=\"la\">officio</em>.",
    "options": [
     "An ablative of means: by the service of the pen",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">adstitisse</em> is…",
+   "prompt": "What form is <em lang=\"la\">adstitisse</em>?",
    "explain": "<em lang=\"la\">Videor</em> takes an infinitive: <em lang=\"la\">adstitisse uisa est</em>, “she seemed to have stood.” The perfect infinitive marks an act complete before the seeming.",
    "options": [
     "A perfect infinitive",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">O tempora, o mores!</em> is…",
+   "prompt": "What is <em lang=\"la\">O tempora, o mores!</em>?",
    "explain": "With <em lang=\"la\">o</em>, an accusative can stand alone as an exclamation (Allen and Greenough §397 d): what times, what customs! The times are not addressed but deplored.",
    "options": [
     "An exclamation, in the accusative of exclamation",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">senatus haec intellegit, consul videt</em> is…",
+   "prompt": "What is <em lang=\"la\">senatus haec intellegit, consul videt</em>?",
    "explain": "There are two short independent clauses and no joining word. This arrangement without a conjunction is called asyndeton.",
    "options": [
     "Parataxis of two complete clauses",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">haec</em> is…",
+   "prompt": "What form is <em lang=\"la\">haec</em>?",
    "explain": "<em lang=\"la\">Haec</em>, “these things,” is what the senate understands and the consul sees.",
    "options": [
     "Neuter plural accusative",
@@ -746,7 +746,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em lang=\"la\">vivit?</em> after <em lang=\"la\">vivit</em>, the second is…",
+   "prompt": "In <em lang=\"la\">vivit?</em> after <em lang=\"la\">vivit</em>, what is the second?",
    "explain": "The same verb stands again as a question of its own, a new independent clause beside the one before.",
    "options": [
     "A new independent question repeating the verb",
@@ -780,7 +780,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Etsi</em> introduces…",
+   "prompt": "What does <em lang=\"la\">Etsi</em> introduce?",
    "explain": "<em lang=\"la\">Etsi</em> grants a fact that might seem to stand against the main thought: although I fear.",
    "options": [
     "A concession: “although”",
@@ -814,7 +814,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">fortissimo</em> is…",
+   "prompt": "What form is <em lang=\"la\">fortissimo</em>?",
    "explain": "<em lang=\"la\">Pro</em> takes the ablative, and <em lang=\"la\">fortissimo</em>, “most brave,” agrees with <em lang=\"la\">viro</em>.",
    "options": [
     "A superlative adjective in the ablative",
@@ -831,7 +831,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">incipientem</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">incipientem</em> agree?",
    "explain": "<em lang=\"la\">Incipientem</em> is accusative, and the subject of an infinitive is accusative: for one beginning to speak to be afraid.",
    "options": [
     "The understood subject of <em lang=\"la\">timere</em>: one who is beginning",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">timere</em> is…",
+   "prompt": "What is <em lang=\"la\">timere</em>?",
    "explain": "An infinitive can be the subject of <em lang=\"la\">est</em> with an adjective: to be afraid is shameful.",
    "options": [
     "An infinitive used as the subject of <em lang=\"la\">turpe sit</em>",
@@ -882,7 +882,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">qui de rebus dubiis consultant</em></p> <em lang=\"la\">qui … consultant</em> depends on…",
+   "prompt": "<p><em lang=\"la\">qui de rebus dubiis consultant</em></p> On what does <em lang=\"la\">qui … consultant</em> depend?",
    "explain": "The relative takes up <em lang=\"la\">homines</em>, the subject of the infinitive. <em lang=\"la\">Decet</em> then governs <em lang=\"la\">vacuos esse</em>.",
    "options": [
     "<em lang=\"la\">homines</em>, the subject of the infinitive",
@@ -899,7 +899,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ab odio, amicitia, ira atque misericordia</em> is…",
+   "prompt": "What construction is <em lang=\"la\">ab odio, amicitia, ira atque misericordia</em>?",
    "explain": "<em lang=\"la\">Vacuus</em> takes the ablative of what one is free from, here with <em lang=\"la\">ab</em>.",
    "options": [
     "An ablative of separation with <em lang=\"la\">vacuos</em>: free from these",
@@ -916,7 +916,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">decet</em> is…",
+   "prompt": "What kind of verb is <em lang=\"la\">decet</em>?",
    "explain": "<em lang=\"la\">Decet</em>, “it is fitting,” has no personal subject; what is fitting stands in the infinitive, with its subject in the accusative.",
    "options": [
     "An impersonal verb governing an accusative and an infinitive",
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">dum ceteri trepidant</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">dum ceteri trepidant</em>?",
    "explain": "<em lang=\"la\">Dum</em>, “while,” with the indicative <em lang=\"la\">trepidant</em> gives the time of <em lang=\"la\">deturbat</em>.",
    "options": [
     "A clause of cause, with the subjunctive understood for the indicative that stands in the text",
@@ -950,7 +950,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">excitus</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">excitus</em> agree?",
    "explain": "<em lang=\"la\">Excitus</em>, “roused,” is nominative singular and agrees with <em lang=\"la\">M. Manlius</em>. The Gauls, named in the clauses before these words, are the subject of <em lang=\"la\">fefellere</em>, and <em lang=\"la\">anseres</em> is the object.",
    "options": [
     "<em lang=\"la\">anseres</em>, as if the geese were the subject of <em lang=\"la\">fefellere</em>",
@@ -967,7 +967,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">armis arreptis</em> is…",
+   "prompt": "What construction is <em lang=\"la\">armis arreptis</em>?",
    "explain": "<em lang=\"la\">Armis</em> and the participle <em lang=\"la\">arreptis</em> stand in the ablative as a circumstance of <em lang=\"la\">vadit</em>: the arms having been seized.",
    "options": [
     "The object of <em lang=\"la\">vadit</em>",
@@ -984,7 +984,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ictum</em> is…",
+   "prompt": "What form is <em lang=\"la\">ictum</em>?",
    "explain": "<em lang=\"la\">Ictum</em> is the perfect participle of <em lang=\"la\">icio</em>, “strike,” and it agrees with <em lang=\"la\">Gallum</em>, the object of <em lang=\"la\">deturbat</em>: a Gaul struck with the boss.",
    "options": [
     "A present participle agreeing with Manlius and governing <em lang=\"la\">ceteros</em>",
@@ -1001,7 +1001,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">clangore eorum</em> is…",
+   "prompt": "What construction is <em lang=\"la\">clangore eorum</em>?",
    "explain": "<em lang=\"la\">Clangore</em>, “by the clamor,” is an ablative of cause with <em lang=\"la\">excitus</em>. <em lang=\"la\">Eorum</em> is genitive. <em lang=\"la\">Crepitu</em> is a second ablative of the same kind. An ablative absolute would have a participle, and none stands here.",
    "options": [
     "An ablative of cause",
@@ -1018,7 +1018,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">auferre trucidare rapere</em></p> The three infinitives are…",
+   "prompt": "<p><em lang=\"la\">auferre trucidare rapere</em></p> What are the three infinitives?",
    "explain": "An infinitive can name an action as a thing. Here the three are what the Romans call empire.",
    "options": [
     "Infinitives used as nouns",
@@ -1035,7 +1035,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">falsis nominibus</em> is…",
+   "prompt": "What construction is <em lang=\"la\">falsis nominibus</em>?",
    "explain": "The ablative with an adjective tells how the naming is done.",
    "options": [
     "An ablative of manner: by false names",
@@ -1052,7 +1052,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">imperium</em> stands as…",
+   "prompt": "How does <em lang=\"la\">imperium</em> stand?",
    "explain": "A verb of calling takes two accusatives, the thing named and the name: they call plundering empire.",
    "options": [
     "The predicate accusative: the name given to those actions",
@@ -1069,7 +1069,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "deck": "lang.ix.la/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">ubi solitudinem faciunt</em></p> <em lang=\"la\">ubi … faciunt</em> depends on…",
+   "prompt": "<p><em lang=\"la\">ubi solitudinem faciunt</em></p> On what does <em lang=\"la\">ubi … faciunt</em> depend?",
    "explain": "<em lang=\"la\">Ubi … faciunt</em> depends on <em lang=\"la\">appellant</em>: where, or whenever, they make a desert. <em lang=\"la\">Ubi</em> with the indicative states a repeated fact.",
    "options": [
     "<em lang=\"la\">appellant</em>, the main verb: “they call it peace”",
