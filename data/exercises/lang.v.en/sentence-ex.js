@@ -334,7 +334,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which pattern does this sentence follow? But the age of chivalry is gone.",
-   "explain": "“Is” links, and “gone” describes the age. We treat “gone” here as a predicate adjective, the past participle used as an adjective, not as a direct object. (Edmund Burke, <em>Reflections on the Revolution in France</em>, in his <em>Works</em>, vol. III (Nimmo, 1887))",
+   "explain": "“Is gone” is the verb, an older form of “has gone,” in which “is” serves as the helping verb of an intransitive verb of motion. “The age of chivalry” is the subject, and nothing completes the verb. The pattern is S-V. (Edmund Burke, <em>Reflections on the Revolution in France</em>, in his <em>Works</em>, vol. III (Nimmo, 1887))",
    "options": [
     "S-LV-PA",
     "S-V",
@@ -343,7 +343,7 @@ ARS.exercises["lang.v.en/sentence-ex"] = {
     "S-LV-PN",
     "S-V-DO-OC"
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "id": "lang.v.en/sentence-ex:es18",

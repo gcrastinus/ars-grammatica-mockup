@@ -1053,7 +1053,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"la\">genus unde Latinum</em>: what does <em lang=\"la\">unde</em> introduce?<br><br>“and much enduring in war also, till he should build a city and bring his gods to Latium; whence came the Latin race, the lords of Alba, and the walls of lofty Rome.”<br>(<em lang=\"la\">multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.</em>)",
-   "explain": "<em lang=\"la\">Unde</em> is a relative adverb, “whence,” taking up the man (or his founding). The verb is understood: from him the Latin race, the Alban fathers, and the walls of Rome. The order <em lang=\"la\">genus unde</em> puts the relative second, as verse often does.",
+   "explain": "<em lang=\"la\">Unde</em> is a relative adverb, “whence,” taking up the man (or his founding). The verb is understood: from him the Latin race, the lords of Alba, and the walls of Rome. The order <em lang=\"la\">genus unde</em> puts the relative second, as verse often does.",
    "options": [
     "A relative clause, with its verb understood",
     "A purpose clause, depending on <em lang=\"la\">conderet</em>",

@@ -16,7 +16,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In <i lang=\"la\">Puellam amat</i> (“he loves the girl”), what is the case of the direct object?",
-   "explain": "Most verbs take the accusative of the thing the action falls on: <i lang=\"la\">puellam amat</span>.",
+   "explain": "Most verbs take the accusative of the thing the action falls on: <i lang=\"la\">puellam amat</i>.",
    "options": [
     "Accusative",
     "Nominative",
@@ -32,7 +32,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">ūtor</i> (“use”) govern?",
-   "explain": "In <i lang=\"la\">ūtitur gladiō</span> we “use with” a thing. Government is a requirement of this verb, not a general rule of objects.",
+   "explain": "In <i lang=\"la\">ūtitur gladiō</i> we “use with” a thing. Government is a requirement of this verb, not a general rule of objects.",
    "options": [
     "Ablative",
     "Accusative",
@@ -64,7 +64,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "After <i lang=\"la\">in</i>, which case shows motion into a place, as in “they walked into the city”?",
-   "explain": "<i lang=\"la\">in urbem</span> means into the city, while place where is <i lang=\"la\">in urbe</span>, ablative. The preposition is the same; the case is the government that changes with the meaning.",
+   "explain": "<i lang=\"la\">in urbem</i> means into the city, while place where is <i lang=\"la\">in urbe</i>, ablative. The preposition is the same; the case is the government that changes with the meaning.",
    "options": [
     "Accusative",
     "Ablative",
@@ -80,7 +80,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "After <i lang=\"la\">in</i>, which case shows the place where, as in “he waits in the city”?",
-   "explain": "In <i lang=\"la\">in urbe</span> there is no motion toward, so it is not the accusative.",
+   "explain": "In <i lang=\"la\">in urbe</i> there is no motion toward, so it is not the accusative.",
    "options": [
     "Ablative",
     "Accusative",
@@ -96,7 +96,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">cum</i> (“with”) govern?",
-   "explain": "The phrase is <i lang=\"la\">cum amīcō</span>. Accompaniment is expressed by the ablative, and <i lang=\"la\">cum</i> requires that case.",
+   "explain": "The phrase is <i lang=\"la\">cum amīcō</i>. Accompaniment is expressed by the ablative, and <i lang=\"la\">cum</i> requires that case.",
    "options": [
     "Ablative",
     "Accusative",
@@ -112,7 +112,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">ad</i> (“to,” “toward”) govern?",
-   "explain": "In <i lang=\"la\">ad castra</span>, motion toward takes the accusative.",
+   "explain": "In <i lang=\"la\">ad castra</i>, motion toward takes the accusative.",
    "options": [
     "Accusative",
     "Ablative",
@@ -128,7 +128,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In which case is the person to whom something is given?",
-   "explain": "This is double government: accusative of the gift, dative of the person (<i lang=\"la\">nautae dōnum dedit</span>).",
+   "explain": "This is double government: accusative of the gift, dative of the person (<i lang=\"la\">nautae dōnum dedit</i>).",
    "options": [
     "Dative",
     "Accusative",
@@ -144,7 +144,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">crēdō</i> (“trust”) govern?",
-   "explain": "<i lang=\"la\">Crēdō</i> governs the dative of the person trusted. The mother stands in the dative: <i lang=\"la\">mātrī crēdit</span>.",
+   "explain": "<i lang=\"la\">Crēdō</i> governs the dative of the person trusted. The mother stands in the dative: <i lang=\"la\">mātrī crēdit</i>.",
    "options": [
     "Accusative",
     "Dative",
@@ -160,7 +160,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">pāreō</i> (“obey”) govern?",
-   "explain": "Verbs of obeying govern the dative. The king stands in the dative: <i lang=\"la\">rēgī pāret</span>.",
+   "explain": "Verbs of obeying govern the dative. The king stands in the dative: <i lang=\"la\">rēgī pāret</i>.",
    "options": [
     "Accusative",
     "Ablative",
@@ -176,7 +176,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">noceō</i> (“harm”) govern?",
-   "explain": "<i lang=\"la\">Noceō</i> is an opposite of the verbs of helping, and it governs the dative. The vines stand in the dative: <i lang=\"la\">vītibus nocet</span>.",
+   "explain": "<i lang=\"la\">Noceō</i> is an opposite of the verbs of helping, and it governs the dative. The vines stand in the dative: <i lang=\"la\">vītibus nocet</i>.",
    "options": [
     "Genitive",
     "Accusative",
@@ -208,7 +208,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">fruor</i> (“enjoy”) govern?",
-   "explain": "<i lang=\"la\">Fruor</i> governs the ablative. Peace stands in the ablative: <i lang=\"la\">pāce fruitur</span>.",
+   "explain": "<i lang=\"la\">Fruor</i> governs the ablative. Peace stands in the ablative: <i lang=\"la\">pāce fruitur</i>.",
    "options": [
     "Dative",
     "Accusative",
@@ -224,7 +224,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">fungor</i> (“perform”) govern?",
-   "explain": "<i lang=\"la\">Fungor</i> governs the ablative. The duty stands in the ablative: <i lang=\"la\">mūnere fungitur</span>.",
+   "explain": "<i lang=\"la\">Fungor</i> governs the ablative. The duty stands in the ablative: <i lang=\"la\">mūnere fungitur</i>.",
    "options": [
     "Accusative",
     "Genitive",
@@ -240,7 +240,7 @@ ARS.exercises["lang.v.la/govern-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which case does <i lang=\"la\">vescor</i> (“feed on”) govern?",
-   "explain": "<i lang=\"la\">Vescor</i> governs the ablative. Milk stands in the ablative: <i lang=\"la\">lacte vescuntur</span>.",
+   "explain": "<i lang=\"la\">Vescor</i> governs the ablative. Milk stands in the ablative: <i lang=\"la\">lacte vescuntur</i>.",
    "options": [
     "Genitive",
     "Dative",

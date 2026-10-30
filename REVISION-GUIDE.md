@@ -1060,3 +1060,15 @@ Source: notes/AUDIT-EXERCISES-2026-10-29.md, section 6. Exercise cache tag 20261
 - Decision 2, Section V cited and workshop sets (lang.v.la/workshop-ex, lang.v.grc, fr, de/cited-ex): English renderings set to the printed text of a recorded translator (Yonge, Fairclough, Watson, Miller, Murray, Dakyns, Jowett, Crawley, Macaulay, Scott Moncrieff, Cole, Veitch, Trotter, Paine, Moore), each checked online; renderings with no recorded translator dropped (wc21–23, wc32, wg6–7, wd1–6). Recorded with URLs in sources/TRANSLATIONS-USED.md.
 - Decision 3, lang.ix.la/poetry-ex and servius-ex: pe1, pe5, pe6 checked against Dryden (PG 228) and recorded as Dryden; pe11–16 and sv1–12 now quote Fairclough’s Loeb (archive.org virgilvi01virguoft) in place of the course’s literal renderings. Recorded in sources/TRANSLATIONS-USED.md.
 - Tropes prose (lang.vii.grc and lang.vii.fr tropes decks and tropes-ex): Thucydides II.40 now Crawley; Apology 38a and Republic 337a now Jowett; Plutarch Caesar 50 now Perrin (“Came, saw, conquered”); Mark 2:27 confirmed as KJV; L’Avare III.1 now Wall; Candide ch. 1 confirmed against the anonymous Gutenberg translation. Deck source lines and sources/TRANSLATIONS-USED.md updated, with URLs.
+
+## BM. Log: final decisions on the third pass (29 Oct 2026, Timothy's decisions; applied by Grok Bot)
+
+Deck and exercise cache tag 20261029o, course.js 20261029o.
+
+- lang.ix.la/servius-ex sv5, sv8, sv10: Fairclough's wording kept. Each stem still names the Latin word Servius glosses, and the quoted English does not conflict with the key; no change.
+- lang.ix.la/poetry-ex pe11: explanation now says "the lords of Alba," as in the Fairclough text quoted in the prompt, in place of "the Alban fathers."
+- Candide ch. 1: the anonymous Gutenberg translation kept as is.
+- Grimm KHM 15: Hunt's printed text (lang.ix.de/prose, prose-57) reads "Grethel"; the English gloss in lang.v.de/cited-ex mk3 now reads "Hansel and Grethel" to match. German forms (Gretel, Grete) unchanged.
+- lang.v.en/sentence-ex es17 (Burke, "But the age of chivalry is gone."): now analyzed as S-V, "is gone" being the older form of "has gone"; key changed from S-LV-PA to S-V and the explanation rewritten.
+- Mismatched tags: every `<i ...>…</span>` in data/ closed with `</i>` (116 tags in lang.iii-indecl.en/parts-ex, lang.ix.la/servius-ex, lang.v.en/phrase-ex including eh82, lang.v.la/govern-ex, lang.vi.la/vices-ex). No other mismatched or unclosed inline tags found.
+- lang.v.la/workshop-ex wc28: Fairclough (Loeb, 1916), Eclogue X.69, ends with an exclamation mark ("Love conquers all; let us, too, yield to Love!"), as quoted at https://wist.info/virgil/19742/ and https://en.wikiquote.org/wiki/Eclogues; the rendering now ends with "!".

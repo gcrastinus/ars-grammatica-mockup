@@ -412,7 +412,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "deck": "lang.v.de/cited-ex",
    "section": "v",
    "type": "mark",
-   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i lang=\"de\">Hans und Grete suchen den Weg.</i> (“Hansel and Gretel look for the way.”)",
+   "prompt": "Mark every dependence. The arrow runs from the word that depends to the word on which it depends. <i lang=\"de\">Hans und Grete suchen den Weg.</i> (“Hansel and Grethel look for the way.”)",
    "tokens": [
     "<i lang=\"de\">Hans</i>",
     "<i lang=\"de\">und</i>",

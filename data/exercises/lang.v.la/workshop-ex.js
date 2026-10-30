@@ -336,7 +336,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"la\"><i>vincit</i></i> depend? <i lang=\"la\">Omnia <b>vincit</b> Amor: et nos cedamus Amori.</i>",
-   "explain": "<i lang=\"la\">Amor</i> is nominative; <i lang=\"la\">omnia</i>, though first, is the accusative object. “Love conquers all; let us, too, yield to Love.” (Virgil, <i lang=\"la\">Eclogues</i> X.69)",
+   "explain": "<i lang=\"la\">Amor</i> is nominative; <i lang=\"la\">omnia</i>, though first, is the accusative object. “Love conquers all; let us, too, yield to Love!” (Virgil, <i lang=\"la\">Eclogues</i> X.69)",
    "options": [
     "<i lang=\"la\">Amor</i>",
     "<i lang=\"la\">Omnia</i>",

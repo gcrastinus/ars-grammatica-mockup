@@ -16,7 +16,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">Tyrii tenuere coloni</em> says a word is missing. What does he supply first?<br><br>“There was an ancient city, the home of Tyrian settlers, …”<br>(<em lang=\"la\">Urbs antiqua fuit, Tyrii tenuere coloni.</em>)",
-   "explain": "Servius says <i lang=\"la\">quam</span> is lacking, or, as others hold, <i lang=\"la\">hanc</span>. The old writers, he says, like to add the thought by epexegesis, where later Latin inserts a pronoun. <em lang=\"la\">Tyrii tenuere coloni</em> takes up the city: the city which Tyrian settlers held.",
+   "explain": "Servius says <i lang=\"la\">quam</i> is lacking, or, as others hold, <i lang=\"la\">hanc</i>. The old writers, he says, like to add the thought by epexegesis, where later Latin inserts a pronoun. <em lang=\"la\">Tyrii tenuere coloni</em> takes up the city: the city which Tyrian settlers held.",
    "options": [
     "A missing main verb, since <em lang=\"la\">tenuere</em> cannot carry the clause",
     "The conjunction <em lang=\"la\">et</em>, joining the settlers to the city",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">dives opum</em>: what case does he say the ancients joined to <em lang=\"la\">dives</em>?<br><br>“… the Tiber’s mouths afar, rich in wealth and stern in war’s pursuits.”<br>(<em lang=\"la\">ostia, dives opum studiisque asperrima belli.</em>)",
-   "explain": "Servius says that <em lang=\"la\">dives</em> is now used alone, but the ancients added the thing, joining it in the genitive only. He writes <i lang=\"la\">genetivo</span>. <em lang=\"la\">Opum</em> is that genitive: rich in resources.",
+   "explain": "Servius says that <em lang=\"la\">dives</em> is now used alone, but the ancients added the thing, joining it in the genitive only. He writes <i lang=\"la\">genetivo</i>. <em lang=\"la\">Opum</em> is that genitive: rich in resources.",
    "options": [
     "An ablative of means, the wealth by which the city is called rich",
     "The genitive",
@@ -48,7 +48,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">gentibus</em> in <em lang=\"la\">hoc regnum dea gentibus esse</em>: what does he say the dative stands for?<br><br>“that here should be the capital of the nations, should the fates perchance allow it, was even then the goddess’ aim and cherished hope.”<br>(<em lang=\"la\">hoc regnum dea gentibus esse, si qua fata sinant, iam tum tenditque fovetque.</em>)",
-   "explain": "Servius says <i lang=\"la\">gentibus pro gentium, dativum pro genetivo</span>: the dative stands for the genitive <em lang=\"la\">gentium</em>. The usual school reading takes <em lang=\"la\">gentibus</em> as a dative of reference, “for the nations.”",
+   "explain": "Servius says <i lang=\"la\">gentibus pro gentium, dativum pro genetivo</i>: the dative stands for the genitive <em lang=\"la\">gentium</em>. The usual school reading takes <em lang=\"la\">gentibus</em> as a dative of reference, “for the nations.”",
    "options": [
     "A dative of reference, which is the only account he gives",
     "An ablative of means",
@@ -64,7 +64,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">late regem</em>: what is <em lang=\"la\">regem</em> standing for?<br><br>“that from it a people, kings of broad realms and proud in war, should come forth …”<br>(<em lang=\"la\">hinc populum late regem belloque superbum venturum.</em>)",
-   "explain": "Servius says <i lang=\"la\">pro late regnaturum, nomen pro participio</span>. <em lang=\"la\">Regem</em> is a noun standing for the future participle <em lang=\"la\">regnaturum</em>: a people that would rule widely.",
+   "explain": "Servius says <i lang=\"la\">pro late regnaturum, nomen pro participio</i>. <em lang=\"la\">Regem</em> is a noun standing for the future participle <em lang=\"la\">regnaturum</em>: a people that would rule widely.",
    "options": [
     "A noun for a future participle",
     "A dative of the person ruled",
@@ -80,7 +80,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">sub pectore</em>: what does he say <em lang=\"la\">sub</em> stands for?<br><br>“when Juno, nursing an undying wound deep in her heart, …”<br>(<em lang=\"la\">cum Iuno, aeternum servans sub pectore volnus.</em>)",
-   "explain": "Servius says <i lang=\"la\">sub pectore pro in pectore</span>. The wound is her stored anger. <em lang=\"la\">Sub</em> is the preposition, and <em lang=\"la\">pectore</em> is ablative with it.",
+   "explain": "Servius says <i lang=\"la\">sub pectore pro in pectore</i>. The wound is her stored anger. <em lang=\"la\">Sub</em> is the preposition, and <em lang=\"la\">pectore</em> is ablative with it.",
    "options": [
     "A prefix of <em lang=\"la\">pectore</em>, written apart from it by tmesis",
     "Nothing, since <em lang=\"la\">pectore</em> is a dative and needs no preposition",
@@ -96,7 +96,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Why is <em lang=\"la\">fuit</em> singular in <em lang=\"la\">hic illius arma, hic currus fuit</em>?<br><br>“Here was her armour, here her chariot; …”<br>(<em lang=\"la\">hic illius arma, hic currus fuit.</em>)",
-   "explain": "Servius says that when a plural noun and a singular noun are joined, the verb agrees with the nearer: <i lang=\"la\">respondemus viciniori, ut ecce hoc loco currui, non armis respondit</span>. He writes <i lang=\"la\">currui</span> for the nearer noun. <em lang=\"la\">Fuit</em> is singular because <em lang=\"la\">currus</em> is singular.",
+   "explain": "Servius says that when a plural noun and a singular noun are joined, the verb agrees with the nearer: <i lang=\"la\">respondemus viciniori, ut ecce hoc loco currui, non armis respondit</i>. He writes <i lang=\"la\">currui</i> for the nearer noun. <em lang=\"la\">Fuit</em> is singular because <em lang=\"la\">currus</em> is singular.",
    "options": [
     "A verb after two subjects is singular in Virgil whatever the nearer noun is",
     "It agrees with <em lang=\"la\">currus</em>, the nearer noun",
@@ -112,7 +112,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">tot annos</em>: which case does he call the more proper in phrases of this kind?<br><br>“… with one people am warring these many years.”<br>(<em lang=\"la\">una cum gente tot annos bella gero.</em>)",
-   "explain": "Servius says that both the accusative and the ablative are used in these phrases, as in <i lang=\"la\">tota nocte legi</span> and <i lang=\"la\">totam noctem legi</span>. The more proper expression, he says, is by the accusative. <em lang=\"la\">Tot annos</em> is that accusative of how long. Juno is the speaker: she wages war with one people for so many years.",
+   "explain": "Servius says that both the accusative and the ablative are used in these phrases, as in <i lang=\"la\">tota nocte legi</i> and <i lang=\"la\">totam noctem legi</i>. The more proper expression, he says, is by the accusative. <em lang=\"la\">Tot annos</em> is that accusative of how long. Juno is the speaker: she wages war with one people for so many years.",
    "options": [
     "The accusative",
     "The genitive",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "What is Servius’s first gloss of <em lang=\"la\">fertur</em>?<br><br>“This, ’tis said, Juno loved above all other lands, holding Samos itself less dear.”<br>(<em lang=\"la\">quam Iuno fertur terris magis omnibus unam posthabita coluisse Samo.</em>)",
-   "explain": "Servius’s first gloss is <i lang=\"la\">dicitur</span>, “is said.” He also allows <i lang=\"la\">creditur</span>, “is believed.”",
+   "explain": "Servius’s first gloss is <i lang=\"la\">dicitur</i>, “is said.” He also allows <i lang=\"la\">creditur</i>, “is believed.”",
    "options": [
     "It means <em lang=\"la\">creditur</em>, and he allows no other sense",
     "It means she is carried, a passive with no gloss",
@@ -144,7 +144,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "What is Servius’s first gloss of <em lang=\"la\">longe</em>?<br><br>“Carthage, over against Italy and the Tiber’s mouths afar, …”<br>(<em lang=\"la\">Karthago, Italiam contra Tiberinaque longe ostia.</em>)",
-   "explain": "Servius’s first gloss of <em lang=\"la\">longe</em> is <i lang=\"la\">valde</span>, “very.” He also allows <i lang=\"la\">maxime</span> or <i lang=\"la\">praecipue</span>, “especially,” and some readers join <em lang=\"la\">longe</em> with <em lang=\"la\">dives</em>, “very rich,” rather than with <em lang=\"la\">ostia</em>.",
+   "explain": "Servius’s first gloss of <em lang=\"la\">longe</em> is <i lang=\"la\">valde</i>, “very.” He also allows <i lang=\"la\">maxime</i> or <i lang=\"la\">praecipue</i>, “especially,” and some readers join <em lang=\"la\">longe</em> with <em lang=\"la\">dives</em>, “very rich,” rather than with <em lang=\"la\">ostia</em>.",
    "options": [
     "It means <em lang=\"la\">maxime</em>, and he rejects every other sense",
     "It means <em lang=\"la\">valde</em>",
@@ -160,7 +160,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">divom</em> in <em lang=\"la\">quae divom incedo regina</em>: what is the form?<br><br>“Yet I, who move as queen of gods, …”<br>(<em lang=\"la\">Ast ego, quae divom incedo regina.</em>)",
-   "explain": "Servius, whose lemma is <i lang=\"la\">divum</span>, says it stands for <i lang=\"la\">divorum</span>, as <i lang=\"la\">Argivum</span> does. The line reads <em lang=\"la\">divom</em>. <em lang=\"la\">Divom</em> and <em lang=\"la\">divum</em> are the old genitive plural.",
+   "explain": "Servius, whose lemma is <i lang=\"la\">divum</i>, says it stands for <i lang=\"la\">divorum</i>, as <i lang=\"la\">Argivum</i> does. The line reads <em lang=\"la\">divom</em>. <em lang=\"la\">Divom</em> and <em lang=\"la\">divum</em> are the old genitive plural.",
    "options": [
     "A dative plural, the gods toward whom she walks",
     "An accusative singular",
@@ -176,7 +176,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">venturum excidio</em>: what does he say <em lang=\"la\">excidio</em> stands for?<br><br>“… should come forth for Libya’s downfall …”<br>(<em lang=\"la\">venturum excidio Libyae.</em>)",
-   "explain": "Servius says <i lang=\"la\">ad excidium. nota figura</span>. The dative <em lang=\"la\">excidio</em> stands where <em lang=\"la\">ad</em> with the accusative might stand: for the ruin, or to the ruin, of Libya.",
+   "explain": "Servius says <i lang=\"la\">ad excidium. nota figura</i>. The dative <em lang=\"la\">excidio</em> stands where <em lang=\"la\">ad</em> with the accusative might stand: for the ruin, or to the ruin, of Libya.",
    "options": [
     "A dative for <em lang=\"la\">ad excidium</em>",
     "An ablative of cause",
@@ -192,7 +192,7 @@ ARS.exercises["lang.ix.la/servius-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "Servius on <em lang=\"la\">repostum</em> in <em lang=\"la\">manet alta mente repostum</em>: what is the form?<br><br>“deep in her heart lie stored …”<br>(<em lang=\"la\">manet alta mente repostum.</em>)",
-   "explain": "Servius says <i lang=\"la\">repostum</span> is a syncope: one syllable has been taken out of the middle of <i lang=\"la\">repositum</span>. He calls a change of this kind in a word’s form a <i lang=\"la\">pathos</span>.",
+   "explain": "Servius says <i lang=\"la\">repostum</i> is a syncope: one syllable has been taken out of the middle of <i lang=\"la\">repositum</i>. He calls a change of this kind in a word’s form a <i lang=\"la\">pathos</i>.",
    "options": [
     "A frequentative of <em lang=\"la\">pono</em>, so that the thing was placed again and again",
     "A supine depending on <em lang=\"la\">manet</em>",
