@@ -233,7 +233,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 7. William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.
 8. John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.
 9. If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.
-10. What is disputed is where the modists placed the mode, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.
+10. What is disputed is whether the mode is a real property of the word, grounded in common natures in things, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.
 11. Speculative grammar was not so much refuted as abandoned.
 12. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and of the classical authors.
 13. The division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.
