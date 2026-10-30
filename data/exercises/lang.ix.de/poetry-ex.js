@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">allen Gipfeln</em> is…",
+   "prompt": "What case is <em lang=\"de\">allen Gipfeln</em>?",
    "explain": "Nothing moves: <em lang=\"de\">über</em> takes the dative, and the plural adds <em lang=\"de\">-n</em>.",
    "options": [
     "Dative plural",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Spürest</em> is…",
+   "prompt": "What is <em lang=\"de\">Spürest</em>?",
    "explain": "The extra syllable fills the meter.",
    "options": [
     "An older form of <em lang=\"de\">spürst</em> (“you feel”)",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Vögelein</em> is…",
+   "prompt": "What is <em lang=\"de\">Vögelein</em>?",
    "explain": "<em lang=\"de\">-lein</em>, like <em lang=\"de\">-chen</em>, makes a neuter diminutive. little birds",
    "options": [
     "A diminutive",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">hört’</em> is…",
+   "prompt": "What is <em lang=\"de\">hört’</em>?",
    "explain": "The apostrophe marks the dropped <em lang=\"de\">e</em>.",
    "options": [
     "<em lang=\"de\">Hörte</em>",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">rauschen</em> after <em lang=\"de\">hört’ ein Bächlein</em> is…",
+   "prompt": "What is <em lang=\"de\">rauschen</em> after <em lang=\"de\">hört’ ein Bächlein</em>?",
    "explain": "German says “I heard a brook rush,” with no <em lang=\"de\">zu</em>.",
    "options": [
     "A bare infinitive",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">dem Felsenquell</em> is dative because…",
+   "prompt": "Why is <em lang=\"de\">dem Felsenquell</em> dative?",
    "explain": "<em lang=\"de\">Aus</em> always governs the dative.",
    "options": [
     "<em lang=\"de\">aus</em> takes the dative",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">zum Tale</em></p> <em lang=\"de\">zum</em> is…",
+   "prompt": "<p><em lang=\"de\">zum Tale</em></p> What is <em lang=\"de\">zum</em>?",
    "explain": "The preposition and the dative article run together.",
    "options": [
     "<em lang=\"de\">zu dem</em>, contracted",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">gesehen</em> stands at the end because…",
+   "prompt": "Why does <em lang=\"de\">gesehen</em> stand at the end?",
    "explain": "<em lang=\"de\">Hast … gesehen</em>: the bracket of the perfect.",
    "options": [
     "The past participle of a compound tense goes to the end",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">hohe</em> ends in <em lang=\"de\">-e</em> because…",
+   "prompt": "Why does <em lang=\"de\">hohe</em> end in <em lang=\"de\">-e</em>?",
    "explain": "After the definite article the adjective has the weak ending <em lang=\"de\">-e</em> in the nominative and accusative singular neuter.",
    "options": [
     "It follows <em lang=\"de\">das</em>, and takes the weak ending",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">Ein feste Burg</em></p> Modern German would write…",
+   "prompt": "<p><em lang=\"de\">Ein feste Burg</em></p> What would modern German write?",
    "explain": "<em lang=\"de\">Burg</em> is feminine; Luther’s <em lang=\"de\">ein</em> is an older form.",
    "options": [
     "<em lang=\"de\">eine feste Burg</em>",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">unser Gott</em></p> The subject of the first line is…",
+   "prompt": "<p><em lang=\"de\">unser Gott</em></p> What is the subject of the first line?",
    "explain": "The predicate, a strong fortress, comes first for emphasis.",
    "options": [
     "<em lang=\"de\">unser Gott</em>",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">uns frei</em></p> <em lang=\"de\">uns</em> in <em lang=\"de\">Er hilft uns</em> is…",
+   "prompt": "<p><em lang=\"de\">uns frei</em></p> What case is <em lang=\"de\">uns</em> in <em lang=\"de\">Er hilft uns</em>?",
    "explain": "<em lang=\"de\">Jemandem helfen</em>: to help someone, in the dative.",
    "options": [
     "Dative",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Dem</em> is…",
+   "prompt": "What is <em lang=\"de\">Dem</em>?",
    "explain": "<em lang=\"de\">Geben</em> takes the receiver in the dative; the verb <em lang=\"de\">gab</em> is last, so it is a relative clause. to whom, the king",
    "options": [
     "A dative relative",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">sterbend</em> is…",
+   "prompt": "What form is <em lang=\"de\">sterbend</em>?",
    "explain": "<em lang=\"de\">Sterben</em> + <em lang=\"de\">-d</em>.",
    "options": [
     "A present participle: dying",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">seine Buhle</em></p> The subject of <em lang=\"de\">gab</em> is…",
+   "prompt": "<p><em lang=\"de\">seine Buhle</em></p> What is the subject of <em lang=\"de\">gab</em>?",
    "explain": "His beloved gave him the goblet.",
    "options": [
     "<em lang=\"de\">seine Buhle</em>",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Der du … bist</em> means…",
+   "prompt": "What does <em lang=\"de\">Der du … bist</em> mean?",
    "explain": "The relative is followed by the pronoun of the person addressed, and the verb agrees with it.",
    "options": [
     "You who are",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">stillest</em> is at the end of its line because…",
+   "prompt": "Why is <em lang=\"de\">stillest</em> at the end of its line?",
    "explain": "Subordinate clauses put the finite verb last.",
    "options": [
     "It is the verb of a relative clause",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">Den,</em></p> <em lang=\"de\">Den</em> is accusative because…",
+   "prompt": "<p><em lang=\"de\">Den,</em></p> Why is <em lang=\"de\">Den</em> accusative?",
    "explain": "You fill him: the one filled is the object.",
    "options": [
     "It is the object of <em lang=\"de\">füllest</em>",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">des Treibens</em> is…",
+   "prompt": "What is <em lang=\"de\">des Treibens</em>?",
    "explain": "<em lang=\"de\">Einer Sache müde sein</em>, “to be weary of a thing,” takes the genitive.",
    "options": [
     "Genitive, after <em lang=\"de\">müde</em>",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Komm</em> is…",
+   "prompt": "What form is <em lang=\"de\">Komm</em>?",
    "explain": "It commands peace to come.",
    "options": [
     "An imperative",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">in meine Brust</em> has the accusative because…",
+   "prompt": "Why does <em lang=\"de\">in meine Brust</em> have the accusative?",
    "explain": "With motion toward, <em lang=\"de\">in</em> takes the accusative; with rest, the dative.",
    "options": [
     "It gives motion into a place",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">seine</em> in <em lang=\"de\">Das Meer hat seine Perlen</em> means…",
+   "prompt": "What does <em lang=\"de\">seine</em> mean in <em lang=\"de\">Das Meer hat seine Perlen</em>?",
    "explain": "<em lang=\"de\">Sein</em> is the possessive for masculine and neuter owners; <em lang=\"de\">das Meer</em> is neuter.",
    "options": [
     "Its",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Der Himmel</em> is…",
+   "prompt": "What case is <em lang=\"de\">Der Himmel</em>?",
    "explain": "The heaven has its stars.",
    "options": [
     "Nominative",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "After <em lang=\"de\">Aber</em> the subject still comes before the verb because…",
+   "prompt": "Why does the subject still come before the verb after <em lang=\"de\">Aber</em>?",
    "explain": "Coordinating conjunctions such as <em lang=\"de\">aber, und, oder</em> stand outside the clause.",
    "options": [
     "<em lang=\"de\">Aber</em> joins clauses and takes no place in the order",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Ihn schläfert</em> means…",
+   "prompt": "What does <em lang=\"de\">Ihn schläfert</em> mean?",
    "explain": "An impersonal verb: there is no subject, and the one affected is <em lang=\"de\">ihn</em>.",
    "options": [
     "He grows sleepy",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">Umhüllen ihn Eis und Schnee</em></p> The subject of <em lang=\"de\">umhüllen</em> is…",
+   "prompt": "<p><em lang=\"de\">Umhüllen ihn Eis und Schnee</em></p> What is the subject of <em lang=\"de\">umhüllen</em>?",
    "explain": "The plural verb agrees with ice and snow; <em lang=\"de\">ihn</em> is the object.",
    "options": [
     "<em lang=\"de\">Eis und Schnee</em>",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">eine Blume</em> is nominative because…",
+   "prompt": "Why is <em lang=\"de\">eine Blume</em> nominative?",
    "explain": "<em lang=\"de\">Wie</em> compares like with like, and <em lang=\"de\">du</em> is nominative.",
    "options": [
     "After <em lang=\"de\">wie</em> it matches <em lang=\"de\">du</em>, the subject",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">an</em> in <em lang=\"de\">Ich schau’ dich an</em> is…",
+   "prompt": "What is <em lang=\"de\">an</em> in <em lang=\"de\">Ich schau’ dich an</em>?",
    "explain": "In a main clause the prefix goes to the end.",
    "options": [
     "The separated prefix of <em lang=\"de\">anschauen</em>",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">Wehmut</em></p> The subject of <em lang=\"de\">schleicht</em> is…",
+   "prompt": "<p><em lang=\"de\">Wehmut</em></p> What is the subject of <em lang=\"de\">schleicht</em>?",
    "explain": "Melancholy creeps into my heart.",
    "options": [
     "<em lang=\"de\">Wehmut</em>",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">mir</em> is…",
+   "prompt": "What case is <em lang=\"de\">mir</em>?",
    "explain": "German often uses a dative of the person where English uses a possessive. “into my heart”",
    "options": [
     "Dative",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">danket</em> is…",
+   "prompt": "What form is <em lang=\"de\">danket</em>?",
    "explain": "The older plural imperative ends in <em lang=\"de\">-et</em>; today, <em lang=\"de\">dankt</em>. give thanks",
    "options": [
     "The plural imperative",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Gott</em> after <em lang=\"de\">danket</em> is…",
+   "prompt": "What case is <em lang=\"de\">Gott</em> after <em lang=\"de\">danket</em>?",
    "explain": "<em lang=\"de\">Danken</em> takes the dative of the one thanked.",
    "options": [
     "Dative",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.de/poetry-ex"] = {
    "deck": "lang.ix.de/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">Der große Dinge tut</em></p> <em lang=\"de\">Der</em> begins…",
+   "prompt": "<p><em lang=\"de\">Der große Dinge tut</em></p> What does <em lang=\"de\">Der</em> begin?",
    "explain": "The verb <em lang=\"de\">tut</em> stands last.",
    "options": [
     "A relative clause",
