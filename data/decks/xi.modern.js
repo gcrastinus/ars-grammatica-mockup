@@ -148,7 +148,7 @@ ARS.decks['xi.modern'] = {
     `Roger Bacon held that grammar is one and the same in substance in all languages, though it varies in its accidents, and typology supplies the evidence on which this claim can be tested.`,
     `Typology shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.`,
     `It also shows that every known language has means of naming things and of saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.`,
-    `So the classical claim can be defended in a qualified form: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.`,
+    `So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.`,
     `Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.`,
     `<strong>Functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.`,
     `<strong>Formal</strong> accounts, such as Chomsky’s, describe the forms of a language apart from their uses.`,
@@ -530,7 +530,7 @@ ARS.decks['xi.modern'] = {
 { id: 'typology-claim',
   title: 'What typology shows for the classical claim',
   body: `<p>Roger Bacon held, as we have seen, that grammar is one and the same in substance in all languages, though it varies in its accidents. Typology supplies the evidence on which such a claim can be tested. It shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark; but it also shows that every known language has means of naming things and of saying something about them, of distinguishing in some way what acts from what is acted upon, of negating, and of asking.</p>
-<p>So the classical claim can be defended in a qualified form: the relations that grammar expresses, such as the relation of what is said to what it is said of, are common to all languages, whereas the means of expressing them are accidents that vary. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.</p>`,
+<p>So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses, such as the relation of what is said to what it is said of, are common to all languages, whereas the means of expressing them are accidents that vary. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.</p>`,
   src: `Comrie, <i>Language Universals and Linguistic Typology</i>; Roger Bacon, <i>Greek Grammar</i>; both in paraphrase.`,
   qp: { id: 'q-typology-claim', variants: [
     { prompt: `What does typology show that all known languages share?`,
@@ -542,9 +542,9 @@ ARS.decks['xi.modern'] = {
       answer: 1,
       explain: `Languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.` },
     { prompt: `How does typology bear on Bacon’s claim that grammar is one in substance?`,
-      options: [`It supports a qualified form of the claim`, `It refutes the claim entirely`, `It proves the claim in full, without any qualification`, `It has no bearing on the claim`],
+      options: [`It bears out the claim as Bacon stated it`, `It refutes the claim entirely`, `It proves the claim in full, without any qualification`, `It has no bearing on the claim`],
       answer: 0,
-      explain: `The relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so the claim can be defended in a qualified form.` }
+      explain: `The relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so typology bears out the claim as Bacon stated it.` }
   ] } },
 
 /* ---------- Functional grammar (5) ---------- */
@@ -684,7 +684,7 @@ ARS.decks['xi.modern'] = {
     { prompt: `What does the classical art claim that all languages share?`,
       options: [`The same words for the same things everywhere`, `The same sounds and letters`, `The same number of cases`, `The relations that grammar expresses`],
       answer: 3,
-      explain: `The classical claim, in its qualified form, is that the relations grammar expresses are common to all languages, whereas the means of expressing them vary.` },
+      explain: `The classical claim, as Bacon stated it, is that the relations grammar expresses are common to all languages, whereas the means of expressing them vary.` },
     { prompt: `What has modern linguistics found that bears on the classical claim?`,
       options: [`That all languages have one and the same grammar`, `That no two languages share anything`, `Wide variety of means, with common relations`, `That only Latin has grammar`],
       answer: 2,

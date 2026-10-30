@@ -358,7 +358,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 132. Roger Bacon held that grammar is one and the same in substance in all languages, though it varies in its accidents, and typology supplies the evidence on which this claim can be tested.
 133. Typology shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.
 134. It also shows that every known language has means of naming things and of saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.
-135. So the classical claim can be defended in a qualified form: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.
+135. So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.
 136. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.
 137. **Functional** accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.
 138. **Formal** accounts, such as Chomsky’s, describe the forms of a language apart from their uses.
