@@ -26,7 +26,20 @@
      intervalStage: number              // index into RECITE_AFTER_DAYS
    }
 
-   A later print view sets record.text beside record.groups. Each point's text is the outline line,
+   Quick then Full (ported from Ars Logica, Oct 30, 2026). A deck with a Quick outline (from recitation-quick.js) has two
+  recitations in the menu. Quick is keyed 'quick:<deck>' in the menu, but its attempt is kept inside the deck's item:
+     items[deck].quick = { text, locked, revealedAt, groups, record }   // the attempt only; the schedule is on items[deck]
+     items[deck].quickDoneAt = number|null                              // set by "Done" on Quick; opens Full
+     items[deck].fullDoneAt, lastKind ('quick'|'full')                   // the latest Full, and which kind was last recited
+  The schedule (lastRecitedAt, intervalStage) stays on items[deck] alone, and seeing either the Quick or the Full outline
+  advances it the same way, so the deck is listed once in "Time to recite again", due from its latest recitation.
+  Saved progress from before Quick: once (recitations.quickMigrated), every deck item already present is a Full
+  recitation, and it is marked Quick done too (quickDoneAt from revealedAt, or lastRecitedAt, or the time of migration).
+  The whole-section recitations have no Quick: they are Full only, as before.
+  "Done" opens Full in the menu only; the tablet stays on the revealed Quick recitation.
+  Quick needs the same minimum of writing as Full (80 words).
+
+  A later print view sets record.text beside record.groups. Each point's text is the outline line,
    and checked is the box as the student left it. The line is copied when the outline is opened,
    so the print does not depend on the deck file staying the same.
 */
@@ -80,6 +93,13 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     return Math.max(80, Math.ceil(n / 4));
   }
 
+  /* Quick needs the same minimum of writing as Full: never under 80 words. */
+  const QUICK_FLOOR = 80;
+  function quickMinimum(groups){
+    const n = reciteDistinctCount(pointStrings(groups).join(' '));
+    return Math.max(QUICK_FLOOR, Math.ceil(n / 4));
+  }
+
   function reciteIsDue(item, now){
     if (!item || !item.lastRecitedAt) return false;
     const stage = Math.max(0, Math.min(item.intervalStage || 0, RECITE_AFTER_DAYS.length - 1));
@@ -101,7 +121,18 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     if (!store.recitations) store.recitations = { unlocked: {}, items: {} };
     if (!store.recitations.unlocked) store.recitations.unlocked = {};
     if (!store.recitations.items) store.recitations.items = {};
-    return store.recitations;
+    const r = store.recitations;
+    if (!r.quickMigrated){
+      /* Before Quick existed, every deck item was a Full recitation: count it as Quick done as well. */
+      Object.keys(r.items).forEach(k => {
+        const it = r.items[k];
+        if (k.indexOf(':') >= 0 || !it || typeof it !== 'object' || it.quickDoneAt) return;
+        it.quickDoneAt = it.revealedAt || (it.record && it.record.revealedAt) || it.lastRecitedAt || Date.now();
+        if (it.lastRecitedAt){ it.fullDoneAt = it.fullDoneAt || it.lastRecitedAt; it.lastKind = it.lastKind || 'full'; }
+      });
+      r.quickMigrated = 1;
+    }
+    return r;
   }
 
   function studies(){
@@ -135,6 +166,36 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     return !!(d && Array.isArray(d.recitation) && d.recitation.length);
   }
 
+  function isQuickKey(key){ return typeof key === 'string' && key.indexOf('quick:') === 0; }
+  function baseId(key){ return isQuickKey(key) ? key.slice(6) : key; }
+  function hasQuick(id){
+    if (typeof id === 'string' && id.indexOf('section:') === 0) return false;   /* whole sections: Full only */
+    return quickLines(id).length > 0;
+  }
+  /* Quick lines come from recitation-quick.js (window.__arsQuickRecitations), keyed by deck id; the deck file itself must be loaded,
+     since Full and Quick open only once the deck is in ARS.decks. A deck with no entry has only its Full recitation. */
+  function quickLines(id){
+    const d = ARS.decks && ARS.decks[id];
+    if (!d) return [];
+    if (Array.isArray(d.quick) && d.quick.length) return d.quick;
+    const raw = (root.__arsQuickRecitations || {})[id];
+    return Array.isArray(raw) ? raw.map(q => (typeof q === 'string' ? q : q && q.html)).filter(Boolean) : [];
+  }
+  function quickDone(id){
+    if (!hasQuick(id)) return true;
+    const it = bag().items[id];
+    return !!(it && it.quickDoneAt);
+  }
+  /* Whether a menu key can be opened now. */
+  function keyOpen(key){
+    if (!key) return false;
+    if (key.indexOf('section:') === 0) return sectionReady((ARS.structure || []).find(s => s.id === key.slice(8)) || { items:[] });
+    const id = baseId(key);
+    if (!isUnlocked(id)) return false;
+    if (isQuickKey(key)) return hasQuick(id);
+    return hasOutline(id) && quickDone(id);
+  }
+
   function sectionReady(sec){
     const list = sectionStudies(sec);
     return list.length > 0 && list.every(it => isUnlocked(it.id) && hasOutline(it.id));
@@ -146,6 +207,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   }
 
   function labelHTML(key){
+    if (isQuickKey(key)) return labelHTML(baseId(key));
     if (key.indexOf('section:') === 0){
       const sec = (ARS.structure || []).find(s => s.id === key.slice(8));
       return sec ? sectionWholeLabel(sec) : key;
@@ -177,6 +239,12 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   }
 
   function ensureItem(key){
+    if (isQuickKey(key)){
+      const host = ensureItem(baseId(key));
+      if (!host.quick || typeof host.quick !== 'object') host.quick = { text:'', locked:false, revealedAt:null, groups:null, record:null };
+      if (typeof host.quick.text !== 'string') host.quick.text = '';
+      return host.quick;
+    }
     const items = bag().items;
     if (!items[key]) items[key] = blankItem();
     const it = items[key];
@@ -194,8 +262,9 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
       const parts = sectionRecitation(id);
       return parts.length ? parts : null;
     }
-    if (!isUnlocked(key) || !hasOutline(key)) return null;
-    const d = ARS.decks[key];
+    if (!keyOpen(key)) return null;
+    const d = ARS.decks[baseId(key)];
+    if (isQuickKey(key)) return [{ deck: d.id, title: d.title, points: quickLines(d.id) }];
     return [{ deck: d.id, title: d.title, points: d.recitation }];
   }
 
@@ -247,11 +316,29 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   const text = document.getElementById('recite-text');
   const full = document.getElementById('recite-full');
   const columns = document.getElementById('recite-columns');
+  const doneBtn = document.getElementById('recite-done');
+  const SEE_FULL = seeBtn.textContent, NOTE_FULL = note.textContent;
   let selectedKey = '';
+  let justOpened = '';
+  const doneMsg = document.getElementById('recite-done-msg');
   let openGen = 0;
   let saveTimer = 0;
 
-  function currentItem(){ return selectedKey && bag().items[selectedKey] ? bag().items[selectedKey] : null; }
+  function currentItem(){
+    if (!selectedKey) return null;
+    if (isQuickKey(selectedKey)){
+      const host = bag().items[baseId(selectedKey)];
+      return host && host.quick ? host.quick : null;
+    }
+    return bag().items[selectedKey] || null;
+  }
+  function minimumFor(key, groups){ return isQuickKey(key) ? quickMinimum(groups) : reciteMinimum(groups); }
+  /* The menu and the tablet name the two recitations of a deck that has a Quick one. */
+  function menuName(key){
+    const id = baseId(key);
+    if (key.indexOf('section:') !== 0 && hasQuick(id)) return (isQuickKey(key) ? 'Quick: ' : 'Full: ') + labelHTML(id);
+    return labelHTML(key);
+  }
 
   function commitText(){
     const item = currentItem();
@@ -271,7 +358,12 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
   function updateGate(){
     const item = currentItem();
     const live = item && !item.locked ? liveGroups(selectedKey) : null;
-    const enough = !!(live && reciteDistinctCount(text.value) >= reciteMinimum(live));
+    const enough = !!(live && reciteDistinctCount(text.value) >= minimumFor(selectedKey, live));
+    const quick = isQuickKey(selectedKey);
+    seeBtn.textContent = quick ? 'See quick recitation' : SEE_FULL;
+    note.textContent = quick ? 'Write a fuller recitation to see the quick one.' : NOTE_FULL;
+    if (doneBtn) doneBtn.hidden = !(quick && item && item.locked && !quickDone(baseId(selectedKey)));
+    if (doneMsg) doneMsg.hidden = !(quick && item && item.locked && justOpened === selectedKey);
     seeBtn.hidden = !!(item && item.locked);
     seeBtn.disabled = !enough;
     if (printBtn) printBtn.hidden = !(item && item.locked && item.groups && item.groups.length);
@@ -290,7 +382,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     columns.classList.add('is-split');
     const h = document.createElement('div');
     h.className = 'recite-full-h';
-    h.textContent = 'Full recitation';
+    h.textContent = isQuickKey(selectedKey) ? 'Quick recitation' : 'Full recitation';
     full.appendChild(h);
     item.groups.forEach((g, gi) => {
       if (item.groups.length > 1){
@@ -318,7 +410,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
 
   function paint(){
     const item = currentItem();
-    menuLabel.innerHTML = selectedKey ? labelHTML(selectedKey) : 'Choose a deck';
+    menuLabel.innerHTML = selectedKey ? menuName(selectedKey) : 'Choose a deck';
     text.value = item ? item.text : '';
     text.readOnly = !!(item && item.locked);
     text.disabled = !item;
@@ -367,6 +459,12 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
         else if (!ARS.decks || !ARS.decks[it.id]) noteText = 'Could not load this deck.';
         else if (!hasOutline(it.id)) noteText = 'Outline not yet written.';
         else on = true;
+        if (on && hasQuick(it.id)){
+          menuList.appendChild(optButton('quick:' + it.id, menuName('quick:' + it.id), '', true));
+          const open = quickDone(it.id);
+          menuList.appendChild(optButton(it.id, menuName(it.id), open ? '' : 'Press "Done" on Quick to open Full.', open));
+          return;
+        }
         menuList.appendChild(optButton(it.id, it.title, noteText, on));
       });
       let sNote = '';
@@ -409,9 +507,17 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
       const want = prefer || bag().lastKey || '';
       selectedKey = '';
       renderMenu(true);
-      if (want && (want.indexOf('section:') === 0 ? sectionReady((ARS.structure || []).find(s => s.id === want.slice(8)) || { items:[] }) : (isUnlocked(want) && hasOutline(want)))){
-        selectedKey = want;
-        ensureItem(want);
+      let pick = want;
+      /* A deck with a Quick recitation opens on the kind last recited, or on Quick if neither has been. */
+      if (pick && !isQuickKey(pick) && pick.indexOf('section:') !== 0 && hasQuick(pick)){
+        const host = bag().items[pick];
+        if (!host || !host.lastRecitedAt || host.lastKind === 'quick') pick = 'quick:' + pick;
+      }
+      /* Full not yet open: offer Quick instead. */
+      if (pick && !keyOpen(pick) && keyOpen('quick:' + pick)) pick = 'quick:' + pick;
+      if (pick && keyOpen(pick)){
+        selectedKey = pick;
+        ensureItem(pick);
       }
       paint();
       if (selectedKey) text.focus();
@@ -513,7 +619,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     const right = document.createElement('section');
     right.className = 'recite-print-col';
     const rh = document.createElement('h2');
-    rh.textContent = 'Full recitation';
+    rh.textContent = isQuickKey(selectedKey) ? 'Quick recitation' : 'Full recitation';
     right.appendChild(rh);
     item.groups.forEach(g => {
       if (item.groups.length > 1){
@@ -564,7 +670,7 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     const item = currentItem();
     const live = liveGroups(selectedKey);
     if (!item || item.locked || !live) return;
-    if (reciteDistinctCount(text.value) < reciteMinimum(live)) return;
+    if (reciteDistinctCount(text.value) < minimumFor(selectedKey, live)) return;
     item.text = text.value;
     item.groups = live.map(g => ({
       deck: g.deck,
@@ -573,13 +679,44 @@ function renderReciteReminder(){ renderReciteReminderImpl(); }
     }));
     item.locked = true;
     item.revealedAt = Date.now();
+    if (isQuickKey(selectedKey)){
+      /* Quick and Full share one schedule, on the deck's own item: the latest recitation of either kind sets it. */
+      item.record = { text: item.text, revealedAt: item.revealedAt, groups: item.groups };
+      const host = ensureItem(baseId(selectedKey));
+      if (host.lastRecitedAt) host.intervalStage = Math.min((host.intervalStage || 0) + 1, RECITE_AFTER_DAYS.length - 1);
+      else host.intervalStage = 0;
+      host.lastRecitedAt = item.revealedAt;
+      host.lastKind = 'quick';
+      clearTimeout(saveTimer);
+      save();
+      paint();
+      if (doneBtn && !doneBtn.hidden) doneBtn.focus();
+      return;
+    }
     if (item.lastRecitedAt) item.intervalStage = Math.min((item.intervalStage || 0) + 1, RECITE_AFTER_DAYS.length - 1);
     else item.intervalStage = 0;
     item.lastRecitedAt = item.revealedAt;
+    if (hasQuick(selectedKey)){ item.lastKind = 'full'; item.fullDoneAt = item.revealedAt; }
     item.record = { text: item.text, revealedAt: item.revealedAt, groups: item.groups };
     clearTimeout(saveTimer);
     save();
     paint();
+  });
+
+  if (doneBtn) doneBtn.addEventListener('click', () => {
+    if (!isQuickKey(selectedKey)) return;
+    const id = baseId(selectedKey);
+    const item = currentItem();
+    if (!item || !item.locked) return;
+    const host = ensureItem(id);
+    if (!host.quickDoneAt) host.quickDoneAt = Date.now();
+    clearTimeout(saveTimer);
+    save();
+    /* Done opens Full in the menu; the tablet stays on the revealed Quick recitation. */
+    justOpened = selectedKey;
+    renderMenu(true);
+    paint();
+    menuBtn.focus();
   });
 
   newBtn.addEventListener('click', () => {

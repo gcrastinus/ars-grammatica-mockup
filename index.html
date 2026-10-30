@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=20261028g">
-<link rel="stylesheet" href="course.css?v=20261028k">
+<link rel="stylesheet" href="course.css?v=20261030q">
 <link rel="icon" href="data:,">
 <script>
 /* Font choice (arsFont): set before first paint; the web font loads only when chosen. */
@@ -289,6 +289,8 @@
       <button type="button" class="btn" id="recite-see" disabled>See full recitation</button>
       <button type="button" class="btn" id="recite-print" hidden>Print</button>
       <button type="button" class="btn" id="recite-new" hidden>Start a new recitation</button>
+      <button type="button" class="btn recite-done" id="recite-done" hidden aria-label="Done with the Quick recitation; opens the Full recitation in the menu">Done</button>
+      <p class="recite-note directions" id="recite-done-msg" role="status" hidden>Full is now open in the menu.</p>
     </div>
     <p class="recite-note directions" id="recite-note" hidden>Write a fuller recitation to see the full one.</p>
     <div class="recite-columns" id="recite-columns">
@@ -366,7 +368,8 @@
 <script src="course.js?v=20261030g"></script>
 <script src="practice.js?v=20261028g"></script>
 <script src="guided.js?v=20261028g"></script>
-<script src="recitation.js?v=20261028g"></script>
+<script src="recitation-quick.js?v=20261030q"></script>
+<script src="recitation.js?v=20261030q"></script>
 <script src="speech.js?v=20261028g"></script>
 <script src="tab-lock.js?v=20261030a" data-app="Ars Grammatica" data-key="arsGrammatica.activeTab"></script>
 <script src="maker.js?v=20261028g"></script>

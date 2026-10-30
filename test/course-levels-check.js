@@ -269,8 +269,11 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   const after = await ev(`JSON.parse(localStorage.getItem('ars-grammatica-course-v2'))`);
   check('old record: opens on Essentials with English, on the saved path', await ev(`ARS.CL.current() === 'essentials' && ARS.CL.lang() === 'en' && GP.isGuided()`));
   const keep = k => JSON.stringify(after[k]) === JSON.stringify(OLD[k]);
+  const stripQuick = items => Object.fromEntries(Object.entries(items).map(([k, v]) => [k, Object.fromEntries(Object.entries(v).filter(([f]) => !['quickDoneAt', 'fullDoneAt', 'lastKind'].includes(f)))]));
   /* the recitation menu marks a finished deck as open for recitation (recitation.js, as before the levels) */
-  check('old record: decks, exercises, boxes, and recited texts unchanged', keep('decks') && keep('ex') && keep('boxes') && JSON.stringify(after.recitations.items) === JSON.stringify(OLD.recitations.items), Object.keys(after).join(','));
+  check('old record: decks, exercises, boxes, and recited texts unchanged', keep('decks') && keep('ex') && keep('boxes') && JSON.stringify(stripQuick(after.recitations.items)) === JSON.stringify(OLD.recitations.items), Object.keys(after).join(','));
+  /* Quick then Full (Oct 30, 2026): an old recitation is marked Quick done once (quickDoneAt, with recitations.quickMigrated); nothing else changes. */
+  check('old record: an old recitation counts as Quick done, once', after.recitations.quickMigrated === 1 && !!after.recitations.items['i.sign'].quickDoneAt);
   check('old record: only the new fields were added', Object.keys(after).every(k => k in OLD || ['view', 'levels', 'reciteNudges'].includes(k)));
   check('old record: the old Guided record is read: a star stays a star', await ev(`GP.stateOf('ii.ex.syllable')`) === 'mastered');
   check('old record: a pass at Stage II counts at Proficient and above, and Essentials asks for Stage I', await ev(`(() => { const e = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('proficient'); const p = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('essentials'); return e !== 'passed' && e !== 'mastered' && p === 'passed'; })()`));

@@ -1011,3 +1011,14 @@ body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
 
 .intro-note .intro-preface{max-width:85%; margin:16px auto 0; border:1px solid var(--frame); background:var(--paper); padding:10px 18px; text-align:center; font-size:16px}
 .intro-note .intro-preface a{color:var(--wine); text-decoration:none; border-bottom:1px dotted var(--gold-soft)}
+
+/* Oct 30, 2026: Quick then Full (as in Ars Logica). The tablet keeps the standard face (Libre Caslon) whatever font is chosen in the Aa menu. */
+html[data-font] :is(#recite-overlay, #recite-sheet), html[data-font] :is(#recite-overlay, #recite-sheet) *{
+  --display:var(--std-display); --text:var(--std-text);
+  font-size-adjust:none; -webkit-text-stroke:0; font-synthesis:initial;
+}
+#recite-overlay, #recite-sheet{font-family:var(--std-text)} :is(#recite-overlay, #recite-sheet) :is(input, textarea, button){font-family:inherit}
+html[data-font="copperplate"] :is(#recite-overlay, #recite-sheet){color:var(--ink)}
+.recite-tools .btn{min-height:44px}
+.recite-opt{min-height:44px}
+.recite-done{font-weight:600; border-color:var(--ink)}
