@@ -239,7 +239,7 @@ ARS.exercises['ix.ex.passages'] = {
    "task": "reading",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
-   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861"
+   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861, as printed in <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Project Gutenberg eBook 14721)"
   },
   {
    "id": "anp-A3-q2",
@@ -258,7 +258,7 @@ ARS.exercises['ix.ex.passages'] = {
    "task": "reading",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
-   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861"
+   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861, as printed in <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Project Gutenberg eBook 14721)"
   },
   {
    "id": "anp-A3-q3",
@@ -277,7 +277,7 @@ ARS.exercises['ix.ex.passages'] = {
    "task": "explaining",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
-   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861"
+   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861, as printed in <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Project Gutenberg eBook 14721)"
   },
   {
    "id": "anp-A3-q4",
@@ -296,7 +296,7 @@ ARS.exercises['ix.ex.passages'] = {
    "task": "explaining",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
-   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861"
+   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861, as printed in <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Project Gutenberg eBook 14721)"
   },
   {
    "id": "anp-A3-q5",
@@ -315,7 +315,7 @@ ARS.exercises['ix.ex.passages'] = {
    "task": "judging",
    "lang": "en",
    "passage": "My Friends, No one not in my situation can appreciate my feeling of sadness at this parting. To this place, and the kindness of these people, I owe everything. Here I have lived a quarter of a century, and have passed from a young to an old man. Here my children have been born, and one is buried. I now leave, not knowing when or whether ever I may return, with a task before me greater than that which rested upon Washington. Without the assistance of that Divine Being who ever attended him I cannot succeed. With that assistance I cannot fail. Trusting in Him, who can go with me and remain with you, and be everywhere for good, let us confidently hope that all will yet be well. To His care commending you, as I hope in your prayers you will commend me, I bid you an affectionate farewell.",
-   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861"
+   "passageSrc": "Abraham Lincoln, Farewell Address at Springfield, February 11, 1861, as printed in <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Project Gutenberg eBook 14721)"
   },
   {
    "id": "anp-A4-q1",

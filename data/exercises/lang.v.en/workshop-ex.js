@@ -143,8 +143,8 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "deck": "lang.v.en/workshop-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "On which word does “single” depend? “It is a truth universally acknowledged, that a <b>single</b> man in possession of a good fortune, must be in want of a wife.”",
-   "explain": "The adjective depends on its noun, and “man” terminates the dependence of “single.” (Jane Austen, <em>Pride and Prejudice</em>, ch. 1)",
+   "prompt": "On which word does “single” depend? “It is a truth universally acknowledged, that a <b>single</b> man in possession of a good fortune must be in want of a wife.”",
+   "explain": "The adjective depends on its noun, and “man” terminates the dependence of “single.” (Jane Austen, <em>Pride and Prejudice</em>, ch. 1, in the text of Project Gutenberg (eBook 1342))",
    "options": [
     "“man”",
     "“truth”",

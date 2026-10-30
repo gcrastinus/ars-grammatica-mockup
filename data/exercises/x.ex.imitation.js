@@ -117,7 +117,7 @@ ARS.exercises['x.ex.imitation'] = {
    "explain": "Winston Churchill, speech to the House of Commons on June 18, 1940, the close of the speech known as “Their Finest Hour,” as recorded in Hansard.",
    "work": "Winston Churchill, “Their Finest Hour” (House of Commons, June 18, 1940)",
    "selection": "the closing part, “We do not yet know what will happen in France” to “This was their finest hour.”",
-   "src": "Hansard, HC Deb 18 June 1940 vol. 362 cc. 51–61, as transcribed in sources/imitation/07-churchill-finest-hour.md (Hansard itself unreachable today). Quotation marks made curly, as elsewhere in the course.",
+   "src": "Hansard, HC Deb 18 June 1940 vol. 362 cc. 51–61, checked word for word against the online Hansard (api.parliament.uk/historic-hansard/commons/1940/jun/18/war-situation) on 29 Oct 2026. Quotation marks made curly, as elsewhere in the course.",
    "words": 381
   },
   {
