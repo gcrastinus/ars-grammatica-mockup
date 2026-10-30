@@ -9,7 +9,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-1",
    "title": "Kant, <em lang=\"de\">Grundlegung zur Metaphysik der Sitten</em> I",
-   "body": "<p lang=\"de\">Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good without qualification, except a good will.<br>Translation: Thomas Kingsmill Abbott.</p><p><strong>Context.</strong> This is the first sentence of Kant’s <em lang=\"de\">Groundwork</em>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>",
+   "body": "<p lang=\"de\">Es ist überall nichts in der Welt, ja überhaupt auch außer derselben zu denken möglich, was ohne Einschränkung für gut könnte gehalten werden, als allein ein guter Wille.</p><p>Nothing can possibly be conceived in the world, or even out of it, which can be called good, without qualification, except a good will.<br>Translation: Thomas Kingsmill Abbott.</p><p><strong>Context.</strong> This is the first sentence of Kant’s <em lang=\"de\">Groundwork</em>. It holds back its answer to the very end, after a long relative clause: only a good will is good without qualification.</p>",
    "qp": {
     "id": "q-de-ixp-prose-1",
     "variants": [
@@ -77,7 +77,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-7",
    "title": "Kant, <em lang=\"de\">Kritik der reinen Vernunft</em> A vii",
-   "body": "<p lang=\"de\">Die menschliche Vernunft hat das besondere Schicksal in einer Gattung ihrer Erkenntnisse: dass sie durch Fragen belästigt wird, die sie nicht abweisen kann; denn sie sind ihr durch die Natur der Vernunft selbst aufgegeben, die sie aber auch nicht beantworten kann; denn sie übersteigen alles Vermögen der menschlichen Vernunft.</p><p>Human reason, in one sphere of its cognition, is called upon to consider questions which it cannot decline, as they are presented by its own nature, but which it cannot answer, as they transcend every faculty of the mind.<br>Translation: J. M. D. Meiklejohn.</p><p><strong>Context.</strong> Kant’s first preface begins with the strange fate of reason: it is pressed by questions it can neither set aside nor answer. The sentence turns on two relative clauses, each followed by a reason with <em lang=\"de\">denn</em>.</p>",
+   "body": "<p lang=\"de\">Die menschliche Vernunft hat das besondere Schicksal in einer Gattung ihrer Erkenntnisse: dass sie durch Fragen belästigt wird, die sie nicht abweisen kann; denn sie sind ihr durch die Natur der Vernunft selbst aufgegeben, die sie aber auch nicht beantworten kann; denn sie übersteigen alles Vermögen der menschlichen Vernunft.</p><p>Human reason, in one sphere of its cognition, is called upon to consider questions, which it cannot decline, as they are presented by its own nature, but which it cannot answer, as they transcend every faculty of the mind.<br>Translation: J. M. D. Meiklejohn.</p><p><strong>Context.</strong> Kant’s first preface begins with the strange fate of reason: it is pressed by questions it can neither set aside nor answer. The sentence turns on two relative clauses, each followed by a reason with <em lang=\"de\">denn</em>.</p>",
    "qp": {
     "id": "q-de-ixp-prose-7",
     "variants": [
@@ -344,7 +344,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-30",
    "title": "Goethe, <em lang=\"de\">Dichtung und Wahrheit</em> I.1",
-   "body": "<p lang=\"de\">Am 28. August 1749, mittags mit dem Glockenschlage zwölf, kam ich in Frankfurt am Main auf die Welt.</p><p>On the 28th of August, 1749, at midday, as the clock struck twelve, I came into the world at Frankfurt-on-the-Main.<br>Translation: John Oxenford.</p><p><strong>Context.</strong> Goethe opens his autobiography with the hour of his birth.</p>",
+   "body": "<p lang=\"de\">Am 28. August 1749, mittags mit dem Glockenschlage zwölf, kam ich in Frankfurt am Main auf die Welt.</p><p>On the 28th of August, 1749, at mid-day, as the clock struck twelve, I came into the world, at Frankfort-on-the-Main.<br>Translation: John Oxenford.</p><p><strong>Context.</strong> Goethe opens his autobiography with the hour of his birth.</p>",
    "qp": {
     "id": "q-de-ixp-prose-30",
     "variants": [
@@ -402,7 +402,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-34",
    "title": "Marx and Engels, <em lang=\"de\">Manifest der Kommunistischen Partei</em> Preamble",
-   "body": "<p lang=\"de\">Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A specter is haunting Europe—the specter of Communism. All the powers of old Europe have entered into a holy alliance to exorcise this specter: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>Translation: Samuel Moore.</p><p><strong>Context.</strong> This is the opening of the <em lang=\"de\">Manifesto</em>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>",
+   "body": "<p lang=\"de\">Ein Gespenst geht um in Europa – das Gespenst des Kommunismus. Alle Mächte des alten Europa haben sich zu einer heiligen Hetzjagd gegen dies Gespenst verbündet, der Papst und der Zar, Metternich und Guizot, französische Radikale und deutsche Polizisten.</p><p>A spectre is haunting Europe—the spectre of Communism. All the Powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Czar, Metternich and Guizot, French Radicals and German police-spies.<br>Translation: Samuel Moore.</p><p><strong>Context.</strong> This is the opening of the <em lang=\"de\">Manifesto</em>. The second sentence puts its participle at the end and then lists the allies in pairs.</p>",
    "qp": {
     "id": "q-de-ixp-prose-34",
     "variants": [
@@ -538,7 +538,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-46",
    "title": "Schopenhauer, <em lang=\"de\">Die Welt als Wille und Vorstellung</em> I.1",
-   "body": "<p lang=\"de\">„Die Welt ist meine Vorstellung“: – dies ist eine Wahrheit, welche in Beziehung auf jedes lebende und erkennende Wesen gilt; wiewohl der Mensch allein sie in das reflektierte abstrakte Bewusstsein bringen kann.</p><p>“The world is my idea”: this is a truth which holds good for everything that lives and knows, though man alone can bring it into reflective and abstract consciousness.<br>Translation: R. B. Haldane and J. Kemp.</p><p><strong>Context.</strong> These are the first words of Schopenhauer’s chief work. The sentence gives a thesis, then a relative clause, and then a concession.</p>",
+   "body": "<p lang=\"de\">„Die Welt ist meine Vorstellung“: – dies ist eine Wahrheit, welche in Beziehung auf jedes lebende und erkennende Wesen gilt; wiewohl der Mensch allein sie in das reflektierte abstrakte Bewusstsein bringen kann.</p><p>“The world is my idea:”—this is a truth which holds good for everything that lives and knows, though man alone can bring it into reflective and abstract consciousness.<br>Translation: R. B. Haldane and J. Kemp.</p><p><strong>Context.</strong> These are the first words of Schopenhauer’s chief work. The sentence gives a thesis, then a relative clause, and then a concession.</p>",
    "qp": {
     "id": "q-de-ixp-prose-46",
     "variants": [
@@ -601,7 +601,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-51",
    "title": "Kleist, <em lang=\"de\">Michael Kohlhaas</em> opening",
-   "body": "<p lang=\"de\">An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a schoolmaster, one of the most upright and, at the same time, one of the most terrible men of his day.<br>Translation: Frances A. King.</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>",
+   "body": "<p lang=\"de\">An den Ufern der Havel lebte, um die Mitte des sechzehnten Jahrhunderts, ein Rosshändler, namens Michael Kohlhaas, Sohn eines Schulmeisters, einer der rechtschaffensten zugleich und entsetzlichsten Menschen seiner Zeit.</p><p>Toward the middle of the sixteenth century there lived on the banks of the river Havel a horse-dealer by the name of Michael Kohlhaas, the son of a school-master, one of the most upright and, at the same time, one of the most terrible men of his day.<br>Translation: Frances A. King.</p><p><strong>Context.</strong> In Kleist’s famous opening the subject is put off past a place and a time, and it is then followed by three appositions, the last of them a paradox.</p>",
    "qp": {
     "id": "q-de-ixp-prose-51",
     "variants": [
@@ -669,7 +669,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-57",
    "title": "Grimm, <em lang=\"de\">Hänsel und Gretel</em> KHM 15",
-   "body": "<p lang=\"de\">Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel.</p><p>Hard by a great forest dwelt a poor woodcutter with his wife and his two children. The boy was called Hansel and the girl Gretel.<br>Translation: Margaret Hunt.</p><p><strong>Context.</strong> This is the opening of the tale. The datives after <em lang=\"de\">vor</em> and <em lang=\"de\">mit</em> and the gender of the small words deserve attention.</p>",
+   "body": "<p lang=\"de\">Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel.</p><p>Hard by a great forest dwelt a poor wood-cutter with his wife and his two children. The boy was called Hansel and the girl Grethel.<br>Translation: Margaret Hunt.</p><p><strong>Context.</strong> This is the opening of the tale. The datives after <em lang=\"de\">vor</em> and <em lang=\"de\">mit</em> and the gender of the small words deserve attention.</p>",
    "qp": {
     "id": "q-de-ixp-prose-57",
     "variants": [
@@ -732,7 +732,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-62",
    "title": "Grimm, <em lang=\"de\">Die Sterntaler</em> KHM 153",
-   "body": "<p lang=\"de\">Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben, und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen.</p><p>There was once upon a time a little girl whose father and mother were dead, and she was so poor that she no longer had any little room to live in, or bed to sleep in.<br>Translation: Margaret Hunt.</p><p><strong>Context.</strong> This is the opening of “The Star-Money.” The girl is <em lang=\"de\">es</em>, “it,” throughout, because <em lang=\"de\">Mädchen</em> is neuter.</p>",
+   "body": "<p lang=\"de\">Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben, und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen.</p><p>There was once on a time a little girl whose father and mother were dead, and she was so poor that she no longer had any little room to live in, or bed to sleep in.<br>Translation: Margaret Hunt.</p><p><strong>Context.</strong> This is the opening of “The Star-Money.” The girl is <em lang=\"de\">es</em>, “it,” throughout, because <em lang=\"de\">Mädchen</em> is neuter.</p>",
    "qp": {
     "id": "q-de-ixp-prose-62",
     "variants": [
@@ -858,7 +858,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-72",
    "title": "Clausewitz, <em lang=\"de\">Vom Kriege</em> I.1.24",
-   "body": "<p lang=\"de\">Der Krieg ist eine bloße Fortsetzung der Politik mit anderen Mitteln. So sehen wir also, dass der Krieg nicht bloß ein politischer Akt, sondern ein wahres politisches Instrument ist, eine Fortsetzung des politischen Verkehrs, ein Durchführen desselben mit anderen Mitteln.</p><p>War is a mere continuation of policy by other means. We see, therefore, that war is not merely a political act, but also a real political instrument, a continuation of political commerce, a carrying out of the same by other means.<br>Translation: J. J. Graham.</p><p><strong>Context.</strong> The heading of § 24 and its first sentence. Clausewitz states the thesis, and then restates it in a <em lang=\"de\">dass</em> clause with three appositions after the verb.</p>",
+   "body": "<p lang=\"de\">Der Krieg ist eine bloße Fortsetzung der Politik mit anderen Mitteln. So sehen wir also, dass der Krieg nicht bloß ein politischer Akt, sondern ein wahres politisches Instrument ist, eine Fortsetzung des politischen Verkehrs, ein Durchführen desselben mit anderen Mitteln.</p><p>War is a mere continuation of policy by other means. We see, therefore, that War is not merely a political act, but also a real political instrument, a continuation of political commerce, a carrying out of the same by other means.<br>Translation: J. J. Graham.</p><p><strong>Context.</strong> The heading of § 24 and its first sentence. Clausewitz states the thesis, and then restates it in a <em lang=\"de\">dass</em> clause with three appositions after the verb.</p>",
    "qp": {
     "id": "q-de-ixp-prose-72",
     "variants": [
@@ -921,7 +921,7 @@ ARS.decks["lang.ix.de/prose"] = {
   {
    "id": "prose-77",
    "title": "Nietzsche, <em lang=\"de\">Jenseits von Gut und Böse</em> Vorrede",
-   "body": "<p lang=\"de\">Vorausgesetzt, dass die Wahrheit ein Weib ist –, wie? ist der Verdacht nicht gegründet, dass alle Philosophen, sofern sie Dogmatiker waren, sich schlecht auf Weiber verstanden?</p><p>Supposing that Truth is a woman—what then? Is there not ground for suspecting that all philosophers, in so far as they have been dogmatists, have failed to understand women?<br>Translation: Helen Zimmern.</p><p><strong>Context.</strong> The first words of <em lang=\"de\">Beyond Good and Evil</em>: a supposition, then a question with a <em lang=\"de\">dass</em> clause that holds another clause inside it.</p>",
+   "body": "<p lang=\"de\">Vorausgesetzt, dass die Wahrheit ein Weib ist –, wie? ist der Verdacht nicht gegründet, dass alle Philosophen, sofern sie Dogmatiker waren, sich schlecht auf Weiber verstanden?</p><p>Supposing that Truth is a woman—what then? Is there not ground for suspecting that all philosophers, in so far as they have been dogmatists, have failed to understand women—that the terrible seriousness and clumsy importunity with which they have usually paid their addresses to Truth, have been unskilled and unseemly methods for winning a woman?<br>Translation: Helen Zimmern.</p><p><strong>Context.</strong> The first words of <em lang=\"de\">Beyond Good and Evil</em>: a supposition, then a question with a <em lang=\"de\">dass</em> clause that holds another clause inside it.</p>",
    "qp": {
     "id": "q-de-ixp-prose-77",
     "variants": [

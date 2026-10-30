@@ -516,3 +516,33 @@ The English under each poem in `lang.ix.es/poetry` is a plain line-by-line rende
 | Unamuno, *Del sentimiento trágico* I | J. E. Crawford Flitch (London: Macmillan, 1921) | lang.x.es/unamuno | published |
 | Bécquer, Rima XXI | the course’s own plain rendering, line by line | lang.x.es/becquer | the course’s own |
 | Darío, “Sonatina,” third stanza | the course’s own plain rendering, line by line | lang.x.es/dario | the course’s own |
+
+## Section IX, French and German prose decks: translations checked (29 Oct 2026, decision 2)
+
+Each English rendering was compared word for word with the Project Gutenberg text named. Where the deck had modernized or abridged the wording, it now reads as the translator printed it.
+
+| Work | Translator / edition | Deck / panel | Status |
+|---|---|---|---|
+| Descartes, *Discours* I, IV | John Veitch, PG 59 (https://www.gutenberg.org/cache/epub/59/pg59.txt) | lang.ix.fr/prose / prose-1, prose-6 | **verified**; corrected (every one; commas; whilst; somewhat; "(COGITO ERGO SUM)"; sceptics) |
+| Pascal, *Pensées* 347, 277, 206 | W. F. Trotter, PG 18269 (https://www.gutenberg.org/cache/epub/18269/pg18269.txt) | lang.ix.fr/prose / prose-13, 52, 56 | **verified**; "vapour" restored |
+| Montaigne, *Essais*, "Au lecteur" | Charles Cotton, PG 3600 (https://www.gutenberg.org/cache/epub/3600/pg3600.txt) | lang.ix.fr/prose / prose-19 | **verified**; Cotton's "thou hast … thee … thy" restored |
+| Rousseau, *Contrat social* I.1, I.4 | G. D. H. Cole, PG 46333 (https://www.gutenberg.org/cache/epub/46333/pg46333.txt) | lang.ix.fr/prose / prose-24, 69 | **verified** |
+| Tocqueville, *Démocratie*, Introduction | Henry Reeve, PG 815 (https://www.gutenberg.org/cache/epub/815/pg815.txt) | lang.ix.fr/prose / prose-29 | **verified**; "Amongst" |
+| Flaubert, *Madame Bovary* I.1 | Eleanor Marx-Aveling, PG 2413 (https://www.gutenberg.org/cache/epub/2413/pg2413.txt) | lang.ix.fr/prose / prose-34 | **verified**; "head-master" |
+| Hugo, *Les Misérables* I.1.1 | Isabel F. Hapgood, PG 135 (https://www.gutenberg.org/cache/epub/135/pg135.txt) | lang.ix.fr/prose / prose-39 | **verified**; "Bishop of D—— He was" (no stop, as printed) |
+| Declaration of the Rights of Man, art. 1 | Thomas Paine, *Rights of Man*, PG 3742 (https://www.gutenberg.org/cache/epub/3742/pg3742.txt) | lang.ix.fr/prose / prose-43 | **verified** |
+| Molière, *Bourgeois gentilhomme* II.4 | Philip Dwight Jones, PG 2992 (https://www.gutenberg.org/cache/epub/2992/pg2992.txt) | lang.ix.fr/prose / prose-47 | **verified** |
+| La Rochefoucauld, *Maximes* 218 | Bund and Friswell, PG 9105 (https://www.gutenberg.org/cache/epub/9105/pg9105.txt) | lang.ix.fr/prose / prose-60 | **verified** |
+| Proust, *Swann* I.1 | C. K. Scott Moncrieff, PG 7178 (https://www.gutenberg.org/cache/epub/7178/pg7178.txt) | lang.ix.fr/prose / prose-64 | **verified** |
+| Kant, *Grundlegung* I | T. K. Abbott, PG 5682 (https://www.gutenberg.org/cache/epub/5682/pg5682.txt) | lang.ix.de/prose / prose-1 | **verified**; comma after "good" |
+| Kant, *KrV* A vii | J. M. D. Meiklejohn, PG 4280 (https://www.gutenberg.org/cache/epub/4280/pg4280.txt) | lang.ix.de/prose / prose-7 | **verified**; comma after "questions" |
+| Goethe, *Werther*, 4 May 1771 | R. Dillon Boylan, PG 2527 (https://www.gutenberg.org/cache/epub/2527/pg2527.txt) | lang.ix.de/prose / prose-13 | **verified** |
+| Grimm, KHM 1, 55, 15, 153 | Margaret Hunt, PG 5314 (https://www.gutenberg.org/cache/epub/5314/pg5314.txt) | lang.ix.de/prose / prose-19, 26, 57, 62 | **verified**; KHM 15 "wood-cutter", "Grethel"; KHM 153 "once on a time" |
+| Goethe, *Dichtung und Wahrheit* I.1 | John Oxenford, PG 5733 (https://www.gutenberg.org/cache/epub/5733/pg5733.txt) | lang.ix.de/prose / prose-30 | **verified**; "mid-day", "world, at Frankfort-on-the-Main" |
+| Marx and Engels, *Manifest*, preamble | Samuel Moore, PG 61 (https://www.gutenberg.org/cache/epub/61/pg61.txt) | lang.ix.de/prose / prose-34 | **verified**; "spectre", "Powers" |
+| Nietzsche, *Zarathustra*, Prologue 1 | Thomas Common, PG 1998 (https://www.gutenberg.org/cache/epub/1998/pg1998.txt) | lang.ix.de/prose / prose-40 | **verified** |
+| Schopenhauer, *Welt als Wille* I.1 | Haldane and Kemp, PG 38427 (https://www.gutenberg.org/cache/epub/38427/pg38427.txt) | lang.ix.de/prose / prose-46 | **verified**; "“The world is my idea:”—this" |
+| Kleist, *Michael Kohlhaas*, opening | Frances A. King, *German Classics* IV, PG 12060 (https://www.gutenberg.org/cache/epub/12060/pg12060.txt) | lang.ix.de/prose / prose-51 | **verified**; "school-master" |
+| Nietzsche, *Fröhliche Wissenschaft* 125 | Thomas Common, PG 52881 (https://www.gutenberg.org/cache/epub/52881/pg52881.txt) | lang.ix.de/prose / prose-67 | **verified** |
+| Clausewitz, *Vom Kriege* I.1.24 | J. J. Graham, PG 1946 (https://www.gutenberg.org/cache/epub/1946/pg1946.txt) | lang.ix.de/prose / prose-72 | **verified**; "War" capitalized as printed |
+| Nietzsche, *Jenseits*, Preface | Helen Zimmern, PG 4363 (https://www.gutenberg.org/cache/epub/4363/pg4363.txt) | lang.ix.de/prose / prose-77 | **verified**; the sentence is now given whole (it ran on past "women") |

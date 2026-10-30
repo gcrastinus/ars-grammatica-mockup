@@ -9,7 +9,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-1",
    "title": "Descartes, <em lang=\"fr\">Discours de la méthode</em> I",
-   "body": "<p lang=\"fr\">Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for everyone thinks himself so abundantly provided with it that those even who are the most difficult to satisfy in everything else do not usually desire a larger measure of this quality than they already possess.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Descartes opens his <em lang=\"fr\">Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>",
+   "body": "<p lang=\"fr\">Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose n’ont point coutume d’en désirer plus qu’ils en ont.</p><p>Good sense is, of all things among men, the most equally distributed; for every one thinks himself so abundantly provided with it, that those even who are the most difficult to satisfy in everything else, do not usually desire a larger measure of this quality than they already possess.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Descartes opens his <em lang=\"fr\">Discourse on Method</em>, written in French rather than Latin so that it could be read by all, with a sentence on good sense, the power of judging well, which he says is equal in all men.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-1",
     "variants": [
@@ -72,7 +72,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-6",
    "title": "Descartes, <em lang=\"fr\">Discours de la méthode</em> IV",
-   "body": "<p lang=\"fr\">Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, while I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be something; and as I observed that this truth, I think, therefore I am, was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the skeptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the <em lang=\"fr\">passé simple</em> of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em lang=\"fr\">il fallait que</em>.</p>",
+   "body": "<p lang=\"fr\">Mais aussitôt après je pris garde que, pendant que je voulais ainsi penser que tout était faux, il fallait nécessairement que moi qui le pensais fusse quelque chose. Et remarquant que cette vérité, je pense, donc je suis, était si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques n’étaient pas capables de l’ébranler, je jugeai que je pouvais la recevoir sans scrupule pour le premier principe de la philosophie que je cherchais.</p><p>But immediately upon this I observed that, whilst I thus wished to think that all was false, it was absolutely necessary that I, who thus thought, should be somewhat; and as I observed that this truth, I think, therefore I am (COGITO ERGO SUM), was so certain and of such evidence that no ground of doubt, however extravagant, could be alleged by the sceptics capable of shaking it, I concluded that I might, without scruple, accept it as the first principle of the philosophy of which I was in search.<br>Translation: John Veitch.</p><p><strong>Context.</strong> Having resolved to doubt everything that could be doubted, Descartes finds one thing that resists the doubt. The sentence moves from the <em lang=\"fr\">passé simple</em> of the narrative to the imperfect of what was going on, and to the imperfect subjunctive after <em lang=\"fr\">il fallait que</em>.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-6",
     "variants": [
@@ -145,7 +145,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-13",
    "title": "Pascal, <em lang=\"fr\">Pensées</em> 347",
-   "body": "<p lang=\"fr\">L’homme n’est qu’un roseau, le plus faible de la nature : mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapor, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>",
+   "body": "<p lang=\"fr\">L’homme n’est qu’un roseau, le plus faible de la nature : mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer.</p><p>Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapour, a drop of water suffices to kill him.<br>Translation: W. F. Trotter.</p><p><strong>Context.</strong> Pascal left his thoughts in fragments, to be made into a defense of the Christian religion. This one sets the weakness of man beside the dignity that thought gives him.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-13",
     "variants": [
@@ -213,7 +213,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-19",
    "title": "Montaigne, <em lang=\"fr\">Essais</em> Au lecteur",
-   "body": "<p lang=\"fr\">C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, you have here an honest book; it does at the outset forewarn you that, in contriving the same, I have proposed to myself no other than a domestic and private end. I have had no consideration at all either to your service or to my glory.<br>Translation: Charles Cotton.</p><p><strong>Context.</strong> Montaigne prefaces his <em lang=\"fr\">Essays</em> with a short note to the reader. He addresses him as <em lang=\"fr\">tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>",
+   "body": "<p lang=\"fr\">C’est ici un livre de bonne foi, lecteur. Il t’avertit dès l’entrée que je ne m’y suis proposé aucune fin que domestique et privée. Je n’y ai eu nulle considération de ton service ni de ma gloire.</p><p>Reader, thou hast here an honest book; it doth at the outset forewarn thee that, in contriving the same, I have proposed to myself no other than a domestic and private end: I have had no consideration at all either to thy service or to my glory.<br>Translation: Charles Cotton.</p><p><strong>Context.</strong> Montaigne prefaces his <em lang=\"fr\">Essays</em> with a short note to the reader. He addresses him as <em lang=\"fr\">tu</em>, as one man speaks to another, and says the book is written for his family and friends.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-19",
     "variants": [
@@ -339,7 +339,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-29",
    "title": "Tocqueville, <em lang=\"fr\">De la démocratie en Amérique</em> Introduction",
-   "body": "<p lang=\"fr\">Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Among the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>Translation: Henry Reeve.</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>",
+   "body": "<p lang=\"fr\">Parmi les objets nouveaux qui, pendant mon séjour aux États-Unis, ont attiré mon attention, aucun n’a plus vivement frappé mes regards que l’égalité des conditions.</p><p>Amongst the novel objects that attracted my attention during my stay in the United States, nothing struck me more forcibly than the general equality of conditions.<br>Translation: Henry Reeve.</p><p><strong>Context.</strong> Tocqueville traveled in the United States in 1831 and 1832. His book begins with the one fact that struck him most.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-29",
     "variants": [
@@ -402,7 +402,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-34",
    "title": "Flaubert, <em lang=\"fr\">Madame Bovary</em> I.1",
-   "body": "<p lang=\"fr\">Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the headmaster came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>Translation: Eleanor Marx-Aveling.</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the <em lang=\"fr\">passé simple</em>.</p>",
+   "body": "<p lang=\"fr\">Nous étions à l’Étude, quand le Proviseur entra, suivi d’un nouveau habillé en bourgeois et d’un garçon de classe qui portait un grand pupitre.</p><p>We were in class when the head-master came in, followed by a “new fellow,” not wearing the school uniform, and a school servant carrying a large desk.<br>Translation: Eleanor Marx-Aveling.</p><p><strong>Context.</strong> Flaubert’s novel begins in a schoolroom, with Charles Bovary’s first day. The opening sets a scene in the imperfect and breaks in on it with the <em lang=\"fr\">passé simple</em>.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-34",
     "variants": [
@@ -465,7 +465,7 @@ ARS.decks["lang.ix.fr/prose"] = {
   {
    "id": "prose-39",
    "title": "Hugo, <em lang=\"fr\">Les Misérables</em> I.1.1",
-   "body": "<p lang=\"fr\">En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D——. He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>Translation: Isabel F. Hapgood.</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>",
+   "body": "<p lang=\"fr\">En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siège de Digne depuis 1806.</p><p>In 1815, M. Charles-François-Bienvenu Myriel was Bishop of D—— He was an old man of about seventy-five years of age; he had occupied the see of D—— since 1806.<br>Translation: Isabel F. Hapgood.</p><p><strong>Context.</strong> Hugo’s novel begins not with its hero, Jean Valjean, but with the bishop whose mercy will change him. The translator hides the name of the town, as some editions did.</p>",
    "qp": {
     "id": "q-fr-ixp-prose-39",
     "variants": [
