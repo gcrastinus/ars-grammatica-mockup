@@ -5379,7 +5379,7 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Languages differ in which accidents they mark, and the classical claim can be defended in a qualified form: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary; <strong>functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put, and <strong>formal</strong> accounts describe the forms of a language apart from their uses; a sentence usually begins with the <strong>theme</strong> and continues with the <strong>rheme</strong>; Halliday held that every clause serves three functions at once; the <strong>semantic roles</strong> of modern theories closely resemble Pāṇini’s kārakas; and formal and functional accounts answer different questions.",
+      "html": "Languages differ in which accidents they mark, and typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary; <strong>functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put, and <strong>formal</strong> accounts describe the forms of a language apart from their uses; a sentence usually begins with the <strong>theme</strong> and continues with the <strong>rheme</strong>; Halliday held that every clause serves three functions at once; the <strong>semantic roles</strong> of modern theories closely resemble Pāṇini’s kārakas; and formal and functional accounts answer different questions.",
       "card": [
         32,
         33,
