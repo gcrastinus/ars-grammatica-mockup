@@ -310,7 +310,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 84. Chomsky argued that the evidence a child hears is too poor to account for what the child comes to know, so the structure common to all languages must be part of the human mind from birth; this is the argument from the poverty of the stimulus.
 85. His universal grammar is therefore a theory of the mind.
 86. Some linguists hold that children learn more from what they hear than Chomsky supposed, and that general powers of learning suffice.
-87. The classical tradition asks a different question: not only what the mind must contain to learn a language, but why the categories of language are these, which it answers from the modes of understanding and of being.
+87. The classical tradition asks a different question: not only what the mind must contain to learn a language, but why the categories of language are what they are, i.e. why there are nouns, why there are verbs, etc., which it answers from the modes of understanding and of being (there are nouns because there are stable beings, there are verbs because there are actions and receptions of action, etc.).
 88. Chomsky proposed that universal grammar consists of **principles**, which hold for every language, and **parameters**, which have a small number of possible settings, fixed differently in different languages.
 89. One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, and Japanese places it last, so that it has postpositions in place of prepositions.
 90. The setting of one parameter can explain Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun.
