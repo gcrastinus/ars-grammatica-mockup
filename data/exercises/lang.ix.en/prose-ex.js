@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“When in the Course of human events”</p> The clause beginning with “when” is…",
+   "prompt": "<p>“When in the Course of human events”</p> What is the clause beginning with “when”?",
    "explain": "“When” subordinates the clause, and the main clause, “a decent respect … requires,” comes after it. which the main clause follows",
    "options": [
     "A subordinate clause of time",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“to dissolve”</p> “To dissolve” and “to assume” are…",
+   "prompt": "<p>“to dissolve”</p> What are “to dissolve” and “to assume”?",
    "explain": "The anticipatory “it” is explained by the two infinitives: it becomes necessary to dissolve the bands and to assume a station.",
    "options": [
     "Infinitives",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“that they should declare”</p> “That they should declare the causes” is…",
+   "prompt": "<p>“that they should declare”</p> What is “that they should declare the causes”?",
    "explain": "The clause names what respect requires, so it does the work of a noun, the object of the verb.",
    "options": [
     "A noun clause",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“that all men are created equal”</p> The three clauses beginning with “that” are…",
+   "prompt": "<p>“that all men are created equal”</p> What are the three clauses beginning with “that”?",
    "explain": "Each clause names one of the truths, so the three stand in apposition to “these truths.”",
    "options": [
     "Noun clauses in apposition to “these truths”",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“In the second century of the Christian Æra” is…",
+   "prompt": "What is “In the second century of the Christian Æra”?",
    "explain": "It has no verb of its own, so it is a phrase, and it tells when.",
    "options": [
     "A prepositional phrase of time",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“were guarded”</p> “Were guarded by ancient renown” is…",
+   "prompt": "<p>“were guarded”</p> What is “were guarded by ancient renown”?",
    "explain": "The subject receives the guarding, and “by” names the agent.",
    "options": [
     "A passive verb with its agent",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“my Lord”</p> “My Lord” in the first sentence is…",
+   "prompt": "<p>“my Lord”</p> What is “my Lord” in the first sentence?",
    "explain": "The phrase names the person spoken to and has no grammatical work in the clause.",
    "options": [
     "A noun of address",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“during which time”</p> “During which time I have been pushing on my work” is…",
+   "prompt": "<p>“during which time”</p> What is “during which time I have been pushing on my work”?",
    "explain": "“Which” refers back to the seven years, so the clause depends on them.",
    "options": [
     "A relative clause taking up “seven years”",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“without one act of assistance”</p> The three phrases after “without” are…",
+   "prompt": "<p>“without one act of assistance”</p> What are the three phrases after “without”?",
    "explain": "“Without” governs all three: one act, one word, one smile, all built alike.",
    "options": [
     "Three objects of the one preposition",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“since I saw”</p> “Since I saw the queen of France” is…",
+   "prompt": "<p>“since I saw”</p> What is “since I saw the queen of France”?",
    "explain": "“Since” subordinates the clause, and the main clause is “it is now sixteen or seventeen years.”",
    "options": [
     "A subordinate clause of time",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“which she hardly seemed to touch”</p> “Which she hardly seemed to touch” describes…",
+   "prompt": "<p>“which she hardly seemed to touch”</p> What does “which she hardly seemed to touch” describe?",
    "explain": "The relative takes up the nearest noun that fits, the orb she seemed hardly to touch.",
    "options": [
     "“This orb,” the earth",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“she just began to move in”</p> “She just began to move in” is…",
+   "prompt": "<p>“she just began to move in”</p> What is “she just began to move in”?",
    "explain": "English may leave out “that” or “which” when the relative is the object: the sphere that she began to move in.",
    "options": [
     "A relative clause without a relative pronoun",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“who never inflicts pain”</p> “Who never inflicts pain” is…",
+   "prompt": "<p>“who never inflicts pain”</p> What is “who never inflicts pain”?",
    "explain": "“Who” takes up “one” and tells which one is meant.",
    "options": [
     "A relative clause describing “one”",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“as far as it goes”</p> “As far as it goes” is…",
+   "prompt": "<p>“as far as it goes”</p> What is “as far as it goes”?",
    "explain": "It qualifies the claim: accurate within its limits.",
    "options": [
     "A clause that limits “accurate”",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“removing”</p> “Removing” is…",
+   "prompt": "<p>“removing”</p> What is “removing”?",
    "explain": "A verb form in “-ing” used as a noun after a preposition is a gerund.",
    "options": [
     "A gerund",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“However little known”</p> The clause beginning “however little known” is…",
+   "prompt": "<p>“However little known”</p> What is the clause beginning “however little known”?",
    "explain": "“However” concedes: however little his feelings may be known, the truth still holds.",
    "options": [
     "A clause of concession",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“his first entering”</p> In “his first entering a neighbourhood,” “entering” is…",
+   "prompt": "<p>“his first entering”</p> In “his first entering a neighbourhood,” what is “entering”?",
    "explain": "The possessive marks “entering” as a noun: his entering.",
    "options": [
     "A gerund",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“so well fixed”</p> “So well fixed … that he is considered” expresses…",
+   "prompt": "<p>“so well fixed”</p> What does “so well fixed … that he is considered” express?",
    "explain": "“So … that” states the result of the degree named.",
    "options": [
     "A result",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“who at sundry times”</p> “Who at sundry times … spake” is…",
+   "prompt": "<p>“who at sundry times”</p> What is “who at sundry times … spake”?",
    "explain": "“Who” takes up “God,” and the main verb comes later: God … hath spoken.",
    "options": [
     "A relative clause describing “God”",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“whom”</p> “Whom” in “whom he hath appointed” is…",
+   "prompt": "<p>“whom”</p> What is “whom” in “whom he hath appointed”?",
    "explain": "“He” is the subject, and “whom,” the objective form, is the object.",
    "options": [
     "The object of “hath appointed,” taking up “his Son”",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“being”</p> “Being” and “upholding” are…",
+   "prompt": "<p>“being”</p> What are “being” and “upholding”?",
    "explain": "They describe “who” before its verb, “sat down,” arrives. “Who” is the subject of “sat down.”",
    "options": [
     "Participles describing the Son",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“for delight, for ornament, and for ability”</p> “For delight, for ornament, and for ability” are…",
+   "prompt": "<p>“for delight, for ornament, and for ability”</p> What are “for delight, for ornament, and for ability”?",
    "explain": "Each phrase tells what studies serve for.",
    "options": [
     "Three phrases depending on “serve”",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“For expert men”</p> “For” in “For expert men can execute” means…",
+   "prompt": "<p>“For expert men”</p> What does “for” mean in “For expert men can execute”?",
    "explain": "Here “for” is a conjunction that introduces the reason for the claim before it.",
    "options": [
     "“Because”",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“those that are learned”</p> “That are learned” is…",
+   "prompt": "<p>“those that are learned”</p> What is “that are learned”?",
    "explain": "“That” takes up “those” and tells which people are meant.",
    "options": [
     "A relative clause describing “those”",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“Four score”</p> “Four score and seven years ago” is…",
+   "prompt": "<p>“Four score”</p> What is “Four score and seven years ago”?",
    "explain": "It tells when the fathers acted; it is not a clause, since it has no verb.",
    "options": [
     "An adverbial phrase of time",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“conceived in Liberty”</p> “Conceived” and “dedicated” are…",
+   "prompt": "<p>“conceived in Liberty”</p> What are “conceived” and “dedicated”?",
    "explain": "They have no subject of their own and describe the noun before them.",
    "options": [
     "Past participles describing “a new nation”",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“that all men are created equal”</p> “That all men are created equal” is…",
+   "prompt": "<p>“that all men are created equal”</p> What is “that all men are created equal”?",
    "explain": "It says what the proposition is.",
    "options": [
     "A noun clause in apposition to “the proposition”",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The clause beginning with “whether” is…",
+   "prompt": "What is the clause beginning with “whether”?",
    "explain": "“Whether” reports a question: whether the nation can long endure. The clause is the object of “testing.”",
    "options": [
     "An indirect question",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“With malice toward none”</p> The phrases beginning with “with” are…",
+   "prompt": "<p>“With malice toward none”</p> What are the phrases beginning with “with”?",
    "explain": "They have no verbs, and they describe the manner of striving.",
    "options": [
     "Prepositional phrases of manner leading to the main clause",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“to finish”</p> “To finish the work” is…",
+   "prompt": "<p>“to finish”</p> What is “to finish the work”?",
    "explain": "It tells what the striving is for.",
    "options": [
     "An infinitive of purpose",
@@ -780,7 +780,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“so far like the present period, that”</p> “So far like … that some of its noisiest authorities insisted” expresses…",
+   "prompt": "<p>“so far like the present period, that”</p> What does “so far like … that some of its noisiest authorities insisted” express?",
    "explain": "“So … that” gives the result of the likeness.",
    "options": [
     "A result",
@@ -797,7 +797,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“its being received”</p> In “insisted on its being received,” “being received” is…",
+   "prompt": "<p>“its being received”</p> In “insisted on its being received,” what is “being received”?",
    "explain": "The possessive “its” and the preposition “on” show that the “-ing” form is a gerund.",
    "options": [
     "A passive gerund, the object of “on”",
@@ -814,7 +814,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“unless wariness be used”</p> “Be used” after “unless” is…",
+   "prompt": "<p>“unless wariness be used”</p> What is “be used” after “unless”?",
    "explain": "Older English uses the subjunctive in conditions: unless wariness be used.",
    "options": [
     "The subjunctive in a condition",
@@ -831,7 +831,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“Who kills a man” is…",
+   "prompt": "What is “who kills a man”?",
    "explain": "The clause names the one who does the act, and so it serves as the subject.",
    "options": [
     "A noun clause",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“God’s image”</p> “God’s image” stands…",
+   "prompt": "<p>“God’s image”</p> How does “God’s image” stand?",
    "explain": "It renames the creature: a reasonable creature, that is, God’s image.",
    "options": [
     "In apposition to “a reasonable creature”",
@@ -865,7 +865,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“he who destroys a good book”</p> “Who destroys a good book” is…",
+   "prompt": "<p>“he who destroys a good book”</p> What is “who destroys a good book”?",
    "explain": "“Who” takes up “he” and tells which man is meant.",
    "options": [
     "A relative clause describing “he”",
@@ -882,7 +882,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“who walk through this great town”</p> “Who walk through this great town” is…",
+   "prompt": "<p>“who walk through this great town”</p> What is “who walk through this great town”?",
    "explain": "“Who” takes up “those.”",
    "options": [
     "A relative clause describing “those”",
@@ -899,7 +899,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“when they see”</p> “When they see the streets” is…",
+   "prompt": "<p>“when they see”</p> What is “when they see the streets”?",
    "explain": "“When” subordinates the clause to “it is a melancholy object.”",
    "options": [
     "A subordinate clause of time",
@@ -916,7 +916,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“crowded”</p> “Crowded” describes…",
+   "prompt": "<p>“crowded”</p> What does “crowded” describe?",
    "explain": "The participle completes “see the streets … crowded with beggars.”",
    "options": [
     "The streets",
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“importuning”</p> “Importuning” describes…",
+   "prompt": "<p>“importuning”</p> What does “importuning” describe?",
    "explain": "It is joined by “and” to “followed,” and both describe the beggars.",
    "options": [
     "The beggars",
@@ -950,7 +950,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“Call me Ishmael” is…",
+   "prompt": "What is “Call me Ishmael”?",
    "explain": "The verb gives a command, and the subject is not written.",
    "options": [
     "An imperative",
@@ -967,7 +967,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“never mind how long precisely”</p> The words between the dashes are…",
+   "prompt": "<p>“never mind how long precisely”</p> What are the words between the dashes?",
    "explain": "They can be removed without breaking the construction.",
    "options": [
     "A parenthesis",
@@ -984,7 +984,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“having little or no money”</p> “Having little or no money” describes…",
+   "prompt": "<p>“having little or no money”</p> What does “having little or no money” describe?",
    "explain": "The participle goes with the subject of the main clause.",
    "options": [
     "“I,” the subject of “thought,” and gives the reason",
@@ -1001,7 +1001,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“I would sail about”</p> “I would sail about a little” is…",
+   "prompt": "<p>“I would sail about”</p> What is “I would sail about a little”?",
    "explain": "It says what he thought; English may leave out “that.”",
    "options": [
     "A noun clause",
@@ -1018,7 +1018,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“because I wished”</p> “Because I wished to live deliberately” is…",
+   "prompt": "<p>“because I wished”</p> What is “because I wished to live deliberately”?",
    "explain": "“Because” subordinates the clause and gives the reason.",
    "options": [
     "A subordinate clause of cause",
@@ -1035,7 +1035,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“to live deliberately”</p> “To live deliberately” is…",
+   "prompt": "<p>“to live deliberately”</p> What is “to live deliberately”?",
    "explain": "It says what he wished.",
    "options": [
     "An infinitive, the object of “wished”",
@@ -1052,7 +1052,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“if I could not learn”</p> “If I could not learn” after “see” is…",
+   "prompt": "<p>“if I could not learn”</p> What is “if I could not learn” after “see”?",
    "explain": "“See if” means “see whether”: it reports a question.",
    "options": [
     "An indirect question",
@@ -1069,7 +1069,7 @@ ARS.exercises["lang.ix.en/prose-ex"] = {
    "deck": "lang.ix.en/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“when I came to die”</p> “When I came to die” is…",
+   "prompt": "<p>“when I came to die”</p> What is “when I came to die”?",
    "explain": "It tells when he might discover it.",
    "options": [
     "A clause of time set inside the last infinitive phrase",
