@@ -320,7 +320,7 @@ ARS.decks['xi.modern'] = {
 { id: 'relations',
   title: 'Two kinds of relation',
   body: `<p>In “the young pilot lands,” each word is related to the words beside it, and also to the words that could stand in its place. Saussure distinguished these two kinds of relation among the elements of a language. <strong>Syntagmatic</strong> relations hold between elements that occur together in a sequence: in “the young pilot lands,” “young” is related to “pilot” and “pilot” to “lands.” <strong>Associative</strong> relations, later called <strong>paradigmatic</strong>, hold between an element and others that could take its place: “pilot” is related to “captain,” “student,” and “doctor,” any of which could stand in the same position.</p>
-<p>The classical art knew both relations, though it did not name them so. Construction, which we studied in Section V, concerns the relations of words that occur together; the paradigms of declension and conjugation, which we studied in Section III, set out the forms that can take one another’s place. So Saussure’s distinction gives general names to the two dimensions that every grammar has always described.</p>`,
+<p>The classical art knew both relations, though it did not give them these names. Construction, which we studied in Section V, concerns the relations of words that occur together; the paradigms of declension and conjugation, which we studied in Section III, set out the forms that can take one another’s place. So Saussure’s distinction gives general names to the two dimensions that every grammar has always described.</p>`,
   src: `Saussure, <i>Cours</i>, Part II, ch. 5, in paraphrase.` },
 
 { id: 'habit',
