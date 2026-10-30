@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">qui … venit</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">qui … venit</em> depend?",
    "explain": "The relative takes up the man. Its own verb is <em lang=\"la\">venit</em>, so <em lang=\"la\">qui</em> is nominative.",
    "options": [
     "<em lang=\"la\">virum</em>",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Italiam</em> with <em lang=\"la\">venit</em> is…",
+   "prompt": "What construction is <em lang=\"la\">Italiam</em> with <em lang=\"la\">venit</em>?",
    "explain": "Prose would say <em lang=\"la\">in Italiam</em>; poetry often gives the place to which in the bare accusative.",
    "options": [
     "An accusative of the place to which: without a preposition",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">impulerit</em> is subjunctive because…",
+   "prompt": "Why is <em lang=\"la\">impulerit</em> subjunctive?",
    "explain": "<em lang=\"la\">Memora</em> governs <em lang=\"la\">quo … quidve … impulerit</em>, and a reported question takes the subjunctive.",
    "options": [
     "It is an indirect question after <em lang=\"la\">memora</em>",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">Tantaene animis caelestibus irae?</em></p> <em lang=\"la\">Tantaene … irae?</em> is…",
+   "prompt": "<p><em lang=\"la\">Tantaene animis caelestibus irae?</em></p> How does this question stand in the passage?",
    "explain": "<em lang=\"la\">-ne</em> marks a new question, and <em lang=\"la\">sunt</em> is understood. It does not depend on <em lang=\"la\">memora</em>.",
    "options": [
     "An independent question beside the invocation",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">parabam</em> is…",
+   "prompt": "What form is <em lang=\"la\">parabam</em>?",
    "explain": "The imperfect presents the action as going on, and here as intended but not completed, because Cupid interfered.",
    "options": [
     "Imperfect: “I was preparing,” a plan not carried out",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">materia conveniente</em> is…",
+   "prompt": "What construction is <em lang=\"la\">materia conveniente</em>?",
    "explain": "A noun and a participle in the ablative give a circumstance: with the matter suited to the meters.",
    "options": [
     "An ablative absolute: the matter being suited",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">modis</em> is…",
+   "prompt": "What construction is <em lang=\"la\">modis</em>?",
    "explain": "<em lang=\"la\">Convenio</em>, “suit,” takes the dative of the thing suited.",
    "options": [
     "Dative with <em lang=\"la\">conveniente</em>: suited to the meters",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">unum</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">unum</em> agree?",
    "explain": "Both are accusative masculine singular: <em lang=\"la\">unum … pedem</em>, one foot. Poetry often divides an adjective from its noun.",
    "options": [
     "<em lang=\"la\">pedem</em>",
@@ -202,7 +202,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">volemus</em> is…",
+   "prompt": "What form is <em lang=\"la\">volemus</em>?",
    "explain": "<em lang=\"la\">Volemus</em> is the present subjunctive, first person plural, and it urges an action that includes the speaker: let us fly.",
    "options": [
     "A future indicative: we shall fly",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">egelidos</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">egelidos</em> agree?",
    "explain": "<em lang=\"la\">Egelidos</em>, “mild,” is accusative plural, like <em lang=\"la\">tepores</em>, the object of <em lang=\"la\">refert</em>. <em lang=\"la\">Ver</em>, “spring,” is the subject.",
    "options": [
     "<em lang=\"la\">ver</em>, because an adjective of the weather agrees with the season",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Asiae</em> with <em lang=\"la\">urbes</em> is…",
+   "prompt": "What construction is <em lang=\"la\">Asiae</em> with <em lang=\"la\">urbes</em>?",
    "explain": "<em lang=\"la\">Asiae</em>, “of Asia,” is a possessive genitive depending on <em lang=\"la\">urbes</em>, “cities.”",
    "options": [
     "A genitive of value, the price set on the cities",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">vagari</em> is…",
+   "prompt": "What construction is <em lang=\"la\">vagari</em>?",
    "explain": "<em lang=\"la\">Avet</em>, “longs,” is completed by the infinitive <em lang=\"la\">vagari</em>, “to wander.”",
    "options": [
     "A complementary infinitive with <em lang=\"la\">avet</em>",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">studio</em> is…",
+   "prompt": "What construction is <em lang=\"la\">studio</em>?",
    "explain": "<em lang=\"la\">Studio</em>, “with eagerness,” is an ablative of cause with <em lang=\"la\">vigescunt</em>: the feet grow lively from eagerness.",
    "options": [
     "A dative of purpose, the end for which the feet grow lively",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">eget</em> governs…",
+   "prompt": "What case does <em lang=\"la\">eget</em> govern?",
    "explain": "<em lang=\"la\">Egeo</em>, “need,” takes the ablative of what is needed (and sometimes the genitive).",
    "options": [
     "The ablative",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Fusce</em> is…",
+   "prompt": "What case is <em lang=\"la\">Fusce</em>?",
    "explain": "A noun of the second declension in <em lang=\"la\">-us</em> has a vocative in <em lang=\"la\">-e</em>.",
    "options": [
     "Vocative: Fuscus, the friend addressed",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Syrtis</em> is…",
+   "prompt": "What form is <em lang=\"la\">Syrtis</em>?",
    "explain": "Some third-declension nouns have an accusative plural in <em lang=\"la\">-is</em>; <em lang=\"la\">aestuosas</em>, agreeing with it, shows the case.",
    "options": [
     "Accusative plural",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">facturus</em> is…",
+   "prompt": "What form is <em lang=\"la\">facturus</em>?",
    "explain": "The ending <em lang=\"la\">-urus</em> marks the future active participle, here agreeing with the understood man.",
    "options": [
     "A future active participle: about to make",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">Aeterne</em></p> <em lang=\"la\">aeterne … conditor</em> is…",
+   "prompt": "<p><em lang=\"la\">Aeterne</em></p> What case is <em lang=\"la\">aeterne … conditor</em>?",
    "explain": "<em lang=\"la\">Aeterne</em> is the vocative of <em lang=\"la\">aeternus</em>, and <em lang=\"la\">conditor</em> has the same form in the vocative as in the nominative.",
    "options": [
     "Vocative: God is addressed",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"la\">Ut alleves</em></p> <em lang=\"la\">ut alleves</em> is…",
+   "prompt": "<p><em lang=\"la\">Ut alleves</em></p> What kind of clause is <em lang=\"la\">ut alleves</em>?",
    "explain": "<em lang=\"la\">Ut</em> with the subjunctive gives the end for which the times are given: that you may lighten weariness.",
    "options": [
     "A clause of purpose",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">viantibus</em> is…",
+   "prompt": "What form is <em lang=\"la\">viantibus</em>?",
    "explain": "<em lang=\"la\">Viantes</em>, “those on the road,” is a participle used as a noun, and the dative tells for whom the herald is a light.",
    "options": [
     "A present participle: for travelers in the dative",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">segregans</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">segregans</em> agree?",
    "explain": "<em lang=\"la\">Segregans</em> is nominative singular and describes the herald, the subject of <em lang=\"la\">sonat</em>.",
    "options": [
     "<em lang=\"la\">praeco</em>",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Aeneadum</em> is…",
+   "prompt": "What form is <em lang=\"la\">Aeneadum</em>?",
    "explain": "The first declension has an older genitive plural in <em lang=\"la\">-um</em>, kept in poetry for some names: <em lang=\"la\">Aeneadum</em>, of the sons of Aeneas.",
    "options": [
     "A genitive plural",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">labentia</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">labentia</em> agree?",
    "explain": "<em lang=\"la\">Labentia</em> is neuter plural accusative, like <em lang=\"la\">signa</em>: the gliding signs of heaven.",
    "options": [
     "<em lang=\"la\">signa</em>",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">per te quoniam … concipitur</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">per te quoniam … concipitur</em>?",
    "explain": "<em lang=\"la\">Quoniam</em>, “since,” gives the reason as a fact, and so it takes the indicative. Poetry often puts the conjunction after the first words.",
    "options": [
     "A clause of cause with the indicative",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">exortum</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">exortum</em> agree?",
    "explain": "<em lang=\"la\">Exortum</em> is neuter singular nominative, like <em lang=\"la\">genus</em>: the race, having arisen, visits the light of the sun.",
    "options": [
     "<em lang=\"la\">genus</em>",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">bellice</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">bellice</em> agree?",
    "explain": "<em lang=\"la\">Bellice</em>, “warlike,” is vocative and agrees with <em lang=\"la\">Mars</em>, the god addressed.",
    "options": [
     "<em lang=\"la\">clipeo</em>",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">casside</em> is…",
+   "prompt": "What construction is <em lang=\"la\">casside</em>?",
    "explain": "<em lang=\"la\">Solve</em>, “loose,” takes <em lang=\"la\">comas</em>, “hair,” as its object, and <em lang=\"la\">casside</em>, “from the helmet,” is the ablative of separation.",
    "options": [
     "An ablative of means, the helmet by which the hair is loosed",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nitidas</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">nitidas</em> agree?",
    "explain": "<em lang=\"la\">Nitidas</em>, “shining,” is accusative plural, like <em lang=\"la\">comas</em>, and the two are divided around <em lang=\"la\">casside solve</em>.",
    "options": [
     "<em lang=\"la\">comas</em>",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">poetae</em> in <em lang=\"la\">quid sit cum Marte poetae</em> is…",
+   "prompt": "What is <em lang=\"la\">poetae</em> in <em lang=\"la\">quid sit cum Marte poetae</em>?",
    "explain": "<em lang=\"la\">Quid sit</em> is an indirect question after <em lang=\"la\">roges</em>. <em lang=\"la\">Poetae</em> is a dative of reference: what a poet has to do with Mars.",
    "options": [
     "The subject of <em lang=\"la\">roges</em>, as if the poet asked in the nominative",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">depositis clipeo et hasta</em> is…",
+   "prompt": "What construction is <em lang=\"la\">depositis clipeo et hasta</em>?",
    "explain": "<em lang=\"la\">Clipeo</em> and <em lang=\"la\">hasta</em>, with the participle <em lang=\"la\">depositis</em>, “having been laid aside,” stand in the ablative as a circumstance. The participle is plural because it belongs to both nouns.",
    "options": [
     "An ablative absolute",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Sabidi</em> is…",
+   "prompt": "What case is <em lang=\"la\">Sabidi</em>?",
    "explain": "A name in <em lang=\"la\">-ius</em> has its vocative in <em lang=\"la\">-i</em>, and the man is spoken to.",
    "options": [
     "Vocative: Sabidius, the man addressed",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">dicere</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">dicere</em> depend?",
    "explain": "<em lang=\"la\">Possum</em> is completed by an infinitive: I am able to say.",
    "options": [
     "<em lang=\"la\">possum</em>",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">quare</em> here means…",
+   "prompt": "What does <em lang=\"la\">quare</em> mean here?",
    "explain": "<em lang=\"la\">Quare</em> can ask why or say therefore. After <em lang=\"la\">dicere</em> it asks the reason, as in an indirect question.",
    "options": [
     "“Why”: it asks the reason",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">hoc</em> refers to…",
+   "prompt": "To what does <em lang=\"la\">hoc</em> refer?",
    "explain": "<em lang=\"la\">Hoc</em> points ahead to what he can say, and the line ends with it.",
    "options": [
     "The words that follow: <em lang=\"la\">non amo te</em>",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">tantum</em> is…",
+   "prompt": "What part of speech is <em lang=\"la\">tantum</em>?",
    "explain": "With <em lang=\"la\">possum dicere</em>, <em lang=\"la\">tantum</em> limits the verb: this only I can say.",
    "options": [
     "An adverb: only",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">orandum est</em> says…",
+   "prompt": "What does <em lang=\"la\">orandum est</em> say?",
    "explain": "The gerundive with <em lang=\"la\">est</em>, used without a subject, expresses obligation: there must be praying.",
    "options": [
     "What must be done: one must pray",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ut sit mens sana</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">ut sit mens sana</em>?",
    "explain": "Verbs of asking and praying take <em lang=\"la\">ut</em> with the subjunctive for the thing asked.",
    "options": [
     "A clause with <em lang=\"la\">ut</em> and the subjunctive",
@@ -746,7 +746,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">posce</em> is…",
+   "prompt": "What form is <em lang=\"la\">posce</em>?",
    "explain": "The present imperative singular of the third conjugation ends in <em lang=\"la\">-e</em>: <em lang=\"la\">posce</em>, ask.",
    "options": [
     "The imperative singular of <em lang=\"la\">posco</em>: ask for",
@@ -763,7 +763,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">terrore</em> is in the ablative because…",
+   "prompt": "Why is <em lang=\"la\">terrore</em> in the ablative?",
    "explain": "Verbs of lacking take the ablative of the thing lacked: <em lang=\"la\">terrore carentem</em>, lacking fear.",
    "options": [
     "<em lang=\"la\">Careo</em>, “lack,” takes the ablative",
@@ -780,7 +780,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ponat</em> is subjunctive because…",
+   "prompt": "Why is <em lang=\"la\">ponat</em> subjunctive?",
    "explain": "A relative clause of characteristic takes the subjunctive: a mind such as would count long life the least of gifts.",
    "options": [
     "Its relative clause says what kind of mind is meant",
@@ -797,7 +797,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">prodeunt</em> is plural because…",
+   "prompt": "Why is <em lang=\"la\">prodeunt</em> plural?",
    "explain": "<em lang=\"la\">Vexilla</em>, the banners, is neuter plural, and the verb agrees with its subject in number.",
    "options": [
     "Its subject is <em lang=\"la\">vexilla</em>",
@@ -814,7 +814,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">quo</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">quo</em> agree?",
    "explain": "<em lang=\"la\">Quo … patibulo</em> is ablative singular: on which gibbet. The relative stands first and its noun last.",
    "options": [
     "<em lang=\"la\">patibulo</em>",
@@ -831,7 +831,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">carnis</em> depends on…",
+   "prompt": "On what does <em lang=\"la\">carnis</em> depend?",
    "explain": "<em lang=\"la\">Carnis</em> is genitive, the thing made, and <em lang=\"la\">conditor</em> is the maker. <em lang=\"la\">Carne</em>, in the ablative, says that he hung in the flesh.",
    "options": [
     "<em lang=\"la\">conditor</em>: the maker of flesh",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">vulneratus</em> agrees with…",
+   "prompt": "With what does <em lang=\"la\">vulneratus</em> agree?",
    "explain": "<em lang=\"la\">Vulneratus</em> is masculine singular nominative, and it describes the same subject as <em lang=\"la\">suspensus est</em>.",
    "options": [
     "The understood subject: the maker who hung on the cross",
@@ -865,7 +865,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ut nos lavaret</em> is…",
+   "prompt": "What kind of clause is <em lang=\"la\">ut nos lavaret</em>?",
    "explain": "<em lang=\"la\">Ut</em> with the subjunctive gives the end for which the blood flowed, and the imperfect follows the past <em lang=\"la\">manavit</em>.",
    "options": [
     "A clause of purpose",
@@ -882,7 +882,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">crimine</em> is…",
+   "prompt": "What construction is <em lang=\"la\">crimine</em>?",
    "explain": "With a verb of washing or freeing, the ablative gives that from which: to wash us from guilt. <em lang=\"la\">Nos</em> is the object.",
    "options": [
     "An ablative of separation",

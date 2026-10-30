@@ -1040,3 +1040,4 @@ Source: notes/AUDIT-EXERCISES-2026-10-29.md, section 6. Exercise cache tag 20261
 - Decision 17, lang.ix.en/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
 - Decision 17, lang.ix.grc/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
 - Decision 17, lang.ix.fr/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
+- Decision 17, lang.ix.la/poetry-ex: 46 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
