@@ -74,7 +74,7 @@
     `Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called <strong>generative</strong>.`,
     `Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, since a sentence can be grammatical though it makes no sense.`,
     `The classical grammarians likewise distinguished congruity from truth, so that a sentence can be congruous though false.`,
-    `The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, which are themselves taken from meaning, so for them grammar is never wholly independent of signification.`,
+    `The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, one adhering as a quality and the other bearing it, whatever the words mean, so for them grammar is never wholly independent of signification.`,
     `A generative grammar divides the sentence into its constituents by rules called <strong>phrase-structure rules</strong>, the first of which may state that a sentence consists of a noun phrase and a verb phrase (S → NP VP).`,
     `Further rules divide each phrase, and the result can be drawn as a tree, with the sentence at the top and the words at the bottom.`,
     `The phrase-structure tree groups words into phrases, whereas the dependency diagram of Thomas and Tesnière joins each word to the word on which it depends; the two describe the same sentence in different ways, and modern linguists continue to debate which is more fundamental.`,
