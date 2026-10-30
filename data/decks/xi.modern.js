@@ -385,7 +385,7 @@ ARS.decks['xi.modern'] = {
 
 { id: 'transformations',
   title: 'Transformations',
-  body: `<p>The active “The child spilled the milk” and the passive “The milk was spilled by the child” express the same relations of doer and thing done in two forms. Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; a transformation derives the one form from the other. Questions, such as “Did the child spill the milk?” and negations were also derived by transformations from simpler structures.</p>
+  body: `<p>The active “The child spilled the milk” and the passive “The milk was spilled by the child” express the same relations of doer and thing done in two forms. Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; a transformation derives the one form from the other. Questions, such as “Did the child spill the milk?”, and negations, such as “The child did not spill the milk,” were also derived by transformations from simpler structures.</p>
 <p>The classical grammarians had observed the same relations without this apparatus. We saw in Section III that the active and passive describe the same event with different subjects, and in Section VIII that the Port-Royal grammarians analyzed one sentence as a combination of simpler judgments. Chomsky’s transformations gave such observations a precise and general form.</p>`,
   src: `Chomsky, <i>Syntactic Structures</i>, ch. 5–7, in paraphrase.` },
 
