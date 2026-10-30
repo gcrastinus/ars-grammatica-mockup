@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">nichts</em></p> The real subject of <em lang=\"de\">Es ist</em> is…",
+   "prompt": "<p><em lang=\"de\">nichts</em></p> What is the real subject of <em lang=\"de\">Es ist</em>?",
    "explain": "<em lang=\"de\">Es</em> holds the first place; what is said to exist, or not to exist, is <em lang=\"de\">nichts</em>.",
    "options": [
     "<em lang=\"de\">nichts</em>",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">derselben</em> is dative because…",
+   "prompt": "Why is <em lang=\"de\">derselben</em> dative?",
    "explain": "<em lang=\"de\">Außer</em> always takes the dative: outside it, the world.",
    "options": [
     "<em lang=\"de\">außer</em> takes the dative",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">könnte gehalten werden</em> is…",
+   "prompt": "What form is <em lang=\"de\">könnte gehalten werden</em>?",
    "explain": "<em lang=\"de\">Gehalten werden</em> is the passive infinitive, and <em lang=\"de\">könnte</em> is the Konjunktiv II of <em lang=\"de\">können</em>. could be held",
    "options": [
     "A subjunctive",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">die</em> in <em lang=\"de\">die sie nicht abweisen kann</em> is…",
+   "prompt": "What is <em lang=\"de\">die</em> in <em lang=\"de\">die sie nicht abweisen kann</em>?",
    "explain": "<em lang=\"de\">Sie</em> is the subject, reason; <em lang=\"de\">die</em>, plural, is the object: which it cannot refuse.",
    "options": [
     "A relative pronoun",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">denn sie sind</em></p> After <em lang=\"de\">denn</em> the verb…",
+   "prompt": "<p><em lang=\"de\">denn sie sind</em></p> Where does the verb stand after <em lang=\"de\">denn</em>?",
    "explain": "<em lang=\"de\">Denn</em> is a coordinating conjunction and does not change the order. as in a main clause",
    "options": [
     "Stays in second place",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">ihr</em> in <em lang=\"de\">sie sind ihr … aufgegeben</em> is…",
+   "prompt": "What is <em lang=\"de\">ihr</em> in <em lang=\"de\">sie sind ihr … aufgegeben</em>?",
    "explain": "<em lang=\"de\">Aufgeben</em> takes the person in the dative; <em lang=\"de\">ihr</em> is the dative of <em lang=\"de\">sie</em>, reason. to reason",
    "options": [
     "Dative: set to it",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Bester</em> has the ending <em lang=\"de\">-er</em> because…",
+   "prompt": "Why does <em lang=\"de\">Bester</em> have the ending <em lang=\"de\">-er</em>?",
    "explain": "Without an article, the adjective takes the strong ending: <em lang=\"de\">bester Freund</em>. so the adjective shows the masculine",
    "options": [
     "There is no article",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">des Menschen</em> is…",
+   "prompt": "What case is <em lang=\"de\">des Menschen</em>?",
    "explain": "<em lang=\"de\">Des</em> is the genitive article, and the weak noun <em lang=\"de\">Mensch</em> adds <em lang=\"de\">-en</em>.",
    "options": [
     "Genitive singular",
@@ -202,7 +202,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">den</em> in <em lang=\"de\">den ich so liebe</em> stands for…",
+   "prompt": "For what does <em lang=\"de\">den</em> stand in <em lang=\"de\">den ich so liebe</em>?",
    "explain": "<em lang=\"de\">Den</em> is masculine accusative, object of <em lang=\"de\">liebe</em>, and it takes up the friend addressed.",
    "options": [
     "<em lang=\"de\">dich</em>",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">dessen</em> is…",
+   "prompt": "What is <em lang=\"de\">dessen</em>?",
    "explain": "<em lang=\"de\">Dessen Töchter</em>: whose daughters, the king’s.",
    "options": [
     "The genitive relative",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">die doch so vieles gesehen hat</em></p> <em lang=\"de\">die</em> here stands for…",
+   "prompt": "<p><em lang=\"de\">die doch so vieles gesehen hat</em></p> For what does <em lang=\"de\">die</em> stand here?",
    "explain": "It follows <em lang=\"de\">die Sonne selber</em> and takes the singular verb <em lang=\"de\">hat</em>.",
    "options": [
     "<em lang=\"de\">die Sonne</em>",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">ihr</em> in <em lang=\"de\">sie ihr ins Gesicht schien</em> is…",
+   "prompt": "What is <em lang=\"de\">ihr</em> in <em lang=\"de\">sie ihr ins Gesicht schien</em>?",
    "explain": "German uses the dative of the person with a part of the body: <em lang=\"de\">ihr ins Gesicht</em>. the girl’s",
    "options": [
     "Dative: into her face",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">ein Müller</em></p> The subject of <em lang=\"de\">Es war</em> is…",
+   "prompt": "<p><em lang=\"de\">ein Müller</em></p> What is the subject of <em lang=\"de\">Es war</em>?",
    "explain": "<em lang=\"de\">Es</em> holds the first place; what there was is the miller.",
    "options": [
     "<em lang=\"de\">ein Müller</em>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em lang=\"de\">der war arm</em>, <em lang=\"de\">der</em> is…",
+   "prompt": "In <em lang=\"de\">der war arm</em>, what is <em lang=\"de\">der</em>?",
    "explain": "In a relative clause the verb would be last: <em lang=\"de\">der arm war</em>. Here it is second.",
    "options": [
     "A demonstrative",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">eine schöne Tochter</em> is…",
+   "prompt": "What case is <em lang=\"de\">eine schöne Tochter</em>?",
    "explain": "<em lang=\"de\">Er</em> is the subject; the feminine accusative looks like the nominative.",
    "options": [
     "Accusative feminine",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Am</em> is…",
+   "prompt": "What is <em lang=\"de\">Am</em>?",
    "explain": "<em lang=\"de\">An</em> and <em lang=\"de\">dem</em> run together, as in <em lang=\"de\">am Main</em>.",
    "options": [
     "<em lang=\"de\">an dem</em>",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">mittags</em> is…",
+   "prompt": "What is <em lang=\"de\">mittags</em>?",
    "explain": "Like <em lang=\"de\">abends</em> and <em lang=\"de\">morgens</em>, the <em lang=\"de\">-s</em> is an old genitive used for time.",
    "options": [
     "An adverb from an old genitive: at noon",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">geht um</em></p> <em lang=\"de\">geht … um</em> is…",
+   "prompt": "<p><em lang=\"de\">geht um</em></p> What is <em lang=\"de\">geht … um</em>?",
    "explain": "In a main clause the separable prefix leaves its verb. <em lang=\"de\">Umgehen</em>, of ghosts, is “to haunt.”",
    "options": [
     "The separable verb <em lang=\"de\">umgehen</em>",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">des Kommunismus</em> is…",
+   "prompt": "What case is <em lang=\"de\">des Kommunismus</em>?",
    "explain": "<em lang=\"de\">Des</em> marks the genitive masculine. of Communism",
    "options": [
     "Genitive",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">deutsche Polizisten</em></p> <em lang=\"de\">deutsche</em> has the ending <em lang=\"de\">-e</em> because…",
+   "prompt": "<p><em lang=\"de\">deutsche Polizisten</em></p> Why does <em lang=\"de\">deutsche</em> have the ending <em lang=\"de\">-e</em>?",
    "explain": "Without an article, the adjective shows the case: nominative plural <em lang=\"de\">-e</em>. the strong ending",
    "options": [
     "It is plural",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">seines Geistes</em> is…",
+   "prompt": "What is <em lang=\"de\">seines Geistes</em>?",
    "explain": "Older German puts the object of <em lang=\"de\">genießen</em> in the genitive.",
    "options": [
     "A genitive object of <em lang=\"de\">genoss</em>",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">zehn Jahre</em> is…",
+   "prompt": "What is <em lang=\"de\">zehn Jahre</em>?",
    "explain": "German gives a stretch of time in the accusative, without a preposition. for ten years",
    "options": [
     "An accusative of time",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">welche</em> stands for…",
+   "prompt": "For what does <em lang=\"de\">welche</em> stand?",
    "explain": "It follows <em lang=\"de\">Wahrheit</em> and is feminine singular.",
    "options": [
     "<em lang=\"de\">eine Wahrheit</em>",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">lebende</em> is…",
+   "prompt": "What form is <em lang=\"de\">lebende</em>?",
    "explain": "The present participle adds <em lang=\"de\">-d</em> to the infinitive: <em lang=\"de\">leben</em>, <em lang=\"de\">lebend</em>, with the ending <em lang=\"de\">-e</em>.",
    "options": [
     "A present participle used as an adjective",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">sie</em> in <em lang=\"de\">der Mensch allein sie … bringen kann</em> is…",
+   "prompt": "To what does <em lang=\"de\">sie</em> refer in <em lang=\"de\">der Mensch allein sie … bringen kann</em>?",
    "explain": "<em lang=\"de\">Der Mensch</em> is the subject; <em lang=\"de\">sie</em>, feminine accusative, takes up <em lang=\"de\">Wahrheit</em>.",
    "options": [
     "The truth",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of <em lang=\"de\">lebte</em> is…",
+   "prompt": "What is the subject of <em lang=\"de\">lebte</em>?",
    "explain": "Place and time come first, and the subject waits until after them.",
    "options": [
     "<em lang=\"de\">ein Rosshändler</em>",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">um die Mitte</em></p> <em lang=\"de\">um</em> takes…",
+   "prompt": "<p><em lang=\"de\">um die Mitte</em></p> What case does <em lang=\"de\">um</em> take?",
    "explain": "<em lang=\"de\">Um</em>, like <em lang=\"de\">durch</em>, <em lang=\"de\">für</em>, <em lang=\"de\">gegen</em>, <em lang=\"de\">ohne</em>, takes only the accusative.",
    "options": [
     "The accusative",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">namens</em> means…",
+   "prompt": "What does <em lang=\"de\">namens</em> mean?",
    "explain": "An old genitive of <em lang=\"de\">Name</em> used as a preposition.",
    "options": [
     "By name, named",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">einer der rechtschaffensten … Menschen</em> is…",
+   "prompt": "What is <em lang=\"de\">einer der rechtschaffensten … Menschen</em>?",
    "explain": "<em lang=\"de\">Einer</em> agrees with <em lang=\"de\">Mensch</em>, masculine; <em lang=\"de\">der … Menschen</em> is genitive plural.",
    "options": [
     "“One of the most upright men,” with the genitive plural",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">einem großen Walde</em> is dative because…",
+   "prompt": "Why is <em lang=\"de\">einem großen Walde</em> dative?",
    "explain": "<em lang=\"de\">Vor</em> is a two-way preposition; the house stands before the forest, at rest.",
    "options": [
     "<em lang=\"de\">vor</em> takes the dative for place at rest",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">ein armer Holzhacker</em></p> The subject of <em lang=\"de\">wohnte</em> is…",
+   "prompt": "<p><em lang=\"de\">ein armer Holzhacker</em></p> What is the subject of <em lang=\"de\">wohnte</em>?",
    "explain": "Nominative masculine: <em lang=\"de\">ein armer</em>.",
    "options": [
     "<em lang=\"de\">ein armer Holzhacker</em>",
@@ -763,7 +763,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">dem</em> in <em lang=\"de\">dem war Vater und Mutter gestorben</em> is…",
+   "prompt": "What is <em lang=\"de\">dem</em> in <em lang=\"de\">dem war Vater und Mutter gestorben</em>?",
    "explain": "The dative marks the person affected by the loss. to whom they had died",
    "options": [
     "Dative: the girl",
@@ -780,7 +780,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"de\">war Vater und Mutter gestorben</em></p> <em lang=\"de\">war … gestorben</em> is…",
+   "prompt": "<p><em lang=\"de\">war Vater und Mutter gestorben</em></p> What form is <em lang=\"de\">war … gestorben</em>?",
    "explain": "<em lang=\"de\">Sterben</em>, a change of state, takes <em lang=\"de\">sein</em>: <em lang=\"de\">ist gestorben</em>, <em lang=\"de\">war gestorben</em>.",
    "options": [
     "The past perfect, formed with <em lang=\"de\">sein</em>",
@@ -814,7 +814,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">tot</em> is…",
+   "prompt": "What is <em lang=\"de\">tot</em>?",
    "explain": "After <em lang=\"de\">ist</em>, the adjective takes no ending. with no ending",
    "options": [
     "A predicate adjective",
@@ -831,7 +831,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">getötet</em> is the participle of…",
+   "prompt": "Of what verb is <em lang=\"de\">getötet</em> the participle?",
    "explain": "<em lang=\"de\">Töten</em>, a weak verb: <em lang=\"de\">ge-töt-et</em>.",
    "options": [
     "<em lang=\"de\">töten</em>, “to kill”",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">uns</em> in <em lang=\"de\">Wie trösten wir uns</em> is…",
+   "prompt": "What is <em lang=\"de\">uns</em> in <em lang=\"de\">Wie trösten wir uns</em>?",
    "explain": "The object is the same as the subject <em lang=\"de\">wir</em>.",
    "options": [
     "Reflexive: ourselves",
@@ -865,7 +865,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">aller Mörder</em> is…",
+   "prompt": "What case is <em lang=\"de\">aller Mörder</em>?",
    "explain": "<em lang=\"de\">Aller</em> is the genitive plural of <em lang=\"de\">alle</em>. of all murderers",
    "options": [
     "Genitive plural",
@@ -882,7 +882,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">der Politik</em> is…",
+   "prompt": "What case and gender is <em lang=\"de\">der Politik</em>?",
    "explain": "Feminine nouns show the genitive only in the article: <em lang=\"de\">der</em>. of policy",
    "options": [
     "Genitive feminine",
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">desselben</em> stands for…",
+   "prompt": "For what does <em lang=\"de\">desselben</em> stand?",
    "explain": "A carrying-out of the same: of political commerce.",
    "options": [
     "<em lang=\"de\">des politischen Verkehrs</em>",
@@ -950,7 +950,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">Vorausgesetzt</em> is…",
+   "prompt": "What form is <em lang=\"de\">Vorausgesetzt</em>?",
    "explain": "Like English “granted,” the participle stands alone before a <em lang=\"de\">dass</em> clause. supposing",
    "options": [
     "A past participle",
@@ -984,7 +984,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">sofern sie Dogmatiker waren</em> is…",
+   "prompt": "What is <em lang=\"de\">sofern sie Dogmatiker waren</em>?",
    "explain": "The <em lang=\"de\">dass</em> clause begins, pauses for <em lang=\"de\">sofern …</em>, and closes with <em lang=\"de\">verstanden</em>.",
    "options": [
     "A clause nested inside the <em lang=\"de\">dass</em> clause",
@@ -1001,7 +1001,7 @@ ARS.exercises["lang.ix.de/prose-ex"] = {
    "deck": "lang.ix.de/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"de\">verstanden</em> here is…",
+   "prompt": "What form is <em lang=\"de\">verstanden</em> here?",
    "explain": "<em lang=\"de\">Verstehen</em>, <em lang=\"de\">verstand</em>, <em lang=\"de\">verstanden</em>: the plural past and the participle look alike; with no auxiliary, it is the past. they understood",
    "options": [
     "Simple past plural",
