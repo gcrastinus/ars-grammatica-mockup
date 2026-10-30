@@ -542,7 +542,7 @@ ARS.decks['xi.modern'] = {
       answer: 1,
       explain: `Languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.` },
     { prompt: `How does typology bear on Bacon’s claim that grammar is one in substance?`,
-      options: [`It bears out the claim as Bacon stated it`, `It refutes the claim entirely`, `It proves the claim in full, without any qualification`, `It has no bearing on the claim`],
+      options: [`It bears out the claim as Bacon stated it`, `It refutes the claim entirely`, `It shows that every language has the same forms`, `It has no bearing on the claim`],
       answer: 0,
       explain: `The relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so typology bears out the claim as Bacon stated it.` }
   ] } },
