@@ -357,7 +357,7 @@ function loadDeck(id){
   if (ARS.decks[id]) return Promise.resolve(ARS.decks[id]);
   return new Promise((res, rej) => {
     const s = document.createElement('script');
-    s.src = `data/decks/${id}.js?v=20261030t`;
+    s.src = `data/decks/${id}.js?v=20261030u`;
     s.onload = () => ARS.decks[id] ? res(ARS.decks[id]) : rej(new Error('No data in ' + s.src));
     s.onerror = () => rej(new Error('Could not load ' + s.src));
     document.head.appendChild(s);
@@ -382,7 +382,7 @@ function loadEx(id){
   if (ARS.exercises[id]) return Promise.resolve(ARS.exercises[id]);
   return new Promise((res, rej) => {
     const s = document.createElement('script');
-    s.src = `data/exercises/${id}.js?v=20261030t`;
+    s.src = `data/exercises/${id}.js?v=20261030u`;
     s.onload = () => ARS.exercises[id] ? res(ARS.exercises[id]) : rej(new Error('No data in ' + s.src));
     s.onerror = () => rej(new Error('Could not load ' + s.src));
     document.head.appendChild(s);
