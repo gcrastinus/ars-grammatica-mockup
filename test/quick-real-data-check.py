@@ -9,6 +9,8 @@ SHOTS = os.path.join(ROOT, 'shots'); os.makedirs(SHOTS, exist_ok=True)
 KEY = 'ars-grammatica-course-v2'
 DECKS = ['x.imitation', 'xi.modern', 'xi.traditions', 'iii.reasons', 'ix.passages', 'v.clause', 'v.order', 'v.period', 'ix.sentences',
          'iii.conjunction', 'v.figures', 'i.consignification', 'prelim.definition']
+DECKS = os.environ['DECKS'].split(',') if os.environ.get('DECKS') else DECKS
+SHOT_PREFIX = os.environ.get('SHOT_PREFIX', 'real')
 FONTS = ['standard', 'plain', 'garamond', 'italic', 'fraktur', 'copperplate']
 FILL = ('alpha bravo charlie delta echo foxtrot golf hotel india juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu '
         'apple banana cherry damson elder fig grape hazel iris juniper kale lemon mango nutmeg olive peach quince radish sage thyme ugli vanilla walnut yam zucchini '
@@ -55,7 +57,7 @@ def one_deck(page, url, deck, dark, tag, quick, shoot):
     check(t + ' full grayed with note', opt(page, deck).is_disabled() and opt(page, deck).locator('.recite-opt-note').inner_text() == 'Press "Done" on Quick to open Full.')
     hs = page.eval_on_selector_all('.recite-opt', "els => els.filter(e => e.offsetParent).map(e => e.getBoundingClientRect().height)")
     check(t + ' entries >= 44px', min(hs) >= 44, min(hs))
-    if shoot: page.screenshot(path=f'{SHOTS}/real-{tag}-{deck}-menu.png')
+    if shoot: page.screenshot(path=f'{SHOTS}/{SHOT_PREFIX}-{tag}-{deck}-menu.png')
     opt(page, 'quick:' + deck).click()
     typ(page, ' '.join(FILL[:60]))
     check(t + ' 60 words not enough', page.is_disabled('#recite-see'))
@@ -69,7 +71,7 @@ def one_deck(page, url, deck, dark, tag, quick, shoot):
     check(t + ' done visible', page.is_visible('#recite-done'))
     page.click('#recite-done')
     check(t + ' done: stays on quick, note, focus', page.inner_text('#recite-menu-label') == qn and page.inner_text('#recite-done-msg') == 'Full is now open in the menu.' and page.evaluate('document.activeElement.id') == 'recite-menu-btn')
-    if shoot: page.screenshot(path=f'{SHOTS}/real-{tag}-{deck}-done.png')
+    if shoot: page.screenshot(path=f'{SHOTS}/{SHOT_PREFIX}-{tag}-{deck}-done.png')
     open_menu(page)
     check(t + ' full open', not opt(page, deck).is_disabled())
     opt(page, deck).click()
@@ -83,7 +85,7 @@ def one_deck(page, url, deck, dark, tag, quick, shoot):
     page.reload(); page.wait_for_selector('#recite-due:not([hidden])')
     due = page.locator('#recite-due .recite-due-btn').all_inner_texts()
     check(t + ' due once', len(due) == 1 and due[0] == qn[7:], due)
-    if shoot: page.locator('#recite-due').scroll_into_view_if_needed(); page.screenshot(path=f'{SHOTS}/real-{tag}-{deck}-due.png')
+    if shoot: page.locator('#recite-due').scroll_into_view_if_needed(); page.screenshot(path=f'{SHOTS}/{SHOT_PREFIX}-{tag}-{deck}-due.png')
     check(t + ' no console errors', not errs, errs)
 
 def run(url):
@@ -110,7 +112,7 @@ def run(url):
                     bad = [x for x in fams if 'Libre Caslon' not in x[1].split(',')[0]]
                     tag = '%d-%s-%s' % (width, 'dark' if dark else 'light', f)
                     check(tag + ' tablet Libre Caslon', not bad and (f == 'standard' or pg.get_attribute('html', 'data-font') == f), bad)
-                    pg.screenshot(path=f'{SHOTS}/real-font-{tag}.png')
+                    pg.screenshot(path=f'{SHOTS}/{SHOT_PREFIX}-font-{tag}.png')
                     check(tag + ' no errors', not errs, errs); c.close()
         b.close()
 
