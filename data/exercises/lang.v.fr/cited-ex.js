@@ -16,7 +16,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"fr\">Longtemps</i> depend? <i lang=\"fr\"><b>Longtemps</b>, je me suis couché de bonne heure.</i>",
-   "explain": "<i lang=\"fr\">Longtemps</i> says for how long: it determines the verb. “For a long time I went to bed early.” (Proust, <i lang=\"fr\">Du côté de chez Swann</i>, opening)",
+   "explain": "<i lang=\"fr\">Longtemps</i> says for how long: it determines the verb. “For a long time I used to go to bed early.” (Proust, <i lang=\"fr\">Du côté de chez Swann</i>, opening)",
    "options": [
     "<i lang=\"fr\">suis couché</i>",
     "<i lang=\"fr\">je</i>",
@@ -32,7 +32,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"fr\">bonne</i> depend? <i lang=\"fr\">Longtemps, je me suis couché de <b>bonne</b> heure.</i>",
-   "explain": "<i lang=\"fr\">Bonne</i> is feminine, as <i lang=\"fr\">heure</i> is. “For a long time I went to bed early.” (Proust, <i lang=\"fr\">Du côté de chez Swann</i>, opening)",
+   "explain": "<i lang=\"fr\">Bonne</i> is feminine, as <i lang=\"fr\">heure</i> is. “For a long time I used to go to bed early.” (Proust, <i lang=\"fr\">Du côté de chez Swann</i>, opening)",
    "options": [
     "<i lang=\"fr\">heure</i>",
     "<i lang=\"fr\">je</i>",
@@ -48,7 +48,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"fr\">partout</i> depend? <i lang=\"fr\">L’homme est né libre, et <b>partout</b> il est dans les fers.</i>",
-   "explain": "<i lang=\"fr\">Partout</i> says where: it determines <i lang=\"fr\">est</i>. “Man is born free, and everywhere he is in chains.” (Rousseau, <i lang=\"fr\">Du contrat social</i> I.1)",
+   "explain": "<i lang=\"fr\">Partout</i> says where: it determines <i lang=\"fr\">est</i>. “Man is born free; and everywhere he is in chains.” (Rousseau, <i lang=\"fr\">Du contrat social</i> I.1)",
    "options": [
     "<i lang=\"fr\">est</i>",
     "<i lang=\"fr\">homme</i>",
@@ -64,7 +64,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"fr\">bon</i> depend? <i lang=\"fr\">Le <b>bon</b> sens est la chose du monde la mieux partagée.</i>",
-   "explain": "<i lang=\"fr\">Bon</i> adheres to <i lang=\"fr\">sens</i>. “Good sense is the best-shared thing in the world.” (Descartes, <i lang=\"fr\">Discours de la méthode</i>, opening)",
+   "explain": "<i lang=\"fr\">Bon</i> adheres to <i lang=\"fr\">sens</i>. “Good sense is, of all things among men, the most equally distributed; …” (Descartes, <i lang=\"fr\">Discours de la méthode</i>, opening)",
    "options": [
     "<i lang=\"fr\">sens</i>",
     "<i lang=\"fr\">chose</i>",
@@ -80,7 +80,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"fr\">a</i> depend? <i lang=\"fr\">Le cœur <b>a</b> ses raisons, que la raison ne connaît point.</i>",
-   "explain": "<i lang=\"fr\">Cœur</i> is the subject of <i lang=\"fr\">a</i>. “The heart has its reasons which reason does not know.” (Pascal, <i lang=\"fr\">Pensées</i> (Brunschvicg 277))",
+   "explain": "<i lang=\"fr\">Cœur</i> is the subject of <i lang=\"fr\">a</i>. “The heart has its reasons, which reason does not know.” (Pascal, <i lang=\"fr\">Pensées</i> (Brunschvicg 277))",
    "options": [
     "<i lang=\"fr\">cœur</i>",
     "<i lang=\"fr\">raisons</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb <i lang=\"fr\">a</i> also depends on its object. Which word terminates that dependence? <i lang=\"fr\">Le cœur <b>a</b> ses raisons, que la raison ne connaît point.</i>",
-   "explain": "<i lang=\"fr\">Raisons</i> terminates the transitive dependence of <i lang=\"fr\">a</i>. “The heart has its reasons which reason does not know.” (Pascal, <i lang=\"fr\">Pensées</i> (Brunschvicg 277))",
+   "explain": "<i lang=\"fr\">Raisons</i> terminates the transitive dependence of <i lang=\"fr\">a</i>. “The heart has its reasons, which reason does not know.” (Pascal, <i lang=\"fr\">Pensées</i> (Brunschvicg 277))",
    "options": [
     "<i lang=\"fr\">raisons</i>",
     "<i lang=\"fr\">cœur</i>",
@@ -144,7 +144,7 @@ ARS.exercises["lang.v.fr/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"fr\">naissent</i> depend? <i lang=\"fr\">Les hommes <b>naissent</b> et demeurent libres et égaux en droits.</i>",
-   "explain": "<i lang=\"fr\">Hommes</i> is the subject of both verbs. “Men are born and remain free and equal in rights.” (<i lang=\"fr\">Déclaration des droits de l’homme et du citoyen</i> (1789), Article 1)",
+   "explain": "<i lang=\"fr\">Hommes</i> is the subject of both verbs. “Men are born, and always continue, free and equal in respect of their rights.” (<i lang=\"fr\">Déclaration des droits de l’homme et du citoyen</i> (1789), Article 1)",
    "options": [
     "<i lang=\"fr\">hommes</i>",
     "<i lang=\"fr\">droits</i>",

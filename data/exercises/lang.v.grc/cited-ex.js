@@ -16,7 +16,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">πολύτροπον</i> depend? <i lang=\"grc\">ἄνδρα μοι ἔννεπε, μοῦσα, <b>πολύτροπον</b>, ὃς μάλα πολλὰ πλάγχθη.</i>",
-   "explain": "The word <i lang=\"grc\">πολύτροπον</i> is accusative masculine singular, as <i lang=\"grc\">ἄνδρα</i> is, at the far end of the line. “Tell me, Muse, of the man of many turns, who wandered very far.” (Homer, <i lang=\"grc\">Odyssey</i> 1.1–2)",
+   "explain": "The word <i lang=\"grc\">πολύτροπον</i> is accusative masculine singular, as <i lang=\"grc\">ἄνδρα</i> is, at the far end of the line. “Tell me, O Muse, of the man of many devices, who wandered full many ways …” (Homer, <i lang=\"grc\">Odyssey</i> 1.1–2)",
    "options": [
     "<i lang=\"grc\">ἄνδρα</i>",
     "<i lang=\"grc\">μοῦσα</i>",
@@ -48,7 +48,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"grc\">γίγνονται</i> depend? <i lang=\"grc\">Δαρείου καὶ Παρυσάτιδος <b>γίγνονται</b> παῖδες δύο.</i>",
-   "explain": "The word <i lang=\"grc\">παῖδες</i> is the nominative subject; the genitives say whose children. “Of Darius and Parysatis were born two sons.” (Xenophon, <i lang=\"grc\">Anabasis</i> 1.1.1)",
+   "explain": "The word <i lang=\"grc\">παῖδες</i> is the nominative subject; the genitives say whose children. “Darius and Parysatis had two sons: …” (Xenophon, <i lang=\"grc\">Anabasis</i> 1.1.1)",
    "options": [
     "<i lang=\"grc\">παῖδες</i>",
     "<i lang=\"grc\">Δαρείου</i>",
@@ -64,7 +64,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">δύο</i> depend? <i lang=\"grc\">Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες <b>δύο</b>.</i>",
-   "explain": "The numeral adheres to <i lang=\"grc\">παῖδες</i>. “Of Darius and Parysatis were born two sons.” (Xenophon, <i lang=\"grc\">Anabasis</i> 1.1.1)",
+   "explain": "The numeral adheres to <i lang=\"grc\">παῖδες</i>. “Darius and Parysatis had two sons: …” (Xenophon, <i lang=\"grc\">Anabasis</i> 1.1.1)",
    "options": [
     "<i lang=\"grc\">παῖδες</i>",
     "<i lang=\"grc\">Δαρείου</i>",
@@ -80,7 +80,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">χθὲς</i> depend? <i lang=\"grc\">κατέβην <b>χθὲς</b> εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος.</i>",
-   "explain": "The word <i lang=\"grc\">χθές</i> says when the going down happened: an adverb on its verb. “I went down yesterday to the Piraeus with Glaucon, son of Ariston.” (Plato, <i lang=\"grc\">Republic</i> 327a)",
+   "explain": "The word <i lang=\"grc\">χθές</i> says when the going down happened: an adverb on its verb. “I went down yesterday to the Piraeus with Glaucon the son of Ariston, …” (Plato, <i lang=\"grc\">Republic</i> 327a)",
    "options": [
     "<i lang=\"grc\">κατέβην</i>",
     "<i lang=\"grc\">Πειραιᾶ</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">πάντες</i> depend? <i lang=\"grc\"><b>πάντες</b> ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει.</i>",
-   "explain": "The word <i lang=\"grc\">πάντες</i> is nominative masculine plural and adheres to <i lang=\"grc\">ἄνθρωποι</i>. “All men by nature desire to know.” (Aristotle, <i lang=\"grc\">Metaphysics</i> 980a21)",
+   "explain": "The word <i lang=\"grc\">πάντες</i> is nominative masculine plural and adheres to <i lang=\"grc\">ἄνθρωποι</i>. (Aristotle, <i lang=\"grc\">Metaphysics</i> 980a21)",
    "options": [
     "<i lang=\"grc\">ἄνθρωποι</i>",
     "<i lang=\"grc\">εἰδέναι</i>",
@@ -112,7 +112,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"grc\">ὀρέγονται</i> depend? <i lang=\"grc\">πάντες ἄνθρωποι τοῦ εἰδέναι <b>ὀρέγονται</b> φύσει.</i>",
-   "explain": "The verb depends on its nominative subject <i lang=\"grc\">ἄνθρωποι</i>; the genitive <i lang=\"grc\">τοῦ εἰδέναι</i> says what they desire. “All men by nature desire to know.” (Aristotle, <i lang=\"grc\">Metaphysics</i> 980a21)",
+   "explain": "The verb depends on its nominative subject <i lang=\"grc\">ἄνθρωποι</i>; the genitive <i lang=\"grc\">τοῦ εἰδέναι</i> says what they desire. (Aristotle, <i lang=\"grc\">Metaphysics</i> 980a21)",
    "options": [
     "<i lang=\"grc\">ἄνθρωποι</i>",
     "<i lang=\"grc\">εἰδέναι</i>",
@@ -128,7 +128,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">Ἀθηναῖος</i> depend? <i lang=\"grc\">Θουκυδίδης <b>Ἀθηναῖος</b> ξυνέγραψε τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.</i>",
-   "explain": "The word <i lang=\"grc\">Ἀθηναῖος</i> is nominative and adheres to <i lang=\"grc\">Θουκυδίδης</i>, not to the genitive plural <i lang=\"grc\">Ἀθηναίων</i>. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
+   "explain": "The word <i lang=\"grc\">Ἀθηναῖος</i> is nominative and adheres to <i lang=\"grc\">Θουκυδίδης</i>, not to the genitive plural <i lang=\"grc\">Ἀθηναίων</i>. “Thucydides, an Athenian, wrote the history of the war between the Peloponnesians and the Athenians, …” (Thucydides 1.1.1)",
    "options": [
     "<i lang=\"grc\">Θουκυδίδης</i>",
     "<i lang=\"grc\">πόλεμον</i>",
@@ -144,7 +144,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb <i lang=\"grc\">ξυνέγραψε</i> also depends on its object. Which word terminates that dependence? <i lang=\"grc\">Θουκυδίδης Ἀθηναῖος <b>ξυνέγραψε</b> τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων.</i>",
-   "explain": "The accusative <i lang=\"grc\">πόλεμον</i> terminates the transitive dependence. “Thucydides the Athenian wrote the war of the Peloponnesians and the Athenians.” (Thucydides 1.1.1)",
+   "explain": "The accusative <i lang=\"grc\">πόλεμον</i> terminates the transitive dependence. “Thucydides, an Athenian, wrote the history of the war between the Peloponnesians and the Athenians, …” (Thucydides 1.1.1)",
    "options": [
     "<i lang=\"grc\">πόλεμον</i>",
     "<i lang=\"grc\">Θουκυδίδης</i>",
@@ -160,7 +160,7 @@ ARS.exercises["lang.v.grc/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"grc\">ἥδε</i> depend? <i lang=\"grc\">Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις <b>ἥδε</b>.</i>",
-   "explain": "The word <i lang=\"grc\">ἥδε</i> is nominative feminine singular and points at <i lang=\"grc\">ἀπόδεξις</i>. “This is the setting forth of the inquiry of Herodotus of Halicarnassus.” (Herodotus 1.0)",
+   "explain": "The word <i lang=\"grc\">ἥδε</i> is nominative feminine singular and points at <i lang=\"grc\">ἀπόδεξις</i>. “This is the Showing forth of the Inquiry of Herodotus of Halicarnassos, …” (Herodotus 1.0)",
    "options": [
     "<i lang=\"grc\">ἀπόδεξις</i>",
     "<i lang=\"grc\">Ἡροδότου</i>",

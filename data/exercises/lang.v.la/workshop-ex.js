@@ -224,7 +224,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>omnis</i></i> depend? <i lang=\"la\">Gallia est <b>omnis</b> divisa in partes tres.</i>",
-   "explain": "<i lang=\"la\">Omnis</i> is nominative feminine singular and adheres to <i lang=\"la\">Gallia</i>; <i lang=\"la\">tres</i> adheres to <i lang=\"la\">partes</i>. “All Gaul is divided into three parts.” (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
+   "explain": "<i lang=\"la\">Omnis</i> is nominative feminine singular and adheres to <i lang=\"la\">Gallia</i>; <i lang=\"la\">tres</i> adheres to <i lang=\"la\">partes</i>. (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
    "options": [
     "<i lang=\"la\">Gallia</i>",
     "<i lang=\"la\">partes</i>",
@@ -240,7 +240,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>fortissimi</i></i> depend? <i lang=\"la\">Horum omnium <b>fortissimi</b> sunt Belgae.</i>",
-   "explain": "<i lang=\"la\">Fortissimi</i> is nominative plural, as <i lang=\"la\">Belgae</i> is; the genitive <i lang=\"la\">horum omnium</i> depends on it. “Of all these the bravest are the Belgae.” (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
+   "explain": "<i lang=\"la\">Fortissimi</i> is nominative plural, as <i lang=\"la\">Belgae</i> is; the genitive <i lang=\"la\">horum omnium</i> depends on it. (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
    "options": [
     "<i lang=\"la\">Belgae</i>",
     "<i lang=\"la\">Horum</i>",
@@ -256,7 +256,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"la\"><i>differunt</i></i> depend? <i lang=\"la\">Hi omnes lingua, institutis, legibus inter se <b>differunt</b>.</i>",
-   "explain": "The verb depends on the nominative <i lang=\"la\">hi</i>; the ablatives say in what they differ. “These all differ from one another in language, institutions, and laws.” (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
+   "explain": "The verb depends on the nominative <i lang=\"la\">hi</i>; the ablatives say in what they differ. (Caesar, <i lang=\"la\">De bello Gallico</i> I.1)",
    "options": [
     "<i lang=\"la\">Hi</i>",
     "<i lang=\"la\">lingua</i>",
@@ -272,7 +272,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>nostra</i></i> depend? <i lang=\"la\">Quo usque tandem abutere, Catilina, patientia <b>nostra</b>?</i>",
-   "explain": "<i lang=\"la\">Nostra</i> is ablative feminine singular and adheres to <i lang=\"la\">patientia</i>. “How long, Catiline, will you abuse our patience?” (Cicero, <i lang=\"la\">In Catilinam</i> I.1)",
+   "explain": "<i lang=\"la\">Nostra</i> is ablative feminine singular and adheres to <i lang=\"la\">patientia</i>. “When, O Catiline, do you mean to cease abusing our patience?” (Cicero, <i lang=\"la\">In Catilinam</i> I.1)",
    "options": [
     "<i lang=\"la\">patientia</i>",
     "<i lang=\"la\">Catilina</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>Romanam</i></i> depend? <i lang=\"la\">Tantae molis erat <b>Romanam</b> condere gentem.</i>",
-   "explain": "<i lang=\"la\">Romanam</i> and <i lang=\"la\">gentem</i> are both accusative feminine singular, though the verb stands between them. “So great a labor it was to found the Roman race.” (Virgil, <i lang=\"la\">Aeneid</i> I.33)",
+   "explain": "<i lang=\"la\">Romanam</i> and <i lang=\"la\">gentem</i> are both accusative feminine singular, though the verb stands between them. “So vast was the effort to found the race of Rome.” (Virgil, <i lang=\"la\">Aeneid</i> I.33)",
    "options": [
     "<i lang=\"la\">gentem</i>",
     "<i lang=\"la\">molis</i>",
@@ -320,7 +320,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>improbus</i></i> depend? <i lang=\"la\">Labor omnia vicit <b>improbus</b> et duris urgens in rebus egestas.</i>",
-   "explain": "<i lang=\"la\">Improbus</i> is nominative masculine singular and adheres to <i lang=\"la\">labor</i>, three words away. “Relentless labor conquered all things, and need pressing in hard circumstances.” (Virgil, <i lang=\"la\">Georgics</i> I.145–146)",
+   "explain": "<i lang=\"la\">Improbus</i> is nominative masculine singular and adheres to <i lang=\"la\">labor</i>, three words away. “Toil conquered the world, unrelenting toil, and want that pinches when life is hard.” (Virgil, <i lang=\"la\">Georgics</i> I.145–146)",
    "options": [
     "<i lang=\"la\">Labor</i>",
     "<i lang=\"la\">omnia</i>",
@@ -336,7 +336,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"la\"><i>vincit</i></i> depend? <i lang=\"la\">Omnia <b>vincit</b> Amor: et nos cedamus Amori.</i>",
-   "explain": "<i lang=\"la\">Amor</i> is nominative; <i lang=\"la\">omnia</i>, though first, is the accusative object. “Love conquers all; let us too yield to Love.” (Virgil, <i lang=\"la\">Eclogues</i> X.69)",
+   "explain": "<i lang=\"la\">Amor</i> is nominative; <i lang=\"la\">omnia</i>, though first, is the accusative object. “Love conquers all; let us, too, yield to Love.” (Virgil, <i lang=\"la\">Eclogues</i> X.69)",
    "options": [
     "<i lang=\"la\">Amor</i>",
     "<i lang=\"la\">Omnia</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>ferentis</i></i> depend? <i lang=\"la\">Timeo Danaos et dona <b>ferentis</b>.</i>",
-   "explain": "The participle <i lang=\"la\">ferentis</i> (the older spelling of <i lang=\"la\">ferentes</i>) is accusative masculine plural and adheres to <i lang=\"la\">Danaos</i>; <i lang=\"la\">dona</i> is its own object. “I fear the Greeks even bringing gifts.” (Virgil, <i lang=\"la\">Aeneid</i> II.49)",
+   "explain": "The participle <i lang=\"la\">ferentis</i> (the older spelling of <i lang=\"la\">ferentes</i>) is accusative masculine plural and adheres to <i lang=\"la\">Danaos</i>; <i lang=\"la\">dona</i> is its own object. “I fear the Greeks, even when bringing gifts.” (Virgil, <i lang=\"la\">Aeneid</i> II.49)",
    "options": [
     "<i lang=\"la\">Danaos</i>",
     "<i lang=\"la\">dona</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>nobili</i></i> depend? <i lang=\"la\">L. Catilina, <b>nobili</b> genere natus, fuit magna vi et animi et corporis, sed ingenio malo pravoque.</i>",
-   "explain": "<i lang=\"la\">Nobili</i> is ablative and adheres to <i lang=\"la\">genere</i>. “Lucius Catiline, born of a noble family, had great strength of mind and body, but a wicked and depraved nature.” (Sallust, <i lang=\"la\">Bellum Catilinae</i> 5.1)",
+   "explain": "<i lang=\"la\">Nobili</i> is ablative and adheres to <i lang=\"la\">genere</i>. “Lucius Catiline was a man of noble birth, and of eminent mental and personal endowments; but of a vicious and depraved disposition.” (Sallust, <i lang=\"la\">Bellum Catilinae</i> 5.1)",
    "options": [
     "<i lang=\"la\">genere</i>",
     "<i lang=\"la\">Catilina</i>",
@@ -384,7 +384,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"la\"><i>mutatas</i></i> depend? <i lang=\"la\">In nova fert animus <b>mutatas</b> dicere formas corpora.</i>",
-   "explain": "<i lang=\"la\">Mutatas</i> is accusative feminine plural and adheres to <i lang=\"la\">formas</i>; <i lang=\"la\">nova</i> goes with <i lang=\"la\">corpora</i>. “My mind moves me to tell of forms changed into new bodies.” (Ovid, <i lang=\"la\">Metamorphoses</i> I.1–2)",
+   "explain": "<i lang=\"la\">Mutatas</i> is accusative feminine plural and adheres to <i lang=\"la\">formas</i>; <i lang=\"la\">nova</i> goes with <i lang=\"la\">corpora</i>. “My mind is bent to tell of bodies changed into new forms.” (Ovid, <i lang=\"la\">Metamorphoses</i> I.1–2)",
    "options": [
     "<i lang=\"la\">formas</i>",
     "<i lang=\"la\">corpora</i>",
@@ -400,7 +400,7 @@ ARS.exercises["lang.v.la/workshop-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb <i lang=\"la\"><i>custodiet</i></i> also depends on its object. Which word terminates that dependence? <i lang=\"la\">Quis <b>custodiet</b> ipsos custodes?</i>",
-   "explain": "<i lang=\"la\">Quis</i> is the subject; the accusative <i lang=\"la\">custodes</i> terminates the transitive dependence, and <i lang=\"la\">ipsos</i> adheres to it. “Who will guard the guards themselves?” (Juvenal, <i lang=\"la\">Satires</i> VI.347–348, lines bracketed in most editions; also in the Oxford fragment, O 31–32)",
+   "explain": "<i lang=\"la\">Quis</i> is the subject; the accusative <i lang=\"la\">custodes</i> terminates the transitive dependence, and <i lang=\"la\">ipsos</i> adheres to it. (Juvenal, <i lang=\"la\">Satires</i> VI.347–348, lines bracketed in most editions; also in the Oxford fragment, O 31–32)",
    "options": [
     "<i lang=\"la\">custodes</i>",
     "<i lang=\"la\">Quis</i>",

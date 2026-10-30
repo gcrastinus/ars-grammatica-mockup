@@ -546,3 +546,25 @@ Each English rendering was compared word for word with the Project Gutenberg tex
 | Nietzsche, *Fröhliche Wissenschaft* 125 | Thomas Common, PG 52881 (https://www.gutenberg.org/cache/epub/52881/pg52881.txt) | lang.ix.de/prose / prose-67 | **verified** |
 | Clausewitz, *Vom Kriege* I.1.24 | J. J. Graham, PG 1946 (https://www.gutenberg.org/cache/epub/1946/pg1946.txt) | lang.ix.de/prose / prose-72 | **verified**; "War" capitalized as printed |
 | Nietzsche, *Jenseits*, Preface | Helen Zimmern, PG 4363 (https://www.gutenberg.org/cache/epub/4363/pg4363.txt) | lang.ix.de/prose / prose-77 | **verified**; the sentence is now given whole (it ran on past "women") |
+
+## Section V, cited and workshop sets: translations checked (29 Oct 2026, decision 2)
+
+Each English rendering below was compared word for word with the published translation at the URL given. Renderings with no recorded published translator were dropped (the Latin, Greek, French, or German stands alone).
+
+| Source | Translation | Course item | Status |
+|---|---|---|---|
+| Cicero, *In Catilinam* I.1 | C. D. Yonge, Perseus 1999.02.0019 (https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0019) | lang.v.la/workshop-ex wc24 | **verified** |
+| Virgil, *Aeneid* I.33, II.49; *Georgics* I.145–146; *Eclogues* X.69 | H. R. Fairclough, Loeb vol. I, archive.org virgilvi01virguoft (https://archive.org/download/virgilvi01virguoft/virgilvi01virguoft_djvu.txt) | lang.v.la/workshop-ex wc26–29 (wc25 already Fairclough) | **verified**; wc28 final stop unclear in the OCR |
+| Sallust, *Catiline* 5 | J. S. Watson, PG 7990 (https://www.gutenberg.org/cache/epub/7990/pg7990.txt) | lang.v.la/workshop-ex wc30 | **verified** |
+| Ovid, *Metamorphoses* I.1 | F. J. Miller (already recorded) | lang.v.la/workshop-ex wc31 | **verified** |
+| Caesar; Juvenal | none recorded | lang.v.la/workshop-ex wc21–23, wc32 | English **dropped** |
+| Homer, *Odyssey* I.1–2 | A. T. Murray, Perseus 1999.01.0136 (https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136) | lang.v.grc/cited-ex wg1 | **verified** |
+| Xenophon, *Anabasis* I.1.1 | H. G. Dakyns, PG 1170 (https://www.gutenberg.org/cache/epub/1170/pg1170.txt) | lang.v.grc/cited-ex wg3–4 | **verified** |
+| Plato, *Republic* 327a | B. Jowett, PG 1497 (https://www.gutenberg.org/cache/epub/1497/pg1497.txt) | lang.v.grc/cited-ex wg5 | **verified** |
+| Thucydides I.1 | R. Crawley, PG 7142 (https://www.gutenberg.org/cache/epub/7142/pg7142.txt) | lang.v.grc/cited-ex wg8–9 | **verified** |
+| Herodotus I, opening | G. C. Macaulay, PG 2707 (https://www.gutenberg.org/cache/epub/2707/pg2707.txt) | lang.v.grc/cited-ex wg10 | **verified** |
+| Aristotle | none recorded | lang.v.grc/cited-ex wg6–7 | English **dropped** |
+| Proust; Rousseau; Descartes; Pascal | Scott Moncrieff; Cole; Veitch; Trotter (recorded above) | lang.v.fr/cited-ex wf1–6 | **verified** |
+| Declaration of 1789, art. 1 | Thomas Paine, *Rights of Man*, PG 3742 (https://www.gutenberg.org/cache/epub/3742/pg3742.txt), line 4236 | lang.v.fr/cited-ex wf9 | **verified** |
+| *Manifest* preamble | Samuel Moore, PG 61 | lang.v.de/cited-ex wd10 | **verified** |
+| Kafka; Grundgesetz; Luther | none recorded | lang.v.de/cited-ex wd1–6 | English **dropped** |

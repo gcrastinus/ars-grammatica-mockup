@@ -16,7 +16,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"de\">unruhigen</i> depend? <i lang=\"de\">Als Gregor Samsa eines Morgens aus <b>unruhigen</b> Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.</i>",
-   "explain": "<i lang=\"de\">Unruhigen</i> is dative plural, as <i lang=\"de\">Träumen</i> is. “As Gregor Samsa awoke one morning from uneasy dreams, he found himself changed in his bed into a monstrous vermin.” (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
+   "explain": "<i lang=\"de\">Unruhigen</i> is dative plural, as <i lang=\"de\">Träumen</i> is. (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
    "options": [
     "<i lang=\"de\">Träumen</i>",
     "<i lang=\"de\">Morgens</i>",
@@ -32,7 +32,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"de\">ungeheueren</i> depend? <i lang=\"de\">Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem <b>ungeheueren</b> Ungeziefer verwandelt.</i>",
-   "explain": "<i lang=\"de\">Ungeheueren</i> adheres to <i lang=\"de\">Ungeziefer</i>, in the dative after <i lang=\"de\">zu</i>. “…he found himself changed in his bed into a monstrous vermin.” (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
+   "explain": "<i lang=\"de\">Ungeheueren</i> adheres to <i lang=\"de\">Ungeziefer</i>, in the dative after <i lang=\"de\">zu</i>. (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
    "options": [
     "<i lang=\"de\">Ungeziefer</i>",
     "<i lang=\"de\">Träumen</i>",
@@ -48,7 +48,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"de\">fand</i> depend? <i lang=\"de\">Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, <b>fand</b> er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.</i>",
-   "explain": "<i lang=\"de\">Er</i> is nominative and the subject; <i lang=\"de\">sich</i> is the object. “…he found himself changed…” (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
+   "explain": "<i lang=\"de\">Er</i> is nominative and the subject; <i lang=\"de\">sich</i> is the object. (Franz Kafka, <i lang=\"de\">Die Verwandlung</i>, opening)",
    "options": [
     "<i lang=\"de\">er</i>",
     "<i lang=\"de\">sich</i>",
@@ -64,7 +64,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "On which word does <i lang=\"de\">unantastbar</i> depend? <i lang=\"de\">Die Würde des Menschen ist <b>unantastbar</b>.</i>",
-   "explain": "The predicate adjective says something of <i lang=\"de\">Würde</i>; in German it takes no ending here. “Human dignity is inviolable.” (Grundgesetz, Article 1)",
+   "explain": "The predicate adjective says something of <i lang=\"de\">Würde</i>; in German it takes no ending here. (Grundgesetz, Article 1)",
    "options": [
     "<i lang=\"de\">Würde</i>",
     "<i lang=\"de\">Menschen</i>",
@@ -80,7 +80,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"de\">schuf</i> depend? <i lang=\"de\">Am Anfang <b>schuf</b> Gott Himmel und Erde.</i>",
-   "explain": "<i lang=\"de\">Gott</i> is the subject; in German the verb comes second, before it. “In the beginning God created heaven and earth.” (Genesis 1:1, Luther Bible (1912))",
+   "explain": "<i lang=\"de\">Gott</i> is the subject; in German the verb comes second, before it. (Genesis 1:1, Luther Bible (1912))",
    "options": [
     "<i lang=\"de\">Gott</i>",
     "<i lang=\"de\">Himmel</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, the verb <i lang=\"de\">schuf</i> also depends on its object. Which word terminates that dependence? <i lang=\"de\">Am Anfang <b>schuf</b> Gott Himmel und Erde.</i>",
-   "explain": "<i lang=\"de\">Himmel</i> and <i lang=\"de\">Erde</i> terminate the transitive dependence. “In the beginning God created heaven and earth.” (Genesis 1:1, Luther Bible (1912))",
+   "explain": "<i lang=\"de\">Himmel</i> and <i lang=\"de\">Erde</i> terminate the transitive dependence. (Genesis 1:1, Luther Bible (1912))",
    "options": [
     "<i lang=\"de\">Himmel</i>",
     "<i lang=\"de\">Gott</i>",
@@ -160,7 +160,7 @@ ARS.exercises["lang.v.de/cited-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "In Thomas of Erfurt’s account, on which word does the verb <i lang=\"de\">geht</i> depend? <i lang=\"de\">Ein Gespenst <b>geht</b> um in Europa – das Gespenst des Kommunismus.</i>",
-   "explain": "The verb (with its separated particle <i lang=\"de\">um</i>) depends on the subject <i lang=\"de\">Gespenst</i>. “A specter is haunting Europe, the specter of communism.” (Marx and Engels, <i lang=\"de\">Manifest der Kommunistischen Partei</i>, opening)",
+   "explain": "The verb (with its separated particle <i lang=\"de\">um</i>) depends on the subject <i lang=\"de\">Gespenst</i>. “A spectre is haunting Europe—the spectre of Communism.” (Marx and Engels, <i lang=\"de\">Manifest der Kommunistischen Partei</i>, opening)",
    "options": [
     "<i lang=\"de\">Gespenst</i>",
     "<i lang=\"de\">Europa</i>",
