@@ -176,7 +176,7 @@ ARS.exercises["lang.v.grc/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Judge the phrase: <i lang=\"grc\">ἀληθεῖς πόλις</i>.",
-   "explain": "<i lang=\"grc\">πόλις</i> is singular and <i lang=\"grc\">ἀληθεῖς</i> is plural. The adjective has two endings, so the feminine plural is <i lang=\"grc\">ἀληθεῖς</i>, and the fault is number. (<i lang=\"grc\">ἀληθής</i>, “true”; <i lang=\"grc\">πόλις</i>, feminine, “city”)",
+   "explain": "<i lang=\"grc\">πόλις</i> is singular and <i lang=\"grc\">ἀληθεῖς</i> is plural. The adjective has two endings, so the feminine plural is <i lang=\"grc\">ἀληθεῖς</i>, and the error is in number. (<i lang=\"grc\">ἀληθής</i>, “true”; <i lang=\"grc\">πόλις</i>, feminine, “city”)",
    "options": [
     "Correct: the adjective agrees with its noun",
     "Incorrect: the adjective does not agree in number",

@@ -15,7 +15,7 @@ ARS.exercises["lang.vii.en/figures-ex"] = {
    "deck": "lang.vii.en/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“Whatever you buy, you eat; you buy raw meat; therefore you eat raw meat.” The fault is that…",
+   "prompt": "“Whatever you buy, you eat; you buy raw meat; therefore you eat raw meat.” The error is that…",
    "explain": "A grammatical companion of one verb is read as a companion of the other. The shape of the words is taken for the shape of the deed.",
    "options": [
     "“Raw” belongs to the buying, and is read as if it belonged to the eating",

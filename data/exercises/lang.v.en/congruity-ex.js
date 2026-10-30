@@ -76,7 +76,7 @@ ARS.exercises["lang.v.en/congruity-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the description that fits this group of words: “Him go store yesterday.”",
-   "explain": "The cases and the verb-form do not fit. What the speaker means may well be true, but the sentence itself is faulty.",
+   "explain": "The cases and the verb-form do not fit. What the speaker means may well be true, but the sentence itself is incorrect.",
    "options": [
     "Congruous and complete: the sense is now finished",
     "Incongruous: the parts do not fit",

@@ -613,7 +613,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<em lang=\"la\">donec requiescat</em> depends on…",
    "explain": "<em lang=\"la\">Donec</em> with the subjunctive marks an end looked forward to. <em lang=\"la\">Et</em> joins the two main clauses, and <em lang=\"la\">donec</em> depends on the second.",
    "options": [
-    "<em lang=\"la\">inquietum est</em>",
+    "<em lang=\"la\">inquietum est</em>, the second main clause",
     "<em lang=\"la\">fecisti</em>, as a purpose clause",
     "<em lang=\"la\">ad te</em>, as a relative clause naming God",
     "Nothing: it is a third main clause"
@@ -885,7 +885,7 @@ ARS.exercises["lang.ix.la/prose-ex"] = {
    "prompt": "<p><em lang=\"la\">qui de rebus dubiis consultant</em></p> <em lang=\"la\">qui … consultant</em> depends on…",
    "explain": "The relative takes up <em lang=\"la\">homines</em>, the subject of the infinitive. <em lang=\"la\">Decet</em> then governs <em lang=\"la\">vacuos esse</em>.",
    "options": [
-    "<em lang=\"la\">homines</em>",
+    "<em lang=\"la\">homines</em>, the subject of the infinitive",
     "<em lang=\"la\">patres conscripti</em>, the senators addressed",
     "<em lang=\"la\">decet</em>, as a clause of cause",
     "<em lang=\"la\">rebus</em>, the matters deliberated"
