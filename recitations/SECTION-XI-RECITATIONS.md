@@ -286,7 +286,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 60. A habit is always the habit of someone and is ordered to something, so the *langue* is not a third thing between minds and the world but a disposition in minds, and the disposition has objects: the things that the language is used to speak about.
 61. An **instrumental sign**, such as smoke or a spoken word, must first be known as an object before it leads the mind to something else.
 62. A **formal sign**, the concept, leads the mind to its object without first being known as an object itself; the concept is that by which we know, not that which we know.
-63. Saussure makes the signified a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.
+63. Saussure makes what is signified be a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.
 64. If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.
 65. So Saussure’s account treats the concept as the end point of signification, whereas the classical account holds that through the concept the word signifies the thing; this difference concerns not the facts of language but what signification is.
 66. Bloomfield sought to describe languages by strict procedures based on the observable forms of speech.
