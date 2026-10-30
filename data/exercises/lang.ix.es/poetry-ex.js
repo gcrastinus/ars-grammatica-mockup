@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Yago</i> in <i lang=\"es\">que yago en estas prisiones</i> is…",
+   "prompt": "What is <i lang=\"es\">yago</i> in <i lang=\"es\">que yago en estas prisiones</i>?",
    "explain": "<i lang=\"es\">Yago</i> is an old present of <i lang=\"es\">yacer</i>, “I lie.”",
    "options": [
     "An old present",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Sino yo</i> means…",
+   "prompt": "What does <i lang=\"es\">Sino yo</i> mean?",
    "explain": "<i lang=\"es\">Sino</i> here means “except.” The lovers are set aside, and the prisoner remains.",
    "options": [
     "Except me",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Déle</i> in <i lang=\"es\">déle Dios</i> is…",
+   "prompt": "What is <i lang=\"es\">déle</i> in <i lang=\"es\">déle Dios</i>?",
    "explain": "<i lang=\"es\">Dé</i> is the present subjunctive of <i lang=\"es\">dar</i>, with <i lang=\"es\">le</i> joined to it. The clause is a wish.",
    "options": [
     "A wish",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Van servir á sus amores</i> counts…",
+   "prompt": "How many syllables does <i lang=\"es\">Van servir á sus amores</i> count?",
    "explain": "The line has no synalepha. The eight syllables are <i lang=\"es\">van</i>, <i lang=\"es\">ser</i>, <i lang=\"es\">vir</i>, <i lang=\"es\">á</i>, <i lang=\"es\">sus</i>, <i lang=\"es\">a</i>, <i lang=\"es\">mo</i>, <i lang=\"es\">res</i>.",
    "options": [
     "Eight",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Albor</i> is stressed…",
+   "prompt": "Where is <i lang=\"es\">Albor</i> stressed?",
    "explain": "<i lang=\"es\">Albor</i> is stressed on the last syllable, in <i lang=\"es\">o</i> alone. The even lines of the ballad carry the assonance.",
    "options": [
     "At the end",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Recuerde</i> is…",
+   "prompt": "What is <i lang=\"es\">Recuerde</i>?",
    "explain": "<i lang=\"es\">Recuerde</i> is the present subjunctive of <i lang=\"es\">recordar</i>, which here also has its old sense “to wake.” The stanza opens with a wish that the soul wake and remember.",
    "options": [
     "Subjunctive",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The broken foot in this stanza is…",
+   "prompt": "Which is the broken foot in this stanza?",
    "explain": "A <i lang=\"es\">copla de pie quebrado</i> alternates lines of eight syllables with lines of four. The short line is the broken foot.",
    "options": [
     "The line of four",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Cómo, á nuestro parecer</i> counts eight only if…",
+   "prompt": "On what condition does <i lang=\"es\">Cómo, á nuestro parecer</i> count eight syllables?",
    "explain": "The vowels of <i lang=\"es\">cómo</i> and <i lang=\"es\">á</i> must join. The count of eight on this line rests on the pattern of the stanza and on that synalepha.",
    "options": [
     "Those vowels join",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Fué</i> in <i lang=\"es\">fué mejor</i> means…",
+   "prompt": "What does <i lang=\"es\">fué</i> mean in <i lang=\"es\">fué mejor</i>?",
    "explain": "<i lang=\"es\">Fué</i> is the preterite of <i lang=\"es\">ser</i>. Any time past was better.",
    "options": [
     "Was",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">En tanto que de rosa y azucena</i> counts…",
+   "prompt": "How many syllables does <i lang=\"es\">En tanto que de rosa y azucena</i> count?",
    "explain": "The line is a hendecasyllable. <i lang=\"es\">Y</i> joins the first vowel of <i lang=\"es\">azucena</i>, and the count is eleven.",
    "options": [
     "Eleven",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In that line, <i lang=\"es\">y</i> joins…",
+   "prompt": "In that line, what does <i lang=\"es\">y</i> join?",
    "explain": "Felipe Robles Dégano says (§99, page 86) that a conjunction between two vowels almost always joins the second vowel, and his examples include <i lang=\"es\">y</i>. Either join still gives eleven.",
    "options": [
     "The vowel after it",
@@ -202,7 +202,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Coged</i> tells the lady to…",
+   "prompt": "What does <i lang=\"es\">Coged</i> tell the lady to do?",
    "explain": "<i lang=\"es\">Coged</i> is the imperative of the second person plural, from <i lang=\"es\">coger</i>. The sonnet addresses one lady with the respectful <i lang=\"es\">vos</i>, which takes the plural forms of the verb.",
    "options": [
     "Gather",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Ayrado</i> in this print is…",
+   "prompt": "What is <i lang=\"es\">Ayrado</i> in this print?",
    "explain": "The 1817 print keeps <i lang=\"es\">ayrado</i>, where a later spelling has <i lang=\"es\">airado</i>. The rhyme with <i lang=\"es\">elado</i> uses the old spelling.",
    "options": [
     "An old spelling",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Volverán</i> means…",
+   "prompt": "What does <i lang=\"es\">Volverán</i> mean?",
    "explain": "<i lang=\"es\">Volverán</i> is the future of <i lang=\"es\">volver</i>. The dark swallows will return.",
    "options": [
     "They will return",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Y, otra vez, con el ala á sus cristales</i> has eleven syllables because…",
+   "prompt": "Why does <i lang=\"es\">Y, otra vez, con el ala á sus cristales</i> have eleven syllables?",
    "explain": "<i lang=\"es\">Y</i> joins <i lang=\"es\">otra</i>, and the last <i lang=\"es\">a</i> of <i lang=\"es\">ala</i> joins <i lang=\"es\">á</i>. <i lang=\"es\">El</i> ends in a consonant, so it cannot join <i lang=\"es\">ala</i>. With the two synalephas the line has eleven syllables; with none it would have thirteen.",
    "options": [
     "<i lang=\"es\">Y</i> joins <i lang=\"es\">otra</i>, and <i lang=\"es\">ala</i> joins <i lang=\"es\">á</i>",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The line of “Sonatina” is…",
+   "prompt": "What kind of line is the line of “Sonatina”?",
    "explain": "The line is an alexandrine, of fourteen syllables, divided into two halves of seven.",
    "options": [
     "An alexandrine",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Each half of that line counts…",
+   "prompt": "How many syllables does each half of that line count?",
    "explain": "Each half is counted as a line of seven, and the count begins again after the pause.",
    "options": [
     "Seven",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <i lang=\"es\">se escapan</i> the two vowels…",
+   "prompt": "What do the two vowels in <i lang=\"es\">se escapan</i> do?",
    "explain": "<i lang=\"es\">Se</i> joins <i lang=\"es\">escapan</i>. That half is <i lang=\"es\">Los</i>, <i lang=\"es\">sus</i>, <i lang=\"es\">pi</i>, <i lang=\"es\">ros</i>, <i lang=\"es\">sees</i>, <i lang=\"es\">ca</i>, <i lang=\"es\">pan</i>.",
    "options": [
     "Join",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Sonoro</i> agrees with…",
+   "prompt": "With what does <i lang=\"es\">Sonoro</i> agree?",
    "explain": "<i lang=\"es\">Clave</i>, the harpsichord, is masculine, and <i lang=\"es\">sonoro</i> agrees with it. The print writes no accent on <i lang=\"es\">clave</i>.",
    "options": [
     "<i lang=\"es\">Clave</i>",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Color</i> and <i lang=\"es\">flor</i> are stressed…",
+   "prompt": "Where are <i lang=\"es\">Color</i> and <i lang=\"es\">flor</i> stressed?",
    "explain": "Both words are stressed on the last syllable, so each of those halves counts one more than the syllables written up to the stress.",
    "options": [
     "At the end",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Inflamada</i> describes…",
+   "prompt": "What does <i lang=\"es\">Inflamada</i> describe?",
    "explain": "<i lang=\"es\">Inflamada</i> is feminine, and it agrees with the speaker, who goes out.",
    "options": [
     "The speaker",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Salí</i> means…",
+   "prompt": "What does <i lang=\"es\">Salí</i> mean?",
    "explain": "<i lang=\"es\">Salí</i> is the preterite of <i lang=\"es\">salir</i>. The speaker went out.",
    "options": [
     "I went out",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Sosegada</i> agrees with…",
+   "prompt": "With what does <i lang=\"es\">Sosegada</i> agree?",
    "explain": "<i lang=\"es\">Sosegada</i> agrees with <i lang=\"es\">casa</i>. The house is already quiet.",
    "options": [
     "The house",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Estando ya mi casa sosegada</i> has eleven syllables only if…",
+   "prompt": "On what condition does <i lang=\"es\">Estando ya mi casa sosegada</i> have eleven syllables?",
    "explain": "<i lang=\"es\">Ya</i> is counted as its own syllable. If it joined <i lang=\"es\">estando</i>, the line would fall short of eleven. The count rests on the pattern of the lira.",
    "options": [
     "<i lang=\"es\">Ya</i> stays apart",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Dexarán</i> in this print is…",
+   "prompt": "What is <i lang=\"es\">Dexarán</i> in this print?",
    "explain": "<i lang=\"es\">Dexarán</i> is the future of <i lang=\"es\">dexar</i>, and it is plural. The soul, the veins, and the marrows will leave the body.",
    "options": [
     "Plural",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Mas</i> before <i lang=\"es\">tendrá</i> means…",
+   "prompt": "What does <i lang=\"es\">Mas</i> mean before <i lang=\"es\">tendrá</i>?",
    "explain": "<i lang=\"es\">Mas</i> with no accent is “but.” They will be ash, but it will have feeling.",
    "options": [
     "But",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <i lang=\"es\">Cerrar podrá mis ojos la postrera</i>, the sixth syllable is…",
+   "prompt": "In <i lang=\"es\">Cerrar podrá mis ojos la postrera</i>, what is the sixth syllable?",
    "explain": "The syllables are <i lang=\"es\">Ce</i>, <i lang=\"es\">rrar</i>, <i lang=\"es\">po</i>, <i lang=\"es\">drá</i>, <i lang=\"es\">mis</i>, <i lang=\"es\">o</i>. No two vowels meet. The stress of <i lang=\"es\">ojos</i> falls on that <i lang=\"es\">o</i>.",
    "options": [
     "<i lang=\"es\">O</i> of <i lang=\"es\">ojos</i>",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of <i lang=\"es\">podrá desatar</i> is…",
+   "prompt": "What is the subject of <i lang=\"es\">podrá desatar</i>?",
    "explain": "<i lang=\"es\">Hora</i> is the subject, an hour, and <i lang=\"es\">lisonjera</i> agrees with it. The hour will be able to untie the soul.",
    "options": [
     "<i lang=\"es\">Hora</i>",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Ande</i> in <i lang=\"es\">Ande yo caliente</i> is…",
+   "prompt": "What is <i lang=\"es\">Ande</i> in <i lang=\"es\">Ande yo caliente</i>?",
    "explain": "<i lang=\"es\">Ande</i> is the present subjunctive of <i lang=\"es\">andar</i>. The clause is a wish: let me go warm.",
    "options": [
     "A wish",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Caliente</i> describes…",
+   "prompt": "What does <i lang=\"es\">Caliente</i> describe?",
    "explain": "<i lang=\"es\">Caliente</i> agrees with the speaker: let me go warm, and let the people laugh.",
    "options": [
     "The speaker",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The first word of this print is…",
+   "prompt": "What is the first word of this print?",
    "explain": "The Madrid print of 1820 writes <i lang=\"es\">Ande yo caliente</i>, with no accent on <i lang=\"es\">Ande</i>.",
    "options": [
     "<i lang=\"es\">Ande</i>",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Un velero bergantin</i> counts as eight because…",
+   "prompt": "Why does <i lang=\"es\">Un velero bergantin</i> count as eight?",
    "explain": "Seven syllables are written, and the stress is on <i lang=\"es\">tin</i>, so the line counts one more. The print writes no accent.",
    "options": [
     "The stress adds one",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The two dots of <i lang=\"es\">rïela</i>…",
+   "prompt": "What do the two dots of <i lang=\"es\">rïela</i> do?",
    "explain": "The diaeresis keeps <i lang=\"es\">i</i> and <i lang=\"es\">e</i> in separate syllables. The count of eight on that line rests on the diaeresis.",
    "options": [
     "Keep two syllables",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In the refrain, <i lang=\"es\">la mar</i> is…",
+   "prompt": "In the refrain, what is <i lang=\"es\">la mar</i>?",
    "explain": "<i lang=\"es\">La mar</i> is the sea. The stanzas say <i lang=\"es\">el mar</i>, and the refrain says <i lang=\"es\">la mar</i>. Both name the sea.",
    "options": [
     "The sea",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Mi única patria la mar</i> counts eight only if…",
+   "prompt": "On what condition does <i lang=\"es\">Mi única patria la mar</i> count eight syllables?",
    "explain": "<i lang=\"es\">Mi</i> must join the stressed <i lang=\"es\">ú</i>. The count of that one line rests on the join, which the other lines of the refrain allow, and on the rule that an unstressed weak vowel can join the vowel beside it (Robles Dégano, <i>Ortología clásica</i>, §99, page 86).",
    "options": [
     "<i lang=\"es\">Mi</i> joins <i lang=\"es\">ú</i>",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Que</i> at the start of the refrain means…",
+   "prompt": "What does <i lang=\"es\">Que</i> mean at the start of the refrain?",
    "explain": "<i lang=\"es\">Que</i> is “for.” The captain gives the reason for what he obeys.",
    "options": [
     "For",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Vino</i> in <i lang=\"es\">la luna vino</i> means…",
+   "prompt": "What does <i lang=\"es\">vino</i> mean in <i lang=\"es\">la luna vino</i>?",
    "explain": "<i lang=\"es\">Vino</i> is the preterite of <i lang=\"es\">venir</i>. The moon came to the forge.",
    "options": [
     "She came",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "Between the two words <i lang=\"es\">mira mira</i> the print has…",
+   "prompt": "What does the print have between the two words <i lang=\"es\">mira mira</i>?",
    "explain": "The 1928 print writes <i lang=\"es\">El niño la mira mira.</i> with no comma between the two verbs.",
    "options": [
     "No mark",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Nardos</i> and <i lang=\"es\">estaño</i> share…",
+   "prompt": "What do <i lang=\"es\">Nardos</i> and <i lang=\"es\">estaño</i> share?",
    "explain": "The even lines assonate in <i lang=\"es\">a-o</i>. <i lang=\"es\">Nardos</i> and <i lang=\"es\">estaño</i> are both stressed on the next to last syllable.",
    "options": [
     "Vowels <i lang=\"es\">a-o</i>",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">En el aire conmovido</i> counts eight only if…",
+   "prompt": "On what condition does <i lang=\"es\">En el aire conmovido</i> count eight syllables?",
    "explain": "<i lang=\"es\">Aire</i> is the diphthong <i lang=\"es\">ai</i> plus <i lang=\"es\">re</i>. The count of eight rests on that diphthong.",
    "options": [
     "<i lang=\"es\">Aire</i> is <i lang=\"es\">ai-re</i>",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<i lang=\"es\">Huye</i> is…",
+   "prompt": "What is <i lang=\"es\">Huye</i>?",
    "explain": "<i lang=\"es\">Huye</i> is the command to <i lang=\"es\">tú</i>, from <i lang=\"es\">huir</i>. The child tells the moon to flee.",
    "options": [
     "A command to <i lang=\"es\">tú</i>",
