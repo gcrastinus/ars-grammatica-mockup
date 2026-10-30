@@ -14,7 +14,7 @@ ARS.decks['xi.modern'] = {
   sub: 'From Port-Royal to the present: universal grammar, typology, and functional grammar',
   sources: `Arnauld and Lancelot, <i>Grammaire générale et raisonnée</i> (1660); Saussure, <i>Cours de linguistique générale</i> (1916); Bloomfield, <i>Language</i> (1933); Chomsky, <i>Syntactic Structures</i> (1957), <i>Aspects of the Theory of Syntax</i> (1965), <i>Cartesian Linguistics</i> (1966); Tesnière, <i>Éléments de syntaxe structurale</i> (1959); Greenberg (1963); Comrie, <i>Language Universals and Linguistic Typology</i>; Dik, <i>The Theory of Functional Grammar</i>; Halliday, <i>An Introduction to Functional Grammar</i>; Austin, <i>How to Do Things with Words</i> (1962); Searle, <i>Speech Acts</i> (1969).`,
   recitation: [
-    `Since the late Middle Ages, language has been studied in three principal ways, which ask three questions, not three answers to one question.`,
+    `Since the late Middle Ages, language has been studied in three principal ways, each of which asks a different but related question.`,
     `The classical art, Priscian’s grammar with the reasons that the medieval masters added, asks why grammar is as it is, and answers from the modes of signifying.`,
     `Philology asks what an author actually wrote and how his language came to be what it was.`,
     `Modern linguistics, since the early twentieth century, asks how a language works as a system and what is common to all languages, and it sets the other two questions aside by design.`,

@@ -2,7 +2,7 @@
    Copied from data/decks/xi.modern.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
-    `Since the late Middle Ages, language has been studied in three principal ways, which ask three questions, not three answers to one question.`,
+    `Since the late Middle Ages, language has been studied in three principal ways, each of which asks a different but related question.`,
     `The classical art, Priscian’s grammar with the reasons that the medieval masters added, asks why grammar is as it is, and answers from the modes of signifying.`,
     `Philology asks what an author actually wrote and how his language came to be what it was.`,
     `Modern linguistics, since the early twentieth century, asks how a language works as a system and what is common to all languages, and it sets the other two questions aside by design.`,
