@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">la mieux partagée</em> is…",
+   "prompt": "What is <em lang=\"fr\">la mieux partagée</em>?",
    "explain": "The article with <em lang=\"fr\">mieux</em> makes the superlative, and the participle agrees with <em lang=\"fr\">la chose</em>. the best shared",
    "options": [
     "A superlative",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">en</em> in <em lang=\"fr\">en être si bien pourvu</em> stands for…",
+   "prompt": "For what does <em lang=\"fr\">en</em> stand in <em lang=\"fr\">en être si bien pourvu</em>?",
    "explain": "<em lang=\"fr\">Pourvu de</em> means “provided with,” and <em lang=\"fr\">en</em> takes the place of a phrase with <em lang=\"fr\">de</em>: here, good sense. provided with good sense",
    "options": [
     "<em lang=\"fr\">de bon sens</em>",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The clause beginning <em lang=\"fr\">que ceux même</em> gives…",
+   "prompt": "What does the clause beginning <em lang=\"fr\">que ceux même</em> give?",
    "explain": "<em lang=\"fr\">Si</em> with an adverb or adjective, followed by <em lang=\"fr\">que</em>, gives a result: so well provided that even the hardest to please want no more.",
    "options": [
     "The result of <em lang=\"fr\">si bien</em>",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">n’ont point</em></p> <em lang=\"fr\">ne … point</em> is…",
+   "prompt": "<p><em lang=\"fr\">n’ont point</em></p> What is <em lang=\"fr\">ne … point</em>?",
    "explain": "In the classical language <em lang=\"fr\">point</em> often stands where <em lang=\"fr\">pas</em> would stand now, with the same sense.",
    "options": [
     "A negative, an older and stronger form of <em lang=\"fr\">ne … pas</em>",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">je pris garde</em> is in…",
+   "prompt": "In what tense is <em lang=\"fr\">je pris garde</em>?",
    "explain": "<em lang=\"fr\">Pris</em> is the <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">prendre</em>, the tense of narrative events in written French. for a single past event",
    "options": [
     "The <i lang=\"fr\">passé simple</i>",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">donc</em> in <em lang=\"fr\">je pense, donc je suis</em>…",
+   "prompt": "What does <em lang=\"fr\">donc</em> do in <em lang=\"fr\">je pense, donc je suis</em>?",
    "explain": "<em lang=\"fr\">Donc</em> brings in what follows from what was just said. therefore",
    "options": [
     "Draws a conclusion",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">la</em> in <em lang=\"fr\">la recevoir</em> stands for…",
+   "prompt": "For what does <em lang=\"fr\">la</em> stand in <em lang=\"fr\">la recevoir</em>?",
    "explain": "<em lang=\"fr\">La</em> is a feminine object pronoun, and the thing received as the first principle is the truth just stated.",
    "options": [
     "<em lang=\"fr\">cette vérité</em>",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">n’est qu’un roseau</em> means…",
+   "prompt": "What does <em lang=\"fr\">n’est qu’un roseau</em> mean?",
    "explain": "<em lang=\"fr\">Ne … que</em> limits: it means “only,” not “not.”",
    "options": [
     "Is only a reed",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">pensant</em> is…",
+   "prompt": "What form is <em lang=\"fr\">pensant</em>?",
    "explain": "The participle in <em lang=\"fr\">-ant</em> describes the reed: a thinking reed.",
    "options": [
     "A present participle",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">s’arme</em> is subjunctive because…",
+   "prompt": "Why is <em lang=\"fr\">s’arme</em> subjunctive?",
    "explain": "Expressions of necessity take the subjunctive, negative or not.",
    "options": [
     "<em lang=\"fr\">Il ne faut pas que</em> requires the subjunctive",
@@ -202,7 +202,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">suffit</em> is singular because…",
+   "prompt": "Why is <em lang=\"fr\">suffit</em> singular?",
    "explain": "In <em lang=\"fr\">une vapeur, une goutte d’eau</em> the second subject takes the place of the first, as in a gradation, so the verb agrees with the nearer subject, <em lang=\"fr\">une goutte d’eau</em>, and is singular.",
    "options": [
     "The subjects form a gradation, and the verb agrees with the last",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">lecteur</em> here is…",
+   "prompt": "What is <em lang=\"fr\">lecteur</em> here?",
    "explain": "A noun set off without an article, naming the one spoken to, is an address.",
    "options": [
     "The person addressed",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">t’</em> in <em lang=\"fr\">t’avertit</em> is…",
+   "prompt": "What is <em lang=\"fr\">t’</em> in <em lang=\"fr\">t’avertit</em>?",
    "explain": "<em lang=\"fr\">Te</em>, shortened before a vowel, is the object pronoun of <em lang=\"fr\">tu</em>.",
    "options": [
     "The familiar object pronoun, “you”",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ne … nulle considération</em> means…",
+   "prompt": "What does <em lang=\"fr\">ne … nulle considération</em> mean?",
    "explain": "<em lang=\"fr\">Nul</em> with <em lang=\"fr\">ne</em> is a strong negative: none whatever.",
    "options": [
     "No consideration at all",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">est né</em> is…",
+   "prompt": "What form is <em lang=\"fr\">est né</em>?",
    "explain": "<em lang=\"fr\">Naître</em> is one of the verbs that form the compound past with <em lang=\"fr\">être</em>.",
    "options": [
     "The <i lang=\"fr\">passé composé</i> of <em lang=\"fr\">naître</em>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Tel</em> here means…",
+   "prompt": "What does <em lang=\"fr\">Tel</em> mean here?",
    "explain": "<em lang=\"fr\">Tel</em> used alone as subject is a pronoun: a certain person.",
    "options": [
     "A certain man, such a one",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ne laisse pas d’être</em> means…",
+   "prompt": "What does <em lang=\"fr\">ne laisse pas d’être</em> mean?",
    "explain": "<em lang=\"fr\">Ne pas laisser de</em> with an infinitive means “not to fail to”: he still is.",
    "options": [
     "Is nonetheless",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">eux</em> in <em lang=\"fr\">plus esclave qu’eux</em> is…",
+   "prompt": "What is <em lang=\"fr\">eux</em> in <em lang=\"fr\">plus esclave qu’eux</em>?",
    "explain": "After <em lang=\"fr\">que</em> in a comparison French uses the stressed pronoun: <em lang=\"fr\">eux</em>.",
    "options": [
     "The stressed pronoun",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">aux</em> is…",
+   "prompt": "What is <em lang=\"fr\">aux</em>?",
    "explain": "<em lang=\"fr\">À les</em> always contracts to <em lang=\"fr\">aux</em>.",
    "options": [
     "<em lang=\"fr\">à</em> with the plural article <em lang=\"fr\">les</em>",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ont attiré</em> is plural because…",
+   "prompt": "Why is <em lang=\"fr\">ont attiré</em> plural?",
    "explain": "A relative pronoun takes the number of its antecedent, and the verb agrees with it.",
    "options": [
     "Its subject <em lang=\"fr\">qui</em> stands for <em lang=\"fr\">les objets</em>",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">aucun</em> is…",
+   "prompt": "What is <em lang=\"fr\">aucun</em>?",
    "explain": "<em lang=\"fr\">Aucun</em> with <em lang=\"fr\">ne</em> is the subject: none has struck me more.",
    "options": [
     "The subject: none of them",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">que</em> in <em lang=\"fr\">que l’égalité des conditions</em>…",
+   "prompt": "What does <em lang=\"fr\">que</em> do in <em lang=\"fr\">que l’égalité des conditions</em>?",
    "explain": "<em lang=\"fr\">Plus vivement … que</em>: more strongly than.",
    "options": [
     "Completes the comparison",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">étions</em> is in the imperfect because…",
+   "prompt": "Why is <em lang=\"fr\">étions</em> in the imperfect?",
    "explain": "The imperfect sets the background; the <i lang=\"fr\">passé simple</i> gives the event.",
    "options": [
     "It describes the scene",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">entra</em> is…",
+   "prompt": "What form is <em lang=\"fr\">entra</em>?",
    "explain": "The ending <em lang=\"fr\">-a</em> in the third person singular marks the <i lang=\"fr\">passé simple</i> of the first conjugation.",
    "options": [
     "The <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">entrer</em>",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">suivi</em> agrees with…",
+   "prompt": "With what does <em lang=\"fr\">suivi</em> agree?",
    "explain": "The participle describes the headmaster, and <em lang=\"fr\">de</em> brings in those who followed him.",
    "options": [
     "<em lang=\"fr\">le Proviseur</em>",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">un nouveau</em> is…",
+   "prompt": "What is <em lang=\"fr\">un nouveau</em>?",
    "explain": "With the article and no noun, the adjective names a person: a newcomer. a new boy",
    "options": [
     "An adjective used as a noun",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">occupait … depuis 1806</em> is best rendered…",
+   "prompt": "How is <em lang=\"fr\">occupait … depuis 1806</em> best rendered?",
    "explain": "<em lang=\"fr\">Depuis</em> with the imperfect gives an action begun earlier and still going on at the past moment; English uses the pluperfect.",
    "options": [
     "Had occupied since 1806",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">égaux</em> agrees with…",
+   "prompt": "With what does <em lang=\"fr\">égaux</em> agree?",
    "explain": "<em lang=\"fr\">Égal</em> has the plural <em lang=\"fr\">égaux</em>, like other adjectives in <em lang=\"fr\">-al</em>, and it describes men.",
    "options": [
     "<em lang=\"fr\">les hommes</em>",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ne peuvent … que</em> means…",
+   "prompt": "What does <em lang=\"fr\">ne peuvent … que</em> mean?",
    "explain": "<em lang=\"fr\">Ne … que</em> limits: only on the common good.",
    "options": [
     "Can only",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">fondées</em> ends in <em lang=\"fr\">-ées</em> because…",
+   "prompt": "Why does <em lang=\"fr\">fondées</em> end in <em lang=\"fr\">-ées</em>?",
    "explain": "In the passive the participle agrees with the subject.",
    "options": [
     "It agrees with <em lang=\"fr\">les distinctions</em>, feminine plural",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">il y a plus de quarante ans que je dis</em></p> <em lang=\"fr\">il y a … que je dis</em> means…",
+   "prompt": "<p><em lang=\"fr\">il y a plus de quarante ans que je dis</em></p> What does <em lang=\"fr\">il y a … que je dis</em> mean?",
    "explain": "<em lang=\"fr\">Il y a … que</em> with the present gives an action still going on: English uses “have been.”",
    "options": [
     "I have been saying for more than forty years",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">susse</em> is subjunctive because…",
+   "prompt": "Why is <em lang=\"fr\">susse</em> subjunctive?",
    "explain": "<em lang=\"fr\">Sans que</em> always takes the subjunctive; here the imperfect subjunctive of <em lang=\"fr\">savoir</em>.",
    "options": [
     "<em lang=\"fr\">Sans que</em> requires the subjunctive",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">avoir appris</em> is…",
+   "prompt": "What form is <em lang=\"fr\">avoir appris</em>?",
    "explain": "<em lang=\"fr\">Avoir</em> with the past participle, as an infinitive, puts the action before the main verb. having taught",
    "options": [
     "The past infinitive",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ses</em> agrees with…",
+   "prompt": "With what does <em lang=\"fr\">ses</em> agree?",
    "explain": "French possessives agree with the noun they go with.",
    "options": [
     "<em lang=\"fr\">raisons</em>",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">que</em> in <em lang=\"fr\">que la raison ne connaît point</em> is…",
+   "prompt": "What is <em lang=\"fr\">que</em> in <em lang=\"fr\">que la raison ne connaît point</em>?",
    "explain": "<em lang=\"fr\">La raison</em> is the subject; <em lang=\"fr\">que</em>, standing for the heart’s reasons, is the object.",
    "options": [
     "A relative pronoun",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ces</em> is…",
+   "prompt": "What is <em lang=\"fr\">ces</em>?",
    "explain": "<em lang=\"fr\">Ces</em> is the plural of <em lang=\"fr\">ce</em>, <em lang=\"fr\">cet</em>, <em lang=\"fr\">cette</em>.",
    "options": [
     "A demonstrative adjective: these",
@@ -746,7 +746,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">infinis</em> agrees with…",
+   "prompt": "With what does <em lang=\"fr\">infinis</em> agree?",
    "explain": "It is masculine plural, like <em lang=\"fr\">espaces</em>.",
    "options": [
     "<em lang=\"fr\">espaces</em>",
@@ -763,7 +763,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">m’</em> is…",
+   "prompt": "What is <em lang=\"fr\">m’</em>?",
    "explain": "<em lang=\"fr\">Me</em>, shortened before a vowel, is the direct object: it frightens me.",
    "options": [
     "The object of <em lang=\"fr\">effraie</em>: me",
@@ -797,7 +797,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">que</em> in <em lang=\"fr\">que le vice rend à la vertu</em> is…",
+   "prompt": "What is <em lang=\"fr\">que</em> in <em lang=\"fr\">que le vice rend à la vertu</em>?",
    "explain": "<em lang=\"fr\">Le vice</em> is the subject; <em lang=\"fr\">que</em> stands for the homage it pays.",
    "options": [
     "A relative pronoun",
@@ -814,7 +814,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">à la vertu</em> is…",
+   "prompt": "What is <em lang=\"fr\">à la vertu</em>?",
    "explain": "<em lang=\"fr\">Rendre quelque chose à quelqu’un</em>: one pays something to someone. to virtue",
    "options": [
     "The indirect object",
@@ -831,7 +831,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">je me suis couché</em> takes <em lang=\"fr\">suis</em> because…",
+   "prompt": "Why does <em lang=\"fr\">je me suis couché</em> take <em lang=\"fr\">suis</em>?",
    "explain": "Reflexive verbs form the <i lang=\"fr\">passé composé</i> with <em lang=\"fr\">être</em>.",
    "options": [
     "<em lang=\"fr\">Se coucher</em> is reflexive",
@@ -848,7 +848,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ma bougie éteinte</em> is…",
+   "prompt": "What is <em lang=\"fr\">ma bougie éteinte</em>?",
    "explain": "The noun and participle make a clause of their own, giving the time. my candle once out",
    "options": [
     "A noun with a participle standing apart",
@@ -865,7 +865,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">se fermaient</em> is in the imperfect because…",
+   "prompt": "Why is <em lang=\"fr\">se fermaient</em> in the imperfect?",
    "explain": "The imperfect gives habit: my eyes would close. again and again",
    "options": [
     "It tells what used to happen",
@@ -882,7 +882,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">si vite que je n’avais pas le temps</em> gives…",
+   "prompt": "What does <em lang=\"fr\">si vite que je n’avais pas le temps</em> give?",
    "explain": "<em lang=\"fr\">Si</em> with an adverb and then <em lang=\"fr\">que</em>: so quickly that.",
    "options": [
     "A result",
@@ -899,7 +899,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">Puisque</em></p> <em lang=\"fr\">puisque</em> introduces…",
+   "prompt": "<p><em lang=\"fr\">Puisque</em></p> What does <em lang=\"fr\">puisque</em> introduce?",
    "explain": "“Since,” giving a cause already granted.",
    "options": [
     "A reason",
@@ -916,7 +916,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">aucun homme n’a</em> means…",
+   "prompt": "What does <em lang=\"fr\">aucun homme n’a</em> mean?",
    "explain": "<em lang=\"fr\">Aucun</em> with <em lang=\"fr\">ne</em> negates the subject.",
    "options": [
     "No man has",
@@ -933,7 +933,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">restent</em> is plural because…",
+   "prompt": "Why is <em lang=\"fr\">restent</em> plural?",
    "explain": "The subject stands after the verb, but the verb still agrees with it.",
    "options": [
     "Its subject, <em lang=\"fr\">les conventions</em>, follows it",
@@ -950,7 +950,7 @@ ARS.exercises["lang.ix.fr/prose-ex"] = {
    "deck": "lang.ix.fr/prose-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">pour base</em> means…",
+   "prompt": "What does <em lang=\"fr\">pour base</em> mean?",
    "explain": "<em lang=\"fr\">Pour</em> with a bare noun can mean “as, by way of.”",
    "options": [
     "As the basis",

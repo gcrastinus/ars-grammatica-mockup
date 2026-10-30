@@ -1039,3 +1039,4 @@ Source: notes/AUDIT-EXERCISES-2026-10-29.md, section 6. Exercise cache tag 20261
 - Decision 17, lang.ix.la/prose-ex: 50 prompts that were stems ending in an ellipsis ("*Troia capta* is…") are now full questions in the form of the deck's question points ("What construction is *Troia capta*?"). Options, keys, and explanations unchanged. (The items that end on a quoted passage closing in an ellipsis, lp2–lp8, were already questions.)
 - Decision 17, lang.ix.en/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
 - Decision 17, lang.ix.grc/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
+- Decision 17, lang.ix.fr/prose-ex: 48 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
