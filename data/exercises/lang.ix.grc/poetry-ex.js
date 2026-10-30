@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">μῆνιν</em> is…",
+   "prompt": "What case is <em lang=\"grc\">μῆνιν</em>?",
    "explain": "The first word of the poem names its theme, and it is the object of <em lang=\"grc\">ἄειδε</em>: sing the wrath.",
    "options": [
     "Accusative",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἄειδε</em> is…",
+   "prompt": "What form is <em lang=\"grc\">ἄειδε</em>?",
    "explain": "The ending <em lang=\"grc\">-ε</em> with no augment marks the imperative.",
    "options": [
     "A present imperative",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">ἣ μυρίʼ</em></p> <em lang=\"grc\">ἥ</em> refers to…",
+   "prompt": "<p><em lang=\"grc\">ἣ μυρίʼ</em></p> To what does <em lang=\"grc\">ἥ</em> refer?",
    "explain": "The relative is feminine singular, like <em lang=\"grc\">μῆνιν</em>, and the wrath caused the woes.",
    "options": [
     "<em lang=\"grc\">μῆνιν</em>",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">κύνεσσιν</em> is…",
+   "prompt": "What form is <em lang=\"grc\">κύνεσσιν</em>?",
    "explain": "Homer has the dative plural ending <em lang=\"grc\">-εσσι</em>.",
    "options": [
     "A Homeric dative plural: for dogs",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἄνδρα</em> is…",
+   "prompt": "What case is <em lang=\"grc\">ἄνδρα</em>?",
    "explain": "As in the Iliad, the first word names the subject of the song.",
    "options": [
     "Accusative",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">μοῦσα</em> is…",
+   "prompt": "What case is <em lang=\"grc\">μοῦσα</em>?",
    "explain": "The Muse is the one asked to tell.",
    "options": [
     "Vocative: the Muse addressed",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">πλάγχθη</em> lacks…",
+   "prompt": "What does <em lang=\"grc\">πλάγχθη</em> lack?",
    "explain": "Homer may leave off the augment of past tenses.",
    "options": [
     "The augment, as often in Homer",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἀρνύμενος</em> agrees with…",
+   "prompt": "With what does <em lang=\"grc\">ἀρνύμενος</em> agree?",
    "explain": "It is nominative masculine singular and describes him.",
    "options": [
     "The man",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ὦ τέκνα</em> is…",
+   "prompt": "What case is <em lang=\"grc\">ὦ τέκνα</em>?",
    "explain": "The word <em lang=\"grc\">ὦ</em> marks the address.",
    "options": [
     "Vocative: the children addressed",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἐξεστεμμένοι</em> is…",
+   "prompt": "What form is <em lang=\"grc\">ἐξεστεμμένοι</em>?",
    "explain": "The reduplication and <em lang=\"grc\">-μένοι</em> mark the perfect middle-passive participle.",
    "options": [
     "A perfect passive participle: agreeing with the children",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">ὁμοῦ δὲ</em></p> <em lang=\"grc\">ὁμοῦ μὲν … ὁμοῦ δέ</em> means…",
+   "prompt": "<p><em lang=\"grc\">ὁμοῦ δὲ</em></p> What does <em lang=\"grc\">ὁμοῦ μὲν … ὁμοῦ δέ</em> mean?",
    "explain": "The repeated <em lang=\"grc\">ὁμοῦ</em> with <em lang=\"grc\">μὲν … δέ</em> links two things happening together.",
    "options": [
     "“At once … and at once”: the two set side by side",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">μοῦσαι</em> is…",
+   "prompt": "What case is <em lang=\"grc\">μοῦσαι</em>?",
    "explain": "The poet calls on them, as the imperatives show.",
    "options": [
     "Vocative plural: the Muses addressed",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">δεῦτε</em> and <em lang=\"grc\">ἐννέπετε</em> are…",
+   "prompt": "What are <em lang=\"grc\">δεῦτε</em> and <em lang=\"grc\">ἐννέπετε</em>?",
    "explain": "They are commands to the Muses.",
    "options": [
     "Imperatives plural",
@@ -270,7 +270,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">ὅντε διὰ</em></p> In <em lang=\"grc\">ὅντε διά</em>, the preposition…",
+   "prompt": "<p><em lang=\"grc\">ὅντε διὰ</em></p> In <em lang=\"grc\">ὅντε διά</em>, where does the preposition stand?",
    "explain": "The word <em lang=\"grc\">διά</em> with the accusative <em lang=\"grc\">ὅν</em>: on account of whom.",
    "options": [
     "Follows its object: as often in poetry",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">μεγάλοιο</em> is…",
+   "prompt": "What form is <em lang=\"grc\">μεγάλοιο</em>?",
    "explain": "Epic Greek has <em lang=\"grc\">-οιο</em> beside <em lang=\"grc\">-ου</em>.",
    "options": [
     "A genitive in the epic ending <em lang=\"grc\">-οιο</em>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἀγγέλλειν</em> here is…",
+   "prompt": "What is <em lang=\"grc\">ἀγγέλλειν</em> here?",
    "explain": "Greek can use the infinitive as a command.",
    "options": [
     "An infinitive standing for an imperative",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ὅτι … κείμεθα</em> is…",
+   "prompt": "What is <em lang=\"grc\">ὅτι … κείμεθα</em>?",
    "explain": "After a verb of telling, <em lang=\"grc\">ὅτι</em> gives what is told.",
    "options": [
     "The content of the message: that we lie here",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">πειθόμενοι</em> agrees with…",
+   "prompt": "With what does <em lang=\"grc\">πειθόμενοι</em> agree?",
    "explain": "It is nominative plural, describing those who lie there.",
    "options": [
     "The subject of <em lang=\"grc\">κείμεθα</em>, “we”",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">Ῥώμα</em> and <em lang=\"grc\">γᾶς</em> have long <em lang=\"grc\">ā</em> because…",
+   "prompt": "Why do <em lang=\"grc\">Ῥώμα</em> and <em lang=\"grc\">γᾶς</em> have long <em lang=\"grc\">ā</em>?",
    "explain": "Doric keeps long <em lang=\"grc\">ā</em> where Attic has <em lang=\"grc\">η</em>. Attic would have <em lang=\"grc\">Ῥώμη</em> and <em lang=\"grc\">γῆς</em>.",
    "options": [
     "Each word is a neuter plural, and the ending <em lang=\"grc\">-α</em> is long",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">χαῖρε</em> is…",
+   "prompt": "What form is <em lang=\"grc\">χαῖρε</em>?",
    "explain": "The word <em lang=\"grc\">χαῖρε</em> is the present imperative of <em lang=\"grc\">χαίρω</em>, “hail.” The acute on the last syllable comes from the enclitic <em lang=\"grc\">μοι</em>.",
    "options": [
     "A deponent, middle in form, meaning “I greet”",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἅ</em> in <em lang=\"grc\">ἃ ναίεις</em> is…",
+   "prompt": "What is <em lang=\"grc\">ἅ</em> in <em lang=\"grc\">ἃ ναίεις</em>?",
    "explain": "The word <em lang=\"grc\">ἅ</em> is the feminine relative, and it takes up <em lang=\"grc\">Ῥώμα</em>. Its verb is <em lang=\"grc\">ναίεις</em>, “you dwell.”",
    "options": [
     "The Doric article, the feminine of <em lang=\"grc\">ὁ</em>, standing before the verb",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">Ἄρηος</em> is…",
+   "prompt": "What is <em lang=\"grc\">Ἄρηος</em>?",
    "explain": "The word <em lang=\"grc\">Ἄρηος</em>, “of Ares,” is genitive and depends on <em lang=\"grc\">θυγάτηρ</em>, “daughter.”",
    "options": [
     "A genitive",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">Ὄλυμπον</em> is…",
+   "prompt": "What is <em lang=\"grc\">Ὄλυμπον</em>?",
    "explain": "The word <em lang=\"grc\">Ὄλυμπον</em> is accusative, the object of <em lang=\"grc\">ναίεις</em>, “you dwell.” <em lang=\"grc\">Σεμνὸν</em> and <em lang=\"grc\">ἄθραυστον</em> agree with it.",
    "options": [
     "A vocative, another name of Rome",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">Εἴθ᾽ ὤφελ᾽</em></p> <em lang=\"grc\">εἴθ᾽ ὤφελε</em> with an infinitive expresses…",
+   "prompt": "<p><em lang=\"grc\">Εἴθ᾽ ὤφελ᾽</em></p> What does <em lang=\"grc\">εἴθ᾽ ὤφελε</em> with an infinitive express?",
    "explain": "“Would that it had not”: the Argo has already sailed.",
    "options": [
     "A wish",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">σκάφος</em></p> The subject of <em lang=\"grc\">διαπτάσθαι</em> is…",
+   "prompt": "<p><em lang=\"grc\">σκάφος</em></p> What is the subject of <em lang=\"grc\">διαπτάσθαι</em>?",
    "explain": "The word <em lang=\"grc\">Ἀργοῦς</em> is genitive, the Argo’s hull; <em lang=\"grc\">σκάφος</em> flies through.",
    "options": [
     "<em lang=\"grc\">σκάφος</em>",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">τμηθεῖσα</em> is…",
+   "prompt": "What form is <em lang=\"grc\">τμηθεῖσα</em>?",
    "explain": "The <em lang=\"grc\">-θ-</em> and the ending <em lang=\"grc\">-εῖσα</em> mark the aorist passive, feminine with <em lang=\"grc\">πεύκη</em>.",
    "options": [
     "An aorist passive participle: having been cut",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">οἳ</em></p> <em lang=\"grc\">οἵ</em> refers to…",
+   "prompt": "<p><em lang=\"grc\">οἳ</em></p> To what does <em lang=\"grc\">οἵ</em> refer?",
    "explain": "Masculine plural: the heroes who went for the fleece.",
    "options": [
     "<em lang=\"grc\">ἀνδρῶν ἀρίστων</em>, the best of men",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">θεοὺς</em></p> <em lang=\"grc\">θεούς</em> and <em lang=\"grc\">ἀπαλλαγήν</em> are both accusative because…",
+   "prompt": "<p><em lang=\"grc\">θεοὺς</em></p> Why are <em lang=\"grc\">θεούς</em> and <em lang=\"grc\">ἀπαλλαγήν</em> both accusative?",
    "explain": "Verbs of asking take a double accusative.",
    "options": [
     "<em lang=\"grc\">αἰτῶ</em> takes the person and the thing in the accusative",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">τῶνδε … πόνων</em> is…",
+   "prompt": "What construction is <em lang=\"grc\">τῶνδε … πόνων</em>?",
    "explain": "The word <em lang=\"grc\">ἀπαλλαγή</em>, release, takes what one is released from in the genitive.",
    "options": [
     "Genitive of separation: from these toils",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">κοιμώμενος</em> is…",
+   "prompt": "What form is <em lang=\"grc\">κοιμώμενος</em>?",
    "explain": "<em lang=\"grc\">-όμενος</em>, contracted <em lang=\"grc\">-ώμενος</em>: present middle.",
    "options": [
     "A present middle participle: lying",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">κυνὸς δίκην</em> means…",
+   "prompt": "What does <em lang=\"grc\">κυνὸς δίκην</em> mean?",
    "explain": "The accusative <em lang=\"grc\">δίκην</em> with a genitive is used as an adverb: in the way of.",
    "options": [
     "Like a dog",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">τεὸν</em></p> <em lang=\"grc\">τεόν</em> is…",
+   "prompt": "<p><em lang=\"grc\">τεὸν</em></p> What is <em lang=\"grc\">τεόν</em>?",
    "explain": "Poets use the older form for the meter.",
    "options": [
     "Epic and Ionic for <em lang=\"grc\">σόν</em>, your",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">με</em> is the object of…",
+   "prompt": "Of what is <em lang=\"grc\">με</em> the object?",
    "explain": "It brought me to tears.",
    "options": [
     "<em lang=\"grc\">ἤγαγεν</em>",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἐμνήσθην</em> is…",
+   "prompt": "What form is <em lang=\"grc\">ἐμνήσθην</em>?",
    "explain": "The word <em lang=\"grc\">μιμνῄσκομαι</em> uses the passive aorist for “I remembered.”",
    "options": [
     "An aorist passive form",
@@ -644,7 +644,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of <em lang=\"grc\">κατεδύσαμεν</em> is…",
+   "prompt": "What is the subject of <em lang=\"grc\">κατεδύσαμεν</em>?",
    "explain": "First person plural: we sank the sun with talk.",
    "options": [
     "“We two,” <em lang=\"grc\">ἀμφότεροι</em>",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">μὲν</em></p> The two lines are set against each other by…",
+   "prompt": "<p><em lang=\"grc\">μὲν</em></p> By what are the two lines set against each other?",
    "explain": "The word <em lang=\"grc\">μέν</em> in the first line and <em lang=\"grc\">δέ</em> in the second balance before and now.",
    "options": [
     "<em lang=\"grc\">μέν … δέ</em>",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ἔλαμπες</em> is…",
+   "prompt": "What form is <em lang=\"grc\">ἔλαμπες</em>?",
    "explain": "The augment <em lang=\"grc\">ἐ-</em> and the present stem <em lang=\"grc\">λαμπ-</em> make the imperfect.",
    "options": [
     "Imperfect: you used to shine",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"grc\">ζωοῖσιν</em> is…",
+   "prompt": "What form is <em lang=\"grc\">ζωοῖσιν</em>?",
    "explain": "Epic <em lang=\"grc\">-οισι(ν)</em> for Attic <em lang=\"grc\">-οις</em>.",
    "options": [
     "An epic dative plural: among the living",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "deck": "lang.ix.grc/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"grc\">θανὼν</em></p> <em lang=\"grc\">θανών</em> is…",
+   "prompt": "<p><em lang=\"grc\">θανὼν</em></p> What form is <em lang=\"grc\">θανών</em>?",
    "explain": "From the aorist <em lang=\"grc\">ἔθανον</em> of <em lang=\"grc\">θνῄσκω</em>.",
    "options": [
     "An aorist participle: having died",
