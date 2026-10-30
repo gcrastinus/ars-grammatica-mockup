@@ -180,11 +180,11 @@ ARS.exercises['xi.review'] = {
    "options": [
     "It is a property of the thing signified, not of the word",
     "It belongs to the letters",
-    "It is only a manner of speaking",
+    "There are no common natures in things to ground such modes, and no further property in the word",
     "It is the same in every language, as Bacon held"
    ],
    "answer": 2,
-   "explain": "Ockham held that different words simply signify in different ways, and that there is no further property in the word."
+   "explain": "Ockham, for whom only individual things exist, denied that there are common natures in things on which the modes could rest: different words simply signify in different ways, and there is no further property in the word."
   },
   {
    "id": "rxi-A11",

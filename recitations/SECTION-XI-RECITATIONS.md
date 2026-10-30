@@ -229,8 +229,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 3. Philology asks what an author actually wrote and how his language came to be what it was.
 4. Modern linguistics, since the early twentieth century, asks how a language works as a system and what is common to all languages, and it sets the other two questions aside by design.
 5. Boethius of Dacia grants that sciences may differ in their manner of knowing even when they concern the same object, so the student of the classical art need not treat the philologist or the linguist as a rival, but can ask what each way of knowing reaches and what it leaves aside.
-6. The modists held that the mode of signifying is a real property of the word, given to it when it is imposed.
-7. William of Ockham answered that this is only a manner of speaking: different words simply signify in different ways, and there is no further property in the word.
+6. The modists held that a word receives its mode of signifying, a real property of the word, from the mode of being of the thing on which it is imposed.
+7. William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.
 8. John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.
 9. If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.
 10. What is disputed is where the modists placed the mode, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.
