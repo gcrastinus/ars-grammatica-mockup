@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“whose mortal taste”</p> “Whose mortal taste brought death” is…",
+   "prompt": "<p>“whose mortal taste”</p> What is “whose mortal taste brought death”?",
    "explain": "“Whose” takes up the tree.",
    "options": [
     "A relative clause describing “tree”",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“Sing” is…",
+   "prompt": "What is “Sing”?",
    "explain": "It is a command to the Muse, the noun of address that follows.",
    "options": [
     "An imperative",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“thee”</p> “Thee” is…",
+   "prompt": "<p>“thee”</p> What is “thee”?",
    "explain": "“Thou” is the subject form, and “thee” the object.",
    "options": [
     "The objective case of “thou”",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“more lovely and more temperate”</p> “More lovely and more temperate” are…",
+   "prompt": "<p>“more lovely and more temperate”</p> What are “more lovely and more temperate”?",
    "explain": "They follow the linking verb and describe “thou.”",
    "options": [
     "Comparative adjectives completing “art”",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“is his gold complexion dimm’d”</p> “Is his gold complexion dimm’d” is…",
+   "prompt": "<p>“is his gold complexion dimm’d”</p> What is “is his gold complexion dimm’d”?",
    "explain": "The order is inverted: his gold complexion is dimmed.",
    "options": [
     "A passive verb",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“parting”</p> “Parting” in “parting day” is…",
+   "prompt": "<p>“parting”</p> What is “parting” in “parting day”?",
    "explain": "It describes “day”: the departing day.",
    "options": [
     "A participle",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“homeward”</p> “Homeward” is…",
+   "prompt": "<p>“homeward”</p> What is “homeward”?",
    "explain": "It tells where he plods.",
    "options": [
     "An adverb of direction modifying “plods”",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“stoppeth”</p> “Stoppeth” is…",
+   "prompt": "<p>“stoppeth”</p> What is “stoppeth”?",
    "explain": "The ending “-eth” is the older form of “-s.”",
    "options": [
     "The older third person singular, “stops”",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“wherefore”</p> “Wherefore” means…",
+   "prompt": "<p>“wherefore”</p> What does “wherefore” mean?",
    "explain": "In older English “wherefore” asks for the reason.",
    "options": [
     "“Why”",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“thou”</p> In “stopp’st thou me,” the subject is…",
+   "prompt": "<p>“thou”</p> In “stopp’st thou me,” what is the subject?",
    "explain": "The question puts the verb before its subject, and “me” is the object.",
    "options": [
     "“Thou,” placed after the verb in a question",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“lonely”</p> “Lonely” in “I wandered lonely” describes…",
+   "prompt": "<p>“lonely”</p> What does “lonely” in “I wandered lonely” describe?",
    "explain": "“Lonely” is an adjective, so it describes the one who wandered.",
    "options": [
     "“I,” the subject",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“That floats”</p> “That floats on high” is…",
+   "prompt": "<p>“That floats”</p> What is “That floats on high”?",
    "explain": "“That” takes up the cloud.",
    "options": [
     "A relative clause describing “a Cloud”",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“When all at once”</p> “When all at once I saw a crowd” is…",
+   "prompt": "<p>“When all at once”</p> What is “When all at once I saw a crowd”?",
    "explain": "“When” subordinates it to “I wandered.”",
    "options": [
     "A subordinate clause of time",
@@ -338,7 +338,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“A host”</p> “A host of dancing Daffodills” stands…",
+   "prompt": "<p>“A host”</p> How does “A host of dancing Daffodills” stand?",
    "explain": "It renames the crowd that he saw.",
    "options": [
     "In apposition to “a crowd”",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“Who said” is…",
+   "prompt": "What is “Who said”?",
    "explain": "“Who” refers back to the traveler.",
    "options": [
     "A relative clause describing “a traveller”",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of “Stand” is…",
+   "prompt": "What is the subject of “Stand”?",
    "explain": "The subject runs over the line end to its verb.",
    "options": [
     "“Two vast and trunkless legs of stone”",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“a shattered visage lies”</p> In “Near them, on the sand, / Half sunk, a shattered visage lies,” the subject is…",
+   "prompt": "<p>“a shattered visage lies”</p> In “Near them, on the sand, / Half sunk, a shattered visage lies,” what is the subject?",
    "explain": "The phrases of place and state come first; the subject follows.",
    "options": [
     "“a shattered visage”",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“read” in line 6 is…",
+   "prompt": "What is “read” in line 6?",
    "explain": "The object, “those passions,” comes before it, and the sculptor did it long ago: the sculptor read those passions well.",
    "options": [
     "Past tense",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“Tyger Tyger”</p> The first line begins with…",
+   "prompt": "<p>“Tyger Tyger”</p> With what does the first line begin?",
    "explain": "TY-ger TY-ger BURN-ing BRIGHT.",
    "options": [
     "A stressed syllable: the line is trochaic",
@@ -457,7 +457,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“burning bright” describes…",
+   "prompt": "What does “burning bright” describe?",
    "explain": "It follows the address and qualifies it.",
    "options": [
     "The tiger",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“hand or eye”</p> The subject of “could frame” is…",
+   "prompt": "<p>“hand or eye”</p> What is the subject of “could frame”?",
    "explain": "What hand or eye could frame it: the hand or eye does the framing.",
    "options": [
     "“hand or eye”",
@@ -491,7 +491,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“thy fearful symmetry” is…",
+   "prompt": "What is “thy fearful symmetry”?",
    "explain": "It is what the hand or eye frames.",
    "options": [
     "The object of “could frame”",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“True ease in writing”</p> The subject of “comes” is…",
+   "prompt": "<p>“True ease in writing”</p> What is the subject of “comes”?",
    "explain": "“In writing” limits “ease”; the whole phrase is the subject.",
    "options": [
     "“True ease in writing”",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“who have learn’d to dance” describes…",
+   "prompt": "What does “who have learn’d to dance” describe?",
    "explain": "The relative clause is placed after the verb, but it belongs to “those.”",
    "options": [
     "“those”",
@@ -559,7 +559,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“an echo to the sense” is…",
+   "prompt": "What is “an echo to the sense”?",
    "explain": "“Seem” links the subject to what it is said to be.",
    "options": [
     "A complement",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“be not proud” is…",
+   "prompt": "What is “be not proud”?",
    "explain": "Older English puts “not” after the imperative: “be not.”",
    "options": [
     "An older form of the negative imperative",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In “some have called thee / Mighty and dreadful,” “thee” is…",
+   "prompt": "In “some have called thee / Mighty and dreadful,” what is “thee”?",
    "explain": "Some have called Death mighty: “thee” is called something.",
    "options": [
     "The object of “called”",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“whom” is the object of…",
+   "prompt": "Of what is “whom” the object?",
    "explain": "Thou think’st [that] thou dost overthrow whom: the relative belongs to the inner clause.",
    "options": [
     "“overthrow”",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "The subject of “Die not” is…",
+   "prompt": "What is the subject of “Die not”?",
    "explain": "Those whom you think you overthrow do not die.",
    "options": [
     "“those”",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "“much abides” is…",
+   "prompt": "What is “much abides”?",
    "explain": "“Though” governs only “much is taken.”",
    "options": [
     "The main clause",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“which in old days”</p> “which” refers to…",
+   "prompt": "<p>“which in old days”</p> To what does “which” refer?",
    "explain": "The strength that once moved earth and heaven.",
    "options": [
     "“that strength”",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In “that which we are, we are,” the phrase “that which we are” is…",
+   "prompt": "In “that which we are, we are,” what is the phrase “that which we are”?",
    "explain": "The complement is moved to the front, and “we are” closes the line.",
    "options": [
     "Placed first for emphasis",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“Made weak”</p> “Made weak by time and fate” describes…",
+   "prompt": "<p>“Made weak”</p> What does “Made weak by time and fate” describe?",
    "explain": "The participle phrase follows the noun phrase it describes.",
    "options": [
     "“One equal temper of heroic hearts”",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.en/poetry-ex"] = {
    "deck": "lang.ix.en/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p>“To strive”</p> The infinitives “To strive, to seek, to find” complete…",
+   "prompt": "<p>“To strive”</p> What do the infinitives “To strive, to seek, to find” complete?",
    "explain": "Strong in will to strive: they say what the will is for.",
    "options": [
     "“will”",
