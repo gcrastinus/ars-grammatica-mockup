@@ -50,7 +50,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A2",
    "set": "A",
    "type": "mc",
-   "prompt": "In the same line, <i lang=\"la\">quid faciat laetās</i>, why is the last syllable of <i lang=\"la\">faciat</i> long?",
+   "prompt": "In Virgil’s line <i lang=\"la\">Quid faciat laetās segetēs, quō sīdere terram</i> (<i lang=\"la\">Georgics</i> I.1), why is the last syllable of <i lang=\"la\">faciat</i> long?",
    "options": [
     "Its <i lang=\"la\">a</i> is long by nature",
     "Its <i lang=\"la\">t</i> is followed by the <i lang=\"la\">l</i> of <i lang=\"la\">laetās</i>",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:A3",
    "set": "A",
    "type": "mc",
-   "prompt": "Scanned, the same line is <i lang=\"la\">quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</i>. Which of the first five feet are spondees?",
+   "prompt": "Virgil’s line <i lang=\"la\">Quid faciat laetās segetēs, quō sīdere terram</i> (<i lang=\"la\">Georgics</i> I.1) scans <i lang=\"la\">quid fa-ci | at lae | tās se-ge | tēs quō | sī-de-re | ter-ram</i>. Which of the first five feet are spondees?",
    "options": [
     "The first and third",
     "The second, fourth, and fifth",
@@ -272,7 +272,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:B3",
    "set": "B",
    "type": "mc",
-   "prompt": "Scanned, the same line is <i lang=\"la\">con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</i>. Which of the first five feet are dactyls?",
+   "prompt": "Virgil’s line <i lang=\"la\">Conticuēre omnēs intentīque ōra tenēbant</i> (<i lang=\"la\">Aeneid</i> II.1) scans <i lang=\"la\">con-ti-cu | ē-rom | nēs in | ten-tī | quō-ra-te | nē-bant</i>. Which of the first five feet are dactyls?",
    "options": [
     "The first, third, and fifth",
     "The first and fifth",
@@ -502,7 +502,7 @@ ARS.exercises["lang.ii.la/meter-ex"] = {
    "id": "lang.ii.la/meter-ex:C4",
    "set": "C",
    "type": "mc",
-   "prompt": "In the same pentameter, <i lang=\"la\">heu-mi-ser | in-dig- | nē ‖ frā-ter ad | ēmp-te mi- | hī</i>, why is <i lang=\"la\">nē</i>, the syllable before the break, long?",
+   "prompt": "Catullus’s pentameter <i lang=\"la\">heu miser indignē frāter adēmpte mihī</i> (<i lang=\"la\">Carmina</i> 101.6) scans <i lang=\"la\">heu-mi-ser | in-dig- | nē ‖ frā-ter ad | ēmp-te mi- | hī</i>. Why is <i lang=\"la\">nē</i>, the syllable before the break, long?",
    "options": [
     "A syllable before the break is long whatever its letters",
     "It is elided before <i lang=\"la\">frater</i>",
