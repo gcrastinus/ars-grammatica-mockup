@@ -342,7 +342,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 116. An **agglutinating** language adds a separate piece for each meaning.
 117. A **fusional** language joins several meanings in one ending.
 118. A **polysynthetic** language can express in one long word what English expresses in a sentence.
-119. These types are tendencies, not boxes, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).
+119. These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).
 120. Latin marks the subject of every verb in the nominative and the object in the accusative.
 121. An **ergative** language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.
 122. The ergative pattern shows that the grouping of subject against object is one possibility among others.

@@ -120,7 +120,7 @@
     `An <strong>agglutinating</strong> language adds a separate piece for each meaning.`,
     `A <strong>fusional</strong> language joins several meanings in one ending.`,
     `A <strong>polysynthetic</strong> language can express in one long word what English expresses in a sentence.`,
-    `These types are tendencies, not boxes, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).`,
+    `These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).`,
     `Latin marks the subject of every verb in the nominative and the object in the accusative.`,
     `An <strong>ergative</strong> language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.`,
     `The ergative pattern shows that the grouping of subject against object is one possibility among others.`,
