@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">ἡμέρᾱ, ἡμέρᾱς, ἡ, “day”</i>. Write the genitive plural.",
-   "explain": "<i lang=\"grc\">Ἡμέρᾱ</i> is declined like <i lang=\"grc\">χώρᾱ</i>, and every first-declension noun has the genitive plural in <i lang=\"grc\">-ῶν</i> (Smyth §216).",
+   "explain": "The word <i lang=\"grc\">ἡμέρᾱ</i> is declined like <i lang=\"grc\">χώρᾱ</i>, and every first-declension noun has the genitive plural in <i lang=\"grc\">-ῶν</i> (Smyth §216).",
    "accept": [
     "ἡμερῶν"
    ],
@@ -29,7 +29,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">τῑμή, τῑμῆς, ἡ, “honor”</i>. Write the genitive singular.",
-   "explain": "<i lang=\"grc\">Τῑμή</i> is declined like <i lang=\"grc\">νῑ́κη</i>; an oxytone of the first declension has the circumflex in the genitive and dative (§216).",
+   "explain": "The word <i lang=\"grc\">τῑμή</i> is declined like <i lang=\"grc\">νῑ́κη</i>; an oxytone of the first declension has the circumflex in the genitive and dative (§216).",
    "accept": [
     "τῑμῆς"
    ],
@@ -42,7 +42,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">γλῶττα, γλώττης, ἡ, “tongue”</i>. Write the dative singular.",
-   "explain": "<i lang=\"grc\">Γλῶττα</i> is declined like <i lang=\"grc\">θάλαττα</i>: a short <i lang=\"grc\">-α</i> after <i lang=\"grc\">ττ</i> has <i lang=\"grc\">-ης</i>, <i lang=\"grc\">-ῃ</i> in the genitive and dative singular (§216).",
+   "explain": "The word <i lang=\"grc\">γλῶττα</i> is declined like <i lang=\"grc\">θάλαττα</i>: a short <i lang=\"grc\">-α</i> after <i lang=\"grc\">ττ</i> has <i lang=\"grc\">-ης</i>, <i lang=\"grc\">-ῃ</i> in the genitive and dative singular (§216).",
    "accept": [
     "γλώττῃ"
    ],
@@ -120,7 +120,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">νῆσος, νήσου, ἡ, “island”</i>. Write the genitive singular.",
-   "explain": "<i lang=\"grc\">Νῆσος</i> is a feminine of the second declension, declined like <i lang=\"grc\">ὁδός</i> (§231).",
+   "explain": "The word <i lang=\"grc\">νῆσος</i> is a feminine of the second declension, declined like <i lang=\"grc\">ὁδός</i> (§231).",
    "accept": [
     "νήσου"
    ],
@@ -172,7 +172,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">ὄνομα, ὀνόματος, τό, “name”</i>. Write the genitive singular.",
-   "explain": "<i lang=\"grc\">Ὄνομα</i> is declined like <i lang=\"grc\">σῶμα</i>, on the stem <i lang=\"grc\">ὀνοματ-</i> (§258).",
+   "explain": "The word <i lang=\"grc\">ὄνομα</i> is declined like <i lang=\"grc\">σῶμα</i>, on the stem <i lang=\"grc\">ὀνοματ-</i> (§258).",
    "accept": [
     "ὀνόματος"
    ],
@@ -185,7 +185,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">φύσις, φύσεως, ἡ, “nature”</i>. Write the dative singular.",
-   "explain": "<i lang=\"grc\">Φύσις</i> is declined like <i lang=\"grc\">πόλις</i>: genitive <i lang=\"grc\">φύσεως</i>, dative <i lang=\"grc\">φύσει</i> (§268).",
+   "explain": "The word <i lang=\"grc\">φύσις</i> is declined like <i lang=\"grc\">πόλις</i>: genitive <i lang=\"grc\">φύσεως</i>, dative <i lang=\"grc\">φύσει</i> (§268).",
    "accept": [
     "φύσει"
    ],
@@ -198,7 +198,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">ἱερεύς, ἱερέως, ὁ, “priest”</i>. Write the accusative singular.",
-   "explain": "<i lang=\"grc\">Ἱερεύς</i> is declined like <i lang=\"grc\">βασιλεύς</i>, with the accusative singular in <i lang=\"grc\">-έᾱ</i> (§275).",
+   "explain": "The word <i lang=\"grc\">ἱερεύς</i> is declined like <i lang=\"grc\">βασιλεύς</i>, with the accusative singular in <i lang=\"grc\">-έᾱ</i> (§275).",
    "accept": [
     "ἱερέᾱ"
    ],
@@ -211,7 +211,7 @@ ARS.exercises["lang.iii-decl.grc/paradigms-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "<i lang=\"grc\">κελεύω, κελεύσω, ἐκέλευσα, “order”</i>. Write the present active indicative, third person singular.",
-   "explain": "<i lang=\"grc\">Κελεύω</i> is conjugated like <i lang=\"grc\">λῡ́ω</i>: <i lang=\"grc\">κελεύω, κελεύεις, κελεύει</i> (§383).",
+   "explain": "The word <i lang=\"grc\">κελεύω</i> is conjugated like <i lang=\"grc\">λῡ́ω</i>: <i lang=\"grc\">κελεύω, κελεύεις, κελεύει</i> (§383).",
    "accept": [
     "κελεύει"
    ],

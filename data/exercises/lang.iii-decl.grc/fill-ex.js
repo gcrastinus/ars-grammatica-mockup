@@ -758,7 +758,7 @@ ARS.exercises["lang.iii-decl.grc/fill-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case is the marked word? <i lang=\"grc\">ὁ βασιλεὺς ἄρχει τῶν <b>ἀνθρώπων</b></i>",
-   "explain": "<i lang=\"grc\">Ἄρχω</i> takes the genitive of the people ruled (Smyth §1370).",
+   "explain": "The word <i lang=\"grc\">ἄρχω</i> takes the genitive of the people ruled (Smyth §1370).",
    "options": [
     "Genitive",
     "Vocative",

@@ -432,7 +432,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς τὸν νεᾱνίᾱν ἔλῡσεν ὥστε οἱ ἄνθρωποι τὸν ἵππον ______</i> (“The judge loosed the young man, so that the men loosed the horse”).",
-   "explain": "The men are nominative and plural, and they are not the subject of <i lang=\"grc\">ἔλῡσεν</i>, so the result that occurred is the aorist indicative <i lang=\"grc\">ἔλῡσαν</i> (Smyth §939, §2257, §2274). <i lang=\"grc\">λῡ́ειν</i> is an infinitive, and a different subject of the infinitive would stand in the accusative, while <i lang=\"grc\">ἔλῡσε</i> is singular and <i lang=\"grc\">λῡ́σαιεν</i> is optative (Smyth §1975). <i lang=\"grc\">ἔλῡσεν</i> takes <i lang=\"grc\">ν</i> before the vowel (Smyth §134).",
+   "explain": "The men are nominative and plural, and they are not the subject of <i lang=\"grc\">ἔλῡσεν</i>, so the result that occurred is the aorist indicative <i lang=\"grc\">ἔλῡσαν</i> (Smyth §939, §2257, §2274). <i lang=\"grc\">λῡ́ειν</i> is an infinitive, and a different subject of the infinitive would stand in the accusative, while <i lang=\"grc\">ἔλῡσε</i> is singular and <i lang=\"grc\">λῡ́σαιεν</i> is optative (Smyth §1975).",
    "options": [
     "<i lang=\"grc\">ἔλῡσαν</i>",
     "<i lang=\"grc\">λῡ́ειν</i>",
@@ -448,7 +448,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς τὸν ἵππον ἔλῡσεν ὥστε ἐγὼ τὸν νεᾱνίᾱν ______</i> (“The judge loosed the horse, so that I educated the young man”).",
-   "explain": "<i lang=\"grc\">ἐγώ</i> is nominative, and it is a different subject from the judge, so the result that occurred is the aorist indicative <i lang=\"grc\">ἐπαίδευσα</i> (Smyth §939, §2257, §2274, §429). <i lang=\"grc\">παιδεύειν</i> is an infinitive, whose different subject would be accusative, <i lang=\"grc\">παιδεύοι</i> is third person optative, and <i lang=\"grc\">παιδεύσαιμι</i> is optative (Smyth §1975, §383). <i lang=\"grc\">ἐγώ</i> is written <i lang=\"grc\">ἐγὼ</i> before the next word, and <i lang=\"grc\">ἔλῡσεν</i> takes <i lang=\"grc\">ν</i> before the vowel (Smyth §154, §134).",
+   "explain": "<i lang=\"grc\">ἐγώ</i> is nominative, and it is a different subject from the judge, so the result that occurred is the aorist indicative <i lang=\"grc\">ἐπαίδευσα</i> (Smyth §939, §2257, §2274, §429). <i lang=\"grc\">παιδεύειν</i> is an infinitive, whose different subject would be accusative, <i lang=\"grc\">παιδεύοι</i> is third person optative, and <i lang=\"grc\">παιδεύσαιμι</i> is optative (Smyth §1975, §383).",
    "options": [
     "<i lang=\"grc\">ἐπαίδευσα</i>",
     "<i lang=\"grc\">παιδεύειν</i>",
@@ -464,7 +464,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν τῶν ἀνθρώπων ______</i> (“The king is so wise that the young man rules the men”).",
-   "explain": "The young man is not the subject of <i lang=\"grc\">ἐστιν</i>, and he stands in the accusative, so the result that follows from what the king is takes the infinitive <i lang=\"grc\">ἄρχειν</i>, and <i lang=\"grc\">ἄρχω</i> takes the genitive of the people ruled (Smyth §2258, §1975, §1370). <i lang=\"grc\">ἄρχει</i> and <i lang=\"grc\">ἄρχω</i> are finite, and a finite verb takes a nominative subject, while <i lang=\"grc\">παιδεύουσι</i> is plural (Smyth §939, §423). <i lang=\"grc\">βασιλεύς</i> is written <i lang=\"grc\">βασιλεὺς</i> before the next word, <i lang=\"grc\">οὕτω</i> stands before a consonant, <i lang=\"grc\">σοφός</i> keeps its accent before <i lang=\"grc\">ἐστιν</i>, and <i lang=\"grc\">ἐστιν</i> takes <i lang=\"grc\">ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
+   "explain": "The young man is not the subject of <i lang=\"grc\">ἐστιν</i>, and he stands in the accusative, so the result that follows from what the king is takes the infinitive <i lang=\"grc\">ἄρχειν</i>, and <i lang=\"grc\">ἄρχω</i> takes the genitive of the people ruled (Smyth §2258, §1975, §1370). <i lang=\"grc\">ἄρχει</i> and <i lang=\"grc\">ἄρχω</i> are finite, and a finite verb takes a nominative subject, while <i lang=\"grc\">παιδεύουσι</i> is plural (Smyth §939, §423).",
    "options": [
     "<i lang=\"grc\">ἄρχειν</i>",
     "<i lang=\"grc\">ἄρχει</i>",
@@ -480,7 +480,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς οὕτω σοφός ἐστιν ὥστε τὸν νεᾱνίᾱν ἀγαθὸν ______</i> (“The judge is so wise that the young man is good”).",
-   "explain": "The young man is a different subject from the judge, so the young man and the adjective stand in the accusative with <i lang=\"grc\">εἶναι</i>, and the result follows from what the judge is (Smyth §2258, §1975, §768). <i lang=\"grc\">ἐστί, ἦν</i>, and <i lang=\"grc\">ἔσομαι</i> are finite, and a finite verb takes a nominative subject (Smyth §939). <i lang=\"grc\">κριτής</i> is written <i lang=\"grc\">κριτὴς</i> before the next word, <i lang=\"grc\">οὕτω</i> stands before a consonant, <i lang=\"grc\">σοφός</i> keeps its accent before <i lang=\"grc\">ἐστιν</i>, and <i lang=\"grc\">ἐστιν</i> takes <i lang=\"grc\">ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
+   "explain": "The young man is a different subject from the judge, so the young man and the adjective stand in the accusative with <i lang=\"grc\">εἶναι</i>, and the result follows from what the judge is (Smyth §2258, §1975, §768). <i lang=\"grc\">ἐστί, ἦν</i>, and <i lang=\"grc\">ἔσομαι</i> are finite, and a finite verb takes a nominative subject (Smyth §939).",
    "options": [
     "<i lang=\"grc\">εἶναι</i>",
     "<i lang=\"grc\">ἐστί</i>",
@@ -496,7 +496,7 @@ ARS.exercises["lang.v.grc/mood-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ βασιλεὺς οὕτω σοφός ἐστιν ὥστε τὸν κριτὴν τὸν νεᾱνίᾱν ______</i> (“The king is so wise that the judge educates the young man”).",
-   "explain": "The judge is a different subject from the king, and the young man is the object, so both stand in the accusative with <i lang=\"grc\">παιδεύειν</i>, the infinitive of a natural result (Smyth §2258, §1975). <i lang=\"grc\">παιδεύουσι</i> is indicative and plural, and <i lang=\"grc\">παιδεύοι</i> and <i lang=\"grc\">παιδεύοιεν</i> are optative, while a finite verb takes a nominative subject (Smyth §939, §383). <i lang=\"grc\">βασιλεύς</i> is written <i lang=\"grc\">βασιλεὺς</i> before the next word, <i lang=\"grc\">οὕτω</i> stands before a consonant, <i lang=\"grc\">σοφός</i> keeps its accent before <i lang=\"grc\">ἐστιν</i>, and <i lang=\"grc\">ἐστιν</i> takes <i lang=\"grc\">ν</i> before the vowel (Smyth §154, §136, §183 a, §134).",
+   "explain": "The judge is a different subject from the king, and the young man is the object, so both stand in the accusative with <i lang=\"grc\">παιδεύειν</i>, the infinitive of a natural result (Smyth §2258, §1975). <i lang=\"grc\">παιδεύουσι</i> is indicative and plural, and <i lang=\"grc\">παιδεύοι</i> and <i lang=\"grc\">παιδεύοιεν</i> are optative, while a finite verb takes a nominative subject (Smyth §939, §383).",
    "options": [
     "<i lang=\"grc\">παιδεύειν</i>",
     "<i lang=\"grc\">παιδεύουσι</i>",

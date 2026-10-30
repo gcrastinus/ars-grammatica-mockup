@@ -96,7 +96,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "In <i lang=\"grc\">μῆνιν ἄειδε θεά</i> (<i lang=\"grc\">Iliad</i> I.1), why is the first syllable long?",
-   "explain": "<i lang=\"grc\">Η</i> is always long.",
+   "explain": "The letter <i lang=\"grc\">η</i> is always long.",
    "options": [
     "By position: <i lang=\"grc\">ν</i> and <i lang=\"grc\">ν</i> follow",
     "Because of the circumflex",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Scan <i lang=\"grc\">ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλά</i> (<i lang=\"grc\">Odyssey</i> I.1). What are the first five feet?",
-   "explain": "<i lang=\"grc\">Ἄνδρα μοι | ἔννεπε | μοῦσα πο|λύτροπον | ὃς μάλα | πολλά</i>.",
+   "explain": "The phrase <i lang=\"grc\">ἄνδρα μοι | ἔννεπε | μοῦσα πο|λύτροπον | ὃς μάλα | πολλά</i>.",
    "options": [
     "DSDDD",
     "DDDDD",
@@ -144,7 +144,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Scan <i lang=\"grc\">μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος</i> (<i lang=\"grc\">Iliad</i> I.1). What are the first five feet?",
-   "explain": "<i lang=\"grc\">Μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</i>.",
+   "explain": "The phrase <i lang=\"grc\">μῆνιν ἄ|ειδε θε|ὰ Πη|ληϊά|δεω Ἀχι|λῆος</i>.",
    "options": [
     "DDDDD",
     "SDSDD",
@@ -176,7 +176,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Scan <i lang=\"grc\">οὐλομένην, ἣ μυρί’ Ἀχαιοῖς ἄλγε’ ἔθηκε</i> (<i lang=\"grc\">Iliad</i> I.2). What are the first five feet?",
-   "explain": "<i lang=\"grc\">Οὐλομέ|νην ἣ | μυρί’ Ἀ|χαιοῖς | ἄλγε’ ἔ|θηκε</i>.",
+   "explain": "The phrase <i lang=\"grc\">Οὐλομέ|νην ἣ | μυρί’ Ἀ|χαιοῖς | ἄλγε’ ἔ|θηκε</i>.",
    "options": [
     "DDDSD",
     "DSDSD",
@@ -288,7 +288,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "In <i lang=\"grc\">ὃς μάλα</i> (<i lang=\"grc\">Odyssey</i> I.1), what foot do these words make?",
-   "explain": "<i lang=\"grc\">Ὃς</i> is long by position before <i lang=\"grc\">μ</i>, and <i lang=\"grc\">μά-λα</i> are short.",
+   "explain": "The word <i lang=\"grc\">ὃς</i> is long by position before <i lang=\"grc\">μ</i>, and <i lang=\"grc\">μά-λα</i> are short.",
    "options": [
     "A spondee",
     "An iamb",
@@ -336,7 +336,7 @@ ARS.exercises["lang.ii.grc/hexameter-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "In <i lang=\"grc\">οὐλομένην, ἣ</i>, why is <i lang=\"grc\">νην</i> long?",
-   "explain": "<i lang=\"grc\">Η</i> is long; the spondee is <i lang=\"grc\">νην ἣ</i>.",
+   "explain": "The letter <i lang=\"grc\">η</i> is long; the spondee is <i lang=\"grc\">νην ἣ</i>.",
    "options": [
     "By position only, before the <i lang=\"grc\">ἣ</i> that follows",
     "It is elided",

@@ -22,7 +22,7 @@ ARS.decks["lang.ii.grc/writing"] = {
        "<i lang=\"grc\">ph</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Φιλοσοφία</i> gives “philosophy.”"
+      "explain": "The word <i lang=\"grc\">φιλοσοφία</i> gives “philosophy.”"
      },
      {
       "prompt": "Where is sigma written <i lang=\"grc\">ς</i>?",
@@ -108,7 +108,7 @@ ARS.decks["lang.ii.grc/writing"] = {
        "The end of a paragraph"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ποῦ εἶ;</i> means “where are you?”"
+      "explain": "The sentence <i lang=\"grc\">ποῦ εἶ;</i> means “where are you?”"
      },
      {
       "prompt": "What does the raised dot <i lang=\"grc\">·</i> do?",

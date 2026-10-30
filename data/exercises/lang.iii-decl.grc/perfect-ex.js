@@ -211,7 +211,7 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">κέκλοφα</i> come from?",
-   "explain": "<i lang=\"grc\">Κέκλοφα</i> reduplicates κ and changes the stem vowel to ο: the second perfect of <i lang=\"grc\">κλέπτω</i>.",
+   "explain": "The word <i lang=\"grc\">κέκλοφα</i> reduplicates κ and changes the stem vowel to ο: the second perfect of <i lang=\"grc\">κλέπτω</i>.",
    "options": [
     "<i lang=\"grc\">καλέω</i>, “I call”",
     "<i lang=\"grc\">κλαίω</i>, “I weep”",
@@ -227,7 +227,7 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">κέκτημαι</i> mean?",
-   "explain": "<i lang=\"grc\">Κέκτημαι</i>, “I have acquired,” is used as a present: “I possess.”",
+   "explain": "The word <i lang=\"grc\">κέκτημαι</i>, “I have acquired,” is used as a present: “I possess.”",
    "options": [
     "“I acquired”",
     "“I am acquiring”",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"grc\">λέλεκται</i>?",
-   "explain": "<i lang=\"grc\">Λέλεκται</i>, “it has been said,” is the perfect middle or passive of <i lang=\"grc\">λέγω</i>.",
+   "explain": "The word <i lang=\"grc\">λέλεκται</i>, “it has been said,” is the perfect middle or passive of <i lang=\"grc\">λέγω</i>.",
    "options": [
     "Perfect middle or passive of <i lang=\"grc\">λέγω</i>",
     "Present middle or passive of <i lang=\"grc\">λέγω</i>",
@@ -346,7 +346,7 @@ ARS.exercises["lang.iii-decl.grc/perfect-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which verb has a perfect best translated by an English present?",
-   "explain": "<i lang=\"grc\">Ἕστηκα</i>, “I have taken my stand,” means “I stand.”",
+   "explain": "The word <i lang=\"grc\">ἕστηκα</i>, “I have taken my stand,” means “I stand.”",
    "options": [
     "<i lang=\"grc\">λέλυκα</i>",
     "<i lang=\"grc\">γέγραφα</i>",

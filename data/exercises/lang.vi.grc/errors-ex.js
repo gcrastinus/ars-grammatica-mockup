@@ -16,7 +16,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "A student writing Attic prose writes <i lang=\"grc\">ἡμέρη</i> for “day.” What kind of error is <i lang=\"grc\">ἡμέρη</i>?",
-   "explain": "<i lang=\"grc\">Ἡμέρη</i> is Ionic; Attic keeps <i lang=\"grc\">α</i> after <i lang=\"grc\">ρ</i>. The error is in the one word.",
+   "explain": "The word <i lang=\"grc\">ἡμέρη</i> is Ionic; Attic keeps <i lang=\"grc\">α</i> after <i lang=\"grc\">ρ</i>. The error is in the one word.",
    "options": [
     "A barbarism: Attic has <i lang=\"grc\">ἡμέρα</i>",
     "A solecism of gender",
@@ -64,7 +64,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Choose the Attic prose genitive singular of <i lang=\"grc\">λόγος</i>.",
-   "explain": "<i lang=\"grc\">Λόγοιο</i> is the Homeric genitive; in Attic prose it would be a barbarism.",
+   "explain": "The word <i lang=\"grc\">λόγοιο</i> is the Homeric genitive; in Attic prose it would be a barbarism.",
    "options": [
     "<i lang=\"grc\">λόγοιο</i>",
     "<i lang=\"grc\">λόγῳ</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Choose the aorist of <i lang=\"grc\">ἀποκτείνω</i> (“kill”).",
-   "explain": "<i lang=\"grc\">Ἀπό</i> drops its final vowel before the augment: <i lang=\"grc\">ἀπ-έ-κτεινα</i>.",
+   "explain": "The word <i lang=\"grc\">ἀπό</i> drops its final vowel before the augment: <i lang=\"grc\">ἀπ-έ-κτεινα</i>.",
    "options": [
     "<i lang=\"grc\">ἠπόκτεινα</i>",
     "<i lang=\"grc\">ἀπέκτεινα</i>",
@@ -160,7 +160,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "A student writes <i lang=\"grc\">γίνομαι</i> for “I become” in an Attic prose composition. How would an Atticist judge it?",
-   "explain": "<i lang=\"grc\">Γίνομαι</i> is the form of the common dialect.",
+   "explain": "The word <i lang=\"grc\">γίνομαι</i> is the form of the common dialect.",
    "options": [
     "A barbarism: Attic prose writes <i lang=\"grc\">γίγνομαι</i>",
     "A solecism of person",
@@ -176,7 +176,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error is <i lang=\"grc\">ὁ ῥήτωρ λέγουσι</i>?",
-   "explain": "<i lang=\"grc\">Λέγουσι</i> is a real plural, but the subject is singular.",
+   "explain": "The word <i lang=\"grc\">λέγουσι</i> is a real plural, but the subject is singular.",
    "options": [
     "A barbarism in <i lang=\"grc\">λέγουσι</i>",
     "No error",
@@ -192,7 +192,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "What kind of error is <i lang=\"grc\">τὴν δῶρον</i>?",
-   "explain": "<i lang=\"grc\">Δῶρον</i> is neuter; the article must be <i lang=\"grc\">τό</i>.",
+   "explain": "The word <i lang=\"grc\">δῶρον</i> is neuter; the article must be <i lang=\"grc\">τό</i>.",
    "options": [
     "A barbarism in <i lang=\"grc\">δῶρον</i>",
     "A solecism of number",
@@ -256,7 +256,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Choose the correct phrase for “through the city.”",
-   "explain": "<i lang=\"grc\">Διά</i> meaning “through” takes the genitive, and it is elided only before a vowel.",
+   "explain": "The word <i lang=\"grc\">διά</i> meaning “through” takes the genitive, and it is elided only before a vowel.",
    "options": [
     "<i lang=\"grc\">διὰ τῇ πόλει</i>",
     "<i lang=\"grc\">δι’ τῆς πόλεως</i>",
@@ -272,7 +272,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "A student writes <i lang=\"grc\">πόληος</i> for “of the city” in Attic prose. What is the error?",
-   "explain": "<i lang=\"grc\">Πόληος</i> is the Homeric form; in Attic prose it mixes dialects.",
+   "explain": "The word <i lang=\"grc\">πόληος</i> is the Homeric form; in Attic prose it mixes dialects.",
    "options": [
     "A solecism: the genitive does not fit the noun",
     "A barbarism: the Attic genitive is <i lang=\"grc\">πόλεως</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.vi.grc/errors-ex"] = {
    "section": "vi",
    "type": "mc",
    "prompt": "Choose the imperfect of <i lang=\"grc\">καταγράφω</i> (“write down”).",
-   "explain": "<i lang=\"grc\">Κατά</i> drops its final vowel before the augment.",
+   "explain": "The word <i lang=\"grc\">κατά</i> drops its final vowel before the augment.",
    "options": [
     "<i lang=\"grc\">κατάγραφον</i>",
     "<i lang=\"grc\">ἐκατάγραφον</i>",

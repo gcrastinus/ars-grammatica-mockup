@@ -95,7 +95,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "<em lang=\"grc\">κυν-</em>"
       ],
       "answer": 2,
-      "explain": "<em lang=\"grc\">Ξυνέγραψε</em> for <em lang=\"grc\">συνέγραψε</em>."
+      "explain": "The word <em lang=\"grc\">ξυνέγραψε</em> for <em lang=\"grc\">συνέγραψε</em>."
      },
      {
       "prompt": "What does <em lang=\"grc\">ὡς</em> introduce in <em lang=\"grc\">ὡς ἐπολέμησαν πρὸς ἀλλήλους</em>?",
@@ -179,7 +179,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "<em lang=\"grc\">μέν</em>"
       ],
       "answer": 3,
-      "explain": "<em lang=\"grc\">Μὲν … δέ</em> sets the two members against each other."
+      "explain": "The phrase <em lang=\"grc\">μὲν … δέ</em> sets the two members against each other."
      },
      {
       "prompt": "What is the verb of the famous sentence about the possession for ever?",
@@ -252,7 +252,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "“seldom”"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Ὀλίγου</em> means “almost.”"
+      "explain": "The word <em lang=\"grc\">ὀλίγου</em> means “almost.”"
      },
      {
       "prompt": "What does <em lang=\"grc\">καίτοι</em> do?",
@@ -462,7 +462,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "<em lang=\"grc\">πάντα</em>"
       ],
       "answer": 0,
-      "explain": "<em lang=\"grc\">Ἐφίεμαι</em> takes the genitive."
+      "explain": "The word <em lang=\"grc\">ἐφίεμαι</em> takes the genitive."
      }
     ]
    }
@@ -514,7 +514,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "Before the verb"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Ἀγαθοῦ τινος ἕνεκεν.</em>"
+      "explain": "The sentence <em lang=\"grc\">ἀγαθοῦ τινος ἕνεκεν.</em>"
      },
      {
       "prompt": "What kind of participle is <em lang=\"grc\">συνεστηκυῖαν</em>?",
@@ -639,7 +639,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "It is left out"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Ὦ Κρίτων, ἔφη, …</em>"
+      "explain": "The phrase <em lang=\"grc\">ὦ Κρίτων, ἔφη, …</em>"
      },
      {
       "prompt": "What case is <em lang=\"grc\">ἀλεκτρυόνα</em>?",
@@ -823,7 +823,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "A command"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Ἆρα</em> introduces a question."
+      "explain": "The word <em lang=\"grc\">ἆρα</em> introduces a question."
      },
      {
       "prompt": "What does <em lang=\"grc\">οὐ … ἀλλά</em> set against each other?",
@@ -886,7 +886,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "Future"
       ],
       "answer": 2,
-      "explain": "<em lang=\"grc\">Εἰ</em> with the imperfect states a condition not true at present."
+      "explain": "The word <em lang=\"grc\">εἰ</em> with the imperfect states a condition not true at present."
      },
      {
       "prompt": "What does <em lang=\"grc\">εἰ δὲ μή</em> mean?",
@@ -908,7 +908,7 @@ ARS.decks["lang.ix.grc/prose"] = {
        "“I will keep quiet”"
       ],
       "answer": 0,
-      "explain": "<em lang=\"grc\">Ἄν</em> with the imperfect gives the conclusion of the unreal condition."
+      "explain": "The word <em lang=\"grc\">ἄν</em> with the imperfect gives the conclusion of the unreal condition."
      }
     ]
    }

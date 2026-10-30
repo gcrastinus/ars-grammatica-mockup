@@ -44,7 +44,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“a city with walls”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ἄκρος</i>, “highest,” describes <i lang=\"grc\">πόλις</i>: a determinative compound."
+      "explain": "The word <i lang=\"grc\">ἄκρος</i>, “highest,” describes <i lang=\"grc\">πόλις</i>: a determinative compound."
      }
     ]
    }
@@ -87,7 +87,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "a horse-dealer"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἵππος</i> and <i lang=\"grc\">δρόμος</i> (“course”): a determinative compound."
+      "explain": "The forms <i lang=\"grc\">ἵππος</i> and <i lang=\"grc\">δρόμος</i> (“course”): a determinative compound."
      }
     ]
    }
@@ -119,7 +119,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "That the burning is together"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Κατα-</i> often says that the action is carried through to the end."
+      "explain": "The prefix <i lang=\"grc\">κατα-</i> often says that the action is carried through to the end."
      },
      {
       "prompt": "What does <i lang=\"grc\">ἀποδίδωμι</i> mean?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“I give before”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ἀπο-</i>, “back,” with <i lang=\"grc\">δίδωμι</i>, “I give.”"
+      "explain": "The prefix <i lang=\"grc\">ἀπο-</i>, “back,” with <i lang=\"grc\">δίδωμι</i>, “I give.”"
      }
     ]
    }
@@ -151,7 +151,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“alone” and “arch”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Μόνος</i>, “alone,” and <i lang=\"grc\">ἀρχή</i>, “rule.”"
+      "explain": "The words <i lang=\"grc\">μόνος</i>, “alone,” and <i lang=\"grc\">ἀρχή</i>, “rule.”"
      },
      {
       "prompt": "What does “rhinoceros” mean literally?",
@@ -162,7 +162,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“nose-horn”"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ῥίς</i>, “nose,” and <i lang=\"grc\">κέρας</i>, “horn.”"
+      "explain": "The words <i lang=\"grc\">ῥίς</i>, “nose,” and <i lang=\"grc\">κέρας</i>, “horn.”"
      },
      {
       "prompt": "What does “orthodox” mean literally?",
@@ -173,7 +173,7 @@ ARS.decks["lang.iv.grc/composition"] = {
        "“old teaching”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ὀρθός</i>, “right,” and <i lang=\"grc\">δόξα</i>, “opinion.”"
+      "explain": "The words <i lang=\"grc\">ὀρθός</i>, “right,” and <i lang=\"grc\">δόξα</i>, “opinion.”"
      }
     ]
    }

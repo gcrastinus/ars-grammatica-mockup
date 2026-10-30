@@ -22,7 +22,7 @@ ARS.decks["lang.v.grc/order"] = {
        "<i lang=\"grc\">τόν</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Μήτηρ</i> is nominative; <i lang=\"grc\">ἀδελφόν</i> is accusative, the object, though it stands first."
+      "explain": "The word <i lang=\"grc\">μήτηρ</i> is nominative; <i lang=\"grc\">ἀδελφόν</i> is accusative, the object, though it stands first."
      },
      {
       "prompt": "Which case does <i lang=\"grc\">ἄρχω</i> (“rule”) govern?",
@@ -87,7 +87,7 @@ ARS.decks["lang.v.grc/order"] = {
        "Usually second"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Γάρ</i> is postpositive: it never stands first."
+      "explain": "The word <i lang=\"grc\">γάρ</i> is postpositive: it never stands first."
      }
     ]
    }
@@ -108,7 +108,7 @@ ARS.decks["lang.v.grc/order"] = {
        "on no word"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Μέγαν</i> is masculine, singular, and accusative, as <i lang=\"grc\">ἵππον</i> is."
+      "explain": "The word <i lang=\"grc\">μέγαν</i> is masculine, singular, and accusative, as <i lang=\"grc\">ἵππον</i> is."
      },
      {
       "prompt": "What shows the dependences in a Greek sentence?",

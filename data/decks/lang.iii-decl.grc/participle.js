@@ -33,7 +33,7 @@ ARS.decks["lang.iii-decl.grc/participle"] = {
        "“having loosed”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Λυθείς</i> is the aorist passive participle."
+      "explain": "The word <i lang=\"grc\">λυθείς</i> is the aorist passive participle."
      },
      {
       "prompt": "Which form is the feminine of <i lang=\"grc\">ὤν</i>?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-decl.grc/participle"] = {
        "A genitive absolute"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Τυγχάνω</i> takes a supplementary participle: “we happen to be.”"
+      "explain": "The word <i lang=\"grc\">τυγχάνω</i> takes a supplementary participle: “we happen to be.”"
      }
     ]
    }

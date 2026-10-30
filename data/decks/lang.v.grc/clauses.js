@@ -33,7 +33,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "A temporal clause: “when they had won”"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ἐπεί</i> introduces a temporal clause."
+      "explain": "The word <i lang=\"grc\">ἐπεί</i> introduces a temporal clause."
      },
      {
       "prompt": "Which negative goes with a causal clause in the indicative?",
@@ -65,7 +65,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "Simple past"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ἐάν</i> with the subjunctive and a future in the main clause is future more vivid."
+      "explain": "The word <i lang=\"grc\">ἐάν</i> with the subjunctive and a future in the main clause is future more vivid."
      },
      {
       "prompt": "What does <i lang=\"grc\">ἄν</i> with the aorist indicative mark in a main clause?",
@@ -108,7 +108,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "<i lang=\"grc\">νικῴη</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Νομίζω</i> takes the infinitive with its subject in the accusative."
+      "explain": "The word <i lang=\"grc\">νομίζω</i> takes the infinitive with its subject in the accusative."
      },
      {
       "prompt": "In <i lang=\"grc\">φησὶ πλούσιος εἶναι</i>, why is <i lang=\"grc\">πλούσιος</i> nominative?",
@@ -194,7 +194,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "The infinitive"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>, and <i lang=\"grc\">ἄν</i> in a temporal clause goes with the subjunctive."
+      "explain": "The word <i lang=\"grc\">ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>, and <i lang=\"grc\">ἄν</i> in a temporal clause goes with the subjunctive."
      },
      {
       "prompt": "What does <i lang=\"grc\">πρίν</i> with the infinitive mean after an affirmative main clause?",
@@ -237,7 +237,7 @@ ARS.decks["lang.v.grc/clauses"] = {
        "A wish"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Πότερον … ἤ</i> asks which of two things is true."
+      "explain": "The phrase <i lang=\"grc\">πότερον … ἤ</i> asks which of two things is true."
      },
      {
       "prompt": "Which Latin word answers to <i lang=\"grc\">πότερον</i>?",

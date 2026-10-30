@@ -33,7 +33,7 @@ ARS.decks["lang.ii.grc/meter"] = {
        "Change the accent"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Πρ</em>, <em lang=\"grc\">κλ</em> may fail to make position."
+      "explain": "The clusters <em lang=\"grc\">πρ</em>, <em lang=\"grc\">κλ</em> may fail to make position."
      },
      {
       "prompt": "What do the written accents mark?",

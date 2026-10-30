@@ -76,7 +76,7 @@ ARS.decks["lang.iv.grc/etymology"] = {
        "“erg”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἔργον</i> was earlier <i lang=\"grc\">ϝέργον</i>; “energy,” “organ,” and “erg” are borrowings."
+      "explain": "The word <i lang=\"grc\">ἔργον</i> was earlier <i lang=\"grc\">ϝέργον</i>; “energy,” “organ,” and “erg” are borrowings."
      },
      {
       "prompt": "What was the digamma?",

@@ -33,7 +33,7 @@ ARS.decks["lang.ii.grc/hexameter"] = {
        "Its vowel <i lang=\"grc\">ω</i> is long"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ω</i> is long by nature."
+      "explain": "The letter <i lang=\"grc\">ω</i> is long by nature."
      },
      {
       "prompt": "How many syllables has the sixth foot?",

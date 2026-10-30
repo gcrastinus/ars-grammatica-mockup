@@ -22,7 +22,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "<i lang=\"grc\">σοί</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ὑμῖν</i> is the dative plural of the second person; <i lang=\"grc\">ἡμῖν</i> is the first person, and <i lang=\"grc\">ὑμᾶς</i> the accusative."
+      "explain": "The word <i lang=\"grc\">ὑμῖν</i> is the dative plural of the second person; <i lang=\"grc\">ἡμῖν</i> is the first person, and <i lang=\"grc\">ὑμᾶς</i> the accusative."
      },
      {
       "prompt": "When is <i lang=\"grc\">με</i> used rather than <i lang=\"grc\">ἐμέ</i>?",
@@ -33,7 +33,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "When it is the subject"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Με</i> is the enclitic form, used without emphasis; <i lang=\"grc\">ἐμέ</i> is the emphatic form, used also after prepositions."
+      "explain": "The word <i lang=\"grc\">με</i> is the enclitic form, used without emphasis; <i lang=\"grc\">ἐμέ</i> is the emphatic form, used also after prepositions."
      },
      {
       "prompt": "How does Attic prose say “I saw him”?",
@@ -65,7 +65,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "“this woman”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Αὐτός</i> between the article and the noun, in the attributive position, means “the same.”"
+      "explain": "The word <i lang=\"grc\">αὐτός</i> between the article and the noun, in the attributive position, means “the same.”"
      },
      {
       "prompt": "What does <i lang=\"grc\">αὐτὸς ὁ βασιλεύς</i> mean?",
@@ -76,7 +76,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "“that king”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Αὐτός</i> outside the article and noun, in the predicate position, is intensive: “the king himself.”"
+      "explain": "The word <i lang=\"grc\">αὐτός</i> outside the article and noun, in the predicate position, is intensive: “the king himself.”"
      },
      {
       "prompt": "In <i lang=\"grc\">ὁρῶμεν αὐτήν</i>, what does <i lang=\"grc\">αὐτήν</i> mean?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "<i lang=\"grc\">αὐτός</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ὅδε</i> points to what is present or is about to be said; <i lang=\"grc\">οὗτος</i> usually to what has just been said."
+      "explain": "The word <i lang=\"grc\">ὅδε</i> points to what is present or is about to be said; <i lang=\"grc\">οὗτος</i> usually to what has just been said."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.iii-decl.grc/pronouns"] = {
        "The relative is always dative after a plural"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ἔχομεν</i> would take the accusative <i lang=\"grc\">οὕς</i>; the relative takes the dative of its antecedent <i lang=\"grc\">ἵπποις</i> by attraction."
+      "explain": "The word <i lang=\"grc\">ἔχομεν</i> would take the accusative <i lang=\"grc\">οὕς</i>; the relative takes the dative of its antecedent <i lang=\"grc\">ἵπποις</i> by attraction."
      },
      {
       "prompt": "How does the relative <i lang=\"grc\">ἥ</i> differ in writing from the article <i lang=\"grc\">ἡ</i>?",

@@ -112,7 +112,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ἐν τῇ πόλει ______</i> (“I am in the city”).",
-   "explain": "The subject is “I,” and <i lang=\"grc\">εἰμί</i> is the first person singular, so the pronoun is not written (Smyth §929, §768). <i lang=\"grc\">ἐστί</i> is the third person, and <i lang=\"grc\">ἐσμέν</i> is the first person plural. After <i lang=\"grc\">πόλει</i>, which has the acute on the penult, the two-syllable form keeps its accent (Smyth §183 d).",
+   "explain": "The subject is “I,” and <i lang=\"grc\">εἰμί</i> is the first person singular, so the pronoun is not written (Smyth §929, §768). <i lang=\"grc\">ἐστί</i> is the third person, and <i lang=\"grc\">ἐσμέν</i> is the first person plural.",
    "options": [
     "<i lang=\"grc\">εἰμί</i>",
     "<i lang=\"grc\">ἐστί</i>",
@@ -400,7 +400,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ τοῦ ______ ἵππος ἀγαθός ἐστι</i> (“The king’s horse is good”).",
-   "explain": "The horse belongs to the king, so <i lang=\"grc\">βασιλεύς</i> is genitive and stands between <i lang=\"grc\">ὁ</i> and <i lang=\"grc\">ἵππος</i>, and <i lang=\"grc\">τοῦ</i> agrees with that genitive (Smyth §1297, §1154). <i lang=\"grc\">βασιλεῖ</i> is dative, and <i lang=\"grc\">βασιλέᾱ</i> is accusative. After the oxytone <i lang=\"grc\">ἀγαθός, ἐστι</i> has no accent (Smyth §183 a).",
+   "explain": "The horse belongs to the king, so <i lang=\"grc\">βασιλεύς</i> is genitive and stands between <i lang=\"grc\">ὁ</i> and <i lang=\"grc\">ἵππος</i>, and <i lang=\"grc\">τοῦ</i> agrees with that genitive (Smyth §1297, §1154). <i lang=\"grc\">βασιλεῖ</i> is dative, and <i lang=\"grc\">βασιλέᾱ</i> is accusative.",
    "options": [
     "<i lang=\"grc\">βασιλέως</i>",
     "<i lang=\"grc\">βασιλεῖ</i>",
@@ -704,7 +704,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ φύλαξ ἐν τῇ ______ ἐστι</i> (“The watchman is on the road”).",
-   "explain": "Place where is <i lang=\"grc\">ἐν</i> with the dative, and <i lang=\"grc\">τῇ</i> agrees with <i lang=\"grc\">ὁδῷ</i> (Smyth §1687). <i lang=\"grc\">ὁδόν</i> is accusative, and <i lang=\"grc\">ὁδέ</i> is the vocative. <i lang=\"grc\">ὁδῷ</i> has a circumflex, so <i lang=\"grc\">ἐστι</i> has no accent, and the oxytone <i lang=\"grc\">ὁδέ</i> keeps its acute before that enclitic (Smyth §183 a, §183 b).",
+   "explain": "Place where is <i lang=\"grc\">ἐν</i> with the dative, and <i lang=\"grc\">τῇ</i> agrees with <i lang=\"grc\">ὁδῷ</i> (Smyth §1687). <i lang=\"grc\">ὁδόν</i> is accusative, and <i lang=\"grc\">ὁδέ</i> is the vocative.",
    "options": [
     "<i lang=\"grc\">ὁδῷ</i>",
     "<i lang=\"grc\">ὁδόν</i>",
@@ -752,7 +752,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ ἄνθρωπος ἐν τῇ ______ ἐστί</i> (“The man is in the land”).",
-   "explain": "Place where is <i lang=\"grc\">ἐν</i> with the dative, and <i lang=\"grc\">τῇ</i> agrees with <i lang=\"grc\">χώρᾳ</i> (Smyth §1687). <i lang=\"grc\">χώρᾱν</i> is accusative, and <i lang=\"grc\">χώρᾱς</i> is genitive. <i lang=\"grc\">χώρᾳ</i> has the acute on the penult, so the two-syllable <i lang=\"grc\">ἐστί</i> keeps its accent (Smyth §183 d).",
+   "explain": "Place where is <i lang=\"grc\">ἐν</i> with the dative, and <i lang=\"grc\">τῇ</i> agrees with <i lang=\"grc\">χώρᾳ</i> (Smyth §1687). <i lang=\"grc\">χώρᾱν</i> is accusative, and <i lang=\"grc\">χώρᾱς</i> is genitive.",
    "options": [
     "<i lang=\"grc\">χώρᾳ</i>",
     "<i lang=\"grc\">χώρᾱν</i>",
@@ -784,7 +784,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which phrase is correct for “we hear the general”?",
-   "explain": "<i lang=\"grc\">Ἀκούω</i> takes the genitive of the person heard.",
+   "explain": "The word <i lang=\"grc\">ἀκούω</i> takes the genitive of the person heard.",
    "options": [
     "<i lang=\"grc\">ἀκούομεν τὸν στρατηγόν</i>",
     "<i lang=\"grc\">ἀκούομεν τῷ στρατηγῷ</i>",
@@ -800,7 +800,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which phrase is correct for “they help the citizens”?",
-   "explain": "<i lang=\"grc\">Βοηθέω</i> (“help”) governs the dative.",
+   "explain": "The word <i lang=\"grc\">βοηθέω</i> (“help”) governs the dative.",
    "options": [
     "<i lang=\"grc\">βοηθοῦσι τοῖς πολίταις</i>",
     "<i lang=\"grc\">βοηθοῦσι τοὺς πολίτας</i>",
@@ -816,7 +816,7 @@ ARS.exercises["lang.v.grc/more-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which phrase is correct for “worthy of praise”?",
-   "explain": "<i lang=\"grc\">Ἄξιος</i> governs the genitive.",
+   "explain": "The word <i lang=\"grc\">ἄξιος</i> governs the genitive.",
    "options": [
     "<i lang=\"grc\">ἄξιος ἔπαινον</i>",
     "<i lang=\"grc\">ἄξιος ἐπαίνῳ</i>",

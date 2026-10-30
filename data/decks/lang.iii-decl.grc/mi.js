@@ -44,7 +44,7 @@ ARS.decks["lang.iii-decl.grc/mi"] = {
        "In the singular of the present active"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Τίθημι</i>, <i lang=\"grc\">τίθης</i>, <i lang=\"grc\">τίθησι</i> have the long <i lang=\"grc\">η</i>, but <i lang=\"grc\">τίθεμεν</i>, <i lang=\"grc\">τίθετε</i> the short <i lang=\"grc\">ε</i>."
+      "explain": "The words <i lang=\"grc\">τίθημι</i>, <i lang=\"grc\">τίθης</i>, <i lang=\"grc\">τίθησι</i> have the long <i lang=\"grc\">η</i>, but <i lang=\"grc\">τίθεμεν</i>, <i lang=\"grc\">τίθετε</i> the short <i lang=\"grc\">ε</i>."
      }
     ]
    }
@@ -119,7 +119,7 @@ ARS.decks["lang.iii-decl.grc/mi"] = {
        "“he will stand”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἔστην</i>, the second aorist of <i lang=\"grc\">ἵστημι</i>, is intransitive: “I stood.” “He set up” is <i lang=\"grc\">ἔστησε</i>."
+      "explain": "The word <i lang=\"grc\">ἔστην</i>, the second aorist of <i lang=\"grc\">ἵστημι</i>, is intransitive: “I stood.” “He set up” is <i lang=\"grc\">ἔστησε</i>."
      },
      {
       "prompt": "What is the aorist infinitive of <i lang=\"grc\">τίθημι</i>?",
@@ -151,7 +151,7 @@ ARS.decks["lang.iii-decl.grc/mi"] = {
        "“they were going”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἴᾱσι</i> is the third person plural of <i lang=\"grc\">εἶμι</i>, which serves in Attic as a future, “they will go.” “They are” is <i lang=\"grc\">εἰσί</i>."
+      "explain": "The word <i lang=\"grc\">ἴᾱσι</i> is the third person plural of <i lang=\"grc\">εἶμι</i>, which serves in Attic as a future, “they will go.” “They are” is <i lang=\"grc\">εἰσί</i>."
      },
      {
       "prompt": "How do <i lang=\"grc\">εἶμι</i> and <i lang=\"grc\">εἰμί</i> differ in writing?",
@@ -173,7 +173,7 @@ ARS.decks["lang.iii-decl.grc/mi"] = {
        "“he was”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ἔφη</i> is the imperfect of <i lang=\"grc\">φημί</i>, used for “he said,” often inside a quotation."
+      "explain": "The word <i lang=\"grc\">ἔφη</i> is the imperfect of <i lang=\"grc\">φημί</i>, used for “he said,” often inside a quotation."
      }
     ]
    }

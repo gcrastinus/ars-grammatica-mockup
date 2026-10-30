@@ -32,7 +32,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Latin word is the cognate of <i lang=\"grc\">δύο</i> (“two”)?",
-   "explain": "<i lang=\"grc\">Δύο</i>, <i lang=\"grc\">duo</i>, and “two” are one word in three languages.",
+   "explain": "The words <i lang=\"grc\">δύο</i>, <i lang=\"grc\">duo</i>, and “two” are one word in three languages.",
    "options": [
     "<i lang=\"grc\">dux</i>",
     "<i lang=\"grc\">dōnum</i>",
@@ -80,7 +80,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What did <i lang=\"grc\">ἀθλητής</i> first mean?",
-   "explain": "<i lang=\"grc\">Ἀθλητής</i> is from <i lang=\"grc\">ἆθλον</i> (“prize”): one who contends for a prize.",
+   "explain": "The word <i lang=\"grc\">ἀθλητής</i> is from <i lang=\"grc\">ἆθλον</i> (“prize”): one who contends for a prize.",
    "options": [
     "a strong man",
     "a soldier in training",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What did <i lang=\"grc\">κωμῳδία</i> first name?",
-   "explain": "<i lang=\"grc\">Κωμῳδία</i> joins <i lang=\"grc\">κῶμος</i> (“revel”) and <i lang=\"grc\">ᾠδή</i> (“song”).",
+   "explain": "The word <i lang=\"grc\">κωμῳδία</i> joins <i lang=\"grc\">κῶμος</i> (“revel”) and <i lang=\"grc\">ᾠδή</i> (“song”).",
    "options": [
     "a funny speech",
     "a play about kings",
@@ -224,7 +224,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Latin word is the cognate of <i lang=\"grc\">ἀγρός</i> (“field”)?",
-   "explain": "<i lang=\"grc\">Ἀγρός</i>, <i lang=\"grc\">ager</i>, and English “acre” are one word.",
+   "explain": "The words <i lang=\"grc\">ἀγρός</i>, <i lang=\"grc\">ager</i>, and English “acre” are one word.",
    "options": [
     "<i lang=\"grc\">agō</i>",
     "<i lang=\"grc\">ager</i>",
@@ -240,7 +240,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does the history of “idiot” show?",
-   "explain": "<i lang=\"grc\">Ἰδιώτης</i> was a private person before it was a fool.",
+   "explain": "The word <i lang=\"grc\">ἰδιώτης</i> was a private person before it was a fool.",
    "options": [
     "A word always keeps its first meaning",
     "“Idiot” is a native English word",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which Greek word is the cognate of Latin <i lang=\"grc\">nox</i> (“night”)?",
-   "explain": "<i lang=\"grc\">Νύξ</i>, Latin <i lang=\"grc\">nox</i>, <i lang=\"grc\">noctis</i>, and English “night” are one word.",
+   "explain": "The word <i lang=\"grc\">νύξ</i>, Latin <i lang=\"grc\">nox</i>, <i lang=\"grc\">noctis</i>, and English “night” are one word.",
    "options": [
     "<i lang=\"grc\">νόος</i>",
     "<i lang=\"grc\">νόσος</i>",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iv.grc/etymology-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “semaphore” mean, read from its parts?",
-   "explain": "<i lang=\"grc\">Σῆμα</i>, “sign,” and <i lang=\"grc\">-φόρος</i>, “bearing.”",
+   "explain": "The words <i lang=\"grc\">σῆμα</i>, “sign,” and <i lang=\"grc\">-φόρος</i>, “bearing.”",
    "options": [
     "“half-carrier”",
     "“signal light”",

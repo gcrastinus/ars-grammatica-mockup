@@ -65,7 +65,7 @@ ARS.decks["lang.v.grc/government"] = {
        "<i lang=\"grc\">πείθονται ὁ στρατηγός</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Πείθομαι</i> (“obey”) governs the dative."
+      "explain": "The word <i lang=\"grc\">πείθομαι</i> (“obey”) governs the dative."
      },
      {
       "prompt": "What case does <i lang=\"grc\">ἐπιθυμέω</i> (“desire”) govern?",
@@ -130,7 +130,7 @@ ARS.decks["lang.v.grc/government"] = {
        "The ablative"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ἄξιος</i> takes the genitive of that of which one is worthy."
+      "explain": "The word <i lang=\"grc\">ἄξιος</i> takes the genitive of that of which one is worthy."
      }
     ]
    }

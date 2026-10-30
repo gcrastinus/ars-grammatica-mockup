@@ -22,7 +22,7 @@ ARS.decks["lang.v.grc/agreement"] = {
        "<i lang=\"grc\">τὸ μικρὸν νῆσος</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Νῆσος</i> is feminine, so the article and the adjective are feminine, though the noun ends in <i lang=\"grc\">-ος</i>."
+      "explain": "The word <i lang=\"grc\">νῆσος</i> is feminine, so the article and the adjective are feminine, though the noun ends in <i lang=\"grc\">-ος</i>."
      },
      {
       "prompt": "Why is <i lang=\"grc\">ἄδικος γυνή</i> (“an unjust woman”) correct?",
@@ -33,7 +33,7 @@ ARS.decks["lang.v.grc/agreement"] = {
        "<i lang=\"grc\">Ἄδικος</i> has one form for the masculine and feminine"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ἄδικος</i> is an adjective of two endings, so its feminine is the same as its masculine."
+      "explain": "The word <i lang=\"grc\">ἄδικος</i> is an adjective of two endings, so its feminine is the same as its masculine."
      },
      {
       "prompt": "In which accidents does a Greek adjective agree with its noun?",
@@ -65,7 +65,7 @@ ARS.decks["lang.v.grc/agreement"] = {
        "<i lang=\"grc\">τὰ παιδία παίζομεν</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Παιδία</i> is a neuter plural, and a neuter plural subject usually takes a singular verb."
+      "explain": "The word <i lang=\"grc\">παιδία</i> is a neuter plural, and a neuter plural subject usually takes a singular verb."
      },
      {
       "prompt": "Why does <i lang=\"grc\">γράφετε</i> need no subject pronoun?",
@@ -151,7 +151,7 @@ ARS.decks["lang.v.grc/agreement"] = {
        "Complete, because the subject is plural"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ναῦται</i> is a masculine plural, so it needs a plural verb; the parts do not fit."
+      "explain": "The word <i lang=\"grc\">ναῦται</i> is a masculine plural, so it needs a plural verb; the parts do not fit."
      },
      {
       "prompt": "How does <i lang=\"grc\">ἀγαθὸς ὁ στρατηγός</i> stand?",

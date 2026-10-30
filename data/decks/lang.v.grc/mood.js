@@ -65,7 +65,7 @@ ARS.decks["lang.v.grc/mood"] = {
        "A question: “are you not fleeing?”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Μή</i> with the aorist subjunctive expresses a prohibition."
+      "explain": "The word <i lang=\"grc\">μή</i> with the aorist subjunctive expresses a prohibition."
      },
      {
       "prompt": "What does <i lang=\"grc\">λέγοιμι ἄν</i> mean?",
@@ -173,7 +173,7 @@ ARS.decks["lang.v.grc/mood"] = {
        "<i lang=\"grc\">οὕτω</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Οὕτω</i> (“so”) prepares a clause of result with <i lang=\"grc\">ὥστε</i>."
+      "explain": "The word <i lang=\"grc\">οὕτω</i> (“so”) prepares a clause of result with <i lang=\"grc\">ὥστε</i>."
      }
     ]
    }

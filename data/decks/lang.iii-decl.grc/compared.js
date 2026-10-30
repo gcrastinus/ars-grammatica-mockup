@@ -130,7 +130,7 @@ ARS.decks["lang.iii-decl.grc/compared"] = {
        "It always follows the noun"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Der alte Turm</i>, <i lang=\"grc\">ein alter Turm</i>: the German adjective changes its ending with the article."
+      "explain": "The phrase <i lang=\"grc\">der alte Turm</i>, <i lang=\"grc\">ein alter Turm</i>: the German adjective changes its ending with the article."
      }
     ]
    }

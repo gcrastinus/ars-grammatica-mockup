@@ -32,7 +32,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What part of speech is the marked word? <i lang=\"grc\">ὁ βασιλεὺς <b>κακῶς</b> ἄρχει τῶν ἀνθρώπων</i> (“The king rules the men badly”)",
-   "explain": "<i lang=\"grc\">Κακῶς</i> (“badly”) tells how he rules.",
+   "explain": "The word <i lang=\"grc\">κακῶς</i> (“badly”) tells how he rules.",
    "options": [
     "adverb",
     "preposition",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which negative goes with a statement of fact in the indicative?",
-   "explain": "<i lang=\"grc\">Οὐ</i> denies a fact.",
+   "explain": "The word <i lang=\"grc\">οὐ</i> denies a fact.",
    "options": [
     "<i lang=\"grc\">μή</i>",
     "<i lang=\"grc\">μηδέ</i>",
@@ -224,7 +224,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Where does <i lang=\"grc\">οὖν</i> stand?",
-   "explain": "<i lang=\"grc\">Οὖν</i> is postpositive.",
+   "explain": "The word <i lang=\"grc\">οὖν</i> is postpositive.",
    "options": [
     "Usually second in its clause",
     "Always first",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">λέγοι ἄν τις</i> mean?",
-   "explain": "<i lang=\"grc\">Ἄν</i> with the optative says what would or might happen.",
+   "explain": "The word <i lang=\"grc\">ἄν</i> with the optative says what would or might happen.",
    "options": [
     "“someone said”",
     "“may someone say”",
@@ -272,7 +272,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἐγώ γε</i> mean?",
-   "explain": "<i lang=\"grc\">Γε</i> limits or emphasizes: “I at any rate.”",
+   "explain": "The word <i lang=\"grc\">γε</i> limits or emphasizes: “I at any rate.”",
    "options": [
     "“and I”",
     "“not I”",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What answer does <i lang=\"grc\">ἆρα μή</i> expect?",
-   "explain": "<i lang=\"grc\">Ἆρα μή</i>, like <i lang=\"grc\">μή</i> and Latin <i lang=\"grc\">num</i>, expects “no.”",
+   "explain": "The phrase <i lang=\"grc\">ἆρα μή</i>, like <i lang=\"grc\">μή</i> and Latin <i lang=\"grc\">num</i>, expects “no.”",
    "options": [
     "“No”",
     "“Yes”",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἦλθεν ἄν</i> express?",
-   "explain": "<i lang=\"grc\">Ἄν</i> with a past tense of the indicative marks what is unreal: “he would have come.”",
+   "explain": "The word <i lang=\"grc\">ἄν</i> with a past tense of the indicative marks what is unreal: “he would have come.”",
    "options": [
     "What happened in fact",
     "What would have happened, but did not",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">οὐ φεύγει ἀλλὰ μάχεται</i> mean?",
-   "explain": "<i lang=\"grc\">Ἀλλά</i> after a negative marks a strong contrast.",
+   "explain": "The word <i lang=\"grc\">ἀλλά</i> after a negative marks a strong contrast.",
    "options": [
     "“He flees and fights.”",
     "“He does not flee but fights.”",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.grc/parts-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"grc\">δι’</i> in <i lang=\"grc\">δι’ ὀλίγου</i>?",
-   "explain": "<i lang=\"grc\">Διά</i> drops its <i lang=\"grc\">α</i> before the vowel of <i lang=\"grc\">ὀλίγου</i>.",
+   "explain": "The word <i lang=\"grc\">διά</i> drops its <i lang=\"grc\">α</i> before the vowel of <i lang=\"grc\">ὀλίγου</i>.",
    "options": [
     "<i lang=\"grc\">διά</i>, elided before a vowel",
     "<i lang=\"grc\">δέ</i>, elided",

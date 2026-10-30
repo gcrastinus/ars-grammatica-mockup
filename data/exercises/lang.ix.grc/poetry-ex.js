@@ -169,7 +169,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ὦ τέκνα</em> is…",
-   "explain": "<em lang=\"grc\">Ὦ</em> marks the address.",
+   "explain": "The word <em lang=\"grc\">ὦ</em> marks the address.",
    "options": [
     "Vocative: the children addressed",
     "Nominative subject",
@@ -271,7 +271,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ὅντε διὰ</em></p> In <em lang=\"grc\">ὅντε διά</em>, the preposition…",
-   "explain": "<em lang=\"grc\">Διά</em> with the accusative <em lang=\"grc\">ὅν</em>: on account of whom.",
+   "explain": "The word <em lang=\"grc\">διά</em> with the accusative <em lang=\"grc\">ὅν</em>: on account of whom.",
    "options": [
     "Follows its object: as often in poetry",
     "Governs the genitive",
@@ -390,7 +390,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">χαῖρε</em> is…",
-   "explain": "<em lang=\"grc\">Χαῖρε</em> is the present imperative of <em lang=\"grc\">χαίρω</em>, “hail.” The acute on the last syllable comes from the enclitic <em lang=\"grc\">μοι</em>.",
+   "explain": "The word <em lang=\"grc\">χαῖρε</em> is the present imperative of <em lang=\"grc\">χαίρω</em>, “hail.” The acute on the last syllable comes from the enclitic <em lang=\"grc\">μοι</em>.",
    "options": [
     "A deponent, middle in form, meaning “I greet”",
     "A present imperative",
@@ -407,7 +407,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἅ</em> in <em lang=\"grc\">ἃ ναίεις</em> is…",
-   "explain": "<em lang=\"grc\">Ἅ</em> is the feminine relative, and it takes up <em lang=\"grc\">Ῥώμα</em>. Its verb is <em lang=\"grc\">ναίεις</em>, “you dwell.”",
+   "explain": "The word <em lang=\"grc\">ἅ</em> is the feminine relative, and it takes up <em lang=\"grc\">Ῥώμα</em>. Its verb is <em lang=\"grc\">ναίεις</em>, “you dwell.”",
    "options": [
     "The Doric article, the feminine of <em lang=\"grc\">ὁ</em>, standing before the verb",
     "An adverb of place",
@@ -424,7 +424,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">Ἄρηος</em> is…",
-   "explain": "<em lang=\"grc\">Ἄρηος</em>, “of Ares,” is genitive and depends on <em lang=\"grc\">θυγάτηρ</em>, “daughter.”",
+   "explain": "The word <em lang=\"grc\">Ἄρηος</em>, “of Ares,” is genitive and depends on <em lang=\"grc\">θυγάτηρ</em>, “daughter.”",
    "options": [
     "A genitive",
     "A vocative of <em lang=\"grc\">Ἄρης</em>, addressed together with Rome",
@@ -441,7 +441,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">Ὄλυμπον</em> is…",
-   "explain": "<em lang=\"grc\">Ὄλυμπον</em> is accusative, the object of <em lang=\"grc\">ναίεις</em>, “you dwell.” <em lang=\"grc\">Σεμνὸν</em> and <em lang=\"grc\">ἄθραυστον</em> agree with it.",
+   "explain": "The word <em lang=\"grc\">Ὄλυμπον</em> is accusative, the object of <em lang=\"grc\">ναίεις</em>, “you dwell.” <em lang=\"grc\">Σεμνὸν</em> and <em lang=\"grc\">ἄθραυστον</em> agree with it.",
    "options": [
     "A vocative, another name of Rome",
     "The subject of <em lang=\"grc\">ναίεις</em>",
@@ -475,7 +475,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">σκάφος</em></p> The subject of <em lang=\"grc\">διαπτάσθαι</em> is…",
-   "explain": "<em lang=\"grc\">Ἀργοῦς</em> is genitive, the Argo’s hull; <em lang=\"grc\">σκάφος</em> flies through.",
+   "explain": "The word <em lang=\"grc\">Ἀργοῦς</em> is genitive, the Argo’s hull; <em lang=\"grc\">σκάφος</em> flies through.",
    "options": [
     "<em lang=\"grc\">σκάφος</em>",
     "<em lang=\"grc\">Ἀργοῦς</em>",
@@ -543,7 +543,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">τῶνδε … πόνων</em> is…",
-   "explain": "<em lang=\"grc\">Ἀπαλλαγή</em>, release, takes what one is released from in the genitive.",
+   "explain": "The word <em lang=\"grc\">ἀπαλλαγή</em>, release, takes what one is released from in the genitive.",
    "options": [
     "Genitive of separation: from these toils",
     "Genitive of possession",
@@ -628,7 +628,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἐμνήσθην</em> is…",
-   "explain": "<em lang=\"grc\">Μιμνῄσκομαι</em> uses the passive aorist for “I remembered.”",
+   "explain": "The word <em lang=\"grc\">μιμνῄσκομαι</em> uses the passive aorist for “I remembered.”",
    "options": [
     "An aorist passive form",
     "I was reminded by someone",
@@ -662,7 +662,7 @@ ARS.exercises["lang.ix.grc/poetry-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">μὲν</em></p> The two lines are set against each other by…",
-   "explain": "<em lang=\"grc\">Μέν</em> in the first line and <em lang=\"grc\">δέ</em> in the second balance before and now.",
+   "explain": "The word <em lang=\"grc\">μέν</em> in the first line and <em lang=\"grc\">δέ</em> in the second balance before and now.",
    "options": [
     "<em lang=\"grc\">μέν … δέ</em>",
     "<em lang=\"grc\">πρίν … νῦν</em> only",

@@ -33,7 +33,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ὡς μήτε</em></p> <em lang=\"grc\">ὡς … γένηται</em> is…",
-   "explain": "<em lang=\"grc\">Ὡς</em> with the subjunctive and the negative <em lang=\"grc\">μή</em> gives the purpose of the setting forth.",
+   "explain": "The word <em lang=\"grc\">ὡς</em> with the subjunctive and the negative <em lang=\"grc\">μή</em> gives the purpose of the setting forth.",
    "options": [
     "A purpose clause",
     "A result clause with the indicative",
@@ -50,7 +50,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">τὰ μὲν Ἕλλησι τὰ δὲ βαρβάροισι</em></p> <em lang=\"grc\">τὰ μὲν … τὰ δέ</em> does what?",
-   "explain": "<em lang=\"grc\">Μέν</em> and <em lang=\"grc\">δέ</em> set the two halves against each other: some by Greeks, others by barbarians.",
+   "explain": "The forms <em lang=\"grc\">μέν</em> and <em lang=\"grc\">δέ</em> set the two halves against each other: some by Greeks, others by barbarians.",
    "options": [
     "Divides the works into two groups: some … others",
     "Joins two verbs",
@@ -101,7 +101,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ξυνέγραψε</em></p> What is the main verb?",
-   "explain": "<em lang=\"grc\">Ἐπολέμησαν</em> belongs to a subordinate clause, and the others are a participle and an infinitive.",
+   "explain": "The word <em lang=\"grc\">ἐπολέμησαν</em> belongs to a subordinate clause, and the others are a participle and an infinitive.",
    "options": [
     "<em lang=\"grc\">ξυνέγραψε</em>, “wrote up”",
     "<em lang=\"grc\">ἐπολέμησαν</em>",
@@ -220,7 +220,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ὅσοι δὲ βουλήσονται</em></p> <em lang=\"grc\">ὅσοι … βουλήσονται</em> is…",
-   "explain": "<em lang=\"grc\">Ὅσοι</em>, “as many as,” names those for whom the work will be useful.",
+   "explain": "The word <em lang=\"grc\">ὅσοι</em>, “as many as,” names those for whom the work will be useful.",
    "options": [
     "A relative clause",
     "A purpose clause",
@@ -237,7 +237,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἀρκούντως ἕξει</em> means…",
-   "explain": "<em lang=\"grc\">Ἔχω</em> with an adverb describes a state: it will be well enough.",
+   "explain": "The word <em lang=\"grc\">ἔχω</em> with an adverb describes a state: it will be well enough.",
    "options": [
     "“It will be enough”",
     "“He will have enough”",
@@ -288,7 +288,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ὦ ἄνδρες Ἀθηναῖοι</em> is…",
-   "explain": "<em lang=\"grc\">Ὦ</em> with the vocative is the regular address. the address to the jury",
+   "explain": "The word <em lang=\"grc\">ὦ</em> with the vocative is the regular address, here the address to the jury.",
    "options": [
     "Vocative",
     "Nominative subject",
@@ -339,7 +339,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">κατέβην</em> is…",
-   "explain": "<em lang=\"grc\">Ἔβην</em> is the root aorist of <em lang=\"grc\">βαίνω</em>, here compounded with <em lang=\"grc\">κατα-</em>.",
+   "explain": "The word <em lang=\"grc\">ἔβην</em> is the root aorist of <em lang=\"grc\">βαίνω</em>, here compounded with <em lang=\"grc\">κατα-</em>.",
    "options": [
     "Aorist: “I went down”",
     "Imperfect",
@@ -390,7 +390,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">τίνα τρόπον ποιήσουσιν</em> is…",
-   "explain": "<em lang=\"grc\">Τίνα</em>, “what,” asks the question that Socrates wished to see answered.",
+   "explain": "The word <em lang=\"grc\">τίνα</em>, “what,” asks the question that Socrates wished to see answered.",
    "options": [
     "An indirect question after <em lang=\"grc\">θεάσασθαι</em>",
     "A relative clause",
@@ -543,7 +543,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἐπειδὴ … ὁρῶμεν</em> is…",
-   "explain": "<em lang=\"grc\">Ἐπειδή</em> gives the ground for what is clear.",
+   "explain": "The word <em lang=\"grc\">ἐπειδή</em> gives the ground for what is clear.",
    "options": [
     "A causal clause: since we see",
     "A purpose clause",
@@ -577,7 +577,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἕνεκεν</em> governs…",
-   "explain": "<em lang=\"grc\">Ἕνεκα</em> and <em lang=\"grc\">χάριν</em> follow the genitive they govern.",
+   "explain": "The forms <em lang=\"grc\">ἕνεκα</em> and <em lang=\"grc\">χάριν</em> follow the genitive they govern.",
    "options": [
     "The genitive",
     "The dative",
@@ -611,7 +611,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ἦν ὁ λόγος</em></p> <em lang=\"grc\">ἦν</em> is…",
-   "explain": "<em lang=\"grc\">Ἦν</em> is the imperfect, “was,” of a continuing state.",
+   "explain": "The word <em lang=\"grc\">ἦν</em> is the imperfect, “was,” of a continuing state.",
    "options": [
     "Imperfect of <em lang=\"grc\">εἰμί</em>",
     "Aorist of <em lang=\"grc\">γίγνομαι</em>",
@@ -645,7 +645,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">διʼ αὐτοῦ</em> means…",
-   "explain": "<em lang=\"grc\">Διά</em> with the genitive gives the means; with the accusative, the cause.",
+   "explain": "The word <em lang=\"grc\">διά</em> with the genitive gives the means; with the accusative, the cause.",
    "options": [
     "“Through him”: <em lang=\"grc\">διά</em> with the genitive",
     "“Because of him”: <em lang=\"grc\">διά</em> with the accusative",
@@ -679,7 +679,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">αὐτὸ</em></p> <em lang=\"grc\">αὐτό</em> refers to…",
-   "explain": "<em lang=\"grc\">Αὐτό</em> is neuter, like <em lang=\"grc\">τὸ φῶς</em>.",
+   "explain": "The word <em lang=\"grc\">αὐτό</em> is neuter, like <em lang=\"grc\">τὸ φῶς</em>.",
    "options": [
     "<em lang=\"grc\">τὸ φῶς</em>",
     "<em lang=\"grc\">ἡ σκοτία</em>",
@@ -730,7 +730,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἀπόδοτε</em> is…",
-   "explain": "<em lang=\"grc\">Ἀπόδοτε</em> is the aorist imperative of <em lang=\"grc\">ἀποδίδωμι</em>.",
+   "explain": "The word <em lang=\"grc\">ἀπόδοτε</em> is the aorist imperative of <em lang=\"grc\">ἀποδίδωμι</em>.",
    "options": [
     "An aorist imperative: second person plural",
     "A present indicative",
@@ -798,7 +798,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">τῷ νόμῳ</em> is…",
-   "explain": "<em lang=\"grc\">Προστίθημι</em>, “add to,” takes the dative of the thing added to.",
+   "explain": "The word <em lang=\"grc\">προστίθημι</em>, “add to,” takes the dative of the thing added to.",
    "options": [
     "Dative: added to the law",
     "Accusative",
@@ -917,7 +917,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<p><em lang=\"grc\">ἔχεις μοι εἰπεῖν</em></p> <em lang=\"grc\">ἔχεις … εἰπεῖν</em> means…",
-   "explain": "<em lang=\"grc\">Ἔχω</em> with an infinitive means “be able.”",
+   "explain": "The word <em lang=\"grc\">ἔχω</em> with an infinitive means “be able.”",
    "options": [
     "“Can you say”",
     "“You have said”",
@@ -934,7 +934,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ἆρα</em> marks…",
-   "explain": "<em lang=\"grc\">Ἆρα</em> introduces a question that expects no particular answer.",
+   "explain": "The word <em lang=\"grc\">ἆρα</em> introduces a question that expects no particular answer.",
    "options": [
     "A question",
     "A wish",
@@ -1019,7 +1019,7 @@ ARS.exercises["lang.ix.grc/prose-ex"] = {
    "section": "ix",
    "type": "mc",
    "prompt": "<em lang=\"grc\">ῥηθέντων</em> is…",
-   "explain": "<em lang=\"grc\">Ῥηθέντων</em> is the aorist passive participle of the verb “say,” genitive plural.",
+   "explain": "The word <em lang=\"grc\">ῥηθέντων</em> is the aorist passive participle of the verb “say,” genitive plural.",
    "options": [
     "An aorist passive participle: of the things said",
     "A perfect passive participle",

@@ -368,7 +368,7 @@ ARS.exercises["lang.v.grc/voice-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">τὸ δῶρον ἀγαθὸν ______ ἐν τῇ χώρᾳ ἐστί</i> (“The gift, being good, is in the land”).",
-   "explain": "The participle agrees with <i lang=\"grc\">τὸ δῶρον</i>, which is neuter, singular, and nominative, so the form is <i lang=\"grc\">ὄν</i>, written <i lang=\"grc\">ὂν</i> before the next word (Smyth §2054, §305, §154). <i lang=\"grc\">ὢν</i> is masculine, and <i lang=\"grc\">οὖσα</i> is feminine. <i lang=\"grc\">χώρᾳ</i> has the acute on the penult, so <i lang=\"grc\">ἐστί</i> keeps its accent (Smyth §183 d).",
+   "explain": "The participle agrees with <i lang=\"grc\">τὸ δῶρον</i>, which is neuter, singular, and nominative, so the form is <i lang=\"grc\">ὄν</i>, written <i lang=\"grc\">ὂν</i> before the next word (Smyth §2054, §305, §154). <i lang=\"grc\">ὢν</i> is masculine, and <i lang=\"grc\">οὖσα</i> is feminine.",
    "options": [
     "<i lang=\"grc\">ὂν</i>",
     "<i lang=\"grc\">ὢν</i>",

@@ -336,7 +336,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ὁ</b> στρατηγὸς λέγει.</i> (“The general speaks.”)",
-   "explain": "<i lang=\"grc\">Ὁ</i> is the article, which agrees with <i lang=\"grc\">στρατηγός</i>; the Greek list counts it as a part of its own.",
+   "explain": "The word <i lang=\"grc\">ὁ</i> is the article, which agrees with <i lang=\"grc\">στρατηγός</i>; the Greek list counts it as a part of its own.",
    "options": [
     "pronoun",
     "article",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ <b>στρατηγὸς</b> λέγει.</i> (“The general speaks.”)",
-   "explain": "<i lang=\"grc\">Στρατηγός</i> names a person and is declined: a noun.",
+   "explain": "The word <i lang=\"grc\">στρατηγός</i> names a person and is declined: a noun.",
    "options": [
     "article",
     "participle",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>λέγει</b>.</i> (“The general speaks.”)",
-   "explain": "<i lang=\"grc\">Λέγει</i> has person, number, tense, mood, and voice: a verb.",
+   "explain": "The word <i lang=\"grc\">λέγει</i> has person, number, tense, mood, and voice: a verb.",
    "options": [
     "participle",
     "verb",
@@ -400,7 +400,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ἡμεῖς</b> ἀκούομεν.</i> (“We listen.”)",
-   "explain": "<i lang=\"grc\">Ἡμεῖς</i> stands for the speakers without naming them: a pronoun.",
+   "explain": "The word <i lang=\"grc\">ἡμεῖς</i> stands for the speakers without naming them: a pronoun.",
    "options": [
     "noun",
     "article",
@@ -416,7 +416,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>λέγων</b> ἀπῆλθεν.</i> (“The general went away speaking.”)",
-   "explain": "<i lang=\"grc\">Λέγων</i> is declined like an adjective and has tense and voice like a verb: a participle.",
+   "explain": "The word <i lang=\"grc\">λέγων</i> is declined like an adjective and has tense and voice like a verb: a participle.",
    "options": [
     "participle",
     "verb",
@@ -432,7 +432,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>ἐκ</b> τῆς οἰκίας ἦλθεν.</i> (“He came out of the house.”)",
-   "explain": "<i lang=\"grc\">Ἐκ</i> governs the genitive <i lang=\"grc\">τῆς οἰκίας</i> and does not change: a preposition.",
+   "explain": "The word <i lang=\"grc\">ἐκ</i> governs the genitive <i lang=\"grc\">τῆς οἰκίας</i> and does not change: a preposition.",
    "options": [
     "preposition",
     "conjunction",
@@ -448,7 +448,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\"><b>καλῶς</b> λέγει.</i> (“He speaks well.”)",
-   "explain": "<i lang=\"grc\">Καλῶς</i> tells how he speaks: an adverb, formed from the adjective <i lang=\"grc\">καλός</i>.",
+   "explain": "The word <i lang=\"grc\">καλῶς</i> tells how he speaks: an adverb, formed from the adjective <i lang=\"grc\">καλός</i>.",
    "options": [
     "adverb",
     "noun",
@@ -464,7 +464,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ στρατηγὸς <b>καὶ</b> οἱ στρατιῶται ἦλθον.</i> (“The general and the soldiers came.”)",
-   "explain": "<i lang=\"grc\">Καί</i> joins the two subjects: a conjunction.",
+   "explain": "The word <i lang=\"grc\">καί</i> joins the two subjects: a conjunction.",
    "options": [
     "conjunction",
     "preposition",
@@ -480,7 +480,7 @@ ARS.exercises["lang.iii-decl.grc/compared-ex"] = {
    "section": "iii",
    "type": "mc-marked",
    "prompt": "In the Greek list of eight parts, what part of speech is the marked word? <i lang=\"grc\">ὁ μὲν λέγει, ὁ <b>δὲ</b> σιγᾷ.</i> (“One speaks, and the other is silent.”)",
-   "explain": "<i lang=\"grc\">Δέ</i> answers <i lang=\"grc\">μέν</i> and joins the two clauses; the Greek list counts it among the conjunctions.",
+   "explain": "The word <i lang=\"grc\">δέ</i> answers <i lang=\"grc\">μέν</i> and joins the two clauses; the Greek list counts it among the conjunctions.",
    "options": [
     "adverb",
     "conjunction",

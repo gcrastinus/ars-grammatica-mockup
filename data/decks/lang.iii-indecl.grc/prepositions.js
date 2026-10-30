@@ -22,7 +22,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "The ablative"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Πρό</i>, like <i lang=\"grc\">ἀντί</i>, <i lang=\"grc\">ἀπό</i>, and <i lang=\"grc\">ἐκ</i>, takes the genitive."
+      "explain": "The word <i lang=\"grc\">πρό</i>, like <i lang=\"grc\">ἀντί</i>, <i lang=\"grc\">ἀπό</i>, and <i lang=\"grc\">ἐκ</i>, takes the genitive."
      },
      {
       "prompt": "Which phrase is correct for “into the house”?",
@@ -33,7 +33,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "<i lang=\"grc\">εἰς τὴν οἰκίαν</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Εἰς</i> takes the accusative."
+      "explain": "The word <i lang=\"grc\">εἰς</i> takes the accusative."
      },
      {
       "prompt": "Why is it <i lang=\"grc\">ἐξ οἴκου</i> but <i lang=\"grc\">ἐκ τοῦ οἴκου</i>?",
@@ -65,7 +65,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "“about the war”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Μετά</i> with the accusative means “after”; with the genitive, “with.”"
+      "explain": "The word <i lang=\"grc\">μετά</i> with the accusative means “after”; with the genitive, “with.”"
      },
      {
       "prompt": "What does <i lang=\"grc\">διὰ τὸν φόβον</i> mean?",
@@ -76,7 +76,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "“instead of fear”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Διά</i> with the accusative gives the cause: “on account of.”"
+      "explain": "The word <i lang=\"grc\">διά</i> with the accusative gives the cause: “on account of.”"
      },
      {
       "prompt": "Which phrase means “concerning justice”?",
@@ -87,7 +87,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "<i lang=\"grc\">μετὰ τὴν δικαιοσύνην</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Περί</i> with the genitive means “about,” “concerning.”"
+      "explain": "The word <i lang=\"grc\">περί</i> with the genitive means “about,” “concerning.”"
      }
     ]
    }
@@ -108,7 +108,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "“against the teacher”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Παρά</i> with the dative means “beside,” “at the house of.”"
+      "explain": "The word <i lang=\"grc\">παρά</i> with the dative means “beside,” “at the house of.”"
      },
      {
       "prompt": "How does Greek name the agent with a passive verb?",
@@ -119,7 +119,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "<i lang=\"grc\">ὑπό</i> with the genitive"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ὑπό</i> with the genitive names the agent: <i lang=\"grc\">ὑπὸ τοῦ στρατηγοῦ</i>."
+      "explain": "The word <i lang=\"grc\">ὑπό</i> with the genitive names the agent: <i lang=\"grc\">ὑπὸ τοῦ στρατηγοῦ</i>."
      },
      {
       "prompt": "What does <i lang=\"grc\">ἐπὶ τοὺς Πέρσας</i> usually mean?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "“with the Persians”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἐπί</i> with the accusative gives motion toward, often hostile: “against.”"
+      "explain": "The word <i lang=\"grc\">ἐπί</i> with the accusative gives motion toward, often hostile: “against.”"
      }
     ]
    }
@@ -151,7 +151,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "an abbreviation of <i lang=\"grc\">ἐπειδή</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ἐπί</i> drops its final <i lang=\"grc\">ι</i> before the vowel of <i lang=\"grc\">αὐτόν</i>."
+      "explain": "The word <i lang=\"grc\">ἐπί</i> drops its final <i lang=\"grc\">ι</i> before the vowel of <i lang=\"grc\">αὐτόν</i>."
      },
      {
       "prompt": "Why is it <i lang=\"grc\">ἀφ’ ἵππου</i> and not <i lang=\"grc\">ἀπ’ ἵππου</i>?",
@@ -173,7 +173,7 @@ ARS.decks["lang.iii-indecl.grc/prepositions"] = {
        "<i lang=\"grc\">περί</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Περί</i> and <i lang=\"grc\">πρό</i> keep their vowel: <i lang=\"grc\">περὶ αὐτοῦ</i>."
+      "explain": "The forms <i lang=\"grc\">περί</i> and <i lang=\"grc\">πρό</i> keep their vowel: <i lang=\"grc\">περὶ αὐτοῦ</i>."
      }
     ]
    }

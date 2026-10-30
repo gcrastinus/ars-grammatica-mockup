@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the second person singular present active of <i lang=\"grc\">ἀποδίδωμι</i>.",
-   "explain": "<i lang=\"grc\">Ἀποδίδωμι</i> (“give back”) is conjugated like <i lang=\"grc\">δίδωμι</i>: <i lang=\"grc\">ἀποδίδως</i>.",
+   "explain": "The word <i lang=\"grc\">ἀποδίδωμι</i> (“give back”) is conjugated like <i lang=\"grc\">δίδωμι</i>: <i lang=\"grc\">ἀποδίδως</i>.",
    "accept": [
     "ἀποδίδως"
    ],
@@ -42,7 +42,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person singular present active of <i lang=\"grc\">ἐπιτίθημι</i>.",
-   "explain": "<i lang=\"grc\">Ἐπιτίθημι</i> (“put upon”) is conjugated like <i lang=\"grc\">τίθημι</i>: <i lang=\"grc\">ἐπιτίθησι(ν)</i>.",
+   "explain": "The word <i lang=\"grc\">ἐπιτίθημι</i> (“put upon”) is conjugated like <i lang=\"grc\">τίθημι</i>: <i lang=\"grc\">ἐπιτίθησι(ν)</i>.",
    "accept": [
     "ἐπιτίθησι",
     "ἐπιτίθησιν"
@@ -69,7 +69,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"grc\">ἀνίστατε</i>?",
-   "explain": "<i lang=\"grc\">Ἀνίστημι</i> (“raise up”) is conjugated like <i lang=\"grc\">ἵστημι</i>, whose second person plural is <i lang=\"grc\">ἵστατε</i>.",
+   "explain": "The word <i lang=\"grc\">ἀνίστημι</i> (“raise up”) is conjugated like <i lang=\"grc\">ἵστημι</i>, whose second person plural is <i lang=\"grc\">ἵστατε</i>.",
    "options": [
     "Aorist, second person plural, of <i lang=\"grc\">ἀνίστημι</i>",
     "Present, second person plural, of <i lang=\"grc\">ἀνίστημι</i>",
@@ -85,7 +85,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person plural present active of <i lang=\"grc\">ἀποδείκνῡμι</i>.",
-   "explain": "<i lang=\"grc\">Ἀποδείκνῡμι</i> (“show forth”) is conjugated like <i lang=\"grc\">δείκνῡμι</i>: <i lang=\"grc\">ἀποδεικνύᾱσι(ν)</i>.",
+   "explain": "The word <i lang=\"grc\">ἀποδείκνῡμι</i> (“show forth”) is conjugated like <i lang=\"grc\">δείκνῡμι</i>: <i lang=\"grc\">ἀποδεικνύᾱσι(ν)</i>.",
    "accept": [
     "ἀποδεικνύᾱσι",
     "ἀποδεικνύᾱσιν"
@@ -99,7 +99,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Which verb in -μι means “I give”?",
-   "explain": "<i lang=\"grc\">Δίδωμι</i> is “I give”; <i lang=\"grc\">τίθημι</i> “I put,” <i lang=\"grc\">ἵστημι</i> “I set up,” <i lang=\"grc\">δείκνῡμι</i> “I show.”",
+   "explain": "The word <i lang=\"grc\">δίδωμι</i> is “I give”; <i lang=\"grc\">τίθημι</i> “I put,” <i lang=\"grc\">ἵστημι</i> “I set up,” <i lang=\"grc\">δείκνῡμι</i> “I show.”",
    "options": [
     "<i lang=\"grc\">τίθημι</i>",
     "<i lang=\"grc\">ἵστημι</i>",
@@ -186,7 +186,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἐπὶ τοῦ λόφου ἔστη</i> mean?",
-   "explain": "<i lang=\"grc\">Ἔστη</i> is the intransitive second aorist, “he stood.”",
+   "explain": "The word <i lang=\"grc\">ἔστη</i> is the intransitive second aorist, “he stood.”",
    "options": [
     "“He set up the hill.”",
     "“He stands on the hill.”",
@@ -244,7 +244,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἄπιμεν</i> mean?",
-   "explain": "<i lang=\"grc\">Ἄπειμι</i> is <i lang=\"grc\">εἶμι</i> with <i lang=\"grc\">ἀπό</i>, and in Attic its present serves as a future.",
+   "explain": "The word <i lang=\"grc\">ἄπειμι</i> is <i lang=\"grc\">εἶμι</i> with <i lang=\"grc\">ἀπό</i>, and in Attic its present serves as a future.",
    "options": [
     "“we are away”",
     "“we went away”",
@@ -260,7 +260,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the present infinitive of <i lang=\"grc\">ἄπειμι</i> (“I shall go away”).",
-   "explain": "<i lang=\"grc\">Ἄπειμι</i> is <i lang=\"grc\">εἶμι</i> with <i lang=\"grc\">ἀπό</i>, and its infinitive follows <i lang=\"grc\">ἰέναι</i>: <i lang=\"grc\">ἀπιέναι</i>.",
+   "explain": "The word <i lang=\"grc\">ἄπειμι</i> is <i lang=\"grc\">εἶμι</i> with <i lang=\"grc\">ἀπό</i>, and its infinitive follows <i lang=\"grc\">ἰέναι</i>: <i lang=\"grc\">ἀπιέναι</i>.",
    "accept": [
     "ἀπιέναι"
    ],
@@ -273,7 +273,7 @@ ARS.exercises["lang.iii-decl.grc/mi-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "In <i lang=\"grc\">“οὐ βούλομαι,” ἔφη</i>, what is <i lang=\"grc\">ἔφη</i>?",
-   "explain": "<i lang=\"grc\">Ἔφη</i> is the imperfect of <i lang=\"grc\">φημί</i>, put inside the quotation as English puts “he said.”",
+   "explain": "The word <i lang=\"grc\">ἔφη</i> is the imperfect of <i lang=\"grc\">φημί</i>, put inside the quotation as English puts “he said.”",
    "options": [
     "Imperfect of <i lang=\"grc\">φημί</i>, “he said”",
     "Present of <i lang=\"grc\">φημί</i>, “he says”",

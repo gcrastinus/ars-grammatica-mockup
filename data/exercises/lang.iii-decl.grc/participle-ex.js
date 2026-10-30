@@ -56,7 +56,7 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the participle of <i lang=\"grc\">πάρειμι</i> (“I am present”), neuter nominative singular.",
-   "explain": "<i lang=\"grc\">Πάρειμι</i> takes the participle of <i lang=\"grc\">εἰμί</i> (<i lang=\"grc\">ὤν, οὖσα, ὄν</i>) with <i lang=\"grc\">παρά</i>: neuter <i lang=\"grc\">παρόν</i>.",
+   "explain": "The word <i lang=\"grc\">πάρειμι</i> takes the participle of <i lang=\"grc\">εἰμί</i> (<i lang=\"grc\">ὤν, οὖσα, ὄν</i>) with <i lang=\"grc\">παρά</i>: neuter <i lang=\"grc\">παρόν</i>.",
    "accept": [
     "παρόν"
    ],
@@ -69,7 +69,7 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"grc\">λείποντες</i>?",
-   "explain": "<i lang=\"grc\">Λείποντες</i> is the present active participle of <i lang=\"grc\">λείπω</i>, masculine nominative plural.",
+   "explain": "The word <i lang=\"grc\">λείποντες</i> is the present active participle of <i lang=\"grc\">λείπω</i>, masculine nominative plural.",
    "options": [
     "Aorist participle, nominative plural",
     "Present participle, nominative plural",
@@ -101,7 +101,7 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the genitive singular masculine of <i lang=\"grc\">ὤν</i>.",
-   "explain": "<i lang=\"grc\">Ὤν, ὄντος</i>, on the stem <i lang=\"grc\">ὀντ-</i>.",
+   "explain": "The phrase <i lang=\"grc\">ὤν, ὄντος</i>, on the stem <i lang=\"grc\">ὀντ-</i>.",
    "accept": [
     "ὄντος"
    ],
@@ -243,7 +243,7 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "In <i lang=\"grc\">ἔτυχον παρόντες</i>, what kind of participle is <i lang=\"grc\">παρόντες</i>?",
-   "explain": "<i lang=\"grc\">Τυγχάνω</i> takes a supplementary participle: “they happened to be present.”",
+   "explain": "The word <i lang=\"grc\">τυγχάνω</i> takes a supplementary participle: “they happened to be present.”",
    "options": [
     "Attributive",
     "Circumstantial, showing cause",
@@ -259,7 +259,7 @@ ARS.exercises["lang.iii-decl.grc/participle-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἔλαθον ἀπελθόντες</i> mean?",
-   "explain": "<i lang=\"grc\">Λανθάνω</i> with a supplementary participle: “they escaped notice going away,” that is, “they went away unnoticed.”",
+   "explain": "The word <i lang=\"grc\">λανθάνω</i> with a supplementary participle: “they escaped notice going away,” that is, “they went away unnoticed.”",
    "options": [
     "“They forgot to go away.”",
     "“They were seen going away.”",

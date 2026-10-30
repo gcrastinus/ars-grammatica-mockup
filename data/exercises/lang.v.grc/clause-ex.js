@@ -224,7 +224,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">ὁ κριτὴς πέμπει τὸ δῶρον ὅτι οἱ ἄνθρωποι ἀγαθοί ______</i> (“The judge sends the gift because the men are good”).",
-   "explain": "The men are plural, and a causal fact takes the indicative, so the verb is <i lang=\"grc\">εἰσι</i> (Smyth §2241). <i lang=\"grc\">ἐστι</i> is singular, and <i lang=\"grc\">ὦσι</i> is subjunctive. After the oxytone <i lang=\"grc\">ἀγαθοί</i> the enclitic has no accent (Smyth §183 a).",
+   "explain": "The men are plural, and a causal fact takes the indicative, so the verb is <i lang=\"grc\">εἰσι</i> (Smyth §2241). <i lang=\"grc\">ἐστι</i> is singular, and <i lang=\"grc\">ὦσι</i> is subjunctive.",
    "options": [
     "<i lang=\"grc\">εἰσι</i>",
     "<i lang=\"grc\">ἐστι</i>",
@@ -272,7 +272,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ ὁ κριτὴς ἀγαθός ______, ὁ βασιλεὺς πέμπει τὸν ἵππον</i> (“If the judge is good, the king sends the horse”).",
-   "explain": "A simple present condition has the indicative, and <i lang=\"grc\">ν</i> stands before the vowel (Smyth §2291, §134). <i lang=\"grc\">ᾖ</i> is subjunctive and would stand with <i lang=\"grc\">ἐᾱ́ν</i>, and <i lang=\"grc\">εἴη</i> is optative. After <i lang=\"grc\">ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
+   "explain": "A simple present condition has the indicative (Smyth §2291). <i lang=\"grc\">ᾖ</i> is subjunctive and would stand with <i lang=\"grc\">ἐᾱ́ν</i>, and <i lang=\"grc\">εἴη</i> is optative.",
    "options": [
     "<i lang=\"grc\">ἐστιν</i>",
     "<i lang=\"grc\">ᾖ</i>",
@@ -304,7 +304,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ ὁ βασιλεὺς τὸν ἵππον ______, ὁ κριτὴς πέμπει τὸ δῶρον</i> (“If the king loosed the horse, the judge sends the gift”).",
-   "explain": "The loosing is one past act, so the protasis has the aorist indicative, with <i lang=\"grc\">ν</i> before the vowel (Smyth §2291, §383, §134). <i lang=\"grc\">ἔλῡσαν</i> is plural, and <i lang=\"grc\">λῡ́σῃ</i> is subjunctive.",
+   "explain": "The loosing is one past act, so the protasis has the aorist indicative (Smyth §2291, §383). <i lang=\"grc\">ἔλῡσαν</i> is plural, and <i lang=\"grc\">λῡ́σῃ</i> is subjunctive.",
    "options": [
     "<i lang=\"grc\">ἔλῡσεν</i>",
     "<i lang=\"grc\">ἔλῡσαν</i>",
@@ -336,7 +336,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">εἰ οἱ ἄνθρωποι τὸν ἵππον ______, ὁ βασιλεὺς πέμπει τὸ δῶρον</i> (“If the men loose the horse, the king sends the gift”).",
-   "explain": "A simple present condition has the indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural, so the verb is <i lang=\"grc\">λῡ́ουσι</i>, with <i lang=\"grc\">ν</i> before the vowel (Smyth §2291, §383, §134). <i lang=\"grc\">λῡ́σαιεν</i> is optative, <i lang=\"grc\">λῡ́ωσι</i> is subjunctive, and <i lang=\"grc\">ἔλῡον</i> is imperfect.",
+   "explain": "A simple present condition has the indicative, and <i lang=\"grc\">οἱ ἄνθρωποι</i> is plural, so the verb is <i lang=\"grc\">λῡ́ουσι</i> (Smyth §2291, §383). <i lang=\"grc\">λῡ́σαιεν</i> is optative, <i lang=\"grc\">λῡ́ωσι</i> is subjunctive, and <i lang=\"grc\">ἔλῡον</i> is imperfect.",
    "options": [
     "<i lang=\"grc\">λῡ́ουσιν</i>",
     "<i lang=\"grc\">λῡ́σαιεν</i>",
@@ -464,7 +464,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Choose the form that fills the blank: <i lang=\"grc\">λέγει ὅτι ὁ κριτὴς ἀγαθός ______</i> (“He says that the judge is good”).",
-   "explain": "<i lang=\"grc\">λέγω</i> with <i lang=\"grc\">ὅτι</i> takes the indicative (Smyth §2577). <i lang=\"grc\">εἶναι</i> is the infinitive used after <i lang=\"grc\">φημί</i> and <i lang=\"grc\">νομίζω</i>, and <i lang=\"grc\">ᾖ</i> is subjunctive. After <i lang=\"grc\">ἀγαθός</i> the enclitic has no accent (Smyth §183 a).",
+   "explain": "<i lang=\"grc\">λέγω</i> with <i lang=\"grc\">ὅτι</i> takes the indicative (Smyth §2577). <i lang=\"grc\">εἶναι</i> is the infinitive used after <i lang=\"grc\">φημί</i> and <i lang=\"grc\">νομίζω</i>, and <i lang=\"grc\">ᾖ</i> is subjunctive.",
    "options": [
     "<i lang=\"grc\">ἐστι</i>",
     "<i lang=\"grc\">εἶναι</i>",
@@ -608,7 +608,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of condition is <i lang=\"grc\">εἰ ἔλθοι, χαίροιμ’ ἄν</i> (“if he should come, I would be glad”)?",
-   "explain": "<i lang=\"grc\">Εἰ</i> with the optative, and the optative with <i lang=\"grc\">ἄν</i>, make a future less vivid condition.",
+   "explain": "The word <i lang=\"grc\">εἰ</i> with the optative, and the optative with <i lang=\"grc\">ἄν</i>, make a future less vivid condition.",
    "options": [
     "Future more vivid",
     "Contrary to fact",
@@ -624,7 +624,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What kind of condition is <i lang=\"grc\">εἰ ἐνταῦθα ἦσαν, ἐμάχοντο ἄν</i> (“if they were here, they would be fighting”)?",
-   "explain": "<i lang=\"grc\">Εἰ</i> with the imperfect, and the imperfect with <i lang=\"grc\">ἄν</i>, make a present condition contrary to fact.",
+   "explain": "The word <i lang=\"grc\">εἰ</i> with the imperfect, and the imperfect with <i lang=\"grc\">ἄν</i>, make a present condition contrary to fact.",
    "options": [
     "Contrary to fact, present",
     "Future less vivid",
@@ -640,7 +640,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which form completes <i lang=\"grc\">ἐὰν ______, νικήσομεν</i> (“if we fight, we shall win”)?",
-   "explain": "<i lang=\"grc\">Ἐάν</i> takes the subjunctive.",
+   "explain": "The word <i lang=\"grc\">ἐάν</i> takes the subjunctive.",
    "options": [
     "<i lang=\"grc\">μαχώμεθα</i>",
     "<i lang=\"grc\">μαχόμεθα</i>",
@@ -672,7 +672,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which mood follows <i lang=\"grc\">ὅταν</i> in <i lang=\"grc\">ὅταν ἔλθῃ ὁ ἄγγελος, ἀκουσόμεθα</i> (“when the messenger comes, we shall hear”)?",
-   "explain": "<i lang=\"grc\">Ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>; with the subjunctive it refers to an indefinite future time.",
+   "explain": "The word <i lang=\"grc\">ὅταν</i> is <i lang=\"grc\">ὅτε</i> with <i lang=\"grc\">ἄν</i>; with the subjunctive it refers to an indefinite future time.",
    "options": [
     "The subjunctive",
     "The optative",
@@ -736,7 +736,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Which form completes <i lang=\"grc\">περιμενοῦμεν ἕως ἂν ὁ στρατηγὸς ______</i> (“we shall wait until the general arrives”)?",
-   "explain": "<i lang=\"grc\">Ἕως ἄν</i> takes the subjunctive; <i lang=\"grc\">ἀφίκηται</i> is the aorist subjunctive of <i lang=\"grc\">ἀφικνέομαι</i>.",
+   "explain": "The phrase <i lang=\"grc\">ἕως ἄν</i> takes the subjunctive; <i lang=\"grc\">ἀφίκηται</i> is the aorist subjunctive of <i lang=\"grc\">ἀφικνέομαι</i>.",
    "options": [
     "<i lang=\"grc\">ἀφίκηται</i>",
     "<i lang=\"grc\">ἀφίκετο</i>",
@@ -752,7 +752,7 @@ ARS.exercises["lang.v.grc/clause-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">πότερον</i> mark in <i lang=\"grc\">πότερον ὁ παῖς γράφει ἢ ἀναγιγνώσκει;</i> (“is the boy writing or reading?”)?",
-   "explain": "<i lang=\"grc\">Πότερον … ἤ</i> asks which of two things is true; <i lang=\"grc\">ἤ</i> here means “or,” not “than.”",
+   "explain": "The phrase <i lang=\"grc\">πότερον … ἤ</i> asks which of two things is true; <i lang=\"grc\">ἤ</i> here means “or,” not “than.”",
    "options": [
     "A clause of purpose",
     "An alternative question",

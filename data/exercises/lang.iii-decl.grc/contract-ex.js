@@ -16,7 +16,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the first person singular present of <i lang=\"grc\">φιλέω</i> as Attic uses it.",
-   "explain": "<i lang=\"grc\">Ε</i> before <i lang=\"grc\">ω</i> is absorbed: <i lang=\"grc\">φιλέω</i>, <i lang=\"grc\">φιλῶ</i>.",
+   "explain": "The letter <i lang=\"grc\">ε</i> before <i lang=\"grc\">ω</i> is absorbed: <i lang=\"grc\">φιλέω</i>, <i lang=\"grc\">φιλῶ</i>.",
    "accept": [
     "φιλῶ"
    ],
@@ -29,7 +29,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person singular present of <i lang=\"grc\">φιλέω</i>.",
-   "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">φιλέει</i>, <i lang=\"grc\">φιλεῖ</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">φιλέει</i>, <i lang=\"grc\">φιλεῖ</i>.",
    "accept": [
     "φιλεῖ"
    ],
@@ -42,7 +42,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the second person plural present of <i lang=\"grc\">φιλέω</i>.",
-   "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ε</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">φιλέετε</i>, <i lang=\"grc\">φιλεῖτε</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ε</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">φιλέετε</i>, <i lang=\"grc\">φιλεῖτε</i>.",
    "accept": [
     "φιλεῖτε"
    ],
@@ -55,7 +55,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person plural present of <i lang=\"grc\">φιλέω</i>.",
-   "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ου</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">φιλέουσι</i>, <i lang=\"grc\">φιλοῦσι(ν)</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ου</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">φιλέουσι</i>, <i lang=\"grc\">φιλοῦσι(ν)</i>.",
    "accept": [
     "φιλοῦσι",
     "φιλοῦσιν"
@@ -69,7 +69,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the present infinitive of <i lang=\"grc\">φιλέω</i>.",
-   "explain": "<i lang=\"grc\">Φιλέ-ειν</i> contracts to <i lang=\"grc\">φιλεῖν</i>.",
+   "explain": "The word <i lang=\"grc\">φιλέ-ειν</i> contracts to <i lang=\"grc\">φιλεῖν</i>.",
    "accept": [
     "φιλεῖν"
    ],
@@ -82,7 +82,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is the uncontracted form of <i lang=\"grc\">ὁρῶμεν</i>?",
-   "explain": "<i lang=\"grc\">Α</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">ὁράομεν</i>, <i lang=\"grc\">ὁρῶμεν</i>.",
+   "explain": "In contraction, <i lang=\"grc\">α</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">ὁράομεν</i>, <i lang=\"grc\">ὁρῶμεν</i>.",
    "options": [
     "<i lang=\"grc\">ὁρέομεν</i>",
     "<i lang=\"grc\">ὁρόομεν</i>",
@@ -98,7 +98,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the second person singular present of <i lang=\"grc\">νικάω</i>.",
-   "explain": "<i lang=\"grc\">Α</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">ᾳ</i>: <i lang=\"grc\">νικάεις</i>, <i lang=\"grc\">νικᾷς</i>.",
+   "explain": "In contraction, <i lang=\"grc\">α</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">ᾳ</i>: <i lang=\"grc\">νικάεις</i>, <i lang=\"grc\">νικᾷς</i>.",
    "accept": [
     "νικᾷς"
    ],
@@ -111,7 +111,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the second person plural present of <i lang=\"grc\">νικάω</i>.",
-   "explain": "<i lang=\"grc\">Α</i> + <i lang=\"grc\">ε</i> gives long <i lang=\"grc\">ᾱ</i>: <i lang=\"grc\">νικάετε</i>, <i lang=\"grc\">νικᾶτε</i>.",
+   "explain": "In contraction, <i lang=\"grc\">α</i> + <i lang=\"grc\">ε</i> gives long <i lang=\"grc\">ᾱ</i>: <i lang=\"grc\">νικάετε</i>, <i lang=\"grc\">νικᾶτε</i>.",
    "accept": [
     "νικᾶτε"
    ],
@@ -124,7 +124,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person plural present of <i lang=\"grc\">νικάω</i>.",
-   "explain": "<i lang=\"grc\">Α</i> + <i lang=\"grc\">ου</i> gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">νικάουσι</i>, <i lang=\"grc\">νικῶσι(ν)</i>.",
+   "explain": "In contraction, <i lang=\"grc\">α</i> + <i lang=\"grc\">ου</i> gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">νικάουσι</i>, <i lang=\"grc\">νικῶσι(ν)</i>.",
    "accept": [
     "νικῶσι",
     "νικῶσιν"
@@ -151,7 +151,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person singular present of <i lang=\"grc\">ἀξιόω</i>.",
-   "explain": "<i lang=\"grc\">Ο</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">οι</i>: <i lang=\"grc\">ἀξιόει</i>, <i lang=\"grc\">ἀξιοῖ</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ο</i> + <i lang=\"grc\">ει</i> gives <i lang=\"grc\">οι</i>: <i lang=\"grc\">ἀξιόει</i>, <i lang=\"grc\">ἀξιοῖ</i>.",
    "accept": [
     "ἀξιοῖ"
    ],
@@ -164,7 +164,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the first person plural present of <i lang=\"grc\">ἀξιόω</i>.",
-   "explain": "<i lang=\"grc\">Ο</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἀξιόομεν</i>, <i lang=\"grc\">ἀξιοῦμεν</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ο</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἀξιόομεν</i>, <i lang=\"grc\">ἀξιοῦμεν</i>.",
    "accept": [
     "ἀξιοῦμεν"
    ],
@@ -206,7 +206,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the aorist, first person singular, of <i lang=\"grc\">ἀξιόω</i>.",
-   "explain": "<i lang=\"grc\">Ο</i> is lengthened to <i lang=\"grc\">ω</i>, and the initial <i lang=\"grc\">α</i> takes the temporal augment, <i lang=\"grc\">η</i>: <i lang=\"grc\">ἠξίωσα</i>.",
+   "explain": "The letter <i lang=\"grc\">ο</i> is lengthened to <i lang=\"grc\">ω</i>, and the initial <i lang=\"grc\">α</i> takes the temporal augment, <i lang=\"grc\">η</i>: <i lang=\"grc\">ἠξίωσα</i>.",
    "accept": [
     "ἠξίωσα"
    ],
@@ -219,7 +219,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What is <i lang=\"grc\">ἐνίκᾱ</i>?",
-   "explain": "<i lang=\"grc\">Ἐνίκαε</i> contracts to <i lang=\"grc\">ἐνίκᾱ</i>, the imperfect; the aorist is <i lang=\"grc\">ἐνίκησε</i>.",
+   "explain": "The word <i lang=\"grc\">ἐνίκαε</i> contracts to <i lang=\"grc\">ἐνίκᾱ</i>, the imperfect; the aorist is <i lang=\"grc\">ἐνίκησε</i>.",
    "options": [
     "Imperfect, third person singular, of <i lang=\"grc\">νικάω</i>",
     "Present, third person singular, of <i lang=\"grc\">νικάω</i>",
@@ -235,7 +235,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the third person singular present middle of <i lang=\"grc\">ἡγέομαι</i>.",
-   "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ε</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">ἡγέεται</i>, <i lang=\"grc\">ἡγεῖται</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ε</i> gives <i lang=\"grc\">ει</i>: <i lang=\"grc\">ἡγέεται</i>, <i lang=\"grc\">ἡγεῖται</i>.",
    "accept": [
     "ἡγεῖται"
    ],
@@ -248,7 +248,7 @@ ARS.exercises["lang.iii-decl.grc/contract-ex"] = {
    "section": "iii",
    "type": "form",
    "prompt": "Write the first person plural present middle of <i lang=\"grc\">ἡγέομαι</i>.",
-   "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἡγεόμεθα</i>, <i lang=\"grc\">ἡγούμεθα</i>.",
+   "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἡγεόμεθα</i>, <i lang=\"grc\">ἡγούμεθα</i>.",
    "accept": [
     "ἡγούμεθα"
    ],

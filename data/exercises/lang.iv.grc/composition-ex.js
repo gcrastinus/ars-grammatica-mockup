@@ -64,7 +64,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἀνα-</i> mean in <i lang=\"grc\">ἀνατέλλω</i> (“I rise,” of the sun)?",
-   "explain": "<i lang=\"grc\">Ἀνα-</i> means “up”: the sun rises up.",
+   "explain": "The prefix <i lang=\"grc\">ἀνα-</i> means “up”: the sun rises up.",
    "options": [
     "“down”",
     "“through”",
@@ -80,7 +80,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">συν-</i> mean in <i lang=\"grc\">συλλέγω</i> (“I collect”)?",
-   "explain": "<i lang=\"grc\">Συν-</i> (here <i lang=\"grc\">συλ-</i> before <i lang=\"grc\">λ</i>) means “together.”",
+   "explain": "The prefix <i lang=\"grc\">συν-</i> (here <i lang=\"grc\">συλ-</i> before <i lang=\"grc\">λ</i>) means “together.”",
    "options": [
     "“together”",
     "“apart”",
@@ -96,7 +96,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What do the parts of “hippopotamus” mean?",
-   "explain": "<i lang=\"grc\">Ἵππος ποτάμιος</i>, “horse of the river.”",
+   "explain": "The phrase <i lang=\"grc\">ἵππος ποτάμιος</i>, “horse of the river.”",
    "options": [
     "“horse of the sea”",
     "“river horse”",
@@ -144,7 +144,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">δημαγωγός</i> mean, read from its parts?",
-   "explain": "<i lang=\"grc\">Δῆμος</i>, “people,” and <i lang=\"grc\">ἀγωγός</i>, “leading”: a governing compound.",
+   "explain": "The words <i lang=\"grc\">δῆμος</i>, “people,” and <i lang=\"grc\">ἀγωγός</i>, “leading”: a governing compound.",
    "options": [
     "“leader of the people”",
     "“one led by the people”",
@@ -176,7 +176,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">κατα-</i> add in <i lang=\"grc\">καταλύω</i>?",
-   "explain": "<i lang=\"grc\">Κατα-</i> often carries the action through to its end.",
+   "explain": "The prefix <i lang=\"grc\">κατα-</i> often carries the action through to its end.",
    "options": [
     "Repetition: “I loose again”",
     "Motion up: “I loose upward”",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">διαλέγομαι</i> come to mean, from “pick out between”?",
-   "explain": "<i lang=\"grc\">Δια-</i> gives the sense of exchange between two, and <i lang=\"grc\">διαλέγομαι</i> means “I talk with,” whence “dialogue.”",
+   "explain": "The prefix <i lang=\"grc\">δια-</i> gives the sense of exchange between two, and <i lang=\"grc\">διαλέγομαι</i> means “I talk with,” whence “dialogue.”",
    "options": [
     "“I choose apart”",
     "“I read through”",
@@ -208,7 +208,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What do the parts of “chrysanthemum” mean?",
-   "explain": "<i lang=\"grc\">Χρυσός</i> and <i lang=\"grc\">ἄνθεμον</i>.",
+   "explain": "The forms <i lang=\"grc\">χρυσός</i> and <i lang=\"grc\">ἄνθεμον</i>.",
    "options": [
     "“golden” and “anthem”",
     "“gold” and “flower”",
@@ -240,7 +240,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">προλέγω</i> mean?",
-   "explain": "<i lang=\"grc\">Προ-</i>, “before.”",
+   "explain": "The prefix <i lang=\"grc\">προ-</i>, “before.”",
    "options": [
     "“I say again”",
     "“I say down”",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “dinosaur” mean literally?",
-   "explain": "<i lang=\"grc\">Δεινός</i>, “terrible,” and <i lang=\"grc\">σαῦρος</i>, “lizard,” a modern coinage.",
+   "explain": "The words <i lang=\"grc\">δεινός</i>, “terrible,” and <i lang=\"grc\">σαῦρος</i>, “lizard,” a modern coinage.",
    "options": [
     "“great beast”",
     "“ancient lizard”",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ἀποδημέω</i> mean, from <i lang=\"grc\">ἀπο-</i> and <i lang=\"grc\">δῆμος</i>?",
-   "explain": "<i lang=\"grc\">Ἀπο-</i>, “away,” from one’s people.",
+   "explain": "The prefix <i lang=\"grc\">ἀπο-</i>, “away,” from one’s people.",
    "options": [
     "“I am abroad”",
     "“I lead the people”",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which English word keeps the Greek joining vowel <i lang=\"grc\">-o-</i>?",
-   "explain": "<i lang=\"grc\">Φιλ-ό-σοφος</i>; in “philanthropy” the vowel is dropped before <i lang=\"grc\">a</i>.",
+   "explain": "The word <i lang=\"grc\">φιλ-ό-σοφος</i>; in “philanthropy” the vowel is dropped before <i lang=\"grc\">a</i>.",
    "options": [
     "“philanthropy”",
     "“anarchy”",
@@ -320,7 +320,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “oxygen” mean, as it was coined?",
-   "explain": "<i lang=\"grc\">Ὀξύς</i>, “sharp,” “acid,” and <i lang=\"grc\">-γενής</i>, “producing,” a modern coinage.",
+   "explain": "The word <i lang=\"grc\">ὀξύς</i>, “sharp,” “acid,” and <i lang=\"grc\">-γενής</i>, “producing,” a modern coinage.",
    "options": [
     "“sharp air”",
     "“air of life”",
@@ -336,7 +336,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "Which compound is determinative?",
-   "explain": "<i lang=\"grc\">Μέσος</i>, “middle,” describes <i lang=\"grc\">ἡμέρα</i>, “day.”",
+   "explain": "The word <i lang=\"grc\">μέσος</i>, “middle,” describes <i lang=\"grc\">ἡμέρα</i>, “day.”",
    "options": [
     "<i lang=\"grc\">μεσημβρία</i> (“midday”)",
     "<i lang=\"grc\">μεγαλόψυχος</i> (“great-souled”)",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">ὑπο-</i> add in <i lang=\"grc\">ὑποτάσσω</i> (“I arrange”)?",
-   "explain": "<i lang=\"grc\">Ὑπο-</i>, “under.”",
+   "explain": "The prefix <i lang=\"grc\">ὑπο-</i>, “under.”",
    "options": [
     "“over”: “I place over”",
     "“under”: “I subject”",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does “orthography” mean, read from its parts?",
-   "explain": "<i lang=\"grc\">Ὀρθός</i> and <i lang=\"grc\">-γραφία</i>.",
+   "explain": "The forms <i lang=\"grc\">ὀρθός</i> and <i lang=\"grc\">-γραφία</i>.",
    "options": [
     "“straight drawing”",
     "“correct speech”",
@@ -384,7 +384,7 @@ ARS.exercises["lang.iv.grc/composition-ex"] = {
    "section": "iv",
    "type": "mc",
    "prompt": "What does <i lang=\"grc\">εἰσ-</i> mean in <i lang=\"grc\">εἰσβάλλω</i>?",
-   "explain": "<i lang=\"grc\">Εἰσ-</i>, “into.”",
+   "explain": "The prefix <i lang=\"grc\">εἰσ-</i>, “into.”",
    "options": [
     "“out”: “I throw out”",
     "“around”: “I surround”",

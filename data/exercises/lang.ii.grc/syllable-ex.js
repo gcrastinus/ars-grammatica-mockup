@@ -16,7 +16,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"grc\">θάλαττα</i> have?",
-   "explain": "<i lang=\"grc\">Θά-λατ-τα</i>: three vowels, three syllables.",
+   "explain": "The word <i lang=\"grc\">θά-λατ-τα</i>: three vowels, three syllables.",
    "options": [
     "Three",
     "Two",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"grc\">βασιλεύς</i> have?",
-   "explain": "<i lang=\"grc\">Βα-σι-λεύς</i>; <i lang=\"grc\">ευ</i> is a diphthong, one syllable.",
+   "explain": "The word <i lang=\"grc\">βα-σι-λεύς</i>; <i lang=\"grc\">ευ</i> is a diphthong, one syllable.",
    "options": [
     "Four, since ευ is two vowels",
     "Three",
@@ -48,7 +48,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "How many syllables does <i lang=\"grc\">οἶκοι</i> have?",
-   "explain": "<i lang=\"grc\">Οἶ-κοι</i>: each <i lang=\"grc\">οι</i> is a diphthong.",
+   "explain": "The word <i lang=\"grc\">οἶ-κοι</i>: each <i lang=\"grc\">οι</i> is a diphthong.",
    "options": [
     "Four, one for each vowel",
     "Three",
@@ -64,7 +64,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which vowels are always short?",
-   "explain": "<i lang=\"grc\">Η</i> and <i lang=\"grc\">ω</i> are always long; <i lang=\"grc\">α</i>, <i lang=\"grc\">ι</i>, <i lang=\"grc\">υ</i> may be either.",
+   "explain": "The vowels <i lang=\"grc\">η</i> and <i lang=\"grc\">ω</i> are always long; <i lang=\"grc\">α</i>, <i lang=\"grc\">ι</i>, <i lang=\"grc\">υ</i> may be either.",
    "options": [
     "<i lang=\"grc\">η</i> and <i lang=\"grc\">ω</i>",
     "<i lang=\"grc\">α</i> and <i lang=\"grc\">ι</i>",
@@ -96,7 +96,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Why is the first syllable of <i lang=\"grc\">δῆμος</i> long?",
-   "explain": "<i lang=\"grc\">Η</i> is always long.",
+   "explain": "The letter <i lang=\"grc\">η</i> is always long.",
    "options": [
     "Two consonants follow its vowel",
     "Its vowel <i lang=\"grc\">η</i> is long by nature",
@@ -112,7 +112,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which word begins with the sound <i lang=\"grc\">h</i>?",
-   "explain": "<i lang=\"grc\">Ἡμέρα</i> has the rough breathing.",
+   "explain": "The word <i lang=\"grc\">ἡμέρα</i> has the rough breathing.",
    "options": [
     "<i lang=\"grc\">ἐλπίς</i>",
     "<i lang=\"grc\">ἀρετή</i>",
@@ -128,7 +128,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Over which vowel of a diphthong at the start of a word is the breathing written?",
-   "explain": "<i lang=\"grc\">Οἶνος</i>, <i lang=\"grc\">αὐτός</i>: the breathing stands over the second vowel.",
+   "explain": "The words <i lang=\"grc\">οἶνος</i>, <i lang=\"grc\">αὐτός</i>: the breathing stands over the second vowel.",
    "options": [
     "The first",
     "Both",
@@ -288,7 +288,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Which of these is proclitic, with no accent, leaning on the word after it?",
-   "explain": "<i lang=\"grc\">Ἐν</i>, <i lang=\"grc\">εἰς</i>, and <i lang=\"grc\">ἐκ</i> are proclitics.",
+   "explain": "The words <i lang=\"grc\">ἐν</i>, <i lang=\"grc\">εἰς</i>, and <i lang=\"grc\">ἐκ</i> are proclitics.",
    "options": [
     "<i lang=\"grc\">ἐν</i>",
     "<i lang=\"grc\">ἐπί</i>",
@@ -352,7 +352,7 @@ ARS.exercises["lang.ii.grc/syllable-ex"] = {
    "section": "ii",
    "type": "mc",
    "prompt": "Why is the first syllable of <i lang=\"grc\">ἔξω</i> long?",
-   "explain": "<i lang=\"grc\">Ξ</i> counts as two consonants, <i lang=\"grc\">κσ</i>.",
+   "explain": "The letter <i lang=\"grc\">ξ</i> counts as two consonants, <i lang=\"grc\">κσ</i>.",
    "options": [
     "<i lang=\"grc\">ε</i> is long before every consonant",
     "<i lang=\"grc\">ξ</i> is a double consonant",

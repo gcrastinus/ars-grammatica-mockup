@@ -44,7 +44,7 @@ ARS.decks["lang.v.grc/voice"] = {
        "It has active forms with passive meaning"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Βούλομαι</i> means “I wish,” an active meaning, though its forms are middle or passive."
+      "explain": "The word <i lang=\"grc\">βούλομαι</i> means “I wish,” an active meaning, though its forms are middle or passive."
      }
     ]
    }
@@ -65,7 +65,7 @@ ARS.decks["lang.v.grc/voice"] = {
        "<i lang=\"grc\">μανθάνουσι</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Δύναμαι</i> is completed by an infinitive."
+      "explain": "The word <i lang=\"grc\">δύναμαι</i> is completed by an infinitive."
      },
      {
       "prompt": "In <i lang=\"grc\">κελεύει τοὺς στρατιώτας μένειν</i>, what case is the subject of the infinitive?",
@@ -130,7 +130,7 @@ ARS.decks["lang.v.grc/voice"] = {
        "The sense “after”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Καίπερ</i> with a participle marks a concession."
+      "explain": "The word <i lang=\"grc\">καίπερ</i> with a participle marks a concession."
      }
     ]
    }

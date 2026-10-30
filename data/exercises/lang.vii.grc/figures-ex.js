@@ -32,7 +32,7 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "In “As a falcon in the mountains … swoopeth lightly after a trembling dove” (<em lang=\"grc\">ἠΰτε κίρκος ὄρεσφιν … οἴμησε μετὰ τρήρωνα πέλειαν</em>), which word states the likeness?",
-   "explain": "<em lang=\"grc\">Ἠΰτε</em> states the likeness between Achilles’ pursuit and the falcon’s. <em lang=\"grc\">Κίρκος</em> names the bird, and <em lang=\"grc\">πέλειαν</em> names the dove.",
+   "explain": "The word <em lang=\"grc\">ἠΰτε</em> states the likeness between Achilles’ pursuit and the falcon’s. <em lang=\"grc\">Κίρκος</em> names the bird, and <em lang=\"grc\">πέλειαν</em> names the dove.",
    "options": ["<em lang=\"grc\">κίρκος</em>", "<em lang=\"grc\">οἴμησε</em>", "<em lang=\"grc\">ἠΰτε</em>", "<em lang=\"grc\">πέλειαν</em>"],
    "answer": 2
   },
@@ -75,7 +75,7 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Antenor says of Odysseus, “words like snowflakes on a winter’s day” (<em lang=\"grc\">ἔπεα νιφάδεσσιν ἐοικότα χειμερίῃσιν</em>). What marks the wording as a simile?",
-   "explain": "<em lang=\"grc\">Ἐοικότα</em> means “like,” and it states the likeness between the words and the snowflakes. Without that word the phrase would transfer “snowflakes.”",
+   "explain": "The word <em lang=\"grc\">ἐοικότα</em> means “like,” and it states the likeness between the words and the snowflakes. Without that word the phrase would transfer “snowflakes.”",
    "options": [
     "The word <em lang=\"grc\">ἐοικότα</em>",
     "The plural of <em lang=\"grc\">ἔπεα</em>",
@@ -139,7 +139,7 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "“Words like snowflakes on a winter’s day” (<em lang=\"grc\">ἔπεα νιφάδεσσιν ἐοικότα χειμερίῃσιν</em>). What figure is this?",
-   "explain": "<em lang=\"grc\">Ἐοικότα</em> states the likeness, so the wording is a simile. Without that word, “snowflakes” said of the words would be a metaphor.",
+   "explain": "The word <em lang=\"grc\">ἐοικότα</em> states the likeness, so the wording is a simile. Without that word, “snowflakes” said of the words would be a metaphor.",
    "options": [
     "A simile",
     "A metaphor",
@@ -267,7 +267,7 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "section": "vii",
    "type": "mc",
    "prompt": "Homer says of Apollo, coming down from Olympus, “his coming was like the night” (<em lang=\"grc\">ὃ δ᾽ ἤϊε νυκτὶ ἐοικώς</em>; <i>Iliad</i> I.47). The next line tells what Apollo does, and the night is not named again. What is it?",
-   "explain": "<em lang=\"grc\">Ἐοικώς</em> means “like,” and it states the likeness between Apollo’s coming and the night, so it is a simile. It is not extended, because the comparison is not kept through a further scene.",
+   "explain": "The word <em lang=\"grc\">ἐοικώς</em> means “like,” and it states the likeness between Apollo’s coming and the night, so it is a simile. It is not extended, because the comparison is not kept through a further scene.",
    "options": [
     "A metaphor, because the night is said of a god",
     "A simile in one sentence",

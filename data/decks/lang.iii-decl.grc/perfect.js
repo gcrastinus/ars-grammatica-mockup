@@ -33,7 +33,7 @@ ARS.decks["lang.iii-decl.grc/perfect"] = {
        "“I shall see”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Οἶδα</i> is a perfect (“I have seen”) whose sense is the resulting state, “I know.”"
+      "explain": "The word <i lang=\"grc\">οἶδα</i> is a perfect (“I have seen”) whose sense is the resulting state, “I know.”"
      },
      {
       "prompt": "Which English sentence best renders the sense of <i lang=\"grc\">ἡ θύρα κέκλεισται</i>?",
@@ -119,7 +119,7 @@ ARS.decks["lang.iii-decl.grc/perfect"] = {
        "<i lang=\"grc\">γέγραφα</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Γέγραφα</i> has no <i lang=\"grc\">κ</i>; the others are first perfects in <i lang=\"grc\">-κα</i>."
+      "explain": "The word <i lang=\"grc\">γέγραφα</i> has no <i lang=\"grc\">κ</i>; the others are first perfects in <i lang=\"grc\">-κα</i>."
      },
      {
       "prompt": "What does <i lang=\"grc\">ἐλελύκει</i> mean?",

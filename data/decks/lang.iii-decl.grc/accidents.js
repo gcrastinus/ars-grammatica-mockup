@@ -81,7 +81,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
        "<i lang=\"grc\">κλητική</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Δοτική</i> is the case of giving, translated by Latin <i lang=\"grc\">datīvus</i>."
+      "explain": "The word <i lang=\"grc\">δοτική</i> is the case of giving, translated by Latin <i lang=\"grc\">datīvus</i>."
      },
      {
       "prompt": "What does <i lang=\"grc\">κλητική</i>, the vocative, name?",
@@ -92,7 +92,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
        "The case “of what is caused”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Κλητική</i> is the case of calling, the case of address."
+      "explain": "The word <i lang=\"grc\">κλητική</i> is the case of calling, the case of address."
      }
     ]
    }
@@ -124,7 +124,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
        "The genitive"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ἀπό</i>, like <i lang=\"grc\">ἐκ</i>, takes the genitive; Greek has no ablative."
+      "explain": "The word <i lang=\"grc\">ἀπό</i>, like <i lang=\"grc\">ἐκ</i>, takes the genitive; Greek has no ablative."
      },
      {
       "prompt": "Which cases can a Greek preposition take?",
@@ -327,7 +327,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
        "“past”"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἀόριστος</i> means “undefined”: the aorist does not say that the action was going on or that its result remains."
+      "explain": "The word <i lang=\"grc\">ἀόριστος</i> means “undefined”: the aorist does not say that the action was going on or that its result remains."
      }
     ]
    }
@@ -497,7 +497,7 @@ ARS.decks["lang.iii-decl.grc/accidents"] = {
        "A question: “is he writing?”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Εἴθε</i> with the optative expresses a wish."
+      "explain": "The word <i lang=\"grc\">εἴθε</i> with the optative expresses a wish."
      },
      {
       "prompt": "What does <i lang=\"grc\">γράφοι ἄν</i> mean?",

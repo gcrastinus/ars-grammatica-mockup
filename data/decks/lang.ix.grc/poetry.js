@@ -122,7 +122,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
        "The Homeric possessive, “his own”"
       ],
       "answer": 3,
-      "explain": "<em lang=\"grc\">Ἥν</em> here is the possessive."
+      "explain": "The word <em lang=\"grc\">ἥν</em> here is the possessive."
      }
     ]
    }
@@ -258,7 +258,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
        "<em lang=\"grc\">πατέρα</em>"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Κλείουσαι</em>, “glorifying,” agrees with <em lang=\"grc\">μοῦσαι</em>."
+      "explain": "The word <em lang=\"grc\">κλείουσαι</em>, “glorifying,” agrees with <em lang=\"grc\">μοῦσαι</em>."
      }
     ]
    }
@@ -430,7 +430,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
        "An optative"
       ],
       "answer": 0,
-      "explain": "<em lang=\"grc\">Εἴθ’ ὤφελε</em> with the infinitive expresses an unattainable wish."
+      "explain": "The phrase <em lang=\"grc\">εἴθ’ ὤφελε</em> with the infinitive expresses an unattainable wish."
      },
      {
       "prompt": "What does <em lang=\"grc\">μηδέ</em> add?",
@@ -520,7 +520,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
        "“instead of”"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Κυνὸς δίκην</em>, “like a dog.”"
+      "explain": "The phrase <em lang=\"grc\">κυνὸς δίκην</em>, “like a dog.”"
      }
     ]
    }
@@ -635,7 +635,7 @@ ARS.decks["lang.ix.grc/poetry"] = {
        "An adverb"
       ],
       "answer": 1,
-      "explain": "<em lang=\"grc\">Ἐνὶ ζωοῖσιν</em>, “among the living.”"
+      "explain": "The phrase <em lang=\"grc\">ἐνὶ ζωοῖσιν</em>, “among the living.”"
      },
      {
       "prompt": "What do <em lang=\"grc\">μέν</em> and <em lang=\"grc\">δέ</em> set against each other?",

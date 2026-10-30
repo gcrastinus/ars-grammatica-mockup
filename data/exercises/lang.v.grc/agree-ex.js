@@ -437,7 +437,7 @@ ARS.exercises["lang.v.grc/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "How does this construction stand? <i lang=\"grc\">οἱ πολῖται ψηφίζεται</i>",
-   "explain": "<i lang=\"grc\">Πολῖται</i> is a masculine plural, so the verb should be plural (<i lang=\"grc\">ψηφίζονται</i>); the parts do not fit.",
+   "explain": "The word <i lang=\"grc\">πολῖται</i> is a masculine plural, so the verb should be plural (<i lang=\"grc\">ψηφίζονται</i>); the parts do not fit.",
    "options": [
     "Congruous and complete: the parts fit and the sense is finished",
     "Congruous but incomplete: the sense is not finished",
@@ -452,7 +452,7 @@ ARS.exercises["lang.v.grc/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Judge the phrase: <i lang=\"grc\">ἡ ἄδικος δίκη</i>.",
-   "explain": "<i lang=\"grc\">Ἄδικος</i> has two endings, so its feminine is the same as its masculine, and it agrees with <i lang=\"grc\">δίκη</i> (“verdict”).",
+   "explain": "The word <i lang=\"grc\">ἄδικος</i> has two endings, so its feminine is the same as its masculine, and it agrees with <i lang=\"grc\">δίκη</i> (“verdict”).",
    "options": [
     "Incorrect: the adjective does not agree in gender",
     "Incorrect: the adjective does not agree in number",
@@ -468,7 +468,7 @@ ARS.exercises["lang.v.grc/agree-ex"] = {
    "section": "v",
    "type": "mc",
    "prompt": "Judge the phrase: <i lang=\"grc\">ὁ σοφὸς ποιητής</i>.",
-   "explain": "<i lang=\"grc\">Ποιητής</i> (“poet”) is masculine though it belongs to the first declension, so the masculine <i lang=\"grc\">σοφός</i> agrees with it.",
+   "explain": "The word <i lang=\"grc\">ποιητής</i> (“poet”) is masculine though it belongs to the first declension, so the masculine <i lang=\"grc\">σοφός</i> agrees with it.",
    "options": [
     "Incorrect: the adjective does not agree in gender",
     "Incorrect: the adjective does not agree in number",

@@ -44,7 +44,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "<i lang=\"grc\">μέν</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Γάρ</i> gives the reason; <i lang=\"grc\">οὖν</i> draws a conclusion."
+      "explain": "The word <i lang=\"grc\">γάρ</i> gives the reason; <i lang=\"grc\">οὖν</i> draws a conclusion."
      }
     ]
    }
@@ -65,7 +65,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "Usually second, never first"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Γάρ</i> is postpositive."
+      "explain": "The word <i lang=\"grc\">γάρ</i> is postpositive."
      },
      {
       "prompt": "What does <i lang=\"grc\">καί</i> mean in <i lang=\"grc\">καὶ ὁ πατὴρ ἦλθεν</i>, at the start of a reply?",
@@ -76,7 +76,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "“not”"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Καί</i> can mean “also” or “even,” not only “and.”"
+      "explain": "The word <i lang=\"grc\">καί</i> can mean “also” or “even,” not only “and.”"
      },
      {
       "prompt": "What does <i lang=\"grc\">τε … καί</i> mean?",
@@ -87,7 +87,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "“not only … but”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Τε … καί</i> joins two members as “both … and.”"
+      "explain": "The phrase <i lang=\"grc\">τε … καί</i> joins two members as “both … and.”"
      }
     ]
    }
@@ -108,7 +108,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "<i lang=\"grc\">οὐχ</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Μή</i> is used with commands and prohibitions: <i lang=\"grc\">μὴ λέγε</i>."
+      "explain": "The word <i lang=\"grc\">μή</i> is used with commands and prohibitions: <i lang=\"grc\">μὴ λέγε</i>."
      },
      {
       "prompt": "Why is it <i lang=\"grc\">οὐχ ὁρῶ</i> but <i lang=\"grc\">οὐκ ἔστιν</i>?",
@@ -151,7 +151,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "“if ever he writes”"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ἄν</i> with the optative says what would happen."
+      "explain": "The word <i lang=\"grc\">ἄν</i> with the optative says what would happen."
      },
      {
       "prompt": "What answer does <i lang=\"grc\">ἆρ’ οὐ</i> expect?",
@@ -162,7 +162,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "A number"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἆρ’ οὐ</i>, like Latin <i lang=\"grc\">nōnne</i>, expects “yes.”"
+      "explain": "The phrase <i lang=\"grc\">ἆρ’ οὐ</i>, like Latin <i lang=\"grc\">nōnne</i>, expects “yes.”"
      },
      {
       "prompt": "What is <i lang=\"grc\">ἐάν</i>?",
@@ -173,7 +173,7 @@ ARS.decks["lang.iii-indecl.grc/particles"] = {
        "<i lang=\"grc\">εἰ</i> with <i lang=\"grc\">ἄν</i>, “if (ever)”"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ἐάν</i> is <i lang=\"grc\">εἰ</i> combined with <i lang=\"grc\">ἄν</i>, used with the subjunctive."
+      "explain": "The word <i lang=\"grc\">ἐάν</i> is <i lang=\"grc\">εἰ</i> combined with <i lang=\"grc\">ἄν</i>, used with the subjunctive."
      }
     ]
    }

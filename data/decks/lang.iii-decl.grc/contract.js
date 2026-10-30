@@ -76,7 +76,7 @@ ARS.decks["lang.iii-decl.grc/contract"] = {
        "<i lang=\"grc\">φιλέομεν</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Ε</i> and <i lang=\"grc\">ο</i> contract to <i lang=\"grc\">ου</i>: <i lang=\"grc\">φιλέ-ομεν</i>, <i lang=\"grc\">φιλοῦμεν</i>."
+      "explain": "The vowels <i lang=\"grc\">ε</i> and <i lang=\"grc\">ο</i> contract to <i lang=\"grc\">ου</i>: <i lang=\"grc\">φιλέ-ομεν</i>, <i lang=\"grc\">φιλοῦμεν</i>."
      },
      {
       "prompt": "What is the present infinitive of <i lang=\"grc\">ἀξιόω</i> (“I think worthy”)?",
@@ -108,7 +108,7 @@ ARS.decks["lang.iii-decl.grc/contract"] = {
        "<i lang=\"grc\">οι</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ε</i> and <i lang=\"grc\">ο</i> contract to the spurious diphthong <i lang=\"grc\">ου</i>: <i lang=\"grc\">ποιέομεν</i>, <i lang=\"grc\">ποιοῦμεν</i>."
+      "explain": "The vowels <i lang=\"grc\">ε</i> and <i lang=\"grc\">ο</i> contract to the spurious diphthong <i lang=\"grc\">ου</i>: <i lang=\"grc\">ποιέομεν</i>, <i lang=\"grc\">ποιοῦμεν</i>."
      },
      {
       "prompt": "What does <i lang=\"grc\">α</i> + <i lang=\"grc\">ο</i> give?",
@@ -119,7 +119,7 @@ ARS.decks["lang.iii-decl.grc/contract"] = {
        "<i lang=\"grc\">αυ</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Α</i> with an <i lang=\"grc\">o</i>-sound gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">τιμάομεν</i>, <i lang=\"grc\">τιμῶμεν</i>."
+      "explain": "The letter <i lang=\"grc\">α</i> with an <i lang=\"grc\">o</i>-sound gives <i lang=\"grc\">ω</i>: <i lang=\"grc\">τιμάομεν</i>, <i lang=\"grc\">τιμῶμεν</i>."
      },
      {
       "prompt": "From which uncontracted form does <i lang=\"grc\">νικᾶτε</i> come?",
@@ -130,7 +130,7 @@ ARS.decks["lang.iii-decl.grc/contract"] = {
        "<i lang=\"grc\">νικόετε</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Α</i> with <i lang=\"grc\">ε</i> gives long <i lang=\"grc\">ᾱ</i>: <i lang=\"grc\">νικάετε</i>, <i lang=\"grc\">νικᾶτε</i>."
+      "explain": "The letter <i lang=\"grc\">α</i> with <i lang=\"grc\">ε</i> gives long <i lang=\"grc\">ᾱ</i>: <i lang=\"grc\">νικάετε</i>, <i lang=\"grc\">νικᾶτε</i>."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.iii-decl.grc/contract"] = {
        "<i lang=\"grc\">ἡγέονται</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Ε</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἡγέ-ονται</i>, <i lang=\"grc\">ἡγοῦνται</i>."
+      "explain": "In contraction, <i lang=\"grc\">ε</i> + <i lang=\"grc\">ο</i> gives <i lang=\"grc\">ου</i>: <i lang=\"grc\">ἡγέ-ονται</i>, <i lang=\"grc\">ἡγοῦνται</i>."
      },
      {
       "prompt": "Which two forms of the imperfect of <i lang=\"grc\">τιμάω</i> are alike?",

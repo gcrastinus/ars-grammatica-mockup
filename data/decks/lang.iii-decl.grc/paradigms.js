@@ -491,7 +491,7 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
        "Four, counting the dual"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Ἀληθής</i> is an adjective of two endings."
+      "explain": "The word <i lang=\"grc\">ἀληθής</i> is an adjective of two endings."
      }
     ]
    }
@@ -555,7 +555,7 @@ ARS.decks["lang.iii-decl.grc/paradigms"] = {
        "<i lang=\"grc\">ἐστέ</i>"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</i>."
+      "explain": "The phrase <i lang=\"grc\">εἰμί, εἶ, ἐστί, ἐσμέν, ἐστέ, εἰσί</i>."
      },
      {
       "prompt": "In what form is the future of <i lang=\"grc\">εἰμί</i>?",

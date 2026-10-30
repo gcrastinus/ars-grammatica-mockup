@@ -22,7 +22,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "Three"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Παι-δί-ον</i>; <i lang=\"grc\">αι</i> is a diphthong."
+      "explain": "The word <i lang=\"grc\">παι-δί-ον</i>; <i lang=\"grc\">αι</i> is a diphthong."
      },
      {
       "prompt": "Why is the first syllable of <i lang=\"grc\">ἄλλος</i> long?",
@@ -33,7 +33,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "Because of the breathing"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Λλ</i> makes position."
+      "explain": "The double consonant <i lang=\"grc\">λλ</i> makes position."
      },
      {
       "prompt": "Which vowels may be long or short?",
@@ -87,7 +87,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "It falls on the stem’s vowel"
       ],
       "answer": 0,
-      "explain": "<i lang=\"grc\">Λύομεν</i>, <i lang=\"grc\">ἔλυσα</i>."
+      "explain": "The words <i lang=\"grc\">λύομεν</i>, <i lang=\"grc\">ἔλυσα</i>."
      }
     ]
    }
@@ -162,7 +162,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "<i lang=\"grc\">ὕδωρ</i>"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ὕδωρ</i> has the rough breathing; English “hydro-.”"
+      "explain": "The word <i lang=\"grc\">ὕδωρ</i> has the rough breathing; English “hydro-.”"
      },
      {
       "prompt": "Does a breathing change the quantity of a vowel?",
@@ -194,7 +194,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "No"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Λέγουσι</i> and <i lang=\"grc\">λέγουσιν</i> are one form."
+      "explain": "The forms <i lang=\"grc\">λέγουσι</i> and <i lang=\"grc\">λέγουσιν</i> are one form."
      },
      {
       "prompt": "When is movable nu chiefly written?",
@@ -216,7 +216,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "The infinitive in <i lang=\"grc\">-ειν</i>"
       ],
       "answer": 1,
-      "explain": "<i lang=\"grc\">Πᾶσι</i> or <i lang=\"grc\">πᾶσιν</i>."
+      "explain": "The word <i lang=\"grc\">πᾶσι</i> or <i lang=\"grc\">πᾶσιν</i>."
      }
     ]
    }
@@ -291,7 +291,7 @@ ARS.decks["lang.ii.grc/syllable"] = {
        "<i lang=\"grc\">καί</i>"
       ],
       "answer": 2,
-      "explain": "<i lang=\"grc\">Γε</i>, “at least,” is enclitic."
+      "explain": "The word <i lang=\"grc\">γε</i>, “at least,” is enclitic."
      },
      {
       "prompt": "Why does <i lang=\"grc\">δῶρόν ἐστι</i> have two accents on <i lang=\"grc\">δῶρον</i>?",

@@ -87,7 +87,7 @@ ARS.decks["lang.vii.grc/tropes"] = {
        "The conjunctions"
       ],
       "answer": 3,
-      "explain": "<i lang=\"grc\">Ἦλθον, εἶδον, ἐνίκησα.</i>"
+      "explain": "The sentence <i lang=\"grc\">ἦλθον, εἶδον, ἐνίκησα.</i>"
      }
     ]
    }

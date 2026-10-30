@@ -160,7 +160,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">πρὸ τῆς μάχης</i> (“before the battle”)",
-   "explain": "<i lang=\"grc\">Πρό</i> takes the genitive.",
+   "explain": "The word <i lang=\"grc\">πρό</i> takes the genitive.",
    "options": [
     "Dative",
     "Genitive",
@@ -176,7 +176,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">ἀντὶ τοῦ ἀδελφοῦ</i> (“instead of the brother”)",
-   "explain": "<i lang=\"grc\">Ἀντί</i> takes the genitive.",
+   "explain": "The word <i lang=\"grc\">ἀντί</i> takes the genitive.",
    "options": [
     "Genitive",
     "Dative",
@@ -192,7 +192,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"grc\">εἰς ___</i> (“into the sea”).",
-   "explain": "<i lang=\"grc\">Εἰς</i> takes the accusative.",
+   "explain": "The word <i lang=\"grc\">εἰς</i> takes the accusative.",
    "options": [
     "<i lang=\"grc\">τῇ θαλάττῃ</i>",
     "<i lang=\"grc\">τῆς θαλάττης</i>",
@@ -208,7 +208,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "Choose the form: <i lang=\"grc\">σὺν ___</i> (“with the friends”).",
-   "explain": "<i lang=\"grc\">Σύν</i> takes the dative.",
+   "explain": "The word <i lang=\"grc\">σύν</i> takes the dative.",
    "options": [
     "<i lang=\"grc\">τοὺς φίλους</i>",
     "<i lang=\"grc\">τῶν φίλων</i>",
@@ -224,7 +224,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">μετὰ τῶν στρατιωτῶν</i> (“with the soldiers”)",
-   "explain": "<i lang=\"grc\">Μετά</i> with the genitive means “with.”",
+   "explain": "The word <i lang=\"grc\">μετά</i> with the genitive means “with.”",
    "options": [
     "Dative",
     "Genitive",
@@ -240,7 +240,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">μετὰ τὴν νίκην</i> (“after the victory”)",
-   "explain": "<i lang=\"grc\">Μετά</i> with the accusative means “after.”",
+   "explain": "The word <i lang=\"grc\">μετά</i> with the accusative means “after.”",
    "options": [
     "Accusative",
     "Genitive",
@@ -256,7 +256,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">διὰ τῆς χώρας</i> (“through the country”)",
-   "explain": "<i lang=\"grc\">Διά</i> with the genitive means “through.”",
+   "explain": "The word <i lang=\"grc\">διά</i> with the genitive means “through.”",
    "options": [
     "Dative",
     "Accusative",
@@ -272,7 +272,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">διὰ τὴν νόσον</i> (“because of the disease”)",
-   "explain": "<i lang=\"grc\">Διά</i> with the accusative gives the cause.",
+   "explain": "The word <i lang=\"grc\">διά</i> with the accusative gives the cause.",
    "options": [
     "Genitive",
     "Dative",
@@ -288,7 +288,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">περὶ τοῦ θανάτου</i> (“concerning death”)",
-   "explain": "<i lang=\"grc\">Περί</i> with the genitive means “about.”",
+   "explain": "The word <i lang=\"grc\">περί</i> with the genitive means “about.”",
    "options": [
     "Dative",
     "Genitive",
@@ -304,7 +304,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">παρὰ τῷ στρατηγῷ</i> (“at the general’s side”)",
-   "explain": "<i lang=\"grc\">Παρά</i> with the dative means “beside, at the side of” a person.",
+   "explain": "The word <i lang=\"grc\">παρά</i> with the dative means “beside, at the side of” a person.",
    "options": [
     "Genitive",
     "Dative",
@@ -336,7 +336,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">παρὰ τοῦ πατρός</i> (“from the father”)",
-   "explain": "<i lang=\"grc\">Παρά</i> with the genitive means “from (the side of).”",
+   "explain": "The word <i lang=\"grc\">παρά</i> with the genitive means “from (the side of).”",
    "options": [
     "Dative",
     "Accusative",
@@ -352,7 +352,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">πρὸς τὴν θάλατταν</i> (“toward the sea”)",
-   "explain": "<i lang=\"grc\">Πρός</i> with the accusative means “to,” “toward.”",
+   "explain": "The word <i lang=\"grc\">πρός</i> with the accusative means “to,” “toward.”",
    "options": [
     "Accusative",
     "Genitive",
@@ -368,7 +368,7 @@ ARS.exercises["lang.iii-indecl.grc/govern-ex"] = {
    "section": "iii",
    "type": "mc",
    "prompt": "What case follows the preposition? <i lang=\"grc\">κατὰ τὸν νόμον</i> (“according to the law”)",
-   "explain": "<i lang=\"grc\">Κατά</i> with the accusative means “according to.”",
+   "explain": "The word <i lang=\"grc\">κατά</i> with the accusative means “according to.”",
    "options": [
     "Genitive",
     "Accusative",
