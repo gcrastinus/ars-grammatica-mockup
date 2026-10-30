@@ -106,7 +106,7 @@ ARS.exercises["lang.vii.grc/figures-ex"] = {
    "deck": "lang.vii.grc/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "In the same falcon lines the dove flees, the falcon darts at her, and <em lang=\"grc\">ὣς</em> brings the picture back to Hector. What do those details do?",
+   "prompt": "“As a falcon … swoopeth after a trembling dove … even so he sped straight on, and Hector fled” (<em lang=\"grc\">ἠΰτε κίρκος … ὣς ἄρ᾽ ὅ γ᾽ ἐμμεμαὼς ἰθὺς πέτετο, τρέσε δ᾽ Ἕκτωρ</em>). In these lines the dove flees, the falcon darts at her, and <em lang=\"grc\">ὣς</em> brings the picture back to Hector. What do those details do?",
    "explain": "They fill out the one likeness already stated by <em lang=\"grc\">ἠΰτε</em>. They do not begin a second figure.",
    "options": [
     "They begin a second, unrelated metaphor",
