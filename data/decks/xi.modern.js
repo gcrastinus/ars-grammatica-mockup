@@ -193,9 +193,9 @@ ARS.decks['xi.modern'] = {
     `Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.`,
     `The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.`,
     `Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.`,
-    `Whether grammar is in substance one in all languages is still an open question, and modern linguistics has both challenged and renewed the classical claim.`,
+    `Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.`,
     `The classical art does not depend on settling that question; it depends on the claim that words are signs of what the mind understands, and that the mind understands things.`,
-    `Because this is so, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`
+    `Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`
   ],
   panels: [
 
@@ -678,7 +678,7 @@ ARS.decks['xi.modern'] = {
 { id: 'end',
   title: 'Grammar as a liberal art',
   body: `<p>Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written. This course has studied it in its parts: the definition and tasks of grammar, the sign, the material of speech, the parts of speech and their reasons, the formation of words, construction, correctness and its errors, the figures and tropes, signification and supposition, analysis, composition, and the other traditions and the modern study of language.</p>
-<p>Whether grammar is in substance one in all languages is still an open question, and modern linguistics has both challenged and renewed the classical claim. The classical art does not depend on settling that question. It depends on the claim that words are signs of what the mind understands, and that the mind understands things. Because this is so, it is possible to learn another language, to translate, and to read the authors of other ages; and these are the reasons that the tradition gave for studying grammar first among the liberal arts.</p>`,
+<p>Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone; and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages; and these are the reasons that the tradition gave for studying grammar first among the liberal arts.</p>`,
   src: `General conclusion.`,
   qp: { id: 'q-end', variants: [
     { prompt: `What does the classical art claim that all languages share?`,

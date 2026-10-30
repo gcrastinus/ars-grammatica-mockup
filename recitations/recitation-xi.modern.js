@@ -181,7 +181,7 @@
     `Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.`,
     `The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.`,
     `Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.`,
-    `Whether grammar is in substance one in all languages is still an open question, and modern linguistics has both challenged and renewed the classical claim.`,
+    `Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.`,
     `The classical art does not depend on settling that question; it depends on the claim that words are signs of what the mind understands, and that the mind understands things.`,
-    `Because this is so, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`
+    `Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`
   ],
