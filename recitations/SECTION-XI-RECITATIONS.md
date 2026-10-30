@@ -404,5 +404,5 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 178. The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.
 179. Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.
 180. Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.
-181. The classical art does not depend on settling that question; it depends on the claim that words are signs of what the mind understands, and that the mind understands things.
+181. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.
 182. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.

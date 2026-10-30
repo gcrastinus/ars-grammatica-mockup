@@ -5422,7 +5422,7 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The twentieth century found things that the thirteenth did not, but the thirteenth century had the question why the categories of grammar are these categories; grammar is the art of speaking and writing correctly and of understanding what others have spoken and written, and the classical art depends on the claim that words are signs of what the mind understands, and that the mind understands things.",
+      "html": "The twentieth century found things that the thirteenth did not, but the thirteenth century had the question why the categories of grammar are these categories; grammar is the art of speaking and writing correctly and of understanding what others have spoken and written, and the classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.",
       "card": [
         44,
         45
