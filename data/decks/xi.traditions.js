@@ -752,7 +752,7 @@ ARS.decks['xi.traditions'] = {
       options: [`The vowel and the tone`, `The whole syllable`, `Nothing; it marks the meaning`, `The initial consonant, <i>l</i>`],
       answer: 3,
       explain: `In fǎnqiè the first character gives the initial consonant, and the second gives the rest of the syllable, its vowel, its ending, and its tone.` },
-    { prompt: `In the same spelling, what does <i>hán</i> give?`,
+    { prompt: `In a fǎnqiè spelling of a syllable <i>lán</i> by two characters read <i>lì</i> and <i>hán</i>, what does <i>hán</i> give?`,
       options: [`The initial consonant of the syllable, <i>h</i>`, `The meaning of the syllable, not its sound`, `The rest of the syllable, with its tone`, `Only the tone`],
       answer: 2,
       explain: `The second character gives the remainder of the syllable after the initial: its vowel, its ending, and its tone.` },
