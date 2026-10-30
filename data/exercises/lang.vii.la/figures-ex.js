@@ -14,7 +14,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">gnato</em> for <em lang=\"la\">nato</em> is…",
+   "prompt": "What is <em lang=\"la\">gnato</em> for <em lang=\"la\">nato</em>?",
    "explain": "Adding at the front is prosthesis; in the middle, epenthesis; at the end, paragoge. <em lang=\"la\">Gnato</em> for <em lang=\"la\">nato</em> is Donatus’s own example.",
    "options": [
     "Prosthesis: a letter added at the front",
@@ -30,7 +30,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">relliquias</em> for <em lang=\"la\">reliquias</em> is…",
+   "prompt": "What is <em lang=\"la\">relliquias</em> for <em lang=\"la\">reliquias</em>?",
    "explain": "A letter is added inside the word; this is Donatus’s example.",
    "options": [
     "Epenthesis: added in the middle",
@@ -46,7 +46,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">potestur</em> for <em lang=\"la\">potest</em> is…",
+   "prompt": "What is <em lang=\"la\">potestur</em> for <em lang=\"la\">potest</em>?",
    "explain": "A syllable is added at the end; this is Donatus’s own example. The opposite, his <em lang=\"la\">pote</em> for <em lang=\"la\">potest</em>, is apocope.",
    "options": [
     "Paragoge: added at the end",
@@ -62,7 +62,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">temno</em> for <em lang=\"la\">contemno</em> is…",
+   "prompt": "What is <em lang=\"la\">temno</em> for <em lang=\"la\">contemno</em>?",
    "explain": "The front of the word is taken away.",
    "options": [
     "Aphaeresis: taken from the front",
@@ -78,7 +78,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">commorat</em> for <em lang=\"la\">commoverat</em> is…",
+   "prompt": "What is <em lang=\"la\">commorat</em> for <em lang=\"la\">commoverat</em>?",
    "explain": "A syllable drops out of the middle.",
    "options": [
     "Syncope: taken from the middle",
@@ -94,7 +94,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Achilli</em> for <em lang=\"la\">Achillis</em> is…",
+   "prompt": "What is <em lang=\"la\">Achilli</em> for <em lang=\"la\">Achillis</em>?",
    "explain": "The last letter is cut off.",
    "options": [
     "Apocope: taken from the end",
@@ -174,7 +174,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "For Donatus, figures of words belong to…",
+   "prompt": "For Donatus, to whom do figures of words belong?",
    "explain": "Figures of words belong to the grammarians, and figures of thought to the orators. He draws the boundary between the two arts himself.",
    "options": [
     "The grammarians, by Donatus’s rule",
@@ -190,7 +190,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "The mountain Atlas given a “head” is…",
+   "prompt": "What figure gives the mountain Atlas a “head”?",
    "explain": "A head belongs to living things, and the mountain has none. This is Donatus’s example of the third kind of metaphor.",
    "options": [
     "Metaphor, from a living thing to the lifeless",
@@ -206,7 +206,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "“A fine friend you are!” said to a traitor is…",
+   "prompt": "What is “A fine friend you are!” said to a traitor?",
    "explain": "It says the opposite of what is meant. Donatus puts irony under allegory.",
    "options": [
     "Irony, a kind of allegory",
@@ -222,7 +222,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "On St. Thomas’s account, when Scripture speaks of God’s arm, the literal sense is…",
+   "prompt": "On St. Thomas’s account, when Scripture speaks of God’s arm, what is the literal sense?",
    "explain": "The literal sense is not the figure itself but what is figured.",
    "options": [
     "What the figure signifies: his power to act",
@@ -238,7 +238,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "A sentence that can be taken two ways, in Donatus’s list of faults, is…",
+   "prompt": "In Donatus’s list of faults, what is a sentence that can be taken two ways?",
    "explain": "It returns at the boundary with logic as the fallacy of amphiboly.",
    "options": [
     "Amphibolia, a double sense",
@@ -254,7 +254,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">olli</em> for <em lang=\"la\">illi</em> is…",
+   "prompt": "What is <em lang=\"la\">olli</em> for <em lang=\"la\">illi</em>?",
    "explain": "A letter is exchanged, not moved or added; this is Donatus’s example.",
    "options": [
     "Antithesis: one letter for another",
@@ -270,7 +270,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Euandre</em> for <em lang=\"la\">Euander</em> is…",
+   "prompt": "What is <em lang=\"la\">Euandre</em> for <em lang=\"la\">Euander</em>?",
    "explain": "The same letters are there, nothing is taken away, and one is moved to another place.",
    "options": [
     "Metathesis: one letter moved",
@@ -286,7 +286,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Albai longai</em> for <em lang=\"la\">Albae longae</em>, one syllable split into two, is…",
+   "prompt": "What is <em lang=\"la\">Albai longai</em> for <em lang=\"la\">Albae longae</em>, one syllable split into two?",
    "explain": "Diaeresis splits a syllable; episynaloephe, its contrary, fuses two into one.",
    "options": [
     "Diaeresis, one syllable made two",
@@ -302,7 +302,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Tempus erat quo prima quies mortalibus aegris / incipit</em> (<em lang=\"la\">Aeneid</em> II.268–269), for “it was night,” is…",
+   "prompt": "What is <em lang=\"la\">Tempus erat quo prima quies mortalibus aegris / incipit</em> (<em lang=\"la\">Aeneid</em> II.268–269), for “it was night”?",
    "explain": "Two lines describe the hour when first rest comes to weary mortals instead of saying “it was night.” That is periphrasis, a circumlocution for ornament.",
    "options": [
     "Periphrasis: many words for one thing",
@@ -318,7 +318,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">clangorque tubarum</em> (Aeneid II.313), a word that sounds like what it names, is…",
+   "prompt": "What is <em lang=\"la\">clangorque tubarum</em> (Aeneid II.313), a word that sounds like what it names?",
    "explain": "<em lang=\"la\">Clangor</em> imitates the blare of the trumpets. Donatus lists it under onomatopoeia.",
    "options": [
     "Onomatopoeia: a name made from the sound",
@@ -334,7 +334,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nate, meae vires, mea magna potentia solus</em> (Aeneid I.664), with <em lang=\"la\">mea</em> repeated at the head of the phrases, is…",
+   "prompt": "What is <em lang=\"la\">nate, meae vires, mea magna potentia solus</em> (Aeneid I.664), with <em lang=\"la\">mea</em> repeated at the head of the phrases?",
    "explain": "Venus addresses Cupid, and <em lang=\"la\">meae … mea</em> begins each phrase. Donatus gives this line for anaphora.",
    "options": [
     "Anaphora: the same word repeated at the beginning",
@@ -350,7 +350,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">ante etiam sceptrum Dictaei regis et ante</em> (Georgics II.536), where the line begins and ends with <em lang=\"la\">ante</em>, is…",
+   "prompt": "What is <em lang=\"la\">ante etiam sceptrum Dictaei regis et ante</em> (Georgics II.536), where the line begins and ends with <em lang=\"la\">ante</em>?",
    "explain": "The same word closes the line that opened it. Donatus gives this line for epanalepsis.",
    "options": [
     "Epanalepsis: the word that begins the line repeated at its end",
@@ -366,7 +366,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">sequitur pulcherrimus Astur, / Astur equo fidens</em> (<em lang=\"la\">Aeneid</em> X.180–181, as Donatus quotes it) is…",
+   "prompt": "What is <em lang=\"la\">sequitur pulcherrimus Astur, / Astur equo fidens</em> (<em lang=\"la\">Aeneid</em> X.180–181, as Donatus quotes it)?",
    "explain": "<em lang=\"la\">Astur</em> ends one line and begins the next. These are Donatus’s lines for anadiplosis.",
    "options": [
     "Anadiplosis: a line’s last word begins the next",
@@ -382,7 +382,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">me, me, adsum qui feci</em> (Aeneid IX.427), Nisus crying out to save his friend, is…",
+   "prompt": "What is <em lang=\"la\">me, me, adsum qui feci</em> (Aeneid IX.427), Nisus crying out to save his friend?",
    "explain": "<em lang=\"la\">Me, me</em>: the doubling, with nothing between, is Donatus’s epizeuxis.",
    "options": [
     "Epizeuxis: a word doubled at once, without a pause",
@@ -398,7 +398,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nam inceptio est amentium, haud amantium</em>, “for it is the undertaking of the mad, not of lovers” (Terence, <em lang=\"la\">Andria</em> 218), is…",
+   "prompt": "What is <em lang=\"la\">nam inceptio est amentium, haud amantium</em>, “for it is the undertaking of the mad, not of lovers” (Terence, <em lang=\"la\">Andria</em> 218)?",
    "explain": "<em lang=\"la\">Amentium</em> and <em lang=\"la\">amantium</em> differ by a letter and differ greatly in meaning. Donatus gives this line for paronomasia.",
    "options": [
     "Paronomasia: words alike in sound but different in sense",
@@ -414,7 +414,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">parricida</em>, “parent-killer,” said of one who killed his brother, is…",
+   "prompt": "What is <em lang=\"la\">parricida</em>, “parent-killer,” said of one who killed his brother?",
    "explain": "Latin had no proper word for a brother-killer, so <em lang=\"la\">parricida</em> is borrowed. Donatus: catachresis lends a name to a thing that has none of its own.",
    "options": [
     "Catachresis: a word borrowed for a thing without a proper name",
@@ -430,7 +430,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">lucus</em>, a grove, said to be named because it is not lit (<em lang=\"la\">quod non luceat</em>), is Donatus’s example of…",
+   "prompt": "Of what is <em lang=\"la\">lucus</em>, a grove, said to be named because it is not lit (<em lang=\"la\">quod non luceat</em>), Donatus’s example?",
    "explain": "Donatus: antiphrasis signifies by the contrary, as <em lang=\"la\">lucus</em> from not giving light, and <em lang=\"la\">bellum</em> from being anything but fine.",
    "options": [
     "Antiphrasis: a word that means the contrary of its source",
@@ -446,7 +446,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">nive candidior</em>, “whiter than snow,” and <em lang=\"la\">tardior testudine</em>, “slower than a tortoise,” are…",
+   "prompt": "What are <em lang=\"la\">nive candidior</em>, “whiter than snow,” and <em lang=\"la\">tardior testudine</em>, “slower than a tortoise”?",
    "explain": "Donatus: hyperbole exceeds belief, to increase (<em lang=\"la\">nive candidior</em>) or to diminish (<em lang=\"la\">tardior testudine</em>).",
    "options": [
     "Hyperbole: beyond belief, to increase or to diminish",
@@ -462,7 +462,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">egregiam vero laudem et spolia ampla refertis</em>, “splendid glory indeed and rich spoils you win” (Aeneid IV.93), Juno to Venus, is…",
+   "prompt": "What is <em lang=\"la\">egregiam vero laudem et spolia ampla refertis</em>, “splendid glory indeed and rich spoils you win” (Aeneid IV.93), Juno to Venus?",
    "explain": "Juno is mocking: the “glory” is two gods overcoming one woman. Donatus gives this line for irony, a kind of allegory.",
    "options": [
     "Irony: meaning the contrary of what is said",
@@ -478,7 +478,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Italiam contra</em> (Aeneid I.13) for <em lang=\"la\">contra Italiam</em> is…",
+   "prompt": "What is <em lang=\"la\">Italiam contra</em> (Aeneid I.13) for <em lang=\"la\">contra Italiam</em>?",
    "explain": "Only the order of the two words is turned about. Donatus gives this for anastrophe, a kind of hyperbaton.",
    "options": [
     "Anastrophe: the order of words reversed",
@@ -494,7 +494,7 @@ ARS.exercises["lang.vii.la/figures-ex"] = {
    "deck": "lang.vii.la/figures-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "<em lang=\"la\">post aliquot … aristas</em>, “after some ears of grain,” for “after some years” (Eclogues I.69), is…",
+   "prompt": "What is <em lang=\"la\">post aliquot … aristas</em>, “after some ears of grain,” for “after some years” (Eclogues I.69)?",
    "explain": "Ears of grain stand for summers, and summers for years. Donatus gives this for metalepsis, which goes by degrees to what is meant.",
    "options": [
     "Metalepsis: a step from one thing to another, by stages",
