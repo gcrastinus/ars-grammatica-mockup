@@ -4,7 +4,7 @@ ARS.decks["lang.vii.fr/tropes"] = {
  "id": "lang.vii.fr/tropes",
  "title": "Tropes and Schemes in French",
  "sub": "Metaphor, metonymy, synecdoche, and irony, and anaphora, chiasmus, antithesis, and asyndeton, in Baudelaire, Voltaire, Corneille, and Molière",
- "sources": "Baudelaire, <i>Les Fleurs du mal</i>; Voltaire, <i>Candide</i>; Corneille, <i>Horace</i> and <i>Le Cid</i>; Molière, <i>L’Avare</i>; the translations are the course’s own plain translations",
+ "sources": "Baudelaire, <i>Les Fleurs du mal</i>; Voltaire, <i>Candide</i>; Corneille, <i>Horace</i> and <i>Le Cid</i>; Molière, <i>L’Avare</i>; <i>Candide</i> quoted in an anonymous translation (Project Gutenberg 19942) and <i>L’Avare</i> in Charles Heron Wall’s; the other translations are the course’s own plain translations",
  "panels": [
   {
    "id": "tropes",
@@ -52,7 +52,7 @@ ARS.decks["lang.vii.fr/tropes"] = {
   {
    "id": "schemes",
    "title": "Four schemes",
-   "body": "<p>The schemes arrange words that keep their proper sense, and the dramatists of the seventeenth century used them constantly:</p>\n<p><strong>Anaphora</strong>: Camille curses Rome, beginning four lines with its name: <i lang=\"fr\">Rome, l’unique objet de mon ressentiment ! / Rome, à qui vient ton bras d’immoler mon amant ! …</i> (“Rome, the sole object of my resentment! Rome, to whom your arm has just sacrificed my lover!”; Corneille, <i lang=\"fr\">Horace</i> IV.5)<br>\n<strong>Chiasmus</strong>: Valère’s rule, “one must eat to live, and not live to eat” (<i lang=\"fr\">il faut manger pour vivre, et non pas vivre pour manger</i>; Molière, <i lang=\"fr\">L’Avare</i> III.1)<br>\n<strong>Antithesis</strong>: “To conquer without danger is to triumph without glory” (<i lang=\"fr\">À vaincre sans péril, on triomphe sans gloire</i>; Corneille, <i lang=\"fr\">Le Cid</i> II.2)<br>\n<strong>Asyndeton</strong>: Don Diègue to his son: “Go, run, fly, and avenge us” (<i lang=\"fr\">va, cours, vole, et nous venge</i>; <i lang=\"fr\">Le Cid</i> I.5), where the first three verbs stand without a conjunction</p>",
+   "body": "<p>The schemes arrange words that keep their proper sense, and the dramatists of the seventeenth century used them constantly:</p>\n<p><strong>Anaphora</strong>: Camille curses Rome, beginning four lines with its name: <i lang=\"fr\">Rome, l’unique objet de mon ressentiment ! / Rome, à qui vient ton bras d’immoler mon amant ! …</i> (“Rome, the sole object of my resentment! Rome, to whom your arm has just sacrificed my lover!”; Corneille, <i lang=\"fr\">Horace</i> IV.5)<br>\n<strong>Chiasmus</strong>: Valère’s rule, “We must eat to live, and not live to eat” (<i lang=\"fr\">il faut manger pour vivre, et non pas vivre pour manger</i>; Molière, <i lang=\"fr\">L’Avare</i> III.1)<br>\n<strong>Antithesis</strong>: “To conquer without danger is to triumph without glory” (<i lang=\"fr\">À vaincre sans péril, on triomphe sans gloire</i>; Corneille, <i lang=\"fr\">Le Cid</i> II.2)<br>\n<strong>Asyndeton</strong>: Don Diègue to his son: “Go, run, fly, and avenge us” (<i lang=\"fr\">va, cours, vole, et nous venge</i>; <i lang=\"fr\">Le Cid</i> I.5), where the first three verbs stand without a conjunction</p>",
    "qp": {
     "id": "q-fr-scheme",
     "variants": [

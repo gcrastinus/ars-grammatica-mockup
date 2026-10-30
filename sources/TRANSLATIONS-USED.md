@@ -426,16 +426,16 @@ The English models (lang.x.en) are English texts and need no translation.
 | Seneca, *Epistulae* | 106.12 | lang.vii.la/figures-ex | the course’s own |
 | Homer, *Odyssey* | II.1; I.343 | lang.vii.grc/tropes, tropes-ex | the course’s own |
 | Homer, *Iliad* | XVIII.309; II.671–673 | lang.vii.grc/tropes, tropes-ex | the course’s own |
-| Plato | *Republic* 337a; *Apology* 38a | lang.vii.grc/tropes-ex | the course’s own |
-| Mark | 2:27 | lang.vii.grc/tropes-ex | the course’s own (close to the King James wording, which is not quoted) |
+| Plato | *Republic* 337a; *Apology* 38a | lang.vii.grc/tropes, tropes-ex | B. Jowett: *Republic*, PG 1497 (https://www.gutenberg.org/cache/epub/1497/pg1497.txt), “that’s your ironical style!”; *Apology*, PG 1656 (https://www.gutenberg.org/cache/epub/1656/pg1656.txt), “the unexamined life is not worth living”; **verified** 29 Oct 2026 |
+| Mark | 2:27 | lang.vii.grc/tropes | King James Version, PG 10 (https://www.gutenberg.org/cache/epub/10/pg10.txt); **verified** word for word 29 Oct 2026 |
 | Sophocles, *Antigone* | 523 | lang.vii.grc/tropes-ex | the course’s own |
-| Plutarch, *Caesar* | 50 (*veni, vidi, vici* in Greek) | lang.vii.grc/tropes-ex | the course’s own |
-| Thucydides | II.40 | lang.vii.grc/tropes-ex | the course’s own |
+| Plutarch, *Caesar* | 50 (*veni, vidi, vici* in Greek) | lang.vii.grc/tropes | B. Perrin, Loeb, Perseus 2008.01.0244 (https://www.perseus.tufts.edu/hopper/text?doc=Plut.+Caes.+50&fromdoc=Perseus%3Atext%3A2008.01.0244), “Came, saw, conquered”; **verified** 29 Oct 2026 |
+| Thucydides | II.40 | lang.vii.grc/tropes-ex | R. Crawley, PG 7142 (https://www.gutenberg.org/cache/epub/7142/pg7142.txt), line 3820; **verified** 29 Oct 2026 |
 | Hesiod, *Works and Days* | 40 | lang.vii.grc/tropes-ex | the course’s own |
 | Baudelaire, “Correspondances” | 1–4 | lang.vii.fr/tropes | the course’s own |
-| Voltaire, *Candide* | ch. 1 | lang.vii.fr/tropes-ex | the course’s own |
+| Voltaire, *Candide* | ch. 1 | lang.vii.fr/tropes | anonymous translation, PG 19942 (https://www.gutenberg.org/cache/epub/19942/pg19942.txt), line 351, “in this best of all possible worlds”; **verified** 29 Oct 2026; translator not named in the e-text |
 | Corneille, *Horace* IV.5; *Le Cid* I.5, II.2, IV.3 | single lines | lang.vii.fr/tropes, tropes-ex | the course’s own |
-| Molière, *L’Avare* | III.1 | lang.vii.fr/tropes-ex | the course’s own |
+| Molière, *L’Avare* | III.1 | lang.vii.fr/tropes | Charles Heron Wall, PG 6923 (https://www.gutenberg.org/cache/epub/6923/pg6923.txt), line 1709; **verified** 29 Oct 2026 |
 | Hugo, “L’Expiation” | 1 | lang.vii.fr/tropes-ex | the course’s own |
 | Ronsard | *Sonnets pour Hélène* II.24 | lang.vii.fr/tropes-ex | the course’s own |
 | Goethe, *Faust* | single lines other than those of Bayard Taylor listed above | lang.vii.de/tropes, tropes-ex | the course’s own |

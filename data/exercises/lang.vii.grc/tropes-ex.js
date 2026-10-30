@@ -127,7 +127,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Pericles says the Athenians “love beauty with economy and love wisdom without softness” (<i lang=\"grc\">φιλοκαλοῦμέν τε γὰρ μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας</i>; Thucydides II.40). Which scheme is chiefly at work?",
+   "prompt": "Pericles says the Athenians “cultivate refinement without extravagance and knowledge without effeminacy” (<i lang=\"grc\">φιλοκαλοῦμέν τε γὰρ μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας</i>; Thucydides II.40). Which scheme is chiefly at work?",
    "explain": "Two matching members, each with an opposed qualification.",
    "options": [
     "Polysyndeton",
@@ -239,7 +239,7 @@ ARS.exercises["lang.vii.grc/tropes-ex"] = {
    "deck": "lang.vii.grc/tropes-ex",
    "section": "vii",
    "type": "mc",
-   "prompt": "Socrates says at his trial, “The unexamined life is not worth living for a man” (<i lang=\"grc\">ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ</i>; <i lang=\"grc\">Apology</i> 38a). Which device is this?",
+   "prompt": "Socrates says at his trial, “The unexamined life is not worth living” (<i lang=\"grc\">ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ</i>; <i lang=\"grc\">Apology</i> 38a). Which device is this?",
    "explain": "It states a general truth; no word is carried over.",
    "options": [
     "A metaphor of the examined life",
