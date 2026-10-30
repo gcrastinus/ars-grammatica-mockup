@@ -50,11 +50,11 @@ ARS.exercises['i.review'] = {
   "identify",
   "sort"
  ],
- "pool": 120,
+ "pool": 121,
  "rotation": "A, B, C, D, E, F, A, … (never shuffled)",
  "sets": {
   "A": 20,
-  "B": 20,
+  "B": 21,
   "C": 20,
   "D": 20,
   "E": 20,
@@ -550,6 +550,21 @@ ARS.exercises['i.review'] = {
    ],
    "answer": 3,
    "explain": "The referee’s whistle signifies a stop in the game only because the players have agreed on its meaning, so it is a conventional sign. A yawn, footprints, and thunder signify by nature, whether or not anyone means them to."
+  },
+  {
+   "id": "ri-B16",
+   "set": "B",
+   "deck": "i.sign",
+   "type": "mc",
+   "prompt": "According to Saussure, where does the value of a sign come from?",
+   "options": [
+    "From the thing in the world to which it refers",
+    "From its differences from other signs",
+    "From its etymology and its earliest meaning",
+    "From its length"
+   ],
+   "answer": 1,
+   "explain": "Saussure held that the value of a sign comes from its place among the other signs of the system, that is, from its differences from them."
   },
   {
    "id": "sv-con-13",

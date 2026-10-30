@@ -1,4 +1,4 @@
-/* Recitation outline for i.sign (Sign and Symbol): 42 points. DRAFT for Timothy's review.
+/* Recitation outline for i.sign (Sign and Symbol): 57 points (lines 43 to 57 moved from xi.modern, 30 Oct 2026). DRAFT for Timothy's review.
    Moved into data/decks/i.sign.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
@@ -43,5 +43,20 @@
     `Grammar begins with the sign because its material is speech, and speech is made of conventional signs.`,
     `A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he studies the sounds, their letters and syllables, and how words are formed and arranged.`,
     `The grammarians divided voices into those that signify and those that do not, and the significant voices into those that signify by nature (a groan) and those that signify by imposition (a word); only the last kind belongs to grammar.`,
-    `So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.`
+    `So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.`,
+    `Saussure is usually counted the founder of modern linguistics.`,
+    `Saussure describes the linguistic sign as the union of a <strong>signifier</strong> (<i>signifiant</i>), a sound-image, and a <strong>signified</strong> (<i>signifié</i>), a concept.`,
+    `The sign does not join a name to a thing but a sound-image to a concept.`,
+    `The bond between signifier and signified is arbitrary, since nothing in the sound of a word fits it to its concept, as the existence of different words in different languages shows.`,
+    `The classical tradition agrees that words signify by convention, not by nature, and that they signify things by means of concepts.`,
+    `Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things.`,
+    `The difference between Saussure and the tradition lies in what follows the concept.`,
+    `Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them (English “sheep” and “mutton” against French <i>mouton</i>).`,
+    `The same principle applies to sounds, which have their value in a language by contrast with each other.`,
+    `The modern study of such contrasts is phonology, which Saussure’s principle made possible, and it is one of the real discoveries of modern linguistics.`,
+    `An <strong>instrumental sign</strong>, such as smoke or a spoken word, must first be known as an object before it leads the mind to something else.`,
+    `A <strong>formal sign</strong>, the concept, leads the mind to its object without first being known as an object itself; the concept is that by which we know, not that which we know.`,
+    `Saussure makes what is signified be a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.`,
+    `If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.`,
+    `So Saussure’s account treats the concept as the end point of signification, whereas the classical account holds that through the concept the word signifies the thing; this difference concerns not the facts of language but what signification is.`
   ],

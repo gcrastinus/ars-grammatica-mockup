@@ -58,6 +58,21 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 40. A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he studies the sounds, their letters and syllables, and how words are formed and arranged.
 41. The grammarians divided voices into those that signify and those that do not, and the significant voices into those that signify by nature (a groan) and those that signify by imposition (a word); only the last kind belongs to grammar.
 42. So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.
+43. Saussure is usually counted the founder of modern linguistics.
+44. Saussure describes the linguistic sign as the union of a **signifier** (*signifiant*), a sound-image, and a **signified** (*signifié*), a concept.
+45. The sign does not join a name to a thing but a sound-image to a concept.
+46. The bond between signifier and signified is arbitrary, since nothing in the sound of a word fits it to its concept, as the existence of different words in different languages shows.
+47. The classical tradition agrees that words signify by convention, not by nature, and that they signify things by means of concepts.
+48. Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things.
+49. The difference between Saussure and the tradition lies in what follows the concept.
+50. Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them (English “sheep” and “mutton” against French *mouton*).
+51. The same principle applies to sounds, which have their value in a language by contrast with each other.
+52. The modern study of such contrasts is phonology, which Saussure’s principle made possible, and it is one of the real discoveries of modern linguistics.
+53. An **instrumental sign**, such as smoke or a spoken word, must first be known as an object before it leads the mind to something else.
+54. A **formal sign**, the concept, leads the mind to its object without first being known as an object itself; the concept is that by which we know, not that which we know.
+55. Saussure makes what is signified be a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.
+56. If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.
+57. So Saussure’s account treats the concept as the end point of signification, whereas the classical account holds that through the concept the word signifies the thing; this difference concerns not the facts of language but what signification is.
 
 ## Imposition (`i.imposition`)
 

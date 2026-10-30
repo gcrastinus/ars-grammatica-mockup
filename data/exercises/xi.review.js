@@ -22,11 +22,11 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 45,
+ "pool": 44,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 15,
-  "B": 15,
+  "B": 14,
   "C": 15
  },
  "limit": "Only what XI.1 and XI.2 teach.",
@@ -425,21 +425,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 0,
    "explain": "Humboldt held that a language is not a finished product (<i>ergon</i>) but an activity (<i>energeia</i>), with an inner form that shapes thought."
-  },
-  {
-   "id": "rxi-B12",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "According to Saussure, where does the value of a sign come from?",
-   "options": [
-    "From the thing in the world to which it refers",
-    "From its differences from other signs",
-    "From its etymology and its earliest meaning",
-    "From its length"
-   ],
-   "answer": 1,
-   "explain": "Saussure held that the value of a sign comes from its place among the other signs of the system, that is, from its differences from them."
   },
   {
    "id": "rxi-B13",

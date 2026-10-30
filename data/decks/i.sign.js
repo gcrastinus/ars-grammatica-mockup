@@ -1,5 +1,5 @@
 /* I.1 Sign and Symbol [i.sign]
-   Plan (ITEM-LIST.md): 10 panels, 3 question points, each with exactly 3 variants.
+   Plan (ITEM-LIST.md): 10 panels, 3 question points, each with exactly 3 variants. 30 Oct 2026: 13 panels, 5 question points; panels signifier, value, poinsot moved from xi.modern (A1).
    Live material drawn on: DECKS.traditions (the John of St. Thomas panel: formal and instrumental signs);
    old DECKS.prelim ("The material," "From voice to the sentence"); DECKS.vox (sign by nature and by imposition). */
 window.ARS = window.ARS || {};
@@ -51,7 +51,22 @@ ARS.decks['i.sign'] = {
     `Grammar begins with the sign because its material is speech, and speech is made of conventional signs.`,
     `A sound becomes a word only when it signifies; so the grammarian must know what it is for a sound to signify before he studies the sounds, their letters and syllables, and how words are formed and arranged.`,
     `The grammarians divided voices into those that signify and those that do not, and the significant voices into those that signify by nature (a groan) and those that signify by imposition (a word); only the last kind belongs to grammar.`,
-    `So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.`
+    `So grammar is not the study of sounds in natural philosophy or phonetics: of all sounds, only the word belongs to grammar, because only the word signifies by the agreement of those who use it.`,
+    `Saussure is usually counted the founder of modern linguistics.`,
+    `Saussure describes the linguistic sign as the union of a <strong>signifier</strong> (<i>signifiant</i>), a sound-image, and a <strong>signified</strong> (<i>signifié</i>), a concept.`,
+    `The sign does not join a name to a thing but a sound-image to a concept.`,
+    `The bond between signifier and signified is arbitrary, since nothing in the sound of a word fits it to its concept, as the existence of different words in different languages shows.`,
+    `The classical tradition agrees that words signify by convention, not by nature, and that they signify things by means of concepts.`,
+    `Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things.`,
+    `The difference between Saussure and the tradition lies in what follows the concept.`,
+    `Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them (English “sheep” and “mutton” against French <i>mouton</i>).`,
+    `The same principle applies to sounds, which have their value in a language by contrast with each other.`,
+    `The modern study of such contrasts is phonology, which Saussure’s principle made possible, and it is one of the real discoveries of modern linguistics.`,
+    `An <strong>instrumental sign</strong>, such as smoke or a spoken word, must first be known as an object before it leads the mind to something else.`,
+    `A <strong>formal sign</strong>, the concept, leads the mind to its object without first being known as an object itself; the concept is that by which we know, not that which we know.`,
+    `Saussure makes what is signified be a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.`,
+    `If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.`,
+    `So Saussure’s account treats the concept as the end point of signification, whereas the classical account holds that through the concept the word signifies the thing; this difference concerns not the facts of language but what signification is.`
   ],
   panels: [
 
@@ -132,6 +147,26 @@ ARS.decks['i.sign'] = {
       explain: `The written word is a sign of the spoken word, and the spoken word is a sign of the concept; the concept, in turn, is of the thing. So we read from the mark to the sound, from the sound to the understanding, and through the understanding to the thing.` }
   ]}},
 
+{ id: 'signifier',
+  title: 'The sign: signifier and signified',
+  body: `<p>The Swiss linguist Ferdinand de Saussure (1857–1913) is usually counted the founder of modern linguistics; his <i>Cours de linguistique générale</i> (“Course in General Linguistics”) was published from his students’ notes in 1916. English says “snow” and Latin says <i>nix</i> for the same thing. Saussure describes the linguistic sign as the union of a <strong>signifier</strong> (<i>signifiant</i>), a sound-image, and a <strong>signified</strong> (<i>signifié</i>), a concept. The sign does not join a name to a thing but a sound-image to a concept. And the bond between them is <strong>arbitrary</strong>: nothing in the sound of English “snow” or Latin <i>nix</i> fits it to the concept of snow, as the existence of different words in different languages shows (<i>Cours</i>, Part I, ch. 1).</p>
+<p>The classical tradition agrees with much of this. We have seen that words signify by convention, not by nature, and that they signify things by means of concepts. Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things. The difference between Saussure and the tradition lies in what follows the concept.</p>`,
+  src: `Saussure, <i>Cours</i>, Part I, ch. 1, in paraphrase.`,
+  qp: { id: 'q-signifier', variants: [
+    { prompt: `What does Saussure mean by the signifier and the signified?`,
+      options: [`A sound-image and a concept`, `A name and the thing it names`, `A letter and a sound`, `A word and its etymology`],
+      answer: 0,
+      explain: `The linguistic sign joins a signifier (<i>signifiant</i>), a sound-image, to a signified (<i>signifié</i>), a concept; it does not join a name to a thing.` },
+    { prompt: `What does Saussure mean by calling the sign arbitrary?`,
+      options: [`The sign can mean anything that a speaker likes`, `Speakers change their words every day`, `The sign has no meaning at all`, `Nothing in the sound fits it to the concept`],
+      answer: 3,
+      explain: `The bond between signifier and signified is arbitrary: nothing in the sound of a word fits it to its concept, as the different words of different languages for the same thing show.` },
+    { prompt: `Where does the classical doctrine agree with Saussure’s account of the sign?`,
+      options: [`The concept is the end of signification`, `Words signify things without concepts`, `Words signify by imposition, not by nature`, `The modes of signifying differ from language to language`],
+      answer: 2,
+      explain: `The tradition holds that words signify by imposition and by means of concepts. It differs from Saussure on what follows the concept.` }
+  ] } },
+
 { id: 'symbol',
   title: 'What is a symbol?',
   body: `<p>Today we use the word “symbol” in more than one way. We call the cross a symbol of Christ’s sacrifice, and a nation’s flag a symbol of the country, but both of these are symbols of far more in each case. In literature, the white whale in <i>Moby-Dick</i> or the journey in the <i>Odyssey</i> is called a symbol. In this sense a symbol is a special kind of sign. It does not simply point to one thing, as smoke points to fire or the word “horse” to a horse. It carries a great deal of meaning and is many-layered, so that in a way a symbol in this sense is more than a sign. We also use “symbol” in a narrower way, for a mark that does the work of a word but is not made of letters, like the “+” and “=” of arithmetic or the symbols of chemistry and logic.</p>
@@ -159,6 +194,32 @@ ARS.decks['i.sign'] = {
       answer: 1,
       explain: `The concept is a formal sign: it is that by which we know the giraffe, not what we first know. We can reflect on the concept afterwards, but it is the giraffe that we think of.` }
   ]}},
+
+{ id: 'value',
+  title: 'Value and difference',
+  body: `<p>English has two words, “sheep” for the animal and “mutton” for the meat, whereas French uses <i>mouton</i> for both. So English “sheep” and French <i>mouton</i> may refer to the same animal, but they do not cover the same ground. From such facts Saussure drew his most radical claim, that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them; “sheep” and <i>mouton</i> are his example (<i>Cours</i>, Part II, ch. 4).</p>
+<p>The same principle applies to sounds. We will see in Section II that English speakers distinguish “thin” from “tin” because the difference between the two sounds changes the word; the sounds have their value in English by contrast with each other. The modern study of such contrasts is phonology, which Saussure’s principle made possible, and it is one of the real discoveries of modern linguistics.</p>`,
+  src: `Saussure, <i>Cours</i>, Part II, ch. 4, in paraphrase.` },
+
+{ id: 'poinsot',
+  title: 'A reply: the concept is not the end of signification',
+  body: `<p>When we think of an island, it is the island that we think of, not our idea of it. We have just seen that smoke or a spoken word must first be known as an object before it leads the mind to something else, and is therefore an <strong>instrumental sign</strong>, whereas the concept leads the mind to its object without first being known as an object itself, and is therefore a <strong>formal sign</strong>. The concept is that by which we know, not that which we know. Saussure makes what is signified be a concept and stops there. The classical reply rests on this doctrine of signs, which comes from John of St. Thomas (John Poinsot) (<i>Tractatus de signis</i>).</p>
+<p>If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else. Saussure’s account treats the concept as the end point of signification; the classical account holds that through the concept the word signifies the thing. This is the central point at which the two accounts differ, and it concerns not the facts of language but what signification is.</p>`,
+  src: `John of St. Thomas, <i>Tractatus de signis</i> (trans. John Deely, 1985, for reference), in paraphrase.`,
+  qp: { id: 'q-poinsot', variants: [
+    { prompt: `Why is the concept a formal sign?`,
+      options: [`It leads to its object without being known`, `It must first be known as an object by the mind`, `It is a written mark that stands for a sound`, `It signifies only by the convention of speakers`],
+      answer: 0,
+      explain: `An instrumental sign, such as smoke or a spoken word, must first be known as an object; the concept leads the mind to its object without first being known as an object itself.` },
+    { prompt: `Why does the classical account hold that signification does not end in the concept?`,
+      options: [`The concept is a spoken word, not a mental one`, `The concept is known before the thing`, `Concepts differ from language to language`, `A formal sign consists in leading to another`],
+      answer: 3,
+      explain: `If the concept is a formal sign, it consists entirely in leading the mind to something else, so through the concept the word signifies the thing.` },
+    { prompt: `According to the classical account, when we think of an island, what do we think of?`,
+      options: [`Our idea of the island`, `The word “island”`, `The island itself`, `The sound of the word`],
+      answer: 2,
+      explain: `The concept is that by which we know, not that which we know, so it is the island that we think of.` }
+  ] } },
 
 { id: 'why-grammar',
   title: 'Why does grammar begin with the sign?',
