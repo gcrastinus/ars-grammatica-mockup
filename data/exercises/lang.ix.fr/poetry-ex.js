@@ -15,7 +15,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">en est pris</em></p> <em lang=\"fr\">est pris</em> is…",
+   "prompt": "<p><em lang=\"fr\">en est pris</em></p> What is <em lang=\"fr\">est pris</em>?",
    "explain": "<em lang=\"fr\">Prendre</em> forms its compound past with <em lang=\"fr\">avoir</em>, so <em lang=\"fr\">est pris</em> is the passive present: the plan is made.",
    "options": [
     "Passive: is taken",
@@ -32,7 +32,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">cher Théramène</em> is…",
+   "prompt": "What is <em lang=\"fr\">cher Théramène</em>?",
    "explain": "Hippolytus speaks to his tutor by name.",
    "options": [
     "The person addressed",
@@ -49,7 +49,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">dont</em> here means…",
+   "prompt": "What does <em lang=\"fr\">dont</em> mean here?",
    "explain": "<em lang=\"fr\">Être agité de</em>: to be shaken by. <em lang=\"fr\">Dont</em> takes the place of <em lang=\"fr\">duquel</em>.",
    "options": [
     "By which",
@@ -66,7 +66,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">à</em> in <em lang=\"fr\">commence à rougir</em>…",
+   "prompt": "What does <em lang=\"fr\">à</em> do in <em lang=\"fr\">commence à rougir</em>?",
    "explain": "<em lang=\"fr\">Commencer à</em> with the infinitive: to begin to.",
    "options": [
     "Links <em lang=\"fr\">commencer</em> to its infinitive",
@@ -83,7 +83,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">allons</em> is…",
+   "prompt": "What form is <em lang=\"fr\">allons</em>?",
    "explain": "With no subject pronoun, the first person plural is the imperative.",
    "options": [
     "The imperative: let us go",
@@ -100,7 +100,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">si</em> in <em lang=\"fr\">voir si la rose</em> means…",
+   "prompt": "What does <em lang=\"fr\">si</em> mean in <em lang=\"fr\">voir si la rose</em>?",
    "explain": "After <em lang=\"fr\">voir</em>, <em lang=\"fr\">si</em> introduces what is to be seen: whether the rose has lost its petals.",
    "options": [
     "Whether",
@@ -117,7 +117,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">A point perdu</em></p> <em lang=\"fr\">a … perdu</em> is…",
+   "prompt": "<p><em lang=\"fr\">A point perdu</em></p> What form is <em lang=\"fr\">a … perdu</em>?",
    "explain": "<em lang=\"fr\">A</em> with the participle <em lang=\"fr\">perdu</em> is the <i lang=\"fr\">passé composé</i>; its subject is <em lang=\"fr\">la rose</em>. has lost",
    "options": [
     "The <i lang=\"fr\">passé composé</i>",
@@ -134,7 +134,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">au vôtre</em> means…",
+   "prompt": "What does <em lang=\"fr\">au vôtre</em> mean?",
    "explain": "<em lang=\"fr\">Au</em> is <em lang=\"fr\">à le</em>, and <em lang=\"fr\">le vôtre</em> stands for <em lang=\"fr\">votre teint</em>.",
    "options": [
     "To yours",
@@ -151,7 +151,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Il</em> in <em lang=\"fr\">Il pleure dans mon cœur</em> is…",
+   "prompt": "What is <em lang=\"fr\">Il</em> in <em lang=\"fr\">Il pleure dans mon cœur</em>?",
    "explain": "Verlaine treats weeping as weather: the subject names no one.",
    "options": [
     "An empty subject, as in <em lang=\"fr\">il pleut</em>",
@@ -168,7 +168,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Quelle</em> is feminine because…",
+   "prompt": "Why is <em lang=\"fr\">Quelle</em> feminine?",
    "explain": "<em lang=\"fr\">Quel</em> agrees with the noun it asks about.",
    "options": [
     "It agrees with <em lang=\"fr\">langueur</em>",
@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Qui</em> in <em lang=\"fr\">Qui pénètre mon cœur</em> is…",
+   "prompt": "What is <em lang=\"fr\">Qui</em> in <em lang=\"fr\">Qui pénètre mon cœur</em>?",
    "explain": "<em lang=\"fr\">Qui</em> as a relative is the subject; <em lang=\"fr\">mon cœur</em> is the object.",
    "options": [
     "The subject of <em lang=\"fr\">pénètre</em>, standing for <em lang=\"fr\">langueur</em>",
@@ -202,7 +202,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">s’ennuie</em> is…",
+   "prompt": "What kind of verb is <em lang=\"fr\">s’ennuie</em>?",
    "explain": "<em lang=\"fr\">S’ennuyer</em> is used with the reflexive pronoun. grieves, is weary",
    "options": [
     "A reflexive verb",
@@ -219,7 +219,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">Le temps</em></p> The subject of <em lang=\"fr\">a laissié</em> is…",
+   "prompt": "<p><em lang=\"fr\">Le temps</em></p> What is the subject of <em lang=\"fr\">a laissié</em>?",
    "explain": "The season has left off its cloak.",
    "options": [
     "<em lang=\"fr\">Le temps</em>",
@@ -236,7 +236,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">a laissié</em> is…",
+   "prompt": "What form is <em lang=\"fr\">a laissié</em>?",
    "explain": "<em lang=\"fr\">Avoir</em> with the past participle; <em lang=\"fr\">laissié</em> is the old spelling of <em lang=\"fr\">laissé</em>. has left off",
    "options": [
     "The <i lang=\"fr\">passé composé</i>",
@@ -253,7 +253,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">De vent</em></p> The <em lang=\"fr\">de</em> phrases tell…",
+   "prompt": "<p><em lang=\"fr\">De vent</em></p> What do the <em lang=\"fr\">de</em> phrases tell?",
    "explain": "A cloak of wind, of cold, and of rain.",
    "options": [
     "What the cloak is made of",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">luyant</em> is…",
+   "prompt": "What form is <em lang=\"fr\">luyant</em>?",
    "explain": "The old spelling of <em lang=\"fr\">luisant</em>, from <em lang=\"fr\">luire</em>.",
    "options": [
     "A present participle: “shining”",
@@ -304,7 +304,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">ennemie</em> is feminine because…",
+   "prompt": "Why is <em lang=\"fr\">ennemie</em> feminine?",
    "explain": "<em lang=\"fr\">Vieillesse</em> is feminine, and <em lang=\"fr\">ennemie</em> describes it.",
    "options": [
     "It agrees with <em lang=\"fr\">vieillesse</em>",
@@ -321,7 +321,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">N’ai-je donc tant vécu que</em></p> <em lang=\"fr\">ne … que</em> means…",
+   "prompt": "<p><em lang=\"fr\">N’ai-je donc tant vécu que</em></p> What does <em lang=\"fr\">ne … que</em> mean?",
    "explain": "Have I lived so long only for this?",
    "options": [
     "Only",
@@ -355,7 +355,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">blanchi</em> is…",
+   "prompt": "What form is <em lang=\"fr\">blanchi</em>?",
    "explain": "From <em lang=\"fr\">blanchir</em>, “to whiten.” grown white",
    "options": [
     "A past participle",
@@ -372,7 +372,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In <em lang=\"fr\">voir … flétrir tant de lauriers</em>, <em lang=\"fr\">tant de lauriers</em> is…",
+   "prompt": "In <em lang=\"fr\">voir … flétrir tant de lauriers</em>, what is <em lang=\"fr\">tant de lauriers</em>?",
    "explain": "He sees the laurels wither: they do the withering.",
    "options": [
     "The subject of <em lang=\"fr\">flétrir</em>",
@@ -389,7 +389,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">as-tu</em> asks a question by…",
+   "prompt": "How does <em lang=\"fr\">as-tu</em> ask a question?",
    "explain": "Inversion with a hyphen is the formal way of asking: <em lang=\"fr\">as-tu</em>.",
    "options": [
     "Putting the subject pronoun after the verb",
@@ -406,7 +406,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">du cœur</em> is…",
+   "prompt": "What is <em lang=\"fr\">du cœur</em>?",
    "explain": "<em lang=\"fr\">Du</em> before a noun of quantity not counted gives the partitive sense. some heart, courage",
    "options": [
     "The partitive",
@@ -423,7 +423,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Tout autre que mon père</em> is…",
+   "prompt": "What is <em lang=\"fr\">Tout autre que mon père</em>?",
    "explain": "Anyone other than my father would find it out: the phrase is the subject.",
    "options": [
     "The subject of <em lang=\"fr\">éprouverait</em>",
@@ -440,7 +440,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">éprouverait</em> is…",
+   "prompt": "What form is <em lang=\"fr\">éprouverait</em>?",
    "explain": "The ending <em lang=\"fr\">-rait</em> on the infinitive stem is the conditional; the condition is understood. would find out",
    "options": [
     "The conditional",
@@ -474,7 +474,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Assise</em> is feminine because…",
+   "prompt": "Why is <em lang=\"fr\">Assise</em> feminine?",
    "explain": "<em lang=\"fr\">Vous</em> here is one woman, and the participle agrees with her.",
    "options": [
     "It describes the woman addressed",
@@ -508,7 +508,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">en vous émerveillant</em> is…",
+   "prompt": "What form is <em lang=\"fr\">en vous émerveillant</em>?",
    "explain": "<em lang=\"fr\">En</em> with the participle in <em lang=\"fr\">-ant</em> is the <i lang=\"fr\">gérondif</i>, saying how or while.",
    "options": [
     "A gerund: while marveling",
@@ -525,7 +525,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">À vous</em> is…",
+   "prompt": "What is <em lang=\"fr\">À vous</em>?",
    "explain": "To you I offer these flowers: the verb comes later.",
    "options": [
     "The indirect object of a verb still to come",
@@ -542,7 +542,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">troupe légère</em> is…",
+   "prompt": "How does <em lang=\"fr\">troupe légère</em> stand?",
    "explain": "It names who “you” are, the band of winds.",
    "options": [
     "In apposition to <em lang=\"fr\">vous</em>",
@@ -576,7 +576,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">L’ombrageuse verdure</em></p> <em lang=\"fr\">l’ombrageuse verdure</em> is…",
+   "prompt": "<p><em lang=\"fr\">L’ombrageuse verdure</em></p> What is <em lang=\"fr\">l’ombrageuse verdure</em>?",
    "explain": "You shake the shady green.",
    "options": [
     "The object of <em lang=\"fr\">ébranlez</em>",
@@ -593,7 +593,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">le</em> in <em lang=\"fr\">Je le vis</em> is…",
+   "prompt": "What is <em lang=\"fr\">le</em> in <em lang=\"fr\">Je le vis</em>?",
    "explain": "Object pronouns stand before the verb in French.",
    "options": [
     "The object of <em lang=\"fr\">vis</em>",
@@ -610,7 +610,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">rougis</em> is…",
+   "prompt": "What form is <em lang=\"fr\">rougis</em>?",
    "explain": "The <i lang=\"fr\">passé simple</i> of <em lang=\"fr\">rougir</em>, a single completed event.",
    "options": [
     "<i lang=\"fr\">Passé simple</i>: I blushed",
@@ -627,7 +627,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">éperdue</em> is feminine because…",
+   "prompt": "Why is <em lang=\"fr\">éperdue</em> feminine?",
    "explain": "<em lang=\"fr\">Âme</em> is feminine.",
    "options": [
     "It agrees with <em lang=\"fr\">âme</em>",
@@ -661,7 +661,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">tout mon corps</em> is…",
+   "prompt": "What is <em lang=\"fr\">tout mon corps</em>?",
    "explain": "She felt her body freeze and burn: the body does both.",
    "options": [
     "The subject of <em lang=\"fr\">transir</em> and <em lang=\"fr\">brûler</em>",
@@ -678,7 +678,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">Je fais … ce rêve</em> means…",
+   "prompt": "What does <em lang=\"fr\">Je fais … ce rêve</em> mean?",
    "explain": "<em lang=\"fr\">Faire un rêve</em> is the French idiom for dreaming.",
    "options": [
     "I have this dream",
@@ -695,7 +695,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">que</em> in <em lang=\"fr\">que j’aime</em> is…",
+   "prompt": "What is <em lang=\"fr\">que</em> in <em lang=\"fr\">que j’aime</em>?",
    "explain": "<em lang=\"fr\">J’</em> is the subject; <em lang=\"fr\">que</em> stands for the woman, the object. whom I love",
    "options": [
     "The object relative",
@@ -712,7 +712,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"fr\">qui</em> in <em lang=\"fr\">qui m’aime</em> is…",
+   "prompt": "What is <em lang=\"fr\">qui</em> in <em lang=\"fr\">qui m’aime</em>?",
    "explain": "The woman does the loving. who loves me",
    "options": [
     "The subject relative",
@@ -729,7 +729,7 @@ ARS.exercises["lang.ix.fr/poetry-ex"] = {
    "deck": "lang.ix.fr/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<p><em lang=\"fr\">ni tout à fait la même</em></p> <em lang=\"fr\">ne … ni … ni</em> means…",
+   "prompt": "<p><em lang=\"fr\">ni tout à fait la même</em></p> What does <em lang=\"fr\">ne … ni … ni</em> mean?",
    "explain": "Both members are denied.",
    "options": [
     "Neither … nor",

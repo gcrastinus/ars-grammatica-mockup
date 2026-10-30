@@ -1044,3 +1044,4 @@ Source: notes/AUDIT-EXERCISES-2026-10-29.md, section 6. Exercise cache tag 20261
 - Decision 17, lang.ix.de/prose-ex: 42 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
 - Decision 17, lang.ix.es/poetry-ex: 41 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged. Words capitalized only because they opened the old stem (yago, déle, fué, vino) are lowercased as in the passage.
 - Decision 17, lang.ix.grc/poetry-ex: 39 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
+- Decision 17, lang.ix.fr/poetry-ex: 37 stem prompts made full questions in the form of the question points; options, keys, and explanations unchanged.
