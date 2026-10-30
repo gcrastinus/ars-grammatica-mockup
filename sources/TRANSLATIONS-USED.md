@@ -568,3 +568,13 @@ Each English rendering below was compared word for word with the published trans
 | Declaration of 1789, art. 1 | Thomas Paine, *Rights of Man*, PG 3742 (https://www.gutenberg.org/cache/epub/3742/pg3742.txt), line 4236 | lang.v.fr/cited-ex wf9 | **verified** |
 | *Manifest* preamble | Samuel Moore, PG 61 | lang.v.de/cited-ex wd10 | **verified** |
 | Kafka; Grundgesetz; Luther | none recorded | lang.v.de/cited-ex wd1–6 | English **dropped** |
+
+## Section IX, Latin poetry and Servius exercises: *Aeneid* I renderings (29 Oct 2026, decision 3)
+
+| Course item | Lines | Translation | Status |
+|---|---|---|---|
+| lang.ix.la/poetry-ex pe1, pe5, pe6 | *Aeneid* I.1–3, 8–11 | John Dryden, PG 228 (https://www.gutenberg.org/cache/epub/228/pg228.txt), lines 92–94, 102–109 | **verified**, word for word; now recorded as Dryden |
+| lang.ix.la/poetry-ex pe11 | I.5–7 | H. R. Fairclough, Loeb vol. I, archive.org virgilvi01virguoft (https://archive.org/download/virgilvi01virguoft/virgilvi01virguoft_djvu.txt) | **replaced** with Fairclough |
+| lang.ix.la/poetry-ex pe12–15 | I.8–11 | Fairclough, as above | **replaced** |
+| lang.ix.la/poetry-ex pe16 | I.11 | Fairclough, as above | **replaced** |
+| lang.ix.la/servius-ex sv1–12 | I.12–26, 36, 46–48 | Fairclough, as above; each prompt quotes the clause matching the Latin lemma, with ellipses where Fairclough's sentence runs on | **replaced** (were the course's own literal glosses) |

@@ -1052,7 +1052,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">genus unde Latinum</em>: what does <em lang=\"la\">unde</em> introduce?<br><br>“having suffered much in war too, until he should found a city and bring his gods to Latium, whence came the Latin race, the Alban fathers, and the walls of lofty Rome.”<br>(<em lang=\"la\">multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.</em>)",
+   "prompt": "<em lang=\"la\">genus unde Latinum</em>: what does <em lang=\"la\">unde</em> introduce?<br><br>“and much enduring in war also, till he should build a city and bring his gods to Latium; whence came the Latin race, the lords of Alba, and the walls of lofty Rome.”<br>(<em lang=\"la\">multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.</em>)",
    "explain": "<em lang=\"la\">Unde</em> is a relative adverb, “whence,” taking up the man (or his founding). The verb is understood: from him the Latin race, the Alban fathers, and the walls of Rome. The order <em lang=\"la\">genus unde</em> puts the relative second, as verse often does.",
    "options": [
     "A relative clause, with its verb understood",
@@ -1069,7 +1069,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">Musa</em>: what case?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "prompt": "<em lang=\"la\">Musa</em>: what case?<br><br>“Tell me, O Muse, the cause; wherein thwarted in will or wherefore angered, did the Queen of heaven drive a man, of goodness so wondrous, to traverse so many perils, to face so many toils.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
    "explain": "The poet calls on the Muse. In the first declension the vocative has the same form as the nominative, so the use in the sentence decides the case.",
    "options": [
     "Vocative: the Muse is addressed",
@@ -1086,7 +1086,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">memora</em>: what form?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "prompt": "<em lang=\"la\">memora</em>: what form?<br><br>“Tell me, O Muse, the cause; wherein thwarted in will or wherefore angered, did the Queen of heaven drive a man, of goodness so wondrous, to traverse so many perils, to face so many toils.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
    "explain": "<em lang=\"la\">Memora</em> is the imperative of <em lang=\"la\">memorare</em>, addressed to the Muse. The indicative would be <em lang=\"la\">memorat</em>, the infinitive <em lang=\"la\">memorare</em>.",
    "options": [
     "Imperative singular: “tell”",
@@ -1103,7 +1103,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">quo numine laeso</em>: what construction?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "prompt": "<em lang=\"la\">quo numine laeso</em>: what construction?<br><br>“Tell me, O Muse, the cause; wherein thwarted in will or wherefore angered, did the Queen of heaven drive a man, of goodness so wondrous, to traverse so many perils, to face so many toils.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
    "explain": "A noun and a participle in the ablative stand apart as a circumstance: “what divinity having been offended,” that is, for what offence to her divine will. The interrogative <em lang=\"la\">quo</em> makes it one of the reported questions.",
    "options": [
     "An ablative absolute, made into a question",
@@ -1120,7 +1120,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "What governs the infinitives <em lang=\"la\">volvere</em> and <em lang=\"la\">adire</em>?<br><br>“Muse, tell me the causes: for what offence to her divinity, or grieving at what, the queen of the gods drove a man famous for his piety to pass through so many misfortunes, to face so many labors.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
+   "prompt": "What governs the infinitives <em lang=\"la\">volvere</em> and <em lang=\"la\">adire</em>?<br><br>“Tell me, O Muse, the cause; wherein thwarted in will or wherefore angered, did the Queen of heaven drive a man, of goodness so wondrous, to traverse so many perils, to face so many toils.”<br>(<em lang=\"la\">Musa, mihi causas memora, quo numine laeso, quidve dolens, regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit.</em>)",
    "explain": "<em lang=\"la\">Impello</em>, “drive, compel,” here takes the infinitives <em lang=\"la\">volvere</em> and <em lang=\"la\">adire</em>, as verse allows; prose would write <em lang=\"la\">ut</em> with the subjunctive. <em lang=\"la\">Virum</em> is the one driven.",
    "options": [
     "<em lang=\"la\">impulerit</em>: she drove him",
@@ -1137,7 +1137,7 @@ ARS.exercises["lang.ix.la/poetry-ex"] = {
    "deck": "lang.ix.la/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "<em lang=\"la\">animis caelestibus</em>: what work does the case do?<br><br>“Is there such wrath in heavenly spirits?”<br>(<em lang=\"la\">impulerit. Tantaene animis caelestibus irae?</em>)",
+   "prompt": "<em lang=\"la\">animis caelestibus</em>: what work does the case do?<br><br>“Can resentment so fierce dwell in heavenly breasts?”<br>(<em lang=\"la\">impulerit. Tantaene animis caelestibus irae?</em>)",
    "explain": "With <em lang=\"la\">sunt</em> understood, the dative names the possessor: “are there such angers to heavenly minds?” The subject is <em lang=\"la\">irae</em>, and <em lang=\"la\">tantaene</em> carries the question.",
    "options": [
     "Dative of possession",
