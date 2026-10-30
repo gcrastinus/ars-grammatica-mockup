@@ -185,7 +185,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "In that line, what does <i lang=\"es\">y</i> join?",
+   "prompt": "In the line <i lang=\"es\">En tanto que de rosa y azucena</i>, what does <i lang=\"es\">y</i> join?",
    "explain": "Felipe Robles Dégano says (§99, page 86) that a conjunction between two vowels almost always joins the second vowel, and his examples include <i lang=\"es\">y</i>. Either join still gives eleven.",
    "options": [
     "The vowel after it",
@@ -287,7 +287,7 @@ ARS.exercises["lang.ix.es/poetry-ex"] = {
    "deck": "lang.ix.es/poetry-ex",
    "section": "ix",
    "type": "mc",
-   "prompt": "How many syllables does each half of that line count?",
+   "prompt": "The first line of “Sonatina,” <i lang=\"es\">La princesa está triste... ¿qué tendrá la princesa?</i>, is an alexandrine. How many syllables does each half count?",
    "explain": "Each half is counted as a line of seven, and the count begins again after the pause.",
    "options": [
     "Seven",
