@@ -319,13 +319,13 @@ ARS.exercises["lang.v.en/workshop-ex"] = {
    "deck": "lang.v.en/workshop-ex",
    "section": "v",
    "type": "mc",
-   "prompt": "On which word does “still” depend? “Thou <b>still</b> unravish’d bride of quietness, thou foster-child of silence and slow time.”",
-   "explain": "“Still” means “yet” here and determines the participle “unravish’d”; an adverb can determine an adjective or participle as well as a verb. (John Keats, “Ode on a Grecian Urn,” lines 1–2)",
+   "prompt": "On which word does the first “more” depend? “Thou art <b>more</b> lovely and more temperate.”",
+   "explain": "“More” is an adverb of degree and determines the adjective “lovely”; an adverb can determine an adjective as well as a verb. (William Shakespeare, Sonnet 18, line 2)",
    "options": [
-    "“unravish’d”",
-    "“bride”",
-    "“quietness”",
-    "“time”"
+    "“lovely”",
+    "“art”",
+    "“thou”",
+    "“temperate”"
    ],
    "answer": 0
   },
