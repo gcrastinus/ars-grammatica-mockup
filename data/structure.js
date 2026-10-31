@@ -154,7 +154,7 @@ ARS.structure = [
  { id:'xi', roman:'XI', latin:'De aliis traditionibus', name:'Other Traditions',
    gloss:'The other classical grammars, and the close of the course.',
    items:[
-   { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
+   { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions; then what each age had and what each age lacked, and grammar as a liberal art.' },
    { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions', desc:'Twenty-five questions on XI.1, in three fixed sets of nine, eight, and eight.' }
  ]}
 ];
