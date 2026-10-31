@@ -1,4 +1,4 @@
-/* Recitation outline for iv.etymology: 35 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for iv.etymology: 53 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/iv.etymology.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -36,5 +36,23 @@
     `The present meaning is fixed by usage, and etymology explains how that meaning came about but does not overrule it.`,
     `The great historical dictionaries record what etymology has established: for each word, its origin, its earliest recorded uses with dated quotations, and the history of its meanings.`,
     `For Latin, Vossius’s etymological dictionary gathered the ancient and Renaissance learning, and modern etymological dictionaries have corrected and extended it.`,
-    `The studies of derivation, composition, and etymology complete the grammar of the single word.`
+    `The studies of derivation, composition, and etymology complete the grammar of the single word.`,
+    `In 1786 Sir William Jones observed that Sanskrit bears to Greek and Latin a likeness, in the roots of its verbs and in its grammatical forms, too strong to have come about by chance, so that all three must have sprung from some common source, which perhaps no longer exists.`,
+    `This observation began the study of the history and relations of languages.`,
+    `Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.`,
+    `The comparative etymology that follows, which explains cognates such as English “foot” and Latin <i>pēs</i>, rests on this discovery.`,
+    `The classical tradition would receive this discovery as it receives any well-founded etymology: it corrects many derivations of Varro and Isidore but leaves the art of grammar as it was.`,
+    `In the nineteenth century comparative grammar became the principal form of the study of language.`,
+    `Bopp compared the conjugation of the verb in Sanskrit, Greek, Latin, Persian, and the Germanic languages.`,
+    `The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation.`,
+    `So the nineteenth century discovered that languages have histories and change according to regular laws, a fact that the modists had no obvious place for.`,
+    `Latin was not a fixed system outside time but a stage between an older language and the Romance languages that descended from it, and a grammar derived from unchanging modes of being does not plainly predict that a language should change at all.`,
+    `Boethius of Dacia considered the objection that a science must be of what is necessary and unchanging.`,
+    `He answered that there is a true science of things that come to be and pass away, through the causes that always accompany them; otherwise there would be a science only of things that never change.`,
+    `So the classical account can admit that languages change, as long as the change follows causes that can be known: the modes of signifying would be the constant part, and the sounds and forms that change would be the accidents.`,
+    `Whether this answer reaches far enough to account for the whole history of the Indo-European languages is a fair question, and it is one of the points at which the classical art and modern linguistics meet.`,
+    `A <strong>synchronic</strong> study describes a language as a system at one time; a <strong>diachronic</strong> study describes how a language changes through time.`,
+    `Saussure held that the two must be kept apart, and that the system of a language at a given moment can be described without reference to its history.`,
+    `The nineteenth-century philologists had studied languages chiefly diachronically, and Saussure’s distinction made the synchronic description of a language the principal task of linguistics.`,
+    `The classical grammarian had described the Latin of the authors as a system, but he also drew on its history, through the criterion of antiquity and through etymology.`
   ],

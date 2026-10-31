@@ -22,12 +22,12 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 39,
+ "pool": 36,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 13,
+  "A": 11,
   "B": 11,
-  "C": 15
+  "C": 14
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
@@ -170,36 +170,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Philology asks what an author wrote and how his language came to be what it was; the classical art asks why grammar is as it is, and modern linguistics asks how a language works as a system and what is common to all."
-  },
-  {
-   "id": "rxi-A11",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What did the Neogrammarians hold about sound changes?",
-   "options": [
-    "They occur only in poetry",
-    "They cannot be studied by any science",
-    "They happen at random, without any law",
-    "They operate without exception"
-   ],
-   "answer": 3,
-   "explain": "The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation."
-  },
-  {
-   "id": "rxi-A12",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "A study of how Latin became French and Italian is, in Saussure’s terms, what kind of study?",
-   "options": [
-    "Diachronic",
-    "Synchronic",
-    "Syntagmatic",
-    "Paradigmatic"
-   ],
-   "answer": 0,
-   "explain": "A diachronic study describes how a language changes through time; a synchronic study describes it as a system at one time."
   },
   {
    "id": "rxi-A13",
@@ -515,21 +485,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 3,
    "explain": "Ma described classical Chinese with the categories of Latin grammar; later grammarians criticized him for imposing them and sought categories drawn from Chinese itself."
-  },
-  {
-   "id": "rxi-C09",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "How did Boethius of Dacia answer the objection that there is no science of what changes?",
-   "options": [
-    "Changing things are known through their causes",
-    "There is no science of grammar at all, only an art",
-    "Languages never change, so the objection fails",
-    "Only Latin is a proper subject of any science"
-   ],
-   "answer": 0,
-   "explain": "Boethius answered that there is a true science of things that come to be and pass away, through the causes that always accompany them."
   },
   {
    "id": "rxi-C10",

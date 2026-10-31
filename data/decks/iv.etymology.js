@@ -1,5 +1,6 @@
 /* IV.3 Etymology [iv.etymology]
    Plan (ITEM-LIST.md): 10 panels, 3 question points.
+   30 Oct 2026: 13 panels; panels jones, boethius-change and synchronic moved from xi.modern, and xi.modern comparative merged into panel comparative (A4).
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"). Quintilian I.6.28 and I.6.32–34 checked against the Perseus
    text of Butler's translation. */
 window.ARS = window.ARS || {};
@@ -45,6 +46,24 @@ ARS.decks['iv.etymology'] = {
     `The great historical dictionaries record what etymology has established: for each word, its origin, its earliest recorded uses with dated quotations, and the history of its meanings.`,
     `For Latin, Vossius’s etymological dictionary gathered the ancient and Renaissance learning, and modern etymological dictionaries have corrected and extended it.`,
     `The studies of derivation, composition, and etymology complete the grammar of the single word.`,
+    `In 1786 Sir William Jones observed that Sanskrit bears to Greek and Latin a likeness, in the roots of its verbs and in its grammatical forms, too strong to have come about by chance, so that all three must have sprung from some common source, which perhaps no longer exists.`,
+    `This observation began the study of the history and relations of languages.`,
+    `Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.`,
+    `The comparative etymology that follows, which explains cognates such as English “foot” and Latin <i>pēs</i>, rests on this discovery.`,
+    `The classical tradition would receive this discovery as it receives any well-founded etymology: it corrects many derivations of Varro and Isidore but leaves the art of grammar as it was.`,
+    `In the nineteenth century comparative grammar became the principal form of the study of language.`,
+    `Bopp compared the conjugation of the verb in Sanskrit, Greek, Latin, Persian, and the Germanic languages.`,
+    `The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation.`,
+    `So the nineteenth century discovered that languages have histories and change according to regular laws, a fact that the modists had no obvious place for.`,
+    `Latin was not a fixed system outside time but a stage between an older language and the Romance languages that descended from it, and a grammar derived from unchanging modes of being does not plainly predict that a language should change at all.`,
+    `Boethius of Dacia considered the objection that a science must be of what is necessary and unchanging.`,
+    `He answered that there is a true science of things that come to be and pass away, through the causes that always accompany them; otherwise there would be a science only of things that never change.`,
+    `So the classical account can admit that languages change, as long as the change follows causes that can be known: the modes of signifying would be the constant part, and the sounds and forms that change would be the accidents.`,
+    `Whether this answer reaches far enough to account for the whole history of the Indo-European languages is a fair question, and it is one of the points at which the classical art and modern linguistics meet.`,
+    `A <strong>synchronic</strong> study describes a language as a system at one time; a <strong>diachronic</strong> study describes how a language changes through time.`,
+    `Saussure held that the two must be kept apart, and that the system of a language at a given moment can be described without reference to its history.`,
+    `The nineteenth-century philologists had studied languages chiefly diachronically, and Saussure’s distinction made the synchronic description of a language the principal task of linguistics.`,
+    `The classical grammarian had described the Latin of the authors as a system, but he also drew on its history, through the criterion of antiquity and through etymology.`,
   ],
   panels: [
 
@@ -94,12 +113,47 @@ ARS.decks['iv.etymology'] = {
 <p>His chief example is the derivation of words from their opposites: “are we also to admit the derivation of certain words from their opposites, and accept <i>lucus a non lucendo</i>, since a grove is dark with shade, <i>ludus</i> in the sense of school as being so called because it is quite the reverse of ‘play’” (I.6.34)? The phrase <i>lūcus ā nōn lūcendō</i> (“a grove, from its not giving light”) has become proverbial for an absurd explanation. But Quintilian also rejects the derivation of <i>homō</i> (“man”) from <i>humus</i> (“earth”), which modern scholars accept, so his caution, though sound in principle, was not always right in its judgments.</p>`,
   src: `Quintilian, <i>Institutio oratoria</i> I.6.32, 34 (trans. Butler; checked against the Perseus text).` },
 
+{ id: 'jones',
+  title: 'The discovery of Sanskrit',
+  body: `<p>English “name,” Latin <i>nōmen</i>, Greek <i>onoma</i>, and Sanskrit <i>nāman</i> are plainly alike, and such likenesses run through many words of many languages. In 1786 Sir William Jones, a British judge in Calcutta who had learned Sanskrit, told the Asiatic Society of Bengal that Sanskrit bears to Greek and Latin a stronger likeness, both in the roots of its verbs and in its grammatical forms, than could have come about by chance, so that a scholar who examined all three would conclude that they had sprung from some common source, which perhaps no longer exists (“Third Anniversary Discourse”).</p>
+<p>This observation began the study of the history and relations of languages. Philologists came to see that Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written. Comparative etymology, which we take up next, explains English “foot” and Latin <i>pēs</i> as cognates; that explanation rests on the discovery that Jones announced.</p>
+<p>The classical tradition would receive this discovery as it receives any etymology that is well founded: it corrects many of the derivations of Varro and Isidore, which we have seen, but it leaves the art of grammar itself as it was.</p>`,
+  src: `Sir William Jones, “Third Anniversary Discourse” (1786), in paraphrase.`,
+  qp: { id: 'q-jones', variants: [
+    { prompt: `What did Sir William Jones observe about Sanskrit, Greek, and Latin?`,
+      options: [`That Sanskrit was descended from Latin`, `That Greek and Latin were unrelated`, `That Sanskrit had no grammar of its own at all`, `That their likeness was too strong to come by chance`],
+      answer: 3,
+      explain: `Jones said that Sanskrit bears to Greek and Latin a stronger likeness, in the roots of its verbs and in its grammatical forms, than could have come about by chance.` },
+    { prompt: `What did Jones conclude from the likeness of the three languages?`,
+      options: [`Sanskrit is the parent of the other two`, `Latin is the parent of the other two`, `They sprang from a common source`, `The likeness was a coincidence`],
+      answer: 2,
+      explain: `Jones concluded that a scholar who examined all three would see that they had sprung from some common source, which perhaps no longer exists.` },
+    { prompt: `What study did Jones’s observation begin?`,
+      options: [`The medieval study of the modes of signifying`, `The history and relations of languages`, `The first grammar of Sanskrit`, `The study of speech acts`],
+      answer: 1,
+      explain: `His observation began the study of the history and relations of languages, which led to the recognition of Proto-Indo-European, the unwritten parent of Latin, Greek, Sanskrit, and many other languages.` }
+  ] } },
+
 { id: 'comparative',
   title: 'Comparative etymology',
   body: `<p>In the nineteenth century scholars found a more reliable method. By comparing the oldest forms of related languages, they found that sounds change according to regular patterns, which they called <strong>sound laws</strong>. The best known is the law named after the German scholar Jacob Grimm, who set it out in 1822; it describes how certain consonants of the parent language changed in the Germanic languages. So, in words that both languages inherited from the parent language, where Latin has <i>p</i>, English has <i>f</i>; where Latin has <i>t</i>, English has <i>th</i>; where Latin has <i>c</i> (that is, <i>k</i>), English has <i>h</i>:</p>
 <p><i>pēs</i> and “foot”; <i>piscis</i> and “fish”;<br><i>trēs</i> and “three”; <i>tenuis</i> and “thin”;<br><i>cornū</i> and “horn”; <i>centum</i> and “hundred.”</p>
-<p>Because these changes are regular, an etymology must now account for every sound of the word by such laws, not by a mere likeness. This is why the modern etymologist can show that “foot” and <i>pēs</i> are the same word, although they differ in sound, and that English “have” is not related to Latin <i>habēre</i>, although they look alike.</p>`,
+<p>Because these changes are regular, an etymology must now account for every sound of the word by such laws, not by a mere likeness. This is why the modern etymologist can show that “foot” and <i>pēs</i> are the same word, although they differ in sound, and that English “have” is not related to Latin <i>habēre</i>, although they look alike.</p>
+<p>In the nineteenth century comparative grammar became the principal form of the study of language. Franz Bopp compared the conjugation of the verb in Sanskrit, Greek, Latin, Persian, and the Germanic languages (1816), and later in the century the scholars called the Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation.</p>
+<p>So the nineteenth century discovered a fact that the modists had no obvious place for: languages have histories, and they change according to regular laws. Latin was not a fixed system outside time but a stage between an older language and the Romance languages that descended from it. A grammar derived from unchanging modes of being does not plainly predict that a language should change at all.</p>`,
   src: `Standard histories of the Indo-European languages, in paraphrase.` },
+
+{ id: 'boethius-change',
+  title: 'Can there be a science of what changes?',
+  body: `<p>The modists, whom we met in Section III, had foreseen part of this difficulty. Boethius of Dacia, arguing that grammar is a science, considered the objection that a science must be of what is necessary and unchanging. He answered that there is a true science of things that come to be and pass away, through the causes that always accompany them; otherwise there would be a science only of things that never change (<i>Modi significandi</i>, q. 4).</p>
+<p>So the classical account can admit that languages change, as long as the change follows causes that can be known. The modes of signifying would then be the constant part, and the sounds and forms that change would be the accidents. Whether this answer reaches far enough to account for the whole history of the Indo-European languages is a fair question, and it is one of the points at which the classical art and modern linguistics meet.</p>`,
+  src: `Boethius of Dacia, <i>Modi significandi</i>, in paraphrase.` },
+
+{ id: 'synchronic',
+  title: 'Synchronic and diachronic',
+  body: `<p>English can be studied as it is spoken today, or as it has changed from the English of Chaucer to our own. Saussure, whom we met in Section I, distinguished these two ways of studying a language. A <strong>synchronic</strong> study describes a language as a system at one time, as English is spoken today or Latin was written in the age of Cicero. A <strong>diachronic</strong> study describes how a language changes through time, as Latin became French and Italian. He held that the two must be kept apart, and that the system of a language at a given moment can be described without reference to its history.</p>
+<p>The nineteenth-century philologists had studied languages chiefly diachronically. Saussure’s distinction made the synchronic description of a language the principal task of linguistics. The classical grammarian had done something similar, describing the Latin of the authors as a system; but he also drew on its history, through the criterion of antiquity and through etymology, as we saw in the Preliminary section and earlier in this deck.</p>`,
+  src: `Saussure, <i>Cours</i>, Part I, ch. 3, in paraphrase.` },
 
 { id: 'cognate-borrowed',
   title: 'Related words and borrowed words',

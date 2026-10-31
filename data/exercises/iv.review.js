@@ -26,12 +26,12 @@ ARS.exercises['iv.review'] = {
  "types": [
   "mc"
  ],
- "pool": 30,
+ "pool": 33,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 10,
-  "B": 10,
-  "C": 10
+  "A": 11,
+  "B": 11,
+  "C": 11
  },
  "limit": "Only what IV.1 to IV.3 teach; scaled to three decks (30 questions, three sets of 10; ITEM-LIST, rule 8).",
  "balancePerSet": {
@@ -192,6 +192,21 @@ ARS.exercises['iv.review'] = {
    "explain": "“Etymology” comes from Greek <i>etymon</i> (“true”) and <i>logos</i> (“account”), so it means an account of the true sense of a word."
   },
   {
+   "id": "riv-A11",
+   "set": "A",
+   "deck": "iv.etymology",
+   "type": "mc",
+   "prompt": "What did the Neogrammarians hold about sound changes?",
+   "options": [
+    "They occur only in poetry",
+    "They cannot be studied by any science",
+    "They happen at random, without any law",
+    "They operate without exception"
+   ],
+   "answer": 3,
+   "explain": "The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation."
+  },
+  {
    "id": "riv-B01",
    "set": "B",
    "deck": "iv.derivation",
@@ -342,6 +357,21 @@ ARS.exercises['iv.review'] = {
    "explain": "The meaning of a word can change greatly over time, and the present meaning is fixed by usage. To argue that a word must mean what its ancestor meant is the etymological fallacy."
   },
   {
+   "id": "riv-B11",
+   "set": "B",
+   "deck": "iv.etymology",
+   "type": "mc",
+   "prompt": "A study of how Latin became French and Italian is, in Saussure’s terms, what kind of study?",
+   "options": [
+    "Diachronic",
+    "Synchronic",
+    "Syntagmatic",
+    "Paradigmatic"
+   ],
+   "answer": 0,
+   "explain": "A diachronic study describes how a language changes through time; a synchronic study describes it as a system at one time."
+  },
+  {
    "id": "riv-C01",
    "set": "C",
    "deck": "iv.derivation",
@@ -490,6 +520,21 @@ ARS.exercises['iv.review'] = {
    ],
    "answer": 2,
    "explain": "Because sound changes are regular, an etymology must account for every sound of the word by such laws, not by a mere likeness. This is why “foot” and <i>pēs</i> can be shown to be the same word."
+  },
+  {
+   "id": "riv-C11",
+   "set": "C",
+   "deck": "iv.etymology",
+   "type": "mc",
+   "prompt": "How did Boethius of Dacia answer the objection that there is no science of what changes?",
+   "options": [
+    "Changing things are known through their causes",
+    "There is no science of grammar at all, only an art",
+    "Languages never change, so the objection fails",
+    "Only Latin is a proper subject of any science"
+   ],
+   "answer": 0,
+   "explain": "Boethius answered that there is a true science of things that come to be and pass away, through the causes that always accompany them."
   }
  ]
 };

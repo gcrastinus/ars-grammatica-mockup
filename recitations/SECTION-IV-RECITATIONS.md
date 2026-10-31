@@ -107,3 +107,21 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 33. The great historical dictionaries record what etymology has established: for each word, its origin, its earliest recorded uses with dated quotations, and the history of its meanings.
 34. For Latin, Vossius’s etymological dictionary gathered the ancient and Renaissance learning, and modern etymological dictionaries have corrected and extended it.
 35. The studies of derivation, composition, and etymology complete the grammar of the single word.
+36. In 1786 Sir William Jones observed that Sanskrit bears to Greek and Latin a likeness, in the roots of its verbs and in its grammatical forms, too strong to have come about by chance, so that all three must have sprung from some common source, which perhaps no longer exists.
+37. This observation began the study of the history and relations of languages.
+38. Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.
+39. The comparative etymology that follows, which explains cognates such as English “foot” and Latin *pēs*, rests on this discovery.
+40. The classical tradition would receive this discovery as it receives any well-founded etymology: it corrects many derivations of Varro and Isidore but leaves the art of grammar as it was.
+41. In the nineteenth century comparative grammar became the principal form of the study of language.
+42. Bopp compared the conjugation of the verb in Sanskrit, Greek, Latin, Persian, and the Germanic languages.
+43. The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation.
+44. So the nineteenth century discovered that languages have histories and change according to regular laws, a fact that the modists had no obvious place for.
+45. Latin was not a fixed system outside time but a stage between an older language and the Romance languages that descended from it, and a grammar derived from unchanging modes of being does not plainly predict that a language should change at all.
+46. Boethius of Dacia considered the objection that a science must be of what is necessary and unchanging.
+47. He answered that there is a true science of things that come to be and pass away, through the causes that always accompany them; otherwise there would be a science only of things that never change.
+48. So the classical account can admit that languages change, as long as the change follows causes that can be known: the modes of signifying would be the constant part, and the sounds and forms that change would be the accidents.
+49. Whether this answer reaches far enough to account for the whole history of the Indo-European languages is a fair question, and it is one of the points at which the classical art and modern linguistics meet.
+50. A **synchronic** study describes a language as a system at one time; a **diachronic** study describes how a language changes through time.
+51. Saussure held that the two must be kept apart, and that the system of a language at a given moment can be described without reference to its history.
+52. The nineteenth-century philologists had studied languages chiefly diachronically, and Saussure’s distinction made the synchronic description of a language the principal task of linguistics.
+53. The classical grammarian had described the Latin of the authors as a system, but he also drew on its history, through the criterion of antiquity and through etymology.
