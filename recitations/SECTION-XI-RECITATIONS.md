@@ -6,8 +6,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| The Other Classical Traditions (`xi.traditions`) | 217 | 6423 |
-| **Section XI, whole section** | **217** | **6423** |
+| The Other Classical Traditions (`xi.traditions`) | 217 | 6424 |
+| **Section XI, whole section** | **217** | **6424** |
 
 ## The Other Classical Traditions (`xi.traditions`)
 
@@ -226,5 +226,5 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 213. The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.
 214. Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.
 215. That grammar is in an important sense one in all languages is still a claim on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.
-216. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.
+216. The classical art as such does stand by its central insights: that words are signs of what the mind understands, and that the mind understands things.
 217. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.
