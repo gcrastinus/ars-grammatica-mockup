@@ -213,6 +213,26 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 24. Bühler’s three functions (expression, appeal, representation) correspond to the tradition: representation to the statement, and appeal to the command and the prayer.
 25. Jakobson’s added functions also fit the classical account: keeping contact between speaker and hearer is the work of the vocative, and speaking about the language itself is done with names of the second imposition.
 26. The poetic function is not a separate function in the classical tradition, whose ideal is to use the precise words that have the most beauty and the most power for what the poet intends; drawing attention to the words themselves is used only where the circumstances call for it.
+27. Some sentences do not describe an action but perform it; Austin called such utterances **performatives**, and he distinguished them from **constatives**, which state that something is so and are true or false.
+28. Only the statement is true or false, and Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says.
+29. A performative can succeed or fail, as a naming fails if the speaker has no authority to name, but it cannot be false.
+30. Austin argued that every utterance performs several acts at once.
+31. The **locutionary** act is the saying of a sentence with a certain sense and reference.
+32. The **illocutionary** act is what is done in saying it, such as a statement, a warning, a promise, or a command.
+33. The **perlocutionary** act is what is brought about by saying it, the effect on the hearer.
+34. The illocutionary act corresponds to what the tradition called the kind of sentence, and the perlocutionary act belongs to what Aristotle assigned to rhetoric, so grammar, logic, and rhetoric each consider one aspect of every utterance.
+35. Searle classified illocutionary acts into five kinds.
+36. **Assertives** commit the speaker to the truth of something; **directives** attempt to get the hearer to do something; and **commissives** commit the speaker to a future action.
+37. **Expressives** express a feeling, and **declarations** bring about what they say.
+38. St. Thomas’s enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive.
+39. The commissive and the declaration are kinds that the medieval account did not distinguish separately.
+40. A sentence of one grammatical kind is often used to perform an act of another kind; Searle called such utterances **indirect speech acts**, in which the speaker performs one act by means of another (a request made as a question).
+41. Irony says the contrary of what the words say, whereas an indirect speech act does not reverse the sense but uses a polite or customary form for the act intended.
+42. So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed.
+43. The theory of speech acts belongs chiefly to the philosophy of language, but it bears on grammar because languages mark the kinds of act in their forms.
+44. The moods of the verb mark statements, commands, and wishes, and English and Latin mark questions by order and by particles.
+45. Performative verbs are used in the first person present to perform the act they name.
+46. So the grammar of a language provides the means by which speakers perform their acts, and the classical grammarians, who placed the moods among the accidents of the verb, and the modists, who explained mood as the inclination of the mind, already treated the speaker’s act as a part of grammar.
 
 ## Ambiguity (`i.ambiguity`)
 

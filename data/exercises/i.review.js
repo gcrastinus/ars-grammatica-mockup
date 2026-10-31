@@ -50,12 +50,12 @@ ARS.exercises['i.review'] = {
   "identify",
   "sort"
  ],
- "pool": 121,
+ "pool": 123,
  "rotation": "A, B, C, D, E, F, A, … (never shuffled)",
  "sets": {
-  "A": 20,
+  "A": 21,
   "B": 21,
-  "C": 20,
+  "C": 21,
   "D": 20,
   "E": 20,
   "F": 20
@@ -1601,6 +1601,21 @@ ARS.exercises['i.review'] = {
    "explain": "“Any one” (any single one of a group) and “anyone” (any person at all) differ only in whether the letters are read as one word or as two."
   },
   {
+   "id": "ri-A16",
+   "set": "A",
+   "deck": "i.functions",
+   "type": "mc",
+   "prompt": "According to Austin, how does a performative differ from a statement?",
+   "options": [
+    "It is always true, whoever says it",
+    "It has no grammatical form of its own",
+    "It can fail, but it cannot be false",
+    "It is always in the form of a question"
+   ],
+   "answer": 2,
+   "explain": "A performative accomplishes what it says; it can fail, as a naming fails without authority, but it cannot be false."
+  },
+  {
    "id": "ri-C13",
    "set": "D",
    "deck": "i.ambiguity",
@@ -2361,6 +2376,21 @@ ARS.exercises['i.review'] = {
     "prompt": "What does the grammarian do with an intended ambiguity?",
     "model": "He locates the double sense, in a word or in the construction, and says what each sense is; he explains it rather than correcting it."
    }
+  },
+  {
+   "id": "ri-C16",
+   "set": "C",
+   "deck": "i.functions",
+   "type": "mc",
+   "prompt": "What is an indirect speech act?",
+   "options": [
+    "One act performed by means of another",
+    "A sentence reported in indirect discourse",
+    "A statement that is known to be false",
+    "A command addressed by a speaker to himself"
+   ],
+   "answer": 0,
+   "explain": "In an indirect speech act the speaker performs one act by means of another, as a request made in the form of a question about the hearer’s ability."
   }
  ]
 };

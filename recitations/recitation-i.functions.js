@@ -1,4 +1,4 @@
-/* Recitation outline for i.functions (The Functions of Language): 26 points. DRAFT for Timothy's review.
+/* Recitation outline for i.functions (The Functions of Language): 46 points. DRAFT for Timothy's review.
    Moved into data/decks/i.functions.js as the deck-level field `recitation` (18 Oct 2026). This file is the approved copy and is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards (<i>, <strong>). */
   recitation: [
@@ -27,5 +27,25 @@
     `Modern accounts of the functions of language agree with the tradition that speech does more than state, and that stating is the function on which truth depends.`,
     `Bühler’s three functions (expression, appeal, representation) correspond to the tradition: representation to the statement, and appeal to the command and the prayer.`,
     `Jakobson’s added functions also fit the classical account: keeping contact between speaker and hearer is the work of the vocative, and speaking about the language itself is done with names of the second imposition.`,
-    `The poetic function is not a separate function in the classical tradition, whose ideal is to use the precise words that have the most beauty and the most power for what the poet intends; drawing attention to the words themselves is used only where the circumstances call for it.`
+    `The poetic function is not a separate function in the classical tradition, whose ideal is to use the precise words that have the most beauty and the most power for what the poet intends; drawing attention to the words themselves is used only where the circumstances call for it.`,
+    `Some sentences do not describe an action but perform it; Austin called such utterances <strong>performatives</strong>, and he distinguished them from <strong>constatives</strong>, which state that something is so and are true or false.`,
+    `Only the statement is true or false, and Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says.`,
+    `A performative can succeed or fail, as a naming fails if the speaker has no authority to name, but it cannot be false.`,
+    `Austin argued that every utterance performs several acts at once.`,
+    `The <strong>locutionary</strong> act is the saying of a sentence with a certain sense and reference.`,
+    `The <strong>illocutionary</strong> act is what is done in saying it, such as a statement, a warning, a promise, or a command.`,
+    `The <strong>perlocutionary</strong> act is what is brought about by saying it, the effect on the hearer.`,
+    `The illocutionary act corresponds to what the tradition called the kind of sentence, and the perlocutionary act belongs to what Aristotle assigned to rhetoric, so grammar, logic, and rhetoric each consider one aspect of every utterance.`,
+    `Searle classified illocutionary acts into five kinds.`,
+    `<strong>Assertives</strong> commit the speaker to the truth of something; <strong>directives</strong> attempt to get the hearer to do something; and <strong>commissives</strong> commit the speaker to a future action.`,
+    `<strong>Expressives</strong> express a feeling, and <strong>declarations</strong> bring about what they say.`,
+    `St. Thomas’s enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive.`,
+    `The commissive and the declaration are kinds that the medieval account did not distinguish separately.`,
+    `A sentence of one grammatical kind is often used to perform an act of another kind; Searle called such utterances <strong>indirect speech acts</strong>, in which the speaker performs one act by means of another (a request made as a question).`,
+    `Irony says the contrary of what the words say, whereas an indirect speech act does not reverse the sense but uses a polite or customary form for the act intended.`,
+    `So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed.`,
+    `The theory of speech acts belongs chiefly to the philosophy of language, but it bears on grammar because languages mark the kinds of act in their forms.`,
+    `The moods of the verb mark statements, commands, and wishes, and English and Latin mark questions by order and by particles.`,
+    `Performative verbs are used in the first person present to perform the act they name.`,
+    `So the grammar of a language provides the means by which speakers perform their acts, and the classical grammarians, who placed the moods among the accidents of the verb, and the modists, who explained mood as the inclination of the mind, already treated the speaker’s act as a part of grammar.`
   ],

@@ -22,11 +22,11 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 44,
+ "pool": 42,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 15,
-  "B": 14,
+  "A": 14,
+  "B": 13,
   "C": 15
  },
  "limit": "Only what XI.1 and XI.2 teach.",
@@ -230,21 +230,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 1,
    "explain": "Because meaning could not be observed as forms can, they set it aside as far as possible and described each language by the distribution of its sounds and forms."
-  },
-  {
-   "id": "rxi-A14",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "According to Austin, how does a performative differ from a statement?",
-   "options": [
-    "It is always true, whoever says it",
-    "It has no grammatical form of its own",
-    "It can fail, but it cannot be false",
-    "It is always in the form of a question"
-   ],
-   "answer": 2,
-   "explain": "A performative accomplishes what it says; it can fail, as a naming fails without authority, but it cannot be false."
   },
   {
    "id": "rxi-A15",
@@ -455,21 +440,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 3,
    "explain": "A transformation relates one structure to another, as the passive to the active, or a question to the corresponding statement."
-  },
-  {
-   "id": "rxi-B15",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What is an indirect speech act?",
-   "options": [
-    "One act performed by means of another",
-    "A sentence reported in indirect discourse",
-    "A statement that is known to be false",
-    "A command addressed by a speaker to himself"
-   ],
-   "answer": 0,
-   "explain": "In an indirect speech act the speaker performs one act by means of another, as a request made in the form of a question about the hearer’s ability."
   },
   {
    "id": "rxi-C01",

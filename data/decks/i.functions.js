@@ -1,5 +1,5 @@
 /* I.5 The Functions of Language [i.functions]
-   Plan (ITEM-LIST.md): 8 panels, 2 question points, each with exactly 3 variants.
+   Plan (ITEM-LIST.md): 8 panels, 2 question points, each with exactly 3 variants. 30 Oct 2026: 12 panels, 4 question points; panels austin, three-acts, searle and indirect (merged with speech-acts-grammar) moved from xi.modern (A2).
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from the sources. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -34,7 +34,27 @@ ARS.decks['i.functions'] = {
     `Modern accounts of the functions of language agree with the tradition that speech does more than state, and that stating is the function on which truth depends.`,
     `Bühler’s three functions (expression, appeal, representation) correspond to the tradition: representation to the statement, and appeal to the command and the prayer.`,
     `Jakobson’s added functions also fit the classical account: keeping contact between speaker and hearer is the work of the vocative, and speaking about the language itself is done with names of the second imposition.`,
-    `The poetic function is not a separate function in the classical tradition, whose ideal is to use the precise words that have the most beauty and the most power for what the poet intends; drawing attention to the words themselves is used only where the circumstances call for it.`
+    `The poetic function is not a separate function in the classical tradition, whose ideal is to use the precise words that have the most beauty and the most power for what the poet intends; drawing attention to the words themselves is used only where the circumstances call for it.`,
+    `Some sentences do not describe an action but perform it; Austin called such utterances <strong>performatives</strong>, and he distinguished them from <strong>constatives</strong>, which state that something is so and are true or false.`,
+    `Only the statement is true or false, and Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says.`,
+    `A performative can succeed or fail, as a naming fails if the speaker has no authority to name, but it cannot be false.`,
+    `Austin argued that every utterance performs several acts at once.`,
+    `The <strong>locutionary</strong> act is the saying of a sentence with a certain sense and reference.`,
+    `The <strong>illocutionary</strong> act is what is done in saying it, such as a statement, a warning, a promise, or a command.`,
+    `The <strong>perlocutionary</strong> act is what is brought about by saying it, the effect on the hearer.`,
+    `The illocutionary act corresponds to what the tradition called the kind of sentence, and the perlocutionary act belongs to what Aristotle assigned to rhetoric, so grammar, logic, and rhetoric each consider one aspect of every utterance.`,
+    `Searle classified illocutionary acts into five kinds.`,
+    `<strong>Assertives</strong> commit the speaker to the truth of something; <strong>directives</strong> attempt to get the hearer to do something; and <strong>commissives</strong> commit the speaker to a future action.`,
+    `<strong>Expressives</strong> express a feeling, and <strong>declarations</strong> bring about what they say.`,
+    `St. Thomas’s enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive.`,
+    `The commissive and the declaration are kinds that the medieval account did not distinguish separately.`,
+    `A sentence of one grammatical kind is often used to perform an act of another kind; Searle called such utterances <strong>indirect speech acts</strong>, in which the speaker performs one act by means of another (a request made as a question).`,
+    `Irony says the contrary of what the words say, whereas an indirect speech act does not reverse the sense but uses a polite or customary form for the act intended.`,
+    `So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed.`,
+    `The theory of speech acts belongs chiefly to the philosophy of language, but it bears on grammar because languages mark the kinds of act in their forms.`,
+    `The moods of the verb mark statements, commands, and wishes, and English and Latin mark questions by order and by particles.`,
+    `Performative verbs are used in the first person present to perform the act they name.`,
+    `So the grammar of a language provides the means by which speakers perform their acts, and the classical grammarians, who placed the moods among the accidents of the verb, and the modists, who explained mood as the inclination of the mind, already treated the speaker’s act as a part of grammar.`
   ],
   panels: [
 
@@ -102,6 +122,60 @@ ARS.decks['i.functions'] = {
       answer: 2,
       explain: `A question asks whether something is so, and it is answered by a statement that says that it is or is not so. “That is true” answers a statement, and obedience or refusal answers a command.` }
   ]}},
+
+{ id: 'austin',
+  title: 'Austin: doing things with words',
+  body: `<p>To say “I do,” in a marriage ceremony, is not to describe a marriage but to marry, and to say “I name this ship the <i>Queen Elizabeth</i>,” at a launching, is to name the ship. Some sentences, then, do not describe an action but perform it. The English philosopher J. L. Austin made this observation in lectures published as <i>How to Do Things with Words</i> (1962). He called such utterances <strong>performatives</strong>, and he distinguished them from <strong>constatives</strong>, which state that something is so and are true or false.</p>
+<p>We have seen that only the statement is true or false, and that commands, questions, and prayers are sentences that signify without being true or false. Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says. A performative can succeed or fail, as a naming fails if the speaker has no authority to name the ship, but it cannot be false.</p>`,
+  src: `Austin, <i>How to Do Things with Words</i> (1962), Lectures I–II, in paraphrase.` },
+
+{ id: 'three-acts',
+  title: 'Three acts in one utterance',
+  body: `<p>The sentence “The bull is in the field” says something with a certain sense, may be meant as a warning, and may make the hearer leave the field. Austin argued that every utterance performs several acts at once in this way. The <strong>locutionary</strong> act is the saying of a sentence with a certain sense and reference. The <strong>illocutionary</strong> act is what is done in saying it, such as a statement, a warning, a promise, or a command. The <strong>perlocutionary</strong> act is what is brought about by saying it, as when the hearer is alarmed and leaves the field.</p>
+<p>So the illocutionary act corresponds to what the tradition called the kind of sentence: a statement, a question, a command, a prayer, or a call. The perlocutionary act, the effect on the hearer, belongs to what Aristotle assigned to rhetoric, as we will see below. Austin’s analysis shows that grammar, logic, and rhetoric each consider one aspect of every utterance.</p>`,
+  src: `Austin, <i>How to Do Things with Words</i>, Lectures VIII–IX, in paraphrase.`,
+  qp: { id: 'q-three-acts', variants: [
+    { prompt: `“There is ice on the steps,” said as a warning. What is the locutionary act?`,
+      options: [`Saying the sentence with its sense`, `Warning the hearer of the danger`, `Making the hearer walk carefully`, `Putting the ice on the steps in winter`],
+      answer: 0,
+      explain: `The locutionary act is the saying of the sentence with a certain sense and reference.` },
+    { prompt: `Someone says, “There is ice on the steps,” as a warning. What is the illocutionary act?`,
+      options: [`The saying of the words`, `The hearer’s caution`, `The ice itself`, `The warning`],
+      answer: 3,
+      explain: `The illocutionary act is what is done in saying the sentence: here, a warning.` },
+    { prompt: `Someone says, “There is ice on the steps,” as a warning, and the hearer walks carefully. What is the perlocutionary act, and to which art did Aristotle assign such effects?`,
+      options: [`The warning itself; grammar`, `The saying of the words; logic and grammar`, `The hearer’s caution; rhetoric`, `The sense; grammar`],
+      answer: 2,
+      explain: `The perlocutionary act is what is brought about by saying the sentence, such as the hearer’s caution; the effect on the hearer belongs to what Aristotle assigned to rhetoric.` }
+  ] } },
+
+{ id: 'searle',
+  title: 'Searle’s classes of speech act',
+  body: `<p>With sentences we state, we try to get others to act, we promise, we thank, and we pronounce a couple married. The American philosopher John Searle, in <i>Speech Acts</i> (1969) and later work, classified illocutionary acts into five kinds: <strong>assertives</strong>, which commit the speaker to the truth of something (“The shop is closed”); <strong>directives</strong>, which attempt to get the hearer to do something (“Close the door”); <strong>commissives</strong>, which commit the speaker to a future action (“I promise to come”); <strong>expressives</strong>, which express a feeling (“Thank you,” “Alas”); and <strong>declarations</strong>, which bring about what they say (“I pronounce you man and wife”).</p>
+<p>Searle’s classes can be compared with St. Thomas’s kinds of sentence that we have seen: the enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive. The commissive and the declaration are kinds that the medieval account did not distinguish separately, although promises and sacramental formulas were much discussed in medieval theology.</p>`,
+  src: `Searle, <i>Speech Acts</i> (1969); “A Classification of Illocutionary Acts” (1976); both in paraphrase.`,
+  qp: { id: 'q-searle', variants: [
+    { prompt: `“I will bring your ladder back tomorrow,” said as a promise. Which of Searle’s classes is it?`,
+      options: [`A commissive`, `An assertive`, `A directive`, `A declaration`],
+      answer: 0,
+      explain: `A commissive commits the speaker to a future action. The medieval account did not distinguish this kind separately.` },
+    { prompt: `“Please shut the window.” Which of Searle’s classes is it, and which of St. Thomas’s kinds of sentence does it correspond to?`,
+      options: [`An assertive; the enunciative`, `An expressive; the vocative`, `A declaration; the deprecative`, `A directive; the imperative`],
+      answer: 3,
+      explain: `A directive attempts to get the hearer to do something, and it corresponds to the imperative (and, for a request to a superior, the deprecative).` },
+    { prompt: `“The library opens at nine.” Which of Searle’s classes is it, and which of St. Thomas’s kinds does it correspond to?`,
+      options: [`A directive; the imperative`, `A commissive; the optative`, `An assertive; the enunciative`, `An expressive; the interrogative`],
+      answer: 2,
+      explain: `An assertive commits the speaker to the truth of something, as the enunciative sentence states what is true or false.` }
+  ] } },
+
+{ id: 'indirect',
+  title: 'Indirect speech acts and mood',
+  body: `<p>A sentence of one grammatical kind is often used to perform an act of another kind. “Can you pass the salt?” is grammatically a question about the hearer’s ability, but it is used as a request; no one answers “Yes” and does nothing. Searle called such utterances <strong>indirect speech acts</strong>: the speaker performs one act (a request) by means of another (a question).</p>
+<p>We will see in Section VII that irony says the contrary of what the words say, and that the hearer understands it from the situation. An indirect speech act works in a similar way, but it does not reverse the sense; it uses a polite or customary form for the act intended. So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed, as St. Thomas says the author’s intention decides the literal sense.</p>
+<p>The theory of speech acts belongs chiefly to the philosophy of language, but it bears on grammar because languages mark the kinds of act in their forms. We will see in Section III that the moods of the verb, indicative, imperative, and subjunctive, mark statements, commands, and wishes, and we have seen that English and Latin mark questions by order and by particles. Performative verbs, such as “promise,” “name,” and “declare,” are used in the first person present to perform the act they name: “I promise,” not “He promises.”</p>
+<p>So the grammar of a language provides the means by which speakers perform their acts, and the theory of speech acts explains what those means are for. The classical grammarians, who placed the moods among the accidents of the verb and the modists, who explained mood as the inclination of the mind, already treated the speaker’s act as a part of grammar.</p>`,
+  src: `Searle, “Indirect Speech Acts” (1975); Austin, <i>How to Do Things with Words</i>; Searle, <i>Speech Acts</i>; all in paraphrase.` },
 
 { id: 'rhetoric-poetry',
   title: 'Logic, rhetoric, poetry, and grammar',

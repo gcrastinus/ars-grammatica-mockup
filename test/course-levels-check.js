@@ -137,7 +137,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   })()`);
   const L = Object.fromEntries(inner.map(x => [x.lv, x]));
   check('review: Essentials gives only the Sign and Symbol questions of the Section I review', L.essentials.review === 22 && L.essentials.reviewDecks === 'i.sign', JSON.stringify(L.essentials));
-  check('review: Comprehensive gives the whole Section I review', L.comprehensive.review === 121);
+  check('review: Comprehensive gives the whole Section I review', L.comprehensive.review === 123);
   check('stages: iii.ex.parts opens Stage I in Essentials and one more stage at each level', [1, 2, 3, 4].every((n, i) => inner[i].partsCap === n && inner[i].partsMax === n));
   check('stages: v.ex.period (Mastered) opens Stage I at Mastered and all three at Comprehensive', L.mastered.periodCap === 1 && L.comprehensive.periodCap === 3);
   check('passages: English prose opens 3, 8, and 15 passages', L.proficient.proseRefs === 3 && L.mastered.proseRefs === 8 && L.comprehensive.proseRefs === 15, inner.map(x => x.proseRefs).join('/'));
