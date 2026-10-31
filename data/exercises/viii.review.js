@@ -23,12 +23,12 @@ ARS.exercises['viii.review'] = {
   "mc",
   "mc-marked"
  ],
- "pool": 30,
+ "pool": 31,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 10,
   "B": 10,
-  "C": 10
+  "C": 11
  },
  "limit": "Only what VIII.1 and VIII.2 teach.",
  "balancePerSet": {
@@ -486,6 +486,21 @@ ARS.exercises['viii.review'] = {
    ],
    "answer": 0,
    "explain": "The signs of quantity are syncategorematic words that grammar classes among the adjectives, since they are adjectives in form, as Latin <i>omnis</i> and <i>nūllus</i> are."
+  },
+  {
+   "id": "rviii-C11",
+   "set": "C",
+   "deck": "viii.equivalents",
+   "type": "mc",
+   "prompt": "What is the argument from the poverty of the stimulus?",
+   "options": [
+    "Children hear too many languages to learn any one well",
+    "Speech is always poorer than writing as evidence",
+    "Children learn more than what they hear could teach",
+    "Adults can never learn a new language as children do"
+   ],
+   "answer": 2,
+   "explain": "The evidence a child hears is too poor to account for what the child comes to know, Chomsky argued, so the structure common to all languages must be part of the mind from birth."
   }
  ]
 };

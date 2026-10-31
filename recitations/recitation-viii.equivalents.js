@@ -1,4 +1,4 @@
-/* Recitation outline for viii.equivalents: 52 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for viii.equivalents: 68 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/viii.equivalents.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -53,5 +53,21 @@
     `So the two universal grammars agree that languages share a common structure, but they disagree about what that structure is and where it comes from.`,
     `Whether there is a grammar common to all languages is a question of fact as well as of principle, and it can be tested only by studying many languages.`,
     `The grammarian need not settle the question in order to study the grammar of English and Latin.`,
-    `But the question shows why grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.`
+    `But the question shows why grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.`,
+    `Chomsky argued that the evidence a child hears is too poor to account for what the child comes to know, so the structure common to all languages must be part of the human mind from birth; this is the argument from the poverty of the stimulus.`,
+    `His universal grammar is therefore a theory of the mind.`,
+    `Some linguists hold that children learn more from what they hear than Chomsky supposed, and that general powers of learning suffice.`,
+    `The classical tradition asks a different question: not only what the mind must contain to learn a language, but why the categories of language are what they are, i.e. why there are nouns, why there are verbs, etc., which it answers from the modes of understanding and of being (there are nouns because there are stable beings, there are verbs because there are actions and receptions of action, etc.).`,
+    `Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>, which have a small number of possible settings, fixed differently in different languages.`,
+    `One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, and Japanese places it last, so that it has postpositions in place of prepositions.`,
+    `The setting of one parameter can explain Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun.`,
+    `The proposal resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents, with the principles in the place of the substance and the parameters in the place of the accidents.`,
+    `Generative grammar studies the form of sentences, largely apart from their meaning, and grounds universal grammar in the biology of the human mind.`,
+    `The classical art studies sentences as signs, whose forms follow their modes of signifying, and grounds the common grammar in the things that all minds understand.`,
+    `Roger Bacon held that grammar is one and the same in substance in all languages, though it varies in its accidents, and typology supplies the evidence on which this claim can be tested.`,
+    `Typology shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.`,
+    `It also shows that every known language has means of naming things and of saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.`,
+    `So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.`,
+    `Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.`,
+    `That grammar is in an important sense one in all languages is a claim on which medieval thinkers and many modern linguists agree, although it is not accepted by everyone.`
   ],

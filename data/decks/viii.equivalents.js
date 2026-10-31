@@ -1,6 +1,8 @@
 /* VIII.2 Grammatical Equivalents of Logical Forms [viii.equivalents]
    Plan (ITEM-LIST.md): 14 panels, 4 question points. The deck ends with four panels
-   (ug-1 to ug-4) on what modern universal grammar shares with the scholastic analysis and where it differs, leading to XI.2.
+   (ug-1 to ug-4) on what modern universal grammar shares with the scholastic analysis and where it differs.
+   Moved from xi.modern on 30 Oct 2026 (A12): innateness after ug-1 (ug-1 trimmed), parameters after ug-2, card 24 merged
+   into ug-3, typology-claim after ug-3; ug-4 rewritten as the close of the deck: 17 panels, 6 question points.
    Live material drawn on: DECKS.figura (the figure of speech), DECKS.service, DECKS.congtruth, DECKS.ug (two universal
    grammars). */
 window.ARS = window.ARS || {};
@@ -62,7 +64,23 @@ ARS.decks['viii.equivalents'] = {
     `So the two universal grammars agree that languages share a common structure, but they disagree about what that structure is and where it comes from.`,
     `Whether there is a grammar common to all languages is a question of fact as well as of principle, and it can be tested only by studying many languages.`,
     `The grammarian need not settle the question in order to study the grammar of English and Latin.`,
-    `But the question shows why grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.`
+    `But the question shows why grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.`,
+    `Chomsky argued that the evidence a child hears is too poor to account for what the child comes to know, so the structure common to all languages must be part of the human mind from birth; this is the argument from the poverty of the stimulus.`,
+    `His universal grammar is therefore a theory of the mind.`,
+    `Some linguists hold that children learn more from what they hear than Chomsky supposed, and that general powers of learning suffice.`,
+    `The classical tradition asks a different question: not only what the mind must contain to learn a language, but why the categories of language are what they are, i.e. why there are nouns, why there are verbs, etc., which it answers from the modes of understanding and of being (there are nouns because there are stable beings, there are verbs because there are actions and receptions of action, etc.).`,
+    `Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>, which have a small number of possible settings, fixed differently in different languages.`,
+    `One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, and Japanese places it last, so that it has postpositions in place of prepositions.`,
+    `The setting of one parameter can explain Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun.`,
+    `The proposal resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents, with the principles in the place of the substance and the parameters in the place of the accidents.`,
+    `Generative grammar studies the form of sentences, largely apart from their meaning, and grounds universal grammar in the biology of the human mind.`,
+    `The classical art studies sentences as signs, whose forms follow their modes of signifying, and grounds the common grammar in the things that all minds understand.`,
+    `Roger Bacon held that grammar is one and the same in substance in all languages, though it varies in its accidents, and typology supplies the evidence on which this claim can be tested.`,
+    `Typology shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.`,
+    `It also shows that every known language has means of naming things and of saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.`,
+    `So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.`,
+    `Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.`,
+    `That grammar is in an important sense one in all languages is a claim on which medieval thinkers and many modern linguists agree, although it is not accepted by everyone.`
   ],
   panels: [
 
@@ -173,8 +191,14 @@ ARS.decks['viii.equivalents'] = {
 { id: 'ug-1',
   title: 'Chomsky and the Cartesian tradition',
   body: `<p>In the twentieth century the American linguist Noam Chomsky revived the idea of a universal grammar. In <i>Cartesian Linguistics</i> (1966) he claimed the Port-Royal grammar as a forerunner of his own theory, because it distinguished the sentence as spoken from the combination of judgments that underlies it. Chomsky called these the surface structure and the deep structure of a sentence, and he read the Port-Royal analysis of “Invisible God created the visible world” as an early account of the relation between them.</p>
-<p>Chomsky’s universal grammar is a theory of the mind: he holds that a child does not hear enough speech to learn the grammar of a language by imitation alone, and that the structure common to all languages must therefore be part of the human mind from birth. Historians of linguistics have debated whether his reading of Port-Royal is accurate, but the comparison has renewed interest in the grammarians before the nineteenth century.</p>`,
+<p>Historians of linguistics have debated whether his reading of Port-Royal is accurate, but the comparison has renewed interest in the grammarians before the nineteenth century.</p>`,
   src: `Chomsky, <i>Cartesian Linguistics</i> (1966), in paraphrase.` },
+
+{ id: 'innateness',
+  title: 'Universal grammar as innate',
+  body: `<p>Children learn their native language quickly, from limited and imperfect evidence, and arrive at knowledge of rules that no one taught them. From this fact Chomsky argued for his universal grammar, which is a theory of the mind. The evidence a child hears is too poor, he argued, to account for what the child comes to know, and so the structure common to all languages must be part of the human mind from birth. This argument is called the argument from the <strong>poverty of the stimulus</strong>.</p>
+<p>The argument has been much debated. Some linguists hold that children learn more from what they hear than Chomsky supposed, and that general powers of learning suffice. The classical tradition would ask a different question: not only what the mind must contain to learn a language, but why the categories of language are what they are, i.e. why there are nouns, why there are verbs, etc., which it answers from the modes of understanding and of being (there are nouns because there are stable beings, there are verbs because there are actions and receptions of action, etc.).</p>`,
+  src: `Chomsky, <i>Aspects</i>, ch. 1; <i>Cartesian Linguistics</i>; both in paraphrase.` },
 
 { id: 'ug-2',
   title: 'What the two universal grammars share',
@@ -182,15 +206,56 @@ ARS.decks['viii.equivalents'] = {
 <p>Both accounts also hold that a science of this common structure is possible, and both deny that grammar is merely a list of local customs. In this they agree against the view, common in the early twentieth century, that each language is a separate system to be described only in its own terms. So the modern revival of universal grammar has brought the questions of the modists back into discussion.</p>`,
   src: `Roger Bacon, <i>Greek Grammar</i>; Boethius of Dacia, <i>Modi significandi</i>; Chomsky, <i>Cartesian Linguistics</i>; all in paraphrase.` },
 
+{ id: 'parameters',
+  title: 'Principles and parameters',
+  body: `<p>In English the verb comes before its object (“opens the door”) and the preposition before its noun (“under the bridge”); in Japanese both come after. In the 1980s Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>, which have a small number of possible settings, fixed differently in different languages. One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, so that the verb precedes its object and the preposition its noun, whereas Japanese places it last, so that it has postpositions in place of prepositions.</p>
+<p>This proposal connects generative grammar with the typology that we saw in Section V: Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun can be explained as the setting of one parameter. It also resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents, with the principles in the place of the substance and the parameters in the place of the accidents.</p>`,
+  src: `Chomsky, <i>Lectures on Government and Binding</i> (1981), in paraphrase.`,
+  qp: { id: 'q-parameters', variants: [
+    { prompt: `In the theory of principles and parameters, what is a parameter?`,
+      options: [`A point of grammar with a few settings`, `A rule that holds without exception for every language`, `A word that has no meaning`, `A sound that every language has`],
+      answer: 0,
+      explain: `Principles hold for every language; parameters have a small number of possible settings, which are fixed differently in different languages.` },
+    { prompt: `How does the head parameter explain the difference between English and Japanese order?`,
+      options: [`English has heads and Japanese has none`, `Japanese has no verbs or objects`, `English has postpositions, Japanese prepositions`, `English puts the head first, Japanese last`],
+      answer: 3,
+      explain: `English places the head of a phrase first, so the verb precedes its object and the preposition its noun; Japanese places it last, so it has postpositions.` },
+    { prompt: `How does the theory compare with Roger Bacon’s claim?`,
+      options: [`It denies that any grammar is common to all languages`, `It makes every language the same`, `Principles are substance, parameters accidents`, `Bacon spoke only of Latin`],
+      answer: 2,
+      explain: `Bacon held that grammar is one in substance and differs in accidents; the principles stand in the place of the substance and the parameters in the place of the accidents.` }
+  ] } },
+
 { id: 'ug-3',
   title: 'Where they differ',
   body: `<p>The two accounts ground the common structure in different places. For the scholastic account, the common structure comes from the things and from the mind’s understanding of them: the modes of signifying are taken from the modes of understanding, and these from the modes of being, as we saw in Section III. Because things and the understanding of them are the same for all, the grammar is the same in substance.</p>
+<p>The two accounts also differ in what they take grammar to be about. Generative grammar studies the form of sentences, largely apart from their meaning, and grounds universal grammar in the biology of the human mind. The classical art studies sentences as signs, whose forms follow their modes of signifying, and grounds the common grammar in the things that all minds understand.</p>
 <p>For Chomsky, the common structure belongs to the human mind as a biological endowment, a faculty of language, and it need not correspond to any structure in things. The scholastic account asks why the categories of grammar are these categories, and answers from being; Chomsky’s account asks what the mind must contain to learn any language, and answers from the mind alone. So the two universal grammars agree that languages share a common structure, but they disagree about what that structure is and where it comes from.</p>`,
-  src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Chomsky, <i>Cartesian Linguistics</i>; both in paraphrase.` },
+  src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Chomsky, <i>Cartesian Linguistics</i>; both in paraphrase; general comparison.` },
+
+{ id: 'typology-claim',
+  title: 'What typology shows for the classical claim',
+  body: `<p>Roger Bacon held, as we have seen, that grammar is one and the same in substance in all languages, though it varies in its accidents. Typology supplies the evidence on which such a claim can be tested. It shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark; but it also shows that every known language has means of naming things and of saying something about them, of distinguishing in some way what acts from what is acted upon, of negating, and of asking.</p>
+<p>So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses, such as the relation of what is said to what it is said of, are common to all languages, whereas the means of expressing them are accidents that vary. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.</p>`,
+  src: `Comrie, <i>Language Universals and Linguistic Typology</i>; Roger Bacon, <i>Greek Grammar</i>; both in paraphrase.`,
+  qp: { id: 'q-typology-claim', variants: [
+    { prompt: `What does typology show that all known languages share?`,
+      options: [`The same order of subject, verb, and object in every sentence`, `The same number of cases and of tenses`, `Ways of naming, predicating, negating, asking`, `The same set of sounds`],
+      answer: 2,
+      explain: `Every known language has means of naming things and saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.` },
+    { prompt: `What does typology show that languages do not share?`,
+      options: [`Any means at all of naming things or persons`, `Their sounds, forms, orders, and categories`, `Any way of asking a question`, `Any way of negating a statement`],
+      answer: 1,
+      explain: `Languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.` },
+    { prompt: `How does typology bear on Bacon’s claim that grammar is one in substance?`,
+      options: [`It bears out the claim as Bacon stated it`, `It refutes the claim entirely`, `It shows that every language has the same forms`, `It has no bearing on the claim`],
+      answer: 0,
+      explain: `The relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so typology bears out the claim as Bacon stated it.` }
+  ] } },
 
 { id: 'ug-4',
-  title: 'The question for Section XI',
-  body: `<p>Whether there is a grammar common to all languages is finally a question of fact as well as of principle, and it can be tested only by studying many languages. We saw in Section V that Greenberg compared the order of words in many languages and found regularities that hold for most of them. In Section XI we will study grammatical traditions other than the Greek and Latin one, and modern accounts of grammar, and ask how far the variety of languages supports the claim that grammar is one in substance.</p>
+  title: 'A question of fact and of principle',
+  body: `<p>Whether there is a grammar common to all languages is finally a question of fact as well as of principle, and it can be tested only by studying many languages. We saw in Section V that Greenberg compared the order of words in many languages and found regularities that hold for most of them, and we have just seen that the study of many languages bears out Bacon’s claim in part. That grammar is in an important sense one in all languages is a claim on which medieval thinkers and many modern linguists agree, although it is not accepted by everyone. In Section XI we will study grammatical traditions other than the Greek and Latin one, which give further evidence on the question.</p>
 <p>The grammarian need not settle the question in order to study the grammar of English and Latin. But the question shows why the study of grammar is a liberal art: it asks not only how a language is used, but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.</p>`,
   src: `Greenberg, “Some Universals of Grammar” (1963); Chomsky, <i>Cartesian Linguistics</i>; both in paraphrase.`,
   qp: { id: 'q-ug-4', variants: [

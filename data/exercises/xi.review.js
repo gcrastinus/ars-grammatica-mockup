@@ -22,12 +22,12 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 26,
+ "pool": 25,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 9,
   "B": 8,
-  "C": 9
+  "C": 8
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
@@ -410,21 +410,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 3,
    "explain": "Ma described classical Chinese with the categories of Latin grammar; later grammarians criticized him for imposing them and sought categories drawn from Chinese itself."
-  },
-  {
-   "id": "rxi-C12",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What is the argument from the poverty of the stimulus?",
-   "options": [
-    "Children hear too many languages to learn any one well",
-    "Speech is always poorer than writing as evidence",
-    "Children learn more than what they hear could teach",
-    "Adults can never learn a new language as children do"
-   ],
-   "answer": 2,
-   "explain": "The evidence a child hears is too poor to account for what the child comes to know, Chomsky argued, so the structure common to all languages must be part of the mind from birth."
   }
  ]
 };
