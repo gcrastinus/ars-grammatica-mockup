@@ -6,11 +6,11 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Usage and Authority (`vi.usage`) | 24 | 660 |
+| Usage and Authority (`vi.usage`) | 39 | 1024 |
 | Barbarism (`vi.barbarism`) | 23 | 587 |
 | Solecism (`vi.solecism`) | 32 | 781 |
 | Metaplasm (`vi.metaplasm`) | 22 | 579 |
-| **Section VI, whole section** | **101** | **2607** |
+| **Section VI, whole section** | **116** | **2971** |
 
 ## Usage and Authority (`vi.usage`)
 
@@ -38,6 +38,21 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 22. A **solecism** is an error in the arrangement of words.
 23. An **impropriety** (*acyrologia*, “improper speech”) is the use of a word in a sense it does not have, and Donatus counts it among the other faults of speech (*vitia*).
 24. Each kind of error has a corresponding license: a change in a single word allowed in verse is a metaplasm, a departure from the rules of construction made for a reason is a figure, and a word used for a reason in a sense not its own is a trope.
+25. Saussure is usually counted the founder of modern linguistics.
+26. Saussure distinguishes *langue*, the system of a language shared by its speakers, from *parole*, the particular acts of speaking in which the system is used.
+27. No single speaker invents or controls the *langue*; each speaker draws on it, and Saussure held that linguistics should take the *langue* as its object.
+28. The grammarian of the classical art studied the language of the authors, which is neither simply *langue* nor *parole*, but the best usage within the *langue*.
+29. The classical tradition can accept the distinction between *langue* and *parole*, because it has a place ready for it in the distinction between a habit and an act.
+30. A habit (*habitus*) is a settled disposition of a power, really present in the one who has it, from which particular acts proceed.
+31. A language known by its speakers is such a disposition, so *parole* is the act and *langue* is the habit from which it proceeds.
+32. Chomsky distinguished a speaker’s **competence**, the knowledge of the language, from his **performance**, the actual use of that knowledge, which is affected by memory, attention, and error.
+33. The distinction resembles Saussure’s between *langue* and *parole*, but competence belongs to the individual mind, whereas the *langue* belongs to the community.
+34. A shared language carries the habits of a people, its customs and its experience, and so the words of a common language resonate in one speaker’s mind in ways they may not in another’s.
+35. A habit is always the habit of someone and is ordered to something, so the *langue* is not a third thing between minds and the world but a disposition in minds, and the disposition has objects: the things that the language is used to speak about.
+36. Saussure distinguished two kinds of relation among the elements of a language.
+37. **Syntagmatic** relations hold between elements that occur together in a sequence.
+38. **Associative** relations, later called paradigmatic, hold between an element and others that could take its place.
+39. The classical art knew both relations without naming them so: construction concerns the relations of words that occur together, and the paradigms of declension and conjugation set out the forms that can take one another’s place.
 
 ## Barbarism (`vi.barbarism`)
 

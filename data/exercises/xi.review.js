@@ -22,12 +22,12 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 29,
+ "pool": 26,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 9,
-  "B": 9,
-  "C": 11
+  "B": 8,
+  "C": 9
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
@@ -292,21 +292,6 @@ ARS.exercises['xi.review'] = {
    "explain": "Xu Shen arranged about nine thousand characters under 540 radicals, according to the part of each character that indicates its meaning."
   },
   {
-   "id": "rxi-B13",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What is the relation between a word and the words that could stand in its place?",
-   "options": [
-    "Syntagmatic, or sequential",
-    "Diachronic, or historical",
-    "Paradigmatic, or associative",
-    "Ergative, or agentive"
-   ],
-   "answer": 2,
-   "explain": "Associative relations, later called paradigmatic, hold between an element and others that could take its place; syntagmatic relations hold between elements that occur together."
-  },
-  {
    "id": "rxi-C01",
    "set": "C",
    "deck": "xi.traditions",
@@ -425,36 +410,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 3,
    "explain": "Ma described classical Chinese with the categories of Latin grammar; later grammarians criticized him for imposing them and sought categories drawn from Chinese itself."
-  },
-  {
-   "id": "rxi-C10",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "In the classical reply to Saussure, what corresponds to <i>langue</i>?",
-   "options": [
-    "A habit from which acts of speaking proceed",
-    "The particular act of speaking itself",
-    "The thing in the world that is spoken about",
-    "A sound-image that has no concept joined to it"
-   ],
-   "answer": 0,
-   "explain": "The tradition distinguishes a habit (<i>habitus</i>) from an act: <i>parole</i> is the act, and <i>langue</i> is the habit, a disposition in minds, from which it proceeds."
-  },
-  {
-   "id": "rxi-C11",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "How does Chomsky’s competence differ from Saussure’s <i>langue</i>?",
-   "options": [
-    "Competence is the act of speaking, not knowledge",
-    "One is in the individual, the other in the community",
-    "<i>Langue</i> belongs to one speaker only, not to many",
-    "They do not differ at all, except in their names"
-   ],
-   "answer": 1,
-   "explain": "Both distinguish knowledge of a language from its use, but Chomsky’s competence belongs to the individual mind, whereas Saussure’s <i>langue</i> belongs to the community."
   },
   {
    "id": "rxi-C12",

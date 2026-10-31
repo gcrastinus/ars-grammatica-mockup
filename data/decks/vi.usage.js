@@ -2,7 +2,9 @@
    Plan (ITEM-LIST.md): 7 panels, 2 question points. Applies the four criteria of P.4;
    the first panel refers back to P.4 and does not teach the criteria again.
    Live material drawn on: none. Horace, Ars poetica 70–72, quoted in Smart's prose translation (Perseus); ITEM-LIST names
-   Fairclough's Loeb, which could not be checked here. */
+   Fairclough's Loeb, which could not be checked here.
+   Moved from xi.modern on 30 Oct 2026 (A11): saussure, habit (with the first half of xi card 20, competence and performance),
+   and relations after prescribe-describe: 10 panels, 3 question points. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['vi.usage'] = {
@@ -35,6 +37,21 @@ ARS.decks['vi.usage'] = {
     `A <strong>solecism</strong> is an error in the arrangement of words.`,
     `An <strong>impropriety</strong> (<i>acyrologia</i>, “improper speech”) is the use of a word in a sense it does not have, and Donatus counts it among the other faults of speech (<i>vitia</i>).`,
     `Each kind of error has a corresponding license: a change in a single word allowed in verse is a metaplasm, a departure from the rules of construction made for a reason is a figure, and a word used for a reason in a sense not its own is a trope.`,
+    `Saussure is usually counted the founder of modern linguistics.`,
+    `Saussure distinguishes <i>langue</i>, the system of a language shared by its speakers, from <i>parole</i>, the particular acts of speaking in which the system is used.`,
+    `No single speaker invents or controls the <i>langue</i>; each speaker draws on it, and Saussure held that linguistics should take the <i>langue</i> as its object.`,
+    `The grammarian of the classical art studied the language of the authors, which is neither simply <i>langue</i> nor <i>parole</i>, but the best usage within the <i>langue</i>.`,
+    `The classical tradition can accept the distinction between <i>langue</i> and <i>parole</i>, because it has a place ready for it in the distinction between a habit and an act.`,
+    `A habit (<i>habitus</i>) is a settled disposition of a power, really present in the one who has it, from which particular acts proceed.`,
+    `A language known by its speakers is such a disposition, so <i>parole</i> is the act and <i>langue</i> is the habit from which it proceeds.`,
+    `Chomsky distinguished a speaker’s <strong>competence</strong>, the knowledge of the language, from his <strong>performance</strong>, the actual use of that knowledge, which is affected by memory, attention, and error.`,
+    `The distinction resembles Saussure’s between <i>langue</i> and <i>parole</i>, but competence belongs to the individual mind, whereas the <i>langue</i> belongs to the community.`,
+    `A shared language carries the habits of a people, its customs and its experience, and so the words of a common language resonate in one speaker’s mind in ways they may not in another’s.`,
+    `A habit is always the habit of someone and is ordered to something, so the <i>langue</i> is not a third thing between minds and the world but a disposition in minds, and the disposition has objects: the things that the language is used to speak about.`,
+    `Saussure distinguished two kinds of relation among the elements of a language.`,
+    `<strong>Syntagmatic</strong> relations hold between elements that occur together in a sequence.`,
+    `<strong>Associative</strong> relations, later called paradigmatic, hold between an element and others that could take its place.`,
+    `The classical art knew both relations without naming them so: construction concerns the relations of words that occur together, and the paradigms of declension and conjugation set out the forms that can take one another’s place.`,
   ],
   panels: [
 
@@ -81,6 +98,39 @@ ARS.decks['vi.usage'] = {
   body: `<p>Modern discussions of usage often distinguish two attitudes. A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used. The English grammarians of the eighteenth century, such as Robert Lowth (1762), were largely prescriptive, and some of their preferences were judged by Latin models. So Lowth preferred to place a preposition before its relative (“the man to whom I spoke”) rather than at the end of the clause (“the man whom I spoke to”); but he allowed the final preposition in conversation and in familiar writing, and preferred the other order only in the solemn style. The later rule that a sentence must never end with a preposition is stricter than his. Many modern linguists are strictly descriptive and decline to call any established usage incorrect.</p>
 <p>The classical grammarian stands between these attitudes. He describes, because the criteria of usage and authority are facts about how the language is used by its best speakers and writers. He also prescribes, because those facts give a standard by which a particular form can be judged. Samuel Johnson, in the preface to his <i>Dictionary</i> (1755), held that the lexicographer must record the language as it is used by good writers, while recognizing that he cannot stop it from changing. Yet he also wrote that “every language has likewise its improprieties and absurdities, which it is the duty of the lexicographer to correct or proscribe” (Preface to the <i>Dictionary</i>).</p>`,
   src: `Lowth, <i>A Short Introduction to English Grammar</i> (1762); Johnson, Preface to the <i>Dictionary</i> (1755); in paraphrase, except the quotation from Johnson (Project Gutenberg #5430).` },
+
+{ id: 'saussure',
+  title: 'Saussure: langue and parole',
+  body: `<p>When someone says “The bus is late,” two things are involved: a particular act of speaking, and the English language that makes the act possible. The Swiss linguist Ferdinand de Saussure (1857–1913) is usually counted the founder of modern linguistics. His <i>Cours de linguistique générale</i> (“Course in General Linguistics”), published from his students’ notes in 1916, distinguishes <i>langue</i>, the system of a language shared by its speakers, from <i>parole</i>, the particular acts of speaking in which the system is used. No single speaker invents or controls the <i>langue</i>; each speaker draws on it. Saussure held that linguistics should take the <i>langue</i> as its object (<i>Cours</i>, Introduction).</p>
+<p>So in the sentence “The bus is late,” spoken by a particular person at a particular time, the act of speaking is <i>parole</i>, and the English words, forms, and rules that make it possible are <i>langue</i>. The grammarian of the classical art studied the language of the authors, which is neither simply the one nor the other, but the best usage within the <i>langue</i>.</p>`,
+  src: `Saussure, <i>Cours de linguistique générale</i> (trans. Wade Baskin, 1959, for reference), in paraphrase.`,
+  qp: { id: 'q-saussure', variants: [
+    { prompt: `A child asks her father, “May I go out?” In Saussure’s terms, what is the child’s question?`,
+      options: [`<i>Langue</i>, the whole system of the English language`, `Neither <i>langue</i> nor <i>parole</i>`, `A signified without a signifier`, `<i>Parole</i>, a particular act of speaking`],
+      answer: 3,
+      explain: `The particular act of speaking, by one person at one time, is <i>parole</i>; the English words, forms, and rules that make it possible are <i>langue</i>.` },
+    { prompt: `A child asks her father, “May I go out?” In Saussure’s terms, what is the <i>langue</i> in her question?`,
+      options: [`The child’s voice as she speaks the words`, `The father’s answer to the question`, `The English words, forms, and rules`, `The particular time and place of the question`],
+      answer: 2,
+      explain: `The <i>langue</i> is the system of a language shared by its speakers, which no single speaker invents or controls.` },
+    { prompt: `Which did Saussure make the object of linguistics?`,
+      options: [`<i>Parole</i>`, `<i>Langue</i>`, `Both equally`, `Neither, but the history of words`],
+      answer: 1,
+      explain: `Saussure held that linguistics should take the <i>langue</i>, the shared system, as its object.` }
+  ] } },
+
+{ id: 'habit',
+  title: 'A reply: langue as a habit',
+  body: `<p>The classical tradition can accept Saussure’s distinction between <i>langue</i> and <i>parole</i>, because it has a place ready for it: the distinction between a <strong>habit</strong> and an <strong>act</strong>. A habit (<i>habitus</i>) is a settled disposition of a power, really present in the one who has it, from which particular acts proceed. Boethius of Dacia calls a science a habit of the intellect, and a language known by its speakers is such a disposition. <i>Parole</i> is the act; <i>langue</i> is the habit from which it proceeds.</p>
+<p>A speaker who stumbles over a sentence, or forgets how it began, has not thereby forgotten the language. In <i>Aspects of the Theory of Syntax</i> (1965) Chomsky distinguished a speaker’s <strong>competence</strong>, the knowledge of the language, from his <strong>performance</strong>, the actual use of that knowledge in speaking, which is affected by memory, attention, and error. The distinction resembles Saussure’s between <i>langue</i> and <i>parole</i>, but Chomsky’s competence belongs to the individual mind, whereas Saussure’s <i>langue</i> belongs to the community.</p>
+<p>The American philosopher John Deely (1942–2017) observes that a shared language carries the habits of a people, its customs and its experience, and that this is why the words of a common language resonate in one speaker’s mind in ways they may not in another’s. A Thomist adds that a habit is always the habit of someone and is ordered to something. So the <i>langue</i> is not a third thing between minds and the world but a disposition in minds, and the disposition has objects: the things that the language is used to speak about.</p>`,
+  src: `Boethius of Dacia, <i>Modi significandi</i>; Chomsky, <i>Aspects of the Theory of Syntax</i> (1965), ch. 1; John Deely, <i>Basics of Semiotics</i>; all in paraphrase.` },
+
+{ id: 'relations',
+  title: 'Two kinds of relation',
+  body: `<p>In “the young pilot lands,” each word is related to the words beside it, and also to the words that could stand in its place. Saussure distinguished these two kinds of relation among the elements of a language. <strong>Syntagmatic</strong> relations hold between elements that occur together in a sequence: in “the young pilot lands,” “young” is related to “pilot” and “pilot” to “lands.” <strong>Associative</strong> relations, later called <strong>paradigmatic</strong>, hold between an element and others that could take its place: “pilot” is related to “captain,” “student,” and “doctor,” any of which could stand in the same position.</p>
+<p>The classical art knew both relations, though it did not give them these names. Construction, which we studied in Section V, concerns the relations of words that occur together; the paradigms of declension and conjugation, which we studied in Section III, set out the forms that can take one another’s place. So Saussure’s distinction gives general names to the two dimensions that every grammar has always described.</p>`,
+  src: `Saussure, <i>Cours</i>, Part II, ch. 5, in paraphrase.` },
 
 { id: 'change',
   title: 'When does a new usage become correct?',
