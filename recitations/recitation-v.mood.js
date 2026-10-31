@@ -42,7 +42,7 @@
     `Several modern theories describe the relations of the participants in an action as <strong>semantic roles</strong>, such as the agent, the instrument, the experiencer, the location, the goal, and the recipient.`,
     `These roles are distinguished from the grammatical subject and object, since the agent can be the subject or not (an active and a passive sentence).`,
     `The semantic roles closely resemble Pāṇini’s kārakas, roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent.`,
-    `So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.`,
+    `So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier and that the Latin grammarians also recognized in their account of the cases.`,
     `<strong>Functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.`,
     `<strong>Formal</strong> accounts, such as Chomsky’s, describe the forms of a language apart from their uses.`,
     `The tradition distinguished the functions of language, and Bühler and Jakobson classified them; functional grammar goes further and seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.`,
