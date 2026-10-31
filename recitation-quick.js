@@ -396,10 +396,14 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Words are instrumental signs, but they signify by means of concepts, which are formal signs.",
-      "card": 10,
+      "html": "Words are instrumental signs, but they signify by means of concepts, which are formal signs; and if the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.",
+      "card": [
+        10,
+        12
+      ],
       "from": [
-        37
+        37,
+        56
       ]
     },
     {
@@ -417,14 +421,10 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system; but if the concept is a formal sign, then signification cannot end in the concept.",
-      "card": [
-        11,
-        12
-      ],
+      "html": "Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them (English “sheep” and “mutton” against French <i>mouton</i>).",
+      "card": 11,
       "from": [
-        50,
-        56
+        50
       ]
     }
   ],
@@ -681,10 +681,9 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "i.functions": [
     {
-      "html": "Not every sentence is used to say that something is or is not so: the <strong>functions of language</strong>, that is, the different uses of speech, are to state, to ask, to command, to pray, and to call someone.",
+      "html": "The <strong>functions of language</strong>, that is, the different uses of speech, are to state, to ask, to command, to pray, and to call someone; and any of these sentences can also express what the speaker feels.",
       "card": 1,
       "from": [
-        1,
         2
       ]
     },
@@ -711,10 +710,9 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Speech expresses feeling sometimes in a single word, called an interjection (“alas”), and sometimes in a whole sentence; the statement is true or false, but the feeling expressed is neither.",
+      "html": "An expression of feeling can be joined to a statement: the statement is true or false, but the feeling expressed is neither.",
       "card": 5,
       "from": [
-        13,
         14
       ]
     },
@@ -1344,7 +1342,7 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The sapphic stanza, named for Sappho, has three lines and a short fourth line; elision counts toward the eleven syllables of the hendecasyllable.",
+      "html": "The hendecasyllable, a line of eleven syllables, follows the order ¯ ¯ ¯ ∪ ∪ ¯ ∪ ¯ ∪ ¯ ¯, and elision counts toward the eleven; the sapphic stanza, named for Sappho, has three lines of the pattern ¯ ∪ ¯ ¯ ¯ ∪ ∪ ¯ ∪ ¯ ¯ and a short fourth line, ¯ ∪ ∪ ¯ ¯.",
       "card": 8,
       "from": [
         30,
@@ -2633,18 +2631,16 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The desiderative, the frequentative, and the inchoative are derived verbs formed from other verbs by regular suffixes, and verbs formed from nouns and adjectives are called <strong>denominative</strong> verbs.",
+      "html": "The desiderative, the frequentative, and the inchoative, which Donatus counts among the forms of the verb, are derived verbs formed from other verbs by regular suffixes.",
       "card": 4,
       "from": [
-        13,
-        14
+        13
       ]
     },
     {
-      "html": "English has its own suffixes, inherited from Old English, and English often has two words for the same idea, one with a native suffix and one borrowed from Latin (“boldness” and “audacity”).",
+      "html": "The native suffixes correspond in meaning to Latin ones, so English often has two words for the same idea, one with a native suffix and one borrowed from Latin (“boldness” and “audacity”).",
       "card": 5,
       "from": [
-        16,
         18
       ]
     },
@@ -2677,7 +2673,7 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Humboldt’s classification was the beginning of linguistic typology, the comparison of languages by their structure.",
+      "html": "Humboldt’s view that each language shapes the thought of its speakers led to the Sapir-Whorf hypothesis, and his classification was the beginning of linguistic typology, the comparison of languages by their structure.",
       "card": 9,
       "from": [
         33
@@ -2786,11 +2782,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "iv.etymology": [
     {
-      "html": "<strong>Etymology</strong> is the study of how a word came to have its form and meaning, and it is one of the supports of reason among the criteria of correctness.",
+      "html": "<strong>Etymology</strong> is the study of how a word came to have its form and meaning, that is, the historical question of where a word came from.",
       "card": 1,
       "from": [
-        1,
-        3
+        1
       ]
     },
     {
@@ -2822,10 +2817,14 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "In the nineteenth century scholars found a more reliable method: by comparing the oldest forms of related languages, they found that sounds change according to regular patterns, called <strong>sound laws</strong>.",
-      "card": 7,
+      "html": "Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European; by comparing the oldest forms of related languages, scholars found that sounds change according to regular patterns, called <strong>sound laws</strong>.",
+      "card": [
+        6,
+        7
+      ],
       "from": [
-        19
+        19,
+        38
       ]
     },
     {
@@ -2858,20 +2857,16 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.",
-      "card": 6,
+      "html": "So the classical account can admit that languages change, as long as the change follows causes that can be known: the modes of signifying would be the constant part, and the sounds and forms that change would be the accidents.",
+      "card": 8,
       "from": [
-        38
+        48
       ]
     },
     {
-      "html": "So the classical account can admit that languages change, as long as the change follows causes that can be known; a <strong>synchronic</strong> study describes a language as a system at one time, and a <strong>diachronic</strong> study describes how a language changes through time.",
-      "card": [
-        8,
-        9
-      ],
+      "html": "A <strong>synchronic</strong> study describes a language as a system at one time; a <strong>diachronic</strong> study describes how a language changes through time.",
+      "card": 9,
       "from": [
-        48,
         50
       ]
     }
@@ -3122,11 +3117,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "v.dependence": [
     {
-      "html": "A word <strong>depends</strong> on another when its mode of signifying requires something that the other supplies, and the word that supplies it <strong>terminates</strong> the dependence: every construction has two parts, one word that depends and one word that terminates the dependence.",
+      "html": "A word <strong>depends</strong> on another when its mode of signifying requires something that the other supplies, and the word that supplies it <strong>terminates</strong> the dependence, that is, completes what the dependent word requires.",
       "card": 1,
       "from": [
-        1,
-        2
+        1
       ]
     },
     {
@@ -3210,11 +3204,14 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "v.order": [
     {
-      "html": "In English the order is the chief means of showing construction, so it is largely fixed; in Latin the endings show the construction, and the order is free to do other work, especially to give emphasis.",
-      "card": 1,
+      "html": "In English the order is the chief means of showing construction, so a change of order is a change of meaning; in Latin the endings show the construction, so order can give emphasis, separate words for effect, and follow the rhythm of the sentence.",
+      "card": [
+        1,
+        14
+      ],
       "from": [
         3,
-        4
+        36
       ]
     },
     {
@@ -3260,28 +3257,21 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The three common orders are SVO, as in English; SOV, as in the usual order of Latin; and VSO, as in Classical Arabic.",
-      "card": 9,
+      "html": "The three common orders are SVO, as in English; SOV, as in the usual order of Latin; and VSO, as in Classical Arabic; and Greenberg found that the order of subject, verb, and object tends to go together with other facts of order.",
+      "card": [
+        9,
+        10
+      ],
       "from": [
-        27
-      ]
-    },
-    {
-      "html": "Greenberg found that the order of subject, verb, and object tends to go together with other facts of order.",
-      "card": 10,
-      "from": [
+        27,
         29
       ]
     },
     {
-      "html": "In a German main clause the finite verb stands in the second place, but in a subordinate clause it goes to the end; in English a change of order is a change of meaning.",
-      "card": [
-        13,
-        14
-      ],
+      "html": "In a German main clause the finite verb stands in the second place, whatever comes first, but in a subordinate clause it goes to the end, so German order distinguishes main and subordinate clauses.",
+      "card": 13,
       "from": [
-        33,
-        36
+        33
       ]
     },
     {
@@ -3292,13 +3282,17 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "An <strong>absolute universal</strong> holds for every known language, but few have been found; an <strong>ergative</strong> language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.",
-      "card": [
-        11,
-        12
-      ],
+      "html": "An <strong>absolute universal</strong> holds for every known language, and a <strong>statistical universal</strong> holds for most languages.",
+      "card": 11,
       "from": [
         46,
+        47
+      ]
+    },
+    {
+      "html": "An <strong>ergative</strong> language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.",
+      "card": 12,
+      "from": [
         51
       ]
     }
@@ -3427,11 +3421,10 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb, and the subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another.",
+      "html": "English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.",
       "card": 7,
       "from": [
-        20,
-        23
+        20
       ]
     },
     {
@@ -3630,13 +3623,13 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "<strong>Formal</strong> and <strong>functional</strong> accounts are often presented as rivals, but they answer different questions; Halliday held that every clause serves three functions at once, which he called metafunctions.",
+      "html": "<strong>Functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put, and Halliday held that every clause serves three functions at once, which he called metafunctions.",
       "card": [
         11,
         12
       ],
       "from": [
-        45,
+        42,
         48
       ]
     }
@@ -3729,13 +3722,6 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The opposite of correctness is error, and the grammarians named its chief kinds the barbarism and the solecism.",
-      "card": 1,
-      "from": [
-        3
-      ]
-    },
-    {
       "html": "Horace states that usage (<i>ūsus</i>) has the decision, the right, and the standard of speech, and his line was quoted for centuries as the classic statement that usage is the judge of speech.",
       "card": 2,
       "from": [
@@ -3757,25 +3743,30 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Only when no such reason can be found does the grammarian call the form an error, and even then he explains the author rather than rewriting him.",
-      "card": 4,
+      "html": "A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used.",
+      "card": 5,
       "from": [
-        13
+        14
       ]
     },
     {
-      "html": "A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used; the classical grammarian stands between these attitudes.",
+      "html": "The classical grammarian stands between these attitudes: he describes, because usage and authority are facts about how the best speakers and writers use the language, and he prescribes, because those facts give a standard by which a particular form can be judged.",
       "card": 5,
       "from": [
-        14,
         16
       ]
     },
     {
-      "html": "A form that begins as an error may become correct when educated speakers and writers adopt it; the grammarian judges a new usage by whether it has been accepted by the speakers and authors whose usage sets the standard.",
+      "html": "A form that begins as an error may become correct when educated speakers and writers adopt it, as words change their meaning by usage.",
       "card": 9,
       "from": [
-        17,
+        17
+      ]
+    },
+    {
+      "html": "The grammarian judges a new usage by whether it has been accepted by the speakers and authors whose usage sets the standard, not by whether it agrees with the origin of the word.",
+      "card": 9,
+      "from": [
         18
       ]
     },
@@ -4513,27 +4504,27 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The scholastic account and Chomsky’s both hold that there is a grammar common to all languages, but they disagree about what that structure is and where it comes from; Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>.",
+      "html": "The scholastic account and Chomsky’s both hold that there is a grammar common to all languages, but they disagree about what that structure is and where it comes from.",
       "card": [
         13,
-        14,
         15
       ],
       "from": [
         43,
-        49,
-        57
+        49
       ]
     },
     {
-      "html": "Grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are; typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them vary.",
+      "html": "The proposal of principles and parameters resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents; typology bears out the classical claim: the relations that grammar expresses are common to all languages, whereas the means of expressing them vary; so grammar is in an important sense one in all languages, a claim on which medieval thinkers and many modern linguists agree.",
       "card": [
+        14,
         16,
         17
       ],
       "from": [
-        52,
-        66
+        60,
+        66,
+        68
       ]
     }
   ],
@@ -5287,7 +5278,7 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The Chinese tradition called the studies that must come before the reading of the classics <strong>xiǎoxué</strong>, and there was no list of parts of speech, because classical Chinese has no inflection; the basic unit of written Chinese is the character, and Xu Shen compiled the <i>Shuowen jiezi</i>, which explains about nine thousand characters, arranged under 540 components called <strong>radicals</strong>; Xu Shen describes six ways in which characters are formed, called the <strong>six writings</strong>; the Chinese tradition recognized that the character signifies the spoken word; the practice of explaining the words of an old text by those of the present was called <strong>xùngǔ</strong>; and the method called <strong>fǎnqiè</strong> spells the sound of a syllable by two other characters.",
+      "html": "The Chinese tradition called the studies that must come before the reading of the classics <strong>xiǎoxué</strong>, and there was no list of parts of speech, because classical Chinese has no inflection; the basic unit of written Chinese is the character, and Xu Shen compiled the <i>Shuowen jiezi</i>, which explains about nine thousand characters, arranged under 540 components called <strong>radicals</strong>; Xu Shen describes six ways in which characters are formed, called the <strong>six writings</strong>; by recognizing the phonetic loans and the phono-semantic compounds, the Chinese tradition recognized that the character signifies the spoken word; the practice of explaining the words of an old text by those of the present was called <strong>xùngǔ</strong>; and the method called <strong>fǎnqiè</strong> spells the sound of a syllable by two other characters.",
       "card": [
         45,
         46,
