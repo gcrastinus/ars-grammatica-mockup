@@ -437,7 +437,7 @@ ARS.decks['xi.traditions'] = {
 { id: 'sanskrit-compare',
   title: 'The Sanskrit art compared with ours',
   body: `<p>The Sanskrit grammar shares much with the Greek and Latin art. Both serve a classical language and its sacred or literary texts; both distinguish noun and verb, and both connect the verb with becoming; both describe the endings that mark the construction of the noun. But the Sanskrit art differs in its method and its center. It is a system of rules that generates forms from roots, not a set of definitions; its syntax is centered on the kārakas, the roles in the action, not on the cases; and it gives the sounds and their combinations a much larger place.</p>
-<p>Unlike the scribal lists, which explain one language by another, the Sanskrit grammar explains Sanskrit from itself. In the nineteenth century, European scholars who learned Pāṇini’s grammar were deeply impressed by it, and it influenced the beginnings of modern linguistics, as we will see in the study of modern grammar.</p>`,
+<p>Unlike the scribal lists, which explain one language by another, the Sanskrit grammar explains Sanskrit from itself. In the nineteenth century, European scholars who learned Pāṇini’s grammar were deeply impressed by it, and it influenced the beginnings of modern linguistics.</p>`,
   src: `General comparison, in paraphrase.` },
 
 /* ---------- Arabic (13) ---------- */
