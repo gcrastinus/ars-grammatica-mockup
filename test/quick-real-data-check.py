@@ -92,11 +92,11 @@ def run(url):
     with sync_playwright() as p:
         b = p.chromium.launch(args=['--no-sandbox'])
         c = b.new_context(); pg = c.new_page(); pg.goto(url + 'index.html'); pg.wait_for_selector('#recite-open')
-        # decks in the course with Quick lines; recitation-quick.js may still hold an entry for a removed deck
-        # (xi.modern, dissolved 30 Oct 2026) until integrate-quick regenerates it, and such an entry is never shown
+        # 60 decks with Quick lines, every one a deck in the course (xi.modern was dissolved 30 Oct 2026 and
+        # integrate-quick drops decks no longer in data/structure.js)
         quick = pg.evaluate("window.__arsQuickRecitations")
         live = pg.evaluate("Object.keys(window.__arsQuickRecitations).filter(id => ARS.structure.some(s => s.items.some(i => i.id === id)))")
-        check('60 decks loaded', len(live) == 60, len(live)); c.close()
+        check('60 decks loaded', len(quick) == 60 and len(live) == 60 and 'xi.modern' not in quick, (len(quick), len(live))); c.close()
         for width in (1280, 390):
             for dark in (False, True):
                 tag = '%d-%s' % (width, 'dark' if dark else 'light')
