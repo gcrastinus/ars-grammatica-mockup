@@ -1,6 +1,6 @@
 /* XI.1 The Ancient Near East [xi.neareast]
    31 Oct 2026: one of the five decks made from xi.traditions (now retired), as approved by Timothy (traditions-plan/XI-SPLIT-DRAFTS-1.md).
-   19 panels, 8 question points (q-scribal-sign, q-scribal-paradigms, q-eg-signs, q-eg-determinatives, q-eg-suffix, q-eg-nonverbal, q-eg-sdmf, q-eg-demotic), 70 Full points, numbered from R1.
+   19 panels, 8 question points (q-scribal-sign, q-scribal-paradigms, q-eg-signs, q-eg-determinatives, q-eg-suffix, q-eg-nonverbal, q-eg-sdmf, q-eg-demotic), 69 Full points, numbered from R1 (31 Oct 2026: the Coptic-grammars sentence of eg-demotic-coptic kept in the card only, not in the Full recitation).
    No Quick lines yet (the Editor writes them). No exercise.
    Built by traditions-plan/build/build-split.js. */
 window.ARS = window.ARS || {};
@@ -59,7 +59,7 @@ ARS.decks['xi.neareast'] = {
     `Joined to a noun a suffix shows the possessor, as in <i>pr.f</i> “his house”; joined to a verb it is the subject, as in <i>sdjm.f</i> “he hears.”`,
     `So one set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb.`,
     `Egyptian has no case endings, so it shows the genitive by placing the nouns.`,
-    `In the direct genitive the possessor follows the thing possessed, as in <i>nb t3wy</i> “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.`,
+    `In the direct genitive the possessor follows the thing possessed, as in <i>nb tawy</i> “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.`,
     `Latin shows the same relation by the ending of the genitive case.`,
     `Many Egyptian sentences have no verb, and they are divided by their predicate into adverbial, nominal, and adjectival sentences.`,
     `<i>iw.f m pr</i> “he is in the house” is adverbial, <i>ntjr pw</i> “he is a god” is nominal, and <i>nfr sw</i> “he is good” is adjectival.`,
@@ -76,7 +76,6 @@ ARS.decks['xi.neareast'] = {
     `The Rosetta Stone carries a decree of 196 BC written in hieroglyphs, in Demotic, and in Greek, and the Greek made it the key to the other two.`,
     `Coptic, the last stage of Egyptian, is written in the Greek alphabet with six or seven letters taken from Demotic.`,
     `Champollion, who knew Coptic, showed in 1822 and 1824 that hieroglyphs write sounds as well as ideas.`,
-    `The first grammars of Egyptian were grammars of Coptic, written in Arabic in the thirteenth century on the model of Arabic grammar.`,
     `The Babylonian and Egyptian scribes both kept a classical language in a school after speech had moved on, as the West kept Latin.`,
     `Both began with the written sign and taught by copying lists and model texts, and neither left a treatise on the parts of speech.`,
     `So our account of their languages uses the terms of our own art, which fit well enough to teach them but are ours.`,
@@ -212,7 +211,7 @@ ARS.decks['xi.neareast'] = {
   title: 'How hieroglyphs write',
   body: `<p>We saw in Section I that writing is a sign of speech, and in the scribal card that one cuneiform sign may write a word or a syllable. Hieroglyphic writing mixes the same two kinds of sign. A <strong>logogram</strong> writes a whole word, often with a stroke beneath it to show that the sign means what it pictures: the plan of a house with a stroke is <i>pr</i>, “house.” A <strong>phonogram</strong> writes only sounds: some signs write one consonant (the mouth for <i>r</i>), some two (the house plan for <i>pr</i> in other words), and some three (the beetle for <i>khpr</i>). The vowels are not written at all, so we do not know exactly how most words were pronounced.</p>
 <p>A word is often written with a longer sign followed by one or two single-consonant signs that repeat part of its sound. These are called <strong>phonetic complements</strong>; they help the reader choose the right reading, as the Babylonian scribes sometimes added a syllable to show which reading of a sign was meant. So the Egyptian sign, like the cuneiform sign, has a figure and a power, and its power may be a word or only a sound.</p>
-<p>The grammars write some Egyptian consonants with a mark beneath the letter, or with a sign of their own. These cards use plainer forms: <i>dj</i>, <i>kh</i>, and <i>tj</i> for three of the marked letters, as Allen writes them in Egyptian names in English, and <i>3</i> for the letter that the grammars print as two small hooks. So the beetle sign writes <i>khpr</i>, and the model verb of the grammars appears here as <i>sdjm</i>, “hear.”</p>`,
+<p>The grammars write some Egyptian consonants with a mark beneath the letter, or with a sign of their own. These cards use plainer forms: <i>dj</i>, <i>kh</i>, and <i>tj</i> for three of the marked letters, as Allen writes them in Egyptian names in English, and <i>a</i> for the letter that the grammars print as two small hooks. So the beetle sign writes <i>khpr</i>, and the model verb of the grammars appears here as <i>sdjm</i>, “hear.”</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 17–22 and 32 and Sign-list (O1, D21, L1), in paraphrase; Allen, <i>Middle Egyptian</i>, chs. 1–3, in paraphrase.`,
   qp: {
     "id": "q-eg-signs",
@@ -299,7 +298,7 @@ ARS.decks['xi.neareast'] = {
 
 { id: 'eg-gender-number',
   title: 'Gender and number',
-  body: `<p>Egyptian nouns have two genders, masculine and feminine, and the feminine usually ends in <i>-t</i>: <i>sn</i> “brother,” <i>snt</i> “sister.” They have three numbers, singular, dual and plural. The plural adds <i>-w</i> to the masculine and <i>-wt</i> to the feminine, and the dual adds <i>-wy</i> to the masculine and <i>-ty</i> to the feminine, as in <i>t3wy</i>, “the Two Lands,” a name of Egypt.</p>
+  body: `<p>Egyptian nouns have two genders, masculine and feminine, and the feminine usually ends in <i>-t</i>: <i>sn</i> “brother,” <i>snt</i> “sister.” They have three numbers, singular, dual and plural. The plural adds <i>-w</i> to the masculine and <i>-wt</i> to the feminine, and the dual adds <i>-wy</i> to the masculine and <i>-ty</i> to the feminine, as in <i>tawy</i>, “the Two Lands,” a name of Egypt.</p>
 <p>Adjectives follow their noun and agree with it in gender and number, as Latin adjectives agree with their nouns. We saw in Section II that gender and number are accidents of the noun; Egyptian has both, and like Greek it keeps a dual, which Latin had lost except in a few words such as <i>duo</i> and <i>ambo</i>.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 26, 72–77, in paraphrase; Allen, <i>Middle Egyptian</i>, ch. 4, in paraphrase.` },
 
@@ -349,7 +348,7 @@ ARS.decks['xi.neareast'] = {
 
 { id: 'eg-genitive',
   title: 'The genitive',
-  body: `<p>Egyptian has no case endings, so it shows the genitive by placing the nouns. In the <strong>direct genitive</strong> the possessor simply follows the thing possessed: <i>nb t3wy</i>, “lord of the Two Lands.” In the <strong>indirect genitive</strong> the two nouns are joined by a word meaning “of,” which agrees with the first noun: <i>n</i> after a masculine noun, <i>nt</i> after a feminine, and <i>nw</i> after a plural.</p>
+  body: `<p>Egyptian has no case endings, so it shows the genitive by placing the nouns. In the <strong>direct genitive</strong> the possessor simply follows the thing possessed: <i>nb tawy</i>, “lord of the Two Lands.” In the <strong>indirect genitive</strong> the two nouns are joined by a word meaning “of,” which agrees with the first noun: <i>n</i> after a masculine noun, <i>nt</i> after a feminine, and <i>nw</i> after a plural.</p>
 <p>Latin shows the same relation by an ending, the genitive case, which we studied in Section II. Egyptian shows it by order and by a joining word, and the agreement of that word with the first noun recalls the Hebrew construct state and the Arabic annexation, which we shall meet in their own decks.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 85–86, in paraphrase; Allen, <i>Middle Egyptian</i>, ch. 4, in paraphrase.` },
 

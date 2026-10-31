@@ -1,4 +1,4 @@
-/* Recitation outline for xi.neareast: 70 points. Written 31 Oct 2026 at the split of xi.traditions.
+/* Recitation outline for xi.neareast: 69 points. Written 31 Oct 2026 at the split of xi.traditions.
    Copied from data/decks/xi.neareast.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -50,7 +50,7 @@
     `Joined to a noun a suffix shows the possessor, as in <i>pr.f</i> “his house”; joined to a verb it is the subject, as in <i>sdjm.f</i> “he hears.”`,
     `So one set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb.`,
     `Egyptian has no case endings, so it shows the genitive by placing the nouns.`,
-    `In the direct genitive the possessor follows the thing possessed, as in <i>nb t3wy</i> “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.`,
+    `In the direct genitive the possessor follows the thing possessed, as in <i>nb tawy</i> “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.`,
     `Latin shows the same relation by the ending of the genitive case.`,
     `Many Egyptian sentences have no verb, and they are divided by their predicate into adverbial, nominal, and adjectival sentences.`,
     `<i>iw.f m pr</i> “he is in the house” is adverbial, <i>ntjr pw</i> “he is a god” is nominal, and <i>nfr sw</i> “he is good” is adjectival.`,
@@ -67,7 +67,6 @@
     `The Rosetta Stone carries a decree of 196 BC written in hieroglyphs, in Demotic, and in Greek, and the Greek made it the key to the other two.`,
     `Coptic, the last stage of Egyptian, is written in the Greek alphabet with six or seven letters taken from Demotic.`,
     `Champollion, who knew Coptic, showed in 1822 and 1824 that hieroglyphs write sounds as well as ideas.`,
-    `The first grammars of Egyptian were grammars of Coptic, written in Arabic in the thirteenth century on the model of Arabic grammar.`,
     `The Babylonian and Egyptian scribes both kept a classical language in a school after speech had moved on, as the West kept Latin.`,
     `Both began with the written sign and taught by copying lists and model texts, and neither left a treatise on the parts of speech.`,
     `So our account of their languages uses the terms of our own art, which fit well enough to teach them but are ours.`,

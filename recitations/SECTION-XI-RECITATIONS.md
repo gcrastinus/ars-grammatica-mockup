@@ -8,12 +8,12 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| XI.1 The Ancient Near East (`xi.neareast`) | 70 | 1786 |
+| XI.1 The Ancient Near East (`xi.neareast`) | 69 | 1764 |
 | XI.2 Sanskrit Grammar (`xi.sanskrit`) | 48 | 1531 |
 | XI.3 Arabic Grammar (`xi.arabic`) | 45 | 1303 |
 | XI.4 Hebrew Grammar (`xi.hebrew`) | 42 | 1207 |
 | XI.5 The Chinese Study of the Character (`xi.chinese`) | 60 | 1762 |
-| **Section XI, whole section** | **265** | **7589** |
+| **Section XI, whole section** | **264** | **7567** |
 
 ## XI.1 The Ancient Near East (`xi.neareast`)
 
@@ -65,7 +65,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 46. Joined to a noun a suffix shows the possessor, as in pr.f “his house”; joined to a verb it is the subject, as in sdjm.f “he hears.”
 47. So one set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb.
 48. Egyptian has no case endings, so it shows the genitive by placing the nouns.
-49. In the direct genitive the possessor follows the thing possessed, as in nb t3wy “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.
+49. In the direct genitive the possessor follows the thing possessed, as in nb tawy “lord of the Two Lands”; in the indirect genitive the nouns are joined by a word for “of” that agrees with the first noun.
 50. Latin shows the same relation by the ending of the genitive case.
 51. Many Egyptian sentences have no verb, and they are divided by their predicate into adverbial, nominal, and adjectival sentences.
 52. iw.f m pr “he is in the house” is adverbial, ntjr pw “he is a god” is nominal, and nfr sw “he is good” is adjectival.
@@ -82,11 +82,10 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 63. The Rosetta Stone carries a decree of 196 BC written in hieroglyphs, in Demotic, and in Greek, and the Greek made it the key to the other two.
 64. Coptic, the last stage of Egyptian, is written in the Greek alphabet with six or seven letters taken from Demotic.
 65. Champollion, who knew Coptic, showed in 1822 and 1824 that hieroglyphs write sounds as well as ideas.
-66. The first grammars of Egyptian were grammars of Coptic, written in Arabic in the thirteenth century on the model of Arabic grammar.
-67. The Babylonian and Egyptian scribes both kept a classical language in a school after speech had moved on, as the West kept Latin.
-68. Both began with the written sign and taught by copying lists and model texts, and neither left a treatise on the parts of speech.
-69. So our account of their languages uses the terms of our own art, which fit well enough to teach them but are ours.
-70. What they share with our art is the need that made it: a classical language had to be kept and understood.
+66. The Babylonian and Egyptian scribes both kept a classical language in a school after speech had moved on, as the West kept Latin.
+67. Both began with the written sign and taught by copying lists and model texts, and neither left a treatise on the parts of speech.
+68. So our account of their languages uses the terms of our own art, which fit well enough to teach them but are ours.
+69. What they share with our art is the need that made it: a classical language had to be kept and understood.
 
 ## XI.2 Sanskrit Grammar (`xi.sanskrit`)
 

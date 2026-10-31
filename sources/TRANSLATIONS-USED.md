@@ -216,7 +216,7 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 | *Materials for the Sumerian Lexicon* IV; Black, *Sumerian Grammar in Babylonian Theory* | OBGT, NBGT; *Ea*, *Diri*, *ḪAR-ra = ḫubullu* | — | xi.neareast / scribal panels | paraphrase; forms from the live app (lugal = šarru; KA readings; ba-ši-ŋen = ittalakšum) |
 | Plato, *Philebus* | 18b–d (Theuth: “he assigned to them all a single science and called it grammar”) | H. N. Fowler (Loeb, 1925), on Perseus | xi.neareast / eg-school | **quoted, verified**; added 31 Oct 2026 at the split of xi.traditions (Timothy approved quoting it) |
 | Plato, *Phaedrus* | 274c–275b (Theuth and Thamus) | — | xi.neareast / eg-school | paraphrase |
-| Gardiner, *Egyptian Grammar* (3rd ed., 1957); Allen, *Middle Egyptian* (2nd ed., 2010) | sections and chapters as on each card | — | xi.neareast / Egyptian panels | paraphrase; letters written dj, kh, tj, 3 (card eg-signs) |
+| Gardiner, *Egyptian Grammar* (3rd ed., 1957); Allen, *Middle Egyptian* (2nd ed., 2010) | sections and chapters as on each card | — | xi.neareast / Egyptian panels | paraphrase; letters written dj, kh, tj, a (card eg-signs) |
 | Gardiner, *Ancient Egyptian Onomastica* (1947); Posener on the *Kemit* (1951), via UCL Digital Egypt and Kaper (2010) | — | — | xi.neareast / eg-school | paraphrase |
 | Horapollo, *Hieroglyphica* | — | — | xi.neareast / eg-determinatives | paraphrase |
 | Johnson, *Thus Wrote ʿOnchsheshonqy*; Rosetta Stone (BM EA 24); Champollion, *Lettre à M. Dacier* (1822), *Précis* (1824); Lambdin; Sidarus, “Le modèle arabe en grammaire copte” (*HEL* 42.1, 2020) | — | — | xi.neareast / eg-demotic-coptic | paraphrase |
