@@ -1,7 +1,9 @@
 /* V.9 Mood and Voice in Construction [v.mood]
    Plan (ITEM-LIST.md): 10 panels, 5 question points, 2 of them short analysis questions.
    Live material drawn on: DECKS.latvoice (the passive and its doer, the infinitive, the participle), DECKS.latsubj (the
-   subjunctive, four uses, the sequence of tenses, the imperative). */
+   subjunctive, four uses, the sequence of tenses, the imperative).
+   Moved from xi.modern on 30 Oct 2026 (A10): roles after agent; functional (cards 34 and 38 merged) and halliday before
+   english: 13 panels, 7 question points. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
 ARS.decks['v.mood'] = {
@@ -46,7 +48,23 @@ ARS.decks['v.mood'] = {
     `After a present or future main verb the subordinate clause has the present (or perfect) subjunctive; after a past main verb it has the imperfect (or pluperfect) subjunctive.`,
     `So the tense of the dependent verb depends on the main verb, as its mood depends on the kind of clause; English shows a similar sequence in “may” and “might.”`,
     `English expresses most of these constructions without special forms of the verb: auxiliary verbs or the infinitive where Latin has the subjunctive, a clause with “that” where Latin has the accusative and infinitive, and a clause with a conjunction where Latin has a participle or an ablative absolute.`,
-    `So a translation between the two languages often changes the construction but keeps the meaning, and what remains the same is the relation of dependence that the construction expresses.`
+    `So a translation between the two languages often changes the construction but keeps the meaning, and what remains the same is the relation of dependence that the construction expresses.`,
+    `Several modern theories describe the relations of the participants in an action as <strong>semantic roles</strong>, such as the agent, the instrument, the experiencer, the location, the goal, and the recipient.`,
+    `These roles are distinguished from the grammatical subject and object, since the agent can be the subject or not (an active and a passive sentence).`,
+    `The semantic roles closely resemble Pāṇini’s kārakas, roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent.`,
+    `So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.`,
+    `<strong>Functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.`,
+    `<strong>Formal</strong> accounts, such as Chomsky’s, describe the forms of a language apart from their uses.`,
+    `The tradition distinguished the functions of language, and Bühler and Jakobson classified them; functional grammar goes further and seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.`,
+    `Formal and functional accounts are often presented as rivals, but they answer different questions: a formal account asks what the structures of a language are and what rules generate them, and a functional account asks why the structures are as they are, by what they do.`,
+    `The classical art combined something of both, describing the forms of words and constructions precisely and explaining them by their signification and their use.`,
+    `The modists’ explanation of the parts of speech by their modes of signifying is in this sense a functional explanation, though its functions are those of signifying rather than of communicating.`,
+    `Halliday held that every clause serves three functions at once, which he called metafunctions.`,
+    `The <strong>ideational</strong> function represents things and events: who did what to whom.`,
+    `The <strong>interpersonal</strong> function establishes a relation between speaker and hearer: whether the clause states, asks, or commands, and with what attitude.`,
+    `The <strong>textual</strong> function joins the clause to the text around it: what is theme and what is new.`,
+    `Bühler’s representation corresponds to the ideational function and his appeal to the hearer to the interpersonal, whereas the textual function adds what the classical rhetoricians treated under the arrangement of words.`,
+    `So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.`
   ],
   panels: [
 
@@ -75,6 +93,26 @@ ARS.decks['v.mood'] = {
       answer: 0,
       explain: `Latin distinguishes in its construction what English leaves to the sense: the king is a person who acts (ablative of agent with <i>ā</i>), and the sword is a thing that is used (ablative of means).` }
   ]} },
+
+{ id: 'roles',
+  title: 'Semantic roles',
+  body: `<p>In “The woodcutter split the log with an axe,” the woodcutter acts, the log undergoes the action, and the axe is the means. Several modern theories describe the relations of the participants in an action as <strong>semantic roles</strong>. Charles Fillmore, in “The Case for Case” (1968), proposed roles such as the agent (who does the action), the instrument (with which it is done), the experiencer (who perceives or feels), and the location; Simon Dik, in his Functional Grammar, uses similar roles such as agent, goal, and recipient. These roles are distinguished from the grammatical subject and object, since the agent can be the subject (“The woodcutter split the log”) or not (“The log was split by the woodcutter”).</p>
+<p>The semantic roles closely resemble Pāṇini’s kārakas, which we saw are roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent. So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.</p>`,
+  src: `Fillmore, “The Case for Case” (1968); Dik, <i>The Theory of Functional Grammar</i>; both in paraphrase.`,
+  qp: { id: 'q-roles', variants: [
+    { prompt: `“The scribe wrote the letter with a reed.” What role does “reed” play?`,
+      options: [`Agent`, `Instrument`, `Recipient`, `Experiencer`],
+      answer: 1,
+      explain: `The reed is the means with which the writing is done, so it is the instrument.` },
+    { prompt: `“The letter was written by the scribe.” Why is “scribe” the agent but not the subject?`,
+      options: [`The agent need not be the subject`, `The scribe is the instrument of writing`, `The sentence has no agent`, `The letter is the agent`],
+      answer: 0,
+      explain: `A semantic role is distinct from the grammatical subject: in the passive the agent is named in a phrase with “by,” and the thing done is the subject.` },
+    { prompt: `Which earlier doctrine does the idea of semantic roles most resemble?`,
+      options: [`The Arabic theory of the governor`, `The Chinese full and empty words`, `The Hebrew construct state`, `Pāṇini’s kārakas`],
+      answer: 3,
+      explain: `Pāṇini’s kārakas are roles in the action distinct from the endings that mark them, as semantic roles are distinct from subject and object.` }
+  ] } },
 
 { id: 'impersonal-passive',
   title: 'The impersonal passive',
@@ -160,6 +198,34 @@ ARS.decks['v.mood'] = {
       answer: 2,
       explain: `<i>Quid faciās</i> reports a question after the verb of asking <i>rogat</i>, so it is an indirect question, with its verb in the subjunctive.` }
   ]} },
+
+{ id: 'functional',
+  title: 'Functional and formal grammar',
+  body: `<p>Some modern linguists hold that the forms of a language are best explained by the uses to which language is put: to represent things, to address others, and to build a connected text. Such accounts are called <strong>functional</strong>, in contrast with <strong>formal</strong> accounts, such as Chomsky’s, which describe the forms of a language apart from their uses.</p>
+<p>We saw in Section I that the tradition distinguished the functions of language, stating, asking, commanding, praying, calling, and expressing feeling, and that Bühler and Jakobson classified them in the twentieth century. Functional grammar goes further: it seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.</p>
+<p>Formal and functional accounts of grammar are often presented as rivals, but they answer different questions. A formal account asks what the structures of a language are and what rules generate them; a functional account asks why the structures are as they are, by what they do. Many linguists now use both, describing the form of a construction and explaining its use.</p>
+<p>The classical art combined something of both. It described the forms of words and constructions precisely, as a formal account does, and it explained them by their signification and their use, as a functional account does. The modists’ explanation of the parts of speech by their modes of signifying is, in this sense, a functional explanation, though its functions are those of signifying rather than of communicating.</p>`,
+  src: `Dik, <i>The Theory of Functional Grammar</i>; Halliday, <i>An Introduction to Functional Grammar</i>; both in paraphrase.` },
+
+{ id: 'halliday',
+  title: 'Halliday’s three functions',
+  body: `<p>The question “Did the baker sell the last loaf?” speaks of an event, asks the hearer something, and begins from the baker, who may already have been mentioned. M. A. K. Halliday held that every clause serves three functions at once, which he called <strong>metafunctions</strong>. The <strong>ideational</strong> function represents things and events: who did what to whom. The <strong>interpersonal</strong> function establishes a relation between speaker and hearer: whether the clause states, asks, or commands, and with what attitude. The <strong>textual</strong> function joins the clause to the text around it: what is theme and what is new.</p>
+<p>These three functions correspond in part to the older classifications. Bühler’s representation corresponds to Halliday’s ideational function, and his appeal to the hearer to the interpersonal; the textual function adds what the classical rhetoricians treated under the arrangement of words. So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.</p>`,
+  src: `Halliday, <i>An Introduction to Functional Grammar</i>, ch. 2, in paraphrase; Bühler, <i>Sprachtheorie</i> (1934).`,
+  qp: { id: 'q-halliday', variants: [
+    { prompt: `In the question “Did the gardener lock the gate?” which function is served by its being a question?`,
+      options: [`The interpersonal function`, `The ideational function`, `The textual function`, `None of the three functions`],
+      answer: 0,
+      explain: `Whether a clause states, asks, or commands establishes a relation between speaker and hearer, so it belongs to the interpersonal function.` },
+    { prompt: `In the question “Did the gardener lock the gate?” which function represents who did what to whom?`,
+      options: [`The interpersonal function`, `The textual function`, `None of the three`, `The ideational function`],
+      answer: 3,
+      explain: `The ideational function represents things and events: the gardener locking the gate.` },
+    { prompt: `Which older classification does Halliday’s textual function draw on?`,
+      options: [`Bühler’s representation`, `Bühler’s appeal to the hearer in speech`, `The rhetoricians’ arrangement of words`, `Donatus’s eight parts`],
+      answer: 2,
+      explain: `The textual function joins the clause to the text around it, which the classical rhetoricians treated under the arrangement of words; Bühler’s representation and appeal correspond to the ideational and interpersonal functions.` }
+  ] } },
 
 { id: 'english',
   title: 'Mood and voice in English construction',

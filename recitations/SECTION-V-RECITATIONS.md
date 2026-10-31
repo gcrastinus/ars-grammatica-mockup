@@ -14,9 +14,9 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | The Phrase (`v.phrase`) | 23 | 661 |
 | The Clause (`v.clause`) | 47 | 1202 |
 | The Period (`v.period`) | 26 | 691 |
-| Mood and Voice in Construction (`v.mood`) | 37 | 870 |
+| Mood and Voice in Construction (`v.mood`) | 53 | 1287 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **366** | **9204** |
+| **Section V, whole section** | **382** | **9621** |
 
 ## Congruity (`v.congruity`)
 
@@ -343,7 +343,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 1. Mood and voice are accidents of the verb, but they are also relations of construction, because they decide how the verb is joined to other words and how one clause is joined to another.
 2. The voice of a verb decides which word is its subject and how the doer of the action is expressed.
-3. The mood of a verb often shows whether its clause is independent or dependent, and what kind of dependent clause it is.
+3. The mood of a verb often shows whether its clause is independent or subordinate, and what kind of subordinate clause it is.
 4. Priscian devotes the last book of his grammar to the construction of the verb with its cases and moods, and medieval grammarians learned from it that the verb is the center around which the construction of the sentence is arranged.
 5. In a passive sentence the one who receives the action becomes the subject, and the doer may be named or left out.
 6. When the doer is a person, Latin expresses it by *ā* or *ab* with the ablative, the **ablative of agent**; when the means is a thing, Latin uses the ablative without a preposition, the **ablative of means**.
@@ -359,7 +359,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 16. After a verb of saying, thinking, knowing, or perceiving, Latin usually puts the subject of what is reported in the accusative and its verb in the infinitive; this construction, the **accusative and infinitive**, is the regular form of indirect statement.
 17. English uses a clause with “that” instead, though it has a similar construction after some verbs.
 18. The tense of the infinitive shows time relative to the main verb: the present infinitive the same time, the perfect infinitive an earlier time, and the future infinitive a later time.
-19. Latin uses a participle where English often uses a dependent clause or a second verb.
+19. Latin uses a participle where English often uses a subordinate clause or a second verb.
 20. The participle shows time relative to the main verb, and it can take the place of a temporal, causal, conditional, or concessive clause, the sense deciding which.
 21. So a single Latin participle often contains a relation between two actions that English must express with a conjunction, and the reader must supply the conjunction from the sense.
 22. Where English uses a gerund with an object, Latin usually uses the gerundive agreeing with the noun, a passive participle signifying what is to be done.
@@ -374,10 +374,26 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 31. English expresses all of these with auxiliary verbs, and the independent subjunctive is one of the chief means by which Latin marks sentences that command, ask, and pray as well as state.
 32. The verbs of clauses with *cum*, of clauses of purpose and result, and of indirect questions are in the subjunctive.
 33. In such clauses the tense of the subjunctive depends on the tense of the main verb, according to the **sequence of tenses**.
-34. After a present or future main verb the dependent clause has the present (or perfect) subjunctive; after a past main verb it has the imperfect (or pluperfect) subjunctive.
+34. After a present or future main verb the subordinate clause has the present (or perfect) subjunctive; after a past main verb it has the imperfect (or pluperfect) subjunctive.
 35. So the tense of the dependent verb depends on the main verb, as its mood depends on the kind of clause; English shows a similar sequence in “may” and “might.”
 36. English expresses most of these constructions without special forms of the verb: auxiliary verbs or the infinitive where Latin has the subjunctive, a clause with “that” where Latin has the accusative and infinitive, and a clause with a conjunction where Latin has a participle or an ablative absolute.
 37. So a translation between the two languages often changes the construction but keeps the meaning, and what remains the same is the relation of dependence that the construction expresses.
+38. Several modern theories describe the relations of the participants in an action as **semantic roles**, such as the agent, the instrument, the experiencer, the location, the goal, and the recipient.
+39. These roles are distinguished from the grammatical subject and object, since the agent can be the subject or not (an active and a passive sentence).
+40. The semantic roles closely resemble Pāṇini’s kārakas, roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent.
+41. So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.
+42. **Functional** accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.
+43. **Formal** accounts, such as Chomsky’s, describe the forms of a language apart from their uses.
+44. The tradition distinguished the functions of language, and Bühler and Jakobson classified them; functional grammar goes further and seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.
+45. Formal and functional accounts are often presented as rivals, but they answer different questions: a formal account asks what the structures of a language are and what rules generate them, and a functional account asks why the structures are as they are, by what they do.
+46. The classical art combined something of both, describing the forms of words and constructions precisely and explaining them by their signification and their use.
+47. The modists’ explanation of the parts of speech by their modes of signifying is in this sense a functional explanation, though its functions are those of signifying rather than of communicating.
+48. Halliday held that every clause serves three functions at once, which he called metafunctions.
+49. The **ideational** function represents things and events: who did what to whom.
+50. The **interpersonal** function establishes a relation between speaker and hearer: whether the clause states, asks, or commands, and with what attitude.
+51. The **textual** function joins the clause to the text around it: what is theme and what is new.
+52. Bühler’s representation corresponds to the ideational function and his appeal to the hearer to the interpersonal, whereas the textual function adds what the classical rhetoricians treated under the arrangement of words.
+53. So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.
 
 ## Figures of Construction (`v.figures`)
 
