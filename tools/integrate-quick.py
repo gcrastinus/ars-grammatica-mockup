@@ -20,7 +20,7 @@ Checks (a failing deck is not written unless --force):
   no dashes; source numbers valid and in Full order; card field matches the cards of its sources and every card
   that has a Full line is covered (only when a cardmap is given); about 10 to 12 lines; at least 80 words in all.
 Each line is written as {html, card, from}: html is shown in the tablet; card and from are notes for editors.
-Decks already in recitation-quick.js are kept unless the input supplies them again. A deck with no entry shows Full only.
+Decks already in recitation-quick.js are kept unless the input supplies them again; decks no longer in data/structure.js are dropped. A deck with no entry shows Full only.
 """
 import json, os, re, subprocess, sys
 
@@ -114,7 +114,9 @@ def main():
     missing = [d for d in full if full[d] and d not in data and d in ids]
     print('%d decks in input, %d with problems; %d decks with a Full recitation have no Quick draft' % (len(data), bad, len(missing)))
     if dry: print('dry run: nothing written'); return 1 if bad else 0
-    keys = sorted(out, key=lambda k: ids.index(k) if k in ids else 9999)
+    gone = sorted(k for k in out if k not in ids)
+    if gone: print('dropped (no longer in data/structure.js): ' + ', '.join(gone))
+    keys = sorted((k for k in out if k in ids), key=ids.index)
     with open(OUT, 'w', encoding='utf8') as f:
         f.write(HEAD + 'window.__arsQuickRecitations = /*DATA*/' + json.dumps({k: out[k] for k in keys}, ensure_ascii=False, indent=2) + '/*END*/;\n')
     print('wrote %s (%d decks)' % (OUT, len(out)))

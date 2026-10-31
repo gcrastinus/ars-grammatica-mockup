@@ -339,16 +339,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "i.sign": [
     {
-      "html": "Something that signifies (that has meaning) is a sign; so a word is a kind of sign.",
+      "html": "Something that signifies is a sign, so a word is a kind of sign; a sign is a thing which, besides the impression it makes on the senses, brings something else to mind (St. Augustine).",
       "card": 1,
       "from": [
-        2
-      ]
-    },
-    {
-      "html": "A sign is a thing which, besides the impression it makes on the senses, brings something else to mind (St. Augustine); or, “that which represents something other than itself to a cognitive power” (John of St. Thomas).",
-      "card": 1,
-      "from": [
+        2,
         4
       ]
     },
@@ -396,23 +390,41 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "For Aristotle and the early tradition, “symbol” is simply another name for a conventional sign: words signify by agreement, not by nature.",
-      "card": 8,
+      "card": 9,
       "from": [
         32
       ]
     },
     {
       "html": "Words are instrumental signs, but they signify by means of concepts, which are formal signs.",
-      "card": 9,
+      "card": 10,
       "from": [
         37
       ]
     },
     {
       "html": "Grammar begins with the sign because its material is speech, and speech is made of conventional signs.",
-      "card": 10,
+      "card": 13,
       "from": [
         39
+      ]
+    },
+    {
+      "html": "Saussure describes the linguistic sign as the union of a <strong>signifier</strong> (<i>signifiant</i>), a sound-image, and a <strong>signified</strong> (<i>signifié</i>), a concept.",
+      "card": 8,
+      "from": [
+        44
+      ]
+    },
+    {
+      "html": "Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system; but if the concept is a formal sign, then signification cannot end in the concept.",
+      "card": [
+        11,
+        12
+      ],
+      "from": [
+        50,
+        56
       ]
     }
   ],
@@ -669,30 +681,18 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "i.functions": [
     {
-      "html": "Not every sentence is used to say that something is or is not so.",
+      "html": "Not every sentence is used to say that something is or is not so: the <strong>functions of language</strong>, that is, the different uses of speech, are to state, to ask, to command, to pray, and to call someone.",
       "card": 1,
       "from": [
-        1
-      ]
-    },
-    {
-      "html": "The <strong>functions of language</strong>, that is, the different uses of speech, are to state, to ask, to command, to pray, and to call someone; and any of these sentences can also express what the speaker feels.",
-      "card": 1,
-      "from": [
+        1,
         2
       ]
     },
     {
-      "html": "A <strong>proposition</strong> or <strong>statement</strong> (Greek <i>apophansis</i>, Latin <i>enuntiatio</i>) is a sentence that says that something is or is not so, and therefore is true or false.",
+      "html": "A <strong>statement</strong> is a sentence that says that something is or is not so, and therefore is true or false; every sentence signifies, but not every sentence is a statement (Aristotle’s distinction).",
       "card": 2,
       "from": [
-        4
-      ]
-    },
-    {
-      "html": "A command or a prayer is a complete and meaningful sentence, but it is neither true nor false: every sentence signifies, but not every sentence is a statement (Aristotle’s distinction).",
-      "card": 2,
-      "from": [
+        4,
         5
       ]
     },
@@ -711,16 +711,10 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Speech expresses feeling sometimes in a single word, called an interjection (“alas”), and sometimes in a whole sentence.",
+      "html": "Speech expresses feeling sometimes in a single word, called an interjection (“alas”), and sometimes in a whole sentence; the statement is true or false, but the feeling expressed is neither.",
       "card": 5,
       "from": [
-        13
-      ]
-    },
-    {
-      "html": "An expression of feeling can be joined to a statement: the statement is true or false, but the feeling expressed is neither.",
-      "card": 5,
-      "from": [
+        13,
         14
       ]
     },
@@ -732,24 +726,48 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Grammar considers every kind of sentence, because every kind must be correctly formed; any kind can contain a solecism, that is, an error in construction.",
-      "card": 7,
+      "html": "Grammar considers every kind of sentence, because every kind must be correctly formed; so grammar is broader than logic: logic studies one kind of sentence, the statement, whereas grammar studies all of them.",
+      "card": 11,
       "from": [
-        19
-      ]
-    },
-    {
-      "html": "So grammar is broader than logic in this respect: logic studies one kind of sentence, the statement, whereas grammar studies all of them.",
-      "card": 7,
-      "from": [
+        19,
         22
       ]
     },
     {
       "html": "Modern accounts of the functions of language agree with the tradition that speech does more than state, and that stating is the function on which truth depends.",
-      "card": 8,
+      "card": 12,
       "from": [
         23
+      ]
+    },
+    {
+      "html": "Only the statement is true or false, and Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says.",
+      "card": 7,
+      "from": [
+        28
+      ]
+    },
+    {
+      "html": "The illocutionary act corresponds to what the tradition called the kind of sentence, and the perlocutionary act belongs to what Aristotle assigned to rhetoric, so grammar, logic, and rhetoric each consider one aspect of every utterance.",
+      "card": 8,
+      "from": [
+        34
+      ]
+    },
+    {
+      "html": "Searle classified illocutionary acts into five kinds: <strong>assertives</strong>, <strong>directives</strong>, <strong>commissives</strong>, <strong>expressives</strong>, and <strong>declarations</strong>.",
+      "card": 9,
+      "from": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "html": "So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed.",
+      "card": 10,
+      "from": [
+        42
       ]
     }
   ],
@@ -1522,16 +1540,13 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "These four parts signify a relation to another word, not a thing as stable or as becoming, and this is why they are indeclinable: they do not need forms for case or time.",
-      "card": 9,
+      "html": "These four parts signify a relation to another word, not a thing as stable or as becoming, and this is why they are indeclinable; the modists’ account explains why there are eight parts: every word either signifies a thing or relates other words to one another.",
+      "card": [
+        9,
+        10
+      ],
       "from": [
-        36
-      ]
-    },
-    {
-      "html": "The modists’ account explains why there are eight parts: every word either signifies a thing or relates other words to one another.",
-      "card": 10,
-      "from": [
+        36,
         37
       ]
     },
@@ -1544,9 +1559,20 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.",
-      "card": 12,
+      "card": 14,
       "from": [
         50
+      ]
+    },
+    {
+      "html": "William of Ockham answered that there are no common natures in things to ground such modes: different words simply signify in different ways; speculative grammar was not so much refuted as abandoned.",
+      "card": [
+        12,
+        13
+      ],
+      "from": [
+        52,
+        56
       ]
     }
   ],
@@ -2585,16 +2611,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "iv.derivation": [
     {
-      "html": "<strong>Derivation</strong> is the process by which a derived word is formed from a primitive, usually by adding an ending called a <strong>suffix</strong> (“neighbor,” “neighborhood”).",
+      "html": "<strong>Derivation</strong> is the process by which a derived word is formed from a primitive, usually by adding an ending called a <strong>suffix</strong>; a derived word keeps the meaning of its primitive and adds to it a further meaning that the suffix signifies.",
       "card": 1,
       "from": [
-        2
-      ]
-    },
-    {
-      "html": "A derived word keeps the meaning of its primitive and adds to it a further meaning that the suffix signifies.",
-      "card": 1,
-      "from": [
+        2,
         3
       ]
     },
@@ -2613,30 +2633,18 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "The desiderative, the frequentative, and the inchoative, which Donatus counts among the forms of the verb, are derived verbs formed from other verbs by regular suffixes.",
+      "html": "The desiderative, the frequentative, and the inchoative are derived verbs formed from other verbs by regular suffixes, and verbs formed from nouns and adjectives are called <strong>denominative</strong> verbs.",
       "card": 4,
       "from": [
-        13
-      ]
-    },
-    {
-      "html": "Verbs formed from nouns and adjectives are called <strong>denominative</strong> verbs (“from a noun”).",
-      "card": 4,
-      "from": [
+        13,
         14
       ]
     },
     {
-      "html": "English has its own suffixes, inherited from Old English, and these native suffixes are among the most productive, that is, the most freely used to make new words.",
+      "html": "English has its own suffixes, inherited from Old English, and English often has two words for the same idea, one with a native suffix and one borrowed from Latin (“boldness” and “audacity”).",
       "card": 5,
       "from": [
-        16
-      ]
-    },
-    {
-      "html": "The native suffixes correspond in meaning to Latin ones, so English often has two words for the same idea, one with a native suffix and one borrowed from Latin (“boldness” and “audacity”).",
-      "card": 5,
-      "from": [
+        16,
         18
       ]
     },
@@ -2666,6 +2674,27 @@ window.__arsQuickRecitations = /*DATA*/{
       "card": 8,
       "from": [
         29
+      ]
+    },
+    {
+      "html": "Humboldt’s classification was the beginning of linguistic typology, the comparison of languages by their structure.",
+      "card": 9,
+      "from": [
+        33
+      ]
+    },
+    {
+      "html": "Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.",
+      "card": 11,
+      "from": [
+        42
+      ]
+    },
+    {
+      "html": "The classical tradition grants that these types are real, but it takes them as differences in the spoken signs and not in what is signified, so that languages of different types can say the same thing by different means.",
+      "card": 10,
+      "from": [
+        44
       ]
     }
   ],
@@ -2757,16 +2786,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "iv.etymology": [
     {
-      "html": "<strong>Etymology</strong> is the study of how a word came to have its form and meaning, that is, the historical question of where a word came from.",
+      "html": "<strong>Etymology</strong> is the study of how a word came to have its form and meaning, and it is one of the supports of reason among the criteria of correctness.",
       "card": 1,
       "from": [
-        1
-      ]
-    },
-    {
-      "html": "Etymology is one of the supports of reason among the criteria of correctness, and Quintilian holds that it is sometimes of the greatest use when a word needs interpretation.",
-      "card": 1,
-      "from": [
+        1,
         3
       ]
     },
@@ -2800,44 +2823,56 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "In the nineteenth century scholars found a more reliable method: by comparing the oldest forms of related languages, they found that sounds change according to regular patterns, called <strong>sound laws</strong>.",
-      "card": 6,
+      "card": 7,
       "from": [
         19
       ]
     },
     {
       "html": "A <strong>cognate</strong> (“born together”) is a word that has descended in each language from a common ancestor in the parent language.",
-      "card": 7,
+      "card": 10,
       "from": [
         23
       ]
     },
     {
       "html": "English vocabulary has several layers: a Germanic core inherited from Old English, the most common words; thousands of words borrowed from French after the Norman Conquest, especially in government, law, religion, and cooking; and many learned words borrowed directly from Latin and Greek from the Renaissance onward.",
-      "card": 8,
+      "card": 11,
       "from": [
         27
       ]
     },
     {
-      "html": "To argue that a word must mean today what its ancestor meant is a fallacy, sometimes called the <strong>etymological fallacy</strong>.",
-      "card": 9,
+      "html": "To argue that a word must mean today what its ancestor meant is a fallacy, sometimes called the <strong>etymological fallacy</strong>; the present meaning is fixed by usage.",
+      "card": 12,
       "from": [
-        31
-      ]
-    },
-    {
-      "html": "The present meaning is fixed by usage, and etymology explains how that meaning came about but does not overrule it.",
-      "card": 9,
-      "from": [
+        31,
         32
       ]
     },
     {
       "html": "The great historical dictionaries record what etymology has established: for each word, its origin, its earliest recorded uses with dated quotations, and the history of its meanings.",
-      "card": 10,
+      "card": 13,
       "from": [
         33
+      ]
+    },
+    {
+      "html": "Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.",
+      "card": 6,
+      "from": [
+        38
+      ]
+    },
+    {
+      "html": "So the classical account can admit that languages change, as long as the change follows causes that can be known; a <strong>synchronic</strong> study describes a language as a system at one time, and a <strong>diachronic</strong> study describes how a language changes through time.",
+      "card": [
+        8,
+        9
+      ],
+      "from": [
+        48,
+        50
       ]
     }
   ],
@@ -2886,37 +2921,44 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "Every complete sentence has two principal parts: what the sentence is about, and what is said of it.",
-      "card": 7,
+      "card": 8,
       "from": [
         24
       ]
     },
     {
       "html": "The grammarians of the twelfth century called these the <i>suppositum</i> (“what is placed under”) and the <i>appositum</i> (“what is placed beside”); modern grammars call them the <strong>subject</strong> and the <strong>predicate</strong>.",
-      "card": 7,
+      "card": 8,
       "from": [
         25
       ]
     },
     {
       "html": "Thomas of Erfurt explains construction by the same four causes.",
-      "card": 8,
+      "card": 9,
       "from": [
         29
       ]
     },
     {
       "html": "The <strong>final cause</strong> is to express the speaker’s thought, and so to produce a complete sense in the mind of the hearer.",
-      "card": 8,
+      "card": 9,
       "from": [
         32
       ]
     },
     {
       "html": "So a false sentence is as good a sentence as a true one if its subject and predicate are correctly joined, and only logic asks which is true.",
-      "card": 9,
+      "card": 10,
       "from": [
         36
+      ]
+    },
+    {
+      "html": "Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called <strong>generative</strong>.",
+      "card": 7,
+      "from": [
+        38
       ]
     }
   ],
@@ -3080,16 +3122,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "v.dependence": [
     {
-      "html": "A word <strong>depends</strong> on another when its mode of signifying requires something that the other supplies, and the word that supplies it <strong>terminates</strong> the dependence, that is, completes what the dependent word requires.",
+      "html": "A word <strong>depends</strong> on another when its mode of signifying requires something that the other supplies, and the word that supplies it <strong>terminates</strong> the dependence: every construction has two parts, one word that depends and one word that terminates the dependence.",
       "card": 1,
       "from": [
-        1
-      ]
-    },
-    {
-      "html": "Thomas of Erfurt gives this as the reason why one word is constructed with another at all: every construction has two parts, one word that depends (<i>dependēns</i>) and one word that terminates the dependence (<i>termināns</i>).",
-      "card": 1,
-      "from": [
+        1,
         2
       ]
     },
@@ -3130,45 +3166,54 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "A sentence can be analyzed by marking each dependence with an arrow drawn from the word that depends to the word that terminates its dependence; in this course the arrows follow Thomas of Erfurt.",
-      "card": 7,
+      "card": 10,
       "from": [
         24
       ]
     },
     {
       "html": "So dependence works at more than one level: single words depend on single words, and groups of words depend on words as wholes, which is why the phrase and the clause are studied as units of construction.",
-      "card": 8,
+      "card": 11,
       "from": [
         28
       ]
     },
     {
-      "html": "Dependence is the relation that every construction has, and agreement and government are the forms in which it is shown.",
-      "card": 9,
+      "html": "Dependence is the relation that every construction has: when the dependent word shares accidents with the terminant there is agreement; when one word requires a case in another there is government.",
+      "card": 12,
       "from": [
-        29
+        29,
+        30
       ]
     },
     {
-      "html": "When the dependent word shares accidents with the terminant there is agreement; when one word requires a case in another there is government.",
+      "html": "So the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence, and Thomas follows the verb’s mode of signifying, which requires a subject.",
+      "card": 7,
+      "from": [
+        36
+      ]
+    },
+    {
+      "html": "So modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.",
+      "card": 8,
+      "from": [
+        40
+      ]
+    },
+    {
+      "html": "Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one, and repeated Merge builds every structure of every language.",
       "card": 9,
       "from": [
-        30
+        42
       ]
     }
   ],
   "v.order": [
     {
-      "html": "Languages differ in how much the order of words does: in English the order is the chief means of showing construction, so it is largely fixed.",
+      "html": "In English the order is the chief means of showing construction, so it is largely fixed; in Latin the endings show the construction, and the order is free to do other work, especially to give emphasis.",
       "card": 1,
       "from": [
-        3
-      ]
-    },
-    {
-      "html": "In Latin the endings show the construction, so the order is free to do other work, especially to give emphasis and to arrange the sentence for effect.",
-      "card": 1,
-      "from": [
+        3,
         4
       ]
     },
@@ -3195,51 +3240,66 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "The separation of words that belong together is called <strong>hyperbaton</strong> (Greek, “stepping over”), and Quintilian counts it among the figures.",
-      "card": 5,
+      "card": 6,
       "from": [
         18
       ]
     },
     {
       "html": "Because the order carries the construction, a word placed in the wrong position can attach itself to the wrong word, so a wrong order leads to ambiguity.",
-      "card": 6,
+      "card": 7,
       "from": [
         21
       ]
     },
     {
       "html": "Construing does not change the meaning of the sentence; it makes the dependences visible by placing each word beside the word on which it depends.",
-      "card": 7,
+      "card": 8,
       "from": [
         24
       ]
     },
     {
       "html": "The three common orders are SVO, as in English; SOV, as in the usual order of Latin; and VSO, as in Classical Arabic.",
-      "card": 8,
+      "card": 9,
       "from": [
         27
       ]
     },
     {
       "html": "Greenberg found that the order of subject, verb, and object tends to go together with other facts of order.",
-      "card": 9,
+      "card": 10,
       "from": [
         29
       ]
     },
     {
-      "html": "In a German main clause the finite verb stands in the second place, whatever comes first, but in a subordinate clause it goes to the end, so German order distinguishes main and subordinate clauses.",
-      "card": 10,
+      "html": "In a German main clause the finite verb stands in the second place, but in a subordinate clause it goes to the end; in English a change of order is a change of meaning.",
+      "card": [
+        13,
+        14
+      ],
       "from": [
-        33
+        33,
+        36
       ]
     },
     {
-      "html": "In English order shows the construction, so a change of order is a change of meaning; in Latin the endings show the construction, so order can give emphasis, separate words for effect, and follow the rhythm of the sentence.",
-      "card": 11,
+      "html": "Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the <strong>theme</strong>, and continues with what is new, called the <strong>rheme</strong>.",
+      "card": 5,
       "from": [
-        36
+        39
+      ]
+    },
+    {
+      "html": "An <strong>absolute universal</strong> holds for every known language, but few have been found; an <strong>ergative</strong> language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.",
+      "card": [
+        11,
+        12
+      ],
+      "from": [
+        46,
+        51
       ]
     }
   ],
@@ -3324,16 +3384,10 @@ window.__arsQuickRecitations = /*DATA*/{
   ],
   "v.clause": [
     {
-      "html": "A <strong>clause</strong> is a group of words that has its own subject and finite verb.",
+      "html": "A <strong>clause</strong> is a group of words that has its own subject and finite verb; clauses that can stand as a sentence by themselves are called <strong>independent</strong> clauses, and clauses that cannot are called <strong>subordinate</strong> clauses.",
       "card": 1,
       "from": [
-        1
-      ]
-    },
-    {
-      "html": "Clauses that can stand as a sentence by themselves are called <strong>independent</strong> (or main) clauses; clauses that cannot, because they depend on another clause, are called <strong>subordinate</strong> clauses.",
-      "card": 1,
-      "from": [
+        1,
         2
       ]
     },
@@ -3373,16 +3427,10 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.",
+      "html": "English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb, and the subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another.",
       "card": 7,
       "from": [
-        20
-      ]
-    },
-    {
-      "html": "The subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another.",
-      "card": 7,
-      "from": [
+        20,
         23
       ]
     },
@@ -3402,9 +3450,31 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "The analysis of a sentence finds the independent clause and its pattern, then each subordinate clause and the word on which it depends, then the phrases and single words that depend within each clause.",
-      "card": 10,
+      "card": 14,
       "from": [
         33
+      ]
+    },
+    {
+      "html": "Bloomfield analyzed sentences into their immediate constituents, and a generative grammar divides the sentence into its constituents by rules called <strong>phrase-structure rules</strong>.",
+      "card": [
+        10,
+        11
+      ],
+      "from": [
+        37,
+        39
+      ]
+    },
+    {
+      "html": "Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another, and Chomsky distinguished the <strong>deep structure</strong> of a sentence, which represents its relations of meaning, from its <strong>surface structure</strong>, the form in which it is spoken.",
+      "card": [
+        12,
+        13
+      ],
+      "from": [
+        43,
+        46
       ]
     }
   ],
@@ -3497,65 +3567,77 @@ window.__arsQuickRecitations = /*DATA*/{
     },
     {
       "html": "Latin can use an intransitive verb in the passive, in the third person singular, without a personal subject, to say that an action took place without naming who did it; this is the <strong>impersonal passive</strong>.",
-      "card": 3,
+      "card": 4,
       "from": [
         8
       ]
     },
     {
       "html": "The infinitive names an action without person or number, and in construction it is used in three chief ways.",
-      "card": 4,
+      "card": 5,
       "from": [
         11
       ]
     },
     {
       "html": "After a verb of saying, thinking, knowing, or perceiving, Latin usually puts the subject of what is reported in the accusative and its verb in the infinitive; this construction, the <strong>accusative and infinitive</strong>, is the regular form of indirect statement.",
-      "card": 5,
+      "card": 6,
       "from": [
         16
       ]
     },
     {
       "html": "The participle shows time relative to the main verb, and it can take the place of a temporal, causal, conditional, or concessive clause, the sense deciding which.",
-      "card": 6,
+      "card": 7,
       "from": [
         20
       ]
     },
     {
       "html": "The gerundive with a form of <i>sum</i> expresses necessity; this is the <strong>passive periphrastic</strong> construction, and the person who must do the action is put in the dative, the <strong>dative of agent</strong>.",
-      "card": 7,
+      "card": 8,
       "from": [
         24
       ]
     },
     {
       "html": "Latin uses the subjunctive in some independent sentences, which do not state a fact, each kind with its own sense.",
-      "card": 8,
+      "card": 9,
       "from": [
         25
       ]
     },
     {
       "html": "In such clauses the tense of the subjunctive depends on the tense of the main verb, according to the <strong>sequence of tenses</strong>.",
-      "card": 9,
+      "card": 10,
       "from": [
         33
       ]
     },
     {
-      "html": "English expresses most of these constructions without special forms of the verb: auxiliary verbs or the infinitive where Latin has the subjunctive, a clause with “that” where Latin has the accusative and infinitive, and a clause with a conjunction where Latin has a participle or an ablative absolute.",
-      "card": 10,
+      "html": "English expresses most of these constructions without special forms of the verb, so a translation between the two languages often changes the construction but keeps the meaning.",
+      "card": 13,
       "from": [
-        36
+        36,
+        37
       ]
     },
     {
-      "html": "So a translation between the two languages often changes the construction but keeps the meaning, and what remains the same is the relation of dependence that the construction expresses.",
-      "card": 10,
+      "html": "Several modern theories describe the relations of the participants in an action as <strong>semantic roles</strong>, such as the agent, the instrument, the experiencer, the location, the goal, and the recipient.",
+      "card": 3,
       "from": [
-        37
+        38
+      ]
+    },
+    {
+      "html": "<strong>Formal</strong> and <strong>functional</strong> accounts are often presented as rivals, but they answer different questions; Halliday held that every clause serves three functions at once, which he called metafunctions.",
+      "card": [
+        11,
+        12
+      ],
+      "from": [
+        45,
+        48
       ]
     }
   ],
@@ -3682,38 +3764,47 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used.",
+      "html": "A <strong>prescriptive</strong> grammar states how the language should be used; a <strong>descriptive</strong> grammar states how it is used; the classical grammarian stands between these attitudes.",
       "card": 5,
       "from": [
-        14
-      ]
-    },
-    {
-      "html": "The classical grammarian stands between these attitudes: he describes, because usage and authority are facts about how the best speakers and writers use the language, and he prescribes, because those facts give a standard by which a particular form can be judged.",
-      "card": 5,
-      "from": [
+        14,
         16
       ]
     },
     {
-      "html": "A form that begins as an error may become correct when educated speakers and writers adopt it, as words change their meaning by usage.",
-      "card": 6,
+      "html": "A form that begins as an error may become correct when educated speakers and writers adopt it; the grammarian judges a new usage by whether it has been accepted by the speakers and authors whose usage sets the standard.",
+      "card": 9,
       "from": [
-        17
-      ]
-    },
-    {
-      "html": "The grammarian judges a new usage by whether it has been accepted by the speakers and authors whose usage sets the standard, not by whether it agrees with the origin of the word.",
-      "card": 6,
-      "from": [
+        17,
         18
       ]
     },
     {
       "html": "Each kind of error has a corresponding license: a change in a single word allowed in verse is a metaplasm, a departure from the rules of construction made for a reason is a figure, and a word used for a reason in a sense not its own is a trope.",
-      "card": 7,
+      "card": 10,
       "from": [
         24
+      ]
+    },
+    {
+      "html": "Saussure distinguishes <i>langue</i>, the system of a language shared by its speakers, from <i>parole</i>, the particular acts of speaking in which the system is used.",
+      "card": 6,
+      "from": [
+        26
+      ]
+    },
+    {
+      "html": "A language known by its speakers is such a disposition, so <i>parole</i> is the act and <i>langue</i> is the habit from which it proceeds.",
+      "card": 7,
+      "from": [
+        31
+      ]
+    },
+    {
+      "html": "The classical art knew both relations without naming them so: construction concerns the relations of words that occur together, and the paradigms of declension and conjugation set out the forms that can take one another’s place.",
+      "card": 8,
+      "from": [
+        39
       ]
     }
   ],
@@ -4411,28 +4502,38 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "In the twentieth century Noam Chomsky revived the idea of a universal grammar and claimed the Port-Royal grammar as a forerunner of his own theory, because it distinguished the sentence as spoken from the combination of judgments that underlies it.",
-      "card": 11,
+      "html": "In the twentieth century Noam Chomsky revived the idea of a universal grammar; Chomsky’s universal grammar is a theory of the mind.",
+      "card": [
+        11,
+        12
+      ],
       "from": [
-        39
+        39,
+        41
       ]
     },
     {
-      "html": "The scholastic account and Chomsky’s both hold that there is a grammar common to all languages, but they disagree about what that structure is and where it comes from.",
+      "html": "The scholastic account and Chomsky’s both hold that there is a grammar common to all languages, but they disagree about what that structure is and where it comes from; Chomsky proposed that universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>.",
       "card": [
-        12,
-        13
+        13,
+        14,
+        15
       ],
       "from": [
         43,
-        49
+        49,
+        57
       ]
     },
     {
-      "html": "But the question shows why grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are, and whether the answers hold for every language.",
-      "card": 14,
+      "html": "Grammar is a liberal art: it asks not only how a language is used but why the parts of speech, the accidents, and the constructions are what they are; typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them vary.",
+      "card": [
+        16,
+        17
+      ],
       "from": [
-        52
+        52,
+        66
       ]
     }
   ],
@@ -5207,14 +5308,16 @@ window.__arsQuickRecitations = /*DATA*/{
       ]
     },
     {
-      "html": "Chinese is a tonal language: the pitch of the voice on a syllable distinguishes words that are otherwise alike; the traditional Chinese scholars came nearest to parts of speech in the distinction between <strong>full words</strong>, which name a thing or an action, and <strong>empty words</strong>, which do not name but have a function in the sentence; in a line of classical Chinese the construction is shown by the order of the characters and by the empty words, not by endings, and time is shown by a word of time, not by a form of the verb; Ma Jianzhong was the first to make a list of parts of speech, in 1898; and each of the five traditions arose to keep and understand a classical language and its texts, but they differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.",
+      "html": "Chinese is a tonal language: the pitch of the voice on a syllable distinguishes words that are otherwise alike; the traditional Chinese scholars came nearest to parts of speech in the distinction between <strong>full words</strong>, which name a thing or an action, and <strong>empty words</strong>, which do not name but have a function in the sentence; in a line of classical Chinese the construction is shown by the order of the characters and by the empty words, not by endings, and time is shown by a word of time, not by a form of the verb; Ma Jianzhong was the first to make a list of parts of speech, in 1898; each of the five traditions arose to keep and understand a classical language and its texts, but they differ in the number of the parts of speech, in where they place meaning, and in how they explain construction; since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics; and grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.",
       "card": [
         51,
         52,
         53,
         54,
         55,
-        56
+        56,
+        57,
+        58
       ],
       "from": [
         187,
@@ -5223,215 +5326,9 @@ window.__arsQuickRecitations = /*DATA*/{
         198,
         201,
         205,
-        208
-      ]
-    }
-  ],
-  "xi.modern": [
-    {
-      "html": "Since the late Middle Ages, language has been studied in three principal ways: the classical art asks why grammar is as it is, philology asks what an author actually wrote, and modern linguistics asks how a language works as a system; the modists held that the mode of signifying is a real property of the word, but William of Ockham answered that different words simply signify in different ways; a science of the modes in the word loses its subject, but the art of grammar does not.",
-      "card": [
-        1,
-        2
-      ],
-      "from": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7,
-        9
-      ]
-    },
-    {
-      "html": "Speculative grammar was not so much refuted as abandoned: the humanists returned to the grammar of usage and of the classical authors, and the question why the parts of speech and the accidents are what they are ceased to be asked by grammarians until the general grammars of the seventeenth century; the general grammarians answered it from the mind rather than from the modes of being, so the idea of a universal grammar survived.",
-      "card": [
-        3,
-        4
-      ],
-      "from": [
-        11,
-        12,
-        14,
-        17,
-        18
-      ]
-    },
-    {
-      "html": "In 1786 Sir William Jones observed that Sanskrit, Greek, and Latin must have sprung from some common source; in the nineteenth century comparative grammar became the principal form of the study of language, and the nineteenth century discovered that languages have histories and change according to regular laws; Boethius of Dacia answered that there is a true science of things that come to be and pass away, so the classical account can admit that languages change, as long as the change follows causes that can be known.",
-      "card": [
-        5,
-        6,
-        7
-      ],
-      "from": [
-        19,
-        23,
-        26,
-        28,
-        29,
-        30
-      ]
-    },
-    {
-      "html": "Humboldt and the Schlegels classified languages by how they build words; Saussure, usually counted the founder of modern linguistics, distinguishes <i>langue</i>, the system of a language shared by its speakers, from <i>parole</i>, the particular acts of speaking in which the system is used; Saussure describes the linguistic sign as the union of a <strong>signifier</strong>, a sound-image, and a <strong>signified</strong>, a concept; the bond between signifier and signified is arbitrary, and the classical tradition agrees that words signify by imposition, not by nature.",
-      "card": [
-        8,
-        9,
-        10
-      ],
-      "from": [
-        33,
-        35,
-        36,
-        39,
-        41,
-        42
-      ]
-    },
-    {
-      "html": "A <strong>synchronic</strong> study describes a language as a system at one time, and a <strong>diachronic</strong> study describes how a language changes through time; the value of a sign comes from its differences from the other signs of the system; Saussure distinguished <strong>syntagmatic</strong> from <strong>associative</strong> relations; the classical tradition can accept the distinction between <i>langue</i> and <i>parole</i>, because <i>parole</i> is the act and <i>langue</i> is the habit from which it proceeds; and if the concept is a formal sign, then signification cannot end in the concept, so through the concept the word signifies the thing.",
-      "card": [
-        11,
-        12,
-        13,
-        14,
-        15
-      ],
-      "from": [
-        45,
-        49,
-        52,
-        53,
-        54,
-        56,
-        58,
-        64,
-        65
-      ]
-    },
-    {
-      "html": "Bloomfield sought to describe languages by the observable forms of speech and set meaning aside as far as possible; Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language, and such a grammar is called <strong>generative</strong>; a generative grammar divides the sentence into its constituents by <strong>phrase-structure rules</strong>, and Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; Chomsky also distinguished a speaker’s <strong>competence</strong> from his <strong>performance</strong>, and the <strong>deep structure</strong> of a sentence from its <strong>surface structure</strong>.",
-      "card": [
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "from": [
-        66,
-        67,
-        70,
-        74,
-        77,
-        80,
-        82
-      ]
-    },
-    {
-      "html": "Chomsky argued that the structure common to all languages must be part of the human mind from birth, so his universal grammar is a theory of the mind, and universal grammar consists of <strong>principles</strong>, which hold for every language, and <strong>parameters</strong>; the minimalist program seeks to reduce universal grammar to as few operations as possible, and its central operation, <strong>Merge</strong>, recalls Thomas of Erfurt’s doctrine that every construction joins two words; generative grammar asks what the mind must contain to acquire any language, whereas the classical art asks why the categories of language are what they are.",
-      "card": [
-        21,
-        22,
-        23,
-        24
-      ],
-      "from": [
-        84,
-        85,
-        88,
-        92,
-        93,
-        94,
-        98
-      ]
-    },
-    {
-      "html": "Tesnière describes the sentence as a set of words depending on words, and his dependency grammar is the modern heir of the medieval doctrine of the dependent and the terminant; in these modern systems the verb is usually the root of the sentence, whereas Thomas of Erfurt makes the verb depend on its subject and object; so modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.",
-      "card": [
-        25,
-        26,
-        27
-      ],
-      "from": [
-        99,
-        100,
-        104,
-        109
-      ]
-    },
-    {
-      "html": "Greenberg classified languages by the order of subject, verb, and object, and many of his universals are <strong>implicational</strong>: they state that if a language has one property, it has another; modern typology refines the classification of Humboldt and the Schlegels; the relations of doer, thing done, and the one who undergoes are present in every language, but languages group them differently in their endings; an <strong>absolute universal</strong> holds for every known language, but few have been found.",
-      "card": [
-        28,
-        29,
-        30,
-        31
-      ],
-      "from": [
-        110,
-        111,
-        114,
-        123,
-        125
-      ]
-    },
-    {
-      "html": "Languages differ in which accidents they mark, and typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary; <strong>functional</strong> accounts of grammar explain the forms of a language by the uses to which language is put, and <strong>formal</strong> accounts describe the forms of a language apart from their uses; a sentence usually begins with the <strong>theme</strong> and continues with the <strong>rheme</strong>; Halliday held that every clause serves three functions at once; the <strong>semantic roles</strong> of modern theories closely resemble Pāṇini’s kārakas; and formal and functional accounts answer different questions.",
-      "card": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38
-      ],
-      "from": [
-        130,
-        135,
-        137,
-        138,
-        140,
-        143,
-        149,
-        151,
-        153
-      ]
-    },
-    {
-      "html": "Austin distinguished <strong>performatives</strong>, which perform an action, from <strong>constatives</strong>, which are true or false, and argued that every utterance performs <strong>locutionary</strong>, <strong>illocutionary</strong>, and <strong>perlocutionary</strong> acts at once; Searle classified illocutionary acts into five kinds and called a sentence used to perform an act of another kind an <strong>indirect speech act</strong>; so the grammar of a language provides the means by which speakers perform their acts.",
-      "card": [
-        39,
-        40,
-        41,
-        42,
-        43
-      ],
-      "from": [
-        156,
-        159,
-        160,
-        161,
-        162,
-        164,
-        169,
-        175
-      ]
-    },
-    {
-      "html": "The twentieth century found things that the thirteenth did not, but the thirteenth century had the question why the categories of grammar are these categories; grammar is the art of speaking and writing correctly and of understanding what others have spoken and written, and the classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.",
-      "card": [
-        44,
-        45
-      ],
-      "from": [
-        176,
-        178,
-        179,
-        181
+        208,
+        210,
+        214
       ]
     }
   ]

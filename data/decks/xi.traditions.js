@@ -2,7 +2,7 @@
    Plan (ITEM-LIST.md): 56 panels (scribal lists 6, Sanskrit 13, Arabic 13, Hebrew 12, Chinese 12), 18 question points.
    30 Oct 2026 (xi.modern dissolution): 58 panels, 19 question points; the closing panels of xi.modern, had-lacked (with one
    opening sentence from xi.modern three-ways) and end (with its question q-end), follow traditions-compare; Full points 210 to 217
-   are xi.modern R1 (shortened to name the three ways) and R176 to R182. Full only: Quick has no card for them.
+   are xi.modern R1 (shortened to name the three ways) and R176 to R182. Quick Q12 covers them (Full 210 and 214), added by the Editor 30 Oct 2026.
    No exercise.
    Live material drawn on: DECKS.scribal (33), DECKS.vyakarana (34), DECKS.nahw (30), DECKS.xiaoxue (31), each cut to the
    target; DECKS.quaestiones for the question-point topics. Hebrew is new, built from the sources named in ITEM-LIST.md.
