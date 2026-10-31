@@ -838,7 +838,7 @@ ARS.decks['xi.traditions'] = {
   src: `General comparison.` },
 
 { id: 'had-lacked',
-  title: 'What each age had, and lacked',
+  title: 'What each age had and what each age lacked',
   body: `<p>Since the late Middle Ages, language has been studied in three principal ways: the <strong>classical art</strong>, <strong>philology</strong>, and <strong>modern linguistics</strong>. The twentieth century found things that the thirteenth did not: phonology, the study of sounds as a system of contrasts; a clear account of the structure of words; the grouping of words into constituents; the comparison of hundreds of languages and the discovery of their tendencies; and a serious study of how children acquire a language. Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.</p>
 <p>The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable. John of St. Thomas, writing after speculative grammar had been abandoned, still would not let signification stop at a concept with no further reach. So each age saw what the other did not, and the student who knows both can hold together the modern discoveries and the classical questions.</p>`,
   src: `General comparison, in paraphrase.` },
