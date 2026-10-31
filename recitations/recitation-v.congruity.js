@@ -1,4 +1,4 @@
-/* Recitation outline for v.congruity: 37 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for v.congruity: 41 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/v.congruity.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -17,7 +17,7 @@
     `A construction is <strong>complete</strong> when it produces a complete sense in the mind of the hearer, so that the hearer has been told something and waits for nothing more.`,
     `A construction can be congruous but incomplete (“the old bridge”), or congruous and complete, as a sentence is.`,
     `Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so.`,
-    `A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a dependent clause can be well formed and still not be complete by itself.`,
+    `A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a subordinate clause can be well formed and still not be complete by itself.`,
     `Of any group of words we may make one of three judgments: incongruous (the parts do not fit with one another, so the construction fails); congruous but incomplete (the parts fit, but the sense is not yet complete); and congruous and complete.`,
     `Incongruity is a failure of fit and incompleteness is a failure to finish, so they are two different ways in which a group of words can fall short of a sentence.`,
     `An incongruous construction is a solecism, an error in the arrangement of words, whereas an incomplete construction is not an error at all if it is used as a part of a larger sentence.`,
@@ -38,5 +38,9 @@
     `Logic also speaks of subject and predicate, but in a related and different sense: in logic they are the terms of a statement considered as true or false, joined by the copula “is.”`,
     `In grammar the subject of “Every man is mortal” is “every man” and the predicate is “is mortal,” and grammar asks only whether they are correctly arranged and complete.`,
     `So a false sentence is as good a sentence as a true one if its subject and predicate are correctly joined, and only logic asks which is true.`,
-    `The words of a sentence are joined by the relations of agreement, government, and dependence; the order of words and the larger units of the phrase, the clause, and the period are further subjects of construction.`
+    `The words of a sentence are joined by the relations of agreement, government, and dependence; the order of words and the larger units of the phrase, the clause, and the period are further subjects of construction.`,
+    `Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called <strong>generative</strong>.`,
+    `Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, since a sentence can be grammatical though it makes no sense.`,
+    `The classical grammarians likewise distinguished congruity from truth, so that a sentence can be congruous though false.`,
+    `The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, one adhering as a quality and the other bearing it, whatever the words mean, so for them grammar is never wholly independent of signification.`
   ],

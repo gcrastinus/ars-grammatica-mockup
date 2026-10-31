@@ -35,7 +35,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 13. A construction is **complete** when it produces a complete sense in the mind of the hearer, so that the hearer has been told something and waits for nothing more.
 14. A construction can be congruous but incomplete (“the old bridge”), or congruous and complete, as a sentence is.
 15. Thomas of Erfurt says that completeness requires a subject and a verb joined together, because a noun alone or a verb alone does not yet say that anything is or is not so.
-16. A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a dependent clause can be well formed and still not be complete by itself.
+16. A construction can have a subject and a verb and still be incomplete, because a word such as “if” leaves the sense unfinished; so a subordinate clause can be well formed and still not be complete by itself.
 17. Of any group of words we may make one of three judgments: incongruous (the parts do not fit with one another, so the construction fails); congruous but incomplete (the parts fit, but the sense is not yet complete); and congruous and complete.
 18. Incongruity is a failure of fit and incompleteness is a failure to finish, so they are two different ways in which a group of words can fall short of a sentence.
 19. An incongruous construction is a solecism, an error in the arrangement of words, whereas an incomplete construction is not an error at all if it is used as a part of a larger sentence.
@@ -57,6 +57,10 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 35. In grammar the subject of “Every man is mortal” is “every man” and the predicate is “is mortal,” and grammar asks only whether they are correctly arranged and complete.
 36. So a false sentence is as good a sentence as a true one if its subject and predicate are correctly joined, and only logic asks which is true.
 37. The words of a sentence are joined by the relations of agreement, government, and dependence; the order of words and the larger units of the phrase, the clause, and the period are further subjects of construction.
+38. Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called **generative**.
+39. Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, since a sentence can be grammatical though it makes no sense.
+40. The classical grammarians likewise distinguished congruity from truth, so that a sentence can be congruous though false.
+41. The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, one adhering as a quality and the other bearing it, whatever the words mean, so for them grammar is never wholly independent of signification.
 
 ## Agreement (*concordantia*) (`v.agreement`)
 

@@ -1,5 +1,6 @@
 /* V.1 Congruity [v.congruity]
    Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions.
+   30 Oct 2026: 10 panels; panel syntactic-structures moved from xi.modern (A6).
    Live material drawn on: DECKS.oratio (the arrangement of words, Priscian's definition, suppositum and appositum, the four
    causes, grammar's subject and logic's), DECKS.cong (two conditions, why the verb completes, three judgments),
    DECKS.congtruth (congruity and truth, the four cases). */
@@ -47,7 +48,11 @@ ARS.decks['v.congruity'] = {
     `Logic also speaks of subject and predicate, but in a related and different sense: in logic they are the terms of a statement considered as true or false, joined by the copula “is.”`,
     `In grammar the subject of “Every man is mortal” is “every man” and the predicate is “is mortal,” and grammar asks only whether they are correctly arranged and complete.`,
     `So a false sentence is as good a sentence as a true one if its subject and predicate are correctly joined, and only logic asks which is true.`,
-    `The words of a sentence are joined by the relations of agreement, government, and dependence; the order of words and the larger units of the phrase, the clause, and the period are further subjects of construction.`
+    `The words of a sentence are joined by the relations of agreement, government, and dependence; the order of words and the larger units of the phrase, the clause, and the period are further subjects of construction.`,
+    `Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called <strong>generative</strong>.`,
+    `Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, since a sentence can be grammatical though it makes no sense.`,
+    `The classical grammarians likewise distinguished congruity from truth, so that a sentence can be congruous though false.`,
+    `The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, one adhering as a quality and the other bearing it, whatever the words mean, so for them grammar is never wholly independent of signification.`
   ],
   panels: [
 
@@ -143,6 +148,26 @@ ARS.decks['v.congruity'] = {
       answer: 3,
       explain: `Grammar asks whether the sentence is congruous and complete; logic asks whether what it says is true.` }
   ]} },
+
+{ id: 'syntactic-structures',
+  title: 'Chomsky: a grammar that generates',
+  body: `<p>A speaker of English knows at once that “The guests arrived” is an English sentence and that “Arrived guests the” is not, though no one taught a rule that decides it. In <i>Syntactic Structures</i> (1957) Noam Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones. Such a grammar is called <strong>generative</strong>. Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, and gave the example “Colorless green ideas sleep furiously,” which is grammatical though it makes no sense, whereas “Furiously sleep ideas green colorless” is not grammatical (<i>Syntactic Structures</i>, ch. 2).</p>
+<p>We saw in Section V that the classical grammarians distinguished congruity from truth: “The chimaera runs” is congruous, though false. Chomsky’s example makes a similar point, that grammatical correctness is distinct from sense. But the modists would add that “Colorless green ideas” is congruous, because “colorless” and “green” signify as qualities that adhere to something, and “ideas” signifies as a thing that can bear them. These are modes of signifying, and the words fit one another by those modes, whatever the words happen to mean. So for them grammar is never wholly independent of signification, since the modes of signifying, like the fact that “ideas” is a noun and plural, etc., are themselves a kind of signifying.</p>`,
+  src: `Chomsky, <i>Syntactic Structures</i> (1957), ch. 2; the example sentence quoted.`,
+  qp: { id: 'q-syntactic-structures', variants: [
+    { prompt: `Why is “Square silence drinks the morning” grammatical?`,
+      options: [`It states something that is true`, `It has a clear sense that any reader grasps`, `It contains no verb and no subject`, `Its words are correctly constructed`],
+      answer: 3,
+      explain: `The adjective modifies its noun, the verb agrees with its subject, and the verb has an object, so the sentence is correctly constructed, although it makes no sense.` },
+    { prompt: `Why is “Square silence drinks the morning” meaningless?`,
+      options: [`It has an error of construction in it`, `It lacks a subject`, `Its words cannot be joined in sense`, `Its verb is in the wrong tense`],
+      answer: 2,
+      explain: `Silence cannot be square or drink anything, so the words, though correctly constructed, do not make a sense that could be true or false.` },
+    { prompt: `Which classical distinction does Chomsky’s example most resemble?`,
+      options: [`Literal and figurative sense`, `Congruity and truth`, `Barbarism and solecism`, `Noun and verb`],
+      answer: 1,
+      explain: `The classical grammarians held that “The chimaera runs” is congruous though false; Chomsky’s example likewise separates grammatical correctness from sense. The modists would add that congruity follows modes of signifying taken from meaning.` }
+  ] } },
 
 { id: 'suppositum',
   title: 'What the sentence is about, and what is said of it',
