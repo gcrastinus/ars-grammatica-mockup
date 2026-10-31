@@ -213,20 +213,26 @@ Verification sources for this round (17 Oct 2026): the Latin of Donatus (*Ars ma
 
 | Work | Passage | Translator / edition | Deck / panel | Status |
 |---|---|---|---|---|
-| *Materials for the Sumerian Lexicon* IV; Black, *Sumerian Grammar in Babylonian Theory* | OBGT, NBGT; *Ea*, *Diri*, *ḪAR-ra = ḫubullu* | — | xi.traditions / scribal panels | paraphrase; forms from the live app (lugal = šarru; KA readings; ba-ši-ŋen = ittalakšum) |
-| Yāska, *Nirukta* | I.1 (*bhāvapradhānam ākhyātam*, *sattvapradhānāni nāmāni*) | Lakshman Sarup for reference | xi.traditions / yaska | Sanskrit in transliteration; English in substance |
-| Pāṇini, *Aṣṭādhyāyī* | 1.4.14 (*suptiṅantaṃ padam*); 1.4.23–55 (kārakas) | S. C. Vasu for reference | xi.traditions | transliteration; English in substance |
-| Patañjali, *Mahābhāṣya*, Paspaśāhnika | *rakṣohāgamalaghvasaṃdehāḥ prayojanam* | S. D. Joshi and J. A. F. Roodbergen (1986) for reference | xi.traditions / patanjali | transliteration; English in substance |
-| Bhartṛhari, *Vākyapadīya* | I | K. A. Subramania Iyer for reference | xi.traditions / bhartrhari | paraphrase |
-| Sībawayh, *al-Kitāb* | ch. 1 (*fa-l-kalimu smun wa-fiʿlun wa-ḥarfun …*) | no published English translation of the passage | xi.traditions / three-parts | transliteration; English in substance |
-| al-Zajjājī, *al-Īḍāḥ fī ʿilal al-naḥw* | three kinds of reason | Kees Versteegh (1995) for reference | xi.traditions / zajjaji | paraphrase |
-| Saadia; Menahem; Dunash; Ḥayyūj; Ibn Janāḥ | — | no complete published English translations | xi.traditions / Hebrew panels | paraphrase |
-| David Kimḥi, *Mikhlol* | grammar part | William Chomsky (1952) | xi.traditions / kimhi | paraphrase. **Changed** under REVISION-GUIDE M: the translator's name and the family link to Noam Chomsky were removed from the card text and kept in the source line (a question for Timothy whether the family link should return as a historical fact; **resolved**, Timothy (Oct 17): keep it. The card text now says, without naming him as translator, that the Hebrew scholar William Chomsky, who wrote on Kimḥi’s grammar, was the father of Noam Chomsky, whose early work included the morphophonemics of Modern Hebrew) |
-| Reuchlin, *De rudimentis Hebraicis* (1506) | — | — | xi.traditions / hebraists | named only |
-| David Daiches, *The King James Version of the English Bible* (1941) | — | — | xi.traditions / hebraists | **added** under L.5 as the source for Kimḥi's influence on the King James translators; the claim was narrowed to what Daiches is reported to have argued (the card now says "argued," not "showed," 17 Oct) (that the translators often followed Kimḥi's interpretations, directly and through the Latin versions of the Christian Hebraists). **Verified at second hand** only (the encyclopedia article on Kimḥi cites Daiches for this); Daiches's book itself was not reached |
-| *Erya*; Xu Shen, *Shuowen jiezi* (postface, six writings); Lu Fayan, *Qieyun* | — | — | xi.traditions / Chinese panels | paraphrase |
-| Confucius, *Analects* | I.1 | James Legge | xi.traditions / analects | **verified** (Legge's text as reprinted by Standard Ebooks and Project Gutenberg #4094, found by an exact-phrase search). **Changed**: Legge's name removed from the card text (REVISION-GUIDE M) |
-| Ma Jianzhong, *Mashi wentong* (1898) | — | — | xi.traditions / mashi | paraphrase |
+| *Materials for the Sumerian Lexicon* IV; Black, *Sumerian Grammar in Babylonian Theory* | OBGT, NBGT; *Ea*, *Diri*, *ḪAR-ra = ḫubullu* | — | xi.neareast / scribal panels | paraphrase; forms from the live app (lugal = šarru; KA readings; ba-ši-ŋen = ittalakšum) |
+| Plato, *Philebus* | 18b–d (Theuth: “he assigned to them all a single science and called it grammar”) | H. N. Fowler (Loeb, 1925), on Perseus | xi.neareast / eg-school | **quoted, verified**; added 31 Oct 2026 at the split of xi.traditions (Timothy approved quoting it) |
+| Plato, *Phaedrus* | 274c–275b (Theuth and Thamus) | — | xi.neareast / eg-school | paraphrase |
+| Gardiner, *Egyptian Grammar* (3rd ed., 1957); Allen, *Middle Egyptian* (2nd ed., 2010) | sections and chapters as on each card | — | xi.neareast / Egyptian panels | paraphrase; letters written dj, kh, tj, 3 (card eg-signs) |
+| Gardiner, *Ancient Egyptian Onomastica* (1947); Posener on the *Kemit* (1951), via UCL Digital Egypt and Kaper (2010) | — | — | xi.neareast / eg-school | paraphrase |
+| Horapollo, *Hieroglyphica* | — | — | xi.neareast / eg-determinatives | paraphrase |
+| Johnson, *Thus Wrote ʿOnchsheshonqy*; Rosetta Stone (BM EA 24); Champollion, *Lettre à M. Dacier* (1822), *Précis* (1824); Lambdin; Sidarus, “Le modèle arabe en grammaire copte” (*HEL* 42.1, 2020) | — | — | xi.neareast / eg-demotic-coptic | paraphrase |
+| Yāska, *Nirukta* | I.1 (*bhāvapradhānam ākhyātam*, *sattvapradhānāni nāmāni*) | Lakshman Sarup for reference | xi.sanskrit / yaska | Sanskrit in transliteration; English in substance |
+| Pāṇini, *Aṣṭādhyāyī* | 1.4.14 (*suptiṅantaṃ padam*); 1.4.23–55 (kārakas) | S. C. Vasu for reference | xi.sanskrit | transliteration; English in substance |
+| Patañjali, *Mahābhāṣya*, Paspaśāhnika | *rakṣohāgamalaghvasaṃdehāḥ prayojanam* | S. D. Joshi and J. A. F. Roodbergen (1986) for reference | xi.sanskrit / patanjali | transliteration; English in substance |
+| Bhartṛhari, *Vākyapadīya* | I | K. A. Subramania Iyer for reference | xi.sanskrit / bhartrhari | paraphrase |
+| Sībawayh, *al-Kitāb* | ch. 1 (*fa-l-kalimu smun wa-fiʿlun wa-ḥarfun …*) | no published English translation of the passage | xi.arabic / three-parts | transliteration; English in substance |
+| al-Zajjājī, *al-Īḍāḥ fī ʿilal al-naḥw* | three kinds of reason | Kees Versteegh (1995) for reference | xi.arabic / zajjaji | paraphrase |
+| Saadia; Menahem; Dunash; Ḥayyūj; Ibn Janāḥ | — | no complete published English translations | xi.hebrew / Hebrew panels | paraphrase |
+| David Kimḥi, *Mikhlol* | grammar part | William Chomsky (1952) | xi.hebrew / kimhi | paraphrase. **Changed** under REVISION-GUIDE M: the translator's name and the family link to Noam Chomsky were removed from the card text and kept in the source line (a question for Timothy whether the family link should return as a historical fact; **resolved**, Timothy (Oct 17): keep it. The card text now says, without naming him as translator, that the Hebrew scholar William Chomsky, who wrote on Kimḥi’s grammar, was the father of Noam Chomsky, whose early work included the morphophonemics of Modern Hebrew) |
+| Reuchlin, *De rudimentis Hebraicis* (1506) | — | — | xi.hebrew / hebraists | named only |
+| David Daiches, *The King James Version of the English Bible* (1941) | — | — | xi.hebrew / hebraists | **added** under L.5 as the source for Kimḥi's influence on the King James translators; the claim was narrowed to what Daiches is reported to have argued (the card now says "argued," not "showed," 17 Oct) (that the translators often followed Kimḥi's interpretations, directly and through the Latin versions of the Christian Hebraists). **Verified at second hand** only (the encyclopedia article on Kimḥi cites Daiches for this); Daiches's book itself was not reached |
+| *Erya*; Xu Shen, *Shuowen jiezi* (postface, six writings); Lu Fayan, *Qieyun* | — | — | xi.chinese / Chinese panels | paraphrase |
+| Confucius, *Analects* | I.1 | James Legge | xi.chinese / analects | **verified** (Legge's text as reprinted by Standard Ebooks and Project Gutenberg #4094, found by an exact-phrase search). **Changed**: Legge's name removed from the card text (REVISION-GUIDE M) |
+| Ma Jianzhong, *Mashi wentong* (1898) | — | — | xi.chinese / mashi | paraphrase |
 | Boethius of Dacia, *Modi significandi* | qq. 2, 4 | no complete published English translation (McDermott abridgement for reference) | xi.modern / three-ways, boethius-change | paraphrase; question numbers **still unverified** (the edition, CPhD IV, was not reachable) |
 | Sir William Jones, "Third Anniversary Discourse" (1786) | the "common source" passage | — | xi.modern / jones | paraphrase (the famous wording not quoted) |
 | Saussure, *Cours* | Introduction; I.1, I.3; II.4–5 | Wade Baskin (1959) for reference | xi.modern | paraphrase |
@@ -249,7 +255,7 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Macaulay, "Lord Clive" | v.clause / noun-clause | **verified**, word for word | *Critical and Historical Essays*, vol. 1 (Project Gutenberg #2332, via GITenberg) |
 | Johnson, *Rasselas*, ch. 11 | v.clause | **verified** as printed in the cards (no comma before "and," "everywhere" as one word) | ed. Henry Morley (Cassell, 1889; Project Gutenberg #652), ch. XI. The 1759 text **unreachable** |
 | Johnson, Preface to the *Dictionary* | vi.usage / prescribe-describe | **verified** (the paraphrase matches: examples and authorities from good writers; no lexicographer can "embalm his language") | Project Gutenberg #5430 (via GITenberg) |
-| Legge, *Analects* I.1 | xi.traditions / analects | **verified** first-hand | Standard Ebooks, *The Analects* tr. James Legge (GitHub source) |
+| Legge, *Analects* I.1 | xi.chinese / analects | **verified** first-hand | Standard Ebooks, *The Analects* tr. James Legge (GitHub source) |
 | Racine, *Phèdre* I.1.1 | ii.meter / three-principles | **corrected**: "pris: je pars" → "pris, je pars" | first edition (1677) as encoded by FreDraCor (racine-phedre-77), and FreDraCor's standard text; both read *Le dessein en est pris, je pars, cher Théramène,* |
 | Priscian, *Inst.* II: the species of the noun | iii.figure / species | **corrected**: Priscian's term for the noun's first species is *principalis*, not *primitiva* (he uses *primitiva* for the verb, VIII), and the locus is Book II, not IV. Card: "(*prīmitīva*) … (*Institutiones grammaticae* IV, in paraphrase)" → "(*principālis*) … (*Institutiones grammaticae* II, in paraphrase)". His examples are *mons*, *montanus*, as on the card | Hertz, GL 2.57 (CGL) |
 | Priscian, *Inst.* IV (derived nouns) | iv.derivation | **verified** (Book IV, *de denominativis*, treats the kinds of derived nouns) | GL 2.117 ff. (CGL) |
@@ -270,7 +276,7 @@ This table supersedes the status given above for the items it lists. **Verified*
 | Petrarch, *Seniles* XVI.1 | x.imitation / petrarch | **unreachable** | no Latin or English text on GitHub |
 | Cicero, *De optimo genere* 14, Hubbell's translation | x.translation / cicero | **unreachable** (the card quotes the Latin, which is verified) | Loeb in copyright; no copy reachable |
 | OED, "nice" | iv.etymology, vi.usage | **unreachable** (second-hand verification stands) | subscription resource |
-| Daiches, *The King James Version of the English Bible* (1941) | xi.traditions / hebraists | **unreachable**; "argued" kept | archive.org refused |
+| Daiches, *The King James Version of the English Bible* (1941) | xi.hebrew / hebraists | **unreachable**; "argued" kept | archive.org refused |
 
 **After Timothy's answers (17 Oct 2026, REVISION-GUIDE N):** vi.usage now says that Lowth allowed the final preposition in familiar style and preferred the other order only in the solemn style (from his well-known note on the relative; Lowth's text still **unreachable**, to be checked). Varro is cited by book only (*De lingua Latina* IX–X), so the section numbers no longer need checking. The reachable editions are the copy texts: *Logique* in the English translation of 1685, *Rasselas* in Morley's edition (1889).
 

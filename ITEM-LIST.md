@@ -571,6 +571,8 @@ The deck says what each exercise is, why the fable comes first, and why the exer
 
 XI is kept as planned: two large decks with no exercises. Its question points now have three variants each, as everywhere.
 
+*31 Oct 2026:* `xi.traditions` was split into five decks, XI.1 The Ancient Near East `[xi.neareast]` (19 cards, with thirteen new cards on Egyptian), XI.2 Sanskrit Grammar `[xi.sanskrit]` (13), XI.3 Arabic Grammar `[xi.arabic]` (13), XI.4 Hebrew Grammar `[xi.hebrew]` (12), and XI.5 The Chinese Study of the Character `[xi.chinese]` (15); the review xi.review has 34 items in five sets, one for each deck. The plan below is the plan of the old single deck.
+
 **XI.1 The Other Classical Traditions** `[xi.traditions]`. How the other classical grammars differ from the Greco-Latin art: the scribal lists, Sanskrit, Arabic, Hebrew, and Chinese.
 - Panels 56: Scribal lists 6; Sanskrit 13; Arabic 13; Hebrew 12; Chinese 12 · QP 18 · Exercise: no
 - Sources:
