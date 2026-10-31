@@ -56,12 +56,12 @@ ARS.exercises['v.review'] = {
   "mc-marked",
   "transform"
  ],
- "pool": 49,
+ "pool": 51,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 16,
+  "A": 17,
   "B": 17,
-  "C": 16
+  "C": 17
  },
  "limit": "Only what V.1 to V.10 teach.",
  "balancePerSet": {
@@ -317,6 +317,21 @@ ARS.exercises['v.review'] = {
    ],
    "answer": 1,
    "explain": "Because meaning could not be observed as forms can, they set it aside as far as possible and described each language by the distribution of its sounds and forms."
+  },
+  {
+   "id": "rv-A17",
+   "set": "A",
+   "deck": "v.order",
+   "type": "mc",
+   "prompt": "“Every language has vowels.” What kind of universal is this, in Comrie’s terms?",
+   "options": [
+    "A statistical universal",
+    "An implicational universal",
+    "A parameter",
+    "An absolute universal"
+   ],
+   "answer": 3,
+   "explain": "An absolute universal holds for every known language without exception; few have been found, and they are often very general, as this one is."
   },
   {
    "id": "rv-B01",
@@ -759,6 +774,21 @@ ARS.exercises['v.review'] = {
    ],
    "answer": 3,
    "explain": "Merge combines two elements at a time, which recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating."
+  },
+  {
+   "id": "rv-C17",
+   "set": "C",
+   "deck": "v.order",
+   "type": "mc",
+   "prompt": "What marks an ergative language?",
+   "options": [
+    "It has no subject at all in any of its sentences",
+    "Its intransitive subject is marked like an object",
+    "Every verb in it must take an object in the accusative",
+    "It has no case endings of any kind on its nouns"
+   ],
+   "answer": 1,
+   "explain": "An ergative language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one."
   }
  ]
 };

@@ -22,12 +22,12 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 31,
+ "pool": 29,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 10,
+  "A": 9,
   "B": 9,
-  "C": 12
+  "C": 11
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
@@ -170,21 +170,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Philology asks what an author wrote and how his language came to be what it was; the classical art asks why grammar is as it is, and modern linguistics asks how a language works as a system and what is common to all."
-  },
-  {
-   "id": "rxi-A15",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "“Every language has vowels.” What kind of universal is this, in Comrie’s terms?",
-   "options": [
-    "A statistical universal",
-    "An implicational universal",
-    "A parameter",
-    "An absolute universal"
-   ],
-   "answer": 3,
-   "explain": "An absolute universal holds for every known language without exception; few have been found, and they are often very general, as this one is."
   },
   {
    "id": "rxi-B01",
@@ -485,21 +470,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "The evidence a child hears is too poor to account for what the child comes to know, Chomsky argued, so the structure common to all languages must be part of the mind from birth."
-  },
-  {
-   "id": "rxi-C15",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What marks an ergative language?",
-   "options": [
-    "It has no subject at all in any of its sentences",
-    "Its intransitive subject is marked like an object",
-    "Every verb in it must take an object in the accusative",
-    "It has no case endings of any kind on its nouns"
-   ],
-   "answer": 1,
-   "explain": "An ergative language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one."
   }
  ]
 };

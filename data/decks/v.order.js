@@ -1,6 +1,7 @@
 /* V.5 Order (ordo) [v.order]
    Plan (ITEM-LIST.md): 11 panels, 6 question points: 2 short analysis questions and 1 on typology (placeholders: qpTodo;
-   to be written). Two panels (typology-1, typology-2) give the early mention of typology and point ahead to XI.2.
+   to be written). Two panels (typology-1, typology-2) give the early mention of typology; typology-2 now also carries Greenberg’s implicational universals and their question point,
+   followed by comrie and alignment, and theme-rheme follows emphasis. All four were moved from xi.modern on 30 Oct 2026 (A9): 14 panels, 7 question points.
    Live material drawn on: DECKS.typo (word order, case against order). Quintilian IX.4.23–32 checked against the Perseus
    text of Butler's translation. */
 window.ARS = window.ARS || {};
@@ -48,7 +49,22 @@ ARS.decks['v.order'] = {
     `In each language the order of words is a part of its grammar, and it must be learned as the endings of Latin must be learned.`,
     `In English order shows the construction, so a change of order is a change of meaning; in Latin the endings show the construction, so order can give emphasis, separate words for effect, and follow the rhythm of the sentence.`,
     `In both languages the first and last positions are emphatic, and in both there is a natural order that follows the dependences of the words.`,
-    `So the order of words is a part of construction, but not the whole of it, and the natural order is the order in which the relations of construction are easiest to see.`
+    `So the order of words is a part of construction, but not the whole of it, and the natural order is the order in which the relations of construction are easiest to see.`,
+    `Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the <strong>theme</strong>, and continues with what is new, called the <strong>rheme</strong>.`,
+    `So the choice of voice and order serves to place the known before the new.`,
+    `The Arabic distinction of topic and comment and the Latin placing of emphatic words first or last describe the same arrangement of a sentence for the hearer, which explains why the same thought is often expressed by different constructions in different contexts.`,
+    `Many of his universals are <strong>implicational</strong>: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).`,
+    `Such universals do not say that every language has a given property; they say how properties are related.`,
+    `They differ from the universals of the general grammarians, who sought properties present in every language, and typology has shown that implicational universals are far more common than absolute ones.`,
+    `Comrie distinguishes universals that hold without exception from those that hold for most languages.`,
+    `An <strong>absolute universal</strong> holds for every known language; few have been found, and they are often very general (every language has vowels).`,
+    `A <strong>statistical universal</strong> holds for most languages (the tendency of languages with the order subject, object, verb to have postpositions).`,
+    `A universal can be tested only on a sample of languages chosen from many families and regions, because languages that are related or neighbors share properties by inheritance or by contact.`,
+    `So the modern search for universals is a careful comparison of many languages, and its results are often tendencies rather than laws, which is a caution for any universal grammar, classical or modern.`,
+    `Latin marks the subject of every verb in the nominative and the object in the accusative.`,
+    `An <strong>ergative</strong> language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.`,
+    `The ergative pattern shows that the grouping of subject against object is one possibility among others.`,
+    `The relations of doer, thing done, and the one who undergoes are present in every language, but languages group them differently in their endings, so the facts of construction are common, whereas their marking varies.`
   ],
   panels: [
 
@@ -104,6 +120,12 @@ ARS.decks['v.order'] = {
       explain: `English order carries the construction, so moving the object before the verb would usually change the meaning: “Envoys sent Brutus” makes the envoys the senders. English gives the emphasis by other means, such as “It was envoys that …”.` }
   ]} },
 
+{ id: 'theme-rheme',
+  title: 'Theme and rheme',
+  body: `<p>Asked about a letter, we naturally answer “The letter was written by the clerk,” beginning with what has already been mentioned and ending with what is new. Linguists of the Prague School, beginning with Vilém Mathesius in the 1920s, observed that a sentence usually begins with what is already known or under discussion, called the <strong>theme</strong>, and continues with what is new, called the <strong>rheme</strong>. In “The letter was written by the clerk,” the letter is the theme and the clerk the new information; in “The clerk wrote the letter,” the clerk is the theme. So the choice of voice and order serves to place the known before the new.</p>
+<p>We will see in the study of the Arabic tradition in Section XI that the Arabic grammarians distinguished the topic (<i>mubtadaʾ</i>) from the comment (<i>khabar</i>), and we have seen that Latin places emphatic words first or last. The Prague account of theme and rheme describes the same arrangement of a sentence for the hearer, and it explains why the same thought is often expressed by different constructions in different contexts, as we will see with the choice of voice in Section X.</p>`,
+  src: `Mathesius and the Prague School, in paraphrase; Halliday, <i>An Introduction to Functional Grammar</i>, ch. 3.` },
+
 { id: 'latin-freedom',
   title: 'Latin order and the separation of words',
   body: `<p>Because Latin endings show which words belong together, Latin can separate words that are constructed together. An adjective may stand far from its noun, as in the fourth line of the <i>Aeneid</i>, <i>saevae memorem Iunonis ob iram</i>, which one English translation renders “stern Juno’s sleepless wrath.” Word for word it runs “of cruel, unforgetting, of Juno, because of, anger,” because <i>saevae</i> agrees with <i>Iunonis</i> and <i>memorem</i> with <i>iram</i>, and the words of the two pairs are interwoven. The separation of words that belong together is called <strong>hyperbaton</strong> (Greek, “stepping over”), and Quintilian counts it among the figures.</p>
@@ -154,7 +176,7 @@ ARS.decks['v.order'] = {
   title: 'Languages classed by their order',
   body: `<p>The same statement is put in a different order in different languages. English says “The fox sees the hen,” with the verb between subject and object; Latin usually says <i>vulpēs gallīnam videt</i>, with the verb last; and Welsh puts the verb first. Modern linguists have compared the usual order of words in many languages. The American linguist Joseph Greenberg, in a study of about thirty languages published in 1963, classed them by the usual order of subject (S), verb (V), and object (O) in a statement. The three common orders are these:</p>
 <p><strong>SVO</strong> (subject, verb, object), as in English and French.<br><strong>SOV</strong> (subject, object, verb), as in Latin in its usual order, in Japanese, and in Turkish.<br><strong>VSO</strong> (verb, subject, object), as in Classical Arabic, Biblical Hebrew, and Welsh.</p>
-<p>So English and Latin stand at two points of this classification. English has a fixed SVO order; Latin has a usual SOV order, which its endings free it to change. We will return to this classification, and to what it shows about the relation of languages to one another, in Section XI.</p>`,
+<p>So English and Latin stand at two points of this classification. English has a fixed SVO order; Latin has a usual SOV order, which its endings free it to change. We will return to this classification, and to what it shows about the relation of languages to one another, in the cards that follow and in Section VIII.</p>`,
   src: `Greenberg, “Some Universals of Grammar” (1963), in paraphrase.`,
   qp: { id: 'q-typology-1', variants: [
     { prompt: `What is the usual order of subject, verb, and object in a Japanese statement?`,
@@ -175,8 +197,36 @@ ARS.decks['v.order'] = {
   title: 'Facts that go together',
   body: `<p>English puts the verb before its object, as in “I read the book,” and it puts its prepositions before the noun, as in “in the house.” Japanese puts the verb after its object, as in <i>hon o yomu</i> (“book read,” that is, “I read the book”), and it puts its words of place after the noun, as in <i>ie ni</i> (“house in,” that is, “in the house”). The two facts are found together in many languages.</p>
 <p>Greenberg found that the order of subject, verb, and object tends to go together with other facts of order in this way. Languages in which the verb comes before the object usually have prepositions, placed before the noun, as English “in the house.” Languages in which the verb comes after the object usually have <strong>postpositions</strong>, placed after the noun, as Japanese <i>ie ni</i>. He stated such regularities as “universals,” for example that languages whose usual order is VSO always have prepositions (Universal 3).</p>
-<p>Latin is mixed: its usual order is SOV, but it has prepositions, and a few postpositions in fixed phrases such as <i>mēcum</i> (“with me”) and <i>honōris causā</i> (“for the sake of honor”). So the facts of order come in bundles, but the bundles are tendencies, not rules without exception. Whether these regularities show something common to all human languages is a question we will take up in Section XI.</p>`,
-  src: `Greenberg, “Some Universals of Grammar” (1963), Universals 3–4, in paraphrase.` },
+<p>Many of Greenberg’s universals are <strong>implicational</strong>: they state that if a language has one property, it has another.</p>
+<p>Such universals do not say that every language has a given property; they say how properties are related. This is a different kind of universal from those of the general grammarians, who sought properties present in every language, such as the distinction of noun and verb. Typology, the comparison of languages by their structure, has shown that implicational universals are far more common than absolute ones.</p>
+<p>Latin is mixed: its usual order is SOV, but it has prepositions, and a few postpositions in fixed phrases such as <i>mēcum</i> (“with me”) and <i>honōris causā</i> (“for the sake of honor”). So the facts of order come in bundles, but the bundles are tendencies, not rules without exception. Whether these regularities show something common to all human languages is a question we will take up in Section VIII.</p>`,
+  src: `Greenberg, “Some Universals of Grammar” (1963), Universals 3–4, in paraphrase.`,
+  qp: { id: 'q-universals', variants: [
+    { prompt: `“In languages with prepositions, the genitive usually follows its noun.” What kind of universal is this?`,
+      options: [`An implicational universal`, `An absolute universal`, `A parameter of the Latin language alone`, `A rule of etymology`],
+      answer: 0,
+      explain: `It states that if a language has one property (prepositions), it has another (the genitive after its noun), so it is implicational.` },
+    { prompt: `What does an implicational universal state?`,
+      options: [`Every language without exception has the property`, `No two languages share a property`, `Every language has prepositions`, `One property in a language implies another`],
+      answer: 3,
+      explain: `An implicational universal does not say that every language has a property; it says how properties go together.` },
+    { prompt: `How does an implicational universal differ from a universal sought by the general grammarians?`,
+      options: [`It holds only for Latin and Greek`, `It concerns meaning rather than form`, `It relates properties to each other`, `It was proposed before the modists`],
+      answer: 2,
+      explain: `The general grammarians sought properties present in every language, such as the distinction of noun and verb; an implicational universal states how properties are related.` }
+  ] } },
+
+{ id: 'comrie',
+  title: 'Absolute and statistical universals',
+  body: `<p>Every known language has vowels, but not every language whose verb comes last has postpositions, although most do. Bernard Comrie, in <i>Language Universals and Linguistic Typology</i>, distinguishes universals that hold without exception from those that hold for most languages. An <strong>absolute</strong> universal holds for every known language; few such universals have been found, and they are often very general, such as that every language has vowels. A <strong>statistical</strong> universal holds for most languages, as the tendency of SOV languages to have postpositions does.</p>
+<p>Comrie also stresses that a universal can be tested only on a sample of languages chosen from many families and regions, because languages that are related or neighbors share properties by inheritance or by contact. So the modern search for universals is a careful comparison of many languages, and its results are often tendencies rather than laws. This is a caution for any universal grammar, classical or modern.</p>`,
+  src: `Comrie, <i>Language Universals and Linguistic Typology</i>, ch. 1, in paraphrase.` },
+
+{ id: 'alignment',
+  title: 'Case, order, and alignment',
+  body: `<p>Languages differ in how they mark the subject and the object. Latin marks the subject of every verb in the nominative and the object in the accusative: <i>avis volat</i> (“the bird flies”), <i>avis vermem capit</i> (“the bird catches the worm”). Some languages, such as Basque and, according to modern scholars, Sumerian, mark the subject of a transitive verb with a special ending but treat the subject of an intransitive verb like the object of a transitive one. Such languages are called <strong>ergative</strong>.</p>
+<p>The ergative pattern shows that the grouping of subject against object, which seems natural to a speaker of Latin or English, is one possibility among others. The relations of doer, thing done, and the one who undergoes are present in every language, as Pāṇini’s kārakas, which we will meet in Section XI, and the Latin cases both show; but languages group them differently in their endings. So the facts of construction are common, whereas their marking varies.</p>`,
+  src: `Comrie, <i>Language Universals and Linguistic Typology</i>, ch. 6, in paraphrase.` },
 
 { id: 'german-french',
   title: 'Order in German and French',

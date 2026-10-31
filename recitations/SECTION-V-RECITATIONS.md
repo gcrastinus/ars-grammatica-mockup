@@ -10,13 +10,13 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Agreement (*concordantia*) (`v.agreement`) | 33 | 742 |
 | Government (*regimen*) (`v.government`) | 31 | 638 |
 | Dependence (`v.dependence`) | 43 | 1109 |
-| Order (*ordo*) (`v.order`) | 38 | 972 |
+| Order (*ordo*) (`v.order`) | 53 | 1352 |
 | The Phrase (`v.phrase`) | 23 | 661 |
 | The Clause (`v.clause`) | 47 | 1202 |
 | The Period (`v.period`) | 26 | 691 |
 | Mood and Voice in Construction (`v.mood`) | 37 | 870 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **351** | **8824** |
+| **Section V, whole section** | **366** | **9204** |
 
 ## Congruity (`v.congruity`)
 
@@ -212,12 +212,27 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 30. Languages in which the verb comes before the object usually have prepositions, and languages in which the verb comes after the object usually have **postpositions**, placed after the noun.
 31. Greenberg stated such regularities as universals, for example that languages whose usual order is VSO always have prepositions.
 32. Latin is mixed, with a usual SOV order but prepositions and a few postpositions in fixed phrases, so the facts of order come in bundles, but the bundles are tendencies, not rules without exception.
-33. In a German main clause the finite verb stands in the second place, whatever comes first, but in a dependent clause it goes to the end, so German order distinguishes main and dependent clauses.
+33. In a German main clause the finite verb stands in the second place, whatever comes first, but in a subordinate clause it goes to the end, so German order distinguishes main and subordinate clauses.
 34. French usually has SVO order, but a pronoun object stands before the verb, so French order depends on the part of speech of the object.
 35. In each language the order of words is a part of its grammar, and it must be learned as the endings of Latin must be learned.
 36. In English order shows the construction, so a change of order is a change of meaning; in Latin the endings show the construction, so order can give emphasis, separate words for effect, and follow the rhythm of the sentence.
 37. In both languages the first and last positions are emphatic, and in both there is a natural order that follows the dependences of the words.
 38. So the order of words is a part of construction, but not the whole of it, and the natural order is the order in which the relations of construction are easiest to see.
+39. Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the **theme**, and continues with what is new, called the **rheme**.
+40. So the choice of voice and order serves to place the known before the new.
+41. The Arabic distinction of topic and comment and the Latin placing of emphatic words first or last describe the same arrangement of a sentence for the hearer, which explains why the same thought is often expressed by different constructions in different contexts.
+42. Many of his universals are **implicational**: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).
+43. Such universals do not say that every language has a given property; they say how properties are related.
+44. They differ from the universals of the general grammarians, who sought properties present in every language, and typology has shown that implicational universals are far more common than absolute ones.
+45. Comrie distinguishes universals that hold without exception from those that hold for most languages.
+46. An **absolute universal** holds for every known language; few have been found, and they are often very general (every language has vowels).
+47. A **statistical universal** holds for most languages (the tendency of languages with the order subject, object, verb to have postpositions).
+48. A universal can be tested only on a sample of languages chosen from many families and regions, because languages that are related or neighbors share properties by inheritance or by contact.
+49. So the modern search for universals is a careful comparison of many languages, and its results are often tendencies rather than laws, which is a caution for any universal grammar, classical or modern.
+50. Latin marks the subject of every verb in the nominative and the object in the accusative.
+51. An **ergative** language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.
+52. The ergative pattern shows that the grouping of subject against object is one possibility among others.
+53. The relations of doer, thing done, and the one who undergoes are present in every language, but languages group them differently in their endings, so the facts of construction are common, whereas their marking varies.
 
 ## The Phrase (`v.phrase`)
 
