@@ -1,6 +1,6 @@
-/* Mood and Voice in Construction [v.ex.mood]  Exercise set opened from the Exercise button of v.mood. Written; 32 items in 2 levels.
+/* Mood and Voice in Construction [v.ex.mood]  Exercise set opened from the Exercise button of v.mood. Written; 35 items in 2 levels.
    LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize the uses of the moods, the infinitive, and the verbals (choose or sort). Level II: find and explain them in real sentences from Cicero, Caesar, and Vergil, and rewrite verbal phrases as clauses.
-   Level I (18), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   Level I (21), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
    "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
@@ -24,7 +24,10 @@ ARS.exercises['v.ex.mood'] = {
     "gerundive",
     "independent-subjunctive",
     "dependent-subjunctive",
-    "english"
+    "english",
+    "roles",
+    "functional",
+    "halliday"
    ]
   }
  ],
@@ -35,12 +38,12 @@ ARS.exercises['v.ex.mood'] = {
   "mc",
   "transform"
  ],
- "pool": 32,
+ "pool": 35,
  "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 12,
-  "B": 12,
-  "C": 8
+  "A": 13,
+  "B": 13,
+  "C": 9
  },
  "levels": {
   "pass": 1,
@@ -50,7 +53,7 @@ ARS.exercises['v.ex.mood'] = {
    "2": "Find and explain them in real Latin; rewrite verbal phrases as clauses."
   },
   "counts": {
-   "1": 18,
+   "1": 21,
    "2": 14
   }
  },
@@ -678,6 +681,54 @@ ARS.exercises['v.ex.mood'] = {
    "answer": 0,
    "explain": "<i>Ad</i> with the gerundive and its noun in the accusative shows what something tends toward: the things that serve to weaken their spirits.",
    "source": "Caesar, De Bello Gallico, Book I, chapter 1; text checked against Project Gutenberg eBook #218 (Caesar, De Bello Gallico I to IV)"
+  },
+  {
+   "id": "md-A09",
+   "set": "A",
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "In “The sailor cut the rope with a knife,” what semantic role does “knife” have?",
+   "options": [
+    "Agent",
+    "Instrument",
+    "Experiencer",
+    "Location"
+   ],
+   "answer": 1,
+   "explain": "The knife is that with which the action is done, so its role is the instrument. Latin expresses the same role by the ablative of means, as in <i>gladiō</i>, “with a sword.”",
+   "level": 1
+  },
+  {
+   "id": "md-B09",
+   "set": "B",
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "In “The letter was carried by the messenger,” what is “the messenger”?",
+   "options": [
+    "The subject and the agent",
+    "The agent, though not the subject",
+    "The subject, though not the agent",
+    "Neither the subject nor the agent"
+   ],
+   "answer": 1,
+   "explain": "The messenger does the carrying, so he is the agent; but “the letter” is the grammatical subject. So the semantic roles are distinct from subject and object.",
+   "level": 1
+  },
+  {
+   "id": "md-C09",
+   "set": "C",
+   "deck": "v.mood",
+   "type": "mc",
+   "prompt": "In Halliday’s account, which function of a clause decides whether it states, asks, or commands?",
+   "options": [
+    "The ideational",
+    "The interpersonal",
+    "The textual",
+    "None of these"
+   ],
+   "answer": 1,
+   "explain": "The interpersonal function establishes the relation between speaker and hearer, whether the clause states, asks, or commands. The ideational function represents things and events, and the textual joins the clause to the text around it.",
+   "level": 1
   }
  ]
 };

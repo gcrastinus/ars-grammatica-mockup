@@ -1,4 +1,4 @@
-/* Section Review: The Word and the Declinable Parts [iii.review-declinable]  Section review opened from its own button, after III.10. Written 45 items in three fixed sets. */
+/* Section Review: The Word and the Declinable Parts [iii.review-declinable]  Section review opened from its own button, after III.10. Written 48 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['iii.review-declinable'] = {
@@ -66,7 +66,7 @@ ARS.exercises['iii.review-declinable'] = {
  "limit": "Only what III.1 to III.10 teach; new questions, not reused from the question points.",
  "balancePerSet": {
   "iii.parts": 2,
-  "iii.reasons": 1,
+  "iii.reasons": 2,
   "iii.figure": 1,
   "iii.homonymy": 1,
   "iii.noun-1": 2,

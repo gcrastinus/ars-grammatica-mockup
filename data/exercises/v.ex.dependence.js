@@ -1,6 +1,6 @@
-/* Dependence [v.ex.dependence]  Exercise set opened from the Exercise button of v.dependence. Written; 41 items in 3 levels.
+/* Dependence [v.ex.dependence]  Exercise set opened from the Exercise button of v.dependence. Written; 44 items in 3 levels.
    LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize dependence (choose or sort). Level II: find the word on which another depends in short sentences, some from the King James Bible, Cicero, and Vergil. Level III: follow dependence through long real sentences from the King James Bible, Austen, Milton, Bunyan, Caesar, and Cicero.
-   Level I (21), Level II (10), Level III (10). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   Level I (24), Level II (10), Level III (10). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
    "levels": pass at Level II, mastery at Level III (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
@@ -23,7 +23,10 @@ ARS.exercises['v.ex.dependence'] = {
     "valency",
     "marking",
     "prepositional",
-    "together"
+    "together",
+    "dependency-today",
+    "dependency-compare",
+    "minimalism"
    ]
   }
  ],
@@ -33,12 +36,12 @@ ARS.exercises['v.ex.dependence'] = {
   "identify",
   "mc"
  ],
- "pool": 41,
+ "pool": 44,
  "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C. Level III: sets A, B.",
  "sets": {
-  "A": 17,
-  "B": 16,
-  "C": 8
+  "A": 18,
+  "B": 17,
+  "C": 9
  },
  "levels": {
   "pass": 2,
@@ -49,7 +52,7 @@ ARS.exercises['v.ex.dependence'] = {
    "3": "Follow dependence through long sentences from real authors."
   },
   "counts": {
-   "1": 21,
+   "1": 24,
    "2": 10,
    "3": 10
   }
@@ -1003,6 +1006,54 @@ ARS.exercises['v.ex.dependence'] = {
    ],
    "answer": 14,
    "source": "John Bunyan, The Pilgrim’s Progress, opening of the First Part; text checked against Project Gutenberg eBook #131 (The Pilgrim’s Progress)"
+  },
+  {
+   "id": "dp-A09",
+   "set": "A",
+   "deck": "v.dependence",
+   "type": "mc",
+   "prompt": "In a modern dependency analysis, as in Tesnière, which word is usually the root of “The legion crossed the river”?",
+   "options": [
+    "“legion”",
+    "“crossed”",
+    "“river”",
+    "“the”"
+   ],
+   "answer": 1,
+   "explain": "In the modern systems the verb is the root, and the subject and the object depend on it. Thomas of Erfurt draws the relation of verb and subject the other way, because the verb by its mode of signifying requires a subject.",
+   "level": 1
+  },
+  {
+   "id": "dp-B09",
+   "set": "B",
+   "deck": "v.dependence",
+   "type": "mc",
+   "prompt": "By the operation that Chomsky calls Merge, how is “guards the gate” built?",
+   "options": [
+    "“the” is joined to “gate,” and then “guards” is joined to “the gate”",
+    "All three words are joined at once",
+    "“guards” is joined to “the,” and then “gate” is added",
+    "The phrase is not built from its words"
+   ],
+   "answer": 0,
+   "explain": "Merge joins two elements at a time: first “the” and “gate” into “the gate,” then “guards” and “the gate” into “guards the gate.” Thomas of Erfurt likewise held that every construction joins two words, one depending and one terminating.",
+   "level": 1
+  },
+  {
+   "id": "dp-C09",
+   "set": "C",
+   "deck": "v.dependence",
+   "type": "mc",
+   "prompt": "On what do Thomas of Erfurt and Tesnière chiefly differ?",
+   "options": [
+    "Whether an adjective depends on its noun",
+    "The relation of the verb to its subject, and the reason for the dependences",
+    "Whether a construction joins two words",
+    "Whether a sentence contains dependences at all"
+   ],
+   "answer": 1,
+   "explain": "They agree on most dependences. Thomas finds the reason for a dependence in the modes of signifying, and Tesnière finds it in the structure of the sentence itself; and they draw the relation of verb and subject in opposite directions.",
+   "level": 1
   }
  ]
 };

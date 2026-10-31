@@ -1,4 +1,4 @@
-/* Section Review: Correctness and Errors [vi.review]  Section review opened from its own button, after VI.4. Written 45 items in three fixed sets. */
+/* Section Review: Correctness and Errors [vi.review]  Section review opened from its own button, after VI.4. Written 48 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vi.review'] = {

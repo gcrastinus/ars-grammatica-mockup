@@ -1,4 +1,4 @@
-/* Section Review: Word Formation and Etymology [iv.review]  Section review opened from its own button, after IV.3. Written 30 items in three fixed sets. */
+/* Section Review: Word Formation and Etymology [iv.review]  Section review opened from its own button, after IV.3. Written 36 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['iv.review'] = {
@@ -26,18 +26,18 @@ ARS.exercises['iv.review'] = {
  "types": [
   "mc"
  ],
- "pool": 34,
+ "pool": 36,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 12,
-  "B": 11,
-  "C": 11
+  "B": 12,
+  "C": 12
  },
  "limit": "Only what IV.1 to IV.3 teach; scaled to three decks (30 questions, three sets of 10; ITEM-LIST, rule 8).",
  "balancePerSet": {
-  "iv.derivation": 3,
+  "iv.derivation": 4,
   "iv.composition": 3,
-  "iv.etymology": 4
+  "iv.etymology": 5
  },
  "instr": "Choose the answer.",
  "items": [
@@ -550,6 +550,36 @@ ARS.exercises['iv.review'] = {
    ],
    "answer": 0,
    "explain": "Boethius answered that there is a true science of things that come to be and pass away, through the causes that always accompany them."
+  },
+  {
+   "id": "riv-B12",
+   "set": "B",
+   "deck": "iv.derivation",
+   "type": "mc",
+   "prompt": "The one ending <i>-ō</i> of Latin <i>amō</i> (“I love”) marks person, number, tense, mood, and voice at once. What type of language uses such endings?",
+   "options": [
+    "Isolating",
+    "Agglutinating",
+    "Fusional",
+    "Polysynthetic"
+   ],
+   "answer": 2,
+   "explain": "A fusional language joins several meanings in one ending, as Latin does. An agglutinating language adds a separate piece for each meaning, and an isolating language does not change the form of its words at all."
+  },
+  {
+   "id": "riv-C12",
+   "set": "C",
+   "deck": "iv.derivation",
+   "type": "mc",
+   "prompt": "Some languages mark on the verb whether the speaker saw what he reports, heard of it from others, or inferred it. What are such marks called?",
+   "options": [
+    "Classifiers",
+    "Evidentials",
+    "Dual numbers",
+    "Particles of emphasis"
+   ],
+   "answer": 1,
+   "explain": "Marks of how the speaker knows what he says are called evidentials. They are among the categories that the classical grammarians never met, and they show that the list of accidents is not fixed by one language."
   }
  ]
 };

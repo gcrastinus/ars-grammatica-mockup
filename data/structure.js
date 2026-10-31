@@ -23,13 +23,13 @@ ARS.structure = [
  { id:'i', roman:'I', latin:'De signo et voce significativa', name:'Sign and Significant Voice',
    gloss:'What a word is as a sign: imposed, signifying, and joined to other words.',
    items:[
-   { id:'i.sign', kind:'study', built:true, title:'Sign and Symbol', desc:'Natural and conventional signs, and the spoken word as a sign of what is in the mind.' },
+   { id:'i.sign', kind:'study', built:true, title:'Sign and Symbol', desc:'Natural and conventional signs, the spoken word as a sign of what is in the mind, and Saussure’s account of the sign.' },
    { id:'i.imposition', kind:'study', built:true, title:'Imposition', desc:'How does a sound come to signify by the will of those who first used it? What are first and second imposition?' },
    { id:'i.consignification', kind:'study', built:true, title:'Signification and Consignification', desc:'What does a word mean, and what does it signify along with that meaning: time and the other accidents, the mode of signifying, and the composition signified by the verb?' },
    { id:'i.syncategorematic', kind:'study', built:true, title:'Categorematic and Syncategorematic Words', desc:'Words that signify of themselves, and words such as “every” and “not” that signify only with other words.' },
-   { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, praying, calling, and expressing feeling, and why only the statement is true or false.' },
+   { id:'i.functions', kind:'study', built:true, title:'The Functions of Language', desc:'Stating, asking, commanding, praying, calling, and expressing feeling, and why only the statement is true or false, with the modern account of speech acts.' },
    { id:'i.ambiguity', kind:'study', built:true, title:'Ambiguity', desc:'How can one word or one construction have two senses, and how does the grammarian distinguish them?' },
-   { id:'i.review', kind:'review', built:true, title:'Section Review: Sign and Significant Voice', desc:'One hundred twenty questions on I.1 to I.6, in six sets of twenty that rotate, with every kind of question.' }
+   { id:'i.review', kind:'review', built:true, title:'Section Review: Sign and Significant Voice', desc:'One hundred twenty-six questions on I.1 to I.6, in six sets of twenty-one that rotate, with every kind of question.' }
  ]},
  { id:'ii', roman:'II', latin:'De materia orationis', name:'The Matter of Speech',
    gloss:'Voice, letter, and syllable, and how speech is written, punctuated, and measured.',
@@ -58,7 +58,7 @@ ARS.structure = [
    { id:'iii.verb-1', kind:'study-ex', built:true, title:'The Verb I: Quality, Mood, and Voice', desc:'The forms and moods of the verb, and active, passive, neuter, and deponent verbs.' },
    { id:'iii.verb-2', kind:'study-ex', built:true, title:'The Verb II: Tense, Person, Number, and Conjugation', desc:'How does the verb mark time, aspect, and person, and how are verbs conjugated?' },
    { id:'iii.participle', kind:'study-ex', built:true, title:'The Participle', desc:'The part of speech that shares in the noun and the verb, and its accidents.' },
-   { id:'iii.review-declinable', kind:'review', built:true, title:'Section Review: The Word and the Declinable Parts', desc:'Forty-five questions on III.1 to III.10, in three fixed sets of fifteen.' },
+   { id:'iii.review-declinable', kind:'review', built:true, title:'Section Review: The Word and the Declinable Parts', desc:'Forty-eight questions on III.1 to III.10, in three fixed sets of sixteen.' },
    { id:'iii.adverb', kind:'study', built:true, group:'The indeclinable parts', title:'The Adverb', desc:'The adverb and its accidents: signification, comparison, and figure.' },
    { id:'iii.preposition', kind:'study', built:true, title:'The Preposition', desc:'The preposition and its one accident, case, and its use in composition.' },
    { id:'iii.conjunction', kind:'study', built:true, title:'The Conjunction', desc:'The conjunction and its accidents: power, figure, and order.' },
@@ -72,10 +72,10 @@ ARS.structure = [
  { id:'iv', roman:'IV', latin:'De etymologia', name:'Word Formation and Etymology',
    gloss:'How words are derived and compounded, and what can be known of their origins.',
    items:[
-   { id:'iv.derivation', kind:'study', built:true, title:'Derivation', desc:'How are new words made from old ones by endings and changes of form?' },
+   { id:'iv.derivation', kind:'study', built:true, title:'Derivation', desc:'How are new words made from old ones by endings and changes of form, and how do languages differ in building words?' },
    { id:'iv.composition', kind:'study', built:true, title:'Composition', desc:'How are words joined to make compounds in English and Latin?' },
-   { id:'iv.etymology', kind:'study', built:true, title:'Etymology', desc:'The origin of words, ancient and comparative, and the cautions it requires.' },
-   { id:'iv.review', kind:'review', built:true, title:'Section Review: Word Formation and Etymology', desc:'Thirty questions on IV.1 to IV.3, in three fixed sets of ten.' }
+   { id:'iv.etymology', kind:'study', built:true, title:'Etymology', desc:'The origin of words, ancient and comparative, the discovery of the related languages, and the cautions it requires.' },
+   { id:'iv.review', kind:'review', built:true, title:'Section Review: Word Formation and Etymology', desc:'Thirty-six questions on IV.1 to IV.3, in three fixed sets of twelve.' }
  ],
  langBars:[
    { id:'iv', after:'cumul', heading:'The grammars of the particular languages' }
@@ -83,17 +83,17 @@ ARS.structure = [
  { id:'v', roman:'V', latin:'De constructione', name:'Construction',
    gloss:'Congruity, agreement, government, dependence, and order, from the phrase to the period.',
    items:[
-   { id:'v.congruity', kind:'study-ex', built:true, title:'Congruity', desc:'A sentence correctly formed and complete, as distinct from a sentence that is true.' },
+   { id:'v.congruity', kind:'study-ex', built:true, title:'Congruity', desc:'A sentence correctly formed and complete, as distinct from a sentence that is true, and the modern idea of a generative grammar.' },
    { id:'v.agreement', kind:'study-ex', built:true, title:'Agreement (<i>concordantia</i>)', desc:'How do words agree in gender, number, case, and person?' },
    { id:'v.government', kind:'study-ex', built:true, title:'Government (<i>regimen</i>)', desc:'How does a verb, a preposition, or a noun require a case?' },
-   { id:'v.dependence', kind:'study-ex', built:true, title:'Dependence', desc:'The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>).' },
+   { id:'v.dependence', kind:'study-ex', built:true, title:'Dependence', desc:'The dependent and the term on which it depends (<i>dependens</i> and <i>terminans</i>), and modern dependency grammar.' },
    { id:'v.order', kind:'study-ex', built:true, title:'Order (<i>ordo</i>)', desc:'Natural and artificial order, word order in English and in Latin, and the basic orders that typology classifies.' },
    { id:'v.phrase', kind:'study-ex', built:true, title:'The Phrase', desc:'Groups of words that act as one part of speech.' },
-   { id:'v.clause', kind:'study-ex', built:true, title:'The Clause', desc:'Subject and predicate, and independent and subordinate clauses.' },
+   { id:'v.clause', kind:'study-ex', built:true, title:'The Clause', desc:'Subject and predicate, independent and subordinate clauses, and the modern analysis by constituents and transformations.' },
    { id:'v.period', kind:'study-ex', built:true, title:'The Period', desc:'The sentence of many members.' },
-   { id:'v.mood', kind:'study-ex', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, and the subjunctive in clauses.' },
+   { id:'v.mood', kind:'study-ex', built:true, title:'Mood and Voice in Construction', desc:'The passive with its agent, the infinitive, the participle, the subjunctive in clauses, and semantic roles and functional grammar.' },
    { id:'v.figures', kind:'study-ex', built:true, title:'Figures of Construction', desc:'Ellipsis, zeugma, syllepsis, and the other departures from regular construction.' },
-   { id:'v.review', kind:'review', built:true, title:'Section Review: Construction', desc:'Forty-five questions on V.1 to V.10, in three fixed sets of fifteen.' }
+   { id:'v.review', kind:'review', built:true, title:'Section Review: Construction', desc:'Fifty-one questions on V.1 to V.10, in three fixed sets of seventeen.' }
  ],
  langBars:[
    { id:'v', after:'cumul', heading:'The grammars of the particular languages' }
@@ -101,11 +101,11 @@ ARS.structure = [
  { id:'vi', roman:'VI', latin:'De vitiis', name:'Correctness and Errors',
    gloss:'Usage and authority as the standard of correctness, and the errors that depart from it.',
    items:[
-   { id:'vi.usage', kind:'study-ex', built:true, title:'Usage and Authority', desc:'The criteria of correctness applied to questions of usage and authority.' },
+   { id:'vi.usage', kind:'study-ex', built:true, title:'Usage and Authority', desc:'The criteria of correctness applied to questions of usage and authority, and Saussure’s distinction of language and speech.' },
    { id:'vi.barbarism', kind:'study-ex', built:true, title:'Barbarism', desc:'An error in a single word.' },
    { id:'vi.solecism', kind:'study-ex', built:true, title:'Solecism', desc:'An error in the arrangement of words.' },
    { id:'vi.metaplasm', kind:'study-ex', built:true, title:'Metaplasm', desc:'A change in a word permitted for meter or ornament.' },
-   { id:'vi.review', kind:'review', built:true, title:'Section Review: Correctness and Errors', desc:'Forty-five questions on VI.1 to VI.4, in three fixed sets of fifteen.' }
+   { id:'vi.review', kind:'review', built:true, title:'Section Review: Correctness and Errors', desc:'Forty-eight questions on VI.1 to VI.4, in three fixed sets of sixteen.' }
  ],
  langBars:[
    { id:'vi', after:'cumul', heading:'The grammars of the particular languages' }
@@ -125,8 +125,8 @@ ARS.structure = [
    gloss:'What a term stands for in a proposition, and how the forms of logic appear in grammar.',
    items:[
    { id:'viii.supposition', kind:'study-ex', built:true, title:'Supposition', desc:'Signification reviewed, and material, simple, and personal supposition.' },
-   { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar.' },
-   { id:'viii.review', kind:'review', built:true, title:'Section Review: Signification and Supposition', desc:'Thirty questions on VIII.1 and VIII.2, in three fixed sets of ten.' }
+   { id:'viii.equivalents', kind:'study', built:true, title:'Grammatical Equivalents of Logical Forms', desc:'Subject, copula, and predicate, quantity, and negation in grammar, and the question of a universal grammar.' },
+   { id:'viii.review', kind:'review', built:true, title:'Section Review: Signification and Supposition', desc:'Thirty-three questions on VIII.1 and VIII.2, in three fixed sets of eleven.' }
  ]},
  { id:'ix', roman:'IX', latin:'De analysi', name:'Analysis of Sentences and Passages',
    gloss:'The whole art applied to sentences and passages, mostly in English, with some Latin.',

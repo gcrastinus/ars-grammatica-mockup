@@ -1,4 +1,4 @@
-/* Section Review: Construction [v.review]  Section review opened from its own button, after V.10. Written 45 items in three fixed sets. */
+/* Section Review: Construction [v.review]  Section review opened from its own button, after V.10. Written 51 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.review'] = {
@@ -68,10 +68,10 @@ ARS.exercises['v.review'] = {
   "v.congruity": 1,
   "v.agreement": 2,
   "v.government": 2,
-  "v.dependence": 1,
-  "v.order": 2,
+  "v.dependence": "1–2",
+  "v.order": "2–3",
   "v.phrase": 1,
-  "v.clause": 2,
+  "v.clause": "2–3",
   "v.period": 1,
   "v.mood": 2,
   "v.figures": 1

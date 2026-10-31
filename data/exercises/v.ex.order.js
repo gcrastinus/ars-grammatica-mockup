@@ -1,4 +1,4 @@
-/* Order [v.ex.order]  Exercise set opened from the Exercise button of v.order. Written 24 items in three fixed sets. */
+/* Order [v.ex.order]  Exercise set opened from the Exercise button of v.order. Written 27 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.ex.order'] = {
@@ -22,7 +22,10 @@ ARS.exercises['v.ex.order'] = {
     "typology-1",
     "typology-2",
     "german-french",
-    "summary"
+    "summary",
+    "theme-rheme",
+    "comrie",
+    "alignment"
    ]
   }
  ],
@@ -33,12 +36,12 @@ ARS.exercises['v.ex.order'] = {
   "transform",
   "mc"
  ],
- "pool": 24,
+ "pool": 27,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 8,
-  "B": 8,
-  "C": 8
+  "A": 9,
+  "B": 9,
+  "C": 9
  },
  "limit": "Only what v.order teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete. Macrons are not tested in typed Latin answers.",
@@ -437,6 +440,51 @@ ARS.exercises['v.ex.order'] = {
    ],
    "answer": 1,
    "explain": "Quintilian calls such a rule a mere extravagance, since the reverse order is often adopted with excellent effect."
+  },
+  {
+   "id": "or-A09",
+   "set": "A",
+   "deck": "v.order",
+   "type": "mc",
+   "prompt": "Someone asks, “Who built this wall?” and is told, “The wall was built by the legion.” Which words carry the rheme, the new information?",
+   "options": [
+    "“The wall”",
+    "“was built”",
+    "“by the legion”",
+    "The whole sentence equally"
+   ],
+   "answer": 2,
+   "explain": "The wall has already been mentioned, so it is the theme and comes first. The new information, who built it, is the rheme and comes last; the passive voice lets the speaker place the known before the new."
+  },
+  {
+   "id": "or-B09",
+   "set": "B",
+   "deck": "v.order",
+   "type": "mc",
+   "prompt": "Most languages whose verb precedes its object have prepositions, but some do not. In Comrie’s terms, what kind of universal is this?",
+   "options": [
+    "An absolute universal",
+    "A statistical universal",
+    "A rule of Latin grammar",
+    "Not a universal of any kind"
+   ],
+   "answer": 1,
+   "explain": "A statistical universal holds for most languages, not for all; an absolute universal holds for every known language. So the results of the modern search for universals are often tendencies rather than laws."
+  },
+  {
+   "id": "or-C09",
+   "set": "C",
+   "deck": "v.order",
+   "type": "mc",
+   "prompt": "In a certain language the subject of “The hunter killed the boar” takes a special ending, but the subject of “The boar fled” takes the same ending as the object “boar” in the first sentence. What kind of language is this?",
+   "options": [
+    "Ergative",
+    "Like Latin, with a nominative for every subject",
+    "Isolating",
+    "Fusional"
+   ],
+   "answer": 0,
+   "explain": "Such a language groups the subject of an intransitive verb with the object of a transitive one, and is called ergative. Latin instead puts the subject of every verb in the nominative."
   }
  ]
 };

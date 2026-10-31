@@ -1,6 +1,6 @@
-/* The Clause [v.ex.clause]  Exercise set opened from the Exercise button of v.clause. Written; 32 items in 2 levels.
+/* The Clause [v.ex.clause]  Exercise set opened from the Exercise button of v.clause. Written; 35 items in 2 levels.
    LEVELS (Oct 2026, LEVELS-PLAN.md, after the iii.ex.parts pilot): every item has "level". Level I: recognize clauses and their uses (choose or sort). Level II: find and name clauses in real sentences from the King James Bible and Austen, and combine or rewrite clauses.
-   Level I (18), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
+   Level I (21), Level II (14). New items quote real texts; each item's "source" names the passage and the Project Gutenberg text it was checked against.
    "levels": pass at Level I, mastery at Level II (guided.js). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
@@ -24,7 +24,11 @@ ARS.exercises['v.ex.clause'] = {
     "latin-mood",
     "kinds-of-sentence",
     "diagram",
-    "johnson"
+    "johnson",
+    "bloomfield",
+    "phrase-structure",
+    "transformations",
+    "deep-surface"
    ]
   }
  ],
@@ -35,12 +39,12 @@ ARS.exercises['v.ex.clause'] = {
   "mc",
   "transform"
  ],
- "pool": 32,
+ "pool": 35,
  "rotation": "Within each level, A, B, C, A, … (never shuffled). Level I: sets A, B, C. Level II: sets A, B, C.",
  "sets": {
-  "A": 12,
-  "B": 12,
-  "C": 8
+  "A": 13,
+  "B": 13,
+  "C": 9
  },
  "levels": {
   "pass": 1,
@@ -50,7 +54,7 @@ ARS.exercises['v.ex.clause'] = {
    "2": "Find and name clauses in real sentences; combine and rewrite."
   },
   "counts": {
-   "1": 18,
+   "1": 21,
    "2": 14
   }
  },
@@ -646,6 +650,54 @@ ARS.exercises['v.ex.clause'] = {
    "answer": 0,
    "explain": "“It” only holds the place; the “that” clause is what is acknowledged as a truth. A clause used as a subject is a noun clause.",
    "source": "Jane Austen, Pride and Prejudice, chapter 1; text checked against Project Gutenberg eBook #1342 (Pride and Prejudice)"
+  },
+  {
+   "id": "cl-A09",
+   "set": "A",
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "Divide “The old soldier told a story” into its two immediate constituents.",
+   "options": [
+    "“The old soldier” and “told a story”",
+    "“The old” and “soldier told a story”",
+    "“The old soldier told” and “a story”",
+    "“The” and “old soldier told a story”"
+   ],
+   "answer": 0,
+   "explain": "The first division separates the subject, “the old soldier,” from the predicate, “told a story.” Each part can then be divided again, as “told” and “a story.”",
+   "level": 1
+  },
+  {
+   "id": "cl-B09",
+   "set": "B",
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“Rome was founded by Romulus” and “Romulus founded Rome” express the same relations. Which transformation relates them?",
+   "options": [
+    "The passive",
+    "The question",
+    "The negation",
+    "None, since they mean different things"
+   ],
+   "answer": 0,
+   "explain": "The passive transformation relates the active sentence to the passive one: the object of the active becomes the subject of the passive, and the doer appears after “by.”",
+   "level": 1
+  },
+  {
+   "id": "cl-C09",
+   "set": "C",
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "“Did Hannibal cross the Alps?” is derived from “Hannibal crossed the Alps” by which transformation?",
+   "options": [
+    "The passive",
+    "The question",
+    "The negation",
+    "The relative clause"
+   ],
+   "answer": 1,
+   "explain": "The question transformation brings “did” before the subject and leaves the verb in its plain form: “Hannibal crossed” becomes “Did Hannibal cross?”",
+   "level": 1
   }
  ]
 };

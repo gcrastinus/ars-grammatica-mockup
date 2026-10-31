@@ -1,4 +1,4 @@
-/* Section Review: Signification and Supposition [viii.review]  Section review opened from its own button, after VIII.2. Written 30 items in three fixed sets. */
+/* Section Review: Signification and Supposition [viii.review]  Section review opened from its own button, after VIII.2. Written 33 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['viii.review'] = {
@@ -23,17 +23,17 @@ ARS.exercises['viii.review'] = {
   "mc",
   "mc-marked"
  ],
- "pool": 31,
+ "pool": 33,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 10,
-  "B": 10,
+  "A": 11,
+  "B": 11,
   "C": 11
  },
  "limit": "Only what VIII.1 and VIII.2 teach.",
  "balancePerSet": {
   "viii.supposition": 5,
-  "viii.equivalents": 5
+  "viii.equivalents": 6
  },
  "instr": "Choose the answer.",
  "items": [
@@ -501,6 +501,36 @@ ARS.exercises['viii.review'] = {
    ],
    "answer": 2,
    "explain": "The evidence a child hears is too poor to account for what the child comes to know, Chomsky argued, so the structure common to all languages must be part of the mind from birth."
+  },
+  {
+   "id": "rviii-A11",
+   "set": "A",
+   "deck": "viii.equivalents",
+   "type": "mc",
+   "prompt": "In the theory of principles and parameters, why does Japanese have postpositions where English has prepositions?",
+   "options": [
+    "Japanese lacks a universal grammar",
+    "The two languages set the head parameter differently, and Japanese places the head last",
+    "Japanese borrowed its order from Chinese",
+    "Every language must have postpositions"
+   ],
+   "answer": 1,
+   "explain": "A parameter has a small number of possible settings, fixed differently in different languages. English places the head of a phrase first and Japanese places it last, so the verb follows its object in Japanese and the noun precedes its postposition. The principles resemble what Roger Bacon called the substance of grammar, and the parameters its accidents."
+  },
+  {
+   "id": "rviii-B11",
+   "set": "B",
+   "deck": "viii.equivalents",
+   "type": "mc",
+   "prompt": "Which of these does typology find in every known language?",
+   "options": [
+    "The order subject, verb, object",
+    "A dual number",
+    "Means of naming things and of saying something about them",
+    "Case endings on the noun"
+   ],
+   "answer": 2,
+   "explain": "Languages differ widely in their order, their endings, and the categories they mark, but every known language can name things and say something about them, negate, and ask. This bears out Roger Bacon’s claim that grammar is one in substance and varies in its accidents."
   }
  ]
 };

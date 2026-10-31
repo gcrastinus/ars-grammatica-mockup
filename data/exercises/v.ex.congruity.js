@@ -1,4 +1,4 @@
-/* Congruity [v.ex.congruity]  Exercise set opened from the Exercise button of v.congruity. Written 24 items in three fixed sets. */
+/* Congruity [v.ex.congruity]  Exercise set opened from the Exercise button of v.congruity. Written 27 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['v.ex.congruity'] = {
@@ -20,7 +20,8 @@ ARS.exercises['v.ex.congruity'] = {
     "truth",
     "suppositum",
     "four-causes",
-    "grammar-logic"
+    "grammar-logic",
+    "syntactic-structures"
    ]
   }
  ],
@@ -31,12 +32,12 @@ ARS.exercises['v.ex.congruity'] = {
   "mc-marked",
   "identify"
  ],
- "pool": 24,
+ "pool": 27,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 8,
-  "B": 8,
-  "C": 8
+  "A": 9,
+  "B": 9,
+  "C": 9
  },
  "limit": "Only what v.congruity teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
@@ -451,6 +452,51 @@ ARS.exercises['v.ex.congruity'] = {
    ],
    "answer": 2,
    "explain": "The words fit and the sense is finished, so the sentence is congruous and complete, whether or not anything answers to “basilisk.” Whether it exists is a question for logic and metaphysics, not for grammar."
+  },
+  {
+   "id": "cg-A09",
+   "set": "A",
+   "deck": "v.congruity",
+   "type": "mc",
+   "prompt": "Which of these sentences is congruous, although it makes no sense?",
+   "options": [
+    "Silent golden numbers dream loudly.",
+    "Dream numbers loudly golden silent.",
+    "Golden the numbers silent.",
+    "Caesar crossed the Rubicon."
+   ],
+   "answer": 0,
+   "explain": "In “Silent golden numbers dream loudly” each word fits the others by its mode of signifying, the adjectives with the noun and the noun with the verb, although numbers neither dream nor have color. The second and third lack congruity, and the fourth is congruous and makes good sense."
+  },
+  {
+   "id": "cg-B09",
+   "set": "B",
+   "deck": "v.congruity",
+   "type": "mc",
+   "prompt": "“The bronze statue of Minerva recited the whole <i>Iliad</i>.” How should we judge this sentence?",
+   "options": [
+    "Incongruous and false",
+    "Congruous but false",
+    "Incongruous but true",
+    "Congruous and true"
+   ],
+   "answer": 1,
+   "explain": "The words are correctly joined, so the sentence is congruous; but a statue recites nothing, so the sentence is false. Congruity belongs to grammar, and truth to the relation of the sentence to things."
+  },
+  {
+   "id": "cg-C09",
+   "set": "C",
+   "deck": "v.congruity",
+   "type": "mc",
+   "prompt": "Why would the modists call “Square circles weep wisely” congruous?",
+   "options": [
+    "Because it is true",
+    "Because its words fit one another by their modes of signifying, whatever they mean",
+    "Because every English sentence is congruous",
+    "Because it is short"
+   ],
+   "answer": 1,
+   "explain": "“Square” signifies as a quality that adheres to something, “circles” as a thing that can bear qualities, and “weep” as an action said of a subject. The words fit one another by these modes, so the sentence is congruous, although it describes nothing that could exist."
   }
  ]
 };

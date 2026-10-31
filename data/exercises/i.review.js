@@ -7,7 +7,9 @@
    new. Every set mixes multiple choice, multiple choice on a marked word, identify (click the word or words; `answer` is
    an index or an array), and sort (`answer` gives the bin of each entry), and covers all six decks, three or four items
    each, in deck order with the types interleaved. Options and sort entries are shown shuffled and the key follows them.
-   Items with "why" add a short prompt and a model answer (no grading). See REVISION-GUIDE.md AG. */
+   Items with "why" add a short prompt and a model answer (no grading). See REVISION-GUIDE.md AG.
+   ADDED 30 Oct 2026 (xi.modern dissolution): ri-D21, ri-E21, ri-F21, on the modern material moved into I.1 and I.5,
+   bring the pool to 126 in six fixed sets of 21. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['i.review'] = {
@@ -50,22 +52,22 @@ ARS.exercises['i.review'] = {
   "identify",
   "sort"
  ],
- "pool": 123,
+ "pool": 126,
  "rotation": "A, B, C, D, E, F, A, … (never shuffled)",
  "sets": {
   "A": 21,
   "B": 21,
   "C": 21,
-  "D": 20,
-  "E": 20,
-  "F": 20
+  "D": 21,
+  "E": 21,
+  "F": 21
  },
  "balancePerSet": {
-  "i.sign": "3–4",
+  "i.sign": "3–5",
   "i.imposition": "3–4",
   "i.consignification": "3–4",
   "i.syncategorematic": "3–4",
-  "i.functions": "3–4",
+  "i.functions": "3–5",
   "i.ambiguity": "3–4"
  },
  "limit": "Only what I.1 to I.6 teach; nothing repeats a question point.",
@@ -2391,6 +2393,51 @@ ARS.exercises['i.review'] = {
    ],
    "answer": 0,
    "explain": "In an indirect speech act the speaker performs one act by means of another, as a request made in the form of a question about the hearer’s ability."
+  },
+  {
+   "id": "ri-D21",
+   "set": "D",
+   "deck": "i.sign",
+   "type": "mc",
+   "prompt": "According to Saussure, what does a linguistic sign join?",
+   "options": [
+    "A name to a thing",
+    "A sound-image to a concept",
+    "A written mark to a spoken word",
+    "A concept to a thing"
+   ],
+   "answer": 1,
+   "explain": "Saussure calls the sound-image the signifier and the concept the signified, and the sign is the union of the two. So the Latin word <i>lūx</i> and the English word “light” are different signifiers joined to one concept."
+  },
+  {
+   "id": "ri-E21",
+   "set": "E",
+   "deck": "i.sign",
+   "type": "mc",
+   "prompt": "Following John Poinsot, where does the classical account say that the signification of a word ends?",
+   "options": [
+    "In the sound of the word",
+    "In the concept, as Saussure holds",
+    "In the thing, which the word signifies through the concept",
+    "In the feeling of the hearer"
+   ],
+   "answer": 2,
+   "explain": "The concept is a formal sign: it is that by which we know, not that which we know. Since a formal sign consists entirely in leading to something else, signification cannot stop in the concept, and the word signifies the thing through it."
+  },
+  {
+   "id": "ri-F21",
+   "set": "F",
+   "deck": "i.functions",
+   "type": "mc",
+   "prompt": "A herald cries to the citizens, “I warn you that the enemy is at the gates,” and the citizens run to the walls. In Austin’s terms, what is the warning?",
+   "options": [
+    "The locutionary act",
+    "The illocutionary act",
+    "The perlocutionary act",
+    "No act at all"
+   ],
+   "answer": 1,
+   "explain": "The warning is what is done in saying the words, so it is the illocutionary act. Uttering the words with their sense is the locutionary act, and the citizens’ running to the walls, which is brought about by saying them, is the perlocutionary act."
   }
  ]
 };

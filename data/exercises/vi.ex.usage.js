@@ -1,4 +1,4 @@
-/* Usage and Authority [vi.ex.usage]  Exercise set opened from the Exercise button of vi.usage. Written 24 items in three fixed sets. */
+/* Usage and Authority [vi.ex.usage]  Exercise set opened from the Exercise button of vi.usage. Written 27 items in three fixed sets. */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['vi.ex.usage'] = {
@@ -18,7 +18,9 @@ ARS.exercises['vi.ex.usage'] = {
     "authors",
     "prescribe-describe",
     "change",
-    "kinds-of-error"
+    "kinds-of-error",
+    "saussure",
+    "relations"
    ]
   }
  ],
@@ -27,12 +29,12 @@ ARS.exercises['vi.ex.usage'] = {
   "sort",
   "mc"
  ],
- "pool": 24,
+ "pool": 27,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 8,
-  "B": 8,
-  "C": 8
+  "A": 9,
+  "B": 9,
+  "C": 9
  },
  "limit": "Only what vi.usage teaches; no example from its cards.",
  "instr": "Answer each question. Where words are to be clicked or items sorted, press Check when the answer is complete.",
@@ -477,6 +479,51 @@ ARS.exercises['vi.ex.usage'] = {
    ],
    "answer": 0,
    "explain": "A dictionary records usage, so “archaic” reports that good usage no longer uses the sense, though it may be found in older authors."
+  },
+  {
+   "id": "us-A09",
+   "set": "A",
+   "deck": "vi.usage",
+   "type": "mc",
+   "prompt": "Cicero delivers a speech in the Senate on a certain day. In Saussure’s terms, what is that particular speech?",
+   "options": [
+    "<i>Parole</i>",
+    "<i>Langue</i>",
+    "A paradigm",
+    "A syntagm"
+   ],
+   "answer": 0,
+   "explain": "A particular act of speaking is <i>parole</i>. The Latin language that makes it possible, with its words, forms, and rules, is <i>langue</i>."
+  },
+  {
+   "id": "us-B09",
+   "set": "B",
+   "deck": "vi.usage",
+   "type": "mc",
+   "prompt": "In “the brave consul speaks,” which word stands in an associative (paradigmatic) relation to “consul”?",
+   "options": [
+    "“brave”",
+    "“speaks”",
+    "“senator”",
+    "“the”"
+   ],
+   "answer": 2,
+   "explain": "“Senator” could take the place of “consul” in the same position, so the two are related associatively. “Brave” and “speaks” occur together with “consul” in the sequence, which is a syntagmatic relation."
+  },
+  {
+   "id": "us-C09",
+   "set": "C",
+   "deck": "vi.usage",
+   "type": "mc",
+   "prompt": "Which of these is a syntagmatic relation?",
+   "options": [
+    "“Brave” and “consul” in “the brave consul speaks”",
+    "“Consul” and “senator” as words that could take one another’s place",
+    "<i>Rosa</i> and <i>rosae</i> in the paradigm of the first declension",
+    "“Speaks” and “spoke” as forms of one verb"
+   ],
+   "answer": 0,
+   "explain": "A syntagmatic relation holds between elements that occur together in a sequence, as “brave” and “consul” do. The others are relations among forms that could stand in one another’s place."
   }
  ]
 };
