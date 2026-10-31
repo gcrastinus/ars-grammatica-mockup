@@ -43,6 +43,19 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 28. Vossius gathered the Latin patterns of derivation into a systematic order, so that a student could recognize the formation of words not met before.
 29. But analogy is limited by usage, since not every word that would follow a pattern exists, so derivation is governed by both analogy and usage.
 30. A word formed against usage can be a barbarism.
+31. Humboldt held that a language is not a finished product (*ergon*) but an activity (*energeia*), and that each language has an “inner form,” a characteristic way of shaping thought.
+32. Humboldt and the Schlegels classified languages by how they build words: isolating languages, in which words do not change their form; agglutinating languages, in which each meaning is added as a separate piece; and inflecting languages, in which one ending carries several meanings at once.
+33. Humboldt’s view that each language shapes the thought of its speakers led to the Sapir–Whorf hypothesis, and his classification was the beginning of linguistic typology, the comparison of languages by their structure.
+34. The classical tradition grants that languages differ in how they build their words, but since the affections of the soul are the same for all, it would deny that the form of a language decides what its speakers can understand.
+35. Modern typology refines the classification of Humboldt and the Schlegels.
+36. An **isolating** language has words that do not change their form, so its relations are shown by order and by particles.
+37. An **agglutinating** language adds a separate piece for each meaning.
+38. A **fusional** language joins several meanings in one ending.
+39. A **polysynthetic** language can express in one long word what English expresses in a sentence.
+40. These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).
+41. Typology has found grammatical categories that the classical grammarians never met, such as **evidentials**, which mark on the verb how the speaker knows what he says, and **classifiers**, used when counting.
+42. Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.
+43. The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.
 
 ## Composition (`iv.composition`)
 

@@ -26,10 +26,10 @@ ARS.exercises['iv.review'] = {
  "types": [
   "mc"
  ],
- "pool": 33,
+ "pool": 34,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 11,
+  "A": 12,
   "B": 11,
   "C": 11
  },
@@ -205,6 +205,21 @@ ARS.exercises['iv.review'] = {
    ],
    "answer": 3,
    "explain": "The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation."
+  },
+  {
+   "id": "riv-A12",
+   "set": "A",
+   "deck": "iv.derivation",
+   "type": "mc",
+   "prompt": "What did Humboldt mean by calling a language <i>energeia</i>?",
+   "options": [
+    "It is an activity, not a finished product",
+    "It is a set of written rules kept by the learned",
+    "It is the same in every people and in every age",
+    "It cannot change"
+   ],
+   "answer": 0,
+   "explain": "Humboldt held that a language is not a finished product (<i>ergon</i>) but an activity (<i>energeia</i>), with an inner form that shapes thought."
   },
   {
    "id": "riv-B01",

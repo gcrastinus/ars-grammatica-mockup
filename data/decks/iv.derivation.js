@@ -1,5 +1,6 @@
 /* IV.1 Derivation [iv.derivation]
    Plan (ITEM-LIST.md): 8 panels, 2 question points.
+   30 Oct 2026: 11 panels; panels humboldt, morphological-types and categories moved from xi.modern (A5).
    Live material drawn on: none (ITEM-LIST.md: "Reuse: none"); built from Priscian, Vossius, and Marchand. */
 window.ARS = window.ARS || {};
 ARS.decks = ARS.decks || {};
@@ -39,6 +40,19 @@ ARS.decks['iv.derivation'] = {
     `Vossius gathered the Latin patterns of derivation into a systematic order, so that a student could recognize the formation of words not met before.`,
     `But analogy is limited by usage, since not every word that would follow a pattern exists, so derivation is governed by both analogy and usage.`,
     `A word formed against usage can be a barbarism.`,
+    `Humboldt held that a language is not a finished product (<i>ergon</i>) but an activity (<i>energeia</i>), and that each language has an “inner form,” a characteristic way of shaping thought.`,
+    `Humboldt and the Schlegels classified languages by how they build words: isolating languages, in which words do not change their form; agglutinating languages, in which each meaning is added as a separate piece; and inflecting languages, in which one ending carries several meanings at once.`,
+    `Humboldt’s view that each language shapes the thought of its speakers led to the Sapir–Whorf hypothesis, and his classification was the beginning of linguistic typology, the comparison of languages by their structure.`,
+    `The classical tradition grants that languages differ in how they build their words, but since the affections of the soul are the same for all, it would deny that the form of a language decides what its speakers can understand.`,
+    `Modern typology refines the classification of Humboldt and the Schlegels.`,
+    `An <strong>isolating</strong> language has words that do not change their form, so its relations are shown by order and by particles.`,
+    `An <strong>agglutinating</strong> language adds a separate piece for each meaning.`,
+    `A <strong>fusional</strong> language joins several meanings in one ending.`,
+    `A <strong>polysynthetic</strong> language can express in one long word what English expresses in a sentence.`,
+    `These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).`,
+    `Typology has found grammatical categories that the classical grammarians never met, such as <strong>evidentials</strong>, which mark on the verb how the speaker knows what he says, and <strong>classifiers</strong>, used when counting.`,
+    `Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.`,
+    `The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.`,
   ],
   panels: [
 
@@ -119,7 +133,42 @@ ARS.decks['iv.derivation'] = {
   title: 'Derivation and analogy',
   body: `<p>Derivation is one of the clearest examples of what the grammarians called analogy, the regular patterns by which words are formed. We saw in the Preliminary section that analogy supports reason, one of the four criteria of correct speech. Because suffixes have regular meanings, a speaker can form a new word and be understood: the first speakers to say “drinkable” or “breakable” formed the word by an existing pattern, the suffix “-able,” and hearers understood it at once.</p>
 <p>The seventeenth-century Dutch scholar Gerard Vossius, in his <i>Aristarchus</i>, gathered the Latin patterns of derivation into a systematic order, so that the student could recognize the formation of words that he had not met before (<i>Aristarchus</i> IV). But analogy is limited by usage: “sadness” exists and “sadity” does not, although both would follow a pattern. So derivation is governed by both of the criteria we have seen, analogy and usage, and in Section VI we will see that a word formed against usage can be a barbarism.</p>`,
-  src: `Vossius, <i>Aristarchus sive de arte grammatica</i> IV, in paraphrase.` }
+  src: `Vossius, <i>Aristarchus sive de arte grammatica</i> IV, in paraphrase.` },
+
+{ id: 'humboldt',
+  title: 'Humboldt and the types of language',
+  body: `<p>Languages differ not only in their words but in the way they build their words, and the differences are large enough to suggest that each language has its own character. Wilhelm von Humboldt (1767–1835), a Prussian statesman and scholar who studied languages from Basque to Kawi, held that a language is not a finished product (<i>ergon</i>) but an activity (<i>energeia</i>), and that each language has an “inner form,” a characteristic way of shaping thought. He and the brothers August and Friedrich Schlegel classified languages by how they build words: <strong>isolating</strong> languages, such as Chinese, in which words do not change their form; <strong>agglutinating</strong> languages, such as Turkish, in which each meaning is added as a separate piece; and <strong>inflecting</strong> languages, such as Latin, in which one ending carries several meanings at once.</p>
+<p>Humboldt’s view that each language shapes the thought of its speakers led, by way of later scholars, to the Sapir–Whorf hypothesis that we will consider in Section X. His classification of languages by their structure was the beginning of linguistic typology, the comparison of languages by their structure, which modern linguists continue.</p>
+<p>The classical tradition would grant that languages differ in how they build their words, as Latin and English plainly do; but since Aristotle holds that the affections of the soul are the same for all, though spoken words are not, it would deny that the form of a language decides what its speakers can understand.</p>`,
+  src: `Wilhelm von Humboldt, <i>Über die Verschiedenheit des menschlichen Sprachbaues</i> (1836), in paraphrase.` },
+
+/* ---------- Structural linguistics (8) ---------- */
+
+{ id: 'morphological-types',
+  title: 'How languages build their words',
+  body: `<p>Modern typology refines the classification that began with Humboldt and the Schlegels. An <strong>isolating</strong> language, such as Chinese, has words that do not change their form, so that its relations are shown by order and by particles, as we will see in the study of the Chinese tradition in Section XI. An <strong>agglutinating</strong> language, such as Turkish, adds a separate piece for each meaning: <i>ev</i> (“house”), <i>ev-ler</i> (“houses”), <i>ev-ler-den</i> (“from the houses”). A <strong>fusional</strong> language, such as Latin, joins several meanings in one ending: the <i>-ō</i> of <i>spērō</i> (“I hope”) marks first person, singular, present, indicative, and active at once. A <strong>polysynthetic</strong> language, such as some languages of the Inuit, can express in one long word what English expresses in a sentence.</p>
+<p>These are tendencies, not fixed or pre-determined patterns that a language has to follow. English is now largely isolating, but it keeps some fusional forms such as “geese” and “spoke”; Latin is fusional, but it uses separate words in <i>sine pecūniā</i> (“without money”). So the types describe how much each language does by endings and how it combines them.</p>`,
+  src: `Comrie, <i>Language Universals and Linguistic Typology</i>, ch. 2, in paraphrase.`,
+  qp: { id: 'q-morphological-types', variants: [
+    { prompt: `Turkish <i>el-ler-im</i> means “my hands,” with <i>el</i> “hand,” <i>-ler</i> plural, and <i>-im</i> “my.” Which type of form is it?`,
+      options: [`Isolating`, `Fusional`, `Agglutinating`, `Polysynthetic`],
+      answer: 2,
+      explain: `An agglutinating language adds a separate piece for each meaning, as Turkish adds <i>-ler</i> for the plural and <i>-im</i> for “my.”` },
+    { prompt: `Latin <i>dīxī</i>, “I said,” marks person, number, tense, mood, and voice in one ending. Which type of form is it?`,
+      options: [`Agglutinating`, `Fusional`, `Isolating`, `Polysynthetic`],
+      answer: 1,
+      explain: `A fusional language joins several meanings in one ending, so the <i>-ī</i> of <i>dīxī</i> marks all of them at once.` },
+    { prompt: `Chinese 書, “book,” does not change its form for number or case. Which type does it show?`,
+      options: [`Isolating`, `Fusional`, `Agglutinating`, `Polysynthetic`],
+      answer: 0,
+      explain: `In an isolating language words do not change their form, so relations are shown by order and by particles.` }
+  ] } },
+
+{ id: 'categories',
+  title: 'Categories that some languages have',
+  body: `<p>Typology has also found grammatical categories that the classical grammarians never met. Some languages mark on the verb how the speaker knows what he says, whether by seeing it, by hearing of it, or by inference; such marks are called <strong>evidentials</strong>, and they are found in Turkish, Quechua, and many other languages. Chinese and many languages of East Asia use <strong>classifiers</strong> when counting: Chinese says 三本書 (<i>sān běn shū</i>, “three [volume-shaped] books”), where 本 is a classifier for bound books.</p>
+<p>We saw that Arabic and Greek have a dual number, which Latin lacks. So languages differ in which accidents they mark, and a grammar of Latin does not contain every category that a grammar of all languages would need. The classical account can call such categories accidents; a modern linguist may regard some of them as deeper. Either way, they show that the list of accidents is not fixed by one language.</p>`,
+  src: `Comrie, <i>Language Universals and Linguistic Typology</i>; Aikhenvald, <i>Evidentiality</i> (2004); both in paraphrase.` }
 
   ]
 };

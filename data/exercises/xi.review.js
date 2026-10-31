@@ -22,11 +22,11 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 36,
+ "pool": 35,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 11,
-  "B": 11,
+  "B": 10,
   "C": 14
  },
  "limit": "Only what XI.1 and XI.2 teach.",
@@ -320,21 +320,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Xu Shen arranged about nine thousand characters under 540 radicals, according to the part of each character that indicates its meaning."
-  },
-  {
-   "id": "rxi-B11",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What did Humboldt mean by calling a language <i>energeia</i>?",
-   "options": [
-    "It is an activity, not a finished product",
-    "It is a set of written rules kept by the learned",
-    "It is the same in every people and in every age",
-    "It cannot change"
-   ],
-   "answer": 0,
-   "explain": "Humboldt held that a language is not a finished product (<i>ergon</i>) but an activity (<i>energeia</i>), with an inner form that shapes thought."
   },
   {
    "id": "rxi-B13",
