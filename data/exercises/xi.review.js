@@ -1,4 +1,4 @@
-/* Section Review: Other Traditions and Modern Grammar [xi.review]  Section review opened from its own button, after XI.2. Written 25 items in three fixed sets (9, 8, 8). 30 Oct 2026: xi.modern dissolved; its 21 items moved to the earlier reviews, and rxi-A09 now points at xi.traditions (panel had-lacked, which names the three ways). */
+/* Section Review: Other Traditions [xi.review]  Section review opened from its own button, after XI.1. Written 25 items in three fixed sets (9, 8, 8). 30 Oct 2026: xi.modern dissolved; its 21 items moved to the earlier reviews, and rxi-A09 now points at xi.traditions (panel had-lacked, which names the three ways). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['xi.review'] = {
@@ -6,15 +6,15 @@ ARS.exercises['xi.review'] = {
  "kind": "review",
  "status": "written",
  "section": "XI",
- "title": "Section Review: Other Traditions and Modern Grammar",
- "openedFrom": "its own button, after XI.2",
+ "title": "Section Review: Other Traditions",
+ "openedFrom": "its own button, after XI.1",
  "covers": [
   {
    "deck": "xi.traditions",
    "cards": []
   }
  ],
- "skill": "Review of XI.1 and XI.2: the scribal, Sanskrit, Arabic, Hebrew, and Chinese traditions, and universal grammar and modern linguistics.",
+ "skill": "Review of XI.1: the scribal, Sanskrit, Arabic, Hebrew, and Chinese traditions, what each age had and what each age lacked, and grammar as a liberal art.",
  "types": [
   "mc"
  ],
@@ -25,7 +25,7 @@ ARS.exercises['xi.review'] = {
   "B": 8,
   "C": 8
  },
- "limit": "Only what XI.1 and XI.2 teach.",
+ "limit": "Only what XI.1 teaches.",
  "balancePerSet": {
   "xi.traditions": "8–9"
  },

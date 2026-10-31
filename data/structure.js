@@ -155,6 +155,6 @@ ARS.structure = [
    gloss:'The other classical grammars, and the close of the course.',
    items:[
    { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
-   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions and Modern Grammar', desc:'Twenty-five questions on XI.1, in three fixed sets of nine, eight, and eight.' }
+   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions', desc:'Twenty-five questions on XI.1, in three fixed sets of nine, eight, and eight.' }
  ]}
 ];
