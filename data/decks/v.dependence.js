@@ -1,5 +1,6 @@
 /* V.4 Dependence [v.dependence]
    Plan (ITEM-LIST.md): 9 panels, 5 question points, 2 of them short analysis questions.
+   30 Oct 2026: 12 panels, 6 question points; panel tesniere takes the translation paragraph of xi.modern tesniere, and panels dependency-today, dependency-compare and minimalism moved from xi.modern (A8).
    Live material drawn on: DECKS.workshop (dependent and terminant, dependency grammar, how to read a markup), DECKS.markup
    (marking every dependence, the article). */
 window.ARS = window.ARS || {};
@@ -40,7 +41,19 @@ ARS.decks['v.dependence'] = {
     `So dependence works at more than one level: single words depend on single words, and groups of words depend on words as wholes, which is why the phrase and the clause are studied as units of construction.`,
     `Dependence is the relation that every construction has, and agreement and government are the forms in which it is shown.`,
     `When the dependent word shares accidents with the terminant there is agreement; when one word requires a case in another there is government.`,
-    `These relations do not depend on the order of the words.`
+    `These relations do not depend on the order of the words.`,
+    `Tesnière’s <strong>translation</strong>, in his technical sense, is the process by which a word or phrase of one category is made to function as another (“of” makes the noun in “the book of Peter” function as an adjective).`,
+    `Dependency grammar is widely used, especially in the computer analysis of language, because it describes the relations among words directly and works well for languages with free word order.`,
+    `The project called Universal Dependencies has annotated sentences in more than a hundred languages with the same set of dependency relations, so that their constructions can be compared.`,
+    `In these modern systems, as in Tesnière, the verb is usually the root of the sentence, and the subject and objects depend on it, whereas Thomas of Erfurt makes the verb depend on its subject and object.`,
+    `So the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence, and Thomas follows the verb’s mode of signifying, which requires a subject.`,
+    `Thomas and Tesnière agree on most dependences, the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb, and they agree that every construction joins two words.`,
+    `They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.`,
+    `For Thomas, a word depends on another because its mode of signifying requires what the other supplies, so the reason lies in signification; for Tesnière, the reason lies in the structure of the sentence itself.`,
+    `So modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.`,
+    `The minimalist program seeks to reduce universal grammar to as few operations as possible.`,
+    `Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one, and repeated Merge builds every structure of every language.`,
+    `This recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating, so the modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.`
   ],
   panels: [
 
@@ -101,8 +114,9 @@ ARS.decks['v.dependence'] = {
   title: 'Modern dependency grammar',
   body: `<p>When we ask what a sentence such as “The farmer sold his neighbor a cow” is built around, the natural answer is the verb “sold.” Without it the other words do not hold together, whereas “the farmer,” “his neighbor,” and “a cow” each answer a question that the verb raises: who sold, to whom, and what. On this view the verb is the center of the sentence, and the other words depend on it.</p>
 <p>In the twentieth century the French linguist Lucien Tesnière, in his <i>Éléments de syntaxe structurale</i> (1959), developed a grammar on this view, which also describes the sentence as a set of words depending on words. He drew each sentence as a tree, which he called a <i>stemma</i>, with the governing word above and its dependents below. For the adjective and the adverb, Tesnière’s account agrees with Thomas’s: “tired” depends on “child,” and “soundly” on “sleeps.”</p>
-<p>For the verb, however, the two accounts differ. Tesnière makes the verb the head of the whole sentence, with the subject and the object depending on it, whereas Thomas makes the verb depend on the subject and on the object. Both accounts agree that the verb and its subject and object are joined by dependence; they disagree about which way it runs. Thomas reasons from the mode of signifying of the verb, which requires a subject; Tesnière reasons from the verb’s place at the center of the sentence, on which every other word finally depends.</p>`,
-  src: `Tesnière, <i>Éléments de syntaxe structurale</i> (1959), Book A, in paraphrase.` },
+<p>For the verb, however, the two accounts differ. Tesnière makes the verb the head of the whole sentence, with the subject and the object depending on it, whereas Thomas makes the verb depend on the subject and on the object. Both accounts agree that the verb and its subject and object are joined by dependence; they disagree about which way it runs. Thomas reasons from the mode of signifying of the verb, which requires a subject; Tesnière reasons from the verb’s place at the center of the sentence, on which every other word finally depends.</p>
+<p>Tesnière also introduced the idea of <strong>translation</strong> (in his technical sense), by which a word or phrase of one category is made to function as another: in “the book of Peter,” the preposition “of” translates the noun “Peter” into the function of an adjective. We will see later in this section that a phrase or clause can be used as a single part of speech; Tesnière’s translation gives this observation a general name and a place in the analysis.</p>`,
+  src: `Tesnière, <i>Éléments de syntaxe structurale</i> (1959), Books A and C, in paraphrase.` },
 
 { id: 'valency',
   title: 'The valency of the verb',
@@ -123,6 +137,38 @@ ARS.decks['v.dependence'] = {
       answer: 3,
       explain: `<i>Amat</i> is a verb of two places: someone loves (the subject, in the nominative) and someone is loved (the object, governed in the accusative).` }
   ]} },
+
+{ id: 'dependency-today',
+  title: 'Dependency grammar today',
+  body: `<p>Dependency grammar has become widely used, especially in the computer analysis of language, because it describes the relations among words directly and works well for languages with free word order, such as Latin and Czech. An international project called Universal Dependencies has annotated sentences in more than a hundred languages with the same set of dependency relations, so that their constructions can be compared.</p>
+<p>In these modern systems, as in Tesnière, the verb is usually the root of the sentence, and the subject and objects depend on it. We have seen that Thomas of Erfurt draws the dependence the other way, with the verb depending on its subject and object. The difference shows that the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence; Thomas follows the verb’s mode of signifying, which requires a subject.</p>`,
+  src: `Universal Dependencies project documentation; Tesnière; both in paraphrase.` },
+
+{ id: 'dependency-compare',
+  title: 'Thomas and Tesnière compared',
+  body: `<p>Thomas and Tesnière agree on most dependences: the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb. They agree that every construction joins two words and that the sentence is a structure of such joinings. They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.</p>
+<p>For Thomas, a word depends on another because its mode of signifying requires what the other supplies; the reason lies in signification. For Tesnière, a word depends on another because of its place in the structure of the sentence; the reason lies in the structure itself. So the modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.</p>`,
+  src: `Thomas of Erfurt, <i>Grammatica speculativa</i>; Tesnière, <i>Éléments</i>; both in paraphrase.`,
+  qp: { id: 'q-dependency-compare', variants: [
+    { prompt: `On which dependence do Thomas of Erfurt and Tesnière agree?`,
+      options: [`The verb depends on its subject`, `The subject depends on its verb alone`, `The noun depends on its adjective`, `The adjective depends on its noun`],
+      answer: 3,
+      explain: `They agree on most dependences, such as the adjective on its noun, the adverb on its verb, and the article on its noun.` },
+    { prompt: `On which relation do Thomas and Tesnière chiefly differ?`,
+      options: [`The relation of the adjective to its noun`, `The adverb and its verb`, `The relation of the verb to its subject`, `The article and its noun`],
+      answer: 2,
+      explain: `Thomas makes the verb depend on its subject; Tesnière makes the subject depend on the verb.` },
+    { prompt: `Where does each find the reason for a dependence?`,
+      options: [`Both in the order of the words in the sentence`, `Thomas in signification, Tesnière in structure`, `Both in the history of the language`, `Thomas in sound, Tesnière in meaning`],
+      answer: 1,
+      explain: `For Thomas a word depends on another because its mode of signifying requires what the other supplies; for Tesnière the reason lies in the structure of the sentence.` }
+  ] } },
+
+{ id: 'minimalism',
+  title: 'The minimalist program',
+  body: `<p>Every phrase, however long, can be built by joining two pieces at a time. Since the 1990s Chomsky has pursued what he calls the <strong>minimalist program</strong>, which seeks to reduce universal grammar to as few operations as possible. Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one: “the” and “door” into “the door,” and “opens” and “the door” into “opens the door.” Repeated Merge builds every structure of every language.</p>
+<p>The idea that a sentence is built by joining two elements at a time recalls Thomas of Erfurt’s doctrine, which we studied at the start of this deck, that every construction joins two words, one depending and one terminating, and that a sentence contains as many constructions as it has dependences. The modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.</p>`,
+  src: `Chomsky, <i>The Minimalist Program</i> (1995), in paraphrase.` },
 
 { id: 'marking',
   title: 'Marking the dependences of a sentence',

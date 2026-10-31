@@ -1,4 +1,4 @@
-/* Recitation outline for v.dependence: 31 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for v.dependence: 43 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/v.dependence.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -32,5 +32,17 @@
     `So dependence works at more than one level: single words depend on single words, and groups of words depend on words as wholes, which is why the phrase and the clause are studied as units of construction.`,
     `Dependence is the relation that every construction has, and agreement and government are the forms in which it is shown.`,
     `When the dependent word shares accidents with the terminant there is agreement; when one word requires a case in another there is government.`,
-    `These relations do not depend on the order of the words.`
+    `These relations do not depend on the order of the words.`,
+    `Tesnière’s <strong>translation</strong>, in his technical sense, is the process by which a word or phrase of one category is made to function as another (“of” makes the noun in “the book of Peter” function as an adjective).`,
+    `Dependency grammar is widely used, especially in the computer analysis of language, because it describes the relations among words directly and works well for languages with free word order.`,
+    `The project called Universal Dependencies has annotated sentences in more than a hundred languages with the same set of dependency relations, so that their constructions can be compared.`,
+    `In these modern systems, as in Tesnière, the verb is usually the root of the sentence, and the subject and objects depend on it, whereas Thomas of Erfurt makes the verb depend on its subject and object.`,
+    `So the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence, and Thomas follows the verb’s mode of signifying, which requires a subject.`,
+    `Thomas and Tesnière agree on most dependences, the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb, and they agree that every construction joins two words.`,
+    `They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.`,
+    `For Thomas, a word depends on another because its mode of signifying requires what the other supplies, so the reason lies in signification; for Tesnière, the reason lies in the structure of the sentence itself.`,
+    `So modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.`,
+    `The minimalist program seeks to reduce universal grammar to as few operations as possible.`,
+    `Its central operation is <strong>Merge</strong>, which takes two elements and combines them into one, and repeated Merge builds every structure of every language.`,
+    `This recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating, so the modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.`
   ],

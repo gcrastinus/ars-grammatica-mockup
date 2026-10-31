@@ -9,14 +9,14 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Congruity (`v.congruity`) | 41 | 1103 |
 | Agreement (*concordantia*) (`v.agreement`) | 33 | 742 |
 | Government (*regimen*) (`v.government`) | 31 | 638 |
-| Dependence (`v.dependence`) | 31 | 751 |
+| Dependence (`v.dependence`) | 43 | 1109 |
 | Order (*ordo*) (`v.order`) | 38 | 972 |
 | The Phrase (`v.phrase`) | 23 | 661 |
 | The Clause (`v.clause`) | 47 | 1202 |
 | The Period (`v.period`) | 26 | 691 |
 | Mood and Voice in Construction (`v.mood`) | 37 | 870 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **339** | **8466** |
+| **Section V, whole section** | **351** | **8824** |
 
 ## Congruity (`v.congruity`)
 
@@ -165,6 +165,18 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 29. Dependence is the relation that every construction has, and agreement and government are the forms in which it is shown.
 30. When the dependent word shares accidents with the terminant there is agreement; when one word requires a case in another there is government.
 31. These relations do not depend on the order of the words.
+32. Tesnière’s **translation**, in his technical sense, is the process by which a word or phrase of one category is made to function as another (“of” makes the noun in “the book of Peter” function as an adjective).
+33. Dependency grammar is widely used, especially in the computer analysis of language, because it describes the relations among words directly and works well for languages with free word order.
+34. The project called Universal Dependencies has annotated sentences in more than a hundred languages with the same set of dependency relations, so that their constructions can be compared.
+35. In these modern systems, as in Tesnière, the verb is usually the root of the sentence, and the subject and objects depend on it, whereas Thomas of Erfurt makes the verb depend on its subject and object.
+36. So the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence, and Thomas follows the verb’s mode of signifying, which requires a subject.
+37. Thomas and Tesnière agree on most dependences, the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb, and they agree that every construction joins two words.
+38. They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.
+39. For Thomas, a word depends on another because its mode of signifying requires what the other supplies, so the reason lies in signification; for Tesnière, the reason lies in the structure of the sentence itself.
+40. So modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.
+41. The minimalist program seeks to reduce universal grammar to as few operations as possible.
+42. Its central operation is **Merge**, which takes two elements and combines them into one, and repeated Merge builds every structure of every language.
+43. This recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating, so the modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.
 
 ## Order (*ordo*) (`v.order`)
 

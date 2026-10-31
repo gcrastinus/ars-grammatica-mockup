@@ -56,12 +56,12 @@ ARS.exercises['v.review'] = {
   "mc-marked",
   "transform"
  ],
- "pool": 47,
+ "pool": 49,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 16,
-  "B": 16,
-  "C": 15
+  "B": 17,
+  "C": 16
  },
  "limit": "Only what V.1 to V.10 teach.",
  "balancePerSet": {
@@ -541,6 +541,21 @@ ARS.exercises['v.review'] = {
    "explain": "A transformation relates one structure to another, as the passive to the active, or a question to the corresponding statement."
   },
   {
+   "id": "rv-B17",
+   "set": "B",
+   "deck": "v.dependence",
+   "type": "mc",
+   "prompt": "What does Tesnière mean by “translation” in his technical sense?",
+   "options": [
+    "Making a word function as another category",
+    "Putting a sentence into another language",
+    "Changing the order of the words in a sentence",
+    "Changing a verb from the active to the passive voice"
+   ],
+   "answer": 0,
+   "explain": "Tesnière’s translation makes a word or phrase of one category function as another, as “of” makes a noun function as an adjective."
+  },
+  {
    "id": "rv-C01",
    "set": "C",
    "deck": "v.congruity",
@@ -729,6 +744,21 @@ ARS.exercises['v.review'] = {
     "Tom ordered soup, and Ann ordered salad."
    ],
    "explain": "Zeugma writes one word once and lets it serve several clauses. Written out in full, the second clause is “Ann ordered salad.”"
+  },
+  {
+   "id": "rv-C16",
+   "set": "C",
+   "deck": "v.dependence",
+   "type": "mc",
+   "prompt": "Which medieval doctrine does Merge, the operation of the minimalist program, recall?",
+   "options": [
+    "Donatus’s eight parts of speech and their accidents",
+    "Ockham’s denial of the modes",
+    "Varro’s four tasks of grammar, as Diomedes reports them",
+    "Thomas of Erfurt’s construction of two words"
+   ],
+   "answer": 3,
+   "explain": "Merge combines two elements at a time, which recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating."
   }
  ]
 };

@@ -22,12 +22,12 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 33,
+ "pool": 31,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
   "A": 10,
   "B": 9,
-  "C": 14
+  "C": 12
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
@@ -485,36 +485,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "The evidence a child hears is too poor to account for what the child comes to know, Chomsky argued, so the structure common to all languages must be part of the mind from birth."
-  },
-  {
-   "id": "rxi-C13",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "Which medieval doctrine does Merge, the operation of the minimalist program, recall?",
-   "options": [
-    "Donatus’s eight parts of speech and their accidents",
-    "Ockham’s denial of the modes",
-    "Varro’s four tasks of grammar, as Diomedes reports them",
-    "Thomas of Erfurt’s construction of two words"
-   ],
-   "answer": 3,
-   "explain": "Merge combines two elements at a time, which recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating."
-  },
-  {
-   "id": "rxi-C14",
-   "set": "C",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What does Tesnière mean by “translation” in his technical sense?",
-   "options": [
-    "Making a word function as another category",
-    "Putting a sentence into another language",
-    "Changing the order of the words in a sentence",
-    "Changing a verb from the active to the passive voice"
-   ],
-   "answer": 0,
-   "explain": "Tesnière’s translation makes a word or phrase of one category function as another, as “of” makes a noun function as an adjective."
   },
   {
    "id": "rxi-C15",
