@@ -82,44 +82,62 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 6. The modists name three ways in which a thing can be considered: **the mode of being** (*modus essendi*), the way the thing is in itself; **the mode of understanding** (*modus intelligendi*), the way the mind grasps it; and **the mode of signifying** (*modus significandi*), the way a word signifies it.
 7. The order is fixed: the mode of understanding is taken from the mode of being, and the mode of signifying from the mode of understanding, just as words signify things by means of concepts.
 8. A thing is what it is whether anyone understands it or not, but a word cannot signify anything unless someone understands what it is imposed for.
-9. The mode of signifying is not the meaning: two words can signify the same thing and still be different parts of speech, because they signify it in different modes (“hope” and “hopes”).
-10. The modists’ own example is a group of Latin words that all signify pain, a noun, a verb, a participle, and an interjection: the thing signified is one, but the modes of signifying are four.
-11. So the part of speech of a word is decided not by what it signifies but by how it signifies.
-12. The modists distinguish two kinds of mode of signifying: the **essential mode**, which makes a word the part of speech that it is, and the **accidental modes**, which give the word its accidents, such as number and case.
-13. So a word remains the same part of speech when its accidents change, and only the essential modes distinguish the eight parts.
-14. A noun names a thing and at the same time says what kind of thing it is, so it signifies a substance together with a quality.
-15. Priscian says that it is proper to the noun to signify substance and quality.
-16. Thomas of Erfurt says that the noun signifies by the mode of a being, that is, by the mode of something stable and lasting, so that any word that signifies its thing as something stable that can be talked about is a noun.
-17. The modists divide the noun further: a **noun substantive** signifies its thing as standing by itself, and a **noun adjective** signifies its thing as belonging to another.
-18. This is the reason that the tradition counts the adjective under the noun: it signifies in the mode of a stable thing, a quality, but as adhering to something else.
-19. A pronoun refers to a thing without saying what kind of thing it is.
-20. Priscian says that it is proper to the pronoun to be put in place of a proper noun and to signify definite persons, and the medieval grammarians, following him, say that the pronoun signifies substance without quality.
-21. The modists explain that the pronoun signifies its thing as a being, as the noun does, but without determining what kind of thing it is.
-22. So the noun and the pronoun share the mode of a stable thing but differ as a description differs from a pointing; this is why a pronoun can stand for any noun and usually needs a noun earlier in the sentence or the conversation to make its reference clear.
-23. The verb signifies by the mode of becoming (*per modum fieri*), that is, as something going on, and as distinct from the thing of which it is said.
-24. Because it signifies as becoming, the verb has time, and St. Thomas gives the reason that motion is measured by time.
-25. The participle also signifies by the mode of becoming, but as united with the thing, not as said of it, so it has time from the verb and case and gender from the noun.
-26. So the verb and the participle differ as the noun and the adjective do: one stands apart, and the other adheres.
-27. The indeclinable parts do not name a thing or say what happens; each does something to other words or to what is said.
-28. The **adverb** signifies by the mode of determining a word that signifies as becoming.
-29. The **preposition** signifies by the mode of standing beside a word that has case and relating it to an action.
-30. The **conjunction** signifies by the mode of joining two terms, whether words or clauses.
-31. The **interjection** signifies by the mode of determining a verb or participle and expressing a feeling of the mind.
-32. These four parts signify a relation to another word, not a thing as stable or as becoming, and this is why they are indeclinable: they do not need forms for case or time.
-33. The modists’ account explains why there are eight parts: every word either signifies a thing or relates other words to one another.
-34. A word that signifies a thing signifies it as stable or as becoming; as stable, it either says what the thing is (the noun) or only points to it (the pronoun); as becoming, it either stands apart to be said of a thing (the verb) or adheres to it (the participle).
-35. A word that relates other words either determines a word of becoming (the adverb), relates a word with case to an action (the preposition), joins two terms (the conjunction), or expresses a feeling of the mind (the interjection).
-36. This gives four declinable and four indeclinable parts, and the division does not depend on Latin alone.
-37. Roger Bacon holds that grammar is one and the same in substance in all languages, although it varies in its accidents.
-38. An objection arises from nouns such as “chimaera,” “nothing,” and “blindness”: if the noun signifies its thing as a stable being, and the mode of signifying is taken from the mode of being, how can there be nouns for what does not exist or is a lack?
-39. Thomas of Erfurt answers that the mode of signifying may be taken from the properties of another thing, provided that it does not conflict with the thing signified.
-40. So we understand a privation (the lack of something that would otherwise be present) through what it lacks and name it by those properties, and we name an imagined thing by the properties of the real things from which we imagine it.
-41. St. Thomas adds that the grammarian considers substance only as to the mode of signifying: whatever a noun signifies is signified as something of which something can be said, even if it does not exist.
-42. So the question whether such a thing exists belongs to logic and metaphysics, not to grammar.
-43. The dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement.
-44. St. Thomas explains that logic considers speech insofar as it is true or false; the pronoun is included under the noun, the participle under the verb, and the other parts are not parts of the statement but what joins its parts.
-45. The grammarian counts all eight, because grammar considers speech insofar as it is correct and complete, and all eight are needed to speak correctly.
-46. So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.
+9. Thomas of Erfurt divides the mode of signifying into the active and the passive modes.
+10. The **active mode of signifying** (*modus significandi activus*) comes from the word: it is a property of the word, given to it by the intellect, by which the word signifies a property of the thing.
+11. The **passive mode of signifying** (*modus significandi passivus*) comes from the thing: it is the property of the thing as the word signifies it, and it has nothing to do with the passive voice of a verb.
+12. The two are one in form and differ in what they are found in: the active mode is in the word as in its subject, and the passive mode is in the thing.
+13. The mode of signifying is not the meaning: two words can signify the same thing and still be different parts of speech, because they signify it in different modes (“hope” and “hopes”).
+14. The modists’ own example is a group of Latin words that all signify pain, a noun, a verb, a participle, and an interjection: the thing signified is one, but the modes of signifying are four.
+15. So the part of speech of a word is decided not by what it signifies but by how it signifies.
+16. The modists distinguish two kinds of mode of signifying: the **essential mode**, which makes a word the part of speech that it is, and the **accidental modes**, which give the word its accidents, such as number and case.
+17. So a word remains the same part of speech when its accidents change, and only the essential modes distinguish the eight parts.
+18. A noun names a thing and at the same time says what kind of thing it is, so it signifies a substance together with a quality.
+19. Priscian says that it is proper to the noun to signify substance and quality.
+20. Thomas of Erfurt says that the noun signifies by the mode of a being, that is, by the mode of something stable and lasting, so that any word that signifies its thing as something stable that can be talked about is a noun.
+21. The modists divide the noun further: a **noun substantive** signifies its thing as standing by itself, and a **noun adjective** signifies its thing as belonging to another.
+22. This is the reason that the tradition counts the adjective under the noun: it signifies in the mode of a stable thing, a quality, but as adhering to something else.
+23. A pronoun refers to a thing without saying what kind of thing it is.
+24. Priscian says that it is proper to the pronoun to be put in place of a proper noun and to signify definite persons, and the medieval grammarians, following him, say that the pronoun signifies substance without quality.
+25. The modists explain that the pronoun signifies its thing as a being, as the noun does, but without determining what kind of thing it is.
+26. So the noun and the pronoun share the mode of a stable thing but differ as a description differs from a pointing; this is why a pronoun can stand for any noun and usually needs a noun earlier in the sentence or the conversation to make its reference clear.
+27. The verb signifies by the mode of becoming (*per modum fieri*), that is, as something going on, and as distinct from the thing of which it is said.
+28. Because it signifies as becoming, the verb has time, and St. Thomas gives the reason that motion is measured by time.
+29. The participle also signifies by the mode of becoming, but as united with the thing, not as said of it, so it has time from the verb and case and gender from the noun.
+30. So the verb and the participle differ as the noun and the adjective do: one stands apart, and the other adheres.
+31. The indeclinable parts do not name a thing or say what happens; each does something to other words or to what is said.
+32. The **adverb** signifies by the mode of determining a word that signifies as becoming.
+33. The **preposition** signifies by the mode of standing beside a word that has case and relating it to an action.
+34. The **conjunction** signifies by the mode of joining two terms, whether words or clauses.
+35. The **interjection** signifies by the mode of determining a verb or participle and expressing a feeling of the mind.
+36. These four parts signify a relation to another word, not a thing as stable or as becoming, and this is why they are indeclinable: they do not need forms for case or time.
+37. The modists’ account explains why there are eight parts: every word either signifies a thing or relates other words to one another.
+38. A word that signifies a thing signifies it as stable or as becoming; as stable, it either says what the thing is (the noun) or only points to it (the pronoun); as becoming, it either stands apart to be said of a thing (the verb) or adheres to it (the participle).
+39. A word that relates other words either determines a word of becoming (the adverb), relates a word with case to an action (the preposition), joins two terms (the conjunction), or expresses a feeling of the mind (the interjection).
+40. This gives four declinable and four indeclinable parts, and the division does not depend on Latin alone.
+41. Roger Bacon holds that grammar is one and the same in substance in all languages, although it varies in its accidents.
+42. An objection arises from nouns such as “chimaera,” “nothing,” and “blindness”: if the noun signifies its thing as a stable being, and the mode of signifying is taken from the mode of being, how can there be nouns for what does not exist or is a lack?
+43. Thomas of Erfurt answers that the mode of signifying may be taken from the properties of another thing, provided that it does not conflict with the thing signified.
+44. So we understand a privation (the lack of something that would otherwise be present) through what it lacks and name it by those properties, and we name an imagined thing by the properties of the real things from which we imagine it.
+45. St. Thomas adds that the grammarian considers substance only as to the mode of signifying: whatever a noun signifies is signified as something of which something can be said, even if it does not exist.
+46. So the question whether such a thing exists belongs to logic and metaphysics, not to grammar.
+47. The dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement.
+48. St. Thomas explains that logic considers speech insofar as it is true or false; the pronoun is included under the noun, the participle under the verb, and the other parts are not parts of the statement but what joins its parts.
+49. The grammarian counts all eight, because grammar considers speech insofar as it is correct and complete, and all eight are needed to speak correctly.
+50. So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.
+51. The modists held that a word receives its mode of signifying, a real property of the word, from the mode of being of the thing on which it is imposed.
+52. William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.
+53. John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.
+54. If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.
+55. What is disputed is whether the mode is a real property of the word, grounded in common natures in things, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.
+56. Speculative grammar was not so much refuted as abandoned.
+57. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and of the classical authors.
+58. The division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.
+59. So the question why the parts of speech and the accidents are what they are ceased to be asked by grammarians for several centuries, until the general grammars of the seventeenth century.
+60. The Port-Royal *Grammaire générale et raisonnée* (1660) founded grammar on the operations of the mind and analyzed the sentence as the expression of a judgment.
+61. Its title named a kind of work, the general grammar, which sought the principles common to all languages; Harris’s *Hermes* and Beauzée’s *Grammaire générale* belong to the same kind.
+62. The general grammarians asked again the question of the modists, but they answered it from the mind rather than from the modes of being: the parts of speech correspond to the operations of the mind, conceiving, judging, and reasoning.
+63. So the idea of a universal grammar survived the end of speculative grammar, in a new form that looks forward to Chomsky’s.
+64. The classical tradition grants that the parts follow the operations of the mind, but it holds that these are measured by things, so that the reasons for the parts lie finally in the things understood.
 
 ## Figure and Species (`iii.figure`)
 

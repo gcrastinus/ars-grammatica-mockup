@@ -22,11 +22,11 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 42,
+ "pool": 39,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 14,
-  "B": 13,
+  "A": 13,
+  "B": 11,
   "C": 15
  },
  "limit": "Only what XI.1 and XI.2 teach.",
@@ -170,21 +170,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Philology asks what an author wrote and how his language came to be what it was; the classical art asks why grammar is as it is, and modern linguistics asks how a language works as a system and what is common to all."
-  },
-  {
-   "id": "rxi-A10",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "What did William of Ockham answer to the modists’ thesis about the mode of signifying?",
-   "options": [
-    "It is a property of the thing signified, not of the word",
-    "It belongs to the letters",
-    "There are no common natures in things to ground such modes, and no further property in the word",
-    "It is the same in every language, as Bacon held"
-   ],
-   "answer": 2,
-   "explain": "Ockham, for whom only individual things exist, denied that there are common natures in things on which the modes could rest: different words simply signify in different ways, and there is no further property in the word."
   },
   {
    "id": "rxi-A11",
@@ -365,36 +350,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Xu Shen arranged about nine thousand characters under 540 radicals, according to the part of each character that indicates its meaning."
-  },
-  {
-   "id": "rxi-B09",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "Why did the humanists abandon speculative grammar?",
-   "options": [
-    "They found it too close to Cicero and the authors of Rome",
-    "They had refuted each of its theses by formal logic",
-    "They preferred the Sanskrit grammar that they had discovered",
-    "They found its Latin barbarous and its questions useless"
-   ],
-   "answer": 3,
-   "explain": "The humanists sought to write Latin like Cicero; they found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and the authors."
-  },
-  {
-   "id": "rxi-B10",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "From what did the general grammars of the seventeenth and eighteenth centuries derive the parts of speech?",
-   "options": [
-    "From the modes of being of the things signified",
-    "From the history of each language and its changes",
-    "From the sounds of speech and their contrasts",
-    "From the operations of the mind"
-   ],
-   "answer": 3,
-   "explain": "The general grammarians answered the modists’ question from the mind: the parts of speech correspond to conceiving, judging, and reasoning."
   },
   {
    "id": "rxi-B11",

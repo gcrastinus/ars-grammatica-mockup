@@ -1,4 +1,4 @@
-/* Recitation outline for iii.reasons: 46 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for iii.reasons: 64 points. Written 20 Oct 2026 from the deck's final cards. 30 Oct 2026: resynced with the deck (lines 9 to 12 had been missing) and lines 51 to 64 added (A3).
    Copied from data/decks/iii.reasons.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -10,6 +10,10 @@
     `The modists name three ways in which a thing can be considered: <strong>the mode of being</strong> (<i>modus essendi</i>), the way the thing is in itself; <strong>the mode of understanding</strong> (<i>modus intelligendi</i>), the way the mind grasps it; and <strong>the mode of signifying</strong> (<i>modus significandi</i>), the way a word signifies it.`,
     `The order is fixed: the mode of understanding is taken from the mode of being, and the mode of signifying from the mode of understanding, just as words signify things by means of concepts.`,
     `A thing is what it is whether anyone understands it or not, but a word cannot signify anything unless someone understands what it is imposed for.`,
+    `Thomas of Erfurt divides the mode of signifying into the active and the passive modes.`,
+    `The <strong>active mode of signifying</strong> (<i>modus significandi activus</i>) comes from the word: it is a property of the word, given to it by the intellect, by which the word signifies a property of the thing.`,
+    `The <strong>passive mode of signifying</strong> (<i>modus significandi passivus</i>) comes from the thing: it is the property of the thing as the word signifies it, and it has nothing to do with the passive voice of a verb.`,
+    `The two are one in form and differ in what they are found in: the active mode is in the word as in its subject, and the passive mode is in the thing.`,
     `The mode of signifying is not the meaning: two words can signify the same thing and still be different parts of speech, because they signify it in different modes (“hope” and “hopes”).`,
     `The modists’ own example is a group of Latin words that all signify pain, a noun, a verb, a participle, and an interjection: the thing signified is one, but the modes of signifying are four.`,
     `So the part of speech of a word is decided not by what it signifies but by how it signifies.`,
@@ -47,5 +51,19 @@
     `The dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement.`,
     `St. Thomas explains that logic considers speech insofar as it is true or false; the pronoun is included under the noun, the participle under the verb, and the other parts are not parts of the statement but what joins its parts.`,
     `The grammarian counts all eight, because grammar considers speech insofar as it is correct and complete, and all eight are needed to speak correctly.`,
-    `So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.`
+    `So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.`,
+    `The modists held that a word receives its mode of signifying, a real property of the word, from the mode of being of the thing on which it is imposed.`,
+    `William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.`,
+    `John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.`,
+    `If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.`,
+    `What is disputed is whether the mode is a real property of the word, grounded in common natures in things, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.`,
+    `Speculative grammar was not so much refuted as abandoned.`,
+    `The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and of the classical authors.`,
+    `The division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.`,
+    `So the question why the parts of speech and the accidents are what they are ceased to be asked by grammarians for several centuries, until the general grammars of the seventeenth century.`,
+    `The Port-Royal <i>Grammaire générale et raisonnée</i> (1660) founded grammar on the operations of the mind and analyzed the sentence as the expression of a judgment.`,
+    `Its title named a kind of work, the general grammar, which sought the principles common to all languages; Harris’s <i>Hermes</i> and Beauzée’s <i>Grammaire générale</i> belong to the same kind.`,
+    `The general grammarians asked again the question of the modists, but they answered it from the mind rather than from the modes of being: the parts of speech correspond to the operations of the mind, conceiving, judging, and reasoning.`,
+    `So the idea of a universal grammar survived the end of speculative grammar, in a new form that looks forward to Chomsky’s.`,
+    `The classical tradition grants that the parts follow the operations of the mind, but it holds that these are measured by things, so that the reasons for the parts lie finally in the things understood.`
   ],

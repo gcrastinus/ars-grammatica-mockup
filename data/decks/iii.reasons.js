@@ -2,6 +2,7 @@
    Plan (ITEM-LIST.md): 11 panels, 4 question points. Moved here from VIII; it comes
    before the individual parts and does not depend on the accidents. The chimaera objection stays here; the gender objection
    is in III.6. The modistic accounts of particular accidents are in the closing panels of III.6, III.9, and III.10.
+   30 Oct 2026: 14 panels; panels ockham and humanists (merged with general-grammars) moved from xi.modern (A3).
    Live material drawn on: DECKS.modes (the thing, the mind, and the word; why the order cannot be reversed; what makes the
    part; noun and verb; the same thing signified twice; four parts from two distinctions; the four that keep one form; the
    article), DECKS.objections (the chimaera). */
@@ -62,7 +63,21 @@ ARS.decks['iii.reasons'] = {
     `The dialecticians counted only two parts of speech, the noun and the verb, because these alone make a statement.`,
     `St. Thomas explains that logic considers speech insofar as it is true or false; the pronoun is included under the noun, the participle under the verb, and the other parts are not parts of the statement but what joins its parts.`,
     `The grammarian counts all eight, because grammar considers speech insofar as it is correct and complete, and all eight are needed to speak correctly.`,
-    `So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.`
+    `So the two counts do not contradict each other; they answer different questions, and the modists’ eight include the logician’s two as the principal parts.`,
+    `The modists held that a word receives its mode of signifying, a real property of the word, from the mode of being of the thing on which it is imposed.`,
+    `William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.`,
+    `John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.`,
+    `If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.`,
+    `What is disputed is whether the mode is a real property of the word, grounded in common natures in things, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.`,
+    `Speculative grammar was not so much refuted as abandoned.`,
+    `The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and of the classical authors.`,
+    `The division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.`,
+    `So the question why the parts of speech and the accidents are what they are ceased to be asked by grammarians for several centuries, until the general grammars of the seventeenth century.`,
+    `The Port-Royal <i>Grammaire générale et raisonnée</i> (1660) founded grammar on the operations of the mind and analyzed the sentence as the expression of a judgment.`,
+    `Its title named a kind of work, the general grammar, which sought the principles common to all languages; Harris’s <i>Hermes</i> and Beauzée’s <i>Grammaire générale</i> belong to the same kind.`,
+    `The general grammarians asked again the question of the modists, but they answered it from the mind rather than from the modes of being: the parts of speech correspond to the operations of the mind, conceiving, judging, and reasoning.`,
+    `So the idea of a universal grammar survived the end of speculative grammar, in a new form that looks forward to Chomsky’s.`,
+    `The classical tradition grants that the parts follow the operations of the mind, but it holds that these are measured by things, so that the reasons for the parts lie finally in the things understood.`
   ],
   panels: [
 
@@ -182,7 +197,7 @@ ARS.decks['iii.reasons'] = {
 { id: 'why-eight',
   title: 'Why are there eight parts?',
   body: `<p>The modists’ account answers the question why there are eight parts. Every word either signifies a thing or relates other words to one another. A word that signifies a thing signifies it either as stable or as becoming. As stable, it either says what the thing is (the noun) or only points to it (the pronoun); as becoming, it either stands apart to be said of a thing (the verb) or adheres to it (the participle). A word that relates other words either determines a word of becoming (the adverb), relates a word with case to an action (the preposition), joins two terms (the conjunction), or expresses a feeling of the mind (the interjection).</p>
-<p>This gives four declinable and four indeclinable parts. The division does not depend on Latin alone. Roger Bacon, an English Franciscan scholar of the thirteenth century and a contemporary of the modists, writes that “grammar is one and the same in substance in all languages, although it varies in its accidents” (<i>grammatica una et eadem est secundum substantiam in omnibus linguis, licet accidentaliter varietur</i>). We will consider in Section XI whether the variety of languages bears this claim out.</p>`,
+<p>This gives four declinable and four indeclinable parts. The division does not depend on Latin alone. Roger Bacon, an English Franciscan scholar of the thirteenth century and a contemporary of the modists, writes that “grammar is one and the same in substance in all languages, although it varies in its accidents” (<i>grammatica una et eadem est secundum substantiam in omnibus linguis, licet accidentaliter varietur</i>). We will consider in Section VIII whether the variety of languages bears this claim out.</p>`,
   src: `Thomas of Erfurt, <i>Grammatica speculativa</i> (Bursill-Hall), in paraphrase; Roger Bacon, <i>Greek Grammar</i> (ed. Nolan and Hirsch, 1902), p. 27, the Latin; the English in substance.` },
 
 { id: 'chimaera',
@@ -204,6 +219,20 @@ ARS.decks['iii.reasons'] = {
       answer: 1,
       explain: `St. Thomas says that the grammarian considers substance only as to the mode of signifying: whatever a noun signifies is signified as something of which something can be said, even if it does not exist. Whether it exists is a question for logic and metaphysics.` }
   ]} },
+
+{ id: 'ockham',
+  title: 'Ockham and the end of speculative grammar',
+  body: `<p>The modists held, as we have seen, that a word is imposed on a thing, and that it receives its mode of signifying from the way the thing is: the modes of signifying are taken from the modes of understanding, and these from the modes of being. A noun signifies in the manner of something permanent, as a substance does, and a verb in the manner of something in process, as an action does, so the modes of signifying correspond for the most part to the parts of speech. For the modists the mode is therefore a real property of the word, given to it when it is imposed, and grounded in the things the word signifies. In the fourteenth century William of Ockham, for whom only individual things exist, denied that there are common natures in things on which such modes could rest: different words simply signify in different ways, and there is no further property in the word. John Aurifaber, a master at Erfurt in the same century, pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.</p>
+<p>If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not. Ockham grants, as Priscian does, that words are imposed to signify what the mind understands, and that nouns and verbs signify in different ways; what is disputed is whether the mode is a real property of the word, grounded in common natures in things. So this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.</p>`,
+  src: `Ockham, <i>Summa logicae</i> I; John Aurifaber, <i>Determinatio de modis significandi</i>; both in paraphrase.` },
+
+{ id: 'humanists',
+  title: 'Abandoned, not refuted: humanists and general grammars',
+  body: `<p>Speculative grammar was not so much refuted as abandoned. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and they returned to the grammar of usage and of the classical authors. G. L. Bursill-Hall observes that the division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.</p>
+<p>So the question that the modists had asked, why the parts of speech and the accidents are what they are, ceased to be asked by grammarians for several centuries. The grammars of the Renaissance, such as Linacre’s, which we will see in Section V, returned to Priscian and the authors, and the question of reasons returned only with the general grammars of the seventeenth century.</p>
+<p>The Port-Royal <i>Grammaire générale et raisonnée</i> (1660), as we will see in Section VIII, founded grammar on the operations of the mind and analyzed the sentence as the expression of a judgment. Its title gave a name to a kind of work: the <strong>general grammar</strong>, which sought the principles common to all languages. In England, James Harris published <i>Hermes, or a Philosophical Inquiry concerning Universal Grammar</i> (1751), and in France, Nicolas Beauzée published a <i>Grammaire générale</i> (1767).</p>
+<p>The general grammarians asked again the question of the modists, but they answered it from the mind rather than from the modes of being: the parts of speech correspond to the operations of the mind, conceiving, judging, and reasoning. So the idea of a universal grammar survived the end of speculative grammar, in a new form that looks forward to Chomsky’s. The classical tradition would grant them part of this, since it holds that words signify things by means of concepts; but it would add that the operations of the mind are themselves measured by things, so that the reasons for the parts lie finally in the things understood, as the modists held.</p>`,
+  src: `Bursill-Hall, introduction to Thomas of Erfurt, <i>Grammatica speculativa</i> (1972); Arnauld and Lancelot, <i>Grammaire générale</i> (1660); James Harris, <i>Hermes</i> (1751); Beauzée, <i>Grammaire générale</i> (1767); all in paraphrase.` },
 
 { id: 'logic-grammar',
   title: 'The grammarian’s eight and the logician’s two',

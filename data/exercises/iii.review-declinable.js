@@ -56,12 +56,12 @@ ARS.exercises['iii.review-declinable'] = {
   "mc-marked",
   "form"
  ],
- "pool": 45,
+ "pool": 48,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 15,
-  "B": 15,
-  "C": 15
+  "A": 16,
+  "B": 16,
+  "C": 16
  },
  "limit": "Only what III.1 to III.10 teach; new questions, not reused from the question points.",
  "balancePerSet": {
@@ -304,6 +304,21 @@ ARS.exercises['iii.review-declinable'] = {
    "explain": "“Singing” is the subject of “moved” and names the action as a thing, so it is a gerund, a verbal noun; it even takes a possessive, “his.” The ending “-ing” belongs to both forms, so the use decides."
   },
   {
+   "id": "rd-A16",
+   "set": "A",
+   "deck": "iii.reasons",
+   "type": "mc",
+   "prompt": "What did William of Ockham answer to the modists’ thesis about the mode of signifying?",
+   "options": [
+    "It is a property of the thing signified, not of the word",
+    "It belongs to the letters",
+    "There are no common natures in things to ground such modes, and no further property in the word",
+    "It is the same in every language, as Bacon held"
+   ],
+   "answer": 2,
+   "explain": "Ockham, for whom only individual things exist, denied that there are common natures in things on which the modes could rest: different words simply signify in different ways, and there is no further property in the word."
+  },
+  {
    "id": "rd-B01",
    "set": "B",
    "deck": "iii.parts",
@@ -514,6 +529,21 @@ ARS.exercises['iii.review-declinable'] = {
    "explain": "“Torn” is the past participle of “tear,” and here it describes the map, as an adjective does. It signifies something undergone before the time of the main verb."
   },
   {
+   "id": "rd-B16",
+   "set": "B",
+   "deck": "iii.reasons",
+   "type": "mc",
+   "prompt": "Why did the humanists abandon speculative grammar?",
+   "options": [
+    "They found it too close to Cicero and the authors of Rome",
+    "They had refuted each of its theses by formal logic",
+    "They preferred the Sanskrit grammar that they had discovered",
+    "They found its Latin barbarous and its questions useless"
+   ],
+   "answer": 3,
+   "explain": "The humanists sought to write Latin like Cicero; they found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and the authors."
+  },
+  {
    "id": "rd-C01",
    "set": "C",
    "deck": "iii.parts",
@@ -707,6 +737,21 @@ ARS.exercises['iii.review-declinable'] = {
     "a gerund"
    ],
    "explain": "“Sailing” names the action as a thing and is the subject of “is,” so it is a gerund."
+  },
+  {
+   "id": "rd-C16",
+   "set": "C",
+   "deck": "iii.reasons",
+   "type": "mc",
+   "prompt": "From what did the general grammars of the seventeenth and eighteenth centuries derive the parts of speech?",
+   "options": [
+    "From the modes of being of the things signified",
+    "From the history of each language and its changes",
+    "From the sounds of speech and their contrasts",
+    "From the operations of the mind"
+   ],
+   "answer": 3,
+   "explain": "The general grammarians answered the modists’ question from the mind: the parts of speech correspond to conceiving, judging, and reasoning."
   }
  ]
 };
