@@ -221,7 +221,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 39. Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the **theme**, and continues with what is new, called the **rheme**.
 40. So the choice of voice and order serves to place the known before the new.
 41. The Arabic distinction of topic and comment and the Latin placing of emphatic words first or last describe the same arrangement of a sentence for the hearer, which explains why the same thought is often expressed by different constructions in different contexts.
-42. Many of his universals are **implicational**: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).
+42. Many of Greenberg’s universals are **implicational**: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).
 43. Such universals do not say that every language has a given property; they say how properties are related.
 44. They differ from the universals of the general grammarians, who sought properties present in every language, and typology has shown that implicational universals are far more common than absolute ones.
 45. Comrie distinguishes universals that hold without exception from those that hold for most languages.

@@ -53,7 +53,7 @@ ARS.decks['v.order'] = {
     `Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the <strong>theme</strong>, and continues with what is new, called the <strong>rheme</strong>.`,
     `So the choice of voice and order serves to place the known before the new.`,
     `The Arabic distinction of topic and comment and the Latin placing of emphatic words first or last describe the same arrangement of a sentence for the hearer, which explains why the same thought is often expressed by different constructions in different contexts.`,
-    `Many of his universals are <strong>implicational</strong>: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).`,
+    `Many of Greenberg’s universals are <strong>implicational</strong>: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).`,
     `Such universals do not say that every language has a given property; they say how properties are related.`,
     `They differ from the universals of the general grammarians, who sought properties present in every language, and typology has shown that implicational universals are far more common than absolute ones.`,
     `Comrie distinguishes universals that hold without exception from those that hold for most languages.`,
