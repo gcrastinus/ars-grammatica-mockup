@@ -14,9 +14,9 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | The Phrase (`v.phrase`) | 23 | 661 |
 | The Clause (`v.clause`) | 47 | 1202 |
 | The Period (`v.period`) | 26 | 691 |
-| Mood and Voice in Construction (`v.mood`) | 53 | 1287 |
+| Mood and Voice in Construction (`v.mood`) | 53 | 1301 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **382** | **9621** |
+| **Section V, whole section** | **382** | **9635** |
 
 ## Congruity (`v.congruity`)
 
