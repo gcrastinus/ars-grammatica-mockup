@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SHOTS = os.path.join(ROOT, 'shots'); os.makedirs(SHOTS, exist_ok=True)
 KEY = 'ars-grammatica-course-v2'
-DECKS = ['x.imitation', 'xi.traditions', 'iii.reasons', 'ix.passages', 'v.clause', 'v.order', 'v.period', 'ix.sentences',
+DECKS = ['x.imitation', 'iii.reasons', 'ix.passages', 'v.clause', 'v.order', 'v.period', 'ix.sentences',
          'iii.conjunction', 'v.figures', 'i.consignification', 'prelim.definition']
 DECKS = os.environ['DECKS'].split(',') if os.environ.get('DECKS') else DECKS
 SHOT_PREFIX = os.environ.get('SHOT_PREFIX', 'real')
@@ -92,11 +92,11 @@ def run(url):
     with sync_playwright() as p:
         b = p.chromium.launch(args=['--no-sandbox'])
         c = b.new_context(); pg = c.new_page(); pg.goto(url + 'index.html'); pg.wait_for_selector('#recite-open')
-        # 60 decks with Quick lines, every one a deck in the course (xi.modern was dissolved 30 Oct 2026 and
+        # 59 decks with Quick lines (xi.traditions, split 31 Oct 2026 into five decks without Quick lines yet, is dropped too), every one a deck in the course (xi.modern was dissolved 30 Oct 2026 and
         # integrate-quick drops decks no longer in data/structure.js)
         quick = pg.evaluate("window.__arsQuickRecitations")
         live = pg.evaluate("Object.keys(window.__arsQuickRecitations).filter(id => ARS.structure.some(s => s.items.some(i => i.id === id)))")
-        check('60 decks loaded', len(quick) == 60 and len(live) == 60 and 'xi.modern' not in quick, (len(quick), len(live))); c.close()
+        check('59 decks loaded', len(quick) == 59 and len(live) == 59 and 'xi.modern' not in quick and 'xi.traditions' not in quick, (len(quick), len(live))); c.close()
         for width in (1280, 390):
             for dark in (False, True):
                 tag = '%d-%s' % (width, 'dark' if dark else 'light')

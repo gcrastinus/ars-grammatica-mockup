@@ -269,33 +269,55 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   const after = await ev(`JSON.parse(localStorage.getItem('ars-grammatica-course-v2'))`);
   check('old record: opens on Essentials with English, on the saved path', await ev(`ARS.CL.current() === 'essentials' && ARS.CL.lang() === 'en' && GP.isGuided()`));
   const keep = k => JSON.stringify(after[k]) === JSON.stringify(OLD[k]);
+  /* xi.traditions was split (31 Oct 2026): its record is kept and copied once to the five new decks */
+  const SPLIT = ['xi.neareast','xi.sanskrit','xi.arabic','xi.hebrew','xi.chinese'];
+  const keepDecks = () => JSON.stringify(Object.fromEntries(Object.entries(after.decks).filter(([k]) => !SPLIT.includes(k)))) === JSON.stringify(OLD.decks) && SPLIT.every(d => JSON.stringify(after.decks[d]) === JSON.stringify(OLD.decks['xi.traditions']));
   const stripQuick = items => Object.fromEntries(Object.entries(items).map(([k, v]) => [k, Object.fromEntries(Object.entries(v).filter(([f]) => !['quickDoneAt', 'fullDoneAt', 'lastKind'].includes(f)))]));
   /* the recitation menu marks a finished deck as open for recitation (recitation.js, as before the levels) */
-  check('old record: decks, exercises, boxes, and recited texts unchanged', keep('decks') && keep('ex') && keep('boxes') && JSON.stringify(stripQuick(after.recitations.items)) === JSON.stringify(OLD.recitations.items), Object.keys(after).join(','));
+  check('old record: decks, exercises, boxes, and recited texts unchanged', keepDecks() && keep('ex') && keep('boxes') && JSON.stringify(stripQuick(after.recitations.items)) === JSON.stringify(OLD.recitations.items), Object.keys(after).join(','));
   /* Quick then Full (Oct 30, 2026): an old recitation is marked Quick done once (quickDoneAt, with recitations.quickMigrated); nothing else changes. */
   check('old record: an old recitation counts as Quick done, once', after.recitations.quickMigrated === 1 && !!after.recitations.items['i.sign'].quickDoneAt);
-  check('old record: only the new fields were added', Object.keys(after).every(k => k in OLD || ['view', 'levels', 'reciteNudges', 'xiModernRemoved'].includes(k)));
+  check('old record: only the new fields were added', Object.keys(after).every(k => k in OLD || ['view', 'levels', 'reciteNudges', 'xiModernRemoved', 'xiTraditionsSplit'].includes(k)));
   check('old record: the old Guided record is read: a star stays a star', await ev(`GP.stateOf('ii.ex.syllable')`) === 'mastered');
   check('old record: a pass at Stage II counts at Proficient and above, and Essentials asks for Stage I', await ev(`(() => { const e = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('proficient'); const p = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('essentials'); return e !== 'passed' && e !== 'mastered' && p === 'passed'; })()`));
   check('old record: the Guided record is not rewritten by reading it', await ev(`localStorage.getItem('ars-grammatica-guided')`) === JSON.stringify(OLDGP));
   await ev(`ARS.CL.setLevel('comprehensive'); true`);
   check('old record: a reading collection finished whole shows done at Comprehensive', await ev(`(() => { openLang('lang.ix.la'); const c = document.querySelector('#lang-grid .set-card[data-id="lang.ix.la/prose"] .begin'); const r = !!c && c.classList.contains('is-done'); leaveLang(); return r; })()`));
-  check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="xi.traditions"] .begin.is-done')`));
+  check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="i.sign"] .begin.is-done')`));
+  check('old record: the finished xi.traditions shows as five finished decks, and has no button of its own', await ev(`${JSON.stringify(SPLIT)}.every(d => !!document.querySelector('#home-acts .set-card[data-id="' + d + '"] .begin.is-done')) && !document.querySelector('[data-id="xi.traditions"]')`));
   /* xi.modern was dissolved (30 Oct 2026): the old record of it stays in store.decks, shows nowhere, and does no harm */
   check('old record: the removed deck xi.modern has no button, and its record is kept', await ev(`!document.querySelector('[data-id="xi.modern"]')`) && !!after.decks['xi.modern']);
 
-  /* 6a. phantom boxes of xi.modern review items are removed once; rxi-A09 moves to xi.traditions */
+  /* 6a. phantom boxes of xi.modern review items are removed once; rxi-A09 moves to xi.traditions, and then, at the split, to xi.chinese */
   const PH = { dark:false, decks:{ 'xi.traditions':{ opens:1, done:true, doneAt:1761300000000 }, 'xi.modern':{ opens:1, done:true, doneAt:1761300000000 } }, ex:{},
     boxes:{ 'rxi-B10':{ box:1, dueAt:1761400000000, deck:'xi.modern', section:'xi' }, 'rxi-C15':{ box:2, dueAt:1761400000000, deck:'xi.modern', section:'xi' },
             'rxi-A09':{ box:1, dueAt:1761400000000, deck:'xi.modern', section:'xi' }, 'rxi-A01':{ box:1, dueAt:4102444800000, deck:'xi.traditions', section:'xi' } } };
   await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(PH))}); true`);
   await b.goto('index.html'); await ready(); await b.sleep(300);
   const ph = await ev(`JSON.parse(localStorage.getItem('ars-grammatica-course-v2'))`);
-  check('phantom boxes: xi.modern items removed once, rxi-A09 moved to xi.traditions', ph.xiModernRemoved === true && !ph.boxes['rxi-B10'] && !ph.boxes['rxi-C15'] && ph.boxes['rxi-A09'].deck === 'xi.traditions' && ph.boxes['rxi-A01'].deck === 'xi.traditions', JSON.stringify(ph.boxes));
+  check('phantom boxes: xi.modern items removed once, rxi-A09 moved to xi.chinese and rxi-A01 to xi.neareast', ph.xiModernRemoved === true && !ph.boxes['rxi-B10'] && !ph.boxes['rxi-C15'] && ph.boxes['rxi-A09'].deck === 'xi.chinese' && ph.boxes['rxi-A01'].deck === 'xi.neareast', JSON.stringify(ph.boxes));
   /* a box tagged xi.modern after the cleanup (as by an old tab) is not removed again */
   await ev(`(() => { const s = JSON.parse(localStorage.getItem('ars-grammatica-course-v2')); s.boxes['rxi-B11'] = { box:1, dueAt:1, deck:'xi.modern', section:'xi' }; localStorage.setItem('ars-grammatica-course-v2', JSON.stringify(s)); return true; })()`);
   await b.goto('index.html'); await ready(); await b.sleep(300);
   check('phantom boxes: the cleanup runs only once', await ev(`!!JSON.parse(localStorage.getItem('ars-grammatica-course-v2')).boxes['rxi-B11']`));
+  /* 6b. the split of xi.traditions (31 Oct 2026): a student's record moves once to the five new decks */
+  const T0 = 1761300000000;
+  const SP = { dark:false, view:{ level:'comprehensive', langs:['en'], lang:'en', lastLang:'en' }, decks:{ 'xi.traditions':{ opens:2, done:true, doneAt:T0 } }, ex:{},
+    boxes:{ 'xi.traditions:q-sandhi:1':{ box:3, dueAt:T0, deck:'xi.traditions', section:'xi' }, 'xi.traditions:q-end:0':{ box:2, dueAt:T0, deck:'xi.traditions', section:'xi' },
+            'rxi-A05':{ box:1, dueAt:T0, deck:'xi.traditions', section:'xi' }, 'syl-A01':{ box:2, dueAt:T0, deck:'ii.syllable', section:'ii' } },
+    recitations:{ unlocked:{ 'xi.traditions':T0 }, quickMigrated:1, lastKey:'quick:xi.traditions', items:{ 'xi.traditions':{ text:'old text', quickDoneAt:T0 + 5, revealedAt:T0 } } },
+    reciteNudges:{ shown:{}, pending:[{ id:'xi.traditions', name:'Other Traditions', at:T0 }] } };
+  await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(SP))}); true`);
+  await b.goto('index.html'); await ready(); await b.sleep(300);
+  const sp = await ev(`JSON.parse(localStorage.getItem('ars-grammatica-course-v2'))`);
+  const FIVE = ['xi.neareast', 'xi.sanskrit', 'xi.arabic', 'xi.hebrew', 'xi.chinese'];
+  check('split: the finished deck is finished in all five', sp.xiTraditionsSplit === true && FIVE.every(d => sp.decks[d] && sp.decks[d].done && sp.decks[d].doneAt === T0) && !!sp.decks['xi.traditions']);
+  check('split: question boxes move to the deck of their card', !sp.boxes['xi.traditions:q-sandhi:1'] && sp.boxes['xi.sanskrit:q-sandhi:1'].box === 3 && sp.boxes['xi.chinese:q-end:0'].deck === 'xi.chinese' && sp.boxes['rxi-A05'].deck === 'xi.arabic' && sp.boxes['syl-A01'].deck === 'ii.syllable', JSON.stringify(sp.boxes));
+  check('split: Quick done carries over, nothing is due, the old attempt is archived', FIVE.every(d => sp.recitations.items[d] && sp.recitations.items[d].quickDoneAt === T0 + 5 && !sp.recitations.items[d].revealedAt && sp.recitations.unlocked[d] === T0) && sp.recitations.items['xi.traditions:archived'].text === 'old text' && !sp.recitations.items['xi.traditions'] && sp.recitations.lastKey === 'quick:xi.neareast');
+  check('split: a pending nudge becomes one for xi.chinese', !sp.reciteNudges.pending.some(p => p.id === 'xi.traditions') && (sp.reciteNudges.pending.some(p => p.id === 'xi.chinese') || sp.reciteNudges.shown['xi.chinese'] === true) && sp.reciteNudges.shown['xi.neareast'] === true, JSON.stringify(sp.reciteNudges));
+  check('split: no button for xi.traditions, and the five decks show done', await ev(`!document.querySelector('[data-id="xi.traditions"]') && ${JSON.stringify(FIVE)}.every(d => !!document.querySelector('#home-acts .set-card[data-id="' + d + '"] .begin.is-done'))`));
+  await b.goto('index.html'); await ready(); await b.sleep(300);
+  check('split: running again changes nothing', await ev(`localStorage.getItem('ars-grammatica-course-v2')`) === JSON.stringify(sp));
   await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(OLD))}); localStorage.setItem('ars-grammatica-guided', ${JSON.stringify(JSON.stringify(OLDGP))}); localStorage.setItem('ars-grammatica-path', 'guided'); true`);
   await b.goto('index.html'); await ready(); await b.sleep(300);
 
