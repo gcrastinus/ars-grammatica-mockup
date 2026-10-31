@@ -1,4 +1,4 @@
-/* Recitation outline for iv.derivation: 43 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for iv.derivation: 44 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/iv.derivation.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -44,5 +44,6 @@
     `These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).`,
     `Typology has found grammatical categories that the classical grammarians never met, such as <strong>evidentials</strong>, which mark on the verb how the speaker knows what he says, and <strong>classifiers</strong>, used when counting.`,
     `Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.`,
-    `The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.`
+    `The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.`,
+    `The classical tradition grants that these types are real, but it takes them as differences in the spoken signs and not in what is signified, so that languages of different types can say the same thing by different means.`
   ],

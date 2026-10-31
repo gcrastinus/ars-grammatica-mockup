@@ -6,10 +6,10 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Derivation (`iv.derivation`) | 43 | 1015 |
+| Derivation (`iv.derivation`) | 44 | 1054 |
 | Composition (`iv.composition`) | 23 | 590 |
 | Etymology (`iv.etymology`) | 53 | 1398 |
-| **Section IV, whole section** | **119** | **3003** |
+| **Section IV, whole section** | **120** | **3042** |
 
 ## Derivation (`iv.derivation`)
 
@@ -56,6 +56,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 41. Typology has found grammatical categories that the classical grammarians never met, such as **evidentials**, which mark on the verb how the speaker knows what he says, and **classifiers**, used when counting.
 42. Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.
 43. The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.
+44. The classical tradition grants that these types are real, but it takes them as differences in the spoken signs and not in what is signified, so that languages of different types can say the same thing by different means.
 
 ## Composition (`iv.composition`)
 

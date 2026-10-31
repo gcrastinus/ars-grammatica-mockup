@@ -53,6 +53,7 @@ ARS.decks['iv.derivation'] = {
     `Typology has found grammatical categories that the classical grammarians never met, such as <strong>evidentials</strong>, which mark on the verb how the speaker knows what he says, and <strong>classifiers</strong>, used when counting.`,
     `Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.`,
     `The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.`,
+    `The classical tradition grants that these types are real, but it takes them as differences in the spoken signs and not in what is signified, so that languages of different types can say the same thing by different means.`,
   ],
   panels: [
 
