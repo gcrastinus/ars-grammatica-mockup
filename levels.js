@@ -27,7 +27,7 @@ const DESC = {
   essentials: 'The essentials of grammar: the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the language chosen.',
   proficient: 'A full school grammar: Essentials, with voice, quantity and accent, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
   mastered: 'Proficient, with the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
-  comprehensive: 'The whole course, with the other classical traditions and modern linguistics, Imitation, and every reading passage.'
+  comprehensive: 'The whole course, with the other classical traditions and the close of the course, Imitation, and every reading passage.'
 };
 
 const st = () => (typeof courseStore === 'function' ? courseStore() : {});
@@ -407,7 +407,7 @@ const LEVEL_EXPL = {
   essentials: 'Essentials teaches the definition of grammar, the sign, the letter and the syllable, the eight parts of speech, the plain construction of the sentence, and the forms of the languages chosen.',
   proficient: 'Proficient adds the tasks of the grammarian, the criteria of correct speech, voice, quantity and accent, punctuation, word formation, the rest of construction, the common errors, the tropes, and the first reading passages.',
   mastered: 'Mastered adds the higher doctrine of the grammarians, meter, the figures, supposition, translation, the classical composition exercises, and the model passages.',
-  comprehensive: 'Comprehensive adds the other classical traditions, modern linguistics, Imitation, and every reading passage, and so gives the whole course.'
+  comprehensive: 'Comprehensive adds the other classical traditions and the close of the course, Imitation, and every reading passage, and so gives the whole course.'
 };
 const PATH_EXPL = {
   practice: 'Free Practice opens every exercise of this level, in any order, and does not judge any exercise as passed.',
