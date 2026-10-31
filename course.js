@@ -73,6 +73,98 @@ function courseStore(){ return store; }
   store.xiModernRemoved = true;
   if (changed) save();
 })();
+/* 31 Oct 2026: the deck xi.traditions was split into five decks: xi.neareast, xi.sanskrit, xi.arabic, xi.hebrew, and
+   xi.chinese. A one-time migration, marked by store.xiTraditionsSplit, carries a student's record across:
+   the deck record (opened, finished) is copied to all five; each Leitner box of a question box on a card moves to the
+   deck that now holds the card; the boxes of the xi.review items move to the deck of their new set; a Quick recitation
+   already done counts as done in all five, with nothing due until the student recites; the old Full attempt is kept,
+   unchanged, under 'xi.traditions:archived'; recitation nudges and the level's place in the course move to the new decks.
+   The old record in store.decks is left alone; it shows nowhere and does no harm. Running it twice changes nothing. */
+(function xiTraditionsSplit(){
+  if (store.xiTraditionsSplit) return;
+  const OLD = 'xi.traditions';
+  const NEW = ['xi.neareast', 'xi.sanskrit', 'xi.arabic', 'xi.hebrew', 'xi.chinese'];
+  const QP = {
+    'q-scribal-sign':'xi.neareast', 'q-scribal-paradigms':'xi.neareast',
+    'q-sandhi':'xi.sanskrit', 'q-yaska':'xi.sanskrit', 'q-karaka':'xi.sanskrit', 'q-patanjali':'xi.sanskrit',
+    'q-three-parts':'xi.arabic', 'q-irab':'xi.arabic', 'q-verbal-sentence':'xi.arabic', 'q-nominal-sentence':'xi.arabic',
+    'q-hebrew-parts':'xi.hebrew', 'q-roots-dispute':'xi.hebrew', 'q-binyanim':'xi.hebrew', 'q-construct':'xi.hebrew',
+    'q-six-writings':'xi.chinese', 'q-qieyun':'xi.chinese', 'q-full-empty':'xi.chinese', 'q-order-chinese':'xi.chinese', 'q-end':'xi.chinese'
+  };
+  const RXI = {
+    'xi.neareast':['A01', 'A02', 'B01', 'C01', 'N01', 'EG01', 'EG02', 'EG03', 'EG04'],
+    'xi.sanskrit':['A03', 'A04', 'B02', 'B03', 'B04', 'C02', 'C03'],
+    'xi.arabic':['A05', 'A06', 'B05', 'B06', 'C04', 'C05'],
+    'xi.hebrew':['A07', 'B07', 'C06', 'N02', 'N03'],
+    'xi.chinese':['A08', 'B08', 'C07', 'C08', 'A09', 'N04', 'N05']
+  };
+  const rxiDeck = {};
+  Object.keys(RXI).forEach(d => RXI[d].forEach(n => { rxiDeck['rxi-' + n] = d; }));
+  const copy = o => JSON.parse(JSON.stringify(o));
+  const now = Date.now();
+  /* the deck record */
+  const decks = store.decks || (store.decks = {});
+  if (decks[OLD]) NEW.forEach(d => { if (!decks[d]) decks[d] = copy(decks[OLD]); });
+  /* Leitner boxes */
+  const boxes = store.boxes || {};
+  Object.keys(boxes).forEach(id => {
+    const b = boxes[id];
+    if (!b) return;
+    if (id.indexOf(OLD + ':') === 0){
+      const rest = id.slice(OLD.length + 1), qp = rest.split(':')[0], to = QP[qp];
+      if (to){
+        const nid = to + ':' + rest;
+        if (!boxes[nid]) boxes[nid] = Object.assign({}, b, { deck:to, section:'xi' });
+      }
+      delete boxes[id];
+    } else if (rxiDeck[id] && (b.deck === OLD || !b.deck)){
+      b.deck = rxiDeck[id]; b.section = 'xi';
+    }
+  });
+  /* recitations */
+  const r = store.recitations;
+  if (r){
+    const items = r.items || (r.items = {});
+    if (r.unlocked && r.unlocked[OLD]) NEW.forEach(d => { r.unlocked[d] = r.unlocked[OLD]; });
+    const old = items[OLD];
+    if (old && (old.quickDoneAt || !r.quickMigrated)){
+      const rec = old.record || {};
+      const at = old.quickDoneAt || old.revealedAt || rec.revealedAt || old.lastRecitedAt || now;
+      NEW.forEach(d => {
+        if (items[d]) { if (!items[d].quickDoneAt) items[d].quickDoneAt = at; return; }
+        items[d] = { text:'', locked:false, revealedAt:null, groups:null, record:null, lastRecitedAt:null, intervalStage:0, quickDoneAt:at };
+      });
+    }
+    if (old){
+      if (!items[OLD + ':archived']) items[OLD + ':archived'] = old;
+      delete items[OLD];
+    }
+    if (r.lastKey === OLD || r.lastKey === 'quick:' + OLD) r.lastKey = r.lastKey.replace(OLD, 'xi.neareast');
+  }
+  /* recitation nudges */
+  const n = store.reciteNudges;
+  if (n){
+    const shown = n.shown || (n.shown = {});
+    if (shown[OLD]) NEW.forEach(d => { shown[d] = true; });
+    if (Array.isArray(n.pending)){
+      n.pending.forEach(p => {
+        if (p && p.id === OLD){
+          p.id = 'xi.chinese'; p.name = 'The Chinese Study of the Character';
+          NEW.forEach(d => { if (d !== 'xi.chinese') shown[d] = true; });
+        }
+      });
+    }
+  }
+  /* the level's place in the course */
+  const lv = store.levels || {};
+  Object.keys(lv).forEach(k => {
+    const L = lv[k] || {};
+    if (L.free && L.free.item === OLD) L.free.item = 'xi.neareast';
+    if (L.guided && L.guided.step === OLD) L.guided.step = 'xi.neareast';
+  });
+  store.xiTraditionsSplit = true;
+  save();
+})();
 const $ = id => document.getElementById(id);
 const FORMS = ['A', 'B', 'C'];
 const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review', 'models':'Models', 'overview':'Overview' };
@@ -375,7 +467,7 @@ function loadDeck(id){
   if (ARS.decks[id]) return Promise.resolve(ARS.decks[id]);
   return new Promise((res, rej) => {
     const s = document.createElement('script');
-    s.src = `data/decks/${id}.js?v=20261030zb`;
+    s.src = `data/decks/${id}.js?v=20261031za`;
     s.onload = () => ARS.decks[id] ? res(ARS.decks[id]) : rej(new Error('No data in ' + s.src));
     s.onerror = () => rej(new Error('Could not load ' + s.src));
     document.head.appendChild(s);
@@ -400,7 +492,7 @@ function loadEx(id){
   if (ARS.exercises[id]) return Promise.resolve(ARS.exercises[id]);
   return new Promise((res, rej) => {
     const s = document.createElement('script');
-    s.src = `data/exercises/${id}.js?v=20261030zb`;
+    s.src = `data/exercises/${id}.js?v=20261031za`;
     s.onload = () => ARS.exercises[id] ? res(ARS.exercises[id]) : rej(new Error('No data in ' + s.src));
     s.onerror = () => rej(new Error('Could not load ' + s.src));
     document.head.appendChild(s);
