@@ -154,7 +154,11 @@ ARS.structure = [
  { id:'xi', roman:'XI', latin:'De aliis traditionibus', name:'Other Traditions',
    gloss:'The other classical grammars, and the close of the course.',
    items:[
-   { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions; then what each age had and what each age lacked, and grammar as a liberal art.' },
-   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions', desc:'Twenty-five questions on XI.1, in three fixed sets of nine, eight, and eight.' }
+   { id:'xi.neareast', kind:'study', built:true, title:'The Ancient Near East', desc:'The scribal lists of Babylon and the scribal school of Egypt.' },
+   { id:'xi.sanskrit', kind:'study', built:true, title:'Sanskrit Grammar', desc:'The Indian art of analysis, from Pāṇini to Bhartṛhari.' },
+   { id:'xi.arabic', kind:'study', built:true, title:'Arabic Grammar', desc:'The Arabic grammarians, from Sībawayh to al-Zajjājī.' },
+   { id:'xi.hebrew', kind:'study', built:true, title:'Hebrew Grammar', desc:'The Masoretes and the medieval Jewish grammarians, and their Christian readers.' },
+   { id:'xi.chinese', kind:'study', built:true, title:'The Chinese Study of the Character', desc:'The character, its sound and meaning, and the close of the course.' },
+   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions', desc:'Thirty-four questions on XI.1 to XI.5, in five fixed sets, one for each deck.' }
  ]}
 ];

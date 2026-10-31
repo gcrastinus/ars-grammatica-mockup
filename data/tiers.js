@@ -95,7 +95,11 @@ ARS.tiers = {
   'x.progymnasmata': 'mastered',
   'x.review': 'proficient',
   /* General course, XI */
-  'xi.traditions': 'comprehensive',
+  'xi.neareast': 'comprehensive',
+  'xi.sanskrit': 'comprehensive',
+  'xi.arabic': 'comprehensive',
+  'xi.hebrew': 'comprehensive',
+  'xi.chinese': 'comprehensive',
   'xi.review': 'comprehensive',
   /* English, bar prelim */
   'lang.prelim.en/overview': 'essentials',
