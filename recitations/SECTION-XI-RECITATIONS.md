@@ -1,14 +1,13 @@
 # Section XI: Recitation outlines (draft for Timothy's review)
 
-Written 20 Oct 2026 from the final cards of each deck, in the manner of the Section I and II outlines: one sentence to a point, in the deck's order, every point of substance (definitions, distinctions, divisions, arguments, conclusions), and no passing examples, quotations, names mentioned only in passing, or source notes. A point keeps at most one very brief example in parentheses. Each numbered point is one check box on the Tablet. The outlines live in the deck files as the field `recitation`; this file is generated from them for reading.
+Written 20 Oct 2026 from the final cards of each deck (since 30 Oct 2026 the section has one deck, `xi.traditions`; `xi.modern` was dissolved into the earlier sections, and its closing points 210 to 217 now end `xi.traditions`), in the manner of the Section I and II outlines: one sentence to a point, in the deck's order, every point of substance (definitions, distinctions, divisions, arguments, conclusions), and no passing examples, quotations, names mentioned only in passing, or source notes. A point keeps at most one very brief example in parentheses. Each numbered point is one check box on the Tablet. The outlines live in the deck files as the field `recitation`; this file is generated from them for reading.
 
 Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strings, one string per point (HTML as on the cards). The whole-section recitation is not stored separately; the Tablet joins the decks' arrays in course order under their deck titles (`sectionRecitation` in recitation.js).
 
 | Deck | Points | Words |
 |---|---|---|
-| The Other Classical Traditions (`xi.traditions`) | 209 | 6165 |
-| Universal Grammar and Modern Linguistics (`xi.modern`) | 182 | 4962 |
-| **Section XI, whole section** | **391** | **11127** |
+| The Other Classical Traditions (`xi.traditions`) | 217 | 6415 |
+| **Section XI, whole section** | **217** | **6415** |
 
 ## The Other Classical Traditions (`xi.traditions`)
 
@@ -221,188 +220,11 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 207. The traditions agree in some things: all distinguish words that name things from words that relate them; most distinguish the noun from the verb; and several connect the verb with becoming or action.
 208. They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.
 209. Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question for the study of modern grammar.
-
-## Universal Grammar and Modern Linguistics (`xi.modern`)
-
-1. Since the late Middle Ages, language has been studied in three principal ways, each of which asks a different but related question.
-2. The classical art, Priscian’s grammar with the reasons that the medieval masters added, asks why grammar is as it is, and answers from the modes of signifying.
-3. Philology asks what an author actually wrote and how his language came to be what it was.
-4. Modern linguistics, since the early twentieth century, asks how a language works as a system and what is common to all languages, and it sets the other two questions aside by design.
-5. Boethius of Dacia grants that sciences may differ in their manner of knowing even when they concern the same object, so the student of the classical art need not treat the philologist or the linguist as a rival, but can ask what each way of knowing reaches and what it leaves aside.
-6. The modists held that a word receives its mode of signifying, a real property of the word, from the mode of being of the thing on which it is imposed.
-7. William of Ockham, for whom only individual things exist, answered that there are no common natures in things to ground such modes: different words simply signify in different ways, and there is no further property in the word.
-8. John Aurifaber pressed the point further, arguing that signifying belongs to the intellect, and that the spoken word is only that by which the intellect signifies.
-9. If these critics are right, a science of the modes in the word loses its subject, but the art of grammar does not, since Ockham grants that words are imposed to signify what the mind understands and that nouns and verbs signify in different ways.
-10. What is disputed is whether the mode is a real property of the word, grounded in common natures in things, so this course has used the modists’ explanations where they explain, without resting the art on their thesis about the word.
-11. Speculative grammar was not so much refuted as abandoned.
-12. The humanists of the fifteenth and sixteenth centuries, who sought to write Latin like Cicero, found the modists’ Latin barbarous and their questions useless, and returned to the grammar of usage and of the classical authors.
-13. The division was already forming in the thirteenth century, between the speculative grammar of Paris and the practical grammar taught in southern Europe, where Latin was learned for law and letters.
-14. So the question why the parts of speech and the accidents are what they are ceased to be asked by grammarians for several centuries, until the general grammars of the seventeenth century.
-15. The Port-Royal *Grammaire générale et raisonnée* (1660) founded grammar on the operations of the mind and analyzed the sentence as the expression of a judgment.
-16. Its title named a kind of work, the general grammar, which sought the principles common to all languages; Harris’s *Hermes* and Beauzée’s *Grammaire générale* belong to the same kind.
-17. The general grammarians asked again the question of the modists, but they answered it from the mind rather than from the modes of being: the parts of speech correspond to the operations of the mind, conceiving, judging, and reasoning.
-18. So the idea of a universal grammar survived the end of speculative grammar, in a new form that looks forward to Chomsky’s.
-19. In 1786 Sir William Jones observed that Sanskrit bears to Greek and Latin a likeness, in the roots of its verbs and in its grammatical forms, too strong to have come about by chance, so that all three must have sprung from some common source, which perhaps no longer exists.
-20. This observation began the study of the history and relations of languages.
-21. Latin, Greek, Sanskrit, and the Germanic, Celtic, and Slavic languages descend from a common parent language, now called Proto-Indo-European, which was never written.
-22. The explanation of cognates in comparative etymology (English “foot” and Latin *pēs*) rests on this discovery.
-23. In the nineteenth century comparative grammar became the principal form of the study of language.
-24. Bopp compared the conjugation of the verb in Sanskrit, Greek, Latin, Persian, and the Germanic languages, and Grimm described the regular changes of consonants in the Germanic languages.
-25. The Neogrammarians held that sound changes operate without exception, so that every apparent exception must have its own explanation.
-26. So the nineteenth century discovered that languages have histories and change according to regular laws, a fact that the modists had no obvious place for.
-27. Latin was not a fixed system outside time but a stage between an older language and the Romance languages that descended from it, and a grammar derived from unchanging modes of being does not plainly predict that a language should change at all.
-28. Boethius of Dacia considered the objection that a science must be of what is necessary and unchanging.
-29. He answered that there is a true science of things that come to be and pass away, through the causes that always accompany them; otherwise there would be a science only of things that never change.
-30. So the classical account can admit that languages change, as long as the change follows causes that can be known: the modes of signifying would be the constant part, and the sounds and forms that change would be the accidents.
-31. Whether this answer reaches far enough to account for the whole history of the Indo-European languages is a fair question, and it is one of the points at which the classical art and modern linguistics meet.
-32. Humboldt held that a language is not a finished product (*ergon*) but an activity (*energeia*), and that each language has an “inner form,” a characteristic way of shaping thought.
-33. Humboldt and the Schlegels classified languages by how they build words: isolating languages, in which words do not change their form; agglutinating languages, in which each meaning is added as a separate piece; and inflecting languages, in which one ending carries several meanings at once.
-34. Humboldt’s view that each language shapes the thought of its speakers led to the Sapir–Whorf hypothesis, and his classification was the beginning of linguistic typology, the comparison of languages by their structure.
-35. Saussure is usually counted the founder of modern linguistics.
-36. Saussure distinguishes *langue*, the system of a language shared by its speakers, from *parole*, the particular acts of speaking in which the system is used.
-37. No single speaker invents or controls the *langue*; each speaker draws on it, and Saussure held that linguistics should take the *langue* as its object.
-38. The grammarian of the classical art studied the language of the authors, which is neither simply *langue* nor *parole*, but the best usage within the *langue*.
-39. Saussure describes the linguistic sign as the union of a **signifier** (*signifiant*), a sound-image, and a **signified** (*signifié*), a concept.
-40. The sign does not join a name to a thing but a sound-image to a concept.
-41. The bond between signifier and signified is arbitrary, since nothing in the sound of a word fits it to its concept, as the existence of different words in different languages shows.
-42. The classical tradition agrees that words signify by imposition, not by nature, and that they signify things by means of concepts.
-43. Boethius of Dacia explained the existence of many languages by the arbitrariness of imposition: the words differ because they are imposed, whereas the modes of signifying are alike because they follow the things.
-44. The difference between Saussure and the tradition lies in what follows the concept.
-45. A **synchronic** study describes a language as a system at one time; a **diachronic** study describes how a language changes through time.
-46. Saussure held that the two must be kept apart, and that the system of a language at a given moment can be described without reference to its history.
-47. The nineteenth-century philologists had studied languages chiefly diachronically, and Saussure’s distinction made the synchronic description of a language the principal task of linguistics.
-48. The classical grammarian had described the Latin of the authors as a system, but he also drew on its history, through the criterion of antiquity and through etymology.
-49. Saussure held that the value of a sign comes not from what it refers to but from its place among the other signs of the system, that is, from its differences from them (English “sheep” and “mutton” against French *mouton*).
-50. The same principle applies to sounds, which have their value in a language by contrast with each other.
-51. The modern study of such contrasts is phonology, which Saussure’s principle made possible, and it is one of the real discoveries of modern linguistics.
-52. Saussure distinguished two kinds of relation among the elements of a language.
-53. **Syntagmatic** relations hold between elements that occur together in a sequence.
-54. **Associative** relations, later called paradigmatic, hold between an element and others that could take its place.
-55. The classical art knew both relations without naming them so: construction concerns the relations of words that occur together, and the paradigms of declension and conjugation set out the forms that can take one another’s place.
-56. The classical tradition can accept the distinction between *langue* and *parole*, because it has a place ready for it in the distinction between a habit and an act.
-57. A habit (*habitus*) is a settled disposition of a power, really present in the one who has it, from which particular acts proceed.
-58. A language known by its speakers is such a disposition, so *parole* is the act and *langue* is the habit from which it proceeds.
-59. A shared language carries the habits of a people, its customs and its experience, and so the words of a common language resonate in one speaker’s mind in ways they may not in another’s.
-60. A habit is always the habit of someone and is ordered to something, so the *langue* is not a third thing between minds and the world but a disposition in minds, and the disposition has objects: the things that the language is used to speak about.
-61. An **instrumental sign**, such as smoke or a spoken word, must first be known as an object before it leads the mind to something else.
-62. A **formal sign**, the concept, leads the mind to its object without first being known as an object itself; the concept is that by which we know, not that which we know.
-63. Saussure makes what is signified be a concept and stops there; the classical reply rests on John of St. Thomas’s doctrine of signs.
-64. If the concept is a formal sign, then signification cannot end in the concept, because a formal sign consists entirely in leading to something else.
-65. So Saussure’s account treats the concept as the end point of signification, whereas the classical account holds that through the concept the word signifies the thing; this difference concerns not the facts of language but what signification is.
-66. Bloomfield sought to describe languages by strict procedures based on the observable forms of speech.
-67. Because meaning could not be observed in the same way, he and his followers set it aside as far as possible and described each language by the distribution of its sounds and forms.
-68. Bloomfield analyzed sentences into their immediate constituents, dividing a sentence first into two parts and then each part into its parts.
-69. This analysis resembles the classical division of the sentence into subject and predicate, but it was made without appeal to meaning, whereas the classical analysis rests on signification throughout.
-70. Chomsky proposed that a grammar of a language should be a set of rules that generates all the grammatical sentences of the language and none of the ungrammatical ones; such a grammar is called **generative**.
-71. Chomsky argued that a speaker’s knowledge of grammar is independent of meaning, since a sentence can be grammatical though it makes no sense.
-72. The classical grammarians likewise distinguished congruity from truth, so that a sentence can be congruous though false.
-73. The modists would add that such a sentence is congruous because its words fit one another by their modes of signifying, one adhering as a quality and the other bearing it, whatever the words mean, so for them grammar is never wholly independent of signification.
-74. A generative grammar divides the sentence into its constituents by rules called **phrase-structure rules**, the first of which may state that a sentence consists of a noun phrase and a verb phrase (S → NP VP).
-75. Further rules divide each phrase, and the result can be drawn as a tree, with the sentence at the top and the words at the bottom.
-76. The phrase-structure tree groups words into phrases, whereas the dependency diagram of Thomas and Tesnière joins each word to the word on which it depends; the two describe the same sentence in different ways, and modern linguists continue to debate which is more fundamental.
-77. Chomsky proposed rules called **transformations**, which relate one structure to another and derive the one form from the other (the passive from the active).
-78. Questions and negations were also derived by transformations from simpler structures.
-79. The classical grammarians had observed the same relations without this apparatus, and Chomsky’s transformations gave such observations a precise and general form.
-80. Chomsky distinguished a speaker’s **competence**, the knowledge of the language, from his **performance**, the actual use of that knowledge, which is affected by memory, attention, and error.
-81. The distinction resembles Saussure’s between *langue* and *parole*, but competence belongs to the individual mind, whereas the *langue* belongs to the community.
-82. Chomsky also distinguished the **deep structure** of a sentence, which represents its relations of meaning, from its **surface structure**, the form in which it is spoken.
-83. Two sentences can have the same surface form but different deep structures (“John is easy to please” and “John is eager to please”), and the classical analysis by dependences and sense distinguishes them in the same way.
-84. Chomsky argued that the evidence a child hears is too poor to account for what the child comes to know, so the structure common to all languages must be part of the human mind from birth; this is the argument from the poverty of the stimulus.
-85. His universal grammar is therefore a theory of the mind.
-86. Some linguists hold that children learn more from what they hear than Chomsky supposed, and that general powers of learning suffice.
-87. The classical tradition asks a different question: not only what the mind must contain to learn a language, but why the categories of language are what they are, i.e. why there are nouns, why there are verbs, etc., which it answers from the modes of understanding and of being (there are nouns because there are stable beings, there are verbs because there are actions and receptions of action, etc.).
-88. Chomsky proposed that universal grammar consists of **principles**, which hold for every language, and **parameters**, which have a small number of possible settings, fixed differently in different languages.
-89. One proposed parameter concerns the position of the head of a phrase, the word on which the others depend: English places the head first, and Japanese places it last, so that it has postpositions in place of prepositions.
-90. The setting of one parameter can explain Greenberg’s observation that the order of verb and object goes together with the order of preposition and noun.
-91. The proposal resembles Roger Bacon’s claim that grammar is one in substance and differs in accidents, with the principles in the place of the substance and the parameters in the place of the accidents.
-92. The minimalist program seeks to reduce universal grammar to as few operations as possible.
-93. Its central operation is **Merge**, which takes two elements and combines them into one, and repeated Merge builds every structure of every language.
-94. This recalls Thomas of Erfurt’s doctrine that every construction joins two words, one depending and one terminating, so the modern and the medieval accounts arrive, by different routes, at the binary construction as the basic unit of syntax.
-95. Generative grammar and the classical art agree that there is a grammar common to all languages, that a science of it is possible, and that the sentence is built by regular relations among its parts.
-96. Generative grammar studies the form of sentences, largely apart from their meaning, and grounds universal grammar in the biology of the human mind.
-97. The classical art studies sentences as signs, whose forms follow their modes of signifying, and grounds the common grammar in the things that all minds understand.
-98. So generative grammar asks what the mind must contain to acquire any language, whereas the classical art asks why the categories of language are what they are, and each reaches something the other leaves aside.
-99. Tesnière describes the sentence as a set of words depending on words, drawn as a tree (*stemma*), and measures the number of words a verb requires by its **valency**.
-100. His dependency grammar is the modern heir of the medieval doctrine of the dependent and the terminant, though Tesnière did not draw on the modists directly.
-101. Tesnière’s **translation**, in his technical sense, is the process by which a word or phrase of one category is made to function as another (“of” makes the noun in “the book of Peter” function as an adjective).
-102. Dependency grammar is widely used, especially in the computer analysis of language, because it describes the relations among words directly and works well for languages with free word order.
-103. The project called Universal Dependencies has annotated sentences in more than a hundred languages with the same set of dependency relations, so that their constructions can be compared.
-104. In these modern systems, as in Tesnière, the verb is usually the root of the sentence, and the subject and objects depend on it, whereas Thomas of Erfurt makes the verb depend on its subject and object.
-105. So the direction of a dependence is a question of theory: the modern systems follow the verb’s central place in the sentence, and Thomas follows the verb’s mode of signifying, which requires a subject.
-106. Thomas and Tesnière agree on most dependences, the adjective on its noun, the adverb on its verb, the article on its noun, and the object in a relation to its verb, and they agree that every construction joins two words.
-107. They differ chiefly on the relation of the verb to its subject, and on the reason for the dependences.
-108. For Thomas, a word depends on another because its mode of signifying requires what the other supplies, so the reason lies in signification; for Tesnière, the reason lies in the structure of the sentence itself.
-109. So modern dependency grammar describes the same relations that the modists described, but it does not ask the modists’ question why the relations hold.
-110. Greenberg classified languages by the order of subject, verb, and object, and found that other facts of order go together with it.
-111. Many of his universals are **implicational**: they state that if a language has one property, it has another (languages with the order verb, subject, object always have prepositions).
-112. Such universals do not say that every language has a given property; they say how properties are related.
-113. They differ from the universals of the general grammarians, who sought properties present in every language, and typology has shown that implicational universals are far more common than absolute ones.
-114. Modern typology refines the classification of Humboldt and the Schlegels.
-115. An **isolating** language has words that do not change their form, so its relations are shown by order and by particles.
-116. An **agglutinating** language adds a separate piece for each meaning.
-117. A **fusional** language joins several meanings in one ending.
-118. A **polysynthetic** language can express in one long word what English expresses in a sentence.
-119. These types are tendencies, not fixed or pre-determined patterns that a language has to follow, and they describe how much each language does by endings and how it combines them (English is now largely isolating but keeps some fusional forms).
-120. Latin marks the subject of every verb in the nominative and the object in the accusative.
-121. An **ergative** language marks the subject of a transitive verb with a special ending but treats the subject of an intransitive verb like the object of a transitive one.
-122. The ergative pattern shows that the grouping of subject against object is one possibility among others.
-123. The relations of doer, thing done, and the one who undergoes are present in every language, but languages group them differently in their endings, so the facts of construction are common, whereas their marking varies.
-124. Comrie distinguishes universals that hold without exception from those that hold for most languages.
-125. An **absolute universal** holds for every known language; few have been found, and they are often very general (every language has vowels).
-126. A **statistical universal** holds for most languages (the tendency of languages with the order subject, object, verb to have postpositions).
-127. A universal can be tested only on a sample of languages chosen from many families and regions, because languages that are related or neighbors share properties by inheritance or by contact.
-128. So the modern search for universals is a careful comparison of many languages, and its results are often tendencies rather than laws, which is a caution for any universal grammar, classical or modern.
-129. Typology has found grammatical categories that the classical grammarians never met, such as **evidentials**, which mark on the verb how the speaker knows what he says, and **classifiers**, used when counting.
-130. Languages differ in which accidents they mark, so a grammar of Latin does not contain every category that a grammar of all languages would need.
-131. The classical account can call such categories accidents, whereas a modern linguist may regard some of them as deeper; either way, the list of accidents is not fixed by one language.
-132. Roger Bacon held that grammar is one and the same in substance in all languages, though it varies in its accidents, and typology supplies the evidence on which this claim can be tested.
-133. Typology shows that languages differ widely in their sounds, their ways of building words, their order, and the categories they mark.
-134. It also shows that every known language has means of naming things and of saying something about them, of distinguishing what acts from what is acted upon, of negating, and of asking.
-135. So typology bears out the classical claim as Bacon stated it: the relations that grammar expresses are common to all languages, whereas the means of expressing them are accidents that vary.
-136. Whether the parts of speech themselves, especially the distinction of noun and verb, are found in every language has been disputed, and the answer depends partly on how the parts are defined, by their forms or by their modes of signifying.
-137. **Functional** accounts of grammar explain the forms of a language by the uses to which language is put: to represent things, to address others, and to build a connected text.
-138. **Formal** accounts, such as Chomsky’s, describe the forms of a language apart from their uses.
-139. The tradition distinguished the functions of language, and Bühler and Jakobson classified them; functional grammar goes further and seeks to explain the grammatical forms themselves, such as the order of words or the choice of voice, by the functions they serve.
-140. Linguists of the Prague School observed that a sentence usually begins with what is already known or under discussion, called the **theme**, and continues with what is new, called the **rheme**.
-141. So the choice of voice and order serves to place the known before the new.
-142. The Arabic distinction of topic and comment and the Latin placing of emphatic words first or last describe the same arrangement of a sentence for the hearer, which explains why the same thought is often expressed by different constructions in different contexts.
-143. Halliday held that every clause serves three functions at once, which he called metafunctions.
-144. The **ideational** function represents things and events: who did what to whom.
-145. The **interpersonal** function establishes a relation between speaker and hearer: whether the clause states, asks, or commands, and with what attitude.
-146. The **textual** function joins the clause to the text around it: what is theme and what is new.
-147. Bühler’s representation corresponds to the ideational function and his appeal to the hearer to the interpersonal, whereas the textual function adds what the classical rhetoricians treated under the arrangement of words.
-148. So Halliday’s account brings together, within the grammar of the clause, what the tradition divided among grammar, logic, and rhetoric.
-149. Several modern theories describe the relations of the participants in an action as **semantic roles**, such as the agent, the instrument, the experiencer, the location, the goal, and the recipient.
-150. These roles are distinguished from the grammatical subject and object, since the agent can be the subject or not (an active and a passive sentence).
-151. The semantic roles closely resemble Pāṇini’s kārakas, roles in the action distinct from the endings that mark them, and the uses of the Latin cases, such as the ablative of means and the ablative of agent.
-152. So modern linguistics has rediscovered, in its own terms, a distinction that the Indian grammarians made central more than two thousand years earlier.
-153. Formal and functional accounts are often presented as rivals, but they answer different questions: a formal account asks what the structures of a language are and what rules generate them, and a functional account asks why the structures are as they are, by what they do.
-154. The classical art combined something of both, describing the forms of words and constructions precisely and explaining them by their signification and their use.
-155. The modists’ explanation of the parts of speech by their modes of signifying is in this sense a functional explanation, though its functions are those of signifying rather than of communicating.
-156. Some sentences do not describe an action but perform it; Austin called such utterances **performatives**, and he distinguished them from **constatives**, which state that something is so and are true or false.
-157. Only the statement is true or false, and Austin’s performatives add another kind of sentence that is neither true nor false: one that accomplishes what it says.
-158. A performative can succeed or fail, as a naming fails if the speaker has no authority to name, but it cannot be false.
-159. Austin argued that every utterance performs several acts at once.
-160. The **locutionary** act is the saying of a sentence with a certain sense and reference.
-161. The **illocutionary** act is what is done in saying it, such as a statement, a warning, a promise, or a command.
-162. The **perlocutionary** act is what is brought about by saying it, the effect on the hearer.
-163. The illocutionary act corresponds to what the tradition called the kind of sentence, and the perlocutionary act belongs to what Aristotle assigned to rhetoric, so grammar, logic, and rhetoric each consider one aspect of every utterance.
-164. Searle classified illocutionary acts into five kinds.
-165. **Assertives** commit the speaker to the truth of something; **directives** attempt to get the hearer to do something; and **commissives** commit the speaker to a future action.
-166. **Expressives** express a feeling, and **declarations** bring about what they say.
-167. St. Thomas’s enunciative sentence corresponds to the assertive, the imperative and the deprecative to the directive, and the expression of feeling to the expressive.
-168. The commissive and the declaration are kinds that the medieval account did not distinguish separately.
-169. A sentence of one grammatical kind is often used to perform an act of another kind; Searle called such utterances **indirect speech acts**, in which the speaker performs one act by means of another (a request made as a question).
-170. Irony says the contrary of what the words say, whereas an indirect speech act does not reverse the sense but uses a polite or customary form for the act intended.
-171. So the mood and form of a sentence mark its usual function, but the speaker’s intention, known from the context, decides what act is performed.
-172. The theory of speech acts belongs chiefly to the philosophy of language, but it bears on grammar because languages mark the kinds of act in their forms.
-173. The moods of the verb mark statements, commands, and wishes, and English and Latin mark questions by order and by particles.
-174. Performative verbs are used in the first person present to perform the act they name.
-175. So the grammar of a language provides the means by which speakers perform their acts, and the classical grammarians, who placed the moods among the accidents of the verb, and the modists, who explained mood as the inclination of the mind, already treated the speaker’s act as a part of grammar.
-176. The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.
-177. Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.
-178. The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.
-179. Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.
-180. Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.
-181. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.
-182. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.
+210. Since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics.
+211. The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.
+212. Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.
+213. The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.
+214. Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.
+215. Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.
+216. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.
+217. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.

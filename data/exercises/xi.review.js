@@ -1,4 +1,4 @@
-/* Section Review: Other Traditions and Modern Grammar [xi.review]  Section review opened from its own button, after XI.2. Written 45 items in three fixed sets. */
+/* Section Review: Other Traditions and Modern Grammar [xi.review]  Section review opened from its own button, after XI.2. Written 25 items in three fixed sets (9, 8, 8). 30 Oct 2026: xi.modern dissolved; its 21 items moved to the earlier reviews, and rxi-A09 now points at xi.traditions (panel had-lacked, which names the three ways). */
 window.ARS = window.ARS || {};
 ARS.exercises = ARS.exercises || {};
 ARS.exercises['xi.review'] = {
@@ -11,10 +11,6 @@ ARS.exercises['xi.review'] = {
  "covers": [
   {
    "deck": "xi.traditions",
-   "cards": []
-  },
-  {
-   "deck": "xi.modern",
    "cards": []
   }
  ],
@@ -31,8 +27,7 @@ ARS.exercises['xi.review'] = {
  },
  "limit": "Only what XI.1 and XI.2 teach.",
  "balancePerSet": {
-  "xi.traditions": 8,
-  "xi.modern": 7
+  "xi.traditions": "8–9"
  },
  "instr": "Choose the answer.",
  "items": [
@@ -159,7 +154,7 @@ ARS.exercises['xi.review'] = {
   {
    "id": "rxi-A09",
    "set": "A",
-   "deck": "xi.modern",
+   "deck": "xi.traditions",
    "type": "mc",
    "prompt": "Which question belongs to philology, among the three ways of studying language?",
    "options": [

@@ -1,4 +1,4 @@
-/* Recitation outline for xi.traditions: 209 points. Written 20 Oct 2026 from the deck's final cards.
+/* Recitation outline for xi.traditions: 217 points. Written 20 Oct 2026 from the deck's final cards.
    Copied from data/decks/xi.traditions.js, where it is the deck-level field `recitation`. This file is not loaded by the page.
    Each string is one checkable point, shown with a check box; HTML as on the cards. */
   recitation: [
@@ -210,5 +210,13 @@
     `Each began from what was most evident in its language and writing: the bilingual match, the root and affix, the governor of the ending, the three-letter root, and the written character.`,
     `The traditions agree in some things: all distinguish words that name things from words that relate them; most distinguish the noun from the verb; and several connect the verb with becoming or action.`,
     `They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.`,
-    `Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question for the study of modern grammar.`
+    `Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question for the study of modern grammar.`,
+    `Since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics.`,
+    `The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.`,
+    `Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.`,
+    `The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.`,
+    `Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.`,
+    `Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.`,
+    `The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.`,
+    `Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`
   ],

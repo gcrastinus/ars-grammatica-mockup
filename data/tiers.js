@@ -96,7 +96,6 @@ ARS.tiers = {
   'x.review': 'proficient',
   /* General course, XI */
   'xi.traditions': 'comprehensive',
-  'xi.modern': 'comprehensive',
   'xi.review': 'comprehensive',
   /* English, bar prelim */
   'lang.prelim.en/overview': 'essentials',

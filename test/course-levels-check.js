@@ -260,7 +260,7 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('a record saved with one language is not changed by loading it', await ev(`(v => v.lang === 'grc' && v.lastLang === 'grc' && v.level === 'proficient' && !('langs' in v))(JSON.parse(localStorage.getItem('ars-grammatica-course-v2')).view || {})`));
 
   /* 5. an old record, from before the levels, loads unchanged */
-  const OLD = { dark:false, decks:{ 'i.sign':{ opens:2, done:true, doneAt:1761000000000 }, 'iii.parts':{ opens:1, done:true, doneAt:1761100000000 }, 'lang.ix.la/prose':{ opens:1, done:true, doneAt:1761200000000 }, 'xi.modern':{ opens:1, done:true, doneAt:1761300000000 } },
+  const OLD = { dark:false, decks:{ 'i.sign':{ opens:2, done:true, doneAt:1761000000000 }, 'iii.parts':{ opens:1, done:true, doneAt:1761100000000 }, 'lang.ix.la/prose':{ opens:1, done:true, doneAt:1761200000000 }, 'xi.traditions':{ opens:1, done:true, doneAt:1761300000000 }, 'xi.modern':{ opens:1, done:true, doneAt:1761250000000 } },
     ex:{ 'ii.ex.syllable':{ visits:3, done:true, doneAt:1761000000000 }, 'iii.ex.parts':{ visits:2, done:true, lvisits:{ 1:1, 2:1 }, level:2 } },
     boxes:{ 'syl-A01':{ box:2, dueAt:1761500000000, deck:'ii.syllable', section:'ii' } }, recitations:{ unlocked:{}, items:{ 'i.sign':{ text:'A sign is', at:1761000000000 } } } };
   const OLDGP = { schemaVersion:2, app:'ars-grammatica', settings:{ trackingEnabled:true }, recall:{}, sets:{ 'ii.ex.syllable':{ state:'mastered', seen:20, correct:20, history:[{ date:'2026-01-01', correct:true, item:'x', level:1 }], mhist:[{ date:'2026-01-02', correct:true, item:'y', level:1 }], passedOn:'2026-01-01', masteredOn:'2026-01-02' }, 'iii.ex.parts':{ state:'passed', seen:30, correct:30, history:[], mhist:[], passedOn:'2026-01-03', masteredOn:null } } };
@@ -274,13 +274,30 @@ const LANGS = ['en', 'la', 'grc', 'es', 'de', 'fr'];
   check('old record: decks, exercises, boxes, and recited texts unchanged', keep('decks') && keep('ex') && keep('boxes') && JSON.stringify(stripQuick(after.recitations.items)) === JSON.stringify(OLD.recitations.items), Object.keys(after).join(','));
   /* Quick then Full (Oct 30, 2026): an old recitation is marked Quick done once (quickDoneAt, with recitations.quickMigrated); nothing else changes. */
   check('old record: an old recitation counts as Quick done, once', after.recitations.quickMigrated === 1 && !!after.recitations.items['i.sign'].quickDoneAt);
-  check('old record: only the new fields were added', Object.keys(after).every(k => k in OLD || ['view', 'levels', 'reciteNudges'].includes(k)));
+  check('old record: only the new fields were added', Object.keys(after).every(k => k in OLD || ['view', 'levels', 'reciteNudges', 'xiModernRemoved'].includes(k)));
   check('old record: the old Guided record is read: a star stays a star', await ev(`GP.stateOf('ii.ex.syllable')`) === 'mastered');
   check('old record: a pass at Stage II counts at Proficient and above, and Essentials asks for Stage I', await ev(`(() => { const e = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('proficient'); const p = GP.stateOf('iii.ex.parts'); ARS.CL.setLevel('essentials'); return e !== 'passed' && e !== 'mastered' && p === 'passed'; })()`));
   check('old record: the Guided record is not rewritten by reading it', await ev(`localStorage.getItem('ars-grammatica-guided')`) === JSON.stringify(OLDGP));
   await ev(`ARS.CL.setLevel('comprehensive'); true`);
   check('old record: a reading collection finished whole shows done at Comprehensive', await ev(`(() => { openLang('lang.ix.la'); const c = document.querySelector('#lang-grid .set-card[data-id="lang.ix.la/prose"] .begin'); const r = !!c && c.classList.contains('is-done'); leaveLang(); return r; })()`));
-  check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="xi.modern"] .begin.is-done')`));
+  check('old record: a finished deck shows done', await ev(`!!document.querySelector('#home-acts .set-card[data-id="xi.traditions"] .begin.is-done')`));
+  /* xi.modern was dissolved (30 Oct 2026): the old record of it stays in store.decks, shows nowhere, and does no harm */
+  check('old record: the removed deck xi.modern has no button, and its record is kept', await ev(`!document.querySelector('[data-id="xi.modern"]')`) && !!after.decks['xi.modern']);
+
+  /* 6a. phantom boxes of xi.modern review items are removed once; rxi-A09 moves to xi.traditions */
+  const PH = { dark:false, decks:{ 'xi.traditions':{ opens:1, done:true, doneAt:1761300000000 }, 'xi.modern':{ opens:1, done:true, doneAt:1761300000000 } }, ex:{},
+    boxes:{ 'rxi-B10':{ box:1, dueAt:1761400000000, deck:'xi.modern', section:'xi' }, 'rxi-C15':{ box:2, dueAt:1761400000000, deck:'xi.modern', section:'xi' },
+            'rxi-A09':{ box:1, dueAt:1761400000000, deck:'xi.modern', section:'xi' }, 'rxi-A01':{ box:1, dueAt:4102444800000, deck:'xi.traditions', section:'xi' } } };
+  await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(PH))}); true`);
+  await b.goto('index.html'); await ready(); await b.sleep(300);
+  const ph = await ev(`JSON.parse(localStorage.getItem('ars-grammatica-course-v2'))`);
+  check('phantom boxes: xi.modern items removed once, rxi-A09 moved to xi.traditions', ph.xiModernRemoved === true && !ph.boxes['rxi-B10'] && !ph.boxes['rxi-C15'] && ph.boxes['rxi-A09'].deck === 'xi.traditions' && ph.boxes['rxi-A01'].deck === 'xi.traditions', JSON.stringify(ph.boxes));
+  /* a box tagged xi.modern after the cleanup (as by an old tab) is not removed again */
+  await ev(`(() => { const s = JSON.parse(localStorage.getItem('ars-grammatica-course-v2')); s.boxes['rxi-B11'] = { box:1, dueAt:1, deck:'xi.modern', section:'xi' }; localStorage.setItem('ars-grammatica-course-v2', JSON.stringify(s)); return true; })()`);
+  await b.goto('index.html'); await ready(); await b.sleep(300);
+  check('phantom boxes: the cleanup runs only once', await ev(`!!JSON.parse(localStorage.getItem('ars-grammatica-course-v2')).boxes['rxi-B11']`));
+  await ev(`localStorage.clear(); localStorage.setItem('ars-grammatica-course-v2', ${JSON.stringify(JSON.stringify(OLD))}); localStorage.setItem('ars-grammatica-guided', ${JSON.stringify(JSON.stringify(OLDGP))}); localStorage.setItem('ars-grammatica-path', 'guided'); true`);
+  await b.goto('index.html'); await ready(); await b.sleep(300);
 
   /* 7. the rows and the menus */
   await ev(`GP.setPath('practice'); ARS.CL.setLevel('essentials'); ARS.CL.setLang('en'); window.scrollTo(0, 0); true`);

@@ -1,5 +1,8 @@
 /* XI.1 The Other Classical Traditions [xi.traditions]
    Plan (ITEM-LIST.md): 56 panels (scribal lists 6, Sanskrit 13, Arabic 13, Hebrew 12, Chinese 12), 18 question points.
+   30 Oct 2026 (xi.modern dissolution): 58 panels, 19 question points; the closing panels of xi.modern, had-lacked (with one
+   opening sentence from xi.modern three-ways) and end (with its question q-end), follow traditions-compare; Full points 210 to 217
+   are xi.modern R1 (shortened to name the three ways) and R176 to R182. Full only: Quick has no card for them.
    No exercise.
    Live material drawn on: DECKS.scribal (33), DECKS.vyakarana (34), DECKS.nahw (30), DECKS.xiaoxue (31), each cut to the
    target; DECKS.quaestiones for the question-point topics. Hebrew is new, built from the sources named in ITEM-LIST.md.
@@ -223,6 +226,14 @@ ARS.decks['xi.traditions'] = {
     `The traditions agree in some things: all distinguish words that name things from words that relate them; most distinguish the noun from the verb; and several connect the verb with becoming or action.`,
     `They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.`,
     `Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question for the study of modern grammar.`,
+    `Since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics.`,
+    `The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.`,
+    `Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.`,
+    `The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable.`,
+    `Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written.`,
+    `Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone, and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it.`,
+    `The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things.`,
+    `Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages, and these are the reasons that the tradition gave for studying grammar first among the liberal arts.`,
   ],
   panels: [
 
@@ -824,7 +835,33 @@ ARS.decks['xi.traditions'] = {
   title: 'The five traditions together',
   body: `<p>We have now seen five classical traditions besides the Greek and Latin one. Each arose to keep and understand a classical language and its texts: Sumerian for the Babylonian scribes, the Veda for the Indian grammarians, the Qurʾān for the Arabic, the Bible for the Hebrew, and the classics for the Chinese. Each began from what was most evident in its language and writing: the bilingual match, the root and affix, the governor of the ending, the three-letter root, and the written character.</p>
 <p>The traditions agree in some things. All distinguish words that name things from words that relate them; most distinguish the noun from the verb, and several connect the verb with becoming or action. They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction. Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question for the study of modern grammar.</p>`,
-  src: `General comparison.` }
+  src: `General comparison.` },
+
+{ id: 'had-lacked',
+  title: 'What each age had, and lacked',
+  body: `<p>Since the late Middle Ages, language has been studied in three principal ways: the <strong>classical art</strong>, <strong>philology</strong>, and <strong>modern linguistics</strong>. The twentieth century found things that the thirteenth did not: phonology, the study of sounds as a system of contrasts; a clear account of the structure of words; the grouping of words into constituents; the comparison of hundreds of languages and the discovery of their tendencies; and a serious study of how children acquire a language. Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.</p>
+<p>The thirteenth century had something that modern linguistics mostly set aside: the question why the categories of grammar are these categories, and the refusal to treat that question as unanswerable. John of St. Thomas, writing after speculative grammar had been abandoned, still would not let signification stop at a concept with no further reach. So each age saw what the other did not, and the student who knows both can hold together the modern discoveries and the classical questions.</p>`,
+  src: `General comparison, in paraphrase.` },
+
+{ id: 'end',
+  title: 'Grammar as a liberal art',
+  body: `<p>Grammar is the art of speaking and writing correctly and of understanding what others have spoken and written. This course has studied it in its parts: the definition and tasks of grammar, the sign, the material of speech, the parts of speech and their reasons, the formation of words, construction, correctness and its errors, the figures and tropes, signification and supposition, analysis, composition, and the other traditions and the modern study of language.</p>
+<p>Whether grammar is in an important sense one in all languages is still a question on which both medieval thinkers and many modern linguists agree, although it is not accepted by everyone; and modern linguistics has certainly both challenged this claim with new evidence and also given new evidence in favor of it. The classical art as such does stand by its central insights: words are signs of what the mind understands, and that the mind understands things. Because these are true, it is possible to learn another language, to translate, and to read the authors of other ages; and these are the reasons that the tradition gave for studying grammar first among the liberal arts.</p>`,
+  src: `General conclusion.`,
+  qp: { id: 'q-end', variants: [
+    { prompt: `What does the classical art claim that all languages share?`,
+      options: [`The same words for the same things everywhere`, `The same sounds and letters`, `The same number of cases`, `The relations that grammar expresses`],
+      answer: 3,
+      explain: `The classical claim, as Bacon stated it, is that the relations grammar expresses are common to all languages, whereas the means of expressing them vary.` },
+    { prompt: `What has modern linguistics found that bears on the classical claim?`,
+      options: [`That all languages have one and the same grammar`, `That no two languages share anything`, `Wide variety of means, with common relations`, `That only Latin has grammar`],
+      answer: 2,
+      explain: `Typology has shown that languages differ widely in their sounds, forms, orders, and categories, but that they share means of naming, predicating, negating, and asking.` },
+    { prompt: `On what conviction does the classical art finally rest?`,
+      options: [`Every language has the eight parts of speech of Donatus`, `Words are signs of what the mind understands`, `Latin is the model of every language`, `Grammar is independent of meaning`],
+      answer: 1,
+      explain: `The classical art rests on the claim that words are signs of what the mind understands, and that the mind understands things; so translation and the reading of other ages are possible.` }
+  ] } }
 
   ]
 };

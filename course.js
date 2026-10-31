@@ -55,6 +55,24 @@ const store = (() => {
 })();
 function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
 function courseStore(){ return store; }
+/* 30 Oct 2026: the deck xi.modern was dissolved into the earlier sections. Its review items (rxi-A10 to rxi-C15) were
+   rewritten under new ids in the earlier reviews, so their old Leitner boxes would count as due items that no sitting can
+   show. A one-time cleanup, marked by store.xiModernRemoved, deletes those boxes and moves rxi-A09, which stays in
+   xi.review, to xi.traditions. The old record of the deck in store.decks is left alone; it shows nowhere and does no harm. */
+(function xiModernCleanup(){
+  if (store.xiModernRemoved) return;
+  const boxes = store.boxes || {};
+  let changed = false;
+  Object.keys(boxes).forEach(id => {
+    const b = boxes[id];
+    if (!b || b.deck !== 'xi.modern') return;
+    if (id === 'rxi-A09') { b.deck = 'xi.traditions'; b.section = 'xi'; }
+    else delete boxes[id];
+    changed = true;
+  });
+  store.xiModernRemoved = true;
+  if (changed) save();
+})();
 const $ = id => document.getElementById(id);
 const FORMS = ['A', 'B', 'C'];
 const KIND = { 'study':'Study', 'study-ex':'Study and exercise', 'exercise':'Exercise', 'review':'Section review', 'models':'Models', 'overview':'Overview' };

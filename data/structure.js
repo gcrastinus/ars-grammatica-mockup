@@ -1,4 +1,4 @@
-/* The order of the whole course: 73 buttons (ITEM-LIST.md's 71, with section reviews added for I, VIII, IX, X, and XI on Timothy's instruction, 17 Oct 2026;
+/* The order of the whole course: 72 buttons (ITEM-LIST.md's 71, with section reviews added for I, VIII, IX, X, and XI on Timothy's instruction, 17 Oct 2026;
    the Section I exercise merged into its review, 18 Oct; the Nouns and Verbs exercise tiles split by deck into the Exercise
    buttons of iii.noun-1, iii.noun-2, iii.verb-1, and iii.verb-2, 19 Oct 2026).
    Each item has a stable id (never changed when a title or a position changes; progress is stored under it).
@@ -151,11 +151,10 @@ ARS.structure = [
  langBars:[
    { id:'x', after:'cumul', heading:'The grammars of the particular languages' }
  ]},
- { id:'xi', roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar',
-   gloss:'The other classical grammars, and the modern study of universal grammar.',
+ { id:'xi', roman:'XI', latin:'De aliis traditionibus', name:'Other Traditions',
+   gloss:'The other classical grammars, and the close of the course.',
    items:[
    { id:'xi.traditions', kind:'study', built:true, title:'The Other Classical Traditions', desc:'The scribal lists, and the Sanskrit, Arabic, Hebrew, and Chinese grammatical traditions.' },
-   { id:'xi.modern', kind:'study', built:true, title:'Universal Grammar and Modern Linguistics', desc:'From Port-Royal to the present: universal grammar, typology, and functional grammar.' },
-   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions and Modern Grammar', desc:'Forty-five questions on XI.1 and XI.2, in three fixed sets of fifteen.' }
+   { id:'xi.review', kind:'review', built:true, title:'Section Review: Other Traditions and Modern Grammar', desc:'Twenty-five questions on XI.1, in three fixed sets of nine, eight, and eight.' }
  ]}
 ];

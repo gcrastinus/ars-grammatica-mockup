@@ -98,10 +98,9 @@ const ACTS = [
    ['Imitation','Writing after a model author.'],
    ['Translation','Double translation: into another language and back again, compared with the original.'],
    ['Chreia and Maxim','The first exercises of composition: the saying and the deed, expanded.']]},
- {roman:'XI', latin:'De aliis traditionibus et grammatica recentiore', name:'Other Traditions and Modern Grammar', src:'Pāṇini, <i>Aṣṭādhyāyī</i>; Sībawayh, <i>al-Kitāb</i>; <i>Grammaire générale et raisonnée</i> (1660); Chomsky',
-  gloss:'The art seen from outside: the other classical grammars, and the modern heirs of universal grammar.',
-  topics:[['The Other Classical Traditions','The major differences from the Greco-Latin art: Sanskrit grammar and Pāṇini (<i>vyākaraṇa</i>), Arabic grammar (<i>naḥw</i>), Hebrew grammar, and Chinese philology (<i>xiaoxue</i>).'],
-   ['Universal Grammar and Modern Linguistics','From Port-Royal to Chomsky: universal grammar, structural and generative grammar, dependency grammar as heir of Thomas’s <i>dependens</i> and <i>terminans</i>, and speech acts.']]}
+ {roman:'XI', latin:'De aliis traditionibus', name:'Other Traditions', src:'Pāṇini, <i>Aṣṭādhyāyī</i>; Sībawayh, <i>al-Kitāb</i>',
+  gloss:'The art seen from outside: the other classical grammars.',
+  topics:[['The Other Classical Traditions','The major differences from the Greco-Latin art: Sanskrit grammar and Pāṇini (<i>vyākaraṇa</i>), Arabic grammar (<i>naḥw</i>), Hebrew grammar, and Chinese philology (<i>xiaoxue</i>).']]}
 ];
 
 let toastT = null;

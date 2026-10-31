@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SHOTS = os.path.join(ROOT, 'shots'); os.makedirs(SHOTS, exist_ok=True)
 KEY = 'ars-grammatica-course-v2'
-DECKS = ['x.imitation', 'xi.modern', 'xi.traditions', 'iii.reasons', 'ix.passages', 'v.clause', 'v.order', 'v.period', 'ix.sentences',
+DECKS = ['x.imitation', 'xi.traditions', 'iii.reasons', 'ix.passages', 'v.clause', 'v.order', 'v.period', 'ix.sentences',
          'iii.conjunction', 'v.figures', 'i.consignification', 'prelim.definition']
 DECKS = os.environ['DECKS'].split(',') if os.environ.get('DECKS') else DECKS
 SHOT_PREFIX = os.environ.get('SHOT_PREFIX', 'real')
@@ -92,8 +92,10 @@ def run(url):
     with sync_playwright() as p:
         b = p.chromium.launch(args=['--no-sandbox'])
         c = b.new_context(); pg = c.new_page(); pg.goto(url + 'index.html'); pg.wait_for_selector('#recite-open')
-        quick = pg.evaluate("window.__arsQuickRecitations")
-        check('61 decks loaded', len(quick) == 61, len(quick)); c.close()
+        # decks in the course with Quick lines; recitation-quick.js may still hold an entry for a removed deck
+        # (xi.modern, dissolved 30 Oct 2026) until integrate-quick regenerates it, and such an entry is never shown
+        quick = pg.evaluate("Object.keys(window.__arsQuickRecitations).filter(id => ARS.structure.some(s => s.items.some(i => i.id === id)))")
+        check('60 decks loaded', len(quick) == 60, len(quick)); c.close()
         for width in (1280, 390):
             for dark in (False, True):
                 tag = '%d-%s' % (width, 'dark' if dark else 'light')
