@@ -5106,5 +5106,302 @@ window.__arsQuickRecitations = /*DATA*/{
         46
       ]
     }
+  ],
+  "xi.neareast": [
+    {
+      "html": "Other peoples besides the Greeks and Romans made the words of a classical language the object of a school study, and some did so long before Donatus.",
+      "card": 1,
+      "from": [
+        1
+      ]
+    },
+    {
+      "html": "The scribes of Mesopotamia, who spoke Akkadian, kept Sumerian as a language of learning, some two thousand years before Donatus.",
+      "card": 2,
+      "from": [
+        6
+      ]
+    },
+    {
+      "html": "Middle Egyptian, spoken from about 2100 BC for some five centuries, was the classical stage, and it remained the language of monuments and of the school long after it ceased to be spoken.",
+      "card": 7,
+      "from": [
+        29
+      ]
+    },
+    {
+      "html": "Hieroglyphic writing mixes logograms, which write whole words, often with a stroke, and phonograms, which write one, two, or three consonants.",
+      "card": 9,
+      "from": [
+        35
+      ]
+    },
+    {
+      "html": "Egyptian nouns are masculine or feminine, and the feminine usually ends in <i>-t</i>.",
+      "card": 11,
+      "from": [
+        42
+      ]
+    },
+    {
+      "html": "Egyptian has no case endings, so it shows the genitive by placing the nouns.",
+      "card": 13,
+      "from": [
+        48
+      ]
+    },
+    {
+      "html": "Many Egyptian sentences have no verb, and they are divided by their predicate into adverbial, nominal, and adjectival sentences.",
+      "card": 14,
+      "from": [
+        51
+      ]
+    },
+    {
+      "html": "In the Middle Egyptian sentence with a verb, the verb comes first, then the subject, then the object.",
+      "card": 17,
+      "from": [
+        59
+      ]
+    },
+    {
+      "html": "The Babylonian and Egyptian scribes both kept a classical language in a school after speech had moved on, as the West kept Latin.",
+      "card": 19,
+      "from": [
+        66
+      ]
+    }
+  ],
+  "xi.sanskrit": [
+    {
+      "html": "The central work of the tradition is Pāṇini’s <i>Aṣṭādhyāyī</i> (“The Eight Chapters”), composed perhaps in the fourth century BC; before it stands Yāska’s <i>Nirukta</i>, and after it come Patañjali’s Great Commentary and Bhartṛhari’s <i>Vākyapadīya</i>.",
+      "card": 1,
+      "from": [
+        4
+      ]
+    },
+    {
+      "html": "Donatus teaches grammar by questions and answers, defining each part of speech and naming its accidents, but Pāṇini’s grammar does not explain.",
+      "card": 2,
+      "from": [
+        6
+      ]
+    },
+    {
+      "html": "The sounds were classified by the place in the mouth where they are made and by the manner of making them, and the Devanagari alphabet is arranged in that order, the vowels first and then the consonants by their place, from the throat to the lips.",
+      "card": 3,
+      "from": [
+        12
+      ]
+    },
+    {
+      "html": "When two sounds meet in Sanskrit, at the end of one word and the beginning of the next or within a word, they often change; this change is called <strong>sandhi</strong> (“putting together”), and its rules are part of the grammar.",
+      "card": 4,
+      "from": [
+        15
+      ]
+    },
+    {
+      "html": "The Indian grammar derives almost every form from a root (<i>dhātu</i>) and one or more affixes (<i>pratyaya</i>); the roots are listed in a separate catalogue with their meanings.",
+      "card": 7,
+      "from": [
+        27
+      ]
+    },
+    {
+      "html": "The center of Pāṇini’s syntax is the doctrine of the <strong>kārakas</strong> (“factors” of an action); a kāraka is a role that a thing plays in the action signified by the verb.",
+      "card": 8,
+      "from": [
+        30
+      ]
+    },
+    {
+      "html": "Because the endings mark the roles, Sanskrit, like Latin, can change the order of the words without changing the sense.",
+      "card": 9,
+      "from": [
+        35
+      ]
+    },
+    {
+      "html": "The Sanskrit art differs in method and center: it is a system of rules that generates forms from roots, not a set of definitions; its syntax is centered on the kārakas, not on the cases; and it gives the sounds and their combinations a much larger place.",
+      "card": 13,
+      "from": [
+        47
+      ]
+    }
+  ],
+  "xi.arabic": [
+    {
+      "html": "Arabic grammar arose in the eighth century in Iraq, when the spread of Islam brought many speakers of other languages into the Arabic-speaking world, and errors in reading the Qurʾān and in ordinary speech made it necessary to describe and teach correct Arabic.",
+      "card": 1,
+      "from": [
+        2
+      ]
+    },
+    {
+      "html": "The founding work is the <i>Kitāb</i> (“The Book”) of Sībawayh, which described the Arabic of the Qurʾān, of the old poets, and of the Bedouin, whose speech was regarded as the standard.",
+      "card": 1,
+      "from": [
+        3
+      ]
+    },
+    {
+      "html": "Sībawayh counts three parts of speech: the noun (<i>ism</i>), the verb (<i>fiʿl</i>), and the particle (<i>ḥarf</i>), which comes for a meaning that is neither noun nor verb.",
+      "card": 2,
+      "from": [
+        5
+      ]
+    },
+    {
+      "html": "Most Arabic words are formed from a root of three consonants, which carries a general meaning, and a pattern of vowels and added letters, which gives the particular form.",
+      "card": 3,
+      "from": [
+        10
+      ]
+    },
+    {
+      "html": "The Arabic noun changes its final vowel according to its use in the sentence, and this change is called <strong>iʿrāb</strong> (“making Arabic,” that is, giving a word its correct ending).",
+      "card": 4,
+      "from": [
+        12
+      ]
+    },
+    {
+      "html": "The Arabic grammarians explained each ending by something that governs it, an <strong>ʿāmil</strong> (“operator,” “governor”), and called the word governed the <i>maʿmūl</i>.",
+      "card": 5,
+      "from": [
+        16
+      ]
+    },
+    {
+      "html": "A verbal sentence (<i>jumla fiʿliyya</i>) begins with a verb, and the verb governs the agent in <i>rafʿ</i> and the object in <i>naṣb</i>; the usual order is verb, agent, object.",
+      "card": 6,
+      "from": [
+        21
+      ]
+    },
+    {
+      "html": "A nominal sentence (<i>jumla ismiyya</i>) begins with a noun and may contain no verb at all.",
+      "card": 7,
+      "from": [
+        24
+      ]
+    }
+  ],
+  "xi.hebrew": [
+    {
+      "html": "Jewish scholars studied the text of the Hebrew Bible with great care from ancient times, but a systematic grammar of Hebrew appeared only in the tenth century, in the Islamic world, among scholars who applied the methods of Arabic grammar to Hebrew.",
+      "card": 1,
+      "from": [
+        1
+      ]
+    },
+    {
+      "html": "Before the grammarians came the <strong>Masoretes</strong> (from <i>masorah</i>, “tradition”), who fixed the text of the Hebrew Bible as it was to be read and added small signs for the vowels (<i>niqqud</i>, “points”) and for the accents, which mark both the stress of each word and the divisions of the verse for chanting.",
+      "card": 2,
+      "from": [
+        5
+      ]
+    },
+    {
+      "html": "The Hebrew grammarians took over the Arabic division of words into three parts: the noun (<i>shem</i>, “name”), the verb (<i>poʿal</i>, “action”), and the particle (<i>millah</i>).",
+      "card": 4,
+      "from": [
+        10
+      ]
+    },
+    {
+      "html": "Judah Ḥayyūj showed that Hebrew roots, like Arabic roots, consist regularly of three consonants.",
+      "card": 5,
+      "from": [
+        15
+      ]
+    },
+    {
+      "html": "The Hebrew verb is formed from its root in several patterns, which modern grammars call <strong>binyanim</strong> (“buildings”), each with its own meaning.",
+      "card": 8,
+      "from": [
+        24
+      ]
+    },
+    {
+      "html": "Like Arabic, Hebrew expresses possession by joining two nouns, the first in a shortened form called the <strong>construct state</strong> (<i>semikhut</i>, “leaning”).",
+      "card": 9,
+      "from": [
+        29
+      ]
+    },
+    {
+      "html": "Hebrew nouns have no case endings, so the construct state does the work that the Latin genitive does by an ending; Arabic marks annexation by changing both nouns, Hebrew by changing only the first.",
+      "card": 9,
+      "from": [
+        31
+      ]
+    },
+    {
+      "html": "Kimḥi’s grammar was clear, complete, and written in Hebrew, and it became the standard grammar of Hebrew for three centuries.",
+      "card": 10,
+      "from": [
+        35
+      ]
+    }
+  ],
+  "xi.chinese": [
+    {
+      "html": "There was no list of parts of speech and no account of case or conjugation, because classical Chinese has no inflection: its words do not change their form.",
+      "card": 1,
+      "from": [
+        3
+      ]
+    },
+    {
+      "html": "The Chinese tradition differs most from ours: our art begins with the voice and the letter, whereas the Chinese art begins with the written character, which is often a whole word, and studies its form, its sound, and its meaning.",
+      "card": 1,
+      "from": [
+        4
+      ]
+    },
+    {
+      "html": "The basic unit of written Chinese is the character, a written sign that usually stands for a single syllable and a single word or meaningful part of a word.",
+      "card": 2,
+      "from": [
+        6
+      ]
+    },
+    {
+      "html": "About AD 100 Xu Shen compiled the <i>Shuowen jiezi</i>, which explains about nine thousand characters, arranged under 540 components called <strong>radicals</strong>, according to the part of each character that indicates its meaning.",
+      "card": 2,
+      "from": [
+        8
+      ]
+    },
+    {
+      "html": "Chinese is a tonal language: the pitch of the voice on a syllable distinguishes words that are otherwise alike.",
+      "card": 7,
+      "from": [
+        25
+      ]
+    },
+    {
+      "html": "The nearest the traditional Chinese scholars came to parts of speech was the distinction between <strong>full words</strong> (<i>shízì</i>), which name a thing or an action, and <strong>empty words</strong> (<i>xūzì</i>), which do not name but have a function in the sentence.",
+      "card": 8,
+      "from": [
+        30
+      ]
+    },
+    {
+      "html": "Because classical Chinese has no inflection, its construction is shown almost entirely by the order of the words and by the empty words: the one who acts stands first, the action second, and the thing acted on last.",
+      "card": 10,
+      "from": [
+        36
+      ]
+    },
+    {
+      "html": "The traditional Chinese scholars made no list of parts of speech; the first to make one was Ma Jianzhong, a scholar trained in European grammar, in 1898.",
+      "card": 11,
+      "from": [
+        40
+      ]
+    }
   ]
 }/*END*/;

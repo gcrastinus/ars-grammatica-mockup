@@ -53,7 +53,7 @@
     `Each began from what was most evident in its language and writing: the bilingual match, the sign and its determinative, the root and affix, the governor of the ending, the three-letter root, and the written character.`,
     `The traditions agree in some things: all distinguish words that name things from words that relate them; most distinguish the noun from the verb; and several connect the verb with becoming or action.`,
     `They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.`,
-    `Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question that we have seen before, when we considered aspects of modern grammar and linguistics.`,
+    `Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question that we considered in Section VIII, with universal grammar and typology.`,
     `Since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics.`,
     `The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.`,
     `Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.`,

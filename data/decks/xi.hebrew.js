@@ -70,7 +70,7 @@ ARS.decks['xi.hebrew'] = {
 
 { id: 'saadia',
   title: 'Saadia Gaon',
-  body: `<p>Hebrew grammar began, as we have seen, among scholars who knew Arabic grammar. The first of them was Saadia ben Joseph (882–942), head of the academy of Sura in Babylonia and known by the title Gaon, who wrote the first works of Hebrew grammar and lexicography. His <i>Agron</i>, composed in his youth, is a list of Hebrew words arranged by their first and last letters, intended to help poets find rhymes; his <i>Book of the Elegance of the Language of the Hebrews</i>, written in Arabic, treated the grammar of Hebrew, though only parts of it survive.</p>
+  body: `<p>Hebrew grammar began among scholars who knew Arabic grammar. The first of them was Saadia ben Joseph (882–942), head of the academy of Sura in Babylonia and known by the title Gaon, who wrote the first works of Hebrew grammar and lexicography. His <i>Agron</i>, composed in his youth, is a list of Hebrew words arranged by their first and last letters, intended to help poets find rhymes; his <i>Book of the Elegance of the Language of the Hebrews</i>, written in Arabic, treated the grammar of Hebrew, though only parts of it survive.</p>
 <p>Saadia applied to Hebrew the categories of Arabic grammar, including the three parts of speech, and he compared Hebrew words with Aramaic and Arabic ones. So the first Hebrew grammarian was also, in a sense, the first comparative grammarian of the Semitic languages, since he saw that Hebrew, Aramaic, and Arabic share many roots and forms.</p>`,
   src: `Saadia Gaon, <i>Agron</i> and <i>Kutub al-lugha</i> (fragments), in paraphrase; general history.` },
 
@@ -164,8 +164,8 @@ ARS.decks['xi.hebrew'] = {
 
 { id: 'hayyuj',
   title: 'Judah Ḥayyūj',
-  body: `<p>The dispute over the root, as we have seen, was settled by Judah ben David Ḥayyūj (about 945 to about 1000), who lived in Córdoba. He wrote two treatises in Arabic on the Hebrew verbs whose roots contain weak letters and on the verbs whose second and third letters are the same. In them he established the principle that every Hebrew verb has a root of three consonants, and he explained the apparently irregular forms by rules of how the weak letters behave.</p>
-<p>Ḥayyūj’s principle made a systematic grammar of the Hebrew verb possible, because it allowed every form to be traced to a regular root. It is the Hebrew counterpart of the Arabic doctrine of the root that we saw in Sībawayh, and of the Sanskrit derivation from roots, although in Hebrew, as in Arabic, the root is a set of consonants into which vowels are inserted. Ḥayyūj’s works have no complete published English translation, and they are known chiefly through later grammarians.</p>`,
+  body: `<p>The dispute over the root, between Menahem ben Saruq and Dunash ben Labrat, was settled by Judah ben David Ḥayyūj (about 945 to about 1000), who lived in Córdoba. He wrote two treatises in Arabic on the Hebrew verbs whose roots contain weak letters and on the verbs whose second and third letters are the same. In them he established the principle that every Hebrew verb has a root of three consonants, and he explained the apparently irregular forms by rules of how the weak letters behave.</p>
+<p>Ḥayyūj’s principle made a systematic grammar of the Hebrew verb possible, because it allowed every form to be traced to a regular root. It is the Hebrew counterpart of the Arabic doctrine of the root, which goes back to Sībawayh (XI.3), and of the Sanskrit derivation from roots, although in Hebrew, as in Arabic, the root is a set of consonants into which vowels are inserted. Ḥayyūj’s works have no complete published English translation, and they are known chiefly through later grammarians.</p>`,
   src: `Judah Ḥayyūj, treatises on the weak and doubled verbs (no published English translation), in paraphrase.` },
 
 { id: 'ibn-janah',
@@ -221,7 +221,7 @@ ARS.decks['xi.hebrew'] = {
 { id: 'construct',
   title: 'The article and the construct state',
   body: `<p>Hebrew has a definite article, <i>ha-</i>, joined to the front of the noun: <i>melekh</i> (“a king”), <i>ha-melekh</i> (“the king”). Like Arabic, it expresses possession by joining two nouns, the first in a shortened form called the <strong>construct state</strong> (<i>semikhut</i>, “leaning”): <i>bayit</i> (“house”), but <i>beit ha-melekh</i> (“the house of the king”). The first noun loses its article and often changes its vowels, and the second noun carries the article for the whole phrase.</p>
-<p>Hebrew nouns have no case endings, so the construct state does the work that the Latin genitive does by an ending. We saw that Arabic marks annexation by changing both nouns; Hebrew marks it by changing only the first. So the three Semitic languages, Arabic, Hebrew, and Aramaic, share a construction that the Latin grammarians had no name for, and the Hebrew grammarians described it in terms taken from Arabic.</p>`,
+<p>Hebrew nouns have no case endings, so the construct state does the work that the Latin genitive does by an ending. Arabic marks annexation by changing both nouns (XI.3); Hebrew marks it by changing only the first. So the three Semitic languages, Arabic, Hebrew, and Aramaic, share a construction that the Latin grammarians had no name for, and the Hebrew grammarians described it in terms taken from Arabic.</p>`,
   src: `Standard grammars of Biblical Hebrew, in paraphrase.`,
   qp: {
     "id": "q-construct",
@@ -264,7 +264,7 @@ ARS.decks['xi.hebrew'] = {
 
 { id: 'kimhi',
   title: 'David Kimḥi',
-  body: `<p>Most of the early Hebrew grammars, as we have seen, were written in Arabic. David Kimḥi (about 1160 to about 1235), of Narbonne in Provence, known by the acronym Radak, wrote in Hebrew instead, for Jewish readers in Christian Europe who did not know Arabic. His <i>Mikhlol</i> (“Compendium”) has two parts, a grammar and a dictionary of roots, the <i>Sefer ha-Shorashim</i>, following the plan of Ibn Janāḥ. He also wrote commentaries on the Bible that apply his grammar to the explanation of the text.</p>
+  body: `<p>Most of the early Hebrew grammars, including those of Saadia and Ḥayyūj, were written in Arabic. David Kimḥi (about 1160 to about 1235), of Narbonne in Provence, known by the acronym Radak, wrote in Hebrew instead, for Jewish readers in Christian Europe who did not know Arabic. His <i>Mikhlol</i> (“Compendium”) has two parts, a grammar and a dictionary of roots, the <i>Sefer ha-Shorashim</i>, following the plan of Ibn Janāḥ. He also wrote commentaries on the Bible that apply his grammar to the explanation of the text.</p>
 <p>Kimḥi’s grammar was clear, complete, and written in Hebrew, and it became the standard grammar of Hebrew for three centuries. The grammar part of the <i>Mikhlol</i> was translated into English in 1952, and it is still the usual way into Kimḥi’s grammar for English readers. The Hebrew scholar William Chomsky, who wrote on Kimḥi’s grammar, was the father of the linguist Noam Chomsky, whose universal grammar we saw in Section VIII and whose early work included a study of the morphophonemics of Modern Hebrew.</p>`,
   src: `David Kimḥi, <i>Mikhlol</i> (trans. William Chomsky, <i>David Kimhi’s Hebrew Grammar</i>, 1952; the translator was the father of Noam Chomsky), in paraphrase.` },
 

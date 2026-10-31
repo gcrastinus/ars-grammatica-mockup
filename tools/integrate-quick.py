@@ -19,6 +19,8 @@ Checks (a failing deck is not written unless --force):
   every word of a Quick line comes from its source Full lines, or is a joining word (and, both, but, so, or);
   no dashes; source numbers valid and in Full order; card field matches the cards of its sources and every card
   that has a Full line is covered (only when a cardmap is given); about 10 to 12 lines; at least 80 words in all.
+  Exception (SPLIT_DECKS, the five Section XI decks split from xi.traditions on 31 Oct 2026): 6 to 9 lines, and the
+  card coverage check is skipped (the card field must still match its sources). Every other deck is checked as above.
 Each line is written as {html, card, from}: html is shown in the tablet; card and from are notes for editors.
 Decks already in recitation-quick.js are kept unless the input supplies them again; decks no longer in data/structure.js are dropped. A deck with no entry shows Full only.
 """
@@ -27,6 +29,7 @@ import json, os, re, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'recitation-quick.js')
 JOIN = {'and', 'both', 'but', 'so', 'or'}
+SPLIT_DECKS = {'xi.neareast', 'xi.sanskrit', 'xi.arabic', 'xi.hebrew', 'xi.chinese'}  # 6 to 9 lines, no coverage check
 HEAD = ("'use strict';\n/* Quick recitations for the Recitation Tablet: about ten to twelve core claims for each deck.\n"
         "   Quick is offered first; the Full recitation (each deck's recitation field in data/decks) opens once the student presses \"Done\" on Quick.\n"
         "   A deck not listed here has only its Full recitation, as before. Empty until Timothy approves the lines.\n"
@@ -57,7 +60,10 @@ def check(deck, lines, full, cm):
     F = full.get(deck)
     if F is None: return ['not a deck in data/decks']
     if not F: probs.append('deck has no Full recitation')
-    if not (10 <= len(lines) <= 12) and not (len(F) <= 12 and len(lines) < len(F)):
+    split = deck in SPLIT_DECKS
+    if split:
+        if not 6 <= len(lines) <= 9: probs.append('%d lines (expected 6 to 9)' % len(lines))
+    elif not (10 <= len(lines) <= 12) and not (len(F) <= 12 and len(lines) < len(F)):
         probs.append('%d lines (expected about 10 to 12)' % len(lines))
     C = (cm or {}).get(deck, {}).get('card')
     cov = set(); prev = 0
@@ -78,7 +84,7 @@ def check(deck, lines, full, cm):
             if card != cs: probs.append('Q%d: card %r but sources are on %r' % (k, l.get('card'), cs))
     if C and len(C) == len(F):
         miss = sorted(set(C) - cov)
-        if miss: probs.append('cards not covered %s' % miss)
+        if miss and not split: probs.append('cards not covered %s' % miss)
     elif cm is not None: probs.append('no usable card map for this deck (coverage not checked)')
     n = sum(len(re.sub(r'<[^>]+>', ' ', l.get('html', '')).split()) for l in lines)
     if n < 80: probs.append('only %d words in all (under 80)' % n)

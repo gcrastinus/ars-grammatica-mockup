@@ -284,7 +284,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 49. Each began from what was most evident in its language and writing: the bilingual match, the sign and its determinative, the root and affix, the governor of the ending, the three-letter root, and the written character.
 50. The traditions agree in some things: all distinguish words that name things from words that relate them; most distinguish the noun from the verb; and several connect the verb with becoming or action.
 51. They differ in the number of the parts of speech, in where they place meaning, and in how they explain construction.
-52. Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question that we have seen before, when we considered aspects of modern grammar and linguistics.
+52. Whether these agreements show a grammar common to all languages, and whether the differences are only of accidents, as Roger Bacon held, is a question that we considered in Section VIII, with universal grammar and typology.
 53. Since the late Middle Ages, language has been studied in three principal ways: the classical art, philology, and modern linguistics.
 54. The twentieth century found things that the thirteenth did not: phonology, a clear account of the structure of words, the grouping of words into constituents, the comparison of hundreds of languages and the discovery of their tendencies, and a serious study of how children acquire a language.
 55. Saussure’s description of a language as a system was a real discovery, and so was Greenberg’s method of comparison.

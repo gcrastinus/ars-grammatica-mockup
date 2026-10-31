@@ -92,11 +92,11 @@ def run(url):
     with sync_playwright() as p:
         b = p.chromium.launch(args=['--no-sandbox'])
         c = b.new_context(); pg = c.new_page(); pg.goto(url + 'index.html'); pg.wait_for_selector('#recite-open')
-        # 59 decks with Quick lines (xi.traditions, split 31 Oct 2026 into five decks without Quick lines yet, is dropped too), every one a deck in the course (xi.modern was dissolved 30 Oct 2026 and
+        # 64 decks with Quick lines (xi.traditions, split 31 Oct 2026, is dropped; its five decks have their own 8 or 9 line Quick sets), every one a deck in the course (xi.modern was dissolved 30 Oct 2026 and
         # integrate-quick drops decks no longer in data/structure.js)
         quick = pg.evaluate("window.__arsQuickRecitations")
         live = pg.evaluate("Object.keys(window.__arsQuickRecitations).filter(id => ARS.structure.some(s => s.items.some(i => i.id === id)))")
-        check('59 decks loaded', len(quick) == 59 and len(live) == 59 and 'xi.modern' not in quick and 'xi.traditions' not in quick, (len(quick), len(live))); c.close()
+        check('64 decks loaded', len(quick) == 64 and len(live) == 64 and all(d in quick for d in ('xi.neareast','xi.sanskrit','xi.arabic','xi.hebrew','xi.chinese')) and len(quick['xi.neareast']) == 9 and 'xi.modern' not in quick and 'xi.traditions' not in quick, (len(quick), len(live))); c.close()
         for width in (1280, 390):
             for dark in (False, True):
                 tag = '%d-%s' % (width, 'dark' if dark else 'light')

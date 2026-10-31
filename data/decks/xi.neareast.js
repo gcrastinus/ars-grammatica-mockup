@@ -198,7 +198,7 @@ ARS.decks['xi.neareast'] = {
 { id: 'eg-stages',
   title: 'Egyptian and its stages',
   body: `<p>Egyptian was written for more than three thousand years, longer than any other language we know of, and it changed as Latin changed into the Romance languages. Egyptologists divide it into five stages: <strong>Old Egyptian</strong>, from the first long inscriptions to about 2100 BC; <strong>Middle Egyptian</strong>, spoken from about 2100 BC for some five centuries; <strong>Late Egyptian</strong>, the speech of the New Kingdom; <strong>Demotic</strong>, from about 650 BC; and <strong>Coptic</strong>, the last stage, written from the first centuries AD.</p>
-<p>Middle Egyptian was the classical stage. Long after it ceased to be spoken, it remained the language of monuments and of the school, and scribes who spoke Late Egyptian learned it from its classic texts, as the Babylonian scribes learned Sumerian and as the West learned Latin. So the Egyptian case is like the one we have just seen: a classical language kept in a school after speech had moved on.</p>`,
+<p>Middle Egyptian was the classical stage. Long after it ceased to be spoken, it remained the language of monuments and of the school, and scribes who spoke Late Egyptian learned it from its classic texts, as the Babylonian scribes learned Sumerian and as the West learned Latin. So the Egyptian case is like that of Sumerian among the Babylonian scribes: a classical language kept in a school after speech had moved on.</p>`,
   src: `J. P. Allen, <i>Middle Egyptian</i> (2nd ed., 2010), ch. 1, in paraphrase; A. Gardiner, <i>Egyptian Grammar</i> (3rd ed., 1957), Introduction, in paraphrase.` },
 
 { id: 'eg-school',
@@ -209,7 +209,7 @@ ARS.decks['xi.neareast'] = {
 
 { id: 'eg-signs',
   title: 'How hieroglyphs write',
-  body: `<p>We saw in Section I that writing is a sign of speech, and in the scribal card that one cuneiform sign may write a word or a syllable. Hieroglyphic writing mixes the same two kinds of sign. A <strong>logogram</strong> writes a whole word, often with a stroke beneath it to show that the sign means what it pictures: the plan of a house with a stroke is <i>pr</i>, “house.” A <strong>phonogram</strong> writes only sounds: some signs write one consonant (the mouth for <i>r</i>), some two (the house plan for <i>pr</i> in other words), and some three (the beetle for <i>khpr</i>). The vowels are not written at all, so we do not know exactly how most words were pronounced.</p>
+  body: `<p>We saw in Section I that writing is a sign of speech, and in the Babylonian sign lists that one cuneiform sign may write a word or a syllable. Hieroglyphic writing mixes the same two kinds of sign. A <strong>logogram</strong> writes a whole word, often with a stroke beneath it to show that the sign means what it pictures: the plan of a house with a stroke is <i>pr</i>, “house.” A <strong>phonogram</strong> writes only sounds: some signs write one consonant (the mouth for <i>r</i>), some two (the house plan for <i>pr</i> in other words), and some three (the beetle for <i>khpr</i>). The vowels are not written at all, so we do not know exactly how most words were pronounced.</p>
 <p>A word is often written with a longer sign followed by one or two single-consonant signs that repeat part of its sound. These are called <strong>phonetic complements</strong>; they help the reader choose the right reading, as the Babylonian scribes sometimes added a syllable to show which reading of a sign was meant. So the Egyptian sign, like the cuneiform sign, has a figure and a power, and its power may be a word or only a sound.</p>
 <p>The grammars write some Egyptian consonants with a mark beneath the letter, or with a sign of their own. These cards use plainer forms: <i>dj</i>, <i>kh</i>, and <i>tj</i> for three of the marked letters, as Allen writes them in Egyptian names in English, and <i>a</i> for the letter that the grammars print as two small hooks. So the beetle sign writes <i>khpr</i>, and the model verb of the grammars appears here as <i>sdjm</i>, “hear.”</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 17–22 and 32 and Sign-list (O1, D21, L1), in paraphrase; Allen, <i>Middle Egyptian</i>, chs. 1–3, in paraphrase.`,
@@ -305,7 +305,7 @@ ARS.decks['xi.neareast'] = {
 { id: 'eg-suffix',
   title: 'The suffix pronouns',
   body: `<p>Egyptian has short pronouns that are joined to the end of a word, which grammars call the <strong>suffix pronouns</strong>. The commonest are <i>.i</i> “I, my,” <i>.k</i> “you, your” (masculine), <i>.t</i> “you, your” (feminine), <i>.f</i> “he, his,” <i>.s</i> “she, her,” <i>.n</i> “we, our,” <i>.tn</i> “you, your” (plural), and <i>.sn</i> “they, their.”</p>
-<p>Joined to a noun, a suffix shows the possessor: <i>pr.f</i>, “his house.” Joined to a verb, it is the subject: <i>sdjm.f</i>, “he hears.” So one small set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb, the <i>-ō</i>, <i>-s</i>, <i>-t</i> of <i>amō</i>, <i>amās</i>, <i>amat</i>. We shall see the same thing in Arabic and in Hebrew.</p>`,
+<p>Joined to a noun, a suffix shows the possessor: <i>pr.f</i>, “his house.” Joined to a verb, it is the subject: <i>sdjm.f</i>, “he hears.” So one small set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb, the <i>-ō</i>, <i>-s</i>, <i>-t</i> of <i>amō</i>, <i>amās</i>, <i>amat</i>. Arabic and Hebrew, which we consider in XI.3 and XI.4, do the same.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, § 34, in paraphrase; Allen, <i>Middle Egyptian</i>, ch. 5, in paraphrase.`,
   qp: {
     "id": "q-eg-suffix",
@@ -349,13 +349,13 @@ ARS.decks['xi.neareast'] = {
 { id: 'eg-genitive',
   title: 'The genitive',
   body: `<p>Egyptian has no case endings, so it shows the genitive by placing the nouns. In the <strong>direct genitive</strong> the possessor simply follows the thing possessed: <i>nb tawy</i>, “lord of the Two Lands.” In the <strong>indirect genitive</strong> the two nouns are joined by a word meaning “of,” which agrees with the first noun: <i>n</i> after a masculine noun, <i>nt</i> after a feminine, and <i>nw</i> after a plural.</p>
-<p>Latin shows the same relation by an ending, the genitive case, which we studied in Section II. Egyptian shows it by order and by a joining word, and the agreement of that word with the first noun recalls the Hebrew construct state and the Arabic annexation, which we shall meet in their own decks.</p>`,
+<p>Latin shows the same relation by an ending, the genitive case, which we studied in Section II. Egyptian shows it by order and by a joining word, and the agreement of that word with the first noun recalls the Hebrew construct state and the Arabic annexation, which we consider in XI.4 and XI.3.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 85–86, in paraphrase; Allen, <i>Middle Egyptian</i>, ch. 4, in paraphrase.` },
 
 { id: 'eg-nonverbal',
   title: 'Sentences without a verb',
   body: `<p>Many Egyptian sentences have no verb, and grammars divide them by their predicate. In the <strong>adverbial sentence</strong> the predicate is a phrase of place or state: <i>iw.f m pr</i>, “he is in the house.” In the <strong>nominal sentence</strong> a noun is said of a noun, often with the little word <i>pw</i>, “this”: <i>ntjr pw</i>, “he is a god.” In the <strong>adjectival sentence</strong> an adjective comes first: <i>nfr sw</i>, “he is good.”</p>
-<p>Latin too can leave out the verb “to be,” above all in proverbs, but the copula is always understood, and our art supplies <i>est</i> when it parses the sentence. Egyptian grammar does not need to supply one, and the Arabic grammarians, as we shall see, made the sentence without a verb one of their two kinds of sentence.</p>`,
+<p>Latin too can leave out the verb “to be,” above all in proverbs, but the copula is always understood, and our art supplies <i>est</i> when it parses the sentence. Egyptian grammar does not need to supply one, and the Arabic grammarians (XI.3) made the sentence without a verb one of their two kinds of sentence.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, §§ 117–137, in paraphrase; Allen, <i>Middle Egyptian</i>, chs. 7, 10, 11, in paraphrase.`,
   qp: {
     "id": "q-eg-nonverbal",

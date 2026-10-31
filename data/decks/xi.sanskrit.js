@@ -70,7 +70,7 @@ ARS.decks['xi.sanskrit'] = {
 
 { id: 'sutra',
   title: 'The sūtra',
-  body: `<p>Donatus, as we have seen, teaches grammar by questions and answers, defining each part of speech and naming its accidents. The Sanskrit grammar takes a different form. Pāṇini’s grammar does not explain; it consists of nearly four thousand rules called <strong>sūtras</strong> (“threads”), each stated in as few syllables as possible, with technical abbreviations of Pāṇini’s own invention. The rules are ordered so that a later rule can rely on an earlier one, and together they generate the correct forms of Sanskrit from roots and affixes.</p>
+  body: `<p>Donatus, as we saw in Section III, teaches grammar by questions and answers, defining each part of speech and naming its accidents. The Sanskrit grammar takes a different form. Pāṇini’s grammar does not explain; it consists of nearly four thousand rules called <strong>sūtras</strong> (“threads”), each stated in as few syllables as possible, with technical abbreviations of Pāṇini’s own invention. The rules are ordered so that a later rule can rely on an earlier one, and together they generate the correct forms of Sanskrit from roots and affixes.</p>
 <p>So the Indian grammar is learned not by reading a chapter on the noun but by learning the rules in their order, with the commentaries that explain them. Patañjali’s <i>Great Commentary</i> discusses why each rule is needed and what would go wrong without it. This is a different form of art from Donatus’s questions and answers: it aims at a complete and economical set of rules from which every correct form can be derived.</p>`,
   src: `Pāṇini, <i>Aṣṭādhyāyī</i> (Vasu for reference); Patañjali, <i>Mahābhāṣya</i>; both in paraphrase.` },
 
