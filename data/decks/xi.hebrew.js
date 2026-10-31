@@ -165,7 +165,7 @@ ARS.decks['xi.hebrew'] = {
 { id: 'hayyuj',
   title: 'Judah Ḥayyūj',
   body: `<p>The dispute over the root, between Menahem ben Saruq and Dunash ben Labrat, was settled by Judah ben David Ḥayyūj (about 945 to about 1000), who lived in Córdoba. He wrote two treatises in Arabic on the Hebrew verbs whose roots contain weak letters and on the verbs whose second and third letters are the same. In them he established the principle that every Hebrew verb has a root of three consonants, and he explained the apparently irregular forms by rules of how the weak letters behave.</p>
-<p>Ḥayyūj’s principle made a systematic grammar of the Hebrew verb possible, because it allowed every form to be traced to a regular root. It is the Hebrew counterpart of the Arabic doctrine of the root, which goes back to Sībawayh (XI.3), and of the Sanskrit derivation from roots, although in Hebrew, as in Arabic, the root is a set of consonants into which vowels are inserted. Ḥayyūj’s works have no complete published English translation, and they are known chiefly through later grammarians.</p>`,
+<p>Ḥayyūj’s principle made a systematic grammar of the Hebrew verb possible, because it allowed every form to be traced to a regular root. It is the Hebrew counterpart of the Arabic grammarians’ doctrine of the root (XI.3), and of the Sanskrit derivation from roots, although in Hebrew, as in Arabic, the root is a set of consonants into which vowels are inserted. Ḥayyūj’s works have no complete published English translation, and they are known chiefly through later grammarians.</p>`,
   src: `Judah Ḥayyūj, treatises on the weak and doubled verbs (no published English translation), in paraphrase.` },
 
 { id: 'ibn-janah',

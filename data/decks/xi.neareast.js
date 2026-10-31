@@ -305,7 +305,7 @@ ARS.decks['xi.neareast'] = {
 { id: 'eg-suffix',
   title: 'The suffix pronouns',
   body: `<p>Egyptian has short pronouns that are joined to the end of a word, which grammars call the <strong>suffix pronouns</strong>. The commonest are <i>.i</i> “I, my,” <i>.k</i> “you, your” (masculine), <i>.t</i> “you, your” (feminine), <i>.f</i> “he, his,” <i>.s</i> “she, her,” <i>.n</i> “we, our,” <i>.tn</i> “you, your” (plural), and <i>.sn</i> “they, their.”</p>
-<p>Joined to a noun, a suffix shows the possessor: <i>pr.f</i>, “his house.” Joined to a verb, it is the subject: <i>sdjm.f</i>, “he hears.” So one small set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb, the <i>-ō</i>, <i>-s</i>, <i>-t</i> of <i>amō</i>, <i>amās</i>, <i>amat</i>. Arabic and Hebrew, which we consider in XI.3 and XI.4, do the same.</p>`,
+<p>Joined to a noun, a suffix shows the possessor: <i>pr.f</i>, “his house.” Joined to a verb, it is the subject: <i>sdjm.f</i>, “he hears.” So one small set of forms does the work that Latin divides between the possessive adjectives and the personal endings of the verb, the <i>-ō</i>, <i>-s</i>, <i>-t</i> of <i>amō</i>, <i>amās</i>, <i>amat</i>. Arabic and Hebrew, which are related to Egyptian, also join pronouns to the ends of nouns and verbs in this way.</p>`,
   src: `Gardiner, <i>Egyptian Grammar</i>, § 34, in paraphrase; Allen, <i>Middle Egyptian</i>, ch. 5, in paraphrase.`,
   qp: {
     "id": "q-eg-suffix",
