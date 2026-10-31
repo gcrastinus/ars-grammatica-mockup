@@ -6,13 +6,13 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Sign and Symbol (`i.sign`) | 42 | 1046 |
+| Sign and Symbol (`i.sign`) | 57 | 1414 |
 | Imposition (`i.imposition`) | 32 | 805 |
 | Signification and Consignification (`i.consignification`) | 44 | 1075 |
 | Categorematic and Syncategorematic Words (`i.syncategorematic`) | 26 | 649 |
-| The Functions of Language (`i.functions`) | 26 | 708 |
+| The Functions of Language (`i.functions`) | 46 | 1181 |
 | Ambiguity (`i.ambiguity`) | 21 | 561 |
-| **Section I, whole section** | **191** | **4844** |
+| **Section I, whole section** | **226** | **5685** |
 
 ## Sign and Symbol (`i.sign`)
 

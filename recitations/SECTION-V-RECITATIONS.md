@@ -6,17 +6,17 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Congruity (`v.congruity`) | 37 | 983 |
+| Congruity (`v.congruity`) | 41 | 1103 |
 | Agreement (*concordantia*) (`v.agreement`) | 33 | 742 |
 | Government (*regimen*) (`v.government`) | 31 | 638 |
 | Dependence (`v.dependence`) | 31 | 751 |
 | Order (*ordo*) (`v.order`) | 38 | 972 |
 | The Phrase (`v.phrase`) | 23 | 661 |
-| The Clause (`v.clause`) | 34 | 853 |
+| The Clause (`v.clause`) | 47 | 1202 |
 | The Period (`v.period`) | 26 | 691 |
 | Mood and Voice in Construction (`v.mood`) | 37 | 870 |
 | Figures of Construction (`v.figures`) | 32 | 836 |
-| **Section V, whole section** | **322** | **7997** |
+| **Section V, whole section** | **339** | **8466** |
 
 ## Congruity (`v.congruity`)
 
@@ -236,8 +236,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 ## The Clause (`v.clause`)
 
 1. A **clause** is a group of words that has its own subject and finite verb.
-2. Clauses that can stand as a sentence by themselves are called **independent** (or main) clauses; clauses that cannot, because they depend on another clause, are called **dependent** or **subordinate** clauses, two names that mean the same thing.
-3. A dependent clause is congruous but incomplete; it depends on a word in another clause and is used as a single part of speech: a noun, an adjective, or an adverb.
+2. Clauses that can stand as a sentence by themselves are called **independent** (or main) clauses; clauses that cannot, because they depend on another clause, are called **subordinate** clauses.
+3. A subordinate clause is congruous but incomplete; it depends on a word in another clause and is used as a single part of speech: a noun, an adjective, or an adverb.
 4. Every clause has a subject and a predicate.
 5. The **simple subject** is the noun or pronoun itself, and the **complete subject** is that word with all the words that depend on it.
 6. The **simple predicate** is the finite verb, and the **complete predicate** is the verb with all the words that depend on it.
@@ -245,30 +245,43 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 8. The patterns are these: subject and verb; subject, verb, and direct object; subject, verb, indirect object, and direct object; subject, linking verb, and predicate noun; subject, linking verb, and predicate adjective; and subject, verb, direct object, and objective complement.
 9. A **linking verb**, such as “be,” “seem,” or “become,” joins the subject to a word that renames or describes it, rather than carrying an action to an object.
 10. These patterns correspond to the valency of the verb, since each verb requires a certain number of words to complete it, and the patterns show what those words are.
-11. A dependent clause used as a noun, that is, as the subject, the object, or the complement of a verb, is called a **noun clause** (older grammars call it a substantive clause).
+11. A subordinate clause used as a noun, that is, as the subject, the object, or the complement of a verb, is called a **noun clause** (older grammars call it a substantive clause).
 12. A noun clause after a verb of saying, thinking, or knowing reports what was said or thought, and this report is called **indirect speech** (*ōrātiō oblīqua*).
 13. English uses a clause with “that” for indirect speech, whereas Latin usually uses the accusative and the infinitive.
 14. The report of a question is an **indirect question**, and in Latin its verb is in the subjunctive.
 15. An **adjective clause**, also called a **relative clause**, depends on a noun and tells which one or what kind; it usually begins with a relative pronoun, “who,” “which,” or “that.”
-16. The relative clause joins two constructions, because the relative belongs by its gender and number to the main clause and by its case to the dependent clause.
+16. The relative clause joins two constructions, because the relative belongs by its gender and number to the main clause and by its case to the subordinate clause.
 17. An **adverb clause** depends on a verb, an adjective, or another clause and tells when, where, why, how, under what condition, or in spite of what.
 18. The principal kinds of adverb clause are named by what they tell: **temporal** (when), **causal** (why), **conditional** (under what condition), **concessive** (in spite of what), **purpose** (the end aimed at), and **result** (what followed).
 19. A condition grants a case, and the main clause holds only in that case; a concession grants the case and holds that the main clause is true all the same.
-20. English marks the kinds of dependent clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.
+20. English marks the kinds of subordinate clause chiefly by the conjunction or relative word that begins them; Latin marks many of them by the mood of the verb as well.
 21. In Latin a clause of purpose and a clause of result both begin with *ut* and take the subjunctive, but a purpose clause is negated by *nē* and a result clause by *ut nōn*, and a result clause is usually prepared by a word of degree in the main clause.
 22. So the question to ask of a clause with *ut* is whether it states what was aimed at or what followed.
 23. The subjunctive marks what is not stated as a fact but as aimed at, supposed, or dependent on another.
 24. Sentences are classed by the clauses they contain.
-25. A **simple** sentence has one independent clause and no dependent clause, however long it is.
+25. A **simple** sentence has one independent clause and no subordinate clause, however long it is.
 26. A **compound** sentence has two or more independent clauses.
-27. A **complex** sentence has one independent clause and at least one dependent clause.
-28. A **compound-complex** sentence has at least two independent clauses and at least one dependent clause.
-29. The joining of clauses of equal rank, side by side, is called **parataxis** (Greek, “placing beside”); the joining of a dependent clause to a main clause is called **hypotaxis** (Greek, “placing under”).
+27. A **complex** sentence has one independent clause and at least one subordinate clause.
+28. A **compound-complex** sentence has at least two independent clauses and at least one subordinate clause.
+29. The joining of clauses of equal rank, side by side, is called **parataxis** (Greek, “placing beside”); the joining of a subordinate clause to a main clause is called **hypotaxis** (Greek, “placing under”).
 30. Latin prose, especially Cicero’s, favors hypotaxis, and its long sentences of many clauses are studied as the period.
-31. In a Reed and Kellogg diagram a dependent clause is drawn on a base (main line) of its own below the main line and joined by a dotted line to the word on which it depends.
+31. In a Reed and Kellogg diagram a subordinate clause is drawn on a base (main line) of its own below the main line and joined by a dotted line to the word on which it depends.
 32. An adjective clause is joined to its noun, an adverb clause to the word it modifies with the conjunction on the dotted line, and a noun clause used as an object is set on a support (a stilt) in the place of the object.
-33. The analysis of a sentence finds the independent clause and its pattern, then each dependent clause and the word on which it depends, then the phrases and single words that depend within each clause.
-34. A sentence with only one independent clause is complex, not compound, however many dependent clauses it has.
+33. The analysis of a sentence finds the independent clause and its pattern, then each subordinate clause and the word on which it depends, then the phrases and single words that depend within each clause.
+34. A sentence with only one independent clause is complex, not compound, however many subordinate clauses it has.
+35. Bloomfield sought to describe languages by strict procedures based on the observable forms of speech.
+36. Because meaning could not be observed in the same way, he and his followers set it aside as far as possible and described each language by the distribution of its sounds and forms.
+37. Bloomfield analyzed sentences into their immediate constituents, dividing a sentence first into two parts and then each part into its parts.
+38. This analysis resembles the classical division of the sentence into subject and predicate, but it was made without appeal to meaning, whereas the classical analysis rests on signification throughout.
+39. A generative grammar divides the sentence into its constituents by rules called **phrase-structure rules**, the first of which may state that a sentence consists of a noun phrase and a verb phrase (S → NP VP).
+40. Further rules divide each phrase, and the result can be drawn as a tree, with the sentence at the top and the words at the bottom.
+41. The phrase-structure tree groups words into phrases, whereas the dependency diagram of Thomas and Tesnière joins each word to the word on which it depends; the two describe the same sentence in different ways, and modern linguists continue to debate which is more fundamental.
+42. The classical tradition would grant that a sentence can be divided into phrases, but it would explain the division by the dependences, since for Thomas of Erfurt every construction joins a dependent and a terminant.
+43. Chomsky proposed rules called **transformations**, which relate one structure to another and derive the one form from the other (the passive from the active).
+44. Questions and negations were also derived by transformations from simpler structures.
+45. The classical grammarians had observed the same relations without this apparatus, and Chomsky’s transformations gave such observations a precise and general form.
+46. Chomsky distinguished the **deep structure** of a sentence, which represents its relations of meaning, from its **surface structure**, the form in which it is spoken.
+47. Two sentences can have the same surface form but different deep structures (“John is easy to please” and “John is eager to please”), and the classical analysis by dependences and sense distinguishes them in the same way.
 
 ## The Period (`v.period`)
 

@@ -56,11 +56,11 @@ ARS.exercises['v.review'] = {
   "mc-marked",
   "transform"
  ],
- "pool": 45,
+ "pool": 47,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 15,
-  "B": 15,
+  "A": 16,
+  "B": 16,
   "C": 15
  },
  "limit": "Only what V.1 to V.10 teach.",
@@ -304,6 +304,21 @@ ARS.exercises['v.review'] = {
    "explain": "The answer leaves out words (“They are”) that the hearer supplies from the question, so it shows ellipsis."
   },
   {
+   "id": "rv-A16",
+   "set": "A",
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "How did Bloomfield and his followers treat meaning?",
+   "options": [
+    "They made it the center of grammar",
+    "They set it aside as far as possible",
+    "They derived it from the modes of being",
+    "They studied it before the sounds"
+   ],
+   "answer": 1,
+   "explain": "Because meaning could not be observed as forms can, they set it aside as far as possible and described each language by the distribution of its sounds and forms."
+  },
+  {
    "id": "rv-B01",
    "set": "B",
    "deck": "v.congruity",
@@ -509,6 +524,21 @@ ARS.exercises['v.review'] = {
    ],
    "answer": 1,
    "explain": "Syllepsis is the figure in which one word is construed with several that differ in number, gender, or person, and agrees with only one of them."
+  },
+  {
+   "id": "rv-B16",
+   "set": "B",
+   "deck": "v.clause",
+   "type": "mc",
+   "prompt": "In Chomsky’s early theory, what does a transformation do?",
+   "options": [
+    "It changes the meaning of a word in the sentence",
+    "It translates a sentence from English into Latin",
+    "It adds a sound to a word",
+    "It derives one structure from another"
+   ],
+   "answer": 3,
+   "explain": "A transformation relates one structure to another, as the passive to the active, or a question to the corresponding statement."
   },
   {
    "id": "rv-C01",

@@ -7,7 +7,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Deck | Points | Words |
 |---|---|---|
 | The Word (*dictio*) and the Eight Parts (`iii.parts`) | 47 | 1261 |
-| The Reasons for the Parts (`iii.reasons`) | 46 | 1333 |
+| The Reasons for the Parts (`iii.reasons`) | 64 | 1891 |
 | Figure and Species (`iii.figure`) | 23 | 578 |
 | Homonymy and Synonymy (`iii.homonymy`) | 18 | 488 |
 | The Noun I: Kinds, Quality, and Comparison (`iii.noun-1`) | 30 | 814 |
@@ -20,7 +20,7 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | The Preposition (`iii.preposition`) | 23 | 525 |
 | The Conjunction (`iii.conjunction`) | 22 | 536 |
 | The Interjection (`iii.interjection`) | 18 | 435 |
-| **Section III, whole section** | **462** | **11977** |
+| **Section III, whole section** | **311** | **7913** |
 
 ## The Word (*dictio*) and the Eight Parts (`iii.parts`)
 

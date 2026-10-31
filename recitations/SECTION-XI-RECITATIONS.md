@@ -7,8 +7,8 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 | Deck | Points | Words |
 |---|---|---|
 | The Other Classical Traditions (`xi.traditions`) | 209 | 6165 |
-| Universal Grammar and Modern Linguistics (`xi.modern`) | 182 | 4861 |
-| **Section XI, whole section** | **391** | **11026** |
+| Universal Grammar and Modern Linguistics (`xi.modern`) | 182 | 4962 |
+| **Section XI, whole section** | **391** | **11127** |
 
 ## The Other Classical Traditions (`xi.traditions`)
 

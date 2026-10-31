@@ -22,11 +22,11 @@ ARS.exercises['xi.review'] = {
  "types": [
   "mc"
  ],
- "pool": 35,
+ "pool": 33,
  "rotation": "A, B, C, A, … (never shuffled)",
  "sets": {
-  "A": 11,
-  "B": 10,
+  "A": 10,
+  "B": 9,
   "C": 14
  },
  "limit": "Only what XI.1 and XI.2 teach.",
@@ -170,21 +170,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Philology asks what an author wrote and how his language came to be what it was; the classical art asks why grammar is as it is, and modern linguistics asks how a language works as a system and what is common to all."
-  },
-  {
-   "id": "rxi-A13",
-   "set": "A",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "How did Bloomfield and his followers treat meaning?",
-   "options": [
-    "They made it the center of grammar",
-    "They set it aside as far as possible",
-    "They derived it from the modes of being",
-    "They studied it before the sounds"
-   ],
-   "answer": 1,
-   "explain": "Because meaning could not be observed as forms can, they set it aside as far as possible and described each language by the distribution of its sounds and forms."
   },
   {
    "id": "rxi-A15",
@@ -335,21 +320,6 @@ ARS.exercises['xi.review'] = {
    ],
    "answer": 2,
    "explain": "Associative relations, later called paradigmatic, hold between an element and others that could take its place; syntagmatic relations hold between elements that occur together."
-  },
-  {
-   "id": "rxi-B14",
-   "set": "B",
-   "deck": "xi.modern",
-   "type": "mc",
-   "prompt": "In Chomsky’s early theory, what does a transformation do?",
-   "options": [
-    "It changes the meaning of a word in the sentence",
-    "It translates a sentence from English into Latin",
-    "It adds a sound to a word",
-    "It derives one structure from another"
-   ],
-   "answer": 3,
-   "explain": "A transformation relates one structure to another, as the passive to the active, or a question to the corresponding statement."
   },
   {
    "id": "rxi-C01",

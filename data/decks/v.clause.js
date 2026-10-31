@@ -1,5 +1,6 @@
 /* V.7 The Clause [v.clause]
    Plan (ITEM-LIST.md): 10 panels, 5 question points, 2 of them short analysis questions.
+   30 Oct 2026: 14 panels; panels bloomfield, phrase-structure and transformations moved from xi.modern, and deep-surface made from the second half of xi.modern competence (A7).
    Live material drawn on: DECKS.ensent (subject and predicate, the six patterns), DECKS.encl (clause, three works of a
    subordinate clause, four kinds of sentence, a longer period), DECKS.clauses (kinds of clause, purpose and result, indirect
    speech), DECKS.endiag (the diagram). */
@@ -44,7 +45,20 @@ ARS.decks['v.clause'] = {
     `In a Reed and Kellogg diagram a subordinate clause is drawn on a base (main line) of its own below the main line and joined by a dotted line to the word on which it depends.`,
     `An adjective clause is joined to its noun, an adverb clause to the word it modifies with the conjunction on the dotted line, and a noun clause used as an object is set on a support (a stilt) in the place of the object.`,
     `The analysis of a sentence finds the independent clause and its pattern, then each subordinate clause and the word on which it depends, then the phrases and single words that depend within each clause.`,
-    `A sentence with only one independent clause is complex, not compound, however many subordinate clauses it has.`
+    `A sentence with only one independent clause is complex, not compound, however many subordinate clauses it has.`,
+    `Bloomfield sought to describe languages by strict procedures based on the observable forms of speech.`,
+    `Because meaning could not be observed in the same way, he and his followers set it aside as far as possible and described each language by the distribution of its sounds and forms.`,
+    `Bloomfield analyzed sentences into their immediate constituents, dividing a sentence first into two parts and then each part into its parts.`,
+    `This analysis resembles the classical division of the sentence into subject and predicate, but it was made without appeal to meaning, whereas the classical analysis rests on signification throughout.`,
+    `A generative grammar divides the sentence into its constituents by rules called <strong>phrase-structure rules</strong>, the first of which may state that a sentence consists of a noun phrase and a verb phrase (S → NP VP).`,
+    `Further rules divide each phrase, and the result can be drawn as a tree, with the sentence at the top and the words at the bottom.`,
+    `The phrase-structure tree groups words into phrases, whereas the dependency diagram of Thomas and Tesnière joins each word to the word on which it depends; the two describe the same sentence in different ways, and modern linguists continue to debate which is more fundamental.`,
+    `The classical tradition would grant that a sentence can be divided into phrases, but it would explain the division by the dependences, since for Thomas of Erfurt every construction joins a dependent and a terminant.`,
+    `Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another and derive the one form from the other (the passive from the active).`,
+    `Questions and negations were also derived by transformations from simpler structures.`,
+    `The classical grammarians had observed the same relations without this apparatus, and Chomsky’s transformations gave such observations a precise and general form.`,
+    `Chomsky distinguished the <strong>deep structure</strong> of a sentence, which represents its relations of meaning, from its <strong>surface structure</strong>, the form in which it is spoken.`,
+    `Two sentences can have the same surface form but different deep structures (“John is easy to please” and “John is eager to please”), and the classical analysis by dependences and sense distinguishes them in the same way.`
   ],
   panels: [
 
@@ -160,6 +174,32 @@ ARS.decks['v.clause'] = {
   body: `<p>A subordinate clause can also be shown in a diagram, where it is drawn as a small sentence of its own attached to the word on which it depends. Reed and Kellogg draw a subordinate clause on a base (main line) of its own, below the main line of the sentence, and join it to the word on which it depends by a dotted line. An adjective clause is joined to its noun; an adverb clause to the verb or other word it modifies, with the conjunction written on the dotted line; and a noun clause used as an object is set up on a support, called a stilt, in the place of the object.</p>
 <p>So in “The tree that fell in the storm blocked the road,” the clause “that fell in the storm” is drawn on its own line, with a dotted line from “that” to “tree.” The diagram shows at a glance that the sentence has one independent clause and one subordinate clause, and on which word the subordinate clause depends.</p>`,
   src: `Reed and Kellogg, <i>Higher Lessons in English</i> (1877), on the diagram of clauses, in paraphrase.` },
+
+{ id: 'bloomfield',
+  title: 'Bloomfield and American structuralism',
+  body: `<p>A linguist who describes a language that has never been written must begin from what can be heard. In the United States, Leonard Bloomfield’s <i>Language</i> (1933) set the method of linguistics for a generation. Bloomfield sought to describe languages, many of them American Indian languages never before written, by strict procedures based on the observable forms of speech. Because meaning could not be observed in the same way, he and his followers set it aside as far as possible and described each language by the distribution of its sounds and forms.</p>
+<p>Bloomfield also analyzed sentences into their <strong>immediate constituents</strong>, dividing “The tall stranger smiled” first into “the tall stranger” and “smiled,” and then each part into its parts. This analysis by constituents resembles the classical division of the sentence into subject and predicate, and the diagram of Reed and Kellogg; but it was made without appeal to meaning, whereas the classical analysis rests on signification throughout.</p>`,
+  src: `Bloomfield, <i>Language</i> (1933), in paraphrase.` },
+
+/* ---------- Generative grammar (8) ---------- */
+
+{ id: 'phrase-structure',
+  title: 'Phrase-structure rules',
+  body: `<p>We can divide “The child reads the story” into “the child” and “reads the story,” and then divide each part again. A generative grammar does this by rules that divide the sentence into its constituents, called <strong>phrase-structure rules</strong>. The first rule may state that a sentence (S) consists of a noun phrase (NP) and a verb phrase (VP): S → NP VP. Further rules divide each phrase: NP → Det N (a determiner and a noun, as “the child”), VP → V NP (a verb and a noun phrase, as “reads the story”). The result can be drawn as a tree, with the sentence at the top and the words at the bottom.</p>
+<p>The phrase-structure tree groups words into phrases, as Bloomfield’s immediate constituents do, whereas the dependency diagram of Thomas and Tesnière, which we studied earlier in this section, joins each word to the word on which it depends. The two kinds of analysis describe the same sentence in different ways, and modern linguists continue to debate which is more fundamental.</p>
+<p>The classical tradition would grant that a sentence can be divided in this way, as it divides a sentence into subject and predicate; but it would explain the division by the dependences, since for Thomas of Erfurt every construction joins a dependent and a terminant, and a group of words is one part of a sentence because its words depend on one another.</p>`,
+  src: `Chomsky, <i>Syntactic Structures</i>, ch. 4, in paraphrase.` },
+
+{ id: 'transformations',
+  title: 'Transformations',
+  body: `<p>The active “The child spilled the milk” and the passive “The milk was spilled by the child” express the same relations of doer and thing done in two forms. Chomsky proposed rules called <strong>transformations</strong>, which relate one structure to another; a transformation derives the one form from the other. Questions, such as “Did the child spill the milk?”, and negations, such as “The child did not spill the milk,” were also derived by transformations from simpler structures.</p>
+<p>The classical grammarians had observed the same relations without this apparatus. We saw in Section III that the active and passive describe the same event with different subjects, and we will see in Section VIII that the Port-Royal grammarians analyzed one sentence as a combination of simpler judgments. Chomsky’s transformations gave such observations a precise and general form.</p>`,
+  src: `Chomsky, <i>Syntactic Structures</i>, ch. 5–7, in paraphrase.` },
+
+{ id: 'deep-surface',
+  title: 'Deep and surface structure',
+  body: `<p>In <i>Aspects of the Theory of Syntax</i> (1965) Chomsky distinguished the <strong>deep structure</strong> of a sentence, which represents its relations of meaning, from its <strong>surface structure</strong>, the form in which it is spoken. “John is easy to please” and “John is eager to please” have the same surface form but different deep structures, because in the first John is the one pleased and in the second John is the one who pleases. The classical analysis of the sentence by its dependences and its sense, which we will practice in Section IX, distinguishes such sentences in the same way.</p>`,
+  src: `Chomsky, <i>Aspects of the Theory of Syntax</i> (1965), ch. 1, in paraphrase.` },
 
 { id: 'johnson',
   title: 'Analyzing a sentence of Johnson',

@@ -6,10 +6,10 @@ Data shape: a deck-level field `recitation: [ '…', '…' ]`, an array of strin
 
 | Deck | Points | Words |
 |---|---|---|
-| Derivation (`iv.derivation`) | 30 | 677 |
+| Derivation (`iv.derivation`) | 43 | 1015 |
 | Composition (`iv.composition`) | 23 | 590 |
-| Etymology (`iv.etymology`) | 35 | 916 |
-| **Section IV, whole section** | **88** | **2183** |
+| Etymology (`iv.etymology`) | 53 | 1398 |
+| **Section IV, whole section** | **119** | **3003** |
 
 ## Derivation (`iv.derivation`)
 
